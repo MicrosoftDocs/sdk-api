@@ -1,0 +1,93 @@
+---
+UID: NF:rpcproxy.NdrProxyInitialize
+title: NdrProxyInitialize function
+author: windows-driver-content
+description: The NdrProxyInitialize function initializes the proxy for an object method.
+old-location: rpc\ndrproxyinitialize.htm
+old-project: Rpc
+ms.assetid: 54037337-9166-4023-8470-65ad247ceee5
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: NdrProxyInitialize, NdrProxyInitialize function [RPC], rpc.ndrproxyinitialize, rpcproxy/NdrProxyInitialize
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: rpcproxy.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: NDR_USER_MARSHAL_INFO_LEVEL1
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	RpcRT4.dll
+api_name:
+-	NdrProxyInitialize
+product: Windows
+targetos: Windows
+req.lib: RpcRT4.lib
+req.dll: RpcRT4.dll
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# NdrProxyInitialize function
+
+
+## -description
+
+
+The <b>NdrProxyInitialize</b> function initializes the proxy for an object method.
+
+
+## -parameters
+
+
+
+
+### -param This [in]
+
+Pointer to the interface proxy.
+
+
+### -param pRpcMsg [in]
+
+Pointer to an <a href="https://msdn.microsoft.com/fd014622-97b3-4f76-8bc3-10821aa3c46e">RPC_MESSAGE</a> structure that  contains information about the RPC request. 
+
+
+### -param pStubMsg [in, out]
+
+Pointer to a <a href="https://msdn.microsoft.com/9bd021f6-10c9-4e77-be75-9a89a3a016e0">MIDL_STUB_MESSAGE</a> structure that maintains the current status of the RPC stub. Structure is for internal use only; do not modify.
+
+
+### -param pStubDescriptor [in]
+
+Pointer to a <a href="https://msdn.microsoft.com/e3178aaa-a30a-43ba-a78a-a28d6f20fa74">MIDL_STUB_DESC</a> structure that contains a descriptor for the RPC stub. Structure is for internal use only; do not modify.
+
+
+### -param ProcNum [in]
+
+Procedure  number for the object method.
+
+
+## -returns
+
+
+
+This function has no return values. Throws an exception upon error.
+
+
+

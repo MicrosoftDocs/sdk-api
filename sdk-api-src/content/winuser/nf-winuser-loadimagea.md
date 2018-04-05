@@ -1,0 +1,448 @@
+---
+UID: NF:winuser.LoadImageA
+title: LoadImageA function
+author: windows-driver-content
+description: Loads an icon, cursor, animated cursor, or bitmap.
+old-location: menurc\loadimage.htm
+old-project: menurc
+ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\loadimage.htm
+ms.author: windowsdriverdev
+ms.date: 3/29/2018
+ms.keywords: IMAGE_BITMAP, IMAGE_CURSOR, IMAGE_ICON, LR_CREATEDIBSECTION, LR_DEFAULTCOLOR, LR_DEFAULTSIZE, LR_LOADFROMFILE, LR_LOADMAP3DCOLORS, LR_LOADTRANSPARENT, LR_MONOCHROME, LR_SHARED, LR_VGACOLOR, LoadImage, LoadImage function [Menus and Other Resources], LoadImageA, LoadImageW, _win32_LoadImage, _win32_loadimage_cpp, menurc.loadimage, winui._win32_loadimage, winuser/LoadImage, winuser/LoadImageA, winuser/LoadImageW
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: winuser.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: LoadImageW (Unicode) and LoadImageA (ANSI)
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: AR_STATE, *PAR_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	User32.dll
+-	Ext-MS-Win-NTUser-GUI-l1-1-0.dll
+-	Ext-MS-Win-NTUser-GUI-l1-1-1.dll
+-	Ext-MS-Win-NTUser-GUI-l1-2-0.dll
+-	api-ms-win-ntuser-ie-gui-l1-1-0.dll
+-	ie_stubs.dll
+-	ext-ms-win-ntuser-gui-l1-2-1.dll
+-	Ext-MS-Win-NTUser-Gui-L1-3-0.dll
+api_name:
+-	LoadImage
+-	LoadImageA
+-	LoadImageW
+product: Windows
+targetos: Windows
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# LoadImageA function
+
+
+## -description
+
+
+Loads an icon, cursor, animated cursor, or bitmap.
+
+
+## -parameters
+
+
+
+
+### -param hInst
+
+TBD
+
+
+### -param name
+
+TBD
+
+
+### -param type
+
+TBD
+
+
+### -param cx
+
+TBD
+
+
+### -param cy
+
+TBD
+
+
+### -param fuLoad [in]
+
+Type: <b>UINT</b>
+
+This parameter can be one or more of the following values.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="LR_CREATEDIBSECTION"></a><a id="lr_createdibsection"></a><dl>
+<dt><b>LR_CREATEDIBSECTION</b></dt>
+<dt>0x00002000</dt>
+</dl>
+</td>
+<td width="60%">
+When the <i>uType</i> parameter specifies <b>IMAGE_BITMAP</b>, causes the function to return a DIB section bitmap rather than a compatible bitmap. This flag is useful for loading a bitmap without mapping it to the colors of the display device.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="LR_DEFAULTCOLOR"></a><a id="lr_defaultcolor"></a><dl>
+<dt><b>LR_DEFAULTCOLOR</b></dt>
+<dt>0x00000000</dt>
+</dl>
+</td>
+<td width="60%">
+The default flag; it does nothing. All it means is "not <b>LR_MONOCHROME</b>".
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="LR_DEFAULTSIZE"></a><a id="lr_defaultsize"></a><dl>
+<dt><b>LR_DEFAULTSIZE</b></dt>
+<dt>0x00000040</dt>
+</dl>
+</td>
+<td width="60%">
+Uses the width or height specified by the system metric values for cursors or icons, if the <i>cxDesired</i> or <i>cyDesired</i> values are set to zero. If this flag is not specified and <i>cxDesired</i> and <i>cyDesired</i> are set to zero, the function uses the actual resource size. If the resource contains multiple images, the function uses the size of the first image.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="LR_LOADFROMFILE"></a><a id="lr_loadfromfile"></a><dl>
+<dt><b>LR_LOADFROMFILE</b></dt>
+<dt>0x00000010</dt>
+</dl>
+</td>
+<td width="60%">
+Loads the stand-alone image from the file specified by  <i>lpszName</i> (icon, cursor, or bitmap file).
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="LR_LOADMAP3DCOLORS"></a><a id="lr_loadmap3dcolors"></a><dl>
+<dt><b>LR_LOADMAP3DCOLORS</b></dt>
+<dt>0x00001000</dt>
+</dl>
+</td>
+<td width="60%">
+Searches the color table for the image and replaces the following shades of gray with the corresponding 3-D color.
+						
+                        
+
+<ul>
+<li>Dk Gray, RGB(128,128,128) with <b>COLOR_3DSHADOW</b></li>
+<li>Gray, RGB(192,192,192) with <b>COLOR_3DFACE</b></li>
+<li>Lt Gray, RGB(223,223,223) with <b>COLOR_3DLIGHT</b></li>
+</ul>
+Do not use this option if you are loading a bitmap with a color depth greater than 8bpp.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="LR_LOADTRANSPARENT"></a><a id="lr_loadtransparent"></a><dl>
+<dt><b>LR_LOADTRANSPARENT</b></dt>
+<dt>0x00000020</dt>
+</dl>
+</td>
+<td width="60%">
+Retrieves the color value of the first pixel in the image and replaces the corresponding entry in the color table with the default window color (<b>COLOR_WINDOW</b>). All pixels in the image that use that entry become the default window color. This value applies only to images that have corresponding color tables.
+
+Do not use this option if you are loading a bitmap with a color depth greater than 8bpp.
+
+If <i>fuLoad</i> includes both the <b>LR_LOADTRANSPARENT</b> and <b>LR_LOADMAP3DCOLORS</b> values, <b>LR_LOADTRANSPARENT</b> takes precedence. However, the color table entry is replaced with <b>COLOR_3DFACE</b> rather than <b>COLOR_WINDOW</b>.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="LR_MONOCHROME"></a><a id="lr_monochrome"></a><dl>
+<dt><b>LR_MONOCHROME</b></dt>
+<dt>0x00000001</dt>
+</dl>
+</td>
+<td width="60%">
+Loads the image in black and white.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="LR_SHARED"></a><a id="lr_shared"></a><dl>
+<dt><b>LR_SHARED</b></dt>
+<dt>0x00008000</dt>
+</dl>
+</td>
+<td width="60%">
+Shares the image handle if the image is loaded multiple times. If <b>LR_SHARED</b> is not set, a second call to <b>LoadImage</b> for the same resource will load the image again and return a different handle. 
+
+When you use this flag, the system will destroy the resource when it is no longer needed.
+
+Do not use <b>LR_SHARED</b> for images that have non-standard sizes, that may change after loading, or that are loaded from a file.
+
+When loading a system icon or cursor, you must use <b>LR_SHARED</b> or the function will fail to load the resource.
+
+This function finds the first image in the cache with the requested resource name, regardless of the size requested.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="LR_VGACOLOR"></a><a id="lr_vgacolor"></a><dl>
+<dt><b>LR_VGACOLOR</b></dt>
+<dt>0x00000080</dt>
+</dl>
+</td>
+<td width="60%">
+Uses true VGA colors.
+
+</td>
+</tr>
+</table>
+ 
+
+
+#### - cxDesired [in]
+
+Type: <b>int</b>
+
+The width, in pixels, of the icon or cursor. If this parameter is zero and the <i>fuLoad</i> parameter is <b>LR_DEFAULTSIZE</b>, the function uses the <b>SM_CXICON</b> or <b>SM_CXCURSOR</b> system metric value to set the width. If this parameter is zero and <b>LR_DEFAULTSIZE</b> is not used, the function uses the actual resource width.
+
+
+#### - cyDesired [in]
+
+Type: <b>int</b>
+
+The height, in pixels, of the icon or cursor. If this parameter is zero and the <i>fuLoad</i> parameter is <b>LR_DEFAULTSIZE</b>, the function uses the <b>SM_CYICON</b> or <b>SM_CYCURSOR</b> system metric value to set the height. If this parameter is zero and <b>LR_DEFAULTSIZE</b> is not used, the function uses the actual resource height.
+
+
+#### - hinst [in, optional]
+
+Type: <b>HINSTANCE</b>
+
+A handle to the module of either a DLL or executable (.exe) that contains the image to be loaded. For more information, see <a href="https://msdn.microsoft.com/29514410-89fe-4888-8b34-0c30d5af237f">GetModuleHandle</a>. Note that as of  32-bit Windows, an instance handle (<b>HINSTANCE</b>), such as the application instance handle exposed by system function call of <a href="https://msdn.microsoft.com/e704ccb6-b4ab-4e1b-8d25-2209de3d38f8">WinMain</a>, and a module handle (<b>HMODULE</b>) are the same thing.
+
+
+To load an OEM image, set this parameter to <b>NULL</b>.
+
+To load a stand-alone resource (icon, cursor, or bitmap file)—for example, c:\myimage.bmp—set this parameter to <b>NULL</b>.
+
+
+#### - lpszName [in]
+
+Type: <b>LPCTSTR</b>
+
+The image to be loaded. If the <i>hinst</i> parameter is non-<b>NULL</b> and the <i>fuLoad</i> parameter omits <b>LR_LOADFROMFILE</b>, <i>lpszName</i> specifies the image resource in the <i>hinst</i> module. If the image resource is to be loaded by name from the module, the <i>lpszName</i> parameter is a pointer to a null-terminated string that contains the name of the image resource. If the image resource is to be loaded by ordinal from the module, use the <a href="https://msdn.microsoft.com/761df981-776f-43ca-9cc9-bb82a49f66e6">MAKEINTRESOURCE</a> macro to convert the image ordinal into a form that can be passed to the <b>LoadImage</b> function.
+
+					For more information, see the Remarks section below.
+
+If the <i>hinst</i> parameter is <b>NULL</b> and the <i>fuLoad</i> parameter omits the <b>LR_LOADFROMFILE</b> value, the <i>lpszName</i> specifies the OEM image to load. The OEM image identifiers are defined in Winuser.h and have the following prefixes.
+
+<table class="clsStd">
+<tr>
+<th>Prefix</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td><b>OBM_</b></td>
+<td>OEM bitmaps</td>
+</tr>
+<tr>
+<td><b>OIC_</b></td>
+<td>OEM icons</td>
+</tr>
+<tr>
+<td><b>OCR_</b></td>
+<td>OEM cursors</td>
+</tr>
+</table>
+ 
+
+To pass these constants to the <b>LoadImage</b> function, use the <a href="https://msdn.microsoft.com/761df981-776f-43ca-9cc9-bb82a49f66e6">MAKEINTRESOURCE</a> macro. For example, to load the <b>OCR_NORMAL</b> cursor, pass <code>MAKEINTRESOURCE(OCR_NORMAL)</code> as the <i>lpszName</i> parameter, <b>NULL</b> as the <i>hinst</i> parameter, and <b>LR_SHARED</b> as one of the flags to the <i>fuLoad</i> parameter.
+
+If the <i>fuLoad</i> parameter includes the <b>LR_LOADFROMFILE</b> value, <i>lpszName</i> is the name of the file that contains the  stand-alone resource (icon, cursor, or bitmap file). Therefore, set <i>hinst</i> to <b>NULL</b>.
+
+
+
+#### - uType [in]
+
+Type: <b>UINT</b>
+
+The type of image to be loaded. This parameter can be one of the following values.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="IMAGE_BITMAP"></a><a id="image_bitmap"></a><dl>
+<dt><b>IMAGE_BITMAP</b></dt>
+<dt>0</dt>
+</dl>
+</td>
+<td width="60%">
+Loads a bitmap.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="IMAGE_CURSOR"></a><a id="image_cursor"></a><dl>
+<dt><b>IMAGE_CURSOR</b></dt>
+<dt>2</dt>
+</dl>
+</td>
+<td width="60%">
+Loads a cursor.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="IMAGE_ICON"></a><a id="image_icon"></a><dl>
+<dt><b>IMAGE_ICON</b></dt>
+<dt>1</dt>
+</dl>
+</td>
+<td width="60%">
+Loads an icon.
+
+</td>
+</tr>
+</table>
+ 
+
+
+## -returns
+
+
+
+Type: <b>HANDLE</b>
+
+If the function succeeds, the return value is the handle of the newly loaded image.
+
+If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+
+
+
+
+## -remarks
+
+
+
+If <a href="https://msdn.microsoft.com/af7d1343-93b7-4e11-a299-3c2f19bb2e98">IS_INTRESOURCE</a>(<i>lpszName</i>) is <b>TRUE</b>, then <i>lpszName</i> specifies the integer identifier of the given resource. Otherwise, it is a pointer to a null-
+
+terminated string. If the first character of the string is a pound sign (#), then the remaining characters represent a decimal number that specifies the 
+
+integer identifier of the resource. For example, the string "#258" represents the identifier 258.
+
+When you are finished using a bitmap, cursor, or icon you loaded without specifying the <b>LR_SHARED</b> flag, you can release its associated memory by calling one of the functions in the following table.
+
+                
+
+
+<table class="clsStd">
+<tr>
+<th>Resource</th>
+<th>Release function</th>
+</tr>
+<tr>
+<td>Bitmap</td>
+<td>
+<a href="https://msdn.microsoft.com/cc679af0-6839-4c83-9c42-39d7ededda40">DeleteObject</a>
+</td>
+</tr>
+<tr>
+<td>Cursor</td>
+<td>
+<a href="https://msdn.microsoft.com/fee6d837-9fc7-4ea6-b5d7-3889a64ccdea">DestroyCursor</a>
+</td>
+</tr>
+<tr>
+<td>Icon</td>
+<td>
+<a href="https://msdn.microsoft.com/ffe21e34-ebe0-4ec8-830f-64c733ef9097">DestroyIcon</a>
+</td>
+</tr>
+</table>
+ 
+
+
+
+The system automatically deletes these resources when the process that created them terminates; however, calling the appropriate function saves memory and decreases the size of the process's working set.
+
+
+#### Examples
+
+For an example, see <a href="https://msdn.microsoft.com/ea9e36c9-b10d-441e-b1b5-1ab93e009e1d">Using Window Classes</a>.
+
+<div class="code"></div>
+
+
+
+## -see-also
+
+
+
+
+<b>Conceptual</b>
+
+
+
+<a href="https://msdn.microsoft.com/3912d9e3-f507-4046-80fd-12e76a61edc7">CopyImage</a>
+
+
+
+<a href="https://msdn.microsoft.com/d063857b-6036-4e68-80af-9c70d12ae29e">GetSystemMetrics</a>
+
+
+
+<a href="https://msdn.microsoft.com/5eed5f78-deaf-4b23-986e-4802dc05936c">LoadBitmap</a>
+
+
+
+<a href="https://msdn.microsoft.com/302f9238-4b03-4688-8b9b-a598beffb575">LoadCursor</a>
+
+
+
+<a href="https://msdn.microsoft.com/3a8099f8-9db7-4ef8-838f-ca8f272df531">LoadIcon</a>
+
+
+
+<b>Other Resources</b>
+
+
+
+<b>Reference</b>
+
+
+
+<a href="https://msdn.microsoft.com/ff321356-c999-4021-a537-fbe863996e24">Resources</a>
+ 
+
+ 
+

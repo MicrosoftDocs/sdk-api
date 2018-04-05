@@ -1,0 +1,107 @@
+---
+UID: NF:shdeprecated.IBrowserService2._SendChildren
+title: IBrowserService2::_SendChildren method
+author: windows-driver-content
+description: Deprecated. Allows the derived class to send a message through the SendMessage function directly instead of relying on the base class.
+old-location: shell\IBrowserService2__SendChildren.htm
+old-project: shell
+ms.assetid: 159516ce-1731-478a-8d84-85d0001f9c63
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: IBrowserService2, IBrowserService2 interface [Windows Shell], _SendChildren method, IBrowserService2::_SendChildren, _SendChildren method [Windows Shell], _SendChildren method [Windows Shell], IBrowserService2 interface, _SendChildren,IBrowserService2._SendChildren, shdeprecated/IBrowserService2::_SendChildren, shell.IBrowserService2__SendChildren, zone_IBrowserService2__SendChildren
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: shdeprecated.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Shdeprecated.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: BNSTATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Shdeprecated.h
+api_name:
+-	IBrowserService2._SendChildren
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5.0
+---
+
+# IBrowserService2::_SendChildren method
+
+
+## -description
+
+
+Deprecated. Allows the derived class to send a message through the <a href="https://msdn.microsoft.com/library/windows/hardware/jj151552">SendMessage</a> function directly instead of relying on the base class.
+
+
+## -parameters
+
+
+
+
+### -param hwndBar [in]
+
+Type: <b>HWND</b>
+
+A handle to the browser window whose window procedure receives the message.
+
+
+### -param fBroadcast [in]
+
+Type: <b>BOOL</b>
+
+
+          The <b>BOOL</b> that indicates whether to allow the derived class to broadcast the <a href="https://msdn.microsoft.com/library/windows/hardware/jj151552">SendMessage</a> function. <b>TRUE</b> to allow broadcasting; <b>FALSE</b> otherwise.
+        
+
+
+### -param uMsg [in]
+
+Type: <b>UINT</b>
+
+The message to be sent.
+
+
+### -param wParam [in, out]
+
+Type: <b>WPARAM</b>
+
+Additional message-specific information.
+
+
+### -param lParam [in, out]
+
+Type: <b>LPARAM</b>
+
+Additional message-specific information.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+

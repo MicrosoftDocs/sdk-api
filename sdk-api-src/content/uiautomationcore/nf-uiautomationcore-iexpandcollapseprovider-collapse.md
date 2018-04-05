@@ -1,0 +1,97 @@
+---
+UID: NF:uiautomationcore.IExpandCollapseProvider.Collapse
+title: IExpandCollapseProvider::Collapse method
+author: windows-driver-content
+description: Hides all child nodes, controls, or content of this element.
+old-location: winauto\uiauto_IExpandCollapseProvider_Collapse.htm
+old-project: WinAuto
+ms.assetid: a4915a1b-9418-4601-9333-f9508d63079a
+ms.author: windowsdriverdev
+ms.date: 3/29/2018
+ms.keywords: Collapse method [Windows Accessibility], Collapse method [Windows Accessibility], IExpandCollapseProvider interface, Collapse,IExpandCollapseProvider.Collapse, IExpandCollapseProvider, IExpandCollapseProvider interface [Windows Accessibility], Collapse method, IExpandCollapseProvider::Collapse, uiauto.uiauto_IExpandCollapseProvider_Collapse, uiauto_IExpandCollapseProvider_Collapse, uiautomationcore/IExpandCollapseProvider::Collapse, winauto.uiauto_IExpandCollapseProvider_Collapse
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: uiautomationcore.h
+req.include-header: UIAutomation.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: UIAutomationCore.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Uiautomationcore.dll
+api_name:
+-	IExpandCollapseProvider.Collapse
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Uiautomationcore.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# IExpandCollapseProvider::Collapse method
+
+
+## -description
+
+
+Hides all child nodes, controls, or content of this element.
+
+
+## -parameters
+
+
+
+
+
+
+## -returns
+
+
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+This is a blocking method that returns after the element has been collapsed.
+		
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/59d91498-54f8-40df-8224-52ff8e45f6c3">IExpandCollapseProvider</a>
+
+
+
+<a href="https://msdn.microsoft.com/8928c889-0e0a-439f-87e8-a9d121fcf73f">UI Automation Providers Overview</a>
+ 
+
+ 
+

@@ -1,0 +1,150 @@
+---
+UID: NF:segment.IMSVidAnalogTuner2.get_TunerModes
+title: IMSVidAnalogTuner2::get_TunerModes method
+author: windows-driver-content
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+old-location: mstv\imsvidanalogtuner2_get_tunermodes.htm
+old-project: mstv
+ms.assetid: dc5652d4-aa1d-480e-a5f4-05ed9d9b1887
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: IMSVidAnalogTuner2, IMSVidAnalogTuner2 interface [Microsoft TV Technologies], get_TunerModes method, IMSVidAnalogTuner2::get_TunerModes, IMSVidAnalogTuner2getTunerModes, get_TunerModes method [Microsoft TV Technologies], get_TunerModes method [Microsoft TV Technologies], IMSVidAnalogTuner2 interface, get_TunerModes,IMSVidAnalogTuner2.get_TunerModes, mstv.imsvidanalogtuner2_get_tunermodes, segment/IMSVidAnalogTuner2::get_TunerModes
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: segment.h
+req.include-header: Msvidctl.h
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Segment.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: SourceSizeList
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	segment.h
+api_name:
+-	IMSVidAnalogTuner2.get_TunerModes
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# IMSVidAnalogTuner2::get_TunerModes method
+
+
+## -description
+
+
+
+This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+        
+
+
+
+The <b>get_TunerModes</b> method retrieves a flag value that indicates which modes the tuner supports, such as TV or FM.
+
+
+## -parameters
+
+
+
+
+### -param Modes [out]
+
+Pointer to a variable that receives the modes flag. Possible values are the sum of one or more of the values in the following table.
+
+<table>
+<tr>
+<th>
+                  Value
+                </th>
+<th>
+                  Description
+                </th>
+</tr>
+<tr>
+<td>0x0000</td>
+<td>Default tuner mode.</td>
+</tr>
+<tr>
+<td>0x0001</td>
+<td>TV tuner mode.</td>
+</tr>
+<tr>
+<td>0x0002</td>
+<td>FM radio tuner mode.</td>
+</tr>
+<tr>
+<td>0x0004</td>
+<td>AM radio tuner mode.</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -returns
+
+
+
+Returns an <b>HRESULT</b> value. Possible values include the following.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_POINTER</b></dt>
+</dl>
+</td>
+<td width="60%">
+NULL pointer argument.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+Success.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/50d30a45-8cea-454c-b5d2-ff809b8a8206">IMSVidAnalogTuner2 Interface</a>
+ 
+
+ 
+

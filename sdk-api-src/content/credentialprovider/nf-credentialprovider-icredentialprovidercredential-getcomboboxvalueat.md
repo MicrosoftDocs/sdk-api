@@ -1,0 +1,90 @@
+---
+UID: NF:credentialprovider.ICredentialProviderCredential.GetComboBoxValueAt
+title: ICredentialProviderCredential::GetComboBoxValueAt method
+author: windows-driver-content
+description: Gets the string label for a combo box entry at the given index.
+old-location: shell\ICredentialProviderCredential_GetComboBoxValueAt.htm
+old-project: shell
+ms.assetid: e64c6b80-03c9-46a3-91bd-6cd67d666540
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: GetComboBoxValueAt method [Windows Shell], GetComboBoxValueAt method [Windows Shell], ICredentialProviderCredential interface, GetComboBoxValueAt,ICredentialProviderCredential.GetComboBoxValueAt, ICredentialProviderCredential, ICredentialProviderCredential interface [Windows Shell], GetComboBoxValueAt method, ICredentialProviderCredential::GetComboBoxValueAt, _shell_ICredentialProviderCredential_GetComboBoxValueAt, credentialprovider/ICredentialProviderCredential::GetComboBoxValueAt, shell.ICredentialProviderCredential_GetComboBoxValueAt
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: credentialprovider.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Credentialprovider.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: CREDENTIAL_PROVIDER_USAGE_SCENARIO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Credentialprovider.h
+api_name:
+-	ICredentialProviderCredential.GetComboBoxValueAt
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# ICredentialProviderCredential::GetComboBoxValueAt method
+
+
+## -description
+
+
+Gets the string label for a combo box entry at the given index.
+
+
+## -parameters
+
+
+
+
+### -param dwFieldID [in]
+
+Type: <b>DWORD</b>
+
+The identifier for the combo box to query.
+
+
+### -param dwItem
+
+Type: <b>DWORD</b>
+
+The index of the desired item.
+
+
+### -param ppszItem [out]
+
+Type: <b>LPWSTR*</b>
+
+A pointer to the string value that receives the combo box label.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+

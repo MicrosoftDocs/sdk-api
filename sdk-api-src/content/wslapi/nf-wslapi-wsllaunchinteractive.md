@@ -1,0 +1,100 @@
+---
+UID: NF:wslapi.WslLaunchInteractive
+title: WslLaunchInteractive function
+author: windows-driver-content
+description: Launches an interactive Windows Subsystem for Linux (WSL) process in the context of a particular distribution.
+old-location: wsl\wsllaunchinteractive.htm
+old-project: wsl
+ms.assetid: F9DF5B7A-D315-44B7-BB01-6440CCB4C64C
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: WslLaunchInteractive, WslLaunchInteractive function, wsl.wsllaunchinteractive, wslapi/WslLaunchInteractive
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: wslapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WSL_DISTRIBUTION_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	api-ms-win-wsl-api-l1-1-0.dll
+api_name:
+-	WslLaunchInteractive
+product: Windows
+targetos: Windows
+req.lib: Wslapi.lib
+req.dll: Api-ms-win-wsl-api-l1-1-0.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# WslLaunchInteractive function
+
+
+## -description
+
+
+Launches an interactive Windows Subsystem for Linux (WSL) process in the context of a particular distribution.This differs from <a href="https://msdn.microsoft.com/0C88BCF8-9FFC-4D7C-9A7C-F56F9A4FD7FC">WslLaunch</a> in that the end user will be able to interact with the newly-created process.
+
+
+## -parameters
+
+
+
+
+### -param distributionName
+
+TBD
+
+
+### -param command [in, optional]
+
+Command to execute. If no command is supplied, launches the default shell.
+
+
+### -param useCurrentWorkingDirectory [in]
+
+Governs whether or not the launched process should inherit the calling process's working directory. If FALSE, the process is started in the WSL default user's home directory ("~").
+
+
+### -param exitCode
+
+TBD
+
+
+
+
+#### - *pExitCode [out]
+
+Receives the exit code of the process after it exits.
+
+
+#### - distroName [in]
+
+Unique name representing a distribution (for example, "Fabrikam.Distro.10.01").
+
+
+## -returns
+
+
+
+Returns S_OK on success, or a failing HRESULT otherwise.
+
+
+

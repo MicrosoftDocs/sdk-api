@@ -1,0 +1,107 @@
+---
+UID: NF:mpegtype.IMpegAudioDecoder.put_IntegerDecode
+title: IMpegAudioDecoder::put_IntegerDecode method
+author: windows-driver-content
+description: Specifies whether the decoder will use integer-based decoding.
+old-location: dshow\impegaudiodecoder_put_integerdecode.htm
+old-project: DirectShow
+ms.assetid: a92fbcbf-0cd5-4c7a-bcde-a616a7d022bd
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: IMpegAudioDecoder, IMpegAudioDecoder interface [DirectShow], put_IntegerDecode method, IMpegAudioDecoder::put_IntegerDecode, IMpegAudioDecoderputIntegerDecode, dshow.impegaudiodecoder_put_integerdecode, mpegtype/IMpegAudioDecoder::put_IntegerDecode, put_IntegerDecode method [DirectShow], put_IntegerDecode method [DirectShow], IMpegAudioDecoder interface, put_IntegerDecode,IMpegAudioDecoder.put_IntegerDecode
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: mpegtype.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MPEG_CONTEXT, *PMPEG_CONTEXT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Strmiids.lib
+-	Strmiids.dll
+api_name:
+-	IMpegAudioDecoder.put_IntegerDecode
+product: Windows
+targetos: Windows
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IMpegAudioDecoder::put_IntegerDecode method
+
+
+## -description
+
+
+
+Specifies whether the decoder will use integer-based decoding.
+
+
+
+
+## -parameters
+
+
+
+
+### -param IntDecode [in]
+
+Specifies the decoding mode. 0 = floating point mode and 1 = integer mode.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/59fd96ef-2f9a-4a8e-bd08-2695de52b1c6">IMpegAudioDecoder</a>
+ 
+
+ 
+

@@ -1,0 +1,167 @@
+---
+UID: NF:winbase._llseek
+title: "_llseek function"
+author: windows-driver-content
+description: Repositions the file pointer for the specified file.
+old-location: winprog\_llseek.htm
+old-project: DevNotes
+ms.assetid: 1861bd5a-97e6-463d-9586-22458a1d9210
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: "_llseek, _llseek function [Windows API], winbase/_llseek, winprog._llseek"
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: winbase.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: PRIORITY_HINT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Kernel32.dll
+-	API-MS-Win-Core-Kernel32-Private-l1-1-0.dll
+-	kernel32legacy.dll
+-	API-MS-Win-Core-Kernel32-Private-l1-1-1.dll
+-	API-MS-Win-Core-Kernel32-Private-l1-1-2.dll
+api_name:
+-	_llseek
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# _llseek function
+
+
+## -description
+
+
+<p class="CCE_Message">[This function is provided for compatibility with 16-bit versions of Windows. New applications should use the <b>SetFilePointer</b> function.]
+
+Repositions the file pointer for the specified file.
+
+
+## -parameters
+
+
+
+
+### -param hFile
+
+A handle to an open file. This handle is created by <a href="https://msdn.microsoft.com/89e19823-c720-4bfc-95d5-18942573dd94">_lcreat</a>.
+
+
+### -param lOffset
+
+TBD
+
+
+### -param iOrigin
+
+TBD
+
+
+
+
+#### - LONG
+
+The number of bytes that the file pointer is to be moved.
+
+
+#### - nOrigin
+
+The starting point and the direction that the pointer will be moved.
+
+
+This parameter must be set to one of the following values.
+
+
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt>0</dt>
+</dl>
+</td>
+<td width="60%">
+Moves the pointer from the beginning of the file.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt>1</dt>
+</dl>
+</td>
+<td width="60%">
+Moves the file from its current location.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt>2</dt>
+</dl>
+</td>
+<td width="60%">
+Moves the pointer from the end of the file.
+
+</td>
+</tr>
+</table>
+ 
+
+
+## -returns
+
+
+
+If the function succeeds, the return value specifies the new offset. Otherwise, the return value is HFILE_ERROR. To get extended error information, use the <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function.
+
+
+
+
+## -remarks
+
+
+
+When a file is initially opened, the file pointer is set to the beginning of the file. The <b>_llseek</b> function moves the pointer without reading data, which allows random access to the content of the file.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/a0a0081b-9132-4dea-967b-1ee1d1fdfa13">SetFilePointer</a>
+ 
+
+ 
+

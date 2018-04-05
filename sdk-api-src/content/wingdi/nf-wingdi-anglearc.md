@@ -1,0 +1,179 @@
+---
+UID: NF:wingdi.AngleArc
+title: AngleArc function
+author: windows-driver-content
+description: The AngleArc function draws a line segment and an arc.
+old-location: gdi\anglearc.htm
+old-project: gdi
+ms.assetid: 65c38da1-ab7d-4e80-83e3-ba1db66f8fd9
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: AngleArc, AngleArc function [Windows GDI], _win32_AngleArc, gdi.anglearc, wingdi/AngleArc
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: wingdi.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: FAX_TIME, *PFAX_TIME
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	gdi32.dll
+-	Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+-	GDI32Full.dll
+api_name:
+-	AngleArc
+product: Windows
+targetos: Windows
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# AngleArc function
+
+
+## -description
+
+
+The <b>AngleArc</b> function draws a line segment and an arc. The line segment is drawn from the current position to the beginning of the arc. The arc is drawn along the perimeter of a circle with the given radius and center. The length of the arc is defined by the given start and sweep angles.
+
+
+## -parameters
+
+
+
+
+### -param hdc [in]
+
+Handle to a device context.
+
+
+### -param x
+
+TBD
+
+
+### -param y
+
+TBD
+
+
+### -param r
+
+TBD
+
+
+### -param StartAngle
+
+TBD
+
+
+### -param SweepAngle
+
+TBD
+
+
+
+
+#### - X [in]
+
+Specifies the x-coordinate, in logical units, of the center of the circle.
+
+
+#### - Y [in]
+
+Specifies the y-coordinate, in logical units, of the center of the circle.
+
+
+#### - dwRadius [in]
+
+Specifies the radius, in logical units, of the circle. This value must be positive.
+
+
+#### - eStartAngle [in]
+
+Specifies the start angle, in degrees, relative to the x-axis.
+
+
+#### - eSweepAngle [in]
+
+Specifies the sweep angle, in degrees, relative to the starting angle.
+
+
+## -returns
+
+
+
+If the function succeeds, the return value is nonzero.
+
+If the function fails, the return value is zero.
+
+
+
+
+## -remarks
+
+
+
+The <b>AngleArc</b> function moves the current position to the ending point of the arc.
+
+The arc drawn by this function may appear to be elliptical, depending on the current transformation and mapping mode. Before drawing the arc, <b>AngleArc</b> draws the line segment from the current position to the beginning of the arc.
+
+The arc is drawn by constructing an imaginary circle around the specified center point with the specified radius. The starting point of the arc is determined by measuring counterclockwise from the x-axis of the circle by the number of degrees in the start angle. The ending point is similarly located by measuring counterclockwise from the starting point by the number of degrees in the sweep angle.
+
+If the sweep angle is greater than 360 degrees, the arc is swept multiple times.
+
+This function draws lines by using the current pen. The figure is not filled.
+
+
+#### Examples
+
+For an example, see <a href="https://msdn.microsoft.com/788d3bc2-1010-436c-a95f-6fe55daac88e">Drawing a Pie Chart</a>.
+
+<div class="code"></div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/c15a2173-0fad-4a8a-b0f9-cd39fe4e7bac">Arc</a>
+
+
+
+<a href="https://msdn.microsoft.com/5e358a14-9f39-4267-9a44-c8bf05b5dfbb">ArcTo</a>
+
+
+
+<a href="https://msdn.microsoft.com/90f123e2-c3c7-4ba1-a42b-7d6bc0074d5b">Line and Curve Functions</a>
+
+
+
+<a href="https://msdn.microsoft.com/8c65c185-8346-459e-bdf7-1cf3f7419736">Lines and Curves Overview</a>
+
+
+
+<a href="https://msdn.microsoft.com/af11eeb7-4036-4a90-8685-9b5719f79e01">MoveToEx</a>
+ 
+
+ 
+

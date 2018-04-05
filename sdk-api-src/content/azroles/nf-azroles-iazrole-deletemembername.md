@@ -1,0 +1,78 @@
+---
+UID: NF:azroles.IAzRole.DeleteMemberName
+title: IAzRole::DeleteMemberName method
+author: windows-driver-content
+description: Removes the specified account name from the list of accounts that belong to the role.
+old-location: security\iazrole_deletemembername.htm
+old-project: SecAuthZ
+ms.assetid: 3ca3e242-deab-46e7-b3f5-d6a75e5a2c08
+ms.author: windowsdriverdev
+ms.date: 3/29/2018
+ms.keywords: AzRole object [Security], DeleteMemberName method, DeleteMemberName method [Security], DeleteMemberName method [Security], AzRole object, DeleteMemberName method [Security], IAzRole interface, DeleteMemberName,IAzRole.DeleteMemberName, IAzRole, IAzRole interface [Security], DeleteMemberName method, IAzRole::DeleteMemberName, azroles/IAzRole::DeleteMemberName, security.iazrole_deletemembername
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: azroles.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: AZ_PROP_CONSTANTS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Azroles.dll
+api_name:
+-	IAzRole.DeleteMemberName
+-	AzRole.DeleteMemberName
+product: Windows
+targetos: Windows
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
+---
+
+# IAzRole::DeleteMemberName method
+
+
+## -description
+
+
+The <b>DeleteMemberName</b> method removes  the specified account name from the list of  accounts that belong to the role.
+
+
+## -parameters
+
+
+
+
+### -param bstrProp [in]
+
+String that contains the account name to remove from the list of  accounts that belong to the role. The account name can be in either user principal name (UPN) format (for example, "someone@example.com") or in the "ExampleDomain\UserName" format. If the domain is not  in the "ExampleDomain\UserName" format, the <a href="https://msdn.microsoft.com/72855539-469a-4289-99cc-eae2ed89901f">LookupAccountName</a> function is called to retrieve the domain.
+
+
+### -param varReserved [in, optional]
+
+Reserved for future use.
+
+
+## -remarks
+
+
+
+To view the list of account names of accounts that belong to the role, use the <a href="https://msdn.microsoft.com/defaefa8-2d76-49c6-bd1c-8b386f9dc5f1">MembersName</a> property.
+
+
+

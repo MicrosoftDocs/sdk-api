@@ -1,0 +1,95 @@
+---
+UID: NF:appxpackaging.IAppxEncryptedPackageWriter2.AddPayloadFilesEncrypted
+title: IAppxEncryptedPackageWriter2::AddPayloadFilesEncrypted method
+author: windows-driver-content
+description: Adds one or more payload files to an encrypted app package.
+old-location: appxpkg\iappxencryptedpackagewriter2_addpayloadfilesencrypted.htm
+old-project: appxpkg
+ms.assetid: 3C304E54-B4BA-4A9E-B774-1DA119A09C07
+ms.author: windowsdriverdev
+ms.date: 3/30/2018
+ms.keywords: AddPayloadFilesEncrypted method [App packaging and management], AddPayloadFilesEncrypted method [App packaging and management], IAppxEncryptedPackageWriter2 interface, AddPayloadFilesEncrypted,IAppxEncryptedPackageWriter2.AddPayloadFilesEncrypted, IAppxEncryptedPackageWriter2, IAppxEncryptedPackageWriter2 interface [App packaging and management], AddPayloadFilesEncrypted method, IAppxEncryptedPackageWriter2::AddPayloadFilesEncrypted, appxpackaging/IAppxEncryptedPackageWriter2::AddPayloadFilesEncrypted, appxpkg.iappxencryptedpackagewriter2_addpayloadfilesencrypted
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: appxpackaging.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: AppxPackaging.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: APPX_PACKAGE_ARCHITECTURE2
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	AppxPackaging.h
+api_name:
+-	IAppxEncryptedPackageWriter2.AddPayloadFilesEncrypted
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# IAppxEncryptedPackageWriter2::AddPayloadFilesEncrypted method
+
+
+## -description
+
+
+<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
+
+Adds one or more payload files to an encrypted app package.
+
+
+## -parameters
+
+
+
+
+### -param fileCount [in]
+
+The number of payload files to be added to the encrypted app package.
+
+
+### -param payloadFiles [in]
+
+The payload files to be added.
+
+
+### -param memoryLimit [in]
+
+The memory limit in bytes.
+
+
+## -returns
+
+
+
+If the method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an error code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/C45364CE-9943-4677-856D-8761CF21EB36">IAppxEncryptedPackageWriter2</a>
+ 
+
+ 
+

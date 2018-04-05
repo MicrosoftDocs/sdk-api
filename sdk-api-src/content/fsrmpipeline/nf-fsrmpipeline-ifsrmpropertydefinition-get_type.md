@@ -1,0 +1,81 @@
+---
+UID: NF:fsrmpipeline.IFsrmPropertyDefinition.get_Type
+title: IFsrmPropertyDefinition::get_Type method
+author: windows-driver-content
+description: The type of data that the property contains.
+old-location: fsrm\ifsrmpropertydefinition_type.htm
+old-project: Fsrm
+ms.assetid: 3e770876-05a3-4b8c-901d-84ee40112c2f
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: IFsrmPropertyDefinition, IFsrmPropertyDefinition interface [File Server Resource Manager], Type property, IFsrmPropertyDefinition.Type, IFsrmPropertyDefinition::get_Type, IFsrmPropertyDefinition::put_Type, Type property [File Server Resource Manager], Type property [File Server Resource Manager], IFsrmPropertyDefinition interface, fs.ifsrmpropertydefinition_type, fsrm.ifsrmpropertydefinition_type, fsrmpipeline/IFsrmPropertyDefinition::Type, fsrmpipeline/IFsrmPropertyDefinition::get_Type, fsrmpipeline/IFsrmPropertyDefinition::put_Type, get_Type,IFsrmPropertyDefinition.get_Type
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: fsrmpipeline.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 R2
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: FsrmTemplateApplyOptions
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SrmSvc.dll
+api_name:
+-	IFsrmPropertyDefinition.Type
+-	IFsrmPropertyDefinition.get_Type
+-	IFsrmPropertyDefinition.put_Type
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
+req.product: Internet Explorer 5
+---
+
+# IFsrmPropertyDefinition::get_Type method
+
+
+## -description
+
+
+The type of data that the property contains.
+
+This property is read/write.
+
+
+## -parameters
+
+
+## -remarks
+
+
+
+You cannot change the type after you commit the definition.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/b85d5df0-a99a-48d2-9bad-3b8c86abea91">IFsrmPropertyDefinition</a>
+ 
+
+ 
+

@@ -1,0 +1,256 @@
+---
+UID: NF:winhttp.WinHttpCreateUrl
+title: WinHttpCreateUrl function
+author: windows-driver-content
+description: Creates a URL from component parts such as the host name and path.
+old-location: http\winhttpcreateurl.htm
+old-project: WinHttp
+ms.assetid: 3f0403ea-479a-4764-ae65-d9bbd9233a50
+ms.author: windowsdriverdev
+ms.date: 3/8/2018
+ms.keywords: ICU_ESCAPE, ICU_REJECT_USERPWD, WinHttpCreateUrl, WinHttpCreateUrl function [WinHTTP], http.winhttpcreateurl, winhttp.winhttpcreateurl_function, winhttp/WinHttpCreateUrl
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: winhttp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WINHTTP_WEB_SOCKET_OPERATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Winhttp.dll
+api_name:
+-	WinHttpCreateUrl
+product: Windows
+targetos: Windows
+req.lib: Winhttp.lib
+req.dll: Winhttp.dll
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# WinHttpCreateUrl function
+
+
+## -description
+
+
+The <b>WinHttpCreateUrl</b> function creates a URL from component parts such as the host name and path.
+
+
+## -parameters
+
+
+
+
+### -param lpUrlComponents [in]
+
+Pointer to a 
+<a href="https://msdn.microsoft.com/4d2c6f82-6b61-4a7b-a5d7-560152e25302">URL_COMPONENTS</a> structure that contains the components from which to create the URL.
+
+
+### -param dwFlags [in]
+
+Flags that control the operation of this function. This parameter can be one of the following values.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="ICU_ESCAPE"></a><a id="icu_escape"></a><dl>
+<dt><b>ICU_ESCAPE</b></dt>
+</dl>
+</td>
+<td width="60%">
+Converts all unsafe characters to their corresponding escape sequences in the path string pointed to by the <b>lpszUrlPath</b> member and in <b>lpszExtraInfo</b> the extra-information string pointed to by the member of the <a href="https://msdn.microsoft.com/4d2c6f82-6b61-4a7b-a5d7-560152e25302">URL_COMPONENTS</a> structure pointed to by the <i>lpUrlComponents</i> parameter.
+
+
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="ICU_REJECT_USERPWD"></a><a id="icu_reject_userpwd"></a><dl>
+<dt><b>ICU_REJECT_USERPWD</b></dt>
+</dl>
+</td>
+<td width="60%">
+Rejects URLs as input that contains either a username, or a password, or both. If the function fails because of an invalid URL, subsequent calls to GetLastError will return ERROR_WINHTTP_INVALID_URL.
+
+
+
+</td>
+</tr>
+</table>
+ 
+
+
+### -param pwszUrl [out]
+
+Pointer to a character buffer that receives the URL as a wide character (Unicode) string.
+
+
+### -param pdwUrlLength
+
+TBD
+
+
+
+
+#### - lpdwUrlLength [in, out]
+
+Pointer to a variable of type unsigned long integer that receives the length of the 
+<i>pwszUrl</i> buffer in wide (Unicode) characters. When the function returns, this parameter receives the length of the URL string wide in characters, minus 1 for the terminating character. If 
+<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> returns ERROR_INSUFFICIENT_BUFFER, this parameter receives the number of wide characters required to hold the created URL.
+
+
+## -returns
+
+
+
+Returns <b>TRUE</b> if the function succeeds, or <b>FALSE</b> otherwise. To get extended error data, call 
+<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. Among the error codes returned are the following.
+
+<table>
+<tr>
+<th>Error Code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_WINHTTP_INTERNAL_ERROR</b></dt>
+</dl>
+</td>
+<td width="60%">
+An internal error occurred.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_NOT_ENOUGH_MEMORY</b></dt>
+</dl>
+</td>
+<td width="60%">
+Insufficient memory available to complete the requested operation. (Windows error code)
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+Even when  WinHTTP is used in asynchronous mode, that is, when <b>WINHTTP_FLAG_ASYNC</b> has been set in <a href="https://msdn.microsoft.com/34ce8f7d-7cc3-4b38-ba6a-1247f50ebd33">WinHttpOpen</a>, this function operates synchronously. The return value indicates success or failure.  To get extended error data, call 
+<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+
+<div class="alert"><b>Note</b>  For Windows XP and Windows 2000, see the <a href="https://msdn.microsoft.com/354ab65d-5e46-451d-b36b-2f8166a1a048">Run-Time Requirements</a> section of the WinHttp start page.</div>
+<div> </div>
+
+#### Examples
+
+The following  example shows how to decompile, or crack, a URL into its subcomponents, update a component, then reconstruct the URL.
+
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
+    URL_COMPONENTS urlComp;
+    LPCWSTR pwszUrl1 = 
+       L"http://search.msn.com/results.asp?RS=CHECKED&amp;FORM=MSNH&amp;v=1&amp;q=wininet";
+    DWORD dwUrlLen = 0;
+
+    // Initialize the URL_COMPONENTS structure.
+    ZeroMemory(&amp;urlComp, sizeof(urlComp));
+    urlComp.dwStructSize = sizeof(urlComp);
+
+    // Set required component lengths to non-zero, 
+    // so that they are cracked.
+    urlComp.dwSchemeLength    = (DWORD)-1;
+    urlComp.dwHostNameLength  = (DWORD)-1;
+    urlComp.dwUrlPathLength   = (DWORD)-1;
+    urlComp.dwExtraInfoLength = (DWORD)-1;
+
+    // Crack the URL.
+    if (!WinHttpCrackUrl( pwszUrl1, (DWORD)wcslen(pwszUrl1), 0, &amp;urlComp))
+    {
+        printf("Error %u in WinHttpCrackUrl.\n", GetLastError());
+    }
+    else
+    {
+        // Change the search data. New data is the same length.
+        urlComp.lpszExtraInfo = L"?RS=CHECKED&amp;FORM=MSNH&amp;v=1&amp;q=winhttp";
+
+        // Obtain the size of the new URL and allocate memory.
+        WinHttpCreateUrl( &amp;urlComp, 0, NULL, &amp;dwUrlLen);
+        LPWSTR pwszUrl2 = new WCHAR[dwUrlLen];
+
+        // Create a new URL.
+        if(!WinHttpCreateUrl( &amp;urlComp, 0, pwszUrl2, &amp;dwUrlLen))
+        {
+            printf( "Error %u in WinHttpCreateUrl.\n", GetLastError());
+        }
+        else
+        {
+            // Show both URLs.
+            printf( "Old URL:  %S\nNew URL:  %S\n", pwszUrl1, pwszUrl2);
+        }
+
+        // Free allocated memory.
+        delete [] pwszUrl2;
+    }
+</pre>
+</td>
+</tr>
+</table></span></div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/8337f699-3ec0-4397-acc2-6dc813f7542d">About Microsoft Windows HTTP Services (WinHTTP)</a>
+
+
+
+<a href="https://msdn.microsoft.com/940c414d-274f-475c-a50e-7a0853c3c26b">Handling Uniform Resource Locators</a>
+
+
+
+<a href="https://msdn.microsoft.com/b69e5087-7849-4cbc-a97b-204a26fdd044">WinHTTP Versions</a>
+
+
+
+<a href="https://msdn.microsoft.com/656dfe11-2242-4587-aa53-87a280f5df81">WinHttpCrackUrl</a>
+ 
+
+ 
+

@@ -1,0 +1,130 @@
+---
+UID: NN:azroles.IAzBizRuleContext
+title: IAzBizRuleContext
+author: windows-driver-content
+description: Contains information about a Business Rule (BizRule) operation.
+old-location: security\azbizrulecontext.htm
+old-project: SecAuthZ
+ms.assetid: 664d0307-8915-4435-a6a3-3f464afd9029
+ms.author: windowsdriverdev
+ms.date: 3/29/2018
+ms.keywords: IAzBizRuleContext, IAzBizRuleContext interface [Security], IAzBizRuleContext interface [Security], described, azroles/IAzBizRuleContext, security.azbizrulecontext
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: interface
+req.header: azroles.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: AZ_PROP_CONSTANTS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Azroles.dll
+api_name:
+-	IAzBizRuleContext
+product: Windows
+targetos: Windows
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
+---
+
+# IAzBizRuleContext interface
+
+
+## -description
+
+
+The <b>AzBizRuleContext</b> object contains information about a Business Rule (BizRule) operation.
+
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzBizRuleContext</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IAzBizRuleContext</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Properties</a></li>
+</ul>
+
+## -members
+
+The <b>IAzBizRuleContext</b> interface has these methods.
+<table class="members" id="memberListMethods">
+<tr>
+<th align="left" width="37%">Method</th>
+<th align="left" width="63%">Description</th>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/9c956eea-92a5-4da8-abe0-a5ab4e41ab85">GetParameter</a>
+</td>
+<td align="left" width="63%">
+Gets the specified value from the <i>varParameterValues</i> parameter of the <a href="https://msdn.microsoft.com/0bd16cdb-3dba-4656-b264-32e622732155">IAzClientContext::AccessCheck</a> method.
+
+</td>
+</tr>
+</table> 
+<h3><a id="properties"></a>Properties</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzBizRuleContext</b> interface has these properties.
+<table class="members" id="memberListProperties">
+<tr>
+<th align="left" width="27%">Property</th>
+<th align="left" width="10%">Access type</th>
+<th align="left" width="63%">Description</th>
+</tr>
+<tr data="declared;">
+<td align="left" width="27%" xml:space="preserve">
+
+<a href="https://msdn.microsoft.com/9f8b72bb-b2c3-4ba0-aa56-ff0ad0df1502">BusinessRuleResult</a>
+
+
+</td>
+<td align="left" width="10%">
+Write-only
+
+</td>
+<td align="left" width="63%">
+Sets a value that indicates whether the BizRule allows the user to perform the requested task.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="27%" xml:space="preserve">
+
+<a href="https://msdn.microsoft.com/0370b251-625a-410c-ab36-76f4432405cf">BusinessRuleString</a>
+
+
+</td>
+<td align="left" width="10%">
+Read/write
+
+</td>
+<td align="left" width="63%">
+Sets or retrieves an application-specific string for the BizRule.
+
+</td>
+</tr>
+</table> 
+
+
+## -remarks
+
+
+
+The <a href="https://msdn.microsoft.com/0bd16cdb-3dba-4656-b264-32e622732155">IAzClientContext::AccessCheck</a> method creates an <b>AzBizRuleContext</b> object before it calls a BizRule script.
+
+
+

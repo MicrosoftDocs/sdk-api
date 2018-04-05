@@ -1,0 +1,96 @@
+---
+UID: NF:msaatext.IAccDictionary.LookupMnemonicTerm
+title: IAccDictionary::LookupMnemonicTerm method
+author: windows-driver-content
+description: Clients call the IAccDictionary::LookupMnemonicTerm method to find the property for a given mnemonic string.
+old-location: winauto\iaccdictionary_iaccdictionary__lookupmnemonicterm.htm
+old-project: WinAuto
+ms.assetid: a8a4dfde-3721-4bf5-a609-12f06154b5f0
+ms.author: windowsdriverdev
+ms.date: 3/29/2018
+ms.keywords: IAccDictionary, IAccDictionary interface [Windows Accessibility], LookupMnemonicTerm method, IAccDictionary::LookupMnemonicTerm, LookupMnemonicTerm method [Windows Accessibility], LookupMnemonicTerm method [Windows Accessibility], IAccDictionary interface, LookupMnemonicTerm,IAccDictionary.LookupMnemonicTerm, _msaa_IAccDictionary_LookupMnemonicTerm, msaa.iaccdictionary_iaccdictionary__lookupmnemonicterm, msaatext/IAccDictionary::LookupMnemonicTerm, winauto.iaccdictionary_iaccdictionary__lookupmnemonicterm
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: msaatext.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: SSTP_CONFIG_PARAMS, *PSSTP_CONFIG_PARAMS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	msaatext.dll
+api_name:
+-	IAccDictionary.LookupMnemonicTerm
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msaatext.dll
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IAccDictionary::LookupMnemonicTerm method
+
+
+## -description
+
+
+Clients call the <b>IAccDictionary::LookupMnemonicTerm</b> method to find the property for a given mnemonic string.
+<div class="alert"><b>Note</b>  Active Accessibility Text Services is deprecated. Please see     
+<a href="http://go.microsoft.com/fwlink/p/?linkid=131573">Microsoft Windows Text Services Framework</a>
+for more information on advanced text input and natural language technologies.
+		</div><div> </div>
+
+## -parameters
+
+
+
+
+### -param bstrMnemonic [in]
+
+Type: <b>BSTR</b>
+
+A non-localized mnemonic string for a property.
+
+
+### -param pTerm [out]
+
+Type: <b>GUID*</b>
+
+A GUID representing the property in <i>bstrMnemonic</i>.
+
+
+## -returns
+
+
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+
+If successful, returns S_OK.
+
+
+
+
+## -remarks
+
+
+
+If the <i>bstrMnemonic</i> parameter is not found in the dictionary, then <i>pTerm</i> will be <b>NULL</b>.
+
+
+

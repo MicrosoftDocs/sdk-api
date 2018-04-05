@@ -1,0 +1,202 @@
+---
+UID: NF:pathcch.PathCchIsRoot
+title: PathCchIsRoot function
+author: windows-driver-content
+description: Determines whether a path string refers to the root of a volume.This function differs from PathIsRoot in that it accepts paths with &#0034;\\&#0034;, &#0034;\\?\&#0034; and &#0034;\\?\UNC\&#0034; prefixes.
+old-location: shell\PathCchIsRoot.htm
+old-project: shell
+ms.assetid: b9770030-b298-47f8-98a7-3ce9b4d44dd1
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: PathCchIsRoot, PathCchIsRoot function [Windows Shell], pathcch/PathCchIsRoot, shell.PathCchIsRoot
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: pathcch.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: PEER_VERSION_DATA, *PPEER_VERSION_DATA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	pathcch.lib
+-	API-MS-Win-Core-Path-l1-1-0.dll
+-	KernelBase.dll
+api_name:
+-	PathCchIsRoot
+product: Windows
+targetos: Windows
+req.lib: Pathcch.lib
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# PathCchIsRoot function
+
+
+## -description
+
+
+
+Determines whether a path string refers to the root of a volume.
+
+This function differs from <a href="https://msdn.microsoft.com/8586df98-91c4-49a6-9b07-7dceb8a63431">PathIsRoot</a> in that it accepts paths with "\\", "\\?\" and "\\?\UNC\" prefixes.
+
+
+
+
+## -parameters
+
+
+
+
+### -param pszPath [in, optional]
+
+A pointer to the path string.
+
+
+## -returns
+
+
+
+Returns <b>TRUE</b> if the specified path is a root, or <b>FALSE</b> otherwise.
+
+
+
+
+## -remarks
+
+
+
+The following table shows the <b>PathCchIsRoot</b> return value for various paths.
+            
+                
+
+<table class="clsStd">
+<tr>
+<th>Path</th>
+<th>PathCchIsRoot</th>
+</tr>
+<tr>
+<td>"c:\"</td>
+<td>TRUE</td>
+</tr>
+<tr>
+<td>"c:"</td>
+<td>FALSE</td>
+</tr>
+<tr>
+<td>"c:\path1"</td>
+<td>FALSE</td>
+</tr>
+<tr>
+<td>"\path1"</td>
+<td>TRUE</td>
+</tr>
+<tr>
+<td>"path1"</td>
+<td>FALSE</td>
+</tr>
+<tr>
+<td>"\\path1\path2"</td>
+<td>TRUE</td>
+</tr>
+<tr>
+<td>"\\path1\path2\"</td>
+<td>FALSE</td>
+</tr>
+<tr>
+<td>"\\path1\path2\path3"</td>
+<td>FALSE</td>
+</tr>
+<tr>
+<td>"\\path1"</td>
+<td>TRUE</td>
+</tr>
+<tr>
+<td>"\\path1\"</td>
+<td>FALSE</td>
+</tr>
+<tr>
+<td>"\\"</td>
+<td>TRUE</td>
+</tr>
+<tr>
+<td>"\\?\UNC\"</td>
+<td>TRUE</td>
+</tr>
+<tr>
+<td>"\\?\UNC\path1\path2"</td>
+<td>TRUE</td>
+</tr>
+<tr>
+<td>"\\?\UNC\path1\path2\"</td>
+<td>FALSE</td>
+</tr>
+<tr>
+<td>"\\?\UNC\path1\path2\path3"</td>
+<td>FALSE</td>
+</tr>
+<tr>
+<td>"\\?\UNC\path1"</td>
+<td>TRUE</td>
+</tr>
+<tr>
+<td>"\\?\UNC\path1\"</td>
+<td>FALSE</td>
+</tr>
+<tr>
+<td>"\\?\c:\"</td>
+<td>TRUE</td>
+</tr>
+<tr>
+<td>"\\?\c:"</td>
+<td>FALSE</td>
+</tr>
+<tr>
+<td>"\\?\c:\path1"</td>
+<td>FALSE</td>
+</tr>
+<tr>
+<td>"\\?\Volume{guid}\"</td>
+<td>TRUE</td>
+</tr>
+<tr>
+<td>"\\?\Volume{guid}"</td>
+<td>FALSE</td>
+</tr>
+<tr>
+<td>"\\?\Volume{guid}\path1"</td>
+<td>FALSE</td>
+</tr>
+<tr>
+<td>NULL</td>
+<td>FALSE</td>
+</tr>
+<tr>
+<td>""</td>
+<td>FALSE</td>
+</tr>
+</table>
+ 
+
+This function returns <b>TRUE</b> for paths such as "\", "<i>X</i>:\" or "\\<i>server</i>\<i>share</i>". Paths such as "..\path2" or "\\<i>server</i>\" return <b>FALSE</b>.
+            
+
+
+

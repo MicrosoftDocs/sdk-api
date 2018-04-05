@@ -1,0 +1,117 @@
+---
+UID: NF:d3d11.ID3D11Device.CheckFeatureSupport
+title: ID3D11Device::CheckFeatureSupport method
+author: windows-driver-content
+description: Gets information about the features that are supported by the current graphics driver.
+old-location: direct3d11\id3d11device_checkfeaturesupport.htm
+old-project: direct3d11
+ms.assetid: 7edf2ffd-908a-4cf8-9ac6-8fd14d7a0ea1
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: CheckFeatureSupport method [Direct3D 11], CheckFeatureSupport method [Direct3D 11], ID3D11Device interface, CheckFeatureSupport,ID3D11Device.CheckFeatureSupport, ID3D11Device, ID3D11Device interface [Direct3D 11], CheckFeatureSupport method, ID3D11Device::CheckFeatureSupport, cf1b66c2-5336-35b5-28c8-154fc99a01ee, d3d11/ID3D11Device::CheckFeatureSupport, direct3d11.id3d11device_checkfeaturesupport
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: d3d11.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: D3D11_VPOV_DIMENSION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	d3d11.lib
+-	d3d11.dll
+api_name:
+-	ID3D11Device.CheckFeatureSupport
+product: Windows
+targetos: Windows
+req.lib: D3d11.lib
+req.dll: 
+req.irql: 
+---
+
+# ID3D11Device::CheckFeatureSupport method
+
+
+## -description
+
+
+Gets information about the features that are supported by the current graphics driver.
+
+
+## -parameters
+
+
+
+
+### -param Feature
+
+Type: <b><a href="https://msdn.microsoft.com/48c3bf65-f077-45e6-a306-03d5760eeccb">D3D11_FEATURE</a></b>
+
+A member of the <a href="https://msdn.microsoft.com/48c3bf65-f077-45e6-a306-03d5760eeccb">D3D11_FEATURE</a> enumerated type that describes which feature to query for support.
+
+
+### -param pFeatureSupportData [out]
+
+Type: <b>void*</b>
+
+Upon completion of the method, the passed structure is filled with data that describes the feature support.
+
+
+### -param FeatureSupportDataSize
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+
+The size of the structure passed to the <i>pFeatureSupportData</i> parameter.
+
+
+## -returns
+
+
+
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+
+Returns S_OK if successful; otherwise, returns E_INVALIDARG if an unsupported data type is passed to the <i>pFeatureSupportData</i> parameter 
+      or a size mismatch is detected for the <i>FeatureSupportDataSize</i> parameter.
+
+
+
+
+## -remarks
+
+
+
+To query for multi-threading support, pass the <b>D3D11_FEATURE_THREADING</b> value to the <i>Feature</i> parameter, pass 
+      the <a href="https://msdn.microsoft.com/1ad7d4c4-9da2-42b0-a461-e514060e3005">D3D11_FEATURE_DATA_THREADING</a> structure to the  <i>pFeatureSupportData</i> parameter, and pass the size of 
+      the <b>D3D11_FEATURE_DATA_THREADING</b> structure to the <i>FeatureSupportDataSize</i> parameter.
+
+Calling CheckFeatureSupport with <i>Feature</i> set to D3D11_FEATURE_FORMAT_SUPPORT causes the method to return the same information that would be returned 
+      by <a href="https://msdn.microsoft.com/d5442fe8-e510-4bda-9df0-377b465cdd5e">ID3D11Device::CheckFormatSupport</a>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/2f2559d9-1cd6-44f6-90e2-ee0f86e39f78">ID3D11Device</a>
+ 
+
+ 
+

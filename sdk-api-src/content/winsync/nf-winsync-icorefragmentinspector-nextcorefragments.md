@@ -1,0 +1,146 @@
+---
+UID: NF:winsync.ICoreFragmentInspector.NextCoreFragments
+title: ICoreFragmentInspector::NextCoreFragments method
+author: windows-driver-content
+description: Returns the next ICoreFragment objects in the knowledge, if they are available.
+old-location: winsync\icorefragmentinspector_nextcorefragments.htm
+old-project: winsync
+ms.assetid: 801a2643-d954-44b8-83ce-021be893d06a
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: ICoreFragmentInspector, ICoreFragmentInspector interface [Windows Sync], NextCoreFragments method, ICoreFragmentInspector::NextCoreFragments, NextCoreFragments method [Windows Sync], NextCoreFragments method [Windows Sync], ICoreFragmentInspector interface, NextCoreFragments,ICoreFragmentInspector.NextCoreFragments, winsync.icorefragmentinspector_nextcorefragments, winsync/ICoreFragmentInspector::NextCoreFragments
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: winsync.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	winsync.h
+api_name:
+-	ICoreFragmentInspector.NextCoreFragments
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# ICoreFragmentInspector::NextCoreFragments method
+
+
+## -description
+
+
+Returns the next <b>ICoreFragment</b> objects in the knowledge, if they are available.
+
+
+## -parameters
+
+
+
+
+### -param requestedCount [in]
+
+The number of <b>ICoreFragment</b> objects to retrieve.
+
+
+### -param ppiCoreFragments [out]
+
+Receives a pointer to the next <i>pFetchedCount</i> <b>ICoreFragment</b> objects. The size of the array is the value specified in the <i>requestedCount</i> parameter. The length is <code>*(pFetchedCount)</code>. The caller must release the interface pointer.
+
+
+### -param pFetchedCount [in, out]
+
+Receives the number of <b>ICoreFragment</b> objects that were retrieved in the <i>ppiCoreFragments</i> parameter. This value can be <b>NULL</b> only if <i> requestedCount</i> is 1.
+
+
+## -returns
+
+
+
+The possible return codes include, but are not limited to, the values shown in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_FALSE</b></dt>
+</dl>
+</td>
+<td width="60%">
+There are no more <b>ICoreFragment</b> objects to retrieve, or the number of <b>ICoreFragment</b> objects retrieved is less than <i>requestedCount</i>.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_POINTER</b></dt>
+</dl>
+</td>
+<td width="60%">
+Invalid pointer.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>SYNC_E_INVALID_OPERATION</b></dt>
+</dl>
+</td>
+<td width="60%">
+The knowledge object contained in this object has changed since this object was created.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/10c22b92-bda8-42f6-9fd6-58e77e5a18d4">ICoreFragmentInspector Interface</a>
+ 
+
+ 
+

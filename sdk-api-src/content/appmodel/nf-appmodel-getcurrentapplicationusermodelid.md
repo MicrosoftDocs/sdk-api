@@ -1,0 +1,189 @@
+---
+UID: NF:appmodel.GetCurrentApplicationUserModelId
+title: GetCurrentApplicationUserModelId function
+author: windows-driver-content
+description: Gets the application user model ID for the current process.
+old-location: appxpkg\getcurrentapplicationusermodelid.htm
+old-project: appxpkg
+ms.assetid: 562BB225-0922-4FE7-92C0-573A2CCE3195
+ms.author: windowsdriverdev
+ms.date: 3/30/2018
+ms.keywords: GetCurrentApplicationUserModelId, GetCurrentApplicationUserModelId function [App packaging and management], appmodel/GetCurrentApplicationUserModelId, appxpkg.getcurrentapplicationusermodelid
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: appmodel.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: PackageOrigin
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Kernel32.dll
+-	API-MS-Win-AppModel-Runtime-l1-1-0.dll
+-	kernel32legacy.dll
+-	Kernel.AppCore.dll
+-	API-MS-Win-AppModel-RunTime-l1-1-1.dll
+-	API-MS-Win-AppModel-Runtime-L1-1-2.dll
+api_name:
+-	GetCurrentApplicationUserModelId
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+---
+
+# GetCurrentApplicationUserModelId function
+
+
+## -description
+
+
+Gets the <a href="https://msdn.microsoft.com/15E35DCF-C6C1-446A-B09B-6428F9C8A677">application user model ID</a> for the current process.
+
+
+## -parameters
+
+
+
+
+### -param applicationUserModelIdLength [in, out]
+
+On input, the size of the  <i>applicationUserModelId</i> buffer, in wide characters. On success, the size of the buffer used, including the null terminator.
+
+
+### -param applicationUserModelId [out]
+
+A pointer to a buffer that receives the application user model ID.
+
+
+## -returns
+
+
+
+If the function succeeds it returns <b>ERROR_SUCCESS</b>. Otherwise, the function returns an error code. The possible error codes include the following.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>APPMODEL_ERROR_NO_APPLICATION</b></dt>
+</dl>
+</td>
+<td width="60%">
+The process has no application identity.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_INSUFFICIENT_BUFFER</b></dt>
+</dl>
+</td>
+<td width="60%">
+The buffer is not large enough to hold the data. The required size is specified  by <i>applicationUserModelIdLength</i>.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+For info about string size limits, see <a href="https://msdn.microsoft.com/C4F81822-B502-4360-AEA4-829F1AB926BF">Identity constants</a>.
+
+
+#### Examples
+
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#define _UNICODE 1
+#define UNICODE 1
+
+#include &lt;Windows.h&gt;
+#include &lt;appmodel.h&gt;
+#include &lt;malloc.h&gt;
+#include &lt;stdio.h&gt;
+
+int __cdecl wmain()
+{
+    UINT32 length = 0;
+    LONG rc = GetCurrentApplicationUserModelId(&amp;length, NULL);
+    if (rc != ERROR_INSUFFICIENT_BUFFER)
+    {
+        if (rc == APPMODEL_ERROR_NO_APPLICATION)
+            wprintf(L"Desktop application\n");
+        else
+            wprintf(L"Error %d in GetCurrentApplicationUserModelId\n", rc);
+        return 1;
+    }
+
+    PWSTR fullName = (PWSTR) malloc(length * sizeof(*fullName));
+    if (fullName == NULL)
+    {
+        wprintf(L"Error allocating memory\n");
+        return 2;
+    }
+
+    rc = GetCurrentApplicationUserModelId(&amp;length, fullName);
+    if (rc != ERROR_SUCCESS)
+    {
+        wprintf(L"Error %d retrieving ApplicationUserModelId\n", rc);
+        return 3;
+    }
+    wprintf(L"%s\n", fullName);
+
+    free(fullName);
+
+    return 0;
+}
+</pre>
+</td>
+</tr>
+</table></span></div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/FE4E0818-F548-494B-B3BD-FB51DC748451">GetApplicationUserModelId</a>
+
+
+
+<a href="https://msdn.microsoft.com/D5B00C53-1FBF-4245-92D1-FA39713A9EE7">GetCurrentPackageFullName</a>
+ 
+
+ 
+

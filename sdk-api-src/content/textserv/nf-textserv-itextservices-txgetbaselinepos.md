@@ -1,0 +1,115 @@
+---
+UID: NF:textserv.ITextServices.TxGetBaseLinePos
+title: ITextServices::TxGetBaseLinePos method
+author: windows-driver-content
+description: Gets the base line position of the first visible line, in pixels, relative to the text services client rectangle. This permits aligning controls on their base lines.
+old-location: controls\ITextServices_TxGetBaseLinePos.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txgetbaselinepos.htm
+ms.author: windowsdriverdev
+ms.date: 3/31/2018
+ms.keywords: ITextServices, ITextServices interface [Windows Controls], TxGetBaseLinePos method, ITextServices::TxGetBaseLinePos, TxGetBaseLinePos method [Windows Controls], TxGetBaseLinePos method [Windows Controls], ITextServices interface, TxGetBaseLinePos,ITextServices.TxGetBaseLinePos, _win32_ITextServices_TxGetBaseLinePos, _win32_ITextServices_TxGetBaseLinePos_cpp, controls.ITextServices_TxGetBaseLinePos, controls._win32_ITextServices_TxGetBaseLinePos, textserv/ITextServices::TxGetBaseLinePos
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: textserv.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: TMGR_DIRECTION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Msftedit.dll
+api_name:
+-	ITextServices.TxGetBaseLinePos
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# ITextServices::TxGetBaseLinePos method
+
+
+## -description
+
+
+Gets the base line position of the first visible line, in pixels, relative to the text services client rectangle. This permits aligning controls on their base lines.
+
+
+## -parameters
+
+
+
+
+
+
+#### - pBaseLinePos
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LONG</a>*</b>
+
+The base line position of the first visible line. 
+
+
+## -returns
+
+
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+
+If the method succeeds, the return value is <b>S_OK</b>.
+
+If the method fails, the return value is the following <b>HRESULT</b> code. For more information on COM error codes, see <a href="https://msdn.microsoft.com/15f3ae3e-1794-4948-a7aa-6309a703364b">Error Handling in COM</a>.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_NOTIMPL</b></dt>
+</dl>
+</td>
+<td width="60%">
+Not implemented.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/b0bc844f-2d20-4e67-84c5-0a5313bf6dee">ITextServices</a>
+
+
+
+<a href="https://msdn.microsoft.com/71ecd220-ab1a-4caa-b1b9-0951e943692e">Windowless Rich Edit Controls Overview</a>
+ 
+
+ 
+

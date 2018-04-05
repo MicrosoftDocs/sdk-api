@@ -1,0 +1,121 @@
+---
+UID: NF:wmp.IWMPPlaylist.put_name
+title: IWMPPlaylist::put_name method
+author: windows-driver-content
+description: The put_name method specifies the name of the playlist.
+old-location: wmp\iwmpplaylist_put_name.htm
+old-project: WMP
+ms.assetid: 749dae2f-d9c3-4bbb-9a2f-042388f5ce0c
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: IWMPPlaylist, IWMPPlaylist interface [Windows Media Player], put_name method, IWMPPlaylist::put_name, IWMPPlaylistput_name, put_name method [Windows Media Player], put_name method [Windows Media Player], IWMPPlaylist interface, put_name,IWMPPlaylist.put_name, wmp.iwmpplaylist_put_name, wmp/IWMPPlaylist::put_name
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wmp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Media Player 9 Series or later.
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WMPSyncState
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	wmp.dll
+api_name:
+-	IWMPPlaylist.put_name
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IWMPPlaylist::put_name method
+
+
+## -description
+
+
+
+The <b>put_name</b> method specifies the name of the playlist.
+
+
+
+
+## -parameters
+
+
+
+
+### -param bstrName [in]
+
+String containing the name.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+Before calling this method, you must have full access to the library. For more information, see <a href="https://msdn.microsoft.com/9f722531-a551-4ca9-be5f-01a291a180b0">Library Access</a>.
+
+<b>Windows Media Player 10 Mobile: </b>This method always returns E_INVALIDARG.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/04b6d6bc-a3fe-4b3f-b348-0f6b9f6e77a9">IWMPPlaylist Interface</a>
+
+
+
+<a href="https://msdn.microsoft.com/547a8ebe-b7c7-4dbc-96c4-1d5f5ef77f97">IWMPPlaylist::get_name</a>
+ 
+
+ 
+

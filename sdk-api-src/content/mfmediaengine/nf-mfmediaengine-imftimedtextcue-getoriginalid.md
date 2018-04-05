@@ -1,0 +1,101 @@
+---
+UID: NF:mfmediaengine.IMFTimedTextCue.GetOriginalId
+title: IMFTimedTextCue::GetOriginalId method
+author: windows-driver-content
+description: Gets the cue identifier that is provided in the text-track data format, if available.
+old-location: mf\imftimedtextcue_getoriginalid.htm
+old-project: medfound
+ms.assetid: D5B94171-AEB0-4A7D-B596-F888B69A436D
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: GetOriginalId method [Media Foundation], GetOriginalId method [Media Foundation], IMFTimedTextCue interface, GetOriginalId,IMFTimedTextCue.GetOriginalId, IMFTimedTextCue, IMFTimedTextCue interface [Media Foundation], GetOriginalId method, IMFTimedTextCue::GetOriginalId, mf.imftimedtextcue_getoriginalid, mfmediaengine/IMFTimedTextCue::GetOriginalId
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: mfmediaengine.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MF_TIMED_TEXT_WRITING_MODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfmediaengine.dll
+api_name:
+-	IMFTimedTextCue.GetOriginalId
+product: Windows
+targetos: Windows
+req.lib: Mfmediaengine.lib
+req.dll: Mfmediaengine.dll
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IMFTimedTextCue::GetOriginalId method
+
+
+## -description
+
+
+Gets the cue identifier that is provided in the text-track data format, if available.
+
+
+## -parameters
+
+
+
+
+### -param originalId [out]
+
+Type: <b>LPWSTR*</b>
+
+The cue identifier that is provided in the text-track data format.
+
+
+## -returns
+
+
+
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+This method retrieves an identifier for the cue that is included in the source data, if one was specified. The system dynamically generates identifiers for cues that are guaranteed to be unique within a single time-text track. To obtain this system-generated ID, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff546827">GetId</a>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546827">GetId</a>
+
+
+
+<a href="https://msdn.microsoft.com/831FA230-D0C4-4115-8447-D882686D80EE">IMFTimedTextCue</a>
+ 
+
+ 
+

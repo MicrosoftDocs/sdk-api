@@ -1,0 +1,91 @@
+---
+UID: NF:faxcomex.IFaxIncomingMessageIterator.put_PrefetchSize
+title: IFaxIncomingMessageIterator::put_PrefetchSize method
+author: windows-driver-content
+description: The PrefetchSize property indicates the size of the prefetch (read-ahead) buffer.
+old-location: fax\_mfax_faxincomingmessageiterator_prefetchsize_cpp.htm
+old-project: Fax
+ms.assetid: VS|fax|~\fax\faxinta_n_64th_cpp.htm
+ms.author: windowsdriverdev
+ms.date: 3/22/2018
+ms.keywords: IFaxIncomingMessageIterator, IFaxIncomingMessageIterator interface [Fax Service], PrefetchSize property, IFaxIncomingMessageIterator.PrefetchSize, IFaxIncomingMessageIterator::get_PrefetchSize, IFaxIncomingMessageIterator::put_PrefetchSize, PrefetchSize property [Fax Service], PrefetchSize property [Fax Service], IFaxIncomingMessageIterator interface, _mfax_faxincomingmessageiterator.prefetchsize_cpp, fax._mfax_faxincomingmessageiterator_prefetchsize_cpp, faxcomex/IFaxIncomingMessageIterator::PrefetchSize, faxcomex/IFaxIncomingMessageIterator::get_PrefetchSize, faxcomex/IFaxIncomingMessageIterator::put_PrefetchSize, put_PrefetchSize,IFaxIncomingMessageIterator.put_PrefetchSize
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: faxcomex.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: FAX_SMTP_AUTHENTICATION_TYPE_ENUM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Fxscomex.dll
+api_name:
+-	IFaxIncomingMessageIterator.PrefetchSize
+-	IFaxIncomingMessageIterator.get_PrefetchSize
+-	IFaxIncomingMessageIterator.put_PrefetchSize
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Fxscomex.dll
+req.irql: 
+req.product: Internet Explorer 5
+---
+
+# IFaxIncomingMessageIterator::put_PrefetchSize method
+
+
+## -description
+
+
+The <b>PrefetchSize</b> property indicates the size of the prefetch (read-ahead) buffer.
+
+This property is read/write.
+
+
+## -parameters
+
+
+## -remarks
+
+
+
+The prefetch buffer contains messages and makes the iteration process more efficient because you iterate through the buffer rather than through a folder. 
+
+Changes you make to the size of the prefetch buffer take place immediately because <a href="https://msdn.microsoft.com/0969319b-7846-44a0-9667-161b326acea6">FaxIncomingMessageIterator</a> is a local object.
+
+The value of the <i>lPrefetchSize</i> property determines how many fax messages the iterator object retrieves from the archive each time the object refreshes its contents. The default value is <a href="https://msdn.microsoft.com/447a730c-6033-46ab-9d90-0aad1aa4a429">lDEFAULT_PREFETCH_SIZE</a>.
+
+To use this method, a user must have the <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a25531">farQUERY_IN_ARCHIVE</a> access right.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/f0b3071b-6936-4b19-873b-0ab28cfaea93">IFaxIncomingMessageIterator</a>
+
+
+
+<a href="https://msdn.microsoft.com/0dc10f14-1ae3-47e5-aab2-53ddaa45b8a0">PrefetchSize</a>
+ 
+
+ 
+

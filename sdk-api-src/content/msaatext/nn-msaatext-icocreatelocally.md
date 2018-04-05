@@ -1,0 +1,86 @@
+---
+UID: NN:msaatext.ICoCreateLocally
+title: ICoCreateLocally
+author: windows-driver-content
+description: Exposes a method that enables a client application to create a helper object in the server context.
+old-location: winauto\icocreatelocally.htm
+old-project: WinAuto
+ms.assetid: df432ace-01ff-4100-a9df-4ed6abea7f1c
+ms.author: windowsdriverdev
+ms.date: 3/29/2018
+ms.keywords: ICoCreateLocally, ICoCreateLocally interface [Windows Accessibility], ICoCreateLocally interface [Windows Accessibility], described, msaa.icocreatelocally, msaatext/ICoCreateLocally, winauto.icocreatelocally
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: interface
+req.header: msaatext.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: SSTP_CONFIG_PARAMS, *PSSTP_CONFIG_PARAMS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	msaatext.h
+api_name:
+-	ICoCreateLocally
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msaatext.dll
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# ICoCreateLocally interface
+
+
+## -description
+
+
+<p class="CCE_Message">[Active Accessibility Text Services is deprecated. Please see     
+<a href="http://go.microsoft.com/fwlink/p/?linkid=131573">Microsoft Windows Text Services Framework</a>
+for more information on advanced text input and natural language technologies.
+		]
+
+Exposes a method that enables a client application to create a helper object in the server context.
+
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICoCreateLocally</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ICoCreateLocally</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
+
+## -members
+
+The <b>ICoCreateLocally</b> interface has these methods.
+<table class="members" id="memberListMethods">
+<tr>
+<th align="left" width="37%">Method</th>
+<th align="left" width="63%">Description</th>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/3a41dd9d-71b3-4d7c-9728-a65f7ddac3d5">CoCreateLocally</a>
+</td>
+<td align="left" width="63%">
+Creates a helper object in the server context.
+
+</td>
+</tr>
+</table> 
+

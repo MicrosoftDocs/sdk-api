@@ -1,0 +1,92 @@
+---
+UID: NF:wmsinternaladminnetsource.IWMSInternalAdminNetSource.DeleteCredentials
+title: IWMSInternalAdminNetSource::DeleteCredentials method
+author: windows-driver-content
+description: The DeleteCredentials method removes a password from the cache.
+old-location: wmformat\iwmsinternaladminnetsource_deletecredentials.htm
+old-project: wmformat
+ms.assetid: 16144c10-419c-4e6a-bc96-2f429c793257
+ms.author: windowsdriverdev
+ms.date: 3/23/2018
+ms.keywords: DeleteCredentials method [windows Media Format], DeleteCredentials method [windows Media Format], IWMSInternalAdminNetSource interface, DeleteCredentials,IWMSInternalAdminNetSource.DeleteCredentials, IWMSInternalAdminNetSource, IWMSInternalAdminNetSource interface [windows Media Format], DeleteCredentials method, IWMSInternalAdminNetSource::DeleteCredentials, IWMSInternalAdminNetSourceDeleteCredentials, wmformat.iwmsinternaladminnetsource_deletecredentials, wmsinternaladminnetsource/IWMSInternalAdminNetSource::DeleteCredentials
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wmsinternaladminnetsource.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: NETSOURCE_URLCREDPOLICY_SETTINGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wmvcore.lib
+-	Wmvcore.dll
+-	WMStubDRM.lib
+-	WMStubDRM.dll
+api_name:
+-	IWMSInternalAdminNetSource.DeleteCredentials
+product: Windows
+targetos: Windows
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IWMSInternalAdminNetSource::DeleteCredentials method
+
+
+## -description
+
+
+
+The <b>DeleteCredentials</b> method removes a password from the cache.
+
+
+
+This method has been superseded by <a href="https://msdn.microsoft.com/06d82f1d-b965-40fb-8a79-904ba5af7191">IWMSInternalAdminNetSource2::DeleteCredentialsEx</a>. The methods of <b>IWMSInternalAdminNetSource2</b> are much more secure than the password caching methods in <b>IWMSInternalAdminNetSource</b> and should be used if available.
+
+
+## -parameters
+
+
+
+
+### -param bstrRealm [in]
+
+String containing the realm name. Realm names are supplied by servers to distinguish different levels of access to their files. Not all servers will have realm names, in which case the DNS name is used.
+
+
+## -returns
+
+
+
+If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</b> error code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/0fbdad85-d94a-4598-bb25-f733df33692a">IWMSInternalAdminNetSource Interface</a>
+ 
+
+ 
+

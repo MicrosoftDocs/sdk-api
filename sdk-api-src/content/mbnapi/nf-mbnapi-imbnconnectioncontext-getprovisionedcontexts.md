@@ -1,0 +1,179 @@
+---
+UID: NF:mbnapi.IMbnConnectionContext.GetProvisionedContexts
+title: IMbnConnectionContext::GetProvisionedContexts method
+author: windows-driver-content
+description: Gets a list of connection contexts.
+old-location: mbn\imbnconnectioncontext_getprovisionedcontexts.htm
+old-project: mbn
+ms.assetid: eceba2a8-baff-436f-b561-d9e130df5702
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: GetProvisionedContexts method [Microsoft Broadband Networks], GetProvisionedContexts method [Microsoft Broadband Networks], IMbnConnectionContext interface, GetProvisionedContexts,IMbnConnectionContext.GetProvisionedContexts, IMbnConnectionContext, IMbnConnectionContext interface [Microsoft Broadband Networks], GetProvisionedContexts method, IMbnConnectionContext::GetProvisionedContexts, mbn.imbnconnectioncontext_getprovisionedcontexts, mbnapi/IMbnConnectionContext::GetProvisionedContexts
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: mbnapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: None supported
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Mbnapi.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MBN_VOICE_CLASS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mbnapi.h
+api_name:
+-	IMbnConnectionContext.GetProvisionedContexts
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IMbnConnectionContext::GetProvisionedContexts method
+
+
+## -description
+
+
+Gets a list of connection contexts.
+
+
+## -parameters
+
+
+
+
+### -param provisionedContexts [out, retval]
+
+A list of <a href="https://msdn.microsoft.com/949b1bb3-8cad-45b4-81b7-1f70a76b6c8c">MBN_CONTEXT</a> values that represent connection contexts stored in the device. On error, this array is <b>NULL</b>. When successful, the calling application must free the allocated memory by calling <a href="http://go.microsoft.com/fwlink/p/?linkid=121490">SafeArrayDestroy</a>.
+
+
+## -returns
+
+
+
+This method can return one of these values.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method completed successfully.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_PENDING</b></dt>
+</dl>
+</td>
+<td width="60%">
+The connection contexts are not available.  The Mobile Broadband service is probing the device for the information.  The calling application can get notified when the connection contexts are available by registering for the <a href="https://msdn.microsoft.com/3c8fa150-7c36-4ad8-ada8-2b17693671d9">OnProvisionedContextListChange</a> method of <a href="https://msdn.microsoft.com/1f73260b-04db-410a-ade0-a835805b2b0a">IMbnConnectionContextEvents</a>.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_MBN_PIN_REQUIRED</b></dt>
+</dl>
+</td>
+<td width="60%">
+A PIN is required to get the connection contexts.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_MBN_SIM_NOT_INSERTED</b></dt>
+</dl>
+</td>
+<td width="60%">
+A SIM is not inserted in the device.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_MBN_BAD_SIM</b></dt>
+</dl>
+</td>
+<td width="60%">
+A bad SIM is inserted in the device.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED)</b></dt>
+</dl>
+</td>
+<td width="60%">
+The device does not support retrieval of provisioned contexts.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+A connection context is an abstraction of a specific set of network configuration parameters for setting up a virtual circuit or flow on top of the physical Mobile Broadband connection at layer 2. In GSM, it corresponds to the concept of a PDP context; in CDMA, it corresponds to a network profile.
+
+
+In some cases, connection parameters are already available in device/SIM memory. This method can be used to get a list of stored connection contexts stored in device for the current home provider network.
+
+Only contexts of type <b>MBN_CONTEXT_TYPE_INTERNET</b>  should be used for making data connections.
+
+A device will return all of the stored contexts for the current home provider. Some of the contexts can be empty and they will be reported as <b>MBN_CONTEXT_TYPE_NONE</b>.
+
+Sometimes, stored provisioned contexts can be updated by the network through SMS or OTA. Whenever there is a change in the device-provisioned contexts, the Mobile Broadband service will call the <a href="https://msdn.microsoft.com/3c8fa150-7c36-4ad8-ada8-2b17693671d9">OnProvisionedContextListChange</a> method of <a href="https://msdn.microsoft.com/1f73260b-04db-410a-ade0-a835805b2b0a">IMbnConnectionContextEvents</a>. An application can then use this method to get the updated list of provisioned contexts.
+
+
+For the recoverable errors <b>E_MBN_PIN_REQUIRED</b>, <b>E_MBN_SIM_NOT_INSERTED</b>, and <b>E_MBN_BAD_SIM</b>, the Mobile Broadband service will query the device again for this information when the error condition is over. For example, if the device required a PIN to be entered to retrieve the connection contexts, then it will return <b>E_MBN_PIN_REQUIRED</b>. When the application enters a PIN to unlock the device, then the service will again try to get this information from the device. The service will update the application about the status of the new query by calling the <a href="https://msdn.microsoft.com/3c8fa150-7c36-4ad8-ada8-2b17693671d9">OnProvisionedContextListChange</a> method of <a href="https://msdn.microsoft.com/1f73260b-04db-410a-ade0-a835805b2b0a">IMbnConnectionContextEvents</a>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/a9bc52dc-47f9-4b20-b98d-0287464a89e5">IMbnConnectionContext</a>
+ 
+
+ 
+

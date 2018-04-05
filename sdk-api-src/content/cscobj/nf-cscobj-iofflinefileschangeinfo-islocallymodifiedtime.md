@@ -1,0 +1,93 @@
+---
+UID: NF:cscobj.IOfflineFilesChangeInfo.IsLocallyModifiedTime
+title: IOfflineFilesChangeInfo::IsLocallyModifiedTime method
+author: windows-driver-content
+description: Determines whether one or more of an item's time values were modified while working offline.
+old-location: of\iofflinefileschangeinfo_islocallymodifiedtime.htm
+old-project: OfflineFiles
+ms.assetid: 7b88bf6d-f5a7-48e3-8c0a-41a8f6fba91f
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: IOfflineFilesChangeInfo, IOfflineFilesChangeInfo interface [Offline Files], IsLocallyModifiedTime method, IOfflineFilesChangeInfo::IsLocallyModifiedTime, IsLocallyModifiedTime method [Offline Files], IsLocallyModifiedTime method [Offline Files], IOfflineFilesChangeInfo interface, IsLocallyModifiedTime,IOfflineFilesChangeInfo.IsLocallyModifiedTime, cscobj/IOfflineFilesChangeInfo::IsLocallyModifiedTime, of.iofflinefileschangeinfo_islocallymodifiedtime
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: cscobj.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: OFFLINEFILES_SYNC_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	CscSvc.dll
+-	CscObj.dll
+api_name:
+-	IOfflineFilesChangeInfo.IsLocallyModifiedTime
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: CscSvc.dll; CscObj.dll
+req.irql: 
+---
+
+# IOfflineFilesChangeInfo::IsLocallyModifiedTime method
+
+
+## -description
+
+
+Determines whether one or more of an item's time values were modified while working offline.
+
+
+## -parameters
+
+
+
+
+### -param pbLocallyModifiedTime [out]
+
+Receives <b>TRUE</b> if one or more of the item's time values were modified in the Offline Files cache while working offline, or <b>FALSE</b> otherwise.
+
+
+## -returns
+
+
+
+Returns <b>S_OK</b> if successful, or an error value otherwise.
+
+
+
+
+## -remarks
+
+
+
+Use <a href="https://msdn.microsoft.com/120b3f7c-6a92-4a03-8676-1ad4e4dc96b3">IOfflineFilesFileSysInfo::GetTimes</a> to examine the time values associated with an item.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/0ece6120-bd5d-4e3d-b71f-7aa9a51a1568">IOfflineFilesChangeInfo</a>
+ 
+
+ 
+

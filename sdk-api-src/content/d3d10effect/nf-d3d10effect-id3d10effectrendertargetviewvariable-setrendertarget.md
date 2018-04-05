@@ -1,0 +1,87 @@
+---
+UID: NF:d3d10effect.ID3D10EffectRenderTargetViewVariable.SetRenderTarget
+title: ID3D10EffectRenderTargetViewVariable::SetRenderTarget method
+author: windows-driver-content
+description: Set a render-target.
+old-location: direct3d10\id3d10effectrendertargetviewvariable_setrendertarget.htm
+old-project: direct3d10
+ms.assetid: VS|directx_sdk|~\id3d10effectrendertargetviewvariable_setrendertarget.htm
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: 00c5c4c0-9f39-2185-d3de-467f8f4a84e9, ID3D10EffectRenderTargetViewVariable, ID3D10EffectRenderTargetViewVariable interface [Direct3D 10], SetRenderTarget method, ID3D10EffectRenderTargetViewVariable::SetRenderTarget, SetRenderTarget method [Direct3D 10], SetRenderTarget method [Direct3D 10], ID3D10EffectRenderTargetViewVariable interface, SetRenderTarget,ID3D10EffectRenderTargetViewVariable.SetRenderTarget, d3d10effect/ID3D10EffectRenderTargetViewVariable::SetRenderTarget, direct3d10.id3d10effectrendertargetviewvariable_setrendertarget
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: d3d10effect.h
+req.include-header: D3d10
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: D3D10_DEVICE_STATE_TYPES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	d3d10effect.h
+api_name:
+-	ID3D10EffectRenderTargetViewVariable.SetRenderTarget
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# ID3D10EffectRenderTargetViewVariable::SetRenderTarget method
+
+
+## -description
+
+
+Set a render-target.
+
+
+## -parameters
+
+
+
+
+### -param pResource [in]
+
+Type: <b><a href="https://msdn.microsoft.com/0a545476-19d2-41f7-9012-82fbf633f23b">ID3D10RenderTargetView</a>*</b>
+
+A pointer to a render-target-view interface. See <a href="https://msdn.microsoft.com/0a545476-19d2-41f7-9012-82fbf633f23b">ID3D10RenderTargetView Interface</a>.
+
+
+## -returns
+
+
+
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+
+Returns one of the following <a href="https://msdn.microsoft.com/7b67d428-d000-4c3e-adc1-b5fc67a15a6a">Direct3D 10 Return Codes</a>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/71f158ed-9e0f-464c-b30f-4f8958d3f1a1">ID3D10EffectRenderTargetViewVariable Interface</a>
+ 
+
+ 
+

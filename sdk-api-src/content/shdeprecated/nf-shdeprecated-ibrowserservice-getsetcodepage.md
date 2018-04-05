@@ -1,0 +1,84 @@
+---
+UID: NF:shdeprecated.IBrowserService.GetSetCodePage
+title: IBrowserService::GetSetCodePage method
+author: windows-driver-content
+description: Deprecated. Sets a new character code page and retrieves a pointer to the previous code page.
+old-location: shell\IBrowserService_GetSetCodePage.htm
+old-project: shell
+ms.assetid: 2d194f9a-cf82-47ed-8218-d0d5824be435
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: GetSetCodePage method [Windows Shell], GetSetCodePage method [Windows Shell], IBrowserService interface, GetSetCodePage,IBrowserService.GetSetCodePage, IBrowserService, IBrowserService interface [Windows Shell], GetSetCodePage method, IBrowserService::GetSetCodePage, shdeprecated/IBrowserService::GetSetCodePage, shell.IBrowserService_GetSetCodePage, zone_IBrowserService_GetSetCodePage
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: shdeprecated.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Shdeprecated.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: BNSTATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Shdeprecated.h
+api_name:
+-	IBrowserService.GetSetCodePage
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 4.0
+---
+
+# IBrowserService::GetSetCodePage method
+
+
+## -description
+
+
+Deprecated. Sets a new character code page and retrieves a pointer to the previous code page.
+
+
+## -parameters
+
+
+
+
+### -param pvarIn [in]
+
+Type: <b>VARIANT*</b>
+
+A pointer to a <b>VARIANT</b> that represents the new character code page. Only VT_I4 is supported. This parameter can be <b>NULL</b>.
+
+
+### -param pvarOut [out]
+
+Type: <b>VARIANT*</b>
+
+A pointer to a <b>VARIANT</b> that represents the previous character code page. Only VT_I4 is supported. This parameter can be <b>NULL</b>.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+

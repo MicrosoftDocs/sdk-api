@@ -1,0 +1,88 @@
+---
+UID: NF:dsadmin.IDsAdminNewObjPrimarySite.CreateNew
+title: IDsAdminNewObjPrimarySite::CreateNew method
+author: windows-driver-content
+description: The IDsAdminNewObjPrimarySite::CreateNew method enables a primary object creation extension to create a temporary directory service object in Active Directory Domain Services.
+old-location: ad\idsadminnewobjprimarysite_createnew.htm
+old-project: AD
+ms.assetid: ec685ae1-6a37-43d3-84ed-7409611ab63b
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: CreateNew method [Active Directory], CreateNew method [Active Directory], IDsAdminNewObjPrimarySite interface, CreateNew,IDsAdminNewObjPrimarySite.CreateNew, IDsAdminNewObjPrimarySite, IDsAdminNewObjPrimarySite interface [Active Directory], CreateNew method, IDsAdminNewObjPrimarySite::CreateNew, _glines_idsadminnewobjprimarysite_createnew, ad.idsadminnewobjprimarysite__createnew, ad.idsadminnewobjprimarysite_createnew, dsadmin/IDsAdminNewObjPrimarySite::CreateNew
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: dsadmin.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: DRT_ADDRESS_LIST, *PDRT_ADDRESS_LIST
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	DSAdmin.dll
+api_name:
+-	IDsAdminNewObjPrimarySite.CreateNew
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: DSAdmin.dll
+req.irql: 
+---
+
+# IDsAdminNewObjPrimarySite::CreateNew method
+
+
+## -description
+
+
+The <b>IDsAdminNewObjPrimarySite::CreateNew</b> method enables a primary object creation extension to create a temporary directory service object in Active Directory Domain Services. This object is then passed to each object creation extension in the extension's <a href="https://msdn.microsoft.com/e6dbb0ed-e20e-49c7-8247-d5688be93d8e">IDsAdminNewObjExt::SetObject</a> method.
+
+
+## -parameters
+
+
+
+
+### -param pszName [in]
+
+Pointer to a <b>WCHAR</b> string that contains the name of the object to be created.
+
+
+## -returns
+
+
+
+If the  method 
+      succeeds, <b>S_OK</b> is returned. If the method fails, an OLE-defined error code is returned. This method fails if the calling extension is not a primary object creation extension.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/e6dbb0ed-e20e-49c7-8247-d5688be93d8e">IDsAdminNewObjExt::SetObject</a>
+
+
+
+<a href="https://msdn.microsoft.com/cb46cb8f-28ae-44d0-b1de-dc6c090f8fc6">IDsAdminNewObjPrimarySite</a>
+ 
+
+ 
+

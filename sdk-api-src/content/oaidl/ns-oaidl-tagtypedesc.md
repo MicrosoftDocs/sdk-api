@@ -1,0 +1,93 @@
+---
+UID: NS:oaidl.tagTYPEDESC
+title: tagTYPEDESC
+author: windows-driver-content
+description: Describes the type of a variable, the return type of a function, or the type of a function parameter.
+old-location: automat\typedesc.htm
+old-project: automat
+ms.assetid: 45a8c5bf-c776-49da-8517-29055a5e74bc
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: TYPEDESC, TYPEDESC structure [Automation], _oa96_TYPEDESC, automat.typedesc, oaidl/TYPEDESC, tagTYPEDESC
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: struct
+req.header: oaidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: OaIdl.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: TYPEDESC
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	OaIdl.h
+api_name:
+-	TYPEDESC
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# tagTYPEDESC structure
+
+
+## -description
+
+
+Describes the type of a variable, the return type of a function, or the type of a function parameter.
+
+
+## -struct-fields
+
+
+
+
+### -field DUMMYUNIONNAME
+
+ 
+
+
+### -field vt
+
+The variant type.
+
+
+#### - hreftype
+
+With VT_USER_DEFINED, this is used to get a TypeInfo for the UDT.
+
+
+#### - lpadesc
+
+With VT_CARRAY...
+
+
+#### - lptdesc
+
+ With VT_PTR, the type pointed to.
+
+
+## -remarks
+
+
+
+If the variable is VT_SAFEARRAY or VT_PTR, the union portion of the TYPEDESC contains a pointer to a TYPEDESC that specifies the element type.
+
+
+

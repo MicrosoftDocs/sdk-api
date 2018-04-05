@@ -1,0 +1,89 @@
+---
+UID: NS:dvdmedia._AM_DVDCOPY_DISCKEY
+title: "_AM_DVDCOPY_DISCKEY"
+author: windows-driver-content
+description: Specifies the DVD disc key.
+old-location: dshow\am_dvdcopy_disckey.htm
+old-project: DirectShow
+ms.assetid: ab4d7b2d-59a6-4ad1-9120-552747b96596
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: "*PAM_DVDCOPY_DISCKEY, AM_DVDCOPY_DISCKEY, AM_DVDCOPY_DISCKEY structure [DirectShow], PAM_DVDCOPY_DISCKEY, PAM_DVDCOPY_DISCKEY structure pointer [DirectShow], _AM_DVDCOPY_DISCKEY, dshow.am_dvdcopy_disckey, dvdmedia/AM_DVDCOPY_DISCKEY, dvdmedia/PAM_DVDCOPY_DISCKEY"
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: struct
+req.header: dvdmedia.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Dvbsiparser.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: AM_DVDCOPY_DISCKEY, *PAM_DVDCOPY_DISCKEY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Dvdmedia.h
+api_name:
+-	AM_DVDCOPY_DISCKEY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
+---
+
+# _AM_DVDCOPY_DISCKEY structure
+
+
+## -description
+
+
+
+Specifies the DVD disc key.
+
+
+
+
+## -struct-fields
+
+
+
+
+### -field DiscKey
+
+DVD disc key.
+
+
+## -remarks
+
+
+
+The AM_PROPERTY_DVDCOPY_DISC_KEY property uses this structure.
+
+A disc key is used for the DVD CSS key exchange for decryption. Implementors should get a CSS license and further instructions from CSS.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/da3abefd-8f25-449d-8787-84d2cef928da">DVD Copy Protection Property Set</a>
+ 
+
+ 
+

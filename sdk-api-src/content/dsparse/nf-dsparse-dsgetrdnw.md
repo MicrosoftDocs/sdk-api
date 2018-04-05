@@ -1,0 +1,109 @@
+---
+UID: NF:dsparse.DsGetRdnW
+title: DsGetRdnW function
+author: windows-driver-content
+description: Retrieves the key and value of the first relative distinguished name and a pointer to the next relative distinguished name from a distinguished name string.
+old-location: ad\dsgetrdnw.htm
+old-project: AD
+ms.assetid: 22627f2e-adfb-49de-bae5-20aaf69830ac
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: DsGetRdnW, DsGetRdnW function [Active Directory], ad.dsgetrdnw, dsparse/DsGetRdnW
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: dsparse.h
+req.include-header: Ntdsapi.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: DS_MANGLE_FOR
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Ntdsapi.dll
+api_name:
+-	DsGetRdnW
+product: Windows
+targetos: Windows
+req.lib: Ntdsapi.lib
+req.dll: Ntdsapi.dll
+req.irql: 
+req.product: Windows Media Format 9 Series or later
+---
+
+# DsGetRdnW function
+
+
+## -description
+
+
+The <b>DsGetRdnW</b> function retrieves the key and value of the first relative distinguished name and a pointer to the next relative distinguished name from a distinguished name string.
+
+
+## -parameters
+
+
+
+
+### -param ppDN [in, out]
+
+Address of a Unicode string pointer that, on entry, contains the distinguished name string to be parsed. The length of this string is specified in the <i>pcDN</i> parameter. If the function succeeds, this parameter is adjusted to point to the remainder of the distinguished name exclusive of current relative distinguished name. For example, if this parameter points to the string "dc=corp,dc=fabrikam,dc=com", after the function is complete this parameter points to the string ",dc=fabrikam,dc=com".
+
+
+### -param pcDN [in, out]
+
+Pointer to a <b>DWORD</b> value that, on entry, contains the number of characters in the <i>ppDN</i> string. If the function succeeds, this parameter receives the number of characters in the remainder of the distinguished name. These values do not include the null-terminated character.
+
+
+### -param ppKey [out]
+
+Pointer to a <b>LPCWCH</b> value that, if the function succeeds, receives a pointer to the key in the relative distinguished name string. This pointer is within the <i>ppDN</i> string and is not null-terminated. The <i>pcKey</i> parameter receives the number of characters in the key. This parameter is undefined if <i>pcKey</i> receives zero.
+
+
+### -param pcKey [out]
+
+Pointer to a <b>DWORD</b> value that, if the function succeeds, receives the number of characters in the key string represented by the <i>ppKey</i> parameter. If this parameter receives zero, <i>ppKey</i> is undefined.
+
+
+### -param ppVal [out]
+
+Pointer to a <b>LPCWCH</b> value that, if the function is successful, receives a pointer to the value in the relative distinguished name string. This pointer is within the <i>ppDN</i> string and is not null-terminated. The <i>pcVal</i> parameter receives the number of characters in the value. This parameter is undefined if <i>pcVal</i> receives zero.
+
+
+### -param pcVal [out]
+
+Pointer to a <b>DWORD</b> value that, if the function succeeds, receives the number of characters in the value string represented by the <i>ppVal</i> parameter. If this parameter receives zero, <i>ppVal</i> is undefined.
+
+
+## -returns
+
+
+
+Returns <b>ERROR_SUCCESS</b> if successful or a Win32 error code otherwise. Possible error codes include the following values.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/a92783c2-ffb8-473e-8484-1c05ca5453ff">Domain Controller and Replication Management Functions</a>
+ 
+
+ 
+

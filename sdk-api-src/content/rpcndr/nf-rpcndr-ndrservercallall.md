@@ -1,0 +1,73 @@
+---
+UID: NF:rpcndr.NdrServerCallAll
+title: NdrServerCallAll function
+author: windows-driver-content
+description: NdrServerCallAll is not intended to be directly called by applications.
+old-location: rpc\ndrservercallall.htm
+old-project: Rpc
+ms.assetid: 7CCFC1CC-E37E-412E-9CB9-46888C42244A
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: NdrServerCallAll, NdrServerCallAll function [RPC], rpc.ndrservercallall, rpcndr/NdrServerCallAll
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: rpcndr.h
+req.include-header: Rpc.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: RPC_MESSAGE, *PRPC_MESSAGE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	RpcRT4.dll
+api_name:
+-	NdrServerCallAll
+product: Windows
+targetos: Windows
+req.lib: RpcRT4.lib
+req.dll: RpcRT4.dll
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# NdrServerCallAll function
+
+
+## -description
+
+
+<b>NdrServerCallAll</b> is not intended to be directly called by applications.
+
+
+## -parameters
+
+
+
+
+### -param pRpcMsg
+
+Reserved.
+
+
+## -returns
+
+
+
+This function does not return a value.
+
+
+

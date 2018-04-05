@@ -1,0 +1,114 @@
+---
+UID: NF:encdec.IDTFilter.get_EvalRatObjOK
+title: IDTFilter::get_EvalRatObjOK method
+author: windows-driver-content
+description: The get_EvalRatObjOK method queries whether the EvalRat object was created successfully.
+old-location: mstv\idtfilter_get_evalratobjok.htm
+old-project: mstv
+ms.assetid: 92bbe476-3aba-4a50-9cb3-500356228c4b
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: IDTFilter, IDTFilter interface [Microsoft TV Technologies], get_EvalRatObjOK method, IDTFilter::get_EvalRatObjOK, IDTFilterget_EvalRatObjOK, encdec/IDTFilter::get_EvalRatObjOK, get_EvalRatObjOK method [Microsoft TV Technologies], get_EvalRatObjOK method [Microsoft TV Technologies], IDTFilter interface, get_EvalRatObjOK,IDTFilter.get_EvalRatObjOK, mstv.idtfilter_get_evalratobjok
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: encdec.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
+req.target-min-winversvr: None supported
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: ProtType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	EncDec.h
+api_name:
+-	IDTFilter.get_EvalRatObjOK
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
+---
+
+# IDTFilter::get_EvalRatObjOK method
+
+
+## -description
+
+
+The <b>get_EvalRatObjOK</b> method queries whether the <b>EvalRat</b> object was created successfully.
+
+
+## -parameters
+
+
+
+
+### -param pHrCoCreateRetVal [out, retval]
+
+Receives an <b>HRESULT</b> value. The <b>HRESULT</b> is the value that was returned when the filter called <b>CoCreateInstance</b> to create the <b>EvalRat</b> object. If it equals S_OK, the <b>EvalRat</b> object was created successfully.
+
+
+## -returns
+
+
+
+Returns an <b>HRESULT</b>. Possible values include the following.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_POINTER</b></dt>
+</dl>
+</td>
+<td width="60%">
+NULL pointer argument
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+Success
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/15acf764-7e4d-40c3-b907-ff5dfaa69dae">IDTFilter Interface</a>
+ 
+
+ 
+

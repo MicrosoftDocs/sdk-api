@@ -1,0 +1,127 @@
+---
+UID: NF:t2embapi.TTDeleteEmbeddedFont
+title: TTDeleteEmbeddedFont function
+author: windows-driver-content
+description: Releases memory used by an embedded font, hFontReference.
+old-location: gdi\ttdeleteembeddedfont.htm
+old-project: gdi
+ms.assetid: cbd0945a-3f78-43d2-87f7-18e6e9d00096
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: TTDELETE_DONTREMOVEFONT, TTDeleteEmbeddedFont, TTDeleteEmbeddedFont function [Windows GDI], _win32_TTDeleteEmbeddedFont, gdi.ttdeleteembeddedfont, t2embapi/TTDeleteEmbeddedFont
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: t2embapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: SyncProviderConfiguration
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	T2embed.dll
+api_name:
+-	TTDeleteEmbeddedFont
+product: Windows
+targetos: Windows
+req.lib: T2embed.lib
+req.dll: T2embed.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# TTDeleteEmbeddedFont function
+
+
+## -description
+
+
+Releases memory used by an embedded font, <i>hFontReference</i>.
+
+By default, <b>TTDeleteEmbeddedFont</b> also removes the installed version of the font from the user's system. When an installable font is loaded, this function still must be called to release the memory used by the embedded font structure, but a flag can be specified indicating that the font should remain installed on the system.
+
+
+## -parameters
+
+
+
+
+### -param hFontReference [in]
+
+Handle identifying font, as provided in the <a href="https://msdn.microsoft.com/85181d86-bc18-4948-bc7d-65c2d71efefb">TTLoadEmbeddedFont</a> function.
+
+
+### -param ulFlags [in]
+
+Flag specifying font deletion options. Currently, this flag can be set to zero or the following value:
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="TTDELETE_DONTREMOVEFONT"></a><a id="ttdelete_dontremovefont"></a><dl>
+<dt><b>TTDELETE_DONTREMOVEFONT</b></dt>
+</dl>
+</td>
+<td width="60%">
+Do not remove the installed font from the system, but release the memory previously occupied by the embedded font structure.
+
+</td>
+</tr>
+</table>
+ 
+
+
+### -param pulStatus [out]
+
+Currently undefined.
+
+
+## -returns
+
+
+
+If successful, <b>TTDeleteEmbeddedFont</b> returns a value of E_NONE.
+
+The memory occupied by the embedded font structure is cleared. By default, the font indicated by <i>hFontReference</i> is also permanently removed (uninstalled and deleted) from the system.
+
+Otherwise, returns an error code described in <a href="https://msdn.microsoft.com/71effafe-55a9-40ed-81c7-07278eba32d3">Embedding-Function Error Messages</a>.
+
+
+
+
+## -remarks
+
+
+
+The client is responsible for calling this function to remove fonts when the embedding privileges do not allow a font to be permanently installed on a user's system.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/85181d86-bc18-4948-bc7d-65c2d71efefb">TTLoadEmbeddedFont</a>
+ 
+
+ 
+

@@ -1,0 +1,142 @@
+---
+UID: NF:wincrypt.CertIsStrongHashToSign
+title: CertIsStrongHashToSign function
+author: windows-driver-content
+description: Determines whether the specified hash algorithm and the public key in the signing certificate can be used to perform strong signing.
+old-location: security\certisstronghashtosign.htm
+old-project: SecCrypto
+ms.assetid: B498C1F0-1EFF-49AF-9CD4-A447F79256F1
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: CertIsStrongHashToSign, CertIsStrongHashToSign function [Security], security.certisstronghashtosign, wincrypt/CertIsStrongHashToSign
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: wincrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Crypt32.dll
+api_name:
+-	CertIsStrongHashToSign
+product: Windows
+targetos: Windows
+req.lib: Crypt32.lib
+req.dll: Crypt32.dll
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# CertIsStrongHashToSign function
+
+
+## -description
+
+
+Determines whether the specified hash algorithm and the public key in the signing certificate can be used to perform strong signing.
+
+
+## -parameters
+
+
+
+
+### -param pStrongSignPara [in]
+
+Pointer to a <a href="https://msdn.microsoft.com/12D9F82C-F484-43B0-BD55-F07321058671">CERT_STRONG_SIGN_PARA</a> structure that contains information about supported signing and hashing algorithms.
+
+
+### -param pwszCNGHashAlgid [in]
+
+Pointer to a Unicode string that contains the name of the hashing algorithm. The following algorithms are supported:
+
+<ul>
+<li>L"MD5" (BCRYPT_MD5_ALGORITHM)</li>
+<li>L"SHA1" (BCRYPT_SHA1_ALGORITHM)</li>
+<li>L"SHA256" (BCRYPT_SHA256_ALGORITHM)</li>
+<li>L"SHA256" (BCRYPT_SHA256_ALGORITHM)</li>
+<li>L"SHA512" (BCRYPT_SHA512_ALGORITHM)</li>
+</ul>
+
+### -param pSigningCert [in, optional]
+
+Pointer to a <a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a31026eea">CERT_CONTEXT</a> structure that  contains the signing certificate. The public key algorithm in the signing certificate is checked for strength. The public key (asymmetric) algorithm is used for signing. The following signature algorithms are supported:
+
+<ul>
+<li>L"RSA" (BCRYPT_RSA_ALGORITHM)</li>
+<li>L"DSA" (BCRYPT_DSA_ALGORITHM)</li>
+<li>L"ECDSA" (SSL_ECDSA_ALGORITHM)</li>
+</ul>
+This parameter can be <b>NULL</b> if you want to check only whether the hashing algorithm is strong.
+
+
+## -returns
+
+
+
+If the function succeeds, the function returns <b>TRUE</b>.
+
+If the function fails, it returns <b>FALSE</b>.
+For extended error information, call 
+<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. This function has the following error codes.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+One or more of the input arguments is not correct.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>NTE_BAD_ALGID</b></dt>
+</dl>
+</td>
+<td width="60%">
+A specified algorithm is not supported.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/12D9F82C-F484-43B0-BD55-F07321058671">CERT_STRONG_SIGN_PARA</a>
+ 
+
+ 
+

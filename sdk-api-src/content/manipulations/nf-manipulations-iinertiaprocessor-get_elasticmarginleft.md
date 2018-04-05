@@ -1,0 +1,96 @@
+---
+UID: NF:manipulations.IInertiaProcessor.get_ElasticMarginLeft
+title: IInertiaProcessor::get_ElasticMarginLeft method
+author: windows-driver-content
+description: The ElasticMarginLeft property specifies the leftmost region for bouncing the target object.
+old-location: wintouch\iinertiaprocessor_elasticmarginleft.htm
+old-project: wintouch
+ms.assetid: 3c6925d9-8220-4706-991b-cd0cb5697f29
+ms.author: windowsdriverdev
+ms.date: 3/23/2018
+ms.keywords: ElasticMarginLeft property [Windows Touch], ElasticMarginLeft property [Windows Touch], IInertiaProcessor interface, IInertiaProcessor, IInertiaProcessor interface [Windows Touch], ElasticMarginLeft property, IInertiaProcessor.ElasticMarginLeft, IInertiaProcessor::get_ElasticMarginLeft, IInertiaProcessor::put_ElasticMarginLeft, get_ElasticMarginLeft,IInertiaProcessor.get_ElasticMarginLeft, manipulations/IInertiaProcessor::ElasticMarginLeft, manipulations/IInertiaProcessor::get_ElasticMarginLeft, manipulations/IInertiaProcessor::put_ElasticMarginLeft, wintouch.iinertiaprocessor_elasticmarginleft
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: manipulations.h
+req.include-header: Manipulations.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MANIPULATION_PROCESSOR_MANIPULATIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	manipulations.h
+api_name:
+-	IInertiaProcessor.ElasticMarginLeft
+-	IInertiaProcessor.get_ElasticMarginLeft
+-	IInertiaProcessor.put_ElasticMarginLeft
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IInertiaProcessor::get_ElasticMarginLeft method
+
+
+## -description
+
+
+The <b>ElasticMarginLeft</b> property specifies the leftmost region for bouncing the target object.
+
+This property is read/write.
+
+
+## -parameters
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/8a043ef6-3251-4179-b42f-f59c07287b49">ElasticMarginBottom</a>
+
+
+
+<a href="https://msdn.microsoft.com/081dd9d4-d190-4a44-bcd8-d5d0d99d7fd2">ElasticMarginRight</a>
+
+
+
+<a href="https://msdn.microsoft.com/76e332bf-180b-466f-8c22-cec4e44a7ab6">ElasticMarginTop</a>
+
+
+
+<a href="https://msdn.microsoft.com/3261b461-add2-4e92-9a51-b2d46630fb4f">Handling Inertia in Unmanaged Code</a>
+
+
+
+<a href="https://msdn.microsoft.com/8dc171eb-0c6e-41dd-b506-5f91ea703a53">IInertiaProcessor</a>
+
+
+
+<a href="https://msdn.microsoft.com/188b6936-b36e-4e57-9118-8b61ed134c17">Inertia Mechanics</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542598">Properties</a>
+ 
+
+ 
+

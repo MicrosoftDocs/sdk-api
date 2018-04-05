@@ -1,0 +1,123 @@
+---
+UID: NF:winldap.ldap_controls_freeW
+title: ldap_controls_freeW function
+author: windows-driver-content
+description: Frees an array of LDAPControl structures.
+old-location: ldap\ldap_controls_free.htm
+old-project: LDAP
+ms.assetid: e1e4545f-6184-41bb-bba1-4eebae9cdaaf
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: "_ldap_ldap_controls_free, ldap.ldap__controls__free, ldap.ldap_controls_free, ldap_controls_free, ldap_controls_free function [LDAP], ldap_controls_freeA, ldap_controls_freeW, winldap/ldap_controls_free, winldap/ldap_controls_freeA, winldap/ldap_controls_freeW"
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: winldap.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: ldap_controls_freeW (Unicode) and ldap_controls_freeA (ANSI)
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: VOLUME_GET_GPT_ATTRIBUTES_INFORMATION, *PVOLUME_GET_GPT_ATTRIBUTES_INFORMATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Wldap32.dll
+api_name:
+-	ldap_controls_free
+-	ldap_controls_freeA
+-	ldap_controls_freeW
+product: Windows
+targetos: Windows
+req.lib: Wldap32.lib
+req.dll: Wldap32.dll
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# ldap_controls_freeW function
+
+
+## -description
+
+
+The <b>ldap_controls_free</b> function frees 
+   an array of <a href="https://msdn.microsoft.com/c0b4d712-021d-46f3-8bda-aaf660ec1acc">LDAPControl</a> structures.
+
+
+## -parameters
+
+
+
+
+### -param Control
+
+TBD
+
+
+
+
+#### - Controls [in]
+
+The array of <a href="https://msdn.microsoft.com/c0b4d712-021d-46f3-8bda-aaf660ec1acc">LDAPControl</a> structures to free.
+
+
+## -returns
+
+
+
+If the function succeeds, <b>LDAP_SUCCESS</b> is returned.
+
+If the function fails, an error code is returned. For more information, see 
+       <a href="https://msdn.microsoft.com/822411b7-fc49-4b93-8e54-353350ed5de9">Return Values</a>.
+
+
+
+
+## -remarks
+
+
+
+Use this function to free an array of <a href="https://msdn.microsoft.com/c0b4d712-021d-46f3-8bda-aaf660ec1acc">LDAPControl</a> 
+     structures previously allocated by LDAP function calls, such as the array returned by 
+     <a href="https://msdn.microsoft.com/6cadfbe0-0b69-4c43-a2ca-d8b3a12bf0a9">ldap_parse_result</a>.
+
+<div class="alert"><b>Note</b>  This function should only be used to free controls created internally by LDAP API functions. It is not used 
+     to free memory that is explicitly allocated by the user application.</div>
+<div> </div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn938561">Functions</a>
+
+
+
+<a href="https://msdn.microsoft.com/c0b4d712-021d-46f3-8bda-aaf660ec1acc">LDAPControl</a>
+
+
+
+<a href="https://msdn.microsoft.com/822411b7-fc49-4b93-8e54-353350ed5de9">Return Values</a>
+
+
+
+<a href="https://msdn.microsoft.com/6cadfbe0-0b69-4c43-a2ca-d8b3a12bf0a9">ldap_parse_result</a>
+ 
+
+ 
+

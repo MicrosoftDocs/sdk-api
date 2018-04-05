@@ -1,0 +1,152 @@
+---
+UID: NF:wcmconfig.ISettingsNamespace.GetSettingByPath
+title: ISettingsNamespace::GetSettingByPath method
+author: windows-driver-content
+description: Gets the setting object specified by a path.
+old-location: smi\isettingsnamespace_getsettingbypath.htm
+old-project: SMI
+ms.assetid: 7deadfed-036d-40cd-88b6-7afaf8fc7d41
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: GetSettingByPath method [SMI], GetSettingByPath method [SMI], ISettingsNamespace interface, GetSettingByPath,ISettingsNamespace.GetSettingByPath, ISettingsNamespace, ISettingsNamespace interface [SMI], GetSettingByPath method, ISettingsNamespace::GetSettingByPath, smi.isettingsnamespace_getsettingbypath, wcmconfig/ISettingsNamespace::GetSettingByPath
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wcmconfig.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: WcmConfig.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WcmNamespaceAccess
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SMIEngine.dll
+api_name:
+-	ISettingsNamespace.GetSettingByPath
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SMIEngine.dll
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# ISettingsNamespace::GetSettingByPath method
+
+
+## -description
+
+
+Gets the setting object specified by a path.
+
+
+## -parameters
+
+
+
+
+### -param Path [in]
+
+The path of the object.
+
+
+### -param Setting [out]
+
+A pointer to an <a href="https://msdn.microsoft.com/a743d942-69f9-426b-be88-adf88b9bb1e0">ISettingsItem</a> object that represents the retrieved object.
+
+
+## -returns
+
+
+
+This method can return one of these values.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+Indicates success.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>WCM_E_STATENODENOTFOUND</b></dt>
+</dl>
+</td>
+<td width="60%">
+Indicates an attempt to get an item that does not exist.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>WCM_E_INVALIDPATH</b></dt>
+</dl>
+</td>
+<td width="60%">
+Indicates that the path is not formatted correctly.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>WCM_E_INVALIDKEY</b></dt>
+</dl>
+</td>
+<td width="60%">
+Indicates that the path contains an unrecognized XML escape sequence.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>WCM_E_WRONGESCAPESTRING</b></dt>
+</dl>
+</td>
+<td width="60%">
+Indicates that the path is incorrectly specified and references the wrong key for a list item.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/a5d7b9ff-eb6f-40be-b246-17189cad92be">ISettingsNamespace</a>
+ 
+
+ 
+

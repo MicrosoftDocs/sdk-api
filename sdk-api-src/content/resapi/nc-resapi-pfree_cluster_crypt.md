@@ -1,0 +1,83 @@
+---
+UID: NC:resapi.PFREE_CLUSTER_CRYPT
+title: PFREE_CLUSTER_CRYPT
+author: windows-driver-content
+description: TBD.
+old-location: mscs\freeclustercrypt.htm
+old-project: MsCS
+ms.assetid: 33EE9915-2204-4431-8B72-014D47AB4651
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: PFREE_CLUSTER_CRYPT, PFREE_CLUSTER_CRYPT callback function [Failover Cluster], mscs.freeclustercrypt, resapi/PFREE_CLUSTER_CRYPT
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: callback
+req.header: resapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2012 R2
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: RENDEZVOUS_SESSION_FLAGS
+topic_type:
+-	kbSyntax
+api_type:
+-	<TBD>
+api_location:
+-
+api_name:
+-	PFREE_CLUSTER_CRYPT callback
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# PFREE_CLUSTER_CRYPT callback
+
+
+## -description
+
+
+TBD
+
+
+## -parameters
+
+
+
+
+### -param pCryptInfo [in]
+
+TBD
+
+
+## -returns
+
+
+
+If the operation completes successfully, this function returns <b>ERROR_SUCCESS</b>; otherwise, it returns a system error code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/74677418-CA63-4B4E-9844-A3A47AFFAD49">Cryptography Functions</a>
+ 
+
+ 
+

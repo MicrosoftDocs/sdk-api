@@ -1,0 +1,94 @@
+---
+UID: NF:wcsplugin.IDeviceModelPlugIn.GetNumChannels
+title: IDeviceModelPlugIn::GetNumChannels method
+author: windows-driver-content
+description: Returns the number of device channels in the parameter pNumChannels.
+old-location: wcs\IDeviceModelPlugIn_GetNumChannels.htm
+old-project: WCS
+ms.assetid: 3963eaf1-2516-4ac5-9f9f-9962f9d42adb
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: GetNumChannels method [Windows Color System], GetNumChannels method [Windows Color System], IDeviceModelPlugIn interface, GetNumChannels,IDeviceModelPlugIn.GetNumChannels, IDeviceModelPlugIn, IDeviceModelPlugIn interface [Windows Color System], GetNumChannels method, IDeviceModelPlugIn::GetNumChannels, _color_IDeviceModelPlugIn::GetNumChannels, wcs.IDeviceModelPlugIn_GetNumChannels, wcsplugin/IDeviceModelPlugIn::GetNumChannels
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wcsplugin.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WCN_VALUE_TYPE_PRIMARY_DEVICE_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	WcsPlugIn.h
+api_name:
+-	IDeviceModelPlugIn.GetNumChannels
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# IDeviceModelPlugIn::GetNumChannels method
+
+
+## -description
+
+
+Returns the number of device channels in the parameter <i>pNumChannels</i>.
+
+
+## -parameters
+
+
+
+
+### -param pNumChannels [out]
+
+A pointer to an unsigned integer representing the number of color channels for your device.
+
+
+## -returns
+
+
+
+If this function succeeds, the return value is S_OK.
+
+If this function fails, the return value is E_FAIL.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/a0623917-0b63-4546-a71a-1e9efa9fe8e5">Basic Color Management Concepts</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn938561">Functions</a>
+
+
+
+<a href="https://msdn.microsoft.com/90541ec2-c0ab-4f98-906b-3e58f8f5cc03">IDeviceModelPlugIn</a>
+ 
+
+ 
+

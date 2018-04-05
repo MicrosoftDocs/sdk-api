@@ -1,0 +1,244 @@
+---
+UID: NF:wincodec.IWICImagingFactory.CreateDecoder
+title: IWICImagingFactory::CreateDecoder method
+author: windows-driver-content
+description: Creates a new instance of IWICBitmapDecoder.
+old-location: wic\_wic_codec_iwicimagingfactory_createdecoder.htm
+old-project: wic
+ms.assetid: 0d0072ce-3480-4687-a4ea-640953cf5a36
+ms.author: windowsdriverdev
+ms.date: 3/28/2018
+ms.keywords: CreateDecoder method [Windows Imaging Component], CreateDecoder method [Windows Imaging Component], IWICImagingFactory interface, CreateDecoder,IWICImagingFactory.CreateDecoder, IWICImagingFactory, IWICImagingFactory interface [Windows Imaging Component], CreateDecoder method, IWICImagingFactory::CreateDecoder, _wic_codec_iwicimagingfactory_createdecoder, wic._wic_codec_iwicimagingfactory_createdecoder, wincodec/IWICImagingFactory::CreateDecoder
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wincodec.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Wincodec.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WICTiffCompressionOption
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Windowscodecs.dll
+api_name:
+-	IWICImagingFactory.CreateDecoder
+product: Windows
+targetos: Windows
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# IWICImagingFactory::CreateDecoder method
+
+
+## -description
+
+
+Creates a new instance of <a href="https://msdn.microsoft.com/91dafd5e-e4fb-4691-a3d0-ca8b6ff0aaf7">IWICBitmapDecoder</a>.
+
+
+## -parameters
+
+
+
+
+### -param guidContainerFormat [in]
+
+Type: <b>REFGUID</b>
+
+The GUID for the desired container format.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id=""></a><dl>
+<dt><b></b></dt>
+<dt>GUID_ContainerFormatBmp</dt>
+</dl>
+</td>
+<td width="60%">
+The BMP container format GUID.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id=""></a><dl>
+<dt><b></b></dt>
+<dt>GUID_ContainerFormatPng</dt>
+</dl>
+</td>
+<td width="60%">
+The PNG container format GUID.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id=""></a><dl>
+<dt><b></b></dt>
+<dt>GUID_ContainerFormatIco</dt>
+</dl>
+</td>
+<td width="60%">
+The ICO container format GUID.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id=""></a><dl>
+<dt><b></b></dt>
+<dt>GUID_ContainerFormatJpeg</dt>
+</dl>
+</td>
+<td width="60%">
+The JPEG container format GUID.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id=""></a><dl>
+<dt><b></b></dt>
+<dt>GUID_ContainerFormatTiff</dt>
+</dl>
+</td>
+<td width="60%">
+The TIFF container format GUID.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id=""></a><dl>
+<dt><b></b></dt>
+<dt>GUID_ContainerFormatGif</dt>
+</dl>
+</td>
+<td width="60%">
+The GIF container format GUID.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id=""></a><dl>
+<dt><b></b></dt>
+<dt>GUID_ContainerFormatWmp</dt>
+</dl>
+</td>
+<td width="60%">
+The HD Photo container format GUID.
+
+</td>
+</tr>
+</table>
+ 
+
+
+### -param pguidVendor [in]
+
+Type: <b>const GUID*</b>
+
+The GUID for the preferred encoder vendor. 
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id=""></a><dl>
+<dt><b></b></dt>
+<dt>NULL</dt>
+</dl>
+</td>
+<td width="60%">
+No preferred codec vendor.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id=""></a><dl>
+<dt><b></b></dt>
+<dt>GUID_VendorMicrosoft</dt>
+</dl>
+</td>
+<td width="60%">
+Prefer to use Microsoft encoder.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id=""></a><dl>
+<dt><b></b></dt>
+<dt>GUID_VendorMicrosoftBuiltIn</dt>
+</dl>
+</td>
+<td width="60%">
+Prefer to use the native Microsoft encoder.
+
+</td>
+</tr>
+</table>
+ 
+
+
+### -param ppIDecoder [out, retval]
+
+Type: <b><a href="https://msdn.microsoft.com/91dafd5e-e4fb-4691-a3d0-ca8b6ff0aaf7">IWICBitmapDecoder</a>**</b>
+
+A pointer that receives a pointer to a new <a href="https://msdn.microsoft.com/91dafd5e-e4fb-4691-a3d0-ca8b6ff0aaf7">IWICBitmapDecoder</a>. You must initialize this <b>IWICBitmapDecoder</b> on a stream using the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a> method later.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+
+            Other values may be available for both <i>guidContainerFormat</i> and <i>pguidVendor</i> depending on the installed WIC-enabled encoders.
+            The values listed are those that are natively supported by the operating system.
+         
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/30d155b1-a46c-46c4-9f8f-fb56dc6bf0a9">IWICImagingFactory</a>
+
+
+
+<a href="https://msdn.microsoft.com/2be5cfeb-2dd3-4486-b639-35ee28a7dd7b">WIC GUIDs and CLSIDs</a>
+ 
+
+ 
+

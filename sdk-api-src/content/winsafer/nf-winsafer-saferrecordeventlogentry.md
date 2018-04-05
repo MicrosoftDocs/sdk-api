@@ -1,0 +1,93 @@
+---
+UID: NF:winsafer.SaferRecordEventLogEntry
+title: SaferRecordEventLogEntry function
+author: windows-driver-content
+description: Saves messages to an event log.
+old-location: security\saferrecordeventlogentry.htm
+old-project: SecMgmt
+ms.assetid: 7eb48f80-3a57-46ec-aca1-6ff8c1c514c6
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: SaferRecordEventLogEntry, SaferRecordEventLogEntry function [Security], _mnp_saferrecordeventlogentry, security.saferrecordeventlogentry, winsafer/SaferRecordEventLogEntry
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: winsafer.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: SAFER_POLICY_INFO_CLASS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Advapi32.dll
+api_name:
+-	SaferRecordEventLogEntry
+product: Windows
+targetos: Windows
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# SaferRecordEventLogEntry function
+
+
+## -description
+
+
+The <b>SaferRecordEventLogEntry</b> function saves messages to an event log.
+
+
+## -parameters
+
+
+
+
+### -param hLevel [in]
+
+SAFER_LEVEL_HANDLE that contains the details of the rule to send to the event log.
+
+
+### -param szTargetPath [in]
+
+Path of the file that attempted to run.
+
+
+### -param lpReserved
+
+Reserved for future use. This parameter should be set to <b>NULL</b>.
+
+
+## -returns
+
+
+
+<b>TRUE</b> if the function succeeds; otherwise, <b>FALSE</b>. For extended error information, call 
+<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+
+
+
+
+## -remarks
+
+
+
+If <a href="https://msdn.microsoft.com/f82c4f40-5c37-4f97-95a2-4b2cc26bf41e">SaferIdentifyLevel</a> returns a SAFER_LEVEL_HANDLE with a LevelId that is anything other than SAFER_LEVELID_FULLYTRUSTED (0x40000), <b>SaferRecordEventLogEntry</b> can be called to facilitate troubleshooting. For example, clicking a button in excel.exe might attempt to launch another process that is not fully trusted. This might display an obscure error message because the program remapped the error returned from CreateProcess. To ease troubleshooting, some Safer functions call <b>SaferRecordEventLogEntry</b> to send an event to the event log.
+
+
+

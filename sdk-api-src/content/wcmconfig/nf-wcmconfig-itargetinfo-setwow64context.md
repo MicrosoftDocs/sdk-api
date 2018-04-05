@@ -1,0 +1,98 @@
+---
+UID: NF:wcmconfig.ITargetInfo.SetWow64Context
+title: ITargetInfo::SetWow64Context method
+author: windows-driver-content
+description: Sets an opaque context object for wow64 redirection.
+old-location: smi\itargetinfo_setwow64context.htm
+old-project: SMI
+ms.assetid: 8f44485d-0ad3-4c89-a1dc-19610f717972
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: ITargetInfo, ITargetInfo interface [SMI], SetWow64Context method, ITargetInfo::SetWow64Context, SetWow64Context method [SMI], SetWow64Context method [SMI], ITargetInfo interface, SetWow64Context,ITargetInfo.SetWow64Context, smi.itargetinfo_setwow64context, wcmconfig/ITargetInfo::SetWow64Context
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wcmconfig.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: WcmConfig.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WcmNamespaceAccess
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SMIEngine.dll
+api_name:
+-	ITargetInfo.SetWow64Context
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SMIEngine.dll
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# ITargetInfo::SetWow64Context method
+
+
+## -description
+
+
+Sets an opaque context object for wow64 redirection.
+
+
+## -parameters
+
+
+
+
+### -param InstallerModule [in]
+
+The name of the installer module.
+
+
+### -param Wow64Context [in]
+
+The opaque context object for wow64 redirection.
+
+
+## -returns
+
+
+
+This method returns an HRESULT value. <b>S_OK</b> indicates success.
+
+
+
+
+## -remarks
+
+
+
+<div class="alert"><b>Note</b>  This method is for internal use.</div>
+<div> </div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/f1dd3c93-43ca-4804-8330-55acaccf8ea8">ITargetInfo</a>
+ 
+
+ 
+

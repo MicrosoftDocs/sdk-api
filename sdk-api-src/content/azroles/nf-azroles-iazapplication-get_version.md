@@ -1,0 +1,61 @@
+---
+UID: NF:azroles.IAzApplication.get_Version
+title: IAzApplication::get_Version method
+author: windows-driver-content
+description: Sets or retrieves the version of the application.
+old-location: security\iazapplication_version.htm
+old-project: SecAuthZ
+ms.assetid: 4fa03e8c-e039-465c-aca2-4b68b894eb29
+ms.author: windowsdriverdev
+ms.date: 3/29/2018
+ms.keywords: AzApplication object [Security], Version property, IAzApplication, IAzApplication interface [Security], Version property, IAzApplication.Version, IAzApplication::get_Version, IAzApplication::put_Version, Version property [Security], Version property [Security], AzApplication object, Version property [Security], IAzApplication interface, azroles/IAzApplication::Version, azroles/IAzApplication::get_Version, azroles/IAzApplication::put_Version, get_Version,IAzApplication.get_Version, security.iazapplication_version
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: azroles.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: AZ_PROP_CONSTANTS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Azroles.dll
+api_name:
+-	IAzApplication.Version
+-	IAzApplication.get_Version
+-	IAzApplication.put_Version
+-	AzApplication.Version
+product: Windows
+targetos: Windows
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
+---
+
+# IAzApplication::get_Version method
+
+
+## -description
+
+
+The <b>Version</b> property sets or retrieves the version of the application.
+
+This property is read/write.
+
+
+## -parameters
+

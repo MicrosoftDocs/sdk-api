@@ -1,0 +1,126 @@
+---
+UID: NF:slpublic.SLGetWindowsInformation
+title: SLGetWindowsInformation function
+author: windows-driver-content
+description: Retrieves the value portion of a name-value pair from the licensing policy of a software component.
+old-location: security\slgetwindowsinformation.htm
+old-project: SecSLApi
+ms.assetid: 007b3f3a-c320-4bbc-ab5c-746b513cb815
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: SLGetWindowsInformation, SLGetWindowsInformation function [Security], security.slgetwindowsinformation, slpublic/SLGetWindowsInformation
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: slpublic.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: SL_ACTIVATION_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Slc.dll
+api_name:
+-	SLGetWindowsInformation
+product: Windows
+targetos: Windows
+req.lib: Slc.lib
+req.dll: Slc.dll
+req.irql: 
+req.product: Internet Explorer 6.01
+---
+
+# SLGetWindowsInformation function
+
+
+## -description
+
+
+Retrieves the value portion of a name-value pair from the licensing policy of a software component.
+
+
+## -parameters
+
+
+
+
+### -param pwszValueName [in]
+
+A pointer to a null-terminated string that contains the name associated with the value to retrieve.
+
+
+### -param peDataType [out, optional]
+
+A pointer to a value of the <a href="https://msdn.microsoft.com/245e79de-4823-4af9-926a-088e263cc802">SLDATATYPE</a> enumeration that specifies the type of data in the <i>ppbValue</i> buffer.
+
+
+### -param pcbValue [out]
+
+A pointer to the size, in bytes, of the <i>ppbValue</i> buffer.
+
+
+### -param ppbValue [out]
+
+A pointer to an array of <b>BYTE</b> pointers that specifies the value associated with the name specified by the <i>pwszValueName</i> parameter.
+
+When you have finished using this array, free it by calling the <a href="https://msdn.microsoft.com/a0393983-cb43-4dfa-91a6-d82a5fb8de12">LocalFree</a> function.
+
+
+## -returns
+
+
+
+ If the method succeeds, it returns <b>S_OK</b>.
+
+If the method fails, it returns an error code. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+
+This function can return the following values defined in Slerror.h.
+
+<table>
+<tr>
+<th>Return code/value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>SL_E_VALUE_NOT_FOUND</b></dt>
+<dt>0xC004F012</dt>
+</dl>
+</td>
+<td width="60%">
+The specified name-value pair was not found.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>SL_E_RIGHT_NOT_GRANTED</b></dt>
+<dt>0xC004F013</dt>
+</dl>
+</td>
+<td width="60%">
+The caller does not have the permissions necessary to call this function.
+
+</td>
+</tr>
+</table>
+ 
+
+
+

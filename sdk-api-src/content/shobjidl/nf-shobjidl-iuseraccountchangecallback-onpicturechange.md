@@ -1,0 +1,94 @@
+---
+UID: NF:shobjidl.IUserAccountChangeCallback.OnPictureChange
+title: IUserAccountChangeCallback::OnPictureChange method
+author: windows-driver-content
+description: Called to send notifications when the picture that represents a user account is changed.
+old-location: shell\IUserAccountChangeCallback_OnPictureChange.htm
+old-project: shell
+ms.assetid: 9e524edc-3921-4fec-9999-4fd9f51f347b
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: IUserAccountChangeCallback, IUserAccountChangeCallback interface [Windows Shell], OnPictureChange method, IUserAccountChangeCallback::OnPictureChange, OnPictureChange method [Windows Shell], OnPictureChange method [Windows Shell], IUserAccountChangeCallback interface, OnPictureChange,IUserAccountChangeCallback.OnPictureChange, _shell_IUserAccountChangeCallback_OnPictureChange, shell.IUserAccountChangeCallback_OnPictureChange, shobjidl/IUserAccountChangeCallback::OnPictureChange
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: shobjidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Shobjidl.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: VPWATERMARKFLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Shobjidl.h
+api_name:
+-	IUserAccountChangeCallback.OnPictureChange
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 6.01
+---
+
+# IUserAccountChangeCallback::OnPictureChange method
+
+
+## -description
+
+
+Called to send notifications when the picture that represents a user account is changed.
+
+
+## -parameters
+
+
+
+
+### -param pszUserName [in]
+
+Type: <b>LPCWSTR</b>
+
+Pointer to a string that contains the user name. Set this parameter to <b>NULL</b> to specify the current user.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+When the picture that represents a user account changes, the callback object notifies all applications that are registered under this registry subkey:
+
+                <pre xml:space="preserve"><b>HKEY_LOCAL_MACHINE</b>
+   <b>SOFTWARE</b>
+      <b>Microsoft</b>
+         <b>Windows</b>
+            <b>CurrentVersion</b>
+               <b>UserPictureChange</b></pre>
+
+
+
+

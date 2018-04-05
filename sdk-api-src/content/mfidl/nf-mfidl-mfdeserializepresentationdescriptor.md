@@ -1,0 +1,120 @@
+---
+UID: NF:mfidl.MFDeserializePresentationDescriptor
+title: MFDeserializePresentationDescriptor function
+author: windows-driver-content
+description: Deserializes a presentation descriptor from a byte array.
+old-location: mf\mfdeserializepresentationdescriptor.htm
+old-project: medfound
+ms.assetid: 4f567b86-bce2-49fe-9d43-d1dfa57a86cb
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: 4f567b86-bce2-49fe-9d43-d1dfa57a86cb, MFDeserializePresentationDescriptor, MFDeserializePresentationDescriptor function [Media Foundation], mf.mfdeserializepresentationdescriptor, mfidl/MFDeserializePresentationDescriptor
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: mfidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MF_URL_TRUST_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	mfplat.dll
+api_name:
+-	MFDeserializePresentationDescriptor
+product: Windows
+targetos: Windows
+req.lib: Mfplat.lib
+req.dll: Mfplat.dll
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# MFDeserializePresentationDescriptor function
+
+
+## -description
+
+
+
+Deserializes a presentation descriptor from a byte array.
+
+
+
+
+## -parameters
+
+
+
+
+### -param cbData
+
+Size of the <i>pbData</i> array, in bytes.
+
+
+### -param pbData
+
+Pointer to an array of bytes that contains the serialized presentation descriptor.
+
+
+### -param ppPD
+
+Receives a pointer to the <a href="https://msdn.microsoft.com/db03e212-7021-433e-84dc-410b2cf7af87">IMFPresentationDescriptor</a> interface of the presentation descriptor. The caller must release the interface.
+
+
+## -returns
+
+
+
+The function returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The function succeeded.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/f39a0dc8-438e-4723-94e4-a194a0a460e3">MFSerializePresentationDescriptor</a>
+
+
+
+<a href="https://msdn.microsoft.com/3018ffa7-e709-45b0-8b2b-7640d5633378">Media Foundation Functions</a>
+ 
+
+ 
+

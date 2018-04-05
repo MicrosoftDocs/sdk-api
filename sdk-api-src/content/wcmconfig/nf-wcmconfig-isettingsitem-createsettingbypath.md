@@ -1,0 +1,172 @@
+---
+UID: NF:wcmconfig.ISettingsItem.CreateSettingByPath
+title: ISettingsItem::CreateSettingByPath method
+author: windows-driver-content
+description: Creates a setting object specified by the path.
+old-location: smi\isettingsitem_createsettingbypath.htm
+old-project: SMI
+ms.assetid: 8b51329e-dc81-46dc-b174-0191e2eea44a
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: CreateSettingByPath method [SMI], CreateSettingByPath method [SMI], ISettingsItem interface, CreateSettingByPath,ISettingsItem.CreateSettingByPath, ISettingsItem, ISettingsItem interface [SMI], CreateSettingByPath method, ISettingsItem::CreateSettingByPath, smi.isettingsitem_createsettingbypath, wcmconfig/ISettingsItem::CreateSettingByPath
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wcmconfig.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: WcmConfig.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WcmNamespaceAccess
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SMIEngine.dll
+api_name:
+-	ISettingsItem.CreateSettingByPath
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SMIEngine.dll
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# ISettingsItem::CreateSettingByPath method
+
+
+## -description
+
+
+Creates a setting object specified by the path.
+
+
+## -parameters
+
+
+
+
+### -param Path [in]
+
+A pointer to the path.
+
+
+### -param Setting [out]
+
+A pointer to the newly created <a href="https://msdn.microsoft.com/a743d942-69f9-426b-be88-adf88b9bb1e0">ISettingsItem</a> item.
+
+
+## -returns
+
+
+
+This method can return one of these values.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+Indicates success.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>WCM_E_STATENODENOTFOUND</b></dt>
+</dl>
+</td>
+<td width="60%">
+Indicates that the method is called to create an item that is not a list element or does not already exist.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>WCM_E_READONLYITEM</b></dt>
+</dl>
+</td>
+<td width="60%">
+Indicates that the item cannot be written, such as if it is a read only item, or the namespace was opened in ReadOnly mode.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>WCM_E_INVALIDVALUE, WCM_E_INVALIDVALUEFORMAT, or WCM_E_INVALIDDATATYPE</b></dt>
+</dl>
+</td>
+<td width="60%">
+Indicates that the value provided for the key cannot be coerced to the appropriate type, such as a string value coerced to an unsigned integer.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>WCM_E_WRONGESCAPESTRING</b></dt>
+</dl>
+</td>
+<td width="60%">
+Indicates that the path contains an unrecognized XML escape sequence.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>WCM_E_INVALIDKEY</b></dt>
+</dl>
+</td>
+<td width="60%">
+ Indicates that the path is incorrectly specified and references the wrong key for a list item.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+<div class="alert"><b>Note</b>  When creating a scalar list item, you must set a value on the resulting <a href="https://msdn.microsoft.com/a743d942-69f9-426b-be88-adf88b9bb1e0">ISettingsItem</a> before releasing it, or it will not be persisted.</div>
+<div> </div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/a743d942-69f9-426b-be88-adf88b9bb1e0">ISettingsItem</a>
+ 
+
+ 
+

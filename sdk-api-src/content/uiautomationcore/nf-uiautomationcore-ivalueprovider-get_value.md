@@ -1,0 +1,95 @@
+---
+UID: NF:uiautomationcore.IValueProvider.get_Value
+title: IValueProvider::get_Value method
+author: windows-driver-content
+description: The value of the control.
+old-location: winauto\uiauto_IValueProvider_Value.htm
+old-project: WinAuto
+ms.assetid: 83cd0b99-32e4-4a25-aebb-b769745df78f
+ms.author: windowsdriverdev
+ms.date: 3/29/2018
+ms.keywords: IValueProvider, IValueProvider interface [Windows Accessibility], Value property, IValueProvider.Value, IValueProvider::get_Value, Value property [Windows Accessibility], Value property [Windows Accessibility], IValueProvider interface, get_Value,IValueProvider.get_Value, uiauto.uiauto_IValueProvider_Value, uiauto_IValueProvider_Value, uiautomationcore/IValueProvider::Value, uiautomationcore/IValueProvider::get_Value, winauto.uiauto_IValueProvider_Value
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: uiautomationcore.h
+req.include-header: UIAutomation.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: UIAutomationCore.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	UIAutomationCore.h
+api_name:
+-	IValueProvider.Value
+-	IValueProvider.get_Value
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# IValueProvider::get_Value method
+
+
+## -description
+
+
+The value of the control.
+
+This property is read-only.
+
+
+## -parameters
+
+
+## -remarks
+
+
+
+
+Single-line edit controls support programmatic access to their contents by implementing <a href="https://msdn.microsoft.com/e6adbc23-dbfe-4dd2-82d9-66ce16de3338">IValueProvider</a> (in addition to <a href="https://msdn.microsoft.com/8bd53f1e-731f-420b-a529-ca3f6c3fd97c">ITextProvider</a>). However, multi-line edit controls do not implement <b>IValueProvider</b>.
+
+
+
+To retrieve the textual contents of multi-line edit controls, the controls must implement <a href="https://msdn.microsoft.com/8bd53f1e-731f-420b-a529-ca3f6c3fd97c">ITextProvider</a>. However, <b>ITextProvider</b> does not support setting the value of a control.
+
+
+
+<a href="https://msdn.microsoft.com/e6adbc23-dbfe-4dd2-82d9-66ce16de3338">IValueProvider</a> does not support the retrieval of formatting information or substring values. Implement <a href="https://msdn.microsoft.com/8bd53f1e-731f-420b-a529-ca3f6c3fd97c">ITextProvider</a> in these scenarios.
+
+        
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/e6adbc23-dbfe-4dd2-82d9-66ce16de3338">IValueProvider</a>
+
+
+
+<a href="https://msdn.microsoft.com/8928c889-0e0a-439f-87e8-a9d121fcf73f">UI Automation Providers Overview</a>
+ 
+
+ 
+

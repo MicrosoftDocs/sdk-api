@@ -1,0 +1,145 @@
+---
+UID: NF:wmsdkidl.IWMOutputMediaProps.GetStreamGroupName
+title: IWMOutputMediaProps::GetStreamGroupName method
+author: windows-driver-content
+description: The GetStreamGroupName method is not implemented in this release, and returns the empty string.
+old-location: wmformat\iwmoutputmediaprops_getstreamgroupname.htm
+old-project: wmformat
+ms.assetid: 65251316-c98f-46a3-a0cf-164531ef0b46
+ms.author: windowsdriverdev
+ms.date: 3/23/2018
+ms.keywords: GetStreamGroupName method [windows Media Format], GetStreamGroupName method [windows Media Format], IWMOutputMediaProps interface, GetStreamGroupName,IWMOutputMediaProps.GetStreamGroupName, IWMOutputMediaProps, IWMOutputMediaProps interface [windows Media Format], GetStreamGroupName method, IWMOutputMediaProps::GetStreamGroupName, IWMOutputMediaPropsGetStreamGroupName, wmformat.iwmoutputmediaprops_getstreamgroupname, wmsdkidl/IWMOutputMediaProps::GetStreamGroupName
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wmsdkidl.h
+req.include-header: Wmsdk.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WM_AETYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wmvcore.lib
+-	Wmvcore.dll
+-	WMStubDRM.lib
+-	WMStubDRM.dll
+api_name:
+-	IWMOutputMediaProps.GetStreamGroupName
+product: Windows
+targetos: Windows
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IWMOutputMediaProps::GetStreamGroupName method
+
+
+## -description
+
+
+
+The <b>GetStreamGroupName</b> method is not implemented in this release, and returns the empty string.
+
+
+
+
+## -parameters
+
+
+
+
+### -param pwszName [out]
+
+Pointer to a wide-character <b>null</b>-terminated string containing the name. Pass <b>NULL</b> to retrieve the length of the name.
+
+
+### -param pcchName [in, out]
+
+On input, a pointer to a variable containing the length of the <i>pwszName</i> array in wide characters (2 bytes). On output, and if the method succeeds, the variable contains the length of the name, including the terminating <b>null</b> character.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+The <i>pcchName</i> parameter is <b>NULL</b>.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ASF_E_BUFFERTOOSMALL</b></dt>
+</dl>
+</td>
+<td width="60%">
+The buffer pointed to by the <i>pwszName</i> parameter is not large enough.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+You should make two calls to <b>GetStreamGroupName</b>. On the first call, pass <b>NULL</b> as <i>pwszName</i>. On return, the value pointed to by <i>pcchName</i> is set to the number of wide characters, including the terminating <b>null</b> character, required to hold the stream group name. Then you can allocate the required amount of memory for the string and pass a pointer to it as <i>pwszName</i> on the second call.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/8cf40db5-3902-4c14-b728-98da90567e89">IWMOutputMediaProps Interface</a>
+ 
+
+ 
+

@@ -1,0 +1,91 @@
+---
+UID: NF:instance.CInstance.GetEmbeddedObject
+title: CInstance::GetEmbeddedObject method
+author: windows-driver-content
+description: The GetEmbeddedObject method retrieves a pointer to an embedded CInstance object. The pointer can be used to get and set properties of that embedded object.
+old-location: wmi\cinstance_getembeddedobject.htm
+old-project: WmiSdk
+ms.assetid: e7daf313-d454-4e2c-8a8b-4f1bd9e19c58
+ms.author: windowsdriverdev
+ms.date: 3/16/2018
+ms.keywords: "?GetEmbeddedObject@CInstance@@QBE_NPBGPAPAV1@PAVMethodContext@@@Z, CInstance, CInstance interface [Windows Management Instrumentation], GetEmbeddedObject method, CInstance::GetEmbeddedObject, GetEmbeddedObject method [Windows Management Instrumentation], GetEmbeddedObject method [Windows Management Instrumentation], CInstance interface, GetEmbeddedObject,CInstance.GetEmbeddedObject, _hmm_cinstance_getembeddedobject, instance/CInstance::GetEmbeddedObject, wmi.cinstance_getembeddedobject"
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: instance.h
+req.include-header: FwCommon.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: InputScope
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	FrameDynOS.dll
+-	FrameDyn.dll
+api_name:
+-	CInstance.GetEmbeddedObject
+-	?GetEmbeddedObject@CInstance@@QBE_NPBGPAPAV1@PAVMethodContext@@@Z
+product: Windows
+targetos: Windows
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# CInstance::GetEmbeddedObject method
+
+
+## -description
+
+
+<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/aed29340-eb64-437d-b7e8-4f0e49c8288a">CInstance</a> class 
+    is part of the WMI Provider Framework which is now considered in final state, and no further development, 
+    enhancements, or updates will be available for non-security related issues affecting these libraries. The 
+    <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new 
+    development.]
+
+The <b>GetEmbeddedObject</b> method retrieves a pointer to an embedded <a href="https://msdn.microsoft.com/aed29340-eb64-437d-b7e8-4f0e49c8288a">CInstance</a> object. The pointer can be used to get and set properties of that embedded object.
+
+
+## -parameters
+
+
+
+
+### -param name
+
+Name of the <a href="https://msdn.microsoft.com/aed29340-eb64-437d-b7e8-4f0e49c8288a">CInstance</a> property retrieved.
+
+
+### -param pInstance
+
+Buffer that receives the pointer to the embedded <a href="https://msdn.microsoft.com/aed29340-eb64-437d-b7e8-4f0e49c8288a">CInstance</a> object.
+
+
+### -param pMethodContext
+
+Additional information communicated to the provider.
+
+
+## -returns
+
+
+
+Returns <b>TRUE</b> if the operation was successful and <b>FALSE</b> if an attempt was made to retrieve a property that is not a <a href="https://msdn.microsoft.com/aed29340-eb64-437d-b7e8-4f0e49c8288a">CInstance</a>-compatible type or a property that does not exist. More information is available in the log file, Framework.log.
+
+
+

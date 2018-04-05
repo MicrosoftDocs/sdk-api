@@ -1,0 +1,177 @@
+---
+UID: NF:ndhelper.INetDiagHelper.Repair
+title: INetDiagHelper::Repair method
+author: windows-driver-content
+description: Performs a repair specified by the input parameter.
+old-location: ndf\inetdiaghelpe_repair.htm
+old-project: NDF
+ms.assetid: 1892cbc8-01fd-4536-b29e-de733b0f6732
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: INetDiagHelper, INetDiagHelper interface [NDF], Repair method, INetDiagHelper::Repair, Repair method [NDF], Repair method [NDF], INetDiagHelper interface, Repair,INetDiagHelper.Repair, ndf.inetdiaghelpe_repair, ndhelper/INetDiagHelper::Repair
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: ndhelper.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: REPAIR_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	ndhelper.h
+api_name:
+-	INetDiagHelper.Repair
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# INetDiagHelper::Repair method
+
+
+## -description
+
+
+The <b>Repair</b> method performs a repair specified by the input parameter.
+
+
+## -parameters
+
+
+
+
+### -param pInfo [in]
+
+A pointer to a <a href="https://msdn.microsoft.com/07639ac5-e586-4ab1-96e8-502c378de940">RepairInfo</a> structure.
+
+
+### -param pDeferredTime [out]
+
+A pointer to the time, in seconds, to be deferred if the repair cannot be started immediately. This is only valid when the pStatus parameter is set to <b>DS_DEFERRED</b>.
+
+
+### -param pStatus [out]
+
+A pointer to the <a href="https://msdn.microsoft.com/efc3b64f-d3f3-41da-ae43-c7d8df9bf8e1">REPAIR_STATUS</a> that is returned from the repair.
+
+
+## -returns
+
+
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The operation succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_OUTOFMEMORY</b></dt>
+</dl>
+</td>
+<td width="60%">
+There is not enough memory available to complete this operation.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+One or more parameters has not been provided correctly.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_NOTIMPL</b></dt>
+</dl>
+</td>
+<td width="60%">
+This optional method is not implemented.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_ACCESSDENIED</b></dt>
+</dl>
+</td>
+<td width="60%">
+The caller does not have sufficient privileges to perform the diagnosis or repair operation.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_ABORT</b></dt>
+</dl>
+</td>
+<td width="60%">
+The diagnosis or repair operation has been canceled.
+
+</td>
+</tr>
+</table>
+ 
+
+Helper Class Extensions may return HRESULTS that are specific to the failures encountered in the function.
+
+
+
+
+## -remarks
+
+
+
+This method is not required when building a Helper Class Extension.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/7f1b8a5b-389b-4276-a49d-94a39be3c35c">INetDiagHelper</a>
+ 
+
+ 
+

@@ -1,0 +1,112 @@
+---
+UID: NF:wmsdkidl.WMCreateLicenseRevocationAgent
+title: WMCreateLicenseRevocationAgent function
+author: windows-driver-content
+description: The WMCreateLicenseRevocationAgent function creates a license revocation object.
+old-location: wmformat\wmcreatelicenserevocationagent.htm
+old-project: wmformat
+ms.assetid: 46898846-780f-4a86-93c7-826f55c358ba
+ms.author: windowsdriverdev
+ms.date: 3/23/2018
+ms.keywords: WMCreateLicenseRevocationAgent, WMCreateLicenseRevocationAgent function [windows Media Format], wmformat.wmcreatelicenserevocationagent, wmsdkidl/WMCreateLicenseRevocationAgent
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: wmsdkidl.h
+req.include-header: Wmsdk.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only],Windows Media Format 9.5 SDK
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WM_AETYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Wmvcore.dll
+api_name:
+-	WMCreateLicenseRevocationAgent
+product: Windows
+targetos: Windows
+req.lib: Wmvcore.lib
+req.dll: Wmvcore.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# WMCreateLicenseRevocationAgent function
+
+
+## -description
+
+
+
+The <b>WMCreateLicenseRevocationAgent</b> function creates a license revocation object.
+
+
+
+
+## -parameters
+
+
+
+
+### -param pCallback [in]
+
+Address of the <b>IUnknown</b> interface of the object that implements the <a href="https://msdn.microsoft.com/7b8cdb21-96e1-4cf9-8422-72bce693afb1">IWMStatusCallback::OnStatus</a> callback method used to communicate license revocation status to the application.
+
+
+### -param ppLicenseRevocationAgent [out]
+
+Address of a variable that receives a pointer to the <a href="https://msdn.microsoft.com/4cb5beb9-72b8-46cb-8460-56455785a7a0">IWMLicenseRevocationAgent</a> interface of the newly created license revocation agent object.
+
+
+## -returns
+
+
+
+The method returns an HRESULT. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>
+                  Return code
+                </th>
+<th>
+                  Description
+                </th>
+</tr>
+<tr>
+<td>S_OK</td>
+<td>The function succeeded.</td>
+</tr>
+<tr>
+<td>E_OUTOFMEMORY</td>
+<td>The function is unable to allocate memory for the new object.</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn938561">Functions</a>
+ 
+
+ 
+

@@ -1,0 +1,145 @@
+---
+UID: NF:contentpartner.IWMPContentContainer.GetContentPrice
+title: IWMPContentContainer::GetContentPrice method
+author: windows-driver-content
+description: Note  This section describes functionality designed for use by online stores.
+old-location: wmp\iwmpcontentcontainer_getcontentprice.htm
+old-project: WMP
+ms.assetid: ae0a9f37-2337-419e-b912-2102e8eb2a39
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: GetContentPrice method [Windows Media Player], GetContentPrice method [Windows Media Player], IWMPContentContainer interface, GetContentPrice,IWMPContentContainer.GetContentPrice, IWMPContentContainer, IWMPContentContainer interface [Windows Media Player], GetContentPrice method, IWMPContentContainer::GetContentPrice, IWMPContentContainerGetContentPrice, contentpartner/IWMPContentContainer::GetContentPrice, wmp.iwmpcontentcontainer_getcontentprice
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: contentpartner.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Media Player 11
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WMPTransactionType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	contentpartner.h
+api_name:
+-	IWMPContentContainer.GetContentPrice
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# IWMPContentContainer::GetContentPrice method
+
+
+## -description
+
+
+
+<div class="alert"><b>Note</b>  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.</div>
+<div> </div>
+The <b>GetContentPrice</b> method retrieves the price of the media item at the specified index in the content container.
+
+
+
+
+## -parameters
+
+
+
+
+### -param idxContent [in]
+
+Specifies the zero-based index of the media item for which to retrieve the price.
+
+
+### -param pbstrPrice [out]
+
+Pointer to a <b>BSTR</b> that receives the price or one of the following constants.
+
+<table>
+<tr>
+<th>
+                  String
+                </th>
+<th>
+                  Description
+                </th>
+</tr>
+<tr>
+<td>g_szContentPrice_Unknown</td>
+<td>The price of the content is unknown.</td>
+</tr>
+<tr>
+<td>g_szContentPrice_CannotBuy</td>
+<td>The content cannot be purchased.</td>
+</tr>
+<tr>
+<td>g_szContentPrice_Free</td>
+<td>The content is free.</td>
+</tr>
+</table>
+ 
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+The format of the string returned in <i>pbstrPrice</i> is known only to the online store. Windows Media Player displays, but does not interpret, price strings. For more information about how Windows Media Player and the content partner plug-in exchange price information, see <a href="https://msdn.microsoft.com/df4a3152-f9e3-4a97-b021-6d5e8de9c184">Purchasing Media Content</a>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/32a68af3-9270-4ac1-b133-a2770220dfcb">IWMPContentContainer Interface</a>
+ 
+
+ 
+

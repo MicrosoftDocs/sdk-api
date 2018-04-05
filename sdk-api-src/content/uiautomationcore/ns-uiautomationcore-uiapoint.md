@@ -1,0 +1,73 @@
+---
+UID: NS:uiautomationcore.UiaPoint
+title: UiaPoint
+author: windows-driver-content
+description: Contains the coordinates of a point.
+old-location: winauto\uiauto_UiaPointStruct.htm
+old-project: WinAuto
+ms.assetid: 2969cb79-fb78-404e-bcac-edf68001fa08
+ms.author: windowsdriverdev
+ms.date: 3/29/2018
+ms.keywords: UiaPoint, UiaPoint structure [Windows Accessibility], uiauto.uiauto_UiaPointStruct, uiauto_UiaPointStruct, uiautomationcore/UiaPoint, winauto.uiauto_UiaPointStruct
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: struct
+req.header: uiautomationcore.h
+req.include-header: UIAutomation.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: UIAutomationCore.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	UIAutomationCore.h
+api_name:
+-	UiaPoint
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# UiaPoint structure
+
+
+## -description
+
+
+Contains the coordinates of a point. 
+
+
+## -struct-fields
+
+
+
+
+### -field x
+
+Type: <b>double</b>
+
+The horizontal screen coordinate.
+
+
+### -field y
+
+Type: <b>double</b>
+
+The vertical screen coordinate.
+

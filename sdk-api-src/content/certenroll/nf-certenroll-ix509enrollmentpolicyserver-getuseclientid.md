@@ -1,0 +1,113 @@
+---
+UID: NF:certenroll.IX509EnrollmentPolicyServer.GetUseClientId
+title: IX509EnrollmentPolicyServer::GetUseClientId method
+author: windows-driver-content
+description: Retrieves a value that specifies whether the ClientId attribute is set in the policy server flags of the certificate enrollment policy (CEP) server.
+old-location: security\ix509enrollmentpolicyserver_getuseclientid.htm
+old-project: SecCertEnroll
+ms.assetid: 5fd74752-60bb-4bdb-973d-76d4ab0ae4c4
+ms.author: windowsdriverdev
+ms.date: 3/29/2018
+ms.keywords: GetUseClientId method [Security], GetUseClientId method [Security], IX509EnrollmentPolicyServer interface, GetUseClientId,IX509EnrollmentPolicyServer.GetUseClientId, IX509EnrollmentPolicyServer, IX509EnrollmentPolicyServer interface [Security], GetUseClientId method, IX509EnrollmentPolicyServer::GetUseClientId, certenroll/IX509EnrollmentPolicyServer::GetUseClientId, security.ix509enrollmentpolicyserver_getuseclientid
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: certenroll.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Certenroll.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: X509RequestType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Certenroll.h
+api_name:
+-	IX509EnrollmentPolicyServer.GetUseClientId
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# IX509EnrollmentPolicyServer::GetUseClientId method
+
+
+## -description
+
+
+The <b>GetUseClientId</b> method retrieves a value that specifies whether the <b>ClientId</b> attribute is set in the policy server flags of the certificate enrollment policy (CEP) server.
+
+
+## -parameters
+
+
+
+
+### -param pValue [out, retval]
+
+Pointer to a Boolean value that specifies whether the <b>PsfUseClientId</b> bit is set on the <a href="https://msdn.microsoft.com/e73bccb8-ca4d-4007-bdf3-1194ede5fdd1">PolicyServerUrlFlags</a> enumeration for this certificate enrollment policy (CEP) server.
+
+
+## -returns
+
+
+
+If the function succeeds, the function returns <b>S_OK</b>.
+
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_POINTER</b></dt>
+</dl>
+</td>
+<td width="60%">
+The <i>pValue</i> parameter cannot be <b>NULL</b>.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+This method returns <b>VARIANT_TRUE</b> if the <b>PsfUseClientId</b> bit is set on the <a href="https://msdn.microsoft.com/e73bccb8-ca4d-4007-bdf3-1194ede5fdd1">PolicyServerUrlFlags</a> enumeration for this CEP server. If this flag is set, the <b>ClientID</b> attribute is included in certificate requests during the enrollment process and can be used by the certification authority for diagnostic or auditing purposes. Examples of the type of information included in this attribute include the name of the cryptographic service provider, the Windows version number, the user name, the computer DNS name, and the domain controller DNS name.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/e39d40fd-3d43-4cdc-b41a-07a87a11bfad">IX509EnrollmentPolicyServer</a>
+ 
+
+ 
+

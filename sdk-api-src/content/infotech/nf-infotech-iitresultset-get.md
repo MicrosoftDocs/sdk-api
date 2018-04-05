@@ -1,0 +1,132 @@
+---
+UID: NF:infotech.IITResultSet.Get
+title: IITResultSet::Get method
+author: windows-driver-content
+description: Gets the property in the specified row and column and fills the given property object.
+old-location: htmlhelp\iitresultset_get.htm
+old-project: htmlhelp
+ms.assetid: VS|htmlhelp|~\html\refiitresultsetget.htm
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: Get method [HTML Help Workshop], Get method [HTML Help Workshop], IITResultSet interface, Get,IITResultSet.Get, IITResultSet, IITResultSet interface [HTML Help Workshop], Get method, IITResultSet::Get, htmlhelp.iitresultset_get, infotech/IITResultSet::Get, refIITResultSetGet
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: infotech.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: TEXT_SOURCE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Infotech.h
+api_name:
+-	IITResultSet.Get
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IITResultSet::Get method
+
+
+## -description
+
+
+Gets the property in the specified row and column and fills the given property object.
+
+
+
+
+## -parameters
+
+
+
+
+### -param lRowIndex [in]
+
+Row where property belongs.
+
+
+
+
+### -param lColumnIndex [in]
+
+
+### -param Prop [out, ref]
+
+Column where property belongs.
+
+
+
+
+## -returns
+
+
+
+This method can return one of these values.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The row was successfully retrieved.
+
+
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_NOTEXIST</b></dt>
+</dl>
+</td>
+<td width="60%">
+The row or column does not exist in the row set.
+
+
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/e77b1489-a883-4f98-acb0-b998cbe3d46e">IITResultSet</a>
+ 
+
+ 
+

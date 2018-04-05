@@ -1,0 +1,122 @@
+---
+UID: NF:mfidl.IMFSensorDevice.SetSensorDeviceMode
+title: IMFSensorDevice::SetSensorDeviceMode method
+author: windows-driver-content
+description: Sets a value that specifies the sharing mode of the sensor device to either controller or shared.
+old-location: mf\imfsensordevice_setsensordevicemode.htm
+old-project: medfound
+ms.assetid: 2B0DC098-EA3B-4061-8191-C67BA54663A3
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: IMFSensorDevice, IMFSensorDevice interface [Media Foundation], SetSensorDeviceMode method, IMFSensorDevice::SetSensorDeviceMode, SetSensorDeviceMode method [Media Foundation], SetSensorDeviceMode method [Media Foundation], IMFSensorDevice interface, SetSensorDeviceMode,IMFSensorDevice.SetSensorDeviceMode, mf.imfsensordevice_setsensordevicemode, mfidl/IMFSensorDevice::SetSensorDeviceMode
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: mfidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10, version 1607 [desktop apps only]
+req.target-min-winversvr: None supported
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MF_URL_TRUST_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfplat.lib
+-	mfplat.dll
+-	mfplat.dll
+-	mfplat.dll.dll
+api_name:
+-	IMFSensorDevice.SetSensorDeviceMode
+product: Windows
+targetos: Windows
+req.lib: Mfplat.lib; Mfplat.dll
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IMFSensorDevice::SetSensorDeviceMode method
+
+
+## -description
+
+
+Sets a value that specifies the sharing mode of the sensor device to either controller or shared.
+
+
+## -parameters
+
+
+
+
+### -param eMode [in]
+
+A member of the <a href="https://msdn.microsoft.com/D405AB48-13EC-4859-91B6-0DB797F85DBE">MFSensorDeviceMode</a> enumeration specifying wether the device is in shared or controller mode.
+
+
+## -returns
+
+
+
+
+            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+          
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+
+                The method succeeded.
+              
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>MF_E_NOT_INITIALIZED</b></dt>
+</dl>
+</td>
+<td width="60%">
+
+                The sensor group has not been initialized.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/061EF002-178E-42CA-9D32-7E1282297BA4">IMFSensorDevice</a>
+ 
+
+ 
+

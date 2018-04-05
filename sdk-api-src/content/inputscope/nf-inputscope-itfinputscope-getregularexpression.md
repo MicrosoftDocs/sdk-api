@@ -1,0 +1,91 @@
+---
+UID: NF:inputscope.ITfInputScope.GetRegularExpression
+title: ITfInputScope::GetRegularExpression method
+author: windows-driver-content
+description: ITfInputScope::GetRegularExpression method
+old-location: tsf\itfinputscope_getregularexpression.htm
+old-project: TSF
+ms.assetid: fa24c473-efc7-408f-86e8-905161de10f0
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: GetRegularExpression method [Text Services Framework], GetRegularExpression method [Text Services Framework], ITfInputScope interface, GetRegularExpression,ITfInputScope.GetRegularExpression, ITfInputScope, ITfInputScope interface [Text Services Framework], GetRegularExpression method, ITfInputScope::GetRegularExpression, inputscope/ITfInputScope::GetRegularExpression, tsf.itfinputscope_getregularexpression
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: inputscope.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: InputScope.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: InputScope
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Msctf.dll
+api_name:
+-	ITfInputScope.GetRegularExpression
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# ITfInputScope::GetRegularExpression method
+
+
+## -description
+
+
+
+
+## -parameters
+
+
+
+
+### -param pbstrRegExp [out]
+
+Pointer to a string containing the regular expression. The calling function must call <b>SystFreeString()</b> to free the memory allocated to the strings.
+
+
+## -returns
+
+
+
+This method can return one of these values.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method was successful.
+
+</td>
+</tr>
+</table>
+ 
+
+
+

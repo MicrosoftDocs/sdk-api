@@ -1,0 +1,100 @@
+---
+UID: NF:mbnapi.IMbnRegistrationEvents.OnRegisterStateChange
+title: IMbnRegistrationEvents::OnRegisterStateChange method
+author: windows-driver-content
+description: Notification method called by the Mobile Broadband service to indicate a change in the device's registration state.
+old-location: mbn\imbnregistrationevents_onregisterstatechange.htm
+old-project: mbn
+ms.assetid: 62393a9b-70e5-4819-8df1-59b94c1b6922
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: IMbnRegistrationEvents, IMbnRegistrationEvents interface [Microsoft Broadband Networks], OnRegisterStateChange method, IMbnRegistrationEvents::OnRegisterStateChange, OnRegisterStateChange method [Microsoft Broadband Networks], OnRegisterStateChange method [Microsoft Broadband Networks], IMbnRegistrationEvents interface, OnRegisterStateChange,IMbnRegistrationEvents.OnRegisterStateChange, mbn.imbnregistrationevents_onregisterstatechange, mbnapi/IMbnRegistrationEvents::OnRegisterStateChange
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: mbnapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps | UWP apps]
+req.target-min-winversvr: None supported
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Mbnapi.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MBN_VOICE_CLASS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mbnapi.h
+api_name:
+-	IMbnRegistrationEvents.OnRegisterStateChange
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IMbnRegistrationEvents::OnRegisterStateChange method
+
+
+## -description
+
+
+Notification method called by the Mobile Broadband service to indicate a change in the device's registration state.
+
+
+## -parameters
+
+
+
+
+### -param newInterface [in]
+
+Pointer to an <a href="https://msdn.microsoft.com/da5413b7-adf4-4a3d-893f-f51441460541">IMbnRegistration</a> interface that represents the applicable device.
+
+
+## -returns
+
+
+
+This method must return <b>S_OK</b>.
+
+
+
+
+## -remarks
+
+
+
+The <b>OnRegisterStateChange</b> method is called by the Mobile Broadband service to signal a change in the device registration state. It may  be called if any of the following changes:
+
+<ul>
+<li>There is a change in the registration state of the device.  For example, if the device goes from its home network to a roaming network, then the registration state can change from <b>MBN_REGISTER_STATE_HOME</b> to <b>MBN_REGISTER_STATE_ROAMING</b>.</li>
+<li>There is a change in registered provider ID, name, or roaming text.</li>
+<li>There is a change in the last reported network error code for a registration operation.</li>
+</ul>
+An application can use the passed <a href="https://msdn.microsoft.com/da5413b7-adf4-4a3d-893f-f51441460541">IMbnRegistration</a> interface to get the updated registration state data.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/f3b60a93-3b57-4c2c-9114-912ca47f16b2">IMbnRegistrationEvents</a>
+ 
+
+ 
+

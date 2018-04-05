@@ -1,0 +1,75 @@
+---
+UID: NE:d3dcsx.D3DX11_FFT_CREATE_FLAG
+title: D3DX11_FFT_CREATE_FLAG
+author: windows-driver-content
+description: FFT creation flags.
+old-location: direct3d11\d3dx11_fft_create_flag.htm
+old-project: direct3d11
+ms.assetid: 0e7eab8d-bbc5-4704-aa92-35de4a1eda28
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: D3DX11_FFT_CREATE_FLAG, D3DX11_FFT_CREATE_FLAG enumeration [Direct3D 11], D3DX11_FFT_CREATE_FLAG_NO_PRECOMPUTE_BUFFERS, ce09326a-8047-adf4-4d4a-86bfd0c74400, d3dcsx/D3DX11_FFT_CREATE_FLAG, d3dcsx/D3DX11_FFT_CREATE_FLAG_NO_PRECOMPUTE_BUFFERS, direct3d11.d3dx11_fft_create_flag
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: enum
+req.header: d3dcsx.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: D3DX11_FFT_CREATE_FLAG
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	d3dcsx.h
+api_name:
+-	D3DX11_FFT_CREATE_FLAG
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# D3DX11_FFT_CREATE_FLAG enumeration
+
+
+## -description
+
+
+FFT creation flags.
+
+
+## -enum-fields
+
+
+
+
+### -field D3DX11_FFT_CREATE_FLAG_NO_PRECOMPUTE_BUFFERS
+
+Do not AddRef or Release temp and precompute buffers, caller is responsible for holding 
+          references to these buffers.
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/7DDF9561-2773-4EA9-A451-EE60C4F9FF9D">D3DCSX 11 Enumerations</a>
+ 
+
+ 
+

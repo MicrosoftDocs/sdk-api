@@ -1,0 +1,90 @@
+---
+UID: NF:windows.ui.xaml.hosting.referencetracker.IReferenceTracker.PegFromTrackerSource
+title: IReferenceTracker::PegFromTrackerSource method
+author: windows-driver-content
+description: Indicates that a tracker source is unable to protected a reference tracker object.
+old-location: winrt\ireferencetracker_pegfromtrackersource.htm
+old-project: WinRT
+ms.assetid: ca35bcf5-add0-47a8-b989-f6d69674ca30
+ms.author: windowsdriverdev
+ms.date: 3/23/2018
+ms.keywords: IReferenceTracker, IReferenceTracker interface [Windows Runtime], PegFromTrackerSource method, IReferenceTracker::PegFromTrackerSource, PegFromTrackerSource method [Windows Runtime], PegFromTrackerSource method [Windows Runtime], IReferenceTracker interface, PegFromTrackerSource,IReferenceTracker.PegFromTrackerSource, windows/IReferenceTracker::PegFromTrackerSource, winrt.ireferencetracker_pegfromtrackersource
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: windows.ui.xaml.hosting.referencetracker.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Windows.ui.xaml.hosting.referencetracker.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: TransportInformation
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Windows.ui.xaml.hosting.referencetracker.h
+api_name:
+-	IReferenceTracker.PegFromTrackerSource
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# IReferenceTracker::PegFromTrackerSource method
+
+
+## -description
+
+
+Indicates that a tracker source is unable to protected a reference tracker object.  
+
+
+## -parameters
+
+
+
+
+
+
+## -returns
+
+
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+This method is called by the CLR when it is returning a XAML object as an <b>out</b> parameter argument.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/2267d29f-c3b2-4bc8-b4cb-6272a7ebae1a">IReferenceTracker</a>
+ 
+
+ 
+

@@ -1,0 +1,108 @@
+---
+UID: NF:faxcomex.IFaxOutgoingArchive.GetMessages
+title: IFaxOutgoingArchive::GetMessages method
+author: windows-driver-content
+description: The IFaxOutgoingArchive::GetMessages method returns a new iterator (archive cursor) for the archive of outbound fax messages. For more information, see IFaxOutgoingMessageIterator.
+old-location: fax\_mfax_faxoutgoingarchive_getmessages_cpp.htm
+old-project: Fax
+ms.assetid: VS|fax|~\fax\faxinto_z_20qb_cpp.htm
+ms.author: windowsdriverdev
+ms.date: 3/22/2018
+ms.keywords: GetMessages method [Fax Service], GetMessages method [Fax Service], IFaxOutgoingArchive interface, GetMessages,IFaxOutgoingArchive.GetMessages, IFaxOutgoingArchive, IFaxOutgoingArchive interface [Fax Service], GetMessages method, IFaxOutgoingArchive::GetMessages, _mfax_faxoutgoingarchive.getmessages_cpp, fax._mfax_faxoutgoingarchive_getmessages_cpp, faxcomex/IFaxOutgoingArchive::GetMessages
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: faxcomex.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: FAX_SMTP_AUTHENTICATION_TYPE_ENUM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Fxscomex.dll
+api_name:
+-	IFaxOutgoingArchive.GetMessages
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Fxscomex.dll
+req.irql: 
+req.product: Internet Explorer 5
+---
+
+# IFaxOutgoingArchive::GetMessages method
+
+
+## -description
+
+
+The <b>IFaxOutgoingArchive::GetMessages</b> method returns a new iterator (archive cursor) for the archive of outbound fax messages. For more information, see <a href="https://msdn.microsoft.com/5a34e012-33ae-4950-9f10-a3ad94142ef1">IFaxOutgoingMessageIterator</a>.
+
+
+## -parameters
+
+
+
+
+### -param lPrefetchSize
+
+Type: <b>long</b>
+
+A <b>long</b> value that specifies the size of the prefetch buffer. This value determines how many fax messages the iterator object retrieves from the fax server when the object needs to refresh its contents. The default value is <a href="https://msdn.microsoft.com/447a730c-6033-46ab-9d90-0aad1aa4a429">lDEFAULT_PREFETCH_SIZE</a>.
+
+
+### -param pFaxOutgoingMessageIterator [out, retval]
+
+Type: <b><a href="https://msdn.microsoft.com/5a34e012-33ae-4950-9f10-a3ad94142ef1">IFaxOutgoingMessageIterator</a>**</b>
+
+An address of a pointer that receives the <a href="https://msdn.microsoft.com/5a34e012-33ae-4950-9f10-a3ad94142ef1">IFaxOutgoingMessageIterator</a> interface.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+To use this method, a user must have the <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a25531">farSUBMIT_LOW</a> or <b>farQUERY_OUT_ARCHIVE</b> access right. With the <b>farSUBMIT_LOW</b> access right, the user will be able to use this method only for his own faxes. With the <b>farQUERY_OUT_ARCHIVE</b> access right, he will be able to use this method for all of the faxes on the server.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/6bd3eb63-512e-4774-9bb7-f99d1293f2f3">IFaxOutgoingArchive</a>
+
+
+
+<a href="https://msdn.microsoft.com/072eb2cc-7fd9-4f8e-8583-44384357e708">Visual Basic Example</a>
+ 
+
+ 
+

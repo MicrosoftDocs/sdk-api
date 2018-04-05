@@ -1,0 +1,84 @@
+---
+UID: NF:pla.IScheduleCollection.CreateSchedule
+title: IScheduleCollection::CreateSchedule method
+author: windows-driver-content
+description: Creates a schedule object.
+old-location: pla\ischedulecollection_createschedule.htm
+old-project: PLA
+ms.assetid: 8fa10cd9-d1ae-47c7-80e2-416165164491
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: CreateSchedule method [PLA], CreateSchedule method [PLA], IScheduleCollection interface, CreateSchedule,IScheduleCollection.CreateSchedule, IScheduleCollection, IScheduleCollection interface [PLA], CreateSchedule method, IScheduleCollection::CreateSchedule, pla.ischedulecollection_createschedule, pla/IScheduleCollection::CreateSchedule
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: pla.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: FolderActionSteps
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Pla.dll
+api_name:
+-	IScheduleCollection.CreateSchedule
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# IScheduleCollection::CreateSchedule method
+
+
+## -description
+
+
+Creates a schedule object.
+
+
+## -parameters
+
+
+
+
+### -param Schedule [out]
+
+An <a href="https://msdn.microsoft.com/b02043c6-5010-45a1-a4a4-ce30cbf0dba0">ISchedule</a> interface that you use to specify when the data collector set runs.
+
+
+## -returns
+
+
+
+Returns S_OK if successful.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/40b4a77c-5ab4-4443-801c-2e425b6ca1bc">IScheduleCollection</a>
+ 
+
+ 
+

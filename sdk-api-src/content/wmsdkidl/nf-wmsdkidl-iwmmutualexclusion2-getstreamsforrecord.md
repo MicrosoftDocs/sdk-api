@@ -1,0 +1,167 @@
+---
+UID: NF:wmsdkidl.IWMMutualExclusion2.GetStreamsForRecord
+title: IWMMutualExclusion2::GetStreamsForRecord method
+author: windows-driver-content
+description: The GetStreamsForRecord method retrieves the list of streams that are present in a record.
+old-location: wmformat\iwmmutualexclusion2_getstreamsforrecord.htm
+old-project: wmformat
+ms.assetid: a94a64e9-96c6-4aba-a5b4-f50d14c19b73
+ms.author: windowsdriverdev
+ms.date: 3/23/2018
+ms.keywords: GetStreamsForRecord method [windows Media Format], GetStreamsForRecord method [windows Media Format], IWMMutualExclusion2 interface, GetStreamsForRecord,IWMMutualExclusion2.GetStreamsForRecord, IWMMutualExclusion2, IWMMutualExclusion2 interface [windows Media Format], GetStreamsForRecord method, IWMMutualExclusion2::GetStreamsForRecord, IWMMutualExclusion2GetStreamsForRecord, wmformat.iwmmutualexclusion2_getstreamsforrecord, wmsdkidl/IWMMutualExclusion2::GetStreamsForRecord
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wmsdkidl.h
+req.include-header: Wmsdk.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WM_AETYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wmvcore.lib
+-	Wmvcore.dll
+-	WMStubDRM.lib
+-	WMStubDRM.dll
+api_name:
+-	IWMMutualExclusion2.GetStreamsForRecord
+product: Windows
+targetos: Windows
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IWMMutualExclusion2::GetStreamsForRecord method
+
+
+## -description
+
+
+
+The <b>GetStreamsForRecord</b> method retrieves the list of streams that are present in a record.
+
+
+
+
+## -parameters
+
+
+
+
+### -param wRecordNumber [in]
+
+<b>WORD</b> containing the record number for which to retrieve the streams.
+
+
+### -param pwStreamNumArray [out]
+
+Pointer to an array that will receive the stream numbers. If it is <b>NULL</b>, <b>GetStreamsForRecord</b> will return the number of streams to <i>pcStreams</i>.
+
+
+### -param pcStreams [in, out]
+
+Pointer to a <b>WORD</b> containing the number of streams in the record.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+<i>pcStreams</i> is <b>NULL</b>.
+
+OR
+
+<i>wRecordNumber</i> does not contain a valid record number.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ASF_E_BUFFERTOOSMALL</b></dt>
+</dl>
+</td>
+<td width="60%">
+The value passed as <i>pcStreams</i> is smaller than the number of streams in the record. On exit with this error code, the value at <i>pcStreams</i> will contain the correct number of streams.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_FAIL</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method is unable to access the record for an unspecified reason.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+You should make two calls to <b>GetStreamsForRecord</b>. On the first call, pass <b>NULL</b> as <i>pwStreamNumArray</i>. On return, the value of <i>pcStreams</i> is set to the number of streams. Then you can allocate the amount of memory needed to hold the array and pass a pointer to it as <i>pwStreamNumArray</i> on the second call.
+
+If you pass an array that is not large enough to contain all of the streams, an error code of ASF_E_BUFFERTOOSMALL is returned. When returning this error code, the method still sets the value at <i>pcStreams</i> to the correct number of streams.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/4a1f468c-2ba5-48a1-b56f-8b62aacf1ccf">IWMMutualExclusion2 Interface</a>
+ 
+
+ 
+

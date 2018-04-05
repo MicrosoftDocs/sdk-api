@@ -1,0 +1,113 @@
+---
+UID: NF:commctrl.Animate_OpenEx
+title: Animate_OpenEx macro
+author: windows-driver-content
+description: Opens an AVI clip from a resource in a specified module and displays its first frame in an animation control. You can use this macro or send the ACM_OPEN message explicitly.
+old-location: controls\Animate_OpenEx.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\animation\macros\animate_openex.htm
+ms.author: windowsdriverdev
+ms.date: 3/31/2018
+ms.keywords: Animate_OpenEx, Animate_OpenEx macro [Windows Controls], _win32_Animate_OpenEx, _win32_Animate_OpenEx_cpp, commctrl/Animate_OpenEx, controls.Animate_OpenEx, controls._win32_Animate_OpenEx
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: macro
+req.header: commctrl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: CATEGORYINFO, *LPCATEGORYINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Commctrl.h
+api_name:
+-	Animate_OpenEx
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# Animate_OpenEx macro
+
+
+## -description
+
+
+Opens an AVI clip from a resource in a specified module and displays its first frame in an animation control. You can use this macro or send the <a href="https://msdn.microsoft.com/87f476ce-bb27-4b5f-bfdf-dff84bd7e4f4">ACM_OPEN</a> message explicitly. 
+
+
+## -parameters
+
+
+
+
+### -param hwnd
+
+TBD
+
+
+### -param hInst
+
+TBD
+
+
+### -param szName
+
+TBD
+
+
+
+
+
+
+#### - hinst
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HINSTANCE</a></b>
+
+An instance handle to the module from which the resource should be loaded. If this value is <b>NULL</b>, the resource is loaded from the module that created the animation control. 
+
+
+#### - hwndAnim
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+
+A handle to the animation control. 
+
+
+#### - lpszName
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPTSTR</a></b>
+
+A pointer to a buffer that contains the path of the AVI file or the name of an AVI resource. Alternatively, this parameter can consist of the AVI resource identifier in the <a href="https://msdn.microsoft.com/4f169f33-ed13-4efc-bf3f-ea2a4fe1de4e">LOWORD</a> and zero in the <a href="https://msdn.microsoft.com/9f79d489-ff3f-437c-821e-fd353d712c7b">HIWORD</a>. To create this value, use the <a href="https://msdn.microsoft.com/761df981-776f-43ca-9cc9-bb82a49f66e6">MAKEINTRESOURCE</a> macro. The control loads the AVI resource from the module specified by <i>hinst</i>. The AVI file or resource specified by <i>lpszName</i> must not contain audio.
+
+
+
+If this parameter is <b>NULL</b>, the system closes the AVI file that was previously opened for the specified animation control, if any.
+
+
+## -remarks
+
+
+
+You can only open silent AVI clips. <a href="https://msdn.microsoft.com/87f476ce-bb27-4b5f-bfdf-dff84bd7e4f4">ACM_OPEN</a> and <a href="https://msdn.microsoft.com/aebfae03-401c-48de-ad3b-14574f5b4e73">Animate_Open</a> will fail if <i>lpszName</i> specifies an AVI clip that contains sound. 
+
+You can use <a href="https://msdn.microsoft.com/e5997bda-2eb0-452b-a9c3-11ca7110d0fb">Animate_Close</a> to close an AVI file or AVI resource that was previously opened for the specified animation control. 
+
+
+

@@ -1,0 +1,98 @@
+---
+UID: NF:wmpservices.IWMPPlugin.Init
+title: IWMPPlugin::Init method
+author: windows-driver-content
+description: The IWMPPlugin::Init method is called when Windows Media Player initializes the plug-in.
+old-location: wmp\iwmpplugin_init.htm
+old-project: WMP
+ms.assetid: 812752d5-4d4b-4d8d-86a7-c7a9daa092e5
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: IWMPPlugin, IWMPPlugin interface [Windows Media Player], Init method, IWMPPlugin::Init, IWMPPluginInitDSP, Init method [Windows Media Player], Init method [Windows Media Player], IWMPPlugin interface, Init,IWMPPlugin.Init, wmp.iwmpplugin_init, wmpservices/IWMPPlugin::Init
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wmpservices.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Media Player 9 Series or later.
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WMPServices_StreamState
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	wmpservices.h
+api_name:
+-	IWMPPlugin.Init
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IWMPPlugin::Init method
+
+
+## -description
+
+
+
+The <b>IWMPPlugin::Init</b> method is called when Windows Media Player initializes the plug-in.
+
+
+
+
+## -parameters
+
+
+
+
+### -param dwPlaybackContext [in]
+
+DWORD value that indicates the particular Windows Media Player playback engine to which the plug-in belongs.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>.
+
+
+
+
+## -remarks
+
+
+
+It is possible at any given time that multiple instances of Windows Media Player could be running in the same process. For instance, multiple Windows Media Player control instances could be embedded in the same browser window, or even in multiple instances of a browser that coexist in the same process. It is also possible that the same instance of Windows Media Player could create multiple playback engines at the same time. The <i>dwPlaybackContext</i> value allows you to determine which instance of the Windows Media Player playback engine contains the plug-in. This is useful if you wish to enable multiple plug-ins to connect to each other.
+
+<b>Init</b> and <b>Shutdown</b> will always be called on the same thread.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/e384aa43-72ab-44b7-b6bd-7a29335b5197">IWMPPlugin Interface</a>
+ 
+
+ 
+

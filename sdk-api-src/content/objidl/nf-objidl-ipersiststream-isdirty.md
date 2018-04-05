@@ -1,0 +1,95 @@
+---
+UID: NF:objidl.IPersistStream.IsDirty
+title: IPersistStream::IsDirty method
+author: windows-driver-content
+description: Determines whether an object has changed since it was last saved to its stream.
+old-location: com\ipersiststream_isdirty.htm
+old-project: com
+ms.assetid: fabafc37-18f2-4def-b6bf-f7daa2bb8f37
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: IPersistStream, IPersistStream interface [COM], IsDirty method, IPersistStream::IsDirty, IsDirty method [COM], IsDirty method [COM], IPersistStream interface, IsDirty,IPersistStream.IsDirty, _com_ipersiststream_isdirty, com.ipersiststream_isdirty, objidl/IPersistStream::IsDirty
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: objidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: ObjIdl.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: THDTYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	ObjIdl.h
+api_name:
+-	IPersistStream.IsDirty
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# IPersistStream::IsDirty method
+
+
+## -description
+
+
+Determines whether an object has changed since it was last saved to its stream.
+
+
+## -parameters
+
+
+
+
+
+
+## -returns
+
+
+
+This method returns S_OK to indicate that the object has changed. Otherwise, it returns S_FALSE.
+
+
+
+
+## -remarks
+
+
+
+Use this method to determine whether an object should be saved before closing it. The dirty flag for an object is conditionally cleared in the <a href="https://msdn.microsoft.com/b748b4f9-ef9c-486b-bdc4-4d23c4640ff7">IPersistStream::Save</a> method.
+
+<h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
+You should treat any error return codes as an indication that the object has changed. Unless this method explicitly returns S_FALSE, assume that the object must be saved.
+
+Note that the OLE-provided implementations of the <b>IPersistStream::IsDirty</b> method in the OLE-provided moniker interfaces always return S_FALSE because their internal state never changes.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/97ea64ee-d950-4872-add6-1f532a6eb33f">IPersistStream</a>
+ 
+
+ 
+

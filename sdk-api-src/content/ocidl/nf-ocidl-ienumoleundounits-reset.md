@@ -1,0 +1,90 @@
+---
+UID: NF:ocidl.IEnumOleUndoUnits.Reset
+title: IEnumOleUndoUnits::Reset method
+author: windows-driver-content
+description: Resets the enumeration sequence to the beginning.
+old-location: com\ienumoleundounits_reset.htm
+old-project: com
+ms.assetid: 14336909-539c-41ac-a3a6-73be04fa72d1
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: IEnumOleUndoUnits, IEnumOleUndoUnits interface [COM], Reset method, IEnumOleUndoUnits::Reset, Reset method [COM], Reset method [COM], IEnumOleUndoUnits interface, Reset,IEnumOleUndoUnits.Reset, _ole_ienumoleundounits_reset, com.ienumoleundounits_reset, ocidl/IEnumOleUndoUnits::Reset
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: ocidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: OCIdl.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: VIEWSTATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	OCIdl.h
+api_name:
+-	IEnumOleUndoUnits.Reset
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# IEnumOleUndoUnits::Reset method
+
+
+## -description
+
+
+Resets the enumeration sequence to the beginning.
+
+
+## -parameters
+
+
+
+
+
+
+## -returns
+
+
+
+This method returns S_OK on success. 
+
+
+
+
+## -remarks
+
+
+
+There is no guarantee that the same set of objects will be enumerated after the reset operation has completed. A static collection is reset to the beginning, but it can be too expensive for some collections, such as files in a directory, to guarantee this condition.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/f43cbd9d-d91b-4230-816f-693dec7056a4">IEnumOleUndoUnits</a>
+ 
+
+ 
+

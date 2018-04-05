@@ -1,0 +1,121 @@
+---
+UID: NF:mfobjects.IMFMediaEventQueue.Shutdown
+title: IMFMediaEventQueue::Shutdown method
+author: windows-driver-content
+description: Shuts down the event queue.
+old-location: mf\imfmediaeventqueue_shutdown.htm
+old-project: medfound
+ms.assetid: 6ec52973-0d90-463b-b2be-08d5d6fdcc05
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: 6ec52973-0d90-463b-b2be-08d5d6fdcc05, IMFMediaEventQueue, IMFMediaEventQueue interface [Media Foundation], Shutdown method, IMFMediaEventQueue::Shutdown, Shutdown method [Media Foundation], Shutdown method [Media Foundation], IMFMediaEventQueue interface, Shutdown,IMFMediaEventQueue.Shutdown, mf.imfmediaeventqueue_shutdown, mfobjects/IMFMediaEventQueue::Shutdown
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: mfobjects.h
+req.include-header: Mfidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MF_FILE_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfuuid.lib
+-	mfuuid.dll
+api_name:
+-	IMFMediaEventQueue.Shutdown
+product: Windows
+targetos: Windows
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IMFMediaEventQueue::Shutdown method
+
+
+## -description
+
+
+
+Shuts down the event queue.
+
+
+
+
+## -parameters
+
+
+
+
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+Call this method when your component shuts down. After this method is called, all <a href="https://msdn.microsoft.com/e1698caa-db70-436d-af6a-64c6e7247590">IMFMediaEventQueue</a> methods return <b>MF_E_SHUTDOWN</b>.
+
+This method removes all of the events from the queue.
+
+This interface is available on the following platforms if the Windows Media Format 11 SDK redistributable components are installed:
+
+<ul>
+<li>Windows XP with Service Pack 2 (SP2) and later.</li>
+<li>Windows XP Media Center Edition 2005 with KB900325 (Windows XP Media Center Edition 2005) and KB925766 (October 2006 Update Rollup for Windows XP Media Center Edition) installed.</li>
+</ul>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/e1698caa-db70-436d-af6a-64c6e7247590">IMFMediaEventQueue</a>
+ 
+
+ 
+

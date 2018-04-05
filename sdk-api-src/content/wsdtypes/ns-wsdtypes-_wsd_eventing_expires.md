@@ -1,0 +1,69 @@
+---
+UID: NS:wsdtypes._WSD_EVENTING_EXPIRES
+title: "_WSD_EVENTING_EXPIRES"
+author: windows-driver-content
+description: Represents the expiration time of a WS-Eventing message.
+old-location: ncd\wsd_eventing_expires.htm
+old-project: WsdApi
+ms.assetid: 728eacdb-3c27-4884-a9ba-34979590a57c
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: WSD_EVENTING_EXPIRES, WSD_EVENTING_EXPIRES structure, _WSD_EVENTING_EXPIRES, ncd.wsd_eventing_expires, wsdtypes/WSD_EVENTING_EXPIRES
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: struct
+req.header: wsdtypes.h
+req.include-header: Wsdapi.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WSD_EVENTING_EXPIRES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WsdTypes.h
+api_name:
+-	WSD_EVENTING_EXPIRES
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# _WSD_EVENTING_EXPIRES structure
+
+
+## -description
+
+
+Represents the expiration time of a WS-Eventing message. 
+
+
+## -struct-fields
+
+
+
+
+### -field Duration
+
+Reference to a <a href="https://msdn.microsoft.com/43d4d0c5-509a-46c4-bdf6-24c3307fb811">WSD_DURATION</a> structure that specifies the length of time a request or response is valid.
+
+
+### -field DateTime
+
+Reference to a <a href="https://msdn.microsoft.com/ec42d69c-133a-4e76-bbbe-0e6978f4723a">WSD_DATETIME</a> structure that specifies the time that the request or response expires. 
+

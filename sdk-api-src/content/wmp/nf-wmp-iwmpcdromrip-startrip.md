@@ -1,0 +1,122 @@
+---
+UID: NF:wmp.IWMPCdromRip.startRip
+title: IWMPCdromRip::startRip method
+author: windows-driver-content
+description: The startRip method rips the CD.
+old-location: wmp\iwmpcdromrip_startrip.htm
+old-project: WMP
+ms.assetid: 88ba1e83-a3c5-4922-8c58-37993ccb4afc
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: IWMPCdromRip, IWMPCdromRip interface [Windows Media Player], startRip method, IWMPCdromRip::startRip, IWMPCdromRipstartRip, startRip method [Windows Media Player], startRip method [Windows Media Player], IWMPCdromRip interface, startRip,IWMPCdromRip.startRip, wmp.iwmpcdromrip_startrip, wmp/IWMPCdromRip::startRip
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wmp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Media Player 11.
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WMPSyncState
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	wmp.dll
+api_name:
+-	IWMPCdromRip.startRip
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IWMPCdromRip::startRip method
+
+
+## -description
+
+
+
+The <b>startRip</b> method rips the CD.
+
+
+
+
+## -parameters
+
+
+
+
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+<b>Windows Media Player 10 Mobile: </b>This method is not supported.
+
+Ripping a CD by using the <b>IWMPCdromRip</b> interface has the same effect as ripping music by using the Windows Media Player user interface. Ripped content is automatically added to the library according to the user's preferences. For more information about user preferences for CD ripping, see "Ripping music from CDs" in Windows Media Player Help.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/c3e2db46-bef0-4c79-91b5-97ca5a86c6ba">IWMPCdromRip Interface</a>
+
+
+
+<a href="https://msdn.microsoft.com/2a6c5a25-f69c-4258-a92f-7f693b201a01">IWMPCdromRip::stopRip</a>
+
+
+
+<a href="https://msdn.microsoft.com/f5c1b5bf-d616-48cb-8690-e0237c56e402">Ripping a CD</a>
+ 
+
+ 
+

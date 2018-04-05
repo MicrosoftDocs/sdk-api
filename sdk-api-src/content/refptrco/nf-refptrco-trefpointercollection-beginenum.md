@@ -1,0 +1,97 @@
+---
+UID: NF:refptrco.TRefPointerCollection.BeginEnum
+title: TRefPointerCollection::BeginEnum method
+author: windows-driver-content
+description: The BeginEnum method starts enumerating the collection.
+old-location: wmi\trefpointercollection_beginenum.htm
+old-project: WmiSdk
+ms.assetid: 5f7879e8-0eeb-4768-a478-8effd4e355d3
+ms.author: windowsdriverdev
+ms.date: 3/16/2018
+ms.keywords: BeginEnum method [Windows Management Instrumentation], BeginEnum method [Windows Management Instrumentation], TRefPointerCollection interface, BeginEnum,TRefPointerCollection.BeginEnum, TRefPointerCollection, TRefPointerCollection interface [Windows Management Instrumentation], BeginEnum method, TRefPointerCollection::BeginEnum, _hmm_trefpointercollection_beginenum, refptrco/TRefPointerCollection::BeginEnum, wmi.trefpointercollection_beginenum
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: refptrco.h
+req.include-header: FwCommon.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: RECO_RANGE, RECO_RANGE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	FrameDynOS.dll
+-	FrameDyn.dll
+api_name:
+-	TRefPointerCollection.BeginEnum
+product: Windows
+targetos: Windows
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# TRefPointerCollection::BeginEnum method
+
+
+## -description
+
+
+<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/a2d1758a-4a7e-40fd-84c7-a25bc36ab538">TRefPointerCollection</a> class 
+    is part of the WMI Provider Framework which is now considered in final state, and no further development, 
+    enhancements, or updates will be available for non-security related issues affecting these libraries. The 
+    <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new 
+    development.]
+
+The <b>BeginEnum</b> method starts enumerating the collection.
+
+
+## -parameters
+
+
+
+
+### -param pos [ref]
+
+Denotes the position of an item in a collection of <a href="https://msdn.microsoft.com/a2d1758a-4a7e-40fd-84c7-a25bc36ab538">TRefPointerCollection</a> objects.
+
+
+## -returns
+
+
+
+If the method is successful, it returns <b>TRUE</b>.
+
+If the method fails, it returns <b>FALSE</b>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/a2d1758a-4a7e-40fd-84c7-a25bc36ab538">TRefPointerCollection</a>
+
+
+
+<a href="https://msdn.microsoft.com/86dcfc2e-fc73-4030-a63f-5284c2123a21">TRefPointerCollection::EndEnum</a>
+ 
+
+ 
+

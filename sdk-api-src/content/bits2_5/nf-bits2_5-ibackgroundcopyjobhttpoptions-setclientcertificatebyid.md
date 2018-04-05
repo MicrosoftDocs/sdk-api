@@ -1,0 +1,326 @@
+---
+UID: NF:bits2_5.IBackgroundCopyJobHttpOptions.SetClientCertificateByID
+title: IBackgroundCopyJobHttpOptions::SetClientCertificateByID method
+author: windows-driver-content
+description: Specifies the identifier of the client certificate to use for client authentication in an HTTPS (SSL) request.
+old-location: bits\ibackgroundcopyjobhttpoptions_setclientcertificatebyid.htm
+old-project: Bits
+ms.assetid: 60839bac-7f5f-4c43-84d4-26f1b21f974d
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: CA, IBackgroundCopyJobHttpOptions, IBackgroundCopyJobHttpOptions interface [BITS], SetClientCertificateByID method, IBackgroundCopyJobHttpOptions::SetClientCertificateByID, MY, ROOT, SPC, SetClientCertificateByID method [BITS], SetClientCertificateByID method [BITS], IBackgroundCopyJobHttpOptions interface, SetClientCertificateByID,IBackgroundCopyJobHttpOptions.SetClientCertificateByID, bits.ibackgroundcopyjobhttpoptions_setclientcertificatebyid, bits2_5/IBackgroundCopyJobHttpOptions::SetClientCertificateByID
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: bits2_5.h
+req.include-header: Bits.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Bits2_5.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: BG_CERT_STORE_LOCATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Bits.lib
+-	Bits.dll
+api_name:
+-	IBackgroundCopyJobHttpOptions.SetClientCertificateByID
+product: Windows
+targetos: Windows
+req.lib: Bits.lib
+req.dll: 
+req.irql: 
+---
+
+# IBackgroundCopyJobHttpOptions::SetClientCertificateByID method
+
+
+## -description
+
+
+Specifies the identifier of the client certificate to use for client authentication in an HTTPS (SSL) request.
+
+
+## -parameters
+
+
+
+
+### -param StoreLocation [in]
+
+Identifies the location of a system store to use for looking up the certificate. For possible values, see the <a href="https://msdn.microsoft.com/596b1ba1-6652-4c97-a44d-e8271471d864">BG_CERT_STORE_LOCATION</a> enumeration.
+
+
+### -param StoreName [in]
+
+Null-terminated string that contains the name of the certificate store. The string is limited to 256 characters, including the null terminator. You can specify one of the following system stores or an application-defined store. The store can be a local or remote store.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="CA"></a><a id="ca"></a><dl>
+<dt><b>CA</b></dt>
+</dl>
+</td>
+<td width="60%">
+Certification authority certificates
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="MY"></a><a id="my"></a><dl>
+<dt><b>MY</b></dt>
+</dl>
+</td>
+<td width="60%">
+Personal certificates
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="ROOT"></a><a id="root"></a><dl>
+<dt><b>ROOT</b></dt>
+</dl>
+</td>
+<td width="60%">
+Root certificates
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SPC"></a><a id="spc"></a><dl>
+<dt><b>SPC</b></dt>
+</dl>
+</td>
+<td width="60%">
+Software Publisher Certificate
+
+</td>
+</tr>
+</table>
+ 
+
+
+### -param pCertHashBlob [in]
+
+SHA1 hash that identifies the certificate. Use a 20 byte buffer for the hash. For more information, see Remarks.
+
+
+## -returns
+
+
+
+The following table lists some of the possible return values.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b><b>S_OK</b></b></dt>
+</dl>
+</td>
+<td width="60%">
+Success.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_ACCESSDENIED</b></dt>
+</dl>
+</td>
+<td width="60%">
+The user does not have permission to access the store location.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_NOTIMPL</b></dt>
+</dl>
+</td>
+<td width="60%">
+The value for the <i>StoreLocation</i> parameter is not defined in the <a href="https://msdn.microsoft.com/596b1ba1-6652-4c97-a44d-e8271471d864">BG_CERT_STORE_LOCATION</a> enumeration.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>HRESULT_FROM_WIN32(ERROR_FILE_NOT_FOUND)</b></dt>
+</dl>
+</td>
+<td width="60%">
+Could not find a store matching the <i>StoreName</i> parameter.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>CRYPT_E_NOT_FOUND</b></dt>
+</dl>
+</td>
+<td width="60%">
+A certificate matching the hash was not found.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>RPC_X_NULL_REF_POINTER</b></dt>
+</dl>
+</td>
+<td width="60%">
+The <i>StoreName</i> or <i>pCertHashBlob</i> parameter cannot be <b>NULL</b>.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>RPC_X_BAD_STUB_DATA</b></dt>
+</dl>
+</td>
+<td width="60%">
+The <i>pCertHashBlob</i> buffer size is not 20 bytes.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>BG_E_STRING_TOO_LONG</b></dt>
+</dl>
+</td>
+<td width="60%">
+The <i>StoreName</i> parameter is more than 256 characters.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>BG_E_INVALID_STATE</b></dt>
+</dl>
+</td>
+<td width="60%">
+The state of the job cannot be BG_JOB_STATE_CANCELLED or BG_JOB_STATE_ACKNOWLEDGED.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+Only the job owner can specify the client certificate. If the job changes ownership, BITS removes the certificate from the job.
+
+The client certificate is applicable only for remote files that use the HTTP or HTTPS protocol. You can specify a certificate for all job types.
+
+When a website accepts but does not require an SSL client certificate, and the BITS job does not specify a client certificate, the job will fail with ERROR_WINHTTP_CLIENT_AUTH_CERT_NEEDED (0x80072f0c).
+
+If you create a certificate for the job or application, you could store the certificate identifier (thumbprint) in the registry or database and use it when a job requires a certificate. You could also enumerate the certificates in the store and let the user choose the certificate. Another alternative is to call the <a href="https://msdn.microsoft.com/20b3fcfb-55df-46ff-80a5-70f31a3d03b2">CertFindCertificateInStore</a>  function to retrieve the certificate context based on some criteria. Using the context, call the <a href="https://msdn.microsoft.com/f766db64-3121-4f70-ac83-ce25ee634efa">CertGetCertificateContextProperty</a> function to retrieve the hash (specify CERT_HASH_PROP_ID for <i>dwPropId</i>).
+
+SmartCard thumbprints are not supported.
+
+
+#### Examples
+
+The following example shows how to specify a client certificate for a job using the thumbprint of the certificate. The example hard codes the thumbprint of the certificate and assumes pJob points to a valid job. 
+
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
+  HRESULT hr = S_OK;
+  IBackgroundCopyJob* pJob = NULL;  
+  IBackgroundCopyJobHttpOptions* pHttpOptions = NULL;
+  BYTE Thumbprint[] = {0xa1, 0x06, 0x6e, 0x13, 0xf2, 0x34, 0x49, 0x0a, 0x22, 0xd7, 0x6f, 0xb2, 0x80, 0xab, 0x68, 0x7d, 0x16, 0x55, 0xb3, 0x14};
+
+
+  // Retrieve a pointer to the IBackgroundCopyJob4 interface.
+  hr = pJob-&gt;QueryInterface(__uuidof(IBackgroundCopyJobHttpOptions), (void**)&amp;pHttpOptions);
+  pJob-&gt;Release();
+  if (FAILED(hr))
+  {
+    wprintf(L"QueryInterface for HttpOptions failed with 0x%x.\n", hr);
+    goto cleanup;
+  }
+
+  // Use the client certificate in the current user's personal (MY) store.
+  hr = pHttpOptions-&gt;SetClientCertificateByID(BG_CERT_STORE_LOCATION_CURRENT_USER, 
+      L"MY", Thumbprint);
+  if (FAILED(hr))
+  {
+    wprintf(L"pHttpOptions-&gt;SetClientCertificateByID failed with 0x%x.\n", hr);
+    goto cleanup;
+  }
+
+
+cleanup:
+
+  if (pHttpOptions)
+  {
+    hr = pHttpOptions-&gt;Release();
+  }
+
+</pre>
+</td>
+</tr>
+</table></span></div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/d8ccf65d-a4f1-44d9-9903-43e5529f1f29">IBackgroundCopyJobHttpOptions</a>
+
+
+
+<a href="https://msdn.microsoft.com/cd317bf9-1d4b-438e-beec-15ea7da90fc9">IBackgroundCopyJobHttpOptions::GetClientCertificate</a>
+
+
+
+<a href="https://msdn.microsoft.com/b4fb7213-5f6b-407f-bc44-6d11886ed5ad">IBackgroundCopyJobHttpOptions::RemoveClientCertificate</a>
+
+
+
+<a href="https://msdn.microsoft.com/8262b360-ab05-42a3-b5e7-178dc9f23fc6">IBackgroundCopyJobHttpOptions::SetClientCertificateByName</a>
+ 
+
+ 
+

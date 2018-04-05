@@ -1,0 +1,113 @@
+---
+UID: NN:control.IDeferredCommand
+title: IDeferredCommand
+author: windows-driver-content
+description: The IDeferredCommand interface cancels or modify graph-control commands that were queued using the IQueueCommand interface.When an application calls an IQueueCommand method on the Filter Graph Manager, it receives a pointer to the IDeferredCommand interface. The application can use the interface to cancel or postpone the command, or retrieve the return value from the command.
+old-location: dshow\ideferredcommand.htm
+old-project: DirectShow
+ms.assetid: 8161932a-16aa-4700-b91d-b4d8948ad59f
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: IDeferredCommand, IDeferredCommand interface [DirectShow], IDeferredCommand interface [DirectShow], described, IDeferredCommandInterface, control/IDeferredCommand, dshow.ideferredcommand
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: interface
+req.header: control.h
+req.include-header: Dshow.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WMPContextMenuInfo
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Strmiids.lib
+-	Strmiids.dll
+api_name:
+-	IDeferredCommand
+product: Windows
+targetos: Windows
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
+---
+
+# IDeferredCommand interface
+
+
+## -description
+
+
+
+The <code>IDeferredCommand</code> interface cancels or modify graph-control commands that were queued using the <a href="https://msdn.microsoft.com/08efcbec-ce17-44e8-a3c1-4b5b95dcaaa4">IQueueCommand</a> interface.
+
+When an application calls an <b>IQueueCommand</b> method on the Filter Graph Manager, it receives a pointer to the <code>IDeferredCommand</code> interface. The application can use the interface to cancel or postpone the command, or retrieve the return value from the command.
+
+
+
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDeferredCommand</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDeferredCommand</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
+
+## -members
+
+The <b>IDeferredCommand</b> interface has these methods.
+<table class="members" id="memberListMethods">
+<tr>
+<th align="left" width="37%">Method</th>
+<th align="left" width="63%">Description</th>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406716">Cancel</a>
+</td>
+<td align="left" width="63%">
+Cancels a command that the application previously queued.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/fb3e97a5-b9bc-4a72-9ee7-0a6292fad99d">Confidence</a>
+</td>
+<td align="left" width="63%">
+Not implemented.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn926843">GetHResult</a>
+</td>
+<td align="left" width="63%">
+Retrieves the return value from the invoked command.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/184370db-95df-45a8-b1a0-e399923f866e">Postpone</a>
+</td>
+<td align="left" width="63%">
+Specifies a new invocation time for the command.
+
+</td>
+</tr>
+</table> 
+

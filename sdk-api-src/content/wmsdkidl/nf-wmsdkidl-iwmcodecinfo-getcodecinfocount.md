@@ -1,0 +1,175 @@
+---
+UID: NF:wmsdkidl.IWMCodecInfo.GetCodecInfoCount
+title: IWMCodecInfo::GetCodecInfoCount method
+author: windows-driver-content
+description: The GetCodecInfoCount method retrieves the number of supported codecs for a specified major type of digital media (audio or video).
+old-location: wmformat\iwmcodecinfo_getcodecinfocount.htm
+old-project: wmformat
+ms.assetid: 873f8d03-5d7b-424c-91f3-e7c8156565be
+ms.author: windowsdriverdev
+ms.date: 3/23/2018
+ms.keywords: GetCodecInfoCount method [windows Media Format], GetCodecInfoCount method [windows Media Format], IWMCodecInfo interface, GetCodecInfoCount,IWMCodecInfo.GetCodecInfoCount, IWMCodecInfo, IWMCodecInfo interface [windows Media Format], GetCodecInfoCount method, IWMCodecInfo::GetCodecInfoCount, IWMCodecInfoGetCodecInfoCount, wmformat.iwmcodecinfo_getcodecinfocount, wmsdkidl/IWMCodecInfo::GetCodecInfoCount
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wmsdkidl.h
+req.include-header: Wmsdk.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WM_AETYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wmvcore.lib
+-	Wmvcore.dll
+-	WMStubDRM.lib
+-	WMStubDRM.dll
+api_name:
+-	IWMCodecInfo.GetCodecInfoCount
+product: Windows
+targetos: Windows
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IWMCodecInfo::GetCodecInfoCount method
+
+
+## -description
+
+
+
+The <b>GetCodecInfoCount</b> method retrieves the number of supported codecs for a specified major type of digital media (audio or video).
+
+
+
+
+## -parameters
+
+
+
+
+### -param guidType [in]
+
+<b>GUID</b> identifying the major type of digital media. This must be one of the following constants.
+
+<table>
+<tr>
+<th>
+                  Constant
+                </th>
+<th>
+                  Description
+                </th>
+</tr>
+<tr>
+<td>WMMEDIATYPE_Video</td>
+<td>Specifies a video codec.</td>
+</tr>
+<tr>
+<td>WMMEDIATYPE_Audio</td>
+<td>Specifies an audio codec.</td>
+</tr>
+</table>
+ 
+
+
+### -param pcCodecs [out]
+
+Pointer to a count of supported codecs.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_POINTER</b></dt>
+</dl>
+</td>
+<td width="60%">
+<i>pcCodecs</i> has been passed a null value.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+<i>guidType</i> is not a type for which codecs are used.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+Use this method along with <b>GetCodecFormatCount</b> and <b>GetCodecFormat</b> to enumerate through the supported codecs for each media type, and the supported formats for each codec.
+
+The Windows Media Format SDK provides codecs only for audio and video. If you specify another major type, this method will return an error.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/70661d13-737a-4e83-94e6-9a1af07b0369">IWMCodecInfo Interface</a>
+
+
+
+<a href="https://msdn.microsoft.com/dbfffc96-2286-4fdf-a76f-ad8e0ecd7aff">IWMCodecInfo::GetCodecFormat</a>
+
+
+
+<a href="https://msdn.microsoft.com/b93bfb01-4179-4a0b-bca0-92b1a9a8e605">IWMCodecInfo::GetCodecFormatCount</a>
+ 
+
+ 
+

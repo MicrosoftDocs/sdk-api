@@ -1,0 +1,94 @@
+---
+UID: NE:directmanipulation.DIRECTMANIPULATION_DRAG_DROP_CONFIGURATION
+title: DIRECTMANIPULATION_DRAG_DROP_CONFIGURATION
+author: windows-driver-content
+description: Defines behaviors for the drag-drop interaction.
+old-location: directmanipulation\directmanipulation_drag_drop_configuration.htm
+old-project: directmanipulation
+ms.assetid: F41BD870-002B-4627-85EA-8064B156611D
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: DIRECTMANIPULATION_DRAG_DROP_CONFIGURATION, DIRECTMANIPULATION_DRAG_DROP_CONFIGURATION enumeration [Direct Manipulation], DIRECTMANIPULATION_DRAG_DROP_CONFIGURATION_HOLD_DRAG, DIRECTMANIPULATION_DRAG_DROP_CONFIGURATION_HORIZONTAL, DIRECTMANIPULATION_DRAG_DROP_CONFIGURATION_SELECT_DRAG, DIRECTMANIPULATION_DRAG_DROP_CONFIGURATION_SELECT_ONLY, DIRECTMANIPULATION_DRAG_DROP_CONFIGURATION_VERTICAL, directmanipulation.directmanipulation_drag_drop_configuration, directmanipulation/DIRECTMANIPULATION_DRAG_DROP_CONFIGURATION, directmanipulation/DIRECTMANIPULATION_DRAG_DROP_CONFIGURATION_HOLD_DRAG, directmanipulation/DIRECTMANIPULATION_DRAG_DROP_CONFIGURATION_HORIZONTAL, directmanipulation/DIRECTMANIPULATION_DRAG_DROP_CONFIGURATION_SELECT_DRAG, directmanipulation/DIRECTMANIPULATION_DRAG_DROP_CONFIGURATION_SELECT_ONLY, directmanipulation/DIRECTMANIPULATION_DRAG_DROP_CONFIGURATION_VERTICAL
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: enum
+req.header: directmanipulation.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: DirectManipulation.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: DIRECTMANIPULATION_DRAG_DROP_CONFIGURATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	directmanipulation.h
+api_name:
+-	DIRECTMANIPULATION_DRAG_DROP_CONFIGURATION
+product: Windows
+targetos: Windows
+req.lib: Winmm.lib
+req.dll: Winmm.dll
+req.irql: 
+---
+
+# DIRECTMANIPULATION_DRAG_DROP_CONFIGURATION enumeration
+
+
+## -description
+
+
+Defines behaviors for the drag-drop interaction.
+
+
+## -enum-fields
+
+
+
+
+### -field DIRECTMANIPULATION_DRAG_DROP_CONFIGURATION_VERTICAL
+
+Specifies that vertical movement is applicable to the chosen gesture.
+
+
+### -field DIRECTMANIPULATION_DRAG_DROP_CONFIGURATION_HORIZONTAL
+
+Specifies that horizontal movement is applicable to the chosen gesture.
+
+
+### -field DIRECTMANIPULATION_DRAG_DROP_CONFIGURATION_SELECT_ONLY
+
+Specifies that the gesture is to be cross-slide only.
+
+
+### -field DIRECTMANIPULATION_DRAG_DROP_CONFIGURATION_SELECT_DRAG
+
+Specifies that the gesture is a drag initiated by cross-slide.
+
+
+### -field DIRECTMANIPULATION_DRAG_DROP_CONFIGURATION_HOLD_DRAG
+
+Specifies that the gesture a drag initiated by press-and-hold.
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/D116798F-E381-46D4-8271-8BD8CADC9D27">Direct Manipulation Enumerations</a>
+ 
+
+ 
+

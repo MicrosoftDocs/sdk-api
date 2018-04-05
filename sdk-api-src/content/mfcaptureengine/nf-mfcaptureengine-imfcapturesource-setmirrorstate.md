@@ -1,0 +1,130 @@
+---
+UID: NF:mfcaptureengine.IMFCaptureSource.SetMirrorState
+title: IMFCaptureSource::SetMirrorState method
+author: windows-driver-content
+description: Enables or disables mirroring of the video preview stream.
+old-location: mf\imfcapturesource_setmirrorstate.htm
+old-project: medfound
+ms.assetid: E170B262-95CD-4434-925A-3573D35FC1DC
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: IMFCaptureSource, IMFCaptureSource interface [Media Foundation], SetMirrorState method, IMFCaptureSource::SetMirrorState, SetMirrorState method [Media Foundation], SetMirrorState method [Media Foundation], IMFCaptureSource interface, SetMirrorState,IMFCaptureSource.SetMirrorState, mf.imfcapturesource_setmirrorstate, mf.imfcapturesource_setpreviewmirrorstate, mfcaptureengine/IMFCaptureSource::SetMirrorState
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: mfcaptureengine.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MF_CAPTURE_ENGINE_STREAM_CATEGORY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfcaptureengine.h
+api_name:
+-	IMFCaptureSource.SetMirrorState
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IMFCaptureSource::SetMirrorState method
+
+
+## -description
+
+
+Enables or disables mirroring of the video preview stream.
+
+
+## -parameters
+
+
+
+
+### -param dwStreamIndex [in]
+
+The zero-based index of the stream.
+
+
+### -param fMirrorState [in]
+
+If   <b>TRUE</b>,    mirroring is enabled; if  <b>FALSE</b>, mirroring is  disabled.
+
+
+## -returns
+
+
+
+This method can return one of these values.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+Success.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_NOTIMPL</b></dt>
+</dl>
+</td>
+<td width="60%">
+The device stream does not have mirroring capability.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>MF_E_INVALIDREQUEST</b></dt>
+</dl>
+</td>
+<td width="60%">
+The source is not initialized.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/864B6B5D-EB7E-4C49-A326-9B6704A27635">IMFCaptureSource</a>
+ 
+
+ 
+

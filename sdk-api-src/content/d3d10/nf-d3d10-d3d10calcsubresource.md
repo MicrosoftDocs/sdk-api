@@ -1,0 +1,114 @@
+---
+UID: NF:d3d10.D3D10CalcSubresource
+title: D3D10CalcSubresource function
+author: windows-driver-content
+description: Calculate a subresource index for a texture.
+old-location: direct3d10\d3d10calcsubresource.htm
+old-project: direct3d10
+ms.assetid: VS|directx_sdk|~\d3d10calcsubresource.htm
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: 91f92116-0ae9-0407-3cba-2a8ff2762095, D3D10CalcSubresource, D3D10CalcSubresource function [Direct3D 10], d3d10/D3D10CalcSubresource, direct3d10.d3d10calcsubresource
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: d3d10.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: D3D10_USAGE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	D3D10.dll
+api_name:
+-	D3D10CalcSubresource
+product: Windows
+targetos: Windows
+req.lib: D3D10.lib
+req.dll: D3D10.dll
+req.irql: 
+---
+
+# D3D10CalcSubresource function
+
+
+## -description
+
+
+Calculate a <a href="https://msdn.microsoft.com/c5238a2f-d69d-4ce5-a5aa-66a6c18d5f69">subresource</a> index for a texture.
+
+
+## -parameters
+
+
+
+
+### -param MipSlice [in]
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+
+A zero-based index into an array of subtextures; 0 indicates the first, most detailed subtexture (or mipmap level).
+
+
+### -param ArraySlice [in]
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+
+The zero-based index of the first texture to use (in an array of textures).
+
+
+### -param MipLevels [in]
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+
+Number of mipmap levels (or subtextures) to use.
+
+
+## -returns
+
+
+
+Type: <b>inline UINT</b>
+
+The index which equals <i>MipSlice</i> + (<i>ArraySlice</i> * <i>MipLevels</i>).
+
+
+
+
+## -remarks
+
+
+
+A buffer is an unstructured resource and is therefore defined as containing a single subresource. APIs that take buffers do not need a subresource index. A texture on the other hand is highly structured. Each texture object may contain one or more subresources depending on the size of the array and the number of mipmap levels.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/012577cd-970e-43bc-996e-3be7c2283b60">Core Functions</a>
+
+
+
+<a href="https://msdn.microsoft.com/15d6b1ba-303d-4c56-a875-30edc8c343ab">Resource Functions</a>
+ 
+
+ 
+

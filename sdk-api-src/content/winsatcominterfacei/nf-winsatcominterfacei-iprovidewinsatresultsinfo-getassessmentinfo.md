@@ -1,0 +1,91 @@
+---
+UID: NF:winsatcominterfacei.IProvideWinSATResultsInfo.GetAssessmentInfo
+title: IProvideWinSATResultsInfo::GetAssessmentInfo method
+author: windows-driver-content
+description: Retrieves summary information for a subcomponent of the assessment.
+old-location: winsat\iprovidewinsatresultsinfo_getassessmentinfo.htm
+old-project: WinSAT
+ms.assetid: dfa4d740-2dfd-41b5-a0be-a241f9ece939
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: GetAssessmentInfo method [WinSAT], GetAssessmentInfo method [WinSAT], IProvideWinSATResultsInfo interface, GetAssessmentInfo,IProvideWinSATResultsInfo.GetAssessmentInfo, IProvideWinSATResultsInfo, IProvideWinSATResultsInfo interface [WinSAT], GetAssessmentInfo method, IProvideWinSATResultsInfo::GetAssessmentInfo, winsat.iprovidewinsatresultsinfo_getassessmentinfo, winsatcominterfacei/IProvideWinSATResultsInfo::GetAssessmentInfo
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: winsatcominterfacei.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: None supported
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WINSAT_BITMAP_SIZE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Winsatapi.dll
+api_name:
+-	IProvideWinSATResultsInfo.GetAssessmentInfo
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Winsatapi.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IProvideWinSATResultsInfo::GetAssessmentInfo method
+
+
+## -description
+
+
+<p class="CCE_Message">[IProvideWinSATResultsInfo::GetAssessmentInfo may be altered or unavailable for releases after Windows 8.1.]
+
+Retrieves summary information for a subcomponent of the assessment.
+
+
+## -parameters
+
+
+
+
+### -param assessment [in]
+
+A subcomponent of the assessment whose summary information you want to retrieve. For possible values, see the <a href="https://msdn.microsoft.com/7e54df13-4415-42b8-b140-e35ea440ef68">WINSAT_ASSESSMENT_TYPE</a> enumeration.
+
+
+### -param ppinfo [out]
+
+An <a href="https://msdn.microsoft.com/90036c75-6e9e-4d25-804b-02c423616de1">IProvideWinSATAssessmentInfo</a> interface that you use to get the score for the subcomponent.
+
+
+## -returns
+
+
+
+Returns S_OK if successful.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/bd15bc63-a918-43a7-9864-4206a0b6af84">IProvideWinSATResultsInfo</a>
+ 
+
+ 
+

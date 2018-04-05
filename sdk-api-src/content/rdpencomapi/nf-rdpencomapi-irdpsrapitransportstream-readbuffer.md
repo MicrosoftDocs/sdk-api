@@ -1,0 +1,88 @@
+---
+UID: NF:rdpencomapi.IRDPSRAPITransportStream.ReadBuffer
+title: IRDPSRAPITransportStream::ReadBuffer method
+author: windows-driver-content
+description: Called by the Remote Desktop Protocol (RDP) stack to read the contents of a stream buffer.
+old-location: rdp\irdpsrapitransportstream_readbuffer.htm
+old-project: Rdp
+ms.assetid: 0a6d9a76-48b8-4755-985e-efbef01a6382
+ms.author: windowsdriverdev
+ms.date: 3/28/2018
+ms.keywords: IRDPSRAPITransportStream, IRDPSRAPITransportStream interface [RDP], ReadBuffer method, IRDPSRAPITransportStream::ReadBuffer, ReadBuffer method [RDP], ReadBuffer method [RDP], IRDPSRAPITransportStream interface, ReadBuffer,IRDPSRAPITransportStream.ReadBuffer, rdp.irdpsrapitransportstream_readbuffer, rdpencomapi/IRDPSRAPITransportStream::ReadBuffer
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: rdpencomapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7
+req.target-min-winversvr: Windows Server 2008 R2
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: RdpEncomAPI.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: RdpEncomAPI.tlb
+req.typenames: RDPENCOMAPI_CONSTANTS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	RdpEncom.dll
+api_name:
+-	IRDPSRAPITransportStream.ReadBuffer
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: RdpEncom.dll
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# IRDPSRAPITransportStream::ReadBuffer method
+
+
+## -description
+
+
+Called by the Remote Desktop Protocol (RDP) stack to read the contents of a stream buffer.
+
+
+## -parameters
+
+
+
+
+### -param pBuffer [in]
+
+Type: <b><a href="https://msdn.microsoft.com/44087315-7a71-4557-89b3-bf8c66ed10a4">IRDPSRAPITransportStreamBuffer</a>*</b>
+
+An <a href="https://msdn.microsoft.com/44087315-7a71-4557-89b3-bf8c66ed10a4">IRDPSRAPITransportStreamBuffer</a> interface pointer that represents the buffer to read.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If the method succeeds, the return value is <b>S_OK</b>. Otherwise, the return value is an error code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/18ac00d5-f574-463f-a34a-40c2dc16d4d8">IRDPSRAPITransportStream</a>
+ 
+
+ 
+

@@ -1,0 +1,72 @@
+---
+UID: NF:tuner.IDVBTLocator2.put_PhysicalLayerPipeId
+title: IDVBTLocator2::put_PhysicalLayerPipeId method
+author: windows-driver-content
+description: Identifies a Physical Layer Pipe (PLP) that carries a T2 logical data stream.
+old-location: mstv\idvbtlocator2_physicallayerpipeid.htm
+old-project: mstv
+ms.assetid: b8292803-6fde-497e-9add-cf9cafc73a96
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: IDVBTLocator2, IDVBTLocator2 interface [Microsoft TV Technologies], PhysicalLayerPipeId property, IDVBTLocator2.PhysicalLayerPipeId, IDVBTLocator2::get_PhysicalLayerPipeId, IDVBTLocator2::put_PhysicalLayerPipeId, PhysicalLayerPipeId property [Microsoft TV Technologies], PhysicalLayerPipeId property [Microsoft TV Technologies], IDVBTLocator2 interface, mstv.idvbtlocator2_physicallayerpipeid, put_PhysicalLayerPipeId,IDVBTLocator2.put_PhysicalLayerPipeId, tuner/IDVBTLocator2::PhysicalLayerPipeId, tuner/IDVBTLocator2::get_PhysicalLayerPipeId, tuner/IDVBTLocator2::put_PhysicalLayerPipeId
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: tuner.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: None supported
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Tuner.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	tuner.h
+api_name:
+-	IDVBTLocator2.PhysicalLayerPipeId
+-	IDVBTLocator2.get_PhysicalLayerPipeId
+-	IDVBTLocator2.put_PhysicalLayerPipeId
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# IDVBTLocator2::put_PhysicalLayerPipeId method
+
+
+## -description
+
+
+Identifies a Physical Layer Pipe (PLP) that carries a T2 logical data stream.
+
+This property is read/write.
+
+
+## -parameters
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/3a0add24-74bb-4645-8ea2-ec14ecfa8fb5">IDVBTLocator2</a>
+ 
+
+ 
+

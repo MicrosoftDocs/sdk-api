@@ -1,0 +1,100 @@
+---
+UID: NS:d3d12.D3D12_DEPTH_STENCILOP_DESC
+title: D3D12_DEPTH_STENCILOP_DESC
+author: windows-driver-content
+description: Describes stencil operations that can be performed based on the results of stencil test.
+old-location: direct3d12\d3d12_depth_stencilop_desc.htm
+old-project: direct3d12
+ms.assetid: 1E72B486-98E1-4140-80E3-6DF95ECA82DB
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: D3D12_DEPTH_STENCILOP_DESC, D3D12_DEPTH_STENCILOP_DESC structure, d3d12/D3D12_DEPTH_STENCILOP_DESC, direct3d12.d3d12_depth_stencilop_desc
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: struct
+req.header: d3d12.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: D3D12_DEPTH_STENCILOP_DESC
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	D3D12.h
+api_name:
+-	D3D12_DEPTH_STENCILOP_DESC
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# D3D12_DEPTH_STENCILOP_DESC structure
+
+
+## -description
+
+
+Describes stencil operations that can be performed based on the results of stencil test.
+
+
+## -struct-fields
+
+
+
+
+### -field StencilFailOp
+
+A <a href="https://msdn.microsoft.com/E3527EA4-D931-49C7-B446-829B93A8A620">D3D12_STENCIL_OP</a>-typed value that identifies the stencil operation to perform when stencil testing fails.
+
+
+### -field StencilDepthFailOp
+
+A <a href="https://msdn.microsoft.com/E3527EA4-D931-49C7-B446-829B93A8A620">D3D12_STENCIL_OP</a>-typed value that identifies the stencil operation to perform when stencil testing passes and depth testing fails.
+
+
+### -field StencilPassOp
+
+A <a href="https://msdn.microsoft.com/E3527EA4-D931-49C7-B446-829B93A8A620">D3D12_STENCIL_OP</a>-typed value that identifies the stencil operation to perform when stencil testing and depth testing both pass.
+
+
+### -field StencilFunc
+
+A <a href="https://msdn.microsoft.com/68223746-59B3-4FDD-B7EF-44557F1C46E3">D3D12_COMPARISON_FUNC</a>-typed value that identifies the function that compares stencil data against existing stencil data. 
+
+
+## -remarks
+
+
+
+All stencil operations are specified as a <a href="https://msdn.microsoft.com/E3527EA4-D931-49C7-B446-829B93A8A620">D3D12_STENCIL_OP</a>-typed value. Each stencil operation can be set differently based on the outcome of the stencil test, which is referred to as <b>StencilFunc</b>, in the stencil test portion of depth-stencil testing.
+
+Members of <a href="https://msdn.microsoft.com/C324F6EF-668A-4056-B538-A05329751554">D3D12_DEPTH_STENCIL_DESC</a> have this structure for their data type. 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/7FE8796A-98D1-4333-8755-2A47567460B3">Core Structures</a>
+ 
+
+ 
+

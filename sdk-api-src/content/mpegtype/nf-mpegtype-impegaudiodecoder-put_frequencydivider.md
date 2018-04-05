@@ -1,0 +1,107 @@
+---
+UID: NF:mpegtype.IMpegAudioDecoder.put_FrequencyDivider
+title: IMpegAudioDecoder::put_FrequencyDivider method
+author: windows-driver-content
+description: Specifies the frequency divider as a three-level setting corresponding to the quality of CD Audio, FM Radio, or AM Radio.
+old-location: dshow\impegaudiodecoder_put_frequencydivider.htm
+old-project: DirectShow
+ms.assetid: 96e5d8f3-b658-408d-a615-e681d8731442
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: IMpegAudioDecoder, IMpegAudioDecoder interface [DirectShow], put_FrequencyDivider method, IMpegAudioDecoder::put_FrequencyDivider, IMpegAudioDecoderputFrequencyDivider, dshow.impegaudiodecoder_put_frequencydivider, mpegtype/IMpegAudioDecoder::put_FrequencyDivider, put_FrequencyDivider method [DirectShow], put_FrequencyDivider method [DirectShow], IMpegAudioDecoder interface, put_FrequencyDivider,IMpegAudioDecoder.put_FrequencyDivider
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: mpegtype.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MPEG_CONTEXT, *PMPEG_CONTEXT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Strmiids.lib
+-	Strmiids.dll
+api_name:
+-	IMpegAudioDecoder.put_FrequencyDivider
+product: Windows
+targetos: Windows
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IMpegAudioDecoder::put_FrequencyDivider method
+
+
+## -description
+
+
+
+Specifies the frequency divider as a three-level setting corresponding to the quality of CD Audio, FM Radio, or AM Radio.
+
+
+
+
+## -parameters
+
+
+
+
+### -param Divider [in]
+
+Specifies the divider. 1 = "CD Audio"; 2 = "FM Radio"; 4 = "AM Radio".
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/59fd96ef-2f9a-4a8e-bd08-2695de52b1c6">IMpegAudioDecoder</a>
+ 
+
+ 
+

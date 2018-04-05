@@ -1,0 +1,119 @@
+---
+UID: NF:uiautomationcoreapi.TextRange_CompareEndpoints
+title: TextRange_CompareEndpoints function
+author: windows-driver-content
+description: Returns a value indicating whether two text ranges have identical endpoints.
+old-location: winauto\uiauto_TextRange_CompareEndpointsConPat.htm
+old-project: WinAuto
+ms.assetid: f396ec3e-f491-48be-8282-42c3b8698f3a
+ms.author: windowsdriverdev
+ms.date: 3/29/2018
+ms.keywords: TextRange_CompareEndpoints, TextRange_CompareEndpoints function [Windows Accessibility], uiauto.uiauto_TextRange_CompareEndpointsConPat, uiauto_TextRange_CompareEndpointsConPat, uiautomationcoreapi/TextRange_CompareEndpoints, winauto.uiauto_TextRange_CompareEndpointsConPat
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: uiautomationcoreapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Uiautomationcore.dll
+api_name:
+-	TextRange_CompareEndpoints
+product: Windows
+targetos: Windows
+req.lib: Uiautomationcore.lib
+req.dll: Uiautomationcore.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# TextRange_CompareEndpoints function
+
+
+## -description
+
+
+<div class="alert"><b>Note</b>  This function is deprecated. Client applications should use the Microsoft UI Automation Component Object Model (COM) interfaces instead.</div><div> </div>Returns a value indicating whether two text ranges have identical endpoints.
+
+
+## -parameters
+
+
+
+
+### -param hobj [in]
+
+Type: <b>HUIATEXTRANGE</b>
+
+A text range object.
+
+
+### -param endpoint [in]
+
+Type: <b>TextPatternRangeEndpoint</b>
+
+The starting or ending endpoint of <i>hobj</i>.
+
+
+### -param targetRange [in]
+
+Type: <b>ITextRangeInteropProvider*</b>
+
+The text range that is being compared against.
+
+
+### -param targetEndpoint [in]
+
+Type: <b>TextPatternRangeEndpoint</b>
+
+The starting or ending endpoint of <i>targetRange</i>.
+
+
+### -param pRetVal [out]
+
+Type: <b>int*</b>
+
+The address of a variable that receives a pointer to a value that indicates whether two text ranges have identical endpoints.
+				 This parameter is passed uninitialized.
+
+
+## -returns
+
+
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+
+Returns S_OK if successful or an error value otherwise.
+
+
+
+
+## -remarks
+
+
+
+
+			The returned value is &lt;0 if the caller's endpoint occurs earlier in the text than the target endpoint; 
+			0 if the caller's endpoint is at the same location as the target endpoint; and 
+			&gt;0 if the caller's endpoint occurs later in the text than the target endpoint.
+			
+
+
+

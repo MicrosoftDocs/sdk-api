@@ -1,0 +1,118 @@
+---
+UID: NF:control.IDeferredCommand.Cancel
+title: IDeferredCommand::Cancel method
+author: windows-driver-content
+description: The Cancel method cancels a command that the application previously queued.
+old-location: dshow\ideferredcommand_cancel.htm
+old-project: DirectShow
+ms.assetid: 56618860-3655-42a2-ad74-ef43da08d001
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: Cancel method [DirectShow], Cancel method [DirectShow], IDeferredCommand interface, Cancel,IDeferredCommand.Cancel, IDeferredCommand, IDeferredCommand interface [DirectShow], Cancel method, IDeferredCommand::Cancel, IDeferredCommandCancel, control/IDeferredCommand::Cancel, dshow.ideferredcommand_cancel
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: control.h
+req.include-header: Dshow.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WMPContextMenuInfo
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Strmiids.lib
+-	Strmiids.dll
+api_name:
+-	IDeferredCommand.Cancel
+product: Windows
+targetos: Windows
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
+---
+
+# IDeferredCommand::Cancel method
+
+
+## -description
+
+
+
+The <code>Cancel</code> method cancels a command that the application previously queued.
+
+
+
+
+## -parameters
+
+
+
+
+
+
+## -returns
+
+
+
+Returns an <b>HRESULT</b> value. Possible values include the following.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+Success.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>VFW_E_ALREADY_CANCELLED</b></dt>
+</dl>
+</td>
+<td width="60%">
+The request was already canceled.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+
+
+
+<a href="https://msdn.microsoft.com/8161932a-16aa-4700-b91d-b4d8948ad59f">IDeferredCommand Interface</a>
+ 
+
+ 
+

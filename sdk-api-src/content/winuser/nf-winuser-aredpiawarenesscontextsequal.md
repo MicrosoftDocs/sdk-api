@@ -1,0 +1,92 @@
+---
+UID: NF:winuser.AreDpiAwarenessContextsEqual
+title: AreDpiAwarenessContextsEqual function
+author: windows-driver-content
+description: Determines whether two DPI_AWARENESS_CONTEXT values are identical.
+old-location: hidpi\aredpiawarenesscontextsequal.htm
+old-project: hidpi
+ms.assetid: 77660CAB-97ED-4DAC-A95E-A149F1A479FD
+ms.author: windowsdriverdev
+ms.date: 3/29/2018
+ms.keywords: AreDpiAwarenessContextsEqual, AreDpiAwarenessContextsEqual function [High DPI], hidpi.aredpiawarenesscontextsequal, winuser/AreDpiAwarenessContextsEqual
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: winuser.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10, version 1607 [desktop apps only]
+req.target-min-winversvr: None supported
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: AR_STATE, *PAR_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	User32.dll
+-	Ext-MS-Win-NTUser-Window-l1-1-0.dll
+-	Ext-MS-Win-NTUser-Window-l1-1-1.dll
+-	Ext-MS-Win-NTUser-Window-l1-1-2.dll
+-	ext-ms-win-ntuser-window-l1-1-3.dll
+-	Ext-MS-Win-NTUser-Window-L1-1-4.dll
+api_name:
+-	AreDpiAwarenessContextsEqual
+product: Windows
+targetos: Windows
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# AreDpiAwarenessContextsEqual function
+
+
+## -description
+
+
+Determines whether two <b>DPI_AWARENESS_CONTEXT</b> values are identical.
+
+
+## -parameters
+
+
+
+
+### -param dpiContextA [in]
+
+The first value to compare.
+
+
+### -param dpiContextB [in]
+
+The second value to compare.
+
+
+## -returns
+
+
+
+Returns <b>TRUE</b> if the values are equal, otherwise <b>FALSE</b>.
+
+
+
+
+## -remarks
+
+
+
+A <b>DPI_AWARENESS_CONTEXT</b> contains multiple pieces of information. For example, it includes both the current and the inherited <a href="https://msdn.microsoft.com/0E7EB331-7D72-4853-8785-03F30263C323">DPI_AWARENESS</a> values. <b>AreDpiAwarenessContextsEqual</b> ignores informational flags and determines if the values are equal. You can't use a direct bitwise comparison because of these informational flags.
+
+
+

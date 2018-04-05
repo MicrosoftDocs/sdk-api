@@ -1,0 +1,165 @@
+---
+UID: NF:oledlg.IOleUILinkContainerA.UpdateLink
+title: IOleUILinkContainerA::UpdateLink method
+author: windows-driver-content
+description: Forces selected links to connect to their source and retrieve current information.
+old-location: com\ioleuilinkcontainer_updatelink.htm
+old-project: com
+ms.assetid: fccee32a-3a6f-4ef8-9ca7-c5b664ee03cf
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: IOleUILinkContainer interface [COM], UpdateLink method, IOleUILinkContainer::UpdateLink, IOleUILinkContainerA, IOleUILinkContainerA interface [COM], UpdateLink method, IOleUILinkContainerA::UpdateLink, IOleUILinkContainerW interface [COM], UpdateLink method, IOleUILinkContainerW::UpdateLink, UpdateLink method [COM], UpdateLink method [COM], IOleUILinkContainer interface, UpdateLink method [COM], IOleUILinkContainerA interface, UpdateLink method [COM], IOleUILinkContainerW interface, UpdateLink,IOleUILinkContainerA.UpdateLink, _ole_IOleUILinkContainer_UpdateLink, com.ioleuilinkcontainer_updatelink, oledlg/IOleUILinkContainer::UpdateLink, oledlg/IOleUILinkContainerA::UpdateLink, oledlg/IOleUILinkContainerW::UpdateLink
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: oledlg.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: OLEUIPASTEFLAG
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	OleDlg.h
+api_name:
+-	IOleUILinkContainer.UpdateLink
+-	IOleUILinkContainerA.UpdateLink
+-	IOleUILinkContainerW.UpdateLink
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# IOleUILinkContainerA::UpdateLink method
+
+
+## -description
+
+
+Forces selected links to connect to their source and retrieve current information.
+
+
+## -parameters
+
+
+
+
+### -param dwLink [in]
+
+Container-defined unique identifier for a single link. Containers can use the pointer to the link's container site for this value.
+
+
+### -param fErrorMessage [in]
+
+Determines whether the caller (implementer of <a href="https://msdn.microsoft.com/7fc0aab3-7476-49ec-8a1d-3f4851f9f31c">IOleUILinkContainer</a>) should show an error message upon failure to update a link. The <b>Update Links</b> dialog box sets this to <b>FALSE</b>. The <b>Object Properties</b> and <b>Links</b> dialog boxes set it to <b>TRUE</b>.
+
+
+### -param fReserved [in]
+
+This parameter is reserved and must be set to <b>FALSE</b>.
+
+
+## -returns
+
+
+
+This method returns S_OK on success. Other possible return values include the following.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_ACCESSDENIED</b></dt>
+</dl>
+</td>
+<td width="60%">
+Insufficient access permissions.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_FAIL</b></dt>
+</dl>
+</td>
+<td width="60%">
+The operation failed.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+The specified identifier is invalid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_OUTOFMEMORY</b></dt>
+</dl>
+</td>
+<td width="60%">
+There is insufficient memory available for this operation.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+<h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
+Call this method with <i>fErrorMessage</i> set to <b>TRUE</b> in cases where the user expressly presses a button to have a link updated, that is, presses the links' <b>Update Now</b> button. Call it with <b>FALSE</b> in cases where the container should never display an error message, that is, where a large set of operations are being performed and the error should be propagated back to the user later, as might occur with the <b>Update links</b> progress meter. Rather than providing one message for each failure, assuming there are failures, provide a single message for all failures at the end of the operation.
+
+<h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
+For OLE links, call <a href="https://msdn.microsoft.com/1743f99b-4c3b-47be-b77b-1d3378a44903">IOleObject::Update</a>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/1743f99b-4c3b-47be-b77b-1d3378a44903">IOleObject::Update</a>
+
+
+
+<a href="https://msdn.microsoft.com/7fc0aab3-7476-49ec-8a1d-3f4851f9f31c">IOleUILinkContainer</a>
+ 
+
+ 
+

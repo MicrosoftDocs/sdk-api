@@ -1,0 +1,101 @@
+---
+UID: NF:uiautomationcore.IRawElementProviderHostingAccessibles.GetEmbeddedAccessibles
+title: IRawElementProviderHostingAccessibles::GetEmbeddedAccessibles method
+author: windows-driver-content
+description: Retrieves the IAccessible interface pointers of the windowless Microsoft ActiveX controls that are hosted by this provider.
+old-location: winauto\uiauto_IRawElementProviderHostingAccessibles_GetEmbeddedAccessibles.htm
+old-project: WinAuto
+ms.assetid: E428B87C-25FE-437B-AAE8-7E3BC79BBE6B
+ms.author: windowsdriverdev
+ms.date: 3/29/2018
+ms.keywords: GetEmbeddedAccessibles method [Windows Accessibility], GetEmbeddedAccessibles method [Windows Accessibility], IRawElementProviderHostingAccessibles interface, GetEmbeddedAccessibles,IRawElementProviderHostingAccessibles.GetEmbeddedAccessibles, IRawElementProviderHostingAccessibles, IRawElementProviderHostingAccessibles interface [Windows Accessibility], GetEmbeddedAccessibles method, IRawElementProviderHostingAccessibles::GetEmbeddedAccessibles, uiautomationcore/IRawElementProviderHostingAccessibles::GetEmbeddedAccessibles, winauto.uiauto_IRawElementProviderHostingAccessibles_GetEmbeddedAccessibles
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: uiautomationcore.h
+req.include-header: UIAutomation.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: UIAutomationCore.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	UIAutomationCore.h
+api_name:
+-	IRawElementProviderHostingAccessibles.GetEmbeddedAccessibles
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# IRawElementProviderHostingAccessibles::GetEmbeddedAccessibles method
+
+
+## -description
+
+
+Retrieves the <a href="https://msdn.microsoft.com/51e95b01-71e7-435b-85fb-28ee43eb08a7">IAccessible</a> interface pointers of the windowless Microsoft ActiveX controls that are hosted by this provider.   
+
+
+## -parameters
+
+
+
+
+### -param pRetVal [out, retval]
+
+Type: <b><a href="http://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a>**</b>
+
+Receives the <a href="https://msdn.microsoft.com/51e95b01-71e7-435b-85fb-28ee43eb08a7">IAccessible</a> pointers of the hosted windowless ActiveX controls.
+
+
+## -returns
+
+
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+An ActiveX control container with an existing <a href="https://msdn.microsoft.com/16e51962-915e-40ea-a7a1-6f5a5809ba05">IRawElementProviderFragmentRoot</a> interface implements this method on the same object that implements <b>IRawElementProviderFragmentRoot</b>.  When called, this method should query each contained windowless control for an <a href="https://msdn.microsoft.com/51e95b01-71e7-435b-85fb-28ee43eb08a7">IAccessible</a> pointer and then add the pointer  to the safe array.  
+
+
+
+This method should ignore providers that do not implement <a href="https://msdn.microsoft.com/51e95b01-71e7-435b-85fb-28ee43eb08a7">IAccessible</a>.  
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/2DBD5B1A-127A-4D71-8117-5FCCE653698C">IRawElementProviderHostingAccessibles</a>
+ 
+
+ 
+

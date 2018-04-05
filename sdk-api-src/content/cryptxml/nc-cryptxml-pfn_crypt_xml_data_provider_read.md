@@ -1,0 +1,109 @@
+---
+UID: NC:cryptxml.PFN_CRYPT_XML_DATA_PROVIDER_READ
+title: PFN_CRYPT_XML_DATA_PROVIDER_READ
+author: windows-driver-content
+description: Reads XML data.
+old-location: security\pfn_crypt_xml_data_provider_read.htm
+old-project: SecCrypto
+ms.assetid: 86c7003e-eee2-4adf-adf4-8f9d1acb5c45
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: PFN_CRYPT_XML_DATA_PROVIDER_READ, PFN_CRYPT_XML_DATA_PROVIDER_READ callback function [Security], cryptxml/PFN_CRYPT_XML_DATA_PROVIDER_READ, security.pfn_crypt_xml_data_provider_read
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: callback
+req.header: cryptxml.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: CRYPTUI_WIZ_IMPORT_SRC_INFO, *PCRYPTUI_WIZ_IMPORT_SRC_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Cryptxml.h
+api_name:
+-	PFN_CRYPT_XML_DATA_PROVIDER_READ
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# PFN_CRYPT_XML_DATA_PROVIDER_READ callback
+
+
+## -description
+
+
+The <i>PFN_CRYPT_XML_DATA_PROVIDER_READ</i> callback function reads XML data.
+
+
+## -parameters
+
+
+
+
+### -param *pvCallbackState [in, out]
+
+A pointer to an application defined argument that is passed to the calling function.
+
+
+### -param *pbData [out]
+
+A pointer to the buffer that receives the data to be read.
+
+
+### -param cbData [in]
+
+The size, in bytes, of the data to be read.
+
+
+### -param *pcbRead [out]
+
+A pointer to a variable that receives the number of bytes actually read.
+
+
+## -returns
+
+
+
+ The <i>PFN_CRYPT_XML_DATA_PROVIDER_READ</i> callback function returns a value when one of the 
+    following conditions occurs:
+
+<ul>
+<li>A write operation completes on the data provider</li>
+<li>The number of bytes requested is read</li>
+<li>An error occurs</li>
+</ul>
+If the function succeeds, the function returns NO_ERROR.
+
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error.
+
+If the value of <i>pcbRead</i> equals zero, then there is no more data available.
+
+
+
+
+## -remarks
+
+
+
+ The callback function does not return a value unless the number of bytes specified in <i>cbData</i> 
+ is available or  the last block of data has been read.
+
+
+

@@ -1,0 +1,75 @@
+---
+UID: NF:spellcheck.ISpellingError.get_CorrectiveAction
+title: ISpellingError::get_CorrectiveAction method
+author: windows-driver-content
+description: Indicates which corrective action should be taken for the spelling error.
+old-location: intl\ispellingerror_correctiveaction.htm
+old-project: Intl
+ms.assetid: 9b28d194-01a3-4ea2-8428-d2e91e6abad8
+ms.author: windowsdriverdev
+ms.date: 3/23/2018
+ms.keywords: CorrectiveAction property [Internationalization for Windows Applications], CorrectiveAction property [Internationalization for Windows Applications], ISpellingError interface, ISpellingError, ISpellingError interface [Internationalization for Windows Applications], CorrectiveAction property, ISpellingError.CorrectiveAction, ISpellingError::get_CorrectiveAction, get_CorrectiveAction,ISpellingError.get_CorrectiveAction, intl.ispellingerror_correctiveaction, spellcheck/ISpellingError::CorrectiveAction, spellcheck/ISpellingError::get_CorrectiveAction
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: spellcheck.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Spellcheck.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WORDLIST_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Spellcheck.h
+api_name:
+-	ISpellingError.CorrectiveAction
+-	ISpellingError.get_CorrectiveAction
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 6.01
+---
+
+# ISpellingError::get_CorrectiveAction method
+
+
+## -description
+
+
+Indicates which corrective action should be taken for the spelling error.
+
+This property is read-only.
+
+
+## -parameters
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/370CF89E-97BF-4AB5-8AD6-3B2DF08463E0">CORRECTIVE_ACTION</a>
+
+
+
+<a href="https://msdn.microsoft.com/90a233a4-44a4-4f8f-92bb-ea65fa213616">ISpellingError</a>
+ 
+
+ 
+

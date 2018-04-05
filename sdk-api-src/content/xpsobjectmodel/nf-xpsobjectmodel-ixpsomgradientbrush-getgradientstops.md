@@ -1,0 +1,139 @@
+---
+UID: NF:xpsobjectmodel.IXpsOMGradientBrush.GetGradientStops
+title: IXpsOMGradientBrush::GetGradientStops method
+author: windows-driver-content
+description: Gets a pointer to an IXpsOMGradientStopCollection interface that contains the collection of IXpsOMGradientStop interfaces that define the gradient.
+old-location: xps\ixpsomgradientbrush_getgradientstops.htm
+old-project: printdocs
+ms.assetid: 1b308323-12d4-427c-a3d8-fcf5488e1dde
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: GetGradientStops method [XPS Documents and Packaging], GetGradientStops method [XPS Documents and Packaging], IXpsOMGradientBrush interface, GetGradientStops,IXpsOMGradientBrush.GetGradientStops, IXpsOMGradientBrush, IXpsOMGradientBrush interface [XPS Documents and Packaging], GetGradientStops method, IXpsOMGradientBrush::GetGradientStops, xps.ixpsomgradientbrush_getgradientstops, xpsobjectmodel/IXpsOMGradientBrush::GetGradientStops
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: xpsobjectmodel.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: XpsObjectModel.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: XPS_INTERLEAVING
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	xpsobjectmodel.h
+api_name:
+-	IXpsOMGradientBrush.GetGradientStops
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+---
+
+# IXpsOMGradientBrush::GetGradientStops method
+
+
+## -description
+
+
+Gets a pointer to an <a href="https://msdn.microsoft.com/1f51f818-e9bb-4d88-9795-4e6890d24b8c">IXpsOMGradientStopCollection</a> interface that contains the collection of <a href="https://msdn.microsoft.com/e115d806-70c1-4c6a-810e-e6a058628b44">IXpsOMGradientStop</a> interfaces that define the gradient.
+
+
+## -parameters
+
+
+
+
+### -param gradientStops [out, retval]
+
+A pointer to the <a href="https://msdn.microsoft.com/1f51f818-e9bb-4d88-9795-4e6890d24b8c">IXpsOMGradientStopCollection</a> interface that contains the collection of <a href="https://msdn.microsoft.com/e115d806-70c1-4c6a-810e-e6a058628b44">IXpsOMGradientStop</a> interfaces.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://msdn.microsoft.com/9e6db1e3-7151-4538-8607-b7185ebc0110">XPS Document Errors</a>.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_POINTER</b></dt>
+</dl>
+</td>
+<td width="60%">
+<i>gradientStops</i> is <b>NULL</b>.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+Gradient stops, which are  described  in the XPS OM by an <a href="https://msdn.microsoft.com/e115d806-70c1-4c6a-810e-e6a058628b44">IXpsOMGradientStop</a> interface, are used to define the color at a specific location along a gradient path; the color is interpolated between the gradient stops. The illustration that follows shows the gradient path and gradient stops of a linear gradient.
+
+<img alt="A figure that shows the terms used in a linear gradient" src="../images/LinearGradient2.png"/>
+The illustration that follows shows the gradient stops of a radial gradient. In this example, the gradient region is the area enclosed by the outer ellipse, and the radial gradient is using the <b>XPS_SPREAD_METHOD_REFLECT</b> spread method to fill the space outside of the gradient region.
+
+<img alt="A figure that shows the terms used in a radial gradient" src="../images/RadialGradient2.png"/>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/d381b813-5368-4ffe-a9a1-0f5027ae9d80">IXpsOMGradientBrush</a>
+
+
+
+<a href="https://msdn.microsoft.com/e115d806-70c1-4c6a-810e-e6a058628b44">IXpsOMGradientStop</a>
+
+
+
+<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+
+
+
+<a href="https://msdn.microsoft.com/9e6db1e3-7151-4538-8607-b7185ebc0110">XPS Document Errors</a>
+ 
+
+ 
+

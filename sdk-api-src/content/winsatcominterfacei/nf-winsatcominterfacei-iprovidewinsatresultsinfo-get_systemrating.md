@@ -1,0 +1,103 @@
+---
+UID: NF:winsatcominterfacei.IProvideWinSATResultsInfo.get_SystemRating
+title: IProvideWinSATResultsInfo::get_SystemRating method
+author: windows-driver-content
+description: Retrieves the base score for the computer.
+old-location: winsat\iprovidewinsatresultsinfo_systemrating.htm
+old-project: WinSAT
+ms.assetid: 4fe20830-bf86-4551-ba73-534740cabab5
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: IProvideWinSATResultsInfo, IProvideWinSATResultsInfo interface [WinSAT], SystemRating property, IProvideWinSATResultsInfo.SystemRating, IProvideWinSATResultsInfo::get_SystemRating, SystemRating property [WinSAT], SystemRating property [WinSAT], IProvideWinSATResultsInfo interface, get_SystemRating,IProvideWinSATResultsInfo.get_SystemRating, winsat.iprovidewinsatresultsinfo_systemrating, winsatcominterfacei/IProvideWinSATResultsInfo::SystemRating, winsatcominterfacei/IProvideWinSATResultsInfo::get_SystemRating
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: winsatcominterfacei.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: None supported
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WINSAT_BITMAP_SIZE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Winsatapi.dll
+api_name:
+-	IProvideWinSATResultsInfo.SystemRating
+-	IProvideWinSATResultsInfo.get_SystemRating
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Winsatapi.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IProvideWinSATResultsInfo::get_SystemRating method
+
+
+## -description
+
+
+<p class="CCE_Message">[IProvideWinSATResultsInfo::SystemRating may be altered or unavailable for releases after Windows 8.1.]
+
+Retrieves the base score for the computer.
+
+This property is read-only.
+
+
+## -parameters
+
+
+## -remarks
+
+
+
+The Windows Experience Index feature measures the capability of your computer's hardware configuration and expresses this measurement as a number called a base score. A higher base score generally means that your computer will perform better and faster than a computer with a lower base score, especially when performing more advanced and resource-intensive tasks. 
+
+
+
+Each hardware component receives an individual subscore. Your computer's base score is determined by the lowest subscore. For example, if the lowest subscore of an individual hardware component is 2.6, then the base score is 2.6. The base score is not an average of the combined subscores.
+
+
+
+You can use the base score to confidently buy programs and other software that are matched to your computer's base score. For example, if your computer has a base score of 3.3, then you can confidently purchase any software designed for this version of Windows that requires a computer with a base score of 3 or lower.
+
+
+To get the score for a subcomponent of the assessment, such as the CPU, call the <a href="https://msdn.microsoft.com/a1fbeb60-10dd-4082-8d2e-76c4baf35152">IProvideWinSATAssessmentInfo::get_Score</a> method.
+
+
+#### Examples
+
+For an example, see the <a href="https://msdn.microsoft.com/11697416-aa4d-4724-bd63-8d123e2b32cb">IQueryRecentWinSATAssessment::Info</a> property.
+
+<div class="code"></div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/bd15bc63-a918-43a7-9864-4206a0b6af84">IProvideWinSATResultsInfo</a>
+
+
+
+<a href="https://msdn.microsoft.com/adf4de42-9dfd-46a7-ae75-3bbcfd15dd68">Win32_WinSAT</a>
+ 
+
+ 
+

@@ -1,0 +1,142 @@
+---
+UID: NF:dvbsiparser.IDVB_RST.Initialize
+title: IDVB_RST::Initialize method
+author: windows-driver-content
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+old-location: mstv\idvb_rst_initialize.htm
+old-project: mstv
+ms.assetid: 8efbb9c0-8b21-476c-88ad-1c8a5408b32f
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: IDVB_RST, IDVB_RST interface [Microsoft TV Technologies], Initialize method, IDVB_RST::Initialize, IDVB_RSTInitialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies], IDVB_RST interface, Initialize,IDVB_RST.Initialize, dvbsiparser/IDVB_RST::Initialize, mstv.idvb_rst_initialize
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: dvbsiparser.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	dvbsiparser.h
+api_name:
+-	IDVB_RST.Initialize
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
+---
+
+# IDVB_RST::Initialize method
+
+
+## -description
+
+
+
+This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+        
+
+
+
+The <b>Initialize</b> method initializes the object using captured table section data. This method is called internally by the <a href="https://msdn.microsoft.com/263abb39-3f8d-4501-985c-d5ac9b1c9ea1">IDvbSiParser::GetRST</a> method, so applications typically should not call it.
+
+
+## -parameters
+
+
+
+
+### -param pSectionList [in]
+
+Pointer to the <a href="https://msdn.microsoft.com/eb6d31b4-ee4a-468f-9e58-115159095858">ISectionList</a> interface of the <b>SectionList</b> object that contains the section data.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+Invalid argument.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_POINTER</b></dt>
+</dl>
+</td>
+<td width="60%">
+NULL pointer argument.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>MPEG2_E_ALREADY_INITIALIZED</b></dt>
+</dl>
+</td>
+<td width="60%">
+The object is already initialized.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/deee44cb-92b8-4d10-91d7-c99324ab5832">IDVB_RST Interface</a>
+ 
+
+ 
+

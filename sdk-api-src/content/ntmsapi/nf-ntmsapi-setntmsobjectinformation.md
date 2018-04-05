@@ -1,0 +1,365 @@
+---
+UID: NF:ntmsapi.SetNtmsObjectInformation
+title: SetNtmsObjectInformation function
+author: windows-driver-content
+description: The SetNtmsObjectInformation function changes the information structure of the specified object.
+old-location: fs\setntmsobjectinformation.htm
+old-project: Rsm
+ms.assetid: 1cdb9c72-1b34-4800-a07d-b648baec8582
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: SetNtmsObjectInformation, SetNtmsObjectInformation function [Files], SetNtmsObjectInformationA, SetNtmsObjectInformationW, _zaw_setntmsobjectinformation, base.setntmsobjectinformation, fs.setntmsobjectinformation, ntmsapi/SetNtmsObjectInformation, ntmsapi/SetNtmsObjectInformationA, ntmsapi/SetNtmsObjectInformationW
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: ntmsapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: SetNtmsObjectInformationW (Unicode) and SetNtmsObjectInformationA (ANSI)
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Ntmsapi.dll
+api_name:
+-	SetNtmsObjectInformation
+-	SetNtmsObjectInformationA
+-	SetNtmsObjectInformationW
+product: Windows
+targetos: Windows
+req.lib: Ntmsapi.lib
+req.dll: Ntmsapi.dll
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# SetNtmsObjectInformation function
+
+
+## -description
+
+
+<p class="CCE_Message">[<a href="https://msdn.microsoft.com/af7186f8-7921-48e3-a4fd-23259a6e9018">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
+
+The 
+<b>SetNtmsObjectInformation</b> function changes the information structure of the specified object.
+
+
+## -parameters
+
+
+
+
+### -param hSession [in]
+
+Handle to the session returned by the 
+<a href="https://msdn.microsoft.com/5a323911-e99c-4f81-9580-0feac2f0a54e">OpenNtmsSession</a> function.
+
+
+### -param lpObjectId [in]
+
+Unique identifier of the RSM object.
+
+
+### -param lpInfo [in]
+
+Pointer to an 
+<a href="https://msdn.microsoft.com/56e3380b-47c7-4861-bb2b-31d67ac10fe1">NTMS_OBJECTINFORMATION</a> structure.
+
+
+## -returns
+
+
+
+This function returns one of the following values.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_ACCESS_DENIED</b></dt>
+</dl>
+</td>
+<td width="60%">
+NTMS_MODIFY_ACCESS or NTMS_CONTROL_ACCESS is denied to the object being written or no modifications are allowed to the object type specified. See Remarks.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_SUCCESS</b></dt>
+</dl>
+</td>
+<td width="60%">
+The function was successful.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_DATABASE_FAILURE</b></dt>
+</dl>
+</td>
+<td width="60%">
+The database is inaccessible or damaged.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_DATABASE_FULL</b></dt>
+</dl>
+</td>
+<td width="60%">
+The database is full.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_INVALID_HANDLE</b></dt>
+</dl>
+</td>
+<td width="60%">
+The session handle is missing or is not valid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_INVALID_PARAMETER</b></dt>
+</dl>
+</td>
+<td width="60%">
+The object ID or information structure is missing, or the object information size or object type is not valid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_NOT_ENOUGH_MEMORY</b></dt>
+</dl>
+</td>
+<td width="60%">
+An allocation failure occurred during processing.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_OBJECT_NOT_FOUND</b></dt>
+</dl>
+</td>
+<td width="60%">
+The object ID is not valid.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+The information size and type must be set before you can use 
+<b>SetNtmsObjectInformation</b>.
+
+All writable properties for the object are read from the 
+<a href="https://msdn.microsoft.com/56e3380b-47c7-4861-bb2b-31d67ac10fe1">NTMS_OBJECTINFORMATION</a> structure and written to the database without regard for any write operations that have occurred between the time this application called the 
+<a href="https://msdn.microsoft.com/e5c1b165-2c55-40c3-94d8-c996c5db4250">GetNtmsObjectInformation</a> function and the 
+<b>SetNtmsObjectInformation</b> function. Because of this you can lose changes.
+
+To avoid unpredictable results, applications must call 
+<a href="https://msdn.microsoft.com/e5c1b165-2c55-40c3-94d8-c996c5db4250">GetNtmsObjectInformation</a> before calling 
+<b>SetNtmsObjectInformation</b>. As noted above, 
+<b>SetNtmsObjectInformation</b> updates all writable members, therefore the application is responsible for providing a value for all writable members.
+
+The following is the list of objects that have members that can be updated.
+
+<table>
+<tr>
+<th>Object</th>
+<th>Members</th>
+</tr>
+<tr>
+<td>NTMS_CHANGER</td>
+<td><b>szDescription</b> Requires NTMS_MODIFY_ACCESS to the library.
+
+<b>Windows XP:  </b> No access rights are required.
+
+</td>
+</tr>
+<tr>
+<td>NTMS_CHANGER_TYPE</td>
+<td><b>szDescription</b> Requires NTMS_MODIFY_ACCESS to the computer.
+
+<b>Windows XP:  </b> No access rights are required.
+
+</td>
+</tr>
+<tr>
+<td>NTMS_COMPUTER</td>
+<td><b>dwMediaPoolPolicy</b><div> </div><b>dwLibRequestFlags</b><div> </div><b>dwLibRequestPurgeTime</b><div> </div><b>dwOpRequestFlags</b><div> </div><b>dwOpRequestPurgeTime</b><div> </div><b>szDescription</b> Requires NTMS_MODIFY_ACCESS to the computer.
+
+<b>Windows XP:  </b> No access rights are required.
+
+</td>
+</tr>
+<tr>
+<td>NTMS_DRIVE</td>
+<td><b>dwDeferDismountDelay</b><div> </div><b>szDescription</b> Requires NTMS_MODIFY_ACCESS to the library.
+
+<b>Windows XP:  </b> No access rights are required.
+
+</td>
+</tr>
+<tr>
+<td>NTMS_DRIVE_TYPE</td>
+<td><b>szDescription</b> Requires NTMS_MODIFY_ACCESS to the computer.
+
+<b>Windows XP:  </b> No access rights are required.
+
+</td>
+</tr>
+<tr>
+<td>NTMS_IEDOOR</td>
+<td><b>MaxOpenSecs</b><div> </div><b>szDescription</b> Requires NTMS_MODIFY_ACCESS to the library.
+
+<b>Windows XP:  </b> No access rights are required.
+
+</td>
+</tr>
+<tr>
+<td>NTMS_IEPORT</td>
+<td><b>MaxExtendSecs</b><div> </div><b>szDescription</b> Requires NTMS_MODIFY_ACCESS to the library.
+
+<b>Windows XP:  </b> No access rights are required.
+
+</td>
+</tr>
+<tr>
+<td>NTMS_LIBRARY</td>
+<td><b>AutoRecovery</b><div> </div><b>dwCleanerUsesRemaining</b><div> </div><b>dwFlags</b><div> </div><b>InventoryMethod</b><div> </div><b>szDescription</b><div> </div><b>szName</b>Requires NTMS_CONTROL_ACCESS to the library.
+
+</td>
+</tr>
+<tr>
+<td>NTMS_LIBREQUEST</td>
+<td><b>szDescription</b> Requires NTMS_MODIFY_ACCESS to the library.
+
+<b>Windows XP:  </b> No access rights are required.
+
+</td>
+</tr>
+<tr>
+<td>NTMS_LOGICAL_MEDIA</td>
+<td><b>szDescription</b><div> </div><b>szName</b> Requires NTMS_MODIFY_ACCESS to the media pool of the logical media.
+
+<b>Windows XP:  </b> No access rights are required.
+
+</td>
+</tr>
+<tr>
+<td>NTMS_MEDIA_POOL</td>
+<td><b>AllocationPolicy</b><div> </div><b>DeallocationPolicy</b><div> </div><b>dwMaxAllocates</b><div> </div><b>MediaType</b><div> </div><b>szDescription</b><div> </div><b>szName</b> Requires NTMS_MODIFY_ACCESS to the media pool.
+
+<b>Windows XP:  </b> Requires NTMS_CONTROL_ACCESS to the media pool.
+
+</td>
+</tr>
+<tr>
+<td>NTMS_MEDIA_TYPE</td>
+<td><b>szDescription</b> Requires NTMS_MODIFY_ACCESS to the computer.
+
+<b>Windows XP:  </b> No access rights are required.
+
+</td>
+</tr>
+<tr>
+<td>NTMS_OPREQUEST</td>
+<td><b>szDescription</b> Requires NTMS_MODIFY_ACCESS to the computer.
+
+<b>Windows XP:  </b> No access rights are required.
+
+</td>
+</tr>
+<tr>
+<td>NTMS_PARTITION</td>
+<td><b>szName</b><div> </div><b>szDescription</b> Requires NTMS_MODIFY_ACCESS to the media pool of the side.
+
+<b>Windows XP:  </b> Requires NTMS_CONTROL_ACCESS to the media pool of the side.
+
+</td>
+</tr>
+<tr>
+<td>NTMS_PHYSICAL_MEDIA</td>
+<td><b>szDescription</b><div> </div><b>szName</b> Requires NTMS_MODIFY_ACCESS to the media pool.
+
+<b>Windows XP:  </b> No access rights are required.
+
+</td>
+</tr>
+<tr>
+<td>NTMS_STORAGESLOT</td>
+<td><b>szDescription</b> Requires NTMS_MODIFY_ACCESS to the library.
+
+<b>Windows XP:  </b> No access rights are required.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/e5c1b165-2c55-40c3-94d8-c996c5db4250">GetNtmsObjectInformation</a>
+
+
+
+<a href="https://msdn.microsoft.com/1d2168a3-077e-48fc-8a06-91952213f2cb">GetNtmsObjectSecurity</a>
+
+
+
+<a href="https://msdn.microsoft.com/56e3380b-47c7-4861-bb2b-31d67ac10fe1">NTMS_OBJECTINFORMATION</a>
+
+
+
+<a href="removable_storage_manager_functions.htm">Object Management Functions</a>
+ 
+
+ 
+

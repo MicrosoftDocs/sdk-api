@@ -1,0 +1,100 @@
+---
+UID: NF:dvbsiparser.IDvbTeletextDescriptor.GetRecordLangId
+title: IDvbTeletextDescriptor::GetRecordLangId method
+author: windows-driver-content
+description: Gets the three-character ISO 639 language code from a Digital Video Broadcast (DVB) teletext descriptor.
+old-location: mstv\idvbteletextdescriptor_getrecordlangid.htm
+old-project: mstv
+ms.assetid: cce0fd15-5098-4871-baab-e40b6cae39b1
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: GetRecordLangId method [Microsoft TV Technologies], GetRecordLangId method [Microsoft TV Technologies], IDvbTeletextDescriptor interface, GetRecordLangId,IDvbTeletextDescriptor.GetRecordLangId, IDvbTeletextDescriptor, IDvbTeletextDescriptor interface [Microsoft TV Technologies], GetRecordLangId method, IDvbTeletextDescriptor::GetRecordLangId, dvbsiparser/IDvbTeletextDescriptor::GetRecordLangId, mstv.idvbteletextdescriptor_getrecordlangid
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: dvbsiparser.h
+req.include-header: Dvbsiparser.idl
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: None supported
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	dvbsiparser.h
+api_name:
+-	IDvbTeletextDescriptor.GetRecordLangId
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
+---
+
+# IDvbTeletextDescriptor::GetRecordLangId method
+
+
+## -description
+
+
+
+  Gets the three-character ISO 639 language code from a Digital Video Broadcast (DVB)
+  teletext descriptor. 
+
+
+## -parameters
+
+
+
+
+### -param bRecordIndex [in]
+
+
+  Zero-based index of the descriptor to return. To get the number of descriptors, 
+  call <a href="https://msdn.microsoft.com/a802c685-9d7a-446a-a29c-4fc3e9ad3dc4">
+  IDvbTeletextDescriptor::GetCountOfRecords</a>.
+
+
+
+### -param pulVal [out]
+
+Pointer to a 24-bit buffer that receives the language code.  For a list of language codes, refer to <a href="http://www.sil.org/ISO639-3/codes.asp">this document</a>. 
+
+
+## -returns
+
+
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/5148a87b-e6b6-4bda-871c-10a2f398ebcc">IDvbTeletextDescriptor</a>
+
+
+
+<a href="https://msdn.microsoft.com/a802c685-9d7a-446a-a29c-4fc3e9ad3dc4">
+  IDvbTeletextDescriptor::GetCountOfRecords</a>
+ 
+
+ 
+

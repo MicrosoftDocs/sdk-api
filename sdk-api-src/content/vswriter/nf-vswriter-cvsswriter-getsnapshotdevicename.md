@@ -1,0 +1,158 @@
+---
+UID: NF:vswriter.CVssWriter.GetSnapshotDeviceName
+title: CVssWriter::GetSnapshotDeviceName method
+author: windows-driver-content
+description: The GetSnapshotDeviceName method returns the name of the device that hosts the shadow copy of the specified volume or file share.
+old-location: base\cvsswriter_getsnapshotdevicename.htm
+old-project: VSS
+ms.assetid: ac0beefe-0afd-45da-b1bb-1bd960b4b0f0
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: CVssWriter, CVssWriter interface [VSS], GetSnapshotDeviceName method, CVssWriter::GetSnapshotDeviceName, GetSnapshotDeviceName method [VSS], GetSnapshotDeviceName method [VSS], CVssWriter interface, GetSnapshotDeviceName,CVssWriter.GetSnapshotDeviceName, _win32_cvsswriter_getsnapshotdevicename, base.cvsswriter_getsnapshotdevicename, vswriter/CVssWriter::GetSnapshotDeviceName
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: vswriter.h
+req.include-header: Vss.h, VsWriter.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP1 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: VSS_WRITERRESTORE_ENUM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	VssApi.lib
+-	VssApi.dll
+api_name:
+-	CVssWriter.GetSnapshotDeviceName
+product: Windows
+targetos: Windows
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
+req.product: Windows UI
+---
+
+# CVssWriter::GetSnapshotDeviceName method
+
+
+## -description
+
+
+The <b>GetSnapshotDeviceName</b> method 
+   returns the name of the device that hosts the shadow copy of the specified volume or file share. This method allows writers to support 
+   <a href="vssgloss_a.htm">auto-recover</a> shadow copies, and 
+   can only be called during the processing of the 
+   <a href="https://msdn.microsoft.com/d97d4246-882e-49c3-a214-d8d3887c1508">OnPostSnapshot</a> method.
+
+
+## -parameters
+
+
+
+
+### -param wszOriginalVolume [in]
+
+Name of the original volume or the UNC path of the original file share that contains data used for the current shadow copy set. The name of the volume must be in one 
+      of the following formats and must include a trailing backslash (\):
+      
+
+<ul>
+<li>The path of a mounted folder, for example, Y:\MountX\</li>
+<li>A drive letter, for example, 
+        D:\</li>
+<li>A volume GUID path of the form \\?\<i>Volume</i>{<i>GUID</i>}\ (where <i>GUID</i> identifies the volume)</li>
+<li>A UNC path that specifies a remote file share, for example, \\Clusterx\Share1\</li>
+</ul>
+
+### -param ppwszSnapshotDevice [out]
+
+The address of a <b>LPCWSTR</b> that will receive a pointer to the device name of the 
+      shadow copy.
+
+
+## -returns
+
+
+
+This method can return one of these values.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+Successfully returned the shadow copy volume name.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+One of the parameter values is not valid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>VSS_E_BAD_STATE</b></dt>
+</dl>
+</td>
+<td width="60%">
+The call was not made during the 
+        <a href="vssgloss_p.htm">PostSnapshot event</a>.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>VSS_E_OBJECT_NOT_FOUND</b></dt>
+</dl>
+</td>
+<td width="60%">
+The <i>wszOriginalVolume</i> parameter is not one of the volumes or file shares in the shadow copy 
+        set.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+<b>Windows 7, Windows Server 2008 R2, Windows Vista, Windows Server 2008, Windows XP and Windows Server 2003:  </b>Remote file shares are not supported until Windows 8 and Windows Server 2012.
+
+To get the name of the original volume for the <i>wszOriginalVolume</i> parameter, first call the <a href="https://msdn.microsoft.com/5f553a46-10ee-475e-b028-2652c74fbe5d">CVssWriter::GetCurrentVolumeCount</a> method to query the number of volumes in the shadow copy set. Then call the <a href="https://msdn.microsoft.com/75f72b51-e940-4b1d-88a1-7c35de5a3d87">CVssWriter::GetCurrentVolumeArray</a> method to enumerate the original names of the volumes in the shadow copy set.
+
+
+

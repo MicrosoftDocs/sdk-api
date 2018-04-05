@@ -1,0 +1,98 @@
+---
+UID: NF:comsvcs.IComTransactionEvents.OnTransactionStart
+title: IComTransactionEvents::OnTransactionStart method
+author: windows-driver-content
+description: Generated when a Microsoft Distributed Transaction Coordinator (DTC) transaction starts.
+old-location: cos\icomtransactionevents_ontransactionstart.htm
+old-project: cossdk
+ms.assetid: ef9d7adc-69ed-4582-9ce7-c66c947d48a6
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: IComTransactionEvents, IComTransactionEvents interface [COM+], OnTransactionStart method, IComTransactionEvents::OnTransactionStart, OnTransactionStart method [COM+], OnTransactionStart method [COM+], IComTransactionEvents interface, OnTransactionStart,IComTransactionEvents.OnTransactionStart, _dtc_IComTransactionEvents_OnTransactionStart, comsvcs/IComTransactionEvents::OnTransactionStart, cos.icomtransactionevents_ontransactionstart
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: comsvcs.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: TRACKING_COLL_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	ComSvcs.h
+api_name:
+-	IComTransactionEvents.OnTransactionStart
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# IComTransactionEvents::OnTransactionStart method
+
+
+## -description
+
+
+Generated when a Microsoft Distributed Transaction Coordinator (DTC) transaction starts.
+
+
+## -parameters
+
+
+
+
+### -param pInfo [in]
+
+A pointer to a <a href="https://msdn.microsoft.com/f4aa0892-4c93-42ea-adc6-1b304b917389">COMSVCSEVENTINFO</a> structure.
+
+
+### -param guidTx [in]
+
+The transaction identifier.
+
+
+### -param tsid [in]
+
+The transaction stream identifier; a unique identifier for correlation to objects.
+
+
+### -param fRoot [in]
+
+Indicates whether this is a root transaction.
+
+
+## -returns
+
+
+
+The user verifies the return values from this method.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/f28a0ef5-1c9a-4fdc-bb10-2c381f22f5e3">IComTransactionEvents</a>
+ 
+
+ 
+

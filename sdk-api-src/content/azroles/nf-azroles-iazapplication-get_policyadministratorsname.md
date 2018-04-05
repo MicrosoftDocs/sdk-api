@@ -1,0 +1,80 @@
+---
+UID: NF:azroles.IAzApplication.get_PolicyAdministratorsName
+title: IAzApplication::get_PolicyAdministratorsName method
+author: windows-driver-content
+description: The IAzApplication::PolicyAdministratorsName property retrieves the account names of principals that act as policy administrators.
+old-location: security\iazapplication_policyadministratorsname.htm
+old-project: SecAuthZ
+ms.assetid: fdabb04b-deb4-494a-bdde-264a301388b3
+ms.author: windowsdriverdev
+ms.date: 3/29/2018
+ms.keywords: AzApplication object [Security], PolicyAdministratorsName property, IAzApplication, IAzApplication interface [Security], PolicyAdministratorsName property, IAzApplication.PolicyAdministratorsName, IAzApplication::get_PolicyAdministratorsName, PolicyAdministratorsName property [Security], PolicyAdministratorsName property [Security], AzApplication object, PolicyAdministratorsName property [Security], IAzApplication interface, azroles/IAzApplication::PolicyAdministratorsName, azroles/IAzApplication::get_PolicyAdministratorsName, get_PolicyAdministratorsName,IAzApplication.get_PolicyAdministratorsName, security.iazapplication_policyadministratorsname
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: azroles.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: AZ_PROP_CONSTANTS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Azroles.dll
+api_name:
+-	IAzApplication.PolicyAdministratorsName
+-	IAzApplication.get_PolicyAdministratorsName
+-	AzApplication.PolicyAdministratorsName
+product: Windows
+targetos: Windows
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
+---
+
+# IAzApplication::get_PolicyAdministratorsName method
+
+
+## -description
+
+
+The <b>PolicyAdministratorsName</b> property retrieves the account names of principals that act as policy administrators.
+
+This property is read-only.
+
+
+## -parameters
+
+
+## -remarks
+
+
+
+Policy administrators for an object can perform the following tasks:
+
+<ul>
+<li>Read the object</li>
+<li>Write attributes to the object</li>
+<li>Read attributes of child objects of the object</li>
+<li>Write attributes to child objects of the object</li>
+<li>Delete the object</li>
+<li>Delete child objects of the object</li>
+<li>Create child objects of the object</li>
+</ul>
+In JScript, the returned <a href="9ec8025b-4763-4526-ab45-390c5d8b3b1e">SAFEARRAY</a> must be converted to the JScript <a href="08e5f552-0797-4b48-8164-609582fc18c9">Array</a> object. 
+
+
+

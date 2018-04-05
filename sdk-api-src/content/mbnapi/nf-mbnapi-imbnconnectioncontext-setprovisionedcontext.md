@@ -1,0 +1,170 @@
+---
+UID: NF:mbnapi.IMbnConnectionContext.SetProvisionedContext
+title: IMbnConnectionContext::SetProvisionedContext method
+author: windows-driver-content
+description: Adds or updates a provisioned context.
+old-location: mbn\imbnconnectioncontext_setprovisionedcontext.htm
+old-project: mbn
+ms.assetid: 738a3037-01a9-465a-a67d-979a29968b68
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: IMbnConnectionContext, IMbnConnectionContext interface [Microsoft Broadband Networks], SetProvisionedContext method, IMbnConnectionContext::SetProvisionedContext, SetProvisionedContext method [Microsoft Broadband Networks], SetProvisionedContext method [Microsoft Broadband Networks], IMbnConnectionContext interface, SetProvisionedContext,IMbnConnectionContext.SetProvisionedContext, mbn.imbnconnectioncontext_setprovisionedcontext, mbnapi/IMbnConnectionContext::SetProvisionedContext
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: mbnapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: None supported
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Mbnapi.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MBN_VOICE_CLASS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mbnapi.h
+api_name:
+-	IMbnConnectionContext.SetProvisionedContext
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IMbnConnectionContext::SetProvisionedContext method
+
+
+## -description
+
+
+Adds or updates a provisioned context.
+
+
+## -parameters
+
+
+
+
+### -param provisionedContexts [in]
+
+An <a href="https://msdn.microsoft.com/949b1bb3-8cad-45b4-81b7-1f70a76b6c8c">MBN_CONTEXT</a> structure that specifies the provisioned context to be stored in the device or SIM.
+
+
+### -param providerID [in]
+
+A string that represents the network provider ID for which the provisioned context should be stored.  The device should return the added provisioned context in response to any subsequent query when a SIM with this home provider ID is in the device.
+
+
+### -param requestID [out]
+
+A request ID set by the Mobile Broadband service to identify this asynchronous request.
+
+
+## -returns
+
+
+
+This method can return one of these values.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method completed successfully.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_HANDLE</b></dt>
+</dl>
+</td>
+<td width="60%">
+Invalid interface.  Most likely the Mobile Broadband device has been removed from the system.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>HRESULT_FROM_WIN32(ERROR_NOT_FOUND)</b></dt>
+</dl>
+</td>
+<td width="60%">
+Invalid interface.  Most likely the Mobile Broadband device has been removed from the system.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>HRESULT_FROM_WIN32(ERROR_SERVICE_NOT_ACTIVE)</b></dt>
+</dl>
+</td>
+<td width="60%">
+The Mobile Broadband service is not running on this system.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALID_ARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+<i>providerID</i>  is not valid.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+The <b>contextID</b> of <i>provisionedContexts</i> specifies the index in the device or SIM memory where the context is to be stored.  If it is set to <a href="mbn_context_constants.htm">MBN_CONTEXT_ID_APPEND</a>, then the device shall find the appropriate index to store the context.
+
+This is an asynchronous operation and <b>SetProvisionedContext</b> will return immediately. When the operation is complete, the Mobile Broadband service will notify the application by calling the <a href="https://msdn.microsoft.com/06e1071d-c541-4824-9b56-f2d18f41e972">OnSetProvisionedContextComplete</a> method of <a href="https://msdn.microsoft.com/1f73260b-04db-410a-ade0-a835805b2b0a">IMbnConnectionContextEvents</a>.
+
+Additions to the provisioned context list for the current home provider ID will not be available for querying until the <a href="https://msdn.microsoft.com/3c8fa150-7c36-4ad8-ada8-2b17693671d9">OnProvisionedContextListChange</a> method of <a href="https://msdn.microsoft.com/1f73260b-04db-410a-ade0-a835805b2b0a">IMbnConnectionContextEvents</a> has been called. 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/a9bc52dc-47f9-4b20-b98d-0287464a89e5">IMbnConnectionContext</a>
+ 
+
+ 
+

@@ -1,0 +1,202 @@
+---
+UID: NF:winternl.NtNotifyChangeMultipleKeys
+title: NtNotifyChangeMultipleKeys function
+author: windows-driver-content
+description: Requests notification when a registry key or any of its subkeys changes.
+old-location: winprog\ntnotifychangemultiplekeys.htm
+old-project: DevNotes
+ms.assetid: c1ee9793-490c-45de-a2a5-deab630917f6
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: NtNotifyChangeMultipleKeys, NtNotifyChangeMultipleKeys function [Windows API], REG_NOTIFY_CHANGE_ATTRIBUTES, REG_NOTIFY_CHANGE_LAST_SET, REG_NOTIFY_CHANGE_NAME, REG_NOTIFY_CHANGE_SECURITY, base.ntnotifychangemultiplekeys, winprog.ntnotifychangemultiplekeys, winternl/NtNotifyChangeMultipleKeys
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: winternl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: SYNC_VERSION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	ntdll.dll
+api_name:
+-	NtNotifyChangeMultipleKeys
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Ntdll.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# NtNotifyChangeMultipleKeys function
+
+
+## -description
+
+
+<p class="CCE_Message">[This function may be changed or removed from Windows without further notice. ]
+
+Requests notification when a registry key or any of its subkeys changes. 
+
+
+## -parameters
+
+
+
+
+### -param MasterKeyHandle [in]
+
+A handle to an open key. The handle must be opened with the <b>KEY_NOTIFY</b> access right.
+
+
+### -param Count [in, optional]
+
+The number of subkeys under the key specified by the <i>MasterKeyHandle</i> parameter. This parameter must be 1.
+
+
+### -param SubordinateObjects [in, optional]
+
+Pointer to an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff557749">OBJECT_ATTRIBUTES</a> structures, one for each subkey.   This array can contain one <b>OBJECT_ATTRIBUTES</b> structure.
+
+
+### -param Event [in, optional]
+
+A handle to an event created by the caller. If <i>Event</i> is not <b>NULL</b>, the caller waits until the operation succeeds, at which time the event is signaled. 
+
+
+### -param ApcRoutine [in, optional]
+
+A pointer to an asynchronous procedure call (APC) function supplied by the caller. If <i>ApcRoutine</i> is not <b>NULL</b>, the specified APC function executes after the operation completes. 
+
+
+### -param ApcContext [in, optional]
+
+A pointer to a context supplied by the caller for its APC function. This value is passed to the APC function when it is executed. The <i>Asynchronous</i> parameter must be <b>TRUE</b>. If <i>ApcContext</i> is specified, the <i>Event</i> parameter must be <b>NULL</b>.
+
+
+### -param IoStatusBlock [out]
+
+A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550671">IO_STATUS_BLOCK</a> structure that contains the final status and information about the operation. For successful calls that return data, the number of bytes written to the <i>Buffer</i> parameter is supplied in the <b>Information</b> member of the <b>IO_STATUS_BLOCK</b> structure.
+
+
+### -param CompletionFilter [in]
+
+A bitmap of operations that trigger notification. This parameter can be one or more of the following flags.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="REG_NOTIFY_CHANGE_NAME_"></a><a id="reg_notify_change_name_"></a><dl>
+<dt><b>REG_NOTIFY_CHANGE_NAME </b></dt>
+</dl>
+</td>
+<td width="60%">
+Notify the caller if a subkey is added or deleted. 
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="REG_NOTIFY_CHANGE_ATTRIBUTES_"></a><a id="reg_notify_change_attributes_"></a><dl>
+<dt><b>REG_NOTIFY_CHANGE_ATTRIBUTES </b></dt>
+</dl>
+</td>
+<td width="60%">
+Notify the caller of changes to the attributes of the key, such as the security descriptor information. 
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="REG_NOTIFY_CHANGE_LAST_SET_"></a><a id="reg_notify_change_last_set_"></a><dl>
+<dt><b>REG_NOTIFY_CHANGE_LAST_SET </b></dt>
+</dl>
+</td>
+<td width="60%">
+Notify the caller of changes to a value of the key. This can include adding or deleting a value, or changing an existing value. 
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="REG_NOTIFY_CHANGE_SECURITY_"></a><a id="reg_notify_change_security_"></a><dl>
+<dt><b>REG_NOTIFY_CHANGE_SECURITY </b></dt>
+</dl>
+</td>
+<td width="60%">
+Notify the caller of changes to the security descriptor of the key.
+
+</td>
+</tr>
+</table>
+ 
+
+
+### -param WatchTree [in]
+
+If this parameter is <b>TRUE</b>, the caller is notified about changes to all subkeys of the specified key. If this parameter is <b>FALSE</b>, the caller is notified only about changes to the specified key.
+
+
+### -param Buffer [out, optional]
+
+Reserved for system use. This parameter must be <b>NULL</b>.
+
+
+### -param BufferSize [in]
+
+Reserved for system use. This parameter must be zero.
+
+
+### -param Asynchronous [in]
+
+If this parameter is <b>TRUE</b>, the function returns immediately. If this parameter is <b>FALSE</b>, the function does not return until the specified event occurs.
+
+
+## -returns
+
+
+
+Returns an <b>NTSTATUS</b> or error code.
+
+If the <i>Asynchronous</i> parameter is <b>TRUE</b> and the specified event has not yet occurred, the function returns <b>STATUS_PENDING</b>.
+
+The forms and significance of <b>NTSTATUS</b> error codes are listed in the Ntstatus.h header file available in the WDK, and are described in the WDK documentation.
+
+
+
+
+## -remarks
+
+
+
+This function has no associated header file. The associated import library, Ntdll.lib, is available in the WDK. You can also use the <a href="https://msdn.microsoft.com/191fcbd8-4542-4cad-955e-6951f3005fc5">LoadLibrary</a> and <a href="https://msdn.microsoft.com/e425948c-5588-4a4f-994c-4e608af18439">GetProcAddress</a> functions to dynamically link to Ntdll.dll.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/266d5c8e-1bcd-48e5-bc06-2fbc956d8658">Registry Key Security and Access Rights</a>
+ 
+
+ 
+

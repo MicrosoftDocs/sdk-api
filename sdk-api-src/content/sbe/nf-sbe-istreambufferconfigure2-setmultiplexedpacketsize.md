@@ -1,0 +1,112 @@
+---
+UID: NF:sbe.IStreamBufferConfigure2.SetMultiplexedPacketSize
+title: IStreamBufferConfigure2::SetMultiplexedPacketSize method
+author: windows-driver-content
+description: The SetMultiplexedPacketSize method sets the size of the multiplexed packets in the backing files for the Stream Buffer Engine.
+old-location: mstv\istreambufferconfigure2_setmultiplexedpacketsize.htm
+old-project: mstv
+ms.assetid: 9133331b-cf0c-4dfb-8bb6-101742d194c7
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: IStreamBufferConfigure2, IStreamBufferConfigure2 interface [Microsoft TV Technologies], SetMultiplexedPacketSize method, IStreamBufferConfigure2::SetMultiplexedPacketSize, IStreamBufferConfigure2SetMultiplexedPacketSize, SetMultiplexedPacketSize method [Microsoft TV Technologies], SetMultiplexedPacketSize method [Microsoft TV Technologies], IStreamBufferConfigure2 interface, SetMultiplexedPacketSize,IStreamBufferConfigure2.SetMultiplexedPacketSize, mstv.istreambufferconfigure2_setmultiplexedpacketsize, sbe/IStreamBufferConfigure2::SetMultiplexedPacketSize
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: sbe.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: None supported
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: STREAMBUFFER_ATTR_DATATYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Sbe.h
+api_name:
+-	IStreamBufferConfigure2.SetMultiplexedPacketSize
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# IStreamBufferConfigure2::SetMultiplexedPacketSize method
+
+
+## -description
+
+
+The <b>SetMultiplexedPacketSize</b> method sets the size of the multiplexed packets in the backing files for the Stream Buffer Engine.
+
+
+## -parameters
+
+
+
+
+### -param cbBytesPerPacket [in]
+
+Specifies the packet size, in bytes. The value must be between 8192 and 65535, inclusive. The default value is 65535.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+For low-bit-rate streams, the default packet size may be unnecessarily large. You can use this method to reduce the packet size.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/df71783c-1ff3-46b0-bae2-61d12f4d70d0">IStreamBufferConfigure2 Interface</a>
+ 
+
+ 
+

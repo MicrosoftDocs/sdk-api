@@ -1,0 +1,180 @@
+---
+UID: NF:mdhcp.IMcastAddressAllocation.RequestAddress
+title: IMcastAddressAllocation::RequestAddress method
+author: windows-driver-content
+description: The RequestAddress method obtains a new lease for one or more multicast addresses. The EnumerateScopes or get_Scopes method must be called first.
+old-location: tapi3\imcastaddressallocation_requestaddress.htm
+old-project: Tapi
+ms.assetid: ca428138-34d2-499d-9560-8dfd51403ba1
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: IMcastAddressAllocation, IMcastAddressAllocation interface [TAPI 2.2], RequestAddress method, IMcastAddressAllocation::RequestAddress, RequestAddress method [TAPI 2.2], RequestAddress method [TAPI 2.2], IMcastAddressAllocation interface, RequestAddress,IMcastAddressAllocation.RequestAddress, _tapi3_imcastaddressallocation_requestaddress, mdhcp/IMcastAddressAllocation::RequestAddress, tapi3.imcastaddressallocation_requestaddress
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: mdhcp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MODEMSETTINGS, *PMODEMSETTINGS, *LPMODEMSETTINGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Mdhcp.dll
+api_name:
+-	IMcastAddressAllocation.RequestAddress
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Mdhcp.dll
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IMcastAddressAllocation::RequestAddress method
+
+
+## -description
+
+
+<p class="CCE_Message">[
+						Rendezvous IP Telephony Conferencing controls and interfaces are not available for use in Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The RTC Client API
+provides similar functionality.]
+
+The 
+<b>RequestAddress</b> method obtains a new lease for one or more multicast addresses. The 
+<a href="https://msdn.microsoft.com/1845f5f9-be0e-4609-89d8-1a0ed194dd68">EnumerateScopes</a> or 
+<a href="https://msdn.microsoft.com/4fe824fa-2fcb-4f6b-b3de-15dcfc79575c">get_Scopes</a> method must be called first.
+
+
+## -parameters
+
+
+
+
+### -param pScope [in]
+
+Identifies the multicast scope from which the application needs an address. The application first calls 
+<a href="https://msdn.microsoft.com/4fe824fa-2fcb-4f6b-b3de-15dcfc79575c">get_Scopes</a> or 
+<a href="https://msdn.microsoft.com/1845f5f9-be0e-4609-89d8-1a0ed194dd68">EnumerateScopes</a> to obtain a list of available scopes.
+
+
+### -param LeaseStartTime [in]
+
+Requested time for the lease on these addresses to start. The start time that is actually granted may be different.
+
+
+### -param LeaseStopTime [in]
+
+Requested time for the lease on these addresses to stop. The stop time that is actually granted may be different.
+
+
+### -param NumAddresses [in]
+
+The number of addresses requested. Fewer addresses may actually be granted.
+
+
+### -param ppLeaseResponse [out]
+
+Pointer to an interface pointer that will be set to point to a new 
+<a href="https://msdn.microsoft.com/a4ad8009-559e-4db9-9ae2-28e4d36cf346">IMcastLeaseInfo</a> object. This interface can then be used to discover the actual attributes of the granted lease. See 
+<a href="https://msdn.microsoft.com/b0252ac4-856e-4aa7-aa3b-37b92472e864">IMcastScope</a> for more information.
+
+
+## -returns
+
+
+
+This method can return one of these values.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+Method succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_POINTER</b></dt>
+</dl>
+</td>
+<td width="60%">
+The caller passed in an invalid pointer argument.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_OUTOFMEMORY</b></dt>
+</dl>
+</td>
+<td width="60%">
+Not enough memory exists to create the required objects.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+Requested stop time is prior to requested stop time.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+Although these COM interfaces and their implementation support allocation of multiple addresses at a time, multiple allocation is not currently supported by the underlying function calls. You may need to use a loop for multiple address allocation.
+
+TAPI calls the <b>AddRef</b> method on the 
+<a href="https://msdn.microsoft.com/a4ad8009-559e-4db9-9ae2-28e4d36cf346">IMcastLeaseInfo</a> interface returned by <b>IMcastAddressAllocation::RequestAddress</b>. The application must call <b>Release</b> on the 
+<b>IMcastLeaseInfo</b> interface to free resources associated with it.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/359e67bb-9a5b-4caa-8d3b-eb0739b0828f">IMcastAddressAllocation</a>
+ 
+
+ 
+

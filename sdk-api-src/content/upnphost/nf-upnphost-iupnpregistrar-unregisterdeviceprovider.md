@@ -1,0 +1,87 @@
+---
+UID: NF:upnphost.IUPnPRegistrar.UnregisterDeviceProvider
+title: IUPnPRegistrar::UnregisterDeviceProvider method
+author: windows-driver-content
+description: The UnregisterDeviceProvider method permanently unregisters and unloads the device provider from the device host. The IUPnPDeviceProvider::Stop method is invoked.
+old-location: upnp\iupnpregistrar_unregisterdeviceprovider.htm
+old-project: UPnP
+ms.assetid: 548bd520-9c62-4dae-8ae3-94e3683a34f1
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: IUPnPRegistrar, IUPnPRegistrar interface [UPnP APIs], UnregisterDeviceProvider method, IUPnPRegistrar::UnregisterDeviceProvider, UnregisterDeviceProvider method [UPnP APIs], UnregisterDeviceProvider method [UPnP APIs], IUPnPRegistrar interface, UnregisterDeviceProvider,IUPnPRegistrar.UnregisterDeviceProvider, _upnp_iupnpregistrar_unregisterdeviceprovider, upnp.iupnpregistrar_unregisterdeviceprovider, upnphost/IUPnPRegistrar::UnregisterDeviceProvider
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: upnphost.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: None supported
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: UI_EVENTPARAMS_COMMAND
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Upnphost.dll
+api_name:
+-	IUPnPRegistrar.UnregisterDeviceProvider
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Upnphost.dll
+req.irql: 
+req.product: Windows UI
+---
+
+# IUPnPRegistrar::UnregisterDeviceProvider method
+
+
+## -description
+
+
+The 
+<b>UnregisterDeviceProvider</b> method permanently unregisters and unloads the device provider from the device host. The 
+<a href="https://msdn.microsoft.com/c8e4cd95-a6dc-4bf9-921e-63fbac743028">IUPnPDeviceProvider::Stop</a> method is invoked.
+
+
+## -parameters
+
+
+
+
+### -param bstrProviderName [in]
+
+Specifies the provider name. Use the same name that was used in the call to 
+<a href="https://msdn.microsoft.com/40f91b29-b535-46e7-834f-97f1a46084f7">RegisterDeviceProvider</a>.
+
+
+## -returns
+
+
+
+If the method succeeds, the return value is S_OK. Otherwise, the method returns one of the COM error codes defined in WinError.h.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/c851e102-4f03-4a21-9e62-9b5c60a728f3">IUPnPRegistrar</a>
+ 
+
+ 
+

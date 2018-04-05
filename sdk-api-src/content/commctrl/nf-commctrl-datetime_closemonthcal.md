@@ -1,0 +1,93 @@
+---
+UID: NF:commctrl.DateTime_CloseMonthCal
+title: DateTime_CloseMonthCal macro
+author: windows-driver-content
+description: Closes the date and time picker (DTP) control. Use this macro or send the DTM_CLOSEMONTHCAL message explicitly.
+old-location: controls\DateTime_CloseMonthCal.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_closemonthcal.htm
+ms.author: windowsdriverdev
+ms.date: 3/31/2018
+ms.keywords: DateTime_CloseMonthCal, DateTime_CloseMonthCal macro [Windows Controls], _shell_DateTime_CloseMonthCal, _shell_DateTime_CloseMonthCal_cpp, commctrl/DateTime_CloseMonthCal, controls.DateTime_CloseMonthCal, controls._shell_DateTime_CloseMonthCal
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: macro
+req.header: commctrl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: CATEGORYINFO, *LPCATEGORYINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Commctrl.h
+api_name:
+-	DateTime_CloseMonthCal
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# DateTime_CloseMonthCal macro
+
+
+## -description
+
+
+Closes the date and time picker (DTP) control. Use this macro or send the <a href="https://msdn.microsoft.com/f60af77f-ec34-4f3d-9427-cda7ac6083bf">DTM_CLOSEMONTHCAL</a> message explicitly.
+
+
+## -parameters
+
+
+
+
+### -param hdp
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+
+A handle to the DTP control.
+
+
+## -remarks
+
+
+
+Destroys the control and sends a <a href="https://msdn.microsoft.com/94ace714-55cc-4c59-8b87-8d0348b15f34">DTN_CLOSEUP</a> notification that the control is closing—as opposed to the control is opening (dropping-down as in the <a href="https://msdn.microsoft.com/6f20fa87-2223-4876-b77d-2c684685bf10">DTN_DROPDOWN</a> notification)—to the control's parent.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/94ace714-55cc-4c59-8b87-8d0348b15f34">DTN_CLOSEUP</a>
+
+
+
+<a href="https://msdn.microsoft.com/6f20fa87-2223-4876-b77d-2c684685bf10">DTN_DROPDOWN</a>
+
+
+
+<b>Reference</b>
+ 
+
+ 
+

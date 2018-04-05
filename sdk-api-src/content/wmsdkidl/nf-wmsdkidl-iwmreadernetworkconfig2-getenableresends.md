@@ -1,0 +1,133 @@
+---
+UID: NF:wmsdkidl.IWMReaderNetworkConfig2.GetEnableResends
+title: IWMReaderNetworkConfig2::GetEnableResends method
+author: windows-driver-content
+description: The GetEnableResends method ascertains whether resending is enabled.
+old-location: wmformat\iwmreadernetworkconfig2_getenableresends.htm
+old-project: wmformat
+ms.assetid: d39d42c3-7d00-4fb6-8979-2b65d00ac636
+ms.author: windowsdriverdev
+ms.date: 3/23/2018
+ms.keywords: GetEnableResends method [windows Media Format], GetEnableResends method [windows Media Format], IWMReaderNetworkConfig2 interface, GetEnableResends,IWMReaderNetworkConfig2.GetEnableResends, IWMReaderNetworkConfig2, IWMReaderNetworkConfig2 interface [windows Media Format], GetEnableResends method, IWMReaderNetworkConfig2::GetEnableResends, IWMReaderNetworkConfig2GetEnableResends, wmformat.iwmreadernetworkconfig2_getenableresends, wmsdkidl/IWMReaderNetworkConfig2::GetEnableResends
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wmsdkidl.h
+req.include-header: Wmsdk.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WM_AETYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wmvcore.lib
+-	Wmvcore.dll
+-	WMStubDRM.lib
+-	WMStubDRM.dll
+api_name:
+-	IWMReaderNetworkConfig2.GetEnableResends
+product: Windows
+targetos: Windows
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IWMReaderNetworkConfig2::GetEnableResends method
+
+
+## -description
+
+
+
+The <b>GetEnableResends</b> method ascertains whether resending is enabled.
+
+
+
+
+## -parameters
+
+
+
+
+### -param pfEnableResends [out]
+
+Pointer to a Boolean value that is set to True if resending is enabled.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+NULL pointer argument.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+This feature is available only for content streamed from a server running Windows Media Services using either MMSU or RTSPU protocol.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/a0480243-53e0-4da5-a119-291b19f46951">IWMReaderNetworkConfig2 Interface</a>
+
+
+
+<a href="https://msdn.microsoft.com/c3bd0e03-eee1-4022-8540-1dcc927d6b5f">IWMReaderNetworkConfig2::SetEnableResends</a>
+ 
+
+ 
+

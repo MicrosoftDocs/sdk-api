@@ -1,0 +1,219 @@
+---
+UID: NF:winsock.getsockname
+title: getsockname function
+author: windows-driver-content
+description: The getsockname function retrieves the local name for a socket.
+old-location: winsock\getsockname_2.htm
+old-project: WinSock
+ms.assetid: be20a731-cdfc-48ae-90b2-43f2cf9ecf6d
+ms.author: windowsdriverdev
+ms.date: 3/30/2018
+ms.keywords: "_win32_getsockname_2, getsockname, getsockname function [Winsock], winsock.getsockname_2, winsock/getsockname"
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: winsock.h
+req.include-header: Winsock2.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1, Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: smiVENDORINFO, *smiLPVENDORINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Ws2_32.dll
+api_name:
+-	getsockname
+product: Windows
+targetos: Windows
+req.lib: Ws2_32.lib
+req.dll: Ws2_32.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# getsockname function
+
+
+## -description
+
+
+The 
+<b>getsockname</b> function retrieves the local name for a socket.
+
+
+## -parameters
+
+
+
+
+### -param s [in]
+
+Descriptor identifying a socket.
+
+
+### -param name [out]
+
+Pointer to a 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">SOCKADDR</a> structure that receives the address (name) of the socket.
+
+
+### -param namelen [in, out]
+
+Size of the <i>name</i> buffer, in bytes.
+
+
+## -returns
+
+
+
+If no error occurs, 
+<b>getsockname</b> returns zero. Otherwise, a value of SOCKET_ERROR is returned, and a specific error code can be retrieved by calling 
+<a href="https://msdn.microsoft.com/39e41b66-44ed-46dc-bfc2-65228b669992">WSAGetLastError</a>.
+
+<table>
+<tr>
+<th>Error code</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSANOTINITIALISED</a></b></dt>
+</dl>
+</td>
+<td width="60%">
+A successful 
+<a href="https://msdn.microsoft.com/08299592-867c-491d-9769-d16602133659">WSAStartup</a> call must occur before using this API.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENETDOWN</a></b></dt>
+</dl>
+</td>
+<td width="60%">
+The network subsystem has failed.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEFAULT</a></b></dt>
+</dl>
+</td>
+<td width="60%">
+The <i>name</i> or the <i>namelen</i> parameter is not a valid part of the user address space, or the <i>namelen</i> parameter is too small.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINPROGRESS</a></b></dt>
+</dl>
+</td>
+<td width="60%">
+A blocking Windows Sockets 1.1 call is in progress, or the service provider is still processing a callback function.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENOTSOCK</a></b></dt>
+</dl>
+</td>
+<td width="60%">
+The descriptor is not a socket.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINVAL</a></b></dt>
+</dl>
+</td>
+<td width="60%">
+The socket has not been bound to an address with 
+<a href="https://msdn.microsoft.com/3a651daa-7404-4ef7-8cff-0d3dff41a8e8">bind</a>, or ADDR_ANY is specified in 
+<b>bind</b> but connection has not yet occurred.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+The 
+<b>getsockname</b> function retrieves the current name for the specified socket descriptor in <i>name</i>. It is used on the bound or connected socket specified by the <i>s</i> parameter. The local association is returned. This call is especially useful when a 
+<a href="https://msdn.microsoft.com/13468139-dc03-45bd-850c-7ac2dbcb6e60">connect</a> call has been made without doing a 
+<a href="https://msdn.microsoft.com/3a651daa-7404-4ef7-8cff-0d3dff41a8e8">bind</a> first; the 
+<b>getsockname</b> function provides the only way to determine the local association that has been set by the system.
+
+On call, the <i>namelen</i> parameter contains the size of the <i>name</i> buffer, in bytes. On return, the <i>namelen</i> parameter contains the actual size in bytes of the <i>name</i> parameter.
+
+The 
+<b>getsockname</b> function does not always return information about the host address when the socket has been bound to an unspecified address, unless the socket has been connected with 
+<a href="https://msdn.microsoft.com/13468139-dc03-45bd-850c-7ac2dbcb6e60">connect</a> or 
+<a href="https://msdn.microsoft.com/72246263-4806-4ab2-9b26-89a1782a954b">accept</a> (for example, using ADDR_ANY). A Windows Sockets application must not assume that the address will be specified unless the socket is connected. The address that will be used for the socket is unknown unless the socket is connected when used in a multihomed host. If the socket is using a connectionless protocol, the address may not be available until I/O occurs on the socket.
+
+<b>Windows Phone 8:</b> This function is supported for Windows Phone Store apps on Windows Phone 8 and later.
+
+<b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">SOCKADDR</a>
+
+
+
+<a href="https://msdn.microsoft.com/edafb5f9-09fe-4f8e-9651-4002b6f622f4">Winsock Functions</a>
+
+
+
+<a href="https://msdn.microsoft.com/baae2bf9-f505-4365-b60e-e3247a0218c8">Winsock Reference</a>
+
+
+
+<a href="https://msdn.microsoft.com/3a651daa-7404-4ef7-8cff-0d3dff41a8e8">bind</a>
+
+
+
+<a href="https://msdn.microsoft.com/df2679a5-cdd9-468b-823a-f98044189f65">getpeername</a>
+
+
+
+<a href="https://msdn.microsoft.com/6bf6e6c4-6268-479c-86a6-52e90cf317db">socket</a>
+ 
+
+ 
+

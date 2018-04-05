@@ -1,0 +1,121 @@
+---
+UID: NF:photoacquire.IPhotoAcquireItem.GetSubItemAt
+title: IPhotoAcquireItem::GetSubItemAt method
+author: windows-driver-content
+description: The GetSubItemAt method retrieves a subitem of an item, given the index of the subitem.
+old-location: picacq\iphotoacquireitem_getsubitemat.htm
+old-project: acquisition
+ms.assetid: 2fd410a0-20b5-4e16-9d36-89a14443c8bd
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: GetSubItemAt method [Picture Acquisition], GetSubItemAt method [Picture Acquisition], IPhotoAcquireItem interface, GetSubItemAt,IPhotoAcquireItem.GetSubItemAt, IPhotoAcquireItem, IPhotoAcquireItem interface [Picture Acquisition], GetSubItemAt method, IPhotoAcquireItem::GetSubItemAt, IPhotoAcquireItemGetSubItemAt, photoacquire/IPhotoAcquireItem::GetSubItemAt, picacq.iphotoacquireitem_getsubitemat
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: photoacquire.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: USER_INPUT_STRING_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	PhotoAcquireUID.lib
+-	PhotoAcquireUID.dll
+api_name:
+-	IPhotoAcquireItem.GetSubItemAt
+product: Windows
+targetos: Windows
+req.lib: PhotoAcquireUID.lib
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# IPhotoAcquireItem::GetSubItemAt method
+
+
+## -description
+
+
+
+The <code>GetSubItemAt</code> method retrieves a subitem of an item, given the index of the subitem.
+
+
+
+
+## -parameters
+
+
+
+
+### -param nItemIndex [in]
+
+Integer containing the index of the item.
+
+
+### -param ppPhotoAcquireItem [out]
+
+Returns the <a href="https://msdn.microsoft.com/57e099eb-bf8d-4465-af4d-fcfc3eee3b5b">IPhotoAcquireItem</a> object at the given index.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+If no item is found at the given index, <i>ppPhotoAcquireItem</i> is set to <b>NULL</b>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/57e099eb-bf8d-4465-af4d-fcfc3eee3b5b">IPhotoAcquireItem Interface</a>
+ 
+
+ 
+

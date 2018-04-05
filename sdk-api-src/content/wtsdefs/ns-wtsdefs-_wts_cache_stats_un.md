@@ -1,0 +1,90 @@
+---
+UID: NS:wtsdefs._WTS_CACHE_STATS_UN
+title: "_WTS_CACHE_STATS_UN"
+author: windows-driver-content
+description: Contains cache statistics.
+old-location: termserv\wts_cache_stats_un.htm
+old-project: TermServ
+ms.assetid: e6abb47e-248b-482d-9206-936092c391ce
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: "*PWTS_CACHE_STATS_UN, PWRDS_CACHE_STATS_UN, PWRDS_CACHE_STATS_UN union pointer [Remote Desktop Services], PWTS_CACHE_STATS_UN, PWTS_CACHE_STATS_UN union pointer [Remote Desktop Services], WRDS_CACHE_STATS_UN, WRDS_CACHE_STATS_UN union [Remote Desktop Services], WTS_CACHE_STATS_UN, WTS_CACHE_STATS_UN union [Remote Desktop Services], _WTS_CACHE_STATS_UN, termserv.wts_cache_stats_un, wtsdefs/PWRDS_CACHE_STATS_UN, wtsdefs/PWTS_CACHE_STATS_UN, wtsdefs/WRDS_CACHE_STATS_UN, wtsdefs/WTS_CACHE_STATS_UN"
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: struct
+req.header: wtsdefs.h
+req.include-header: Wtsprotocol.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 R2
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WTS_CACHE_STATS_UN, *PWTS_CACHE_STATS_UN, WTS_CACHE_STATS_UN, *PWTS_CACHE_STATS_UN
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wtsdefs.h
+api_name:
+-	WTS_CACHE_STATS_UN
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# _WTS_CACHE_STATS_UN structure
+
+
+## -description
+
+
+Contains cache statistics.
+
+
+## -struct-fields
+
+
+
+
+### -field ProtocolCache
+
+A <a href="https://msdn.microsoft.com/94e699f4-278c-45fd-88e2-42f97e7ea305">WTS_PROTOCOL_CACHE</a> structure that contains information about the number of times that requested data is found in and read from the cache.
+
+
+### -field TShareCacheStats
+
+Share cache statistics.
+
+
+### -field Reserved
+
+Reserved protocol specific data. The maximum size, in bytes, of this data is WTS_MAX_CACHE_RESERVED multiplied by the length of an unsigned long integer.
+
+
+### -field switch_type
+
+ 
+
+
+
+
+## -remarks
+
+
+
+This union is a member of the <a href="https://msdn.microsoft.com/3c29596f-77c6-415b-bf97-529f70b9d9fe">WTS_CACHE_STATS</a> structure. The <b>Specific</b> member of that structure contains an integer index that specifies which  member of the <b>WTS_CACHE_STATS_UN</b> union contains the cache data.
+
+
+

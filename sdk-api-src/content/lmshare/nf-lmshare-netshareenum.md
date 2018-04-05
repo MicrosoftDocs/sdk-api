@@ -1,0 +1,342 @@
+---
+UID: NF:lmshare.NetShareEnum
+title: NetShareEnum function
+author: windows-driver-content
+description: Retrieves information about each shared resource on a server.
+old-location: fs\netshareenum.htm
+old-project: NetShare
+ms.assetid: 9114c54d-3905-4d40-9162-b3ea605f6fcb
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: 0, 1, 2, 502, 503, NetShareEnum, NetShareEnum function [Files], _win32_netshareenum, fs.netshareenum, lmshare/NetShareEnum, netmgmt.netshareenum
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: lmshare.h
+req.include-header: Lm.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: SERVER_TRANSPORT_INFO_3, *PSERVER_TRANSPORT_INFO_3, *LPSERVER_TRANSPORT_INFO_3, SERVER_TRANSPORT_INFO_3, *PSERVER_TRANSPORT_INFO_3, *LPSERVER_TRANSPORT_INFO_3
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Netapi32.dll
+api_name:
+-	NetShareEnum
+product: Windows
+targetos: Windows
+req.lib: Netapi32.lib
+req.dll: Netapi32.dll
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# NetShareEnum function
+
+
+## -description
+
+
+Retrieves information about each shared resource on a server.
+
+You can also use the 
+<a href="https://msdn.microsoft.com/2c58c6d0-d5fe-447e-be39-df34072c160e">WNetEnumResource</a> function to retrieve resource information. However, <b>WNetEnumResource</b> does not enumerate hidden shares or users connected to a share.
+
+
+## -parameters
+
+
+
+
+### -param servername [in]
+
+Pointer to a string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used.
+					
+
+
+### -param level [in]
+
+Specifies the information level of the data. This parameter can be one of the following values. 
+
+
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="0"></a><dl>
+<dt><b>0</b></dt>
+</dl>
+</td>
+<td width="60%">
+ Return share names. The <i>bufptr</i> parameter points to an array of 
+<a href="https://msdn.microsoft.com/47a74c71-1fcb-4c49-93b5-ea7cf3a0e567">SHARE_INFO_0</a> structures.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="1"></a><dl>
+<dt><b>1</b></dt>
+</dl>
+</td>
+<td width="60%">
+Return information about shared resources, including the name and type of the resource, and a comment associated with the resource. 
+
+
+The <i>bufptr</i> parameter points to an array of 
+<a href="https://msdn.microsoft.com/9bc69340-4ea5-4180-ae5c-667c0a245b66">SHARE_INFO_1</a> structures.
+							
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="2"></a><dl>
+<dt><b>2</b></dt>
+</dl>
+</td>
+<td width="60%">
+ Return information about shared resources, including name of the resource, type and permissions, password, and number of connections. The <i>bufptr</i> parameter points to an array of 
+<a href="https://msdn.microsoft.com/cd152ccd-cd60-455f-b25c-c4939c65e0ab">SHARE_INFO_2</a> structures.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="502"></a><dl>
+<dt><b>502</b></dt>
+</dl>
+</td>
+<td width="60%">
+ Return information about shared resources, including name of the resource, type and permissions, number of connections, and other pertinent information. The <i>bufptr</i> parameter points to an array of 
+<a href="https://msdn.microsoft.com/306e6704-2068-42da-bcc4-c0772c719ee8">SHARE_INFO_502</a> structures. Shares from different scopes are not returned. For more information about scoping, see the Remarks section of the documentation for the <a href="https://msdn.microsoft.com/d1edc75d-8313-422c-a6fb-8b51a309a252">NetServerTransportAddEx</a> function.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="503"></a><dl>
+<dt><b>503</b></dt>
+</dl>
+</td>
+<td width="60%">
+Return information about shared resources, including the name of the resource, type and permissions, number of connections, and other pertinent information. The <i>bufptr</i> parameter points to an array of <a href="fs.share_info_503">SHARE_INFO_503</a> structures. Shares from all scopes are returned. If the <b>shi503_servername</b> member of this structure is "*", there is no configured server name and the <b>NetShareEnum</b> function enumerates shares for all the unscoped names.
+
+<b>Windows Server 2003 and Windows XP:  </b>This information level is not supported.
+
+</td>
+</tr>
+</table>
+ 
+
+
+### -param bufptr [out]
+
+Pointer to the buffer that receives the data. The format of this data depends on the value of the <i>level</i> parameter. 
+
+
+
+
+This buffer is allocated by the system and must be freed using the 
+<a href="https://msdn.microsoft.com/0e99483c-8cd7-402a-8bf6-1e0118764dd3">NetApiBufferFree</a> function. Note that you must free the buffer even if the function fails with <b>ERROR_MORE_DATA</b>.
+
+
+### -param prefmaxlen [in]
+
+Specifies the preferred maximum length of returned data, in bytes. If you specify <b>MAX_PREFERRED_LENGTH</b>, the function allocates the amount of memory required for the data. If you specify another value in this parameter, it can restrict the number of bytes that the function returns. If the buffer size is insufficient to hold all entries, the function returns <b>ERROR_MORE_DATA</b>. For more information, see 
+<a href="https://msdn.microsoft.com/f27e6cf5-f26a-4e6c-8d77-873bff6cc8e4">Network Management Function Buffers</a> and 
+<a href="https://msdn.microsoft.com/08599966-68a1-420b-bbc7-6daac833d08f">Network Management Function Buffer Lengths</a>.
+
+
+### -param entriesread [out]
+
+Pointer to a value that receives the count of elements actually enumerated.
+
+
+### -param totalentries [out]
+
+Pointer to a value that receives the total number of entries that could have been enumerated. Note that applications should consider this value only as a hint.
+
+
+### -param resume_handle [in, out]
+
+Pointer to a value that contains a resume handle which is used to continue an existing share search. The handle should be zero on the first call and left unchanged for subsequent calls. If <i>resume_handle</i> is <b>NULL</b>, then no resume handle is stored.
+
+
+## -returns
+
+
+
+If the function succeeds, the return value is <b>NERR_Success</b>.
+
+If the function fails, the return value is a system error code. For a list of error codes, see 
+<a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">System Error Codes</a>.
+
+
+
+
+## -remarks
+
+
+
+This function applies only to Server Message Block (SMB) shares. For other types of shares, such as Distributed File System (DFS) or WebDAV shares, use <a href="https://msdn.microsoft.com/95e30f8f-a326-424d-bd80-5fc9b3078dad">Windows Networking (WNet) functions</a>, which support all types of shares.
+
+For interactive users (users who are logged on locally to the machine), no special group membership is required to execute the <b>NetShareEnum</b> function. For non-interactive users, Administrator, Power User, Print Operator, or Server Operator group membership is required to successfully execute the 
+<b>NetShareEnum</b> function at levels 2, 502, and 503. No special group membership is required for level 0 or level 1 calls.
+
+<b>Windows Server 2003 and Windows XP:  </b>For all users, Administrator, Power User, Print Operator, or Server Operator group membership is required to successfully execute the 
+<b>NetShareEnum</b> function at levels 2 and 502.
+
+To retrieve a value that indicates whether a share is the root volume in a DFS tree structure, you must call the 
+<a href="https://msdn.microsoft.com/672ea208-4048-4d2f-9606-ee3e2133765b">NetShareGetInfo</a> function and specify information level 1005.
+
+If you are programming for Active Directory, you may be able to call certain Active Directory Service Interface (ADSI) methods to achieve the same functionality you can achieve by calling the network management share functions. For more information, see 
+<a href="https://msdn.microsoft.com/37695195-fc33-499d-98c1-ccfd190cb2f9">IADsFileShare</a>.
+
+
+#### Examples
+
+The following code sample demonstrates how to retrieve information about each shared resource on a server using a call to the 
+<b>NetShareEnum</b> function. The sample calls 
+<b>NetShareEnum</b>, specifying information level 502 (<a href="https://msdn.microsoft.com/306e6704-2068-42da-bcc4-c0772c719ee8">SHARE_INFO_502</a>). If the call succeeds, the code loops through the entries and prints information about each share. The sample also calls the 
+<a href="https://msdn.microsoft.com/24a98229-11e4-45ef-988b-c2cf831275e7">IsValidSecurityDescriptor</a> function to validate the <b>shi502_security_descriptor</b> member. Finally, the code sample frees the memory allocated for the information buffer.
+
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#ifndef UNICODE
+#define UNICODE
+#endif
+#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;lm.h&gt;
+
+#pragma comment(lib, "Netapi32.lib")
+#pragma comment(lib, "Advapi32.lib")
+
+void wmain( int argc, TCHAR *lpszArgv[ ])
+{
+   PSHARE_INFO_502 BufPtr,p;
+   NET_API_STATUS res;
+   LPTSTR   lpszServer = NULL;
+   DWORD er=0,tr=0,resume=0, i;
+
+   switch(argc)
+   {
+   case 2:
+      lpszServer = lpszArgv[1];
+      break;
+   default:
+      printf("Usage: NetShareEnum &lt;servername&gt;\n");
+      return;
+   }
+   //
+   // Print a report header.
+   //
+   printf("Share:              Local Path:                   Uses:   Descriptor:\n");
+   printf("---------------------------------------------------------------------\n");
+   //
+   // Call the NetShareEnum function; specify level 502.
+   //
+   do // begin do
+   {
+      res = NetShareEnum (lpszServer, 502, (LPBYTE *) &amp;BufPtr, MAX_PREFERRED_LENGTH, &amp;er, &amp;tr, &amp;resume);
+      //
+      // If the call succeeds,
+      //
+      if(res == ERROR_SUCCESS || res == ERROR_MORE_DATA)
+      {
+         p=BufPtr;
+         //
+         // Loop through the entries;
+         //  print retrieved data.
+         //
+         for(i=1;i&lt;=er;i++)
+         {
+            printf("%-20S%-30S%-8u",p-&gt;shi502_netname, p-&gt;shi502_path, p-&gt;shi502_current_uses);
+            //
+            // Validate the value of the 
+            //  shi502_security_descriptor member.
+            //
+            if (IsValidSecurityDescriptor(p-&gt;shi502_security_descriptor))
+               printf("Yes\n");
+            else
+               printf("No\n");
+            p++;
+         }
+         //
+         // Free the allocated buffer.
+         //
+         NetApiBufferFree(BufPtr);
+      }
+      else 
+         printf("Error: %ld\n",res);
+   }
+   // Continue to call NetShareEnum while 
+   //  there are more entries. 
+   // 
+   while (res==ERROR_MORE_DATA); // end do
+   return;
+}
+</pre>
+</td>
+</tr>
+</table></span></div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/dd159e2e-f37e-46b2-b980-008b73d40b39">Network
+		  Management Functions</a>
+
+
+
+<a href="https://msdn.microsoft.com/426c7b2e-027c-4a88-97b7-eba5201d0f0d">Network Management
+		  Overview</a>
+
+
+
+<a href="https://msdn.microsoft.com/14886bb0-e597-4728-a64f-bc16e82874da">Network Share Functions</a>
+
+
+
+<a href="https://msdn.microsoft.com/47a74c71-1fcb-4c49-93b5-ea7cf3a0e567">SHARE_INFO_0</a>
+
+
+
+<a href="https://msdn.microsoft.com/9bc69340-4ea5-4180-ae5c-667c0a245b66">SHARE_INFO_1</a>
+
+
+
+<a href="https://msdn.microsoft.com/cd152ccd-cd60-455f-b25c-c4939c65e0ab">SHARE_INFO_2</a>
+
+
+
+<a href="https://msdn.microsoft.com/306e6704-2068-42da-bcc4-c0772c719ee8">SHARE_INFO_502</a>
+
+
+
+<a href="fs.share_info_503">SHARE_INFO_503</a>
+ 
+
+ 
+

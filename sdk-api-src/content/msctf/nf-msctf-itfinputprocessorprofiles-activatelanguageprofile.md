@@ -1,0 +1,145 @@
+---
+UID: NF:msctf.ITfInputProcessorProfiles.ActivateLanguageProfile
+title: ITfInputProcessorProfiles::ActivateLanguageProfile method
+author: windows-driver-content
+description: ITfInputProcessorProfiles::ActivateLanguageProfile method
+old-location: tsf\itfinputprocessorprofiles_activatelanguageprofile.htm
+old-project: TSF
+ms.assetid: d25e5a11-8394-4fc5-b210-afa753223307
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: ActivateLanguageProfile method [Text Services Framework], ActivateLanguageProfile method [Text Services Framework], ITfInputProcessorProfiles interface, ActivateLanguageProfile,ITfInputProcessorProfiles.ActivateLanguageProfile, ITfInputProcessorProfiles, ITfInputProcessorProfiles interface [Text Services Framework], ActivateLanguageProfile method, ITfInputProcessorProfiles::ActivateLanguageProfile, _tsf_itfinputprocessorprofiles_activatelanguageprofile_ref, msctf/ITfInputProcessorProfiles::ActivateLanguageProfile, tsf.itfinputprocessorprofiles_activatelanguageprofile
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: msctf.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Msctf.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: TF_DA_ATTR_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Msctf.dll
+api_name:
+-	ITfInputProcessorProfiles.ActivateLanguageProfile
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# ITfInputProcessorProfiles::ActivateLanguageProfile method
+
+
+## -description
+
+
+
+
+## -parameters
+
+
+
+
+### -param rclsid [in]
+
+Contains the CLSID of the text service to make active.
+
+
+### -param langid [in]
+
+Contains a <b>LANGID</b> value that specifies which language to set the default profile for. This method fails if this is not the currently active language.
+
+
+### -param guidProfiles [in]
+
+Contains a GUID value that identifies the language profile to make active.
+
+
+## -returns
+
+
+
+This method can return one of these values.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method was successful.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_FAIL</b></dt>
+</dl>
+</td>
+<td width="60%">
+An unspecified error occurred.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+One or more parameters are invalid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_OUTOFMEMORY</b></dt>
+</dl>
+</td>
+<td width="60%">
+A memory allocation failure occurred.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_UNEXPECTED</b></dt>
+</dl>
+</td>
+<td width="60%">
+No thread manager has been created for the calling thread.
+
+</td>
+</tr>
+</table>
+ 
+
+
+

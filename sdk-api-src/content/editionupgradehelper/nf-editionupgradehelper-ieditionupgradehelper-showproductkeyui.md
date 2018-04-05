@@ -1,0 +1,81 @@
+---
+UID: NF:editionupgradehelper.IEditionUpgradeHelper.ShowProductKeyUI
+title: IEditionUpgradeHelper::ShowProductKeyUI method
+author: windows-driver-content
+description: Displays the user interface through which the user can provide a product key to upgrade or get a genuine copy of the operating system.
+old-location: winprog\ieditionupgradehelper_showproductkeyui.htm
+old-project: DevNotes
+ms.assetid: 504B3699-8837-4C14-959A-B3B4385E8932
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: IEditionUpgradeHelper, IEditionUpgradeHelper interface [Windows API], ShowProductKeyUI method, IEditionUpgradeHelper::ShowProductKeyUI, ShowProductKeyUI method [Windows API], ShowProductKeyUI method [Windows API], IEditionUpgradeHelper interface, ShowProductKeyUI,IEditionUpgradeHelper.ShowProductKeyUI, editionupgradehelper/IEditionUpgradeHelper::ShowProductKeyUI, winprog.ieditionupgradehelper_showproductkeyui
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: editionupgradehelper.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Editionupgradehelper.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: EAP_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	editionupgradehelper.h
+api_name:
+-	IEditionUpgradeHelper.ShowProductKeyUI
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
+---
+
+# IEditionUpgradeHelper::ShowProductKeyUI method
+
+
+## -description
+
+
+Displays the user interface through which the user  can provide a product key to upgrade or get a genuine copy of the operating system.
+
+
+## -parameters
+
+
+
+
+
+
+## -returns
+
+
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/2A243B2F-F7A1-448F-B16D-143514725658">IEditionUpgradeHelper</a>
+ 
+
+ 
+

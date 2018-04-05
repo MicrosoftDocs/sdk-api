@@ -1,0 +1,94 @@
+---
+UID: NE:wcmapi._WCM_PROPERTY
+title: "_WCM_PROPERTY"
+author: windows-driver-content
+description: Specifies a property of a connection.
+old-location: wcm\wcm_property.htm
+old-project: wcm
+ms.assetid: 4cb5f7aa-2f06-4a8a-814d-f8e01b496fb9
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: "*PWCM_PROPERTY, PWCM_PROPERTY, PWCM_PROPERTY enumeration pointer [Windows Connection Manager], WCM_PROPERTY, WCM_PROPERTY enumeration [Windows Connection Manager], _WCM_PROPERTY, wcm.wcm_property, wcm_global_property_domain_policy, wcm_global_property_minimize_policy, wcm_global_property_powermanagement_policy, wcm_global_property_roaming_policy, wcm_intf_property_connection_cost, wcm_intf_property_dataplan_status, wcm_intf_property_hotspot_profile, wcmapi/PWCM_PROPERTY, wcmapi/WCM_PROPERTY, wcmapi/wcm_global_property_domain_policy, wcmapi/wcm_global_property_minimize_policy, wcmapi/wcm_global_property_powermanagement_policy, wcmapi/wcm_global_property_roaming_policy, wcmapi/wcm_intf_property_connection_cost, wcmapi/wcm_intf_property_dataplan_status, wcmapi/wcm_intf_property_hotspot_profile"
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: enum
+req.header: wcmapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WCM_PROPERTY, *PWCM_PROPERTY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wcmapi.h
+api_name:
+-	WCM_PROPERTY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# _WCM_PROPERTY enumeration
+
+
+## -description
+
+
+The <b>WCM_PROPERTY</b> enumerated type specifies a property of a connection.
+
+
+## -enum-fields
+
+
+
+
+### -field wcm_global_property_domain_policy
+
+Domain policy.
+
+
+### -field wcm_global_property_minimize_policy
+
+Minimize policy.
+
+
+### -field wcm_global_property_roaming_policy
+
+Roaming policy.
+
+
+### -field wcm_global_property_powermanagement_policy
+
+Power management policy.
+
+
+### -field wcm_intf_property_connection_cost
+
+The cost level and flags for the connection
+
+
+### -field wcm_intf_property_dataplan_status
+
+The plan data associated with the new cost.
+
+
+### -field wcm_intf_property_hotspot_profile
+
+The hotspot profile.
+

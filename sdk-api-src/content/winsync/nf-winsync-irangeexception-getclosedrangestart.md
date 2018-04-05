@@ -1,0 +1,127 @@
+---
+UID: NF:winsync.IRangeException.GetClosedRangeStart
+title: IRangeException::GetClosedRangeStart method
+author: windows-driver-content
+description: Gets the lower bound of the range of item IDs to exclude.
+old-location: winsync\irangeexception_getclosedrangestart.htm
+old-project: winsync
+ms.assetid: 5c3c4e92-8c0d-4a3d-97be-029d2c386af4
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: GetClosedRangeStart method [Windows Sync], GetClosedRangeStart method [Windows Sync], IRangeException interface, GetClosedRangeStart,IRangeException.GetClosedRangeStart, IRangeException, IRangeException interface [Windows Sync], GetClosedRangeStart method, IRangeException::GetClosedRangeStart, winsync.irangeexception_getclosedrangestart, winsync/IRangeException::GetClosedRangeStart
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: winsync.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	winsync.h
+api_name:
+-	IRangeException.GetClosedRangeStart
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IRangeException::GetClosedRangeStart method
+
+
+## -description
+
+
+Gets the lower bound of the range of item IDs to exclude.
+
+
+## -parameters
+
+
+
+
+### -param pbClosedRangeStart [in, out]
+
+Returns the lower bound of the range of item IDs to exclude.
+
+
+### -param pcbIdSize [in, out]
+
+Specifies the number of bytes in <i>pbClosedRangeStart</i>. Returns the number of bytes to retrieve the ID when <i>pbClosedRangeStart</i> is too small, or returns the number of bytes written.
+
+
+## -returns
+
+
+
+The possible return codes include, but are not limited to, the values shown in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%"></td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>HRESULT_FROM_WIN32(ERROR_MORE_DATA)</b></dt>
+</dl>
+</td>
+<td width="60%">
+When<i>pbClosedRangeStart</i> is too small. In this case, the required number of bytes is returned in <i>pcbIdSize</i>.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/7eea9fe0-80e7-43a9-a797-df12d4d809dc">IRangeException Interface</a>
+ 
+
+ 
+

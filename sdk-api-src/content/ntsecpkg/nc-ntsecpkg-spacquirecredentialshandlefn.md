@@ -1,0 +1,216 @@
+---
+UID: NC:ntsecpkg.SpAcquireCredentialsHandleFn
+title: SpAcquireCredentialsHandleFn
+author: windows-driver-content
+description: Called to obtain a handle to a principal's credentials.
+old-location: security\spacquirecredentialshandle.htm
+old-project: SecAuthN
+ms.assetid: d01245d9-fbca-4346-acf5-86ae7f0eb01e
+ms.author: windowsdriverdev
+ms.date: 3/29/2018
+ms.keywords: SECPKG_CRED_INBOUND, SECPKG_CRED_OUTBOUND, SpAcquireCredentialsHandle, SpAcquireCredentialsHandle function [Security], SpAcquireCredentialsHandleFn, _ssp_spacquirecredentialshandle, ntsecpkg/SpAcquireCredentialsHandle, security.spacquirecredentialshandle
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: callback
+req.header: ntsecpkg.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: TRUSTED_POSIX_OFFSET_INFO, *PTRUSTED_POSIX_OFFSET_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Ntsecpkg.h
+api_name:
+-	SpAcquireCredentialsHandle
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# SpAcquireCredentialsHandleFn callback
+
+
+## -description
+
+
+Called to obtain a handle to a principal's <a href="https://msdn.microsoft.com/library/windows/hardware/dn922689">credentials</a>. The <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security package</a> can deny access to the caller if the caller does not have permission to access the credentials.
+
+If the credentials handle is returned to the caller, the package should also specify an expiration time for the handle.
+
+
+## -parameters
+
+
+
+
+### -param PrincipalName [in]
+
+Optional. Pointer to a 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure containing the name of the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security principal</a> whose credentials are being requested. If this value is <b>NULL</b>, the caller requests a handle to the credentials of the user in whose <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security context</a> the caller is executing.
+
+
+### -param CredentialUseFlags [in]
+
+Flags indicating how the credentials will be used. The following values are valid.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="SECPKG_CRED_INBOUND"></a><a id="secpkg_cred_inbound"></a><dl>
+<dt><b>SECPKG_CRED_INBOUND</b></dt>
+</dl>
+</td>
+<td width="60%">
+Credentials will be used with the 
+<a href="https://msdn.microsoft.com/eaa15fed-4438-4e43-9be3-aa100ca453c7">AcceptSecurityContext (General)</a> function.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SECPKG_CRED_OUTBOUND"></a><a id="secpkg_cred_outbound"></a><dl>
+<dt><b>SECPKG_CRED_OUTBOUND</b></dt>
+</dl>
+</td>
+<td width="60%">
+Credentials will be used with the 
+<a href="https://msdn.microsoft.com/21d965d4-3c03-4e29-a70d-4538c5c366b0">InitializeSecurityContext (General)</a> function.
+
+</td>
+</tr>
+</table>
+ 
+
+
+### -param LogonId [in]
+
+Optional. Pointer to an 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557080">LUID</a> containing the <a href="https://msdn.microsoft.com/65dd9a04-fc7c-4179-95ff-dac7dad4668f">logon identifier</a> of the security principal.
+
+
+### -param AuthorizationData [in]
+
+Optional. Pointer to supplemental authentication data.
+
+
+### -param GetKeyFunciton
+
+
+### -param GetKeyArgument [in]
+
+Pointer to the argument used with the <i>GetKeyFunction</i> function.
+
+
+### -param CredentialHandle [out]
+
+Pointer to an <b>LSA_SEC_HANDLE</b> that receives the credentials. When you have finished using the credentials, free the handle by calling the <a href="https://msdn.microsoft.com/c8364202-d366-47a2-bc4a-c899588a78db">SpFreeCredentialsHandle</a> function.
+
+
+### -param ExpirationTime [out]
+
+Pointer to a 
+<a href="https://msdn.microsoft.com/0a609b32-dbd7-4905-8990-65ebabcd0668">TimeStamp</a> that receives the time the credentials handle expires.
+
+
+#### - GetKeyFunction [in]
+
+Pointer to a function in the caller's address space that generates <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">session keys</a>.
+
+
+## -returns
+
+
+
+
+						If the function succeeds, return STATUS_SUCCESS.
+
+If the function fails, return an <b>NTSTATUS</b> code that indicates the reason it failed. The following table lists common reasons for failure and the error codes that should be returned.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>SEC_E_NOT_OWNER</b></dt>
+</dl>
+</td>
+<td width="60%">
+The caller is denied access.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>SEC_E_NO_CREDENTIALS</b></dt>
+</dl>
+</td>
+<td width="60%">
+There are no credentials available for the specified principal.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+The package can use the <a href="https://msdn.microsoft.com/65dd9a04-fc7c-4179-95ff-dac7dad4668f">Local Security Authority</a> (LSA) support functions to determine whether the caller should be given access to the requested credentials.
+
+Credentials obtained from <b>SpAcquireCredentialsHandle</b> are freed by calling the 
+<a href="https://msdn.microsoft.com/c8364202-d366-47a2-bc4a-c899588a78db">SpFreeCredentialsHandle</a> function.
+
+SSP/APs must implement the <b>SpAcquireCredentialsHandle</b> function; however, the actual name given to the implementation is up to the developer.
+
+A pointer to the <b>SpAcquireCredentialsHandle</b> function is available in the 
+<a href="https://msdn.microsoft.com/43ca0f9b-1393-48aa-9d9c-4dd19963a66d">SECPKG_FUNCTION_TABLE</a> structure received from the 
+<a href="https://msdn.microsoft.com/1ef3770b-197f-4d5b-9933-b7f6f63e5627">SpLsaModeInitialize</a> function.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/43ca0f9b-1393-48aa-9d9c-4dd19963a66d">SECPKG_FUNCTION_TABLE</a>
+
+
+
+<a href="https://msdn.microsoft.com/c8364202-d366-47a2-bc4a-c899588a78db">SpFreeCredentialsHandle</a>
+
+
+
+<a href="https://msdn.microsoft.com/1ef3770b-197f-4d5b-9933-b7f6f63e5627">SpLsaModeInitialize</a>
+ 
+
+ 
+

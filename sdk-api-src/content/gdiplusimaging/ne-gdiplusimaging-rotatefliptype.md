@@ -1,0 +1,139 @@
+---
+UID: NE:gdiplusimaging.RotateFlipType
+title: RotateFlipType
+author: windows-driver-content
+description: The RotateFlipType enumeration specifies the direction of an image's rotation and the axis used to flip the image.
+old-location: gdiplus\_gdiplus_ENUM_RotateFlipType.htm
+old-project: gdiplus
+ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\rotatefliptype.htm
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: Rotate180FlipNone, Rotate180FlipX, Rotate180FlipXY, Rotate180FlipY, Rotate270FlipNone, Rotate270FlipX, Rotate270FlipXY, Rotate270FlipY, Rotate90FlipNone, Rotate90FlipX, Rotate90FlipXY, Rotate90FlipY, RotateFlipType, RotateFlipType enumeration [GDI+], RotateNoneFlipNone, RotateNoneFlipX, RotateNoneFlipXY, RotateNoneFlipY, _gdiplus_ENUM_RotateFlipType, gdiplus._gdiplus_ENUM_RotateFlipType, gdiplusimaging/Rotate180FlipNone, gdiplusimaging/Rotate180FlipX, gdiplusimaging/Rotate180FlipXY, gdiplusimaging/Rotate180FlipY, gdiplusimaging/Rotate270FlipNone, gdiplusimaging/Rotate270FlipX, gdiplusimaging/Rotate270FlipXY, gdiplusimaging/Rotate270FlipY, gdiplusimaging/Rotate90FlipNone, gdiplusimaging/Rotate90FlipX, gdiplusimaging/Rotate90FlipXY, gdiplusimaging/Rotate90FlipY, gdiplusimaging/RotateFlipType, gdiplusimaging/RotateNoneFlipNone, gdiplusimaging/RotateNoneFlipX, gdiplusimaging/RotateNoneFlipXY, gdiplusimaging/RotateNoneFlipY
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: enum
+req.header: gdiplusimaging.h
+req.include-header: Gdiplus.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Gdiplusimaging.h
+api_name:
+-	RotateFlipType
+product: Windows
+targetos: Windows
+req.lib: Gdiplus.lib
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.0
+---
+
+# RotateFlipType enumeration
+
+
+## -description
+
+
+The <b>RotateFlipType</b> enumeration specifies the direction of an image's rotation and the axis used to flip the image.
+
+
+## -enum-fields
+
+
+
+
+### -field RotateNoneFlipNone
+
+Specifies no rotation and no flipping. 
+
+
+### -field Rotate90FlipNone
+
+Specifies a 90-degree rotation without flipping. 
+
+
+### -field Rotate180FlipNone
+
+Specifies a 180-degree rotation without flipping. 
+
+
+### -field Rotate270FlipNone
+
+Specifies a 270-degree rotation without flipping. 
+
+
+### -field RotateNoneFlipX
+
+Specifies no rotation and a horizontal flip. 
+
+
+### -field Rotate90FlipX
+
+Specifies a 90-degree rotation followed by a horizontal flip. 
+
+
+### -field Rotate180FlipX
+
+Specifies a 180-degree rotation followed by a horizontal flip. 
+
+
+### -field Rotate270FlipX
+
+Specifies a 270-degree rotation followed by a horizontal flip. 
+
+
+### -field RotateNoneFlipY
+
+Specifies no rotation and a vertical flip. 
+
+
+### -field Rotate90FlipY
+
+Specifies a 90-degree rotation followed by a vertical flip. 
+
+
+### -field Rotate180FlipY
+
+Specifies a 180-degree rotation followed by a vertical flip. 
+
+
+### -field Rotate270FlipY
+
+Specifies a 270-degree rotation followed by a vertical flip. 
+
+
+### -field RotateNoneFlipXY
+
+Specifies no rotation, a horizontal flip, and then a vertical flip. 
+
+
+### -field Rotate90FlipXY
+
+Specifies a 90-degree rotation followed by a horizontal flip and then a vertical flip. 
+
+
+### -field Rotate180FlipXY
+
+Specifies a 180-degree rotation followed by a horizontal flip and then a vertical flip. 
+
+
+### -field Rotate270FlipXY
+
+Specifies a 270-degree rotation followed by a horizontal flip and then a vertical flip. 
+

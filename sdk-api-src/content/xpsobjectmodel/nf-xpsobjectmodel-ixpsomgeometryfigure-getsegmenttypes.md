@@ -1,0 +1,171 @@
+---
+UID: NF:xpsobjectmodel.IXpsOMGeometryFigure.GetSegmentTypes
+title: IXpsOMGeometryFigure::GetSegmentTypes method
+author: windows-driver-content
+description: Gets the types of segments in the figure.
+old-location: xps\ixpsomgeometryfigure_getsegmenttypes.htm
+old-project: printdocs
+ms.assetid: a440c227-33c9-42f9-8f4a-4cbe6281f9ad
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: GetSegmentTypes method [XPS Documents and Packaging], GetSegmentTypes method [XPS Documents and Packaging], IXpsOMGeometryFigure interface, GetSegmentTypes,IXpsOMGeometryFigure.GetSegmentTypes, IXpsOMGeometryFigure, IXpsOMGeometryFigure interface [XPS Documents and Packaging], GetSegmentTypes method, IXpsOMGeometryFigure::GetSegmentTypes, xps.ixpsomgeometryfigure_getsegmenttypes, xpsobjectmodel/IXpsOMGeometryFigure::GetSegmentTypes
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: xpsobjectmodel.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: XpsObjectModel.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: XPS_INTERLEAVING
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	xpsobjectmodel.h
+api_name:
+-	IXpsOMGeometryFigure.GetSegmentTypes
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+---
+
+# IXpsOMGeometryFigure::GetSegmentTypes method
+
+
+## -description
+
+
+Gets the types of segments in the figure.
+
+
+## -parameters
+
+
+
+
+### -param segmentCount [in, out]
+
+The size of the array that is referenced by <i>segmentTypes</i> (see below). This parameter must not be <b>NULL</b>.
+
+If the method returns successfully, <i>segmentCount</i> will contain the number of elements that are returned in the array referenced by <i>segmentTypes</i>.
+
+If <i>segmentTypes</i> is <b>NULL</b> when the method is called, <i>segmentCount</i> must be set to zero.
+
+ If a <b>NULL</b> pointer is returned in <i>segmentTypes</i>, the value of  <i>segmentCount</i> will contain the required buffer size, specified as the number of elements.
+
+
+### -param segmentTypes [in, out]
+
+An array of <a href="https://msdn.microsoft.com/dc36e80f-0c49-4317-a545-d50c9cbefd03">XPS_SEGMENT_TYPE</a> values that has the same number of elements as specified in <i>segmentCount</i>. If the caller requires that only the specified buffer size be returned, set this value to <b>NULL</b>.
+
+If the array is large enough, this method will copy the <a href="https://msdn.microsoft.com/dc36e80f-0c49-4317-a545-d50c9cbefd03">XPS_SEGMENT_TYPE</a> values into the array and return, in <i>segmentCount</i>, the number of the copied values. If <i>segmentTypes</i> is <b>NULL</b> or references a buffer that is  not large enough, a <b>NULL</b> pointer will be returned, no data will be copied, and  <i>segmentCount</i> will contain the required buffer size, which is specified as the number of elements.
+
+
+## -returns
+
+
+
+If the method succeeds, it returns S_OK; otherwise, it returns an <b>HRESULT</b> error code.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_POINTER</b></dt>
+</dl>
+</td>
+<td width="60%">
+<i>segmentCount</i> is <b>NULL</b>.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_MORE_DATA</b></dt>
+</dl>
+</td>
+<td width="60%">
+<i>segmentTypes</i> is <b>NULL</b> or references a buffer that is not large enough to receive the <a href="https://msdn.microsoft.com/dc36e80f-0c49-4317-a545-d50c9cbefd03">XPS_SEGMENT_TYPE</a> data. <i>segmentCount</i> contains the required number of elements.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+For an example of how to use this method in a program, see the code example in <a href="https://msdn.microsoft.com/e2e6be6f-3a9d-4d39-875f-cd23bc82e74b">GetSegmentData</a>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/17b302c0-31e3-460b-9771-3f293c94447a">GetSegmentCount</a>
+
+
+
+<a href="https://msdn.microsoft.com/e2e6be6f-3a9d-4d39-875f-cd23bc82e74b">GetSegmentData</a>
+
+
+
+<a href="https://msdn.microsoft.com/42b68a76-e7fe-49d2-9190-4a4d5e763052">GetSegmentDataCount</a>
+
+
+
+<a href="https://msdn.microsoft.com/e76a14ce-cfc3-4a50-855e-f5779b9fc261">IXpsOMGeometryFigure</a>
+
+
+
+<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+
+
+
+<a href="https://msdn.microsoft.com/9e6db1e3-7151-4538-8607-b7185ebc0110">XPS Document Errors</a>
+
+
+
+<a href="https://msdn.microsoft.com/dc36e80f-0c49-4317-a545-d50c9cbefd03">XPS_SEGMENT_TYPE</a>
+ 
+
+ 
+

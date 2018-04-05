@@ -1,0 +1,84 @@
+---
+UID: NF:dvbsiparser.IDvbExtendedEventDescriptor.GetLastDescriptorNumber
+title: IDvbExtendedEventDescriptor::GetLastDescriptorNumber method
+author: windows-driver-content
+description: Gets the number of the last descriptor associated with this descriptor from a Digital Video Broadcast (DVB) extended event descriptor.
+old-location: mstv\idvbextendedeventdescriptor_getlastdescriptornumber.htm
+old-project: mstv
+ms.assetid: fccfec3b-0177-4a3d-8c82-0cba3633a613
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: GetLastDescriptorNumber method [Microsoft TV Technologies], GetLastDescriptorNumber method [Microsoft TV Technologies], IDvbExtendedEventDescriptor interface, GetLastDescriptorNumber,IDvbExtendedEventDescriptor.GetLastDescriptorNumber, IDvbExtendedEventDescriptor, IDvbExtendedEventDescriptor interface [Microsoft TV Technologies], GetLastDescriptorNumber method, IDvbExtendedEventDescriptor::GetLastDescriptorNumber, dvbsiparser/IDvbExtendedEventDescriptor::GetLastDescriptorNumber, mstv.idvbextendedeventdescriptor_getlastdescriptornumber
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: dvbsiparser.h
+req.include-header: Dvbsiparser.idl
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: None supported
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	dvbsiparser.h
+api_name:
+-	IDvbExtendedEventDescriptor.GetLastDescriptorNumber
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
+---
+
+# IDvbExtendedEventDescriptor::GetLastDescriptorNumber method
+
+
+## -description
+
+
+Gets the number of the last descriptor associated with this descriptor from a Digital Video Broadcast (DVB) extended event descriptor.
+
+
+## -parameters
+
+
+
+
+### -param pbVal [out]
+
+Receives the last descriptor number.
+
+
+## -returns
+
+
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/db100f17-f7b8-4252-8090-44567ab9dcbe">IDvbExtendedEventDescriptor</a>
+ 
+
+ 
+

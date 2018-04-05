@@ -1,0 +1,89 @@
+---
+UID: NS:eaptypes._EapCertificateCredential
+title: "_EapCertificateCredential"
+author: windows-driver-content
+description: Contains information about the certificate that the EAP method uses for authentication.
+old-location: eaphost\eapcertificatecredential.htm
+old-project: EAPHost
+ms.assetid: 575967F4-E5CC-433D-919D-258B5849A5B1
+ms.author: windowsdriverdev
+ms.date: 3/23/2018
+ms.keywords: EapCertificateCredential, EapCertificateCredential structure [EAPHost], _EapCertificateCredential, eaphost.eapcertificatecredential, eaptypes/EapCertificateCredential
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: struct
+req.header: eaptypes.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: EapCertificateCredential
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	eaptypes.h
+api_name:
+-	EapCertificateCredential
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
+---
+
+# _EapCertificateCredential structure
+
+
+## -description
+
+
+The <b>EapCertificateCredential</b> structure contains information about the certificate that the EAP method uses for authentication.
+
+
+## -struct-fields
+
+
+
+
+### -field certHash
+
+ 
+
+
+### -field password
+
+If the certificate is present on the system and strong private key protection is turned on for this certificate, this field contains the password to access the certificate.
+
+
+#### - certHash(CERTIFICATE_HASH_LENGTH)
+
+SHA1 hash of the certificate.
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/DC1B9524-2853-404D-A77A-61CB012FCF11">EapCredential</a>
+
+
+
+<a href="https://msdn.microsoft.com/E77AA5E1-970A-43A6-916D-623A9C554F53">EapCredentialType</a>
+ 
+
+ 
+

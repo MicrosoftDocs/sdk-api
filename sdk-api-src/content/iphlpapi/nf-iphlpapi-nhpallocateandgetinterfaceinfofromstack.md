@@ -1,0 +1,137 @@
+---
+UID: NF:iphlpapi.NhpAllocateAndGetInterfaceInfoFromStack
+title: NhpAllocateAndGetInterfaceInfoFromStack function
+author: windows-driver-content
+description: The NhpAllocateAndGetInterfaceInfoFromStack function obtains adapter information about the local computer.
+old-location: iphlp\nhpallocateandgetinterfaceinfofromstack.htm
+old-project: IpHlp
+ms.assetid: a5ba8b28-4c15-4646-91d0-b6ef9e0f1e89
+ms.author: windowsdriverdev
+ms.date: 3/19/2018
+ms.keywords: NhpAllocateAndGetInterfaceInfoFromStack, NhpAllocateAndGetInterfaceInfoFromStack function [IP Helper], iphlp.nhpallocateandgetinterfaceinfofromstack, iphlpapi/NhpAllocateAndGetInterfaceInfoFromStack
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: iphlpapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP1 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: NET_ADDRESS_FORMAT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Iphlpapi.dll
+api_name:
+-	NhpAllocateAndGetInterfaceInfoFromStack
+product: Windows
+targetos: Windows
+req.lib: Iphlpapi.lib
+req.dll: Iphlpapi.dll
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# NhpAllocateAndGetInterfaceInfoFromStack function
+
+
+## -description
+
+
+<p class="CCE_Message">[This function is no longer available for use as of Windows Vista. Instead, use the <a href="https://msdn.microsoft.com/7b34138f-7263-4b73-95df-9e854fd81135">GetAdaptersAddresses</a>  function and the associated <a href="https://msdn.microsoft.com/a2df3749-6c75-40c0-8952-1656bbe639a6">IP_ADAPTER_ADDRESSES</a> structure.]
+
+The <b>NhpAllocateAndGetInterfaceInfoFromStack</b> function obtains adapter information about the local computer.
+
+
+## -parameters
+
+
+
+
+### -param ppTable
+
+An array of <a href="https://msdn.microsoft.com/c113e97d-6f41-490a-a872-20d662fd763b">IP_INTERFACE_NAME_INFO</a> structures that contains information about each adapter on the local system. The array contains one element for each adapter on the system.
+
+
+### -param pdwCount
+
+The number of elements in the <i>ppTable</i> array.
+
+
+### -param bOrder
+
+When <b>TRUE</b>, elements in the <i>ppTable</i> array are sorted by increasing index value.
+
+
+### -param hHeap
+
+A handle that specifies the heap from which <i>ppTable</i> should be allocated. This parameter can be the process heap returned by a call to the <a href="https://msdn.microsoft.com/ecd716b2-df48-4914-9de4-47d8ad8ff9a2">GetProcessHeap</a> function, or a private heap created by a call to the <a href="https://msdn.microsoft.com/8c0a77a2-37e6-41f7-bdc6-1f3768d61c9b">HeapCreate</a> function.
+
+
+### -param dwFlags
+
+A set of flags to be passed to the <a href="https://msdn.microsoft.com/9a176312-0312-4cc1-baf5-949b346d983e">HeapAlloc</a> function when allocating memory for <i>ppTable</i>. See the <b>HeapAlloc</b> function for more information.
+
+
+## -returns
+
+
+
+Returns ERROR_SUCCESS upon successful completion.
+
+
+
+
+## -remarks
+
+
+
+In the Microsoft Windows Software Development Kit (SDK), the <b>NhpAllocateAndGetInterfaceInfoFromStack</b> function is  defined on Windows 2000 with Service Pack 1 (SP1) and later. When compiling an application, if the target platform is Windows 2000 with SP1 and later (<code>NTDDI_VERSION &gt;= NTDDI_WIN2KSP1</code>, <code>_WIN32_WINNT &gt;= 0x0500</code>, or <code>WINVER &gt;= 0x0500</code>), the <b>NhpAllocateAndGetInterfaceInfoFromStack</b> is defined.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/7b34138f-7263-4b73-95df-9e854fd81135">GetAdaptersAddresses</a>
+
+
+
+<a href="https://msdn.microsoft.com/ecd716b2-df48-4914-9de4-47d8ad8ff9a2">GetProcessHeap</a>
+
+
+
+<a href="https://msdn.microsoft.com/8c0a77a2-37e6-41f7-bdc6-1f3768d61c9b">HeapCreate</a>
+
+
+
+<a href="https://msdn.microsoft.com/2de88e92-5fa5-4d8d-9448-67a33bf02f05">IP
+				Helper Function Reference</a>
+
+
+
+<a href="https://msdn.microsoft.com/4896a9f8-0486-4380-bf49-d1c9ef114acc">IP
+				Helper Start Page</a>
+
+
+
+<a href="https://msdn.microsoft.com/c113e97d-6f41-490a-a872-20d662fd763b">IP_INTERFACE_NAME_INFO</a>
+ 
+
+ 
+

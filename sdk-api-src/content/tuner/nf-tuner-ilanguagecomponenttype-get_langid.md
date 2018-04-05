@@ -1,0 +1,108 @@
+---
+UID: NF:tuner.ILanguageComponentType.get_LangID
+title: ILanguageComponentType::get_LangID method
+author: windows-driver-content
+description: The get_LangID method retrieves the LCID that identifies the language.
+old-location: mstv\ilanguagecomponenttype_get_langid.htm
+old-project: mstv
+ms.assetid: f70dcc70-701a-4465-ad40-1ddc5e697f46
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: ILanguageComponentType, ILanguageComponentType interface [Microsoft TV Technologies], get_LangID method, ILanguageComponentType::get_LangID, ILanguageComponentTypeget_LangID, get_LangID method [Microsoft TV Technologies], get_LangID method [Microsoft TV Technologies], ILanguageComponentType interface, get_LangID,ILanguageComponentType.get_LangID, mstv.ilanguagecomponenttype_get_langid, tuner/ILanguageComponentType::get_LangID
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: tuner.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: None supported
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Tuner.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	tuner.h
+api_name:
+-	ILanguageComponentType.get_LangID
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# ILanguageComponentType::get_LangID method
+
+
+## -description
+
+
+
+The <b>get_LangID</b> method retrieves the LCID that identifies the language.
+
+
+
+
+## -parameters
+
+
+
+
+### -param LangID
+
+
+
+
+
+
+#### - pLangID [out]
+
+Pointer to a variable that receives the LCID.
+
+
+## -returns
+
+
+
+Returns S_OK if successful. If the method fails, error information can be retrieved using the standard COM <b>IErrorInfo</b> interface.
+
+
+
+
+## -remarks
+
+
+
+
+          The <i>pLangID</i> parameter is a pointer to a Win32 LCID. Use this method to determine the language of an audio stream. Use the <a href="https://msdn.microsoft.com/1c041173-0c78-486e-93b5-a46c9dc0afb1">IComponent::get_DescLangID</a> to determine the language of the text description of the stream.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/775b5e8d-d9ed-4371-a651-bfeed6fa0ad5">ILanguageComponentType Interface</a>
+
+
+
+<a href="https://msdn.microsoft.com/c0dc0141-a839-4fdc-9313-24ddd3eaf63d">ILanguageComponentType::put_LangID</a>
+ 
+
+ 
+

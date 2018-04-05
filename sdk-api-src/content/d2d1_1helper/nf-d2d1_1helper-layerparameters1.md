@@ -1,0 +1,121 @@
+---
+UID: NF:d2d1_1helper.LayerParameters1
+title: LayerParameters1 function
+author: windows-driver-content
+description: Returns a D2D1_LAYER_PARAMETERS1 struct that contains the content bounds, mask information, opacity settings, and other options for a layer resource.
+old-location: direct2d\layerparameters1.htm
+old-project: Direct2D
+ms.assetid: 8E882B23-CD6C-4CEB-9297-837B4E278BB7
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: LayerParameters1, LayerParameters1 function [Direct2D], d2d1_1helper/LayerParameters1, direct2d.layerparameters1
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: d2d1_1helper.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: D2D1_STROKE_STYLE_PROPERTIES1
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	D2d1.dll
+api_name:
+-	LayerParameters1
+product: Windows
+targetos: Windows
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
+---
+
+# LayerParameters1 function
+
+
+## -description
+
+
+Returns a <a href="https://msdn.microsoft.com/D7CC93F8-D871-4DFC-84A3-CA60EB52FF0A">D2D1_LAYER_PARAMETERS1</a> struct that contains the content bounds, mask information, opacity settings, and other options for a layer resource.
+
+
+## -parameters
+
+
+
+
+### -param contentBounds [in, ref]
+
+Type: <b>const <a href="https://msdn.microsoft.com/a961c0e3-fb76-4c07-b76e-47d8c09ada08">D2D1_RECT_F</a></b>
+
+The content bounds of the layer. Content outside these bounds is not guaranteed to render.
+
+
+### -param geometricMask [in, optional]
+
+Type: <b><a href="https://msdn.microsoft.com/be4ab801-64f6-48f9-8f62-d0492cc438b1">ID2D1Geometry</a>*</b>
+
+The geometric mask specifies the area of the layer that is composited into the render target. 
+
+
+### -param maskAntialiasMode
+
+Type: <b><a href="https://msdn.microsoft.com/3ca12155-6dd0-41bb-8778-3387422c4ffe">D2D1_ANTIALIAS_MODE</a></b>
+
+A value that specifies the antialiasing mode for the geometricMask.  
+
+
+### -param maskTransform
+
+Type: <b><a href="https://msdn.microsoft.com/f05d7555-6482-4eea-950f-7b443892cc1f">D2D1_MATRIX_3X2_F</a></b>
+
+
+            
+            A value that specifies the transform that is applied to the geometric mask when composing the layer.
+
+
+### -param opacity
+
+Type: <b>FLOAT</b>
+
+An opacity value that is applied uniformly to all resources in the layer when compositing to the target.
+
+
+### -param opacityBrush [in, optional]
+
+Type: <b><a href="https://msdn.microsoft.com/5b8f6ff8-ba52-4d30-9bea-3de89793c868">ID2D1Brush</a>*</b>
+
+A brush that is used to modify the opacity of the layer. The brush 
+is mapped to the layer, and the alpha channel of each mapped brush pixel is multiplied against the corresponding layer pixel. 
+
+
+### -param layerOptions
+
+Type: <b><a href="https://msdn.microsoft.com/13C9EDE7-A1D0-4359-8EF3-77FF763B9244">D2D1_LAYER_OPTIONS1</a></b>
+
+Additional options for the layer creation.
+
+
+## -returns
+
+
+
+Type: <b><a href="https://msdn.microsoft.com/D7CC93F8-D871-4DFC-84A3-CA60EB52FF0A">D2D1_LAYER_PARAMETERS1</a></b>
+
+The filled layer parameters struct.
+
+
+

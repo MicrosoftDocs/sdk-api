@@ -1,0 +1,94 @@
+---
+UID: NF:cscobj.IEnumOfflineFilesSettings.Next
+title: IEnumOfflineFilesSettings::Next method
+author: windows-driver-content
+description: Retrieves the next item in the enumeration and advances the enumerator.
+old-location: of\ienumofflinefilessettings_next.htm
+old-project: OfflineFiles
+ms.assetid: 00230021-6069-4e0b-a3d6-95651aa6e44a
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: IEnumOfflineFilesSettings, IEnumOfflineFilesSettings interface [Offline Files], Next method, IEnumOfflineFilesSettings::Next, Next method [Offline Files], Next method [Offline Files], IEnumOfflineFilesSettings interface, Next,IEnumOfflineFilesSettings.Next, cscobj/IEnumOfflineFilesSettings::Next, of.ienumofflinefilessettings_next
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: cscobj.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: OFFLINEFILES_SYNC_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	CscSvc.dll
+-	CscObj.dll
+api_name:
+-	IEnumOfflineFilesSettings.Next
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: CscSvc.dll; CscObj.dll
+req.irql: 
+---
+
+# IEnumOfflineFilesSettings::Next method
+
+
+## -description
+
+
+Retrieves the next item in the enumeration and advances the enumerator.
+
+
+## -parameters
+
+
+
+
+### -param celt [in]
+
+Number of elements requested.
+
+
+### -param rgelt [out]
+
+Array of elements returned.
+
+
+### -param pceltFetched [out]
+
+Number of elements returned.
+
+
+## -returns
+
+
+
+Returns <b>S_OK</b> if the number of elements returned is <i>celt</i>; S_FALSE if a number less than <i>celt</i> is returned; or an error value otherwise.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/2d0e45d5-5559-4c2e-9c20-4e5b84b5fbbd">IEnumOfflineFilesSettings</a>
+ 
+
+ 
+

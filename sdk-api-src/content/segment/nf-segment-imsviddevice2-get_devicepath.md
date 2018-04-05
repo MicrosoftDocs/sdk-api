@@ -1,0 +1,118 @@
+---
+UID: NF:segment.IMSVidDevice2.get_DevicePath
+title: IMSVidDevice2::get_DevicePath method
+author: windows-driver-content
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 or later.
+old-location: mstv\imsviddevice2_get_devicepath.htm
+old-project: mstv
+ms.assetid: 4a0191d7-2b10-4f7e-96e1-263ddd718229
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: IMSVidDevice2, IMSVidDevice2 interface [Microsoft TV Technologies], get_DevicePath method, IMSVidDevice2::get_DevicePath, IMSVidDevice2get_DevicePath, get_DevicePath method [Microsoft TV Technologies], get_DevicePath method [Microsoft TV Technologies], IMSVidDevice2 interface, get_DevicePath,IMSVidDevice2.get_DevicePath, mstv.imsviddevice2_get_devicepath, segment/IMSVidDevice2::get_DevicePath
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: segment.h
+req.include-header: Msvidctl.h
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Segment.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: SourceSizeList
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	segment.h
+api_name:
+-	IMSVidDevice2.get_DevicePath
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# IMSVidDevice2::get_DevicePath method
+
+
+## -description
+
+
+
+This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 or later.
+        
+
+
+
+The <b>get_DevicePath</b> method retrieves the device path.
+
+
+## -parameters
+
+
+
+
+### -param DevPath [out]
+
+Pointer to a <b>BSTR</b> that receives the device path. The caller must free the returned string, using the <b>SysFreeString</b> function.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+This property is not a human-readable string, but is guaranteed to be unique per device. You can use this property to distinguish between two or more instances of the same model of device.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/cd0955cb-602f-4a47-a6f8-6fb2f0c9cb31">IMSVidDevice2 Interface</a>
+ 
+
+ 
+

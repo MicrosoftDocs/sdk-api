@@ -1,0 +1,136 @@
+---
+UID: NF:tdh.TdhUnloadManifest
+title: TdhUnloadManifest function
+author: windows-driver-content
+description: Unloads the manifest that was loaded by the TdhLoadManifest function.
+old-location: etw\tdhunloadmanifest.htm
+old-project: ETW
+ms.assetid: ce0dd781-04b2-4e0c-9e79-44864f53f176
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: TdhUnloadManifest, TdhUnloadManifest function [ETW], etw.tdhunloadmanifest, tdh/TdhUnloadManifest
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: tdh.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: TEMPLATE_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Tdh.dll
+-	API-MS-Win-Eventing-Tdh-L1-1-0.dll
+-	MinTdh.dll
+api_name:
+-	TdhUnloadManifest
+product: Windows
+targetos: Windows
+req.lib: Tdh.lib
+req.dll: Tdh.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# TdhUnloadManifest function
+
+
+## -description
+
+
+Unloads the manifest that was loaded by the <a href="https://msdn.microsoft.com/85dfcf73-ea3a-47e2-ad1a-3891b3917ecf">TdhLoadManifest</a> function.
+
+
+## -parameters
+
+
+
+
+### -param Manifest [in]
+
+The full path to the loaded manifest.
+
+
+## -returns
+
+
+
+Returns ERROR_SUCCESS if successful. Otherwise, this function returns one of the following return codes in addition to others.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_FILE_NOT_FOUND</b></dt>
+</dl>
+</td>
+<td width="60%">
+The manifest file was not found at the specified path.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_INVALID_PARAMETER</b></dt>
+</dl>
+</td>
+<td width="60%">
+The <i>Manifest</i> parameter cannot be <b>NULL</b> and the path cannot exceed MAX_PATH.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_XML_PARSE_ERROR</b></dt>
+</dl>
+</td>
+<td width="60%">
+The manifest did not pass validation. To determine the validation errors, run the manifest through the message compiler (mc.exe).
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+You must call this function after processing all the events. For example, you can call this function after calling <a href="https://msdn.microsoft.com/25f4c4d3-0b70-40fe-bf03-8f9ffd82fbec">CloseTrace</a>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/85dfcf73-ea3a-47e2-ad1a-3891b3917ecf">TdhLoadManifest</a>
+ 
+
+ 
+

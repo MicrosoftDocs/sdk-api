@@ -1,0 +1,95 @@
+---
+UID: NF:mfmediaengine.IMFTimedTextStyle.GetBackgroundColor
+title: IMFTimedTextStyle::GetBackgroundColor method
+author: windows-driver-content
+description: Gets the background color of the timed-text style.
+old-location: mf\imftimedtextstyle_getbackgroundcolor.htm
+old-project: medfound
+ms.assetid: 2641F157-31CE-4659-AF6B-B57774AEF4E5
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: GetBackgroundColor method [Media Foundation], GetBackgroundColor method [Media Foundation], IMFTimedTextStyle interface, GetBackgroundColor,IMFTimedTextStyle.GetBackgroundColor, IMFTimedTextStyle, IMFTimedTextStyle interface [Media Foundation], GetBackgroundColor method, IMFTimedTextStyle::GetBackgroundColor, mf.imftimedtextstyle_getbackgroundcolor, mfmediaengine/IMFTimedTextStyle::GetBackgroundColor
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: mfmediaengine.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Mfmediaengine.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MF_TIMED_TEXT_WRITING_MODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfmediaengine.h
+api_name:
+-	IMFTimedTextStyle.GetBackgroundColor
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IMFTimedTextStyle::GetBackgroundColor method
+
+
+## -description
+
+
+Gets the background color of the timed-text style.
+
+
+## -parameters
+
+
+
+
+### -param bgColor
+
+
+
+
+
+
+#### - pBgColor [out]
+
+Type: <b><a href="https://msdn.microsoft.com/ce7ac174-9f00-42a4-9b48-ed86b406d83e">MFARGB</a>*</b>
+
+A pointer to a variable that receives a <a href="https://msdn.microsoft.com/ce7ac174-9f00-42a4-9b48-ed86b406d83e">MFARGB</a> structure that describes the background color.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/ED358A36-BEEF-491E-8984-938F71472F26">IMFTimedTextStyle</a>
+ 
+
+ 
+

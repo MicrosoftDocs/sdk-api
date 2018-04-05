@@ -1,0 +1,91 @@
+---
+UID: NF:tuner.IAnalogRadioTuningSpace.get_MaxFrequency
+title: IAnalogRadioTuningSpace::get_MaxFrequency method
+author: windows-driver-content
+description: The get_MaxFrequency method retrieves the maximum frequency for this tuning space.
+old-location: mstv\ianalogradiotuningspace_get_maxfrequency.htm
+old-project: mstv
+ms.assetid: baf4fe54-6e8c-49a7-b99f-4efeb7c65757
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: IAnalogRadioTuningSpace, IAnalogRadioTuningSpace interface [Microsoft TV Technologies], get_MaxFrequency method, IAnalogRadioTuningSpace::get_MaxFrequency, IAnalogRadioTuningSpaceget_MaxFrequency, get_MaxFrequency method [Microsoft TV Technologies], get_MaxFrequency method [Microsoft TV Technologies], IAnalogRadioTuningSpace interface, get_MaxFrequency,IAnalogRadioTuningSpace.get_MaxFrequency, mstv.ianalogradiotuningspace_get_maxfrequency, tuner/IAnalogRadioTuningSpace::get_MaxFrequency
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: tuner.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: None supported
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Tuner.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	tuner.h
+api_name:
+-	IAnalogRadioTuningSpace.get_MaxFrequency
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# IAnalogRadioTuningSpace::get_MaxFrequency method
+
+
+## -description
+
+
+The <b>get_MaxFrequency</b> method retrieves the maximum frequency for this tuning space.
+
+
+## -parameters
+
+
+
+
+### -param MaxFrequencyVal
+
+
+
+
+
+
+#### - pMaxFrequencyVal [out]
+
+Pointer to a variable that receives the maximum frequency, in kilohertz (kHz).
+
+
+## -returns
+
+
+
+Returns E_NOTIMPL.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/25cf9f31-88a9-479e-b51c-ad823cd04d2d">IAnalogRadioTuningSpace Interface</a>
+ 
+
+ 
+

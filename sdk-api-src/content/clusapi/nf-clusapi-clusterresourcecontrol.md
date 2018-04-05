@@ -1,0 +1,393 @@
+---
+UID: NF:clusapi.ClusterResourceControl
+title: ClusterResourceControl function
+author: windows-driver-content
+description: Initiates an operation affecting a resource. The operation performed depends on the control code passed to the dwControlCode parameter.
+old-location: mscs\clusterresourcecontrol.htm
+old-project: MsCS
+ms.assetid: a98ca55a-6535-48cf-a925-5005baa01b94
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: ClusterResourceControl, ClusterResourceControl function [Failover Cluster], _wolf_clusterresourcecontrol, clusapi/ClusterResourceControl, mscs.clusterresourcecontrol
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: clusapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: SR_REPLICATED_DISK_TYPE, *PSR_REPLICATED_DISK_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	ClusAPI.dll
+-	Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll
+-	Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
+-	Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
+api_name:
+-	ClusterResourceControl
+product: Windows
+targetos: Windows
+req.lib: ClusAPI.lib
+req.dll: ClusAPI.dll
+req.irql: 
+---
+
+# ClusterResourceControl function
+
+
+## -description
+
+
+Initiates 
+    an operation affecting a <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource</a>. The operation performed 
+    depends on the <a href="https://msdn.microsoft.com/47618915-0985-4415-b7d4-5959fb27eb9f">control code</a> passed to the 
+    <i>dwControlCode</i> parameter.
+
+
+## -parameters
+
+
+
+
+### -param hResource [in]
+
+Handle to the resource to be affected.
+
+
+### -param hHostNode [in, optional]
+
+Optional handle to the node to perform the operation. If <b>NULL</b>, the node that owns 
+       the resource identified by <i>hResource</i> performs the operation.
+
+
+### -param dwControlCode [in]
+
+A <a href="https://msdn.microsoft.com/71ec60fd-67ec-4932-983b-f78c6b552954">resource control code</a>, enumerated by the 
+       <a href="https://msdn.microsoft.com/c90420de-48e9-4105-9848-a27abad9c452">CLUSCTL_RESOURCE_CODES</a> enumeration, specifying 
+       the operation to be performed. For the syntax associated with a control code, refer to  
+       <a href="https://msdn.microsoft.com/d107f743-8ce8-4c0c-b7a2-24a70ffbc0f3">Control Code Architecture</a> and the following 
+       topics:
+
+<ul>
+<li>
+<a href="https://msdn.microsoft.com/4b7de4d4-6da1-4ea5-b745-2c0b5311eeb6">CLUSCTL_RESOURCE_UNKNOWN</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/02de0119-76af-445f-b107-f0ffa57e5ade">CLUSCTL_RESOURCE_GET_CHARACTERISTICS</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/bee0f0c4-4d8a-4903-a9d0-6b5bc1fdfce4">CLUSCTL_RESOURCE_GET_FLAGS</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/4c4f8809-d6eb-43e1-a09e-cfe3770a1fd4">CLUSCTL_RESOURCE_GET_CLASS_INFO</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/4bf78e9c-a6da-453c-a199-9ec73fc5dafe">CLUSCTL_RESOURCE_GET_REQUIRED_DEPENDENCIES</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/d1d4b8cf-ab74-449c-aaf7-9bc7ef09b789">CLUSCTL_RESOURCE_GET_NAME</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/ca92df70-1d38-4442-9ec2-e7f94e096b0c">CLUSCTL_RESOURCE_GET_ID</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/ed679b50-306e-4623-aba3-bab64cd0e671">CLUSCTL_RESOURCE_GET_RESOURCE_TYPE</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/8e4ed860-e821-4459-94b7-a28b4b419703">CLUSCTL_RESOURCE_ENUM_COMMON_PROPERTIES</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/f9e8c9bb-9ece-4cc8-b271-63e29ab5b30a">CLUSCTL_RESOURCE_GET_RO_COMMON_PROPERTIES</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/67939292-c51c-408b-af87-66d9bd6664a9">CLUSCTL_RESOURCE_GET_COMMON_PROPERTIES</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/016ca8bf-b5e4-4e7e-9ffd-14120146eedd">CLUSCTL_RESOURCE_SET_COMMON_PROPERTIES</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/e741c7bd-ab40-43ba-a249-9b6993e76110">CLUSCTL_RESOURCE_VALIDATE_COMMON_PROPERTIES</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/c68decf7-45c0-4d15-a419-adc73a5683c0">CLUSCTL_RESOURCE_GET_COMMON_PROPERTY_FMTS</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/d9fd9cbd-33ab-4473-95d8-ce1120cb0fa3">CLUSCTL_RESOURCE_ENUM_PRIVATE_PROPERTIES</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/c6cf84bd-ba14-4c66-9789-95cf3de996e6">CLUSCTL_RESOURCE_GET_RO_PRIVATE_PROPERTIES</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/27d7169a-b336-466e-a978-c55e90e80ea3">CLUSCTL_RESOURCE_GET_PRIVATE_PROPERTIES</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/fdf7f7c3-fdaf-4c8e-8b57-8eab4256d5eb">CLUSCTL_RESOURCE_SET_PRIVATE_PROPERTIES</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/f8f236f9-3c0d-4a32-8ced-21b94f6842c4">CLUSCTL_RESOURCE_VALIDATE_PRIVATE_PROPERTIES</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/755e1222-fd4c-40da-9ce4-d03192170c8d">CLUSCTL_RESOURCE_GET_PRIVATE_PROPERTY_FMTS</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/cee0a363-d9b4-4259-aa61-9a100905b181">CLUSCTL_RESOURCE_ADD_REGISTRY_CHECKPOINT</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/ff1bd331-d401-41e7-b07b-60b10816d301">CLUSCTL_RESOURCE_DELETE_REGISTRY_CHECKPOINT</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/06c990c9-bf73-44ff-aef8-c2da9a691519">CLUSCTL_RESOURCE_GET_REGISTRY_CHECKPOINTS</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/1bfc313e-aa3a-4249-8e47-f30438cd46e9">CLUSCTL_RESOURCE_ADD_CRYPTO_CHECKPOINT</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/f7af5d70-b76c-4102-ae48-2354168deb27">CLUSCTL_RESOURCE_DELETE_CRYPTO_CHECKPOINT</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/8a5f6d42-a456-439e-85b6-622fff99dc8f">CLUSCTL_RESOURCE_GET_CRYPTO_CHECKPOINTS</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/6f0bba91-3992-475b-a681-0e511d64ebd2">CLUSCTL_RESOURCE_GET_LOADBAL_PROCESS_LIST</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/84cdb373-c1c8-433c-8aec-a69e9268f908">CLUSCTL_RESOURCE_GET_NETWORK_NAME</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/7a1033be-1b97-49d6-91f3-78f5efed1f4b">CLUSCTL_RESOURCE_NETNAME_GET_VIRTUAL_SERVER_TOKEN</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/82a466e6-8550-4973-9758-d1d83625817d">CLUSCTL_RESOURCE_NETNAME_SET_PWD_INFO</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/4ee6893b-928e-4fce-85d1-f51118ee7556">CLUSCTL_RESOURCE_NETNAME_DELETE_CO</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/1a0b081a-864e-4d06-97c0-0642cd107af5">CLUSCTL_RESOURCE_NETNAME_VALIDATE_VCO</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/2560bf1a-6a02-4f71-8fb3-2303b77fe8ce">CLUSCTL_RESOURCE_NETNAME_RESET_VCO</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/42ecb377-81a7-49f0-8ed4-a50f96af9317">CLUSCTL_RESOURCE_NETNAME_REGISTER_DNS_RECORDS</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/517c4748-01b8-4e1d-b56a-241f9738597e">CLUSCTL_RESOURCE_GET_DNS_NAME</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/e80dfab7-448a-4d68-aae8-c6b42c5dc6f9">CLUSCTL_RESOURCE_STORAGE_GET_DISK_INFO</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/0a8c69e1-4f7b-4518-a3eb-ffbf31fa749b">CLUSCTL_RESOURCE_STORAGE_IS_PATH_VALID</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/804dea61-fb82-4dbb-88b1-e19cecca010a">CLUSCTL_RESOURCE_QUERY_DELETE</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/685b0df3-7fc1-4516-933d-fed8934efec0">CLUSCTL_RESOURCE_UPGRADE_DLL</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/ee631871-91d6-4aaa-b071-f18eba3a848a">CLUSCTL_RESOURCE_IPADDRESS_RENEW_LEASE</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/8bc395e9-356d-4c7d-b944-cbcef69bd32f">CLUSCTL_RESOURCE_IPADDRESS_RELEASE_LEASE</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/2ac6a478-7a14-4f2b-bbfb-3bbc98e97ef0">CLUSCTL_RESOURCE_ADD_REGISTRY_CHECKPOINT_64BIT</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/925d3723-2e5f-472e-9b94-0fa13a7b4a8c">CLUSCTL_RESOURCE_ADD_REGISTRY_CHECKPOINT_32BIT</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/ceaaf124-bc66-4e5b-b5c3-2cae7f7c5a14">CLUSCTL_RESOURCE_QUERY_MAINTENANCE_MODE</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/211de9d9-7fcb-47b7-a6b3-ee1bc241f176">CLUSCTL_RESOURCE_SET_MAINTENANCE_MODE</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/b13e8664-6fe0-4a06-8859-fd9eea879d44">CLUSCTL_RESOURCE_STORAGE_SET_DRIVELETTER</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/64463e16-e4c3-4e18-9302-1af259a16545">CLUSCTL_RESOURCE_STORAGE_GET_DISK_INFO_EX</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/b540a065-4863-4c98-ba26-783a877e0c9f">CLUSCTL_RESOURCE_FILESERVER_SHARE_ADD</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/0ed70700-d437-4958-852a-03966e4632f9">CLUSCTL_RESOURCE_FILESERVER_SHARE_DEL</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/6c78bacb-b263-449c-9a4c-b280c4a8277a">CLUSCTL_RESOURCE_FILESERVER_SHARE_MODIFY</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/1e2d3482-5e1f-45a3-9f80-c034582d6a75">CLUSCTL_RESOURCE_FILESERVER_SHARE_REPORT</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/fb27b836-6222-44d8-b56b-734b0299d4af">CLUSCTL_RESOURCE_STORAGE_GET_MOUNTPOINTS</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/80a156ad-babb-4067-ade7-d4596a45c21b">CLUSCTL_RESOURCE_STORAGE_CLUSTER_DISK</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/b1a48154-21ed-4f0f-97e7-7d9fce358504">CLUSCTL_RESOURCE_STORAGE_GET_DIRTY</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/12c35048-660d-47d3-b35c-24eea5627ffb">CLUSCTL_RESOURCE_SET_CSV_MAINTENANCE_MODE</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/2b6a335f-c0fd-4465-b91e-6b36743c6627">CLUSCTL_RESOURCE_ENABLE_SHARED_VOLUME_DIRECTIO</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/9353135b-fbdc-4d75-92a6-eaad7c92ea28">CLUSCTL_RESOURCE_DISABLE_SHARED_VOLUME_DIRECTIO</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/2ee69873-e562-4bac-bfed-119d56082095">CLUSCTL_RESOURCE_SET_SHARED_VOLUME_BACKUP_MODE</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/00dfa8d6-2ba0-499e-b510-d4df4d2d748f">CLUSCTL_RESOURCE_DELETE</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/06573bfb-133f-4d78-81ea-5c99e6676b55">CLUSCTL_RESOURCE_INSTALL_NODE</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/8be7828a-cda5-4e61-83b9-8ff8f52437ff">CLUSCTL_RESOURCE_EVICT_NODE</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/7ae495c2-45b9-4530-b391-460c223742ad">CLUSCTL_RESOURCE_ADD_DEPENDENCY</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/648fdb63-f30f-43f0-ae53-4881a0b36701">CLUSCTL_RESOURCE_REMOVE_DEPENDENCY</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/0abdba34-7613-4a90-a94f-0afc7531c855">CLUSCTL_RESOURCE_ADD_OWNER</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/db2d179f-7bf7-48d8-83c8-fc38e6935250">CLUSCTL_RESOURCE_REMOVE_OWNER</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/16f9da56-ec7b-4ac6-b7e4-4a65215d2fca">CLUSCTL_RESOURCE_SET_NAME</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/93f273eb-eade-41e4-aa64-2e694fc1db76">CLUSCTL_RESOURCE_CLUSTER_NAME_CHANGED</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/799d148e-10ef-4bae-9bac-8389c92a032f">CLUSCTL_RESOURCE_CLUSTER_VERSION_CHANGED</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/ab957c9c-fe05-424f-80e7-48d74acca6ed">CLUSCTL_RESOURCE_FORCE_QUORUM</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/58fe8aa7-a109-46bc-b61a-91b35aae186e">CLUSCTL_RESOURCE_INITIALIZE</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/3261c8eb-b88b-428a-8a2b-684e0967f9de">CLUSCTL_RESOURCE_STATE_CHANGE_REASON</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/7d8bf1c9-3236-40e5-9299-c9926a1204fb">CLUSCTL_RESOURCE_PROVIDER_STATE_CHANGE</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/95098d33-998f-426b-8a47-b00cd3c87ecb">CLUSCTL_RESOURCE_LEAVING_GROUP</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/09f3248a-97a1-4f00-971f-1d2d4a373c88">CLUSCTL_RESOURCE_JOINING_GROUP</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/50715f64-adf2-43b5-9bd4-b5dedefa4ae8">CLUSCTL_RESOURCE_FSWITNESS_GET_EPOCH_INFO</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/8c46df0e-d5b6-4d69-a605-96387904a9f1">CLUSCTL_RESOURCE_FSWITNESS_SET_EPOCH_INFO</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/8a892ca9-fba8-4d9c-8941-bd60ceddde39">CLUSCTL_RESOURCE_FSWITNESS_RELEASE_LOCK</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/0965ad65-9942-4672-8ecc-c8b8fe854a85">CLUSCTL_RESOURCE_NETNAME_CREDS_UPDATED</a>
+</li>
+</ul>
+
+### -param lpInBuffer [in, optional]
+
+Pointer to an input buffer containing information needed for the operation, or <b>NULL</b> 
+       if no information is needed.
+
+
+### -param cbInBufferSize [in]
+
+The allocated size (in bytes) of the input buffer.
+
+
+### -param lpOutBuffer [out, optional]
+
+Pointer to an output buffer to receive the data resulting from the operation, or 
+       <b>NULL</b> if no data will be returned.
+
+
+### -param cbOutBufferSize [in]
+
+The allocated size (in bytes) of the output buffer.
+
+
+### -param lpBytesReturned [out, optional]
+
+Returns the actual size (in bytes) of the data resulting from the operation. If this information is not 
+       needed, pass <b>NULL</b> for <i>lpBytesReturned</i>.
+
+
+## -returns
+
+
+
+The function returns one of the following values.
+
+
+
+
+## -remarks
+
+
+
+When <b>ClusterResourceControl</b> returns 
+     <b>ERROR_MORE_DATA</b>, set <i>cbOutBufferSize</i> to the number of bytes 
+     pointed to by <i>lpBytesReturned</i>, and call the function again.
+
+Do not pass LPC and RPC handles to the same function call. Otherwise, the call will raise an RPC exception and 
+     can have additional destructive effects. For information on how LPC and RPC handles are created, see 
+     <a href="https://msdn.microsoft.com/0fdb2024-9b04-4a38-baf9-3cdabba9bf8c">LPC and RPC Handles</a> and 
+     <a href="https://msdn.microsoft.com/b2ee2575-cc1e-4696-8e95-9798fb556c58">OpenCluster</a>.
+
+The <b>ClusterResourceControl</b> function is one 
+     of the <a href="https://msdn.microsoft.com/89ae667e-6ad9-453e-b370-b3d6a67172a2">control code functions</a>. For more information 
+     on control codes and control code functions, see 
+     <a href="https://msdn.microsoft.com/20f87f60-6237-459a-93bc-f599391e65b0">Using Control Codes</a>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/b2ee2575-cc1e-4696-8e95-9798fb556c58">OpenCluster</a>
+
+
+
+<a href="https://msdn.microsoft.com/71ec60fd-67ec-4932-983b-f78c6b552954">Resource Control Codes</a>
+ 
+
+ 
+

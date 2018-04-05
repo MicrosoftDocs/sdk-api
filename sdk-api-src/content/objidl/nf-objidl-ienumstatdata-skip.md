@@ -1,0 +1,84 @@
+---
+UID: NF:objidl.IEnumSTATDATA.Skip
+title: IEnumSTATDATA::Skip method
+author: windows-driver-content
+description: Skips over the specified number of items in the enumeration sequence.
+old-location: com\ienumstatdata_skip.htm
+old-project: com
+ms.assetid: fe3d45bc-bdcf-4e05-a03f-a40780b016e4
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: IEnumSTATDATA, IEnumSTATDATA interface [COM], Skip method, IEnumSTATDATA::Skip, Skip method [COM], Skip method [COM], IEnumSTATDATA interface, Skip,IEnumSTATDATA.Skip, _ole_ienumstatdata_skip, com.ienumstatdata_skip, objidl/IEnumSTATDATA::Skip
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: objidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: ObjIdl.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: THDTYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	ObjIdl.h
+api_name:
+-	IEnumSTATDATA.Skip
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# IEnumSTATDATA::Skip method
+
+
+## -description
+
+
+Skips over the specified number of items in the enumeration sequence.
+
+
+## -parameters
+
+
+
+
+### -param celt [in]
+
+The number of items to be skipped.
+
+
+## -returns
+
+
+
+If the method skips the number of items requested, the return value is S_OK. Otherwise, it is S_FALSE.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/8e2f6655-4a09-4868-a909-18999104b3ff">IEnumSTATDATA</a>
+ 
+
+ 
+

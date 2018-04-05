@@ -1,0 +1,91 @@
+---
+UID: NS:lpmapi.Session_IPv4
+title: Session_IPv4
+author: windows-driver-content
+description: The Session_IPv4 structure stores information about an IPv4 RSVP SESSION object.
+old-location: qos\session_ipv4.htm
+old-project: QOS
+ms.assetid: 8fbe41f2-c7c7-4476-b5e6-f3306ce74cf6
+ms.author: windowsdriverdev
+ms.date: 3/23/2018
+ms.keywords: Session_IPv4, Session_IPv4 structure [QOS], lpmapi/Session_IPv4, qos.session_ipv4
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: struct
+req.header: lpmapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: Session_IPv4
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Lpmapi.h
+api_name:
+-	Session_IPv4
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# Session_IPv4 structure
+
+
+## -description
+
+
+The 
+<b>Session_IPv4</b> structure stores information about an IPv4 RSVP SESSION object.
+
+
+## -struct-fields
+
+
+
+
+### -field sess_destaddr
+
+Destination IP address for the session.
+
+
+### -field sess_protid
+
+Protocol ID for the session.
+
+
+### -field sess_flags
+
+Session flags. 
+
+
+### -field sess_destport
+
+Destination IP address for the session.
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/90a237c0-0e62-4f27-927a-e3f3c1ac629e">RsvpObjHdr</a>
+ 
+
+ 
+

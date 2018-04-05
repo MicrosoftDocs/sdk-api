@@ -1,0 +1,123 @@
+---
+UID: NF:uxtheme.GetThemeString
+title: GetThemeString function
+author: windows-driver-content
+description: Retrieves the value of a string property.
+old-location: controls\GetThemeString.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\userex\functions\getthemestring.htm
+ms.author: windowsdriverdev
+ms.date: 3/31/2018
+ms.keywords: GetThemeString, GetThemeString function [Windows Controls], controls.GetThemeString, controls.inet_GetThemeString, inet_GetThemeString, inet_GetThemeString_cpp, uxtheme/GetThemeString
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: uxtheme.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: BP_BUFFERFORMAT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	UxTheme.dll
+api_name:
+-	GetThemeString
+product: Windows
+targetos: Windows
+req.lib: UxTheme.lib
+req.dll: UxTheme.dll
+req.irql: 
+req.product: Windows UI
+---
+
+# GetThemeString function
+
+
+## -description
+
+
+Retrieves the value of a string property.
+
+
+## -parameters
+
+
+
+
+### -param hTheme [in]
+
+Type: <b>HTHEME</b>
+
+Handle to a window's specified theme data. Use <a href="https://msdn.microsoft.com/3c496a3f-e4d0-4938-af66-85df93829cd8">OpenThemeData</a> to create an HTHEME.
+
+
+### -param iPartId [in]
+
+Type: <b>int</b>
+
+Value of type <b>int</b> that specifies the part containing the string property. See <a href="https://msdn.microsoft.com/97740fb8-c393-4c12-b5ef-9285220117f0">Parts and States</a>.
+
+
+### -param iStateId [in]
+
+Type: <b>int</b>
+
+Value of type <b>int</b> that specifies the state of the part. See <a href="https://msdn.microsoft.com/97740fb8-c393-4c12-b5ef-9285220117f0">Parts and States</a>.
+
+
+### -param iPropId [in]
+
+Type: <b>int</b>
+
+Value of type <b>int</b> that specifies the property to retrieve. For a list of possible values, see <a href="https://msdn.microsoft.com/b0e22022-fea9-43d1-8ef0-7a1c518760f1">Property Identifiers</a>.
+
+
+### -param pszBuff [out]
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPWSTR</a></b>
+
+Pointer to a buffer that receives the string value.
+
+
+### -param cchMaxBuffChars [in]
+
+Type: <b>int</b>
+
+Value of type <b>int</b> that specifies the maximum number of characters <i>pszBuff</i> can contain.
+
+
+## -returns
+
+
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+
+If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/b0e22022-fea9-43d1-8ef0-7a1c518760f1">Property Identifiers</a>
+ 
+
+ 
+

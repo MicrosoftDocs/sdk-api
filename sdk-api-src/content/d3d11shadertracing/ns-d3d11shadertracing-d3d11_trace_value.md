@@ -1,0 +1,128 @@
+---
+UID: NS:d3d11shadertracing.D3D11_TRACE_VALUE
+title: D3D11_TRACE_VALUE
+author: windows-driver-content
+description: Describes a trace value.
+old-location: direct3d11\d3d11_trace_value.htm
+old-project: direct3d11
+ms.assetid: 15AFA648-DCAC-42A1-9606-6E292E92C217
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: D3D11_TRACE_VALUE, D3D11_TRACE_VALUE structure [Direct3D 11], d3d11shadertracing/D3D11_TRACE_VALUE, direct3d11.d3d11_trace_value
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: struct
+req.header: d3d11shadertracing.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: D3D11_TRACE_VALUE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	D3D11ShaderTracing.h
+api_name:
+-	D3D11_TRACE_VALUE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# D3D11_TRACE_VALUE structure
+
+
+## -description
+
+
+Describes a trace value.
+
+
+## -struct-fields
+
+
+
+
+### -field Bits
+
+
+              An array of bits that make up the trace value. The [0] element is X.
+            
+
+<div class="alert"><b>Note</b>  
+              This member can hold <b>float</b>, <b>UINT</b>, or <b>INT</b> data.
+              The elements are specified as <b>UINT</b> rather than using a union to minimize the risk of x86 SNaN-&gt;QNaN quashing during float assignment.
+              If the bits are displayed, they can be interpreted as <b>float</b> at the last moment.
+            </div>
+<div> </div>
+
+### -field ValidMask
+
+
+            A combination of the following component values that are combined by using a bitwise <b>OR</b> operation.
+            The resulting value specifies the component trace mask.
+            
+
+<table>
+<tr>
+<th>Flag</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>D3D11_TRACE_COMPONENT_X (0x1)</td>
+<td>The x component of the trace mask.</td>
+</tr>
+<tr>
+<td>D3D11_TRACE_COMPONENT_Y (0x2)</td>
+<td>The y component of the trace mask.</td>
+</tr>
+<tr>
+<td>D3D11_TRACE_COMPONENT_Z (0x4)</td>
+<td>The depth z component of the trace mask.</td>
+</tr>
+<tr>
+<td>D3D11_TRACE_COMPONENT_W (0x8)</td>
+<td>The depth w component of the trace mask.</td>
+</tr>
+</table>
+ 
+
+Ignore unmasked values, particularly if deltas are accumulated.
+          
+
+
+## -remarks
+
+
+
+
+        This API requires the Windows Software Development Kit (SDK) for Windows 8.
+      
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/3b8ece5c-5065-4711-b12c-06cf7ea0e1ba">Shader Structures</a>
+ 
+
+ 
+

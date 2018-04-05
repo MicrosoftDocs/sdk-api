@@ -1,0 +1,92 @@
+---
+UID: NF:mfmediaengine.IMFMediaEngineEx.RemoveAllEffects
+title: IMFMediaEngineEx::RemoveAllEffects method
+author: windows-driver-content
+description: Removes all audio and video effects.
+old-location: mf\imfmediaengineex_removealleffects.htm
+old-project: medfound
+ms.assetid: B9EF1440-27DA-48C6-B840-FF61DBF19E63
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: IMFMediaEngineEx, IMFMediaEngineEx interface [Media Foundation], RemoveAllEffects method, IMFMediaEngineEx::RemoveAllEffects, RemoveAllEffects method [Media Foundation], RemoveAllEffects method [Media Foundation], IMFMediaEngineEx interface, RemoveAllEffects,IMFMediaEngineEx.RemoveAllEffects, mf.imfmediaengineex_removealleffects, mfmediaengine/IMFMediaEngineEx::RemoveAllEffects
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: mfmediaengine.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MF_TIMED_TEXT_WRITING_MODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfmediaengine.h
+api_name:
+-	IMFMediaEngineEx.RemoveAllEffects
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IMFMediaEngineEx::RemoveAllEffects method
+
+
+## -description
+
+
+Removes all audio and video effects.
+
+
+## -parameters
+
+
+
+
+
+
+## -returns
+
+
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+ Call this method to remove all of the effects that were added with the <a href="https://msdn.microsoft.com/0D9ED497-A991-473F-A775-CA780A1E0E06">InsertAudioEffect</a> and <a href="https://msdn.microsoft.com/7F59BE62-D3F1-4C5A-94FD-F864342797BF">InsertVideoEffect</a> methods.
+
+
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/EE3591FD-4FE8-4F20-A4E2-52C896229571">IMFMediaEngineEx</a>
+ 
+
+ 
+

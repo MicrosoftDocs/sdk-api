@@ -1,0 +1,99 @@
+---
+UID: NF:winuser.UnhookWinEvent
+title: UnhookWinEvent function
+author: windows-driver-content
+description: Removes an event hook function created by a previous call to SetWinEventHook.
+old-location: winauto\unhookwinevent.htm
+old-project: WinAuto
+ms.assetid: 5cffb279-85e1-4f7a-8bbb-d0d618f6afcd
+ms.author: windowsdriverdev
+ms.date: 3/29/2018
+ms.keywords: UnhookWinEvent, UnhookWinEvent function [Windows Accessibility], _msaa_UnhookWinEvent, msaa.unhookwinevent, winauto.unhookwinevent, winuser/UnhookWinEvent
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: winuser.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: AR_STATE, *PAR_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	user32.dll
+-	API-MS-Win-RTCore-NTUser-Winevent-l1-1-0.dll
+-	minuser.dll
+api_name:
+-	UnhookWinEvent
+product: Windows
+targetos: Windows
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# UnhookWinEvent function
+
+
+## -description
+
+
+Removes an event hook function created by a previous call to <a href="https://msdn.microsoft.com/090bda1b-0635-4aa3-ae33-3987b36e30b8">SetWinEventHook</a>.
+
+
+## -parameters
+
+
+
+
+### -param hWinEventHook [in]
+
+Type: <b>HWINEVENTHOOK</b>
+
+Handle to the event hook returned in the previous call to <a href="https://msdn.microsoft.com/090bda1b-0635-4aa3-ae33-3987b36e30b8">SetWinEventHook</a>.
+
+
+## -returns
+
+
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+
+If successful, returns <b>TRUE</b>; otherwise, returns <b>FALSE</b>.
+
+Three common errors cause this function to fail:
+
+<ul>
+<li>The <i>hWinEventHook</i> parameter is <b>NULL</b> or not valid.</li>
+<li>The event hook specified by <i>hWinEventHook</i> was already removed.</li>
+<li><b>UnhookWinEvent</b> is called from a thread that is different from the original call to <a href="https://msdn.microsoft.com/090bda1b-0635-4aa3-ae33-3987b36e30b8">SetWinEventHook</a>.</li>
+</ul>
+
+
+
+## -remarks
+
+
+
+This function removes the event hook specified by <i>hWinEventHook</i> that prevents the corresponding callback function from receiving further event notifications. If the client's thread ends, the system automatically calls this function.
+
+Call this function from the same thread that installed the event hook. <b>UnhookWinEvent</b> fails if called from a thread different from the call that corresponds to <a href="https://msdn.microsoft.com/090bda1b-0635-4aa3-ae33-3987b36e30b8">SetWinEventHook</a>.
+
+If WINEVENT_INCONTEXT was specified when this event hook was installed, the system attempts to unload the corresponding DLL from all processes that loaded it. Although unloading does not occur immediately, the hook function is not called after <b>UnhookWinEvent</b> returns. For more information on WINEVENT_INCONTEXT, see <a href="https://msdn.microsoft.com/bf12bda6-b00e-4fbe-a576-b989aa428b54">In-Context Hook Functions</a>.
+
+
+

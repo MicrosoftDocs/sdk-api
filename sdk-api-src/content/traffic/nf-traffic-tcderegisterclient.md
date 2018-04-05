@@ -1,0 +1,154 @@
+---
+UID: NF:traffic.TcDeregisterClient
+title: TcDeregisterClient function
+author: windows-driver-content
+description: The TcDeregisterClient function deregisters a client with the Traffic Control Interface (TCI).
+old-location: qos\tcderegisterclient.htm
+old-project: QOS
+ms.assetid: ea52b8a6-a54e-46ee-9275-734f328759ba
+ms.author: windowsdriverdev
+ms.date: 3/23/2018
+ms.keywords: TcDeregisterClient, TcDeregisterClient function [QOS], _gqos_tcderegisterclient, qos.tcderegisterclient, traffic/TcDeregisterClient
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: traffic.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: TPMVSCMGR_ERROR
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Traffic.dll
+api_name:
+-	TcDeregisterClient
+product: Windows
+targetos: Windows
+req.lib: Traffic.lib
+req.dll: Traffic.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# TcDeregisterClient function
+
+
+## -description
+
+
+The 
+<b>TcDeregisterClient</b> function deregisters a client with the Traffic Control Interface (TCI). Before deregistering, a client must delete each installed flow and filter with the 
+<a href="https://msdn.microsoft.com/6e62b55e-9919-44be-a9ae-f1319cc82d76">TcDeleteFlow</a> and 
+<a href="https://msdn.microsoft.com/3a9eaffc-78d8-4473-a2d3-c060b104abd3">TcDeleteFilter</a> functions, and close all open interfaces with the 
+<a href="https://msdn.microsoft.com/c7c78f98-0890-4889-994e-bbac08ba9c44">TcCloseInterface</a> function, respectively.
+
+
+## -parameters
+
+
+
+
+### -param ClientHandle [in]
+
+Handle assigned to the client through the previous call to the 
+<a href="https://msdn.microsoft.com/10bbc08d-4bfa-4a64-b5b8-b720d7bc3185">TcRegisterClient</a> function.
+
+
+## -returns
+
+
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>NO_ERROR</b></dt>
+</dl>
+</td>
+<td width="60%">
+The function executed without errors.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_INVALID_HANDLE</b></dt>
+</dl>
+</td>
+<td width="60%">
+Invalid interface handle, or the handle was set to <b>NULL</b>.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_TC_SUPPORTED_OBJECTS_EXIST</b></dt>
+</dl>
+</td>
+<td width="60%">
+Interfaces are still open for this client. all interfaces must be closed to deregister a client.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+Once a client calls 
+<b>TcDeregisterClient</b>, the only traffic control function the client is allowed to call is 
+<a href="https://msdn.microsoft.com/10bbc08d-4bfa-4a64-b5b8-b720d7bc3185">TcRegisterClient</a>.
+
+<div class="alert"><b>Note</b>  Use of the 
+<b>TcDeregisterClient</b> function requires administrative privilege.</div>
+<div> </div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/c7c78f98-0890-4889-994e-bbac08ba9c44">TcCloseInterface</a>
+
+
+
+<a href="https://msdn.microsoft.com/3a9eaffc-78d8-4473-a2d3-c060b104abd3">TcDeleteFilter</a>
+
+
+
+<a href="https://msdn.microsoft.com/6e62b55e-9919-44be-a9ae-f1319cc82d76">TcDeleteFlow</a>
+
+
+
+<a href="https://msdn.microsoft.com/10bbc08d-4bfa-4a64-b5b8-b720d7bc3185">TcRegisterClient</a>
+ 
+
+ 
+

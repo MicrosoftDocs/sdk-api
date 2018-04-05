@@ -1,0 +1,212 @@
+---
+UID: NF:commctrl.FlatSB_SetScrollInfo
+title: FlatSB_SetScrollInfo function
+author: windows-driver-content
+description: Sets the information for a flat scroll bar. If flat scroll bars are not initialized for the window, this function calls the standard SetScrollInfo function.
+old-location: controls\FlatSB_SetScrollInfo.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\flatsb\functions\flatsb_setscrollinfo.htm
+ms.author: windowsdriverdev
+ms.date: 3/31/2018
+ms.keywords: FlatSB_SetScrollInfo, FlatSB_SetScrollInfo function [Windows Controls], SB_HORZ, SB_VERT, SIF_ALL, SIF_DISABLENOSCROLL, SIF_PAGE, SIF_POS, SIF_RANGE, _win32_FlatSB_SetScrollInfo, _win32_FlatSB_SetScrollInfo_cpp, commctrl/FlatSB_SetScrollInfo, controls.FlatSB_SetScrollInfo, controls._win32_FlatSB_SetScrollInfo
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: commctrl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: CATEGORYINFO, *LPCATEGORYINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Comctl32.dll
+api_name:
+-	FlatSB_SetScrollInfo
+product: Windows
+targetos: Windows
+req.lib: Comctl32.lib
+req.dll: Comctl32.dll (version 4.71 or later)
+req.irql: 
+---
+
+# FlatSB_SetScrollInfo function
+
+
+## -description
+
+
+Sets the information for a flat scroll bar. If flat scroll bars are not initialized for the window, this function calls the standard <a href="https://msdn.microsoft.com/a45af17c-df18-4156-be8b-868fc4cb0696">SetScrollInfo</a> function. 
+
+
+## -parameters
+
+
+
+
+### -param param
+
+TBD
+
+
+### -param code
+
+TBD
+
+
+### -param psi
+
+TBD
+
+
+### -param fRedraw
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+
+Specifies whether the scroll bar should be redrawn immediately to reflect the change. If this parameter is <b>TRUE</b>, the scroll bar is redrawn; if it is <b>FALSE</b>, the scroll bar is not redrawn. 
+
+
+#### - fnBar
+
+Type: <b>int</b>
+
+The scroll bar type. It can be one of the following values: 
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="SB_HORZ"></a><a id="sb_horz"></a><dl>
+<dt><b>SB_HORZ</b></dt>
+</dl>
+</td>
+<td width="60%">
+Sets the information for the horizontal scroll bar. 
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SB_VERT"></a><a id="sb_vert"></a><dl>
+<dt><b>SB_VERT</b></dt>
+</dl>
+</td>
+<td width="60%">
+Sets the information for the vertical scroll bar. 
+
+</td>
+</tr>
+</table>
+ 
+
+
+#### - hwnd
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+
+A handle to the window that contains the flat scroll bar. This window handle must have been passed previously in a call to <a href="https://msdn.microsoft.com/ecad7e1b-5250-47fc-bc0f-81889186729f">InitializeFlatSB</a>. 
+
+
+#### - lpsi
+
+Type: <b>LPSCROLLINFO</b>
+
+A pointer to a <a href="https://msdn.microsoft.com/abb0d18e-81b5-422c-b6e6-318a2d1d11a4">SCROLLINFO</a> structure that contains the new information for the specified scroll bar. The <b>cbSize</b> and 
+					<b>fMask</b> members of the structure must be filled in prior to calling <b>FlatSB_SetScrollInfo</b>. The <b>fMask</b> member specifies which members of the structure contain valid information and can be any combination of the following values: 
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="SIF_DISABLENOSCROLL"></a><a id="sif_disablenoscroll"></a><dl>
+<dt><b>SIF_DISABLENOSCROLL</b></dt>
+</dl>
+</td>
+<td width="60%">
+Disables the scroll bar if the new information would cause the scroll bar to be removed. 
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SIF_PAGE"></a><a id="sif_page"></a><dl>
+<dt><b>SIF_PAGE</b></dt>
+</dl>
+</td>
+<td width="60%">
+Sets the page information for the flat scroll bar. The 
+						<b>nPage</b> member of the <a href="https://msdn.microsoft.com/abb0d18e-81b5-422c-b6e6-318a2d1d11a4">SCROLLINFO</a> structure must contain the new page value. 
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SIF_POS"></a><a id="sif_pos"></a><dl>
+<dt><b>SIF_POS</b></dt>
+</dl>
+</td>
+<td width="60%">
+Sets the position information for the flat scroll bar. The 
+						<b>nPos</b> member of the <a href="https://msdn.microsoft.com/abb0d18e-81b5-422c-b6e6-318a2d1d11a4">SCROLLINFO</a> structure must contain the new position value. 
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SIF_RANGE"></a><a id="sif_range"></a><dl>
+<dt><b>SIF_RANGE</b></dt>
+</dl>
+</td>
+<td width="60%">
+Sets the range information for the flat scroll bar. The 
+						<b>nMin</b> and 
+						<b>nMax</b> members of the <a href="https://msdn.microsoft.com/abb0d18e-81b5-422c-b6e6-318a2d1d11a4">SCROLLINFO</a> structure must contain the new range values.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SIF_ALL"></a><a id="sif_all"></a><dl>
+<dt><b>SIF_ALL</b></dt>
+</dl>
+</td>
+<td width="60%">
+A combination of SIF_PAGE, SIF_POS, and SIF_RANGE.
+
+</td>
+</tr>
+</table>
+ 
+
+
+## -returns
+
+
+
+Type: <b>int</b>
+
+Returns the current scroll position. If the call to <b>FlatSB_SetScrollInfo</b> changes the scroll position, then the previous position is returned.
+
+
+
+
+## -remarks
+
+
+
+<div class="alert"><b>Note</b>  Flat scroll bar functions are implemented in Comctl32.dll versions 4.71 through 5.82. Comctl32.dll versions 6.00 and higher do not support flat scroll bars.</div>
+<div> </div>
+
+

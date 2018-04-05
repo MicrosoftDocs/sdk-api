@@ -1,0 +1,94 @@
+---
+UID: NF:mfidl.IMFNetResourceFilter.OnRedirect
+title: IMFNetResourceFilter::OnRedirect method
+author: windows-driver-content
+description: Called when the byte stream redirects to a URL.
+old-location: mf\imfnetresourcefilter_onredirect.htm
+old-project: medfound
+ms.assetid: 418EA3E0-9732-43B7-BF80-A85ECB7A9485
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: IMFNetResourceFilter, IMFNetResourceFilter interface [Media Foundation], OnRedirect method, IMFNetResourceFilter::OnRedirect, OnRedirect method [Media Foundation], OnRedirect method [Media Foundation], IMFNetResourceFilter interface, OnRedirect,IMFNetResourceFilter.OnRedirect, mf.imfnetresourcefilter_onredirect, mfidl/IMFNetResourceFilter::OnRedirect
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: mfidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: None supported
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MF_URL_TRUST_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfidl.h
+api_name:
+-	IMFNetResourceFilter.OnRedirect
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IMFNetResourceFilter::OnRedirect method
+
+
+## -description
+
+
+Called when the byte stream redirects to a URL.
+
+
+## -parameters
+
+
+
+
+### -param pszUrl
+
+
+
+
+### -param pvbCancel [out]
+
+To cancel the redirection, set this parameter to <b>VARIANT_TRUE</b>. To allow the redirection, set this parameter to <b>VARIANT_FALSE</b>.
+
+
+#### - [in]
+
+The URL to which the connection has been redirected.
+
+
+## -returns
+
+
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/AC8FBD93-B39B-4530-8475-275D3D0DA512">IMFNetResourceFilter</a>
+ 
+
+ 
+

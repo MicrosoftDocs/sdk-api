@@ -1,0 +1,79 @@
+---
+UID: NF:azroles.IAzApplication3.ScopeExists
+title: IAzApplication3::ScopeExists method
+author: windows-driver-content
+description: Indicates whether the specified scope exists in this IAzApplication3 object.
+old-location: security\iazapplication3_scopeexists.htm
+old-project: SecAuthZ
+ms.assetid: 585f8b16-e634-4ac6-a20a-214eea344b0a
+ms.author: windowsdriverdev
+ms.date: 3/29/2018
+ms.keywords: IAzApplication3, IAzApplication3 interface [Security], ScopeExists method, IAzApplication3::ScopeExists, ScopeExists method [Security], ScopeExists method [Security], IAzApplication3 interface, ScopeExists,IAzApplication3.ScopeExists, azroles/IAzApplication3::ScopeExists, security.iazapplication3_scopeexists
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: azroles.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: AZ_PROP_CONSTANTS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Azroles.dll
+api_name:
+-	IAzApplication3.ScopeExists
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Azroles.dll
+req.irql: 
+---
+
+# IAzApplication3::ScopeExists method
+
+
+## -description
+
+
+The <b>ScopeExists</b> method indicates whether the specified scope exists in this <a href="https://msdn.microsoft.com/9d0b2c3b-b8b6-4fae-9308-9dd29da0724f">IAzApplication3</a> object.
+
+
+## -parameters
+
+
+
+
+### -param bstrScopeName [in]
+
+A string that contains the name of the scope to be checked.
+
+
+### -param pbExist [out]
+
+<b>VARIANT_TRUE</b> if the specified scope exists in this <a href="https://msdn.microsoft.com/9d0b2c3b-b8b6-4fae-9308-9dd29da0724f">IAzApplication3</a> object; otherwise, <b>VARIANT_FALSE</b>.
+
+
+## -returns
+
+
+
+ If the method succeeds, it returns <b>S_OK</b>.
+
+If the method fails, it returns an error code. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+
+
+

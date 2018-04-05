@@ -1,0 +1,88 @@
+---
+UID: NF:uiautomationclient.IUIAutomationElement2.get_CurrentOptimizeForVisualContent
+title: IUIAutomationElement2::get_CurrentOptimizeForVisualContent method
+author: windows-driver-content
+description: Indicates whether the provider exposes only elements that are visible.
+old-location: winauto\uiauto_IUIAutomationElement_CurrentOptimizeForVisualContent.htm
+old-project: WinAuto
+ms.assetid: A501BC99-A387-4997-913D-7BEDE8C1E6B3
+ms.author: windowsdriverdev
+ms.date: 3/29/2018
+ms.keywords: CurrentOptimizeForVisualContent property [Windows Accessibility], CurrentOptimizeForVisualContent property [Windows Accessibility], IUIAutomationElement2 interface, IUIAutomationElement2, IUIAutomationElement2 interface [Windows Accessibility], CurrentOptimizeForVisualContent property, IUIAutomationElement2.CurrentOptimizeForVisualContent, IUIAutomationElement2::get_CurrentOptimizeForVisualContent, get_CurrentOptimizeForVisualContent,IUIAutomationElement2.get_CurrentOptimizeForVisualContent, uiautomationclient/IUIAutomationElement2::CurrentOptimizeForVisualContent, uiautomationclient/IUIAutomationElement2::get_CurrentOptimizeForVisualContent, winauto.uiauto_IUIAutomationElement_CurrentOptimizeForVisualContent
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: uiautomationclient.h
+req.include-header: UIAutomation.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: UIAutomationClient.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	UIAutomationClient.h
+api_name:
+-	IUIAutomationElement2.CurrentOptimizeForVisualContent
+-	IUIAutomationElement2.get_CurrentOptimizeForVisualContent
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# IUIAutomationElement2::get_CurrentOptimizeForVisualContent method
+
+
+## -description
+
+
+Indicates whether the provider exposes only elements that are visible.
+
+This property is read-only.
+
+
+## -parameters
+
+
+## -remarks
+
+
+
+A value of TRUE indicates that the provider optimizes for visual content, while FALSE indicates that the provider optimizes for virtual content. For more information, see <a href="https://msdn.microsoft.com/e1898ba0-5ffa-4c61-b378-c7ef7c4a2c52">Working with Virtualized Items</a>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/FB1484D0-BF83-431B-A90B-B5F1757C4928">CachedOptimizeForVisualContent</a>
+
+
+
+<a href="https://msdn.microsoft.com/4D9A4E94-BAE9-4E85-8F21-7CABFBE64C6D">IUIAutomationElement2</a>
+
+
+
+<b>Reference</b>
+ 
+
+ 
+

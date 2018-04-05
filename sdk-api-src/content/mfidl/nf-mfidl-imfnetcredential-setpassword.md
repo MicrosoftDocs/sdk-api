@@ -1,0 +1,117 @@
+---
+UID: NF:mfidl.IMFNetCredential.SetPassword
+title: IMFNetCredential::SetPassword method
+author: windows-driver-content
+description: Sets the password.
+old-location: mf\imfnetcredential_setpassword.htm
+old-project: medfound
+ms.assetid: 7de58b57-83fe-4c3a-9029-e9be556c84c9
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: 7de58b57-83fe-4c3a-9029-e9be556c84c9, IMFNetCredential, IMFNetCredential interface [Media Foundation], SetPassword method, IMFNetCredential::SetPassword, SetPassword method [Media Foundation], SetPassword method [Media Foundation], IMFNetCredential interface, SetPassword,IMFNetCredential.SetPassword, mf.imfnetcredential_setpassword, mfidl/IMFNetCredential::SetPassword
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: mfidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MF_URL_TRUST_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfuuid.lib
+-	mfuuid.dll
+api_name:
+-	IMFNetCredential.SetPassword
+product: Windows
+targetos: Windows
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IMFNetCredential::SetPassword method
+
+
+## -description
+
+
+
+Sets the password.
+
+
+
+
+## -parameters
+
+
+
+
+### -param pbData [in]
+
+Pointer to a buffer that contains the password. If <i>fDataIsEncrypted</i> is <b>FALSE</b>, the buffer is a wide-character string. Otherwise, the buffer contains encrypted data.
+
+
+### -param cbData [in]
+
+Size of <i>pbData</i>, in bytes. If <i>fDataIsEncrypted</i> is <b>FALSE</b>, the size includes the terminating null character.
+
+
+### -param fDataIsEncrypted [in]
+
+If <b>TRUE</b>, the password is encrypted. Otherwise, the password is not encrypted.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/d202e7bc-9ce0-4861-8552-5a4d599b1661">IMFNetCredential</a>
+ 
+
+ 
+

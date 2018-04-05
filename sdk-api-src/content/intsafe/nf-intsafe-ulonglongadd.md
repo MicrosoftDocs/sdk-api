@@ -1,0 +1,100 @@
+---
+UID: NF:intsafe.ULongLongAdd
+title: ULongLongAdd function
+author: windows-driver-content
+description: Adds two values of type ULONGLONG.
+old-location: shell\ULongLongAdd.htm
+old-project: shell
+ms.assetid: 464d9907-cdce-47a4-8cb5-3b04fdb21859
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: ULongLongAdd, ULongLongAdd function [Windows Shell], _shell_ULongLongAdd, intsafe/ULongLongAdd, shell.ULongLongAdd
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: intsafe.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MANIPULATION_VELOCITY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Intsafe.h
+api_name:
+-	ULongLongAdd
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# ULongLongAdd function
+
+
+## -description
+
+
+Adds two values of type <b>ULONGLONG</b>.
+
+
+## -parameters
+
+
+
+
+### -param ullAugend [in]
+
+Type: <b>ULONGLONG</b>
+
+The first value in the equation.
+
+
+### -param ullAddend [in]
+
+Type: <b>ULONGLONG</b>
+
+The value to add to <i>ullAugend</i>.
+
+
+### -param pullResult [out]
+
+Type: <b>ULONGLONG*</b>
+
+A pointer to the sum. If the operation results in a value that overflows or underflows the capacity of the type, the function returns INTSAFE_E_ARITHMETIC_OVERFLOW and this parameter is not valid.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+This is one of a set of inline functions designed to provide arithmetic operations and perform validity checks with minimal impact on performance.
+
+
+

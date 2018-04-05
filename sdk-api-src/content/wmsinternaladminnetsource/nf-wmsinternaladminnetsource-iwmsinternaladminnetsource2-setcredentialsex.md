@@ -1,0 +1,128 @@
+---
+UID: NF:wmsinternaladminnetsource.IWMSInternalAdminNetSource2.SetCredentialsEx
+title: IWMSInternalAdminNetSource2::SetCredentialsEx method
+author: windows-driver-content
+description: The SetCredentialsEx method adds a password to the cache.
+old-location: wmformat\iwmsinternaladminnetsource2_setcredentialsex.htm
+old-project: wmformat
+ms.assetid: ca45626e-3f4d-415d-a4d1-90ce0177bd10
+ms.author: windowsdriverdev
+ms.date: 3/23/2018
+ms.keywords: IWMSInternalAdminNetSource2, IWMSInternalAdminNetSource2 interface [windows Media Format], SetCredentialsEx method, IWMSInternalAdminNetSource2::SetCredentialsEx, IWMSInternalAdminNetSource2SetCredentialsEx, SetCredentialsEx method [windows Media Format], SetCredentialsEx method [windows Media Format], IWMSInternalAdminNetSource2 interface, SetCredentialsEx,IWMSInternalAdminNetSource2.SetCredentialsEx, wmformat.iwmsinternaladminnetsource2_setcredentialsex, wmsinternaladminnetsource/IWMSInternalAdminNetSource2::SetCredentialsEx
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wmsinternaladminnetsource.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: NETSOURCE_URLCREDPOLICY_SETTINGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wmvcore.lib
+-	Wmvcore.dll
+-	WMStubDRM.lib
+-	WMStubDRM.dll
+api_name:
+-	IWMSInternalAdminNetSource2.SetCredentialsEx
+product: Windows
+targetos: Windows
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IWMSInternalAdminNetSource2::SetCredentialsEx method
+
+
+## -description
+
+
+
+The <b>SetCredentialsEx</b> method adds a password to the cache. This improved version of <a href="https://msdn.microsoft.com/c0655ed3-8d14-447a-b74f-054498eb75e9">IWMSInternalAdminNetSource::SetCredentials</a> uses the combination of realm, URL, and proxy use to identify the credentials. This is an improvement over using the realm by itself, which can easily be spoofed by malicious code.
+
+
+
+This method has been superseded by <a href="https://msdn.microsoft.com/6d4fbd40-46f8-4f9e-b2bc-43c09acf4d67">IWMSInternalAdminNetSource3::SetCredentialsEx2</a>.
+
+
+## -parameters
+
+
+
+
+### -param bstrRealm [in]
+
+String containing the realm name. Realm names are supplied by servers to distinguish different levels of access to their files. Not all servers have realm names, in which case the DNS name should be used.
+
+If <i>fProxy</i> is False, this realm refers to the host server. If <i>fProxy</i> is True, this realm refers to the proxy server.
+
+
+### -param bstrUrl [in]
+
+String containing the URL to which the credentials apply.
+
+
+### -param fProxy [in]
+
+Boolean value that is True if the password applies when using a proxy server to access the site specified by <i>bstrUrl</i>.
+
+
+### -param bstrName [in]
+
+String containing the user name.
+
+
+### -param bstrPassword [in]
+
+String containing the password.
+
+
+### -param fPersist [in]
+
+Boolean value that is True if these credentials should be permanently saved. If you set this to False, the credentials will only be persisted for the current session.
+
+
+### -param fConfirmedGood [in]
+
+Boolean value that is True if the server has confirmed the password as correct. You can cache the password before receiving verification from the server, in which case you should set this to False.
+
+
+## -returns
+
+
+
+If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</b> error code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/6d334725-11d5-4249-a83d-fc8c1c35a56f">IWMSInternalAdminNetSource2 Interface</a>
+
+
+
+<a href="https://msdn.microsoft.com/5840fe0b-34f6-4e39-b55f-7e07b7795e52">IWMSInternalAdminNetSource2::GetCredentialsEx</a>
+ 
+
+ 
+

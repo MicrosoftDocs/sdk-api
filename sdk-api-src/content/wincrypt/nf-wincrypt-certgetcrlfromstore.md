@@ -1,0 +1,238 @@
+---
+UID: NF:wincrypt.CertGetCRLFromStore
+title: CertGetCRLFromStore function
+author: windows-driver-content
+description: Gets the first or next certificate revocation list (CRL) context from the certificate store for the specified issuer.
+old-location: security\certgetcrlfromstore.htm
+old-project: SecCrypto
+ms.assetid: 7bd21424-4f74-4bac-ab47-00d51ebdca1c
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: CERT_STORE_BASE_CRL_FLAG, CERT_STORE_DELTA_CRL_FLAG, CERT_STORE_SIGNATURE_FLAG, CERT_STORE_TIME_VALIDITY_FLAG, CertGetCRLFromStore, CertGetCRLFromStore function [Security], _crypto2_certgetcrlfromstore, security.certgetcrlfromstore, wincrypt/CertGetCRLFromStore
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: wincrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Crypt32.dll
+api_name:
+-	CertGetCRLFromStore
+product: Windows
+targetos: Windows
+req.lib: Crypt32.lib
+req.dll: Crypt32.dll
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# CertGetCRLFromStore function
+
+
+## -description
+
+
+The <b>CertGetCRLFromStore</b> function gets the first or next <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate revocation list</a> (CRL) <a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">context</a> from the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate store</a> for the specified issuer. The function also performs the enabled verification checks on the CRL. The new 
+<a href="cryptography_functions.htm">Certificate Chain Verification Functions</a> are recommended instead of this function.
+
+
+## -parameters
+
+
+
+
+### -param hCertStore [in]
+
+Handle of a certificate store.
+
+
+### -param pIssuerContext [in, optional]
+
+A pointer to an issuer 
+<a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a31026eea">CERT_CONTEXT</a>. The <i>pIssuerContext</i> pointer can come from this store or another store, or could have been created by the calling 
+<a href="https://msdn.microsoft.com/a32714c4-ee88-48a8-a40a-bbbfec0613ac">CertCreateCertificateContext</a>. If <b>NULL</b> is passed for this parameter, all the CRLs in the store are found.
+
+
+### -param pPrevCrlContext [in]
+
+A pointer to a 
+<a href="https://msdn.microsoft.com/cf7cabcd-b469-492a-b855-8870465ea1cc">CRL_CONTEXT</a>. An issuer can have multiple CRLs. For example, it can generate delta CRLs by using an <a href="https://msdn.microsoft.com/28dba6ef-939f-4789-9789-ee6e0fef0177">X.509</a> version 3 extension. This parameter must be <b>NULL</b> on the first call to get the CRL. To get the next CRL for the issuer, the parameter is set to the <b>CRL_CONTEXT</b> returned by a previous call. A non-<b>NULL</b><i>pPrevCrlContext</i> is always freed by this function by calling <a href="https://msdn.microsoft.com/19a590a5-bd39-4bbe-ad86-4e648baa1ba8">CertFreeCRLContext</a>, even for an error.
+
+
+### -param pdwFlags [in, out]
+
+
+					The following flag values are defined to enable verification checks on the returned CRL. These flags can be combined using a bitwise-<b>OR</b> operation. 
+
+
+
+
+						
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="CERT_STORE_SIGNATURE_FLAG"></a><a id="cert_store_signature_flag"></a><dl>
+<dt><b>CERT_STORE_SIGNATURE_FLAG</b></dt>
+</dl>
+</td>
+<td width="60%">
+Uses the public key in the issuer's certificate to verify the signature on the returned CRL.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="CERT_STORE_TIME_VALIDITY_FLAG"></a><a id="cert_store_time_validity_flag"></a><dl>
+<dt><b>CERT_STORE_TIME_VALIDITY_FLAG</b></dt>
+</dl>
+</td>
+<td width="60%">
+Gets the current time and verifies that it is within the time between the CRL's ThisUpdate and NextUpdate.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="CERT_STORE_BASE_CRL_FLAG"></a><a id="cert_store_base_crl_flag"></a><dl>
+<dt><b>CERT_STORE_BASE_CRL_FLAG</b></dt>
+</dl>
+</td>
+<td width="60%">
+Gets a base CRL.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="CERT_STORE_DELTA_CRL_FLAG"></a><a id="cert_store_delta_crl_flag"></a><dl>
+<dt><b>CERT_STORE_DELTA_CRL_FLAG</b></dt>
+</dl>
+</td>
+<td width="60%">
+Gets a delta CRL.
+
+</td>
+</tr>
+</table>
+ 
+
+If an enabled verification check succeeds, its flag is set to zero. 
+						
+
+If an enabled verification check fails, its flag remains set upon return. If <i>pIssuerContext</i> is <b>NULL</b>, then an enabled CERT_STORE_SIGNATURE_FLAG always fails and the CERT_STORE_NO_ISSUER_FLAG is also set. For more details, see  Remarks.
+
+If only one of CERT_STORE_BASE_CRL_FLAG or CERT_STORE_DELTA_CRL_FLAG is set, this function returns either a base or delta CRL and the appropriate base or delta flag will be cleared on return. If both flags are set, only one of the flags will be cleared.
+
+For a verification check failure, a pointer to the first or next 
+<a href="https://msdn.microsoft.com/cf7cabcd-b469-492a-b855-8870465ea1cc">CRL_CONTEXT</a> is still returned and 
+<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> is not updated.
+
+
+## -returns
+
+
+
+If the function succeeds, the return value is a pointer to a read-only <a href="https://msdn.microsoft.com/cf7cabcd-b469-492a-b855-8870465ea1cc">CRL_CONTEXT</a>.
+
+If the function fails and the first or next CRL is not found, the return value is <b>NULL</b>.
+
+The returned <a href="https://msdn.microsoft.com/cf7cabcd-b469-492a-b855-8870465ea1cc">CRL_CONTEXT</a> must be freed by calling 
+<a href="https://msdn.microsoft.com/19a590a5-bd39-4bbe-ad86-4e648baa1ba8">CertFreeCRLContext</a>. However, when the returned <b>CRL_CONTEXT</b> is supplied for <i>pPrevCrlContext</i> on a subsequent call, the function frees it.
+
+For extended error information, call 
+<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. Some possible error codes follow.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+The handle in the <i>hCertStore</i> parameter is not the same as that in the CRL context pointed to by the <i>pPrevCrlContext</i> parameter, or an unsupported flag was set in <i>pdwFlags</i>.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>CRYPT_E_NOT_FOUND</b></dt>
+</dl>
+</td>
+<td width="60%">
+Either no CRLs existed in the store for the issuer, or the function reached the end of the store's list.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+
+<a href="https://msdn.microsoft.com/ea14c494-d1c7-46d0-9d56-fc89a4b4afa9">CertDuplicateCRLContext</a> can be called to make a duplicate CRL.
+
+The hexadecimal values of the flags can be combined using a bitwise-<b>OR</b> operation to enable both verifications. For example, to enable both verifications, the <b>DWORD</b> value pointed to by <i>pdwFlags</i> is set to value CERT_STORE_SIGNATURE_FLAG | CERT_STORE_TIME_VALIDITY_FLAG. If the CERT_STORE_SIGNATURE_FLAG verification succeeded, but CERT_STORE_TIME_VALIDITY_FLAG verification failed, the <b>DWORD</b> value pointed to by <i>pdwFlags</i> is set to CERT_STORE_TIME_VALIDITY_FLAG when the function returns.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/cf7cabcd-b469-492a-b855-8870465ea1cc">CRL_CONTEXT</a>
+
+
+
+<a href="https://msdn.microsoft.com/a32714c4-ee88-48a8-a40a-bbbfec0613ac">CertCreateCertificateContext</a>
+
+
+
+<a href="https://msdn.microsoft.com/ea14c494-d1c7-46d0-9d56-fc89a4b4afa9">CertDuplicateCRLContext</a>
+
+
+
+<a href="https://msdn.microsoft.com/19a590a5-bd39-4bbe-ad86-4e648baa1ba8">CertFreeCRLContext</a>
+
+
+
+<a href="https://msdn.microsoft.com/16c2cc06-28fd-42d9-a377-0df2eaeeae56">CertGetCRLContextProperty</a>
+
+
+
+<a href="cryptography_functions.htm">Certificate Revocation List Functions</a>
+ 
+
+ 
+

@@ -1,0 +1,128 @@
+---
+UID: NF:bits.IBackgroundCopyError.GetFile
+title: IBackgroundCopyError::GetFile method
+author: windows-driver-content
+description: Retrieves an interface pointer to the file object associated with the error.
+old-location: bits\ibackgroundcopyerror_getfile.htm
+old-project: Bits
+ms.assetid: 7b6d4bd4-2102-4e6b-b250-1d73fae94cf9
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: GetFile method [BITS], GetFile method [BITS], IBackgroundCopyError interface, GetFile,IBackgroundCopyError.GetFile, IBackgroundCopyError, IBackgroundCopyError interface [BITS], GetFile method, IBackgroundCopyError::GetFile, _drz_ibackgroundcopyerror_getfile, bits.ibackgroundcopyerror_getfile, bits/IBackgroundCopyError::GetFile
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: bits.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP
+req.target-min-winversvr: Windows Server 2003
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Bits.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: BG_JOB_PROXY_USAGE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	QmgrPrxy.dll
+api_name:
+-	IBackgroundCopyError.GetFile
+product: Windows
+targetos: Windows
+req.lib: Bits.lib
+req.dll: QmgrPrxy.dll
+req.irql: 
+---
+
+# IBackgroundCopyError::GetFile method
+
+
+## -description
+
+
+Retrieves an interface pointer to the file object associated with the error.
+
+
+## -parameters
+
+
+
+
+### -param pVal
+
+
+
+
+
+
+#### - ppFile [out]
+
+An <a href="https://msdn.microsoft.com/fae9cf56-c211-445b-b962-9a9d7d67c59c">IBackgroundCopyFile</a> interface pointer whose methods you use to determine the local and remote file names associated with the error. The <i>ppFile</i> parameter is set to <b>NULL</b> if the error is not associated with the local or remote file. When done, release <i>ppFile</i>.
+
+
+## -returns
+
+
+
+This method returns the following <b>HRESULT</b> values.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b><b>S_OK</b></b></dt>
+</dl>
+</td>
+<td width="60%">
+Successfully retrieved an interface pointer to the file object.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>BG_E_FILE_NOT_AVAILABLE</b></dt>
+</dl>
+</td>
+<td width="60%">
+The error is not associated with a local or remote file. The <i>ppFile</i> parameter is set to <b>NULL</b>.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/abdf115d-3ff2-4664-b053-f55872ad24ab">IBackgroundCopyError::GetError</a>
+
+
+
+<a href="https://msdn.microsoft.com/87f5ae62-c171-4637-bebb-3a5c5aa546b3">IBackgroundCopyError::GetErrorContextDescription</a>
+
+
+
+<a href="https://msdn.microsoft.com/57323f38-c2e6-4e40-b357-7df758899f97">IBackgroundCopyError::GetErrorDescription</a>
+ 
+
+ 
+

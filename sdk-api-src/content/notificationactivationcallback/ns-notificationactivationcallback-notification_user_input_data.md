@@ -1,0 +1,91 @@
+---
+UID: NS:notificationactivationcallback.NOTIFICATION_USER_INPUT_DATA
+title: NOTIFICATION_USER_INPUT_DATA
+author: windows-driver-content
+description: Contains information about how a user interacted with a notification toast in the action center. This structure is used by Activate.
+old-location: win32_tile_badge_notif\notification_user_input_data.htm
+old-project: win32_tile_badge_notif
+ms.assetid: C39B906E-4EB2-4EFF-B0A3-76E6B17A3662
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: NOTIFICATION_USER_INPUT_DATA, NOTIFICATION_USER_INPUT_DATA structure, PNOTIFICATION_USER_INPUT_DATA, PNOTIFICATION_USER_INPUT_DATA structure pointer, notificationactivationcallback/NOTIFICATION_USER_INPUT_DATA, notificationactivationcallback/PNOTIFICATION_USER_INPUT_DATA, win32_tile_badge_notif.notification_user_input_data
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: struct
+req.header: notificationactivationcallback.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: None supported
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: NOTIFICATION_USER_INPUT_DATA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	NotificationActivationCallback.h
+api_name:
+-	NOTIFICATION_USER_INPUT_DATA
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# NOTIFICATION_USER_INPUT_DATA structure
+
+
+## -description
+
+
+<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
+
+Contains information about how a user interacted with a notification toast in the action center. This structure is used by <a href="https://msdn.microsoft.com/C366FE9F-D962-485F-B029-A96AA3358942">Activate</a>.
+
+
+## -struct-fields
+
+
+
+
+### -field Key
+
+The ID of the user input field in the XML payload.
+
+
+### -field Value
+
+The input value selected by the user for a given input field.
+
+
+## -remarks
+
+
+
+Each key-value pair contains a piece of information based on an item in the notification toast when the <a href="https://msdn.microsoft.com/C366FE9F-D962-485F-B029-A96AA3358942">Activate</a> callback is triggered.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/050E6944-6727-4632-85E8-8E68887D4786">Respond to toast activations</a>
+ 
+
+ 
+

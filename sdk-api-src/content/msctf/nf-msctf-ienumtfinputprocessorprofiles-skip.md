@@ -1,0 +1,103 @@
+---
+UID: NF:msctf.IEnumTfInputProcessorProfiles.Skip
+title: IEnumTfInputProcessorProfiles::Skip method
+author: windows-driver-content
+description: The IEnumTfInputProcessorProfiles::Skip method moves the current position forward in the enumeration sequence by the specified number of elements.
+old-location: tsf\ienumtfinputprocessorprofiles_skip.htm
+old-project: TSF
+ms.assetid: 7b0bf0be-1f0d-4da9-a8d2-c8a29ae3dcac
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: IEnumTfInputProcessorProfiles, IEnumTfInputProcessorProfiles interface [Text Services Framework], Skip method, IEnumTfInputProcessorProfiles::Skip, Skip method [Text Services Framework], Skip method [Text Services Framework], IEnumTfInputProcessorProfiles interface, Skip,IEnumTfInputProcessorProfiles.Skip, msctf/IEnumTfInputProcessorProfiles::Skip, tsf.ienumtfinputprocessorprofiles_skip
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: msctf.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Msctf.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: TF_DA_ATTR_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Msctf.dll
+api_name:
+-	IEnumTfInputProcessorProfiles.Skip
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IEnumTfInputProcessorProfiles::Skip method
+
+
+## -description
+
+
+The <a href="https://msdn.microsoft.com/b936c479-a5f1-47a3-bd5a-f1b83cd84dc0">IEnumTfInputProcessorProfiles::Skip</a> method moves the current position forward in the enumeration sequence by the specified number of elements.
+
+
+## -parameters
+
+
+
+
+### -param ulCount [in]
+
+[in] Contains the number of elements to skip.
+
+
+## -returns
+
+
+
+This method can return one of these values.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method was successful.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_FALSE</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method reached the end of the enumeration before the specified number of elements could be skipped.
+
+</td>
+</tr>
+</table>
+ 
+
+
+

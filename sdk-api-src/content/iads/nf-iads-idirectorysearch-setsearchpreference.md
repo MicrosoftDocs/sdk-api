@@ -1,0 +1,101 @@
+---
+UID: NF:iads.IDirectorySearch.SetSearchPreference
+title: IDirectorySearch::SetSearchPreference method
+author: windows-driver-content
+description: Specifies a search preference for obtaining data in a subsequent search.
+old-location: adsi\idirectorysearch_setsearchpreference.htm
+old-project: ADSI
+ms.assetid: 1c5b3f72-6165-41ad-99d4-d68bc12ac10b
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: IDirectorySearch, IDirectorySearch interface [ADSI], SetSearchPreference method, IDirectorySearch::SetSearchPreference, SetSearchPreference method [ADSI], SetSearchPreference method [ADSI], IDirectorySearch interface, SetSearchPreference,IDirectorySearch.SetSearchPreference, _ds_idirectorysearch_setsearchpreference, adsi.idirectorysearch__setsearchpreference, adsi.idirectorysearch_setsearchpreference, iads/IDirectorySearch::SetSearchPreference
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: iads.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: ADS_SD_FORMAT_ENUM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Activeds.dll
+-	Adsldp.dll
+-	Adsldpc.dll
+api_name:
+-	IDirectorySearch.SetSearchPreference
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Activeds.dll; Adsldp.dll; Adsldpc.dll
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IDirectorySearch::SetSearchPreference method
+
+
+## -description
+
+
+The <b>IDirectorySearch::SetSearchPreference</b> method specifies a search preference for obtaining data in a subsequent search.
+
+
+## -parameters
+
+
+
+
+### -param pSearchPrefs [in]
+
+Provides a caller-allocated array of  <a href="https://msdn.microsoft.com/5fc46271-a1be-4a9d-a340-ed801211736a">ADS_SEARCHPREF_INFO</a> structures that contain the search preferences to be set.
+
+
+### -param dwNumPrefs [in]
+
+Provides the size of the <i>pSearchPrefs</i> array.
+
+
+## -returns
+
+
+
+This method supports the standard return values, as well as the following:
+
+For more information and other return values, see  <a href="https://msdn.microsoft.com/573889e4-37af-4aca-afd7-ef06bcf8aa0d">ADSI Error Codes</a>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/573889e4-37af-4aca-afd7-ef06bcf8aa0d">ADSI Error Codes</a>
+
+
+
+<a href="https://msdn.microsoft.com/5fc46271-a1be-4a9d-a340-ed801211736a">ADS_SEARCHPREF_INFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/e8989795-8f72-476a-a69e-c0e8800289ab">IDirectorySearch</a>
+ 
+
+ 
+

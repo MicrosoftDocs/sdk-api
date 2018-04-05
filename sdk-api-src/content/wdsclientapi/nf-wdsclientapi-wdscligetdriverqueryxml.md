@@ -1,0 +1,78 @@
+---
+UID: NF:wdsclientapi.WdsCliGetDriverQueryXml
+title: WdsCliGetDriverQueryXml function
+author: windows-driver-content
+description: This function generates an XML string which can be used to query a WDS server for driver packages using the WdsCliObtainDriverPackagesEx function.
+old-location: wds\wdscligetdriverqueryxml.htm
+old-project: Wds
+ms.assetid: 0E5ABBBD-CD8A-4D0B-9D4B-5044278961D8
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: WdsCliGetDriverQueryXml, WdsCliGetDriverQueryXml function [Windows Deployment Services], wds.wdscligetdriverqueryxml, wdsclientapi/WdsCliGetDriverQueryXml
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: wdsclientapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WAITCHAIN_NODE_INFO, *PWAITCHAIN_NODE_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	WdsClientAPI.dll
+api_name:
+-	WdsCliGetDriverQueryXml
+product: Windows
+targetos: Windows
+req.lib: WdsClientAPI.lib
+req.dll: WdsClientAPI.dll
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# WdsCliGetDriverQueryXml function
+
+
+## -description
+
+
+This function generates an XML string which can be used to query a WDS server for driver packages using the <a href="https://msdn.microsoft.com/C9AA3036-8E34-4F57-829C-F5D8CDA2EAA7">WdsCliObtainDriverPackagesEx</a> function.  The target OS information section of the WDS driver query XML is generated if the path to the Windows directory of the applied image is specified. 
+
+
+## -parameters
+
+
+
+
+### -param pwszWinDirPath [in, optional]
+
+The path to the Windows directory of the applied image. This parameter is optional. If it is specified,  the section of the WDS driver query XML  for the target operating system is generated.
+
+
+### -param ppwszDriverQuery [out]
+
+A pointer to a pointer to a string that receives the generated WDS driver query XML. The caller has to free this buffer using "delete[](*ppwszDriverQuery)".
+
+
+## -returns
+
+
+
+If the function succeeds, the return is <b>S_OK</b>.
+
+
+

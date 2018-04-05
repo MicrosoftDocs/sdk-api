@@ -1,0 +1,101 @@
+---
+UID: NF:ctffunc.IEnumTfCandidates.Skip
+title: IEnumTfCandidates::Skip method
+author: windows-driver-content
+description: IEnumTfCandidates::Skip method
+old-location: tsf\ienumtfcandidates_skip.htm
+old-project: TSF
+ms.assetid: f32587f2-cdfa-4cbc-8a5c-f6630c7866f9
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: IEnumTfCandidates, IEnumTfCandidates interface [Text Services Framework], Skip method, IEnumTfCandidates::Skip, Skip method [Text Services Framework], Skip method [Text Services Framework], IEnumTfCandidates interface, Skip,IEnumTfCandidates.Skip, _tsf_ienumtfcandidates_skip_ref, ctffunc/IEnumTfCandidates::Skip, tsf.ienumtfcandidates_skip
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: ctffunc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Ctffunc.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: TfIntegratableCandidateListSelectionStyle
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Msctf.dll
+api_name:
+-	IEnumTfCandidates.Skip
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
+---
+
+# IEnumTfCandidates::Skip method
+
+
+## -description
+
+
+
+
+## -parameters
+
+
+
+
+### -param ulCount [in]
+
+Contains the number of elements to skip.
+
+
+## -returns
+
+
+
+This method can return one of these values.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method was successful.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_FALSE</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method reached the end of the enumeration before the specified number of elements could be skipped.
+
+</td>
+</tr>
+</table>
+ 
+
+
+

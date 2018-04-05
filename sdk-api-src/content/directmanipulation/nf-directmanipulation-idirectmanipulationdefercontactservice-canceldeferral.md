@@ -1,0 +1,84 @@
+---
+UID: NF:directmanipulation.IDirectManipulationDeferContactService.CancelDeferral
+title: IDirectManipulationDeferContactService::CancelDeferral method
+author: windows-driver-content
+description: Cancel the deferral set in DeferContact and process the scheduled SetContact call for this pointerId.
+old-location: directmanipulation\idirectmanipulationdefercontactservice_canceldeferral.htm
+old-project: directmanipulation
+ms.assetid: 946F8CF8-6A6D-4BC1-B9BA-91D5B4A8A178
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: CancelContact method [Direct Manipulation], CancelContact method [Direct Manipulation], IDirectManipulationDeferContactService interface, CancelDeferral,IDirectManipulationDeferContactService.CancelDeferral, IDirectManipulationDeferContactService, IDirectManipulationDeferContactService interface [Direct Manipulation], CancelContact method, IDirectManipulationDeferContactService::CancelContact, IDirectManipulationDeferContactService::CancelDeferral, directmanipulation.idirectmanipulationdefercontactservice_canceldeferral, directmanipulation/IDirectManipulationDeferContactService::CancelContact
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: directmanipulation.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: DirectManipulation.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: DIRECTMANIPULATION_VIEWPORT_OPTIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	DirectManipulation.h
+api_name:
+-	IDirectManipulationDeferContactService.CancelContact
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# IDirectManipulationDeferContactService::CancelDeferral method
+
+
+## -description
+
+
+Cancel the deferral set in <a href="https://msdn.microsoft.com/DEC97DD5-E43F-4541-8A80-D20EC8026493">DeferContact</a> and process the scheduled <a href="https://msdn.microsoft.com/39562bf1-c2cf-4ea6-9d02-a2b5fc4d3158">SetContact</a> call for this <i>pointerId</i>.   
+     
+
+
+## -parameters
+
+
+
+
+### -param pointerId [in]
+
+The ID of the pointer.
+
+
+## -returns
+
+
+
+If the method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/6063352F-39FF-4E8F-B836-3DA0A02BE523">IDirectManipulationDeferContactService</a>
+ 
+
+ 
+

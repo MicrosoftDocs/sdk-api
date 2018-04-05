@@ -1,0 +1,78 @@
+---
+UID: NF:wincodec.IWICPixelFormatInfo.GetFormatGUID
+title: IWICPixelFormatInfo::GetFormatGUID method
+author: windows-driver-content
+description: Gets the pixel format GUID.
+old-location: wic\_wic_codec_iwicpixelformatinfo_getformatguid.htm
+old-project: wic
+ms.assetid: 184ad8e5-51f2-47eb-b3c4-010626fa7c34
+ms.author: windowsdriverdev
+ms.date: 3/28/2018
+ms.keywords: GetFormatGUID method [Windows Imaging Component], GetFormatGUID method [Windows Imaging Component], IWICPixelFormatInfo interface, GetFormatGUID,IWICPixelFormatInfo.GetFormatGUID, IWICPixelFormatInfo, IWICPixelFormatInfo interface [Windows Imaging Component], GetFormatGUID method, IWICPixelFormatInfo::GetFormatGUID, _wic_codec_iwicpixelformatinfo_getformatguid, wic._wic_codec_iwicpixelformatinfo_getformatguid, wincodec/IWICPixelFormatInfo::GetFormatGUID
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wincodec.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Wincodec.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WICTiffCompressionOption
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Windowscodecs.lib
+-	Windowscodecs.dll
+api_name:
+-	IWICPixelFormatInfo.GetFormatGUID
+product: Windows
+targetos: Windows
+req.lib: Windowscodecs.lib
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# IWICPixelFormatInfo::GetFormatGUID method
+
+
+## -description
+
+
+Gets the pixel format GUID.
+
+
+## -parameters
+
+
+
+
+### -param pFormat [out]
+
+Type: <b>GUID*</b>
+
+Pointer that receives the pixel format GUID.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+

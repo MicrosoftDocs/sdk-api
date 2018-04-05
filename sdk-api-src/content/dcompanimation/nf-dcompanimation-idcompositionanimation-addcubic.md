@@ -1,0 +1,214 @@
+---
+UID: NF:dcompanimation.IDCompositionAnimation.AddCubic
+title: IDCompositionAnimation::AddCubic method
+author: windows-driver-content
+description: Adds a cubic polynomial segment to the animation function.
+old-location: directcomp\idcompositionanimation_addcubic.htm
+old-project: directcomp
+ms.assetid: d80ab2db-0d88-46ed-a40d-4408bf315a85
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: AddCubic method [DirectComposition], AddCubic method [DirectComposition], IDCompositionAnimation interface, AddCubic,IDCompositionAnimation.AddCubic, IDCompositionAnimation, IDCompositionAnimation interface [DirectComposition], AddCubic method, IDCompositionAnimation::AddCubic, dcompanimation/IDCompositionAnimation::AddCubic, directcomp.idcompositionanimation_addcubic
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: dcompanimation.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: DcompAnimation.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: DEV_BROADCAST_VOLUME
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Dcomp.dll
+api_name:
+-	IDCompositionAnimation.AddCubic
+product: Windows
+targetos: Windows
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
+---
+
+# IDCompositionAnimation::AddCubic method
+
+
+## -description
+
+
+Adds a cubic polynomial segment to the animation function.
+
+
+## -parameters
+
+
+
+
+### -param beginOffset [in]
+
+Type: <b>double</b>
+
+The offset, in seconds, from the beginning of the animation function to the point when this segment should take effect.
+
+
+### -param constantCoefficient [in]
+
+Type: <b>float</b>
+
+The constant coefficient of the polynomial.
+
+
+### -param linearCoefficient [in]
+
+Type: <b>float</b>
+
+The linear coefficient of the polynomial.
+
+
+### -param quadraticCoefficient [in]
+
+Type: <b>float</b>
+
+The quadratic coefficient of the polynomial.
+
+
+### -param cubicCoefficient [in]
+
+Type: <b>float</b>
+
+The cubic coefficient of the polynomial.
+
+
+## -returns
+
+
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+
+If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code. See <a href="https://msdn.microsoft.com/8DFBFC34-DBD0-4731-8305-B33E90C96C54">DirectComposition Error Codes</a>  for a list of error codes.
+
+
+
+
+## -remarks
+
+
+
+A cubic segment transitions time along a cubic polynomial.  For a given time input (t), the output value is given by the following equation.
+
+
+
+<i>x</i>(<i>t</i>) = <i>at</i>³ + <i>bt</i>² + <i>ct</i> + <i>d</i>
+
+This method fails if any of the parameters are NaN, positive infinity, or negative infinity.
+
+Because animation segments must be added in increasing order, this method fails if the <i>beginOffset</i> parameter is less than or equal to the <i>beginOffset</i> parameter of the previous segment, if any.
+
+This animation segment remains in effect until the begin time of the next segment in the animation function. If the animation function contains no more segments, this segment remains in effect indefinitely. 
+
+If all coefficients except <i>constantCoefficient</i>  are zero, the value of this segment remains constant over time, and the animation does not cause a recomposition for the duration of the segment.
+
+
+#### Examples
+
+The following example creates an animation function with two cubic polynomial segments.
+
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT DoAnimatedRotation(IDCompositionDevice *pDevice,
+                           IDCompositionRotateTransform *pRotateTransform,
+                           IDCompositionVisual *pVisual, 
+                           float animationTime) 
+{
+    HRESULT hr = S_OK;
+    IDCompositionAnimation *pAnimation = nullptr;
+
+    // Create an animation object. 
+    hr = pDevice-&gt;CreateAnimation(&amp;pAnimation);
+
+    if (SUCCEEDED(hr)) 
+    {
+        // Create the animation function by adding cubic polynomial segments.
+        // For a given time input (t), the output value is
+        // a*t^3 + b* t^2 + c*t + d.
+        // 
+        // The following segment will rotate the visual clockwise.
+        pAnimation-&gt;AddCubic(
+            0.0,                                // Begin offset
+            0.0,                                // Constant coefficient - d
+            (360.0f * 1.0f) / animationTime,    // Linear coefficient - c
+            0.0,                                // Quadratic coefficient - b
+            0.0);                               // Cubic coefficient - a
+
+        // The following segment will rotate the visual counterclockwise.
+        pAnimation-&gt;AddCubic(
+            animationTime,
+            0.0,
+            -(360.0f * 1.0f) / animationTime,
+            0.0,
+            0.0);
+
+        // Set the end of the animation.
+        pAnimation-&gt;End(
+            2 * animationTime,  // End offset
+            0.0);               // End value
+
+        // Apply the animation to the Angle property of the
+        // rotate transform. 
+        hr = pRotateTransform-&gt;SetAngle(pAnimation);
+    }
+
+    if (SUCCEEDED(hr))
+    {
+        // Apply the rotate transform object to a visual.
+        hr = pVisual-&gt;SetTransform(pRotateTransform);
+    }
+
+    if (SUCCEEDED(hr))
+    {
+        // Commit the changes to the composition.
+        hr = pDevice-&gt;Commit();
+    }
+
+    SafeRelease(&amp;pAnimation);
+
+    return hr;
+}
+</pre>
+</td>
+</tr>
+</table></span></div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/65DA3971-97C0-4B59-BC67-287AAEAAE340">Animation</a>
+
+
+
+<a href="https://msdn.microsoft.com/f914e14b-4ac0-4591-9b7f-6b45b88baaaa">IDCompositionAnimation</a>
+ 
+
+ 
+

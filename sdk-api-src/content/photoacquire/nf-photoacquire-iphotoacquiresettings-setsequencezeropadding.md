@@ -1,0 +1,134 @@
+---
+UID: NF:photoacquire.IPhotoAcquireSettings.SetSequenceZeroPadding
+title: IPhotoAcquireSettings::SetSequenceZeroPadding method
+author: windows-driver-content
+description: The SetSequenceZeroPadding method sets a value indicating whether zeros or spaces are used to pad sequential file names.
+old-location: picacq\iphotoacquiresettings_setsequencezeropadding.htm
+old-project: acquisition
+ms.assetid: 5010a61f-a01c-4dd9-850e-581a62b31ab4
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: IPhotoAcquireSettings, IPhotoAcquireSettings interface [Picture Acquisition], SetSequenceZeroPadding method, IPhotoAcquireSettings::SetSequenceZeroPadding, IPhotoAcquireSettingsSetSequenceZeroPadding, SetSequenceZeroPadding method [Picture Acquisition], SetSequenceZeroPadding method [Picture Acquisition], IPhotoAcquireSettings interface, SetSequenceZeroPadding,IPhotoAcquireSettings.SetSequenceZeroPadding, photoacquire/IPhotoAcquireSettings::SetSequenceZeroPadding, picacq.iphotoacquiresettings_setsequencezeropadding
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: photoacquire.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: USER_INPUT_STRING_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	PhotoAcquireUID.lib
+-	PhotoAcquireUID.dll
+api_name:
+-	IPhotoAcquireSettings.SetSequenceZeroPadding
+product: Windows
+targetos: Windows
+req.lib: PhotoAcquireUID.lib
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# IPhotoAcquireSettings::SetSequenceZeroPadding method
+
+
+## -description
+
+
+
+The <code>SetSequenceZeroPadding</code> method sets a value indicating whether zeros or spaces are used to pad sequential file names.
+
+
+
+
+## -parameters
+
+
+
+
+### -param fZeroPad [in]
+
+Flag that, if set to <b>TRUE</b>, indicates that zeros pad sequential file names.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+A file name padded with zeros might appear as
+
+
+<pre class="syntax" xml:space="preserve"><code>"IMG0001.JPG"</code></pre>
+
+
+The same file name without zero padding might appear as 
+
+
+<pre class="syntax" xml:space="preserve"><code>"IMG   1.JPG"</code></pre>
+
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/72dc052a-bf8e-4876-8ab6-d0f6857941d5">GetSequenceZeroPadding</a>
+
+
+
+<a href="https://msdn.microsoft.com/c86d0c97-f9ef-4a73-865b-8aea7972193b">IPhotoAcquireSettings Interface</a>
+
+
+
+<a href="https://msdn.microsoft.com/2c90c109-1522-4722-a691-6f0f3caa50ec">SetSequencePaddingWidth</a>
+ 
+
+ 
+

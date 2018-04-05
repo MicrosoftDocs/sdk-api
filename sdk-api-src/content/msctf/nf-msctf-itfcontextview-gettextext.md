@@ -1,0 +1,154 @@
+---
+UID: NF:msctf.ITfContextView.GetTextExt
+title: ITfContextView::GetTextExt method
+author: windows-driver-content
+description: The ITfContextView::GetTextExt method returns the bounding box, in screen coordinates, of a range of text.
+old-location: tsf\itfcontextview_gettextext.htm
+old-project: TSF
+ms.assetid: a4ef9180-5568-4e5b-8c37-f750263060d2
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: GetTextExt method [Text Services Framework], GetTextExt method [Text Services Framework], ITfContextView interface, GetTextExt,ITfContextView.GetTextExt, ITfContextView, ITfContextView interface [Text Services Framework], GetTextExt method, ITfContextView::GetTextExt, _tsf_itfcontextview_gettextext_ref, msctf/ITfContextView::GetTextExt, tsf.itfcontextview_gettextext
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: msctf.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Msctf.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: TF_DA_ATTR_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	msctf.dll
+api_name:
+-	ITfContextView.GetTextExt
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# ITfContextView::GetTextExt method
+
+
+## -description
+
+
+The <b>ITfContextView::GetTextExt</b> method returns the bounding box, in screen coordinates, of a range of text.
+
+
+## -parameters
+
+
+
+
+### -param ec [in]
+
+Specifies an edit cookie with read-only access.
+
+
+### -param pRange [in]
+
+Specifies the range to query
+
+
+### -param prc [out]
+
+Receives the bounding box, in screen coordinates, of the range.
+
+
+### -param pfClipped [out]
+
+Receives the Boolean value that specifies if the text in the bounding box has been clipped. If this parameter is <b>TRUE</b>, the bounding box contains clipped text and does not include the entire requested range. The bounding box is clipped because of the requested range is not visible.
+
+
+## -returns
+
+
+
+This method can return one of these values.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method was successful.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>TS_E_NOLAYOUT</b></dt>
+</dl>
+</td>
+<td width="60%">
+The text is not rendered or the context has not calculated the text layout.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>TF_E_NOLOCK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The edit cookie parameter is invalid.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+If the document window is minimized, or if the specified text is not currently visible, the method returns S_OK with the <i>prc</i> parameter set to {0,0,0,0}.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/edde0ba7-1d88-4c32-b794-761b66d73507">ITfContextOwner::GetTextExt
+      </a>
+
+
+
+<a href="https://msdn.microsoft.com/302d185d-dab7-4a77-a5cf-da2529d8b24a">ITfContextView</a>
+ 
+
+ 
+

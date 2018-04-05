@@ -1,0 +1,96 @@
+---
+UID: NF:tuner.ITuningSpace.put_UniqueName
+title: ITuningSpace::put_UniqueName method
+author: windows-driver-content
+description: The put_UniqueName method sets a unique name for the tuning space.
+old-location: mstv\ituningspace_put_uniquename.htm
+old-project: mstv
+ms.assetid: 44ce065b-5441-40c9-a987-6eafc04fba3d
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: ITuningSpace, ITuningSpace interface [Microsoft TV Technologies], put_UniqueName method, ITuningSpace::put_UniqueName, ITuningSpaceput_UniqueName, mstv.ituningspace_put_uniquename, put_UniqueName method [Microsoft TV Technologies], put_UniqueName method [Microsoft TV Technologies], ITuningSpace interface, put_UniqueName,ITuningSpace.put_UniqueName, tuner/ITuningSpace::put_UniqueName
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: tuner.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: None supported
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Tuner.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	tuner.h
+api_name:
+-	ITuningSpace.put_UniqueName
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# ITuningSpace::put_UniqueName method
+
+
+## -description
+
+
+
+The <b>put_UniqueName</b> method sets a unique name for the tuning space.
+
+
+
+
+## -parameters
+
+
+
+
+### -param Name [in]
+
+Variable of type <b>BSTR</b> that specifies the unique name.
+
+
+## -returns
+
+
+
+Returns S_OK if successful. If the method fails, error information can be retrieved using the standard COM <b>IErrorInfo</b> interface.
+
+
+
+
+## -remarks
+
+
+
+If you attempt to add a new tuning space to the System Tuning Spaces collection, this property must be unique within the collection. For more information, see <a href="https://msdn.microsoft.com/9c7faab5-48d4-47fa-be8a-7dafce8504a6">ITuningSpaceContainer::Add</a>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/51850105-b3b1-4758-acde-05ca2f3439f2">ITuningSpace Interface</a>
+ 
+
+ 
+

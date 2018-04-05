@@ -1,0 +1,103 @@
+---
+UID: NF:msctf.ITfUIElement.Show
+title: ITfUIElement::Show method
+author: windows-driver-content
+description: The ITfUIElement::Show method shows the text service's UI of this UI element.
+old-location: tsf\itfuielement_show.htm
+old-project: TSF
+ms.assetid: 423543d9-f3aa-4a42-89f6-dd1d48967c73
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: ITfUIElement, ITfUIElement interface [Text Services Framework], Show method, ITfUIElement::Show, Show method [Text Services Framework], Show method [Text Services Framework], ITfUIElement interface, Show,ITfUIElement.Show, msctf/ITfUIElement::Show, tsf.itfuielement_show
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: msctf.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Msctf.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: TF_DA_ATTR_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Msctf.dll
+api_name:
+-	ITfUIElement.Show
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# ITfUIElement::Show method
+
+
+## -description
+
+
+The <b>ITfUIElement::Show</b> method shows the text service's UI of this UI element.
+
+
+## -parameters
+
+
+
+
+### -param bShow [in]
+
+[in] <b>TRUE</b> to show the original UI of the element. <b>FALSE</b> to hide the original UI of the element.
+
+
+## -returns
+
+
+
+This method can return one of these values.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method was successful.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_FAIL</b></dt>
+</dl>
+</td>
+<td width="60%">
+An unspecified error occurred.
+
+</td>
+</tr>
+</table>
+ 
+
+
+

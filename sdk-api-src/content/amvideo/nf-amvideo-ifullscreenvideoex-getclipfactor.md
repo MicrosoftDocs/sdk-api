@@ -1,0 +1,121 @@
+---
+UID: NF:amvideo.IFullScreenVideoEx.GetClipFactor
+title: IFullScreenVideoEx::GetClipFactor method
+author: windows-driver-content
+description: The GetClipFactor method retrieves the clip factor, which determines how much of the video the Full Screen Renderer is allowed to clip. For example, if the clip factor is 25, the Full Screen Renderer can clip up to 25% of the video.
+old-location: dshow\ifullscreenvideoex_getclipfactor.htm
+old-project: DirectShow
+ms.assetid: f45e1736-8130-483b-9f90-614c4b6970db
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: GetClipFactor method [DirectShow], GetClipFactor method [DirectShow], IFullScreenVideoEx interface, GetClipFactor,IFullScreenVideoEx.GetClipFactor, IFullScreenVideoEx, IFullScreenVideoEx interface [DirectShow], GetClipFactor method, IFullScreenVideoEx::GetClipFactor, IFullScreenVideoGetClipFactor, amvideo/IFullScreenVideoEx::GetClipFactor, dshow.ifullscreenvideoex_getclipfactor
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: amvideo.h
+req.include-header: Dshow.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: AMVAUncompDataInfo, *LPAMVAUncompDataInfo
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Strmiids.lib
+-	Strmiids.dll
+api_name:
+-	IFullScreenVideoEx.GetClipFactor
+product: Windows
+targetos: Windows
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
+---
+
+# IFullScreenVideoEx::GetClipFactor method
+
+
+## -description
+
+
+
+The <code>GetClipFactor</code> method retrieves the clip factor, which determines how much of the video the Full Screen Renderer is allowed to clip. For example, if the clip factor is 25, the Full Screen Renderer can clip up to 25% of the video.
+
+
+
+
+## -parameters
+
+
+
+
+### -param pClipFactor [out]
+
+Pointer to a variable the receives the clip factor.
+
+
+## -returns
+
+
+
+Returns an <b>HRESULT</b> value. Possible values include the following.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_POINTER</b></dt>
+</dl>
+</td>
+<td width="60%">
+<b>NULL</b> pointer argument.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+Success.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+
+
+
+<a href="https://msdn.microsoft.com/4c9de58f-6ceb-4cf5-b1a5-d3e345e08190">IFullScreenVideoEx Interface</a>
+ 
+
+ 
+

@@ -1,0 +1,98 @@
+---
+UID: NF:msaatext.IAccClientDocMgr.GetFocused
+title: IAccClientDocMgr::GetFocused method
+author: windows-driver-content
+description: Clients call the IAccClientDocMgr::GetFocused method to access a pointer for the document that has focus.
+old-location: winauto\iaccclientdocmgr_iaccclientdocmgr__getfocused.htm
+old-project: WinAuto
+ms.assetid: 102a511b-43ad-48c1-8953-647482fa452b
+ms.author: windowsdriverdev
+ms.date: 3/29/2018
+ms.keywords: GetFocused method [Windows Accessibility], GetFocused method [Windows Accessibility], IAccClientDocMgr interface, GetFocused,IAccClientDocMgr.GetFocused, IAccClientDocMgr, IAccClientDocMgr interface [Windows Accessibility], GetFocused method, IAccClientDocMgr::GetFocused, _msaa_IAccClientDocMgr_GetFocused, msaa.iaccclientdocmgr_iaccclientdocmgr__getfocused, msaatext/IAccClientDocMgr::GetFocused, winauto.iaccclientdocmgr_iaccclientdocmgr__getfocused
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: msaatext.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: SSTP_CONFIG_PARAMS, *PSSTP_CONFIG_PARAMS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	msaatext.dll
+api_name:
+-	IAccClientDocMgr.GetFocused
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msaatext.dll
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IAccClientDocMgr::GetFocused method
+
+
+## -description
+
+
+Clients call the <b>IAccClientDocMgr::GetFocused</b> method to access a pointer for the document that has focus.
+<div class="alert"><b>Note</b>  Active Accessibility Text Services is deprecated. Please see     
+<a href="http://go.microsoft.com/fwlink/p/?linkid=131573">Microsoft Windows Text Services Framework</a>
+for more information on advanced text input and natural language technologies.
+		</div><div> </div>
+
+## -parameters
+
+
+
+
+### -param riid [in]
+
+Type: <b>REFIID</b>
+
+IID of the document being requested. This is usually IID_ITextStoreAnchor.
+
+
+### -param ppunk [out]
+
+Type: <b>IUnknown*</b>
+
+Interface pointer to the document being requested.
+
+
+## -returns
+
+
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+
+If successful, returns S_OK.
+
+
+
+
+## -remarks
+
+
+
+If the window that has focus is not a document that implements the <a href="https://msdn.microsoft.com/21e011f7-6791-4eb9-85c9-18bd10107119">ITextStoreACP</a> interface, <i>ppunk</i> will be <b>NULL</b>.
+
+Servers might need to poll this method more than once before they receive a document. There can be a limited time lapse (approximately second) between when a document appears in the system and when it is registered with document services.
+
+
+

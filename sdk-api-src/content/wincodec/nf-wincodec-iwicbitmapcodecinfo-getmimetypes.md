@@ -1,0 +1,105 @@
+---
+UID: NF:wincodec.IWICBitmapCodecInfo.GetMimeTypes
+title: IWICBitmapCodecInfo::GetMimeTypes method
+author: windows-driver-content
+description: Retrieves a comma delimited sequence of mime types associated with the codec.
+old-location: wic\_wic_codec_iwicbitmapcodecinfo_getmimetypes.htm
+old-project: wic
+ms.assetid: fbca8068-a57d-402b-85e1-0dd284824efa
+ms.author: windowsdriverdev
+ms.date: 3/28/2018
+ms.keywords: GetMimeTypes method [Windows Imaging Component], GetMimeTypes method [Windows Imaging Component], IWICBitmapCodecInfo interface, GetMimeTypes,IWICBitmapCodecInfo.GetMimeTypes, IWICBitmapCodecInfo, IWICBitmapCodecInfo interface [Windows Imaging Component], GetMimeTypes method, IWICBitmapCodecInfo::GetMimeTypes, _wic_codec_iwicbitmapcodecinfo_getmimetypes, wic._wic_codec_iwicbitmapcodecinfo_getmimetypes, wincodec/IWICBitmapCodecInfo::GetMimeTypes
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wincodec.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Wincodec.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WICTiffCompressionOption
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Windowscodecs.dll
+api_name:
+-	IWICBitmapCodecInfo.GetMimeTypes
+product: Windows
+targetos: Windows
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# IWICBitmapCodecInfo::GetMimeTypes method
+
+
+## -description
+
+
+Retrieves a comma delimited sequence of mime types associated with the codec.
+
+
+## -parameters
+
+
+
+
+### -param cchMimeTypes [in]
+
+Type: <b>UINT</b>
+
+The size of the mime types buffer.  Use <code>0</code> on first call to determine needed buffer size.
+
+
+### -param wzMimeTypes [out]
+
+Type: <b>WCHAR*</b>
+
+Receives the mime types associated with the codec. Use <code>NULL</code> on first call to determine needed buffer size.
+
+
+### -param pcchActual [out]
+
+Type: <b>UINT*</b>
+
+The actual buffer size needed to retrieve all mime types associated with the codec.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+
+            The usage pattern for this method is a two call process.
+            The first call retrieves the buffer size needed to retrieve the full color management version number by calling it with <i>cchMimeTypes</i> set to <code>0</code> and <i>wzMimeTypes</i> set to <code>NULL</code>.
+            This call sets <i>pcchActual</i> to the buffer size needed.
+            Once the needed buffer size is determined, a second <b>GetMimeTypes</b> call with <i>cchMimeTypes</i> set to the buffer size and <i>wzMimeTypes</i> set to a buffer of the appropriate size will retrieve the pixel formats.
+         
+
+
+

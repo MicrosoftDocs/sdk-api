@@ -1,0 +1,145 @@
+---
+UID: NF:wmsdkidl.IWMReaderNetworkConfig.GetSupportedProtocolName
+title: IWMReaderNetworkConfig::GetSupportedProtocolName method
+author: windows-driver-content
+description: The GetSupportedProtocolName method retrieves a protocol name by index.
+old-location: wmformat\iwmreadernetworkconfig_getsupportedprotocolname.htm
+old-project: wmformat
+ms.assetid: c1047752-c3a2-4555-9dae-ddd91365cd10
+ms.author: windowsdriverdev
+ms.date: 3/23/2018
+ms.keywords: GetSupportedProtocolName method [windows Media Format], GetSupportedProtocolName method [windows Media Format], IWMReaderNetworkConfig interface, GetSupportedProtocolName,IWMReaderNetworkConfig.GetSupportedProtocolName, IWMReaderNetworkConfig, IWMReaderNetworkConfig interface [windows Media Format], GetSupportedProtocolName method, IWMReaderNetworkConfig::GetSupportedProtocolName, IWMReaderNetworkConfigGetSupportedProtocolName, wmformat.iwmreadernetworkconfig_getsupportedprotocolname, wmsdkidl/IWMReaderNetworkConfig::GetSupportedProtocolName
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wmsdkidl.h
+req.include-header: Wmsdk.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WM_AETYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wmvcore.lib
+-	Wmvcore.dll
+-	WMStubDRM.lib
+-	WMStubDRM.dll
+api_name:
+-	IWMReaderNetworkConfig.GetSupportedProtocolName
+product: Windows
+targetos: Windows
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IWMReaderNetworkConfig::GetSupportedProtocolName method
+
+
+## -description
+
+
+
+The <b>GetSupportedProtocolName</b> method retrieves a protocol name by index.
+
+
+
+
+## -parameters
+
+
+
+
+### -param dwProtocolNum [in]
+
+Specifies protocol name to retrieve, indexed from zero. To get the number of supported protocols, call the <a href="https://msdn.microsoft.com/6e249d8f-0351-452f-9b53-86f77df2fd70">IWMReaderNetworkConfig::GetNumProtocolsSupported</a> method.
+
+
+### -param pwszProtocolName [out]
+
+Pointer to a wide-character <b>null</b>-terminated string containing the protocol name. Pass <b>NULL</b> to retrieve the length of the name.
+
+
+### -param pcchProtocolName [in, out]
+
+On input, pointer to a <b>DWORD</b> containing the length of the <i>pwszProtocolName</i>, in characters. On output, pointer to the length of the protocol name, including the terminating <b>null</b> character.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+<b>NULL</b> or invalid argument passed in.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+You should make two calls to <b>GetSupportedProtocolName</b>. On the first call, pass <b>NULL</b> for <i>pwszProtocoName</i>. On return, the value pointed to by <i>pcchProtocolName</i> is set to the number of wide characters, including the terminating <b>null</b>, required to hold the protocol name. Then you can allocate the required amount of memory for the string and pass a pointer to it as <i>pwszProtocolName</i> on the second call.
+
+Use this method along with <b>GetNumProtocolsSupported</b> to iterate through the network protocols supported by the reader object.
+
+This method only returns a list of protocols that are used to receive content from Windows Media servers. Protocols that are only used for retrieving content from local sources, or non-Windows Media servers (such as Web servers) are not included in this list.
+
+<div class="alert"><b>Note</b>  The HTTPS support works only when downloading content from a Web server (because the player is using WININET). Streaming protocols supported are HTTP, RTSP, MMS, and, for multicasting, ASFM (by opening an ASF file with an .nsc extension). Download support includes HTTP, HTTPS, and FTP.</div>
+<div> </div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/0957ece7-93fe-411b-b69e-fd03933b09d1">IWMReaderNetworkConfig Interface</a>
+ 
+
+ 
+

@@ -1,0 +1,72 @@
+---
+UID: NF:eventsys.IEventPublisher.get_PublisherType
+title: IEventPublisher::get_PublisherType method
+author: windows-driver-content
+description: The optional administrative group for the event publisher.
+old-location: com\ieventpublisher_publishertype.htm
+old-project: com
+ms.assetid: b92b9493-bfee-4898-9e58-0a1cf9b59ffa
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: IEventPublisher, IEventPublisher interface [COM], PublisherType property, IEventPublisher.PublisherType, IEventPublisher::get_PublisherType, IEventPublisher::put_PublisherType, PublisherType property [COM], PublisherType property [COM], IEventPublisher interface, _com_ieventpublisher_publishertype, com.ieventpublisher_publishertype, eventsys/IEventPublisher::PublisherType, eventsys/IEventPublisher::get_PublisherType, eventsys/IEventPublisher::put_PublisherType, get_PublisherType,IEventPublisher.get_PublisherType
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: eventsys.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: EventSys.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: EOC_ChangeType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	EventSys.h
+api_name:
+-	IEventPublisher.PublisherType
+-	IEventPublisher.get_PublisherType
+-	IEventPublisher.put_PublisherType
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
+---
+
+# IEventPublisher::get_PublisherType method
+
+
+## -description
+
+
+The optional administrative group for the event publisher.
+
+This property is read/write.
+
+
+## -parameters
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/132b79c8-d7f4-49c1-87c7-9bdf311ae697">IEventPublisher</a>
+ 
+
+ 
+

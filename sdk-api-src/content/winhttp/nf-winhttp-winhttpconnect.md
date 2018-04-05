@@ -1,0 +1,362 @@
+---
+UID: NF:winhttp.WinHttpConnect
+title: WinHttpConnect function
+author: windows-driver-content
+description: The WinHttpConnect function specifies the initial target server of an HTTP request and returns an HINTERNET connection handle to an HTTP session for that initial target.
+old-location: http\winhttpconnect.htm
+old-project: WinHttp
+ms.assetid: afcdad8d-687e-4a1f-99d8-5d8be13825fa
+ms.author: windowsdriverdev
+ms.date: 3/8/2018
+ms.keywords: INTERNET_DEFAULT_HTTPS_PORT, INTERNET_DEFAULT_HTTP_PORT, INTERNET_DEFAULT_PORT, WinHttpConnect, WinHttpConnect function [WinHTTP], http.winhttpconnect, winhttp.winhttpconnect, winhttp/WinHttpConnect
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: winhttp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WINHTTP_WEB_SOCKET_OPERATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Winhttp.dll
+api_name:
+-	WinHttpConnect
+product: Windows
+targetos: Windows
+req.lib: Winhttp.lib
+req.dll: Winhttp.dll
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# WinHttpConnect function
+
+
+## -description
+
+
+The <b>WinHttpConnect</b> function specifies the initial target server of an HTTP request and returns an <a href="https://msdn.microsoft.com/0bd82860-1347-40c8-ae77-c4d865c109be">HINTERNET</a> connection handle to an HTTP session for that initial target.
+
+
+## -parameters
+
+
+
+
+### -param hSession [in]
+
+Valid 
+<a href="https://msdn.microsoft.com/0bd82860-1347-40c8-ae77-c4d865c109be">HINTERNET</a> WinHTTP session handle returned by a previous call to 
+<a href="https://msdn.microsoft.com/34ce8f7d-7cc3-4b38-ba6a-1247f50ebd33">WinHttpOpen</a>. 
+
+
+### -param pswzServerName [in]
+
+Pointer to a <b>null</b>-terminated string that contains the host name of an HTTP server. Alternately, the string can contain the IP address of the site in ASCII, for example, 10.0.1.45.
+Note that WinHttp does not accept international host names without converting them first to <a href="http://go.microsoft.com/fwlink/p/?linkid=204920">Punycode</a>. For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=153789">Handling Internationalized Domain Names (IDNs)</a>.
+
+
+### -param nServerPort [in]
+
+Unsigned integer that specifies the TCP/IP port on the server to which a connection is made.  This parameter can be any valid TCP/IP port number, or one of the following values.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="INTERNET_DEFAULT_HTTP_PORT"></a><a id="internet_default_http_port"></a><dl>
+<dt><b>INTERNET_DEFAULT_HTTP_PORT</b></dt>
+</dl>
+</td>
+<td width="60%">
+Uses the default port for HTTP servers (port 80). 
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="INTERNET_DEFAULT_HTTPS_PORT"></a><a id="internet_default_https_port"></a><dl>
+<dt><b>INTERNET_DEFAULT_HTTPS_PORT</b></dt>
+</dl>
+</td>
+<td width="60%">
+Uses the default port for HTTPS servers (port 443).  Selecting this port does not automatically establish a secure connection.  You must still specify the use of secure transaction semantics by using the 
+<a href="winhttpopenrequest.htm">WINHTTP_FLAG_SECURE</a> flag with 
+<a href="https://msdn.microsoft.com/9ecd035d-1abf-48ca-baf2-d9754f912c60">WinHttpOpenRequest</a>.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="INTERNET_DEFAULT_PORT"></a><a id="internet_default_port"></a><dl>
+<dt><b>INTERNET_DEFAULT_PORT</b></dt>
+</dl>
+</td>
+<td width="60%">
+Uses port 80 for HTTP and port 443 for Secure Hypertext Transfer Protocol (HTTPS). 
+
+</td>
+</tr>
+</table>
+ 
+
+
+### -param dwReserved [in]
+
+This parameter is reserved and must be 0.
+
+
+## -returns
+
+
+
+Returns a valid connection handle to the HTTP session if the connection is successful, or <b>NULL</b> otherwise. To retrieve extended error information, call 
+<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. Among the error codes returned are the following.
+
+<table>
+<tr>
+<th>Error Codes</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_WINHTTP_INCORRECT_HANDLE_TYPE</b></dt>
+</dl>
+</td>
+<td width="60%">
+The type of handle supplied is incorrect for this operation.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_WINHTTP_INTERNAL_ERROR</b></dt>
+</dl>
+</td>
+<td width="60%">
+An internal error has occurred.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_WINHTTP_INVALID_URL</b></dt>
+</dl>
+</td>
+<td width="60%">
+The URL is invalid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_WINHTTP_OPERATION_CANCELLED</b></dt>
+</dl>
+</td>
+<td width="60%">
+The operation was canceled, usually because the handle on which the request was operating was closed before the operation completed.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_WINHTTP_UNRECOGNIZED_SCHEME</b></dt>
+</dl>
+</td>
+<td width="60%">
+The URL scheme could not be recognized, or is not supported.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_WINHTTP_SHUTDOWN</b></dt>
+</dl>
+</td>
+<td width="60%">
+The WinHTTP function support is being shut down or unloaded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_NOT_ENOUGH_MEMORY</b></dt>
+</dl>
+</td>
+<td width="60%">
+Not enough memory was available to complete the requested operation. (Windows error code)
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+Even when  WinHTTP is used in asynchronous mode (that is, when <b>WINHTTP_FLAG_ASYNC</b> has been set in <a href="https://msdn.microsoft.com/34ce8f7d-7cc3-4b38-ba6a-1247f50ebd33">WinHttpOpen</a>), this function operates synchronously. The return value indicates success or failure.  To get extended error information, call 
+<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+
+After the calling application has finished using the 
+<a href="https://msdn.microsoft.com/0bd82860-1347-40c8-ae77-c4d865c109be">HINTERNET</a> handle returned by 
+<b>WinHttpConnect</b>, it must be closed using the 
+<a href="https://msdn.microsoft.com/78215141-dfe8-4f0a-ba1a-a63fa257db6f">WinHttpCloseHandle</a> function.
+
+<b>WinHttpConnect</b> specifies the target HTTP server, however a response can come from another server if the request was redirected.  You can determine the URL of the server sending the response by calling 
+<a href="https://msdn.microsoft.com/47973eab-de70-47bf-9713-97b87a500cfa">WinHttpQueryOption</a> with the WINHTTP_OPTION_URL flag.
+
+<div class="alert"><b>Note</b>  For Windows XP and Windows 2000, see the <a href="https://msdn.microsoft.com/354ab65d-5e46-451d-b36b-2f8166a1a048">Run-Time Requirements</a> section of the WinHttp start page.</div>
+<div> </div>
+
+#### Examples
+
+The following example shows how to use secure transaction semantics to download a resource from an HTTPS server. The sample code initializes the Microsoft Windows HTTP Services (WinHTTP) application programming interface (API), selects a target HTTPS server, then opens and sends a request for this secure resource.  
+<a href="https://msdn.microsoft.com/041ec571-10ed-48d0-9a99-e0b5d9e08f70">WinHttpQueryDataAvailable</a> is used with the request handle to determine how much data is available for download, then 
+<a href="https://msdn.microsoft.com/06340601-9b2d-487a-a82a-aa2175a52dc5">WinHttpReadData</a> is used to read that data.  This process repeats until the entire document has been retrieved and displayed.
+
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
+    DWORD dwSize = 0;
+    DWORD dwDownloaded = 0;
+    LPSTR pszOutBuffer;
+    BOOL  bResults = FALSE;
+    HINTERNET  hSession = NULL, 
+               hConnect = NULL,
+               hRequest = NULL;
+
+    // Use WinHttpOpen to obtain a session handle.
+    hSession = WinHttpOpen( L"WinHTTP Example/1.0",  
+                            WINHTTP_ACCESS_TYPE_DEFAULT_PROXY,
+                            WINHTTP_NO_PROXY_NAME, 
+                            WINHTTP_NO_PROXY_BYPASS, 0);
+
+    // Specify an HTTP server.
+    if (hSession)
+        hConnect = WinHttpConnect( hSession, L"www.microsoft.com",
+                                   INTERNET_DEFAULT_HTTPS_PORT, 0);
+
+    // Create an HTTP request handle.
+    if (hConnect)
+        hRequest = WinHttpOpenRequest( hConnect, L"GET", NULL,
+                                       NULL, WINHTTP_NO_REFERER, 
+                                       WINHTTP_DEFAULT_ACCEPT_TYPES, 
+                                       WINHTTP_FLAG_SECURE);
+
+    // Send a request.
+    if (hRequest)
+        bResults = WinHttpSendRequest( hRequest,
+                                       WINHTTP_NO_ADDITIONAL_HEADERS,
+                                       0, WINHTTP_NO_REQUEST_DATA, 0, 
+                                       0, 0);
+
+ 
+    // End the request.
+    if (bResults)
+        bResults = WinHttpReceiveResponse( hRequest, NULL);
+
+    // Keep checking for data until there is nothing left.
+    if (bResults)
+        do 
+        {
+            // Check for available data.
+            dwSize = 0;
+            if (!WinHttpQueryDataAvailable( hRequest, &amp;dwSize))
+                printf("Error %u in WinHttpQueryDataAvailable.\n", GetLastError());
+
+            // Allocate space for the buffer.
+            pszOutBuffer = new char[dwSize+1];
+            if (!pszOutBuffer)
+            {
+                printf("Out of memory\n");
+                dwSize=0;
+            }
+            else
+            {
+                // Read the Data.
+                ZeroMemory(pszOutBuffer, dwSize+1);
+
+                if (!WinHttpReadData( hRequest, (LPVOID)pszOutBuffer, 
+                                      dwSize, &amp;dwDownloaded))
+                    printf( "Error %u in WinHttpReadData.\n", GetLastError());
+                else
+                    printf( "%s\n", pszOutBuffer);
+            
+                // Free the memory allocated to the buffer.
+                delete [] pszOutBuffer;
+            }
+
+        } while (dwSize &gt; 0);
+
+
+    // Report any errors.
+    if (!bResults)
+        printf("Error %d has occurred.\n", GetLastError());
+
+    // Close any open handles.
+    if (hRequest) WinHttpCloseHandle(hRequest);
+    if (hConnect) WinHttpCloseHandle(hConnect);
+    if (hSession) WinHttpCloseHandle(hSession);
+</pre>
+</td>
+</tr>
+</table></span></div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/8337f699-3ec0-4397-acc2-6dc813f7542d">About Microsoft Windows HTTP Services (WinHTTP)</a>
+
+
+
+<a href="https://msdn.microsoft.com/b69e5087-7849-4cbc-a97b-204a26fdd044">WinHTTP Versions</a>
+
+
+
+<a href="https://msdn.microsoft.com/78215141-dfe8-4f0a-ba1a-a63fa257db6f">WinHttpCloseHandle</a>
+
+
+
+<a href="https://msdn.microsoft.com/34ce8f7d-7cc3-4b38-ba6a-1247f50ebd33">WinHttpOpen</a>
+
+
+
+<a href="https://msdn.microsoft.com/9ecd035d-1abf-48ca-baf2-d9754f912c60">WinHttpOpenRequest</a>
+ 
+
+ 
+

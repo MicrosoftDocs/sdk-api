@@ -1,0 +1,136 @@
+---
+UID: NF:d3d9.IDirect3DQuery9.GetData
+title: IDirect3DQuery9::GetData method
+author: windows-driver-content
+description: Polls a queried resource to get the query state or a query result. For more information about queries, see Queries (Direct3D 9).
+old-location: direct3d9\idirect3dquery9__getdata.htm
+old-project: direct3d9
+ms.assetid: VS|directx_sdk|~\idirect3dquery9__getdata.htm
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: 61a50651-865a-2305-3acc-ca22ba941030, GetData method [Direct3D 9], GetData method [Direct3D 9], IDirect3DQuery9 interface, GetData,IDirect3DQuery9.GetData, IDirect3DQuery9, IDirect3DQuery9 interface [Direct3D 9], GetData method, IDirect3DQuery9::GetData, d3d9helper/IDirect3DQuery9::GetData, direct3d9.idirect3dquery9__getdata
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: d3d9.h
+req.include-header: D3D9.h
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: D3D12_SIGNATURE_PARAMETER_DESC
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	D3D9.lib
+-	D3D9.dll
+api_name:
+-	IDirect3DQuery9.GetData
+product: Windows
+targetos: Windows
+req.lib: D3D9.lib
+req.dll: 
+req.irql: 
+---
+
+# IDirect3DQuery9::GetData method
+
+
+## -description
+
+
+Polls a queried resource to get the query state or a query result. For more information about queries, see <a href="https://msdn.microsoft.com/2c65d199-141d-43a7-b513-4cb4459d7c27">Queries (Direct3D 9)</a>.
+
+
+## -parameters
+
+
+
+
+### -param pData [in, out]
+
+Type: <b>void*</b>
+
+Pointer to a buffer containing the query data. The user is responsible for allocating this. <i>pData</i> may be <b>NULL</b> only if dwSize is 0.
+
+
+### -param dwSize [in]
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+
+Number of bytes of data in <i>pData</i>. If you set dwSize to zero, you can use this method to poll the resource for the query status. See remarks.
+
+
+### -param dwGetDataFlags [in]
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+
+Data flags specifying the query type. Valid values are either 0 or <a href="https://msdn.microsoft.com/874fe2d7-d7d8-49eb-8057-e606982527fa">D3DGETDATA_FLUSH</a>. Use 0 to avoid flushing batched queries to the driver and use D3DGETDATA_FLUSH to go ahead and flush them. For applications writing their own version of waiting, a query result is not realized until the driver receives a flush.
+
+
+## -returns
+
+
+
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+
+The return type identifies the query state (see <a href="https://msdn.microsoft.com/2c65d199-141d-43a7-b513-4cb4459d7c27">Queries (Direct3D 9)</a>). The method returns S_OK if the query data is available and S_FALSE if it is not.  These are considered successful return values. If the method fails when <a href="https://msdn.microsoft.com/874fe2d7-d7d8-49eb-8057-e606982527fa">D3DGETDATA_FLUSH</a> is used, the return value can be D3DERR_DEVICELOST.
+
+
+
+
+## -remarks
+
+
+
+It is possible to lose the device while polling for query status. When <a href="https://msdn.microsoft.com/874fe2d7-d7d8-49eb-8057-e606982527fa">D3DGETDATA_FLUSH</a> is specified, this method will return D3DERR_DEVICELOST in response to a lost device. This allows an application to prevent threads from endlessly polling due to a lost device (which cannot respond to the query).
+
+An application must never write code that only invokes GetData ( ... , 0 ), expecting that GetData will eventually return S_OK by itself over time. This is true, even if the application has used the FLUSH flag with GetData in the past. For example:
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>// Enables an infinite loop:
+while( pQuery-&gt;GetData( ... , 0 ) == S_FALSE ) ;
+
+// Still enables an infinite loop:
+pQuery-&gt;GetData( ... , D3DGETDATA_FLUSH );
+while( pQuery-&gt;GetData( ... , 0 ) == S_FALSE ) ;
+
+// Does not enable an infinite loop because eventually the command
+// buffer will fill up and that will cause a flush to occur.
+while( pQuery-&gt;GetData( ..., 0 ) == S_FALSE ) {
+	pDevice-&gt;SetTexture(...);
+	pDevice-&gt;Draw(...);
+}
+</pre>
+</td>
+</tr>
+</table></span></div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/7f25d64e-ece6-4544-ada0-5cc3d34b88e6">IDirect3DQuery9</a>
+ 
+
+ 
+

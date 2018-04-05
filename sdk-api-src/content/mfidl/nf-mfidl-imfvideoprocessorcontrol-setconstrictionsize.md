@@ -1,0 +1,86 @@
+---
+UID: NF:mfidl.IMFVideoProcessorControl.SetConstrictionSize
+title: IMFVideoProcessorControl::SetConstrictionSize method
+author: windows-driver-content
+description: Specifies the amount of downsampling to perform on the output.
+old-location: mf\imfvideoprocessorcontrol_setconstrictionsize.htm
+old-project: medfound
+ms.assetid: 876F8BA0-9F05-48C6-ADE9-D65E7682C545
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: IMFVideoProcessorControl, IMFVideoProcessorControl interface [Media Foundation], SetConstrictionSize method, IMFVideoProcessorControl::SetConstrictionSize, SetConstrictionSize method [Media Foundation], SetConstrictionSize method [Media Foundation], IMFVideoProcessorControl interface, SetConstrictionSize,IMFVideoProcessorControl.SetConstrictionSize, mf.imfvideoprocessorcontrol_setconstrictionsize, mfidl/IMFVideoProcessorControl::SetConstrictionSize
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: mfidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MF_URL_TRUST_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfidl.h
+api_name:
+-	IMFVideoProcessorControl.SetConstrictionSize
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IMFVideoProcessorControl::SetConstrictionSize method
+
+
+## -description
+
+
+Specifies the amount of downsampling to perform on the output.
+
+
+## -parameters
+
+
+
+
+### -param pConstrictionSize [in]
+
+The sampling size.
+
+To disable constriction, set this parameter to <b>NULL</b>.
+
+
+## -returns
+
+
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/6803B69E-CF84-45D5-804C-BD961BD5E13D">IMFVideoProcessorControl</a>
+ 
+
+ 
+

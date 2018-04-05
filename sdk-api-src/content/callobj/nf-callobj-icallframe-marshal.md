@@ -1,0 +1,155 @@
+---
+UID: NF:callobj.ICallFrame.Marshal
+title: ICallFrame::Marshal method
+author: windows-driver-content
+description: Marshals the call frame by turning its reachable data into a flat buffer without disturbing the frame.
+old-location: com\icallframe_marshal.htm
+old-project: com
+ms.assetid: cab40c31-1f89-4da9-a1e0-ef946b34665c
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: ICallFrame, ICallFrame interface [COM], Marshal method, ICallFrame::Marshal, Marshal method [COM], Marshal method [COM], ICallFrame interface, Marshal,ICallFrame.Marshal, _com_icallframe_marshal, callobj/ICallFrame::Marshal, com.icallframe_marshal
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: callobj.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Callobj.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: CALLFRAME_COPY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Callobj.h
+api_name:
+-	ICallFrame.Marshal
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# ICallFrame::Marshal method
+
+
+## -description
+
+
+Marshals the call frame by turning its reachable data into a flat buffer without disturbing the frame.
+
+
+
+## -parameters
+
+
+
+
+### -param pmshlContext [in]
+
+A pointer to the <a href="https://msdn.microsoft.com/4ecc4646-db3f-4d0e-9c45-b78a288156e1">CALLFRAME_MARSHALCONTEXT</a> structure containing context information about how marshalling is carried out.
+
+
+### -param mshlflags [in]
+
+Flag indicating whether the data to be marshaled is to be transmitted back to the client process â€” the normal case â€” or written to a global table, where it can be retrieved by multiple clients. The possible values are from the <a href="https://msdn.microsoft.com/42a482be-d4b8-4f2e-ae43-1d210cb44c7c">MSHLFLAGS</a> enumeration.
+
+
+### -param pBuffer [in]
+
+A pointer to the buffer into which the marshaled data is to be placed.
+
+
+### -param cbBuffer [in]
+
+The size of the buffer, in bytes.
+
+
+### -param pcbBufferUsed [out]
+
+Receives the size of the buffer that was actually used. This parameter is optional.
+
+
+### -param pdataRep [out]
+
+Receives the NDR data representation with which the data was marshaled. This parameter is optional. For more information, see <a href="https://msdn.microsoft.com/775a15df-8bcf-4c1b-a8b9-5c7c03106c09">IRpcChannelBuffer::GetBuffer</a>.
+
+
+### -param prpcFlags [out]
+
+Receives an RPC flag associated with the call. This parameter is optional. For more information, see <a href="https://msdn.microsoft.com/775a15df-8bcf-4c1b-a8b9-5c7c03106c09">IRpcChannelBuffer::GetBuffer</a>.
+
+
+## -returns
+
+
+
+This method can return the following values.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method completed successfully.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_UNEXPECTED</b></dt>
+</dl>
+</td>
+<td width="60%">
+An unexpected error has occurred.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+When marshalling the [In] versions of [in, out] parameters are present, and the [out] versions are undefined. When marshalling [out] parameters the values are valid.
+
+If this method returns an error, the caller will not be able to clean it up. Resources such as memory transiently allocated during the attempted marshalling have been freed.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/56a75123-f402-4187-af13-d31f72a5f094">ICallFrame</a>
+ 
+
+ 
+

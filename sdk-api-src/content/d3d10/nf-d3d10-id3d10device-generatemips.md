@@ -1,0 +1,183 @@
+---
+UID: NF:d3d10.ID3D10Device.GenerateMips
+title: ID3D10Device::GenerateMips method
+author: windows-driver-content
+description: Generates mipmaps for the given shader resource.
+old-location: direct3d10\id3d10device_generatemips.htm
+old-project: direct3d10
+ms.assetid: VS|directx_sdk|~\id3d10device_generatemips.htm
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: 46ad9ad3-37a7-33c9-7829-0dbf6d4b348a, GenerateMips method [Direct3D 10], GenerateMips method [Direct3D 10], ID3D10Device interface, GenerateMips,ID3D10Device.GenerateMips, ID3D10Device, ID3D10Device interface [Direct3D 10], GenerateMips method, ID3D10Device::GenerateMips, d3d10/ID3D10Device::GenerateMips, direct3d10.id3d10device_generatemips
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: d3d10.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: D3D10_USAGE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	D3D10.lib
+-	D3D10.dll
+api_name:
+-	ID3D10Device.GenerateMips
+product: Windows
+targetos: Windows
+req.lib: D3D10.lib
+req.dll: 
+req.irql: 
+---
+
+# ID3D10Device::GenerateMips method
+
+
+## -description
+
+
+Generates mipmaps for the given shader resource.
+
+
+## -parameters
+
+
+
+
+### -param pShaderResourceView [in]
+
+Type: <b><a href="https://msdn.microsoft.com/303076f3-6057-4f7c-9aa8-a6dd72235ecc">ID3D10ShaderResourceView</a>*</b>
+
+A pointer to an <a href="https://msdn.microsoft.com/303076f3-6057-4f7c-9aa8-a6dd72235ecc">ID3D10ShaderResourceView</a>. The mipmaps will be generated for this shader resource.
+
+
+## -returns
+
+
+
+Returns nothing.
+
+
+
+
+## -remarks
+
+
+
+GenerateMips may be called on any ID3D10ShaderResourceView in order to generate the lower mipmap levels. GenerateMips uses the largest mipmap level of the view to recursively generate the lower levels of the mip, stopping with the smallest level specified by the view. If the base resource was not created with <a href="https://msdn.microsoft.com/3bbefc3b-ad05-499b-bbec-f370bf08a7f4">D3D10_BIND_RENDER_TARGET</a> and <a href="https://msdn.microsoft.com/bdcb4e87-0285-4e96-a7ce-e08a43d3a4cb">D3D10_RESOURCE_MISC_GENERATE_MIPS</a>, this call has no effect.
+
+Video adapters that support <a href="https://msdn.microsoft.com/5ad0525c-249f-452d-950b-df8fa2addde2">feature level</a> 9.1 and higher support generating mipmaps if you use any of these formats:
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
+DXGI_FORMAT_R8G8B8A8_UNORM
+DXGI_FORMAT_R8G8B8A8_UNORM_SRGB
+DXGI_FORMAT_B5G6R5_UNORM
+DXGI_FORMAT_B8G8R8A8_UNORM
+DXGI_FORMAT_B8G8R8A8_UNORM_SRGB
+DXGI_FORMAT_B8G8R8X8_UNORM
+DXGI_FORMAT_B8G8R8X8_UNORM_SRGB
+</pre>
+</td>
+</tr>
+</table></span></div>
+Video adapters that support <a href="https://msdn.microsoft.com/5ad0525c-249f-452d-950b-df8fa2addde2">feature level</a> 9.2 and higher support generating mipmaps if you use any of these formats in addition to any of the formats for feature level 9.1:
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
+DXGI_FORMAT_R16G16B16A16_FLOAT
+DXGI_FORMAT_R16G16B16A16_UNORM
+DXGI_FORMAT_R16G16_FLOAT
+DXGI_FORMAT_R16G16_UNORM
+DXGI_FORMAT_R32_FLOAT
+</pre>
+</td>
+</tr>
+</table></span></div>
+Video adapters that support <a href="https://msdn.microsoft.com/5ad0525c-249f-452d-950b-df8fa2addde2">feature level</a> 9.3 and higher support generating mipmaps if you use any of these formats in addition to any of the formats for feature levels 9.1 and 9.2:
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
+DXGI_FORMAT_R32G32B32A32_FLOAT
+DXGI_FORMAT_B4G4R4A4 (optional)
+</pre>
+</td>
+</tr>
+</table></span></div>
+Video adapters that support <a href="https://msdn.microsoft.com/5ad0525c-249f-452d-950b-df8fa2addde2">feature level</a> 10 and higher support generating mipmaps if you use any of these formats in addition to any of the formats for feature levels 9.1, 9.2, and 9.3:
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
+DXGI_FORMAT_R32G32B32_FLOAT (optional)
+DXGI_FORMAT_R16G16B16A16_SNORM
+DXGI_FORMAT_R32G32_FLOAT
+DXGI_FORMAT_R10G10B10A2_UNORM
+DXGI_FORMAT_R11G11B10_FLOAT
+DXGI_FORMAT_R8G8B8A8_SNORM
+DXGI_FORMAT_R16G16_SNORM
+DXGI_FORMAT_R8G8_UNORM
+DXGI_FORMAT_R8G8_SNORM
+DXGI_FORMAT_R16_FLOAT
+DXGI_FORMAT_R16_UNORM
+DXGI_FORMAT_R16_SNORM
+DXGI_FORMAT_R8_UNORM
+DXGI_FORMAT_R8_SNORM
+DXGI_FORMAT_A8_UNORM
+DXGI_FORMAT_B5G5R5A1_UNORM (optional)
+</pre>
+</td>
+</tr>
+</table></span></div>
+For all other unsupported formats, this method will silently fail.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a>
+
+
+
+<a href="https://msdn.microsoft.com/63c7fca3-5575-41a7-9bdf-2582e6b9c182">ID3D10Device Interface</a>
+ 
+
+ 
+

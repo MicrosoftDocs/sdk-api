@@ -1,0 +1,158 @@
+---
+UID: NF:contentpartner.IWMPContentPartner.RefreshLicense
+title: IWMPContentPartner::RefreshLicense method
+author: windows-driver-content
+description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The RefreshLicense method initiates the update of a license for the specified media file.
+old-location: wmp\iwmpcontentpartner_refreshlicense.htm
+old-project: WMP
+ms.assetid: 2f0d8ed9-027c-45a3-a61a-f6d571e78a0a
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: IWMPContentPartner, IWMPContentPartner interface [Windows Media Player], RefreshLicense method, IWMPContentPartner::RefreshLicense, IWMPContentPartnerRefreshLicense, RefreshLicense method [Windows Media Player], RefreshLicense method [Windows Media Player], IWMPContentPartner interface, RefreshLicense,IWMPContentPartner.RefreshLicense, contentpartner/IWMPContentPartner::RefreshLicense, wmp.iwmpcontentpartner_refreshlicense
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: contentpartner.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Media Player 11
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WMPTransactionType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	contentpartner.h
+api_name:
+-	IWMPContentPartner.RefreshLicense
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# IWMPContentPartner::RefreshLicense method
+
+
+## -description
+
+
+
+<div class="alert"><b>Note</b>  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.</div>
+<div> </div>
+The <b>RefreshLicense</b> method initiates the update of a license for the specified media file.
+
+
+
+
+## -parameters
+
+
+
+
+### -param dwCookie [in]
+
+A cookie that identifies the update request. When the online store has finished updating the license, it passes this cookie to <a href="https://msdn.microsoft.com/426941d9-8d10-4c30-bf2d-cae3f48b51c6">IWMPContentPartnerCallback::RefreshLicenseComplete</a>.
+
+
+### -param fLocal [in]
+
+<b>VARIANT_BOOL</b> that specifies whether the media file is located on the user's computer. <b>VARIANT_TRUE</b> specifies that the file is on the user's computer. <b>VARIANT_FALSE</b> specifies that the file is not currently on the user's computer, but is available from the online store's servers.
+
+
+### -param bstrURL [in]
+
+<b>BSTR</b> containing the URL of the media file on the user's computer. This is <b>NULL</b> if the media file is not on the user's computer.
+
+
+### -param type [in]
+
+A member of the <a href="https://msdn.microsoft.com/3ac7e8cb-39c7-4437-a2da-6de5cb1efed9">WMPStreamingType</a> enumeration that specifies the type (music, video, or radio) of the media file.
+
+
+### -param contentID [in]
+
+Content ID of the media file for which the updated license is being requested.
+
+
+### -param bstrRefreshReason [in]
+
+Reason for refreshing the license. The caller (Windows Media Player) sets this parameter to one of the following values:
+
+<p class="indent">g_szRefreshLicensePlay
+
+<p class="indent">g_szRefreshLicenseBurn
+
+<p class="indent">g_szRefreshLicenseSync
+
+
+### -param pReasonContext [in]
+
+If refreshing the license for synchronization to a device, this parameter has type <b>VT_BSTR</b> and contains the device name. Otherwise, this parameter has type <b>VT_EMPTY</b> and supplies no information.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+This method must not display a user interface.
+
+This method initiates the license update and then returns immediately. When the online store has completed the license update, the online store's plug-in calls <b>IWMPContentPartnerCallback::RefreshLicenseComplete</b>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/2078ebd4-3570-4c39-9081-1b55d9e8286f">IWMPContentPartner Interface</a>
+
+
+
+<a href="https://msdn.microsoft.com/426941d9-8d10-4c30-bf2d-cae3f48b51c6">IWMPContentPartnerCallback::RefreshLicenseComplete</a>
+ 
+
+ 
+

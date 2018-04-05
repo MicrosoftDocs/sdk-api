@@ -1,0 +1,98 @@
+---
+UID: NF:wincodecsdk.IWICMetadataWriterInfo.GetHeader
+title: IWICMetadataWriterInfo::GetHeader method
+author: windows-driver-content
+description: Gets the metadata header for the metadata writer.
+old-location: wic\_wic_codec_iwicmetadatawriterinfo_getheader.htm
+old-project: wic
+ms.assetid: 156728ea-b4a3-47d7-b0d8-cd34881e9703
+ms.author: windowsdriverdev
+ms.date: 3/28/2018
+ms.keywords: GetHeader method [Windows Imaging Component], GetHeader method [Windows Imaging Component], IWICMetadataWriterInfo interface, GetHeader,IWICMetadataWriterInfo.GetHeader, IWICMetadataWriterInfo, IWICMetadataWriterInfo interface [Windows Imaging Component], GetHeader method, IWICMetadataWriterInfo::GetHeader, _wic_codec_iwicmetadatawriterinfo_getheader, wic._wic_codec_iwicmetadatawriterinfo_getheader, wincodecsdk/IWICMetadataWriterInfo::GetHeader
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wincodecsdk.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Wincodecsdk.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WICPersistOptions
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Windowscodecs.dll
+api_name:
+-	IWICMetadataWriterInfo.GetHeader
+product: Windows
+targetos: Windows
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# IWICMetadataWriterInfo::GetHeader method
+
+
+## -description
+
+
+Gets the metadata header for the metadata writer.
+
+
+## -parameters
+
+
+
+
+### -param guidContainerFormat [in]
+
+Type: <b>REFGUID</b>
+
+The format container GUID to obtain the header for.
+
+
+### -param cbSize [in]
+
+Type: <b>UINT</b>
+
+The size of the <i>pHeader</i> buffer.
+
+
+### -param pHeader [in, out]
+
+Type: <b><a href="https://msdn.microsoft.com/f643b163-55b2-4691-a4eb-fc162949e936">WICMetadataHeader</a>*</b>
+
+Pointer that receives the <a href="https://msdn.microsoft.com/f643b163-55b2-4691-a4eb-fc162949e936">WICMetadataHeader</a>.
+
+
+### -param pcbActual [in, out]
+
+Type: <b>UINT*</b>
+
+The actual size of the header.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+

@@ -1,0 +1,78 @@
+---
+UID: NF:chstring.CHString.GetLength
+title: CHString::GetLength method
+author: windows-driver-content
+description: The GetLength method gets a count of the number of wide characters in this CHString string. The count does not include a NULL terminator.
+old-location: wmi\chstring_getlength.htm
+old-project: WmiSdk
+ms.assetid: b898f9d1-b9a2-4c7b-a7c0-1b6b51ae565f
+ms.author: windowsdriverdev
+ms.date: 3/16/2018
+ms.keywords: "?GetLength@CHString@@QBEHXZ, ?GetLength@CHString@@QEBAHXZ, CHString, CHString interface [Windows Management Instrumentation], GetLength method, CHString::GetLength, GetLength method [Windows Management Instrumentation], GetLength method [Windows Management Instrumentation], CHString interface, GetLength,CHString.GetLength, _hmm_chstring_getlength, chstring/CHString::GetLength, wmi.chstring_getlength"
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: chstring.h
+req.include-header: FwCommon.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: CF_SYNC_ROOT_STANDARD_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	FrameDynOS.dll
+-	FrameDyn.dll
+api_name:
+-	CHString.GetLength
+-	?GetLength@CHString@@QBEHXZ
+-	?GetLength@CHString@@QEBAHXZ
+product: Windows
+targetos: Windows
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
+---
+
+# CHString::GetLength method
+
+
+## -description
+
+
+<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/e2e4378f-d842-4bca-bffc-a60e718caed3">CHString</a> class 
+    is part of the WMI Provider Framework which is now considered in final state, and no further development, 
+    enhancements, or updates will be available for non-security related issues affecting these libraries. The 
+    <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new 
+    development.]
+
+The <b>GetLength</b> method gets a count of the number of wide characters in this <a href="https://msdn.microsoft.com/e2e4378f-d842-4bca-bffc-a60e718caed3">CHString</a> string. The count does not include a <b>NULL</b> terminator.
+
+
+## -parameters
+
+
+
+
+
+
+## -returns
+
+
+
+Returns a count of the number of wide characters in the string, not the number of bytes.
+
+
+

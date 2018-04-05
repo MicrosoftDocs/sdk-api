@@ -1,0 +1,246 @@
+---
+UID: NF:rpcdce.RpcServerRegisterAuthInfo
+title: RpcServerRegisterAuthInfo function
+author: windows-driver-content
+description: The RpcServerRegisterAuthInfo function registers authentication information with the RPC run-time library.
+old-location: rpc\rpcserverregisterauthinfo.htm
+old-project: Rpc
+ms.assetid: b7a7b57e-540b-460b-9eec-6246cc1fd9d3
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: RpcServerRegisterAuthInfo, RpcServerRegisterAuthInfo function [RPC], RpcServerRegisterAuthInfoA, RpcServerRegisterAuthInfoW, _rpc_rpcserverregisterauthinfo, rpc.rpcserverregisterauthinfo, rpcdce/RpcServerRegisterAuthInfo, rpcdce/RpcServerRegisterAuthInfoA, rpcdce/RpcServerRegisterAuthInfoW
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: rpcdce.h
+req.include-header: Rpc.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: RpcServerRegisterAuthInfoW (Unicode) and RpcServerRegisterAuthInfoA (ANSI)
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: RPC_CALL_LOCAL_ADDRESS_V1, *PRPC_CALL_LOCAL_ADDRESS_V1
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Rpcrt4.dll
+api_name:
+-	RpcServerRegisterAuthInfo
+-	RpcServerRegisterAuthInfoA
+-	RpcServerRegisterAuthInfoW
+product: Windows
+targetos: Windows
+req.lib: Rpcrt4.lib
+req.dll: Rpcrt4.dll
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# RpcServerRegisterAuthInfo function
+
+
+## -description
+
+
+The 
+<b>RpcServerRegisterAuthInfo</b> function registers authentication information with the RPC run-time library.
+
+
+## -parameters
+
+
+
+
+### -param ServerPrincName
+
+Pointer to the principal name to use for the server when authenticating remote procedure calls using the service specified by the <i>AuthnSvc</i> parameter. The content of the name and its syntax are defined by the authentication service in use. For more information, see 
+<a href="https://msdn.microsoft.com/4d9977f8-0efb-4559-977e-3eba4e277bc0">Principal Names</a>.
+
+
+### -param AuthnSvc
+
+Authentication service to use when the server receives a request for a remote procedure call.
+
+
+### -param GetKeyFn
+
+Address of a server-application-provided routine that returns encryption keys. See 
+<a href="https://msdn.microsoft.com/643ce467-5df9-4b1a-a149-cf301865d47a">RPC_AUTH_KEY_RETRIEVAL_FN</a>. 
+
+
+
+
+Specify a <b>NULL</b> parameter value to use the default method of encryption-key acquisition. In this case, the authentication service specifies the default behavior. Set this parameter to <b>NULL</b> when using the RPC_C_AUTHN_WINNT authentication service.
+
+<table>
+<tr>
+<th>Authentication service</th>
+<th>GetKeyFn</th>
+<th>Arg</th>
+<th>Run-time behavior</th>
+</tr>
+<tr>
+<td>RPC_C_AUTHN_DPA</td>
+<td>Ignored</td>
+<td>Ignored</td>
+<td>Does not support</td>
+</tr>
+<tr>
+<td>RPC_C_AUTHN_GSS_KERBEROS</td>
+<td>Ignored</td>
+<td>Ignored</td>
+<td>Does not support</td>
+</tr>
+<tr>
+<td>RPC_C_AUTHN_GSS_NEGOTIATE</td>
+<td>Ignored</td>
+<td>Ignored</td>
+<td>Does not support</td>
+</tr>
+<tr>
+<td>RPC_C_AUTHN_GSS_SCHANNEL</td>
+<td>Ignored</td>
+<td>Ignored</td>
+<td>Does not support</td>
+</tr>
+<tr>
+<td>RPC_C_AUTHN_MQ</td>
+<td>Ignored</td>
+<td>Ignored</td>
+<td>Does not support</td>
+</tr>
+<tr>
+<td>RPC_C_AUTHN_MSN</td>
+<td>Ignored</td>
+<td>Ignored</td>
+<td>Does not support</td>
+</tr>
+<tr>
+<td>RPC_C_AUTHN_WINNT</td>
+<td>Ignored</td>
+<td>Ignored</td>
+<td>Does not support</td>
+</tr>
+<tr>
+<td>RPC_C_AUTHN_DCE_PRIVATE</td>
+<td><b>NULL</b></td>
+<td>Non-<b>null</b></td>
+<td>Uses default method of encryption-key acquisition from specified key table; specified argument is passed to default acquisition function.</td>
+</tr>
+<tr>
+<td>RPC_C_AUTHN_DCE_PRIVATE</td>
+<td>Non-<b>null</b></td>
+<td><b>NULL</b></td>
+<td>Uses specified encryption-key acquisition function to obtain keys from default key table.</td>
+</tr>
+<tr>
+<td>RPC_C_AUTHN_DCE_PRIVATE</td>
+<td>Non-<b>null</b></td>
+<td>Non-<b>null</b></td>
+<td>Uses specified encryption-key acquisition function to obtain keys from specified key table; specified argument is passed to acquisition function.</td>
+</tr>
+<tr>
+<td>RPC_C_AUTHN_DEC_PUBLIC</td>
+<td>Ignored</td>
+<td>Ignored</td>
+<td>Reserved for future use.</td>
+</tr>
+</table>
+ 
+
+
+<div> </div>
+
+
+The RPC run-time library passes the <i>ServerPrincName</i> parameter value from 
+<b>RpcServerRegisterAuthInfo</b> as the <i>ServerPrincName</i> parameter value to the <i>GetKeyFn</i> acquisition function. The RPC run-time library automatically provides a value for the key version (<i>KeyVer</i>) parameter. For a <i>KeyVer</i> parameter value of zero, the acquisition function must return the most recent key available. The retrieval function returns the authentication key in the <i>Key</i> parameter.
+
+If the acquisition function called from 
+<b>RpcServerRegisterAuthInfo</b> returns a status other than RPC_S_OK, then this function fails and returns an error code to the server application. If the acquisition function called by the RPC run-time library while authenticating a client's remote procedure call request returns a status other than RPC_S_OK, the request fails and the RPC run-time library returns an error code to the client application.
+
+
+### -param Arg
+
+Pointer to a parameter to pass to the <i>GetKeyFn</i> routine, if specified. This parameter can also be used to pass a pointer to an 
+<a href="https://msdn.microsoft.com/8398e029-473e-488f-a861-c7ceae07e678">SCHANNEL_CRED</a> structure to specify explicit credentials if the authentication service is set to SCHANNEL. 
+
+
+
+
+If the <i>Arg</i> parameter is set to <b>NULL</b>, this function will use the default certificate or credential if it has been set up in the directory service.
+
+
+## -returns
+
+
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>RPC_S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The call succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>RPC_S_UNKNOWN_AUTHN_SERVICE</b></dt>
+</dl>
+</td>
+<td width="60%">
+The authentication service is unknown.
+
+</td>
+</tr>
+</table>
+ 
+
+<div class="alert"><b>Note</b>  For a list of valid error codes, see 
+<a href="https://msdn.microsoft.com/0223aa7a-b0cf-49e3-9f08-90be5ccffbd1">RPC Return Values</a>.</div>
+<div> </div>
+
+
+
+## -remarks
+
+
+
+A server application calls 
+<b>RpcServerRegisterAuthInfo</b> to register an authentication service to use for authenticating remote procedure calls. A server calls this routine once for each authentication service the server wants to register. If the server calls this function more than once for a given authentication service, the results are undefined.
+
+The authentication service that a client application specifies (using 
+<a href="https://msdn.microsoft.com/2db946b6-6a0d-402c-89ef-68c7489aa7ee">RpcBindingSetAuthInfo</a> or 
+<b>RpcServerRegisterAuthInfo</b>) must be one of the authentication services specified by the server application. Otherwise, the client's remote procedure call fails and an RPC_S_UNKNOWN_AUTHN_SERVICE status code is returned.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/2db946b6-6a0d-402c-89ef-68c7489aa7ee">RpcBindingSetAuthInfo</a>
+ 
+
+ 
+

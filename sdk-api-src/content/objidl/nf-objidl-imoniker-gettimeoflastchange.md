@@ -1,0 +1,228 @@
+---
+UID: NF:objidl.IMoniker.GetTimeOfLastChange
+title: IMoniker::GetTimeOfLastChange method
+author: windows-driver-content
+description: Retrieves the time at which the object identified by this moniker was last changed.
+old-location: com\imoniker_gettimeoflastchange.htm
+old-project: com
+ms.assetid: 120cc951-6797-4ef6-890b-57ff8d3d23ba
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: GetTimeOfLastChange method [COM], GetTimeOfLastChange method [COM], IMoniker interface, GetTimeOfLastChange,IMoniker.GetTimeOfLastChange, IMoniker, IMoniker interface [COM], GetTimeOfLastChange method, IMoniker::GetTimeOfLastChange, _com_imoniker_gettimeoflastchange, com.imoniker_gettimeoflastchange, objidl/IMoniker::GetTimeOfLastChange
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: objidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: ObjIdl.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: THDTYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	ObjIdl.h
+api_name:
+-	IMoniker.GetTimeOfLastChange
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# IMoniker::GetTimeOfLastChange method
+
+
+## -description
+
+
+Retrieves the time at which the object identified by this moniker was last changed.
+
+
+## -parameters
+
+
+
+
+### -param pbc [in]
+
+A pointer to the bind context to be used in this binding operation. The bind context caches objects bound during the binding process, contains parameters that apply to all operations using the bind context, and provides the means by which the moniker implementation should retrieve information about its environment. For more information, see <a href="https://msdn.microsoft.com/e4c8abb5-0c89-44dd-8d95-efbfcc999b46">IBindCtx</a>.
+
+
+### -param pmkToLeft [in]
+
+If the moniker is part of a composite moniker, pointer to the moniker to the left of this moniker. This parameter is primarily used by moniker implementers to enable cooperation between the various components of a composite moniker. Moniker clients should pass <b>NULL</b>.
+
+
+### -param pFileTime [out]
+
+A pointer to the <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure that receives the time of last change. A value of {0xFFFFFFFF,0x7FFFFFFF} indicates an error (for example, exceeded time limit, information not available).
+
+
+## -returns
+
+
+
+This method can return the standard return values E_OUTOFMEMORY, as well as the following values.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method completed successfully.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>MK_E_EXCEEDEDDEADLINE</b></dt>
+</dl>
+</td>
+<td width="60%">
+The binding operation could not be completed within the time limit specified by the bind context's <a href="https://msdn.microsoft.com/764f09c9-ff20-4ae2-b94f-4b0a1e117e49">BIND_OPTS</a> structure.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>MK_E_CONNECTMANUALLY</b></dt>
+</dl>
+</td>
+<td width="60%">
+The operation was unable to connect to the storage for this object, possibly because a network device could not be connected to. For more information, see <a href="https://msdn.microsoft.com/b5ce39ff-3387-4f72-9aea-5a26eed3810c">IMoniker::BindToObject</a>.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>MK_E_UNAVAILABLE</b></dt>
+</dl>
+</td>
+<td width="60%">
+The time of the change is unavailable and will not be available regardless of the deadline that is used.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+To be precise, the time returned is the earliest time COM can identify after which no change has occurred, so this time may be later than the time of the last change to the object.
+
+<h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
+If you're caching information returned by the object identified by the moniker, you may want to ensure that your information is up-to-date. To do so, you would call <b>GetTimeOfLastChange</b> and compare the time returned with the time you last retrieved information from the object. 
+
+
+
+For the monikers stored within linked objects, <b>GetTimeOfLastChange</b> is primarily called by the default handler's implementation of <a href="https://msdn.microsoft.com/74203a74-c5dd-4a98-9223-1dc54c9d4399">IOleObject::IsUpToDate</a>. Container applications call <b>IOleObject::IsUpToDate</b> to determine if a linked object (or an embedded object containing linked objects) is up-to-date without actually binding to the object. This enables an application to determine quickly which linked objects require updating when the end user opens a document. The application can then bind only those linked objects that need updating (after prompting the end user to determine whether they should be updated) instead of binding every linked object in the document.
+
+<h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
+It is important to perform this operation quickly because, for linked objects, this method is called when a user first opens a compound document. Consequently, your <b>GetTimeOfLastChange</b> implementation should not bind to any objects. In addition, your implementation should check the deadline parameter in the bind context and return MK_E_EXCEEDEDDEADLINE if the operation cannot be completed by the specified time.
+
+Following are some strategies you can use in your implementations: 
+
+
+
+<ul>
+<li>
+For many types of monikers, the pmkToLeft parameter identifies the container of the object identified by this moniker. If this is true of your moniker class, you can simply call <b>GetTimeOfLastChange</b> on the <i>pmkToLeft</i> parameter, because an object cannot have changed at a date later than its container.
+
+</li>
+<li>
+You can get a pointer to the running object table (ROT) by calling <a href="https://msdn.microsoft.com/26938d07-d772-4e72-a6aa-57dd2f2cece1">IBindCtx::GetRunningObjectTable</a> on the <i>pbc</i> parameter and then calling <a href="https://msdn.microsoft.com/fef6f7e5-7d91-4737-98a4-c9779c6c2be5">IRunningObjectTable::GetTimeOfLastChange</a>, because the ROT generally records the time of last change.
+
+</li>
+<li>
+You can get the storage associated with this moniker (or the <i>pmkToLeft</i> moniker) and return the storage's last modification time with a call to <a href="https://msdn.microsoft.com/87478fa8-1b5f-44ed-bffc-e139c7f44a12">IStorage::Stat</a>.
+
+</li>
+</ul>
+<h3><a id="Implementation-specific_Notes"></a><a id="implementation-specific_notes"></a><a id="IMPLEMENTATION-SPECIFIC_NOTES"></a>Implementation-specific Notes</h3>
+<table>
+<tr>
+<th>Implementation</th>
+<th>Notes</th>
+</tr>
+<tr>
+<td>Anti-moniker</td>
+<td>This method returns E_NOTIMPL.</td>
+</tr>
+<tr>
+<td>Class moniker</td>
+<td>This method returns MK_E_UNAVAILABLE.</td>
+</tr>
+<tr>
+<td>File moniker</td>
+<td>If this moniker is in the ROT, this method returns the last change time registered there; otherwise, it returns the last write time for the file. If the file cannot be found, this method returns MK_E_NOOBJECT.</td>
+</tr>
+<tr>
+<td>Generic composite moniker</td>
+<td>This method creates a composite of <i>pmkToLeft</i> (if non-<b>NULL</b>) and this moniker and uses the ROT to retrieve the time of last change. If the object is not in the ROT, the method recursively calls <b>GetTimeOfLastChange</b> on the rightmost component of the composite, passing the remainder of the composite as the <i>pmkToLeft</i> parameter for that call.</td>
+</tr>
+<tr>
+<td>Item moniker</td>
+<td>If <i>pmkToLeft</i> is <b>NULL</b>, this method returns MK_E_NOTBINDABLE. Otherwise, the method creates a composite of <i>pmkToLeft</i> and this moniker and uses the ROT to access the time of last change. If the object is not in the ROT, the method calls <b>GetTimeOfLastChange</b> on the <i>pmkToLeft</i> parameter.</td>
+</tr>
+<tr>
+<td>OBJREF moniker</td>
+<td>This method returns E_NOTIMPL.</td>
+</tr>
+<tr>
+<td>Pointer moniker</td>
+<td>This method returns E_NOTIMPL.</td>
+</tr>
+<tr>
+<td>URL moniker</td>
+<td>This method returns the time of last change of an object that is registered in the ROT.</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/17f4c1df-7a9c-42ef-a888-70cd8d85f070">IMoniker</a>
+
+
+
+<a href="https://msdn.microsoft.com/fef6f7e5-7d91-4737-98a4-c9779c6c2be5">IRunningObjectTable::GetTimeOfLastChange</a>
+ 
+
+ 
+

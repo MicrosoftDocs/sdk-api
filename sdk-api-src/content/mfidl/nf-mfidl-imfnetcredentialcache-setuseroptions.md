@@ -1,0 +1,121 @@
+---
+UID: NF:mfidl.IMFNetCredentialCache.SetUserOptions
+title: IMFNetCredentialCache::SetUserOptions method
+author: windows-driver-content
+description: Specifies how user credentials are stored.
+old-location: mf\imfnetcredentialcache_setuseroptions.htm
+old-project: medfound
+ms.assetid: 024eea57-e7c8-495d-9959-ab37dd45873d
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: 024eea57-e7c8-495d-9959-ab37dd45873d, IMFNetCredentialCache, IMFNetCredentialCache interface [Media Foundation], SetUserOptions method, IMFNetCredentialCache::SetUserOptions, SetUserOptions method [Media Foundation], SetUserOptions method [Media Foundation], IMFNetCredentialCache interface, SetUserOptions,IMFNetCredentialCache.SetUserOptions, mf.imfnetcredentialcache_setuseroptions, mfidl/IMFNetCredentialCache::SetUserOptions
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: mfidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MF_URL_TRUST_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfuuid.lib
+-	mfuuid.dll
+api_name:
+-	IMFNetCredentialCache.SetUserOptions
+product: Windows
+targetos: Windows
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IMFNetCredentialCache::SetUserOptions method
+
+
+## -description
+
+
+
+Specifies how user credentials are stored.
+
+
+
+
+## -parameters
+
+
+
+
+### -param pCred [in]
+
+Pointer to the <a href="https://msdn.microsoft.com/d202e7bc-9ce0-4861-8552-5a4d599b1661">IMFNetCredential</a> interface. Obtain this pointer by calling <a href="https://msdn.microsoft.com/7e095445-354a-4fbb-b354-bf87eb77552f">IMFNetCredentialCache::GetCredential</a>.
+
+
+### -param dwOptionsFlags [in]
+
+Bitwise <b>OR</b> of zero or more flags from the <a href="https://msdn.microsoft.com/5ee4f46c-762c-4acf-86ff-da7a93b5de05">MFNetCredentialOptions</a> enumeration.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+If no flags are specified, the credentials are cached in memory. This method can be implemented by the credential manager and called by the network source.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/d02e26e7-e99c-4be7-8495-830eff2f1554">IMFNetCredentialCache</a>
+ 
+
+ 
+

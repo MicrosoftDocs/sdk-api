@@ -1,0 +1,86 @@
+---
+UID: NF:evr9.IEVRVideoStreamControl.SetStreamActiveState
+title: IEVRVideoStreamControl::SetStreamActiveState method
+author: windows-driver-content
+description: IEVRVideoStreamControl::SetStreamActiveState method
+old-location: mf\ievrvideostreamcontrol_setstreamactivestate.htm
+old-project: medfound
+ms.assetid: 85f711f1-1536-4ab0-90b7-79e22c210198
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: 85f711f1-1536-4ab0-90b7-79e22c210198, IEVRVideoStreamControl, IEVRVideoStreamControl interface [Media Foundation], SetStreamActiveState method, IEVRVideoStreamControl::SetStreamActiveState, SetStreamActiveState method [Media Foundation], SetStreamActiveState method [Media Foundation], IEVRVideoStreamControl interface, SetStreamActiveState,IEVRVideoStreamControl.SetStreamActiveState, evr9/IEVRVideoStreamControl::SetStreamActiveState, mf.ievrvideostreamcontrol_setstreamactivestate
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: evr9.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MFVideoAlphaBitmapFlags
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	strmiids.lib
+-	strmiids.dll
+api_name:
+-	IEVRVideoStreamControl.SetStreamActiveState
+product: Windows
+targetos: Windows
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
+---
+
+# IEVRVideoStreamControl::SetStreamActiveState method
+
+
+## -description
+
+
+<div class="alert"><b>Note</b>  This method is not supported.</div><div> </div>
+
+## -parameters
+
+
+
+
+### -param fActive [in]
+
+
+## -returns
+
+
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/1c985558-d25d-4f51-978a-58c05943dab9">Enhanced Video Renderer</a>
+
+
+
+<a href="https://msdn.microsoft.com/ea7b0dd2-2eff-4a37-826b-6f87fbea5785">IEVRVideoStreamControl</a>
+ 
+
+ 
+

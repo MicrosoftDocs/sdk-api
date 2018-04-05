@@ -1,0 +1,84 @@
+---
+UID: NF:wcmconfig.ITargetInfo.SetTargetProcessorArchitecture
+title: ITargetInfo::SetTargetProcessorArchitecture method
+author: windows-driver-content
+description: Sets the processor architecture associated with the current target.
+old-location: smi\itargetinfo_settargetprocessorarchitecture.htm
+old-project: SMI
+ms.assetid: 15056182-4355-48f5-b996-195e3c72235e
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: ITargetInfo, ITargetInfo interface [SMI], SetTargetProcessorArchitecture method, ITargetInfo::SetTargetProcessorArchitecture, SetTargetProcessorArchitecture method [SMI], SetTargetProcessorArchitecture method [SMI], ITargetInfo interface, SetTargetProcessorArchitecture,ITargetInfo.SetTargetProcessorArchitecture, smi.itargetinfo_settargetprocessorarchitecture, wcmconfig/ITargetInfo::SetTargetProcessorArchitecture
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wcmconfig.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: WcmConfig.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WcmNamespaceAccess
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SMIEngine.dll
+api_name:
+-	ITargetInfo.SetTargetProcessorArchitecture
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SMIEngine.dll
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# ITargetInfo::SetTargetProcessorArchitecture method
+
+
+## -description
+
+
+Sets the processor architecture associated with the current target.
+
+
+## -parameters
+
+
+
+
+### -param ProcessorArchitecture [in]
+
+The processor architecture associated with the current target.
+
+
+## -returns
+
+
+
+This method returns an HRESULT value. <b>S_OK</b> indicates success. Returns <b>HRESULT_FROM_WIN32</b> (<b>ERROR_INVALID_OPERATION</b>) if the target processor architecture has been set. May return <b>E_OUTOFMEMORY</b> if system resources are low.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/f1dd3c93-43ca-4804-8330-55acaccf8ea8">ITargetInfo</a>
+ 
+
+ 
+

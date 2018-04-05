@@ -1,0 +1,93 @@
+---
+UID: NF:mfidl.IMFVideoSampleAllocatorCallback.GetFreeSampleCount
+title: IMFVideoSampleAllocatorCallback::GetFreeSampleCount method
+author: windows-driver-content
+description: Gets the number of video samples that are currently available for use.
+old-location: mf\imfvideosampleallocatorcallback_getfreesamplecount.htm
+old-project: medfound
+ms.assetid: 0025067b-1c8f-4f1a-91f2-edf6a274523b
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: GetFreeSampleCount method [Media Foundation], GetFreeSampleCount method [Media Foundation], IMFVideoSampleAllocatorCallback interface, GetFreeSampleCount,IMFVideoSampleAllocatorCallback.GetFreeSampleCount, IMFVideoSampleAllocatorCallback, IMFVideoSampleAllocatorCallback interface [Media Foundation], GetFreeSampleCount method, IMFVideoSampleAllocatorCallback::GetFreeSampleCount, mf.imfvideosampleallocatorcallback_getfreesamplecount, mfidl/IMFVideoSampleAllocatorCallback::GetFreeSampleCount
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: mfidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MF_URL_TRUST_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfidl.h
+api_name:
+-	IMFVideoSampleAllocatorCallback.GetFreeSampleCount
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IMFVideoSampleAllocatorCallback::GetFreeSampleCount method
+
+
+## -description
+
+
+Gets the number of video samples that are currently available for use.
+
+
+## -parameters
+
+
+
+
+### -param plSamples [out]
+
+Receives the number of available samples.
+
+
+## -returns
+
+
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+To get a video sample from the allocator, call the <a href="https://msdn.microsoft.com/e5347cef-edbd-4f6a-88c9-042e53515a32">IMFVideoSampleAllocator::AllocateSample</a> method. The <b>AllocateSample</b> method removes a sample from the sample pool and returns it to the caller. When a sample is released, it returns to the pool. The <b>GetFreeSampleCount</b> method returns the count of samples that remain in the sample pool.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/7dbf8b3a-24b3-41d9-bb1e-9c57b88a77ac">IMFVideoSampleAllocatorCallback</a>
+ 
+
+ 
+

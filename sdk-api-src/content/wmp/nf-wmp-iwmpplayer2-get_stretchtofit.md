@@ -1,0 +1,123 @@
+---
+UID: NF:wmp.IWMPPlayer2.get_stretchToFit
+title: IWMPPlayer2::get_stretchToFit method
+author: windows-driver-content
+description: The get_stretchToFit method retrieves a value indicating whether video displayed by the Windows Media Player control automatically sizes to fit the video window when the video window is larger than the dimensions of the video image.
+old-location: wmp\iwmpplayer2_get_stretchtofit.htm
+old-project: WMP
+ms.assetid: d477800d-fb16-49a7-ab80-a0f5f7c68fc7
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: IWMPPlayer2, IWMPPlayer2 interface [Windows Media Player], get_stretchToFit method, IWMPPlayer2::get_stretchToFit, IWMPPlayer2get_stretchToFit, get_stretchToFit method [Windows Media Player], get_stretchToFit method [Windows Media Player], IWMPPlayer2 interface, get_stretchToFit,IWMPPlayer2.get_stretchToFit, wmp.iwmpplayer2_get_stretchtofit, wmp/IWMPPlayer2::get_stretchToFit
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wmp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Media Player 9 Series or later.
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WMPSyncState
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	wmp.dll
+api_name:
+-	IWMPPlayer2.get_stretchToFit
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IWMPPlayer2::get_stretchToFit method
+
+
+## -description
+
+
+
+The <b>get_stretchToFit</b> method retrieves a value indicating whether video displayed by the Windows Media Player control automatically sizes to fit the video window when the video window is larger than the dimensions of the video image.
+
+
+
+
+## -parameters
+
+
+
+
+### -param pbEnabled [out]
+
+Pointer to a <b>VARIANT_BOOL</b> indicating whether video displayed by the Windows Media Player control automatically resizes.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+When the <b>VARIANT_BOOL</b> retrieved by <b>get_stretchToFit</b> equals <b>TRUE</b>, the Windows Media Player control maintains the original aspect ratio of the video. If the aspect ratio of the video does not match the aspect ratio of the video window, black mask areas may appear on either the top and bottom or left and right of the video image.
+
+This method applies to the Windows Media Player control only when embedded in a webpage.
+
+<b>Windows Media Player 10 Mobile: </b>This method always retrieves a <b>VARIANT_BOOL</b> set to <b>FALSE</b>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/bf51d54d-d0aa-42ad-8180-d1f6487baac8">IWMPPlayer2 Interface</a>
+
+
+
+<a href="https://msdn.microsoft.com/1da60976-5f84-4dc7-8186-32f6d3bb9165">IWMPPlayer2::put_stretchToFit</a>
+ 
+
+ 
+

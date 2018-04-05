@@ -1,0 +1,84 @@
+---
+UID: NF:tsvirtualchannels.IWTSPlugin.Disconnected
+title: IWTSPlugin::Disconnected method
+author: windows-driver-content
+description: Notifies the plug-in that the Remote Desktop Connection (RDC) client has disconnected from the Remote Desktop Session Host (RD Session Host) server.
+old-location: termserv\iwtsplugin_disconnected.htm
+old-project: TermServ
+ms.assetid: cbc753b4-531f-476e-8743-b8fbf2481c91
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: Disconnected method [Remote Desktop Services], Disconnected method [Remote Desktop Services], IWTSPlugin interface, Disconnected,IWTSPlugin.Disconnected, IWTSPlugin, IWTSPlugin interface [Remote Desktop Services], Disconnected method, IWTSPlugin::Disconnected, termserv.iwtsplugin_disconnected, tsvirtualchannels/IWTSPlugin::Disconnected
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: tsvirtualchannels.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: TsVirtualChannels.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WTSSBX_SESSION_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	TsVirtualChannels.h
+api_name:
+-	IWTSPlugin.Disconnected
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# IWTSPlugin::Disconnected method
+
+
+## -description
+
+
+Notifies the plug-in that the Remote Desktop Connection (RDC) client has disconnected from the Remote Desktop Session Host (RD Session Host) server.
+
+
+## -parameters
+
+
+
+
+### -param dwDisconnectCode [in]
+
+Code that identifies the disconnect reason. For the possible codes, see <a href="https://msdn.microsoft.com/f01086e7-61d1-41df-ba0a-4eecfa57d492">IMsTscAxEvents::OnDisconnected</a>.
+
+
+## -returns
+
+
+
+Returns <b>S_OK</b> if the call completes successfully. Results in no action if the call fails.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/e34caf2c-1eb6-40eb-9407-20ed4fde9cdb">IWTSPlugin</a>
+ 
+
+ 
+

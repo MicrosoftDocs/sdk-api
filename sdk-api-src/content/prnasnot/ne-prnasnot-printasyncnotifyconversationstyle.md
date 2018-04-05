@@ -1,0 +1,80 @@
+---
+UID: NE:prnasnot.PrintAsyncNotifyConversationStyle
+title: PrintAsyncNotifyConversationStyle
+author: windows-driver-content
+description: Specifies whether communication is bidirectional or unidirectional between applications and Print Spooler-hosted components such as printer drivers, print processors, and port monitors.
+old-location: gdi\printasyncnotifyconversationstyle.htm
+old-project: printdocs
+ms.assetid: 61fefc3b-7299-4b52-962d-98f4c2f386dc
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: PrintAsyncNotifyConversationStyle, PrintAsyncNotifyConversationStyle enumeration [Windows GDI], _win32_PrintAsyncNotifyConversationStyle, gdi.printasyncnotifyconversationstyle, kBiDirectional, kUniDirectional, prnasnot/PrintAsyncNotifyConversationStyle, prnasnot/kBiDirectional, prnasnot/kUniDirectional
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: enum
+req.header: prnasnot.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Printmanagerinterop.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: PrintAsyncNotifyConversationStyle
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	prnasnot.h
+api_name:
+-	PrintAsyncNotifyConversationStyle
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# PrintAsyncNotifyConversationStyle enumeration
+
+
+## -description
+
+
+Specifies whether communication is bidirectional or unidirectional between applications and Print Spooler-hosted components such as printer drivers, print processors, and port monitors.
+
+
+## -enum-fields
+
+
+
+
+### -field kBiDirectional
+
+Indicates that applications can send replies to the Print Spooler-hosted component that sent a notification.
+
+
+### -field kUniDirectional
+
+Indicates that communication goes only from the Print Spooler-hosted component to one or more listening applications.
+
+
+## -remarks
+
+
+
+Even when the communication is bidirectional, applications cannot initiate communication. They can only reply to notifications sent by the Print Spooler-hosted components.
+
+When multiple applications listen for bidirectional notifications, they receive only the first notification sent through a bidirectional channel. The Print Spooler maintains the channel only with the first listening application that responded, and discards all subsequent replies from other listeners.
+
+
+

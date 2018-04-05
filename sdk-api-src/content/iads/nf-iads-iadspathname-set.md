@@ -1,0 +1,174 @@
+---
+UID: NF:iads.IADsPathname.Set
+title: IADsPathname::Set method
+author: windows-driver-content
+description: Sets up the Pathname object for parsing a directory path.
+old-location: adsi\iadspathname_set.htm
+old-project: ADSI
+ms.assetid: 1672c1b0-1008-41e7-8ca4-eefb559f523d
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: IADsPathname, IADsPathname interface [ADSI], Set method, IADsPathname::Set, Set method [ADSI], Set method [ADSI], IADsPathname interface, Set,IADsPathname.Set, _ds_iadspathname_set, adsi.iadspathname__set, adsi.iadspathname_set, iads/IADsPathname::Set
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: iads.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: ADS_SD_FORMAT_ENUM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Activeds.dll
+api_name:
+-	IADsPathname.Set
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Activeds.dll
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IADsPathname::Set method
+
+
+## -description
+
+
+The <b>IADsPathname::Set</b> method sets up the Pathname object for parsing a directory path. The path is set with a format as defined in  <a href="https://msdn.microsoft.com/fbf7de54-3ea7-4d66-ad56-21cae1e28c07">ADS_SETTYPE_ENUM</a>.
+
+
+## -parameters
+
+
+
+
+### -param bstrADsPath [in]
+
+Path of an ADSI object.
+
+
+### -param lnSetType [in]
+
+An <a href="https://msdn.microsoft.com/fbf7de54-3ea7-4d66-ad56-21cae1e28c07">ADS_SETTYPE_ENUM</a> option that defines the format type to be retrieved.
+
+
+## -returns
+
+
+
+This method supports the standard return values, as well as the following:
+
+For more information and other return values, see  <a href="https://msdn.microsoft.com/573889e4-37af-4aca-afd7-ef06bcf8aa0d">ADSI Error Codes</a>.
+
+
+
+
+## -remarks
+
+
+
+This method will set the namespace as specified and identify the appropriate provider for performing the path cracking operation. Resetting to a different namespace will lose data already set by this method.
+
+
+#### Examples
+
+The following Visual Basic code example sets a full ADSI path on the Pathname object.
+
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Dim x As New Pathname
+ 
+x.Set "LDAP://server/CN=Jeff Smith, DC=Fabrikam, DC=Com", _
+       ADS_SETTYPE_FULL
+dn = x.GetElement(0)    ' dn now is "CN=Jeff Smith".</pre>
+</td>
+</tr>
+</table></span></div>
+The following VBScript/ASP code example sets a full ADSI path on the Pathname object.
+
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;%
+Dim x
+const ADS_SETTYPE_FULL = 1
+Set x = CreateObject("Pathname")
+path = "LDAP://server/CN=Jeff Smith, DC=Fabrikam,DC=com" 
+x.Set path, ADS_SETTYPE_FULL
+dn = x.GetElement(0)    ' dn now is "CN=Jeff Smith".
+%&gt;</pre>
+</td>
+</tr>
+</table></span></div>
+The following C++ code example sets a full ADSI path on the Pathname object.
+
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>IADsPathname *pPathname=NULL;
+HRESULT hr;
+ 
+hr = CoCreateInstance(CLSID_Pathname,
+                      NULL,
+                      CLSCTX_INPROC_SERVER,
+                      IID_IADsPathname,
+                      (void**)&amp;pPathname);
+ 
+if(FAILED(hr)) 
+{
+    if(pPathname) pPathname-&gt;Release();
+    return NULL;
+}
+ 
+hr = pPathname-&gt;Set(CComBSTR("LDAP://CN=pencil/desk"), 
+                    ADS_SETTYPE_FULL);</pre>
+</td>
+</tr>
+</table></span></div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/573889e4-37af-4aca-afd7-ef06bcf8aa0d">ADSI Error Codes</a>
+
+
+
+<a href="https://msdn.microsoft.com/fbf7de54-3ea7-4d66-ad56-21cae1e28c07">ADS_SETTYPE_ENUM</a>
+
+
+
+<a href="https://msdn.microsoft.com/9aa26d6c-aa86-4a23-a986-b8cb9057772a">IADsPathname</a>
+ 
+
+ 
+

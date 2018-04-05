@@ -1,0 +1,180 @@
+---
+UID: NF:rend.ITRendezvous.CreateDirectory
+title: ITRendezvous::CreateDirectory method
+author: windows-driver-content
+description: The CreateDirectory method creates an ITDirectory object corresponding to a directory of the given type and name.
+old-location: tapi3\itrendezvous_createdirectory.htm
+old-project: Tapi
+ms.assetid: b285f852-a017-4dcd-b32e-afb2296487a5
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: CreateDirectory method [TAPI 2.2], CreateDirectory method [TAPI 2.2], ITRendezvous interface, CreateDirectory,ITRendezvous.CreateDirectory, ITRendezvous, ITRendezvous interface [TAPI 2.2], CreateDirectory method, ITRendezvous::CreateDirectory, _tapi3_itrendezvous_createdirectory, rend/ITRendezvous::CreateDirectory, tapi3.itrendezvous_createdirectory
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: rend.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Rend.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: RND_ADVERTISING_SCOPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Rend.dll
+api_name:
+-	ITRendezvous.CreateDirectory
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Rend.dll
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# ITRendezvous::CreateDirectory method
+
+
+## -description
+
+
+<p class="CCE_Message">[
+						Rendezvous IP Telephony Conferencing controls and interfaces are not available for use in Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The RTC Client API
+provides similar functionality.]
+
+The 
+<b>CreateDirectory</b> method creates an ITDirectory object corresponding to a directory of the given type and name.
+
+
+## -parameters
+
+
+
+
+### -param DirectoryType [in]
+
+The type of the directory. See 
+<a href="https://msdn.microsoft.com/dd4292f0-ca76-4464-b0fb-288ce5813a40">DIRECTORY_TYPE</a>.
+
+
+### -param pName [in]
+
+Pointer to a <b>BSTR</b> containing the name of the directory to be created.
+
+
+### -param ppDir [out]
+
+Pointer to receive an 
+<a href="https://msdn.microsoft.com/9ec8c0ed-2fed-4701-acb5-86b69c10f18c">ITDirectory</a> object of the type specified above.
+
+
+## -returns
+
+
+
+This method can return one of these values.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+Method succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_OUTOFMEMORY</b></dt>
+</dl>
+</td>
+<td width="60%">
+Insufficient memory exists to perform the operation.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_POINTER</b></dt>
+</dl>
+</td>
+<td width="60%">
+The <i>pName</i> or <i>ppDir</i> parameter is an invalid pointer.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+The <i>DirectoryType</i> parameter is not valid.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+For directories of type DT_NTDS, <i>pName</i> is ignored because Rendezvous supports using only the local domain controller (DC).
+
+The application must use 
+<a href="9e0437a2-9b4a-4576-88b0-5cb9d08ca29b">SysAllocString</a> to allocate memory for the <i>pName</i> parameter and use 
+<a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> to free the memory when the variable is no longer needed.
+
+TAPI calls the <b>AddRef</b> method on the 
+<a href="https://msdn.microsoft.com/9ec8c0ed-2fed-4701-acb5-86b69c10f18c">ITDirectory</a> interface returned by <b>ITRendezvous::CreateDirectory</b>. The application must call <b>Release</b> on the 
+<b>ITDirectory</b> interface to free resources associated with it.
+
+This function may send data over the wire in unencrypted form; therefore, someone eavesdropping on the network may be able to read the data. The security risk of sending the data in clear text should be considered before using this method.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/dd4292f0-ca76-4464-b0fb-288ce5813a40">DIRECTORY_TYPE</a>
+
+
+
+<a href="https://msdn.microsoft.com/9ec8c0ed-2fed-4701-acb5-86b69c10f18c">ITDirectory</a>
+
+
+
+<a href="https://msdn.microsoft.com/ea8b0a66-b968-4a24-95db-e702d49a2870">ITRendezvous</a>
+ 
+
+ 
+

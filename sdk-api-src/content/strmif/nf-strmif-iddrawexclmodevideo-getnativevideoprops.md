@@ -1,0 +1,146 @@
+---
+UID: NF:strmif.IDDrawExclModeVideo.GetNativeVideoProps
+title: IDDrawExclModeVideo::GetNativeVideoProps method
+author: windows-driver-content
+description: The GetNativeVideoProps method retrieves the current video size and picture aspect ratio of the Overlay Mixer's primary stream.
+old-location: dshow\iddrawexclmodevideo_getnativevideoprops.htm
+old-project: DirectShow
+ms.assetid: cc6b3f73-bfb4-4a71-b3e9-53345abd1430
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: GetNativeVideoProps method [DirectShow], GetNativeVideoProps method [DirectShow], IDDrawExclModeVideo interface, GetNativeVideoProps,IDDrawExclModeVideo.GetNativeVideoProps, IDDrawExclModeVideo, IDDrawExclModeVideo interface [DirectShow], GetNativeVideoProps method, IDDrawExclModeVideo::GetNativeVideoProps, IDDrawExclModeVideoGetNativeVideoProps, dshow.iddrawexclmodevideo_getnativevideoprops, strmif/IDDrawExclModeVideo::GetNativeVideoProps
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: strmif.h
+req.include-header: Dshow.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: DVD_RELATIVE_BUTTON
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Strmiids.lib
+-	Strmiids.dll
+api_name:
+-	IDDrawExclModeVideo.GetNativeVideoProps
+product: Windows
+targetos: Windows
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1
+---
+
+# IDDrawExclModeVideo::GetNativeVideoProps method
+
+
+## -description
+
+
+
+The <code>GetNativeVideoProps</code> method retrieves the current video size and picture aspect ratio of the Overlay Mixer's primary stream.
+
+
+
+
+## -parameters
+
+
+
+
+### -param pdwVideoWidth [out]
+
+Address of variable that receives the width of the video.
+
+
+### -param pdwVideoHeight [out]
+
+Address of variable that receives the height of the video.
+
+
+### -param pdwPictAspectRatioX [out]
+
+Address of variable that receives the x-axis aspect ratio.
+
+
+### -param pdwPictAspectRatioY [out]
+
+Address of variable that receives the y-axis aspect ratio.
+
+
+## -returns
+
+
+
+Returns an <b>HRESULT</b> value. Possible values include the following.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+Success.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+Argument is invalid.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+The filter graph should look for the <a href="https://msdn.microsoft.com/276f37b3-f981-4a01-bb37-1ee77248668f">EC_VIDEO_SIZE_CHANGED</a> event, and on its receipt call this method to adjust the aspect ratio and position.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+
+
+
+<a href="https://msdn.microsoft.com/6a846a07-f513-49e7-85e8-192a5c211515">IDDrawExclModeVideo Interface</a>
+ 
+
+ 
+

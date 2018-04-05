@@ -1,0 +1,119 @@
+---
+UID: NF:p2p.PeerHostNameToPeerName
+title: PeerHostNameToPeerName function
+author: windows-driver-content
+description: Decodes a host name returned by PeerNameToPeerHostName into the peer name string it represents.
+old-location: p2p\peerhostnametopeername.htm
+old-project: P2PSdk
+ms.assetid: 3150d37e-84a3-4386-b38c-b37f7d6642cc
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: PeerHostNameToPeerName, PeerHostNameToPeerName function [Peer Networking], p2p.peerhostnametopeername, p2p/PeerHostNameToPeerName
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: p2p.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2 [desktop apps only],Windows XP with SP1 with the Advanced Networking Pack for Windows XP
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: PEER_WATCH_PERMISSION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	P2P.dll
+api_name:
+-	PeerHostNameToPeerName
+product: Windows
+targetos: Windows
+req.lib: P2P.lib
+req.dll: P2P.dll
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# PeerHostNameToPeerName function
+
+
+## -description
+
+
+The <b>PeerHostNameToPeerName</b> function decodes a host name returned by <a href="https://msdn.microsoft.com/430ff635-8c45-44d1-bced-d075faf2bd30">PeerNameToPeerHostName</a> into the peer name string it represents.
+
+
+## -parameters
+
+
+
+
+### -param pwzHostName [in]
+
+Pointer to a zero-terminated Unicode string that contains the host name to decode.
+
+
+### -param ppwzPeerName [out]
+
+Pointer to the address of the zero-terminated Unicode string that contains the decoded peer name. The returned  string must be released with <a href="https://msdn.microsoft.com/54288829-c991-42d6-a7c4-874ed28dd106">PeerFreeData</a>.
+
+
+## -returns
+
+
+
+If the function call succeeds, the return value is <b>S_OK</b>. Otherwise, it  returns one of the following values.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+One of the parameters is not valid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_OUTOFMEMORY</b></dt>
+</dl>
+</td>
+<td width="60%">
+There is not enough memory to perform the specified operation.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/430ff635-8c45-44d1-bced-d075faf2bd30">PeerNameToPeerHostName</a>
+ 
+
+ 
+

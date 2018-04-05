@@ -1,0 +1,131 @@
+---
+UID: NF:certenroll.ICspAlgorithm.get_Name
+title: ICspAlgorithm::get_Name method
+author: windows-driver-content
+description: Retrieves the abbreviated algorithm name.
+old-location: security\icspalgorithm_name_property.htm
+old-project: SecCertEnroll
+ms.assetid: af7fa894-58e2-4607-9b6e-c32d4f412ddf
+ms.author: windowsdriverdev
+ms.date: 3/29/2018
+ms.keywords: ICspAlgorithm, ICspAlgorithm interface [Security], Name property, ICspAlgorithm.Name, ICspAlgorithm::get_Name, Name property [Security], Name property [Security], ICspAlgorithm interface, certenroll/ICspAlgorithm::Name, certenroll/ICspAlgorithm::get_Name, get_Name,ICspAlgorithm.get_Name, security.icspalgorithm_name_property
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: certenroll.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: X509RequestType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	CertEnroll.dll
+api_name:
+-	ICspAlgorithm.Name
+-	ICspAlgorithm.get_Name
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
+---
+
+# ICspAlgorithm::get_Name method
+
+
+## -description
+
+
+The <b>Name</b> property retrieves the abbreviated algorithm name. This property is web enabled.
+
+This property is read-only.
+
+
+## -parameters
+
+
+## -remarks
+
+
+
+The <b>Name</b> property retrieves a shortened algorithm name. Call the <a href="https://msdn.microsoft.com/aaa5175f-c110-4e76-9145-1c667ea169a1">LongName</a> property to retrieve a more descriptive name. The names are not localized. Examples are shown in the following table.
+
+<div class="alert"><b>Note</b>  Cryptography API: Next Generation (CNG) key storage providers (KSPs) do not support the long name concept. The <a href="https://msdn.microsoft.com/aaa5175f-c110-4e76-9145-1c667ea169a1">LongName</a> property and <b>Name</b> property return an abbreviated name.</div>
+<div> </div>
+<table>
+<tr>
+<th>Algorithm OID</th>
+<th>Name (KSP and CSP)</th>
+<th>LongName (KSP)</th>
+<th>LongName (CSP)</th>
+</tr>
+<tr>
+<td>XCN_OID_OIWSEC_desCBC(1.3.14.3.2.7)
+
+</td>
+<td>DES</td>
+<td>DES</td>
+<td>Data Encryption Standard (DES)</td>
+</tr>
+<tr>
+<td>XCN_OID_OIWSEC_sha1(1.3.14.3.2.26)
+
+</td>
+<td>SHA-1</td>
+<td>SHA-1</td>
+<td>Secure Hash Algorithm (SHA-1)</td>
+</tr>
+<tr>
+<td>XCN_OID_RSA_MD2(1.2.840.113549.2.2)
+
+</td>
+<td>MD2</td>
+<td>MD2</td>
+<td>Message Digest 2 (MD2)</td>
+</tr>
+<tr>
+<td>XCN_OID_RSA_RC2CBC(1.2.840.113549.3.2)
+
+</td>
+<td>RC2</td>
+<td>RC2</td>
+<td>RSA Data Security's RC2</td>
+</tr>
+<tr>
+<td>XCN_OID_ANSI_X942_DH(1.2.840.10046.2.1)
+
+</td>
+<td>DH_KEYX</td>
+<td>DH_KEYX</td>
+<td>Diffie-Hellman Key Exchange Algorithm</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/08eba616-2e96-40cd-9fda-8549de98c138">ICspAlgorithm</a>
+ 
+
+ 
+

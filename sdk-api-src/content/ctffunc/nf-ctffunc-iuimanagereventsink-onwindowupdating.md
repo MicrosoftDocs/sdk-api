@@ -1,0 +1,83 @@
+---
+UID: NF:ctffunc.IUIManagerEventSink.OnWindowUpdating
+title: IUIManagerEventSink::OnWindowUpdating method
+author: windows-driver-content
+description: Called by the TSF before resizing and/or relocating the opened IME UI.
+old-location: tsf\iuimanagereventsink_onwindowupdating.htm
+old-project: TSF
+ms.assetid: BCCE292C-8A74-4DBA-965D-15249E2EA547
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: IUIManagerEventSink, IUIManagerEventSink interface [Text Services Framework], OnWindowUpdating method, IUIManagerEventSink::OnWindowUpdating, OnWindowUpdating method [Text Services Framework], OnWindowUpdating method [Text Services Framework], IUIManagerEventSink interface, OnWindowUpdating,IUIManagerEventSink.OnWindowUpdating, ctffunc/IUIManagerEventSink::OnWindowUpdating, tsf.iuimanagereventsink_onwindowupdating
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: ctffunc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Ctffunc.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: TfIntegratableCandidateListSelectionStyle
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Ctffunc.h
+api_name:
+-	IUIManagerEventSink.OnWindowUpdating
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# IUIManagerEventSink::OnWindowUpdating method
+
+
+## -description
+
+
+Called by the TSF before resizing and/or relocating the opened IME UI.
+
+
+## -parameters
+
+
+
+
+### -param prcUpdatedBounds [in]
+
+Pointer to a <b>RECT</b> structure defining the affected area (in screen coordinates). 
+
+
+## -returns
+
+
+
+Ignored.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/A514833B-BC60-4D87-B2C6-849003E4EA63">IUIManagerEventSink</a>
+ 
+
+ 
+

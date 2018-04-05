@@ -1,0 +1,102 @@
+---
+UID: NF:imapi.IRedbookDiscMaster.AddAudioTrackBlocks
+title: IRedbookDiscMaster::AddAudioTrackBlocks method
+author: windows-driver-content
+description: Adds blocks of audio data to the currently open track. This method can be called repeatedly until there is no space available or the track is full.
+old-location: imapi\iredbookdiscmaster_addaudiotrackblocks.htm
+old-project: imapi
+ms.assetid: d9bd4f3c-4ff5-4f6e-9520-27fef3736636
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: AddAudioTrackBlocks method [IMAPI], AddAudioTrackBlocks method [IMAPI], IRedbookDiscMaster interface, AddAudioTrackBlocks,IRedbookDiscMaster.AddAudioTrackBlocks, IRedbookDiscMaster, IRedbookDiscMaster interface [IMAPI], AddAudioTrackBlocks method, IRedbookDiscMaster::AddAudioTrackBlocks, _win32_iredbookdiscmaster_addaudiotrackblocks, base.iredbookdiscmaster_addaudiotrackblocks, imapi.iredbookdiscmaster_addaudiotrackblocks, imapi/IRedbookDiscMaster::AddAudioTrackBlocks
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: imapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: AM_LINE21_DRAWBGMODE, *PAM_LINE21_DRAWBGMODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Actxprxy.dll
+api_name:
+-	IRedbookDiscMaster.AddAudioTrackBlocks
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Actxprxy.dll
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IRedbookDiscMaster::AddAudioTrackBlocks method
+
+
+## -description
+
+
+Adds blocks of audio data to the currently open track. This method can be called repeatedly until there is no space available or the track is full.
+
+
+## -parameters
+
+
+
+
+### -param pby [in]
+
+Pointer to an array of track blocks. The format is 44.1 KHz 16-bit stereo RAW audio samples, in the same format as used by WAV in the data section.
+
+
+### -param cb [in]
+
+Size of the array, in bytes. This count must be a multiple of the audio block size.
+
+
+## -returns
+
+
+
+S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
+
+
+
+
+## -remarks
+
+
+
+After all blocks are added, call the 
+<a href="https://msdn.microsoft.com/01ec0eba-d592-46eb-8029-86cb678b8b34">CloseAudioTrack</a> method to finish the track.
+
+If a call to this method would overrun the number of available audio blocks, then the method will return IMAPI_E_DISCFULL and keep as much of the audio data as it can. In contrast, the 
+<a href="https://msdn.microsoft.com/91517103-71c5-450c-9d93-584f94cd2c45">IJolietDiscMaster::AddData</a> method does not keep any of the data, so there are no bad files.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/ea531b22-869a-400e-801f-00bb85ebaac2">IRedbookDiscMaster</a>
+ 
+
+ 
+

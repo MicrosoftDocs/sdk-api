@@ -1,0 +1,103 @@
+---
+UID: NF:msctf.ITfCandidateListUIElementBehavior.SetSelection
+title: ITfCandidateListUIElementBehavior::SetSelection method
+author: windows-driver-content
+description: The ITfCandidateListUIElementBehavior::SetSelection method set the selection of the candidate list.
+old-location: tsf\itfcandidatelistuielementbehavior_setselection.htm
+old-project: TSF
+ms.assetid: a3afdfc9-c3e7-4735-b13f-84c45230128a
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: ITfCandidateListUIElementBehavior, ITfCandidateListUIElementBehavior interface [Text Services Framework], SetSelection method, ITfCandidateListUIElementBehavior::SetSelection, SetSelection method [Text Services Framework], SetSelection method [Text Services Framework], ITfCandidateListUIElementBehavior interface, SetSelection,ITfCandidateListUIElementBehavior.SetSelection, msctf/ITfCandidateListUIElementBehavior::SetSelection, tsf.itfcandidatelistuielementbehavior_setselection
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: msctf.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Msctf.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: TF_DA_ATTR_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Msctf.dll
+api_name:
+-	ITfCandidateListUIElementBehavior.SetSelection
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# ITfCandidateListUIElementBehavior::SetSelection method
+
+
+## -description
+
+
+The <b>ITfCandidateListUIElementBehavior::SetSelection</b> method set the selection of the candidate list.
+
+
+## -parameters
+
+
+
+
+### -param nIndex [in]
+
+[in] An index for the candidate string to be selected.
+
+
+## -returns
+
+
+
+This method can return one of these values.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method was successful.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_FAIL</b></dt>
+</dl>
+</td>
+<td width="60%">
+An unspecified error occurred.
+
+</td>
+</tr>
+</table>
+ 
+
+
+

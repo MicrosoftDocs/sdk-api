@@ -1,0 +1,105 @@
+---
+UID: NF:shimgdata.IShellImageData.GetRawDataFormat
+title: IShellImageData::GetRawDataFormat method
+author: windows-driver-content
+description: Retrieves a GUID that identifies the format of the image.
+old-location: shell\IShellImageData_GetRawDataFormat.htm
+old-project: shell
+ms.assetid: c09c6833-501d-4f27-9d59-3ca9aed9d0d1
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: GetRawDataFormat method [Windows Shell], GetRawDataFormat method [Windows Shell], IShellImageData interface, GetRawDataFormat,IShellImageData.GetRawDataFormat, IShellImageData, IShellImageData interface [Windows Shell], GetRawDataFormat method, IShellImageData::GetRawDataFormat, _shell_IShellImageData_GetRawDataFormat, shell.IShellImageData_GetRawDataFormat, shimgdata/IShellImageData::GetRawDataFormat
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: shimgdata.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Shimgdata.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: SHELL_UI_COMPONENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Shell32.dll
+api_name:
+-	IShellImageData.GetRawDataFormat
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
+req.product: Internet Explorer 5.0
+---
+
+# IShellImageData::GetRawDataFormat method
+
+
+## -description
+
+
+Retrieves a GUID that identifies the format of the image.
+
+
+## -parameters
+
+
+
+
+### -param pDataFormat [out]
+
+Type: <b>GUID*</b>
+
+A pointer to a value indicating the format. This value is valid only when the method returns S_OK.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+Returns S_OK if successful or an error value otherwise, including the following:
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_FAIL</b></dt>
+</dl>
+</td>
+<td width="60%">
+The image has not been decoded or the decoding process failed.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+GUIDs that identify various file formats are defined in Gdiplusimaging.h.
+
+
+

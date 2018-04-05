@@ -1,0 +1,79 @@
+---
+UID: NF:faxcomex.IFaxServer.get_InboundRouting
+title: IFaxServer::get_InboundRouting method
+author: windows-driver-content
+description: The IFaxServer::get_InboundRouting property creates a IFaxInboundRouting configuration interface. The interface permits access to an inbound fax routing extension and its methods.
+old-location: fax\_mfax_faxserver_inboundrouting_cpp.htm
+old-project: Fax
+ms.assetid: VS|fax|~\fax\faxinto_z_1w4n_cpp.htm
+ms.author: windowsdriverdev
+ms.date: 3/22/2018
+ms.keywords: IFaxServer, IFaxServer interface [Fax Service], InboundRouting property, IFaxServer.InboundRouting, IFaxServer::get_InboundRouting, InboundRouting property [Fax Service], InboundRouting property [Fax Service], IFaxServer interface, _mfax_faxserver.inboundrouting_cpp, fax._mfax_faxserver_inboundrouting_cpp, faxcomex/IFaxServer::InboundRouting, faxcomex/IFaxServer::get_InboundRouting, get_InboundRouting,IFaxServer.get_InboundRouting
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: faxcomex.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: FAX_SMTP_AUTHENTICATION_TYPE_ENUM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Fxscomex.dll
+api_name:
+-	IFaxServer.InboundRouting
+-	IFaxServer.get_InboundRouting
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Fxscomex.dll
+req.irql: 
+req.product: Internet Explorer 5
+---
+
+# IFaxServer::get_InboundRouting method
+
+
+## -description
+
+
+The <b>IFaxServer::get_InboundRouting</b> property creates a <a href="https://msdn.microsoft.com/255706ba-cbbd-4dfa-a9da-95bdd90328b5">IFaxInboundRouting</a> configuration interface. The interface permits access to an inbound fax routing extension and its methods.
+
+This property is read-only.
+
+
+## -parameters
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/df3aa427-9d29-4024-a6d5-ed5fd8dba36c">FaxServer</a>
+
+
+
+<a href="https://msdn.microsoft.com/9e8718b9-f957-43c4-92de-f320aa42a096">IFaxServer</a>
+
+
+
+<a href="https://msdn.microsoft.com/cef24608-cab1-4090-aa94-3a1b76733e98">Visual Basic Example</a>
+ 
+
+ 
+

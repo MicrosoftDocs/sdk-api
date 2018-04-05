@@ -1,0 +1,129 @@
+---
+UID: NF:wdsbp.WdsBpParseInitialize
+title: WdsBpParseInitialize function
+author: windows-driver-content
+description: Receives a handle to the packet sent by the network boot program.
+old-location: wds\wdsbpparseinitialize.htm
+old-project: Wds
+ms.assetid: dc6007ad-0dd5-477d-a49f-45820aa1b5f6
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: WDSBP_PK_TYPE_BCD, WDSBP_PK_TYPE_DHCP, WDSBP_PK_TYPE_WDSNBP, WdsBpParseInitialize, WdsBpParseInitialize function [Windows Deployment Services], wds.wdsbpparseinitialize, wdsbp/WdsBpParseInitialize
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: wdsbp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista with SP1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WAITCHAIN_NODE_INFO, *PWAITCHAIN_NODE_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Wdsbp.dll
+api_name:
+-	WdsBpParseInitialize
+product: Windows
+targetos: Windows
+req.lib: Wdsbp.lib
+req.dll: Wdsbp.dll
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# WdsBpParseInitialize function
+
+
+## -description
+
+
+Receives a handle to the packet sent by the network boot program.
+
+
+## -parameters
+
+
+
+
+### -param pPacket [in]
+
+A pointer to the packet received from the WDS client. The packet must be a valid DHCP packet.
+
+
+### -param uPacketLen [in]
+
+The length of the packet, in bytes.
+
+
+### -param pbPacketType [out, optional]
+
+A value that indicates the type of boot program that sent the packet. The bit flags in the following table can be combined.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="WDSBP_PK_TYPE_DHCP"></a><a id="wdsbp_pk_type_dhcp"></a><dl>
+<dt><b>WDSBP_PK_TYPE_DHCP</b></dt>
+<dt>1</dt>
+</dl>
+</td>
+<td width="60%">
+The presence of this value indicates that the packet is a DHCP packet.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="WDSBP_PK_TYPE_WDSNBP"></a><a id="wdsbp_pk_type_wdsnbp"></a><dl>
+<dt><b>WDSBP_PK_TYPE_WDSNBP</b></dt>
+<dt>2</dt>
+</dl>
+</td>
+<td width="60%">
+This presence of this value indicates that the DHCP packet came from the WDS network boot program. If this value is absent the type of client was not recognized.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="WDSBP_PK_TYPE_BCD"></a><a id="wdsbp_pk_type_bcd"></a><dl>
+<dt><b>WDSBP_PK_TYPE_BCD</b></dt>
+<dt>4</dt>
+</dl>
+</td>
+<td width="60%">
+The presence of this value indicates that the packet contains a path to a Boot Configuration Data (BCD) file. 
+
+</td>
+</tr>
+</table>
+ 
+
+
+### -param phHandle [out]
+
+A handle to the packet. This handle can be used by the <a href="https://msdn.microsoft.com/98c0d220-db20-4aba-9df0-e50f3b947da2">WdsBpQueryOption</a> function and must be closed using the <a href="https://msdn.microsoft.com/b35ec3e2-7dd5-4e17-b657-72bafe91921a">WdsBpCloseHandle</a> function.
+
+
+## -returns
+
+
+
+If the function succeeds, the return is <b>S_OK</b>.
+
+
+

@@ -1,0 +1,283 @@
+---
+UID: NF:lmwksta.NetWkstaUserSetInfo
+title: NetWkstaUserSetInfo function
+author: windows-driver-content
+description: The NetWkstaUserSetInfo function sets the user-specific information about the configuration elements for a workstation.
+old-location: netmgmt\netwkstausersetinfo.htm
+old-project: NetMgmt
+ms.assetid: d48667a3-5ae9-4a7d-9af6-14f08835940d
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: 1, 1101, NetWkstaUserSetInfo, NetWkstaUserSetInfo function [Network Management], _win32_netwkstausersetinfo, lmwksta/NetWkstaUserSetInfo, netmgmt.netwkstausersetinfo
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: lmwksta.h
+req.include-header: Lm.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: USE_INFO_3, *PUSE_INFO_3, *LPUSE_INFO_3
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Netapi32.dll
+api_name:
+-	NetWkstaUserSetInfo
+product: Windows
+targetos: Windows
+req.lib: Netapi32.lib
+req.dll: Netapi32.dll
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# NetWkstaUserSetInfo function
+
+
+## -description
+
+
+The
+				<b>NetWkstaUserSetInfo</b> function sets the user-specific information about the configuration elements for a workstation.
+
+
+## -parameters
+
+
+
+
+### -param reserved
+
+This parameter must be set to zero.
+
+
+### -param level [in]
+
+Specifies the information level of the data. This parameter can be one of the following values. 
+
+
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="1"></a><dl>
+<dt><b>1</b></dt>
+</dl>
+</td>
+<td width="60%">
+Specifies information about the workstation, including the name of the current user and the domains accessed by the workstation. The <i>buf</i> parameter points to a 
+<a href="https://msdn.microsoft.com/a30747de-6cb0-41dc-95a7-be3d471056d5">WKSTA_USER_INFO_1</a> structure.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="1101"></a><dl>
+<dt><b>1101</b></dt>
+</dl>
+</td>
+<td width="60%">
+Specifies domains browsed by the workstation. The <i>buf</i> parameter points to a 
+<a href="https://msdn.microsoft.com/88772ba2-046b-4b03-ae02-d851075e4363">WKSTA_USER_INFO_1101</a> structure.
+
+</td>
+</tr>
+</table>
+ 
+
+
+### -param buf [in]
+
+Pointer to the buffer that specifies the data. The format of this data depends on the value of the <i>level</i> parameter. For more information, see 
+<a href="https://msdn.microsoft.com/f27e6cf5-f26a-4e6c-8d77-873bff6cc8e4">Network Management Function Buffers</a>.
+
+
+### -param OPTIONAL
+
+TBD
+
+
+
+
+#### - parm_err [out]
+
+Pointer to a value that receives the index of the first parameter that causes the ERROR_INVALID_PARAMETER error. If this parameter is <b>NULL</b>, the index is not returned on error.
+
+
+## -returns
+
+
+
+If the function succeeds, the return value is NERR_Success.
+
+If the function fails, the return value can be one of the following error codes.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_INVALID_LEVEL</b></dt>
+</dl>
+</td>
+<td width="60%">
+The <i>level</i> parameter is invalid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_INVALID_PARAMETER</b></dt>
+</dl>
+</td>
+<td width="60%">
+One of the function parameters is invalid.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+The 
+<b>NetWkstaUserSetInfo</b> function only works locally. Administrator group membership is required.
+
+Domain names in the <b>wkui1101_oth_domains</b> member of the 
+<a href="https://msdn.microsoft.com/88772ba2-046b-4b03-ae02-d851075e4363">WKSTA_USER_INFO_1101</a> structure are separated by spaces. An empty list is valid. A <b>NULL</b> pointer means to leave the member unmodified. The <b>wkui1101_oth_domains</b> member cannot be set with MS-DOS. When setting this element, 
+<b>NetWkstaUserSetInfo</b> rejects the request if the name list was invalid or if a name could not be added to one or more of the network adapters managed by the system.
+
+If the 
+<b>NetWkstaUserSetInfo</b> function returns ERROR_INVALID_PARAMETER, you can use the <i>parm_err</i> parameter to indicate the member of the workstation user information structure that is invalid. (A workstation user information structure begins with WKSTA_USER_INFO_ and its format is specified by the <i>level</i> parameter.) The following table lists the value that can be returned in the <i>parm_err</i> parameter and the corresponding structure member that is in error. (The prefix wkui*_ indicates that the member can begin with multiple prefixes, for example, wkui0_ or wkui1_.)
+
+<table>
+<tr>
+<th>Value</th>
+<th>Member</th>
+</tr>
+<tr>
+<td>WKSTA_OTH_DOMAINS_PARMNUM</td>
+<td>wkui*_oth_domains</td>
+</tr>
+</table>
+ 
+
+
+#### Examples
+
+The following code sample demonstrates how to set user-specific information for a workstation using a call to the 
+<b>NetWkstaUserSetInfo</b> function, specifying information level 1101 (
+<a href="https://msdn.microsoft.com/88772ba2-046b-4b03-ae02-d851075e4363">WKSTA_USER_INFO_1101</a>).
+
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#ifndef UNICODE
+#define UNICODE
+#endif
+#pragma comment(lib, "netapi32.lib")
+
+#include &lt;stdio.h&gt;
+#include &lt;windows.h&gt; 
+#include &lt;lm.h&gt;
+
+int wmain(int argc, wchar_t *argv[])
+{
+   DWORD dwLevel = 1101;
+   WKSTA_USER_INFO_1101 wui;
+   NET_API_STATUS nStatus;
+
+   if (argc != 2)
+   {
+      fwprintf(stderr, L"Usage: %s OtherDomains\n", argv[0]);
+      exit(1);
+   }
+   //
+   // Fill in the WKSTA_USER_INFO_1101 structure member.
+   //
+   wui.wkui1101_oth_domains = argv[1];
+   //
+   // Call the NetWkstaUserSetInfo function
+   //  to change the list of domains browsed by
+   //  the workstation; specify level 1101.
+   //
+   nStatus = NetWkstaUserSetInfo(NULL,
+                                 dwLevel,
+                                 (LPBYTE)&amp;wui,
+                                 NULL);
+   //
+   // Display the result of the call.
+   //
+   if (nStatus == NERR_Success)
+      fprintf(stderr, "Workstation user information has been changed\n");
+   else
+      fprintf(stderr, "A system error has occurred: %d\n", nStatus);
+
+   return 0;
+}
+</pre>
+</td>
+</tr>
+</table></span></div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/25ec7a49-fd26-4105-823b-a257a57f724e">NetWkstaUserGetInfo</a>
+
+
+
+<a href="https://msdn.microsoft.com/dd159e2e-f37e-46b2-b980-008b73d40b39">Network
+		  Management Functions</a>
+
+
+
+<a href="https://msdn.microsoft.com/426c7b2e-027c-4a88-97b7-eba5201d0f0d">Network Management
+		  Overview</a>
+
+
+
+<a href="https://msdn.microsoft.com/a30747de-6cb0-41dc-95a7-be3d471056d5">WKSTA_USER_INFO_1</a>
+
+
+
+<a href="https://msdn.microsoft.com/88772ba2-046b-4b03-ae02-d851075e4363">WKSTA_USER_INFO_1101</a>
+
+
+
+<a href="https://msdn.microsoft.com/cc400f43-297b-4ff4-8353-b268839c48b8">Workstation and Workstation User Functions</a>
+ 
+
+ 
+

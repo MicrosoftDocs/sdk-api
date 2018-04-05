@@ -1,0 +1,85 @@
+---
+UID: NF:taskschd.IIdleSettings.put_StopOnIdleEnd
+title: IIdleSettings::put_StopOnIdleEnd method
+author: windows-driver-content
+description: Gets or sets a Boolean value that indicates that the Task Scheduler will terminate the task if the idle condition ends before the task is completed. The idle condition ends when the computer is no longer idle.
+old-location: taskschd\iidlesettings_stoponidleend.htm
+old-project: TaskSchd
+ms.assetid: 0799194f-dd3d-4aa6-b17b-0abe933f9b55
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: IIdleSettings, IIdleSettings interface [Task Scheduler], StopOnIdleEnd property, IIdleSettings.StopOnIdleEnd, IIdleSettings::get_StopOnIdleEnd, IIdleSettings::put_StopOnIdleEnd, StopOnIdleEnd property [Task Scheduler], StopOnIdleEnd property [Task Scheduler], IIdleSettings interface, put_StopOnIdleEnd,IIdleSettings.put_StopOnIdleEnd, taskschd.iidlesettings_stoponidleend, taskschd/IIdleSettings::StopOnIdleEnd, taskschd/IIdleSettings::get_StopOnIdleEnd, taskschd/IIdleSettings::put_StopOnIdleEnd
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: taskschd.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: TASK_TRIGGER_TYPE2
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	taskschd.dll
+api_name:
+-	IIdleSettings.StopOnIdleEnd
+-	IIdleSettings.get_StopOnIdleEnd
+-	IIdleSettings.put_StopOnIdleEnd
+product: Windows
+targetos: Windows
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# IIdleSettings::put_StopOnIdleEnd method
+
+
+## -description
+
+
+Gets or sets a Boolean value that  indicates that the Task Scheduler will terminate the task if the idle condition ends before the task is completed. The idle condition ends when the computer is no longer idle.
+
+This property is read/write.
+
+
+## -parameters
+
+
+## -remarks
+
+
+
+When reading or writing XML for a task, this setting is specified in the <a href="https://msdn.microsoft.com/5e8e4fd9-bba1-4ede-a0b3-9f50feb1b6f3">TerminateOnIdleEnd</a> element of the Task Scheduler schema.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/a6bd9278-b9ac-4eb3-957a-5191cee12a6f">IIdleSettings</a>
+
+
+
+<a href="https://msdn.microsoft.com/15970a51-c139-48b8-b82b-605728d0f386">Task Scheduler</a>
+ 
+
+ 
+

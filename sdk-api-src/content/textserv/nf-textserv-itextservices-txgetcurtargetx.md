@@ -1,0 +1,149 @@
+---
+UID: NF:textserv.ITextServices.TxGetCurTargetX
+title: ITextServices::TxGetCurTargetX method
+author: windows-driver-content
+description: Gets the target x position, that is, the current horizontal position of the caret.
+old-location: controls\ITextServices_TxGetCurTargetX.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txgetcurtargetx.htm
+ms.author: windowsdriverdev
+ms.date: 3/31/2018
+ms.keywords: ITextServices, ITextServices interface [Windows Controls], TxGetCurTargetX method, ITextServices::TxGetCurTargetX, TxGetCurTargetX method [Windows Controls], TxGetCurTargetX method [Windows Controls], ITextServices interface, TxGetCurTargetX,ITextServices.TxGetCurTargetX, _win32_ITextServices_TxGetCurTargetX, _win32_ITextServices_TxGetCurTargetX_cpp, controls.ITextServices_TxGetCurTargetX, controls._win32_ITextServices_TxGetCurTargetX, textserv/ITextServices::TxGetCurTargetX
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: textserv.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: TMGR_DIRECTION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Msftedit.dll
+api_name:
+-	ITextServices.TxGetCurTargetX
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# ITextServices::TxGetCurTargetX method
+
+
+## -description
+
+
+Gets the target x position, that is, the current horizontal position of the caret.
+
+
+## -parameters
+
+
+
+
+
+
+#### - px
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LONG</a>*</b>
+
+The target x location in client coordinates. 
+
+
+## -returns
+
+
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+
+If the x position of the caret is returned, the return value is <b>S_OK</b>.
+
+If the method fails, the return value is the following <b>HRESULT</b> code. For more information on COM error codes, see <a href="https://msdn.microsoft.com/15f3ae3e-1794-4948-a7aa-6309a703364b">Error Handling in COM</a>.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_FAIL</b></dt>
+</dl>
+</td>
+<td width="60%">
+There is no selection.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+The input argument is invalid.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+Together with <a href="https://msdn.microsoft.com/9656a2ed-bd66-4083-a2b4-c6255f136f9d">ITextServices::OnTxSetCursor</a>, this method allows you to maintain the horizontal caret position when moving the caret up and down. This capability is useful when moving the caret through forms.
+
+The target caret position is expressed as an x-coordinate on the display because other controls do not necessarily share the same attributes for column position.
+
+
+
+
+## -see-also
+
+
+
+
+<b>Conceptual</b>
+
+
+
+<a href="https://msdn.microsoft.com/b0bc844f-2d20-4e67-84c5-0a5313bf6dee">ITextServices</a>
+
+
+
+<a href="https://msdn.microsoft.com/9656a2ed-bd66-4083-a2b4-c6255f136f9d">OnTxSetCursor</a>
+
+
+
+<b>Reference</b>
+
+
+
+<a href="https://msdn.microsoft.com/71ecd220-ab1a-4caa-b1b9-0951e943692e">Windowless Rich Edit Controls</a>
+ 
+
+ 
+

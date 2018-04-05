@@ -1,0 +1,85 @@
+---
+UID: NF:azroles.IAzApplication.OpenRole
+title: IAzApplication::OpenRole method
+author: windows-driver-content
+description: Opens an IAzRole object with the specified name.
+old-location: security\iazapplication_openrole.htm
+old-project: SecAuthZ
+ms.assetid: 483c5b08-2f40-4ba6-afa0-ede596df8495
+ms.author: windowsdriverdev
+ms.date: 3/29/2018
+ms.keywords: AzApplication object [Security], OpenRole method, IAzApplication, IAzApplication interface [Security], OpenRole method, IAzApplication::OpenRole, OpenRole method [Security], OpenRole method [Security], AzApplication object, OpenRole method [Security], IAzApplication interface, OpenRole,IAzApplication.OpenRole, azroles/IAzApplication::OpenRole, security.iazapplication_openrole
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: azroles.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: AZ_PROP_CONSTANTS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Azroles.dll
+api_name:
+-	IAzApplication.OpenRole
+-	AzApplication.OpenRole
+product: Windows
+targetos: Windows
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
+---
+
+# IAzApplication::OpenRole method
+
+
+## -description
+
+
+The <b>OpenRole</b> method opens an <a href="https://msdn.microsoft.com/2934d783-b379-486c-80e7-e7650b89dc1a">IAzRole</a> object with the specified name.
+
+
+## -parameters
+
+
+
+
+### -param bstrRoleName [in]
+
+Name of the <a href="https://msdn.microsoft.com/2934d783-b379-486c-80e7-e7650b89dc1a">IAzRole</a> object to open.
+
+
+### -param varReserved [in, optional]
+
+Reserved for future use.
+
+
+### -param ppRole [out]
+
+A pointer to a pointer to the opened <a href="https://msdn.microsoft.com/2934d783-b379-486c-80e7-e7650b89dc1a">IAzRole</a> object.
+
+
+## -returns
+
+
+
+ If the method succeeds, the method returns S_OK.
+
+Any other <b>HRESULT</b> value indicates that the operation failed.
+
+
+

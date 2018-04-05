@@ -1,0 +1,93 @@
+---
+UID: NS:netlistmgr.NLM_USAGE_DATA
+title: NLM_USAGE_DATA
+author: windows-driver-content
+description: NLM_USAGE_DATA structure stores information that indicates the data usage of a plan.
+old-location: nla\nlm_usage_data.htm
+old-project: NLA
+ms.assetid: 1D917CD0-4D71-4780-9720-A1F3FDCBBB16
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: NLM_USAGE_DATA, NLM_USAGE_DATA structure [Network Awareness], PNLM_USAGE_DATA, PNLM_USAGE_DATA structure pointer [Network Awareness], netlistmgr/NLM_USAGE_DATA, netlistmgr/PNLM_USAGE_DATA, nla.nlm_usage_data
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: struct
+req.header: netlistmgr.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Netlistmgr.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: NLM_USAGE_DATA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Netlistmgr.h
+api_name:
+-	NLM_USAGE_DATA
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# NLM_USAGE_DATA structure
+
+
+## -description
+
+
+The<b>NLM_USAGE_DATA</b> structure stores information that indicates the data usage  of a plan.
+
+
+## -struct-fields
+
+
+
+
+### -field UsageInMegabytes
+
+The data usage of a plan, represented in megabytes.
+
+
+### -field LastSyncTime
+
+The timestamp of last time synced with carriers about the data usage stored in this structure.
+
+
+## -remarks
+
+
+
+If usage is not supplied, <b>UsageInMegabytes</b> is set to <b>NLM_UNKNOWN_DATAPLAN_STATUS</b> (0xFFFFFFFF), and <b>LastSyncTime</b> is set to 0.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/82B4FF65-5D45-4D79-8F11-EA4CF4760EE2">INetworkCostManager::GetDataPlanStatus</a>
+
+
+
+<a href="https://msdn.microsoft.com/49774150-FD7E-4541-95DF-C848247A6A9C">NLM_DATAPLAN_STATUS</a>
+ 
+
+ 
+

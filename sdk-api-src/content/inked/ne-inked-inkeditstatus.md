@@ -1,0 +1,96 @@
+---
+UID: NE:inked.InkEditStatus
+title: InkEditStatus
+author: windows-driver-content
+description: Specifies whether the InkEdit control is idle, collecting ink, or recognizing ink.
+old-location: tablet\inkeditstatus.htm
+old-project: tablet
+ms.assetid: 94c3a863-4c8a-4471-be1b-b4d5f8ded374
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: 94c3a863-4c8a-4471-be1b-b4d5f8ded374, IES_Collecting, IES_Idle, IES_Recognizing, InkEditStatus, InkEditStatus enumeration [Tablet PC], inked/IES_Collecting, inked/IES_Idle, inked/IES_Recognizing, inked/InkEditStatus, tablet.inkeditstatus
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: enum
+req.header: inked.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
+req.target-min-winversvr: None supported
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: InkEditStatus
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	inked.h
+api_name:
+-	InkEditStatus
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# InkEditStatus enumeration
+
+
+## -description
+
+
+
+Specifies whether the <a href="https://msdn.microsoft.com/52761cb2-4433-4824-ba19-fe597de2faf0">InkEdit</a> control is idle, collecting ink, or recognizing ink.
+
+
+
+
+## -enum-fields
+
+
+
+
+### -field IES_Idle
+
+The <a href="https://msdn.microsoft.com/52761cb2-4433-4824-ba19-fe597de2faf0">InkEdit</a> control is neither collecting nor recognizing ink.
+
+
+### -field IES_Collecting
+
+The <a href="https://msdn.microsoft.com/52761cb2-4433-4824-ba19-fe597de2faf0">InkEdit</a> control is collecting ink.
+
+
+### -field IES_Recognizing
+
+The <a href="https://msdn.microsoft.com/52761cb2-4433-4824-ba19-fe597de2faf0">InkEdit</a> control is recognizing ink.
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/52761cb2-4433-4824-ba19-fe597de2faf0">InkEdit Control Reference</a>
+
+
+
+<a href="https://msdn.microsoft.com/26023012-9ab1-4bd9-beff-41587bc74f5e">InkEdit Messages</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn247298">Status Property</a>
+ 
+
+ 
+

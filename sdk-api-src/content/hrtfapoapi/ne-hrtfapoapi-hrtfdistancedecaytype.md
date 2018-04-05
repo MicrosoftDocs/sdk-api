@@ -1,0 +1,84 @@
+---
+UID: NE:hrtfapoapi.HrtfDistanceDecayType
+title: HrtfDistanceDecayType
+author: windows-driver-content
+description: Indicates a distance-based decay type applied to a sound.
+old-location: xaudio2\hrtfdistancedecaytype.htm
+old-project: xaudio2
+ms.assetid: 72421F09-6DB6-4195-AE44-0D3AD17F50B3
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: CustomDecay, HrtfDistanceDecayType, HrtfDistanceDecayType enumeration [XAudio2 Audio Mixing APIs], NaturalDecay, hrtfapoapi/CustomDecay, hrtfapoapi/HrtfDistanceDecayType, hrtfapoapi/NaturalDecay, xaudio2.hrtfdistancedecaytype
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: enum
+req.header: hrtfapoapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: HolographicSpaceInterop.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: HrtfDistanceDecayType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	HrtfApoApi.h
+api_name:
+-	HrtfDistanceDecayType
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# HrtfDistanceDecayType enumeration
+
+
+## -description
+
+
+Indicates a distance-based decay type applied to a sound.
+
+
+## -enum-fields
+
+
+
+
+### -field NaturalDecay
+
+Simulates natural decay with distance, as constrained by minimum and maximum gain distance limits. Drops to silence at rolloff distance. 
+
+
+### -field CustomDecay
+
+Used to set up a custom gain curve, within the maximum and minimum gain limit.  
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/7b20bda9-dab2-cfbc-125a-cf46e4ede0c8">Enumerations</a>
+
+
+
+<a href="https://msdn.microsoft.com/B488A674-91A7-41CB-9FF5-8270C6E941D2">HrtfDistanceDecay</a>
+ 
+
+ 
+

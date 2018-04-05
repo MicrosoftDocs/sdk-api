@@ -1,0 +1,320 @@
+---
+UID: NS:processsnapshot.PSS_HANDLE_ENTRY
+title: PSS_HANDLE_ENTRY
+author: windows-driver-content
+description: Holds information about a handle returned by PssWalkSnapshot.
+old-location: proc_snap\pss_handle_entry.htm
+old-project: proc_snap
+ms.assetid: F56E8C35-949A-4DEE-973F-CF24F6596036
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: PSS_HANDLE_ENTRY, PSS_HANDLE_ENTRY structure, proc_snap.pss_handle_entry, processsnapshot/PSS_HANDLE_ENTRY
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: struct
+req.header: processsnapshot.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: PSS_HANDLE_ENTRY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	processsnapshot.h
+api_name:
+-	PSS_HANDLE_ENTRY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# PSS_HANDLE_ENTRY structure
+
+
+## -description
+
+
+Holds information about a handle returned by <a href="https://msdn.microsoft.com/C6AC38B5-0A1C-44D7-A1F6-8196AE9B8FB0">PssWalkSnapshot</a>.
+
+
+## -struct-fields
+
+
+
+
+### -field TypeSpecificInformation
+
+Type-specific information.
+
+
+### -field TypeSpecificInformation.Process
+
+Valid for <b>ObjectType</b> = <b>PSS_OBJECT_TYPE_PROCESS</b>.
+
+
+### -field TypeSpecificInformation.Process.ExitStatus
+
+The exit code of the process. If the process has not exited, this is set to <b>STILL_ACTIVE</b> (259).
+
+
+### -field TypeSpecificInformation.Process.PebBaseAddress
+
+The address of the process environment block (PEB). Reserved for use by the operating system.
+
+
+### -field TypeSpecificInformation.Process.AffinityMask
+
+The affinity mask of the process.
+
+
+### -field TypeSpecificInformation.Process.BasePriority
+
+The base priority level of the process.
+
+
+### -field TypeSpecificInformation.Process.ProcessId
+
+The process ID.
+
+
+### -field TypeSpecificInformation.Process.ParentProcessId
+
+The parent process ID.
+
+
+### -field TypeSpecificInformation.Process.Flags
+
+Flags about the process. For more information, see <a href="https://msdn.microsoft.com/A1C793DD-EE93-47B6-8EA8-3A45DAD55F2D">PSS_PROCESS_FLAGS</a>.
+
+
+### -field TypeSpecificInformation.Thread
+
+Valid for <b>ObjectType</b> = <b>PSS_OBJECT_TYPE_THREAD</b>.
+
+
+### -field TypeSpecificInformation.Thread.ExitStatus
+
+The exit code of the process. If the process has not exited, this is set to <b>STILL_ACTIVE</b> (259).
+
+
+### -field TypeSpecificInformation.Thread.TebBaseAddress
+
+The address of the thread environment block (TEB). Reserved for use by the operating system.
+
+
+### -field TypeSpecificInformation.Thread.ProcessId
+
+The process ID.
+
+
+### -field TypeSpecificInformation.Thread.ThreadId
+
+The thread ID.
+
+
+### -field TypeSpecificInformation.Thread.AffinityMask
+
+The affinity mask of the process.
+
+
+### -field TypeSpecificInformation.Thread.Priority
+
+The thread’s dynamic priority level.
+
+
+### -field TypeSpecificInformation.Thread.BasePriority
+
+The thread’s base priority level.
+
+
+### -field TypeSpecificInformation.Thread.Win32StartAddress
+
+A pointer to the thread procedure for the thread.
+
+
+### -field TypeSpecificInformation.Mutant
+
+Valid for <b>ObjectType</b> = <b>PSS_OBJECT_TYPE_MUTANT</b>.
+
+
+### -field TypeSpecificInformation.Mutant.CurrentCount
+
+Reserved for use by the operating system.
+
+
+### -field TypeSpecificInformation.Mutant.Abandoned
+
+<b>TRUE</b> if the mutant has been abandoned (the owning thread exited without releasing the mutex), <b>FALSE</b> if not.
+
+
+### -field TypeSpecificInformation.Mutant.OwnerProcessId
+
+The process ID of the owning thread, at the time of snapshot creation and handle capture.
+
+
+### -field TypeSpecificInformation.Mutant.OwnerThreadId
+
+The process ID of the owning thread, at the time of snapshot creation and handle capture.
+
+
+### -field TypeSpecificInformation.Event
+
+Valid for <b>ObjectType</b> = <b>PSS_OBJECT_TYPE_EVENT</b>.
+
+
+### -field TypeSpecificInformation.Event.ManualReset
+
+<b>TRUE</b> if the event is manual reset, <b>FALSE</b> if not.
+
+
+### -field TypeSpecificInformation.Event.Signaled
+
+<b>TRUE</b> if the event was signaled at the time of snapshot creation and handle capture, <b>FALSE</b> if not.
+
+
+### -field TypeSpecificInformation.Section
+
+Valid for <b>ObjectType</b> = <b>PSS_OBJECT_TYPE_SECTION</b>.
+
+
+### -field TypeSpecificInformation.Section.BaseAddress
+
+Reserved for use by the operating system.
+
+
+### -field TypeSpecificInformation.Section.AllocationAttributes
+
+Reserved for use by the operating system.
+
+
+### -field TypeSpecificInformation.Section.MaximumSize
+
+Reserved for use by the operating system.
+
+
+### -field TypeSpecificInformation.Semaphore
+
+ 
+
+
+### -field TypeSpecificInformation.Semaphore.CurrentCount
+
+ 
+
+
+### -field TypeSpecificInformation.Semaphore.MaximumCount
+
+ 
+
+
+### -field Handle
+
+The handle value.
+
+
+### -field Flags
+
+Flags that indicate what parts of this structure are valid. For more information, see <a href="https://msdn.microsoft.com/A4A604A9-0210-413C-BCAC-F8458B371D42">PSS_HANDLE_FLAGS</a>.
+
+
+### -field ObjectType
+
+The type of the object that the handle references. For more information, see <a href="https://msdn.microsoft.com/3AF2AE47-6E1A-4B20-B6A3-36C1DDB80674">PSS_OBJECT_TYPE</a>.
+
+
+### -field CaptureTime
+
+The capture time of this information. For more information, see <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a>.
+
+
+### -field Attributes
+
+Attributes.
+
+
+### -field GrantedAccess
+
+Reserved for use by the operating system.
+
+
+### -field HandleCount
+
+Reserved for use by the operating system.
+
+
+### -field PointerCount
+
+Reserved for use by the operating system.
+
+
+### -field PagedPoolCharge
+
+Reserved for use by the operating system.
+
+
+### -field NonPagedPoolCharge
+
+Reserved for use by the operating system.
+
+
+### -field CreationTime
+
+Reserved for use by the operating system.
+
+
+### -field TypeNameLength
+
+The length of <b>TypeName</b>, in bytes.
+
+
+### -field TypeName
+
+The type name of the object referenced by this handle. The buffer may not terminated by a <b>NULL</b> character. The pointer is valid for the lifetime of the walk marker passed to <a href="https://msdn.microsoft.com/C6AC38B5-0A1C-44D7-A1F6-8196AE9B8FB0">PssWalkSnapshot</a>.
+
+
+### -field ObjectNameLength
+
+The length of <b>ObjectName</b>, in bytes.
+
+
+### -field ObjectName
+
+Specifies the name of the object referenced by this handle. The buffer may not terminated by a <b>NULL</b> character. The pointer is valid for the lifetime of the walk marker passed to <a href="https://msdn.microsoft.com/C6AC38B5-0A1C-44D7-A1F6-8196AE9B8FB0">PssWalkSnapshot</a>.
+
+
+## -remarks
+
+
+
+
+<a href="https://msdn.microsoft.com/C6AC38B5-0A1C-44D7-A1F6-8196AE9B8FB0">PssWalkSnapshot</a> returns a <b>PSS_HANDLE_ENTRY</b> structure when the  <a href="https://msdn.microsoft.com/93A79F7F-2164-4F7A-ADE7-C1655EEFC9BF">PSS_WALK_INFORMATION_CLASS</a> member that the caller provides it is <b>PSS_WALK_HANDLES</b>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/1dc6fe86-3f5a-4810-8e93-a0fe309c54ee">Process Snapshotting</a>
+ 
+
+ 
+

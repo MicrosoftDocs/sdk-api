@@ -1,0 +1,77 @@
+---
+UID: NF:syncmgr.ISyncMgrEvent.GetDescription
+title: ISyncMgrEvent::GetDescription method
+author: windows-driver-content
+description: Gets the event description.
+old-location: shell\ISyncMgrEvent_GetDescription.htm
+old-project: shell
+ms.assetid: 3ec45cf6-d282-4df9-bd4a-b5d75df69ff4
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: GetDescription method [Windows Shell], GetDescription method [Windows Shell], ISyncMgrEvent interface, GetDescription,ISyncMgrEvent.GetDescription, ISyncMgrEvent, ISyncMgrEvent interface [Windows Shell], GetDescription method, ISyncMgrEvent::GetDescription, _shell_ISyncMgrEvent_GetDescription, shell.ISyncMgrEvent_GetDescription, syncmgr/ISyncMgrEvent::GetDescription
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: syncmgr.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Syncmgr.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: SYNCMGR_SYNC_CONTROL_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Syncmgr.h
+api_name:
+-	ISyncMgrEvent.GetDescription
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# ISyncMgrEvent::GetDescription method
+
+
+## -description
+
+
+Gets the event description.
+
+
+## -parameters
+
+
+
+
+### -param ppszDescription [out]
+
+Type: <b>LPWSTR*</b>
+
+When this method returns, contains the address of a pointer to a null-terminated Unicode buffer that contains the description.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+

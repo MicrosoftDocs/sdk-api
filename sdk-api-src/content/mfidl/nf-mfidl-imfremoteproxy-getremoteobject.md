@@ -1,0 +1,112 @@
+---
+UID: NF:mfidl.IMFRemoteProxy.GetRemoteObject
+title: IMFRemoteProxy::GetRemoteObject method
+author: windows-driver-content
+description: Retrieves a pointer to the remote object for which this object is a proxy.
+old-location: mf\imfremoteproxy_getremoteobject.htm
+old-project: medfound
+ms.assetid: 2d9e35bd-fe4c-4a98-91c8-2192ae34b2b3
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: 2d9e35bd-fe4c-4a98-91c8-2192ae34b2b3, GetRemoteObject method [Media Foundation], GetRemoteObject method [Media Foundation], IMFRemoteProxy interface, GetRemoteObject,IMFRemoteProxy.GetRemoteObject, IMFRemoteProxy, IMFRemoteProxy interface [Media Foundation], GetRemoteObject method, IMFRemoteProxy::GetRemoteObject, mf.imfremoteproxy_getremoteobject, mfidl/IMFRemoteProxy::GetRemoteObject
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: mfidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MF_URL_TRUST_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfuuid.lib
+-	mfuuid.dll
+api_name:
+-	IMFRemoteProxy.GetRemoteObject
+product: Windows
+targetos: Windows
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IMFRemoteProxy::GetRemoteObject method
+
+
+## -description
+
+
+
+Retrieves a pointer to the remote object for which this object is a proxy.
+
+
+
+
+## -parameters
+
+
+
+
+### -param riid [in]
+
+Interface identifier (IID) of the requested interface.
+
+
+### -param ppv [out]
+
+Receives a pointer to the requested interface. The caller must release the interface.
+
+
+## -returns
+
+
+
+The method returns an HRESULT. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/46af5ba7-c362-4cfd-ae6d-b698c6403a65">IMFRemoteProxy</a>
+ 
+
+ 
+

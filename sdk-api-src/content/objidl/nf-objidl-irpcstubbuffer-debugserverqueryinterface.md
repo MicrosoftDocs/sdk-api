@@ -1,0 +1,84 @@
+---
+UID: NF:objidl.IRpcStubBuffer.DebugServerQueryInterface
+title: IRpcStubBuffer::DebugServerQueryInterface method
+author: windows-driver-content
+description: Retrieves a pointer to the interface that a stub represents.
+old-location: com\irpcstubbuffer_debugserverqueryinterface.htm
+old-project: com
+ms.assetid: c735a99f-c67a-44eb-ae60-950dc4e68e74
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: DebugServerQueryInterface method [COM], DebugServerQueryInterface method [COM], IRpcStubBuffer interface, DebugServerQueryInterface,IRpcStubBuffer.DebugServerQueryInterface, IRpcStubBuffer, IRpcStubBuffer interface [COM], DebugServerQueryInterface method, IRpcStubBuffer::DebugServerQueryInterface, _com_irpcstubbuffer_debugserverqueryinterface, com.irpcstubbuffer_debugserverqueryinterface, objidlbase/IRpcStubBuffer::DebugServerQueryInterface
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: objidl.h
+req.include-header: ObjIdl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: ObjIdl.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: THDTYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	objidlbase.h
+api_name:
+-	IRpcStubBuffer.DebugServerQueryInterface
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# IRpcStubBuffer::DebugServerQueryInterface method
+
+
+## -description
+
+
+Retrieves a pointer to the interface that a stub represents.
+
+
+## -parameters
+
+
+
+
+### -param ppv [out]
+
+A pointer to the interface that the stub represents.
+
+
+## -returns
+
+
+
+This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E_UNEXPECTED, E_FAIL, and S_OK.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/0aa724f0-6110-4ebf-a0c1-d309074a61d9">IRpcStubBuffer</a>
+ 
+
+ 
+

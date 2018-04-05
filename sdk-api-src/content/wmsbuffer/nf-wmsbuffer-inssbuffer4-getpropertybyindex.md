@@ -1,0 +1,105 @@
+---
+UID: NF:wmsbuffer.INSSBuffer4.GetPropertyByIndex
+title: INSSBuffer4::GetPropertyByIndex method
+author: windows-driver-content
+description: The GetPropertyByIndex method retrieves a buffer property, also called a data unit extension, that was set using INSSBuffer3::SetProperty.
+old-location: wmformat\inssbuffer4_getpropertybyindex.htm
+old-project: wmformat
+ms.assetid: 8812b7c9-610b-4c17-a274-55e043cfb091
+ms.author: windowsdriverdev
+ms.date: 3/23/2018
+ms.keywords: GetPropertyByIndex method [windows Media Format], GetPropertyByIndex method [windows Media Format], INSSBuffer4 interface, GetPropertyByIndex,INSSBuffer4.GetPropertyByIndex, INSSBuffer4, INSSBuffer4 interface [windows Media Format], GetPropertyByIndex method, INSSBuffer4::GetPropertyByIndex, INSSBuffer4GetPropertyByIndex, wmformat.inssbuffer4_getpropertybyindex, wmsbuffer/INSSBuffer4::GetPropertyByIndex
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wmsbuffer.h
+req.include-header: Wmsdk.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WMPServices_StreamState
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wmvcore.lib
+-	Wmvcore.dll
+-	WMStubDRM.lib
+-	WMStubDRM.dll
+api_name:
+-	INSSBuffer4.GetPropertyByIndex
+product: Windows
+targetos: Windows
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# INSSBuffer4::GetPropertyByIndex method
+
+
+## -description
+
+
+
+The <b>GetPropertyByIndex</b> method retrieves a buffer property, also called a data unit extension, that was set using <a href="https://msdn.microsoft.com/5aede025-65ae-4615-9511-af22b8c0dc00">INSSBuffer3::SetProperty</a>. This method differs from <a href="https://msdn.microsoft.com/b7733df5-f764-4996-b324-fa050b1db0af">INSSBuffer3::GetProperty</a> in that, instead of accessing the property by name, it uses an index ranging from zero to one less than the total number of properties associated with the sample.
+
+
+
+
+## -parameters
+
+
+
+
+### -param dwBufferPropertyIndex [in]
+
+<b>DWORD</b> containing the buffer property index. This value will be between zero and one less than the total number of properties associated with the sample. You can retrieve the total number of properties by calling <a href="https://msdn.microsoft.com/b47f26b3-e816-498d-adc3-c6d3357971e6">INSSBuffer4::GetPropertyCount</a>.
+
+
+### -param pguidBufferProperty [out]
+
+Pointer to a GUID specifying the type of buffer property.
+
+
+### -param pvBufferProperty [out]
+
+Void pointer containing the value of the buffer property.
+
+
+### -param pdwBufferPropertySize [in, out]
+
+Pointer to a <b>DWORD</b> containing the size of the value pointed to by <i>pvBufferProperty</i>. If you set <i>pvBufferProperty</i> to <b>NULL</b>, this value will be set to the required size in bytes of the buffer needed to store the property value.
+
+
+## -returns
+
+
+
+If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</b> error code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/d6531e52-b58b-46ed-a47b-444cd98e1ec5">INSSBuffer4 Interface</a>
+ 
+
+ 
+

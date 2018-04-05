@@ -1,0 +1,97 @@
+---
+UID: NF:mixerocx.IMixerOCX.GetAspectRatio
+title: IMixerOCX::GetAspectRatio method
+author: windows-driver-content
+description: The GetAspectRatio method returns the current aspect ratio setting on the Overlay Mixer. (Currently not implemented.).
+old-location: dshow\imixerocx_getaspectratio.htm
+old-project: DirectShow
+ms.assetid: 6143ba3c-6472-47d3-b3ca-55c06ca8da0e
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: GetAspectRatio method [DirectShow], GetAspectRatio method [DirectShow], IMixerOCX interface, GetAspectRatio,IMixerOCX.GetAspectRatio, IMixerOCX, IMixerOCX interface [DirectShow], GetAspectRatio method, IMixerOCX::GetAspectRatio, IMixerOCXGetAspectRatio, dshow.imixerocx_getaspectratio, mixerocx/IMixerOCX::GetAspectRatio
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: mixerocx.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WIN32_FIND_DATAW, *PWIN32_FIND_DATAW, *LPWIN32_FIND_DATAW
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Strmiids.lib
+-	Strmiids.dll
+api_name:
+-	IMixerOCX.GetAspectRatio
+product: Windows
+targetos: Windows
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IMixerOCX::GetAspectRatio method
+
+
+## -description
+
+
+
+The <code>GetAspectRatio</code> method returns the current aspect ratio setting on the Overlay Mixer. (Currently not implemented.)
+
+
+
+
+## -parameters
+
+
+
+
+### -param pdwPictAspectRatioX [out]
+
+Pointer that receives the value of the X dimension.
+
+
+### -param pdwPictAspectRatioY [out]
+
+Pointer that receives the value of the Y dimension.
+
+
+## -returns
+
+
+
+Returns E_NOTIMPL.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/b80d720d-921d-4d24-a168-49944cfcc411">IMixerOCX Interface</a>
+
+
+
+<a href="https://msdn.microsoft.com/e80938b7-31f0-467b-a3fa-c4511d14758d">Overlay Mixer</a>
+ 
+
+ 
+

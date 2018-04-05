@@ -1,0 +1,135 @@
+---
+UID: NF:wmsdkidl.IWMStreamConfig.SetConnectionName
+title: IWMStreamConfig::SetConnectionName method
+author: windows-driver-content
+description: The SetConnectionName method specifies a name for an input. If the profile you are creating contains multiple bit rate mutual exclusion, each of the mutually exclusive streams must have the same connection name.
+old-location: wmformat\iwmstreamconfig_setconnectionname.htm
+old-project: wmformat
+ms.assetid: bd67e0b5-3bfa-46c1-996d-6b026c1144cb
+ms.author: windowsdriverdev
+ms.date: 3/23/2018
+ms.keywords: IWMStreamConfig, IWMStreamConfig interface [windows Media Format], SetConnectionName method, IWMStreamConfig::SetConnectionName, IWMStreamConfigSetConnectionName, SetConnectionName method [windows Media Format], SetConnectionName method [windows Media Format], IWMStreamConfig interface, SetConnectionName,IWMStreamConfig.SetConnectionName, wmformat.iwmstreamconfig_setconnectionname, wmsdkidl/IWMStreamConfig::SetConnectionName
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wmsdkidl.h
+req.include-header: Wmsdk.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WM_AETYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wmvcore.lib
+-	Wmvcore.dll
+-	WMStubDRM.lib
+-	WMStubDRM.dll
+api_name:
+-	IWMStreamConfig.SetConnectionName
+product: Windows
+targetos: Windows
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IWMStreamConfig::SetConnectionName method
+
+
+## -description
+
+
+
+The <b>SetConnectionName</b> method specifies a name for an input. If the profile you are creating contains multiple bit rate mutual exclusion, each of the mutually exclusive streams must have the same connection name.
+
+
+
+
+## -parameters
+
+
+
+
+### -param pwszInputName [in]
+
+Pointer to a wide-character <b>null</b>-terminated string containing the input name. Connection names are limited to 256 wide characters.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+The <i>pwszInputName</i> parameter is <b>NULL</b>.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+This method is purely for the convenience of the developer during profile manipulation and file writing. The name assigned using this method is not stored in the header section of ASF files created using the profile and is therefore not available through the reader object or synchronous reader object.
+
+The new value will not take effect in the profile until you call <a href="https://msdn.microsoft.com/ac6de14b-b754-4f61-9f9a-656885641fbc">IWMProfile::ReconfigStream</a>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/e013996a-95b6-4cd3-9fb5-75dbce821eef">IWMStreamConfig Interface</a>
+
+
+
+<a href="https://msdn.microsoft.com/04d50606-c355-45d4-9cc1-a8ef37113bf7">IWMStreamConfig::GetConnectionName</a>
+ 
+
+ 
+

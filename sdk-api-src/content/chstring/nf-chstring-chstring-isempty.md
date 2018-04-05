@@ -1,0 +1,78 @@
+---
+UID: NF:chstring.CHString.IsEmpty
+title: CHString::IsEmpty method
+author: windows-driver-content
+description: The IsEmpty method tests a CHString string for the empty condition.
+old-location: wmi\chstring_isempty.htm
+old-project: WmiSdk
+ms.assetid: 06af1063-1e5a-4a09-a0d7-b5567b9efcff
+ms.author: windowsdriverdev
+ms.date: 3/16/2018
+ms.keywords: "?IsEmpty@CHString@@QBEHXZ, ?IsEmpty@CHString@@QEBAHXZ, CHString, CHString interface [Windows Management Instrumentation], IsEmpty method, CHString::IsEmpty, IsEmpty method [Windows Management Instrumentation], IsEmpty method [Windows Management Instrumentation], CHString interface, IsEmpty,CHString.IsEmpty, _hmm_chstring_isempty, chstring/CHString::IsEmpty, wmi.chstring_isempty"
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: chstring.h
+req.include-header: FwCommon.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: CF_SYNC_ROOT_STANDARD_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	FrameDynOS.dll
+-	FrameDyn.dll
+api_name:
+-	CHString.IsEmpty
+-	?IsEmpty@CHString@@QBEHXZ
+-	?IsEmpty@CHString@@QEBAHXZ
+product: Windows
+targetos: Windows
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
+---
+
+# CHString::IsEmpty method
+
+
+## -description
+
+
+<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/e2e4378f-d842-4bca-bffc-a60e718caed3">CHString</a> class 
+    is part of the WMI Provider Framework which is now considered in final state, and no further development, 
+    enhancements, or updates will be available for non-security related issues affecting these libraries. The 
+    <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new 
+    development.]
+
+The <b>IsEmpty</b> method tests a <a href="https://msdn.microsoft.com/e2e4378f-d842-4bca-bffc-a60e718caed3">CHString</a> string for the empty condition.
+
+
+## -parameters
+
+
+
+
+
+
+## -returns
+
+
+
+If the <a href="https://msdn.microsoft.com/e2e4378f-d842-4bca-bffc-a60e718caed3">CHString</a> string has a length of zero, the <b>IsEmpty</b> method returns a nonzero value. If the <b>CHString</b> string has a nonzero length, the method returns zero.
+
+
+

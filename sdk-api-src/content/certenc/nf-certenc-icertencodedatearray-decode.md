@@ -1,0 +1,106 @@
+---
+UID: NF:certenc.ICertEncodeDateArray.Decode
+title: ICertEncodeDateArray::Decode method
+author: windows-driver-content
+description: Decodes an Abstract Syntax Notation One (ASN.1)-encoded date array and stores the resulting array of date values in the CertEncodeDateArray object.
+old-location: security\icertencodedatearray_decode.htm
+old-project: SecCrypto
+ms.assetid: 79937ef7-4b1a-4132-9ef4-23b2857c7fac
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: CCertEncodeDateArray object [Security], Decode method, Decode method [Security], Decode method [Security], CCertEncodeDateArray object, Decode method [Security], ICertEncodeDateArray interface, Decode,ICertEncodeDateArray.Decode, ICertEncodeDateArray, ICertEncodeDateArray interface [Security], Decode method, ICertEncodeDateArray::Decode, _certsrv_icertencodedatearray_decode, certenc/ICertEncodeDateArray::Decode, security.icertencodedatearray_decode
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: certenc.h
+req.include-header: Certsrv.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: X509EnrollmentAuthFlags
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Certenc.dll
+api_name:
+-	ICertEncodeDateArray.Decode
+-	CCertEncodeDateArray.Decode
+product: Windows
+targetos: Windows
+req.lib: Certidl.lib
+req.dll: Certenc.dll
+req.irql: 
+---
+
+# ICertEncodeDateArray::Decode method
+
+
+## -description
+
+
+The <b>Decode</b> method decodes an <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">Abstract Syntax Notation One</a> (ASN.1)-encoded date array and stores the resulting array of date values in the <b>CertEncodeDateArray</b> object.
+
+
+## -parameters
+
+
+
+
+### -param strBinary [in]
+
+An ASN.1-encoded <b>DATE</b> array.
+
+
+## -returns
+
+
+
+<h3>VB</h3>
+ If the method succeeds, the method returns S_OK.
+
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+
+
+
+
+## -remarks
+
+
+
+This method places the decoded contents of <i>strBinary</i> into the object's array of date values. If the object's array already contains date values, this existing content will be freed, and the array will be loaded with the decoded values.
+
+
+#### Examples
+
+For an example that uses the <b>Decode</b> method, see the <a href="https://msdn.microsoft.com/102ca165-c320-4e18-986f-7375fbc617e0">ICertEncodeDateArray::Encode</a> method.
+
+<div class="code"></div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/9973c49a-d886-4cc4-b75e-7ff46f56d51c">ICertEncodeDateArray</a>
+
+
+
+<a href="https://msdn.microsoft.com/102ca165-c320-4e18-986f-7375fbc617e0">ICertEncodeDateArray::Encode</a>
+ 
+
+ 
+

@@ -1,0 +1,142 @@
+---
+UID: NF:wmsdkidl.IWMWriterFileSink3.SetUnbufferedIO
+title: IWMWriterFileSink3::SetUnbufferedIO method
+author: windows-driver-content
+description: The SetUnbufferedIO method specifies whether unbuffered I/O is used for the file sink. You can improve performance by using unbuffered I/O for writer sessions with a high bit rate and a long running time.
+old-location: wmformat\iwmwriterfilesink3_setunbufferedio.htm
+old-project: wmformat
+ms.assetid: 51a9c21b-d301-41e4-a9bc-321a5b2decca
+ms.author: windowsdriverdev
+ms.date: 3/23/2018
+ms.keywords: IWMWriterFileSink3, IWMWriterFileSink3 interface [windows Media Format], SetUnbufferedIO method, IWMWriterFileSink3::SetUnbufferedIO, IWMWriterFileSink3SetUnbufferedIO, SetUnbufferedIO method [windows Media Format], SetUnbufferedIO method [windows Media Format], IWMWriterFileSink3 interface, SetUnbufferedIO,IWMWriterFileSink3.SetUnbufferedIO, wmformat.iwmwriterfilesink3_setunbufferedio, wmsdkidl/IWMWriterFileSink3::SetUnbufferedIO
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wmsdkidl.h
+req.include-header: Wmsdk.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WM_AETYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wmvcore.lib
+-	Wmvcore.dll
+-	WMStubDRM.lib
+-	WMStubDRM.dll
+api_name:
+-	IWMWriterFileSink3.SetUnbufferedIO
+product: Windows
+targetos: Windows
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IWMWriterFileSink3::SetUnbufferedIO method
+
+
+## -description
+
+
+
+The <b>SetUnbufferedIO</b> method specifies whether unbuffered I/O is used for the file sink. You can improve performance by using unbuffered I/O for writer sessions with a high bit rate and a long running time.
+
+
+
+
+## -parameters
+
+
+
+
+### -param fUnbufferedIO [in]
+
+A <b>BOOL</b> that specifies whether to use unbuffered I/O.
+
+
+### -param fRestrictMemUsage [in]
+
+A <b>BOOL</b> that specifies whether memory usage should be restricted. Passing True for this parameter severely limits the size of the buffers used to prepare data for unbuffered writing. This limitation usually counteracts any performance gains from using unbuffered I/O.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>NS_E_INVALID_REQUEST</b></dt>
+</dl>
+</td>
+<td width="60%">
+The header has already been written.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+This method enables the application to override the writer's decision about whether to use unbuffered I/O.
+
+If you want to use unbuffered I/O, you must call this method before writing the header of the file.
+
+This method dynamically allocates a set of buffers to prepare data for unbuffered writing. The size of these buffers is dependent upon the amount of available physical memory.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/67f418c8-184d-46f0-8939-69194c7e7a50">IWMWriterFileSink3 Interface</a>
+
+
+
+<a href="https://msdn.microsoft.com/e87222eb-6ed1-49b7-a544-27703ba9806b">IWMWriterFileSink3::GetUnbufferedIO</a>
+ 
+
+ 
+

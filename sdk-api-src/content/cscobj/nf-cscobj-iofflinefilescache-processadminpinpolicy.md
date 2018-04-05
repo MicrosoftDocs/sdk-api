@@ -1,0 +1,98 @@
+---
+UID: NF:cscobj.IOfflineFilesCache.ProcessAdminPinPolicy
+title: IOfflineFilesCache::ProcessAdminPinPolicy method
+author: windows-driver-content
+description: Causes Offline Files to process the &#0034;administratively assigned offline files&#0034; group policy.
+old-location: of\iofflinefilescache_processadminpinpolicy.htm
+old-project: OfflineFiles
+ms.assetid: 25ee4586-3031-4815-9a35-ce57cf9366d7
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: IOfflineFilesCache, IOfflineFilesCache interface [Offline Files], ProcessAdminPinPolicy method, IOfflineFilesCache::ProcessAdminPinPolicy, ProcessAdminPinPolicy method [Offline Files], ProcessAdminPinPolicy method [Offline Files], IOfflineFilesCache interface, ProcessAdminPinPolicy,IOfflineFilesCache.ProcessAdminPinPolicy, cscobj/IOfflineFilesCache::ProcessAdminPinPolicy, of.iofflinefilescache_processadminpinpolicy
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: cscobj.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: OFFLINEFILES_SYNC_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	CscSvc.dll
+-	CscObj.dll
+api_name:
+-	IOfflineFilesCache.ProcessAdminPinPolicy
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: CscSvc.dll; CscObj.dll
+req.irql: 
+---
+
+# IOfflineFilesCache::ProcessAdminPinPolicy method
+
+
+## -description
+
+
+Causes Offline Files to process the "administratively assigned offline files" group policy.
+
+
+## -parameters
+
+
+
+
+### -param pPinProgress [in]
+
+Pointer to the <a href="https://msdn.microsoft.com/7fc5ff29-be9d-4fad-96a8-94058bb708fa">IOfflineFilesSyncProgress</a> interface that receives progress notifications as items are being pinned in the Offline Files cache.
+
+
+### -param pUnpinProgress [in]
+
+Pointer to the <a href="https://msdn.microsoft.com/7fc5ff29-be9d-4fad-96a8-94058bb708fa">IOfflineFilesSyncProgress</a> interface that receives progress notifications as items are being unpinned from the Offline Files cache.
+
+
+## -returns
+
+
+
+Returns <b>S_OK</b> if successful, or an error value otherwise.
+
+
+
+
+## -remarks
+
+
+
+The "administratively assigned offline files" group policy provides a way for administrators to cause specific folders to be pinned by Offline Files for specific users by way of the Group Policy mechanism.  The primary client of this function is the Offline Files Group Policy extension.  In most deployments there is no need to call this function.  The Group Policy extension will do that for you.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/7b1b5ef6-355a-4760-9d54-ec73cc66fb8a">IOfflineFilesCache</a>
+ 
+
+ 
+

@@ -1,0 +1,141 @@
+---
+UID: NF:winspool.EnumPrinterKeyW
+title: EnumPrinterKeyW function
+author: windows-driver-content
+description: The EnumPrinterKey function enumerates the subkeys of a specified key for a specified printer.
+old-location: gdi\enumprinterkey.htm
+old-project: printdocs
+ms.assetid: 721b1d23-a594-4439-b8f9-9b11be5fe874
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: EnumPrinterKey, EnumPrinterKey function [Windows GDI], EnumPrinterKeyA, EnumPrinterKeyW, _win32_EnumPrinterKey, gdi.enumprinterkey, winspool/EnumPrinterKey, winspool/EnumPrinterKeyA, winspool/EnumPrinterKeyW
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: winspool.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: EnumPrinterKeyW (Unicode) and EnumPrinterKeyA (ANSI)
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: PRINT_EXECUTION_CONTEXT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Winspool.drv
+api_name:
+-	EnumPrinterKey
+-	EnumPrinterKeyA
+-	EnumPrinterKeyW
+product: Windows
+targetos: Windows
+req.lib: Winspool.lib
+req.dll: Winspool.drv
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# EnumPrinterKeyW function
+
+
+## -description
+
+
+The <b>EnumPrinterKey</b> function enumerates the subkeys of a specified key for a specified printer.
+
+Printer data is stored in the registry. While enumerating printer data, do not call registry functions that might change the data.
+
+
+## -parameters
+
+
+
+
+### -param hPrinter [in]
+
+A handle to the printer for which the function enumerates subkeys. Use the <a href="https://msdn.microsoft.com/96763220-d851-46f0-8be8-403f3356edb9">OpenPrinter</a> or <a href="https://msdn.microsoft.com/ffc4fee8-46c6-47ad-803d-623bf8efdefd">AddPrinter</a> function to retrieve a printer handle.
+
+
+### -param pKeyName [in]
+
+A pointer to a null-terminated string that specifies the key containing the subkeys to enumerate. Use the backslash '\' character as a delimiter to specify a path with one or more subkeys. <b>EnumPrinterKey</b> enumerates all subkeys of the key, but does not enumerate the subkeys of those subkeys.
+
+If <i>pKeyName</i> is an empty string (""), <b>EnumPrinterKey</b> enumerates the top-level key for the printer. If <i>pKeyName</i> is <b>NULL</b>, <b>EnumPrinterKey</b> returns ERROR_INVALID_PARAMETER.
+
+
+### -param pSubkey [out]
+
+A pointer to a buffer that receives an array of null-terminated subkey names. The array is terminated by two null characters.
+
+
+### -param cbSubkey [in]
+
+The size, in bytes, of the buffer pointed to by <i>pSubkey</i>. If you set <i>cbSubkey</i> to zero, the <i>pcbSubkey</i> parameter returns the required buffer size.
+
+
+### -param pcbSubkey [out]
+
+A pointer to a variable that receives the number of bytes retrieved in the <i>pSubkey</i> buffer. If the buffer size specified by <i>cbSubkey</i> is too small, the function returns ERROR_MORE_DATA and <i>pcbSubkey</i> indicates the required buffer size.
+
+
+## -returns
+
+
+
+If the function succeeds, the return value is ERROR_SUCCESS.
+
+If the function fails, the return value is a system error code. If <i>pKeyName</i> does not exist, the return value is ERROR_FILE_NOT_FOUND.
+
+
+
+
+## -remarks
+
+
+
+<div class="alert"><b>Note</b>  This is a blocking or synchronous function and might not return immediately. How quickly this function returns depends on run-time factors such as network status, print server configuration, and printer driver implementation—factors that are difficult to predict when writing an application. Calling this function from a thread that manages interaction with the user interface could make the application appear to be unresponsive.</div>
+<div> </div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/bcc9cdb3-0fbf-40b6-9de2-1479c3c0ff55">DeletePrinterDataEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/5d9183a7-97cc-46de-848e-e37ce51396eb">GetPrinterDataEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/96763220-d851-46f0-8be8-403f3356edb9">OpenPrinter</a>
+
+
+
+<a href="https://msdn.microsoft.com/d859f84d-af0e-4b8b-b7fa-d7b1fc35ed39">Print Spooler API Functions</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn614611">Printing</a>
+
+
+
+<a href="https://msdn.microsoft.com/b7faadfc-1c81-4ddf-8fe5-68f4cc0376f1">SetPrinterDataEx</a>
+ 
+
+ 
+

@@ -1,0 +1,98 @@
+---
+UID: NF:txlogpub.ILog.GetLogLimits
+title: ILog::GetLogLimits method
+author: windows-driver-content
+description: Retrieves information about the current bounds of the log.
+old-location: com\ilog_getloglimits.htm
+old-project: com
+ms.assetid: 06238436-6807-4588-9af9-03eb4c12f4e1
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: GetLogLimits method [COM], GetLogLimits method [COM], ILog interface, GetLogLimits,ILog.GetLogLimits, ILog, ILog interface [COM], GetLogLimits method, ILog::GetLogLimits, _com_ilog_getloglimits, com.ilog_getloglimits, txlogpub/ILog::GetLogLimits
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: txlogpub.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Txlogpub.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: RECORD_READING_POLICY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Txlogpub.h
+api_name:
+-	ILog.GetLogLimits
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# ILog::GetLogLimits method
+
+
+## -description
+
+
+Retrieves information about the current bounds of the log.
+
+
+## -parameters
+
+
+
+
+### -param plsnFirst [in, out]
+
+A pointer to the LSN of the first record in the log. This parameter can be <b>NULL</b> if the LSN of the first record is not needed.
+
+
+### -param plsnLast [in, out]
+
+A pointer to the LSN of the last record in the log. This parameter can be <b>NULL</b> if the LSN of the last record is not needed.
+
+
+## -returns
+
+
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+The limits returned by this method may include records that have not yet been written to disk.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/93f2be99-0799-4047-ae4e-62f0e74d15c3">ILog</a>
+ 
+
+ 
+

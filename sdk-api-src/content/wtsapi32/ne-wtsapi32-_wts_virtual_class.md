@@ -1,0 +1,89 @@
+---
+UID: NE:wtsapi32._WTS_VIRTUAL_CLASS
+title: "_WTS_VIRTUAL_CLASS"
+author: windows-driver-content
+description: Contains values that indicate the type of virtual channel information to retrieve.
+old-location: termserv\wts_virtual_class.htm
+old-project: TermServ
+ms.assetid: ca7bb0ff-f5af-477f-a610-563071554234
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: WTSVirtualClientData, WTSVirtualFileHandle, WTS_VIRTUAL_CLASS, WTS_VIRTUAL_CLASS enumeration [Remote Desktop Services], _WTS_VIRTUAL_CLASS, _win32_wts_virtual_class, termserv.wts_virtual_class, wtsapi32/WTSVirtualClientData, wtsapi32/WTSVirtualFileHandle, wtsapi32/WTS_VIRTUAL_CLASS
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: enum
+req.header: wtsapi32.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: WSManDisp.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WTS_VIRTUAL_CLASS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wtsapi32.h
+api_name:
+-	WTS_VIRTUAL_CLASS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# _WTS_VIRTUAL_CLASS enumeration
+
+
+## -description
+
+
+Contains values that indicate the type of virtual channel information to retrieve.
+
+
+## -enum-fields
+
+
+
+
+### -field WTSVirtualClientData
+
+This value is not currently supported.
+
+
+### -field WTSVirtualFileHandle
+
+Indicates a request for the file handle of a virtual channel that can be used for asynchronous I/O.
+
+
+## -remarks
+
+
+
+For an example that shows the use of the WTSVirtualFileHandle value, see <a href="https://msdn.microsoft.com/68ae8174-d72b-4b1c-b8e9-ae5fed51d385">WTSVirtualChannelQuery</a>. This example shows how to gain access to a virtual channel file handle that can be used for asynchronous I/O.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/68ae8174-d72b-4b1c-b8e9-ae5fed51d385">WTSVirtualChannelQuery</a>
+ 
+
+ 
+

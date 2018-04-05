@@ -1,0 +1,84 @@
+---
+UID: NF:wcmconfig.ITargetInfo.SetTargetID
+title: ITargetInfo::SetTargetID method
+author: windows-driver-content
+description: Sets the unique identifier associated with current target.
+old-location: smi\itargetinfo_settargetid.htm
+old-project: SMI
+ms.assetid: 183b1ccd-9244-42d5-a787-617e43a55f64
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: ITargetInfo, ITargetInfo interface [SMI], SetTargetID method, ITargetInfo::SetTargetID, SetTargetID method [SMI], SetTargetID method [SMI], ITargetInfo interface, SetTargetID,ITargetInfo.SetTargetID, smi.itargetinfo_settargetid, wcmconfig/ITargetInfo::SetTargetID
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wcmconfig.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: WcmConfig.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WcmNamespaceAccess
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SMIEngine.dll
+api_name:
+-	ITargetInfo.SetTargetID
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SMIEngine.dll
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# ITargetInfo::SetTargetID method
+
+
+## -description
+
+
+Sets the unique identifier associated with current target.
+
+
+## -parameters
+
+
+
+
+### -param TargetID [in]
+
+The unique identifier associated with current target.
+
+
+## -returns
+
+
+
+This method returns an HRESULT value. <b>S_OK</b> indicates success.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/f1dd3c93-43ca-4804-8330-55acaccf8ea8">ITargetInfo</a>
+ 
+
+ 
+

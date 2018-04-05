@@ -1,0 +1,76 @@
+---
+UID: NS:wincrypt._CERT_SERVER_OCSP_RESPONSE_CONTEXT
+title: "_CERT_SERVER_OCSP_RESPONSE_CONTEXT"
+author: windows-driver-content
+description: Contains an encoded OCSP response.
+old-location: security\cert_server_ocsp_response_context.htm
+old-project: SecCrypto
+ms.assetid: 732e91a3-dcd2-491a-ba4f-e22b75b5a71e
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: "*PCERT_SERVER_OCSP_RESPONSE_CONTEXT, CERT_SERVER_OCSP_RESPONSE_CONTEXT, CERT_SERVER_OCSP_RESPONSE_CONTEXT structure [Security], PCCERT_SERVER_OCSP_RESPONSE_CONTEXT, PCCERT_SERVER_OCSP_RESPONSE_CONTEXT structure pointer [Security], PCERT_SERVER_OCSP_RESPONSE_CONTEXT, PCERT_SERVER_OCSP_RESPONSE_CONTEXT structure pointer [Security], _CERT_SERVER_OCSP_RESPONSE_CONTEXT, security.cert_server_ocsp_response_context, wincrypt/CERT_SERVER_OCSP_RESPONSE_CONTEXT, wincrypt/PCCERT_SERVER_OCSP_RESPONSE_CONTEXT, wincrypt/PCERT_SERVER_OCSP_RESPONSE_CONTEXT"
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: struct
+req.header: wincrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: CERT_SERVER_OCSP_RESPONSE_CONTEXT, *PCERT_SERVER_OCSP_RESPONSE_CONTEXT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wincrypt.h
+api_name:
+-	CERT_SERVER_OCSP_RESPONSE_CONTEXT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# _CERT_SERVER_OCSP_RESPONSE_CONTEXT structure
+
+
+## -description
+
+
+The <b>CERT_SERVER_OCSP_RESPONSE_CONTEXT</b> structure contains an encoded OCSP response.
+
+
+## -struct-fields
+
+
+
+
+
+
+#### - cbEncodedOcspResponse
+
+The size in bytes of <b>pbEncodedOcspResponse</b>.
+
+
+#### - cbSize
+
+The size in bytes of this structure.
+
+
+#### - pbEncodedOcspResponse
+
+A pointer to the data buffer that contains the encoded OCSP response.
+

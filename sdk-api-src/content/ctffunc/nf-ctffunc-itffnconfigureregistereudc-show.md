@@ -1,0 +1,117 @@
+---
+UID: NF:ctffunc.ITfFnConfigureRegisterEudc.Show
+title: ITfFnConfigureRegisterEudc::Show method
+author: windows-driver-content
+description: The ITfFnConfigureRegisterEudc::Show method shows the EUDC key sequence register UI.
+old-location: tsf\itffnconfigureregistereudc_show.htm
+old-project: TSF
+ms.assetid: 40279381-7c1c-4b11-92c9-200b763e7c7d
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: ITfFnConfigureRegisterEudc, ITfFnConfigureRegisterEudc interface [Text Services Framework], Show method, ITfFnConfigureRegisterEudc::Show, Show method [Text Services Framework], Show method [Text Services Framework], ITfFnConfigureRegisterEudc interface, Show,ITfFnConfigureRegisterEudc.Show, ctffunc/ITfFnConfigureRegisterEudc::Show, tsf.itffnconfigureregistereudc_show
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: ctffunc.h
+req.include-header: Msctf.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Msctf.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: TfIntegratableCandidateListSelectionStyle
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Msctf.dll
+api_name:
+-	ITfFnConfigureRegisterEudc.Show
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
+---
+
+# ITfFnConfigureRegisterEudc::Show method
+
+
+## -description
+
+
+The ITfFnConfigureRegisterEudc::Show method shows the EUDC key sequence register UI.
+
+
+## -parameters
+
+
+
+
+### -param hwndParent [in]
+
+[in] Handle of the parent window. The text service typically uses this as the parent or owner window when creating a dialog box.
+
+
+### -param langid [in]
+
+[in] Contains a LANGID value that specifies the identifier of the language.
+
+
+### -param rguidProfile [in]
+
+[in] Contains a GUID value that specifies the language profile identifier that the text service is under.
+
+
+### -param bstrRegistered
+
+[in, unique] Contains a BSTR that contains the EUDC to be registered with the text service. This is optional and can be <b>NULL</b>. If <b>NULL</b>, the text service should display a default register EUDC dialog box.
+
+
+## -returns
+
+
+
+This method can return one of these values.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method was successful.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_FAIL</b></dt>
+</dl>
+</td>
+<td width="60%">
+An unspecified error occurred.
+
+</td>
+</tr>
+</table>
+ 
+
+
+

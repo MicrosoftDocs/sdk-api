@@ -1,0 +1,118 @@
+---
+UID: NF:wbemprov.IWbemProviderInitSink.SetStatus
+title: IWbemProviderInitSink::SetStatus method
+author: windows-driver-content
+description: The IWbemProviderInitSink::SetStatus method indicates to Windows Management whether a provider is fully or partially initialized.
+old-location: wmi\iwbemproviderinitsink_setstatus.htm
+old-project: WmiSdk
+ms.assetid: 909935ba-ae3a-477d-a466-1f2679764b10
+ms.author: windowsdriverdev
+ms.date: 3/16/2018
+ms.keywords: IWbemProviderInitSink, IWbemProviderInitSink interface [Windows Management Instrumentation], SetStatus method, IWbemProviderInitSink::SetStatus, SetStatus method [Windows Management Instrumentation], SetStatus method [Windows Management Instrumentation], IWbemProviderInitSink interface, SetStatus,IWbemProviderInitSink.SetStatus, WBEM_E_FAILED, WBEM_S_INITIALIZED, _hmm_iwbemproviderinitsink_setstatus, wbemprov/IWbemProviderInitSink::SetStatus, wmi.iwbemproviderinitsink_setstatus
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wbemprov.h
+req.include-header: Wbemidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WbemTimeout
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wbemsvc.dll
+api_name:
+-	IWbemProviderInitSink.SetStatus
+product: Windows
+targetos: Windows
+req.lib: Wbemuuid.lib
+req.dll: Wbemsvc.dll
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# IWbemProviderInitSink::SetStatus method
+
+
+## -description
+
+
+The 
+<b>IWbemProviderInitSink::SetStatus</b> method indicates to Windows Management whether a provider is fully or partially initialized.
+
+
+## -parameters
+
+
+
+
+### -param lStatus [in]
+
+Indicates to Windows Management a provider's initialization status. One of the following values can be set.
+
+
+
+#### WBEM_S_INITIALIZED
+
+Indicates that the provider is fully initialized and ready to accept requests.
+
+
+
+#### WBEM_E_FAILED
+
+Indicates that the provider has failed to initialize and is not functional.
+
+
+### -param lFlags [in]
+
+Reserved. This parameter must be 0 (zero).
+
+
+## -returns
+
+
+
+This method always returns <b>WBEM_S_NO_ERROR</b>.
+
+
+
+
+## -remarks
+
+
+
+All types of providers call 
+<b>IWbemProviderInitSink::SetStatus</b> to indicate initialization status to Windows Management.
+
+If <i>lStatus</i> is set to <b>WBEM_S_INITIALIZED</b>, Windows Management expects the provider to be fully capable of immediately servicing requests.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/abcee170-6a28-44d2-97d6-cb62c393b534">IWbemProviderInitSink</a>
+
+
+
+<a href="https://msdn.microsoft.com/3dc145b8-1ce4-4caa-b2ac-31a3681e76f1">Initializing a Provider</a>
+ 
+
+ 
+

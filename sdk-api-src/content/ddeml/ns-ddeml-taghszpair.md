@@ -1,0 +1,83 @@
+---
+UID: NS:ddeml.tagHSZPAIR
+title: tagHSZPAIR
+author: windows-driver-content
+description: Contains a DDE service name and topic name. A DDE server application can use this structure during an XTYP_WILDCONNECT transaction to enumerate the service-topic pairs that it supports.
+old-location: dataxchg\hszpair.htm
+old-project: dataxchg
+ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchange\dynamicdataexchangereference\dynamicdataexchangestructures\hszpair.htm
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: "*PHSZPAIR, HSZPAIR, HSZPAIR structure [Data Exchange], PHSZPAIR, PHSZPAIR structure pointer [Data Exchange], _win32_HSZPAIR_str, _win32_hszpair_str_cpp, dataxchg.hszpair, ddeml/HSZPAIR, ddeml/PHSZPAIR, tagHSZPAIR, winui._win32_hszpair_str"
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: struct
+req.header: ddeml.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: HSZPAIR, *PHSZPAIR
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ddeml.h
+api_name:
+-	HSZPAIR
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# tagHSZPAIR structure
+
+
+## -description
+
+
+Contains a DDE service name and topic name. A DDE server application can use this structure during an <a href="https://msdn.microsoft.com/4651e14f-ca13-412e-853d-326a13db78e4">XTYP_WILDCONNECT</a> transaction to enumerate the service-topic pairs that it supports. 
+
+
+## -struct-fields
+
+
+
+
+### -field hszSvc
+
+Type: <b>HSZ</b>
+
+A handle to the service name. 
+
+
+### -field hszTopic
+
+Type: <b>HSZ</b>
+
+A handle to the topic name. 
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/0bcd8de4-a6f0-4f2a-8b9d-0b1b638925fb">About Dynamic Data Exchange</a>
+ 
+
+ 
+

@@ -1,0 +1,101 @@
+---
+UID: NF:imapi2.IRawCDImageCreator.put_MediaCatalogNumber
+title: IRawCDImageCreator::put_MediaCatalogNumber method
+author: windows-driver-content
+description: Retrieves the Media Catalog Number (MCN) for the entire audio disc.
+old-location: imapi\irawcdimagecreator_put_mediacatalognumber.htm
+old-project: imapi
+ms.assetid: 0ba2eaac-3bbc-4625-9c5d-1f1d23bbfa66
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: IRawCDImageCreator, IRawCDImageCreator interface [IMAPI], put_MediaCatalogNumber method, IRawCDImageCreator::put_MediaCatalogNumber, imapi.irawcdimagecreator_put_mediacatalognumber, imapi2/IRawCDImageCreator::put_MediaCatalogNumber, put_MediaCatalogNumber method [IMAPI], put_MediaCatalogNumber method [IMAPI], IRawCDImageCreator interface, put_MediaCatalogNumber,IRawCDImageCreator.put_MediaCatalogNumber
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: imapi2.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Imapi2.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	imapi2.h
+api_name:
+-	IRawCDImageCreator.put_MediaCatalogNumber
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IRawCDImageCreator::put_MediaCatalogNumber method
+
+
+## -description
+
+
+Retrieves the Media Catalog Number (MCN) for the entire audio disc.
+
+
+## -parameters
+
+
+
+
+### -param value [in]
+
+A <b>BSTR</b> value that represents the MCN to associate with the audio disc.
+
+
+## -returns
+
+
+
+S_OK is returned on success, but other success codes may be returned as a result of implementation.
+
+
+
+
+## -remarks
+
+
+
+The returned MCN is formatted as a 13-digit decimal number and must also be provided in the same form.  Additionally, the provided MCN value must have a valid checksum digit (least significant digit), or it will be rejected.  For improved compatibility with scripting, leading zeros may be excluded. For example, "0123456789012" can be expressed as "123456789012".
+
+Please refer to the MMC specification for details regarding the MCN value.  
+
+This method is supported in Windows Server 2003 with Service Pack 1 (SP1), Windows XP with Service Pack 2 (SP2),  and Windows Vista  via the <a href="http://go.microsoft.com/fwlink/p/?linkid=141659">Windows Feature Pack for Storage</a>. All  features provided by this  update package are supported natively in Windows 7 and Windows Server 2008 R2.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/b5fe1a32-545e-417d-9996-34d12862a0ea">IRawCDImageCreator</a>
+
+
+
+<a href="https://msdn.microsoft.com/db6f46b7-9965-4b06-a437-bdfdac7d5efa">IRawCDImageCreator::get_MediaCatalogNumber</a>
+ 
+
+ 
+

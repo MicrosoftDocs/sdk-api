@@ -1,0 +1,104 @@
+---
+UID: NF:cscobj.IOfflineFilesPinInfo.IsPinnedForComputer
+title: IOfflineFilesPinInfo::IsPinnedForComputer method
+author: windows-driver-content
+description: Determines whether the item was pinned for all users on the computer by Group Policy.
+old-location: of\iofflinefilespininfo_ispinnedforcomputer.htm
+old-project: OfflineFiles
+ms.assetid: 67d2c444-2498-4848-a4fb-8cae5ff77eaf
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: IOfflineFilesPinInfo, IOfflineFilesPinInfo interface [Offline Files], IsPinnedForComputer method, IOfflineFilesPinInfo::IsPinnedForComputer, IsPinnedForComputer method [Offline Files], IsPinnedForComputer method [Offline Files], IOfflineFilesPinInfo interface, IsPinnedForComputer,IOfflineFilesPinInfo.IsPinnedForComputer, cscobj/IOfflineFilesPinInfo::IsPinnedForComputer, of.iofflinefilespininfo_ispinnedforcomputer
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: cscobj.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: OFFLINEFILES_SYNC_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	CscSvc.dll
+-	CscObj.dll
+api_name:
+-	IOfflineFilesPinInfo.IsPinnedForComputer
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: CscSvc.dll; CscObj.dll
+req.irql: 
+---
+
+# IOfflineFilesPinInfo::IsPinnedForComputer method
+
+
+## -description
+
+
+Determines whether the item was pinned for all users on the computer by Group Policy.
+
+
+## -parameters
+
+
+
+
+### -param pbPinnedForComputer [out]
+
+Receives  <b>TRUE</b> if the item was pinned for users by Group Policy, or <b>FALSE</b> otherwise.
+
+
+### -param pbInherit [out]
+
+Receives <b>TRUE</b> if the pinned state is inherited by new child items, or <b>FALSE</b> otherwise.
+
+
+## -returns
+
+
+
+Returns <b>S_OK</b> if successful, or an error value otherwise.
+
+
+
+
+## -remarks
+
+
+
+When an item is pinned in the Offline Files cache, it is protected from automatic eviction and is guaranteed to be available offline.
+
+This method corresponds to the OFFLINEFILES_PIN_CONTROL_FLAG_FORALL pin control flag used by the <a href="https://msdn.microsoft.com/6005d755-5e1b-4eba-95a2-b6c9c00b1a64">IOfflineFilesCache::Pin</a> method.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/6005d755-5e1b-4eba-95a2-b6c9c00b1a64">IOfflineFilesCache::Pin</a>
+
+
+
+<a href="https://msdn.microsoft.com/529a529a-fbeb-4414-b4c9-46bfcca4aa7a">IOfflineFilesPinInfo</a>
+ 
+
+ 
+

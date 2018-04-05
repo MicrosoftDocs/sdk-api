@@ -1,0 +1,148 @@
+---
+UID: NF:workspaceruntime.IWorkspaceScriptable2.StartWorkspaceEx
+title: IWorkspaceScriptable2::StartWorkspaceEx method
+author: windows-driver-content
+description: Associates user credentials and certificates with a connection ID; also contains additional security and UI elements.
+old-location: termserv\iworkspacescriptable2_startworkspaceex.htm
+old-project: TermServ
+ms.assetid: 8383ee1c-ff6a-4251-8b0d-a2a8c0674873
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: IWorkspaceScriptable2, IWorkspaceScriptable2 interface [Remote Desktop Services], StartWorkspaceEx method, IWorkspaceScriptable2::StartWorkspaceEx, IWorkspaceScriptable3 interface [Remote Desktop Services], StartWorkspaceEx method, IWorkspaceScriptable3::StartWorkspaceEx, StartWorkspaceEx method [Remote Desktop Services], StartWorkspaceEx method [Remote Desktop Services], IWorkspaceScriptable2 interface, StartWorkspaceEx method [Remote Desktop Services], IWorkspaceScriptable3 interface, StartWorkspaceEx method [Remote Desktop Services], Workspace object, StartWorkspaceEx,IWorkspaceScriptable2.StartWorkspaceEx, WKS_FLAG_CLEAR_CREDS_ON_LAST_RESOURCE, WKS_FLAG_CREDS_AUTHENTICATED, WKS_FLAG_PASSWORD_ENCRYPTED, Workspace object [Remote Desktop Services], StartWorkspaceEx method, termserv.iworkspacescriptable2_startworkspaceex, workspaceruntime/IWorkspaceScriptable2::StartWorkspaceEx, workspaceruntime/IWorkspaceScriptable3::StartWorkspaceEx
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: workspaceruntime.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: WorkspaceRuntime.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: WkspRt.exe
+req.typenames: WOF_FILE_COMPRESSION_INFO_V1, *PWOF_FILE_COMPRESSION_INFO_V1
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	WkspRt.exe
+api_name:
+-	IWorkspaceScriptable2.StartWorkspaceEx
+-	IWorkspaceScriptable3.StartWorkspaceEx
+-	Workspace.StartWorkspaceEx
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IWorkspaceScriptable2::StartWorkspaceEx method
+
+
+## -description
+
+
+Associates user credentials and certificates with a connection ID; also contains additional security and UI elements.
+
+
+## -parameters
+
+
+
+
+### -param bstrWorkspaceId [in]
+
+A string that contains the connection ID.
+
+
+### -param bstrWorkspaceFriendlyName [in]
+
+The friendly name of the workspace to display in the UI.
+
+
+### -param bstrRedirectorName [in]
+
+String containing the name of the redirector.
+
+
+### -param bstrUserName [in]
+
+A string that contains a user name.
+
+
+### -param bstrPassword [in]
+
+A string that contains a password.
+
+
+### -param bstrAppContainer [in]
+
+A string containing the app container for the workspace.
+
+
+### -param bstrWorkspaceParams [in]
+
+A string that contains one or more Secure Hash Algorithm 1 (SHA-1) hashes of signing certificates to associate with the specified connection ID. The hash values should be in hexadecimal string format and delimited by semicolons.
+
+
+### -param lTimeout [in]
+
+The time period, in minutes, after which the credentials are deleted.
+
+
+### -param lFlags [in]
+
+A flag that specifies  properties of the user credentials. This can be  a bitwise <b>OR</b> of the following values.
+
+
+
+#### WKS_FLAG_CLEAR_CREDS_ON_LAST_RESOURCE (1 (0x1))
+
+Delete credentials as soon as the last RemoteApp application is closed.
+
+
+
+#### WKS_FLAG_PASSWORD_ENCRYPTED (2 (0x2))
+
+The password is encrypted.
+
+
+
+#### WKS_FLAG_CREDS_AUTHENTICATED (4 (0x4))
+
+The user credentials are verified. If this flag is not set, you must call the <a href="https://msdn.microsoft.com/7b879234-07a2-43e7-83e8-c503e418f71e">OnAuthenticated</a> method before using the credentials.
+
+
+## -returns
+
+
+
+If the method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following list.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/66a6c283-bef9-4cb4-9035-d4a2d2cb7b4f">IWorkspaceScriptable2</a>
+
+
+
+<a href="https://msdn.microsoft.com/6fe02f0a-8cce-47f0-807e-e627336adf2c">IWorkspaceScriptable3</a>
+ 
+
+ 
+

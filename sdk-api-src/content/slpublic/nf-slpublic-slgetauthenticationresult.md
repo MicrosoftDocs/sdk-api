@@ -1,0 +1,135 @@
+---
+UID: NF:slpublic.SLGetAuthenticationResult
+title: SLGetAuthenticationResult function
+author: windows-driver-content
+description: Gets the authentication results.
+old-location: security\slgetauthenticationresult.htm
+old-project: SecSLApi
+ms.assetid: 8f30ac28-92a0-41f5-b076-eda7014fb526
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: SLGetAuthenticationResult, SLGetAuthenticationResult function [Security], security.slgetauthenticationresult, slpublic/SLGetAuthenticationResult
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: slpublic.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: SL_ACTIVATION_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Slc.dll
+api_name:
+-	SLGetAuthenticationResult
+product: Windows
+targetos: Windows
+req.lib: Slc.lib
+req.dll: Slc.dll
+req.irql: 
+req.product: Internet Explorer 6.01
+---
+
+# SLGetAuthenticationResult function
+
+
+## -description
+
+
+Gets the authentication results.
+
+
+## -parameters
+
+
+
+
+### -param hSLC [in]
+
+Type: <b>HSLC</b>
+
+The handle to the current SLC context.
+
+
+### -param pcbValue [out]
+
+Type: <b>UINT*</b>
+
+A pointer to the size, in bytes, of the authentication result.
+
+
+### -param ppbValue [out]
+
+Type: <b>PBYTE*</b>
+
+A pointer to the authentication result. When finished using the memory, free it by calling the <a href="https://msdn.microsoft.com/a0393983-cb43-4dfa-91a6-d82a5fb8de12">LocalFree</a> function.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT WINAPI</b>
+
+If this function succeeds, it return <b>S_OK</b>.  Otherwise,  it returns an <b>HRESULT</b> error code.
+
+<table>
+<tr>
+<th>Return code/value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>SL_E_AUTHN_MISMATCHED_KEY</b></dt>
+<dt>0xC004F078</dt>
+</dl>
+</td>
+<td width="60%">
+The key used in the <a href="https://msdn.microsoft.com/68906873-6c49-4221-ad87-1e1f1463c0d4">SLSetAuthenticationData</a> function call is incorrect.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>SL_E_AUTHN_CANT_VERIFY</b></dt>
+<dt>0xC004F07A</dt>
+</dl>
+</td>
+<td width="60%">
+The authentication cannot be completed.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>SL_E_AUTHN_CHALLENGE_NOT_SET</b></dt>
+<dt>0xC004F079</dt>
+</dl>
+</td>
+<td width="60%">
+The authentication data (challenge) is not set.
+
+</td>
+</tr>
+</table>
+ 
+
+
+

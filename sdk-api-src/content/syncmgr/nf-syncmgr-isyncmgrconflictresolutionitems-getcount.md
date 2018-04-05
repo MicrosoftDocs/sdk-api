@@ -1,0 +1,77 @@
+---
+UID: NF:syncmgr.ISyncMgrConflictResolutionItems.GetCount
+title: ISyncMgrConflictResolutionItems::GetCount method
+author: windows-driver-content
+description: Gets item count.
+old-location: shell\ISyncMgrConflictResolutionItems_GetCount.htm
+old-project: shell
+ms.assetid: 6842d091-210c-46de-b768-e9a145b0565d
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: GetCount method [Windows Shell], GetCount method [Windows Shell], ISyncMgrConflictResolutionItems interface, GetCount,ISyncMgrConflictResolutionItems.GetCount, ISyncMgrConflictResolutionItems, ISyncMgrConflictResolutionItems interface [Windows Shell], GetCount method, ISyncMgrConflictResolutionItems::GetCount, _shell_ISyncMgrConflictResolutionItems_GetCount, shell.ISyncMgrConflictResolutionItems_GetCount, syncmgr/ISyncMgrConflictResolutionItems::GetCount
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: syncmgr.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Syncmgr.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: SYNCMGR_SYNC_CONTROL_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Syncmgr.h
+api_name:
+-	ISyncMgrConflictResolutionItems.GetCount
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# ISyncMgrConflictResolutionItems::GetCount method
+
+
+## -description
+
+
+Gets item count.
+
+
+## -parameters
+
+
+
+
+### -param pCount [out]
+
+Type: <b>UINT*</b>
+
+A pointer to an item count.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+

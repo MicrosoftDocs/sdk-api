@@ -1,0 +1,69 @@
+---
+UID: NF:azroles.IAzRole.get_MembersName
+title: IAzRole::get_MembersName method
+author: windows-driver-content
+description: Retrieves the account names of accounts that belong to the role.
+old-location: security\iazrole_membersname.htm
+old-project: SecAuthZ
+ms.assetid: defaefa8-2d76-49c6-bd1c-8b386f9dc5f1
+ms.author: windowsdriverdev
+ms.date: 3/29/2018
+ms.keywords: AzRole object [Security], MembersName property, IAzRole, IAzRole interface [Security], MembersName property, IAzRole.MembersName, IAzRole::get_MembersName, MembersName property [Security], MembersName property [Security], AzRole object, MembersName property [Security], IAzRole interface, azroles/IAzRole::MembersName, azroles/IAzRole::get_MembersName, get_MembersName,IAzRole.get_MembersName, security.iazrole_membersname
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: azroles.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: AZ_PROP_CONSTANTS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Azroles.dll
+api_name:
+-	IAzRole.MembersName
+-	IAzRole.get_MembersName
+-	AzRole.MembersName
+product: Windows
+targetos: Windows
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
+---
+
+# IAzRole::get_MembersName method
+
+
+## -description
+
+
+The <b>MembersName</b> property retrieves the account names of  accounts that belong to the role.
+
+This property is read-only.
+
+
+## -parameters
+
+
+## -remarks
+
+
+
+In JScript, the returned <a href="9ec8025b-4763-4526-ab45-390c5d8b3b1e">SAFEARRAY</a> must be converted to the JScript <a href="08e5f552-0797-4b48-8164-609582fc18c9">Array</a> object. 
+
+
+

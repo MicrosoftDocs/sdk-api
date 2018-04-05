@@ -1,0 +1,133 @@
+---
+UID: NF:tom.ITextRange.Collapse
+title: ITextRange::Collapse method
+author: windows-driver-content
+description: Collapses the specified text range into a degenerate point at either the beginning or end of the range.
+old-location: controls\ITextRange_Collapse.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\collapse.htm
+ms.author: windowsdriverdev
+ms.date: 3/31/2018
+ms.keywords: Collapse method [Windows Controls], Collapse method [Windows Controls], ITextRange interface, Collapse,ITextRange.Collapse, ITextRange, ITextRange interface [Windows Controls], Collapse method, ITextRange::Collapse, _win32_ITextRange_Collapse, _win32_ITextRange_Collapse_cpp, controls.ITextRange_Collapse, controls._win32_ITextRange_Collapse, tom/ITextRange::Collapse, tomEnd or tomFalse, tomStart or tomTrue
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: tom.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MANCODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Msftedit.dll
+api_name:
+-	ITextRange.Collapse
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# ITextRange::Collapse method
+
+
+## -description
+
+
+Collapses the specified text range into a degenerate point at either the beginning or end of the range. 
+
+
+## -parameters
+
+
+
+
+### -param bStart [in]
+
+Type: <b>long</b>
+
+Flag specifying the end to collapse at. It can be one of the following.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="tomStart_or_tomTrue"></a><a id="tomstart_or_tomtrue"></a><a id="TOMSTART_OR_TOMTRUE"></a><dl>
+<dt><b>tomStart or tomTrue</b></dt>
+</dl>
+</td>
+<td width="60%">
+
+						Range is collapsed to the start of the range. This is the default.
+					
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="tomEnd_or_tomFalse"></a><a id="tomend_or_tomfalse"></a><a id="TOMEND_OR_TOMFALSE"></a><dl>
+<dt><b>tomEnd or tomFalse</b></dt>
+</dl>
+</td>
+<td width="60%">
+
+						Range is collapsed to the end of the range.
+					
+
+</td>
+</tr>
+</table>
+ 
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+This method returns an 
+						<b>HRESULT</b> value. If successful, it returns <b>S_OK</b>. Otherwise, it returns S_FALSE. 
+
+
+
+
+## -see-also
+
+
+
+
+<b>Conceptual</b>
+
+
+
+<a href="https://msdn.microsoft.com/e19678cb-f951-458c-bf96-de4b123fd63a">ITextRange</a>
+
+
+
+<b>Reference</b>
+
+
+
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
+ 
+
+ 
+

@@ -1,0 +1,69 @@
+---
+UID: NS:subauth._OLD_LARGE_INTEGER
+title: "_OLD_LARGE_INTEGER"
+author: windows-driver-content
+description: Is used to represent a 64-bit signed integer value as two 32-bit integers.
+old-location: security\old_large_integer.htm
+old-project: SecAuthN
+ms.assetid: d2becc03-10ed-4741-97a4-53f900f0e675
+ms.author: windowsdriverdev
+ms.date: 3/29/2018
+ms.keywords: "*POLD_LARGE_INTEGER, OLD_LARGE_INTEGER, OLD_LARGE_INTEGER structure [Security], POLD_LARGE_INTEGER, POLD_LARGE_INTEGER structure pointer [Security], _OLD_LARGE_INTEGER, security.old_large_integer, subauth/OLD_LARGE_INTEGER, subauth/POLD_LARGE_INTEGER"
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: struct
+req.header: subauth.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: OLD_LARGE_INTEGER, *POLD_LARGE_INTEGER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Subauth.h
+api_name:
+-	OLD_LARGE_INTEGER
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# _OLD_LARGE_INTEGER structure
+
+
+## -description
+
+
+The <b>OLD_LARGE_INTEGER</b> structure is used to represent a 64-bit signed integer value as two 32-bit integers.
+
+
+## -struct-fields
+
+
+
+
+### -field LowPart
+
+Low-order 32 bits.
+
+
+### -field HighPart
+
+High-order 32 bits. The sign of this member determines the sign of the 64-bit integer.
+

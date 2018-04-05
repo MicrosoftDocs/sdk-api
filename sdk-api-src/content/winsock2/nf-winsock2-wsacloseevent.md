@@ -1,0 +1,207 @@
+---
+UID: NF:winsock2.WSACloseEvent
+title: WSACloseEvent function
+author: windows-driver-content
+description: The WSACloseEvent function closes an open event object handle.
+old-location: winsock\wsacloseevent_2.htm
+old-project: WinSock
+ms.assetid: 40cefe46-10a3-4b6a-8c89-3e16237fc685
+ms.author: windowsdriverdev
+ms.date: 3/30/2018
+ms.keywords: WSACloseEvent, WSACloseEvent function [Winsock], _win32_wsacloseevent_2, winsock.wsacloseevent_2, winsock2/WSACloseEvent
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: winsock2.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1, Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WSAECOMPARATOR, *PWSAECOMPARATOR, *LPWSAECOMPARATOR
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Ws2_32.dll
+api_name:
+-	WSACloseEvent
+product: Windows
+targetos: Windows
+req.lib: Ws2_32.lib
+req.dll: Ws2_32.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# WSACloseEvent function
+
+
+## -description
+
+
+
+			The 
+<b>WSACloseEvent</b> function closes an open event object handle.
+
+
+## -parameters
+
+
+
+
+### -param hEvent [in]
+
+Object handle identifying the open event.
+
+
+## -returns
+
+
+
+
+						If the function succeeds, the return value is <b>TRUE</b>.
+
+If the function fails, the return value is <b>FALSE</b>. To get extended error information, call 
+<a href="https://msdn.microsoft.com/39e41b66-44ed-46dc-bfc2-65228b669992">WSAGetLastError</a>.
+
+<table>
+<tr>
+<th>Error code</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSANOTINITIALISED</a></b></dt>
+</dl>
+</td>
+<td width="60%">
+A successful 
+<a href="https://msdn.microsoft.com/08299592-867c-491d-9769-d16602133659">WSAStartup</a> call must occur before using this function.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENETDOWN</a></b></dt>
+</dl>
+</td>
+<td width="60%">
+The network subsystem has failed.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINPROGRESS</a></b></dt>
+</dl>
+</td>
+<td width="60%">
+A blocking Windows Sockets 1.1 call is in progress, or the service provider is still processing a callback function.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSA_INVALID_HANDLE</a></b></dt>
+</dl>
+</td>
+<td width="60%">
+The <i>hEvent</i> is not a valid event object handle.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+The 
+<b>WSACloseEvent</b> function closes the handle to an event object and frees resources associated with the event object. This function is used to close a handle created by the <a href="https://msdn.microsoft.com/cff3bc31-f34c-4bb2-9004-5ec31d0a704a">WSACreateEvent</a>
+			function. Once the handle to the  event object is closed, further references to this handle will fail with the error 
+<a href="windows_sockets_error_codes_2.htm">WSA_INVALID_HANDLE</a>.
+
+<b>Windows Phone 8:</b> This function is supported for Windows Phone Store apps on Windows Phone 8 and later.
+
+<b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/cff3bc31-f34c-4bb2-9004-5ec31d0a704a">WSACreateEvent</a>
+
+
+
+<a href="https://msdn.microsoft.com/2e6abccd-c82c-4a6b-8720-259986ac9984">WSAEnumNetworkEvents</a>
+
+
+
+<a href="https://msdn.microsoft.com/f98a71e4-47fb-47a4-b37e-e4cc801a8f98">WSAEventSelect</a>
+
+
+
+<a href="https://msdn.microsoft.com/3c43ccfd-0fe7-4ecc-9517-e0a1c448f7e4">WSAGetOverlappedResult</a>
+
+
+
+<a href="https://msdn.microsoft.com/bfe66e11-e9a7-4321-ad55-3141113e9a03">WSARecv</a>
+
+
+
+<a href="https://msdn.microsoft.com/8617dbb8-0e4e-4cd3-9597-5d20de6778f6">WSARecvFrom</a>
+
+
+
+<a href="https://msdn.microsoft.com/99a8b0f3-977f-44cd-a224-0819d7513c90">WSAResetEvent</a>
+
+
+
+<a href="https://msdn.microsoft.com/764339e6-a1ac-455d-8ebd-ad0fa50dc3b0">WSASend</a>
+
+
+
+<a href="https://msdn.microsoft.com/e3a11522-871c-4d6b-a2e6-ca91ffc2b698">WSASendTo</a>
+
+
+
+<a href="https://msdn.microsoft.com/8a3f41fe-77da-4e4e-975d-00eec7c11446">WSASetEvent</a>
+
+
+
+<a href="https://msdn.microsoft.com/7a978ade-6323-455b-b655-f372f4bcadc8">WSAWaitForMultipleEvents</a>
+
+
+
+<a href="https://msdn.microsoft.com/edafb5f9-09fe-4f8e-9651-4002b6f622f4">Winsock Functions</a>
+
+
+
+<a href="https://msdn.microsoft.com/baae2bf9-f505-4365-b60e-e3247a0218c8">Winsock Reference</a>
+ 
+
+ 
+

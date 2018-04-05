@@ -1,0 +1,70 @@
+---
+UID: NF:comadmin.ICatalogCollection.get_DataStoreMajorVersion
+title: ICatalogCollection::get_DataStoreMajorVersion method
+author: windows-driver-content
+description: Retrieves the major version number of the catalog data store.
+old-location: cos\icatalogcollection_datastoremajorversion.htm
+old-project: cossdk
+ms.assetid: 846f4966-ff58-46b5-a56a-dc14f64fcae7
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: DataStoreMajorVersion property [COM+], DataStoreMajorVersion property [COM+], ICatalogCollection interface, ICatalogCollection, ICatalogCollection interface [COM+], DataStoreMajorVersion property, ICatalogCollection.DataStoreMajorVersion, ICatalogCollection::get_DataStoreMajorVersion, _cos_ICatalogCollection_get_DataStoreMajorVersion, comadmin/ICatalogCollection::DataStoreMajorVersion, comadmin/ICatalogCollection::get_DataStoreMajorVersion, cos.icatalogcollection_datastoremajorversion, get_DataStoreMajorVersion,ICatalogCollection.get_DataStoreMajorVersion
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: comadmin.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: ComAdmin.Idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: COMAdminTxIsolationLevelOptions
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	ComAdmin.h
+api_name:
+-	ICatalogCollection.DataStoreMajorVersion
+-	ICatalogCollection.get_DataStoreMajorVersion
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# ICatalogCollection::get_DataStoreMajorVersion method
+
+
+## -description
+
+
+Retrieves the major version number of the catalog data store.
+
+This property is read-only.
+
+
+## -parameters
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/7c24ead4-d69f-467d-b3d8-a81adbc49a7b">ICatalogCollection</a>
+ 
+
+ 
+

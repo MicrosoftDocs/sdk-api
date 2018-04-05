@@ -1,0 +1,129 @@
+---
+UID: NF:comcat.ICatRegister.UnRegisterCategories
+title: ICatRegister::UnRegisterCategories method
+author: windows-driver-content
+description: Removes the registration of one or more component categories. Each component category consists of a CATID and a list of locale-dependent description strings.
+old-location: com\icatregister_unregistercategories.htm
+old-project: com
+ms.assetid: 29b7df20-bab0-419c-a13b-132ee5b0272d
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: ICatRegister, ICatRegister interface [COM], UnRegisterCategories method, ICatRegister::UnRegisterCategories, UnRegisterCategories method [COM], UnRegisterCategories method [COM], ICatRegister interface, UnRegisterCategories,ICatRegister.UnRegisterCategories, _com_icatregister_unregistercategories, com.icatregister_unregistercategories, comcat/ICatRegister::UnRegisterCategories
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: comcat.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: ComCat.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: ServerInformation, *PServerInformation
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	ComCat.h
+api_name:
+-	ICatRegister.UnRegisterCategories
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# ICatRegister::UnRegisterCategories method
+
+
+## -description
+
+
+Removes the registration of one or more component categories. Each component category consists of a CATID and a list of locale-dependent description strings.
+
+
+## -parameters
+
+
+
+
+### -param cCategories [in]
+
+The number of categories to be removed.
+
+
+### -param rgcatid [in]
+
+The CATIDs of the categories to be removed.
+
+
+## -returns
+
+
+
+This method can return the following values.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method completed successfully.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+One or more arguments are incorrect.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+This method will be successful even if one or more of the category IDs specified are not registered. This method can only be called by the owner of a category, usually as part of the installation or de-installation of the operating system or application.
+
+This method does not remove the component category tags from individual classes. To do this, use the <a href="https://msdn.microsoft.com/d957bc13-f5f7-4cb3-925e-4867ba9622cd">ICatRegister::UnRegisterClassReqCategories</a> method.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/3f4f9beb-51db-407f-91ea-6e32ff5796ce">ICatRegister</a>
+ 
+
+ 
+

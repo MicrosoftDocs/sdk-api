@@ -1,0 +1,116 @@
+---
+UID: NF:mfidl.IMFTrustedOutput.IsFinal
+title: IMFTrustedOutput::IsFinal method
+author: windows-driver-content
+description: Queries whether this output is a policy sink, meaning it handles the rights and restrictions required by the input trust authority (ITA).
+old-location: mf\imftrustedoutput_isfinal.htm
+old-project: medfound
+ms.assetid: 085cac9c-f8c1-45b9-a8fe-c2c5cc941439
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: 085cac9c-f8c1-45b9-a8fe-c2c5cc941439, IMFTrustedOutput, IMFTrustedOutput interface [Media Foundation], IsFinal method, IMFTrustedOutput::IsFinal, IsFinal method [Media Foundation], IsFinal method [Media Foundation], IMFTrustedOutput interface, IsFinal,IMFTrustedOutput.IsFinal, mf.imftrustedoutput_isfinal, mfidl/IMFTrustedOutput::IsFinal
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: mfidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MF_URL_TRUST_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfuuid.lib
+-	mfuuid.dll
+api_name:
+-	IMFTrustedOutput.IsFinal
+product: Windows
+targetos: Windows
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IMFTrustedOutput::IsFinal method
+
+
+## -description
+
+
+
+Queries whether this output is a policy sink, meaning it handles the rights and restrictions required by the input trust authority (ITA).
+
+
+
+
+## -parameters
+
+
+
+
+### -param pfIsFinal [out]
+
+Receives a Boolean value. If <b>TRUE</b>, this object is a policy sink. If <b>FALSE</b>, the policy must be enforced further downstream.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+A trusted output is generally considered to be a policy sink if it does not pass the media content that it receives anywhere else; or, if it does pass the media content elsewhere, either it protects the content using some proprietary method such as encryption, or it sufficiently devalues the content so as not to require protection.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/14342d8b-3c76-4c13-8cbe-a60bb66084c8">IMFTrustedOutput</a>
+ 
+
+ 
+

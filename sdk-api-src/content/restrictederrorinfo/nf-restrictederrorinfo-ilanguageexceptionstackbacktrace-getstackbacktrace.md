@@ -1,0 +1,104 @@
+---
+UID: NF:restrictederrorinfo.ILanguageExceptionStackBackTrace.GetStackBackTrace
+title: ILanguageExceptionStackBackTrace::GetStackBackTrace method
+author: windows-driver-content
+description: Retrieves the back stack trace.
+old-location: winrt\ilanguageexceptionstackbacktrace_getstackbacktrace.htm
+old-project: WinRT
+ms.assetid: 6EB89F76-C518-41A3-A1F8-EC480B0FC68B
+ms.author: windowsdriverdev
+ms.date: 3/23/2018
+ms.keywords: GetStackBackTrace method [Windows Runtime], GetStackBackTrace method [Windows Runtime], ILanguageExceptionStackBackTrace interface, GetStackBackTrace,ILanguageExceptionStackBackTrace.GetStackBackTrace, ILanguageExceptionStackBackTrace, ILanguageExceptionStackBackTrace interface [Windows Runtime], GetStackBackTrace method, ILanguageExceptionStackBackTrace::GetStackBackTrace, restrictederrorinfo/ILanguageExceptionStackBackTrace::GetStackBackTrace, winrt.ilanguageexceptionstackbacktrace_getstackbacktrace
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: restrictederrorinfo.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Restrictederrorinfo.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: RM_UNIQUE_PROCESS, *PRM_UNIQUE_PROCESS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	restrictederrorinfo.h
+api_name:
+-	ILanguageExceptionStackBackTrace.GetStackBackTrace
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# ILanguageExceptionStackBackTrace::GetStackBackTrace method
+
+
+## -description
+
+
+Retrieves the back stack trace.
+
+
+## -parameters
+
+
+
+
+### -param maxFramesToCapture [in]
+
+The maximum number of frames to capture.
+
+
+### -param stackBackTrace [in, out]
+
+An array containing the stack back trace; the maximum size is the <i>maxFramesToCapture</i>.
+
+
+### -param framesCaptured [out]
+
+On success, contains a pointer to the number of frames actually captured.
+
+
+## -returns
+
+
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+You should implement <b>GetStackBackTrace</b> in your language projections when the Global Error Handler surface is unable to capture a backtrace. <b>GetStackBackTrace</b> is called by the <a href="https://msdn.microsoft.com/573A9209-31EF-4FD4-A504-16795BA42337">RoOriginateLanguageException</a> export and by <a href="https://msdn.microsoft.com/60026962-4E6C-4906-97D9-46BD2BCA3AC6">CapturePropagationContext</a> when those functions detect, through querying for interface (QI), that the language exception provided to them implements it. 
+
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/A5AA17A2-414B-4641-A417-4F73384216F9">ILanguageExceptionStackBackTrace</a>
+ 
+
+ 
+

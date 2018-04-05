@@ -1,0 +1,109 @@
+---
+UID: NF:directmanipulation.IDirectManipulationManager.CreateContent
+title: IDirectManipulationManager::CreateContent method
+author: windows-driver-content
+description: The factory method that is used to create an instance of secondary content (such as a panning indicator) inside a viewport.
+old-location: directmanipulation\idirectmanipulationmanager_createcontent.htm
+old-project: directmanipulation
+ms.assetid: f8a2fbb2-f662-4eb7-88fb-64286205f19e
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: CreateContent method [Direct Manipulation], CreateContent method [Direct Manipulation], IDirectManipulationManager interface, CreateContent,IDirectManipulationManager.CreateContent, IDirectManipulationManager, IDirectManipulationManager interface [Direct Manipulation], CreateContent method, IDirectManipulationManager::CreateContent, directmanipulation.idirectmanipulationmanager_createcontent, directmanipulation/IDirectManipulationManager::CreateContent
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: directmanipulation.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: DirectManipulation.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: DIRECTMANIPULATION_VIEWPORT_OPTIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	DirectManipulation.h
+api_name:
+-	IDirectManipulationManager.CreateContent
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# IDirectManipulationManager::CreateContent method
+
+
+## -description
+
+
+The factory method that is used to create an instance of secondary content (such as a panning indicator) inside a viewport.
+
+
+## -parameters
+
+
+
+
+### -param frameInfo [in, optional]
+
+The frame info provider for the secondary content. This should match the frame info provider used to create the viewport.
+
+
+### -param clsid [in]
+
+Class identifier (CLSID) of the secondary content. This ID specifies the content type.
+
+
+### -param riid [in]
+
+IID of the interface.
+
+
+### -param object [out, retval]
+
+The secondary content object that implements the specified interface.
+
+
+## -returns
+
+
+
+If the method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+Primary content is automatically created at the same time as the viewport and has a one-to-one relationship to a viewport. Therefore, it is not possible to create, add, or remove primary content.
+
+Secondary content is created independently from the viewport. There is no limit to how much secondary content can be added or removed from a viewport. All secondary content transforms are derived from those supported by the primary content with specific rules applied based on the intended purpose of the element (identified by its Class identifier (CLSID)).
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/d730a446-984e-4be0-aa7f-6d3dc93b2e34">IDirectManipulationManager</a>
+ 
+
+ 
+

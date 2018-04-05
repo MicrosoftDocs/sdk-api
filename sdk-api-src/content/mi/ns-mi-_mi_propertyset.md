@@ -1,0 +1,78 @@
+---
+UID: NS:mi._MI_PropertySet
+title: "_MI_PropertySet"
+author: windows-driver-content
+description: Implements a set of property names.
+old-location: wmi_v2\mi_propertyset.htm
+old-project: wmi_v2
+ms.assetid: 7c9e41b0-818e-46aa-8900-5006904f78d5
+ms.author: windowsdriverdev
+ms.date: 3/23/2018
+ms.keywords: MI_PropertySet, MI_PropertySet structure [Windows Management Infrastructure (MI)], _MI_PropertySet, mi/MI_PropertySet, wmi._mi_propertyset, wmi_v2.mi_propertyset
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: struct
+req.header: mi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MI_PropertySet
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Mi.h
+api_name:
+-	MI_PropertySet
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# _MI_PropertySet structure
+
+
+## -description
+
+
+Implements a set of property names.
+
+
+## -struct-fields
+
+
+
+
+### -field ft
+
+Pointer to the <a href="https://msdn.microsoft.com/d71c0378-0b97-44ea-9f42-e533b93f195e">MI_PropertySetFT</a> function table.
+
+
+### -field reserved
+
+Reserved for internal use.
+
+
+## -remarks
+
+
+
+It supports the building and interrogation of property sets. In general, clients  build property sets and providers interrogate them.
+
+
+

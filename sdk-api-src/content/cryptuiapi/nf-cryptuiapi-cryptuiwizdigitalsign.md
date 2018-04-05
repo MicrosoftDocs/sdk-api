@@ -1,0 +1,134 @@
+---
+UID: NF:cryptuiapi.CryptUIWizDigitalSign
+title: CryptUIWizDigitalSign function
+author: windows-driver-content
+description: Digitally signs a document or BLOB.
+old-location: security\cryptuiwizdigitalsign.htm
+old-project: SecCrypto
+ms.assetid: 1d01523e-d47b-49be-82c8-5e98f97be800
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: CRYPTUI_WIZ_NO_UI, CryptUIWizDigitalSign, CryptUIWizDigitalSign function [Security], cryptuiapi/CryptUIWizDigitalSign, security.cryptuiwizdigitalsign
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: cryptuiapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: CTL_MODIFY_REQUEST, *PCTL_MODIFY_REQUEST
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Cryptui.dll
+api_name:
+-	CryptUIWizDigitalSign
+product: Windows
+targetos: Windows
+req.lib: Cryptui.lib
+req.dll: Cryptui.dll
+req.irql: 
+---
+
+# CryptUIWizDigitalSign function
+
+
+## -description
+
+
+<p class="CCE_Message">[The  <b>CryptUIWizDigitalSign</b> function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
+
+The <b>CryptUIWizDigitalSign</b> function digitally signs a document or <a href="https://msdn.microsoft.com/2e570727-7da0-4e17-bf5d-6fe0e6aef65b">BLOB</a>. The document or BLOB can be signed with or without user interaction.
+
+
+## -parameters
+
+
+
+
+### -param dwFlags [in]
+
+Contains flags that modify the behavior of the function. This can be zero or the following value.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="CRYPTUI_WIZ_NO_UI"></a><a id="cryptui_wiz_no_ui"></a><dl>
+<dt><b>CRYPTUI_WIZ_NO_UI</b></dt>
+<dt>0x0001</dt>
+</dl>
+</td>
+<td width="60%">
+This function will sign the document based on the information in the <a href="https://msdn.microsoft.com/22d0bc45-0f66-4f5f-87d3-0849c4327eed">CRYPTUI_WIZ_DIGITAL_SIGN_INFO</a> structure pointed to by the <i>pDigitalSignInfo</i> parameter without displaying any user interface. If this flag is not specified, this function will display a wizard to guide the user through the signing process.
+
+</td>
+</tr>
+</table>
+ 
+
+
+### -param hwndParent [in, optional]
+
+The handle of the window to use as the parent of the dialog box that  this function creates. This parameter is ignored if the <b>CRYPTUI_WIZ_NO_UI</b> flag is set in <i>dwFlags</i>.
+
+
+### -param pwszWizardTitle [in, optional]
+
+A pointer to a null-terminated Unicode string that contains the title to use in the dialog box that this function creates. This parameter is ignored if the <b>CRYPT_WIZ_NO_UI</b> flag is set in <i>dwFlags</i>. If this parameter is <b>NULL</b>, a default title is used.
+
+
+### -param pDigitalSignInfo [in]
+
+A pointer to a <a href="https://msdn.microsoft.com/22d0bc45-0f66-4f5f-87d3-0849c4327eed">CRYPTUI_WIZ_DIGITAL_SIGN_INFO</a> structure that contains information about the signing process.
+
+
+### -param ppSignContext [out, optional]
+
+A pointer to a <a href="https://msdn.microsoft.com/3e4eb745-0c28-4ce5-870b-d24565ef0cae">CRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT</a> structure pointer that receives the signed BLOB. When you have finished using this structure, you must free the memory by passing this pointer to the <a href="https://msdn.microsoft.com/039615ee-0485-4698-944f-23359253767a">CryptUIWizFreeDigitalSignContext</a> function. This parameter can be <b>NULL</b> if the signed BLOB is not needed.
+
+
+## -returns
+
+
+
+If the function succeeds, the function returns nonzero.
+
+If the function fails, it returns zero.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/3e4eb745-0c28-4ce5-870b-d24565ef0cae">CRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT</a>
+
+
+
+<a href="https://msdn.microsoft.com/22d0bc45-0f66-4f5f-87d3-0849c4327eed">CRYPTUI_WIZ_DIGITAL_SIGN_INFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/039615ee-0485-4698-944f-23359253767a">CryptUIWizFreeDigitalSignContext</a>
+ 
+
+ 
+

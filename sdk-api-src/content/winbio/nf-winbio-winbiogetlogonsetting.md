@@ -1,0 +1,140 @@
+---
+UID: NF:winbio.WinBioGetLogonSetting
+title: WinBioGetLogonSetting function
+author: windows-driver-content
+description: Retrieves a value that indicates whether users can log on by using biometric information.
+old-location: secbiomet\winbiogetlogonsetting.htm
+old-project: SecBioMet
+ms.assetid: 1053f68f-4785-48a2-98da-26cc8bd41a50
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: WINBIO_SETTING_SOURCE_DEFAULT, WINBIO_SETTING_SOURCE_INVALID, WINBIO_SETTING_SOURCE_LOCAL, WINBIO_SETTING_SOURCE_POLICY, WinBioGetLogonSetting, WinBioGetLogonSetting function [Windows Biometric Framework API], secbiomet.winbiogetlogonsetting, winbio/WinBioGetLogonSetting
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: winbio.h
+req.include-header: Winbio.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WINBIO_ASYNC_NOTIFICATION_METHOD, *PWINBIO_ASYNC_NOTIFICATION_METHOD
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Winbio.dll
+-	Ext-MS-Win-BioMetrics-WinBio-l1-2-0.dll
+-	winbioext.dll
+-	Ext-MS-Win-BioMetrics-WinBio-Core-L1-1-1.dll
+api_name:
+-	WinBioGetLogonSetting
+product: Windows
+targetos: Windows
+req.lib: Winbio.lib
+req.dll: Winbio.dll
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# WinBioGetLogonSetting function
+
+
+## -description
+
+
+Retrieves a value that indicates whether users can log on by using biometric information.
+
+
+## -parameters
+
+
+
+
+### -param Value [out]
+
+Pointer to a Boolean value that specifies whether biometric logons are enabled.
+
+
+### -param Source [out]
+
+Pointer to a <b>WINBIO_SETTING_SOURCE_TYPE</b> value that specifics the setting source. This can be one of the following values:
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="WINBIO_SETTING_SOURCE_INVALID"></a><a id="winbio_setting_source_invalid"></a><dl>
+<dt><b>WINBIO_SETTING_SOURCE_INVALID</b></dt>
+</dl>
+</td>
+<td width="60%">
+The setting is not valid.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="WINBIO_SETTING_SOURCE_DEFAULT"></a><a id="winbio_setting_source_default"></a><dl>
+<dt><b>WINBIO_SETTING_SOURCE_DEFAULT</b></dt>
+</dl>
+</td>
+<td width="60%">
+The setting originated from built-in policy.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="WINBIO_SETTING_SOURCE_LOCAL"></a><a id="winbio_setting_source_local"></a><dl>
+<dt><b>WINBIO_SETTING_SOURCE_LOCAL</b></dt>
+</dl>
+</td>
+<td width="60%">
+The setting originated in  the local computer registry.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="WINBIO_SETTING_SOURCE_POLICY"></a><a id="winbio_setting_source_policy"></a><dl>
+<dt><b>WINBIO_SETTING_SOURCE_POLICY</b></dt>
+</dl>
+</td>
+<td width="60%">
+The setting was created by Group Policy.
+
+</td>
+</tr>
+</table>
+ 
+
+
+## -returns
+
+
+
+If the function succeeds, it returns S_OK. If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/57c9378d-b170-4ba8-8eee-8078531540d5">Client Application Functions</a>
+ 
+
+ 
+

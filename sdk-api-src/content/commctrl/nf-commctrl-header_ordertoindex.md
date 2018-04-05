@@ -1,0 +1,86 @@
+---
+UID: NF:commctrl.Header_OrderToIndex
+title: Header_OrderToIndex macro
+author: windows-driver-content
+description: Retrieves an index value for an item based on its order in the header control. You can use this macro or send the HDM_ORDERTOINDEX message explicitly.
+old-location: controls\Header_OrderToIndex.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\header\macros\header_ordertoindex.htm
+ms.author: windowsdriverdev
+ms.date: 3/31/2018
+ms.keywords: Header_OrderToIndex, Header_OrderToIndex macro [Windows Controls], _win32_Header_OrderToIndex, _win32_Header_OrderToIndex_cpp, commctrl/Header_OrderToIndex, controls.Header_OrderToIndex, controls._win32_Header_OrderToIndex
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: macro
+req.header: commctrl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: CATEGORYINFO, *LPCATEGORYINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Commctrl.h
+api_name:
+-	Header_OrderToIndex
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# Header_OrderToIndex macro
+
+
+## -description
+
+
+Retrieves an index value for an item based on its order in the header control. You can use this macro or send the <a href="https://msdn.microsoft.com/3c3289cc-0f47-4d02-b027-8848b7ec05d5">HDM_ORDERTOINDEX</a> message explicitly. 
+
+
+## -parameters
+
+
+
+
+### -param hwnd
+
+TBD
+
+
+### -param i
+
+TBD
+
+
+
+
+
+
+#### - hwndHD
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+
+A handle to a header control. 
+
+
+#### - iOrder
+
+Type: <b>int</b>
+
+The order that the item appears within the header control, from left to right. The index value of the item in the far left column would be 0, the next item to the right would be 1, and so on. 
+

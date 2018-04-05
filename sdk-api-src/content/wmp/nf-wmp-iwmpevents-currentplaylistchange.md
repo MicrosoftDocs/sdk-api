@@ -1,0 +1,100 @@
+---
+UID: NF:wmp.IWMPEvents.CurrentPlaylistChange
+title: IWMPEvents::CurrentPlaylistChange method
+author: windows-driver-content
+description: The CurrentPlaylistChange event occurs when something changes within the current playlist.
+old-location: wmp\iwmpevents_iwmpevents__currentplaylistchange.htm
+old-project: WMP
+ms.assetid: b8020b8a-4f2e-4039-862e-9c0f371645fa
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: CurrentPlaylistChange method [Windows Media Player], CurrentPlaylistChange method [Windows Media Player], IWMPEvents interface, CurrentPlaylistChange,IWMPEvents.CurrentPlaylistChange, IWMPEvents, IWMPEvents interface [Windows Media Player], CurrentPlaylistChange method, IWMPEvents::CurrentPlaylistChange, IWMPEventsCurrentPlaylistChange, wmp.iwmpevents_iwmpevents__currentplaylistchange, wmp/IWMPEvents::CurrentPlaylistChange
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wmp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Media Player 9 Series or later.
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WMPSyncState
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	wmp.dll
+api_name:
+-	IWMPEvents.CurrentPlaylistChange
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IWMPEvents::CurrentPlaylistChange method
+
+
+## -description
+
+
+
+The <b>CurrentPlaylistChange</b> event occurs when something changes within the current playlist.
+
+
+
+
+## -parameters
+
+
+
+
+### -param change [in]
+
+Specifies what type of change occurred to the playlist. See the <b>PlaylistChange</b> event for a table of possible values.
+
+
+## -returns
+
+
+
+This method does not return a value.
+
+
+
+
+## -remarks
+
+
+
+This event does not occur when a different playlist becomes the current playlist. It only occurs when a change happens within the current playlist, such as a media item being appended to the playlist.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/396545d5-8844-4dd2-9ed5-e4ed77f352ac">IWMPEvents Interface</a>
+
+
+
+<a href="https://msdn.microsoft.com/a2847bda-3003-4c80-abc1-5c873d0810b7">PlaylistChange</a>
+ 
+
+ 
+

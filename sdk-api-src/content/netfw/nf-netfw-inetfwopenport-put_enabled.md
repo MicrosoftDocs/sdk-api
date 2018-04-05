@@ -1,0 +1,90 @@
+---
+UID: NF:netfw.INetFwOpenPort.put_Enabled
+title: INetFwOpenPort::put_Enabled method
+author: windows-driver-content
+description: Indicates whether the settings for this port are currently enabled.
+old-location: ics\inetfwopenport_enabled.htm
+old-project: ICS
+ms.assetid: f4fc7a4f-abc5-486a-89c8-dfea17770f3c
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: Enabled property [ICS/ICF], Enabled property [ICS/ICF], INetFwOpenPort interface, INetFwOpenPort, INetFwOpenPort interface [ICS/ICF], Enabled property, INetFwOpenPort.Enabled, INetFwOpenPort::get_Enabled, INetFwOpenPort::put_Enabled, ics.inetfwopenport_enabled, netfw/INetFwOpenPort::Enabled, netfw/INetFwOpenPort::get_Enabled, netfw/INetFwOpenPort::put_Enabled, put_Enabled,INetFwOpenPort.put_Enabled
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: netfw.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: NETISO_ERROR_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	FirewallAPI.dll
+-	Hnetcfg.dll
+api_name:
+-	INetFwOpenPort.Enabled
+-	INetFwOpenPort.get_Enabled
+-	INetFwOpenPort.put_Enabled
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# INetFwOpenPort::put_Enabled method
+
+
+## -description
+
+
+<p class="CCE_Message">[The Windows Firewall API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. For Windows Vista and later, use of the <a href="https://msdn.microsoft.com/8F33B96B-AA9A-46d5-8808-0F2D0723935B">Windows Firewall with Advanced Security</a> API is recommended.]
+
+Indicates whether the settings for this port are currently enabled.
+
+This property is read/write.
+
+
+## -parameters
+
+
+## -remarks
+
+
+
+This property can be set to false (<b>VARIANT_FALSE</b>) to allow port settings to be stored in the <a href="https://msdn.microsoft.com/a3a6e5c1-5818-419c-8df4-966b2fbcd8c0">INetFWOpenPorts</a> collection without actually opening the port. 
+
+The default value is true (<b>VARIANT_TRUE</b>) for new ports.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/a3a6e5c1-5818-419c-8df4-966b2fbcd8c0">INetFWOpenPorts</a>
+
+
+
+<a href="https://msdn.microsoft.com/1a9fd676-b1c0-4be5-9571-d14ac5980af5">INetFwOpenPort</a>
+ 
+
+ 
+

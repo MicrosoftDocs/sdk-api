@@ -1,0 +1,184 @@
+---
+UID: NS:mi._MI_ClassDecl
+title: "_MI_ClassDecl"
+author: windows-driver-content
+description: This structure outlines the class declaration. It contains class name and hierarchy, properties, qualifiers, and methods.
+old-location: wmi_v2\mi_classdecl.htm
+old-project: wmi_v2
+ms.assetid: 8e2e2838-5d08-4e51-be96-0928042ccb9f
+ms.author: windowsdriverdev
+ms.date: 3/23/2018
+ms.keywords: MI_ClassDecl, MI_ClassDecl structure [Windows Management Infrastructure (MI)], MI_FLAG_ABSTRACT, MI_FLAG_ASSOCIATION, MI_FLAG_CLASS, MI_FLAG_INDICATION, MI_FLAG_TERMINAL, _MI_ClassDecl, mi/MI_ClassDecl, wmi_v2.mi_classdecl
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: struct
+req.header: mi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MI_ClassDecl
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Mi.h
+api_name:
+-	MI_ClassDecl
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# _MI_ClassDecl structure
+
+
+## -description
+
+
+This structure outlines the class declaration.  It contains class name and hierarchy, properties, qualifiers, and methods.
+
+
+## -struct-fields
+
+
+
+
+### -field _MI_Qualifier
+
+ 
+
+
+### -field qualifiers
+
+Describes extra metadata for classes, properties, methods, and parameters.
+
+
+### -field _MI_PropertyDecl
+
+ 
+
+
+### -field properties
+
+The properties of this object.
+
+
+### -field _MI_MethodDecl
+
+ 
+
+
+### -field methods
+
+The methods of this class.
+
+
+### -field _MI_SchemaDecl
+
+ 
+
+
+### -field schema
+
+Pointer to schema this class belongs to.
+
+
+### -field flags
+
+Flags can consist of values from following list.
+
+
+
+#### MI_FLAG_CLASS ((1 << 0))
+
+Indicates the structure describes a class.
+
+
+
+#### MI_FLAG_ASSOCIATION ((1 << 4))
+
+Indicates the class is also an association class.
+
+
+
+#### MI_FLAG_INDICATION ((1 << 5))
+
+Indicates the class is also an indication class.
+
+
+
+#### MI_FLAG_ABSTRACT ((1 << 17))
+
+Indicates the class is abstract.
+
+
+
+#### MI_FLAG_TERMINAL ((1 << 18))
+
+Indicates class cannot be derived from.
+
+
+### -field code
+
+Hash code: (name[0] &lt;&lt; 16) | (name[len-1] &lt;&lt; 8) | len
+
+
+### -field name
+
+Name of this feature.
+
+
+### -field numQualifiers
+
+Length of <b>qualifiers</b> array.
+
+
+### -field numProperties
+
+The number of properties of this object.
+
+
+### -field size
+
+Size of structure described by <b>MI_ClassDecl</b>.
+
+
+### -field superClass
+
+Parent class name.
+
+
+### -field superClassDecl
+
+The classDecl for the parent class <b>superClass</b>.
+
+
+### -field numMethods
+
+Number of  methods in this class.
+
+
+### -field providerFT
+
+Provider functions.
+
+
+### -field owningClass
+
+Owning <a href="https://msdn.microsoft.com/7f02e0fa-9e58-455d-9cf4-1d1244c44422">MI_Class</a> object, if any.
+

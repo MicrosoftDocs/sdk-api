@@ -1,0 +1,85 @@
+---
+UID: NF:winuser.SetDisplayAutoRotationPreferences
+title: SetDisplayAutoRotationPreferences function
+author: windows-driver-content
+description: Sets the screen auto-rotation preferences for the current process.
+old-location: base\setdisplayautorotationpreferences.htm
+old-project: ProcThread
+ms.assetid: 99A92E92-7FED-468C-9A00-D8D4B212CBFF
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: SetDisplayAutoRotationPreferences, SetDisplayAutoRotationPreferences function, base.setdisplayautorotationpreferences, winuser/SetDisplayAutoRotationPreferences
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: winuser.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: AR_STATE, *PAR_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	kernel.dll
+-	Ext-MS-Win-NTUser-rotationmanager-l1-1-1.dll
+-	user32.dll
+-	ext-ms-win-ntuser-rotationmanager-l1-1-0.dll
+api_name:
+-	SetDisplayAutoRotationPreferences
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Kernel.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# SetDisplayAutoRotationPreferences function
+
+
+## -description
+
+
+Sets the screen auto-rotation preferences for the current process.
+
+
+## -parameters
+
+
+
+
+### -param orientation
+
+TBD
+
+
+
+
+#### - pOrientation [in]
+
+Pointer to a location in memory with the screen orientation preferences to set for the calling process.
+
+
+## -returns
+
+
+
+TRUE if the method succeeds, otherwise FALSE.
+
+See <a href="https://msdn.microsoft.com/48D609CC-3E2B-4E0E-9566-FE02853DD831">GetDisplayAutoRotationPreferences</a> for an example of using this function.
+
+
+

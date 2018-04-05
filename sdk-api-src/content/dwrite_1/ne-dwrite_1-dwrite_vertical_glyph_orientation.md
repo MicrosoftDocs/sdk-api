@@ -1,0 +1,91 @@
+---
+UID: NE:dwrite_1.DWRITE_VERTICAL_GLYPH_ORIENTATION
+title: DWRITE_VERTICAL_GLYPH_ORIENTATION
+author: windows-driver-content
+description: The DWRITE_VERTICAL_GLYPH_ORIENTATION enumeration contains values that specify the desired kind of glyph orientation for the text.
+old-location: directwrite\dwrite_vertical_glyph_orientation.htm
+old-project: DirectWrite
+ms.assetid: F13CD254-0D6A-4549-A2C2-3D3126E7B2EB
+ms.author: windowsdriverdev
+ms.date: 3/23/2018
+ms.keywords: DWRITE_VERTICAL_GLYPH_ORIENTATION, DWRITE_VERTICAL_GLYPH_ORIENTATION enumeration [Direct Write], DWRITE_VERTICAL_GLYPH_ORIENTATION_DEFAULT, DWRITE_VERTICAL_GLYPH_ORIENTATION_STACKED, directwrite.dwrite_vertical_glyph_orientation, dwrite_1/DWRITE_VERTICAL_GLYPH_ORIENTATION, dwrite_1/DWRITE_VERTICAL_GLYPH_ORIENTATION_DEFAULT, dwrite_1/DWRITE_VERTICAL_GLYPH_ORIENTATION_STACKED
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: enum
+req.header: dwrite_1.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Dwrite_1.h
+api_name:
+-	DWRITE_VERTICAL_GLYPH_ORIENTATION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
+---
+
+# DWRITE_VERTICAL_GLYPH_ORIENTATION enumeration
+
+
+## -description
+
+
+The <b>DWRITE_VERTICAL_GLYPH_ORIENTATION</b> enumeration contains values that specify the desired kind of glyph orientation for the text.
+
+
+## -enum-fields
+
+
+
+
+### -field DWRITE_VERTICAL_GLYPH_ORIENTATION_DEFAULT
+
+The default glyph orientation. In vertical layout, naturally horizontal scripts (Latin, Thai, Arabic, Devanagari) rotate 90 degrees clockwise, while ideographic scripts (Chinese, Japanese, Korean) remain upright, 0 degrees.
+
+
+### -field DWRITE_VERTICAL_GLYPH_ORIENTATION_STACKED
+
+Stacked glyph orientation. Ideographic scripts and scripts that permit stacking (Latin, Hebrew) are stacked in vertical reading layout. Connected scripts (Arabic, Syriac, 'Phags-pa, Ogham), which would otherwise look broken if glyphs were kept at 0 degrees, remain connected and rotate.
+
+
+## -remarks
+
+
+
+The client specifies a <b>DWRITE_VERTICAL_GLYPH_ORIENTATION</b>-typed value to the analyzer as the desired orientation.
+
+<div class="alert"><b>Note</b>  This is the client preference, and the constraints of the script determine the final presentation.</div>
+<div> </div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/2F229E8A-171D-4DED-9E9E-F2925855E8C0">IDWriteTextAnalysisSource1::GetVerticalGlyphOrientation</a>
+ 
+
+ 
+

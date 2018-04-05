@@ -1,0 +1,155 @@
+---
+UID: NF:psapi.GetWsChangesEx
+title: GetWsChangesEx function
+author: windows-driver-content
+description: Retrieves extended information about the pages that have been added to the working set of the specified process since the last time this function or the InitializeProcessForWsWatch function was called.
+old-location: psapi\getwschangesex.htm
+old-project: psapi
+ms.assetid: 8572db5c-2ffc-424f-8cec-b6a6902fed62
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: GetWsChangesEx, GetWsChangesEx function [PSAPI], K32GetWsChangesEx, base.getwschangesex, psapi.getwschangesex, psapi/GetWsChangesEx, psapi/K32GetWsChangesEx
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: psapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: PSHNOTIFY, *LPPSHNOTIFY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Kernel32.dll
+-	Psapi.dll
+-	Psapi.dll
+-	API-MS-Win-Core-PsAPI-L1-1-0.dll
+-	KernelBase.dll
+api_name:
+-	GetWsChangesEx
+-	K32GetWsChangesEx
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib on Windows 7 and Windows Server 2008 R2; Psapi.lib (if PSAPI_VERSION=1) on Windows 7 and Windows Server 2008 R2; Psapi.lib on Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP
+req.dll: Kernel32.dll on Windows 7 and Windows Server 2008 R2; Psapi.dll (if PSAPI_VERSION=1) on Windows 7 and Windows Server 2008 R2; Psapi.dll on Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# GetWsChangesEx function
+
+
+## -description
+
+
+Retrieves extended information about the pages that have been added to the working set of the specified process since the 
+last time this function or the <a href="https://msdn.microsoft.com/c928656c-a59d-41b5-9434-911329b0278e">InitializeProcessForWsWatch</a> function was called.
+
+
+## -parameters
+
+
+
+
+### -param hProcess [in]
+
+A handle to the process. The handle must have the <b>PROCESS_QUERY_INFORMATION</b> access right. For more information, see <a href="https://msdn.microsoft.com/508a17c4-88cd-431a-a102-00180a7f7ab5">Process Security and Access Rights</a>.
+
+
+### -param lpWatchInfoEx [out]
+
+A pointer to a user-allocated buffer that receives an array of  
+<a href="https://msdn.microsoft.com/fb0429b1-ec93-401c-aeb1-f7e9d9acfa47">PSAPI_WS_WATCH_INFORMATION_EX</a> structures. The array is terminated with a structure whose <b>FaultingPc</b> member is NULL.
+
+
+### -param cb [in, out]
+
+The size of the 
+<i>lpWatchInfoEx</i> buffer, in bytes.
+
+
+## -returns
+
+
+
+
+						If the function succeeds, the return value is nonzero.
+						
+
+If the function fails, the return value is zero. To get extended error information, call 
+the <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function.
+
+The <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function returns <b>ERROR_INSUFFICIENT_BUFFER</b> if the <i>lpWatchInfoEx</i> buffer is not large enough to contain all the working set change records; the buffer is returned empty. Reallocate a larger block of memory for the buffer and call again.
+
+
+
+
+## -remarks
+
+
+
+The operating system uses one buffer per process to maintain working set change records. If more than one application (or multiple threads in the same application) calls this function with the same process handle, neither application will have a complete accounting of the working set changes because each call empties the buffer.
+
+The operating system does not record new change records while it is processing the query (and emptying the buffer). This function sets the error code to <b>NO_MORE_ENTRIES</b> if a concurrent query is received while it is processing another query.
+
+If the buffer becomes full, no new records are added to the buffer until this function or the <a href="https://msdn.microsoft.com/c928656c-a59d-41b5-9434-911329b0278e">InitializeProcessForWsWatch</a> function is called. You should call <b>GetWsChangesEx</b> with enough frequency to prevent possible data loss. If records are lost, the array is terminated with a structure whose <b>FaultingPc</b> member is NULL and whose <b>FaultingVa</b> member is set to the number of records that were lost.
+
+Starting with Windows 7 and Windows Server 2008 R2, Psapi.h establishes 
+    version numbers for the PSAPI functions. The PSAPI version number affects the name used to call the function and 
+    the library that a program must load.
+
+If <b>PSAPI_VERSION</b> is 2 or greater, this function is defined as 
+    <b>K32GetWsChangesEx</b> in Psapi.h and exported in 
+    Kernel32.lib and Kernel32.dll. If <b>PSAPI_VERSION</b> is 1, this 
+    function is defined as <b>GetWsChangesEx</b> in 
+    Psapi.h and exported in Psapi.lib and Psapi.dll as a wrapper that calls 
+    <b>K32GetWsChangesEx</b>. 
+
+Programs that must run on earlier versions of Windows as 
+    well as Windows 7 and later versions should always call this function as 
+    <b>GetWsChangesEx</b>. To ensure correct resolution of symbols, 
+    add Psapi.lib to the <b>TARGETLIBS</b> macro and compile the program with 
+    <b>-DPSAPI_VERSION=1</b>. To use run-time dynamic linking, load Psapi.dll.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/0c0445cb-27d2-4857-a4a5-7a4c180b068b">EnumProcesses</a>
+
+
+
+<a href="https://msdn.microsoft.com/c928656c-a59d-41b5-9434-911329b0278e">InitializeProcessForWsWatch</a>
+
+
+
+<a href="https://msdn.microsoft.com/e158792b-fec2-498d-aae3-d5679fa55783">PSAPI Functions</a>
+
+
+
+<a href="https://msdn.microsoft.com/fb0429b1-ec93-401c-aeb1-f7e9d9acfa47">PSAPI_WS_WATCH_INFORMATION_EX</a>
+
+
+
+<a href="https://msdn.microsoft.com/33c42f79-cc77-4d44-84c3-8bf0a4a60019">Working Set Information</a>
+ 
+
+ 
+

@@ -1,0 +1,92 @@
+---
+UID: NF:rpcndr.NdrAsyncClientCall
+title: NdrAsyncClientCall function
+author: windows-driver-content
+description: The NdrAsyncClientCall function is the asynchronous client-side entry point for the /Oi and /Oic mode stub.
+old-location: rpc\ndrasyncclientcall.htm
+old-project: Rpc
+ms.assetid: 591f56de-6ceb-46d7-9720-cd2213605ef2
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: NdrAsyncClientCall, NdrAsyncClientCall function [RPC], rpc.ndrasyncclientcall, rpcndr/NdrAsyncClientCall
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: rpcndr.h
+req.include-header: Rpc.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: RPC_MESSAGE, *PRPC_MESSAGE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	RpcRT4.dll
+api_name:
+-	NdrAsyncClientCall
+product: Windows
+targetos: Windows
+req.lib: RpcRT4.lib
+req.dll: RpcRT4.dll
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# NdrAsyncClientCall function
+
+
+## -description
+
+
+The <b>NdrAsyncClientCall</b> function is the asynchronous client-side entry point for the <a href="midl._oi">/Oi</a> and <b>/Oic</b> mode stub.
+
+
+## -parameters
+
+
+
+
+### -param pStubDescriptor [in]
+
+Pointer to the MIDL-generated <a href="https://msdn.microsoft.com/e3178aaa-a30a-43ba-a78a-a28d6f20fa74">MIDL_STUB_DESC</a> structure that contains information about the description of the remote interface.
+
+
+### -param pFormat [in]
+
+Pointer to the MIDL-generated procedure format string that describes the method and parameters.
+
+
+### -param param
+
+TBD
+
+
+
+
+####### - ... [in, out]
+
+Pointer to the client-side calling stack.
+
+
+## -returns
+
+
+
+Return value of the remote call. The maximum size of a return value is equivalent to the register size of the system. MIDL switches to the <a href="https://msdn.microsoft.com/dc5cafbb-dcc6-4fcb-a04f-1bc9720a13cb">/Os</a> mode stub if the return value size is larger than the register size.
+
+Depending on the method definition, this function can throw an exception if there is a network or server failure.
+
+
+

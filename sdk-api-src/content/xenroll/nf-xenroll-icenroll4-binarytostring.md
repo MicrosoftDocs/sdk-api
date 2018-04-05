@@ -1,0 +1,98 @@
+---
+UID: NF:xenroll.ICEnroll4.binaryToString
+title: ICEnroll4::binaryToString method
+author: windows-driver-content
+description: Converts a binary data BLOB to a string. This method was first defined in the ICEnroll4 interface.
+old-location: security\icenroll4_binarytostring.htm
+old-project: SecCrypto
+ms.assetid: 43358d84-ccdd-49a8-be1d-bb5e8ddd1397
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: CEnroll object [Security], binaryToString method, ICEnroll4, ICEnroll4 interface [Security], binaryToString method, ICEnroll4::binaryToString, _xen_icenroll4_binarytostring, binaryToString method [Security], binaryToString method [Security], CEnroll object, binaryToString method [Security], ICEnroll4 interface, binaryToString,ICEnroll4.binaryToString, security.icenroll4_binarytostring, xenroll/ICEnroll4::binaryToString
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: xenroll.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: XBL_IDP_AUTH_TOKEN_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Xenroll.dll
+api_name:
+-	ICEnroll4.binaryToString
+-	CEnroll.binaryToString
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Xenroll.dll
+req.irql: 
+req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+---
+
+# ICEnroll4::binaryToString method
+
+
+## -description
+
+
+<p class="CCE_Message">[This method is no longer available for use as of Windows Server 2008 and Windows Vista.]
+
+The <b>binaryToString</b> method converts a binary data <a href="https://msdn.microsoft.com/2e570727-7da0-4e17-bf5d-6fe0e6aef65b">BLOB</a> to a string. 
+			This method was first defined in the <a href="https://msdn.microsoft.com/4e3e3792-aa41-46fe-bf75-26c2b8959f7a">ICEnroll4</a> interface.
+
+This method uses the 
+<a href="https://msdn.microsoft.com/e6bdf931-fba3-4a33-b22e-5f818f565842">CryptBinaryToString</a> function to do the conversion.
+
+
+## -parameters
+
+
+
+
+### -param Flags [in]
+
+The value passed to the <i>dwFlags</i> parameter of the <a href="https://msdn.microsoft.com/e6bdf931-fba3-4a33-b22e-5f818f565842">CryptBinaryToString</a> function. For a description of possible values, see 
+<b>CryptBinaryToString</b>.
+
+
+### -param strBinary [in]
+
+A binary data BLOB to be converted to a string.
+
+
+### -param pstrEncoded [out]
+
+A pointer to a <b>BSTR</b> that receives the encoded data. When you have finished using the <b>BSTR</b>, free it by calling the <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> function.
+
+
+## -returns
+
+
+
+<h3>C++</h3>
+If the method succeeds, the method returns <b>S_OK</b>.
+
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see 
+<a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+
+<h3>VB</h3>
+ The return value is a string that represents the binary data.
+
+
+

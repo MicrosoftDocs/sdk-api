@@ -1,0 +1,114 @@
+---
+UID: NF:ehstorapi.IEnhancedStorageSilo.GetPortableDevice
+title: IEnhancedStorageSilo::GetPortableDevice method
+author: windows-driver-content
+description: Obtains an IPortableDevice pointer used to issue commands to the corresponding Enhanced Storage silo driver.
+old-location: enstor\ienhancedstoragesilo_getportabledevice.htm
+old-project: enstor
+ms.assetid: a95323d1-4329-4a1e-9c8a-adfdd199e9a5
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: GetPortableDevice method [Enhanced Storage], GetPortableDevice method [Enhanced Storage], IEnhancedStorageSilo interface, GetPortableDevice,IEnhancedStorageSilo.GetPortableDevice, IEnhancedStorageSilo, IEnhancedStorageSilo interface [Enhanced Storage], GetPortableDevice method, IEnhancedStorageSilo::GetPortableDevice, ehstorapi/IEnhancedStorageSilo::GetPortableDevice, enstor.ienhancedstoragesilo_getportabledevice
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: ehstorapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: EhStorAPI.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: TimedLevel
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	EhStorAPI.h
+api_name:
+-	IEnhancedStorageSilo.GetPortableDevice
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
+---
+
+# IEnhancedStorageSilo::GetPortableDevice method
+
+
+## -description
+
+
+Obtains an <a href="http://go.microsoft.com/fwlink/p/?linkid=134792">IPortableDevice</a> pointer used to issue  commands to the corresponding Enhanced Storage silo driver.
+
+
+## -parameters
+
+
+
+
+### -param ppIPortableDevice [out]
+
+Pointer to a pointer to an <a href="http://go.microsoft.com/fwlink/p/?linkid=134792">IPortableDevice</a>  object.
+
+
+## -returns
+
+
+
+This method can return one of these values.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+Pointer to <a href="http://go.microsoft.com/fwlink/p/?linkid=134792">IPortableDevice</a> was obtained successfully.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+<i>ppIPortableDevice</i> is <b>NULL</b>.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/041e66d2-f772-407d-85f7-71f226c7ec4b">IEnhancedStorageSilo</a>
+ 
+
+ 
+

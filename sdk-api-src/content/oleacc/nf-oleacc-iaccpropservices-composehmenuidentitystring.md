@@ -1,0 +1,103 @@
+---
+UID: NF:oleacc.IAccPropServices.ComposeHmenuIdentityString
+title: IAccPropServices::ComposeHmenuIdentityString method
+author: windows-driver-content
+description: Callers use ComposeHmenuIdentityString to retrieve an identity string for an HMENU-based accessible element.
+old-location: winauto\iaccpropservices_iaccpropservices__composehmenuidentitystring.htm
+old-project: WinAuto
+ms.assetid: b0eb54e0-d903-46d8-a9f5-47f2c055c059
+ms.author: windowsdriverdev
+ms.date: 3/29/2018
+ms.keywords: ComposeHmenuIdentityString method [Windows Accessibility], ComposeHmenuIdentityString method [Windows Accessibility], IAccPropServices interface, ComposeHmenuIdentityString,IAccPropServices.ComposeHmenuIdentityString, IAccPropServices, IAccPropServices interface [Windows Accessibility], ComposeHmenuIdentityString method, IAccPropServices::ComposeHmenuIdentityString, oleacc/IAccPropServices::ComposeHmenuIdentityString, winauto.iaccpropservices_iaccpropservices__composehmenuidentitystring
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: oleacc.h
+req.include-header: OleAcc.h Include Initguid.h first.
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: QACONTROL
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Oleacc.dll
+api_name:
+-	IAccPropServices.ComposeHmenuIdentityString
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Oleacc.dll
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# IAccPropServices::ComposeHmenuIdentityString method
+
+
+## -description
+
+
+Callers use <b>ComposeHmenuIdentityString</b> 
+		to retrieve an identity string for an <b>HMENU</b>-based accessible element.
+
+
+## -parameters
+
+
+
+
+### -param hmenu [in]
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HMENU</a></b>
+
+Identifies the <b>HMENU</b>-based accessible element.
+
+
+### -param idChild [in]
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+
+Specifies the child ID of the accessible element.
+
+
+### -param ppIDString [out]
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BYTE</a>**</b>
+
+Pointer to a buffer that receives the identity string. The callee allocates this buffer using <a href="https://msdn.microsoft.com/c4cb588d-9482-4f90-a92e-75b604540d5c">CoTaskMemAlloc</a>. When finished, the caller must free the buffer by calling <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a>.
+
+
+### -param pdwIDStringLen [out]
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a>*</b>
+
+Pointer to a buffer that receives the length of the identity string.
+
+
+## -returns
+
+
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+
+If successful, returns S_OK.
+
+Returns E_INVALIDARG if <i>hmenu</i> or <i>idChild</i> is not valid.
+
+May return other error codes under exceptional error conditions such as low memory.
+
+
+

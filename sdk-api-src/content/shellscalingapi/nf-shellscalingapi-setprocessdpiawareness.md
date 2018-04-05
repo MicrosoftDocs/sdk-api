@@ -1,0 +1,156 @@
+---
+UID: NF:shellscalingapi.SetProcessDpiAwareness
+title: SetProcessDpiAwareness function
+author: windows-driver-content
+description: Sets the process-default DPI awareness level. This is equivalent to calling SetProcessDpiAwarenessContext with the corresponding DPI_AWARENESS_CONTEXT value.
+old-location: hidpi\setprocessdpiawareness.htm
+old-project: hidpi
+ms.assetid: BFD64207-D35D-4258-982C-20D6FE2B46F9
+ms.author: windowsdriverdev
+ms.date: 3/29/2018
+ms.keywords: SetProcessDpiAwareness, SetProcessDpiAwareness function [High DPI], hidpi.setprocessdpiawareness, shellscalingapi/SetProcessDpiAwareness, winmsg.SetProcessDpiAwareness
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: shellscalingapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: SHELL_UI_COMPONENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	shcore.dll
+-	api-ms-win-shcore-scaling-l1-1-1.dll
+-	API-MS-Win-ShCore-Scaling-L1-1-2.dll
+api_name:
+-	SetProcessDpiAwareness
+product: Windows
+targetos: Windows
+req.lib: Shcore.lib
+req.dll: Shcore.dll
+req.irql: 
+req.product: Internet Explorer 5.0
+---
+
+# SetProcessDpiAwareness function
+
+
+## -description
+
+
+It is recommended that you set the process-default DPI awareness via application manifest. See <a href="hidpi.setting_the_default_dpi_awareness_for_a_process">Setting the default DPI awareness for a process</a> for more information. Setting the process-default DPI awareness via API call can lead to unexpected application behavior.
+
+Sets the process-default DPI awareness level. This is equivalent to calling <a href="https://msdn.microsoft.com/EACD1784-BEFF-46C1-8665-CBC86A65833C">SetProcessDpiAwarenessContext</a> with the corresponding <a href="https://msdn.microsoft.com/BFD54A9F-642B-4A3A-BBB9-F3A80779251D">DPI_AWARENESS_CONTEXT</a> value.
+
+
+## -parameters
+
+
+
+
+### -param value [in]
+
+The DPI awareness value to set. Possible values are from the <a href="https://msdn.microsoft.com/50130739-E8A8-4B92-9B80-3BBBE57EBE0C">PROCESS_DPI_AWARENESS</a>enumeration.
+
+
+## -returns
+
+
+
+This function returns one of the following values.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The DPI awareness for the app was set successfully.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+The value passed in is not valid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_ACCESSDENIED</b></dt>
+</dl>
+</td>
+<td width="60%">
+The DPI awareness is already set, either by calling this API previously or through the application (.exe) manifest.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+It is recommended that you set the process-default DPI awareness via application manifest. See <a href="hidpi.setting_the_default_dpi_awareness_for_a_process">Setting the default DPI awareness for a process</a> for more information. Setting the process-default DPI awareness via API call can lead to unexpected application behavior.
+
+Previous versions of Windows only had one DPI awareness value for the entire application. For those applications, the recommendation was to set the DPI awareness value in the manifest as described in <a href="https://msdn.microsoft.com/50130739-E8A8-4B92-9B80-3BBBE57EBE0C">PROCESS_DPI_AWARENESS</a>. Under that recommendation, you were not supposed to use <b>SetProcessDpiAwareness</b> to update the DPI awareness. In fact, future calls  to this API would fail after the DPI awareness was set once. Now that DPI awareness is tied to a thread rather than an application, you can use this method to update the DPI awareness. However, consider using <a href="https://msdn.microsoft.com/95531BDC-3D45-4BB6-8C63-0D845C66B88F">SetThreadDpiAwarenessContext</a> instead.
+
+<div class="alert"><b>Important</b>  <p class="note">For older applications, it is strongly recommended to not use <b>SetProcessDpiAwareness</b> to set the DPI awareness for your application. Instead, you should declare the DPI awareness for your application in the application manifest. See <a href="https://msdn.microsoft.com/50130739-E8A8-4B92-9B80-3BBBE57EBE0C">PROCESS_DPI_AWARENESS</a> for more information about the DPI awareness values and how to set them in the manifest.
+
+</div>
+<div> </div>
+You must call this API before you call any APIs that depend on the dpi awareness. This is part of the reason why it is recommended to use the application manifest rather than the <b>SetProcessDpiAwareness</b> API. Once API awareness is set for an app, any future calls to this API will fail. This is true regardless of whether you set the DPI awareness in the manifest or by using this API.
+
+If the DPI awareness level is not set, the default value is <b>PROCESS_DPI_UNAWARE</b>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/50130739-E8A8-4B92-9B80-3BBBE57EBE0C">PROCESS_DPI_AWARENESS</a>
+
+
+
+<a href="https://msdn.microsoft.com/95531BDC-3D45-4BB6-8C63-0D845C66B88F">SetThreadDpiAwarenessContext</a>
+
+
+
+<a href="hidpi.setting_the_default_dpi_awareness_for_a_process">Setting the default DPI awareness for a process</a>
+ 
+
+ 
+

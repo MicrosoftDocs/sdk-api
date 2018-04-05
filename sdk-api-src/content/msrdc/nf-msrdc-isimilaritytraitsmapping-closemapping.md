@@ -1,0 +1,90 @@
+---
+UID: NF:msrdc.ISimilarityTraitsMapping.CloseMapping
+title: ISimilarityTraitsMapping::CloseMapping method
+author: windows-driver-content
+description: Closes a file mapping object for a similarity traits table file.
+old-location: rdc\isimilaritytraitsmapping_closemapping.htm
+old-project: Rdc
+ms.assetid: 9ac20c6b-9fe5-4b59-a9ed-faef97fd76f2
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: CloseMapping method [Remote Differential Compression], CloseMapping method [Remote Differential Compression], ISimilarityTraitsMapping interface, CloseMapping,ISimilarityTraitsMapping.CloseMapping, ISimilarityTraitsMapping, ISimilarityTraitsMapping interface [Remote Differential Compression], CloseMapping method, ISimilarityTraitsMapping::CloseMapping, fs.isimilaritytraitsmapping_closemapping, msrdc/ISimilarityTraitsMapping::CloseMapping, rdc.isimilaritytraitsmapping_closemapping
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: msrdc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: MsRdc.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: RdcMappingAccessMode
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	MsRdc.dll
+api_name:
+-	ISimilarityTraitsMapping.CloseMapping
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: MsRdc.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 SP2 or later
+---
+
+# ISimilarityTraitsMapping::CloseMapping method
+
+
+## -description
+
+
+Closes a file mapping object for a similarity traits table file.
+
+
+## -parameters
+
+
+
+
+
+
+## -returns
+
+
+
+This method does not return a value.
+
+
+
+
+## -remarks
+
+
+
+Note that there may still be valid views open on the file. No new views may be created after the mapping is closed, but existing views continue to work.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/1ddc599b-5a9b-4807-9005-00793f9a6ed4">ISimilarityTraitsMapping</a>
+ 
+
+ 
+

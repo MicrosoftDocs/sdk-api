@@ -1,0 +1,83 @@
+---
+UID: NF:comsvcs.ContextInfo.GetActivityId
+title: ContextInfo::GetActivityId method
+author: windows-driver-content
+description: Retrieves the activity identifier associated with the object context.
+old-location: cos\contextinfo_getactivityid.htm
+old-project: cossdk
+ms.assetid: 1bc87f84-fc98-4ea3-b137-2a88a25d290d
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: ContextInfo, ContextInfo interface [COM+], GetActivityId method, ContextInfo::GetActivityId, GetActivityId method [COM+], GetActivityId method [COM+], ContextInfo interface, GetActivityId,ContextInfo.GetActivityId, _cos_ContextInfo_GetActivityId, comsvcs/ContextInfo::GetActivityId, cos.contextinfo_getactivityid
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: comsvcs.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: TRACKING_COLL_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	ComSvcs.h
+api_name:
+-	ContextInfo.GetActivityId
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# ContextInfo::GetActivityId method
+
+
+## -description
+
+
+Retrieves the activity identifier associated with the object context.
+
+
+## -parameters
+
+
+
+
+### -param pbstrActivityId [out]
+
+A reference to the activity identifier.
+
+
+## -returns
+
+
+
+This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E_UNEXPECTED, E_FAIL, and S_OK.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/ef8d7ef7-fae4-4a20-80fb-18f5daa9b564">ContextInfo</a>
+ 
+
+ 
+

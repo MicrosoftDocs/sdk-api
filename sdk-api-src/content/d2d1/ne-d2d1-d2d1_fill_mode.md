@@ -1,0 +1,225 @@
+---
+UID: NE:d2d1.D2D1_FILL_MODE
+title: D2D1_FILL_MODE
+author: windows-driver-content
+description: Specifies how the intersecting areas of geometries or figures are combined to form the area of the composite geometry.
+old-location: direct2d\D2D1_FILL_MODE.htm
+old-project: Direct2D
+ms.assetid: f1a14447-39fa-4a48-9516-ff5b03abc3a6
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: D2D1_FILL_MODE, D2D1_FILL_MODE enumeration [Direct2D], D2D1_FILL_MODE_ALTERNATE, D2D1_FILL_MODE_WINDING, d2d1/D2D1_FILL_MODE, d2d1/D2D1_FILL_MODE_ALTERNATE, d2d1/D2D1_FILL_MODE_WINDING, direct2d.D2D1_FILL_MODE
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: enum
+req.header: d2d1.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Ctxtcall.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: D2D1_FILL_MODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	d2d1.h
+api_name:
+-	D2D1_FILL_MODE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# D2D1_FILL_MODE enumeration
+
+
+## -description
+
+
+Specifies how the intersecting areas of geometries or figures are combined to form the area of the composite geometry.
+
+
+## -enum-fields
+
+
+
+
+### -field D2D1_FILL_MODE_ALTERNATE
+
+Determines whether a point is in the fill region by drawing a ray from that point to infinity in any direction, and then counting the number of path segments within the given shape that the ray crosses. If this number is odd, the point is in the fill region; if even, the point is outside the fill region. 
+
+
+
+
+
+### -field D2D1_FILL_MODE_WINDING
+
+Determines whether a point is in the fill region of the path by drawing a ray from that point to infinity in any direction, and then examining the places where a segment of the shape crosses the ray. Starting with a count of zero, add one each time a segment crosses the ray from left to right and subtract one each time a path segment crosses the ray from right to left,  as long as left and right are seen from the perspective of the ray. After counting the crossings, if the result is zero, then the point is outside the path. Otherwise, it is inside the path. 
+
+
+
+
+
+### -field D2D1_FILL_MODE_FORCE_DWORD
+
+
+
+
+## -remarks
+
+
+
+Use the <b>D2D1_FILL_MODE</b> enumeration when creating an <a href="https://msdn.microsoft.com/15c3800c-b57c-4c3c-995f-407beee4cc99">ID2D1GeometryGroup</a> with the <a href="https://msdn.microsoft.com/e69c54b9-eb10-4a7f-8a5b-c42ad4572fa0">CreateGeometryGroup</a> method, or when modifying the fill mode of an <a href="https://msdn.microsoft.com/cf877a25-7b9f-4db0-ac53-b4a350795a86">ID2D1SimplifiedGeometrySink</a> with the <a href="https://msdn.microsoft.com/f60f48bb-989e-46a5-b77f-65da0b91a599">ID2D1SimplifiedGeometrySink::SetFillMode</a>  method.
+
+Direct2D fills the interior of a path by using one of the two fill modes specified by this enumeration: <b>D2D1_FILL_MODE_ALTERNATE</b> (alternate) or <b>D2D1_FILL_MODE_WINDING</b> (winding). Because the modes determine how to fill the interior of a closed shape, all shapes are treated as closed when they are filled.  If there is a gap in a segment in a shape, draw an imaginary line to close it. 
+
+ To see the difference between the winding and alternate fill modes, assume that you have four circles with the same center and a different radius, as shown in the following illustration. The first one has the radius of 25, the second 50, the third 75, and the fourth 100.
+
+<img alt="Illustration of four concentric circles with different radius values" src="images/fillmode_not_filled_01.png"/>
+The following  illustration shows the shape filled by using the alternate fill mode. Notice that the center and third ring are not filled. This is because a ray drawn from any point in either of those two rings passes through an even number of segments. 
+
+<img alt="Illustration of concentric circles with the second and fourth rings filled" src="images/fillmode_01.png"/>
+The following illustration explains this process. 
+
+<img alt="Illustration of concentric circles with points in the second and third rings and two arbitrary rays extending from each point" src="images/fillmode_03.png"/>
+The following illustration shows how the same shape is filled when the winding fill mode is specified. 
+
+<img alt="Illustration of concentric circles with all rings filled" src="images/fillmode_02.png"/>
+Notice that all the rings are filled. This is because all the segments run in the same direction, so a ray drawn from any point will cross one or more segments, and the sum of the crossings will not equal zero. 
+
+The following illustration explains this process. The red arrows represent the direction in which the segments are drawn and the black arrow represents an arbitrary ray that runs from a point in the innermost ring. Starting with a value of zero, for each segment that the ray crosses, a value of one is added for every clockwise intersection. All points lie in the fill region in this illustration, because the count does not equal zero. 
+
+<img alt="Illustration of concentric circles with a ray from within the first ring that crosses all four rings" src="images/fillmode_04.png"/>
+
+#### Examples
+
+The following code example creates the geometry groups used the preceding illustrations. The code first declares an array of geometry objects. These objects are four concentric circles that have the following radii: 25, 50, 75, and 100. Then call the <a href="https://msdn.microsoft.com/e69c54b9-eb10-4a7f-8a5b-c42ad4572fa0">CreateGeometryGroup</a> on the <a href="https://msdn.microsoft.com/cef6115c-98e8-49e6-b419-271b43ce2938">ID2D1Factory</a> object,  passing in <b>D2D1_FILL_MODE_ALTERNATE</b>, an array of geometry objects to add to the geometry group, and the number of elements in this array.  
+
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT DemoApp::CreateGeometryResources()
+{
+    HRESULT hr;
+
+    const D2D1_ELLIPSE ellipse1 = D2D1::Ellipse(
+        D2D1::Point2F(105.0f, 105.0f),
+        25.0f,
+        25.0f
+        );
+
+    hr = m_pD2DFactory-&gt;CreateEllipseGeometry(
+        ellipse1,
+        &amp;m_pEllipseGeometry1
+        );
+
+    if (SUCCEEDED(hr))
+    {
+        const D2D1_ELLIPSE ellipse2 = D2D1::Ellipse(
+            D2D1::Point2F(105.0f, 105.0f),
+            50.0f,
+            50.0f
+            );
+
+        hr = m_pD2DFactory-&gt;CreateEllipseGeometry(
+            ellipse2,
+            &amp;m_pEllipseGeometry2
+            );
+    }
+
+    if (SUCCEEDED(hr))
+    {
+
+        const D2D1_ELLIPSE ellipse3 = D2D1::Ellipse(
+            D2D1::Point2F(105.0f, 105.0f),
+            75.0f,
+            75.0f
+            );
+
+        hr = m_pD2DFactory-&gt;CreateEllipseGeometry(
+            ellipse3,
+            &amp;m_pEllipseGeometry3
+            );
+    }
+
+    if (SUCCEEDED(hr))
+    {
+        const D2D1_ELLIPSE ellipse4 = D2D1::Ellipse(
+            D2D1::Point2F(105.0f, 105.0f),
+            100.0f,
+            100.0f
+            );
+
+        hr = m_pD2DFactory-&gt;CreateEllipseGeometry(
+            ellipse4,
+            &amp;m_pEllipseGeometry4
+            );
+    }
+
+    if (SUCCEEDED(hr))
+    {
+        ID2D1Geometry *ppGeometries[] =
+        {
+            m_pEllipseGeometry1,
+            m_pEllipseGeometry2,
+            m_pEllipseGeometry3,
+            m_pEllipseGeometry4
+        };
+
+        hr = m_pD2DFactory-&gt;CreateGeometryGroup(
+            D2D1_FILL_MODE_ALTERNATE,
+            ppGeometries,
+            ARRAYSIZE(ppGeometries),
+            &amp;m_pGeoGroup_AlternateFill
+            );
+
+        if (SUCCEEDED(hr))
+        {
+            hr = m_pD2DFactory-&gt;CreateGeometryGroup(
+                D2D1_FILL_MODE_WINDING,
+                ppGeometries,
+                ARRAYSIZE(ppGeometries),
+                &amp;m_pGeoGroup_WindingFill
+                );
+        }
+
+    }
+    return hr;
+}
+</pre>
+</td>
+</tr>
+</table></span></div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/f5870d4b-dd30-4034-884e-1c398a6865c6">Geometries Overview</a>
+
+
+
+<a href="https://msdn.microsoft.com/e69c54b9-eb10-4a7f-8a5b-c42ad4572fa0">ID2D1Factory::CreateGeometryGroup</a>
+ 
+
+ 
+

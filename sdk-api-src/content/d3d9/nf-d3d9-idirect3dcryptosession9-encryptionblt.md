@@ -1,0 +1,140 @@
+---
+UID: NF:d3d9.IDirect3DCryptoSession9.EncryptionBlt
+title: IDirect3DCryptoSession9::EncryptionBlt method
+author: windows-driver-content
+description: Reads encrypted data from a protected surface.
+old-location: mf\idirect3dcryptosession9_encryptionblt.htm
+old-project: medfound
+ms.assetid: 42aa21d3-7c38-4058-b766-454be8b1ae80
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: EncryptionBlt method [Media Foundation], EncryptionBlt method [Media Foundation], IDirect3DCryptoSession9 interface, EncryptionBlt,IDirect3DCryptoSession9.EncryptionBlt, IDirect3DCryptoSession9, IDirect3DCryptoSession9 interface [Media Foundation], EncryptionBlt method, IDirect3DCryptoSession9::EncryptionBlt, d3d9/IDirect3DCryptoSession9::EncryptionBlt, mf.idirect3dcryptosession9_encryptionblt
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: d3d9.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: D3D12_SIGNATURE_PARAMETER_DESC
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	d3d9.h
+api_name:
+-	IDirect3DCryptoSession9.EncryptionBlt
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# IDirect3DCryptoSession9::EncryptionBlt method
+
+
+## -description
+
+
+Reads encrypted data from a protected surface.
+
+
+## -parameters
+
+
+
+
+### -param pSrcSurface
+
+Pointer to the protected surface.
+
+
+### -param pDstSurface
+
+Pointer to a surface that receives the encrypted data.
+
+
+### -param DstSurfaceSize
+
+The size of the surface memory that <i>pDstSurface</i> points to, in bytes. The size must be aligned to the value of <b>BlockAlignmentSize</b> in the driver capabilities structure; see Remarks.
+
+
+### -param pIV
+
+Pointer to a buffer that receives the initialization vector (IV). The caller allocates this buffer, but the driver generates the IV.
+
+If the encryption type is <b>D3DCRYPTOTYPE_AES128_CTR</b> (128-bit AES-CTR), <i>pIV</i> points to a <a href="https://msdn.microsoft.com/2ee738c2-d56c-4a50-94b8-b7180918aa8c">D3DAES_CTR_IV</a> structure. When the driver generates the first IV, it initializes the structure to a random number. For each subsequent IV, the driver simply increments the <b>IV</b> member of the structure, ensuring that the value always increases. This procedure enables the application to validate that the same IV is never used more than once with the same key pair.
+
+For other encryption types, a different structure might be used, or the encryption might not use an IV.
+
+
+## -returns
+
+
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+If the driver supports this method, it sets the <b>D3DCPCAPS_ENCRYPTEDREADBACK</b>
+ flag in the capabilities structure returned by the <a href="https://msdn.microsoft.com/4093e64c-340d-4f66-97ed-45bae3b259eb">IDirect3DDevice9Video::GetContentProtectionCaps</a> method.
+
+If the driver sets the <b>D3DCPCAPS_ENCRYPTEDREADBACKKEY</b> capabilities flag, it means the driver uses a separate key to encrypt the data. To get this key, call the <a href="https://msdn.microsoft.com/c06b42b7-dc8a-4004-b2c5-37accc76db40">IDirect3DCryptoSession9::GetEncryptionBltKey</a> method. Otherwise, the driver uses the session key to encrypt the data.
+
+Allocate the destination surface (<i>pDstSurface</i>) as follows:
+
+<ol>
+<li>Call <a href="https://msdn.microsoft.com/7f9f637e-a693-4fc5-9bf9-a6900aa2ed8c">IDirect3DCryptoSession9::GetSurfacePitch</a> to get the stride of the protected surface.</li>
+<li>Call the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451656">GetContentProtectionCaps</a> method to get the value of the <b>BufferAlignmentStart</b>  and <b>BlockAlignmentSize</b>  members in the <a href="https://msdn.microsoft.com/73ef2e12-d376-4bc2-a940-d421acfdd43e">D3DCONTENTPROTECTIONCAPS</a>  structure. </li>
+<li>Calculate the minimum size of the surface memory as <i>SysMemSize</i> = protected surface stride × protected surface height.</li>
+<li>Add padding to accommodate the values of <b>BufferAlignmentStart</b>  and <b>BlockAlignmentSize</b>.</li>
+<li>Allocate a buffer in system memory, with size equal to <i>SysMemSize</i> (including padding). </li>
+<li>If the address of the system memory buffer is not aligned to the value of <b>BufferAlignmentStart</b>, calculate a memory-aligned pointer that is an offset from the start of the buffer.</li>
+<li>Call <a href="https://msdn.microsoft.com/03fd24f4-9db2-4763-b7c7-85c6d05c3c77">IDirect3DDevice9Ex::CreateOffscreenPlainSurfaceEx</a> to create the destination surface. Pass the memory-aligned pointer as the shared-resource handle (<i>pSharedHandle</i>).</li>
+</ol>
+This method has the following limitations:
+
+<ul>
+<li>The method cannot read back  subrectangles or partially encrypted surfaces.</li>
+<li>The protected surface must be either an offscreen plain surface or a render target.</li>
+<li>The destination surface must be a system-memory surface, created with the proper alignment, as described earlier.</li>
+<li>The protected surface cannot be multisampled.</li>
+<li>The method does not support stretching or colorspace conversion.</li>
+</ul>
+If you lock the destination surface, the stride reported in the <a href="https://msdn.microsoft.com/ee5d2ea6-bf98-4b09-bc67-b808ffcb23c6">D3DLOCKED_RECT</a> structure might not match the stride of the protected surface. When you interpret the data, however, always use the stride of the protected surface.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/FD0625BB-484A-43E6-8931-DB635D4F017F">GPU-Based Content Protection</a>
+
+
+
+<a href="https://msdn.microsoft.com/2511c9da-e696-4e49-b180-7fc1317c1652">IDirect3DCryptoSession9</a>
+ 
+
+ 
+

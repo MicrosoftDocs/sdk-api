@@ -1,0 +1,80 @@
+---
+UID: NF:xenroll.ICEnroll4.put_SignerCertificate
+title: ICEnroll4::put_SignerCertificate method
+author: windows-driver-content
+description: Sets the signer's certificate.
+old-location: security\icenroll4_signercertificate.htm
+old-project: SecCrypto
+ms.assetid: 3e5b8964-f737-407e-b265-fe095bd6f8ad
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: CEnroll object [Security], SignerCertificate property, ICEnroll4, ICEnroll4 interface [Security], SignerCertificate property, ICEnroll4.SignerCertificate, ICEnroll4::put_SignerCertificate, SignerCertificate property [Security], SignerCertificate property [Security], CEnroll object, SignerCertificate property [Security], ICEnroll4 interface, put_SignerCertificate,ICEnroll4.put_SignerCertificate, security.icenroll4_signercertificate, xenroll/ICEnroll4::SignerCertificate, xenroll/ICEnroll4::put_SignerCertificate
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: xenroll.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: XBL_IDP_AUTH_TOKEN_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Xenroll.dll
+api_name:
+-	ICEnroll4.SignerCertificate
+-	ICEnroll4.put_SignerCertificate
+-	CEnroll.SignerCertificate
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Xenroll.dll
+req.irql: 
+req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+---
+
+# ICEnroll4::put_SignerCertificate method
+
+
+## -description
+
+
+<p class="CCE_Message">[This property is no longer available for use as of Windows Server 2008 and Windows Vista.]
+
+The <b>SignerCertificate</b> property sets the signer's certificate. This property was first defined in the <a href="https://msdn.microsoft.com/4e3e3792-aa41-46fe-bf75-26c2b8959f7a">ICEnroll4</a> interface.
+
+This property is reserved; instead, use the <a href="https://msdn.microsoft.com/1c970f6b-6b8f-4396-b59b-d6b58d52172b">SetSignerCertificate</a> method.
+
+This property is write-only.
+
+
+## -parameters
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/7f13549d-811b-496b-abdd-7e52cbc2ed54">CEnroll</a>
+
+
+
+<a href="https://msdn.microsoft.com/4e3e3792-aa41-46fe-bf75-26c2b8959f7a">ICEnroll4</a>
+ 
+
+ 
+

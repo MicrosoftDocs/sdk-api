@@ -1,0 +1,113 @@
+---
+UID: NF:d3d10.ID3D10Device.CreateTexture3D
+title: ID3D10Device::CreateTexture3D method
+author: windows-driver-content
+description: Create a single 3D texture (see Texture3D).
+old-location: direct3d10\id3d10device_createtexture3d.htm
+old-project: direct3d10
+ms.assetid: VS|directx_sdk|~\id3d10device_createtexture3d.htm
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: CreateTexture3D method [Direct3D 10], CreateTexture3D method [Direct3D 10], ID3D10Device interface, CreateTexture3D,ID3D10Device.CreateTexture3D, ID3D10Device, ID3D10Device interface [Direct3D 10], CreateTexture3D method, ID3D10Device::CreateTexture3D, c60533b9-1f88-143d-2e76-cc9dc35b462d, d3d10/ID3D10Device::CreateTexture3D, direct3d10.id3d10device_createtexture3d
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: d3d10.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: D3D10_USAGE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	D3D10.lib
+-	D3D10.dll
+api_name:
+-	ID3D10Device.CreateTexture3D
+product: Windows
+targetos: Windows
+req.lib: D3D10.lib
+req.dll: 
+req.irql: 
+---
+
+# ID3D10Device::CreateTexture3D method
+
+
+## -description
+
+
+Create a single 3D texture (see <a href="https://msdn.microsoft.com/c5238a2f-d69d-4ce5-a5aa-66a6c18d5f69">Texture3D</a>).
+
+
+## -parameters
+
+
+
+
+### -param pDesc [in]
+
+Type: <b>const <a href="https://msdn.microsoft.com/b2447872-cbef-4cf2-ab7c-2739343ceb64">D3D10_TEXTURE3D_DESC</a>*</b>
+
+Pointer to a 3D texture description (see <a href="https://msdn.microsoft.com/b2447872-cbef-4cf2-ab7c-2739343ceb64">D3D10_TEXTURE3D_DESC</a>). To create a typeless resource that can be interpreted at runtime into different, compatible formats, specify a typeless format in the texture description. To generate mipmap levels automatically, set the number of mipmap levels to 0.
+
+
+### -param pInitialData [in]
+
+Type: <b>const <a href="https://msdn.microsoft.com/083d9027-5c4d-47f4-9d42-b1016628b210">D3D10_SUBRESOURCE_DATA</a>*</b>
+
+Pointer to an array of <a href="https://msdn.microsoft.com/c5238a2f-d69d-4ce5-a5aa-66a6c18d5f69">subresource</a> descriptions (see <a href="https://msdn.microsoft.com/083d9027-5c4d-47f4-9d42-b1016628b210">D3D10_SUBRESOURCE_DATA</a>); one for each subresource (ordered by texture array index, then slice index, then mip level). Applications may not specify <b>NULL</b> for pInitialData when creating IMMUTABLE resources (see <a href="https://msdn.microsoft.com/eaaf695c-e99d-4bf8-b479-fa2d06d53248">D3D10_USAGE</a>). If the resource is multisampled, pInitialData must be <b>NULL</b> because multisampled resources cannot be initialized with data when they are created.
+
+
+### -param ppTexture3D [out]
+
+Type: <b><a href="https://msdn.microsoft.com/786b9006-e46d-45f5-8820-965ebbb2acc6">ID3D10Texture3D</a>**</b>
+
+Address of a pointer to the created texture (see <a href="https://msdn.microsoft.com/786b9006-e46d-45f5-8820-965ebbb2acc6">ID3D10Texture3D Interface</a>). Set this parameter to <b>NULL</b> to validate the other input parameters (the method will return S_FALSE if the other input parameters pass validation).
+
+
+## -returns
+
+
+
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+
+If the method succeeds, the return code is S_OK. See <a href="https://msdn.microsoft.com/7b67d428-d000-4c3e-adc1-b5fc67a15a6a">Direct3D 10 Return Codes</a> for failing error codes.
+
+
+
+
+## -remarks
+
+
+
+CreateTexture3D creates a 3D texture resource, which contains an array of 1D textures. The number of textures is specified in the texture description. All textures in a resource must have the same format, size, and number of mipmap levels.
+
+All resources are made up of one or more <a href="https://msdn.microsoft.com/c5238a2f-d69d-4ce5-a5aa-66a6c18d5f69">subresources</a>. To load data into the texture, applications may supply the data initially as part of <a href="https://msdn.microsoft.com/083d9027-5c4d-47f4-9d42-b1016628b210">D3D10_SUBRESOURCE_DATA</a> structure pointed to by pInitialData, or it may use one of the <a href="https://msdn.microsoft.com/6a4945ee-bd82-4c29-9e75-c0e2e5fc1524">Texturing Functions</a> supplied by the SDK.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/63c7fca3-5575-41a7-9bdf-2582e6b9c182">ID3D10Device Interface</a>
+ 
+
+ 
+

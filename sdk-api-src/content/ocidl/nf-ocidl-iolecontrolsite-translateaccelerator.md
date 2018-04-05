@@ -1,0 +1,143 @@
+---
+UID: NF:ocidl.IOleControlSite.TranslateAccelerator
+title: IOleControlSite::TranslateAccelerator method
+author: windows-driver-content
+description: Passes a keystroke to the control site for processing.
+old-location: com\iolecontrolsite_translateaccelerator.htm
+old-project: com
+ms.assetid: e4f9a6f7-bb0f-41d2-b1b8-7fda2dbee278
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: IOleControlSite, IOleControlSite interface [COM], TranslateAccelerator method, IOleControlSite::TranslateAccelerator, TranslateAccelerator method [COM], TranslateAccelerator method [COM], IOleControlSite interface, TranslateAccelerator,IOleControlSite.TranslateAccelerator, _ctrl_iolecontrolsite_translateaccelerator, com.iolecontrolsite_translateaccelerator, ocidl/IOleControlSite::TranslateAccelerator
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: ocidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: OCIdl.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: VIEWSTATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	OCIdl.h
+api_name:
+-	IOleControlSite.TranslateAccelerator
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# IOleControlSite::TranslateAccelerator method
+
+
+## -description
+
+
+Passes a keystroke to the control site for processing.
+
+
+## -parameters
+
+
+
+
+### -param pMsg [in]
+
+A pointer to the <a href="_win32_MSG_str_cpp">MSG</a> structure describing the keystroke to be processed.
+
+
+### -param grfModifiers [in]
+
+Flags describing the state of the Control, Alt, and Shift keys. The value of the flag can be any valid <a href="https://msdn.microsoft.com/5a85158d-33a7-4c99-a636-42f7c68dc3ce">KEYMODIFIERS</a> enumeration values.
+
+
+## -returns
+
+
+
+This method can return the following values.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The container processed the message.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_FALSE</b></dt>
+</dl>
+</td>
+<td width="60%">
+The container did not process the message. This value must also be returned in all other error cases besides E_NOTIMPL.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_NOTIMPL</b></dt>
+</dl>
+</td>
+<td width="60%">
+The container does not implement accelerator support.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+This method is called by a control that can be UI-active. In such cases, a control can process all keystrokes first through <a href="https://msdn.microsoft.com/ce460c52-c7aa-4ee4-955e-76407af7cf1e">IOleInPlaceActiveObject::TranslateAccelerator</a>, according to normal OLE Compound Document rules. Inside that method, the control can give the container certain messages to process first by calling <b>IOleControlSite::TranslateAccelerator</b> and using the return value to determine if any processing took place. Otherwise, the control always processes the message first. If the control does not use the keystroke as an accelerator, it passes the keystroke to the container through this method.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/8b022f2c-d4b4-44ca-8e69-46e9aa20b3f9">IOleControlSite</a>
+
+
+
+<a href="https://msdn.microsoft.com/ce460c52-c7aa-4ee4-955e-76407af7cf1e">IOleInPlaceActiveObject::TranslateAccelerator</a>
+ 
+
+ 
+

@@ -1,0 +1,83 @@
+---
+UID: NF:comsvcs.IManagedActivationEvents.DestroyManagedStub
+title: IManagedActivationEvents::DestroyManagedStub method
+author: windows-driver-content
+description: Destroys a stub that was created by CreateManagedStub.
+old-location: cos\imanagedactivationevents_destroymanagedstub.htm
+old-project: cossdk
+ms.assetid: aabc8192-d499-441e-be5d-9a51108bd344
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: DestroyManagedStub method [COM+], DestroyManagedStub method [COM+], IManagedActivationEvents interface, DestroyManagedStub,IManagedActivationEvents.DestroyManagedStub, IManagedActivationEvents, IManagedActivationEvents interface [COM+], DestroyManagedStub method, IManagedActivationEvents::DestroyManagedStub, _cos_IManagedActivationEvents_DestroyManagedStub, comsvcs/IManagedActivationEvents::DestroyManagedStub, cos.imanagedactivationevents_destroymanagedstub
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: comsvcs.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: TRACKING_COLL_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	ComSvcs.h
+api_name:
+-	IManagedActivationEvents.DestroyManagedStub
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# IManagedActivationEvents::DestroyManagedStub method
+
+
+## -description
+
+
+Destroys a stub that was created by <a href="https://msdn.microsoft.com/a2ba7ece-ac17-42fb-b22f-976ad849eca5">CreateManagedStub</a>.
+
+
+## -parameters
+
+
+
+
+### -param pInfo [in]
+
+A pointer to <a href="https://msdn.microsoft.com/7fa5f76e-df07-41b3-8fb0-62b84a034aa5">IManagedObjectInfo</a> that describes the stub for a managed object.
+
+
+## -returns
+
+
+
+This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E_UNEXPECTED, E_FAIL, and S_OK.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/621ffc7d-186e-451c-8d97-9c8291549f51">IManagedActivationEvents</a>
+ 
+
+ 
+

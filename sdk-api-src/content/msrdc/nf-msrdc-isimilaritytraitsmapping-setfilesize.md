@@ -1,0 +1,84 @@
+---
+UID: NF:msrdc.ISimilarityTraitsMapping.SetFileSize
+title: ISimilarityTraitsMapping::SetFileSize method
+author: windows-driver-content
+description: Sets the size of a similarity traits table file.
+old-location: rdc\isimilaritytraitsmapping_setfilesize.htm
+old-project: Rdc
+ms.assetid: 7f8afa56-6531-40dd-979f-12506ad8c286
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: ISimilarityTraitsMapping, ISimilarityTraitsMapping interface [Remote Differential Compression], SetFileSize method, ISimilarityTraitsMapping::SetFileSize, SetFileSize method [Remote Differential Compression], SetFileSize method [Remote Differential Compression], ISimilarityTraitsMapping interface, SetFileSize,ISimilarityTraitsMapping.SetFileSize, fs.isimilaritytraitsmapping_setfilesize, msrdc/ISimilarityTraitsMapping::SetFileSize, rdc.isimilaritytraitsmapping_setfilesize
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: msrdc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: MsRdc.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: RdcMappingAccessMode
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	MsRdc.dll
+api_name:
+-	ISimilarityTraitsMapping.SetFileSize
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: MsRdc.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 SP2 or later
+---
+
+# ISimilarityTraitsMapping::SetFileSize method
+
+
+## -description
+
+
+Sets the size of a similarity traits table file.
+
+
+## -parameters
+
+
+
+
+### -param fileSize [in]
+
+Pointer to a location that specifies the file size, in bytes.
+
+
+## -returns
+
+
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/1ddc599b-5a9b-4807-9005-00793f9a6ed4">ISimilarityTraitsMapping</a>
+ 
+
+ 
+

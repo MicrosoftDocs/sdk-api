@@ -1,0 +1,124 @@
+---
+UID: NC:werapi.PFN_WER_RUNTIME_EXCEPTION_DEBUGGER_LAUNCH
+title: PFN_WER_RUNTIME_EXCEPTION_DEBUGGER_LAUNCH
+author: windows-driver-content
+description: WER calls this function to let you customize the debugger launch options and launch string.
+old-location: wer\outofprocessexceptioneventdebuggerlaunchcallback.htm
+old-project: wer
+ms.assetid: ecf36951-cdb5-425d-a9b1-83b7ce8aebc4
+ms.author: windowsdriverdev
+ms.date: 3/22/2018
+ms.keywords: OutOfProcessExceptionEventDebuggerLaunchCallback, OutOfProcessExceptionEventDebuggerLaunchCallback callback function [Windows Error Reporting], PFN_WER_RUNTIME_EXCEPTION_DEBUGGER_LAUNCH, wer.outofprocessexceptioneventdebuggerlaunchcallback, werapi/OutOfProcessExceptionEventDebuggerLaunchCallback
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: callback
+req.header: werapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WEB_SOCKET_PROPERTY, *PWEB_SOCKET_PROPERTY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Werapi.h
+api_name:
+-	OutOfProcessExceptionEventDebuggerLaunchCallback
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# PFN_WER_RUNTIME_EXCEPTION_DEBUGGER_LAUNCH callback
+
+
+## -description
+
+
+ WER calls this function to let you customize the debugger launch options and launch string.
+
+The <b>PFN_WER_RUNTIME_EXCEPTION_DEBUGGER_LAUNCH</b> type defines a pointer to this callback function. You must use "OutOfProcessExceptionEventDebuggerLaunchCallback" as the name of the callback function.
+
+
+## -parameters
+
+
+
+
+### -param pContext [in]
+
+A pointer to arbitrary context information that you specified when you called the <a href="https://msdn.microsoft.com/b0fb2c0d-cc98-43cc-a508-e80545377b7f">WerRegisterRuntimeExceptionModule</a> function to register the exception handler.
+
+
+### -param pExceptionInformation [in]
+
+A <a href="https://msdn.microsoft.com/fcf956ac-6015-439c-aec6-8f6a826ff269">WER_RUNTIME_EXCEPTION_INFORMATION</a> structure that contains the exception information.
+
+
+### -param pbIsCustomDebugger [out]
+
+Set to <b>TRUE</b> if the custom debugger specified in the <i>pwszDebuggerLaunch</i> parameter is used to debug the crash; otherwise, set to <b>FALSE</b> to use the default debugger. If you set this parameter to  <b>FALSE</b>, do not set the <i>pwszDebuggerLaunch</i> parameter.
+
+
+### -param pwszDebuggerLaunch [out]
+
+A caller-allocated buffer that you use to specify the debugger launch string used to launch the debugger. The launch string must include the full path to the debugger and any arguments. If an argument includes multiple words, use quotes to delimit the argument. The debugger string should adhere to the same protocol as the default AeDebug debugger string (see <a href="https://msdn.microsoft.com/c3c7aa98-c298-452c-b8d0-10a08b4d82a3">Configuring Automatic Debugging</a>). The string must contain two formatting specifiers: %ld for the crashing process ID, and %ld for the handle to an event object to be signaled after the custom debugger has attached to the target (for a description of these specifiers, see <a href="http://go.microsoft.com/fwlink/p/?linkid=154547">Enabling Postmortem Debugging</a>). However, custom debuggers can choose to ignore these parameters.
+
+
+### -param pchDebuggerLaunch [in, out]
+
+The size, in characters, of the <i>pwszDebuggerLaunch</i> buffer.
+
+
+### -param pbIsDebuggerAutolaunch [out]
+
+Set to <b>TRUE</b> if you want WER to silently launch the debugger; otherwise, <b>FALSE</b> if you want WER to ask the user before launching the debugger.
+
+
+## -returns
+
+
+
+Return <b>S_OK</b>, even if no customer debugger is to be used. If you return other failure codes, WER reverts to its default crash reporting behavior.
+
+
+
+
+## -remarks
+
+
+
+You must implement this function in your exception handler DLL.
+
+WER uses this function to determine which debugger to launch and  whether to launch the debugger automatically or ask the user before launching the debugger. Specifying a custom debugger will override the default launch string (the AeDebug registry key contains the default launch string).
+
+WER calls this callback function only if you set the <i>pbOwnershipClaimed</i> parameter of your <a href="https://msdn.microsoft.com/22033278-2be3-4621-b618-3ccd21fb4cdd">OutOfProcessExceptionEventCallback</a> callback function to <b>TRUE</b>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/b0fb2c0d-cc98-43cc-a508-e80545377b7f">WerRegisterRuntimeExceptionModule</a>
+ 
+
+ 
+

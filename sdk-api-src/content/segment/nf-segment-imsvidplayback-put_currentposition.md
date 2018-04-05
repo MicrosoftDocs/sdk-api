@@ -1,0 +1,160 @@
+---
+UID: NF:segment.IMSVidPlayback.put_CurrentPosition
+title: IMSVidPlayback::put_CurrentPosition method
+author: windows-driver-content
+description: The put_CurrentPosition method seeks to a specified position in the source.
+old-location: mstv\imsvidplayback_put_currentposition.htm
+old-project: mstv
+ms.assetid: 3e9e0128-5609-4a9f-bbfc-a29a2174c5d0
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: IMSVidPlayback, IMSVidPlayback interface [Microsoft TV Technologies], put_CurrentPosition method, IMSVidPlayback::put_CurrentPosition, IMSVidPlaybackput_CurrentPosition, mstv.imsvidplayback_put_currentposition, put_CurrentPosition method [Microsoft TV Technologies], put_CurrentPosition method [Microsoft TV Technologies], IMSVidPlayback interface, put_CurrentPosition,IMSVidPlayback.put_CurrentPosition, segment/IMSVidPlayback::put_CurrentPosition
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: segment.h
+req.include-header: Msvidctl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: None supported
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Segment.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: SourceSizeList
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	segment.h
+api_name:
+-	IMSVidPlayback.put_CurrentPosition
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# IMSVidPlayback::put_CurrentPosition method
+
+
+## -description
+
+
+The <b>put_CurrentPosition</b> method seeks to a specified position in the source.
+
+
+## -parameters
+
+
+
+
+### -param lPosition [in]
+
+Specifies the new position. The units for this parameter are determined by the current position mode.
+
+<table>
+<tr>
+<th>
+                  Position Mode
+                </th>
+<th>
+                  Returned Value
+                </th>
+</tr>
+<tr>
+<td>FrameMode</td>
+<td>Frame number</td>
+</tr>
+<tr>
+<td>TenthsSecondsMode</td>
+<td>Hundredths of seconds</td>
+</tr>
+</table>
+ 
+
+To set the position mode, call <a href="https://msdn.microsoft.com/b2ff0b7e-c35d-4ea9-92de-a31654781687">IMSVidPlayback::put_PositionMode</a>.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include the following.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_INVALID_STATE</b></dt>
+</dl>
+</td>
+<td width="60%">
+The graph is not built. Call the <a href="https://msdn.microsoft.com/49f78dd8-f26e-456d-b67e-155ae0ed5419">Build</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/dn927297">View</a> method on the Video Control.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+Invalid argument.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+</table>
+ 
+
+<div class="alert"><b>Note</b>  The value ERROR_INVALID_STATE is converted to an <b>HRESULT</b> with the <b>HRESULT_FROM_WIN32</b> macro.</div>
+<div> </div>
+
+
+
+## -remarks
+
+
+
+If the new position is earlier than the current position and the source cannot seek backward, the method returns E_INVALIDARG.
+
+Call the <a href="https://msdn.microsoft.com/49f78dd8-f26e-456d-b67e-155ae0ed5419">IMSVidCtl::Build</a> or <a href="https://msdn.microsoft.com/ec0e2a88-13c0-42f3-ba7d-8ebff1234b86">IMSVidCtl::View</a> method before calling this method.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/ed954545-f58f-4841-9ffd-185350f76388">IMSVidPlayback Interface</a>
+ 
+
+ 
+

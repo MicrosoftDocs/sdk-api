@@ -1,0 +1,89 @@
+---
+UID: NE:wincodec.WICPngBkgdProperties
+title: WICPngBkgdProperties
+author: windows-driver-content
+description: Specifies the Portable Network Graphics (PNG) background (bKGD) chunk metadata properties.
+old-location: wic\_wic_codec_wicpngbkgdproperties.htm
+old-project: wic
+ms.assetid: 979f6a91-79a2-4eba-8957-e2908636cdc5
+ms.author: windowsdriverdev
+ms.date: 3/28/2018
+ms.keywords: WICPngBkgdBackgroundColor, WICPngBkgdProperties, WICPngBkgdProperties enumeration [Windows Imaging Component], _wic_codec_wicpngbkgdproperties, wic._wic_codec_wicpngbkgdproperties, wincodec/WICPngBkgdBackgroundColor, wincodec/WICPngBkgdProperties
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: enum
+req.header: wincodec.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Wincodec.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WICPngBkgdProperties
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wincodec.h
+api_name:
+-	WICPngBkgdProperties
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# WICPngBkgdProperties enumeration
+
+
+## -description
+
+
+Specifies the Portable Network Graphics (PNG) background (bKGD) chunk metadata properties.
+
+
+## -enum-fields
+
+
+
+
+### -field WICPngBkgdBackgroundColor
+
+Indicates the background color. There are three possible types, depending on the image's pixel format.
+
+
+
+
+
+#### VT_UI1
+
+Specifies the index of the background color in an image with an indexed pixel format.
+
+
+
+#### VT_UI2
+
+Specifies the background color in a grayscale image.
+
+
+
+#### VT_VECTOR|VT_UI2
+
+Specifies the background color in an RGB image as three USHORT values: {0x<i>RRRR</i>, 0x<i>GGGG</i>, 0x<i>BBBB</i>}.
+
+
+### -field WICPngBkgdProperties_FORCE_DWORD
+
+
+

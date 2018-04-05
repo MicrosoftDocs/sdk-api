@@ -1,0 +1,92 @@
+---
+UID: NF:credentialprovider.ICredentialProviderCredential.GetBitmapValue
+title: ICredentialProviderCredential::GetBitmapValue method
+author: windows-driver-content
+description: Enables retrieval of bitmap data from a credential with a bitmap field.
+old-location: shell\ICredentialProviderCredential_GetBitmapValue.htm
+old-project: shell
+ms.assetid: 5171b8f4-877b-43ab-be1d-4ccffdfc74ce
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: GetBitmapValue method [Windows Shell], GetBitmapValue method [Windows Shell], ICredentialProviderCredential interface, GetBitmapValue,ICredentialProviderCredential.GetBitmapValue, ICredentialProviderCredential, ICredentialProviderCredential interface [Windows Shell], GetBitmapValue method, ICredentialProviderCredential::GetBitmapValue, credentialprovider/ICredentialProviderCredential::GetBitmapValue, shell.ICredentialProviderCredential_GetBitmapValue, shell_ICredentialProviderCredential_GetBitmapValue
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: credentialprovider.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Credentialprovider.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: CREDENTIAL_PROVIDER_USAGE_SCENARIO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Credentialprovider.h
+api_name:
+-	ICredentialProviderCredential.GetBitmapValue
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# ICredentialProviderCredential::GetBitmapValue method
+
+
+## -description
+
+
+Enables retrieval of bitmap data from a credential with a bitmap field.
+
+
+## -parameters
+
+
+
+
+### -param dwFieldID [in]
+
+Type: <b>DWORD</b>
+
+The identifier for the field.
+
+
+### -param phbmp [out]
+
+Type: <b>HBITMAP*</b>
+
+Contains a pointer to the handle of the bitmap.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+This method is optional.
+
+
+

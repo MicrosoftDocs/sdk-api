@@ -1,0 +1,95 @@
+---
+UID: NF:taskschd.ITaskFolder.GetTasks
+title: ITaskFolder::GetTasks method
+author: windows-driver-content
+description: Gets all the tasks in the folder.
+old-location: taskschd\itaskfolder_gettasks.htm
+old-project: TaskSchd
+ms.assetid: 2dcef962-d4b0-4fc9-845a-e33f020dba41
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: GetTasks method [Task Scheduler], GetTasks method [Task Scheduler], ITaskFolder interface, GetTasks,ITaskFolder.GetTasks, ITaskFolder, ITaskFolder interface [Task Scheduler], GetTasks method, ITaskFolder::GetTasks, taskschd.itaskfolder_gettasks, taskschd/ITaskFolder::GetTasks
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: taskschd.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: TASK_TRIGGER_TYPE2
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	taskschd.dll
+api_name:
+-	ITaskFolder.GetTasks
+product: Windows
+targetos: Windows
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# ITaskFolder::GetTasks method
+
+
+## -description
+
+
+Gets all the tasks in the folder.
+
+
+## -parameters
+
+
+
+
+### -param flags [in]
+
+Specifies whether to retrieve hidden tasks. Pass in TASK_ENUM_HIDDEN to retrieve all tasks in the folder including hidden tasks, and pass in 0 to retrieve all the tasks in the folder excluding the hidden tasks.
+
+
+### -param ppTasks [out]
+
+An <a href="https://msdn.microsoft.com/97403825-5762-477c-9695-3775bb5bc9e4">IRegisteredTaskCollection</a> collection of all the tasks in the folder.
+
+Pass in a reference to a <b>NULL</b> <a href="https://msdn.microsoft.com/97403825-5762-477c-9695-3775bb5bc9e4">IRegisteredTaskCollection</a> interface pointer. Referencing a non-<b>NULL</b> pointer can cause a memory leak because the pointer will be overwritten.
+
+
+## -returns
+
+
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/da0cc808-b284-4d10-be61-d96c5e07d0a8">ITaskFolder</a>
+
+
+
+<a href="https://msdn.microsoft.com/15970a51-c139-48b8-b82b-605728d0f386">Task Scheduler</a>
+ 
+
+ 
+

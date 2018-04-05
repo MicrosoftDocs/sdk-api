@@ -1,0 +1,95 @@
+---
+UID: NS:interactioncontext.MANIPULATION_TRANSFORM
+title: MANIPULATION_TRANSFORM
+author: windows-driver-content
+description: Defines the transformation data for a manipulation.
+old-location: input_intcontext\manipulation_transform.htm
+old-project: Input_IntContext
+ms.assetid: f1019207-3197-4ccc-a795-01b868dcc9ca
+ms.author: windowsdriverdev
+ms.date: 3/19/2018
+ms.keywords: MANIPULATION_TRANSFORM, MANIPULATION_TRANSFORM structure, input_intcontext.manipulation_transform, interactioncontext.manipulation_transform, interactioncontext/MANIPULATION_TRANSFORM
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: struct
+req.header: interactioncontext.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MANIPULATION_TRANSFORM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	interactioncontext.h
+api_name:
+-	MANIPULATION_TRANSFORM
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# MANIPULATION_TRANSFORM structure
+
+
+## -description
+
+
+Defines the transformation data for a manipulation.
+
+
+## -struct-fields
+
+
+
+
+### -field translationX
+
+Translation along the x-axis, in HIMETRIC units.
+
+
+### -field translationY
+
+Translation along the y-axis, in HIMETRIC units.
+
+
+### -field scale
+
+Change in scale as a percentage, in HIMETRIC units.
+
+
+### -field expansion
+
+Expansion in user-defined coordinates, in HIMETRIC units.
+
+
+### -field rotation
+
+Change in rotation, in radians.
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/38C5CE85-405B-455F-809D-19C77B8A217B">Interaction Context Structures</a>
+ 
+
+ 
+

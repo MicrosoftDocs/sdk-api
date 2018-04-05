@@ -1,0 +1,87 @@
+---
+UID: NF:tuner.IMPEG2Component.put_PID
+title: IMPEG2Component::put_PID method
+author: windows-driver-content
+description: The put_PID method sets the packet identifier (PID) for this substream.
+old-location: mstv\impeg2component_put_pid.htm
+old-project: mstv
+ms.assetid: 0bc19b79-1586-470d-85d5-3ef1babe60e2
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: IMPEG2Component, IMPEG2Component interface [Microsoft TV Technologies], put_PID method, IMPEG2Component::put_PID, IMPEG2Componentput_PID, mstv.impeg2component_put_pid, put_PID method [Microsoft TV Technologies], put_PID method [Microsoft TV Technologies], IMPEG2Component interface, put_PID,IMPEG2Component.put_PID, tuner/IMPEG2Component::put_PID
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: tuner.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: None supported
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Tuner.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	tuner.h
+api_name:
+-	IMPEG2Component.put_PID
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# IMPEG2Component::put_PID method
+
+
+## -description
+
+
+
+The <b>put_PID</b> method sets the packet identifier (PID) for this substream.
+
+
+
+
+## -parameters
+
+
+
+
+### -param PID [in]
+
+Specifies the PID.
+
+
+## -returns
+
+
+
+Returns S_OK if successful. If the method fails, error information can be retrieved using the standard COM <b>IErrorInfo</b> interface.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/63d1ae17-8e38-457e-98d7-e81e7576f1c1">IMPEG2Component Interface</a>
+ 
+
+ 
+

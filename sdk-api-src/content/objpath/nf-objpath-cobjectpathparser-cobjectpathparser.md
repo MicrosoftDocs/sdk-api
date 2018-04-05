@@ -1,0 +1,91 @@
+---
+UID: NF:objpath.CObjectPathParser.CObjectPathParser
+title: CObjectPathParser::CObjectPathParser method
+author: windows-driver-content
+description: Constructs and initializes an instance of a CObjectPathParser object that requires a full object path. Use of this object is not recommended. Instead, use the IWbemPath COM interface.
+old-location: wmi\cobjectpathparser_cobjectpathparser.htm
+old-project: WmiSdk
+ms.assetid: 8aeb162a-8e93-4a2f-9609-693a26027a44
+ms.author: windowsdriverdev
+ms.date: 3/16/2018
+ms.keywords: "??0CObjectPathParser@@QAE@W4ObjectParserFlags@@@Z, ??0CObjectPathParser@@QEAA@W4ObjectParserFlags@@@Z, CObjectPathParser, CObjectPathParser interface [Windows Management Instrumentation], CObjectPathParser method, CObjectPathParser method [Windows Management Instrumentation], CObjectPathParser method [Windows Management Instrumentation], CObjectPathParser interface, CObjectPathParser,CObjectPathParser.CObjectPathParser, CObjectPathParser::CObjectPathParser, objpath/CObjectPathParser::CObjectPathParser, wmi.cobjectpathparser_cobjectpathparser"
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: objpath.h
+req.include-header: ObjPath.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: ObjectParserFlags
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	FrameDynOS.dll
+-	FrameDyn.dll
+api_name:
+-	CObjectPathParser.CObjectPathParser
+-	??0CObjectPathParser@@QAE@W4ObjectParserFlags@@@Z
+-	??0CObjectPathParser@@QEAA@W4ObjectParserFlags@@@Z
+product: Windows
+targetos: Windows
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# CObjectPathParser::CObjectPathParser method
+
+
+## -description
+
+
+<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/0138c48f-f61b-4127-adc2-bdf4da06f938">CObjectPathParser</a> class 
+    is part of the WMI Provider Framework which is now considered in final state, and no further development, 
+    enhancements, or updates will be available for non-security related issues affecting these libraries. The 
+    <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new 
+    development.]
+
+Constructs and initializes an instance of a <a href="https://msdn.microsoft.com/0138c48f-f61b-4127-adc2-bdf4da06f938">CObjectPathParser</a> object that requires a full object path. Use of  this object is not recommended. Instead, use the <a href="https://msdn.microsoft.com/71b2597b-d82a-439d-b0b7-af76aefea6a2">IWbemPath</a> COM interface.
+
+
+## -parameters
+
+
+
+
+### -param eFlags
+
+
+
+
+
+
+#### - ObjectParserFlags [in]
+
+One of the flags from the <a href="https://msdn.microsoft.com/25e575fc-c8d3-461c-a792-0780ea56612d">ObjectParserFlags</a> enumeration.
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/0138c48f-f61b-4127-adc2-bdf4da06f938">CObjectPathParser</a>
+ 
+
+ 
+

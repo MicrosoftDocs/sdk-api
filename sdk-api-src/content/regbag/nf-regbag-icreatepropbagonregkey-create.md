@@ -1,0 +1,342 @@
+---
+UID: NF:regbag.ICreatePropBagOnRegKey.Create
+title: ICreatePropBagOnRegKey::Create method
+author: windows-driver-content
+description: The Create method creates a property bag that can store information in the system registry.
+old-location: mstv\icreatepropbagonregkey_create.htm
+old-project: mstv
+ms.assetid: d6410ead-7364-4db4-a4c9-cafe5fbf2e84
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: Create method [Microsoft TV Technologies], Create method [Microsoft TV Technologies], ICreatePropBagOnRegKey interface, Create,ICreatePropBagOnRegKey.Create, ICreatePropBagOnRegKey, ICreatePropBagOnRegKey interface [Microsoft TV Technologies], Create method, ICreatePropBagOnRegKey::Create, ICreatePropBagOnRegKeyCreate, mstv.icreatepropbagonregkey_create, regbag/ICreatePropBagOnRegKey::Create
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: regbag.h
+req.include-header: Tuner.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: None supported
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Regbag.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: RECO_RANGE, RECO_RANGE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	regbag.h
+api_name:
+-	ICreatePropBagOnRegKey.Create
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# ICreatePropBagOnRegKey::Create method
+
+
+## -description
+
+
+
+The <b>Create</b> method creates a property bag that can store information in the system registry.
+
+
+
+
+## -parameters
+
+
+
+
+### -param hkey [in]
+
+Specifies a handle to the registry key.
+
+
+### -param subkey [in]
+
+Specifies the subkey.
+
+
+### -param ulOptions [in]
+
+Reserved; must be zero.
+
+
+### -param samDesired [in]
+
+Specifies the desired access rights to the key. The value can be any combination of flags from the <i>samDesired</i> parameter in the Win32 <b>RegOpenKeyEx</b> function.
+
+
+### -param iid
+
+Specifies the interface identifier (IID) of a property bag interface. Use the value IID_IPropertyBag or IID_IPropertyBag2.
+
+
+### -param ppBag [out]
+
+Address of a variable that receives the interface specified by the <i>iid</i> parameter.
+
+
+## -returns
+
+
+
+Returns an <b>HRESULT</b> value. Possible values include the following.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+Success.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_NOTIMPL</b></dt>
+</dl>
+</td>
+<td width="60%">
+The specified IID is not supported.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_OUTOFMEMORY</b></dt>
+</dl>
+</td>
+<td width="60%">
+Insufficient memory.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_POINTER</b></dt>
+</dl>
+</td>
+<td width="60%">
+<b>NULL</b> pointer argument.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+This method creates a property bag and returns a pointer to the <b>IPropertyBag</b> or <b>IPropertyBag2</b> interface, depending on the value of the <i>iid</i> parameter. The returned property bag can access the specified registry key, using the access rights given in the <i>samDesired</i> parameter. The various property bag methods require different access rights, as follows:
+
+<table>
+<tr>
+<th>
+              Method
+            </th>
+<th>
+              Required Access Rights
+            </th>
+</tr>
+<tr>
+<td><b>
+              IPropertyBag::Read
+            </b></td>
+<td>KEY_READ</td>
+</tr>
+<tr>
+<td><b>
+              IPropertyBag::Write
+            </b></td>
+<td>KEY_WRITE</td>
+</tr>
+<tr>
+<td><b>
+              IPropertyBag2::CountProperties
+            </b></td>
+<td>KEY_QUERY_VALUE | KEY_ENUMERATE_SUB_KEYS</td>
+</tr>
+<tr>
+<td><b>
+              IPropertyBag2::GetPropertyInfo
+            </b></td>
+<td>KEY_QUERY_VALUE | KEY_ENUMERATE_SUB_KEYS</td>
+</tr>
+</table>
+ 
+
+If you write a value of VT_EMPTY or VT_NULL the property is removed from the bag and the corresponding registry values are deleted.
+
+
+#### Examples
+
+The following example code shows how to create a read back a default tune request in the registry:
+
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
+CComPtr &lt;ICreatePropBagOnRegKey&gt; pCreateRegBag; 
+HRESULT hr = pCreateRegBag.CoCreateInstance(CLSID_CreatePropBagOnRegKey); 
+CComPtr &lt;IPropertyBag&gt; pRegBag; 
+hr = pCreateRegBag-&gt;Create(HKEY_CURRENT_USER, 
+    OLESTR("SOFTWARE\\Microsoft\\MSVidCtl\\DefaultTuneRequest"), 
+    0, KEY_READ | KEY_WRITE, IID_IPropertyBag, (void**)&amp;pRegBag); 
+if(FAILED(hr)) 
+{ 
+  ATLASSERT(FALSE); 
+  return E_FAIL; 
+} 
+CComPtr &lt;IAnalogTVTuningSpace&gt; pTuneSpace; 
+hr = pTuneSpace.CoCreateInstance(CLSID_AnalogTVTuningSpace); 
+if(FAILED(hr)) 
+{ 
+  ATLASSERT(FALSE); 
+  return E_FAIL; 
+} 
+CComPtr&lt;ITuneRequest&gt; pTuneRequest; 
+hr = pTuneSpace-&gt;CreateTuneRequest(&amp;pTuneRequest); 
+if(FAILED(hr)) 
+{ 
+  ATLASSERT(FALSE); 
+  return E_FAIL; 
+} 
+CComQIPtr &lt;IPersistPropertyBag&gt; pPersist(pTuneRequest); 
+CComVariant v((IUnknown*)(pTuneRequest)); 
+hr = pRegBag-&gt;Write(L"tr", &amp;v); 
+if(FAILED(hr)) 
+{ 
+  ATLASSERT(FALSE); 
+  return E_FAIL; 
+} 
+
+//restore 
+CComPtr &lt;IPropertyBag&gt; pRegBag2; 
+hr = pCreateRegBag-&gt;Create(HKEY_CURRENT_USER, 
+OLESTR("SOFTWARE\\Microsoft\\MSVidCtl\\DefaultTuneRequest"),0, KEY_READ, 
+IID_IPropertyBag, reinterpret_cast&lt;void**&gt;(&amp;pRegBag2)); 
+if(FAILED(hr)) 
+{ 
+  ATLASSERT(FALSE); 
+  return E_FAIL; 
+} 
+CComVariant var; 
+hr = pRegBag2-&gt;Read(OLESTR("tr"), &amp;var, NULL); 
+if(FAILED(hr)) 
+{ 
+  ATLASSERT(FALSE); 
+  return E_FAIL; 
+} 
+
+// Make sure we have a tune request object. 
+CComQIPtr&lt;ITuneRequest&gt; pTune; 
+switch (var.vt) 
+{ 
+  case VT_UNKNOWN: 
+    pTune = var.punkVal; 
+    break; 
+  case VT_DISPATCH: 
+    pTune = var.pdispVal; 
+    break; 
+}
+</pre>
+</td>
+</tr>
+</table></span></div>
+The following example loads the default tune request and returns an <a href="https://msdn.microsoft.com/34077b45-32b4-466b-b103-6a42fc869265">ITuneRequest</a> interface pointer:
+
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
+HRESULT LoadDefaultTuneReq(ITuneRequest **ppTuneReq)
+{
+    HRESULT hr;
+    *ppTuneReq = NULL;
+    CComPtr&lt;ICreatePropBagOnRegKey&gt; pCreateRegBag;
+    hr = pCreateRegBag.CoCreateInstance(CLSID_CreatePropBagOnRegKey, 
+        NULL, CLSCTX_INPROC_SERVER);
+    if (FAILED(hr)) return hr;
+
+    //Create the property bag.
+    CComPtr&lt;IPropertyBag&gt; pRegBag;
+    hr = pCreateRegBag-&gt;Create(HKEY_CURRENT_USER,
+        OLESTR("SOFTWARE\\Microsoft\\MSVidCtl"), 0, KEY_READ,
+        IID_IPropertyBag, reinterpret_cast&lt;void**&gt;(&amp;pRegBag));
+    if (FAILED(hr)) return hr;
+
+    // Read the default tune request from the property bag.
+    CComVariant var;
+    hr = pRegBag-&gt;Read(OLESTR("DefaultTuneRequest"), &amp;var, NULL);
+    if (FAILED(hr)) return hr;
+    
+    // Make sure we got a tune request object.
+    CComQIPtr&lt;ITuneRequest&gt; pTune;
+    switch (var.vt)
+    {
+    case VT_UNKNOWN:
+        pTune = var.punkVal;
+        break;
+    case VT_DISPATCH:
+        pTune = var.pdispVal;
+        break;
+    }
+    if (pTune)
+    {
+        *ppTuneReq = pTune.Detach();
+        return S_OK;
+    }
+    return E_FAIL; 
+}
+</pre>
+</td>
+</tr>
+</table></span></div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/f634a04f-911f-4d53-be70-d5dbf2395ce5">ICreatePropBagOnRegKey Interface</a>
+ 
+
+ 
+

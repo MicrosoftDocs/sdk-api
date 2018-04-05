@@ -1,0 +1,224 @@
+---
+UID: NF:scserver.CSecureChannelServer.EncryptParam
+title: CSecureChannelServer::EncryptParam method
+author: windows-driver-content
+description: The EncryptParam method uses the session key of the secure authenticated channel to encrypt the data contained in a parameter.
+old-location: wmdm\csecurechannelserver_encryptparam.htm
+old-project: WMDM
+ms.assetid: dbfc72a6-acd5-40c2-8951-ab90e5c4d752
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: CSecureChannelServer, CSecureChannelServer interface [windows Media Device Manager], EncryptParam method, CSecureChannelServer::EncryptParam, CSecureChannelServerEncryptParam, EncryptParam method [windows Media Device Manager], EncryptParam method [windows Media Device Manager], CSecureChannelServer interface, EncryptParam,CSecureChannelServer.EncryptParam, scserver/CSecureChannelServer::EncryptParam, wmdm.csecurechannelserver_encryptparam
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: scserver.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: SCHEDULE_HEADER, *PSCHEDULE_HEADER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mssachlp.lib
+-	mssachlp.dll
+api_name:
+-	CSecureChannelServer.EncryptParam
+product: Windows
+targetos: Windows
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# CSecureChannelServer::EncryptParam method
+
+
+## -description
+
+
+
+The <b>EncryptParam</b> method uses the session key of the secure authenticated channel to encrypt the data contained in a parameter.
+
+
+
+
+## -parameters
+
+
+
+
+### -param pbData
+
+Pointer to the first byte of a data buffer containing the parameter that is to be encrypted.
+
+
+### -param dwDataLen
+
+Pointer to a <b>DWORD</b> specifying the length of the buffer to which <i>pbData</i> points.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. All the interface methods in Windows Media Device Manager can return any of the following classes of error codes:
+
+<ul>
+<li>Standard COM error codes </li>
+<li>Windows error codes converted to HRESULT values </li>
+<li>Windows Media Device Manager error codes </li>
+</ul>
+For an extensive list of possible error codes, see <a href="https://msdn.microsoft.com/library/windows/hardware/dn938542">Error Codes</a>.
+
+Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>S_OK</td>
+<td>The method succeeded.</td>
+</tr>
+<tr>
+<td>E_INVALIDARG</td>
+<td>A parameter is invalid or is a <b>NULL</b> pointer.</td>
+</tr>
+<tr>
+<td>E_FAIL</td>
+<td>An unspecified error occurred.</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+Certain parameters, listed in the tables under <a href="https://msdn.microsoft.com/ca4ab93c-0a3e-4fb5-be7f-a8f4eea3c9b7">Using Secure Authenticated Channels</a>, must be included in the message authentication code (MAC) and must be encrypted before the call for data transfer in both directions. Call <b>EncryptParam</b> to encrypt the specified parameters. Do not encrypt any parameters that do not require it.
+
+
+#### Examples
+
+The following code demonstrates a service provider's implementation of <a href="https://msdn.microsoft.com/1acf4112-0cb8-47e4-b8dc-3e820c0ef72f">IMDSPObject::Read</a>. This method creates the MAC key using the data to encrypt and the size of the data, and sends them both to the application.
+
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
+HRESULT CMyStorage::Read(
+    BYTE  *pData,
+    DWORD *pdwSize,
+    BYTE   abMac[WMDM_MAC_LENGTH])
+{
+    HRESULT  hr;
+    DWORD    dwToRead;         // Bytes to read.
+    DWORD    dwRead   = NULL;  // Bytes read.
+    BYTE    *pTmpData = NULL;  // Temporary buffer to hold data before it 
+                               // is copied out to pData.
+
+    // Use a global CSecureChannelServer member to verify that the client 
+    // is authenticated.
+    if (!(g_pAppSCServer-&gt;fIsAuthenticated()))
+    {
+        return WMDM_E_NOTCERTIFIED;
+    }
+    
+
+    // Verify that the handle to the file to read is valid.
+    if(m_hFile == INVALID_HANDLE_VALUE)
+    {
+        return E_FAIL;
+    }
+
+    // Create a buffer to hold the data read.    
+    dwToRead = *pdwSize;
+    pTmpData = new BYTE [dwToRead] ;
+    if(!pTmpData)
+        return E_OUTOFMEMORY;
+
+    // Read data into the temporary buffer.
+    if(ReadFile(m_hFile,(LPVOID)pTmpData,dwToRead,&amp;dwRead,NULL)) 
+    { 
+        *pdwSize = dwRead; 
+
+        if( dwRead )
+        {
+            // Create a MAC from all the parameters.
+            // CORg is a macro that goes to Error label on failure.
+            // MAC consists of data and size of data.
+            HMAC hMAC;
+            
+            CORg(g_pAppSCServer-&gt;MACInit(&amp;hMAC));
+            CORg(g_pAppSCServer-&gt;MACUpdate(hMAC, (BYTE*)(pTmpData), dwRead));
+            CORg(g_pAppSCServer-&gt;MACUpdate(hMAC, (BYTE*)(pdwSize), sizeof(DWORD)));
+            CORg(g_pAppSCServer-&gt;MACFinal(hMAC, abMac));
+            
+            // Encrypt the data.
+            CORg(g_pAppSCServer-&gt;EncryptParam(pTmpData, dwRead));
+            
+            // Copy the data from the temporary buffer into the out param.
+            memcpy(pData, pTmpData, dwRead);
+        }
+    
+        hr = S_OK; 
+    }
+    else
+    { 
+        *pdwSize = 0; 
+
+        hr = E_FAIL; 
+    }
+
+Error:
+
+    if(pTmpData) 
+    {
+        delete [] pTmpData;
+    }
+
+    return hr;
+} 
+</pre>
+</td>
+</tr>
+</table></span></div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/e6e1463a-5a26-4b83-85e0-a639d384a199">CSecureChannelServer Class</a>
+
+
+
+<a href="https://msdn.microsoft.com/42ccaf4a-02a4-432f-a0eb-b7852f0e5406">CSecureChannelServer::DecryptParam</a>
+ 
+
+ 
+

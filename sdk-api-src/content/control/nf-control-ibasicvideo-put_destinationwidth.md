@@ -1,0 +1,132 @@
+---
+UID: NF:control.IBasicVideo.put_DestinationWidth
+title: IBasicVideo::put_DestinationWidth method
+author: windows-driver-content
+description: The put_DestinationWidth method sets the width of the destination rectangle.
+old-location: dshow\ibasicvideo_put_destinationwidth.htm
+old-project: DirectShow
+ms.assetid: 4ae22194-19ca-4a20-9b4f-d9f39e346606
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: IBasicVideo, IBasicVideo interface [DirectShow], put_DestinationWidth method, IBasicVideo::put_DestinationWidth, IBasicVideoput_DestinationWidth, control/IBasicVideo::put_DestinationWidth, dshow.ibasicvideo_put_destinationwidth, put_DestinationWidth method [DirectShow], put_DestinationWidth method [DirectShow], IBasicVideo interface, put_DestinationWidth,IBasicVideo.put_DestinationWidth
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: control.h
+req.include-header: Dshow.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WMPContextMenuInfo
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Strmiids.lib
+-	Strmiids.dll
+api_name:
+-	IBasicVideo.put_DestinationWidth
+product: Windows
+targetos: Windows
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
+---
+
+# IBasicVideo::put_DestinationWidth method
+
+
+## -description
+
+
+
+The <code>put_DestinationWidth</code> method sets the width of the destination rectangle.
+
+
+
+
+## -parameters
+
+
+
+
+### -param DestinationWidth [in]
+
+Specifies the width, in pixels.
+
+
+## -returns
+
+
+
+Returns an <b>HRESULT</b> value. Possible values include the following.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+Invalid argument. <i>DestinationWidth</i> must be larger than zero.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>VFW_E_NOT_CONNECTED</b></dt>
+</dl>
+</td>
+<td width="60%">
+The video renderer is not connected.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+
+
+
+<a href="https://msdn.microsoft.com/14f45bdc-2271-459d-b165-c860c8fc3e0b">IBasicVideo Interface</a>
+ 
+
+ 
+

@@ -1,0 +1,231 @@
+---
+UID: NF:msopc.IOpcDigitalSignature.GetNamespaces
+title: IOpcDigitalSignature::GetNamespaces method
+author: windows-driver-content
+description: Gets the prefix and namespace mapping of the Signature element of the signature markup.
+old-location: opc\iopcdigitalsignature_getnamespaces.htm
+old-project: OPC
+ms.assetid: c9360d23-1eac-4bb1-ae40-c157f1a79621
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: GetNamespaces method [Open Packaging Conventions], GetNamespaces method [Open Packaging Conventions], IOpcDigitalSignature interface, GetNamespaces,IOpcDigitalSignature.GetNamespaces, IOpcDigitalSignature, IOpcDigitalSignature interface [Open Packaging Conventions], GetNamespaces method, IOpcDigitalSignature::GetNamespaces, msopc/IOpcDigitalSignature::GetNamespaces, opc.iopcdigitalsignature_getnamespaces
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: msopc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: OpcDigitalSignature.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: OPC_SIGNATURE_TIME_FORMAT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	msopc.h
+api_name:
+-	IOpcDigitalSignature.GetNamespaces
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 SP2 or later
+---
+
+# IOpcDigitalSignature::GetNamespaces method
+
+
+## -description
+
+
+Gets the prefix and namespace mapping of the <b>Signature</b> element of the signature markup.
+
+
+## -parameters
+
+
+
+
+### -param prefixes [out]
+
+A pointer to a buffer of XML prefix strings. If the method succeeds, call the <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a> function to free the memory of each string in the buffer and then to free the memory of the buffer itself.
+
+
+### -param namespaces [out]
+
+A pointer to a buffer of XML namespace strings. If the method succeeds, call the <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a> function to free the memory of each string in the buffer and then to free the memory of the buffer itself.
+
+
+### -param count [out]
+
+The size of the <i>prefixes</i> and <i>namespaces</i> buffers.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_POINTER</b></dt>
+</dl>
+</td>
+<td width="60%">
+The <i>prefixes</i> parameter is <b>NULL</b>.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_POINTER</b></dt>
+</dl>
+</td>
+<td width="60%">
+The <i>namespaces</i> parameter is <b>NULL</b>.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_POINTER</b></dt>
+</dl>
+</td>
+<td width="60%">
+The <i>count</i> parameter is <b>NULL</b>.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+The <i>prefixes</i> and <i>namespaces</i> buffers are mapped to each other by index.
+
+This method allocates memory used by the buffers returned in <i>prefixes</i> and <i>namespaces</i> and the strings contained in each buffer.
+
+
+#### Examples
+
+The following code shows how to use <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a> to free the memory of the buffers and the strings they contain.
+
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Prepare to call GetNamespaces
+LPWSTR* prefixes = NULL;
+LPWSTR* namespaces = NULL;
+UINT32 count = 0;
+
+// Call to GetNamespaces succeeds
+if ( SUCCEEDED( signature-&gt;GetNamespaces(&amp;prefixes, &amp;namespaces, &amp;count) ) )
+{
+    // Process strings in prefixes and namespaces as needed for the application
+
+    // Free memory for each string
+    for (UINT32 i = 0; i &lt; count; i++)
+    {
+        CoTaskMemFree(prefixes[i]);
+        CoTaskMemFree(namespaces[i]);
+    }
+    // Free memory for the buffers
+    CoTaskMemFree(prefixes);
+    CoTaskMemFree(namespaces);
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/62069595-0d1e-44e5-b68d-2bb0c355c565">Core Packaging Interfaces</a>
+
+
+
+<a href="https://msdn.microsoft.com/d81f6569-6c95-4bb7-9d1d-51e10701b970">Digital Signatures Overview</a>
+
+
+
+<a href="https://msdn.microsoft.com/ef392c88-49cd-4ffa-b1fb-1501c6448264">Getting Started with the Packaging API</a>
+
+
+
+<a href="https://msdn.microsoft.com/cfa38ef6-9d96-4577-a3bf-518784d19ad8">IOpcDigitalSignature</a>
+
+
+
+<b>Overviews</b>
+
+
+
+<a href="https://msdn.microsoft.com/cb35d87e-bbec-42d3-9f9d-d1cf36f39419">Packaging API Programming Guide</a>
+
+
+
+<a href="https://msdn.microsoft.com/7ab1cc09-ce81-4f56-8adf-d8c95bf2c4cd">Packaging API Reference</a>
+
+
+
+<a href="https://msdn.microsoft.com/885137be-35d5-4ec5-bbcc-16c95adf55ab">Packaging API Samples</a>
+
+
+
+<a href="https://msdn.microsoft.com/76455a88-81be-45d9-a682-2ba43038b43f">Packaging Digital Signature Interfaces</a>
+
+
+
+<a href="https://msdn.microsoft.com/a0e9f38f-ab35-4fc2-855c-ea21bf164223">Packaging Interfaces</a>
+
+
+
+<b>Reference</b>
+ 
+
+ 
+

@@ -1,0 +1,107 @@
+---
+UID: NF:mfidl.IMFNetSchemeHandlerConfig.GetNumberOfSupportedProtocols
+title: IMFNetSchemeHandlerConfig::GetNumberOfSupportedProtocols method
+author: windows-driver-content
+description: Retrieves the number of protocols supported by the network scheme plug-in.
+old-location: mf\imfnetschemehandlerconfig_getnumberofsupportedprotocols.htm
+old-project: medfound
+ms.assetid: a0cbb01c-c86c-4186-81ca-6055aab5d361
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: GetNumberOfSupportedProtocols method [Media Foundation], GetNumberOfSupportedProtocols method [Media Foundation], IMFNetSchemeHandlerConfig interface, GetNumberOfSupportedProtocols,IMFNetSchemeHandlerConfig.GetNumberOfSupportedProtocols, IMFNetSchemeHandlerConfig, IMFNetSchemeHandlerConfig interface [Media Foundation], GetNumberOfSupportedProtocols method, IMFNetSchemeHandlerConfig::GetNumberOfSupportedProtocols, a0cbb01c-c86c-4186-81ca-6055aab5d361, mf.imfnetschemehandlerconfig_getnumberofsupportedprotocols, mfidl/IMFNetSchemeHandlerConfig::GetNumberOfSupportedProtocols
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: mfidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MF_URL_TRUST_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfuuid.lib
+-	mfuuid.dll
+api_name:
+-	IMFNetSchemeHandlerConfig.GetNumberOfSupportedProtocols
+product: Windows
+targetos: Windows
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IMFNetSchemeHandlerConfig::GetNumberOfSupportedProtocols method
+
+
+## -description
+
+
+
+Retrieves the number of protocols supported by the network scheme plug-in.
+
+
+
+
+## -parameters
+
+
+
+
+### -param pcProtocols [out]
+
+Receives the number of protocols.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/91bdcdbd-d621-42e3-8e0f-f8eeab489d35">IMFNetSchemeHandlerConfig</a>
+ 
+
+ 
+

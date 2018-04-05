@@ -1,0 +1,97 @@
+---
+UID: NS:rpcdce._RPC_IF_ID
+title: "_RPC_IF_ID"
+author: windows-driver-content
+description: The RPC_IF_ID structure contains the interface UUID and major and minor version numbers of an interface.
+old-location: rpc\rpc_if_id.htm
+old-project: Rpc
+ms.assetid: 6fad80e0-4239-48f7-9cd1-3b9c56303346
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: RPC_IF_ID, RPC_IF_ID structure [RPC], _RPC_IF_ID, _rpc_rpc_if_id, rpc.rpc_if_id, rpcdce/RPC_IF_ID
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: struct
+req.header: rpcdce.h
+req.include-header: Rpc.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: RPC_IF_ID
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Rpcdce.h
+api_name:
+-	RPC_IF_ID
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# _RPC_IF_ID structure
+
+
+## -description
+
+
+The 
+<b>RPC_IF_ID</b> structure contains the interface UUID and major and minor version numbers of an interface.
+
+
+## -struct-fields
+
+
+
+
+### -field Uuid
+
+Specifies the interface 
+<a href="midl.uuid">UUID</a>.
+
+
+### -field VersMajor
+
+Major version number, an integer from 0 to 65535, inclusive.
+
+
+### -field VersMinor
+
+Minor version number, an integer from 0 to 65535, inclusive.
+
+
+## -remarks
+
+
+
+An interface identification is a subset of the data contained in the interface-specification structure. Routines that require an interface identification structure show a data type of 
+<b>RPC_IF_ID</b>. In those routines, the application is responsible for providing memory for the structure.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/1b91e88c-b242-472f-b719-60f96599cb67">RpcIfInqId</a>
+ 
+
+ 
+

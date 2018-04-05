@@ -1,0 +1,128 @@
+---
+UID: NF:ehstorapi.IEnhancedStorageSilo.GetActions
+title: IEnhancedStorageSilo::GetActions method
+author: windows-driver-content
+description: Returns an enumeration of all actions available to the silo object.
+old-location: enstor\ienhancedstoragesilo_getactions.htm
+old-project: enstor
+ms.assetid: eaf24814-b47a-4f33-ac17-d3b5b344f234
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: GetActions method [Enhanced Storage], GetActions method [Enhanced Storage], IEnhancedStorageSilo interface, GetActions,IEnhancedStorageSilo.GetActions, IEnhancedStorageSilo, IEnhancedStorageSilo interface [Enhanced Storage], GetActions method, IEnhancedStorageSilo::GetActions, ehstorapi/IEnhancedStorageSilo::GetActions, enstor.ienhancedstoragesilo_getactions
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: ehstorapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: EhStorAPI.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: TimedLevel
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	EhStorAPI.h
+api_name:
+-	IEnhancedStorageSilo.GetActions
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
+---
+
+# IEnhancedStorageSilo::GetActions method
+
+
+## -description
+
+
+Returns an enumeration of all actions available to the silo object.
+
+
+## -parameters
+
+
+
+
+### -param pppIEnhancedStorageSiloActions [out]
+
+Array of pointers to <a href="https://msdn.microsoft.com/6deb7e22-f153-45fd-98ea-53a2e5692df7">IEnhancedStorageAction</a> interface objects that represent the actions available for the silo object. This array is allocated within the API when at least one action is available to the silo.
+
+
+### -param pcEnhancedStorageSiloActions [out]
+
+Count of <a href="https://msdn.microsoft.com/6deb7e22-f153-45fd-98ea-53a2e5692df7">IEnhancedStorageAction</a> pointers returned. This value indicates the dimension of the  array represented by <i>pppIEnhancedStorageSilos</i>.
+
+
+## -returns
+
+
+
+This method can return one of these values.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+One or more ACTs were found.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+<i>pppIEnhancedStorageSiloActions</i> or  <i>pcEnhancedStorageSiloActions</i> is <b>NULL</b>.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+The memory containing the <a href="https://msdn.microsoft.com/6deb7e22-f153-45fd-98ea-53a2e5692df7">IEnhancedStorageAction</a> interface pointers is allocated by the Enhanced Storage API and must be freed by passing the returned pointer to <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/041e66d2-f772-407d-85f7-71f226c7ec4b">IEnhancedStorageSilo</a>
+ 
+
+ 
+

@@ -1,0 +1,135 @@
+---
+UID: NF:wmp.IWMPSettings.get_baseURL
+title: IWMPSettings::get_baseURL method
+author: windows-driver-content
+description: The get_baseURL method retrieves the base URL used for relative path resolution with URL script commands that are embedded in digital media content.
+old-location: wmp\iwmpsettings_get_baseurl.htm
+old-project: WMP
+ms.assetid: 2e4a2696-624f-4c6f-8947-2fe0b457332c
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: IWMPSettings, IWMPSettings interface [Windows Media Player], get_baseURL method, IWMPSettings::get_baseURL, IWMPSettingsget_baseURL, get_baseURL method [Windows Media Player], get_baseURL method [Windows Media Player], IWMPSettings interface, get_baseURL,IWMPSettings.get_baseURL, wmp.iwmpsettings_get_baseurl, wmp/IWMPSettings::get_baseURL
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wmp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Media Player 9 Series or later.
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WMPSyncState
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	wmp.dll
+api_name:
+-	IWMPSettings.get_baseURL
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IWMPSettings::get_baseURL method
+
+
+## -description
+
+
+
+The <b>get_baseURL</b> method retrieves the base URL used for relative path resolution with URL script commands that are embedded in digital media content.
+
+
+
+
+## -parameters
+
+
+
+
+### -param pbstrBaseURL [out]
+
+Pointer to a <b>BSTR</b> containing the base URL.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+This method retrieves the base HTTP URL that is passed as the command parameter by the <b>ScriptCommand</b> event. The base URL is concatenated with the relative URL as follows:
+
+<ol>
+<li>A trailing forward slash (/) is added to the value retrieved by the <b>get_baseURL</b> method.</li>
+<li>A leading period, backward slash, or forward slash character (., \, and /) is deleted from the relative URL.</li>
+<li>The relative URL is added to the end of the base URL.</li>
+<li>All slash characters in the resulting fully qualified URL are pointed in the same direction (converted to forward or backward slashes) based on the direction of the first slash character encountered in the new URL.</li>
+</ol>
+<b>Note</b>
+
+The Windows Media Player control does not support the use of two periods (..) in the relative URL to indicate the parent of the current location.
+
+<b>Windows Media Player 10 Mobile: </b>This method always retrieves a <b>BSTR</b> containing an empty string.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/1010961f-6d06-455a-9c14-bc06702e9e89">IWMPEvents::ScriptCommand</a>
+
+
+
+<a href="https://msdn.microsoft.com/e5a305a1-958e-4b6d-bb1f-f00bf5eb08dd">IWMPSettings Interface</a>
+
+
+
+<a href="https://msdn.microsoft.com/ae070004-e90e-4f1e-b8b8-15deccdc48ad">IWMPSettings::put_baseURL</a>
+ 
+
+ 
+

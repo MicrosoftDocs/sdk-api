@@ -1,0 +1,96 @@
+---
+UID: NF:vfw.ICDrawGetTime
+title: ICDrawGetTime macro
+author: windows-driver-content
+description: The ICDrawGetTime macro requests a rendering driver that controls the timing of drawing frames to return the current value of its internal clock. You can use this macro or explicitly call the ICM_DRAW_GETTIME message.
+old-location: multimedia\icdrawgettime.htm
+old-project: Multimedia
+ms.assetid: ebf21b97-7bfe-4eca-9442-9fc4db663ac6
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: ICDrawGetTime, ICDrawGetTime macro [Windows Multimedia], _win32_ICDrawGetTime, multimedia.icdrawgettime, vfw/ICDrawGetTime
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: macro
+req.header: vfw.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: VS_FIXEDFILEINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Vfw.h
+api_name:
+-	ICDrawGetTime
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
+---
+
+# ICDrawGetTime macro
+
+
+## -description
+
+
+
+The <b>ICDrawGetTime</b> macro requests a rendering driver that controls the timing of drawing frames to return the current value of its internal clock. You can use this macro or explicitly call the <a href="https://msdn.microsoft.com/77f0a322-c0bc-4cfe-a3d0-7633cf8d682a">ICM_DRAW_GETTIME</a> message.
+
+
+
+
+## -parameters
+
+
+
+
+### -param hic
+
+Handle to a driver. 
+
+
+### -param lplTime
+
+Address to contain the current time. The return value should be specified in samples. 
+
+
+## -remarks
+
+
+
+This message is generally supported by hardware that performs its own asynchronous decompression, timing, and drawing. The message can also be sent if the hardware is being used as the synchronization master.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/e8ee41fa-180a-432a-933b-b4a525b9df8c">Video Compression Macros</a>
+
+
+
+<a href="https://msdn.microsoft.com/df876309-68d3-43a3-9d83-6fdb8f345fdc">Video Compression Manager</a>
+ 
+
+ 
+

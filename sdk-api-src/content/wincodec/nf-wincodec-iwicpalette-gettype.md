@@ -1,0 +1,86 @@
+---
+UID: NF:wincodec.IWICPalette.GetType
+title: IWICPalette::GetType method
+author: windows-driver-content
+description: Retrieves the WICBitmapPaletteType that describes the palette.
+old-location: wic\_wic_codec_iwicpalette_gettype.htm
+old-project: wic
+ms.assetid: 62b15cbb-60fd-496f-8dc6-2f5292fe4e76
+ms.author: windowsdriverdev
+ms.date: 3/28/2018
+ms.keywords: GetType method [Windows Imaging Component], GetType method [Windows Imaging Component], IWICPalette interface, GetType,IWICPalette.GetType, IWICPalette, IWICPalette interface [Windows Imaging Component], GetType method, IWICPalette::GetType, _wic_codec_iwicpalette_gettype, wic._wic_codec_iwicpalette_gettype, wincodec/IWICPalette::GetType
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wincodec.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Wincodec.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WICTiffCompressionOption
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Windowscodecs.dll
+api_name:
+-	IWICPalette.GetType
+product: Windows
+targetos: Windows
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# IWICPalette::GetType method
+
+
+## -description
+
+
+Retrieves the <a href="https://msdn.microsoft.com/a8192905-2bae-4760-bf2d-64640c46e168">WICBitmapPaletteType</a> that describes the palette. 
+
+
+## -parameters
+
+
+
+
+### -param pePaletteType [out]
+
+Type: <b><a href="https://msdn.microsoft.com/a8192905-2bae-4760-bf2d-64640c46e168">WICBitmapPaletteType</a>*</b>
+
+Pointer that receives the palette type of the bimtap.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+<b>WICBitmapPaletteCustom</b> is used for palettes initialized from both <a href="https://msdn.microsoft.com/eef17030-13eb-4d59-ac47-a49ffe2c80c8">InitializeCustom</a> and <a href="https://msdn.microsoft.com/f17d0f16-729e-466c-902f-61398daf2921">InitializeFromBitmap</a>. There is no distinction is made between optimized and custom palettes.
+
+
+

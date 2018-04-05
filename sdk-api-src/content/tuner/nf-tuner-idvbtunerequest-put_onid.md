@@ -1,0 +1,87 @@
+---
+UID: NF:tuner.IDVBTuneRequest.put_ONID
+title: IDVBTuneRequest::put_ONID method
+author: windows-driver-content
+description: The put_ONID method sets the original network ID.
+old-location: mstv\idvbtunerequest_put_onid.htm
+old-project: mstv
+ms.assetid: 6f080aed-3a25-4464-ab74-27327a9f62a5
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: IDVBTuneRequest, IDVBTuneRequest interface [Microsoft TV Technologies], put_ONID method, IDVBTuneRequest::put_ONID, IDVBTuneRequestput_ONID, mstv.idvbtunerequest_put_onid, put_ONID method [Microsoft TV Technologies], put_ONID method [Microsoft TV Technologies], IDVBTuneRequest interface, put_ONID,IDVBTuneRequest.put_ONID, tuner/IDVBTuneRequest::put_ONID
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: tuner.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: None supported
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Tuner.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	tuner.h
+api_name:
+-	IDVBTuneRequest.put_ONID
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# IDVBTuneRequest::put_ONID method
+
+
+## -description
+
+
+
+The <b>put_ONID</b> method sets the original network ID.
+
+
+
+
+## -parameters
+
+
+
+
+### -param ONID [in]
+
+The original network ID.
+
+
+## -returns
+
+
+
+Returns S_OK if successful. If the method fails, error information can be retrieved using the standard COM <b>IErrorInfo</b> interface.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/4d519bbc-38e1-47ce-bd73-a3eb1ea399d6">IDVBTuneRequest Interface</a>
+ 
+
+ 
+

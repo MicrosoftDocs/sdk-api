@@ -1,0 +1,108 @@
+---
+UID: NF:shobjidl.IApplicationAssociationRegistrationUI.LaunchAdvancedAssociationUI
+title: IApplicationAssociationRegistrationUI::LaunchAdvancedAssociationUI method
+author: windows-driver-content
+description: Launches an advanced association dialog box through which the user can customize the associations for the application specified in pszAppRegName.
+old-location: shell\IApplicationAssociationRegistrationUI_LaunchAdvancedAssociationUI.htm
+old-project: shell
+ms.assetid: db2fc087-2f22-40df-8ec9-f673c0fe81ff
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: IApplicationAssociationRegistrationUI, IApplicationAssociationRegistrationUI interface [Windows Shell], LaunchAdvancedAssociationUI method, IApplicationAssociationRegistrationUI::LaunchAdvancedAssociationUI, LaunchAdvancedAssociationUI method [Windows Shell], LaunchAdvancedAssociationUI method [Windows Shell], IApplicationAssociationRegistrationUI interface, LaunchAdvancedAssociationUI,IApplicationAssociationRegistrationUI.LaunchAdvancedAssociationUI, _shell_IApplicationAssociationRegistrationUI_LaunchAdvancedAssociationUI, shell.IApplicationAssociationRegistrationUI_LaunchAdvancedAssociationUI, shobjidl/IApplicationAssociationRegistrationUI::LaunchAdvancedAssociationUI
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: shobjidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Shobjidl.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: VPWATERMARKFLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Shobjidl.h
+api_name:
+-	IApplicationAssociationRegistrationUI.LaunchAdvancedAssociationUI
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 6.01
+---
+
+# IApplicationAssociationRegistrationUI::LaunchAdvancedAssociationUI method
+
+
+## -description
+
+
+Launches an advanced association dialog box through which the user can customize the associations for the application specified in <i>pszAppRegName</i>.
+
+
+## -parameters
+
+
+
+
+### -param pszAppRegistryName
+
+
+
+
+
+
+#### - pszAppRegName [in]
+
+Type: <b>LPCWSTR</b>
+
+A pointer to a null-terminated Unicode string that specifies the registered name of the application. This value is only valid if it matches one of the application strings registered under <b>HKCU\Software\RegisteredApplications</b> or under <b>HKLM\Software\RegisteredApplications</b>.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+Starting in Windows 10, this does not launch the association dialog box. It displays a dialog to the user informing them that they can change the default programs used to open file extensions in their <b>Settings</b>
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/78cd05a4-df33-42b5-91b9-826ebce04a1d">Default Programs</a>
+
+
+
+<a href="https://msdn.microsoft.com/3a4d6f1d-72c2-4bd0-ad44-1c42a5bf9cb6">IApplicationAssociationRegistrationUI</a>
+ 
+
+ 
+

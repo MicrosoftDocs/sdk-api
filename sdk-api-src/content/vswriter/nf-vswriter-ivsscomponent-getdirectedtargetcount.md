@@ -1,0 +1,135 @@
+---
+UID: NF:vswriter.IVssComponent.GetDirectedTargetCount
+title: IVssComponent::GetDirectedTargetCount method
+author: windows-driver-content
+description: The GetDirectedTargetCount method returns the number of directed target specifications associated with the current component. Either a writer or a requester can call this method.
+old-location: base\ivsscomponent_getdirectedtargetcount.htm
+old-project: VSS
+ms.assetid: 3c8cf80e-66b9-4c6f-a63d-90626937582b
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: GetDirectedTargetCount method [VSS], GetDirectedTargetCount method [VSS], IVssComponent interface, GetDirectedTargetCount,IVssComponent.GetDirectedTargetCount, IVssComponent, IVssComponent interface [VSS], GetDirectedTargetCount method, IVssComponent::GetDirectedTargetCount, _win32_ivsscomponent_getdirectedtargetcount, base.ivsscomponent_getdirectedtargetcount, vswriter/IVssComponent::GetDirectedTargetCount
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: vswriter.h
+req.include-header: Vss.h, VsWriter.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: VSS_WRITERRESTORE_ENUM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	VssApi.lib
+-	VssApi.dll
+api_name:
+-	IVssComponent.GetDirectedTargetCount
+product: Windows
+targetos: Windows
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
+req.product: Windows UI
+---
+
+# IVssComponent::GetDirectedTargetCount method
+
+
+## -description
+
+
+The 
+<b>GetDirectedTargetCount</b> method returns the number of directed target specifications associated with the current component. Either a writer or a requester can call this method.
+
+
+## -parameters
+
+
+
+
+### -param pcDirectedTarget [out]
+
+The address of a caller-allocated variable that receives the number of directed target specifications.
+
+
+## -returns
+
+
+
+The following are the valid return codes for this method.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+Successfully returned the attribute value.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+One of the parameter values is not valid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_OUTOFMEMORY</b></dt>
+</dl>
+</td>
+<td width="60%">
+The caller is out of memory or other system resources.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/c686a424-b0b9-4efc-8dc6-b92193de2a5d">IVssComponent</a>
+
+
+
+<a href="https://msdn.microsoft.com/927865ff-f3c4-4863-913e-cfffb7bbdbb2">IVssComponent::AddDirectedTarget</a>
+
+
+
+<a href="https://msdn.microsoft.com/e25760b0-14e2-4f1b-b4ff-e7b78f0b7b12">IVssComponent::GetDirectedTarget</a>
+ 
+
+ 
+

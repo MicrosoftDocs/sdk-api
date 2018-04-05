@@ -1,0 +1,123 @@
+---
+UID: NF:wincodec.IWICBitmapCodecInfo.MatchesMimeType
+title: IWICBitmapCodecInfo::MatchesMimeType method
+author: windows-driver-content
+description: Retrieves a value indicating whether the given mime type matches the mime type of the codec.
+old-location: wic\_wic_codec_iwicbitmapcodecinfo_matchesmimetype.htm
+old-project: wic
+ms.assetid: 43704d5c-d2c2-4817-b61b-a752d32105aa
+ms.author: windowsdriverdev
+ms.date: 3/28/2018
+ms.keywords: IWICBitmapCodecInfo, IWICBitmapCodecInfo interface [Windows Imaging Component], MatchesMimeType method, IWICBitmapCodecInfo::MatchesMimeType, MatchesMimeType method [Windows Imaging Component], MatchesMimeType method [Windows Imaging Component], IWICBitmapCodecInfo interface, MatchesMimeType,IWICBitmapCodecInfo.MatchesMimeType, _wic_codec_iwicbitmapcodecinfo_matchesmimetype, wic._wic_codec_iwicbitmapcodecinfo_matchesmimetype, wincodec/IWICBitmapCodecInfo::MatchesMimeType
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wincodec.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Wincodec.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WICTiffCompressionOption
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Windowscodecs.dll
+api_name:
+-	IWICBitmapCodecInfo.MatchesMimeType
+product: Windows
+targetos: Windows
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# IWICBitmapCodecInfo::MatchesMimeType method
+
+
+## -description
+
+
+Retrieves a value indicating whether the given mime type matches the mime type of the codec.
+
+
+## -parameters
+
+
+
+
+### -param wzMimeType [in]
+
+Type: <b>LPCWSTR</b>
+
+The mime type to compare.
+
+
+### -param pfMatches [out]
+
+Type: <b>BOOL*</b>
+
+Receives <b>TRUE</b> if the mime types match; otherwise, <b>FALSE</b>.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+This method can return one of these values.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The operation was successful.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_NOTIMPL</b></dt>
+</dl>
+</td>
+<td width="60%">
+The codec does not implement this method.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+<div class="alert"><b>Note</b>  The Windows provided codecs do not implement this method and return E_NOTIMPL.</div>
+<div> </div>
+
+

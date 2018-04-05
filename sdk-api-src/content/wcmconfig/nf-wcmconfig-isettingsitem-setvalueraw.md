@@ -1,0 +1,135 @@
+---
+UID: NF:wcmconfig.ISettingsItem.SetValueRaw
+title: ISettingsItem::SetValueRaw method
+author: windows-driver-content
+description: Sets the value of the current item by supplying data in raw form.
+old-location: smi\isettingsitem_setvalueraw.htm
+old-project: SMI
+ms.assetid: 65925c16-7a12-440f-ba2d-9156e41049ba
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: ISettingsItem, ISettingsItem interface [SMI], SetValueRaw method, ISettingsItem::SetValueRaw, SetValueRaw method [SMI], SetValueRaw method [SMI], ISettingsItem interface, SetValueRaw,ISettingsItem.SetValueRaw, smi.isettingsitem_setvalueraw, wcmconfig/ISettingsItem::SetValueRaw
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wcmconfig.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: WcmConfig.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WcmNamespaceAccess
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SMIEngine.dll
+api_name:
+-	ISettingsItem.SetValueRaw
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SMIEngine.dll
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# ISettingsItem::SetValueRaw method
+
+
+## -description
+
+
+Sets the value of the current item by supplying data in raw form.
+
+
+## -parameters
+
+
+
+
+### -param DataType [in]
+
+The data type of the item.
+
+
+### -param Data [in]
+
+A byte array that contains the value of the item.
+
+
+### -param DataSize [in]
+
+The size of the byte array.
+
+
+## -returns
+
+
+
+This method can return one of these values.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+Indicates success.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>WCM_E_INVALIDVALUE, WCM_E_INVALIDVALUEFORMAT, or WCM_E_INVALIDDATATYPE</b></dt>
+</dl>
+</td>
+<td width="60%">
+Indicates that the value is not of the correct type for the item, or that the value cannot be coerced to the correct type.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>WCM_E_READONLYITEM</b></dt>
+</dl>
+</td>
+<td width="60%">
+Indicates that the item cannot be written, either because it is a read-only item, or because the namespace was opened in ReadOnly mode.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/a743d942-69f9-426b-be88-adf88b9bb1e0">ISettingsItem</a>
+ 
+
+ 
+

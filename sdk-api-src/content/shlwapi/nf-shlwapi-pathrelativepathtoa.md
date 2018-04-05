@@ -1,0 +1,170 @@
+---
+UID: NF:shlwapi.PathRelativePathToA
+title: PathRelativePathToA function
+author: windows-driver-content
+description: Creates a relative path from one file or folder to another.
+old-location: shell\PathRelativePathTo.htm
+old-project: shell
+ms.assetid: 7ed8d50a-2ad4-4ddf-941d-aea593341592
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: PathRelativePathTo, PathRelativePathTo function [Windows Shell], PathRelativePathToA, PathRelativePathToW, _win32_PathRelativePathTo, shell.PathRelativePathTo, shlwapi/PathRelativePathTo, shlwapi/PathRelativePathToA, shlwapi/PathRelativePathToW
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: shlwapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: PathRelativePathToW (Unicode) and PathRelativePathToA (ANSI)
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: URL_SCHEME
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Shlwapi.dll
+-	API-MS-Win-Core-shlwapi-legacy-l1-1-0.dll
+-	KernelBase.dll
+-	API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
+-	API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
+api_name:
+-	PathRelativePathTo
+-	PathRelativePathToA
+-	PathRelativePathToW
+product: Windows
+targetos: Windows
+req.lib: Shlwapi.lib
+req.dll: Shlwapi.dll (version 4.71 or later)
+req.irql: 
+req.product: Internet Explorer 6.01
+---
+
+# PathRelativePathToA function
+
+
+## -description
+
+
+Creates a relative path from one file or folder to another.
+
+
+## -parameters
+
+
+
+
+### -param pszPath [out]
+
+Type: <b>LPTSTR</b>
+
+A pointer to a string that receives the relative path. This buffer must be at least MAX_PATH characters in size.
+
+
+### -param pszFrom [in]
+
+Type: <b>LPCTSTR</b>
+
+A pointer to a null-terminated string of maximum length MAX_PATH that contains the path that defines the start of the relative path.
+
+
+### -param dwAttrFrom [in]
+
+Type: <b>DWORD</b>
+
+The file attributes of <i>pszFrom</i>. If this value contains FILE_ATTRIBUTE_DIRECTORY, <i>pszFrom</i> is assumed to be a directory; otherwise, <i>pszFrom</i> is assumed to be a file.
+
+
+### -param pszTo [in]
+
+Type: <b>LPCTSTR</b>
+
+A pointer to a null-terminated string of maximum length MAX_PATH that contains the path that defines the endpoint of the relative path.
+
+
+### -param dwAttrTo [in]
+
+Type: <b>DWORD</b>
+
+The file attributes of <i>pszTo</i>. If this value contains FILE_ATTRIBUTE_DIRECTORY, <i>pszTo</i> is assumed to be directory; otherwise, <i>pszTo</i> is assumed to be a file.
+
+
+## -returns
+
+
+
+Type: <b>BOOL</b>
+
+Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
+
+
+
+
+## -remarks
+
+
+
+This function takes a pair of paths and generates a relative path from one to the other. The paths do not have to be fully qualified, but they must have a common prefix, or the function will fail and return <b>FALSE</b>.
+
+For example, let the starting point, <i>pszFrom</i>, be "c:\FolderA\FolderB\FolderC", and the ending point, <i>pszTo</i>, be "c:\FolderA\FolderD\FolderE". <b>PathRelativePathTo</b> will return the relative path from <i>pszFrom</i> to <i>pszTo</i> as: "..\..\FolderD\FolderE". You will get the same result if you set <i>pszFrom</i> to "\FolderA\FolderB\FolderC" and <i>pszTo</i> to "\FolderA\FolderD\FolderE". On the other hand, "c:\FolderA\FolderB" and "a:\FolderA\FolderD do not share a common prefix, and the function will fail. Note that "\\" is not considered a prefix and is ignored. If you set <i>pszFrom</i> to "\\FolderA\FolderB", and <i>pszTo</i> to "\\FolderC\FolderD", the function will fail.
+
+
+#### Examples
+
+
+
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;iostream.h&gt;
+#include "Shlwapi.h"
+
+void main(void)
+{
+    char szOut[MAX_PATH] = "";
+    char szFrom[ ] = "c:\\a\\b\\path";
+    char szTo[ ] = "c:\\a\\x\\y\\file";
+
+    cout  &lt;&lt;  "The relative path is relative from: ";
+    cout  &lt;&lt;  szFrom;
+    cout  &lt;&lt;  "\n";
+
+    cout  &lt;&lt;  "The relative path is relative to: ";
+    cout  &lt;&lt;  szTo;
+    cout  &lt;&lt;  "\n";
+
+    PathRelativePathTo(szOut,
+                       szFrom,
+                       FILE_ATTRIBUTE_DIRECTORY,
+                       szTo,
+                       FILE_ATTRIBUTE_NORMAL);
+
+    cout  &lt;&lt;  "The relative path is: ";
+    cout  &lt;&lt;  szOut;
+    cout  &lt;&lt;  "\n";
+}
+
+OUTPUT:
+==================
+The relative path is relative from: c:\a\b\path
+The relative path is relative to: c:\a\x\y\file
+The relative path is: ..\..\x\y\file</pre>
+</td>
+</tr>
+</table></span></div>
+
+

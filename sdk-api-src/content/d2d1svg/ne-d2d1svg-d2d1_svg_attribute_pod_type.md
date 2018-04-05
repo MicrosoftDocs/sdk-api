@@ -1,0 +1,131 @@
+---
+UID: NE:d2d1svg.D2D1_SVG_ATTRIBUTE_POD_TYPE
+title: D2D1_SVG_ATTRIBUTE_POD_TYPE
+author: windows-driver-content
+description: Defines the type of SVG POD attribute to set or get.
+old-location: direct2d\d2d1_svg_attribute_pod_type.htm
+old-project: Direct2D
+ms.assetid: B04D5E56-8E59-4907-BEA0-D954A300DAD0
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: D2D1_SVG_ATTRIBUTE_POD_TYPE, D2D1_SVG_ATTRIBUTE_POD_TYPE enumeration [Direct2D], D2D1_SVG_ATTRIBUTE_POD_TYPE_COLOR, D2D1_SVG_ATTRIBUTE_POD_TYPE_DISPLAY, D2D1_SVG_ATTRIBUTE_POD_TYPE_EXTEND_MODE, D2D1_SVG_ATTRIBUTE_POD_TYPE_FILL_MODE, D2D1_SVG_ATTRIBUTE_POD_TYPE_FLOAT, D2D1_SVG_ATTRIBUTE_POD_TYPE_FORCE_DWORD, D2D1_SVG_ATTRIBUTE_POD_TYPE_LENGTH, D2D1_SVG_ATTRIBUTE_POD_TYPE_LINE_CAP, D2D1_SVG_ATTRIBUTE_POD_TYPE_LINE_JOIN, D2D1_SVG_ATTRIBUTE_POD_TYPE_MATRIX, D2D1_SVG_ATTRIBUTE_POD_TYPE_OVERFLOW, D2D1_SVG_ATTRIBUTE_POD_TYPE_PRESERVE_ASPECT_RATIO, D2D1_SVG_ATTRIBUTE_POD_TYPE_UNIT_TYPE, D2D1_SVG_ATTRIBUTE_POD_TYPE_VIEWBOX, D2D1_SVG_ATTRIBUTE_POD_TYPE_VISIBILITY, d2d1svg/D2D1_SVG_ATTRIBUTE_POD_TYPE, d2d1svg/D2D1_SVG_ATTRIBUTE_POD_TYPE_COLOR, d2d1svg/D2D1_SVG_ATTRIBUTE_POD_TYPE_DISPLAY, d2d1svg/D2D1_SVG_ATTRIBUTE_POD_TYPE_EXTEND_MODE, d2d1svg/D2D1_SVG_ATTRIBUTE_POD_TYPE_FILL_MODE, d2d1svg/D2D1_SVG_ATTRIBUTE_POD_TYPE_FLOAT, d2d1svg/D2D1_SVG_ATTRIBUTE_POD_TYPE_FORCE_DWORD, d2d1svg/D2D1_SVG_ATTRIBUTE_POD_TYPE_LENGTH, d2d1svg/D2D1_SVG_ATTRIBUTE_POD_TYPE_LINE_CAP, d2d1svg/D2D1_SVG_ATTRIBUTE_POD_TYPE_LINE_JOIN, d2d1svg/D2D1_SVG_ATTRIBUTE_POD_TYPE_MATRIX, d2d1svg/D2D1_SVG_ATTRIBUTE_POD_TYPE_OVERFLOW, d2d1svg/D2D1_SVG_ATTRIBUTE_POD_TYPE_PRESERVE_ASPECT_RATIO, d2d1svg/D2D1_SVG_ATTRIBUTE_POD_TYPE_UNIT_TYPE, d2d1svg/D2D1_SVG_ATTRIBUTE_POD_TYPE_VIEWBOX, d2d1svg/D2D1_SVG_ATTRIBUTE_POD_TYPE_VISIBILITY, direct2d.d2d1_svg_attribute_pod_type
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: enum
+req.header: d2d1svg.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: D2D1_SVG_ATTRIBUTE_POD_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	d2d1svg.h
+api_name:
+-	D2D1_SVG_ATTRIBUTE_POD_TYPE
+product: Windows
+targetos: Windows
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
+---
+
+# D2D1_SVG_ATTRIBUTE_POD_TYPE enumeration
+
+
+## -description
+
+
+Defines the type of SVG POD attribute to set or get.
+
+
+## -enum-fields
+
+
+
+
+### -field D2D1_SVG_ATTRIBUTE_POD_TYPE_FLOAT
+
+The attribute is a FLOAT.
+
+
+### -field D2D1_SVG_ATTRIBUTE_POD_TYPE_COLOR
+
+The attribute is a D2D1_COLOR_F.
+
+
+### -field D2D1_SVG_ATTRIBUTE_POD_TYPE_FILL_MODE
+
+The attribute is a D2D1_FILL_MODE.
+
+
+### -field D2D1_SVG_ATTRIBUTE_POD_TYPE_DISPLAY
+
+The attribute is a D2D1_SVG_DISPLAY.
+
+
+### -field D2D1_SVG_ATTRIBUTE_POD_TYPE_OVERFLOW
+
+The attribute is a D2D1_SVG_OVERFLOW.
+
+
+### -field D2D1_SVG_ATTRIBUTE_POD_TYPE_LINE_CAP
+
+The attribute is a D2D1_SVG_LINE_CAP.
+
+
+### -field D2D1_SVG_ATTRIBUTE_POD_TYPE_LINE_JOIN
+
+The attribute is a D2D1_SVG_LINE_JOIN.
+
+
+### -field D2D1_SVG_ATTRIBUTE_POD_TYPE_VISIBILITY
+
+The attribute is a D2D1_SVG_VISIBILITY.
+
+
+### -field D2D1_SVG_ATTRIBUTE_POD_TYPE_MATRIX
+
+The attribute is a D2D1_MATRIX_3X2_F.
+
+
+### -field D2D1_SVG_ATTRIBUTE_POD_TYPE_UNIT_TYPE
+
+The attribute is a D2D1_SVG_UNIT_TYPE.
+
+
+### -field D2D1_SVG_ATTRIBUTE_POD_TYPE_EXTEND_MODE
+
+The attribute is a D2D1_EXTEND_MODE.
+
+
+### -field D2D1_SVG_ATTRIBUTE_POD_TYPE_PRESERVE_ASPECT_RATIO
+
+The attribute is a D2D1_SVG_PRESERVE_ASPECT_RATIO.
+
+
+### -field D2D1_SVG_ATTRIBUTE_POD_TYPE_VIEWBOX
+
+The attribute is a D2D1_SVG_VIEWBOX.
+
+
+### -field D2D1_SVG_ATTRIBUTE_POD_TYPE_LENGTH
+
+The attribute is a D2D1_SVG_LENGTH.
+
+
+### -field D2D1_SVG_ATTRIBUTE_POD_TYPE_FORCE_DWORD
+

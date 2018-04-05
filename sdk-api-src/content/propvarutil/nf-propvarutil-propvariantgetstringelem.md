@@ -1,0 +1,158 @@
+---
+UID: NF:propvarutil.PropVariantGetStringElem
+title: PropVariantGetStringElem function
+author: windows-driver-content
+description: Extracts a single Unicode string element from a PROPVARIANT structure of type VT_LPWSTR, VT_BSTR, VT_VECTOR | VT_LPWSTR, VT_VECTOR | VT_BSTR, or VT_ARRAY | VT_BSTR.
+old-location: properties\PropVariantGetStringElem.htm
+old-project: properties
+ms.assetid: 6e803d93-5b55-4b73-8e23-a584f5f91969
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: PropVariantGetStringElem, PropVariantGetStringElem function [Windows Properties], _shell_PropVariantGetStringElem, properties.PropVariantGetStringElem, propvarutil/PropVariantGetStringElem, shell.PropVariantGetStringElem
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: propvarutil.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: PROPVAR_COMPARE_UNIT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Propsys.dll
+api_name:
+-	PropVariantGetStringElem
+product: Windows
+targetos: Windows
+req.lib: Propsys.lib
+req.dll: Propsys.dll (version 6.0 or later)
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# PropVariantGetStringElem function
+
+
+## -description
+
+
+Extracts a single Unicode string element from a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> structure of type VT_LPWSTR, VT_BSTR, VT_VECTOR | VT_LPWSTR, VT_VECTOR | VT_BSTR, or VT_ARRAY | VT_BSTR.
+
+
+## -parameters
+
+
+
+
+### -param propvar [in]
+
+Type: <b>REFPROPVARIANT</b>
+
+Reference to a source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> structure.
+
+
+### -param iElem [in]
+
+Type: <b>ULONG</b>
+
+The vector or array index; otherwise, <i>iElem</i> must be 0.
+
+
+### -param ppszVal [out]
+
+Type: <b>PWSTR*</b>
+
+When this function returns, contains the extracted string value. The calling application is responsible for freeing this string by calling <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a> when it is no longer needed.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+This helper function works for <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> structures of the following types: 
+
+                
+
+<ul>
+<li>VT_LPWSTR</li>
+<li>VT_BSTR</li>
+<li>VT_VECTOR | VT_LPWSTR</li>
+<li>VT_VECTOR | VT_BSTR</li>
+<li>VT_ARRAY | VT_BSTR</li>
+</ul>
+If the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> has type VT_LPWSTR or VT_BSTR, <i>iElem</i> must be 0. Otherwise <i>iElem</i> must be less than the number of elements in the vector or array. You can use <a href="shell.PropVariantGetElementCount">PropVariantGetElementCount</a> to obtain the number of elements in the vector or array.
+
+If a BSTR element has a <b>NULL</b> pointer, this function allocates an empty string.
+
+
+#### Examples
+
+The following code example, to be included as part of a larger program, demonstrates how to use <a href="shell.PropVariantGetStringElem">PropVariantGetStringElem</a> with an iteration statement to access the values in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
+
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// PROPVARIANT propvar;
+// Assume the variable propvar is initialized and valid
+
+if ((propvar.vt &amp; VT_TYPEMASK) == VT_LPWSTR || (propvar.vt &amp; VT_TYPEMASK) == VT_BSTR)
+{
+    UINT cElem = PropVariantGetElementCount(propvar);
+    HRESULT hr = &lt;mark type="const"&gt;S_OK&lt;/mark&gt;;
+
+    for (UINT iElem = 0; SUCCEEDED(hr) &amp;&amp; iElem &lt; cElem; iElem ++)
+    {
+        PWSTR pszValue;
+        hr = PropVariantGetStringElem(propvar, iElem, &amp;pszValue);
+
+        if (SUCCEEDED(hr))
+        {
+            // pszValue is valid now
+            CoTaskMemFree(pszValue);
+        }
+    }
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
+
+## -see-also
+
+
+
+
+<a href="shell.PropVariantGetElem">PropVariantGetElem</a>
+ 
+
+ 
+

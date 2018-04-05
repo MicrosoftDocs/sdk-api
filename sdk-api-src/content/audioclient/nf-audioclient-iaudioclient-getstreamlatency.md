@@ -1,0 +1,159 @@
+---
+UID: NF:audioclient.IAudioClient.GetStreamLatency
+title: IAudioClient::GetStreamLatency method
+author: windows-driver-content
+description: The GetStreamLatency method retrieves the maximum latency for the current stream and can be called any time after the stream has been initialized.
+old-location: coreaudio\iaudioclient_getstreamlatency.htm
+old-project: CoreAudio
+ms.assetid: ccc06e31-e56f-4910-882a-40b1ce0b43aa
+ms.author: windowsdriverdev
+ms.date: 3/30/2018
+ms.keywords: GetStreamLatency method [Core Audio], GetStreamLatency method [Core Audio], IAudioClient interface, GetStreamLatency,IAudioClient.GetStreamLatency, IAudioClient, IAudioClient interface [Core Audio], GetStreamLatency method, IAudioClient::GetStreamLatency, IAudioClientGetStreamLatency, audioclient/IAudioClient::GetStreamLatency, coreaudio.iaudioclient_getstreamlatency
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: audioclient.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Audioclient.h
+api_name:
+-	IAudioClient.GetStreamLatency
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# IAudioClient::GetStreamLatency method
+
+
+## -description
+
+
+
+The <b>GetStreamLatency</b> method retrieves the maximum latency for the current stream and can be called any time after the stream has been initialized.
+
+
+
+
+## -parameters
+
+
+
+
+### -param phnsLatency [out]
+
+Pointer to a <a href="https://msdn.microsoft.com/862c95bc-2e0a-42c0-b907-45f64f27bd41">REFERENCE_TIME</a> variable into which the method writes a time value representing the latency. The time is expressed in 100-nanosecond units. For more information about <b>REFERENCE_TIME</b>, see the Windows SDK documentation.
+
+
+## -returns
+
+
+
+If the method succeeds, it returns S_OK. If it fails, possible return codes include, but are not limited to, the values shown in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>AUDCLNT_E_NOT_INITIALIZED</b></dt>
+</dl>
+</td>
+<td width="60%">
+The audio stream has not been successfully initialized.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>AUDCLNT_E_DEVICE_INVALIDATED</b></dt>
+</dl>
+</td>
+<td width="60%">
+The audio endpoint device has been unplugged, or the audio hardware or associated hardware resources have been reconfigured, disabled, removed, or otherwise made unavailable for use.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>AUDCLNT_E_SERVICE_NOT_RUNNING</b></dt>
+</dl>
+</td>
+<td width="60%">
+The Windows audio service is not running.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_POINTER</b></dt>
+</dl>
+</td>
+<td width="60%">
+Parameter <i>phnsLatency</i> is <b>NULL</b>.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+This method requires prior initialization of the <a href="https://msdn.microsoft.com/5088a3f1-5001-4ed9-a495-9e91df613ab0">IAudioClient</a> interface. All calls to this method will fail with the error AUDCLNT_E_NOT_INITIALIZED until the client initializes the audio stream by successfully calling the <a href="https://msdn.microsoft.com/eb778503-06f8-4705-9f8d-9a4fd886ae27">IAudioClient::Initialize</a> method.
+
+This method retrieves the maximum latency for the current stream. The value will not change for the lifetime of the <a href="https://msdn.microsoft.com/5088a3f1-5001-4ed9-a495-9e91df613ab0">IAudioClient</a> object.
+
+Rendering clients can use this latency value to compute the minimum amount of data that they can write during any single processing pass. To write less than this minimum is to risk introducing glitches into the audio stream. For more information, see <a href="https://msdn.microsoft.com/c2a0d46b-e8d4-4c51-9810-5580504c9731">IAudioRenderClient::GetBuffer</a>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/5088a3f1-5001-4ed9-a495-9e91df613ab0">IAudioClient Interface</a>
+
+
+
+<a href="https://msdn.microsoft.com/eb778503-06f8-4705-9f8d-9a4fd886ae27">IAudioClient::Initialize</a>
+
+
+
+<a href="https://msdn.microsoft.com/c2a0d46b-e8d4-4c51-9810-5580504c9731">IAudioRenderClient::GetBuffer</a>
+ 
+
+ 
+

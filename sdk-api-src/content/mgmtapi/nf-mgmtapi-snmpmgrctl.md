@@ -1,0 +1,194 @@
+---
+UID: NF:mgmtapi.SnmpMgrCtl
+title: SnmpMgrCtl function
+author: windows-driver-content
+description: The SnmpMgrCtl function sets an operating parameter associated with an SNMP session. This function is an element of the SNMP Management API.
+old-location: snmp\snmpmgrctl.htm
+old-project: SNMP
+ms.assetid: d777c944-a19f-4465-ae56-b60beaa1191c
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: SnmpMgrCtl, SnmpMgrCtl function [SNMP], _snmp_snmpmgrctl, mgmtapi/SnmpMgrCtl, snmp.snmpmgrctl
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: mgmtapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: SOURCE_GROUP_ENTRY, *PSOURCE_GROUP_ENTRY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Mgmtapi.dll
+api_name:
+-	SnmpMgrCtl
+product: Windows
+targetos: Windows
+req.lib: Mgmtapi.lib
+req.dll: Mgmtapi.dll
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# SnmpMgrCtl function
+
+
+## -description
+
+
+<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://msdn.microsoft.com/6429e748-e0bf-431a-8989-db5b211665d5">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
+
+The
+				<b>SnmpMgrCtl</b> function sets an operating parameter associated with an SNMP session. This function is an element of the SNMP Management API.
+
+
+## -parameters
+
+
+
+
+### -param session [in]
+
+Pointer to an internal structure that specifies the session to which the control code applies.
+
+
+### -param dwCtlCode [in]
+
+Specifies a value (a control code) that identifies the operation to perform. 
+
+
+
+
+Currently, MGMCTL_SETAGENTPORT is the only supported control code. Setting this code allows an SNMP management application to send requests to a remote agent that is "listening" for SNMP manager requests on an arbitrary port. For more information, see the <i>lpvInBuffer</i> and the <i>cbInBuffer</i> parameter descriptions.
+
+
+### -param lpvInBuffer [in]
+
+Pointer to the buffer that contains the input parameters required for the operation. 
+
+
+
+
+When you specify the MGMCTL_SETAGENTPORT control code, this parameter must point to an unsigned integer that specifies the port number on which the remote agent will "listen" for SNMP manager requests. The port number must be in host-byte order.
+
+
+### -param cbInBuffer [in]
+
+Specifies the size, in bytes, of the buffer pointed to by the <i>lpvInBuffer</i> parameter. 
+
+
+
+
+When you specify the MGMCTL_SETAGENTPORT control code, this parameter is equal to sizeof(UINT).
+
+
+### -param lpvOUTBuffer
+
+TBD
+
+
+### -param cbOUTBuffer
+
+TBD
+
+
+### -param lpcbBytesReturned [out]
+
+Pointer to a variable that receives the actual size, in bytes, of the data stored in the buffer pointed to by the <i>lpvOutBuffer</i> parameter.
+
+
+#### - cbOutBuffer [out]
+
+Specifies the size, in bytes, of the buffer pointed to by the <i>lpvOutBuffer</i> parameter.
+
+
+#### - lpvOutBuffer [out]
+
+Pointer to the buffer that receives the operation's output data.
+
+
+## -returns
+
+
+
+If the function succeeds, the return value is nonzero.
+
+If the function fails, the return value is zero. To get extended error information, call 
+<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. <b>GetLastError</b> can also return one of the following error codes.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>SNMP_MGMTAPI_INVALID_CTL</b></dt>
+</dl>
+</td>
+<td width="60%">
+The <i>dwCtlCode</i> parameter does not specify a valid control code.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>SNMP_MGMTAPI_INVALID_SESSION</b></dt>
+</dl>
+</td>
+<td width="60%">
+The <i>session</i> parameter does not specify a valid SNMP session.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>SNMP_MGMTAPI_INVALID_BUFFER</b></dt>
+</dl>
+</td>
+<td width="60%">
+One or more of the <i>lpvInBuffer</i>, <i>lpvOutBuffer</i>, or <i>lpcbBytesRequired</i> parameters are invalid, or the <i>cbInBuffer</i> or <i>cbOutBuffer</i> parameter is too small.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/8913caa9-6b2c-424c-a778-bd54d6584dac">SNMP Functions</a>
+
+
+
+<a href="https://msdn.microsoft.com/499e912b-0821-452e-81f6-8a8250875979">Simple Network Management Protocol (SNMP) Overview</a>
+
+
+
+<a href="https://msdn.microsoft.com/e2827352-f1aa-477e-933c-942c73cea487">SnmpMgrOpen</a>
+ 
+
+ 
+

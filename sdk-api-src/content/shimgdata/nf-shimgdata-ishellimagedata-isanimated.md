@@ -1,0 +1,102 @@
+---
+UID: NF:shimgdata.IShellImageData.IsAnimated
+title: IShellImageData::IsAnimated method
+author: windows-driver-content
+description: Determines whether the image is animated.
+old-location: shell\IShellImageData_IsAnimated.htm
+old-project: shell
+ms.assetid: b5b36862-5beb-4702-a5b3-feb70dc5e1ef
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: IShellImageData, IShellImageData interface [Windows Shell], IsAnimated method, IShellImageData::IsAnimated, IsAnimated method [Windows Shell], IsAnimated method [Windows Shell], IShellImageData interface, IsAnimated,IShellImageData.IsAnimated, _shell_IShellImageData_IsAnimated, shell.IShellImageData_IsAnimated, shimgdata/IShellImageData::IsAnimated
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: shimgdata.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Shimgdata.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: SHELL_UI_COMPONENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Shell32.dll
+api_name:
+-	IShellImageData.IsAnimated
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
+req.product: Internet Explorer 5.0
+---
+
+# IShellImageData::IsAnimated method
+
+
+## -description
+
+
+Determines whether the image is animated.
+
+
+## -parameters
+
+
+
+
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+Returns one of the following:
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The image is animated.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_FALSE</b></dt>
+</dl>
+</td>
+<td width="60%">
+The image is not animated, has not been decoded, or the decoding process failed.
+
+</td>
+</tr>
+</table>
+ 
+
+
+

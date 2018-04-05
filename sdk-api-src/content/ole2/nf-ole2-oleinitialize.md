@@ -1,0 +1,167 @@
+---
+UID: NF:ole2.OleInitialize
+title: OleInitialize function
+author: windows-driver-content
+description: Initializes the COM library on the current apartment, identifies the concurrency model as single-thread apartment (STA), and enables additional functionality described in the Remarks section below.
+old-location: com\oleinitialize.htm
+old-project: com
+ms.assetid: 9a13e7a0-f2e2-466b-98f5-38d5972fa391
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: OleInitialize, OleInitialize function [COM], _ole_OleInitialize, com.oleinitialize, ole2/OleInitialize
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: ole2.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: QACONTROL
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Ole32.dll
+-	Ext-MS-Win-COM-OLE32-l1-1-0.dll
+-	Ext-MS-Win-COM-OLE32-l1-1-1.dll
+-	Ext-MS-Win-COM-OLE32-l1-1-2.dll
+-	ext-ms-win-com-ole32-l1-1-3.dll
+-	Ext-MS-Win-Com-Ole32-L1-1-4.dll
+api_name:
+-	OleInitialize
+product: Windows
+targetos: Windows
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# OleInitialize function
+
+
+## -description
+
+
+Initializes the COM library on the current apartment, identifies the concurrency model as single-thread apartment (STA), and enables additional functionality described in the Remarks section below. Applications must initialize the COM library before they can call COM library functions other than <a href="https://msdn.microsoft.com/d1d09fbe-ca5c-4480-b807-3afcc043ccb9">CoGetMalloc</a> and memory allocation functions. 
+
+
+
+
+## -parameters
+
+
+
+
+### -param pvReserved [in]
+
+This parameter is reserved and must be <b>NULL</b>.
+
+
+## -returns
+
+
+
+This function returns S_OK on success. Other possible values include the following.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_FALSE</b></dt>
+</dl>
+</td>
+<td width="60%">
+The COM library is already initialized on this apartment.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>OLE_E_WRONGCOMPOBJ</b></dt>
+</dl>
+</td>
+<td width="60%">
+The versions of COMPOBJ.DLL and OLE2.DLL on your machine are incompatible with each other.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>RPC_E_CHANGED_MODE</b></dt>
+</dl>
+</td>
+<td width="60%">
+A previous call to <a href="https://msdn.microsoft.com/ffb79c0f-aeda-4ea1-aea8-afb79109837f">CoInitializeEx</a> specified the concurrency model for this apartment as multithread apartment (MTA). This could also mean that a change from neutral threaded apartment to single threaded apartment occurred.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+Applications that use the following functionality must call <b>OleInitialize</b> before calling any other function in the COM library: 
+
+
+
+<ul>
+<li>Clipboard</li>
+<li>Drag and Drop</li>
+<li>Object linking and embedding (OLE)</li>
+<li>In-place activation</li>
+</ul>
+<b>OleInitialize</b> calls <a href="https://msdn.microsoft.com/ffb79c0f-aeda-4ea1-aea8-afb79109837f">CoInitializeEx</a> internally to initialize the COM library on the current apartment. Because OLE operations are not thread-safe, <b>OleInitialize</b> specifies the concurrency model as single-thread apartment.
+
+Once the concurrency model for an apartment is set, it cannot be changed. A call to <b>OleInitialize</b> on an apartment that was previously initialized as multithreaded will fail and return RPC_E_CHANGED_MODE.
+
+You need to initialize the COM library on an apartment before you call any of the library functions except <a href="https://msdn.microsoft.com/d1d09fbe-ca5c-4480-b807-3afcc043ccb9">CoGetMalloc</a>, to get a pointer to the standard allocator, and the memory allocation functions.
+
+Typically, the COM library is initialized on an apartment only once. Subsequent calls will succeed, as long as they do not attempt to change the concurrency model of the apartment, but will return S_FALSE. To close the COM library gracefully, each successful call to <b>OleInitialize</b>, including those that return S_FALSE, must be balanced by a corresponding call to <a href="https://msdn.microsoft.com/b2a8233f-7e1b-4c54-9363-7478c40c3830">OleUninitialize</a>.
+
+Because there is no way to control the order in which in-process servers are loaded or unloaded, do not call <b>OleInitialize</b> or <a href="https://msdn.microsoft.com/b2a8233f-7e1b-4c54-9363-7478c40c3830">OleUninitialize</a> from the <a href="https://msdn.microsoft.com/0c3e3083-9297-4626-b2a7-0062d1c2cf9e">DllMain</a> function.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/ffb79c0f-aeda-4ea1-aea8-afb79109837f">CoInitializeEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/9a13e7a0-f2e2-466b-98f5-38d5972fa391">OleInitialize</a>
+
+
+
+<a href="https://msdn.microsoft.com/b2a8233f-7e1b-4c54-9363-7478c40c3830">OleUninitialize</a>
+ 
+
+ 
+

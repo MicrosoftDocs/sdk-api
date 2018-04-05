@@ -1,0 +1,118 @@
+---
+UID: NF:callobj.ICallIndirect.GetStackSize
+title: ICallIndirect::GetStackSize method
+author: windows-driver-content
+description: Retrieves the number of bytes that should be popped from the stack in order to return from an invocation of the method.
+old-location: com\icallindirect_getstacksize.htm
+old-project: com
+ms.assetid: 3251c9b1-e076-4bc3-a995-1b0d275929a0
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: GetStackSize method [COM], GetStackSize method [COM], ICallIndirect interface, GetStackSize,ICallIndirect.GetStackSize, ICallIndirect, ICallIndirect interface [COM], GetStackSize method, ICallIndirect::GetStackSize, _com_icallindirect_getstacksize, callobj/ICallIndirect::GetStackSize, com.icallindirect_getstacksize
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: callobj.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Callobj.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: CALLFRAME_COPY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Callobj.h
+api_name:
+-	ICallIndirect.GetStackSize
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# ICallIndirect::GetStackSize method
+
+
+## -description
+
+
+Retrieves the number of bytes that should be popped from the stack in order to return from an invocation of the method.
+
+
+## -parameters
+
+
+
+
+### -param iMethod [in]
+
+The method number.
+
+
+### -param cbArgs [out]
+
+The number of bytes to be popped from the stack to clear the stack of arguments to an invocation.
+
+
+## -returns
+
+
+
+This method can return the following values.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method completed successfully.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_UNEXPECTED</b></dt>
+</dl>
+</td>
+<td width="60%">
+An unexpected error has occurred.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/b85585fd-5f44-4c07-91a4-145eb44a6bdd">ICallIndirect</a>
+ 
+
+ 
+

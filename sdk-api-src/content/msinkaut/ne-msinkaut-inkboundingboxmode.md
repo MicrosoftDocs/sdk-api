@@ -1,0 +1,104 @@
+---
+UID: NE:msinkaut.InkBoundingBoxMode
+title: InkBoundingBoxMode
+author: windows-driver-content
+description: Specifies which characteristics of a stroke, such as drawing attributes, are used to calculate the bounding box of the ink.The bounding box is the smallest rectangle that includes all points in the InkDisp object.
+old-location: tablet\inkboundingboxmode.htm
+old-project: tablet
+ms.assetid: 8c92fb43-1584-42fc-857e-aae5d5c222b4
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: 8c92fb43-1584-42fc-857e-aae5d5c222b4, IBBM_CurveFit, IBBM_Default, IBBM_NoCurveFit, IBBM_PointsOnly, IBBM_Union, InkBoundingBoxMode, InkBoundingBoxMode enumeration [Tablet PC], msinkaut/IBBM_CurveFit, msinkaut/IBBM_Default, msinkaut/IBBM_NoCurveFit, msinkaut/IBBM_PointsOnly, msinkaut/IBBM_Union, msinkaut/InkBoundingBoxMode, tablet.inkboundingboxmode
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: enum
+req.header: msinkaut.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
+req.target-min-winversvr: None supported
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: InkBoundingBoxMode
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	msinkaut.h
+api_name:
+-	InkBoundingBoxMode
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 SP2 or later
+---
+
+# InkBoundingBoxMode enumeration
+
+
+## -description
+
+
+
+Specifies which characteristics of a stroke, such as drawing attributes, are used to calculate the bounding box of the ink.
+
+The bounding box is the smallest rectangle that includes all points in the <a href="https://msdn.microsoft.com/f942d6a3-f303-49df-a128-de9760b508ef">InkDisp</a> object. The size of the rectangle varies depending on whether you use drawing attributes, Bezier curve fitting, or just the points of the stroke to calculate the rectangle.
+
+
+
+
+## -enum-fields
+
+
+
+
+### -field IBBM_Default
+
+ The definition of each stroke (polyline or Bezier) is used to calculate the bounding box; includes the drawing attributes, such as pen width, in the calculation.
+
+
+### -field IBBM_NoCurveFit
+
+ The polyline of the strokes (ignoring Bezier curve fitting requests) is used to calculate the bounding box; includes the drawing attributes in the calculation.
+
+
+### -field IBBM_CurveFit
+
+The  Bezier curve fitting line of the strokes (apply Bezier curve fitting to all strokes) is used to calculate the bounding box; includes the drawing attributes in the calculation.
+
+
+### -field IBBM_PointsOnly
+
+ Only the points of the strokes are used to calculate the bounding box.
+
+
+### -field IBBM_Union
+
+ The union of a NoCurveFit request and a CurveFit request.
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/3b2c8cfc-05e6-4b53-b709-72291ee78471">GetBoundingBox Method</a>
+
+
+
+<a href="https://msdn.microsoft.com/f942d6a3-f303-49df-a128-de9760b508ef">InkDisp Class</a>
+ 
+
+ 
+

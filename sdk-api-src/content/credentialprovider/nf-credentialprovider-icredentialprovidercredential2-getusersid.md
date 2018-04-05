@@ -1,0 +1,139 @@
+---
+UID: NF:credentialprovider.ICredentialProviderCredential2.GetUserSid
+title: ICredentialProviderCredential2::GetUserSid method
+author: windows-driver-content
+description: Retrieves the security identifier (SID) of the user that is associated with this credential.
+old-location: shell\ICredentialProviderCredential2_GetUserSid.htm
+old-project: shell
+ms.assetid: 8BCB9019-40C0-4026-B3C9-ECA02B9AC871
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: GetUserSid method [Windows Shell], GetUserSid method [Windows Shell], ICredentialProviderCredential2 interface, GetUserSid,ICredentialProviderCredential2.GetUserSid, ICredentialProviderCredential2, ICredentialProviderCredential2 interface [Windows Shell], GetUserSid method, ICredentialProviderCredential2::GetUserSid, credentialprovider/ICredentialProviderCredential2::GetUserSid, shell.ICredentialProviderCredential2_GetUserSid
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: credentialprovider.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: CredentialProvider.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: CREDENTIAL_PROVIDER_USAGE_SCENARIO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	CredentialProvider.h
+api_name:
+-	ICredentialProviderCredential2.GetUserSid
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# ICredentialProviderCredential2::GetUserSid method
+
+
+## -description
+
+
+Retrieves the security identifier (SID) of the user that is associated with this credential.
+
+
+## -parameters
+
+
+
+
+### -param sid [out]
+
+The address of a pointer to a buffer that, when this method returns successfully, receives the user's SID.
+
+
+## -returns
+
+
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+The Logon UI will use the returned SID from this method to associate the credential tile with a user tile. To associate the credential with the "Other user" user tile in the Logon UI, this method should return <b>S_FALSE</b> and a null SID. The "Other user" tile is normally only valid when the PC is joined to a domain.
+
+
+#### Examples
+
+The following example shows a sample implementation of this method. It retrieves the user's SID that corresponds to the credential.
+
+The <i>_pszUserSid</i> variable used here is assumed to be a private member of the class, defined outside of this method and set to the user's SID.
+
+The resource pointed to by <i>ppszSid</i> will be freed by the logon UI, so it does not need to be freed here.
+
+If the user's SID is not available, the method returns <b>S_FALSE</b> with a null SID, which associates the credential with an anonymous user tile. This will cause the tile to appear when the "Other user" tile is selected on a domain-joined PC.
+
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
+// Gets the SID of the user corresponding to the credential. 
+HRESULT CSampleCredential::GetUserSid(__deref_out PWSTR *ppszSid) 
+{
+    *ppszSid = nullptr;
+    HRESULT hr = E_UNEXPECTED;
+
+    // _pszUserSid is a private member of CSampleCredential
+    if (_pszUserSid != nullptr)
+    {
+        // ppszSid will be freed by Logon UI
+        hr = SHStrDupW(_pszUserSid, ppszSid);
+    }
+    // Return S_FALSE with a null SID in ppszSid for the
+    // credential to be associated with an anonymous user tile.
+    else if (_fIsOtherUserTile)
+    {
+        hr = S_FALSE;
+    }
+
+    return hr;
+}                     
+                    </pre>
+</td>
+</tr>
+</table></span></div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/C1C4BF88-3151-4a8b-A1EE-9616DCB6EA58">ICredentialProviderCredential2</a>
+
+
+
+<a href="https://msdn.microsoft.com/FDC5D586-D72B-4eb1-BE7C-CFD8E0B48F48">ICredentialProviderUser::GetSid</a>
+ 
+
+ 
+

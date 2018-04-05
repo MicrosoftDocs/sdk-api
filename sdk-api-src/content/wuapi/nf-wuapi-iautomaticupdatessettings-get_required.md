@@ -1,0 +1,71 @@
+---
+UID: NF:wuapi.IAutomaticUpdatesSettings.get_Required
+title: IAutomaticUpdatesSettings::get_Required method
+author: windows-driver-content
+description: Gets a Boolean value that indicates whether Group Policy requires the Automatic Updates service.
+old-location: wua\iautomaticupdatessettings_required.htm
+old-project: Wua_Sdk
+ms.assetid: d3700208-4e87-495e-98cf-cc495b380528
+ms.author: windowsdriverdev
+ms.date: 3/15/2018
+ms.keywords: IAutomaticUpdatesSettings, IAutomaticUpdatesSettings interface [Windows Update Agent], Required property, IAutomaticUpdatesSettings.Required, IAutomaticUpdatesSettings::get_Required, Required property [Windows Update Agent], Required property [Windows Update Agent], IAutomaticUpdatesSettings interface, get_Required,IAutomaticUpdatesSettings.get_Required, wua.iautomaticupdatessettings_required, wuapi/IAutomaticUpdatesSettings::Required, wuapi/IAutomaticUpdatesSettings::get_Required
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wuapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Wuapi.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: UpdateType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wuapi.dll
+api_name:
+-	IAutomaticUpdatesSettings.Required
+-	IAutomaticUpdatesSettings.get_Required
+product: Windows
+targetos: Windows
+req.lib: Wuguid.lib
+req.dll: Wuapi.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IAutomaticUpdatesSettings::get_Required method
+
+
+## -description
+
+
+Gets a Boolean value that indicates whether Group Policy  requires the Automatic Updates service.
+
+This property is read-only.
+
+
+## -parameters
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/c4672df5-9e47-45f5-9504-1ebb0bf3c6a6">IAutomaticUpdatesSettings</a>
+ 
+
+ 
+

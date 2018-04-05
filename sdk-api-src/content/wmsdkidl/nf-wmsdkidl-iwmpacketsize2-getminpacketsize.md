@@ -1,0 +1,124 @@
+---
+UID: NF:wmsdkidl.IWMPacketSize2.GetMinPacketSize
+title: IWMPacketSize2::GetMinPacketSize method
+author: windows-driver-content
+description: The GetMinPacketSize method retrieves the minimum packet size for files created with the profile. If you use this method from an interface belonging to a reader or synchronous reader object, the retrieved minimum packet size will always be zero.
+old-location: wmformat\iwmpacketsize2_getminpacketsize.htm
+old-project: wmformat
+ms.assetid: 2b15f5b9-b7c1-4427-81d9-bbcd0bb0ce45
+ms.author: windowsdriverdev
+ms.date: 3/23/2018
+ms.keywords: GetMinPacketSize method [windows Media Format], GetMinPacketSize method [windows Media Format], IWMPacketSize2 interface, GetMinPacketSize,IWMPacketSize2.GetMinPacketSize, IWMPacketSize2, IWMPacketSize2 interface [windows Media Format], GetMinPacketSize method, IWMPacketSize2::GetMinPacketSize, IWMPacketSize2GetMinPacketSize, wmformat.iwmpacketsize2_getminpacketsize, wmsdkidl/IWMPacketSize2::GetMinPacketSize
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wmsdkidl.h
+req.include-header: Wmsdk.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WM_AETYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wmvcore.lib
+-	Wmvcore.dll
+-	WMStubDRM.lib
+-	WMStubDRM.dll
+api_name:
+-	IWMPacketSize2.GetMinPacketSize
+product: Windows
+targetos: Windows
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IWMPacketSize2::GetMinPacketSize method
+
+
+## -description
+
+
+
+The <b>GetMinPacketSize</b> method retrieves the minimum <a href="wmformat_glossary.htm">packet</a> size for files created with the profile. If you use this method from an interface belonging to a reader or synchronous reader object, the retrieved minimum packet size will always be zero.
+
+
+
+
+## -parameters
+
+
+
+
+### -param pdwMinPacketSize [out]
+
+Pointer to a <b>DWORD</b> that will receive the minimum packet size.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+NULL pointer argument.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/4af4c088-9fc3-46a9-8451-518b11bc94e3">IWMPacketSize2 Interface</a>
+
+
+
+<a href="https://msdn.microsoft.com/6d58da65-710c-46ea-8fb9-9d161df06483">IWMPacketSize2::SetMinPacketSize</a>
+ 
+
+ 
+

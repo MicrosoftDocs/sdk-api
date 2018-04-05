@@ -1,0 +1,110 @@
+---
+UID: NF:wmp.IWMPCore2.get_dvd
+title: IWMPCore2::get_dvd method
+author: windows-driver-content
+description: The get_dvd method retrieves a pointer to an IWMPDVD interface.
+old-location: wmp\iwmpcore2_get_dvd.htm
+old-project: WMP
+ms.assetid: b20a0661-b54b-4953-81df-499c19611a15
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: IWMPCore2, IWMPCore2 interface [Windows Media Player], get_dvd method, IWMPCore2::get_dvd, IWMPCore2get_dvd, get_dvd method [Windows Media Player], get_dvd method [Windows Media Player], IWMPCore2 interface, get_dvd,IWMPCore2.get_dvd, wmp.iwmpcore2_get_dvd, wmp/IWMPCore2::get_dvd
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wmp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Media Player 9 Series or later.
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WMPSyncState
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	wmp.dll
+api_name:
+-	IWMPCore2.get_dvd
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IWMPCore2::get_dvd method
+
+
+## -description
+
+
+
+The <b>get_dvd</b> method retrieves a pointer to an <b>IWMPDVD</b> interface.
+
+
+
+
+## -parameters
+
+
+
+
+### -param ppDVD [out]
+
+Pointer to a pointer to an <b>IWMPDVD</b> interface.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/5f839bfe-bf67-49eb-8743-57713e1be7c5">IWMPCore2 Interface</a>
+
+
+
+<a href="https://msdn.microsoft.com/d133f1e1-cbeb-403d-b247-9f495cb6f0f7">IWMPDVD Interface</a>
+ 
+
+ 
+

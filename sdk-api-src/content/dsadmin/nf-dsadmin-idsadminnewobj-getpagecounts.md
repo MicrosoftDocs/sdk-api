@@ -1,0 +1,111 @@
+---
+UID: NF:dsadmin.IDsAdminNewObj.GetPageCounts
+title: IDsAdminNewObj::GetPageCounts method
+author: windows-driver-content
+description: The IDsAdminNewObj::GetPageCounts method obtains the total number of pages in the wizard as well as the index of the first page of the extension.
+old-location: ad\idsadminnewobj_getpagecounts.htm
+old-project: AD
+ms.assetid: babc5baf-33d6-47e9-a99e-81ed339f71d6
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: GetPageCounts method [Active Directory], GetPageCounts method [Active Directory], IDsAdminNewObj interface, GetPageCounts,IDsAdminNewObj.GetPageCounts, IDsAdminNewObj, IDsAdminNewObj interface [Active Directory], GetPageCounts method, IDsAdminNewObj::GetPageCounts, _glines_idsadminnewobj_getpagecounts, ad.idsadminnewobj__getpagecounts, ad.idsadminnewobj_getpagecounts, dsadmin/IDsAdminNewObj::GetPageCounts
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: dsadmin.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: DRT_ADDRESS_LIST, *PDRT_ADDRESS_LIST
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	DSAdmin.dll
+api_name:
+-	IDsAdminNewObj.GetPageCounts
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: DSAdmin.dll
+req.irql: 
+---
+
+# IDsAdminNewObj::GetPageCounts method
+
+
+## -description
+
+
+The <b>IDsAdminNewObj::GetPageCounts</b> method obtains the total number of pages in the wizard as well as the index of the first page of the  extension.
+
+
+## -parameters
+
+
+
+
+### -param pnTotal [out]
+
+Pointer to a <b>LONG</b> value that receives the total number of pages contained in the wizard.
+
+
+### -param pnStartIndex [out]
+
+Pointer to a <b>LONG</b> value that receives the zero-based index of the first page of the extension.
+
+
+## -returns
+
+
+
+This method can return one of these values.
+
+
+Returns one of the following values.
+
+
+
+
+
+
+## -remarks
+
+
+
+This function will provide results based on the count of pages added using 
+<a href="https://msdn.microsoft.com/4e16385f-b38a-4961-95ec-c81fd538ae2b">IDsAdminNewObjExt::AddPages</a>. If there are changes to the number of pages because of page manipulations by Win32 APIs, the supplied values may not be accurate. If this method is called in response to the <a href="https://msdn.microsoft.com/e6dbb0ed-e20e-49c7-8247-d5688be93d8e">IDsAdminNewObjExt::SetObject</a> method, the supplied page counts are most likely to be accurate.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/b38016a2-bbb7-4715-81cc-bd9911fb5a3b">IDsAdminNewObj</a>
+
+
+
+<a href="https://msdn.microsoft.com/4e16385f-b38a-4961-95ec-c81fd538ae2b">IDsAdminNewObjExt::AddPages</a>
+
+
+
+<a href="https://msdn.microsoft.com/e6dbb0ed-e20e-49c7-8247-d5688be93d8e">IDsAdminNewObjExt::SetObject</a>
+ 
+
+ 
+

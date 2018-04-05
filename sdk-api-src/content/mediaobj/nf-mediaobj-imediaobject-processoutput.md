@@ -1,0 +1,196 @@
+---
+UID: NF:mediaobj.IMediaObject.ProcessOutput
+title: IMediaObject::ProcessOutput method
+author: windows-driver-content
+description: The ProcessOutput method generates output from the current input data.
+old-location: dshow\imediaobject_processoutput.htm
+old-project: DirectShow
+ms.assetid: 1a3b1192-f1e9-4f04-b543-d38692502b8e
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: IMediaObject, IMediaObject interface [DirectShow], ProcessOutput method, IMediaObject::ProcessOutput, IMediaObjectProcessOutput, ProcessOutput method [DirectShow], ProcessOutput method [DirectShow], IMediaObject interface, ProcessOutput,IMediaObject.ProcessOutput, dshow.imediaobject_processoutput, mediaobj/IMediaObject::ProcessOutput
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: mediaobj.h
+req.include-header: Dmo.h
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Dmoguids.lib
+-	Dmoguids.dll
+api_name:
+-	IMediaObject.ProcessOutput
+product: Windows
+targetos: Windows
+req.lib: Dmoguids.lib
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IMediaObject::ProcessOutput method
+
+
+## -description
+
+
+
+The <code>ProcessOutput</code> method generates output from the current input data.
+
+
+
+
+## -parameters
+
+
+
+
+### -param dwFlags
+
+Bitwise combination of zero or more flags from the <a href="https://msdn.microsoft.com/7648f975-3753-41fe-a311-e86334ef7071">DMO_PROCESS_OUTPUT_FLAGS</a> enumeration.
+
+
+### -param cOutputBufferCount
+
+Number of output buffers.
+
+
+### -param pOutputBuffers [in, out]
+
+Pointer to an array of <a href="https://msdn.microsoft.com/87fa2000-8dab-4f30-940a-14fb6699f616">DMO_OUTPUT_DATA_BUFFER</a> structures containing the output buffers. Specify the size of the array in the <i>cOutputBufferCount</i> parameter.
+
+
+### -param pdwStatus [out]
+
+Pointer to a variable that receives a reserved value (zero). The application should ignore this value.
+
+
+## -returns
+
+
+
+Returns an <b>HRESULT</b> value. Possible values include those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_FAIL</b></dt>
+</dl>
+</td>
+<td width="60%">
+Failure
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+Invalid argument
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_POINTER</b></dt>
+</dl>
+</td>
+<td width="60%">
+<b>NULL</b> pointer argument
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_FALSE</b></dt>
+</dl>
+</td>
+<td width="60%">
+No output was generated
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+Success
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+The <i>pOutputBuffers</i> parameter points to an array of <b>DMO_OUTPUT_DATA_BUFFER</b> structures. The application must allocate one structure for each output stream. To determine the number of output streams, call the <a href="https://msdn.microsoft.com/05c28b44-6b92-418b-bb3f-889e59f4e0c1">IMediaObject::GetStreamCount</a> method. Set the <i>cOutputBufferCount</i> parameter to this number.
+
+Each <b>DMO_OUTPUT_DATA_BUFFER</b> structure contains a pointer to a buffer's <a href="https://msdn.microsoft.com/74d72ca6-f899-43fc-bdea-5208d920f314">IMediaBuffer</a> interface. The application allocates these buffers. The other members of the structure are status fields. The DMO sets these fields if the method succeeds. If the method fails, their values are undefined.
+
+When the application calls <code>ProcessOutput</code>, the DMO processes as much input data as possible. It writes the output data to the output buffers, starting from the end of the data in each buffer. (To find the end of the data, call the <a href="https://msdn.microsoft.com/255ef101-f004-41c8-afb8-437d21decee5">IMediaBuffer::GetBufferAndLength</a> method.) The DMO never holds a reference count on an output buffer.
+
+If the DMO fills an entire output buffer and still has input data to process, the DMO returns the DMO_OUTPUT_DATA_BUFFERF_INCOMPLETE flag in the <b>DMO_OUTPUT_DATA_BUFFER</b> structure. The application should check for this flag by testing the <b>dwStatus</b> member of each structure.
+
+If the method returns S_FALSE, no output was generated. However, a DMO is not required to return S_FALSE in this situation; it might return S_OK.
+
+<b>Discarding data:</b>
+
+You can discard data from a stream by setting the DMO_PROCESS_OUTPUT_DISCARD_WHEN_NO_BUFFER flag in the <i>dwFlags</i> parameter. For each stream that you want to discard, set the <b>pBuffer</b> member of the <b>DMO_OUTPUT_DATA_BUFFER</b> structure to <b>NULL</b>.
+
+For each stream in which <b>pBuffer</b> is <b>NULL</b>:
+
+<ul>
+<li>If the DMO_PROCESS_OUTPUT_DISCARD_WHEN_NO_BUFFER flag is set, and the stream is discardable or optional, the DMO discards the data.</li>
+<li>If the flag is set but the stream is neither discardable nor optional, the DMO discards the data if possible. It is not guaranteed to discard the data.</li>
+<li>If the flag is not set, the DMO does not produce output data for that stream, but does not discard the data.</li>
+</ul>
+To check whether a stream is discardable or optional, call the <a href="https://msdn.microsoft.com/a21e9943-4aaf-4f0e-a92a-5fcd551fe7e1">IMediaObject::GetOutputStreamInfo</a> method.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/a3fd17aa-7df2-40f4-8f2c-45bae38e4c0b">IMediaObject Interface</a>
+ 
+
+ 
+

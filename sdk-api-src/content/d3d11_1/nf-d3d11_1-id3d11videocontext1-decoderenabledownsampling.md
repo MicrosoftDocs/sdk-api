@@ -1,0 +1,133 @@
+---
+UID: NF:d3d11_1.ID3D11VideoContext1.DecoderEnableDownsampling
+title: ID3D11VideoContext1::DecoderEnableDownsampling method
+author: windows-driver-content
+description: Indicates that decoder downsampling will be used and that the driver should allocate the appropriate reference frames.
+old-location: mf\id3d11videocontext1_decoderenabledownsampling.htm
+old-project: medfound
+ms.assetid: 0BE7E6EC-E090-4A13-9D18-108BDBBC211A
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: DecoderEnableDownsampling method [Media Foundation], DecoderEnableDownsampling method [Media Foundation], ID3D11VideoContext1 interface, DecoderEnableDownsampling,ID3D11VideoContext1.DecoderEnableDownsampling, ID3D11VideoContext1, ID3D11VideoContext1 interface [Media Foundation], DecoderEnableDownsampling method, ID3D11VideoContext1::DecoderEnableDownsampling, d3d11_1/ID3D11VideoContext1::DecoderEnableDownsampling, mf.id3d11videocontext1_decoderenabledownsampling
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: d3d11_1.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: D3D11_VIDEO_PROCESSOR_BEHAVIOR_HINTS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	d3d11_1.h
+api_name:
+-	ID3D11VideoContext1.DecoderEnableDownsampling
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# ID3D11VideoContext1::DecoderEnableDownsampling method
+
+
+## -description
+
+
+Indicates that decoder downsampling will be used and that the driver should allocate the appropriate reference frames.  
+
+
+## -parameters
+
+
+
+
+### -param pDecoder [in]
+
+Type: <b>ID3D11VideoDecoder*</b>
+
+A pointer to the <a href="https://msdn.microsoft.com/F25AFA0B-7413-40F0-AFF8-C9B4549305D2">ID3D11VideoDecoder</a> interface.
+
+
+### -param InputColorSpace [in]
+
+Type: <b>DXGI_COLOR_SPACE_TYPE</b>
+
+The color space information of the reference frame data.
+
+
+### -param pOutputDesc [in]
+
+Type: <b>const <a href="https://msdn.microsoft.com/3B6BF76A-6566-4C58-AD26-5B13E6D040CA">D3D11_VIDEO_SAMPLE_DESC</a>*</b>
+
+The resolution, format, and colorspace of the output/display frames.  This is the destination resolution and format of the downsample operation.
+
+
+### -param ReferenceFrameCount [in]
+
+Type: <b>UINT</b>
+
+The number of reference frames to be used in the operation.
+
+
+## -returns
+
+
+
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+
+This method returns one of the following error codes.
+
+<table>
+<tr>
+<td>S_OK</td>
+<td>The operation completed successfully.</td>
+</tr>
+<tr>
+<td>E_INVALIDARG</td>
+<td>An invalid parameter was passed or this function was called using an invalid calling pattern.</td>
+</tr>
+<tr>
+<td>E_OUTOFMEMORY</td>
+<td>There is insufficient memory to complete the operation.</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+This function can only be called once for a specific <a href="https://msdn.microsoft.com/F25AFA0B-7413-40F0-AFF8-C9B4549305D2">ID3D11VideoDecoder</a> interface. This method must be called prior to the first call to <a href="https://msdn.microsoft.com/395B06D8-1BCF-44F2-9F69-A183C30E36B7">DecoderBeginFrame</a>. To update the downsampling parameters, use <a href="https://msdn.microsoft.com/A55D652B-9295-42E4-9A83-CAC467BEE68E">DecoderUpdateDownsampling</a>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/64D12F68-C2AA-4C1D-9608-5F97CF7AD430">ID3D11VideoContext1</a>
+ 
+
+ 
+

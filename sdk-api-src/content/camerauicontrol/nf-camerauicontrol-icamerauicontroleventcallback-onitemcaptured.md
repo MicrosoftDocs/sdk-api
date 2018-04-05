@@ -1,0 +1,83 @@
+---
+UID: NF:camerauicontrol.ICameraUIControlEventCallback.OnItemCaptured
+title: ICameraUIControlEventCallback::OnItemCaptured method
+author: windows-driver-content
+description: Occurs when an item is captured.
+old-location: winprog\icamerauicontroleventcallback_onitemcaptured.htm
+old-project: DevNotes
+ms.assetid: 4f202b68-48e2-4ae7-ade6-2180c05eec4a
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: ICameraUIControlEventCallback, ICameraUIControlEventCallback interface [Windows API], OnItemCaptured method, ICameraUIControlEventCallback::OnItemCaptured, OnItemCaptured method [Windows API], OnItemCaptured method [Windows API], ICameraUIControlEventCallback interface, OnItemCaptured,ICameraUIControlEventCallback.OnItemCaptured, camerauicontrol/ICameraUIControlEventCallback::OnItemCaptured, winprog.icamerauicontroleventcallback_onitemcaptured
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: camerauicontrol.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: None supported
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: CameraUIControl.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: CALLFRAME_MARSHALCONTEXT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	camerauicontrol.h
+api_name:
+-	ICameraUIControlEventCallback.OnItemCaptured
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# ICameraUIControlEventCallback::OnItemCaptured method
+
+
+## -description
+
+
+Occurs when an item is captured.
+
+
+## -parameters
+
+
+
+
+### -param pszPath [in]
+
+The path to the captured item.
+
+
+## -returns
+
+
+
+This method does not return a value.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/f870557e-0e01-4f5c-81be-c709e397e5fd">ICameraUIControlEventCallback</a>
+ 
+
+ 
+

@@ -1,0 +1,80 @@
+---
+UID: NF:fsrmreports.IFsrmFileConditionProperty.get_Value
+title: IFsrmFileConditionProperty::get_Value method
+author: windows-driver-content
+description: Specifies the file condition property value.
+old-location: fsrm\ifsrmfileconditionproperty_value.htm
+old-project: Fsrm
+ms.assetid: f7048ab3-2ef5-4d50-9432-8c6f0060a244
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: IFsrmFileConditionProperty, IFsrmFileConditionProperty interface [File Server Resource Manager], Value property, IFsrmFileConditionProperty.Value, IFsrmFileConditionProperty::get_Value, IFsrmFileConditionProperty::put_Value, Value property [File Server Resource Manager], Value property [File Server Resource Manager], IFsrmFileConditionProperty interface, fs.ifsrmfileconditionproperty_value, fsrm.ifsrmfileconditionproperty_value, fsrmreports/IFsrmFileConditionProperty::Value, fsrmreports/IFsrmFileConditionProperty::get_Value, fsrmreports/IFsrmFileConditionProperty::put_Value, get_Value,IFsrmFileConditionProperty.get_Value
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: fsrmreports.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2012
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: FsrmReports.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: FsrmTemplateApplyOptions
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SrmSvc.dll
+api_name:
+-	IFsrmFileConditionProperty.Value
+-	IFsrmFileConditionProperty.get_Value
+-	IFsrmFileConditionProperty.put_Value
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
+req.product: Internet Explorer 5
+---
+
+# IFsrmFileConditionProperty::get_Value method
+
+
+## -description
+
+
+<p class="CCE_Message">[This property is supported for compatibility but it's recommended to use the 
+    <a href="https://msdn.microsoft.com/1CE772FA-CE33-4900-A499-058175A7C37E">FSRM WMI Classes</a> to manage FSRM. Please see the 
+    <a href="https://msdn.microsoft.com/deb5be80-4255-4d56-8db5-31239e2872ef">MSFT_FSRMFMJCondition</a> class.]
+
+Specifies the file condition property value.
+
+This property is read/write.
+
+
+## -parameters
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/460819db-0ac2-4008-8dfb-f0edc69bb478">IFsrmFileConditionProperty</a>
+
+
+
+<a href="https://msdn.microsoft.com/deb5be80-4255-4d56-8db5-31239e2872ef">MSFT_FSRMFMJCondition</a>
+ 
+
+ 
+

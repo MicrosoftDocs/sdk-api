@@ -1,0 +1,81 @@
+---
+UID: NF:windowsx.Button_SetStyle
+title: Button_SetStyle macro
+author: windows-driver-content
+description: Sets the style of a button. You can use this macro or send the BM_SETSTYLE message explicitly.
+old-location: controls\Button_SetStyle.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_setstyle.htm
+ms.author: windowsdriverdev
+ms.date: 3/31/2018
+ms.keywords: Button_SetStyle, Button_SetStyle macro [Windows Controls], _win32_Button_SetStyle, _win32_Button_SetStyle_cpp, controls.Button_SetStyle, controls._win32_Button_SetStyle, windowsx/Button_SetStyle
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: macro
+req.header: windowsx.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: HANDLE_SHARING_OPTIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Windowsx.h
+api_name:
+-	Button_SetStyle
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# Button_SetStyle macro
+
+
+## -description
+
+
+Sets the style of a button. You can use this macro or send the <a href="https://msdn.microsoft.com/6439e68f-87fc-4a4a-8025-facc3c0e03e2">BM_SETSTYLE</a> message explicitly. 
+
+
+
+## -parameters
+
+
+
+
+### -param hwndCtl
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+
+A handle to the button control.
+
+
+### -param style
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+
+The button style. This parameter can be a combination of button styles. For a table of button styles, see <a href="https://msdn.microsoft.com/30254cb5-43cd-407f-8ad6-bd7f9ec3edc7">Button Styles</a>. 
+
+
+### -param fRedraw
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+
+<b>TRUE</b> to redraw the button; otherwise <b>FALSE</b>.
+

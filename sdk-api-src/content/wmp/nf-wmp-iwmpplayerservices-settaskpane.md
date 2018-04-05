@@ -1,0 +1,232 @@
+---
+UID: NF:wmp.IWMPPlayerServices.setTaskPane
+title: IWMPPlayerServices::setTaskPane method
+author: windows-driver-content
+description: The setTaskPane method displays the specified task pane in the full mode of Windows Media Player.
+old-location: wmp\iwmpplayerservices_settaskpane.htm
+old-project: WMP
+ms.assetid: 4b34ec95-d9a3-4135-b369-39955199ac00
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: IWMPPlayerServices, IWMPPlayerServices interface [Windows Media Player], setTaskPane method, IWMPPlayerServices::setTaskPane, IWMPPlayerServicessetTaskPane, setTaskPane method [Windows Media Player], setTaskPane method [Windows Media Player], IWMPPlayerServices interface, setTaskPane,IWMPPlayerServices.setTaskPane, wmp.iwmpplayerservices_settaskpane, wmp/IWMPPlayerServices::setTaskPane
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wmp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Media Player 9 Series or later.
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WMPSyncState
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	wmp.dll
+api_name:
+-	IWMPPlayerServices.setTaskPane
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IWMPPlayerServices::setTaskPane method
+
+
+## -description
+
+
+
+The <b>setTaskPane</b> method displays the specified task pane in the full mode of Windows Media Player.
+
+
+
+
+## -parameters
+
+
+
+
+### -param bstrTaskPane [in]
+
+<b>BSTR</b> containing one of the following values.
+
+<table>
+<tr>
+<th>
+                  Value
+                </th>
+<th>
+                  Description
+                </th>
+</tr>
+<tr>
+<td>NowPlaying</td>
+<td>
+Windows Media Player 9, 10, 11: Opens Windows Media Player in the<b> Now Playing</b> feature.
+
+Windows Media Player 12: Opens Windows Media Player in <b>Player</b> mode .
+
+</td>
+</tr>
+<tr>
+<td>MediaGuide</td>
+<td>
+Windows Media Player 9, 10, 11: Opens Windows Media Player in the <b>Media Guide</b> feature. 
+
+Windows Media Player 12: Opens Windows Media Player in <b>Library</b> mode with the Media Guide displayed.
+
+</td>
+</tr>
+<tr>
+<td>CopyFromCD</td>
+<td>
+Windows Media Player 9: Opens Windows Media Player in the <b>Copy From CD</b> feature.
+
+Windows Media Player 10, 11: Opens Windows Media Player in the <b>Rip</b> feature.
+
+Windows Media Player 12: Opens Windows Media Player in <b>Library</b> mode.
+
+</td>
+</tr>
+<tr>
+<td>CopyFromCD?AutoCopy:<i>id</i></td>
+<td>
+Windows Media Player 9: Opens Windows Media Player in the <b>Copy From CD</b> feature and automatically invokes the copy functionality after switching.
+
+Windows Media Player 10, 11: Opens Windows Media Player in the <b>Rip</b> feature and automatically invokes the rip functionality after switching.
+
+Windows Media Player 12: Opens Windows Media Player in <b>Library</b> mode and automatically invokes the rip functionality after switching.
+
+All versions: To specify a particular drive identifier, append a colon character (:) followed by the CD drive identifier number. If you omit the colon and the ID, the first CD drive is  used. If the user has selected <b>Eject CD when copying is completed</b> in Windows Media Player, the CD will be ejected when copying is completed.
+
+</td>
+</tr>
+<tr>
+<td>Library</td>
+<td>
+Windows Media Player 9, 10, 11: Opens Windows Media Player in the <b>Library</b> feature.
+
+Windows Media Player 12: Opens Windows Media Player in <b>Library</b> mode with the <b>Play</b> tab open.
+
+</td>
+</tr>
+<tr>
+<td>RadioTuner</td>
+<td>
+Windows Media Player 9: Opens Windows Media Player in the <b>Radio Tuner</b> feature
+
+Windows Media Player 10, 11, 12: Opens Windows Media Player in the current active online store.
+
+</td>
+</tr>
+<tr>
+<td>CopyToCD</td>
+<td>
+Windows Media Player 9: Not supported.
+
+Windows Media Player 10, 11: Opens Windows Media Player in the <b>Burn</b> feature.
+
+Windows Media Player 12: Opens Windows Media Player in <b>Library</b> mode with the burn list open.
+
+</td>
+</tr>
+<tr>
+<td>CopyToCDOrDevice</td>
+<td>
+Windows Media Player 9: Opens Windows Media Player in the <b>Copy to CD or Device</b> feature.
+
+Windows Media Player 10, 11: Opens Windows Media Player in the <b>Sync</b> feature.
+
+Windows Media Player 12: Opens Windows Media Player in <b>Library</b> mode with the <b>Sync</b> tab open.
+
+</td>
+</tr>
+<tr>
+<td>Services</td>
+<td>
+Windows Media Player 9: Opens Windows Media Player in the <b>Premium Services</b> feature 
+
+Windows Media Player 10, 11, 12: Opens Windows Media Player in the current active online store.
+
+</td>
+</tr>
+<tr>
+<td>SkinChooser</td>
+<td>
+Opens Windows Media Player in the <b>Skin Chooser</b> feature.
+
+</td>
+</tr>
+</table>
+ 
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>
+                  Value
+                </th>
+<th>
+                  Description
+                </th>
+</tr>
+<tr>
+<td>S_OK</td>
+<td>The method succeeded.</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+This method is used only when remoting the Windows Media Player control.
+
+<b>Windows Media Player 10 Mobile: </b>This method is not supported.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/4ceacaeb-09af-4cdf-84b7-04574a83ec48">IWMPPlayerServices::setTaskPaneURL(deprecated)</a>
+
+
+
+<a href="https://msdn.microsoft.com/3d9ca91f-c672-4ecb-a6db-67d7e1ddbe7e">IWMPPlayerServicesInterface</a>
+
+
+
+<a href="https://msdn.microsoft.com/d543b2a0-a2cb-47e2-b50e-4513fc061b46">Remoting the Windows Media Player Control</a>
+ 
+
+ 
+

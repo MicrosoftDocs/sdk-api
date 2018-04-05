@@ -1,0 +1,95 @@
+---
+UID: NF:d3d10.ID3D10View.GetResource
+title: ID3D10View::GetResource method
+author: windows-driver-content
+description: Get the resource that is accessed through this view.
+old-location: direct3d10\id3d10view_getresource.htm
+old-project: direct3d10
+ms.assetid: VS|directx_sdk|~\id3d10view_getresource.htm
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: GetResource method [Direct3D 10], GetResource method [Direct3D 10], ID3D10View interface, GetResource,ID3D10View.GetResource, ID3D10View, ID3D10View interface [Direct3D 10], GetResource method, ID3D10View::GetResource, affb4f45-35eb-1680-9945-930b6caf601f, d3d10/ID3D10View::GetResource, direct3d10.id3d10view_getresource
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: d3d10.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: D3D10_USAGE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	D3D10.lib
+-	D3D10.dll
+api_name:
+-	ID3D10View.GetResource
+product: Windows
+targetos: Windows
+req.lib: D3D10.lib
+req.dll: 
+req.irql: 
+---
+
+# ID3D10View::GetResource method
+
+
+## -description
+
+
+Get the resource that is accessed through this view.
+
+
+## -parameters
+
+
+
+
+### -param ppResource [out]
+
+Type: <b><a href="https://msdn.microsoft.com/709c6f33-e1dc-4609-8ddd-9dc502628ec5">ID3D10Resource</a>**</b>
+
+Address of a pointer to the resource that is accessed through this view. (See <a href="https://msdn.microsoft.com/709c6f33-e1dc-4609-8ddd-9dc502628ec5">ID3D10Resource</a>.)
+
+
+## -returns
+
+
+
+Returns nothing.
+
+
+
+
+## -remarks
+
+
+
+This function increments the reference count of the resource by one, so it is necessary to call Release on the returned pointer when the application is done with it. Destroying (or losing) the returned pointer before Release is called will result in a memory leak.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/a0b0945c-f907-4212-9bd5-a05033cdee45">ID3D10View Interface</a>
+ 
+
+ 
+

@@ -1,0 +1,132 @@
+---
+UID: NF:medparam.IMediaParamInfo.GetCurrentTimeFormat
+title: IMediaParamInfo::GetCurrentTimeFormat method
+author: windows-driver-content
+description: The GetCurrentTimeFormat method retrieves the current time format.
+old-location: dshow\imediaparaminfo_getcurrenttimeformat.htm
+old-project: DirectShow
+ms.assetid: b93b929c-c1a7-4e8e-93cf-118fcd6a3de9
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: GetCurrentTimeFormat method [DirectShow], GetCurrentTimeFormat method [DirectShow], IMediaParamInfo interface, GetCurrentTimeFormat,IMediaParamInfo.GetCurrentTimeFormat, IMediaParamInfo, IMediaParamInfo interface [DirectShow], GetCurrentTimeFormat method, IMediaParamInfo::GetCurrentTimeFormat, IMediaParamInfoGetCurrentTimeFormat, dshow.imediaparaminfo_getcurrenttimeformat, medparam/IMediaParamInfo::GetCurrentTimeFormat
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: medparam.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MP_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Dmoguids.lib
+-	Dmoguids.dll
+api_name:
+-	IMediaParamInfo.GetCurrentTimeFormat
+product: Windows
+targetos: Windows
+req.lib: Dmoguids.lib
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IMediaParamInfo::GetCurrentTimeFormat method
+
+
+## -description
+
+
+
+The <code>GetCurrentTimeFormat</code> method retrieves the current time format.
+
+
+
+
+## -parameters
+
+
+
+
+### -param pguidTimeFormat [out]
+
+Pointer to a variable that receives a time format GUID.
+
+
+### -param pTimeData [out]
+
+Pointer to a variable that receives an <b>MP_TIMEDATA</b> value specifying the unit of measure for the new format.
+
+
+## -returns
+
+
+
+Returns an <b>HRESULT</b> value. Possible values include the following.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_POINTER</b></dt>
+</dl>
+</td>
+<td width="60%">
+<b>NULL</b> pointer argument.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+Success.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+The meaning of the value returned in the <i>pTimeData</i> parameter depends on the time format GUID. For more information, see <a href="https://msdn.microsoft.com/48c28dd8-aeae-4212-9221-ab943113aa76">IMediaParams::SetTimeFormat</a>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/80c7da71-7898-4bda-a181-09ad8906532a">IMediaParamInfo Interface</a>
+ 
+
+ 
+

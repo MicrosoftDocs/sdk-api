@@ -1,0 +1,102 @@
+---
+UID: NF:structuredquery.IQueryParser.ParsePropertyValue
+title: IQueryParser::ParsePropertyValue method
+author: windows-driver-content
+description: Parses a condition for a specified property.
+old-location: search\_search_IQueryParser_ParsePropertyValue.htm
+old-project: search
+ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iqueryparser\parsepropertyvalue.htm
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: IQueryParser, IQueryParser interface [search], ParsePropertyValue method, IQueryParser::ParsePropertyValue, ParsePropertyValue method [search], ParsePropertyValue method [search], IQueryParser interface, ParsePropertyValue,IQueryParser.ParsePropertyValue, _search_IQueryParser_ParsePropertyValue, search._search_IQueryParser_ParsePropertyValue, structuredquery/IQueryParser::ParsePropertyValue
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: structuredquery.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Structuredquery.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: NAMED_ENTITY_CERTAINTY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Structuredquery.h
+api_name:
+-	IQueryParser.ParsePropertyValue
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# IQueryParser::ParsePropertyValue method
+
+
+## -description
+
+
+Parses a condition for a specified property. 
+
+
+## -parameters
+
+
+
+
+### -param pszPropertyName [in]
+
+Type: <b>LPCWSTR</b>
+
+Property name.
+
+
+### -param pszInputString [in]
+
+Type: <b>LPCWSTR</b>
+
+Query string to be parsed, relative to that property.
+
+
+### -param ppSolution [out, retval]
+
+Type: <b><a href="https://msdn.microsoft.com/a4987e80-7ad9-400d-8c6d-ec3b9a6bf3f1">IQuerySolution</a>**</b>
+
+Receives an <a href="https://msdn.microsoft.com/a4987e80-7ad9-400d-8c6d-ec3b9a6bf3f1">IQuerySolution</a> object. The calling application must release it by calling its <a href="_com_IUnknown_Release">IUnknown::Release</a> method.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+
+            The input string can be anything that could have been written immediately after a property in a structured query. For example, "from:(bill OR alex)" would be a valid structured query, so passing System.StructuredQuery.Virtual.From (for which From is a keyword) in the <i>pszPropertyName</i> parameter and "(bill OR alex)" or "bill OR alex" in the <i>pszInputString</i> parameter would be valid. This would result in an <b>OR</b> of leaf nodes that relate the System.StructuredQuery.Virtual.From property with the strings "bill" and "alex".
+            
+
+
+

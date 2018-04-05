@@ -1,0 +1,69 @@
+---
+UID: NF:uiautomationclient.IUIAutomationLegacyIAccessiblePattern.get_CurrentChildId
+title: IUIAutomationLegacyIAccessiblePattern::get_CurrentChildId method
+author: windows-driver-content
+description: Retrieves the Microsoft Active Accessibility child identifier for the element.
+old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentChildId.htm
+old-project: WinAuto
+ms.assetid: 63277b76-bd3f-4255-82be-24797cafd175
+ms.author: windowsdriverdev
+ms.date: 3/29/2018
+ms.keywords: CurrentChildId property [Windows Accessibility], CurrentChildId property [Windows Accessibility], IUIAutomationLegacyIAccessiblePattern interface, IUIAutomationLegacyIAccessiblePattern, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility], CurrentChildId property, IUIAutomationLegacyIAccessiblePattern.CurrentChildId, IUIAutomationLegacyIAccessiblePattern::get_CurrentChildId, get_CurrentChildId,IUIAutomationLegacyIAccessiblePattern.get_CurrentChildId, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentChildId, uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentChildId, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::CurrentChildId, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::get_CurrentChildId, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentChildId
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: uiautomationclient.h
+req.include-header: UIAutomation.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: UIAutomationClient.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	UIAutomationClient.h
+api_name:
+-	IUIAutomationLegacyIAccessiblePattern.CurrentChildId
+-	IUIAutomationLegacyIAccessiblePattern.get_CurrentChildId
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# IUIAutomationLegacyIAccessiblePattern::get_CurrentChildId method
+
+
+## -description
+
+
+Retrieves the Microsoft Active Accessibility child identifier for the element.
+
+This property is read-only.
+
+
+## -parameters
+
+
+## -remarks
+
+
+
+If the element is not a child element, CHILDID_SELF (0) is returned.
+
+
+

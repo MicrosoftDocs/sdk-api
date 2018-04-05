@@ -1,0 +1,100 @@
+---
+UID: NF:shobjidl.IFileDialogControlEvents.OnItemSelected
+title: IFileDialogControlEvents::OnItemSelected method
+author: windows-driver-content
+description: Called when an item is selected in a combo box, when a user clicks an option button (also known as a radio button), or an item is chosen from the Tools menu.
+old-location: shell\IFileDialogControlEvents_OnItemSelected.htm
+old-project: shell
+ms.assetid: 4c96d0b7-74d1-4f87-946d-beeaad517d91
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: IFileDialogControlEvents, IFileDialogControlEvents interface [Windows Shell], OnItemSelected method, IFileDialogControlEvents::OnItemSelected, OnItemSelected method [Windows Shell], OnItemSelected method [Windows Shell], IFileDialogControlEvents interface, OnItemSelected,IFileDialogControlEvents.OnItemSelected, shell.IFileDialogControlEvents_OnItemSelected, shell_IFileDialogControlEvents_OnItemSelected, shobjidl/IFileDialogControlEvents::OnItemSelected
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: shobjidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Shobjidl.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: VPWATERMARKFLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Shobjidl.h
+api_name:
+-	IFileDialogControlEvents.OnItemSelected
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 6.01
+---
+
+# IFileDialogControlEvents::OnItemSelected method
+
+
+## -description
+
+
+Called when an item is selected in a combo box, when a user clicks an option button (also known as a radio button), or an item is chosen from the <b>Tools</b> menu.
+
+
+## -parameters
+
+
+
+
+### -param pfdc [in]
+
+Type: <b><a href="https://msdn.microsoft.com/f1c29688-3538-40ff-a1da-6211cc5dded7">IFileDialogCustomize</a>*</b>
+
+A pointer to the interface through which the application added controls to the dialog.
+
+
+### -param dwIDCtl [in]
+
+Type: <b>DWORD</b>
+
+The ID of the control in which the user made a selection.
+
+
+### -param dwIDItem [in]
+
+Type: <b>DWORD</b>
+
+The ID of the selection.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+This notification is not sent when the user chooses an item from the drop-down menu attached to the <b>Open</b> button, because the action taken in that case is always the same: close the dialog as if the user had simply clicked the <b>Open</b> button. For that situation, the application can call <a href="https://msdn.microsoft.com/1dd33779-071f-484e-9d89-1cc64ea03293">GetSelectedControlItem</a> to obtain the item the user chose from that menu.
+
+
+

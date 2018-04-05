@@ -1,0 +1,106 @@
+---
+UID: NE:d3d11sdklayers.D3D11_RLDO_FLAGS
+title: D3D11_RLDO_FLAGS
+author: windows-driver-content
+description: Options for the amount of information to report about a device object's lifetime.
+old-location: direct3d11\d3d11_rldo_flags.htm
+old-project: direct3d11
+ms.assetid: 9ab8c5c7-bb4e-4d6b-90fc-5e4cdfba0c71
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: 5a79a782-10e1-3c49-ad30-96926d31c37d, D3D11_RLDO_DETAIL, D3D11_RLDO_FLAGS, D3D11_RLDO_FLAGS enumeration [Direct3D 11], D3D11_RLDO_IGNORE_INTERNAL, D3D11_RLDO_SUMMARY, d3d11sdklayers/D3D11_RLDO_DETAIL, d3d11sdklayers/D3D11_RLDO_FLAGS, d3d11sdklayers/D3D11_RLDO_IGNORE_INTERNAL, d3d11sdklayers/D3D11_RLDO_SUMMARY, direct3d11.d3d11_rldo_flags
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: enum
+req.header: d3d11sdklayers.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: D3D11_RLDO_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	D3D11SDKLayers.h
+api_name:
+-	D3D11_RLDO_FLAGS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# D3D11_RLDO_FLAGS enumeration
+
+
+## -description
+
+
+Options for the amount of information to report about a device object's lifetime.
+
+
+## -enum-fields
+
+
+
+
+### -field D3D11_RLDO_SUMMARY
+
+
+            Specifies to obtain a summary about a device object's lifetime.
+          
+
+
+### -field D3D11_RLDO_DETAIL
+
+
+            Specifies to obtain detailed information about a device object's lifetime.
+          
+
+
+### -field D3D11_RLDO_IGNORE_INTERNAL
+
+
+            Do not use this enumeration constant.  
+            It is for internal use only.
+          
+
+
+## -remarks
+
+
+
+
+          This enumeration is used by <a href="https://msdn.microsoft.com/a4e5f3c1-8b67-488b-8476-464c5ea5abc6">ID3D11Debug::ReportLiveDeviceObjects</a>.
+        
+
+
+          Several inline functions exist to combine the options using operators, see the D3D11SDKLayers.h header file for details.
+        
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/0fd0456b-2638-4b4c-8a34-a3e104a1a034">Core Enumerations</a>
+ 
+
+ 
+

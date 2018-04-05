@@ -1,0 +1,131 @@
+---
+UID: NF:tuner.IESRequestTunerEvent.GetReason
+title: IESRequestTunerEvent::GetReason method
+author: windows-driver-content
+description: Gets a code that indicates the reason a device is requesting exclusive access to a tuner and its Conditional Access Services (CAS).
+old-location: mstv\iesrequesttunerevent_getreason.htm
+old-project: mstv
+ms.assetid: ff8b9080-0299-4ba9-a49d-9ef142e91eb8
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: GetReason method [Microsoft TV Technologies], GetReason method [Microsoft TV Technologies], IESRequestTunerEvent interface, GetReason,IESRequestTunerEvent.GetReason, IESRequestTunerEvent, IESRequestTunerEvent interface [Microsoft TV Technologies], GetReason method, IESRequestTunerEvent::GetReason, mstv.iesrequesttunerevent_getreason, tuner/IESRequestTunerEvent::GetReason
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: tuner.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: None supported
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Tuner.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	tuner.h
+api_name:
+-	IESRequestTunerEvent.GetReason
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# IESRequestTunerEvent::GetReason method
+
+
+## -description
+
+
+
+      Gets a code that indicates the reason a device is requesting exclusive access to a tuner and its Conditional Access Services (CAS).
+
+
+## -parameters
+
+
+
+
+### -param pbyReason [out, retval]
+
+Gets a 1-byte code that indicates the reason for the request.  The code can be any of the following values.
+          
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>0x00</b></dt>
+</dl>
+</td>
+<td width="60%">
+
+                Unspecified.
+              
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>0x01</b></dt>
+</dl>
+</td>
+<td width="60%">
+
+                The requesting device needs the tuner to download an internal update, such as new firmware.
+              
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>[Other]</b></dt>
+</dl>
+</td>
+<td width="60%">
+Reserved.
+
+</td>
+</tr>
+</table>
+ 
+
+
+## -returns
+
+
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/da1183a3-6f31-402a-b103-448cf13705a9">IESRequestTunerEvent</a>
+ 
+
+ 
+

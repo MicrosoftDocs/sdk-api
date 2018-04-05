@@ -1,0 +1,89 @@
+---
+UID: NF:msaatext.IAccServerDocMgr.OnDocumentFocus
+title: IAccServerDocMgr::OnDocumentFocus method
+author: windows-driver-content
+description: Applications that use Text Services Framework call IAccServerDocMgr::OnDocumentFocus to notify the Microsoft Active Accessibility run time when a document gets or loses focus.
+old-location: winauto\iaccserverdocmgr_iaccserverdocmgr__ondocumentfocus.htm
+old-project: WinAuto
+ms.assetid: 305566ed-20c2-42b6-99c8-108e99f9daeb
+ms.author: windowsdriverdev
+ms.date: 3/29/2018
+ms.keywords: IAccServerDocMgr, IAccServerDocMgr interface [Windows Accessibility], OnDocumentFocus method, IAccServerDocMgr::OnDocumentFocus, OnDocumentFocus method [Windows Accessibility], OnDocumentFocus method [Windows Accessibility], IAccServerDocMgr interface, OnDocumentFocus,IAccServerDocMgr.OnDocumentFocus, _msaa_IAccServerDocMgr_OnDocumentFocus, msaa.iaccserverdocmgr_iaccserverdocmgr__ondocumentfocus, msaatext/IAccServerDocMgr::OnDocumentFocus, winauto.iaccserverdocmgr_iaccserverdocmgr__ondocumentfocus
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: msaatext.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: SSTP_CONFIG_PARAMS, *PSSTP_CONFIG_PARAMS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	msaatext.dll
+api_name:
+-	IAccServerDocMgr.OnDocumentFocus
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msaatext.dll
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IAccServerDocMgr::OnDocumentFocus method
+
+
+## -description
+
+
+Applications that use Text Services Framework call <b>IAccServerDocMgr::OnDocumentFocus</b> to notify the Microsoft Active Accessibility run time when a document gets or loses focus. The store keeps this information so that clients can access the document that has focus.
+<div class="alert"><b>Note</b>  Active Accessibility Text Services is deprecated. Please see     
+<a href="http://go.microsoft.com/fwlink/p/?linkid=131573">Microsoft Windows Text Services Framework</a>
+for more information on advanced text input and natural language technologies.
+		</div><div> </div>
+
+## -parameters
+
+
+
+
+### -param punk [in]
+
+Type: <b>IUnknown*</b>
+
+An interface pointer to the document getting focus.
+
+
+## -returns
+
+
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+
+If successful, returns S_OK.
+
+
+
+
+## -remarks
+
+
+
+This can be null indicating that no document has focus.
+
+
+

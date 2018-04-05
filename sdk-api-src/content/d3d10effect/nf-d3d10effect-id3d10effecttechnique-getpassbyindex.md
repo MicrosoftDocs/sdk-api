@@ -1,0 +1,96 @@
+---
+UID: NF:d3d10effect.ID3D10EffectTechnique.GetPassByIndex
+title: ID3D10EffectTechnique::GetPassByIndex method
+author: windows-driver-content
+description: Get a pass by index.
+old-location: direct3d10\id3d10effecttechnique_getpassbyindex.htm
+old-project: direct3d10
+ms.assetid: VS|directx_sdk|~\id3d10effecttechnique_getpassbyindex.htm
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: GetPassByIndex method [Direct3D 10], GetPassByIndex method [Direct3D 10], ID3D10EffectTechnique interface, GetPassByIndex,ID3D10EffectTechnique.GetPassByIndex, ID3D10EffectTechnique, ID3D10EffectTechnique interface [Direct3D 10], GetPassByIndex method, ID3D10EffectTechnique::GetPassByIndex, bf6a09f2-4226-0743-fbab-24f41fc1fd18, d3d10effect/ID3D10EffectTechnique::GetPassByIndex, direct3d10.id3d10effecttechnique_getpassbyindex
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: d3d10effect.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: D3D10_DEVICE_STATE_TYPES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	D3D10Effect.h
+api_name:
+-	ID3D10EffectTechnique.GetPassByIndex
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# ID3D10EffectTechnique::GetPassByIndex method
+
+
+## -description
+
+
+Get a pass by index.
+
+
+## -parameters
+
+
+
+
+### -param Index [in]
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+
+A zero-based index.
+
+
+## -returns
+
+
+
+Type: <b><a href="https://msdn.microsoft.com/50407b6a-a05b-41e3-90a9-b0165378b177">ID3D10EffectPass</a>*</b>
+
+A pointer to a <a href="https://msdn.microsoft.com/50407b6a-a05b-41e3-90a9-b0165378b177">ID3D10EffectPass Interface</a>.
+
+
+
+
+## -remarks
+
+
+
+A technique contains one or more passes; get a pass using a name or an index.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/3965c6d5-e529-4225-861a-7846e35840d0">ID3D10EffectTechnique Interface</a>
+ 
+
+ 
+

@@ -1,0 +1,105 @@
+---
+UID: NF:wtsapi32.WTSOpenServerExA
+title: WTSOpenServerExA function
+author: windows-driver-content
+description: Opens a handle to the specified Remote Desktop Session Host (RD Session Host) server or Remote Desktop Virtualization Host (RD Virtualization Host) server.
+old-location: termserv\wtsopenserverex.htm
+old-project: TermServ
+ms.assetid: 8122de66-c096-4bd8-95ff-ed64b88afcae
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: WTSOpenServerEx, WTSOpenServerEx function [Remote Desktop Services], WTSOpenServerExA, WTSOpenServerExW, termserv.wtsopenserverex, wtsapi32/WTSOpenServerEx, wtsapi32/WTSOpenServerExA, wtsapi32/WTSOpenServerExW
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: wtsapi32.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7
+req.target-min-winversvr: Windows Server 2008 R2
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: WTSOpenServerExW (Unicode) and WTSOpenServerExA (ANSI)
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WTS_VIRTUAL_CLASS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Wtsapi32.dll
+api_name:
+-	WTSOpenServerEx
+-	WTSOpenServerExA
+-	WTSOpenServerExW
+product: Windows
+targetos: Windows
+req.lib: Wtsapi32.lib
+req.dll: Wtsapi32.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# WTSOpenServerExA function
+
+
+## -description
+
+
+Opens a handle to the specified Remote Desktop Session Host (RD Session Host) server or Remote Desktop Virtualization Host (RD Virtualization Host) server.
+
+
+## -parameters
+
+
+
+
+### -param pServerName [in]
+
+A pointer to a null-terminated string that contains the NetBIOS name of the server.
+
+
+## -returns
+
+
+
+If the function succeeds, the return value is a handle to the specified server.
+
+If the function fails, it returns an invalid handle. You can test the validity of the handle by using it in another function call.
+
+
+
+
+## -remarks
+
+
+
+If the server specified by the <i>pServerName</i> parameter is an RD Session Host server, the behavior of this function is identical to  that of the <a href="https://msdn.microsoft.com/f0b7dce7-59eb-41b8-9a61-65a69d1cc1f3">WTSOpenServer</a> function.
+
+To work with sessions running on virtual machines on the RD Virtualization Host server on which the calling application is running, specify <b>WTS_CURRENT_SERVER_NAME</b> for the <i>pServerName</i> parameter.
+
+When you have finished using the handle returned by this function, release it by calling the <a href="https://msdn.microsoft.com/092a6107-21bf-40a7-9fe7-f069eb0c89ca">WTSCloseServer</a> function.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/092a6107-21bf-40a7-9fe7-f069eb0c89ca">WTSCloseServer</a>
+
+
+
+<a href="https://msdn.microsoft.com/f0b7dce7-59eb-41b8-9a61-65a69d1cc1f3">WTSOpenServer</a>
+ 
+
+ 
+

@@ -1,0 +1,137 @@
+---
+UID: NF:wmcontainer.IMFASFStreamSelector.GetBandwidthStep
+title: IMFASFStreamSelector::GetBandwidthStep method
+author: windows-driver-content
+description: Retrieves the stream numbers that apply to a bandwidth step. This method is used for multiple bit rate (MBR) content.
+old-location: mf\imfasfstreamselector_getbandwidthstep.htm
+old-project: medfound
+ms.assetid: 82d9b642-48e3-4ef5-b0e1-b72f1dd39b2c
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: 82d9b642-48e3-4ef5-b0e1-b72f1dd39b2c, GetBandwidthStep method [Media Foundation], GetBandwidthStep method [Media Foundation], IMFASFStreamSelector interface, GetBandwidthStep,IMFASFStreamSelector.GetBandwidthStep, IMFASFStreamSelector, IMFASFStreamSelector interface [Media Foundation], GetBandwidthStep method, IMFASFStreamSelector::GetBandwidthStep, mf.imfasfstreamselector_getbandwidthstep, wmcontainer/IMFASFStreamSelector::GetBandwidthStep
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wmcontainer.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MFASF_STREAMSELECTOR_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfuuid.lib
+-	mfuuid.dll
+api_name:
+-	IMFASFStreamSelector.GetBandwidthStep
+product: Windows
+targetos: Windows
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IMFASFStreamSelector::GetBandwidthStep method
+
+
+## -description
+
+
+
+Retrieves the stream numbers that apply to a bandwidth step. This method is used for multiple bit rate (MBR) content.
+
+
+
+
+## -parameters
+
+
+
+
+### -param dwStepNum [in]
+
+Bandwidth step number for which to retrieve information. Set this value to a number between 0, and 1 less than the number of bandwidth steps returned by <a href="https://msdn.microsoft.com/6b7105c1-7395-462f-ad52-daf621258714">IMFASFStreamSelector::GetBandwidthStepCount</a>.
+
+
+### -param pdwBitrate [out]
+
+Receives the bit rate associated with the bandwidth step.
+
+
+### -param rgwStreamNumbers [out]
+
+Address of an array that receives the stream numbers. The caller allocates the array. The array size must be at least as large as the value returned by the <a href="https://msdn.microsoft.com/e1e80c32-bfd4-4404-9ccc-05b5077b83a6">IMFASFStreamSelector::GetStreamCount</a> method.
+
+
+
+### -param rgSelections [out]
+
+Address of an array that receives the selection status of each stream, as an <a href="https://msdn.microsoft.com/1571650b-4d5c-49ae-9e6d-77ef4ae7ae59">ASF_SELECTION_STATUS</a> value. The members of this array correspond to the members of the <i>rgwStreamNumbers</i> array by index. The caller allocates the array. The array size must be at least as large as the value returned by the <a href="https://msdn.microsoft.com/e1e80c32-bfd4-4404-9ccc-05b5077b83a6">IMFASFStreamSelector::GetStreamCount</a> method.
+
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+Bandwidth steps are bandwidth levels used for MBR content. If you stream MBR content, you can choose the bandwidth step that matches the network conditions to avoid interruptions during playback.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/d2e1fc15-2e12-4698-a4b1-ca8046d228de">IMFASFStreamSelector</a>
+
+
+
+<a href="https://msdn.microsoft.com/6b7105c1-7395-462f-ad52-daf621258714">IMFASFStreamSelector::GetBandwidthStepCount</a>
+ 
+
+ 
+

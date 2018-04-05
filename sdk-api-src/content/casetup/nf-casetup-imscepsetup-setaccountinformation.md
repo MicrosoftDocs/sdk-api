@@ -1,0 +1,90 @@
+---
+UID: NF:casetup.IMSCEPSetup.SetAccountInformation
+title: IMSCEPSetup::SetAccountInformation method
+author: windows-driver-content
+description: Sets the user account information used by the IIS Network Device Enrollment Service (NDES) extension to perform enrollment on behalf of network devices.
+old-location: security\imscepsetup_setaccountinformation.htm
+old-project: SecCrypto
+ms.assetid: 32d09bdc-e8e8-4368-9f51-cc7ba170c8a0
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: IMSCEPSetup, IMSCEPSetup interface [Security], SetAccountInformation method, IMSCEPSetup::SetAccountInformation, SetAccountInformation method [Security], SetAccountInformation method [Security], IMSCEPSetup interface, SetAccountInformation,IMSCEPSetup.SetAccountInformation, casetup/IMSCEPSetup::SetAccountInformation, security.imscepsetup_setaccountinformation
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: casetup.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Casetup.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: CEPSetupProperty
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Certocm.dll
+api_name:
+-	IMSCEPSetup.SetAccountInformation
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Certocm.dll
+req.irql: 
+---
+
+# IMSCEPSetup::SetAccountInformation method
+
+
+## -description
+
+
+The <b>SetAccountInformation</b> method sets the user account information used by the IIS Network Device Enrollment Service (NDES) extension to perform enrollment on behalf of network devices.
+
+
+## -parameters
+
+
+
+
+### -param bstrUserName [in]
+
+A string that contains the name of the user account to use with the IIS extension in the form [<i>DomainName</i>\]<i>UserName</i>.
+
+
+### -param bstrPassword [in]
+
+A string that contains the password for the user account.
+
+
+## -remarks
+
+
+
+The account must be a member of the <b>IIS_USRS</b> group on the computer.
+
+If NDES is configured for an enterprise <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a> (CA), the account must have read permission on the <b>IPSecIntermediateOffline</b> template.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/328c6c04-7ade-4b64-bd8a-4314b6e8dc78">IMSCEPSetup</a>
+ 
+
+ 
+

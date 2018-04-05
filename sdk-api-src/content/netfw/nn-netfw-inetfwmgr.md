@@ -1,0 +1,182 @@
+---
+UID: NN:netfw.INetFwMgr
+title: INetFwMgr
+author: windows-driver-content
+description: The INetFwMgr interface provides access to the firewall settings for a computer.
+old-location: ics\inetfwmgr.htm
+old-project: ICS
+ms.assetid: 7534ea10-7553-4ec2-af68-0b0393ffc003
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: INetFwMgr, INetFwMgr interface [ICS/ICF], INetFwMgr interface [ICS/ICF], described, ics.inetfwmgr, netfw/INetFwMgr
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: interface
+req.header: netfw.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: NETISO_ERROR_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	FirewallAPI.dll
+-	Hnetcfg.dll
+api_name:
+-	INetFwMgr
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# INetFwMgr interface
+
+
+## -description
+
+
+<p class="CCE_Message">[The Windows Firewall API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. For Windows Vista and later, use of the <a href="https://msdn.microsoft.com/8F33B96B-AA9A-46d5-8808-0F2D0723935B">Windows Firewall with Advanced Security</a> API is recommended.]
+
+The <a href="https://msdn.microsoft.com/b99464c5-dabc-405a-ad3e-da06a6faef47">INetFwMgr</a> interface  provides access to the firewall settings for a computer.
+
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetFwMgr</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>INetFwMgr</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Properties</a></li>
+</ul>
+
+## -members
+
+The <b>INetFwMgr</b> interface has these methods.
+<table class="members" id="memberListMethods">
+<tr>
+<th align="left" width="37%">Method</th>
+<th align="left" width="63%">Description</th>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/fa6d79a8-37e4-4172-a6be-3ca803c0feca">get_CurrentProfileType</a>
+</td>
+<td align="left" width="63%">
+Retrieves the type of firewall profile currently in effect.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/ec32c591-d677-4251-90c8-1bd4fa516245">get_LocalPolicy</a>
+</td>
+<td align="left" width="63%">
+Retrieves the local firewall policy.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/9ff5ef3b-581e-4ce5-9424-dafb08cfe067">IsIcmpTypeAllowed</a>
+</td>
+<td align="left" width="63%">
+Determines whether the specified ICMP type is allowed.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/39e68271-8046-470a-af90-17bed770716d">IsPortAllowed</a>
+</td>
+<td align="left" width="63%">
+Determines whether an application can listen for inbound traffic on the specified port.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/ed2fd6b6-e449-4bed-aeb4-eb4345f67b12">RestoreDefaults</a>
+</td>
+<td align="left" width="63%">
+Restores the local configuration to its default state.
+
+</td>
+</tr>
+</table> 
+<h3><a id="properties"></a>Properties</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetFwMgr</b> interface has these properties.
+<table class="members" id="memberListProperties">
+<tr>
+<th align="left" width="27%">Property</th>
+<th align="left" width="63%">Description</th>
+</tr>
+<tr data="declared;">
+<td align="left" width="27%" xml:space="preserve">
+
+<a href="https://msdn.microsoft.com/fa6d79a8-37e4-4172-a6be-3ca803c0feca">CurrentProfileType</a>
+
+
+</td>
+<td align="left" width="63%">
+Access to the type of firewall profile currently in effect.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="27%" xml:space="preserve">
+
+<a href="https://msdn.microsoft.com/ec32c591-d677-4251-90c8-1bd4fa516245">LocalPolicy</a>
+
+
+</td>
+<td align="left" width="63%">
+Access to the local firewall policy.
+
+</td>
+</tr>
+</table> 
+
+
+## -remarks
+
+
+
+<b>Windows Vista:  </b>Windows Vista users must use applications developed in Windows Vista for all methods and properties of this interface.
+
+This interface is
+supported by the HNetCfg.FwMgr COM object. 
+
+All configuration changes take
+effect immediately.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
+
+
+
+<a href="_com_iunknown">IUnknown</a>
+ 
+
+ 
+

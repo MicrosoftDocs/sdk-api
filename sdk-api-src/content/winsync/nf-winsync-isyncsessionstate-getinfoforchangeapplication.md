@@ -1,0 +1,138 @@
+---
+UID: NF:winsync.ISyncSessionState.GetInfoForChangeApplication
+title: ISyncSessionState::GetInfoForChangeApplication method
+author: windows-driver-content
+description: Retrieves stored data for a serialized change applier.
+old-location: winsync\isyncsessionstate_getinfoforchangeapplication.htm
+old-project: winsync
+ms.assetid: 88f7f8f7-468f-4d9d-9593-0d3f92cb458f
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: GetInfoForChangeApplication method [Windows Sync], GetInfoForChangeApplication method [Windows Sync], ISyncSessionState interface, GetInfoForChangeApplication,ISyncSessionState.GetInfoForChangeApplication, ISyncSessionState, ISyncSessionState interface [Windows Sync], GetInfoForChangeApplication method, ISyncSessionState::GetInfoForChangeApplication, winsync.isyncsessionstate_getinfoforchangeapplication, winsync/ISyncSessionState::GetInfoForChangeApplication
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: winsync.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	winsync.h
+api_name:
+-	ISyncSessionState.GetInfoForChangeApplication
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# ISyncSessionState::GetInfoForChangeApplication method
+
+
+## -description
+
+
+Retrieves stored data for a serialized change applier.
+
+
+## -parameters
+
+
+
+
+### -param pbChangeApplierInfo [in, out]
+
+Returns the serialized change applier data.
+
+
+### -param pcbChangeApplierInfo [in, out]
+
+Specifies the number of bytes in <i>pbChangeApplierInfo</i>. Returns the number of bytes required to retrieve the change applier data when <i>pcbChangeApplierInfo</i> is too small, or returns the number of bytes written.
+
+
+## -returns
+
+
+
+The possible return codes include, but are not limited to, the values shown in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_POINTER</b></dt>
+</dl>
+</td>
+<td width="60%">
+Invalid pointer.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%"></td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>HRESULT_FROM_WIN32(ERROR_MORE_DATA)</b></dt>
+</dl>
+</td>
+<td width="60%">
+<i>pbChangeApplierInfo</i> is too small. In this case, the required number of bytes is returned in <i>pcbChangeApplierInfo</i>.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/9b03d5af-b5f5-49fa-a10e-9f9f3c1dab0e">ISyncSessionState Interface</a>
+ 
+
+ 
+

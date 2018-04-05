@@ -1,0 +1,97 @@
+---
+UID: NF:oleidl.IOleAdviseHolder.SendOnRename
+title: IOleAdviseHolder::SendOnRename method
+author: windows-driver-content
+description: Sends notification to all advisory sinks currently registered with the advise holder that the name of object has changed.
+old-location: com\ioleadviseholder_sendonrename.htm
+old-project: com
+ms.assetid: 64e44cab-b618-49af-bf0e-966b9eaa198a
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: IOleAdviseHolder, IOleAdviseHolder interface [COM], SendOnRename method, IOleAdviseHolder::SendOnRename, SendOnRename method [COM], SendOnRename method [COM], IOleAdviseHolder interface, SendOnRename,IOleAdviseHolder.SendOnRename, _ole_ioleadviseholder_sendonrename, com.ioleadviseholder_sendonrename, oleidl/IOleAdviseHolder::SendOnRename
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: oleidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: OleIdl.Idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: USERCLASSTYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	OleIdl.h
+api_name:
+-	IOleAdviseHolder.SendOnRename
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# IOleAdviseHolder::SendOnRename method
+
+
+## -description
+
+
+Sends notification to all advisory sinks currently registered with the advise holder that the name of object has changed.
+
+
+## -parameters
+
+
+
+
+### -param pmk [in]
+
+A pointer to the new full moniker of the object.
+
+
+## -returns
+
+
+
+This method returns S_OK if advise sinks were sent <a href="https://msdn.microsoft.com/ec9926fb-d69e-430c-b67d-24c52d806bb5">IAdviseSink::OnRename</a> notifications.
+
+
+
+
+## -remarks
+
+
+
+<b>SendOnRename</b> calls <a href="https://msdn.microsoft.com/ec9926fb-d69e-430c-b67d-24c52d806bb5">IAdviseSink::OnRename</a> to advise the calling object, which must have already established an advisory connection, that the object has a new moniker. If you are using the OLE advise holder (having obtained a pointer through a call to <a href="https://msdn.microsoft.com/f76e074e-6814-4735-9417-d5970e73089f">CreateOleAdviseHolder</a>), you can call <b>SendOnRename</b> in the implementation of <a href="https://msdn.microsoft.com/1313cd9a-757d-4716-abac-027cff9fee03">IOleObject::SetMoniker</a>, when you have determined that the operation is successful.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/ec9926fb-d69e-430c-b67d-24c52d806bb5">IAdviseSink::OnRename</a>
+
+
+
+<a href="https://msdn.microsoft.com/680afee7-2bee-4d54-ae0b-3e4e0deb622f">IOleAdviseHolder</a>
+ 
+
+ 
+

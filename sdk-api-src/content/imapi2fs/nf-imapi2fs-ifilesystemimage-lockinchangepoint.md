@@ -1,0 +1,119 @@
+---
+UID: NF:imapi2fs.IFileSystemImage.LockInChangePoint
+title: IFileSystemImage::LockInChangePoint method
+author: windows-driver-content
+description: Locks the file system information at the current change-point level.
+old-location: imapi\ifilesystemimage_lockinchangepoint.htm
+old-project: imapi
+ms.assetid: ae5d659c-5da7-4478-b65f-64cbe227dbc5
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: IFileSystemImage, IFileSystemImage interface [IMAPI], LockInChangePoint method, IFileSystemImage::LockInChangePoint, LockInChangePoint method [IMAPI], LockInChangePoint method [IMAPI], IFileSystemImage interface, LockInChangePoint,IFileSystemImage.LockInChangePoint, imapi.ifilesystemimage_lockinchangepoint, imapi2fs/IFileSystemImage::LockInChangePoint
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: imapi2fs.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Imapi2fs.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: PlatformId
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	imapi2fs.h
+api_name:
+-	IFileSystemImage.LockInChangePoint
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IFileSystemImage::LockInChangePoint method
+
+
+## -description
+
+
+Locks the file system information at the current change-point level.
+
+
+## -parameters
+
+
+
+
+
+
+## -returns
+
+
+
+S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>IMAPI_E_FSI_INTERNAL_ERROR</b></dt>
+</dl>
+</td>
+<td width="60%">
+Internal error occurred: <i>%1!ls!</i>.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+Once the change point is locked, rollback to earlier change points is not permitted.
+
+Locking the change point does not change the <a href="https://msdn.microsoft.com/e5d15478-e632-4e76-91e2-ee360dfccf19">IFileSystemImage::get_ChangePoint</a> property.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/0256f1d2-a3fb-45b2-bd84-e2b71148e4ec">IFileSystemImage</a>
+
+
+
+<a href="https://msdn.microsoft.com/852b88ed-6af7-4fe6-bf5f-831d55423130">IFileSystemImage::RollbackToChangePoint</a>
+
+
+
+<a href="https://msdn.microsoft.com/e5d15478-e632-4e76-91e2-ee360dfccf19">IFileSystemImage::get_ChangePoint</a>
+ 
+
+ 
+

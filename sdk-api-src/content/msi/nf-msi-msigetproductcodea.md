@@ -1,0 +1,173 @@
+---
+UID: NF:msi.MsiGetProductCodeA
+title: MsiGetProductCodeA function
+author: windows-driver-content
+description: The MsiGetProductCode function returns the product code of an application by using the component code of an installed or advertised component of the application.
+old-location: setup\msigetproductcode.htm
+old-project: Msi
+ms.assetid: 5893c437-6827-44d6-bc22-18c402dda894
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: MsiGetProductCode, MsiGetProductCode function, MsiGetProductCodeA, MsiGetProductCodeW, _msi_msigetproductcode, msi/MsiGetProductCode, msi/MsiGetProductCodeA, msi/MsiGetProductCodeW, setup.msigetproductcode
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: msi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on   Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP. See the Windows Installer Run-Time Requirements for information about the minimum Windows service pack that is required by a Windows Installer version.
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: MsiGetProductCodeW (Unicode) and MsiGetProductCodeA (ANSI)
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: DRM_CLIENT_VERSION_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Msi.dll
+api_name:
+-	MsiGetProductCode
+-	MsiGetProductCodeA
+-	MsiGetProductCodeW
+product: Windows
+targetos: Windows
+req.lib: Msi.lib
+req.dll: Msi.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 SP2 or later
+---
+
+# MsiGetProductCodeA function
+
+
+## -description
+
+
+The 
+<b>MsiGetProductCode</b> function returns the product code of an application by using the component code of an installed or advertised component of the application. During initialization, an application must determine under which product code it has been installed or advertised.
+
+
+## -parameters
+
+
+
+
+### -param szComponent [in]
+
+This parameter specifies the component code of a component that has been installed by the application. This will be typically the component code of the component containing the executable file of the application.
+
+
+### -param lpBuf39
+
+TBD
+
+
+
+
+#### - lpProductBuf [out]
+
+Pointer to a buffer that receives the product code. This buffer must be 39 characters long. The first 38 characters are for the GUID, and the last character is for the terminating null character.
+
+
+## -returns
+
+
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_BAD_CONFIGURATION</b></dt>
+</dl>
+</td>
+<td width="60%">
+The configuration data is corrupt.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_INSTALL_FAILURE</b></dt>
+</dl>
+</td>
+<td width="60%">
+The product code could not be determined.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_INVALID_PARAMETER</b></dt>
+</dl>
+</td>
+<td width="60%">
+An invalid parameter was passed to the function.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_SUCCESS</b></dt>
+</dl>
+</td>
+<td width="60%">
+The function completed successfully.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_UNKNOWN_COMPONENT</b></dt>
+</dl>
+</td>
+<td width="60%">
+The specified component is unknown.
+
+</td>
+</tr>
+</table>
+ 
+
+
+<div> </div>
+
+
+
+
+
+## -remarks
+
+
+
+During initialization, an application must determine the product code under which it was installed. An application can be part of different products in different installations. For example, an application can be part of a suite of applications, or it can be installed by itself.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/05a16915-6b47-4d51-b62a-5a4d92b87e50">Application-Only Functions</a>
+ 
+
+ 
+

@@ -1,0 +1,186 @@
+---
+UID: NF:netcon.INetConnectionProps.get_DeviceName
+title: INetConnectionProps::get_DeviceName method
+author: windows-driver-content
+description: The get_DeviceName method retrieves the name of the device associated with the connection.
+old-location: ics\inetconnectionprops_get_devicename.htm
+old-project: ICS
+ms.assetid: 4c24c5a6-d856-4c62-a98e-33e4fc216f83
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: INetConnectionProps, INetConnectionProps interface [ICS/ICF], get_DeviceName method, INetConnectionProps::get_DeviceName, _ics_inetconnectionprops_get_devicename, get_DeviceName method [ICS/ICF], get_DeviceName method [ICS/ICF], INetConnectionProps interface, get_DeviceName,INetConnectionProps.get_DeviceName, ics.inetconnectionprops_get_devicename, netcon/INetConnectionProps::get_DeviceName
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: netcon.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: None supported
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: SHARINGCONNECTIONTYPE, *LPSHARINGCONNECTIONTYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Hnetcfg.dll
+api_name:
+-	INetConnectionProps.get_DeviceName
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Hnetcfg.dll
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# INetConnectionProps::get_DeviceName method
+
+
+## -description
+
+
+<p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="https://msdn.microsoft.com/4043a85f-ebdc-424c-acf5-9097d1472773">Windows Firewall API</a>.]
+
+The 
+<b>get_DeviceName</b> method retrieves the name of the device associated with the connection.
+
+
+## -parameters
+
+
+
+
+### -param pbstrDeviceName [out]
+
+Pointer to a 
+<a href="1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a> variable that, on successful return, receives the name of the device associated with the connection.
+
+
+## -returns
+
+
+
+If the method succeeds the return value is S_OK.
+
+If the method fails, the return value is one of the following error codes.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_ABORT</b></dt>
+</dl>
+</td>
+<td width="60%">
+The operation was aborted.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_FAIL</b></dt>
+</dl>
+</td>
+<td width="60%">
+An unspecified error occurred.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+One of the parameters is invalid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_NOINTERFACE</b></dt>
+</dl>
+</td>
+<td width="60%">
+A specified interface is not supported.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_NOTIMPL</b></dt>
+</dl>
+</td>
+<td width="60%">
+A specified method is not implemented.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_OUTOFMEMORY</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method was unable to allocate required memory.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_POINTER</b></dt>
+</dl>
+</td>
+<td width="60%">
+A pointer passed as a parameter is not valid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_UNEXPECTED</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method failed for unknown reasons.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/8152f75c-1c93-4c30-8a13-c47fd5dde4af">INetConnectionProps</a>
+ 
+
+ 
+

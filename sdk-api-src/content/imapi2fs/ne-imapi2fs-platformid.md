@@ -1,0 +1,103 @@
+---
+UID: NE:imapi2fs.PlatformId
+title: PlatformId
+author: windows-driver-content
+description: Defines values for the operating system architecture that the boot image supports.
+old-location: imapi\platformid.htm
+old-project: imapi
+ms.assetid: 296f9da1-99be-4d20-8961-f99cf220404a
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: PlatformEFI, PlatformId, PlatformId enumeration [IMAPI], PlatformMac, PlatformPowerPC, PlatformX86, imapi.platformid, imapi2fs/PlatformEFI, imapi2fs/PlatformId, imapi2fs/PlatformMac, imapi2fs/PlatformPowerPC, imapi2fs/PlatformX86
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: enum
+req.header: imapi2fs.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Imapi2fs.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: PlatformId
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	imapi2fs.h
+api_name:
+-	PlatformId
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# PlatformId enumeration
+
+
+## -description
+
+
+Defines values for the operating system architecture that the boot image supports
+
+
+## -enum-fields
+
+
+
+
+### -field PlatformX86
+
+ Intel Pentium™ series of chip sets. This entry implies a Windows  operating system.
+
+
+### -field PlatformPowerPC
+
+Apple PowerPC family.
+
+
+### -field PlatformMac
+
+Apple Macintosh  family.
+
+
+### -field PlatformEFI
+
+EFI Family.
+
+
+## -remarks
+
+
+
+Other values not defined here may exist. Consumers of this enumeration should not presume this list to be the only set of valid values.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/8d5ceb0e-4fd2-4146-8e15-b157c80a9d5b">IBootOptions::get_PlatformId</a>
+
+
+
+<a href="https://msdn.microsoft.com/295f3a3c-0f01-4b9b-b73c-48f075e6a33a">IBootOptions::put_PlatformId</a>
+ 
+
+ 
+

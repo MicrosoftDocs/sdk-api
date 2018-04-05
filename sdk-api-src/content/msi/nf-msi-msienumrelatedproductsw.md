@@ -1,0 +1,172 @@
+---
+UID: NF:msi.MsiEnumRelatedProductsW
+title: MsiEnumRelatedProductsW function
+author: windows-driver-content
+description: The MsiEnumRelatedProducts function enumerates products with a specified upgrade code. This function lists the currently installed and advertised products that have the specified UpgradeCode property in their Property table.
+old-location: setup\msienumrelatedproducts.htm
+old-project: Msi
+ms.assetid: cb0fbdce-0b20-4fb3-8b01-d5e81d7bf3a3
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: MsiEnumRelatedProducts, MsiEnumRelatedProducts function, MsiEnumRelatedProductsA, MsiEnumRelatedProductsW, _msi_msienumrelatedproducts, msi/MsiEnumRelatedProducts, msi/MsiEnumRelatedProductsA, msi/MsiEnumRelatedProductsW, setup.msienumrelatedproducts
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: msi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on   Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP. See the Windows Installer Run-Time Requirements for information about the minimum Windows service pack that is required by a Windows Installer version.
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: MsiEnumRelatedProductsW (Unicode) and MsiEnumRelatedProductsA (ANSI)
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: DRM_CLIENT_VERSION_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Msi.dll
+api_name:
+-	MsiEnumRelatedProducts
+-	MsiEnumRelatedProductsA
+-	MsiEnumRelatedProductsW
+product: Windows
+targetos: Windows
+req.lib: Msi.lib
+req.dll: Msi.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 SP2 or later
+---
+
+# MsiEnumRelatedProductsW function
+
+
+## -description
+
+
+The 
+<b>MsiEnumRelatedProducts</b> function enumerates products with a specified upgrade code. This function lists the currently installed and advertised products that have the specified 
+<a href="https://msdn.microsoft.com/6cdee5d8-8aa0-4fad-9338-152ee33b8077">UpgradeCode</a> property in their 
+<a href="https://msdn.microsoft.com/1f4215b2-dc71-4e6e-bc2e-3b43316806b9">Property table</a>.
+
+
+## -parameters
+
+
+
+
+### -param lpUpgradeCode [in]
+
+The null-terminated string specifying the upgrade code of related products that the installer is to enumerate.
+
+
+### -param dwReserved [in]
+
+This parameter is reserved and must be 0.
+
+
+### -param iProductIndex [in]
+
+The zero-based index into the registered products.
+
+
+### -param lpProductBuf [out]
+
+A buffer to receive the product code GUID. This buffer must be 39 characters long. The first 38 characters are for the 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn922935">GUID</a>, and the last character is for the terminating null character.
+
+
+## -returns
+
+
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_BAD_CONFIGURATION</b></dt>
+</dl>
+</td>
+<td width="60%">
+The configuration data is corrupt.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_INVALID_PARAMETER</b></dt>
+</dl>
+</td>
+<td width="60%">
+An invalid parameter was passed to the function.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_NO_MORE_ITEMS</b></dt>
+</dl>
+</td>
+<td width="60%">
+There are no products to return.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_NOT_ENOUGH_MEMORY</b></dt>
+</dl>
+</td>
+<td width="60%">
+The system does not have enough memory to complete the operation. Available starting with Windows Server 2003.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_SUCCESS</b></dt>
+</dl>
+</td>
+<td width="60%">
+A value was enumerated.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+See 
+<a href="https://msdn.microsoft.com/6cdee5d8-8aa0-4fad-9338-152ee33b8077">UpgradeCode</a> property.
+
+To enumerate currently installed and advertised products that have a specific upgrade code, an application should initially call the 
+<b>MsiEnumRelatedProducts</b> function with the <i>iProductIndex</i> parameter set to zero. The application should then increment the <i>iProductIndex</i> parameter and call 
+<b>MsiEnumRelatedProducts</b> until the function returns ERROR_NO_MORE_ITEMS, which means there are no more products with the specified upgrade code.
+
+When making multiple calls to 
+<b>MsiEnumRelatedProducts</b> to enumerate all of the related products, each call should be made from the same thread.
+
+
+

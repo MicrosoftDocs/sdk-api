@@ -1,0 +1,98 @@
+---
+UID: NE:contentpartner.WMPStreamingType
+title: WMPStreamingType
+author: windows-driver-content
+description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The WMPStreamingType enumeration specifies the type of streaming media.
+old-location: wmp\wmpstreamingtype.htm
+old-project: WMP
+ms.assetid: 3ac7e8cb-39c7-4437-a2da-6de5cb1efed9
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: WMPStreamingType, WMPStreamingType enumeration [Windows Media Player], contentpartner/WMPStreamingType, contentpartner/wmpstMusic, contentpartner/wmpstRadio, contentpartner/wmpstUnknown, contentpartner/wmpstVideo, enumeration [Windows Media Player], wmp.wmpstreamingtype, wmpstMusic, wmpstRadio, wmpstUnknown, wmpstVideo
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: enum
+req.header: contentpartner.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Media Player 11
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WMPStreamingType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	contentpartner.h
+api_name:
+-	WMPStreamingType
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# WMPStreamingType enumeration
+
+
+## -description
+
+
+
+<div class="alert"><b>Note</b>  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.</div>
+<div> </div>
+The <b>WMPStreamingType</b> enumeration specifies the type of streaming media.
+
+
+
+
+## -enum-fields
+
+
+
+
+### -field wmpstUnknown
+
+Unknown type.
+
+
+### -field wmpstMusic
+
+The plug-in must return a URL for music content.
+
+
+### -field wmpstVideo
+
+The plug-in must return a URL for video content.
+
+
+### -field wmpstRadio
+
+The plug-in must return a URL for radio content.
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/7359585f-6e8f-498f-a5a2-230265bae147">Enumerations for Type 1 Online Stores</a>
+
+
+
+<a href="https://msdn.microsoft.com/7b9c25bc-35f7-429a-b465-45e166e2ed1a">IWMPContentPartner::GetStreamingURL</a>
+ 
+
+ 
+

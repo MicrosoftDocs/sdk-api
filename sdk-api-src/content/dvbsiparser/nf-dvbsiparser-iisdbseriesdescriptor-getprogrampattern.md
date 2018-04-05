@@ -1,0 +1,180 @@
+---
+UID: NF:dvbsiparser.IIsdbSeriesDescriptor.GetProgramPattern
+title: IIsdbSeriesDescriptor::GetProgramPattern method
+author: windows-driver-content
+description: Gets a code that indicates how often a series is programmed from an Integrated Services Digital Broadcasting (ISDB) series descriptor.
+old-location: mstv\iisdbseriesdescriptor_getprogrampattern.htm
+old-project: mstv
+ms.assetid: ba37c512-bbde-42ad-80fe-9d67f48299b6
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: GetProgramPattern method [Microsoft TV Technologies], GetProgramPattern method [Microsoft TV Technologies], IIsdbSeriesDescriptor interface, GetProgramPattern,IIsdbSeriesDescriptor.GetProgramPattern, IIsdbSeriesDescriptor, IIsdbSeriesDescriptor interface [Microsoft TV Technologies], GetProgramPattern method, IIsdbSeriesDescriptor::GetProgramPattern, dvbsiparser/IIsdbSeriesDescriptor::GetProgramPattern, mstv.iisdbseriesdescriptor_getprogrampattern
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: dvbsiparser.h
+req.include-header: Dvbsiparser.idl
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: None supported
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	dvbsiparser.h
+api_name:
+-	IIsdbSeriesDescriptor.GetProgramPattern
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
+---
+
+# IIsdbSeriesDescriptor::GetProgramPattern method
+
+
+## -description
+
+
+Gets a code that indicates how often a series is programmed from an Integrated Services Digital Broadcasting (ISDB) series descriptor.
+
+
+## -parameters
+
+
+
+
+### -param pbVal [out]
+
+Receives the program pattern code. This can be any of the following values.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt>0x0</dt>
+</dl>
+</td>
+<td width="60%">
+Unscheduled.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt>0x1</dt>
+</dl>
+</td>
+<td width="60%">
+Programmed several times weekly.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt>0x2</dt>
+</dl>
+</td>
+<td width="60%">
+Programmed once weekly.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt>0x3</dt>
+</dl>
+</td>
+<td width="60%">
+Programmed once monthly.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt>0x4</dt>
+</dl>
+</td>
+<td width="60%">
+Programmed several times in a single day.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt>0x5</dt>
+</dl>
+</td>
+<td width="60%">
+Division of a long program.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt>0x6</dt>
+</dl>
+</td>
+<td width="60%">
+Program for regular or irregular accumulation.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt>0x7</dt>
+</dl>
+</td>
+<td width="60%">
+Undefined.
+
+</td>
+</tr>
+</table>
+ 
+
+
+## -returns
+
+
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/07c4debc-1817-46ac-9f67-9b8637a04662">IIsdbSeriesDescriptor</a>
+ 
+
+ 
+

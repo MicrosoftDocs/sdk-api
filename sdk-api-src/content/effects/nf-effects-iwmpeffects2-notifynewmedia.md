@@ -1,0 +1,87 @@
+---
+UID: NF:effects.IWMPEffects2.NotifyNewMedia
+title: IWMPEffects2::NotifyNewMedia method
+author: windows-driver-content
+description: The NotifyNewMedia method is called by Windows Media Player to inform the visualization that a new media item has been loaded.
+old-location: wmp\iwmpeffects2_notifynewmedia.htm
+old-project: WMP
+ms.assetid: ad1082af-9cba-4427-bacb-e552910f8e16
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: IWMPEffects2, IWMPEffects2 interface [Windows Media Player], NotifyNewMedia method, IWMPEffects2::NotifyNewMedia, IWMPEffectsNotifyNewMedia, NotifyNewMedia method [Windows Media Player], NotifyNewMedia method [Windows Media Player], IWMPEffects2 interface, NotifyNewMedia,IWMPEffects2.NotifyNewMedia, effects/IWMPEffects2::NotifyNewMedia, wmp.iwmpeffects2_notifynewmedia
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: effects.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Media Player 9 Series or later.
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	effects.h
+api_name:
+-	IWMPEffects2.NotifyNewMedia
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
+---
+
+# IWMPEffects2::NotifyNewMedia method
+
+
+## -description
+
+
+
+The <b>NotifyNewMedia</b> method is called by Windows Media Player to inform the visualization that a new media item has been loaded.
+
+
+
+
+## -parameters
+
+
+
+
+### -param pMedia [in]
+
+Pointer to an <b>IWMPMedia</b> interface that represents the new media item.
+
+
+## -returns
+
+
+
+This method returns an <b>HRESULT</b>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/44e044c1-97fd-43cb-9530-4556e485f5ae">IWMPEffects2 Interface</a>
+ 
+
+ 
+

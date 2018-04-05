@@ -1,0 +1,111 @@
+---
+UID: NF:mswmdm.IMDSPStorageGlobals.GetTotalBad
+title: IMDSPStorageGlobals::GetTotalBad method
+author: windows-driver-content
+description: The GetTotalBad method retrieves the total amount of unusable space on the storage medium, in bytes.
+old-location: wmdm\imdspstorageglobals_gettotalbad.htm
+old-project: WMDM
+ms.assetid: b0cbf636-e2c4-4a30-9b6d-5833090330a4
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: GetTotalBad method [windows Media Device Manager], GetTotalBad method [windows Media Device Manager], IMDSPStorageGlobals interface, GetTotalBad,IMDSPStorageGlobals.GetTotalBad, IMDSPStorageGlobals, IMDSPStorageGlobals interface [windows Media Device Manager], GetTotalBad method, IMDSPStorageGlobals::GetTotalBad, IMDSPStorageGlobalsGetTotalBad, mswmdm/IMDSPStorageGlobals::GetTotalBad, wmdm.imdspstorageglobals_gettotalbad
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: mswmdm.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MSVidCtlStateList
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mssachlp.lib
+-	mssachlp.dll
+api_name:
+-	IMDSPStorageGlobals.GetTotalBad
+product: Windows
+targetos: Windows
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# IMDSPStorageGlobals::GetTotalBad method
+
+
+## -description
+
+
+
+The <b>GetTotalBad</b> method retrieves the total amount of unusable space on the storage medium, in bytes.
+
+
+
+
+## -parameters
+
+
+
+
+### -param pdwBadLow [out]
+
+Pointer to a <b>DWORD</b> containing the low-order bytes of the unusable space.
+
+
+### -param pdwBadHigh [out]
+
+Pointer to a <b>DWORD</b> containing the high-order bytes of the unusable space.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. All the interface methods in Windows Media Device Manager can return any of the following classes of error codes:
+
+<ul>
+<li>Standard COM error codes </li>
+<li>Windows error codes converted to HRESULT values </li>
+<li>Windows Media Device Manager error codes </li>
+</ul>
+For an extensive list of possible error codes, see <a href="https://msdn.microsoft.com/library/windows/hardware/dn938542">Error Codes</a>.
+
+
+
+
+## -remarks
+
+
+
+To determine the amount of storage space in use by the medium for file management, subtract the number of bad bytes identified by using <b>GetTotalBad</b> from the number of free bytes identified by using <b>GetTotalFree</b>.
+
+This method must be implemented. It must not return WMDM_E_NOTSUPPORTED or E_NOTIMPL. For more information, see <a href="https://msdn.microsoft.com/582c9dd5-f8ab-48df-afb3-fba931ee0dea">Mandatory and Optional Interfaces</a>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/70653352-a467-4197-93e3-e8fb45f99d34">IMDSPStorageGlobals Interface</a>
+ 
+
+ 
+

@@ -1,0 +1,93 @@
+---
+UID: NF:bdaiface.IBDA_NameValueService.GetValue
+title: IBDA_NameValueService::GetValue method
+author: windows-driver-content
+description: Gets a value by name.
+old-location: mstv\ibda_namevalueservice_getvalue.htm
+old-project: mstv
+ms.assetid: d240f991-8f15-4d37-a292-91c7e3dff27d
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: GetValue method [Microsoft TV Technologies], GetValue method [Microsoft TV Technologies], IBDA_NameValueService interface, GetValue,IBDA_NameValueService.GetValue, IBDA_NameValueService, IBDA_NameValueService interface [Microsoft TV Technologies], GetValue method, IBDA_NameValueService::GetValue, bdaiface/IBDA_NameValueService::GetValue, mstv.ibda_namevalueservice_getvalue
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: bdaiface.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Bdaiface.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: UICloseReasonType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	bdaiface.h
+api_name:
+-	IBDA_NameValueService.GetValue
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# IBDA_NameValueService::GetValue method
+
+
+## -description
+
+
+Gets a value by name.
+
+
+## -parameters
+
+
+
+
+### -param bstrName [in]
+
+The name of the value to retrieve.
+
+
+### -param bstrLanguage [in]
+
+The language for the value. If the value of the name/value pair is localizable, this string must contain an ISO 639-2 language code with a dash followed by an ISO 3166 country/region code. Otherwise, this parameter may contain an empty string.
+
+
+### -param pbstrValue [out]
+
+Receives the value as a <b>BSTR</b>. The caller must free the <b>BSTR</b> by calling <b>SysFreeString</b>.
+
+
+## -returns
+
+
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/7b6a12d2-24e4-42d8-9138-86c2fe558d86">IBDA_NameValueService</a>
+ 
+
+ 
+

@@ -1,0 +1,86 @@
+---
+UID: NF:wincodec.IWICDevelopRaw.SetExposureCompensation
+title: IWICDevelopRaw::SetExposureCompensation method
+author: windows-driver-content
+description: Sets the exposure compensation stop value.
+old-location: wic\_wic_codec_iwicdevelopraw_setexposurecompensation.htm
+old-project: wic
+ms.assetid: 57ee5b96-2e49-415c-b1a8-41436a761b23
+ms.author: windowsdriverdev
+ms.date: 3/28/2018
+ms.keywords: IWICDevelopRaw, IWICDevelopRaw interface [Windows Imaging Component], SetExposureCompensation method, IWICDevelopRaw::SetExposureCompensation, SetExposureCompensation method [Windows Imaging Component], SetExposureCompensation method [Windows Imaging Component], IWICDevelopRaw interface, SetExposureCompensation,IWICDevelopRaw.SetExposureCompensation, _wic_codec_iwicdevelopraw_setexposurecompensation, wic._wic_codec_iwicdevelopraw_setexposurecompensation, wincodec/IWICDevelopRaw::SetExposureCompensation
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wincodec.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Wincodec.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WICTiffCompressionOption
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Windowscodecs.dll
+api_name:
+-	IWICDevelopRaw.SetExposureCompensation
+product: Windows
+targetos: Windows
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# IWICDevelopRaw::SetExposureCompensation method
+
+
+## -description
+
+
+Sets the exposure compensation stop value.
+
+
+## -parameters
+
+
+
+
+### -param ev [in]
+
+Type: <b>double</b>
+
+The exposure compensation value. The value range for exposure compensation is -5.0 through +5.0, which equates to 10 full stops.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+It is recommended that a codec report that this method is supported even if the results at the outer range limits are not of perfect quality.
+
+
+

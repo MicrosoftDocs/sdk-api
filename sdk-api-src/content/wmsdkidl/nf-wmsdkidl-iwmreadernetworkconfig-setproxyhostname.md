@@ -1,0 +1,138 @@
+---
+UID: NF:wmsdkidl.IWMReaderNetworkConfig.SetProxyHostName
+title: IWMReaderNetworkConfig::SetProxyHostName method
+author: windows-driver-content
+description: The SetProxyHostName method specifies the proxy host name.
+old-location: wmformat\iwmreadernetworkconfig_setproxyhostname.htm
+old-project: wmformat
+ms.assetid: 5638a5d6-30f3-43eb-b054-cab85948796c
+ms.author: windowsdriverdev
+ms.date: 3/23/2018
+ms.keywords: IWMReaderNetworkConfig, IWMReaderNetworkConfig interface [windows Media Format], SetProxyHostName method, IWMReaderNetworkConfig::SetProxyHostName, IWMReaderNetworkConfigSetProxyHostName, SetProxyHostName method [windows Media Format], SetProxyHostName method [windows Media Format], IWMReaderNetworkConfig interface, SetProxyHostName,IWMReaderNetworkConfig.SetProxyHostName, wmformat.iwmreadernetworkconfig_setproxyhostname, wmsdkidl/IWMReaderNetworkConfig::SetProxyHostName
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wmsdkidl.h
+req.include-header: Wmsdk.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WM_AETYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wmvcore.lib
+-	Wmvcore.dll
+-	WMStubDRM.lib
+-	WMStubDRM.dll
+api_name:
+-	IWMReaderNetworkConfig.SetProxyHostName
+product: Windows
+targetos: Windows
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IWMReaderNetworkConfig::SetProxyHostName method
+
+
+## -description
+
+
+
+The <b>SetProxyHostName</b> method specifies the proxy host name.
+
+
+
+
+## -parameters
+
+
+
+
+### -param pwszProtocol [in]
+
+Pointer to a wide-character <b>null</b>-terminated string containing the protocol.
+
+
+### -param pwszHostName [in]
+
+Pointer to a wide-character <b>null</b>-terminated string containing the host name. Host names are limited to 1024 wide characters.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+<b>NULL</b> or invalid argument passed in.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+By default, the proxy host name is <b>NULL</b>, and must be set if a proxy is being used.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/0957ece7-93fe-411b-b69e-fd03933b09d1">IWMReaderNetworkConfig Interface</a>
+
+
+
+<a href="https://msdn.microsoft.com/a7411ed6-90ee-450c-bb06-408469036d22">IWMReaderNetworkConfig::GetProxyHostName</a>
+ 
+
+ 
+

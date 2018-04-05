@@ -1,0 +1,97 @@
+---
+UID: NF:msiquery.MsiRecordDataSize
+title: MsiRecordDataSize function
+author: windows-driver-content
+description: The MsiRecordDataSize function returns the length of a record field. The count does not include the terminating null character.
+old-location: setup\msirecorddatasize.htm
+old-project: Msi
+ms.assetid: e0e4e842-697f-43fa-8012-dd911bf3eebc
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: MsiRecordDataSize, MsiRecordDataSize function, _msi_msirecorddatasize, msiquery/MsiRecordDataSize, setup.msirecorddatasize
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: msiquery.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on   Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: InkRecoGuide
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Msi.dll
+api_name:
+-	MsiRecordDataSize
+product: Windows
+targetos: Windows
+req.lib: Msi.lib
+req.dll: Msi.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 SP2 or later
+---
+
+# MsiRecordDataSize function
+
+
+## -description
+
+
+The 
+<b>MsiRecordDataSize</b> function returns the length of a record field. The count does not include the terminating null character.
+
+
+## -parameters
+
+
+
+
+### -param hRecord [in]
+
+Handle to the record.
+
+
+### -param iField [in]
+
+Specifies a field of the record.
+
+
+## -returns
+
+
+
+The 
+<b>MsiRecordDataSize</b> function returns 0 if the field is null, nonexistent, or an internal object pointer. The function also returns 0 if the handle is not a valid record handle.
+
+If the data is in integer format, the function returns sizeof(int).
+
+If the data is in string format, the function returns the character count (not including the null character).
+
+If the data is in stream format, the function returns the byte count.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="database_functions.htm">Record Processing Functions</a>
+ 
+
+ 
+

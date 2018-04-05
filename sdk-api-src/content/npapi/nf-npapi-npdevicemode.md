@@ -1,0 +1,73 @@
+---
+UID: NF:npapi.NPDeviceMode
+title: NPDeviceMode function
+author: windows-driver-content
+description: Specifies the parent window of a device. This window owns any dialog boxes that originate from the device.
+old-location: security\npdevicemode.htm
+old-project: SecAuthN
+ms.assetid: 502e3d34-f582-4f0f-b3b2-263bd293cf11
+ms.author: windowsdriverdev
+ms.date: 3/29/2018
+ms.keywords: NPDeviceMode, NPDeviceMode function [Security], _mnp_npdevicemode, npapi/NPDeviceMode, security.npdevicemode
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: npapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: NOTIFICATION_USER_INPUT_DATA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Npapi.h
+api_name:
+-	NPDeviceMode
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# NPDeviceMode function
+
+
+## -description
+
+
+The <b>NPDeviceMode</b> function specifies the parent window of a device. This window owns any dialog boxes that originate from the device.
+
+
+## -parameters
+
+
+
+
+### -param hParent [in]
+
+A handle to the window that owns dialog boxes originating from this device.
+
+
+## -returns
+
+
+
+If the function succeeds, it will return WN_SUCCESS. Otherwise, it will return a Windows error code.
+
+
+

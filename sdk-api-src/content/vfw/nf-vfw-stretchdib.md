@@ -1,0 +1,170 @@
+---
+UID: NF:vfw.StretchDIB
+title: StretchDIB function
+author: windows-driver-content
+description: The StretchDIB function copies a device independent bitmap from one memory location to another and resizes the image to fit the destination rectangle.
+old-location: multimedia\stretchdib.htm
+old-project: Multimedia
+ms.assetid: 9b542bcf-c32f-40ab-96d1-6f0d96b856c5
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: StretchDIB, StretchDIB function [Windows Multimedia], _win32_StretchDIB, multimedia.stretchdib, vfw/StretchDIB
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: vfw.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: VS_FIXEDFILEINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Msvfw32.dll
+api_name:
+-	StretchDIB
+product: Windows
+targetos: Windows
+req.lib: Vfw32.lib
+req.dll: Msvfw32.dll
+req.irql: 
+req.product: Windows UI
+---
+
+# StretchDIB function
+
+
+## -description
+
+
+
+The <b>StretchDIB</b> function copies a device independent bitmap from one memory location to another and resizes the image to fit the destination rectangle.
+
+
+
+
+## -parameters
+
+
+
+
+### -param biDst
+
+Pointer to a <a href="https://msdn.microsoft.com/02f8ed65-8fed-4dda-9b94-7343a0cfa8c1">BITMAPINFOHEADER</a> structure that describes the destination bitmap.
+
+
+### -param lpDst
+
+TBD
+
+
+### -param DstX
+
+X coordinate of the destination rectangle's origin.
+
+
+### -param DstY
+
+Y coordinate of the destination rectangle's origin.
+
+
+### -param DstXE
+
+Width, in pixels, of the destination rectangle.
+
+
+### -param DstYE
+
+Height, in pixels, of the destination rectangle.
+
+
+### -param biSrc
+
+Pointer to a <a href="https://msdn.microsoft.com/02f8ed65-8fed-4dda-9b94-7343a0cfa8c1">BITMAPINFOHEADER</a> structure that describes the source bitmap.
+
+
+### -param lpSrc
+
+TBD
+
+
+### -param SrcX
+
+X coordinate of the source rectangle's origin.
+
+
+### -param SrcY
+
+Y coordinate of the source rectangle's origin.
+
+
+### -param SrcXE
+
+Width, in pixels, of the source rectangle.
+
+
+### -param SrcYE
+
+Height, in pixels, of the source rectangle.
+
+
+#### - lpvDst
+
+Pointer to the memory buffer that will receive the copied pixel bits.
+
+
+#### - lpvSrc
+
+Pointer to the source bitmap data.
+
+
+## -returns
+
+
+
+This function does not return a value.
+
+
+
+
+## -remarks
+
+
+
+The size of the destination buffer must be large enough to accommodate any alignment bytes at the end of each pixel row.
+
+This function does nothing if <i>biSrc</i> and <i>biDst</i> have different values for <i>biBitCount</i> or if the value for <i>biSrc</i>.  <i>biBitCount</i> does not equal 8, 16, or 24.
+
+This function performs no dithering or other smoothing. Pixel values are merely dropped or duplicated on a line-by-line, column-by-column basis.
+
+This function does not do any special processing based on pixel encoding except for calculating the number of bits per pixel. In particular this function will not generate correct results when pixels are encoded in groups of more than 1 pixel, as in the case of a YUV format where U and V are decimated and so are not represented equally in each pixel.
+
+Before including Vfw.h, you must add the following line to your code:
+
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
+#define DRAWDIB_INCLUDE_STRETCHDIB
+</pre>
+</td>
+</tr>
+</table></span></div>
+
+

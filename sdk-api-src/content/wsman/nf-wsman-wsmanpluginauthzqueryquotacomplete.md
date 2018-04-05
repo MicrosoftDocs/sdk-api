@@ -1,0 +1,103 @@
+---
+UID: NF:wsman.WSManPluginAuthzQueryQuotaComplete
+title: WSManPluginAuthzQueryQuotaComplete function
+author: windows-driver-content
+description: Called from the WSManPluginAuthzQueryQuota plug-in entry point and must be called whether or not the plug-in can carry out the request.
+old-location: winrm\wsmanpluginauthzqueryquotacomplete.htm
+old-project: WinRM
+ms.assetid: 611e9be3-75b8-4718-ae10-6ebe38010c7f
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: WSManPluginAuthzQueryQuotaComplete, WSManPluginAuthzQueryQuotaComplete function [Windows Remote Management], winrm.wsmanpluginauthzqueryquotacomplete, wsman/WSManPluginAuthzQueryQuotaComplete
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: wsman.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7
+req.target-min-winversvr: Windows Server 2008 R2
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WSManSessionOption
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	WsmSvc.dll
+api_name:
+-	WSManPluginAuthzQueryQuotaComplete
+product: Windows
+targetos: Windows
+req.lib: WsmSvc.lib
+req.dll: WsmSvc.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# WSManPluginAuthzQueryQuotaComplete function
+
+
+## -description
+
+
+
+Called from the <a href="https://msdn.microsoft.com/426a848c-f549-4a41-b92a-c9451738a014">WSManPluginAuthzQueryQuota</a> plug-in entry point and  must be called whether or not the plug-in can carry out the request.
+
+
+## -parameters
+
+
+
+
+### -param senderDetails [in]
+
+A pointer  to the <a href="https://msdn.microsoft.com/f68a9f75-6808-4dfa-b40f-061da88ead3c">WSMAN_SENDER_DETAILS</a> structure that was passed into the <a href="https://msdn.microsoft.com/426a848c-f549-4a41-b92a-c9451738a014">WSManPluginAuthzQueryQuota</a> plug-in call.
+
+
+### -param flags [in]
+
+Reserved for future use. Must be zero.
+
+
+### -param quota [in, optional]
+
+A pointer to a <a href="https://msdn.microsoft.com/dff093be-34cb-4e31-b3ff-b1ad8ecc7069">WSMAN_AUTHZ_QUOTA</a> structure that specifies quota information for a specific user.
+
+
+### -param errorCode [in]
+
+Reports either a successful or failed authorization.   If the authorization is successful, the code  should be <b>ERROR_SUCCESS</b>. If a failure happens for any other reason, an appropriate error code should be used.  Any error from this call will be sent back as a Simple Object Access Protocol (SOAP) fault packet.
+
+
+### -param extendedErrorInformation [in, optional]
+
+Specifies an XML document that contains any extra error information that needs to be reported to the client. This parameter is ignored if <i>errorCode</i> is <b>NO_ERROR</b>. The user interface language of the thread should be used for localization.
+
+
+## -returns
+
+
+
+The method returns <b>ERROR_SUCCESS</b> if it succeeded; otherwise,  it returns <b>ERROR_INVALID_PARAMETER</b>.  If <b>ERROR_INVALID_PARAMETER</b> is returned, either  the <i>senderDetails</i> parameter was <b>NULL</b> or the <i>flags</i> parameter was not zero.   If the method fails, the default quota is used.
+
+
+
+
+## -remarks
+
+
+
+If the <i>quota</i> parameter is <b>null</b> and the <i>errorCode</i> is <b>NO_ERROR</b>, the method returns <b>ERROR_INVALID_PARAMETER</b> and the plug-in returns the default quota information.  If the plug-in is not returning a quota, the authorization plug-in should not specify that quotas are available in the configuration because performance might be affected.
+
+
+

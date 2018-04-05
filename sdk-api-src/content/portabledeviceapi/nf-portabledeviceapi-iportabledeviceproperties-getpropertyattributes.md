@@ -1,0 +1,162 @@
+---
+UID: NF:portabledeviceapi.IPortableDeviceProperties.GetPropertyAttributes
+title: IPortableDeviceProperties::GetPropertyAttributes method
+author: windows-driver-content
+description: The GetPropertyAttributes method retrieves attributes of a specified object property on a device.
+old-location: wpdsdk\iportabledeviceproperties_getpropertyattributes.htm
+old-project: wpd_sdk
+ms.assetid: bb2206ff-e1d4-4bc5-819b-b008a293c43d
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: GetPropertyAttributes method [Windows Portable Devices SDK], GetPropertyAttributes method [Windows Portable Devices SDK], IPortableDeviceProperties interface, GetPropertyAttributes,IPortableDeviceProperties.GetPropertyAttributes, IPortableDeviceProperties, IPortableDeviceProperties interface [Windows Portable Devices SDK], GetPropertyAttributes method, IPortableDeviceProperties::GetPropertyAttributes, IPortableDevicePropertiesGetPropertyAttributes, portabledeviceapi/IPortableDeviceProperties::GetPropertyAttributes, wpdsdk.iportabledeviceproperties_getpropertyattributes
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: portabledeviceapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WPD_WHITE_BALANCE_SETTINGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	PortableDeviceGUIDs.lib
+-	PortableDeviceGUIDs.dll
+api_name:
+-	IPortableDeviceProperties.GetPropertyAttributes
+product: Windows
+targetos: Windows
+req.lib: PortableDeviceGUIDs.lib
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# IPortableDeviceProperties::GetPropertyAttributes method
+
+
+## -description
+
+
+
+The <b>GetPropertyAttributes</b> method retrieves attributes of a specified object property on a device.
+
+
+
+
+## -parameters
+
+
+
+
+### -param pszObjectID [in]
+
+Pointer to a null-terminated string that contains the object ID of the object to query. To specify the device, use <b>WPD_DEVICE_OBJECT_ID</b>.
+
+
+### -param Key [in]
+
+A <b>REFPROPERTYKEY</b> that specifies the property to query for. You can retrieve a list of supported properties by calling <a href="https://msdn.microsoft.com/0098bfe9-965b-4c70-b28a-d497ac79f44a">GetSupportedProperties</a>. For a list of properties that are defined by Windows Portable Devices, see <a href="https://msdn.microsoft.com/3bfbe8d0-6ad5-42de-afdd-d83328aaaa62">Properties and Attributes</a>.
+
+
+### -param ppAttributes [out]
+
+Address of a variable that receives a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff597597">IPortableDeviceValues</a> interface that holds the retrieved property attributes. These are PROPERTYKEY/value pairs, where the <b>PROPERTYKEY</b> is the property, and the value data type depends on the specific property. The caller must release this interface when it is done with it. Attributes defined by Windows Portable Devices can be found on the <a href="https://msdn.microsoft.com/3bfbe8d0-6ad5-42de-afdd-d83328aaaa62">Properties and Attributes</a> page.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded, and all attributes were retrieved successfully.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_FALSE</b></dt>
+</dl>
+</td>
+<td width="60%">
+Only some attribute values could be retrieved. Others could not, and will contain an <b>HRESULT</b> value of type VT_ERROR.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_POINTER</b></dt>
+</dl>
+</td>
+<td width="60%">
+A required pointer argument was <b>NULL</b>.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+Property attributes describe a property's access rights, valid values, and other information. For example, a property can have a WPD_PROPERTY_ATTRIBUTE_CAN_DELETE value set to False to prevent deletion, and have a range of valid values stored as individual entries.
+
+
+#### Examples
+
+For an example of how to use this method, see <a href="https://msdn.microsoft.com/1c003534-96b4-419b-94d1-73b5ffa2eba1">Setting Properties for a Single Object</a>.
+
+<div class="code"></div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/4555e85b-c667-466c-a527-cc29ca7a6aee">IPortableDeviceProperties Interface</a>
+
+
+
+<a href="https://msdn.microsoft.com/1c003534-96b4-419b-94d1-73b5ffa2eba1">Setting Properties for a Single Object</a>
+
+
+
+<a href="https://msdn.microsoft.com/f762a571-83ea-4999-ad49-a51044bc790d">Writing Content-Object Properties</a>
+ 
+
+ 
+

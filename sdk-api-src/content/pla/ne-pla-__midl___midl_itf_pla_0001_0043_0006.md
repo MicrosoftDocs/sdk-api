@@ -1,0 +1,90 @@
+---
+UID: NE:pla.__MIDL___MIDL_itf_pla_0001_0043_0006
+title: "__MIDL___MIDL_itf_pla_0001_0043_0006"
+author: windows-driver-content
+description: Defines where the trace events are delivered.
+old-location: pla\streammode.htm
+old-project: PLA
+ms.assetid: 38d9e78f-4ac1-4d65-80e7-9b32c5e79604
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: StreamMode, StreamMode enumeration [PLA], __MIDL___MIDL_itf_pla_0001_0043_0006, base.streammode, pla.streammode, pla/StreamMode, pla/plaBoth, pla/plaBuffering, pla/plaFile, pla/plaRealTime, plaBoth, plaBuffering, plaFile, plaRealTime
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: enum
+req.header: pla.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: StreamMode
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Pla.h
+api_name:
+-	StreamMode
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# __MIDL___MIDL_itf_pla_0001_0043_0006 enumeration
+
+
+## -description
+
+
+Defines where the trace events are delivered.
+
+
+## -enum-fields
+
+
+
+
+### -field plaFile
+
+Write the trace events to a log file.
+
+
+### -field plaRealTime
+
+Deliver the trace events to a real time consumer.
+
+
+### -field plaBoth
+
+Write the trace events to a log file and deliver them to a real-time consumer.
+
+
+### -field plaBuffering
+
+For details, see the <a href="https://msdn.microsoft.com/d12aaecb-776a-4476-9ba4-16af30fde9c2">EVENT_TRACE_BUFFERING_MODE</a> logging mode in Event Tracing for Windows.
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/eeca98e2-8da1-44e5-8d43-00b52f51bcae">ITraceDataCollector::StreamMode</a>
+ 
+
+ 
+

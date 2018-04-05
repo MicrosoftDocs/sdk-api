@@ -1,0 +1,82 @@
+---
+UID: NF:d2d1helper.Matrix3x2F.Identity
+title: Matrix3x2F::Identity method
+author: windows-driver-content
+description: Creates an identity matrix.
+old-location: direct2d\matrix3x2f_identity.htm
+old-project: Direct2D
+ms.assetid: c4596d43-fbc8-489e-a8fd-d33fb26461cc
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: D2D1.Matrix3x2F.Identity, D2D1::Matrix3x2F::Identity, Identity method [Direct2D], Identity method [Direct2D], Matrix3x2F class, Identity,Matrix3x2F.Identity, Matrix3x2F, Matrix3x2F class [Direct2D], Identity method, Matrix3x2F::Identity, d2d1helper/Matrix3x2F::Identity, direct2d.colorf_identity, direct2d.matrix3x2f_identity
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: d2d1helper.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: D2D1
+req.assembly: 
+req.type-library: 
+req.typenames: D2D1_VIGNETTE_PROP
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	D2d1.dll
+api_name:
+-	Matrix3x2F.Identity
+product: Windows
+targetos: Windows
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
+---
+
+# Matrix3x2F::Identity method
+
+
+## -description
+
+
+Creates an identity matrix.
+
+
+## -parameters
+
+
+
+
+
+
+## -returns
+
+
+
+Type: <b><a href="https://msdn.microsoft.com/54b9e75c-6316-44d3-b725-2039f39eeda5">Matrix3x2F</a></b>
+
+An identity matrix.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/54b9e75c-6316-44d3-b725-2039f39eeda5">Matrix3x2F</a>
+ 
+
+ 
+

@@ -1,0 +1,118 @@
+---
+UID: NF:winsync.ISyncChangeBatchBase.GetPrerequisiteKnowledge
+title: ISyncChangeBatchBase::GetPrerequisiteKnowledge method
+author: windows-driver-content
+description: Gets the minimum knowledge that a destination provider is required to have to process this change batch.
+old-location: winsync\isyncchangebatchbase_getprerequisiteknowledge.htm
+old-project: winsync
+ms.assetid: dd078725-7fd8-4d6c-9b43-f6741b03f1e6
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: GetPrerequisiteKnowledge method [Windows Sync], GetPrerequisiteKnowledge method [Windows Sync], ISyncChangeBatchBase interface, GetPrerequisiteKnowledge,ISyncChangeBatchBase.GetPrerequisiteKnowledge, ISyncChangeBatchBase, ISyncChangeBatchBase interface [Windows Sync], GetPrerequisiteKnowledge method, ISyncChangeBatchBase::GetPrerequisiteKnowledge, winsync.isyncchangebatchbase_getprerequisiteknowledge, winsync/ISyncChangeBatchBase::GetPrerequisiteKnowledge
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: winsync.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	winsync.h
+api_name:
+-	ISyncChangeBatchBase.GetPrerequisiteKnowledge
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# ISyncChangeBatchBase::GetPrerequisiteKnowledge method
+
+
+## -description
+
+
+Gets the minimum knowledge that a destination provider is required to have to process this change batch.
+
+
+## -parameters
+
+
+
+
+### -param ppPrerequisteKnowledge [out]
+
+Returns the minimum knowledge that a destination provider is required to have to process this change batch.
+
+
+## -returns
+
+
+
+The possible return codes include, but are not limited to, the values shown in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_POINTER</b></dt>
+</dl>
+</td>
+<td width="60%">
+Invalid pointer.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/14ca01a1-04eb-4282-adf0-e775d6ff0801">ISyncChangeBatchBase Interface</a>
+
+
+
+<a href="https://msdn.microsoft.com/cfb08476-7b5d-4953-b723-5160330e57be">ISyncKnowledge Interface</a>
+ 
+
+ 
+

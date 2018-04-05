@@ -1,0 +1,184 @@
+---
+UID: NF:tom.ITextRange.EndOf
+title: ITextRange::EndOf method
+author: windows-driver-content
+description: Moves this range's ends to the end of the last overlapping Unit in the range.
+old-location: controls\ITextRange_EndOf.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\endof.htm
+ms.author: windowsdriverdev
+ms.date: 3/31/2018
+ms.keywords: EndOf method [Windows Controls], EndOf method [Windows Controls], ITextRange interface, EndOf,ITextRange.EndOf, ITextRange, ITextRange interface [Windows Controls], EndOf method, ITextRange::EndOf, _win32_ITextRange_EndOf, _win32_ITextRange_EndOf_cpp, controls.ITextRange_EndOf, controls._win32_ITextRange_EndOf, tom/ITextRange::EndOf
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: tom.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MANCODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Msftedit.dll
+api_name:
+-	ITextRange.EndOf
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# ITextRange::EndOf method
+
+
+## -description
+
+
+Moves this range's ends to the end of the last overlapping <i>Unit</i> in the range. 
+
+
+## -parameters
+
+
+
+
+### -param Unit
+
+Type: <b>long</b>
+
+Unit to use. Default value: <i>tomWord</i>. For a list of the other <i>Unit</i> values, see the discussion under <a href="https://msdn.microsoft.com/e19678cb-f951-458c-bf96-de4b123fd63a">ITextRange</a>. 
+
+
+### -param Extend
+
+Type: <b>long</b>
+
+Indicator of how the shifting of the range ends is to proceed. It can be one of the following. 
+					
+
+<table class="clsStd">
+<tr>
+<td>0 or <i>tomMove</i></td>
+<td>Collapses a nondegenerate range to the End of the original range by moving the insertion point. This is the default.</td>
+</tr>
+<tr>
+<td>1 (or <i>tomExtend</i>)</td>
+<td>Moves End to the end of the overlapping <i>Unit</i>. Does not move Start.</td>
+</tr>
+</table>
+ 
+
+
+### -param pDelta
+
+Type: <b>long*</b>
+
+The count of characters that End is moved past. The value of the pointer can be null. On return, the value of
+					<i>pDelta</i> is the number of characters the insertion point or End is moved 
+					<i>plus</i> 1 if a collapse occurs to the entry End. If the range includes the final CR (carriage return) (at the end of the story) and 
+					<i>Extend</i> = tomMove, then
+					<i>pDelta</i> is set to 
+					–1, to indicate that the collapse occurred 
+					<i>before</i> the end of the range (because an insertion point cannot exist beyond the final CR). 
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+The method returns an <b>HRESULT</b> value. If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following error codes. For more information about COM error codes, see <a href="https://msdn.microsoft.com/15f3ae3e-1794-4948-a7aa-6309a703364b">Error Handling in COM</a>.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_NOTIMPL</b></dt>
+</dl>
+</td>
+<td width="60%">
+Unit is not supported.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_FALSE</b></dt>
+</dl>
+</td>
+<td width="60%">
+Failure for some other reason.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+For comparison, the <a href="https://msdn.microsoft.com/29e72fbb-525a-478c-a671-74f5940bb973">ITextRange::StartOf</a> method moves the range ends to the beginning of the first overlapping <i>Unit</i> in the range. Note, the <b>ITextRange::StartOf</b> and <b>ITextRange::EndOf</b> methods differ from the <a href="https://msdn.microsoft.com/19c5de79-59b2-4ae6-bcdc-d525ef479d63">HomeKey</a> and <a href="https://msdn.microsoft.com/f61e82fc-cb38-4263-8142-04283bb195bd">EndKey</a> methods in that the latter extend from the active end, whereas <b>ITextRange::StartOf</b> extends from Start and <b>ITextRange::EndOf</b> extends from End. If the range is an insertion point on a boundary between <i>Unit</i>s, <b>ITextRange::EndOf</b> does not change End. In particular, calling <b>ITextRange::EndOf</b> (<i>tomCharacter</i>, *, *) does not change End except for an insertion point at the beginning of a story.
+
+
+
+
+## -see-also
+
+
+
+
+<b>Conceptual</b>
+
+
+
+<a href="https://msdn.microsoft.com/f61e82fc-cb38-4263-8142-04283bb195bd">EndKey</a>
+
+
+
+<a href="https://msdn.microsoft.com/19c5de79-59b2-4ae6-bcdc-d525ef479d63">HomeKey</a>
+
+
+
+<a href="https://msdn.microsoft.com/e19678cb-f951-458c-bf96-de4b123fd63a">ITextRange</a>
+
+
+
+<b>Reference</b>
+
+
+
+<a href="https://msdn.microsoft.com/29e72fbb-525a-478c-a671-74f5940bb973">StartOf</a>
+
+
+
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
+ 
+
+ 
+

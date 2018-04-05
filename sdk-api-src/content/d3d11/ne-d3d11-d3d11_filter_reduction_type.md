@@ -1,0 +1,110 @@
+---
+UID: NE:d3d11.D3D11_FILTER_REDUCTION_TYPE
+title: D3D11_FILTER_REDUCTION_TYPE
+author: windows-driver-content
+description: Specifies the type of sampler filter reduction.
+old-location: direct3d11\d3d11_filter_reduction_type.htm
+old-project: direct3d11
+ms.assetid: 9124D1DE-8045-49DA-83A6-634083C79C84
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: D3D11_FILTER_REDUCTION_TYPE, D3D11_FILTER_REDUCTION_TYPE enumeration [Direct3D 11], D3D11_FILTER_REDUCTION_TYPE_COMPARISON, D3D11_FILTER_REDUCTION_TYPE_MAXIMUM, D3D11_FILTER_REDUCTION_TYPE_MINIMUM, D3D11_FILTER_REDUCTION_TYPE_STANDARD, d3d11/D3D11_FILTER_REDUCTION_TYPE, d3d11/D3D11_FILTER_REDUCTION_TYPE_COMPARISON, d3d11/D3D11_FILTER_REDUCTION_TYPE_MAXIMUM, d3d11/D3D11_FILTER_REDUCTION_TYPE_MINIMUM, d3d11/D3D11_FILTER_REDUCTION_TYPE_STANDARD, direct3d11.d3d11_filter_reduction_type
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: enum
+req.header: d3d11.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: D3D11_FILTER_REDUCTION_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	d3d11.h
+api_name:
+-	D3D11_FILTER_REDUCTION_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# D3D11_FILTER_REDUCTION_TYPE enumeration
+
+
+## -description
+
+
+
+          Specifies the type of sampler filter reduction.
+        
+
+
+## -enum-fields
+
+
+
+
+### -field D3D11_FILTER_REDUCTION_TYPE_STANDARD
+
+
+            Indicates standard (default) filter reduction.
+          
+
+
+### -field D3D11_FILTER_REDUCTION_TYPE_COMPARISON
+
+
+            Indicates a comparison filter reduction.
+          
+
+
+### -field D3D11_FILTER_REDUCTION_TYPE_MINIMUM
+
+
+            Indicates minimum filter reduction.
+          
+
+
+### -field D3D11_FILTER_REDUCTION_TYPE_MAXIMUM
+
+
+            Indicates maximum filter reduction.
+          
+
+
+## -remarks
+
+
+
+
+          This enum is used by the <a href="https://msdn.microsoft.com/97dd6cac-6657-4a1e-b631-4e5d36994b16">D3D11_SAMPLER_DESC</a> structure.
+        
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/1641713a-5ac8-4597-900b-1bba54f9f522">Core Enumerations</a>
+ 
+
+ 
+

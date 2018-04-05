@@ -1,0 +1,84 @@
+---
+UID: NS:dwrite.DWRITE_TRIMMING
+title: DWRITE_TRIMMING
+author: windows-driver-content
+description: Specifies the trimming option for text overflowing the layout box.
+old-location: directwrite\dwrite_trimming.htm
+old-project: DirectWrite
+ms.assetid: c252b936-8a09-45b4-8138-84cf54058f72
+ms.author: windowsdriverdev
+ms.date: 3/23/2018
+ms.keywords: DWRITE_TRIMMING, DWRITE_TRIMMING structure [Direct Write], directwrite.dwrite_trimming, dwrite/DWRITE_TRIMMING
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: struct
+req.header: dwrite.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	dwrite.h
+api_name:
+-	DWRITE_TRIMMING
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
+---
+
+# DWRITE_TRIMMING structure
+
+
+## -description
+
+
+Specifies the trimming option for text overflowing the layout box. 
+
+
+## -struct-fields
+
+
+
+
+### -field granularity
+
+Type: <b><a href="https://msdn.microsoft.com/81ab22cd-7b7f-4db6-9f67-2cafd54f4621">DWRITE_TRIMMING_GRANULARITY</a></b>
+
+A value that specifies  the text granularity used to trim text overflowing the layout box.
+
+
+### -field delimiter
+
+Type: <b>UINT32</b>
+
+A character code used as the delimiter that signals the beginning of the portion of text to be preserved. 
+          Text starting from the Nth occurence of the delimiter (where N equals delimiterCount) counting backwards from the end of the text block will be preserved.
+          For example, given the text is a path like c:\A\B\C\D\file.txt and delimiter equal to '\' and delimiterCount equal to 1, the file.txt portion of the text would be preserved.  
+          Specifying a delimiterCount of 2 would preserve D\file.txt.
+          
+
+
+### -field delimiterCount
+
+Type: <b>UINT32</b>
+
+The delimiter count, counting from the end of the text, to preserve text from.
+

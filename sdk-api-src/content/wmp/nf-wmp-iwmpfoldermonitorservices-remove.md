@@ -1,0 +1,121 @@
+---
+UID: NF:wmp.IWMPFolderMonitorServices.remove
+title: IWMPFolderMonitorServices::remove method
+author: windows-driver-content
+description: This method and all other methods of the IWMPFolderMonitorServices interface are deprecated.The remove method removes a folder from the list of monitored folders.
+old-location: wmp\iwmpfoldermonitorservices_remove.htm
+old-project: WMP
+ms.assetid: 4f075c31-dd09-4d35-88fa-b93a373ad2d0
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: IWMPFolderMonitorServices, IWMPFolderMonitorServices interface [Windows Media Player], remove method, IWMPFolderMonitorServices::remove, IWMPFolderMonitorServicesremove, remove method [Windows Media Player], remove method [Windows Media Player], IWMPFolderMonitorServices interface, remove,IWMPFolderMonitorServices.remove, wmp.iwmpfoldermonitorservices_remove, wmp/IWMPFolderMonitorServices::remove
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wmp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Media Player 11.
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WMPSyncState
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	wmp.dll
+api_name:
+-	IWMPFolderMonitorServices.remove
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IWMPFolderMonitorServices::remove method
+
+
+## -description
+
+
+
+This method and all other methods of the <a href="https://msdn.microsoft.com/42c3b03c-f8f8-4219-91e1-da54a175fb24">IWMPFolderMonitorServices</a> interface are deprecated.
+
+The <b>remove</b> method removes a folder from the list of monitored folders.
+
+
+
+
+## -parameters
+
+
+
+
+### -param lIndex [in]
+
+A <b>long</b> specifying the index of the folder to remove from the list.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+<b>Windows Media Player 10 Mobile: </b>This method is not supported.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/42c3b03c-f8f8-4219-91e1-da54a175fb24">IWMPFolderMonitorServices Interface</a>
+
+
+
+<a href="https://msdn.microsoft.com/f12bbc31-ce9d-4d0c-af1e-9078e7948eeb">IWMPFolderMonitorServices::add</a>
+ 
+
+ 
+

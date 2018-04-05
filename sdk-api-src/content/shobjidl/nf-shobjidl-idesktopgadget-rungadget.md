@@ -1,0 +1,172 @@
+---
+UID: NF:shobjidl.IDesktopGadget.RunGadget
+title: IDesktopGadget::RunGadget method
+author: windows-driver-content
+description: Adds an installed gadget to the desktop.
+old-location: shell\IDesktopGadget_RunGadget.htm
+old-project: shell
+ms.assetid: 9243fd88-122f-40be-ab71-66c52fa99168
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: IDesktopGadget, IDesktopGadget interface [Windows Shell], RunGadget method, IDesktopGadget::RunGadget, RunGadget method [Windows Shell], RunGadget method [Windows Shell], IDesktopGadget interface, RunGadget,IDesktopGadget.RunGadget, _shell_IDesktopGadget_RunGadget, shell.IDesktopGadget_RunGadget, shobjidl/IDesktopGadget::RunGadget
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: shobjidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Shobjidl.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: VPWATERMARKFLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Shobjidl.h
+api_name:
+-	IDesktopGadget.RunGadget
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 6.01
+---
+
+# IDesktopGadget::RunGadget method
+
+
+## -description
+
+
+Adds an installed gadget to the desktop.
+
+
+## -parameters
+
+
+
+
+### -param gadgetPath [in]
+
+Type: <b>LPCWSTR</b>
+
+Pointer to the full (absolute) path of a .gadget folder. A gadget that is not packaged with Windows can only be run from one of the two following locations. Installation of the gadget in any other location will cause this method to fail with an access denied error.
+
+                    
+
+<div class="alert"><b>Note</b>  This path should not contain environment variables; the fully expanded path must be provided. <a href="https://msdn.microsoft.com/b563e8ed-311d-4971-94f3-9c9fde4a2f30">ExpandEnvironmentStrings</a> can be used to expand the path to the form required in this parameter.</div>
+<div> </div>
+
+
+#### (%ProgramFiles%\Windows Sidebar\Shared Gadgets)
+
+This is the recommended path for non-Microsoft gadget installation, available to all users.
+
+
+
+#### (%LOCALAPPDATA%\Microsoft\Windows Sidebar\Gadgets)
+
+This location should be used for a single-user installation of the gadget.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+Returns S_OK if successful, or an error value otherwise, including the following:
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>SCHED_E_ALREADY_RUNNING</b></dt>
+</dl>
+</td>
+<td width="60%">
+The gadget is already running.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+An error occurred involving the path of the gadget folder pointed to by <i>gadgetPath</i>.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+"Running" a gadget here means that the gadget is added to the desktop.
+
+<b>RunGadget</b> can only be called on a gadget that has already been installed to the system. It cannot be called on a gadget that is already running—only one instance of a gadget can be run at any given time through this method.
+
+Because gadget installation has no UI of its own, this method is often run as the last step in the installation process or as part of the first launch of an application that the gadget is associated with. Installation of the gadget to %ProgramFiles%\Windows Sidebar\Shared Gadgets requires administrative privileges. Therefore it is recommended that the installation of the gadget be performed as part of a Microsoft Installer (MSI) installation.
+
+<div class="alert"><b>Important</b>  Applications should not call <b>RunGadget</b> without first asking the user for permission. If the choice is given to the user as a check box, that check box should be unselected by default.</div>
+<div> </div>
+The gadget is added to the desktop at a position determined by the system. The caller cannot specify location.
+
+Per-user applications should install their gadgets per-user. Per-machine applications should install their gadgets per-machine. This ensures a unified experience to the user.
+
+
+#### Examples
+
+The following example shows <b>IDesktopGadget::RunGadget</b> in use.
+
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT RunMyGadget(PCWSTR pszGadgetPath)
+{
+    IDesktopGadget *pDG;
+
+    HRESULT hr = CoCreateInstance(CLSID_DesktopGadget, 
+                                  NULL, 
+                                  CLSCTX_INPROC_SERVER, 
+                                  IID_PPV_ARGS(&amp;pDG));
+    if (SUCCEEDED(hr))
+    {
+        hr = pDG-&gt;RunGadget(pszGadgetPath);
+        pDG-&gt;Release();
+    }
+
+    return hr;
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+

@@ -1,0 +1,84 @@
+---
+UID: NF:wincodec.IWICBitmapDecoder.GetFrame
+title: IWICBitmapDecoder::GetFrame method
+author: windows-driver-content
+description: Retrieves the specified frame of the image.
+old-location: wic\_wic_codec_iwicbitmapdecoder_getframe.htm
+old-project: wic
+ms.assetid: 5e8c1cfd-50f3-431c-aedb-6e57d1368695
+ms.author: windowsdriverdev
+ms.date: 3/28/2018
+ms.keywords: GetFrame method [Windows Imaging Component], GetFrame method [Windows Imaging Component], IWICBitmapDecoder interface, GetFrame,IWICBitmapDecoder.GetFrame, IWICBitmapDecoder, IWICBitmapDecoder interface [Windows Imaging Component], GetFrame method, IWICBitmapDecoder::GetFrame, _wic_codec_iwicbitmapdecoder_getframe, wic._wic_codec_iwicbitmapdecoder_getframe, wincodec/IWICBitmapDecoder::GetFrame
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wincodec.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Wincodec.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WICTiffCompressionOption
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Windowscodecs.dll
+api_name:
+-	IWICBitmapDecoder.GetFrame
+product: Windows
+targetos: Windows
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# IWICBitmapDecoder::GetFrame method
+
+
+## -description
+
+
+Retrieves the specified frame of the image.
+
+
+## -parameters
+
+
+
+
+### -param index [in]
+
+Type: <b>UINT</b>
+
+The particular frame to retrieve.
+
+
+### -param ppIBitmapFrame [out]
+
+Type: <b><a href="https://msdn.microsoft.com/1498b800-6449-440f-bed7-85891637e559">IWICBitmapFrameDecode</a>**</b>
+
+A pointer that receives a pointer to the <a href="https://msdn.microsoft.com/1498b800-6449-440f-bed7-85891637e559">IWICBitmapFrameDecode</a>.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+

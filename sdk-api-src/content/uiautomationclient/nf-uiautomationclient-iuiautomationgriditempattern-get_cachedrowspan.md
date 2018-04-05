@@ -1,0 +1,71 @@
+---
+UID: NF:uiautomationclient.IUIAutomationGridItemPattern.get_CachedRowSpan
+title: IUIAutomationGridItemPattern::get_CachedRowSpan method
+author: windows-driver-content
+description: Retrieves the cached number of rows spanned by a grid item.
+old-location: winauto\uiauto_IUIAutomationGridItemPattern_CachedRowSpan.htm
+old-project: WinAuto
+ms.assetid: 6c93cfc7-76f3-4341-ae77-7782d5936ac6
+ms.author: windowsdriverdev
+ms.date: 3/29/2018
+ms.keywords: CachedRowSpan property [Windows Accessibility], CachedRowSpan property [Windows Accessibility], IUIAutomationGridItemPattern interface, IUIAutomationGridItemPattern, IUIAutomationGridItemPattern interface [Windows Accessibility], CachedRowSpan property, IUIAutomationGridItemPattern.CachedRowSpan, IUIAutomationGridItemPattern::get_CachedRowSpan, get_CachedRowSpan,IUIAutomationGridItemPattern.get_CachedRowSpan, uiauto.uiauto_IUIAutomationGridItemPattern_CachedRowSpan, uiauto_IUIAutomationGridItemPattern_CachedRowSpan, uiautomationclient/IUIAutomationGridItemPattern::CachedRowSpan, uiautomationclient/IUIAutomationGridItemPattern::get_CachedRowSpan, winauto.uiauto_IUIAutomationGridItemPattern_CachedRowSpan
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: uiautomationclient.h
+req.include-header: UIAutomation.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: UIAutomationClient.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	UIAutomationClient.h
+api_name:
+-	IUIAutomationGridItemPattern.CachedRowSpan
+-	IUIAutomationGridItemPattern.get_CachedRowSpan
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# IUIAutomationGridItemPattern::get_CachedRowSpan method
+
+
+## -description
+
+
+Retrieves the cached number of rows spanned by a grid item. 
+
+This property is read-only.
+
+
+## -parameters
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/03b284de-3079-4543-ac5a-a8504da0d755">IUIAutomationGridItemPattern</a>
+ 
+
+ 
+

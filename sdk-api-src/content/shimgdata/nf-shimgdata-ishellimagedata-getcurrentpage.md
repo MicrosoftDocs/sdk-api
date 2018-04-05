@@ -1,0 +1,77 @@
+---
+UID: NF:shimgdata.IShellImageData.GetCurrentPage
+title: IShellImageData::GetCurrentPage method
+author: windows-driver-content
+description: Gets the current page of a multipage image.
+old-location: shell\IShellImageData_GetCurrentPage.htm
+old-project: shell
+ms.assetid: 75489f7f-1ec5-471c-bc45-c8f480b0fa99
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: GetCurrentPage method [Windows Shell], GetCurrentPage method [Windows Shell], IShellImageData interface, GetCurrentPage,IShellImageData.GetCurrentPage, IShellImageData, IShellImageData interface [Windows Shell], GetCurrentPage method, IShellImageData::GetCurrentPage, _shell_IShellImageData_GetCurrentPage, shell.IShellImageData_GetCurrentPage, shimgdata/IShellImageData::GetCurrentPage
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: shimgdata.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Shimgdata.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: SHELL_UI_COMPONENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Shell32.dll
+api_name:
+-	IShellImageData.GetCurrentPage
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
+req.product: Internet Explorer 5.0
+---
+
+# IShellImageData::GetCurrentPage method
+
+
+## -description
+
+
+Gets the current page of a multipage image.
+
+
+## -parameters
+
+
+
+
+### -param pnPage [out]
+
+Type: <b>ULONG*</b>
+
+A pointer to the page number.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+Returns S_OK. If the image is not a multipage image, such as a .jpg file, the method returns S_OK with a page number of 0.
+
+
+

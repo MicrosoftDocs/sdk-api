@@ -1,0 +1,79 @@
+---
+UID: NS:msclus.RESOURCE_TERMINAL_FAILURE_INFO_BUFFER
+title: RESOURCE_TERMINAL_FAILURE_INFO_BUFFER
+author: windows-driver-content
+description: Represents a buffer for a terminal failure for a resource.
+old-location: mscs\resource_terminal_failure_info_buffer.htm
+old-project: MsCS
+ms.assetid: D84EEF3A-BDB4-4D6E-BDC6-5A39DC32945E
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: "*PRESOURCE_TERMINAL_FAILURE_INFO_BUFFER, PRESOURCE_TERMINAL_FAILURE_INFO_BUFFER, PRESOURCE_TERMINAL_FAILURE_INFO_BUFFER structure pointer [Failover Cluster], RESOURCE_TERMINAL_FAILURE_INFO_BUFFER, RESOURCE_TERMINAL_FAILURE_INFO_BUFFER structure [Failover Cluster], clusapi/PRESOURCE_TERMINAL_FAILURE_INFO_BUFFER, clusapi/RESOURCE_TERMINAL_FAILURE_INFO_BUFFER, msclus/PRESOURCE_TERMINAL_FAILURE_INFO_BUFFER, msclus/RESOURCE_TERMINAL_FAILURE_INFO_BUFFER, mscs.resource_terminal_failure_info_buffer"
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: struct
+req.header: msclus.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2012 R2
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: MsClus.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: MsClus.tlb
+req.typenames: RESOURCE_TERMINAL_FAILURE_INFO_BUFFER, *PRESOURCE_TERMINAL_FAILURE_INFO_BUFFER
+topic_type:
+-	kbSyntax
+api_type:
+-	<TBD>
+api_location:
+-
+api_name:
+-	RESOURCE_TERMINAL_FAILURE_INFO_BUFFER
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# RESOURCE_TERMINAL_FAILURE_INFO_BUFFER structure
+
+
+## -description
+
+
+Represents a buffer for a terminal failure for a resource.
+
+
+## -struct-fields
+
+
+
+
+### -field isTerminalFailure
+
+<b>TRUE</b> if the resource  failure is a terminal failure; otherwise, <b>FALSE</b>.
+
+
+### -field restartPeriodRemaining
+
+The amount of time remaining for the TBD, in seconds.
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/45da8dbc-dd70-4f95-b933-66d8e4340448">Utility structures</a>
+ 
+
+ 
+

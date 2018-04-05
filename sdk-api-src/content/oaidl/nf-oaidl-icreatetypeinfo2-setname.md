@@ -1,0 +1,128 @@
+---
+UID: NF:oaidl.ICreateTypeInfo2.SetName
+title: ICreateTypeInfo2::SetName method
+author: windows-driver-content
+description: Sets the name of the typeinfo.
+old-location: automat\icreatetypeinfo2_setname.htm
+old-project: automat
+ms.assetid: b490dcb5-97e4-427a-bc87-22f38a4719f3
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: ICreateTypeInfo2, ICreateTypeInfo2 interface [Automation], SetName method, ICreateTypeInfo2::SetName, SetName method [Automation], SetName method [Automation], ICreateTypeInfo2 interface, SetName,ICreateTypeInfo2.SetName, _oa96_ICreateTypeInfo2_SetName, automat.icreatetypeinfo2_setname, oaidl/ICreateTypeInfo2::SetName
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: oaidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: OaIdl.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: VARKIND
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	oaidl.h
+api_name:
+-	ICreateTypeInfo2.SetName
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# ICreateTypeInfo2::SetName method
+
+
+## -description
+
+
+Sets the name of the typeinfo.
+
+
+## -parameters
+
+
+
+
+### -param szName [in]
+
+The name to be assigned.
+
+
+## -returns
+
+
+
+This method can return one of these values.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK
+</b></dt>
+</dl>
+</td>
+<td width="60%">
+Success.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG
+</b></dt>
+</dl>
+</td>
+<td width="60%">
+One or more of the arguments is not valid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_OUTOFMEMORY
+</b></dt>
+</dl>
+</td>
+<td width="60%">
+Insufficient memory to complete the operation.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/34dc6f52-6864-4edb-b22d-80eef05d4c8c">ICreateTypeInfo2</a>
+ 
+
+ 
+

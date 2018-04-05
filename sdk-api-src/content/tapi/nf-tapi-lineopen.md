@@ -1,0 +1,312 @@
+---
+UID: NF:tapi.lineOpen
+title: lineOpen function
+author: windows-driver-content
+description: The lineOpen function opens the line device specified by its device identifier and returns a line handle for the corresponding opened line device. This line handle is used in subsequent operations on the line device.
+old-location: tapi2\lineopen.htm
+old-project: Tapi
+ms.assetid: 7dd39866-0b3e-47be-8aa8-adfb66df6644
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: LINEMAPPER, _tapi2_lineopen, lineOpen, lineOpen function [TAPI 2.2], lineOpenA, lineOpenW, tapi/lineOpen, tapi/lineOpenA, tapi/lineOpenW, tapi2.lineopen
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: tapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: lineOpenW (Unicode) and lineOpenA (ANSI)
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: FLICK_POINT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Tapi32.dll
+api_name:
+-	lineOpen
+-	lineOpenA
+-	lineOpenW
+product: Windows
+targetos: Windows
+req.lib: Tapi32.lib
+req.dll: Tapi32.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# lineOpen function
+
+
+## -description
+
+
+The 
+<b>lineOpen</b> function opens the line device specified by its device identifier and returns a line handle for the corresponding opened line device. This line handle is used in subsequent operations on the line device.
+
+
+## -parameters
+
+
+
+
+### -param hLineApp
+
+Handle to the application's registration with TAPI.
+
+
+### -param dwDeviceID
+
+Identifies the line device to be opened. It can either be a valid device identifier or the value.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="LINEMAPPER"></a><a id="linemapper"></a><dl>
+<dt><b>LINEMAPPER</b></dt>
+</dl>
+</td>
+<td width="60%">
+This value is used to open a line device in the system that supports the properties specified in <i>lpCallParams</i>. The application can use 
+<a href="https://msdn.microsoft.com/e9981574-0058-420f-9627-6d5a1745a739">lineGetID</a> to determine the identifier of the line device that was opened.
+
+</td>
+</tr>
+</table>
+ 
+
+
+### -param lphLine
+
+Pointer to an HLINE handle that is then loaded with the handle representing the opened line device. Use this handle to identify the device when invoking other functions on the open line device.
+
+
+### -param dwAPIVersion
+
+API version number under which the application and Telephony API have agreed to operate. This number is obtained with 
+<a href="https://msdn.microsoft.com/71eb55de-281b-42a9-8d9b-7ded62cb006a">lineNegotiateAPIVersion</a>.
+
+
+### -param dwExtVersion
+
+Extension version number under which the application and the service provider agree to operate. This number is zero if the application does not use any extensions. This number is obtained with 
+<a href="https://msdn.microsoft.com/89a49709-a15b-4358-984a-fd836d8e237b">lineNegotiateExtVersion</a>.
+
+
+### -param dwCallbackInstance
+
+User-instance data passed back to the application with each message associated with this line or with addresses or calls on this line. This parameter is not interpreted by the Telephony API.
+
+
+### -param dwPrivileges
+
+Privilege the application wants when notified of a call This parameter contains one or more of the 
+<a href="https://msdn.microsoft.com/a58b7e9e-696e-4421-9b31-1ba8afe6e03b">LINECALLPRIVILEGE_ Constants</a>. For applications using TAPI version 2.0 or later, values for this parameter can also be combined with one or more of the 
+<a href="https://msdn.microsoft.com/361ae90c-a2cf-4107-a2da-80f561a82c56">LINEOPENOPTION_ Constants</a>. 
+
+
+
+
+If the LINEOPENOPTION_SINGLEADDRESS option is specified, then the application is interested only in new calls that appear on the address specified by the <b>dwAddressID</b> member in the 
+<a href="https://msdn.microsoft.com/e7bc5604-20eb-48d8-a857-df8962c6b2ae">LINECALLPARAMS</a> structure pointed to by the <i>lpCallParams</i> parameter (which must be specified).
+
+If LINEOPENOPTION_SINGLEADDRESS is specified but either <i>lpCallParams</i> is invalid or the included <b>dwAddressID</b> does not exist on the line, the open fails with LINERR_INVALADDRESSID.
+
+In addition to setting the <b>dwAddressID</b> member of the 
+<a href="https://msdn.microsoft.com/e7bc5604-20eb-48d8-a857-df8962c6b2ae">LINECALLPARAMS</a> structure to the desired address, the application must also set <b>dwAddressMode</b> in 
+<b>LINECALLPARAMS</b> to LINEADDRESSMODE_ADDRESSID.
+
+The LINEOPENOPTION_SINGLEADDRESS option affects only TAPI's assignment of initial call ownership of calls created by the service provider using a 
+<a href="https://msdn.microsoft.com/36122dfb-1ed6-459d-aa2b-69c86daaddd8">LINE_NEWCALL</a> message. An application that opens the line with LINECALLPRIVILEGE_MONITOR continues to receive monitoring handles to all calls created on the line. Furthermore, the application is not restricted in any way from making calls or performing other operations that affect other addresses on the opened line.
+
+When the LINEOPENOPTION_PROXY option is specified (TAPI 2.0 or higher only), the application must also indicate which specific proxy requests it is prepared to handle. It does so by passing, in the <i>lpCallParams</i> parameter, a pointer to a 
+<a href="https://msdn.microsoft.com/e7bc5604-20eb-48d8-a857-df8962c6b2ae">LINECALLPARAMS</a> structure in which the <b>dwDevSpecificSize</b> and <b>dwDevSpecificOffset</b> members have been set to delimit an array of <b>DWORD</b>s. Each element of this array shall contain one of the 
+<a href="https://msdn.microsoft.com/5c05a567-cc65-411e-b049-919a442c5c57">LINEPROXYREQUEST_ Constants</a>. For example, a proxy handler application that supports all five of the Agent-related functions would pass in an array of five <b>DWORD</b>s (<b>dwDevSpecificSize</b> would be 20 decimal) containing the five defined LINEPROXYREQUEST_ values.
+
+The proxy request handler application can run on any machine that has authorization to control the line device. However, requests are always routed through the server on which the service provider is executing that actually controls the line device. Thus, it is most efficient if the application handling proxy requests (such as ACD agent control) executes directly on the server along with the service provider.
+
+Subsequent attempts, by the same application or other applications, to open the line device and register to handle the same proxy requests as an application that is already registered fail with LINEERR_NOTREGISTERED.
+
+To stop handling requests on the line, the application simply calls 
+<a href="https://msdn.microsoft.com/ec47a351-c693-4e71-bf23-c31110ca90a1">lineClose</a>.
+
+Other flag combinations return the LINEERR_INVALPRIVSELECT error.
+
+
+### -param dwMediaModes
+
+The media type or modes of interest to the application. This parameter is used to register the application as a potential target for incoming call and call handoff for the specified media type. This parameter is meaningful only if the bit LINECALLPRIVILEGE_OWNER in <i>dwPrivileges</i> is set (and ignored otherwise). This parameter uses one or more of the 
+<a href="https://msdn.microsoft.com/cbb758be-3ecd-4ac4-b1b5-57136a1aad8e">LINEMEDIAMODE_ Constants</a>.
+
+
+### -param lpCallParams
+
+Pointer to a structure of type 
+<a href="https://msdn.microsoft.com/e7bc5604-20eb-48d8-a857-df8962c6b2ae">LINECALLPARAMS</a>. This pointer is only used if LINEMAPPER or LINEOPENOPTION_PROXY is used; otherwise <i>lpCallParams</i> is ignored. It describes the call parameter that the line device should be able to provide.
+
+
+## -returns
+
+
+
+Returns zero if the request succeeds or a negative error number if an error occurs. Possible return values are:
+
+LINEERR_ALLOCATED, LINEERR_LINEMAPPERFAILED, LINEERR_BADDEVICEID, LINEERR_NODRIVER, LINEERR_INCOMPATIBLEAPIVERSION, LINEERR_NOMEM, LINEERR_INCOMPATIBLEEXTVERSION, LINEERR_OPERATIONFAILED, LINEERR_INVALAPPHANDLE, LINEERR_RESOURCEUNAVAIL, LINEERR_INVALMEDIAMODE, LINEERR_STRUCTURETOOSMALL, LINEERR_INVALPOINTER, LINEERR_UNINITIALIZED, LINEERR_INVALPRIVSELECT, LINEERR_REINIT, LINEERR_NODEVICE, LINEERR_OPERATIONUNAVAIL.
+
+
+
+
+## -remarks
+
+
+
+If LINEERR_ALLOCATED is returned, the line cannot be opened due to a "persistent" condition, such as that of a serial port being exclusively opened by another process. If LINEERR_RESOURCEUNAVAIL is returned, the line cannot be opened due to a dynamic resource overcommitment such as in DSP processor cycles or memory. This overcommitment can be transitory, caused by monitoring of media type or tones, and changes in these activities by other applications can make it possible to reopen the line within a short time period. If LINEERR_REINIT is returned and TAPI reinitialization has been requested (for example, as a result of adding or removing a telephony service provider), then 
+<b>lineOpen</b> requests are rejected with this error until the last application shuts down its usage of the API (using 
+<a href="https://msdn.microsoft.com/d512508a-fb6a-41ec-a80d-f625abfdd184">lineShutdown</a>); at that time the new configuration becomes effective and applications are once again permitted to call 
+<a href="https://msdn.microsoft.com/18cd145d-e434-433a-ab10-91bf5b060c21">lineInitializeEx</a>.
+
+Opening a line always entitles the application to make calls on any address available on the line. The ability of the application to deal with incoming calls or to be the target of call handoffs on the line is determined by the <i>dwMediaModes</i> parameter. The 
+<b>lineOpen</b> function registers the application as having an interest in monitoring calls or receiving ownership of calls that are of the specified media types. If the application just wants to monitor calls, then it can specify LINECALLPRIVILEGE_MONITOR. If the application just wants to make outgoing calls, it can specify LINECALLPRIVILEGE_NONE. If the application is willing to control unclassified calls (calls of unknown media type), it can specify LINECALLPRIVILEGE_OWNER and LINEMEDIAMODE_UNKNOWN. Otherwise, the application should specify the media type it is interested in handling. The application can call the <a href="https://msdn.microsoft.com/a13d7cfd-3709-43fb-88b9-291928f2c0d8">lineSetCallPrivilege</a> function to change the call privileges specified by the LINECALLPRIVILEGES_Constants.
+
+The media types specified with 
+<b>lineOpen</b> add to the default value for the provider's media type monitoring for initial incoming call type determination. The 
+<a href="https://msdn.microsoft.com/d79a5469-2248-466b-a5ca-32a568b135d2">lineMonitorMedia</a> function modifies the mask that controls 
+<a href="https://msdn.microsoft.com/1cfba455-9a15-45f3-8d56-74b8348e080e">LINE_MONITORMEDIA</a> messages. If a line device is opened with owner privilege and an extension media type is not registered, then the error LINEERR_INVALMEDIAMODE is returned.
+
+An application that has successfully opened a line device can always initiate calls using 
+<a href="https://msdn.microsoft.com/a7dc9cdc-3cc3-4b6a-98c8-e141402c781e">lineMakeCall</a>, 
+<a href="https://msdn.microsoft.com/9262ab44-eac7-43e2-a0ec-dceea0838b09">lineUnpark</a>, 
+<a href="https://msdn.microsoft.com/94773ca0-8ea4-443f-9c61-81969dd72a7a">linePickup</a>, and 
+<a href="https://msdn.microsoft.com/13bf81c6-f7f6-4fd4-b546-15e58f7bc618">lineSetupConference</a> (with a <b>NULL</b><i>hCall</i>), as well as use 
+<a href="https://msdn.microsoft.com/68dc99c5-1158-4e18-8e32-08216ff3567b">lineForward</a> (assuming that doing so is allowed by the device capabilities, line state, and so on).
+
+A single application can specify multiple flags simultaneously to handle multiple media types. Conflicts can arise if multiple applications open the same line device for the same media type. These conflicts are resolved by a priority scheme in which the user assigns relative priorities to the applications. Users can set application priorities by calling the <a href="https://msdn.microsoft.com/f173c472-56bc-4773-a77a-1aa05ba8766f">lineSetAppPriority</a> function. Only the highest priority application for a given media type will ever receive ownership (unsolicited) of a call of that media type. Ownership can be received when an incoming call first arrives or when a call is handed off. The <a href="https://msdn.microsoft.com/931c2fa4-dad6-432d-8f07-bb04b646916b">lineHandoff</a> function is called to hand off ownership of a call to another application. If the user does not assign priorities to the application, and multiple applications open the same line device, by default, the application that called <b>lineOpen</b> first will have the highest priority. 
+
+Any application (including any lower priority application) can always acquire ownership with 
+<a href="https://msdn.microsoft.com/179af1a1-078f-401c-8c15-12fc8ca06e3c">lineGetNewCalls</a> or 
+<a href="https://msdn.microsoft.com/048bc4bc-511a-4666-a2ff-4fff5132ed2e">lineGetConfRelatedCalls</a>. If an application opens a line for monitoring at a time that calls exist on the line, 
+<a href="https://msdn.microsoft.com/7b24e3c3-bc69-488b-a698-cf17875bc3c5">LINE_CALLSTATE</a> messages for those existing calls are not automatically generated to the new monitoring application. The application can query the number of current calls on the line to determine how many calls exist, and, if it wants, it can call 
+<b>lineGetNewCalls</b> to obtain handles to these calls.
+
+An application that handles automated voice should also select the interactive voice open mode and be assigned the lowest priority for interactive voice. The reason for this is that service providers report all voice media types as interactive voice. If media type determination is not performed by the application for the UNKNOWN media type, and no interactive voice application has opened the line device, voice calls would be unable to reach the automated voice application, and would be dropped.
+
+The same application, or different instantiations of the same application, can open the same line multiple times with the same or different parameters.
+
+When an application opens a line device it must specify the negotiated API version and, if it wants to use the line's extensions, it should specify the line's device-specific extension version. These version numbers should have been obtained with 
+<a href="https://msdn.microsoft.com/71eb55de-281b-42a9-8d9b-7ded62cb006a">lineNegotiateAPIVersion</a> and 
+<a href="https://msdn.microsoft.com/89a49709-a15b-4358-984a-fd836d8e237b">lineNegotiateExtVersion</a>. Version numbering allows the mixing and matching of different application versions with different API versions and service provider versions.
+
+LINEMAPPER allows an application to select a line indirectly—by means of the services it wants from it. When opening a line device using LINEMAPPER, the following is true: All members from beginning of the 
+<a href="https://msdn.microsoft.com/e7bc5604-20eb-48d8-a857-df8962c6b2ae">LINECALLPARAMS</a> data structure through <b>dwAddressMode</b> are relevant. If <b>dwAddressMode</b> is LINEADDRESSMODE_ADDRESSID it means that any address on the line is acceptable, otherwise if <b>dwAddressMode</b> is LINEADDRESSMODE_DIALABLEADDR, indicating that a specific originating address (phone number) is searched for, or if it is a provider-specific extension, then <b>dwOrigAddressSize</b>/<b>Offset</b> and the portion of the variable part they refer to are also relevant. If <b>dwAddressMode</b> is a provider-specific extension, additional information can be contained in the <b>dwDeviceSpecific</b> variably sized member.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/09d10789-bc36-47c7-b77d-8698ae75541a">Basic Telephony Services Reference</a>
+
+
+
+<a href="https://msdn.microsoft.com/e7bc5604-20eb-48d8-a857-df8962c6b2ae">LINECALLPARAMS</a>
+
+
+
+<a href="https://msdn.microsoft.com/7b24e3c3-bc69-488b-a698-cf17875bc3c5">LINE_CALLSTATE</a>
+
+
+
+<a href="https://msdn.microsoft.com/1cfba455-9a15-45f3-8d56-74b8348e080e">LINE_MONITORMEDIA</a>
+
+
+
+<a href="https://msdn.microsoft.com/7f33de55-2482-4558-bd86-ee2ac1e31269">LINE_PROXYREQUEST</a>
+
+
+
+<a href="https://msdn.microsoft.com/d703b414-1389-416c-8e94-c1931979f0c9">TAPI 2.2 Reference Overview</a>
+
+
+
+<a href="https://msdn.microsoft.com/ec47a351-c693-4e71-bf23-c31110ca90a1">lineClose</a>
+
+
+
+<a href="https://msdn.microsoft.com/68dc99c5-1158-4e18-8e32-08216ff3567b">lineForward</a>
+
+
+
+<a href="https://msdn.microsoft.com/048bc4bc-511a-4666-a2ff-4fff5132ed2e">lineGetConfRelatedCalls</a>
+
+
+
+<a href="https://msdn.microsoft.com/e9981574-0058-420f-9627-6d5a1745a739">lineGetID</a>
+
+
+
+<a href="https://msdn.microsoft.com/179af1a1-078f-401c-8c15-12fc8ca06e3c">lineGetNewCalls</a>
+
+
+
+<a href="https://msdn.microsoft.com/18cd145d-e434-433a-ab10-91bf5b060c21">lineInitializeEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/a7dc9cdc-3cc3-4b6a-98c8-e141402c781e">lineMakeCall</a>
+
+
+
+<a href="https://msdn.microsoft.com/d79a5469-2248-466b-a5ca-32a568b135d2">lineMonitorMedia</a>
+
+
+
+<a href="https://msdn.microsoft.com/71eb55de-281b-42a9-8d9b-7ded62cb006a">lineNegotiateAPIVersion</a>
+
+
+
+<a href="https://msdn.microsoft.com/89a49709-a15b-4358-984a-fd836d8e237b">lineNegotiateExtVersion</a>
+
+
+
+<a href="https://msdn.microsoft.com/94773ca0-8ea4-443f-9c61-81969dd72a7a">linePickup</a>
+
+
+
+<a href="https://msdn.microsoft.com/624a13f4-4be7-441b-abc0-e1fad8f01bdf">lineProxyMessage</a>
+
+
+
+<a href="https://msdn.microsoft.com/af774fc5-d013-4da2-a737-9e99c09456a0">lineProxyResponse</a>
+
+
+
+<a href="https://msdn.microsoft.com/13bf81c6-f7f6-4fd4-b546-15e58f7bc618">lineSetupConference</a>
+
+
+
+<a href="https://msdn.microsoft.com/d512508a-fb6a-41ec-a80d-f625abfdd184">lineShutdown</a>
+
+
+
+<a href="https://msdn.microsoft.com/9262ab44-eac7-43e2-a0ec-dceea0838b09">lineUnpark</a>
+ 
+
+ 
+

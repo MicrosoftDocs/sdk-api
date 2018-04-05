@@ -1,0 +1,112 @@
+---
+UID: NF:iwstdec.IAMWstDecoder.SetServiceState
+title: IAMWstDecoder::SetServiceState method
+author: windows-driver-content
+description: Applications use the SetServiceState method to assign the service state.
+old-location: dshow\iamwstdecoder_setservicestate.htm
+old-project: DirectShow
+ms.assetid: c65d056e-0f39-4372-9060-37859798cade
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: IAMWstDecoder, IAMWstDecoder interface [DirectShow], SetServiceState method, IAMWstDecoder::SetServiceState, IAMWstDecoderSetServiceState, SetServiceState method [DirectShow], SetServiceState method [DirectShow], IAMWstDecoder interface, SetServiceState,IAMWstDecoder.SetServiceState, dshow.iamwstdecoder_setservicestate, iwstdec/IAMWstDecoder::SetServiceState
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: iwstdec.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: AM_WST_STYLE, *PAM_WST_STYLE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Strmiids.lib
+-	Strmiids.dll
+api_name:
+-	IAMWstDecoder.SetServiceState
+product: Windows
+targetos: Windows
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IAMWstDecoder::SetServiceState method
+
+
+## -description
+
+
+
+Applications use the <code>SetServiceState</code> method to assign the service state.
+
+
+
+
+## -parameters
+
+
+
+
+### -param State [in]
+
+Specifies a member of an <a href="https://msdn.microsoft.com/b6548144-7e18-4d5d-9243-51eb7db9821b">AM_WST_STATE</a> enumeration to assign the service state.
+
+<table>
+<tr>
+<th>
+                  Value
+                </th>
+<th>
+                  Description
+                </th>
+</tr>
+<tr>
+<td>AM_WST_STATE_On</td>
+<td>Closed captioning on.</td>
+</tr>
+<tr>
+<td>AM_WST_STATE_Off</td>
+<td>Closed captioning off.</td>
+</tr>
+</table>
+ 
+
+
+## -returns
+
+
+
+When the method succeeds, it returns S_OK. Otherwise, it returns an <code>HRESULT</code> error code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+
+
+
+<a href="https://msdn.microsoft.com/f2f5a459-14de-4be1-909c-3c23e4cfd737">IAMWstDecoder Interface</a>
+ 
+
+ 
+

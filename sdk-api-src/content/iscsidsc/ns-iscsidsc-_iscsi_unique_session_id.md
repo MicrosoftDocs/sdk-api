@@ -1,0 +1,57 @@
+---
+UID: NS:iscsidsc._ISCSI_UNIQUE_SESSION_ID
+title: "_ISCSI_UNIQUE_SESSION_ID"
+author: windows-driver-content
+description: ISCSI_UNIQUE_CONNECTION_ID structure is an opaque entity that contains data that uniquely identifies a connection.
+old-location: iscsidisc\iscsi_unique_connection_id.htm
+old-project: iSCSIDisc
+ms.assetid: cc68fda4-6dbf-42de-8e0e-e144bd4e9524
+ms.author: windowsdriverdev
+ms.date: 3/23/2018
+ms.keywords: "*PISCSI_UNIQUE_CONNECTION_ID, *PISCSI_UNIQUE_SESSION_ID, ISCSI_UNIQUE_CONNECTION_ID, ISCSI_UNIQUE_CONNECTION_ID structure [iSCSI Discovery Library API], ISCSI_UNIQUE_SESSION_ID, _ISCSI_UNIQUE_SESSION_ID, iscsidisc.iscsi_unique_connection_id, iscsidsc/ISCSI_UNIQUE_CONNECTION_ID"
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: struct
+req.header: iscsidsc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: Root\WMI
+req.assembly: 
+req.type-library: 
+req.typenames: ISCSI_UNIQUE_SESSION_ID, *PISCSI_UNIQUE_SESSION_ID, ISCSI_UNIQUE_CONNECTION_ID, *PISCSI_UNIQUE_CONNECTION_ID
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Iscsidsc.h
+api_name:
+-	ISCSI_UNIQUE_CONNECTION_ID
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# _ISCSI_UNIQUE_SESSION_ID structure
+
+
+## -description
+
+
+The <b>ISCSI_UNIQUE_CONNECTION_ID</b> structure is an opaque entity that contains data that uniquely identifies a connection.
+
+
+## -struct-fields
+

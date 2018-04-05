@@ -1,0 +1,117 @@
+---
+UID: NF:xpsprint.IXpsPrintJob.GetJobStatus
+title: IXpsPrintJob::GetJobStatus method
+author: windows-driver-content
+description: Gets the current status of the print job.
+old-location: gdi\ixpsprintjob_getjobstatus.htm
+old-project: printdocs
+ms.assetid: e2a55aec-f8a5-40b4-8c26-1488df49eed0
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: GetJobStatus method [Windows GDI], GetJobStatus method [Windows GDI], IXpsPrintJob interface, GetJobStatus,IXpsPrintJob.GetJobStatus, IXpsPrintJob, IXpsPrintJob interface [Windows GDI], GetJobStatus method, IXpsPrintJob::GetJobStatus, gdi.ixpsprintjob_getjobstatus, xpsprint/IXpsPrintJob::GetJobStatus
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: xpsprint.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: XPS_JOB_COMPLETION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	XpsPrint.h
+api_name:
+-	IXpsPrintJob.GetJobStatus
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+---
+
+# IXpsPrintJob::GetJobStatus method
+
+
+## -description
+
+
+<p class="CCE_Message">[IXpsPrintJob::GetJobSatus is not supported and may be altered or unavailable in the future. ]
+
+Gets the current status of the print job.
+
+
+## -parameters
+
+
+
+
+### -param jobStatus [out, retval]
+
+The current status of the print job. For information about the data that is returned in this structure, see <a href="https://msdn.microsoft.com/c4e13960-4f26-460a-b47e-98b833fcdfd5">XPS_JOB_STATUS</a>.
+
+
+## -returns
+
+
+
+If the method succeeds, it returns S_OK; otherwise, it returns an <b>HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+<b>GetJobStatus</b> may be called during the print job processing or after the print job has completed. The values returned in <a href="https://msdn.microsoft.com/c4e13960-4f26-460a-b47e-98b833fcdfd5">XPS_JOB_STATUS</a> represent   the current state of the print job at the time <b>GetJobStatus</b> is called, so it is possible to miss intermediate states between calls to this method.
+
+The values of <i>jobStatus.currentDocument</i> and <i>jobStatus.currentPage</i> are guaranteed to progress sequentially: from the first document to the last,  and  from the first page to the last within each document.
+
+The job ID of a print job that has been  sent to the Microsoft XPS Document Writer (MXDW) is zero. If the interface is that of a print job that has been sent to the MXDW,  zero will be returned in <i>jobStatus.jobId</i>.
+
+If no job ID has been assigned to the print job, or the print job is printed without spooling, zero will be returned in <i>jobStatus.jobId</i>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541159">Documents</a>
+
+
+
+<a href="https://msdn.microsoft.com/aa17e059-6208-4348-87f3-556a3818f2b9">IXpsPrintJob</a>
+
+
+
+<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+
+
+
+<a href="https://msdn.microsoft.com/a0bfb708-033a-4493-a878-0ebdcaae672f">XPS_JOB_COMPLETION</a>
+
+
+
+<a href="https://msdn.microsoft.com/c4e13960-4f26-460a-b47e-98b833fcdfd5">XPS_JOB_STATUS</a>
+ 
+
+ 
+

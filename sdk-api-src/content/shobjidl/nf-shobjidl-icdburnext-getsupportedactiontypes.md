@@ -1,0 +1,95 @@
+---
+UID: NF:shobjidl.ICDBurnExt.GetSupportedActionTypes
+title: ICDBurnExt::GetSupportedActionTypes method
+author: windows-driver-content
+description: Determines the supported data type for a CD writing extension.
+old-location: shell\ICDBurnExt_GetSupportedActionTypes.htm
+old-project: shell
+ms.assetid: 46d0fe58-b8aa-42a8-811e-9762185bb8cc
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: CDBE_TYPE_ALL, CDBE_TYPE_DATA, CDBE_TYPE_MUSIC, GetSupportedActionTypes method [Windows Shell], GetSupportedActionTypes method [Windows Shell], ICDBurnExt interface, GetSupportedActionTypes,ICDBurnExt.GetSupportedActionTypes, ICDBurnExt, ICDBurnExt interface [Windows Shell], GetSupportedActionTypes method, ICDBurnExt::GetSupportedActionTypes, _shell_ICDBurnExt_GetSupportedActionTypes, shell.ICDBurnExt_GetSupportedActionTypes, shobjidl/ICDBurnExt::GetSupportedActionTypes
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: shobjidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Shobjidl.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: VPWATERMARKFLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Shobjidl.h
+api_name:
+-	ICDBurnExt.GetSupportedActionTypes
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 6.01
+---
+
+# ICDBurnExt::GetSupportedActionTypes method
+
+
+## -description
+
+
+Determines the supported data type for a CD writing extension.
+
+
+## -parameters
+
+
+
+
+### -param pdwActions [out]
+
+Type: <b>CDBE_ACTIONS*</b>
+
+One of the following values indicating the supported type.
+
+
+
+#### CDBE_TYPE_MUSIC (0x00000001)
+
+0x00000001. Music files are supported. The CD writing extension is invoked for the <b>Copy to audio CD</b> task in the My Music folder.
+
+
+
+#### CDBE_TYPE_DATA (0x00000002)
+
+0x00000002. Data files are supported. The CD writing extension is excluded from <b>Copy to audio CD</b>.
+
+
+
+#### CDBE_TYPE_ALL ((int)0xFFFFFFFF)
+
+(int)0xFFFFFFFF. All files are supported. The CD writing extension is invoked for the <b>Copy to audio CD</b> task in the My Music folder.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+

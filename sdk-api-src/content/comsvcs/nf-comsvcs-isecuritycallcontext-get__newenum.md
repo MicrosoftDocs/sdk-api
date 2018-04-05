@@ -1,0 +1,83 @@
+---
+UID: NF:comsvcs.ISecurityCallContext.get__NewEnum
+title: ISecurityCallContext::get__NewEnum method
+author: windows-driver-content
+description: Retrieves an enumerator for the security call context collection.
+old-location: cos\isecuritycallcontext_get__newenum.htm
+old-project: cossdk
+ms.assetid: b449a373-2d14-43c5-98b5-ba8119b61e4c
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: ISecurityCallContext, ISecurityCallContext interface [COM+], get__NewEnum method, ISecurityCallContext::get__NewEnum, _cos_ISecurityCallContext_get__NewEnum, comsvcs/ISecurityCallContext::get__NewEnum, cos.isecuritycallcontext_get__newenum, get__NewEnum method [COM+], get__NewEnum method [COM+], ISecurityCallContext interface, get__NewEnum,ISecurityCallContext.get__NewEnum
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: comsvcs.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: TRACKING_COLL_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	ComSvcs.h
+api_name:
+-	ISecurityCallContext.get__NewEnum
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# ISecurityCallContext::get__NewEnum method
+
+
+## -description
+
+
+Retrieves an enumerator for the security call context collection.
+
+
+## -parameters
+
+
+
+
+### -param ppEnum [out]
+
+A reference to the returned <a href="http://go.microsoft.com/fwlink/p/?linkid=120799">IEnumVARIANT</a> interface.
+
+
+## -returns
+
+
+
+This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E_UNEXPECTED, E_FAIL, and S_OK.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/cd96ef31-784f-40fa-beb5-92a88823326b">ISecurityCallContext</a>
+ 
+
+ 
+

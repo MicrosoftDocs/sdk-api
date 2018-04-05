@@ -1,0 +1,84 @@
+---
+UID: NF:gpmgmt.IGPMSecurityInfo.get__NewEnum
+title: IGPMSecurityInfo::get__NewEnum method
+author: windows-driver-content
+description: Retrieves an enumerator for the collection.
+old-location: gpmc\igpmsecurityinfo_get__newenum.htm
+old-project: GPMC
+ms.assetid: f8dc2ee1-d1cb-4e7a-abf4-1a388320b681
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: IGPMSecurityInfo, IGPMSecurityInfo interface [GPMC], get__NewEnum method, IGPMSecurityInfo::get__NewEnum, _win32_igpmsecurityinfo_get__newenum, get__NewEnum method [GPMC], get__NewEnum method [GPMC], IGPMSecurityInfo interface, get__NewEnum,IGPMSecurityInfo.get__NewEnum, gpmc.igpmsecurityinfo_get__newenum, gpmgmt/IGPMSecurityInfo::get__NewEnum
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: gpmgmt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Gpmgmt.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: GPMStarterGPOType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Gpmgmt.dll
+api_name:
+-	IGPMSecurityInfo.get__NewEnum
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Gpmgmt.dll
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IGPMSecurityInfo::get__NewEnum method
+
+
+## -description
+
+
+Retrieves an enumerator for the collection.
+
+
+## -parameters
+
+
+
+
+### -param ppEnum [out, retval]
+
+Pointer to an <a href="https://msdn.microsoft.com/139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a> interface of an enumerator object for the collection. <b>IEnumVARIANT</b> provides a number of methods that you can use to iterate through the collection.
+
+
+## -returns
+
+
+
+Returns <b>S_OK</b> if successful. Returns a failure code if an error occurs.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/1205b1d7-3dc1-4ecd-b4fa-c833dd4e1a74">IGPMSecurityInfo</a>
+ 
+
+ 
+

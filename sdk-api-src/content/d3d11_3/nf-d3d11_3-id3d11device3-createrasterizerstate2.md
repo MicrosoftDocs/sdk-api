@@ -1,0 +1,95 @@
+---
+UID: NF:d3d11_3.ID3D11Device3.CreateRasterizerState2
+title: ID3D11Device3::CreateRasterizerState2 method
+author: windows-driver-content
+description: Creates a rasterizer state object that informs the rasterizer stage how to behave and forces the sample count while UAV rendering or rasterizing.
+old-location: direct3d11\id3d11device3_createrasterizerstate2.htm
+old-project: direct3d11
+ms.assetid: 42BA8F50-7D86-4411-AE05-74F492761DBD
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: CreateRasterizerState2 method [Direct3D 11], CreateRasterizerState2 method [Direct3D 11], ID3D11Device3 interface, CreateRasterizerState2,ID3D11Device3.CreateRasterizerState2, ID3D11Device3, ID3D11Device3 interface [Direct3D 11], CreateRasterizerState2 method, ID3D11Device3::CreateRasterizerState2, d3d11_3/ID3D11Device3::CreateRasterizerState2, direct3d11.id3d11device3_createrasterizerstate2
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: d3d11_3.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: D3D11_TEXTURE_LAYOUT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	D3D11.lib
+-	D3D11.dll
+api_name:
+-	ID3D11Device3.CreateRasterizerState2
+product: Windows
+targetos: Windows
+req.lib: D3D11.lib
+req.dll: 
+req.irql: 
+---
+
+# ID3D11Device3::CreateRasterizerState2 method
+
+
+## -description
+
+
+Creates a rasterizer state object that informs the <a href="https://msdn.microsoft.com/efd3f819-7c63-4e1a-9923-8e7198354ec6">rasterizer stage</a> how to behave and forces the sample count while UAV rendering or rasterizing.
+
+
+## -parameters
+
+
+
+
+### -param pRasterizerDesc [in]
+
+Type: <b>const <a href="https://msdn.microsoft.com/54B5744A-1F50-4203-A43B-7E830D769534">D3D11_RASTERIZER_DESC2</a>*</b>
+
+A pointer to a <a href="https://msdn.microsoft.com/54B5744A-1F50-4203-A43B-7E830D769534">D3D11_RASTERIZER_DESC2</a> structure that describes the  rasterizer state.
+
+
+### -param ppRasterizerState [out, optional]
+
+Type: <b><a href="https://msdn.microsoft.com/335D976C-9E7F-4EAE-B671-F99D1B31669B">ID3D11RasterizerState2</a>**</b>
+
+A pointer to a memory block that receives a pointer to a <a href="https://msdn.microsoft.com/335D976C-9E7F-4EAE-B671-F99D1B31669B">ID3D11RasterizerState2</a> interface for the created rasterizer state object. Set this parameter to <b>NULL</b> to validate the other input parameters (the method will return <b>S_FALSE</b> if the other input parameters pass validation).
+
+
+## -returns
+
+
+
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+
+This method returns E_OUTOFMEMORY if there is insufficient memory to create the rasterizer state object.  See <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a> for other possible return values.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/0AA10851-0077-4075-BD41-72FCD7BC0556">ID3D11Device3</a>
+ 
+
+ 
+

@@ -1,0 +1,122 @@
+---
+UID: NF:mfidl.IMFAudioPolicy.GetIconPath
+title: IMFAudioPolicy::GetIconPath method
+author: windows-driver-content
+description: Retrieves the icon resource for the audio session. The Windows volume control displays this icon.
+old-location: mf\imfaudiopolicy_geticonpath.htm
+old-project: medfound
+ms.assetid: f2114f15-4357-4b5a-b384-695165d887de
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: GetIconPath method [Media Foundation], GetIconPath method [Media Foundation], IMFAudioPolicy interface, GetIconPath,IMFAudioPolicy.GetIconPath, IMFAudioPolicy, IMFAudioPolicy interface [Media Foundation], GetIconPath method, IMFAudioPolicy::GetIconPath, f2114f15-4357-4b5a-b384-695165d887de, mf.imfaudiopolicy_geticonpath, mfidl/IMFAudioPolicy::GetIconPath
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: mfidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MF_URL_TRUST_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfuuid.lib
+-	mfuuid.dll
+api_name:
+-	IMFAudioPolicy.GetIconPath
+product: Windows
+targetos: Windows
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IMFAudioPolicy::GetIconPath method
+
+
+## -description
+
+
+
+Retrieves the icon resource for the audio session. The Windows volume control displays this icon.
+
+
+
+
+## -parameters
+
+
+
+
+### -param pszPath [out]
+
+Receives a pointer to a wide-character string that specifies a shell resource. The format of the string is described in the topic <a href="https://msdn.microsoft.com/098ad6ae-b1fe-4e74-b494-572770906b14">IMFAudioPolicy::SetIconPath</a>. The caller must free the memory allocated for the string by calling <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a>.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+If the application did not set an icon path, the method returns an empty string ("").
+
+For more information, see <b>IAudioSessionControl::GetIconPath</b> in the core audio API documentation.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/fcd4dbfb-3f9f-4089-b9cc-7b41b2c2678a">IMFAudioPolicy</a>
+
+
+
+<a href="https://msdn.microsoft.com/5884a128-597d-432b-a706-e10c894d7965">Streaming Audio Renderer</a>
+ 
+
+ 
+

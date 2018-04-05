@@ -1,0 +1,71 @@
+---
+UID: NE:webservices.WS_MESSAGE_SECURITY_USAGE
+title: WS_MESSAGE_SECURITY_USAGE
+author: windows-driver-content
+description: Defines how a message security binding attaches the security token corresponding to it to a message using WS-Security mechanisms.
+old-location: wsw\ws_message_security_usage.htm
+old-project: wsw
+ms.assetid: 2f19877f-b79b-43c3-a3f5-93dd2940d499
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: WS_MESSAGE_SECURITY_USAGE, WS_MESSAGE_SECURITY_USAGE enumeration [Web Services for Windows], WS_SUPPORTING_MESSAGE_SECURITY_USAGE, webservices/WS_MESSAGE_SECURITY_USAGE, webservices/WS_SUPPORTING_MESSAGE_SECURITY_USAGE, wsw.ws_message_security_usage
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: enum
+req.header: webservices.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WS_MESSAGE_SECURITY_USAGE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WebServices.h
+api_name:
+-	WS_MESSAGE_SECURITY_USAGE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# WS_MESSAGE_SECURITY_USAGE enumeration
+
+
+## -description
+
+
+
+Defines how a message security binding attaches the security token
+corresponding to it to a message using WS-Security mechanisms.
+            
+
+
+## -enum-fields
+
+
+
+
+### -field WS_SUPPORTING_MESSAGE_SECURITY_USAGE
+
+The security token obtained security binding is used for client
+authentication, but not message protection.  Message protection should
+be provided by a transport security binding or a message security
+binding with symmetric or asymmetric usage.
+                
+

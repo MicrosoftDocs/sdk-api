@@ -1,0 +1,164 @@
+---
+UID: NF:contentpartner.IWMPContentPartner.GetTemplate
+title: IWMPContentPartner::GetTemplate method
+author: windows-driver-content
+description: Note  This section describes functionality designed for use by online stores.
+old-location: wmp\iwmpcontentpartner_gettemplate.htm
+old-project: WMP
+ms.assetid: 4bfe7d84-9f65-4bd4-867a-65c96291397d
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: GetTemplate method [Windows Media Player], GetTemplate method [Windows Media Player], IWMPContentPartner interface, GetTemplate,IWMPContentPartner.GetTemplate, IWMPContentPartner, IWMPContentPartner interface [Windows Media Player], GetTemplate method, IWMPContentPartner::GetTemplate, IWMPContentPartnerGetTemplate, contentpartner/IWMPContentPartner::GetTemplate, wmp.iwmpcontentpartner_gettemplate
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: contentpartner.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Media Player 11
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WMPTransactionType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	contentpartner.h
+api_name:
+-	IWMPContentPartner.GetTemplate
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# IWMPContentPartner::GetTemplate method
+
+
+## -description
+
+
+
+<div class="alert"><b>Note</b>  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.</div>
+<div> </div>
+The <b>GetTemplate</b> method retrieves the URL of the discovery page to be displayed when the library view changes in Windows Media Player.
+
+
+
+
+## -parameters
+
+
+
+
+### -param task [in]
+
+A member of the <a href="https://msdn.microsoft.com/7abc17b1-5ce7-4741-9a6a-d5a444046418">WMPTaskType</a> enumeration that specifies the active task pane.
+
+
+### -param location [in]
+
+A <a href="https://msdn.microsoft.com/88ff9b91-6b21-4f7d-ae13-e8456a3e0f75">library location constant</a> that specifies the type of library view the user is currently seeing. For example, the constant g_szCPListID specifies that the user is viewing a pane that shows a particular playlist.
+
+
+### -param pContext [in]
+
+The ID of the specific item the user is currently seeing. For example, if <i>location</i> is g_szCPListID, then this parameter specifies the ID of the particular playlist that the user is seeing.
+
+
+### -param clickLocation [in]
+
+A library location constant that specifies the type of item the user has selected. For example, the constant g_szCPTrackID specifies that the user has selected a particular music track.
+
+
+### -param pClickContext [in]
+
+The ID of the particular item the user has selected. For example, if <i>clickLocation</i> is g_szCPTrackID, then this parameter specifies the ID of the particular track that the user has selected.
+
+
+### -param bstrFilter [in]
+
+The filter for the current library view. This is the text that the user entered in the Player's word wheel control.
+
+
+### -param bstrViewParams [in]
+
+Parameters, meaningful only to the online store, associated with the new library location. See Remarks.
+
+
+### -param pbstrTemplateURL [out]
+
+Pointer to a <b>BSTR</b> that receives the URL of the discovery page to display.
+
+
+### -param pTemplateSize [out]
+
+Receives a member of the <a href="https://msdn.microsoft.com/c63185a7-b2a4-4c3d-b455-220e1954a31a">WMPTemplateSize</a> enumeration that indicates the size of the template in which the Player will display the discovery page.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+Windows Media Player calls this method when the view changes in the <b>Library</b>, <b>Sync</b>, or <b>Burn</b> pane. The Player also calls this method when one of those three panes becomes active. The pane or view can change as a result of user navigation or as the result of a call from the discovery page.
+
+When the discovery page calls <a href="https://msdn.microsoft.com/bd9d7d4b-ee4c-4d7c-92ef-dd0b8ab46d9d">External.changeView</a>, it sets the <i>ViewParams</i> parameter to whatever context it wants to associate with the new view. Windows Media Player passes that context along to the plug-in in the <i>bstrViewParams</i> parameter of <b>GetTemplate</b>.
+
+When the discovery page calls <a href="https://msdn.microsoft.com/d7a45ced-431f-4d35-8c9c-c6eeba6fcbf3">External.changeViewOnlineList</a>, it sets the <i>Params</i> parameter to whatever context it wants to associate with the new view. Windows Media Player passes that context along to the plug-in in the <i>bstrViewParams</i> parameter of <b>GetTemplate</b>.
+
+If the view changes as a result of user navigation, Windows Media Player sets the <i>bstrParams</i> parameter to <b>NULL</b> when it calls <b>GetTemplate</b>.
+
+Windows Media Player calls <b>GetTemplate</b> to retrieve the URL of the discovery page that it should display in the new view. The Player also receives a <b>WMPTemplateSize</b> value that indicates what portion of the new view should be occupied by the discovery page.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/2078ebd4-3570-4c39-9081-1b55d9e8286f">IWMPContentPartner Interface</a>
+ 
+
+ 
+

@@ -1,0 +1,87 @@
+---
+UID: NF:wmsecure.IWMGetSecureChannel.GetPeerSecureChannelInterface
+title: IWMGetSecureChannel::GetPeerSecureChannelInterface method
+author: windows-driver-content
+description: The GetPeerSecureChannelInterface method gets the IWMSecureChannel interface from the other communication party.
+old-location: wmformat\iwmgetsecurechannel_getpeersecurechannelinterface.htm
+old-project: wmformat
+ms.assetid: bda30638-10b5-4288-b885-b63485606a7f
+ms.author: windowsdriverdev
+ms.date: 3/23/2018
+ms.keywords: GetPeerSecureChannelInterface method [windows Media Format], GetPeerSecureChannelInterface method [windows Media Format], IWMGetSecureChannel interface, GetPeerSecureChannelInterface,IWMGetSecureChannel.GetPeerSecureChannelInterface, IWMGetSecureChannel, IWMGetSecureChannel interface [windows Media Format], GetPeerSecureChannelInterface method, IWMGetSecureChannel::GetPeerSecureChannelInterface, wmformat.iwmgetsecurechannel_getpeersecurechannelinterface, wmsecure/IWMGetSecureChannel::GetPeerSecureChannelInterface
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wmsecure.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WMT_WATERMARK_ENTRY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wmsecure.h
+api_name:
+-	IWMGetSecureChannel.GetPeerSecureChannelInterface
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IWMGetSecureChannel::GetPeerSecureChannelInterface method
+
+
+## -description
+
+
+<p class="CCE_Message">[<b>GetPeerSecureChannelInterface</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="http://go.microsoft.com/fwlink/p/?linkid=325240">Microsoft PlayReady</a>.
+]
+
+The <b>GetPeerSecureChannelInterface</b> method gets the <a href="https://msdn.microsoft.com/ccf34dc2-a527-4ec4-b2d7-ea539ff50cf5">IWMSecureChannel</a> interface from the other communication party.
+
+
+## -parameters
+
+
+
+
+### -param ppPeer [out]
+
+An address of a pointer to the other communication party's <a href="https://msdn.microsoft.com/ccf34dc2-a527-4ec4-b2d7-ea539ff50cf5">IWMSecureChannel</a> object.
+
+
+## -returns
+
+
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/0ebb380a-5c14-4630-8ae4-825809f4737a">IWMGetSecureChannel</a>
+ 
+
+ 
+

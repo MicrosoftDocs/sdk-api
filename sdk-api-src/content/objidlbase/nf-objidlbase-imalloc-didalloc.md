@@ -1,0 +1,125 @@
+---
+UID: NF:objidlbase.IMalloc.DidAlloc
+title: IMalloc::DidAlloc method
+author: windows-driver-content
+description: Determines whether this allocator was used to allocate the specified block of memory.
+old-location: com\imalloc_didalloc.htm
+old-project: com
+ms.assetid: 085dd7cd-c360-48fa-8713-64dd9057e20d
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: DidAlloc method [COM], DidAlloc method [COM], IMalloc interface, DidAlloc,IMalloc.DidAlloc, IMalloc, IMalloc interface [COM], DidAlloc method, IMalloc::DidAlloc, _com_imalloc_didalloc, com.imalloc_didalloc, objidlbase/IMalloc::DidAlloc
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: objidlbase.h
+req.include-header: ObjIdl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: ObjIdl.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: THDTYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	objidlbase.h
+api_name:
+-	IMalloc.DidAlloc
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# IMalloc::DidAlloc method
+
+
+## -description
+
+
+Determines whether this allocator was used to allocate the specified block of memory.
+
+
+## -parameters
+
+
+
+
+### -param pv [in]
+
+A pointer to the block of memory. If this parameter is a <b>NULL</b> pointer, -1 is returned.
+
+
+## -returns
+
+
+
+This method can return the following values.
+
+<table>
+<tr>
+<th>Return value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt>1</dt>
+</dl>
+</td>
+<td width="60%">
+The block of memory was allocated by this allocator.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt>0</dt>
+</dl>
+</td>
+<td width="60%">
+The block of memory was not allocated by this allocator.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt>-1</dt>
+</dl>
+</td>
+<td width="60%">
+This method cannot determine whether this allocator allocated the block of memory.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/047f281e-2665-4d6d-9a0b-918cd3339447">IMalloc</a>
+ 
+
+ 
+

@@ -1,0 +1,173 @@
+---
+UID: NF:audioclient.IAudioClient.GetMixFormat
+title: IAudioClient::GetMixFormat method
+author: windows-driver-content
+description: The GetMixFormat method retrieves the stream format that the audio engine uses for its internal processing of shared-mode streams.
+old-location: coreaudio\iaudioclient_getmixformat.htm
+old-project: CoreAudio
+ms.assetid: 63f3e593-3904-44f9-a912-78c6c98e7597
+ms.author: windowsdriverdev
+ms.date: 3/30/2018
+ms.keywords: GetMixFormat method [Core Audio], GetMixFormat method [Core Audio], IAudioClient interface, GetMixFormat,IAudioClient.GetMixFormat, IAudioClient, IAudioClient interface [Core Audio], GetMixFormat method, IAudioClient::GetMixFormat, IAudioClientGetMixFormat, audioclient/IAudioClient::GetMixFormat, coreaudio.iaudioclient_getmixformat
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: audioclient.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Audioclient.h
+api_name:
+-	IAudioClient.GetMixFormat
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# IAudioClient::GetMixFormat method
+
+
+## -description
+
+
+
+The <b>GetMixFormat</b> method retrieves the stream format that the audio engine uses for its internal processing of shared-mode streams.
+
+
+
+
+## -parameters
+
+
+
+
+### -param ppDeviceFormat [out]
+
+Pointer to a pointer variable into which the method writes the address of the mix format. This parameter must be a valid, non-<b>NULL</b> pointer to a pointer variable. The method writes the address of a <b>WAVEFORMATEX</b> (or <b>WAVEFORMATEXTENSIBLE</b>) structure to this variable. The method allocates the storage for the structure. The caller is responsible for freeing the storage, when it is no longer needed, by calling the <b>CoTaskMemFree</b> function. If the <b>GetMixFormat</b> call fails, <i>*ppDeviceFormat</i> is <b>NULL</b>. For information about <b>WAVEFORMATEX</b>, <b>WAVEFORMATEXTENSIBLE</b>, and <b>CoTaskMemFree</b>, see the Windows SDK documentation.
+
+
+## -returns
+
+
+
+If the method succeeds, it returns S_OK. If it fails, possible return codes include, but are not limited to, the values shown in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>AUDCLNT_E_DEVICE_INVALIDATED</b></dt>
+</dl>
+</td>
+<td width="60%">
+The audio endpoint device has been unplugged, or the audio hardware or associated hardware resources have been reconfigured, disabled, removed, or otherwise made unavailable for use.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>AUDCLNT_E_SERVICE_NOT_RUNNING</b></dt>
+</dl>
+</td>
+<td width="60%">
+The Windows audio service is not running.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_POINTER</b></dt>
+</dl>
+</td>
+<td width="60%">
+Parameter <i>ppDeviceFormat</i> is <b>NULL</b>.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_OUTOFMEMORY</b></dt>
+</dl>
+</td>
+<td width="60%">
+Out of memory.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+The client can call this method before calling the <a href="https://msdn.microsoft.com/eb778503-06f8-4705-9f8d-9a4fd886ae27">IAudioClient::Initialize</a> method. When creating a shared-mode stream for an audio endpoint device, the <b>Initialize</b> method always accepts the stream format obtained from a <b>GetMixFormat</b> call on the same device.
+
+The mix format is the format that the audio engine uses internally for digital processing of shared-mode streams. This format is not necessarily a format that the audio endpoint device supports. Thus, the caller might not succeed in creating an exclusive-mode stream with a format obtained by calling <b>GetMixFormat</b>.
+
+For example, to facilitate digital audio processing, the audio engine might use a mix format that represents samples as floating-point values. If the device supports only integer PCM samples, then the engine converts the samples to or from integer PCM values at the connection between the device and the engine. However, to avoid resampling, the engine might use a mix format with a sample rate that the device supports.
+
+To determine whether the <b>Initialize</b> method can create a shared-mode or exclusive-mode stream with a particular format, call the <a href="https://msdn.microsoft.com/92d1fc93-08e2-46d9-bd2f-ce1b2087d2d1">IAudioClient::IsFormatSupported</a> method.
+
+By itself, a <b>WAVEFORMATEX</b> structure cannot specify the mapping of channels to speaker positions. In addition, although <b>WAVEFORMATEX</b> specifies the size of the container for each audio sample, it cannot specify the number of bits of precision in a sample (for example, 20 bits of precision in a 24-bit container). However, the <b>WAVEFORMATEXTENSIBLE</b> structure can specify both the mapping of channels to speakers and the number of bits of precision in each sample. For this reason, the <b>GetMixFormat</b> method retrieves a format descriptor that is in the form of a <b>WAVEFORMATEXTENSIBLE</b> structure instead of a standalone <b>WAVEFORMATEX</b> structure. Through the <i>ppDeviceFormat</i> parameter, the method outputs a pointer to the <b>WAVEFORMATEX</b> structure that is embedded at the start of this <b>WAVEFORMATEXTENSIBLE</b> structure. For more information about <b>WAVEFORMATEX</b> and <b>WAVEFORMATEXTENSIBLE</b>, see the Windows DDK documentation.
+
+For more information about the <b>GetMixFormat</b> method, see <a href="https://msdn.microsoft.com/591437e4-21ef-42f1-a752-7f50440cbd63">Device Formats</a>. For code examples that call <b>GetMixFormat</b>, see the following topics:
+
+<ul>
+<li>
+<a href="https://msdn.microsoft.com/00bfcfd1-6592-43e3-90ad-730c92aa4cd3">Rendering a Stream</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/1d9072dc-4f9b-4111-a747-5eb33ad3ae5b">Capturing a Stream</a>
+</li>
+</ul>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/5088a3f1-5001-4ed9-a495-9e91df613ab0">IAudioClient Interface</a>
+
+
+
+<a href="https://msdn.microsoft.com/eb778503-06f8-4705-9f8d-9a4fd886ae27">IAudioClient::Initialize</a>
+
+
+
+<a href="https://msdn.microsoft.com/92d1fc93-08e2-46d9-bd2f-ce1b2087d2d1">IAudioClient::IsFormatSupported</a>
+ 
+
+ 
+

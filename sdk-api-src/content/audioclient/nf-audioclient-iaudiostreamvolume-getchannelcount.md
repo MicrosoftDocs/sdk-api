@@ -1,0 +1,136 @@
+---
+UID: NF:audioclient.IAudioStreamVolume.GetChannelCount
+title: IAudioStreamVolume::GetChannelCount method
+author: windows-driver-content
+description: The GetChannelCount method retrieves the number of channels in the audio stream.
+old-location: coreaudio\iaudiostreamvolume_getchannelcount.htm
+old-project: CoreAudio
+ms.assetid: caaa8233-c995-4ba9-b973-f1b8737e7218
+ms.author: windowsdriverdev
+ms.date: 3/30/2018
+ms.keywords: GetChannelCount method [Core Audio], GetChannelCount method [Core Audio], IAudioStreamVolume interface, GetChannelCount,IAudioStreamVolume.GetChannelCount, IAudioStreamVolume, IAudioStreamVolume interface [Core Audio], GetChannelCount method, IAudioStreamVolume::GetChannelCount, IAudioStreamVolumeGetChannelCount, audioclient/IAudioStreamVolume::GetChannelCount, coreaudio.iaudiostreamvolume_getchannelcount
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: audioclient.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Audioclient.h
+api_name:
+-	IAudioStreamVolume.GetChannelCount
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# IAudioStreamVolume::GetChannelCount method
+
+
+## -description
+
+
+
+The <b>GetChannelCount</b> method retrieves the number of channels in the audio stream.
+
+
+
+
+## -parameters
+
+
+
+
+### -param pdwCount [out]
+
+Pointer to a <b>UINT32</b> variable into which the method writes the channel count.
+
+
+## -returns
+
+
+
+If the method succeeds, it returns S_OK. If it fails, possible return codes include, but are not limited to, the values shown in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_POINTER</b></dt>
+</dl>
+</td>
+<td width="60%">
+Parameter <i>pdwCount</i> is <b>NULL</b>.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>AUDCLNT_E_DEVICE_INVALIDATED</b></dt>
+</dl>
+</td>
+<td width="60%">
+The audio endpoint device has been unplugged, or the audio hardware or associated hardware resources have been reconfigured, disabled, removed, or otherwise made unavailable for use.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>AUDCLNT_E_SERVICE_NOT_RUNNING</b></dt>
+</dl>
+</td>
+<td width="60%">
+The Windows audio service is not running.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+Call this method to get the number of channels in the audio stream before calling any of the other methods in the <a href="https://msdn.microsoft.com/92cc127b-77ac-4fc7-ac3c-319e5d6368d3">IAudioStreamVolume</a> interface.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/92cc127b-77ac-4fc7-ac3c-319e5d6368d3">IAudioStreamVolume Interface</a>
+ 
+
+ 
+

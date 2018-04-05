@@ -1,0 +1,80 @@
+---
+UID: NF:bits.IEnumBackgroundCopyFiles.Reset
+title: IEnumBackgroundCopyFiles::Reset method
+author: windows-driver-content
+description: Resets the enumeration sequence to the beginning.
+old-location: bits\ienumbackgroundcopyfiles_reset.htm
+old-project: Bits
+ms.assetid: 471e1417-8d22-4368-93f4-151aa8a662ba
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: IEnumBackgroundCopyFiles, IEnumBackgroundCopyFiles interface [BITS], Reset method, IEnumBackgroundCopyFiles::Reset, Reset method [BITS], Reset method [BITS], IEnumBackgroundCopyFiles interface, Reset,IEnumBackgroundCopyFiles.Reset, _drz_ienumbackgroundcopyfiles_reset, bits.ienumbackgroundcopyfiles_reset, bits/IEnumBackgroundCopyFiles::Reset
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: bits.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP
+req.target-min-winversvr: Windows Server 2003
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Bits.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: BG_JOB_PROXY_USAGE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	QmgrPrxy.dll
+api_name:
+-	IEnumBackgroundCopyFiles.Reset
+product: Windows
+targetos: Windows
+req.lib: Bits.lib
+req.dll: QmgrPrxy.dll
+req.irql: 
+---
+
+# IEnumBackgroundCopyFiles::Reset method
+
+
+## -description
+
+
+Resets the enumeration sequence to the beginning.
+
+
+## -parameters
+
+
+
+
+
+
+## -returns
+
+
+
+This method returns <b>S_OK</b> on success or one of the standard COM <b>HRESULT</b> values on error.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/831998ba-601c-43c4-ba27-faff741f8eb4">IEnumBackgroundCopyFiles</a>
+ 
+
+ 
+

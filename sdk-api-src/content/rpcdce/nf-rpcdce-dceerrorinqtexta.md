@@ -1,0 +1,127 @@
+---
+UID: NF:rpcdce.DceErrorInqTextA
+title: DceErrorInqTextA function
+author: windows-driver-content
+description: The DceErrorInqText function returns the message text for a status code.
+old-location: rpc\dceerrorinqtext.htm
+old-project: Rpc
+ms.assetid: 0aea211b-48bb-4a2f-a42e-1f35259e7f82
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: DceErrorInqText, DceErrorInqText function [RPC], DceErrorInqTextA, DceErrorInqTextW, RPC_S_INVALID_ARG, RPC_S_OK, _rpc_dceerrorinqtext, rpc.dceerrorinqtext, rpcdce/DceErrorInqText, rpcdce/DceErrorInqTextA, rpcdce/DceErrorInqTextW
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: rpcdce.h
+req.include-header: Rpc.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: DceErrorInqTextW (Unicode) and DceErrorInqTextA (ANSI)
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: RPC_CALL_LOCAL_ADDRESS_V1, *PRPC_CALL_LOCAL_ADDRESS_V1
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Rpcrt4.dll
+api_name:
+-	DceErrorInqText
+-	DceErrorInqTextA
+-	DceErrorInqTextW
+product: Windows
+targetos: Windows
+req.lib: Rpcrt4.lib
+req.dll: Rpcrt4.dll
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# DceErrorInqTextA function
+
+
+## -description
+
+
+The 
+<b>DceErrorInqText</b> function returns the message text for a status code.
+
+
+## -parameters
+
+
+
+
+### -param RpcStatus
+
+TBD
+
+
+### -param ErrorText
+
+Returns the text corresponding to the error code.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="RPC_S_OK"></a><a id="rpc_s_ok"></a><dl>
+<dt><b>RPC_S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The call succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="RPC_S_INVALID_ARG"></a><a id="rpc_s_invalid_arg"></a><dl>
+<dt><b>RPC_S_INVALID_ARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+Unknown error code.
+
+</td>
+</tr>
+</table>
+ 
+
+
+#### - StatusToConvert
+
+Status code to convert to a text string.
+
+
+## -returns
+
+
+
+This function returns RPC_S_OK if it is successful, or an error code if not.
+
+<div class="alert"><b>Note</b>  For a list of valid error codes, see 
+<a href="https://msdn.microsoft.com/0223aa7a-b0cf-49e3-9f08-90be5ccffbd1">RPC Return Values</a>.</div>
+<div> </div>
+
+
+
+## -remarks
+
+
+
+The 
+<b>DceErrorInqText</b> routine fills the string pointed to by the <i>ErrorText</i> parameter with a null-terminated character string message for a particular status code.
+
+
+

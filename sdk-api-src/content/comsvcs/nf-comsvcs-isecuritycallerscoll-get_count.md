@@ -1,0 +1,83 @@
+---
+UID: NF:comsvcs.ISecurityCallersColl.get_Count
+title: ISecurityCallersColl::get_Count method
+author: windows-driver-content
+description: Retrieves the number of callers in the security callers collection.
+old-location: cos\isecuritycallerscoll_get_count.htm
+old-project: cossdk
+ms.assetid: 98a28194-c4d3-4c5f-b43a-4df73fcea7e4
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: ISecurityCallersColl, ISecurityCallersColl interface [COM+], get_Count method, ISecurityCallersColl::get_Count, _cos_ISecurityCallersColl_get_Count, comsvcs/ISecurityCallersColl::get_Count, cos.isecuritycallerscoll_get_count, get_Count method [COM+], get_Count method [COM+], ISecurityCallersColl interface, get_Count,ISecurityCallersColl.get_Count
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: comsvcs.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: TRACKING_COLL_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	ComSvcs.h
+api_name:
+-	ISecurityCallersColl.get_Count
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# ISecurityCallersColl::get_Count method
+
+
+## -description
+
+
+Retrieves the number of callers in the security callers collection.
+
+
+## -parameters
+
+
+
+
+### -param plCount [out]
+
+The number of callers in the security callers collection.
+
+
+## -returns
+
+
+
+This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E_UNEXPECTED, E_FAIL, and S_OK.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/b9b16d2e-92fd-40d2-b33d-8a82a1291794">ISecurityCallersColl</a>
+ 
+
+ 
+

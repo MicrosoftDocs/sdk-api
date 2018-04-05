@@ -1,0 +1,131 @@
+---
+UID: NF:mstask.ITaskScheduler.GetTargetComputer
+title: ITaskScheduler::GetTargetComputer method
+author: windows-driver-content
+description: The GetTargetComputer method returns the name of the computer on which ITaskScheduler is currently targeted.
+old-location: taskschd\itaskscheduler_gettargetcomputer.htm
+old-project: TaskSchd
+ms.assetid: c421a739-3290-4698-88e6-5c746baf903d
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: GetTargetComputer method [Task Scheduler], GetTargetComputer method [Task Scheduler], ITaskScheduler interface, GetTargetComputer,ITaskScheduler.GetTargetComputer, ITaskScheduler, ITaskScheduler interface [Task Scheduler], GetTargetComputer method, ITaskScheduler::GetTargetComputer, _msb_itaskscheduler_gettargetcomputer, mstask/ITaskScheduler::GetTargetComputer, taskschd.itaskscheduler_gettargetcomputer
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: mstask.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: TASK_TRIGGER_TYPE, *PTASK_TRIGGER_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Mstask.dll
+api_name:
+-	ITaskScheduler.GetTargetComputer
+product: Windows
+targetos: Windows
+req.lib: Mstask.lib
+req.dll: Mstask.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 SP2 or later
+---
+
+# ITaskScheduler::GetTargetComputer method
+
+
+## -description
+
+
+<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://msdn.microsoft.com/67ed58e1-e54c-4c02-a6c4-d9ab8dc0f83e">Task Scheduler 2.0 Interfaces</a> instead.] ]
+
+The 
+<b>GetTargetComputer</b> method returns the name of the computer on which 
+<a href="https://msdn.microsoft.com/70c276e1-a45a-4a7d-aacc-3eb647675098">ITaskScheduler</a> is currently targeted.
+
+
+## -parameters
+
+
+
+
+### -param ppwszComputer [out]
+
+A pointer to a null-terminated string that contains the name of the target computer for the current task. This string is allocated by the application that invokes 
+<b>GetTargetComputer</b>, and must also be freed using <b>CoTaskMemFree</b>.
+
+
+## -returns
+
+
+
+The 
+<b>GetTargetComputer</b> method returns one of the following values.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The operation was successful.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+The arguments are not valid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_OUTOFMEMORY</b></dt>
+</dl>
+</td>
+<td width="60%">
+Not enough memory is available.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/70c276e1-a45a-4a7d-aacc-3eb647675098">ITaskScheduler</a>
+ 
+
+ 
+

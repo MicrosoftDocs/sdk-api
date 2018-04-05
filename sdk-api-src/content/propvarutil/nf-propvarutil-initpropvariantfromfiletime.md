@@ -1,0 +1,143 @@
+---
+UID: NF:propvarutil.InitPropVariantFromFileTime
+title: InitPropVariantFromFileTime function
+author: windows-driver-content
+description: Initializes a PROPVARIANT structure based on information stored in a FILETIME structure.
+old-location: properties\InitPropVariantFromFileTime.htm
+old-project: properties
+ms.assetid: 07c5ffe5-b2a5-46a3-969c-81201d9b8fdb
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: InitPropVariantFromFileTime, InitPropVariantFromFileTime function [Windows Properties], properties.InitPropVariantFromFileTime, propvarutil/InitPropVariantFromFileTime, shell.InitPropVariantFromFileTime, shell_InitPropVariantFromFileTime
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: propvarutil.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: PROPVAR_COMPARE_UNIT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Propsys.dll
+api_name:
+-	InitPropVariantFromFileTime
+product: Windows
+targetos: Windows
+req.lib: Propsys.lib
+req.dll: Propsys.dll (version 6.0 or later)
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# InitPropVariantFromFileTime function
+
+
+## -description
+
+
+Initializes a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> structure based on information stored in a <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure.
+
+
+## -parameters
+
+
+
+
+### -param pftIn [in]
+
+Type: <b>const FILETIME*</b>
+
+Pointer to the date and time as a <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure.
+
+
+### -param ppropvar [out]
+
+Type: <b><a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>*</b>
+
+When this function returns, contains the initialized <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> structure.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+Creates a VT_FILETIME propvariant.
+
+
+#### Examples
+
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitPropVariantFromFileTime">InitPropVariantFromFileTime</a>.
+
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>FILETIME ft;
+PROPVARIANT propvar;
+
+GetSystemTimeAsFileTime(&amp;ft);
+
+HRESULT hr = InitPropVariantFromFileTime(&amp;ft, &amp;propvar);
+
+if (SUCCEEDED(hr))
+{
+    // propvar now is valid and has type VT_FILETIME.
+ 
+    PropVariantClear(&amp;propvar);
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/adf7ff5d-2d30-4490-9868-9ad78ef7a0b6">GetSystemTimeAsFileTime</a>
+
+
+
+<a href="shell.InitPropVariantFromFileTimeVector">InitPropVariantFromFileTimeVector</a>
+
+
+
+<a href="shell.InitVariantFromFileTime">InitVariantFromFileTime</a>
+
+
+
+<a href="shell.PropVariantToFileTime">PropVariantToFileTime</a>
+ 
+
+ 
+

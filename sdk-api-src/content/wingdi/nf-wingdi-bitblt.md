@@ -1,0 +1,412 @@
+---
+UID: NF:wingdi.BitBlt
+title: BitBlt function
+author: windows-driver-content
+description: The BitBlt function performs a bit-block transfer of the color data corresponding to a rectangle of pixels from the specified source device context into a destination device context.
+old-location: gdi\bitblt.htm
+old-project: gdi
+ms.assetid: d6a181e4-b6cf-44b7-bf47-4900272d6d72
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: BLACKNESS, BitBlt, BitBlt function [Windows GDI], CAPTUREBLT, DSTINVERT, MERGECOPY, MERGEPAINT, NOMIRRORBITMAP, NOTSRCCOPY, NOTSRCERASE, PATCOPY, PATINVERT, PATPAINT, SRCAND, SRCCOPY, SRCERASE, SRCINVERT, SRCPAINT, WHITENESS, _win32_BitBlt, gdi.bitblt, wingdi/BitBlt
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: wingdi.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: FAX_TIME, *PFAX_TIME
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	gdi32.dll
+-	Ext-MS-Win-GDI-Draw-l1-1-0.dll
+-	Ext-MS-Win-GDI-Draw-l1-1-1.dll
+-	ext-ms-win-gdi-draw-l1-1-2.dll
+-	Ext-MS-Win-GDI-Draw-L1-1-3.dll
+-	GDI32Full.dll
+api_name:
+-	BitBlt
+product: Windows
+targetos: Windows
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# BitBlt function
+
+
+## -description
+
+
+The <b>BitBlt</b> function performs a bit-block transfer of the color data corresponding to a rectangle of pixels from the specified source device context into a destination device context.
+
+
+## -parameters
+
+
+
+
+### -param hdc
+
+TBD
+
+
+### -param x
+
+TBD
+
+
+### -param y
+
+TBD
+
+
+### -param cx
+
+TBD
+
+
+### -param cy
+
+TBD
+
+
+### -param hdcSrc [in]
+
+A handle to the source device context.
+
+
+### -param x1
+
+TBD
+
+
+### -param y1
+
+TBD
+
+
+### -param rop
+
+TBD
+
+
+
+
+#### - dwRop [in]
+
+A raster-operation code. These codes define how the color data for the source rectangle is to be combined with the color data for the destination rectangle to achieve the final color.
+
+The following list shows some common raster operation codes.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="BLACKNESS"></a><a id="blackness"></a><dl>
+<dt><b>BLACKNESS</b></dt>
+</dl>
+</td>
+<td width="60%">
+Fills the destination rectangle using the color associated with index 0 in the physical palette. (This color is black for the default physical palette.)
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="CAPTUREBLT"></a><a id="captureblt"></a><dl>
+<dt><b>CAPTUREBLT</b></dt>
+</dl>
+</td>
+<td width="60%">
+Includes any windows that are layered on top of your window in the resulting image. By default, the image only contains your window. Note that this generally cannot be used for printing device contexts.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="DSTINVERT"></a><a id="dstinvert"></a><dl>
+<dt><b>DSTINVERT</b></dt>
+</dl>
+</td>
+<td width="60%">
+Inverts the destination rectangle.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="MERGECOPY"></a><a id="mergecopy"></a><dl>
+<dt><b>MERGECOPY</b></dt>
+</dl>
+</td>
+<td width="60%">
+Merges the colors of the source rectangle with the brush currently selected in <i>hdcDest</i>, by using the Boolean AND operator.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="MERGEPAINT"></a><a id="mergepaint"></a><dl>
+<dt><b>MERGEPAINT</b></dt>
+</dl>
+</td>
+<td width="60%">
+Merges the colors of the inverted source rectangle with the colors of the destination rectangle by using the Boolean OR operator.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="NOMIRRORBITMAP"></a><a id="nomirrorbitmap"></a><dl>
+<dt><b>NOMIRRORBITMAP</b></dt>
+</dl>
+</td>
+<td width="60%">
+Prevents the bitmap from being mirrored.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="NOTSRCCOPY"></a><a id="notsrccopy"></a><dl>
+<dt><b>NOTSRCCOPY</b></dt>
+</dl>
+</td>
+<td width="60%">
+Copies the inverted source rectangle to the destination.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="NOTSRCERASE"></a><a id="notsrcerase"></a><dl>
+<dt><b>NOTSRCERASE</b></dt>
+</dl>
+</td>
+<td width="60%">
+Combines the colors of the source and destination rectangles by using the Boolean OR operator and then inverts the resultant color.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="PATCOPY"></a><a id="patcopy"></a><dl>
+<dt><b>PATCOPY</b></dt>
+</dl>
+</td>
+<td width="60%">
+Copies the brush currently selected in <i>hdcDest</i>, into the destination bitmap.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="PATINVERT"></a><a id="patinvert"></a><dl>
+<dt><b>PATINVERT</b></dt>
+</dl>
+</td>
+<td width="60%">
+Combines the colors of the brush currently selected in <i>hdcDest</i>, with the colors of the destination rectangle by using the Boolean XOR operator.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="PATPAINT"></a><a id="patpaint"></a><dl>
+<dt><b>PATPAINT</b></dt>
+</dl>
+</td>
+<td width="60%">
+Combines the colors of the brush currently selected in <i>hdcDest</i>, with the colors of the inverted source rectangle by using the Boolean OR operator. The result of this operation is combined with the colors of the destination rectangle by using the Boolean OR operator.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SRCAND"></a><a id="srcand"></a><dl>
+<dt><b>SRCAND</b></dt>
+</dl>
+</td>
+<td width="60%">
+Combines the colors of the source and destination rectangles by using the Boolean AND operator.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SRCCOPY"></a><a id="srccopy"></a><dl>
+<dt><b>SRCCOPY</b></dt>
+</dl>
+</td>
+<td width="60%">
+Copies the source rectangle directly to the destination rectangle.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SRCERASE"></a><a id="srcerase"></a><dl>
+<dt><b>SRCERASE</b></dt>
+</dl>
+</td>
+<td width="60%">
+Combines the inverted colors of the destination rectangle with the colors of the source rectangle by using the Boolean AND operator.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SRCINVERT"></a><a id="srcinvert"></a><dl>
+<dt><b>SRCINVERT</b></dt>
+</dl>
+</td>
+<td width="60%">
+Combines the colors of the source and destination rectangles by using the Boolean XOR operator.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SRCPAINT"></a><a id="srcpaint"></a><dl>
+<dt><b>SRCPAINT</b></dt>
+</dl>
+</td>
+<td width="60%">
+Combines the colors of the source and destination rectangles by using the Boolean OR operator.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="WHITENESS"></a><a id="whiteness"></a><dl>
+<dt><b>WHITENESS</b></dt>
+</dl>
+</td>
+<td width="60%">
+Fills the destination rectangle using the color associated with index 1 in the physical palette. (This color is white for the default physical palette.)
+
+</td>
+</tr>
+</table>
+ 
+
+
+#### - hdcDest [in]
+
+A handle to the destination device context.
+
+
+#### - nHeight [in]
+
+The height, in logical units, of the source and the destination rectangles.
+
+
+#### - nWidth [in]
+
+The width, in logical units, of the source and destination rectangles.
+
+
+#### - nXDest [in]
+
+The x-coordinate, in logical units, of the upper-left corner of the destination rectangle.
+
+
+#### - nXSrc [in]
+
+The x-coordinate, in logical units, of the upper-left corner of the source rectangle.
+
+
+#### - nYDest [in]
+
+The y-coordinate, in logical units, of the upper-left corner of the destination rectangle.
+
+
+#### - nYSrc [in]
+
+The y-coordinate, in logical units, of the upper-left corner of the source rectangle.
+
+
+## -returns
+
+
+
+If the function succeeds, the return value is nonzero.
+
+If the function fails, the return value is zero. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+
+
+
+
+## -remarks
+
+
+
+<b>BitBlt</b> only does clipping on the destination DC.
+
+If a rotation or shear transformation is in effect in the source device context, <b>BitBlt</b> returns an error. If other transformations exist in the source device context (and a matching transformation is not in effect in the destination device context), the rectangle in the destination device context is stretched, compressed, or rotated, as necessary.
+
+If the color formats of the source and destination device contexts do not match, the <b>BitBlt</b> function converts the source color format to match the destination format.
+
+When an enhanced metafile is being recorded, an error occurs if the source device context identifies an enhanced-metafile device context.
+
+Not all devices support the <b>BitBlt</b> function. For more information, see the RC_BITBLT raster capability entry in the <a href="https://msdn.microsoft.com/d524c4c7-22af-495d-aecc-b9921e53ca7b">GetDeviceCaps</a> function as well as the following functions: <a href="https://msdn.microsoft.com/9fd6f0ce-a802-428d-9be5-a66afe39e9b7">MaskBlt</a>, <a href="https://msdn.microsoft.com/2a56c71b-2e96-418b-8625-a808d76e0c85">PlgBlt</a>, and <a href="https://msdn.microsoft.com/5130c88e-08e8-4faa-a1cb-a8106c86cea0">StretchBlt</a>.
+
+<b>BitBlt</b> returns an error if the source and destination device contexts represent different devices. To transfer data between DCs for different devices, convert the memory bitmap to a DIB by calling <a href="https://msdn.microsoft.com/be3ffa3f-b343-4e38-8b1e-aeccf35d92b8">GetDIBits</a>. To display the DIB to the second device, call <a href="https://msdn.microsoft.com/706f4532-4073-4d5c-ae2d-e33aea9163e9">SetDIBits</a> or <a href="https://msdn.microsoft.com/3d57a79a-338d-48ab-8161-3ce17739bf20">StretchDIBits</a>.
+
+<b>ICM:</b> No color management is performed when blits occur.
+
+
+#### Examples
+
+For an example, see <a href="https://msdn.microsoft.com/672fc2e4-c35c-4d5d-98fa-85f2ad56d9b0">Capturing an Image</a>.
+
+<div class="code"></div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/ef3abc8a-5d95-41d0-8eb6-47719d472414">Bitmap Functions</a>
+
+
+
+<a href="https://msdn.microsoft.com/ff0a5ae3-ae2e-4417-b5e5-0f9871c03964">Bitmaps Overview</a>
+
+
+
+<a href="https://msdn.microsoft.com/be3ffa3f-b343-4e38-8b1e-aeccf35d92b8">GetDIBits</a>
+
+
+
+<a href="https://msdn.microsoft.com/d524c4c7-22af-495d-aecc-b9921e53ca7b">GetDeviceCaps</a>
+
+
+
+<a href="https://msdn.microsoft.com/9fd6f0ce-a802-428d-9be5-a66afe39e9b7">MaskBlt</a>
+
+
+
+<a href="https://msdn.microsoft.com/2a56c71b-2e96-418b-8625-a808d76e0c85">PlgBlt</a>
+
+
+
+<a href="https://msdn.microsoft.com/706f4532-4073-4d5c-ae2d-e33aea9163e9">SetDIBits</a>
+
+
+
+<a href="https://msdn.microsoft.com/5130c88e-08e8-4faa-a1cb-a8106c86cea0">StretchBlt</a>
+
+
+
+<a href="https://msdn.microsoft.com/3d57a79a-338d-48ab-8161-3ce17739bf20">StretchDIBits</a>
+ 
+
+ 
+

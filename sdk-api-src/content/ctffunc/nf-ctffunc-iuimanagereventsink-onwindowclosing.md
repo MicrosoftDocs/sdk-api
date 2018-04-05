@@ -1,0 +1,80 @@
+---
+UID: NF:ctffunc.IUIManagerEventSink.OnWindowClosing
+title: IUIManagerEventSink::OnWindowClosing method
+author: windows-driver-content
+description: Called by the TSF before closing the IME UI.
+old-location: tsf\iuimanagereventsink_onwindowclosing.htm
+old-project: TSF
+ms.assetid: 1350286D-522D-4549-B69C-31874352AEAD
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: IUIManagerEventSink, IUIManagerEventSink interface [Text Services Framework], OnWindowClosing method, IUIManagerEventSink::OnWindowClosing, OnWindowClosing method [Text Services Framework], OnWindowClosing method [Text Services Framework], IUIManagerEventSink interface, OnWindowClosing,IUIManagerEventSink.OnWindowClosing, ctffunc/IUIManagerEventSink::OnWindowClosing, tsf.iuimanagereventsink_onwindowclosing
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: ctffunc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Ctffunc.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: TfIntegratableCandidateListSelectionStyle
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Ctffunc.h
+api_name:
+-	IUIManagerEventSink.OnWindowClosing
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# IUIManagerEventSink::OnWindowClosing method
+
+
+## -description
+
+
+Called by the TSF before closing the IME UI.
+
+
+## -parameters
+
+
+
+
+
+
+## -returns
+
+
+
+Ignored.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/A514833B-BC60-4D87-B2C6-849003E4EA63">IUIManagerEventSink</a>
+ 
+
+ 
+

@@ -1,0 +1,107 @@
+---
+UID: NF:wincrypt.CryptRegisterDefaultOIDFunction
+title: CryptRegisterDefaultOIDFunction function
+author: windows-driver-content
+description: The CryptRegisterDefaultOIDFunction registers a DLL containing the default function to be called for the specified encoding type and function name. Unlike CryptRegisterOIDFunction, the function name to be exported by the DLL cannot be overridden.
+old-location: security\cryptregisterdefaultoidfunction.htm
+old-project: SecCrypto
+ms.assetid: 9633cce4-538e-490e-8a5a-6b28f161a09d
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: CryptRegisterDefaultOIDFunction, CryptRegisterDefaultOIDFunction function [Security], _crypto2_cryptregisterdefaultoidfunction, security.cryptregisterdefaultoidfunction, wincrypt/CryptRegisterDefaultOIDFunction
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: wincrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Crypt32.dll
+api_name:
+-	CryptRegisterDefaultOIDFunction
+product: Windows
+targetos: Windows
+req.lib: Crypt32.lib
+req.dll: Crypt32.dll
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# CryptRegisterDefaultOIDFunction function
+
+
+## -description
+
+
+
+			The <b>CryptRegisterDefaultOIDFunction</b> registers a DLL containing the default function to be called for the specified encoding type and function name. Unlike 
+<a href="https://msdn.microsoft.com/b625597d-28fd-4a40-afbe-a09201d36512">CryptRegisterOIDFunction</a>, the function name to be exported by the DLL cannot be overridden.
+
+
+## -parameters
+
+
+
+
+### -param dwEncodingType [in]
+
+Specifies the encoding type to be matched. Currently, only X509_ASN_ENCODING and PKCS_7_ASN_ENCODING are being used; however, additional encoding types may be added in the future. To match both current encoding types, use: 
+
+
+X509_ASN_ENCODING | PKCS_7_ASN_ENCODING.
+
+
+### -param pszFuncName [in]
+
+Name of the function being registered.
+
+
+### -param dwIndex [in]
+
+Index location for the insertion of the DLL in the list of DLLs. If <i>dwIndex</i> is zero, the DLL is inserted at the beginning of the list. If it is CRYPT_REGISTER_LAST_INDEX, the DLL is appended at the end of the list.
+
+
+### -param pwszDll [in]
+
+Optional environment-variable string to be expanded using <a href="https://msdn.microsoft.com/b563e8ed-311d-4971-94f3-9c9fde4a2f30">ExpandEnvironmentStrings</a> function before loading the DLL.
+
+
+## -returns
+
+
+
+
+						If the function succeeds, the return value is nonzero (<b>TRUE</b>).
+
+If the function fails, the return value is zero (<b>FALSE</b>).
+
+
+
+
+## -see-also
+
+
+
+
+<a href="cryptography_functions.htm">OID Support Functions</a>
+ 
+
+ 
+

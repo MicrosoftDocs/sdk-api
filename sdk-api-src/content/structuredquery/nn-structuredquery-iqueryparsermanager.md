@@ -1,0 +1,120 @@
+---
+UID: NN:structuredquery.IQueryParserManager
+title: IQueryParserManager
+author: windows-driver-content
+description: Provides methods to create, initialize, and change options for an IQueryParser object.
+old-location: search\_search_IQueryParserManager.htm
+old-project: search
+ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iqueryparsermanager\iqueryparsermanager.htm
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: IQueryParserManager, IQueryParserManager interface [search], IQueryParserManager interface [search], described, _search_IQueryParserManager, search._search_IQueryParserManager, structuredquery/IQueryParserManager
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: interface
+req.header: structuredquery.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Structuredquery.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: NAMED_ENTITY_CERTAINTY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Structuredquery.h
+api_name:
+-	IQueryParserManager
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# IQueryParserManager interface
+
+
+## -description
+
+
+Provides methods to create, initialize, and change options for an <a href="https://msdn.microsoft.com/f022464d-9db6-42c8-a3fb-12c31ec48756">IQueryParser</a> object.
+
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IQueryParserManager</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IQueryParserManager</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
+
+## -members
+
+The <b>IQueryParserManager</b> interface has these methods.
+<table class="members" id="memberListMethods">
+<tr>
+<th align="left" width="37%">Method</th>
+<th align="left" width="63%">Description</th>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/22ae21a0-927e-4e76-856e-7285e4abfea3">CreateLoadedParser</a>
+</td>
+<td align="left" width="63%">
+Creates a new instance of a <a href="https://msdn.microsoft.com/f022464d-9db6-42c8-a3fb-12c31ec48756">IQueryParser</a> interface implementation. This instance of the query parser is loaded with the schema for the specified catalog and is localized to a specified language. All other settings are initialized to default settings.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/7bfee98b-726a-4d5c-944a-d3ce2f90da7e">InitializeOptions</a>
+</td>
+<td align="left" width="63%">
+Sets the flags for Natural Query Syntax (NQS) and automatic wildcard characters for the specified query parser. If the query parser was created for the <code>SystemIndex</code> catalog, this method also sets up standard condition generators to be used later by the query parser object for recognizing named entities.
+
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/54cb5501-bb53-4be5-8b0b-a2ea754c778a">SetOption</a>
+</td>
+<td align="left" width="63%">
+Changes a single option in this <b>IQueryParserManager</b> object. For example, this method could change the name of the schema binary to load or the location of localized schema binaries.
+
+</td>
+</tr>
+</table> 
+
+
+## -remarks
+
+
+
+The StructuredQuerySample code sample, available on <a href="http://go.microsoft.com/fwlink/p/?linkid=155654">Code Gallery</a> and the <a href="http://go.microsoft.com/fwlink/p/?linkid=129787">Windows 7 SDK</a>, demonstrates how to read lines from the console, parse them using the system schema, and display the resulting condition trees.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="search._search_2x_WDS_AqsReference">Advanced Query Syntax</a>
+ 
+
+ 
+

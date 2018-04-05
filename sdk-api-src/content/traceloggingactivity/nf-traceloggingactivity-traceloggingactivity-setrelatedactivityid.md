@@ -1,0 +1,84 @@
+---
+UID: NF:traceloggingactivity.TraceLoggingActivity.SetRelatedActivityId
+title: TraceLoggingActivity::SetRelatedActivityId method
+author: windows-driver-content
+description: Uses the unique identifier of an activity to set the related activity for this TraceLoggingActivity object.
+old-location: tracelogging\traceloggingactivity_setrelatedactivityid.htm
+old-project: tracelogging
+ms.assetid: 3FA5E266-A921-42A8-B880-AC8748180E1B
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: SetRelatedActivityId method, SetRelatedActivityId method, TraceLoggingActivity interface, SetRelatedActivityId,TraceLoggingActivity.SetRelatedActivityId, TraceLoggingActivity, TraceLoggingActivity interface, SetRelatedActivityId method, TraceLoggingActivity::SetRelatedActivityId, tracelogging.traceloggingactivity_setrelatedactivityid, traceloggingactivity/TraceLoggingActivity::SetRelatedActivityId
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: traceloggingactivity.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2012 R2
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: TPMVSCMGR_ERROR
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	traceloggingactivity.h
+api_name:
+-	TraceLoggingActivity.SetRelatedActivityId
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# TraceLoggingActivity::SetRelatedActivityId method
+
+
+## -description
+
+
+Uses the unique identifier of an activity to set the related activity for this <a href="https://msdn.microsoft.com/75930876-4DF2-4559-BA06-133FC676B1AD">TraceLoggingActivity</a> object.
+
+
+## -parameters
+
+
+
+
+### -param relatedActivityId [in]
+
+The unique identifier for the activity to associate with this activity.
+
+
+## -returns
+
+
+
+This method does not return a value.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/75930876-4DF2-4559-BA06-133FC676B1AD">TraceLoggingActivity</a>
+ 
+
+ 
+

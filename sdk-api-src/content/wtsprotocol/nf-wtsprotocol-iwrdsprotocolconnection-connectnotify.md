@@ -1,0 +1,93 @@
+---
+UID: NF:wtsprotocol.IWRdsProtocolConnection.ConnectNotify
+title: IWRdsProtocolConnection::ConnectNotify method
+author: windows-driver-content
+description: Signals the protocol that the session has been initialized.
+old-location: termserv\iwrdsprotocolconnection_connectnotify.htm
+old-project: TermServ
+ms.assetid: 057a093b-9b2d-4a2e-9593-fe0251427be0
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: ConnectNotify method [Remote Desktop Services], ConnectNotify method [Remote Desktop Services], IWRdsProtocolConnection interface, ConnectNotify,IWRdsProtocolConnection.ConnectNotify, IWRdsProtocolConnection, IWRdsProtocolConnection interface [Remote Desktop Services], ConnectNotify method, IWRdsProtocolConnection::ConnectNotify, termserv.iwrdsprotocolconnection_connectnotify, wtsprotocol/IWRdsProtocolConnection::ConnectNotify
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wtsprotocol.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2012
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Wtsprotocol.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WTS_PROPERTY_VALUE, *PWTS_PROPERTY_VALUE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	wtsprotocol.h
+api_name:
+-	IWRdsProtocolConnection.ConnectNotify
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IWRdsProtocolConnection::ConnectNotify method
+
+
+## -description
+
+
+Signals the protocol that the session has been initialized.
+
+
+## -parameters
+
+
+
+
+### -param SessionId [in]
+
+The session identifier.
+
+
+## -returns
+
+
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+This is an event notification and you should return immediately from this method. To avoid a possible deadlock, you should not make any function or method calls that will directly or indirectly result in a Remote Desktop Services API being called. If you need to make any outbound call, you should start a new thread and make the outbound call from the new thread.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/2b8a5b2f-5a54-4d60-8b5a-8a914728087c">IWRdsProtocolConnection</a>
+ 
+
+ 
+

@@ -1,0 +1,132 @@
+---
+UID: NS:wnvapi._WNV_REDIRECT_PARAM
+title: "_WNV_REDIRECT_PARAM"
+author: windows-driver-content
+description: Specifies the parameters of the event (receiving an incoming Internet Control Message Protocol redirect packet) that causes the Windows Network Virtualization (WNV) driver to generate a WnvRedirectType notification.
+old-location: wnv\wnv_redirect_param.htm
+old-project: wnv
+ms.assetid: 53305594-4539-490E-B034-99355265F175
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: "*PWNV_REDIRECT_PARAM, PWNV_REDIRECT_PARAM, PWNV_REDIRECT_PARAM structure pointer [Windows Network Virtualization], WNV_REDIRECT_PARAM, WNV_REDIRECT_PARAM structure [Windows Network Virtualization], _WNV_REDIRECT_PARAM, wnv.wnv_redirect_param, wnvapi/PWNV_REDIRECT_PARAM, wnvapi/WNV_REDIRECT_PARAM"
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: struct
+req.header: wnvapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WNV_REDIRECT_PARAM, *PWNV_REDIRECT_PARAM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	wnvapi.h
+api_name:
+-	WNV_REDIRECT_PARAM
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# _WNV_REDIRECT_PARAM structure
+
+
+## -description
+
+
+Specifies the parameters of the event (receiving an incoming Internet Control Message Protocol
+redirect packet) that causes the Windows Network Virtualization (WNV) driver to generate a <b>WnvRedirectType</b> notification. If there is a pending call to the <a href="https://msdn.microsoft.com/CA0F9AAE-95E5-4A62-8A26-11F933B2D09E">WnvRequestNotification</a> function of this type, the WNV driver fills the buffer that is passed in the <i>NotificationParam</i> argument's <a href="https://msdn.microsoft.com/C8A27B21-462A-4D70-AA19-743023FD1810">WNV_NOTIFICATION_PARAM</a> structure with one or more instances of this structure and completes the <b>WnvRequestNotification</b> function call.
+
+
+## -struct-fields
+
+
+
+
+### -field CAFamily
+
+Type: <b>ADDRESS_FAMILY</b>
+
+The address family (<b>AF_INET</b> or <b>AF_INET6</b>) for the customer address.
+
+
+### -field PAFamily
+
+Type: <b>ADDRESS_FAMILY</b>
+
+The address family (<b>AF_INET</b> or <b>AF_INET6</b>) for the original provider address.
+
+
+### -field NewPAFamily
+
+Type: <b>ADDRESS_FAMILY</b>
+
+The address family (<b>AF_INET</b> or <b>AF_INET6</b>) for the new provider address.
+
+
+### -field VirtualSubnetId
+
+Type: <b>ULONG</b>
+
+The identifier of a customer virtual subnet. This value ranges from 4096 (0x00001000) to 16777214 (0x00FFFFFE).
+
+
+### -field CA
+
+Type: <b><a href="https://msdn.microsoft.com/1FD137B6-74F4-4E75-A77E-65F093938662">WNV_IP_ADDRESS</a></b>
+
+The IP address object for the customer address, which is the IP address configured on the virtual machine for network virtualization.
+
+
+### -field PA
+
+Type: <b><a href="https://msdn.microsoft.com/1FD137B6-74F4-4E75-A77E-65F093938662">WNV_IP_ADDRESS</a></b>
+
+The IP address object for the provider address, which is the matching IP address used on the physical network for the customer address.
+
+
+### -field NewPA
+
+Type: <b><a href="https://msdn.microsoft.com/1FD137B6-74F4-4E75-A77E-65F093938662">WNV_IP_ADDRESS</a></b>
+
+The updated provider address when a virtual machine is migrated from one host to another.
+
+
+## -remarks
+
+
+
+Hyper-V Network Virtualization uses an Internet Control Message Protocol
+(ICMP) redirect message to indicate a change in the virtual machine's provider address in the case of a live migration of a virtual machine.
+
+For a detailed description of network virtualization concepts and terminology, refer to <a href="http://go.microsoft.com/fwlink/p/?linkid=263545">Hyper-V Network Virtualization Overview</a>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/70BE564E-A054-4991-ADCD-79E4D219307B">WNV_NOTIFICATION_TYPE</a>
+ 
+
+ 
+

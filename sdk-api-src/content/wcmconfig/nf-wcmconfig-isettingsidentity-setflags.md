@@ -1,0 +1,84 @@
+---
+UID: NF:wcmconfig.ISettingsIdentity.SetFlags
+title: ISettingsIdentity::SetFlags method
+author: windows-driver-content
+description: Sets the identity flags for a namespace identity.
+old-location: smi\isettingsidentity_setflags.htm
+old-project: SMI
+ms.assetid: f31f6ea1-e101-40c0-a431-ab3bdc9f02be
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: ISettingsIdentity, ISettingsIdentity interface [SMI], SetFlags method, ISettingsIdentity::SetFlags, SetFlags method [SMI], SetFlags method [SMI], ISettingsIdentity interface, SetFlags,ISettingsIdentity.SetFlags, smi.isettingsidentity_setflags, wcmconfig/ISettingsIdentity::SetFlags
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wcmconfig.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: WcmConfig.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WcmNamespaceAccess
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SMIEngine.dll
+api_name:
+-	ISettingsIdentity.SetFlags
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SMIEngine.dll
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# ISettingsIdentity::SetFlags method
+
+
+## -description
+
+
+Sets the identity flags for a namespace identity.
+
+
+## -parameters
+
+
+
+
+### -param Flags [in]
+
+The identity flags.
+
+
+## -returns
+
+
+
+This method returns an HRESULT value. <b>S_OK</b> indicates success.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/aa9d5604-5b94-47d9-9e68-d708a656a5ea">ISettingsIdentity</a>
+ 
+
+ 
+

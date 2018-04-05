@@ -1,0 +1,77 @@
+---
+UID: NF:mileffects.IMILBitmapEffectConnectionsInfo.GetNumberInputs
+title: IMILBitmapEffectConnectionsInfo::GetNumberInputs method
+author: windows-driver-content
+description: Retrieves the number of input pins the bitmap effect implements.
+old-location: wibe\_wibe_imilbitmapeffectconnectionsinfo_getnumberinputs.htm
+old-project: wibe
+ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectconnectionsinfo\getnumberinputs.htm
+ms.author: windowsdriverdev
+ms.date: 3/23/2018
+ms.keywords: GetNumberInputs method [WPF Bitmap Effects], GetNumberInputs method [WPF Bitmap Effects], IMILBitmapEffectConnectionsInfo interface, GetNumberInputs,IMILBitmapEffectConnectionsInfo.GetNumberInputs, IMILBitmapEffectConnectionsInfo, IMILBitmapEffectConnectionsInfo interface [WPF Bitmap Effects], GetNumberInputs method, IMILBitmapEffectConnectionsInfo::GetNumberInputs, _wibe_imilbitmapeffectconnectionsinfo_getnumberinputs, mileffects/IMILBitmapEffectConnectionsInfo::GetNumberInputs, wibe._wibe_imilbitmapeffectconnectionsinfo_getnumberinputs
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: mileffects.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Mileffects.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MICUIELEMENTSTATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Mileffects.h
+api_name:
+-	IMILBitmapEffectConnectionsInfo.GetNumberInputs
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IMILBitmapEffectConnectionsInfo::GetNumberInputs method
+
+
+## -description
+
+
+Retrieves the number of input pins the bitmap effect implements.
+
+
+## -parameters
+
+
+
+
+### -param puiNumInputs [out, retval]
+
+Type: <b>ULONG*</b>
+
+When this method returns, contains the number of input pins the bitmap effect implements.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+

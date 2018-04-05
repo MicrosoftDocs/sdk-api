@@ -1,0 +1,94 @@
+---
+UID: NS:commctrl._IMAGEINFO
+title: "_IMAGEINFO"
+author: windows-driver-content
+description: Contains information about an image in an image list. This structure is used with the IImageList::GetImageInfo function.
+old-location: controls\IMAGEINFO.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\imagelist\structures\imageinfo.htm
+ms.author: windowsdriverdev
+ms.date: 3/31/2018
+ms.keywords: "*LPIMAGEINFO, IMAGEINFO, IMAGEINFO structure [Windows Controls], LPIMAGEINFO, LPIMAGEINFO structure pointer [Windows Controls], _IMAGEINFO, _win32_IMAGEINFO, _win32_IMAGEINFO_cpp, commoncontrols/IMAGEINFO, commoncontrols/LPIMAGEINFO, controls.IMAGEINFO, controls._win32_IMAGEINFO"
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: struct
+req.header: commctrl.h
+req.include-header: Commctrl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: IMAGEINFO, *LPIMAGEINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	commoncontrols.h
+api_name:
+-	IMAGEINFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# _IMAGEINFO structure
+
+
+## -description
+
+
+Contains information about an image in an image list. This structure is used with the <a href="https://msdn.microsoft.com/a08fbc4d-96f0-403d-8062-0592ab32dc5c">IImageList::GetImageInfo</a> function. 
+
+
+## -struct-fields
+
+
+
+
+### -field hbmImage
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HBITMAP</a></b>
+
+A handle to the bitmap that contains the images. 
+
+
+### -field hbmMask
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HBITMAP</a></b>
+
+A handle to a monochrome bitmap that contains the masks for the images. If the image list does not contain a mask, this member is <b>NULL</b>. 
+
+
+### -field Unused1
+
+Type: <b>int</b>
+
+Not used. This member should always be zero. 
+
+
+### -field Unused2
+
+Type: <b>int</b>
+
+Not used. This member should always be zero. 
+
+
+### -field rcImage
+
+Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a></b>
+
+The bounding rectangle of the specified image within the bitmap specified by 
+					<b>hbmImage</b>. 
+

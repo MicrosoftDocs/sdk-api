@@ -1,0 +1,93 @@
+---
+UID: NF:wsmandisp.IWSManSession.Delete
+title: IWSManSession::Delete method
+author: windows-driver-content
+description: Deletes the resource specified in the resource URI.
+old-location: winrm\iwsmansession_delete.htm
+old-project: WinRM
+ms.assetid: 63674a3a-4819-4695-a8f5-648787d78cc4
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: Delete method [Windows Remote Management], Delete method [Windows Remote Management], IWSManSession interface, Delete,IWSManSession.Delete, IWSManSession, IWSManSession interface [Windows Remote Management], Delete method, IWSManSession::Delete, winrm.iwsmansession_delete, wsmandisp/IWSManSession::Delete
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wsmandisp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: WSManDisp.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WSManProxyAuthenticationFlags
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	WSMAuto.dll
+api_name:
+-	IWSManSession.Delete
+product: Windows
+targetos: Windows
+req.lib: WSManDisp.tlb
+req.dll: WSMAuto.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IWSManSession::Delete method
+
+
+## -description
+
+
+Deletes the resource specified in the resource URI.
+
+
+## -parameters
+
+
+
+
+### -param resourceUri [in]
+
+The URI of the resource to be deleted. You can also use an <a href="https://msdn.microsoft.com/7b3dcb53-d02c-4ba6-973d-1493ba442387">IWSManResourceLocator</a> object to specify the resource.
+
+
+### -param flags [in, optional]
+
+Reserved for future use. Must be set to 0.
+
+
+## -returns
+
+
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/3e016080-339f-4bda-bfd2-f912e090981f">IWSManSession</a>
+
+
+
+<a href="https://msdn.microsoft.com/8803d35d-674c-483d-866b-37129102c7ce">Session.Delete</a>
+ 
+
+ 
+

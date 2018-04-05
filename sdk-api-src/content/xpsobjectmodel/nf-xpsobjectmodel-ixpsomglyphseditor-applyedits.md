@@ -1,0 +1,213 @@
+---
+UID: NF:xpsobjectmodel.IXpsOMGlyphsEditor.ApplyEdits
+title: IXpsOMGlyphsEditor::ApplyEdits method
+author: windows-driver-content
+description: Performs cross-property validation and then copies the changes to the parent IXpsOMGlyphs interface.
+old-location: xps\ixpsomglyphseditor_applyedits.htm
+old-project: printdocs
+ms.assetid: ddbd8dc4-5d4f-4b30-8943-f4a5bc8e64c2
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: ApplyEdits method [XPS Documents and Packaging], ApplyEdits method [XPS Documents and Packaging], IXpsOMGlyphsEditor interface, ApplyEdits,IXpsOMGlyphsEditor.ApplyEdits, IXpsOMGlyphsEditor, IXpsOMGlyphsEditor interface [XPS Documents and Packaging], ApplyEdits method, IXpsOMGlyphsEditor::ApplyEdits, xps.ixpsomglyphseditor_applyedits, xpsobjectmodel/IXpsOMGlyphsEditor::ApplyEdits
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: xpsobjectmodel.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: XpsObjectModel.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: XPS_INTERLEAVING
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	xpsobjectmodel.h
+api_name:
+-	IXpsOMGlyphsEditor.ApplyEdits
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+---
+
+# IXpsOMGlyphsEditor::ApplyEdits method
+
+
+## -description
+
+
+Performs cross-property validation and then copies the changes to the parent <a href="https://msdn.microsoft.com/6d2cda65-c719-46f2-97c9-8aee7b5f84b9">IXpsOMGlyphs</a> interface.
+
+
+## -parameters
+
+
+
+
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://msdn.microsoft.com/9e6db1e3-7151-4538-8607-b7185ebc0110">XPS Document Errors</a>.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_UNEXPECTED</b></dt>
+</dl>
+</td>
+<td width="60%">
+The <a href="https://msdn.microsoft.com/5bdf2892-ce6f-4560-b638-e441166fc309">IXpsOMGlyphsEditor</a> interface does not belong to a valid <a href="https://msdn.microsoft.com/6d2cda65-c719-46f2-97c9-8aee7b5f84b9">IXpsOMGlyphs</a> interface.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>XPS_E_CARET_OUTSIDE_STRING</b></dt>
+</dl>
+</td>
+<td width="60%">
+Caret stops were specified for an empty string, or the caret jump index has exceeded the length of the Unicode string.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>XPS_E_MAPPING_OUTSIDE_INDICES</b></dt>
+</dl>
+</td>
+<td width="60%">
+The glyph mappings exceed the number of glyph indices.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>XPS_E_MAPPING_OUTSIDE_STRING</b></dt>
+</dl>
+</td>
+<td width="60%">
+Glyph mappings were defined for an empty string. If the Unicode string is empty, there must not be any glyph mappings defined.
+
+or
+
+The glyph mappings exceed the length of the Unicode string.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>XPS_E_MISSING_GLYPHS</b></dt>
+</dl>
+</td>
+<td width="60%">
+The <a href="https://msdn.microsoft.com/6d2cda65-c719-46f2-97c9-8aee7b5f84b9">IXpsOMGlyphs</a> interface without a Unicode string does not have any glyph indices specified. An <b>IXpsOMGlyphs</b> interface must specify either a Unicode string or an array of glyph indices.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>XPS_E_ODD_BIDILEVEL</b></dt>
+</dl>
+</td>
+<td width="60%">
+The text string was specified as sideways and right-to-left. If the text is sideways, it cannot have a bidi level that is an odd value (right-to-left). Likewise, if the bidi level is an odd value, it cannot be sideways.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>XPS_E_ONE_TO_ONE_MAPPING_EXPECTED</b></dt>
+</dl>
+</td>
+<td width="60%">
+Glyph mappings did not match the Unicode string contents.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>XPS_E_TOO_MANY_INDICES</b></dt>
+</dl>
+</td>
+<td width="60%">
+                There were more glyph indices than Unicode code points. If there are no glyph mappings, the number of glyph indices must be less than or equal to the number of  Unicode code points.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+The <a href="https://msdn.microsoft.com/5bdf2892-ce6f-4560-b638-e441166fc309">IXpsOMGlyphsEditor</a>  interface remains valid after  this method is called, allowing for additional  modifications to be made.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/6d2cda65-c719-46f2-97c9-8aee7b5f84b9">IXpsOMGlyphs</a>
+
+
+
+<a href="https://msdn.microsoft.com/5bdf2892-ce6f-4560-b638-e441166fc309">IXpsOMGlyphsEditor</a>
+
+
+
+<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+
+
+
+<a href="https://msdn.microsoft.com/9e6db1e3-7151-4538-8607-b7185ebc0110">XPS Document Errors</a>
+ 
+
+ 
+

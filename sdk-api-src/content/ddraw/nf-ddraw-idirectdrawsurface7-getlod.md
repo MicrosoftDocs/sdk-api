@@ -1,0 +1,109 @@
+---
+UID: NF:ddraw.IDirectDrawSurface7.GetLOD
+title: IDirectDrawSurface7::GetLOD method
+author: windows-driver-content
+description: Retrieves the maximum level of detail (LOD) currently set for a managed mipmap surface. This method succeeds only on managed textures.
+old-location: directdraw\idirectdrawsurface7_getlod.htm
+old-project: directdraw
+ms.assetid: 9208372b-47ac-4079-9e4a-28cf51912a93
+ms.author: windowsdriverdev
+ms.date: 3/23/2018
+ms.keywords: GetLOD method [DirectDraw], GetLOD method [DirectDraw], IDirectDrawSurface7 interface, GetLOD,IDirectDrawSurface7.GetLOD, IDirectDrawSurface7, IDirectDrawSurface7 interface [DirectDraw], GetLOD method, IDirectDrawSurface7::GetLOD, ddraw/IDirectDrawSurface7::GetLOD, directdraw.idirectdrawsurface7_getlod
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: ddraw.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: DEDUP_CONTAINER_EXTENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Ddraw.dll
+api_name:
+-	IDirectDrawSurface7.GetLOD
+product: Windows
+targetos: Windows
+req.lib: Ddraw.lib
+req.dll: Ddraw.dll
+req.irql: 
+---
+
+# IDirectDrawSurface7::GetLOD method
+
+
+## -description
+
+
+Retrieves the maximum level of detail (LOD) currently set for a managed mipmap surface. This method succeeds only on managed textures.
+
+
+
+## -parameters
+
+
+
+
+
+
+#### - lpdwMaxLOD [out]
+
+A pointer to a variable that receives the maximum LOD value if the call succeeds.
+
+
+## -returns
+
+
+
+If the method succeeds, the return value is DD_OK.
+
+
+
+If it fails, the method can return one of the following error values:
+
+<ul>
+<li>DDERR_INVALIDOBJECT</li>
+<li>DDERR_INVALIDPARAMS</li>
+</ul>
+
+
+
+## -remarks
+
+
+
+Applications can call this method only for managed textures (those surfaces that were created with the DDSCAPS2_TEXTUREMANAGE flag). If you call <b>GetLOD</b> on a nonmanaged texture, <b>GetLOD</b> fails and returns DDERR_INVALIDOBJECT.
+
+<b>GetLOD</b> communicates to the Direct3D texture manager the most detailed mipmap in this chain that it should load into local video memory. For example, in a five-level mipmap chain, a value of 2 in the variable at <i>lpdwMaxLOD</i> indicates that the texture manager loads only mipmap levels 2 through 4 into local video memory at any given time. Likewise, if the most detailed mipmap in the chain has the dimensions 256×256, a value of 2 in <i>lpdwMaxLOD</i> means that the largest mipmap ever present in video memory has dimensions 64×64.
+
+
+
+You must use <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a> to access the  <b>GetLOD</b> method.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/be686d56-c242-4228-ac8e-8f764ad29756">IDirectDrawSurface7</a>
+ 
+
+ 
+

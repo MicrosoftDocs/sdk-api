@@ -1,0 +1,111 @@
+---
+UID: NF:syncmgr.ISyncMgrSyncItemInfo.GetLastSyncTime
+title: ISyncMgrSyncItemInfo::GetLastSyncTime method
+author: windows-driver-content
+description: Gets the date and time when the item was last synchronized.
+old-location: shell\ISyncMgrSyncItemInfo_GetLastSyncTime.htm
+old-project: shell
+ms.assetid: ce6690fc-bc1b-4177-ad4a-76c51d36e908
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: GetLastSyncTime method [Windows Shell], GetLastSyncTime method [Windows Shell], ISyncMgrSyncItemInfo interface, GetLastSyncTime,ISyncMgrSyncItemInfo.GetLastSyncTime, ISyncMgrSyncItemInfo, ISyncMgrSyncItemInfo interface [Windows Shell], GetLastSyncTime method, ISyncMgrSyncItemInfo::GetLastSyncTime, _shell_ISyncMgrSyncItemInfo_GetLastSyncTime, shell.ISyncMgrSyncItemInfo_GetLastSyncTime, syncmgr/ISyncMgrSyncItemInfo::GetLastSyncTime
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: syncmgr.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Syncmgr.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: SYNCMGR_SYNC_CONTROL_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Syncmgr.h
+api_name:
+-	ISyncMgrSyncItemInfo.GetLastSyncTime
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# ISyncMgrSyncItemInfo::GetLastSyncTime method
+
+
+## -description
+
+
+Gets the date and time when the item was last synchronized.
+
+
+## -parameters
+
+
+
+
+### -param pftLastSync [out]
+
+Type: <b>FILETIME*</b>
+
+When this method returns, contains a pointer to a <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure containing the date and time information.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+Returns S_OK if successful, or an error value otherwise. If the method fails, <i>pftLastSync</i> points to the value from the previous synchronization.
+
+
+
+
+## -remarks
+
+
+
+This value is not displayed in the folder UI by default, but is available as the System.Sync.DateSynchronized (PKEY_Sync_DateSynchronized) property.
+
+Sync Center calls this method whenever the <a href="https://msdn.microsoft.com/deb87d2f-74da-450a-a424-505240eadacb">UpdateItem</a> method is called.
+
+
+#### Examples
+
+
+
+
+        	The following example shows an implementation of this method that calls a private class function to retrieve the time and date.
+
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>STDMETHODIMP CMyDeviceSyncItem::GetLastSyncTime(__out FILETIME *pftLastSync)
+{
+    *pftLastSync = _ftLastSync;
+    return S_OK;
+}
+</pre>
+</td>
+</tr>
+</table></span></div>
+
+

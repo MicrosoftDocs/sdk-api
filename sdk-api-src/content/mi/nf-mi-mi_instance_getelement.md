@@ -1,0 +1,141 @@
+---
+UID: NF:mi.MI_Instance_GetElement
+title: MI_Instance_GetElement function
+author: windows-driver-content
+description: Gets the value of the named element (CIM property).
+old-location: wmi_v2\mi_instance_getelement.htm
+old-project: wmi_v2
+ms.assetid: 1e366cc5-0fb9-41c9-961c-07b076a18529
+ms.author: windowsdriverdev
+ms.date: 3/23/2018
+ms.keywords: MI_FLAG_IN, MI_FLAG_KEY, MI_FLAG_NULL, MI_FLAG_OUT, MI_Instance_GetElement, MI_Instance_GetElement function [Windows Management Infrastructure (MI)], mi/MI_Instance_GetElement, wmi_v2.mi_instance_getelement
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: mi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MI_Type
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Mi.h
+api_name:
+-	MI_Instance_GetElement
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# MI_Instance_GetElement function
+
+
+## -description
+
+
+Gets the value of the named element (CIM property).
+
+
+## -parameters
+
+
+
+
+### -param self [in]
+
+Instance whose element value will be returned.
+
+
+### -param name
+
+A null-terminated string that represents the name of the element.
+
+
+### -param value [out, optional]
+
+Returned element value.
+
+
+### -param type [out, optional]
+
+Returned element value type.
+
+
+### -param flags [out, optional]
+
+Returned combination of the following values.
+
+
+
+#### MI_FLAG_NULL (0x20000000)
+
+Element value is <b>Null</b>.
+
+
+
+#### MI_FLAG_KEY (0x0001000)
+
+Element is a key.
+
+
+
+#### MI_FLAG_IN (0x0002000)
+
+The parameter is of type <b>In</b> and is passed into a method.
+
+
+
+#### MI_FLAG_OUT (0x0004000)
+
+The parameter is of type <b>Out</b> and is returned from a method.
+
+
+### -param index [out, optional]
+
+Returned zero-based index of the element.
+
+
+## -returns
+
+
+
+A value of the <a href="https://msdn.microsoft.com/9AA2B479-E8A5-4F0C-A8A4-06DB7CB7CA2F">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/51a26894-f391-4281-9e06-2e70fb662aa2">MI_Instance_AddElement</a>
+
+
+
+<a href="https://msdn.microsoft.com/de945902-4b10-47d1-a374-a1aeab02a787">MI_Instance_ClearElement</a>
+
+
+
+<a href="https://msdn.microsoft.com/581f8d9f-5421-44ab-a3e2-dfb536a35c2c">MI_Instance_SetElement</a>
+ 
+
+ 
+

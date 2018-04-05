@@ -1,0 +1,120 @@
+---
+UID: NF:shellapi.DragQueryFileW
+title: DragQueryFileW function
+author: windows-driver-content
+description: Retrieves the names of dropped files that result from a successful drag-and-drop operation.
+old-location: shell\DragQueryFile.htm
+old-project: shell
+ms.assetid: 93fab381-9035-46c4-ba9d-efb2d0801d84
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: DragQueryFile, DragQueryFile function [Windows Shell], DragQueryFileA, DragQueryFileW, _win32_DragQueryFile, shell.DragQueryFile, shellapi/DragQueryFile, shellapi/DragQueryFileA, shellapi/DragQueryFileW
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: shellapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: DragQueryFileW (Unicode) and DragQueryFileA (ANSI)
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: SHSTOCKICONID
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Shell32.dll
+-	ext-ms-win-shell-shell32-l1-2-1.dll
+-	Ext-MS-Win-Shell-Shell32-L1-2-2.dll
+-	windows.storage.dll
+api_name:
+-	DragQueryFile
+-	DragQueryFileA
+-	DragQueryFileW
+product: Windows
+targetos: Windows
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 4.0 or later)
+req.irql: 
+req.product: Internet Explorer 5.0
+---
+
+# DragQueryFileW function
+
+
+## -description
+
+
+Retrieves the names of dropped files that result from a successful drag-and-drop operation.
+
+
+## -parameters
+
+
+
+
+### -param hDrop [in]
+
+Type: <b>HDROP</b>
+
+Identifier of the structure that contains the file names of the dropped files.
+
+
+### -param iFile [in]
+
+Type: <b>UINT</b>
+
+Index of the file to query. If the value of this parameter is 0xFFFFFFFF, <b>DragQueryFile</b> returns a count of the files dropped. If the value of this parameter is between zero and the total number of files dropped, <b>DragQueryFile</b> copies the file name with the corresponding value to the buffer pointed to by the <i>lpszFile</i> parameter.
+
+
+### -param lpszFile [out]
+
+Type: <b>LPTSTR</b>
+
+The address of a buffer that receives the file name of a dropped file when the function returns. This file name is a null-terminated string. If this parameter is <b>NULL</b>, <b>DragQueryFile</b> returns the required size, in characters, of this buffer.
+
+
+### -param cch
+
+Type: <b>UINT</b>
+
+The size, in characters, of the <i>lpszFile</i> buffer.
+
+
+## -returns
+
+
+
+Type: <b>UINT</b>
+
+A nonzero value indicates a successful call.
+
+When the function copies a file name to the buffer, the return value is a count of the characters copied, not including the terminating null character.
+
+If the index value is 0xFFFFFFFF, the return value is a count of the dropped files. Note that the index variable itself returns unchanged, and therefore remains 0xFFFFFFFF.
+
+If the index value is between zero and the total number of dropped files, and the <i>lpszFile</i> buffer address is <b>NULL</b>, the return value is the required size, in characters, of the buffer, <i>not including</i> the terminating null character.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/87794ab0-a075-4a1f-869f-5998bdc57a1d">DragQueryPoint</a>
+ 
+
+ 
+

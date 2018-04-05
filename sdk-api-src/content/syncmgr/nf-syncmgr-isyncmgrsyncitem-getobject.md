@@ -1,0 +1,208 @@
+---
+UID: NF:syncmgr.ISyncMgrSyncItem.GetObject
+title: ISyncMgrSyncItem::GetObject method
+author: windows-driver-content
+description: Creates a specific type of object related to the item.
+old-location: shell\ISyncMgrSyncItem_GetObject.htm
+old-project: shell
+ms.assetid: 54336c43-348b-4767-94e4-fe7dc47c0876
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: GetObject method [Windows Shell], GetObject method [Windows Shell], ISyncMgrSyncItem interface, GetObject,ISyncMgrSyncItem.GetObject, ISyncMgrSyncItem, ISyncMgrSyncItem interface [Windows Shell], GetObject method, ISyncMgrSyncItem::GetObject, SYNCMGR_OBJECTID_BrowseContent, SYNCMGR_OBJECTID_ConflictStore, SYNCMGR_OBJECTID_EventStore, SYNCMGR_OBJECTID_Icon, SYNCMGR_OBJECTID_QueryBeforeDelete, SYNCMGR_OBJECTID_QueryBeforeDisable, SYNCMGR_OBJECTID_QueryBeforeEnable, _shell_ISyncMgrSyncItem_GetObject, shell.ISyncMgrSyncItem_GetObject, syncmgr/ISyncMgrSyncItem::GetObject
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: syncmgr.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Syncmgr.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: SYNCMGR_SYNC_CONTROL_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Syncmgr.h
+api_name:
+-	ISyncMgrSyncItem.GetObject
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# ISyncMgrSyncItem::GetObject method
+
+
+## -description
+
+
+Creates a specific type of object related to the item.
+
+
+## -parameters
+
+
+
+
+### -param rguidObjectID [in]
+
+Type: <b>REFGUID</b>
+
+A GUID identifying the type of object to create. One of the following values as defined in shlguid.h.
+
+
+
+
+
+#### SYNCMGR_OBJECTID_BrowseContent
+
+An object implementing the <a href="https://msdn.microsoft.com/6fa4b0ac-3c75-4cda-b20d-582a3e18fb28">ISyncMgrUIOperation</a> interface that shows UI that allows the user to browse the contents of the item. 
+
+                        
+
+Sync Center only requests this object if the <a href="https://msdn.microsoft.com/55f72e18-fba6-4a59-b553-06c6c7c3ee52">SYNCMGR_ICM_CAN_BROWSE_CONTENT</a> capability flag is set in the mask retrieved by <a href="https://msdn.microsoft.com/library/windows/hardware/hh451391">GetCapabilities</a>.
+
+
+
+#### SYNCMGR_OBJECTID_ConflictStore
+
+An object implementing the <a href="https://msdn.microsoft.com/25f47c73-eb9f-4beb-aa10-4f12b38d6507">ISyncMgrConflictStore</a> interface that allows an item to provide conflicts. These conflicts are shown in the Sync Center Conflicts folder. The conflict store should include conflicts only for the item. To include conflicts for all of a handler's items, Sync Center calls <a href="https://msdn.microsoft.com/91441b28-a2d8-4114-86dd-9a3e826deef4">GetObject</a>. 
+
+                        
+
+Sync Center only requests this object if the <a href="https://msdn.microsoft.com/55f72e18-fba6-4a59-b553-06c6c7c3ee52">SYNCMGR_ICM_CONFLICT_STORE</a> capability flag is set in the mask retrieved by <a href="https://msdn.microsoft.com/library/windows/hardware/hh451391">GetCapabilities</a>.
+
+
+
+#### SYNCMGR_OBJECTID_EventStore
+
+An object implementing the <a href="https://msdn.microsoft.com/218875bf-be6b-4ca5-8904-81c81c7fbf70">ISyncMgrEventStore</a> interface that allows an item to provide its own source of events. These events are shown in the Sync Results folder. The event store should include only events for the item. To include events for all of a handler's items, Sync Center calls <a href="https://msdn.microsoft.com/91441b28-a2d8-4114-86dd-9a3e826deef4">GetObject</a>.
+
+Sync Center only requests this object if the <a href="https://msdn.microsoft.com/55f72e18-fba6-4a59-b553-06c6c7c3ee52">SYNCMGR_ICM_EVENT_STORE</a> capability flag is set in the mask retrieved by <a href="https://msdn.microsoft.com/library/windows/hardware/hh451391">GetCapabilities</a>.
+
+An item is not required to provide an event store. The default event store provided by Sync Center can be used if it meets the item's requirements.
+
+
+
+#### SYNCMGR_OBJECTID_Icon
+
+An icon extraction object that implements the <a href="https://msdn.microsoft.com/f8e0ab98-c225-4cc1-93f8-b7ab6b2f706f">IExtractIcon</a> interface used to display an icon for the item. This object should only be provided if the item obtains its icon dynamically at run time. The preferred mechanism for providing the icon is to register the icon as the DefaultIcon in the registry.
+ 
+                        
+
+Sync Center only requests this object if the <a href="https://msdn.microsoft.com/55f72e18-fba6-4a59-b553-06c6c7c3ee52">SYNCMGR_ICM_PROVIDES_ICON</a> capability flag is set in the mask retrieved by <a href="https://msdn.microsoft.com/library/windows/hardware/hh451391">GetCapabilities</a>.
+
+
+
+#### SYNCMGR_OBJECTID_QueryBeforeDelete
+
+An object implementing the <a href="https://msdn.microsoft.com/6fa4b0ac-3c75-4cda-b20d-582a3e18fb28">ISyncMgrUIOperation</a> interface that displays UI when the user selects the item in the handler's folder then selects the <b>Delete</b> task. Before requesting this object, Sync Center creates both a separate thread for this operation and a new instance of the item.
+
+                        
+
+Sync Center only requests this object if the <a href="https://msdn.microsoft.com/55f72e18-fba6-4a59-b553-06c6c7c3ee52">SYNCMGR_ICM_CAN_DELETE</a> and <a href="https://msdn.microsoft.com/55f72e18-fba6-4a59-b553-06c6c7c3ee52">SYNCMGR_ICM_QUERY_BEFORE_DELETE</a> capability flags are set in the mask retrieved by <a href="https://msdn.microsoft.com/library/windows/hardware/hh451391">GetCapabilities</a>.
+
+
+
+#### SYNCMGR_OBJECTID_QueryBeforeEnable
+
+An object implementing the <a href="https://msdn.microsoft.com/6fa4b0ac-3c75-4cda-b20d-582a3e18fb28">ISyncMgrUIOperation</a> interface that displays UI when the user selects the item in the Sync Center folder then selects the <b>Enable</b> task. Before requesting this object, Sync Center creates both a separate thread for this operation and a new instance of the item.
+
+                        
+
+Sync Center only requests this object if the <a href="https://msdn.microsoft.com/55f72e18-fba6-4a59-b553-06c6c7c3ee52">SYNCMGR_ICM_QUERY_BEFORE_ENABLE</a> capability flag is set and the <a href="https://msdn.microsoft.com/d894beca-855c-472f-931a-db5c6f3f891e">SYNCMGR_IPM_PREVENT_ENABLE</a> policy flag is not.
+
+
+
+#### SYNCMGR_OBJECTID_QueryBeforeDisable
+
+An object implementing the <a href="https://msdn.microsoft.com/6fa4b0ac-3c75-4cda-b20d-582a3e18fb28">ISyncMgrUIOperation</a> interface that displays UI when the user selects the item in the handler's folder then selects the <b>Disable</b> task. Before requesting this object, Sync Center creates both a separate thread for this operation and a new instance of the item. 
+
+                        
+
+Sync Center only requests this object if the <a href="https://msdn.microsoft.com/55f72e18-fba6-4a59-b553-06c6c7c3ee52">SYNCMGR_ICM_QUERY_BEFORE_DELETE</a> capability flag is set and the <a href="https://msdn.microsoft.com/d894beca-855c-472f-931a-db5c6f3f891e">SYNCMGR_IPM_PREVENT_DISABLE</a> policy flag is not.
+
+
+### -param riid [in]
+
+Type: <b>REFIID</b>
+
+The IID of the requested interface. This is dependent on the object type named in <i>rguidObjectID</i>.
+
+
+### -param ppv [out]
+
+Type: <b>void**</b>
+
+When this method returns, contains the address of a pointer to the requested interface.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+Returns S_OK if successful, or an error value otherwise. Returns E_INVALIDARG if the item does not support the requested type of object.
+
+
+
+
+## -remarks
+
+
+
+The item can implement the requested interface on its handler or it can implement it on a different object.
+
+
+#### Examples
+
+
+
+
+        	The following example shows an implementation of this method.
+
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>STDMETHODIMP CMyDeviceSyncItem::GetObject(__in REFGUID   rguidObjectID,
+                                          __in REFIID    riid,
+                                          __out void   **ppv)
+{
+    HRESULT hr = E_INVALIDARG;
+    *ppv = NULL;
+
+    if (rguidObjectID == SYNCMGR_OBJECTID_QueryBeforeDelete)
+    {
+        hr = _CreateQueryBeforeDeleteObject(riid, ppv);
+    }
+    else if (rguidObjectID == SYNCMGR_OBJECTID_EventStore)
+    {
+        hr = _CreateEventStore(_pszItemID, riid, ppv);
+    }
+
+    return hr;
+}
+</pre>
+</td>
+</tr>
+</table></span></div>
+
+

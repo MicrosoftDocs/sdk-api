@@ -1,0 +1,142 @@
+---
+UID: NF:pla.IDataCollectorSetCollection.GetDataCollectorSets
+title: IDataCollectorSetCollection::GetDataCollectorSets method
+author: windows-driver-content
+description: Populates the data collector set collection.
+old-location: pla\idatacollectorsetcollection_getdatacollectorsets.htm
+old-project: PLA
+ms.assetid: 190c96ad-6193-4f74-906f-180575e6e418
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: GetDataCollectorSets method [PLA], GetDataCollectorSets method [PLA], IDataCollectorSetCollection interface, GetDataCollectorSets,IDataCollectorSetCollection.GetDataCollectorSets, IDataCollectorSetCollection, IDataCollectorSetCollection interface [PLA], GetDataCollectorSets method, IDataCollectorSetCollection::GetDataCollectorSets, base.idatacollectorsetcollection_getdatacollectorsets, pla.idatacollectorsetcollection_getdatacollectorsets, pla/IDataCollectorSetCollection::GetDataCollectorSets
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: pla.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: FolderActionSteps
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Pla.dll
+api_name:
+-	IDataCollectorSetCollection.GetDataCollectorSets
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# IDataCollectorSetCollection::GetDataCollectorSets method
+
+
+## -description
+
+
+Populates the data collector set collection.
+
+
+## -parameters
+
+
+
+
+### -param server
+
+
+
+
+### -param filter
+
+
+
+
+
+
+#### - pFilter [in]
+
+If empty, PLA enumerates sets from all namespaces; otherwise, specify a specific namespace to enumerate. The form is &lt;namespace&gt;\*. For possible namespace values, see <a href="https://msdn.microsoft.com/7e432e1f-4b86-45dc-93d5-df603068273d">IDataCollectorSet::Commit</a>.
+
+
+#### - pServer [in]
+
+The computer whose data collector sets you want to enumerate. You can specify a computer name, a fully qualified domain name, or an IP address (IPv4 or IPv6 format). If <b>NULL</b>, PLA enumerates the sets on the local computer.
+
+
+## -returns
+
+
+
+Returns S_OK if successful. The following table shows possible error values.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>HRESULT_FROM_WIN32(RPC_S_SERVER_UNAVAILABLE)</b></dt>
+</dl>
+</td>
+<td width="60%">
+The RPC server is not available. The method is unable to query the data collector set remotely. To query the data collector set from a remote computer running Windows Vista, enable Performance Logs and Alerts in <b>Windows Firewall Settings</b> on the remote computer.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>HRESULT_FROM_WIN32(ERROR_BAD_NETPATH)</b></dt>
+</dl>
+</td>
+<td width="60%">
+Unable to find the remote computer.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+The method enumerates only those sets that have been previously saved using <a href="https://msdn.microsoft.com/7e432e1f-4b86-45dc-93d5-df603068273d">IDataCollectorSet::Commit</a>.
+
+ The retrieved data collector sets overwrite the contents of this instance. The instance must be empty (newly created) or be from the same namespace.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/5f4cc411-1efb-4f70-a677-3c20d95f0c53">IDataCollectorSetCollection</a>
+ 
+
+ 
+

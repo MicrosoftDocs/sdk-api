@@ -1,0 +1,95 @@
+---
+UID: NF:d3d12.ID3D12GraphicsCommandList.EndEvent
+title: ID3D12GraphicsCommandList::EndEvent method
+author: windows-driver-content
+description: Not intended to be called directly.  Use the PIX event runtime to insert events into a command list.
+old-location: direct3d12\id3d12graphicscommandlist_endevent.htm
+old-project: direct3d12
+ms.assetid: 24C40BE8-1080-4478-AB7C-D1FFCF6F5E3F
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: EndEvent method, EndEvent method, ID3D12GraphicsCommandList interface, EndEvent,ID3D12GraphicsCommandList.EndEvent, ID3D12GraphicsCommandList, ID3D12GraphicsCommandList interface, EndEvent method, ID3D12GraphicsCommandList::EndEvent, d3d12/ID3D12GraphicsCommandList::EndEvent, direct3d12.id3d12graphicscommandlist_endevent
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: d3d12.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: D3D_SHADER_MODEL
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	d3d12.dll
+api_name:
+-	ID3D12GraphicsCommandList.EndEvent
+product: Windows
+targetos: Windows
+req.lib: D3d12.lib
+req.dll: D3d12.dll
+req.irql: 
+---
+
+# ID3D12GraphicsCommandList::EndEvent method
+
+
+## -description
+
+
+
+          Not intended to be called directly.  Use the
+        <a href="https://blogs.msdn.microsoft.com/pix/winpixeventruntime/">PIX event runtime</a> to insert events into a command list.
+
+
+## -parameters
+
+
+
+
+
+
+## -returns
+
+
+
+
+            This method does not return a value.
+          
+
+
+
+
+## -remarks
+
+
+
+This is a support method used internally by the PIX event runtime.  It is not intended to be called directly.
+
+To mark the end of an instrumentation region at the current location within a D3D12 command list, use the <b>PIXEndEvent</b> function or <b>PIXScopedEvent</b> macro.  These are provided by the <a href="https://blogs.msdn.microsoft.com/pix/winpixeventruntime/">WinPixEventRuntime</a> NuGet package.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/1BF282A7-F6D4-43A9-BDAD-D877564A1C6B">ID3D12GraphicsCommandList</a>
+ 
+
+ 
+

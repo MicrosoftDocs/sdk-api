@@ -1,0 +1,81 @@
+---
+UID: NF:imapi.IDiscRecorder.Close
+title: IDiscRecorder::Close method
+author: windows-driver-content
+description: Releases exclusive access to a disc recorder. This restores file system access to the drive.
+old-location: imapi\idiscrecorder_close.htm
+old-project: imapi
+ms.assetid: 39af9413-6068-4165-8a26-509389a6d1f2
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: Close method [IMAPI], Close method [IMAPI], IDiscRecorder interface, Close,IDiscRecorder.Close, IDiscRecorder, IDiscRecorder interface [IMAPI], Close method, IDiscRecorder::Close, _win32_idiscrecorder_close, base.idiscrecorder_close, imapi.idiscrecorder_close, imapi/IDiscRecorder::Close
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: imapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: AM_LINE21_DRAWBGMODE, *PAM_LINE21_DRAWBGMODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Actxprxy.dll
+api_name:
+-	IDiscRecorder.Close
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Actxprxy.dll
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IDiscRecorder::Close method
+
+
+## -description
+
+
+Releases exclusive access to a disc recorder. This restores file system access to the drive.
+
+
+## -parameters
+
+
+
+
+
+
+## -returns
+
+
+
+S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/fc861cbb-a14e-499e-8b80-f5912e4f6076">IDiscRecorder</a>
+ 
+
+ 
+

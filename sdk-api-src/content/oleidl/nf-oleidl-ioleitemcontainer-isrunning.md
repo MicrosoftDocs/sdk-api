@@ -1,0 +1,139 @@
+---
+UID: NF:oleidl.IOleItemContainer.IsRunning
+title: IOleItemContainer::IsRunning method
+author: windows-driver-content
+description: Determines whether the specified object is running.
+old-location: com\ioleitemcontainer_isrunning.htm
+old-project: com
+ms.assetid: 7bbd7b58-b7ab-493e-8315-a35034ee2b7a
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: IOleItemContainer, IOleItemContainer interface [COM], IsRunning method, IOleItemContainer::IsRunning, IsRunning method [COM], IsRunning method [COM], IOleItemContainer interface, IsRunning,IOleItemContainer.IsRunning, _com_ioleitemcontainer_isrunning, com.ioleitemcontainer_isrunning, oleidl/IOleItemContainer::IsRunning
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: oleidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: OleIdl.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: USERCLASSTYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	OleIdl.h
+api_name:
+-	IOleItemContainer.IsRunning
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# IOleItemContainer::IsRunning method
+
+
+## -description
+
+
+Determines whether the specified object is running.
+
+
+## -parameters
+
+
+
+
+### -param pszItem [in]
+
+The container's name for the object.
+
+
+## -returns
+
+
+
+This method can return the following values.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The object is running.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_FALSE</b></dt>
+</dl>
+</td>
+<td width="60%">
+The object is not running.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>MK_E_NOOBJECT</b></dt>
+</dl>
+</td>
+<td width="60%">
+The parameter does not identify an object in this container.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+The item moniker implementation of <a href="https://msdn.microsoft.com/081b394c-1fe8-4519-999e-b3985a77bd9c">IMoniker::IsRunning</a> calls this method.
+
+<h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
+Your implementation of <b>IOleItemContainer::IsRunning</b> should first determine whether <i>pszItem</i> identifies one of the container's objects. If it does not, your implementation should return MK_E_NOOBJECT. If the object is not loaded, your implementation should return S_FALSE. If it is loaded, your implementation can call the <a href="https://msdn.microsoft.com/9392666f-c269-4667-aeac-67c68bcc5f06">OleIsRunning</a> function to determine whether it is running.
+
+If <i>pszItem</i> names a pseudo-object, your implementation can simply return S_OK because a pseudo-object is running whenever its container is running.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/fe306a36-da24-4b1e-ab42-359d37962d36">IOleItemContainer</a>
+ 
+
+ 
+

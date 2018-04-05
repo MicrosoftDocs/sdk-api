@@ -1,0 +1,107 @@
+---
+UID: NF:shobjidl.IStreamAsync.WriteAsync
+title: IStreamAsync::WriteAsync method
+author: windows-driver-content
+description: Writes information to a stream asynchronously. For example, the Shell implements this method on file items when transferring them asynchronously.
+old-location: shell\IStreamAsync_WriteAsync.htm
+old-project: shell
+ms.assetid: c5004923-191b-4ec1-83af-f066209c786a
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: IStreamAsync, IStreamAsync interface [Windows Shell], WriteAsync method, IStreamAsync::WriteAsync, WriteAsync method [Windows Shell], WriteAsync method [Windows Shell], IStreamAsync interface, WriteAsync,IStreamAsync.WriteAsync, _shell_IStreamAsync_WriteAsync, shell.IStreamAsync_WriteAsync, shobjidl/IStreamAsync::WriteAsync
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: shobjidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Shobjidl.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: VPWATERMARKFLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Shobjidl.h
+api_name:
+-	IStreamAsync.WriteAsync
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 6.01
+---
+
+# IStreamAsync::WriteAsync method
+
+
+## -description
+
+
+Writes information to a stream asynchronously. For example, the Shell implements this method on file items when transferring them asynchronously.
+
+
+## -parameters
+
+
+
+
+### -param lpBuffer [in]
+
+Type: <b>const void*</b>
+
+A pointer to a buffer of size <i>cb</i> bytes that contains the information to be written to the stream.
+
+
+### -param cb [in]
+
+Type: <b>DWORD</b>
+
+The size of the buffer pointed to by <i>lpBuffer</i>, in bytes.
+
+
+### -param pcbWritten [out]
+
+Type: <b>LPDWORD</b>
+
+Pointer to a <b>DWORD</b> value that, when the method returns successfully, states the actual number of bytes written to the stream. This value can be <b>NULL</b> if this information is not needed.
+
+
+### -param lpOverlapped [in]
+
+Type: <b>LPOVERLAPPED</b>
+
+A pointer to an <a href="https://msdn.microsoft.com/2b5964e5-dfc8-44f9-86a7-5ea5acc68c1b">OVERLAPPED</a> structure that contains information used in the asynchronous write operation.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+<b>WriteAsync</b> should reset the event specified by the <b>hEvent</b> member of the <a href="https://msdn.microsoft.com/2b5964e5-dfc8-44f9-86a7-5ea5acc68c1b">OVERLAPPED</a> structure to a nonsignaled state when it begins the input/output (I/O) operation.
+
+
+

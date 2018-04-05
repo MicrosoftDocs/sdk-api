@@ -1,0 +1,77 @@
+---
+UID: NF:propsys.IPropertyChangeArray.IsKeyInArray
+title: IPropertyChangeArray::IsKeyInArray method
+author: windows-driver-content
+description: Specifies whether a particular property key exists in the change array.
+old-location: properties\IPropertyChangeArray_IsKeyInArray.htm
+old-project: properties
+ms.assetid: aa6fe869-6fb7-4d2e-8dd8-65da0cbcd7bc
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: IPropertyChangeArray, IPropertyChangeArray interface [Windows Properties], IsKeyInArray method, IPropertyChangeArray::IsKeyInArray, IsKeyInArray method [Windows Properties], IsKeyInArray method [Windows Properties], IPropertyChangeArray interface, IsKeyInArray,IPropertyChangeArray.IsKeyInArray, _shell_IPropertyChangeArray_IsKeyInArray, properties.IPropertyChangeArray_IsKeyInArray, propsys/IPropertyChangeArray::IsKeyInArray, shell.IPropertyChangeArray_IsKeyInArray
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: propsys.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Propsys.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: PSC_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Propsys.h
+api_name:
+-	IPropertyChangeArray.IsKeyInArray
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# IPropertyChangeArray::IsKeyInArray method
+
+
+## -description
+
+
+Specifies whether a particular property key exists in the change array.
+
+
+## -parameters
+
+
+
+
+### -param key [in]
+
+Type: <b>REFPROPERTYKEY</b>
+
+A reference to the <a href="shell.PROPERTYKEY">PROPERTYKEY</a> structure of interest.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+Returns <b>S_OK</b> if key is found; otherwise, E_FAIL.
+
+
+

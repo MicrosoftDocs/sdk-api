@@ -1,0 +1,229 @@
+---
+UID: NF:ntmsapi.DeleteNtmsRequests
+title: DeleteNtmsRequests function
+author: windows-driver-content
+description: The DeleteNtmsRequests function deletes a request or a list of requests from the RSM database.
+old-location: fs\deletentmsrequests.htm
+old-project: Rsm
+ms.assetid: 5368184a-419c-4cb7-b27f-b55fc26b4e81
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: DeleteNtmsRequests, DeleteNtmsRequests function [Files], NTMS_LIBREQUEST, NTMS_OPREQUEST, _zaw_deletentmsrequests, base.deletentmsrequests, fs.deletentmsrequests, ntmsapi/DeleteNtmsRequests
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: ntmsapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Ntmsapi.dll
+api_name:
+-	DeleteNtmsRequests
+product: Windows
+targetos: Windows
+req.lib: Ntmsapi.lib
+req.dll: Ntmsapi.dll
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# DeleteNtmsRequests function
+
+
+## -description
+
+
+<p class="CCE_Message">[<a href="https://msdn.microsoft.com/af7186f8-7921-48e3-a4fd-23259a6e9018">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
+
+The 
+<b>DeleteNtmsRequests</b> function deletes a request or a list of requests from the RSM database. Library or operator requests that are in a completed, failed, refused, or canceled state are removed. Submitted requests, queued requests, waiting requests, and in progress requests cannot be deleted.
+
+
+## -parameters
+
+
+
+
+### -param hSession [in]
+
+Handle to the session returned by the 
+<a href="https://msdn.microsoft.com/5a323911-e99c-4f81-9580-0feac2f0a54e">OpenNtmsSession</a> function.
+
+
+### -param lpRequestId [in]
+
+List of identifiers of the library and operator requests to be deleted.
+
+
+### -param dwType [in]
+
+Request type. This parameter can be one of the following values. 
+
+
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="NTMS_LIBREQUEST"></a><a id="ntms_librequest"></a><dl>
+<dt><b>NTMS_LIBREQUEST</b></dt>
+</dl>
+</td>
+<td width="60%">
+Library request.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="NTMS_OPREQUEST"></a><a id="ntms_oprequest"></a><dl>
+<dt><b>NTMS_OPREQUEST</b></dt>
+</dl>
+</td>
+<td width="60%">
+Operator request.
+
+</td>
+</tr>
+</table>
+ 
+
+
+### -param dwCount [in]
+
+Number of requests in the list.
+
+
+## -returns
+
+
+
+This function returns one of the following values.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_ACCESS_DENIED</b></dt>
+</dl>
+</td>
+<td width="60%">
+NTMS_MODIFY_ACCESS to the computer is denied. Other security errors are also possible, but they would indicate a security subsystem error.
+
+<b>Windows XP:  </b>NTMS_CONTROL_ACCESS to the computer is denied. Other security errors are also possible, but they would indicate a security subsystem error.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_DATABASE_FAILURE</b></dt>
+</dl>
+</td>
+<td width="60%">
+Database is inaccessible or damaged.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_DATABASE_FULL</b></dt>
+</dl>
+</td>
+<td width="60%">
+Database is full.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_INVALID_PARAMETER</b></dt>
+</dl>
+</td>
+<td width="60%">
+The type identifier is not valid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_INVALID_HANDLE</b></dt>
+</dl>
+</td>
+<td width="60%">
+The session handle is missing or is not valid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_NOT_ENOUGH_MEMORY</b></dt>
+</dl>
+</td>
+<td width="60%">
+Memory allocation failure during processing.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_SUCCESS</b></dt>
+</dl>
+</td>
+<td width="60%">
+The function executed successfully.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+An error is not returned if a request or list of requests is not found.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="removable_storage_manager_functions.htm">Library Control Functions</a>
+ 
+
+ 
+

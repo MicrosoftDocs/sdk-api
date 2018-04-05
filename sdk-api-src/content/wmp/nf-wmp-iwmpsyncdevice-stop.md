@@ -1,0 +1,127 @@
+---
+UID: NF:wmp.IWMPSyncDevice.stop
+title: IWMPSyncDevice::stop method
+author: windows-driver-content
+description: The stop method ends synchronization.
+old-location: wmp\iwmpsyncdevice_stop.htm
+old-project: WMP
+ms.assetid: 30e6787e-851b-420c-934c-5f8e5e4d83df
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: IWMPSyncDevice, IWMPSyncDevice interface [Windows Media Player], stop method, IWMPSyncDevice::stop, IWMPSyncDevicestop, stop method [Windows Media Player], stop method [Windows Media Player], IWMPSyncDevice interface, stop,IWMPSyncDevice.stop, wmp.iwmpsyncdevice_stop, wmp/IWMPSyncDevice::stop
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wmp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Media Player 10 or later.
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WMPSyncState
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	wmp.dll
+api_name:
+-	IWMPSyncDevice.stop
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IWMPSyncDevice::stop method
+
+
+## -description
+
+
+
+The <b>stop</b> method ends synchronization.
+
+
+
+
+## -parameters
+
+
+
+
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>NS_E_PDA_INITIALIZINGDEVICES (0xC00D118D)</b></dt>
+</dl>
+</td>
+<td width="60%">
+Windows Media Player is currently busy initializing devices. Please try again later.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+<b>Windows Media Player 10 Mobile: </b>This method is not supported.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/981648e4-0cb1-4d7a-bd3b-50e1b9a7282c">IWMPSyncDevice Interface</a>
+
+
+
+<a href="https://msdn.microsoft.com/f12e5abe-3d1b-48ab-8a03-420a40ae8b4f">IWMPSyncDevice::start</a>
+ 
+
+ 
+

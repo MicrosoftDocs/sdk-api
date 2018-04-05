@@ -1,0 +1,105 @@
+---
+UID: NF:commctrl.ListView_SetWorkAreas
+title: ListView_SetWorkAreas macro
+author: windows-driver-content
+description: Sets the working areas within a list-view control. You can use this macro or send the LVM_SETWORKAREAS message explicitly.
+old-location: controls\ListView_SetWorkAreas.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\listview\macros\listview_setworkareas.htm
+ms.author: windowsdriverdev
+ms.date: 3/31/2018
+ms.keywords: ListView_SetWorkAreas, ListView_SetWorkAreas macro [Windows Controls], _win32_ListView_SetWorkAreas, _win32_ListView_SetWorkAreas_cpp, commctrl/ListView_SetWorkAreas, controls.ListView_SetWorkAreas, controls._win32_ListView_SetWorkAreas
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: macro
+req.header: commctrl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: CATEGORYINFO, *LPCATEGORYINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Commctrl.h
+api_name:
+-	ListView_SetWorkAreas
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# ListView_SetWorkAreas macro
+
+
+## -description
+
+
+Sets the working areas within a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/87ac192d-f481-43ac-b8a5-c754cf33e487">LVM_SETWORKAREAS</a> message explicitly. 
+
+
+## -parameters
+
+
+
+
+### -param hwnd
+
+TBD
+
+
+### -param nWorkAreas
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">INT</a></b>
+
+The number of <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structures in the array at 
+					<i>lprc</i>. The maximum number of working areas allowed is defined by the <b>LV_MAX_WORKAREAS</b> value.
+
+
+### -param prc
+
+TBD
+
+
+
+
+
+
+#### - hwndLV
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+
+A handle to a list-view control. 
+
+
+#### - lprc
+
+Type: <b>LPRECT</b>
+
+A pointer to an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structures that contain the new working areas of the list-view control. Values in these structures are in client coordinates. If this parameter is <b>NULL</b>, the working area will be set to the client area of the control. <i>nWorkAreas</i> specifies the number of structures in this array. 
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/6953cdfc-8c59-4c6d-8998-f828cea3a315">Using List-View Controls</a>
+ 
+
+ 
+

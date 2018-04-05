@@ -1,0 +1,142 @@
+---
+UID: NF:commoncontrols.IImageList2.DiscardImages
+title: IImageList2::DiscardImages method
+author: windows-driver-content
+description: Discards images from list, as specified.
+old-location: controls\IImageList2_DiscardImages.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist2\discardimages.htm
+ms.author: windowsdriverdev
+ms.date: 3/31/2018
+ms.keywords: DiscardImages method [Windows Controls], DiscardImages method [Windows Controls], IImageList2 interface, DiscardImages,IImageList2.DiscardImages, IImageList2, IImageList2 interface [Windows Controls], DiscardImages method, IImageList2::DiscardImages, ILDI_PURGE, ILDI_QUERYACCESS, ILDI_RESETACCESS, ILDI_STANDBY, _shell_IImageList2_DiscardImages, _shell_IImageList2_DiscardImages_cpp, commoncontrols/IImageList2::DiscardImages, controls.IImageList2_DiscardImages, controls._shell_IImageList2_DiscardImages
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: commoncontrols.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Commoncontrols.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: OFNOTIFYW, *LPOFNOTIFYW
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Comctl32.dll
+api_name:
+-	IImageList2.DiscardImages
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Comctl32.dll (version 6.0 or later)
+req.irql: 
+---
+
+# IImageList2::DiscardImages method
+
+
+## -description
+
+
+Discards images from list, as specified.
+
+
+## -parameters
+
+
+
+
+### -param iFirstImage [in]
+
+Type: <b>int</b>
+
+An index of first image to discard.
+
+
+### -param iLastImage [in]
+
+Type: <b>int</b>
+
+An index of last image to discard.
+
+
+### -param dwFlags [in]
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+
+Discard images flags. <b>ILDI_STANDBY</b> and <b>ILDI_PURGE</b> are mutually exclusive. <b>ILDI_RESETACCESS</b> can be combined with either. One or more of the following are valid.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="ILDI_PURGE"></a><a id="ildi_purge"></a><dl>
+<dt><b>ILDI_PURGE</b></dt>
+<dt>0x00000001</dt>
+</dl>
+</td>
+<td width="60%">
+Discard and purge. 
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="ILDI_STANDBY"></a><a id="ildi_standby"></a><dl>
+<dt><b>ILDI_STANDBY</b></dt>
+<dt>0x00000002</dt>
+</dl>
+</td>
+<td width="60%">
+Discard to standby list. 
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="ILDI_RESETACCESS"></a><a id="ildi_resetaccess"></a><dl>
+<dt><b>ILDI_RESETACCESS</b></dt>
+<dt>0x00000004</dt>
+</dl>
+</td>
+<td width="60%">
+Reset the "has been accessed" flag. 
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="ILDI_QUERYACCESS"></a><a id="ildi_queryaccess"></a><dl>
+<dt><b>ILDI_QUERYACCESS</b></dt>
+<dt>0x00000008</dt>
+</dl>
+</td>
+<td width="60%">
+Ask whether access flag is set (but do not reset). 
+
+</td>
+</tr>
+</table>
+ 
+
+
+## -returns
+
+
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+

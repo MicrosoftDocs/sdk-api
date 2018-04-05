@@ -1,0 +1,166 @@
+---
+UID: NS:accctrl._OBJECTS_AND_SID
+title: "_OBJECTS_AND_SID"
+author: windows-driver-content
+description: Contains a security identifier (SID) that identifies a trustee and GUIDs that identify the object types of an object-specific access control entry (ACE).
+old-location: security\objects_and_sid.htm
+old-project: SecAuthZ
+ms.assetid: 77ba8a3c-01e5-4a3e-835f-c7b9ef60035a
+ms.author: windowsdriverdev
+ms.date: 3/29/2018
+ms.keywords: "*POBJECTS_AND_SID, ACE_INHERITED_OBJECT_TYPE_PRESENT, ACE_OBJECT_TYPE_PRESENT, OBJECTS_AND_SID, OBJECTS_AND_SID structure [Security], POBJECTS_AND_SID, POBJECTS_AND_SID structure pointer [Security], _OBJECTS_AND_SID, _win32_objects_and_sid_str, accctrl/OBJECTS_AND_SID, accctrl/POBJECTS_AND_SID, security.objects_and_sid"
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: struct
+req.header: accctrl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: OBJECTS_AND_SID, *POBJECTS_AND_SID
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	AccCtrl.h
+api_name:
+-	OBJECTS_AND_SID
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+---
+
+# _OBJECTS_AND_SID structure
+
+
+## -description
+
+
+
+			The <b>OBJECTS_AND_SID</b> structure contains a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security identifier</a> (SID) that identifies a trustee and GUIDs that identify the object types of an object-specific <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access control entry</a> (ACE).
+
+
+
+## -struct-fields
+
+
+
+
+### -field ObjectsPresent
+
+Indicates whether the <b>ObjectTypeGuid</b> and <b>InheritedObjectTypeGuid</b> members contain GUIDs. This parameter can be a combination of the following values. 
+
+
+
+
+					
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="ACE_OBJECT_TYPE_PRESENT"></a><a id="ace_object_type_present"></a><dl>
+<dt><b>ACE_OBJECT_TYPE_PRESENT</b></dt>
+<dt>0x1</dt>
+</dl>
+</td>
+<td width="60%">
+The <b>ObjectTypeGuid</b> member contains a GUID.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="ACE_INHERITED_OBJECT_TYPE_PRESENT"></a><a id="ace_inherited_object_type_present"></a><dl>
+<dt><b>ACE_INHERITED_OBJECT_TYPE_PRESENT</b></dt>
+<dt>0x2</dt>
+</dl>
+</td>
+<td width="60%">
+The <b>InheritedObjectTypeGuid</b> member contains a GUID.
+
+</td>
+</tr>
+</table>
+ 
+
+
+### -field ObjectTypeGuid
+
+A 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn922935">GUID</a> structure that identifies the type of object, property set, or property protected by the ACE. If this ACE is inherited, the GUID identifies the type of object, property set, or property protected by the inherited ACE. This GUID must be a valid schema identifier in the Active Directory schema.
+
+If the ACE_OBJECT_TYPE_PRESENT bit is not set in the <b>ObjectsPresent</b> member, the <b>ObjectTypeGuid</b> member is ignored, and the ACE protects the object to which the ACL is assigned.
+
+
+### -field InheritedObjectTypeGuid
+
+A <a href="https://msdn.microsoft.com/library/windows/hardware/dn922935">GUID</a> structure that identifies the type of object that can inherit the ACE. This GUID must be a valid schema identifier in the Active Directory schema.
+
+If the ACE_INHERITED_OBJECT_TYPE_PRESENT bit is not set in the <b>ObjectsPresent</b> member, the <b>InheritedObjectTypeGuid</b> member is ignored, and all types of child objects can inherit the ACE. Otherwise, only the specified object type can inherit the ACE. In either case, inheritance is also controlled by the inheritance flags in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff538847">ACE_HEADER</a>
+							 structure as well as by any protection against inheritance placed on the child objects.
+
+
+### -field pSid
+
+A pointer to the SID of the trustee to whom the ACE applies.
+
+
+## -remarks
+
+
+
+The <b>ptstrName</b> member of a <a href="https://msdn.microsoft.com/120e93eb-680f-4f86-879d-bc2de10d4641">TRUSTEE</a> structure can be a pointer to an <b>OBJECTS_AND_SID</b> structure. This enables functions such as <a href="https://msdn.microsoft.com/05960fc1-1ad2-4c19-a65c-62259af5e18c">SetEntriesInAcl</a> and <a href="https://msdn.microsoft.com/186aa6aa-efc3-4f8a-acad-e257da3dac0b">GetExplicitEntriesFromAcl</a> to store object-specific ACE information in the <b>Trustee</b> member of an <a href="https://msdn.microsoft.com/6fe09542-10dd-439c-adf8-a4e06943ddb2">EXPLICIT_ACCESS</a> structure.
+
+When you use this structure in a call to <a href="https://msdn.microsoft.com/05960fc1-1ad2-4c19-a65c-62259af5e18c">SetEntriesInAcl</a>, <b>ObjectTypeGuid</b> and <b>InheritedObjectTypeGuid</b> must be valid schema identifiers in the Active Directory schema. The system does not verify the GUIDs; they are used as is.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538847">ACE_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/6fe09542-10dd-439c-adf8-a4e06943ddb2">EXPLICIT_ACCESS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn922935">GUID</a>
+
+
+
+<a href="https://msdn.microsoft.com/186aa6aa-efc3-4f8a-acad-e257da3dac0b">GetExplicitEntriesFromAcl</a>
+
+
+
+<a href="https://msdn.microsoft.com/ad91a302-f693-44e9-9655-ec4488ff78c4">OBJECTS_AND_NAME</a>
+
+
+
+<a href="https://msdn.microsoft.com/05960fc1-1ad2-4c19-a65c-62259af5e18c">SetEntriesInAcl</a>
+
+
+
+<a href="https://msdn.microsoft.com/120e93eb-680f-4f86-879d-bc2de10d4641">TRUSTEE</a>
+ 
+
+ 
+

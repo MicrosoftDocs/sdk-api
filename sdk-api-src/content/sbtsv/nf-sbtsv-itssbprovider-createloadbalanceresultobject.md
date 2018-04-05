@@ -1,0 +1,109 @@
+---
+UID: NF:sbtsv.ITsSbProvider.CreateLoadBalanceResultObject
+title: ITsSbProvider::CreateLoadBalanceResultObject method
+author: windows-driver-content
+description: Creates an ITsSbLoadBalanceResult load-balancing result object.
+old-location: termserv\itssbprovider_createloadbalanceresultobject.htm
+old-project: TermServ
+ms.assetid: aaa13ec1-d79c-4458-9340-3cc42bbcd948
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: CreateLoadBalanceResultObject method [Remote Desktop Services], CreateLoadBalanceResultObject method [Remote Desktop Services], ITsSbProvider interface, CreateLoadBalanceResultObject,ITsSbProvider.CreateLoadBalanceResultObject, ITsSbProvider, ITsSbProvider interface [Remote Desktop Services], CreateLoadBalanceResultObject method, ITsSbProvider::CreateLoadBalanceResultObject, sbtsv/ITsSbProvider::CreateLoadBalanceResultObject, termserv.itssbprovider_createloadbalanceresultobject
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: sbtsv.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2012
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Sbtsv.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: TS_SB_SORT_BY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	sbtsv.h
+api_name:
+-	ITsSbProvider.CreateLoadBalanceResultObject
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# ITsSbProvider::CreateLoadBalanceResultObject method
+
+
+## -description
+
+
+Creates an <a href="https://msdn.microsoft.com/f19f006c-e74a-4f44-8be8-f71852d4c305">ITsSbLoadBalanceResult</a> load-balancing result 
+object.
+
+
+## -parameters
+
+
+
+
+### -param TargetName [in]
+
+A <b>BSTR</b> variable that contains the target name.
+
+
+### -param ppLBResult [out]
+
+A pointer to a pointer to an <a href="https://msdn.microsoft.com/f19f006c-e74a-4f44-8be8-f71852d4c305">ITsSbLoadBalanceResult</a> object. When you have finished using the object, release it by calling the <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">Release</a> method.
+
+
+## -returns
+
+
+
+This method can return one of these values.
+
+
+If the method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following list.
+
+
+
+
+
+
+## -remarks
+
+
+
+Plug-ins can use this method to create a load-balancing result 
+object.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/f19f006c-e74a-4f44-8be8-f71852d4c305">ITsSbLoadBalanceResult</a>
+
+
+
+<a href="https://msdn.microsoft.com/a8574750-d86e-4b0d-a534-d005596e2a33">ITsSbProvider</a>
+ 
+
+ 
+

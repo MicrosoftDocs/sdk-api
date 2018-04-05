@@ -1,0 +1,131 @@
+---
+UID: NF:uianimation.IUIAnimationStoryboard2.GetTag
+title: IUIAnimationStoryboard2::GetTag method
+author: windows-driver-content
+description: Gets the tag for a storyboard.
+old-location: uianimation\iuianimationstoryboard2_gettag.htm
+old-project: UIAnimation
+ms.assetid: A73D5003-FC28-4A79-B157-3D0D2E0DEB3D
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: GetTag method [Windows Animation], GetTag method [Windows Animation], IUIAnimationStoryboard2 interface, GetTag,IUIAnimationStoryboard2.GetTag, IUIAnimationStoryboard2, IUIAnimationStoryboard2 interface [Windows Animation], GetTag method, IUIAnimationStoryboard2::GetTag, uianimation.iuianimationstoryboard2_gettag, uianimation/IUIAnimationStoryboard2::GetTag
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: uianimation.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8, Windows 7 and Platform Update for Windows 7 [desktop apps | UWP apps]
+req.target-min-winversvr: None supported
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: UIAnimation.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: UI_ANIMATION_TIMER_CLIENT_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	UIAnimation.dll
+api_name:
+-	IUIAnimationStoryboard2.GetTag
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: UIAnimation.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# IUIAnimationStoryboard2::GetTag method
+
+
+## -description
+
+
+
+      Gets the tag for a storyboard.
+
+
+## -parameters
+
+
+
+
+### -param object [out, optional]
+
+
+            The object portion of the tag.
+
+
+### -param id [out, optional]
+
+
+            The identifier portion of the tag.
+
+
+## -returns
+
+
+
+If this method succeeds, it returns S_OK. Otherwise, it returns an  <b>HRESULT</b> error code. See <a href="https://msdn.microsoft.com/38f15d61-d415-4c7d-b454-5144fc7c9b1e">Windows Animation Error Codes</a> for a list of error codes.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>UI_E_VALUE_NOT_SET</b></dt>
+</dl>
+</td>
+<td width="60%">
+The storyboard tag was not set.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+A tag is a pairing of an integer identifier (<i>id</i>) with a COM object (<i>object</i>); it can be used by an application to identify a storyboard.
+
+This method can return the identifier, the object, or both portions of the tag.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/C7B11A34-E5FB-40D7-A655-29D28ECF4068">
+      IUIAnimationManager2::GetStoryboardFromTag</a>
+
+
+
+<a href="https://msdn.microsoft.com/507B6C2B-92C6-4AEB-82D5-3F14A332D41F">IUIAnimationStoryboard2</a>
+
+
+
+<a href="https://msdn.microsoft.com/9BEB2BF7-55F7-43F7-822C-CB4AC6F29E32">IUIAnimationStoryboard2::SetTag</a>
+ 
+
+ 
+

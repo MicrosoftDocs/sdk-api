@@ -1,0 +1,161 @@
+---
+UID: NF:objidl.IMultiQI.QueryMultipleInterfaces
+title: IMultiQI::QueryMultipleInterfaces method
+author: windows-driver-content
+description: Retrieves pointers to multiple supported interfaces on an object.
+old-location: com\imultiqi_querymultipleinterfaces.htm
+old-project: com
+ms.assetid: 412f1d03-f40c-4451-9c99-1134c69c9989
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: IMultiQI, IMultiQI interface [COM], QueryMultipleInterfaces method, IMultiQI::QueryMultipleInterfaces, QueryMultipleInterfaces method [COM], QueryMultipleInterfaces method [COM], IMultiQI interface, QueryMultipleInterfaces,IMultiQI.QueryMultipleInterfaces, _com_imultiqi_querymultipleinterfaces, com.imultiqi_querymultipleinterfaces, objidlbase/IMultiQI::QueryMultipleInterfaces
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: objidl.h
+req.include-header: ObjIdl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: ObjIdl.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: THDTYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	objidlbase.h
+api_name:
+-	IMultiQI.QueryMultipleInterfaces
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# IMultiQI::QueryMultipleInterfaces method
+
+
+## -description
+
+
+Retrieves pointers to multiple supported interfaces on an object.
+
+Calling this method is equivalent to issuing a series of separate <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> calls except that you do not incur the overhead of a corresponding number of RPC calls. In multithreaded applications and distributed environments, keeping RPC calls to a minimum is essential for optimal performance.
+
+
+## -parameters
+
+
+
+
+### -param cMQIs [in]
+
+The number of elements in the <i>pMQIs</i> array.
+
+
+### -param pMQIs [in, out]
+
+An array of <a href="https://msdn.microsoft.com/845040c9-fad4-4ac8-856d-d35edbf48ec9">MULTI_QI</a> structures. For more information, see Remarks.
+
+
+## -returns
+
+
+
+This method can return the following values.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method retrieved pointers to all requested interfaces.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_FALSE</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method retrieved pointers to some, but not all, of the requested interfaces.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_NOINTERFACE</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method retrieved pointers to none of the requested interfaces.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+The <b>QueryMultipleInterfaces</b> method takes as input an array of <a href="https://msdn.microsoft.com/845040c9-fad4-4ac8-856d-d35edbf48ec9">MULTI_QI</a> structures. Each structure specifies an interface IID and contains two additional members for receiving an interface pointer and return value.
+
+This method obtains as many requested interface pointers as possible directly from the object proxy. For each interface not implemented on the proxy, the method calls the server to obtain a pointer. Upon receiving an interface pointer from the server, the method builds a corresponding interface proxy and returns its pointer along with pointers to the interfaces it already implements.
+
+
+<h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
+A caller should begin by querying the object proxy for the <a href="https://msdn.microsoft.com/5e50396f-2931-403f-946a-dc096cb012cc">IMultiQI</a> interface. If the object proxy returns a pointer to this interface, the caller should then create a <a href="https://msdn.microsoft.com/845040c9-fad4-4ac8-856d-d35edbf48ec9">MULTI_QI</a> structure for each interface it wants to obtain. Each structure should specify an interface IID and set its <b>pItf</b> member to <b>NULL</b>. Failure to set the <b>pItf</b> member to <b>NULL</b> will cause the object proxy to ignore the structure.
+
+On return, <b>QueryMultipleInterfaces</b> writes the requested interface pointer and a return value into each <a href="https://msdn.microsoft.com/845040c9-fad4-4ac8-856d-d35edbf48ec9">MULTI_QI</a> structure in the client's array. The <b>pItf</b> member receives the pointer; the <b>hr</b> member receives the return value.
+
+If the value returned from a call to <b>QueryMultipleInterfaces</b> is S_OK, then pointers were returned for all requested interfaces.
+
+If the return value is E_NOINTERFACE, then pointers were returned for none of the requested interfaces. If the return value is S_FALSE, then pointers to one or more requested interfaces were not returned. In this event, the client should check the <b>hr</b> member of each <a href="https://msdn.microsoft.com/845040c9-fad4-4ac8-856d-d35edbf48ec9">MULTI_QI</a> structure to determine which interfaces were acquired and which were not.
+
+If a client knows ahead of time that it will be using several of an object's interfaces, it can call <b>QueryMultipleInterfaces</b> up front and then, later, if a <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> is done for one of the interfaces already acquired through <b>QueryMultipleInterfaces</b>, no RPC call will be necessary.
+
+
+
+On return, the caller should check the <b>hr</b> member of each <a href="https://msdn.microsoft.com/845040c9-fad4-4ac8-856d-d35edbf48ec9">MULTI_QI</a> structure to determine which interface pointers were and were not returned.
+
+The client is responsible for releasing each of the acquired interfaces by calling <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">Release</a>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/5e50396f-2931-403f-946a-dc096cb012cc">IMultiQI</a>
+ 
+
+ 
+

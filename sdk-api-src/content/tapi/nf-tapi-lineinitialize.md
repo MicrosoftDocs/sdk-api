@@ -1,0 +1,164 @@
+---
+UID: NF:tapi.lineInitialize
+title: lineInitialize function
+author: windows-driver-content
+description: The lineInitialize function is obsolete. It continues to be exported by Tapi.dll and Tapi32.dll for backward compatibility with applications using API versions 1.3 and 1.4.
+old-location: tapi2\lineinitialize.htm
+old-project: Tapi
+ms.assetid: 4b406f19-be9b-4130-91a7-5fdfa56f7fc3
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: "_tapi2_lineinitialize, lineInitialize, lineInitialize function [TAPI 2.2], tapi/lineInitialize, tapi2.lineinitialize"
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: tapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: FLICK_POINT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Tapi32.dll
+-	Ext-MS-Win-ras-tapi32-l1-1-0.dll
+api_name:
+-	lineInitialize
+product: Windows
+targetos: Windows
+req.lib: Tapi32.lib
+req.dll: Tapi32.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# lineInitialize function
+
+
+## -description
+
+
+The 
+<b>lineInitialize</b> function is obsolete. It continues to be exported by Tapi.dll and Tapi32.dll for backward compatibility with applications using API versions 1.3 and 1.4.
+
+Applications using API version 2.0 or later must use 
+<a href="https://msdn.microsoft.com/18cd145d-e434-433a-ab10-91bf5b060c21">lineInitializeEx</a> instead.
+
+<b>For TAPI Versions  1.4 and Earlier:  </b> The 
+<b>lineInitialize</b> function initializes the application's use of Tapi.dll for subsequent use of the line abstraction. The function registers the application's specified notification mechanism and returns the number of line devices available to the application. A line device is any device that provides an implementation for the line-prefixed functions in TAPI.
+
+
+## -parameters
+
+
+
+
+### -param lphLineApp
+
+Pointer to a location that is filled with the application's usage handle for TAPI.
+
+
+### -param hInstance
+
+Instance handle of the client application or DLL.
+
+
+### -param lpfnCallback
+
+Address of a callback function that is invoked to determine status and events on the line device, addresses, or calls. For more information, see 
+<a href="https://msdn.microsoft.com/449ecf4f-0b1b-449e-9eae-049770d41dbc">lineCallbackFunc</a>.
+
+
+### -param lpszAppName
+
+Pointer to a <b>null</b>-terminated text string that contains only displayable characters. If this parameter is not <b>NULL</b>, it contains an application-supplied name for the application. This name is provided in the 
+<a href="https://msdn.microsoft.com/b077546b-cc95-44ce-99ee-f0007fd916b2">LINECALLINFO</a> structure to indicate, in a user-friendly way, which application originated, or originally accepted or answered the call. This information can be useful for call logging purposes. If <i>lpszAppName</i> is <b>NULL</b>, the application's file name is used instead.
+
+
+### -param lpdwNumDevs
+
+Pointer to a <b>DWORD</b>-sized location. Upon successful completion of this request, this location is filled with the number of line devices available to the application.
+
+
+## -returns
+
+
+
+Returns zero if the request succeeds or a negative error number if an error occurs. Possible return values are:
+
+LINEERR_INVALAPPNAME, LINEERR_OPERATIONFAILED, LINEERR_INIFILECORRUPT, LINEERR_RESOURCEUNAVAIL, LINEERR_INVALPOINTER, LINEERR_REINIT, LINEERR_NODRIVER, LINEERR_NODEVICE, LINEERR_NOMEM, LINEERR_NOMULTIPLEINSTANCE.
+
+
+
+
+## -remarks
+
+
+
+If LINEERR_REINIT is returned and TAPI reinitialization has been requested (for example as a result of adding or removing a telephony service provider), then 
+<b>lineInitialize</b> requests are rejected with this error until the last application shuts down its usage of the API (using 
+<a href="https://msdn.microsoft.com/d512508a-fb6a-41ec-a80d-f625abfdd184">lineShutdown</a>). At that time, the new configuration becomes effective and applications are once again permitted to call 
+<b>lineInitialize</b>. If the LINEERR_INVALPARAM error value is returned, the specified <i>hInstance</i> parameter is invalid.
+
+The application can refer to individual line devices by using line device identifiers that range from zero to <i>dwNumDevs</i> minus one. An application should not assume that these line devices are capable of anything beyond what is specified by the Basic Telephony subset without first querying their device capabilities using 
+<a href="https://msdn.microsoft.com/c0900c5b-8791-4653-8bfc-d32e51d10c50">lineGetDevCaps</a> and 
+<a href="https://msdn.microsoft.com/08cdea8a-5b36-428c-b90f-8741ae5f3205">lineGetAddressCaps</a>.
+
+Applications should not invoke 
+<b>lineInitialize</b> without subsequently opening a line (at least for monitoring). If the application is not monitoring and not using any devices, it should call 
+<a href="https://msdn.microsoft.com/d512508a-fb6a-41ec-a80d-f625abfdd184">lineShutdown</a> so that memory resources allocated by Tapi.dll can be released if unneeded, and Tapi.dll itself can be unloaded from memory while not needed.
+
+Another reason for performing a 
+<a href="https://msdn.microsoft.com/d512508a-fb6a-41ec-a80d-f625abfdd184">lineShutdown</a> is that if a user changes the device configuration (adds or removes a line or phone), there is no way for TAPI to notify an application that has a line or phone handle open at the time. After a reconfiguration has taken place, causing a LINEDEVSTATE_REINIT message to be sent, no applications can open a device until all applications have performed a 
+<a href="https://msdn.microsoft.com/d512508a-fb6a-41ec-a80d-f625abfdd184">lineShutdown</a>. If any service provider fails to initialize properly, this function fails and returns the error indicated by the service provider.
+
+On all TAPI platforms, 
+<b>lineInitialize</b> is equivalent to 
+<a href="https://msdn.microsoft.com/18cd145d-e434-433a-ab10-91bf5b060c21">lineInitializeEx</a> using the LINEINITIALIZEEXOPTION_USEHIDDENWINDOW option.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/b077546b-cc95-44ce-99ee-f0007fd916b2">LINECALLINFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/449ecf4f-0b1b-449e-9eae-049770d41dbc">lineCallbackFunc</a>
+
+
+
+<a href="https://msdn.microsoft.com/08cdea8a-5b36-428c-b90f-8741ae5f3205">lineGetAddressCaps</a>
+
+
+
+<a href="https://msdn.microsoft.com/c0900c5b-8791-4653-8bfc-d32e51d10c50">lineGetDevCaps</a>
+
+
+
+<a href="https://msdn.microsoft.com/18cd145d-e434-433a-ab10-91bf5b060c21">lineInitializeEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/d512508a-fb6a-41ec-a80d-f625abfdd184">lineShutdown</a>
+ 
+
+ 
+

@@ -1,0 +1,264 @@
+---
+UID: NF:mfplay.IMFPMediaItem.SetStartStopPosition
+title: IMFPMediaItem::SetStartStopPosition method
+author: windows-driver-content
+description: Sets the start and stop time for the media item.
+old-location: mf\imfpmediaitem_setstartstopposition.htm
+old-project: medfound
+ms.assetid: 8f0409a6-1911-47ee-ac65-68b87d6b1db5
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: IMFPMediaItem, IMFPMediaItem interface [Media Foundation], SetStartStopPosition method, IMFPMediaItem::SetStartStopPosition, SetStartStopPosition method [Media Foundation], SetStartStopPosition method [Media Foundation], IMFPMediaItem interface, SetStartStopPosition,IMFPMediaItem.SetStartStopPosition, mf.imfpmediaitem_setstartstopposition, mfplay/IMFPMediaItem::SetStartStopPosition
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: mfplay.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: "_MFP_MEDIAITEM_CHARACTERISTICS"
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfplay.h
+api_name:
+-	IMFPMediaItem.SetStartStopPosition
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IMFPMediaItem::SetStartStopPosition method
+
+
+## -description
+
+
+
+<div class="alert"><b>Important</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="https://msdn.microsoft.com/dac99908-be90-415d-8837-2f97d573feb5">Media Session</a> for playback.</div>
+<div> </div>
+
+
+Sets the start and stop time for the media item.
+
+
+## -parameters
+
+
+
+
+### -param pguidStartPositionType [in]
+
+Unit of time for the start position. See Remarks. This parameter can be <b>NULL</b>.
+
+
+### -param pvStartValue [in]
+
+Start position. The meaning and data type of this parameter are indicated by the <i>pguidStartPositionType</i> parameter. The  <i>pvStartValue</i> parameter must be <b>NULL</b> if <i>pguidStartPositionType</i> is <b>NULL</b>, and cannot be <b>NULL</b> otherwise.
+
+
+### -param pguidStopPositionType [in]
+
+Unit of time for the stop position. See Remarks. This parameter can be <b>NULL</b>.
+
+
+### -param pvStopValue [in]
+
+Stop position. The meaning and data type of this parameter are indicated by the <i>pguidStopPositionType</i> parameter. The <i>pvStopValue</i>  parameter must be <b>NULL</b> if <i>pguidStopPositionType</i> is <b>NULL</b>, and cannot be <b>NULL</b> otherwise.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+Invalid argument.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>MF_E_OUT_OF_RANGE</b></dt>
+</dl>
+</td>
+<td width="60%">
+Invalid start or stop time. Any of the following can cause this error:
+
+<ul>
+<li>Time less than zero.</li>
+<li>Time greater than the total duration of the media item.</li>
+<li>Stop time less than start time.</li>
+</ul>
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+By default, a media item plays from the beginning to the end of the file. This method adjusts the start time and/or  the stop time:
+
+<ul>
+<li>To set the start time, pass non-<b>NULL</b> values for <i>pguidStartPositionType</i> and <i>pvStartValue</i>.</li>
+<li>To set the stop time, pass non-<b>NULL</b> values for <i>pguidStopPositionType</i> and <i>pvStopValue</i>.</li>
+</ul>
+The <i>pguidStartPositionType</i> and <i>pguidStopPositionType</i> parameters give the units of time that are used. Currently, the only supported value is <b>MFP_POSITIONTYPE_100NS</b>.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><b>MFP_POSITIONTYPE_100NS</b></td>
+<td>100-nanosecond units. The time parameter (<i>pvStartValue</i> or <i>pvStopValue</i>) uses the following data type:<ul>
+<li>Variant type (<b>vt</b>): <b>VT_I8</b></li>
+<li>Variant member: <b>hVal</b></li>
+</ul>
+To clear a previously set time, use an empty <b>PROPVARIANT</b> (<b>VT_EMPTY</b>).
+
+</td>
+</tr>
+</table>
+ 
+
+The adjusted start and stop times are used the next time that <a href="https://msdn.microsoft.com/c792a024-c4f8-4e0b-9720-259d1dc28ee8">IMFPMediaPlayer::SetMediaItem</a> is called with this media item. If the media item is already set on the player, the change does not happen unless you call <b>SetMediaItem</b> again.
+
+
+#### Examples
+
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT PlayMediaClip(
+    IMFPMediaPlayer *pPlayer,
+    PCWSTR pszURL,
+    LONGLONG    hnsStart,
+    LONGLONG    hnsEnd
+    )
+{
+    IMFPMediaItem *pItem = NULL;
+    PROPVARIANT varStart, varEnd;
+
+    ULONGLONG hnsDuration = 0;
+
+    HRESULT hr = pPlayer-&gt;CreateMediaItemFromURL(pszURL, TRUE, 0, &amp;pItem);
+    if (FAILED(hr))
+    {
+        goto done;
+    }
+
+    hr = GetPlaybackDuration(pItem, &amp;hnsDuration);
+    if (FAILED(hr))
+    {
+        goto done;
+    }
+
+    if ((ULONGLONG)hnsEnd &gt; hnsDuration)
+    {
+        hnsEnd = hnsDuration;
+    }
+
+    hr = InitPropVariantFromInt64(hnsStart, &amp;varStart);
+    if (FAILED(hr))
+    {
+        goto done;
+    }
+
+    hr = InitPropVariantFromInt64(hnsEnd, &amp;varEnd);
+    if (FAILED(hr))
+    {
+        goto done;
+    }
+
+    hr = pItem-&gt;SetStartStopPosition(
+        &amp;MFP_POSITIONTYPE_100NS,
+        &amp;varStart,
+        &amp;MFP_POSITIONTYPE_100NS,
+        &amp;varEnd
+        );
+    if (FAILED(hr))
+    {
+        goto done;
+    }
+
+    hr = pPlayer-&gt;SetMediaItem(pItem);
+
+done:
+    SafeRelease(&amp;pItem);
+    return hr;
+}
+</pre>
+</td>
+</tr>
+</table></span></div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/cd761a4a-42ad-4994-b1b8-0946d29c3d8b">How to Play a File Clip</a>
+
+
+
+<a href="https://msdn.microsoft.com/2839d256-bdaf-40cf-9f9d-46f9e2ce59e8">IMFPMediaItem</a>
+
+
+
+<a href="https://msdn.microsoft.com/6f143c51-ec46-46d4-9a1e-b04fcc0d8bea">Using MFPlay for Audio/Video Playback</a>
+ 
+
+ 
+

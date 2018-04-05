@@ -1,0 +1,101 @@
+---
+UID: NF:xaudio2.IXAudio2SourceVoice.GetFrequencyRatio
+title: IXAudio2SourceVoice::GetFrequencyRatio method
+author: windows-driver-content
+description: Returns the frequency adjustment ratio of the voice.
+old-location: xaudio2\ixaudio2sourcevoice_interface_getfrequencyratio.htm
+old-project: xaudio2
+ms.assetid: M:Microsoft.directx_sdk.ixaudio2sourcevoice.IXAudio2SourceVoice.GetFrequencyRatio(float@)
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: GetFrequencyRatio method [XAudio2 Audio Mixing APIs], GetFrequencyRatio method [XAudio2 Audio Mixing APIs], IXAudio2SourceVoice interface, GetFrequencyRatio,IXAudio2SourceVoice.GetFrequencyRatio, IXAudio2SourceVoice, IXAudio2SourceVoice interface [XAudio2 Audio Mixing APIs], GetFrequencyRatio method, IXAudio2SourceVoice::GetFrequencyRatio, xaudio2.ixaudio2sourcevoice_interface_getfrequencyratio, xaudio2/IXAudio2SourceVoice::GetFrequencyRatio
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: xaudio2.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: XAUDIO2_FILTER_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	xaudio2.h
+api_name:
+-	IXAudio2SourceVoice.GetFrequencyRatio
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+---
+
+# IXAudio2SourceVoice::GetFrequencyRatio method
+
+
+## -description
+
+
+Returns the frequency adjustment ratio of the voice.
+
+
+## -parameters
+
+
+
+
+### -param pRatio [out]
+
+Returns the current frequency adjustment ratio if successful.
+
+
+## -returns
+
+
+
+This method does not return a value.
+
+
+
+
+## -remarks
+
+
+
+<b>GetFrequencyRatio</b> always returns the voice's actual current frequency ratio. However, this may not match the ratio set by the most recent <a href="https://msdn.microsoft.com/58D458C3-528B-4696-8A24-2D66B93695C3">IXAudio2SourceVoice::SetFrequencyRatio</a> call: the actual ratio is only changed the next time the audio engine runs after the <b>IXAudio2SourceVoice::SetFrequencyRatio</b> call (or after the corresponding <a href="https://msdn.microsoft.com/2E798B7B-AD3E-4DCD-BB88-BAD3EC64EFE1">IXAudio2::CommitChanges</a> call, if <b>IXAudio2SourceVoice::SetFrequencyRatio</b> was called with a deferred operation ID).
+
+
+
+For information on frequency ratios, see <a href="https://msdn.microsoft.com/58D458C3-528B-4696-8A24-2D66B93695C3">IXAudio2SourceVoice::SetFrequencyRatio</a>.
+
+
+<h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
+Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK (XAudio 2.7)
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/116DD0E0-8F0B-4934-A48D-FDBE0D0DF049">IXAudio2SourceVoice</a>
+ 
+
+ 
+

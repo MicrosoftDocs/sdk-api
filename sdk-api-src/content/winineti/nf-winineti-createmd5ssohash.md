@@ -1,0 +1,118 @@
+---
+UID: NF:winineti.CreateMD5SSOHash
+title: CreateMD5SSOHash function
+author: windows-driver-content
+description: The CreateMD5SSOHash function obtains the default Microsoft Passport password for a specified account or realm, creates an MD5 hash from it using a specified wide-character challenge string, and returns the result as a string of hexadecimal digit bytes.
+old-location: wininet\createmd5ssohash.htm
+old-project: WinInet
+ms.assetid: 9aba22d7-a1a9-4b90-bfc6-78df8a8d0ce5
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: CreateMD5SSOHash, CreateMD5SSOHash function [WinINet], wininet.createmd5ssohash, winineti/CreateMD5SSOHash
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: winineti.h
+req.include-header: Wininet.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: INTERNET_AUTH_NOTIFY_DATA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Wininet.dll
+api_name:
+-	CreateMD5SSOHash
+product: Windows
+targetos: Windows
+req.lib: Wininet.lib
+req.dll: Wininet.dll
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# CreateMD5SSOHash function
+
+
+## -description
+
+
+The <b>CreateMD5SSOHash</b> function obtains the default Microsoft Passport password for a specified account or realm, creates an MD5 hash from it using a specified wide-character challenge string, and returns the result as a string of hexadecimal digit bytes.
+
+
+## -parameters
+
+
+
+
+### -param pszChallengeInfo [in]
+
+Pointer to the wide-character challenge string to use for the MD5 hash.
+
+
+### -param pwszRealm [in]
+
+Pointer to a string that names a realm for which to obtain the password. This parameter is ignored unless <i>pwszTarget</i> is <b>NULL</b>. If both <i>pwszTarget</i> and <i>pwszRealm</i> are <b>NULL</b>, the default realm is used.
+
+
+### -param pwszTarget [in]
+
+Pointer to a string that names an account for which to obtain the password. If <i>pwszTarget</i> is <b>NULL</b>, the realm indicated by <i>pwszRealm</i> is used.
+
+
+### -param pbHexHash [out]
+
+Pointer to an output buffer into which the MD5 hash is returned in hex string format. This buffer must be at least 33 bytes long.
+
+
+## -returns
+
+
+
+Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
+
+
+
+
+## -remarks
+
+
+
+Once the <b>CreateMD5SSOHash</b> function successfully obtains the Microsoft Passport password for the specified account or realm, it converts both the challenge string and the password from wide characters to multi-byte (generally 8-bit) characters, concatenates them, and uses the RSA library to generate an MD5 hash from the resulting key. It then converts the hash into a <b>null</b>-terminated string of 8-bit hexadecimal digits (using lowercase letters) which it places in the buffer pointed to by the <i>pbHexHash</i> parameter. 
+
+The output buffer pointed to by  <i>pbHexHash</i> must therefore be long enough to accept two bytes for each of the 16 bytes of the hash, plus a terminating <b>null</b> character, for a total of 33 bytes.
+
+Like all other aspects of the WinINet API, this function cannot be safely called from within DllMain or the constructors and destructors of global objects.
+
+<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://msdn.microsoft.com/354ab65d-5e46-451d-b36b-2f8166a1a048">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
+<div> </div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/f3752031-30d3-4e35-8eae-1d4971b66bc2">Handling Authentication</a>
+
+
+
+<a href="https://msdn.microsoft.com/2e0da5c6-29e4-47b5-8ed2-8712c9ca2c97"> WinINet Functions</a>
+ 
+
+ 
+

@@ -1,0 +1,220 @@
+---
+UID: NF:mfplay.IMFPMediaPlayer.InsertEffect
+title: IMFPMediaPlayer::InsertEffect method
+author: windows-driver-content
+description: Applies an audio or video effect to playback.
+old-location: mf\imfpmediaplayer_inserteffect.htm
+old-project: medfound
+ms.assetid: 2689ee46-5cfe-4616-850c-eb5aef340daa
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: FALSE, IMFPMediaPlayer, IMFPMediaPlayer interface [Media Foundation], InsertEffect method, IMFPMediaPlayer::InsertEffect, InsertEffect method [Media Foundation], InsertEffect method [Media Foundation], IMFPMediaPlayer interface, InsertEffect,IMFPMediaPlayer.InsertEffect, TRUE, mf.imfpmediaplayer_inserteffect, mfplay/IMFPMediaPlayer::InsertEffect
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: mfplay.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: "_MFP_MEDIAITEM_CHARACTERISTICS"
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfplay.h
+api_name:
+-	IMFPMediaPlayer.InsertEffect
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IMFPMediaPlayer::InsertEffect method
+
+
+## -description
+
+
+
+<div class="alert"><b>Important</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="https://msdn.microsoft.com/dac99908-be90-415d-8837-2f97d573feb5">Media Session</a> for playback.</div>
+<div> </div>
+
+
+Applies an audio or video effect to playback.
+
+
+## -parameters
+
+
+
+
+### -param pEffect [in]
+
+Pointer to the <b>IUnknown</b> interface for one of the following: 
+
+<ul>
+<li>A Media Foundation transform (MFT) that implements the effect. MFTs expose the <a href="https://msdn.microsoft.com/3cc502d8-d364-43b9-b0b6-d9474c002b20">IMFTransform</a> interface.</li>
+<li>An activation object that creates an MFT. Activation objects expose the <a href="https://msdn.microsoft.com/c0936e3c-3cd1-4c1e-a336-2dee7d943963">IMFActivate</a> interface.</li>
+</ul>
+
+### -param fOptional [in]
+
+Specifies whether the effect is optional.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="TRUE"></a><a id="true"></a><dl>
+<dt><b><b>TRUE</b></b></dt>
+</dl>
+</td>
+<td width="60%">
+The effect is optional. If the MFPlay player object cannot add the effect, it ignores the effect and  continues playback.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="FALSE"></a><a id="false"></a><dl>
+<dt><b><b>FALSE</b></b></dt>
+</dl>
+</td>
+<td width="60%">
+If the MFPlay player object cannot add the effect, a playback error occurs.
+
+</td>
+</tr>
+</table>
+ 
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b><b>S_OK</b></b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b><b>MF_E_INVALIDINDEX</b></b></dt>
+</dl>
+</td>
+<td width="60%">
+This effect was already added.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+The object specified in the <i>pEffect</i> parameter can implement either a video effect or an audio effect. The effect is applied to any media items set after the method is called. It is not applied to the current media item. 
+
+For each media item, the effect is applied to the first selected stream of the matching type (audio or video). If a media item has two selected streams of the same type, the second stream does not receive the effect. The effect is ignored if the media item does not contain a stream that matches the effect type. For example, if you set a video effect and play a file that contains just audio, the video effect is ignored, although no error is raised.
+
+The effect is applied to all subsequent media items, until the application removes the effect. To remove an effect, call <a href="https://msdn.microsoft.com/ca8507b9-c6c5-4e17-9c18-3ec1514de897">IMFPMediaPlayer::RemoveEffect</a> or <a href="https://msdn.microsoft.com/8745714c-315c-4183-86a2-7c189328dfe6">IMFPMediaPlayer::RemoveAllEffects</a>.
+
+If you set multiple effects of the same type (audio or video), they are applied in the same order in which you call <b>InsertEffect</b>.
+
+<h3><a id="Remote_Playback_Optimizations"></a><a id="remote_playback_optimizations"></a><a id="REMOTE_PLAYBACK_OPTIMIZATIONS"></a>Remote Playback Optimizations</h3>
+Audio and video effects might be incompatible with optimizations that are used for remote playback. The following remarks apply only to audio or video effects that are actually used during playback:
+
+<ul>
+<li>If you mark an audio or video effect as required, by setting <i>fOptional</i> to <b>FALSE</b>, MFPlay disables remote playback optimizations.</li>
+<li>Otherwise, if all audio/video effects are marked as optional, MFPlay  might drop the effects, in order to enable remote playback optimizations.</li>
+</ul>
+In other words, required effects have priority over remote optimizations, but optional effects do not.
+
+Remote optimizations might be disabled for other reasons. For example, they are disabled if you set the <b>MFP_OPTION_NO_REMOTE_DESKTOP_OPTIMIZATION</b> option when you create the player object. In that case, MFPlay will attempt to insert any optional effects. 
+
+Non-audio, non-video effects do not affect remote optimizations. Also, if you insert a required effect but the source does not contain any streams of that type, remote optimizations are not disabled.
+
+
+#### Examples
+
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT AddPlaybackEffect(REFGUID clsid, IMFPMediaPlayer *pPlayer)
+{
+    IMFTransform *pMFT = NULL;
+
+    HRESULT hr = CoCreateInstance(clsid, NULL, CLSCTX_INPROC_SERVER, 
+        IID_PPV_ARGS(&amp;pMFT));
+
+    if (SUCCEEDED(hr))
+    {
+        hr = pPlayer-&gt;InsertEffect(pMFT, TRUE); // Set as optional.
+    }
+
+    SafeRelease(&amp;pMFT);
+    return hr;
+}
+</pre>
+</td>
+</tr>
+</table></span></div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/90f34bf3-899f-46e0-80c8-af83caa4835d">How to Add Audio or Video Effects</a>
+
+
+
+<a href="https://msdn.microsoft.com/fa57d465-1ee9-4f7a-9be8-66a6d73f65e8">IMFPMediaPlayer</a>
+
+
+
+<a href="https://msdn.microsoft.com/6f143c51-ec46-46d4-9a1e-b04fcc0d8bea">Using MFPlay for Audio/Video Playback</a>
+ 
+
+ 
+

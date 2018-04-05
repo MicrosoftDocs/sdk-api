@@ -1,0 +1,118 @@
+---
+UID: NF:ctfutb.ITfLangBarItemButton.InitMenu
+title: ITfLangBarItemButton::InitMenu method
+author: windows-driver-content
+description: This method is not used if the button item does not have the TF_LBI_STYLE_BTN_MENU style.
+old-location: tsf\itflangbaritembutton_initmenu.htm
+old-project: TSF
+ms.assetid: 6f9debf8-1c25-4228-abd2-2b2a099cf5cd
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: ITfLangBarItemButton, ITfLangBarItemButton interface [Text Services Framework], InitMenu method, ITfLangBarItemButton::InitMenu, InitMenu method [Text Services Framework], InitMenu method [Text Services Framework], ITfLangBarItemButton interface, InitMenu,ITfLangBarItemButton.InitMenu, _tsf_itflangbaritembutton_initmenu_ref, ctfutb/ITfLangBarItemButton::InitMenu, tsf.itflangbaritembutton_initmenu
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: ctfutb.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Ctfutb.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: TfLBIClick
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	msctf.dll
+api_name:
+-	ITfLangBarItemButton.InitMenu
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
+---
+
+# ITfLangBarItemButton::InitMenu method
+
+
+## -description
+
+
+This method is not used if the button item does not have the TF_LBI_STYLE_BTN_MENU style.
+
+
+## -parameters
+
+
+
+
+### -param pMenu [in]
+
+Pointer to an <a href="https://msdn.microsoft.com/303115e1-8d52-4a0a-b05e-b5c92b8b3e2a">ITfMenu</a> interface that the language bar button uses to add items to the menu that the language bar displays for the button.
+
+
+## -returns
+
+
+
+This method can return one of these values.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method was successful.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_FAIL</b></dt>
+</dl>
+</td>
+<td width="60%">
+An unspecified error occurred.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/098a8cdc-ff34-4729-9b34-279c499d40a8">ITfLangBarItemButton</a>
+
+
+
+<a href="https://msdn.microsoft.com/303115e1-8d52-4a0a-b05e-b5c92b8b3e2a">ITfMenu
+      </a>
+ 
+
+ 
+

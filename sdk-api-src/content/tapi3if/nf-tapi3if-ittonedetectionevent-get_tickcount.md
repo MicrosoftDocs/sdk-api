@@ -1,0 +1,115 @@
+---
+UID: NF:tapi3if.ITToneDetectionEvent.get_TickCount
+title: ITToneDetectionEvent::get_TickCount method
+author: windows-driver-content
+description: The get_TickCount method gets the &#0034;tick count&#0034; (the number of milliseconds since Windows started) at which the tone was detected.
+old-location: tapi3\ittonedetectionevent_get_tickcount.htm
+old-project: Tapi
+ms.assetid: 01a00b2c-d4b0-4de0-91b8-0741ed1fd300
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: ITToneDetectionEvent, ITToneDetectionEvent interface [TAPI 2.2], get_TickCount method, ITToneDetectionEvent::get_TickCount, _tapi3_ittonedetectionevent_get_tickcount, get_TickCount method [TAPI 2.2], get_TickCount method [TAPI 2.2], ITToneDetectionEvent interface, get_TickCount,ITToneDetectionEvent.get_TickCount, tapi3.ittonedetectionevent_get_tickcount, tapi3if/ITToneDetectionEvent::get_TickCount
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: tapi3if.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: TERMINAL_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Tapi3.dll
+api_name:
+-	ITToneDetectionEvent.get_TickCount
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# ITToneDetectionEvent::get_TickCount method
+
+
+## -description
+
+
+The 
+<b>get_TickCount</b> method gets the "tick count" (the number of milliseconds since Windows started) at which the tone was detected.
+
+
+## -parameters
+
+
+
+
+### -param plTickCount [out]
+
+Pointer to a value to receive the tick count.
+
+
+## -returns
+
+
+
+This method can return one of these values.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+Method succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_POINTER</b></dt>
+</dl>
+</td>
+<td width="60%">
+The <i>plTickCount</i> parameter is not a valid pointer.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/1e0f71a2-1aae-46b7-9147-7bf9da4d9503">ITToneDetectionEvent</a>
+ 
+
+ 
+

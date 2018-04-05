@@ -1,0 +1,88 @@
+---
+UID: NF:dvbsiparser.IIsdbCAContractInformationDescriptor.GetContractVerificationInfoLength
+title: IIsdbCAContractInformationDescriptor::GetContractVerificationInfoLength method
+author: windows-driver-content
+description: Gets the length of the contract_verification_info field from an Integrated Services Digital Broadcasting (ISDB) conditional access (CA) contract information descriptor.
+old-location: mstv\iisdbcacontractinformationdescriptor_getcontractverificationinfolength.htm
+old-project: mstv
+ms.assetid: a7000edd-72a1-4979-b603-a42eecc691d7
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: GetContractVerificationInfoLength method [Microsoft TV Technologies], GetContractVerificationInfoLength method [Microsoft TV Technologies], IIsdbCAContractInformationDescriptor interface, GetContractVerificationInfoLength,IIsdbCAContractInformationDescriptor.GetContractVerificationInfoLength, IIsdbCAContractInformationDescriptor, IIsdbCAContractInformationDescriptor interface [Microsoft TV Technologies], GetContractVerificationInfoLength method, IIsdbCAContractInformationDescriptor::GetContractVerificationInfoLength, dvbsiparser/IIsdbCAContractInformationDescriptor::GetContractVerificationInfoLength, mstv.iisdbcacontractinformationdescriptor_getcontractverificationinfolength
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: dvbsiparser.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: None supported
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Dvbsiparser.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	dvbsiparser.h
+api_name:
+-	IIsdbCAContractInformationDescriptor.GetContractVerificationInfoLength
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
+---
+
+# IIsdbCAContractInformationDescriptor::GetContractVerificationInfoLength method
+
+
+## -description
+
+
+Gets the length of the contract_verification_info field from an Integrated Services Digital Broadcasting (ISDB) conditional access (CA) contract information descriptor.
+
+
+## -parameters
+
+
+
+
+### -param pbVal [out]
+
+Receives the field length.
+
+
+## -returns
+
+
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/d877a625-d683-4472-98de-f24c165c753a">IIsdbCAContractInformationDescriptor</a>
+
+
+
+<a href="https://msdn.microsoft.com/bfec246a-df34-46c3-9529-dc1fa75582da">IIsdbCAContractInformationDescriptor::GetContractVerificationInfo</a>
+ 
+
+ 
+

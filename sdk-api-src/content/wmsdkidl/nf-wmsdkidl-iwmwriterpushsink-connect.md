@@ -1,0 +1,172 @@
+---
+UID: NF:wmsdkidl.IWMWriterPushSink.Connect
+title: IWMWriterPushSink::Connect method
+author: windows-driver-content
+description: The Connect method connects to a publishing point on a Windows Media server.
+old-location: wmformat\iwmwriterpushsink_connect.htm
+old-project: wmformat
+ms.assetid: 5934697e-5d7c-4681-a424-9ad764dfeab1
+ms.author: windowsdriverdev
+ms.date: 3/23/2018
+ms.keywords: Connect method [windows Media Format], Connect method [windows Media Format], IWMWriterPushSink interface, Connect,IWMWriterPushSink.Connect, IWMWriterPushSink, IWMWriterPushSink interface [windows Media Format], Connect method, IWMWriterPushSink::Connect, IWMWriterPushSinkConnect, wmformat.iwmwriterpushsink_connect, wmsdkidl/IWMWriterPushSink::Connect
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wmsdkidl.h
+req.include-header: Wmsdk.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WM_AETYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wmvcore.lib
+-	Wmvcore.dll
+-	WMStubDRM.lib
+-	WMStubDRM.dll
+api_name:
+-	IWMWriterPushSink.Connect
+product: Windows
+targetos: Windows
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IWMWriterPushSink::Connect method
+
+
+## -description
+
+
+
+The <b>Connect</b> method connects to a publishing point on a Windows Media server.
+
+
+
+
+## -parameters
+
+
+
+
+### -param pwszURL [in]
+
+Wide-character string that contains the URL of the publishing point on the Windows Media server. For example, if the URL is "http://MyServer/MyPublishingPoint", the push sink connects to the publishing point named MyPublishingPoint on the server named MyServer. The default port number is 80. If the server is using a different port, specify the port number in the URL. For example, "http://MyServer:8080/MyPublishingPoint" specifies port number 8080.
+
+
+### -param pwszTemplateURL [in]
+
+Optional wide-character string that contains the URL of an existing publishing point to use as a template. This parameter can be <b>NULL</b>.
+
+
+### -param fAutoDestroy [in]
+
+Boolean value that specifies whether to remove the publishing point after the push sink disconnects from the server.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_FAIL</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method failed.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+Invalid argument; <i>pwszURL</i> cannot be <b>NULL</b>.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_OUTOFMEMORY</b></dt>
+</dl>
+</td>
+<td width="60%">
+Insufficient memory.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>NS_E_INVALID_NAME</b></dt>
+</dl>
+</td>
+<td width="60%">
+Host name is not valid.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+If the publishing point specified in <i>pwsURL</i> does not exist, the server creates a new publishing point. The caller must have write and create permissions on the server. The new publishing point has the same configuration as the publishing point specified in the <i>pwszTemplateURL</i> parameter. If <i>pwszTemplateURL</i> is <b>NULL</b>, the new publishing point has the same configuration as the server's default publishing point.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/47bee154-0d29-4f4c-ac38-af8747088024">IWMWriterPushSink Interface</a>
+ 
+
+ 
+

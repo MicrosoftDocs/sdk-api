@@ -1,0 +1,71 @@
+---
+UID: NF:wuapi.IUpdateCollection.get_Count
+title: IUpdateCollection::get_Count method
+author: windows-driver-content
+description: Gets the number of elements in the collection.
+old-location: wua\iupdatecollection_count.htm
+old-project: Wua_Sdk
+ms.assetid: f0d8de56-c51e-4165-a6bb-ea7eec70c567
+ms.author: windowsdriverdev
+ms.date: 3/15/2018
+ms.keywords: Count property [Windows Update Agent], Count property [Windows Update Agent], IUpdateCollection interface, IUpdateCollection, IUpdateCollection interface [Windows Update Agent], Count property, IUpdateCollection.Count, IUpdateCollection::get_Count, get_Count,IUpdateCollection.get_Count, wua.iupdatecollection_count, wuapi/IUpdateCollection::Count, wuapi/IUpdateCollection::get_Count
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wuapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Wuapi.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: UpdateType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wuapi.dll
+api_name:
+-	IUpdateCollection.Count
+-	IUpdateCollection.get_Count
+product: Windows
+targetos: Windows
+req.lib: Wuguid.lib
+req.dll: Wuapi.dll
+req.irql: 
+req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+---
+
+# IUpdateCollection::get_Count method
+
+
+## -description
+
+
+Gets the number of elements in the collection.
+
+This property is read-only.
+
+
+## -parameters
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/e56a09e9-6a5f-4579-9a5c-987519fccaad">IUpdateCollection</a>
+ 
+
+ 
+

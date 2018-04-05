@@ -1,0 +1,205 @@
+---
+UID: NF:functiondiscoveryapi.IFunctionDiscovery.GetInstanceCollection
+title: IFunctionDiscovery::GetInstanceCollection method
+author: windows-driver-content
+description: Gets the specified collection of function instances, based on category and subcategory.
+old-location: ncd\ifunctiondiscovery_getinstancecollection_method.htm
+old-project: FunDisc
+ms.assetid: 615d252c-7365-4ef5-9e4f-94a49783a1bb
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: GetInstanceCollection method, GetInstanceCollection method, IFunctionDiscovery interface, GetInstanceCollection,IFunctionDiscovery.GetInstanceCollection, IFunctionDiscovery, IFunctionDiscovery interface, GetInstanceCollection method, IFunctionDiscovery::GetInstanceCollection, functiondiscoveryapi/IFunctionDiscovery::GetInstanceCollection, ncd.ifunctiondiscovery_getinstancecollection_method
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: functiondiscoveryapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: FunctionDiscoveryAPI.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: SystemVisibilityFlags
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	FunDisc.dll
+api_name:
+-	IFunctionDiscovery.GetInstanceCollection
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: FunDisc.dll
+req.irql: 
+req.product: Internet Explorer 5
+---
+
+# IFunctionDiscovery::GetInstanceCollection method
+
+
+## -description
+
+
+<p class="CCE_Message">[Function Discovery is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
+
+Gets the specified collection of function instances, based on category and subcategory.
+
+
+## -parameters
+
+
+
+
+### -param pszCategory [in]
+
+The identifier of the category to be enumerated. See <a href="https://msdn.microsoft.com/84633d91-d193-437c-b1cf-9bc491ad416c">Category Definitions</a>.
+
+
+### -param pszSubCategory [in]
+
+The identifier of the subcategory to be enumerated. See <a href="https://msdn.microsoft.com/9793e37d-6c12-431f-95d6-fd5350f11029">Subcategory Definitions</a>. This parameter can be <b>NULL</b>.
+
+
+### -param fIncludeAllSubCategories [in]
+
+If <b>TRUE</b>, this method recursively enumerates all the subcategories of the category specified in <i>pszCategory</i>, returning a collection containing function instances from all the subcategories of <i>pszCategory</i>. 
+
+
+
+If <b>FALSE</b>, this method restricts itself to returning function instances in the category specified by <i>pszCategory</i> and the subcategory specified by <i>pszSubCategory</i>.
+
+
+### -param ppIFunctionInstanceCollection [out]
+
+A pointer to an <a href="https://msdn.microsoft.com/8ac1a406-92f3-4e39-985e-ab8fa7d28751">IFunctionInstanceCollection</a> interface pointer that receives the function instance collection containing the requested function instances. The collection is empty if no qualifying function instances are found.
+
+
+## -returns
+
+
+
+Possible return values include, but are not limited to, the following.
+
+<table>
+<tr>
+<th>Return code/value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method completed successfully.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+The value of <i>pszCategory</i> is invalid.  The value returned in <i>ppIFunctionInstanceCollection</i> parameter is <b>NULL</b>.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_OUTOFMEMORY</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method is unable to allocate the memory required to perform this operation.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>HRESULT_FROM_WIN32(ERROR_FILE_NOT_FOUND)</b></dt>
+<dt>0x80070002</dt>
+</dl>
+</td>
+<td width="60%">
+The value of <i>pszCategory</i> or <i>pszSubCategory</i> is unknown.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_PENDING</b></dt>
+</dl>
+</td>
+<td width="60%">
+The call was executed for a provider that returns results asynchronously.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+Some function discovery providers return their query results with the <a href="https://msdn.microsoft.com/1819fe08-b151-482d-8e2c-1d599fd15609">IFunctionDiscoveryNotification</a> interface.  <b>GetInstanceCollection</b> does not find function instances that are returned in this way and will fail with E_PENDING.  It is recommended that clients use the <a href="https://msdn.microsoft.com/80e70972-ced1-416e-aa4f-69c54b2cbf95">CreateInstanceQuery</a> method of the <a href="https://msdn.microsoft.com/352a8d61-7d3a-423d-8b7e-1163d4fa1e00">IFunctionDiscovery</a> interface to find function instances for such providers.
+
+If the method succeeds but no function instances were found that matched the query parameters, then <b>S_OK</b> is returned and <i>ppFunctionInstanceCollection</i> points to an empty collection (the collection's <a href="https://msdn.microsoft.com/library/windows/hardware/ff597609">GetCount</a> method returns 0).
+
+Subcategory queries are only supported for layered categories and some provider categories. The <a href="https://msdn.microsoft.com/335b11f1-99f3-42ab-ba22-681f572da246">Registry Provider</a>, the PnP-X association provider, and the publication provider support subcategory queries. Custom providers can be explicitly designed to support subcategory queries. For other providers, function instance collections can be filtered using query constraints. For a list of query constraints, see <a href="https://msdn.microsoft.com/13502fbd-bc88-4c28-939e-3e964ab6bb5d">Constraint Definitions</a>.
+
+
+#### Examples
+
+The following code returns the function instances associated with the SSDP provider in the Microsoft.Networking.Devices namespace.
+
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>hr = spDisco-&gt;GetInstanceCollection(FCTN_CATEGORY_NETWORKDEVICES,
+                                   FCTN_SUBCAT_NETWORKDEVICES_SSDP, 
+                                   FALSE, 
+                                   &amp;spFunctionInstanceCollection);
+
+</pre>
+</td>
+</tr>
+</table></span></div>
+See interface constraints on <a href="https://msdn.microsoft.com/03343d85-c0db-436d-bedc-c001b1886173">IFunctionInstanceQuery</a> to filter on multiple interfaces at one time or to filter on providers that do not support subcategory queries.
+
+<div class="code"></div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/352a8d61-7d3a-423d-8b7e-1163d4fa1e00">IFunctionDiscovery</a>
+ 
+
+ 
+

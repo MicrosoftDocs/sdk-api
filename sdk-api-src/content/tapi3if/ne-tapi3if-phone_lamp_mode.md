@@ -1,0 +1,115 @@
+---
+UID: NE:tapi3if.PHONE_LAMP_MODE
+title: PHONE_LAMP_MODE
+author: windows-driver-content
+description: The PHONE_LAMP_MODE enum provides indicators of a phone lamp's status.
+old-location: tapi3\phone_lamp_mode.htm
+old-project: Tapi
+ms.assetid: cb971936-269c-4e59-bfc1-a3edc977ceb5
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: LM_BROKENFLUTTER, LM_DUMMY, LM_FLASH, LM_FLUTTER, LM_OFF, LM_STEADY, LM_UNKNOWN, LM_WINK, PHONE_LAMP_MODE, PHONE_LAMP_MODE enumeration [TAPI 2.2], _tapi3_phone_lamp_mode, tapi3.phone_lamp_mode, tapi3if/LM_BROKENFLUTTER, tapi3if/LM_DUMMY, tapi3if/LM_FLASH, tapi3if/LM_FLUTTER, tapi3if/LM_OFF, tapi3if/LM_STEADY, tapi3if/LM_UNKNOWN, tapi3if/LM_WINK, tapi3if/PHONE_LAMP_MODE
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: enum
+req.header: tapi3if.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: PHONE_LAMP_MODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Tapi3if.h
+api_name:
+-	PHONE_LAMP_MODE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# PHONE_LAMP_MODE enumeration
+
+
+## -description
+
+
+The 
+<b>PHONE_LAMP_MODE</b> enum provides indicators of a phone lamp's status.
+
+
+## -enum-fields
+
+
+
+
+### -field LM_DUMMY
+
+The lamp identifier has no corresponding lamp.
+
+
+### -field LM_OFF
+
+The lamp is off.
+
+
+### -field LM_STEADY
+
+The lamp is on steadily.
+
+
+### -field LM_WINK
+
+The lamp is winking, which means on and off at a normal rate.
+
+
+### -field LM_FLASH
+
+The lamp is flashing, which means a slow on and off.
+
+
+### -field LM_FLUTTER
+
+The lamp is fluttering, which means a fast on and off.
+
+
+### -field LM_BROKENFLUTTER
+
+The lamp is flashing, which means superposition of a flash and flutter.
+
+
+### -field LM_UNKNOWN
+
+The lamp mode is not known.
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/5e0fa135-304a-4598-a6cd-2e5734b3678c">ITPhone::get_LampMode</a>
+
+
+
+<a href="https://msdn.microsoft.com/0445cf2c-1b00-4136-bdab-3c6e0669ef11">ITPhone::put_LampMode</a>
+ 
+
+ 
+

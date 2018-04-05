@@ -1,0 +1,221 @@
+---
+UID: NF:qos2.QOSStopTrackingClient
+title: QOSStopTrackingClient function
+author: windows-driver-content
+description: The QOSStopTrackingClient function notifies the QoS subsystem to stop tracking a client that has previously used the QOSStartTrackingClient function. If a flow is currently in progress, this function will not affect it.
+old-location: qos\qosstoptrackingclient.htm
+old-project: QOS
+ms.assetid: 7db9971e-3b53-458e-81ff-94f355c49973
+ms.author: windowsdriverdev
+ms.date: 3/23/2018
+ms.keywords: QOSStopTrackingClient, QOSStopTrackingClient function [QOS], qos.qosstoptrackingclient, qos2/QOSStopTrackingClient
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: qos2.h
+req.include-header: Qos2.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: QOS_TRAFFIC_TYPE, *PQOS_TRAFFIC_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	qwave.dll
+api_name:
+-	QOSStopTrackingClient
+product: Windows
+targetos: Windows
+req.lib: Qwave.lib
+req.dll: Qwave.dll
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# QOSStopTrackingClient function
+
+
+## -description
+
+
+The <b>QOSStopTrackingClient</b> function notifies the QoS subsystem to stop tracking a client that has previously used the <a href="https://msdn.microsoft.com/36e4a71f-fb6b-42b6-a770-8cbcf98e7eb3">QOSStartTrackingClient</a> function. If a flow is currently in progress, this function will not affect it.
+
+
+## -parameters
+
+
+
+
+### -param QOSHandle [in]
+
+Handle to the QOS subsystem returned by <a href="https://msdn.microsoft.com/dcee0bed-dc6f-435d-b292-07e331f6cf5b">QOSCreateHandle</a>.
+
+
+### -param DestAddr [in]
+
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a> structure that contains the IP address of the client device.  Clients are identified by their IP address and address family.  A port number is not required and will be ignored.
+
+
+### -param Flags
+
+Reserved for future use.
+
+
+## -returns
+
+
+
+If the function succeeds, the return value is nonzero.
+
+If the function fails, the return value is 0.  To get extended error information, call <b>GetLastError</b>.  Some possible error codes follow.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_INVALID_HANDLE</b></dt>
+</dl>
+</td>
+<td width="60%">
+The <i>QOSHandle</i> parameter is invalid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_INVALID_PARAMETER</b></dt>
+</dl>
+</td>
+<td width="60%">
+The <i>DestAddr</i> parameter is invalid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_NOT_ENOUGH_MEMORY</b></dt>
+</dl>
+</td>
+<td width="60%">
+Indicates that a memory allocation failed.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_NO_SYSTEM_RESOURCES</b></dt>
+</dl>
+</td>
+<td width="60%">
+There are insufficient resources to carry out the operation.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_IO_DEVICE</b></dt>
+</dl>
+</td>
+<td width="60%">
+The request could not be performed because of an I/O device error.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_DEVICE_REINITIALIZATION_NEEDER</b></dt>
+</dl>
+</td>
+<td width="60%">
+The indicated device requires reinitialization due to hardware errors. The application should clean up and call <a href="https://msdn.microsoft.com/dcee0bed-dc6f-435d-b292-07e331f6cf5b">QOSCreateHandle</a> again.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_ADAP_HDW_ERR</b></dt>
+</dl>
+</td>
+<td width="60%">
+A network adapter hardware error occurred.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+The Winsock2.h header file must be included to use Winsock defined identifiers or functions.
+
+
+#### Examples
+
+The following code shows this function called in an application setting.  See <a href="https://msdn.microsoft.com/36e4a71f-fb6b-42b6-a770-8cbcf98e7eb3">QOSStartTrackingClient</a> for parameter information.
+
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>if(!QOSStopTrackingClient(QoSHandle, (sockaddr*)ptr-&gt;ai_addr, 0))
+{
+    std::cerr &lt;&lt; std::endl;
+    std::cerr &lt;&lt; __FILE__ &lt;&lt;" Line: " &lt;&lt; __LINE__ ;
+    std::cerr &lt;&lt; " - QOSStartTrackingClient failed. Exception code: "; 
+    std::cerr &lt;&lt; GetLastError() ;
+}
+else
+{
+    std::cout &lt;&lt; "QoS client tracking stopped." &lt;&lt; std::endl;
+}
+
+</pre>
+</td>
+</tr>
+</table></span></div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/36e4a71f-fb6b-42b6-a770-8cbcf98e7eb3">QOSStartTrackingClient</a>
+
+
+
+<a href="https://msdn.microsoft.com/022fde13-415e-49aa-8df4-472c4eadd6a0">Quality Windows Audio/Video Experience (qWAVE)</a>
+ 
+
+ 
+

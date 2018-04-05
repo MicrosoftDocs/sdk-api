@@ -1,0 +1,423 @@
+---
+UID: NF:imapi2.IDiscFormat2Erase.EraseMedia
+title: IDiscFormat2Erase::EraseMedia method
+author: windows-driver-content
+description: Erases the media in the active disc recorder.
+old-location: imapi\idiscformat2erase_erasemedia.htm
+old-project: imapi
+ms.assetid: dc71d1bf-b068-42c0-a87d-ae8fac279a58
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: EraseMedia method [IMAPI], EraseMedia method [IMAPI], IDiscFormat2Erase interface, EraseMedia,IDiscFormat2Erase.EraseMedia, IDiscFormat2Erase, IDiscFormat2Erase interface [IMAPI], EraseMedia method, IDiscFormat2Erase::EraseMedia, imapi.idiscformat2erase_erasemedia, imapi2/IDiscFormat2Erase::EraseMedia
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: imapi2.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Imapi2.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	imapi2.h
+api_name:
+-	IDiscFormat2Erase.EraseMedia
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IDiscFormat2Erase::EraseMedia method
+
+
+## -description
+
+
+Erases the media in the active disc recorder.
+
+
+## -parameters
+
+
+
+
+
+
+## -returns
+
+
+
+S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_POINTER</b></dt>
+</dl>
+</td>
+<td width="60%">
+Pointer is not valid.
+
+Value: 0x80004003
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_FAIL</b></dt>
+</dl>
+</td>
+<td width="60%">
+Unspecified failure.
+
+Value: 0x80004005
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_OUTOFMEMORY</b></dt>
+</dl>
+</td>
+<td width="60%">
+Failed to allocate the required memory.
+
+Value: 0x8007000E
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_IMAPI_RECORDER_COMMAND_TIMEOUT</b></dt>
+</dl>
+</td>
+<td width="60%">
+The device failed to accept the command within the timeout period. This may be caused by the device having entered an inconsistent state, or the timeout value for the command may need to be increased.
+
+Value: 0xC0AA020D
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_IMAPI_RECORDER_INVALID_RESPONSE_FROM_DEVICE</b></dt>
+</dl>
+</td>
+<td width="60%">
+The device reported unexpected or invalid data for a command.
+
+Value: 0xC0AA02FF
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_IMAPI_RECORDER_MEDIA_UPSIDE_DOWN</b></dt>
+</dl>
+</td>
+<td width="60%">
+The media is inserted upside down.
+
+Value: 0xC0AA0204
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_IMAPI_RECORDER_MEDIA_BECOMING_READY</b></dt>
+</dl>
+</td>
+<td width="60%">
+The drive reported that it is in the process of becoming ready. Please try the request again later.
+
+Value: 0xC0AA0205
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_IMAPI_RECORDER_MEDIA_NO_MEDIA</b></dt>
+</dl>
+</td>
+<td width="60%">
+There is no media in the device.
+
+Value: 0xC0AA0202
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_IMAPI_RECORDER_MEDIA_FORMAT_IN_PROGRESS</b></dt>
+</dl>
+</td>
+<td width="60%">
+The media is currently being formatted. Please wait for the format to complete before attempting to use the media.
+
+Value: 0xC0AA0206
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_IMAPI_RECORDER_MEDIA_BUSY</b></dt>
+</dl>
+</td>
+<td width="60%">
+The drive reported that it is performing a long-running operation, such as finishing a write. The drive may be unusable for a long period of time.
+
+Value: 0xC0AA0207
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_IMAPI_LOSS_OF_STREAMING</b></dt>
+</dl>
+</td>
+<td width="60%">
+The write failed because the drive did not receive data quickly enough to continue writing. Moving the source data to the local computer, reducing the write speed, or enabling a "buffer underrun free" setting may resolve this issue.
+
+Value: 0xC0AA0300
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_IMAPI_RECORDER_MEDIA_INCOMPATIBLE</b></dt>
+</dl>
+</td>
+<td width="60%">
+The media is not compatible or of unknown physical format.
+
+Value: 0xC0AA0203
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_IMAPI_RECORDER_DVD_STRUCTURE_NOT_PRESENT</b></dt>
+</dl>
+</td>
+<td width="60%">
+The DVD structure is not present. This may be caused by incompatible drive/medium used.
+
+Value: 0xC0AA020E
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_IMAPI_RECORDER_NO_SUCH_MODE_PAGE</b></dt>
+</dl>
+</td>
+<td width="60%">
+The device reported that the requested mode page (and type) is not present.
+
+Value: 0xC0AA0201
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_IMAPI_RECORDER_INVALID_MODE_PARAMETERS</b></dt>
+</dl>
+</td>
+<td width="60%">
+The drive reported that the combination of parameters provided in the mode page for a MODE SELECT command were not supported.
+
+Value: 0xC0AA0208
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_IMAPI_RECORDER_MEDIA_WRITE_PROTECTED</b></dt>
+</dl>
+</td>
+<td width="60%">
+The drive reported that the media is write protected.
+
+Value: 0xC0AA0209
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_IMAPI_RECORDER_MEDIA_SPEED_MISMATCH</b></dt>
+</dl>
+</td>
+<td width="60%">
+The media's speed is incompatible with the device. This may be caused by using higher or lower speed media than the range of speeds supported by the device.
+
+Value: 0xC0AA020F
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>HRESULT_FROM_WIN32(ERROR_INVALID_HANDLE)</b></dt>
+</dl>
+</td>
+<td width="60%">
+The specified handle is invalid.
+
+Value: 6
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>HRESULT_FROM_WIN32(ERROR_DEV_NOT_EXIST)</b></dt>
+</dl>
+</td>
+<td width="60%">
+The specified network resource or device is no longer available.
+
+Value: 55
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_IMAPI_RECORDER_LOCKED</b></dt>
+</dl>
+</td>
+<td width="60%">
+The device associated with this recorder during the last operation has been exclusively locked, causing this operation to failed.
+
+Value: 0xC0AA0210
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_IMAPI_ERASE_MEDIA_IS_NOT_SUPPORTED</b></dt>
+</dl>
+</td>
+<td width="60%">
+The current media type is unsupported.
+
+Value: 0xC0AA0909
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_IMAPI_ERASE_DRIVE_FAILED_SPINUP_COMMAND</b></dt>
+</dl>
+</td>
+<td width="60%">
+The drive returned an error for a START UNIT (spinup) command.  Manual intervention may be required.
+
+Value: 0x80AA0908
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_IMAPI_ERASE_TOOK_LONGER_THAN_ONE_HOUR</b></dt>
+</dl>
+</td>
+<td width="60%">
+The drive did not complete the erase in one hour.  The drive may require a power cycle, media removal, or other manual intervention to resume proper operation.
+
+<div class="alert"><b>Note</b>  Currently, this value will also be returned if an attempt to perform an erase on CD-RW or DVD-RW media via the <a href="https://msdn.microsoft.com/3789c876-f42c-4f69-b683-96c157d6418d">IDiscFormat2Erase</a> interface fails as a result of the media being bad.</div>
+<div> </div>
+Value: 0x80AA0906
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+Synchronously erases the media.  Progress can be reported by calling into registered events of type <a href="https://msdn.microsoft.com/0e999859-d409-4fd8-a5da-c43da64bcd8f">DDiscFormat2EraseEvents</a>.
+
+Before calling this method, you must call the following methods:
+
+<ul>
+<li>
+<a href="https://msdn.microsoft.com/d38c0d75-eb9c-4b8c-bf0e-7f05eb2f5116">IDiscFormat2Erase::put_Recorder</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/641395b1-724b-42d1-b230-a4d6f3844077">IDiscFormat2Erase::put_ClientName</a>
+</li>
+</ul>
+You should also consider calling the <a href="https://msdn.microsoft.com/9a76ebbe-69c5-46a4-b620-220957220e53">IDiscFormat2Erase::put_FullErase</a> method if its default value is not appropriate for your application.
+
+This method is synchronous. To determine the progress of the erase operation, you must implement the <a href="https://msdn.microsoft.com/0e999859-d409-4fd8-a5da-c43da64bcd8f">DDiscFormat2EraseEvents</a> interface. For examples that show how to implement an event handler in a script, see <a href="https://msdn.microsoft.com/1f15a5fe-f5d7-4e09-805f-2d0380bf2bb2">Monitoring Progress With Events</a>.
+
+Currently, the E_IMAPI_ERASE_TOOK_LONGER_THAN_ONE_HOUR value is returned if an attempt to perform an erase on CD-RW or DVD-RW media via the <a href="https://msdn.microsoft.com/3789c876-f42c-4f69-b683-96c157d6418d">IDiscFormat2Erase</a> interface fails as a result of the media being bad or a drive failure.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/3789c876-f42c-4f69-b683-96c157d6418d">IDiscFormat2Erase</a>
+
+
+
+<a href="https://msdn.microsoft.com/56b4db17-1699-4e09-9a6d-ef5e998621c5">IDiscFormat2Erase::get_FullErase</a>
+
+
+
+<a href="https://msdn.microsoft.com/9a76ebbe-69c5-46a4-b620-220957220e53">IDiscFormat2Erase::put_FullErase</a>
+ 
+
+ 
+

@@ -1,0 +1,105 @@
+---
+UID: NF:ddraw.IDirectDrawSurface7.GetUniquenessValue
+title: IDirectDrawSurface7::GetUniquenessValue method
+author: windows-driver-content
+description: Retrieves the current uniqueness value for this surface.
+old-location: directdraw\idirectdrawsurface7_getuniquenessvalue.htm
+old-project: directdraw
+ms.assetid: 559d9381-1135-47de-9bbe-49aa8d97f5d3
+ms.author: windowsdriverdev
+ms.date: 3/23/2018
+ms.keywords: GetUniquenessValue method [DirectDraw], GetUniquenessValue method [DirectDraw], IDirectDrawSurface7 interface, GetUniquenessValue,IDirectDrawSurface7.GetUniquenessValue, IDirectDrawSurface7, IDirectDrawSurface7 interface [DirectDraw], GetUniquenessValue method, IDirectDrawSurface7::GetUniquenessValue, ddraw/IDirectDrawSurface7::GetUniquenessValue, directdraw.idirectdrawsurface7_getuniquenessvalue
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: ddraw.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: DEDUP_CONTAINER_EXTENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Ddraw.dll
+api_name:
+-	IDirectDrawSurface7.GetUniquenessValue
+product: Windows
+targetos: Windows
+req.lib: Ddraw.lib
+req.dll: Ddraw.dll
+req.irql: 
+---
+
+# IDirectDrawSurface7::GetUniquenessValue method
+
+
+## -description
+
+
+Retrieves the current uniqueness value for this surface.
+
+
+
+## -parameters
+
+
+
+
+
+
+#### - lpValue [out]
+
+A pointer to a variable that receives the surface's current uniqueness value if the call succeeds.
+
+
+## -returns
+
+
+
+If the method succeeds, the return value is DD_OK.
+
+
+
+If it fails, the method can return one of the following error values:
+
+<ul>
+<li>DDERR_INVALIDOBJECT</li>
+<li>DDERR_INVALIDPARAMS</li>
+</ul>
+
+
+
+## -remarks
+
+
+
+The only defined uniqueness value is 0, which indicates that the surface is likely to be changing beyond the control of DirectDraw. Other uniqueness values are significant only if they differ from a previously cached uniqueness value. If the current value is different from a cached value, the contents of the surface have changed.
+
+You must use <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a> to access the  <b>GetUniquenessValue</b> method.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/be686d56-c242-4228-ac8e-8f764ad29756">IDirectDrawSurface7</a>
+ 
+
+ 
+

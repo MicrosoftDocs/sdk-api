@@ -1,0 +1,120 @@
+---
+UID: NF:d3d11.ID3D11VideoDevice.CreateVideoProcessorInputView
+title: ID3D11VideoDevice::CreateVideoProcessorInputView method
+author: windows-driver-content
+description: Creates a resource view for a video processor, describing the input sample for the video processing operation.
+old-location: mf\id3d11videodevice_createvideoprocessorinputview.htm
+old-project: medfound
+ms.assetid: 3245D2AF-74A1-4068-A0BC-577FD42B353E
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: CreateVideoProcessorInputView method [Media Foundation], CreateVideoProcessorInputView method [Media Foundation], ID3D11VideoDevice interface, CreateVideoProcessorInputView,ID3D11VideoDevice.CreateVideoProcessorInputView, ID3D11VideoDevice, ID3D11VideoDevice interface [Media Foundation], CreateVideoProcessorInputView method, ID3D11VideoDevice::CreateVideoProcessorInputView, d3d11/ID3D11VideoDevice::CreateVideoProcessorInputView, mf.id3d11videodevice_createvideoprocessorinputview
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: d3d11.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: D3D11_VPOV_DIMENSION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	d3d11.h
+api_name:
+-	ID3D11VideoDevice.CreateVideoProcessorInputView
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# ID3D11VideoDevice::CreateVideoProcessorInputView method
+
+
+## -description
+
+
+Creates a resource view for a video processor, describing the input sample for the video processing operation.
+
+
+## -parameters
+
+
+
+
+### -param pResource [in]
+
+A pointer to the <a href="https://msdn.microsoft.com/3823ec00-cb3c-43ce-9f1a-be4e1e99d587">ID3D11Resource</a> interface of the input surface.
+
+
+### -param pEnum [in]
+
+A pointer to the <a href="https://msdn.microsoft.com/8713B4C6-B08E-4616-92A7-05280CCE7AB3">ID3D11VideoProcessorEnumerator</a> interface that specifies the video processor. To get this pointer, call <a href="https://msdn.microsoft.com/992C699D-A499-494E-AEDF-A6688CB14D70">ID3D11VideoDevice::CreateVideoProcessorEnumerator</a>.
+
+
+### -param pDesc [in]
+
+A pointer to a <a href="https://msdn.microsoft.com/69EDF918-355A-4277-9F7E-C08CF65E5418">D3D11_VIDEO_PROCESSOR_INPUT_VIEW_DESC</a> structure that describes the view.
+
+
+### -param ppVPIView [out]
+
+Receives a pointer to the <a href="https://msdn.microsoft.com/E76B9CBE-2584-4DBC-8EF4-E9DA105226B9">ID3D11VideoProcessorInputView</a> interface. The caller must release the resource. If this parameter is <b>NULL</b>, the method checks whether the view is supported, but does not create the view. 
+
+
+## -returns
+
+
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+Set the <i>ppVPIView</i> parameter to <b>NULL</b> to test whether a view is supported.
+
+The surface format is given in the <b>FourCC</b> member of the <a href="https://msdn.microsoft.com/69EDF918-355A-4277-9F7E-C08CF65E5418">D3D11_VIDEO_PROCESSOR_INPUT_VIEW_DESC</a> structure. The method fails if the video processor does not support this format as an input sample. An app must specify 0 when using 9_1, 9_2, or 9_3 feature levels. 
+
+Resources used for video processor input views must use the following bind flag combinations:
+
+<ul>
+<li>Any combination of bind flags that includes <a href="https://msdn.microsoft.com/4ffa1714-bd85-4d5a-930d-20526f46e4b9">D3D11_BIND_DECODER</a>,<b>D3D11_BIND_VIDEO_ENCODER</b>, <b>D3D11_BIND_RENDER_TARGET</b>, and <b>D3D11_BIND_UNORDERED_ACCESS_VIEW</b> can be used as for video processor input views (regardless of what other bind flags may be set).</li>
+<li>Bind flags = 0 is also allowed for a video processor input view.</li>
+<li>Other restrictions will apply such as:<ul>
+<li>No multi-sampling is allowed.</li>
+<li>The Texture2D must have been created using <a href="https://msdn.microsoft.com/E9A415FA-74BF-4822-BB0E-D8AAA7D73664">D3D11_USAGE_DEFAULT</a>.</li>
+</ul>
+</li>
+</ul>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/420DE3C4-15A9-4EEB-A1FD-6350DE109CFF">ID3D11VideoDevice</a>
+ 
+
+ 
+

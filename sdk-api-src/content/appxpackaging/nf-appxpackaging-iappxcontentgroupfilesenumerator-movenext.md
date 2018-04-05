@@ -1,0 +1,87 @@
+---
+UID: NF:appxpackaging.IAppxContentGroupFilesEnumerator.MoveNext
+title: IAppxContentGroupFilesEnumerator::MoveNext method
+author: windows-driver-content
+description: Advances the position of the enumerator to the next file.
+old-location: appxpkg\iappxcontentgroupfilesenumerator__movenext.htm
+old-project: appxpkg
+ms.assetid: 39E27BFE-2383-4AB1-B83E-79573D87AAD6
+ms.author: windowsdriverdev
+ms.date: 3/30/2018
+ms.keywords: IAppxContentGroupFilesEnumerator, IAppxContentGroupFilesEnumerator interface [App packaging and management], MoveNext method, IAppxContentGroupFilesEnumerator::MoveNext, MoveNext method [App packaging and management], MoveNext method [App packaging and management], IAppxContentGroupFilesEnumerator interface, MoveNext,IAppxContentGroupFilesEnumerator.MoveNext, appxpackaging/IAppxContentGroupFilesEnumerator::MoveNext, appxpkg.iappxcontentgroupfilesenumerator__movenext
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: appxpackaging.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: AppxPackaging.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: APPX_PACKAGE_ARCHITECTURE2
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	AppxPackaging.h
+api_name:
+-	IAppxContentGroupFilesEnumerator.MoveNext
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# IAppxContentGroupFilesEnumerator::MoveNext method
+
+
+## -description
+
+
+Advances the position of the enumerator to the next file.
+
+
+## -parameters
+
+
+
+
+### -param hasNext [out, retval]
+
+<b>TRUE</b> if the enumerator successfully advances
+
+<b>FALSE</b> if the enumerator has passed the end of the collection.
+
+
+## -returns
+
+
+
+If the method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an error code.
+
+<div class="alert"><b>Note</b>  When the enumerator passes the end of the collection for the first time, <i>hasNext</i> = <b>FALSE</b>,  but the method succeeds and returns <b>S_OK</b>. However, the method returns <b>E_BOUNDS</b> if you subsequently call another MoveNext after you have already passed the end of the collection, and you have previously received  <i>hasNext</i> = <b>FALSE</b>.</div>
+<div> </div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/B831A43B-9062-4763-8702-B487E57FD0C2">IAppxContentGroupFilesEnumerator</a>
+ 
+
+ 
+

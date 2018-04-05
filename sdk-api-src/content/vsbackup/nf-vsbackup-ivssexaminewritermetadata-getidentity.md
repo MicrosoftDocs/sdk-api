@@ -1,0 +1,205 @@
+---
+UID: NF:vsbackup.IVssExamineWriterMetadata.GetIdentity
+title: IVssExamineWriterMetadata::GetIdentity method
+author: windows-driver-content
+description: The GetIdentity method obtains basic information about a specific writer instance.
+old-location: base\ivssexaminewritermetadata_getidentity.htm
+old-project: VSS
+ms.assetid: 55240ef2-f480-4917-98f9-e88a2e23edea
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: GetIdentity method [VSS], GetIdentity method [VSS], IVssExamineWriterMetadata interface, GetIdentity,IVssExamineWriterMetadata.GetIdentity, IVssExamineWriterMetadata, IVssExamineWriterMetadata interface [VSS], GetIdentity method, IVssExamineWriterMetadata::GetIdentity, _win32_ivssexaminewritermetadata_getidentity, base.ivssexaminewritermetadata_getidentity, vsbackup/IVssExamineWriterMetadata::GetIdentity
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: vsbackup.h
+req.include-header: VsBackup.h, Vss.h, VsWriter.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: AMVPSIZE, *LPAMVPSIZE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	VssApi.lib
+-	VssApi.dll
+api_name:
+-	IVssExamineWriterMetadata.GetIdentity
+product: Windows
+targetos: Windows
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
+req.product: Windows UI
+---
+
+# IVssExamineWriterMetadata::GetIdentity method
+
+
+## -description
+
+
+The 
+<b>GetIdentity</b> method obtains basic information about a specific writer instance.
+
+
+## -parameters
+
+
+
+
+### -param pidInstance [out]
+
+The address of a caller-allocated variable that receives the instance identifier of the writer.
+
+
+### -param pidWriter [out]
+
+The address of a caller-allocated variable that receives the class identifier of the writer.
+
+
+### -param pbstrWriterName [out]
+
+The address of a caller-allocated variable that receives a string that contains the name of the writer.
+
+
+### -param pUsage [out]
+
+The address of a caller-allocated variable that receives a 
+<a href="https://msdn.microsoft.com/31997417-d993-4f28-b108-ce1dd8239650">VSS_USAGE_TYPE</a> enumeration value that specifies how the data managed by the writer is used on the host system.
+
+
+### -param pSource [out]
+
+The address of a caller-allocated variable that receives a 
+<a href="https://msdn.microsoft.com/cb89c3cc-5a8e-419e-839c-f72a1886eadf">VSS_SOURCE_TYPE</a> enumeration value that specifies the type of data managed by the writer.
+
+
+## -returns
+
+
+
+The following are the valid return codes for this method.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+Successfully returned the identity information.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+One of the parameter values is not valid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_OUTOFMEMORY</b></dt>
+</dl>
+</td>
+<td width="60%">
+The caller is out of memory or other system resources.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>VSS_E_INVALID_XML_DOCUMENT</b></dt>
+</dl>
+</td>
+<td width="60%">
+The XML document is not valid. Check the event log for details. For more information, see 
+<a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>VSS_E_UNEXPECTED</b></dt>
+</dl>
+</td>
+<td width="60%">
+
+        Unexpected error. The error code is logged in the error log file. For more information, see 
+        <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
+
+<b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+The caller must free the memory held by the <i>pbstrWriterName</i> parameter by calling <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a>.
+
+An 
+<a href="https://msdn.microsoft.com/b3aa04d9-7299-4e3a-b092-d07f2de6eefe">IVssExamineWriterMetadata</a> interface might be from stored writer state information (created by a call to 
+<a href="https://msdn.microsoft.com/cb322541-d8c0-4a2e-9ce5-453d19ac3fd1">CreateVssExamineWriterMetadata</a>). If this is the case, then the following are true:
+
+<ul>
+<li><i>pidInstance</i> may not mean anything in terms of live writers.</li>
+<li>If <i>pidWriter</i> does not match the writer class of any live writer, a requester should not use that writer's components.</li>
+</ul>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/cb322541-d8c0-4a2e-9ce5-453d19ac3fd1">CreateVssExamineWriterMetadata</a>
+
+
+
+<a href="https://msdn.microsoft.com/b3aa04d9-7299-4e3a-b092-d07f2de6eefe">IVssExamineWriterMetadata</a>
+
+
+
+<a href="https://msdn.microsoft.com/cb89c3cc-5a8e-419e-839c-f72a1886eadf">VSS_SOURCE_TYPE</a>
+
+
+
+<a href="https://msdn.microsoft.com/31997417-d993-4f28-b108-ce1dd8239650">VSS_USAGE_TYPE</a>
+ 
+
+ 
+

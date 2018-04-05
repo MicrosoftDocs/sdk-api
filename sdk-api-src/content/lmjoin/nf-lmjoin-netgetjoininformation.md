@@ -1,0 +1,212 @@
+---
+UID: NF:lmjoin.NetGetJoinInformation
+title: NetGetJoinInformation function
+author: windows-driver-content
+description: The NetGetJoinInformation function retrieves join status information for the specified computer.
+old-location: netmgmt\netgetjoininformation.htm
+old-project: NetMgmt
+ms.assetid: c7cc1cf2-4530-4039-806b-fbee572f564d
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: NetGetJoinInformation, NetGetJoinInformation function [Network Management], NetSetupDomainName, NetSetupUnjoined, NetSetupUnknownStatus, NetSetupWorkgroupName, _win32_netgetjoininformation, lmjoin/NetGetJoinInformation, netmgmt.netgetjoininformation
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: lmjoin.h
+req.include-header: Lm.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: DSREG_JOIN_TYPE, *PDSREG_JOIN_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Netapi32.dll
+-	wkscli.dll
+api_name:
+-	NetGetJoinInformation
+product: Windows
+targetos: Windows
+req.lib: Netapi32.lib
+req.dll: Netapi32.dll; Wkscli.dll
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# NetGetJoinInformation function
+
+
+## -description
+
+
+The 
+				<b>NetGetJoinInformation</b> function retrieves join status information for the specified computer.
+
+
+## -parameters
+
+
+
+
+### -param lpServer [in]
+
+Pointer to a constant string that specifies the DNS or NetBIOS name of the computer on which to call the function. If this parameter is <b>NULL</b>, the local computer is used.
+
+
+### -param lpNameBuffer [out]
+
+Pointer to the buffer that receives the NetBIOS name of the domain or workgroup to which the computer is joined. This buffer is allocated by the system and must be freed using the 
+<a href="https://msdn.microsoft.com/0e99483c-8cd7-402a-8bf6-1e0118764dd3">NetApiBufferFree</a> function. For more information, see 
+<a href="https://msdn.microsoft.com/f27e6cf5-f26a-4e6c-8d77-873bff6cc8e4">Network Management Function Buffers</a> and 
+<a href="https://msdn.microsoft.com/08599966-68a1-420b-bbc7-6daac833d08f">Network Management Function Buffer Lengths</a>.
+
+
+### -param BufferType [out]
+
+Receives the join status of the specified computer. This parameter can have one of the following values. 
+
+
+
+
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>typedef enum _NETSETUP_JOIN_STATUS {
+
+    NetSetupUnknownStatus = 0,
+    NetSetupUnjoined,
+    NetSetupWorkgroupName,
+    NetSetupDomainName
+
+} NETSETUP_JOIN_STATUS, *PNETSETUP_JOIN_STATUS;
+</pre>
+</td>
+</tr>
+</table></span></div>
+These values have the following meanings.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="NetSetupUnknownStatus"></a><a id="netsetupunknownstatus"></a><a id="NETSETUPUNKNOWNSTATUS"></a><dl>
+<dt><b>NetSetupUnknownStatus</b></dt>
+</dl>
+</td>
+<td width="60%">
+The status is unknown.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="NetSetupUnjoined"></a><a id="netsetupunjoined"></a><a id="NETSETUPUNJOINED"></a><dl>
+<dt><b>NetSetupUnjoined</b></dt>
+</dl>
+</td>
+<td width="60%">
+The computer is not joined.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="NetSetupWorkgroupName"></a><a id="netsetupworkgroupname"></a><a id="NETSETUPWORKGROUPNAME"></a><dl>
+<dt><b>NetSetupWorkgroupName</b></dt>
+</dl>
+</td>
+<td width="60%">
+The computer is joined to a workgroup.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="NetSetupDomainName"></a><a id="netsetupdomainname"></a><a id="NETSETUPDOMAINNAME"></a><dl>
+<dt><b>NetSetupDomainName</b></dt>
+</dl>
+</td>
+<td width="60%">
+The computer is joined to a domain.
+
+</td>
+</tr>
+</table>
+ 
+
+
+## -returns
+
+
+
+If the function succeeds, the return value is NERR_Success.
+
+If the function fails, the return value can be the following error code or one of the 
+<a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_NOT_ENOUGH_MEMORY</b></dt>
+</dl>
+</td>
+<td width="60%">
+Not enough storage is available to process this command.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+No special group membership is required to successfully execute the 
+<b>NetGetJoinInformation</b> function.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/1faa912b-c56d-431c-95d5-d36790b0d467">NetGetJoinableOUs</a>
+
+
+
+<a href="https://msdn.microsoft.com/dd159e2e-f37e-46b2-b980-008b73d40b39">Network
+		  Management Functions</a>
+
+
+
+<a href="https://msdn.microsoft.com/426c7b2e-027c-4a88-97b7-eba5201d0f0d">Network Management
+		  Overview</a>
+ 
+
+ 
+

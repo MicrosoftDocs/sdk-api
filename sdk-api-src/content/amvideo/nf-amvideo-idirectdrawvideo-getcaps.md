@@ -1,0 +1,100 @@
+---
+UID: NF:amvideo.IDirectDrawVideo.GetCaps
+title: IDirectDrawVideo::GetCaps method
+author: windows-driver-content
+description: The GetCaps method retrieves a DirectDraw-defined DDCAPS structure containing the hardware capabilities.
+old-location: dshow\idirectdrawvideo_getcaps.htm
+old-project: DirectShow
+ms.assetid: d63437e3-4e8a-49de-b555-db29d235569d
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: GetCaps method [DirectShow], GetCaps method [DirectShow], IDirectDrawVideo interface, GetCaps,IDirectDrawVideo.GetCaps, IDirectDrawVideo, IDirectDrawVideo interface [DirectShow], GetCaps method, IDirectDrawVideo::GetCaps, IDirectDrawVideoGetCaps, amvideo/IDirectDrawVideo::GetCaps, dshow.idirectdrawvideo_getcaps
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: amvideo.h
+req.include-header: Dshow.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: AMVAUncompDataInfo, *LPAMVAUncompDataInfo
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Strmiids.lib
+-	Strmiids.dll
+api_name:
+-	IDirectDrawVideo.GetCaps
+product: Windows
+targetos: Windows
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
+---
+
+# IDirectDrawVideo::GetCaps method
+
+
+## -description
+
+
+
+The <code>GetCaps</code> method retrieves a DirectDraw-defined DDCAPS structure containing the hardware capabilities.
+
+
+
+
+## -parameters
+
+
+
+
+### -param pCaps
+
+Pointer to a DDCAPS structure containing the hardware capabilities.
+
+
+## -returns
+
+
+
+Returns an <b>HRESULT</b> value.
+
+
+
+
+## -remarks
+
+
+
+If the renderer has not loaded DirectDraw, this method returns E_FAIL.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+
+
+
+<a href="https://msdn.microsoft.com/b918bf3b-b91b-40fb-abb8-4115a4f254bb">IDirectDrawVideo Interface</a>
+ 
+
+ 
+

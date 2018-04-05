@@ -1,0 +1,72 @@
+---
+UID: NF:taskschd.IRunningTask.get_EnginePID
+title: IRunningTask::get_EnginePID method
+author: windows-driver-content
+description: Gets the process ID for the engine (process) which is running the task.
+old-location: taskschd\irunningtask_enginepid.htm
+old-project: TaskSchd
+ms.assetid: 933a0e41-e025-483a-98c4-a3b8e264c462
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: EnginePID property [Task Scheduler], EnginePID property [Task Scheduler], IRunningTask interface, EnginePID property [Task Scheduler], TBD object, IRunningTask, IRunningTask interface [Task Scheduler], EnginePID property, IRunningTask.EnginePID, IRunningTask::get_EnginePID, TBD object [Task Scheduler], EnginePID property, get_EnginePID,IRunningTask.get_EnginePID, taskschd.irunningtask_enginepid, taskschd/IRunningTask::EnginePID, taskschd/IRunningTask::get_EnginePID
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: taskschd.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: TASK_TRIGGER_TYPE2
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	taskschd.dll
+api_name:
+-	IRunningTask.EnginePID
+-	IRunningTask.get_EnginePID
+-	TBD.EnginePID
+product: Windows
+targetos: Windows
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# IRunningTask::get_EnginePID method
+
+
+## -description
+
+
+Gets the process ID for the engine (process) which is running the task.
+
+This property is read-only.
+
+
+## -parameters
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/71a06a8f-8628-415d-b002-977c0d27f9a4">IRunningTask</a>
+ 
+
+ 
+

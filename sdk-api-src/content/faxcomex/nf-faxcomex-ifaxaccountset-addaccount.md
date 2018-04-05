@@ -1,0 +1,110 @@
+---
+UID: NF:faxcomex.IFaxAccountSet.AddAccount
+title: IFaxAccountSet::AddAccount method
+author: windows-driver-content
+description: Adds a fax account to the fax server and returns the new IFaxAccount object.
+old-location: fax\_mfax_faxaccountset_addaccount_vb.htm
+old-project: Fax
+ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountset\addaccount.htm
+ms.author: windowsdriverdev
+ms.date: 3/22/2018
+ms.keywords: AddAccount method [Fax Service], AddAccount method [Fax Service], FaxAccountSet object, AddAccount,IFaxAccountSet.AddAccount, FaxAccountSet object [Fax Service], AddAccount method, IFaxAccountSet, IFaxAccountSet::AddAccount, _mfax_faxaccountset.addaccount, fax._mfax_faxaccountset_addaccount, fax._mfax_faxaccountset_addaccount_vb
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: faxcomex.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: FAX_SMTP_AUTHENTICATION_TYPE_ENUM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Fxscomex.dll
+api_name:
+-	FaxAccountSet.AddAccount
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Fxscomex.dll
+req.irql: 
+req.product: Internet Explorer 5
+---
+
+# IFaxAccountSet::AddAccount method
+
+
+## -description
+
+
+Adds a fax account to the fax server and returns the new <a href="https://msdn.microsoft.com/438a35bd-d08b-4b29-95e5-81ff5c23e92b">IFaxAccount</a> object.
+
+
+## -parameters
+
+
+
+
+### -param bstrAccountName [in]
+
+Type: <b>String</b>
+
+Specifies a null-terminated string that contains a name for the new account.
+
+
+### -param pFaxAccount
+
+
+
+
+
+
+## -returns
+
+
+
+Type: <b><a href="https://msdn.microsoft.com/438a35bd-d08b-4b29-95e5-81ff5c23e92b">IFaxAccount</a>**</b>
+
+The address of a pointer to an <a href="https://msdn.microsoft.com/438a35bd-d08b-4b29-95e5-81ff5c23e92b">IFaxAccount</a> object.
+
+
+
+
+## -remarks
+
+
+
+<i>bstrAccountName</i> must be of the form &lt;domainName&gt;\&lt;username&gt; or just &lt;username&gt; for local users.
+
+When the new account is returned, all its values except the name are set to defaults.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/ae298925-c428-420e-a0a2-ce3f72c5cff4">FaxAccountSet</a>
+
+
+
+<a href="https://msdn.microsoft.com/b4733772-92cb-4f4a-8a73-da1812356c30">IFaxAccountSet</a>
+ 
+
+ 
+

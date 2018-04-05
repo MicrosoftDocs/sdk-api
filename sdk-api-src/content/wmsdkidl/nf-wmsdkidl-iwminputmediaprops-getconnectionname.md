@@ -1,0 +1,147 @@
+---
+UID: NF:wmsdkidl.IWMInputMediaProps.GetConnectionName
+title: IWMInputMediaProps::GetConnectionName method
+author: windows-driver-content
+description: The GetConnectionName method retrieves the connection name specified in the profile.
+old-location: wmformat\iwminputmediaprops_getconnectionname.htm
+old-project: wmformat
+ms.assetid: efb8b26b-c04f-4253-85a7-13456e1599bb
+ms.author: windowsdriverdev
+ms.date: 3/23/2018
+ms.keywords: GetConnectionName method [windows Media Format], GetConnectionName method [windows Media Format], IWMInputMediaProps interface, GetConnectionName,IWMInputMediaProps.GetConnectionName, IWMInputMediaProps, IWMInputMediaProps interface [windows Media Format], GetConnectionName method, IWMInputMediaProps::GetConnectionName, IWMInputMediaPropsGetConnectionName, wmformat.iwminputmediaprops_getconnectionname, wmsdkidl/IWMInputMediaProps::GetConnectionName
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wmsdkidl.h
+req.include-header: Wmsdk.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WM_AETYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wmvcore.lib
+-	Wmvcore.dll
+-	WMStubDRM.lib
+-	WMStubDRM.dll
+api_name:
+-	IWMInputMediaProps.GetConnectionName
+product: Windows
+targetos: Windows
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IWMInputMediaProps::GetConnectionName method
+
+
+## -description
+
+
+
+The <b>GetConnectionName</b> method retrieves the connection name specified in the profile.
+
+
+
+
+## -parameters
+
+
+
+
+### -param pwszName [out]
+
+Pointer to a wide-character <b>null</b>-terminated string containing the connection name. Pass <b>NULL</b> to retrieve the length required for the name.
+
+
+### -param pcchName [in, out]
+
+On input, a pointer to a variable containing the length of the <i>pwszName</i> array in wide characters (2 bytes). On output, if the method succeeds, the variable contains the length of the name, including the terminating <b>null</b> character.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+The <i>pcchName</i> parameter is <b>NULL</b>.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ASF_E_BUFFERTOOSMALL</b></dt>
+</dl>
+</td>
+<td width="60%">
+The <i>pwszName</i> parameter is not large enough.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+You should make two calls to <b>GetConnectionName</b>. On the first call, pass <b>NULL</b> as <i>pwszName</i>. On return, the value pointed to by <i>pcchName</i> is set to the number of wide characters, including the terminating <b>null</b>, required to hold the connection name. Then you can allocate the required amount of memory for the string and pass a pointer to it as <i>pwszName</i> on the second call.
+
+The connection name is the same as the input name specified on one (or more) of the streams in the profile, so it can be used to match writer inputs to profile streams.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/d901ac66-d4b3-4256-bd7b-53cccb3de644">IWMInputMediaProps Interface</a>
+ 
+
+ 
+

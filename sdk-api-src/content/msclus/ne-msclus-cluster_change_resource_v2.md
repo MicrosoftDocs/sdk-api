@@ -1,0 +1,127 @@
+---
+UID: NE:msclus.CLUSTER_CHANGE_RESOURCE_V2
+title: CLUSTER_CHANGE_RESOURCE_V2
+author: windows-driver-content
+description: Defines the list of notifications that are generated for a resource.
+old-location: mscs\cluster_change_resource_v2.htm
+old-project: MsCS
+ms.assetid: 3CA4EE2C-78CA-42CF-B053-E6B9C58B77E0
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: CLUSTER_CHANGE_RESOURCE_ALL_V2, CLUSTER_CHANGE_RESOURCE_COMMON_PROPERTY_V2, CLUSTER_CHANGE_RESOURCE_DELETED_V2, CLUSTER_CHANGE_RESOURCE_DEPENDENCIES_V2, CLUSTER_CHANGE_RESOURCE_DEPENDENTS_V2, CLUSTER_CHANGE_RESOURCE_DLL_UPGRADED_V2, CLUSTER_CHANGE_RESOURCE_HANDLE_CLOSE_V2, CLUSTER_CHANGE_RESOURCE_OWNER_GROUP_V2, CLUSTER_CHANGE_RESOURCE_POSSIBLE_OWNERS_V2, CLUSTER_CHANGE_RESOURCE_PRIVATE_PROPERTY_V2, CLUSTER_CHANGE_RESOURCE_STATE_V2, CLUSTER_CHANGE_RESOURCE_TERMINAL_STATE_V2, CLUSTER_CHANGE_RESOURCE_V2, CLUSTER_CHANGE_RESOURCE_V2 enumeration [Failover Cluster], clusapi/CLUSTER_CHANGE_RESOURCE_ALL_V2, clusapi/CLUSTER_CHANGE_RESOURCE_COMMON_PROPERTY_V2, clusapi/CLUSTER_CHANGE_RESOURCE_DELETED_V2, clusapi/CLUSTER_CHANGE_RESOURCE_DEPENDENCIES_V2, clusapi/CLUSTER_CHANGE_RESOURCE_DEPENDENTS_V2, clusapi/CLUSTER_CHANGE_RESOURCE_DLL_UPGRADED_V2, clusapi/CLUSTER_CHANGE_RESOURCE_HANDLE_CLOSE_V2, clusapi/CLUSTER_CHANGE_RESOURCE_OWNER_GROUP_V2, clusapi/CLUSTER_CHANGE_RESOURCE_POSSIBLE_OWNERS_V2, clusapi/CLUSTER_CHANGE_RESOURCE_PRIVATE_PROPERTY_V2, clusapi/CLUSTER_CHANGE_RESOURCE_STATE_V2, clusapi/CLUSTER_CHANGE_RESOURCE_TERMINAL_STATE_V2, clusapi/CLUSTER_CHANGE_RESOURCE_V2, msclus/CLUSTER_CHANGE_RESOURCE_ALL_V2, msclus/CLUSTER_CHANGE_RESOURCE_COMMON_PROPERTY_V2, msclus/CLUSTER_CHANGE_RESOURCE_DELETED_V2, msclus/CLUSTER_CHANGE_RESOURCE_DEPENDENCIES_V2, msclus/CLUSTER_CHANGE_RESOURCE_DEPENDENTS_V2, msclus/CLUSTER_CHANGE_RESOURCE_DLL_UPGRADED_V2, msclus/CLUSTER_CHANGE_RESOURCE_HANDLE_CLOSE_V2, msclus/CLUSTER_CHANGE_RESOURCE_OWNER_GROUP_V2, msclus/CLUSTER_CHANGE_RESOURCE_POSSIBLE_OWNERS_V2, msclus/CLUSTER_CHANGE_RESOURCE_PRIVATE_PROPERTY_V2, msclus/CLUSTER_CHANGE_RESOURCE_STATE_V2, msclus/CLUSTER_CHANGE_RESOURCE_TERMINAL_STATE_V2, msclus/CLUSTER_CHANGE_RESOURCE_V2, mscs.cluster_change_resource_v2
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: enum
+req.header: msclus.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2012
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: CLUSTER_CHANGE_RESOURCE_V2
+topic_type:
+-	kbSyntax
+api_type:
+-	<TBD>
+api_location:
+-
+api_name:
+-	CLUSTER_CHANGE_RESOURCE_V2
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# CLUSTER_CHANGE_RESOURCE_V2 enumeration
+
+
+## -description
+
+
+Defines the list of notifications that are generated for a resource.
+
+
+## -enum-fields
+
+
+
+
+### -field CLUSTER_CHANGE_RESOURCE_COMMON_PROPERTY_V2
+
+Indicates that the resource's common properties have changed.
+
+
+### -field CLUSTER_CHANGE_RESOURCE_PRIVATE_PROPERTY_V2
+
+Indicates that the resource's private properties have changed.
+
+
+### -field CLUSTER_CHANGE_RESOURCE_STATE_V2
+
+Indicates that the state of the resource has changed.
+
+
+### -field CLUSTER_CHANGE_RESOURCE_OWNER_GROUP_V2
+
+Indicates that the owner group of the resource has changed.
+
+
+### -field CLUSTER_CHANGE_RESOURCE_DEPENDENCIES_V2
+
+Indicates that the resource's dependencies have changed.
+
+
+### -field CLUSTER_CHANGE_RESOURCE_DEPENDENTS_V2
+
+Indicates that the resource's dependents have changed.
+
+
+### -field CLUSTER_CHANGE_RESOURCE_POSSIBLE_OWNERS_V2
+
+Indicates that the resource's possible owner nodes have changed.
+
+
+### -field CLUSTER_CHANGE_RESOURCE_DELETED_V2
+
+Indicates that the resource has been deleted.
+
+
+### -field CLUSTER_CHANGE_RESOURCE_DLL_UPGRADED_V2
+
+Indicates that the resource's DLL has been upgraded.
+
+
+### -field CLUSTER_CHANGE_RESOURCE_HANDLE_CLOSE_V2
+
+Indicates that the resource's context handle was closed.
+
+
+### -field CLUSTER_CHANGE_RESOURCE_TERMINAL_STATE_V2
+
+TBD
+
+
+### -field CLUSTER_CHANGE_RESOURCE_ALL_V2
+
+Indicates all V2 resource notifications.
+
+
+## -remarks
+
+
+
+Protocol version 2.0 servers do not support this enumeration.
+
+
+

@@ -1,0 +1,60 @@
+---
+UID: NF:azroles.IAzAuthorizationStore.get_Writable
+title: IAzAuthorizationStore::get_Writable method
+author: windows-driver-content
+description: Retrieves a value that indicates whether the object can be modified by the user context that called the Initialize method.
+old-location: security\azauthorizationstore_writable.htm
+old-project: SecAuthZ
+ms.assetid: 0c896364-739a-456a-97f7-0448711462b3
+ms.author: windowsdriverdev
+ms.date: 3/29/2018
+ms.keywords: AzAuthorizationStore object [Security], Writable property, IAzAuthorizationStore, IAzAuthorizationStore interface [Security], Writable property, IAzAuthorizationStore.Writable, IAzAuthorizationStore::get_Writable, Writable property [Security], Writable property [Security], AzAuthorizationStore object, Writable property [Security], IAzAuthorizationStore interface, azroles/IAzAuthorizationStore::Writable, azroles/IAzAuthorizationStore::get_Writable, get_Writable,IAzAuthorizationStore.get_Writable, security.azauthorizationstore_writable
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: azroles.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: AZ_PROP_CONSTANTS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Azroles.dll
+api_name:
+-	IAzAuthorizationStore.Writable
+-	IAzAuthorizationStore.get_Writable
+-	AzAuthorizationStore.Writable
+product: Windows
+targetos: Windows
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
+---
+
+# IAzAuthorizationStore::get_Writable method
+
+
+## -description
+
+
+The <b>Writable</b> property retrieves a value that indicates whether the object can be modified by the  user context that called the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a> method.
+
+This property is read-only.
+
+
+## -parameters
+

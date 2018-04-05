@@ -1,0 +1,117 @@
+---
+UID: NF:pla.IAlertDataCollector.get_TaskArguments
+title: IAlertDataCollector::get_TaskArguments method
+author: windows-driver-content
+description: Retrieves or sets the command-line arguments to pass to the Task Scheduler job specified in the IAlertDataCollector::Task property.
+old-location: pla\ialertdatacollector_taskarguments.htm
+old-project: PLA
+ms.assetid: 3062688f-a612-4824-beae-b75687b4feed
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: IAlertDataCollector, IAlertDataCollector interface [PLA], TaskArguments property, IAlertDataCollector.TaskArguments, IAlertDataCollector::get_TaskArguments, IAlertDataCollector::put_TaskArguments, TaskArguments property [PLA], TaskArguments property [PLA], IAlertDataCollector interface, base.ialertdatacollector_taskarguments, get_TaskArguments,IAlertDataCollector.get_TaskArguments, pla.ialertdatacollector_taskarguments, pla/IAlertDataCollector::TaskArguments, pla/IAlertDataCollector::get_TaskArguments, pla/IAlertDataCollector::put_TaskArguments
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: pla.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: FolderActionSteps
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Pla.dll
+api_name:
+-	IAlertDataCollector.TaskArguments
+-	IAlertDataCollector.get_TaskArguments
+-	IAlertDataCollector.put_TaskArguments
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# IAlertDataCollector::get_TaskArguments method
+
+
+## -description
+
+
+Retrieves or sets the command-line arguments to pass to the Task Scheduler job specified in the <a href="https://msdn.microsoft.com/a86f8524-3564-4a65-9574-1709f82280d8">IAlertDataCollector::Task</a> property.
+
+This property is read/write.
+
+
+## -parameters
+
+
+## -remarks
+
+
+
+If the task to run is a script, you must set the task arguments in the Task Scheduler to $(Arg0); otherwise, the arguments that you specify with this property will not be passed to the script.
+
+PLA provides the following substitution variables that you can include in your arguments string. PLA provides the values for the substitution variables when the alert is triggered. You must escape the braces, for example, \{name\}.
+
+<table>
+<tr>
+<th>Variable</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>{counter}</td>
+<td> Path of the performance counter that crossed the threshold.</td>
+</tr>
+<tr>
+<td>{date}</td>
+<td>Time that the threshold was crossed.</td>
+</tr>
+<tr>
+<td>{name}</td>
+<td>Name of the alert data collector.</td>
+</tr>
+<tr>
+<td>{threshold}</td>
+<td>Value of the threshold.</td>
+</tr>
+<tr>
+<td>{usertext}</td>
+<td>String from the <a href="https://msdn.microsoft.com/d432652a-3dea-43f0-a698-bb7ccb1cb79a">IAlertDataCollector::TaskUserTextArguments</a> property.</td>
+</tr>
+<tr>
+<td>{value}</td>
+<td>Value of the performance counter.</td>
+</tr>
+</table>
+ 
+
+Typically, if you use the substitution variables, you specify them in <a href="https://msdn.microsoft.com/d432652a-3dea-43f0-a698-bb7ccb1cb79a">TaskUserTextArguments</a>, where you do not have to escape the braces, and then specify {usertext} in this property.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/61907979-fa4a-45da-96c5-7cd12021fbb7">IAlertDataCollector</a>
+ 
+
+ 
+

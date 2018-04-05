@@ -1,0 +1,172 @@
+---
+UID: NF:ndhelper.INetDiagHelper.GetKeyAttributes
+title: INetDiagHelper::GetKeyAttributes method
+author: windows-driver-content
+description: Retrieves the key attributes of the Helper Class Extension.
+old-location: ndf\inetdiaghelpe_getkeyattributes.htm
+old-project: NDF
+ms.assetid: f9501450-a883-4941-a03f-ab735acca82f
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: GetKeyAttributes method [NDF], GetKeyAttributes method [NDF], INetDiagHelper interface, GetKeyAttributes,INetDiagHelper.GetKeyAttributes, INetDiagHelper, INetDiagHelper interface [NDF], GetKeyAttributes method, INetDiagHelper::GetKeyAttributes, ndf.inetdiaghelpe_getkeyattributes, ndhelper/INetDiagHelper::GetKeyAttributes
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: ndhelper.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: REPAIR_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	ndhelper.h
+api_name:
+-	INetDiagHelper.GetKeyAttributes
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# INetDiagHelper::GetKeyAttributes method
+
+
+## -description
+
+
+The <b>GetKeyAttributes</b> method retrieves the key attributes of the Helper Class Extension.
+
+
+## -parameters
+
+
+
+
+### -param pcelt [out]
+
+A pointer to a count of elements in the <b>HELPER_ATTRIBUTE</b> array.
+
+
+### -param pprgAttributes [out]
+
+A pointer to an array of <a href="https://msdn.microsoft.com/bff9303e-7fab-49af-b213-aa0a9c83676e">HELPER_ATTRIBUTE</a> structures.
+
+
+## -returns
+
+
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The operation succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_OUTOFMEMORY</b></dt>
+</dl>
+</td>
+<td width="60%">
+There is not enough memory available to complete this operation.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+One or more parameters has not been provided correctly.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_NOTIMPL</b></dt>
+</dl>
+</td>
+<td width="60%">
+This optional method is not implemented.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_ACCESSDENIED</b></dt>
+</dl>
+</td>
+<td width="60%">
+The caller does not have sufficient privileges to perform the diagnosis or repair operation.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_ABORT</b></dt>
+</dl>
+</td>
+<td width="60%">
+The diagnosis or repair operation has been canceled.
+
+</td>
+</tr>
+</table>
+ 
+
+Helper Class Extensions may return HRESULTS that are specific to the failures encountered in the function.
+
+
+
+
+## -remarks
+
+
+
+This method is not required when building a Helper Class Extension.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/7f1b8a5b-389b-4276-a49d-94a39be3c35c">INetDiagHelper</a>
+ 
+
+ 
+

@@ -1,0 +1,98 @@
+---
+UID: NF:appxpackaging.IAppxManifestPackageId2.GetArchitecture2
+title: IAppxManifestPackageId2::GetArchitecture2 method
+author: windows-driver-content
+description: Gets the processor architecture as defined in the manifest.
+old-location: appxpkg\iappxmanifestpackageid2_getarchitecture2.htm
+old-project: appxpkg
+ms.assetid: FBC34FBA-C6BB-45AD-8005-5C2B91A1369D
+ms.author: windowsdriverdev
+ms.date: 3/30/2018
+ms.keywords: GetArchitecture method [App packaging and management], GetArchitecture method [App packaging and management], IAppxManifestPackageId2 interface, GetArchitecture2,IAppxManifestPackageId2.GetArchitecture2, IAppxManifestPackageId2, IAppxManifestPackageId2 interface [App packaging and management], GetArchitecture method, IAppxManifestPackageId2::GetArchitecture, IAppxManifestPackageId2::GetArchitecture2, appxpackaging/IAppxManifestPackageId2::GetArchitecture, appxpkg.iappxmanifestpackageid2_getarchitecture2
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: appxpackaging.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: AppxPackaging.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: APPX_PACKAGE_ARCHITECTURE2
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	AppxPackaging.h
+api_name:
+-	IAppxManifestPackageId2.GetArchitecture
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# IAppxManifestPackageId2::GetArchitecture2 method
+
+
+## -description
+
+
+Gets the processor architecture as defined in the manifest.
+
+
+## -parameters
+
+
+
+
+### -param architecture [out, retval]
+
+Type: <b><a href="https://msdn.microsoft.com/86E1C7DE-01AD-4682-89C3-20A5A699CBE7">APPX_PACKAGE_ARCHITECTURE2</a>*</b>
+
+The architecture specified for the package.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+Processor architecture information is specified using the <b>ProcessorArchitecture</b> attribute of the <b>Identity</b> element in the app package manifest.
+
+If no architecture is defined in the manifest, this method returns the <b>APPX_PACKAGE_ARCHITECTURE_NEUTRAL</b> value of the  <a href="https://msdn.microsoft.com/86E1C7DE-01AD-4682-89C3-20A5A699CBE7">APPX_PACKAGE_ARCHITECTURE2</a> enumeration.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/27344514-B9B9-46EC-9A44-577C0C9361C8">IAppxManifestPackageId2</a>
+ 
+
+ 
+

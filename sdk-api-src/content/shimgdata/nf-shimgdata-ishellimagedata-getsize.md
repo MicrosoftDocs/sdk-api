@@ -1,0 +1,98 @@
+---
+UID: NF:shimgdata.IShellImageData.GetSize
+title: IShellImageData::GetSize method
+author: windows-driver-content
+description: Gets the dimensions of the image file.
+old-location: shell\IShellImageData_GetSize.htm
+old-project: shell
+ms.assetid: 50294d95-801d-4cd6-94ae-8b48c68af50f
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: GetSize method [Windows Shell], GetSize method [Windows Shell], IShellImageData interface, GetSize,IShellImageData.GetSize, IShellImageData, IShellImageData interface [Windows Shell], GetSize method, IShellImageData::GetSize, _shell_IShellImageData_GetSize, shell.IShellImageData_GetSize, shimgdata/IShellImageData::GetSize
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: shimgdata.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Shimgdata.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: SHELL_UI_COMPONENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Shell32.dll
+api_name:
+-	IShellImageData.GetSize
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
+req.product: Internet Explorer 5.0
+---
+
+# IShellImageData::GetSize method
+
+
+## -description
+
+
+Gets the dimensions of the image file.
+
+
+## -parameters
+
+
+
+
+### -param pSize [out]
+
+Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/dn915850">SIZE</a>*</b>
+
+
+          A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn915850">SIZE</a> structure containing the size of the image. This value is valid only when the method returns <b>S_OK</b>.
+        
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+Returns <b>S_OK</b> if successful or an error value otherwise, including the following:
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_FAIL</b></dt>
+</dl>
+</td>
+<td width="60%">
+The image has not been decoded or the decoding process failed.
+
+</td>
+</tr>
+</table>
+ 
+
+
+

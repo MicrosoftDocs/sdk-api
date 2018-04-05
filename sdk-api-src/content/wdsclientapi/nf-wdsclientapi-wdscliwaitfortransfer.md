@@ -1,0 +1,82 @@
+---
+UID: NF:wdsclientapi.WdsCliWaitForTransfer
+title: WdsCliWaitForTransfer function
+author: windows-driver-content
+description: Waits for an image or file transfer to complete.
+old-location: wds\wdscliwaitfortransfer.htm
+old-project: Wds
+ms.assetid: 2328ce69-5a2d-4c4e-bf24-95a379fb7faa
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: WdsCliWaitForTransfer, WdsCliWaitForTransfer function [Windows Deployment Services], wds.wdscliwaitfortransfer, wdsclientapi/WdsCliWaitForTransfer
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: wdsclientapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista with SP1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WAITCHAIN_NODE_INFO, *PWAITCHAIN_NODE_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	WdsClientAPI.dll
+api_name:
+-	WdsCliWaitForTransfer
+product: Windows
+targetos: Windows
+req.lib: WdsClientAPI.lib
+req.dll: WdsClientAPI.dll
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# WdsCliWaitForTransfer function
+
+
+## -description
+
+
+Waits for an image or file transfer to complete.
+
+
+## -parameters
+
+
+
+
+### -param hTransfer [in]
+
+A WDS transfer handle for the transfer being canceled. This can be the handle returned by the <a href="https://msdn.microsoft.com/43590cee-20d5-47da-8e35-fa4fda1da175">WdsCliTransferImage</a> or <a href="https://msdn.microsoft.com/d219b7ee-4cb8-43ce-959b-4793c7df17ff">WdsCliTransferFile</a> functions.
+
+
+## -returns
+
+
+
+If the function succeeds, the return is <b>S_OK</b>.
+
+
+
+
+## -remarks
+
+
+
+Calling this function from a callback function is not recommended.
+
+
+

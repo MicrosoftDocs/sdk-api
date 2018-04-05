@@ -1,0 +1,102 @@
+---
+UID: NF:dpa_dsa.DPA_InsertPtr
+title: DPA_InsertPtr function
+author: windows-driver-content
+description: Inserts a new item at a specified position in a dynamic pointer array (DPA). If neccessary, the DPA expands to accommodate the new item.
+old-location: controls\DPA_InsertPtr.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\common\functions\dpa_insertptr.htm
+ms.author: windowsdriverdev
+ms.date: 3/31/2018
+ms.keywords: DPA_InsertPtr, DPA_InsertPtr function [Windows Controls], _win32_DPA_InsertPtr, _win32_DPA_InsertPtr_cpp, controls.DPA_InsertPtr, controls._win32_DPA_InsertPtr, dpa_dsa/DPA_InsertPtr
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: dpa_dsa.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: CRYPTPROTECT_PROMPTSTRUCT, *PCRYPTPROTECT_PROMPTSTRUCT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	ComCtl32.dll
+api_name:
+-	DPA_InsertPtr
+product: Windows
+targetos: Windows
+req.lib: Comctl32.lib
+req.dll: ComCtl32.dll
+req.irql: 
+---
+
+# DPA_InsertPtr function
+
+
+## -description
+
+
+<p class="CCE_Message">[<b>DPA_InsertPtr</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
+
+Inserts a new item at a specified position in a dynamic pointer array (DPA). If neccessary, the DPA expands to accommodate the new item.
+
+
+## -parameters
+
+
+
+
+### -param hdpa
+
+TBD
+
+
+### -param i
+
+TBD
+
+
+### -param p
+
+Type: <b>void*</b>
+
+A pointer to the item that is to be inserted.
+
+
+#### - index
+
+Type: <b>int</b>
+
+Tbe position where new item is to be inserted.
+
+
+#### - pdpa
+
+Type: <b>HDPA</b>
+
+A handle to a DPA.
+
+
+## -returns
+
+
+
+Type: <b>int</b>
+
+Returns the index of the new item or <code>-1</code>, if the insertion fails.
+
+
+

@@ -1,0 +1,199 @@
+---
+UID: NF:winuser.HiliteMenuItem
+title: HiliteMenuItem function
+author: windows-driver-content
+description: Adds or removes highlighting from an item in a menu bar.
+old-location: menurc\hilitemenuitem.htm
+old-project: menurc
+ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\hilitemenuitem.htm
+ms.author: windowsdriverdev
+ms.date: 3/29/2018
+ms.keywords: HiliteMenuItem, HiliteMenuItem function [Menus and Other Resources], MF_BYCOMMAND, MF_BYPOSITION, MF_HILITE, MF_UNHILITE, _win32_HiliteMenuItem, _win32_hilitemenuitem_cpp, menurc.hilitemenuitem, winui._win32_hilitemenuitem, winuser/HiliteMenuItem
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: winuser.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: AR_STATE, *PAR_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	User32.dll
+api_name:
+-	HiliteMenuItem
+product: Windows
+targetos: Windows
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# HiliteMenuItem function
+
+
+## -description
+
+
+Adds or removes highlighting from an item in a menu bar. 
+
+
+## -parameters
+
+
+
+
+### -param hWnd
+
+TBD
+
+
+### -param hMenu
+
+TBD
+
+
+### -param uIDHiliteItem
+
+TBD
+
+
+### -param uHilite [in]
+
+Type: <b>UINT</b>
+
+Controls the interpretation of the <i>uItemHilite</i> parameter and indicates whether the menu item is highlighted. This parameter must be a combination of either <b>MF_BYCOMMAND</b> or <b>MF_BYPOSITION</b> and <b>MF_HILITE</b> or <b>MF_UNHILITE</b>. 
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="MF_BYCOMMAND"></a><a id="mf_bycommand"></a><dl>
+<dt><b>MF_BYCOMMAND</b></dt>
+<dt>0x00000000L</dt>
+</dl>
+</td>
+<td width="60%">
+Indicates that <i>uItemHilite</i> gives the identifier of the menu item.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="MF_BYPOSITION"></a><a id="mf_byposition"></a><dl>
+<dt><b>MF_BYPOSITION</b></dt>
+<dt>0x00000400L</dt>
+</dl>
+</td>
+<td width="60%">
+Indicates that <i>uItemHilite</i> gives the zero-based relative position of the menu item.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="MF_HILITE"></a><a id="mf_hilite"></a><dl>
+<dt><b>MF_HILITE</b></dt>
+<dt>0x00000080L</dt>
+</dl>
+</td>
+<td width="60%">
+Highlights the menu item. If this flag is not specified, the highlighting is removed from the item.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="MF_UNHILITE"></a><a id="mf_unhilite"></a><dl>
+<dt><b>MF_UNHILITE</b></dt>
+<dt>0x00000000L</dt>
+</dl>
+</td>
+<td width="60%">
+Removes highlighting from the menu item.
+
+</td>
+</tr>
+</table>
+ 
+
+
+#### - hmenu [in]
+
+Type: <b>HMENU</b>
+
+A handle to the menu bar that contains the item. 
+
+
+#### - hwnd [in]
+
+Type: <b>HWND</b>
+
+A handle to the window that contains the menu. 
+
+
+#### - uItemHilite [in]
+
+Type: <b>UINT</b>
+
+The menu item. This parameter is either the identifier of the menu item or the offset of the menu item in the menu bar, depending on the value of the <i>uHilite</i> parameter. 
+
+
+## -returns
+
+
+
+Type: <b>BOOL</b>
+
+If the menu item is set to the specified highlight state, the return value is nonzero.
+
+If the menu item is not set to the specified highlight state, the return value is zero. 
+
+
+
+
+## -remarks
+
+
+
+The <b>MF_HILITE</b> and <b>MF_UNHILITE</b> flags can be used only with the <b>HiliteMenuItem</b> function; they cannot be used with the <a href="https://msdn.microsoft.com/2e6abd30-9ace-4a17-9cf6-8a45a71eecaf">ModifyMenu</a> function. 
+
+
+
+
+## -see-also
+
+
+
+
+<b>Conceptual</b>
+
+
+
+<a href="https://msdn.microsoft.com/f00c0b76-fabb-4451-bd4e-30b465d4d235">Menus</a>
+
+
+
+<a href="https://msdn.microsoft.com/2e6abd30-9ace-4a17-9cf6-8a45a71eecaf">ModifyMenu</a>
+
+
+
+<b>Reference</b>
+ 
+
+ 
+

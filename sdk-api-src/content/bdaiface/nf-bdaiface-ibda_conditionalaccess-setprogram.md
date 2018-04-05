@@ -1,0 +1,91 @@
+---
+UID: NF:bdaiface.IBDA_ConditionalAccess.SetProgram
+title: IBDA_ConditionalAccess::SetProgram method
+author: windows-driver-content
+description: The SetProgram method sets the program number.
+old-location: mstv\ibda_conditionalaccess_setprogram.htm
+old-project: mstv
+ms.assetid: d38fc9bc-70e8-419e-b7be-33d1f53a723e
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: IBDA_ConditionalAccess, IBDA_ConditionalAccess interface [Microsoft TV Technologies], SetProgram method, IBDA_ConditionalAccess::SetProgram, IBDA_ConditionalAccessSetProgram, SetProgram method [Microsoft TV Technologies], SetProgram method [Microsoft TV Technologies], IBDA_ConditionalAccess interface, SetProgram,IBDA_ConditionalAccess.SetProgram, bdaiface/IBDA_ConditionalAccess::SetProgram, mstv.ibda_conditionalaccess_setprogram
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: bdaiface.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: None supported
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: UICloseReasonType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Bdaiface.h
+api_name:
+-	IBDA_ConditionalAccess.SetProgram
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# IBDA_ConditionalAccess::SetProgram method
+
+
+## -description
+
+
+The <b>SetProgram</b> method sets the program number.
+
+
+## -parameters
+
+
+
+
+### -param usProgramNumber [in]
+
+Specifies the program number.
+
+
+## -returns
+
+
+
+If the method succeeds, it returns S_OK. If it fails, it returns an error code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/7e0e2905-fb7c-4532-be3e-198ca620f894">AddProgram</a>
+
+
+
+<a href="https://msdn.microsoft.com/93bd3c38-2591-4d36-b296-5ad939487277">IBDA_ConditionalAccess Interface</a>
+
+
+
+<a href="https://msdn.microsoft.com/bc0d14e8-f4bc-49fe-b63c-0521f5bb3dbb">RemoveProgram</a>
+ 
+
+ 
+

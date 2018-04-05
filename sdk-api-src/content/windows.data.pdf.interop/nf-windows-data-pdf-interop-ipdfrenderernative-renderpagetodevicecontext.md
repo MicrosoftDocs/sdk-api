@@ -1,0 +1,115 @@
+---
+UID: NF:windows.data.pdf.interop.IPdfRendererNative.RenderPageToDeviceContext
+title: IPdfRendererNative::RenderPageToDeviceContext method
+author: windows-driver-content
+description: Outputs a single page of a Portable Document Format (PDF) file as a bitmap image.
+old-location: winrt\ipdfrenderernative_renderpagetodevicecontext.htm
+old-project: WinRT
+ms.assetid: 5ec97d21-3160-48e7-9486-a8ea9ca9df92
+ms.author: windowsdriverdev
+ms.date: 3/23/2018
+ms.keywords: IPdfRendererNative, IPdfRendererNative interface [Windows Runtime], RenderPageToDeviceContext method, IPdfRendererNative::RenderPageToDeviceContext, RenderPageToDeviceContext method [Windows Runtime], RenderPageToDeviceContext method [Windows Runtime], IPdfRendererNative interface, RenderPageToDeviceContext,IPdfRendererNative.RenderPageToDeviceContext, windows/IPdfRendererNative::RenderPageToDeviceContext, winrt.ipdfrenderernative_renderpagetodevicecontext
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: windows.data.pdf.interop.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [UWP apps only]
+req.target-min-winversvr: Windows Server 2012 R2 [UWP apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Windows.data.pdf.interop.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: DOT11_BSSID_LIST, *PDOT11_BSSID_LIST
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Windows.Data.Pdf.dll
+api_name:
+-	IPdfRendererNative.RenderPageToDeviceContext
+product: Windows
+targetos: Windows
+req.lib: Windows.data.pdf.lib
+req.dll: Windows.Data.Pdf.dll
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# IPdfRendererNative::RenderPageToDeviceContext method
+
+
+## -description
+
+
+Outputs a single page of a Portable Document Format (PDF) file as a bitmap image.
+
+
+## -parameters
+
+
+
+
+### -param pdfPage [in]
+
+The <b>IPdfPage</b> interface as an instance of the <a href="https://msdn.microsoft.com/85bf8d83-8c70-472f-8762-709fddaf3222">PdfPage</a> class,  type-casted to the <b>IUnknown</b> interface, representing the page to be output.
+
+
+### -param pD2DDeviceContext [in]
+
+A set of state and command buffers for outputting the page as a bitmap image.
+
+
+### -param pRenderParams [in, optional]
+
+A set of page output properties, such as rendering only a portion of the page, rendering a scaled version of the page, setting the page's background color, and whether the page is shown in high contrast mode. 
+
+Provide a null pointer for this parameter to specify default page output properties. For the list of defaults, see <a href="https://msdn.microsoft.com/1B2F12FB-E053-4B79-B71D-E66D7A6E5054">PDF_RENDER_PARAMS</a>.
+
+
+## -returns
+
+
+
+This method can return one of these values.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The page output operation succeeded.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/96a00afb-e957-4e49-8f30-d6a3d639680f">IPdfRendererNative</a>
+ 
+
+ 
+

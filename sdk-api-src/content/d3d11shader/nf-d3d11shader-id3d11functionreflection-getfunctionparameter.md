@@ -1,0 +1,87 @@
+---
+UID: NF:d3d11shader.ID3D11FunctionReflection.GetFunctionParameter
+title: ID3D11FunctionReflection::GetFunctionParameter method
+author: windows-driver-content
+description: Gets the function parameter reflector.
+old-location: direct3d11\id3d11functionreflection_getfunctionparameter.htm
+old-project: direct3d11
+ms.assetid: DA2A3226-7204-4722-BCA0-74B38793A319
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: GetFunctionParameter method [Direct3D 11], GetFunctionParameter method [Direct3D 11], ID3D11FunctionReflection interface, GetFunctionParameter,ID3D11FunctionReflection.GetFunctionParameter, ID3D11FunctionReflection, ID3D11FunctionReflection interface [Direct3D 11], GetFunctionParameter method, ID3D11FunctionReflection::GetFunctionParameter, d3d11shader/ID3D11FunctionReflection::GetFunctionParameter, direct3d11.id3d11functionreflection_getfunctionparameter
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: d3d11shader.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: D3D11_SHADER_VERSION_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	D3DCompiler_47.dll
+api_name:
+-	ID3D11FunctionReflection.GetFunctionParameter
+product: Windows
+targetos: Windows
+req.lib: D3DCompiler.lib
+req.dll: D3DCompiler_47.dll
+req.irql: 
+---
+
+# ID3D11FunctionReflection::GetFunctionParameter method
+
+
+## -description
+
+
+Gets the function parameter reflector.
+
+
+## -parameters
+
+
+
+
+### -param ParameterIndex [in]
+
+Type: <b>INT</b>
+
+The zero-based index of the function parameter reflector to retrieve.
+
+
+## -returns
+
+
+
+Type: <b><a href="https://msdn.microsoft.com/EFF60EF7-C060-4148-916C-D971B65561F5">ID3D11FunctionParameterReflection</a>*</b>
+
+A pointer to a <a href="https://msdn.microsoft.com/EFF60EF7-C060-4148-916C-D971B65561F5">ID3D11FunctionParameterReflection</a> interface that represents the function parameter reflector.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/91A3B6E3-E1A7-43F9-AD18-93A25F13CFB4">ID3D11FunctionReflection</a>
+ 
+
+ 
+

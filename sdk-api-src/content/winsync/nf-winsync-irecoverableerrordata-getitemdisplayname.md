@@ -1,0 +1,138 @@
+---
+UID: NF:winsync.IRecoverableErrorData.GetItemDisplayName
+title: IRecoverableErrorData::GetItemDisplayName method
+author: windows-driver-content
+description: Gets the display name of the item that caused the error.
+old-location: winsync\irecoverableerrordata_getitemdisplayname.htm
+old-project: winsync
+ms.assetid: 6b40d528-18dc-4924-959a-cde5f02d18b1
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: GetItemDisplayName method [Windows Sync], GetItemDisplayName method [Windows Sync], IRecoverableErrorData interface, GetItemDisplayName,IRecoverableErrorData.GetItemDisplayName, IRecoverableErrorData, IRecoverableErrorData interface [Windows Sync], GetItemDisplayName method, IRecoverableErrorData::GetItemDisplayName, winsync.irecoverableerrordata_getitemdisplayname, winsync/IRecoverableErrorData::GetItemDisplayName
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: winsync.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	winsync.h
+api_name:
+-	IRecoverableErrorData.GetItemDisplayName
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IRecoverableErrorData::GetItemDisplayName method
+
+
+## -description
+
+
+Gets the display name of the item that caused the error.
+
+
+## -parameters
+
+
+
+
+### -param pszItemDisplayName [in, out]
+
+Returns the display name of the item that caused the error.
+
+
+### -param pcchItemDisplayName [in, out]
+
+Specifies the number of characters in <i>pszItemDisplayName</i>. Returns the required number of characters for <i>pszItemDisplayName</i> when <i>pcchItemDisplayName</i> is too small; otherwise, returns the number of characters written.
+
+
+## -returns
+
+
+
+The possible return codes include, but are not limited to, the values shown in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_POINTER</b></dt>
+</dl>
+</td>
+<td width="60%">
+Invalid pointer.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>HRESULT_FROM_WIN32(ERROR_MORE_DATA)</b></dt>
+</dl>
+</td>
+<td width="60%">
+<i>pszItemDisplayName</i> is too small. In this case, the required number of characters is returned in <i>pcchItemDisplayName</i>.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>Provider-determined error codes.</b></dt>
+</dl>
+</td>
+<td width="60%"></td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/e99779ef-87c9-45ac-93dc-53ee1a201402">IRecoverableErrorData Interface</a>
+ 
+
+ 
+

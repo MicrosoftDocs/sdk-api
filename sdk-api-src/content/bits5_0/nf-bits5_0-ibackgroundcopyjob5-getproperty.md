@@ -1,0 +1,119 @@
+---
+UID: NF:bits5_0.IBackgroundCopyJob5.GetProperty
+title: IBackgroundCopyJob5::GetProperty method
+author: windows-driver-content
+description: A generic method for getting BITS job properties.
+old-location: bits\ibackgroundcopyjob5_getproperty.htm
+old-project: Bits
+ms.assetid: 567C21C7-C689-4A13-9DCA-D45766CB5150
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: GetProperty method [BITS], GetProperty method [BITS], IBackgroundCopyJob5 interface, GetProperty,IBackgroundCopyJob5.GetProperty, IBackgroundCopyJob5, IBackgroundCopyJob5 interface [BITS], GetProperty method, IBackgroundCopyJob5::GetProperty, bits.ibackgroundcopyjob5_getproperty, bits5_0/IBackgroundCopyJob5::GetProperty
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: bits5_0.h
+req.include-header: Bits.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Bits5_0.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: BITS_FILE_PROPERTY_ID
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Bits.lib
+-	Bits.dll
+api_name:
+-	IBackgroundCopyJob5.GetProperty
+product: Windows
+targetos: Windows
+req.lib: Bits.lib
+req.dll: 
+req.irql: 
+---
+
+# IBackgroundCopyJob5::GetProperty method
+
+
+## -description
+
+
+A generic method for getting BITS job properties.
+
+
+## -parameters
+
+
+
+
+### -param PropertyId [in]
+
+The ID of the property that is being obtained specified as a <a href="https://msdn.microsoft.com/4ED7419E-3435-4F12-B293-1FDC24F40D63">BITS_JOB_PROPERTY_ID</a> enum value.
+
+
+### -param PropertyValue
+
+
+
+
+
+
+#### - pPropertyValue [out]
+
+The property value returned as a BITS_JOB_PROPERTY_VALUE union.
+
+
+## -returns
+
+
+
+The method returns the following return values.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+Success
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/97481F9D-1F7B-473A-B288-A52E527478A0">IBackgroundCopyJob5</a>
+
+
+
+<a href="https://msdn.microsoft.com/D5DB8A96-7417-4142-BA27-783314835CED">IBackgroundCopyJob5::SetProperty</a>
+ 
+
+ 
+

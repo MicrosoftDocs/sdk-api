@@ -1,0 +1,82 @@
+---
+UID: NF:mi.MI_Server_GetSystemName
+title: MI_Server_GetSystemName function
+author: windows-driver-content
+description: Gets the system name for the server.
+old-location: wmi_v2\mi_server_getsystemname.htm
+old-project: wmi_v2
+ms.assetid: 895b21b8-dc66-4e05-9f10-9dcd704bef70
+ms.author: windowsdriverdev
+ms.date: 3/23/2018
+ms.keywords: MI_Server_GetSystemName, MI_Server_GetSystemName callback function [Windows Management Infrastructure (MI)], mi/MI_Server_GetSystemName, wmi_v2.mi_server_getsystemname
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: mi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MI_Type
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Mi.h
+api_name:
+-	MI_Server_GetSystemName
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# MI_Server_GetSystemName function
+
+
+## -description
+
+
+Gets the system name for the server.
+
+
+## -parameters
+
+
+
+
+### -param systemName
+
+Returned system name.
+
+
+## -returns
+
+
+
+This function returns MI_Result MI_CALL.
+
+
+
+
+## -remarks
+
+
+
+This function is only available from within a generated provider. It obtains the system name for this server. The system name is used in several standard CIM key properties (for example, CIM_Fan.SystemName). The name is only known by the server. The provider should use only this function to get the system name and should never attempt to determine the system name using other means. The system name is typically the host name for the system, but the server may add additional qualification.
+
+
+

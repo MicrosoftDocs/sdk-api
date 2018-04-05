@@ -1,0 +1,158 @@
+---
+UID: NF:winsync.IChangeUnitListFilterInfo.GetChangeUnitId
+title: IChangeUnitListFilterInfo::GetChangeUnitId method
+author: windows-driver-content
+description: Gets the change unit ID that is stored at the specified index in the array of change unit IDs that define the filter.
+old-location: winsync\ichangeunitlistfilterinfo_getchangeunitid.htm
+old-project: winsync
+ms.assetid: 67420b58-b3c9-4500-8395-4d176133c142
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: GetChangeUnitId method [Windows Sync], GetChangeUnitId method [Windows Sync], IChangeUnitListFilterInfo interface, GetChangeUnitId,IChangeUnitListFilterInfo.GetChangeUnitId, IChangeUnitListFilterInfo, IChangeUnitListFilterInfo interface [Windows Sync], GetChangeUnitId method, IChangeUnitListFilterInfo::GetChangeUnitId, winsync.ichangeunitlistfilterinfo_getchangeunitid, winsync/IChangeUnitListFilterInfo::GetChangeUnitId
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: winsync.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	winsync.h
+api_name:
+-	IChangeUnitListFilterInfo.GetChangeUnitId
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IChangeUnitListFilterInfo::GetChangeUnitId method
+
+
+## -description
+
+
+Gets the change unit ID that is stored at the specified index in the array of change unit IDs that define the filter.
+
+
+## -parameters
+
+
+
+
+### -param dwChangeUnitIdIndex [in]
+
+The index of the change unit ID to look up.
+
+
+### -param pbChangeUnitId [in, out]
+
+Returns the change unit ID that is stored at the index that is specified by <i>dwChangeUnitIdIndex</i>.
+
+
+### -param pcbIdSize [in, out]
+
+Specifies the number of bytes in <i>pbChangeUnitId</i>. Returns the number of bytes that are required to retrieve the ID when <i>pbChangeUnitId</i> is too small, or the number of bytes written.
+
+
+## -returns
+
+
+
+The possible return codes include, but are not limited to, the values shown in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+No filter is defined, or  <i>dwChangeUnitIdIndex</i> is larger than the number of change unit IDs that are stored in this object.
+
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_POINTER</b></dt>
+</dl>
+</td>
+<td width="60%">
+Invalid pointer.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>HRESULT_FROM_WIN32(ERROR_MORE_DATA)</b></dt>
+</dl>
+</td>
+<td width="60%">
+<i>pbChangeUnitId</i> is too small. In this case, the required number of bytes is returned in <i>pcbIdSize</i>.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>SYNC_E_ID_FORMAT_MISMATCH</b></dt>
+</dl>
+</td>
+<td width="60%">
+The change unit ID to be returned is not valid.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/fd379fc6-22e5-4165-b4e6-480bc65cccb3">IChangeUnitListFilterInfo Interface</a>
+ 
+
+ 
+

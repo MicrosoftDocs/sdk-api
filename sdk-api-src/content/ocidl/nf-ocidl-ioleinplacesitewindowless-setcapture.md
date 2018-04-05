@@ -1,0 +1,127 @@
+---
+UID: NF:ocidl.IOleInPlaceSiteWindowless.SetCapture
+title: IOleInPlaceSiteWindowless::SetCapture method
+author: windows-driver-content
+description: Enables an in-place active, windowless object to capture all mouse messages.
+old-location: com\ioleinplacesitewindowless_setcapture.htm
+old-project: com
+ms.assetid: 48de7ab3-eb1e-49e1-8d31-ca1ef1f9055d
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: IOleInPlaceSiteWindowless, IOleInPlaceSiteWindowless interface [COM], SetCapture method, IOleInPlaceSiteWindowless::SetCapture, SetCapture method [COM], SetCapture method [COM], IOleInPlaceSiteWindowless interface, SetCapture,IOleInPlaceSiteWindowless.SetCapture, _ole_ioleinplacesitewindowless_setcapture, com.ioleinplacesitewindowless_setcapture, ocidl/IOleInPlaceSiteWindowless::SetCapture
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: ocidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: OCIdl.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: VIEWSTATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	OCIdl.h
+api_name:
+-	IOleInPlaceSiteWindowless.SetCapture
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# IOleInPlaceSiteWindowless::SetCapture method
+
+
+## -description
+
+
+Enables an in-place active, windowless object to capture all mouse messages.
+
+
+## -parameters
+
+
+
+
+### -param fCapture [in]
+
+If <b>TRUE</b>, the container should capture the mouse for the object. If <b>FALSE</b>, the container should release mouse capture for the object.
+
+
+## -returns
+
+
+
+This method returns S_OK if the mouse capture was successfully granted to the object. If called to release the mouse capture, this method must not fail. Other possible return values include the following.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_FALSE</b></dt>
+</dl>
+</td>
+<td width="60%">
+Mouse capture was denied to the object.
+
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+A windowless object captures the mouse input, by calling <b>IOleInPlaceSiteWindowless::SetCapture</b> with <b>TRUE</b> on its site object. The container can deny mouse capture, in which case this method returns S_FALSE. If the capture is granted, the container must set the Windows mouse capture to its own window and dispatch any subsequent mouse message to the object, regardless of whether the mouse cursor position is over this object or not.
+
+The object can later release mouse capture by calling <b>IOleInPlaceSiteWindowless::SetCapture</b> with <b>FALSE</b> on its site object. The capture can also be released because of an external event, such as the ESC key being pressed. In this case, the object is notified by a <a href="_win32_WM_CANCELMODE_cpp">WM_CANCELMODE</a> message that the container dispatches along with the keyboard focus.
+
+
+
+Containers should dispatch all mouse messages, including <a href="_win32_WM_SETCURSOR_cpp">WM_SETCURSOR</a>, to the windowless OLE object that has captured the mouse. If no object has captured the mouse, the container should dispatch the mouse message to the object under the mouse cursor.
+
+The container dispatches these window messages by calling <a href="https://msdn.microsoft.com/e9deaed5-485f-40e4-96ee-391dc3d12a86">IOleInPlaceObjectWindowless::OnWindowMessage</a> on the windowless object. The windowless object can return S_FALSE to this method to indicate that it did not process the mouse message. Then, the container should perform the default behavior for the message by calling the <a href="_win32_DefWindowProc_cpp">DefWindowProc</a> function. For <a href="_win32_WM_SETCURSOR_cpp">WM_SETCURSOR</a>, the container can either set the cursor itself or do nothing.
+
+Objects can also use <a href="https://msdn.microsoft.com/14017061-57e3-49a9-93cc-6373522ab1dc">IOleInPlaceSiteWindowless::OnDefWindowMessage</a> to invoke the default message processing from the container. In the case of the <a href="_win32_WM_SETCURSOR_cpp">WM_SETCURSOR</a> message, this allows an object to take action if the container does not set the cursor.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/4ad83599-99d2-4b35-95de-cff845a8d5e4">IOleInPlaceSiteWindowless</a>
+
+
+
+<a href="https://msdn.microsoft.com/14017061-57e3-49a9-93cc-6373522ab1dc">IOleInPlaceSiteWindowless::OnDefWindowMessage</a>
+ 
+
+ 
+

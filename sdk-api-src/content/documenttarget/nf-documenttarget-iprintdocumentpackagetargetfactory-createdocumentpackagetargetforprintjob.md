@@ -1,0 +1,109 @@
+---
+UID: NF:documenttarget.IPrintDocumentPackageTargetFactory.CreateDocumentPackageTargetForPrintJob
+title: IPrintDocumentPackageTargetFactory::CreateDocumentPackageTargetForPrintJob method
+author: windows-driver-content
+description: Acts as the entry point for creating an IPrintDocumentPackageTarget object.
+old-location: xps\iprintdocumentpackagetargetfactory_createdocumentpackagetargetforprintjob.htm
+old-project: printdocs
+ms.assetid: F611305F-B577-403F-AD8A-402ABE8F6768
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: CreateDocumentPackageTargetForPrintJob method [XPS Documents and Packaging], CreateDocumentPackageTargetForPrintJob method [XPS Documents and Packaging], IPrintDocumentPackageTargetFactory interface, CreateDocumentPackageTargetForPrintJob,IPrintDocumentPackageTargetFactory.CreateDocumentPackageTargetForPrintJob, IPrintDocumentPackageTargetFactory, IPrintDocumentPackageTargetFactory interface [XPS Documents and Packaging], CreateDocumentPackageTargetForPrintJob method, IPrintDocumentPackageTargetFactory::CreateDocumentPackageTargetForPrintJob, documenttarget/IPrintDocumentPackageTargetFactory::CreateDocumentPackageTargetForPrintJob, xps.iprintdocumentpackagetargetfactory_createdocumentpackagetargetforprintjob
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: documenttarget.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: PrintDocumentPackageCompletion
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Documenttarget.h
+api_name:
+-	IPrintDocumentPackageTargetFactory.CreateDocumentPackageTargetForPrintJob
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# IPrintDocumentPackageTargetFactory::CreateDocumentPackageTargetForPrintJob method
+
+
+## -description
+
+
+Acts as the entry point for creating an <a href="https://msdn.microsoft.com/0F63C626-DB58-4952-BBB3-7E3901429C35">IPrintDocumentPackageTarget</a> object.
+
+
+## -parameters
+
+
+
+
+### -param printerName [in]
+
+The name of the target printer.
+
+
+### -param jobName [in]
+
+The name to apply to the job.
+
+<div class="alert"><b>Note</b>  Job name strings longer than 63 characters will be truncated to 63 characters and a terminating <b>NULL</b>.</div>
+<div> </div>
+
+### -param jobOutputStream [in]
+
+The job content. The application must set the seek pointer to the beginning before specifying the job output stream.
+
+
+### -param jobPrintTicketStream [in]
+
+A pointer to the <b>IStream</b> interface that is used by the caller to write the job-level print ticket that will be associated with this job.
+
+
+### -param docPackageTarget [out]
+
+The target output.
+
+
+## -returns
+
+
+
+If the <b>CreateDocumentPackageTargetForPrintJob</b> method completes successfully, it returns an S_OK. Otherwise it returns the appropriate HRESULT error code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/0F63C626-DB58-4952-BBB3-7E3901429C35">IPrintDocumentPackageTarget</a>
+
+
+
+<a href="https://msdn.microsoft.com/631FBF5E-1DDF-49A9-8E1E-201BC6996EA5">IPrintDocumentPackageTargetFactory</a>
+ 
+
+ 
+

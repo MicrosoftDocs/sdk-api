@@ -1,0 +1,95 @@
+---
+UID: NF:wmsdkidl.IWMAddressAccess.AddAccessEntry
+title: IWMAddressAccess::AddAccessEntry method
+author: windows-driver-content
+description: The AddAccessEntry method adds an entry to the IP address access list.
+old-location: wmformat\iwmaddressaccess_addaccessentry.htm
+old-project: wmformat
+ms.assetid: 670bea6a-0370-4dc4-a2af-fcdbe2a6656a
+ms.author: windowsdriverdev
+ms.date: 3/23/2018
+ms.keywords: AddAccessEntry method [windows Media Format], AddAccessEntry method [windows Media Format], IWMAddressAccess interface, AddAccessEntry,IWMAddressAccess.AddAccessEntry, IWMAddressAccess, IWMAddressAccess interface [windows Media Format], AddAccessEntry method, IWMAddressAccess::AddAccessEntry, IWMAddressAccessAddAccessEntry, wmformat.iwmaddressaccess_addaccessentry, wmsdkidl/IWMAddressAccess::AddAccessEntry
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wmsdkidl.h
+req.include-header: Wmsdk.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WM_AETYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wmvcore.lib
+-	Wmvcore.dll
+-	WMStubDRM.lib
+-	WMStubDRM.dll
+api_name:
+-	IWMAddressAccess.AddAccessEntry
+product: Windows
+targetos: Windows
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IWMAddressAccess::AddAccessEntry method
+
+
+## -description
+
+
+
+The <b>AddAccessEntry</b> method adds an entry to the IP address access list.
+
+
+
+
+## -parameters
+
+
+
+
+### -param aeType [in]
+
+A member of the <a href="https://msdn.microsoft.com/514e6745-c521-41bd-81c2-b6c24cfb0192">WM_AETYPE</a> enumeration specifying the access permissions (exclusion or inclusion).
+
+
+### -param pAddrAccessEntry [in]
+
+Pointer to a <a href="https://msdn.microsoft.com/670c126f-c94b-4fac-b18c-d764f048f401">WM_ADDRESS_ACCESSENTRY</a> structure that specifies the IP address or range of addresses.
+
+
+## -returns
+
+
+
+If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</b> error code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/7251c600-90a2-4903-b26a-643b4d10b0ce">IWMAddressAccess Interface</a>
+ 
+
+ 
+

@@ -1,0 +1,115 @@
+---
+UID: NF:wmp.IWMPErrorItem.get_remedy
+title: IWMPErrorItem::get_remedy method
+author: windows-driver-content
+description: Reserved for future use.
+old-location: wmp\iwmperroritem_get_remedy.htm
+old-project: WMP
+ms.assetid: f37ec43a-cf58-4e90-9b2a-aef8afc30744
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: IWMPErrorItem, IWMPErrorItem interface [Windows Media Player], get_remedy method, IWMPErrorItem::get_remedy, IWMPErrorItemget_remedy, get_remedy method [Windows Media Player], get_remedy method [Windows Media Player], IWMPErrorItem interface, get_remedy,IWMPErrorItem.get_remedy, wmp.iwmperroritem_get_remedy, wmp/IWMPErrorItem::get_remedy
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wmp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Media Player 9 Series or later.
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WMPSyncState
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	wmp.dll
+api_name:
+-	IWMPErrorItem.get_remedy
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IWMPErrorItem::get_remedy method
+
+
+## -description
+
+
+
+Reserved for future use.
+
+
+
+
+## -parameters
+
+
+
+
+### -param plRemedy [out]
+
+Pointer to a <b>long</b> containing the remedy.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+<b>Windows Media Player 10 Mobile: </b>This method always retrieves a <b>long</b> set to 0.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/4675eebf-80d7-4412-b3f1-ec54b977db31">IWMPErrorItem Interface</a>
+ 
+
+ 
+

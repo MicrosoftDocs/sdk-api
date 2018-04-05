@@ -1,0 +1,141 @@
+---
+UID: NF:wmsdkidl.IWMPacketSize.SetMaxPacketSize
+title: IWMPacketSize::SetMaxPacketSize method
+author: windows-driver-content
+description: The SetMaxPacketSize method specifies the maximum size of a packet in an ASF file.
+old-location: wmformat\iwmpacketsize_setmaxpacketsize.htm
+old-project: wmformat
+ms.assetid: a8230c08-e60f-454d-93a5-037685d6151c
+ms.author: windowsdriverdev
+ms.date: 3/23/2018
+ms.keywords: IWMPacketSize, IWMPacketSize interface [windows Media Format], SetMaxPacketSize method, IWMPacketSize2 interface [windows Media Format], SetMaxPacketSize method, IWMPacketSize2::SetMaxPacketSize, IWMPacketSize::SetMaxPacketSize, IWMPacketSizeSetMaxPacketSize, SetMaxPacketSize method [windows Media Format], SetMaxPacketSize method [windows Media Format], IWMPacketSize interface, SetMaxPacketSize method [windows Media Format], IWMPacketSize2 interface, SetMaxPacketSize,IWMPacketSize.SetMaxPacketSize, wmformat.iwmpacketsize_setmaxpacketsize, wmsdkidl/IWMPacketSize2::SetMaxPacketSize, wmsdkidl/IWMPacketSize::SetMaxPacketSize
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wmsdkidl.h
+req.include-header: Wmsdk.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WM_AETYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wmvcore.lib
+-	Wmvcore.dll
+-	WMStubDRM.lib
+-	WMStubDRM.dll
+-	qasf.dll
+api_name:
+-	IWMPacketSize.SetMaxPacketSize
+-	IWMPacketSize2.SetMaxPacketSize
+product: Windows
+targetos: Windows
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IWMPacketSize::SetMaxPacketSize method
+
+
+## -description
+
+
+
+The <b>SetMaxPacketSize</b> method specifies the maximum size of a <a href="wmformat_glossary.htm">packet</a> in an ASF file. 
+
+
+
+
+## -parameters
+
+
+
+
+### -param dwMaxPacketSize [in]
+
+<b>DWORD</b> containing the maximum packet size, in bytes. Set this to zero if the writer is to generate packets of various sizes. Otherwise, it must be a value between 100 bytes and 64 kilobytes.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+The <i>dwMaxPacketSize</i> parameter contains an invalid value for the maximum packet size.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+By default, the maximum packet size is 1400 bytes (chosen because it is below the 1500-byte Ethernet maximum transition unit (MTU) plus the generic routing encapsulation (GRE) tunneling header size). The writer attempts to send 10 packets per second up to but not exceeding the value of the defined maximum packet size.
+
+This method is designed for use with only single bit rate video; it should not be applied to a multiple bit rate stream. Note also that the maximum value applies only to the data; a small amount will be added for the header. For this reason there will be a small variance between the setting specified by this method and the actual maximum packet size reported by other tools for the stream.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/002442fe-46de-49d9-8aff-ad7c9aabc8d1">IWMPacketSize Interface</a>
+
+
+
+<a href="https://msdn.microsoft.com/4af4c088-9fc3-46a9-8451-518b11bc94e3">IWMPacketSize2</a>
+
+
+
+<a href="https://msdn.microsoft.com/8410c524-9c27-48ac-9a48-c17cae782764">IWMPacketSize::GetMaxPacketSize</a>
+ 
+
+ 
+

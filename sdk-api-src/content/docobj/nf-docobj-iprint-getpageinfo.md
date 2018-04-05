@@ -1,0 +1,88 @@
+---
+UID: NF:docobj.IPrint.GetPageInfo
+title: IPrint::GetPageInfo method
+author: windows-driver-content
+description: Retrieves the number of a document's first page and the total number of pages.
+old-location: com\iprint_getpageinfo.htm
+old-project: com
+ms.assetid: 8f3a2d21-5345-4c4e-9928-37dcd6ec5fcc
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: GetPageInfo method [COM], GetPageInfo method [COM], IPrint interface, GetPageInfo,IPrint.GetPageInfo, IPrint, IPrint interface [COM], GetPageInfo method, IPrint::GetPageInfo, _ctrl_iprint_getpageinfo, com.iprint_getpageinfo, docobj/IPrint::GetPageInfo
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: docobj.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: DocObj.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: DOCMISC
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	DocObj.h
+api_name:
+-	IPrint.GetPageInfo
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# IPrint::GetPageInfo method
+
+
+## -description
+
+
+Retrieves the number of a document's first page and the total number of pages.
+
+
+## -parameters
+
+
+
+
+### -param pnFirstPage [out]
+
+A pointer to a variable that receives the page number of the first page. This parameter can be <b>NULL</b>, indicating that the caller is not interested in this number. If <a href="https://msdn.microsoft.com/352a4dc0-c79e-46e3-8212-55fd7d2916bc">IPrint::SetInitialPageNum</a> has been called, this parameter should contain the same value passed to that method. Otherwise, the value is the document's internal first page number.
+
+
+### -param pcPages [out]
+
+A pointer to a variable that receives the total number of pages in this document. This parameter can be <b>NULL</b>, indicating that the caller is not interested in this number.
+
+
+## -returns
+
+
+
+This method can return the standard return values E_UNEXPECTED and S_OK.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/eb0d15c0-8a34-4211-b840-29d5862cf767">IPrint</a>
+ 
+
+ 
+

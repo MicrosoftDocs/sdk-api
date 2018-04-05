@@ -1,0 +1,109 @@
+---
+UID: NF:mbnapi.IMbnSmsReadMsgPdu.get_PduData
+title: IMbnSmsReadMsgPdu::get_PduData method
+author: windows-driver-content
+description: The PDU message in hexadecimal format as used by GSM devices.
+old-location: mbn\imbnsmsreadmsgpdu_pdudata.htm
+old-project: mbn
+ms.assetid: 709dd6dd-c54d-4a46-bc29-f68229feb97d
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: IMbnSmsReadMsgPdu, IMbnSmsReadMsgPdu interface [Microsoft Broadband Networks], PduData property, IMbnSmsReadMsgPdu.PduData, IMbnSmsReadMsgPdu::get_PduData, PduData property [Microsoft Broadband Networks], PduData property [Microsoft Broadband Networks], IMbnSmsReadMsgPdu interface, get_PduData,IMbnSmsReadMsgPdu.get_PduData, mbn.imbnsmsreadmsgpdu_pdudata, mbnapi/IMbnSmsReadMsgPdu::PduData, mbnapi/IMbnSmsReadMsgPdu::get_PduData
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: mbnapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: None supported
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Mbnapi.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MBN_VOICE_CLASS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mbnapi.h
+api_name:
+-	IMbnSmsReadMsgPdu.PduData
+-	IMbnSmsReadMsgPdu.get_PduData
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IMbnSmsReadMsgPdu::get_PduData method
+
+
+## -description
+
+
+The PDU message in hexadecimal format as used by GSM devices.
+
+This property is read-only.
+
+
+## -parameters
+
+
+## -remarks
+
+
+
+  For GSM devices, this data in <i>PduData</i> is compliant to the PDU structure defined in 3GPP TS 27.005 and 3GPP TS 23.040.
+
+The table below shows an example of how a PDU message containing the message "Hello" would be structured.
+
+
+<table>
+<tr>
+<th>Example</th>
+<td>07</td>
+<td>91198994000010</td>
+<td>11000A9189945086180000AA05C8329BFD06</td>
+</tr>
+<tr>
+<th>Contents</th>
+<td>Size of Service Center Address</td>
+<td>Service Center Address</td>
+<td>PDU in hexadecimal format</td>
+</tr>
+<tr>
+<th>Size</th>
+<td>1 byte</td>
+<td>Variable</td>
+<td>Variable</td>
+</tr>
+</table>
+ 
+
+
+
+For CDMA devices, this property returns <b>NULL</b>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/dc0e15c4-6203-4105-9d19-5931b27047d2">IMbnSmsReadMsgPdu</a>
+ 
+
+ 
+

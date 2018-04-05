@@ -1,0 +1,71 @@
+---
+UID: NF:wuapi.IWindowsDriverUpdate.get_DriverHardwareID
+title: IWindowsDriverUpdate::get_DriverHardwareID method
+author: windows-driver-content
+description: Gets the hardware ID or compatible ID that the Windows driver update must match to be installable.
+old-location: wua\iwindowsdriverupdate_driverhardwareid.htm
+old-project: Wua_Sdk
+ms.assetid: 330c37a6-d4bb-44ab-bfbf-cfe02e9abb22
+ms.author: windowsdriverdev
+ms.date: 3/15/2018
+ms.keywords: DriverHardwareID property [Windows Update Agent], DriverHardwareID property [Windows Update Agent], IWindowsDriverUpdate interface, IWindowsDriverUpdate, IWindowsDriverUpdate interface [Windows Update Agent], DriverHardwareID property, IWindowsDriverUpdate.DriverHardwareID, IWindowsDriverUpdate::get_DriverHardwareID, get_DriverHardwareID,IWindowsDriverUpdate.get_DriverHardwareID, wua.iwindowsdriverupdate_driverhardwareid, wuapi/IWindowsDriverUpdate::DriverHardwareID, wuapi/IWindowsDriverUpdate::get_DriverHardwareID
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wuapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Wuapi.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: UpdateType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wuapi.dll
+api_name:
+-	IWindowsDriverUpdate.DriverHardwareID
+-	IWindowsDriverUpdate.get_DriverHardwareID
+product: Windows
+targetos: Windows
+req.lib: Wuguid.lib
+req.dll: Wuapi.dll
+req.irql: 
+req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+---
+
+# IWindowsDriverUpdate::get_DriverHardwareID method
+
+
+## -description
+
+
+Gets the hardware ID or compatible ID that the Windows driver update must match to be installable.
+
+This property is read-only.
+
+
+## -parameters
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/4e2eda04-4f86-4919-b754-dba90fa8d5d8">IWindowsDriverUpdate</a>
+ 
+
+ 
+

@@ -1,0 +1,106 @@
+---
+UID: NF:d3d11.ID3D11Resource.SetEvictionPriority
+title: ID3D11Resource::SetEvictionPriority method
+author: windows-driver-content
+description: Set the eviction priority of a resource.
+old-location: direct3d11\id3d11resource_setevictionpriority.htm
+old-project: direct3d11
+ms.assetid: 8c68fbb8-dd8a-4d60-b081-082720e7bda5
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: 55340049-7283-9bea-b4ac-8b0b9cb71119, ID3D11Resource, ID3D11Resource interface [Direct3D 11], SetEvictionPriority method, ID3D11Resource::SetEvictionPriority, SetEvictionPriority method [Direct3D 11], SetEvictionPriority method [Direct3D 11], ID3D11Resource interface, SetEvictionPriority,ID3D11Resource.SetEvictionPriority, d3d11/ID3D11Resource::SetEvictionPriority, direct3d11.id3d11resource_setevictionpriority
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: d3d11.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: D3D11_VPOV_DIMENSION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	D3D11.lib
+-	D3D11.dll
+api_name:
+-	ID3D11Resource.SetEvictionPriority
+product: Windows
+targetos: Windows
+req.lib: D3D11.lib
+req.dll: 
+req.irql: 
+---
+
+# ID3D11Resource::SetEvictionPriority method
+
+
+## -description
+
+
+Set the eviction priority of a resource.
+
+
+## -parameters
+
+
+
+
+### -param EvictionPriority [in]
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+
+Eviction priority for the resource, which is one of the following values:
+
+<ul>
+<li>DXGI_RESOURCE_PRIORITY_MINIMUM</li>
+<li>DXGI_RESOURCE_PRIORITY_LOW</li>
+<li>DXGI_RESOURCE_PRIORITY_NORMAL</li>
+<li>DXGI_RESOURCE_PRIORITY_HIGH</li>
+<li>DXGI_RESOURCE_PRIORITY_MAXIMUM</li>
+</ul>
+
+## -returns
+
+
+
+Returns nothing.
+
+
+
+
+## -remarks
+
+
+
+Resource priorities determine which resource to evict from video memory when the system has run out of video memory. The resource will not be lost; it will be removed from video memory and placed into system memory, or possibly placed onto the hard drive. The resource will be loaded back into video memory when it is required.
+
+A resource that is set to the maximum priority, DXGI_RESOURCE_PRIORITY_MAXIMUM, is only evicted if there is no other way of resolving the incoming memory request. The Windows Display Driver Model (WDDM) tries to split an incoming memory request to its minimum size and evict lower-priority resources before evicting a resource with maximum priority.
+
+Changing the priorities of resources should be done carefully. The wrong eviction priorities could be a detriment to performance rather than an improvement. 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/3823ec00-cb3c-43ce-9f1a-be4e1e99d587">ID3D11Resource</a>
+ 
+
+ 
+

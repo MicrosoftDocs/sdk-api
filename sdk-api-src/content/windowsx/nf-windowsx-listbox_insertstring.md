@@ -1,0 +1,90 @@
+---
+UID: NF:windowsx.ListBox_InsertString
+title: ListBox_InsertString macro
+author: windows-driver-content
+description: Adds a string to a list box at the specified location. You can use this macro or send the LB_INSERTSTRING message explicitly.
+old-location: controls\ListBox_InsertString.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_insertstring.htm
+ms.author: windowsdriverdev
+ms.date: 3/31/2018
+ms.keywords: ListBox_InsertString, ListBox_InsertString macro [Windows Controls], _win32_ListBox_InsertString, _win32_ListBox_InsertString_cpp, controls.ListBox_InsertString, controls._win32_ListBox_InsertString, windowsx/ListBox_InsertString
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: macro
+req.header: windowsx.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: HANDLE_SHARING_OPTIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Windowsx.h
+api_name:
+-	ListBox_InsertString
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# ListBox_InsertString macro
+
+
+## -description
+
+
+Adds a string to a list box at the specified location. You can use this macro or send the <a href="https://msdn.microsoft.com/dfaa742d-2f42-4485-aed5-cda8ca9ba66c">LB_INSERTSTRING</a> message explicitly.
+
+
+## -parameters
+
+
+
+
+### -param hwndCtl
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+
+A handle to the control.
+
+
+### -param index
+
+Type: <b>int</b>
+
+The zero-based index at which to insert the string, or –1 to add it to the end of the list. 
+
+
+### -param lpsz
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCSTR</a></b>
+
+The string to add.
+
+
+## -remarks
+
+
+
+For more information, see <a href="https://msdn.microsoft.com/dfaa742d-2f42-4485-aed5-cda8ca9ba66c">LB_INSERTSTRING</a>.
+	
+
+
+

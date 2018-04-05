@@ -1,0 +1,118 @@
+---
+UID: NF:photoacquire.IPhotoAcquireSource.GetPhotoAcquireSettings
+title: IPhotoAcquireSource::GetPhotoAcquireSettings method
+author: windows-driver-content
+description: The GetPhotoAcquireSettings method obtains an IPhotoAcquireSettings object for working with acquisition settings.
+old-location: picacq\iphotoacquiresource_getphotoacquiresettings.htm
+old-project: acquisition
+ms.assetid: b4c01856-b7e4-4318-aaf8-8e34e441ce75
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: GetPhotoAcquireSettings method [Picture Acquisition], GetPhotoAcquireSettings method [Picture Acquisition], IPhotoAcquireSource interface, GetPhotoAcquireSettings,IPhotoAcquireSource.GetPhotoAcquireSettings, IPhotoAcquireSource, IPhotoAcquireSource interface [Picture Acquisition], GetPhotoAcquireSettings method, IPhotoAcquireSource::GetPhotoAcquireSettings, IPhotoAcquireSourceGetPhotoAcquireSettings, photoacquire/IPhotoAcquireSource::GetPhotoAcquireSettings, picacq.iphotoacquiresource_getphotoacquiresettings
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: photoacquire.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: USER_INPUT_STRING_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	PhotoAcquireUID.lib
+-	PhotoAcquireUID.dll
+api_name:
+-	IPhotoAcquireSource.GetPhotoAcquireSettings
+product: Windows
+targetos: Windows
+req.lib: PhotoAcquireUID.lib
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# IPhotoAcquireSource::GetPhotoAcquireSettings method
+
+
+## -description
+
+
+
+The <code>GetPhotoAcquireSettings</code> method obtains an <a href="https://msdn.microsoft.com/c86d0c97-f9ef-4a73-865b-8aea7972193b">IPhotoAcquireSettings</a> object for working with acquisition settings.
+
+
+
+
+## -parameters
+
+
+
+
+### -param ppPhotoAcquireSettings [out]
+
+Pointer to the address of a photo acquire settings object.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_POINTER</b></dt>
+</dl>
+</td>
+<td width="60%">
+Null value passed where non-null is expected.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/6671d550-8c12-40e3-bf6f-33203e69cff0">IPhotoAcquireSource Interface</a>
+ 
+
+ 
+

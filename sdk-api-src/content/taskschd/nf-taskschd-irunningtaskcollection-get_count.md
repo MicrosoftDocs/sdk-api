@@ -1,0 +1,71 @@
+---
+UID: NF:taskschd.IRunningTaskCollection.get_Count
+title: IRunningTaskCollection::get_Count method
+author: windows-driver-content
+description: Gets the number of running tasks in the collection.
+old-location: taskschd\irunningtaskcollection_count.htm
+old-project: TaskSchd
+ms.assetid: 0365b804-6450-494d-8a5b-8fc805766611
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: Count property [Task Scheduler], Count property [Task Scheduler], IRunningTaskCollection interface, IRunningTaskCollection, IRunningTaskCollection interface [Task Scheduler], Count property, IRunningTaskCollection.Count, IRunningTaskCollection::get_Count, get_Count,IRunningTaskCollection.get_Count, taskschd.irunningtaskcollection_count, taskschd/IRunningTaskCollection::Count, taskschd/IRunningTaskCollection::get_Count
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: taskschd.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: TASK_TRIGGER_TYPE2
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	taskschd.dll
+api_name:
+-	IRunningTaskCollection.Count
+-	IRunningTaskCollection.get_Count
+product: Windows
+targetos: Windows
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# IRunningTaskCollection::get_Count method
+
+
+## -description
+
+
+Gets the number of running tasks in the collection.
+
+This property is read-only.
+
+
+## -parameters
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/f95efba5-563d-49c0-81d3-143aa158ad8f">IRunningTaskCollection</a>
+ 
+
+ 
+

@@ -1,0 +1,81 @@
+---
+UID: NF:mfmediaengine.IMFMediaEngineWebSupport.DisconnectWebAudio
+title: IMFMediaEngineWebSupport::DisconnectWebAudio method
+author: windows-driver-content
+description: Disconnects web audio from the Media Engine.
+old-location: mf\imfmediaenginewebsupport_disconnectwebaudio.htm
+old-project: medfound
+ms.assetid: 04AE7972-B0F1-4C35-A5F4-88F0B85C99E7
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: DisconnectWebAudio method [Media Foundation], DisconnectWebAudio method [Media Foundation], IMFMediaEngineWebSupport interface, DisconnectWebAudio,IMFMediaEngineWebSupport.DisconnectWebAudio, IMFMediaEngineWebSupport, IMFMediaEngineWebSupport interface [Media Foundation], DisconnectWebAudio method, IMFMediaEngineWebSupport::DisconnectWebAudio, mf.imfmediaenginewebsupport_disconnectwebaudio, mfmediaengine/IMFMediaEngineWebSupport::DisconnectWebAudio
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: mfmediaengine.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MF_TIMED_TEXT_WRITING_MODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfmediaengine.h
+api_name:
+-	IMFMediaEngineWebSupport.DisconnectWebAudio
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IMFMediaEngineWebSupport::DisconnectWebAudio method
+
+
+## -description
+
+
+Disconnects web audio from the Media Engine 
+
+
+## -parameters
+
+
+
+
+
+
+## -returns
+
+
+
+Returns S_OK on successful completion.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/8EAA54AF-359A-48C4-9A23-BE7997DBAA89">IMFMediaEngineWebSupport</a>
+ 
+
+ 
+

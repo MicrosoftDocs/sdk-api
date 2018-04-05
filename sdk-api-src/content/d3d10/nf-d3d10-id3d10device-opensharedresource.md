@@ -1,0 +1,171 @@
+---
+UID: NF:d3d10.ID3D10Device.OpenSharedResource
+title: ID3D10Device::OpenSharedResource method
+author: windows-driver-content
+description: Give a device access to a shared resource created on a different Direct3d device.
+old-location: direct3d10\id3d10device_opensharedresource.htm
+old-project: direct3d10
+ms.assetid: VS|directx_sdk|~\id3d10device_opensharedresource.htm
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: ID3D10Device, ID3D10Device interface [Direct3D 10], OpenSharedResource method, ID3D10Device::OpenSharedResource, OpenSharedResource method [Direct3D 10], OpenSharedResource method [Direct3D 10], ID3D10Device interface, OpenSharedResource,ID3D10Device.OpenSharedResource, d3d10/ID3D10Device::OpenSharedResource, direct3d10.id3d10device_opensharedresource, e1b41a59-f80c-625e-e0a5-cc59636f10e1
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: d3d10.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: D3D10_USAGE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	D3d10.h
+api_name:
+-	ID3D10Device.OpenSharedResource
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# ID3D10Device::OpenSharedResource method
+
+
+## -description
+
+
+Give a device access to a shared resource created on a different Direct3d device. 
+
+
+## -parameters
+
+
+
+
+### -param hResource [in]
+
+Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/hh973215">HANDLE</a></b>
+
+A resource handle. See remarks.
+
+
+### -param ReturnedInterface [in]
+
+Type: <b>REFIID</b>
+
+The globally unique identifier (GUID) for the resource interface. See remarks.
+
+
+### -param ppResource [out]
+
+Type: <b>void**</b>
+
+Address of a pointer to the resource we are gaining access to.
+
+
+## -returns
+
+
+
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+
+This method returns one of the following <a href="https://msdn.microsoft.com/7b67d428-d000-4c3e-adc1-b5fc67a15a6a">Direct3D 10 Return Codes</a>.
+
+
+
+
+## -remarks
+
+
+
+To share a resource between two Direct3D 10 devices the resource must have been created with the 
+      <a href="https://msdn.microsoft.com/bdcb4e87-0285-4e96-a7ce-e08a43d3a4cb">D3D10_RESOURCE_MISC_SHARED</a> flag, if it was created using the ID3D10Device interface. 
+      If it was created using the IDXGIDevice interface, then the resource is always shared.
+
+The REFIID, or GUID, of the interface to the resource can be obtained by using the __uuidof() macro. 
+      For example, __uuidof(ID3D10Buffer) will get the GUID of the interface to a buffer resource.
+
+When sharing a resource between two Direct3D 10 devices the unique handle of the resource can be obtained by querying the resource for the <a href="https://msdn.microsoft.com/de1f11a5-194b-438e-975b-3945179d0ed7">IDXGIResource</a> interface and then calling <a href="https://msdn.microsoft.com/7fa92667-2e37-498b-994b-7c576754b86b">GetSharedHandle</a>.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
+IDXGIResource* pOtherResource(NULL);
+hr = pOtherDeviceResource-&gt;QueryInterface( __uuidof(IDXGIResource), (void**)&amp;pOtherResource );
+HANDLE sharedHandle;
+pOtherResource-&gt;GetSharedHandle(&amp;sharedHandle);
+      </pre>
+</td>
+</tr>
+</table></span></div>
+The only resources that can be shared are 2D non-mipmapped textures.
+
+To share a resource between a Direct3D 9 device and a Direct3D 10 device the texture must have been created using 
+      the <i>pSharedHandle</i> argument of <a href="https://msdn.microsoft.com/61b27c7f-cfec-4cb1-bdb9-a973c37a7df4">CreateTexture</a>.  
+      The shared Direct3D 9 handle is then passed to OpenSharedResource in the <i>hResource</i> argument.
+
+The following code illustrates the method calls involved.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
+sharedHandle = NULL; // must be set to NULL to create, can use a valid handle here to open in D3D9 
+pDevice9-&gt;CreateTexture(..., pTex2D_9, &amp;sharedHandle); 
+... 
+pDevice10-&gt;OpenSharedResource(sharedHandle, __uuidof(ID3D10Resource), (void**)(&amp;tempResource10)); 
+tempResource10-&gt;QueryInterface(__uuidof(ID3D10Texture2D), (void**)(&amp;pTex2D_10)); 
+tempResource10-&gt;Release(); 
+// now use pTex2D_10 with pDevice10   
+      </pre>
+</td>
+</tr>
+</table></span></div>
+Textures being shared from D3D9 to D3D10 have the following restrictions.
+
+<ul>
+<li>Textures must be 2D</li>
+<li>Only 1 mip level is allowed</li>
+<li>Texture must have default usage</li>
+<li>Texture must be write only</li>
+<li>MSAA textures are not allowed</li>
+<li>Bind flags must have SHADER_RESOURCE and RENDER_TARGET set</li>
+<li>Only R10G10B10A2_UNORM, R16G16B16A16_FLOAT and R8G8B8A8_UNORM formats are allowed</li>
+</ul>
+If a shared texture is updated on one device <a href="https://msdn.microsoft.com/3f907d7d-4316-453f-a7ea-6b228a0df569">ID3D10Device::Flush</a> must be called on that device.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/63c7fca3-5575-41a7-9bdf-2582e6b9c182">ID3D10Device Interface</a>
+ 
+
+ 
+

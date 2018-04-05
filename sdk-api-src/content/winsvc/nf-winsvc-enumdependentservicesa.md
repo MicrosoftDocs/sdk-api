@@ -1,0 +1,259 @@
+---
+UID: NF:winsvc.EnumDependentServicesA
+title: EnumDependentServicesA function
+author: windows-driver-content
+description: Retrieves the name and status of each service that depends on the specified service.
+old-location: base\enumdependentservices.htm
+old-project: Services
+ms.assetid: 905d4453-96d4-4055-8a17-36714c547cdd
+ms.author: windowsdriverdev
+ms.date: 3/22/2018
+ms.keywords: EnumDependentServices, EnumDependentServices function, EnumDependentServicesA, EnumDependentServicesW, SERVICE_ACTIVE, SERVICE_INACTIVE, SERVICE_STATE_ALL, _win32_enumdependentservices, base.enumdependentservices, winsvc/EnumDependentServices, winsvc/EnumDependentServicesA, winsvc/EnumDependentServicesW
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: winsvc.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: EnumDependentServicesW (Unicode) and EnumDependentServicesA (ANSI)
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: PRINT_EXECUTION_DATA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Advapi32.dll
+-	API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
+-	sechost.dll
+-	API-MS-Win-Service-Core-l1-1-1.dll
+-	API-Ms-Win-Service-Core-L1-1-2.dll
+-	AdvApi32Legacy.dll
+-	API-MS-Win-Service-Core-Ansi-L1-1-1.dll
+api_name:
+-	EnumDependentServices
+-	EnumDependentServicesA
+-	EnumDependentServicesW
+product: Windows
+targetos: Windows
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# EnumDependentServicesA function
+
+
+## -description
+
+
+Retrieves the name and status of each service that depends on the specified service; that is, the specified service must be running before the dependent services can run.
+
+
+## -parameters
+
+
+
+
+### -param hService [in]
+
+A handle to the service. This handle is returned by the 
+<a href="https://msdn.microsoft.com/e0a42613-95ad-4d0f-a464-c6df33014064">OpenService</a> or 
+<a href="https://msdn.microsoft.com/47288924-3294-4a50-b27d-7df80d5c957c">CreateService</a> function, and it must have the <b>SERVICE_ENUMERATE_DEPENDENTS</b> access right. For more information, see 
+<a href="https://msdn.microsoft.com/23d1c382-6ba4-49e2-8039-c2a91471076c">Service Security and Access Rights</a>.
+
+
+### -param dwServiceState [in]
+
+The state of the services to be enumerated. This parameter can be one of the following values.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="SERVICE_ACTIVE"></a><a id="service_active"></a><dl>
+<dt><b>SERVICE_ACTIVE</b></dt>
+<dt>0x00000001</dt>
+</dl>
+</td>
+<td width="60%">
+Enumerates services that are in the following states: <b>SERVICE_START_PENDING</b>, <b>SERVICE_STOP_PENDING</b>, <b>SERVICE_RUNNING</b>, <b>SERVICE_CONTINUE_PENDING</b>, <b>SERVICE_PAUSE_PENDING</b>, and <b>SERVICE_PAUSED</b>.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SERVICE_INACTIVE"></a><a id="service_inactive"></a><dl>
+<dt><b>SERVICE_INACTIVE</b></dt>
+<dt>0x00000002</dt>
+</dl>
+</td>
+<td width="60%">
+Enumerates services that are in the <b>SERVICE_STOPPED</b> state.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SERVICE_STATE_ALL"></a><a id="service_state_all"></a><dl>
+<dt><b>SERVICE_STATE_ALL</b></dt>
+<dt>0x00000003</dt>
+</dl>
+</td>
+<td width="60%">
+Combines the following states: <b>SERVICE_ACTIVE</b> and <b>SERVICE_INACTIVE</b>.
+
+</td>
+</tr>
+</table>
+ 
+
+
+### -param lpServices [out, optional]
+
+A pointer to an array of 
+<a href="https://msdn.microsoft.com/b088bd94-5d25-44a7-93c0-80ce6588b811">ENUM_SERVICE_STATUS</a> structures that receives the name and service status information for each dependent service in the database. The buffer must be large enough to hold the structures, plus the strings to which their members point.
+
+The order of the services in this array is the reverse of the start order of the services. In other words, the first service in the array is the one that would be started last, and the last service in the array is the one that would be started first.
+
+The maximum size of this array is 64,000 bytes. To determine the required size, specify <b>NULL</b> for this parameter and 0 for the <i>cbBufSize</i> parameter. The function will fail and <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> will return <b>ERROR_MORE_DATA</b>. The <i>pcbBytesNeeded</i> parameter will receive the required size.
+
+
+### -param cbBufSize [in]
+
+The size of the buffer pointed to by the <i>lpServices</i> parameter, in bytes.
+
+
+### -param pcbBytesNeeded [out]
+
+A pointer to a variable that receives the number of bytes needed to store the array of service entries. The variable only receives this value if the buffer pointed to by <i>lpServices</i> is too small, indicated by function failure and the <b>ERROR_MORE_DATA</b> error; otherwise, the contents of <i>pcbBytesNeeded</i> are undefined.
+
+
+### -param lpServicesReturned [out]
+
+A pointer to a variable that receives the number of service entries returned.
+
+
+## -returns
+
+
+
+If the function succeeds, the return value is nonzero.
+
+If the function fails, the return value is zero. To get extended error information, call 
+<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+
+The following error codes may be set by the service control manager. Other error codes may be set by the registry functions that are called by the service control manager.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_ACCESS_DENIED</b></dt>
+</dl>
+</td>
+<td width="60%">
+The handle does not have the <b>SERVICE_ENUMERATE_DEPENDENTS</b> access right.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_INVALID_HANDLE</b></dt>
+</dl>
+</td>
+<td width="60%">
+The specified handle is invalid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_INVALID_PARAMETER</b></dt>
+</dl>
+</td>
+<td width="60%">
+A parameter that was specified is invalid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_MORE_DATA</b></dt>
+</dl>
+</td>
+<td width="60%">
+The buffer pointed to by <i>lpServices</i> is not large enough. The function sets the variable pointed to by <i>lpServicesReturned</i> to the actual number of service entries stored into the buffer. The function sets the variable pointed to by <i>pcbBytesNeeded</i> to the number of bytes required to store all of the service entries.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+The returned services entries are ordered in the reverse order of the start order, with group order taken into account. If you need to stop the dependent services, you can use the order of entries written to the <i>lpServices</i> buffer to stop the dependent services in the proper order.
+
+
+#### Examples
+
+For an example, see 
+<a href="https://msdn.microsoft.com/fe16d2a8-3e66-49cc-b9c7-fffbc206e8d3">Stopping a Service</a>.
+
+<div class="code"></div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/47288924-3294-4a50-b27d-7df80d5c957c">CreateService</a>
+
+
+
+<a href="https://msdn.microsoft.com/b088bd94-5d25-44a7-93c0-80ce6588b811">ENUM_SERVICE_STATUS</a>
+
+
+
+<a href="https://msdn.microsoft.com/7d7940c3-b562-455f-9a21-6d5fb5953030">EnumServicesStatusEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/e0a42613-95ad-4d0f-a464-c6df33014064">OpenService</a>
+
+
+
+<a href="https://msdn.microsoft.com/63666848-cbac-4853-8b91-89303f9854c0">Service Functions</a>
+
+
+
+<a href="https://msdn.microsoft.com/554b9983-4e49-4b11-b420-a4754123d854">Service Installation, Removal, and Enumeration</a>
+ 
+
+ 
+

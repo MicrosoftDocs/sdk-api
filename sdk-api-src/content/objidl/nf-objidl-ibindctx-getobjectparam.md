@@ -1,0 +1,106 @@
+---
+UID: NF:objidl.IBindCtx.GetObjectParam
+title: IBindCtx::GetObjectParam method
+author: windows-driver-content
+description: Retrieves an interface pointer to the object associated with the specified key in the bind context's string-keyed table of pointers.
+old-location: com\ibindctx_getobjectparam.htm
+old-project: com
+ms.assetid: 8f423495-7a34-4901-968e-1fe204680d8a
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: GetObjectParam method [COM], GetObjectParam method [COM], IBindCtx interface, GetObjectParam,IBindCtx.GetObjectParam, IBindCtx, IBindCtx interface [COM], GetObjectParam method, IBindCtx::GetObjectParam, _com_ibindctx_getobjectparam, com.ibindctx_getobjectparam, objidl/IBindCtx::GetObjectParam
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: objidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: ObjIdl.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: THDTYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	ObjIdl.h
+api_name:
+-	IBindCtx.GetObjectParam
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# IBindCtx::GetObjectParam method
+
+
+## -description
+
+
+Retrieves an interface pointer to the object associated with the specified key in the bind context's string-keyed table of pointers.
+
+
+## -parameters
+
+
+
+
+### -param pszKey [in]
+
+The <a href="_shell_STR_constants_cpp">bind context string key</a> to be searched for. Key string comparison is case-sensitive.
+
+
+### -param ppunk [out]
+
+The address of an <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>* pointer variable that receives the interface pointer to the object associated with <i>pszKey</i>. When successful, the implementation calls <a href="https://msdn.microsoft.com/b4316efd-73d4-4995-b898-8025a316ba63">AddRef</a> on *<i>ppunk</i>. It is the caller's responsibility to call <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">Release</a>. If an error occurs, the implementation sets *<i>ppunk</i> to <b>NULL</b>.
+
+
+## -returns
+
+
+
+If the method succeeds, the return value is S_OK. Otherwise, it is E_FAIL.
+
+
+
+
+## -remarks
+
+
+
+A bind context maintains a table of interface pointers, each associated with a string key. This enables communication between a moniker implementation and the caller that initiated the binding operation. One party can store an interface pointer under a string known to both parties so that the other party can later retrieve it from the bind context.
+
+The pointer this method retrieves must have previously been inserted into the table using the <a href="https://msdn.microsoft.com/7ee2b5b2-9b9c-41f1-8e58-7432ebc0f9ed">IBindCtx::RegisterObjectParam</a> method.
+
+<h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
+Objects using monikers to locate other objects can call this method when a binding operation fails to get specific information about the error that occurred. Depending on the error, it may be possible to correct the situation and retry the binding operation. See <a href="https://msdn.microsoft.com/7ee2b5b2-9b9c-41f1-8e58-7432ebc0f9ed">IBindCtx::RegisterObjectParam</a> for more information.
+
+Moniker implementations can call this method to handle situations where a caller initiates a binding operation and requests specific information. By convention, the implementer should use key names that begin with the string form of the CLSID of a moniker class. (See the <a href="https://msdn.microsoft.com/61210ebd-cbf3-4e78-b077-53d2779053eb">StringFromCLSID</a> function.) 
+
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/e4c8abb5-0c89-44dd-8d95-efbfcc999b46">IBindCtx</a>
+ 
+
+ 
+

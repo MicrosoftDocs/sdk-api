@@ -1,0 +1,148 @@
+---
+UID: NF:imagetranscode.ITranscodeImage.TranscodeImage
+title: ITranscodeImage::TranscodeImage method
+author: windows-driver-content
+description: Converts an image to JPEG or bitmap (BMP) image format.
+old-location: shell\TranscodeImage.htm
+old-project: shell
+ms.assetid: 56b8c871-5c44-497d-beac-5bde01b8bd8b
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: ITranscodeImage, ITranscodeImage interface [Windows Shell], TranscodeImage method, ITranscodeImage::TranscodeImage, TI_BITMAP, TI_JPEG, TranscodeImage method [Windows Shell], TranscodeImage method [Windows Shell], ITranscodeImage interface, TranscodeImage,ITranscodeImage.TranscodeImage, _shell_TranscodeImage, imagetranscode/ITranscodeImage::TranscodeImage, shell.TranscodeImage
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: imagetranscode.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: AM_LINE21_DRAWBGMODE, *PAM_LINE21_DRAWBGMODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Imagetranscode.h
+api_name:
+-	ITranscodeImage.TranscodeImage
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# ITranscodeImage::TranscodeImage method
+
+
+## -description
+
+
+Converts an image to JPEG or bitmap (BMP) image format.
+
+
+## -parameters
+
+
+
+
+### -param pShellItem [in]
+
+Type: <b><a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a8736eecc560">IShellItem</a>*</b>
+
+The Shell Item for the image to convert.
+
+
+### -param uiMaxWidth
+
+Type: <b>UINT</b>
+
+The requested height in pixels. Should be less than or equal to the actual height of the original image. See Remarks.
+
+
+### -param uiMaxHeight
+
+Type: <b>UINT</b>
+
+The requested width in pixels. Should be less than or equal to the actual width of the original image. See Remarks.
+
+
+### -param flags
+
+Type: <b>TI_FLAGS</b>
+
+One of the following flags. 
+				
+				
+
+
+
+#### TI_BITMAP
+
+Convert the image to BMP format.
+
+
+
+#### TI_JPEG
+
+Convert the image to JPEG format.
+
+
+### -param pvImage
+
+Type: <b><a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a>*</b>
+
+A stream to receive the converted image. The stream must be created by the calling code prior to calling <b>TranscodeImage</b>.
+
+
+### -param puiWidth [out, optional]
+
+Type: <b>UINT*</b>
+
+The actual width of the converted image.
+
+
+### -param puiHeight [out, optional]
+
+Type: <b>UINT*</b>
+
+The actual height of the converted image.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+The aspect ratio of the original image is preserved. 
+		The new image is resized so that it will fit into a box of width <i>uiMaxWidth</i> and height <i>uiMaxHeight</i>.
+		
+
+The image size will not be changed if the original image already fits in this bounding box.
+
+If both uiMaxWidth and uiMaxHeight are zero, the returned image will be the same size as the original.
+
+
+

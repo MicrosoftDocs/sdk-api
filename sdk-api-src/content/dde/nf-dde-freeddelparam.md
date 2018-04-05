@@ -1,0 +1,138 @@
+---
+UID: NF:dde.FreeDDElParam
+title: FreeDDElParam function
+author: windows-driver-content
+description: Frees the memory specified by the lParam parameter of a posted Dynamic Data Exchange (DDE) message. An application receiving a posted DDE message should call this function after it has used the UnpackDDElParam function to unpack the lParam value.
+old-location: dataxchg\freeddelparam.htm
+old-project: dataxchg
+ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchange\dynamicdataexchangereference\dynamicdataexchangefunctions\freeddelparam.htm
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: FreeDDElParam, FreeDDElParam function [Data Exchange], _win32_FreeDDElParam, _win32_freeddelparam_cpp, dataxchg.freeddelparam, dde/FreeDDElParam, winui._win32_freeddelparam
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: dde.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: DCOMPOSITION_FRAME_STATISTICS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	User32.dll
+-	Ext-MS-Win-NTUser-Misc-L1-1-0.dll
+-	Ext-MS-Win-NTUser-Misc-L1-2-0.dll
+-	Ext-MS-Win-NTUser-Misc-L1-3-0.dll
+-	Ext-MS-Win-NTUser-Misc-L1-4-0.dll
+-	Ext-Ms-Win-NTUser-Misc-L1-5-0.dll
+-	Ext-MS-Win-NTUser-Misc-L1-5-1.dll
+api_name:
+-	FreeDDElParam
+product: Windows
+targetos: Windows
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
+---
+
+# FreeDDElParam function
+
+
+## -description
+
+
+Frees the memory specified by the 
+			<i>lParam</i> parameter of a posted Dynamic Data Exchange (DDE) message. An application receiving a posted DDE message should call this function after it has used the <a href="https://msdn.microsoft.com/a7da276f-0e29-4abc-86cf-ac1fd23d84b0">UnpackDDElParam</a> function to unpack the 
+			<i>lParam</i> value. 
+
+
+## -parameters
+
+
+
+
+### -param msg [in]
+
+Type: <b>UINT</b>
+
+The posted DDE message. 
+
+
+### -param lParam [in]
+
+Type: <b>LPARAM</b>
+
+The 
+					<i>lParam</i> parameter of the posted DDE message. 
+
+
+## -returns
+
+
+
+Type: <b>BOOL</b>
+
+If the function succeeds, the return value is nonzero.
+
+If the function fails, the return value is zero. 
+
+
+
+
+## -remarks
+
+
+
+An application should call this function only for posted DDE messages. 
+
+This function frees the memory specified by the 
+				<i>lParam</i> parameter. It does not free the contents of 
+				<i>lParam</i>. 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/0bcd8de4-a6f0-4f2a-8b9d-0b1b638925fb">About Dynamic Data Exchange</a>
+
+
+
+<b>Conceptual</b>
+
+
+
+<a href="https://msdn.microsoft.com/9131229d-2515-40d2-a4a8-4c8f7987ac09">PackDDElParam</a>
+
+
+
+<b>Reference</b>
+
+
+
+<a href="https://msdn.microsoft.com/069ac8ee-3d92-4969-8c6b-78a8a0c76721">ReuseDDElParam</a>
+
+
+
+<a href="https://msdn.microsoft.com/a7da276f-0e29-4abc-86cf-ac1fd23d84b0">UnpackDDElParam</a>
+ 
+
+ 
+

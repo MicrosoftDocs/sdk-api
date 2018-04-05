@@ -1,0 +1,72 @@
+---
+UID: NF:rdpencomapi.IRDPSRAPIWindow.get_Application
+title: IRDPSRAPIWindow::get_Application method
+author: windows-driver-content
+description: Returns a pointer to the application object that the window belongs to.
+old-location: rdp\irdpsrapiwindow_application.htm
+old-project: Rdp
+ms.assetid: a9c30288-c471-459e-b0df-a3da1fc58032
+ms.author: windowsdriverdev
+ms.date: 3/28/2018
+ms.keywords: Application property [RDP], Application property [RDP], IRDPSRAPIWindow interface, Application property [RDP], RDPSRAPIWindow object, IRDPSRAPIWindow, IRDPSRAPIWindow interface [RDP], Application property, IRDPSRAPIWindow.Application, IRDPSRAPIWindow::get_Application, RDPSRAPIWindow object [RDP], Application property, get_Application,IRDPSRAPIWindow.get_Application, rdp.irdpsrapiwindow_application, rdpencomapi/IRDPSRAPIWindow::Application, rdpencomapi/IRDPSRAPIWindow::get_Application
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: rdpencomapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: RdpEncomAPI.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: RdpEncomAPI.tlb
+req.typenames: RDPENCOMAPI_CONSTANTS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	RdpEncom.dll
+api_name:
+-	IRDPSRAPIWindow.Application
+-	IRDPSRAPIWindow.get_Application
+-	RDPSRAPIWindow.Application
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: RdpEncom.dll
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# IRDPSRAPIWindow::get_Application method
+
+
+## -description
+
+
+Returns a pointer to the application object that the window belongs to. All the window objects are parented to applications. This method provides easy access to the parent of the window.
+
+This property is read-only.
+
+
+## -parameters
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/85c8263b-e796-4748-b8e5-6315e5937861">IRDPSRAPIWindow</a>
+ 
+
+ 
+

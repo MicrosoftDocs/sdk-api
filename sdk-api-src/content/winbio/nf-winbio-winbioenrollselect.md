@@ -1,0 +1,177 @@
+---
+UID: NF:winbio.WinBioEnrollSelect
+title: WinBioEnrollSelect function
+author: windows-driver-content
+description: Specifies the individual that you want to enroll when data that represents multiple individuals is present in the sample buffer. Starting with Windows 10, build 1607, this function is available to use with a mobile image.
+old-location: secbiomet\winbioenrollselect.htm
+old-project: SecBioMet
+ms.assetid: 9C06B976-9B60-43B6-B68B-255A6882912B
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: WinBioEnrollSelect, WinBioEnrollSelect function [Windows Biometric Framework API], secbiomet.winbioenrollselect, winbio/WinBioEnrollSelect
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: winbio.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WINBIO_ASYNC_NOTIFICATION_METHOD, *PWINBIO_ASYNC_NOTIFICATION_METHOD
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	winbio.dll
+-	Ext-MS-Win-Biometrics-WinBio-Core-L1-1-0.dll
+-	Ext-MS-Win-BioMetrics-WinBio-Core-L1-1-1.dll
+api_name:
+-	WinBioEnrollSelect
+product: Windows
+targetos: Windows
+req.lib: Winbio.lib
+req.dll: Winbio.dll
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# WinBioEnrollSelect function
+
+
+## -description
+
+
+Specifies the individual  that you want to enroll when data that represents multiple individuals is present in the sample buffer. Starting with Windows 10, build 1607, this  function is available to use with a mobile image.
+
+
+## -parameters
+
+
+
+
+### -param SessionHandle [in]
+
+A <b>WINBIO_SESSION_HANDLE</b> value that identifies an open biometric session.  Open a synchronous session handle by calling <a href="https://msdn.microsoft.com/e9a0bb5f-4bbd-4dc4-9cd8-c26f5e4f74cf">WinBioOpenSession</a>. Open an asynchronous session handle by calling <a href="https://msdn.microsoft.com/711EDE14-A2EE-415D-8FB6-562D71D68146">WinBioAsyncOpenSession</a>.
+
+For enrollment in facial recognition, use <a href="https://msdn.microsoft.com/711EDE14-A2EE-415D-8FB6-562D71D68146">WinBioAsyncOpenSession</a> with the <i>PoolType</i> parameter set to <b>WINBIO_POOL_SYSTEM</b> to get the handle.
+
+
+### -param SelectorValue [in]
+
+A value that identifies that individual that you want to select for enrollment.
+
+
+## -returns
+
+
+
+If the function succeeds, it returns S_OK. If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b><b>E_HANDLE</b></b></dt>
+</dl>
+</td>
+<td width="60%">
+The session handle is not valid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b><b>E_INVALIDARG</b></b></dt>
+</dl>
+</td>
+<td width="60%">
+The <i>SelectorValue</i> parameter cannot equal zero.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b><b>WINBIO_E_INCORRECT_SESSION_TYPE</b></b></dt>
+</dl>
+</td>
+<td width="60%">
+The session handle does not correspond to a biometric session.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+For enrollment in facial recognition, you can find the correct selector value in either of two ways:
+
+<ul>
+<li>The value of the <b>Id</b> member of one of the <a href="https://msdn.microsoft.com/810D452E-DDFA-4AB2-AEFB-0C170C0C18D4">WINBIO_PRESENCE</a> structures previously sent.</li>
+<li>The data produced by the NUI face-tracking APIs.</li>
+</ul>
+Call <b>WinBioEnrollSelect</b> to set the selector value after you call <a href="https://msdn.microsoft.com/ee706f2a-f544-4f53-b776-064d32e8acc8">WinBioEnrollBegin</a> to start an enrollment sequence. The selector value applies to all subsequent <a href="https://msdn.microsoft.com/a50f0c9f-7b9c-4d80-b8fc-8b83bc333578">WinBioEnrollCapture</a> calls. The selection setting is temporary and is automatically cleared when you finish the enrollment sequence by calling <a href="https://msdn.microsoft.com/ed9242e5-fee7-46ca-b42c-cda1b5dcdc78">WinBioEnrollCommit</a> or <a href="https://msdn.microsoft.com/0b029ace-1f5d-4cb2-9f09-51e5a11d2e5a">WinBioEnrollDiscard</a>.
+
+If you call <b>WinBioEnrollSelect</b> for biometric factors that do not require disambiguation, such as fingerprints, the return value for the function indicates success, but function ignores the selector value.
+
+If you do not call <b>WinBioEnrollSelect</b> for a biometric factor that requires you to call the function, subsequent calls to <a href="https://msdn.microsoft.com/a50f0c9f-7b9c-4d80-b8fc-8b83bc333578">WinBioEnrollCapture</a> fail with the  <b>WINBIO_E_SELECTION_REQUIRED</b> error. 
+
+ For Windows 10, the factors that require you to call <b>WinBioEnrollSelect</b> are facial features and iris.
+
+You can call <b>WinBioEnrollSelect</b> by using either a synchronous or asynchronous session handle. As with other calls to Windows Biometric Framework API functions, when you call <b>WinBioEnrollSelect</b>  with an asynchronous session handle, the return value indicates only that the function parameters were acceptable. The actual success or failure of the operation itself will be returned to your notification routine in a <a href="https://msdn.microsoft.com/1C8A4557-3851-4AB2-BB9B-AE199EB9D024">WINBIO_ASYNC_RESULT</a> structure.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/1C8A4557-3851-4AB2-BB9B-AE199EB9D024">WINBIO_ASYNC_RESULT</a>
+
+
+
+<a href="https://msdn.microsoft.com/810D452E-DDFA-4AB2-AEFB-0C170C0C18D4">WINBIO_PRESENCE</a>
+
+
+
+<a href="https://msdn.microsoft.com/ee706f2a-f544-4f53-b776-064d32e8acc8">WinBioEnrollBegin</a>
+
+
+
+<a href="https://msdn.microsoft.com/a50f0c9f-7b9c-4d80-b8fc-8b83bc333578">WinBioEnrollCapture</a>
+
+
+
+<a href="https://msdn.microsoft.com/ed9242e5-fee7-46ca-b42c-cda1b5dcdc78">WinBioEnrollCommit</a>
+
+
+
+<a href="https://msdn.microsoft.com/0b029ace-1f5d-4cb2-9f09-51e5a11d2e5a">WinBioEnrollDiscard</a>
+ 
+
+ 
+

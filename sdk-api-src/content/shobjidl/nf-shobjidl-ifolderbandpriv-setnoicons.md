@@ -1,0 +1,77 @@
+---
+UID: NF:shobjidl.IFolderBandPriv.SetNoIcons
+title: IFolderBandPriv::SetNoIcons method
+author: windows-driver-content
+description: Sets whether icons are displayed in a folder band.
+old-location: shell\IFolderBandPriv_SetNoIcons.htm
+old-project: shell
+ms.assetid: 5bec29d9-8b05-4b4e-9cfc-0b9fd2d9fd2f
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: IFolderBandPriv, IFolderBandPriv interface [Windows Shell], SetNoIcons method, IFolderBandPriv::SetNoIcons, SetNoIcons method [Windows Shell], SetNoIcons method [Windows Shell], IFolderBandPriv interface, SetNoIcons,IFolderBandPriv.SetNoIcons, _win32_IFolderBandPriv_SetNoIcons, shell.IFolderBandPriv_SetNoIcons, shobjidl/IFolderBandPriv::SetNoIcons
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: shobjidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: VPWATERMARKFLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Shell32.dll
+api_name:
+-	IFolderBandPriv.SetNoIcons
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Shell32.dll (version 5.00 or later)
+req.irql: 
+req.product: Internet Explorer 6.01
+---
+
+# IFolderBandPriv::SetNoIcons method
+
+
+## -description
+
+
+Sets whether icons are displayed in a folder band.
+
+
+## -parameters
+
+
+
+
+### -param fNoIcons
+
+Type: <b>BOOL</b>
+
+<b>TRUE</b> to display icons; otherwise, <b>FALSE</b>.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+Always returns S_OK.
+
+
+

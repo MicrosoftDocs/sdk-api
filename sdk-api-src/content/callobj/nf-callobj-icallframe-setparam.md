@@ -1,0 +1,118 @@
+---
+UID: NF:callobj.ICallFrame.SetParam
+title: ICallFrame::SetParam method
+author: windows-driver-content
+description: Sets the value of a specified parameter in the call frame.
+old-location: com\icallframe_setparam.htm
+old-project: com
+ms.assetid: ec828206-d49f-49da-91fc-554d703b53db
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: ICallFrame, ICallFrame interface [COM], SetParam method, ICallFrame::SetParam, SetParam method [COM], SetParam method [COM], ICallFrame interface, SetParam,ICallFrame.SetParam, _com_icallframe_setparam, callobj/ICallFrame::SetParam, com.icallframe_setparam
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: callobj.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Callobj.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: CALLFRAME_COPY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Callobj.h
+api_name:
+-	ICallFrame.SetParam
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# ICallFrame::SetParam method
+
+
+## -description
+
+
+Sets the value of a specified parameter in the call frame.
+
+
+## -parameters
+
+
+
+
+### -param iparam [in]
+
+The parameter number.
+
+
+### -param pvar [in]
+
+The new value for the parameter.
+
+
+## -returns
+
+
+
+This method can return the following values.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method completed successfully.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_UNEXPECTED</b></dt>
+</dl>
+</td>
+<td width="60%">
+An unexpected error has occurred.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/56a75123-f402-4187-af13-d31f72a5f094">ICallFrame</a>
+ 
+
+ 
+

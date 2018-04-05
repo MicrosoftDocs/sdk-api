@@ -1,0 +1,207 @@
+---
+UID: NF:tom.ITextSelection.MoveDown
+title: ITextSelection::MoveDown method
+author: windows-driver-content
+description: Mimics the functionality of the Down Arrow and Page Down keys.
+old-location: controls\ITextSelection_MoveDown.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\movedown.htm
+ms.author: windowsdriverdev
+ms.date: 3/31/2018
+ms.keywords: ITextSelection, ITextSelection interface [Windows Controls], MoveDown method, ITextSelection::MoveDown, MoveDown method [Windows Controls], MoveDown method [Windows Controls], ITextSelection interface, MoveDown,ITextSelection.MoveDown, _win32_ITextSelection_MoveDown, _win32_ITextSelection_MoveDown_cpp, controls.ITextSelection_MoveDown, controls._win32_ITextSelection_MoveDown, tom/ITextSelection::MoveDown
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: tom.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MANCODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Msftedit.dll
+api_name:
+-	ITextSelection.MoveDown
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# ITextSelection::MoveDown method
+
+
+## -description
+
+
+Mimics the functionality of the Down Arrow and Page Down keys. 
+
+
+## -parameters
+
+
+
+
+### -param Unit
+
+Type: <b>long</b>
+
+Unit to use in the operation. It can be one of the following. 
+					
+
+<table class="clsStd">
+<tr>
+<th>Value</th>
+<th>Corresponding key combination</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td><b>tomLine</b></td>
+<td>Down Arrow</td>
+<td>Moves down one line. This is the default.</td>
+</tr>
+<tr>
+<td><b>tomParagraph</b></td>
+<td>Ctrl+Down Arrow</td>
+<td>Moves down one paragraph.</td>
+</tr>
+<tr>
+<td><b>tomScreen</b></td>
+<td>Page Down</td>
+<td>Moves down one screen.</td>
+</tr>
+<tr>
+<td><b>tomWindow</b></td>
+<td>Ctrl+Page Down</td>
+<td>Moves to last character in window.</td>
+</tr>
+</table>
+ 
+
+
+### -param Count
+
+Type: <b>long</b>
+
+Number of Units to move past. The default value is 1.
+
+
+### -param Extend
+
+Type: <b>long</b>
+
+Flag that indicates how to change the selection. If 
+					<i>Extend</i> is zero (or <b>tomMove</b>), the method collapses the selection to an insertion point and then moves. If 
+					<i>Extend</i> is 1 (or <b>tomExtend</b>), the method moves the active end and leaves the other end alone. The default value is zero. A nonzero 
+					<i>Extend</i> value corresponds to the Shift key being pressed in addition to the key combination described in 
+					<i>Unit</i>. 
+
+
+### -param pDelta
+
+Type: <b>long*</b>
+
+Pointer to a variable that receives the actual count of units the insertion point or active end is moved down. Collapsing the selection counts as one unit. This parameter can be null.  
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+The method returns an 
+						<b>HRESULT</b> value. If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following error codes. For more information about COM error codes, see <a href="https://msdn.microsoft.com/15f3ae3e-1794-4948-a7aa-6309a703364b">Error Handling in COM</a>.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+Unit is not valid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_FALSE</b></dt>
+</dl>
+</td>
+<td width="60%">
+Failure for some other reason.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+The <a href="https://msdn.microsoft.com/f37dceba-cd26-4756-ad4f-ae2e8d979e75">ITextSelection::MoveUp</a> and <b>ITextSelection::MoveDown</b> methods are similar to the <a href="https://msdn.microsoft.com/d15ee442-708d-4210-925c-f4320d57330a">ITextSelection::MoveLeft</a> and <a href="https://msdn.microsoft.com/7bf0dfad-5397-4898-a794-2789bc5f0291">ITextSelection::MoveRight</a> methods, except that they reflect the behavior of the Up Arrow, Down Arrow, Page Up, and Page Down keys on the cursor-keypad. 
+
+
+
+
+## -see-also
+
+
+
+
+<b>Conceptual</b>
+
+
+
+<a href="https://msdn.microsoft.com/e6afce18-4f02-4f1c-a2ee-735465d2e168">ITextSelection</a>
+
+
+
+<a href="https://msdn.microsoft.com/d15ee442-708d-4210-925c-f4320d57330a">MoveLeft</a>
+
+
+
+<a href="https://msdn.microsoft.com/7bf0dfad-5397-4898-a794-2789bc5f0291">MoveRight</a>
+
+
+
+<a href="https://msdn.microsoft.com/f37dceba-cd26-4756-ad4f-ae2e8d979e75">MoveUp</a>
+
+
+
+<b>Reference</b>
+
+
+
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
+ 
+
+ 
+

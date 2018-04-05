@@ -1,0 +1,186 @@
+---
+UID: NF:imapi2fs.IFsiDirectoryItem.AddFile
+title: IFsiDirectoryItem::AddFile method
+author: windows-driver-content
+description: Adds a file to the file system image.
+old-location: imapi\ifsidirectoryitem_addfile.htm
+old-project: imapi
+ms.assetid: 82f62372-3c79-4bf5-a723-cd09a5444ffc
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: AddFile method [IMAPI], AddFile method [IMAPI], IFsiDirectoryItem interface, AddFile,IFsiDirectoryItem.AddFile, IFsiDirectoryItem, IFsiDirectoryItem interface [IMAPI], AddFile method, IFsiDirectoryItem::AddFile, imapi.ifsidirectoryitem_addfile, imapi2fs/IFsiDirectoryItem::AddFile
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: imapi2fs.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Imapi2fs.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: PlatformId
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	imapi2fs.h
+api_name:
+-	IFsiDirectoryItem.AddFile
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IFsiDirectoryItem::AddFile method
+
+
+## -description
+
+
+Adds a file to the file system image.
+
+
+## -parameters
+
+
+
+
+### -param path [in]
+
+String that contains the relative path of the directory to contain the new file.
+
+Specify the full path when calling this method from the root directory item.
+
+
+### -param fileData [in]
+
+An <b>IStream</b> interface of the file (data stream) to write to the media.
+
+
+## -returns
+
+
+
+S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>IMAPI_E_INVALID_PATH</b></dt>
+</dl>
+</td>
+<td width="60%">
+Path '%1!s!' is badly formed or contains invalid characters.
+
+Value: 0xC0AAB110
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_POINTER</b></dt>
+</dl>
+</td>
+<td width="60%">
+Pointer is not valid.
+
+Value: 0x80004003
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>IMAPI_E_INVALID_PARAM</b></dt>
+</dl>
+</td>
+<td width="60%">
+The value specified for parameter <i>%1!ls!</i> is not valid.
+
+Value: 0xC0AAB101
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>	IMAPI_E_NOT_IN_FILE_SYSTEM</b></dt>
+</dl>
+</td>
+<td width="60%">
+<i>ls!'</i> is not part of the file system. It must be added to complete this operation.
+
+Value: 0xC0AAB10B
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>IMAPI_E_READONLY</b></dt>
+</dl>
+</td>
+<td width="60%">
+FileSystemImage object is in read only mode.
+
+Value: 0xC0AAB102
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+The directory that will contain the new file must already exist within the file system image.
+
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/1c9a2e36-0e79-4bad-b880-ddfbf473308b">IFsiDirectoryItem</a>
+
+
+
+<a href="https://msdn.microsoft.com/f4855907-89e5-4127-9307-35970046a236">IFsiDirectoryItem::Add</a>
+
+
+
+<a href="https://msdn.microsoft.com/bb716e60-163c-45e7-bdbb-373666cbdc93">IFsiDirectoryItem::AddDirectory</a>
+
+
+
+<a href="https://msdn.microsoft.com/bbd45185-439a-4847-8481-7139e81b34fd">IFsiDirectoryItem::Remove</a>
+ 
+
+ 
+

@@ -1,0 +1,109 @@
+---
+UID: NF:xpsobjectmodel.IXpsOMDashCollection.InsertAt
+title: IXpsOMDashCollection::InsertAt method
+author: windows-driver-content
+description: Inserts an XPS_DASH structure at a specified location in the collection.
+old-location: xps\ixpsomdashcollection_insertat.htm
+old-project: printdocs
+ms.assetid: d9ef0ea9-f427-41ff-b33e-c9b5f49cb7d9
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: IXpsOMDashCollection, IXpsOMDashCollection interface [XPS Documents and Packaging], InsertAt method, IXpsOMDashCollection::InsertAt, InsertAt method [XPS Documents and Packaging], InsertAt method [XPS Documents and Packaging], IXpsOMDashCollection interface, InsertAt,IXpsOMDashCollection.InsertAt, xps.ixpsomdashcollection_insertat, xpsobjectmodel/IXpsOMDashCollection::InsertAt
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: xpsobjectmodel.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: XpsObjectModel.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: XPS_INTERLEAVING
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	xpsobjectmodel.h
+api_name:
+-	IXpsOMDashCollection.InsertAt
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+---
+
+# IXpsOMDashCollection::InsertAt method
+
+
+## -description
+
+
+Inserts an <a href="https://msdn.microsoft.com/c8f43f91-eefb-4025-8042-c2601e89d315">XPS_DASH</a> structure at a specified location in the collection.
+
+
+## -parameters
+
+
+
+
+### -param index [in]
+
+The zero-based index in the collection where the structure that is referenced by  <i>dash</i>  is to be inserted.
+
+
+### -param dash [in]
+
+A pointer to the <a href="https://msdn.microsoft.com/c8f43f91-eefb-4025-8042-c2601e89d315">XPS_DASH</a> structure that is to be inserted at the location specified by <i>index</i>.
+
+
+## -returns
+
+
+
+If the method succeeds, it returns S_OK; otherwise, it returns an <b>HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+At the location specified by <i>index</i>, this method inserts the <a href="https://msdn.microsoft.com/c8f43f91-eefb-4025-8042-c2601e89d315">XPS_DASH</a> structure that is passed in <i>dash</i>.  Prior to insertion, the structure in this and all subsequent locations is moved up by one index.
+
+The figure that follows illustrates how the collection is changed by the <b>InsertAt</b> method.
+
+<img alt="A figure that shows how InsertAt adds an entry to the dash collection" src="../images/dashcollection_insertat.png"/>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/02a152a1-e117-42fb-8428-a2b28e6540a9">IXpsOMDashCollection</a>
+
+
+
+<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+
+
+
+<a href="https://msdn.microsoft.com/c8f43f91-eefb-4025-8042-c2601e89d315">XPS_DASH</a>
+ 
+
+ 
+

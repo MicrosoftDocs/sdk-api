@@ -1,0 +1,126 @@
+---
+UID: NF:devicetopology.IKsFormatSupport.IsFormatSupported
+title: IKsFormatSupport::IsFormatSupported method
+author: windows-driver-content
+description: The IsFormatSupported method indicates whether the audio endpoint device supports the specified audio stream format.
+old-location: coreaudio\iksformatsupport_isformatsupported.htm
+old-project: CoreAudio
+ms.assetid: 0f377b14-fd19-40ac-9875-9ee3bd8d51c7
+ms.author: windowsdriverdev
+ms.date: 3/30/2018
+ms.keywords: IKsFormatSupport, IKsFormatSupport interface [Core Audio], IsFormatSupported method, IKsFormatSupport::IsFormatSupported, IKsFormatSupportIsFormatSupported, IsFormatSupported method [Core Audio], IsFormatSupported method [Core Audio], IKsFormatSupport interface, IsFormatSupported,IKsFormatSupport.IsFormatSupported, coreaudio.iksformatsupport_isformatsupported, devicetopology/IKsFormatSupport::IsFormatSupported
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: devicetopology.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: ConnectorType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Devicetopology.h
+api_name:
+-	IKsFormatSupport.IsFormatSupported
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# IKsFormatSupport::IsFormatSupported method
+
+
+## -description
+
+
+
+The <b>IsFormatSupported</b> method indicates whether the audio endpoint device supports the specified audio stream format.
+
+
+
+
+## -parameters
+
+
+
+
+### -param pKsFormat [in]
+
+Pointer to an audio-stream format specifier. This parameter points to a caller-allocated buffer that contains a format specifier. The specifier begins with a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561656">KSDATAFORMAT</a> structure that might be followed by additional format information. For more information about <b>KSDATAFORMAT</b> and format specifiers, see the Windows DDK documentation.
+
+
+### -param cbFormat [in]
+
+The size in bytes of the buffer that contains the format specifier.
+
+
+### -param pbSupported [out]
+
+Pointer to a <b>BOOL</b> variable into which the method writes a value to indicate whether the format is supported. The method writes <b>TRUE</b> if the device supports the format and <b>FALSE</b> if the device does not support the format.
+
+
+## -returns
+
+
+
+If the method succeeds, it returns S_OK. If it fails, possible return codes include, but are not limited to, the values shown in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_POINTER</b></dt>
+</dl>
+</td>
+<td width="60%">
+Pointer <i>pKsFormat</i> or <i>pbSupported</i> is <b>NULL</b>.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+The format specifier is not valid.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/53a29b57-1650-4e4d-b9d2-95307063a733">IKsFormatSupport Interface</a>
+ 
+
+ 
+

@@ -1,0 +1,124 @@
+---
+UID: NF:shimgdata.IShellImageData.NextFrame
+title: IShellImageData::NextFrame method
+author: windows-driver-content
+description: Switches to the next frame of an animated image.
+old-location: shell\IShellImageData_NextFrame.htm
+old-project: shell
+ms.assetid: b797539e-7766-4da7-864f-401c7c2ff082
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: IShellImageData, IShellImageData interface [Windows Shell], NextFrame method, IShellImageData::NextFrame, NextFrame method [Windows Shell], NextFrame method [Windows Shell], IShellImageData interface, NextFrame,IShellImageData.NextFrame, _shell_IShellImageData_NextFrame, shell.IShellImageData_NextFrame, shimgdata/IShellImageData::NextFrame
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: shimgdata.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Shimgdata.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: SHELL_UI_COMPONENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Shell32.dll
+api_name:
+-	IShellImageData.NextFrame
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
+req.product: Internet Explorer 5.0
+---
+
+# IShellImageData::NextFrame method
+
+
+## -description
+
+
+Switches to the next frame of an animated image.
+
+
+## -parameters
+
+
+
+
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+Returns S_OK if successful or an error value otherwise, including the following:
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_FAIL</b></dt>
+</dl>
+</td>
+<td width="60%">
+The current frame cannot be retrieved.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_FALSE</b></dt>
+</dl>
+</td>
+<td width="60%">
+The image is not animated, the image has not yet been decoded, or a limit on the number of times to loop the animation has been reached.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_PENDING</b></dt>
+</dl>
+</td>
+<td width="60%">
+The next frame is not yet available.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_NOMOREDATA</b></dt>
+</dl>
+</td>
+<td width="60%">
+No further data is available.
+
+</td>
+</tr>
+</table>
+ 
+
+
+

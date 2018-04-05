@@ -1,0 +1,140 @@
+---
+UID: NF:wmsdkidl.IWMReaderPlaylistBurn.InitPlaylistBurn
+title: IWMReaderPlaylistBurn::InitPlaylistBurn method
+author: windows-driver-content
+description: The InitPlaylistBurn method initiates the playlist burning process, by checking the files in the playlist to ensure that they are licensed for copying as part of a playlist.
+old-location: wmformat\iwmreaderplaylistburn_initplaylistburn.htm
+old-project: wmformat
+ms.assetid: a20a70af-49bc-408f-8c64-779525436f8d
+ms.author: windowsdriverdev
+ms.date: 3/23/2018
+ms.keywords: IWMReaderPlaylistBurn, IWMReaderPlaylistBurn interface [windows Media Format], InitPlaylistBurn method, IWMReaderPlaylistBurn::InitPlaylistBurn, IWMReaderPlaylistBurnInitPlaylistBurn, InitPlaylistBurn method [windows Media Format], InitPlaylistBurn method [windows Media Format], IWMReaderPlaylistBurn interface, InitPlaylistBurn,IWMReaderPlaylistBurn.InitPlaylistBurn, wmformat.iwmreaderplaylistburn_initplaylistburn, wmsdkidl/IWMReaderPlaylistBurn::InitPlaylistBurn
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wmsdkidl.h
+req.include-header: Wmsdk.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only],Windows Media Format 9.5 SDK
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WM_AETYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wmvcore.lib
+-	Wmvcore.dll
+-	WMStubDRM.lib
+-	WMStubDRM.dll
+api_name:
+-	IWMReaderPlaylistBurn.InitPlaylistBurn
+product: Windows
+targetos: Windows
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IWMReaderPlaylistBurn::InitPlaylistBurn method
+
+
+## -description
+
+
+
+The <b>InitPlaylistBurn</b> method initiates the playlist burning process, by checking the files in the playlist to ensure that they are licensed for copying as part of a playlist.
+
+
+
+
+## -parameters
+
+
+
+
+### -param cFiles [in]
+
+Number of files in the playlist. This is also the number of members in the array of file names referenced by <i>pwszFilenames</i>.
+
+
+### -param ppwszFilenames
+
+
+
+
+### -param pCallback [in]
+
+Address of the <b>IWMStatusCallback</b> implementation that will receive the WMT_INIT_PLAYLIST_BURN status message.
+
+
+### -param pvContext [in]
+
+Generic pointer, for use by the application. This is passed to the application in calls to the <a href="https://msdn.microsoft.com/7b8cdb21-96e1-4cf9-8422-72bce693afb1">IWMStatusCallback::OnStatus</a> callback. You can use this parameter to differentiate between messages from different objects when sharing a single status callback.
+
+
+#### - pwszFilenames [in]
+
+Address of an array of <b>WCHAR</b> strings. Each string contains the name of a file in the playlist. You must maintain the file order exactly as it exists in the playlist.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+This method executes asynchronously. When it is finished, a WMT_INIT_PLAYLIST_BURN message is sent to the <a href="https://msdn.microsoft.com/7b8cdb21-96e1-4cf9-8422-72bce693afb1">OnStatus</a> method of the <a href="https://msdn.microsoft.com/a8d8eed8-0a87-40ce-b1bf-2d476c2e4ae3">IWMStatusCallback</a> interface identified by the <i>pCallback</i> parameter.
+
+The files are checked to determine whether they are DRM-protected. If a file is protected, its license is checked to verify that the license allows copying to CD as part of a playlist.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/a0e1a4f3-4226-44a2-b38e-e5512fda2048">IWMReaderPlaylistBurn Interface</a>
+ 
+
+ 
+

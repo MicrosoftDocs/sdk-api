@@ -1,0 +1,158 @@
+---
+UID: NF:adhoc.IDot11AdHocNetwork.GetProfileName
+title: IDot11AdHocNetwork::GetProfileName method
+author: windows-driver-content
+description: Gets the profile name associated with the network.
+old-location: nwifi\idot11adhocnetwork_getprofilename.htm
+old-project: NativeWiFi
+ms.assetid: abd25741-25ad-4109-a07e-4146824695b5
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: GetProfileName method [NativeWIFI], GetProfileName method [NativeWIFI], IDot11AdHocNetwork interface, GetProfileName,IDot11AdHocNetwork.GetProfileName, IDot11AdHocNetwork, IDot11AdHocNetwork interface [NativeWIFI], GetProfileName method, IDot11AdHocNetwork::GetProfileName, adhoc/IDot11AdHocNetwork::GetProfileName, nwifi.idot11adhocnetwork_getprofilename
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: adhoc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Adhoc.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: DOT11_ADHOC_NETWORK_CONNECTION_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	adhoc.h
+api_name:
+-	IDot11AdHocNetwork.GetProfileName
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# IDot11AdHocNetwork::GetProfileName method
+
+
+## -description
+
+
+Gets the profile name associated with the network. 
+
+
+## -parameters
+
+
+
+
+### -param ppszwProfileName [out]
+
+The name of the profile associated with the network. If the network has no profile, this parameter is <b>NULL</b>.
+
+You must free this string using <a href="_com_CoTaskMemFree">CoTaskMemFree</a>.
+
+
+
+
+## -returns
+
+
+
+Possible return values include, but are not limited to, the following.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method completed successfully.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_FAIL</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method failed.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+One of the parameters is invalid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_OUTOFMEMORY</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method could not allocate the memory required to perform this operation.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_POINTER</b></dt>
+</dl>
+</td>
+<td width="60%">
+A pointer passed as a parameter is not valid.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/2736bb81-b66f-4c09-8c76-ca16f3eab192">IDot11AdHocNetwork</a>
+
+
+
+<a href="https://msdn.microsoft.com/7f2c007c-4d24-44d7-be30-0fa7c5fbce4a">IDot11AdHocNetwork::DeleteProfile</a>
+
+
+
+<a href="https://msdn.microsoft.com/252f32ef-0a54-445f-94ca-113a67a3e6dd">IDot11AdHocNetwork::HasProfile</a>
+ 
+
+ 
+

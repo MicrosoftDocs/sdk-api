@@ -1,0 +1,76 @@
+---
+UID: NF:certcli.ICertConfig2.SetSharedFolder
+title: ICertConfig2::SetSharedFolder method
+author: windows-driver-content
+description: Specifies the path to be used as the certification authority's (CA) shared folder.
+old-location: security\icertconfig2_setsharedfolder.htm
+old-project: SecCrypto
+ms.assetid: f0fc4218-ca07-4488-bd0c-bfa8bdcd2179
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: CCertConfig object [Security], SetSharedFolder method, ICertConfig2, ICertConfig2 interface [Security], SetSharedFolder method, ICertConfig2::SetSharedFolder, SetSharedFolder method [Security], SetSharedFolder method [Security], CCertConfig object, SetSharedFolder method [Security], ICertConfig2 interface, SetSharedFolder,ICertConfig2.SetSharedFolder, _certsrv_icertconfig2_setsharedfolder, certcli/ICertConfig2::SetSharedFolder, security.icertconfig2_setsharedfolder
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: certcli.h
+req.include-header: Certsrv.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: X509EnrollmentAuthFlags
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Certcli.dll
+api_name:
+-	ICertConfig2.SetSharedFolder
+-	CCertConfig.SetSharedFolder
+product: Windows
+targetos: Windows
+req.lib: Certidl.lib
+req.dll: Certcli.dll
+req.irql: 
+---
+
+# ICertConfig2::SetSharedFolder method
+
+
+## -description
+
+
+The <b>SetSharedFolder</b> method specifies the path to be used as the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a>'s (CA) shared folder. This method was first defined in the <a href="https://msdn.microsoft.com/92bece6a-73f0-47cf-8142-77e986448824">ICertConfig</a> interface.
+
+
+## -parameters
+
+
+
+
+### -param strSharedFolder [in]
+
+String value that specifies the path of the new shared folder directory.
+
+
+## -returns
+
+
+
+<h3>VB</h3>
+ If the method succeeds, the method returns S_OK.
+
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+
+
+

@@ -1,0 +1,65 @@
+---
+UID: NN:faxcomex.IFaxOutboundRoutingGroup
+title: IFaxOutboundRoutingGroup
+author: windows-driver-content
+description: The IFaxOutboundRoutingGroup interface describes a configuration object that is used by a fax client application to retrieve information about an individual fax outbound routing group.
+old-location: fax\_mfax_faxoutboundroutinggroup_cpp.htm
+old-project: Fax
+ms.assetid: VS|fax|~\fax\faxinto_z_45o0_cpp.htm
+ms.author: windowsdriverdev
+ms.date: 3/22/2018
+ms.keywords: IFaxOutboundRoutingGroup, IFaxOutboundRoutingGroup interface [Fax Service], IFaxOutboundRoutingGroup interface [Fax Service], described, _mfax_faxoutboundroutinggroup_cpp, fax._mfax_faxoutboundroutinggroup_cpp, faxcomex/IFaxOutboundRoutingGroup
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: interface
+req.header: faxcomex.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: FAX_SMTP_AUTHENTICATION_TYPE_ENUM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Fxscomex.dll
+api_name:
+-	IFaxOutboundRoutingGroup
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Fxscomex.dll
+req.irql: 
+req.product: Internet Explorer 5
+---
+
+# IFaxOutboundRoutingGroup interface
+
+
+## -description
+
+
+
+		The <b>IFaxOutboundRoutingGroup</b> interface describes a configuration object that is used by a fax client application to retrieve information about an individual fax outbound routing group. The object also includes a method to retrieve the ordered collection of device IDs (<a href="https://msdn.microsoft.com/8ba11f07-3796-4910-98f7-541a32519c41">IFaxDeviceIds</a> interfaces) that participate in the routing group. The order of the devices in the collection determines the relative order in which available devices send outgoing transmissions.
+		
+
+
+## -remarks
+
+
+
+A default implementation of <b>IFaxOutboundRoutingGroup</b> is provided as the <a href="https://msdn.microsoft.com/894a58b7-3a5f-4723-abcb-764567e49e76">FaxOutboundRoutingGroup</a> object.
+
+
+

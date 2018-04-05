@@ -1,0 +1,123 @@
+---
+UID: NF:tom.ITextFont.IsEqual
+title: ITextFont::IsEqual method
+author: windows-driver-content
+description: Determines whether this text font object has the same properties as the specified text font object.
+old-location: controls\ITextFont_IsEqual.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextfont\itextfontisequal.htm
+ms.author: windowsdriverdev
+ms.date: 3/31/2018
+ms.keywords: ITextFont, ITextFont interface [Windows Controls], IsEqual method, ITextFont::IsEqual, IsEqual method [Windows Controls], IsEqual method [Windows Controls], ITextFont interface, IsEqual,ITextFont.IsEqual, _win32_ITextFont_IsEqual, _win32_ITextFont_IsEqual_cpp, controls.ITextFont_IsEqual, controls._win32_ITextFont_IsEqual, tom/ITextFont::IsEqual
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: tom.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MANCODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Msftedit.dll
+api_name:
+-	ITextFont.IsEqual
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# ITextFont::IsEqual method
+
+
+## -description
+
+
+Determines whether this text font object has the same properties as the specified text font object.
+
+
+## -parameters
+
+
+
+
+### -param pFont
+
+Type: <b><a href="https://msdn.microsoft.com/e8e3ba98-808b-49c5-8764-96484fa33a6e">ITextFont</a>*</b>
+
+The text font object to compare against.
+
+
+### -param pValue
+
+
+
+
+
+
+#### - pB
+
+Type: <b>long*</b>
+
+A variable that is <b>tomTrue</b> if the font objects have the same properties or <b>tomFalse</b> if they do not. This parameter can be <b>NULL</b>. 
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If the text font objects have the same properties, the method succeeds and returns <b>S_OK</b>. If the text font objects do not have the same properties, the method fails and returns <b>S_FALSE</b>. For more information about COM error codes, see <a href="https://msdn.microsoft.com/15f3ae3e-1794-4948-a7aa-6309a703364b">Error Handling in COM</a>.
+
+
+
+
+## -remarks
+
+
+
+The text font objects are equal only if <i>pFont</i> belongs to the same Text Object Model (TOM) object as the current font object. The <b>ITextFont::IsEqual</b> method ignores entries for which either font object has an <a href="tomconstants.htm">tomUndefined</a>.
+
+
+
+
+## -see-also
+
+
+
+
+<b>Conceptual</b>
+
+
+
+<a href="https://msdn.microsoft.com/e8e3ba98-808b-49c5-8764-96484fa33a6e">ITextFont</a>
+
+
+
+<b>Reference</b>
+
+
+
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
+ 
+
+ 
+

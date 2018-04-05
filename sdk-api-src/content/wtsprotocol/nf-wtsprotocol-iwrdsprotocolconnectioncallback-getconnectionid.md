@@ -1,0 +1,84 @@
+---
+UID: NF:wtsprotocol.IWRdsProtocolConnectionCallback.GetConnectionId
+title: IWRdsProtocolConnectionCallback::GetConnectionId method
+author: windows-driver-content
+description: Retrieves the connection identifier.
+old-location: termserv\iwrdsprotocolconnectioncallback_getconnectionid.htm
+old-project: TermServ
+ms.assetid: 2EE03CA1-25D5-4B03-A2F1-EC167BD694B3
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: GetConnectionId method [Remote Desktop Services], GetConnectionId method [Remote Desktop Services], IWRdsProtocolConnectionCallback interface, GetConnectionId,IWRdsProtocolConnectionCallback.GetConnectionId, IWRdsProtocolConnectionCallback, IWRdsProtocolConnectionCallback interface [Remote Desktop Services], GetConnectionId method, IWRdsProtocolConnectionCallback::GetConnectionId, termserv.iwrdsprotocolconnectioncallback_getconnectionid, wtsprotocol/IWRdsProtocolConnectionCallback::GetConnectionId
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wtsprotocol.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2012
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Wtsprotocol.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WTS_PROPERTY_VALUE, *PWTS_PROPERTY_VALUE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	wtsprotocol.h
+api_name:
+-	IWRdsProtocolConnectionCallback.GetConnectionId
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IWRdsProtocolConnectionCallback::GetConnectionId method
+
+
+## -description
+
+
+Retrieves the connection identifier.
+
+
+## -parameters
+
+
+
+
+### -param pConnectionId [out]
+
+The address of a <b>ULONG</b> variable that receives the connection identifier.
+
+
+## -returns
+
+
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/81a73688-f39e-4960-8587-602d56c11e7e">IWRdsProtocolConnectionCallback</a>
+ 
+
+ 
+

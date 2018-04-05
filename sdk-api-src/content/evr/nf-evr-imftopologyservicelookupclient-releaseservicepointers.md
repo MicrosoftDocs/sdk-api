@@ -1,0 +1,117 @@
+---
+UID: NF:evr.IMFTopologyServiceLookupClient.ReleaseServicePointers
+title: IMFTopologyServiceLookupClient::ReleaseServicePointers method
+author: windows-driver-content
+description: Signals the object to release the interface pointers obtained from the enhanced video renderer (EVR).
+old-location: mf\imftopologyservicelookupclient_releaseservicepointers.htm
+old-project: medfound
+ms.assetid: 03ed29b4-89c1-4702-a23f-d013eeef5d44
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: 03ed29b4-89c1-4702-a23f-d013eeef5d44, IMFTopologyServiceLookupClient, IMFTopologyServiceLookupClient interface [Media Foundation], ReleaseServicePointers method, IMFTopologyServiceLookupClient::ReleaseServicePointers, ReleaseServicePointers method [Media Foundation], ReleaseServicePointers method [Media Foundation], IMFTopologyServiceLookupClient interface, ReleaseServicePointers,IMFTopologyServiceLookupClient.ReleaseServicePointers, evr/IMFTopologyServiceLookupClient::ReleaseServicePointers, mf.imftopologyservicelookupclient_releaseservicepointers
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: evr.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MFVideoMixPrefs
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	strmiids.lib
+-	strmiids.dll
+api_name:
+-	IMFTopologyServiceLookupClient.ReleaseServicePointers
+product: Windows
+targetos: Windows
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
+---
+
+# IMFTopologyServiceLookupClient::ReleaseServicePointers method
+
+
+## -description
+
+
+
+Signals the object to release the interface pointers obtained from the enhanced video renderer (EVR).
+
+
+
+
+## -parameters
+
+
+
+
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+After this method is called, any interface pointers obtained during the previous call to <a href="https://msdn.microsoft.com/b89f5a47-154c-455a-b5a2-db55e4972b21">IMFTopologyServiceLookupClient::InitServicePointers</a> are no longer valid. The object must release them.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/1135b309-b158-4b70-9f76-5c93d0ad3250">How to Write an EVR Presenter</a>
+
+
+
+<a href="https://msdn.microsoft.com/c4215d08-3734-44b9-b053-0d49d89a90f6">IMFTopologyServiceLookupClient</a>
+ 
+
+ 
+

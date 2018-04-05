@@ -1,0 +1,128 @@
+---
+UID: NF:wmsdkidl.IWMReaderNetworkConfig2.SetAutoReconnectLimit
+title: IWMReaderNetworkConfig2::SetAutoReconnectLimit method
+author: windows-driver-content
+description: The SetAutoReconnectLimit method sets the maximum number of times the reader will attempt to reconnect to the server in the case of an unexpected disconnection.
+old-location: wmformat\iwmreadernetworkconfig2_setautoreconnectlimit.htm
+old-project: wmformat
+ms.assetid: 0ef6bb5c-6369-4b80-a227-da790b1ab6da
+ms.author: windowsdriverdev
+ms.date: 3/23/2018
+ms.keywords: IWMReaderNetworkConfig2, IWMReaderNetworkConfig2 interface [windows Media Format], SetAutoReconnectLimit method, IWMReaderNetworkConfig2::SetAutoReconnectLimit, IWMReaderNetworkConfig2SetAutoReconnectLimit, SetAutoReconnectLimit method [windows Media Format], SetAutoReconnectLimit method [windows Media Format], IWMReaderNetworkConfig2 interface, SetAutoReconnectLimit,IWMReaderNetworkConfig2.SetAutoReconnectLimit, wmformat.iwmreadernetworkconfig2_setautoreconnectlimit, wmsdkidl/IWMReaderNetworkConfig2::SetAutoReconnectLimit
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wmsdkidl.h
+req.include-header: Wmsdk.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WM_AETYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wmvcore.lib
+-	Wmvcore.dll
+-	WMStubDRM.lib
+-	WMStubDRM.dll
+api_name:
+-	IWMReaderNetworkConfig2.SetAutoReconnectLimit
+product: Windows
+targetos: Windows
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IWMReaderNetworkConfig2::SetAutoReconnectLimit method
+
+
+## -description
+
+
+
+The <b>SetAutoReconnectLimit</b> method sets the maximum number of times the reader will attempt to reconnect to the server in the case of an unexpected disconnection. This feature, called Fast Reconnect, applies only to content being streamed from a server running Windows Media Services.
+
+
+
+
+## -parameters
+
+
+
+
+### -param dwAutoReconnectLimit [in]
+
+Specifies the maximum number of times the reader object will attempt to reconnect. To disable automatic reconnection, set this value to zero.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+The method configures the Fast Reconnect feature, which enables the reader object to reconnect to the server automatically if it loses the connection. When possible, playback resumes at the same point in the stream. The accuracy may depend on whether the source file is indexed. For live content, there may be a gap in the stream.
+
+The reader only tries to reconnect if the interruption is unexpected. For example, it does not try to reconnect if the server denies access because of an authentication failure, if the server terminates the connection because of client inactivity, if the server administrator terminates the connection, and so forth.
+
+This method is equivalent to setting the WMReconnect modifier in the URL. For example:
+
+mms://MyServer/MyVideo.wmv?WMReconnect=5
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/a0480243-53e0-4da5-a119-291b19f46951">IWMReaderNetworkConfig2 Interface</a>
+
+
+
+<a href="https://msdn.microsoft.com/8d0b794c-b3bf-4ec5-ac68-9666e73f7a6e">IWMReaderNetworkConfig2::GetAutoReconnectLimit</a>
+ 
+
+ 
+

@@ -1,0 +1,292 @@
+---
+UID: NE:clusapi.CLUSCTL_CLUSTER_CODES
+title: CLUSCTL_CLUSTER_CODES
+author: windows-driver-content
+description: Enumerates cluster control codes used by the ClusterControl function.
+old-location: mscs\clusctl_cluster_codes.htm
+old-project: MsCS
+ms.assetid: b5ce8c3c-3a5d-4785-a3ce-b8b37c6c5dc8
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: CLUSCTL_CLUSTER_BATCH_BLOCK_KEY, CLUSCTL_CLUSTER_BATCH_UNBLOCK_KEY, CLUSCTL_CLUSTER_CHECK_VOTER_DOWN, CLUSCTL_CLUSTER_CHECK_VOTER_EVICT, CLUSCTL_CLUSTER_CLEAR_NODE_CONNECTION_INFO, CLUSCTL_CLUSTER_CODES, CLUSCTL_CLUSTER_CODES enumeration [Failover Cluster], CLUSCTL_CLUSTER_ENUM_COMMON_PROPERTIES, CLUSCTL_CLUSTER_ENUM_PRIVATE_PROPERTIES, CLUSCTL_CLUSTER_GET_CLUSDB_TIMESTAMP, CLUSCTL_CLUSTER_GET_COMMON_PROPERTIES, CLUSCTL_CLUSTER_GET_COMMON_PROPERTY_FMTS, CLUSCTL_CLUSTER_GET_FQDN, CLUSCTL_CLUSTER_GET_GUM_LOCK_OWNER, CLUSCTL_CLUSTER_GET_PRIVATE_PROPERTIES, CLUSCTL_CLUSTER_GET_PRIVATE_PROPERTY_FMTS, CLUSCTL_CLUSTER_GET_RO_COMMON_PROPERTIES, CLUSCTL_CLUSTER_GET_RO_PRIVATE_PROPERTIES, CLUSCTL_CLUSTER_GET_SHARED_VOLUME_ID, CLUSCTL_CLUSTER_GET_STORAGE_CONFIGURATION, CLUSCTL_CLUSTER_GET_STORAGE_CONFIG_ATTRIBUTES, CLUSCTL_CLUSTER_REMOVE_NODE, CLUSCTL_CLUSTER_SET_ACCOUNT_ACCESS, CLUSCTL_CLUSTER_SET_CLUSTER_S2D_CACHE_METADATA_RESERVE_BYTES, CLUSCTL_CLUSTER_SET_CLUSTER_S2D_ENABLED, CLUSCTL_CLUSTER_SET_COMMON_PROPERTIES, CLUSCTL_CLUSTER_SET_DNS_DOMAIN, CLUSCTL_CLUSTER_SET_PRIVATE_PROPERTIES, CLUSCTL_CLUSTER_SET_STORAGE_CONFIGURATION, CLUSCTL_CLUSTER_SHUTDOWN, CLUSCTL_CLUSTER_UNKNOWN, CLUSCTL_CLUSTER_VALIDATE_COMMON_PROPERTIES, CLUSCTL_CLUSTER_VALIDATE_PRIVATE_PROPERTIES, _CLUSCTL_CLUSTER_CODES, _CLUSCTL_CLUSTER_CODES enumeration [Failover Cluster], clusapi/CLUSCTL_CLUSTER_BATCH_BLOCK_KEY, clusapi/CLUSCTL_CLUSTER_BATCH_UNBLOCK_KEY, clusapi/CLUSCTL_CLUSTER_CHECK_VOTER_DOWN, clusapi/CLUSCTL_CLUSTER_CHECK_VOTER_EVICT, clusapi/CLUSCTL_CLUSTER_CLEAR_NODE_CONNECTION_INFO, clusapi/CLUSCTL_CLUSTER_CODES, clusapi/CLUSCTL_CLUSTER_ENUM_COMMON_PROPERTIES, clusapi/CLUSCTL_CLUSTER_ENUM_PRIVATE_PROPERTIES, clusapi/CLUSCTL_CLUSTER_GET_CLUSDB_TIMESTAMP, clusapi/CLUSCTL_CLUSTER_GET_COMMON_PROPERTIES, clusapi/CLUSCTL_CLUSTER_GET_COMMON_PROPERTY_FMTS, clusapi/CLUSCTL_CLUSTER_GET_FQDN, clusapi/CLUSCTL_CLUSTER_GET_GUM_LOCK_OWNER, clusapi/CLUSCTL_CLUSTER_GET_PRIVATE_PROPERTIES, clusapi/CLUSCTL_CLUSTER_GET_PRIVATE_PROPERTY_FMTS, clusapi/CLUSCTL_CLUSTER_GET_RO_COMMON_PROPERTIES, clusapi/CLUSCTL_CLUSTER_GET_RO_PRIVATE_PROPERTIES, clusapi/CLUSCTL_CLUSTER_GET_SHARED_VOLUME_ID, clusapi/CLUSCTL_CLUSTER_GET_STORAGE_CONFIGURATION, clusapi/CLUSCTL_CLUSTER_GET_STORAGE_CONFIG_ATTRIBUTES, clusapi/CLUSCTL_CLUSTER_REMOVE_NODE, clusapi/CLUSCTL_CLUSTER_SET_ACCOUNT_ACCESS, clusapi/CLUSCTL_CLUSTER_SET_CLUSTER_S2D_CACHE_METADATA_RESERVE_BYTES, clusapi/CLUSCTL_CLUSTER_SET_CLUSTER_S2D_ENABLED, clusapi/CLUSCTL_CLUSTER_SET_COMMON_PROPERTIES, clusapi/CLUSCTL_CLUSTER_SET_DNS_DOMAIN, clusapi/CLUSCTL_CLUSTER_SET_PRIVATE_PROPERTIES, clusapi/CLUSCTL_CLUSTER_SET_STORAGE_CONFIGURATION, clusapi/CLUSCTL_CLUSTER_SHUTDOWN, clusapi/CLUSCTL_CLUSTER_UNKNOWN, clusapi/CLUSCTL_CLUSTER_VALIDATE_COMMON_PROPERTIES, clusapi/CLUSCTL_CLUSTER_VALIDATE_PRIVATE_PROPERTIES, clusapi/_CLUSCTL_CLUSTER_CODES, msclus/CLUSCTL_CLUSTER_BATCH_BLOCK_KEY, msclus/CLUSCTL_CLUSTER_BATCH_UNBLOCK_KEY, msclus/CLUSCTL_CLUSTER_CHECK_VOTER_DOWN, msclus/CLUSCTL_CLUSTER_CHECK_VOTER_EVICT, msclus/CLUSCTL_CLUSTER_CLEAR_NODE_CONNECTION_INFO, msclus/CLUSCTL_CLUSTER_CODES, msclus/CLUSCTL_CLUSTER_ENUM_COMMON_PROPERTIES, msclus/CLUSCTL_CLUSTER_ENUM_PRIVATE_PROPERTIES, msclus/CLUSCTL_CLUSTER_GET_CLUSDB_TIMESTAMP, msclus/CLUSCTL_CLUSTER_GET_COMMON_PROPERTIES, msclus/CLUSCTL_CLUSTER_GET_COMMON_PROPERTY_FMTS, msclus/CLUSCTL_CLUSTER_GET_FQDN, msclus/CLUSCTL_CLUSTER_GET_GUM_LOCK_OWNER, msclus/CLUSCTL_CLUSTER_GET_PRIVATE_PROPERTIES, msclus/CLUSCTL_CLUSTER_GET_PRIVATE_PROPERTY_FMTS, msclus/CLUSCTL_CLUSTER_GET_RO_COMMON_PROPERTIES, msclus/CLUSCTL_CLUSTER_GET_RO_PRIVATE_PROPERTIES, msclus/CLUSCTL_CLUSTER_GET_SHARED_VOLUME_ID, msclus/CLUSCTL_CLUSTER_GET_STORAGE_CONFIGURATION, msclus/CLUSCTL_CLUSTER_GET_STORAGE_CONFIG_ATTRIBUTES, msclus/CLUSCTL_CLUSTER_REMOVE_NODE, msclus/CLUSCTL_CLUSTER_SET_ACCOUNT_ACCESS, msclus/CLUSCTL_CLUSTER_SET_CLUSTER_S2D_CACHE_METADATA_RESERVE_BYTES, msclus/CLUSCTL_CLUSTER_SET_CLUSTER_S2D_ENABLED, msclus/CLUSCTL_CLUSTER_SET_COMMON_PROPERTIES, msclus/CLUSCTL_CLUSTER_SET_DNS_DOMAIN, msclus/CLUSCTL_CLUSTER_SET_PRIVATE_PROPERTIES, msclus/CLUSCTL_CLUSTER_SET_STORAGE_CONFIGURATION, msclus/CLUSCTL_CLUSTER_SHUTDOWN, msclus/CLUSCTL_CLUSTER_UNKNOWN, msclus/CLUSCTL_CLUSTER_VALIDATE_COMMON_PROPERTIES, msclus/CLUSCTL_CLUSTER_VALIDATE_PRIVATE_PROPERTIES, msclus/_CLUSCTL_CLUSTER_CODES, mscs.clusctl_cluster_codes
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: enum
+req.header: clusapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: CLUSCTL_CLUSTER_CODES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ClusAPI.h
+-	MsClus.h
+api_name:
+-	CLUSCTL_CLUSTER_CODES
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# CLUSCTL_CLUSTER_CODES enumeration
+
+
+## -description
+
+
+Enumerates cluster <a href="https://msdn.microsoft.com/b8ab57bd-f83e-46c2-9c9c-02107c3881bf">control codes</a> used by 
+    the <a href="https://msdn.microsoft.com/7ef06c95-8d9d-4b87-a6d8-d6a2d49523ee">ClusterControl</a> function.
+
+
+## -enum-fields
+
+
+
+
+### -field CLUSCTL_CLUSTER_UNKNOWN
+
+See <a href="https://msdn.microsoft.com/1b5467c0-1cf2-4678-8e1a-000ab053d334">CLUSCTL_CLUSTER_UNKNOWN</a>.
+
+
+### -field CLUSCTL_CLUSTER_GET_FQDN
+
+See <a href="https://msdn.microsoft.com/ba8a9445-b955-481a-9c6c-7457fa38a746">CLUSCTL_CLUSTER_GET_FQDN</a>.
+
+
+### -field CLUSCTL_CLUSTER_SET_STORAGE_CONFIGURATION
+
+See <a href="https://msdn.microsoft.com/428FF672-F46C-40FD-99DF-3C1DFD7BEB98">CLUSCTL_CLUSTER_SET_STORAGE_CONFIGURATION</a>.
+
+<b>Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  </b>This operation code is not available before Windows Server 2016.
+
+
+
+
+### -field CLUSCTL_CLUSTER_GET_STORAGE_CONFIGURATION
+
+See <a href="https://msdn.microsoft.com/12972639-7D04-474F-8523-434BC7C50418">CLUSCTL_CLUSTER_GET_STORAGE_CONFIGURATION</a>.
+
+<b>Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  </b>This operation code is not available before Windows Server 2016.
+
+
+
+
+### -field CLUSCTL_CLUSTER_GET_STORAGE_CONFIG_ATTRIBUTES
+
+See <a href="https://msdn.microsoft.com/BB4D7E65-147E-4B2F-A21F-CB59AEB0F895">CLUSCTL_CLUSTER_GET_STORAGE_CONFIG_ATTRIBUTES</a>.
+
+<b>Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  </b>This operation code is not available before Windows Server 2016.
+
+
+
+
+### -field CLUSCTL_CLUSTER_ENUM_COMMON_PROPERTIES
+
+See 
+       <a href="https://msdn.microsoft.com/03fadf36-9a76-496e-a48b-c083c958b870">CLUSCTL_CLUSTER_ENUM_COMMON_PROPERTIES</a>.
+
+
+### -field CLUSCTL_CLUSTER_GET_RO_COMMON_PROPERTIES
+
+See 
+       <a href="https://msdn.microsoft.com/045d39bc-085f-4d09-9854-d694df4d0a6a">CLUSCTL_CLUSTER_GET_RO_COMMON_PROPERTIES</a>.
+
+
+### -field CLUSCTL_CLUSTER_GET_COMMON_PROPERTIES
+
+See 
+       <a href="https://msdn.microsoft.com/8b4d68b5-01f5-438a-93d7-853f19bad1d4">CLUSCTL_CLUSTER_GET_COMMON_PROPERTIES</a>.
+
+
+### -field CLUSCTL_CLUSTER_SET_COMMON_PROPERTIES
+
+See 
+       <a href="https://msdn.microsoft.com/c58d6390-3f22-4ad4-a568-d79a787eefdf">CLUSCTL_CLUSTER_SET_COMMON_PROPERTIES</a>.
+
+
+### -field CLUSCTL_CLUSTER_VALIDATE_COMMON_PROPERTIES
+
+See 
+       <a href="https://msdn.microsoft.com/a4db891b-bf8c-42bd-b366-cddd89c279ba">CLUSCTL_CLUSTER_VALIDATE_COMMON_PROPERTIES</a>.
+
+
+### -field CLUSCTL_CLUSTER_ENUM_PRIVATE_PROPERTIES
+
+See 
+       <a href="https://msdn.microsoft.com/1009b6b5-47b0-475d-97a2-cd68243d3072">CLUSCTL_CLUSTER_ENUM_PRIVATE_PROPERTIES</a>.
+
+
+### -field CLUSCTL_CLUSTER_GET_RO_PRIVATE_PROPERTIES
+
+See 
+       <a href="https://msdn.microsoft.com/a51019bc-f412-4c91-8e6d-b32200c2e39c">CLUSCTL_CLUSTER_GET_RO_PRIVATE_PROPERTIES</a>.
+
+
+### -field CLUSCTL_CLUSTER_GET_PRIVATE_PROPERTIES
+
+See 
+       <a href="https://msdn.microsoft.com/852025e6-9fa1-47a5-8e7b-272cd453ce19">CLUSCTL_CLUSTER_GET_PRIVATE_PROPERTIES</a>.
+
+
+### -field CLUSCTL_CLUSTER_SET_PRIVATE_PROPERTIES
+
+See 
+       <a href="https://msdn.microsoft.com/e7e471b8-1df4-4b46-bdac-d0acadd86910">CLUSCTL_CLUSTER_SET_PRIVATE_PROPERTIES</a>.
+
+
+### -field CLUSCTL_CLUSTER_VALIDATE_PRIVATE_PROPERTIES
+
+See 
+       <a href="https://msdn.microsoft.com/afbe9278-5484-4081-b345-1885268bd38a">CLUSCTL_CLUSTER_VALIDATE_PRIVATE_PROPERTIES</a>.
+
+
+### -field CLUSCTL_CLUSTER_GET_COMMON_PROPERTY_FMTS
+
+See 
+       <a href="https://msdn.microsoft.com/29f87a9c-98e2-46c0-94a0-634924e07930">CLUSCTL_CLUSTER_GET_COMMON_PROPERTY_FMTS</a>.
+
+
+### -field CLUSCTL_CLUSTER_GET_PRIVATE_PROPERTY_FMTS
+
+See 
+       <a href="https://msdn.microsoft.com/c92d8fc4-44e4-4026-9e67-58c4ad5cfaf0">CLUSCTL_CLUSTER_GET_PRIVATE_PROPERTY_FMTS</a>.
+
+
+### -field CLUSCTL_CLUSTER_CHECK_VOTER_EVICT
+
+See 
+       <a href="https://msdn.microsoft.com/e87d5598-01f5-4d33-aa8c-e9c059cb9716">CLUSCTL_CLUSTER_CHECK_VOTER_EVICT</a>.
+
+
+### -field CLUSCTL_CLUSTER_CHECK_VOTER_DOWN
+
+See 
+       <a href="https://msdn.microsoft.com/4987c8c1-7f5a-4b4a-8fba-55457922b641">CLUSCTL_CLUSTER_CHECK_VOTER_DOWN</a>.
+
+
+### -field CLUSCTL_CLUSTER_SHUTDOWN
+
+See <a href="https://msdn.microsoft.com/ebf8820a-109e-47fe-94ed-4fb1377597d5">CLUSCTL_CLUSTER_SHUTDOWN</a>.
+
+
+### -field CLUSCTL_CLUSTER_BATCH_BLOCK_KEY
+
+Not supported.
+
+
+### -field CLUSCTL_CLUSTER_BATCH_UNBLOCK_KEY
+
+Not supported.
+
+
+### -field CLUSCTL_CLUSTER_GET_SHARED_VOLUME_ID
+
+See 
+       <a href="https://msdn.microsoft.com/0e470934-f1c1-40b2-93b7-10a9b3de3032">CLUSCTL_CLUSTER_GET_SHARED_VOLUME_ID</a>.
+
+<b>Windows Server 2008:  </b>This control code is not supported before Windows Server 2008 R2.
+
+
+### -field CLUSCTL_CLUSTER_GET_CLUSDB_TIMESTAMP
+
+See <a href="https://msdn.microsoft.com/2F0A7F5C-9A7C-4BB9-90EC-406862A129FF">CLUSCTL_CLUSTER_GET_CLUSDB_TIMESTAMP</a>.
+
+
+### -field CLUSCTL_CLUSTER_GET_GUM_LOCK_OWNER
+
+See <a href="https://msdn.microsoft.com/F16664D3-8CC1-4D12-ACA7-D3F81D7A2CF9">CLUSCTL_CLUSTER_GET_GUM_LOCK_OWNER</a>.
+
+<b>Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  </b>This operation code is not available before Windows Server 2016.
+
+
+
+
+### -field CLUSCTL_CLUSTER_REMOVE_NODE
+
+See <a href="https://msdn.microsoft.com/035B3038-BD58-43FD-BA30-B3E321FEE06C">CLUSCTL_CLUSTER_REMOVE_NODE</a>.
+
+<b>Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  </b>This operation code is not available before Windows Server 2016.
+
+
+
+
+### -field CLUSCTL_CLUSTER_SET_ACCOUNT_ACCESS
+
+See <a href="https://msdn.microsoft.com/84AED831-0E32-46A8-881C-FDF391BFE8F4">CLUSCTL_CLUSTER_SET_ACCOUNT_ACCESS</a>.
+
+<b>Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  </b>This operation code is not available before Windows Server 2016.
+
+
+
+
+### -field CLUSCTL_CLUSTER_CLEAR_NODE_CONNECTION_INFO
+
+See <a href="https://msdn.microsoft.com/B00D4725-AD1B-415D-A774-1216F0017FFF">CLUSCTL_CLUSTER_CLEAR_NODE_CONNECTION_INFO</a>.
+
+<b>Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  </b>This operation code is not available before Windows Server 2016.
+
+
+
+
+### -field CLUSCTL_CLUSTER_SET_DNS_DOMAIN
+
+See <a href="https://msdn.microsoft.com/C08360F8-4930-4BEA-B831-CD380EBCFF7D">CLUSCTL_CLUSTER_SET_DNS_DOMAIN</a>.
+
+<b>Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  </b>This operation code is not available before Windows Server 2016.
+
+
+
+
+### -field CLUSCTL_CLUSTER_SET_CLUSTER_S2D_ENABLED
+
+See <a href="https://msdn.microsoft.com/719C570F-B264-4561-9098-7AD2B4E6AC87">CLUSCTL_CLUSTER_SET_CLUSTER_S2D_ENABLED</a>.
+
+<b>Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  </b>This operation code is not available before Windows Server 2016.
+
+
+
+
+### -field CLUSCTL_CLUSTER_SET_CLUSTER_S2D_CACHE_METADATA_RESERVE_BYTES
+
+See <a href="https://msdn.microsoft.com/76164E5D-93A9-4A44-9239-86B2EEBFC53A">CLUSCTL_CLUSTER_SET_CLUSTER_S2D_CACHE_METADATA_RESERVE_BYTES</a>
+
+
+<b>Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  </b>This operation code is not available before Windows Server 2016.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/cabd9d59-7ace-4081-9de1-7645c882a64d">Cluster Control Codes</a>
+
+
+
+<a href="https://msdn.microsoft.com/7ef06c95-8d9d-4b87-a6d8-d6a2d49523ee">ClusterControl</a>
+
+
+
+<a href="https://msdn.microsoft.com/546071de-1067-4b47-b862-668be976e563">Failover Cluster Enumerations</a>
+ 
+
+ 
+

@@ -1,0 +1,84 @@
+---
+UID: NF:uiautomationclient.IUIAutomationScrollPattern.get_CachedHorizontallyScrollable
+title: IUIAutomationScrollPattern::get_CachedHorizontallyScrollable method
+author: windows-driver-content
+description: Retrieves a cached value that indicates whether the element can scroll horizontally.
+old-location: winauto\uiauto_IUIAutomationScrollPattern_CachedHorizontallyScrollable.htm
+old-project: WinAuto
+ms.assetid: 9089e237-2115-47b6-a1eb-eaea5a93586e
+ms.author: windowsdriverdev
+ms.date: 3/29/2018
+ms.keywords: CachedHorizontallyScrollable property [Windows Accessibility], CachedHorizontallyScrollable property [Windows Accessibility], IUIAutomationScrollPattern interface, IUIAutomationScrollPattern, IUIAutomationScrollPattern interface [Windows Accessibility], CachedHorizontallyScrollable property, IUIAutomationScrollPattern.CachedHorizontallyScrollable, IUIAutomationScrollPattern::get_CachedHorizontallyScrollable, get_CachedHorizontallyScrollable,IUIAutomationScrollPattern.get_CachedHorizontallyScrollable, uiauto.uiauto_IUIAutomationScrollPattern_CachedHorizontallyScrollable, uiauto_IUIAutomationScrollPattern_CachedHorizontallyScrollable, uiautomationclient/IUIAutomationScrollPattern::CachedHorizontallyScrollable, uiautomationclient/IUIAutomationScrollPattern::get_CachedHorizontallyScrollable, winauto.uiauto_IUIAutomationScrollPattern_CachedHorizontallyScrollable
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: uiautomationclient.h
+req.include-header: UIAutomation.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: UIAutomationClient.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	UIAutomationClient.h
+api_name:
+-	IUIAutomationScrollPattern.CachedHorizontallyScrollable
+-	IUIAutomationScrollPattern.get_CachedHorizontallyScrollable
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# IUIAutomationScrollPattern::get_CachedHorizontallyScrollable method
+
+
+## -description
+
+
+Retrieves a cached value that indicates whether the element can scroll horizontally.
+
+This property is read-only.
+
+
+## -parameters
+
+
+## -remarks
+
+
+
+This property can be dynamic. For example, the content area of the element might not be larger than the current viewable area, meaning that the property is <b>FALSE</b>. However, resizing the element or adding child items can increase the bounds of the content area beyond the viewable area, making the property <b>TRUE</b>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/cb62389c-5a7a-412d-a024-0ce9bc6403a2">IUIAutomationScrollPattern</a>
+
+
+
+<a href="https://msdn.microsoft.com/e9e55853-6fe3-4e51-bb4c-aea0174ed710">IUIAutomationScrollPattern::CachedVerticallyScrollable</a>
+ 
+
+ 
+

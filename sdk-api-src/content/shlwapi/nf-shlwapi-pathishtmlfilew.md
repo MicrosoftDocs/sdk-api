@@ -1,0 +1,77 @@
+---
+UID: NF:shlwapi.PathIsHTMLFileW
+title: PathIsHTMLFileW macro
+author: windows-driver-content
+description: Determines if a file is an HTML file. The determination is made based on the content type that is registered for the file's extension.
+old-location: shell\PathIsHTMLFile.htm
+old-project: shell
+ms.assetid: f24f82c8-ce32-4fbd-be49-06817cc57e5b
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: PathIsHTMLFile, PathIsHTMLFile function [Windows Shell], PathIsHTMLFileA, PathIsHTMLFileW, _win32_PathIsHTMLFile, shell.PathIsHTMLFile, shlwapi/PathIsHTMLFile, shlwapi/PathIsHTMLFileA, shlwapi/PathIsHTMLFileW
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: macro
+req.header: shlwapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: PathIsHTMLFileW (Unicode) and PathIsHTMLFileA (ANSI)
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: URL_SCHEME
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Shlwapi.dll
+api_name:
+-	PathIsHTMLFile
+-	PathIsHTMLFileA
+-	PathIsHTMLFileW
+product: Windows
+targetos: Windows
+req.lib: Shlwapi.lib
+req.dll: Shlwapi.dll (version 4.71 or later)
+req.irql: 
+req.product: Internet Explorer 6.01
+---
+
+# PathIsHTMLFileW macro
+
+
+## -description
+
+
+Determines if a file is an HTML file. The determination is made based on the content type that is registered for the file's extension.
+
+
+## -parameters
+
+
+
+
+### -param pszPath
+
+TBD
+
+
+
+
+
+
+#### - pszFile [in]
+
+Type: <b>LPCTSTR</b>
+
+The address of a character buffer that contains the path and name of the file.
+

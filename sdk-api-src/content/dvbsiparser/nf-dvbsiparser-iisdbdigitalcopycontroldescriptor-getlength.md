@@ -1,0 +1,84 @@
+---
+UID: NF:dvbsiparser.IIsdbDigitalCopyControlDescriptor.GetLength
+title: IIsdbDigitalCopyControlDescriptor::GetLength method
+author: windows-driver-content
+description: Gets the body length of an Integrated Services Digital Broadcasting (ISDB) digital copy control descriptor, in bytes.
+old-location: mstv\iisdbdigitalcopycontroldescriptor_getlength.htm
+old-project: mstv
+ms.assetid: 3a0b5433-1681-4b2d-9436-9ed853da6a80
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies], IIsdbDigitalCopyControlDescriptor interface, GetLength,IIsdbDigitalCopyControlDescriptor.GetLength, IIsdbDigitalCopyControlDescriptor, IIsdbDigitalCopyControlDescriptor interface [Microsoft TV Technologies], GetLength method, IIsdbDigitalCopyControlDescriptor::GetLength, dvbsiparser/IIsdbDigitalCopyControlDescriptor::GetLength, mstv.iisdbdigitalcopycontroldescriptor_getlength
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: dvbsiparser.h
+req.include-header: Dvbsiparser.idl
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: None supported
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	dvbsiparser.h
+api_name:
+-	IIsdbDigitalCopyControlDescriptor.GetLength
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
+---
+
+# IIsdbDigitalCopyControlDescriptor::GetLength method
+
+
+## -description
+
+
+ Gets the body length of an Integrated Services Digital Broadcasting (ISDB) digital copy control descriptor, in bytes.
+
+
+## -parameters
+
+
+
+
+### -param pbVal [out]
+
+Receives the descriptor length.
+
+
+## -returns
+
+
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/d509eb58-0c58-4173-8c9c-d52b81932b5c">IIsdbDigitalCopyControlDescriptor</a>
+ 
+
+ 
+

@@ -1,0 +1,84 @@
+---
+UID: NF:dvbsiparser.IIsdbAudioComponentDescriptor.GetLanguageCode2
+title: IIsdbAudioComponentDescriptor::GetLanguageCode2 method
+author: windows-driver-content
+description: In ES multilingual mode, gets the second three-character ISO 639 language code from an ISDB audio component descriptor.
+old-location: mstv\iisdbaudiocomponentdescriptor_getlanguagecode2.htm
+old-project: mstv
+ms.assetid: 3016264e-c952-4243-acd2-a075c89e8c2b
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: GetLanguageCode method [Microsoft TV Technologies], GetLanguageCode method [Microsoft TV Technologies], IIsdbAudioComponentDescriptor interface, GetLanguageCode2,IIsdbAudioComponentDescriptor.GetLanguageCode2, IIsdbAudioComponentDescriptor, IIsdbAudioComponentDescriptor interface [Microsoft TV Technologies], GetLanguageCode method, IIsdbAudioComponentDescriptor::GetLanguageCode, IIsdbAudioComponentDescriptor::GetLanguageCode2, dvbsiparser/IIsdbAudioComponentDescriptor::GetLanguageCode, mstv.iisdbaudiocomponentdescriptor_getlanguagecode2
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: dvbsiparser.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: None supported
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Dvbsiparser.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	dvbsiparser.h
+api_name:
+-	IIsdbAudioComponentDescriptor.GetLanguageCode
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
+---
+
+# IIsdbAudioComponentDescriptor::GetLanguageCode2 method
+
+
+## -description
+
+
+In ES multilingual mode, gets the second  three-character ISO 639 language code from an ISDB audio component descriptor.
+
+
+## -parameters
+
+
+
+
+### -param pszCode
+
+Pointer to the buffer that receives the language code.  For a list of language codes, refer to <a href="http://www.sil.org/ISO639-3/codes.asp">ISO 639 Code Tables</a>.
+
+
+## -returns
+
+
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/f771b318-5fd5-4c7f-a22b-6966aec5c0fa">IIsdbAudioComponentDescriptor</a>
+ 
+
+ 
+

@@ -1,0 +1,77 @@
+---
+UID: NF:propsys.IPropertyChangeArray.GetCount
+title: IPropertyChangeArray::GetCount method
+author: windows-driver-content
+description: Gets the number of change operations in the array.
+old-location: properties\IPropertyChangeArray_GetCount.htm
+old-project: properties
+ms.assetid: b87db827-2eb1-4463-aa6a-10591b200adf
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: GetCount method [Windows Properties], GetCount method [Windows Properties], IPropertyChangeArray interface, GetCount,IPropertyChangeArray.GetCount, IPropertyChangeArray, IPropertyChangeArray interface [Windows Properties], GetCount method, IPropertyChangeArray::GetCount, _shell_IPropertyChangeArray_GetCount, properties.IPropertyChangeArray_GetCount, propsys/IPropertyChangeArray::GetCount, shell.IPropertyChangeArray_GetCount
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: propsys.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Propsys.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: PSC_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Propsys.h
+api_name:
+-	IPropertyChangeArray.GetCount
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# IPropertyChangeArray::GetCount method
+
+
+## -description
+
+
+Gets the number of change operations in the array.
+
+
+## -parameters
+
+
+
+
+### -param pcOperations [out]
+
+Type: <b>UINT*</b>
+
+A pointer to the number of change operations.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+Always returns <b>S_OK</b>.
+
+
+

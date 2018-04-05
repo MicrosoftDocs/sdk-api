@@ -1,0 +1,105 @@
+---
+UID: NF:devicetopology.IPerChannelDbLevel.GetChannelCount
+title: IPerChannelDbLevel::GetChannelCount method
+author: windows-driver-content
+description: The GetChannelCount method gets the number of channels in the audio stream.
+old-location: coreaudio\iperchanneldblevel_getchannelcount.htm
+old-project: CoreAudio
+ms.assetid: f8c6c0fd-fe29-467a-936e-f83c6d951bdd
+ms.author: windowsdriverdev
+ms.date: 3/30/2018
+ms.keywords: GetChannelCount method [Core Audio], GetChannelCount method [Core Audio], IPerChannelDbLevel interface, GetChannelCount,IPerChannelDbLevel.GetChannelCount, IPerChannelDbLevel, IPerChannelDbLevel interface [Core Audio], GetChannelCount method, IPerChannelDbLevel::GetChannelCount, IPerChannelDbLevelGetChannelCount, coreaudio.iperchanneldblevel_getchannelcount, devicetopology/IPerChannelDbLevel::GetChannelCount
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: devicetopology.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: ConnectorType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Devicetopology.h
+api_name:
+-	IPerChannelDbLevel.GetChannelCount
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# IPerChannelDbLevel::GetChannelCount method
+
+
+## -description
+
+
+
+The <b>GetChannelCount</b> method gets the number of channels in the audio stream.
+
+
+
+
+## -parameters
+
+
+
+
+### -param pcChannels [out]
+
+Pointer to a <b>UINT</b> variable into which the method writes the channel count (the number of channels in the audio stream).
+
+
+## -returns
+
+
+
+If the method succeeds, it returns S_OK. If it fails, possible return codes include, but are not limited to, the values shown in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_POINTER</b></dt>
+</dl>
+</td>
+<td width="60%">
+Pointer <i>pcChannels</i> is <b>NULL</b>.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/e70b4518-c9de-4426-b8e5-db80656699a9">IPerChannelDbLevel Interface</a>
+ 
+
+ 
+

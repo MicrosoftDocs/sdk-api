@@ -1,0 +1,84 @@
+---
+UID: NF:mfmediaengine.IMFMediaEngineEx.GetStereo3DRenderMode
+title: IMFMediaEngineEx::GetStereo3DRenderMode method
+author: windows-driver-content
+description: For stereoscopic 3D video, queries how the Media Engine renders the 3D video content.
+old-location: mf\imfmediaengineex_getstereo3drendermode.htm
+old-project: medfound
+ms.assetid: 204C9B35-860F-46FD-AF3F-7BC7E1EE12EF
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: GetStereo3DRenderMode method [Media Foundation], GetStereo3DRenderMode method [Media Foundation], IMFMediaEngineEx interface, GetStereo3DRenderMode,IMFMediaEngineEx.GetStereo3DRenderMode, IMFMediaEngineEx, IMFMediaEngineEx interface [Media Foundation], GetStereo3DRenderMode method, IMFMediaEngineEx::GetStereo3DRenderMode, mf.imfmediaengineex_getstereo3drendermode, mfmediaengine/IMFMediaEngineEx::GetStereo3DRenderMode
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: mfmediaengine.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MF_TIMED_TEXT_WRITING_MODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfmediaengine.h
+api_name:
+-	IMFMediaEngineEx.GetStereo3DRenderMode
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IMFMediaEngineEx::GetStereo3DRenderMode method
+
+
+## -description
+
+
+For stereoscopic 3D video, queries how the Media Engine renders the 3D video content.
+
+
+## -parameters
+
+
+
+
+### -param outputType [out]
+
+Receives a member of the <a href="https://msdn.microsoft.com/A41469B3-9BBF-4664-9ABA-6894A4F94BBE">MF3DVideoOutputType</a> enumeration.
+
+
+## -returns
+
+
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/EE3591FD-4FE8-4F20-A4E2-52C896229571">IMFMediaEngineEx</a>
+ 
+
+ 
+

@@ -1,0 +1,124 @@
+---
+UID: NF:winuser.SetMenu
+title: SetMenu function
+author: windows-driver-content
+description: Assigns a new menu to the specified window.
+old-location: menurc\setmenu.htm
+old-project: menurc
+ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\setmenu.htm
+ms.author: windowsdriverdev
+ms.date: 3/29/2018
+ms.keywords: SetMenu, SetMenu function [Menus and Other Resources], _win32_SetMenu, _win32_setmenu_cpp, menurc.setmenu, winui._win32_setmenu, winuser/SetMenu
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: winuser.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: AR_STATE, *PAR_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	User32.dll
+api_name:
+-	SetMenu
+product: Windows
+targetos: Windows
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# SetMenu function
+
+
+## -description
+
+
+Assigns a new menu to the specified window. 
+
+
+## -parameters
+
+
+
+
+### -param hWnd [in]
+
+Type: <b>HWND</b>
+
+A handle to the window to which the menu is to be assigned. 
+
+
+### -param hMenu [in, optional]
+
+Type: <b>HMENU</b>
+
+A handle to the new menu. If this parameter is <b>NULL</b>, the window's current menu is removed. 
+
+
+## -returns
+
+
+
+Type: <b>BOOL</b>
+
+If the function succeeds, the return value is nonzero.
+
+If the function fails, the return value is zero. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. 
+
+
+
+
+## -remarks
+
+
+
+The window is redrawn to reflect the menu change. A menu can be assigned to any window that is not a child window.
+
+The <b>SetMenu</b> function replaces the previous menu, if any, but it does not destroy it. An application should call the <a href="https://msdn.microsoft.com/4fc9e332-09a6-4877-a831-e1128144530d">DestroyMenu</a> function to accomplish this task. 
+
+
+
+
+## -see-also
+
+
+
+
+<b>Conceptual</b>
+
+
+
+<a href="https://msdn.microsoft.com/4fc9e332-09a6-4877-a831-e1128144530d">DestroyMenu</a>
+
+
+
+<a href="https://msdn.microsoft.com/e86b20c6-9a4b-40b7-95d1-ffa57795f5e0">GetMenu</a>
+
+
+
+<a href="https://msdn.microsoft.com/f00c0b76-fabb-4451-bd4e-30b465d4d235">Menus</a>
+
+
+
+<b>Reference</b>
+ 
+
+ 
+

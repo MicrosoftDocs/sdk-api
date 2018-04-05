@@ -1,0 +1,169 @@
+---
+UID: NF:memoryapi.GetProcessWorkingSetSizeEx
+title: GetProcessWorkingSetSizeEx function
+author: windows-driver-content
+description: Retrieves the minimum and maximum working set sizes of the specified process.
+old-location: base\getprocessworkingsetsizeex.htm
+old-project: ProcThread
+ms.assetid: d2de0bf2-012b-480c-a1a5-54e4d3928381
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: GetProcessWorkingSetSizeEx, GetProcessWorkingSetSizeEx function, QUOTA_LIMITS_HARDWS_MAX_DISABLE, QUOTA_LIMITS_HARDWS_MAX_ENABLE, QUOTA_LIMITS_HARDWS_MIN_DISABLE, QUOTA_LIMITS_HARDWS_MIN_ENABLE, base.getprocessworkingsetsizeex, memoryapi/GetProcessWorkingSetSizeEx, winbase/GetProcessWorkingSetSizeEx
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: memoryapi.h
+req.include-header: Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MP_PARAMINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Kernel32.dll
+-	API-MS-Win-Core-Memory-l1-1-1.dll
+-	API-MS-Win-Core-Memory-l1-1-2.dll
+-	API-MS-Win-Core-Memory-l1-1-3.dll
+-	API-MS-Win-Core-Memory-L1-1-4.dll
+-	API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+-	KernelBase.dll
+-	MinKernelBase.dll
+api_name:
+-	GetProcessWorkingSetSizeEx
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# GetProcessWorkingSetSizeEx function
+
+
+## -description
+
+
+Retrieves the minimum and maximum working set sizes of the specified process.
+
+
+## -parameters
+
+
+
+
+### -param hProcess [in]
+
+A handle to the process whose working set sizes will be obtained. The handle must have the <b>PROCESS_QUERY_INFORMATION</b> or <b>PROCESS_QUERY_LIMITED_INFORMATION</b> access right. For more information, see 
+<a href="https://msdn.microsoft.com/508a17c4-88cd-431a-a102-00180a7f7ab5">Process Security and Access Rights</a>.
+
+<b>Windows Server 2003:  </b>The handle must have the <b>PROCESS_QUERY_INFORMATION</b> access right.
+
+
+### -param lpMinimumWorkingSetSize [out]
+
+A pointer to a variable that receives the minimum working set size of the specified process, in bytes. The virtual memory manager attempts to keep at least this much memory resident in the process whenever the process is active.
+
+
+### -param lpMaximumWorkingSetSize [out]
+
+A pointer to a variable that receives the maximum working set size of the specified process, in bytes. The virtual memory manager attempts to keep no more than this much memory resident in the process whenever the process is active when memory is in short supply.
+
+
+### -param Flags [out]
+
+The flags that control the enforcement of the minimum and maximum working set sizes.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="QUOTA_LIMITS_HARDWS_MIN_DISABLE"></a><a id="quota_limits_hardws_min_disable"></a><dl>
+<dt><b>QUOTA_LIMITS_HARDWS_MIN_DISABLE</b></dt>
+<dt>0x00000002</dt>
+</dl>
+</td>
+<td width="60%">
+The working set may fall below the minimum working set limit if memory demands are high.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="QUOTA_LIMITS_HARDWS_MIN_ENABLE"></a><a id="quota_limits_hardws_min_enable"></a><dl>
+<dt><b>QUOTA_LIMITS_HARDWS_MIN_ENABLE</b></dt>
+<dt>0x00000001</dt>
+</dl>
+</td>
+<td width="60%">
+The working set will not fall below the minimum working set limit.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="QUOTA_LIMITS_HARDWS_MAX_DISABLE"></a><a id="quota_limits_hardws_max_disable"></a><dl>
+<dt><b>QUOTA_LIMITS_HARDWS_MAX_DISABLE</b></dt>
+<dt>0x00000008</dt>
+</dl>
+</td>
+<td width="60%">
+The working set may exceed the maximum working set limit if there is abundant memory.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="QUOTA_LIMITS_HARDWS_MAX_ENABLE"></a><a id="quota_limits_hardws_max_enable"></a><dl>
+<dt><b>QUOTA_LIMITS_HARDWS_MAX_ENABLE</b></dt>
+<dt>0x00000004</dt>
+</dl>
+</td>
+<td width="60%">
+The working set will not exceed the maximum working set limit.
+
+</td>
+</tr>
+</table>
+ 
+
+
+## -remarks
+
+
+
+The "working set" of a process is the set of memory pages currently visible to the process in physical RAM memory. These pages are resident and available for an application to use without triggering a page fault. The minimum and maximum working set sizes affect the virtual memory paging behavior of a process.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/6017ef59-d2e9-4245-a406-8965024dbb35">Process Working Set</a>
+
+
+
+<a href="https://msdn.microsoft.com/4bdec0f5-7276-422e-9935-0e231b0fc17d">Processes</a>
+
+
+
+<a href="https://msdn.microsoft.com/04332239-dfc2-4d32-987a-af187e725b71">SetProcessWorkingSetSizeEx</a>
+ 
+
+ 
+

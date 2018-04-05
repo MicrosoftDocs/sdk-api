@@ -1,0 +1,74 @@
+---
+UID: NF:casetup.ICertSrvSetupKeyInformationCollection.Add
+title: ICertSrvSetupKeyInformationCollection::Add method
+author: windows-driver-content
+description: Adds an ICertSrvSetupKeyInformation object to the collection.
+old-location: security\icertsrvsetupkeyinformationcollection_add.htm
+old-project: SecCrypto
+ms.assetid: 8f342787-13f7-4bca-8320-61bb5112ee34
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: Add method [Security], Add method [Security], ICertSrvSetupKeyInformationCollection interface, Add,ICertSrvSetupKeyInformationCollection.Add, ICertSrvSetupKeyInformationCollection, ICertSrvSetupKeyInformationCollection interface [Security], Add method, ICertSrvSetupKeyInformationCollection::Add, casetup/ICertSrvSetupKeyInformationCollection::Add, security.icertsrvsetupkeyinformationcollection_add
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: casetup.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Casetup.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: CEPSetupProperty
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Certocm.dll
+api_name:
+-	ICertSrvSetupKeyInformationCollection.Add
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Certocm.dll
+req.irql: 
+---
+
+# ICertSrvSetupKeyInformationCollection::Add method
+
+
+## -description
+
+
+The <b>Add</b> method adds an <a href="https://msdn.microsoft.com/d27c9ba5-ddee-4c9c-b812-e61b974b515a">ICertSrvSetupKeyInformation</a> object to the collection.
+
+
+## -parameters
+
+
+
+
+### -param pIKeyInformation [in]
+
+A pointer to an <a href="https://msdn.microsoft.com/d27c9ba5-ddee-4c9c-b812-e61b974b515a">ICertSrvSetupKeyInformation</a> object.
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/d029dd5f-9c19-46fd-aac3-275c624a157b">ICertSrvSetupKeyInformationCollection</a>
+ 
+
+ 
+

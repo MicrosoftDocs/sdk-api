@@ -1,0 +1,143 @@
+---
+UID: NF:bits1_5.IBackgroundCopyJob2.GetReplyFileName
+title: IBackgroundCopyJob2::GetReplyFileName method
+author: windows-driver-content
+description: Retrieves the name of the file that contains the reply data from the server application. Call this method only if the job type is BG_JOB_TYPE_UPLOAD_REPLY.
+old-location: bits\ibackgroundcopyjob2_getreplyfilename.htm
+old-project: Bits
+ms.assetid: 57f9245c-c1ae-4027-8e84-4926fa4861c3
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: GetReplyFileName method [BITS], GetReplyFileName method [BITS], IBackgroundCopyJob2 interface, GetReplyFileName,IBackgroundCopyJob2.GetReplyFileName, IBackgroundCopyJob2, IBackgroundCopyJob2 interface [BITS], GetReplyFileName method, IBackgroundCopyJob2::GetReplyFileName, _drz_ibackgroundcopyjob2_getreplyfilename, bits.ibackgroundcopyjob2_getreplyfilename, bits1_5/IBackgroundCopyJob2::GetReplyFileName
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: bits1_5.h
+req.include-header: Bits.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2003
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Bits1_5.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: BG_AUTH_SCHEME
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	BitsPrx2.dll
+api_name:
+-	IBackgroundCopyJob2.GetReplyFileName
+product: Windows
+targetos: Windows
+req.lib: Bits.lib
+req.dll: BitsPrx2.dll
+req.irql: 
+---
+
+# IBackgroundCopyJob2::GetReplyFileName method
+
+
+## -description
+
+
+Retrieves the name of the file that contains the reply data from the server application. Call this method only if the job type is BG_JOB_TYPE_UPLOAD_REPLY.
+
+
+## -parameters
+
+
+
+
+### -param pReplyFileName [out]
+
+Null-terminated string that contains the full path to the reply file. Call the 
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms680722">CoTaskMemFree</a> function to free <i>pReplyFileName</i> when done.
+
+
+## -returns
+
+
+
+This method returns the following <b>HRESULT</b> values, as well as others.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b><b>S_OK</b></b></dt>
+</dl>
+</td>
+<td width="60%">
+Successfully retrieved the name of the file that contains the reply data.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_NOTIMPL</b></dt>
+</dl>
+</td>
+<td width="60%">
+This method is not implemented for jobs of type <b>BG_JOB_TYPE_DOWNLOAD</b> or <b>BG_JOB_TYPE_UPLOAD</b>.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+To specify a reply file name, call the 
+<a href="https://msdn.microsoft.com/9f8591a3-ecc2-497a-ac12-67e5862efde4">IBackgroundCopyJob2::SetReplyFileName</a> method. If you did not specify a name, the 
+<b>GetReplyFileName</b> method returns the name that BITS generated for you. If you did not specify a name and you called this method before adding a file to the job, <i>pReplyFileName</i> is set to <b>NULL</b>.
+
+You must call the 
+<a href="https://msdn.microsoft.com/d57b0b2e-1181-45ed-b7fc-d002d14527cf">IBackgroundCopyJob::Complete</a> method before opening and reading the reply file; the reply file is not available to the client until you call the 
+<b>Complete</b> method.
+
+The file is empty if the server application did not provide a reply.
+
+
+#### Examples
+
+For an example that uses the 
+<b>GetReplyFileName</b> method, see 
+<a href="https://msdn.microsoft.com/bab28a2c-1e2f-4b76-9dc6-57df26f7efec">Retrieving the Reply From an Upload-Reply Job</a>.
+
+<div class="code"></div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/f29df35f-48c2-4837-9809-46bd04f08bfb">IBackgroundCopyJob2::GetReplyData</a>
+
+
+
+<a href="https://msdn.microsoft.com/9f8591a3-ecc2-497a-ac12-67e5862efde4">IBackgroundCopyJob2::SetReplyFileName</a>
+ 
+
+ 
+

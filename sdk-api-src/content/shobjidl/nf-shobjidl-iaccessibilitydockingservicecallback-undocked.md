@@ -1,0 +1,84 @@
+---
+UID: NF:shobjidl.IAccessibilityDockingServiceCallback.Undocked
+title: IAccessibilityDockingServiceCallback::Undocked method
+author: windows-driver-content
+description: Undocks the accessibility window so that it will not be automatically moved to its previous location.
+old-location: com\iaccessibilitydockingservicecallback_undocked.htm
+old-project: com
+ms.assetid: 1D704794-C729-49B9-8F72-6D77D0860B03
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: IAccessibilityDockingServiceCallback, IAccessibilityDockingServiceCallback interface [COM], Undocked method, IAccessibilityDockingServiceCallback::Undocked, Undocked method [COM], Undocked method [COM], IAccessibilityDockingServiceCallback interface, Undocked,IAccessibilityDockingServiceCallback.Undocked, com.iaccessibilitydockingservicecallback_undocked, shobjidl/IAccessibilityDockingServiceCallback::Undocked
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: shobjidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: VPWATERMARKFLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	shobjidl.h
+api_name:
+-	IAccessibilityDockingServiceCallback.Undocked
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 6.01
+---
+
+# IAccessibilityDockingServiceCallback::Undocked method
+
+
+## -description
+
+
+Undocks the accessibility window so that it will not be automatically moved to its previous location.
+
+
+## -parameters
+
+
+
+
+### -param undockReason [in]
+
+Specifies the reason why the accessibility application's window was undocked.
+
+
+## -returns
+
+
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/D69C8040-AAC4-4149-ACDA-948FDBACAB48">IAccessibilityDockingServiceCallback</a>
+ 
+
+ 
+

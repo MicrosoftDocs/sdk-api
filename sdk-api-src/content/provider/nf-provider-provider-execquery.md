@@ -1,0 +1,149 @@
+---
+UID: NF:provider.Provider.ExecQuery
+title: Provider::ExecQuery method
+author: windows-driver-content
+description: The ExecQuery method is called by WMI to process a WMI Query Language (WQL) query.
+old-location: wmi\provider_execquery.htm
+old-project: WmiSdk
+ms.assetid: 94d5c8ee-2d61-42af-9a22-cc0df423b245
+ms.author: windowsdriverdev
+ms.date: 3/16/2018
+ms.keywords: ExecQuery method [Windows Management Instrumentation], ExecQuery method [Windows Management Instrumentation], Provider interface, ExecQuery,Provider.ExecQuery, Provider, Provider interface [Windows Management Instrumentation], ExecQuery method, Provider::ExecQuery, _hmm_provider_execquery, provider/Provider::ExecQuery, wmi.provider_execquery
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: provider.h
+req.include-header: FwCommon.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: PROPVAR_COMPARE_UNIT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	FrameDynOS.dll
+-	FrameDyn.dll
+api_name:
+-	Provider.ExecQuery
+product: Windows
+targetos: Windows
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# Provider::ExecQuery method
+
+
+## -description
+
+
+<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/library/windows/hardware/hh406455">Provider</a> class 
+    is part of the WMI Provider Framework which is now considered in final state, and no further development, 
+    enhancements, or updates will be available for non-security related issues affecting these libraries. The 
+    <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new 
+    development.]
+
+The <b>ExecQuery</b> method is called by WMI to process a WMI Query Language (WQL) query.
+
+
+## -parameters
+
+
+
+
+### -param pMethodContext
+
+Pointer to the context object for this call. This value contains any <a href="https://msdn.microsoft.com/458bd455-6984-414b-a0b7-62887d9dad7c">IWbemContext</a> properties specified by the client. Also, this pointer must be used as a parameter to any calls back into WMI.
+
+
+### -param cQuery
+
+
+
+
+### -param lFlags
+
+Bitmask of flags with information about the execute query operation. This is the value specified by the client in the <a href="https://msdn.microsoft.com/8cb4a42b-f8ae-4a6f-884c-fa808b11dc8a">IWbemServices::ExecQuery</a> method.
+
+The following flags are handled by (and filtered out) by WMI:
+
+<ul>
+<li><b>WBEM_FLAG_ENSURE_LOCATABLE</b></li>
+<li><b>WBEM_FLAG_FORWARD_ONLY</b></li>
+<li><b>WBEM_FLAG_BIDIRECTIONAL</b></li>
+<li><b>WBEM_FLAG_USE_AMENDED_QUALIFIERS</b></li>
+<li><b>WBEM_FLAG_RETURN_IMMEDIATELY</b></li>
+<li><b>WBEM_FLAG_PROTOTYPE</b></li>
+</ul>
+
+#### - Query [ref]
+
+Pointer to a query that has already been parsed by the provider framework.
+
+
+## -returns
+
+
+
+The default framework provider implementation of this method returns <b>WBEM_E_PROVIDER_NOT_CAPABLE</b> to the calling method. The <a href="https://msdn.microsoft.com/8cb4a42b-f8ae-4a6f-884c-fa808b11dc8a">IWbemServices::ExecQuery</a> method lists the common return values, although you can choose to return any COM return code.
+
+
+
+
+## -remarks
+
+
+
+WMI often calls <b>ExecQuery</b> in response to a client call to <a href="https://msdn.microsoft.com/8cb4a42b-f8ae-4a6f-884c-fa808b11dc8a">IWbemServices::ExecQuery</a>, where the client passes in either a list of selected properties or a WHERE clause. WMI can also call <b>ExecQuery</b> if the client query contains an "ASSOCIATORS OF" or "REFERENCES OF" statement describing your class. If your implementation of <b>ExecQuery</b> returns <b>WBEM_E_NOT_SUPPORTED</b>, the client relies on WMI to handle the query.
+
+WMI handles a query by calling your implementation of <a href="https://msdn.microsoft.com/47671b9b-a2ff-4375-b2a4-7e8599f1fb69">CreateInstanceEnum</a> to provide all the instances. WMI then filters the resulting instances before returning the instances to the client. Therefore, any implementation of <a href="https://msdn.microsoft.com/8cb4a42b-f8ae-4a6f-884c-fa808b11dc8a">ExecQuery</a> you create must be more efficient than <b>CreateInstanceEnum</b>.
+
+The following describes a common implementation of <a href="https://msdn.microsoft.com/8cb4a42b-f8ae-4a6f-884c-fa808b11dc8a">ExecQuery</a>:
+
+<ol>
+<li>Create an empty instance of your class using <a href="https://msdn.microsoft.com/cb520b55-9ef8-4f5a-935d-46c2bb01f5dd">Provider::CreateNewInstance</a>.</li>
+<li>
+Determine the subset of instances that you should create.
+
+You can use methods such as <a href="https://msdn.microsoft.com/36f5a261-435c-494d-aae5-a420eee030f2">IsPropertyRequired</a> to see what properties are required, and <a href="https://msdn.microsoft.com/b5ed4b48-f622-4a55-897d-d800ada0270f">GetValuesForProp</a> to see what instances WMI requires. Other methods that deal with requested properties include <a href="https://msdn.microsoft.com/cf02aa01-6d56-4fd7-b8f2-67b0c855e807">CFrameworkQuery::GetRequiredProperties</a>,  <a href="https://msdn.microsoft.com/5c17cae5-c68b-41a3-80ca-88d56be4ab74">CFrameworkQuery::AllPropertiesAreRequired</a>, and <a href="https://msdn.microsoft.com/977030f8-264f-4fa2-8941-e419cd28c569">CFrameworkQuery::KeysOnly</a>.
+
+</li>
+<li>Populate the properties of the empty instance using the Set methods of the <a href="https://msdn.microsoft.com/aed29340-eb64-437d-b7e8-4f0e49c8288a">CInstance</a> class, such as <a href="https://msdn.microsoft.com/d6ecbada-4eb6-40ad-9e59-ba77fd3b883a">CInstance::SetByte</a> or <a href="https://msdn.microsoft.com/dcd1e108-4914-43ea-aa41-d38d38e8954a">CInstance::SetStringArray</a>.</li>
+<li>Send the instance back to the client using <a href="https://msdn.microsoft.com/699dadf9-18b5-4c6d-a5c4-59ea8a85f089">CInstance::Commit</a>.</li>
+<li>
+Return the appropriate return values.
+
+The default <b>ExecQuery</b> framework provider implementation returns <b>WBEM_E_PROVIDER_NOT_CAPABLE</b>. If you implement <b>ExecQuery</b>, you should use the common return values listed in <a href="https://msdn.microsoft.com/8cb4a42b-f8ae-4a6f-884c-fa808b11dc8a">IWbemServices::ExecQuery</a>. If necessary, however, you can return any COM return code.
+
+</li>
+</ol>
+WMI does not send "ASSOCIATORS OF" or "REFERENCES OF" queries through to framework providers. Instead, WMI uses the schema to determine which classes are related to the class in question, and generates an appropriate WQL query to retrieve the results. Therefore, you do not need to code any additional support of "ASSOCIATORS OF" and "REFERENCES OF" queries.
+
+However, you should keep the following in mind when writing your framework provider:
+
+<ul>
+<li>Make sure you support standard queries in your association class, especially queries where the reference properties are used in a WHERE clause. For more information, see <a href="https://msdn.microsoft.com/b5ed4b48-f622-4a55-897d-d800ada0270f">CFrameworkQuery::GetValuesForProp</a>.</li>
+<li>
+In your association class support, when you check to see if the endpoints exist, ensure you use the <a href="https://msdn.microsoft.com/8ae95850-59e9-4382-b88d-c51eb3077176">CWbemProviderGlue::GetInstanceKeysByPath</a> or <a href="https://msdn.microsoft.com/d9232dc0-6df9-440d-bf7a-bf524acbe505">CWbemProviderGlue::GetInstancePropertiesByPath</a> methods.
+
+These methods allow the endpoints to skip populating  resource-intensive or unneeded properties.
+
+</li>
+<li>Make sure any association endpoint classes support per-property <b>Get</b> methods. For more information, see <a href="https://msdn.microsoft.com/bc498655-ad6d-44f5-912d-9b7ee95825ec">Supporting Partial-Instance Operations</a>. For more information about the query parameter, see <a href="https://msdn.microsoft.com/60a7d83c-cfea-41fa-8d97-321127d33c43">CFrameworkQuery</a>.</li>
+</ul>
+
+

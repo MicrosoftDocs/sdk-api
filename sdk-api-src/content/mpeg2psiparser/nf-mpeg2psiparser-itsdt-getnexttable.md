@@ -1,0 +1,121 @@
+---
+UID: NF:mpeg2psiparser.ITSDT.GetNextTable
+title: ITSDT::GetNextTable method
+author: windows-driver-content
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
+old-location: mstv\itsdt_getnexttable.htm
+old-project: mstv
+ms.assetid: 7b60647a-b668-4884-967d-044ff0d149c2
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: GetNextTable method [Microsoft TV Technologies], GetNextTable method [Microsoft TV Technologies], ITSDT interface, GetNextTable,ITSDT.GetNextTable, ITSDT, ITSDT interface [Microsoft TV Technologies], GetNextTable method, ITSDT::GetNextTable, ITSDTGetNextTable, mpeg2psiparser/ITSDT::GetNextTable, mstv.itsdt_getnexttable
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: mpeg2psiparser.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MPEG_HEADER_VERSION_BITS, *PMPEG_HEADER_VERSION_BITS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Mpeg2PsiParser.h
+api_name:
+-	ITSDT.GetNextTable
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# ITSDT::GetNextTable method
+
+
+## -description
+
+
+
+This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
+        
+
+
+
+The <b>GetNextTable</b> method retrieves the <i>next</i> table that follows the current table.
+
+
+## -parameters
+
+
+
+
+### -param ppTSDT [out]
+
+Address of a variable that receives an <b>ITSDT</b> interface pointer. The caller must release the interface.
+
+
+## -returns
+
+
+
+<table>
+<tr>
+<th>
+                  Return code
+                </th>
+<th>
+                  Description
+                </th>
+</tr>
+<tr>
+<td>E_ACCESSDENIED</td>
+<td>This table is not current.</td>
+</tr>
+<tr>
+<td>E_FAIL</td>
+<td>Failure.</td>
+</tr>
+<tr>
+<td>S_OK</td>
+<td>The method succeeded.</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+This method applies only to current tables. Otherwise, the method returns E_ACCESSDENIED.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/58ec73dc-79bd-415b-b9be-8e9246166391">ITSDT Interface</a>
+ 
+
+ 
+

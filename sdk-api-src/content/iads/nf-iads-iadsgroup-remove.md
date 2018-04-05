@@ -1,0 +1,183 @@
+---
+UID: NF:iads.IADsGroup.Remove
+title: IADsGroup::Remove method
+author: windows-driver-content
+description: The IADsGroup::Remove method removes the specified user object from this group. The operation does not remove the group object itself even when there is no member remaining in the group.
+old-location: adsi\iadsgroup_remove.htm
+old-project: ADSI
+ms.assetid: bf309f0a-1ef5-4123-91c5-ae232ddd6340
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: IADsGroup, IADsGroup interface [ADSI], Remove method, IADsGroup::Remove, Remove method [ADSI], Remove method [ADSI], IADsGroup interface, Remove,IADsGroup.Remove, _ds_iadsgroup_remove, adsi.iadsgroup__remove, adsi.iadsgroup_remove, iads/IADsGroup::Remove
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: iads.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: ADS_SD_FORMAT_ENUM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Activeds.dll
+api_name:
+-	IADsGroup.Remove
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Activeds.dll
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IADsGroup::Remove method
+
+
+## -description
+
+
+The <b>IADsGroup::Remove</b> method removes the specified user object from this group. The operation does not remove the group object itself even when there is no member remaining in the group.
+
+
+## -parameters
+
+
+
+
+### -param bstrItemToBeRemoved [in]
+
+Contains a <b>BSTR</b> that specifies the ADsPath of the object to remove from the group. For more information about this parameter, see the Remarks section.
+
+
+## -returns
+
+
+
+The following are the most common return values. For more information about return values, see <a href="https://msdn.microsoft.com/573889e4-37af-4aca-afd7-ef06bcf8aa0d">ADSI Error Codes</a>.
+
+
+
+
+## -remarks
+
+
+
+If the LDAP provider is used to bind to the <a href="https://msdn.microsoft.com/dbf0c424-e906-4a72-a369-81bf96275bbc">IADsGroup</a> object, the same form of ADsPath must be specified in the <i>bstrItemToBeRemoved</i> parameter. For example, if the ADsPath used to bind to the <b>IADsGroup</b> object includes a server, the ADsPath in the <i>bstrItemToBeRemoved</i> parameter must contain the same server prefix. Likewise, if a serverless path is used to bind to the <b>IADsGroup</b> object, the <i>bstrItemToBeRemoved</i> parameter must also contain a serverless path. The exception is when adding or removing a member using a GUID or SID ADsPath. In this case, a serverless path should always be used in <i>bstrItemToBeRemoved</i>.
+
+You can use a SID in the ADsPath to remove a security principal from the group through the WinNT provider. For example, suppose the SID of a user, "Fabrikam\jeffsmith", is S-1-5-21-35135249072896, the following statement:
+
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Dim group As IADsGroup
+group.Remove("WinNT://S-1-5-21-35135249072896")</pre>
+</td>
+</tr>
+</table></span></div>
+is equivalent to
+
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Dim group As IADsGroup
+group.Remove("WinNT://Fabrikam/jeffsmith")</pre>
+</td>
+</tr>
+</table></span></div>
+Removing a member using its SID through the WinNT provider is a new feature in Windows 2000 and the DSCLIENT package.
+
+
+#### Examples
+
+The following code example removes a user account from a group.
+
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Dim grp As IADsGroup
+On Error GoTo Cleanup
+
+Set grp = GetObject("WinNT://Fabrikam/Administrators")
+grp.Remove ("WinNT://Fabrikam/jeffsmith")
+
+Cleanup:
+    If (Err.Number&lt;&gt;0) Then
+        MsgBox("An error has occurred. " &amp; Err.Number)
+    End If
+    Set grp = Nothing</pre>
+</td>
+</tr>
+</table></span></div>
+The following code example removes a user from a group.
+
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>IADsGroup *pGroup = NULL;
+HRESULT hr = S_OK;
+LPWSTR usrPath = L"WinNT://Fabrikam/jeffsmith";
+LPWSTR grpPath = L"WinNT://Fabrikam/Administrators";
+
+hr = ADsGetObject(grpPath, IID_IADsGroup, (void**)&amp;pGroup);
+if(FAILED(hr)){goto Cleanup;}
+
+hr = pGroup-&gt;Remove(CComBSTR(usrPath));
+if(FAILED(hr)){goto Cleanup;}
+
+Cleanup:
+    if(pGroup)
+        pGroup-&gt;Release();</pre>
+</td>
+</tr>
+</table></span></div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/573889e4-37af-4aca-afd7-ef06bcf8aa0d">ADSI Error Codes</a>
+
+
+
+<a href="https://msdn.microsoft.com/dbf0c424-e906-4a72-a369-81bf96275bbc">IADsGroup</a>
+
+
+
+<a href="https://msdn.microsoft.com/a8aa88d4-4695-47bc-bf7f-a17236a5671c">IADsGroup Property Methods</a>
+
+
+
+<a href="https://msdn.microsoft.com/889e8fc1-61a6-4a3a-82ac-85d41f664149">IADsMembers</a>
+ 
+
+ 
+

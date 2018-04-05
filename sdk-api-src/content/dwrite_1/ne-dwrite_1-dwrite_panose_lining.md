@@ -1,0 +1,115 @@
+---
+UID: NE:dwrite_1.DWRITE_PANOSE_LINING
+title: DWRITE_PANOSE_LINING
+author: windows-driver-content
+description: The DWRITE_PANOSE_LINING enumeration contains values that specify the handling of the outline for the decorative typeface.
+old-location: directwrite\dwrite_panose_lining.htm
+old-project: DirectWrite
+ms.assetid: 988F14D9-9609-494C-A8DA-CAC75C30C1F5
+ms.author: windowsdriverdev
+ms.date: 3/23/2018
+ms.keywords: DWRITE_PANOSE_LINING, DWRITE_PANOSE_LINING enumeration [Direct Write], DWRITE_PANOSE_LINING_ANY, DWRITE_PANOSE_LINING_BACKDROP, DWRITE_PANOSE_LINING_ENGRAVED, DWRITE_PANOSE_LINING_INLINE, DWRITE_PANOSE_LINING_NONE, DWRITE_PANOSE_LINING_NO_FIT, DWRITE_PANOSE_LINING_OUTLINE, DWRITE_PANOSE_LINING_RELIEF, DWRITE_PANOSE_LINING_SHADOW, directwrite.dwrite_panose_lining, dwrite_1/DWRITE_PANOSE_LINING, dwrite_1/DWRITE_PANOSE_LINING_ANY, dwrite_1/DWRITE_PANOSE_LINING_BACKDROP, dwrite_1/DWRITE_PANOSE_LINING_ENGRAVED, dwrite_1/DWRITE_PANOSE_LINING_INLINE, dwrite_1/DWRITE_PANOSE_LINING_NONE, dwrite_1/DWRITE_PANOSE_LINING_NO_FIT, dwrite_1/DWRITE_PANOSE_LINING_OUTLINE, dwrite_1/DWRITE_PANOSE_LINING_RELIEF, dwrite_1/DWRITE_PANOSE_LINING_SHADOW
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: enum
+req.header: dwrite_1.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Dwrite_1.h
+api_name:
+-	DWRITE_PANOSE_LINING
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
+---
+
+# DWRITE_PANOSE_LINING enumeration
+
+
+## -description
+
+
+The <b>DWRITE_PANOSE_LINING</b> enumeration contains values that specify the handling of the outline for the decorative typeface.
+
+
+## -enum-fields
+
+
+
+
+### -field DWRITE_PANOSE_LINING_ANY
+
+Any lining.
+
+
+### -field DWRITE_PANOSE_LINING_NO_FIT
+
+No fit for lining.
+
+
+### -field DWRITE_PANOSE_LINING_NONE
+
+No lining.
+
+
+### -field DWRITE_PANOSE_LINING_INLINE
+
+The lining is inline.
+
+
+### -field DWRITE_PANOSE_LINING_OUTLINE
+
+The lining is outline.
+
+
+### -field DWRITE_PANOSE_LINING_ENGRAVED
+
+The lining is engraved.
+
+
+### -field DWRITE_PANOSE_LINING_SHADOW
+
+The lining is shadowed.
+
+
+### -field DWRITE_PANOSE_LINING_RELIEF
+
+The lining is relief.
+
+
+### -field DWRITE_PANOSE_LINING_BACKDROP
+
+The lining is backdrop.
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/B65B4C8E-1CA0-47AC-AA3F-8F2EACC5C11A">DWRITE_PANOSE</a>
+ 
+
+ 
+

@@ -1,0 +1,77 @@
+---
+UID: NF:propsys.IPersistSerializedPropStorage2.GetPropertyStorageSize
+title: IPersistSerializedPropStorage2::GetPropertyStorageSize method
+author: windows-driver-content
+description: Gets the size of serialized property storage data from the property store instance.
+old-location: shell\IPersistSerializedPropStorage2_GetPropertyStorageSize.htm
+old-project: shell
+ms.assetid: 90fe3148-457e-4d29-a117-b0b0e0df92c4
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: GetPropertyStorageSize method [Windows Shell], GetPropertyStorageSize method [Windows Shell], IPersistSerializedPropStorage2 interface, GetPropertyStorageSize,IPersistSerializedPropStorage2.GetPropertyStorageSize, IPersistSerializedPropStorage2, IPersistSerializedPropStorage2 interface [Windows Shell], GetPropertyStorageSize method, IPersistSerializedPropStorage2::GetPropertyStorageSize, _shell_IPersistSerializedPropStorage2_GetPropertyStorageSize, propsys/IPersistSerializedPropStorage2::GetPropertyStorageSize, shell.IPersistSerializedPropStorage2_GetPropertyStorageSize
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: propsys.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Propsys.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: PSC_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Propsys.h
+api_name:
+-	IPersistSerializedPropStorage2.GetPropertyStorageSize
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# IPersistSerializedPropStorage2::GetPropertyStorageSize method
+
+
+## -description
+
+
+Gets the size of serialized property storage data from the property store instance.
+
+
+## -parameters
+
+
+
+
+### -param pcb [out]
+
+Type: <b>DWORD*</b>
+
+The count of bytes contained in the serialized property storage data.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+

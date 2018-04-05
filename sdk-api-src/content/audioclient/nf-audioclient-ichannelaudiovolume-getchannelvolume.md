@@ -1,0 +1,164 @@
+---
+UID: NF:audioclient.IChannelAudioVolume.GetChannelVolume
+title: IChannelAudioVolume::GetChannelVolume method
+author: windows-driver-content
+description: The GetChannelVolume method retrieves the volume level for the specified channel in the audio session.
+old-location: coreaudio\ichannelaudiovolume_getchannelvolume.htm
+old-project: CoreAudio
+ms.assetid: adc871ff-fb77-4d72-b33b-a2773bed2569
+ms.author: windowsdriverdev
+ms.date: 3/30/2018
+ms.keywords: GetChannelVolume method [Core Audio], GetChannelVolume method [Core Audio], IChannelAudioVolume interface, GetChannelVolume,IChannelAudioVolume.GetChannelVolume, IChannelAudioVolume, IChannelAudioVolume interface [Core Audio], GetChannelVolume method, IChannelAudioVolume::GetChannelVolume, IChannelAudioVolumeGetChannelVolume, audioclient/IChannelAudioVolume::GetChannelVolume, coreaudio.ichannelaudiovolume_getchannelvolume
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: audioclient.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Audioclient.h
+api_name:
+-	IChannelAudioVolume.GetChannelVolume
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# IChannelAudioVolume::GetChannelVolume method
+
+
+## -description
+
+
+
+The <b>GetChannelVolume</b> method retrieves the volume level for the specified channel in the audio session.
+
+
+
+
+## -parameters
+
+
+
+
+### -param dwIndex [in]
+
+The channel number. If the stream format for the audio session has <i>N</i> channels, then the channels are numbered from 0 to <i>N</i>– 1. To get the number of channels, call the <a href="https://msdn.microsoft.com/e3149d02-b0a2-4bdd-af04-b94b063c784b">IChannelAudioVolume::GetChannelCount</a> method.
+
+
+### -param pfLevel [out]
+
+Pointer to a <b>float</b> variable into which the method writes the volume level of the specified channel. The volume level is in the range 0.0 to 1.0.
+
+
+## -returns
+
+
+
+If the method succeeds, it returns S_OK. If it fails, possible return codes include, but are not limited to, the values shown in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+Parameter <i>dwIndex</i> is set to an invalid channel number.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_POINTER</b></dt>
+</dl>
+</td>
+<td width="60%">
+Parameter <i>pfLevel</i> is <b>NULL</b>.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>AUDCLNT_E_DEVICE_INVALIDATED</b></dt>
+</dl>
+</td>
+<td width="60%">
+The audio endpoint device has been unplugged, or the audio hardware or associated hardware resources have been reconfigured, disabled, removed, or otherwise made unavailable for use.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>AUDCLNT_E_SERVICE_NOT_RUNNING</b></dt>
+</dl>
+</td>
+<td width="60%">
+The Windows audio service is not running.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+Clients can call the <a href="https://msdn.microsoft.com/9081e814-d0b2-4b0e-9e4c-3590058e7196">IChannelAudioVolume::SetAllVolumes</a> or <a href="https://msdn.microsoft.com/b7baeebf-01d3-4dec-a674-73a84bbf7a66">IChannelAudioVolume::SetChannelVolume</a> method to set the per-channel volume levels in an audio session.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/0d0a20dc-5e5a-49a7-adc9-20aacb88368a">IChannelAudioVolume Interface</a>
+
+
+
+<a href="https://msdn.microsoft.com/e3149d02-b0a2-4bdd-af04-b94b063c784b">IChannelAudioVolume::GetChannelCount</a>
+
+
+
+<a href="https://msdn.microsoft.com/9081e814-d0b2-4b0e-9e4c-3590058e7196">IChannelAudioVolume::SetAllVolumes</a>
+
+
+
+<a href="https://msdn.microsoft.com/b7baeebf-01d3-4dec-a674-73a84bbf7a66">IChannelAudioVolume::SetChannelVolume</a>
+ 
+
+ 
+

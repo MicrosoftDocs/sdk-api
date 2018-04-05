@@ -1,0 +1,69 @@
+---
+UID: NE:wincodec.WICPngGamaProperties
+title: WICPngGamaProperties
+author: windows-driver-content
+description: Specifies the Portable Network Graphics (PNG) gAMA chunk metadata properties.
+old-location: wic\_wic_codec_wicpnggamaproperties.htm
+old-project: wic
+ms.assetid: c70a3507-d598-4e33-872b-353389b19351
+ms.author: windowsdriverdev
+ms.date: 3/28/2018
+ms.keywords: WICPngGamaGamma, WICPngGamaProperties, WICPngGamaProperties enumeration [Windows Imaging Component], _wic_codec_wicpnggamaproperties, wic._wic_codec_wicpnggamaproperties, wincodec/WICPngGamaGamma, wincodec/WICPngGamaProperties
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: enum
+req.header: wincodec.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Wincodec.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WICPngGamaProperties
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wincodec.h
+api_name:
+-	WICPngGamaProperties
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# WICPngGamaProperties enumeration
+
+
+## -description
+
+
+Specifies the Portable Network Graphics (PNG) gAMA chunk metadata properties.
+
+
+## -enum-fields
+
+
+
+
+### -field WICPngGamaGamma
+
+[VT_UI4] Indicates the gamma value.
+
+
+### -field WICPngGamaProperties_FORCE_DWORD
+
+
+

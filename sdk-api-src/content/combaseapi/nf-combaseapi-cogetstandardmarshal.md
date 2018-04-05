@@ -1,0 +1,167 @@
+---
+UID: NF:combaseapi.CoGetStandardMarshal
+title: CoGetStandardMarshal function
+author: windows-driver-content
+description: Creates a default, or standard, marshaling object in either the client process or the server process, depending on the caller, and returns a pointer to that object's IMarshal implementation.
+old-location: com\cogetstandardmarshal.htm
+old-project: com
+ms.assetid: 0cb74adc-e192-4ae5-9267-02c79e301681
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: CoGetStandardMarshal, CoGetStandardMarshal function [COM], _com_CoGetStandardMarshal, com.cogetstandardmarshal, combaseapi/CoGetStandardMarshal
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: combaseapi.h
+req.include-header: Objbase.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: REGCLS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Ole32.dll
+-	API-MS-Win-Core-Com-l1-1-0.dll
+-	ComBase.dll
+-	API-MS-Win-Core-Com-l1-1-1.dll
+-	API-MS-Win-DownLevel-Ole32-l1-1-1.dll
+api_name:
+-	CoGetStandardMarshal
+product: Windows
+targetos: Windows
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
+---
+
+# CoGetStandardMarshal function
+
+
+## -description
+
+
+Creates a default, or standard, marshaling object in either the client process or the server process, depending on the caller, and returns a pointer to that object's <a href="https://msdn.microsoft.com/e6f08949-f27d-4aba-adff-eaf9c356a928">IMarshal</a> implementation.
+
+
+
+
+## -parameters
+
+
+
+
+### -param riid [in]
+
+A reference to the identifier of the interface whose pointer is to be marshaled. This interface must be derived from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface.
+
+
+### -param pUnk [in]
+
+A pointer to the interface to be marshaled.
+
+
+### -param dwDestContext [in]
+
+The destination context where the specified interface is to be unmarshaled. Values come from the enumeration <a href="https://msdn.microsoft.com/d7d09ab2-96e7-48da-9292-0e4ca6cebe64">MSHCTX</a>. Unmarshaling can occur either in another apartment of the current process (MSHCTX_INPROC) or in another process on the same computer as the current process (MSHCTX_LOCAL).
+
+
+### -param pvDestContext [in, optional]
+
+This parameter is reserved and must be <b>NULL</b>.
+
+
+### -param mshlflags [in]
+
+Indicates whether the data to be marshaled is to be transmitted back to the client process (the normal case) or written to a global table where it can be retrieved by multiple clients. Values come from the <a href="https://msdn.microsoft.com/42a482be-d4b8-4f2e-ae43-1d210cb44c7c">MSHLFLAGS</a> enumeration.
+
+
+### -param ppMarshal [out]
+
+The address of <b>IMarshal*</b> pointer variable that receives the interface pointer to the standard marshaler.
+
+
+## -returns
+
+
+
+This function can return the standard return values E_FAIL, E_OUTOFMEMORY, and E_UNEXPECTED, as well as the following values.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The <a href="https://msdn.microsoft.com/e6f08949-f27d-4aba-adff-eaf9c356a928">IMarshal</a> instance was returned successfully.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>CO_E_NOTINITIALIZED</b></dt>
+</dl>
+</td>
+<td width="60%">
+Before this function can be called, the <a href="https://msdn.microsoft.com/0f171cf4-87b9-43a6-97f2-80ed344fe376">CoInitialize</a> or <a href="https://msdn.microsoft.com/9a13e7a0-f2e2-466b-98f5-38d5972fa391">OleInitialize</a> function must be called on the current thread.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+The <b>CoGetStandardMarshal</b> function creates a default, or standard, marshaling object in either the client process or the server process, as may be necessary, and returns that object's <a href="https://msdn.microsoft.com/e6f08949-f27d-4aba-adff-eaf9c356a928">IMarshal</a> pointer to the caller. If you implement <b>IMarshal</b>, you may want your implementation to call <b>CoGetStandardMarshal</b> as a way of delegating to COM's default implementation any destination contexts that you do not fully understand or want to handle. Otherwise, you can ignore this function, which COM calls as part of its internal marshaling procedures.
+
+When the COM library in the client process receives a marshaled interface pointer, it looks for a CLSID to be used in creating a proxy for the purposes of unmarshaling the packet. If the packet does not contain a CLSID for the proxy, COM calls <b>CoGetStandardMarshal</b>, passing a <b>NULL</b><i>pUnk</i> value. This function creates a standard proxy in the client process and returns a pointer to that proxy's implementation of <a href="https://msdn.microsoft.com/e6f08949-f27d-4aba-adff-eaf9c356a928">IMarshal</a>. COM uses this pointer to call <a href="https://msdn.microsoft.com/d0eac0da-2f41-40c4-b756-31bc22752c17">CoUnmarshalInterface</a> to retrieve the pointer to the requested interface.
+
+If your OLE server application's implementation of <a href="https://msdn.microsoft.com/e6f08949-f27d-4aba-adff-eaf9c356a928">IMarshal</a> calls <b>CoGetStandardMarshal</b>, you should pass both the IID of (<i>riid</i>), and a pointer to (<i>pUnk</i>), the interface being requested.
+
+
+
+This function performs the following tasks: 
+
+<ol>
+<li>Determines whether pUnk is <b>NULL</b>.</li>
+<li>If <i>pUnk</i> is <b>NULL</b>, creates a standard interface proxy in the client process for the specified <i>riid</i> and returns the proxy's <a href="https://msdn.microsoft.com/e6f08949-f27d-4aba-adff-eaf9c356a928">IMarshal</a> pointer.
+</li>
+<li>If <i>pUnk</i> is not <b>NULL</b>, checks to see if a marshaler for the object already exists, creates a new one if necessary, and returns the marshaler's <a href="https://msdn.microsoft.com/e6f08949-f27d-4aba-adff-eaf9c356a928">IMarshal</a> pointer.</li>
+</ol>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/e6f08949-f27d-4aba-adff-eaf9c356a928">IMarshal</a>
+ 
+
+ 
+

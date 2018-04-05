@@ -1,0 +1,84 @@
+---
+UID: NF:audioengineendpoint.IAudioEndpoint.GetFramesPerPacket
+title: IAudioEndpoint::GetFramesPerPacket method
+author: windows-driver-content
+description: Gets the maximum number of frames per packet that the audio endpoint can support, based on the endpoint's period and the sample rate.
+old-location: termserv\iaudioendpoint_getframesperpacket.htm
+old-project: TermServ
+ms.assetid: b9e47262-9e6f-4ddf-a74a-b7fa63983a5a
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: GetFramesPerPacket method [Remote Desktop Services], GetFramesPerPacket method [Remote Desktop Services], IAudioEndpoint interface, GetFramesPerPacket,IAudioEndpoint.GetFramesPerPacket, IAudioEndpoint, IAudioEndpoint interface [Remote Desktop Services], GetFramesPerPacket method, IAudioEndpoint::GetFramesPerPacket, audioengineendpoint/IAudioEndpoint::GetFramesPerPacket, termserv.iaudioendpoint_getframesperpacket
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: audioengineendpoint.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7
+req.target-min-winversvr: Windows Server 2008 R2
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: AE_POSITION_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Audioengineendpoint.h
+api_name:
+-	IAudioEndpoint.GetFramesPerPacket
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# IAudioEndpoint::GetFramesPerPacket method
+
+
+## -description
+
+
+
+        The <b>GetFramesPerPacket</b> method gets the maximum number of frames per packet that the audio endpoint can support, based on the endpoint's period and the sample rate.
+
+
+## -parameters
+
+
+
+
+### -param pFramesPerPacket [out]
+
+Receives the maximum number of frames per packet  that the endpoint can support.
+
+
+## -returns
+
+
+
+If the method succeeds, it returns <b>S_OK</b>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/a1bb3fe4-6051-4b9c-8270-70375e700f01">IAudioEndpoint</a>
+ 
+
+ 
+

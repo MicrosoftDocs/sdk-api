@@ -1,0 +1,106 @@
+---
+UID: NF:msctf.ITfContextComposition.TakeOwnership
+title: ITfContextComposition::TakeOwnership method
+author: windows-driver-content
+description: ITfContextComposition::TakeOwnership method
+old-location: tsf\itfcontextcomposition_takeownership.htm
+old-project: TSF
+ms.assetid: 54182932-f749-4de0-a536-0f2f29d7664c
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: ITfContextComposition, ITfContextComposition interface [Text Services Framework], TakeOwnership method, ITfContextComposition::TakeOwnership, TakeOwnership method [Text Services Framework], TakeOwnership method [Text Services Framework], ITfContextComposition interface, TakeOwnership,ITfContextComposition.TakeOwnership, _tsf_itfcontextcomposition_takeownership_ref, msctf/ITfContextComposition::TakeOwnership, tsf.itfcontextcomposition_takeownership
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: msctf.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Msctf.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: TF_DA_ATTR_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Msctf.dll
+api_name:
+-	ITfContextComposition.TakeOwnership
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# ITfContextComposition::TakeOwnership method
+
+
+## -description
+
+
+
+
+## -parameters
+
+
+
+
+### -param ecWrite [in]
+
+Not used.
+
+
+### -param pComposition [in]
+
+Not used.
+
+
+### -param pSink [in]
+
+Not used.
+
+
+### -param ppComposition [out]
+
+Not used.
+
+
+## -returns
+
+
+
+This method can return one of these values.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_NOTIMPL</b></dt>
+</dl>
+</td>
+<td width="60%">
+This method is not currently implemented.
+
+</td>
+</tr>
+</table>
+ 
+
+
+

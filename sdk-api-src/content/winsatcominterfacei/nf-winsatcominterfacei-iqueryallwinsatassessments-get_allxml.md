@@ -1,0 +1,216 @@
+---
+UID: NF:winsatcominterfacei.IQueryAllWinSATAssessments.get_AllXML
+title: IQueryAllWinSATAssessments::get_AllXML method
+author: windows-driver-content
+description: Retrieves data from the formal XML assessment documents using the specified XPath. The query is run against all formal assessments in the WinSAT data store.
+old-location: winsat\iqueryallwinsatassessments_allxml.htm
+old-project: WinSAT
+ms.assetid: a43aee18-642f-44d9-a116-ffc762cec80a
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: AllXML property [WinSAT], AllXML property [WinSAT], IQueryAllWinSATAssessments interface, IQueryAllWinSATAssessments, IQueryAllWinSATAssessments interface [WinSAT], AllXML property, IQueryAllWinSATAssessments.AllXML, IQueryAllWinSATAssessments::get_AllXML, get_AllXML,IQueryAllWinSATAssessments.get_AllXML, winsat.iqueryallwinsatassessments_allxml, winsatcominterfacei/IQueryAllWinSATAssessments::AllXML, winsatcominterfacei/IQueryAllWinSATAssessments::get_AllXML
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: winsatcominterfacei.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: None supported
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WINSAT_BITMAP_SIZE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Winsatapi.dll
+api_name:
+-	IQueryAllWinSATAssessments.AllXML
+-	IQueryAllWinSATAssessments.get_AllXML
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Winsatapi.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IQueryAllWinSATAssessments::get_AllXML method
+
+
+## -description
+
+
+<p class="CCE_Message">[IQueryAllWinSATAssessments::AllXML may be altered or unavailable for releases after Windows 8.1.]
+
+Retrieves data from the formal XML assessment documents using the specified XPath. The query is run against all formal assessments in the WinSAT data store.
+
+This property is read-only.
+
+
+## -parameters
+
+
+## -remarks
+
+
+
+You can use this method to retrieve details of the assessment that are not available in the summary information provided through the API. For details about all the information available in an assessment, see the <a href="https://msdn.microsoft.com/da497f3b-f5a2-401e-8230-937362ecf4f2">WinSAT Schema</a>.
+
+The first formal assessment is run when you initially set up your computer. The initial assessment will remain in the data store for the life of the data store. The WinSAT data store can contain up to 100 formal assessments. When the store reaches capacity, WinSAT will delete the oldest assessment (but not the initial assessment) in the data store for each new formal assessment that is run.
+
+The WinSAT data store contains only formal assessments. If you want to retrieve assessment data from ad hoc assessments, you must save the results to an XML file when you run the assessment (see the <b>-xml</b> command-line argument for details). You can then use the members of the <b>IXMLDOMDocument2</b> interface to query data from the ad hoc assessment.
+
+The order in which the assessments are returned is arbitrary.
+
+
+#### Examples
+
+The following example shows how to use an XPath query to get data from each of the formal assessments in the assessment store.
+
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;comutil.h&gt;
+#include &lt;winsatcominterfacei.h&gt;
+
+#pragma comment(lib, "comsupp.lib") // For _bstr_t
+
+void main(void)
+{
+    HRESULT hr = S_OK;
+    IQueryAllWinSATAssessments* pAssessment;
+    IXMLDOMNodeList* pNodes = NULL;
+    IXMLDOMNode* pMemory = NULL;
+    IXMLDOMNode* pNode = NULL;
+    _bstr_t bstrXPath = L"WinsatAssessments/WinSAT/SystemConfig/Memory";
+    _bstr_t bstrAvailableRAM;
+    _bstr_t bstrTotalRAM;
+
+    hr = CoInitializeEx(NULL, COINIT_APARTMENTTHREADED);
+
+    // Get an instance to the most recent formal assessmenet.
+    hr = CoCreateInstance(__uuidof(CQueryAllWinSAT),
+        NULL,
+        CLSCTX_INPROC_SERVER,
+        __uuidof(IQueryAllWinSATAssessments),
+        (void**)&amp;pAssessment);
+
+    if (FAILED(hr))
+    {
+        wprintf(L"Failed to create an instance of IQueryAllWinSATAssessments. Failed with 0x%x.\n", hr);
+        goto cleanup;
+    }
+
+    // Query the assessmenets for the memory nodes.
+    hr = pAssessment-&gt;get_AllXML(bstrXPath, NULL, &amp;pNodes);
+    if (FAILED(hr))
+    {
+        wprintf(L"pAssessment-&gt;get_XML failed with 0x%x.\n", hr);
+        goto cleanup;
+    }
+
+    hr = pNodes-&gt;nextNode(&amp;pMemory);
+
+    // Loop through the memory nodes and get available and total memory size
+    // values and print them.
+    while (pMemory)
+    {
+        hr = pMemory-&gt;selectSingleNode(L"TotalPhysical/Size", &amp;pNode);
+        if (FAILED(hr))
+        {
+            wprintf(L"pMemory-&gt;selectSingleNode(TotalPhysical/Size) failed with 0x%x.\n", hr);
+            goto cleanup;
+        }
+
+        hr = pNode-&gt;get_text(bstrTotalRAM.GetAddress());
+        if (FAILED(hr))
+        {
+            wprintf(L"pNode-&gt;get_text(bstrTotalRAM) failed with 0x%x.\n", hr);
+            goto cleanup;
+        }
+
+        pNode-&gt;Release();
+        pNode = NULL;
+
+        hr = pMemory-&gt;selectSingleNode(L"AvailablePhysical/Size", &amp;pNode);
+        if (FAILED(hr))
+        {
+            wprintf(L"pMemory-&gt;selectSingleNode(AvailablePhysical/Size) failed with 0x%x.\n", hr);
+            goto cleanup;
+        }
+
+        hr = pNode-&gt;get_text(bstrAvailableRAM.GetAddress());
+        if (FAILED(hr))
+        {
+            wprintf(L"pNode-&gt;get_text(bstrAvailableRAM) failed with 0x%x.\n", hr);
+            goto cleanup;
+        }
+
+        pNode-&gt;Release();
+        pNode = NULL;
+
+        wprintf(L"Available RAM: %s of %s\n", bstrAvailableRAM.GetBSTR(), bstrTotalRAM.GetBSTR());
+
+        pMemory-&gt;Release();
+        pMemory = NULL;
+
+        hr = pNodes-&gt;nextNode(&amp;pMemory);
+    }
+
+cleanup:
+
+    if (pAssessment)
+        pAssessment-&gt;Release();
+
+    if (pNodes)
+        pNodes-&gt;Release();
+
+    if (pMemory)
+        pMemory-&gt;Release();
+
+    if (pNode)
+        pNode-&gt;Release();
+
+    CoUninitialize();
+}
+</pre>
+</td>
+</tr>
+</table></span></div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/0b299477-50a4-4f61-a0e5-fdbae239503b">IInitiateWinSATAssessment</a>
+
+
+
+<a href="https://msdn.microsoft.com/b78cfaf1-0fce-449c-96f5-76d318f30384">IQueryAllWinSATAssessments</a>
+
+
+
+<a href="https://msdn.microsoft.com/f8a1c664-bea3-4505-bcf0-2b8715dbe7dd">IQueryRecentWinSATAssessment::XML</a>
+ 
+
+ 
+

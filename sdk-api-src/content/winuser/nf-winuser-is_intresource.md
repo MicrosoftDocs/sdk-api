@@ -1,0 +1,93 @@
+---
+UID: NF:winuser.IS_INTRESOURCE
+title: IS_INTRESOURCE macro
+author: windows-driver-content
+description: Determines whether a value is an integer identifier for a resource.
+old-location: menurc\is_intresource.htm
+old-project: menurc
+ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcemacros\is_intresource.htm
+ms.author: windowsdriverdev
+ms.date: 3/29/2018
+ms.keywords: IS_INTRESOURCE, IS_INTRESOURCE macro [Menus and Other Resources], _win32_IS_INTRESOURCE, _win32_is_intresource_cpp, menurc.is_intresource, winui._win32_is_intresource, winuser/IS_INTRESOURCE
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: macro
+req.header: winuser.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: AR_STATE, *PAR_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winuser.h
+api_name:
+-	IS_INTRESOURCE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IS_INTRESOURCE macro
+
+
+## -description
+
+
+Determines whether a value is an integer identifier for a resource. 
+
+
+## -parameters
+
+
+
+
+### -param _r
+
+TBD
+
+
+
+
+
+
+#### - p
+
+The pointer to be tested whether it contains an integer resource identifier. 
+
+
+## -remarks
+
+
+
+This macro checks whether all bits except the least 16 bits are zero. When true, <i>p</i> is an integer identifier for a resource. Otherwise it is typically a pointer to a string.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/ff321356-c999-4021-a537-fbe863996e24">Resources Overview</a>
+ 
+
+ 
+

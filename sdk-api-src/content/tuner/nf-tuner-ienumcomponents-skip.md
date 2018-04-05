@@ -1,0 +1,87 @@
+---
+UID: NF:tuner.IEnumComponents.Skip
+title: IEnumComponents::Skip method
+author: windows-driver-content
+description: The Skip method skips the specified element in the collection without retrieving it.
+old-location: mstv\ienumcomponents_skip.htm
+old-project: mstv
+ms.assetid: f63eca00-c47c-4b9f-8f7a-7080c23653ce
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: IEnumComponents, IEnumComponents interface [Microsoft TV Technologies], Skip method, IEnumComponents::Skip, IEnumComponentsSkip, Skip method [Microsoft TV Technologies], Skip method [Microsoft TV Technologies], IEnumComponents interface, Skip,IEnumComponents.Skip, mstv.ienumcomponents_skip, tuner/IEnumComponents::Skip
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: tuner.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: None supported
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Tuner.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	tuner.h
+api_name:
+-	IEnumComponents.Skip
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# IEnumComponents::Skip method
+
+
+## -description
+
+
+
+The <b>Skip</b> method skips the specified element in the collection without retrieving it.
+
+
+
+
+## -parameters
+
+
+
+
+### -param celt [in]
+
+Specifies the element to skip.
+
+
+## -returns
+
+
+
+Returns S_OK if successful. If the method fails, error information can be retrieved using the standard COM <b>IErrorInfo</b> interface.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/8811021c-8c14-4be6-8802-76b942bb34d8">IEnumComponents Interface</a>
+ 
+
+ 
+

@@ -1,0 +1,208 @@
+---
+UID: NS:wincrypt._CERT_PHYSICAL_STORE_INFO
+title: "_CERT_PHYSICAL_STORE_INFO"
+author: windows-driver-content
+description: Contains information on physical certificate stores.
+old-location: security\cert_physical_store_info.htm
+old-project: SecCrypto
+ms.assetid: ad86f388-27af-442a-a76f-f386f66296ac
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: "*PCERT_PHYSICAL_STORE_INFO, CERT_PHYSICAL_STORE_ADD_ENABLE_FLAG, CERT_PHYSICAL_STORE_INFO, CERT_PHYSICAL_STORE_INFO structure [Security], CERT_PHYSICAL_STORE_INSERT_COMPUTER_NAME_ENABLE_FLAG, CERT_PHYSICAL_STORE_OPEN_DISABLE_FLAG, CERT_PHYSICAL_STORE_REMOTE_OPEN_DISABLE_FLAG, CERT_SYSTEM_STORE_RELOCATE_FLAG, PCERT_PHYSICAL_STORE_INFO, PCERT_PHYSICAL_STORE_INFO structure pointer [Security], _CERT_PHYSICAL_STORE_INFO, _crypto2_cert_physical_store_info, security.cert_physical_store_info, wincrypt/CERT_PHYSICAL_STORE_INFO, wincrypt/PCERT_PHYSICAL_STORE_INFO"
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: struct
+req.header: wincrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: CERT_PHYSICAL_STORE_INFO, *PCERT_PHYSICAL_STORE_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wincrypt.h
+api_name:
+-	CERT_PHYSICAL_STORE_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# _CERT_PHYSICAL_STORE_INFO structure
+
+
+## -description
+
+
+
+			The <b>CERT_PHYSICAL_STORE_INFO</b> structure contains information on physical <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate stores</a>. Some members of these structures are passed directly to system calls of 
+<a href="https://msdn.microsoft.com/4edccbfe-c0a8-442b-b6b7-51ef598e7c90">CertOpenStore</a> to open the physical store.
+
+
+## -struct-fields
+
+
+
+
+### -field cbSize
+
+The size, in bytes, of this structure.
+
+
+### -field pszOpenStoreProvider
+
+A pointer to a string that names a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate store</a> provider type. This string is passed in a system call to <a href="https://msdn.microsoft.com/4edccbfe-c0a8-442b-b6b7-51ef598e7c90">CertOpenStore</a> and determines the provider type of a certificate store to be opened. For the names of predefined certificate store types, see 
+<b>CertOpenStore</b>. 
+
+
+
+
+In addition to predefined certificate store provider types, new store provider types can be installed and registered with 
+<a href="https://msdn.microsoft.com/934e8278-0e0b-4402-a2b6-ff1e913d54c9">CryptInstallOIDFunctionAddress</a> or 
+<a href="https://msdn.microsoft.com/b625597d-28fd-4a40-afbe-a09201d36512">CryptRegisterOIDFunction</a>. For more information, see 
+<a href="https://msdn.microsoft.com/e5c7c882-cbfc-4343-952c-b13c67326756">CertOpenStore</a>.
+
+
+### -field dwOpenEncodingType
+
+This member is applicable only when CERT_STORE_PROV_MSG, CERT_STORE_PROV_PKCS7, or CERT_STORE_PROV_FILENAME is passed in <i>lpszStoreProvider</i>. Otherwise, this member is not used. 
+
+
+
+
+It is always acceptable to specify both the certificate and <a href="https://msdn.microsoft.com/4c4402e9-7455-4868-978f-3899a8fd86c1">message encoding types</a> by combining them with a bitwise-<b>OR</b> operation as shown in the following example:
+
+X509_ASN_ENCODING | PKCS_7_ASN_ENCODING Currently defined encoding types are:
+
+<ul>
+<li>X509_ASN_ENCODING</li>
+<li>PKCS_7_ASN_ENCODING</li>
+</ul>
+
+
+
+### -field dwOpenFlags
+
+If a system store is opened with the SERVICES or USERS store location, the <b>dwOpenFlags</b> store location is set to CERT_SYSTEM_STORE_USERS or CERT_SYSTEM_STORE_SERVICES.
+
+
+### -field OpenParameters
+
+A <a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CRYPT_DATA_BLOB</a> that contains data to be passed to the <i>pvPara</i> parameter of the <a href="https://msdn.microsoft.com/4edccbfe-c0a8-442b-b6b7-51ef598e7c90">CertOpenStore</a> function. The data type depends on the provider specified. For detailed information about the type and content to be passed, see descriptions of available providers in 
+<b>CertOpenStore</b>.
+
+
+### -field dwFlags
+
+The following <b>dwFlags</b> values for CERT_PHYSICAL_STORE_INFO are defined.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="CERT_PHYSICAL_STORE_ADD_ENABLE_FLAG"></a><a id="cert_physical_store_add_enable_flag"></a><dl>
+<dt><b>CERT_PHYSICAL_STORE_ADD_ENABLE_FLAG</b></dt>
+</dl>
+</td>
+<td width="60%">
+Enables addition to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">context</a> to the store.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="CERT_PHYSICAL_STORE_OPEN_DISABLE_FLAG"></a><a id="cert_physical_store_open_disable_flag"></a><dl>
+<dt><b>CERT_PHYSICAL_STORE_OPEN_DISABLE_FLAG</b></dt>
+</dl>
+</td>
+<td width="60%">
+Set by 
+the <a href="https://msdn.microsoft.com/e301c76d-cacd-441a-b925-754b07e4bfa9">CertRegisterPhysicalStore</a> function. By default, all system stores located in the registry have an implicit SystemRegistry physical store that is opened. To disable the opening of this store, the SystemRegistry physical store that corresponds to the System store must be registered by setting CERT_PHYSICAL_STORE_OPEN_DISABLE_FLAG or by registering a physical store named ".Default" with 
+<b>CertRegisterPhysicalStore</b>.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="CERT_PHYSICAL_STORE_REMOTE_OPEN_DISABLE_FLAG"></a><a id="cert_physical_store_remote_open_disable_flag"></a><dl>
+<dt><b>CERT_PHYSICAL_STORE_REMOTE_OPEN_DISABLE_FLAG</b></dt>
+</dl>
+</td>
+<td width="60%">
+Disables remote opening of the physical store.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="CERT_PHYSICAL_STORE_INSERT_COMPUTER_NAME_ENABLE_FLAG"></a><a id="cert_physical_store_insert_computer_name_enable_flag"></a><dl>
+<dt><b>CERT_PHYSICAL_STORE_INSERT_COMPUTER_NAME_ENABLE_FLAG</b></dt>
+</dl>
+</td>
+<td width="60%">
+Places the string \\ComputerName in front of other provider types.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="CERT_SYSTEM_STORE_RELOCATE_FLAG"></a><a id="cert_system_store_relocate_flag"></a><dl>
+<dt><b>CERT_SYSTEM_STORE_RELOCATE_FLAG</b></dt>
+</dl>
+</td>
+<td width="60%">
+Enables <a href="https://msdn.microsoft.com/4edccbfe-c0a8-442b-b6b7-51ef598e7c90">CertOpenStore</a> to open a store relative to a user-specified HKEY instead of one of the predefined HKEY constants. For example, HKEY_CURRENT_USER can be replaced with a user-specified HKEY. When CERT_SYSTEM_STORE_RELOCATE_FLAG is set, the <i>pvPara</i> parameter passed to <b>CertOpenStore</b> points to a 
+<a href="https://msdn.microsoft.com/3bcb9b64-b9cf-48b2-bfd1-0836b3d221af">CERT_SYSTEM_STORE_RELOCATE_PARA</a> structure instead of pointing to the store name as a null-terminated <a href="https://msdn.microsoft.com/264f6cb6-36c6-4cdb-b7bb-a5dbd332adcb">Unicode</a> or <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">ASCII</a> string.
+
+</td>
+</tr>
+</table>
+ 
+
+
+### -field dwPriority
+
+When a system store is opened, its physical stores are ordered according to their <b>dwPriority</b> settings. A higher <b>dwPriority</b> indicates higher priority. The <b>dwPriority</b> member is passed to 
+<a href="https://msdn.microsoft.com/ea848d74-c3ec-4166-90ea-121b33f7f318">CertAddStoreToCollection</a>.
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/ea848d74-c3ec-4166-90ea-121b33f7f318">CertAddStoreToCollection</a>
+
+
+
+<a href="https://msdn.microsoft.com/4edccbfe-c0a8-442b-b6b7-51ef598e7c90">CertOpenStore</a>
+
+
+
+<a href="https://msdn.microsoft.com/e301c76d-cacd-441a-b925-754b07e4bfa9">CertRegisterPhysicalStore</a>
+
+
+
+<a href="https://msdn.microsoft.com/934e8278-0e0b-4402-a2b6-ff1e913d54c9">CryptInstallOIDFunctionAddress</a>
+
+
+
+<a href="https://msdn.microsoft.com/b625597d-28fd-4a40-afbe-a09201d36512">CryptRegisterOIDFunction</a>
+ 
+
+ 
+

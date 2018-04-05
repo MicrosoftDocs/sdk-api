@@ -1,0 +1,87 @@
+---
+UID: NF:instance.CInstance.Getbool
+title: CInstance::Getbool method
+author: windows-driver-content
+description: The Getbool method retrieves a Boolean property.
+old-location: wmi\cinstance_getbool.htm
+old-project: WmiSdk
+ms.assetid: cc8d0c91-03fb-4dc1-86a6-c1117f198181
+ms.author: windowsdriverdev
+ms.date: 3/16/2018
+ms.keywords: "?Getbool@CInstance@@QBE_NPBGAA_N@Z, ?Getbool@CInstance@@QEBA_NPEBGAEA_N@Z, CInstance, CInstance interface [Windows Management Instrumentation], Getbool method, CInstance::Getbool, Getbool method [Windows Management Instrumentation], Getbool method [Windows Management Instrumentation], CInstance interface, Getbool,CInstance.Getbool, _hmm_cinstance_getbool, instance/CInstance::Getbool, wmi.cinstance_getbool"
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: instance.h
+req.include-header: FwCommon.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: InputScope
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	FrameDynOS.dll
+-	FrameDyn.dll
+api_name:
+-	CInstance.Getbool
+-	?Getbool@CInstance@@QBE_NPBGAA_N@Z
+-	?Getbool@CInstance@@QEBA_NPEBGAEA_N@Z
+product: Windows
+targetos: Windows
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# CInstance::Getbool method
+
+
+## -description
+
+
+<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/aed29340-eb64-437d-b7e8-4f0e49c8288a">CInstance</a> class 
+    is part of the WMI Provider Framework which is now considered in final state, and no further development, 
+    enhancements, or updates will be available for non-security related issues affecting these libraries. The 
+    <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new 
+    development.]
+
+The <b>Getbool</b> method retrieves a Boolean property.
+
+
+## -parameters
+
+
+
+
+### -param name
+
+Name of the property retrieved.
+
+
+### -param b [ref]
+
+Buffer to receive the Boolean property.
+
+
+## -returns
+
+
+
+Returns <b>TRUE</b> if the operation was successful and <b>FALSE</b> if an attempt was made to retrieve a non-Boolean property or a nonexistent property. More information is available in the log file, Framework.log.
+
+
+

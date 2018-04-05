@@ -1,0 +1,94 @@
+---
+UID: NF:bdaiface.IBDA_SignalStatistics.put_SignalPresent
+title: IBDA_SignalStatistics::put_SignalPresent method
+author: windows-driver-content
+description: The put_SignalPresent method specifies whether a signal is present.
+old-location: mstv\ibda_signalstatistics_put_signalpresent.htm
+old-project: mstv
+ms.assetid: 9d27dd06-a180-4ee6-bb52-34a8f434ab6a
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: IBDA_SignalStatistics, IBDA_SignalStatistics interface [Microsoft TV Technologies], put_SignalPresent method, IBDA_SignalStatistics::put_SignalPresent, IBDA_SignalStatisticsput_SignalPresent, bdaiface/IBDA_SignalStatistics::put_SignalPresent, mstv.ibda_signalstatistics_put_signalpresent, put_SignalPresent method [Microsoft TV Technologies], put_SignalPresent method [Microsoft TV Technologies], IBDA_SignalStatistics interface, put_SignalPresent,IBDA_SignalStatistics.put_SignalPresent
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: bdaiface.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: UICloseReasonType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	bdaiface.h
+api_name:
+-	IBDA_SignalStatistics.put_SignalPresent
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# IBDA_SignalStatistics::put_SignalPresent method
+
+
+## -description
+
+
+
+The <b>put_SignalPresent</b> method specifies whether a signal is present.
+
+
+
+
+## -parameters
+
+
+
+
+### -param fPresent [in]
+
+Flag indicating whether the signal is present. <b>TRUE</b> means a signal is present.
+
+
+## -returns
+
+
+
+If the method succeeds, it returns S_OK. If it fails, it returns an error code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+
+
+
+<a href="https://msdn.microsoft.com/ee8b25d5-d39b-42ac-9f6a-0825e396241c">IBDA_SignalStatistics Interface</a>
+
+
+
+<a href="https://msdn.microsoft.com/834149e1-50b7-42f6-8fee-a357ed4bc8b8">IBDA_SignalStatistics::get_SignalPresent</a>
+ 
+
+ 
+

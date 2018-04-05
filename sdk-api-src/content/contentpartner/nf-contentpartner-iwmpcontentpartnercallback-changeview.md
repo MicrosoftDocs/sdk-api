@@ -1,0 +1,126 @@
+---
+UID: NF:contentpartner.IWMPContentPartnerCallback.ChangeView
+title: IWMPContentPartnerCallback::ChangeView method
+author: windows-driver-content
+description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The ChangeView method changes the view in Windows Media Player.
+old-location: wmp\iwmpcontentpartnercallback_changeview.htm
+old-project: WMP
+ms.assetid: eb796ef2-6d08-4746-952b-24ac51ae7733
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: ChangeView method [Windows Media Player], ChangeView method [Windows Media Player], IWMPContentPartnerCallback interface, ChangeView,IWMPContentPartnerCallback.ChangeView, IWMPContentPartnerCallback, IWMPContentPartnerCallback interface [Windows Media Player], ChangeView method, IWMPContentPartnerCallback::ChangeView, IWMPContentPartnerCallbackChangeView, contentpartner/IWMPContentPartnerCallback::ChangeView, wmp.iwmpcontentpartnercallback_changeview
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: contentpartner.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Media Player 11
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WMPTransactionType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	contentpartner.h
+api_name:
+-	IWMPContentPartnerCallback.ChangeView
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# IWMPContentPartnerCallback::ChangeView method
+
+
+## -description
+
+
+
+<div class="alert"><b>Note</b>  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.</div>
+<div> </div>
+The <b>ChangeView</b> method changes the view in Windows Media Player.
+
+
+
+
+## -parameters
+
+
+
+
+### -param bstrType [in]
+
+A <a href="https://msdn.microsoft.com/88ff9b91-6b21-4f7d-ae13-e8456a3e0f75">library location constant</a> that specifies the type of the new library view. For example, the constant g_szGenreID specifies that the new view will show a particular genre.
+
+
+### -param bstrID [in]
+
+The ID of the specific item to show in the new view. For example, if <i>bstrType</i> is g_szGenreID, then this parameter specifies the ID of the particular genre to show in the new view.
+
+
+### -param bstrFilter [in]
+
+The filter for the new view. The view will be filtered as if the user had entered this text in the Player's word wheel control.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+This method must be called only in response to a user request, such as when the user invokes a command by clicking a context menu item.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/3c66052b-2b82-44aa-868d-5d5a4501c457">IWMPContentPartnerCallback Interface</a>
+ 
+
+ 
+

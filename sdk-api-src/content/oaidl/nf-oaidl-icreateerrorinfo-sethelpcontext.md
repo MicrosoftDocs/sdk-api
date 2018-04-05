@@ -1,0 +1,125 @@
+---
+UID: NF:oaidl.ICreateErrorInfo.SetHelpContext
+title: ICreateErrorInfo::SetHelpContext method
+author: windows-driver-content
+description: Sets the Help context identifier (ID) for the error.
+old-location: automat\icreateerrorinfo_sethelpcontext.htm
+old-project: automat
+ms.assetid: 5c65f4bd-21ad-4118-bbe8-e2ff65b96213
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: ICreateErrorInfo, ICreateErrorInfo interface [Automation], SetHelpContext method, ICreateErrorInfo::SetHelpContext, SetHelpContext method [Automation], SetHelpContext method [Automation], ICreateErrorInfo interface, SetHelpContext,ICreateErrorInfo.SetHelpContext, _oa96_ICreateErrorInfo_SetHelpContext, automat.icreateerrorinfo_sethelpcontext, oaidl/ICreateErrorInfo::SetHelpContext
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: oaidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: OaIdl.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: VARKIND
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	oaidl.h
+api_name:
+-	ICreateErrorInfo.SetHelpContext
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# ICreateErrorInfo::SetHelpContext method
+
+
+## -description
+
+
+Sets the Help context identifier (ID) for the error.
+
+
+## -parameters
+
+
+
+
+### -param dwHelpContext [in]
+
+The Help context ID for the error.
+
+
+## -returns
+
+
+
+This method can return one of these values.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+Success.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_OUTOFMEMORY</b></dt>
+</dl>
+</td>
+<td width="60%">
+Insufficient memory to complete the operation.
+
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+This method sets the Help context ID for the error. To establish the Help file to which it applies, use <a href="https://msdn.microsoft.com/bb439d74-fd52-4c95-afc5-d57e2fe5029d">ICreateErrorInfo::SetHelpFile</a>.
+
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/2e7c5ad5-9018-413e-8826-ef752ebf302c">ICreateErrorInfo</a>
+ 
+
+ 
+

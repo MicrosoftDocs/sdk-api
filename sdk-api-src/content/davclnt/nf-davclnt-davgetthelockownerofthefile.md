@@ -1,0 +1,131 @@
+---
+UID: NF:davclnt.DavGetTheLockOwnerOfTheFile
+title: DavGetTheLockOwnerOfTheFile function
+author: windows-driver-content
+description: Returns the file lock owner for a file that is locked on a WebDAV server.
+old-location: webdav\davgetthelockownerofthefile.htm
+old-project: WebDAV
+ms.assetid: 94a4607c-2770-4656-8710-987d6b951e0e
+ms.author: windowsdriverdev
+ms.date: 3/22/2018
+ms.keywords: DavGetTheLockOwnerOfTheFile, DavGetTheLockOwnerOfTheFile function [WebDAV], davclnt/DavGetTheLockOwnerOfTheFile, webdav.davgetthelockownerofthefile
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: davclnt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: AUTHNEXTSTEP
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	davclnt.dll
+api_name:
+-	DavGetTheLockOwnerOfTheFile
+product: Windows
+targetos: Windows
+req.lib: Davclnt.lib
+req.dll: Davclnt.dll
+req.irql: 
+---
+
+# DavGetTheLockOwnerOfTheFile function
+
+
+## -description
+
+
+Returns the file lock owner for a file that is locked on a WebDAV server.
+
+
+## -parameters
+
+
+
+
+### -param FileName [in]
+
+A pointer to a <b>null</b>-terminated Unicode string that contains the name of a locked file on the WebDAV server. This string must be in one of the following formats:
+
+<ul>
+<li>\\<i>server</i>\<i>path</i>\<i>filename</i></li>
+<li><i>drive</i>:\<i>filename</i></li>
+</ul>
+where <i>server</i> is the name of a server, <i>path</i> is the path to a remote file on the server, <i>filename</i> is a valid file name, and <i>drive</i> is the drive letter that a remote share is mapped to on the local computer. (A <i>share</i> is a directory on a server that is made available to users over the network.)
+
+
+### -param LockOwnerName [out, optional]
+
+A pointer to a caller-allocated buffer  that receives the name of the owner of the file lock. This parameter is optional and can be <b>NULL</b>. If it is <b>NULL</b>, the <i>LockOwnerNameLengthInBytes</i> parameter must point to zero on input.
+
+
+### -param LockOwnerNameLengthInBytes [in, out]
+
+A pointer to a variable that on input specifies the maximum size, in Unicode characters, of the buffer that the <i>LockOwnerName</i> parameter points to. If the function succeeds, on output the variable receives the number of characters that were copied into the buffer. If the function fails with ERROR_INSUFFICIENT_BUFFER, on output the variable receives the number of characters needed to store the lock owner name, including the terminating <b>NULL</b> character.
+
+
+## -returns
+
+
+
+If the function succeeds, the return value is ERROR_SUCCESS.
+
+If the function fails, the return value is a <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>, such as one of the following values.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_INSUFFICIENT_BUFFER</b></dt>
+</dl>
+</td>
+<td width="60%">
+The buffer that the <i>LockOwnerName</i> parameter points to was not large enough to store the lock owner name.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_INVALID_PARAMETER</b></dt>
+</dl>
+</td>
+<td width="60%">
+One or more parameter values were not valid. For example, this error code is returned if the <i>FileName</i> parameter is a <b>null</b> pointer.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+If a call to a function such as <a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a> for a file on a WebDAV server fails with ERROR_LOCK_VIOLATION, you can use the <b>DavGetTheLockOwnerOfTheFile</b> function to determine the owner of the file lock.
+
+To obtain the required buffer length for the <i>LockOwnerName</i> buffer, call <b>DavGetTheLockOwnerOfTheFile</b> with <i>LockOwnerName</i> set to <b>NULL</b> and <i>LockOwnerNameLengthInBytes</i> set to zero. The return value is ERROR_INSUFFICIENT_BUFFER, and on output the <i>LockOwnerNameLengthInBytes</i> parameter receives the required buffer length.
+
+
+

@@ -1,0 +1,130 @@
+---
+UID: NF:mfobjects.IMFSample.SetSampleTime
+title: IMFSample::SetSampleTime method
+author: windows-driver-content
+description: Sets the presentation time of the sample.
+old-location: mf\imfsample_setsampletime.htm
+old-project: medfound
+ms.assetid: 59d32002-2f5c-4a94-bd09-fd5a2c005ffc
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: 59d32002-2f5c-4a94-bd09-fd5a2c005ffc, IMFSample, IMFSample interface [Media Foundation], SetSampleTime method, IMFSample::SetSampleTime, SetSampleTime method [Media Foundation], SetSampleTime method [Media Foundation], IMFSample interface, SetSampleTime,IMFSample.SetSampleTime, mf.imfsample_setsampletime, mfobjects/IMFSample::SetSampleTime
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: mfobjects.h
+req.include-header: Mfidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MF_FILE_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfuuid.lib
+-	mfuuid.dll
+api_name:
+-	IMFSample.SetSampleTime
+product: Windows
+targetos: Windows
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IMFSample::SetSampleTime method
+
+
+## -description
+
+
+
+Sets the presentation time of the sample.
+
+
+
+
+## -parameters
+
+
+
+
+### -param hnsSampleTime [in]
+
+The presentation time, in 100-nanosecond units.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+Some pipeline components require samples that have time stamps. Generally the component that generates the data for the sample also sets the time stamp. The Media Session might modify the time stamps.
+
+This interface is available on the following platforms if the Windows Media Format 11 SDK redistributable components are installed:
+
+<ul>
+<li>Windows XP with Service Pack 2 (SP2) and later.</li>
+<li>Windows XP Media Center Edition 2005 with KB900325 (Windows XP Media Center Edition 2005) and KB925766 (October 2006 Update Rollup for Windows XP Media Center Edition) installed.</li>
+</ul>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/b1c3758c-5133-41ee-b991-ae99d0296ccc">IMFSample</a>
+
+
+
+<a href="https://msdn.microsoft.com/14389eea-8091-4c10-849e-53db3e98a7c8">Media Samples</a>
+
+
+
+<a href="https://msdn.microsoft.com/4ab576ce-becd-4736-921e-e463c0dff841">Time Stamps and Durations</a>
+ 
+
+ 
+

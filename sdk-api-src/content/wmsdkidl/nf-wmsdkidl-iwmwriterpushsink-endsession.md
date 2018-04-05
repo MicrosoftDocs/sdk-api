@@ -1,0 +1,128 @@
+---
+UID: NF:wmsdkidl.IWMWriterPushSink.EndSession
+title: IWMWriterPushSink::EndSession method
+author: windows-driver-content
+description: The EndSession method ends the push distribution session. This method sends an end-of-stream message to the server, and then shuts down the data path on the server.
+old-location: wmformat\iwmwriterpushsink_endsession.htm
+old-project: wmformat
+ms.assetid: c2fa77a6-e159-4b10-b1ba-fbf96c7e09d4
+ms.author: windowsdriverdev
+ms.date: 3/23/2018
+ms.keywords: EndSession method [windows Media Format], EndSession method [windows Media Format], IWMWriterPushSink interface, EndSession,IWMWriterPushSink.EndSession, IWMWriterPushSink, IWMWriterPushSink interface [windows Media Format], EndSession method, IWMWriterPushSink::EndSession, IWMWriterPushSinkEndSession, wmformat.iwmwriterpushsink_endsession, wmsdkidl/IWMWriterPushSink::EndSession
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wmsdkidl.h
+req.include-header: Wmsdk.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WM_AETYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wmvcore.lib
+-	Wmvcore.dll
+-	WMStubDRM.lib
+-	WMStubDRM.dll
+api_name:
+-	IWMWriterPushSink.EndSession
+product: Windows
+targetos: Windows
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IWMWriterPushSink::EndSession method
+
+
+## -description
+
+
+
+The <b>EndSession</b> method ends the push distribution session. This method sends an end-of-stream message to the server, and then shuts down the data path on the server.
+
+
+
+
+## -parameters
+
+
+
+
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>NS_E_CONNECTION_FAILURE</b></dt>
+</dl>
+</td>
+<td width="60%">
+A connection failure occurred.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>NS_E_NOCONNECTION</b></dt>
+</dl>
+</td>
+<td width="60%">
+There is no connection to the server. (Possibly this method was called before any connection was made.)
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/47bee154-0d29-4f4c-ac38-af8747088024">IWMWriterPushSink Interface</a>
+ 
+
+ 
+

@@ -1,0 +1,104 @@
+---
+UID: NF:wmiutils.IWbemPath.GetNamespaceAt
+title: IWbemPath::GetNamespaceAt method
+author: windows-driver-content
+description: Retrieves a namespace based upon its index.
+old-location: wmi\iwbempath_getnamespaceat.htm
+old-project: WmiSdk
+ms.assetid: a5180c35-df90-447d-ad52-250ececfd525
+ms.author: windowsdriverdev
+ms.date: 3/16/2018
+ms.keywords: GetNamespaceAt method [Windows Management Instrumentation], GetNamespaceAt method [Windows Management Instrumentation], IWbemPath interface, GetNamespaceAt,IWbemPath.GetNamespaceAt, IWbemPath, IWbemPath interface [Windows Management Instrumentation], GetNamespaceAt method, IWbemPath::GetNamespaceAt, _hmm_iwbempath_getnamespaceat, wmi.iwbempath_getnamespaceat, wmiutils/IWbemPath::GetNamespaceAt
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wmiutils.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WMIQ_ASSOCQ_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wmiutils.dll
+api_name:
+-	IWbemPath.GetNamespaceAt
+product: Windows
+targetos: Windows
+req.lib: Wbemuuid.lib
+req.dll: Wmiutils.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IWbemPath::GetNamespaceAt method
+
+
+## -description
+
+
+The 
+<b>IWbemPath::GetNamespaceAt</b> method retrieves a namespace based upon its index. The leftmost namespace in the path has an index of 0 with each namespace moving to the right having a progressively higher index value.
+
+
+## -parameters
+
+
+
+
+### -param uIndex [in]
+
+Index of the namespace to be read. The leftmost namespace in the path is index 0 with each namespace to the right having a progressively higher index value. The maximum permitted value is one less than the current number of namespaces.
+
+
+### -param puNameBufLength [in, out]
+
+Caller sets this to the number of characters the buffer can hold. Upon success, this is set to the number of characters copied into the buffer including the <b>NULL</b> terminator.
+
+
+### -param pName [in, out]
+
+Namespace name.
+
+
+## -returns
+
+
+
+This method returns an <b>HRESULT</b> indicating the status of the method call.
+
+
+
+
+## -remarks
+
+
+
+This method can be used to determine how big a buffer is needed for <i>pName</i>. This is done by passing in a <b>NULL</b> pointer for the buffer, setting <i>puNameBufLength</i> to 0 and then making the call. Upon return, <i>puNameBufLength</i> indicates how large of a buffer is needed for <i>pName</i> and its terminating <b>NULL</b> character.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/71b2597b-d82a-439d-b0b7-af76aefea6a2">IWbemPath</a>
+ 
+
+ 
+

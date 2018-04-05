@@ -1,0 +1,516 @@
+---
+UID: NF:ws2spi.WSPStartup
+title: WSPStartup function
+author: windows-driver-content
+description: The WSPStartup function initiates use of a Windows Sockets service provider interface (SPI) by a client.
+old-location: winsock\wspstartup_2.htm
+old-project: WinSock
+ms.assetid: 9ebfe81c-bed6-4bde-b1dd-5eaefbaac9cf
+ms.author: windowsdriverdev
+ms.date: 3/30/2018
+ms.keywords: WSPStartup, WSPStartup function [Winsock], _win32_wspstartup_2, winsock.wspstartup_2, ws2spi/WSPStartup
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: ws2spi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WSC_PROVIDER_INFO_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Ws2spi.h
+api_name:
+-	WSPStartup
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# WSPStartup function
+
+
+## -description
+
+
+
+			The 
+<b>WSPStartup</b> function initiates use of a Windows Sockets service provider interface  (SPI) by a client.
+
+
+## -parameters
+
+
+
+
+### -param wVersionRequested [in]
+
+The highest version of Windows Sockets SPI support that the caller can use. The high-order byte specifies the minor version (revision) number; the low-order byte specifies the major version number.
+
+
+### -param lpWSPData [out]
+
+A pointer to a 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566278">WSPDATA</a> data structure that receives information about the Windows Sockets service provider.
+
+
+### -param lpProtocolInfo [in]
+
+A pointer to a 
+<a href="https://msdn.microsoft.com/758c5553-056f-4ea5-a851-30ef641ffb14">WSAPROTOCOL_INFO</a> structure that defines the characteristics of the desired protocol. This is especially useful when a single provider DLL is capable of instantiating multiple different service providers.
+
+
+### -param UpcallTable [in]
+
+The Winsock 2 DLL (Ws2_32.dll) upcall dispatch table 	passed in a <a href="https://msdn.microsoft.com/a5abf488-3e78-4e4e-ae5f-201bf0d77fc9">WSPUPCALLTABLE</a> structure. 
+
+
+### -param lpProcTable [out]
+
+A pointer to the table of SPI function pointers. This table is returned as an <a href="https://msdn.microsoft.com/library/windows/hardware/ff566301">WSPPROC_TABLE</a> structure. 
+
+
+## -returns
+
+
+
+
+						The 
+<b>WSPStartup</b> function returns zero if successful. Otherwise, it returns one of the error codes listed below.
+
+<table>
+<tr>
+<th>Error code</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSASYSNOTREADY</a></b></dt>
+</dl>
+</td>
+<td width="60%">
+Network subsystem is unavailable. 
+This error is returned if the Windows Sockets implementation cannot function at this time because the underlying system it uses to provide network services is currently unavailable. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAVERNOTSUPPORTED</a></b></dt>
+</dl>
+</td>
+<td width="60%">
+The Winsock.dll version is out of range. This error is returned if the version of Windows Sockets SPI support requested is not provided by this particular Windows Sockets service provider.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINPROGRESS</a></b></dt>
+</dl>
+</td>
+<td width="60%">
+A blocking Windows Sockets 1.1 operation is in progress.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEPROCLIM</a></b></dt>
+</dl>
+</td>
+<td width="60%">
+A limit on the number of tasks supported by the Windows Sockets implementation has been reached.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEFAULT</a></b></dt>
+</dl>
+</td>
+<td width="60%">
+The <i>lpWSPData</i> or <i>lpProcTable</i> parameter is invalid.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+Windows Sockets 2  transport service providers are DLLs with a single exported procedure entry point,  <b>WSPStartup</b>, used for the service provider initialization function. All other service provider functions are made accessible to the Winsock 2 DLL via the service provider's dispatch table passed in the <i>lpProcTable</i> parameter to the <b>WSPStartup</b> function.  Service provider DLL's are loaded into memory by the WinSock 2 DLL only when needed, and are unloaded when their services are no longer required.
+
+
+
+The service provider interface also defines several circumstances in which a transport service provider calls up into the Winsock 2 DLL (upcalls) to obtain DLL support services. The transport service provider is returned the upcall dispatch table for the Winsock 2 DLL in the <i>UpcallTable</i> parameter passed to the <b>WSPStartup</b> function.
+
+
+The 
+<b>WSPStartup</b> function must be the first Windows Sockets SPI function called by a Windows Sockets SPI client on a per-process basis. It allows the client to specify the version of Windows Sockets SPI required and to provide its upcall dispatch table. All upcalls (that is, functions prefixed with WPU) made by the Windows Sockets service provider are invoked through the client's upcall dispatch table. This function also allows the client to retrieve details of the specific Windows Sockets service provider implementation. The Windows Sockets SPI client can only issue further Windows Sockets SPI functions after a successful 
+<b>WSPStartup</b> invocation. A table of pointers to the rest of the SPI functions is retrieved through the <i>lpProcTable</i> parameter that returns a <a href="https://msdn.microsoft.com/library/windows/hardware/ff566301">WSPPROC_TABLE</a> structure.
+
+The Winsock 2 DLL loads the service provider's interface DLL into the system by using the standard Windows dynamic library loading mechanisms, and initializes it by calling the <b>WSPStartup</b> function. This is usually triggered by an application calling the <a href="https://msdn.microsoft.com/6bf6e6c4-6268-479c-86a6-52e90cf317db">socket</a> or <a href="https://msdn.microsoft.com/dcf2e543-de54-43d9-9e45-4cb935da3548">WSASocket</a> function in order to create a new socket that is to be associated with a service provider whose interface DLL is not currently loaded into memory. 
+
+In order to support future versions of the Windows Sockets SPI and the Ws2_32.dll, which may have functional differences from the current Windows Sockets SPI, a negotiation takes place in 
+<b>WSPStartup</b>. The caller of 
+<b>WSPStartup</b> (either the Ws2_32.dll or a layered protocol) and the Windows Sockets service provider indicate to each other the highest version of Windows Sockets that they can support, and each confirms that the other's highest version is acceptable. Upon entry to 
+<b>WSPStartup</b>, the Windows Sockets service provider examines the version requested by the client. If this version is equal to or higher than the lowest version supported by the service provider, the call succeeds and the service provider returns in the <b>wHighVersion</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566278">WSPDATA</a> structure the highest version it supports and in the <b>wVersion</b> member the minimum of its high version and version specified in the <i>wVersionRequested</i> parameter. The Windows Sockets service provider then assumes that the Windows Sockets SPI client will use the version of Windows Sockets specified in the <b>wVersion</b> member. If the <b>wVersion</b> member of the 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566278">WSPDATA</a> structure is unacceptable to the caller, it should call 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566270">WSPCleanup</a> and either search for another Windows Sockets service provider or fail to initialize.
+
+This negotiation allows both a Windows Sockets service provider and a Windows Sockets SPI client to support a range of Windows Sockets versions. A client can successfully utilize a Windows Sockets service provider if there is any overlap in the version ranges.
+
+The current version of the Windows Sockets specification is version 2.2. The current Winsock DLL, <i>Ws2_32.dll</i>, supports applications that request  any of the following  versions of Windows Sockets specification: <ul>
+<li>1.0</li>
+<li>1.1</li>
+<li>2.0</li>
+<li>2.1</li>
+<li>2.2</li>
+</ul>
+
+
+To get full access to the new syntax of a higher version of the Windows Sockets specification, the application must negotiate for this higher version. In this case, the <i>wVersionRequested</i> parameter should be set to request version 2.2.  The application must also fully conform to that higher version of the Windows Socket specification, such as compiling against the appropriate header file, linking with a new library, or other special cases. The <i>Winsock2.h header</i> file for Winsock 2 support is included with the Microsoft Windows Software Development Kit (SDK).
+
+Windows Sockets version 2.2 is supported on Windows Server 2008, 
+  Windows Vista, Windows Server 2003,
+  Windows XP,
+  Windows 2000, Windows NT 4.0 with Service Pack 4 (SP4) and later,
+  Windows Me,
+  Windows 98, and Windows 95 OSR2. 
+  Windows Sockets version 2.2 is also supported on   
+  Windows 95 with the Windows Socket 2 Update. Applications on these platforms should normally request Winsock 2.2 by setting the <i>wVersionRequested</i> parameter accordingly.
+
+On Windows 95 and versions of Windows NT 3.51 and earlier, Windows Sockets version 1.1 is the highest version of the Windows Sockets specification supported. 
+
+It is legal and possible for an application or DLL written to use a lower version of the Windows Sockets specification that is supported by the Winsock DLL to successfully negotiate this lower version using the  <b>WSPStartup</b> function. For example, an application can request version 1.1 in the <i>wVersionRequested</i> parameter passed to the <b>WSPStartup</b> function on a platform with the Winsock 2.2 DLL. In this case, the application should only rely on features that fit within the version requested. New Ioctl codes, new behavior of existing functions, and new functions should not be used. The version negotiation provided by the <b>WSPStartup</b> was primarily used to allow older Winsock 1.1 applications developed for Windows 95 and   Windows NT 3.51 and earlier to run with the same behavior on later versions of Windows. The <i>Winsock.h header</i> file for Winsock 1.1 support is included with the Windows SDK.
+
+The following chart gives examples of how 
+<b>WSPStartup</b> works in conjunction with different WS2_32.DLL and Windows Sockets service provider (SP) versions.
+
+
+<table>
+<tr>
+<th>DLL<div> </div>
+versions</th>
+<th>SP<div> </div>
+versions</th>
+<th><i>wVersionRequested</i></th>
+<th><b>wVersion</b></th>
+<th><b>wHighVersion</b></th>
+<th>End result</th>
+</tr>
+<tr>
+<td>1.1</td>
+<td>1.1</td>
+<td>1.1</td>
+<td>1.1</td>
+<td>1.1</td>
+<td>use 1.1</td>
+</tr>
+<tr>
+<td>1.0 1.1</td>
+<td>1.0</td>
+<td>1.1</td>
+<td>1.0</td>
+<td>1.0</td>
+<td>use 1.0</td>
+</tr>
+<tr>
+<td>1.0</td>
+<td>1.0 1.1</td>
+<td>1.0</td>
+<td>1.0</td>
+<td>1.1</td>
+<td>use 1.0</td>
+</tr>
+<tr>
+<td>1.1</td>
+<td>1.0 1.1</td>
+<td>1.1</td>
+<td>1.1</td>
+<td>1.1</td>
+<td>use 1.1</td>
+</tr>
+<tr>
+<td>1.1</td>
+<td>1.0</td>
+<td>1.1</td>
+<td>1.0</td>
+<td>1.0</td>
+<td>DLL fails</td>
+</tr>
+<tr>
+<td>1.0</td>
+<td>1.1</td>
+<td>1.0</td>
+<td>---</td>
+<td>---</td>
+<td><a href="windows_sockets_error_codes_2.htm">WSAVERNOTSUPPORTED</a></td>
+</tr>
+<tr>
+<td>1.0 1.1</td>
+<td>1.0 1.1</td>
+<td>1.1</td>
+<td>1.1</td>
+<td>1.1</td>
+<td>use 1.1</td>
+</tr>
+<tr>
+<td>1.0 1.1 2.0</td>
+<td>1.1</td>
+<td>2.0</td>
+<td>1.1</td>
+<td>1.1</td>
+<td>use 1.1</td>
+</tr>
+<tr>
+<td>1.0 1.1 2.0 </td>
+<td>2.0</td>
+<td>2.0</td>
+<td>2.0</td>
+<td>2.0</td>
+<td>use 2.0</td>
+</tr>
+<tr>
+<td>1.0 1.1 2.0 2.1 2.2</td>
+<td>2.2</td>
+<td>2.2</td>
+<td>2.2</td>
+<td>2.2</td>
+<td>use 2.2</td>
+</tr>
+</table>
+ 
+
+
+
+The following code fragment demonstrates how a Windows Sockets SPI client, which supports only version 2 of Windows Sockets SPI, makes a 
+<b>WSPStartup</b> call:
+
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>WORD wVersionRequested;
+WSPDATA WSPData;
+ 
+int err;
+ 
+WSPUPCALLTABLE upcallTable =
+{ 
+    /* initialize upcallTable with function pointers */
+};
+ 
+LPWSPPROC_TABLE lpProcTable =
+{ 
+    /* allocate memory for the ProcTable */
+};
+ 
+wVersionRequested = MAKEWORD( 2, 2 );
+ 
+err = WSPStartup( wVersionRequested, &amp;WSPData, lpProtocolBuffer, upcallTable, lpProcTable );
+if ( err != 0 ) {
+    /* Tell the user that we could not find a usable */
+    /* Windows Sockets service provider.                     */
+    return;
+}
+ 
+/* Confirm that the Windows Sockets service provider supports 2.2.*/
+/* Note that if the service provider supports versions */
+/* greater than 2.2 in addition to 2.2, it will still */
+/* return 2.2 in wVersion since that is the version we  */
+/* requested.                                           */
+ 
+if ( LOBYTE( WSPData.wVersion ) != 2 ||
+         HIBYTE( WSPData.wVersion ) != 2 ) {
+    /* Tell the user that we could not find a usable */
+    /* Windows Sockets service provider.                     */
+    WSPCleanup( );
+    return;   
+}
+ 
+/* The Windows Sockets service provider is acceptable. Proceed. */
+</pre>
+</td>
+</tr>
+</table></span></div>
+And this code fragment demonstrates how a Windows Sockets service provider that supports only version 2.2 performs the 
+<b>WSPStartup</b> negotiation:
+
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>/* Make sure that the version requested is &gt;= 2.2.  */
+/* The low byte is the major version and the high   */
+/* byte is the minor version.                       */
+ 
+if ( (LOBYTE( wVersionRequested ) &lt; 2) ||
+     ((LOBYTE( wVersionRequested ) == 2) &amp;&amp;
+     (HIBYTE( wVersionRequested ) &lt; 2))) {
+    return WSAVERNOTSUPPORTED;
+}
+ 
+/* Since we only support 2.2, set both wVersion and  */
+/* wHighVersion to 2.2.                              */
+ 
+lpWSPData-&gt;wVersion = MAKEWORD( 2, 2 );
+lpWSPData-&gt;wHighVersion = MAKEWORD( 2, 2 );
+
+</pre>
+</td>
+</tr>
+</table></span></div>
+Once the Windows Sockets SPI client has made a successful 
+<b>WSPStartup</b> call, it can proceed to make other Windows Sockets SPI calls as needed. When it has finished using the services of the Windows Sockets service provider, the client must call 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566270">WSPCleanup</a> in order to allow the Windows Sockets service provider to free any resources allocated for the client.
+
+The <b>WSPStartup</b> function must be called at least once by each client process, and may be called multiple times by the Winsock 2 DLL or other entities. A matching <a href="https://msdn.microsoft.com/library/windows/hardware/ff566270">WSPCleanup</a> function must be called for each successful <b>WSPStartup</b> call.  The service provider should maintain a reference count on a per-process basis.  On each <b>WSPStartup</b> call, the caller may specify any version number supported by the service provider DLL.
+
+A service provider must store the pointer to the client's upcall dispatch table that is received as the <i>UpcallTable</i> parameter by the  <b>WSPStartup</b> function on a per-process basis.  If a given process calls <b>WSPStartup</b> multiple times, the service provider must use only the most recently supplied upcall dispatch table pointer.
+
+
+A Windows Sockets SPI client can call 
+<b>WSPStartup</b> more than once if it needs to obtain the 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566278">WSPDATA</a> structure information more than once. On each such call the client can specify any version number supported by the provider.
+
+There must be one 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566270">WSPCleanup</a> call corresponding to every successful 
+<b>WSPStartup</b> call to allow third-party DLLs to make use of a Windows Sockets provider. This means, for example, that if 
+<b>WSPStartup</b> is called three times, the corresponding call to 
+<b>WSPCleanup</b> must occur three times. The first two calls to 
+<b>WSPCleanup</b> do nothing except decrement an internal counter; the final 
+<b>WSPCleanup</b> call does all necessary resource deallocation.
+
+This function (and most other service provider functions) can be invoked in a thread that started out as a 16-bit process if the client is a 16-bit Windows Sockets 1.1 client. One important limitation of 16-bit processes is that a 16-bit process cannot create threads. This is significant to service provider implementers that plan to use an internal service thread as part of the implementation.
+
+Fortunately, there are usually only two areas where the conditions for a service thread are strong:
+
+
+<ul>
+<li>In the implementation of overlapped I/O completion.</li>
+<li>In the implementation of 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566287">WSPEventSelect</a>.</li>
+</ul>
+
+
+Both of these areas are only accessible through new Windows Sockets 2 functions, which can only be invoked by 32-bit processes.
+
+A service thread can be safely used if these two design rules are carefully followed:
+
+
+<ul>
+<li>Use a service thread only for functionality that is unavailable to 16-bit Windows Sockets 1.1 clients.</li>
+<li>Create the service thread only on demand.</li>
+</ul>
+
+
+Several other cautions apply to the use of internal service threads. First, threads generally carry some performance penalty. Use as few as possible, and avoid thread transitions wherever possible. Second, your code should always check for errors in creating threads and fail gracefully and informatively (for example, with 
+<a href="windows_sockets_error_codes_2.htm">WSAEOPNOTSUPP</a>) in case some execution event you did not expect results in a 16-bit process executing a code path that needs threads.
+
+A layered service provider supplies an implementation of this function, but it is also a client of this function when it calls 
+<b>WSPStartup</b> to initialize the next layer in the protocol chain. The call to the next layer's 
+<b>WSPStartup</b> may happen during the execution of this layer's 
+<b>WSPStartup</b> or it may be delayed and called on demand, such as when 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566319">WSPSocket</a> is called. In any case, some special considerations apply to this function's <i>lpProtocolInfo</i> parameter as it is propagated down through the layers of the protocol chain.
+
+The layered provider searches the <b>ProtocolChain</b> of the structure referenced by <i>lpProtocolInfo</i> to determine its own location in the chain (by searching for the layer's own catalog entry <b>Id</b>) and the identity of the next element in the chain. If the next element is another layer, then, when the next layer's 
+<b>WSPStartup</b> is called, this layer must pass to the next layer a <i>lpProtocolInfo</i> that references the same unmodified 
+<a href="https://msdn.microsoft.com/758c5553-056f-4ea5-a851-30ef641ffb14">WSAPROTOCOL_INFO</a> structure with the same unmodified chain information. However, if the next layer is the base protocol (that is, the last element in the chain), this layer performs a substitution when calling the base provider's 
+<b>WSPStartup</b>. In this case, the base provider's 
+<b>WSAPROTOCOL_INFO</b> structure should be referenced by the <i>lpProtocolInfo</i> parameter.
+
+One vital benefit of this policy is that base service providers do not have to be aware of protocol chains.
+
+This same propagation policy applies when propagating a 
+<b>WSAPROTOCOL_INFO</b> structure through a layered sequence of other functions such as 
+<a href="https://msdn.microsoft.com/7a6d8f77-7235-4cd1-90e1-9b5260137246">WSPAddressToString</a>, 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566282">WSPDuplicateSocket</a>, 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566319">WSPSocket</a>, or 
+<a href="https://msdn.microsoft.com/65cf8f7e-7ef0-472c-82d8-e8f7df9976a9">WSPStringToAddress</a>.
+
+
+
+
+## -see-also
+
+
+
+
+<b>WSAPROTOCOL_INFO</b>
+
+
+
+<a href="https://msdn.microsoft.com/7a6d8f77-7235-4cd1-90e1-9b5260137246">WSPAddressToString</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566270">WSPCleanup</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566282">WSPDuplicateSocket</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566287">WSPEventSelect</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566301">WSPPROC_TABLE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566316">WSPSend</a>
+
+
+
+<a href="https://msdn.microsoft.com/9e788289-6545-4e5e-9d00-f284b2337fcd">WSPSendTo</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566319">WSPSocket</a>
+
+
+
+<a href="https://msdn.microsoft.com/65cf8f7e-7ef0-472c-82d8-e8f7df9976a9">WSPStringToAddress</a>
+
+
+
+<a href="https://msdn.microsoft.com/a5abf488-3e78-4e4e-ae5f-201bf0d77fc9">WSPUPCALLTABLE</a>
+ 
+
+ 
+

@@ -1,0 +1,89 @@
+---
+UID: NN:amsi.IAmsiStream
+title: IAmsiStream
+author: windows-driver-content
+description: Represents a stream to be scanned.
+old-location: amsi\iamsistream.htm
+old-project: AMSI
+ms.assetid: 409CE6BF-57A5-454E-91F9-3D66FE7E323F
+ms.author: windowsdriverdev
+ms.date: 3/28/2018
+ms.keywords: IAmsiStream, IAmsiStream interface [Antimalware Scan Interface], IAmsiStream interface [Antimalware Scan Interface], described, amsi.iamsistream, amsi/IAmsiStream
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: interface
+req.header: amsi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: AMSI_RESULT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	amsi.h
+api_name:
+-	IAmsiStream
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# IAmsiStream interface
+
+
+## -description
+
+
+Represents a stream to be scanned.
+
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAmsiStream</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IAmsiStream</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
+
+## -members
+
+The <b>IAmsiStream</b> interface has these methods.
+<table class="members" id="memberListMethods">
+<tr>
+<th align="left" width="37%">Method</th>
+<th align="left" width="63%">Description</th>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/7AD74D85-1A1E-4AFD-91C1-670AC7280285">GetAttribute</a>
+</td>
+<td align="left" width="63%">
+Returns a requested attribute from the stream.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439702">Read</a>
+</td>
+<td align="left" width="63%">
+Requests a buffer-full of content to be read.
+
+</td>
+</tr>
+</table> 
+

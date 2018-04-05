@@ -1,0 +1,166 @@
+---
+UID: NF:fwpmu.IPsecSaContextSetSpi0
+title: IPsecSaContextSetSpi0 function
+author: windows-driver-content
+description: Sets the security parameters index (SPI) for a security association (SA) context.
+old-location: fwp\ipsecsacontextsetspi0.htm
+old-project: FWP
+ms.assetid: 32812702-e27e-4671-a248-60cc73ce8497
+ms.author: windowsdriverdev
+ms.date: 3/23/2018
+ms.keywords: IPsecSaContextSetSpi0, IPsecSaContextSetSpi0 function [Filtering], fwp.ipsecsacontextsetspi0, fwpmu/IPsecSaContextSetSpi0
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: fwpmu.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: FWPM_VSWITCH_EVENT_SUBSCRIPTION0
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Fwpuclnt.dll
+api_name:
+-	IPsecSaContextSetSpi0
+product: Windows
+targetos: Windows
+req.lib: Fwpuclnt.lib
+req.dll: Fwpuclnt.dll
+req.irql: 
+req.product: Internet Explorer 5
+---
+
+# IPsecSaContextSetSpi0 function
+
+
+## -description
+
+
+The <b>IPsecSaContextSetSpi0</b> function sets the security parameters index (SPI) for a security association (SA) context.
+
+
+## -parameters
+
+
+
+
+### -param engineHandle [in]
+
+Type: <b>HANDLE</b>
+
+Handle for an open session to the filter engine. Call <a href="https://msdn.microsoft.com/library/windows/hardware/ff550075">FwpmEngineOpen0</a> to open a session to the filter engine.
+
+
+### -param id [in]
+
+Type: <b>UINT64</b>
+
+A runtime identifier for the SA context. This identifier was received from the system when the application called <a href="https://msdn.microsoft.com/b0eab185-fae2-4133-b3f2-22d609cb94d1">IPsecSaContextCreate1</a>.
+
+
+### -param getSpi [in]
+
+Type: <b>const <a href="https://msdn.microsoft.com/671a8dd2-b4f6-4bdd-a6f1-1bf4260c6cbe">IPSEC_GETSPI1</a>*</b>
+
+The inbound IPsec traffic.
+
+
+### -param inboundSpi [in]
+
+Type: <b>IPSEC_SA_SPI</b>
+
+The inbound SA SPI. The <b>IPSEC_SA_SPI</b> data type maps to the <b>UINT32</b> data type.
+
+
+## -returns
+
+
+
+Type: <b>DWORD</b>
+
+<table>
+<tr>
+<th>Return code/value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_SUCCESS</b></dt>
+<dt>0</dt>
+</dl>
+</td>
+<td width="60%">
+The SPI for the IPsec SA context was set successfully.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>FWP_E_* error code</b></dt>
+<dt>0x80320001—0x80320039</dt>
+</dl>
+</td>
+<td width="60%">
+A Windows Filtering Platform (WFP) specific error. See <a href="https://msdn.microsoft.com/11f3085a-f044-4a78-b47a-59b9086562bf">WFP Error Codes</a> for details.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>RPC_* error code</b></dt>
+<dt>0x80010001—0x80010122</dt>
+</dl>
+</td>
+<td width="60%">
+Failure to communicate with the remote or local firewall engine.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+The caller needs <a href="https://msdn.microsoft.com/77f0a1ac-3e99-4cba-a7c6-b8747f35cd0c">FWPM_ACTRL_ADD</a> access to the IPsec security associations database. See <a href="https://msdn.microsoft.com/936ad5f0-d5cd-47ed-b9e5-a7d82a4da603">Access Control</a> for more information.
+
+<b>IPsecSaContextSetSpi0</b> is a specific implementation of IPsecSaContextSetSpi. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/671a8dd2-b4f6-4bdd-a6f1-1bf4260c6cbe">IPSEC_GETSPI1</a>
+
+
+
+<a href="https://msdn.microsoft.com/b0eab185-fae2-4133-b3f2-22d609cb94d1">IPsecSaContextCreate1</a>
+ 
+
+ 
+

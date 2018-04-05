@@ -1,0 +1,104 @@
+---
+UID: NF:bdaiface.IBDA_DiseqCommand.put_DiseqSendCommand
+title: IBDA_DiseqCommand::put_DiseqSendCommand method
+author: windows-driver-content
+description: Sends a Digital Satellite Equipment Control (DiSEqC) command.
+old-location: mstv\ibda_diseqcommand_put_diseqsendcommand.htm
+old-project: mstv
+ms.assetid: 5ee77311-0b1d-43b1-af8e-bb886170701d
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: IBDA_DiseqCommand, IBDA_DiseqCommand interface [Microsoft TV Technologies], put_DiseqSendCommand method, IBDA_DiseqCommand::put_DiseqSendCommand, bdaiface/IBDA_DiseqCommand::put_DiseqSendCommand, mstv.ibda_diseqcommand_put_diseqsendcommand, put_DiseqSendCommand method [Microsoft TV Technologies], put_DiseqSendCommand method [Microsoft TV Technologies], IBDA_DiseqCommand interface, put_DiseqSendCommand,IBDA_DiseqCommand.put_DiseqSendCommand
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: bdaiface.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Bdaiface.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: UICloseReasonType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	bdaiface.h
+api_name:
+-	IBDA_DiseqCommand.put_DiseqSendCommand
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# IBDA_DiseqCommand::put_DiseqSendCommand method
+
+
+## -description
+
+
+Sends a Digital Satellite Equipment Control (DiSEqC) command.
+
+
+## -parameters
+
+
+
+
+### -param ulRequestId [in]
+
+An identifier for the command that is assigned by the application.
+
+
+### -param ulcbCommandLen [in]
+
+The size of the <i>pbCommand</i> array, in bytes.
+
+
+### -param pbCommand [in]
+
+Pointer to a byte array that contains the DiSEqC command, starting with the framing byte. The driver inserts the parity bits for the command.
+
+
+## -returns
+
+
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+This method is required for version 1.2 and later of the DiSEqC command set.
+
+To get the command response from the driver, call <a href="https://msdn.microsoft.com/ed481bfb-dd80-44fa-bf64-a0f8e903ae35">IBDA_DiseqCommand::get_DiseqResponse</a>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/0148a32d-b131-46ba-bbf0-82e2cf9c7d86">IBDA_DiseqCommand</a>
+ 
+
+ 
+

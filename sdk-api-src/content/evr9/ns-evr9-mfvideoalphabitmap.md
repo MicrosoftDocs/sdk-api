@@ -1,0 +1,118 @@
+---
+UID: NS:evr9.MFVideoAlphaBitmap
+title: MFVideoAlphaBitmap
+author: windows-driver-content
+description: Specifies a bitmap for the enhanced video renderer (EVR) to alpha-blend with the video.
+old-location: mf\mfvideoalphabitmap.htm
+old-project: medfound
+ms.assetid: 609041f2-7ba4-4157-819b-4ac21612dca2
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: 609041f2-7ba4-4157-819b-4ac21612dca2, MFVideoAlphaBitmap, MFVideoAlphaBitmap structure [Media Foundation], evr9/MFVideoAlphaBitmap, mf.mfvideoalphabitmap
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: struct
+req.header: evr9.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MFVideoAlphaBitmap
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	evr9.h
+api_name:
+-	MFVideoAlphaBitmap
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
+---
+
+# MFVideoAlphaBitmap structure
+
+
+## -description
+
+
+
+Specifies a bitmap for the enhanced video renderer (EVR) to alpha-blend with the video.
+
+
+
+
+## -struct-fields
+
+
+
+
+### -field bitmap
+
+A union that contains the following members.
+
+
+
+#### hdc
+
+Handle to the device context (DC) of a GDI bitmap. If <b>GetBitmapFromDC</b> is <b>FALSE</b>, this member is ignored.
+
+
+
+#### pDDs
+
+Pointer to the <b>IDirect3DSurface9</b> interface of a Direct3D surface that contains the bitmap. If <b>GetBitmapFromDC</b> is <b>TRUE</b>, this member is ignored.
+
+
+### -field GetBitmapFromDC
+
+If <b>TRUE</b>, the <b>hdc</b> member is used. Otherwise, the <b>pDDs</b> member is used.
+
+
+### -field params
+
+
+<a href="https://msdn.microsoft.com/3a7f67fa-ca54-4b6f-9cfc-e8eba57f00ce">MFVideoAlphaBitmapParams</a> structure that specifies the parameters for the alpha-blending operation.
+
+
+## -remarks
+
+
+
+To specify a GDI bitmap, create a device context and call <b>SelectObject</b> to select the bitmap into the DC. Then set the <b>hdc</b> member of the structure equal to the handle to the DC and set the <b>GetBitmapFromDC</b> member to <b>TRUE</b>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/1c985558-d25d-4f51-978a-58c05943dab9">Enhanced Video Renderer</a>
+
+
+
+<a href="https://msdn.microsoft.com/a70e6734-bf49-4dea-8bf6-917b8465cc78">IMFVideoMixerBitmap::SetAlphaBitmap</a>
+
+
+
+<a href="https://msdn.microsoft.com/39fdd724-13ca-48ab-8a55-93529d1da3b4">Media Foundation Structures</a>
+ 
+
+ 
+

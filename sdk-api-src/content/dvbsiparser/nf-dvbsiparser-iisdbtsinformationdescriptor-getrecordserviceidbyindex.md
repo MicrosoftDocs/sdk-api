@@ -1,0 +1,102 @@
+---
+UID: NF:dvbsiparser.IIsdbTSInformationDescriptor.GetRecordServiceIdByIndex
+title: IIsdbTSInformationDescriptor::GetRecordServiceIdByIndex method
+author: windows-driver-content
+description: Gets a service identifier from a specified service record in an Integrated Services Digital Broadcasting (ISDB) transport stream (TS) information descriptor.
+old-location: mstv\iisdbtsinformationdescriptor_getrecordserviceidbyindex.htm
+old-project: mstv
+ms.assetid: 40738938-226d-4220-8092-a029bd6c038d
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: GetRecordServiceIdByIndex method [Microsoft TV Technologies], GetRecordServiceIdByIndex method [Microsoft TV Technologies], IIsdbTSInformationDescriptor interface, GetRecordServiceIdByIndex,IIsdbTSInformationDescriptor.GetRecordServiceIdByIndex, IIsdbTSInformationDescriptor, IIsdbTSInformationDescriptor interface [Microsoft TV Technologies], GetRecordServiceIdByIndex method, IIsdbTSInformationDescriptor::GetRecordServiceIdByIndex, dvbsiparser/IIsdbTSInformationDescriptor::GetRecordServiceIdByIndex, mstv.iisdbtsinformationdescriptor_getrecordserviceidbyindex
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: dvbsiparser.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Dvbsiparser.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	dvbsiparser.h
+api_name:
+-	IIsdbTSInformationDescriptor.GetRecordServiceIdByIndex
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
+---
+
+# IIsdbTSInformationDescriptor::GetRecordServiceIdByIndex method
+
+
+## -description
+
+
+Gets a service identifier from a specified service record in an Integrated Services Digital Broadcasting (ISDB) transport stream (TS) information descriptor.
+
+
+## -parameters
+
+
+
+
+### -param bRecordIndex [in]
+
+Zero-based index of the descriptor to return. To get the number of descriptors, call <a href="https://msdn.microsoft.com/97e0d307-f41d-44e3-8f42-d00fecbcd61e">IIsdbTSInformationDescriptor::GetCountOfRecords</a>.
+
+
+### -param bServiceIndex [in]
+
+Zero-based index of the service identifier to return. To get the number of identifiers, call <a href="https://msdn.microsoft.com/bf9ec856-951e-4a75-a136-9fa6eaf9e8cd">IIsdbTSInformationDescriptor::GetRecordNumberOfServices</a>.
+
+
+### -param pdwVal [out]
+
+Receives the service identifier.
+
+
+## -returns
+
+
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/3c8cd33c-5c2a-48a4-9e8a-f7dd03560848">IIsdbTSInformationDescriptor</a>
+
+
+
+<a href="https://msdn.microsoft.com/97e0d307-f41d-44e3-8f42-d00fecbcd61e">IIsdbTSInformationDescriptor::GetCountOfRecords</a>
+
+
+
+<a href="https://msdn.microsoft.com/bf9ec856-951e-4a75-a136-9fa6eaf9e8cd">IIsdbTSInformationDescriptor::GetRecordNumberOfServices</a>
+ 
+
+ 
+

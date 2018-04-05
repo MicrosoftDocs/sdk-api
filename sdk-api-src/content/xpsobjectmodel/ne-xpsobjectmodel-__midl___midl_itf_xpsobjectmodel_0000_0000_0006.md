@@ -1,0 +1,123 @@
+---
+UID: NE:xpsobjectmodel.__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0006
+title: "__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0006"
+author: windows-driver-content
+description: Specifies the style of a dash cap on a dashed stroke.
+old-location: xps\xps_dash_cap.htm
+old-project: printdocs
+ms.assetid: 8c4d7314-71ad-4700-bc3e-f611e72c05df
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: XPS_DASH_CAP, XPS_DASH_CAP enumeration [XPS Documents and Packaging], XPS_DASH_CAP_FLAT, XPS_DASH_CAP_ROUND, XPS_DASH_CAP_SQUARE, XPS_DASH_CAP_TRIANGLE, __MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0006, xps.xps_dash_cap, xpsobjectmodel/XPS_DASH_CAP, xpsobjectmodel/XPS_DASH_CAP_FLAT, xpsobjectmodel/XPS_DASH_CAP_ROUND, xpsobjectmodel/XPS_DASH_CAP_SQUARE, xpsobjectmodel/XPS_DASH_CAP_TRIANGLE
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: enum
+req.header: xpsobjectmodel.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: XpsObjectModel.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: XPS_DASH_CAP
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	xpsobjectmodel.h
+api_name:
+-	XPS_DASH_CAP
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+---
+
+# __MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0006 enumeration
+
+
+## -description
+
+
+Specifies the style of a dash cap  on a dashed stroke.
+
+
+## -enum-fields
+
+
+
+
+### -field XPS_DASH_CAP_FLAT
+
+Flat-line cap.
+
+
+### -field XPS_DASH_CAP_ROUND
+
+Round-line cap.
+
+
+### -field XPS_DASH_CAP_SQUARE
+
+Square-line cap.
+
+
+### -field XPS_DASH_CAP_TRIANGLE
+
+Triangular-line cap.
+
+
+## -remarks
+
+
+
+In the following illustrations, each shaded area represents the dash cap that corresponds to each  type of <b>XPS_DASH_CAP</b>.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Example</th>
+</tr>
+<tr>
+<td>XPS_DASH_CAP_FLAT</td>
+<td><img alt="A diagram that illustrates the XPS_DASH_CAP_FLAT dash cap in a dashed stroke" src="../images/xps_dash_cap_flat_dash_caps.png"/></td>
+</tr>
+<tr>
+<td>XPS_DASH_CAP_ROUND</td>
+<td><img alt="A diagram that illustrates the XPS_DASH_CAP_ROUND dash cap in a dashed stroke" src="../images/xps_dash_cap_round_dash_caps.png"/></td>
+</tr>
+<tr>
+<td>XPS_DASH_CAP_SQUARE</td>
+<td><img alt="A diagram that illustrates the XPS_DASH_CAP_SQUARE dash cap in a dashed stroke" src="../images/xps_dash_cap_square_dash_caps.png"/></td>
+</tr>
+<tr>
+<td>XPS_DASH_CAP_TRIANGLE</td>
+<td><img alt="A diagram that illustrates the XPS_DASH_CAP_TRIANGLE dash cap in a dashed stroke" src="../images/xps_dash_cap_triangle_dash_caps.png"/></td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+ 
+
+ 
+

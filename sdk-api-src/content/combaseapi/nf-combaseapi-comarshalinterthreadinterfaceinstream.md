@@ -1,0 +1,125 @@
+---
+UID: NF:combaseapi.CoMarshalInterThreadInterfaceInStream
+title: CoMarshalInterThreadInterfaceInStream function
+author: windows-driver-content
+description: Marshals an interface pointer from one thread to another thread in the same process.
+old-location: com\comarshalinterthreadinterfaceinstream.htm
+old-project: com
+ms.assetid: c9ab8713-8604-4f0b-a11b-bdfb7d595d95
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: CoMarshalInterThreadInterfaceInStream, CoMarshalInterThreadInterfaceInStream function [COM], _com_CoMarshalInterThreadInterfaceInStream, com.comarshalinterthreadinterfaceinstream, combaseapi/CoMarshalInterThreadInterfaceInStream
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: combaseapi.h
+req.include-header: Objbase.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: REGCLS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Ole32.dll
+-	API-MS-Win-Core-Com-l1-1-0.dll
+-	ComBase.dll
+-	API-MS-Win-Core-Com-l1-1-1.dll
+-	API-MS-Win-DownLevel-Ole32-l1-1-0.dll
+-	API-MS-Win-DownLevel-Ole32-l1-1-1.dll
+api_name:
+-	CoMarshalInterThreadInterfaceInStream
+product: Windows
+targetos: Windows
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
+---
+
+# CoMarshalInterThreadInterfaceInStream function
+
+
+## -description
+
+
+Marshals an interface pointer from one thread to another thread in the same process.
+
+
+
+
+## -parameters
+
+
+
+
+### -param riid [in]
+
+A reference to the identifier of the interface to be marshaled.
+
+
+### -param pUnk [in]
+
+A pointer to the interface to be marshaled, which must be derived from <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>. This parameter can be <b>NULL</b>.
+
+
+### -param ppStm [out]
+
+The address of the <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a>* pointer variable that receives the interface pointer to the stream that contains the marshaled interface.
+
+
+## -returns
+
+
+
+This function can return the standard return values E_OUTOFMEMORY and S_OK.
+
+
+
+
+## -remarks
+
+
+
+The <b>CoMarshalInterThreadInterfaceInStream</b> function enables an object to easily and reliably marshal an interface pointer to another thread in the same process. The stream returned in the <i>ppStm</i> parameter is guaranteed to behave correctly when a client running in the receiving thread attempts to unmarshal the pointer. The client can then call the <a href="https://msdn.microsoft.com/b529f65f-3208-4594-a772-d1cad3727dc1">CoGetInterfaceAndReleaseStream</a> to unmarshal the interface pointer and release the stream object.
+
+The <b>CoMarshalInterThreadInterfaceInStream</b> function performs the following tasks:
+
+<ol>
+<li>
+Creates a stream object.
+
+</li>
+<li>
+Passes the stream object's IStream pointer to <a href="https://msdn.microsoft.com/04ca1217-eac1-43e2-b736-8d7522ce8592">CoMarshalInterface</a>.
+
+</li>
+<li>
+Returns the <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a> pointer to the caller.
+
+</li>
+</ol>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/b529f65f-3208-4594-a772-d1cad3727dc1">CoGetInterfaceAndReleaseStream</a>
+ 
+
+ 
+

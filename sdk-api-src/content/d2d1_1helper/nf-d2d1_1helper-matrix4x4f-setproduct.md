@@ -1,0 +1,92 @@
+---
+UID: NF:d2d1_1helper.Matrix4x4F.SetProduct
+title: Matrix4x4F::SetProduct method
+author: windows-driver-content
+description: Multiplies the two matrices and stores the result in this matrix.
+old-location: direct2d\matrix4x4f_setproduct.htm
+old-project: Direct2D
+ms.assetid: CC12D975-B08A-4671-9F61-CBAC343AC126
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: Matrix4x4F, Matrix4x4F interface [Direct2D], SetProduct method, Matrix4x4F::SetProduct, SetProduct method [Direct2D], SetProduct method [Direct2D], Matrix4x4F interface, SetProduct,Matrix4x4F.SetProduct, d2d1_1helper/Matrix4x4F::SetProduct, direct2d.matrix4x4f_setproduct
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: d2d1_1helper.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: D2D1_STROKE_STYLE_PROPERTIES1
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	d2d1_1helper.h
+api_name:
+-	Matrix4x4F.SetProduct
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# Matrix4x4F::SetProduct method
+
+
+## -description
+
+
+Multiplies the two matrices and stores the result in this matrix.
+
+
+## -parameters
+
+
+
+
+### -param a [ref]
+
+Type: <b>const <a href="https://msdn.microsoft.com/113861DF-2E6D-4930-82DC-AA592882E21C">Matrix4x4F</a></b>
+
+The first matrix to multiply.
+
+
+### -param b [ref]
+
+Type: <b>const <a href="https://msdn.microsoft.com/113861DF-2E6D-4930-82DC-AA592882E21C">Matrix4x4F</a></b>
+
+The second matrix to multiply.
+
+
+## -returns
+
+
+
+This method does not return a value.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/113861DF-2E6D-4930-82DC-AA592882E21C">Matrix4x4F</a>
+ 
+
+ 
+

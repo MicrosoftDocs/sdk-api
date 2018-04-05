@@ -1,0 +1,140 @@
+---
+UID: NE:dwrite_1.DWRITE_PANOSE_SCRIPT_FORM
+title: DWRITE_PANOSE_SCRIPT_FORM
+author: windows-driver-content
+description: The DWRITE_PANOSE_SCRIPT_FORM enumeration contains values that specify the general look of the character face, with consideration of its slope and tails.
+old-location: directwrite\dwrite_panose_script_form.htm
+old-project: DirectWrite
+ms.assetid: F6F56DEE-F981-40F8-8B35-ABFE7C82EA2C
+ms.author: windowsdriverdev
+ms.date: 3/23/2018
+ms.keywords: DWRITE_PANOSE_SCRIPT_FORM, DWRITE_PANOSE_SCRIPT_FORM enumeration [Direct Write], DWRITE_PANOSE_SCRIPT_FORM_ANY, DWRITE_PANOSE_SCRIPT_FORM_EXAGGERATED_EXTREME_WRAPPING, DWRITE_PANOSE_SCRIPT_FORM_EXAGGERATED_MORE_WRAPPING, DWRITE_PANOSE_SCRIPT_FORM_EXAGGERATED_NO_WRAPPING, DWRITE_PANOSE_SCRIPT_FORM_EXAGGERATED_SOME_WRAPPING, DWRITE_PANOSE_SCRIPT_FORM_NO_FIT, DWRITE_PANOSE_SCRIPT_FORM_OBLIQUE_EXTREME_WRAPPING, DWRITE_PANOSE_SCRIPT_FORM_OBLIQUE_MORE_WRAPPING, DWRITE_PANOSE_SCRIPT_FORM_OBLIQUE_NO_WRAPPING, DWRITE_PANOSE_SCRIPT_FORM_OBLIQUE_SOME_WRAPPING, DWRITE_PANOSE_SCRIPT_FORM_UPRIGHT_EXTREME_WRAPPING, DWRITE_PANOSE_SCRIPT_FORM_UPRIGHT_MORE_WRAPPING, DWRITE_PANOSE_SCRIPT_FORM_UPRIGHT_NO_WRAPPING, DWRITE_PANOSE_SCRIPT_FORM_UPRIGHT_SOME_WRAPPING, directwrite.dwrite_panose_script_form, dwrite_1/DWRITE_PANOSE_SCRIPT_FORM, dwrite_1/DWRITE_PANOSE_SCRIPT_FORM_ANY, dwrite_1/DWRITE_PANOSE_SCRIPT_FORM_EXAGGERATED_EXTREME_WRAPPING, dwrite_1/DWRITE_PANOSE_SCRIPT_FORM_EXAGGERATED_MORE_WRAPPING, dwrite_1/DWRITE_PANOSE_SCRIPT_FORM_EXAGGERATED_NO_WRAPPING, dwrite_1/DWRITE_PANOSE_SCRIPT_FORM_EXAGGERATED_SOME_WRAPPING, dwrite_1/DWRITE_PANOSE_SCRIPT_FORM_NO_FIT, dwrite_1/DWRITE_PANOSE_SCRIPT_FORM_OBLIQUE_EXTREME_WRAPPING, dwrite_1/DWRITE_PANOSE_SCRIPT_FORM_OBLIQUE_MORE_WRAPPING, dwrite_1/DWRITE_PANOSE_SCRIPT_FORM_OBLIQUE_NO_WRAPPING, dwrite_1/DWRITE_PANOSE_SCRIPT_FORM_OBLIQUE_SOME_WRAPPING, dwrite_1/DWRITE_PANOSE_SCRIPT_FORM_UPRIGHT_EXTREME_WRAPPING, dwrite_1/DWRITE_PANOSE_SCRIPT_FORM_UPRIGHT_MORE_WRAPPING, dwrite_1/DWRITE_PANOSE_SCRIPT_FORM_UPRIGHT_NO_WRAPPING, dwrite_1/DWRITE_PANOSE_SCRIPT_FORM_UPRIGHT_SOME_WRAPPING
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: enum
+req.header: dwrite_1.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Dwrite_1.h
+api_name:
+-	DWRITE_PANOSE_SCRIPT_FORM
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
+---
+
+# DWRITE_PANOSE_SCRIPT_FORM enumeration
+
+
+## -description
+
+
+The <b>DWRITE_PANOSE_SCRIPT_FORM</b> enumeration contains values that specify the general look of the character face, with consideration of its  slope and tails.
+
+
+## -enum-fields
+
+
+
+
+### -field DWRITE_PANOSE_SCRIPT_FORM_ANY
+
+Any script form.
+
+
+### -field DWRITE_PANOSE_SCRIPT_FORM_NO_FIT
+
+No fit for script form.
+
+
+### -field DWRITE_PANOSE_SCRIPT_FORM_UPRIGHT_NO_WRAPPING
+
+Script form is upright with no wrapping.
+
+
+### -field DWRITE_PANOSE_SCRIPT_FORM_UPRIGHT_SOME_WRAPPING
+
+Script form is upright with some wrapping.
+
+
+### -field DWRITE_PANOSE_SCRIPT_FORM_UPRIGHT_MORE_WRAPPING
+
+Script form is upright with more wrapping.
+
+
+### -field DWRITE_PANOSE_SCRIPT_FORM_UPRIGHT_EXTREME_WRAPPING
+
+Script form is upright with extreme wrapping.
+
+
+### -field DWRITE_PANOSE_SCRIPT_FORM_OBLIQUE_NO_WRAPPING
+
+Script form is oblique with no wrapping.
+
+
+### -field DWRITE_PANOSE_SCRIPT_FORM_OBLIQUE_SOME_WRAPPING
+
+Script form is oblique with some wrapping.
+
+
+### -field DWRITE_PANOSE_SCRIPT_FORM_OBLIQUE_MORE_WRAPPING
+
+Script form is oblique with more wrapping.
+
+
+### -field DWRITE_PANOSE_SCRIPT_FORM_OBLIQUE_EXTREME_WRAPPING
+
+Script form is oblique with extreme wrapping.
+
+
+### -field DWRITE_PANOSE_SCRIPT_FORM_EXAGGERATED_NO_WRAPPING
+
+Script form is exaggerated with no wrapping.
+
+
+### -field DWRITE_PANOSE_SCRIPT_FORM_EXAGGERATED_SOME_WRAPPING
+
+Script form is exaggerated with some wrapping.
+
+
+### -field DWRITE_PANOSE_SCRIPT_FORM_EXAGGERATED_MORE_WRAPPING
+
+Script form is exaggerated with more wrapping.
+
+
+### -field DWRITE_PANOSE_SCRIPT_FORM_EXAGGERATED_EXTREME_WRAPPING
+
+Script form is exaggerated with extreme wrapping.
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/B65B4C8E-1CA0-47AC-AA3F-8F2EACC5C11A">DWRITE_PANOSE</a>
+ 
+
+ 
+

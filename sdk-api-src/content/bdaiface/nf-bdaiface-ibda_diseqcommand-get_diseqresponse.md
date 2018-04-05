@@ -1,0 +1,123 @@
+---
+UID: NF:bdaiface.IBDA_DiseqCommand.get_DiseqResponse
+title: IBDA_DiseqCommand::get_DiseqResponse method
+author: windows-driver-content
+description: Gets the driver's response to a Digital Satellite Equipment Control (DiSEqC) command.
+old-location: mstv\ibda_diseqcommand_get_diseqresponse.htm
+old-project: mstv
+ms.assetid: ed481bfb-dd80-44fa-bf64-a0f8e903ae35
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: IBDA_DiseqCommand, IBDA_DiseqCommand interface [Microsoft TV Technologies], get_DiseqResponse method, IBDA_DiseqCommand::get_DiseqResponse, bdaiface/IBDA_DiseqCommand::get_DiseqResponse, get_DiseqResponse method [Microsoft TV Technologies], get_DiseqResponse method [Microsoft TV Technologies], IBDA_DiseqCommand interface, get_DiseqResponse,IBDA_DiseqCommand.get_DiseqResponse, mstv.ibda_diseqcommand_get_diseqresponse
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: bdaiface.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Bdaiface.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: UICloseReasonType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	bdaiface.h
+api_name:
+-	IBDA_DiseqCommand.get_DiseqResponse
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# IBDA_DiseqCommand::get_DiseqResponse method
+
+
+## -description
+
+
+Gets the driver's response to a Digital Satellite Equipment Control (DiSEqC) command.
+
+
+## -parameters
+
+
+
+
+### -param ulRequestId [in]
+
+The identifier of the command. The application assigns this value when it calls <a href="https://msdn.microsoft.com/5ee77311-0b1d-43b1-af8e-bb886170701d">IBDA_DiseqCommand::put_DiseqSendCommand</a>.
+
+
+### -param pulcbResponseLen [in, out]
+
+On input, specifies the size of the <i>pbResponse</i> array, in bytes. On output, receives the number of bytes of data written into the <i>pbResponse</i> buffer.
+
+
+### -param pbResponse [in, out]
+
+Pointer to a byte array that receives the driver's response.
+
+
+## -returns
+
+
+
+This method can return one of these values.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b><b>S_OK</b></b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b><b>BDA_E_BUFFER_TOO_SMALL</b></b></dt>
+</dl>
+</td>
+<td width="60%">
+The buffer given in the <i>pbResponse</i> parameter is too small.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/0148a32d-b131-46ba-bbf0-82e2cf9c7d86">IBDA_DiseqCommand</a>
+ 
+
+ 
+

@@ -1,0 +1,108 @@
+---
+UID: NE:objidl.CO_MARSHALING_CONTEXT_ATTRIBUTES
+title: CO_MARSHALING_CONTEXT_ATTRIBUTES
+author: windows-driver-content
+description: Identifies one of the marshaling context attributes that you can query by using the GetMarshalingContextAttribute method.
+old-location: com\co_marshaling_context_attributes.htm
+old-project: com
+ms.assetid: EF020513-8E03-474C-BC14-9E9D6EFE7318
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: CO_MARSHALING_CONTEXT_ATTRIBUTES, CO_MARSHALING_CONTEXT_ATTRIBUTES enumeration [COM], CO_MARSHALING_SOURCE_IS_APP_CONTAINER, com.co_marshaling_context_attributes, objidl/CO_MARSHALING_CONTEXT_ATTRIBUTES, objidl/CO_MARSHALING_SOURCE_IS_APP_CONTAINER
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: enum
+req.header: objidl.h
+req.include-header: Objidlbase.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Objidlbase.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: CO_MARSHALING_CONTEXT_ATTRIBUTES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	objidl.h
+api_name:
+-	CO_MARSHALING_CONTEXT_ATTRIBUTES
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# CO_MARSHALING_CONTEXT_ATTRIBUTES enumeration
+
+
+## -description
+
+
+Identifies one of the marshaling context attributes that you can query by using the <a href="https://msdn.microsoft.com/60B401C8-1ACA-412D-B754-997C39454821">GetMarshalingContextAttribute</a> method.
+
+
+## -enum-fields
+
+
+
+
+### -field CO_MARSHALING_SOURCE_IS_APP_CONTAINER
+
+The source of the marshaling data is an app container process.
+
+
+### -field CO_MARSHALING_CONTEXT_ATTRIBUTE_RESERVED_1
+
+
+### -field CO_MARSHALING_CONTEXT_ATTRIBUTE_RESERVED_2
+
+
+### -field CO_MARSHALING_CONTEXT_ATTRIBUTE_RESERVED_3
+
+
+### -field CO_MARSHALING_CONTEXT_ATTRIBUTE_RESERVED_4
+
+
+### -field CO_MARSHALING_CONTEXT_ATTRIBUTE_RESERVED_5
+
+
+### -field CO_MARSHALING_CONTEXT_ATTRIBUTE_RESERVED_6
+
+
+### -field CO_MARSHALING_CONTEXT_ATTRIBUTE_RESERVED_7
+
+
+### -field CO_MARSHALING_CONTEXT_ATTRIBUTE_RESERVED_8
+
+
+### -field CO_MARSHALING_CONTEXT_ATTRIBUTE_RESERVED_9
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/60B401C8-1ACA-412D-B754-997C39454821">GetMarshalingContextAttribute</a>
+
+
+
+<a href="https://msdn.microsoft.com/7C4A3982-3623-4F1F-929C-6D0503700450">IMarshalingStream</a>
+ 
+
+ 
+

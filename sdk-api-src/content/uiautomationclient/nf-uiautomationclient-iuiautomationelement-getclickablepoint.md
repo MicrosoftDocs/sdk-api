@@ -1,0 +1,116 @@
+---
+UID: NF:uiautomationclient.IUIAutomationElement.GetClickablePoint
+title: IUIAutomationElement::GetClickablePoint method
+author: windows-driver-content
+description: Retrieves a point on the element that can be clicked.
+old-location: winauto\uiauto_IUIAutomationElement_GetClickablePoint.htm
+old-project: WinAuto
+ms.assetid: 3762aac6-5bd8-43a6-8fe6-e79d8724622b
+ms.author: windowsdriverdev
+ms.date: 3/29/2018
+ms.keywords: GetClickablePoint method [Windows Accessibility], GetClickablePoint method [Windows Accessibility], IUIAutomationElement interface, GetClickablePoint,IUIAutomationElement.GetClickablePoint, IUIAutomationElement, IUIAutomationElement interface [Windows Accessibility], GetClickablePoint method, IUIAutomationElement::GetClickablePoint, uiauto.uiauto_IUIAutomationElement_GetClickablePoint, uiauto_IUIAutomationElement_GetClickablePoint, uiautomationclient/IUIAutomationElement::GetClickablePoint, winauto.uiauto_IUIAutomationElement_GetClickablePoint
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: uiautomationclient.h
+req.include-header: UIAutomation.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: UIAutomationClient.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	UIAutomationClient.h
+api_name:
+-	IUIAutomationElement.GetClickablePoint
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# IUIAutomationElement::GetClickablePoint method
+
+
+## -description
+
+
+Retrieves a point on the element that can be clicked. 
+
+
+## -parameters
+
+
+
+
+### -param clickable [out]
+
+Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a>*</b>
+
+Receives the physical screen coordinates of a point that can be used by a client to click this element.
+
+
+### -param gotClickable [out, retval]
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a>*</b>
+
+Receives <b>TRUE</b> if a clickable point was retrieved, or <b>FALSE</b> otherwise.
+
+
+## -returns
+
+
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+A client application can use this method to simulate clicking the left or right mouse button. For example, to simulate clicking the right mouse button to display the context menu for a control: 
+
+<ul>
+<li>Call the <b>GetClickablePoint</b> method to find a clickable point on the control.</li>
+<li>Call the <a href="https://msdn.microsoft.com/7f87edd0-b846-4a85-93c8-9a2eeda7b6ac">SendInput</a> function to send a right-mouse-down, right-mouse-up sequence.</li>
+</ul>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/f7613ad1-0b75-46fb-b9ac-b1ae9eea4193">Automation Element Property IDs</a>
+
+
+
+<a href="https://msdn.microsoft.com/9e1f87b1-a204-4ca9-acf2-a40277012207">IUIAutomationElement</a>
+
+
+
+<b>Reference</b>
+ 
+
+ 
+

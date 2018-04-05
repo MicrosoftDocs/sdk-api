@@ -1,0 +1,102 @@
+---
+UID: NF:gpmgmt.IGPMSOM.GetSecurityInfo
+title: IGPMSOM::GetSecurityInfo method
+author: windows-driver-content
+description: Returns an object that represents the collection of GPMPermission objects for the scope of management (SOM).
+old-location: gpmc\igpmsom_getsecurityinfo.htm
+old-project: GPMC
+ms.assetid: 7b120bf6-17f8-43d7-a27c-b7674535c1d3
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: GPMSOM class [GPMC], GetSecurityInfo method, GetSecurityInfo method [GPMC], GetSecurityInfo method [GPMC], GPMSOM class, GetSecurityInfo method [GPMC], IGPMSOM interface, GetSecurityInfo,IGPMSOM.GetSecurityInfo, IGPMSOM, IGPMSOM interface [GPMC], GetSecurityInfo method, IGPMSOM::GetSecurityInfo, _win32_igpmsom_getsecurityinfo, gpmc.igpmsom_getsecurityinfo, gpmgmt/IGPMSOM::GetSecurityInfo
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: gpmgmt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Gpmgmt.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: GPMStarterGPOType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Gpmgmt.dll
+api_name:
+-	IGPMSOM.GetSecurityInfo
+-	GPMSOM.GetSecurityInfo
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Gpmgmt.dll
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IGPMSOM::GetSecurityInfo method
+
+
+## -description
+
+
+Returns an object that represents the collection of 
+ <a href="https://msdn.microsoft.com/7ac19065-571e-45f5-934f-35ddbf225262">GPMPermission</a>  objects for the scope of management (SOM).
+
+
+## -parameters
+
+
+
+
+### -param ppSecurityInfo [out]
+
+Address of a pointer to an 
+<a href="https://msdn.microsoft.com/1205b1d7-3dc1-4ecd-b4fa-c833dd4e1a74">IGPMSecurityInfo</a> interface.
+
+
+## -returns
+
+
+
+<h3>C++</h3>
+Returns <b>S_OK</b> if successful. Returns a failure code if an error occurs.
+
+<h3>JScript</h3>
+Returns a reference to a <a href="https://msdn.microsoft.com/1205b1d7-3dc1-4ecd-b4fa-c833dd4e1a74">GPMSecurityInfo</a> object.
+
+<h3>VB</h3>
+Returns a reference to a <a href="https://msdn.microsoft.com/1205b1d7-3dc1-4ecd-b4fa-c833dd4e1a74">GPMSecurityInfo</a> object.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/7ac19065-571e-45f5-934f-35ddbf225262">GPMPermission</a>
+
+
+
+<a href="https://msdn.microsoft.com/e3252dba-403d-486d-b666-9bb04ec0aa90">IGPMSOM</a>
+
+
+
+<a href="https://msdn.microsoft.com/1205b1d7-3dc1-4ecd-b4fa-c833dd4e1a74">IGPMSecurityInfo</a>
+ 
+
+ 
+

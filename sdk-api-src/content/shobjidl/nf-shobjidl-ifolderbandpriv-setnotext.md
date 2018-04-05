@@ -1,0 +1,77 @@
+---
+UID: NF:shobjidl.IFolderBandPriv.SetNoText
+title: IFolderBandPriv::SetNoText method
+author: windows-driver-content
+description: Sets whether text is displayed in a folder band.
+old-location: shell\IFolderBandPriv_SetNoText.htm
+old-project: shell
+ms.assetid: 49a0e5ae-68ce-488c-a1a0-bd9df5458143
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: IFolderBandPriv, IFolderBandPriv interface [Windows Shell], SetNoText method, IFolderBandPriv::SetNoText, SetNoText method [Windows Shell], SetNoText method [Windows Shell], IFolderBandPriv interface, SetNoText,IFolderBandPriv.SetNoText, _win32_IFolderBandPriv_SetNoText, shell.IFolderBandPriv_SetNoText, shobjidl/IFolderBandPriv::SetNoText
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: shobjidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: VPWATERMARKFLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Shell32.dll
+api_name:
+-	IFolderBandPriv.SetNoText
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Shell32.dll (version 5.00 or later)
+req.irql: 
+req.product: Internet Explorer 6.01
+---
+
+# IFolderBandPriv::SetNoText method
+
+
+## -description
+
+
+Sets whether text is displayed in a folder band.
+
+
+## -parameters
+
+
+
+
+### -param fNoText
+
+Type: <b>BOOL</b>
+
+<b>TRUE</b> to display text; otherwise, <b>FALSE</b>.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+Always returns S_OK.
+
+
+

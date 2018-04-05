@@ -1,0 +1,87 @@
+---
+UID: NF:tuner.IDVBSLocator.put_WestPosition
+title: IDVBSLocator::put_WestPosition method
+author: windows-driver-content
+description: The put_WestPosition method sets the longitudinal position as west longitude or east longitude.
+old-location: mstv\idvbslocator_put_westposition.htm
+old-project: mstv
+ms.assetid: 567aa90e-6179-477a-813d-13e99b16bbc2
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: IDVBSLocator, IDVBSLocator interface [Microsoft TV Technologies], put_WestPosition method, IDVBSLocator::put_WestPosition, IDVBSLocatorput_WestPosition, mstv.idvbslocator_put_westposition, put_WestPosition method [Microsoft TV Technologies], put_WestPosition method [Microsoft TV Technologies], IDVBSLocator interface, put_WestPosition,IDVBSLocator.put_WestPosition, tuner/IDVBSLocator::put_WestPosition
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: tuner.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: None supported
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Tuner.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	tuner.h
+api_name:
+-	IDVBSLocator.put_WestPosition
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# IDVBSLocator::put_WestPosition method
+
+
+## -description
+
+
+
+The <b>put_WestPosition</b> method sets the longitudinal position as west longitude or east longitude.
+
+
+
+
+## -parameters
+
+
+
+
+### -param WestLongitude [in]
+
+Specifies whether the following longitude values that follow will be west or east longitude. True means "west longitude."
+
+
+## -returns
+
+
+
+Returns S_OK if successful. If the method fails, error information can be retrieved using the standard COM <b>IErrorInfo</b> interface.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/a9f02e78-3800-4b14-81df-acab01ea072b">IDVBSLocator Interface</a>
+ 
+
+ 
+

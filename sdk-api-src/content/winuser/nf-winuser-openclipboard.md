@@ -1,0 +1,138 @@
+---
+UID: NF:winuser.OpenClipboard
+title: OpenClipboard function
+author: windows-driver-content
+description: Opens the clipboard for examination and prevents other applications from modifying the clipboard content.
+old-location: dataxchg\openclipboard.htm
+old-project: dataxchg
+ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\clipboard\clipboardreference\clipboardfunctions\openclipboard.htm
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: OpenClipboard, OpenClipboard function [Data Exchange], _win32_OpenClipboard, _win32_openclipboard_cpp, dataxchg.openclipboard, winui._win32_openclipboard, winuser/OpenClipboard
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: winuser.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: AR_STATE, *PAR_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	User32.dll
+-	API-MS-Win-RTCore-NTUser-clipboard-l1-1-0.dll
+-	minuser.dll
+-	Ext-MS-Win-NTUser-Misc-l1-2-0.dll
+-	Ext-MS-Win-NTUser-Misc-l1-3-0.dll
+-	api-ms-win-ntuser-ie-clipboard-l1-1-0.dll
+-	ie_stubs.dll
+-	ext-ms-win-ntuser-misc-l1-3-1.dll
+-	Ext-MS-Win-NTUser-Misc-L1-4-0.dll
+-	Ext-Ms-Win-NTUser-Misc-L1-5-0.dll
+-	Ext-MS-Win-NTUser-Misc-L1-5-1.dll
+api_name:
+-	OpenClipboard
+product: Windows
+targetos: Windows
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# OpenClipboard function
+
+
+## -description
+
+
+Opens the clipboard for examination and prevents other applications from modifying the clipboard content. 
+
+
+## -parameters
+
+
+
+
+### -param hWndNewOwner [in, optional]
+
+Type: <b>HWND</b>
+
+A handle to the window to be associated with the open clipboard. If this parameter is <b>NULL</b>, the open clipboard is associated with the current task. 
+
+
+## -returns
+
+
+
+Type: <b>BOOL</b>
+
+If the function succeeds, the return value is nonzero.
+
+If the function fails, the return value is zero. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. 
+
+
+
+
+## -remarks
+
+
+
+<b>OpenClipboard</b> fails if another window has the clipboard open. 
+
+An application should call the <a href="https://msdn.microsoft.com/34658e02-cbac-4e5a-afb3-a1450274b5b1">CloseClipboard</a> function after every successful call to <b>OpenClipboard</b>. 
+
+The window identified by the 
+				<i>hWndNewOwner</i> parameter does not become the clipboard owner unless the <a href="https://msdn.microsoft.com/3b0c1f36-eebe-4f69-887e-c9ceb947a94e">EmptyClipboard</a> function is called. 
+
+If an application calls <b>OpenClipboard</b> with hwnd set to <b>NULL</b>, <a href="https://msdn.microsoft.com/3b0c1f36-eebe-4f69-887e-c9ceb947a94e">EmptyClipboard</a> sets the clipboard owner to <b>NULL</b>; this causes <a href="https://msdn.microsoft.com/45ca0c04-cf1a-4206-a05f-9957e50be89c">SetClipboardData</a> to fail.
+
+
+#### Examples
+
+For an example, see <a href="using_the_clipboard.htm">Copying Information to the Clipboard</a>.
+
+<div class="code"></div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/61a9bff7-3c46-4e42-81f7-e020ff0b667f">Clipboard</a>
+
+
+
+<a href="https://msdn.microsoft.com/34658e02-cbac-4e5a-afb3-a1450274b5b1">CloseClipboard</a>
+
+
+
+<b>Conceptual</b>
+
+
+
+<a href="https://msdn.microsoft.com/3b0c1f36-eebe-4f69-887e-c9ceb947a94e">EmptyClipboard</a>
+
+
+
+<b>Reference</b>
+ 
+
+ 
+

@@ -1,0 +1,113 @@
+---
+UID: NF:wtsprotocol.IWRdsProtocolConnection.LogonNotify
+title: IWRdsProtocolConnection::LogonNotify method
+author: windows-driver-content
+description: Called when the user has logged on to the session.
+old-location: termserv\iwrdsprotocolconnection_logonnotify.htm
+old-project: TermServ
+ms.assetid: 2b6ce1cd-0e9f-465d-a5d6-e0d35bddebc4
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: IWRdsProtocolConnection, IWRdsProtocolConnection interface [Remote Desktop Services], LogonNotify method, IWRdsProtocolConnection::LogonNotify, LogonNotify method [Remote Desktop Services], LogonNotify method [Remote Desktop Services], IWRdsProtocolConnection interface, LogonNotify,IWRdsProtocolConnection.LogonNotify, termserv.iwrdsprotocolconnection_logonnotify, wtsprotocol/IWRdsProtocolConnection::LogonNotify
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wtsprotocol.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2012
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Wtsprotocol.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WTS_PROPERTY_VALUE, *PWTS_PROPERTY_VALUE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	wtsprotocol.h
+api_name:
+-	IWRdsProtocolConnection.LogonNotify
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IWRdsProtocolConnection::LogonNotify method
+
+
+## -description
+
+
+Called when the user has logged on to the session.
+
+
+## -parameters
+
+
+
+
+### -param hClientToken [in]
+
+A handle that represents the user token.
+
+
+### -param wszUserName [in]
+
+A pointer to a null-terminated string that contains the user name.
+
+
+### -param wszDomainName [in]
+
+A pointer to a null-terminated string that contains the user's domain name.
+
+
+### -param SessionId [in]
+
+A pointer to a <a href="https://msdn.microsoft.com/fe0714ec-c670-40b7-9808-2171abae79a8">WRDS_SESSION_ID</a> structure that uniquely identifies the session.
+
+
+### -param pWRdsConnectionSettings [in, out]
+
+A pointer to a <a href="https://msdn.microsoft.com/9219AE45-5F11-484E-BD78-F8E1AB41D648">WRDS_CONNECTION_SETTINGS</a> structure that contains connection settings for the session.
+
+
+## -returns
+
+
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+This is an event notification and you should return immediately from this method. To avoid a possible deadlock, you should not make any function or method calls that will directly or indirectly result in a Remote Desktop Services API being called. If you need to make any outbound call, you should start a new thread and make the outbound call from the new thread.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/2b8a5b2f-5a54-4d60-8b5a-8a914728087c">IWRdsProtocolConnection</a>
+ 
+
+ 
+

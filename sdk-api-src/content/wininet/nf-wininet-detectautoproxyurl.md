@@ -1,0 +1,151 @@
+---
+UID: NF:wininet.DetectAutoProxyUrl
+title: DetectAutoProxyUrl function
+author: windows-driver-content
+description: Attempts to determine the location of a WPAD autoproxy script.
+old-location: wininet\detectautoproxyurl.htm
+old-project: WinInet
+ms.assetid: 4e94ab0c-0f39-4e6e-a272-6beff61e97c6
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: DetectAutoProxyUrl, DetectAutoProxyUrl function [WinINet], PROXY_AUTO_DETECT_TYPE_DHCP, PROXY_AUTO_DETECT_TYPE_DNS_A, _inet_detectautoproxyurl_function, wininet.detectautoproxyurl, winineti/DetectAutoProxyUrl
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: wininet.h
+req.include-header: Wininet.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: InternetCookieState
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Wininet.dll
+api_name:
+-	DetectAutoProxyUrl
+product: Windows
+targetos: Windows
+req.lib: Wininet.lib
+req.dll: Wininet.dll
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# DetectAutoProxyUrl function
+
+
+## -description
+
+
+Attempts to determine the location of a WPAD autoproxy script.
+
+
+## -parameters
+
+
+
+
+### -param pszAutoProxyUrl
+
+TBD
+
+
+### -param cchAutoProxyUrl
+
+TBD
+
+
+### -param dwDetectFlags [in]
+
+Automation detection type. This parameter can be one or both of the following values.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="PROXY_AUTO_DETECT_TYPE_DHCP"></a><a id="proxy_auto_detect_type_dhcp"></a><dl>
+<dt><b>PROXY_AUTO_DETECT_TYPE_DHCP</b></dt>
+</dl>
+</td>
+<td width="60%">
+Use a Dynamic Host Configuration Protocol (DHCP) search to identify the proxy.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="PROXY_AUTO_DETECT_TYPE_DNS_A"></a><a id="proxy_auto_detect_type_dns_a"></a><dl>
+<dt><b>PROXY_AUTO_DETECT_TYPE_DNS_A</b></dt>
+</dl>
+</td>
+<td width="60%">
+Use a well qualified name search to identify the proxy.
+
+</td>
+</tr>
+</table>
+ 
+
+
+#### - dwAutoProxyUrlLength [in]
+
+Size of 
+the buffer pointed to by <i>lpszAutoProxyUrl</i>, in bytes.
+
+
+#### - lpszAutoProxyUrl [in, out]
+
+Pointer to a buffer to receive the URL from which a WPAD autoproxy script can be downloaded.
+
+
+## -returns
+
+
+
+Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. To get extended error information, call 
+<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+
+
+
+
+## -remarks
+
+
+
+<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://msdn.microsoft.com/354ab65d-5e46-451d-b36b-2f8166a1a048">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
+<div> </div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/ccb69e89-9407-48ac-bb70-fbc425bd1051">InternetDeInitializeAutoProxyDll</a>
+
+
+
+<a href="https://msdn.microsoft.com/5fc0f471-420c-4125-8323-cb1e1e72e43f">InternetGetProxyInfo</a>
+
+
+
+<a href="https://msdn.microsoft.com/d55d64cb-ee92-4366-a1bb-f5d421ed81c8">InternetInitializeAutoProxyDll</a>
+ 
+
+ 
+

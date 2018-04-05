@@ -1,0 +1,117 @@
+---
+UID: NF:dxva2api.IDirectXVideoProcessor.GetVideoProcessorService
+title: IDirectXVideoProcessor::GetVideoProcessorService method
+author: windows-driver-content
+description: Retrieves the DirectX Video Acceleration (DXVA) video processor service that created this video processor device.
+old-location: mf\idirectxvideoprocessor_getvideoprocessorservice.htm
+old-project: medfound
+ms.assetid: 920bc584-16ea-4f66-b507-2fe63bfd4fd5
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: 920bc584-16ea-4f66-b507-2fe63bfd4fd5, GetVideoProcessorService method [Media Foundation], GetVideoProcessorService method [Media Foundation], IDirectXVideoProcessor interface, GetVideoProcessorService,IDirectXVideoProcessor.GetVideoProcessorService, IDirectXVideoProcessor, IDirectXVideoProcessor interface [Media Foundation], GetVideoProcessorService method, IDirectXVideoProcessor::GetVideoProcessorService, dxva2api/IDirectXVideoProcessor::GetVideoProcessorService, mf.idirectxvideoprocessor_getvideoprocessorservice
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: dxva2api.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: DXVA2_SurfaceType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	dxva2api.h
+api_name:
+-	IDirectXVideoProcessor.GetVideoProcessorService
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
+---
+
+# IDirectXVideoProcessor::GetVideoProcessorService method
+
+
+## -description
+
+
+
+Retrieves the DirectX Video Acceleration (DXVA) video processor service that created this video processor device.
+
+
+
+
+## -parameters
+
+
+
+
+### -param ppService
+
+
+
+
+
+
+#### - ppAccelServices [out]
+
+Receives a pointer to <a href="https://msdn.microsoft.com/fa33a9e9-4e91-4eb7-91c2-5b0c63ab7688">IDirectXVideoProcessorService</a> interface. The caller must release the interface.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/bd688f81-4b7c-4016-b0bd-e40782131f8e">DXVA Video Processing</a>
+
+
+
+<a href="https://msdn.microsoft.com/a9bc3162-4f37-4f0b-8a8e-8ebeb8f0d8d5">IDirectXVideoProcessor</a>
+ 
+
+ 
+

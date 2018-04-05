@@ -1,0 +1,91 @@
+---
+UID: NF:azroles.IAzAuthorizationStore.AddPolicyAdministrator
+title: IAzAuthorizationStore::AddPolicyAdministrator method
+author: windows-driver-content
+description: Adds the specified security identifier (SID) in text form to the list of principals that act as policy administrators.
+old-location: security\azauthorizationstore_addpolicyadministrator.htm
+old-project: SecAuthZ
+ms.assetid: 8d73bc05-1366-4b47-9eaf-4a247ebf8d93
+ms.author: windowsdriverdev
+ms.date: 3/29/2018
+ms.keywords: AddPolicyAdministrator method [Security], AddPolicyAdministrator method [Security], AzAuthorizationStore object, AddPolicyAdministrator method [Security], IAzAuthorizationStore interface, AddPolicyAdministrator,IAzAuthorizationStore.AddPolicyAdministrator, AzAuthorizationStore object [Security], AddPolicyAdministrator method, IAzAuthorizationStore, IAzAuthorizationStore interface [Security], AddPolicyAdministrator method, IAzAuthorizationStore::AddPolicyAdministrator, azroles/IAzAuthorizationStore::AddPolicyAdministrator, security.azauthorizationstore_addpolicyadministrator
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: azroles.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: AZ_PROP_CONSTANTS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Azroles.dll
+api_name:
+-	AzAuthorizationStore.AddPolicyAdministrator
+-	IAzAuthorizationStore.AddPolicyAdministrator
+product: Windows
+targetos: Windows
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
+---
+
+# IAzAuthorizationStore::AddPolicyAdministrator method
+
+
+## -description
+
+
+The <b>AddPolicyAdministrator</b> method adds the specified <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security identifier</a> (SID) in text form to the list of principals that act as policy administrators.
+
+
+## -parameters
+
+
+
+
+### -param bstrAdmin [in]
+
+Text form of the SID to add to the list of policy administrators.
+
+
+### -param varReserved [in, optional]
+
+Reserved for future use.
+
+
+## -remarks
+
+
+
+Policy administrators for an object can perform the following tasks:
+
+<ul>
+<li>Read the object</li>
+<li>Write attributes to the object</li>
+<li>Read attributes of child objects of the object</li>
+<li>Write attributes to child objects of the object</li>
+<li>Delete the object</li>
+<li>Delete child objects of the object</li>
+<li>Create child objects of the object</li>
+</ul>
+To view the list of policy administrators, use the <a href="https://msdn.microsoft.com/388d4970-5de4-4216-8c26-b9b24cc82ca3">PolicyAdministrators</a> property.
+
+You must call the <a href="https://msdn.microsoft.com/bf2962af-0e8f-4c4c-a63a-dfd623308e4d">Submit</a> method to persist any changes made by this method.
+
+
+

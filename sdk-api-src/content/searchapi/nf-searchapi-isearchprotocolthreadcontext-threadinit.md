@@ -1,0 +1,81 @@
+---
+UID: NF:searchapi.ISearchProtocolThreadContext.ThreadInit
+title: ISearchProtocolThreadContext::ThreadInit method
+author: windows-driver-content
+description: Initializes communication between the protocol handler and the protocol host.
+old-location: search\_search_ISearchProtocolThreadContext_ThreadInit.htm
+old-project: search
+ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\isearchprotocolthreadcontext\threadinit.htm
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: ISearchProtocolThreadContext, ISearchProtocolThreadContext interface [search], ThreadInit method, ISearchProtocolThreadContext::ThreadInit, ThreadInit method [search], ThreadInit method [search], ISearchProtocolThreadContext interface, ThreadInit,ISearchProtocolThreadContext.ThreadInit, _search_ISearchProtocolThreadContext_ThreadInit, search._search_ISearchProtocolThreadContext_ThreadInit, searchapi/ISearchProtocolThreadContext::ThreadInit
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: searchapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Urlacc.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: ROWSETEVENT_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Searchapi.h
+api_name:
+-	ISearchProtocolThreadContext.ThreadInit
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# ISearchProtocolThreadContext::ThreadInit method
+
+
+## -description
+
+
+Initializes communication between the protocol handler and the protocol host.
+
+
+## -parameters
+
+
+
+
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+After being created by the protocol host, a thread calls this method on the protocol handler to initialize communication between the protocol handler and its host. Depending on the protocol handler, the host might need to provide some per-thread context (for example, a logon session).
+
+
+

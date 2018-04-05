@@ -1,0 +1,94 @@
+---
+UID: NF:objidl.IContext.SetProperty
+title: IContext::SetProperty method
+author: windows-driver-content
+description: Adds the specified context property to the object context.
+old-location: com\icontext_setproperty.htm
+old-project: com
+ms.assetid: 8e6dc055-bc97-41e0-973c-b061e851daf5
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: IContext, IContext interface [COM], SetProperty method, IContext::SetProperty, SetProperty method [COM], SetProperty method [COM], IContext interface, SetProperty,IContext.SetProperty, _com_icontext_setproperty, com.icontext_setproperty, objidlbase/IContext::SetProperty
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: objidl.h
+req.include-header: ObjIdl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: ObjIdl.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: THDTYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	objidlbase.h
+api_name:
+-	IContext.SetProperty
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# IContext::SetProperty method
+
+
+## -description
+
+
+Adds the specified context property to the object context.
+
+
+## -parameters
+
+
+
+
+### -param rpolicyId [in]
+
+A GUID that uniquely identifies this context property.
+
+
+### -param flags [in]
+
+This parameter is reserved and must be zero.
+
+
+### -param pUnk [in]
+
+A pointer to the context property to be added.
+
+
+## -returns
+
+
+
+This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E_UNEXPECTED, E_FAIL, and S_OK.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/89c41d9c-186c-4927-990d-92aa501f7d35">IContext</a>
+ 
+
+ 
+

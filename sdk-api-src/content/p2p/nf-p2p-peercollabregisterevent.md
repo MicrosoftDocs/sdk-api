@@ -1,0 +1,174 @@
+---
+UID: NF:p2p.PeerCollabRegisterEvent
+title: PeerCollabRegisterEvent function
+author: windows-driver-content
+description: Registers an application with the peer collaboration infrastructure to receive callbacks for specific peer collaboration events.
+old-location: p2p\peercollabregisterevent.htm
+old-project: P2PSdk
+ms.assetid: db7daf08-8d79-493f-8df5-172dae498df0
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: PeerCollabRegisterEvent, PeerCollabRegisterEvent function [Peer Networking], p2p.peercollabregisterevent, p2p/PeerCollabRegisterEvent
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: p2p.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: None supported
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: PEER_WATCH_PERMISSION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	P2P.dll
+api_name:
+-	PeerCollabRegisterEvent
+product: Windows
+targetos: Windows
+req.lib: P2P.lib
+req.dll: P2P.dll
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# PeerCollabRegisterEvent function
+
+
+## -description
+
+
+The <b>PeerCollabRegisterEvent</b> function registers an application with the peer collaboration infrastructure to receive callbacks for specific peer collaboration events.
+
+
+## -parameters
+
+
+
+
+### -param hEvent [in]
+
+Handle created by CreateEvent that the application is signaled on  when an event is triggered.  When an application is signaled, it must call <a href="https://msdn.microsoft.com/ee410a47-91a6-48ed-8c05-128a141a5c98">PeerCollabGetEventData</a> to retrieve events until PEER_S_NO_EVENT_DATA is returned.
+
+
+### -param cEventRegistration [in]
+
+The number of <a href="https://msdn.microsoft.com/dfc55346-99ef-441e-ba49-e7463581ebbb">PEER_COLLAB_EVENT_REGISTRATION</a> structures in <i>pEventRegistrations</i>.
+
+
+### -param pEventRegistrations [in]
+
+An array of <a href="https://msdn.microsoft.com/dfc55346-99ef-441e-ba49-e7463581ebbb">PEER_COLLAB_EVENT_REGISTRATION</a> structures that specify the peer collaboration events for which the application requests notification.
+
+
+### -param phPeerEvent [out]
+
+The peer event handle returned by this function. This handle is passed to <a href="https://msdn.microsoft.com/ee410a47-91a6-48ed-8c05-128a141a5c98">PeerCollabGetEventData</a> when a peer collaboration network event is raised on the peer.
+
+
+## -returns
+
+
+
+Returns S_OK if the function succeeds. Otherwise, the function returns one of the following values.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_OUTOFMEMORY</b></dt>
+</dl>
+</td>
+<td width="60%">
+There is not enough memory to support this operation.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+One of the arguments is invalid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>PEER_E_SERVICE_NOT_AVAILABLE</b></dt>
+</dl>
+</td>
+<td width="60%">
+An attempt was made to call <a href="https://msdn.microsoft.com/db7daf08-8d79-493f-8df5-172dae498df0">PeerCollabRegisterEvent</a> from an elevated process.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>PEER_E_NOT_INITIALIZED</b></dt>
+</dl>
+</td>
+<td width="60%">
+The Windows Peer infrastructure is not initialized. Calling the relevant initialization function  is required.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+If the p2phost.exe service is not running, this function will attempt to launch it for registrations that require p2phost. 
+
+If attempt is made to launch p2phost.exe from an elevated process, an error is returned. As a result, security cannot be compromised by an application mistakenly granting administrative privileges   to p2phost.exe. It is not possible to launch p2phost.exe in a non-interactive mode, as it needs to display Windows dialog boxes for incoming invites.
+
+When <b>PeerCollabRegisterEvent</b> is called on machines under heavy stress, the function may return  the PEER_E_SERVICE_NOT_AVAILABLE error code.
+
+An application can call <b>PeerCollabRegisterEvent</b> multiple times, where each call is   considered to be a separate registration. When an event is registered multiple times, each registration  receives a  copy of the event.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/dfc55346-99ef-441e-ba49-e7463581ebbb">PEER_COLLAB_EVENT_REGISTRATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/00c3c1f1-c36c-469a-a644-0ec60f02d25e">Peer Collaboration API Functions</a>
+
+
+
+<a href="https://msdn.microsoft.com/ee410a47-91a6-48ed-8c05-128a141a5c98">PeerCollabGetEventData</a>
+ 
+
+ 
+

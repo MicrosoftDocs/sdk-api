@@ -1,0 +1,71 @@
+---
+UID: NF:mbnapi.IMbnSmsConfiguration.get_MaxMessageIndex
+title: IMbnSmsConfiguration::get_MaxMessageIndex method
+author: windows-driver-content
+description: SMS message memory capacity.
+old-location: mbn\imbnsmsconfiguration_maxmessageindex.htm
+old-project: mbn
+ms.assetid: c7dee4b7-4a34-4d08-aae3-7455531a9556
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: IMbnSmsConfiguration, IMbnSmsConfiguration interface [Microsoft Broadband Networks], MaxMessageIndex property, IMbnSmsConfiguration.MaxMessageIndex, IMbnSmsConfiguration::get_MaxMessageIndex, MaxMessageIndex property [Microsoft Broadband Networks], MaxMessageIndex property [Microsoft Broadband Networks], IMbnSmsConfiguration interface, get_MaxMessageIndex,IMbnSmsConfiguration.get_MaxMessageIndex, mbn.imbnsmsconfiguration_maxmessageindex, mbnapi/IMbnSmsConfiguration::MaxMessageIndex, mbnapi/IMbnSmsConfiguration::get_MaxMessageIndex
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: mbnapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: None supported
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Mbnapi.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MBN_VOICE_CLASS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mbnapi.h
+api_name:
+-	IMbnSmsConfiguration.MaxMessageIndex
+-	IMbnSmsConfiguration.get_MaxMessageIndex
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IMbnSmsConfiguration::get_MaxMessageIndex method
+
+
+## -description
+
+
+SMS message memory capacity.
+
+This property is read-only.
+
+
+## -parameters
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/ee261c32-aa17-496a-a568-d9da43e1e23a">IMbnSmsConfiguration</a>
+ 
+
+ 
+

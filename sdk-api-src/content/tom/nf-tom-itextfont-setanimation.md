@@ -1,0 +1,167 @@
+---
+UID: NF:tom.ITextFont.SetAnimation
+title: ITextFont::SetAnimation method
+author: windows-driver-content
+description: Sets the animation type.
+old-location: controls\ITextFont_SetAnimation.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setanimation.htm
+ms.author: windowsdriverdev
+ms.date: 3/31/2018
+ms.keywords: ITextFont, ITextFont interface [Windows Controls], SetAnimation method, ITextFont::SetAnimation, SetAnimation method [Windows Controls], SetAnimation method [Windows Controls], ITextFont interface, SetAnimation,ITextFont.SetAnimation, _win32_ITextFont_SetAnimation, _win32_ITextFont_SetAnimation_cpp, controls.ITextFont_SetAnimation, controls._win32_ITextFont_SetAnimation, tom/ITextFont::SetAnimation
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: tom.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MANCODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Msftedit.dll
+api_name:
+-	ITextFont.SetAnimation
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# ITextFont::SetAnimation method
+
+
+## -description
+
+
+Sets the animation type. 
+
+
+## -parameters
+
+
+
+
+### -param Value [in]
+
+Type: <b>long</b>
+
+The animation type. It can be one of the following values.
+
+<table class="clsStd">
+<tr>
+<th>Animation type</th>
+<th>Value</th>
+</tr>
+<tr>
+<td><b>tomNoAnimation</b></td>
+<td>0</td>
+</tr>
+<tr>
+<td><b>tomLasVegasLights</b></td>
+<td>1</td>
+</tr>
+<tr>
+<td><b>tomBlinkingBackground</b></td>
+<td>2</td>
+</tr>
+<tr>
+<td><b>tomSparkleText</b></td>
+<td>3</td>
+</tr>
+<tr>
+<td><b>tomMarchingBlackAnts</b></td>
+<td>4</td>
+</tr>
+<tr>
+<td><b>tomMarchingRedAnts</b></td>
+<td>5</td>
+</tr>
+<tr>
+<td><b>tomShimmer</b></td>
+<td>6</td>
+</tr>
+<tr>
+<td><b>tomWipeDown</b></td>
+<td>7</td>
+</tr>
+<tr>
+<td><b>tomWipeRight</b></td>
+<td>8</td>
+</tr>
+</table>
+ 
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns the following COM error code. For more information about COM error codes, see <a href="https://msdn.microsoft.com/15f3ae3e-1794-4948-a7aa-6309a703364b">Error Handling in COM</a>.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+Invalid argument.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<b>Conceptual</b>
+
+
+
+<a href="https://msdn.microsoft.com/996f4ca0-bb7b-4a6a-84d5-3c5a9a178c09">GetAnimation</a>
+
+
+
+<a href="https://msdn.microsoft.com/e8e3ba98-808b-49c5-8764-96484fa33a6e">ITextFont</a>
+
+
+
+<b>Reference</b>
+
+
+
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
+ 
+
+ 
+

@@ -1,0 +1,90 @@
+---
+UID: NN:mileffects.IMILBitmapEffectOutputConnector
+title: IMILBitmapEffectOutputConnector
+author: windows-driver-content
+description: Exposes methods that define an output connector.
+old-location: wibe\_wibe_imilbitmapeffectoutputconnector.htm
+old-project: wibe
+ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectoutputconnector\imilbitmapeffectoutputconnector.htm
+ms.author: windowsdriverdev
+ms.date: 3/23/2018
+ms.keywords: IMILBitmapEffectOutputConnector, IMILBitmapEffectOutputConnector interface [WPF Bitmap Effects], IMILBitmapEffectOutputConnector interface [WPF Bitmap Effects], described, _wibe_imilbitmapeffectoutputconnector, mileffects/IMILBitmapEffectOutputConnector, wibe._wibe_imilbitmapeffectoutputconnector
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: interface
+req.header: mileffects.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Mileffects.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MICUIELEMENTSTATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Mileffects.dll
+api_name:
+-	IMILBitmapEffectOutputConnector
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Mileffects.dll
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IMILBitmapEffectOutputConnector interface
+
+
+## -description
+
+
+Exposes methods that define an output connector.
+
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMILBitmapEffectOutputConnector</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMILBitmapEffectOutputConnector</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
+
+## -members
+
+The <b>IMILBitmapEffectOutputConnector</b> interface has these methods.
+<table class="members" id="memberListMethods">
+<tr>
+<th align="left" width="37%">Method</th>
+<th align="left" width="63%">Description</th>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/9912c276-9941-43da-a0c3-b54c1ac78727">GetConnection</a>
+</td>
+<td align="left" width="63%">
+Gets the <a href="https://msdn.microsoft.com/930ffa74-8a38-44c2-8b1c-74c0839d1a5d">IMILBitmapEffectInputConnector</a> associated with the output connector.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/336e5340-e394-4486-9e38-69744ea2d0cb">GetNumberConnections</a>
+</td>
+<td align="left" width="63%">
+Retrieves the number of connections the output connector has.
+
+</td>
+</tr>
+</table> 
+

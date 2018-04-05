@@ -1,0 +1,123 @@
+---
+UID: NF:perflib.PerfDeleteCounters
+title: PerfDeleteCounters function
+author: windows-driver-content
+description: Removes the specified performance counter specifications from the specified query.
+old-location: perf\perfdeletecounters.htm
+old-project: PerfCtrs
+ms.assetid: 330CA041-41CA-4C48-B88B-C48A0143505E
+ms.author: windowsdriverdev
+ms.date: 3/22/2018
+ms.keywords: PerfDeleteCounters, PerfDeleteCounters function [Perf], perf.perfdeletecounters, perflib/PerfDeleteCounters
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: perflib.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10, version 1607 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: PerfRegInfoType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	AdvAPI32.dll
+api_name:
+-	PerfDeleteCounters
+product: Windows
+targetos: Windows
+req.lib: AdvAPI32.lib
+req.dll: AdvAPI32.dll
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# PerfDeleteCounters function
+
+
+## -description
+
+
+Removes the specified performance counter specifications from the specified query.
+
+
+## -parameters
+
+
+
+
+### -param hQuery [in]
+
+A handle to the query from which you want to remove performance counter specifications.
+
+
+### -param pCounters [in, out]
+
+A pointer to the performance counter specifications that you want to remove.
+
+
+### -param cbCounters
+
+The size of the buffer that the <i>pCounters</i> parameter specifies, in bytes.
+
+
+## -returns
+
+
+
+
+						If the function succeeds, it returns ERROR_SUCCESS.
+						
+
+If the function fails, the return value is a 
+<a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>. 
+
+
+
+
+## -remarks
+
+
+
+The <i>pCounters</i> parameter should point to a sequence of <a href="https://msdn.microsoft.com/4BBAB831-9A7F-407E-A7D6-9123192C12B4">PERF_COUNTER_IDENTIFIER</a>
+blocks. Each <b>PERF_COUNTER_IDENTIFIER</b> block consists of a
+<b>PERF_COUNTER_IDENTIFIER</b> structure, optionally followed by a null-terminated
+UTF-16LE instance  name string, followed by padding that makes the size of the block a multiple of 8 bytes.
+
+Configure each <a href="https://msdn.microsoft.com/4BBAB831-9A7F-407E-A7D6-9123192C12B4">PERF_COUNTER_IDENTIFIER</a> block in the same way as described in the Remarks for <a href="https://msdn.microsoft.com/FC66E794-EF13-47BB-A704-735924363310">PerfAddCounters</a>.
+
+
+
+<b>PerfDeleteCounters</b> attempts to remove one counter specification from the
+query for each <a href="https://msdn.microsoft.com/4BBAB831-9A7F-407E-A7D6-9123192C12B4">PERF_COUNTER_IDENTIFIER</a> block,  and updates the <b>Status</b> member of the <b>PERF_COUNTER_IDENTIFIER</b> structure in each
+block with the result of the attempt. 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/4BBAB831-9A7F-407E-A7D6-9123192C12B4">PERF_COUNTER_IDENTIFIER</a>
+
+
+
+<a href="https://msdn.microsoft.com/FC66E794-EF13-47BB-A704-735924363310">PerfAddCounters</a>
+ 
+
+ 
+

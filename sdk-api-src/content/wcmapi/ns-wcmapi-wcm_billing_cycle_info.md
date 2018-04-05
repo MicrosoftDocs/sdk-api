@@ -1,0 +1,91 @@
+---
+UID: NS:wcmapi.WCM_BILLING_CYCLE_INFO
+title: WCM_BILLING_CYCLE_INFO
+author: windows-driver-content
+description: Specifies information about the billing cycle.
+old-location: wcm\wcm_billing_cycle_info.htm
+old-project: wcm
+ms.assetid: 5cfcdfb7-aa33-4582-ba17-e1a305b830f5
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: WCM_BILLING_CYCLE_INFO, WCM_BILLING_CYCLE_INFO structure [Windows Connection Manager], wcm.wcm_billing_cycle_info, wcmapi/WCM_BILLING_CYCLE_INFO
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: struct
+req.header: wcmapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WCM_BILLING_CYCLE_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wcmapi.h
+api_name:
+-	WCM_BILLING_CYCLE_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# WCM_BILLING_CYCLE_INFO structure
+
+
+## -description
+
+
+The <b>WCM_BILLING_CYCLE_INFO</b> structure specifies information about the billing cycle.
+
+
+## -struct-fields
+
+
+
+
+### -field StartDate
+
+Type: <b>FILETIME</b>
+
+Specifies the start date of the cycle.
+
+
+### -field Duration
+
+Type: <b><a href="https://msdn.microsoft.com/7744a577-5f3d-4cdd-b74d-a1430ea20b37">WCM_TIME_INTERVAL</a></b>
+
+Specifies the billing cycle duration.
+
+
+### -field Reset
+
+Type: <b>BOOL</b>
+
+True if at the end of the billing cycle, a new billing cycle of the same duration will start. False if the service will terminate at the end of the billing cycle.
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/7744a577-5f3d-4cdd-b74d-a1430ea20b37">WCM_TIME_INTERVAL</a>
+ 
+
+ 
+

@@ -1,0 +1,71 @@
+---
+UID: NF:fsrm.IFsrmObject.get_Id
+title: IFsrmObject::get_Id method
+author: windows-driver-content
+description: Retrieves the identifier of the object.
+old-location: fsrm\ifsrmobject_id.htm
+old-project: Fsrm
+ms.assetid: 40134594-39e1-416c-9afd-056355bcb0b5
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: IFsrmObject, IFsrmObject interface [File Server Resource Manager], Id property, IFsrmObject.Id, IFsrmObject::get_Id, Id property [File Server Resource Manager], Id property [File Server Resource Manager], IFsrmObject interface, fs.ifsrmobject_id, fsrm.ifsrmobject_id, fsrm/IFsrmObject::Id, fsrm/IFsrmObject::get_Id, get_Id,IFsrmObject.get_Id
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: fsrm.h
+req.include-header: FsrmQuota.h, FsrmReports.h, FsrmScreen.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: FILTERED_DATA_SOURCES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SrmSvc.dll
+api_name:
+-	IFsrmObject.Id
+-	IFsrmObject.get_Id
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
+req.product: Internet Explorer 5
+---
+
+# IFsrmObject::get_Id method
+
+
+## -description
+
+
+Retrieves the identifier of the object.
+
+This property is read-only.
+
+
+## -parameters
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/bb08ea40-6f0e-4ad5-ad57-78f17bbbd4b7">IFsrmObject</a>
+ 
+
+ 
+

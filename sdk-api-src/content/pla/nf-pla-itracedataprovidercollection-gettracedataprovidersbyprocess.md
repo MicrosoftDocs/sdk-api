@@ -1,0 +1,93 @@
+---
+UID: NF:pla.ITraceDataProviderCollection.GetTraceDataProvidersByProcess
+title: ITraceDataProviderCollection::GetTraceDataProvidersByProcess method
+author: windows-driver-content
+description: Populates the collection with the list of providers that have been registered by the specified process.
+old-location: pla\itracedataprovidercollection_gettracedataprovidersbyprocess.htm
+old-project: PLA
+ms.assetid: bc8b6aeb-7239-4bce-8616-62f87b84ae6c
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: GetTraceDataProvidersByProcess method [PLA], GetTraceDataProvidersByProcess method [PLA], ITraceDataProviderCollection interface, GetTraceDataProvidersByProcess,ITraceDataProviderCollection.GetTraceDataProvidersByProcess, ITraceDataProviderCollection, ITraceDataProviderCollection interface [PLA], GetTraceDataProvidersByProcess method, ITraceDataProviderCollection::GetTraceDataProvidersByProcess, pla.itracedataprovidercollection_gettracedataprovidersbyprocess, pla/ITraceDataProviderCollection::GetTraceDataProvidersByProcess
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: pla.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: FolderActionSteps
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Pla.dll
+api_name:
+-	ITraceDataProviderCollection.GetTraceDataProvidersByProcess
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# ITraceDataProviderCollection::GetTraceDataProvidersByProcess method
+
+
+## -description
+
+
+Populates the collection with the list of providers that have been registered by the specified process.
+
+
+## -parameters
+
+
+
+
+### -param Server [in]
+
+The computer whose registered trace providers you want to enumerate. You can specify a computer name, a fully qualified domain name, or an IP address (IPv4 or IPv6 format). If <b>NULL</b>, PLA enumerates the providers on the local computer.
+
+
+### -param Pid [in]
+
+The process identifier of the process that registered the providers.
+
+
+## -returns
+
+
+
+Returns S_OK if successful.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/74300222-dca4-4871-bae3-0c3182fbc539">ITraceDataProviderCollection</a>
+
+
+
+<a href="https://msdn.microsoft.com/ff35087e-be55-42e8-96e9-c923d06248d8">ITraceDataProviderCollection::GetTraceDataProviders</a>
+ 
+
+ 
+

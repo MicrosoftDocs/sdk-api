@@ -1,0 +1,88 @@
+---
+UID: NF:upnphost.IUPnPEventSink.OnStateChangedSafe
+title: IUPnPEventSink::OnStateChangedSafe method
+author: windows-driver-content
+description: The OnStateChangedSafe method sends an event to the device host with the list of DISPIDs that have changed. The device host must query the service object to obtain the new value for each state variable that has changed.
+old-location: upnp\iupnpeventsink_onstatechangedsafe.htm
+old-project: UPnP
+ms.assetid: 95792229-287c-43f1-b03a-45aa63a9682f
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: IUPnPEventSink, IUPnPEventSink interface [UPnP APIs], OnStateChangedSafe method, IUPnPEventSink::OnStateChangedSafe, OnStateChangedSafe method [UPnP APIs], OnStateChangedSafe method [UPnP APIs], IUPnPEventSink interface, OnStateChangedSafe,IUPnPEventSink.OnStateChangedSafe, _upnp_iupnpeventsink_onstatechangedsafe, upnp.iupnpeventsink_onstatechangedsafe, upnphost/IUPnPEventSink::OnStateChangedSafe
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: upnphost.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: None supported
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: UI_EVENTPARAMS_COMMAND
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Upnphost.dll
+api_name:
+-	IUPnPEventSink.OnStateChangedSafe
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Upnphost.dll
+req.irql: 
+req.product: Windows UI
+---
+
+# IUPnPEventSink::OnStateChangedSafe method
+
+
+## -description
+
+
+The 
+<b>OnStateChangedSafe</b> method sends an event to the device host with the list of DISPIDs that have changed. The device host must query the service object to obtain the new value for each state variable that has changed.
+
+The 
+<b>OnStateChangedSafe</b> method can only be used by Visual Basic developers and those using languages that do not support native arrays.
+
+
+## -parameters
+
+
+
+
+### -param varsadispidChanges [in]
+
+Contains a safearray of the DISPIDs of the state variables that have changed.
+
+
+## -returns
+
+
+
+If the method succeeds, the return value is S_OK. Otherwise, the method returns one of the COM error codes defined in WinError.h.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/431423c9-2873-422d-a28c-c4ef23109114">IUPnPEventSink</a>
+ 
+
+ 
+

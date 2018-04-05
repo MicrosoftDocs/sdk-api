@@ -1,0 +1,128 @@
+---
+UID: NF:wbemprov.IWbemEventProviderQuerySink.NewQuery
+title: IWbemEventProviderQuerySink::NewQuery method
+author: windows-driver-content
+description: Call the IWbemEventProviderQuerySink::NewQuery method when a logical event consumer registers a relevant event query filter with Windows Management.
+old-location: wmi\iwbemeventproviderquerysink_newquery.htm
+old-project: WmiSdk
+ms.assetid: 82f76b19-2035-4567-b619-31ce8a35e422
+ms.author: windowsdriverdev
+ms.date: 3/16/2018
+ms.keywords: IWbemEventProviderQuerySink, IWbemEventProviderQuerySink interface [Windows Management Instrumentation], NewQuery method, IWbemEventProviderQuerySink::NewQuery, NewQuery method [Windows Management Instrumentation], NewQuery method [Windows Management Instrumentation], IWbemEventProviderQuerySink interface, NewQuery,IWbemEventProviderQuerySink.NewQuery, _hmm_iwbemeventproviderquerysink_newquery, wbemprov/IWbemEventProviderQuerySink::NewQuery, wmi.iwbemeventproviderquerysink_newquery
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wbemprov.h
+req.include-header: Wbemidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WbemTimeout
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wbemsvc.dll
+api_name:
+-	IWbemEventProviderQuerySink.NewQuery
+product: Windows
+targetos: Windows
+req.lib: Wbemuuid.lib
+req.dll: Wbemsvc.dll
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# IWbemEventProviderQuerySink::NewQuery method
+
+
+## -description
+
+
+Call the 
+<b>IWbemEventProviderQuerySink::NewQuery</b> method when a logical event consumer registers a relevant event query filter with Windows Management. The 
+<b>NewQuery</b> method determines how a provider responds to a new query registered by a client application. When WMI receives a new or modified event query from a consumer, WMI calls 
+<b>NewQuery</b> to echo the query to the event provider. The provider then generates the requested notification.
+
+
+## -parameters
+
+
+
+
+### -param dwId [in]
+
+Windows Management-generated identifier for the query. The provider can track this so that during a later call to 
+<a href="https://msdn.microsoft.com/fdb56ea9-bd1a-436e-aaa7-3ae11e10f38e">CancelQuery</a> so that the provider will know which query was canceled.
+
+
+### -param wszQueryLanguage [in]
+
+Language of the following query filter. For this version of WMI, it will always be "WQL".
+
+
+### -param wszQuery [in]
+
+Text of the event query filter, which was registered by a logical consumer. The event provider can examine the text of the query filter through the <i>wszQuery</i> parameter and the language of the query filter in the <i>wszQueryLanguage</i> parameter to discover which event notifications the consumer is requesting.
+
+
+## -returns
+
+
+
+This method returns an <b>HRESULT</b> indicating the status of the method call. The following list lists return codes returned by 
+<b>NewQuery</b>. Additionally, a third-party event provider could return any valid WMI or COM return code which could be passed through 
+<b>NewQuery</b> as a return value.
+
+
+
+
+## -remarks
+
+
+
+If a consumer registers an event filter query with Windows Management and the query contains references to events provided by the current event provider, Windows Management can notify the event provider of the query.
+
+If the provider implements the 
+<a href="https://msdn.microsoft.com/76a29d81-33c2-489f-a71d-2e85ba2617bf">IWbemEventProviderQuerySink</a> interface, Windows Management will provide a copy of the query text to the provider. The provider should parse the query, and determine if it can perform any internal optimization.
+
+Windows Management does not expect a provider to alter its behavior in any way. Rather, this is an advisory call to assist the provider with internal optimization.
+
+For example, if the provider is capable of providing many hundreds of events, but the required overhead for providing all of them is great, the provider can achieve substantial savings if it knows that most of these events are not required by the current set of event consumers. If the provider implements 
+<a href="https://msdn.microsoft.com/76a29d81-33c2-489f-a71d-2e85ba2617bf">IWbemEventProviderQuerySink</a>, it will know about the current set of events requested by all consumers. It may be able to avoid setting up the mechanisms for delivering most of the event types that it supports until consumers actually begin requesting such events.
+
+For each new consumer query filter, a separate call to this method with a unique dwId will be made. Be aware that Windows Management reserves the right to call 
+<b>NewQuery</b> more than one time for the same dwId value; for example, if there is a schema change elsewhere in the system. For this version of WMI, the query language is always "WQL".
+
+The 
+<b>IWbemEventProviderQuerySink::NewQuery</b> method can be called before the 
+<a href="https://msdn.microsoft.com/0ebabdaf-fd91-49f8-8454-38ff77952662">IWbemEventProvider::ProvideEvents</a> method.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/76a29d81-33c2-489f-a71d-2e85ba2617bf">IWbemEventProviderQuerySink</a>
+
+
+
+<a href="https://msdn.microsoft.com/fdb56ea9-bd1a-436e-aaa7-3ae11e10f38e">IWbemEventProviderQuerySink::CancelQuery</a>
+ 
+
+ 
+

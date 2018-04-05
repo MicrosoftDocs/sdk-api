@@ -1,0 +1,98 @@
+---
+UID: NC:mgm.PMGM_DISABLE_IGMP_CALLBACK
+title: PMGM_DISABLE_IGMP_CALLBACK
+author: windows-driver-content
+description: The PMGM_DISABLE_IGMP_CALLBACK callback is a call into IGMP to notify it that a routing protocol is taking or releasing ownership of an interface on which IGMP is enabled.
+old-location: rras\pmgm_disable_igmp_callback.htm
+old-project: RRAS
+ms.assetid: 4f790e1b-b10f-477b-b2bc-75c95560d7f4
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: MgmDisableIgmpCallback, MgmDisableIgmpCallback callback function [RAS], _mpr_pmgm_disable_igmp_callback, mgm/MgmDisableIgmpCallback, rras.pmgm_disable_igmp_callback
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: callback
+req.header: mgm.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: STREAM_MEDIUM, *PSTREAM_MEDIUM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Mgm.h
+api_name:
+-	PMGM_DISABLE_IGMP_CALLBACK
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# PMGM_DISABLE_IGMP_CALLBACK callback
+
+
+## -description
+
+
+The 
+<b>PMGM_DISABLE_IGMP_CALLBACK</b> callback is a call into IGMP to notify it that a routing protocol is taking or releasing ownership of an interface on which IGMP is enabled.
+
+When this callback is invoked, IGMP should stop adding and deleting group memberships on the specified interface.
+
+
+## -parameters
+
+
+
+
+### -param dwIfIndex [in]
+
+Specifies the interface on which to disable IGMP.
+
+
+### -param dwIfNextHopAddr [in]
+
+Specifies the address of the next hop that corresponds to the index specified by <i>dwIfIndex</i>. The <i>dwIfIndex</i> and <i>dwIfNextHopIPAddr</i> parameters uniquely identify a next hop on point-to-multipoint interfaces. A point-to-multipoint interface is a connection where one interface connects to multiple networks. Examples of point-to-multipoint interfaces include non-broadcast multiple access (NBMA) interfaces and the internal interface on which all dial-up clients connect. 
+
+
+
+
+For broadcast interfaces (such as Ethernet interfaces) or point-to-point interfaces, which are identified by only the value of <i>dwIfIndex</i>, specify zero.
+
+
+## -returns
+
+
+
+RRAS does not expect the application to return any specific value; any value returned is ignored by RRAS.
+
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/6c23779b-d759-4443-a134-0ff27c48dc8e">PMGM_ENABLE_IGMP_CALLBACK</a>
+ 
+
+ 
+

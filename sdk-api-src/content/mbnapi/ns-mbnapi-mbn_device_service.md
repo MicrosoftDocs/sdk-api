@@ -1,0 +1,85 @@
+---
+UID: NS:mbnapi.MBN_DEVICE_SERVICE
+title: MBN_DEVICE_SERVICE
+author: windows-driver-content
+description: The MBN_DEVICE_SERVICE structure provides information about a Mobile Broadband device service.
+old-location: mbn\mbn_device_service.htm
+old-project: mbn
+ms.assetid: 83BB1CC3-2F00-4CB0-AF05-A8309D01942D
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: MBN_DEVICE_SERVICE, MBN_DEVICE_SERVICE structure [Microsoft Broadband Networks], PMBN_DEVICE_SERVICE, PMBN_DEVICE_SERVICE structure pointer [Microsoft Broadband Networks], mbn.mbn_device_service, mbnapi/MBN_DEVICE_SERVICE, mbnapi/PMBN_DEVICE_SERVICE
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: struct
+req.header: mbnapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: None supported
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Mbnapi.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MBN_DEVICE_SERVICE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mbnapi.h
+api_name:
+-	MBN_DEVICE_SERVICE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# MBN_DEVICE_SERVICE structure
+
+
+## -description
+
+
+The <b>MBN_DEVICE_SERVICE</b> structure provides information about a Mobile Broadband device service
+
+
+## -struct-fields
+
+
+
+
+### -field deviceServiceID
+
+A string that represents the unique ID of a Mobile Broadband device service. This matches the Device Service UUID reported by the Mobile Broadband device.
+
+
+### -field dataWriteSupported
+
+if <b>TRUE</b>, this device service supports write on bulk data sessions. Otherwise, <b>FALSE</b>.
+
+
+### -field dataReadSupported
+
+if <b>TRUE</b>, this device service supports read on bulk data sessions. Otherwise, <b>FALSE</b>.
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/90CB9B2E-16CA-48A0-AF16-937D816718D6">EnumerateDeviceServices</a>
+ 
+
+ 
+

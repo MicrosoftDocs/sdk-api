@@ -1,0 +1,87 @@
+---
+UID: NF:tuner.IMPEG2Component.put_ProgramNumber
+title: IMPEG2Component::put_ProgramNumber method
+author: windows-driver-content
+description: The put_ProgramNumber method sets the program number for this substream.
+old-location: mstv\impeg2component_put_programnumber.htm
+old-project: mstv
+ms.assetid: f8bc605f-6e3f-427c-a91e-2d4cbb59b65e
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: IMPEG2Component, IMPEG2Component interface [Microsoft TV Technologies], put_ProgramNumber method, IMPEG2Component::put_ProgramNumber, IMPEG2Componentput_ProgramNumber, mstv.impeg2component_put_programnumber, put_ProgramNumber method [Microsoft TV Technologies], put_ProgramNumber method [Microsoft TV Technologies], IMPEG2Component interface, put_ProgramNumber,IMPEG2Component.put_ProgramNumber, tuner/IMPEG2Component::put_ProgramNumber
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: tuner.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: None supported
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Tuner.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	tuner.h
+api_name:
+-	IMPEG2Component.put_ProgramNumber
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# IMPEG2Component::put_ProgramNumber method
+
+
+## -description
+
+
+
+The <b>put_ProgramNumber</b> method sets the program number for this substream.
+
+
+
+
+## -parameters
+
+
+
+
+### -param ProgramNumber [in]
+
+Specifies the program number.
+
+
+## -returns
+
+
+
+Returns S_OK if successful. If the method fails, error information can be retrieved using the standard COM <b>IErrorInfo</b> interface.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/63d1ae17-8e38-457e-98d7-e81e7576f1c1">IMPEG2Component Interface</a>
+ 
+
+ 
+

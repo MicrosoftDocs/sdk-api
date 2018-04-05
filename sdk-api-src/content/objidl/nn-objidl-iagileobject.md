@@ -1,0 +1,76 @@
+---
+UID: NN:objidl.IAgileObject
+title: IAgileObject
+author: windows-driver-content
+description: Marks an interface as agile across apartments.
+old-location: com\iagileobject.htm
+old-project: com
+ms.assetid: 787A22DE-AEAB-4570-BB97-C49D656E5D40
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: IAgileObject, IAgileObject interface [COM], IAgileObject interface [COM], described, com.iagileobject, objidl/IAgileObject
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: interface
+req.header: objidl.h
+req.include-header: Objidlbase.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Objidlbase.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: THDTYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	objidl.h
+api_name:
+-	IAgileObject
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# IAgileObject interface
+
+
+## -description
+
+
+Marks an interface as agile across apartments.
+
+
+## -remarks
+
+
+
+The <b>IAgileObject</b> interface is a marker interface that indicates that an object is free threaded and can be called from any apartment.
+
+Unlike what happens when aggregating the Free Threaded Marshaler (FTM), implementing the <b>IAgileObject</b> interface doesn't affect what happens when marshaling a call. Instead, the <b>IAgileObject</b> interface is recognized by the Global Interface Table (GIT). When an object that implements the <b>IAgileObject</b> interface is placed in the GIT and localized to another apartment, the object is called directly in the new apartment, rather than marshaling.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>
+ 
+
+ 
+

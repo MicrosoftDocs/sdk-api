@@ -1,0 +1,105 @@
+---
+UID: NF:cscobj.IOfflineFilesSetting.GetPreference
+title: IOfflineFilesSetting::GetPreference method
+author: windows-driver-content
+description: Retrieves a per-machine or per-user preference associated with a particular Offline Files setting.
+old-location: of\iofflinefilessetting_getpreference.htm
+old-project: OfflineFiles
+ms.assetid: 80bc64f2-2787-42ba-9c36-742964440f74
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: GetPreference method [Offline Files], GetPreference method [Offline Files], IOfflineFilesSetting interface, GetPreference,IOfflineFilesSetting.GetPreference, IOfflineFilesSetting, IOfflineFilesSetting interface [Offline Files], GetPreference method, IOfflineFilesSetting::GetPreference, OFFLINEFILES_SETTING_SCOPE_COMPUTER, OFFLINEFILES_SETTING_SCOPE_USER, cscobj/IOfflineFilesSetting::GetPreference, of.iofflinefilessetting_getpreference
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: cscobj.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: OFFLINEFILES_SYNC_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	CscSvc.dll
+-	CscObj.dll
+api_name:
+-	IOfflineFilesSetting.GetPreference
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: CscSvc.dll; CscObj.dll
+req.irql: 
+---
+
+# IOfflineFilesSetting::GetPreference method
+
+
+## -description
+
+
+Retrieves a per-machine or per-user preference associated with a particular Offline Files setting.
+
+
+## -parameters
+
+
+
+
+### -param pvarValue [out]
+
+If the preference supports one or more values, the returned <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a> object contains those values.  If the preference does not support values, the type of the returned <b>VARIANT</b> is <b>VT_EMPTY</b>.
+
+The method initializes the <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a> prior to storing the preference value in it.
+
+
+### -param dwScope [in]
+
+Indicates which preference is to be retrieved.  Must be one of the following.
+
+
+
+#### OFFLINEFILES_SETTING_SCOPE_USER (0x00000001)
+
+The per-user preference is to be retrieved.
+
+
+
+#### OFFLINEFILES_SETTING_SCOPE_COMPUTER (0x00000002)
+
+The per-machine preference is to be retrieved.
+
+
+## -returns
+
+
+
+<b>S_OK</b> if the preference query is successful or an error value otherwise.
+
+Returns <code>HRESULT_FROM_WIN32(ERROR_FILE_NOT_FOUND)</code> if the preference is currently not applied.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/6f47c67b-9438-4229-89b2-6b3f9da8fb68">IOfflineFilesSetting</a>
+ 
+
+ 
+

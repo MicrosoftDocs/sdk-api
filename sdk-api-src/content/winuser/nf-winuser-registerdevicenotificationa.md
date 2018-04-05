@@ -1,0 +1,248 @@
+---
+UID: NF:winuser.RegisterDeviceNotificationA
+title: RegisterDeviceNotificationA function
+author: windows-driver-content
+description: Registers the device or type of device for which a window will receive notifications.
+old-location: base\registerdevicenotification.htm
+old-project: DevIO
+ms.assetid: 82094d95-9af3-4222-9c5e-ce2df9bab5e3
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: DEVICE_NOTIFY_ALL_INTERFACE_CLASSES, DEVICE_NOTIFY_SERVICE_HANDLE, DEVICE_NOTIFY_WINDOW_HANDLE, RegisterDeviceNotification, RegisterDeviceNotification function, RegisterDeviceNotificationA, RegisterDeviceNotificationW, _win32_registerdevicenotification, base.registerdevicenotification, winuser/RegisterDeviceNotification, winuser/RegisterDeviceNotificationA, winuser/RegisterDeviceNotificationW
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: winuser.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP
+req.target-min-winversvr: Windows Server 2003
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: RegisterDeviceNotificationW (Unicode) and RegisterDeviceNotificationA (ANSI)
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: AR_STATE, *PAR_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	User32.dll
+-	Ext-MS-Win-NTUser-Misc-l1-1-0.dll
+-	Ext-MS-Win-NTUser-Misc-l1-2-0.dll
+-	Ext-MS-Win-NTUser-Misc-l1-3-0.dll
+-	ext-ms-win-ntuser-misc-l1-3-1.dll
+-	Ext-MS-Win-NTUser-Misc-L1-4-0.dll
+-	Ext-Ms-Win-NTUser-Misc-L1-5-0.dll
+-	Ext-MS-Win-NTUser-Misc-L1-5-1.dll
+api_name:
+-	RegisterDeviceNotification
+-	RegisterDeviceNotificationA
+-	RegisterDeviceNotificationW
+product: Windows
+targetos: Windows
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# RegisterDeviceNotificationA function
+
+
+## -description
+
+
+Registers the device or type of device for which a window will receive notifications.
+
+
+## -parameters
+
+
+
+
+### -param hRecipient [in]
+
+A handle to the window or service that will receive device events for the devices specified in the 
+       <i>NotificationFilter</i> parameter. The same window handle can be used in multiple calls to 
+       <b>RegisterDeviceNotification</b>.
+
+Services can specify either a window handle or service status handle.
+
+
+### -param NotificationFilter [in]
+
+A pointer to a block of data that specifies the type of device for which notifications should be sent. This 
+      block always begins with the <a href="https://msdn.microsoft.com/4fc81fcb-b9fe-4016-b639-a43845af2c5f">DEV_BROADCAST_HDR</a> 
+      structure. The data following this header is dependent on the value of the 
+      <b>dbch_devicetype</b> member, which can be 
+      <b>DBT_DEVTYP_DEVICEINTERFACE</b> or <b>DBT_DEVTYP_HANDLE</b>. For more 
+      information, see Remarks.
+
+
+### -param Flags [in]
+
+This parameter can be one of the following values.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="DEVICE_NOTIFY_WINDOW_HANDLE"></a><a id="device_notify_window_handle"></a><dl>
+<dt><b>DEVICE_NOTIFY_WINDOW_HANDLE</b></dt>
+<dt>0x00000000</dt>
+</dl>
+</td>
+<td width="60%">
+The <i>hRecipient</i> parameter is a window handle.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="DEVICE_NOTIFY_SERVICE_HANDLE"></a><a id="device_notify_service_handle"></a><dl>
+<dt><b>DEVICE_NOTIFY_SERVICE_HANDLE</b></dt>
+<dt>0x00000001</dt>
+</dl>
+</td>
+<td width="60%">
+The <i>hRecipient</i> parameter is a service status handle.
+
+</td>
+</tr>
+</table>
+ 
+
+In addition, you can specify the following value.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="DEVICE_NOTIFY_ALL_INTERFACE_CLASSES"></a><a id="device_notify_all_interface_classes"></a><dl>
+<dt><b>DEVICE_NOTIFY_ALL_INTERFACE_CLASSES</b></dt>
+<dt>0x00000004</dt>
+</dl>
+</td>
+<td width="60%">
+Notifies the recipient of device interface events for all device interface classes. (The 
+         <b>dbcc_classguid</b> member is ignored.)
+
+This value can be used only if the <b>dbch_devicetype</b> member is 
+         <b>DBT_DEVTYP_DEVICEINTERFACE</b>.
+
+</td>
+</tr>
+</table>
+ 
+
+
+## -returns
+
+
+
+If the function succeeds, the return value is a device notification handle.
+
+If the function fails, the return value is <b>NULL</b>. To get extended error information, 
+       call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+
+
+
+
+## -remarks
+
+
+
+Applications send event notifications using the 
+    <a href="_win32_BroadcastSystemMessage">BroadcastSystemMessage</a> function. Any 
+    application with a top-level window can receive basic notifications by processing the 
+    <a href="https://msdn.microsoft.com/b64a3983-ee75-4199-9778-1e5b7cec59e4">WM_DEVICECHANGE</a> message. Applications can use the 
+    <b>RegisterDeviceNotification</b> function to 
+    register to receive device notifications.
+
+Services can use the 
+    <b>RegisterDeviceNotification</b> function to 
+    register to receive device notifications. If a service specifies a window handle in the 
+    <i>hRecipient</i> parameter, the notifications are sent to the window procedure. If 
+    <i>hRecipient</i> is a service status handle, 
+    <b>SERVICE_CONTROL_DEVICEEVENT</b> notifications are sent to the service control handler. For 
+    more information about the service control handler, see 
+    <a href="https://msdn.microsoft.com/bb1b863f-e29f-496f-a50e-9ea524fe8603">HandlerEx</a>.
+
+Be sure to handle Plug and Play device events as quickly as possible. Otherwise, the system may become 
+    unresponsive. If your event handler is to perform an operation that may block execution (such as I/O), it is best 
+    to start another thread to perform the operation asynchronously.
+
+Device notification handles returned by 
+    <b>RegisterDeviceNotification</b> must be closed 
+    by calling the 
+    <a href="https://msdn.microsoft.com/bcc0cf87-f996-47b5-937c-14a6332d00d9">UnregisterDeviceNotification</a> function 
+    when they are no longer needed.
+
+The <a href="https://msdn.microsoft.com/8e44cb02-cf79-4b19-807e-20cea07362af">DBT_DEVICEARRIVAL</a> and 
+    <a href="https://msdn.microsoft.com/e25d35b9-f8f1-4850-996c-e1cb393cca66">DBT_DEVICEREMOVECOMPLETE</a> events are 
+    automatically broadcast to all top-level windows for port devices. Therefore, it is not necessary to call 
+    <b>RegisterDeviceNotification</b> for ports, and 
+    the function fails if the <b>dbch_devicetype</b> member is 
+    <b>DBT_DEVTYP_PORT</b>. Volume notifications are also broadcast to top-level windows, so the 
+    function fails if <b>dbch_devicetype</b> is <b>DBT_DEVTYP_VOLUME</b>. 
+    OEM-defined devices are not used directly by the system, so the function fails if 
+    <b>dbch_devicetype</b> is <b>DBT_DEVTYP_OEM</b>.
+
+
+#### Examples
+
+For an example, see 
+     <a href="https://msdn.microsoft.com/f3a4477a-7b09-4943-8b06-f252f8f9fed8">Registering for Device Notification</a>.
+
+<div class="code"></div>
+
+
+
+## -see-also
+
+
+
+
+<a href="_win32_BroadcastSystemMessage">BroadcastSystemMessage</a>
+
+
+
+<a href="https://msdn.microsoft.com/4fc81fcb-b9fe-4016-b639-a43845af2c5f">DEV_BROADCAST_HDR</a>
+
+
+
+<a href="https://msdn.microsoft.com/3918ba49-1549-4f0c-b9fd-303ef46b810e">Device Management Functions</a>
+
+
+
+<a href="https://msdn.microsoft.com/672ad753-210b-41c3-b8c7-e041ce7b1671">Device Notifications</a>
+
+
+
+<a href="https://msdn.microsoft.com/bb1b863f-e29f-496f-a50e-9ea524fe8603">HandlerEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/82094d95-9af3-4222-9c5e-ce2df9bab5e3">RegisterDeviceNotification</a>
+
+
+
+<a href="https://msdn.microsoft.com/bcc0cf87-f996-47b5-937c-14a6332d00d9">UnregisterDeviceNotification</a>
+
+
+
+<a href="https://msdn.microsoft.com/b64a3983-ee75-4199-9778-1e5b7cec59e4">WM_DEVICECHANGE</a>
+ 
+
+ 
+

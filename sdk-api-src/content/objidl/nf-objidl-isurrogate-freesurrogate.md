@@ -1,0 +1,100 @@
+---
+UID: NF:objidl.ISurrogate.FreeSurrogate
+title: ISurrogate::FreeSurrogate method
+author: windows-driver-content
+description: Unloads a DLL server.
+old-location: com\isurrogate_freesurrogate.htm
+old-project: com
+ms.assetid: d897b02a-2540-4274-a0e3-e5c9299104a2
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: FreeSurrogate method [COM], FreeSurrogate method [COM], ISurrogate interface, FreeSurrogate,ISurrogate.FreeSurrogate, ISurrogate, ISurrogate interface [COM], FreeSurrogate method, ISurrogate::FreeSurrogate, _com_isurrogate_freesurrogate, com.isurrogate_freesurrogate, objidlbase/ISurrogate::FreeSurrogate
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: objidl.h
+req.include-header: ObjIdl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: ObjIdl.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: THDTYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	objidlbase.h
+api_name:
+-	ISurrogate.FreeSurrogate
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# ISurrogate::FreeSurrogate method
+
+
+## -description
+
+
+Unloads a DLL server.
+
+
+## -parameters
+
+
+
+
+
+
+## -returns
+
+
+
+This method can return the standard return values E_UNEXPECTED, E_FAIL, and S_OK.
+
+
+
+
+## -remarks
+
+
+
+COM calls <b>FreeSurrogate</b> when there are no more DLL servers running in the surrogate process. When <b>FreeSurrogate</b> is called, the method must properly revoke all of the class factories registered in the surrogate, and then cause the surrogate process to exit.
+
+Surrogate processes must call the <a href="https://msdn.microsoft.com/188e9a3b-39cc-454e-af65-4ac797e275d4">CoFreeUnusedLibraries</a> function periodically to unload DLL servers that are no longer in use. The surrogate process assumes this responsibility, which would normally be the client's responsibility. <b>CoFreeUnusedLibraries</b> calls the <a href="https://msdn.microsoft.com/a47df9eb-97cb-4875-a121-1dabe7bc9db6">DllCanUnloadNow</a> function on any loaded DLL servers. Because <b>CoFreeUnusedLibraries</b> depends on the existence and proper implementation of <b>DllCanUnloadNow</b> in DLL servers, it is not guaranteed to unload all DLL servers that should be unloaded --not every server implements <b>DllCanUnloadNow</b>, and this function is unreliable for free-threaded DLLs. Additionally, the surrogate has no way of being informed when all DLL servers are gone. COM, however, can determine when all DLL servers have been unloaded, and will then call the <b>FreeSurrogate</b> method.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/ae02d828-9cdb-4faa-8fa9-971da97e27b1">DllSurrogate</a>
+
+
+
+<a href="https://msdn.microsoft.com/fbed0514-3646-4744-aa7a-4a98f1a12cc0">ISurrogate</a>
+
+
+
+<a href="https://msdn.microsoft.com/510e38e5-1965-46f4-b09c-6fa585cff993">Writing a Custom Surrogate</a>
+ 
+
+ 
+

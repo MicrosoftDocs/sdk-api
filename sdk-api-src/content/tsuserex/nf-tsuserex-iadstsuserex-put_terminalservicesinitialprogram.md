@@ -1,0 +1,106 @@
+---
+UID: NF:tsuserex.IADsTSUserEx.put_TerminalServicesInitialProgram
+title: IADsTSUserEx::put_TerminalServicesInitialProgram method
+author: windows-driver-content
+description: The path and file name of the application that the user wants to start automatically when the user logs on to the Remote Desktop Session Host (RD Session Host) server.
+old-location: termserv\iadstsuserex_terminalservicesinitialprogram.htm
+old-project: TermServ
+ms.assetid: 43059f13-a1f1-44b2-96ac-2532656a0846
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: IADsTSUserEx, IADsTSUserEx interface [Remote Desktop Services], TerminalServicesInitialProgram property, IADsTSUserEx.TerminalServicesInitialProgram, IADsTSUserEx::get_TerminalServicesInitialProgram, IADsTSUserEx::put_TerminalServicesInitialProgram, TerminalServicesInitialProgram property [Remote Desktop Services], TerminalServicesInitialProgram property [Remote Desktop Services], IADsTSUserEx interface, put_TerminalServicesInitialProgram,IADsTSUserEx.put_TerminalServicesInitialProgram, termserv.iadstsuserex_terminalservicesinitialprogram, tsuserex/IADsTSUserEx::TerminalServicesInitialProgram, tsuserex/IADsTSUserEx::get_TerminalServicesInitialProgram, tsuserex/IADsTSUserEx::put_TerminalServicesInitialProgram
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: tsuserex.h
+req.include-header: Tsuserex.h, Tsuserex_i.c
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: Tsuserex.tlb
+req.typenames: WTSSBX_SESSION_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Tsuserex.dll
+api_name:
+-	IADsTSUserEx.TerminalServicesInitialProgram
+-	IADsTSUserEx.get_TerminalServicesInitialProgram
+-	IADsTSUserEx.put_TerminalServicesInitialProgram
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Tsuserex.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# IADsTSUserEx::put_TerminalServicesInitialProgram method
+
+
+## -description
+
+
+The path and file name of the application that the user wants to start automatically when the user logs on to the Remote Desktop Session Host (RD Session Host) server.
+
+This property is read/write.
+
+
+## -parameters
+
+
+## -remarks
+
+
+
+To set an initial application to start when the user logs on, you must first set this property and then set the <a href="https://msdn.microsoft.com/66048329-ae5a-4e70-b6a4-dcdc312a74df">TerminalServicesWorkDirectory</a> property. If you set only the <b>TerminalServicesInitialProgram</b> property, the application starts in the user's session in the default user directory.
+
+
+#### Examples
+
+The following example shows a script that binds to the Active Directory database without credentials.
+
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Set DSO = GetObject("LDAP:")
+Set usr = DSO.OpenDSObject(
+    "LDAP://DOMAIN/CN=Test,CN=Users,DC=Server1,DC=Domain,DC=com")
+Wscript.echo usr.TerminalServicesWorkDirectory
+Wscript.echo usr.TerminalServicesInitialProgram
+usr.TerminalServicesInitialProgram= "cmd.exe"
+usr.TerminalServicesWorkDirectory= "D:\path"
+usr.SetInfo
+WScript.echo usr.TerminalServicesInitialProgram
+Wscript.echo usr.TerminalServicesWorkDirectory
+</pre>
+</td>
+</tr>
+</table></span></div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/7af8fe94-15db-49dc-ba4a-b79601205f59">IADsTSUserEx</a>
+ 
+
+ 
+

@@ -1,0 +1,98 @@
+---
+UID: NF:mswmdm.IWMDeviceManager2.Reinitialize
+title: IWMDeviceManager2::Reinitialize method
+author: windows-driver-content
+description: The Reinitialize method forces Windows Media Device Manager to rediscover all the Windows Media Device Manager devices.
+old-location: wmdm\iwmdevicemanager2_reinitialize.htm
+old-project: WMDM
+ms.assetid: 9eabf5ff-96e1-426f-ae31-197a2165a743
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: IWMDeviceManager2, IWMDeviceManager2 interface [windows Media Device Manager], Reinitialize method, IWMDeviceManager2::Reinitialize, IWMDeviceManager2Reinitialize, Reinitialize method [windows Media Device Manager], Reinitialize method [windows Media Device Manager], IWMDeviceManager2 interface, Reinitialize,IWMDeviceManager2.Reinitialize, mswmdm/IWMDeviceManager2::Reinitialize, wmdm.iwmdevicemanager2_reinitialize
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: mswmdm.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MSVidCtlStateList
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mssachlp.lib
+-	mssachlp.dll
+api_name:
+-	IWMDeviceManager2.Reinitialize
+product: Windows
+targetos: Windows
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# IWMDeviceManager2::Reinitialize method
+
+
+## -description
+
+
+
+The <b>Reinitialize</b> method forces Windows Media Device Manager to rediscover all the Windows Media Device Manager devices.
+
+
+
+
+## -parameters
+
+
+
+
+
+
+## -returns
+
+
+
+If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+Windows Media Device Manager monitors Plug and Play (PnP) notifications to keep track of connected devices which are controlled by a PnP-compliant service provider. If a non-compliant device is plugged in or some other changes are made to a device for which the device does not generate PnP notifications (for example, insertion or removal of a storage card), the application should call this method before calling <a href="https://msdn.microsoft.com/b5015263-23f2-466f-a89f-26c14f7a2263">IWMDeviceManager2::EnumDevices2</a>. The application would typically do this on a refresh request from the user.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/ea4bf623-c93a-4c0f-a84f-e3a979b37d60">IWMDeviceManager2 Interface</a>
+
+
+
+<a href="https://msdn.microsoft.com/b5015263-23f2-466f-a89f-26c14f7a2263">IWMDeviceManager2::EnumDevices2</a>
+ 
+
+ 
+

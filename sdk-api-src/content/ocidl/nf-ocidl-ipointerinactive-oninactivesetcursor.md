@@ -1,0 +1,149 @@
+---
+UID: NF:ocidl.IPointerInactive.OnInactiveSetCursor
+title: IPointerInactive::OnInactiveSetCursor method
+author: windows-driver-content
+description: Sets the mouse pointer for an inactive object. This method is called by the container on receipt of a WM_SETCURSOR method when an inactive object is under the mouse pointer.
+old-location: com\ipointerinactive_oninactivesetcursor.htm
+old-project: com
+ms.assetid: f2c87f5e-5c8e-487c-ad18-ea95f334e01d
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: IPointerInactive, IPointerInactive interface [COM], OnInactiveSetCursor method, IPointerInactive::OnInactiveSetCursor, OnInactiveSetCursor method [COM], OnInactiveSetCursor method [COM], IPointerInactive interface, OnInactiveSetCursor,IPointerInactive.OnInactiveSetCursor, _ctrl_ipointerinactive_oninactivesetcursor, com.ipointerinactive_oninactivesetcursor, ocidl/IPointerInactive::OnInactiveSetCursor
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: ocidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: OCIdl.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: VIEWSTATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	OCIdl.h
+api_name:
+-	IPointerInactive.OnInactiveSetCursor
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# IPointerInactive::OnInactiveSetCursor method
+
+
+## -description
+
+
+Sets the mouse pointer for an inactive object. This method is called by the container on receipt of a WM_SETCURSOR method when an inactive object is under the mouse pointer.
+
+
+## -parameters
+
+
+
+
+### -param pRectBounds [in]
+
+The object bounding rectangle specified in client coordinate units of the containing window. This parameter tells the object its exact position and size on the screen when the WM_SETCURSOR message was received. This value is specified in units of the client's coordinate system.
+
+
+### -param x [in]
+
+The horizontal coordinate of mouse location in units of the client's containing window.
+
+
+### -param y [in]
+
+The vertical coordinate of mouse location in units of the client's containing window.
+
+
+### -param dwMouseMsg [in]
+
+The identifier of the mouse message for which a WM_SETCURSOR occurred.
+
+
+### -param fSetAlways [in]
+
+If this value is <b>TRUE</b>, the object must set the cursor; if this value is <b>FALSE</b>, the object is not obligated to set the cursor, and should return S_FALSE in that case.
+
+
+## -returns
+
+
+
+This method can return the standard return value E_FAIL, as well as the following values.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The mouse pointer was successfully set.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_FALSE</b></dt>
+</dl>
+</td>
+<td width="60%">
+The object did not set the cursor; the container should either set the cursor or call the object again with the parameter <i>fSetAlways</i> set to <b>TRUE</b>.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+The container calls this method to set the mouse pointer over an inactive object after checking the object's activation policy by calling the <a href="https://msdn.microsoft.com/bbdea7e1-620f-4b2b-8ac9-77061b8cfc1a">IPointerInactive::GetActivationPolicy</a> method. If the object has not requested to be activated in-place through that call, the container dispatches subsequent WM_SETCURSOR messages to the inactive object by calling <b>OnInactiveSetCursor</b> as long as the mouse pointer stays over the object.
+
+
+
+To avoid rounding errors and to make the job easier on the object implementer, this method takes window coordinates in the units of its containing client window, that is, the window in which the object is displayed, instead of the usual <b>HIMETRIC</b> units. Thus, the same coordinates and code path can be used when the object is active and inactive. The window coordinates specify the mouse position. The bounding rectangle is also specified in the same coordinate system.
+
+<b>OnInactiveSetCursor</b> takes an additional parameter, <i>fSetAlways</i>, that indicates whether the object is obligated to set the cursor or not. Containers should first call this method with this parameter <b>FALSE</b>. The object may return S_FALSE to indicate that it did not set the cursor. In that case, the container should either set the cursor itself, or, if it does not wish to do this, call the <b>OnInactiveSetCursor</b> method again with <i>fSetAlways</i> being <b>TRUE</b>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/dc08d512-6994-419a-a460-6274ce74e40f">IPointerInactive</a>
+ 
+
+ 
+

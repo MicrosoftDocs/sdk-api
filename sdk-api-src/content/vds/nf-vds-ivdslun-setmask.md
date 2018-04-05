@@ -1,0 +1,258 @@
+---
+UID: NF:vds.IVdsLun.SetMask
+title: IVdsLun::SetMask method
+author: windows-driver-content
+description: Specifies the unmasking list, which is the list of computers to be granted access to the LUN.
+old-location: base\ivdslun_setmask.htm
+old-project: VDS
+ms.assetid: b7e841cc-95b4-452f-ac14-d7063fe6a694
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: IVdsLun, IVdsLun interface [VDS], SetMask method, IVdsLun::SetMask, SetMask method [VDS], SetMask method [VDS], IVdsLun interface, SetMask,IVdsLun.SetMask, base.ivdslun_setmask, vds/IVdsLun::SetMask, vdshwprv/IVdsLun::SetMask
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: vds.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: VDS_VOLUME_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Uuid.lib
+-	Uuid.dll
+api_name:
+-	IVdsLun.SetMask
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
+req.product: Windows UI
+---
+
+# IVdsLun::SetMask method
+
+
+## -description
+
+
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://msdn.microsoft.com/536aafd2-cc04-48cc-8ee7-920efbba2a5f">Virtual Disk Service</a> COM interface is superseded by the <a href="https://msdn.microsoft.com/ff5e492d-5e62-4c9b-8f55-07859c9fee83">Windows Storage Management API</a>.]
+
+Specifies the unmasking list, 
+   which is the list of computers to be granted access to the LUN.
+
+
+## -parameters
+
+
+
+
+### -param pwszUnmaskingList [in]
+
+A list specifying the computers to be granted access to the LUN. The list is a semicolon-delimited, 
+       NULL-terminated, human-readable string. 
+
+If the value is "*", all computers that have an HBA 
+       port attached to the storage subsystem are to be granted access to the LUN. <div class="alert"><b>Note</b>  In practice, if the value is "*", most hardware providers only grant the ports and initiators on the local computer access to the LUN.</div>
+<div> </div>
+
+
+If the value is 
+       "", access is revoked for all computers that were previously granted access to the LUN.
+
+If "*" or "" is specified, no other value can be specified.
+
+For Fibre Channel networks and serial attached SCSI (SAS) networks, each entry is a 64-bit World-Wide Name (WWN) of each port to which the LUN is 
+       unmasked, formatted as a hexadecimal string (16 characters long), most significant byte first. For example, a 
+       WWN address of 01:23:45:67:89:AB:CD:EF is represented as "0123456789ABCDEF". For more information, see the T10 specifications for <a href="http://go.microsoft.com/fwlink/p/?linkid=179932">Fibre Channel</a> and <a href="http://go.microsoft.com/fwlink/p/?linkid=179931">SAS</a>.
+
+For iSCSI networks, each entry is an iSCSI qualified name (IQN) of each initiator to which the LUN is 
+       unmasked. A LUN unmasked to a particular initiator is considered to be associated with that initiator.
+
+<div class="alert"><b>Note</b>  The unmasking list can contain the same WWN or IQN more than once. The caller is not expected to remove 
+       duplicates from the list or to validate the format of the WWN or iSCSI name. In addition, access is not 
+       cumulative. In other words, if this method is called twice in succession, only the computers specified in the 
+       second call are granted access.</div>
+<div> </div>
+
+## -returns
+
+
+
+This method can return standard <b>HRESULT</b> values, such as 
+      <b>E_INVALIDARG</b> or <b>E_OUTOFMEMORY</b>, and 
+      <a href="https://msdn.microsoft.com/c9ddd3b7-f017-4880-976a-c879a40dc17b">VDS-specific return values</a>. It 
+      can also return converted <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a> using 
+      the <a href="_com_hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Errors can originate 
+      from VDS itself or from the underlying <a href="https://msdn.microsoft.com/b2f7628c-b567-40a9-9ad7-6c47077af5fb">VDS provider</a> that is 
+      being used. Possible return values include the following.
+
+<table>
+<tr>
+<th>Return code/value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>VDS_E_PROVIDER_CACHE_CORRUPT</b></dt>
+<dt>0x8004241FL</dt>
+</dl>
+</td>
+<td width="60%">
+This return value signals a software or communication problem inside a provider that caches information 
+        about the array. Use the 
+        <a href="https://msdn.microsoft.com/aeb06a98-8896-446f-abd5-ea40be0bea40">IVdsHwProvider::Reenumerate</a> method 
+        followed by the 
+        <a href="https://msdn.microsoft.com/25ddc73c-5d1b-4bec-bbc2-9f22a5f82ffe">IVdsHwProvider::Refresh</a> method to restore 
+        the cache.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>VDS_E_OBJECT_DELETED</b></dt>
+<dt>0x8004240BL</dt>
+</dl>
+</td>
+<td width="60%">
+The LUN object is no longer present.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>VDS_E_OBJECT_STATUS_FAILED</b></dt>
+<dt>0x80042431L</dt>
+</dl>
+</td>
+<td width="60%">
+The LUN is in a failed state, and is unable to perform the requested operation.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>VDS_E_ANOTHER_CALL_IN_PROGRESS</b></dt>
+<dt>0x80042404L</dt>
+</dl>
+</td>
+<td width="60%">
+Another operation is in progress; this operation cannot proceed until the previous operation or 
+        operations are complete.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+Before calling the <b>SetMask</b> method to mask a LUN, 
+    the caller should uninstall the corresponding disks as follows. First, retrieve the VDS object ID of the disk that 
+    corresponds to the LUN being masked by calling 
+    <a href="https://msdn.microsoft.com/0059bb30-2799-4a41-8a5c-bae3aa2bcfc4">IVdsServiceUninstallDisk::GetDiskIdFromLunInfo</a>. 
+    Then call 
+    <a href="https://msdn.microsoft.com/65c5444f-7e97-4746-9d74-561dc435212d">IVdsServiceUninstallDisk::UninstallDisks</a> 
+    with the VDS object ID of the disk.
+
+<b>Windows Server 2003 and Windows Server 2003 with SP1:  </b>To uninstall the corresponding disks, perform the following steps. Note that these steps became obsolete 
+     with Windows Server 2003 R2.
+     <ol>
+<li>Locate the volumes on the disks to be masked as follows:
+       <ol>
+<li>For each disk, call the 
+         <a href="https://msdn.microsoft.com/2e7de42f-da7a-41a7-b38e-849ab8d72ab2">IVdsDisk::QueryExtents</a> method to enumerate 
+         the disk extents. This method returns a list of 
+         <a href="https://msdn.microsoft.com/79fa7b8a-9d24-49ab-8e5d-1471b023c459">VDS_DISK_EXTENT</a> structures. The 
+         <b>volumeId</b> member of this structure contains the volume 
+         <b>GUID</b>.</li>
+<li>Enumerate the volumes managed by the software provider by calling the 
+         <a href="https://msdn.microsoft.com/f30494d8-ae82-479d-a47a-7087129e7e6a">IVdsSwProvider::QueryPacks</a> method to 
+         enumerate the packs and calling 
+         <a href="https://msdn.microsoft.com/43f9972d-14a6-4674-bf90-741ad3a9eb0d">IVdsPack::QueryVolumes</a> to enumerate the 
+         volumes in each pack. Call 
+         <a href="https://msdn.microsoft.com/ba4a92c9-35f1-463a-8fa3-1a0d78720555">IVdsVolume::GetProperties</a> to obtain the 
+         <a href="https://msdn.microsoft.com/3628b312-f830-4a1c-beb7-ad002a94313c">VDS_VOLUME_PROP</a> structure for each volume. The 
+         <b>id</b> member of this structure contains the volume <b>GUID</b>. 
+         The <b>pwszName</b> member contains the volume name to be passed to 
+         <a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a> to obtain a volume handle.</li>
+<li>Use the volume GUIDs that were obtained by calling 
+         <a href="https://msdn.microsoft.com/2e7de42f-da7a-41a7-b38e-849ab8d72ab2">IVdsDisk::QueryExtents</a> to determine which of 
+         the volume names you will need from the list of enumerated volumes.</li>
+</ol>
+</li>
+<li>Lock each volume by using the <a href="https://msdn.microsoft.com/b59b5c5e-6719-47a8-8810-14b60204e5ed">FSCTL_LOCK_VOLUME</a> 
+       control code. If the LUN is being moved to another machine as an intact volume, and another application holds a 
+       volume lock, you should retry the <b>FSCTL_LOCK_VOLUME</b> 
+       operation if possible before continuing on to the next step. However, if the volume is only being locked and 
+       dismounted because it is being deleted, there is no need to retry the 
+       <b>FSCTL_LOCK_VOLUME</b> operation.
+       <div class="alert"><b>Note</b>  This step is optional. The purpose of this step is to allow other applications that may hold locks to 
+        release them. Even if the lock operation fails, you should continue on to the next step.</div>
+<div> </div>
+</li>
+<li>Dismount each volume by using the 
+       <a href="https://msdn.microsoft.com/library/windows/hardware/ff728857">FSCTL_DISMOUNT_VOLUME</a> control code.</li>
+<li>If the volumes are on basic disks, take them offline by using the 
+       <a href="https://msdn.microsoft.com/library/windows/hardware/ff561431">IOCTL_VOLUME_OFFLINE</a> control code.</li>
+<li>Uninstall each volume using the <b>SetupDiCallClassInstaller</b> function, 
+       passing <b>DIF_REMOVE</b> for the <i>InstallFunction</i> parameter.</li>
+<li>Uninstall each disk using the <b>SetupDiCallClassInstaller</b> function, passing 
+       <b>DIF_REMOVE</b> for the <i>InstallFunction</i> parameter.</li>
+<li>Remove user-mode paths, such as mounted folders and drive-letter assignments, from the registry by calling 
+       the 
+       <a href="https://msdn.microsoft.com/93ed7789-be60-422c-be4f-e70e16d26fce">IVdsService::CleanupObsoleteMountPoints</a> 
+       method.</li>
+</ol>
+
+
+After a LUN is unmasked to a target machine or masked from a target machine, the LUN's visibility on that 
+    machine may not change until a bus rescan is performed. The VDS application on the target machine initiates the 
+    bus rescan by calling <a href="https://msdn.microsoft.com/d057715c-dfd5-4b69-9e33-c40fb89fa11b">IVdsService::Reenumerate</a>. 
+    The initiating of the bus rescan is the responsibility of the VDS application, not the hardware provider.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/aeb06a98-8896-446f-abd5-ea40be0bea40">IVdsHwProvider::Reenumerate</a>
+
+
+
+<a href="https://msdn.microsoft.com/25ddc73c-5d1b-4bec-bbc2-9f22a5f82ffe">IVdsHwProvider::Refresh</a>
+
+
+
+<a href="https://msdn.microsoft.com/e2fbebc0-593e-437c-a401-80e35a43da94">IVdsLun</a>
+ 
+
+ 
+

@@ -1,0 +1,115 @@
+---
+UID: NF:setupapi.SetupDecompressOrCopyFileW
+title: SetupDecompressOrCopyFileW function
+author: windows-driver-content
+description: The SetupDecompressOrCopyFile function copies a file, decompressing it if necessary.
+old-location: setup\setupdecompressorcopyfile.htm
+old-project: SetupApi
+ms.assetid: 6058567b-fa34-472b-91d8-3c5f9ee741b1
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: SetupDecompressOrCopyFile, SetupDecompressOrCopyFile function [Setup API], SetupDecompressOrCopyFileA, SetupDecompressOrCopyFileW, _setupapi_setupdecompressorcopyfile, setup.setupdecompressorcopyfile, setupapi/SetupDecompressOrCopyFile, setupapi/SetupDecompressOrCopyFileA, setupapi/SetupDecompressOrCopyFileW
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: setupapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: SetupDecompressOrCopyFileW (Unicode) and SetupDecompressOrCopyFileA (ANSI)
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Setupapi.dll
+api_name:
+-	SetupDecompressOrCopyFile
+-	SetupDecompressOrCopyFileA
+-	SetupDecompressOrCopyFileW
+product: Windows
+targetos: Windows
+req.lib: Setupapi.lib
+req.dll: Setupapi.dll
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# SetupDecompressOrCopyFileW function
+
+
+## -description
+
+
+<p class="CCE_Message">[This function is available for use in the operating systems indicated in the Requirements section. It may be altered or unavailable in subsequent versions.   SetupAPI should no longer be used for installing applications. Instead, use the Windows Installer for developing application installers. SetupAPI continues to be used for installing device drivers.]
+
+The 
+<b>SetupDecompressOrCopyFile</b> function copies a file, decompressing it if necessary.
+
+If a file is copied, the caller of this function is required have privileges to write into the target directory.
+
+
+## -parameters
+
+
+
+
+### -param SourceFileName [in]
+
+File name of the file to be copied. You should use a <b>null</b>-terminated string. This parameter can be <b>NULL</b>. If <i>CompressionType</i> is not specified and the 
+<b>SetupDecompressOrCopyFile</b> function does not find the file specified in <i>SourceFileName</i>, the function searches for the file with up to two alternate, "compressed-form" names. For example, if the file is F:\x86\cmd.exe and it is not found, the function searches for F:\x86\cmd.ex_ and, if that is not found, F:\x86\cmd.ex$ is searched for. If <i>CompressionType</i> is specified, no additional processing is performed on the filename; the file must exist exactly as specified or the function fails.
+
+
+### -param TargetFileName [in]
+
+Exact name of the target file that will be created by decompressing or copying the source file. You should use a <b>null</b>-terminated string. 
+
+
+### -param CompressionType [in]
+
+Optional pointer to the compression type used on the source file. You can determine the compression type by calling 
+<a href="https://msdn.microsoft.com/68bcfbb3-f0ba-412b-9ed2-e2139099fcf2">SetupGetFileCompressionInfo</a>. If this value is FILE_COMPRESSION_NONE, the file is copied (not decompressed) regardless of any compression in use on the source. If <i>CompressionType</i> is not specified, this routine determines the compression type automatically.
+
+
+## -returns
+
+
+
+The 
+<b>SetupDecompressOrCopyFile</b> function returns a <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a> that indicates the outcome of the operation. 
+
+To get extended error information, call 
+<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn938561">Functions</a>
+
+
+
+<a href="https://msdn.microsoft.com/58201596-cb8c-480a-abef-896c1f9ef098">Overview</a>
+
+
+
+<a href="https://msdn.microsoft.com/68bcfbb3-f0ba-412b-9ed2-e2139099fcf2">SetupGetFileCompressionInfo</a>
+ 
+
+ 
+

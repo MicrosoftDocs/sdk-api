@@ -1,0 +1,88 @@
+---
+UID: NF:searchapi.ISearchCrawlScopeManager.RemoveDefaultScopeRule
+title: ISearchCrawlScopeManager::RemoveDefaultScopeRule method
+author: windows-driver-content
+description: Removes a default scope rule from the search engine.
+old-location: search\_search_ISearchCrawlScopeManager_RemoveDefaultScopeRule.htm
+old-project: search
+ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager\removedefaultscoperule.htm
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: ISearchCrawlScopeManager, ISearchCrawlScopeManager interface [search], RemoveDefaultScopeRule method, ISearchCrawlScopeManager::RemoveDefaultScopeRule, RemoveDefaultScopeRule method [search], RemoveDefaultScopeRule method [search], ISearchCrawlScopeManager interface, RemoveDefaultScopeRule,ISearchCrawlScopeManager.RemoveDefaultScopeRule, _search_ISearchCrawlScopeManager_RemoveDefaultScopeRule, search._search_ISearchCrawlScopeManager_RemoveDefaultScopeRule, searchapi/ISearchCrawlScopeManager::RemoveDefaultScopeRule
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: searchapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Searchcrawlscopemanager.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: ROWSETEVENT_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Searchapi.h
+api_name:
+-	ISearchCrawlScopeManager.RemoveDefaultScopeRule
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# ISearchCrawlScopeManager::RemoveDefaultScopeRule method
+
+
+## -description
+
+
+Removes a default scope rule from the search engine.
+
+
+## -parameters
+
+
+
+
+### -param pszURL [in]
+
+Type: <b>LPCWSTR</b>
+
+A string identifying the URL or pattern of the default rule to be removed.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+Returns S_OK if successful, or an error otherwise.
+
+
+
+
+## -remarks
+
+
+
+URLs passed in as parameters to <b>ISearchCrawlScopeManager::RemoveDefaultScopeRule</b> are expected to be fully URL-decoded and without URL control codes. For example, file:///c:\My Documents is fully URL-decoded, whereas file:///c:\My%20Documents is not.
+
+<b>Windows 7 and later</b>: the CrawlScopeCommandLine code sample, available on <a href="http://go.microsoft.com/fwlink/p/?linkid=155654">Code Gallery</a> and the <a href="http://go.microsoft.com/fwlink/p/?linkid=129787">Windows 7 SDK</a>, demonstrates how to define command line options for Crawl Scope Manager (CSM) indexing operations.
+
+
+

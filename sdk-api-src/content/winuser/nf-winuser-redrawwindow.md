@@ -1,0 +1,304 @@
+---
+UID: NF:winuser.RedrawWindow
+title: RedrawWindow function
+author: windows-driver-content
+description: The RedrawWindow function updates the specified rectangle or region in a window's client area.
+old-location: gdi\redrawwindow.htm
+old-project: gdi
+ms.assetid: c6cb7f74-237e-4d3e-a852-894da36e990c
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: RDW_ALLCHILDREN, RDW_ERASE, RDW_ERASENOW, RDW_FRAME, RDW_INTERNALPAINT, RDW_INVALIDATE, RDW_NOCHILDREN, RDW_NOERASE, RDW_NOFRAME, RDW_NOINTERNALPAINT, RDW_UPDATENOW, RDW_VALIDATE, RedrawWindow, RedrawWindow function [Windows GDI], _win32_RedrawWindow, gdi.redrawwindow, winuser/RedrawWindow
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: winuser.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: AR_STATE, *PAR_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	user32.dll
+-	API-MS-Win-RTCore-NTUser-Draw-l1-1-0.dll
+-	minuser.dll
+-	Ext-MS-Win-NTUser-Draw-l1-1-0.dll
+-	Ext-MS-Win-NTUser-Draw-l1-1-1.dll
+-	ext-ms-win-ntuser-draw-l1-1-2.dll
+-	Ext-MS-Win-RTCore-NTUser-Draw-Ext-L1-1-0.dll
+api_name:
+-	RedrawWindow
+product: Windows
+targetos: Windows
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# RedrawWindow function
+
+
+## -description
+
+
+The <b>RedrawWindow</b> function updates the specified rectangle or region in a window's client area.
+
+
+## -parameters
+
+
+
+
+### -param hWnd [in]
+
+A handle to the window to be redrawn. If this parameter is <b>NULL</b>, the desktop window is updated.
+
+
+### -param lprcUpdate [in]
+
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure containing the coordinates, in device units, of the update rectangle. This parameter is ignored if the <i>hrgnUpdate</i> parameter identifies a region.
+
+
+### -param hrgnUpdate [in]
+
+A handle to the update region. If both the <i>hrgnUpdate</i> and <i>lprcUpdate</i> parameters are <b>NULL</b>, the entire client area is added to the update region.
+
+
+### -param flags [in]
+
+One or more redraw flags. This parameter can be used to invalidate or validate a window, control repainting, and control which windows are affected by <b>RedrawWindow</b>.
+
+The following flags are used to invalidate the window.
+
+<table>
+<tr>
+<th>Flag (invalidation)</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%"><a id="RDW_ERASE"></a><a id="rdw_erase"></a><dl>
+<dt><b>RDW_ERASE</b></dt>
+</dl>
+</td>
+<td width="60%">
+Causes the window to receive a <a href="_win32_wm_erasebkgnd_cpp">WM_ERASEBKGND</a> message when the window is repainted. The RDW_INVALIDATE flag must also be specified; otherwise, RDW_ERASE has no effect.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="RDW_FRAME"></a><a id="rdw_frame"></a><dl>
+<dt><b>RDW_FRAME</b></dt>
+</dl>
+</td>
+<td width="60%">
+Causes any part of the nonclient area of the window that intersects the update region to receive a <a href="https://msdn.microsoft.com/d8a2a8b9-2c5d-484c-be09-67eb33de67c0">WM_NCPAINT</a> message. The RDW_INVALIDATE flag must also be specified; otherwise, RDW_FRAME has no effect. The <b>WM_NCPAINT</b> message is typically not sent during the execution of <b>RedrawWindow</b> unless either RDW_UPDATENOW or RDW_ERASENOW is specified.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="RDW_INTERNALPAINT"></a><a id="rdw_internalpaint"></a><dl>
+<dt><b>RDW_INTERNALPAINT</b></dt>
+</dl>
+</td>
+<td width="60%">
+Causes a <a href="https://msdn.microsoft.com/afebaa07-cf00-47db-a919-46436f164881">WM_PAINT</a> message to be posted to the window regardless of whether any portion of the window is invalid.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="RDW_INVALIDATE"></a><a id="rdw_invalidate"></a><dl>
+<dt><b>RDW_INVALIDATE</b></dt>
+</dl>
+</td>
+<td width="60%">
+Invalidates <i>lprcUpdate</i> or <i>hrgnUpdate</i> (only one may be non-<b>NULL</b>). If both are <b>NULL</b>, the entire window is invalidated.
+
+</td>
+</tr>
+</table>
+ 
+
+The following flags are used to validate the window.
+
+<table>
+<tr>
+<th>Flag (validation)</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%"><a id="RDW_NOERASE"></a><a id="rdw_noerase"></a><dl>
+<dt><b>RDW_NOERASE</b></dt>
+</dl>
+</td>
+<td width="60%">
+Suppresses any pending <a href="_win32_wm_erasebkgnd_cpp">WM_ERASEBKGND</a> messages.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="RDW_NOFRAME"></a><a id="rdw_noframe"></a><dl>
+<dt><b>RDW_NOFRAME</b></dt>
+</dl>
+</td>
+<td width="60%">
+Suppresses any pending <a href="https://msdn.microsoft.com/d8a2a8b9-2c5d-484c-be09-67eb33de67c0">WM_NCPAINT</a> messages. This flag must be used with RDW_VALIDATE and is typically used with RDW_NOCHILDREN. RDW_NOFRAME should be used with care, as it could cause parts of a window to be painted improperly.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="RDW_NOINTERNALPAINT"></a><a id="rdw_nointernalpaint"></a><dl>
+<dt><b>RDW_NOINTERNALPAINT</b></dt>
+</dl>
+</td>
+<td width="60%">
+Suppresses any pending internal <a href="https://msdn.microsoft.com/afebaa07-cf00-47db-a919-46436f164881">WM_PAINT</a> messages. This flag does not affect <b>WM_PAINT</b> messages resulting from a non-<b>NULL</b> update area.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="RDW_VALIDATE"></a><a id="rdw_validate"></a><dl>
+<dt><b>RDW_VALIDATE</b></dt>
+</dl>
+</td>
+<td width="60%">
+Validates <i>lprcUpdate</i> or <i>hrgnUpdate</i> (only one may be non-<b>NULL</b>). If both are <b>NULL</b>, the entire window is validated. This flag does not affect internal <a href="https://msdn.microsoft.com/afebaa07-cf00-47db-a919-46436f164881">WM_PAINT</a> messages.
+
+</td>
+</tr>
+</table>
+ 
+
+The following flags control when repainting occurs. <b>RedrawWindow</b> will not repaint unless one of these flags is specified.
+
+<table>
+<tr>
+<th>Flag</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%"><a id="RDW_ERASENOW"></a><a id="rdw_erasenow"></a><dl>
+<dt><b>RDW_ERASENOW</b></dt>
+</dl>
+</td>
+<td width="60%">
+Causes the affected windows (as specified by the RDW_ALLCHILDREN and RDW_NOCHILDREN flags) to receive <a href="https://msdn.microsoft.com/d8a2a8b9-2c5d-484c-be09-67eb33de67c0">WM_NCPAINT</a> and <a href="_win32_wm_erasebkgnd_cpp">WM_ERASEBKGND</a> messages, if necessary, before the function returns. <a href="https://msdn.microsoft.com/afebaa07-cf00-47db-a919-46436f164881">WM_PAINT</a> messages are received at the ordinary time.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="RDW_UPDATENOW"></a><a id="rdw_updatenow"></a><dl>
+<dt><b>RDW_UPDATENOW</b></dt>
+</dl>
+</td>
+<td width="60%">
+Causes the affected windows (as specified by the RDW_ALLCHILDREN and RDW_NOCHILDREN flags) to receive <a href="https://msdn.microsoft.com/d8a2a8b9-2c5d-484c-be09-67eb33de67c0">WM_NCPAINT</a>, <a href="_win32_wm_erasebkgnd_cpp">WM_ERASEBKGND</a>, and <a href="https://msdn.microsoft.com/afebaa07-cf00-47db-a919-46436f164881">WM_PAINT</a> messages, if necessary, before the function returns.
+
+</td>
+</tr>
+</table>
+ 
+
+By default, the windows affected by <b>RedrawWindow</b> depend on whether the specified window has the WS_CLIPCHILDREN style. Child windows that are not the WS_CLIPCHILDREN style are unaffected; non-WS_CLIPCHILDREN windows are recursively validated or invalidated until a WS_CLIPCHILDREN window is encountered. The following flags control which windows are affected by the <b>RedrawWindow</b> function.
+
+<table>
+<tr>
+<th>Flag</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%"><a id="RDW_ALLCHILDREN"></a><a id="rdw_allchildren"></a><dl>
+<dt><b>RDW_ALLCHILDREN</b></dt>
+</dl>
+</td>
+<td width="60%">
+Includes child windows, if any, in the repainting operation.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="RDW_NOCHILDREN"></a><a id="rdw_nochildren"></a><dl>
+<dt><b>RDW_NOCHILDREN</b></dt>
+</dl>
+</td>
+<td width="60%">
+Excludes child windows, if any, from the repainting operation.
+
+</td>
+</tr>
+</table>
+ 
+
+
+## -returns
+
+
+
+If the function succeeds, the return value is nonzero.
+
+If the function fails, the return value is zero.
+
+
+
+
+## -remarks
+
+
+
+When <b>RedrawWindow</b> is used to invalidate part of the desktop window, the desktop window does not receive a <a href="https://msdn.microsoft.com/afebaa07-cf00-47db-a919-46436f164881">WM_PAINT</a> message. To repaint the desktop, an application uses the RDW_ERASE flag to generate a <a href="_win32_wm_erasebkgnd_cpp">WM_ERASEBKGND</a> message.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/e54483a1-8738-4b22-a24e-c0b31f6ca9d6">GetUpdateRect</a>
+
+
+
+<a href="https://msdn.microsoft.com/d80c4b44-3f50-46f9-bf5a-fff7868d91ba">GetUpdateRgn</a>
+
+
+
+<a href="https://msdn.microsoft.com/5a823d36-d08b-41c9-8857-540576f54b55">InvalidateRect</a>
+
+
+
+<a href="https://msdn.microsoft.com/b5b44efe-8045-4e54-89f9-1766689a053d">InvalidateRgn</a>
+
+
+
+<a href="https://msdn.microsoft.com/ec18323e-c13b-4328-83bf-9e4ed4a712b8">Painting and Drawing Functions</a>
+
+
+
+<a href="https://msdn.microsoft.com/8e6034af-4dea-4579-b476-52f6dd3d5bc7">Painting and Drawing Overview</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
+
+
+
+<a href="https://msdn.microsoft.com/51a50f1f-7b4d-4acd-83a0-1877f5181766">UpdateWindow</a>
+ 
+
+ 
+

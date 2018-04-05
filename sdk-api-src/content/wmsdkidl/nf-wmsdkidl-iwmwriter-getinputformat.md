@@ -1,0 +1,138 @@
+---
+UID: NF:wmsdkidl.IWMWriter.GetInputFormat
+title: IWMWriter::GetInputFormat method
+author: windows-driver-content
+description: The GetInputFormat method retrieves possible media formats for the specified input.
+old-location: wmformat\iwmwriter_getinputformat.htm
+old-project: wmformat
+ms.assetid: c058de81-a29a-4bcd-a819-3cdef11cae9f
+ms.author: windowsdriverdev
+ms.date: 3/23/2018
+ms.keywords: GetInputFormat method [windows Media Format], GetInputFormat method [windows Media Format], IWMWriter interface, GetInputFormat,IWMWriter.GetInputFormat, IWMWriter, IWMWriter interface [windows Media Format], GetInputFormat method, IWMWriter::GetInputFormat, IWMWriterGetInputFormat, wmformat.iwmwriter_getinputformat, wmsdkidl/IWMWriter::GetInputFormat
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wmsdkidl.h
+req.include-header: Wmsdk.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WM_AETYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wmvcore.lib
+-	Wmvcore.dll
+-	WMStubDRM.lib
+-	WMStubDRM.dll
+api_name:
+-	IWMWriter.GetInputFormat
+product: Windows
+targetos: Windows
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IWMWriter::GetInputFormat method
+
+
+## -description
+
+
+
+The <b>GetInputFormat</b> method retrieves possible media formats for the specified input.
+
+
+
+
+## -parameters
+
+
+
+
+### -param dwInputNumber [in]
+
+<b>DWORD</b> containing the input number.
+
+
+### -param dwFormatNumber [in]
+
+<b>DWORD</b> containing the format number.
+
+
+### -param pProps [out]
+
+Pointer to a pointer to an <a href="https://msdn.microsoft.com/d901ac66-d4b3-4256-bd7b-53cccb3de644">IWMInputMediaProps</a> interface.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+<i>dwInputNumber</i> is too large.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/a194ef11-5203-4e85-af91-cdce0c53fe76">IWMWriter Interface</a>
+
+
+
+<a href="https://msdn.microsoft.com/c3afe9e8-e045-4329-b3e5-6026147322ad">IWMWriter::GetInputFormatCount</a>
+
+
+
+<a href="https://msdn.microsoft.com/482adfc4-d9ed-403d-912b-1a5a70baf04c">To Enumerate Input Formats</a>
+ 
+
+ 
+

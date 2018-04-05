@@ -1,0 +1,73 @@
+---
+UID: NN:winsatcominterfacei.IQueryRecentWinSATAssessment
+title: IQueryRecentWinSATAssessment
+author: windows-driver-content
+description: Retrieves details about the results of the most recent formal WinSAT assessment.
+old-location: winsat\iqueryrecentwinsatassessment.htm
+old-project: WinSAT
+ms.assetid: 6849d8b6-d192-4520-a737-39e22e14a70f
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: IQueryRecentWinSATAssessment, IQueryRecentWinSATAssessment interface [WinSAT], IQueryRecentWinSATAssessment interface [WinSAT], described, winsat.iqueryrecentwinsatassessment, winsatcominterfacei/IQueryRecentWinSATAssessment
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: interface
+req.header: winsatcominterfacei.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: None supported
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WINSAT_BITMAP_SIZE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Winsatapi.dll
+api_name:
+-	IQueryRecentWinSATAssessment
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Winsatapi.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IQueryRecentWinSATAssessment interface
+
+
+## -description
+
+
+<p class="CCE_Message">[IQueryRecentWinSATAssessment may be altered or unavailable for releases after Windows 8.1.]
+
+Retrieves details about the results of the most recent formal WinSAT assessment.
+
+To retrieve this interface, call the <a href="_com_cocreateinstance">CoCreateInstance</a> function. Use __uuidof(CQueryWinSAT) as the class identifier and __uuidof(IQueryRecentWinSATAssessment) as the interface identifier.
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/0b299477-50a4-4f61-a0e5-fdbae239503b">IInitiateWinSATAssessment</a>
+
+
+
+<a href="https://msdn.microsoft.com/b78cfaf1-0fce-449c-96f5-76d318f30384">IQueryAllWinSATAssessments</a>
+ 
+
+ 
+

@@ -1,0 +1,269 @@
+---
+UID: NF:winuser.CreateIconFromResourceEx
+title: CreateIconFromResourceEx function
+author: windows-driver-content
+description: Creates an icon or cursor from resource bits describing the icon.
+old-location: menurc\createiconfromresourceex.htm
+old-project: menurc
+ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\icons\iconreference\iconfunctions\createiconfromresourceex.htm
+ms.author: windowsdriverdev
+ms.date: 3/29/2018
+ms.keywords: CreateIconFromResourceEx, CreateIconFromResourceEx function [Menus and Other Resources], LR_DEFAULTCOLOR, LR_DEFAULTSIZE, LR_MONOCHROME, LR_SHARED, _win32_CreateIconFromResourceEx, _win32_createiconfromresourceex_cpp, menurc.createiconfromresourceex, winui._win32_createiconfromresourceex, winuser/CreateIconFromResourceEx
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: winuser.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: AR_STATE, *PAR_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	User32.dll
+api_name:
+-	CreateIconFromResourceEx
+product: Windows
+targetos: Windows
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# CreateIconFromResourceEx function
+
+
+## -description
+
+
+Creates an icon or cursor from resource bits describing the icon.
+
+
+## -parameters
+
+
+
+
+### -param presbits
+
+TBD
+
+
+### -param dwResSize
+
+TBD
+
+
+### -param fIcon [in]
+
+Type: <b>BOOL</b>
+
+Indicates whether an icon or a cursor is to be created. If this parameter is <b>TRUE</b>, an icon is to be created. If it is <b>FALSE</b>, a cursor is to be created. 
+
+
+### -param dwVer
+
+TBD
+
+
+### -param cxDesired [in]
+
+Type: <b>int</b>
+
+The desired width, in pixels, of the icon or cursor. If this parameter is zero, the function uses the <b>SM_CXICON</b> or <b>SM_CXCURSOR</b> system metric value to set the width. 
+
+
+### -param cyDesired [in]
+
+Type: <b>int</b>
+
+The desired height, in pixels, of the icon or cursor. If this parameter is zero, the function uses the <b>SM_CYICON</b> or <b>SM_CYCURSOR</b> system metric value to set the height. 
+
+
+### -param Flags
+
+TBD
+
+
+
+
+#### - cbIconBits [in]
+
+Type: <b>DWORD</b>
+
+The size, in bytes, of the set of bits pointed to by the <i>pbIconBits</i> parameter. 
+
+
+#### - dwVersion [in]
+
+Type: <b>DWORD</b>
+
+The version number of the icon or cursor format for the resource bits pointed to by the <i>pbIconBits</i> parameter. The value must be greater than or equal to 0x00020000 and less than or equal to 0x00030000. This parameter is generally set to 0x00030000. 
+
+
+#### - pbIconBits [in]
+
+Type: <b>PBYTE</b>
+
+The icon or cursor resource bits. These bits are typically loaded by calls to the <a href="https://msdn.microsoft.com/5ab25565-30a5-4d4f-bf41-2ce3948d6f2f">LookupIconIdFromDirectoryEx</a> and <a href="https://msdn.microsoft.com/4c91f571-505d-4959-b337-8f26c91fc573">LoadResource</a> functions. 
+
+
+#### - uFlags [in]
+
+Type: <b>UINT</b>
+
+A combination of the following values.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="LR_DEFAULTCOLOR"></a><a id="lr_defaultcolor"></a><dl>
+<dt><b>LR_DEFAULTCOLOR</b></dt>
+<dt>0x00000000</dt>
+</dl>
+</td>
+<td width="60%">
+Uses the default color format.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="LR_DEFAULTSIZE"></a><a id="lr_defaultsize"></a><dl>
+<dt><b>LR_DEFAULTSIZE</b></dt>
+<dt>0x00000040</dt>
+</dl>
+</td>
+<td width="60%">
+Uses the width or height specified by the system metric values for cursors or icons, if the <i>cxDesired</i> or <i>cyDesired</i> values are set to zero. If this flag is not specified and <i>cxDesired</i> and <i>cyDesired</i> are set to zero, the function uses the actual resource size. If the resource contains multiple images, the function uses the size of the first image.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="LR_MONOCHROME"></a><a id="lr_monochrome"></a><dl>
+<dt><b>LR_MONOCHROME</b></dt>
+<dt>0x00000001</dt>
+</dl>
+</td>
+<td width="60%">
+Creates a monochrome icon or cursor. 
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="LR_SHARED"></a><a id="lr_shared"></a><dl>
+<dt><b>LR_SHARED</b></dt>
+<dt>0x00008000</dt>
+</dl>
+</td>
+<td width="60%">
+Shares the icon or cursor handle if the icon or cursor is created multiple times. If <b>LR_SHARED</b> is not set, a second call to <b>CreateIconFromResourceEx</b> for the same resource will create the icon or cursor again and return a different handle.
+
+When you use this flag, the system will destroy the resource when it is no longer needed. 
+
+Do not use <b>LR_SHARED</b> for icons or cursors that have non-standard sizes, that may change after loading, or that are loaded from a file.
+
+When loading a system icon or cursor, you must use <b>LR_SHARED</b> or the function will fail to load the resource.
+
+</td>
+</tr>
+</table>
+ 
+
+
+## -returns
+
+
+
+Type: <b>HICON</b>
+
+If the function succeeds, the return value is a handle to the icon or cursor.
+
+If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. 
+
+
+
+
+## -remarks
+
+
+
+The <a href="https://msdn.microsoft.com/c5a1c301-0b1f-49b7-9648-9cf706b74e05">CreateIconFromResource</a>, <b>CreateIconFromResourceEx</b>, <a href="https://msdn.microsoft.com/adef864c-22f5-4d72-adc7-02d9b7a09e86">CreateIconIndirect</a>, <a href="https://msdn.microsoft.com/94cc619b-1ca8-4268-9af3-d10d221e093e">GetIconInfo</a>, and <a href="https://msdn.microsoft.com/5ab25565-30a5-4d4f-bf41-2ce3948d6f2f">LookupIconIdFromDirectoryEx</a> functions allow shell applications and icon browsers to examine and use resources throughout the system. 
+
+You should call <a href="https://msdn.microsoft.com/ffe21e34-ebe0-4ec8-830f-64c733ef9097">DestroyIcon</a> for icons created with <b>CreateIconFromResourceEx</b>.
+
+
+#### Examples
+
+For an example, see <a href="using_icons.htm">Sharing Icon Resources</a>.
+
+<div class="code"></div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/02f8ed65-8fed-4dda-9b94-7343a0cfa8c1">BITMAPINFOHEADER</a>
+
+
+
+<b>Conceptual</b>
+
+
+
+<a href="https://msdn.microsoft.com/c5a1c301-0b1f-49b7-9648-9cf706b74e05">CreateIconFromResource</a>
+
+
+
+<a href="https://msdn.microsoft.com/adef864c-22f5-4d72-adc7-02d9b7a09e86">CreateIconIndirect</a>
+
+
+
+<a href="https://msdn.microsoft.com/ffe21e34-ebe0-4ec8-830f-64c733ef9097">DestroyIcon</a>
+
+
+
+<a href="https://msdn.microsoft.com/94cc619b-1ca8-4268-9af3-d10d221e093e">GetIconInfo</a>
+
+
+
+<a href="https://msdn.microsoft.com/1dc588f4-b032-40a8-82ef-5b9fc04abb0b">Icons</a>
+
+
+
+<a href="https://msdn.microsoft.com/4c91f571-505d-4959-b337-8f26c91fc573">LoadResource</a>
+
+
+
+<a href="https://msdn.microsoft.com/5ab25565-30a5-4d4f-bf41-2ce3948d6f2f">LookupIconIdFromDirectoryEx</a>
+
+
+
+<b>Other Resources</b>
+
+
+
+<b>Reference</b>
+ 
+
+ 
+

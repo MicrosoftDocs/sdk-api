@@ -1,0 +1,149 @@
+---
+UID: NF:vmr9.IVMRMixerControl9.GetOutputRect
+title: IVMRMixerControl9::GetOutputRect method
+author: windows-driver-content
+description: The GetOutputRect method retrieves the position of this stream's video rectangle within the composition rectangle.
+old-location: dshow\ivmrmixercontrol9_getoutputrect.htm
+old-project: DirectShow
+ms.assetid: 93d976a4-1c48-4aac-8326-92b1ad9b751c
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: GetOutputRect method [DirectShow], GetOutputRect method [DirectShow], IVMRMixerControl9 interface, GetOutputRect,IVMRMixerControl9.GetOutputRect, IVMRMixerControl9, IVMRMixerControl9 interface [DirectShow], GetOutputRect method, IVMRMixerControl9::GetOutputRect, IVMRMixerControl9GetOutputRect, dshow.ivmrmixercontrol9_getoutputrect, vmr9/IVMRMixerControl9::GetOutputRect
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: vmr9.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: VMR9DeinterlaceTech
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Strmiids.lib
+-	Strmiids.dll
+api_name:
+-	IVMRMixerControl9.GetOutputRect
+product: Windows
+targetos: Windows
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
+req.product: Windows UI
+---
+
+# IVMRMixerControl9::GetOutputRect method
+
+
+## -description
+
+
+
+The <code>GetOutputRect</code> method retrieves the position of this stream's video rectangle within the composition rectangle.
+
+
+
+
+## -parameters
+
+
+
+
+### -param dwStreamID [in]
+
+Specifies the input stream. This value corresponds to the input pin. For example, the first input pin is stream 0.
+
+
+### -param pRect [out]
+
+Pointer to a <a href="https://msdn.microsoft.com/c40a0feb-f33e-40e3-9c58-0a22d2aa1858">NORMALIZEDRECT</a> structure that receives the destination rectangle in composition space.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_POINTER</b></dt>
+</dl>
+</td>
+<td width="60%">
+<i>pRect</i> is invalid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>VFW_E_NOT_CONNECTED</b></dt>
+</dl>
+</td>
+<td width="60%">
+The pin is not connected.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+Because this rectangle exists in compositional space, there is no such thing as an "invalid" rectangle. For example, if left is greater than right, it means the video is mirrored in the x direction. An empty rectangle turns off this stream.
+
+Include DShow.h and D3d9.h before Vmr9.h.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/f311303a-8270-40b6-8153-e0bd8b232c69">IVMRMixerControl9 Interface</a>
+
+
+
+<a href="https://msdn.microsoft.com/3d0fdfac-ec7e-4e02-886b-2039c607dac7">Using the Video Mixing Renderer</a>
+ 
+
+ 
+

@@ -1,0 +1,88 @@
+---
+UID: NF:bdaiface.IBDA_DRMService.GetDRMStatus
+title: IBDA_DRMService::GetDRMStatus method
+author: windows-driver-content
+description: Gets the current digital rights management (DRM) status.
+old-location: mstv\ibda_drmservice_getdrmstatus.htm
+old-project: mstv
+ms.assetid: 474ea991-6fb4-4eb4-9146-c76914765dc1
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: GetDRMStatus method [Microsoft TV Technologies], GetDRMStatus method [Microsoft TV Technologies], IBDA_DRMService interface, GetDRMStatus,IBDA_DRMService.GetDRMStatus, IBDA_DRMService, IBDA_DRMService interface [Microsoft TV Technologies], GetDRMStatus method, IBDA_DRMService::GetDRMStatus, bdaiface/IBDA_DRMService::GetDRMStatus, mstv.ibda_drmservice_getdrmstatus
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: bdaiface.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Bdaiface.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: UICloseReasonType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	bdaiface.h
+api_name:
+-	IBDA_DRMService.GetDRMStatus
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# IBDA_DRMService::GetDRMStatus method
+
+
+## -description
+
+
+Gets the current digital rights management (DRM) status.
+
+
+## -parameters
+
+
+
+
+### -param pbstrDrmUuidList [out]
+
+Receives a comma-separated list of GUIDs that identify the DRM systems supported by the media transform device (MTD). Each GUID is represented in following format: "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx". The caller must release the string by calling <b>SysFreeString</b>.
+
+
+### -param DrmUuid [out]
+
+Receives a GUID that identifies which DRM system is currently active. 
+
+
+## -returns
+
+
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/bd06118c-ea1b-46e4-b499-67039430a52e">IBDA_DRMService</a>
+ 
+
+ 
+

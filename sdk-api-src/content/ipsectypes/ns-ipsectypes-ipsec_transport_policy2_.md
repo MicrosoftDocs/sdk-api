@@ -1,0 +1,215 @@
+---
+UID: NS:ipsectypes.IPSEC_TRANSPORT_POLICY2_
+title: IPSEC_TRANSPORT_POLICY2_
+author: windows-driver-content
+description: Stores the quick mode negotiation policy for transport mode IPsec.
+old-location: fwp\ipsec_transport_policy2.htm
+old-project: FWP
+ms.assetid: fce0ce7e-770c-4cc6-94ea-21af0464f740
+ms.author: windowsdriverdev
+ms.date: 3/23/2018
+ms.keywords: IPSEC_POLICY_FLAG_DONT_NEGOTIATE_BYTE_LIFETIME, IPSEC_POLICY_FLAG_DONT_NEGOTIATE_SECOND_LIFETIME, IPSEC_POLICY_FLAG_KEY_MANAGER_ALLOW_DICTATE_KEY, IPSEC_POLICY_FLAG_KEY_MANAGER_ALLOW_NOTIFY_KEY, IPSEC_POLICY_FLAG_NAT_ENCAP_ALLOW_GENERAL_NAT_TRAVERSAL, IPSEC_POLICY_FLAG_NAT_ENCAP_ALLOW_PEER_BEHIND_NAT, IPSEC_POLICY_FLAG_ND_BOUNDARY, IPSEC_POLICY_FLAG_ND_SECURE, IPSEC_TRANSPORT_POLICY2, IPSEC_TRANSPORT_POLICY2 structure [Filtering], IPSEC_TRANSPORT_POLICY2_, fwp.ipsec_transport_policy2, ipsectypes/IPSEC_TRANSPORT_POLICY2
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: struct
+req.header: ipsectypes.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Ipsectypes.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: IPSEC_TRANSPORT_POLICY2
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ipsectypes.h
+api_name:
+-	IPSEC_TRANSPORT_POLICY2
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IPSEC_TRANSPORT_POLICY2_ structure
+
+
+## -description
+
+
+
+		The <b>IPSEC_TRANSPORT_POLICY2</b> structure  stores the quick mode negotiation policy for transport mode IPsec.
+<div class="alert"><b>Note</b>  <b>IPSEC_TRANSPORT_POLICY2</b> is the specific implementation of IPSEC_TRANSPORT_POLICY used in Windows 8. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7, <a href="https://msdn.microsoft.com/4ee39f30-f7fc-40a9-92b0-e059cb9b84a2">IPSEC_TRANSPORT_POLICY1</a> is available. For Windows Vista, <a href="https://msdn.microsoft.com/c17ebe74-41e3-467c-875a-db43978a5234">IPSEC_TRANSPORT_POLICY0</a> is available. </div><div> </div>
+
+## -struct-fields
+
+
+
+
+### -field numIpsecProposals
+
+Type: <b>UINT32</b>
+
+ Number of quick mode proposals in the policy.
+
+
+### -field ipsecProposals
+
+Type: <b><a href="https://msdn.microsoft.com/bc551733-dbba-4d66-8054-fbf4bbfa28b5">IPSEC_PROPOSAL0</a>*</b>
+
+Array of quick mode proposals.
+
+
+### -field flags
+
+Type: <b>UINT32</b>
+
+A combination of the following values.
+
+<table>
+<tr>
+<th>IPsec policy flag</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="IPSEC_POLICY_FLAG_ND_SECURE"></a><a id="ipsec_policy_flag_nd_secure"></a><dl>
+<dt><b>IPSEC_POLICY_FLAG_ND_SECURE</b></dt>
+</dl>
+</td>
+<td width="60%">
+Do negotiation discovery in secure ring.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="IPSEC_POLICY_FLAG_ND_BOUNDARY"></a><a id="ipsec_policy_flag_nd_boundary"></a><dl>
+<dt><b>IPSEC_POLICY_FLAG_ND_BOUNDARY</b></dt>
+</dl>
+</td>
+<td width="60%">
+Do negotiation discovery in the untrusted perimeter zone.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="IPSEC_POLICY_FLAG_NAT_ENCAP_ALLOW_PEER_BEHIND_NAT"></a><a id="ipsec_policy_flag_nat_encap_allow_peer_behind_nat"></a><dl>
+<dt><b>IPSEC_POLICY_FLAG_NAT_ENCAP_ALLOW_PEER_BEHIND_NAT</b></dt>
+</dl>
+</td>
+<td width="60%">
+If set, IPsec expects that either the local or remote machine is behind a network address translation (NAT) device, but not both.  This allows for less secure, but more flexible behavior.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="IPSEC_POLICY_FLAG_NAT_ENCAP_ALLOW_GENERAL_NAT_TRAVERSAL"></a><a id="ipsec_policy_flag_nat_encap_allow_general_nat_traversal"></a><dl>
+<dt><b>IPSEC_POLICY_FLAG_NAT_ENCAP_ALLOW_GENERAL_NAT_TRAVERSAL</b></dt>
+</dl>
+</td>
+<td width="60%">
+If set, IPsec expects default ports when either the local, the remote, or both machines are behind a NAT device.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="IPSEC_POLICY_FLAG_DONT_NEGOTIATE_SECOND_LIFETIME"></a><a id="ipsec_policy_flag_dont_negotiate_second_lifetime"></a><dl>
+<dt><b>IPSEC_POLICY_FLAG_DONT_NEGOTIATE_SECOND_LIFETIME</b></dt>
+</dl>
+</td>
+<td width="60%">
+If set, Internet Key Exchange (IKE) will not send the ISAKMP attribute for 'seconds'
+lifetime during quick mode negotiation. 
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="IPSEC_POLICY_FLAG_DONT_NEGOTIATE_BYTE_LIFETIME"></a><a id="ipsec_policy_flag_dont_negotiate_byte_lifetime"></a><dl>
+<dt><b>IPSEC_POLICY_FLAG_DONT_NEGOTIATE_BYTE_LIFETIME</b></dt>
+</dl>
+</td>
+<td width="60%">
+If set, IKE will not send the ISAKMP attribute for 'byte' lifetime during quick mode negotiation. 
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="IPSEC_POLICY_FLAG_KEY_MANAGER_ALLOW_DICTATE_KEY"></a><a id="ipsec_policy_flag_key_manager_allow_dictate_key"></a><dl>
+<dt><b>IPSEC_POLICY_FLAG_KEY_MANAGER_ALLOW_DICTATE_KEY</b></dt>
+</dl>
+</td>
+<td width="60%">
+Allow key dictation for quick mode policy. Applicable only for AuthIP policy.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="IPSEC_POLICY_FLAG_KEY_MANAGER_ALLOW_NOTIFY_KEY_"></a><a id="ipsec_policy_flag_key_manager_allow_notify_key_"></a><dl>
+<dt><b>IPSEC_POLICY_FLAG_KEY_MANAGER_ALLOW_NOTIFY_KEY </b></dt>
+</dl>
+</td>
+<td width="60%">
+Allow key notification for quick mode policy. Applicable for AuthIP/IKE/IKEv2 policy.
+
+</td>
+</tr>
+</table>
+ 
+
+
+### -field ndAllowClearTimeoutSeconds
+
+Type: <b>UINT32</b>
+
+Timeout in seconds, after which the IPsec security association (SA) should stop accepting
+   packets coming in the clear. Used for negotiation discovery.
+
+
+### -field saIdleTimeout
+
+Type: <b><a href="https://msdn.microsoft.com/99113c80-1e2a-4878-9b18-502cfb1e43cc">IPSEC_SA_IDLE_TIMEOUT0</a></b>
+
+The SA idle timeout in IPsec policy.
+
+
+### -field emPolicy
+
+Type: <b><a href="https://msdn.microsoft.com/01e3122b-812f-4c01-a514-dc0d513de822">IKEEXT_EM_POLICY2</a>*</b>
+
+The AuthIP extended mode authentication policy.
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/01e3122b-812f-4c01-a514-dc0d513de822">IKEEXT_EM_POLICY2</a>
+
+
+
+<a href="https://msdn.microsoft.com/bc551733-dbba-4d66-8054-fbf4bbfa28b5">IPSEC_PROPOSAL0</a>
+
+
+
+<a href="https://msdn.microsoft.com/99113c80-1e2a-4878-9b18-502cfb1e43cc">IPSEC_SA_IDLE_TIMEOUT0</a>
+
+
+
+<a href="https://msdn.microsoft.com/e957132f-417b-40c1-afe3-5aec0e2192f7">Windows Filtering Platform  API Structures</a>
+ 
+
+ 
+

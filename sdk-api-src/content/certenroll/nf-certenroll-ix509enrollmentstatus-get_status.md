@@ -1,0 +1,71 @@
+---
+UID: NF:certenroll.IX509EnrollmentStatus.get_Status
+title: IX509EnrollmentStatus::get_Status method
+author: windows-driver-content
+description: Specifies or retrieves a value that indicates the status of the enrollment process.
+old-location: security\ix509enrollmentstatus_status_property.htm
+old-project: SecCertEnroll
+ms.assetid: ca1105eb-a29a-458d-abbb-34c9b67d7c8a
+ms.author: windowsdriverdev
+ms.date: 3/29/2018
+ms.keywords: IX509EnrollmentStatus, IX509EnrollmentStatus interface [Security], Status property, IX509EnrollmentStatus.Status, IX509EnrollmentStatus::get_Status, IX509EnrollmentStatus::put_Status, Status property [Security], Status property [Security], IX509EnrollmentStatus interface, certenroll/IX509EnrollmentStatus::Status, certenroll/IX509EnrollmentStatus::get_Status, certenroll/IX509EnrollmentStatus::put_Status, get_Status,IX509EnrollmentStatus.get_Status, security.ix509enrollmentstatus_status_property
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: certenroll.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: X509RequestType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	CertEnroll.dll
+api_name:
+-	IX509EnrollmentStatus.Status
+-	IX509EnrollmentStatus.get_Status
+-	IX509EnrollmentStatus.put_Status
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
+---
+
+# IX509EnrollmentStatus::get_Status method
+
+
+## -description
+
+
+The <b>Status</b> property specifies or retrieves a value that indicates the status of the enrollment process.
+
+This property is read/write.
+
+
+## -parameters
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/fa5e3a10-7f00-46b6-b740-b72d78745bf7">IX509EnrollmentStatus</a>
+ 
+
+ 
+

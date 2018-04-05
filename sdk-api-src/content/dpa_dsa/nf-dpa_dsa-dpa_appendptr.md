@@ -1,0 +1,82 @@
+---
+UID: NF:dpa_dsa.DPA_AppendPtr
+title: DPA_AppendPtr macro
+author: windows-driver-content
+description: Inserts a new item at the end of a dynamic pointer array (DPA).
+old-location: controls\DPA_AppendPtr.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\common\macros\dpa_appendptr.htm
+ms.author: windowsdriverdev
+ms.date: 3/31/2018
+ms.keywords: DPA_AppendPtr, DPA_AppendPtr macro [Windows Controls], _shell_DPA_AppendPtr, _shell_DPA_AppendPtr_cpp, controls.DPA_AppendPtr, controls._shell_DPA_AppendPtr, dpa_dsa/DPA_AppendPtr
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: macro
+req.header: dpa_dsa.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: CRYPTPROTECT_PROMPTSTRUCT, *PCRYPTPROTECT_PROMPTSTRUCT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	dpa_dsa.h
+api_name:
+-	DPA_AppendPtr
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# DPA_AppendPtr macro
+
+
+## -description
+
+
+Inserts a new item at the end of a dynamic pointer array (DPA).
+
+
+## -parameters
+
+
+
+
+### -param hdpa
+
+TBD
+
+
+### -param pitem
+
+A pointer to the item that is to be inserted.
+
+
+#### - pdpa
+
+A handle to a DPA.
+
+
+## -remarks
+
+
+
+<div class="alert"><b>Note</b>  This macro wraps the <a href="https://msdn.microsoft.com/275585f9-b26b-4528-a5b2-471dc1623a68">DPA_InsertPtr</a> function.</div>
+<div> </div>
+
+

@@ -1,0 +1,77 @@
+---
+UID: NF:vfw.MCIWndSetTimers
+title: MCIWndSetTimers macro
+author: windows-driver-content
+description: The MCIWndSetTimers macro sets the update periods used by MCIWnd to update the trackbar in the MCIWnd window, update the position information displayed in the window title bar, and send notification messages to the parent window.
+old-location: multimedia\mciwndsettimers.htm
+old-project: Multimedia
+ms.assetid: 0a1b1c87-714b-438f-b865-5f5798cb4cf3
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: MCIWndSetTimers, MCIWndSetTimers macro [Windows Multimedia], _win32_MCIWndSetTimers, multimedia.mciwndsettimers, vfw/MCIWndSetTimers
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: macro
+req.header: vfw.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: VS_FIXEDFILEINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Vfw.h
+api_name:
+-	MCIWndSetTimers
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
+---
+
+# MCIWndSetTimers macro
+
+
+## -description
+
+
+
+The <b>MCIWndSetTimers</b> macro sets the update periods used by MCIWnd to update the trackbar in the MCIWnd window, update the position information displayed in the window title bar, and send notification messages to the parent window. You can use this macro or explicitly send the <a href="https://msdn.microsoft.com/06407c67-b620-4f80-9fe9-456cdf3d0666">MCIWNDM_SETTIMERS</a> message.
+
+
+
+
+## -parameters
+
+
+
+
+### -param hwnd
+
+Handle of the MCIWnd window. 
+
+
+### -param active
+
+Update period used by MCIWnd when it is the active window. The default value is 500 milliseconds. Storage for this value is limited to 16 bits. 
+
+
+### -param inactive
+
+Update period used by MCIWnd when it is the inactive window. The default value is 2000 milliseconds. Storage for this value is limited to 16 bits. 
+

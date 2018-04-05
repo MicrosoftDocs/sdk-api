@@ -1,0 +1,124 @@
+---
+UID: NE:gdiplusenums.SmoothingMode
+title: SmoothingMode
+author: windows-driver-content
+description: The SmoothingMode enumeration specifies the type of smoothing (antialiasing) that is applied to lines and curves. This enumeration is used by the Graphics::GetSmoothingMode and Graphics::SetSmoothingMode methods of the Graphics class.
+old-location: gdiplus\_gdiplus_ENUM_SmoothingMode.htm
+old-project: gdiplus
+ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\smoothingmode.htm
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: SmoothingMode, SmoothingMode enumeration [GDI+], SmoothingModeAntiAlias, SmoothingModeAntiAlias8x4, SmoothingModeAntiAlias8x8, SmoothingModeDefault, SmoothingModeHighQuality, SmoothingModeHighSpeed, SmoothingModeInvalid, SmoothingModeNone, _gdiplus_ENUM_SmoothingMode, gdiplus._gdiplus_ENUM_SmoothingMode, gdiplusenums/SmoothingMode, gdiplusenums/SmoothingModeAntiAlias, gdiplusenums/SmoothingModeAntiAlias8x4, gdiplusenums/SmoothingModeAntiAlias8x8, gdiplusenums/SmoothingModeDefault, gdiplusenums/SmoothingModeHighQuality, gdiplusenums/SmoothingModeHighSpeed, gdiplusenums/SmoothingModeInvalid, gdiplusenums/SmoothingModeNone
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: enum
+req.header: gdiplusenums.h
+req.include-header: Gdiplus.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Gdiplusenums.h
+api_name:
+-	SmoothingMode
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# SmoothingMode enumeration
+
+
+## -description
+
+
+The <b>SmoothingMode</b> enumeration specifies the type of smoothing (antialiasing) that is applied to lines and curves. This enumeration is used by the <a href="https://msdn.microsoft.com/85aacaa3-3a08-4879-8f49-7d082269cbe4">Graphics::GetSmoothingMode</a> and <a href="https://msdn.microsoft.com/d42ae7c7-9381-4613-bb65-76683873a63a">Graphics::SetSmoothingMode</a> methods of the 
+			<a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a> class.
+
+
+## -enum-fields
+
+
+
+
+### -field SmoothingModeInvalid
+
+Reserved.
+
+
+### -field SmoothingModeDefault
+
+Specifies that smoothing is not applied.
+
+
+### -field SmoothingModeHighSpeed
+
+Specifies that smoothing is not applied.
+
+
+### -field SmoothingModeHighQuality
+
+Specifies that smoothing is applied using an 8 X 4 box filter.
+
+
+### -field SmoothingModeNone
+
+Specifies that smoothing is not applied.
+
+
+### -field SmoothingModeAntiAlias
+
+Specifies that smoothing is applied using an 8 X 4 box filter.
+
+
+### -field SmoothingModeAntiAlias8x4
+
+Specifies that smoothing is applied using an 8 X 4 box filter.
+
+
+### -field SmoothingModeAntiAlias8x8
+
+Specifies that smoothing is applied using an 8 X 8 box filter.
+
+
+## -remarks
+
+
+
+Smoothing performed by an 8 X 4 box filter gives better results for nearly vertical lines than it does for nearly horizontal lines. Smoothing performed by an 8 X 8 box filter gives equally good results for nearly vertical and nearly horizontal lines. The 8x8 algorithm produces higher quality smoothing but is slower than the 8 X 4 algorithm.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/85aacaa3-3a08-4879-8f49-7d082269cbe4">Graphics::GetSmoothingMode</a>
+
+
+
+<a href="https://msdn.microsoft.com/d42ae7c7-9381-4613-bb65-76683873a63a">Graphics::SetSmoothingMode</a>
+ 
+
+ 
+

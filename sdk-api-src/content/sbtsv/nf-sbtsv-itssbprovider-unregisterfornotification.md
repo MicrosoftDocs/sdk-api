@@ -1,0 +1,116 @@
+---
+UID: NF:sbtsv.ITsSbProvider.UnRegisterForNotification
+title: ITsSbProvider::UnRegisterForNotification method
+author: windows-driver-content
+description: Requests that Remote Desktop Connection Broker (RD Connection Broker) not send notifications about specified events.
+old-location: termserv\itssbprovider_unregisterfornotification.htm
+old-project: TermServ
+ms.assetid: e2fa297e-9923-4e60-9e6e-caa6e4b8c963
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: ITsSbProvider, ITsSbProvider interface [Remote Desktop Services], UnRegisterForNotification method, ITsSbProvider::UnRegisterForNotification, TSSB_NOTIFY_CONNECTION_REQUEST_CHANGE, TSSB_NOTIFY_SESSION_CHANGE, TSSB_NOTIFY_TARGET_CHANGE, UnRegisterForNotification method [Remote Desktop Services], UnRegisterForNotification method [Remote Desktop Services], ITsSbProvider interface, UnRegisterForNotification,ITsSbProvider.UnRegisterForNotification, sbtsv/ITsSbProvider::UnRegisterForNotification, termserv.itssbprovider_unregisterfornotification
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: sbtsv.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2012
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Sbtsv.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: TS_SB_SORT_BY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	sbtsv.h
+api_name:
+-	ITsSbProvider.UnRegisterForNotification
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# ITsSbProvider::UnRegisterForNotification method
+
+
+## -description
+
+
+Requests that  Remote Desktop Connection Broker (RD Connection Broker) not send notifications about specified events.
+
+
+## -parameters
+
+
+
+
+### -param notificationType [in]
+
+Specifies the type of notification. To specify more than one type, use a logical <b>OR</b>.
+
+
+
+#### TSSB_NOTIFY_TARGET_CHANGE
+
+The owner plug-in has recognized a change in the change in the target's state.
+
+
+
+#### TSSB_NOTIFY_SESSION_CHANGE
+
+The owner plug-in has recognized a change in the change in the session's state.
+
+
+
+#### TSSB_NOTIFY_CONNECTION_REQUEST_CHANGE
+
+RD Connection Broker has created a connection, or completed a connection request due to a successful logon, time-out, or connection failure.
+
+
+### -param ResourceToMonitor [in]
+
+This parameter is reserved.
+
+
+## -returns
+
+
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+Plug-ins can use the <b>UnRegisterForNotification</b> method to cancel previous requests for notifications.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/a8574750-d86e-4b0d-a534-d005596e2a33">ITsSbProvider</a>
+ 
+
+ 
+

@@ -1,0 +1,73 @@
+---
+UID: NF:wmsdkidl.WMCreateDRMTranscryptionManager
+title: WMCreateDRMTranscryptionManager function
+author: windows-driver-content
+description: The WMCreateDRMTranscryptionManager function creates a manager for DRM transcryptor objects.
+old-location: wmformat\wmcreatedrmtranscryptionmanager.htm
+old-project: wmformat
+ms.assetid: 15bae3af-e601-4865-aee2-a36931c7813d
+ms.author: windowsdriverdev
+ms.date: 3/23/2018
+ms.keywords: WMCreateDRMTranscryptionManager, WMCreateDRMTranscryptionManager function [windows Media Format], wmformat.wmcreatedrmtranscryptionmanager, wmsdkidl/WMCreateDRMTranscryptionManager
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: wmsdkidl.h
+req.include-header: Wmsdk.h
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WM_AETYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wmsdkidl.h
+api_name:
+-	WMCreateDRMTranscryptionManager
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# WMCreateDRMTranscryptionManager function
+
+
+## -description
+
+
+The <b>WMCreateDRMTranscryptionManager</b> function creates a manager for DRM transcryptor objects.
+
+
+## -parameters
+
+
+
+
+### -param ppTranscryptionManager
+
+Address of a pointer to the <a href="https://msdn.microsoft.com/7b112834-11f6-4d23-9719-221c22405943">IWMDRMTranscryptionManager</a> interface of the newly created DRM transcryptor object manager.
+
+
+## -returns
+
+
+
+If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+

@@ -1,0 +1,127 @@
+---
+UID: NF:oledlg.OleUIAddVerbMenuW
+title: OleUIAddVerbMenuW function
+author: windows-driver-content
+description: Adds the Verb menu for the specified object to the specified menu.
+old-location: com\oleuiaddverbmenu.htm
+old-project: com
+ms.assetid: 6efb49e7-b3c1-4035-892d-4572db47b951
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: OleUIAddVerbMenu, OleUIAddVerbMenu function [COM], OleUIAddVerbMenuA, OleUIAddVerbMenuW, _ole_OleUIAddVerbMenu, com.oleuiaddverbmenu, oledlg/OleUIAddVerbMenu, oledlg/OleUIAddVerbMenuA, oledlg/OleUIAddVerbMenuW
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: oledlg.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: OleUIAddVerbMenuW (Unicode) and OleUIAddVerbMenuA (ANSI)
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: OLEUIPASTEFLAG
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	OleDlg.dll
+api_name:
+-	OleUIAddVerbMenu
+-	OleUIAddVerbMenuA
+-	OleUIAddVerbMenuW
+product: Windows
+targetos: Windows
+req.lib: OleDlg.lib
+req.dll: OleDlg.dll
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# OleUIAddVerbMenuW function
+
+
+## -description
+
+
+Adds the <b>Verb</b> menu for the specified object to the specified menu.
+
+
+
+
+## -parameters
+
+
+
+
+### -param lpOleObj [in, optional]
+
+Pointer to the <a href="https://msdn.microsoft.com/58b32c87-39b6-4d64-9174-cf798ed302c2">IOleObject</a> interface on the selected object. If this is <b>NULL</b>, then a default disabled menu item is created. 
+
+
+### -param lpszShortType [in, optional]
+
+Pointer to the short name defined in the registry (AuxName==2) for the object identified with <i>lpOleObj</i>. If the string is not known, then <b>NULL</b> may be passed. If <b>NULL</b> is passed, <a href="https://msdn.microsoft.com/8ffffa01-d118-4955-84d1-a4659ba9ddc9">IOleObject::GetUserType</a> is called to retrieve it. If the caller has easy access to the string, it is faster to pass it in.
+
+
+### -param hMenu [in]
+
+Handle to the menu in which to make modifications.
+
+
+### -param uPos [in]
+
+Position of the menu item.
+
+
+### -param uIDVerbMin [in]
+
+The identifier value at which to start the verbs.
+
+
+### -param uIDVerbMax [in]
+
+ The maximum identifier value to be used for object verbs. If <i>uIDVerbMax</i> is 0, then no maximum identifier value is used.
+
+
+### -param bAddConvert [in]
+
+ Indicates whether to add a <b>Convert</b> item to the bottom of the menu (preceded by a separator).
+
+
+### -param idConvert [in]
+
+The identifier value to use for the <b>Convert</b> menu item, if <i>bAddConvert</i> is <b>TRUE</b>.
+
+
+### -param lphMenu [out]
+
+An <b>HMENU</b> pointer to the cascading verb menu if it's created. If there is only one verb, this will be filled with <b>NULL</b>.
+
+
+## -returns
+
+
+
+This function returns <b>TRUE</b> if <i>lpOleObj</i> was valid and at least one verb was added to the menu. A <b>FALSE</b> return indicates that <i>lpOleObj</i> was <b>NULL</b> and a disabled default menu item was created.  
+
+
+
+
+## -remarks
+
+
+
+If the object has one verb, the verb is added directly to the given menu.
+
+
+
+

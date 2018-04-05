@@ -1,0 +1,95 @@
+---
+UID: NF:comadmin.ICOMAdminCatalog.RefreshComponents
+title: ICOMAdminCatalog::RefreshComponents method
+author: windows-driver-content
+description: Updates component registration information from the registry.
+old-location: cos\icomadmincatalog_refreshcomponents.htm
+old-project: cossdk
+ms.assetid: 50528312-60e1-4648-b0e5-709a6b49737e
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: ICOMAdminCatalog, ICOMAdminCatalog interface [COM+], RefreshComponents method, ICOMAdminCatalog::RefreshComponents, RefreshComponents method [COM+], RefreshComponents method [COM+], ICOMAdminCatalog interface, RefreshComponents,ICOMAdminCatalog.RefreshComponents, _cos_ICOMAdminCatalog_RefreshComponents, comadmin/ICOMAdminCatalog::RefreshComponents, cos.icomadmincatalog_refreshcomponents
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: comadmin.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: ComAdmin.Idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: COMAdminTxIsolationLevelOptions
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	ComAdmin.h
+api_name:
+-	ICOMAdminCatalog.RefreshComponents
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# ICOMAdminCatalog::RefreshComponents method
+
+
+## -description
+
+
+Updates component registration information from the registry.
+
+You generally should not use <b>RefreshComponents</b>. The recommended way to update components in COM+ applications is to remove and reinstall the components using <a href="https://msdn.microsoft.com/63af9aa4-a1f0-4277-bd36-8b4c64227b3f">ICOMAdminCatalog::InstallComponent</a> so that complete registration information is updated in the registry database.
+
+
+## -parameters
+
+
+
+
+
+
+## -returns
+
+
+
+This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E_UNEXPECTED, E_FAIL, and S_OK.
+
+
+
+
+## -remarks
+
+
+
+The <b>RefreshComponents</b> method is called from within the Microsoft Visual Basic 6.0 development environment when you use the <b>Auto-refresh</b> or <b>Refresh all</b> components now features from the <b>Component Services</b> submenu of the <b>Add-Ins</b> menu.
+
+To find mismatches, <b>RefreshComponents</b> compares CLSIDs and ProgIDs between the COM+ class registration database (RegDB) and the registry. This method updates components only when there is both a mismatch between CLSIDs and a match between corresponding ProgIDs.
+
+Only CLSID information is updated to RegDB. No interface or method information is updated. Components that are refreshed using <b>RefreshComponents</b> cannot be configured or secured at the interface or method levels within COM+ applications.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/2c3c49df-9ca5-40ea-b45c-f4eca1004602">ICOMAdminCatalog</a>
+ 
+
+ 
+

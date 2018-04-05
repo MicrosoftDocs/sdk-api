@@ -1,0 +1,90 @@
+---
+UID: NF:mfmediaengine.IMFMediaEngine.GetNetworkState
+title: IMFMediaEngine::GetNetworkState method
+author: windows-driver-content
+description: Gets the current network state of the media engine.
+old-location: mf\imfmediaengine_getnetworkstate.htm
+old-project: medfound
+ms.assetid: 7CCA902A-51E9-4B6D-B16C-643177BE1BC9
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: GetNetworkState method [Media Foundation], GetNetworkState method [Media Foundation], IMFMediaEngine interface, GetNetworkState,IMFMediaEngine.GetNetworkState, IMFMediaEngine, IMFMediaEngine interface [Media Foundation], GetNetworkState method, IMFMediaEngine::GetNetworkState, mf.imfmediaengine_getnetworkstate, mfmediaengine/IMFMediaEngine::GetNetworkState
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: mfmediaengine.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MF_TIMED_TEXT_WRITING_MODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfmediaengine.h
+api_name:
+-	IMFMediaEngine.GetNetworkState
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IMFMediaEngine::GetNetworkState method
+
+
+## -description
+
+
+Gets the current network state of the media engine.
+
+
+## -parameters
+
+
+
+
+
+
+## -returns
+
+
+
+Returns an <a href="https://msdn.microsoft.com/A2A73A54-C360-452C-8887-D3065274358A">MF_MEDIA_ENGINE_NETWORK</a> enumeration value.
+
+
+
+
+## -remarks
+
+
+
+This method corresponds to the <b>networkState</b> attribute of the <b>HTMLMediaElement</b> interface in HTML5.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/A0023F18-2D28-4F0D-9B00-B8FB11567034">IMFMediaEngine</a>
+ 
+
+ 
+

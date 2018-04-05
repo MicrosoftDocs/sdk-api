@@ -1,0 +1,96 @@
+---
+UID: NF:comadmin.ICatalogCollection.Add
+title: ICatalogCollection::Add method
+author: windows-driver-content
+description: Adds an item to the collection, giving it the high index value.
+old-location: cos\icatalogcollection_add.htm
+old-project: cossdk
+ms.assetid: 0826a2f0-d4a5-40e2-b951-291d67f0d201
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: Add method [COM+], Add method [COM+], ICatalogCollection interface, Add,ICatalogCollection.Add, ICatalogCollection, ICatalogCollection interface [COM+], Add method, ICatalogCollection::Add, _cos_ICatalogCollection_Add, comadmin/ICatalogCollection::Add, cos.icatalogcollection_add
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: comadmin.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: ComAdmin.Idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: COMAdminTxIsolationLevelOptions
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	ComAdmin.h
+api_name:
+-	ICatalogCollection.Add
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# ICatalogCollection::Add method
+
+
+## -description
+
+
+Adds an item to the collection, giving it the high index value.
+
+
+## -parameters
+
+
+
+
+### -param ppCatalogObject [out, retval]
+
+A pointer to the <a href="https://msdn.microsoft.com/fe3f7452-57b2-4f9e-9b48-5dedfe519ac1">ICatalogObject</a> interface pointer for the new object.
+
+
+## -returns
+
+
+
+This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E_UNEXPECTED, E_FAIL, and S_OK.
+
+
+
+
+## -remarks
+
+
+
+The <a href="https://msdn.microsoft.com/6a8b0773-5ea7-4ad2-a520-ec9ea74a8755">AddEnabled</a> property indicates whether the collection supports this method.
+
+When an object is added, the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a> property is incremented to reflect the change.
+
+This change is not reflected in the persisted COM+ catalog data store until you use <a href="https://msdn.microsoft.com/ae984eee-4a8d-48e5-839c-fa115fd4aeea">SaveChanges</a>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/7c24ead4-d69f-467d-b3d8-a81adbc49a7b">ICatalogCollection</a>
+ 
+
+ 
+

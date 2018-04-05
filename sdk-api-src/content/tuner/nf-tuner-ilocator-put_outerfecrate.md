@@ -1,0 +1,99 @@
+---
+UID: NF:tuner.ILocator.put_OuterFECRate
+title: ILocator::put_OuterFECRate method
+author: windows-driver-content
+description: The put_OuterFECRate method sets the outer FEC rate.
+old-location: mstv\ilocator_put_outerfecrate.htm
+old-project: mstv
+ms.assetid: 0fd3fa42-4ed6-459b-a6a2-23ed67832780
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: IDigitalLocatorput_OuterFECRate, ILocator, ILocator interface [Microsoft TV Technologies], put_OuterFECRate method, ILocator::put_OuterFECRate, mstv.ilocator_put_outerfecrate, put_OuterFECRate method [Microsoft TV Technologies], put_OuterFECRate method [Microsoft TV Technologies], ILocator interface, put_OuterFECRate,ILocator.put_OuterFECRate, tuner/ILocator::put_OuterFECRate
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: tuner.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: None supported
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Tuner.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	tuner.h
+api_name:
+-	ILocator.put_OuterFECRate
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# ILocator::put_OuterFECRate method
+
+
+## -description
+
+
+
+The <b>put_OuterFECRate</b> method sets the outer FEC rate.
+
+
+
+
+## -parameters
+
+
+
+
+### -param FEC [in]
+
+Specifies the outer FEC rate. This parameter is a value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff556566">BinaryConvolutionCodeRate</a>.
+
+
+## -returns
+
+
+
+Returns S_OK if successful. If the method fails, error information can be retrieved using the standard COM <b>IErrorInfo</b> interface.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/1d6c18f0-e7f1-4a1c-9edb-e4b66297becf">ILocator</a>
+
+
+
+<a href="mstv.idigitallocator_get_outerfecrate">get_OuterFECRate</a>
+
+
+
+<a href="mstv.idigitallocator_put_innerfecrate">put_InnerFECRate</a>
+
+
+
+<a href="mstv.idigitallocator_put_outerfec">put_OuterFEC</a>
+ 
+
+ 
+

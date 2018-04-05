@@ -1,0 +1,335 @@
+---
+UID: NF:wlanapi.WlanHostedNetworkQueryProperty
+title: WlanHostedNetworkQueryProperty function
+author: windows-driver-content
+description: Queries the current static properties of the wireless Hosted Network.
+old-location: nwifi\wlanhostednetworkqueryproperty.htm
+old-project: NativeWiFi
+ms.assetid: bab05629-c921-4639-94db-25f77742dbd3
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: WlanHostedNetworkQueryProperty, WlanHostedNetworkQueryProperty function [NativeWIFI], nwifi.wlanhostednetworkqueryproperty, wlanapi/WlanHostedNetworkQueryProperty
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: wlanapi.h
+req.include-header: Wlanapi.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WL_DISPLAY_PAGES, *PWL_DISPLAY_PAGES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Wlanapi.dll
+api_name:
+-	WlanHostedNetworkQueryProperty
+product: Windows
+targetos: Windows
+req.lib: Wlanapi.lib
+req.dll: Wlanapi.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# WlanHostedNetworkQueryProperty function
+
+
+## -description
+
+
+The <b>WlanHostedNetworkQueryProperty</b> function queries the current static properties of the wireless Hosted Network. 
+
+
+## -parameters
+
+
+
+
+### -param hClientHandle [in]
+
+The client's session handle, returned by a previous call to the <a href="https://msdn.microsoft.com/27bfa0c1-4443-47a4-a374-326f553fa3bb">WlanOpenHandle</a> function.
+
+
+### -param OpCode [in]
+
+The identifier for property to be queried. This identifier can be any of the values in the <a href="https://msdn.microsoft.com/e4acd7ad-c8f2-4ece-8d27-ced879baa9e7">WLAN_HOSTED_NETWORK_OPCODE</a> enumeration defined in the <i>Wlanapi.h </i>header file.
+
+
+### -param pdwDataSize [out]
+
+A pointer to a value that specifies the size, in bytes, of the buffer returned in the <i>ppvData</i> parameter, if the call to the <b>WlanHostedNetworkQueryProperty</b> function succeeds. 
+
+
+### -param ppvData [out]
+
+On input, this parameter must be <b>NULL</b>. 
+
+On output, this parameter receives a pointer to a buffer returned with the static property requested,  if the call to the <b>WlanHostedNetworkQueryProperty</b> function succeeds.  The data type associated with this buffer depends upon the value of <i>OpCode</i> parameter. 
+
+
+### -param pWlanOpcodeValueType [out]
+
+A pointer to a value that receives the value type of the wireless Hosted Network property,  if the call to the <b>WlanHostedNetworkQueryProperty</b> function succeeds. The returned value is an enumerated type in the <a href="https://msdn.microsoft.com/36f74ee5-499e-4d3d-ae32-a57c5e3b2eac">WLAN_OPCODE_VALUE_TYPE</a> enumeration defined in the <i>Wlanapi.h </i>header file.
+
+
+### -param pvReserved
+
+Reserved for future use. This parameter must be <b>NULL</b>.
+
+
+## -returns
+
+
+
+If the function succeeds, the return value is ERROR_SUCCESS.
+
+If the function fails, the return value may be one of the following return codes.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_BAD_CONFIGURATION</b></dt>
+</dl>
+</td>
+<td width="60%">
+The configuration data for the wireless Hosted Network is unconfigured.  This error is returned if the application calls the <a href="https://msdn.microsoft.com/bab05629-c921-4639-94db-25f77742dbd3">WlanHostedNetworkQueryProperty</a> function with the <i>OpCode</i> parameter set to  <b>wlan_hosted_network_opcode_station_profile</b> or <b>wlan_hosted_network_opcode_connection_settings</b> before a SSID is configured in the wireless Hosted Network.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_INVALID_HANDLE</b></dt>
+</dl>
+</td>
+<td width="60%">
+A handle is invalid. This error is returned if the handle specified in the <i>hClientHandle</i>  parameter was not found in the handle table.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_INVALID_PARAMETER</b></dt>
+</dl>
+</td>
+<td width="60%">
+A parameter is incorrect. This error is returned if any of the following conditions occur:<ul>
+<li><i>hClientHandle</i> is <b>NULL</b>.</li>
+<li><i>OpCode</i> is not one of the enumerated values defined in the <a href="https://msdn.microsoft.com/e4acd7ad-c8f2-4ece-8d27-ced879baa9e7">WLAN_HOSTED_NETWORK_OPCODE</a>.</li>
+<li><i>pdwDataSize</i> is <b>NULL</b>.</li>
+<li><i>ppvData</i> is <b>NULL</b>.</li>
+<li><i>pWlanOpcodeValueType</i> is <b>NULL</b>.</li>
+<li><i>pvReserved</i> is not <b>NULL</b>.</li>
+</ul>
+
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_INVALID_STATE</b></dt>
+</dl>
+</td>
+<td width="60%">
+The resource is not in the correct state to perform the requested operation. This can occur if the wireless Hosted Network was in the process of shutting down.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_OUTOFMEMORY</b></dt>
+</dl>
+</td>
+<td width="60%">
+Not enough storage is available to complete this operation. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_SERVICE_NOT_ACTIVE</b></dt>
+</dl>
+</td>
+<td width="60%">
+The service has not been started. This error is returned if the WLAN AutoConfig Service is not running.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>Other</b></dt>
+</dl>
+</td>
+<td width="60%">
+Various RPC and other error codes. Use 
+<a href="https://msdn.microsoft.com/b9d61342-4bcf-42e9-96f1-a5993dfb6c0c">FormatMessage</a> to obtain the message string for the returned error.
+
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+The <b>WlanHostedNetworkQueryProperty</b> function is an extension to native wireless APIs added to support the wireless Hosted Network on Windows 7 and on Windows Server 2008 R2 with the Wireless LAN Service installed. 
+
+A client application calls the <b>WlanHostedNetworkQueryProperty</b> function to query the current static properties of the wireless Hosted Network. This function does not change the state or properties of the wireless Hosted Network.
+
+If the function succeeds, the <i>ppvData</i> parameter points to a buffer that contains the requested property. The size of this buffer is returned in a pointer returned in the <i>pwdDataSize</i>parameter. The <a href="https://msdn.microsoft.com/36f74ee5-499e-4d3d-ae32-a57c5e3b2eac">WLAN_OPCODE_VALUE_TYPE</a> is returned in a pointer returned in the <i>pWlanOpcodeValueType</i> parameter. The memory used for the buffer in the <i>ppvData</i> parameter that is returned should be released by calling the <a href="https://msdn.microsoft.com/241afb9d-8b16-4d76-b311-302b5492853e">WlanFreeMemory</a> function after the buffer is no longer needed.
+
+The data type associated with the buffer pointed to by the <i>ppvData</i> parameter depends upon the value of <i>OpCode</i> parameter as follows: 
+
+
+
+<table>
+<tr>
+<th>OpCode</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<a id="wlan_hosted_network_opcode_connection_settings"></a><a id="WLAN_HOSTED_NETWORK_OPCODE_CONNECTION_SETTINGS"></a>wlan_hosted_network_opcode_connection_settings
+
+</td>
+<td width="60%">
+A pointer to a <a href="https://msdn.microsoft.com/845eaef2-7ce0-4d7a-8273-8b843b5c95fd">WLAN_HOSTED_NETWORK_CONNECTION_SETTINGS</a> structure is returned.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<a id="wlan_hosted_network_opcode_security_settings"></a><a id="WLAN_HOSTED_NETWORK_OPCODE_SECURITY_SETTINGS"></a>wlan_hosted_network_opcode_security_settings
+
+</td>
+<td width="60%">
+A pointer to a <a href="https://msdn.microsoft.com/b86beb10-52e5-4bc0-95fe-08307f8d1ccd">WLAN_HOSTED_NETWORK_SECURITY_SETTINGS</a> structure is returned.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<a id="wlan_hosted_network_opcode_station_profile"></a><a id="WLAN_HOSTED_NETWORK_OPCODE_STATION_PROFILE"></a>wlan_hosted_network_opcode_station_profile
+
+</td>
+<td width="60%">
+A <b>PWSTR</b> to contains an XML WLAN profile for connecting to the wireless Hosted Network is returned.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<a id="wlan_hosted_network_opcode_enable"></a><a id="WLAN_HOSTED_NETWORK_OPCODE_ENABLE"></a>wlan_hosted_network_opcode_enable
+
+</td>
+<td width="60%">
+A <b>PBOOL</b> that indicates if wireless Hosted Network is enabled is returned.
+
+</td>
+</tr>
+</table>
+ 
+
+If the <b>WlanHostedNetworkQueryProperty</b> function is passed any of the following values in the <i>OpCode</i> parameter before a SSID is configured in the wireless Hosted Network, the function will fail with <b>ERROR_BAD_CONFIGURATION</b>: <ul>
+<li>wlan_hosted_network_opcode_station_profile</li>
+<li>wlan_hosted_network_opcode_connection_settings</li>
+</ul>
+
+
+Any user can call the <b>WlanHostedNetworkQueryProperty</b> function to query the Hosted Network properties. 
+
+On Windows 7 and later, the operating system installs a virtual device if a Hosted Network capable wireless adapter is present on the machine. This virtual device normally shows up in the “Network Connections Folder” as ‘Wireless  Network Connection 2’ with a Device Name of ‘Microsoft Virtual WiFi Miniport adapter’ if the computer has a single wireless network adapter. This virtual device is used exclusively for performing software access point (SoftAP) connections and is not present in the list returned by the <a href="https://msdn.microsoft.com/7f817edf-1b1d-495c-afd9-d97e3ae0caab">WlanEnumInterfaces</a> function. The lifetime of this virtual device is tied to the physical wireless adapter. If the physical wireless adapter is disabled, this virtual device will be removed as well. This feature is also available on Windows Server 2008 R2 with the Wireless LAN Service installed.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/a6990759-9b84-4644-8f82-75aa63e8197b">About the Wireless Hosted Network</a>
+
+
+
+<a href="https://msdn.microsoft.com/56e86ef8-f759-4e56-a591-74e03430125a">Using Wireless Hosted Network and Internet Connection Sharing</a>
+
+
+
+<a href="https://msdn.microsoft.com/845eaef2-7ce0-4d7a-8273-8b843b5c95fd">WLAN_HOSTED_NETWORK_CONNECTION_SETTINGS</a>
+
+
+
+<a href="https://msdn.microsoft.com/e4acd7ad-c8f2-4ece-8d27-ced879baa9e7">WLAN_HOSTED_NETWORK_OPCODE</a>
+
+
+
+<a href="https://msdn.microsoft.com/b86beb10-52e5-4bc0-95fe-08307f8d1ccd">WLAN_HOSTED_NETWORK_SECURITY_SETTINGS</a>
+
+
+
+<a href="https://msdn.microsoft.com/36f74ee5-499e-4d3d-ae32-a57c5e3b2eac">WLAN_OPCODE_VALUE_TYPE</a>
+
+
+
+<a href="https://msdn.microsoft.com/7f817edf-1b1d-495c-afd9-d97e3ae0caab">WlanEnumInterfaces</a>
+
+
+
+<a href="https://msdn.microsoft.com/241afb9d-8b16-4d76-b311-302b5492853e">WlanFreeMemory</a>
+
+
+
+<a href="https://msdn.microsoft.com/aed4db5d-9740-43ee-bf09-7a4a5abae953">WlanHostedNetworkInitSettings</a>
+
+
+
+<a href="https://msdn.microsoft.com/5989977a-7a2f-43b8-a958-058db01fd24f">WlanHostedNetworkQuerySecondaryKey</a>
+
+
+
+<a href="https://msdn.microsoft.com/9589e3a6-6e7a-4186-bfd0-a942a39ecafb">WlanHostedNetworkRefreshSecuritySettings</a>
+
+
+
+<a href="https://msdn.microsoft.com/88139383-f5d5-4e42-b41e-ea754a89356d">WlanHostedNetworkSetProperty</a>
+
+
+
+<a href="https://msdn.microsoft.com/385148fd-b5cd-4221-be25-077f484e93e9">WlanHostedNetworkSetSecondaryKey</a>
+
+
+
+<a href="https://msdn.microsoft.com/27bfa0c1-4443-47a4-a374-326f553fa3bb">WlanOpenHandle</a>
+ 
+
+ 
+

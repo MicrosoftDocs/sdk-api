@@ -1,0 +1,92 @@
+---
+UID: NF:http.HttpPrepareUrl
+title: HttpPrepareUrl function
+author: windows-driver-content
+description: Parses, analyzes, and normalizes a non-normalized Unicode or punycode URL so it is safe and valid to use in other HTTP functions.
+old-location: http\httpprepareurl.htm
+old-project: Http
+ms.assetid: 45199AEE-950D-44C4-8590-96077DBDC846
+ms.author: windowsdriverdev
+ms.date: 3/23/2018
+ms.keywords: HttpPrepareUrl, HttpPrepareUrl function [HTTP], http.httpprepareurl, http/HttpPrepareUrl
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: http.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: HTTP_VERB, *PHTTP_VERB
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Httpapi.dll
+api_name:
+-	HttpPrepareUrl
+product: Windows
+targetos: Windows
+req.lib: Httpapi.lib
+req.dll: Httpapi.dll
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# HttpPrepareUrl function
+
+
+## -description
+
+
+The <b>HttpPrepareUrl</b> function parses, analyzes, and normalizes a non-normalized Unicode or punycode URL so it is safe and valid to use in other HTTP functions.
+
+
+## -parameters
+
+
+
+
+### -param Reserved
+
+Reserved.  Must be <b>NULL</b>.
+
+
+### -param Flags
+
+Reserved. Must be zero.
+
+
+### -param Url [in]
+
+A pointer to a string that represents the non-normalized Unicode or punycode URL to prepare.
+
+
+### -param PreparedUrl [out]
+
+On successful output, a pointer to a string that represents the normalized URL.
+
+<div class="alert"><b>Note</b>  Free <i>PreparedUrl</i> using <a href="https://msdn.microsoft.com/6139e55f-9dda-42b5-bc9b-8d9bbfeaa619">HeapFree</a>.</div>
+<div> </div>
+
+## -returns
+
+
+
+If the function succeeds, it returns <b>ERROR_SUCCESS</b>.
+
+If the function fails, it returns one of the following or a <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a> defined in WinError.h.
+
+
+

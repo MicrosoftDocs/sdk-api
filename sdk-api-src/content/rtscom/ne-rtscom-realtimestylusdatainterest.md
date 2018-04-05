@@ -1,0 +1,205 @@
+---
+UID: NE:rtscom.RealTimeStylusDataInterest
+title: RealTimeStylusDataInterest
+author: windows-driver-content
+description: Defines the values used by plug-ins to specify which event notifications the plug-ins receive.
+old-location: tablet\realtimestylusdatainterest.htm
+old-project: tablet
+ms.assetid: f50cfafb-e709-4819-9e1a-679fbb54c7e0
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: RTSDI_AllData, RTSDI_CustomStylusDataAdded, RTSDI_DefaultEvents, RTSDI_Error, RTSDI_InAirPackets, RTSDI_None, RTSDI_Packets, RTSDI_RealTimeStylusDisabled, RTSDI_RealTimeStylusEnabled, RTSDI_StylusButtonDown, RTSDI_StylusButtonUp, RTSDI_StylusDown, RTSDI_StylusInRange, RTSDI_StylusNew, RTSDI_StylusOutOfRange, RTSDI_StylusUp, RTSDI_SystemEvents, RTSDI_TabletAdded, RTSDI_TabletRemoved, RTSDI_UpdateMapping, RealTimeStylusDataInterest, RealTimeStylusDataInterest enumeration [Tablet PC], f50cfafb-e709-4819-9e1a-679fbb54c7e0, rtscom/RTSDI_AllData, rtscom/RTSDI_CustomStylusDataAdded, rtscom/RTSDI_DefaultEvents, rtscom/RTSDI_Error, rtscom/RTSDI_InAirPackets, rtscom/RTSDI_None, rtscom/RTSDI_Packets, rtscom/RTSDI_RealTimeStylusDisabled, rtscom/RTSDI_RealTimeStylusEnabled, rtscom/RTSDI_StylusButtonDown, rtscom/RTSDI_StylusButtonUp, rtscom/RTSDI_StylusDown, rtscom/RTSDI_StylusInRange, rtscom/RTSDI_StylusNew, rtscom/RTSDI_StylusOutOfRange, rtscom/RTSDI_StylusUp, rtscom/RTSDI_SystemEvents, rtscom/RTSDI_TabletAdded, rtscom/RTSDI_TabletRemoved, rtscom/RTSDI_UpdateMapping, rtscom/RealTimeStylusDataInterest, tablet.realtimestylusdatainterest
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: enum
+req.header: rtscom.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
+req.target-min-winversvr: None supported
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: RealTimeStylusDataInterest
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	RTSCom.h
+api_name:
+-	RealTimeStylusDataInterest
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# RealTimeStylusDataInterest enumeration
+
+
+## -description
+
+
+
+Defines the values used by plug-ins to specify which event notifications the plug-ins receive.
+
+
+
+
+## -enum-fields
+
+
+
+
+### -field RTSDI_AllData
+
+The plug-in receives notifications for all stylus data.
+
+
+### -field RTSDI_None
+
+The plug-in receives no notifications for any stylus data.
+
+
+### -field RTSDI_Error
+
+An error has been added to the input queue.
+
+
+### -field RTSDI_RealTimeStylusEnabled
+
+The <a href="https://msdn.microsoft.com/fd686a78-b0a8-41d2-a37b-90544f531270">RealTimeStylus Class</a> object has been enabled.
+
+
+### -field RTSDI_RealTimeStylusDisabled
+
+The <a href="https://msdn.microsoft.com/fd686a78-b0a8-41d2-a37b-90544f531270">RealTimeStylus Class</a> object has been disabled.
+
+
+### -field RTSDI_StylusNew
+
+A <a href="https://msdn.microsoft.com/fd686a78-b0a8-41d2-a37b-90544f531270">RealTimeStylus Class</a> object encounters a new Stylus object.
+
+
+### -field RTSDI_StylusInRange
+
+The Stylus object is in range of the digitizer. Notifies the implementing plug-in that the stylus is entering the input area of the <a href="https://msdn.microsoft.com/fd686a78-b0a8-41d2-a37b-90544f531270">RealTimeStylus Class</a> object or is entering the detection range of the digitizer above the input area of the <b>RealTimeStylus Class</b> object.
+
+
+### -field RTSDI_InAirPackets
+
+The <a href="https://msdn.microsoft.com/fd686a78-b0a8-41d2-a37b-90544f531270">RealTimeStylus Class</a> object is within range of, but not touching, the digitizer and is moving.
+
+
+### -field RTSDI_StylusOutOfRange
+
+The <a href="https://msdn.microsoft.com/fd686a78-b0a8-41d2-a37b-90544f531270">RealTimeStylus Class</a> object is out of range of the digitizer. Informs the implementing plug-in that the stylus is leaving the input area of the <b>RealTimeStylus Class</b> object or is leaving the detection range of the digitizer above the input area of the <b>RealTimeStylus Class</b> object.
+
+
+### -field RTSDI_StylusDown
+
+The stylus is in contact with the digitizer.
+
+
+### -field RTSDI_Packets
+
+The stylus is moving and is in contact with the digitizer.
+
+
+### -field RTSDI_StylusUp
+
+The stylus has broken physical contact with the digitizer.
+
+
+### -field RTSDI_StylusButtonUp
+
+A user has realeased a stylus button.
+
+
+### -field RTSDI_StylusButtonDown
+
+A user has pressed  a stylus button.
+
+
+### -field RTSDI_SystemEvents
+
+A system event has been detected.
+
+
+### -field RTSDI_TabletAdded
+
+A new tablet device has been detected by the system. Notifies the implementing plug-in when a Microsoft.Ink.Tablet object is added to the system.
+
+
+### -field RTSDI_TabletRemoved
+
+A tablet device has been removed from the system. Notifies the implementing plug-in when a Microsoft.Ink.Tablet object is removed from the system.
+
+
+### -field RTSDI_CustomStylusDataAdded
+
+A plug-in has added data to a queue. You can identify the kind of custom data by either the GUID or Type.
+
+
+### -field RTSDI_UpdateMapping
+
+A tablet mapping to the screen has been changed or set.
+
+
+### -field RTSDI_DefaultEvents
+
+The plug-in receives the default stylus data.
+
+
+## -remarks
+
+
+
+The <b>RealTimeStylusDataInterest Enumeration</b> values are used in a bitwise combination that defines the set of data notifications. Use the <b>RealTimeStylusDataInterest Enumeration</b> to specify only the events for which you would like to receive notification. Thus, improving performance.
+
+The <a href="https://msdn.microsoft.com/fd686a78-b0a8-41d2-a37b-90544f531270">RealTimeStylus Class</a> notifies plug-ins when it is retrieving packet data by calling into the respective plug-ins in a specified sequence. You control the sequence and types of plug-ins that receive these notifications. The packet data in the events can be modified by the plug-ins the <b>RealTimeStylus Class</b> object calls into.
+
+You can control which methods are called on your plug-in by implementing the <a href="https://msdn.microsoft.com/bbef5cdb-4112-4733-80bb-692b7a198605">IStylusPlugin Interface</a>:: <a href="https://msdn.microsoft.com/7ff6ccf2-292c-4321-be2a-d6db7ce14943">IStylusPlugin::DataInterest Method</a> method.
+
+The following events are the default events:
+
+<ul>
+<li>RTSDI_RealTimeStylusEnabled</li>
+<li>RTSDI_RealTimeStylusDisabled</li>
+<li>RTSDI_StylusDown</li>
+<li>RTSDI_Packets</li>
+<li>RTSDI_StylusUp</li>
+<li>RTSDI_SystemEvents</li>
+<li>RTSDI_CustomStylusDataAdded</li>
+</ul>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/bf961d70-2576-493b-a34d-c7c72b6c0234">IStylusAsyncPlugin</a>
+
+
+
+<a href="https://msdn.microsoft.com/e3e02d5a-a004-49de-b2d8-86ccfc120481">IStylusSyncPlugin</a>
+
+
+
+<a href="https://msdn.microsoft.com/fd686a78-b0a8-41d2-a37b-90544f531270">RealTimeStylus Class</a>
+ 
+
+ 
+

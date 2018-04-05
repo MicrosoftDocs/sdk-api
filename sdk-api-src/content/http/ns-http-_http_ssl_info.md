@@ -1,0 +1,131 @@
+---
+UID: NS:http._HTTP_SSL_INFO
+title: "_HTTP_SSL_INFO"
+author: windows-driver-content
+description: Contains data for a connection that uses Secure Sockets Layer (SSL), obtained through the SSL handshake.
+old-location: http\http_ssl_info.htm
+old-project: Http
+ms.assetid: 35aac36d-87a1-45b2-acb1-6969c992d0cf
+ms.author: windowsdriverdev
+ms.date: 3/23/2018
+ms.keywords: "*PHTTP_SSL_INFO, HTTP_SSL_INFO, HTTP_SSL_INFO structure [HTTP], PHTTP_SSL_INFO, PHTTP_SSL_INFO structure pointer [HTTP], _HTTP_SSL_INFO, _http_http_ssl_info, http.http_ssl_info, http/HTTP_SSL_INFO, http/PHTTP_SSL_INFO"
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: struct
+req.header: http.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: HTTP_SSL_INFO, *PHTTP_SSL_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Http.h
+api_name:
+-	HTTP_SSL_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# _HTTP_SSL_INFO structure
+
+
+## -description
+
+
+The 
+<b>HTTP_SSL_INFO</b> structure contains data for a connection that uses Secure Sockets Layer (SSL), obtained through the SSL handshake.
+
+
+## -struct-fields
+
+
+
+
+### -field ServerCertKeySize
+
+The size, in bytes, of the public key used to sign the server certificate.
+
+
+### -field ConnectionKeySize
+
+The size, in bytes, of the cipher key used to encrypt the current session.
+
+
+### -field ServerCertIssuerSize
+
+The size, in bytes, of the string pointed to by the <b>pServerCertIssuer</b> member not including the terminating null character.
+
+
+### -field ServerCertSubjectSize
+
+The size, in bytes, of the string pointed to by the <b>pServerCertSubject</b> member not including the terminating null character.
+
+
+### -field pServerCertIssuer
+
+A pointer to a null-terminated string of octets that specifies the name of the entity that issued the certificate.
+
+
+### -field pServerCertSubject
+
+A pointer to a null-terminated string of octets that specifies the name of the entity to which the certificate belongs.
+
+
+### -field pClientCertInfo
+
+A pointer to an 
+<a href="https://msdn.microsoft.com/bfe6a9a9-6117-4403-a83f-e9448615500b">HTTP_SSL_CLIENT_CERT_INFO</a> structure that specifies the client certificate.
+
+
+### -field SslClientCertNegotiated
+
+If non-zero, indicates that the client certificate is already present locally.
+
+
+## -remarks
+
+
+
+An 
+<b>HTTP_SSL_INFO</b> structure can be pointed to by the <b>pSslInfo</b> member of an 
+<a href="https://msdn.microsoft.com/e592cf54-df6d-472b-a736-c44a5ccdd3d2">HTTP_REQUEST</a> structure.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/e38f7a05-f966-4853-be3b-5cdbf224719e">HTTP Server API Version 1.0 Structures</a>
+
+
+
+<a href="https://msdn.microsoft.com/e592cf54-df6d-472b-a736-c44a5ccdd3d2">HTTP_REQUEST</a>
+
+
+
+<a href="https://msdn.microsoft.com/bfe6a9a9-6117-4403-a83f-e9448615500b">HTTP_SSL_CLIENT_CERT_INFO</a>
+ 
+
+ 
+

@@ -1,0 +1,85 @@
+---
+UID: NS:iads.__MIDL___MIDL_itf_ads_0000_0000_0013
+title: "__MIDL___MIDL_itf_ads_0000_0000_0013"
+author: windows-driver-content
+description: The ADS_FAXNUMBER structure is an ADSI representation of the Facsimile Telephone Number attribute syntax.
+old-location: adsi\ads_faxnumber.htm
+old-project: ADSI
+ms.assetid: 32553290-e9ca-44e7-a085-f053df8104e6
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: "*PADS_FAXNUMBER, ADS_FAXNUMBER, ADS_FAXNUMBER structure [ADSI], PADS_FAXNUMBER, PADS_FAXNUMBER structure pointer [ADSI], __MIDL___MIDL_itf_ads_0000_0000_0013, _ds_ads_faxnumber, adsi.ads__faxnumber, adsi.ads_faxnumber, iads/ADS_FAXNUMBER, iads/PADS_FAXNUMBER"
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: struct
+req.header: iads.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: ADS_FAXNUMBER, *PADS_FAXNUMBER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Iads.h
+api_name:
+-	ADS_FAXNUMBER
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# __MIDL___MIDL_itf_ads_0000_0000_0013 structure
+
+
+## -description
+
+
+The <b>ADS_FAXNUMBER</b> structure is an ADSI representation of the <b>Facsimile Telephone Number</b> attribute syntax.
+
+
+## -struct-fields
+
+
+
+
+### -field TelephoneNumber
+
+The null-terminated Unicode string value that contains the telephone number of the facsimile (fax) machine.
+
+
+### -field NumberOfBits
+
+The number of data bits.
+
+
+### -field Parameters
+
+Optional parameters for the fax machine.
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/3ee0e469-9932-4135-8798-27d318011786">ADSI Structures</a>
+ 
+
+ 
+

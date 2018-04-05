@@ -1,0 +1,90 @@
+---
+UID: NF:searchapi.ISearchManager.get_UseProxy
+title: ISearchManager::get_UseProxy method
+author: windows-driver-content
+description: Retrieves the proxy server to be used.
+old-location: search\_search_ISearchManager_get_UseProxy.htm
+old-project: search
+ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchmanager\get_useproxy.htm
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: ISearchManager, ISearchManager interface [search], get_UseProxy method, ISearchManager::get_UseProxy, _search_ISearchManager_get_UseProxy, get_UseProxy method [search], get_UseProxy method [search], ISearchManager interface, get_UseProxy,ISearchManager.get_UseProxy, search._search_ISearchManager_get_UseProxy, searchapi/ISearchManager::get_UseProxy
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: searchapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Searchadmin.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: ROWSETEVENT_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Searchapi.h
+api_name:
+-	ISearchManager.get_UseProxy
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# ISearchManager::get_UseProxy method
+
+
+## -description
+
+
+
+            Retrieves the proxy server to be used.
+        
+
+
+## -parameters
+
+
+
+
+### -param pUseProxy [out, retval]
+
+Type: <b><a href="https://msdn.microsoft.com/40104593-80f1-4ac5-811c-b923b1a72435">PROXY_ACCESS</a>*</b>
+
+
+                    Receives a pointer to the proxy server to be used.
+                
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+The ReindexMatchingUrls code sample, available on <a href="http://go.microsoft.com/fwlink/p/?linkid=155654">Code Gallery</a> and the <a href="http://go.microsoft.com/fwlink/p/?linkid=129787">Windows 7 SDK</a>, demonstrates ways to specify which files to re-index and how.
+
+
+

@@ -1,0 +1,101 @@
+---
+UID: NF:wmlss.IWindowsMediaLibrarySharingServices.put_internetMediaSharingSecurityGroup
+title: IWindowsMediaLibrarySharingServices::put_internetMediaSharingSecurityGroup method
+author: windows-driver-content
+description: The put_internetMediaSharingSecurityGroup method specifies the name of the security group that is used to authenticate connections coming in over the Internet.
+old-location: wmlss\IWMLSSput_internetMediaSharingSecurityGroup.htm
+old-project: WMLSS
+ms.assetid: 4195fee6-5a4a-4ed0-b433-99932d28579f
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: IWindowsMediaLibrarySharingServices, IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services], put_internetMediaSharingSecurityGroup method, IWindowsMediaLibrarySharingServices::put_internetMediaSharingSecurityGroup, put_internetMediaSharingSecurityGroup method [Windows Media Library Sharing Services], put_internetMediaSharingSecurityGroup method [Windows Media Library Sharing Services], IWindowsMediaLibrarySharingServices interface, put_internetMediaSharingSecurityGroup,IWindowsMediaLibrarySharingServices.put_internetMediaSharingSecurityGroup, wmlss.IWMLSSput_internetMediaSharingSecurityGroup, wmlss/IWindowsMediaLibrarySharingServices::put_internetMediaSharingSecurityGroup
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wmlss.h
+req.include-header: Wmlss.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WindowsMediaLibrarySharingDeviceAuthorizationStatus
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	WMPMediaSharing.dll
+api_name:
+-	IWindowsMediaLibrarySharingServices.put_internetMediaSharingSecurityGroup
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: WMPMediaSharing.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IWindowsMediaLibrarySharingServices::put_internetMediaSharingSecurityGroup method
+
+
+## -description
+
+
+The <b>put_internetMediaSharingSecurityGroup</b> method specifies the name of the security group that is used to authenticate connections coming in over the Internet.
+
+
+## -parameters
+
+
+
+
+### -param securityGroup [in]
+
+A <b>BSTR</b> that specifies the name of the security group.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+The Internet media sharing security group applies only to Windows Home Server. Applications running on other versions of Windows can call <b>put_internetMediaSharingSecurityGroup</b> and <a href="https://msdn.microsoft.com/a0085105-7dd5-453d-b372-115d319eb7ac">get_internetMediaSharingSecurityGroup</a>, but the calls will have no effect.
+
+
+

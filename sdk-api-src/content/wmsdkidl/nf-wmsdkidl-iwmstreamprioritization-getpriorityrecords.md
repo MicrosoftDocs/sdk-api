@@ -1,0 +1,157 @@
+---
+UID: NF:wmsdkidl.IWMStreamPrioritization.GetPriorityRecords
+title: IWMStreamPrioritization::GetPriorityRecords method
+author: windows-driver-content
+description: The GetPriorityRecords method retrieves the list of streams and their priorities from the profile.
+old-location: wmformat\iwmstreamprioritization_getpriorityrecords.htm
+old-project: wmformat
+ms.assetid: 50b105c7-1e4f-435c-8bb6-643ea4d065bb
+ms.author: windowsdriverdev
+ms.date: 3/23/2018
+ms.keywords: GetPriorityRecords method [windows Media Format], GetPriorityRecords method [windows Media Format], IWMStreamPrioritization interface, GetPriorityRecords,IWMStreamPrioritization.GetPriorityRecords, IWMStreamPrioritization, IWMStreamPrioritization interface [windows Media Format], GetPriorityRecords method, IWMStreamPrioritization::GetPriorityRecords, IWMStreamPrioritizationGetPriorityRecords, wmformat.iwmstreamprioritization_getpriorityrecords, wmsdkidl/IWMStreamPrioritization::GetPriorityRecords
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wmsdkidl.h
+req.include-header: Wmsdk.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WM_AETYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wmvcore.lib
+-	Wmvcore.dll
+-	WMStubDRM.lib
+-	WMStubDRM.dll
+api_name:
+-	IWMStreamPrioritization.GetPriorityRecords
+product: Windows
+targetos: Windows
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IWMStreamPrioritization::GetPriorityRecords method
+
+
+## -description
+
+
+
+The <b>GetPriorityRecords</b> method retrieves the list of streams and their priorities from the profile.
+
+
+
+
+## -parameters
+
+
+
+
+### -param pRecordArray [out]
+
+Pointer to an array of <b>WM_STREAM_PRIORITY_RECORD</b> structures. This array will receive the current stream priority data.
+
+
+### -param pcRecords [in, out]
+
+Pointer to a <b>WORD</b> that receives the count of records.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+<i>pcRecords</i> is <b>NULL</b>.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ASF_E_BUFFERTOOSMALL</b></dt>
+</dl>
+</td>
+<td width="60%">
+<i>pcRecords</i> specifies fewer records than exist in the stream prioritization object.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+You should make two calls to <b>GetPriorityRecords</b>. On the first call, pass <b>NULL</b> as <i>pRecordArray</i>. On return, the value of <i>pcRecords</i> is set to the number of prioritization records in the stream priority object. Then you can allocate the required amount of memory for the array and pass a pointer to it as <i>pRecordArray</i> in the second call.
+
+If you pass an array as <i>pRecordArray</i> that does not have enough elements allocated to contain the data, an error code of ASF_E_BUFFERTOOSMALL is returned. When returning this error code, the method still sets the value of <i>pcRecords</i>.
+
+Records in a stream prioritization object are given in order of decreasing priority
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/ef8ae275-c36a-492c-b57c-d640044ede93">IWMStreamPrioritization Interface</a>
+
+
+
+<a href="https://msdn.microsoft.com/9bd42132-b391-4941-87db-5ce2254e19cf">IWMStreamPrioritization::SetPriorityRecords</a>
+
+
+
+<a href="https://msdn.microsoft.com/43c9370c-cd43-4dd0-8258-d6dbdb98f1de">WM_STREAM_PRIORITY_RECORD</a>
+ 
+
+ 
+

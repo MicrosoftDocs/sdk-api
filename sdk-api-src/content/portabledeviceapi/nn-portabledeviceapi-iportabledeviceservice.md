@@ -1,0 +1,171 @@
+---
+UID: NN:portabledeviceapi.IPortableDeviceService
+title: IPortableDeviceService
+author: windows-driver-content
+description: Provides access to a service.
+old-location: wpdsdk\iportabledeviceservice.htm
+old-project: wpd_sdk
+ms.assetid: f57344d5-c978-4c27-b8a9-b42492bd9312
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: IPortableDeviceService, IPortableDeviceService interface [Windows Portable Devices SDK], IPortableDeviceService interface [Windows Portable Devices SDK], described, portabledeviceapi/IPortableDeviceService, wpdsdk.iportabledeviceservice
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: interface
+req.header: portabledeviceapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps | UWP apps]
+req.target-min-winversvr: None supported
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: PortableDeviceAPI.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WPD_WHITE_BALANCE_SETTINGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	PortableDeviceAPI.h
+api_name:
+-	IPortableDeviceService
+product: Windows
+targetos: Windows
+req.lib: PortableDeviceGUIDs.lib
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# IPortableDeviceService interface
+
+
+## -description
+
+
+The <b>IPortableDeviceService</b> interface provides access to a service.
+
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortableDeviceService</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IPortableDeviceService</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
+
+## -members
+
+The <b>IPortableDeviceService</b> interface has these methods.
+<table class="members" id="memberListMethods">
+<tr>
+<th align="left" width="37%">Method</th>
+<th align="left" width="63%">Description</th>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/128b1ee9-fd1f-4480-ae9a-b1d0bc86cf1b">Advise</a>
+</td>
+<td align="left" width="63%">
+Registers an application-defined callback object that receives service events.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406716">Cancel</a>
+</td>
+<td align="left" width="63%">
+Cancels a pending service operation.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/62ef0c63-2908-458f-8e9f-eb6150441380">Capabilities</a>
+</td>
+<td align="left" width="63%">
+Retrieves the service capabilities.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a>
+</td>
+<td align="left" width="63%">
+Releases the connection to the service.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/36977b23-b03f-48bc-8313-ddfe2ef208de">Content</a>
+</td>
+<td align="left" width="63%">
+Retrieves access to the service content.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/c73261a5-1436-4706-8d8b-ff8183429ac4">GetPnPServiceId</a>
+</td>
+<td align="left" width="63%">
+Retrieves a Plug and Play (PnP) identifier for the service.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/f86907c4-5d8a-4659-ab57-3c235face8cf">GetServiceObjectId</a>
+</td>
+<td align="left" width="63%">
+Retrieves an object identifier for the service.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/345102d4-3dac-4878-9196-bb0d97c0df07">Methods</a>
+</td>
+<td align="left" width="63%">
+Retrieves methods that can be called on the service.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451153">Open</a>
+</td>
+<td align="left" width="63%">
+Opens a connection to the service.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/c6c42347-145c-4be7-bea6-34b13c211cb1">SendCommand</a>
+</td>
+<td align="left" width="63%">
+Sends a command and its parameters to the service.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/4982efa9-82f2-457b-acf4-c6f7d48cf6f7">Unadvise</a>
+</td>
+<td align="left" width="63%">
+Unregisters a service callback method.
+
+</td>
+</tr>
+</table> 
+

@@ -1,0 +1,186 @@
+---
+UID: NF:winnls.FindNLSString
+title: FindNLSString function
+author: windows-driver-content
+description: Locates a Unicode string (wide characters) or its equivalent in another Unicode string for a locale specified by identifier.Caution  Because strings with very different binary representations can compare as identical, this function can raise certain security concerns. For more information, see the discussion of comparison functions in Security Considerations:\_International Features. Note  For interoperability reasons, the application should prefer the FindNLSStringEx function because Microsoft is migrating toward the use of locale names instead of locale identifiers for new locales. Although FindNLSString supports custom locales, most applications should use FindNLSStringEx for this type of support.
+old-location: intl\findnlsstring.htm
+old-project: Intl
+ms.assetid: d65a67d1-a7e1-4d2a-ae8b-6b4ac7f2a987
+ms.author: windowsdriverdev
+ms.date: 3/23/2018
+ms.keywords: FindNLSString, FindNLSString function [Internationalization for Windows Applications], _win32_FindNLSString, intl.findnlsstring, winnls/FindNLSString
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: winnls.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: NORM_FORM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Kernel32.dll
+-	API-MS-Win-Core-Localization-l1-1-0.dll
+-	KernelBase.dll
+-	API-MS-Win-Core-Localization-l1-2-0.dll
+-	API-MS-Win-Core-Localization-l1-2-1.dll
+-	API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+-	MinKernelBase.dll
+-	API-MS-Win-Core-Localization-L1-2-2.dll
+api_name:
+-	FindNLSString
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# FindNLSString function
+
+
+## -description
+
+
+Locates a Unicode string (wide characters) or its equivalent in another Unicode string for a locale specified by identifier.
+<div class="alert"><b>Caution</b>  Because strings with very different binary representations can compare as identical, this function can raise certain security concerns. For more information, see the discussion of comparison functions in <a href="https://msdn.microsoft.com/4034f479-ad29-4c6f-82c6-977f420c4d4d">Security Considerations: International Features</a>.</div><div> </div><div class="alert"><b>Note</b>  For interoperability reasons, the application should prefer the <a href="https://msdn.microsoft.com/38339881-30d2-4f55-9fee-81916ab15135">FindNLSStringEx</a> function because Microsoft is migrating toward the use of locale names instead of locale identifiers for new locales. Although <b>FindNLSString</b> supports custom locales, most applications should use <a href="https://msdn.microsoft.com/38339881-30d2-4f55-9fee-81916ab15135">FindNLSStringEx</a> for this type of support.</div><div> </div>
+
+## -parameters
+
+
+
+
+### -param Locale [in]
+
+
+<a href="https://msdn.microsoft.com/ea45b0e5-7df7-47fb-8dad-fccfbe53fec0">Locale identifier</a> that specifies the locale. You can use the <a href="https://msdn.microsoft.com/2f8893a0-f916-4a62-a423-e525cf281fa4">MAKELCID</a> macro to create an identifier or use one of the following predefined values. 
+
+<ul>
+<li>
+<a href="https://msdn.microsoft.com/d37df17d-8cd5-4481-bee2-062cf9d78e9b">LOCALE_INVARIANT</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/57de328c-3afc-4fbb-882c-fa35d3552c13">LOCALE_SYSTEM_DEFAULT</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/9ccb489b-24d0-42e5-a01a-2cdb7c3267eb">LOCALE_USER_DEFAULT</a>
+</li>
+</ul>
+<b>Windows Vista and later:</b> The following custom locale identifiers are also supported.
+
+<ul>
+<li>
+<a href="https://msdn.microsoft.com/a41a7f55-8905-47a1-86c3-74ed40b3834c">LOCALE_CUSTOM_DEFAULT</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/a41a7f55-8905-47a1-86c3-74ed40b3834c">LOCALE_CUSTOM_UI_DEFAULT</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/a41a7f55-8905-47a1-86c3-74ed40b3834c">LOCALE_CUSTOM_UNSPECIFIED</a>
+</li>
+</ul>
+
+### -param dwFindNLSStringFlags [in]
+
+Flags specifying details of the find operation. For detailed definitions, see the <i>dwFindNLSStringFlags</i> parameter of <a href="https://msdn.microsoft.com/38339881-30d2-4f55-9fee-81916ab15135">FindNLSStringEx</a>.
+
+
+### -param lpStringSource [in]
+
+Pointer to the source string, in which the function searches for the string specified by <i>lpStringValue</i>.
+
+
+### -param cchSource [in]
+
+Size, in characters excluding the terminating null character, of the string indicated by <i>lpStringSource</i>. The application cannot specify 0 or any negative number other than -1 for this parameter. The application specifies -1 if the source string is null-terminated and the function should calculate the size automatically.
+
+
+### -param lpStringValue [in]
+
+Pointer to the search string, for which the function searches in the source string.
+
+
+### -param cchValue [in]
+
+Size, in characters excluding the terminating null character, of the string indicated by <i>lpStringValue</i>. The application cannot specify 0 or any negative number other than -1 for this parameter. The application specifies -1 if the search string is null-terminated and the function should calculate the size automatically.
+
+
+### -param pcchFound [out, optional]
+
+Pointer to a buffer containing the length of the string that the function finds. For details, see the <i>pcchFound</i> parameter of <a href="https://msdn.microsoft.com/38339881-30d2-4f55-9fee-81916ab15135">FindNLSStringEx</a>.
+
+
+## -returns
+
+
+
+Returns a 0-based index into the source string indicated by <i>lpStringSource</i> if successful. In combination with the value in <i>pcchFound</i>, this index provides the exact location of the entire found string in the source string. A return value of 0 is an error-free index into the source string, and the matching string is in the source string at offset 0.
+
+The function returns -1 if it does not succeed. To get extended error information, the application can call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>, which can return one of the following error codes:
+
+<ul>
+<li>ERROR_INVALID_FLAGS. The values supplied for flags were not valid.</li>
+<li>ERROR_INVALID_PARAMETER. Any of the parameter values was invalid.</li>
+<li>ERROR_SUCCESS. The action completed successfully but yielded no results.</li>
+</ul>
+
+
+
+## -remarks
+
+
+
+See Remarks for <a href="https://msdn.microsoft.com/38339881-30d2-4f55-9fee-81916ab15135">FindNLSStringEx</a>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/4db84fa7-f3c2-48fb-ad7d-8673397c4b0e">CompareString</a>
+
+
+
+<a href="https://msdn.microsoft.com/38339881-30d2-4f55-9fee-81916ab15135">FindNLSStringEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/c8fc32bd-02bd-4a40-a836-d9ad9f69c209">Handling Sorting in Your Applications</a>
+
+
+
+<a href="https://msdn.microsoft.com/84dda2cd-cbf9-45e9-b18c-7dea0b5bc991">LCMapString</a>
+
+
+
+<a href="https://msdn.microsoft.com/7a548074-0782-45e1-8051-80c3b9d81885">National Language Support</a>
+
+
+
+<a href="https://msdn.microsoft.com/7c72c4de-83be-4b7e-9ed8-b0236c1df8a4">National Language Support Functions</a>
+
+
+
+<a href="https://msdn.microsoft.com/4034f479-ad29-4c6f-82c6-977f420c4d4d">Security Considerations: International Features</a>
+ 
+
+ 
+

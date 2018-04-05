@@ -1,0 +1,124 @@
+---
+UID: NF:imapi2.IDiscFormat2Data.put_ForceMediaToBeClosed
+title: IDiscFormat2Data::put_ForceMediaToBeClosed method
+author: windows-driver-content
+description: Determines if further additions to the file system are prevented.
+old-location: imapi\idiscformat2data_put_forcemediatobeclosed.htm
+old-project: imapi
+ms.assetid: 9a087a73-1b61-481d-8deb-a251511906a9
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: IDiscFormat2Data, IDiscFormat2Data interface [IMAPI], put_ForceMediaToBeClosed method, IDiscFormat2Data::put_ForceMediaToBeClosed, imapi.idiscformat2data_put_forcemediatobeclosed, imapi2/IDiscFormat2Data::put_ForceMediaToBeClosed, put_ForceMediaToBeClosed method [IMAPI], put_ForceMediaToBeClosed method [IMAPI], IDiscFormat2Data interface, put_ForceMediaToBeClosed,IDiscFormat2Data.put_ForceMediaToBeClosed
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: imapi2.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Imapi2.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	imapi2.h
+api_name:
+-	IDiscFormat2Data.put_ForceMediaToBeClosed
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IDiscFormat2Data::put_ForceMediaToBeClosed method
+
+
+## -description
+
+
+Determines if further additions to the file system are prevented. 
+
+
+## -parameters
+
+
+
+
+### -param value [in]
+
+Set to VARIANT_TRUE to mark the disc as closed to prohibit additional writes when the next write session ends.
+
+Set to VARIANT_FALSE to keep the disc open for subsequent write sessions. The default is VARIANT_FALSE.
+
+
+## -returns
+
+
+
+S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_IMAPI_DF2DATA_WRITE_IN_PROGRESS</b></dt>
+</dl>
+</td>
+<td width="60%">
+There is currently a write operation in progress.
+
+Value: 0xC0AA0400
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+When the free space on a disc reaches 2% or less, the write process marks the disc closed, regardless of the value of this property. This action ensures that a disc has enough free space to record a file system in a write session.
+
+You can erase a rewritable disc that is marked closed.
+
+Note that the <a href="https://msdn.microsoft.com/d32bbb33-0cb6-46cd-8a06-7ddd6e94a7b3">IDiscFormat2Data::put_DisableConsumerDvdCompatibilityMode</a> property may supersede this property. Please refer to <b>put_DisableConsumerDvdCompatibilityMode</b> for details.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/6bb871c2-1a6e-4cf6-94e1-7a566ce7a88e">IDiscFormat2Data</a>
+
+
+
+<a href="https://msdn.microsoft.com/9de0afa9-93b7-4a12-b8e2-a9c083692f98">IDiscFormat2Data::get_ForceMediaToBeClosed</a>
+ 
+
+ 
+

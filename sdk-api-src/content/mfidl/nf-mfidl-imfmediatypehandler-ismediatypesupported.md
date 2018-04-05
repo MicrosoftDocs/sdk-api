@@ -1,0 +1,158 @@
+---
+UID: NF:mfidl.IMFMediaTypeHandler.IsMediaTypeSupported
+title: IMFMediaTypeHandler::IsMediaTypeSupported method
+author: windows-driver-content
+description: Queries whether the object supports a specified media type.
+old-location: mf\imfmediatypehandler_ismediatypesupported.htm
+old-project: medfound
+ms.assetid: ea52defa-8b78-4f40-97ae-ed6a5ee4849e
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: IMFMediaTypeHandler, IMFMediaTypeHandler interface [Media Foundation], IsMediaTypeSupported method, IMFMediaTypeHandler::IsMediaTypeSupported, IsMediaTypeSupported method [Media Foundation], IsMediaTypeSupported method [Media Foundation], IMFMediaTypeHandler interface, IsMediaTypeSupported,IMFMediaTypeHandler.IsMediaTypeSupported, ea52defa-8b78-4f40-97ae-ed6a5ee4849e, mf.imfmediatypehandler_ismediatypesupported, mfidl/IMFMediaTypeHandler::IsMediaTypeSupported
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: mfidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MF_URL_TRUST_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfuuid.lib
+-	mfuuid.dll
+api_name:
+-	IMFMediaTypeHandler.IsMediaTypeSupported
+product: Windows
+targetos: Windows
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IMFMediaTypeHandler::IsMediaTypeSupported method
+
+
+## -description
+
+
+
+Queries whether the object supports a specified media type.
+
+
+
+
+## -parameters
+
+
+
+
+### -param pMediaType [in]
+
+
+            Pointer to the <a href="https://msdn.microsoft.com/f1d60bec-71e4-4fcc-a020-92754b6f3c02">IMFMediaType</a> interface of the media type to check.
+          
+
+
+### -param ppMediaType [out]
+
+
+            Receives a pointer to the <a href="https://msdn.microsoft.com/f1d60bec-71e4-4fcc-a020-92754b6f3c02">IMFMediaType</a> interface of the closest matching media type, or receives the value <b>NULL</b>. If non-<b>NULL</b>, the caller must release the interface. This parameter can be <b>NULL</b>. See Remarks.
+          
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+
+                The method succeeded.
+              
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>MF_E_INVALIDMEDIATYPE</b></dt>
+</dl>
+</td>
+<td width="60%">
+
+                The object does not support this media type.
+              
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+
+        If the object supports the media type given in <i>pMediaType</i>, the method returns <b>S_OK</b>. For a media source, it means the source can generate data that conforms to that media type. For a media sink, it means the sink can receive data that conforms to that media type. If the object does not support the media type, the method fails.
+      
+
+
+        The <i>ppMediaType</i> parameter is optional. If the method fails, the object might use <i>ppMediaType</i> to return a media type that the object does support, and which closely matches the one given in <i>pMediaType</i>. The method is not guaranteed to return a media type in <i>ppMediaType</i>. If no type is returned, this parameter receives a <b>NULL</b> pointer. If the method succeeds, this parameter receives a <b>NULL</b> pointer. If the caller sets <i>ppMediaType</i> to <b>NULL</b>, this parameter is ignored.
+      
+
+This interface is available on the following platforms if the Windows Media Format 11 SDK redistributable components are installed:
+
+<ul>
+<li>Windows XP with Service Pack 2 (SP2) and later.</li>
+<li>Windows XP Media Center Edition 2005 with KB900325 (Windows XP Media Center Edition 2005) and KB925766 (October 2006 Update Rollup for Windows XP Media Center Edition) installed.</li>
+</ul>
+This interface is available on the following platforms if the Windows Media Format 11 SDK redistributable components are installed:
+
+<ul>
+<li>Windows XP with SP2 and later.</li>
+<li>Windows XP Media Center Edition 2005 with KB900325 (Windows XP Media Center Edition 2005) and KB925766 (October 2006 Update Rollup for Windows XP Media Center Edition) installed.</li>
+</ul>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/5b937bf7-4f86-4dc1-a4d5-7e724dcf5b36">IMFMediaTypeHandler</a>
+ 
+
+ 
+

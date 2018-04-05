@@ -1,0 +1,91 @@
+---
+UID: NF:windows.ui.xaml.media.dxinterop.ISwapChainPanelNative.SetSwapChain
+title: ISwapChainPanelNative::SetSwapChain method
+author: windows-driver-content
+description: Sets the DirectX swap chain for SwapChainPanel.
+old-location: winrt\iswapchainpanelnative_setswapchain.htm
+old-project: WinRT
+ms.assetid: 8269A6DC-1732-40CF-96C7-FA13BC6763D2
+ms.author: windowsdriverdev
+ms.date: 3/23/2018
+ms.keywords: ISwapChainPanelNative, ISwapChainPanelNative interface [Windows Runtime], SetSwapChain method, ISwapChainPanelNative::SetSwapChain, SetSwapChain method [Windows Runtime], SetSwapChain method [Windows Runtime], ISwapChainPanelNative interface, SetSwapChain,ISwapChainPanelNative.SetSwapChain, windows/ISwapChainPanelNative::SetSwapChain, winrt.iswapchainpanelnative_setswapchain
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: windows.ui.xaml.media.dxinterop.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Windows.ui.xaml.media.dxinterop.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: TransportInformation
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Windows.UI.Xaml.dll
+api_name:
+-	ISwapChainPanelNative.SetSwapChain
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Windows.UI.Xaml.dll
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# ISwapChainPanelNative::SetSwapChain method
+
+
+## -description
+
+
+Sets the DirectX swap chain for <a href="https://msdn.microsoft.com/e99a6d0f-d556-4aaa-853a-366853614560">SwapChainPanel</a>.
+
+
+## -parameters
+
+
+
+
+### -param swapChain
+
+
+
+
+
+
+#### - pSwapChain [in]
+
+A configured <a href="https://msdn.microsoft.com/344ada45-35a0-4e99-b3b7-0f316df029ab">IDXGISwapChain</a>.
+
+
+## -returns
+
+
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/B36147C7-1304-4175-8AD3-CD5FCA17B4AE">ISwapChainPanelNative</a>
+ 
+
+ 
+

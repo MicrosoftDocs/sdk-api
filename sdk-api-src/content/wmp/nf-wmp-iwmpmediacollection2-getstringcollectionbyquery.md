@@ -1,0 +1,156 @@
+---
+UID: NF:wmp.IWMPMediaCollection2.getStringCollectionByQuery
+title: IWMPMediaCollection2::getStringCollectionByQuery method
+author: windows-driver-content
+description: The getStringCollectionByQuery method retrieves a pointer to an IWMPStringCollection interface. This interface represents a set of all string values for a specified attribute that match the query conditions.
+old-location: wmp\iwmpmediacollection2_getstringcollectionbyquery.htm
+old-project: WMP
+ms.assetid: 070bc947-bf2b-4c06-9ffa-6a23625d178a
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: IWMPMediaCollection2, IWMPMediaCollection2 interface [Windows Media Player], getStringCollectionByQuery method, IWMPMediaCollection2::getStringCollectionByQuery, IWMPMediaCollection2getStringCollectionByQuery, getStringCollectionByQuery method [Windows Media Player], getStringCollectionByQuery method [Windows Media Player], IWMPMediaCollection2 interface, getStringCollectionByQuery,IWMPMediaCollection2.getStringCollectionByQuery, wmp.iwmpmediacollection2_getstringcollectionbyquery, wmp/IWMPMediaCollection2::getStringCollectionByQuery
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wmp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Media Player 11.
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WMPSyncState
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	wmp.dll
+api_name:
+-	IWMPMediaCollection2.getStringCollectionByQuery
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IWMPMediaCollection2::getStringCollectionByQuery method
+
+
+## -description
+
+
+
+The <b>getStringCollectionByQuery</b> method retrieves a pointer to an <b>IWMPStringCollection</b> interface. This interface represents a set of all string values for a specified attribute that match the query conditions.
+
+
+
+
+## -parameters
+
+
+
+
+### -param bstrAttribute [in]
+
+String containing the attribute name.
+
+
+### -param pQuery [in]
+
+Pointer to the <b>IWMPQuery</b> interface that represents the query that defines the conditions used to retrieve the string collection.
+
+
+### -param bstrMediaType [in]
+
+String containing the media type. Must contain one of the following values: "audio", "video", "photo", "playlist", or "other".
+
+
+### -param bstrSortAttribute [in]
+
+String containing the attribute name used for sorting. An empty string means no sorting is applied.
+
+
+### -param fSortAscending [in]
+
+<b>VARIANT_BOOL</b> that indicates whether the playlist must be sorted in ascending order.
+
+
+### -param ppStringCollection [out]
+
+Address of a variable that receives a pointer to an <b>IWMPStringCollection</b> interface for the retrieved set of string values.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+Compound queries using <b>IWMPQuery</b> are not case sensitive.
+
+When the compound query specified by the <i>pQuery</i> parameter contains a condition built on the <b>MediaType</b> attribute, that condition is ignored. The value for the <i>bstrMediaType</i> parameter is always used. For example, if the compound query contains the condition "MediaType Equals audio" and the value for the <i>bstrMediaType</i> parameter is "video", the resulting playlist will contain only video items.
+
+<b>Windows Media Player 10 Mobile:</b> This method is not supported.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/576e231e-542a-495c-ad1b-a246339c3cb1">IWMPMediaCollection2 Interface</a>
+
+
+
+<a href="https://msdn.microsoft.com/f1f3c46f-4756-49b4-ad4f-a9097ff787f8">IWMPQuery Interface</a>
+
+
+
+<a href="https://msdn.microsoft.com/8cdabea9-7e37-4e63-9d6c-b6f63aa536ea">IWMPStringCollection Interface</a>
+
+
+
+<a href="https://msdn.microsoft.com/0d8a6937-32d8-4a4a-87e5-0002f077fefe">MediaType Attribute</a>
+ 
+
+ 
+

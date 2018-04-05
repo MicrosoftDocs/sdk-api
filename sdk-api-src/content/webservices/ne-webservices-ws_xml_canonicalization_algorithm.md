@@ -1,0 +1,104 @@
+---
+UID: NE:webservices.WS_XML_CANONICALIZATION_ALGORITHM
+title: WS_XML_CANONICALIZATION_ALGORITHM
+author: windows-driver-content
+description: The values for the XML canonicalization algorithms.
+old-location: wsw\ws_xml_canonicalization_algorithm.htm
+old-project: wsw
+ms.assetid: 230e4b9d-f6ce-45a8-9efd-2a6949d3e6f4
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: WS_EXCLUSIVE_WITH_COMMENTS_XML_CANONICALIZATION_ALGORITHM, WS_EXCLUSIVE_XML_CANONICALIZATION_ALGORITHM, WS_INCLUSIVE_WITH_COMMENTS_XML_CANONICALIZATION_ALGORITHM, WS_INCLUSIVE_XML_CANONICALIZATION_ALGORITHM, WS_XML_CANONICALIZATION_ALGORITHM, WS_XML_CANONICALIZATION_ALGORITHM enumeration [Web Services for Windows], webservices/WS_EXCLUSIVE_WITH_COMMENTS_XML_CANONICALIZATION_ALGORITHM, webservices/WS_EXCLUSIVE_XML_CANONICALIZATION_ALGORITHM, webservices/WS_INCLUSIVE_WITH_COMMENTS_XML_CANONICALIZATION_ALGORITHM, webservices/WS_INCLUSIVE_XML_CANONICALIZATION_ALGORITHM, webservices/WS_XML_CANONICALIZATION_ALGORITHM, wsw.ws_xml_canonicalization_algorithm
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: enum
+req.header: webservices.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WS_XML_CANONICALIZATION_ALGORITHM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WebServices.h
+api_name:
+-	WS_XML_CANONICALIZATION_ALGORITHM
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# WS_XML_CANONICALIZATION_ALGORITHM enumeration
+
+
+## -description
+
+
+The values for the XML canonicalization algorithms.
+      
+
+
+## -enum-fields
+
+
+
+
+### -field WS_EXCLUSIVE_XML_CANONICALIZATION_ALGORITHM
+
+
+          The exclusive XML canonicalization algorithm
+          represented by the URI 'http://www.w3.org/2001/10/xml-exc-c14n#' and
+          defined in <a href=" http://go.microsoft.com/fwlink/p/?linkid=139714">RFC 3741</a>.
+        
+
+
+### -field WS_EXCLUSIVE_WITH_COMMENTS_XML_CANONICALIZATION_ALGORITHM
+
+
+          The exclusive XML canonicalization with comments algorithm
+          defined in <a href=" http://go.microsoft.com/fwlink/p/?linkid=139714">RFC 3741</a>.
+        
+
+
+### -field WS_INCLUSIVE_XML_CANONICALIZATION_ALGORITHM
+
+
+          The inclusive XML canonicalization algorithm
+          defined in <a href="http://go.microsoft.com/fwlink/p/?linkid=139716">Canonical XML
+Version 1.0</a>.
+        
+
+
+          Inclusive canonicalization can only be applied to entire xml documents.
+        
+
+
+### -field WS_INCLUSIVE_WITH_COMMENTS_XML_CANONICALIZATION_ALGORITHM
+
+
+          The inclusive XML canonicalization with comments algorithm
+          represented by the URI 'http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments' and
+          defined in <a href="http://go.microsoft.com/fwlink/p/?linkid=139716">Canonical XML
+Version 1.0</a>.
+        
+
+
+          Inclusive canonicalization can only be applied to entire xml documents.
+        
+

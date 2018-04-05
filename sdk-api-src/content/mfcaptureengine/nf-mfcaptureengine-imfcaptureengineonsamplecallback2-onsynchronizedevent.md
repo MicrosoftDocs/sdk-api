@@ -1,0 +1,93 @@
+---
+UID: NF:mfcaptureengine.IMFCaptureEngineOnSampleCallback2.OnSynchronizedEvent
+title: IMFCaptureEngineOnSampleCallback2::OnSynchronizedEvent method
+author: windows-driver-content
+description: Called by the capture sink when the format of the sample is changed.
+old-location: mf\imfcaptureengineonsamplecallback2_onsynchronizedevent.htm
+old-project: medfound
+ms.assetid: f82a657a-bc6a-407b-ad72-1e9c6ec17bed
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: IMFCaptureEngineOnSampleCallback2, IMFCaptureEngineOnSampleCallback2 interface [Media Foundation], OnSynchronizedEvent method, IMFCaptureEngineOnSampleCallback2::OnSynchronizedEvent, OnSynchronizedEvent method [Media Foundation], OnSynchronizedEvent method [Media Foundation], IMFCaptureEngineOnSampleCallback2 interface, OnSynchronizedEvent,IMFCaptureEngineOnSampleCallback2.OnSynchronizedEvent, mf.imfcaptureengineonsamplecallback2_onsynchronizedevent, mfcaptureengine/IMFCaptureEngineOnSampleCallback2::OnSynchronizedEvent
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: mfcaptureengine.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Mfcaptureengine.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MF_CAPTURE_ENGINE_STREAM_CATEGORY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfcaptureengine.h
+api_name:
+-	IMFCaptureEngineOnSampleCallback2.OnSynchronizedEvent
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IMFCaptureEngineOnSampleCallback2::OnSynchronizedEvent method
+
+
+## -description
+
+
+Called by the capture sink when the format of the sample is changed.
+
+
+## -parameters
+
+
+
+
+### -param pEvent [in]
+
+The new media type.
+
+
+## -returns
+
+
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+The return value is ignored.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/0899e558-df9e-4060-970c-af0bd26ed5ce">IMFCaptureEngineOnSampleCallback2</a>
+ 
+
+ 
+

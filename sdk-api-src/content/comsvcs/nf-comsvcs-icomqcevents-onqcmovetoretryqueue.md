@@ -1,0 +1,98 @@
+---
+UID: NF:comsvcs.IComQCEvents.OnQCMoveToReTryQueue
+title: IComQCEvents::OnQCMoveToReTryQueue method
+author: windows-driver-content
+description: Generated when a message is moved to a queued components retry queue.
+old-location: cos\icomqcevents_onqcmovetoretryqueue.htm
+old-project: cossdk
+ms.assetid: d8f2af02-852d-4e36-9e0c-4919e2fba4a1
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: IComQCEvents, IComQCEvents interface [COM+], OnQCMoveToReTryQueue method, IComQCEvents::OnQCMoveToReTryQueue, OnQCMoveToReTryQueue method [COM+], OnQCMoveToReTryQueue method [COM+], IComQCEvents interface, OnQCMoveToReTryQueue,IComQCEvents.OnQCMoveToReTryQueue, _dtc_IComQCEvents_OnQCMoveToReTryQueue, comsvcs/IComQCEvents::OnQCMoveToReTryQueue, cos.icomqcevents_onqcmovetoretryqueue
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: comsvcs.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: TRACKING_COLL_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	ComSvcs.h
+api_name:
+-	IComQCEvents.OnQCMoveToReTryQueue
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# IComQCEvents::OnQCMoveToReTryQueue method
+
+
+## -description
+
+
+Generated when a message is moved to a queued components retry queue.
+
+
+## -parameters
+
+
+
+
+### -param pInfo [in]
+
+A pointer to a <a href="https://msdn.microsoft.com/f4aa0892-4c93-42ea-adc6-1b304b917389">COMSVCSEVENTINFO</a> structure.
+
+
+### -param guidMsgId [in]
+
+The unique identifier for the message.
+
+
+### -param guidWorkFlowId [in]
+
+This parameter is reserved.
+
+
+### -param RetryIndex [in]
+
+The index number of the retry queue where the message moved. 
+
+
+## -returns
+
+
+
+The user verifies the return values from this method.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/d7c8220d-a302-4f95-b0b6-8d47f9f27da7">IComQCEvents</a>
+ 
+
+ 
+

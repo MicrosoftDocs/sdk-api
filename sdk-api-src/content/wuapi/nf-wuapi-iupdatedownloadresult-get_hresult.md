@@ -1,0 +1,71 @@
+---
+UID: NF:wuapi.IUpdateDownloadResult.get_HResult
+title: IUpdateDownloadResult::get_HResult method
+author: windows-driver-content
+description: Gets the exception HRESULT value, if any, that is raised during the operation on the update.
+old-location: wua\iupdatedownloadresult_hresult.htm
+old-project: Wua_Sdk
+ms.assetid: 18a1100d-c7b0-42ac-af0b-90e83f60cbec
+ms.author: windowsdriverdev
+ms.date: 3/15/2018
+ms.keywords: HResult property [Windows Update Agent], HResult property [Windows Update Agent], IUpdateDownloadResult interface, IUpdateDownloadResult, IUpdateDownloadResult interface [Windows Update Agent], HResult property, IUpdateDownloadResult.HResult, IUpdateDownloadResult::get_HResult, get_HResult,IUpdateDownloadResult.get_HResult, wua.iupdatedownloadresult_hresult, wuapi/IUpdateDownloadResult::HResult, wuapi/IUpdateDownloadResult::get_HResult
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wuapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Wuapi.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: UpdateType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wuapi.dll
+api_name:
+-	IUpdateDownloadResult.HResult
+-	IUpdateDownloadResult.get_HResult
+product: Windows
+targetos: Windows
+req.lib: Wuguid.lib
+req.dll: Wuapi.dll
+req.irql: 
+req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+---
+
+# IUpdateDownloadResult::get_HResult method
+
+
+## -description
+
+
+Gets the exception <b>HRESULT</b> value, if any, that is raised during the operation on the update.
+
+This property is read-only.
+
+
+## -parameters
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/d2a800c9-c23a-4aab-a9c6-e408349818dd">IUpdateDownloadResult</a>
+ 
+
+ 
+

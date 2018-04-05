@@ -1,0 +1,108 @@
+---
+UID: NF:dciman.DCIBeginAccess
+title: DCIBeginAccess function
+author: windows-driver-content
+description: Obtains an access pointer to display frame buffer based on the given rectangle.
+old-location: winprog\_dciman_dcibeginaccess.htm
+old-project: DevNotes
+ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\dcibeginaccess.htm
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: DCIBeginAccess, DCIBeginAccess function [Windows API], _dciman_dcibeginaccess, dciman/DCIBeginAccess, winprog._dciman_dcibeginaccess, winui._dciman_dcibeginaccess
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: dciman.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: DEV_BROADCAST_VOLUME
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Dciman32.dll
+api_name:
+-	DCIBeginAccess
+product: Windows
+targetos: Windows
+req.lib: Dciman32.lib
+req.dll: Dciman32.dll
+req.irql: 
+---
+
+# DCIBeginAccess function
+
+
+## -description
+
+
+<p class="CCE_Message">[This function is subject to change with each operating system revision. Instead, use the Microsoft DirectDraw and Microsoft Direct3DAPIs; these APIs insulate applications from such operating system changes, and hide many other difficulties involved in interacting directly with display drivers.]
+
+Obtains an access pointer to display frame buffer based on the given rectangle.
+
+
+
+## -parameters
+
+
+
+
+### -param pdci [in]
+
+A pointer to a <b>DCISURFACEINFO</b> structure.
+
+
+### -param x [in]
+
+The x-coordinate of the upper-left corner of the rectangle.
+
+
+### -param y [in]
+
+The y-coordinate of the upper-left corner of the rectangle.
+
+
+### -param dx [in]
+
+The width of the rectangle. 
+
+
+### -param dy [in]
+
+The height of the rectangle.
+
+
+## -returns
+
+
+
+If the function succeeds, the return value is DCI_OK or DCI_STATUS_POINTERCHANGED.  DCI_STATUS_POINTERCHANGED indicates that the virtual address of the frame buffer could have been changed since the last call.  So the application should not assume the consistency of the virtual address of the display frame buffer.  If the function fails, the return value is one of the DCI errors.
+				
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/96d11d10-dd21-4e2b-a30d-fe29d24eeba6">Graphics Low Level Client Support</a>
+ 
+
+ 
+

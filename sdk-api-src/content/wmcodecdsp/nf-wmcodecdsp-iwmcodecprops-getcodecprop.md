@@ -1,0 +1,160 @@
+---
+UID: NF:wmcodecdsp.IWMCodecProps.GetCodecProp
+title: IWMCodecProps::GetCodecProp method
+author: windows-driver-content
+description: Retrieves a codec property specific to an output format.
+old-location: mf\iwmcodecpropsgetcodecprop.htm
+old-project: medfound
+ms.assetid: 380c0beb-47a7-46e2-bf5a-cf901d7e0719
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: GetCodecProp method [Media Foundation], GetCodecProp method [Media Foundation], IWMCodecProps interface, GetCodecProp,IWMCodecProps.GetCodecProp, IWMCodecProps, IWMCodecProps interface [Media Foundation], GetCodecProp method, IWMCodecProps::GetCodecProp, codecapi.iwmcodecpropsgetcodecprop, g_wszWMCPCodecName, g_wszWMCPSupportedVBRModes, mf.iwmcodecpropsgetcodecprop, wmcodecdsp/ IWMCodecProps::GetCodecProp
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wmcodecdsp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MFVideoDSPMode
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	wmcodecdsp.h
+api_name:
+-	IWMCodecProps.GetCodecProp
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IWMCodecProps::GetCodecProp method
+
+
+## -description
+
+
+
+Retrieves a codec property specific to an output format.
+
+
+
+## -parameters
+
+
+
+
+### -param dwFormat [in]
+
+The output format to which the property applies. Set this value to the FOURCC value of the desired video format.
+
+
+### -param pszName [in]
+
+Wide-character, null-terminated string containing the property name. The properties listed in the following table are supported only through the IWMCodecProps interface.
+
+<table>
+<tr>
+<th>Property name constant</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="g_wszWMCPCodecName"></a><a id="g_wszwmcpcodecname"></a><a id="G_WSZWMCPCODECNAME"></a><dl>
+<dt><b>g_wszWMCPCodecName</b></dt>
+</dl>
+</td>
+<td width="60%">
+Retrieves the name of the codec that is associated with the format (or FOURCC). This is an alternative to the <a href="https://msdn.microsoft.com/84b6223e-d42a-47b0-8553-2b4d69de2da3">IWMCodecStrings</a> interface.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="g_wszWMCPSupportedVBRModes"></a><a id="g_wszwmcpsupportedvbrmodes"></a><a id="G_WSZWMCPSUPPORTEDVBRMODES"></a><dl>
+<dt><b>g_wszWMCPSupportedVBRModes</b></dt>
+</dl>
+</td>
+<td width="60%">
+Retrieves the encoding modes supported by the codec. The value returned contains one or more of the following flags: 
+
+<ul>
+<li>WM_CODEC_ONEPASS_CBR </li>
+<li>WM_CODEC_ONEPASS_VBR</li>
+<li>WM_CODEC_TWOPASS_CBR</li>
+<li>WM_CODEC_TWOPASS_VBR_UNCONSTRAINED </li>
+<li>WM_CODEC_TWOPASS_VBR_PEAKCONSTRAINED </li>
+</ul>
+</td>
+</tr>
+</table>
+ 
+
+
+### -param pType [out]
+
+Address of a variable that receives the data type of the property value.
+
+
+### -param pValue [out]
+
+Address of the byte buffer that receives the property value.
+
+
+### -param pdwSize [in, out]
+
+Pointer to the size of the value buffer, in bytes. If pValue is <b>NULL</b>, the method will set this value to the size required.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/b49e506b-8c87-44b9-be6c-b9a33f6c9ecb">IWMCodecProps Interface</a>
+ 
+
+ 
+

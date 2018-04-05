@@ -1,0 +1,258 @@
+---
+UID: NF:wmsdkidl.IWMPropertyVault.SetProperty
+title: IWMPropertyVault::SetProperty method
+author: windows-driver-content
+description: The SetProperty method sets the values for a property. If the property named already exists in the property vault, SetProperty changes its value as specified. If the property named does not exist, SetProperty adds it to the property vault.
+old-location: wmformat\iwmpropertyvault_setproperty.htm
+old-project: wmformat
+ms.assetid: 0fae0ecf-efa9-46d0-8324-4065f351291e
+ms.author: windowsdriverdev
+ms.date: 3/23/2018
+ms.keywords: IWMPropertyVault, IWMPropertyVault interface [windows Media Format], SetProperty method, IWMPropertyVault::SetProperty, IWMPropertyVaultSetProperty, SetProperty method [windows Media Format], SetProperty method [windows Media Format], IWMPropertyVault interface, SetProperty,IWMPropertyVault.SetProperty, wmformat.iwmpropertyvault_setproperty, wmsdkidl/IWMPropertyVault::SetProperty
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wmsdkidl.h
+req.include-header: Wmsdk.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WM_AETYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wmvcore.lib
+-	Wmvcore.dll
+-	WMStubDRM.lib
+-	WMStubDRM.dll
+api_name:
+-	IWMPropertyVault.SetProperty
+product: Windows
+targetos: Windows
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IWMPropertyVault::SetProperty method
+
+
+## -description
+
+
+
+The <b>SetProperty</b> method sets the values for a property. If the property named already exists in the property vault, <b>SetProperty</b> changes its value as specified. If the property named does not exist, <b>SetProperty</b> adds it to the property vault.
+
+
+
+
+## -parameters
+
+
+
+
+### -param pszName [in]
+
+Pointer to a <b>null</b>-terminated string containing the name of the property to set.
+
+The following table lists the property names supported by the <b>IWMPropertyVault</b> interface. The property used dictates the data type and meaning of the data pointed to by <i>pValue</i>; these values are also in the table. All of these values apply to stream configuration objects.
+
+<table>
+<tr>
+<th>
+                  Global constant
+                </th>
+<th>
+                  Data type
+                </th>
+<th>
+                  Description
+                </th>
+</tr>
+<tr>
+<td>g_wszOriginalSourceFormatTag</td>
+<td><b>WMT_TYPE_WORD
+                </b></td>
+<td>When transcoding with smart recompression, set to the <b>WAVEFORMATEX.wFormatTag</b> used in the original encoding.This value is now obsolete, use g_wszOriginalWaveFormat instead.
+
+</td>
+</tr>
+<tr>
+<td>g_wszOriginalWaveFormat</td>
+<td><b>WMT_TYPE_BINARY
+                </b></td>
+<td>When transcoding with smart recompression, set to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff538799">WAVEFORMATEX</a> structure used in the original encoding.</td>
+</tr>
+<tr>
+<td>g_wszEDL</td>
+<td><b>WMT_TYPE_STRING
+                </b></td>
+<td>For Windows Media Audio 9 Voice streams, use to manually specify sections of the stream that contain music. This property should only be used if the automatic selection by the codec is creating a poor quality stream.</td>
+</tr>
+<tr>
+<td>g_wszComplexity</td>
+<td><b>WMT_TYPE_WORD
+                </b></td>
+<td>Set to the complexity setting desired. You can find the complexity levels supported by a codec by calling <a href="https://msdn.microsoft.com/444f5789-c5e5-4eeb-a2b4-11f959641206">IWMCodecInfo3::GetCodecProp</a>.</td>
+</tr>
+<tr>
+<td>g_wszDecoderComplexityRequested</td>
+<td><b>WMT_TYPE_STRING
+                </b></td>
+<td>Set to the string value of the device conformance template that you would like the stream to be encoded to. For audio there is only one string value, for video, us the two-letter designation before the ampersand. For more information, see <a href="https://msdn.microsoft.com/570a897c-c2a2-44bf-b315-2acc892d4bfa">Device Conformance Template Parameters</a>.</td>
+</tr>
+<tr>
+<td>g_wszPeakValue</td>
+<td><b>WMT_TYPE_DWORD
+                </b></td>
+<td>Set to the peak volume level by the audio codec. Used for normalization. Do not manually set.</td>
+</tr>
+<tr>
+<td>g_wszAverageLevel</td>
+<td><b>WMT_TYPE_DWORD
+                </b></td>
+<td>Set to the average volume level by the audio codec. Used for normalization. Do not manually set.</td>
+</tr>
+<tr>
+<td>g_wszFold6To2Channels3</td>
+<td><b>WMT_TYPE_STRING
+                </b></td>
+<td>Set to the value for 6 to 2 channel fold down. Use for multichannel audio.</td>
+</tr>
+<tr>
+<td>g_wszFoldToChannelsTemplate</td>
+<td><b>WMT_TYPE_STRING
+                </b></td>
+<td>Template string to create other fold down values.</td>
+</tr>
+<tr>
+<td>g_wszMusicSpeechClassMode</td>
+<td><b>WMT_TYPE_STRING
+                </b></td>
+<td>Set to the type of encoding you want to use with the Windows Media Audio 9 Voice codec. Can be set to:g_wszMusicClassMode
+
+g_wszSpeechClassMode
+
+g_wszMixedClassMode
+
+</td>
+</tr>
+</table>
+ 
+
+In addition to the values in the table, the settings for variable bit rate encoding are set using this method. For more information, see <a href="https://msdn.microsoft.com/83caabb7-b7fa-4b0a-a608-d5a86e4101b8">Configuring VBR Streams</a>.
+
+
+### -param pType [in]
+
+Pointer to a member of the <a href="https://msdn.microsoft.com/2a2756f9-2d76-48c9-bbea-35ee33a39918">WMT_ATTR_DATATYPE</a> enumeration type. This parameter specifies the type of data pointed to by <i>pValue</i>.
+
+
+### -param pValue [in]
+
+Pointer to a data buffer containing the value of the property. This value can be one of several types. The type of data that the buffer contains on output is specified by the value of <i>pType</i>.
+
+
+### -param dwSize [in]
+
+<b>DWORD</b> containing the size, in bytes, of the data at <i>pValue</i>.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+<i>pszName</i> is <b>NULL</b> or points to a zero length string.
+
+OR
+
+The type specified at <i>pValue</i> does not agree with the size in bytes specified by <i>dwSize</i>.
+
+OR
+
+You are trying to delete a property that does not exist in the property vault.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_OUTOFMEMORY</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method cannot allocate memory for a new property.
+
+OR
+
+The method cannot allocate memory for a new value.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+Properties set on stream configuration objects using this method are persisted in the profile to which the stream configuration is added. However, files created using that profile do not contain these properties in the header information.
+
+<b>SetProperty</b> does not return the index of the property affected. New properties are assigned indexes sequentially.
+
+You can remove a property using <b>SetProperty</b> by passing either <b>NULL</b> as <i>pValue</i> or 0 as <i>dwSize</i>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/0e51a9be-afd4-430b-8339-f45e8f9a7d20">IWMPropertyVault Interface</a>
+ 
+
+ 
+

@@ -1,0 +1,148 @@
+---
+UID: NF:icontact.IContactProperties.GetPropertyCollection
+title: IContactProperties::GetPropertyCollection method
+author: windows-driver-content
+description: Returns an IContactPropertyCollection for the current contact. Optionally, filters the IContactPropertyCollection to enumerate only some values.
+old-location: wincontacts\_wincontacts_IContactProperties_GetPropertyCollection.htm
+old-project: wincontacts
+ms.assetid: 12ef5ff0-ac87-4475-86b3-31a6379ffb4e
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: GetPropertyCollection method [Windows Contacts], GetPropertyCollection method [Windows Contacts], IContactProperties interface, GetPropertyCollection,IContactProperties.GetPropertyCollection, IContactProperties, IContactProperties interface [Windows Contacts], GetPropertyCollection method, IContactProperties::GetPropertyCollection, _wincontacts_IContactProperties_GetPropertyCollection, icontact/IContactProperties::GetPropertyCollection, wincontacts._wincontacts_IContactProperties_GetPropertyCollection
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: icontact.h
+req.include-header: Contact.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Icontact.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: COLORMATCHSETUPW, *PCOLORMATCHSETUPW, *LPCOLORMATCHSETUPW
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wab32.dll
+api_name:
+-	IContactProperties.GetPropertyCollection
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Wab32.dll (Version 6.0 or later)
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IContactProperties::GetPropertyCollection method
+
+
+## -description
+
+
+Returns an <a href="https://msdn.microsoft.com/dec9430d-2174-42fe-85c1-16fa7e7adc0c">IContactPropertyCollection</a> for the current contact. 
+		Optionally, filters the <b>IContactPropertyCollection</b> to enumerate only some values.
+
+
+## -parameters
+
+
+
+
+### -param ppPropertyCollection [out]
+
+Type: <b><a href="https://msdn.microsoft.com/dec9430d-2174-42fe-85c1-16fa7e7adc0c">IContactPropertyCollection</a>**</b>
+
+On success, points to the new <a href="https://msdn.microsoft.com/dec9430d-2174-42fe-85c1-16fa7e7adc0c">IContactPropertyCollection</a>.
+
+
+### -param dwFlags [in]
+
+Type: <b>DWORD</b>
+
+Must be CGD_DEFAULT. 
+
+
+### -param pszMultiValueName [in]
+
+Type: <b>LPCWSTR</b>
+
+Specifies the name of the collection (for example: emailAddresses or [namespace]arrayNode). 
+				If <b>NULL</b>, all collections are searched for <i>ppszLabels</i>. 
+
+
+### -param dwLabelCount [in]
+
+Type: <b>DWORD</b>
+
+Specifies the number of labels in <i>ppszLabels</i>. 
+				If zero, all subproperties with labels are returned. 
+
+
+### -param ppszLabels [in]
+
+Type: <b>LPCWSTR</b>
+
+Specifies an array of string labels to test for. 
+				All labels in the array must be set to a valid string (not <b>NULL</b>). 
+
+
+### -param fAnyLabelMatches [in]
+
+Type: <b>BOOL</b>
+
+TRUE if the presence of any label on a given property matches the property. 
+				FALSE if all labels must be present to match the property. 
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+Returns one of the following values:
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+Always returns success. 
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+Caller can enumerate all child properties of a top-level property with 
+		an optional label filter applied. For example: all emailAddresses where label="work". On success, 
+		collection has been reset to the location before the first element (if any are present). 
+		Call <a href="https://msdn.microsoft.com/library/windows/hardware/dn926903">Next</a> to begin querying data.
+
+
+

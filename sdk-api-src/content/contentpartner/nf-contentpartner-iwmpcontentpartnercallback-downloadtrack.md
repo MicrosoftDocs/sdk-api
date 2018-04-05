@@ -1,0 +1,146 @@
+---
+UID: NF:contentpartner.IWMPContentPartnerCallback.DownloadTrack
+title: IWMPContentPartnerCallback::DownloadTrack method
+author: windows-driver-content
+description: Note  This section describes functionality designed for use by online stores.
+old-location: wmp\iwmpcontentpartnercallback_downloadtrack.htm
+old-project: WMP
+ms.assetid: fe8772fa-2eb4-4dfe-b677-e667b6021690
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: DownloadTrack method [Windows Media Player], DownloadTrack method [Windows Media Player], IWMPContentPartnerCallback interface, DownloadTrack,IWMPContentPartnerCallback.DownloadTrack, IWMPContentPartnerCallback, IWMPContentPartnerCallback interface [Windows Media Player], DownloadTrack method, IWMPContentPartnerCallback::DownloadTrack, IWMPContentPartnerCallbackDownloadTrack, contentpartner/IWMPContentPartnerCallback::DownloadTrack, wmp.iwmpcontentpartnercallback_downloadtrack
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: contentpartner.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Media Player 11
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WMPTransactionType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	contentpartner.h
+api_name:
+-	IWMPContentPartnerCallback.DownloadTrack
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# IWMPContentPartnerCallback::DownloadTrack method
+
+
+## -description
+
+
+
+<div class="alert"><b>Note</b>  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.</div>
+<div> </div>
+The <b>DownloadTrack</b> method instructs Windows Media Player to download or not to download a particular media item.
+
+
+
+
+## -parameters
+
+
+
+
+### -param cookie [in]
+
+A cookie that identifies a download session. Windows Media Player previously supplied this cookie to the content partner plug-in by calling <a href="https://msdn.microsoft.com/0fa3ed40-e155-4e42-b031-d6cb8f8b4ac4">IWMPContentPartner::Download</a>.
+
+
+### -param bstrTrackURL [in]
+
+The URL of the track to download.
+
+
+### -param dwServiceTrackID [in]
+
+The ID of the track in question.
+
+
+### -param bstrDownloadParams [in]
+
+Data that the online store wants to associate with the track in question. Windows Media Player does not interpret this data; it is meaningful only to the online store. Windows Media player passes this data back to the online store when it calls <a href="https://msdn.microsoft.com/9614e266-259c-411f-93cf-9be87c930b16">IWMPContentPartner::DownloadTrackComplete</a>.
+
+
+### -param hrDownload [in]
+
+An <b>HRESULT</b> that specifies whether to download the track. Any success code specifies that the Player should download the track. Any failure code specifies that the Player should not download the track.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+For an explanation of how the Player and the plug-in work together to download a set of tracks, see <a href="https://msdn.microsoft.com/0a057e13-6e0c-4a8f-9cab-051183e6b222">Downloading Media Content</a>.
+
+This method must be called only after a license has been predelivered for the file. The file will be placed in the user's Music folder and automatically added to the library when downloading is complete.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/0fa3ed40-e155-4e42-b031-d6cb8f8b4ac4">IWMPContentPartner::Download</a>
+
+
+
+<a href="https://msdn.microsoft.com/9614e266-259c-411f-93cf-9be87c930b16">IWMPContentPartner::DownloadTrackComplete</a>
+
+
+
+<a href="https://msdn.microsoft.com/3c66052b-2b82-44aa-868d-5d5a4501c457">IWMPContentPartnerCallback Interface</a>
+ 
+
+ 
+

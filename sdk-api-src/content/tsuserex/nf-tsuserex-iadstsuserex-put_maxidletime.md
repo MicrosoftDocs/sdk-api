@@ -1,0 +1,72 @@
+---
+UID: NF:tsuserex.IADsTSUserEx.put_MaxIdleTime
+title: IADsTSUserEx::put_MaxIdleTime method
+author: windows-driver-content
+description: The maximum amount of time that the Remote Desktop Services session can remain idle. After the specified number of minutes has elapsed, the session can be disconnected or terminated.
+old-location: termserv\iadstsuserex_maxidletime.htm
+old-project: TermServ
+ms.assetid: adb9c654-1f24-4ded-bea8-27a11d420677
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: IADsTSUserEx, IADsTSUserEx interface [Remote Desktop Services], MaxIdleTime property, IADsTSUserEx.MaxIdleTime, IADsTSUserEx::get_MaxIdleTime, IADsTSUserEx::put_MaxIdleTime, MaxIdleTime property [Remote Desktop Services], MaxIdleTime property [Remote Desktop Services], IADsTSUserEx interface, put_MaxIdleTime,IADsTSUserEx.put_MaxIdleTime, termserv.iadstsuserex_maxidletime, tsuserex/IADsTSUserEx::MaxIdleTime, tsuserex/IADsTSUserEx::get_MaxIdleTime, tsuserex/IADsTSUserEx::put_MaxIdleTime
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: tsuserex.h
+req.include-header: Tsuserex.h, Tsuserex_i.c
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: Tsuserex.tlb
+req.typenames: WTSSBX_SESSION_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Tsuserex.dll
+api_name:
+-	IADsTSUserEx.MaxIdleTime
+-	IADsTSUserEx.get_MaxIdleTime
+-	IADsTSUserEx.put_MaxIdleTime
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Tsuserex.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# IADsTSUserEx::put_MaxIdleTime method
+
+
+## -description
+
+
+The maximum amount of time that the Remote Desktop Services session can remain idle. After the specified number of minutes has elapsed, the session can be disconnected or terminated.
+
+This property is read/write.
+
+
+## -parameters
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/7af8fe94-15db-49dc-ba4a-b79601205f59">IADsTSUserEx</a>
+ 
+
+ 
+

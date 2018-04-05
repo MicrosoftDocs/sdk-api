@@ -1,0 +1,74 @@
+---
+UID: NF:tuner.ITunerCapEx.get_Has608_708Caption
+title: ITunerCapEx::get_Has608_708Caption method
+author: windows-driver-content
+description: Gets a flag indicating whether a BDA tuner device supports 608/708 closed captioning for ATSC, digital cable, or analog cable. In 608/708 closed captioning, the broadcast includes closed-captioning data.
+old-location: mstv\itunercapex_has608_708caption.htm
+old-project: mstv
+ms.assetid: 4ed432e1-2206-4e87-832a-a2d2b4b7491c
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: Has608_708Caption property [Microsoft TV Technologies], Has608_708Caption property [Microsoft TV Technologies], ITunerCapEx interface, ITunerCapEx, ITunerCapEx interface [Microsoft TV Technologies], Has608_708Caption property, ITunerCapEx.Has608_708Caption, ITunerCapEx::get_Has608_708Caption, get_Has608_708Caption,ITunerCapEx.get_Has608_708Caption, mstv.itunercapex_has608_708caption, tuner/ITunerCapEx::Has608_708Caption, tuner/ITunerCapEx::get_Has608_708Caption
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: tuner.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: None supported
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	tuner.h
+-	Tuner.idl
+api_name:
+-	ITunerCapEx.Has608_708Caption
+-	ITunerCapEx.get_Has608_708Caption
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# ITunerCapEx::get_Has608_708Caption method
+
+
+## -description
+
+
+
+      Gets a flag indicating whether a BDA tuner device supports 608/708 closed captioning 	for ATSC, digital cable, or analog cable. In 608/708 closed captioning, the broadcast includes closed-captioning data.
+    
+
+This property is read-only.
+
+
+## -parameters
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/414492d0-33d5-4b39-9884-36ed44e530cd">ITunerCapEx</a>
+ 
+
+ 
+

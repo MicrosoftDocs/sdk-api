@@ -1,0 +1,152 @@
+---
+UID: NF:wpcapi.IWindowsParentalControls.GetGamesSettings
+title: IWindowsParentalControls::GetGamesSettings method
+author: windows-driver-content
+description: Retrieves a pointer to an interface for games restrictions settings for the specified user.
+old-location: parcon\iwindowsparentalcontrols_getgamessettings.htm
+old-project: parcon
+ms.assetid: 2604a53e-2a95-4edd-9fb0-8b0f7298dcc4
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: GetGamesSettings method, GetGamesSettings method, IWindowsParentalControls interface, GetGamesSettings,IWindowsParentalControls.GetGamesSettings, IWindowsParentalControls, IWindowsParentalControls interface, GetGamesSettings method, IWindowsParentalControls::GetGamesSettings, parcon.iwindowsparentalcontrols_getgamessettings, wpcapi/IWindowsParentalControls::GetGamesSettings
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wpcapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: None supported
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WOF_FILE_COMPRESSION_INFO_V1, *PWOF_FILE_COMPRESSION_INFO_V1
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wpcapi.h
+api_name:
+-	IWindowsParentalControls.GetGamesSettings
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IWindowsParentalControls::GetGamesSettings method
+
+
+## -description
+
+
+Retrieves a pointer to an interface for games restrictions settings for the specified user.
+
+
+## -parameters
+
+
+
+
+### -param pcszSID [in]
+
+The SID string of the user. If this parameter is <b>NULL</b>, retrieve settings for the current user.
+
+
+### -param ppSettings [out]
+
+A pointer to an <a href="https://msdn.microsoft.com/7509d9ef-d437-406a-8de6-39733499ca0a">IWPCGamesSettings</a> interface pointer.
+
+
+## -returns
+
+
+
+This method can return one of these values.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method completed successfully.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+A pointer argument is <b>NULL</b>.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_FILE_NOT_FOUND</b></dt>
+</dl>
+</td>
+<td width="60%">
+The user settings were not found.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_OUT_OF_MEMORY</b></dt>
+</dl>
+</td>
+<td width="60%">
+There is insufficient memory to complete the operation.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_FAIL</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method failed.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/f825388f-c4de-4bf2-8076-6efd81b6e030">IWindowsParentalControls</a>
+ 
+
+ 
+

@@ -1,0 +1,152 @@
+---
+UID: NF:xenroll.IEnroll4.createFileRequestWStr
+title: IEnroll4::createFileRequestWStr method
+author: windows-driver-content
+description: Creates a PKCS #10, PKCS #7, or full Certificate Management over CMS (CMC) format certificate request and stores it in a file.
+old-location: security\ienroll4_createfilerequestwstr.htm
+old-project: SecCrypto
+ms.assetid: 5750f2ad-a96f-4bc7-9a1f-354e279a7860
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: IEnroll4, IEnroll4 interface [Security], createFileRequestWStr method, IEnroll4::createFileRequestWStr, XECR_CMC, XECR_PKCS10_V1_5, XECR_PKCS10_V2_0, XECR_PKCS7, createFileRequestWStr method [Security], createFileRequestWStr method [Security], IEnroll4 interface, createFileRequestWStr,IEnroll4.createFileRequestWStr, security.ienroll4_createfilerequestwstr, xenroll/IEnroll4::createFileRequestWStr
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: xenroll.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: XBL_IDP_AUTH_TOKEN_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Xenroll.dll
+api_name:
+-	IEnroll4.createFileRequestWStr
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Xenroll.dll
+req.irql: 
+req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+---
+
+# IEnroll4::createFileRequestWStr method
+
+
+## -description
+
+
+<p class="CCE_Message">[This method is no longer available for use as of Windows Server 2008 and Windows Vista.]
+
+The <b>createFileRequestWStr</b> method creates a PKCS #10, PKCS #7, or full <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">Certificate Management over CMS</a> (CMC) format <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate request</a> and stores it in a file. This method was first defined in the <a href="https://msdn.microsoft.com/133529fb-e02a-41a2-83df-646cbc01dbe9">IEnroll4</a> interface.
+
+
+## -parameters
+
+
+
+
+### -param Flags [in]
+
+Value specifying the type of certificate request to create. Specify one of the following values.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="XECR_CMC"></a><a id="xecr_cmc"></a><dl>
+<dt><b>XECR_CMC</b></dt>
+</dl>
+</td>
+<td width="60%">
+Full CMC
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="XECR_PKCS10_V1_5"></a><a id="xecr_pkcs10_v1_5"></a><dl>
+<dt><b>XECR_PKCS10_V1_5</b></dt>
+</dl>
+</td>
+<td width="60%">
+PKCS #10
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="XECR_PKCS10_V2_0"></a><a id="xecr_pkcs10_v2_0"></a><dl>
+<dt><b>XECR_PKCS10_V2_0</b></dt>
+</dl>
+</td>
+<td width="60%">
+PKCS #10 version 2
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="XECR_PKCS7"></a><a id="xecr_pkcs7"></a><dl>
+<dt><b>XECR_PKCS7</b></dt>
+</dl>
+</td>
+<td width="60%">
+PKCS #7
+
+</td>
+</tr>
+</table>
+ 
+
+
+### -param pwszDNName [in]
+
+A pointer to a <b>null</b>-terminated wide character string that represents the distinguished name (DN) of the entity for which the request is being made. The DN name must follow the <a href="https://msdn.microsoft.com/28dba6ef-939f-4789-9789-ee6e0fef0177">X.500</a> naming convention, for example "CN=User, O=Microsoft". If a two-letter prefix does not exist, an object identifier (OID) may be provided instead. This parameter may be <b>NULL</b>.
+
+
+### -param pwszUsage [in]
+
+A pointer to a <b>null</b>-terminated wide character string for the OID that describes the purpose of the certificate being generated, for example, individual or commercial Authenticode certificate, or client authentication. You can also specify multiple OIDs separated by a comma.
+
+
+### -param pwszRequestFileName [in]
+
+A pointer to a <b>null</b>-terminated wide character string that contains the name of the file that will receive the request.
+
+
+## -returns
+
+
+
+ If the method succeeds, the method returns S_OK.
+
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see 
+<a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/133529fb-e02a-41a2-83df-646cbc01dbe9">IEnroll4</a>
+ 
+
+ 
+

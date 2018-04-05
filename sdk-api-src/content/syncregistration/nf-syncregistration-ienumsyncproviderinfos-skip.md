@@ -1,0 +1,123 @@
+---
+UID: NF:syncregistration.IEnumSyncProviderInfos.Skip
+title: IEnumSyncProviderInfos::Skip method
+author: windows-driver-content
+description: Skips the specified number of ISyncProviderInfo objects.
+old-location: winsync\ienumsyncproviderinfos_skip.htm
+old-project: winsync
+ms.assetid: da59a26a-8df3-4a19-b771-6fd11f69576e
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: IEnumSyncProviderInfos, IEnumSyncProviderInfos interface [Windows Sync], Skip method, IEnumSyncProviderInfos::Skip, Skip method [Windows Sync], Skip method [Windows Sync], IEnumSyncProviderInfos interface, Skip,IEnumSyncProviderInfos.Skip, syncregistration/IEnumSyncProviderInfos::Skip, winsync.ienumsyncproviderinfos_skip
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: syncregistration.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: SYNC_REGISTRATION_EVENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Syncregistration.h
+api_name:
+-	IEnumSyncProviderInfos.Skip
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# IEnumSyncProviderInfos::Skip method
+
+
+## -description
+
+
+Skips the specified number of <b>ISyncProviderInfo</b> objects.
+
+
+## -parameters
+
+
+
+
+### -param cInstances [in]
+
+The number of <b>ISyncProviderInfo</b> objects to skip.
+
+
+## -returns
+
+
+
+The possible return codes include, but are not limited to, the values shown in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_FALSE</b></dt>
+</dl>
+</td>
+<td width="60%">
+The end of the collection was reached before the specified number of items was skipped.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+If the end of the collection is reached before the number of items to skip is reached, <b>S_FALSE</b> will be returned, and the enumerator will be placed at the end of the collection and subsequent calls to <b>Skip</b> or <a href="https://msdn.microsoft.com/library/windows/hardware/dn926903">Next</a> with a count of 1 will return <b>S_FALSE</b>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/58b0dcc2-861a-4138-872a-cbbe2bb2cc4d">IEnumSyncProviderInfos Interface</a>
+ 
+
+ 
+

@@ -1,0 +1,98 @@
+---
+UID: NF:shdeprecated.IBrowserService2.WndProcBS
+title: IBrowserService2::WndProcBS method
+author: windows-driver-content
+description: Deprecated. Allows a derived class to call the WinProc function of the base class.
+old-location: shell\IBrowserService2_WndProcBS.htm
+old-project: shell
+ms.assetid: d45877ac-2f0b-4130-9197-83f6e366ee19
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: IBrowserService2, IBrowserService2 interface [Windows Shell], WndProcBS method, IBrowserService2::WndProcBS, WndProcBS method [Windows Shell], WndProcBS method [Windows Shell], IBrowserService2 interface, WndProcBS,IBrowserService2.WndProcBS, shdeprecated/IBrowserService2::WndProcBS, shell.IBrowserService2_WndProcBS, zone_IBrowserService2_WndProcBS
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: shdeprecated.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Shdeprecated.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: BNSTATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Shdeprecated.h
+api_name:
+-	IBrowserService2.WndProcBS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5.0
+---
+
+# IBrowserService2::WndProcBS method
+
+
+## -description
+
+
+Deprecated. Allows a derived class to call the <b>WinProc</b> function of the base class.
+
+
+## -parameters
+
+
+
+
+### -param hwnd [in]
+
+Type: <b>HWND</b>
+
+The handle of the window receiving the message.
+
+
+### -param uMsg [in]
+
+Type: <b>UINT</b>
+
+The message received by the window.
+
+
+### -param wParam [in, out]
+
+Type: <b>WPARAM</b>
+
+Additional message information specific to the message type.
+
+
+### -param lParam [in, out]
+
+Type: <b>LPARAM</b>
+
+Additional message information specific to the message type.
+
+
+## -returns
+
+
+
+Type: <b>LRESULT</b>
+
+The return value specifies the result of the message processing; it depends on the message sent.
+
+
+

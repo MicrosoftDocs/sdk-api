@@ -1,0 +1,104 @@
+---
+UID: NF:objidl.IRunningObjectTable.Revoke
+title: IRunningObjectTable::Revoke method
+author: windows-driver-content
+description: Removes an entry from the running object table (ROT) that was previously registered by a call to IRunningObjectTable::Register.
+old-location: com\irunningobjecttable_revoke.htm
+old-project: com
+ms.assetid: d3d83966-035d-4077-a770-cb62c8011132
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: IRunningObjectTable, IRunningObjectTable interface [COM], Revoke method, IRunningObjectTable::Revoke, Revoke method [COM], Revoke method [COM], IRunningObjectTable interface, Revoke,IRunningObjectTable.Revoke, _com_irunningobjecttable_revoke, com.irunningobjecttable_revoke, objidl/IRunningObjectTable::Revoke
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: objidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: ObjIdl.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: THDTYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	ObjIdl.h
+api_name:
+-	IRunningObjectTable.Revoke
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# IRunningObjectTable::Revoke method
+
+
+## -description
+
+
+Removes an entry from the running object table (ROT) that was previously registered by a call to <a href="https://msdn.microsoft.com/40f815b2-dfea-416c-aae1-7ba3a710ad91">IRunningObjectTable::Register</a>.
+
+
+## -parameters
+
+
+
+
+### -param dwRegister [in]
+
+The identifier of the ROT entry to be revoked.
+
+
+## -returns
+
+
+
+This method can return the standard return values E_INVALIDARG and S_OK.
+
+
+
+
+## -remarks
+
+
+
+This method undoes the effect of a call to <a href="https://msdn.microsoft.com/40f815b2-dfea-416c-aae1-7ba3a710ad91">IRunningObjectTable::Register</a>, removing both the moniker and the pointer to the object identified by that moniker.
+
+<h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
+A moniker provider (hands out monikers identifying its objects to make them accessible to others) must call the <b>Revoke</b> method to revoke the registration of its objects when it stops running. It must have previously called <a href="https://msdn.microsoft.com/40f815b2-dfea-416c-aae1-7ba3a710ad91">IRunningObjectTable::Register</a> and stored the identifier returned by that method; it uses that identifier when calling <b>Revoke</b>.
+
+The most common type of moniker provider is a compound-document link source. This includes server applications that support linking to their documents (or portions of a document) and container applications that support linking to embeddings within their documents. Server applications that do not support linking can also use the ROT to cooperate with container applications that support linking to embeddings.
+
+If you are writing a container application, you must revoke a document's registration when the document is closed. You must also revoke a document's registration before re-registering it when it is renamed. 
+
+
+
+If you are writing a server application, you must revoke an object's registration when the object is closed. You must also revoke an object's registration before re-registering it when its container document is renamed (see <a href="https://msdn.microsoft.com/1313cd9a-757d-4716-abac-027cff9fee03">IOleObject::SetMoniker</a>).
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/ff89bcb5-df6d-4325-b0e8-613217a68f42">IRunningObjectTable</a>
+ 
+
+ 
+

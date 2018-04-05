@@ -1,0 +1,90 @@
+---
+UID: NF:commoncontrols.IImageList2.SetOriginalSize
+title: IImageList2::SetOriginalSize method
+author: windows-driver-content
+description: Sets the original size of a specified image.
+old-location: controls\IImageList2_SetOriginalSize.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist2\setoriginalsize.htm
+ms.author: windowsdriverdev
+ms.date: 3/31/2018
+ms.keywords: IImageList2, IImageList2 interface [Windows Controls], SetOriginalSize method, IImageList2::SetOriginalSize, SetOriginalSize method [Windows Controls], SetOriginalSize method [Windows Controls], IImageList2 interface, SetOriginalSize,IImageList2.SetOriginalSize, _shell_IImageList2_SetOriginalSize, _shell_IImageList2_SetOriginalSize_cpp, commoncontrols/IImageList2::SetOriginalSize, controls.IImageList2_SetOriginalSize, controls._shell_IImageList2_SetOriginalSize
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: commoncontrols.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Commoncontrols.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: OFNOTIFYW, *LPOFNOTIFYW
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Comctl32.dll
+api_name:
+-	IImageList2.SetOriginalSize
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Comctl32.dll (version 6.0 or later)
+req.irql: 
+---
+
+# IImageList2::SetOriginalSize method
+
+
+## -description
+
+
+Sets the original size of a specified image.
+
+
+## -parameters
+
+
+
+
+### -param iImage [in]
+
+Type: <b>int</b>
+
+An index of desired image.
+
+
+### -param cx [in]
+
+Type: <b>int</b>
+
+The x-axis count.
+
+
+### -param cy [in]
+
+Type: <b>int</b>
+
+The y-axis count.
+
+
+## -returns
+
+
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+

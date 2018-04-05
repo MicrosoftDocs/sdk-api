@@ -1,0 +1,73 @@
+---
+UID: NS:wabdefs.ENTRYID
+title: ENTRYID
+author: windows-driver-content
+description: Do not use. Contains the entry identifier information for a MAPI object.
+old-location: wab\_wab_ENTRYID.htm
+old-project: wab
+ms.assetid: VS|wab|~\wab\reference\structures\entryid.htm
+ms.author: windowsdriverdev
+ms.date: 3/19/2018
+ms.keywords: "*LPENTRYID, ENTRYID, ENTRYID structure [Windows Address Book], LPENTRYID, LPENTRYID structure pointer [Windows Address Book], _wab_ENTRYID, wab._wab_ENTRYID, wabdefs/ENTRYID, wabdefs/LPENTRYID"
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: struct
+req.header: wabdefs.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: ENTRYID, *LPENTRYID
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wabdefs.h
+api_name:
+-	ENTRYID
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 4.0
+---
+
+# ENTRYID structure
+
+
+## -description
+
+
+Do not use. Contains the entry identifier information for a MAPI object.
+
+
+## -struct-fields
+
+
+
+
+### -field abFlags
+
+Type: <b>BYTE[4]</b>
+
+Array of variables of type <b>BYTE</b> that specifies the bitmask of flags that provide information describing the object.
+
+
+### -field ab
+
+Type: <b>BYTE[MAPI_DIM]</b>
+
+Array of variables of type <b>BYTE</b> that specifies the binary data used by service providers. Client applications cannot use this array. 
+

@@ -1,0 +1,256 @@
+---
+UID: NF:oleacc.AccessibleChildren
+title: AccessibleChildren function
+author: windows-driver-content
+description: Retrieves the child ID or IDispatch of each child within an accessible container object.
+old-location: winauto\accessiblechildren.htm
+old-project: WinAuto
+ms.assetid: dc9262d8-f57f-41f8-8945-d95f38d197e9
+ms.author: windowsdriverdev
+ms.date: 3/29/2018
+ms.keywords: AccessibleChildren, AccessibleChildren function [Windows Accessibility], _msaa_AccessibleChildren, msaa.accessiblechildren, oleacc/AccessibleChildren, winauto.accessiblechildren
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: oleacc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: QACONTROL
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Oleacc.dll
+api_name:
+-	AccessibleChildren
+product: Windows
+targetos: Windows
+req.lib: Oleacc.lib
+req.dll: Oleacc.dll
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# AccessibleChildren function
+
+
+## -description
+
+
+Retrieves the child ID or <a href="https://msdn.microsoft.com/5a95f002-4fd5-43d3-9b50-7b3f7790300a">IDispatch</a> of each child within an accessible container object.
+
+
+## -parameters
+
+
+
+
+### -param paccContainer [in]
+
+Type: <b>IAccessible*</b>
+
+Pointer to the container object's <a href="https://msdn.microsoft.com/51e95b01-71e7-435b-85fb-28ee43eb08a7">IAccessible</a> interface.
+
+
+### -param iChildStart [in]
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LONG</a></b>
+
+Specifies the zero-based index of the first child that is retrieved. This parameter is an index, not a child ID, and it is usually is set to zero (0).
+
+
+### -param cChildren [in]
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LONG</a></b>
+
+Specifies the number of children to retrieve. To retrieve the current number of children, an application calls <a href="https://msdn.microsoft.com/d80d59c0-7694-4cc6-9887-2fec7186f32e">IAccessible::get_accChildCount</a>.
+
+
+### -param rgvarChildren [out]
+
+Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a>*</b>
+
+Pointer to an array of <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a> structures that receives information about the container's children. If the <b>vt</b> member of an array element is VT_I4, then the <b>lVal</b> member for that element is the child ID. If the <b>vt</b> member of an array element is VT_DISPATCH, then the <b>pdispVal</b> member for that element is the address of the child object's <a href="https://msdn.microsoft.com/5a95f002-4fd5-43d3-9b50-7b3f7790300a">IDispatch</a> interface.
+
+
+### -param pcObtained [out]
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LONG</a>*</b>
+
+Address of a variable that receives the number of elements in the <i>rgvarChildren</i> array that is populated by the <b>AccessibleChildren</b> function. This value is the same as that of the <i>cChildren</i> parameter; however, if you request more children than exist, this value will be less than that of <i>cChildren</i>.
+
+
+## -returns
+
+
+
+Type: <b>STDAPI</b>
+
+If successful, returns S_OK.
+
+If not successful, returns one of the following or another standard <a href="https://msdn.microsoft.com/e6deca92-42da-41ab-bfdb-75cbce3022bb">COM error code</a>.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+An argument is not valid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_FALSE</b></dt>
+</dl>
+</td>
+<td width="60%">
+The function succeeded, but there are fewer elements in the <i>rgvarChildren</i> array than there are children requested in <i>cChildren</i>.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+To retrieve information about all of the children in a container, the <i>iChildStart</i> parameter  must be zero (0), and <i>cChildren</i> must be the value returned by <a href="https://msdn.microsoft.com/d80d59c0-7694-4cc6-9887-2fec7186f32e">IAccessible::get_accChildCount</a>.
+
+When calling this function to obtain information about the children of a user interface element, it is recommended that clients obtain information about all of the children. For example, <i>iChildStart</i> must be zero (0), and <i>cChildren</i> must be the value returned by <a href="https://msdn.microsoft.com/d80d59c0-7694-4cc6-9887-2fec7186f32e">IAccessible::get_accChildCount</a>.
+
+If a child ID is returned for an element, then the container must provide information about the child element. To obtain information about the element, clients use the container's  <a href="https://msdn.microsoft.com/51e95b01-71e7-435b-85fb-28ee43eb08a7">IAccessible</a> interface pointer and specify the obtained child ID in calls to the <b>IAccessible</b> properties.
+
+Clients must call the <a href="http://go.microsoft.com/fwlink/p/?linkid=123614">IUnknown::Release</a> method for any <a href="https://msdn.microsoft.com/5a95f002-4fd5-43d3-9b50-7b3f7790300a">IDispatch</a> interfaces retrieved by this function, and free the array when it is no longer required.
+
+
+#### Examples
+
+The following example function displays a view of the element tree below the element that is passed in. The name and role of each element are printed by user-defined functions that are not shown here.
+
+
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
+HRESULT WalkTreeWithAccessibleChildren(IAccessible* pAcc, int depth)
+{
+    HRESULT hr;
+    long childCount;
+    long returnCount;
+
+    if (!pAcc)
+    {
+        return E_INVALIDARG;
+    }
+    hr = pAcc-&gt;get_accChildCount(&amp;childCount);
+    if (FAILED(hr))
+    {
+        return hr;
+    };
+    if (childCount == 0)
+    {
+        return S_FALSE;
+    }
+    VARIANT* pArray = new VARIANT[childCount];
+    hr = AccessibleChildren(pAcc, 0L, childCount, pArray, &amp;returnCount);
+    if (FAILED(hr))
+    {
+        return hr;
+    };
+
+    // Iterate through children.
+    for (int x = 0; x &lt; returnCount; x++)
+    {
+        VARIANT vtChild = pArray[x];
+        // If it's an accessible object, get the IAccessible, and recurse.
+        if (vtChild.vt == VT_DISPATCH)
+        {
+            IDispatch* pDisp = vtChild.pdispVal;
+            IAccessible* pChild = NULL;
+            hr = pDisp-&gt;QueryInterface(IID_IAccessible, (void**) &amp;pChild);
+            if (hr == S_OK)
+            {
+                for (int y = 0; y &lt; depth; y++)
+                {
+                    printf("  ");
+                }
+                PrintName(pChild, CHILDID_SELF);
+                printf("(Object) ");
+                PrintRole(pChild, CHILDID_SELF);
+                WalkTreeWithAccessibleChildren(pChild, depth + 1);
+                pChild-&gt;Release();
+            }
+            pDisp-&gt;Release();
+        }
+        // Else it's a child element so we have to call accNavigate on the parent,
+        //   and we do not recurse because child elements can't have children.
+        else
+        {
+            for (int y = 0; y &lt; depth; y++)
+            {
+                printf("  ");
+            }
+            PrintName(pAcc, vtChild.lVal);
+            printf("(Child element) ");
+            PrintRole(pAcc, vtChild.lVal);
+        }
+    }
+    delete[] pArray;
+    return S_OK;
+}
+</pre>
+</td>
+</tr>
+</table></span></div>
+<div class="code"></div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/51e95b01-71e7-435b-85fb-28ee43eb08a7">IAccessible</a>
+
+
+
+<a href="https://msdn.microsoft.com/5a95f002-4fd5-43d3-9b50-7b3f7790300a">IDispatch</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a>
+ 
+
+ 
+

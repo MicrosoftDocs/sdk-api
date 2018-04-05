@@ -1,0 +1,393 @@
+---
+UID: NF:fileapi.SetFileInformationByHandle
+title: SetFileInformationByHandle function
+author: windows-driver-content
+description: Sets the file information for the specified file.
+old-location: fs\setfileinformationbyhandle.htm
+old-project: FileIO
+ms.assetid: ea4981e6-a8f1-4977-aca9-b2f53604d449
+ms.author: windowsdriverdev
+ms.date: 3/29/2018
+ms.keywords: SetFileInformationByHandle, SetFileInformationByHandle function [Files], fileapi/SetFileInformationByHandle, fileextd/SetFileInformationByHandle, fs.setfileinformationbyhandle, winbase/SetFileInformationByHandle
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: fileapi.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: FH_TARGET_PROPERTY_TYPE, *PFH_TARGET_PROPERTY_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Kernel32.dll
+-	API-MS-Win-Core-File-l1-1-0.dll
+-	KernelBase.dll
+-	API-MS-Win-Core-File-l1-2-0.dll
+-	API-MS-Win-Core-File-l1-2-1.dll
+-	API-MS-Win-Core-File-l1-2-2.dll
+-	API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+-	MinKernelBase.dll
+api_name:
+-	SetFileInformationByHandle
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib; FileExtd.lib on Windows Server 2003 and Windows XP
+req.dll: Kernel32.dll
+req.irql: 
+req.product: Internet Explorer 5
+---
+
+# SetFileInformationByHandle function
+
+
+## -description
+
+
+Sets the file information for the specified file.
+
+To retrieve file information using a file handle, see 
+    <a href="https://msdn.microsoft.com/d026ee3a-c165-42a2-a4e1-efccdafbefc5">GetFileInformationByHandle</a> or 
+    <a href="https://msdn.microsoft.com/e261ea45-d084-490e-94b4-129bd76f6a04">GetFileInformationByHandleEx</a>.
+
+
+## -parameters
+
+
+
+
+### -param hFile [in]
+
+A handle to the file for which to change information.
+
+This handle must be opened with the appropriate permissions for the requested change. For more information, 
+       see the Remarks and Example Code sections.
+
+This handle should not be a pipe handle.
+
+
+### -param FileInformationClass [in]
+
+A <a href="https://msdn.microsoft.com/8f02e824-ca41-48c1-a5e8-5b12d81886b5">FILE_INFO_BY_HANDLE_CLASS</a> enumeration 
+       value that specifies the type of information to be changed.
+
+For a table of valid values, see the Remarks section.
+
+
+### -param lpFileInformation [in]
+
+A pointer to the buffer that contains the information to change  for the specified file information class. 
+       The structure that this parameter points to corresponds to the class that is specified by 
+       <i>FileInformationClass</i>.
+
+For a table of valid structure types, see the Remarks section.
+
+
+### -param dwBufferSize [in]
+
+The size of <i>lpFileInformation</i>, in bytes.
+
+
+## -returns
+
+
+
+Returns nonzero if successful or zero otherwise.
+
+To get extended error information, call 
+       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+
+
+
+
+## -remarks
+
+
+
+Certain file information classes behave slightly differently on different operating system releases. These 
+    classes are supported by the underlying drivers, and any information they return is subject to change between 
+    operating system releases.
+
+The following table shows the valid file information classes and their corresponding data structure types for 
+     use with this function.
+
+<table>
+<tr>
+<th><i>FileInformationClass</i> value</th>
+<th><i>lpFileInformation</i> type</th>
+</tr>
+<tr>
+<td>
+<b>FileBasicInfo</b>
+
+0
+
+</td>
+<td>
+
+<a href="https://msdn.microsoft.com/7765e430-cf6b-4ccf-b5e7-9fb6e15ca6d6">FILE_BASIC_INFO</a>
+
+
+</td>
+</tr>
+<tr>
+<td>
+<b>FileRenameInfo</b>
+
+3
+
+</td>
+<td>
+
+<a href="https://msdn.microsoft.com/f4de0130-66fd-4847-bb6f-3f16fe17ca6e">FILE_RENAME_INFO</a>
+
+
+</td>
+</tr>
+<tr>
+<td>
+<b>FileDispositionInfo</b>
+
+4
+
+</td>
+<td>
+
+<a href="https://msdn.microsoft.com/07095f62-323a-463a-a33e-7e4ca9adcb69">FILE_DISPOSITION_INFO</a>
+
+
+</td>
+</tr>
+<tr>
+<td>
+<b>FileAllocationInfo</b>
+
+5
+
+</td>
+<td>
+
+<a href="https://msdn.microsoft.com/909f1747-0099-407e-89a7-bec6331887da">FILE_ALLOCATION_INFO</a>
+
+
+</td>
+</tr>
+<tr>
+<td>
+<b>FileEndOfFileInfo</b>
+
+6
+
+</td>
+<td>
+
+<a href="https://msdn.microsoft.com/77500ae7-654a-4b34-aaee-5c3844303271">FILE_END_OF_FILE_INFO</a>
+
+
+</td>
+</tr>
+<tr>
+<td>
+<b>FileIoPriorityHintInfo</b>
+
+12
+
+</td>
+<td>
+
+<a href="https://msdn.microsoft.com/a142b8fd-b71c-4449-a8c6-fb23715d1576">FILE_IO_PRIORITY_HINT_INFO</a>
+
+
+</td>
+</tr>
+</table>
+ 
+
+You must specify appropriate access flags when creating the file handle for use with 
+    <b>SetFileInformationByHandle</b>. For example, if 
+    the application is using <a href="https://msdn.microsoft.com/07095f62-323a-463a-a33e-7e4ca9adcb69">FILE_DISPOSITION_INFO</a> with 
+    the <b>DeleteFile</b> member set to <b>TRUE</b>, the file would need 
+    <b>DELETE</b> access requested in the call to the 
+    <a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a> function. To see an example of this, see the 
+    Example Code section. For more information about file permissions, see 
+    <a href="https://msdn.microsoft.com/991d7d94-fae7-406f-b2e3-dee811279366">File Security and Access Rights</a>.
+
+If there is a transaction bound to the handle, then the changes made will be transacted for the information 
+    classes <b>FileBasicInfo</b>, <b>FileRenameInfo</b>, 
+    <b>FileAllocationInfo</b>, <b>FileEndOfFileInfo</b>, and 
+    <b>FileDispositionInfo</b>. If <b>FileDispositionInfo</b> is specified, 
+    only the delete operation is transacted if a <a href="https://msdn.microsoft.com/0b947a85-816b-4374-a8f8-c369e366a17d">DeleteFile</a> 
+    operation was requested. In this case, if the transaction is not committed before the handle is closed, the 
+    deletion will not occur. For more information about TxF, see 
+    <a href="https://msdn.microsoft.com/e8c3ceed-d391-4934-b3f7-12c2123c8c23">Transactional NTFS (TxF)</a>.
+
+In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
+
+<table>
+<tr>
+<th>Technology</th>
+<th>Supported</th>
+</tr>
+<tr>
+<td>
+Server Message Block (SMB) 3.0 protocol
+
+</td>
+<td>
+Yes
+
+</td>
+</tr>
+<tr>
+<td>
+SMB 3.0 Transparent Failover (TFO)
+
+</td>
+<td>
+See comment
+
+</td>
+</tr>
+<tr>
+<td>
+SMB 3.0 with Scale-out File Shares (SO)
+
+</td>
+<td>
+See comment
+
+</td>
+</tr>
+<tr>
+<td>
+Cluster Shared Volume File System (CsvFS)
+
+</td>
+<td>
+Yes
+
+</td>
+</tr>
+<tr>
+<td>
+Resilient File System (ReFS)
+
+</td>
+<td>
+Yes
+
+</td>
+</tr>
+</table>
+ 
+
+SMB 3.0 does not support rename of alternate data streams on file shares with continuous availability capability.
+
+
+
+#### Examples
+
+The following C++ example shows how to create a file and mark it for deletion when the handle is closed.
+
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>//...
+  HANDLE hFile = CreateFile( TEXT("tempfile"), 
+                             GENERIC_READ | GENERIC_WRITE | DELETE,
+                             0 /* exclusive access */,
+                             NULL, 
+                             CREATE_ALWAYS,
+                             0, 
+                             NULL);
+
+  if (hFile != INVALID_HANDLE_VALUE)
+   {
+    FILE_DISPOSITION_INFO fdi;
+    fdi.DeleteFile = TRUE; // marking for deletion
+
+    BOOL fResult = SetFileInformationByHandle( hFile, 
+                                               FileDispositionInfo, 
+                                               &amp;fdi, 
+                                               sizeof(FILE_DISPOSITION_INFO) );
+
+    if (fResult)
+     {
+      // File will be deleted upon CloseHandle.
+      _tprintf( TEXT("SetFileInformationByHandle marked tempfile for deletion\n") );
+
+      // ... 
+      // Now use the file for whatever temp data storage you need,
+      // it will automatically be deleted upon CloseHandle or 
+      // application termination.
+      // ...
+     }
+    else
+     {
+      _tprintf( TEXT("error %lu:  SetFileInformationByHandle could not mark tempfile for deletion\n"), 
+                GetLastError() );
+     }
+
+    CloseHandle(hFile); 
+
+    // At this point, the file is closed and deleted by the system.
+   }
+  else 
+   {
+    _tprintf( TEXT("error %lu:  could not create tempfile\n"), 
+              GetLastError() );
+ }
+//...
+</pre>
+</td>
+</tr>
+</table></span></div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a>
+
+
+
+<a href="https://msdn.microsoft.com/1cf0547d-54ac-410a-acbe-7b3b3ebb310b">File Management Functions</a>
+
+
+
+<a href="https://msdn.microsoft.com/991d7d94-fae7-406f-b2e3-dee811279366">File Security and Access Rights</a>
+
+
+
+<a href="https://msdn.microsoft.com/e18cede9-9bf7-4866-850b-5d7fa43a5b0f">Generic Access Rights</a>
+
+
+
+<a href="https://msdn.microsoft.com/d026ee3a-c165-42a2-a4e1-efccdafbefc5">GetFileInformationByHandle</a>
+
+
+
+<a href="https://msdn.microsoft.com/e261ea45-d084-490e-94b4-129bd76f6a04">GetFileInformationByHandleEx</a>
+ 
+
+ 
+

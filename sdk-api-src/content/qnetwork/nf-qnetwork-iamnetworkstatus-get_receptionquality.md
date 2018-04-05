@@ -1,0 +1,87 @@
+---
+UID: NF:qnetwork.IAMNetworkStatus.get_ReceptionQuality
+title: IAMNetworkStatus::get_ReceptionQuality method
+author: windows-driver-content
+description: The get_ReceptionQuality method retrieves a value indicating the reception quality.
+old-location: dshow\iamnetworkstatus_get_receptionquality.htm
+old-project: DirectShow
+ms.assetid: 6c80f874-c176-4e52-acc9-26c10fac08d9
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: IAMNetworkStatus, IAMNetworkStatus interface [DirectShow], get_ReceptionQuality method, IAMNetworkStatus::get_ReceptionQuality, IAMNetworkStatusget_ReceptionQuality, dshow.iamnetworkstatus_get_receptionquality, get_ReceptionQuality method [DirectShow], get_ReceptionQuality method [DirectShow], IAMNetworkStatus interface, get_ReceptionQuality,IAMNetworkStatus.get_ReceptionQuality, qnetwork/IAMNetworkStatus::get_ReceptionQuality
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: qnetwork.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: AMExtendedSeekingCapabilities
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Qnetwork.h
+api_name:
+-	IAMNetworkStatus.get_ReceptionQuality
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# IAMNetworkStatus::get_ReceptionQuality method
+
+
+## -description
+
+
+
+The <code>get_ReceptionQuality</code> method retrieves a value indicating the reception quality.
+
+
+
+
+## -parameters
+
+
+
+
+### -param pReceptionQuality
+
+Pointer to a variable that receives a value from 0 to 100, indicating the reception quality. This value is percentage of packets that the filter received without requiring resending or error correction.
+
+
+## -returns
+
+
+
+If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</b> error code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/51d56b76-f9fc-44e1-88f0-d35d861a4697">IAMNetworkStatus Interface</a>
+ 
+
+ 
+

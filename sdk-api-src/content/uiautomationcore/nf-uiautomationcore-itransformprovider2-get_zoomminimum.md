@@ -1,0 +1,71 @@
+---
+UID: NF:uiautomationcore.ITransformProvider2.get_ZoomMinimum
+title: ITransformProvider2::get_ZoomMinimum method
+author: windows-driver-content
+description: Retrieves the minimum zoom level of the element.
+old-location: winauto\uiauto_itransformprovider2_zoomminimum.htm
+old-project: WinAuto
+ms.assetid: 823C5043-214F-455E-8F6F-172A097A169F
+ms.author: windowsdriverdev
+ms.date: 3/29/2018
+ms.keywords: ITransformProvider2, ITransformProvider2 interface [Windows Accessibility], ZoomMinimum property, ITransformProvider2.ZoomMinimum, ITransformProvider2::get_ZoomMinimum, ZoomMinimum property [Windows Accessibility], ZoomMinimum property [Windows Accessibility], ITransformProvider2 interface, get_ZoomMinimum,ITransformProvider2.get_ZoomMinimum, uiautomationcore/ITransformProvider2::ZoomMinimum, uiautomationcore/ITransformProvider2::get_ZoomMinimum, winauto.uiauto_itransformprovider2_zoomminimum
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: uiautomationcore.h
+req.include-header: UIAutomation.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: UIAutomationCore.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	UIAutomationCore.h
+api_name:
+-	ITransformProvider2.ZoomMinimum
+-	ITransformProvider2.get_ZoomMinimum
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# ITransformProvider2::get_ZoomMinimum method
+
+
+## -description
+
+
+Retrieves the minimum zoom level of the element.
+
+This property is read-only.
+
+
+## -parameters
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/763F30BC-782A-43ED-9DE4-97A237D7B9F8">ITransformProvider2</a>
+ 
+
+ 
+

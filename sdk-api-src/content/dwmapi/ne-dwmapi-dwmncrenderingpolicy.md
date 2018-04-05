@@ -1,0 +1,88 @@
+---
+UID: NE:dwmapi.DWMNCRENDERINGPOLICY
+title: DWMNCRENDERINGPOLICY
+author: windows-driver-content
+description: Flags used by the DwmSetWindowAttribute function to specify the non-client area rendering policy.
+old-location: dwm\dwmncrenderingpolicy.htm
+old-project: dwm
+ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\enums\dwmncrenderingpolicy.htm
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: DWMNCRENDERINGPOLICY, DWMNCRENDERINGPOLICY enumeration [Desktop Window Manager], DWMNCRP_DISABLED, DWMNCRP_ENABLED, DWMNCRP_LAST, DWMNCRP_USEWINDOWSTYLE, _udwm_dwmncrenderingpolicy, _udwm_dwmncrenderingpolicy_cpp, dwm.dwmncrenderingpolicy, dwmapi/DWMNCRENDERINGPOLICY, dwmapi/DWMNCRP_DISABLED, dwmapi/DWMNCRP_ENABLED, dwmapi/DWMNCRP_LAST, dwmapi/DWMNCRP_USEWINDOWSTYLE, winui._udwm_dwmncrenderingpolicy
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: enum
+req.header: dwmapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Dvbsiparser.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Dwmapi.h
+api_name:
+-	DWMNCRENDERINGPOLICY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
+---
+
+# DWMNCRENDERINGPOLICY enumeration
+
+
+## -description
+
+
+Flags used by the <a href="https://msdn.microsoft.com/51f6544a-edc4-4d0c-b39a-277a8dcbe94f">DwmSetWindowAttribute</a> function to specify the non-client area rendering policy.
+
+
+## -enum-fields
+
+
+
+
+### -field DWMNCRP_USEWINDOWSTYLE
+
+The non-client rendering area is rendered based on the window style.
+
+
+### -field DWMNCRP_DISABLED
+
+The non-client area rendering is disabled; the window style is ignored.
+
+
+### -field DWMNCRP_ENABLED
+
+The non-client area rendering is enabled; the window style is ignored.
+
+
+### -field DWMNCRP_LAST
+
+The maximum recognized <a href="https://msdn.microsoft.com/b02f9157-55cc-4965-9836-2b359f3dade5">DWMNCRENDERINGPOLICY</a> value, used for validation purposes.
+
+
+## -remarks
+
+
+
+To use a <b>DWMNCRENDERINGPOLICY</b> value, set the <i>dwAttribute</i> parameter of the <a href="https://msdn.microsoft.com/51f6544a-edc4-4d0c-b39a-277a8dcbe94f">DwmSetWindowAttribute</a> function to <b>DWMWA_NCRENDERING_POLICY</b>. Set the <i>pvAttribute</i> parameter to the <b>DWMNCRENDERINGPOLICY</b> value.
+
+
+

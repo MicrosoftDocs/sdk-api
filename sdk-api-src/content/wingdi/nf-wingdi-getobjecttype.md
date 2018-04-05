@@ -1,0 +1,166 @@
+---
+UID: NF:wingdi.GetObjectType
+title: GetObjectType function
+author: windows-driver-content
+description: The GetObjectType retrieves the type of the specified object.
+old-location: gdi\getobjecttype.htm
+old-project: gdi
+ms.assetid: 334a2c95-3bf4-44dc-abce-df3a3a2d37a8
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: GetObjectType, GetObjectType function [Windows GDI], _win32_GetObjectType, gdi.getobjecttype, wingdi/GetObjectType
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: wingdi.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: FAX_TIME, *PFAX_TIME
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	gdi32.dll
+-	Ext-MS-Win-GDI-DC-l1-2-0.dll
+-	ext-ms-win-gdi-dc-l1-1-0.dll
+-	ext-ms-win-gdi-dc-l1-2-1.dll
+-	GDI32Full.dll
+api_name:
+-	GetObjectType
+product: Windows
+targetos: Windows
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# GetObjectType function
+
+
+## -description
+
+
+The <b>GetObjectType</b> retrieves the type of the specified object.
+
+
+## -parameters
+
+
+
+
+### -param h [in]
+
+A handle to the graphics object.
+
+
+## -returns
+
+
+
+If the function succeeds, the return value identifies the object. This value can be one of the following.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td>OBJ_BITMAP</td>
+<td>Bitmap</td>
+</tr>
+<tr>
+<td>OBJ_BRUSH</td>
+<td>Brush</td>
+</tr>
+<tr>
+<td>OBJ_COLORSPACE</td>
+<td>Color space</td>
+</tr>
+<tr>
+<td>OBJ_DC</td>
+<td>Device context</td>
+</tr>
+<tr>
+<td>OBJ_ENHMETADC</td>
+<td>Enhanced metafile DC</td>
+</tr>
+<tr>
+<td>OBJ_ENHMETAFILE</td>
+<td>Enhanced metafile</td>
+</tr>
+<tr>
+<td>OBJ_EXTPEN</td>
+<td>Extended pen</td>
+</tr>
+<tr>
+<td>OBJ_FONT</td>
+<td>Font</td>
+</tr>
+<tr>
+<td>OBJ_MEMDC</td>
+<td>Memory DC</td>
+</tr>
+<tr>
+<td>OBJ_METAFILE</td>
+<td>Metafile</td>
+</tr>
+<tr>
+<td>OBJ_METADC</td>
+<td>Metafile DC</td>
+</tr>
+<tr>
+<td>OBJ_PAL</td>
+<td>Palette</td>
+</tr>
+<tr>
+<td>OBJ_PEN</td>
+<td>Pen</td>
+</tr>
+<tr>
+<td>OBJ_REGION</td>
+<td>Region</td>
+</tr>
+</table>
+ 
+
+If the function fails, the return value is zero.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/9ff68d16-0f27-4cc8-932a-b2063cfed135">Device Context Functions</a>
+
+
+
+<a href="https://msdn.microsoft.com/1fa97368-8931-4687-b37f-ed4db949a150">Device Contexts Overview</a>
+
+
+
+<a href="https://msdn.microsoft.com/555ab876-d990-426d-915c-f98df82a10aa">GetObject</a>
+
+
+
+<a href="https://msdn.microsoft.com/a89b875e-923d-4048-bc61-8dea132cc56d">SelectObject</a>
+ 
+
+ 
+

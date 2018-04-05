@@ -1,0 +1,88 @@
+---
+UID: NF:upnp.IUPnPServiceDocumentAccess.GetDocumentURL
+title: IUPnPServiceDocumentAccess::GetDocumentURL method
+author: windows-driver-content
+description: GetDocumentURL method retrieves the Service Control Protocol Description (SCPD) URL for a service object. Using this URL, the UPnP control point can download the complete SCPD document.
+old-location: upnp\iupnpservicedocumentaccess_getdocumenturl.htm
+old-project: UPnP
+ms.assetid: 57AF4510-89D6-4DD5-B164-1478A5C27E20
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: GetDocumentURL method [UPnP APIs], GetDocumentURL method [UPnP APIs], IUPnPServiceDocumentAccess interface, GetDocumentURL,IUPnPServiceDocumentAccess.GetDocumentURL, IUPnPServiceDocumentAccess, IUPnPServiceDocumentAccess interface [UPnP APIs], GetDocumentURL method, IUPnPServiceDocumentAccess::GetDocumentURL, upnp.iupnpservicedocumentaccess_getdocumenturl, upnp/IUPnPServiceDocumentAccess::GetDocumentURL
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: upnp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: UI_EVENTPARAMS_COMMAND
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Upnp.dll
+api_name:
+-	IUPnPServiceDocumentAccess.GetDocumentURL
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Upnp.dll
+req.irql: 
+req.product: Windows UI
+---
+
+# IUPnPServiceDocumentAccess::GetDocumentURL method
+
+
+## -description
+
+
+The <b>GetDocumentURL</b> method retrieves the Service Control Protocol Description (SCPD) URL for a service object. Using this URL, the UPnP control point can download the complete SCPD document.
+
+
+## -parameters
+
+
+
+
+### -param pbstrDocUrl [out]
+
+The URL to the complete SCPD document.
+
+
+## -returns
+
+
+
+If the method succeeds, the return value is <b>S_OK</b>. Otherwise, the method returns <b>E_FAIL</b>. This method will fail if called after a service enumeration has already started.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/A4890300-2945-4973-ACFC-F950C5E15A0E">IUPnPServiceDocumentAccess</a>
+
+
+
+<a href="https://msdn.microsoft.com/B0C197A0-4987-43BD-A48D-BF2E6150A85F">IUPnPServiceDocumentAccess:GetDocument</a>
+ 
+
+ 
+

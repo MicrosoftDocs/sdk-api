@@ -1,0 +1,169 @@
+---
+UID: NF:winuser.CheckDlgButton
+title: CheckDlgButton function
+author: windows-driver-content
+description: Changes the check state of a button control.
+old-location: controls\CheckDlgButton.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonfunctions\checkdlgbutton.htm
+ms.author: windowsdriverdev
+ms.date: 3/31/2018
+ms.keywords: BST_CHECKED, BST_INDETERMINATE, BST_UNCHECKED, CheckDlgButton, CheckDlgButton function [Windows Controls], _win32_CheckDlgButton, _win32_CheckDlgButton_cpp, controls.CheckDlgButton, controls._win32_CheckDlgButton, winuser/CheckDlgButton
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: winuser.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: AR_STATE, *PAR_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	User32.dll
+-	Ext-MS-Win-NTUser-DialogBox-l1-1-0.dll
+-	Ext-MS-Win-NTUser-DialogBox-l1-1-1.dll
+-	ext-ms-win-ntuser-dialogbox-l1-1-2.dll
+api_name:
+-	CheckDlgButton
+product: Windows
+targetos: Windows
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# CheckDlgButton function
+
+
+## -description
+
+
+Changes the check state of a button control.
+
+
+## -parameters
+
+
+
+
+### -param hDlg [in]
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+
+A handle to the dialog box that contains the button. 
+
+
+### -param nIDButton [in]
+
+Type: <b>int</b>
+
+The identifier of the button to modify. 
+
+
+### -param uCheck [in]
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+
+The check state of the button. This parameter can be one of the following values. 
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="BST_CHECKED"></a><a id="bst_checked"></a><dl>
+<dt><b>BST_CHECKED</b></dt>
+</dl>
+</td>
+<td width="60%">
+Sets the button state to checked.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="BST_INDETERMINATE"></a><a id="bst_indeterminate"></a><dl>
+<dt><b>BST_INDETERMINATE</b></dt>
+</dl>
+</td>
+<td width="60%">
+Sets the button state to grayed, indicating an indeterminate state. Use this value only if the button has the <a href="Button_Styles.htm">BS_3STATE</a> or <a href="Button_Styles.htm">BS_AUTO3STATE</a> style.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="BST_UNCHECKED"></a><a id="bst_unchecked"></a><dl>
+<dt><b>BST_UNCHECKED</b></dt>
+</dl>
+</td>
+<td width="60%">
+Sets the button state to cleared
+
+</td>
+</tr>
+</table>
+ 
+
+
+## -returns
+
+
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+
+If the function succeeds, the return value is nonzero.
+
+If the function fails, the return value is zero. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. 
+
+
+
+
+## -remarks
+
+
+
+The <b>CheckDlgButton</b> function sends a 
+				<a href="https://msdn.microsoft.com/8294e6c4-caac-4c60-85ff-38698a1d2ae4">BM_SETCHECK</a> message to the specified button control in the specified dialog box.
+
+
+#### Examples
+
+For an example, see <b>Creating a Modeless Dialog Box</b> in <a href="https://msdn.microsoft.com/8a5b6bdd-4429-4f48-b846-6bd617a87abf">Using Dialog Boxes</a>. 
+
+<div class="code"></div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/9b9dc0a7-be73-42ca-bf29-220d05baa6d1">CheckRadioButton</a>
+
+
+
+<a href="https://msdn.microsoft.com/859ff84e-a6d8-466b-9b85-f844a47febdf">IsDlgButtonChecked</a>
+
+
+
+<b>Reference</b>
+ 
+
+ 
+

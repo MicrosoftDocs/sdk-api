@@ -1,0 +1,100 @@
+---
+UID: NF:wmpservices.IWMPPlugin.AdviseWMPServices
+title: IWMPPlugin::AdviseWMPServices method
+author: windows-driver-content
+description: The IWMPPlugin::AdviseWMPServices method is implemented by the plug-in.
+old-location: wmp\iwmpplugin_advisewmpservices.htm
+old-project: WMP
+ms.assetid: 203b9363-1363-48be-8ba6-8b152ae9a92f
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: AdviseWMPServices method [Windows Media Player], AdviseWMPServices method [Windows Media Player], IWMPPlugin interface, AdviseWMPServices,IWMPPlugin.AdviseWMPServices, IWMPPlugin, IWMPPlugin interface [Windows Media Player], AdviseWMPServices method, IWMPPlugin::AdviseWMPServices, IWMPPluginAdviseWMPServicesDSP, wmp.iwmpplugin_advisewmpservices, wmpservices/IWMPPlugin::AdviseWMPServices
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wmpservices.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Media Player 9 Series or later.
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WMPServices_StreamState
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	wmpservices.h
+api_name:
+-	IWMPPlugin.AdviseWMPServices
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IWMPPlugin::AdviseWMPServices method
+
+
+## -description
+
+
+
+The <b>IWMPPlugin::AdviseWMPServices</b> method is implemented by the plug-in.
+
+
+
+
+## -parameters
+
+
+
+
+### -param pWMPServices [in]
+
+Pointer to an <b>IWMPServices</b> interface.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>.
+
+
+
+
+## -remarks
+
+
+
+Windows Media Player calls the <b>AdviseWMPServices</b> method on the plug-in to pass in a pointer that the plug-in can then use to call the <b>IWMPServices</b> interface, which contains methods that provide information about the current state of the stream.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/e384aa43-72ab-44b7-b6bd-7a29335b5197">IWMPPlugin Interface</a>
+
+
+
+<a href="https://msdn.microsoft.com/26d68b4b-4eeb-42e2-a1d1-0d0e73725059">IWMPServices Interface</a>
+ 
+
+ 
+

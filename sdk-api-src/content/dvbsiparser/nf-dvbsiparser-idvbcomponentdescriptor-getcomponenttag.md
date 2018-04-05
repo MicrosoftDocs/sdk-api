@@ -1,0 +1,84 @@
+---
+UID: NF:dvbsiparser.IDvbComponentDescriptor.GetComponentTag
+title: IDvbComponentDescriptor::GetComponentTag method
+author: windows-driver-content
+description: Gets the component tag from a DVB component descriptor. The component tag has the same value as the component_tag field in the stream identifier descriptor in the Program Specific Information (PSI) program map section for the component stream.
+old-location: mstv\idvbcomponentdescriptor_getcomponenttag.htm
+old-project: mstv
+ms.assetid: 1ecfb7db-2fb6-4389-8f62-3d912ffc301b
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: GetComponentTag method [Microsoft TV Technologies], GetComponentTag method [Microsoft TV Technologies], IDvbComponentDescriptor interface, GetComponentTag,IDvbComponentDescriptor.GetComponentTag, IDvbComponentDescriptor, IDvbComponentDescriptor interface [Microsoft TV Technologies], GetComponentTag method, IDvbComponentDescriptor::GetComponentTag, dvbsiparser/IDvbComponentDescriptor::GetComponentTag, mstv.idvbcomponentdescriptor_getcomponenttag
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: dvbsiparser.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: None supported
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Dvbsiparser.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	dvbsiparser.h
+api_name:
+-	IDvbComponentDescriptor.GetComponentTag
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
+---
+
+# IDvbComponentDescriptor::GetComponentTag method
+
+
+## -description
+
+
+Gets the component tag from a DVB component descriptor. The component tag has the same value as the component_tag field in the stream identifier descriptor  in the Program Specific Information (PSI) program map section for the component stream.
+
+
+## -parameters
+
+
+
+
+### -param pbVal [out]
+
+Receives the component tag.
+
+
+## -returns
+
+
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/0dee15ee-5b36-4454-8092-6b57ef5063ce">IDvbComponentDescriptor</a>
+ 
+
+ 
+

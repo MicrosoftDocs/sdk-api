@@ -1,0 +1,98 @@
+---
+UID: NE:d2d1effects.D2D1_DPICOMPENSATION_PROP
+title: D2D1_DPICOMPENSATION_PROP
+author: windows-driver-content
+description: Identifiers for properties of the DPI compensation effect.
+old-location: direct2d\d2d1_dpicompensation_prop.htm
+old-project: Direct2D
+ms.assetid: B8956D69-B014-49EA-BCBA-5AE9DC051A5A
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: D2D1_DPICOMPENSATION_PROP, D2D1_DPICOMPENSATION_PROP enumeration [Direct2D], D2D1_DPICOMPENSATION_PROP_BORDER_MODE, D2D1_DPICOMPENSATION_PROP_INPUT_DPI, D2D1_DPICOMPENSATION_PROP_INTERPOLATION_MODE, d2d1effects/D2D1_DPICOMPENSATION_PROP, d2d1effects/D2D1_DPICOMPENSATION_PROP_BORDER_MODE, d2d1effects/D2D1_DPICOMPENSATION_PROP_INPUT_DPI, d2d1effects/D2D1_DPICOMPENSATION_PROP_INTERPOLATION_MODE, direct2d.d2d1_dpicompensation_prop
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: enum
+req.header: d2d1effects.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: D2D1_DPICOMPENSATION_PROP
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	d2d1effects.h
+api_name:
+-	D2D1_DPICOMPENSATION_PROP
+product: Windows
+targetos: Windows
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
+---
+
+# D2D1_DPICOMPENSATION_PROP enumeration
+
+
+## -description
+
+
+
+          Identifiers for properties of the <a href="https://msdn.microsoft.com/EA8AD89B-A710-468F-A6F3-474DA29586F1">DPI compensation effect</a>.
+        
+
+
+## -enum-fields
+
+
+
+
+### -field D2D1_DPICOMPENSATION_PROP_INTERPOLATION_MODE
+
+
+            The interpolation mode the effect uses to scale the image.
+            
+
+The type is <a href="https://msdn.microsoft.com/D47BE47D-09E3-46A5-8D89-884102EDEA9A">D2D1_DPICOMPENSATION_INTERPOLATION_MODE</a>.
+
+The default value is D2D1_DPICOMPENSATION_INTERPOLATION_MODE_LINEAR.
+
+
+### -field D2D1_DPICOMPENSATION_PROP_BORDER_MODE
+
+
+            The mode used to calculate the border of the image, soft or hard. See Border modes for more info.
+            
+
+The type is <a href="https://msdn.microsoft.com/093C7028-9C0E-4BB5-9769-C456B7A23B6F">D2D1_BORDER_MODE</a>.
+
+The default value is D2D1_BORDER_MODE_SOFT.
+
+
+### -field D2D1_DPICOMPENSATION_PROP_INPUT_DPI
+
+
+            The DPI of the input image.
+            
+
+The type is FLOAT.
+
+The default value is 96.0f.
+
+
+### -field D2D1_DPICOMPENSATION_PROP_FORCE_DWORD
+
+
+

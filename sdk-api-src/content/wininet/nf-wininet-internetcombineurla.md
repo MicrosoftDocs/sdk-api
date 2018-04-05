@@ -1,0 +1,249 @@
+---
+UID: NF:wininet.InternetCombineUrlA
+title: InternetCombineUrlA function
+author: windows-driver-content
+description: Combines a base and relative URL into a single URL. The resultant URL is canonicalized (see InternetCanonicalizeUrl).
+old-location: wininet\internetcombineurl.htm
+old-project: WinInet
+ms.assetid: 2efcf28a-e82b-47f2-8e8c-95fee70a87e4
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: InternetCombineUrl, InternetCombineUrl function [WinINet], InternetCombineUrlA, InternetCombineUrlW, _inet_internetcombineurl_function, wininet.internetcombineurl, wininet/InternetCombineUrl, wininet/InternetCombineUrlA, wininet/InternetCombineUrlW
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: wininet.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: InternetCombineUrlW (Unicode) and InternetCombineUrlA (ANSI)
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: InternetCookieState
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Wininet.dll
+api_name:
+-	InternetCombineUrl
+-	InternetCombineUrlA
+-	InternetCombineUrlW
+product: Windows
+targetos: Windows
+req.lib: Wininet.lib
+req.dll: Wininet.dll
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# InternetCombineUrlA function
+
+
+## -description
+
+
+Combines a base and relative URL into a single URL. The resultant URL is canonicalized (see 
+<a href="https://msdn.microsoft.com/3bfde980-e478-4960-b41f-e1c8105ef419">InternetCanonicalizeUrl</a>).
+
+
+## -parameters
+
+
+
+
+### -param lpszBaseUrl [in]
+
+Pointer to a null-terminated string  that contains the base URL.
+
+
+### -param lpszRelativeUrl [in]
+
+Pointer to a null-terminated string  that contains the relative URL.
+
+
+### -param lpszBuffer [out]
+
+Pointer to a buffer that receives the combined URL.
+
+
+### -param lpdwBufferLength [in, out]
+
+Pointer to a variable that contains the size of the 
+<i>lpszBuffer</i> buffer, in characters. If the function succeeds, this parameter receives the size of the combined URL, in characters, not including the null-terminating character. If the function fails, this parameter receives the size of the required buffer, in characters (including the null-terminating character).
+
+
+### -param dwFlags [in]
+
+Controls the operation of the function. This parameter can be one of the following values.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt>ICU_BROWSER_MODE</dt>
+</dl>
+</td>
+<td width="60%">
+Does not encode or decode characters after "#" or "?", and does not remove trailing white space after "?". If this value is not specified, the entire URL is encoded and trailing white space is removed.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt>ICU_DECODE</dt>
+</dl>
+</td>
+<td width="60%">
+Converts all %XX sequences to characters, including escape sequences, before the URL is parsed.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt>ICU_ENCODE_PERCENT</dt>
+</dl>
+</td>
+<td width="60%">
+Encodes any percent signs encountered. By default, percent signs are not encoded. This value is available in Microsoft Internet Explorer 5 and later.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt>ICU_ENCODE_SPACES_ONLY</dt>
+</dl>
+</td>
+<td width="60%">
+Encodes spaces only.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt>ICU_NO_ENCODE</dt>
+</dl>
+</td>
+<td width="60%">
+Does not convert unsafe characters to escape sequences.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt>ICU_NO_META</dt>
+</dl>
+</td>
+<td width="60%">
+Does not remove meta sequences (such as "." and "..") from the URL.
+
+</td>
+</tr>
+</table>
+ 
+
+
+## -returns
+
+
+
+Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. To get extended error information, call 
+<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. Possible errors include the following.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_BAD_PATHNAME</b></dt>
+</dl>
+</td>
+<td width="60%">
+The URLs could not be combined.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_INSUFFICIENT_BUFFER</b></dt>
+</dl>
+</td>
+<td width="60%">
+The buffer supplied to the function was insufficient or <b>NULL</b>. The value indicated by the 
+<i>lpdwBufferLength</i> parameter will contain the number of bytes required to hold the combined URL.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_INTERNET_INVALID_URL</b></dt>
+</dl>
+</td>
+<td width="60%">
+The format of the URL is invalid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_INVALID_PARAMETER</b></dt>
+</dl>
+</td>
+<td width="60%">
+There is an invalid string, buffer, buffer size, or flags parameter.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://msdn.microsoft.com/354ab65d-5e46-451d-b36b-2f8166a1a048">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
+<div> </div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/bb59ada6-f49f-412c-a32c-4fb9495b1222">Handling Uniform Resource Locators</a>
+
+
+
+<a href="https://msdn.microsoft.com/2e0da5c6-29e4-47b5-8ed2-8712c9ca2c97">WinINet Functions</a>
+ 
+
+ 
+

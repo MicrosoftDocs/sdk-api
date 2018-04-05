@@ -1,0 +1,183 @@
+---
+UID: NF:msctf.ITfThreadMgr.GetFunctionProvider
+title: ITfThreadMgr::GetFunctionProvider method
+author: windows-driver-content
+description: ITfThreadMgr::GetFunctionProvider method
+old-location: tsf\itfthreadmgr_getfunctionprovider.htm
+old-project: TSF
+ms.assetid: b320790a-4b54-4475-97e6-e59f083cfc09
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: GUID_APP_FUNCTIONPROVIDER, GUID_SYSTEM_FUNCTIONPROVIDER, GetFunctionProvider method [Text Services Framework], GetFunctionProvider method [Text Services Framework], ITfThreadMgr interface, GetFunctionProvider,ITfThreadMgr.GetFunctionProvider, ITfThreadMgr, ITfThreadMgr interface [Text Services Framework], GetFunctionProvider method, ITfThreadMgr::GetFunctionProvider, _tsf_itfthreadmgr_getfunctionprovider_ref, msctf/ITfThreadMgr::GetFunctionProvider, tsf.itfthreadmgr_getfunctionprovider
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: msctf.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Msctf.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: TF_DA_ATTR_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Msctf.dll
+api_name:
+-	ITfThreadMgr.GetFunctionProvider
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# ITfThreadMgr::GetFunctionProvider method
+
+
+## -description
+
+
+
+
+## -parameters
+
+
+
+
+### -param clsid [in]
+
+CLSID of the desired function provider. This can be the CLSID of a function provider registered for the calling thread or one of the following predefined values.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="GUID_SYSTEM_FUNCTIONPROVIDER"></a><a id="guid_system_functionprovider"></a><dl>
+<dt><b>GUID_SYSTEM_FUNCTIONPROVIDER</b></dt>
+</dl>
+</td>
+<td width="60%">
+Obtains the TSF system function provider.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="GUID_APP_FUNCTIONPROVIDER"></a><a id="guid_app_functionprovider"></a><dl>
+<dt><b>GUID_APP_FUNCTIONPROVIDER</b></dt>
+</dl>
+</td>
+<td width="60%">
+Obtains the function provider implemented by the current application. This object is not available if the application does not register itself as a function provider.
+
+</td>
+</tr>
+</table>
+ 
+
+
+### -param ppFuncProv [out]
+
+Pointer to a <a href="https://msdn.microsoft.com/e63fd561-1157-49b1-a981-e578d9538876">ITfFunctionProvider</a> interface that receives the function provider.
+
+
+## -returns
+
+
+
+This method can return one of these values.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method was successful.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>TF_E_NOPROVIDER</b></dt>
+</dl>
+</td>
+<td width="60%">
+No function provider matching <i>clsid</i> was available.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_FAIL</b></dt>
+</dl>
+</td>
+<td width="60%">
+GUID_SYSTEM_FUNCTIONPROVIDER was requested, but cannot be obtained.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+A function provider registers by calling the TSF manager <a href="https://msdn.microsoft.com/d9231f36-24c4-4d46-97e7-518f5fcc1ce2">ITfSourceSingle::AdviseSingleSink</a> method with IID_ITfFunctionProvider.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/e63fd561-1157-49b1-a981-e578d9538876">ITfFunctionProvider
+      </a>
+
+
+
+<a href="https://msdn.microsoft.com/d9231f36-24c4-4d46-97e7-518f5fcc1ce2">
+        ITfSourceSingle::AdviseSingleSink
+      </a>
+
+
+
+<a href="https://msdn.microsoft.com/3a2ba59c-3565-4f54-ac10-923dcb4882cb">ITfThreadMgr</a>
+
+
+
+<a href="https://msdn.microsoft.com/6581cd4d-75ad-4a2c-a919-8e2eed6b3939">
+        ITfThreadMgr::EnumFunctionProviders
+      </a>
+ 
+
+ 
+

@@ -1,0 +1,111 @@
+---
+UID: NF:mobsync.ISyncMgrSynchronizeInvoke.UpdateAll
+title: ISyncMgrSynchronizeInvoke::UpdateAll method
+author: windows-driver-content
+description: Programmatically starts an update for all items.
+old-location: shell\syncmgr_isyncmgrsynchronizeinvoke_updateall.htm
+old-project: shell
+ms.assetid: 94731c78-b7cf-4ad2-afe5-6355830a5550
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: ISyncMgrSynchronizeInvoke, ISyncMgrSynchronizeInvoke interface [Windows Shell], UpdateAll method, ISyncMgrSynchronizeInvoke::UpdateAll, UpdateAll method [Windows Shell], UpdateAll method [Windows Shell], ISyncMgrSynchronizeInvoke interface, UpdateAll,ISyncMgrSynchronizeInvoke.UpdateAll, mobsync/ISyncMgrSynchronizeInvoke::UpdateAll, shell.syncmgr_isyncmgrsynchronizeinvoke_updateall, syncmgr.isyncmgrsynchronizeinvoke_updateall
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: mobsync.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: SYNCMGRSTATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Mobsync.dll
+api_name:
+-	ISyncMgrSynchronizeInvoke.UpdateAll
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Mobsync.dll
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# ISyncMgrSynchronizeInvoke::UpdateAll method
+
+
+## -description
+
+
+Programmatically starts an update for all items.
+
+
+## -parameters
+
+
+
+
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+This method can return one of these values.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+Call was completed successfully.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+This method returns immediately and the synchronization manager performs the synchronizations in a separate process from the calling application.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/993fd482-39e0-4966-ba71-eed7e4b54f72">ISyncMgrSynchronizeInvoke</a>
+ 
+
+ 
+

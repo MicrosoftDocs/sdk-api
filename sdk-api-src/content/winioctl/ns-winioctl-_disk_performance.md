@@ -1,0 +1,137 @@
+---
+UID: NS:winioctl._DISK_PERFORMANCE
+title: "_DISK_PERFORMANCE"
+author: windows-driver-content
+description: Provides disk performance information.
+old-location: fs\disk_performance_str.htm
+old-project: FileIO
+ms.assetid: 938ec37b-450e-4ebf-ad2b-9f1ac5f56112
+ms.author: windowsdriverdev
+ms.date: 3/29/2018
+ms.keywords: "*PDISK_PERFORMANCE, DISK_PERFORMANCE, DISK_PERFORMANCE structure [Files], PDISK_PERFORMANCE, PDISK_PERFORMANCE structure pointer [Files], _DISK_PERFORMANCE, _win32_disk_performance_str, base.disk_performance_str, fs.disk_performance_str, winioctl/DISK_PERFORMANCE, winioctl/PDISK_PERFORMANCE"
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: struct
+req.header: winioctl.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: DISK_PERFORMANCE, *PDISK_PERFORMANCE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinIoCtl.h
+api_name:
+-	DISK_PERFORMANCE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# _DISK_PERFORMANCE structure
+
+
+## -description
+
+
+Provides disk performance information. It is used by the 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560388">IOCTL_DISK_PERFORMANCE</a> control code.
+
+
+## -struct-fields
+
+
+
+
+### -field BytesRead
+
+The number of bytes read.
+
+
+### -field BytesWritten
+
+The number of bytes written.
+
+
+### -field ReadTime
+
+The time it takes to complete a read.
+
+
+### -field WriteTime
+
+The time it takes to complete a write.
+
+
+### -field IdleTime
+
+The idle time.
+
+
+### -field ReadCount
+
+The number of read operations.
+
+
+### -field WriteCount
+
+The number of write operations.
+
+
+### -field QueueDepth
+
+The depth of the queue.
+
+
+### -field SplitCount
+
+The cumulative count of I/Os that are associated I/Os. 
+
+An associated I/O is a fragmented I/O, where multiple I/Os to a disk are required to fulfill the original logical I/O request. The most common example of this scenario is a file that is fragmented on a disk. The multiple I/Os are counted as split I/O counts.
+
+
+### -field QueryTime
+
+The system time stamp when a query for this structure is returned. 
+
+Use this member to synchronize between the file system driver and a caller.
+
+
+### -field StorageDeviceNumber
+
+The unique number for a device that identifies it to the storage manager that is indicated in the <b>StorageManagerName</b> member.
+
+
+### -field StorageManagerName
+
+The name of the storage manager that controls this device. 
+
+Examples of storage managers are "PhysDisk," "FTDISK," and "DMIO".
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560388">IOCTL_DISK_PERFORMANCE</a>
+ 
+
+ 
+

@@ -1,0 +1,127 @@
+---
+UID: NF:tvratings.IEvalRat.put_BlockedRatingAttributes
+title: IEvalRat::put_BlockedRatingAttributes method
+author: windows-driver-content
+description: The put_BlockedRatingAttributes method specifies whether to block content that has a specified rating.
+old-location: mstv\ievalrat_put_blockedratingattributes.htm
+old-project: mstv
+ms.assetid: 7c6919f0-1270-4dcd-8180-a9af4763c580
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: IEvalRat, IEvalRat interface [Microsoft TV Technologies], put_BlockedRatingAttributes method, IEvalRat::put_BlockedRatingAttributes, IEvalRatput_BlockedRatingAttributes, mstv.ievalrat_put_blockedratingattributes, put_BlockedRatingAttributes method [Microsoft TV Technologies], put_BlockedRatingAttributes method [Microsoft TV Technologies], IEvalRat interface, put_BlockedRatingAttributes,IEvalRat.put_BlockedRatingAttributes, tvratings/IEvalRat::put_BlockedRatingAttributes
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: tvratings.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
+req.target-min-winversvr: None supported
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: EnTvRat_US_TV
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Tvratings.h
+api_name:
+-	IEvalRat.put_BlockedRatingAttributes
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# IEvalRat::put_BlockedRatingAttributes method
+
+
+## -description
+
+
+The <b>put_BlockedRatingAttributes</b> method specifies whether to block content that has a specified rating.
+
+
+## -parameters
+
+
+
+
+### -param enSystem [in]
+
+Specifies the rating system, as an <a href="https://msdn.microsoft.com/646927ad-569a-4484-a3ce-6d121210b6be">EnTvRat_System</a> enumeration type.
+
+
+### -param enLevel [in]
+
+Specifies the rating level, as an <a href="https://msdn.microsoft.com/f96a8f1a-d8e2-4976-92e3-719f0039d2a8">EnTvRat_GenericLevel</a> enumeration type. The meaning of this value depends on the rating system.
+
+
+### -param lbfAttrs [in]
+
+Bitwise combination of zero or more flags from the <a href="https://msdn.microsoft.com/eb7f56c4-1d48-43f9-a691-c08aee3cd537">BfEnTvRat_GenericAttributes</a> enumeration. The flags specify whether the overall rating is blocked, or specific attributes within the rating are blocked.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+This method should be called once for each level in a rating system, to specify viewing permissions for that level. The <i>lbfAttrs</i> parameter indicates the permissions for the specified rating level:
+
+<ul>
+<li>If no flags are set, this rating level is unrestricted. Any program with this rating level can be viewed.</li>
+<li>If the <b>BflsBlocked</b> flag is set, this rating level is restricted. No program with this rating level can be viewed.</li>
+<li>Flags in the range <b>BfIsAttr_1</b> to <b>BfIsAttr_7</b> specify content attributes, such as violence or adult language. If one of these flags is set, it means that a program with that content attribute and the specified rating level will be blocked.</li>
+</ul>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/b37c7e7d-80fd-4a42-a698-c20ffb2a5052">IEvalRat Interface</a>
+ 
+
+ 
+

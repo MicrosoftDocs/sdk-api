@@ -1,0 +1,124 @@
+---
+UID: NF:oleidl.IOleCacheControl.OnStop
+title: IOleCacheControl::OnStop method
+author: windows-driver-content
+description: Notifies the cache that it should terminate any existing advise sinks. No indication is given as to whether a connection actually existed.
+old-location: com\iolecachecontrol_onstop.htm
+old-project: com
+ms.assetid: 95e62e9d-39bd-4bf8-ba25-c6a9c7fc515b
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: IOleCacheControl, IOleCacheControl interface [COM], OnStop method, IOleCacheControl::OnStop, OnStop method [COM], OnStop method [COM], IOleCacheControl interface, OnStop,IOleCacheControl.OnStop, _ole_iolecachecontrol_onstop, com.iolecachecontrol_onstop, oleidl/IOleCacheControl::OnStop
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: oleidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: OleIdl.Idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: USERCLASSTYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	OleIdl.h
+api_name:
+-	IOleCacheControl.OnStop
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# IOleCacheControl::OnStop method
+
+
+## -description
+
+
+Notifies the cache that it should terminate any existing advise sinks. No indication is given as to whether a connection actually existed.
+
+
+## -parameters
+
+
+
+
+
+
+## -returns
+
+
+
+This method returns S_OK on success. Other possible return values include the following.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_UNEXPECTED</b></dt>
+</dl>
+</td>
+<td width="60%">
+An unexpected error has occurred.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_OUTOFMEMORY</b></dt>
+</dl>
+</td>
+<td width="60%">
+Insufficient memory is available for this operation.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+The data advisory connection between the running object and the cache is destroyed as part of calling <b>OnStop</b>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/64cc7a29-0bbb-4535-a7b5-9b1d82ad7e8a">IOleCacheControl</a>
+
+
+
+<a href="https://msdn.microsoft.com/8d155c3f-115c-41fe-985f-ed60a565341f">IOleCacheControl::OnRun</a>
+ 
+
+ 
+

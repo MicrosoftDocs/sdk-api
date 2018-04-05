@@ -1,0 +1,119 @@
+---
+UID: NF:msctf.ITfInputProcessorProfileMgr.EnumProfiles
+title: ITfInputProcessorProfileMgr::EnumProfiles method
+author: windows-driver-content
+description: The ITfInputProcessorProfileMgr::EnumProfiles method returns profiles to be enumerated.
+old-location: tsf\itfinputprocessorprofilemgr_enumprofiles.htm
+old-project: TSF
+ms.assetid: d4728d12-9073-41b8-94bc-eaf7c1df19b6
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: EnumProfiles method [Text Services Framework], EnumProfiles method [Text Services Framework], ITfInputProcessorProfileMgr interface, EnumProfiles,ITfInputProcessorProfileMgr.EnumProfiles, ITfInputProcessorProfileMgr, ITfInputProcessorProfileMgr interface [Text Services Framework], EnumProfiles method, ITfInputProcessorProfileMgr::EnumProfiles, msctf/ITfInputProcessorProfileMgr::EnumProfiles, tsf.itfinputprocessorprofilemgr_enumprofiles
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: msctf.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2003 R2 [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Msctf.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: TF_DA_ATTR_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Msctf.dll
+api_name:
+-	ITfInputProcessorProfileMgr.EnumProfiles
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# ITfInputProcessorProfileMgr::EnumProfiles method
+
+
+## -description
+
+
+The <b>ITfInputProcessorProfileMgr::EnumProfiles</b> method returns profiles to be enumerated.
+
+
+## -parameters
+
+
+
+
+### -param langid [in]
+
+[in] langid of the profiles to be enumerated. If langid is 0, all profiles will be enumerated.
+
+
+### -param ppEnum [out]
+
+[out] The pointer to receive a pointer of <a href="https://msdn.microsoft.com/1a6dd7f9-d348-4c86-8d74-544aaa45581d">IEnumTfInputProcessorProfiles</a> interface.
+
+
+## -returns
+
+
+
+This method can return one of these values.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method was successful.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_FAIL</b></dt>
+</dl>
+</td>
+<td width="60%">
+An unspecified error occurred.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+One or more parameters are invalid.
+
+</td>
+</tr>
+</table>
+ 
+
+
+

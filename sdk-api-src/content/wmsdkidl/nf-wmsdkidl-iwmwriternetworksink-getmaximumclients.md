@@ -1,0 +1,124 @@
+---
+UID: NF:wmsdkidl.IWMWriterNetworkSink.GetMaximumClients
+title: IWMWriterNetworkSink::GetMaximumClients method
+author: windows-driver-content
+description: The GetMaximumClients method retrieves the maximum number of clients that can connect to this sink.
+old-location: wmformat\iwmwriternetworksink_getmaximumclients.htm
+old-project: wmformat
+ms.assetid: c0ef3fd6-aed7-40ec-96e6-7962e77bdd46
+ms.author: windowsdriverdev
+ms.date: 3/23/2018
+ms.keywords: GetMaximumClients method [windows Media Format], GetMaximumClients method [windows Media Format], IWMWriterNetworkSink interface, GetMaximumClients,IWMWriterNetworkSink.GetMaximumClients, IWMWriterNetworkSink, IWMWriterNetworkSink interface [windows Media Format], GetMaximumClients method, IWMWriterNetworkSink::GetMaximumClients, IWMWriterNetworkSinkGetMaximumClients, wmformat.iwmwriternetworksink_getmaximumclients, wmsdkidl/IWMWriterNetworkSink::GetMaximumClients
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wmsdkidl.h
+req.include-header: Wmsdk.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WM_AETYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wmvcore.lib
+-	Wmvcore.dll
+-	WMStubDRM.lib
+-	WMStubDRM.dll
+api_name:
+-	IWMWriterNetworkSink.GetMaximumClients
+product: Windows
+targetos: Windows
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IWMWriterNetworkSink::GetMaximumClients method
+
+
+## -description
+
+
+
+The <b>GetMaximumClients</b> method retrieves the maximum number of clients that can connect to this sink.
+
+
+
+
+## -parameters
+
+
+
+
+### -param pdwMaxClients [out]
+
+Pointer to a variable that receives the maximum number of clients. The default value is 5.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, the values shown in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+<i>pdwMaxClients</i> is <b>NULL</b>.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/3204c360-f407-4cf3-bb21-7e6094587fb0">IWMWriterNetworkSink Interface</a>
+
+
+
+<a href="https://msdn.microsoft.com/619f0684-28bb-4412-acbf-27434672083a">IWMWriterNetworkSink::SetMaximumClients</a>
+ 
+
+ 
+

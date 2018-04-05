@@ -1,0 +1,96 @@
+---
+UID: NF:vfw.ICGetBuffersWanted
+title: ICGetBuffersWanted macro
+author: windows-driver-content
+description: The ICGetBuffersWanted macro queries a driver for the number of buffers to allocate. You can use this macro or explicitly call the ICM_GETBUFFERSWANTED message.
+old-location: multimedia\icgetbufferswanted.htm
+old-project: Multimedia
+ms.assetid: ed294649-d7e7-4e5f-89d4-49ed65c71b96
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: ICGetBuffersWanted, ICGetBuffersWanted macro [Windows Multimedia], _win32_ICGetBuffersWanted, multimedia.icgetbufferswanted, vfw/ICGetBuffersWanted
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: macro
+req.header: vfw.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: VS_FIXEDFILEINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Vfw.h
+api_name:
+-	ICGetBuffersWanted
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
+---
+
+# ICGetBuffersWanted macro
+
+
+## -description
+
+
+
+The <b>ICGetBuffersWanted</b> macro queries a driver for the number of buffers to allocate. You can use this macro or explicitly call the <a href="https://msdn.microsoft.com/109e8627-7ed4-4f17-bf7f-e77f42dfc8c7">ICM_GETBUFFERSWANTED</a> message.
+
+
+
+
+## -parameters
+
+
+
+
+### -param hic
+
+Handle to a driver. 
+
+
+### -param lpdwBuffers
+
+Address to contain the number of samples the driver needs to efficiently render the data. 
+
+
+## -remarks
+
+
+
+This message is used by drivers that use hardware to render data and want to ensure a minimal time lag caused by waiting for buffers to arrive. For example, if a driver controls a video decompression board that can hold 10 frames of video, it could return 10 for this message. This instructs applications to try to stay 10 frames ahead of the frame it currently needs.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/e8ee41fa-180a-432a-933b-b4a525b9df8c">Video Compression Macros</a>
+
+
+
+<a href="https://msdn.microsoft.com/df876309-68d3-43a3-9d83-6fdb8f345fdc">Video Compression Manager</a>
+ 
+
+ 
+

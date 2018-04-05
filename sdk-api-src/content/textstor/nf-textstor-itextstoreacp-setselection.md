@@ -1,0 +1,154 @@
+---
+UID: NF:textstor.ITextStoreACP.SetSelection
+title: ITextStoreACP::SetSelection method
+author: windows-driver-content
+description: The ITextStoreACP::SetSelection method selects text within the document. The application must have a read/write lock on the document before calling this method.
+old-location: tsf\itextstoreacp_setselection.htm
+old-project: TSF
+ms.assetid: e9151b63-2ca7-4995-a36b-b919ab2d491a
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: ITextStoreACP, ITextStoreACP interface [Text Services Framework], SetSelection method, ITextStoreACP::SetSelection, SetSelection method [Text Services Framework], SetSelection method [Text Services Framework], ITextStoreACP interface, SetSelection,ITextStoreACP.SetSelection, _tsf_itextstoreacp_setselection_ref, textstor/ITextStoreACP::SetSelection, tsf.itextstoreacp_setselection
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: textstor.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Textstor.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: TsRunType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	msctf.dll
+api_name:
+-	ITextStoreACP.SetSelection
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# ITextStoreACP::SetSelection method
+
+
+## -description
+
+
+The <b>ITextStoreACP::SetSelection</b> method selects text within the document. The application must have a read/write lock on the document before calling this method.
+
+
+## -parameters
+
+
+
+
+### -param ulCount [in]
+
+Specifies the number of text selections in <i>pSelection</i>.
+
+
+### -param pSelection [in]
+
+Specifies the style, start, and end character positions of the text selected through the <a href="https://msdn.microsoft.com/739c87c5-3e9c-41f3-ad79-0b417347604b">TS_SELECTION_ACP</a> structure.
+
+When the start and end character positions are equal, the method places a caret at that character position. There can be only one caret at a time in the document.
+
+
+## -returns
+
+
+
+This method can return one of these values.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method was successful.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_FAIL</b></dt>
+</dl>
+</td>
+<td width="60%">
+An unspecified error occurred.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>TF_E_INVALIDPOS</b></dt>
+</dl>
+</td>
+<td width="60%">
+The character positions specified are beyond the text in the document.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>TF_E_NOLOCK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The caller does not have a read/write lock.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/21e011f7-6791-4eb9-85c9-18bd10107119">ITextStoreACP</a>
+
+
+
+<a href="https://msdn.microsoft.com/e2052daf-4168-4266-ae8d-a09ecbfeb422">
+        ITextStoreACP::GetSelection
+      </a>
+
+
+
+<a href="https://msdn.microsoft.com/739c87c5-3e9c-41f3-ad79-0b417347604b">TS_SELECTION_ACP
+      </a>
+ 
+
+ 
+

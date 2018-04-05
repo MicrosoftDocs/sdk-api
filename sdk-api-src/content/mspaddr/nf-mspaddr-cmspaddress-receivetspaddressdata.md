@@ -1,0 +1,70 @@
+---
+UID: NF:mspaddr.CMSPAddress.ReceiveTSPAddressData
+title: CMSPAddress::ReceiveTSPAddressData method
+author: windows-driver-content
+description: The ReceiveTSPAddressData method is called when a TSP data message is intended to be processed by the address rather than by a specific call. Your MSP must override this method if it wants to handle any per-address TSP messages.
+old-location: tapi3\cmspaddress_receivetspaddressdata.htm
+old-project: Tapi
+ms.assetid: 56fc4024-bca0-405c-8a15-29ac8e486f80
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: CMSPAddress, CMSPAddress interface [TAPI 2.2], ReceiveTSPAddressData method, CMSPAddress::ReceiveTSPAddressData, ReceiveTSPAddressData method [TAPI 2.2], ReceiveTSPAddressData method [TAPI 2.2], CMSPAddress interface, ReceiveTSPAddressData,CMSPAddress.ReceiveTSPAddressData, _tapi3_cmspaddress_receivetspaddressdata, mspaddr/CMSPAddress::ReceiveTSPAddressData, tapi3.cmspaddress_receivetspaddressdata
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: mspaddr.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: OPC_SIGNATURE_TIME_FORMAT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Mspaddr.h
+api_name:
+-	CMSPAddress.ReceiveTSPAddressData
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 SP2 or later
+---
+
+# CMSPAddress::ReceiveTSPAddressData method
+
+
+## -description
+
+
+The 
+<b>ReceiveTSPAddressData</b> method is called when a TSP data message is intended to be processed by the address rather than by a specific call. Your MSP must override this method if it wants to handle any per-address TSP messages.
+
+
+## -parameters
+
+
+
+
+### -param pBuffer [in, out]
+
+Pointer to buffer.
+
+
+### -param dwSize [out]
+
+Pointer to number of characters in the buffer.
+

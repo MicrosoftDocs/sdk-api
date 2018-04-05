@@ -1,0 +1,159 @@
+---
+UID: NF:ole2.OleRegEnumVerbs
+title: OleRegEnumVerbs function
+author: windows-driver-content
+description: Supplies an enumeration of the registered verbs for the specified class. Developers of custom DLL object applications use this function to emulate the behavior of the default object handler.
+old-location: com\oleregenumverbs.htm
+old-project: com
+ms.assetid: 25cd0876-90b6-4fa3-b180-ffa0c3b51497
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: OleRegEnumVerbs, OleRegEnumVerbs function [COM], _ole_OleRegEnumVerbs, com.oleregenumverbs, ole2/OleRegEnumVerbs
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: ole2.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: QACONTROL
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Ole32.dll
+-	ext-ms-win-com-ole32-l1-1-3.dll
+-	Ext-MS-Win-Com-Ole32-L1-1-4.dll
+api_name:
+-	OleRegEnumVerbs
+product: Windows
+targetos: Windows
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# OleRegEnumVerbs function
+
+
+## -description
+
+
+Supplies an enumeration of the registered verbs for the specified class. Developers of custom DLL object applications use this function to emulate the behavior of the default object handler.
+
+
+## -parameters
+
+
+
+
+### -param clsid [in]
+
+Class identifier whose verbs are being requested.
+
+
+### -param ppenum [out]
+
+Address of <a href="https://msdn.microsoft.com/fc9b3474-6f56-4274-af7d-72e0920c0457">IEnumOLEVERB</a>* pointer variable that receives the interface pointer to the new enumeration object.
+
+
+## -returns
+
+
+
+This function returns S_OK on success. Other possible values include the following.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>OLEOBJ_E_NOVERBS</b></dt>
+</dl>
+</td>
+<td width="60%">
+No verbs are registered for the class.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>REGDB_E_CLASSNOTREG</b></dt>
+</dl>
+</td>
+<td width="60%">
+No CLSID is registered for the class object.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>REGDB_E_READREGDB</b></dt>
+</dl>
+</td>
+<td width="60%">
+An error occurred reading the registry.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>OLE_E_REGDB_KEY</b></dt>
+</dl>
+</td>
+<td width="60%">
+The DataFormats/GetSet key is missing from the registry.
+
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+Object applications can ask OLE to create an enumeration object for <a href="https://msdn.microsoft.com/657e3cc3-67fb-4458-8dad-f2a31df1b631">OLEVERB</a> structures to enumerate supported verbs in one of two ways. One way is to call <b>OleRegEnumVerbs</b>. The other way is to return OLE_S_USEREG in response to calls by the default object handler to <a href="https://msdn.microsoft.com/c67770d0-e478-41dc-9028-1e0a6cb9e3c7">IOleObject::EnumVerbs</a>. OLE_S_USEREG instructs the default handler to call <b>OleRegEnumVerbs</b>. Because DLL object applications cannot return OLE_S_USEREG, they must call <b>OleRegEnumVerbs</b> rather than delegating the job to the object handler. With the supplied <a href="https://msdn.microsoft.com/fc9b3474-6f56-4274-af7d-72e0920c0457">IEnumOLEVERB</a> pointer to the object, you can call the standard enumeration object methods to do the enumeration.
+
+The <b>OleRegEnumVerbs</b> function and its sibling functions, <a href="https://msdn.microsoft.com/492a4084-494e-4d78-8f3a-853ec486a2d6">OleRegGetUserType</a>, <a href="https://msdn.microsoft.com/3166955f-4f7a-4904-a7fb-ebdfb8e56baf">OleRegGetMiscStatus</a>, and <a href="https://msdn.microsoft.com/6caebc68-a136-40f2-92d8-7f8003c18e5c">OleRegEnumFormatEtc</a>, provide a way for developers of custom DLL object applications to emulate the behavior of OLE's default object handler in getting information about objects from the registry. By using these functions, you avoid the considerable work of writing your own, and the pitfalls inherent in working directly in the registry. In addition, you get future enhancements and optimizations of these functions without having to code them yourself.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/fc9b3474-6f56-4274-af7d-72e0920c0457">IEnumOLEVERB</a>
+
+
+
+<a href="https://msdn.microsoft.com/c67770d0-e478-41dc-9028-1e0a6cb9e3c7">IOleObject::EnumVerbs</a>
+ 
+
+ 
+

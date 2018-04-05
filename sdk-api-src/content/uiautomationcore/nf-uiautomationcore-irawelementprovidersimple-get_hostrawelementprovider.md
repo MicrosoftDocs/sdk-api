@@ -1,0 +1,111 @@
+---
+UID: NF:uiautomationcore.IRawElementProviderSimple.get_HostRawElementProvider
+title: IRawElementProviderSimple::get_HostRawElementProvider method
+author: windows-driver-content
+description: Specifies the host provider for this element.
+old-location: winauto\uiauto_IRawElementProviderSimple_HostRawElementProvider.htm
+old-project: WinAuto
+ms.assetid: fcbd3dc8-5bc7-48ae-bc21-009876b3e673
+ms.author: windowsdriverdev
+ms.date: 3/29/2018
+ms.keywords: HostRawElementProvider property [Windows Accessibility], HostRawElementProvider property [Windows Accessibility], IRawElementProviderSimple interface, IRawElementProviderSimple, IRawElementProviderSimple interface [Windows Accessibility], HostRawElementProvider property, IRawElementProviderSimple.HostRawElementProvider, IRawElementProviderSimple::get_HostRawElementProvider, get_HostRawElementProvider,IRawElementProviderSimple.get_HostRawElementProvider, uiauto.uiauto_IRawElementProviderSimple_HostRawElementProvider, uiauto_IRawElementProviderSimple_HostRawElementProvider, uiautomationcore/IRawElementProviderSimple::HostRawElementProvider, uiautomationcore/IRawElementProviderSimple::get_HostRawElementProvider, winauto.uiauto_IRawElementProviderSimple_HostRawElementProvider
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: uiautomationcore.h
+req.include-header: UIAutomation.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: UIAutomationCore.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	UIAutomationCore.h
+api_name:
+-	IRawElementProviderSimple.HostRawElementProvider
+-	IRawElementProviderSimple.get_HostRawElementProvider
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# IRawElementProviderSimple::get_HostRawElementProvider method
+
+
+## -description
+
+
+Specifies the host provider for this element.
+
+This property is read-only.
+
+
+## -parameters
+
+
+## -remarks
+
+
+
+This property is generally the Microsoft UI Automation provider for the window of a custom control.
+			UI Automation uses this provider in combination with the custom provider. For example, the runtime identifier 
+			of the element is usually obtained from the host provider.
+
+A host provider must be returned in the following cases: when the element is a fragment root, 
+			when the element is a simple element (such as a push button), and when the provider is a repositioning placeholder (for more information, see <a href="uiauto_ServerSideProvider.htm">Provider Repositioning</a>). 
+			 In other cases, the property should be <b>NULL</b>.
+
+
+#### Examples
+
+The following example returns the host provider for the window that hosts the control served by 
+            this provider.
+			
+
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT STDMETHODCALLTYPE Provider::get_HostRawElementProvider(IRawElementProviderSimple** pRetVal)
+{
+    return UiaHostProviderFromHwnd(controlHWnd, pRetVal); 
+}
+            </pre>
+</td>
+</tr>
+</table></span></div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/f0ec6185-acd0-4df7-88f4-fd00747f98bf">IRawElementProviderSimple</a>
+
+
+
+<a href="https://msdn.microsoft.com/8cc8a8d8-a4e0-477e-bf3b-2fd5df2b9db1">UiaHostProviderFromHwnd</a>
+ 
+
+ 
+

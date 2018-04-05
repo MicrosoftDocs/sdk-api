@@ -1,0 +1,95 @@
+---
+UID: NF:audioengineendpoint.IAudioOutputEndpointRT.PulseEndpoint
+title: IAudioOutputEndpointRT::PulseEndpoint method
+author: windows-driver-content
+description: Is reserved.
+old-location: termserv\iaudiooutputendpointrt_pulseendpoint.htm
+old-project: TermServ
+ms.assetid: 8ab117d6-5b13-4420-9cf2-865ff2011806
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: IAudioOutputEndpointRT, IAudioOutputEndpointRT interface [Remote Desktop Services], PulseEndpoint method, IAudioOutputEndpointRT::PulseEndpoint, PulseEndpoint method [Remote Desktop Services], PulseEndpoint method [Remote Desktop Services], IAudioOutputEndpointRT interface, PulseEndpoint,IAudioOutputEndpointRT.PulseEndpoint, audioengineendpoint/IAudioOutputEndpointRT::PulseEndpoint, termserv.iaudiooutputendpointrt_pulseendpoint
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: audioengineendpoint.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7
+req.target-min-winversvr: Windows Server 2008 R2
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: AE_POSITION_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Audioengineendpoint.h
+api_name:
+-	IAudioOutputEndpointRT.PulseEndpoint
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# IAudioOutputEndpointRT::PulseEndpoint method
+
+
+## -description
+
+
+
+        The <b>PulseEndpoint</b> method is  reserved.
+
+This method is called by the audio engine at the end of a processing pass. The event handle is set by calling the <a href="https://msdn.microsoft.com/9f0f216a-d785-42e9-b07d-f1f2568b5833">IAudioEndpoint::SetEventHandle</a> method.
+
+
+## -parameters
+
+
+
+
+
+
+## -returns
+
+
+
+This method does not return a value.
+
+
+
+
+## -remarks
+
+
+
+This method can be called from a real-time processing thread. The
+    implementation of this method must not block, access paged memory, or call any blocking system routines.
+
+The Remote Desktop Services AudioEndpoint API is for use in Remote Desktop scenarios; it is not for client applications.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/b881b2f9-ffe9-46ff-94aa-eef0af172a3e">IAudioOutputEndpointRT</a>
+ 
+
+ 
+

@@ -1,0 +1,80 @@
+---
+UID: NF:wuapi.IDownloadJob.get_AsyncState
+title: IDownloadJob::get_AsyncState method
+author: windows-driver-content
+description: Gets the caller-specific state object that is passed to the IUpdateDownloader.BeginDownload method.
+old-location: wua\idownloadjob_asyncstate.htm
+old-project: Wua_Sdk
+ms.assetid: 47d2af4a-c04f-4413-ad29-3b8cb1292539
+ms.author: windowsdriverdev
+ms.date: 3/15/2018
+ms.keywords: AsyncState property [Windows Update Agent], AsyncState property [Windows Update Agent], IDownloadJob interface, IDownloadJob, IDownloadJob interface [Windows Update Agent], AsyncState property, IDownloadJob.AsyncState, IDownloadJob::get_AsyncState, get_AsyncState,IDownloadJob.get_AsyncState, wua.idownloadjob_asyncstate, wuapi/IDownloadJob::AsyncState, wuapi/IDownloadJob::get_AsyncState
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wuapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Wuapi.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: UpdateType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wuapi.dll
+api_name:
+-	IDownloadJob.AsyncState
+-	IDownloadJob.get_AsyncState
+product: Windows
+targetos: Windows
+req.lib: Wuguid.lib
+req.dll: Wuapi.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IDownloadJob::get_AsyncState method
+
+
+## -description
+
+
+Gets  the caller-specific state object that is passed to the <a href="https://msdn.microsoft.com/9a953240-3d8e-4876-92a9-cc7efca62780">IUpdateDownloader.BeginDownload</a> method.
+
+This property is read-only.
+
+
+## -parameters
+
+
+## -remarks
+
+
+
+This state object can be used by the caller to identify a particular download. Or, this state object can be used by the caller to pass information from the caller to the implementation of the <a href="https://msdn.microsoft.com/8fc414da-835c-438f-b607-8a273e7f9064">IDownloadProgressChangedCallback</a>  or <a href="https://msdn.microsoft.com/ad1c3075-21d9-409f-9677-fbf6d0c50313">IDownloadCompletedCallback</a> interface.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/0157acab-53b6-43f9-a358-81cd5108c531">IDownloadJob</a>
+ 
+
+ 
+

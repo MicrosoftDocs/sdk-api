@@ -1,0 +1,102 @@
+---
+UID: NF:imapi.IDiscMaster.SetActiveDiscRecorder
+title: IDiscMaster::SetActiveDiscRecorder method
+author: windows-driver-content
+description: Selects an active disc recorder. The active disc recorder is the recorder where a burn will occur when RecordDisc is called.
+old-location: imapi\idiscmaster_setactivediscrecorder.htm
+old-project: imapi
+ms.assetid: 5f2e9135-d251-4702-b5d1-51d9b445a4f5
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: IDiscMaster, IDiscMaster interface [IMAPI], SetActiveDiscRecorder method, IDiscMaster::SetActiveDiscRecorder, SetActiveDiscRecorder method [IMAPI], SetActiveDiscRecorder method [IMAPI], IDiscMaster interface, SetActiveDiscRecorder,IDiscMaster.SetActiveDiscRecorder, _win32_idiscmaster_setactivediscrecorder, base.idiscmaster_setactivediscrecorder, imapi.idiscmaster_setactivediscrecorder, imapi/IDiscMaster::SetActiveDiscRecorder
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: imapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: AM_LINE21_DRAWBGMODE, *PAM_LINE21_DRAWBGMODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Actxprxy.dll
+api_name:
+-	IDiscMaster.SetActiveDiscRecorder
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Actxprxy.dll
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IDiscMaster::SetActiveDiscRecorder method
+
+
+## -description
+
+
+Selects an active disc recorder. The active disc recorder is the recorder where a burn will occur when 
+<a href="https://msdn.microsoft.com/2b234dc5-2409-49d8-83be-0ffea74f5bcf">RecordDisc</a> is called.
+
+
+## -parameters
+
+
+
+
+### -param pRecorder [in]
+
+Pointer to the 
+<a href="https://msdn.microsoft.com/fc861cbb-a14e-499e-8b80-f5912e4f6076">IDiscRecorder</a> interface of a disc recorder object. This pointer should have been returned by a previous call to 
+<a href="https://msdn.microsoft.com/03daab81-11cf-4100-ab5e-3442a5972912">EnumDiscRecorders</a>.
+
+
+## -returns
+
+
+
+S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
+
+
+
+
+## -remarks
+
+
+
+<b>SetActiveDiscRecorder</b> must be called after the media to be used has been inserted, and before calling 
+<a href="https://msdn.microsoft.com/91517103-71c5-450c-9d93-584f94cd2c45">IJolietDiscMaster::AddData</a>.
+
+Selecting a recorder while in an active Joliet format will cause IMAPI to read information from the currently installed recorder disc. If this disc is a previous IMAPI Joliet disc and has space for another session, IMAPI automatically sets itself to multi-session mode. This disc must be in the active recorder when 
+<a href="https://msdn.microsoft.com/2b234dc5-2409-49d8-83be-0ffea74f5bcf">RecordDisc</a> is called.
+
+The <b>MaxWriteSpeed</b> property is updated when this method is called. The default setting is the highest write speed.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/1473e79e-a13a-4bc5-b80d-d8921fdc9952">IDiscMaster</a>
+ 
+
+ 
+

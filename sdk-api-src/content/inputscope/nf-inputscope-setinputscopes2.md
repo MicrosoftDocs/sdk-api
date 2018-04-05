@@ -1,0 +1,121 @@
+---
+UID: NF:inputscope.SetInputScopes2
+title: SetInputScopes2 function
+author: windows-driver-content
+description: The application must call SetInputScope with IS_DEFAULT before a window is destroyed to clear the reference of the interface.
+old-location: tsf\SetInputScopes2.htm
+old-project: TSF
+ms.assetid: 0b3e0e98-412f-4c6f-aa06-a7f17f8869ac
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: SetInputScopes2, SetInputScopes2 function [Text Services Framework], inputscope/SetInputScopes2, tsf.SetInputScopes2
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: inputscope.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: InputScope
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	msctf.dll
+api_name:
+-	SetInputScopes2
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# SetInputScopes2 function
+
+
+## -description
+
+
+The application must call <a href="https://msdn.microsoft.com/4098525c-8d29-419a-9484-9e70420416bc">SetInputScope</a> with IS_DEFAULT before a window is destroyed to clear the reference of the interface.
+
+
+## -parameters
+
+
+
+
+### -param hwnd [in]
+
+The window to set the scope on. This call will replace whatever scope may have been on the hwnd before.
+
+
+### -param pInputScopes [in]
+
+Pointer to an array of input scopes. May be <b>NULL</b>. If not <b>NULL</b>, all of the scopes contained within will be set as the input scope of the hwnd with equal weighting. Use IS_DEFAULT to accept all other input as well (this is the "don’t coerce" option).
+
+
+### -param cInputScopes [in]
+
+A count of the number of input scopes in <i>pInputScopes</i>. Must be zero if rgScopes is <b>NULL</b>, must be nonzero if <i>pInputScopes</i> is non-<b>NULL</b>.
+
+
+### -param pEnumString [in]
+
+IenumString interface pointer of the phrase list.
+
+
+### -param pszRegExp [in]
+
+Pointer to a <b>NULL</b>-terminated string describing the regular expression to be recognized. May be <b>NULL</b>.
+
+
+### -param pszSRGS [in]
+
+Pointer to a <b>NULL</b>-terminated XML string that provides speech-specific hints and rules to aid in speech recognition. The XML format conforms to the Speech Recognition Grammar Specification (SRGS) standard, outlined at <a href="http://go.microsoft.com/fwlink/p/?linkid=161740">http://www.w3.org/TR/speech-grammar</a>. Can be <b>NULL</b>. $
+
+
+## -returns
+
+
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td>S_OK</td>
+<td>The input scope set or cleared successfully.</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+The application must call <a href="https://msdn.microsoft.com/4098525c-8d29-419a-9484-9e70420416bc">SetInputScope</a> with IS_DEFAULT before a window is destroyed to clear the reference of the interface.
+
+If you call this method on a window (<i>hwnd</i> parameter) that has 
+not been associated with a Document Manager, then no text service notifications are sent to interested clients (such as the touch keyboard) that may want to respond to the 
+scope change.
+
+
+

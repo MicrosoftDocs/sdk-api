@@ -1,0 +1,132 @@
+---
+UID: NF:ehstorapi.IEnhancedStorageSiloAction.GetDescription
+title: IEnhancedStorageSiloAction::GetDescription method
+author: windows-driver-content
+description: Returns a descriptive string for the action specified by the IEnhancedStorageSiloAction object.
+old-location: enstor\ienhancedstoragesiloaction_getdescription.htm
+old-project: enstor
+ms.assetid: 1eb94182-520e-40a6-87e6-6ead2ab2e188
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: GetDescription method [Enhanced Storage], GetDescription method [Enhanced Storage], IEnhancedStorageSiloAction interface, GetDescription,IEnhancedStorageSiloAction.GetDescription, IEnhancedStorageSiloAction, IEnhancedStorageSiloAction interface [Enhanced Storage], GetDescription method, IEnhancedStorageSiloAction::GetDescription, ehstorapi/IEnhancedStorageSiloAction::GetDescription, enstor.ienhancedstoragesiloaction_getdescription
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: ehstorapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: EhStorAPI.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: TimedLevel
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	EhStorAPI.h
+api_name:
+-	IEnhancedStorageSiloAction.GetDescription
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
+---
+
+# IEnhancedStorageSiloAction::GetDescription method
+
+
+## -description
+
+
+Returns a descriptive string for the action specified by the <a href="https://msdn.microsoft.com/6deb7e22-f153-45fd-98ea-53a2e5692df7">IEnhancedStorageSiloAction</a> object.
+
+
+## -parameters
+
+
+
+
+### -param ppwszActionDescription
+
+
+
+
+
+
+#### - ppwszDescription [out]
+
+Pointer to a string that describes the silo action.
+
+
+## -returns
+
+
+
+This method can return one of these values.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The descriptive string was retrieved successfully.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+The <i>ppwszDescription</i> parameter is <b>NULL</b>.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+The description string is brief, consisting of one or two short sentences, and is suitable for display in a UI element such as tooltip or small static text box.
+
+When the caller no longer requires access to the string, this buffer must be freed by passing this pointer to <a href="http://go.microsoft.com/fwlink/p/?linkid=134839">CoTaskMemFree</a>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/6deb7e22-f153-45fd-98ea-53a2e5692df7">IEnhancedStorageSiloAction</a>
+ 
+
+ 
+

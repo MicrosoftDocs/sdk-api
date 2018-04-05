@@ -1,0 +1,97 @@
+---
+UID: NF:shobjidl.IFileDialog2.SetCancelButtonLabel
+title: IFileDialog2::SetCancelButtonLabel method
+author: windows-driver-content
+description: Replaces the default text &#0034;Cancel&#0034; on the common file dialog's Cancel button.
+old-location: shell\IFileDialog2_SetCancelButtonLabel.htm
+old-project: shell
+ms.assetid: a0d7b516-1941-4245-8ca6-f470b8c426aa
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: IFileDialog2, IFileDialog2 interface [Windows Shell], SetCancelButtonLabel method, IFileDialog2::SetCancelButtonLabel, SetCancelButtonLabel method [Windows Shell], SetCancelButtonLabel method [Windows Shell], IFileDialog2 interface, SetCancelButtonLabel,IFileDialog2.SetCancelButtonLabel, _shell_IFileDialog2_SetCancelButtonLabel, shell.IFileDialog2_SetCancelButtonLabel, shobjidl/IFileDialog2::SetCancelButtonLabel
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: shobjidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Shobjidl.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: VPWATERMARKFLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Comdlg32.dll
+api_name:
+-	IFileDialog2.SetCancelButtonLabel
+product: Windows
+targetos: Windows
+req.lib: Comdlg32.lib
+req.dll: Comdlg32.dll (version 6.1 or later)
+req.irql: 
+req.product: Internet Explorer 6.01
+---
+
+# IFileDialog2::SetCancelButtonLabel method
+
+
+## -description
+
+
+Replaces the default text "Cancel" on the common file dialog's <b>Cancel</b> button.
+
+
+## -parameters
+
+
+
+
+### -param pszLabel [in]
+
+Type: <b>LPCWSTR</b>
+
+Pointer to a string that contains the new text to display on the button.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+Changing the text on the Cancel button can be useful for situations where the IFileDialogEvents::OnFileOk method is used to accumulate items, and the button text should be Done instead of Cancel, for example.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/be67a020-285d-4c1e-a8b5-8e1e90fae594">IFileDialog2</a>
+ 
+
+ 
+

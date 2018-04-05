@@ -1,0 +1,83 @@
+---
+UID: NF:certenroll.IX509EndorsementKey.ExportPublicKey
+title: IX509EndorsementKey::ExportPublicKey method
+author: windows-driver-content
+description: Exports the endorsement public key.
+old-location: security\ix509endorsementkey_exportpublickey.htm
+old-project: SecCertEnroll
+ms.assetid: b38c6421-2918-4d0e-81ed-d9d575817efa
+ms.author: windowsdriverdev
+ms.date: 3/29/2018
+ms.keywords: ExportPublicKey method [Security], ExportPublicKey method [Security], IX509EndorsementKey interface, ExportPublicKey,IX509EndorsementKey.ExportPublicKey, IX509EndorsementKey, IX509EndorsementKey interface [Security], ExportPublicKey method, IX509EndorsementKey::ExportPublicKey, certenroll/IX509EndorsementKey::ExportPublicKey, security.ix509endorsementkey_exportpublickey
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: certenroll.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Certenroll.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: X509RequestType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Certenroll.dll
+api_name:
+-	IX509EndorsementKey.ExportPublicKey
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Certenroll.dll
+req.irql: 
+---
+
+# IX509EndorsementKey::ExportPublicKey method
+
+
+## -description
+
+
+Exports the endorsement public key. You can only call the <b>ExportPublicKey</b> method after the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451153">Open</a> method has been successfully called.
+
+
+## -parameters
+
+
+
+
+### -param ppPublicKey [out, retval]
+
+The exported endorsement public key.
+
+
+## -returns
+
+
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/24f063a7-02e3-47cf-89ca-ebc63bf3e2dc">IX509EndorsementKey</a>
+ 
+
+ 
+

@@ -1,0 +1,129 @@
+---
+UID: NF:amstream.IMediaStreamFilter.AddMediaStream
+title: IMediaStreamFilter::AddMediaStream method
+author: windows-driver-content
+description: Note  This interface is deprecated. New applications should not use it. The AddMediaStream method connects a media stream object to the underlying filter graph.
+old-location: dshow\imediastreamfilter_addmediastream.htm
+old-project: DirectShow
+ms.assetid: 0e4fdc28-3117-4b9d-a914-ddb70aa5125d
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: AddMediaStream method [DirectShow], AddMediaStream method [DirectShow], IMediaStreamFilter interface, AddMediaStream,IMediaStreamFilter.AddMediaStream, IMediaStreamFilter, IMediaStreamFilter interface [DirectShow], AddMediaStream method, IMediaStreamFilter::AddMediaStream, IMediaStreamFilterAddMediaStream, amstream/IMediaStreamFilter::AddMediaStream, dshow.imediastreamfilter_addmediastream
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: amstream.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: AMSI_RESULT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	amstream.h
+api_name:
+-	IMediaStreamFilter.AddMediaStream
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# IMediaStreamFilter::AddMediaStream method
+
+
+## -description
+
+
+
+<div class="alert"><b>Note</b>  This interface is deprecated. New applications should not use it.</div>
+<div> </div>
+The <code>AddMediaStream</code> method connects a media stream object to the underlying filter graph.
+
+
+
+
+## -parameters
+
+
+
+
+### -param pAMMediaStream [in]
+
+Pointer to the media stream object's <a href="https://msdn.microsoft.com/14185e7d-d08d-4fd8-a255-075eaf12a708">IAMMediaStream</a> interface.
+
+
+## -returns
+
+
+
+Returns an <b>HRESULT</b> value. Possible values include the following.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_OUTOFMEMORY</b></dt>
+</dl>
+</td>
+<td width="60%">
+Insufficient memory
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>MS_E_PURPOSEID</b></dt>
+</dl>
+</td>
+<td width="60%">
+Duplicate purpose ID
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+Success
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/1ac4976b-7088-47ac-9689-58c143746f05">IMediaStreamFilter Interface</a>
+ 
+
+ 
+

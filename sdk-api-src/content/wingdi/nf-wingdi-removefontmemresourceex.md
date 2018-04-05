@@ -1,0 +1,118 @@
+---
+UID: NF:wingdi.RemoveFontMemResourceEx
+title: RemoveFontMemResourceEx function
+author: windows-driver-content
+description: The RemoveFontMemResourceEx function removes the fonts added from a memory image file.
+old-location: gdi\removefontmemresourceex.htm
+old-project: gdi
+ms.assetid: b73c3f1d-c508-418c-a5a2-105a35ec3a9b
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: RemoveFontMemResourceEx, RemoveFontMemResourceEx function [Windows GDI], _win32_RemoveFontMemResourceEx, gdi.removefontmemresourceex, wingdi/RemoveFontMemResourceEx
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: wingdi.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: FAX_TIME, *PFAX_TIME
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	gdi32.dll
+-	Ext-MS-Win-GDI-Font-l1-1-1.dll
+-	ext-ms-win-gdi-font-l1-1-2.dll
+-	Ext-MS-Win-GDI-Font-L1-1-3.dll
+-	GDI32Full.dll
+api_name:
+-	RemoveFontMemResourceEx
+product: Windows
+targetos: Windows
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# RemoveFontMemResourceEx function
+
+
+## -description
+
+
+The <b>RemoveFontMemResourceEx</b> function removes the fonts added from a memory image file.
+
+
+## -parameters
+
+
+
+
+### -param h
+
+TBD
+
+
+
+
+#### - fh [in]
+
+A handle to the font-resource. This handle is returned by the <a href="https://msdn.microsoft.com/ad5153ba-fa9d-4a07-9be3-a07b524c1539">AddFontMemResourceEx</a> function.
+
+
+## -returns
+
+
+
+If the function succeeds, the return value is nonzero.
+
+If the function fails, the return value is zero. No extended error information is available.
+
+
+
+
+## -remarks
+
+
+
+This function removes a font that was added by the <a href="https://msdn.microsoft.com/ad5153ba-fa9d-4a07-9be3-a07b524c1539">AddFontMemResourceEx</a> function. To remove the font, specify the same path and flags as were used in <b>AddFontMemResourceEx</b>. This function will only remove the font that is specified by <i>fh</i>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/ad5153ba-fa9d-4a07-9be3-a07b524c1539">AddFontMemResourceEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/69c04ed7-52da-4cb6-9fd2-f2a8c044df8b">Font and Text Functions</a>
+
+
+
+<a href="https://msdn.microsoft.com/9944baa9-8e50-40b9-9650-78b0b1d7643a">Fonts and Text Overview</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj151552">SendMessage</a>
+ 
+
+ 
+

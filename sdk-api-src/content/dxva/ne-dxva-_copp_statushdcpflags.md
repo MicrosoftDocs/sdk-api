@@ -1,0 +1,91 @@
+---
+UID: NE:dxva._COPP_StatusHDCPFlags
+title: "_COPP_StatusHDCPFlags"
+author: windows-driver-content
+description: Contains HDCP status flags. This enumeration is used in the DXVA_COPPStatusHDCPKeyData structure.
+old-location: dshow\copp_statushdcpflags.htm
+old-project: DirectShow
+ms.assetid: 40ad7f00-9b4f-4c2d-8c6b-05725a072bfc
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: COPP_HDCPFlagsReserved, COPP_HDCPRepeater, COPP_StatusHDCPFlags, COPP_StatusHDCPFlags enumeration [DirectShow], COPP_StatusHDCPFlagsEnumeration, _COPP_StatusHDCPFlags, dshow.copp_statushdcpflags, dxva9typ/COPP_HDCPFlagsReserved, dxva9typ/COPP_HDCPRepeater, dxva9typ/COPP_StatusHDCPFlags
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: enum
+req.header: dxva.h
+req.include-header: Dxva.h
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: COPP_StatusHDCPFlags
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	dxva9typ.h
+api_name:
+-	COPP_StatusHDCPFlags
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
+---
+
+# _COPP_StatusHDCPFlags enumeration
+
+
+## -description
+
+
+
+Contains HDCP status flags. This enumeration is used in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563896">DXVA_COPPStatusHDCPKeyData</a> structure.
+
+
+
+
+## -enum-fields
+
+
+
+
+### -field COPP_HDCPRepeater
+
+
+            The device is an HDCP repeater.
+          
+
+
+### -field COPP_HDCPFlagsReserved
+
+
+            Reserved. Must be zero.
+          
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/74467006-b077-49c0-8573-f939ac3d3444">DirectShow Enumerated Types</a>
+
+
+
+<a href="https://msdn.microsoft.com/23eebe93-416b-48c8-a05f-019e38b9a660">Using Certified Output Protection Protocol (COPP)</a>
+ 
+
+ 
+

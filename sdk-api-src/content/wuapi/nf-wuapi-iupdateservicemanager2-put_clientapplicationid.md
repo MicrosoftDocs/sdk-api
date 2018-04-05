@@ -1,0 +1,81 @@
+---
+UID: NF:wuapi.IUpdateServiceManager2.put_ClientApplicationID
+title: IUpdateServiceManager2::put_ClientApplicationID method
+author: windows-driver-content
+description: Gets and sets the identifier of the current client application.
+old-location: wua\iupdateservicemanager2_clientapplicationid.htm
+old-project: Wua_Sdk
+ms.assetid: 6783b7fc-ebb7-4b68-b71c-23e65ef61504
+ms.author: windowsdriverdev
+ms.date: 3/15/2018
+ms.keywords: ClientApplicationID property [Windows Update Agent], ClientApplicationID property [Windows Update Agent], IUpdateServiceManager2 interface, IUpdateServiceManager2, IUpdateServiceManager2 interface [Windows Update Agent], ClientApplicationID property, IUpdateServiceManager2.ClientApplicationID, IUpdateServiceManager2::get_ClientApplicationID, IUpdateServiceManager2::put_ClientApplicationID, put_ClientApplicationID,IUpdateServiceManager2.put_ClientApplicationID, wua.iupdateservicemanager2_clientapplicationid, wuapi/IUpdateServiceManager2::ClientApplicationID, wuapi/IUpdateServiceManager2::get_ClientApplicationID, wuapi/IUpdateServiceManager2::put_ClientApplicationID
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wuapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Wuapi.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: UpdateType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wuapi.dll
+api_name:
+-	IUpdateServiceManager2.ClientApplicationID
+-	IUpdateServiceManager2.get_ClientApplicationID
+-	IUpdateServiceManager2.put_ClientApplicationID
+product: Windows
+targetos: Windows
+req.lib: Wuguid.lib
+req.dll: Wuapi.dll
+req.irql: 
+req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+---
+
+# IUpdateServiceManager2::put_ClientApplicationID method
+
+
+## -description
+
+
+Gets and sets the identifier of the current client application.
+
+This property is read/write.
+
+
+## -parameters
+
+
+## -remarks
+
+
+
+Returns the Unknown value if the client application has not set the property.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/26b75edc-eb43-4ee0-8040-da8b3252cf21">IUpdateServiceManager2</a>
+ 
+
+ 
+

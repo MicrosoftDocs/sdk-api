@@ -1,0 +1,182 @@
+---
+UID: NF:tapi3.ITAgentHandler.CreateAgentWithID
+title: ITAgentHandler::CreateAgentWithID method
+author: windows-driver-content
+description: The CreateAgentWithID method creates an Agent object based on an agent identifier.
+old-location: tapi3\itagenthandler_createagentwithid.htm
+old-project: Tapi
+ms.assetid: 95c70e48-b990-47c7-a8b8-5fa3a84ec5ba
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: CreateAgentWithID method [TAPI 2.2], CreateAgentWithID method [TAPI 2.2], ITAgentHandler interface, CreateAgentWithID,ITAgentHandler.CreateAgentWithID, ITAgentHandler, ITAgentHandler interface [TAPI 2.2], CreateAgentWithID method, ITAgentHandler::CreateAgentWithID, _tapi3_itagenthandler_createagentwithid, tapi3.itagenthandler_createagentwithid, tapi3cc/ITAgentHandler::CreateAgentWithID
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: tapi3.h
+req.include-header: Tapi3.h
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MSP_EVENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Tapi3.dll
+api_name:
+-	ITAgentHandler.CreateAgentWithID
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# ITAgentHandler::CreateAgentWithID method
+
+
+## -description
+
+
+The 
+<b>CreateAgentWithID</b> method creates an Agent object based on an agent identifier. This identifier is a string identifying the agent on a legacy ACD system. If the system also requires a PIN or password for logging into groups, you use this method to set the PIN or password.
+
+
+## -parameters
+
+
+
+
+### -param pID [in]
+
+Pointer to <b>BSTR</b> containing the agent identifier.
+
+
+### -param pPIN [in]
+
+Pointer to <b>BSTR</b> containing the agent PIN.
+
+
+### -param ppAgent [out]
+
+Pointer to 
+<a href="https://msdn.microsoft.com/6c1409c9-da73-4d21-bf56-07e9ab7b33a0">ITAgent</a> interface.
+
+
+## -returns
+
+
+
+This method can return one of these values.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+Method succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+The <i>pPIN</i> parameter is <b>NULL</b>.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_POINTER</b></dt>
+</dl>
+</td>
+<td width="60%">
+The <i>ppAgent</i> parameter is not a valid pointer.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_OUTOFMEMORY</b></dt>
+</dl>
+</td>
+<td width="60%">
+Insufficient memory exists to perform the operation.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>TAPI_E_TIMEOUT</b></dt>
+</dl>
+</td>
+<td width="60%">
+The operation failed because the TAPI 3 DLL timed it out. The timeout interval is two minutes.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+The application must use 
+<a href="9e0437a2-9b4a-4576-88b0-5cb9d08ca29b">SysAllocString</a> to allocate memory for the <i>pID</i> and <i>pPIN</i> parameters, and use 
+<a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> to free the memory when the variables are no longer needed.
+
+TAPI calls the <b>AddRef</b> method on the 
+<a href="https://msdn.microsoft.com/6c1409c9-da73-4d21-bf56-07e9ab7b33a0">ITAgent</a> interface returned by <b>ITAgentHandler::CreateAgentWithID</b>. The application must call <b>Release</b> on the 
+<b>ITAgent</b> interface to free resources associated with it.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/f3242013-59a6-40f9-9bb1-0bc30f27311c">CreateAgent</a>
+
+
+
+<a href="https://msdn.microsoft.com/6c1409c9-da73-4d21-bf56-07e9ab7b33a0">ITAgent</a>
+
+
+
+<a href="https://msdn.microsoft.com/11861d77-39ad-4d85-bf68-ba0f4321ba7c">ITAgentHandler</a>
+ 
+
+ 
+

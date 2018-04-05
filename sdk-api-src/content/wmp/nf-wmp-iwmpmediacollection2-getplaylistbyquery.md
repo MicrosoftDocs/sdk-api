@@ -1,0 +1,151 @@
+---
+UID: NF:wmp.IWMPMediaCollection2.getPlaylistByQuery
+title: IWMPMediaCollection2::getPlaylistByQuery method
+author: windows-driver-content
+description: The getPlaylistByQuery method retrieves a pointer to an IWMPPlaylist interface. This interface represents a playlist that contains media items that match the query conditions.
+old-location: wmp\iwmpmediacollection2_getplaylistbyquery.htm
+old-project: WMP
+ms.assetid: b3d4586b-c999-447c-b974-15bd0ef160a6
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: IWMPMediaCollection2, IWMPMediaCollection2 interface [Windows Media Player], getPlaylistByQuery method, IWMPMediaCollection2::getPlaylistByQuery, IWMPMediaCollection2getPlaylistByQuery, getPlaylistByQuery method [Windows Media Player], getPlaylistByQuery method [Windows Media Player], IWMPMediaCollection2 interface, getPlaylistByQuery,IWMPMediaCollection2.getPlaylistByQuery, wmp.iwmpmediacollection2_getplaylistbyquery, wmp/IWMPMediaCollection2::getPlaylistByQuery
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wmp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Media Player 11.
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WMPSyncState
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	wmp.dll
+api_name:
+-	IWMPMediaCollection2.getPlaylistByQuery
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IWMPMediaCollection2::getPlaylistByQuery method
+
+
+## -description
+
+
+
+The <b>getPlaylistByQuery</b> method retrieves a pointer to an <b>IWMPPlaylist</b> interface. This interface represents a playlist that contains media items that match the query conditions.
+
+
+
+
+## -parameters
+
+
+
+
+### -param pQuery [in]
+
+Pointer to the <b>IWMPQuery</b> interface that represents the query.
+
+
+### -param bstrMediaType [in]
+
+String that contains the media type. Must contain one of the following values: "audio", "video", "photo", "playlist", or "other".
+
+
+### -param bstrSortAttribute [in]
+
+String that contains the attribute name used for sorting. An empty string means that no sorting is applied.
+
+
+### -param fSortAscending [in]
+
+<b>VARIANT_BOOL</b> that indicates whether the playlist must be sorted in ascending order.
+
+
+### -param ppPlaylist [out]
+
+Address of a variable that receives a pointer to an <b>IWMPPlaylist</b> interface for the retrieved playlist.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+Compound queries using <b>IWMPQuery</b> are not case sensitive.
+
+When the compound query specified by the <i>pQuery</i> parameter contains a condition built on the <b>MediaType</b> attribute, that condition is ignored. The value for the <i>bstrMediaType</i> parameter is always used. For example, if the compound query contains the condition "MediaType Equals audio" and the value for the <i>bstrMediaType</i> parameter is "video", the resulting playlist will contain only video items.
+
+<b>Windows Media Player 10 Mobile:</b> This method is not supported.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/576e231e-542a-495c-ad1b-a246339c3cb1">IWMPMediaCollection2 Interface</a>
+
+
+
+<a href="https://msdn.microsoft.com/04b6d6bc-a3fe-4b3f-b348-0f6b9f6e77a9">IWMPPlaylist Interface</a>
+
+
+
+<a href="https://msdn.microsoft.com/f1f3c46f-4756-49b4-ad4f-a9097ff787f8">IWMPQuery Interface</a>
+
+
+
+<a href="https://msdn.microsoft.com/0d8a6937-32d8-4a4a-87e5-0002f077fefe">MediaType Attribute</a>
+ 
+
+ 
+

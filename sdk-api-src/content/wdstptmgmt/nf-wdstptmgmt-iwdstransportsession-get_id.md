@@ -1,0 +1,71 @@
+---
+UID: NF:wdstptmgmt.IWdsTransportSession.get_Id
+title: IWdsTransportSession::get_Id method
+author: windows-driver-content
+description: Receives a unique session ID that identifies this session on the server.
+old-location: wds\iwdstransportsession_id.htm
+old-project: Wds
+ms.assetid: 78d2832f-706e-4d4e-90f5-762026ef69ae
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: IWdsTransportSession, IWdsTransportSession interface [Windows Deployment Services], Id property, IWdsTransportSession.Id, IWdsTransportSession::get_Id, Id property [Windows Deployment Services], Id property [Windows Deployment Services], IWdsTransportSession interface, get_Id,IWdsTransportSession.get_Id, wds.iwdstransportsession_id, wdstptmgmt/IWdsTransportSession::Id, wdstptmgmt/IWdsTransportSession::get_Id
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wdstptmgmt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: Wdstptmgmt.tlb
+req.typenames: WDSTRANSPORT_TFTP_CAPABILITY, *PWDSTRANSPORT_TFTP_CAPABILITY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wdstptmgmt.dll
+api_name:
+-	IWdsTransportSession.Id
+-	IWdsTransportSession.get_Id
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Wdstptmgmt.dll
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# IWdsTransportSession::get_Id method
+
+
+## -description
+
+
+Receives a unique session ID that identifies this session on the server. The WDS transport server assigns a unique ID to each session that transmits information on the server.
+
+This property is read-only.
+
+
+## -parameters
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/acf417ea-2396-4178-84e5-6d6b495476f8">IWdsTransportSession</a>
+ 
+
+ 
+

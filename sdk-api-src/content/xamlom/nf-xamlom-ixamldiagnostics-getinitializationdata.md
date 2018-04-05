@@ -1,0 +1,84 @@
+---
+UID: NF:xamlom.IXamlDiagnostics.GetInitializationData
+title: IXamlDiagnostics::GetInitializationData method
+author: windows-driver-content
+description: Gets the initialization data passed in to XAML Diagnostics.
+old-location: xaml_diagnostics\ixamldiagnostics_getinitializationdata.htm
+old-project: xaml_diagnostics
+ms.assetid: D38409DC-7FB9-428D-B491-E2B5213224CF
+ms.author: windowsdriverdev
+ms.date: 3/19/2018
+ms.keywords: GetInitializationData method, GetInitializationData method, IXamlDiagnostics interface, GetInitializationData,IXamlDiagnostics.GetInitializationData, IXamlDiagnostics, IXamlDiagnostics interface, GetInitializationData method, IXamlDiagnostics::GetInitializationData, xaml_diagnostics.ixamldiagnostics_getinitializationdata, xamlom/IXamlDiagnostics::GetInitializationData
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: xamlom.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: XamlOM.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: VisualMutationType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	xamlom.h
+api_name:
+-	IXamlDiagnostics.GetInitializationData
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+---
+
+# IXamlDiagnostics::GetInitializationData method
+
+
+## -description
+
+
+Gets the initialization data passed in to XAML Diagnostics.
+
+
+## -parameters
+
+
+
+
+### -param pInitializationData [out, retval]
+
+The initialization data.
+
+
+## -returns
+
+
+
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/1BCE3EC3-8B48-4F16-8E91-78776C07F309">IXamlDiagnostics</a>
+ 
+
+ 
+

@@ -1,0 +1,112 @@
+---
+UID: NF:winnls.GetUserGeoID
+title: GetUserGeoID function
+author: windows-driver-content
+description: Retrieves information about the geographical location of the user. For more information, see Table of Geographical Locations.
+old-location: intl\getusergeoid.htm
+old-project: Intl
+ms.assetid: 9d4d196d-4000-4866-a4c7-e7b9cb669c6f
+ms.author: windowsdriverdev
+ms.date: 3/23/2018
+ms.keywords: GetUserGeoID, GetUserGeoID function [Internationalization for Windows Applications], _win32_GetUserGeoID, intl.getusergeoid, winnls/GetUserGeoID
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: winnls.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: NORM_FORM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Kernel32.dll
+-	API-MS-Win-Core-Localization-l1-2-0.dll
+-	KernelBase.dll
+-	API-MS-Win-Core-Localization-l1-2-1.dll
+-	API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+-	MinKernelBase.dll
+-	API-MS-Win-Core-Localization-L1-2-2.dll
+api_name:
+-	GetUserGeoID
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# GetUserGeoID function
+
+
+## -description
+
+
+<p class="CCE_Message">[<b>GetUserGeoID</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://msdn.microsoft.com/7938A5A1-E18E-4643-A07C-3354B4E94B5D">GetUserDefaultGeoName</a>.
+
+]
+
+Retrieves information about the geographical location of the user. For more information, see <a href="https://msdn.microsoft.com/6e424bd4-389c-4f51-9898-f60a8a818f89">Table of Geographical Locations</a>.
+
+
+## -parameters
+
+
+
+
+### -param GeoClass [in]
+
+Geographical location class to return. Possible values are defined by the <a href="https://msdn.microsoft.com/27c2dec7-b5e7-47b7-8ce2-8dba3d0916bf">SYSGEOCLASS</a> enumeration.
+
+
+## -returns
+
+
+
+Returns the geographical location identifier of the user if <a href="https://msdn.microsoft.com/2e201a7e-6767-4908-b98c-f5b7f0544e60">SetUserGeoID</a> has been called before to set the identifier.
+
+If no geographical location identifier has been set for the user, the function returns GEOID_NOT_AVAILABLE.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/7938A5A1-E18E-4643-A07C-3354B4E94B5D">GetUserDefaultGeoName</a>
+
+
+
+<a href="https://msdn.microsoft.com/7a548074-0782-45e1-8051-80c3b9d81885">National Language Support</a>
+
+
+
+<a href="https://msdn.microsoft.com/7c72c4de-83be-4b7e-9ed8-b0236c1df8a4">National Language Support Functions</a>
+
+
+
+<a href="https://msdn.microsoft.com/27c2dec7-b5e7-47b7-8ce2-8dba3d0916bf">SYSGEOCLASS</a>
+
+
+
+<a href="https://msdn.microsoft.com/2e201a7e-6767-4908-b98c-f5b7f0544e60">SetUserGeoID</a>
+ 
+
+ 
+

@@ -1,0 +1,151 @@
+---
+UID: NF:wmsdkidl.IWMWriterPostView.SetAllocateForPostView
+title: IWMWriterPostView::SetAllocateForPostView method
+author: windows-driver-content
+description: The SetAllocateForPostView method specifies whether the application, and not the writer, must supply the buffers.
+old-location: wmformat\iwmwriterpostview_setallocateforpostview.htm
+old-project: wmformat
+ms.assetid: 995bf3fa-3e10-46a2-ad51-55375d6af447
+ms.author: windowsdriverdev
+ms.date: 3/23/2018
+ms.keywords: IWMWriterPostView, IWMWriterPostView interface [windows Media Format], SetAllocateForPostView method, IWMWriterPostView::SetAllocateForPostView, IWMWriterPostViewSetAllocateForPostView, SetAllocateForPostView method [windows Media Format], SetAllocateForPostView method [windows Media Format], IWMWriterPostView interface, SetAllocateForPostView,IWMWriterPostView.SetAllocateForPostView, wmformat.iwmwriterpostview_setallocateforpostview, wmsdkidl/IWMWriterPostView::SetAllocateForPostView
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wmsdkidl.h
+req.include-header: Wmsdk.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WM_AETYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wmvcore.lib
+-	Wmvcore.dll
+-	WMStubDRM.lib
+-	WMStubDRM.dll
+api_name:
+-	IWMWriterPostView.SetAllocateForPostView
+product: Windows
+targetos: Windows
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IWMWriterPostView::SetAllocateForPostView method
+
+
+## -description
+
+
+
+The <b>SetAllocateForPostView</b> method specifies whether the application, and not the writer, must supply the buffers.
+
+
+
+
+## -parameters
+
+
+
+
+### -param wStreamNumber [in]
+
+<b>WORD</b> containing the stream number.
+
+
+### -param fAllocate [in]
+
+Boolean value. Set to True if the application allocates buffers, and False if this is left to the reader.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>NS_E_INVALID_STREAM</b></dt>
+</dl>
+</td>
+<td width="60%">
+The stream number specified by <i>wStreamNumber</i> is not valid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_OUTOFMEMORY</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method was unable to create an internal structure.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+The application can provide buffers for any of the outputs, rather than use those allocated by the reader. For example, some applications can allocate Microsoft DirectDraw® buffers.
+
+The actual allocation of buffers is handled by the <a href="https://msdn.microsoft.com/9d18961a-5ea4-4f3e-b473-7399e155f800">IWMReaderCallbackAdvanced</a> interface.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/1d24dbd6-86df-4a0a-8110-15f6a4c1f31d">IWMWriterPostView Interface</a>
+
+
+
+<a href="https://msdn.microsoft.com/bd17eeec-a1ce-42db-a807-008ca2c4194f">IWMWriterPostView::GetAllocateForPostView</a>
+ 
+
+ 
+

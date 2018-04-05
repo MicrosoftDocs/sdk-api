@@ -1,0 +1,87 @@
+---
+UID: NF:iads.IADsPathname.RemoveLeafElement
+title: IADsPathname::RemoveLeafElement method
+author: windows-driver-content
+description: Removes the last element from the directory path that has been set on the Pathname object.
+old-location: adsi\iadspathname_removeleafelement.htm
+old-project: ADSI
+ms.assetid: 90085c75-0a38-43e8-932e-2b89d167cfa5
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: IADsPathname, IADsPathname interface [ADSI], RemoveLeafElement method, IADsPathname::RemoveLeafElement, RemoveLeafElement method [ADSI], RemoveLeafElement method [ADSI], IADsPathname interface, RemoveLeafElement,IADsPathname.RemoveLeafElement, _ds_iadspathname_removeleafelement, adsi.iadspathname__removeleafelement, adsi.iadspathname_removeleafelement, iads/IADsPathname::RemoveLeafElement
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: iads.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: ADS_SD_FORMAT_ENUM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Activeds.dll
+api_name:
+-	IADsPathname.RemoveLeafElement
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Activeds.dll
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IADsPathname::RemoveLeafElement method
+
+
+## -description
+
+
+The <b>IADsPathname::RemoveLeafElement</b> method removes the last element from the directory path that has been set on the Pathname object.
+
+
+## -parameters
+
+
+
+
+
+
+## -returns
+
+
+
+This method supports the standard return values, as well as the following:
+
+For more information and  other return values, see  <a href="https://msdn.microsoft.com/573889e4-37af-4aca-afd7-ef06bcf8aa0d">ADSI Error Codes</a>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/573889e4-37af-4aca-afd7-ef06bcf8aa0d">ADSI Error Codes</a>
+
+
+
+<a href="https://msdn.microsoft.com/9aa26d6c-aa86-4a23-a986-b8cb9057772a">IADsPathname</a>
+ 
+
+ 
+

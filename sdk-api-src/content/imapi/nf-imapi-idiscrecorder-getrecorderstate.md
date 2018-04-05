@@ -1,0 +1,122 @@
+---
+UID: NF:imapi.IDiscRecorder.GetRecorderState
+title: IDiscRecorder::GetRecorderState method
+author: windows-driver-content
+description: Retrieves the disc recorder state.
+old-location: imapi\idiscrecorder_getrecorderstate.htm
+old-project: imapi
+ms.assetid: 7fa57f8b-33c4-475c-958c-1e2c4973e23a
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: GetRecorderState method [IMAPI], GetRecorderState method [IMAPI], IDiscRecorder interface, GetRecorderState,IDiscRecorder.GetRecorderState, IDiscRecorder, IDiscRecorder interface [IMAPI], GetRecorderState method, IDiscRecorder::GetRecorderState, RECORDER_BURNING, RECORDER_DOING_NOTHING, RECORDER_OPENED, _win32_idiscrecorder_getrecorderstate, base.idiscrecorder_getrecorderstate, imapi.idiscrecorder_getrecorderstate, imapi/IDiscRecorder::GetRecorderState
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: imapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: AM_LINE21_DRAWBGMODE, *PAM_LINE21_DRAWBGMODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Actxprxy.dll
+api_name:
+-	IDiscRecorder.GetRecorderState
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Actxprxy.dll
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IDiscRecorder::GetRecorderState method
+
+
+## -description
+
+
+Retrieves the disc recorder state.
+
+
+## -parameters
+
+
+
+
+### -param pulDevStateFlags [out]
+
+One of the following values.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="RECORDER_BURNING"></a><a id="recorder_burning"></a><dl>
+<dt><b>RECORDER_BURNING</b></dt>
+</dl>
+</td>
+<td width="60%">
+0x2
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="RECORDER_DOING_NOTHING"></a><a id="recorder_doing_nothing"></a><dl>
+<dt><b>RECORDER_DOING_NOTHING</b></dt>
+</dl>
+</td>
+<td width="60%">
+0x0
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="RECORDER_OPENED"></a><a id="recorder_opened"></a><dl>
+<dt><b>RECORDER_OPENED</b></dt>
+</dl>
+</td>
+<td width="60%">
+0x1
+
+</td>
+</tr>
+</table>
+ 
+
+
+## -returns
+
+
+
+S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/fc861cbb-a14e-499e-8b80-f5912e4f6076">IDiscRecorder</a>
+ 
+
+ 
+

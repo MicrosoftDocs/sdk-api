@@ -1,0 +1,93 @@
+---
+UID: NS:d3d12.D3D12_INPUT_LAYOUT_DESC
+title: D3D12_INPUT_LAYOUT_DESC
+author: windows-driver-content
+description: Describes the input-buffer data for the input-assembler stage.
+old-location: direct3d12\d3d12_input_layout_desc.htm
+old-project: direct3d12
+ms.assetid: 44C53830-AE80-402A-808C-2063011711A2
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: D3D12_INPUT_LAYOUT_DESC, D3D12_INPUT_LAYOUT_DESC structure, d3d12/D3D12_INPUT_LAYOUT_DESC, direct3d12.d3d12_input_layout_desc
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: struct
+req.header: d3d12.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: D3D12_INPUT_LAYOUT_DESC
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	D3D12.h
+api_name:
+-	D3D12_INPUT_LAYOUT_DESC
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# D3D12_INPUT_LAYOUT_DESC structure
+
+
+## -description
+
+
+Describes the input-buffer data for the input-assembler stage.
+
+
+## -struct-fields
+
+
+
+
+### -field pInputElementDescs
+
+
+            An array of <a href="https://msdn.microsoft.com/FDE49FD5-9F7D-4A57-9AE9-F167AF39B06C">D3D12_INPUT_ELEMENT_DESC</a> structures that describe the data types of the input-assembler stage.
+          
+
+
+### -field NumElements
+
+
+            The number of input-data types in the array of input elements that the <b>pInputElementDescs</b> member points to.
+          
+
+
+## -remarks
+
+
+
+
+        This structure is a member of the <a href="https://msdn.microsoft.com/35D10150-A633-4D38-B684-3E2DF357FFC0">D3D12_GRAPHICS_PIPELINE_STATE_DESC</a> structure.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/7FE8796A-98D1-4333-8755-2A47567460B3">Core Structures</a>
+ 
+
+ 
+

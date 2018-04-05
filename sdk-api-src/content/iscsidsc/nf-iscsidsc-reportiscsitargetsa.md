@@ -1,0 +1,99 @@
+---
+UID: NF:iscsidsc.ReportIScsiTargetsA
+title: ReportIScsiTargetsA function
+author: windows-driver-content
+description: ReportIscsiTargets function retrieves the list of targets that the iSCSI initiator service has discovered, and can also instruct the iSCSI initiator service to refresh the list.
+old-location: iscsidisc\reportiscsitargets.htm
+old-project: iSCSIDisc
+ms.assetid: c4b2bcc4-d9d3-4fd3-bbca-03b13670054f
+ms.author: windowsdriverdev
+ms.date: 3/23/2018
+ms.keywords: ReportIScsiTargetsA, ReportIscsiTargets, ReportIscsiTargets function [iSCSI Discovery Library API], ReportIscsiTargetsA, ReportIscsiTargetsW, iscsidisc.reportiscsitargets, iscsidsc/ReportIscsiTargets, iscsidsc/ReportIscsiTargetsA, iscsidsc/ReportIscsiTargetsW
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: iscsidsc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: ReportIscsiTargetsW (Unicode) and ReportIscsiTargetsA (ANSI)
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: TARGET_INFORMATION_CLASS, *PTARGET_INFORMATION_CLASS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Iscsidsc.dll
+api_name:
+-	ReportIscsiTargets
+-	ReportIscsiTargetsA
+-	ReportIscsiTargetsW
+product: Windows
+targetos: Windows
+req.lib: Iscsidsc.lib
+req.dll: Iscsidsc.dll
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# ReportIScsiTargetsA function
+
+
+## -description
+
+
+The <b>ReportIscsiTargets</b> function retrieves the list of targets that the iSCSI initiator service has discovered, and can also instruct the iSCSI initiator service to refresh the list.
+
+
+
+## -parameters
+
+
+
+
+### -param ForceUpdate [in]
+
+If <b>true</b>, the iSCSI initiator service updates the list of discovered targets before returning the target list data to the caller.
+
+
+### -param BufferSize [in, out]
+
+A <b>ULONG</b> value that specifies the number of list elements contained by the <i>Buffer</i> parameter. 
+
+
+
+### -param Buffer [out]
+
+Pointer to a buffer that receives and contains the list of targets. The list consists of <b>null</b>-terminated strings. The last string, however, is double <b>null</b>-terminated.
+
+
+## -returns
+
+
+
+Returns ERROR_SUCCESS if the operation succeeds and ERROR_INSUFFICIENT_BUFFER if the buffer size is insufficient to contain  the output data. Otherwise, <b>ReportIscsiTargets</b> returns the appropriate Win32 or iSCSI error code on failure.
+
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/f082acc3-98d6-4758-aded-cb83e150e6d1">ReportIscsiSendTargetPortals</a>
+ 
+
+ 
+

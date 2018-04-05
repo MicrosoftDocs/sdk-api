@@ -1,0 +1,84 @@
+---
+UID: NF:propvarutil.VariantToUInt32
+title: VariantToUInt32 function
+author: windows-driver-content
+description: Extracts unsigned Int32 property value of a variant structure. If no value can be extracted, then a default value is assigned.
+old-location: properties\VariantToUInt32.htm
+old-project: properties
+ms.assetid: 24421477-8930-4c8f-8fee-5d8367123c7e
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: VariantToUInt32, VariantToUInt32 function [Windows Properties], _shell_VariantToUInt32, properties.VariantToUInt32, propvarutil/VariantToUInt32, shell.VariantToUInt32
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: propvarutil.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: PROPVAR_COMPARE_UNIT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Propsys.dll
+api_name:
+-	VariantToUInt32
+product: Windows
+targetos: Windows
+req.lib: Propsys.lib
+req.dll: Propsys.dll (version 6.0 or later)
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# VariantToUInt32 function
+
+
+## -description
+
+
+Extracts unsigned <b>Int32</b> property value of a variant structure. If no value can be extracted, then a default value is assigned.
+
+
+## -parameters
+
+
+
+
+### -param varIn [in]
+
+Type: <b>REFVARIANT</b>
+
+Reference to a source variant structure.
+
+
+### -param pulRet [out]
+
+Type: <b>ULONG*</b>
+
+Pointer to the extracted property value if one exists; otherwise, 0.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+

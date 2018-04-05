@@ -1,0 +1,92 @@
+---
+UID: NN:winsync.ISyncSessionExtendedErrorInfo
+title: ISyncSessionExtendedErrorInfo
+author: windows-driver-content
+description: Represents information about which provider caused synchronization to fail.
+old-location: winsync\isyncsessionextendederrorinfo.htm
+old-project: winsync
+ms.assetid: 0c6f90af-f4ca-4fa9-8050-acc61b4ee8d2
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: ISyncSessionExtendedErrorInfo, ISyncSessionExtendedErrorInfo interface [Windows Sync], ISyncSessionExtendedErrorInfo interface [Windows Sync], described, winsync.isyncsessionextendederrorinfo, winsync/ISyncSessionExtendedErrorInfo
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: interface
+req.header: winsync.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	winsync.h
+api_name:
+-	ISyncSessionExtendedErrorInfo
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# ISyncSessionExtendedErrorInfo interface
+
+
+## -description
+
+
+Represents information about which provider caused synchronization to fail.
+
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncSessionExtendedErrorInfo</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ISyncSessionExtendedErrorInfo</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
+
+## -members
+
+The <b>ISyncSessionExtendedErrorInfo</b> interface has these methods.
+<table class="members" id="memberListMethods">
+<tr>
+<th align="left" width="37%">Method</th>
+<th align="left" width="63%">Description</th>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/b0115f1a-41e7-4126-9b77-03960227d4fe">GetSyncProviderWithError</a>
+</td>
+<td align="left" width="63%">
+Gets the <a href="https://msdn.microsoft.com/0664267f-90ba-4123-bfe5-7cf748b78c10">ISyncProvider</a> interface of the provider that caused synchronization to fail.
+
+</td>
+</tr>
+</table> 
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/2c185fe2-1bbe-4409-aea0-6e138430b304">Windows Sync Interfaces</a>
+ 
+
+ 
+

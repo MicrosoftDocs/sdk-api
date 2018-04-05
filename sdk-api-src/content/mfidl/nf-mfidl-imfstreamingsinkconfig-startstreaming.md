@@ -1,0 +1,119 @@
+---
+UID: NF:mfidl.IMFStreamingSinkConfig.StartStreaming
+title: IMFStreamingSinkConfig::StartStreaming method
+author: windows-driver-content
+description: Called by the streaming media client before the Media Session starts streaming to specify the byte offset or the time offset.
+old-location: mf\imfstreamingsinkconfig_startstreaming.htm
+old-project: medfound
+ms.assetid: 22a75b19-9949-48fe-8844-511b11fbf20b
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: FALSE, IMFStreamingSinkConfig, IMFStreamingSinkConfig interface [Media Foundation], StartStreaming method, IMFStreamingSinkConfig::StartStreaming, StartStreaming method [Media Foundation], StartStreaming method [Media Foundation], IMFStreamingSinkConfig interface, StartStreaming,IMFStreamingSinkConfig.StartStreaming, TRUE, mf.imfstreamingsinkconfig_startstreaming, mfidl/IMFStreamingSinkConfig::StartStreaming
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: mfidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MF_URL_TRUST_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfidl.h
+api_name:
+-	IMFStreamingSinkConfig.StartStreaming
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IMFStreamingSinkConfig::StartStreaming method
+
+
+## -description
+
+
+Called by the streaming media client before the Media Session starts streaming to specify the byte offset or the time offset.
+
+
+## -parameters
+
+
+
+
+### -param fSeekOffsetIsByteOffset [in]
+
+    A Boolean value that specifies whether <i>qwSeekOffset</i> gives a byte offset of a time offset.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="TRUE"></a><a id="true"></a><dl>
+<dt><b>TRUE</b></dt>
+</dl>
+</td>
+<td width="60%">
+The <i>qwSeekOffset</i> parameter specifies a byte offset.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="FALSE"></a><a id="false"></a><dl>
+<dt><b>FALSE</b></dt>
+</dl>
+</td>
+<td width="60%">
+The <i>qwSeekOffset</i> parameter specifies the time position in 100-nanosecond units.
+
+</td>
+</tr>
+</table>
+ 
+
+
+### -param qwSeekOffset [in]
+
+A byte offset or a time offset, depending on the value passed in <i>fSeekOffsetIsByteOffset</i>.  Time offsets are specified in
+    100-nanosecond units.
+
+
+
+## -returns
+
+
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/5eaef815-9660-487a-885d-457cd270ba3d">IMFStreamingSinkConfig</a>
+ 
+
+ 
+

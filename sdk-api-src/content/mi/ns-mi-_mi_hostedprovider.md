@@ -1,0 +1,75 @@
+---
+UID: NS:mi._MI_HostedProvider
+title: "_MI_HostedProvider"
+author: windows-driver-content
+description: Represents the hosting of a provider in a client application.
+old-location: wmi_v2\mi_hostedprovider.htm
+old-project: wmi_v2
+ms.assetid: e63283b4-82eb-4bf4-a2f8-f7db29ccb6da
+ms.author: windowsdriverdev
+ms.date: 3/23/2018
+ms.keywords: MI_HostedProvider, MI_HostedProvider structure [Windows Management Infrastructure (MI)], _MI_HostedProvider, mi/MI_HostedProvider, wmi_v2.mi_hostedprovider
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: struct
+req.header: mi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MI_HostedProvider
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Mi.h
+api_name:
+-	MI_HostedProvider
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# _MI_HostedProvider structure
+
+
+## -description
+
+
+Represents the hosting of a provider in a client application.
+
+
+## -struct-fields
+
+
+
+
+### -field reserved1
+
+Reserved for internal use.
+
+
+### -field reserved2
+
+Reserved for internal use.
+
+
+### -field ft
+
+Pointer to the <a href="https://msdn.microsoft.com/148c4f5a-277a-41fa-b801-34884fbf3225">MI_HostedProviderFT</a> function 
+      table.
+

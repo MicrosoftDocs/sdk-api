@@ -1,0 +1,121 @@
+---
+UID: NF:commctrl.ListView_SetItemPosition32
+title: ListView_SetItemPosition32 macro
+author: windows-driver-content
+description: Moves an item to a specified position in a list-view control (in icon or small icon view).
+old-location: controls\ListView_SetItemPosition32.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\listview\macros\listview_setitemposition32.htm
+ms.author: windowsdriverdev
+ms.date: 3/31/2018
+ms.keywords: ListView_SetItemPosition32, ListView_SetItemPosition32 macro [Windows Controls], _win32_ListView_SetItemPosition32, _win32_ListView_SetItemPosition32_cpp, commctrl/ListView_SetItemPosition32, controls.ListView_SetItemPosition32, controls._win32_ListView_SetItemPosition32
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: macro
+req.header: commctrl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: CATEGORYINFO, *LPCATEGORYINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Commctrl.h
+api_name:
+-	ListView_SetItemPosition32
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# ListView_SetItemPosition32 macro
+
+
+## -description
+
+
+Moves an item to a specified position in a list-view control (in icon or small icon view). This macro differs from the <a href="https://msdn.microsoft.com/8965e972-f547-41dc-b742-a6ac757f0f76">ListView_SetItemPosition</a> macro in that it uses 32-bit coordinates. You can use the <b>ListView_SetItemPosition32</b> macro or send the <a href="https://msdn.microsoft.com/77db5fd0-bbc3-47ad-95ef-61ef4ac022bc">LVM_SETITEMPOSITION32</a> message explicitly. 
+
+
+## -parameters
+
+
+
+
+### -param hwndLV
+
+TBD
+
+
+### -param i
+
+TBD
+
+
+### -param x0
+
+TBD
+
+
+### -param y0
+
+TBD
+
+
+
+
+
+
+#### - hwnd
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+
+A handle to the list-view control. 
+
+
+#### - iItem
+
+Type: <b>int</b>
+
+The index of the list-view item for which to set the position. 
+
+
+#### - x
+
+Type: <b>int</b>
+
+New horizontal coordinates of the item. 
+
+
+#### - y
+
+Type: <b>int</b>
+
+New vertical coordinates of the item. 
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a>
+ 
+
+ 
+

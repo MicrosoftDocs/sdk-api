@@ -1,0 +1,70 @@
+---
+UID: NF:ole2.OleBuildVersion
+title: OleBuildVersion function
+author: windows-driver-content
+description: This function is obsolete.
+old-location: com\olebuildversion.htm
+old-project: com
+ms.assetid: 5715CF82-7598-4D04-8EC8-BB27582A739E
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: OleBuildVersion, OleBuildVersion function [COM], com.olebuildversion, ole2/OleBuildVersion
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: ole2.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: QACONTROL
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Ole32.dll
+api_name:
+-	OleBuildVersion
+product: Windows
+targetos: Windows
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# OleBuildVersion function
+
+
+## -description
+
+
+This function is obsolete.
+
+
+## -parameters
+
+
+
+
+
+
+## -returns
+
+
+
+Obsolete.
+
+
+

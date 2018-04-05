@@ -1,0 +1,122 @@
+---
+UID: NF:icwcfg.SetShellNext
+title: SetShellNext function
+author: windows-driver-content
+description: Sets the ShellNext registry key with the specified value.
+old-location: winprog\setshellnext.htm
+old-project: DevNotes
+ms.assetid: f08753b2-9666-498d-aee4-8eb2c7f0d95b
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: SetShellNext, SetShellNext function [Windows API], icwcfg/SetShellNext, winprog.setshellnext
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: icwcfg.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: COLORMATCHSETUPW, *PCOLORMATCHSETUPW, *LPCOLORMATCHSETUPW
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Inetcfg.dll
+api_name:
+-	SetShellNext
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Inetcfg.dll
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# SetShellNext function
+
+
+## -description
+
+
+<p class="CCE_Message">[This function is available for use in the Windows XP  operating system.  It may be altered or unavailable in subsequent versions.]
+
+Sets the <b>ShellNext</b> registry key with the specified value.
+
+
+## -parameters
+
+
+
+
+### -param szShellNext [in]
+
+The string value.
+The length is expected to be less than or equal to <b>MAX_PATH</b> characters.
+
+
+## -returns
+
+
+
+This function can return one of these values.
+
+
+This function returns one of the following values.
+
+
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_SUCCESS</b></dt>
+</dl>
+</td>
+<td width="60%">
+The call is successful.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_INVALID_PARAMETER</b></dt>
+</dl>
+</td>
+<td width="60%">
+<i>szShellNext</i> contains a <b>NULL</b> pointer or the string is zero in length.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/81960d59-3de3-4d86-948e-939c59073bb1">CheckConnectionWizard</a>
+ 
+
+ 
+

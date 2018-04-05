@@ -1,0 +1,84 @@
+---
+UID: NF:mfmediaengine.IMFSourceBuffer.GetBuffered
+title: IMFSourceBuffer::GetBuffered method
+author: windows-driver-content
+description: Gets the buffered time range.
+old-location: mf\imfsourcebuffer_getbuffered.htm
+old-project: medfound
+ms.assetid: cbed0e90-8950-46f6-acaa-5e6daf814dd0
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: GetBuffered method [Media Foundation], GetBuffered method [Media Foundation], IMFSourceBuffer interface, GetBuffered,IMFSourceBuffer.GetBuffered, IMFSourceBuffer, IMFSourceBuffer interface [Media Foundation], GetBuffered method, IMFSourceBuffer::GetBuffered, mf.imfsourcebuffer_getbuffered, mfmediaengine/IMFSourceBuffer::GetBuffered
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: mfmediaengine.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Mfmediaengine.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MF_TIMED_TEXT_WRITING_MODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfmediaengine.h
+api_name:
+-	IMFSourceBuffer.GetBuffered
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IMFSourceBuffer::GetBuffered method
+
+
+## -description
+
+
+Gets the buffered time range.
+
+
+## -parameters
+
+
+
+
+### -param ppBuffered [out]
+
+The buffered time range.
+
+
+## -returns
+
+
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/f241e232-9013-46d0-be97-2d6b5246cff3">IMFSourceBuffer</a>
+ 
+
+ 
+

@@ -1,0 +1,105 @@
+---
+UID: NF:wincodec.IWICBitmapCodecInfo.GetDeviceManufacturer
+title: IWICBitmapCodecInfo::GetDeviceManufacturer method
+author: windows-driver-content
+description: Retrieves the name of the device manufacture associated with the codec.
+old-location: wic\_wic_codec_iwicbitmapcodecinfo_getdevicemanufacturer.htm
+old-project: wic
+ms.assetid: a69e8195-5dc1-4a25-ab3c-9ea0cb3de074
+ms.author: windowsdriverdev
+ms.date: 3/28/2018
+ms.keywords: GetDeviceManufacturer method [Windows Imaging Component], GetDeviceManufacturer method [Windows Imaging Component], IWICBitmapCodecInfo interface, GetDeviceManufacturer,IWICBitmapCodecInfo.GetDeviceManufacturer, IWICBitmapCodecInfo, IWICBitmapCodecInfo interface [Windows Imaging Component], GetDeviceManufacturer method, IWICBitmapCodecInfo::GetDeviceManufacturer, _wic_codec_iwicbitmapcodecinfo_getdevicemanufacturer, wic._wic_codec_iwicbitmapcodecinfo_getdevicemanufacturer, wincodec/IWICBitmapCodecInfo::GetDeviceManufacturer
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wincodec.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Wincodec.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WICTiffCompressionOption
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Windowscodecs.dll
+api_name:
+-	IWICBitmapCodecInfo.GetDeviceManufacturer
+product: Windows
+targetos: Windows
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# IWICBitmapCodecInfo::GetDeviceManufacturer method
+
+
+## -description
+
+
+Retrieves the name of the device manufacture associated with the codec.
+
+
+## -parameters
+
+
+
+
+### -param cchDeviceManufacturer [in]
+
+Type: <b>UINT</b>
+
+The size of the device manufacture's name. Use <code>0</code> on first call to determine needed buffer size.
+
+
+### -param wzDeviceManufacturer [in, out]
+
+Type: <b>WCHAR*</b>
+
+Receives the device manufacture's name. Use <code>NULL</code> on first call to determine needed buffer size.
+
+
+### -param pcchActual [out]
+
+Type: <b>UINT*</b>
+
+The actual buffer size needed to retrieve the device manufacture's name.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+
+            The usage pattern for this method is a two call process.
+            The first call retrieves the buffer size needed to retrieve the full color management version number by calling it with <i>cchDeviceManufacturer</i> set to <code>0</code> and <i>wzDeviceManufacturer</i> set to <code>NULL</code>.
+            This call sets <i>pcchActual</i> to the buffer size needed.
+            Once the needed buffer size is determined, a second <b>GetDeviceManufacturer</b> call with <i>cchDeviceManufacturer</i> set to the buffer size and <i>wzDeviceManufacturer</i> set to a buffer of the appropriate size will retrieve the pixel formats.
+         
+
+
+

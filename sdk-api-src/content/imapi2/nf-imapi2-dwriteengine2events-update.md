@@ -1,0 +1,119 @@
+---
+UID: NF:imapi2.DWriteEngine2Events.Update
+title: DWriteEngine2Events::Update method
+author: windows-driver-content
+description: Implement this method to receive progress notification of the current write operation.
+old-location: imapi\dwriteengine2events_update.htm
+old-project: imapi
+ms.assetid: efee838d-aa6e-41a0-aafb-64ba6ca19f29
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: DWriteEngine2Events, DWriteEngine2Events interface [IMAPI], Update method, DWriteEngine2Events::Update, Update method [IMAPI], Update method [IMAPI], DWriteEngine2Events interface, Update,DWriteEngine2Events.Update, imapi.dwriteengine2events_update, imapi2/DWriteEngine2Events::Update
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: imapi2.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Imapi2.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	imapi2.h
+api_name:
+-	DWriteEngine2Events.Update
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# DWriteEngine2Events::Update method
+
+
+## -description
+
+
+Implement this method to receive progress notification of the current write operation. 
+
+
+## -parameters
+
+
+
+
+### -param object [in]
+
+The <a href="https://msdn.microsoft.com/89e7526f-2b9b-4f37-b537-5046a0ac283d">IWriteEngine2</a> interface that initiated the write operation. 
+
+This parameter is a <b>MsftWriteEngine2</b> object in script.
+
+
+### -param progress [in]
+
+An <a href="https://msdn.microsoft.com/1922410a-5871-477f-b778-36b12ad95168">IWriteEngine2EventArgs</a> interface that you use to determine the progress of the write operation. 
+
+This parameter is a <b>MsftWriteEngine2</b> object in script.
+
+
+## -returns
+
+
+
+Return values are ignored.
+
+
+
+
+## -remarks
+
+
+
+Notifications are sent in response to calling the <a href="https://msdn.microsoft.com/a6158984-04d3-4919-8a67-fc860b4b3a47">IWriteEngine2::WriteSection</a> method.
+
+Notification is sent:
+
+<ul>
+<li>Once before the operation begins</li>
+<li>Every 0.5 seconds during the write operation</li>
+<li>Once after the operation completes</li>
+</ul>
+To stop the write process, call the <a href="https://msdn.microsoft.com/cd658bd3-71ab-4e63-adec-8b7405a76c12">IWriteEngine2::CancelWrite</a> method.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/697f8247-6940-4b5e-8521-df89838837be">DWriteEngine2Events</a>
+
+
+
+<a href="https://msdn.microsoft.com/a6158984-04d3-4919-8a67-fc860b4b3a47">IWriteEngine2::WriteSection</a>
+
+
+
+<a href="https://msdn.microsoft.com/1922410a-5871-477f-b778-36b12ad95168">IWriteEngine2EventArgs</a>
+ 
+
+ 
+

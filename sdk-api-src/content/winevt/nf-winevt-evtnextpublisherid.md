@@ -1,0 +1,147 @@
+---
+UID: NF:winevt.EvtNextPublisherId
+title: EvtNextPublisherId function
+author: windows-driver-content
+description: Gets the identifier of a provider from the enumerator.
+old-location: wes\evtnextpublisherid.htm
+old-project: WES
+ms.assetid: e6cea6de-79f3-416b-9501-8d86f2579aa8
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: EvtNextPublisherId, EvtNextPublisherId function [EventLog], wes.evtnextpublisherid, winevt/EvtNextPublisherId
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: winevt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: EVT_VARIANT_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Wevtapi.dll
+api_name:
+-	EvtNextPublisherId
+product: Windows
+targetos: Windows
+req.lib: Wevtapi.lib
+req.dll: Wevtapi.dll
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# EvtNextPublisherId function
+
+
+## -description
+
+
+Gets the identifier of a provider from the enumerator.
+
+
+## -parameters
+
+
+
+
+### -param PublisherEnum [in]
+
+A handle to the registered providers enumerator that the <a href="https://msdn.microsoft.com/156c434c-6d0f-4af0-bf10-20aa6bae0945">EvtOpenPublisherEnum</a> function returns.
+
+
+### -param PublisherIdBufferSize [in]
+
+The size of the <i>PublisherIdBuffer</i> buffer, in characters.
+
+
+### -param PublisherIdBuffer [in]
+
+
+A caller-allocated buffer that will receive the name of the registered provider. You can set this parameter to <b>NULL</b> to determine the required buffer size.
+
+
+### -param PublisherIdBufferUsed [out]
+
+The size, in characters, of the caller-allocated buffer that the function used or the required buffer size if the function fails with ERROR_INSUFFICIENT_BUFFER.
+
+
+## -returns
+
+
+
+<table>
+<tr>
+<th>Return code/value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>TRUE</b></dt>
+<dt></dt>
+</dl>
+</td>
+<td width="60%">
+The function succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>FALSE</b></dt>
+<dt></dt>
+</dl>
+</td>
+<td width="60%">
+The function failed. To get the error code, call the <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+Call this function in a loop until the function returns <b>FALSE</b> and the error code is ERROR_NO_MORE_ITEMS.
+
+This list of provider names is not sorted alphabetically.
+
+
+#### Examples
+
+For an example that shows how to use this function, see <a href="https://msdn.microsoft.com/c9442dc1-3599-4e81-a144-943c2843a2f7">Getting a Provider's Metadata</a>.
+
+<div class="code"></div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/0839fb15-12a9-4e30-9afa-6f6437956df0">EvtOpenPublisherMetadata</a>
+ 
+
+ 
+

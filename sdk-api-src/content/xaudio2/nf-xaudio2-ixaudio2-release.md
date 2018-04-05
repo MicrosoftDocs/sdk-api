@@ -1,0 +1,102 @@
+---
+UID: NF:xaudio2.IXAudio2.Release
+title: IXAudio2::Release method
+author: windows-driver-content
+description: Releases a reference to the XAudio2 object.
+old-location: xaudio2\ixaudio2_interface_release.htm
+old-project: xaudio2
+ms.assetid: M:Microsoft.directx_sdk.ixaudio2.IXAudio2.Release
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: IXAudio2, IXAudio2 interface [XAudio2 Audio Mixing APIs], Release method, IXAudio2::Release, Release method [XAudio2 Audio Mixing APIs], Release method [XAudio2 Audio Mixing APIs], IXAudio2 interface, Release,IXAudio2.Release, xaudio2.ixaudio2_interface_release, xaudio2/IXAudio2::Release
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: xaudio2.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: XAUDIO2_FILTER_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	xaudio2.h
+api_name:
+-	IXAudio2.Release
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+---
+
+# IXAudio2::Release method
+
+
+## -description
+
+
+Releases a reference to the XAudio2 object.
+
+
+## -parameters
+
+
+
+
+
+
+## -returns
+
+
+
+Always returns 0.
+
+
+
+
+## -remarks
+
+
+
+When the final <b>Release</b> is called on a given XAudio2 object, all voice objects that are associated with it are destroyed. Any pointers to these objects that are still held by the client become invalid immediately. Any calls that are made to them cause undefined behavior. The audio processing engine is also stopped. This is so that after <b>Release</b> is returned, the client can safely free any data that is referenced by the graph (for example, audio source buffers or callback handling objects).
+
+
+
+<b>Release</b> is a synchronous call. While glitching should not occur (since it only briefly takes the processing lock), a title can avoid potential thread wait times by calling this method in an XAudio2 callback.
+
+
+
+It is invalid to call <b>Release</b> from within a callback (that is, <a href="https://msdn.microsoft.com/D71C117F-826F-41E9-98F4-C6024B3C5103">IXAudio2EngineCallback</a> or <a href="https://msdn.microsoft.com/FF78727D-16AE-40CB-BDE0-664687914FC0">IXAudio2VoiceCallback</a>). 
+
+<h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
+Windows 10 (XAudio2.9); 
+            Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK (XAudio 2.7)
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/A49469C6-2C29-407C-8C57-65E3FC9463F1">IXAudio2</a>
+ 
+
+ 
+

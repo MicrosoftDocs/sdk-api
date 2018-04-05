@@ -1,0 +1,173 @@
+---
+UID: NF:wingdi.SelectClipRgn
+title: SelectClipRgn function
+author: windows-driver-content
+description: The SelectClipRgn function selects a region as the current clipping region for the specified device context.
+old-location: gdi\selectcliprgn.htm
+old-project: gdi
+ms.assetid: 7a4f0b9c-8588-4da8-a030-ed9d8b4ee08d
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: SelectClipRgn, SelectClipRgn function [Windows GDI], _win32_SelectClipRgn, gdi.selectcliprgn, wingdi/SelectClipRgn
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: wingdi.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: FAX_TIME, *PFAX_TIME
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	gdi32.dll
+-	Ext-MS-Win-GDI-rgn-l1-1-0.dll
+-	Ext-MS-Win-RTCore-GDI-rgn-l1-1-0.dll
+-	ext-ms-win-rtcore-gdi-rgn-l1-1-1.dll
+-	API-MS-Win-GDI-Internal-Uap-L1-1-0.dll
+-	GDI32Full.dll
+api_name:
+-	SelectClipRgn
+product: Windows
+targetos: Windows
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# SelectClipRgn function
+
+
+## -description
+
+
+The <b>SelectClipRgn</b> function selects a region as the current clipping region for the specified device context.
+
+
+## -parameters
+
+
+
+
+### -param hdc [in]
+
+A handle to the device context.
+
+
+### -param hrgn [in]
+
+A handle to the region to be selected.
+
+
+## -returns
+
+
+
+The return value specifies the region's complexity and can be one of the following values.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>NULLREGION</b></dt>
+</dl>
+</td>
+<td width="60%">
+Region is empty.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>SIMPLEREGION</b></dt>
+</dl>
+</td>
+<td width="60%">
+Region is a single rectangle.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>COMPLEXREGION</b></dt>
+</dl>
+</td>
+<td width="60%">
+Region is more than one rectangle.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR</b></dt>
+</dl>
+</td>
+<td width="60%">
+An error occurred. (The previous clipping region is unaffected.)
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+Only a copy of the selected region is used. The region itself can be selected for any number of other device contexts or it can be deleted.
+
+The <b>SelectClipRgn</b> function assumes that the coordinates for a region are specified in device units.
+
+To remove a device-context's clipping region, specify a <b>NULL</b> region handle.
+
+
+#### Examples
+
+For an example, see <a href="https://msdn.microsoft.com/5ae60181-c72e-4a28-99eb-e23d35c46685">Clipping Output</a>.
+
+<div class="code"></div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/de9e5786-63d8-47be-8522-e96d7c0f8634">Clipping Functions</a>
+
+
+
+<a href="https://msdn.microsoft.com/9e966369-9988-4bfa-af37-b1bbb3488880">Clipping Overview</a>
+
+
+
+<a href="https://msdn.microsoft.com/d222defe-2ef9-4622-b2e1-462a91cb1b0a">ExtSelectClipRgn</a>
+ 
+
+ 
+

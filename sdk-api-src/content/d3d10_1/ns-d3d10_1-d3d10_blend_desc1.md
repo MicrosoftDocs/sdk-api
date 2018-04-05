@@ -1,0 +1,155 @@
+---
+UID: NS:d3d10_1.D3D10_BLEND_DESC1
+title: D3D10_BLEND_DESC1
+author: windows-driver-content
+description: Describes the blend state for a Direct3D 10.1 device.
+old-location: direct3d10\d3d10_blend_desc1.htm
+old-project: direct3d10
+ms.assetid: VS|directx_sdk|~\d3d10_blend_desc1.htm
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: 4a90d15b-26ee-a91b-b9c6-dc1b5ff0e612, D3D10_BLEND_DESC1, D3D10_BLEND_DESC1 structure [Direct3D 10], d3d10_1/D3D10_BLEND_DESC1, direct3d10.d3d10_blend_desc1
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: struct
+req.header: d3d10_1.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: D3D10_BLEND_DESC1
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	D3D10_1.h
+api_name:
+-	D3D10_BLEND_DESC1
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# D3D10_BLEND_DESC1 structure
+
+
+## -description
+
+
+Describes the blend state for a Direct3D 10.1 device.
+
+
+## -struct-fields
+
+
+
+
+### -field AlphaToCoverageEnable
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+
+Determines whether or not to use the <a href="https://msdn.microsoft.com/f5c79baf-7bd3-4f58-abe7-8e96cd6be9d3">alpha-to-coverage</a>
+        multisampling technique when setting a render-target pixel.
+
+
+### -field IndependentBlendEnable
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+
+Set to <b>TRUE</b> to enable independent blending in simultaneous render targets. If set to <b>FALSE</b>, only the RenderTarget[0] members are used. RenderTarget[1..7] are ignored.
+
+
+### -field RenderTarget
+
+Type: <b><a href="https://msdn.microsoft.com/85989eb8-df3a-41b6-a3cd-61beae4042cd">D3D10_RENDER_TARGET_BLEND_DESC1</a></b>
+
+An array of render-target-blend descriptions (see <a href="https://msdn.microsoft.com/85989eb8-df3a-41b6-a3cd-61beae4042cd">D3D10_RENDER_TARGET_BLEND_DESC1</a>); these correspond to the eight rendertargets 
+        that can be set to the output-merger stage at one time.
+
+
+## -remarks
+
+
+
+To see how blending is done, see <a href="https://msdn.microsoft.com/8be68c15-2deb-4804-b683-30080a876189">Output-Merger Stage (Direct3D 10)</a>.
+
+These are the default values for the blend description.
+
+<table>
+<tr>
+<th>State</th>
+<th>Default Value</th>
+</tr>
+<tr>
+<td>AlphaToCoverageEnable</td>
+<td><b>FALSE</b></td>
+</tr>
+<tr>
+<td>IndependentBlendEnable</td>
+<td><b>FALSE</b></td>
+</tr>
+<tr>
+<td>RenderTarget[0].BlendEnable</td>
+<td><b>FALSE</b></td>
+</tr>
+<tr>
+<td>RenderTarget[0].SrcBlend</td>
+<td>D3D10_BLEND_ONE</td>
+</tr>
+<tr>
+<td>RenderTarget[0].DestBlend</td>
+<td>D3D10_BLEND_ZERO</td>
+</tr>
+<tr>
+<td>RenderTarget[0].BlendOp</td>
+<td>D3D10_BLEND_OP_ADD</td>
+</tr>
+<tr>
+<td>RenderTarget[0].SrcBlendAlpha</td>
+<td>D3D10_BLEND_ONE</td>
+</tr>
+<tr>
+<td>RenderTarget[0].DestBlendAlpha</td>
+<td>D3D10_BLEND_ZERO</td>
+</tr>
+<tr>
+<td>RenderTarget[0].BlendOpAlpha</td>
+<td>D3D10_BLEND_OP_ADD</td>
+</tr>
+<tr>
+<td>RenderTarget[0].RenderTargetWriteMask</td>
+<td>D3D10_COLOR_WRITE_ENABLE_ALL</td>
+</tr>
+</table>
+ 
+
+This structure requires Windows Vista Service Pack 1.
+
+If the driver type is set to <a href="https://msdn.microsoft.com/ceeec7d6-4bdc-488c-80a8-6c5e11986d6a">D3D_DRIVER_TYPE_HARDWARE</a>, the feature level is set to less than or equal to <a href="https://msdn.microsoft.com/afbc1a02-1730-4502-af15-b668412d664c">D3D_FEATURE_LEVEL_9_3</a>, and the pixel format of the render target is set to <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT_R8G8B8A8_UNORM_SRGB</a>, <b>DXGI_FORMAT_B8G8R8A8_UNORM_SRGB</b>, or <b>DXGI_FORMAT_B8G8R8X8_UNORM_SRGB</b>, the device performs the blend in standard RGB (sRGB) space and not in linear space. However, if the feature level is set to greater than <b>D3D_FEATURE_LEVEL_9_3</b>, the device performs the blend in linear space.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/84769515-3f3b-4464-9620-7b806bf905b3">Core Structures</a>
+ 
+
+ 
+

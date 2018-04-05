@@ -1,0 +1,125 @@
+---
+UID: NF:p2p.PeerCollabUpdateContact
+title: PeerCollabUpdateContact function
+author: windows-driver-content
+description: Updates the information associated with a peer contact specified in the local contact store of the caller.
+old-location: p2p\peercollabupdatecontact.htm
+old-project: P2PSdk
+ms.assetid: 66a72629-6be1-4f1e-aeb1-e9b484c74732
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: PeerCollabUpdateContact, PeerCollabUpdateContact function [Peer Networking], p2p.peercollabupdatecontact, p2p/PeerCollabUpdateContact
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: p2p.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: None supported
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: PEER_WATCH_PERMISSION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	P2P.dll
+api_name:
+-	PeerCollabUpdateContact
+product: Windows
+targetos: Windows
+req.lib: P2P.lib
+req.dll: P2P.dll
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# PeerCollabUpdateContact function
+
+
+## -description
+
+
+The <b>PeerCollabUpdateContact</b> function updates the information associated with a peer contact specified in the local contact store of the caller.
+
+
+## -parameters
+
+
+
+
+### -param pContact [in]
+
+Pointer to a <a href="https://msdn.microsoft.com/b84a17fc-35d6-4098-9bb3-18e708541a80">PEER_CONTACT</a> structure that contains the updated information for a specific peer contact.
+
+
+## -returns
+
+
+
+Returns S_OK if the function succeeds. Otherwise, the function returns one of the following values.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_OUTOFMEMORY</b></dt>
+</dl>
+</td>
+<td width="60%">
+There is not enough memory to support this operation.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+One of the arguments is invalid.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+If the contact provided is the 'Me' contact, only the nickname, display name and email address can be changed. If a nickname is changed for a contact signed in to "People Near Me", the structure  <a href="https://msdn.microsoft.com/d983a399-17b1-43ea-a8fb-05b5d75e179a">PEER_EVENT_PEOPLE_NEAR_ME_CHANGED_DATA</a> with <i>changeType</i> of PEER_CHANGE_UPDATED will be raised.
+
+The <b>PeerCollabUpdateContact</b> function will timeout at 30 seconds.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/00c3c1f1-c36c-469a-a644-0ec60f02d25e">Peer Collaboration API Functions</a>
+ 
+
+ 
+

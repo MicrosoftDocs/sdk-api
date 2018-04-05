@@ -1,0 +1,71 @@
+---
+UID: NF:uiautomationclient.IUIAutomationTogglePattern.get_CachedToggleState
+title: IUIAutomationTogglePattern::get_CachedToggleState method
+author: windows-driver-content
+description: Retrieves the cached state of the control.
+old-location: winauto\uiauto_IUIAutomationTogglePattern_CachedToggleState.htm
+old-project: WinAuto
+ms.assetid: 49d32394-d7e0-43be-b1f5-db57c6cbe3c4
+ms.author: windowsdriverdev
+ms.date: 3/29/2018
+ms.keywords: CachedToggleState property [Windows Accessibility], CachedToggleState property [Windows Accessibility], IUIAutomationTogglePattern interface, IUIAutomationTogglePattern, IUIAutomationTogglePattern interface [Windows Accessibility], CachedToggleState property, IUIAutomationTogglePattern.CachedToggleState, IUIAutomationTogglePattern::get_CachedToggleState, get_CachedToggleState,IUIAutomationTogglePattern.get_CachedToggleState, uiauto.uiauto_IUIAutomationTogglePattern_CachedToggleState, uiauto_IUIAutomationTogglePattern_CachedToggleState, uiautomationclient/IUIAutomationTogglePattern::CachedToggleState, uiautomationclient/IUIAutomationTogglePattern::get_CachedToggleState, winauto.uiauto_IUIAutomationTogglePattern_CachedToggleState
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: uiautomationclient.h
+req.include-header: UIAutomation.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: UIAutomationClient.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	UIAutomationClient.h
+api_name:
+-	IUIAutomationTogglePattern.CachedToggleState
+-	IUIAutomationTogglePattern.get_CachedToggleState
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# IUIAutomationTogglePattern::get_CachedToggleState method
+
+
+## -description
+
+
+Retrieves the cached state of the control.
+
+This property is read-only.
+
+
+## -parameters
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/f2e69387-271f-4f85-85d5-19ba5d231f85">IUIAutomationTogglePattern</a>
+ 
+
+ 
+

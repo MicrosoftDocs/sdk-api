@@ -1,0 +1,275 @@
+---
+UID: NF:wingdi.SetDIBitsToDevice
+title: SetDIBitsToDevice function
+author: windows-driver-content
+description: The SetDIBitsToDevice function sets the pixels in the specified rectangle on the device that is associated with the destination device context using color data from a DIB, JPEG, or PNG image.
+old-location: gdi\setdibitstodevice.htm
+old-project: gdi
+ms.assetid: 41225400-12e3-47ba-8b88-ac1d5b0fa90f
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: DIB_PAL_COLORS, DIB_RGB_COLORS, SetDIBitsToDevice, SetDIBitsToDevice function [Windows GDI], _win32_SetDIBitsToDevice, gdi.setdibitstodevice, wingdi/SetDIBitsToDevice
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: wingdi.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: FAX_TIME, *PFAX_TIME
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	gdi32.dll
+-	Ext-MS-Win-GDI-Draw-l1-1-1.dll
+-	ext-ms-win-gdi-draw-l1-1-2.dll
+-	Ext-MS-Win-GDI-Draw-L1-1-3.dll
+-	GDI32Full.dll
+api_name:
+-	SetDIBitsToDevice
+product: Windows
+targetos: Windows
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# SetDIBitsToDevice function
+
+
+## -description
+
+
+The <b>SetDIBitsToDevice</b> function sets the pixels in the specified rectangle on the device that is associated with the destination device context using color data from a DIB, JPEG, or PNG image.
+
+
+## -parameters
+
+
+
+
+### -param hdc [in]
+
+A handle to the device context.
+
+
+### -param xDest
+
+TBD
+
+
+### -param yDest
+
+TBD
+
+
+### -param w
+
+TBD
+
+
+### -param h
+
+TBD
+
+
+### -param xSrc
+
+TBD
+
+
+### -param ySrc
+
+TBD
+
+
+### -param StartScan
+
+TBD
+
+
+### -param cLines
+
+TBD
+
+
+### -param lpvBits [in]
+
+A pointer to the color data stored as an array of bytes. For more information, see the following Remarks section.
+
+
+### -param lpbmi [in]
+
+A pointer to a <a href="https://msdn.microsoft.com/84cc51e8-78f3-4ee6-bc08-94feff89afb0">BITMAPINFO</a> structure that contains information about the DIB.
+
+
+### -param ColorUse
+
+TBD
+
+
+
+
+#### - XDest [in]
+
+The x-coordinate, in logical units, of the upper-left corner of the destination rectangle.
+
+
+#### - XSrc [in]
+
+The x-coordinate, in logical units, of the lower-left corner of the image.
+
+
+#### - YDest [in]
+
+The y-coordinate, in logical units, of the upper-left corner of the destination rectangle.
+
+
+#### - YSrc [in]
+
+The y-coordinate, in logical units, of the lower-left corner of the image.
+
+
+#### - cScanLines [in]
+
+The number of DIB scan lines contained in the array pointed to by the <i>lpvBits</i> parameter.
+
+
+#### - dwHeight [in]
+
+The height, in logical units, of the image.
+
+
+#### - dwWidth [in]
+
+The width, in logical units, of the image.
+
+
+#### - fuColorUse [in]
+
+Indicates whether the <b>bmiColors</b> member of the <a href="https://msdn.microsoft.com/84cc51e8-78f3-4ee6-bc08-94feff89afb0">BITMAPINFO</a> structure contains explicit red, green, blue (RGB) values or indexes into a palette. For more information, see the following Remarks section.
+
+The <i>fuColorUse</i> parameter must be one of the following values.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="DIB_PAL_COLORS"></a><a id="dib_pal_colors"></a><dl>
+<dt><b>DIB_PAL_COLORS</b></dt>
+</dl>
+</td>
+<td width="60%">
+The color table consists of an array of 16-bit indexes into the currently selected logical palette.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="DIB_RGB_COLORS"></a><a id="dib_rgb_colors"></a><dl>
+<dt><b>DIB_RGB_COLORS</b></dt>
+</dl>
+</td>
+<td width="60%">
+The color table contains literal RGB values.
+
+</td>
+</tr>
+</table>
+ 
+
+
+#### - uStartScan [in]
+
+The starting scan line in the image.
+
+
+## -returns
+
+
+
+If the function succeeds, the return value is the number of scan lines set.
+
+If zero scan lines are set (such as when <i>dwHeight</i> is 0) or the function fails, the function returns zero.
+
+If the driver cannot support the JPEG or PNG file image passed to <b>SetDIBitsToDevice</b>, the function will fail and return GDI_ERROR. If failure does occur, the application must fall back on its own JPEG or PNG support to decompress the image into a bitmap, and then pass the bitmap to <b>SetDIBitsToDevice</b>.
+
+
+
+
+## -remarks
+
+
+
+Optimal bitmap drawing speed is obtained when the bitmap bits are indexes into the system palette.
+
+Applications can retrieve the system palette colors and indexes by calling the <a href="https://msdn.microsoft.com/67bb0adf-ae7f-48d5-bc62-82ece45aeee6">GetSystemPaletteEntries</a> function. After the colors and indexes are retrieved, the application can create the DIB. For more information about the system palette, see <a href="https://msdn.microsoft.com/d1a25f13-6b47-4be7-927b-814dd6ae81f8">Colors</a>. 
+
+The scan lines must be aligned on a <b>DWORD</b> except for RLE-compressed bitmaps.
+
+The origin of a bottom-up DIB is the lower-left corner of the bitmap; the origin of a top-down DIB is the upper-left corner.
+
+To reduce the amount of memory required to set bits from a large DIB on a device surface, an application can band the output by repeatedly calling <b>SetDIBitsToDevice</b>, placing a different portion of the bitmap into the <i>lpvBits</i> array each time. The values of the <i>uStartScan</i> and <i>cScanLines</i> parameters identify the portion of the bitmap contained in the <i>lpvBits</i> array.
+
+The <b>SetDIBitsToDevice</b> function returns an error if it is called by a process that is running in the background while a full-screen MS-DOS session runs in the foreground.
+
+<ul>
+<li>If the <b>biCompression</b> member of <a href="https://msdn.microsoft.com/02f8ed65-8fed-4dda-9b94-7343a0cfa8c1">BITMAPINFOHEADER</a> is BI_JPEG or BI_PNG, <i>lpvBits</i> points to a buffer containing a JPEG or PNG image. The <b>biSizeImage</b> member of specifies the size of the buffer. The <i>fuColorUse</i> parameter must be set to DIB_RGB_COLORS.</li>
+<li>To ensure proper metafile spooling while printing, applications must call the CHECKJPEGFORMAT or CHECKPNGFORMAT escape to verify that the printer recognizes the JPEG or PNG image, respectively, before calling <b>SetDIBitsToDevice</b>.</li>
+</ul>
+<b>ICM:</b> Color management is performed if color management has been enabled with a call to <a href="https://msdn.microsoft.com/40d70c1f-c580-43c4-b44b-6c9388e138fb">SetICMMode</a> with the <i>iEnableICM</i> parameter set to ICM_ON. If the bitmap specified by <i>lpbmi</i> has a <a href="https://msdn.microsoft.com/17c50d55-1c95-4178-82ba-7f504aa63c83">BITMAPV4HEADER</a> that specifies the gamma and endpoints members, or a <a href="https://msdn.microsoft.com/ec5db6f9-93fa-4dbe-afdb-c039292b26e3">BITMAPV5HEADER</a> that specifies either the gamma and endpoints members or the profileData and profileSize members, then the call treats the bitmap's pixels as being expressed in the color space described by those members, rather than in the device context's source color space.
+
+
+#### Examples
+
+For an example, see <a href="https://msdn.microsoft.com/7cbb2b7a-2d95-4352-9e75-aa814e8f01bd">Testing a Printer for JPEG or PNG Support</a>.
+
+<div class="code"></div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/84cc51e8-78f3-4ee6-bc08-94feff89afb0">BITMAPINFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/ef3abc8a-5d95-41d0-8eb6-47719d472414">Bitmap Functions</a>
+
+
+
+<a href="https://msdn.microsoft.com/ff0a5ae3-ae2e-4417-b5e5-0f9871c03964">Bitmaps Overview</a>
+
+
+
+<a href="https://msdn.microsoft.com/67bb0adf-ae7f-48d5-bc62-82ece45aeee6">GetSystemPaletteEntries</a>
+
+
+
+<a href="https://msdn.microsoft.com/706f4532-4073-4d5c-ae2d-e33aea9163e9">SetDIBits</a>
+
+
+
+<a href="https://msdn.microsoft.com/3d57a79a-338d-48ab-8161-3ce17739bf20">StretchDIBits</a>
+ 
+
+ 
+

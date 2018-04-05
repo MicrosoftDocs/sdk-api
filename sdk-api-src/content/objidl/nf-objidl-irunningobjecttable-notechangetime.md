@@ -1,0 +1,114 @@
+---
+UID: NF:objidl.IRunningObjectTable.NoteChangeTime
+title: IRunningObjectTable::NoteChangeTime method
+author: windows-driver-content
+description: Records the time that a running object was last modified. The object must have previously been registered with the running object table (ROT). This method stores the time of last change in the ROT.
+old-location: com\irunningobjecttable_notechangetime.htm
+old-project: com
+ms.assetid: 7bc410f8-3a39-478d-bc4d-adcd976f305b
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: IRunningObjectTable, IRunningObjectTable interface [COM], NoteChangeTime method, IRunningObjectTable::NoteChangeTime, NoteChangeTime method [COM], NoteChangeTime method [COM], IRunningObjectTable interface, NoteChangeTime,IRunningObjectTable.NoteChangeTime, _com_irunningobjecttable_notechangetime, com.irunningobjecttable_notechangetime, objidl/IRunningObjectTable::NoteChangeTime
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: objidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: ObjIdl.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: THDTYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	ObjIdl.h
+api_name:
+-	IRunningObjectTable.NoteChangeTime
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# IRunningObjectTable::NoteChangeTime method
+
+
+## -description
+
+
+Records the time that a running object was last modified. The object must have previously been registered with the running object table (ROT). This method stores the time of last change in the ROT.
+
+
+## -parameters
+
+
+
+
+### -param dwRegister [in]
+
+The identifier of the ROT entry of the changed object. This value was previously returned by <a href="https://msdn.microsoft.com/40f815b2-dfea-416c-aae1-7ba3a710ad91">IRunningObjectTable::Register</a>.
+
+
+### -param pfiletime [in]
+
+A pointer to a <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure containing the object's last change time.
+
+
+## -returns
+
+
+
+This method can return the standard return values E_INVALIDARG and S_OK.
+
+
+
+
+## -remarks
+
+
+
+The time recorded by this method can be retrieved by calling <a href="https://msdn.microsoft.com/fef6f7e5-7d91-4737-98a4-c9779c6c2be5">IRunningObjectTable::GetTimeOfLastChange</a>.
+
+<h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
+A moniker provider (hands out monikers identifying its objects to make them accessible to others) must call the <b>NoteChangeTime</b> method whenever its objects are modified. It must have previously called <a href="https://msdn.microsoft.com/40f815b2-dfea-416c-aae1-7ba3a710ad91">IRunningObjectTable::Register</a> and stored the identifier returned by that method; it uses that identifier when calling <b>NoteChangeTime</b>.
+
+
+
+The most common type of moniker provider is a compound-document link source. This includes server applications that support linking to their documents (or portions of a document) and container applications that support linking to embeddings within their documents. Server applications that do not support linking can also use the ROT to cooperate with container applications that support linking to embeddings. 
+
+
+
+When an object is first registered in the ROT, the ROT records its last change time as the value returned by calling <a href="https://msdn.microsoft.com/120cc951-6797-4ef6-890b-57ff8d3d23ba">IMoniker::GetTimeOfLastChange</a> on the moniker being registered. 
+
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/120cc951-6797-4ef6-890b-57ff8d3d23ba">IMoniker::GetTimeOfLastChange</a>
+
+
+
+<a href="https://msdn.microsoft.com/ff89bcb5-df6d-4325-b0e8-613217a68f42">IRunningObjectTable</a>
+ 
+
+ 
+

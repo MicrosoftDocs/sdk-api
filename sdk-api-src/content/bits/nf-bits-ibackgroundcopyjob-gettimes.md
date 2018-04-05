@@ -1,0 +1,121 @@
+---
+UID: NF:bits.IBackgroundCopyJob.GetTimes
+title: IBackgroundCopyJob::GetTimes method
+author: windows-driver-content
+description: Retrieves job-related time stamps, such as the time that the job was created or last modified.
+old-location: bits\ibackgroundcopyjob_gettimes.htm
+old-project: Bits
+ms.assetid: acc29cc2-b437-4799-9cdb-388a60f117e9
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: GetTimes method [BITS], GetTimes method [BITS], IBackgroundCopyJob interface, GetTimes,IBackgroundCopyJob.GetTimes, IBackgroundCopyJob, IBackgroundCopyJob interface [BITS], GetTimes method, IBackgroundCopyJob::GetTimes, _drz_ibackgroundcopyjob_gettimes, bits.ibackgroundcopyjob_gettimes, bits/IBackgroundCopyJob::GetTimes
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: bits.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP
+req.target-min-winversvr: Windows Server 2003
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Bits.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: BG_JOB_PROXY_USAGE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	QmgrPrxy.dll
+api_name:
+-	IBackgroundCopyJob.GetTimes
+product: Windows
+targetos: Windows
+req.lib: Bits.lib
+req.dll: QmgrPrxy.dll
+req.irql: 
+---
+
+# IBackgroundCopyJob::GetTimes method
+
+
+## -description
+
+
+Retrieves job-related time stamps, such as the time that the job was created or last modified.
+
+
+## -parameters
+
+
+
+
+### -param pVal
+
+
+
+
+
+
+#### - pTimes [out]
+
+Contains job-related time stamps. For available time stamps, see the 
+<a href="https://msdn.microsoft.com/d7ee63f7-e2d1-451d-b200-cccb86816f21">BG_JOB_TIMES</a> structure.
+
+
+## -returns
+
+
+
+This method returns the following <b>HRESULT</b> values, as well as others.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b><b>S_OK</b></b></dt>
+</dl>
+</td>
+<td width="60%">
+Time stamps were successfully retrieved.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+The <i>pTimes</i> parameter cannot be <b>NULL</b>.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/d7ee63f7-e2d1-451d-b200-cccb86816f21">BG_JOB_TIMES</a>
+ 
+
+ 
+

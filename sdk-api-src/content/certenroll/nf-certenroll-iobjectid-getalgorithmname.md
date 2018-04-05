@@ -1,0 +1,157 @@
+---
+UID: NF:certenroll.IObjectId.GetAlgorithmName
+title: IObjectId::GetAlgorithmName method
+author: windows-driver-content
+description: Retrieves the display name associated with an algorithm object identifier (OID).
+old-location: security\iobjectid_getalgorithmname.htm
+old-project: SecCertEnroll
+ms.assetid: 3d24d658-1016-4e63-8d93-5db0a3144121
+ms.author: windowsdriverdev
+ms.date: 3/29/2018
+ms.keywords: GetAlgorithmName method [Security], GetAlgorithmName method [Security], IObjectId interface, GetAlgorithmName,IObjectId.GetAlgorithmName, IObjectId, IObjectId interface [Security], GetAlgorithmName method, IObjectId::GetAlgorithmName, certenroll/IObjectId::GetAlgorithmName, security.iobjectid_getalgorithmname
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: certenroll.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: X509RequestType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	CertEnroll.dll
+api_name:
+-	IObjectId.GetAlgorithmName
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
+---
+
+# IObjectId::GetAlgorithmName method
+
+
+## -description
+
+
+The <b>GetAlgorithmName</b> method retrieves the display name associated with an algorithm <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID).
+
+
+## -parameters
+
+
+
+
+### -param GroupId [in]
+
+An <a href="https://msdn.microsoft.com/66a70cad-ce72-461b-8d71-605a62dd35b4">ObjectIdGroupId</a> enumeration value that specifies the OID group to search. This can be any of the following algorithm groups:
+
+<ul>
+<li><b>XCN_CRYPT_HASH_ALG_OID_GROUP_ID</b></li>
+<li><b>XCN_CRYPT_ENCRYPT_ALG_OID_GROUP_ID</b></li>
+<li><b>XCN_CRYPT_PUBKEY_ALG_OID_GROUP_ID</b></li>
+<li><b>XCN_CRYPT_SIGN_ALG_OID_GROUP_ID</b></li>
+</ul>
+In addition, you can also specify groups that do not contain cryptographic algorithms:
+
+<ul>
+<li><b>XCN_CRYPT_RDN_ATTR_OID_GROUP_ID</b></li>
+<li><b>XCN_CRYPT_EXT_OR_ATTR_OID_GROUP_ID</b></li>
+<li><b>XCN_CRYPT_ENHKEY_USAGE_OID_GROUP_ID</b></li>
+<li><b>XCN_CRYPT_POLICY_OID_GROUP_ID</b></li>
+<li><b>XCN_CRYPT_TEMPLATE_OID_GROUP_ID</b></li>
+</ul>
+
+### -param KeyFlags [in]
+
+An <a href="https://msdn.microsoft.com/f41a871a-0247-4c49-b6a0-66d31c54a0e3">ObjectIdPublicKeyFlags</a> enumeration value that specifies whether to search for a signing or an encryption algorithm. This can be one of the following values:<ul>
+<li><b>XCN_CRYPT_OID_INFO_PUBKEY_ANY</b></li>
+<li><b>XCN_CRYPT_OID_INFO_PUBKEY_SIGN_KEY_FLAG</b></li>
+<li><b>XCN_CRYPT_OID_INFO_PUBKEY_ENCRYPT_KEY_FLAG</b></li>
+</ul>You can use either of the last two values to disambiguate among algorithms such as RSA that can be used to both encrypt and sign messages. You must also specify <b>XCN_CRYPT_PUBKEY_ALG_OID_GROUP_ID</b> in the <i>GroupId</i> parameter. Specify <b>XCN_CRYPT_OID_INFO_PUBKEY_ANY</b> if you set the <i>GroupId</i> parameter to anything other than <b>XCN_CRYPT_PUBKEY_ALG_OID_GROUP_ID</b>.
+
+
+### -param pstrAlgorithmName [out]
+
+Pointer to a <b>BSTR</b> variable that contains the name.
+
+
+## -returns
+
+
+
+If the function succeeds, the function returns <b>S_OK</b>.
+
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+
+<table>
+<tr>
+<th>Return code/value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b><b>CERTSRV_E_PROPERTY_EMPTY</b></b></dt>
+<dt></dt>
+</dl>
+</td>
+<td width="60%">
+The string that contains the algorithm name is empty.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b><b>OLE_E_BLANK</b></b></dt>
+<dt></dt>
+</dl>
+</td>
+<td width="60%">
+The algorithm name could not be found. You must call <a href="https://msdn.microsoft.com/ba8c1f11-9380-43a9-b444-b0fff114a176">InitializeFromAlgorithmName</a> before calling <a href="https://msdn.microsoft.com/3d24d658-1016-4e63-8d93-5db0a3144121">GetAlgorithmName</a>.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+You can use the <b>XCN_CRYPT_ENCRYPT_ALG_OID_GROUP_ID</b> constant to create a <i>GroupId</i> parameter value that takes account of the key size for algorithms that can be identified by a variable bit length. For example, to initialize an <a href="https://msdn.microsoft.com/bc6608e3-cae7-4992-b599-06bc04cc8ad7">IObjectId</a> object from a 192-bit AES algorithm, specify "AES" for the <i>strAlgorithmName</i> parameter, shift the length left by 16, and perform a bitwise-OR combination on the shifted bit length and <b>XCN_CRYPT_ENCRYPT_ALG_OID_GROUP_ID</b>.
+
+If you set the <i>GroupId</i> parameter to anything other than <b>XCN_CRYPT_PUBKEY_ALG_OID_GROUP_ID</b>, specify <b>XCN_CRYPT_OID_INFO_PUBKEY_ANY</b> for the <i>KeyFlags</i> parameter.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/bc6608e3-cae7-4992-b599-06bc04cc8ad7">IObjectId</a>
+ 
+
+ 
+

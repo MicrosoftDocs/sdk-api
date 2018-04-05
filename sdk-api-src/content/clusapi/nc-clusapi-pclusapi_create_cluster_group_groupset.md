@@ -1,0 +1,90 @@
+---
+UID: NC:clusapi.PCLUSAPI_CREATE_CLUSTER_GROUP_GROUPSET
+title: PCLUSAPI_CREATE_CLUSTER_GROUP_GROUPSET
+author: windows-driver-content
+description: Adds a groupset to a cluster and returns a handle to the newly added groupset.
+old-location: mscs\createclustergroupcollection.htm
+old-project: MsCS
+ms.assetid: cb0cdf78-c6d6-47b3-bd11-5ab70416131b
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: PCLUSAPI_CREATE_CLUSTER_GROUP_GROUPSET, PCLUSAPI_CREATE_CLUSTER_GROUP_GROUPSET callback function [Failover Cluster], clusapi/PCLUSAPI_CREATE_CLUSTER_GROUP_GROUPSET, mscs.createclustergroupcollection
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: callback
+req.header: clusapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2016
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: LOG_MANAGEMENT_CALLBACKS, *PLOG_MANAGEMENT_CALLBACKS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	ClusAPI.h
+api_name:
+-	PCLUSAPI_CREATE_CLUSTER_GROUP_GROUPSET
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# PCLUSAPI_CREATE_CLUSTER_GROUP_GROUPSET callback
+
+
+## -description
+
+
+Adds a  groupset to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn922625">cluster</a> and returns a handle to the newly added groupset.
+
+
+## -parameters
+
+
+
+
+### -param hCluster [in]
+
+A handle to the target cluster.
+
+
+### -param lpszGroupSetName
+
+
+
+
+
+
+
+
+#### - groupSetName [in]
+
+Pointer to a null-terminated Unicode string containing the name of the groupset to be added.
+
+
+## -returns
+
+
+
+If the operation succeeds, 
+returns a groupset handle.
+
+If the operation fails, 
+returns <b>NULL</b>. For more information about the error, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+
+
+

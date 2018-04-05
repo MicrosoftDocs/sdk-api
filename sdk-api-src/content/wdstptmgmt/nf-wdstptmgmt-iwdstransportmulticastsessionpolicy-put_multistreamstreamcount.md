@@ -1,0 +1,74 @@
+---
+UID: NF:wdstptmgmt.IWdsTransportMulticastSessionPolicy.put_MultistreamStreamCount
+title: IWdsTransportMulticastSessionPolicy::put_MultistreamStreamCount method
+author: windows-driver-content
+description: Receives the maximum number of multicast streams per transmission used by the server.
+old-location: wds\iwdstransportmulticastsessionpolicy_multistreamstreamcount.htm
+old-project: Wds
+ms.assetid: 34dd6dc0-3ff9-4dc3-9805-8fbfa972c4e1
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: IWdsTransportMulticastSessionPolicy, IWdsTransportMulticastSessionPolicy interface [Windows Deployment Services], MultistreamStreamCount property, IWdsTransportMulticastSessionPolicy.MultistreamStreamCount, IWdsTransportMulticastSessionPolicy::get_MultistreamStreamCount, IWdsTransportMulticastSessionPolicy::put_MultistreamStreamCount, MultistreamStreamCount property [Windows Deployment Services], MultistreamStreamCount property [Windows Deployment Services], IWdsTransportMulticastSessionPolicy interface, put_MultistreamStreamCount,IWdsTransportMulticastSessionPolicy.put_MultistreamStreamCount, wds.iwdstransportmulticastsessionpolicy_multistreamstreamcount, wdstptmgmt/IWdsTransportMulticastSessionPolicy::MultistreamStreamCount, wdstptmgmt/IWdsTransportMulticastSessionPolicy::get_MultistreamStreamCount, wdstptmgmt/IWdsTransportMulticastSessionPolicy::put_MultistreamStreamCount
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wdstptmgmt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: Wdstptmgmt.tlb
+req.typenames: WDSTRANSPORT_TFTP_CAPABILITY, *PWDSTRANSPORT_TFTP_CAPABILITY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wdstptmgmt.dll
+api_name:
+-	IWdsTransportMulticastSessionPolicy.MultistreamStreamCount
+-	IWdsTransportMulticastSessionPolicy.get_MultistreamStreamCount
+-	IWdsTransportMulticastSessionPolicy.put_MultistreamStreamCount
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Wdstptmgmt.dll
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# IWdsTransportMulticastSessionPolicy::put_MultistreamStreamCount method
+
+
+## -description
+
+
+Receives  the maximum number of multicast streams per transmission used by the server. If the server is configured to handle slow clients using the multistream method, the server detects clients that slow transmission below this maximum and moves them to lower-speed streams of the same multicast transmission.   The server cannot move legacy clients that do not support the multistream handling option, and in this case, the server disconnects the client or instructs the client to fallback depending upon the <a href="https://msdn.microsoft.com/cce0ba98-382a-45d5-8381-06864061c529">SlowClientFallback</a> property.
+
+This property can be used to get or set the maximum stream count regardless of which method the server is using to handle  slow clients.
+
+This property is read/write.
+
+
+## -parameters
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/bb6677d6-7c60-486a-825a-bafec1f3ffed">IWdsTransportMulticastSessionPolicy</a>
+ 
+
+ 
+

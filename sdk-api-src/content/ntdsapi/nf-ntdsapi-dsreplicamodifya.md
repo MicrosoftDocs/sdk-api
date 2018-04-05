@@ -1,0 +1,234 @@
+---
+UID: NF:ntdsapi.DsReplicaModifyA
+title: DsReplicaModifyA function
+author: windows-driver-content
+description: Modifies an existing replication source reference for a destination naming context.
+old-location: ad\dsreplicamodify.htm
+old-project: AD
+ms.assetid: aad20527-1211-41bc-b0e9-02e4ab28ae2e
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: DS_REPL_NBR_COMPRESS_CHANGES, DS_REPL_NBR_DISABLE_SCHEDULED_SYNC, DS_REPL_NBR_DO_SCHEDULED_SYNCS, DS_REPL_NBR_IGNORE_CHANGE_NOTIFICATIONS, DS_REPL_NBR_NO_CHANGE_NOTIFICATIONS, DS_REPL_NBR_SYNC_ON_STARTUP, DS_REPL_NBR_TWO_WAY_SYNC, DS_REPMOD_ASYNCHRONOUS_OPERATION, DS_REPMOD_UPDATE_ADDRESS, DS_REPMOD_UPDATE_FLAGS, DS_REPMOD_UPDATE_RESULT, DS_REPMOD_UPDATE_SCHEDULE, DS_REPMOD_UPDATE_TRANSPORT, DS_REPMOD_WRITEABLE, DsReplicaModify, DsReplicaModify function [Active Directory], DsReplicaModifyA, DsReplicaModifyW, _glines_dsreplicamodify, ad.dsreplicamodify, ntdsapi/DsReplicaModify, ntdsapi/DsReplicaModifyA, ntdsapi/DsReplicaModifyW
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: ntdsapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: DsReplicaModifyW (Unicode) and DsReplicaModifyA (ANSI)
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: DS_REPL_OP_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Ntdsapi.dll
+api_name:
+-	DsReplicaModify
+-	DsReplicaModifyA
+-	DsReplicaModifyW
+product: Windows
+targetos: Windows
+req.lib: Ntdsapi.lib
+req.dll: Ntdsapi.dll
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# DsReplicaModifyA function
+
+
+## -description
+
+
+The <b>DsReplicaModify</b> function modifies an existing replication source reference for a destination naming context.
+
+
+## -parameters
+
+
+
+
+### -param hDS [in]
+
+Contains a directory service handle obtained from either the 
+<a href="https://msdn.microsoft.com/c73cd16d-ccfd-4f61-b1c5-50130bef64d7">DSBind</a> or 
+<a href="https://msdn.microsoft.com/708e3874-852c-4a57-bf4b-edaf98818fe5">DSBindWithCred</a> function.
+
+
+### -param NameContext [in]
+
+Pointer to a constant null-terminated string that specifies the distinguished name (DN) of the destination naming context (NC).
+
+
+### -param pUuidSourceDsa [in]
+
+Pointer to the UUID of the source directory system agent (DSA). This parameter may be null if <i>ModifyFields</i> does not include <b>DS_REPMOD_UPDATE_ADDRESS</b> and <i>SourceDsaAddress</i> is not <b>NULL</b>.
+
+
+### -param TransportDn [in]
+
+Reserved for future use. Any value other than <b>NULL</b> results in <b>ERROR_NOT_SUPPORTED</b> being returned.
+
+
+### -param SourceDsaAddress [in]
+
+Pointer to a constant null-terminated Unicode string that specifies the transport-specific address of the source DSA. This parameter is ignored if <i>pUuidSourceDsa</i> is not <b>NULL</b> and <i>ModifyFields</i> does not include <b>DS_REPMOD_UPDATE_ADDRESS</b>.
+
+
+### -param pSchedule [in]
+
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/mt764013">SCHEDULE</a> structure that contains the  replication schedule data for the replication source. This parameter is optional and can be <b>NULL</b> if not used. This parameter is required if <i>ModifyFields</i> contains the  <b>DS_REPMOD_UPDATE_SCHEDULE</b> flag.
+
+
+### -param ReplicaFlags [in]
+
+This parameter is used to control replication behavior and can take the following values.
+
+
+
+#### DS_REPL_NBR_SYNC_ON_STARTUP
+
+Replication of this naming context from this source is attempted when the destination server is booted. This normally only applies to intra-site neighbors.
+
+
+
+#### DS_REPL_NBR_DO_SCHEDULED_SYNCS
+
+Perform replication on a schedule. This flag is normally set unless the schedule for this naming context and source is "never", that is, the empty schedule.
+
+
+
+#### DS_REPL_NBR_TWO_WAY_SYNC
+
+If set, indicates that when inbound replication is complete, the destination server must tell the source server to synchronize in the reverse direction. This feature is used in dial-up scenarios where only one of the two servers can initiate a dial-up connection. For example, this option would be used in a corporate headquarters and branch office, where the branch office connects to the corporate headquarters over the Internet by means of a dial-up ISP connection.
+
+
+
+#### DS_REPL_NBR_IGNORE_CHANGE_NOTIFICATIONS
+
+This neighbor is set to disable notification-based synchronization. Within a site, domain controllers synchronize with each other based on notifications when changes occur. This setting prevents this neighbor from performing a synchronization triggered by a notification. The neighbor will still do synchronization based on its schedule or in response to manually requested synchronization.
+
+
+
+#### DS_REPL_NBR_DISABLE_SCHEDULED_SYNC
+
+This neighbor is set to not perform synchronization based on its schedule. The only way this neighbor will perform synchronization is in response to change notifications or to manually requested synchronization.
+
+
+
+#### DS_REPL_NBR_COMPRESS_CHANGES
+
+Changes received from this source are to be compressed. This is normally set if, and only if, the source server is in a different site.
+
+
+
+#### DS_REPL_NBR_NO_CHANGE_NOTIFICATIONS
+
+No change notifications should be received from this source. This is normally set if, and only if, the source server is in a different site.
+
+
+### -param ModifyFields [in]
+
+Specifies what fields should be modified. At least one field must be specified in <i>ModifyFields</i>. This parameter can be a combination of the following values.
+
+
+
+#### DS_REPMOD_UPDATE_ADDRESS
+
+Updates the address associated with the referenced server.
+
+
+
+#### DS_REPMOD_UPDATE_FLAGS
+
+Updates the flags associated with the replica.
+
+
+
+#### DS_REPMOD_UPDATE_RESULT
+
+Not used. Specifying updates of result values is not currently supported. Result values default to 0.
+
+
+
+#### DS_REPMOD_UPDATE_SCHEDULE
+
+Updates the periodic replication schedule associated with the replica.
+
+
+
+#### DS_REPMOD_UPDATE_TRANSPORT
+
+Updates the transport associated with the replica.
+
+
+### -param Options [in]
+
+Passes additional data used to process the request. This parameter can be a combination of the following values.
+
+
+
+#### DS_REPMOD_ASYNCHRONOUS_OPERATION
+
+Performs this operation asynchronously.
+
+
+
+#### DS_REPMOD_WRITEABLE
+
+Indicates that the replica being modified can be written to.
+
+
+## -returns
+
+
+
+If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
+
+If the function fails, the return value can be one of the following.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/a92783c2-ffb8-473e-8484-1c05ca5453ff">Domain Controller and Replication Management Functions</a>
+
+
+
+<a href="https://msdn.microsoft.com/33bd1b61-b9ed-479f-a128-fb7ddbb5e9af">DsReplicaAdd</a>
+
+
+
+<a href="https://msdn.microsoft.com/68c767c4-bbb6-477b-8ffb-94f3ae235375">DsReplicaDel</a>
+
+
+
+<a href="https://msdn.microsoft.com/20c7f96d-f298-4321-a6f5-910c25e418db">DsReplicaSync</a>
+
+
+
+<a href="https://msdn.microsoft.com/158c7e73-0e6c-4b71-a87f-2f60f3db91cb">DsReplicaUpdateRefs</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt764013">SCHEDULE</a>
+ 
+
+ 
+

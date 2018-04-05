@@ -1,0 +1,146 @@
+---
+UID: NF:oaidl.IRecordInfo.GetField
+title: IRecordInfo::GetField method
+author: windows-driver-content
+description: Returns a pointer to the VARIANT containing the value of a given field name.
+old-location: automat\irecordinfo_getfield.htm
+old-project: automat
+ms.assetid: 6765371c-209a-4794-bff8-83560171affb
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: GetField method [Automation], GetField method [Automation], IRecordInfo interface, GetField,IRecordInfo.GetField, IRecordInfo, IRecordInfo interface [Automation], GetField method, IRecordInfo::GetField, _oa96_IRecordInfo_GetField, automat.irecordinfo_getfield, oaidl/IRecordInfo::GetField
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: oaidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: OaIdl.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: VARKIND
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	oaidl.h
+api_name:
+-	IRecordInfo.GetField
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# IRecordInfo::GetField method
+
+
+## -description
+
+
+Returns a pointer to the VARIANT containing the value of a given field name.
+
+
+
+
+## -parameters
+
+
+
+
+### -param pvData [in]
+
+The instance of a record.
+
+
+
+### -param szFieldName [in]
+
+The field name.
+
+
+### -param pvarField [out]
+
+The VARIANT that you want to hold the value of the field name, <i>szFieldName</i>. On return, places a copy of the field's value in the variant.
+
+
+## -returns
+
+
+
+This method can return one of these values.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+Success.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG
+</b></dt>
+</dl>
+</td>
+<td width="60%">
+One or more of the arguments is not valid.
+
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+The VARIANT that you pass in contains a copy of the field's value upon return. If you modify the VARIANT then the underlying record field does not change.
+
+The caller allocates memory of the VARIANT.
+
+The method <a href="https://msdn.microsoft.com/28741d81-8404-4f85-95d3-5c209ec13835">VariantClear</a> is called for <i>pvarField</i> before copying.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/065ebfa8-bfac-4c75-a3f9-9dc0409ea454">IRecordInfo</a>
+
+
+
+<a href="https://msdn.microsoft.com/28741d81-8404-4f85-95d3-5c209ec13835">VariantClear</a>
+ 
+
+ 
+

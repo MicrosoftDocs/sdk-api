@@ -1,0 +1,121 @@
+---
+UID: NF:photoacquire.IPhotoAcquireOptionsDialog.DoModal
+title: IPhotoAcquireOptionsDialog::DoModal method
+author: windows-driver-content
+description: The DoModal method creates and displays the options dialog box as a modal dialog box.
+old-location: picacq\iphotoacquireoptionsdialog_domodal.htm
+old-project: acquisition
+ms.assetid: fbceebc3-10dd-4028-9672-1976a459cafe
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: DoModal method [Picture Acquisition], DoModal method [Picture Acquisition], IPhotoAcquireOptionsDialog interface, DoModal,IPhotoAcquireOptionsDialog.DoModal, IPhotoAcquireOptionsDialog, IPhotoAcquireOptionsDialog interface [Picture Acquisition], DoModal method, IPhotoAcquireOptionsDialog::DoModal, IPhotoAcquireOptionsDialogDoModal, photoacquire/IPhotoAcquireOptionsDialog::DoModal, picacq.iphotoacquireoptionsdialog_domodal
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: photoacquire.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: USER_INPUT_STRING_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	PhotoAcquireUID.lib
+-	PhotoAcquireUID.dll
+api_name:
+-	IPhotoAcquireOptionsDialog.DoModal
+product: Windows
+targetos: Windows
+req.lib: PhotoAcquireUID.lib
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# IPhotoAcquireOptionsDialog::DoModal method
+
+
+## -description
+
+
+
+The <code>DoModal</code> method creates and displays the options dialog box as a modal dialog box.
+
+
+
+
+## -parameters
+
+
+
+
+### -param hWndParent [in]
+
+Handle to the dialog's parent window.
+
+
+### -param ppnReturnCode [out]
+
+Specifies the code returned when the window is closed.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+The modal dialog displayed by <b>DoModal</b> will have <b>OK</b> and <b>Cancel</b> buttons, whereas the <b>OK</b> and <b>Cancel</b> buttons of the modeless dialog displayed by <a href="https://msdn.microsoft.com/22eb58d2-f1cf-4115-a5d4-dceb1d3ba4ad">Create</a> must be provided by the parent window.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/075e188f-e533-403d-be06-6a3260479f1a">IPhotoAcquireOptionsDialog Interface</a>
+ 
+
+ 
+

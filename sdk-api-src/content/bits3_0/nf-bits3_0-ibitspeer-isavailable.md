@@ -1,0 +1,121 @@
+---
+UID: NF:bits3_0.IBitsPeer.IsAvailable
+title: IBitsPeer::IsAvailable method
+author: windows-driver-content
+description: Determines whether the peer is available (online) to serve content.
+old-location: bits\ibitspeer_isavailable.htm
+old-project: Bits
+ms.assetid: e38166da-2139-4108-bb8a-74bb7a7997c1
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: IBitsPeer, IBitsPeer interface [BITS], IsAvailable method, IBitsPeer::IsAvailable, IsAvailable method [BITS], IsAvailable method [BITS], IBitsPeer interface, IsAvailable,IBitsPeer.IsAvailable, bits.ibitspeer_isavailable, bits3_0/IBitsPeer::IsAvailable
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: bits3_0.h
+req.include-header: Bits.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Bits3_0.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: BG_CERT_STORE_LOCATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Bits.lib
+-	Bits.dll
+api_name:
+-	IBitsPeer.IsAvailable
+product: Windows
+targetos: Windows
+req.lib: Bits.lib
+req.dll: 
+req.irql: 
+---
+
+# IBitsPeer::IsAvailable method
+
+
+## -description
+
+
+Determines whether the peer is available (online) to serve content.
+
+
+## -parameters
+
+
+
+
+### -param pOnline
+
+
+
+
+
+
+#### - pAvailable [out]
+
+<b>TRUE</b> if the peer is available to serve content, otherwise, <b>FALSE</b>.
+
+
+## -returns
+
+
+
+The method returns the following return values.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+Success
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+If this peer goes offline while BITS is downloading content from it, BITS immediately begins downloading from the origin server. 
+
+If the peer stays offline for an extended period of time, BITS removes the peer from the neighborhood.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/617b88d4-6c3e-4c33-9bfa-6d9f6f629866">IBitsPeer</a>
+ 
+
+ 
+

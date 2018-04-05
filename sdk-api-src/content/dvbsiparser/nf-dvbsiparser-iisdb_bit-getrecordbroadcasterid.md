@@ -1,0 +1,97 @@
+---
+UID: NF:dvbsiparser.IISDB_BIT.GetRecordBroadcasterId
+title: IISDB_BIT::GetRecordBroadcasterId method
+author: windows-driver-content
+description: Gets the broadcaster_id field from a record in an Integrated Services Digital Broadcasting (ISDB) broadcaster information table (BIT).
+old-location: mstv\iisdb_bit_getrecordbroadcasterid.htm
+old-project: mstv
+ms.assetid: 9decce55-599b-42c2-a715-84a6f4eefc33
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: GetRecordBroadcasterId method [Microsoft TV Technologies], GetRecordBroadcasterId method [Microsoft TV Technologies], IISDB_BIT interface, GetRecordBroadcasterId,IISDB_BIT.GetRecordBroadcasterId, IISDB_BIT, IISDB_BIT interface [Microsoft TV Technologies], GetRecordBroadcasterId method, IISDB_BIT::GetRecordBroadcasterId, dvbsiparser/IISDB_BIT::GetRecordBroadcasterId, mstv.iisdb_bit_getrecordbroadcasterid
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: dvbsiparser.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: None supported
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Dvbsiparser.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	dvbsiparser.h
+api_name:
+-	IISDB_BIT.GetRecordBroadcasterId
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
+---
+
+# IISDB_BIT::GetRecordBroadcasterId method
+
+
+## -description
+
+
+
+  Gets the broadcaster_id field from
+  a record in an Integrated Services Digital Broadcasting (ISDB) broadcaster
+  information table
+  (BIT).
+  
+
+
+## -parameters
+
+
+
+
+### -param dwRecordIndex [in]
+
+
+  Specifies the record number, indexed from zero.
+  Call the <a href="https://msdn.microsoft.com/3f36c03a-462e-479a-ad8c-5322377dbca0">IISDB_BIT::GetCountOfRecords</a> method to get the number of records in the BIT.
+
+
+
+### -param pbVal [out]
+
+Receives the broadcaster_id field.
+
+
+## -returns
+
+
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/0ec4497c-68c3-4b0e-a9e4-332e42b2c89b">IISDB_BIT</a>
+ 
+
+ 
+

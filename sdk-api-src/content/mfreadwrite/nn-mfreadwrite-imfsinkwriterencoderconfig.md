@@ -1,0 +1,118 @@
+---
+UID: NN:mfreadwrite.IMFSinkWriterEncoderConfig
+title: IMFSinkWriterEncoderConfig
+author: windows-driver-content
+description: Provides additional functionality on the sink writer for dynamically changing the media type and encoder configuration.
+old-location: mf\imfsinkwriterencoderconfig.htm
+old-project: medfound
+ms.assetid: 3a0d090d-9eb1-4624-989b-c5da27b988aa
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: IMFSinkWriterEncoderConfig, IMFSinkWriterEncoderConfig interface [Media Foundation], IMFSinkWriterEncoderConfig interface [Media Foundation], described, mf.imfsinkwriterencoderconfig, mfreadwrite/IMFSinkWriterEncoderConfig
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: interface
+req.header: mfreadwrite.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Mfreadwrite.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MF_SOURCE_READER_FLAG
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfreadwrite.h
+api_name:
+-	IMFSinkWriterEncoderConfig
+product: Windows
+targetos: Windows
+req.lib: Mfreadwrite.lib
+req.dll: Mfreadwrite.dll
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IMFSinkWriterEncoderConfig interface
+
+
+## -description
+
+
+Provides additional functionality on the sink writer for dynamically changing the media type and encoder configuration. 
+
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSinkWriterEncoderConfig</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMFSinkWriterEncoderConfig</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
+
+## -members
+
+The <b>IMFSinkWriterEncoderConfig</b> interface has these methods.
+<table class="members" id="memberListMethods">
+<tr>
+<th align="left" width="37%">Method</th>
+<th align="left" width="63%">Description</th>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/ea09d806-c869-4a62-8f9d-c35db4e406ff">PlaceEncodingParameters</a>
+</td>
+<td align="left" width="63%">
+Dynamically updates the encoder configuration with a collection of new encoder settings.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/26d6ee83-5899-40e7-8b71-ca47f5b0d1c1">SetTargetMediaType</a>
+</td>
+<td align="left" width="63%">
+Dynamically changes the target media type that Sink Writer is encoding to. 
+
+</td>
+</tr>
+</table> 
+
+
+## -remarks
+
+
+
+The <a href="https://msdn.microsoft.com/23AF25B8-B94C-48BC-83D8-5863ACFFD4CA">Sink Writer</a> implements this interface in Windows 8.1. To get a pointer to this interface, call <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> on the <a href="https://msdn.microsoft.com/76fb915e-1586-429a-88a5-bd1290799352">IMFSinkWriter</a>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/76fb915e-1586-429a-88a5-bd1290799352">IMFSinkWriter</a>
+
+
+
+<a href="https://msdn.microsoft.com/77E6CB22-E3B5-4D5E-8876-48582F75AA5C">IMFSinkWriterEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/3e367190-4c88-430e-adbf-9837e1bf0d2b">Media Foundation Interfaces</a>
+ 
+
+ 
+

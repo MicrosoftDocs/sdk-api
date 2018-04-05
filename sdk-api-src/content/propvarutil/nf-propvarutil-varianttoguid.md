@@ -1,0 +1,84 @@
+---
+UID: NF:propvarutil.VariantToGUID
+title: VariantToGUID function
+author: windows-driver-content
+description: Extracts a GUID property value of a variant structure.
+old-location: properties\VariantToGUID.htm
+old-project: properties
+ms.assetid: 1af84b55-da7e-430c-97fe-1c544a40c039
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: VariantToGUID, VariantToGUID function [Windows Properties], _shell_VariantToGUID, properties.VariantToGUID, propvarutil/VariantToGUID, shell.VariantToGUID
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: propvarutil.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: PROPVAR_COMPARE_UNIT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Propsys.dll
+api_name:
+-	VariantToGUID
+product: Windows
+targetos: Windows
+req.lib: Propsys.lib
+req.dll: Propsys.dll (version 6.0 or later)
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# VariantToGUID function
+
+
+## -description
+
+
+Extracts a <b>GUID</b> property value of a variant structure.
+
+
+## -parameters
+
+
+
+
+### -param varIn [in]
+
+Type: <b>REFVARIANT</b>
+
+Reference to a source variant structure.
+
+
+### -param pguid [out]
+
+Type: <b>GUID*</b>
+
+Pointer to the extracted property value.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+

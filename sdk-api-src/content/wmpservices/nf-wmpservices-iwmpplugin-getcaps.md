@@ -1,0 +1,100 @@
+---
+UID: NF:wmpservices.IWMPPlugin.GetCaps
+title: IWMPPlugin::GetCaps method
+author: windows-driver-content
+description: The IWMPPlugin::GetCaps method returns a flag that specifies whether the plug-in can convert between an input format and an output format.
+old-location: wmp\iwmpplugin_getcaps.htm
+old-project: WMP
+ms.assetid: f8b38453-47a3-4330-88f8-8d8993089f75
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: GetCaps method [Windows Media Player], GetCaps method [Windows Media Player], IWMPPlugin interface, GetCaps,IWMPPlugin.GetCaps, IWMPPlugin, IWMPPlugin interface [Windows Media Player], GetCaps method, IWMPPlugin::GetCaps, IWMPPluginGetCapsDSP, wmp.iwmpplugin_getcaps, wmpservices/IWMPPlugin::GetCaps
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wmpservices.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Media Player 9 Series or later.
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WMPServices_StreamState
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	wmpservices.h
+api_name:
+-	IWMPPlugin.GetCaps
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IWMPPlugin::GetCaps method
+
+
+## -description
+
+
+
+The <b>IWMPPlugin::GetCaps</b> method returns a flag that specifies whether the plug-in can convert between an input format and an output format.
+
+
+
+
+## -parameters
+
+
+
+
+### -param pdwFlags [out]
+
+Pointer to a variable that specifies whether the plug-in can convert formats. The specified value is a bitwise combination of zero or more flags from the <b>WMPPlugin_Caps</b> enumeration.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>.
+
+
+
+
+## -remarks
+
+
+
+There are currently two possible [out] values that the plug-in may specify: zero to indicate that the plug-in can convert formats, or <b>WMPPlugin_Caps_CannotConvertFormats</b>, which forces Windows Media Player to handle any necessary format conversion.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/e384aa43-72ab-44b7-b6bd-7a29335b5197">IWMPPlugin Interface</a>
+
+
+
+<a href="https://msdn.microsoft.com/0f6cad76-7583-4272-88d7-25a121a0c2b9">WMPPlugin_Caps</a>
+ 
+
+ 
+

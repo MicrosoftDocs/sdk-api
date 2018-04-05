@@ -1,0 +1,149 @@
+---
+UID: NF:tom.ITextRange.ScrollIntoView
+title: ITextRange::ScrollIntoView method
+author: windows-driver-content
+description: Scrolls the specified range into view.
+old-location: controls\ITextRange_ScrollIntoView.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\scrollintoview.htm
+ms.author: windowsdriverdev
+ms.date: 3/31/2018
+ms.keywords: ITextRange, ITextRange interface [Windows Controls], ScrollIntoView method, ITextRange::ScrollIntoView, ScrollIntoView method [Windows Controls], ScrollIntoView method [Windows Controls], ITextRange interface, ScrollIntoView,ITextRange.ScrollIntoView, _win32_ITextRange_ScrollIntoView, _win32_ITextRange_ScrollIntoView_cpp, controls.ITextRange_ScrollIntoView, controls._win32_ITextRange_ScrollIntoView, tom/ITextRange::ScrollIntoView, tomEnd, tomNoUpScroll, tomNoVpScroll, tomStart
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: tom.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MANCODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Msftedit.dll
+api_name:
+-	ITextRange.ScrollIntoView
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# ITextRange::ScrollIntoView method
+
+
+## -description
+
+
+Scrolls the specified range into view. 
+
+
+## -parameters
+
+
+
+
+### -param Value
+
+
+
+
+
+
+#### - bStart
+
+Type: <b>long</b>
+
+Flag specifying the end to scroll into view. It can be one of the following.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="tomEnd"></a><a id="tomend"></a><a id="TOMEND"></a><dl>
+<dt><b><a href="tomconstants.htm">tomEnd</a></b></dt>
+</dl>
+</td>
+<td width="60%">
+Scrolls the end character position to appear on the bottom line.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="tomStart"></a><a id="tomstart"></a><a id="TOMSTART"></a><dl>
+<dt><b><a href="tomconstants.htm">tomStart</a></b></dt>
+</dl>
+</td>
+<td width="60%">
+Scrolls the start character position to appear on the top line. (Default value).
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="tomNoUpScroll"></a><a id="tomnoupscroll"></a><a id="TOMNOUPSCROLL"></a><dl>
+<dt><b><a href="tomconstants.htm">tomNoUpScroll</a></b></dt>
+</dl>
+</td>
+<td width="60%"></td>
+</tr>
+<tr>
+<td width="40%"><a id="tomNoVpScroll"></a><a id="tomnovpscroll"></a><a id="TOMNOVPSCROLL"></a><dl>
+<dt><b><a href="tomconstants.htm">tomNoVpScroll</a></b></dt>
+</dl>
+</td>
+<td width="60%"></td>
+</tr>
+</table>
+ 
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+The method returns an <b>HRESULT</b> value. If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns S_FALSE.
+
+
+
+
+## -see-also
+
+
+
+
+<b>Conceptual</b>
+
+
+
+<a href="https://msdn.microsoft.com/e19678cb-f951-458c-bf96-de4b123fd63a">ITextRange</a>
+
+
+
+<b>Reference</b>
+
+
+
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
+ 
+
+ 
+

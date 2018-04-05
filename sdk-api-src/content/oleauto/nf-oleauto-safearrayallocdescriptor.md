@@ -1,0 +1,177 @@
+---
+UID: NF:oleauto.SafeArrayAllocDescriptor
+title: SafeArrayAllocDescriptor function
+author: windows-driver-content
+description: Allocates memory for a safe array descriptor.
+old-location: automat\safearrayallocdescriptor.htm
+old-project: automat
+ms.assetid: 8fe5c802-cdc0-4e7a-9410-ba65f9a5140e
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: SafeArrayAllocDescriptor, SafeArrayAllocDescriptor function [Automation], _oa96_SafeArrayAllocDescriptor, automat.safearrayallocdescriptor, oleauto/SafeArrayAllocDescriptor
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: oleauto.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: REGKIND
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	OleAut32.dll
+api_name:
+-	SafeArrayAllocDescriptor
+product: Windows
+targetos: Windows
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# SafeArrayAllocDescriptor function
+
+
+## -description
+
+
+Allocates memory for a safe array descriptor.
+
+
+## -parameters
+
+
+
+
+### -param cDims [in]
+
+The number of dimensions of the array.
+
+
+
+
+### -param ppsaOut [out]
+
+The safe array descriptor.
+
+
+## -returns
+
+
+
+This function can return one of these values.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+Success.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+The argument <i>psa</i> was not valid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_UNEXPECTED</b></dt>
+</dl>
+</td>
+<td width="60%">
+The array could not be locked.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+This function allows the creation of safe arrays that contain elements with data types other than those provided by <a href="5B94F1A2-A558-473F-85DD-9545C0464CC7">SafeArrayCreate</a>. After creating an array descriptor using <b>SafeArrayAllocDescriptor</b>, set the element size in the array descriptor, an call <a href="A1F984CD-9638-415D-8582-25B1BDFBD694">SafeArrayAllocData</a> to allocate memory for the array elements.
+
+
+#### Examples
+
+The following example creates a safe array using the <b>SafeArrayAllocDescriptor</b> and <a href="https://msdn.microsoft.com/a1f984cd-9638-415d-8582-25b1bdfbd694">SafeArrayAllocData</a> functions.
+
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>SAFEARRAY *psa;
+unsigned int ndim =  2;
+HRESULT hresult = SafeArrayAllocDescriptor( ndim, &amp;psa );
+if( FAILED( hresult ) )
+   return ERR_OutOfMemory;
+(psa)-&gt;rgsabound[ 0 ].lLbound = 0;
+(psa)-&gt;rgsabound[ 0 ].cElements = 5;
+(psa)-&gt;rgsabound[ 1 ].lLbound = 1;
+(psa)-&gt;rgsabound[ 1 ].cElements = 4;
+hresult = SafeArrayAllocData( psa );
+if( FAILED( hresult ) ) {
+   SafeArrayDestroyDescriptor( psa )
+   return ERR_OutOfMemory;
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/a1f984cd-9638-415d-8582-25b1bdfbd694">SafeArrayAllocData</a>
+
+
+
+<a href="https://msdn.microsoft.com/aa9c62ba-79b5-4fcf-b3ed-664016486dfc">SafeArrayDestroyData</a>
+
+
+
+<a href="https://msdn.microsoft.com/f1e8de45-673b-4f20-a639-18c724c82df1">SafeArrayDestroyDescriptor</a>
+ 
+
+ 
+

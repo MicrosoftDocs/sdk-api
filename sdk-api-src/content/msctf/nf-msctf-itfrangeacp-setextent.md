@@ -1,0 +1,143 @@
+---
+UID: NF:msctf.ITfRangeACP.SetExtent
+title: ITfRangeACP::SetExtent method
+author: windows-driver-content
+description: ITfRangeACP::SetExtent method
+old-location: tsf\itfrangeacp_setextent.htm
+old-project: TSF
+ms.assetid: 7b409ba8-dce6-4b42-8cfe-f159de1cad2c
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: ITfRangeACP, ITfRangeACP interface [Text Services Framework], SetExtent method, ITfRangeACP::SetExtent, SetExtent method [Text Services Framework], SetExtent method [Text Services Framework], ITfRangeACP interface, SetExtent,ITfRangeACP.SetExtent, _tsf_itfrangeacp_setextent_ref, msctf/ITfRangeACP::SetExtent, tsf.itfrangeacp_setextent
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: msctf.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Msctf.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: TF_DA_ATTR_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	msctf.dll
+api_name:
+-	ITfRangeACP.SetExtent
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# ITfRangeACP::SetExtent method
+
+
+## -description
+
+
+
+
+## -parameters
+
+
+
+
+### -param acpAnchor [in]
+
+Contains the application character position of the range start anchor.
+
+
+### -param cch [in]
+
+Contains the number of characters in the range.
+
+
+## -returns
+
+
+
+This method can return one of these values.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method was successful.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+One or more parameters are invalid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_FAIL</b></dt>
+</dl>
+</td>
+<td width="60%">
+An unspecified error occurred.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+This method should only be called by the owner of the ACP-based context because the character position and range length will only have meaning to a caller that recognizes the text store implementation.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/aaa497ca-4cf2-401a-a6d8-cc8a75479cc4">ITfRangeACP</a>
+
+
+
+<a href="https://msdn.microsoft.com/14838cea-1a19-4faa-ac7f-617fde82432d">ITfRangeACP::GetExtent
+      </a>
+ 
+
+ 
+

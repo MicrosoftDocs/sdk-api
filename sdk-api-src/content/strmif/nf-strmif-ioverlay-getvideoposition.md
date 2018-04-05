@@ -1,0 +1,97 @@
+---
+UID: NF:strmif.IOverlay.GetVideoPosition
+title: IOverlay::GetVideoPosition method
+author: windows-driver-content
+description: The GetVideoPosition method retrieves the current video source and destination rectangles.
+old-location: dshow\ioverlay_getvideoposition.htm
+old-project: DirectShow
+ms.assetid: a140cc63-29a1-4c81-8393-7f4342c7b7cc
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: GetVideoPosition method [DirectShow], GetVideoPosition method [DirectShow], IOverlay interface, GetVideoPosition,IOverlay.GetVideoPosition, IOverlay, IOverlay interface [DirectShow], GetVideoPosition method, IOverlay::GetVideoPosition, IOverlayGetVideoPosition, dshow.ioverlay_getvideoposition, strmif/IOverlay::GetVideoPosition
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: strmif.h
+req.include-header: Dshow.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: DVD_RELATIVE_BUTTON
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Strmiids.lib
+-	Strmiids.dll
+api_name:
+-	IOverlay.GetVideoPosition
+product: Windows
+targetos: Windows
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1
+---
+
+# IOverlay::GetVideoPosition method
+
+
+## -description
+
+
+
+The <code>GetVideoPosition</code> method retrieves the current video source and destination rectangles.
+
+
+
+
+## -parameters
+
+
+
+
+### -param pSourceRect [out]
+
+Pointer to a <b>RECT</b> structure that receives the source rectangle.
+
+
+### -param pDestinationRect [in]
+
+Pointer to to a <b>RECT</b> structure that receives the destination rectangle.
+
+
+## -returns
+
+
+
+Returns S_OK if successful. If the method fails, it returns an <b>HRESULT</b> error code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+
+
+
+<a href="https://msdn.microsoft.com/2d49888a-7046-4779-9634-d181fa582584">IOverlay Interface</a>
+ 
+
+ 
+

@@ -1,0 +1,83 @@
+---
+UID: NF:oleauto.VarR8Pow
+title: VarR8Pow function
+author: windows-driver-content
+description: Performs the power function for variants of type double.
+old-location: automat\varr8pow.htm
+old-project: automat
+ms.assetid: 45ad59e7-f829-43f0-85f8-9cabb2a36ddf
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: VarR8Pow, VarR8Pow function [Automation], _oa96_VarR8Pow, automat.varr8pow, oleauto/VarR8Pow
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: oleauto.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: REGKIND
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	OleAut32.dll
+api_name:
+-	VarR8Pow
+product: Windows
+targetos: Windows
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# VarR8Pow function
+
+
+## -description
+
+
+Performs the power function for variants of type double.
+
+
+## -parameters
+
+
+
+
+### -param dblLeft [in]
+
+The first variant.
+
+
+### -param dblRight [in]
+
+The second variant.
+
+
+### -param pdblResult [out]
+
+The result.
+
+
+## -returns
+
+
+
+If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+

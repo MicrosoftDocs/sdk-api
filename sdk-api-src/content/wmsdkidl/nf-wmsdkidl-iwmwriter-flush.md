@@ -1,0 +1,87 @@
+---
+UID: NF:wmsdkidl.IWMWriter.Flush
+title: IWMWriter::Flush method
+author: windows-driver-content
+description: The functionality of the Flush method has been removed, because IWMWriter::EndWriting performs the needed checks internally. For compatibility with older applications, calls to flush will always return S_OK even though the call does nothing.
+old-location: wmformat\iwmwriter_flush.htm
+old-project: wmformat
+ms.assetid: 1fa0c482-f1f5-4d3c-8268-731914caefa3
+ms.author: windowsdriverdev
+ms.date: 3/23/2018
+ms.keywords: Flush method [windows Media Format], Flush method [windows Media Format], IWMWriter interface, Flush,IWMWriter.Flush, IWMWriter, IWMWriter interface [windows Media Format], Flush method, IWMWriter::Flush, IWMWriterFlush, wmformat.iwmwriter_flush, wmsdkidl/IWMWriter::Flush
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wmsdkidl.h
+req.include-header: Wmsdk.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WM_AETYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wmvcore.lib
+-	Wmvcore.dll
+-	WMStubDRM.lib
+-	WMStubDRM.dll
+api_name:
+-	IWMWriter.Flush
+product: Windows
+targetos: Windows
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IWMWriter::Flush method
+
+
+## -description
+
+
+
+The functionality of the <b>Flush</b> method has been removed, because <a href="https://msdn.microsoft.com/020e2c9d-9581-48c9-bc7b-a0e9e5a60c63">IWMWriter::EndWriting</a> performs the needed checks internally. For compatibility with older applications, calls to flush will always return S_OK even though the call does nothing.
+
+
+
+
+## -parameters
+
+
+
+
+
+
+## -returns
+
+
+
+This method always returns S_OK.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/a194ef11-5203-4e85-af91-cdce0c53fe76">IWMWriter Interface</a>
+ 
+
+ 
+

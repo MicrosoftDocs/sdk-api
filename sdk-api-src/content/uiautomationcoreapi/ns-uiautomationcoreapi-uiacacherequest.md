@@ -1,0 +1,108 @@
+---
+UID: NS:uiautomationcoreapi.UiaCacheRequest
+title: UiaCacheRequest
+author: windows-driver-content
+description: Note  This structure is deprecated.  Contains information about a request to cache data about UI Automation elements.
+old-location: winauto\uiauto_UiaCacheRequestStruct.htm
+old-project: WinAuto
+ms.assetid: 426355e4-50ce-4189-824d-c2256903224c
+ms.author: windowsdriverdev
+ms.date: 3/29/2018
+ms.keywords: UiaCacheRequest, UiaCacheRequest structure [Windows Accessibility], uiauto.uiauto_UiaCacheRequestStruct, uiauto_UiaCacheRequestStruct, uiautomationcoreapi/UiaCacheRequest, winauto.uiauto_UiaCacheRequestStruct
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: struct
+req.header: uiautomationcoreapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	UIAutomationCoreApi.h
+api_name:
+-	UiaCacheRequest
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# UiaCacheRequest structure
+
+
+## -description
+
+
+<div class="alert"><b>Note</b>  This structure is deprecated.</div><div> </div>  Contains information about a request to cache data about UI Automation elements.
+
+
+## -struct-fields
+
+
+
+
+### -field pViewCondition
+
+Type: <b>UiaCondition *</b>
+
+The address of a <a href="https://msdn.microsoft.com/82b5db01-08c9-4518-9d33-15d7813d0c80">UiaCondition</a> structure that specifies the condition that cached elements must match.
+
+
+### -field Scope
+
+Type: <b><a href="https://msdn.microsoft.com/eb9e05b3-bcfa-4fed-9cc9-6ea8a778618e">TreeScope</a></b>
+
+A value from the <a href="https://msdn.microsoft.com/eb9e05b3-bcfa-4fed-9cc9-6ea8a778618e">TreeScope</a> enumerated type indicating the scope of the cache request; for example, whether it includes children of the root element.
+
+
+### -field pProperties
+
+Type: <b>PROPERTYID*</b>
+
+The address of an array of identifiers for properties to cache. For a list of property IDs, see <a href="https://msdn.microsoft.com/c05163ea-ba06-4005-9b80-661015b9d2ef">Property Identifiers</a>.
+
+
+### -field cProperties
+
+Type: <b>int</b>
+
+The count of elements in the <b>pProperties</b> array.
+
+
+### -field pPatterns
+
+Type: <b>PATTERNID*</b>
+
+The address of an array of identifiers for control patterns to cache. For a list of control pattern IDs, see <a href="https://msdn.microsoft.com/0192e840-96e6-4b12-a570-0d33a36ed885">Control Pattern Identifiers</a>.
+
+
+### -field cPatterns
+
+Type: <b>int</b>
+
+The count of elements in the <b>pPatterns</b> array.
+
+
+### -field automationElementMode
+
+Type: <b><a href="https://msdn.microsoft.com/b0fadf47-2916-4555-b563-d0b5cd9056e6">AutomationElementMode</a></b>
+
+A value from the <a href="https://msdn.microsoft.com/b0fadf47-2916-4555-b563-d0b5cd9056e6">AutomationElementMode</a> enumerated type indicating the type of reference to cached UI Automation elements that is to be returned.
+

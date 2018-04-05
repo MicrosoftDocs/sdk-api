@@ -1,0 +1,93 @@
+---
+UID: NF:encdec.IDTFilterConfig.GetSecureChannelObject
+title: IDTFilterConfig::GetSecureChannelObject method
+author: windows-driver-content
+description: The GetSecureChannelObject method retrieves the secure channel object used to decrypt the stream.
+old-location: mstv\idtfilterconfig_getsecurechannelobject.htm
+old-project: mstv
+ms.assetid: 84057a08-b15f-4738-814d-c016507ac590
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: GetSecureChannelObject method [Microsoft TV Technologies], GetSecureChannelObject method [Microsoft TV Technologies], IDTFilterConfig interface, GetSecureChannelObject,IDTFilterConfig.GetSecureChannelObject, IDTFilterConfig, IDTFilterConfig interface [Microsoft TV Technologies], GetSecureChannelObject method, IDTFilterConfig::GetSecureChannelObject, IDTFilterConfigGetSecureChannelObject, encdec/IDTFilterConfig::GetSecureChannelObject, mstv.idtfilterconfig_getsecurechannelobject
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: encdec.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
+req.target-min-winversvr: None supported
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: ProtType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	EncDec.h
+api_name:
+-	IDTFilterConfig.GetSecureChannelObject
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
+---
+
+# IDTFilterConfig::GetSecureChannelObject method
+
+
+## -description
+
+
+The <b>GetSecureChannelObject</b> method retrieves the secure channel object used to decrypt the stream.
+
+
+## -parameters
+
+
+
+
+### -param ppUnkDRMSecureChannel [out]
+
+Receives a pointer to the secure channel object's <b>IUnknown</b> interface.
+
+
+## -returns
+
+
+
+Returns an <b>HRESULT</b>.
+
+
+
+
+## -remarks
+
+
+
+If the method succeeds, the caller must release the <b>IUnknown</b> interface.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/1f6d7969-3207-48f8-8972-0a95287ccc71">IDTFilterConfig Interface</a>
+ 
+
+ 
+

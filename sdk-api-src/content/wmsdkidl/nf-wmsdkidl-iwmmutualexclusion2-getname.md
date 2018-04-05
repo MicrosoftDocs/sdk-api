@@ -1,0 +1,136 @@
+---
+UID: NF:wmsdkidl.IWMMutualExclusion2.GetName
+title: IWMMutualExclusion2::GetName method
+author: windows-driver-content
+description: The GetName method retrieves the name of the current mutual exclusion object. A mutual exclusion object has a name only if a name has been assigned using the IWMMutualExclusion2::SetName method.
+old-location: wmformat\iwmmutualexclusion2_getname.htm
+old-project: wmformat
+ms.assetid: da62ed2e-7356-4b4e-b2c5-6c18ef806ba7
+ms.author: windowsdriverdev
+ms.date: 3/23/2018
+ms.keywords: GetName method [windows Media Format], GetName method [windows Media Format], IWMMutualExclusion2 interface, GetName,IWMMutualExclusion2.GetName, IWMMutualExclusion2, IWMMutualExclusion2 interface [windows Media Format], GetName method, IWMMutualExclusion2::GetName, IWMMutualExclusion2GetName, wmformat.iwmmutualexclusion2_getname, wmsdkidl/IWMMutualExclusion2::GetName
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wmsdkidl.h
+req.include-header: Wmsdk.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WM_AETYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wmvcore.lib
+-	Wmvcore.dll
+-	WMStubDRM.lib
+-	WMStubDRM.dll
+api_name:
+-	IWMMutualExclusion2.GetName
+product: Windows
+targetos: Windows
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IWMMutualExclusion2::GetName method
+
+
+## -description
+
+
+
+The <b>GetName</b> method retrieves the name of the current mutual exclusion object. A mutual exclusion object has a name only if a name has been assigned using the <a href="https://msdn.microsoft.com/b288c28c-04bd-49a4-bf11-21d4968772d4">IWMMutualExclusion2::SetName</a> method.
+
+
+
+
+## -parameters
+
+
+
+
+### -param pwszName [out]
+
+Pointer to a wide-character <b>null</b>-terminated string containing the name of the mutual exclusion object. Pass <b>NULL</b> to retrieve the length of the name.
+
+
+### -param pcchName [in, out]
+
+On input, a pointer to a variable containing the length of the <i>pwszName</i> array in wide characters (2 bytes). On output, if the method succeeds, the variable contains the length of the name, including the terminating <b>null</b> character.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+The <i>pcchName</i> parameter is <b>NULL</b>.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+You can pass <i>pwszName</i> as <b>NULL</b> to retrieve the correct size of the name in <i>pcchName</i> and then make another call to this method with a properly sized string. If you do, the value you pass as <i>pcchName</i> is irrelevant. It will be replaced with the correct length of the name.
+
+If you pass an address as <i>pwszName</i>, and the length you specified in <i>pcchName</i> is shorter than the number of characters required to store the name, <b>GetName</b> ignores <i>pwszName</i> and returns the correct number of characters in <i>pcchName</i>. In this case the method still returns S_OK.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/4a1f468c-2ba5-48a1-b56f-8b62aacf1ccf">IWMMutualExclusion2 Interface</a>
+ 
+
+ 
+

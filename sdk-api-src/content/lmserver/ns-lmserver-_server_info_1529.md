@@ -1,0 +1,88 @@
+---
+UID: NS:lmserver._SERVER_INFO_1529
+title: "_SERVER_INFO_1529"
+author: windows-driver-content
+description: The SERVER_INFO_1529 structure specifies the minimum number of free receive work items the server requires before it begins allocating more items.
+old-location: netmgmt\server_info_1529_str.htm
+old-project: NetMgmt
+ms.assetid: 575cb0fa-b011-42a9-9344-02088effeb9b
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: "*LPSERVER_INFO_1529, *PSERVER_INFO_1529, LPSERVER_INFO_1529, LPSERVER_INFO_1529 structure pointer [Network Management], PSERVER_INFO_1529, PSERVER_INFO_1529 structure pointer [Network Management], SERVER_INFO_1529, SERVER_INFO_1529 structure [Network Management], _SERVER_INFO_1529, _win32_server_info_1529_str, lmserver/LPSERVER_INFO_1529, lmserver/PSERVER_INFO_1529, lmserver/SERVER_INFO_1529, netmgmt.server_info_1529_str"
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: struct
+req.header: lmserver.h
+req.include-header: Lm.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: SERVER_INFO_1529, *PSERVER_INFO_1529, *LPSERVER_INFO_1529
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Lmserver.h
+api_name:
+-	SERVER_INFO_1529
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# _SERVER_INFO_1529 structure
+
+
+## -description
+
+
+The
+				<b>SERVER_INFO_1529</b> structure specifies the minimum number of free receive work items the server requires before it begins allocating more items.
+
+
+## -struct-fields
+
+
+
+
+### -field sv1529_minrcvqueue
+
+Specifies the minimum number of free receive work items the server requires before it begins allocating more. A larger value for this member helps ensure that there will always be work items available, but a value that is too large is inefficient.
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/ed15e1b5-3fdc-4841-85d1-89269684df0e">NetServerGetInfo</a>
+
+
+
+<a href="https://msdn.microsoft.com/426c7b2e-027c-4a88-97b7-eba5201d0f0d">Network Management Overview</a>
+
+
+
+<a href="https://msdn.microsoft.com/a4b05054-bef2-4cab-89f6-725d92ee75b8">Network Management Structures</a>
+
+
+
+<a href="https://msdn.microsoft.com/43e1285b-8c86-4af4-9834-fcd5ee8aceb8">Server Functions</a>
+ 
+
+ 
+

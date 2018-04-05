@@ -1,0 +1,71 @@
+---
+UID: NF:uiautomationclient.IUIAutomationStylesPattern.get_CurrentFillPatternColor
+title: IUIAutomationStylesPattern::get_CurrentFillPatternColor method
+author: windows-driver-content
+description: Retrieves the color of the pattern used to fill an element in a document.
+old-location: winauto\uiauto_IUIAutomationStylesPattern_CurrentFillPatternColor.htm
+old-project: WinAuto
+ms.assetid: 38CFF0E5-D96D-4FA3-86B1-581DC5E7F1F3
+ms.author: windowsdriverdev
+ms.date: 3/29/2018
+ms.keywords: CurrentFillPatternColor property [Windows Accessibility], CurrentFillPatternColor property [Windows Accessibility], IUIAutomationStylesPattern interface, IUIAutomationStylesPattern, IUIAutomationStylesPattern interface [Windows Accessibility], CurrentFillPatternColor property, IUIAutomationStylesPattern.CurrentFillPatternColor, IUIAutomationStylesPattern::get_CurrentFillPatternColor, get_CurrentFillPatternColor,IUIAutomationStylesPattern.get_CurrentFillPatternColor, uiautomationclient/IUIAutomationStylesPattern::CurrentFillPatternColor, uiautomationclient/IUIAutomationStylesPattern::get_CurrentFillPatternColor, winauto.uiauto_IUIAutomationStylesPattern_CurrentFillPatternColor
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: uiautomationclient.h
+req.include-header: UIAutomation.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: UIAutomationClient.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	UIAutomationClient.h
+api_name:
+-	IUIAutomationStylesPattern.CurrentFillPatternColor
+-	IUIAutomationStylesPattern.get_CurrentFillPatternColor
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# IUIAutomationStylesPattern::get_CurrentFillPatternColor method
+
+
+## -description
+
+
+Retrieves the color of the pattern used to fill an element in a document.
+
+This property is read-only.
+
+
+## -parameters
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/83529CFD-46D2-45A7-9B0D-F00FF43D911B">IUIAutomationStylesPattern</a>
+ 
+
+ 
+

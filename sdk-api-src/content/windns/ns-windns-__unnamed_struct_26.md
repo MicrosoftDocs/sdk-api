@@ -1,0 +1,117 @@
+---
+UID: NS:windns.__unnamed_struct_26
+title: DNS_LOC_DATA
+author: windows-driver-content
+description: The DNS_LOC_DATA structure represents a DNS location (LOC) resource record (RR) as specified in RFC 1876.
+old-location: dns\dns_loc_data.htm
+old-project: DNS
+ms.assetid: c1e05479-17f0-4993-8dcf-02036989d6dc
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: "*PDNS_LOC_DATA, DNS_LOC_DATA, DNS_LOC_DATA structure [DNS], PDNS_LOC_DATA, PDNS_LOC_DATA structure pointer [DNS], _dns_dns_loc_data, dns.dns_loc_data, windns/DNS_LOC_DATA, windns/PDNS_LOC_DATA"
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: struct
+req.header: windns.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: DNS_LOC_DATA, *PDNS_LOC_DATA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Windns.h
+api_name:
+-	DNS_LOC_DATA
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# DNS_LOC_DATA structure
+
+
+## -description
+
+
+The 
+<b>DNS_LOC_DATA</b> structure represents a DNS location (LOC) resource record (RR) as specified in <a href=" http://go.microsoft.com/fwlink/p/?linkid=106954">RFC 1876</a>.
+
+
+## -struct-fields
+
+
+
+
+### -field wVersion
+
+The version number of the representation. Must be zero.
+
+
+### -field wSize
+
+The diameter of a sphere enclosing the described entity, defined as "SIZE"         in section 2 of <a href=" http://go.microsoft.com/fwlink/p/?linkid=106954">RFC 1876</a>.
+
+
+### -field wHorPrec
+
+The horizontal data precision, defined as "HORIZ PRE"         in section 2 of <a href=" http://go.microsoft.com/fwlink/p/?linkid=106954">RFC 1876</a>.
+
+
+### -field wVerPrec
+
+The vertical data precision, defined as "VERT PRE"         in section 2 of <a href=" http://go.microsoft.com/fwlink/p/?linkid=106954">RFC 1876</a>.
+
+
+### -field dwLatitude
+
+The latitude of the center of the sphere, defined as "LATITUDE"         in section 2 of <a href=" http://go.microsoft.com/fwlink/p/?linkid=106954">RFC 1876</a>.
+
+
+### -field dwLongitude
+
+The longitude of the center of the sphere, defined as "LONGITUDE"         in section 2 of <a href=" http://go.microsoft.com/fwlink/p/?linkid=106954">RFC 1876</a>.
+
+
+### -field dwAltitude
+
+The altitude of the center of the sphere, defined as "ALTITUDE"         in section 2 of <a href=" http://go.microsoft.com/fwlink/p/?linkid=106954">RFC 1876</a>.
+
+
+## -remarks
+
+
+
+The 
+<b>DNS_LOC_DATA</b> structure is used in conjunction with the 
+<a href="https://msdn.microsoft.com/ab7b96a5-346f-4e01-bb2a-885f44764590">DNS_RECORD</a> structure to programmatically manage DNS entries.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/ab7b96a5-346f-4e01-bb2a-885f44764590">DNS_RECORD</a>
+ 
+
+ 
+

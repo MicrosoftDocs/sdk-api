@@ -1,0 +1,93 @@
+---
+UID: NF:wcmconfig.ISettingsContext.GetNamespaces
+title: ISettingsContext::GetNamespaces method
+author: windows-driver-content
+description: Gets the namespaces that exist in the context.
+old-location: smi\isettingscontext_getnamespaces.htm
+old-project: SMI
+ms.assetid: 844ef731-9ccf-4cf5-9bb9-218312cbb07c
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: GetNamespaces method [SMI], GetNamespaces method [SMI], ISettingsContext interface, GetNamespaces,ISettingsContext.GetNamespaces, ISettingsContext, ISettingsContext interface [SMI], GetNamespaces method, ISettingsContext::GetNamespaces, smi.isettingscontext_getnamespaces, wcmconfig/ISettingsContext::GetNamespaces
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wcmconfig.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: WcmConfig.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WcmNamespaceAccess
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SMIEngine.dll
+api_name:
+-	ISettingsContext.GetNamespaces
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SMIEngine.dll
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# ISettingsContext::GetNamespaces method
+
+
+## -description
+
+
+Gets the namespaces that exist in the context.
+
+
+## -parameters
+
+
+
+
+### -param ppNamespaceIds [out]
+
+An <a href="https://msdn.microsoft.com/f43245f1-81d9-4b06-8f0c-d490618a99fa">IItemEnumerator</a> interface pointer that represents the collection of namespaces.
+
+
+## -returns
+
+
+
+This method returns an HRESULT value. <b>S_OK</b> indicates success.
+
+
+
+
+## -remarks
+
+
+
+<div class="alert"><b>Note</b>  This method may return <b>E_OUTOFMEMORY</b> if there are insufficient resources in the system to allocate a new enumerator.</div>
+<div> </div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/29f43c3f-57bf-4208-a0bf-9b4414795a59">ISettingsContext</a>
+ 
+
+ 
+

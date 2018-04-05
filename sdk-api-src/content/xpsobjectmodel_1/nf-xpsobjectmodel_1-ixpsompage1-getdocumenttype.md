@@ -1,0 +1,102 @@
+---
+UID: NF:xpsobjectmodel_1.IXpsOMPage1.GetDocumentType
+title: IXpsOMPage1::GetDocumentType method
+author: windows-driver-content
+description: Gets the type of FixedPage markup that was used to initialize this page. This method is used to determine whether a document is the XPS or OpenXPS type. For more information, see XPS Documents.
+old-location: xps\ixpsompage1_getdocumenttype.htm
+old-project: printdocs
+ms.assetid: b2456ffc-7a9d-41c2-b693-eb71909ccf3d
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: GetDocumentType method [XPS Documents and Packaging], GetDocumentType method [XPS Documents and Packaging], IXpsOMPage1 interface, GetDocumentType,IXpsOMPage1.GetDocumentType, IXpsOMPage1, IXpsOMPage1 interface [XPS Documents and Packaging], GetDocumentType method, IXpsOMPage1::GetDocumentType, xps.ixpsompage1_getdocumenttype, xpsobjectmodel_1/IXpsOMPage1::GetDocumentType
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: xpsobjectmodel_1.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: XpsObjectModel.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: XPS_DOCUMENT_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	none
+-	none.dll
+api_name:
+-	IXpsOMPage1.GetDocumentType
+product: Windows
+targetos: Windows
+req.lib: None
+req.dll: 
+req.irql: 
+req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+---
+
+# IXpsOMPage1::GetDocumentType method
+
+
+## -description
+
+
+Gets the type of FixedPage markup that was used to initialize this page. This method is used to determine whether a document is the XPS or OpenXPS type. For more information, see <a href="https://msdn.microsoft.com/14ae2c97-8596-46db-a55c-ef706d2cd00b">XPS Documents</a>.
+
+
+## -parameters
+
+
+
+
+### -param documentType
+
+[out, retval] The document type of the source data used to initialize this package. A document type value of XPS_DOCUMENT_TYPE_UNSPECIFIED is returned if the package was created in memory.
+
+
+## -returns
+
+
+
+The method returns an HRESULT. Possible values include, but are not limited to, the following values. For information about XPS Document API return values that are not listed in this table, see XPS Document Errors.
+
+S_OK: The method succeeded.
+
+E_POINTER: documentType is <b>NULL</b>.
+
+
+
+
+## -remarks
+
+
+
+If the <a href="https://msdn.microsoft.com/4f4ec7d9-da77-4d34-89aa-a73250c0e610">IXpsOMPage1</a> instance was not loaded from a stream or a  file, the document type is unspecified (XPS_DOCUMENT_TYPE_UNSPECIFIED). Otherwise, the document type returned is that of the stream or file used to initialize the <b>IXpsOMPage1</b> instance.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/4f4ec7d9-da77-4d34-89aa-a73250c0e610">IXpsOMPage1</a>
+
+
+
+<a href="https://msdn.microsoft.com/14ae2c97-8596-46db-a55c-ef706d2cd00b">XPS Documents</a>
+ 
+
+ 
+

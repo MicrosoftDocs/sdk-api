@@ -1,0 +1,116 @@
+---
+UID: NF:msctf.ITfContextKeyEventSink.OnKeyDown
+title: ITfContextKeyEventSink::OnKeyDown method
+author: windows-driver-content
+description: ITfContextKeyEventSink::OnKeyDown method
+old-location: tsf\itfcontextkeyeventsink_onkeydown.htm
+old-project: TSF
+ms.assetid: 684d3c01-fa95-4a19-b5fb-48a62315ce2f
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: ITfContextKeyEventSink, ITfContextKeyEventSink interface [Text Services Framework], OnKeyDown method, ITfContextKeyEventSink::OnKeyDown, OnKeyDown method [Text Services Framework], OnKeyDown method [Text Services Framework], ITfContextKeyEventSink interface, OnKeyDown,ITfContextKeyEventSink.OnKeyDown, _tsf_itfcontextkeyeventsink_onkeydown_ref, msctf/ITfContextKeyEventSink::OnKeyDown, tsf.itfcontextkeyeventsink_onkeydown
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: msctf.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Msctf.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: TF_DA_ATTR_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mscandui.dll
+api_name:
+-	ITfContextKeyEventSink.OnKeyDown
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Mscandui.dll
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# ITfContextKeyEventSink::OnKeyDown method
+
+
+## -description
+
+
+
+
+## -parameters
+
+
+
+
+### -param wParam [in]
+
+Specifies the virtual-key code of the key. For more information about this parameter, see the <i>wParam</i> parameter in <a href="_win32_wm_keyup">WM_KEYDOWN</a>.
+
+
+### -param lParam [in]
+
+Specifies the repeat count, scan code, extended-key flag, context code, previous key-state flag, and transition-state flag of the key. For more information about this parameter, see the <i>lParam</i> parameter in <a href="_win32_wm_keyup">WM_KEYDOWN</a>.
+
+
+### -param pfEaten [out]
+
+Pointer to a BOOL value that, on exit, indicates if the key event is handled. If this value receives <b>TRUE</b>, the key event is handled. If this value is <b>FALSE</b>, the key event is not handled.
+
+
+## -returns
+
+
+
+This method can return one of these values.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method was successful.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/26fc5d8a-e24e-414e-a355-c1f89251f6bd">ITfContextKeyEventSink</a>
+
+
+
+<a href="_win32_wm_keyup">WM_KEYDOWN</a>
+ 
+
+ 
+

@@ -1,0 +1,80 @@
+---
+UID: NF:fsrmpipeline.IFsrmClassificationRule.put_ExecutionOption
+title: IFsrmClassificationRule::put_ExecutionOption method
+author: windows-driver-content
+description: Determines how to apply the rule to the file.
+old-location: fsrm\ifsrmclassificationrule_executionoption.htm
+old-project: Fsrm
+ms.assetid: e084c056-18b1-4089-bab9-fce2ef58cd05
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: ExecutionOption property [File Server Resource Manager], ExecutionOption property [File Server Resource Manager], IFsrmClassificationRule interface, IFsrmClassificationRule, IFsrmClassificationRule interface [File Server Resource Manager], ExecutionOption property, IFsrmClassificationRule.ExecutionOption, IFsrmClassificationRule::get_ExecutionOption, IFsrmClassificationRule::put_ExecutionOption, fs.ifsrmclassificationrule_executionoption, fsrm.ifsrmclassificationrule_executionoption, fsrmpipeline/IFsrmClassificationRule::ExecutionOption, fsrmpipeline/IFsrmClassificationRule::get_ExecutionOption, fsrmpipeline/IFsrmClassificationRule::put_ExecutionOption, put_ExecutionOption,IFsrmClassificationRule.put_ExecutionOption
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: fsrmpipeline.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 R2
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: FsrmTemplateApplyOptions
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SrmSvc.dll
+api_name:
+-	IFsrmClassificationRule.ExecutionOption
+-	IFsrmClassificationRule.get_ExecutionOption
+-	IFsrmClassificationRule.put_ExecutionOption
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
+req.product: Internet Explorer 5
+---
+
+# IFsrmClassificationRule::put_ExecutionOption method
+
+
+## -description
+
+
+<p class="CCE_Message">[This property is supported for compatibility but it's recommended to use the 
+    <a href="https://msdn.microsoft.com/1CE772FA-CE33-4900-A499-058175A7C37E">FSRM WMI Classes</a> to manage FSRM. Please see the 
+    <a href="https://msdn.microsoft.com/845fc1e8-d06a-4bc4-9529-0748cb488727">MSFT_FSRMClassificationRule</a> class.]
+
+Determines how to apply the rule to the file.
+
+This property is read/write.
+
+
+## -parameters
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/d76e4b07-66d6-426f-853d-f52ea08d9b81">IFsrmClassificationRule</a>
+
+
+
+<a href="https://msdn.microsoft.com/845fc1e8-d06a-4bc4-9529-0748cb488727">MSFT_FSRMClassificationRule</a>
+ 
+
+ 
+

@@ -1,0 +1,136 @@
+---
+UID: NF:d3d10effect.D3D10StateBlockMaskDisableCapture
+title: D3D10StateBlockMaskDisableCapture function
+author: windows-driver-content
+description: Disable state capturing with a state-block mask.
+old-location: direct3d10\d3d10stateblockmaskdisablecapture.htm
+old-project: direct3d10
+ms.assetid: VS|directx_sdk|~\d3d10stateblockmaskdisablecapture.htm
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: 94486a35-b1e6-78b2-b9fb-00c0ab5d19f3, D3D10StateBlockMaskDisableCapture, D3D10StateBlockMaskDisableCapture function [Direct3D 10], d3d10effect/D3D10StateBlockMaskDisableCapture, direct3d10.d3d10stateblockmaskdisablecapture
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: d3d10effect.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: D3D10_DEVICE_STATE_TYPES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	D3D10.dll
+api_name:
+-	D3D10StateBlockMaskDisableCapture
+product: Windows
+targetos: Windows
+req.lib: D3D10.lib
+req.dll: D3D10.dll
+req.irql: 
+---
+
+# D3D10StateBlockMaskDisableCapture function
+
+
+## -description
+
+
+Disable state capturing with a state-block mask.
+
+
+## -parameters
+
+
+
+
+### -param pMask [in, out]
+
+Type: <b><a href="https://msdn.microsoft.com/3188002c-a49f-4991-8fd5-75b31de8b790">D3D10_STATE_BLOCK_MASK</a>*</b>
+
+A state block mask (see <a href="https://msdn.microsoft.com/3188002c-a49f-4991-8fd5-75b31de8b790">D3D10_STATE_BLOCK_MASK</a>).
+
+
+### -param StateType [in]
+
+Type: <b><a href="https://msdn.microsoft.com/cc05f305-f93b-4f82-a554-708eb6643d32">D3D10_DEVICE_STATE_TYPES</a></b>
+
+The type of device state to disable (see <a href="https://msdn.microsoft.com/cc05f305-f93b-4f82-a554-708eb6643d32">D3D10_DEVICE_STATE_TYPES</a>).
+
+
+### -param RangeStart [in]
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+
+The lower end of the range of values to set to false.
+
+
+### -param RangeLength [in]
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+
+The upper end of the range of values to set to false.
+
+
+## -returns
+
+
+
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+
+This method returns one of the following <a href="https://msdn.microsoft.com/7b67d428-d000-4c3e-adc1-b5fc67a15a6a">Direct3D 10 Return Codes</a>.
+
+
+
+
+## -remarks
+
+
+
+This is an example of how to call this function. It creates a mask that cannot capture and apply to geometry-shader samplers in slots 2 ~ 23.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
+D3D10_STATE_BLOCK_MASK stateBlockMask;
+D3D10StateBlockMaskDisableCapture(&amp;stateBlockMask, 
+                                 D3D10_DST_GS_SAMPLERS, 
+                                 2, 23);
+</pre>
+</td>
+</tr>
+</table></span></div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/012577cd-970e-43bc-996e-3be7c2283b60">Core Functions</a>
+
+
+
+<a href="https://msdn.microsoft.com/b76643f0-387f-49c6-80e5-4d7b406b4db7">Effect Functions</a>
+ 
+
+ 
+

@@ -1,0 +1,119 @@
+---
+UID: NF:winbase.GetNumberOfEventLogRecords
+title: GetNumberOfEventLogRecords function
+author: windows-driver-content
+description: Retrieves the number of records in the specified event log.
+old-location: base\getnumberofeventlogrecords.htm
+old-project: EventLog
+ms.assetid: 80cc8735-26a2-4ad3-a111-28f2c0c52e98
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: GetNumberOfEventLogRecords, GetNumberOfEventLogRecords function, _win32_getnumberofeventlogrecords, base.getnumberofeventlogrecords, winbase/GetNumberOfEventLogRecords
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: winbase.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: PRIORITY_HINT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Advapi32.dll
+-	Ext-Ms-Win-AdvAPI32-EventLog-L1-1-1.dll
+api_name:
+-	GetNumberOfEventLogRecords
+product: Windows
+targetos: Windows
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# GetNumberOfEventLogRecords function
+
+
+## -description
+
+
+Retrieves the number of records in the specified event log.
+
+
+## -parameters
+
+
+
+
+### -param hEventLog [in]
+
+A handle to the open event log. The 
+<a href="https://msdn.microsoft.com/6cd8797a-aeaf-4603-b43c-b1ff45b6200a">OpenEventLog</a> or 
+<a href="https://msdn.microsoft.com/cfef0912-9d35-44aa-a1d3-f9bb37213ce0">OpenBackupEventLog</a> function returns this handle.
+
+
+### -param NumberOfRecords [out]
+
+A pointer to a variable that receives the number of records in the specified event log.
+
+
+## -returns
+
+
+
+
+						If the function succeeds, the return value is nonzero.
+						
+
+If the function fails, the return value is zero. To get extended error information, call 
+<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+
+
+
+
+## -remarks
+
+
+
+The oldest record in an event log is not necessarily record number 1. To determine the oldest record number in an event log, use the 
+<a href="https://msdn.microsoft.com/2f64f82b-a5f5-4701-844b-5979a0124414">GetOldestEventLogRecord</a> function.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/fd5c12ec-3a3d-4b75-a573-0b27ae7a890b">Event Logging Functions</a>
+
+
+
+<a href="https://msdn.microsoft.com/2f64f82b-a5f5-4701-844b-5979a0124414">GetOldestEventLogRecord</a>
+
+
+
+<a href="https://msdn.microsoft.com/cfef0912-9d35-44aa-a1d3-f9bb37213ce0">OpenBackupEventLog</a>
+
+
+
+<a href="https://msdn.microsoft.com/6cd8797a-aeaf-4603-b43c-b1ff45b6200a">OpenEventLog</a>
+ 
+
+ 
+

@@ -1,0 +1,303 @@
+---
+UID: NF:tom.ITextDocument2.GetEffectColor
+title: ITextDocument2::GetEffectColor method
+author: windows-driver-content
+description: Retrieves the color used for special text attributes.
+old-location: controls\itextdocument2_geteffectcolor.htm
+old-project: Controls
+ms.assetid: 4bc2740e-852f-430b-913e-5d28baec3272
+ms.author: windowsdriverdev
+ms.date: 3/31/2018
+ms.keywords: GetEffectColor method [Windows Controls], GetEffectColor method [Windows Controls], ITextDocument2 interface, GetEffectColor,ITextDocument2.GetEffectColor, ITextDocument2, ITextDocument2 interface [Windows Controls], GetEffectColor method, ITextDocument2::GetEffectColor, controls.itextdocument2_geteffectcolor, tom/ITextDocument2::GetEffectColor
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: tom.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MANCODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Msftedit.dll
+api_name:
+-	ITextDocument2.GetEffectColor
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# ITextDocument2::GetEffectColor method
+
+
+## -description
+
+
+Retrieves the color used for special text attributes.
+
+
+## -parameters
+
+
+
+
+### -param Index [in]
+
+Type: <b>long</b>
+
+The index of the color to retrieve. It can be one of the following values.
+
+<table>
+<tr>
+<th>Index</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt>0</dt>
+</dl>
+</td>
+<td width="60%">
+Text color.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt>1</dt>
+</dl>
+</td>
+<td width="60%">
+RGB(0,   0,   0)
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt>2</dt>
+</dl>
+</td>
+<td width="60%">
+RGB(0,   0, 255)
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt>3</dt>
+</dl>
+</td>
+<td width="60%">
+RGB(0, 255, 255)
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt>4</dt>
+</dl>
+</td>
+<td width="60%">
+RGB(0, 255,   0)
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt>5</dt>
+</dl>
+</td>
+<td width="60%">
+RGB(255,   0, 255)
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt>6</dt>
+</dl>
+</td>
+<td width="60%">
+RGB(255,   0, 0)
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt>7</dt>
+</dl>
+</td>
+<td width="60%">
+RGB(255,   255, 0)
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt>8</dt>
+</dl>
+</td>
+<td width="60%">
+RGB(255,   255, 255)
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt>9</dt>
+</dl>
+</td>
+<td width="60%">
+RGB(0,   0, 128)
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt>10</dt>
+</dl>
+</td>
+<td width="60%">
+RGB(0,   128, 128)
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt>11</dt>
+</dl>
+</td>
+<td width="60%">
+RGB(0, 128,   0)
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt>12</dt>
+</dl>
+</td>
+<td width="60%">
+RGB(128,   0, 128)
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt>13</dt>
+</dl>
+</td>
+<td width="60%">
+RGB(128,   0,   0)
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt>14</dt>
+</dl>
+</td>
+<td width="60%">
+RGB(128, 128,   0)
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt>15</dt>
+</dl>
+</td>
+<td width="60%">
+RGB(128, 128, 128)
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt>16</dt>
+</dl>
+</td>
+<td width="60%">
+RGB(192, 192, 192)
+
+</td>
+</tr>
+</table>
+ 
+
+
+### -param pValue [out]
+
+Type: <b>long*</b>
+
+The color that corresponds to the specified index.
+
+
+## -returns
+
+
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+
+If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+The first 16 index values are for special underline colors. If an index between 1 and 16 hasn't been defined by a call to the <a href="https://msdn.microsoft.com/6371b525-96da-42a7-8cee-228b47208f46">ITextDocument2:SetEffectColor</a> method, <b>GetEffectColor</b> returns the corresponding Microsoft Word default color. 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/0b0a54d7-7606-41f6-b8be-6367d9180ef4">ITextDocument2</a>
+
+
+
+<a href="https://msdn.microsoft.com/6371b525-96da-42a7-8cee-228b47208f46">ITextDocument2::SetEffectColor</a>
+ 
+
+ 
+

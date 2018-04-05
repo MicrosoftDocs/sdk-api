@@ -1,0 +1,103 @@
+---
+UID: NN:shobjidl.IQueryCancelAutoPlay
+title: IQueryCancelAutoPlay
+author: windows-driver-content
+description: Exposes a method that programmatically overrides AutoPlay or AutoRun. This allows you to customize the location and type of content that is launched when media is inserted.
+old-location: shell\IQueryCancelAutoPlay.htm
+old-project: shell
+ms.assetid: 7dd470cd-163b-43e1-80d9-cdaa8b615858
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: IQueryCancelAutoPlay, IQueryCancelAutoPlay interface [Windows Shell], IQueryCancelAutoPlay interface [Windows Shell], described, _shell_IQueryCancelAutoPlay, shell.IQueryCancelAutoPlay, shobjidl/IQueryCancelAutoPlay
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: interface
+req.header: shobjidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Shobjidl.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: VPWATERMARKFLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Shell32.dll
+api_name:
+-	IQueryCancelAutoPlay
+product: Windows
+targetos: Windows
+req.lib: Comdlg32.lib
+req.dll: Shell32.dll
+req.irql: 
+req.product: Internet Explorer 6.01
+---
+
+# IQueryCancelAutoPlay interface
+
+
+## -description
+
+
+Exposes a method that programmatically overrides <a href="https://msdn.microsoft.com/64bf29df-5fb4-45cd-b0a8-f669548a59f0">AutoPlay</a> or <a href="https://msdn.microsoft.com/5c583c1d-a4eb-4291-a839-c1ca7c51342c">AutoRun</a>. This allows you to customize the location and type of content that is launched when media is inserted.
+
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IQueryCancelAutoPlay</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IQueryCancelAutoPlay</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
+
+## -members
+
+The <b>IQueryCancelAutoPlay</b> interface has these methods.
+<table class="members" id="memberListMethods">
+<tr>
+<th align="left" width="37%">Method</th>
+<th align="left" width="63%">Description</th>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt346372">AllowAutoPlay</a>
+</td>
+<td align="left" width="63%">
+Determines whether to play media inserted by a user and if so using what restrictions.
+
+</td>
+</tr>
+</table> 
+
+
+## -remarks
+
+
+
+<div class="alert"><b>Note</b>  <b>IQueryCancelAutoPlay</b> is intended only for use by user-launched applications that are currently running. It should not be handled by invisible or background service applications to prevent the normal AutoPlay/AutoRun feature from being invoked. Giving the user a choice of what happens when media and devices are inserted into the system is a key feature of the platform. This feature is designed specifically to improve and personalize the user experience and should not be inhibited by background services.</div>
+<div> </div>
+A valid use of <b>IQueryCancelAutoPlay</b> is illustrated in the following scenario: Assume that you have, through AutoPlay, previously designated application A to handle video camera events. For video editing, however, you prefer application B. You open application B, begin editing some previously filmed video, and then decide to add some new content to the video being edited. Application B's import function prompts you to turn on the video camera so that the new content can be accessed. Normally, this video device activation would trigger the launch of the device-associated application A. Fortunately, using <b>IQueryCancelAutoPlay</b>, application B has canceled AutoPlay processing of video camera events while you are editing video content. In this case, the cancellation of Autoplay by application B has created a better user experience.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="autoplay">Autoplay in Windows XP: Automatically Detect and React to New Devices on a System</a>
+ 
+
+ 
+

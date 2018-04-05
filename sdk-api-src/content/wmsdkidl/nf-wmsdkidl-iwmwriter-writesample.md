@@ -1,0 +1,246 @@
+---
+UID: NF:wmsdkidl.IWMWriter.WriteSample
+title: IWMWriter::WriteSample method
+author: windows-driver-content
+description: The WriteSample method passes in uncompressed data to be compressed and appended to the file that is being created.
+old-location: wmformat\iwmwriter_writesample.htm
+old-project: wmformat
+ms.assetid: ba1cf121-1d01-4e90-9ab0-95af0b6e3850
+ms.author: windowsdriverdev
+ms.date: 3/23/2018
+ms.keywords: IWMWriter, IWMWriter interface [windows Media Format], WriteSample method, IWMWriter::WriteSample, IWMWriterWriteSample, WriteSample method [windows Media Format], WriteSample method [windows Media Format], IWMWriter interface, WriteSample,IWMWriter.WriteSample, wmformat.iwmwriter_writesample, wmsdkidl/IWMWriter::WriteSample
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wmsdkidl.h
+req.include-header: Wmsdk.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WM_AETYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wmvcore.lib
+-	Wmvcore.dll
+-	WMStubDRM.lib
+-	WMStubDRM.dll
+api_name:
+-	IWMWriter.WriteSample
+product: Windows
+targetos: Windows
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IWMWriter::WriteSample method
+
+
+## -description
+
+
+
+The <b>WriteSample</b> method passes in uncompressed data to be compressed and appended to the file that is being created.
+
+
+
+
+## -parameters
+
+
+
+
+### -param dwInputNum [in]
+
+<b>DWORD</b> containing the input number.
+
+
+### -param cnsSampleTime [in]
+
+<b>QWORD</b> containing the sample time, in 100-nanosecond units.
+
+
+### -param dwFlags [in]
+
+<b>DWORD</b> containing one or more of the following flags.
+
+<table>
+<tr>
+<th>
+                  Flag
+                </th>
+<th>
+                  Description
+                </th>
+</tr>
+<tr>
+<td>No flag set</td>
+<td>None of the conditions for the other flags applies. For example, a <a href="wmformat_glossary.htm">delta frame</a> in most cases would not have any flags set for it.</td>
+</tr>
+<tr>
+<td>WM_SF_CLEANPOINT</td>
+<td>Forces the sample to be written as a key frame. Setting this flag for audio inputs will have no effect, as all audio samples are cleanpoints.</td>
+</tr>
+<tr>
+<td>WM_SF_DISCONTINUITY</td>
+<td>For audio inputs, this flag helps to deal with gaps that may appear between samples. You should set this flag for the first sample after a gap.</td>
+</tr>
+<tr>
+<td>WM_SF_DATALOSS</td>
+<td>This flag is not used by the writer object.</td>
+</tr>
+</table>
+ 
+
+
+### -param pSample [in]
+
+Pointer to an <a href="https://msdn.microsoft.com/c47c016a-e7eb-4a2c-b365-5537749db5bc">INSSBuffer</a> interface representing a sample.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+The <i>dwInputNum</i> value is greater than the highest index number.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_UNEXPECTED</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method failed for an unspecified reason.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>NS_E_INVALID_STATE</b></dt>
+</dl>
+</td>
+<td width="60%">
+The writer is not running.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>NS_E_INVALID_DATA</b></dt>
+</dl>
+</td>
+<td width="60%">
+The sample is not valid. This can occur when an input script stream contains a script sample that is not valid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>NS_E_INVALID_NUM_PASSES</b></dt>
+</dl>
+</td>
+<td width="60%">
+The wrong number of preprocessing passes was used for the stream's output type.
+
+Typically, this error will be returned if the stream configuration requires a preprocessing pass and a sample is passed without first configuring preprocessing. You can check for this error to determine whether a stream requires a preprocessing pass. Preprocessing passes are required only for bit-rate-based VBR.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>NS_E_LATE_OPERATION</b></dt>
+</dl>
+</td>
+<td width="60%">
+The writer has received samples whose presentation times differ by an amount greater than the maximum synchronization tolerance. You can set the synchronization tolerance by calling <a href="https://msdn.microsoft.com/d60020bf-52f1-46a0-aeae-367e3b179fac">IWMWriterAdvanced::SetSyncTolerance</a>.
+
+This error can occur when there is more than one stream, and the application sends samples for one stream at a faster rate than the other stream. At some point, the second stream will lag too far behind the first, and the writer will return this error code.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>NS_E_TOO_MUCH_DATA</b></dt>
+</dl>
+</td>
+<td width="60%">
+Samples from a real-time source are arriving faster than expected. This error is returned only if <a href="https://msdn.microsoft.com/ab015f92-498e-44c7-95c9-869dfdfccc09">IWMWriterAdvanced::SetLiveSource</a> has been called to indicate a live source.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+If the output stream has a time code data unit extension and there is no time code extension on the sample, this method will fail in order not to cause problems later when the file is indexed. All other data unit extensions are optional on the sample. That means that this method will succeed if a data unit extension has been specified for the stream but no actual data extension is present in the sample. <b>WriteSample</b> will write zeros into the file for samples that do not have extensions specified on the sample.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/a194ef11-5203-4e85-af91-cdce0c53fe76">IWMWriter Interface</a>
+
+
+
+<a href="https://msdn.microsoft.com/9ce10a77-9e80-45e0-a7e7-2ffdf8b57773">To Write Samples</a>
+ 
+
+ 
+

@@ -1,0 +1,113 @@
+---
+UID: NF:wincodec.WICMapGuidToShortName
+title: WICMapGuidToShortName function
+author: windows-driver-content
+description: Obtains the short name associated with a given GUID.
+old-location: wic\_wic_codec_wicmapguidtoshortname.htm
+old-project: wic
+ms.assetid: ae1e4680-2c20-4a3e-b931-206d26f4d09c
+ms.author: windowsdriverdev
+ms.date: 3/28/2018
+ms.keywords: WICMapGuidToShortName, WICMapGuidToShortName function [Windows Imaging Component], _wic_codec_wicmapguidtoshortname, wic._wic_codec_wicmapguidtoshortname, wincodec/WICMapGuidToShortName
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: wincodec.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WICTiffCompressionOption
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	WindowsCodecs.dll
+api_name:
+-	WICMapGuidToShortName
+product: Windows
+targetos: Windows
+req.lib: WindowsCodecs.lib
+req.dll: WindowsCodecs.dll
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# WICMapGuidToShortName function
+
+
+## -description
+
+
+Obtains the short name associated with a given GUID.
+
+
+## -parameters
+
+
+
+
+### -param guid [in]
+
+Type: <b>REFGUID</b>
+
+The GUID to retrieve the short name for.
+
+
+### -param cchName [in]
+
+Type: <b>UINT</b>
+
+The size of the <i>wzName</i> buffer.
+
+
+### -param wzName [in, out]
+
+Type: <b>WCHAR*</b>
+
+A pointer that receives the short name associated with the GUID.
+
+
+### -param pcchActual [out]
+
+Type: <b>UINT*</b>
+
+The actual size needed to retrieve the entire short name associated with the GUID.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+Windows Imaging Component (WIC) short name mappings can be found within the following registry key:
+            <pre xml:space="preserve"><b>HKEY_CLASSES_ROOT</b>
+   <b>CLSID</b>
+      <b>{FAE3D380-FEA4-4623-8C75-C6B61110B681}</b>
+         <b>Namespace</b>
+            <b>...</b></pre>
+
+
+
+

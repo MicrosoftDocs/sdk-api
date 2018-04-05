@@ -1,0 +1,229 @@
+---
+UID: NF:msinkaut.IInkTablet.GetPropertyMetrics
+title: IInkTablet::GetPropertyMetrics method
+author: windows-driver-content
+description: Retrieves the metrics data for a specified property.
+old-location: tablet\iinktablet_getpropertymetrics.htm
+old-project: tablet
+ms.assetid: 9656bb56-01aa-4e9b-a3ad-4fbf117cdfeb
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: 9656bb56-01aa-4e9b-a3ad-4fbf117cdfeb, GetPropertyMetrics method [Tablet PC], GetPropertyMetrics method [Tablet PC], IInkTablet interface, GetPropertyMetrics,IInkTablet.GetPropertyMetrics, IInkTablet, IInkTablet interface [Tablet PC], GetPropertyMetrics method, IInkTablet::GetPropertyMetrics, msinkaut/IInkTablet::GetPropertyMetrics, tablet.iinktablet_getpropertymetrics
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: msinkaut.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
+req.target-min-winversvr: None supported
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: TabletPropertyMetricUnit
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	InkObj.dll
+-	InkObj.dll.dll
+api_name:
+-	IInkTablet.GetPropertyMetrics
+product: Windows
+targetos: Windows
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 SP2 or later
+---
+
+# IInkTablet::GetPropertyMetrics method
+
+
+## -description
+
+
+
+Retrieves the metrics data for a specified property.
+
+
+
+
+## -parameters
+
+
+
+
+### -param propertyName
+
+
+
+
+### -param Minimum [out]
+
+The minimum value, in logical units, that the tablet reports for this property. For example, a tablet reporting x-values from 0 to 9000 has a logical minimum of 0.
+
+
+### -param Maximum [out]
+
+The maximum value, in logical units, that the tablet reports for this property. For example, a tablet reporting x-values from 0 to 9000 would have a logical maximum of 9000.
+
+
+### -param Units [out]
+
+The physical units of the property, such as inches or degrees. For a list of property units, see the <a href="https://msdn.microsoft.com/c2258c48-4062-4528-9ebb-21cdbecf70ab">TabletPropertyMetricUnit</a> enumeration type.
+
+
+### -param Resolution [out]
+
+Specifies the resolution or increment value for the <b>units</b> member. For example, a tablet that reports 400 dots per inch (dpi) has a  resolution value of 400.
+
+
+#### - Property [in]
+
+The property for which you want to determine metrics.
+
+For more information about the BSTR data type, see <a href="https://msdn.microsoft.com/fa43fad9-804c-42d9-9717-6686d5f98ed8">Using the COM Library</a>.
+
+
+## -returns
+
+
+
+This method can return one of these values.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+Success.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>TPC_E_UNKNOWN_PROPERTY</b></dt>
+</dl>
+</td>
+<td width="60%">
+The tablet does not support the specified property.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_FAIL</b></dt>
+</dl>
+</td>
+<td width="60%">
+An unspecified error occurred.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_POINTER</b></dt>
+</dl>
+</td>
+<td width="60%">
+A parameter contained an invalid pointer.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>CO_E_CLASSSTRING</b></dt>
+</dl>
+</td>
+<td width="60%">
+Invalid GUID format.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+Unknown property string.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INK_EXCEPTION</b></dt>
+</dl>
+</td>
+<td width="60%">
+An exception occurred while processing.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+The properties for which you retrieve metrics may include the time that a packet was generated or the downward pressure of the pen tip on the tablet surface.
+
+For a complete list of properties for which you can retrieve metrics, see the <a href="https://msdn.microsoft.com/3e8495f6-0860-4ea8-a258-784eaade85c7">PacketProperty</a> constants.
+
+<div class="alert"><b>Note</b>  Accessing this property within certain message handlers can result in the underlying function being re-entered, causing unexpected results. Take care to avoid a reentrant call when handling any of the following messages: WM_ACTIVATE, WM_ACTIVATEAPP, WMNCACTIVATE, WM_PAINT; WM_SYSCOMMAND if <b>wParam</b> is set to SC_HOTKEY or SC_TASKLIST; and WM_SYSKEYDOWN (when processing Alt-Tab or Alt-Esc key combinations). This is an issue with single-threaded apartment model applications.</div>
+<div> </div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/21b13777-d924-45d6-bdcc-284c9b7d9627">GetPacketDescriptionPropertyMetrics Method</a>
+
+
+
+<a href="https://msdn.microsoft.com/135dcd06-f533-4470-b5b0-ea559c20e3c4">GetPacketValuesByProperty Method</a>
+
+
+
+<a href="https://msdn.microsoft.com/9a945740-b191-41f5-8b3d-49b7e2d1e463">IInkTablet Interface</a>
+
+
+
+<a href="https://msdn.microsoft.com/9d90e93e-4c4a-43bd-a431-59522e332f2a">SetPacketValuesByProperty Method</a>
+
+
+
+<a href="https://msdn.microsoft.com/c2258c48-4062-4528-9ebb-21cdbecf70ab">TabletPropertyMetricUnit Enumeration</a>
+ 
+
+ 
+

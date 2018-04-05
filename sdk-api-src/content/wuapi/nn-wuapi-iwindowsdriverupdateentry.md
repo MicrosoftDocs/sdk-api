@@ -1,0 +1,63 @@
+---
+UID: NN:wuapi.IWindowsDriverUpdateEntry
+title: IWindowsDriverUpdateEntry
+author: windows-driver-content
+description: Contains the properties that are available only from a Windows driver update.
+old-location: wua\iwindowsdriverupdateentry.htm
+old-project: Wua_Sdk
+ms.assetid: 91b8ed77-70f7-400f-a887-b3cf9f573c76
+ms.author: windowsdriverdev
+ms.date: 3/15/2018
+ms.keywords: IWindowsDriverUpdateEntry, IWindowsDriverUpdateEntry interface [Windows Update Agent], IWindowsDriverUpdateEntry interface [Windows Update Agent], described, wua.iwindowsdriverupdateentry, wuapi/IWindowsDriverUpdateEntry
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: interface
+req.header: wuapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Wuapi.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: UpdateType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wuapi.dll
+api_name:
+-	IWindowsDriverUpdateEntry
+product: Windows
+targetos: Windows
+req.lib: Wuguid.lib
+req.dll: Wuapi.dll
+req.irql: 
+req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+---
+
+# IWindowsDriverUpdateEntry interface
+
+
+## -description
+
+
+Contains the properties that are available only from a Windows driver update.
+
+
+## -remarks
+
+
+
+None of the IWindowsDriverUpdateEntry properties are expected to return any errors (other than E_POINTER if <b>NULL</b> is passed to the property).
+
+
+

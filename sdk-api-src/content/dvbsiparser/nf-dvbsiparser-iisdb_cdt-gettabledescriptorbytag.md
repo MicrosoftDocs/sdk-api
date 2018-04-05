@@ -1,0 +1,114 @@
+---
+UID: NF:dvbsiparser.IISDB_CDT.GetTableDescriptorByTag
+title: IISDB_CDT::GetTableDescriptorByTag method
+author: windows-driver-content
+description: Searches a subtable in an Integrated Services Digital Broadcasting (ISDB) common data table (CDT).
+old-location: mstv\iisdb_cdt_gettabledescriptorbytag.htm
+old-project: mstv
+ms.assetid: c06f9d03-a46a-4c3f-bacc-a78f79c411c3
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: GetTableDescriptorByTag method [Microsoft TV Technologies], GetTableDescriptorByTag method [Microsoft TV Technologies], IISDB_CDT interface, GetTableDescriptorByTag,IISDB_CDT.GetTableDescriptorByTag, IISDB_CDT, IISDB_CDT interface [Microsoft TV Technologies], GetTableDescriptorByTag method, IISDB_CDT::GetTableDescriptorByTag, dvbsiparser/IISDB_CDT::GetTableDescriptorByTag, mstv.iisdb_cdt_gettabledescriptorbytag
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: dvbsiparser.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: None supported
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Dvbsiparser.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	dvbsiparser.h
+api_name:
+-	IISDB_CDT.GetTableDescriptorByTag
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
+---
+
+# IISDB_CDT::GetTableDescriptorByTag method
+
+
+## -description
+
+
+
+  Searches a subtable in
+  an Integrated Services Digital Broadcasting (ISDB)
+  common data table (CDT).
+
+
+## -parameters
+
+
+
+
+### -param bTag [in]
+
+Specifies the descriptor tag for which to search.
+
+
+### -param pdwCookie [in, out]
+
+
+  Pointer to a variable that specifies the start position
+  in the descriptor list. This parameter is optional.
+  If the value of <i>pdwCookie</i> is <b>NULL</b>, the search starts from the
+  first descriptor in the list. Otherwise, the search starts from
+  the position given in <i>pdwCookie</i>. When the method returns, the <i>pdwCookie</i>
+  parameter contains the position of the next matching descriptor,
+  if any. You can use this parameter to iterate through the descriptor list,
+  looking for every instance of a particular descriptor tag.
+
+
+
+### -param ppDescriptor [out]
+
+
+  Receives an <a href="https://msdn.microsoft.com/efca0ecf-eb3e-4dcd-a674-b8fe1a66ff84">IGenericDescriptor</a>
+  interface pointer. Use this interface to retrieve the information
+  in the descriptor. The caller must release the interface.
+
+
+
+## -returns
+
+
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/efca0ecf-eb3e-4dcd-a674-b8fe1a66ff84">IGenericDescriptor</a>
+
+
+
+<a href="https://msdn.microsoft.com/6e0ceabb-4d67-46c1-9e7d-e00d5ad82280">IISDB_CDT</a>
+ 
+
+ 
+

@@ -1,0 +1,83 @@
+---
+UID: NF:directmanipulation.IDirectManipulationViewport2.RemoveBehavior
+title: IDirectManipulationViewport2::RemoveBehavior method
+author: windows-driver-content
+description: Removes a behavior from the viewport that matches the given cookie.
+old-location: directmanipulation\idirectmanipulationviewport2_removebehavior.htm
+old-project: directmanipulation
+ms.assetid: CA5FF0FC-6ED9-4964-9751-90387650A198
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: IDirectManipulationViewport2, IDirectManipulationViewport2 interface [Direct Manipulation], RemoveBehavior method, IDirectManipulationViewport2::RemoveBehavior, RemoveBehavior method [Direct Manipulation], RemoveBehavior method [Direct Manipulation], IDirectManipulationViewport2 interface, RemoveBehavior,IDirectManipulationViewport2.RemoveBehavior, directmanipulation.idirectmanipulationviewport2_removebehavior, directmanipulation/IDirectManipulationViewport2::RemoveBehavior
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: directmanipulation.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: DirectManipulation.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: DIRECTMANIPULATION_VIEWPORT_OPTIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	DirectManipulation.h
+api_name:
+-	IDirectManipulationViewport2.RemoveBehavior
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# IDirectManipulationViewport2::RemoveBehavior method
+
+
+## -description
+
+
+Removes a behavior from the viewport that matches the given cookie.
+
+
+## -parameters
+
+
+
+
+### -param cookie [in]
+
+A valid cookie returned from the <a href="https://msdn.microsoft.com/E65CF2A3-EF44-4B4E-A8C5-7DC75345B5A6">AddBehavior</a> call on the same viewport.
+
+
+## -returns
+
+
+
+If the method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code. If the behavior has already been removed or if the behavior is not attached to this viewport a failure is returned.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/6EDFBA93-D2A2-4089-9976-CD1F8421B319">IDirectManipulationViewport2</a>
+ 
+
+ 
+

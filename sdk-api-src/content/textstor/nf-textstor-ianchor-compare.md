@@ -1,0 +1,190 @@
+---
+UID: NF:textstor.IAnchor.Compare
+title: IAnchor::Compare method
+author: windows-driver-content
+description: The IAnchor::Compare method compares the relative position of two anchors within a text stream.
+old-location: tsf\ianchor_compare.htm
+old-project: TSF
+ms.assetid: 227ed0c0-0bdd-49af-b5dc-fdb69913b9c1
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: "+1, -1, 0, Compare method [Text Services Framework], Compare method [Text Services Framework], IAnchor interface, Compare,IAnchor.Compare, IAnchor, IAnchor interface [Text Services Framework], Compare method, IAnchor::Compare, textstor/IAnchor::Compare, tsf.ianchor_compare"
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: textstor.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Textstor.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: TsRunType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Msctf.dll
+api_name:
+-	IAnchor.Compare
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# IAnchor::Compare method
+
+
+## -description
+
+
+The <b>IAnchor::Compare</b> method compares the relative position of two anchors within a text stream.
+
+
+## -parameters
+
+
+
+
+### -param paWith [in]
+
+An anchor object to compare to the primary anchor. Used to determine the relative position of the two anchors.
+
+
+### -param plResult [out]
+
+Result of the comparison of the positions of the two anchors.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="-1"></a><dl>
+<dt><b>-1</b></dt>
+</dl>
+</td>
+<td width="60%">
+The primary anchor is positioned earlier in the text stream than <i>paWith.</i>
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="0"></a><dl>
+<dt><b>0</b></dt>
+</dl>
+</td>
+<td width="60%">
+The primary anchor is positioned at the same location as <i>paWith.</i>
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="_1"></a><dl>
+<dt><b>+1</b></dt>
+</dl>
+</td>
+<td width="60%">
+The primary anchor is positioned later in the text stream than <i>paWith.</i>
+
+</td>
+</tr>
+</table>
+ 
+
+
+## -returns
+
+
+
+This method can return one of these values.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method was successful.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_FAIL</b></dt>
+</dl>
+</td>
+<td width="60%">
+<i>paWith</i> is invalid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+<i>plResult</i> is invalid.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+The value 0 is returned for <i>*plResult</i> only when the two anchors are in a single region. Anchor positions include the spaces between regions. If you only need to determine if the two anchors are positioned at the same location, <a href="https://msdn.microsoft.com/a2dedce7-f64d-406a-bebc-9a4b51a1ae38">IAnchor::IsEqual</a> is more efficient.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="ranges.htm">Anchors</a>
+
+
+
+<a href="https://msdn.microsoft.com/a7d52959-8386-464f-958d-c870f286b265">IAnchor</a>
+
+
+
+<a href="https://msdn.microsoft.com/a2dedce7-f64d-406a-bebc-9a4b51a1ae38">IAnchor::IsEqual
+      </a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn915768">Regions</a>
+ 
+
+ 
+

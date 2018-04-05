@@ -1,0 +1,104 @@
+---
+UID: NF:wmprealestate.IWMPNodeWindowed.GetOwnerWindow
+title: IWMPNodeWindowed::GetOwnerWindow method
+author: windows-driver-content
+description: This page documents a feature that may be unavailable in future versions of Windows Media Player and the Windows Media Player SDK.
+old-location: wmp\iwmpnodewindowed_getownerwindow.htm
+old-project: WMP
+ms.assetid: d42bdb97-6821-4e4a-b98d-ed03f978b5c1
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: GetOwnerWindow method [Windows Media Player], GetOwnerWindow method [Windows Media Player], IWMPNodeWindowed interface, GetOwnerWindow,IWMPNodeWindowed.GetOwnerWindow, IWMPNodeWindowed, IWMPNodeWindowed interface [Windows Media Player], GetOwnerWindow method, IWMPNodeWindowed::GetOwnerWindow, IWMPNodeWindowedGetOwnerWindowRendering, wmp.iwmpnodewindowed_getownerwindow, wmprealestate/IWMPNodeWindowed::GetOwnerWindow
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wmprealestate.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Media Player 9 Series or later.
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WMP_WMDM_METADATA_ROUND_TRIP_PC2DEVICE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	wmprealestate.h
+api_name:
+-	IWMPNodeWindowed.GetOwnerWindow
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IWMPNodeWindowed::GetOwnerWindow method
+
+
+## -description
+
+
+
+
+          This page documents a feature that may be unavailable in future versions of Windows Media Player and the Windows Media Player SDK.
+        
+
+
+
+The <b>GetOwnerWindow</b> method returns the window handle previously set by Windows Media Player.
+
+
+## -parameters
+
+
+
+
+### -param phwnd [out]
+
+A pointer to a window handle.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>.
+
+
+
+
+## -remarks
+
+
+
+This method allows Windows Media Player to retrieve a value from the plug-in previously set by the Player. Do not change this value.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/ef99ff7c-d4b0-448e-8057-037535aaf847">IWMPNodeWindowed Interface (deprecated)</a>
+
+
+
+<a href="https://msdn.microsoft.com/33541e65-57dc-488a-ab34-6ac2e5ecda58">IWMPNodeWindowed::SetOwnerWindow (deprecated)</a>
+ 
+
+ 
+

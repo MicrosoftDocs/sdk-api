@@ -1,0 +1,96 @@
+---
+UID: NF:control.IBasicVideo.GetVideoSize
+title: IBasicVideo::GetVideoSize method
+author: windows-driver-content
+description: The GetVideoSize method retrieves the native video dimensions.
+old-location: dshow\ibasicvideo_getvideosize.htm
+old-project: DirectShow
+ms.assetid: fbabba8b-b86b-451b-ad06-4454174ee352
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: GetVideoSize method [DirectShow], GetVideoSize method [DirectShow], IBasicVideo interface, GetVideoSize,IBasicVideo.GetVideoSize, IBasicVideo, IBasicVideo interface [DirectShow], GetVideoSize method, IBasicVideo::GetVideoSize, IBasicVideoGetVideoSize, control/IBasicVideo::GetVideoSize, dshow.ibasicvideo_getvideosize
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: control.h
+req.include-header: Dshow.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WMPContextMenuInfo
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Strmiids.lib
+-	Strmiids.dll
+api_name:
+-	IBasicVideo.GetVideoSize
+product: Windows
+targetos: Windows
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
+---
+
+# IBasicVideo::GetVideoSize method
+
+
+## -description
+
+
+
+The <code>GetVideoSize</code> method retrieves the native video dimensions.
+
+
+
+
+## -parameters
+
+
+
+
+### -param pWidth [out]
+
+Pointer to a variable that receives the width of the video image, in pixels.
+
+
+### -param pHeight [out]
+
+Pointer to a variable that receives the height of the video image, in pixels.
+
+
+## -returns
+
+
+
+Returns an <b>HRESULT</b> value.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+
+
+
+<a href="https://msdn.microsoft.com/14f45bdc-2271-459d-b165-c860c8fc3e0b">IBasicVideo Interface</a>
+ 
+
+ 
+

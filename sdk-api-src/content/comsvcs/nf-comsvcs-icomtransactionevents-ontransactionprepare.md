@@ -1,0 +1,93 @@
+---
+UID: NF:comsvcs.IComTransactionEvents.OnTransactionPrepare
+title: IComTransactionEvents::OnTransactionPrepare method
+author: windows-driver-content
+description: Generated when the prepare phase of the two-phase commit protocol of the transaction is completed.
+old-location: cos\icomtransactionevents_ontransactionprepare.htm
+old-project: cossdk
+ms.assetid: ab56c3fc-daeb-4c7a-ac7f-a2c6d70c1006
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: IComTransactionEvents, IComTransactionEvents interface [COM+], OnTransactionPrepare method, IComTransactionEvents::OnTransactionPrepare, OnTransactionPrepare method [COM+], OnTransactionPrepare method [COM+], IComTransactionEvents interface, OnTransactionPrepare,IComTransactionEvents.OnTransactionPrepare, _dtc_IComTransactionEvents_OnTransactionPrepare, comsvcs/IComTransactionEvents::OnTransactionPrepare, cos.icomtransactionevents_ontransactionprepare
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: comsvcs.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: TRACKING_COLL_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	ComSvcs.h
+api_name:
+-	IComTransactionEvents.OnTransactionPrepare
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# IComTransactionEvents::OnTransactionPrepare method
+
+
+## -description
+
+
+Generated when the prepare phase of the two-phase commit protocol of the transaction is completed.
+
+
+## -parameters
+
+
+
+
+### -param pInfo [in]
+
+A pointer to a <a href="https://msdn.microsoft.com/f4aa0892-4c93-42ea-adc6-1b304b917389">COMSVCSEVENTINFO</a> structure.
+
+
+### -param guidTx [in]
+
+The transaction identifier.
+
+
+### -param fVoteYes [in]
+
+The resource managers result concerning the outcome of the prepare phase.
+
+
+## -returns
+
+
+
+The user verifies the return values from this method.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/f28a0ef5-1c9a-4fdc-bb10-2c381f22f5e3">IComTransactionEvents</a>
+ 
+
+ 
+

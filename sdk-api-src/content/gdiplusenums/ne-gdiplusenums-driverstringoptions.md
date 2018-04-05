@@ -1,0 +1,99 @@
+---
+UID: NE:gdiplusenums.DriverStringOptions
+title: DriverStringOptions
+author: windows-driver-content
+description: The DriverStringOptions enumeration specifies the spacing, orientation, and quality of the rendering for driver strings.
+old-location: gdiplus\_gdiplus_ENUM_DriverStringOptions.htm
+old-project: gdiplus
+ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\driverstringoptions.htm
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: DriverStringOptions, DriverStringOptions enumeration [GDI+], DriverStringOptionsCmapLookup, DriverStringOptionsLimitSubpixel, DriverStringOptionsRealizedAdvance, DriverStringOptionsVertical, _gdiplus_ENUM_DriverStringOptions, gdiplus._gdiplus_ENUM_DriverStringOptions, gdiplusenums/DriverStringOptions, gdiplusenums/DriverStringOptionsCmapLookup, gdiplusenums/DriverStringOptionsLimitSubpixel, gdiplusenums/DriverStringOptionsRealizedAdvance, gdiplusenums/DriverStringOptionsVertical
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: enum
+req.header: gdiplusenums.h
+req.include-header: Gdiplus.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Gdiplusenums.h
+api_name:
+-	DriverStringOptions
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.0
+---
+
+# DriverStringOptions enumeration
+
+
+## -description
+
+
+The <b>DriverStringOptions</b> enumeration specifies the spacing, orientation, and quality of the rendering for driver strings.
+
+
+## -enum-fields
+
+
+
+
+### -field DriverStringOptionsCmapLookup
+
+Specifies that the string array contains Unicode character values. 
+			If this flag is not set, each value in array is interpreted as an index to a font glyph that defines a character to be displayed.
+
+
+### -field DriverStringOptionsVertical
+
+Specifies that the string is displayed vertically. 
+
+
+### -field DriverStringOptionsRealizedAdvance
+
+Specifies that the glyph positions are calculated from the position of the first glyph. If this flag is not set, the glyph positions are obtained from an array of coordinates. 
+
+
+### -field DriverStringOptionsLimitSubpixel
+
+Specifies that less memory should be used for cache of antialiased glyphs. This also produces lower quality. If this flag isn't set, more memory is used, but the quality is higher. 
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/780d97ec-f446-4d19-837f-517a7d6dd27d">Antialiasing with Text</a>
+
+
+
+<a href="https://msdn.microsoft.com/daed7b4e-5284-4a38-bd33-274618f01027">Graphics::DrawDriverString</a>
+
+
+
+<a href="https://msdn.microsoft.com/f68ee34e-84e9-4af1-b5f7-018b875d80ad">Graphics::MeasureDriverString</a>
+ 
+
+ 
+

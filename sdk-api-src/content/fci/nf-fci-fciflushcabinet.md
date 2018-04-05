@@ -1,0 +1,126 @@
+---
+UID: NF:fci.FCIFlushCabinet
+title: FCIFlushCabinet function
+author: windows-driver-content
+description: The FCIFlushCabinet function completes the current cabinet.
+old-location: winprog\fciflushcabinet.htm
+old-project: DevNotes
+ms.assetid: dc586260-180e-4a6b-accf-2ddd62ac1335
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: FCIFlushCabinet, FCIFlushCabinet function [Windows API], fci/FCIFlushCabinet, winprog.fciflushcabinet
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: fci.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: FAX_ROUTE_CALLBACKROUTINES, *PFAX_ROUTE_CALLBACKROUTINES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Cabinet.dll
+api_name:
+-	FCIFlushCabinet
+product: Windows
+targetos: Windows
+req.lib: Cabinet.lib
+req.dll: Cabinet.dll
+req.irql: 
+req.product: Internet Explorer 5
+---
+
+# FCIFlushCabinet function
+
+
+## -description
+
+
+The <b>FCIFlushCabinet</b> function completes the current cabinet.
+
+
+## -parameters
+
+
+
+
+### -param hfci [in]
+
+A valid FCI context handle returned by the<a href="https://msdn.microsoft.com/bfcea06d-2f09-405c-955c-0f56149148f2">FCICreate</a> function.
+
+
+### -param fGetNextCab [in]
+
+Specifies whether the function pointed to by the supplied <i>GetNextCab</i> parameter will be called.
+
+
+### -param pfnfcignc
+
+TBD
+
+
+### -param pfnfcis
+
+TBD
+
+
+
+
+#### - GetNextCab [in]
+
+Pointer to an application-defined callback function to obtain specifications on the next cabinet to create. The function should be declared using the <a href="https://msdn.microsoft.com/d56fb63e-91bf-4991-a954-176211697a2e">FNFCIGETNEXTCABINET</a> macro.
+
+
+#### - pfnProgress [in]
+
+Pointer to an application-defined callback function to update the user. The function should be declared using the <a href="https://msdn.microsoft.com/529fd3c8-9783-4dbe-9268-a9137935cf9b">FNFCISTATUS</a> macro.
+
+
+## -returns
+
+
+
+If the function succeeds, it returns <b>TRUE</b>; otherwise, <b>FALSE</b>.
+
+Extended error information is provided in the <a href="https://msdn.microsoft.com/ddbccad9-a68c-4be7-90dc-e3dd25f5cf3b">ERF</a> structure used to create the FCI context.
+
+
+
+
+## -remarks
+
+
+
+The <b>FCIFlushCabinet</b> API forces the current cabinet under construction to be completed immediately and then written to disk. Further calls to <a href="https://msdn.microsoft.com/f99e8718-853b-4d35-98ae-61a8333dbaba">FCIAddFile</a> will result in files being added to another cabinet.
+
+ In the event the current cabinet has reached the application-specified media size limit, the pending data within an FCI's internal buffers will be placed into another cabinet.
+
+The <i>fGetNextCab</i> flag determines whether the function pointed to by the <i>GetNextCab</i> parameter will be called. If <i>fGetNextCab</i> is set <b>TRUE</b>, <i>GetNextCab</i> is called to obtain continuation information. If <b>FALSE</b>, then <i>GetNextCab</i> is called only in the event the cabinet overflows.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/dc9c226e-e309-48c3-9edb-3f0a040c0c18">FCIFlushFolder</a>
+ 
+
+ 
+

@@ -1,0 +1,130 @@
+---
+UID: NF:control.IMediaEvent.RestoreDefaultHandling
+title: IMediaEvent::RestoreDefaultHandling method
+author: windows-driver-content
+description: The RestoreDefaultHandling method restores the Filter Graph Manager's default handling for a specified event.
+old-location: dshow\imediaevent_restoredefaulthandling.htm
+old-project: DirectShow
+ms.assetid: 2df616b0-b944-44ab-8147-4f70796dd2a2
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: IMediaEvent, IMediaEvent interface [DirectShow], RestoreDefaultHandling method, IMediaEvent::RestoreDefaultHandling, IMediaEventRestoreDefaultHandling, RestoreDefaultHandling method [DirectShow], RestoreDefaultHandling method [DirectShow], IMediaEvent interface, RestoreDefaultHandling,IMediaEvent.RestoreDefaultHandling, control/IMediaEvent::RestoreDefaultHandling, dshow.imediaevent_restoredefaulthandling
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: control.h
+req.include-header: Dshow.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WMPContextMenuInfo
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Strmiids.lib
+-	Strmiids.dll
+api_name:
+-	IMediaEvent.RestoreDefaultHandling
+product: Windows
+targetos: Windows
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
+---
+
+# IMediaEvent::RestoreDefaultHandling method
+
+
+## -description
+
+
+
+The <code>RestoreDefaultHandling</code> method restores the Filter Graph Manager's default handling for a specified event.
+
+
+
+
+## -parameters
+
+
+
+
+### -param lEvCode [in]
+
+Event code for which to restore default handling.
+
+
+## -returns
+
+
+
+Returns an <b>HRESULT</b> value. Possible values include the following.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+Success.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+No default handling for this event.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+By default, the Filter Graph Manager handles some events (such as <a href="https://msdn.microsoft.com/2e756dea-366c-4024-8fc8-6feabaef1954">EC_REPAINT</a>) without passing them to the application. If you call the <a href="https://msdn.microsoft.com/955d0494-8418-42a1-ab6e-2c779165f578">IMediaEvent::CancelDefaultHandling</a> method to override the default handling for an event, you can restore the default behavior by calling <code>RestoreDefaultHandling</code> with the same event code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+
+
+
+<a href="https://msdn.microsoft.com/651561d1-4e7e-48de-9cba-769ddb553e63">IMediaEvent Interface</a>
+ 
+
+ 
+

@@ -1,0 +1,91 @@
+---
+UID: NF:tsvirtualchannels.IWTSVirtualChannelCallback.OnDataReceived
+title: IWTSVirtualChannelCallback::OnDataReceived method
+author: windows-driver-content
+description: Notifies the user about data that is being received.
+old-location: termserv\iwtsvirtualchannelcallback_ondatareceived.htm
+old-project: TermServ
+ms.assetid: 5876ba1a-3f37-4140-b448-91978aa7b0c9
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: IWTSVirtualChannelCallback, IWTSVirtualChannelCallback interface [Remote Desktop Services], OnDataReceived method, IWTSVirtualChannelCallback::OnDataReceived, OnDataReceived method [Remote Desktop Services], OnDataReceived method [Remote Desktop Services], IWTSVirtualChannelCallback interface, OnDataReceived,IWTSVirtualChannelCallback.OnDataReceived, termserv.iwtsvirtualchannelcallback_ondatareceived, tsvirtualchannels/IWTSVirtualChannelCallback::OnDataReceived
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: tsvirtualchannels.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: TsVirtualChannels.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WTSSBX_SESSION_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	TsVirtualChannels.h
+api_name:
+-	IWTSVirtualChannelCallback.OnDataReceived
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# IWTSVirtualChannelCallback::OnDataReceived method
+
+
+## -description
+
+
+Notifies the user about data that is being received.
+
+The data has the same size and content as a corresponding <a href="https://msdn.microsoft.com/cb999de8-74a1-4491-bffb-dc4d74a1fea3">WTSVirtualChannelWrite()</a> call from the remote side. There is no hard limit on the size of the data that can be sent. All packet reconstruction is handled by the dynamic virtual channel (DVC) framework.
+
+
+## -parameters
+
+
+
+
+### -param cbSize [in]
+
+The size, in bytes, of the buffer to receive the data.
+
+
+### -param pBuffer [in]
+
+A pointer to a buffer to receive the data. This buffer is valid only until this call is complete.
+
+
+## -returns
+
+
+
+Returns <b>S_OK</b> on success. Results in no action if the call fails.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/d90c6f80-ed4c-4b99-af85-d2c5816ade85">IWTSVirtualChannelCallback</a>
+ 
+
+ 
+

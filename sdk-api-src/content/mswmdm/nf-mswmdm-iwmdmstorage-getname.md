@@ -1,0 +1,100 @@
+---
+UID: NF:mswmdm.IWMDMStorage.GetName
+title: IWMDMStorage::GetName method
+author: windows-driver-content
+description: The GetName method retrieves the display name of the storage.
+old-location: wmdm\iwmdmstorage_getname.htm
+old-project: WMDM
+ms.assetid: 1387a82f-e320-402a-b3c9-2f28550c4caf
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: GetName method [windows Media Device Manager], GetName method [windows Media Device Manager], IWMDMStorage interface, GetName,IWMDMStorage.GetName, IWMDMStorage, IWMDMStorage interface [windows Media Device Manager], GetName method, IWMDMStorage::GetName, IWMDMStorageGetName, mswmdm/IWMDMStorage::GetName, wmdm.iwmdmstorage_getname
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: mswmdm.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MSVidCtlStateList
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mssachlp.lib
+-	mssachlp.dll
+api_name:
+-	IWMDMStorage.GetName
+product: Windows
+targetos: Windows
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# IWMDMStorage::GetName method
+
+
+## -description
+
+
+
+The <b>GetName</b> method retrieves the display name of the storage.
+
+
+
+
+## -parameters
+
+
+
+
+### -param pwszName [out]
+
+Pointer to a wide-character null-terminated string specifying the storage name. This is the display name of the object is the file name without path information. The caller allocates and releases this buffer.
+
+
+### -param nMaxChars [in]
+
+Integer specifying the maximum number of characters that can be copied to the name string.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. All the interface methods in Windows Media Device Manager can return any of the following classes of error codes:
+
+<ul>
+<li>Standard COM error codes </li>
+<li>Windows error codes converted to HRESULT values </li>
+<li>Windows Media Device Manager error codes </li>
+</ul>
+For an extensive list of possible error codes, see <a href="https://msdn.microsoft.com/library/windows/hardware/dn938542">Error Codes</a>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/1ede7c68-0169-4375-9b45-b0995ad14e44">IWMDMStorage Interface</a>
+ 
+
+ 
+

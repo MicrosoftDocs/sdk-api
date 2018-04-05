@@ -1,0 +1,92 @@
+---
+UID: NF:mediaobj.IMediaBuffer.GetMaxLength
+title: IMediaBuffer::GetMaxLength method
+author: windows-driver-content
+description: The GetMaxLength method retrieves the maximum number of bytes this buffer can hold.
+old-location: dshow\imediabuffer_getmaxlength.htm
+old-project: DirectShow
+ms.assetid: 9e312d3b-4994-4493-861c-cc0f6f112362
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: GetMaxLength method [DirectShow], GetMaxLength method [DirectShow], IMediaBuffer interface, GetMaxLength,IMediaBuffer.GetMaxLength, IMediaBuffer, IMediaBuffer interface [DirectShow], GetMaxLength method, IMediaBuffer::GetMaxLength, IMediaBufferGetMaxLength, dshow.imediabuffer_getmaxlength, mediaobj/IMediaBuffer::GetMaxLength
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: mediaobj.h
+req.include-header: Dmo.h
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Dmoguids.lib
+-	Dmoguids.dll
+api_name:
+-	IMediaBuffer.GetMaxLength
+product: Windows
+targetos: Windows
+req.lib: Dmoguids.lib
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IMediaBuffer::GetMaxLength method
+
+
+## -description
+
+
+
+The <code>GetMaxLength</code> method retrieves the maximum number of bytes this buffer can hold.
+
+
+
+
+## -parameters
+
+
+
+
+### -param pcbMaxLength [out]
+
+Pointer to a variable that receives the buffer's maximum size, in bytes.
+
+
+## -returns
+
+
+
+Returns S_OK if successful. Otherwise, returns an <b>HRESULT</b> value indicating the cause of the error.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/74d72ca6-f899-43fc-bdea-5208d920f314">IMediaBuffer Interface</a>
+
+
+
+<a href="https://msdn.microsoft.com/bde7cef8-f43e-4a11-8b77-fed5585d390a">Implementing IMediaBuffer</a>
+ 
+
+ 
+

@@ -1,0 +1,91 @@
+---
+UID: NF:wuapi.IDownloadResult.GetUpdateResult
+title: IDownloadResult::GetUpdateResult method
+author: windows-driver-content
+description: Returns an IUpdateDownloadResult interface that contains the download information for a specified update.
+old-location: wua\idownloadresult_getupdateresult.htm
+old-project: Wua_Sdk
+ms.assetid: d95ce8ad-74d7-4144-9a4b-75d69d5a9442
+ms.author: windowsdriverdev
+ms.date: 3/15/2018
+ms.keywords: GetUpdateResult method [Windows Update Agent], GetUpdateResult method [Windows Update Agent], IDownloadResult interface, GetUpdateResult,IDownloadResult.GetUpdateResult, IDownloadResult, IDownloadResult interface [Windows Update Agent], GetUpdateResult method, IDownloadResult::GetUpdateResult, wua.idownloadresult_getupdateresult, wuapi/IDownloadResult::GetUpdateResult
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wuapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Wuapi.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: UpdateType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wuapi.dll
+api_name:
+-	IDownloadResult.GetUpdateResult
+product: Windows
+targetos: Windows
+req.lib: Wuguid.lib
+req.dll: Wuapi.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IDownloadResult::GetUpdateResult method
+
+
+## -description
+
+
+Returns an <a href="https://msdn.microsoft.com/d2a800c9-c23a-4aab-a9c6-e408349818dd">IUpdateDownloadResult</a> interface that contains the download information for a specified update.
+
+
+## -parameters
+
+
+
+
+### -param updateIndex [in]
+
+The index of the update.
+
+
+### -param retval [out]
+
+An <a href="https://msdn.microsoft.com/d2a800c9-c23a-4aab-a9c6-e408349818dd">IUpdateDownloadResult</a> interface that contains the results for the specified update.
+
+
+## -returns
+
+
+
+Returns <b>S_OK</b> if successful. Otherwise, returns  a COM or Windows 
+
+error code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/293bea59-acec-4774-adb9-1ad1d29406c3">IDownloadResult</a>
+ 
+
+ 
+

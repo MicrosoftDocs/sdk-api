@@ -1,0 +1,93 @@
+---
+UID: NF:msrdc.ISimilarityTraitsTable.BeginDump
+title: ISimilarityTraitsTable::BeginDump method
+author: windows-driver-content
+description: Retrieves similarity data from the similarity traits table.
+old-location: rdc\isimilaritytraitstable_begindump.htm
+old-project: Rdc
+ms.assetid: 93298019-334b-4685-b95e-a1081c2bd9dc
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: BeginDump method [Remote Differential Compression], BeginDump method [Remote Differential Compression], ISimilarityTraitsTable interface, BeginDump,ISimilarityTraitsTable.BeginDump, ISimilarityTraitsTable, ISimilarityTraitsTable interface [Remote Differential Compression], BeginDump method, ISimilarityTraitsTable::BeginDump, fs.isimilaritytraitstable_begindump, msrdc/ISimilarityTraitsTable::BeginDump, rdc.isimilaritytraitstable_begindump
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: msrdc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: MsRdc.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: RdcMappingAccessMode
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	MsRdc.dll
+api_name:
+-	ISimilarityTraitsTable.BeginDump
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: MsRdc.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 SP2 or later
+---
+
+# ISimilarityTraitsTable::BeginDump method
+
+
+## -description
+
+
+Retrieves similarity data from the similarity traits table.
+
+
+## -parameters
+
+
+
+
+### -param similarityTableDumpState [out, optional]
+
+An optional pointer to a location that will receive the returned <a href="https://msdn.microsoft.com/a56433b5-191f-49fe-83fb-7057e4c30bbd">ISimilarityTableDumpState</a> interface pointer. The caller must release this interface when it is no longer needed.
+
+
+## -returns
+
+
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+The <b>BeginDump</b> method is used for debugging and garbage collection. It returns an interface pointer to an iterator object that allows the application to efficiently dump all of the entries in the similarity traits table.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/0985e27c-aa70-43c1-bcec-00ef14f2df58">ISimilarityTraitsTable</a>
+ 
+
+ 
+

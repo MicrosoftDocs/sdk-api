@@ -1,0 +1,174 @@
+---
+UID: NF:portabledeviceapi.IPortableDeviceContent.CreateObjectWithPropertiesAndData
+title: IPortableDeviceContent::CreateObjectWithPropertiesAndData method
+author: windows-driver-content
+description: The CreateObjectWithPropertiesAndData method creates an object with both properties and data on the device.
+old-location: wpdsdk\iportabledevicecontent_createobjectwithpropertiesanddata.htm
+old-project: wpd_sdk
+ms.assetid: ea3445cc-69af-40a6-a5a4-695e0f2e1fb6
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: CreateObjectWithPropertiesAndData method [Windows Portable Devices SDK], CreateObjectWithPropertiesAndData method [Windows Portable Devices SDK], IPortableDeviceContent interface, CreateObjectWithPropertiesAndData,IPortableDeviceContent.CreateObjectWithPropertiesAndData, IPortableDeviceContent, IPortableDeviceContent interface [Windows Portable Devices SDK], CreateObjectWithPropertiesAndData method, IPortableDeviceContent::CreateObjectWithPropertiesAndData, IPortableDeviceContentCreateObjectWithPropertiesAndData, portabledeviceapi/IPortableDeviceContent::CreateObjectWithPropertiesAndData, wpdsdk.iportabledevicecontent_createobjectwithpropertiesanddata
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: portabledeviceapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WPD_WHITE_BALANCE_SETTINGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	PortableDeviceGUIDs.lib
+-	PortableDeviceGUIDs.dll
+api_name:
+-	IPortableDeviceContent.CreateObjectWithPropertiesAndData
+product: Windows
+targetos: Windows
+req.lib: PortableDeviceGUIDs.lib
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# IPortableDeviceContent::CreateObjectWithPropertiesAndData method
+
+
+## -description
+
+
+
+        The <b>CreateObjectWithPropertiesAndData</b> method creates an object with both properties and data on the device.
+      
+
+
+## -parameters
+
+
+
+
+### -param pValues
+
+
+            An <b>IPortableDeviceValues</b> collection of properties to assign to the object. For a list of required and optional properties for an object, see <a href="https://msdn.microsoft.com/4c3da994-fe12-4cb8-8f11-c4930cae96af">Requirements for Objects</a>.
+          
+
+
+### -param ppData [out]
+
+Address of a variable that receives a pointer to an <b>IStream</b> interface that the application uses to send the object data to the device. The object will not be created on the device until the application sends the data by calling <i>ppData</i>-&gt;<b>Commit</b>. To abandon a data transfer in progress, you can call <i>ppData</i> -&gt; <b>Revert</b>. The caller must release this interface when it is done with it. The underlying object extends both <b>IStream</b> and <a href="https://msdn.microsoft.com/d7bd955a-886f-4081-bfc3-cd2d7e2cfb24">IPortableDeviceDataStream</a>.
+          
+
+
+### -param pdwOptimalWriteBufferSize [in, out]
+
+
+            An optional <b>DWORD</b> pointer that specifies the optimal buffer size for the application to use when writing the data to <i>ppData</i>. The application can specify <b>TRUE</b> to ignore this.
+          
+
+
+### -param ppszCookie [in, out]
+
+
+            An optional unique, null-terminated string ID that is used to identify this creation request in the application's implementation of <a href="https://msdn.microsoft.com/1fb2d5d8-82b8-4c51-a086-bdcad33da190">IPortableDeviceEventCallback</a> (if implemented). When the device finishes creating the object, it will send this identifier to the callback function. This identifier allows an application to monitor object creation in a different thread from the one that called <a href="https://msdn.microsoft.com/0695d3d6-1f0d-45b4-8461-a76d759b6c09">CreateObjectWithPropertiesOnly</a>. The SDK allocates this memory, and the caller must release it using <b>CoTaskMemFree</b>.
+          
+
+
+## -returns
+
+
+
+
+            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+          
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_POINTER</b></dt>
+</dl>
+</td>
+<td width="60%">
+At least one of the required arguments was a <b>NULL</b> pointer.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+
+        Some objects are only a collection of properties—such as a folder, which is only a collection of pointers to other objects—while other objects are both properties and data—such as an audio file, which contains all the properties and the actual music bits. This method is used to create an object that requires both properties and data. To create a properties-only object, call <a href="https://msdn.microsoft.com/0695d3d6-1f0d-45b4-8461-a76d759b6c09">CreateObjectWithPropertiesOnly</a>.
+      
+
+
+        Because the object is not created until the application calls <b>Commit</b> on the retrieved <b>IStream</b> <i>ppData</i>, the object will not have an ID until <b>Commit</b> is called on it. <b>Commit</b> is synchronous, so when that method returns successfully, the object will exist on the device.
+      
+
+
+        After calling <b>Commit</b> to create the object, call <b>QueryInterface</b> on <i>ppData</i> for <a href="https://msdn.microsoft.com/d7bd955a-886f-4081-bfc3-cd2d7e2cfb24">IPortableDeviceDataStream</a>, and then call <a href="https://msdn.microsoft.com/bd506e52-723d-4a3c-b73e-425700ccd3ec">IPortableDeviceDataStream::GetObjectID</a> to get the ID of the newly created object.
+      
+
+
+#### Examples
+
+For an example of how to use this method, see <a href="https://msdn.microsoft.com/bace274c-512a-46da-80a7-84734ee880b7">Transferring an Image or Music File to the Device</a>.
+
+<div class="code"></div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/7a03c673-8e7f-41a4-81ba-88406af2762d">IPortableDeviceContent Interface</a>
+
+
+
+<a href="https://msdn.microsoft.com/d7bd955a-886f-4081-bfc3-cd2d7e2cfb24">IPortableDeviceDataStream Interface</a>
+
+
+
+<a href="https://msdn.microsoft.com/bace274c-512a-46da-80a7-84734ee880b7">Transferring an Image or Music File to the Device</a>
+ 
+
+ 
+

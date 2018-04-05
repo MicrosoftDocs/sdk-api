@@ -1,0 +1,90 @@
+---
+UID: NF:windows.ui.xaml.hosting.referencetracker.IReferenceTrackerManager.ReferenceTrackingStarted
+title: IReferenceTrackerManager::ReferenceTrackingStarted method
+author: windows-driver-content
+description: Indicates that a garbage collector is performing a collection; when the collection is finished, the garbage collector calls FindTrackerTargetsCompleted.
+old-location: winrt\ireferencetrackermanager_referencetrackingstarted.htm
+old-project: WinRT
+ms.assetid: 8d911bbb-aa5e-4906-86d6-caf6f3f84f6f
+ms.author: windowsdriverdev
+ms.date: 3/23/2018
+ms.keywords: IReferenceTrackerManager, IReferenceTrackerManager interface [Windows Runtime], ReferenceTrackingStarted method, IReferenceTrackerManager::ReferenceTrackingStarted, ReferenceTrackingStarted method [Windows Runtime], ReferenceTrackingStarted method [Windows Runtime], IReferenceTrackerManager interface, ReferenceTrackingStarted,IReferenceTrackerManager.ReferenceTrackingStarted, windows/IReferenceTrackerManager::ReferenceTrackingStarted, winrt.ireferencetrackermanager_referencetrackingstarted
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: windows.ui.xaml.hosting.referencetracker.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Windows.ui.xaml.hosting.referencetracker.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: TransportInformation
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Windows.ui.xaml.hosting.referencetracker.h
+api_name:
+-	IReferenceTrackerManager.ReferenceTrackingStarted
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# IReferenceTrackerManager::ReferenceTrackingStarted method
+
+
+## -description
+
+
+Indicates that a garbage collector is performing a collection; when the collection is finished, the garbage collector calls <a href="https://msdn.microsoft.com/16e6f9ac-0466-4ada-ad72-278b3dba6a26">FindTrackerTargetsCompleted</a>.
+
+
+## -parameters
+
+
+
+
+
+
+## -returns
+
+
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+  When this method is called, XAML blocks all threads where it is attempting to update tracked references.  Between calls to <b>ReferenceTrackingStarted</b> and <a href="https://msdn.microsoft.com/17f3832f-c3cb-4797-8f48-c1cf0c9e408a">ReferenceTrackingCompleted</a>, XAML does not make any calls to reference tracker target objects other than <a href="https://msdn.microsoft.com/2750e8b1-eeeb-411a-89a8-b63b26f731ac">Peg</a> and <a href="https://msdn.microsoft.com/c070957f-3bf8-4e72-ad56-e9cb023692c6">Unpeg</a>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/bdac39a0-a51a-49cc-b554-58450c722a46">IReferenceTrackerManager</a>
+ 
+
+ 
+

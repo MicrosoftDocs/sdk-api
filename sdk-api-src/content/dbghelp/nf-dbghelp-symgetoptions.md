@@ -1,0 +1,122 @@
+---
+UID: NF:dbghelp.SymGetOptions
+title: SymGetOptions function
+author: windows-driver-content
+description: Retrieves the current option mask.
+old-location: base\symgetoptions.htm
+old-project: Debug
+ms.assetid: 3d9db826-1c4a-46d6-b007-c0dd5e6b17cc
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: SymGetOptions, SymGetOptions function, _win32_symgetoptions, base.symgetoptions, dbghelp/SymGetOptions
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: dbghelp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: IMAGEHLP_SYMBOL_TYPE_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Dbghelp.dll
+api_name:
+-	SymGetOptions
+product: Windows
+targetos: Windows
+req.lib: Dbghelp.lib
+req.dll: Dbghelp.dll
+req.irql: 
+---
+
+# SymGetOptions function
+
+
+## -description
+
+
+Retrieves the current option mask.
+
+
+## -parameters
+
+
+
+
+
+
+## -returns
+
+
+
+The 
+function returns the current options that have been set. Zero is a valid value and indicates that all options are turned off. 
+
+
+
+
+## -remarks
+
+
+
+These options can be changed several times while the library is in use by an application. Any option change affects all future calls to the symbol handler.
+
+The return value is the combination of the 
+following values that have been set using the <a href="https://msdn.microsoft.com/15d72415-829f-4ba3-af80-1f3762cbebda">SymSetOptions</a> function.
+
+<ul>
+<li>SYMOPT_ALLOW_ABSOLUTE_SYMBOLS</li>
+<li>SYMOPT_ALLOW_ZERO_ADDRESS</li>
+<li>SYMOPT_AUTO_PUBLICS</li>
+<li>SYMOPT_CASE_INSENSITIVE</li>
+<li>SYMOPT_DEBUG</li>
+<li>SYMOPT_DEFERRED_LOADS</li>
+<li>SYMOPT_EXACT_SYMBOLS</li>
+<li>SYMOPT_FAIL_CRITICAL_ERRORS</li>
+<li>SYMOPT_FAVOR_COMPRESSED</li>
+<li>SYMOPT_FLAT_DIRECTORY</li>
+<li>SYMOPT_IGNORE_CVREC</li>
+<li>SYMOPT_IGNORE_IMAGEDIR</li>
+<li>SYMOPT_IGNORE_NT_SYMPATH</li>
+<li>SYMOPT_INCLUDE_32BIT_MODULES</li>
+<li>SYMOPT_LOAD_ANYTHING</li>
+<li>SYMOPT_LOAD_LINES</li>
+<li>SYMOPT_NO_CPP</li>
+<li>SYMOPT_NO_IMAGE_SEARCH</li>
+<li>SYMOPT_NO_PROMPTS</li>
+<li>SYMOPT_NO_PUBLICS</li>
+<li>SYMOPT_NO_UNQUALIFIED_LOADS</li>
+<li>SYMOPT_OVERWRITE</li>
+<li>SYMOPT_PUBLICS_ONLY</li>
+<li>SYMOPT_SECURE</li>
+<li>SYMOPT_UNDNAME</li>
+</ul>
+All DbgHelp functions, such as this one, are single threaded. Therefore, calls from more than one thread to this function will likely result in unexpected behavior or memory corruption. To avoid this, you must synchronize all concurrent calls from more than one thread to this function.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/7b28f70b-2d97-4cc2-8064-dfb806f9cffa">DbgHelp Functions</a>
+ 
+
+ 
+

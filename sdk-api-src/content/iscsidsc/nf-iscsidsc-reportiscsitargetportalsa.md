@@ -1,0 +1,106 @@
+---
+UID: NF:iscsidsc.ReportIScsiTargetPortalsA
+title: ReportIScsiTargetPortalsA function
+author: windows-driver-content
+description: ReportIscsiTargetPortals function retrieves target portal information discovered by the iSCSI initiator service.
+old-location: iscsidisc\reportiscsitargetportals.htm
+old-project: iSCSIDisc
+ms.assetid: e52d095d-4c05-490e-bdc3-639198a93335
+ms.author: windowsdriverdev
+ms.date: 3/23/2018
+ms.keywords: ReportIScsiTargetPortalsA, ReportIscsiTargetPortals, ReportIscsiTargetPortals function [iSCSI Discovery Library API], ReportIscsiTargetPortalsA, ReportIscsiTargetPortalsW, iscsidisc.reportiscsitargetportals, iscsidsc/ReportIscsiTargetPortals, iscsidsc/ReportIscsiTargetPortalsA, iscsidsc/ReportIscsiTargetPortalsW
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: iscsidsc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: ReportIscsiTargetPortalsW (Unicode) and ReportIscsiTargetPortalsA (ANSI)
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: TARGET_INFORMATION_CLASS, *PTARGET_INFORMATION_CLASS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Iscsidsc.dll
+api_name:
+-	ReportIscsiTargetPortals
+-	ReportIscsiTargetPortalsA
+-	ReportIscsiTargetPortalsW
+product: Windows
+targetos: Windows
+req.lib: Iscsidsc.lib
+req.dll: Iscsidsc.dll
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# ReportIScsiTargetPortalsA function
+
+
+## -description
+
+
+The <b>ReportIscsiTargetPortals</b> function retrieves target portal information discovered by the iSCSI initiator service.
+
+
+## -parameters
+
+
+
+
+### -param InitiatorName [in, optional]
+
+A string that represents the name of the initiator node.
+
+
+### -param TargetName [in]
+
+A string that represents the name of the target for which the portal information is retrieved.
+
+
+### -param TargetPortalTag [in, optional]
+
+A <b>USHORT</b> value that represents a tag associated with the portal.
+
+
+### -param ElementCount [in, out]
+
+A <b>ULONG</b> value that specifies the number of portals currently reported for the specified target.
+
+
+### -param Portals [out]
+
+A variable-length array of an <b>ISCSI_TARGET_PORTALW</b> structure. The number of elements contained in this array is specified by the value of <i>ElementCount</i>.
+
+
+## -returns
+
+
+
+Returns <b>ERROR_SUCCESS</b> if the operation is successful. If the operation fails due to a socket connection error, this function will return a Winsock error code.
+
+
+
+
+## -see-also
+
+
+
+
+<b>ISCSI_TARGET_PORTALW</b>
+ 
+
+ 
+

@@ -1,0 +1,95 @@
+---
+UID: NF:winuser.GetMenuContextHelpId
+title: GetMenuContextHelpId function
+author: windows-driver-content
+description: Retrieves the Help context identifier associated with the specified menu.
+old-location: shell\GetMenuContextHelpId.htm
+old-project: shell
+ms.assetid: 2b8d3e94-6860-4a75-8373-38afb641eb3b
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: GetMenuContextHelpId, GetMenuContextHelpId function [Windows Shell], _win32_GetMenuContextHelpId, shell.GetMenuContextHelpId, winuser/GetMenuContextHelpId
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: winuser.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: AR_STATE, *PAR_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	User32.dll
+api_name:
+-	GetMenuContextHelpId
+product: Windows
+targetos: Windows
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# GetMenuContextHelpId function
+
+
+## -description
+
+
+Retrieves the Help context identifier associated with the specified menu.
+
+
+## -parameters
+
+
+
+
+### -param Arg1
+
+TBD
+
+
+
+
+#### - hmenu
+
+Type: <b>HMENU</b>
+
+A handle to the menu for which the Help context identifier is to be retrieved.
+
+
+## -returns
+
+
+
+Type: <b>DWORD</b>
+
+Returns the Help context identifier if the menu has one, or zero otherwise.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/55d944db-d889-468a-991a-b9779c90b44f">SetMenuContextHelpId</a>
+ 
+
+ 
+

@@ -1,0 +1,189 @@
+---
+UID: NF:qos2.QOSCancel
+title: QOSCancel function
+author: windows-driver-content
+description: Cancels a pending overlapped operation, like QOSSetFlow.
+old-location: qos\qoscancel.htm
+old-project: QOS
+ms.assetid: d1f6f32f-d105-40cb-8113-319aa1f63c77
+ms.author: windowsdriverdev
+ms.date: 3/23/2018
+ms.keywords: QOSCancel, QOSCancel function [QOS], qos.qoscancel, qos2/QOSCancel
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: qos2.h
+req.include-header: Qos2.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: QOS_TRAFFIC_TYPE, *PQOS_TRAFFIC_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	qwave.dll
+api_name:
+-	QOSCancel
+product: Windows
+targetos: Windows
+req.lib: Qwave.lib
+req.dll: Qwave.dll
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# QOSCancel function
+
+
+## -description
+
+
+The <b>QOSCancel</b> function cancels a pending overlapped operation, like  <a href="https://msdn.microsoft.com/b30e8887-4445-480d-aba8-79ec36384648">QOSSetFlow</a>.
+
+
+## -parameters
+
+
+
+
+### -param QOSHandle [in]
+
+Handle to the QOS subsystem returned by <a href="https://msdn.microsoft.com/dcee0bed-dc6f-435d-b292-07e331f6cf5b">QOSCreateHandle</a>.
+
+
+### -param Overlapped [in]
+
+Pointer to the OVERLAPPED structure used in the operation to be canceled.
+
+
+## -returns
+
+
+
+If the function succeeds, the return value is nonzero.
+
+If the function fails, the return value is 0.  To get extended error information, call <b>GetLastError</b>. Some possible error codes follow.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_INVALID_HANDLE</b></dt>
+</dl>
+</td>
+<td width="60%">
+The <i>QOSHandle</i> parameter is invalid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_INVALID_PARAMETER</b></dt>
+</dl>
+</td>
+<td width="60%">
+The <i>Overlapped</i> parameter is invalid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_NOT_ENOUGH_MEMORY</b></dt>
+</dl>
+</td>
+<td width="60%">
+A memory allocation failed.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_NO_SYSTEM_RESOURCES</b></dt>
+</dl>
+</td>
+<td width="60%">
+There are insufficient resources to carry out the operation.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_IO_DEVICE</b></dt>
+</dl>
+</td>
+<td width="60%">
+The request could not be performed because of an I/O device error.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_DEVICE_REINITIALIZATION_NEEDED</b></dt>
+</dl>
+</td>
+<td width="60%">
+The indicated device requires reinitialization due to hardware errors. The application should clean up and call <a href="https://msdn.microsoft.com/dcee0bed-dc6f-435d-b292-07e331f6cf5b">QOSCreateHandle</a> again.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_ADAP_HDW_ERR</b></dt>
+</dl>
+</td>
+<td width="60%">
+A network adapter hardware error occurred.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+This function would never be called with a <b>NULL</b><i>Overlapped</i> parameter.
+
+Successfully canceled operations complete normal completion mechanisms and return <b>ERROR_OPERATION_ABORTED</b> as their completion return code.
+
+Closing a handle with the <a href="https://msdn.microsoft.com/e9e8e467-616c-419e-952d-2c9e93044a2f">QOSCloseHandle</a> will automatically abort all pending operations issued with that handle.  If the handle is closed while a <b>QOSCancel</b> is still in progress, the call will complete with <b>ERROR_OPERATION_ABORTED</b> as the return code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/022fde13-415e-49aa-8df4-472c4eadd6a0">Quality Windows Audio/Video Experience (qWAVE)</a>
+ 
+
+ 
+

@@ -1,0 +1,119 @@
+---
+UID: NF:eventsys.IEventSystem.Store
+title: IEventSystem::Store method
+author: windows-driver-content
+description: Creates or modifies an event or subscription object within the event system.
+old-location: cos\ieventsystem_store.htm
+old-project: cossdk
+ms.assetid: a9999ba1-9ae1-4fc0-9613-be31961fb514
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: IEventSystem, IEventSystem interface [COM+], Store method, IEventSystem::Store, Store method [COM+], Store method [COM+], IEventSystem interface, Store,IEventSystem.Store, _cos_IEventSystem_Store, cos.ieventsystem_store, eventsys/IEventSystem::Store
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: eventsys.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: EventSys.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: EOC_ChangeType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	EventSys.h
+api_name:
+-	IEventSystem.Store
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
+---
+
+# IEventSystem::Store method
+
+
+## -description
+
+
+Creates or modifies an event or subscription object within the event system.
+
+
+## -parameters
+
+
+
+
+### -param ProgID [in]
+
+The ProgID of the event object to be added. This must be a valid event object class identifier. The possible values are PROGID_EventSubscription and PROGID_EventClass.
+
+
+### -param pInterface [in]
+
+A pointer to the object to be added. Depending on the object specified by the <i>ProgID</i> parameter, this is a pointer to the <a href="https://msdn.microsoft.com/ce3f9f7e-3d0a-445f-b3db-671ee595aedf">IEventSubscription</a> or <a href="https://msdn.microsoft.com/e8c1fcd1-59fb-49d6-94b9-52b7c8551651">IEventClass</a> interface.
+
+
+## -returns
+
+
+
+This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E_UNEXPECTED, and E_FAIL, as well as the following values.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method completed successfully.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>EVENT_E_INVALID_PER_USER_SID</b></dt>
+</dl>
+</td>
+<td width="60%">
+The owner SID on a per-user subscription does not exist.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/29b3e552-b717-4d10-9fa4-1386da3c5460">IEventSystem</a>
+ 
+
+ 
+

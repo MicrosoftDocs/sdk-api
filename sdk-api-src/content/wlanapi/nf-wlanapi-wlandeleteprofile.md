@@ -1,0 +1,363 @@
+---
+UID: NF:wlanapi.WlanDeleteProfile
+title: WlanDeleteProfile function
+author: windows-driver-content
+description: Deletes a wireless profile for a wireless interface on the local computer.
+old-location: nwifi\wlandeleteprofile.htm
+old-project: NativeWiFi
+ms.assetid: 2d1152ad-8106-4b8f-9856-9e6e36daa063
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: WlanDeleteProfile, WlanDeleteProfile function [NativeWIFI], nwifi.wlandeleteprofile, wlanapi/WlanDeleteProfile
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: wlanapi.h
+req.include-header: Wlanapi.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP with SP3 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WL_DISPLAY_PAGES, *PWL_DISPLAY_PAGES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	wlanapi.dll
+-	Ext-MS-Win-networking-wlanapi-l1-1-0.dll
+api_name:
+-	WlanDeleteProfile
+product: Windows
+targetos: Windows
+req.lib: Wlanapi.lib
+req.dll: Wlanapi.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# WlanDeleteProfile function
+
+
+## -description
+
+
+The <b>WlanDeleteProfile</b> function deletes a wireless profile for a wireless interface on  the local computer.
+
+
+## -parameters
+
+
+
+
+### -param hClientHandle [in]
+
+The client's session handle, obtained by a previous call to the <a href="https://msdn.microsoft.com/27bfa0c1-4443-47a4-a374-326f553fa3bb">WlanOpenHandle</a> function.
+
+
+### -param pInterfaceGuid [in]
+
+The GUID of the interface from which to delete the profile.  
+
+
+### -param strProfileName [in]
+
+The name of the profile to be deleted. Profile names are case-sensitive. This string must be NULL-terminated.
+
+<b>Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:  </b>The supplied name must match the profile name derived automatically from the SSID of the network. For an infrastructure network profile, the SSID must be supplied for the profile name. For an ad hoc network profile, the supplied name must be the SSID of the ad hoc network followed by <code>-adhoc</code>.
+
+
+### -param pReserved
+
+Reserved for future use.  Must be set to <b>NULL</b>.
+
+
+## -returns
+
+
+
+If the function succeeds, the return value is ERROR_SUCCESS.
+
+If the function fails, the return value may be one of the following return codes.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_INVALID_PARAMETER</b></dt>
+</dl>
+</td>
+<td width="60%">
+The <i>hClientHandle</i> parameter is <b>NULL</b> or  not valid,  the <i>pInterfaceGuid</i> parameter is <b>NULL</b>, the <i>strProfileName</i> parameter is <b>NULL</b>, or <i>pReserved</i> is not <b>NULL</b>.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_INVALID_HANDLE</b></dt>
+</dl>
+</td>
+<td width="60%">
+The handle specified in the <i>hClientHandle</i>  parameter was not found in the handle table.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_NOT_FOUND</b></dt>
+</dl>
+</td>
+<td width="60%">
+The wireless profile specified by <i>strProfileName</i> was not found in the profile store.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_ACCESS_DENIED</b></dt>
+</dl>
+</td>
+<td width="60%">
+The caller does not have sufficient permissions to delete the profile. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>RPC_STATUS</b></dt>
+</dl>
+</td>
+<td width="60%">
+Various error codes.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+The <b>WlanDeleteProfile</b> function deletes a wireless profile for a wireless interface on  the local computer. 
+
+All wireless LAN functions require an interface GUID for the wireless interface when performing profile operations. When a wireless interface is removed, its state is cleared from Wireless LAN Service (WLANSVC)  and no profile operations are possible.
+
+The <b>WlanDeleteProfile</b> function can fail with <b>ERROR_INVALID_PARAMETER</b> if the wireless interface specified in the <i>pInterfaceGuid</i> parameter for the wireless LAN profile has been removed from the system (a USB  wireless adapter that has been removed, for example). 
+
+To delete a profile at the command line, use the <b>netsh wlan delete profile</b> command. For more information, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=120964">Netsh Commands for Wireless Local Area Network (wlan)</a>. 
+
+
+#### Examples
+
+The following example enumerates the wireless LAN interfaces on the local computer and tries to delete a specific wireless profile on each wireless LAN interface. 
+
+<div class="alert"><b>Note</b>  This example will fail to load on Windows Server 2008 and Windows Server 2008 R2 if the Wireless LAN Service is not installed and started.</div>
+<div> </div>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#ifndef UNICODE
+#define UNICODE
+#endif
+
+#include &lt;windows.h&gt;
+#include &lt;wlanapi.h&gt;
+#include &lt;objbase.h&gt;
+#include &lt;wtypes.h&gt;
+
+#include &lt;stdio.h&gt;
+#include &lt;stdlib.h&gt;
+
+// Need to link with Wlanapi.lib and Ole32.lib
+#pragma comment(lib, "wlanapi.lib")
+#pragma comment(lib, "ole32.lib")
+
+int _cdecl wmain(int argc, WCHAR ** argv)
+{
+
+    // Declare and initialize variables.
+
+    HANDLE hClient = NULL;
+    DWORD dwMaxClient = 2;      //    
+    DWORD dwCurVersion = 0;
+    DWORD dwResult = 0;
+    DWORD dwRetVal = 0;
+    int iRet = 0;
+
+    WCHAR GuidString[39] = { 0 };
+
+    unsigned int i;
+
+    /* variables used for WlanEnumInterfaces  */
+
+    PWLAN_INTERFACE_INFO_LIST pIfList = NULL;
+    PWLAN_INTERFACE_INFO pIfInfo = NULL;
+
+    LPCWSTR pProfileName = NULL;
+
+    // Validate the parameters
+    if (argc &lt; 2) {
+        wprintf(L"usage: %s &lt;profile&gt;\n", argv[0]);
+        wprintf(L"   Deletes a wireless profile\n");
+        wprintf(L"   Example\n");
+        wprintf(L"       %s \"Default Wireless\"\n", argv[0]);
+        exit(1);
+    }
+
+    pProfileName = argv[1];
+
+    wprintf(L"Information for profile: %ws\n\n", pProfileName);
+
+    dwResult = WlanOpenHandle(dwMaxClient, NULL, &amp;dwCurVersion, &amp;hClient);
+    if (dwResult != ERROR_SUCCESS) {
+        wprintf(L"WlanOpenHandle failed with error: %u\n", dwResult);
+        return 1;
+        // You can use FormatMessage here to find out why the function failed
+    }
+
+    dwResult = WlanEnumInterfaces(hClient, NULL, &amp;pIfList);
+    if (dwResult != ERROR_SUCCESS) {
+        wprintf(L"WlanEnumInterfaces failed with error: %u\n", dwResult);
+        return 1;
+        // You can use FormatMessage here to find out why the function failed
+    } else {
+        wprintf(L"WLAN_INTERFACE_INFO_LIST for this system\n");
+
+        wprintf(L"Num Entries: %lu\n", pIfList-&gt;dwNumberOfItems);
+        wprintf(L"Current Index: %lu\n", pIfList-&gt;dwIndex);
+        for (i = 0; i &lt; pIfList-&gt;dwNumberOfItems; i++) {
+            pIfInfo = (WLAN_INTERFACE_INFO *) &amp; pIfList-&gt;InterfaceInfo[i];
+            wprintf(L"  Interface Index[%u]:\t %lu\n", i, i);
+            iRet =
+                StringFromGUID2(pIfInfo-&gt;InterfaceGuid, (LPOLESTR) &amp; GuidString,
+                                sizeof (GuidString) / sizeof (*GuidString));
+            // For c rather than C++ source code, the above line needs to be
+            // iRet = StringFromGUID2(&amp;pIfInfo-&gt;InterfaceGuid, (LPOLESTR) &amp;GuidString, 
+            //     sizeof(GuidString)/sizeof(*GuidString)); 
+            if (iRet == 0)
+                wprintf(L"StringFromGUID2 failed\n");
+            else {
+                wprintf(L"  InterfaceGUID[%d]: %ws\n", i, GuidString);
+            }
+            wprintf(L"  Interface Description[%d]: %ws", i,
+                    pIfInfo-&gt;strInterfaceDescription);
+            wprintf(L"\n");
+            wprintf(L"  Interface State[%d]:\t ", i);
+            switch (pIfInfo-&gt;isState) {
+            case wlan_interface_state_not_ready:
+                wprintf(L"Not ready\n");
+                break;
+            case wlan_interface_state_connected:
+                wprintf(L"Connected\n");
+                break;
+            case wlan_interface_state_ad_hoc_network_formed:
+                wprintf(L"First node in a ad hoc network\n");
+                break;
+            case wlan_interface_state_disconnecting:
+                wprintf(L"Disconnecting\n");
+                break;
+            case wlan_interface_state_disconnected:
+                wprintf(L"Not connected\n");
+                break;
+            case wlan_interface_state_associating:
+                wprintf(L"Attempting to associate with a network\n");
+                break;
+            case wlan_interface_state_discovering:
+                wprintf
+                    (L"Auto configuration is discovering settings for the network\n");
+                break;
+            case wlan_interface_state_authenticating:
+                wprintf(L"In process of authenticating\n");
+                break;
+            default:
+                wprintf(L"Unknown state %ld\n", pIfInfo-&gt;isState);
+                break;
+            }
+            wprintf(L"\n");
+
+            dwResult = WlanDeleteProfile(hClient,
+                                         &amp;pIfInfo-&gt;InterfaceGuid,
+                                         pProfileName, NULL);
+
+            if (dwResult != ERROR_SUCCESS) {
+                wprintf
+                    (L"WlanDeleteProfile failed on this interface with error: %u\n",
+                     dwResult);
+                if (dwResult == ERROR_NOT_FOUND)
+                    wprintf
+                        (L"  Error was the following profile was not found: %ws\n",
+                         pProfileName);
+                // You can use FormatMessage to find out why the function failed
+            } else {
+                wprintf(L"Successfully deleted Profile Name: %ws\n",
+                        pProfileName);
+            }
+            wprintf(L"\n");
+        }
+
+    }
+    if (pIfList != NULL) {
+        WlanFreeMemory(pIfList);
+        pIfList = NULL;
+    }
+
+    return dwRetVal;
+}
+
+</pre>
+</td>
+</tr>
+</table></span></div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/cfea9f7d-a069-497b-8138-b3949002fa5d">Native Wifi API Permissions</a>
+
+
+
+<a href="https://msdn.microsoft.com/6486e961-402f-45c8-a806-ab91a4f0f156">WlanGetProfile</a>
+
+
+
+<a href="https://msdn.microsoft.com/f4336113-538f-4161-a71f-64a432e31f1c">WlanGetProfileList</a>
+
+
+
+<a href="https://msdn.microsoft.com/488e9f87-8b98-48c6-81d5-d7237cdf5bd5">WlanRenameProfile</a>
+
+
+
+<a href="https://msdn.microsoft.com/3f8dca2e-6fe5-4c7d-a135-a33c61ba3dd5">WlanSetProfile</a>
+ 
+
+ 
+

@@ -1,0 +1,150 @@
+---
+UID: NN:uiautomationcore.IValueProvider
+title: IValueProvider
+author: windows-driver-content
+description: Provides access to controls that have an intrinsic value that does not span a range, and that can be represented as a string.
+old-location: winauto\uiauto_IValueProvider.htm
+old-project: WinAuto
+ms.assetid: e6adbc23-dbfe-4dd2-82d9-66ce16de3338
+ms.author: windowsdriverdev
+ms.date: 3/29/2018
+ms.keywords: IValueProvider, IValueProvider interface [Windows Accessibility], IValueProvider interface [Windows Accessibility], described, uiauto.uiauto_IValueProvider, uiauto_IValueProvider, uiautomationcore/IValueProvider, winauto.uiauto_IValueProvider
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: interface
+req.header: uiautomationcore.h
+req.include-header: UIAutomation.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: UIAutomationCore.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	UIAutomationCore.dll
+api_name:
+-	IValueProvider
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: UIAutomationCore.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# IValueProvider interface
+
+
+## -description
+
+
+Provides access 
+        to controls that have an intrinsic value that does not span a range, and that can be represented as a string. 
+        
+
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IValueProvider</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IValueProvider</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Properties</a></li>
+</ul>
+
+## -members
+
+The <b>IValueProvider</b> interface has these methods.
+<table class="members" id="memberListMethods">
+<tr>
+<th align="left" width="37%">Method</th>
+<th align="left" width="63%">Description</th>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff597642">SetValue</a>
+</td>
+<td align="left" width="63%">
+Sets the value of control.
+
+</td>
+</tr>
+</table> 
+<h3><a id="properties"></a>Properties</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IValueProvider</b> interface has these properties.
+<table class="members" id="memberListProperties">
+<tr>
+<th align="left" width="27%">Property</th>
+<th align="left" width="10%">Access type</th>
+<th align="left" width="63%">Description</th>
+</tr>
+<tr data="declared;">
+<td align="left" width="27%" xml:space="preserve">
+
+<a href="https://msdn.microsoft.com/2dadeb17-aef8-4dcd-a2c5-251cc2e7de3f">IsReadOnly</a>
+
+
+</td>
+<td align="left" width="10%">
+Read-only
+
+</td>
+<td align="left" width="63%">
+Indicates whether the value of a control is read-only. 
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="27%" xml:space="preserve">
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn923306">Value</a>
+
+
+</td>
+<td align="left" width="10%">
+Read-only
+
+</td>
+<td align="left" width="63%">
+The value of the control.
+
+</td>
+</tr>
+</table> 
+
+
+## -remarks
+
+
+
+
+        The value of the control may or may not be editable depending on the control and its settings.
+        
+
+
+            Implemented on a Microsoft UI Automation provider that must support the <a href="https://msdn.microsoft.com/library/windows/hardware/dn923306">Value</a> control pattern.
+            
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/8928c889-0e0a-439f-87e8-a9d121fcf73f">UI Automation Providers Overview</a>
+ 
+
+ 
+

@@ -1,0 +1,88 @@
+---
+UID: NF:mfmediaengine.IMFTimedTextTrack.SetLabel
+title: IMFTimedTextTrack::SetLabel method
+author: windows-driver-content
+description: Sets the label of a timed-text track.
+old-location: mf\imftimedtexttrack_setlabel.htm
+old-project: medfound
+ms.assetid: 751CBF14-C445-4F2A-96F6-CB6159FAA1EE
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: IMFTimedTextTrack, IMFTimedTextTrack interface [Media Foundation], SetLabel method, IMFTimedTextTrack::SetLabel, SetLabel method [Media Foundation], SetLabel method [Media Foundation], IMFTimedTextTrack interface, SetLabel,IMFTimedTextTrack.SetLabel, mf.imftimedtexttrack_setlabel, mfmediaengine/IMFTimedTextTrack::SetLabel
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: mfmediaengine.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MF_TIMED_TEXT_WRITING_MODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfmediaengine.dll
+api_name:
+-	IMFTimedTextTrack.SetLabel
+product: Windows
+targetos: Windows
+req.lib: Mfmediaengine.lib
+req.dll: Mfmediaengine.dll
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IMFTimedTextTrack::SetLabel method
+
+
+## -description
+
+
+Sets the label of a timed-text track.
+
+
+## -parameters
+
+
+
+
+### -param label [in]
+
+Type: <b>LPCWSTR</b>
+
+A pointer to a null-terminated wide-character string that contains the label of the track.
+
+
+## -returns
+
+
+
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/55232D19-F3D0-42C7-8B24-C2A7768B2C7E">IMFTimedTextTrack</a>
+ 
+
+ 
+

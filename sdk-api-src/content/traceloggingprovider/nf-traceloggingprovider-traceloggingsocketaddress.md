@@ -1,0 +1,89 @@
+---
+UID: NF:traceloggingprovider.TraceLoggingSocketAddress
+title: TraceLoggingSocketAddress macro
+author: windows-driver-content
+description: A wrapper macro that provides trace logging for socket addresses.
+old-location: tracelogging\traceloggingsocketaddress.htm
+old-project: tracelogging
+ms.assetid: 7965C10A-2C19-4AA3-A9E3-7219EFB2D3A0
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: TraceLoggingSocketAddress, TraceLoggingSocketAddress macro, tracelogging.traceloggingsocketaddress, traceloggingprovider/TraceLoggingSocketAddress
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: macro
+req.header: traceloggingprovider.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2012 R2
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: TPMVSCMGR_ERROR
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	traceloggingprovider.h
+api_name:
+-	TraceLoggingSocketAddress
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# TraceLoggingSocketAddress macro
+
+
+## -description
+
+
+A wrapper macro that provides trace logging for socket addresses.
+
+
+## -parameters
+
+
+
+
+### -param pSockAddr
+
+TBD
+
+
+### -param cbSockAddr [in]
+
+The length, in bytes, of the value pointed to by the pSocketAddr parameter.
+
+
+#### - description [in, optional]
+
+Description of the socket address. This parameter must be a literal string and will be included in the PDB. 
+
+
+#### - name [in, optional]
+
+The name of the socket address. This parameter must be a literal string and cannot contain any escape ('/0') characters. 
+
+
+#### - pSocketAddr [in]
+
+A pointer to a sockaddr structure.
+
+
+#### - tags [in, optional]
+
+An integer value. The low 28 bits of the value will be included in the field's metadata and can be used by the event consumer for any purpose.
+

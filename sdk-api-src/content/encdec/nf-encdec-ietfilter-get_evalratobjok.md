@@ -1,0 +1,116 @@
+---
+UID: NF:encdec.IETFilter.get_EvalRatObjOK
+title: IETFilter::get_EvalRatObjOK method
+author: windows-driver-content
+description: "."
+old-location: mstv\ietfilter_get_evalratobjok.htm
+old-project: mstv
+ms.assetid: ac76a634-af8d-4cf7-aab5-9022ce79ff31
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: IETFilter, IETFilter interface [Microsoft TV Technologies], get_EvalRatObjOK method, IETFilter::get_EvalRatObjOK, IETFilterget_EvalRatObjOK, encdec/IETFilter::get_EvalRatObjOK, get_EvalRatObjOK method [Microsoft TV Technologies], get_EvalRatObjOK method [Microsoft TV Technologies], IETFilter interface, get_EvalRatObjOK,IETFilter.get_EvalRatObjOK, mstv.ietfilter_get_evalratobjok
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: encdec.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
+req.target-min-winversvr: None supported
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: ProtType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	EncDec.h
+api_name:
+-	IETFilter.get_EvalRatObjOK
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
+---
+
+# IETFilter::get_EvalRatObjOK method
+
+
+## -description
+
+
+
+
+The <b>get_EvalRatObjOK</b> method queries whether the <b>EvalRat</b> object was created successfully.
+
+
+## -parameters
+
+
+
+
+### -param pHrCoCreateRetVal [out, retval]
+
+Receives an <b>HRESULT</b> value. The <b>HRESULT</b> is the value that was returned when the filter called <b>CoCreateInstance</b> to create the <b>EvalRat</b> object. If it equals S_OK, the <b>EvalRat</b> object was created successfully.
+
+
+## -returns
+
+
+
+Returns an <b>HRESULT</b>. Possible values include the following.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_POINTER</b></dt>
+</dl>
+</td>
+<td width="60%">
+NULL pointer argument
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+Success
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/9fce6b33-394c-47d2-9d02-7b0dadaa1736">IETFilter Interface</a>
+ 
+
+ 
+

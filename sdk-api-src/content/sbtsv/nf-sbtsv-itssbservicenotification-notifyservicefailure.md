@@ -1,0 +1,81 @@
+---
+UID: NF:sbtsv.ITsSbServiceNotification.NotifyServiceFailure
+title: ITsSbServiceNotification::NotifyServiceFailure method
+author: windows-driver-content
+description: Notifies registered plug-ins that the Remote Desktop Connection Broker (RD Connection Broker) service has stopped.
+old-location: termserv\itssbservicenotification_notifyservicefailure.htm
+old-project: TermServ
+ms.assetid: 76e8819f-93d0-4f1b-a573-5b9aeaaae08a
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: ITsSbServiceNotification, ITsSbServiceNotification interface [Remote Desktop Services], NotifyServiceFailure method, ITsSbServiceNotification::NotifyServiceFailure, NotifyServiceFailure method [Remote Desktop Services], NotifyServiceFailure method [Remote Desktop Services], ITsSbServiceNotification interface, NotifyServiceFailure,ITsSbServiceNotification.NotifyServiceFailure, sbtsv/ITsSbServiceNotification::NotifyServiceFailure, termserv.itssbservicenotification_notifyservicefailure
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: sbtsv.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2012
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Sbtsv.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: TS_SB_SORT_BY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	sbtsv.h
+api_name:
+-	ITsSbServiceNotification.NotifyServiceFailure
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# ITsSbServiceNotification::NotifyServiceFailure method
+
+
+## -description
+
+
+Notifies registered plug-ins that the Remote Desktop Connection Broker (RD Connection Broker) service has stopped.
+
+
+## -parameters
+
+
+
+
+
+
+## -returns
+
+
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/19b90ada-5277-47cb-a8d5-18f5c89612c0">ITsSbServiceNotification</a>
+ 
+
+ 
+

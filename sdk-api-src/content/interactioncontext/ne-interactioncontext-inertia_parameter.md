@@ -1,0 +1,109 @@
+---
+UID: NE:interactioncontext.INERTIA_PARAMETER
+title: INERTIA_PARAMETER
+author: windows-driver-content
+description: Specifies the inertia values for a manipulation (translation, rotation, scaling).
+old-location: input_intcontext\inertia_parameter.htm
+old-project: Input_IntContext
+ms.assetid: 06a7bab7-3821-42f3-bf2c-2d0724cb1119
+ms.author: windowsdriverdev
+ms.date: 3/19/2018
+ms.keywords: INERTIA_PARAMETER, INERTIA_PARAMETER enumeration, INERTIA_PARAMETER_EXPANSION_DECELERATION, INERTIA_PARAMETER_EXPANSION_EXPANSION, INERTIA_PARAMETER_MAX, INERTIA_PARAMETER_ROTATION_ANGLE, INERTIA_PARAMETER_ROTATION_DECELERATION, INERTIA_PARAMETER_TRANSLATION_DECELERATION, INERTIA_PARAMETER_TRANSLATION_DISPLACEMENT, input_intcontext.inertia_parameter, interactioncontext.inertia_parameter, interactioncontext/INERTIA_PARAMETER, interactioncontext/INERTIA_PARAMETER_EXPANSION_DECELERATION, interactioncontext/INERTIA_PARAMETER_EXPANSION_EXPANSION, interactioncontext/INERTIA_PARAMETER_MAX, interactioncontext/INERTIA_PARAMETER_ROTATION_ANGLE, interactioncontext/INERTIA_PARAMETER_ROTATION_DECELERATION, interactioncontext/INERTIA_PARAMETER_TRANSLATION_DECELERATION, interactioncontext/INERTIA_PARAMETER_TRANSLATION_DISPLACEMENT
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: enum
+req.header: interactioncontext.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: INERTIA_PARAMETER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	interactioncontext.h
+api_name:
+-	INERTIA_PARAMETER
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# INERTIA_PARAMETER enumeration
+
+
+## -description
+
+
+Specifies the inertia values for a manipulation (translation, rotation, scaling).
+
+
+## -enum-fields
+
+
+
+
+### -field INERTIA_PARAMETER_TRANSLATION_DECELERATION
+
+The rate of deceleration, in degrees/ms².
+
+
+### -field INERTIA_PARAMETER_TRANSLATION_DISPLACEMENT
+
+The relative change in screen location, in DIPs.
+
+
+### -field INERTIA_PARAMETER_ROTATION_DECELERATION
+
+The rate of deceleration, in degrees/ms².
+
+
+### -field INERTIA_PARAMETER_ROTATION_ANGLE
+
+The relative change in angle of rotation, in radians.
+
+
+### -field INERTIA_PARAMETER_EXPANSION_DECELERATION
+
+The rate of deceleration, in degrees/ms².
+
+
+### -field INERTIA_PARAMETER_EXPANSION_EXPANSION
+
+The relative change in size, in pixels.
+
+
+### -field INERTIA_PARAMETER_MAX
+
+Maximum number of interactions exceeded.
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/0B8D9A5F-F7CF-42B0-A320-77D44445CC24">Interaction Context Enumerations</a>
+
+
+
+<a href="https://msdn.microsoft.com/5b228339-3830-407f-a8ea-55f40156cc32">SetInertiaParameterInteractionContext</a>
+ 
+
+ 
+

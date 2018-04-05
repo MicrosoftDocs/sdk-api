@@ -1,0 +1,103 @@
+---
+UID: NF:appxpackaging.IAppxEncryptionFactory3.EncryptBundle
+title: IAppxEncryptionFactory3::EncryptBundle method
+author: windows-driver-content
+description: Creates an encrypted Windows app bundle from an unencrypted one.
+old-location: appxpkg\iappxencryptionfactory3_encryptbundle.htm
+old-project: appxpkg
+ms.assetid: 4ECF7227-08A1-4AEB-8545-420090131FB8
+ms.author: windowsdriverdev
+ms.date: 3/30/2018
+ms.keywords: EncryptBundle method [App packaging and management], EncryptBundle method [App packaging and management], IAppxEncryptionFactory3 interface, EncryptBundle,IAppxEncryptionFactory3.EncryptBundle, IAppxEncryptionFactory3, IAppxEncryptionFactory3 interface [App packaging and management], EncryptBundle method, IAppxEncryptionFactory3::EncryptBundle, appxpackaging/IAppxEncryptionFactory3::EncryptBundle, appxpkg.iappxencryptionfactory3_encryptbundle
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: appxpackaging.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: AppxPackaging.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: APPX_PACKAGE_ARCHITECTURE2
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	AppxPackaging.h
+api_name:
+-	IAppxEncryptionFactory3.EncryptBundle
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# IAppxEncryptionFactory3::EncryptBundle method
+
+
+## -description
+
+
+Creates an encrypted Windows app bundle from an unencrypted one.
+
+
+## -parameters
+
+
+
+
+### -param inputStream [in]
+
+A readable stream from the app bundle to encrypt.
+
+
+### -param outputStream [in]
+
+A writeable stream for writing the resulting encrypted app bundle.
+
+
+### -param settings [in]
+
+Settings for creating the bundle.
+
+
+### -param keyInfo [in]
+
+Key info containing the base encryption key and key ID for encrypting the bundle. The base encryption key is used to derive the per file encryption keys. If this parameter is null, the global test key and key ID are used.
+
+
+### -param exemptedFiles [in]
+
+Files exempted from the bundle writer.
+
+
+## -returns
+
+
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/ABF2F4BE-FC6A-4AF5-BD15-243ABFA055D9">IAppxEncryptionFactory3</a>
+ 
+
+ 
+

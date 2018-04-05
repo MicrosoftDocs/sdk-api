@@ -1,0 +1,135 @@
+---
+UID: NF:wcmconfig.ITargetInfo.GetProperty
+title: ITargetInfo::GetProperty method
+author: windows-driver-content
+description: Gets a property value for the offline installation location.
+old-location: smi\itargetinfo_getproperty.htm
+old-project: SMI
+ms.assetid: f4366d23-e2dd-4561-af79-870212631ebf
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: GetProperty method [SMI], GetProperty method [SMI], ITargetInfo interface, GetProperty,ITargetInfo.GetProperty, ITargetInfo, ITargetInfo interface [SMI], GetProperty method, ITargetInfo::GetProperty, smi.itargetinfo_getproperty, wcmconfig/ITargetInfo::GetProperty
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wcmconfig.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: WcmConfig.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WcmNamespaceAccess
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SMIEngine.dll
+api_name:
+-	ITargetInfo.GetProperty
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SMIEngine.dll
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# ITargetInfo::GetProperty method
+
+
+## -description
+
+
+Gets a property value for the offline installation location.
+
+
+## -parameters
+
+
+
+
+### -param Offline [in]
+
+<b>True</b> if the installation location is offline.
+
+
+### -param Property [in]
+
+The name of the property.
+
+
+### -param Value [out]
+
+The value of the property.
+
+
+## -returns
+
+
+
+This method can return one of these values.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+Indicates success.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_FALSE</b></dt>
+</dl>
+</td>
+<td width="60%">
+Indicates that the requested property does not exist.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_OUTOFMEMORY</b></dt>
+</dl>
+</td>
+<td width="60%">
+Indicates that there are insufficient resources to return information to the user.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/f1dd3c93-43ca-4804-8330-55acaccf8ea8">ITargetInfo</a>
+ 
+
+ 
+

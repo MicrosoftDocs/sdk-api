@@ -1,0 +1,218 @@
+---
+UID: NF:strsafe.StringCchCopyNW
+title: StringCchCopyNW function
+author: windows-driver-content
+description: Copies the specified number of characters from one string to another.
+old-location: menurc\stringcchcopyn.htm
+old-project: menurc
+ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcchcopyn.htm
+ms.author: windowsdriverdev
+ms.date: 3/29/2018
+ms.keywords: StringCchCopyN, StringCchCopyN function [Menus and Other Resources], StringCchCopyNA, StringCchCopyNW, _shell_StringCchCopyN, _shell_stringcchcopyn_cpp, menurc.stringcchcopyn, strsafe/StringCchCopyN, strsafe/StringCchCopyNA, strsafe/StringCchCopyNW, winui._shell_stringcchcopyn
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: strsafe.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: StringCchCopyNW (Unicode) and StringCchCopyNA (ANSI)
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: AM_DVD_RENDERSTATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Strsafe.h
+api_name:
+-	StringCchCopyN
+-	StringCchCopyNA
+-	StringCchCopyNW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# StringCchCopyNW function
+
+
+## -description
+
+
+Copies the specified number of characters from one string to another. The size of the destination buffer is provided to the function to ensure that <b>StringCchCopyN</b> does not write past the end of this buffer.
+
+<b>StringCchCopyN</b> is a replacement for the following functions:
+<ul>
+<li><a href="http://go.microsoft.com/fwlink/p/?linkid=192506">strncpy, wcsncpy, _tcsncpy</a></li>
+</ul>
+
+## -parameters
+
+
+
+
+### -param pszDest [out]
+
+Type: <b>LPTSTR</b>
+
+The destination buffer, which receives the copied characters.
+
+
+### -param cchDest [in]
+
+Type: <b>size_t</b>
+
+The size of <i>pszDest</i>, in characters. This value must be large enough to hold the copied characters (the length of <i>pszSrc</i> or the value of <i>cchSrc</i>, whichever is smaller) plus 1 to account for the terminating null character. The maximum number of characters allowed is <b>STRSAFE_MAX_CCH</b>.
+
+
+### -param pszSrc [in]
+
+Type: <b>LPCTSTR</b>
+
+The source string. This string must be readable up to <i>cchSrc</i> characters or a null terminator, whichever comes first.
+
+
+### -param cchToCopy
+
+TBD
+
+
+
+
+#### - cchSrc [in]
+
+Type: <b>size_t</b>
+
+The maximum number of characters to be copied from <i>pszSrc</i> to <i>pszDest</i>.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+This function can return one of the following values. It is strongly recommended that you use the <a href="https://msdn.microsoft.com/7a258b0b-d214-46c5-be0a-6493cd14a0e5">SUCCEEDED</a> and <a href="https://msdn.microsoft.com/d9c4ff73-c255-4a82-b901-23bd5b41ee6c">FAILED</a> macros to test the return value of this function.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+Source data was present, the characters were copied from <i>pszSrc</i> without truncation, and the resultant destination buffer is null-terminated.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>STRSAFE_E_INVALID_PARAMETER</b></dt>
+</dl>
+</td>
+<td width="60%">
+The value in <i>cchDest</i> is either larger than <b>STRSAFE_MAX_CCH</b>, or the destination buffer is already full.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>STRSAFE_E_INSUFFICIENT_BUFFER</b></dt>
+</dl>
+</td>
+<td width="60%">
+The copy operation failed due to insufficient buffer space. The destination buffer contains a truncated, null-terminated version of the intended result. In situations where truncation is acceptable, this may not necessarily be seen as a failure condition.
+
+</td>
+</tr>
+</table>
+ 
+
+Note that this function returns an <b>HRESULT</b> value, unlike the functions that it replaces.
+
+
+
+
+## -remarks
+
+
+
+<b>StringCchCopyN</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCchCopyN</b> always null-terminates and never overflows a valid destination buffer, even if the contents of the source string change during the operation.
+
+While this routine is meant as a replacement for <a href="ac4345a1-a129-4f2f-bb8a-373ec58ab8b0">strncpy</a>, there are differences in behavior. If <i>cchSrc</i> is larger than the number of characters in <i>pszSrc</i>, <b>StringCchCopyN</b>—unlike <b>strncpy</b>—does not continue to pad <i>pszDest</i> with null characters until <i>cchSrc</i> characters have been copied.
+
+Behavior is undefined if the strings pointed to by <i>pszSrc</i> and <i>pszDest</i> overlap.
+
+Neither <i>pszSrc</i> nor <i>pszDest</i> should be <b>NULL</b>. See <a href="https://msdn.microsoft.com/228ddd78-9747-4a9a-b936-abfba6ff2940">StringCchCopyNEx</a> if you require the handling of null string pointer values.
+
+<b>StringCchCopyN</b> can be used in its generic form, or in its more specific forms. The data type of the string determines the form of this function that you should use, as shown in the following table.
+
+<table class="clsStd">
+<tr>
+<th>String Data Type</th>
+<th>String Literal</th>
+<th>Function</th>
+</tr>
+<tr>
+<td><b>char</b></td>
+<td>"string"</td>
+<td><b>StringCchCopyNA</b></td>
+</tr>
+<tr>
+<td><b>TCHAR</b></td>
+<td>TEXT("string")</td>
+<td><b>StringCchCopyN</b></td>
+</tr>
+<tr>
+<td><b>WCHAR</b></td>
+<td>L"string"</td>
+<td><b>StringCchCopyNW</b></td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<b>Reference</b>
+
+
+
+<a href="https://msdn.microsoft.com/4b97de2a-c8bb-423e-8765-a7f20e6fc61c">StringCbCopyN</a>
+
+
+
+<a href="https://msdn.microsoft.com/9cbf6ce6-ef45-4bb9-bc1f-a55db399d34f">StringCchCopy</a>
+
+
+
+<a href="https://msdn.microsoft.com/228ddd78-9747-4a9a-b936-abfba6ff2940">StringCchCopyNEx</a>
+ 
+
+ 
+

@@ -1,0 +1,72 @@
+---
+UID: NF:pla.IApiTracingDataCollector.get_LogFilePath
+title: IApiTracingDataCollector::get_LogFilePath method
+author: windows-driver-content
+description: Retrieves or sets the name of the log file that contains the API trace data.
+old-location: pla\iapitracingdatacollector_logfilepath.htm
+old-project: PLA
+ms.assetid: 17e876d5-c1d2-4ab8-9f9e-40d66528e57d
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: IApiTracingDataCollector, IApiTracingDataCollector interface [PLA], LogFilePath property, IApiTracingDataCollector.LogFilePath, IApiTracingDataCollector::get_LogFilePath, IApiTracingDataCollector::put_LogFilePath, LogFilePath property [PLA], LogFilePath property [PLA], IApiTracingDataCollector interface, base.iapitracingdatacollector_logfilepath, get_LogFilePath,IApiTracingDataCollector.get_LogFilePath, pla.iapitracingdatacollector_logfilepath, pla/IApiTracingDataCollector::LogFilePath, pla/IApiTracingDataCollector::get_LogFilePath, pla/IApiTracingDataCollector::put_LogFilePath
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: pla.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: FolderActionSteps
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Pla.dll
+api_name:
+-	IApiTracingDataCollector.LogFilePath
+-	IApiTracingDataCollector.get_LogFilePath
+-	IApiTracingDataCollector.put_LogFilePath
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# IApiTracingDataCollector::get_LogFilePath method
+
+
+## -description
+
+
+Retrieves or sets the name of the log file that contains the API trace data.
+
+This property is read/write.
+
+
+## -parameters
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/8d600d35-bd2b-44fc-9da4-3c6e50e90b65">IApiTracingDataCollector</a>
+ 
+
+ 
+

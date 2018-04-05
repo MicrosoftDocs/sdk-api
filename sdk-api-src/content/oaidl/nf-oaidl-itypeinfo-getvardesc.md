@@ -1,0 +1,163 @@
+---
+UID: NF:oaidl.ITypeInfo.GetVarDesc
+title: ITypeInfo::GetVarDesc method
+author: windows-driver-content
+description: Retrieves a VARDESC structure that describes the specified variable.
+old-location: automat\itypeinfo_getvardesc.htm
+old-project: automat
+ms.assetid: c4226d33-37ec-4e9a-87ce-92c4ff0e6cb3
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: GetVarDesc method [Automation], GetVarDesc method [Automation], ITypeInfo interface, GetVarDesc,ITypeInfo.GetVarDesc, ITypeInfo, ITypeInfo interface [Automation], GetVarDesc method, ITypeInfo::GetVarDesc, _oa96_ITypeInfo_GetVarDesc, automat.itypeinfo_getvardesc, oaidl/ITypeInfo::GetVarDesc
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: oaidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: OaIdl.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: VARKIND
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	oaidl.h
+api_name:
+-	ITypeInfo.GetVarDesc
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# ITypeInfo::GetVarDesc method
+
+
+## -description
+
+
+Retrieves a VARDESC structure that describes the specified variable.
+
+
+## -parameters
+
+
+
+
+### -param index [in]
+
+The index of the variable whose description is to be returned. The index should be in the range of 0 to 1 less than the number of variables in this type.
+
+
+### -param ppVarDesc [out]
+
+A VARDESC that describes the specified variable.
+
+
+## -returns
+
+
+
+This method can return one of these values.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK
+</b></dt>
+</dl>
+</td>
+<td width="60%">
+Success.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG
+</b></dt>
+</dl>
+</td>
+<td width="60%">
+One or more of the arguments is not valid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_OUTOFMEMORY
+</b></dt>
+</dl>
+</td>
+<td width="60%">
+Insufficient memory to complete the operation.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+To free the VARDESC structure, use <a href="https://msdn.microsoft.com/a0f734d8-9b14-474a-b701-df8ba7641501">ReleaseVarDesc</a>.
+
+
+
+#### Examples
+
+In the following example, the CHECKRESULT function is undefined. Replace this function with your error handling code.
+
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>CHECKRESULT(ptypeinfo-&gt;GetVarDesc(i, &amp;pvardesc));
+idMember = pvardesc-&gt;memid;
+CHECKRESULT(ptypeinfo-&gt;GetDocumentation(idMember, &amp;bstrName, NULL, NULL, 
+      NULL));
+ptypeinfo-&gt;ReleaseVarDesc(pvardesc);
+</pre>
+</td>
+</tr>
+</table></span></div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/f3356463-3373-4279-bae1-953378aa2680">ITypeInfo</a>
+ 
+
+ 
+

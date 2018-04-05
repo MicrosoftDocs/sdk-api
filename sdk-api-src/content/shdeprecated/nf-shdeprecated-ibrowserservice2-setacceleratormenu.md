@@ -1,0 +1,79 @@
+---
+UID: NF:shdeprecated.IBrowserService2.SetAcceleratorMenu
+title: IBrowserService2::SetAcceleratorMenu method
+author: windows-driver-content
+description: Deprecated. Implemented by a derived class to define menu accelerators that can be used in a call to TranslateAcceleratorSB.
+old-location: shell\IBrowserService2_SetAcceleratorMenu.htm
+old-project: shell
+ms.assetid: 64c7ce89-c3c5-4a09-aff2-57103ade671a
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: IBrowserService2, IBrowserService2 interface [Windows Shell], SetAcceleratorMenu method, IBrowserService2::SetAcceleratorMenu, SetAcceleratorMenu method [Windows Shell], SetAcceleratorMenu method [Windows Shell], IBrowserService2 interface, SetAcceleratorMenu,IBrowserService2.SetAcceleratorMenu, shdeprecated/IBrowserService2::SetAcceleratorMenu, shell.IBrowserService2_SetAcceleratorMenu, zone_IBrowserService2_SetAcceleratorMenu
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: shdeprecated.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Shdeprecated.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: BNSTATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Shdeprecated.h
+api_name:
+-	IBrowserService2.SetAcceleratorMenu
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5.0
+---
+
+# IBrowserService2::SetAcceleratorMenu method
+
+
+## -description
+
+
+Deprecated. Implemented by a derived class to define menu accelerators that can be used in a call to <a href="https://msdn.microsoft.com/dda5c085-7199-4b83-b03e-e4c715665157">TranslateAcceleratorSB</a>.
+
+
+## -parameters
+
+
+
+
+### -param hacc [in]
+
+Type: <b>HACCEL</b>
+
+
+          A handle to an array of <a href="https://msdn.microsoft.com/9995bfc3-adc5-4a6d-b834-a96e1ceb6ea0">ACCEL</a> structures, each structure describing a keyboard mnemonic.
+        
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+

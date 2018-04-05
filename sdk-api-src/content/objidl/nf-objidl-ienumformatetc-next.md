@@ -1,0 +1,100 @@
+---
+UID: NF:objidl.IEnumFORMATETC.Next
+title: IEnumFORMATETC::Next method
+author: windows-driver-content
+description: Retrieves the specified number of items in the enumeration sequence.
+old-location: com\ienumformatetc_next.htm
+old-project: com
+ms.assetid: 041c3f20-bd8c-482d-9716-99f49a6bc902
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: IEnumFORMATETC, IEnumFORMATETC interface [COM], Next method, IEnumFORMATETC::Next, Next method [COM], Next method [COM], IEnumFORMATETC interface, Next,IEnumFORMATETC.Next, _ole_ienumformatetc_next, com.ienumformatetc_next, objidl/IEnumFORMATETC::Next
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: objidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: ObjIdl.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: THDTYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	ObjIdl.h
+api_name:
+-	IEnumFORMATETC.Next
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# IEnumFORMATETC::Next method
+
+
+## -description
+
+
+Retrieves the specified number of items in the enumeration sequence.
+
+
+## -parameters
+
+
+
+
+### -param celt [in]
+
+The number of items to be retrieved. If there are fewer than the requested number of items left in the sequence, this method retrieves the remaining elements.
+
+
+### -param rgelt [out]
+
+An array of enumerated items.
+
+The enumerator is responsible for allocating any memory, and the caller is responsible for freeing it. If <i>celt</i> is greater than 1, the caller must also pass a non-<b>NULL</b> pointer passed to <i>pceltFetched</i> to know how many pointers to release.
+
+
+### -param pceltFetched [in, out]
+
+The number of items that were retrieved. This parameter is always less than or equal to the number of items requested. This parameter can be <b>NULL</b> if <i>celt</i> is 1.
+
+
+## -returns
+
+
+
+If the method retrieves the number of items requested, the return value is S_OK. Otherwise, it is S_FALSE.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/4478eb9a-84a1-4f3a-8290-94b8dd20c081">FORMATETC</a>
+
+
+
+<a href="https://msdn.microsoft.com/4d180fdd-2d58-4d26-9242-6552dda0d3e6">IEnumFORMATETC</a>
+ 
+
+ 
+

@@ -1,0 +1,172 @@
+---
+UID: NF:d3d12.ID3D12GraphicsCommandList1.ResolveSubresourceRegion
+title: ID3D12GraphicsCommandList1::ResolveSubresourceRegion method
+author: windows-driver-content
+description: Copy a region of a multisampled or compressed resource into a non-multisampled or non-compressed resource.
+old-location: direct3d12\id3d12graphicscommandlist1_resolvesubresourceregion.htm
+old-project: direct3d12
+ms.assetid: 8CF3809C-0EC7-4FBB-AEEF-E74FCD9B836D
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: ID3D12GraphicsCommandList1, ID3D12GraphicsCommandList1 interface, ResolveSubresourceRegion method, ID3D12GraphicsCommandList1::ResolveSubresourceRegion, ResolveSubresourceRegion method, ResolveSubresourceRegion method, ID3D12GraphicsCommandList1 interface, ResolveSubresourceRegion,ID3D12GraphicsCommandList1.ResolveSubresourceRegion, d3d12/ID3D12GraphicsCommandList1::ResolveSubresourceRegion, direct3d12.id3d12graphicscommandlist1_resolvesubresourceregion
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: d3d12.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: D3D_SHADER_MODEL
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	d3d12.dll
+api_name:
+-	ID3D12GraphicsCommandList1.ResolveSubresourceRegion
+product: Windows
+targetos: Windows
+req.lib: D3d12.lib
+req.dll: D3d12.dll
+req.irql: 
+---
+
+# ID3D12GraphicsCommandList1::ResolveSubresourceRegion method
+
+
+## -description
+
+
+Copy a region of a multisampled or compressed resource into a non-multisampled or non-compressed resource.
+
+
+## -parameters
+
+
+
+
+### -param pDstResource [in]
+
+Type: <b>ID3D12Resource*</b>
+
+<a href="https://msdn.microsoft.com/en-us/library/hh916382.aspx">SAL</a>: <code>_In_</code>
+
+Destination resource. Must be created with the <b>D3D11_USAGE_DEFAULT</b> flag and must be single-sampled unless its to be resolved from a compressed resource (<b>D3D12_RESOLVE_MODE_DECOMPRESS</b>); in this case it must have the same sample count as the compressed source.
+
+
+### -param DstSubresource [in]
+
+Type: <b>UINT</b>
+
+<a href="https://msdn.microsoft.com/en-us/library/hh916382.aspx">SAL</a>: <code>_In_</code>
+
+A zero-based index that identifies the destination subresource. Use <a href="https://msdn.microsoft.com/5C63A315-E21E-498B-A832-6BA2D17FF9A7">D3D12CalcSubresource</a> to calculate the subresource index if the parent resource is complex.
+
+
+### -param DstX [in]
+
+Type: <b>UINT</b>
+
+<a href="https://msdn.microsoft.com/en-us/library/hh916382.aspx">SAL</a>: <code>_In_</code>
+
+The X coordinate of the left-most edge of the destination region. The width of the destination region is the same as the width of the source rect.
+
+
+### -param DstY [in]
+
+Type: <b>UINT</b>
+
+<a href="https://msdn.microsoft.com/en-us/library/hh916382.aspx">SAL</a>: <code>_In_</code>
+
+The Y coordinate of the top-most edge of the destination region. The height of the destination region is the same as the height of the source rect.
+
+
+### -param pSrcResource [in]
+
+Type: <b>ID3D12Resource*</b>
+
+<a href="https://msdn.microsoft.com/en-us/library/hh916382.aspx">SAL</a>: <code>_In_</code>
+
+Source resource. Must be multisampled or compressed.
+
+
+### -param SrcSubresource [in]
+
+Type: <b>UINT</b>
+
+<a href="https://msdn.microsoft.com/en-us/library/hh916382.aspx">SAL</a>: <code>_In_</code>
+
+A zero-based index that identifies the source subresource.
+
+
+### -param pSrcRect [in, optional]
+
+Type: <b>D3D12_RECT*</b>
+
+<a href="https://msdn.microsoft.com/en-us/library/hh916382.aspx">SAL</a>: <code>_In_opt_</code>
+
+Specifies the rectangular region of the source resource to be resolved. Passing NULL for <i>pSrcRect</i> specifies that the entire subresource is to be resolved.
+
+
+### -param Format [in]
+
+Type: <b>DXGI_FORMAT</b>
+
+<a href="https://msdn.microsoft.com/en-us/library/hh916382.aspx">SAL</a>: <code>_In_</code>
+
+A DXGI_FORMAT that specifies how the source and destination resource formats are consolidated.
+
+
+### -param ResolveMode [in]
+
+Type: <b><a href="https://msdn.microsoft.com/1E14F62A-E6B9-4C88-AC28-2322C4662E1F">D3D12_RESOLVE_MODE</a></b>
+
+<a href="https://msdn.microsoft.com/en-us/library/hh916382.aspx">SAL</a>: <code>_In_</code>
+
+Specifies the operation used to resolve the source samples.
+
+When using the <b>D3D12_RESOLVE_MODE_DECOMPRESS</b> operation, the sample count can be larger than 1 as long as the source and destination have the same sample count, and source and destination may specify the same resource as long as the source rect aligns with the destination X and Y coordinates, in which case decompression occurs in place.
+
+When using the <b>D3D12_RESOLVE_MODE_MIN</b>, <b>D3D12_RESOLVE_MODE_MAX</b>, or <b>D3D12_RESOLVE_MODE_AVERAGE</b> operation, the destination must have a sample count of 1.
+
+
+## -returns
+
+
+
+This method does not return a value.
+
+
+
+
+## -remarks
+
+
+
+ResolveSubresourceRegion operates like <a href="https://msdn.microsoft.com/F1D4BAD1-B08E-47D0-9D2B-41873D6B4456">ResolveSubresource</a> but allows for only part of a resource to be resolved and for source samples to be resolved in several ways. Partial resolves can be useful in multi-adapter scenarios; for example, when the rendered area has been partitioned across adapters, each adapter might only need to resolve the portion of a subresource that corresponds to its assigned partition.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/E156C26B-0E51-4F43-9AB2-373E4C67A496">ID3D12GraphicsCommandList1</a>
+ 
+
+ 
+

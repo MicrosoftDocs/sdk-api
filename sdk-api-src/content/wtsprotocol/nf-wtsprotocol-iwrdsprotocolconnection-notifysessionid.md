@@ -1,0 +1,98 @@
+---
+UID: NF:wtsprotocol.IWRdsProtocolConnection.NotifySessionId
+title: IWRdsProtocolConnection::NotifySessionId method
+author: windows-driver-content
+description: Sends the identifier of the new session to the protocol.
+old-location: termserv\iwrdsprotocolconnection_notifysessionid.htm
+old-project: TermServ
+ms.assetid: 82bf892e-5e6f-4057-ac36-00e046080c93
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: IWRdsProtocolConnection, IWRdsProtocolConnection interface [Remote Desktop Services], NotifySessionId method, IWRdsProtocolConnection::NotifySessionId, NotifySessionId method [Remote Desktop Services], NotifySessionId method [Remote Desktop Services], IWRdsProtocolConnection interface, NotifySessionId,IWRdsProtocolConnection.NotifySessionId, termserv.iwrdsprotocolconnection_notifysessionid, wtsprotocol/IWRdsProtocolConnection::NotifySessionId
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wtsprotocol.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2012
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Wtsprotocol.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WTS_PROPERTY_VALUE, *PWTS_PROPERTY_VALUE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	wtsprotocol.h
+api_name:
+-	IWRdsProtocolConnection.NotifySessionId
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IWRdsProtocolConnection::NotifySessionId method
+
+
+## -description
+
+
+Sends the identifier of the new session to the protocol.
+
+
+## -parameters
+
+
+
+
+### -param SessionId [in]
+
+A pointer to a <a href="https://msdn.microsoft.com/fe0714ec-c670-40b7-9808-2171abae79a8">WRDS_SESSION_ID</a> structure that uniquely identifies the session.
+
+
+### -param SessionHandle [in]
+
+The session handle.
+
+
+## -returns
+
+
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+This is an event notification and you should return immediately from this method. To avoid a possible deadlock, you should not make any function or method calls that will directly or indirectly result in a Remote Desktop Services API being called. If you need to make any outbound call, you should start a new thread and make the outbound call from the new thread.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/2b8a5b2f-5a54-4d60-8b5a-8a914728087c">IWRdsProtocolConnection</a>
+ 
+
+ 
+

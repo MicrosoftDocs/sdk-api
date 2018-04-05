@@ -1,0 +1,82 @@
+---
+UID: NF:commctrl.InitCommonControls
+title: InitCommonControls function
+author: windows-driver-content
+description: Registers and initializes certain common control window classes. This function is obsolete. New applications should use the InitCommonControlsEx function.
+old-location: controls\InitCommonControls.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\common\functions\initcommoncontrols.htm
+ms.author: windowsdriverdev
+ms.date: 3/31/2018
+ms.keywords: InitCommonControls, InitCommonControls function [Windows Controls], _win32_InitCommonControls, _win32_InitCommonControls_cpp, commctrl/InitCommonControls, controls.InitCommonControls, controls._win32_InitCommonControls
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: commctrl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: CATEGORYINFO, *LPCATEGORYINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Comctl32.dll
+-	Ext-MS-Win-Shell-ComCtl32-Init-l1-1-0.dll
+-	Ext-MS-Win-Shell-ComCtl32-Init-L1-1-1.dll
+api_name:
+-	InitCommonControls
+product: Windows
+targetos: Windows
+req.lib: Comctl32.lib
+req.dll: Comctl32.dll
+req.irql: 
+---
+
+# InitCommonControls function
+
+
+## -description
+
+
+Registers and initializes certain common control window classes. This function is obsolete. New applications should use the <a href="https://msdn.microsoft.com/a0ca2152-673e-4920-ae78-1421fdec1a05">InitCommonControlsEx</a> function. 
+
+
+## -parameters
+
+
+
+
+
+
+## -returns
+
+
+
+This function does not return a value.
+
+
+
+
+## -remarks
+
+
+
+Under Comctl32.dll version 5.x, only Windows 95 classes (ICC_WIN95_CLASSES) can be registered through <b>InitCommonControls</b>. Programs which require additional common control classes must use the <a href="https://msdn.microsoft.com/a0ca2152-673e-4920-ae78-1421fdec1a05">InitCommonControlsEx</a> function.
+
+Under Comctl32.dll version 6.0 and later, <b>InitCommonControls</b> does nothing. Applications must explicitly register all common controls through <a href="https://msdn.microsoft.com/a0ca2152-673e-4920-ae78-1421fdec1a05">InitCommonControlsEx</a>.
+
+
+

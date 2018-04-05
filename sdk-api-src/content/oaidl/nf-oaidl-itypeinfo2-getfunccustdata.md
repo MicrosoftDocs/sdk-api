@@ -1,0 +1,140 @@
+---
+UID: NF:oaidl.ITypeInfo2.GetFuncCustData
+title: ITypeInfo2::GetFuncCustData method
+author: windows-driver-content
+description: Gets the custom data from the specified function.
+old-location: automat\itypeinfo2_getfunccustdata.htm
+old-project: automat
+ms.assetid: d3a7b13f-6296-45ee-9697-4d52b5965c4b
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: GetFuncCustData method [Automation], GetFuncCustData method [Automation], ITypeInfo2 interface, GetFuncCustData,ITypeInfo2.GetFuncCustData, ITypeInfo2, ITypeInfo2 interface [Automation], GetFuncCustData method, ITypeInfo2::GetFuncCustData, _oa96_ITypeInfo2_GetFuncCustData, automat.itypeinfo2_getfunccustdata, oaidl/ITypeInfo2::GetFuncCustData
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: oaidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: OaIdl.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: VARKIND
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	oaidl.h
+api_name:
+-	ITypeInfo2.GetFuncCustData
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# ITypeInfo2::GetFuncCustData method
+
+
+## -description
+
+
+Gets the custom data from the specified function.
+
+
+## -parameters
+
+
+
+
+### -param index [in]
+
+The index of the function for which to get the custom data.
+
+
+
+
+### -param guid [in]
+
+The GUID used to identify the data.
+
+
+### -param pVarVal [out]
+
+The custom data.
+
+
+## -returns
+
+
+
+This method can return one of these values.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK
+</b></dt>
+</dl>
+</td>
+<td width="60%">
+Success.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG
+</b></dt>
+</dl>
+</td>
+<td width="60%">
+One or more of the arguments is not valid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_OUTOFMEMORY
+</b></dt>
+</dl>
+</td>
+<td width="60%">
+Insufficient memory to complete the operation.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/d3a34a13-6114-4f15-9de5-60da43fde600">ITypeInfo2</a>
+ 
+
+ 
+

@@ -1,0 +1,141 @@
+---
+UID: NF:wmsdkidl.IWMProfileManagerLanguage.SetUserLanguageID
+title: IWMProfileManagerLanguage::SetUserLanguageID method
+author: windows-driver-content
+description: The SetUserLanguageID method sets the language of the system profiles that will be parsed by the profile manager object.
+old-location: wmformat\iwmprofilemanagerlanguage_setuserlanguageid.htm
+old-project: wmformat
+ms.assetid: e2154057-ea76-43bb-92d9-b52f16eb6b1b
+ms.author: windowsdriverdev
+ms.date: 3/23/2018
+ms.keywords: IWMProfileManagerLanguage, IWMProfileManagerLanguage interface [windows Media Format], SetUserLanguageID method, IWMProfileManagerLanguage::SetUserLanguageID, IWMProfileManagerLanguageSetUserLanguageID, SetUserLanguageID method [windows Media Format], SetUserLanguageID method [windows Media Format], IWMProfileManagerLanguage interface, SetUserLanguageID,IWMProfileManagerLanguage.SetUserLanguageID, wmformat.iwmprofilemanagerlanguage_setuserlanguageid, wmsdkidl/IWMProfileManagerLanguage::SetUserLanguageID
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wmsdkidl.h
+req.include-header: Wmsdk.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WM_AETYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wmvcore.lib
+-	Wmvcore.dll
+-	WMStubDRM.lib
+-	WMStubDRM.dll
+api_name:
+-	IWMProfileManagerLanguage.SetUserLanguageID
+product: Windows
+targetos: Windows
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IWMProfileManagerLanguage::SetUserLanguageID method
+
+
+## -description
+
+
+
+The <b>SetUserLanguageID</b> method sets the language of the system profiles that will be parsed by the profile manager object.
+
+
+
+
+## -parameters
+
+
+
+
+### -param wLangID [in]
+
+<b>WORD</b> containing the language identifier (LANGID) of the language you want to use.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>NS_E_NOMATCHING_ELEMENT</b></dt>
+</dl>
+</td>
+<td width="60%">
+The specified LANGID represents a locality not supported by a localized set of system profiles.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+English – United States (0x0409) is the default language. This method will also return NS_E_MOMATCHING_ELEMENT for all languages except US English if you have not moved the correct .prx file into the system root directory.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/54875162-65fe-4959-b567-38c17ba2894d">IWMProfileManagerLanguage Interface</a>
+
+
+
+<a href="https://msdn.microsoft.com/92d18ac9-8f68-47c6-91d7-de7653df69a6">IWMProfileManagerLanguage::GetUserLanguageID</a>
+
+
+
+<a href="https://msdn.microsoft.com/2c218ab4-ecdb-414c-aa42-b71a42e340e5">Localized System Profiles</a>
+
+
+
+<a href="https://msdn.microsoft.com/d911baf6-0731-4f02-9001-d04464a03f56">Working with Localized System Profiles</a>
+ 
+
+ 
+

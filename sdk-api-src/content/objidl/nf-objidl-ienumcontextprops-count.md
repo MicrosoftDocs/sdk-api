@@ -1,0 +1,84 @@
+---
+UID: NF:objidl.IEnumContextProps.Count
+title: IEnumContextProps::Count method
+author: windows-driver-content
+description: Retrieves the number of context properties in the context.
+old-location: com\ienumcontextprops_count.htm
+old-project: com
+ms.assetid: ad3194f7-0df4-4f26-8a98-2715188fb63f
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: Count method [COM], Count method [COM], IEnumContextProps interface, Count,IEnumContextProps.Count, IEnumContextProps, IEnumContextProps interface [COM], Count method, IEnumContextProps::Count, _com_ienumcontextprops_count, com.ienumcontextprops_count, objidlbase/IEnumContextProps::Count
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: objidl.h
+req.include-header: ObjIdl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: ObjIdl.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: THDTYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	objidlbase.h
+api_name:
+-	IEnumContextProps.Count
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# IEnumContextProps::Count method
+
+
+## -description
+
+
+Retrieves the number of context properties in the context.
+
+
+## -parameters
+
+
+
+
+### -param pcelt [out]
+
+The count of items in the sequence.
+
+
+## -returns
+
+
+
+This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E_UNEXPECTED, E_FAIL, and S_OK.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/64591e45-5478-4360-8c1f-08b09b5aef8e">IEnumContextProps</a>
+ 
+
+ 
+

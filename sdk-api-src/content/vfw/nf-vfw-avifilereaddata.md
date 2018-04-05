@@ -1,0 +1,117 @@
+---
+UID: NF:vfw.AVIFileReadData
+title: AVIFileReadData function
+author: windows-driver-content
+description: The AVIFileReadData function reads optional header data that applies to the entire file, such as author or copyright information.
+old-location: multimedia\avifilereaddata.htm
+old-project: Multimedia
+ms.assetid: 9eef2ef4-316e-43e8-8011-14f1c0b46d50
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: AVIFileReadData, AVIFileReadData function [Windows Multimedia], _win32_AVIFileReadData, multimedia.avifilereaddata, vfw/AVIFileReadData
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: vfw.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: VS_FIXEDFILEINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Avifil32.dll
+api_name:
+-	AVIFileReadData
+product: Windows
+targetos: Windows
+req.lib: Vfw32.lib
+req.dll: Avifil32.dll
+req.irql: 
+req.product: Windows UI
+---
+
+# AVIFileReadData function
+
+
+## -description
+
+
+
+The <b>AVIFileReadData</b> function reads optional header data that applies to the entire file, such as author or copyright information.
+
+
+
+
+## -parameters
+
+
+
+
+### -param pfile
+
+Handle to an open AVI file.
+
+
+### -param ckid
+
+RIFF chunk identifier (four-character code) of the data.
+
+
+### -param lpData
+
+Pointer to the buffer used to return the data read.
+
+
+### -param lpcbData
+
+Pointer to a location indicating the size of the memory block referenced by <i>lpData</i>. If the data is read successfully, the value is changed to indicate the amount of data read.
+
+
+## -returns
+
+
+
+Returns zero if successful or an error otherwise. The return value AVIERR_NODATA indicates that data with the requested chunk identifier does not exist.
+
+
+
+
+## -remarks
+
+
+
+The optional header information is custom and does not have a set format.
+
+The argument <i>pfile</i> is a pointer to an <a href="https://msdn.microsoft.com/401db941-cbf6-452b-84e2-605fafac8a6d">IAVIFile</a> interface.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/89abf60a-1714-4836-93ae-a8a6bf2c24b6">AVIFile Functions</a>
+
+
+
+<a href="https://msdn.microsoft.com/573e24fa-876d-4ce9-be23-d5e448a53e20">AVIFile Functions and Macros</a>
+ 
+
+ 
+

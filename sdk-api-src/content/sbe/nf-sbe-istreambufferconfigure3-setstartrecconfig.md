@@ -1,0 +1,112 @@
+---
+UID: NF:sbe.IStreamBufferConfigure3.SetStartRecConfig
+title: IStreamBufferConfigure3::SetStartRecConfig method
+author: windows-driver-content
+description: The SetStartRecConfig method specifies whether the IStreamBufferRecordControl::Start method automatically stops the current recording.
+old-location: mstv\istreambufferconfigure3_setstartrecconfig.htm
+old-project: mstv
+ms.assetid: 6ae896ce-72e8-49aa-a538-2a269ef07ade
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: IStreamBufferConfigure3, IStreamBufferConfigure3 interface [Microsoft TV Technologies], SetStartRecConfig method, IStreamBufferConfigure3::SetStartRecConfig, IStreamBufferConfigure3SetStartRecConfig, SetStartRecConfig method [Microsoft TV Technologies], SetStartRecConfig method [Microsoft TV Technologies], IStreamBufferConfigure3 interface, SetStartRecConfig,IStreamBufferConfigure3.SetStartRecConfig, mstv.istreambufferconfigure3_setstartrecconfig, sbe/IStreamBufferConfigure3::SetStartRecConfig
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: sbe.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: None supported
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: STREAMBUFFER_ATTR_DATATYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Sbe.h
+api_name:
+-	IStreamBufferConfigure3.SetStartRecConfig
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# IStreamBufferConfigure3::SetStartRecConfig method
+
+
+## -description
+
+
+The <b>SetStartRecConfig</b> method specifies whether the <a href="https://msdn.microsoft.com/e72ec34e-d3e3-4f5f-9336-d55135dc1e47">IStreamBufferRecordControl::Start</a> method automatically stops the current recording.
+
+
+## -parameters
+
+
+
+
+### -param fStartStopsCur [in]
+
+If <b>TRUE</b>, the <b>Start</b> method automatically stops the current recording. Otherwise, the <b>Start</b> method fails if another recording is in progress. The default value is <b>FALSE</b>.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+By default, if another recording is still in progress, the <b>IStreamBufferRecordControl::Start</b> method fails. If the <i>fStartStopsCur</i> parameter is <b>TRUE</b>, the <b>Start</b> method will automatically stop a recording in progress.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/73f3cd43-11d1-4eff-861d-087bfda7d135">IStreamBufferConfigure3 Interface</a>
+ 
+
+ 
+

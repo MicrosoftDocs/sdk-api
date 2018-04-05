@@ -1,0 +1,73 @@
+---
+UID: NS:webservices._WS_FAULT_CODE
+title: "_WS_FAULT_CODE"
+author: windows-driver-content
+description: Represents a fault code.
+old-location: wsw\ws_fault_code.htm
+old-project: wsw
+ms.assetid: 31fb8432-6bf6-475b-81ae-e4b1a797b189
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: WS_FAULT_CODE, WS_FAULT_CODE structure [Web Services for Windows], _WS_FAULT_CODE, webservices/WS_FAULT_CODE, wsw.ws_fault_code
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: struct
+req.header: webservices.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WS_FAULT_CODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WebServices.h
+api_name:
+-	WS_FAULT_CODE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# _WS_FAULT_CODE structure
+
+
+## -description
+
+
+Represents a fault code.
+
+
+## -struct-fields
+
+
+
+
+### -field subCode
+
+
+                    Pointer to the next fault code in the list.
+                
+
+
+### -field value
+
+
+                    The local name and namespace URI that identify the fault code.
+                
+

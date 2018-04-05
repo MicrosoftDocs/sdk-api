@@ -1,0 +1,91 @@
+---
+UID: NF:pla.IValueMapItem.put_Value
+title: IValueMapItem::put_Value method
+author: windows-driver-content
+description: Retrieves or sets the value of the item.
+old-location: pla\ivaluemapitem_value.htm
+old-project: PLA
+ms.assetid: 3f7549aa-2ad6-40f4-ae09-c5130a9c3451
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: IValueMapItem, IValueMapItem interface [PLA], Value property, IValueMapItem.Value, IValueMapItem::get_Value, IValueMapItem::put_Value, Value property [PLA], Value property [PLA], IValueMapItem interface, base.ivaluemapitem_value, pla.ivaluemapitem_value, pla/IValueMapItem::Value, pla/IValueMapItem::get_Value, pla/IValueMapItem::put_Value, put_Value,IValueMapItem.put_Value
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: pla.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: FolderActionSteps
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Pla.dll
+api_name:
+-	IValueMapItem.Value
+-	IValueMapItem.get_Value
+-	IValueMapItem.put_Value
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# IValueMapItem::put_Value method
+
+
+## -description
+
+
+Retrieves or sets the value of the item.
+
+This property is read/write.
+
+
+## -parameters
+
+
+## -remarks
+
+
+
+The variant type is VT_UI8 if the <a href="https://msdn.microsoft.com/cc217b3b-389a-4d15-b47d-456778f3eaec">ValueMapType</a> enumeration is plaIndex, plaFlag or plaFlagArray.
+
+The variant type is VT_UI4 if <a href="https://msdn.microsoft.com/cc217b3b-389a-4d15-b47d-456778f3eaec">ValueMapType</a> is plaValidation.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/9f344845-956e-4254-82e2-e4e00f6a371b">IValueMap::Value</a>
+
+
+
+<a href="https://msdn.microsoft.com/5fab2a62-d974-49f7-ac81-c704d9d8624c">IValueMapItem</a>
+
+
+
+<a href="https://msdn.microsoft.com/006d134d-d14b-4964-b46c-7dd2353d2493">IValueMapItem::ValueMapType</a>
+ 
+
+ 
+

@@ -1,0 +1,155 @@
+---
+UID: NF:strmif.IPin.QueryInternalConnections
+title: IPin::QueryInternalConnections method
+author: windows-driver-content
+description: The QueryInternalConnections method retrieves the pins that are connected internally to this pin (within the filter).
+old-location: dshow\ipin_queryinternalconnections.htm
+old-project: DirectShow
+ms.assetid: c0289b89-9220-402c-858c-09076e2ab6b6
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: IPin, IPin interface [DirectShow], QueryInternalConnections method, IPin::QueryInternalConnections, IPinQueryInternalConnections, QueryInternalConnections method [DirectShow], QueryInternalConnections method [DirectShow], IPin interface, QueryInternalConnections,IPin.QueryInternalConnections, dshow.ipin_queryinternalconnections, strmif/IPin::QueryInternalConnections
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: strmif.h
+req.include-header: Dshow.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: DVD_RELATIVE_BUTTON
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Strmiids.lib
+-	Strmiids.dll
+api_name:
+-	IPin.QueryInternalConnections
+product: Windows
+targetos: Windows
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1
+---
+
+# IPin::QueryInternalConnections method
+
+
+## -description
+
+
+
+The <b>QueryInternalConnections</b> method retrieves the pins that are connected internally to this pin (within the filter).
+
+
+
+
+## -parameters
+
+
+
+
+### -param apPin [out]
+
+Address of an array of <a href="https://msdn.microsoft.com/ad0ead4e-9f8e-4935-b220-306d665e50f4">IPin</a> pointers. The caller allocates the array. The method fills the array with <b>IPin</b> pointers. If <i>nPin</i> is zero, this parameter can be <b>NULL</b>.
+
+
+### -param nPin [in, out]
+
+On input, specifies the size of the array. On output, specifies the number of internally connected pins.
+
+
+## -returns
+
+
+
+Returns an <b>HRESULT</b> value. Possible values include the following.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_FALSE</b></dt>
+</dl>
+</td>
+<td width="60%">
+Insufficient array size.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+Success.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_NOTIMPL</b></dt>
+</dl>
+</td>
+<td width="60%">
+Not implemented.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+This method returns information about the filter's internal mapping of input pins to output pins. In other words, it describes how the input pins deliver data to the output pins.
+
+In most filters, every input pin connects to every output pin. For example, in a transform filter, one input connects to one output; in a splitter filter, one input connects to multiple ouputs. In these cases, the method should simply return E_NOTIMPL.
+
+Otherwise, the method returns an array of <b>IPin</b> pointers, one for each pin that is mapped internally to the pin you have queried. If you call the method on an input pin, the array contains pointers to output pins, and vice versa.
+
+The caller allocates the array of <b>IPin</b> pointers. To get the required array size, call the method once with <i>apPin</i> equal to <b>NULL</b>. The size is returned in the <i>nPin</i> parameter. Then allocate the array and call the method again, setting <i>apPin</i> equal to the address of the array and <i>nPin</i> equal to the array size. The method then fills the array with <b>IPin</b> pointers. Each returned pointer has an outstanding reference count and must be released by the caller.
+
+This method has another use that is now deprecated: The <a href="https://msdn.microsoft.com/b1a53193-27c6-4e86-a5b9-f3c1e4401690">Filter Graph Manager</a> treats a filter as being a renderer filter if at least one input pin implements this method but returns zero in <i>nPin</i>. If you are writing a new renderer filter, however, you should implement the <a href="https://msdn.microsoft.com/f9f3eaf9-4afa-412f-aa8f-b75e787cfecb">IAMFilterMiscFlags</a> interface instead of using this method to indicate that the filter is a renderer.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+
+
+
+<a href="https://msdn.microsoft.com/ad0ead4e-9f8e-4935-b220-306d665e50f4">IPin Interface</a>
+ 
+
+ 
+

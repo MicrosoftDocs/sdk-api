@@ -1,0 +1,139 @@
+---
+UID: NF:msctf.IEnumTfRanges.Next
+title: IEnumTfRanges::Next method
+author: windows-driver-content
+description: IEnumTfRanges::Next method
+old-location: tsf\ienumtfranges_next.htm
+old-project: TSF
+ms.assetid: 95fe45f0-bf30-4f8c-86f3-e20a0d70127e
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: IEnumTfRanges, IEnumTfRanges interface [Text Services Framework], Next method, IEnumTfRanges::Next, Next method [Text Services Framework], Next method [Text Services Framework], IEnumTfRanges interface, Next,IEnumTfRanges.Next, _tsf_ienumtfranges_next_ref, msctf/IEnumTfRanges::Next, tsf.ienumtfranges_next
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: msctf.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Msctf.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: TF_DA_ATTR_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	msctf.dll
+api_name:
+-	IEnumTfRanges.Next
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IEnumTfRanges::Next method
+
+
+## -description
+
+
+
+
+## -parameters
+
+
+
+
+### -param ulCount [in]
+
+Specifies the number of elements to obtain.
+
+
+### -param ppRange [out]
+
+Pointer to an array of <a href="https://msdn.microsoft.com/b8889f7d-3228-4ecc-8d24-c04234d3101e">ITfRange</a> interface pointers that receives the requested objects. This array must be at least <i>ulCount</i> elements in size.
+
+
+### -param pcFetched [out]
+
+Pointer to a ULONG value that receives the number of elements actually obtained. This value can be less than the number of items requested. This parameter can be <b>NULL</b>.
+
+
+## -returns
+
+
+
+This method can return one of these values.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method was successful.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_FALSE</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method reached the end of the enumeration before the specified number of elements could be obtained.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+<i>ppRange</i> is invalid.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/68e17539-3b00-4e51-964d-0516b448f6c8">IEnumTfRanges</a>
+
+
+
+<a href="https://msdn.microsoft.com/b8889f7d-3228-4ecc-8d24-c04234d3101e">ITfRange
+      </a>
+ 
+
+ 
+

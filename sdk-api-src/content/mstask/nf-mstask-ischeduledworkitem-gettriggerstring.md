@@ -1,0 +1,155 @@
+---
+UID: NF:mstask.IScheduledWorkItem.GetTriggerString
+title: IScheduledWorkItem::GetTriggerString method
+author: windows-driver-content
+description: Retrieves a string that describes the work item trigger.
+old-location: taskschd\ischeduledworkitem_gettriggerstring.htm
+old-project: TaskSchd
+ms.assetid: 5e342807-4796-449b-b490-815ce57f4d8f
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: GetTriggerString method [Task Scheduler], GetTriggerString method [Task Scheduler], IScheduledWorkItem interface, GetTriggerString,IScheduledWorkItem.GetTriggerString, IScheduledWorkItem, IScheduledWorkItem interface [Task Scheduler], GetTriggerString method, IScheduledWorkItem::GetTriggerString, _msb_ischeduledworkitem_gettriggerstring, mstask/IScheduledWorkItem::GetTriggerString, taskschd.ischeduledworkitem_gettriggerstring
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: mstask.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: TASK_TRIGGER_TYPE, *PTASK_TRIGGER_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Mstask.dll
+api_name:
+-	IScheduledWorkItem.GetTriggerString
+product: Windows
+targetos: Windows
+req.lib: Mstask.lib
+req.dll: Mstask.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 SP2 or later
+---
+
+# IScheduledWorkItem::GetTriggerString method
+
+
+## -description
+
+
+<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://msdn.microsoft.com/67ed58e1-e54c-4c02-a6c4-d9ab8dc0f83e">Task Scheduler 2.0 Interfaces</a> instead.] ]
+
+ Retrieves a string that describes the <a href="w.htm">work item</a> trigger.
+
+
+## -parameters
+
+
+
+
+### -param iTrigger [in]
+
+The index of the trigger to be retrieved. The first trigger is always referenced by 0. For more information, see Remarks.
+
+
+### -param ppwszTrigger [out]
+
+A pointer to a null-terminated string that contains the retrieved trigger description. Note that this string must be release by a call to <b>CoTaskMemFree</b> after the string is no longer needed.
+
+
+## -returns
+
+
+
+The 
+<b>GetTriggerString</b> method returns one of the following values.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The operation was successful.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+The arguments are not valid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_OUTOFMEMORY</b></dt>
+</dl>
+</td>
+<td width="60%">
+Not enough memory is available.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+A trigger index is not an identifier. It only indicates the trigger's position relative to the current triggers associated with the work item. For example, if you create four triggers, they will be numbered 0 through 3. But if the second trigger is deleted, the remaining triggers will be numbered 0 through 2. Note that the index of the first trigger is always 0, and the index of the last trigger is one less than the total number of triggers for the work item (TriggerCount -1).
+
+You can retrieve the trigger count using 
+<a href="https://msdn.microsoft.com/db1c98db-c4c1-45af-baba-097ee8dc6abf">IScheduledWorkItem::GetTriggerCount</a>.
+
+
+#### Examples
+
+For an example of how to retrieve the trigger string of all triggers associated with a task, see <a href="https://msdn.microsoft.com/adfa95b1-54f0-4bcd-a260-ca76fd77d43e">Retrieving Trigger Strings Example</a>.
+
+<div class="code"></div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/e668833a-094d-4504-90a0-87912a6a53c2">IScheduledWorkItem</a>
+
+
+
+<a href="https://msdn.microsoft.com/84a70dd0-43cb-42be-8360-35263bf1afb8">ITask</a>
+ 
+
+ 
+

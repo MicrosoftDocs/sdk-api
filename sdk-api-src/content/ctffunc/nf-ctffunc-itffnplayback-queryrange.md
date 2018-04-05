@@ -1,0 +1,147 @@
+---
+UID: NF:ctffunc.ITfFnPlayBack.QueryRange
+title: ITfFnPlayBack::QueryRange method
+author: windows-driver-content
+description: ITfFnPlayBack::QueryRange method
+old-location: tsf\itffnplayback_queryrange.htm
+old-project: TSF
+ms.assetid: d6113703-5515-4f1a-8e2e-1373077dafc2
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: ITfFnPlayBack, ITfFnPlayBack interface [Text Services Framework], QueryRange method, ITfFnPlayBack::QueryRange, QueryRange method [Text Services Framework], QueryRange method [Text Services Framework], ITfFnPlayBack interface, QueryRange,ITfFnPlayBack.QueryRange, _tsf_itffnplayback_queryrange_ref, ctffunc/ITfFnPlayBack::QueryRange, tsf.itffnplayback_queryrange
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: ctffunc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Ctffunc.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: TfIntegratableCandidateListSelectionStyle
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Msctf.dll
+api_name:
+-	ITfFnPlayBack.QueryRange
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
+---
+
+# ITfFnPlayBack::QueryRange method
+
+
+## -description
+
+
+
+
+## -parameters
+
+
+
+
+### -param pRange [in]
+
+Pointer to an <a href="https://msdn.microsoft.com/b8889f7d-3228-4ecc-8d24-c04234d3101e">ITfRange</a> object that covers all or part of the text that contains audio data.
+
+
+### -param ppNewRange [out]
+
+Pointer to an <a href="https://msdn.microsoft.com/b8889f7d-3228-4ecc-8d24-c04234d3101e">ITfRange</a> pointer that receives a range object that covers all of the text that contains audio data. If there is no audio data for the text covered by <i>pRange</i>, this parameters receives <b>NULL</b>. In this case, the method returns S_OK, so the caller must verify that this parameter is not <b>NULL</b> before using the pointer.
+
+
+### -param pfPlayable [out]
+
+Pointer to a <b>BOOL</b> that receives zero if none of the text covered by <i>pRange</i> has any audio data or nonzero otherwise.
+
+
+## -returns
+
+
+
+This method can return one of these values.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method was successful.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+One or more parameters are invalid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_OUTOFMEMORY</b></dt>
+</dl>
+</td>
+<td width="60%">
+A memory allocation failure occurred.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+The current implementation of this method is simple. It clones <i>pRange</i>, places the clone in <i>ppNewRange</i>, sets <i>pfPlayable</i> to <b>TRUE</b> and returns S_OK.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/e9a0d1a3-70c9-4816-8cd4-f2574392953e">ITfFnPlayBack</a>
+
+
+
+<a href="https://msdn.microsoft.com/b8889f7d-3228-4ecc-8d24-c04234d3101e">ITfRange
+      </a>
+ 
+
+ 
+

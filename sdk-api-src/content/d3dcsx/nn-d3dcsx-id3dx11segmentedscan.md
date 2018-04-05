@@ -1,0 +1,101 @@
+---
+UID: NN:d3dcsx.ID3DX11SegmentedScan
+title: ID3DX11SegmentedScan
+author: windows-driver-content
+description: Segmented scan context.
+old-location: direct3d11\id3dx11segmentedscan.htm
+old-project: direct3d11
+ms.assetid: 58d8d3ea-25d6-4767-9693-fbc97ae3e8b8
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: ID3DX11SegmentedScan, ID3DX11SegmentedScan interface [Direct3D 11], ID3DX11SegmentedScan interface [Direct3D 11], described, c6827b47-df7b-c393-42aa-d39fb87fcf6d, d3dcsx/ID3DX11SegmentedScan, direct3d11.id3dx11segmentedscan
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: interface
+req.header: d3dcsx.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: D3DX11_SCAN_OPCODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	d3dcsx.lib
+-	d3dcsx.dll
+api_name:
+-	ID3DX11SegmentedScan
+product: Windows
+targetos: Windows
+req.lib: D3dcsx.lib
+req.dll: 
+req.irql: 
+---
+
+# ID3DX11SegmentedScan interface
+
+
+## -description
+
+
+Segmented scan context.
+
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3DX11SegmentedScan</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ID3DX11SegmentedScan</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
+
+## -members
+
+The <b>ID3DX11SegmentedScan</b> interface has these methods.
+<table class="members" id="memberListMethods">
+<tr>
+<th align="left" width="37%">Method</th>
+<th align="left" width="63%">Description</th>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/096e1cc1-0bab-4e23-8c4c-47a2a0ff49fb">SegScan</a>
+</td>
+<td align="left" width="63%">
+Performs a segmented scan of a sequence.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/84eca342-33a3-4595-adb2-0a39e6060e49">SetScanDirection</a>
+</td>
+<td align="left" width="63%">
+Sets which direction to perform scans in.
+
+</td>
+</tr>
+</table> 
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/A4F5E487-AA6C-4C64-90CF-88587F2E8B8B">D3DCSX 11 Interfaces</a>
+ 
+
+ 
+

@@ -1,0 +1,72 @@
+---
+UID: NF:msctf.ITfKeyEventSink.OnSetFocus
+title: ITfKeyEventSink::OnSetFocus method
+author: windows-driver-content
+description: ITfKeyEventSink::OnSetFocus method
+old-location: tsf\itfkeyeventsink_onsetfocus.htm
+old-project: TSF
+ms.assetid: 999c7ead-7ca6-42a5-a530-706fb3283b21
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: ITfKeyEventSink, ITfKeyEventSink interface [Text Services Framework], OnSetFocus method, ITfKeyEventSink::OnSetFocus, OnSetFocus method [Text Services Framework], OnSetFocus method [Text Services Framework], ITfKeyEventSink interface, OnSetFocus,ITfKeyEventSink.OnSetFocus, _tsf_itfkeyeventsink_onsetfocus_ref, msctf/ITfKeyEventSink::OnSetFocus, tsf.itfkeyeventsink_onsetfocus
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: msctf.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Msctf.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: TF_DA_ATTR_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Msctf.dll
+api_name:
+-	ITfKeyEventSink.OnSetFocus
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# ITfKeyEventSink::OnSetFocus method
+
+
+## -description
+
+
+
+
+## -parameters
+
+
+
+
+### -param fForeground [in]
+
+If <b>TRUE</b>, the test service receives the focus. Otherwise the text service loses the focus.
+
+
+## -returns
+
+
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+

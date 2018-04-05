@@ -1,0 +1,125 @@
+---
+UID: NF:wmlss.IWindowsMediaLibrarySharingServices.put_computerHomeMediaSharingAllowedState
+title: IWindowsMediaLibrarySharingServices::put_computerHomeMediaSharingAllowedState method
+author: windows-driver-content
+description: The put_computerHomeMediaSharingAllowedState method specifies whether media libraries on the computer are allowed to be shared on the home network.
+old-location: wmlss\IWMLSSput_computerHomeMediaSharingAllowedState.htm
+old-project: WMLSS
+ms.assetid: f844f79e-ae6f-4f57-abec-2b6d5951961f
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: IWindowsMediaLibrarySharingServices, IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services], put_computerHomeMediaSharingAllowedState method, IWindowsMediaLibrarySharingServices::put_computerHomeMediaSharingAllowedState, put_computerHomeMediaSharingAllowedState method [Windows Media Library Sharing Services], put_computerHomeMediaSharingAllowedState method [Windows Media Library Sharing Services], IWindowsMediaLibrarySharingServices interface, put_computerHomeMediaSharingAllowedState,IWindowsMediaLibrarySharingServices.put_computerHomeMediaSharingAllowedState, wmlss.IWMLSSput_computerHomeMediaSharingAllowedState, wmlss/IWindowsMediaLibrarySharingServices::put_computerHomeMediaSharingAllowedState
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wmlss.h
+req.include-header: Wmlss.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WindowsMediaLibrarySharingDeviceAuthorizationStatus
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	WMPMediaSharing.dll
+api_name:
+-	IWindowsMediaLibrarySharingServices.put_computerHomeMediaSharingAllowedState
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: WMPMediaSharing.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IWindowsMediaLibrarySharingServices::put_computerHomeMediaSharingAllowedState method
+
+
+## -description
+
+
+
+			The <b>put_computerHomeMediaSharingAllowedState</b> method specifies whether media libraries on the computer are allowed to be shared on the home network.
+
+
+## -parameters
+
+
+
+
+### -param sharingAllowed
+
+A <b>VARIANT_BOOL</b> that specifies VARIANT_TRUE if media libraries are allowed to be shared  or <b>VARIANT_FALSE</b> if media libraries are not allowed to be shared.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+This method must be called by code running under elevated privileges.
+
+If home media sharing is not allowed for the computer, none of the users' media libraries are shared on the home network, regardless of whether individual users have enabled home media sharing.
+
+
+If home media sharing is allowed for the computer and a particular user has enabled media sharing, then that user's media library is shared on the home network.
+
+
+<div class="alert"><b>Warning</b>  Each call to <b>put_computerHomeMediaSharingAllowedState</b> with the <i>sharingAllowed</i> parameter set to <b>VARIANT_TRUE</b> updates the access control list (ACL) and last changed time  of each file in the computer's Public Music, Public Pictures, and Public Videos folders. This behavior might change in future versions of Windows.</div>
+<div> </div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/bbec5687-3c77-4385-a9be-74c6d84db962">IWindowsMediaLibrarySharingServices</a>
+
+
+
+<a href="https://msdn.microsoft.com/9c1ced28-7ed0-4f65-af4d-34774f911621">IWindowsMediaLibrarySharingServices::get_computerHomeMediaSharingAllowedState</a>
+ 
+
+ 
+

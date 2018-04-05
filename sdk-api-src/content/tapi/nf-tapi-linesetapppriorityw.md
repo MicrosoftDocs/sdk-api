@@ -1,0 +1,143 @@
+---
+UID: NF:tapi.lineSetAppPriorityW
+title: lineSetAppPriorityW function
+author: windows-driver-content
+description: Enables an application to set its priority in the handoff priority list for a particular media type or Assisted Telephony request mode, or to remove itself from the priority list.
+old-location: tapi2\linesetapppriority.htm
+old-project: Tapi
+ms.assetid: f173c472-56bc-4773-a77a-1aa05ba8766f
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: "_tapi2_linesetapppriority, lineSetAppPriority, lineSetAppPriority function [TAPI 2.2], lineSetAppPriorityA, lineSetAppPriorityW, tapi/lineSetAppPriority, tapi/lineSetAppPriorityA, tapi/lineSetAppPriorityW, tapi2.linesetapppriority"
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: tapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: lineSetAppPriorityW (Unicode) and lineSetAppPriorityA (ANSI)
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: FLICK_POINT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Tapi32.dll
+api_name:
+-	lineSetAppPriority
+-	lineSetAppPriorityA
+-	lineSetAppPriorityW
+product: Windows
+targetos: Windows
+req.lib: Tapi32.lib
+req.dll: Tapi32.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# lineSetAppPriorityW function
+
+
+## -description
+
+
+The 
+<b>lineSetAppPriority</b> function enables an application to set its priority in the handoff priority list for a particular media type or Assisted Telephony request mode, or to remove itself from the priority list.
+
+
+## -parameters
+
+
+
+
+### -param lpszAppFilename
+
+A pointer to a string that contains the application executable module filename, without the directory data. In TAPI version 2.0 or later, the parameter can specify a filename in either long or 8.3 filename format.
+
+
+### -param dwMediaMode
+
+A media type for which the priority of the application is to be set. The value can be one or more of the 
+<a href="https://msdn.microsoft.com/cbb758be-3ecd-4ac4-b1b5-57136a1aad8e">LINEMEDIAMODE</a> constants. The value zero should be used to set the application priority for Assisted Telephony requests.
+
+
+### -param lpExtensionID
+
+A pointer to a structure of type 
+<a href="https://msdn.microsoft.com/bf7d9ccc-3f80-4e54-bcc2-cc2fef1d24af">LINEEXTENSIONID</a>. This parameter is ignored.
+
+
+### -param dwRequestMode
+
+The conditions for this parameter are, if the <i>dwMediaMode</i> parameter is zero, this parameter specifies the Assisted Telephony request mode for which priority is to be set. It must be LINEREQUESTMODE_MAKECALL. This parameter is ignored if <i>dwMediaMode</i> is nonzero.
+
+
+### -param lpszExtensionName
+
+This parameter is ignored.
+
+
+### -param dwPriority
+
+A parameter that indicates a new priority for the application. If the value 0 is passed, the application is removed from the priority list for the specified media or request mode; if it was not already present, no error is generated. If the value 1 is passed, the application is inserted as the highest-priority application for the media or request mode; it is removed from a lower-priority position, if already in the list. Any other value generates an error.
+
+
+## -returns
+
+
+
+Returns zero if the request succeeds or a negative error number if an error occurs. Possible return values are:
+
+<b>LINEERR_INIFILECORRUPT</b>, <b>LINEERR_INVALREQUESTMODE</b>, <b>LINEERR_INVALAPPNAME</b>, <b>LINEERR_NOMEM</b>, <b>LINEERR_INVALMEDIAMODE</b>, <b>LINEERR_OPERATIONFAILED</b>, <b>LINEERR_INVALPARAM</b>, <b>LINEERR_RESOURCEUNAVAIL</b>, <b>LINEERR_INVALPOINTER</b>.
+
+
+
+
+## -remarks
+
+
+
+If <b>LINEERR_INVALMEDIAMODE</b> is returned, the value specified in <i>dwMediaMode</i> is not zero and not one of the 
+<a href="https://msdn.microsoft.com/cbb758be-3ecd-4ac4-b1b5-57136a1aad8e">LINEMEDIAMODE_ Constants</a>.
+
+This function updates the stored priority list. If the telephony system is initialized, it also sets the current, active priorities for applications then running; the new priority is used on the next incoming call or 
+<a href="https://msdn.microsoft.com/931c2fa4-dad6-432d-8f07-bb04b646916b">lineHandoff</a> based on media type.
+
+The Priorities set with <b>lineSetAppPriority</b> will persist across restarts of the system or restarts of tapisrv. The <a href="https://msdn.microsoft.com/7dd39866-0b3e-47be-8aa8-adfb66df6644">lineOpen</a> function opens the line with no specified call priorities. By default, the highest priority application will be the one that first called <b>lineOpen</b>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/bf7d9ccc-3f80-4e54-bcc2-cc2fef1d24af">LINEEXTENSIONID</a>
+
+
+
+<a href="https://msdn.microsoft.com/d4338b3c-cd84-4abb-b74e-9df895c8355b">Supplementary Line Service Functions</a>
+
+
+
+<a href="https://msdn.microsoft.com/d703b414-1389-416c-8e94-c1931979f0c9">TAPI 2.2 Reference Overview</a>
+
+
+
+<a href="https://msdn.microsoft.com/931c2fa4-dad6-432d-8f07-bb04b646916b">lineHandoff</a>
+ 
+
+ 
+

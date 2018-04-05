@@ -1,0 +1,64 @@
+---
+UID: NF:wsman.WSManPluginFreeRequestDetails
+title: WSManPluginFreeRequestDetails function
+author: windows-driver-content
+description: Releases memory that is allocated for the WSMAN_PLUGIN_REQUEST structure, which is passed into operation plug-in entry points.
+old-location: winrm\wsmanpluginfreerequestdetails.htm
+old-project: WinRM
+ms.assetid: 43716391-536c-49ae-9266-a8ae72621a0b
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: WSManPluginFreeRequestDetails, WSManPluginFreeRequestDetails function [Windows Remote Management], winrm.wsmanpluginfreerequestdetails, wsman/WSManPluginFreeRequestDetails
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: wsman.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7
+req.target-min-winversvr: Windows Server 2008 R2
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WSManSessionOption
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	WsmSvc.dll
+api_name:
+-	WSManPluginFreeRequestDetails
+product: Windows
+targetos: Windows
+req.lib: WsmSvc.lib
+req.dll: WsmSvc.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# WSManPluginFreeRequestDetails function
+
+
+## -description
+
+
+Releases memory that is allocated for the <a href="https://msdn.microsoft.com/3191f2b3-e754-4f2d-ae8b-11da859c94b7">WSMAN_PLUGIN_REQUEST</a> structure, which is passed into operation plug-in entry points. This method is optional and can be called at any point after a plug-in entry point is called and before the entry point calls the  <a href="https://msdn.microsoft.com/6cb47762-edfc-48d7-88ec-d62056ea1751">WSManPluginOperationComplete</a> method. After this method is called, the memory will be released and the plug-in will be unable to access any of the parameters in the <a href="https://msdn.microsoft.com/3191f2b3-e754-4f2d-ae8b-11da859c94b7">WSMAN_PLUGIN_REQUEST</a> structure.
+
+
+## -parameters
+
+
+
+
+### -param requestDetails [in]
+
+A pointer to a <a href="https://msdn.microsoft.com/3191f2b3-e754-4f2d-ae8b-11da859c94b7">WSMAN_PLUGIN_REQUEST</a> structure that specifies the resource URI, options, locale, shutdown flag, and handle for the request.
+

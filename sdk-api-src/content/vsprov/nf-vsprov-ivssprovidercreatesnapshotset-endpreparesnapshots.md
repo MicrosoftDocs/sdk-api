@@ -1,0 +1,184 @@
+---
+UID: NF:vsprov.IVssProviderCreateSnapshotSet.EndPrepareSnapshots
+title: IVssProviderCreateSnapshotSet::EndPrepareSnapshots method
+author: windows-driver-content
+description: Is called once for the complete shadow copy set, after the last IVssHardwareSnapshotProvider::BeginPrepareSnapshot call.
+old-location: base\ivssprovidercreatesnapshotset_endpreparesnapshots.htm
+old-project: VSS
+ms.assetid: 230666c7-e7e4-4e75-a84d-1786e8cbbb6c
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: EndPrepareSnapshots method [VSS], EndPrepareSnapshots method [VSS], IVssProviderCreateSnapshotSet interface, EndPrepareSnapshots,IVssProviderCreateSnapshotSet.EndPrepareSnapshots, IVssProviderCreateSnapshotSet, IVssProviderCreateSnapshotSet interface [VSS], EndPrepareSnapshots method, IVssProviderCreateSnapshotSet::EndPrepareSnapshots, base.ivssprovidercreatesnapshotset_endpreparesnapshots, vsprov/IVssProviderCreateSnapshotSet::EndPrepareSnapshots
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: vsprov.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: VSS_MGMT_OBJECT_UNION, *PVSS_MGMT_OBJECT_UNION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	VsProv.h
+api_name:
+-	IVssProviderCreateSnapshotSet.EndPrepareSnapshots
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
+---
+
+# IVssProviderCreateSnapshotSet::EndPrepareSnapshots method
+
+
+## -description
+
+
+The <b>EndPrepareSnapshots</b> 
+   method is called once for the complete shadow copy set, after the last 
+   <a href="https://msdn.microsoft.com/4a8bdffa-bb6e-425d-a708-1f31af302da9">IVssHardwareSnapshotProvider::BeginPrepareSnapshot</a> 
+   call. This method is intended as a point where the provider can wait for any shadow copy preparation 
+   work to complete. Because 
+   <b>EndPrepareSnapshots</b> may 
+   take a long time to complete, a provider should be prepared to accept an 
+   <a href="https://msdn.microsoft.com/393fd5aa-9934-4918-8699-25c41d0dc982">AbortSnapshots</a> method call 
+   at any time and immediately end the preparation work.
+
+
+## -parameters
+
+
+
+
+### -param SnapshotSetId [in]
+
+The <b>VSS_ID</b> of the shadow copy set.
+
+
+## -returns
+
+
+
+<table>
+<tr>
+<th>Return code/value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b><b>S_OK</b></b></dt>
+<dt>0x00000000L</dt>
+</dl>
+</td>
+<td width="60%">
+The operation was successfully completed.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b><b>E_OUTOFMEMORY</b></b></dt>
+<dt>0x8007000EL</dt>
+</dl>
+</td>
+<td width="60%">
+Out of memory or other system resources.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+<dt>0x80070057L</dt>
+</dl>
+</td>
+<td width="60%">
+One of the parameter values is not valid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b><b>VSS_E_INSUFFICIENT_STORAGE</b></b></dt>
+<dt>0x8004231FL</dt>
+</dl>
+</td>
+<td width="60%">
+There is not enough disk storage to create a shadow copy. Insufficient disk space can also generate 
+        <b>VSS_E_PROVIDER_VETO</b> or <b>VSS_E_OBJECT_NOT_FOUND</b> error 
+        return values.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b><b>VSS_E_OBJECT_NOT_FOUND</b></b></dt>
+<dt>0x80042308L</dt>
+</dl>
+</td>
+<td width="60%">
+The <i>SnapshotSetId</i> parameter refers to an object that was not found.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b><b>VSS_E_PROVIDER_VETO</b></b></dt>
+<dt>0x80042306L</dt>
+</dl>
+</td>
+<td width="60%">
+An unexpected provider error occurred. If this is returned, the error must be described in an entry in 
+        the application event log, giving the user information on how to resolve the problem.
+
+</td>
+</tr>
+</table>
+ 
+
+If any other value is returned, VSS will write an event to the event log and convert the error to 
+      <b>VSS_E_UNEXPECTED_PROVIDER_ERROR</b>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/393fd5aa-9934-4918-8699-25c41d0dc982">AbortSnapshots</a>
+
+
+
+<a href="https://msdn.microsoft.com/4a8bdffa-bb6e-425d-a708-1f31af302da9">IVssHardwareSnapshotProvider::BeginPrepareSnapshot</a>
+
+
+
+<a href="https://msdn.microsoft.com/41a795f0-7882-47a3-9226-aa50218a56e9">IVssProviderCreateSnapshotSet</a>
+ 
+
+ 
+

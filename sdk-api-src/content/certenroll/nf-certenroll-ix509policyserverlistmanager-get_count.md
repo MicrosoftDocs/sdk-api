@@ -1,0 +1,70 @@
+---
+UID: NF:certenroll.IX509PolicyServerListManager.get_Count
+title: IX509PolicyServerListManager::get_Count method
+author: windows-driver-content
+description: Retrieves the number of IX509PolicyServerUrl objects in the collection.
+old-location: security\ix509policyserverlistmanager_count.htm
+old-project: SecCertEnroll
+ms.assetid: 77211dd5-c6df-428b-8f2d-410485109548
+ms.author: windowsdriverdev
+ms.date: 3/29/2018
+ms.keywords: Count property [Security], Count property [Security], IX509PolicyServerListManager interface, IX509PolicyServerListManager, IX509PolicyServerListManager interface [Security], Count property, IX509PolicyServerListManager.Count, IX509PolicyServerListManager::get_Count, certenroll/IX509PolicyServerListManager::Count, certenroll/IX509PolicyServerListManager::get_Count, get_Count,IX509PolicyServerListManager.get_Count, security.ix509policyserverlistmanager_count
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: certenroll.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: X509RequestType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	CertEnroll.dll
+api_name:
+-	IX509PolicyServerListManager.Count
+-	IX509PolicyServerListManager.get_Count
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
+---
+
+# IX509PolicyServerListManager::get_Count method
+
+
+## -description
+
+
+The <b>Count</b> property retrieves the number of <a href="https://msdn.microsoft.com/ad9d61ec-f607-4f71-ad8a-28d821e29c27">IX509PolicyServerUrl</a> objects in the collection.
+
+This property is read-only.
+
+
+## -parameters
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/a9fe4f4b-a35d-40e6-b99a-a89f58e79250">IX509PolicyServerListManager</a>
+ 
+
+ 
+

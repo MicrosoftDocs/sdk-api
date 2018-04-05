@@ -1,0 +1,92 @@
+---
+UID: NF:fsrmscreen.IFsrmFileScreenTemplate.CopyTemplate
+title: IFsrmFileScreenTemplate::CopyTemplate method
+author: windows-driver-content
+description: Copies the property values of the specified template to this template.
+old-location: fsrm\ifsrmfilescreentemplate_copytemplate.htm
+old-project: Fsrm
+ms.assetid: c6c69f15-9a7c-43f4-9d68-a54c333453f5
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: CopyTemplate method [File Server Resource Manager], CopyTemplate method [File Server Resource Manager], IFsrmFileScreenTemplate interface, CopyTemplate,IFsrmFileScreenTemplate.CopyTemplate, IFsrmFileScreenTemplate, IFsrmFileScreenTemplate interface [File Server Resource Manager], CopyTemplate method, IFsrmFileScreenTemplate::CopyTemplate, fs.ifsrmfilescreentemplate_copytemplate, fsrm.ifsrmfilescreentemplate_copytemplate, fsrmscreen/IFsrmFileScreenTemplate::CopyTemplate
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: fsrmscreen.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: FsrmScreen.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: FsrmTemplateApplyOptions
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SrmSvc.dll
+api_name:
+-	IFsrmFileScreenTemplate.CopyTemplate
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
+req.product: Internet Explorer 5
+---
+
+# IFsrmFileScreenTemplate::CopyTemplate method
+
+
+## -description
+
+
+<p class="CCE_Message">[This method is supported for compatibility but it's recommended to use the 
+    <a href="https://msdn.microsoft.com/1CE772FA-CE33-4900-A499-058175A7C37E">FSRM WMI Classes</a> to manage FSRM. Please see the 
+    <a href="https://msdn.microsoft.com/be4f3a6a-280f-4b0f-afdf-ce1ee7933018">MSFT_FSRMFileScreenTemplate</a> class.]
+
+Copies the property values of the specified template to this template.
+
+
+## -parameters
+
+
+
+
+### -param fileScreenTemplateName [in]
+
+The name of another template from which to copy the property values. The name is limited to 4,000 characters.
+
+
+## -returns
+
+
+
+The method returns the following return values.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/c8e612f5-e7cd-45ff-9eaf-9d1674231161">IFsrmFileScreenTemplate</a>
+
+
+
+<a href="https://msdn.microsoft.com/be4f3a6a-280f-4b0f-afdf-ce1ee7933018">MSFT_FSRMFileScreenTemplate</a>
+ 
+
+ 
+

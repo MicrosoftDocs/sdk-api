@@ -1,0 +1,89 @@
+---
+UID: NF:taskschd.ITaskSettings.get_MultipleInstances
+title: ITaskSettings::get_MultipleInstances method
+author: windows-driver-content
+description: Gets or sets the policy that defines how the Task Scheduler deals with multiple instances of the task.
+old-location: taskschd\itasksettings_multipleinstances.htm
+old-project: TaskSchd
+ms.assetid: 2a84b780-2378-4ee8-aaa4-3bc960e32206
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: ITaskSettings, ITaskSettings interface [Task Scheduler], MultipleInstances property, ITaskSettings.MultipleInstances, ITaskSettings::get_MultipleInstances, ITaskSettings::put_MultipleInstances, MultipleInstances property [Task Scheduler], MultipleInstances property [Task Scheduler], ITaskSettings interface, TASK_INSTANCES_IGNORE_NEW, TASK_INSTANCES_PARALLEL, TASK_INSTANCES_QUEUE, TASK_INSTANCES_STOP_EXISTING, get_MultipleInstances,ITaskSettings.get_MultipleInstances, taskschd.itasksettings_multipleinstances, taskschd/ITaskSettings::MultipleInstances, taskschd/ITaskSettings::get_MultipleInstances, taskschd/ITaskSettings::put_MultipleInstances
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: taskschd.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: TASK_TRIGGER_TYPE2
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	taskschd.dll
+api_name:
+-	ITaskSettings.MultipleInstances
+-	ITaskSettings.get_MultipleInstances
+-	ITaskSettings.put_MultipleInstances
+product: Windows
+targetos: Windows
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# ITaskSettings::get_MultipleInstances method
+
+
+## -description
+
+
+Gets or sets the policy that defines how the Task Scheduler deals with multiple instances of the task.
+
+This property is read/write.
+
+
+## -parameters
+
+
+## -remarks
+
+
+
+When reading or writing XML for a task, this setting is specified in the <a href="https://msdn.microsoft.com/ec82d396-f83c-4684-98ab-f70e15ada075">MultipleInstancesPolicy</a> element of the Task Scheduler schema.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/203264d1-f67c-45ba-931b-206d7f57a2a6">ITaskSettings</a>
+
+
+
+<a href="https://msdn.microsoft.com/38d92951-546e-47e6-bc03-5ef4f317a814">TASK_INSTANCES_POLICY</a>
+
+
+
+<a href="https://msdn.microsoft.com/15970a51-c139-48b8-b82b-605728d0f386">Task Scheduler</a>
+ 
+
+ 
+

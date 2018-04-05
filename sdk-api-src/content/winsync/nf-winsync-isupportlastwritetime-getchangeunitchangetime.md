@@ -1,0 +1,121 @@
+---
+UID: NF:winsync.ISupportLastWriteTime.GetChangeUnitChangeTime
+title: ISupportLastWriteTime::GetChangeUnitChangeTime method
+author: windows-driver-content
+description: Gets the date and time when the specified change unit was last changed.
+old-location: winsync\isupportlastwritetime_getchangeunitchangetime.htm
+old-project: winsync
+ms.assetid: f289d5a5-c991-4223-b59a-68b31ecffb8c
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: GetChangeUnitChangeTime method [Windows Sync], GetChangeUnitChangeTime method [Windows Sync], ISupportLastWriteTime interface, GetChangeUnitChangeTime,ISupportLastWriteTime.GetChangeUnitChangeTime, ISupportLastWriteTime, ISupportLastWriteTime interface [Windows Sync], GetChangeUnitChangeTime method, ISupportLastWriteTime::GetChangeUnitChangeTime, winsync.isupportlastwritetime_getchangeunitchangetime, winsync/ISupportLastWriteTime::GetChangeUnitChangeTime
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: winsync.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	winsync.h
+api_name:
+-	ISupportLastWriteTime.GetChangeUnitChangeTime
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# ISupportLastWriteTime::GetChangeUnitChangeTime method
+
+
+## -description
+
+
+Gets the date and time when the specified change unit was last changed.
+
+
+## -parameters
+
+
+
+
+### -param pbItemId [in]
+
+The ID of the item that contains the change unit to look up.
+
+
+### -param pbChangeUnitId [in]
+
+The ID of the change unit to look up.
+
+
+### -param pullTimestamp [out]
+
+The date and time when the specified change unit was last changed.
+
+
+## -returns
+
+
+
+The possible return codes include, but are not limited to, the values shown in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>Provider-determined error codes</b></dt>
+</dl>
+</td>
+<td width="60%"></td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/b95e2b75-add7-4cdd-b18a-21918e9c8c08">ISupportLastWriteTime Interface</a>
+ 
+
+ 
+

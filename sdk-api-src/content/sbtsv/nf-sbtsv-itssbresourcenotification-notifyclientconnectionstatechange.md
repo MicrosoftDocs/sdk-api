@@ -1,0 +1,151 @@
+---
+UID: NF:sbtsv.ITsSbResourceNotification.NotifyClientConnectionStateChange
+title: ITsSbResourceNotification::NotifyClientConnectionStateChange method
+author: windows-driver-content
+description: Notifies registered plug-ins about state changes in a client connection.
+old-location: termserv\itssbresourcenotification_notifyclientconnectionstatechange.htm
+old-project: TermServ
+ms.assetid: 8c5d6cf4-f99c-46fa-8b8e-008ff8a4d0d7
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: CONNECTION_REQUEST_CANCELLED, CONNECTION_REQUEST_FAILED, CONNECTION_REQUEST_PENDING, CONNECTION_REQUEST_SUCCEEDED, CONNECTION_REQUEST_TIMEDOUT, ITsSbResourceNotification, ITsSbResourceNotification interface [Remote Desktop Services], NotifyClientConnectionStateChange method, ITsSbResourceNotification::NotifyClientConnectionStateChange, NotifyClientConnectionStateChange method [Remote Desktop Services], NotifyClientConnectionStateChange method [Remote Desktop Services], ITsSbResourceNotification interface, NotifyClientConnectionStateChange,ITsSbResourceNotification.NotifyClientConnectionStateChange, sbtsv/ITsSbResourceNotification::NotifyClientConnectionStateChange, termserv.itssbresourcenotification_notifyclientconnectionstatechange
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: sbtsv.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2012
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Sbtsv.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: TS_SB_SORT_BY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	sbtsv.h
+api_name:
+-	ITsSbResourceNotification.NotifyClientConnectionStateChange
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# ITsSbResourceNotification::NotifyClientConnectionStateChange method
+
+
+## -description
+
+
+Notifies registered plug-ins about state changes in a client connection.
+
+
+## -parameters
+
+
+
+
+### -param ChangeType [in]
+
+The type of change that has occurred. This parameter can be one of the following values.
+
+
+
+#### CONNECTION_REQUEST_PENDING
+
+A client request is pending a session logon 
+from 
+a 
+user.
+
+
+
+#### CONNECTION_REQUEST_FAILED
+
+RD Connection Broker failed to process the request. 
+This value is 
+issued just before 
+RD Connection Broker deletes the connection request from its store.
+
+
+
+#### CONNECTION_REQUEST_TIMEDOUT
+
+The 
+request timed out. This generally means 
+that either the user has canceled the request or was unable to log on 
+because of network connectivity issues. This value is 
+issued just before 
+RD Connection Broker deletes the connection request from its store.
+
+
+
+#### CONNECTION_REQUEST_SUCCEEDED
+
+The user successfully logged on to the target computer. This 
+value is issued just before 
+RD Connection Broker deletes the connection request from its store.
+
+
+
+#### CONNECTION_REQUEST_CANCELLED
+
+RD Connection Broker 
+canceled a connection request
+
+ because the
+ connection 
+request was being processed while the 
+RD Connection Broker service was stopping.
+
+
+### -param pConnection [in]
+
+A pointer to an <a href="https://msdn.microsoft.com/6649f43d-0e2a-42d7-8111-862bb28e3dbc">ITsSbClientConnection</a> connection object.
+
+
+## -returns
+
+
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+RD Connection Broker calls the <b>NotifyClientConnectionStateChange</b> method to notify registered plug-ins about state changes in a client connection.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/6649f43d-0e2a-42d7-8111-862bb28e3dbc">ITsSbClientConnection</a>
+
+
+
+<a href="https://msdn.microsoft.com/70785b82-239d-4957-9703-ced685a2e0b8">ITsSbResourceNotification</a>
+ 
+
+ 
+

@@ -1,0 +1,92 @@
+---
+UID: NF:gpmgmt.IGPMClientSideExtension.IsComputerEnabled
+title: IGPMClientSideExtension::IsComputerEnabled method
+author: windows-driver-content
+description: Checks whether the client-side extension can be called during the processing of computer policy.
+old-location: gpmc\igpmclientsideextension_iscomputerenabled.htm
+old-project: GPMC
+ms.assetid: c15ca1b0-f744-426e-a54f-402eef461227
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: GPMClientSideExtension object [GPMC], IsComputerEnabled method, IGPMClientSideExtension, IGPMClientSideExtension interface [GPMC], IsComputerEnabled method, IGPMClientSideExtension::IsComputerEnabled, IsComputerEnabled method [GPMC], IsComputerEnabled method [GPMC], GPMClientSideExtension object, IsComputerEnabled method [GPMC], IGPMClientSideExtension interface, IsComputerEnabled,IGPMClientSideExtension.IsComputerEnabled, _win32_igpmclientsideextension_iscomputerenabled, gpmc.igpmclientsideextension_iscomputerenabled, gpmgmt/IGPMClientSideExtension::IsComputerEnabled
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: gpmgmt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Gpmgmt.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: GPMStarterGPOType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Gpmgmt.dll
+api_name:
+-	IGPMClientSideExtension.IsComputerEnabled
+-	GPMClientSideExtension.IsComputerEnabled
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Gpmgmt.dll
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IGPMClientSideExtension::IsComputerEnabled method
+
+
+## -description
+
+
+Checks whether the client-side extension can be called during the processing of computer policy.
+
+
+## -parameters
+
+
+
+
+### -param pvbEnabled [out]
+
+Value that indicates whether the client-side extension can be called during the processing of computer policy. If <b>VARIANT_TRUE</b>, the client-side extension is called during the processing of computer policy, provided that there are policy settings for the client-side extension in the computer portion of one or more of the applied GPOs.
+
+
+## -returns
+
+
+
+<h3>C++</h3>
+Returns <b>S_OK</b> if successful. Returns a failure code if an error occurs.
+
+<h3>JScript</h3>
+Value that indicates whether the client-side extension can be configured in the computer portion of the GPO. If <b>VARIANT_TRUE</b>, the client-side extension can be configured.
+
+<h3>VB</h3>
+Value that indicates whether the client-side extension can be configured in the computer portion of the GPO. If <b>VARIANT_TRUE</b>, the client-side extension can be configured.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/b29f4d09-60c0-4c67-b295-05c7d9a05397">IGPMClientSideExtension</a>
+ 
+
+ 
+

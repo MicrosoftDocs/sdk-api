@@ -1,0 +1,145 @@
+---
+UID: NF:mpeg2data.IMpeg2Data.GetTable
+title: IMpeg2Data::GetTable method
+author: windows-driver-content
+description: GetTable is no longer available for use as of Windows 7.
+old-location: mstv\impeg2data_gettable.htm
+old-project: mstv
+ms.assetid: c76a9117-5dd7-46fc-8390-3f1ec80f6499
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: GetTable method [Microsoft TV Technologies], GetTable method [Microsoft TV Technologies], IMpeg2Data interface, GetTable,IMpeg2Data.GetTable, IMpeg2Data, IMpeg2Data interface [Microsoft TV Technologies], GetTable method, IMpeg2Data::GetTable, IMpeg2DataGetTable, mpeg2data/IMpeg2Data::GetTable, mstv.impeg2data_gettable
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: mpeg2data.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MPEG_HEADER_VERSION_BITS, *PMPEG_HEADER_VERSION_BITS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Mpeg2data.h
+api_name:
+-	IMpeg2Data.GetTable
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IMpeg2Data::GetTable method
+
+
+## -description
+
+
+<p class="CCE_Message">[<b>GetTable</b> is no longer available for use as of Windows 7. Instead, use the <a href="https://msdn.microsoft.com/6f07b4d2-7a52-448c-9e9f-729bd5261757">IPSITables</a> interface to get program specific information (PSI) tables from an MPEG-2 transport stream.]
+
+Retrieves a complete MPEG-2 PSI table. This method blocks until the filter receives all of the sections that make up the requested table, or until the specified time out elapses.
+
+
+## -parameters
+
+
+
+
+### -param pid [in]
+
+Specifies the packet identifier (PID) of the transport stream packets to examine.
+
+
+### -param tid [in]
+
+Specifies the table identifier (TID) of the section to retrieve.
+
+
+### -param pFilter [in]
+
+Optional pointer to an <a href="https://msdn.microsoft.com/a7e66de7-d67b-4814-9849-076c3dd5afb1">MPEG2_FILTER</a> structure. The caller can use this parameter to exclude packets based on additional MPEG-2 header fields. This parameter can be <b>NULL</b>.
+
+
+### -param dwTimeout [in]
+
+Specifies a time-out value, in milliseconds. If the filter does not receive a matching section within the time-out period, the method fails.
+
+
+### -param ppSectionList [out]
+
+Receives an <a href="https://msdn.microsoft.com/eb6d31b4-ee4a-468f-9e58-115159095858">ISectionList</a> interface pointer. Use this interface to retrieve the section data. The caller must release the interface.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>MPEG2_E_SECTION_NOT_FOUND</b></dt>
+</dl>
+</td>
+<td width="60%">
+The filter did not receive a matching table section.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+You can use the <i>pFilter</i> parameter to specify the Table_ID_extension field or the version number field. Otherwise, the filter caches these values from the first section that matches the search criteria. It uses those values to match subsequent sections.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/82af47a2-cac4-4d4f-ba20-d4f6b5485a65">IMpeg2Data Interface</a>
+ 
+
+ 
+

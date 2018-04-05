@@ -1,0 +1,114 @@
+---
+UID: NF:uxtheme.GetThemeSysInt
+title: GetThemeSysInt function
+author: windows-driver-content
+description: Retrieves the value of a system int.
+old-location: controls\GetThemeSysInt.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\userex\functions\getthemesysint.htm
+ms.author: windowsdriverdev
+ms.date: 3/31/2018
+ms.keywords: GetThemeSysInt, GetThemeSysInt function [Windows Controls], TMT_MINCOLORDEPTH, controls.GetThemeSysInt, controls.inet_GetThemeSysInt, inet_GetThemeSysInt, inet_GetThemeSysInt_cpp, uxtheme/GetThemeSysInt
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: uxtheme.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: BP_BUFFERFORMAT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	UxTheme.dll
+api_name:
+-	GetThemeSysInt
+product: Windows
+targetos: Windows
+req.lib: UxTheme.lib
+req.dll: UxTheme.dll
+req.irql: 
+req.product: Windows UI
+---
+
+# GetThemeSysInt function
+
+
+## -description
+
+
+Retrieves the value of a system <b>int</b>. 
+
+
+## -parameters
+
+
+
+
+### -param hTheme [in]
+
+Type: <b>HTHEME</b>
+
+Handle to theme data.
+
+
+### -param iIntId
+
+TBD
+
+
+### -param piValue [in]
+
+Type: <b>int*</b>
+
+Pointer to an <b>int</b> that receives the system integer value.
+
+
+#### - iIntID [in]
+
+Type: <b>int</b>
+
+Value of type <b>int</b> that specifies the desired system <b>int</b>. May be the following value.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="TMT_MINCOLORDEPTH"></a><a id="tmt_mincolordepth"></a><dl>
+<dt><b>TMT_MINCOLORDEPTH</b></dt>
+</dl>
+</td>
+<td width="60%">
+The minimum color depth, in bits, required to properly view this style.
+
+</td>
+</tr>
+</table>
+ 
+
+
+## -returns
+
+
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+
+If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+

@@ -1,0 +1,98 @@
+---
+UID: NF:mmstream.IMediaStream.SendEndOfStream
+title: IMediaStream::SendEndOfStream method
+author: windows-driver-content
+description: Note  This interface is deprecated. New applications should not use it. Forces the current stream to end. If the current stream isn't writable, this method does nothing.
+old-location: dshow\imediastream_sendendofstream.htm
+old-project: DirectShow
+ms.assetid: aa774875-1cf2-4792-a492-fef64571ae8f
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: IMediaStream, IMediaStream interface [DirectShow], SendEndOfStream method, IMediaStream::SendEndOfStream, IMediaStreamSendEndOfStream, SendEndOfStream method [DirectShow], SendEndOfStream method [DirectShow], IMediaStream interface, SendEndOfStream,IMediaStream.SendEndOfStream, dshow.imediastream_sendendofstream, mmstream/IMediaStream::SendEndOfStream
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: mmstream.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: STREAM_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mmstream.h
+api_name:
+-	IMediaStream.SendEndOfStream
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IMediaStream::SendEndOfStream method
+
+
+## -description
+
+
+
+<div class="alert"><b>Note</b>  This interface is deprecated. New applications should not use it.</div>
+<div> </div>
+Forces the current stream to end. If the current stream isn't writable, this method does nothing.
+
+
+
+
+## -parameters
+
+
+
+
+### -param dwFlags [in]
+
+Reserved for flag data. Must be zero.
+
+
+## -returns
+
+
+
+Returns S_OK if successful or MS_E_INCOMPATIBLE if the existing sample isn't compatible with the current media stream.
+
+
+
+
+## -remarks
+
+
+
+Applications do not call this internal method.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/97f5dfdc-5941-4b58-a618-1c7e9f6665e1">IMediaStream Interface</a>
+ 
+
+ 
+

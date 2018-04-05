@@ -1,0 +1,124 @@
+---
+UID: NF:wmsdkidl.IWMMutualExclusion2.SetName
+title: IWMMutualExclusion2::SetName method
+author: windows-driver-content
+description: The SetName method assigns a name to a mutual exclusion object.
+old-location: wmformat\iwmmutualexclusion2_setname.htm
+old-project: wmformat
+ms.assetid: b288c28c-04bd-49a4-bf11-21d4968772d4
+ms.author: windowsdriverdev
+ms.date: 3/23/2018
+ms.keywords: IWMMutualExclusion2, IWMMutualExclusion2 interface [windows Media Format], SetName method, IWMMutualExclusion2::SetName, IWMMutualExclusion2SetName, SetName method [windows Media Format], SetName method [windows Media Format], IWMMutualExclusion2 interface, SetName,IWMMutualExclusion2.SetName, wmformat.iwmmutualexclusion2_setname, wmsdkidl/IWMMutualExclusion2::SetName
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wmsdkidl.h
+req.include-header: Wmsdk.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WM_AETYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wmvcore.lib
+-	Wmvcore.dll
+-	WMStubDRM.lib
+-	WMStubDRM.dll
+api_name:
+-	IWMMutualExclusion2.SetName
+product: Windows
+targetos: Windows
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IWMMutualExclusion2::SetName method
+
+
+## -description
+
+
+
+The <b>SetName</b> method assigns a name to a mutual exclusion object.
+
+
+
+
+## -parameters
+
+
+
+
+### -param pwszName [in]
+
+Pointer to a wide-character null-terminated string containing the name you want to assign.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_OUTOFMEMORY</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method was unable to allocate memory to hold the name.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/4a1f468c-2ba5-48a1-b56f-8b62aacf1ccf">IWMMutualExclusion2 Interface</a>
+
+
+
+<a href="https://msdn.microsoft.com/da62ed2e-7356-4b4e-b2c5-6c18ef806ba7">IWMMutualExclusion2::GetName</a>
+ 
+
+ 
+

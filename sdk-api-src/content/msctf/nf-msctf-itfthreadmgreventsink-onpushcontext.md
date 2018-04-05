@@ -1,0 +1,88 @@
+---
+UID: NF:msctf.ITfThreadMgrEventSink.OnPushContext
+title: ITfThreadMgrEventSink::OnPushContext method
+author: windows-driver-content
+description: ITfThreadMgrEventSink::OnPushContext method
+old-location: tsf\itfthreadmgreventsink_onpushcontext.htm
+old-project: TSF
+ms.assetid: 80fbb861-1a12-4a9a-8f96-332c2f736f2d
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: ITfThreadMgrEventSink, ITfThreadMgrEventSink interface [Text Services Framework], OnPushContext method, ITfThreadMgrEventSink::OnPushContext, OnPushContext method [Text Services Framework], OnPushContext method [Text Services Framework], ITfThreadMgrEventSink interface, OnPushContext,ITfThreadMgrEventSink.OnPushContext, _tsf_itfthreadmgreventsink_onpushcontext_ref, msctf/ITfThreadMgrEventSink::OnPushContext, tsf.itfthreadmgreventsink_onpushcontext
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: msctf.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Msctf.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: TF_DA_ATTR_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Msctf.dll
+api_name:
+-	ITfThreadMgrEventSink.OnPushContext
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# ITfThreadMgrEventSink::OnPushContext method
+
+
+## -description
+
+
+
+
+## -parameters
+
+
+
+
+### -param pic [in]
+
+Pointer to the context added to the stack.
+
+
+## -returns
+
+
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/afd5452b-4121-428d-801f-1638c2767c67">ITfDocumentMgr::Push
+      </a>
+
+
+
+<a href="https://msdn.microsoft.com/be2a3eb1-cb17-4d8b-a44d-ccb33749c8f6">ITfThreadMgrEventSink</a>
+ 
+
+ 
+

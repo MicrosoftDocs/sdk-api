@@ -1,0 +1,107 @@
+---
+UID: NF:shobjidl.IUserNotification2.PlaySound
+title: IUserNotification2::PlaySound method
+author: windows-driver-content
+description: Plays a sound in conjunction with the notification.
+old-location: shell\IUserNotification2_PlaySound.htm
+old-project: shell
+ms.assetid: C1C0C408-B860-4aa6-8696-C95BF73AAB54
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: IUserNotification2, IUserNotification2 interface [Windows Shell], PlaySound method, IUserNotification2::PlaySound, PlaySound method [Windows Shell], PlaySound method [Windows Shell], IUserNotification2 interface, PlaySound,IUserNotification2.PlaySound, _shell_IUserNotification2_PlaySound, shell.IUserNotification2_PlaySound, shobjidl/IUserNotification2::PlaySound
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: shobjidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Shobjidl.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: VPWATERMARKFLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Shobjidl.h
+api_name:
+-	IUserNotification2.PlaySound
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 6.01
+---
+
+# IUserNotification2::PlaySound method
+
+
+## -description
+
+
+Plays a sound in conjunction with the notification.
+
+
+## -parameters
+
+
+
+
+### -param pszSoundName [in]
+
+Type: <b>LPCWSTR</b>
+
+A pointer to a null-terminated Unicode string that specifies the alias of the sound file to play.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+The string pointed to by <i>pszSoundName</i> contains an alias for a system event found in the registry or the Win.ini file; for instance, "SystemExit".
+
+The specified sound is played asynchronously and the method returns immediately after beginning the sound. To stop an asynchronous waveform sound, call <b>IUserNotification2::PlaySound</b> with <i>pszSoundName</i> set to <b>NULL</b>.
+
+The specified sound event will yield to another sound event that is already playing. If a sound cannot be played because the resource needed to play that sound is busy, the method immediately returns S_FALSE without playing the requested sound.
+
+If the specified sound cannot be found, <b>IUserNotification2::PlaySound</b> uses the system default sound.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/6605a014-4f79-4856-8fd9-df926ea76052">IUserNotification2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn965711">PlaySound</a>
+ 
+
+ 
+

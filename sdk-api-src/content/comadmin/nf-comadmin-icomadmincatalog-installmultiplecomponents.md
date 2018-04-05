@@ -1,0 +1,123 @@
+---
+UID: NF:comadmin.ICOMAdminCatalog.InstallMultipleComponents
+title: ICOMAdminCatalog::InstallMultipleComponents method
+author: windows-driver-content
+description: Installs components from multiple files into a COM+ application.
+old-location: cos\icomadmincatalog_installmultiplecomponents.htm
+old-project: cossdk
+ms.assetid: 7206c93b-43ca-402f-9a55-930f872d4201
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: ICOMAdminCatalog, ICOMAdminCatalog interface [COM+], InstallMultipleComponents method, ICOMAdminCatalog::InstallMultipleComponents, InstallMultipleComponents method [COM+], InstallMultipleComponents method [COM+], ICOMAdminCatalog interface, InstallMultipleComponents,ICOMAdminCatalog.InstallMultipleComponents, _cos_ICOMAdminCatalog_InstallMultipleComponents, comadmin/ICOMAdminCatalog::InstallMultipleComponents, cos.icomadmincatalog_installmultiplecomponents
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: comadmin.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: ComAdmin.Idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: COMAdminTxIsolationLevelOptions
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	ComAdmin.h
+api_name:
+-	ICOMAdminCatalog.InstallMultipleComponents
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# ICOMAdminCatalog::InstallMultipleComponents method
+
+
+## -description
+
+
+Installs components from multiple files into a COM+ application.
+
+
+## -parameters
+
+
+
+
+### -param bstrApplIDOrName [in]
+
+The GUID or name of the application.
+
+
+### -param ppsaVarFileNames [in]
+
+An array of the names of the DLL files that contains the components to be installed.
+
+
+### -param ppsaVarCLSIDs [in]
+
+An array of CLSIDs for the components to be installed.
+
+
+## -returns
+
+
+
+This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E_UNEXPECTED, and E_FAIL, as well as the following values.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method completed successfully.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>COMADMIN_E_OBJECTERRORS</b></dt>
+</dl>
+</td>
+<td width="60%">
+Errors occurred while accessing one or more objects.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/2c3c49df-9ca5-40ea-b45c-f4eca1004602">ICOMAdminCatalog</a>
+ 
+
+ 
+

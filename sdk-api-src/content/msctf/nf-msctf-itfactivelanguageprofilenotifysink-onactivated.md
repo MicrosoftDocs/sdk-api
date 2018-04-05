@@ -1,0 +1,82 @@
+---
+UID: NF:msctf.ITfActiveLanguageProfileNotifySink.OnActivated
+title: ITfActiveLanguageProfileNotifySink::OnActivated method
+author: windows-driver-content
+description: ITfActiveLanguageProfileNotifySink::OnActivated method
+old-location: tsf\itfactivelanguageprofilenotifysink_onactivated.htm
+old-project: TSF
+ms.assetid: 89444189-254e-4a3c-9c8e-79c8b96aee34
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: ITfActiveLanguageProfileNotifySink, ITfActiveLanguageProfileNotifySink interface [Text Services Framework], OnActivated method, ITfActiveLanguageProfileNotifySink::OnActivated, OnActivated method [Text Services Framework], OnActivated method [Text Services Framework], ITfActiveLanguageProfileNotifySink interface, OnActivated,ITfActiveLanguageProfileNotifySink.OnActivated, _tsf_itfactivelanguageprofilenotifysink_onactivated_ref, msctf/ITfActiveLanguageProfileNotifySink::OnActivated, tsf.itfactivelanguageprofilenotifysink_onactivated
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: msctf.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Msctf.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: TF_DA_ATTR_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	imekrcic.dll
+api_name:
+-	ITfActiveLanguageProfileNotifySink.OnActivated
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Imekrcic.dll
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# ITfActiveLanguageProfileNotifySink::OnActivated method
+
+
+## -description
+
+
+
+
+## -parameters
+
+
+
+
+### -param clsid [in]
+
+CLSID of the TSF text service activated or deactivated. This will be <b>NULL</b> for a language change.
+
+
+### -param guidProfile [in]
+
+Profile GUID for the TSF text service. This is specified by the TSF text service when it is installed. This will be <b>NULL</b> for a language change.
+
+
+### -param fActivated [in]
+
+TRUE if the TSF text service is activated or FALSE if the TSF text service is deactivated.
+
+
+## -returns
+
+
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+

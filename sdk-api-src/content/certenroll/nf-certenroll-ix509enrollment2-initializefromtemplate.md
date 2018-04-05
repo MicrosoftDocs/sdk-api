@@ -1,0 +1,199 @@
+---
+UID: NF:certenroll.IX509Enrollment2.InitializeFromTemplate
+title: IX509Enrollment2::InitializeFromTemplate method
+author: windows-driver-content
+description: Initializes the enrollment object by using a template.
+old-location: security\ix509enrollment2_initializefromtemplate.htm
+old-project: SecCertEnroll
+ms.assetid: aa260ff7-d55b-4fda-88e2-2f1d68cc41e1
+ms.author: windowsdriverdev
+ms.date: 3/29/2018
+ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509Enrollment2, IX509Enrollment2 interface [Security], InitializeFromTemplate method, IX509Enrollment2::InitializeFromTemplate, InitializeFromTemplate method [Security], InitializeFromTemplate method [Security], IX509Enrollment2 interface, InitializeFromTemplate,IX509Enrollment2.InitializeFromTemplate, certenroll/IX509Enrollment2::InitializeFromTemplate, security.ix509enrollment2_initializefromtemplate
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: certenroll.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Certenroll.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: X509RequestType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Certenroll.h
+api_name:
+-	IX509Enrollment2.InitializeFromTemplate
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# IX509Enrollment2::InitializeFromTemplate method
+
+
+## -description
+
+
+The <b>InitializeFromTemplate</b> method initializes the enrollment object by using a template.
+
+
+## -parameters
+
+
+
+
+### -param context
+
+
+
+
+### -param pPolicyServer [in]
+
+Pointer to an <a href="https://msdn.microsoft.com/e39d40fd-3d43-4cdc-b41a-07a87a11bfad">IX509EnrollmentPolicyServer</a> object that represents the certificate enrollment policy (CEP) server that contains the template specified by the <i>pTemplate</i> parameter.
+
+
+### -param pTemplate [in]
+
+Pointer to an <a href="https://msdn.microsoft.com/56122d92-7e38-4eaa-b2f5-713adc81e68e">IX509CertificateTemplate</a> object that represents the template to use during initialization.
+
+
+#### - Context [in]
+
+An <a href="https://msdn.microsoft.com/2db0e129-a566-47ba-ab57-53c7db09e8e3">X509CertificateEnrollmentContext</a> enumeration value that indicates whether the requested enrollment is for a user, a computer, or an administrator acting on behalf of a computer. This can be one of the following values.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="ContextUser"></a><a id="contextuser"></a><a id="CONTEXTUSER"></a><dl>
+<dt><b>ContextUser</b></dt>
+<dt></dt>
+</dl>
+</td>
+<td width="60%">
+The certificate is being requested for an end user.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="ContextMachine"></a><a id="contextmachine"></a><a id="CONTEXTMACHINE"></a><dl>
+<dt><b>ContextMachine</b></dt>
+<dt></dt>
+</dl>
+</td>
+<td width="60%">
+The certificate is being requested for a computer.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="ContextAdministratorForceMachine"></a><a id="contextadministratorforcemachine"></a><a id="CONTEXTADMINISTRATORFORCEMACHINE"></a><dl>
+<dt><b>ContextAdministratorForceMachine</b></dt>
+<dt></dt>
+</dl>
+</td>
+<td width="60%">
+The certificate is being requested by an administrator acting on the behalf of a computer.
+
+</td>
+</tr>
+</table>
+ 
+
+
+## -returns
+
+
+
+If the function succeeds, the function returns <b>S_OK</b>.
+
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+
+<table>
+<tr>
+<th>Return code/value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_POINTER</b></dt>
+</dl>
+</td>
+<td width="60%">
+The <i>pPolicyServer</i> and <i>pTemplate</i> parameters cannot be <b>NULL</b>.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b><b>HRESULT_FROM_WIN32(ERROR_ALREADY_INITIALIZED)</b></b></dt>
+<dt></dt>
+</dl>
+</td>
+<td width="60%">
+The enrollment object has already been initialized.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+The <b>InitializeFromTemplate</b> method:
+
+<ul>
+<li>Examines the template to determine the type of request needed.</li>
+<li>Creates the appropriate type of request object (PKCS #10, PKCS #7, or CMC).</li>
+<li>Sets the following properties on the request if values currently exist:<ul>
+<li>
+<a href="https://msdn.microsoft.com/7be532ab-0ab0-4c22-b274-c925fd5827d5">CspInformations</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/86e82a6c-7689-4bf3-8f64-e512040abd6a">ParentWindow</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/339c8d47-4406-4f2e-b927-b2dd5f58d1ec">Silent</a>
+</li>
+</ul>
+</li>
+<li>Initializes the request object by using the template.</li>
+<li>Retrieves the signature count, issuance policies, and application policies from the template.</li>
+</ul>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/8e262b4b-de6a-417e-9ade-0b451bd4c09a">IX509Enrollment2</a>
+ 
+
+ 
+

@@ -1,0 +1,116 @@
+---
+UID: NF:wsdattachment.IWSDInboundAttachment.Close
+title: IWSDInboundAttachment::Close method
+author: windows-driver-content
+description: Closes the current attachment MIME data stream.
+old-location: ncd\iwsdinboundattachment_close.htm
+old-project: WsdApi
+ms.assetid: 1bd0295c-4c37-42ec-b5a5-dc7f467def05
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: Close method, Close method, IWSDInboundAttachment interface, Close,IWSDInboundAttachment.Close, IWSDInboundAttachment, IWSDInboundAttachment interface, Close method, IWSDInboundAttachment::Close, ncd.iwsdinboundattachment_close, wsdattachment/IWSDInboundAttachment::Close
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wsdattachment.h
+req.include-header: Wsdapi.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: WsdAttachment.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WSC_SECURITY_PROVIDER_HEALTH, *PWSC_SECURITY_PROVIDER_HEALTH
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wsdapi.dll
+api_name:
+-	IWSDInboundAttachment.Close
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Wsdapi.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IWSDInboundAttachment::Close method
+
+
+## -description
+
+
+Closes the current attachment MIME data stream.
+
+
+## -parameters
+
+
+
+
+
+
+## -returns
+
+
+
+This method can return one of these values.
+
+
+Possible return values include, but are not limited to, the following.
+
+
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+Method completed successfully.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+This method can be used to terminate the transfer of an incoming attachment while the transfer is in progress. 
+
+Usually, <b>Close</b> must be called before calling <b>Release()</b> on the <a href="https://msdn.microsoft.com/1bacbf20-2eb2-4aa1-ba37-e14dc0d955b0">IWSDInboundAttachment</a>  interface. The only time a <b>Close</b> call is not required is when <a href="https://msdn.microsoft.com/library/windows/hardware/hh439702">Read</a> returns S_FALSE, which indicates that the end of the attachment stream has been reached. In that case, simply call  <b>Release()</b> on the <b>IWSDInboundAttachment</b>  interface.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/1bacbf20-2eb2-4aa1-ba37-e14dc0d955b0">IWSDInboundAttachment</a>
+ 
+
+ 
+

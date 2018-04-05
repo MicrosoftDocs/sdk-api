@@ -1,0 +1,98 @@
+---
+UID: NE:wincodec.WICJpegYCrCbSubsamplingOption
+title: WICJpegYCrCbSubsamplingOption
+author: windows-driver-content
+description: Specifies the JPEG YCrCB subsampling options.
+old-location: wic\_wic_codec_wicjpegycrcbsubsamplingoption.htm
+old-project: wic
+ms.assetid: 6ff16a79-35c9-4230-8f1c-a5c40aecc09e
+ms.author: windowsdriverdev
+ms.date: 3/28/2018
+ms.keywords: WICJpegYCrCbSubsampling420, WICJpegYCrCbSubsampling422, WICJpegYCrCbSubsampling440, WICJpegYCrCbSubsampling444, WICJpegYCrCbSubsamplingDefault, WICJpegYCrCbSubsamplingOption, WICJpegYCrCbSubsamplingOption enumeration [Windows Imaging Component], _wic_codec_wicjpegycrcbsubsamplingoption, wic._wic_codec_wicjpegycrcbsubsamplingoption, wincodec/WICJpegYCrCbSubsampling420, wincodec/WICJpegYCrCbSubsampling422, wincodec/WICJpegYCrCbSubsampling440, wincodec/WICJpegYCrCbSubsampling444, wincodec/WICJpegYCrCbSubsamplingDefault, wincodec/WICJpegYCrCbSubsamplingOption
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: enum
+req.header: wincodec.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Wincodec.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WICJpegYCrCbSubsamplingOption
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wincodec.h
+api_name:
+-	WICJpegYCrCbSubsamplingOption
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# WICJpegYCrCbSubsamplingOption enumeration
+
+
+## -description
+
+
+Specifies the JPEG YCrCB subsampling options. 
+
+
+## -enum-fields
+
+
+
+
+### -field WICJpegYCrCbSubsamplingDefault
+
+The default subsampling option. 
+
+
+### -field WICJpegYCrCbSubsampling420
+
+Subsampling option that uses both horizontal and vertical decimation.
+
+
+### -field WICJpegYCrCbSubsampling422
+
+Subsampling option that uses horizontal decimation  .
+
+
+### -field WICJpegYCrCbSubsampling444
+
+Subsampling option that uses no decimation.
+
+
+### -field WICJpegYCrCbSubsampling440
+
+Subsampling option that uses 2x vertical downsampling only. This option is only available in Windows 8.1 and later.
+
+
+### -field WICJPEGYCRCBSUBSAMPLING_FORCE_DWORD
+
+
+
+
+## -remarks
+
+
+
+The native JPEG encoder uses <b>WICJpegYCrCbSubsampling420</b>.
+
+
+

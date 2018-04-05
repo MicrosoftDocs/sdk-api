@@ -1,0 +1,144 @@
+---
+UID: NF:wlanapi.WlanCloseHandle
+title: WlanCloseHandle function
+author: windows-driver-content
+description: Closes a connection to the server.
+old-location: nwifi\wlanclosehandle.htm
+old-project: NativeWiFi
+ms.assetid: 8e944133-2616-4e17-ac38-c17e8d25ccec
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: WlanCloseHandle, WlanCloseHandle function [NativeWIFI], nwifi.wlanclosehandle, wlanapi/WlanCloseHandle
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: wlanapi.h
+req.include-header: Wlanapi.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP with SP3 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WL_DISPLAY_PAGES, *PWL_DISPLAY_PAGES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	wlanapi.dll
+-	Ext-MS-Win-networking-wlanapi-l1-1-0.dll
+api_name:
+-	WlanCloseHandle
+product: Windows
+targetos: Windows
+req.lib: Wlanapi.lib
+req.dll: Wlanapi.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# WlanCloseHandle function
+
+
+## -description
+
+
+The <b>WlanCloseHandle</b> function closes a connection to the server.
+
+
+## -parameters
+
+
+
+
+### -param hClientHandle [in]
+
+The client's session handle, which identifies the connection to be closed. This handle was  obtained by a previous call to the <a href="https://msdn.microsoft.com/27bfa0c1-4443-47a4-a374-326f553fa3bb">WlanOpenHandle</a> function.
+
+
+### -param pReserved
+
+Reserved for future use.  Set this parameter to <b>NULL</b>.
+
+
+## -returns
+
+
+
+If the function succeeds, the return value is ERROR_SUCCESS.
+
+If the function fails, the return value may be one of the following return codes.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_INVALID_PARAMETER</b></dt>
+</dl>
+</td>
+<td width="60%">
+<i>hClientHandle</i> is <b>NULL</b> or invalid, or <i>pReserved</i> is not <b>NULL</b>.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_INVALID_HANDLE</b></dt>
+</dl>
+</td>
+<td width="60%">
+The handle <i>hClientHandle</i>  was not found in the handle table.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>RPC_STATUS</b></dt>
+</dl>
+</td>
+<td width="60%">
+Various error codes.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+After a connection has been closed, any attempted use of the closed handle can cause unexpected errors.  Upon closing, all outstanding notifications are discarded.
+
+  Do not call <b>WlanCloseHandle</b> from a callback function. If the client is in the middle of a notification callback when <b>WlanCloseHandle</b> is called, the function waits for the callback to finish before returning a value.  Calling this function inside a callback function will result in the call never completing. If both the callback function and the thread that closes the handle try to acquire the same lock, a deadlock may occur. In addition, do not call <b>WlanCloseHandle</b> from the <b>DllMain</b> function in an application DLL. This could also cause a deadlock. 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/27bfa0c1-4443-47a4-a374-326f553fa3bb">WlanOpenHandle</a>
+ 
+
+ 
+

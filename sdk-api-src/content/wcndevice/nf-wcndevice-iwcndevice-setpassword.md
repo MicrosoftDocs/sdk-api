@@ -1,0 +1,171 @@
+---
+UID: NF:wcndevice.IWCNDevice.SetPassword
+title: IWCNDevice::SetPassword method
+author: windows-driver-content
+description: The IWCNDevice::SetPassword method configures the authentication method value, and if required, a password used for the pending session. This method may only be called prior to IWCNDevice::Connect.
+old-location: wcn\iwcndevice_setpassword.htm
+old-project: wcn
+ms.assetid: 51d03336-3861-4585-b493-d6765c28b1eb
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: IWCNDevice, IWCNDevice interface [Windows Connect Now], SetPassword method, IWCNDevice::SetPassword, SetPassword method [Windows Connect Now], SetPassword method [Windows Connect Now], IWCNDevice interface, SetPassword,IWCNDevice.SetPassword, WCN_PASSWORD_TYPE_PIN, WCN_PASSWORD_TYPE_PUSH_BUTTON, wcn.iwcndevice_setpassword, wcndevice/IWCNDevice::SetPassword
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wcndevice.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: None supported
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: WcnDevice.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WCN_SESSION_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	WcnDevice.h
+api_name:
+-	IWCNDevice.SetPassword
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# IWCNDevice::SetPassword method
+
+
+## -description
+
+
+The <b>IWCNDevice::SetPassword</b> method configures the authentication method value, and if required, a password used for the pending session.  This method may  only be called prior to <a href="https://msdn.microsoft.com/d7c940f2-0862-4b53-bbb9-4ea47fe6d6f6">IWCNDevice::Connect</a>.
+
+
+## -parameters
+
+
+
+
+### -param Type [in]
+
+A <b>WCN_PASSWORD_TYPE</b> value that specifies the authentication method used for the session.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="WCN_PASSWORD_TYPE_PUSH_BUTTON"></a><a id="wcn_password_type_push_button"></a><dl>
+<dt><b>WCN_PASSWORD_TYPE_PUSH_BUTTON</b></dt>
+</dl>
+</td>
+<td width="60%">
+Use PushButton authentication.  The value of <i>dwPasswordLength</i> must be <b>NULL</b>.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="WCN_PASSWORD_TYPE_PIN"></a><a id="wcn_password_type_pin"></a><dl>
+<dt><b>WCN_PASSWORD_TYPE_PIN</b></dt>
+</dl>
+</td>
+<td width="60%">
+Use PIN-based authentication.
+
+</td>
+</tr>
+</table>
+ 
+
+
+### -param dwPasswordLength [in]
+
+Number of bytes in the buffer <i>pbPassword</i>.
+
+
+### -param pbPassword [in]
+
+A byte array of the password, encoded in ASCII.
+
+
+## -returns
+
+
+
+This method can return one of these values.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The password will be used for the pending session.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+The password type is WCN_PASSWORD_TYPE_PUSH_BUTTON and the password length is not zero.
+
+The password type is not WCN_PASSWORD_TYPE_PUSH_BUTTON or WCN_PASSWORD_TYPE_PIN.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+The byte array is not <b>NULL</b>-terminated.  For example, if the password is a 4-digit PIN, you should pass dwPasswordLength as 4 and pbPassword should point to a 4-byte array containing the PIN in ASCII.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/a092406d-7af4-436d-9755-5a9b87aa6ca9">IWCNDevice</a>
+
+
+
+<a href="https://msdn.microsoft.com/d7c940f2-0862-4b53-bbb9-4ea47fe6d6f6">IWCNDevice::Connect</a>
+
+
+
+<b>WCN_PASSWORD_TYPE</b>
+ 
+
+ 
+

@@ -1,0 +1,116 @@
+---
+UID: NS:routprot.IP_ADAPTER_BINDING_INFO
+title: IP_ADAPTER_BINDING_INFO
+author: windows-driver-content
+description: The IP_ADAPTER_BINDING_INFO structure contains IP-specific information for a particular network adapter.
+old-location: rras\ip_adapter_binding_info.htm
+old-project: RRAS
+ms.assetid: 3eb864e7-2de6-44c2-af3e-fee547de6081
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: "*PIP_ADAPTER_BINDING_INFO, IP_ADAPTER_BINDING_INFO, IP_ADAPTER_BINDING_INFO structure [RAS], PIP_ADAPTER_BINDING_INFO, PIP_ADAPTER_BINDING_INFO structure pointer [RAS], _mpr_ip_adapter_binding_info, routprot/IP_ADAPTER_BINDING_INFO, routprot/PIP_ADAPTER_BINDING_INFO, rras.ip_adapter_binding_info"
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: struct
+req.header: routprot.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: IP_ADAPTER_BINDING_INFO, *PIP_ADAPTER_BINDING_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Routprot.h
+api_name:
+-	IP_ADAPTER_BINDING_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# IP_ADAPTER_BINDING_INFO structure
+
+
+## -description
+
+
+The 
+<b>IP_ADAPTER_BINDING_INFO</b> structure contains IP-specific information for a particular network adapter.
+
+
+## -struct-fields
+
+
+
+
+### -field AddressCount
+
+The number of IP addresses associated with this adapter.
+
+
+### -field RemoteAddress
+
+This member is for WAN interfaces. It contains the address of the machine at the other end of a dial-up link.
+
+
+### -field Mtu
+
+Reserved for future use.
+
+
+### -field Speed
+
+Reserved for future use.
+
+
+### -field Address
+
+Pointer to an array of 
+<a href="https://msdn.microsoft.com/121cc415-35eb-4c9b-a02d-c23be468d6bc">IP_LOCAL_BINDING</a> structures. The array  contains a structure for each of the IP addresses associated with this adapter.
+
+
+## -remarks
+
+
+
+Since an adapter can have more than one IP address, the 
+<b>IP_ADAPTER_BINDING_INFO</b> structure maintains an array of 
+<a href="https://msdn.microsoft.com/121cc415-35eb-4c9b-a02d-c23be468d6bc">IP_LOCAL_BINDING</a> structures.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/121cc415-35eb-4c9b-a02d-c23be468d6bc">IP_LOCAL_BINDING</a>
+
+
+
+<a href="https://msdn.microsoft.com/352505a9-616a-4d47-9857-f88d345333fd">Router Management Reference</a>
+
+
+
+<a href="https://msdn.microsoft.com/767733eb-1cbd-4b8d-98b7-41d1d0f2c630">Router Management Structures</a>
+ 
+
+ 
+

@@ -1,0 +1,118 @@
+---
+UID: NF:wmcontainer.IMFASFStreamPrioritization.RemoveStream
+title: IMFASFStreamPrioritization::RemoveStream method
+author: windows-driver-content
+description: Note  This interface is not implemented in this version of Media Foundation. Removes a stream from the stream priority list.
+old-location: mf\imfasfstreamprioritization_removestream.htm
+old-project: medfound
+ms.assetid: a6139042-9c78-4fe7-8549-655e35be2862
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: IMFASFStreamPrioritization, IMFASFStreamPrioritization interface [Media Foundation], RemoveStream method, IMFASFStreamPrioritization::RemoveStream, RemoveStream method [Media Foundation], RemoveStream method [Media Foundation], IMFASFStreamPrioritization interface, RemoveStream,IMFASFStreamPrioritization.RemoveStream, a6139042-9c78-4fe7-8549-655e35be2862, mf.imfasfstreamprioritization_removestream, wmcontainer/IMFASFStreamPrioritization::RemoveStream
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wmcontainer.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MFASF_STREAMSELECTOR_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfuuid.lib
+-	mfuuid.dll
+api_name:
+-	IMFASFStreamPrioritization.RemoveStream
+product: Windows
+targetos: Windows
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IMFASFStreamPrioritization::RemoveStream method
+
+
+## -description
+
+
+
+<div class="alert"><b>Note</b>  This interface is not implemented in this version of Media Foundation.</div>
+<div> </div>
+Removes a stream from the stream priority list.
+
+
+
+
+## -parameters
+
+
+
+
+### -param dwStreamIndex [in]
+
+Index of the entry in the stream priority list to remove. Values range from zero, to one less than the stream count retrieved by calling <a href="https://msdn.microsoft.com/8c9dacbb-a952-411e-82df-0c8768d0b3fe">IMFASFStreamPrioritization::GetStreamCount</a>.
+
+
+## -returns
+
+
+
+The method returns an HRESULT. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+When a stream is removed from the stream priority list, the index values of all streams that follow it in the list are decremented.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/6eb79c52-dc81-406c-9000-d25ad380e6b2">IMFASFStreamPrioritization</a>
+ 
+
+ 
+

@@ -1,0 +1,131 @@
+---
+UID: NF:wuapi.IUpdate.get_MsrcSeverity
+title: IUpdate::get_MsrcSeverity method
+author: windows-driver-content
+description: Gets the Microsoft Security Response Center severity rating of the update.
+old-location: wua\iupdate_msrcseverity.htm
+old-project: Wua_Sdk
+ms.assetid: ed3187c5-e175-4287-b930-2c283c9e93f3
+ms.author: windowsdriverdev
+ms.date: 3/15/2018
+ms.keywords: IUpdate, IUpdate interface [Windows Update Agent], MsrcSeverity property, IUpdate.MsrcSeverity, IUpdate::get_MsrcSeverity, MsrcSeverity property [Windows Update Agent], MsrcSeverity property [Windows Update Agent], IUpdate interface, get_MsrcSeverity,IUpdate.get_MsrcSeverity, wua.iupdate_msrcseverity, wuapi/IUpdate::MsrcSeverity, wuapi/IUpdate::get_MsrcSeverity
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wuapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Wuapi.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: UpdateType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wuapi.dll
+api_name:
+-	IUpdate.MsrcSeverity
+-	IUpdate.get_MsrcSeverity
+product: Windows
+targetos: Windows
+req.lib: Wuguid.lib
+req.dll: Wuapi.dll
+req.irql: 
+req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+---
+
+# IUpdate::get_MsrcSeverity method
+
+
+## -description
+
+
+Gets the Microsoft Security Response Center severity rating of the update.
+
+This property is read-only.
+
+
+## -parameters
+
+
+## -remarks
+
+
+
+
+The following ratings are the possible severity ratings of a security issue that is fixed by an update. These ratings were revised by the Microsoft Security Response Center in November 2002.
+
+
+
+<table>
+<tr>
+<th>Term</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<a id="Critical"></a><a id="critical"></a><a id="CRITICAL"></a>Critical
+
+</td>
+<td width="60%">
+A security issue whose exploitation could allow the propagation of an Internet worm without user action.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<a id="Important"></a><a id="important"></a><a id="IMPORTANT"></a>Important
+
+</td>
+<td width="60%">
+A security issue whose exploitation could result in compromise of the confidentiality, integrity, or availability of users' data, or of the integrity or availability of processing resources.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<a id="Moderate"></a><a id="moderate"></a><a id="MODERATE"></a>Moderate
+
+</td>
+<td width="60%">
+Exploitation is mitigated to a significant degree by factors such as default configuration, auditing, or difficulty of exploitation.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<a id="Low"></a><a id="low"></a><a id="LOW"></a>Low
+
+</td>
+<td width="60%">
+A security issue whose exploitation is extremely difficult, or whose impact is minimal.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/d0feee2a-96f6-4c86-aaf8-f49d05616fc9">IUpdate</a>
+ 
+
+ 
+

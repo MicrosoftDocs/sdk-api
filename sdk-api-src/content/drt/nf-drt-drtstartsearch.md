@@ -1,0 +1,252 @@
+---
+UID: NF:drt.DrtStartSearch
+title: DrtStartSearch function
+author: windows-driver-content
+description: The DrtStartSearch function searches the DRT for a key using criteria specified in the DRT_SEARCH_INFO structure.
+old-location: p2p\drtstartsearch.htm
+old-project: P2PSdk
+ms.assetid: d43634d5-eb0a-4f84-9248-977c544db984
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: DrtStartSearch, DrtStartSearch function [Peer Networking], drt/DrtStartSearch, p2p.drtstartsearch
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: drt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 Professional [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: DRT_REGISTRATION_STATE, *PDRT_REGISTRATION_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	drt.dll
+api_name:
+-	DrtStartSearch
+product: Windows
+targetos: Windows
+req.lib: Drt.lib
+req.dll: Drt.dll
+req.irql: 
+---
+
+# DrtStartSearch function
+
+
+## -description
+
+
+The <b>DrtStartSearch</b> function searches the DRT for a key using criteria specified in the <a href="https://msdn.microsoft.com/a3f12d8a-95ef-4168-8d2d-c317ae2c57b4">DRT_SEARCH_INFO</a> structure.
+
+
+## -parameters
+
+
+
+
+### -param hDrt [in]
+
+The DRT handle returned by the <a href="https://msdn.microsoft.com/67320767-f622-478a-a886-bbea1650ac1a">DrtOpen</a> function.
+
+
+### -param pKey [in]
+
+Pointer to the <a href="https://msdn.microsoft.com/ee81daca-e889-471e-b43b-4593380a55dd">DRT_DATA</a> structure containing the key.
+
+
+### -param pInfo [in, optional]
+
+Pointer to the <a href="https://msdn.microsoft.com/a3f12d8a-95ef-4168-8d2d-c317ae2c57b4">DRT_SEARCH_INFO</a> structure that specifies the properties of the search.
+
+
+### -param timeout
+
+Specifies the milliseconds until the search is stopped.
+
+
+### -param hEvent [in]
+
+Handle to the event that is signaled when the <b>DrtStartSearch</b> API finishes or an intermediate node is found.
+
+
+### -param pvContext [in, optional]
+
+Pointer to the context data passed to the application through the event.
+
+
+### -param hSearchContext [out]
+
+Handle used in the call to <a href="https://msdn.microsoft.com/1a99476f-69ee-4aeb-8c9b-e06315ec095d">DrtEndSearch</a>.
+
+
+## -returns
+
+
+
+This function returns S_OK on success. Other possible values include:
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_HANDLE</b></dt>
+</dl>
+</td>
+<td width="60%">
+hDrt is an invalid handle or phKeyRegistration is an invalid handle
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+<ul>
+<li><i>hSearchContext</i> is <b>NULL</b>.</li>
+<li><i>pKey</i> is <b>NULL</b></li>
+<li>The <b>pb</b> member of  the <a href="https://msdn.microsoft.com/ee81daca-e889-471e-b43b-4593380a55dd">DRT_DATA</a> structure of <i>pKey</i> is <b>NULL</b>.</li>
+<li><i>pInfo</i> was passed in, the minimum key is set inside <i>pInfo</i> for range search, but the maximum key is <b>NULL</b>.</li>
+<li><i>pInfo</i> was passed in, the maximum key is set inside <i>pInfo</i> for range search, but the minimum key is <b>NULL</b>.</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>DRT_E_INVALID_KEY_SIZE</b></dt>
+</dl>
+</td>
+<td width="60%">
+<ul>
+<li>The <b>cb</b> member of  the <a href="https://msdn.microsoft.com/ee81daca-e889-471e-b43b-4593380a55dd">DRT_DATA</a> structure of <i>pKey</i> is not equal to 256 bits.</li>
+<li><i>pInfo</i> was passed in, but the key size of the minimum key set inside <i>pInfo</i> is not equal to 256 bits.</li>
+<li><i>pInfo</i> was passed in, but the key size of the maximum key set inside <i>pInfo</i> is not equal to 256 bits.</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>DRT_E_INVALID_SEARCH_INFO</b></dt>
+</dl>
+</td>
+<td width="60%">
+<i>pInfo</i> was passed in but the <b>dwSize</b> of <i>pInfo</i> is not equal to size of the <a href="https://msdn.microsoft.com/a3f12d8a-95ef-4168-8d2d-c317ae2c57b4">DRT_SEARCH_INFO</a> structure.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>DRT_E_INVALID_MAX_ENDPOINTS</b></dt>
+</dl>
+</td>
+<td width="60%">
+<i>pInfo</i> was passed in but max endpoints (<b>cMaxEndpoints</b>) is set to 0 inside <i>pInfo</i> or
+<i>pInfo</i> was passed in but <b>cMaxEndpoints</b> is greater than 1 with <b>fAnyMatchInRange</b> set to <b>TRUE</b>
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>DRT_E_INVALID_SEARCH_RANGE</b></dt>
+</dl>
+</td>
+<td width="60%">
+Min and max key values are equal, but target is different.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>DRT_E_FAULTED</b></dt>
+</dl>
+</td>
+<td width="60%">
+The DRT cloud is in the faulted state.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_OUTOFMEMORY</b></dt>
+</dl>
+</td>
+<td width="60%">
+The system is out of memory.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_UNEXPECTED</b></dt>
+</dl>
+</td>
+<td width="60%">
+The DRT is shutting down.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_FAIL</b></dt>
+</dl>
+</td>
+<td width="60%">
+An unexpected fatal error has occurred.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/a3f12d8a-95ef-4168-8d2d-c317ae2c57b4">DRT_SEARCH_INFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/04bdeb53-4901-41d4-835e-da665095edc5">DrtContinueSearch</a>
+
+
+
+<a href="https://msdn.microsoft.com/1a99476f-69ee-4aeb-8c9b-e06315ec095d">DrtEndSearch</a>
+
+
+
+<a href="https://msdn.microsoft.com/67320767-f622-478a-a886-bbea1650ac1a">DrtOpen</a>
+ 
+
+ 
+

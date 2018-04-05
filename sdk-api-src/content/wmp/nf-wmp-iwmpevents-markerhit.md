@@ -1,0 +1,87 @@
+---
+UID: NF:wmp.IWMPEvents.MarkerHit
+title: IWMPEvents::MarkerHit method
+author: windows-driver-content
+description: The MarkerHit event occurs when a marker is reached.
+old-location: wmp\iwmpevents_iwmpevents__markerhit.htm
+old-project: WMP
+ms.assetid: 5caf2982-d562-4306-b211-58741622c94c
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: IWMPEvents, IWMPEvents interface [Windows Media Player], MarkerHit method, IWMPEvents::MarkerHit, IWMPEventsMarkerHit, MarkerHit method [Windows Media Player], MarkerHit method [Windows Media Player], IWMPEvents interface, MarkerHit,IWMPEvents.MarkerHit, wmp.iwmpevents_iwmpevents__markerhit, wmp/IWMPEvents::MarkerHit
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wmp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Media Player 9 Series or later.
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WMPSyncState
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	wmp.dll
+api_name:
+-	IWMPEvents.MarkerHit
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IWMPEvents::MarkerHit method
+
+
+## -description
+
+
+
+The <b>MarkerHit</b> event occurs when a marker is reached.
+
+
+
+
+## -parameters
+
+
+
+
+### -param MarkerNum [in]
+
+Specifies the number of the marker that was hit.
+
+
+## -returns
+
+
+
+This method does not return a value.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/396545d5-8844-4dd2-9ed5-e4ed77f352ac">IWMPEvents Interface</a>
+ 
+
+ 
+

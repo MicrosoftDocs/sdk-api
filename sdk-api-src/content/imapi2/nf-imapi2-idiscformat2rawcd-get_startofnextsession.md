@@ -1,0 +1,127 @@
+---
+UID: NF:imapi2.IDiscFormat2RawCD.get_StartOfNextSession
+title: IDiscFormat2RawCD::get_StartOfNextSession method
+author: windows-driver-content
+description: Retrieves the first sector of the next session.
+old-location: imapi\idiscformat2rawcd_get_startofnextsession.htm
+old-project: imapi
+ms.assetid: d9ffe037-c7a6-40c2-a809-58dbfd9e7415
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: IDiscFormat2RawCD, IDiscFormat2RawCD interface [IMAPI], get_StartOfNextSession method, IDiscFormat2RawCD::get_StartOfNextSession, get_StartOfNextSession method [IMAPI], get_StartOfNextSession method [IMAPI], IDiscFormat2RawCD interface, get_StartOfNextSession,IDiscFormat2RawCD.get_StartOfNextSession, imapi.idiscformat2rawcd_get_startofnextsession, imapi2/IDiscFormat2RawCD::get_StartOfNextSession
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: imapi2.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Imapi2.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	imapi2.h
+api_name:
+-	IDiscFormat2RawCD.get_StartOfNextSession
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IDiscFormat2RawCD::get_StartOfNextSession method
+
+
+## -description
+
+
+Retrieves the first sector of the next session.  
+
+
+## -parameters
+
+
+
+
+### -param value [out]
+
+Sector number for the start of the next write operation.  This value can be negative for blank media.
+
+
+## -returns
+
+
+
+S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_POINTER</b></dt>
+</dl>
+</td>
+<td width="60%">
+Pointer is not valid.
+
+Value: 0x80004003
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_IMAPI_DF2RAW_MEDIA_IS_NOT_PREPARED</b></dt>
+</dl>
+</td>
+<td width="60%">
+The requested operation is only valid when media has been "prepared".
+
+Value: 0xC0AA0602
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+The client application that creates an image must provide appropriately sized lead-in and lead-out data. The application developer using the <a href="https://msdn.microsoft.com/58d9b83c-a528-4b39-b08d-a0fb8c1aece8">IDiscFormat2RawCD</a> interface must understand the formats of lead-in and lead-out for the first and subsequent sessions. Note that lead-in LBA for the first session is negative.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/58d9b83c-a528-4b39-b08d-a0fb8c1aece8">IDiscFormat2RawCD</a>
+ 
+
+ 
+

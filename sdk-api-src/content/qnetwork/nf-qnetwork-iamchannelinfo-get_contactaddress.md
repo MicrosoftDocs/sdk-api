@@ -1,0 +1,96 @@
+---
+UID: NF:qnetwork.IAMChannelInfo.get_ContactAddress
+title: IAMChannelInfo::get_ContactAddress method
+author: windows-driver-content
+description: The get_ContactAddress method retrieves the contact address.
+old-location: dshow\iamchannelinfo_get_contactaddress.htm
+old-project: DirectShow
+ms.assetid: b94ccc71-92d1-4c1a-b34a-c34e6ea7bd91
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: IAMChannelInfo, IAMChannelInfo interface [DirectShow], get_ContactAddress method, IAMChannelInfo::get_ContactAddress, IAMChannelInfoget_ContactAddress, dshow.iamchannelinfo_get_contactaddress, get_ContactAddress method [DirectShow], get_ContactAddress method [DirectShow], IAMChannelInfo interface, get_ContactAddress,IAMChannelInfo.get_ContactAddress, qnetwork/IAMChannelInfo::get_ContactAddress
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: qnetwork.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: AMExtendedSeekingCapabilities
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Qnetwork.h
+api_name:
+-	IAMChannelInfo.get_ContactAddress
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# IAMChannelInfo::get_ContactAddress method
+
+
+## -description
+
+
+
+The <code>get_ContactAddress</code> method retrieves the contact address.
+
+
+
+
+## -parameters
+
+
+
+
+### -param pbstrContactAddress [out]
+
+Pointer to a variable that receives the contact address.
+
+
+## -returns
+
+
+
+If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+The caller must release the returned <b>BSTR</b> by calling <b>SysFreeString</b>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/779d1c0a-f838-4d02-8254-d66916d3b790">IAMChannelInfo Interface</a>
+ 
+
+ 
+

@@ -1,0 +1,84 @@
+---
+UID: NF:shobjidl.IVisualProperties.SetFont
+title: IVisualProperties::SetFont method
+author: windows-driver-content
+description: Sets attributes of the font.
+old-location: shell\IVisualProperties_SetFont.htm
+old-project: shell
+ms.assetid: ecdf8652-0e1c-47df-bd19-80390bdf6c7f
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: IVisualProperties, IVisualProperties interface [Windows Shell], SetFont method, IVisualProperties::SetFont, SetFont method [Windows Shell], SetFont method [Windows Shell], IVisualProperties interface, SetFont,IVisualProperties.SetFont, _shell_IVisualProperties_SetFont, shell.IVisualProperties_SetFont, shobjidl/IVisualProperties::SetFont
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: shobjidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Shobjidl.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: VPWATERMARKFLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Shobjidl.h
+api_name:
+-	IVisualProperties.SetFont
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 6.01
+---
+
+# IVisualProperties::SetFont method
+
+
+## -description
+
+
+Sets attributes of the font.
+
+
+## -parameters
+
+
+
+
+### -param plf [in]
+
+Type: <b>const LOGFONTW*</b>
+
+A pointer to a <a href="https://msdn.microsoft.com/759c54d9-5b8f-4b48-8380-79e7bcae5bdb">LOGFONT</a> structure that contains the attributes to set.
+
+
+### -param bRedraw [in]
+
+Type: <b>BOOL</b>
+
+<b>TRUE</b> if the item should be redrawn after the new attributes are set; otherwise <b>FALSE</b>.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+

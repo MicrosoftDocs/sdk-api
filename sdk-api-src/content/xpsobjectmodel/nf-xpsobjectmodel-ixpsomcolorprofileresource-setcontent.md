@@ -1,0 +1,108 @@
+---
+UID: NF:xpsobjectmodel.IXpsOMColorProfileResource.SetContent
+title: IXpsOMColorProfileResource::SetContent method
+author: windows-driver-content
+description: Sets the read-only stream to be associated with this resource.
+old-location: xps\ixpsomcolorprofileresource_setcontent.htm
+old-project: printdocs
+ms.assetid: d93ae074-6565-45ea-bc0e-e8401b7d5b47
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: IXpsOMColorProfileResource, IXpsOMColorProfileResource interface [XPS Documents and Packaging], SetContent method, IXpsOMColorProfileResource::SetContent, SetContent method [XPS Documents and Packaging], SetContent method [XPS Documents and Packaging], IXpsOMColorProfileResource interface, SetContent,IXpsOMColorProfileResource.SetContent, xps.ixpsomcolorprofileresource_setcontent, xpsobjectmodel/IXpsOMColorProfileResource::SetContent
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: xpsobjectmodel.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: XpsObjectModel.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: XPS_INTERLEAVING
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	xpsobjectmodel.h
+api_name:
+-	IXpsOMColorProfileResource.SetContent
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+---
+
+# IXpsOMColorProfileResource::SetContent method
+
+
+## -description
+
+
+Sets the read-only stream to be associated with this resource.
+
+
+## -parameters
+
+
+
+
+### -param sourceStream [in]
+
+The read-only stream to be associated with this resource.
+
+
+### -param partName [in]
+
+The part name to be assigned to this resource.
+
+
+## -returns
+
+
+
+If the method succeeds, it returns S_OK; otherwise, it returns an <b>HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+The calling method  should treat this stream as a single-threaded apartment (STA) model object and not re-enter any of the stream interface's methods.
+
+Because <a href="https://msdn.microsoft.com/1bc8bae0-eae7-47bd-a6ac-50ff9bdc2703">GetStream</a> gets a clone of  the stream that is set by this method, the provided stream should have an efficient cloning method. A stream with an inefficient cloning method will reduce the performance of <b>GetStream</b>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/81123212-7a32-4833-b81f-8454a544327d">IOpcPartUri</a>
+
+
+
+<a href="https://msdn.microsoft.com/8a344300-c3fc-4225-bfa5-d5d33798a094">IXpsOMColorProfileResource</a>
+
+
+
+<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+ 
+
+ 
+

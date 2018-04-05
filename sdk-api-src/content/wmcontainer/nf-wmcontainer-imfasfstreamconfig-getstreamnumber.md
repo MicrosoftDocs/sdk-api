@@ -1,0 +1,85 @@
+---
+UID: NF:wmcontainer.IMFASFStreamConfig.GetStreamNumber
+title: IMFASFStreamConfig::GetStreamNumber method
+author: windows-driver-content
+description: Retrieves the stream number of the stream.
+old-location: mf\imfasfstreamconfig_getstreamnumber.htm
+old-project: medfound
+ms.assetid: cc80fee6-e62c-4d38-9b83-8c7f21baf5b0
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: GetStreamNumber method [Media Foundation], GetStreamNumber method [Media Foundation], IMFASFStreamConfig interface, GetStreamNumber,IMFASFStreamConfig.GetStreamNumber, IMFASFStreamConfig, IMFASFStreamConfig interface [Media Foundation], GetStreamNumber method, IMFASFStreamConfig::GetStreamNumber, cc80fee6-e62c-4d38-9b83-8c7f21baf5b0, mf.imfasfstreamconfig_getstreamnumber, wmcontainer/IMFASFStreamConfig::GetStreamNumber
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wmcontainer.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MFASF_STREAMSELECTOR_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfuuid.lib
+-	mfuuid.dll
+api_name:
+-	IMFASFStreamConfig.GetStreamNumber
+product: Windows
+targetos: Windows
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IMFASFStreamConfig::GetStreamNumber method
+
+
+## -description
+
+
+
+Retrieves the stream number of the stream.
+
+
+
+
+## -parameters
+
+
+
+
+
+
+## -returns
+
+
+
+The method returns the  stream number.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/7bb63396-21c2-400d-b9de-c00b90f46d62">IMFASFStreamConfig</a>
+ 
+
+ 
+

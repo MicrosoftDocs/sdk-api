@@ -1,0 +1,94 @@
+---
+UID: NF:objidl.IMalloc.GetSize
+title: IMalloc::GetSize method
+author: windows-driver-content
+description: Retrieves the size of a previously allocated block of memory.
+old-location: com\imalloc_getsize.htm
+old-project: com
+ms.assetid: abf8cb53-7c1b-4dde-9745-30a45ad030b7
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: GetSize method [COM], GetSize method [COM], IMalloc interface, GetSize,IMalloc.GetSize, IMalloc, IMalloc interface [COM], GetSize method, IMalloc::GetSize, _com_imalloc_getsize, com.imalloc_getsize, objidlbase/IMalloc::GetSize
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: objidl.h
+req.include-header: ObjIdl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: ObjIdl.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: THDTYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	objidlbase.h
+api_name:
+-	IMalloc.GetSize
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# IMalloc::GetSize method
+
+
+## -description
+
+
+Retrieves the size of a previously allocated block of memory.
+
+
+## -parameters
+
+
+
+
+### -param pv [in]
+
+A pointer to the block of memory.
+
+
+## -returns
+
+
+
+The size of the allocated memory block in bytes or, if <i>pv</i> is a <b>NULL</b> pointer, -1.
+
+
+
+
+
+## -remarks
+
+
+
+To get the size in bytes of a memory block, the block must have been previously allocated with <a href="https://msdn.microsoft.com/c9c9bdac-965f-4b18-9338-28a025930480">IMalloc::Alloc</a> or <a href="https://msdn.microsoft.com/37de166a-04a5-4a10-83b3-dd19d0bb48a4">IMalloc::Realloc</a>. The size returned is the actual size of the allocation, which may be greater than the size requested when the allocation was made.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/047f281e-2665-4d6d-9a0b-918cd3339447">IMalloc</a>
+ 
+
+ 
+

@@ -1,0 +1,109 @@
+---
+UID: NF:wmcodecdsp.ITocParser.Commit
+title: ITocParser::Commit method
+author: windows-driver-content
+description: The Commit method stores the current state of the TOC Parser object in its associated media file.
+old-location: mf\itocparser_commit.htm
+old-project: medfound
+ms.assetid: 549c170e-2e4d-4edb-b84e-178bfbb13fed
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: Commit method [Media Foundation], Commit method [Media Foundation], ITocParser interface, Commit,ITocParser.Commit, ITocParser, ITocParser interface [Media Foundation], Commit method, ITocParser::Commit, codecapi.itocparser_commit, mf.itocparser_commit, wmcodecdsp/ITocParser::Commit
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wmcodecdsp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MFVideoDSPMode
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	wmvdspa.dll
+api_name:
+-	ITocParser.Commit
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Wmvdspa.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# ITocParser::Commit method
+
+
+## -description
+
+
+The <b>Commit</b> method stores the current state of the TOC Parser object in its associated media file.
+
+
+## -parameters
+
+
+
+
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+You can associate a TOC Parser object with a media file by calling <a href="https://msdn.microsoft.com/8d7a9bda-56e8-4b42-ace5-4d6cf5d52b59">ITocParser::Init</a>. As you add, modify, or remove tables of contents from the TOC Parser object, those chages are made only to the TOC Parser object in memory, not to the media file. To store your changes in the media file, you must call <b>ITocParser::Commit</b>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/d1f14a6e-d75c-4266-beff-0e9af911edfe">ITocParser</a>
+ 
+
+ 
+

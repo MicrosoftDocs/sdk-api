@@ -1,0 +1,102 @@
+---
+UID: NF:functiondiscoveryprovider.IProviderQueryConstraintCollection.Reset
+title: IProviderQueryConstraintCollection::Reset method
+author: windows-driver-content
+description: Resets the current index to the start of the collection.
+old-location: ncd\iproviderqueryconstraintcollection_reset.htm
+old-project: FunDisc
+ms.assetid: 56bd143b-b3eb-4273-854b-4d6876ad5e4d
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: IProviderQueryConstraintCollection, IProviderQueryConstraintCollection interface, Reset method, IProviderQueryConstraintCollection::Reset, Reset method, Reset method, IProviderQueryConstraintCollection interface, Reset,IProviderQueryConstraintCollection.Reset, functiondiscoveryprovider/IProviderQueryConstraintCollection::Reset, ncd.iproviderqueryconstraintcollection_reset
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: functiondiscoveryprovider.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: FunctionDiscoveryProvider.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: PropertyConstraint
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	FunctionDiscoveryProvider.h
+api_name:
+-	IProviderQueryConstraintCollection.Reset
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5
+---
+
+# IProviderQueryConstraintCollection::Reset method
+
+
+## -description
+
+
+<p class="CCE_Message">[Function Discovery is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
+
+Resets the current index to the start of the collection.
+
+
+## -parameters
+
+
+
+
+
+
+## -returns
+
+
+
+Possible return values include, but are not limited to, the following.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method completed successfully.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/4d8ff5b9-ec4a-4ec6-b133-3d315f9c017b">IProviderQueryConstraintCollection</a>
+ 
+
+ 
+

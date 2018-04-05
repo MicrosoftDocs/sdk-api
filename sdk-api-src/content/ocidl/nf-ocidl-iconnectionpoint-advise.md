@@ -1,0 +1,157 @@
+---
+UID: NF:ocidl.IConnectionPoint.Advise
+title: IConnectionPoint::Advise method
+author: windows-driver-content
+description: Establishes a connection between a connection point object and the client's sink.
+old-location: com\iconnectionpoint_advise.htm
+old-project: com
+ms.assetid: 11257f24-096c-4240-8fac-4e42a6161d66
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: Advise method [COM], Advise method [COM], IConnectionPoint interface, Advise,IConnectionPoint.Advise, IConnectionPoint, IConnectionPoint interface [COM], Advise method, IConnectionPoint::Advise, _com_iconnectionpoint_advise, com.iconnectionpoint_advise, ocidl/IConnectionPoint::Advise
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: ocidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: OCIdl.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: VIEWSTATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	OCIdl.h
+api_name:
+-	IConnectionPoint.Advise
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# IConnectionPoint::Advise method
+
+
+## -description
+
+
+Establishes a connection between a connection point object and the client's sink.
+
+
+## -parameters
+
+
+
+
+### -param pUnkSink [in]
+
+A pointer to the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface on the client's advise sink. The client's sink receives outgoing calls from the connection point.
+
+
+### -param pdwCookie [out]
+
+A pointer to a returned token that uniquely identifies this connection. The caller uses this token later to delete the connection by passing it to the <a href="https://msdn.microsoft.com/71641bad-2fd1-4d94-a6d0-116f5687a95b">IConnectionPoint::Unadvise</a> method. If the connection was not successfully established, this value is zero.
+
+
+## -returns
+
+
+
+This method can return the standard return values E_OUTOFMEMORY and E_UNEXPECTED, as well as the following values.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The connection has been established and *<i>pdwCookie</i> has the connection token.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_POINTER</b></dt>
+</dl>
+</td>
+<td width="60%">
+The value in <i>pUnkSink</i> or <i>pdwCookie</i> is not valid. For example, either pointer may be <b>NULL</b>.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>CONNECT_E_ADVISELIMIT</b></dt>
+</dl>
+</td>
+<td width="60%">
+The connection point has already reached its limit of connections and cannot accept any more.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>CONNECT_E_CANNOTCONNECT</b></dt>
+</dl>
+</td>
+<td width="60%">
+The sink does not support the interface required by this connection point.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+<b>Advise</b> establishes a connection between the connection point and the caller's sink identified with <i>pUnkSink</i>.
+
+The connection point must call <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> to obtain the correct outgoing interface pointer to call when events occur, with the IID for the outgoing interface managed by the connection point. When the IID is passed to the <a href="https://msdn.microsoft.com/bbe55013-13ca-43e8-8d5e-ef89076df039">IConnectionPointContainer::FindConnectionPoint</a> method, an interface pointer to this same connection point is returned.
+
+<h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
+The connection point must query the <i>pUnkSink</i> pointer for the correct outgoing interface. If this query fails, this method must return CONNECT_E_CANNOTCONNECT.
+
+The <i>pdwCookie</i> value must be unique for each connection to any given instance of a connection point.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/ef5a917c-b57f-4000-8daa-86fdbfb47579">IConnectionPoint</a>
+ 
+
+ 
+

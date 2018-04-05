@@ -1,0 +1,303 @@
+---
+UID: NF:msopc.IOpcRelationshipSet.CreateRelationship
+title: IOpcRelationshipSet::CreateRelationship method
+author: windows-driver-content
+description: Creates a relationship object that represents a specified relationship, then adds to the set a pointer to the object's IOpcRelationship interface.
+old-location: opc\iopcrelationshipset_createrelationship.htm
+old-project: OPC
+ms.assetid: 0cbf7446-d94e-447f-a82b-3d56a8036c19
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: CreateRelationship method [Open Packaging Conventions], CreateRelationship method [Open Packaging Conventions], IOpcRelationshipSet interface, CreateRelationship,IOpcRelationshipSet.CreateRelationship, IOpcRelationshipSet, IOpcRelationshipSet interface [Open Packaging Conventions], CreateRelationship method, IOpcRelationshipSet::CreateRelationship, msopc/IOpcRelationshipSet::CreateRelationship, opc.iopcrelationshipset_createrelationship
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: msopc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Opcobjectmodel.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: OPC_SIGNATURE_TIME_FORMAT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	msopc.h
+api_name:
+-	IOpcRelationshipSet.CreateRelationship
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 SP2 or later
+---
+
+# IOpcRelationshipSet::CreateRelationship method
+
+
+## -description
+
+
+Creates a relationship object that represents a specified relationship, then adds to  the set a pointer to the object's <a href="https://msdn.microsoft.com/eb3619bb-470f-41bd-a231-d63df70592c2">IOpcRelationship</a> interface.
+
+
+## -parameters
+
+
+
+
+### -param relationshipIdentifier [in]
+
+A unique identifier of the relationship to be represented as the relationship object. To use a randomly generated identifier, pass <b>NULL</b> to this parameter.
+
+Valid identifiers conform to the restrictions for <b>xsd:ID</b>, which are  documented in section 3.3.8 ID of the <a href=" http://go.microsoft.com/fwlink/p/?linkid=126664">W3C Recommendation, XML Schema Part 2: Datatypes Second Edition</a> (http://go.microsoft.com/fwlink/p/?linkid=126664).
+
+
+### -param relationshipType [in]
+
+The relationship type that defines the role of  the relationship to be represented as the relationship object.
+
+
+### -param targetUri [in]
+
+A  URI to the target of the relationship to be represented as the relationship object.
+
+If the value in <i>targetMode</i> is <b>OPC_URI_TARGET_MODE_INTERNAL</b>, target is a part and the URI must be relative to the source of the relationship.
+
+If the value in <i>targetMode</i> is <b>OPC_URI_TARGET_MODE_EXTERNAL</b>, target is a resource outside of the package and the URI may be absolute or relative to the location of the package.
+
+For more information about the URI of a relationship's target, see the <i>OPC</i>.
+
+
+### -param targetMode [in]
+
+A value that indicates whether the target of the relationship to be represented as the relationship object is internal or external to  the package.
+
+
+### -param relationship [out, retval]
+
+A pointer to the <a href="https://msdn.microsoft.com/eb3619bb-470f-41bd-a231-d63df70592c2">IOpcRelationship</a> interface  of the relationship object that represents the relationship. 
+
+This parameter can be <b>NULL</b> if a pointer to the  new object is not needed.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code/value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+The value passed in the <i>targetMode</i> parameter is not a valid <a href="https://msdn.microsoft.com/af052aa3-db7a-47de-938c-32895b8735e9">OPC_URI_TARGET_MODE</a> enumeration value.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_POINTER</b></dt>
+</dl>
+</td>
+<td width="60%">
+At least one of the <i>relationshipType</i> and <i>targetUri</i> parameters is <b>NULL</b>.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>OPC_E_DUPLICATE_RELATIONSHIP</b></dt>
+<dt>0x80510013</dt>
+</dl>
+</td>
+<td width="60%">
+A relationship with the same identifier already exists in the current package.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>OPC_E_INVALID_RELATIONSHIP_ID</b></dt>
+<dt>0x80510010</dt>
+</dl>
+</td>
+<td width="60%">
+The <b>Id</b> attribute of a relationship does not conform to the rules specified in the <i>OPC</i>.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>OPC_E_INVALID_RELATIONSHIP_TARGET</b></dt>
+<dt>0x80510012</dt>
+</dl>
+</td>
+<td width="60%">
+The URI in <i>targetUri</i> is absolute and the value in <i>targetMode</i> is <b>OPC_URI_TARGET_MODE_INTERNAL</b>. The target's URI must be relative when this target mode is specified.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>OPC_E_INVALID_RELATIONSHIP_TARGET</b></dt>
+<dt>0x80510012</dt>
+</dl>
+</td>
+<td width="60%">
+The <b>Target</b> attribute of a relationship does not conform to the rules specified in the <i>OPC</i>.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>OPC_E_INVALID_RELATIONSHIP_TYPE</b></dt>
+<dt>0x80510011</dt>
+</dl>
+</td>
+<td width="60%">
+The <b>Type</b> attribute of a relationship does not conform to the rules specified in the <i>OPC</i>.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>Package Consumption error</b></dt>
+</dl>
+</td>
+<td width="60%">
+An <b>HRESULT</b> error code from the <a href="https://msdn.microsoft.com/0ad335ff-57da-4d4a-95c0-6b9b513a9698">Package Consumption Error Group</a>. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>Part URI error</b></dt>
+</dl>
+</td>
+<td width="60%">
+An <b>HRESULT</b> error code from the <a href="https://msdn.microsoft.com/877447bb-d4e1-4277-b8ce-cb7a31a33fe0">Part URI Error Group</a>. 
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+When a relationship object is created and a pointer to it is added to the set, the relationship it represents is saved when the package is saved.
+
+The <a href="https://msdn.microsoft.com/eb3619bb-470f-41bd-a231-d63df70592c2">IOpcRelationship</a> interface provides access to relationship properties. For details about these properties, see the <a href="https://msdn.microsoft.com/8e071847-7eb2-4528-8402-4aaa1f5cd216">Relationships Overview</a> and <a href="https://msdn.microsoft.com/eb3619bb-470f-41bd-a231-d63df70592c2">IOpcRelationship</a>.
+
+
+#### Thread Safety
+
+Packaging objects are not thread-safe.
+
+For more information, see the <a href="https://msdn.microsoft.com/ef392c88-49cd-4ffa-b1fb-1501c6448264">Getting Started with the Packaging API</a>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="http://go.microsoft.com/fwlink/p/?linkid=123375">ECMA-376 OpenXML</a>
+
+
+
+<b>External Resources</b>
+
+
+
+<a href="https://msdn.microsoft.com/ef392c88-49cd-4ffa-b1fb-1501c6448264">Getting Started with the Packaging API</a>
+
+
+
+<a href="https://msdn.microsoft.com/6259906d-820d-4b6e-bbeb-d9d044f2b35a">IOpcRelationshipSet</a>
+
+
+
+<a href="https://msdn.microsoft.com/af052aa3-db7a-47de-938c-32895b8735e9">OPC_URI_TARGET_MODE</a>
+
+
+
+<a href="https://msdn.microsoft.com/115430f2-8e1f-46ba-ae6e-b7f3689048ff">Open Packaging Conventions Fundamentals</a>
+
+
+
+<b>Overviews</b>
+
+
+
+<a href="https://msdn.microsoft.com/7ab1cc09-ce81-4f56-8adf-d8c95bf2c4cd">Packaging API Reference</a>
+
+
+
+<a href="https://msdn.microsoft.com/885137be-35d5-4ec5-bbcc-16c95adf55ab">Packaging API Samples</a>
+
+
+
+<a href="https://msdn.microsoft.com/b4cd8f69-3559-46a0-95ec-6fcaab21959c">Packaging Errors</a>
+
+
+
+<b>Reference</b>
+
+
+
+<a href="https://msdn.microsoft.com/8e071847-7eb2-4528-8402-4aaa1f5cd216">Relationships Overview</a>
+
+
+
+<a href=" http://go.microsoft.com/fwlink/p/?linkid=126664">W3C Recommendation, XML Schema Part 2: Datatypes Second Edition</a>
+ 
+
+ 
+

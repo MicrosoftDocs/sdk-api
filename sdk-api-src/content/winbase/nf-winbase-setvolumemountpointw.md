@@ -1,0 +1,209 @@
+---
+UID: NF:winbase.SetVolumeMountPointW
+title: SetVolumeMountPointW function
+author: windows-driver-content
+description: Associates a volume with a drive letter or a directory on another volume.
+old-location: fs\setvolumemountpoint.htm
+old-project: FileIO
+ms.assetid: 1535fe64-221a-4756-a9ba-81bbe7596598
+ms.author: windowsdriverdev
+ms.date: 3/29/2018
+ms.keywords: SetVolumeMountPoint, SetVolumeMountPoint function [Files], SetVolumeMountPointA, SetVolumeMountPointW, _win32_setvolumemountpoint, base.setvolumemountpoint, fs.setvolumemountpoint, winbase/SetVolumeMountPoint, winbase/SetVolumeMountPointA, winbase/SetVolumeMountPointW
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: winbase.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: SetVolumeMountPointW (Unicode) and SetVolumeMountPointA (ANSI)
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: PRIORITY_HINT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Kernel32.dll
+-	API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
+-	kernel32legacy.dll
+-	API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
+-	API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+-	API-Ms-Win-Core-Kernel32-Legacy-Ansi-L1-1-0.dll
+-	API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+-	API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+api_name:
+-	SetVolumeMountPoint
+-	SetVolumeMountPointA
+-	SetVolumeMountPointW
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# SetVolumeMountPointW function
+
+
+## -description
+
+
+Associates a volume with a drive letter or a directory on another volume.
+
+
+## -parameters
+
+
+
+
+### -param lpszVolumeMountPoint [in]
+
+The user-mode path to be associated with the volume. This may be a drive letter (for example, "X:\") or a directory 
+      on another volume (for example, "Y:\MountX\"). The string must end with a trailing backslash ('\').
+
+
+### -param lpszVolumeName [in]
+
+A volume <b>GUID</b> path for the volume. This string must be of the form 
+      "\\?\Volume{<i>GUID</i>}\" where <i>GUID</i> is a <b>GUID</b> that identifies 
+      the volume. The "\\?\" turns off path parsing and is ignored as part of the path, as discussed in 
+      <a href="https://msdn.microsoft.com/f640f42d-a703-4e2e-a6d3-09cbe989cd11">Naming a Volume</a>.
+
+
+## -returns
+
+
+
+If the function succeeds, the return value is nonzero.
+
+If the function fails, the return value is zero. To get extended error information, call 
+       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+
+If the <i>lpszVolumeMountPoint</i> parameter contains a path to a mounted folder, <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> returns <b>ERROR_DIR_NOT_EMPTY</b>, even if the directory is empty.
+
+
+
+
+## -remarks
+
+
+
+When this function is used to associate a volume with a directory on another volume, the associated directory is called a <i>mounted folder</i>.
+
+It is an error to associate a volume with a directory that has any files or subdirectories in it. This 
+    error occurs for system and hidden directories as well as other directories, and it occurs for system and hidden 
+    files.
+
+When mounted folders are created on a volume on a clustered disk, they may be deleted unexpectedly under certain 
+    circumstances. For information on how to create and configure mounted folders to ensure that this does not happen, 
+    see <a href="Http://go.microsoft.com/fwlink/p/?linkid=169338">Cluster Disk and Drive Connection Problems</a>.
+
+IIn Windows 8 and Windows Server 2012, this function is supported by the following technologies.
+
+<table>
+<tr>
+<th>Technology</th>
+<th>Supported</th>
+</tr>
+<tr>
+<td>
+Server Message Block (SMB) 3.0 protocol
+
+</td>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<td>
+SMB 3.0 Transparent Failover (TFO)
+
+</td>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<td>
+SMB 3.0 with Scale-out File Shares (SO)
+
+</td>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<td>
+Cluster Shared Volume File System (CsvFS)
+
+</td>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<td>
+Resilient File System (ReFS)
+
+</td>
+<td>
+No
+
+</td>
+</tr>
+</table>
+ 
+
+SMB does not support volume management functions. For CsvFS a new mount point will not be replicated to the other nodes on the cluster.
+
+
+#### Examples
+
+For an example, see 
+     <a href="https://msdn.microsoft.com/c97bfd10-66ff-41e1-ba3b-f98a019948d5">Creating a Mounted Folder</a>.
+
+<div class="code"></div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/b1a0a273-fa7f-4794-8b50-c74f00b0228d">DeleteVolumeMountPoint</a>
+
+
+
+<a href="https://msdn.microsoft.com/3f749042-bdc9-4087-bb8a-d833713472eb">GetVolumeNameForVolumeMountPoint</a>
+
+
+
+<a href="https://msdn.microsoft.com/fa34786c-af82-4b59-bf36-e9a95a2f913e">GetVolumePathName</a>
+
+
+
+<a href="https://msdn.microsoft.com/6de526cd-5537-4411-b43f-3c0bdac70d64">Mounted Folders</a>
+
+
+
+<a href="https://msdn.microsoft.com/dc985126-970c-49f2-877f-3759125e43b6">Volume Management Functions</a>
+ 
+
+ 
+

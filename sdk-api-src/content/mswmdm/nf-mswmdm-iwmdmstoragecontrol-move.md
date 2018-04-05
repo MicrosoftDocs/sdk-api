@@ -1,0 +1,176 @@
+---
+UID: NF:mswmdm.IWMDMStorageControl.Move
+title: IWMDMStorageControl::Move method
+author: windows-driver-content
+description: The Move method moves the current storage to a new location on the device.
+old-location: wmdm\iwmdmstoragecontrol_move.htm
+old-project: WMDM
+ms.assetid: 6a2cfca0-66e6-4358-99c1-161f7baccdd5
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: IWMDMStorageControl, IWMDMStorageControl interface [windows Media Device Manager], Move method, IWMDMStorageControl::Move, IWMDMStorageControlMove, Move method [windows Media Device Manager], Move method [windows Media Device Manager], IWMDMStorageControl interface, Move,IWMDMStorageControl.Move, mswmdm/IWMDMStorageControl::Move, wmdm.iwmdmstoragecontrol_move
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: mswmdm.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MSVidCtlStateList
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mssachlp.lib
+-	mssachlp.dll
+api_name:
+-	IWMDMStorageControl.Move
+product: Windows
+targetos: Windows
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# IWMDMStorageControl::Move method
+
+
+## -description
+
+
+
+The <b>Move</b> method moves the current storage to a new location on the device.
+
+
+
+
+## -parameters
+
+
+
+
+### -param fuMode [in]
+
+Processing mode by which to invoke the <b>Move</b> operation and the type of move to make. Specify exactly one of the following two modes. If both modes are specified, block mode is used.
+
+<table>
+<tr>
+<th>
+                  Mode
+                </th>
+<th>
+                  Description
+                </th>
+</tr>
+<tr>
+<td>WMDM_MODE_BLOCK</td>
+<td>The operation is performed using block mode processing. The call will not return until the operation is finished.</td>
+</tr>
+<tr>
+<td>WMDM_MODE_THREAD</td>
+<td>The operation is performed using thread mode processing. The call will return immediately, and the operation is performed in a background thread.</td>
+</tr>
+</table>
+ 
+
+The following table lists flags that indicate where the object is moved to. One value from this table is combined with one value from the preceding Mode table using a bitwise <b>OR</b>.
+
+<table>
+<tr>
+<th>
+                  Flag
+                </th>
+<th>
+                  Description
+                </th>
+</tr>
+<tr>
+<td>WMDM_STORAGECONTROL_INSERTBEFORE</td>
+<td>The object is inserted before the target object.</td>
+</tr>
+<tr>
+<td>WMDM_STORAGECONTROL_INSERTINTO</td>
+<td>The object is inserted into the target object.</td>
+</tr>
+<tr>
+<td>WMDM_STORAGECONTROL_INSERTAFTER</td>
+<td>The object is inserted after the target object.</td>
+</tr>
+</table>
+ 
+
+
+### -param pTargetObject [in]
+
+Pointer to the object before or after which you want to put the current object.
+
+
+### -param pProgress [in]
+
+Optional pointer to an <a href="https://msdn.microsoft.com/9af022a6-19b4-41b7-b951-0acad6aab4a2">IWMDMProgress</a> interface that has been implemented by the application to track the progress of an ongoing operation.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. All the interface methods in Windows Media Device Manager can return any of the following classes of error codes:
+
+<ul>
+<li>Standard COM error codes </li>
+<li>Windows error codes converted to HRESULT values </li>
+<li>Windows Media Device Manager error codes </li>
+</ul>
+For an extensive list of possible error codes, see <a href="https://msdn.microsoft.com/library/windows/hardware/dn938542">Error Codes</a>.
+
+
+
+
+## -remarks
+
+
+
+A file or directory can be moved only within the same root storage.
+
+If the WMDM_MODE_THREAD flag is specified, you should obtain completion status by calling either <a href="https://msdn.microsoft.com/85265eb7-0702-4890-b6cb-b247296fe392">IWMDMProgress2::End2</a> or <a href="https://msdn.microsoft.com/fb09cfa8-1a96-412f-a97a-6cc1638b0c77">IWMDMProgress3::End3</a>. These methods will ensure that the operation is complete and will also return an HRESULT with success or failure information.
+
+If an application uses WMDM_MODE_THREAD and passes a non-null <i>pProgress</i> parameter, the application must ensure that the object to which <i>pProgress</i> belongs is not destroyed until the move operation completes, because Windows Media Device Manager will send progress notifications to this object. This object can be destroyed only after it receives an End notification. Failure to do this will result in access violations.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/18445ba5-6c91-4b4c-8f9b-b9d94fd96155">IWMDMDevice::GetStatus</a>
+
+
+
+<a href="https://msdn.microsoft.com/9af022a6-19b4-41b7-b951-0acad6aab4a2">IWMDMProgress Interface</a>
+
+
+
+<a href="https://msdn.microsoft.com/1ede7c68-0169-4375-9b45-b0995ad14e44">IWMDMStorage Interface</a>
+
+
+
+<a href="https://msdn.microsoft.com/b56edc7a-0764-449a-95b4-da759e99fadd">IWMDMStorageControl Interface</a>
+ 
+
+ 
+

@@ -1,0 +1,83 @@
+---
+UID: NF:appxpackaging.IAppxManifestTargetDeviceFamily.GetMinVersion
+title: IAppxManifestTargetDeviceFamily::GetMinVersion method
+author: windows-driver-content
+description: Gets the minimum version of the target device family from the AppxManifest.xml.
+old-location: appxpkg\iappxmanifesttargetdevicefamily_getminversion.htm
+old-project: appxpkg
+ms.assetid: 8CE408D3-0DD7-4482-8F7E-FE731ACE58C6
+ms.author: windowsdriverdev
+ms.date: 3/30/2018
+ms.keywords: GetMinVersion method [App packaging and management], GetMinVersion method [App packaging and management], IAppxManifestTargetDeviceFamily interface, GetMinVersion,IAppxManifestTargetDeviceFamily.GetMinVersion, IAppxManifestTargetDeviceFamily, IAppxManifestTargetDeviceFamily interface [App packaging and management], GetMinVersion method, IAppxManifestTargetDeviceFamily::GetMinVersion, appxpackaging/IAppxManifestTargetDeviceFamily::GetMinVersion, appxpkg.iappxmanifesttargetdevicefamily_getminversion
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: appxpackaging.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: AppxPackaging.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: APPX_PACKAGE_ARCHITECTURE2
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	AppxPackaging.h
+api_name:
+-	IAppxManifestTargetDeviceFamily.GetMinVersion
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# IAppxManifestTargetDeviceFamily::GetMinVersion method
+
+
+## -description
+
+
+Gets the minimum version of the target device family from the AppxManifest.xml.
+
+
+## -parameters
+
+
+
+
+### -param minVersion [out, retval]
+
+The minimum version.
+
+
+## -returns
+
+
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/52C2950B-FB7F-44A8-BAB5-BCC238B012FE">IAppxManifestTargetDeviceFamily</a>
+ 
+
+ 
+

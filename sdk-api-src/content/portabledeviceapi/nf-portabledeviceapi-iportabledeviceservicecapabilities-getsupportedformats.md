@@ -1,0 +1,89 @@
+---
+UID: NF:portabledeviceapi.IPortableDeviceServiceCapabilities.GetSupportedFormats
+title: IPortableDeviceServiceCapabilities::GetSupportedFormats method
+author: windows-driver-content
+description: Retrieves the formats supported by the service.
+old-location: wpdsdk\iportabledeviceservicecapabilities_getsupportedformats.htm
+old-project: wpd_sdk
+ms.assetid: 1df1ed1b-d231-4327-84eb-1bcf74dd881b
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: GetSupportedFormats method [Windows Portable Devices SDK], GetSupportedFormats method [Windows Portable Devices SDK], IPortableDeviceServiceCapabilities interface, GetSupportedFormats,IPortableDeviceServiceCapabilities.GetSupportedFormats, IPortableDeviceServiceCapabilities, IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK], GetSupportedFormats method, IPortableDeviceServiceCapabilities::GetSupportedFormats, portabledeviceapi/IPortableDeviceServiceCapabilities::GetSupportedFormats, wpdsdk.iportabledeviceservicecapabilities_getsupportedformats
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: portabledeviceapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps | UWP apps]
+req.target-min-winversvr: None supported
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: PortableDeviceAPI.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WPD_WHITE_BALANCE_SETTINGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	PortableDeviceAPI.h
+api_name:
+-	IPortableDeviceServiceCapabilities.GetSupportedFormats
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# IPortableDeviceServiceCapabilities::GetSupportedFormats method
+
+
+## -description
+
+
+The <b>GetSupportedFormats</b> method retrieves the formats supported by the  service.
+
+
+## -parameters
+
+
+
+
+### -param ppFormats [out]
+
+The <a href="https://msdn.microsoft.com/library/windows/hardware/ff597589">IPortableDevicePropVariantCollection</a> interface that receives the list of formats.
+
+
+## -returns
+
+
+
+If the method succeeds, it returns <b>S_OK</b>. Any other <b>HRESULT</b> value indicates that the call failed. 
+          
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/d472d31c-90da-4ecc-9cf7-4474457a244f">IPortableDeviceServiceCapabilities Interface</a>
+
+
+
+<a href="https://msdn.microsoft.com/b54dfeda-c2a3-42ec-895f-9abbbd4dd2ec">Retrieving Supported Service Formats</a>
+ 
+
+ 
+

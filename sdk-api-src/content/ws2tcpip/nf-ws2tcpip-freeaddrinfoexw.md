@@ -1,0 +1,119 @@
+---
+UID: NF:ws2tcpip.FreeAddrInfoExW
+title: FreeAddrInfoExW function
+author: windows-driver-content
+description: Frees address information that the GetAddrInfoEx function dynamically allocates in addrinfoex structures.
+old-location: winsock\freeaddrinfoex.htm
+old-project: WinSock
+ms.assetid: bc3d7ba7-ec00-4ee0-ad7d-d46641043a7b
+ms.author: windowsdriverdev
+ms.date: 3/30/2018
+ms.keywords: FreeAddrInfoEx, FreeAddrInfoEx function [Winsock], FreeAddrInfoExW, winsock.freeaddrinfoex, ws2tcpip/FreeAddrInfoEx, ws2tcpip/FreeAddrInfoExW
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: ws2tcpip.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1, Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: FreeAddrInfoExW (Unicode) and FreeAddrInfoEx (ANSI)
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WSPUPCALLTABLE, *LPWSPUPCALLTABLE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Ws2_32.dll
+api_name:
+-	FreeAddrInfoEx
+-	FreeAddrInfoEx
+-	FreeAddrInfoExW
+product: Windows
+targetos: Windows
+req.lib: Ws2_32.lib
+req.dll: Ws2_32.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# FreeAddrInfoExW function
+
+
+## -description
+
+
+The 
+<b>FreeAddrInfoEx</b> function frees address information that the 
+<a href="https://msdn.microsoft.com/cc4ccb2d-ea5a-48bd-a3ae-f70432ab2c39">GetAddrInfoEx</a> function dynamically allocates in <a href="https://msdn.microsoft.com/1077e03d-a1a4-45ab-a5d2-29a67e03f5df">addrinfoex</a> structures.
+
+
+## -parameters
+
+
+
+
+### -param pAddrInfoEx
+
+TBD
+
+
+
+
+#### - pAddrInfo [in]
+
+A pointer to the 
+<a href="https://msdn.microsoft.com/1077e03d-a1a4-45ab-a5d2-29a67e03f5df">addrinfoex</a> structure or linked list of 
+<b>addrinfoex</b> structures to be freed. All dynamic storage pointed to within the 
+<b>addrinfoex</b> structure or structures is also freed.
+
+
+## -returns
+
+
+
+This function does not return a value.
+
+
+
+
+## -remarks
+
+
+
+The 
+<b>FreeAddrInfoEx</b> function frees <a href="https://msdn.microsoft.com/1077e03d-a1a4-45ab-a5d2-29a67e03f5df">addrinfoex</a> structures dynamically allocated by the  <a href="https://msdn.microsoft.com/cc4ccb2d-ea5a-48bd-a3ae-f70432ab2c39">GetAddrInfoEx</a> function. The <b>FreeAddrInfoEx</b> function frees the initial 
+<b>addrinfoex</b> structure pointed to in the <i>pAddrInfo</i> parameter, including any buffers to which structure members point, then continues freeing any 
+<b>addrinfoex</b> structures linked by the <b>ai_next</b> member of the <b>addrinfoex</b> structure. The 
+<b>FreeAddrInfoEx</b> function continues freeing linked structures until a <b>NULL</b> <b>ai_next</b> member is encountered.
+
+When UNICODE or _UNICODE is defined, <b>FreeAddrInfoEx</b> is defined to <b>FreeAddrInfoExW</b>, the Unicode version of the function, and <b>ADDRINFOEX</b> is defined to the <a href="https://msdn.microsoft.com/1077e03d-a1a4-45ab-a5d2-29a67e03f5df">addrinfoexW</a> structure. When UNICODE or _UNICODE is not defined, <b>FreeAddrInfoEx</b> is defined to <b>FreeAddrInfoExA</b>, the ANSI version of the function, and <b>ADDRINFOEX</b> is defined to the <b>addrinfoexA</b> structure. 
+
+<b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: The <b>FreeAddrInfoExW</b> function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/cc4ccb2d-ea5a-48bd-a3ae-f70432ab2c39">GetAddrInfoEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/1077e03d-a1a4-45ab-a5d2-29a67e03f5df">addrinfoex</a>
+ 
+
+ 
+

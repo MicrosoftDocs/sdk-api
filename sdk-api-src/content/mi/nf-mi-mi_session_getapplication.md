@@ -1,0 +1,69 @@
+---
+UID: NF:mi.MI_Session_GetApplication
+title: MI_Session_GetApplication function
+author: windows-driver-content
+description: Gets the application handle that was used to create the specified session.
+old-location: wmi_v2\mi_session_getapplication.htm
+old-project: wmi_v2
+ms.assetid: f368a88e-c610-42f4-8324-1bc297edf564
+ms.author: windowsdriverdev
+ms.date: 3/23/2018
+ms.keywords: MI_Session_GetApplication, MI_Session_GetApplication function [Windows Management Infrastructure (MI)], mi/MI_Session_GetApplication, wmi_v2.mi_session_getapplication
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: mi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MI_Type
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Mi.h
+api_name:
+-	MI_Session_GetApplication
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# MI_Session_GetApplication function
+
+
+## -description
+
+
+Gets the application handle that was used to create the specified session.
+
+
+## -parameters
+
+
+
+
+### -param session [in]
+
+Session that was created from <a href="https://msdn.microsoft.com/76010766-aa20-4632-940d-48d9769803da">MI_Application_NewSession</a>.
+
+
+### -param application [out]
+
+Returned copy of the application handle that was used to create the specified session.
+

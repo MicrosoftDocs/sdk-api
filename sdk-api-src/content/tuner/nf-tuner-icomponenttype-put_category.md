@@ -1,0 +1,87 @@
+---
+UID: NF:tuner.IComponentType.put_Category
+title: IComponentType::put_Category method
+author: windows-driver-content
+description: The put_Category method sets the component category.
+old-location: mstv\icomponenttype_put_category.htm
+old-project: mstv
+ms.assetid: 3ae90ec5-ebae-4a67-b786-33a1d94309b8
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: IComponentType, IComponentType interface [Microsoft TV Technologies], put_Category method, IComponentType::put_Category, IComponentTypeput_Category, mstv.icomponenttype_put_category, put_Category method [Microsoft TV Technologies], put_Category method [Microsoft TV Technologies], IComponentType interface, put_Category,IComponentType.put_Category, tuner/IComponentType::put_Category
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: tuner.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: None supported
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Tuner.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	tuner.h
+api_name:
+-	IComponentType.put_Category
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# IComponentType::put_Category method
+
+
+## -description
+
+
+
+The <b>put_Category</b> method sets the component category.
+
+
+
+
+## -parameters
+
+
+
+
+### -param Category [in]
+
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff557721">ComponentCategory</a> value that specifies the new category for this component type.
+
+
+## -returns
+
+
+
+Returns S_OK if successful. If the method fails, error information can be retrieved using the standard COM <b>IErrorInfo</b> interface.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/e83bbbbe-64a9-4ed3-9c32-925ca80c2c38">IComponentType Interface</a>
+ 
+
+ 
+

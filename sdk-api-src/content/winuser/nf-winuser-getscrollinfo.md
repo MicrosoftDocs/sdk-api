@@ -1,0 +1,279 @@
+---
+UID: NF:winuser.GetScrollInfo
+title: GetScrollInfo function
+author: windows-driver-content
+description: The GetScrollInfo function retrieves the parameters of a scroll bar, including the minimum and maximum scrolling positions, the page size, and the position of the scroll box (thumb).
+old-location: controls\GetScrollInfo.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarfunctions\getscrollinfo.htm
+ms.author: windowsdriverdev
+ms.date: 3/31/2018
+ms.keywords: GetScrollInfo, GetScrollInfo function [Windows Controls], SB_CTL, SB_HORZ, SB_VERT, SIF_PAGE, SIF_POS, SIF_RANGE, SIF_TRACKPOS, _win32_GetScrollInfo, _win32_GetScrollInfo_cpp, controls.GetScrollInfo, controls._win32_GetScrollInfo, winuser/GetScrollInfo
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: winuser.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: AR_STATE, *PAR_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	User32.dll
+-	Ext-MS-Win-NTUser-Misc-l1-2-0.dll
+-	Ext-MS-Win-NTUser-Misc-l1-3-0.dll
+-	ext-ms-win-ntuser-misc-l1-3-1.dll
+-	Ext-MS-Win-NTUser-Misc-L1-4-0.dll
+-	Ext-Ms-Win-NTUser-Misc-L1-5-0.dll
+-	Ext-MS-Win-NTUser-Misc-L1-5-1.dll
+api_name:
+-	GetScrollInfo
+product: Windows
+targetos: Windows
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# GetScrollInfo function
+
+
+## -description
+
+
+The <b>GetScrollInfo</b> function retrieves the parameters of a scroll bar, including the minimum and maximum scrolling positions, the page size, and the position of the scroll box (thumb).
+
+
+## -parameters
+
+
+
+
+### -param hwnd [in]
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+
+Handle to a scroll bar control or a window with a standard scroll bar, depending on the value of the 
+					<i>fnBar</i> parameter. 
+
+
+### -param nBar
+
+TBD
+
+
+### -param lpsi [in, out]
+
+Type: <b>LPSCROLLINFO</b>
+
+Pointer to a <a href="https://msdn.microsoft.com/abb0d18e-81b5-422c-b6e6-318a2d1d11a4">SCROLLINFO</a> structure. Before calling <b>GetScrollInfo</b>, set the 
+					<b>cbSize</b> member to 
+					<b>sizeof</b>(<b>SCROLLINFO</b>), and set the 
+					<b>fMask</b> member to specify the scroll bar parameters to retrieve. Before returning, the function copies the specified parameters to the appropriate members of the structure.
+
+The 
+					<b>fMask</b> member can be one or more of the following values.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="SIF_PAGE"></a><a id="sif_page"></a><dl>
+<dt><b>SIF_PAGE</b></dt>
+</dl>
+</td>
+<td width="60%">
+Copies the scroll page to the 
+						<b>nPage</b> member of the <a href="https://msdn.microsoft.com/abb0d18e-81b5-422c-b6e6-318a2d1d11a4">SCROLLINFO</a> structure pointed to by 
+						<i>lpsi</i>.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SIF_POS"></a><a id="sif_pos"></a><dl>
+<dt><b>SIF_POS</b></dt>
+</dl>
+</td>
+<td width="60%">
+Copies the scroll position to the 
+						<b>nPos</b> member of the <a href="https://msdn.microsoft.com/abb0d18e-81b5-422c-b6e6-318a2d1d11a4">SCROLLINFO</a> structure pointed to by 
+						<i>lpsi</i>.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SIF_RANGE"></a><a id="sif_range"></a><dl>
+<dt><b>SIF_RANGE</b></dt>
+</dl>
+</td>
+<td width="60%">
+Copies the scroll range to the 
+						<b>nMin</b> and 
+						<b>nMax</b> members of the <a href="https://msdn.microsoft.com/abb0d18e-81b5-422c-b6e6-318a2d1d11a4">SCROLLINFO</a> structure pointed to by 
+						<i>lpsi</i>.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SIF_TRACKPOS"></a><a id="sif_trackpos"></a><dl>
+<dt><b>SIF_TRACKPOS</b></dt>
+</dl>
+</td>
+<td width="60%">
+Copies the current scroll box tracking position to the 
+						<b>nTrackPos</b> member of the <a href="https://msdn.microsoft.com/abb0d18e-81b5-422c-b6e6-318a2d1d11a4">SCROLLINFO</a> structure pointed to by 
+						<i>lpsi</i>.
+
+</td>
+</tr>
+</table>
+ 
+
+
+#### - fnBar [in]
+
+Type: <b>int</b>
+
+Specifies the type of scroll bar for which to retrieve parameters. This parameter can be one of the following values. 
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="SB_CTL"></a><a id="sb_ctl"></a><dl>
+<dt><b>SB_CTL</b></dt>
+</dl>
+</td>
+<td width="60%">
+Retrieves the parameters for a scroll bar control. The 
+						<i>hwnd</i> parameter must be the handle to the scroll bar control. 
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SB_HORZ"></a><a id="sb_horz"></a><dl>
+<dt><b>SB_HORZ</b></dt>
+</dl>
+</td>
+<td width="60%">
+Retrieves the parameters for the window's standard horizontal scroll bar. 
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SB_VERT"></a><a id="sb_vert"></a><dl>
+<dt><b>SB_VERT</b></dt>
+</dl>
+</td>
+<td width="60%">
+Retrieves the parameters for the window's standard vertical scroll bar. 
+
+</td>
+</tr>
+</table>
+ 
+
+
+## -returns
+
+
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+
+If the function retrieved any values, the return value is nonzero.
+
+If the function does not retrieve any values, the return value is zero. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+
+
+
+
+## -remarks
+
+
+
+The <b>GetScrollInfo</b> function enables applications to use 32-bit scroll positions. Although the messages that indicate scroll bar position, <a href="https://msdn.microsoft.com/197e522f-defd-4356-8521-5b5dfda596da">WM_HSCROLL</a> and <a href="https://msdn.microsoft.com/495733b8-1aac-4ff7-b0be-15f14581f41c">WM_VSCROLL</a>, provide only 16 bits of position data, the functions <a href="https://msdn.microsoft.com/a45af17c-df18-4156-be8b-868fc4cb0696">SetScrollInfo</a> and <b>GetScrollInfo</b> provide 32 bits of scroll bar position data. Thus, an application can call <b>GetScrollInfo</b> while processing either the <b>WM_HSCROLL</b> or <b>WM_VSCROLL</b> messages to obtain 32-bit scroll bar position data. 
+
+To get the 32-bit position of the scroll box (thumb) during a SB_THUMBTRACK request code in a <a href="https://msdn.microsoft.com/197e522f-defd-4356-8521-5b5dfda596da">WM_HSCROLL</a> or <a href="https://msdn.microsoft.com/495733b8-1aac-4ff7-b0be-15f14581f41c">WM_VSCROLL</a> message, call <b>GetScrollInfo</b> with the SIF_TRACKPOS value in the 
+				<b>fMask</b> member of the <a href="https://msdn.microsoft.com/abb0d18e-81b5-422c-b6e6-318a2d1d11a4">SCROLLINFO</a> structure. The function returns the tracking position of the scroll box in the 
+				<b>nTrackPos</b> member of the <b>SCROLLINFO</b> structure. This allows you to get the position of the scroll box as the user moves it. The following sample code illustrates the technique.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>SCROLLINFO si;
+case WM_HSCROLL:
+    switch(LOWORD(wparam)) {
+        case SB_THUMBTRACK:
+          // Initialize SCROLLINFO structure
+ 
+            ZeroMemory(&amp;si, sizeof(si));
+            si.cbSize = sizeof(si);
+            si.fMask = SIF_TRACKPOS;
+ 
+          // Call GetScrollInfo to get current tracking 
+          //    position in si.nTrackPos
+ 
+            if (!GetScrollInfo(hwnd, SB_HORZ, &amp;si) )
+                return 1; // GetScrollInfo failed
+            break;
+        .
+        .
+        .
+    }</pre>
+</td>
+</tr>
+</table></span></div>
+If the <i>fnBar</i> parameter is SB_CTL and the window specified by the <i>hwnd</i> parameter is not a system scroll bar control, the system sends the <a href="https://msdn.microsoft.com/3b43430f-b55f-43ec-8558-baf5c953064f">SBM_GETSCROLLINFO</a> message to the window to obtain scroll bar information. This allows <b>GetScrollInfo</b> to operate on a custom control that mimics a scroll bar. If the window does not handle the <b>SBM_GETSCROLLINFO</b> message, the <b>GetScrollInfo</b> function fails.
+
+
+
+
+
+## -see-also
+
+
+
+
+<b>Reference</b>
+
+
+
+<a href="https://msdn.microsoft.com/abb0d18e-81b5-422c-b6e6-318a2d1d11a4">SCROLLINFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/a45af17c-df18-4156-be8b-868fc4cb0696">SetScrollInfo</a>
+
+
+
+<a href="https://msdn.microsoft.com/197e522f-defd-4356-8521-5b5dfda596da">WM_HSCROLL</a>
+
+
+
+<a href="https://msdn.microsoft.com/495733b8-1aac-4ff7-b0be-15f14581f41c">WM_VSCROLL</a>
+ 
+
+ 
+

@@ -1,0 +1,137 @@
+---
+UID: NF:oaidl.ITypeInfo2.GetAllCustData
+title: ITypeInfo2::GetAllCustData method
+author: windows-driver-content
+description: Gets all custom data items for the library.
+old-location: automat\itypeinfo2_getallcustdata.htm
+old-project: automat
+ms.assetid: ba91134e-0d0a-4f33-a527-700f83344055
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: GetAllCustData method [Automation], GetAllCustData method [Automation], ITypeInfo2 interface, GetAllCustData,ITypeInfo2.GetAllCustData, ITypeInfo2, ITypeInfo2 interface [Automation], GetAllCustData method, ITypeInfo2::GetAllCustData, _oa96_ITypeInfo2_GetAllCustData, automat.itypeinfo2_getallcustdata, oaidl/ITypeInfo2::GetAllCustData
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: oaidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: OaIdl.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: VARKIND
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	oaidl.h
+api_name:
+-	ITypeInfo2.GetAllCustData
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# ITypeInfo2::GetAllCustData method
+
+
+## -description
+
+
+Gets all custom data items for the library.
+
+
+## -parameters
+
+
+
+
+### -param pCustData [out]
+
+The custom data items.
+
+
+## -returns
+
+
+
+This method can return one of these values.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK
+</b></dt>
+</dl>
+</td>
+<td width="60%">
+Success.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG
+</b></dt>
+</dl>
+</td>
+<td width="60%">
+One or more of the arguments is not valid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_OUTOFMEMORY
+</b></dt>
+</dl>
+</td>
+<td width="60%">
+Insufficient memory to complete the operation.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+After the call, the caller needs to release memory used to hold the custom data item by calling <a href="https://msdn.microsoft.com/14556107-3b22-48c8-b480-280b9dee9b17">ClearCustData</a>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/d3a34a13-6114-4f15-9de5-60da43fde600">ITypeInfo2</a>
+ 
+
+ 
+

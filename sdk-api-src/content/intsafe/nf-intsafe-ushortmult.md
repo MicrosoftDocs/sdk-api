@@ -1,0 +1,100 @@
+---
+UID: NF:intsafe.UShortMult
+title: UShortMult function
+author: windows-driver-content
+description: Multiplies one value of type USHORT by another.
+old-location: shell\UShortMult.htm
+old-project: shell
+ms.assetid: ecade442-3272-4886-87e1-057f82f465cf
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: UShortMult, UShortMult function [Windows Shell], _shell_UShortMult, intsafe/UShortMult, shell.UShortMult
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: intsafe.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MANIPULATION_VELOCITY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Intsafe.h
+api_name:
+-	UShortMult
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# UShortMult function
+
+
+## -description
+
+
+Multiplies one value of type <b>USHORT</b> by another.
+
+
+## -parameters
+
+
+
+
+### -param usMultiplicand [in]
+
+Type: <b>USHORT</b>
+
+The value to be multiplied by <i>usMultiplier</i>.
+
+
+### -param usMultiplier [in]
+
+Type: <b>USHORT</b>
+
+The value by which to multiply <i>usMultiplicand</i>.
+
+
+### -param pusResult [out]
+
+Type: <b>USHORT*</b>
+
+A pointer to the result. If the operation results in a value that overflows or underflows the capacity of the type, the function returns INTSAFE_E_ARITHMETIC_OVERFLOW and this parameter is not valid.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+This is one of a set of inline functions designed to provide arithmetic operations and perform validity checks with minimal impact on performance.
+
+
+

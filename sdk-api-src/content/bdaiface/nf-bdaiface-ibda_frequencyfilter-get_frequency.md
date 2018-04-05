@@ -1,0 +1,107 @@
+---
+UID: NF:bdaiface.IBDA_FrequencyFilter.get_Frequency
+title: IBDA_FrequencyFilter::get_Frequency method
+author: windows-driver-content
+description: The get_Frequency method retrieves the frequency.
+old-location: mstv\ibda_frequencyfilter_get_frequency.htm
+old-project: mstv
+ms.assetid: 0eba0f92-45a7-4c5e-9450-f3c7a176288c
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: IBDA_FrequencyFilter, IBDA_FrequencyFilter interface [Microsoft TV Technologies], get_Frequency method, IBDA_FrequencyFilter::get_Frequency, IBDA_FrequencyFilterget_Frequency, bdaiface/IBDA_FrequencyFilter::get_Frequency, get_Frequency method [Microsoft TV Technologies], get_Frequency method [Microsoft TV Technologies], IBDA_FrequencyFilter interface, get_Frequency,IBDA_FrequencyFilter.get_Frequency, mstv.ibda_frequencyfilter_get_frequency
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: bdaiface.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: UICloseReasonType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	bdaiface.h
+api_name:
+-	IBDA_FrequencyFilter.get_Frequency
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# IBDA_FrequencyFilter::get_Frequency method
+
+
+## -description
+
+
+
+The <b>get_Frequency</b> method retrieves the frequency.
+
+
+
+
+## -parameters
+
+
+
+
+### -param pulFrequency [out]
+
+Pointer that receives the frequency. The units are 1 Hz x the frequency multiplier, where the <i>frequency multiplier</i> is the value returned by the <a href="https://msdn.microsoft.com/463a58f7-a10c-40b5-8183-3e16bcc7c6b2">IBDA_FrequencyFilter::get_FrequencyMultiplier</a> method. The default frequency multiplier is 1000, so the default units are kilohertz (kHz).
+
+
+## -returns
+
+
+
+If the method succeeds, it returns S_OK. If it fails, it returns an error code.
+
+
+
+
+## -remarks
+
+
+
+Frequencies for DVB-S, DVB-T, and ATSC should all be expressed in kilohertz and therefore the default frequency multiplier should not be changed.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+
+
+
+<a href="https://msdn.microsoft.com/ef5dbf4a-ecbb-4f2c-a34d-ce3864133adc">IBDA_FrequencyFilter Interface</a>
+
+
+
+<a href="https://msdn.microsoft.com/463a58f7-a10c-40b5-8183-3e16bcc7c6b2">IBDA_FrequencyFilter::get_FrequencyMultiplier</a>
+
+
+
+<a href="https://msdn.microsoft.com/70d50a4b-b0f8-42a1-9fa2-1d09376903fe">IBDA_FrequencyFilter::put_Frequency</a>
+ 
+
+ 
+

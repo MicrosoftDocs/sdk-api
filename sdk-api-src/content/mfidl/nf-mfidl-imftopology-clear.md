@@ -1,0 +1,117 @@
+---
+UID: NF:mfidl.IMFTopology.Clear
+title: IMFTopology::Clear method
+author: windows-driver-content
+description: Removes all nodes from the topology.
+old-location: mf\imftopology_clear.htm
+old-project: medfound
+ms.assetid: 919a712f-3f1b-4681-9eeb-958ac349d8f6
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: 919a712f-3f1b-4681-9eeb-958ac349d8f6, Clear method [Media Foundation], Clear method [Media Foundation], IMFTopology interface, Clear,IMFTopology.Clear, IMFTopology, IMFTopology interface [Media Foundation], Clear method, IMFTopology::Clear, mf.imftopology_clear, mfidl/IMFTopology::Clear
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: mfidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MF_URL_TRUST_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfuuid.lib
+-	mfuuid.dll
+api_name:
+-	IMFTopology.Clear
+product: Windows
+targetos: Windows
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IMFTopology::Clear method
+
+
+## -description
+
+
+
+Removes all nodes from the topology.
+
+
+
+
+## -parameters
+
+
+
+
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+You do not need to clear a topology before disposing of it. The <b>Clear</b> method is called automatically when the topology is destroyed.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/f293e9ee-9bd2-4b3e-a4ff-53457ee910f6">IMFTopology</a>
+
+
+
+<a href="https://msdn.microsoft.com/6fc19244-0f42-4d23-899d-c79e97018855">Topologies</a>
+ 
+
+ 
+

@@ -1,0 +1,124 @@
+---
+UID: NF:tapi.lineGetCallInfo
+title: lineGetCallInfo function
+author: windows-driver-content
+description: The lineGetCallInfo function enables an application to obtain fixed information about the specified call.
+old-location: tapi2\linegetcallinfo.htm
+old-project: Tapi
+ms.assetid: e69722cb-9c45-4f1a-a855-64afa3c33276
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: "_tapi2_linegetcallinfo, lineGetCallInfo, lineGetCallInfo function [TAPI 2.2], lineGetCallInfoA, lineGetCallInfoW, tapi/lineGetCallInfo, tapi/lineGetCallInfoA, tapi/lineGetCallInfoW, tapi2.linegetcallinfo"
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: tapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: lineGetCallInfoW (Unicode) and lineGetCallInfoA (ANSI)
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: FLICK_POINT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Tapi32.dll
+api_name:
+-	lineGetCallInfo
+-	lineGetCallInfoA
+-	lineGetCallInfoW
+product: Windows
+targetos: Windows
+req.lib: Tapi32.lib
+req.dll: Tapi32.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# lineGetCallInfo function
+
+
+## -description
+
+
+The 
+<b>lineGetCallInfo</b> function enables an application to obtain fixed information about the specified call.
+
+
+## -parameters
+
+
+
+
+### -param hCall
+
+Handle to the call to be queried. The call state of <i>hCall</i> can be any state.
+
+
+### -param lpCallInfo
+
+Pointer to a variably sized data structure of type 
+<a href="https://msdn.microsoft.com/b077546b-cc95-44ce-99ee-f0007fd916b2">LINECALLINFO</a>. Upon successful completion of the request, this structure is filled with call-related information. Prior to calling 
+<b>lineGetCallInfo</b>, the application should set the <b>dwTotalSize</b> member of this structure to indicate the amount of memory available to TAPI for returning information.
+
+
+## -returns
+
+
+
+Returns zero if the request succeeds or a negative error number if an error occurs. Possible return values are:
+
+LINEERR_INVALCALLHANDLE, LINEERR_RESOURCEUNAVAIL, LINEERR_INVALPOINTER, LINEERR_STRUCTURETOOSMALL, LINEERR_NOMEM, LINEERR_UNINITIALIZED, LINEERR_OPERATIONFAILED, LINEERR_OPERATIONUNAVAIL.
+
+
+
+
+## -remarks
+
+
+
+A separate 
+<a href="https://msdn.microsoft.com/b077546b-cc95-44ce-99ee-f0007fd916b2">LINECALLINFO</a> structure exists for every incoming or outgoing call. The structure contains primarily fixed information about the call. An application would typically be interested in checking this information when it receives its handle for a call by the 
+<a href="https://msdn.microsoft.com/7b24e3c3-bc69-488b-a698-cf17875bc3c5">LINE_CALLSTATE</a> message, or each time it receives notification by a 
+<a href="https://msdn.microsoft.com/eb882409-6842-434e-9f93-61cf0c11d1d0">LINE_CALLINFO</a> message that parts of the call information structure have changed. These messages supply the handle for the call as a parameter.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/09d10789-bc36-47c7-b77d-8698ae75541a">Basic Telephony Services Reference</a>
+
+
+
+<a href="https://msdn.microsoft.com/b077546b-cc95-44ce-99ee-f0007fd916b2">LINECALLINFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/eb882409-6842-434e-9f93-61cf0c11d1d0">LINE_CALLINFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/7b24e3c3-bc69-488b-a698-cf17875bc3c5">LINE_CALLSTATE</a>
+
+
+
+<a href="https://msdn.microsoft.com/d703b414-1389-416c-8e94-c1931979f0c9">TAPI 2.2 Reference Overview</a>
+ 
+
+ 
+

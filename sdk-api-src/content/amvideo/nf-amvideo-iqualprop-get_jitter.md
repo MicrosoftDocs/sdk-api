@@ -1,0 +1,96 @@
+---
+UID: NF:amvideo.IQualProp.get_Jitter
+title: IQualProp::get_Jitter method
+author: windows-driver-content
+description: The get_Jitter method gets the jitter (variation in time) between successive frames delivered to the video renderer.
+old-location: dshow\iqualprop_get_jitter.htm
+old-project: DirectShow
+ms.assetid: e1f6e93f-58d6-41b4-b16f-e9f02bfec0fe
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: IQualProp, IQualProp interface [DirectShow], get_Jitter method, IQualProp::get_Jitter, IQualPropget_Jitter, amvideo/IQualProp::get_Jitter, dshow.iqualprop_get_jitter, get_Jitter method [DirectShow], get_Jitter method [DirectShow], IQualProp interface, get_Jitter,IQualProp.get_Jitter
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: amvideo.h
+req.include-header: Dshow.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: AMVAUncompDataInfo, *LPAMVAUncompDataInfo
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Strmiids.lib
+-	Strmiids.dll
+api_name:
+-	IQualProp.get_Jitter
+product: Windows
+targetos: Windows
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
+---
+
+# IQualProp::get_Jitter method
+
+
+## -description
+
+
+
+        The <b>get_Jitter</b> method gets the jitter (variation in time) between successive frames delivered to the video renderer.
+
+
+## -parameters
+
+
+
+
+### -param iJitter
+
+
+
+
+
+
+#### - piJitter
+
+Receives the standard deviation of the interframe time, in milliseconds.
+
+
+## -returns
+
+
+
+Returns an <b>HRESULT</b> value.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+
+
+
+<a href="https://msdn.microsoft.com/428dfb97-0dfa-442c-819e-291e6a58f712">IQualProp Interface</a>
+ 
+
+ 
+

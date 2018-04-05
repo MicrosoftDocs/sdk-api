@@ -1,0 +1,201 @@
+---
+UID: NF:msinkaut.IInkStrokeDisp.FindIntersections
+title: IInkStrokeDisp::FindIntersections method
+author: windows-driver-content
+description: Retrieves the points where this IInkStrokeDisp object intersects other IInkStrokeDisp objects within a known InkStrokes collection.
+old-location: tablet\iinkstrokedisp_findintersections.htm
+old-project: tablet
+ms.assetid: a070fc87-608c-47be-b9b2-e2a41a31226f
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: FindIntersections method [Tablet PC], FindIntersections method [Tablet PC], IInkStrokeDisp interface, FindIntersections,IInkStrokeDisp.FindIntersections, IInkStrokeDisp, IInkStrokeDisp interface [Tablet PC], FindIntersections method, IInkStrokeDisp::FindIntersections, a070fc87-608c-47be-b9b2-e2a41a31226f, msinkaut/IInkStrokeDisp::FindIntersections, tablet.iinkstrokedisp_findintersections
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: msinkaut.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
+req.target-min-winversvr: None supported
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: TabletPropertyMetricUnit
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	InkObj.dll
+-	InkObj.dll.dll
+api_name:
+-	IInkStrokeDisp.FindIntersections
+product: Windows
+targetos: Windows
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 SP2 or later
+---
+
+# IInkStrokeDisp::FindIntersections method
+
+
+## -description
+
+
+
+Retrieves the points where this <a href="https://msdn.microsoft.com/b18464ba-feb6-4bb5-9fcf-82feff9bcce4">IInkStrokeDisp</a> object intersects other <b>IInkStrokeDisp</b> objects within a known <a href="https://msdn.microsoft.com/c7fb921c-0bd2-48aa-b092-ab1fb08c0697">InkStrokes</a> collection.
+
+
+
+
+## -parameters
+
+
+
+
+### -param Strokes [in]
+
+ The known collection of strokes that are used to calculate the points where this stroke intersects strokes in the collection. If <b>NULL</b>, use all strokes in the <a href="https://msdn.microsoft.com/f942d6a3-f303-49df-a128-de9760b508ef">InkDisp</a> object.
+
+<div class="alert"><b>Note</b>  The known collection of strokes must come from the same <a href="https://msdn.microsoft.com/f942d6a3-f303-49df-a128-de9760b508ef">InkDisp</a> object as the stroke being tested for intersection. If it is not from the same <b>InkDisp</b> object, <b>E_INK_MISMATCHED_INK_OBJECT</b> is returned (see "HRESULT value" below). The <b>FindIntersections</b> method is the only Tablet PC application programming interface (API) that requires that the known collection of strokes come from the same <b>InkDisp</b> object.</div>
+<div> </div>
+
+### -param Intersections [out, retval]
+
+When this method returns, contains an array of floating point index values that indicate the locations where this stroke intersects strokes within a known collection of strokes.
+
+A floating point index is a float value that represents a location somewhere between two points in the stroke. As examples, if 0.0 is the first point in the stroke and 1.0 is the second point in the stroke, 0.5 is halfway between the first and second points. Similarly, a floating point index value of 37.25 represents a location that is 25 percent along the line between points 37 and 38 of the stroke.
+
+For more information about the VARIANT structure, see <a href="https://msdn.microsoft.com/fa43fad9-804c-42d9-9717-6686d5f98ed8">Using the COM Library</a>.
+
+
+## -returns
+
+
+
+This method can return one of these values.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+Success.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_POINTER</b></dt>
+</dl>
+</td>
+<td width="60%">
+A parameter contained an invalid pointer.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_OUTOFMEMORY</b></dt>
+</dl>
+</td>
+<td width="60%">
+Cannot allocate an <a href="https://msdn.microsoft.com/b18464ba-feb6-4bb5-9fcf-82feff9bcce4">IInkStrokeDisp</a> handle helper object.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_UNEXPECTED</b></dt>
+</dl>
+</td>
+<td width="60%">
+Unexpected parameter or property type.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INK_EXCEPTION</b></dt>
+</dl>
+</td>
+<td width="60%">
+An exception occurred inside the method.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INK_INCOMPATIBLE_OBJECT</b></dt>
+</dl>
+</td>
+<td width="60%">
+The <i>strokes</i>parameter does not point to a compatible <a href="https://msdn.microsoft.com/f942d6a3-f303-49df-a128-de9760b508ef">InkDisp</a> object.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INK_MISMATCHED_INK_OBJECT</b></dt>
+</dl>
+</td>
+<td width="60%">
+The <a href="https://msdn.microsoft.com/f942d6a3-f303-49df-a128-de9760b508ef">InkDisp</a> object of the <a href="https://msdn.microsoft.com/c7fb921c-0bd2-48aa-b092-ab1fb08c0697">InkStrokes</a> collection and this <a href="https://msdn.microsoft.com/b18464ba-feb6-4bb5-9fcf-82feff9bcce4">IInkStrokeDisp</a> object don't match.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+This method can determine only the points of intersection.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/fe042e12-21fa-4dae-988c-d082aa867520">GetRectangleIntersections Method</a>
+
+
+
+<a href="https://msdn.microsoft.com/b18464ba-feb6-4bb5-9fcf-82feff9bcce4">IInkStrokeDisp Interface</a>
+
+
+
+<a href="https://msdn.microsoft.com/c7fb921c-0bd2-48aa-b092-ab1fb08c0697">InkStrokes Collection</a>
+ 
+
+ 
+

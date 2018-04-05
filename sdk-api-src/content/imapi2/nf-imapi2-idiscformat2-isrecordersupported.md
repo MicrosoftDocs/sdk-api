@@ -1,0 +1,119 @@
+---
+UID: NF:imapi2.IDiscFormat2.IsRecorderSupported
+title: IDiscFormat2::IsRecorderSupported method
+author: windows-driver-content
+description: Determines if the recorder supports the given format.
+old-location: imapi\idiscformat2_isrecordersupported.htm
+old-project: imapi
+ms.assetid: 1a96283a-a5a3-434a-834a-d539160cfc5c
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: IDiscFormat2, IDiscFormat2 interface [IMAPI], IsRecorderSupported method, IDiscFormat2::IsRecorderSupported, IsRecorderSupported method [IMAPI], IsRecorderSupported method [IMAPI], IDiscFormat2 interface, IsRecorderSupported,IDiscFormat2.IsRecorderSupported, imapi.idiscformat2_isrecordersupported, imapi2/IDiscFormat2::IsRecorderSupported
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: imapi2.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Imapi2.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	imapi2.h
+api_name:
+-	IDiscFormat2.IsRecorderSupported
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IDiscFormat2::IsRecorderSupported method
+
+
+## -description
+
+
+Determines if the recorder supports the given format.
+
+
+## -parameters
+
+
+
+
+### -param recorder [in]
+
+An <a href="https://msdn.microsoft.com/34f858b8-74eb-4725-8815-7954cb98cff0">IDiscRecorder2</a> interface of the recorder to test.
+
+
+### -param value [out]
+
+Is VARIANT_TRUE if the recorder supports the given format; otherwise, VARIANT_FALSE. 
+
+
+## -returns
+
+
+
+S_OK or S_FALSE are returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_POINTER</b></dt>
+</dl>
+</td>
+<td width="60%">
+Pointer is not valid.
+
+Value: 0x80004003
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+When implemented by the <a href="https://msdn.microsoft.com/58d9b83c-a528-4b39-b08d-a0fb8c1aece8">IDiscFormat2RawCD</a> interface, this method will return  E_IMAPI_DF2RAW_MEDIA_IS_NOT_SUPPORTED in the event the recorder does not support the given format. It is important to note that in this specific scenario the value does not indicate that an error has occurred, but rather the result of a successful operation.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/c0bc2e8b-bd60-4c97-bd86-41963b20b1a3">IDiscFormat2</a>
+ 
+
+ 
+

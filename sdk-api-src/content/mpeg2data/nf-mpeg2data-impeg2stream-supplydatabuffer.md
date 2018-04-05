@@ -1,0 +1,154 @@
+---
+UID: NF:mpeg2data.IMpeg2Stream.SupplyDataBuffer
+title: IMpeg2Stream::SupplyDataBuffer method
+author: windows-driver-content
+description: The SupplyDataBuffer method provides a buffer for the Mpeg2Stream object to write data.
+old-location: mstv\impeg2stream_supplydatabuffer.htm
+old-project: mstv
+ms.assetid: 68950eba-6c23-49f7-9651-d4db9e554de3
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: IMpeg2Stream, IMpeg2Stream interface [Microsoft TV Technologies], SupplyDataBuffer method, IMpeg2Stream::SupplyDataBuffer, IMpeg2StreamSupplyDataBuffer, SupplyDataBuffer method [Microsoft TV Technologies], SupplyDataBuffer method [Microsoft TV Technologies], IMpeg2Stream interface, SupplyDataBuffer,IMpeg2Stream.SupplyDataBuffer, mpeg2data/IMpeg2Stream::SupplyDataBuffer, mstv.impeg2stream_supplydatabuffer
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: mpeg2data.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MPEG_HEADER_VERSION_BITS, *PMPEG_HEADER_VERSION_BITS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Mpeg2data.h
+api_name:
+-	IMpeg2Stream.SupplyDataBuffer
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IMpeg2Stream::SupplyDataBuffer method
+
+
+## -description
+
+
+
+The <b>SupplyDataBuffer</b> method provides a buffer for the <b>Mpeg2Stream</b> object to write data.
+
+
+
+
+## -parameters
+
+
+
+
+### -param pStreamBuffer [in]
+
+Pointer to an <a href="https://msdn.microsoft.com/d376af4c-4b22-4a2d-917a-6f25d2c38861">MPEG_STREAM_BUFFER</a> structure allocated by the caller. This structure contains a pointer to the buffer, also allocated by the caller. The buffer must be at least 4096 bytes.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+Invalid argument or <b>NULL</b> parameter.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_OUTOFMEMORY</b></dt>
+</dl>
+</td>
+<td width="60%">
+Insufficient memory.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_FAIL</b></dt>
+</dl>
+</td>
+<td width="60%">
+Failure.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+The first time this method is called, it starts a worker thread that streams data to the buffer. When the data arrives, the <b>MPEG2Stream</b> object signals the event that was passed to the <a href="https://msdn.microsoft.com/a2ef2ebc-55dc-49d4-a5de-18203de113ce">IMpeg2Stream::Initialize</a> method. (Typically an application specifies the event handle when it calls <a href="https://msdn.microsoft.com/896080ff-cdf0-40b1-ba4e-d94de527d86e">IMpeg2Data::GetStreamOfSections</a>.)
+
+When the event is signaled, examine the <b>hr</b> field of the <b>MPEG_STREAM_BUFFER</b> structure. If this value is a success code, the request was successful and the buffer contains valid data. To get more data, call the <b>SupplyDataBuffer</b> method again and wait for the event to be signaled.
+
+The section headers are not converted from network byte order or otherwise processed.
+
+If the object is still waiting for data, this method returns E_FAIL.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/189c921a-ec49-48dc-8c60-3d3ec2a648ca">IMpeg2Stream Interface</a>
+ 
+
+ 
+

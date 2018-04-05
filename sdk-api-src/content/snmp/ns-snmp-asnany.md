@@ -1,0 +1,372 @@
+---
+UID: NS:snmp.AsnAny
+title: AsnAny
+author: windows-driver-content
+description: The AsnAny structure contains an SNMP variable type and value. This structure is a member of the SnmpVarBind structure that is used as a parameter in many of the SNMP functions. This structure is not used by the WinSNMP API functions.
+old-location: snmp\asnany_str.htm
+old-project: SNMP
+ms.assetid: ce8d002e-f357-499c-b976-f8ebaf1e7142
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: ASN_BITS, ASN_COUNTER32, ASN_COUNTER64, ASN_GAUGE32, ASN_INTEGER, ASN_INTEGER32, ASN_IPADDRESS, ASN_OBJECTIDENTIFIER, ASN_OCTETSTRING, ASN_OPAQUE, ASN_SEQUENCE, ASN_TIMETICKS, ASN_UNSIGNED32, AsnAny, AsnAny structure [SNMP], AsnObjectSyntax, SNMP_EXCEPTION_ENDOFMIBVIEW, SNMP_EXCEPTION_NOSUCHINSTANCE, SNMP_EXCEPTION_NOSUCHOBJECT, _snmp_asnany_str, snmp.asnany_str, snmp/AsnAny
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: struct
+req.header: snmp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: AsnAny
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Snmp.h
+api_name:
+-	AsnAny
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 6.01
+---
+
+# AsnAny structure
+
+
+## -description
+
+
+<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://msdn.microsoft.com/6429e748-e0bf-431a-8989-db5b211665d5">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
+
+The
+				<b>AsnAny</b> structure contains an SNMP variable type and value. This structure is a member of the 
+<a href="https://msdn.microsoft.com/40f9930d-93d1-45eb-aa3a-499947004fcf">SnmpVarBind</a> structure that is used as a parameter in many of the SNMP functions. This structure is not used by the 
+<a href="https://msdn.microsoft.com/54d9b61a-815a-41c3-9365-ec4478acc3f2">WinSNMP API</a> functions.
+
+
+## -struct-fields
+
+
+
+
+### -field asnValue
+
+Contains the variable's value. This member can be only one of the following values.
+
+
+
+#### number
+
+<b>Type: <b>AsnInteger32</b>
+</b>
+Accesses a 32-bit signed integer variable.
+
+
+
+#### unsigned32
+
+<b>Type: <b>AsnUnsigned32</b>
+</b>
+Accesses a 32-bit unsigned integer variable.
+
+
+
+#### counter64
+
+<b>Type: <b>AsnCounter64</b>
+</b>
+Accesses a counter variable that increases until it reaches a maximum value of (2^64) – 1.
+
+
+
+#### string
+
+<b>Type: <b>AsnOctetString</b>
+</b>
+Accesses an octet string variable.
+
+
+
+#### bits
+
+<b>Type: <b>AsnBits</b>
+</b>
+Accesses a variable that is an enumeration of named bits with non-negative, contiguous values, starting at zero.
+
+
+
+#### object
+
+<b>Type: <b>AsnObjectIdentifier</b>
+</b>
+Accesses an object identifier variable.
+
+
+
+#### sequence
+
+<b>Type: <b>AsnSequence</b>
+</b>
+Accesses an ASN sequence variable.
+
+
+
+#### address
+
+<b>Type: <b>AsnIPAddress</b>
+</b>
+Accesses an IP address variable.
+
+
+
+#### counter
+
+<b>Type: <b>AsnCounter32</b>
+</b>
+Accesses a counter variable that increases until it reaches a maximum value of (2^32) – 1.
+
+
+
+#### gauge
+
+<b>Type: <b>AsnGauge32</b>
+</b>
+Accesses a gauge variable.
+
+
+
+#### ticks
+
+<b>Type: <b>AsnTimeticks</b>
+</b>
+Accesses a timeticks counter variable that is relative to a specific timer event.
+
+
+
+#### arbitrary
+
+<b>Type: <b>AsnOpaque</b>
+</b>
+Accesses an opaque variable.
+
+
+### -field asnType
+
+Type: <b>BYTE</b>
+
+Indicates the variable's type. This member must be only one of the following values.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="ASN_INTEGER"></a><a id="asn_integer"></a><dl>
+<dt><b>ASN_INTEGER</b></dt>
+</dl>
+</td>
+<td width="60%">
+Indicates a 32-bit signed integer variable.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="ASN_INTEGER32"></a><a id="asn_integer32"></a><dl>
+<dt><b>ASN_INTEGER32</b></dt>
+</dl>
+</td>
+<td width="60%">
+Indicates a 32-bit signed integer variable.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="ASN_UNSIGNED32"></a><a id="asn_unsigned32"></a><dl>
+<dt><b>ASN_UNSIGNED32</b></dt>
+</dl>
+</td>
+<td width="60%">
+Indicates a 32-bit unsigned integer variable. For more information, see the following Remarks section.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="ASN_COUNTER64"></a><a id="asn_counter64"></a><dl>
+<dt><b>ASN_COUNTER64</b></dt>
+</dl>
+</td>
+<td width="60%">
+Indicates a counter variable that increases until it reaches a maximum value of (2^64) – 1.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="ASN_OCTETSTRING"></a><a id="asn_octetstring"></a><dl>
+<dt><b>ASN_OCTETSTRING</b></dt>
+</dl>
+</td>
+<td width="60%">
+Indicates an octet string variable.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="ASN_BITS"></a><a id="asn_bits"></a><dl>
+<dt><b>ASN_BITS</b></dt>
+</dl>
+</td>
+<td width="60%">
+Indicates a variable that is an enumeration of named bits.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="ASN_OBJECTIDENTIFIER"></a><a id="asn_objectidentifier"></a><dl>
+<dt><b>ASN_OBJECTIDENTIFIER</b></dt>
+</dl>
+</td>
+<td width="60%">
+Indicates an object identifier variable.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="ASN_SEQUENCE"></a><a id="asn_sequence"></a><dl>
+<dt><b>ASN_SEQUENCE</b></dt>
+</dl>
+</td>
+<td width="60%">
+Indicates an ASN sequence variable.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="ASN_IPADDRESS"></a><a id="asn_ipaddress"></a><dl>
+<dt><b>ASN_IPADDRESS</b></dt>
+</dl>
+</td>
+<td width="60%">
+Indicates an IP address variable.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="ASN_COUNTER32"></a><a id="asn_counter32"></a><dl>
+<dt><b>ASN_COUNTER32</b></dt>
+</dl>
+</td>
+<td width="60%">
+Indicates a counter variable.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="ASN_GAUGE32"></a><a id="asn_gauge32"></a><dl>
+<dt><b>ASN_GAUGE32</b></dt>
+</dl>
+</td>
+<td width="60%">
+Indicates a gauge variable. For more information, see the following Remarks section.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="ASN_TIMETICKS"></a><a id="asn_timeticks"></a><dl>
+<dt><b>ASN_TIMETICKS</b></dt>
+</dl>
+</td>
+<td width="60%">
+Indicates a timeticks variable.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="ASN_OPAQUE"></a><a id="asn_opaque"></a><dl>
+<dt><b>ASN_OPAQUE</b></dt>
+</dl>
+</td>
+<td width="60%">
+Indicates an opaque variable.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SNMP_EXCEPTION_NOSUCHOBJECT"></a><a id="snmp_exception_nosuchobject"></a><dl>
+<dt><b>SNMP_EXCEPTION_NOSUCHOBJECT</b></dt>
+</dl>
+</td>
+<td width="60%">
+Indicates that the object provided is not available.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SNMP_EXCEPTION_NOSUCHINSTANCE"></a><a id="snmp_exception_nosuchinstance"></a><dl>
+<dt><b>SNMP_EXCEPTION_NOSUCHINSTANCE</b></dt>
+</dl>
+</td>
+<td width="60%">
+Indicates that the instance provided is not available.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SNMP_EXCEPTION_ENDOFMIBVIEW"></a><a id="snmp_exception_endofmibview"></a><dl>
+<dt><b>SNMP_EXCEPTION_ENDOFMIBVIEW</b></dt>
+</dl>
+</td>
+<td width="60%">
+Indicates that the end of the MIB view has been reached.
+
+</td>
+</tr>
+</table>
+ 
+
+
+## -remarks
+
+
+
+To use the definition of the Unsigned32 type described in RFC 1902, you can specify the ASN_GAUGE32 variable type. Currently the ASN_UNSIGNED32 variable type specifies the UInteger32 type described in RFC 1442.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/b6dacc85-893d-4825-93df-729333b491b3">SNMP Structures</a>
+
+
+
+<a href="https://msdn.microsoft.com/499e912b-0821-452e-81f6-8a8250875979">Simple Network Management Protocol (SNMP) Overview</a>
+
+
+
+<a href="https://msdn.microsoft.com/40468bf2-0e91-448b-a2e5-b84b786c67a2">SnmpExtensionMonitor</a>
+
+
+
+<a href="https://msdn.microsoft.com/40f9930d-93d1-45eb-aa3a-499947004fcf">SnmpVarBind</a>
+ 
+
+ 
+

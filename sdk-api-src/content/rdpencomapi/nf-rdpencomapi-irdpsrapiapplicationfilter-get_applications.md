@@ -1,0 +1,72 @@
+---
+UID: NF:rdpencomapi.IRDPSRAPIApplicationFilter.get_Applications
+title: IRDPSRAPIApplicationFilter::get_Applications method
+author: windows-driver-content
+description: The list of sharable applications.
+old-location: rdp\irdpsrapiapplicationfilter_applications.htm
+old-project: Rdp
+ms.assetid: 08704192-320d-44f2-a811-f8565285bd30
+ms.author: windowsdriverdev
+ms.date: 3/28/2018
+ms.keywords: Applications property [RDP], Applications property [RDP], IRDPSRAPIApplicationFilter interface, Applications property [RDP], RDPSRAPIApplicationFilter object, IRDPSRAPIApplicationFilter, IRDPSRAPIApplicationFilter interface [RDP], Applications property, IRDPSRAPIApplicationFilter.Applications, IRDPSRAPIApplicationFilter::get_Applications, RDPSRAPIApplicationFilter object [RDP], Applications property, get_Applications,IRDPSRAPIApplicationFilter.get_Applications, rdp.irdpsrapiapplicationfilter_applications, rdpencomapi/IRDPSRAPIApplicationFilter::Applications, rdpencomapi/IRDPSRAPIApplicationFilter::get_Applications
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: rdpencomapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: RdpEncomAPI.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: RdpEncomAPI.tlb
+req.typenames: RDPENCOMAPI_CONSTANTS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	RdpEncom.dll
+api_name:
+-	IRDPSRAPIApplicationFilter.Applications
+-	IRDPSRAPIApplicationFilter.get_Applications
+-	RDPSRAPIApplicationFilter.Applications
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: RdpEncom.dll
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# IRDPSRAPIApplicationFilter::get_Applications method
+
+
+## -description
+
+
+The list of sharable applications.
+
+This property is read-only.
+
+
+## -parameters
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/6a08c948-1b25-4a36-93c8-23e7e3f4fb08">IRDPSRAPIApplicationFilter</a>
+ 
+
+ 
+

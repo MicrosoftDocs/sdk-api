@@ -1,0 +1,75 @@
+---
+UID: NE:d2d1effects.D2D1_COLORMANAGEMENT_ALPHA_MODE
+title: D2D1_COLORMANAGEMENT_ALPHA_MODE
+author: windows-driver-content
+description: Indicates how the Color management effect should interpret alpha data that is contained in the input image.
+old-location: direct2d\d2d1_colormanagement_alpha_mode.htm
+old-project: Direct2D
+ms.assetid: CEC066A7-085E-4657-B9CF-9F8B8E8F4FFE
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: D2D1_COLORMANAGEMENT_ALPHA_MODE, D2D1_COLORMANAGEMENT_ALPHA_MODE enumeration [Direct2D], D2D1_COLORMANAGEMENT_ALPHA_MODE_PREMULTIPLIED, D2D1_COLORMANAGEMENT_ALPHA_MODE_STRAIGHT, d2d1effects/D2D1_COLORMANAGEMENT_ALPHA_MODE, d2d1effects/D2D1_COLORMANAGEMENT_ALPHA_MODE_PREMULTIPLIED, d2d1effects/D2D1_COLORMANAGEMENT_ALPHA_MODE_STRAIGHT, direct2d.d2d1_colormanagement_alpha_mode
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: enum
+req.header: d2d1effects.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: D2D1_COLORMANAGEMENT_ALPHA_MODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	d2d1effects.h
+api_name:
+-	D2D1_COLORMANAGEMENT_ALPHA_MODE
+product: Windows
+targetos: Windows
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
+---
+
+# D2D1_COLORMANAGEMENT_ALPHA_MODE enumeration
+
+
+## -description
+
+
+
+          Indicates how the <a href="https://msdn.microsoft.com/7351C4B4-F289-4236-BB42-1B3BD8753248">Color management effect</a> should interpret alpha data that is contained in the input image.
+        
+
+
+## -enum-fields
+
+
+
+
+### -field D2D1_COLORMANAGEMENT_ALPHA_MODE_PREMULTIPLIED
+
+The effect assumes the alpha mode is premultiplied.
+
+
+### -field D2D1_COLORMANAGEMENT_ALPHA_MODE_STRAIGHT
+
+The effect assumes the alpha mode is straight.
+
+
+### -field D2D1_COLORMANAGEMENT_ALPHA_MODE_FORCE_DWORD
+
+
+

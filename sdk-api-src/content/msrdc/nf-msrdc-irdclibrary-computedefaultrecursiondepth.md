@@ -1,0 +1,95 @@
+---
+UID: NF:msrdc.IRdcLibrary.ComputeDefaultRecursionDepth
+title: IRdcLibrary::ComputeDefaultRecursionDepth method
+author: windows-driver-content
+description: Computes the maximum level of recursion for the specified file size.
+old-location: rdc\irdclibrary_computedefaultrecursiondepth.htm
+old-project: Rdc
+ms.assetid: b42c7b46-9f3c-46d2-a6a7-b5176fc40645
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: ComputeDefaultRecursionDepth method [Remote Differential Compression], ComputeDefaultRecursionDepth method [Remote Differential Compression], IRdcLibrary interface, ComputeDefaultRecursionDepth,IRdcLibrary.ComputeDefaultRecursionDepth, IRdcLibrary, IRdcLibrary interface [Remote Differential Compression], ComputeDefaultRecursionDepth method, IRdcLibrary::ComputeDefaultRecursionDepth, fs.irdclibrary_computedefaultrecursiondepth, msrdc/IRdcLibrary::ComputeDefaultRecursionDepth, rdc.irdclibrary_computedefaultrecursiondepth
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: msrdc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: MsRdc.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: MsRdc.dll
+req.typenames: RdcMappingAccessMode
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	MsRdc.dll
+api_name:
+-	IRdcLibrary.ComputeDefaultRecursionDepth
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: MsRdc.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 SP2 or later
+---
+
+# IRdcLibrary::ComputeDefaultRecursionDepth method
+
+
+## -description
+
+
+The 
+   <b>ComputeDefaultRecursionDepth</b> 
+ method computes the maximum level of recursion for the specified file size. The depth returned 
+ by the method may be larger than <b>MSRDC_MAXIMUM_DEPTH</b>. The caller must compare the value 
+ returned through the <i>depth</i> parameter with 
+ <b>MSRDC_MAXIMUM_DEPTH</b>.
+
+
+## -parameters
+
+
+
+
+### -param fileSize [in]
+
+The approximate size of the file.
+
+
+### -param depth [out]
+
+Pointer to a <b>ULONG</b> that will receive the suggested maximum recursion 
+    depth.
+
+
+## -returns
+
+
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/941fa35c-20fa-4843-89be-26112ff7eec5">IRdcLibrary</a>
+ 
+
+ 
+

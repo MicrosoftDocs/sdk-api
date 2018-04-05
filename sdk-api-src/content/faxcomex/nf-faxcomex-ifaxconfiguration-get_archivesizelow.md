@@ -1,0 +1,84 @@
+---
+UID: NF:faxcomex.IFaxConfiguration.get_ArchiveSizeLow
+title: IFaxConfiguration::get_ArchiveSizeLow method
+author: windows-driver-content
+description: The value that specifies the low-order 32-bit value (in bytes) for the size of the fax message archive.
+old-location: fax\_mfax_ifaxconfiguration_archivesizelow.htm
+old-project: Fax
+ms.assetid: e10cde26-deec-47b8-bc69-0b785087ab74
+ms.author: windowsdriverdev
+ms.date: 3/22/2018
+ms.keywords: ArchiveSizeLow property [Fax Service], ArchiveSizeLow property [Fax Service], IFaxConfiguration interface, IFaxConfiguration, IFaxConfiguration interface [Fax Service], ArchiveSizeLow property, IFaxConfiguration.ArchiveSizeLow, IFaxConfiguration::get_ArchiveSizeLow, fax._mfax_ifaxconfiguration_archivesizelow, faxcomex/IFaxConfiguration::ArchiveSizeLow, faxcomex/IFaxConfiguration::get_ArchiveSizeLow, get_ArchiveSizeLow,IFaxConfiguration.get_ArchiveSizeLow
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: faxcomex.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Faxcomex.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: FAX_SMTP_AUTHENTICATION_TYPE_ENUM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Fxscomex.dll
+api_name:
+-	IFaxConfiguration.ArchiveSizeLow
+-	IFaxConfiguration.get_ArchiveSizeLow
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Fxscomex.dll
+req.irql: 
+req.product: Internet Explorer 5
+---
+
+# IFaxConfiguration::get_ArchiveSizeLow method
+
+
+## -description
+
+
+The value that specifies the low-order 32-bit value (in bytes) for the size of the fax message archive.
+
+This property is read-only.
+
+
+## -parameters
+
+
+## -remarks
+
+
+
+Because the archive may exceed 4 gigabytes (GB) in size, the archive size is described using two long values. <b>ArchiveSizeLow</b> is the low 32-bit value of the archive size. <a href="https://msdn.microsoft.com/3386ec80-be4e-4105-ab57-dd634b57f67f">ArchiveSizeHigh</a> is the high 32-bit value of the archive size. The size of the archive is: <b>ArchiveSizeLow</b> + 4 GB * <b>ArchiveSizeHigh</b>. 
+
+If both the <b>ArchiveSizeLow</b> and <a href="https://msdn.microsoft.com/3386ec80-be4e-4105-ab57-dd634b57f67f">ArchiveSizeHigh</a> properties have the value 0xffffffff, they specify an invalid archive size, and you should ignore both property values.
+
+To read this property, a user must have the <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a25531">farQUERY_CONFIG</a> access right.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/20a771ed-98c3-4d26-89dc-799008954767">IFaxConfiguration</a>
+ 
+
+ 
+

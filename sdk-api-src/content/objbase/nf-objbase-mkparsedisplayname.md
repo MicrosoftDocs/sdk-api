@@ -1,0 +1,187 @@
+---
+UID: NF:objbase.MkParseDisplayName
+title: MkParseDisplayName function
+author: windows-driver-content
+description: Converts a string into a moniker that identifies the object named by the string.
+old-location: com\mkparsedisplayname.htm
+old-project: com
+ms.assetid: ada46dd3-e2c5-4ff5-89bd-3805f98b247b
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: MkParseDisplayName, MkParseDisplayName function [COM], _com_MkParseDisplayName, com.mkparsedisplayname, objbase/MkParseDisplayName
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: objbase.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: COMSD
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Ole32.dll
+-	Ext-MS-Win-COM-OLE32-l1-1-1.dll
+-	Ext-MS-Win-COM-OLE32-l1-1-2.dll
+-	Ext-MS-Win-OLE32-IE-Ext-l1-1-0.dll
+-	ext-ms-win-com-ole32-l1-1-3.dll
+-	Ext-MS-Win-Com-Ole32-L1-1-4.dll
+api_name:
+-	MkParseDisplayName
+product: Windows
+targetos: Windows
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# MkParseDisplayName function
+
+
+## -description
+
+
+Converts a string into a moniker that identifies the object named by the string.
+
+This function is the inverse of the <a href="https://msdn.microsoft.com/424036c9-c097-4507-b562-4a01f9199b1f">IMoniker::GetDisplayName</a> operation, which retrieves the display name associated with a moniker.
+
+
+
+## -parameters
+
+
+
+
+### -param pbc [in]
+
+A pointer to the <a href="https://msdn.microsoft.com/e4c8abb5-0c89-44dd-8d95-efbfcc999b46">IBindCtx</a> interface on the bind context object to be used in this binding operation.
+
+
+### -param szUserName [in]
+
+A pointer to the display name to be parsed.
+
+
+### -param pchEaten [out]
+
+A pointer to the number of characters of <i>szUserName</i> that were consumed. If the function is successful, *<i>pchEaten</i> is the length of <i>szUserName</i>; otherwise, it is the number of characters successfully parsed.
+
+
+### -param ppmk [out]
+
+The address of the <a href="https://msdn.microsoft.com/17f4c1df-7a9c-42ef-a888-70cd8d85f070">IMoniker</a>* pointer variable that receives the interface pointer to the moniker that was built from <i>szUserName</i>. When successful, the function has called <a href="https://msdn.microsoft.com/b4316efd-73d4-4995-b898-8025a316ba63">AddRef</a> on the moniker and the caller is responsible for calling <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">Release</a>. If an error occurs, the specified interface pointer will contain as much of the moniker that the method was able to create before the error occurred.
+
+
+## -returns
+
+
+
+This function can return the standard return value E_OUTOFMEMORY, as well as the following values.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The parse operation was successful and the moniker was created.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>MK_E_SYNTAX</b></dt>
+</dl>
+</td>
+<td width="60%">
+Error in the syntax of a file name or an error in the syntax of the resulting composite moniker.
+
+</td>
+</tr>
+</table>
+ 
+
+This function can also return any of the error values returned by <a href="https://msdn.microsoft.com/b5ce39ff-3387-4f72-9aea-5a26eed3810c">IMoniker::BindToObject</a>, <a href="https://msdn.microsoft.com/08569037-7ecd-4e63-9f94-c2552c327800">IOleItemContainer::GetObject</a>, or <a href="https://msdn.microsoft.com/bf18320c-1ff3-4280-bd67-70f6c2998285">IParseDisplayName::ParseDisplayName</a>.
+
+
+
+
+
+## -remarks
+
+
+
+The <b>MkParseDisplayName</b> function parses a human-readable name into a moniker that can be used to identify a link source. The resulting moniker can be a simple moniker (such as a file moniker), or it can be a generic composite made up of the component moniker pieces. For example, the display name "c:\mydir\somefile!item 1" 
+
+could be parsed into the following generic composite moniker: FileMoniker based on "c:\mydir\somefile") + (ItemMoniker based on "item 1").
+
+The most common use of <b>MkParseDisplayName</b> is in the implementation of the standard <b>Links</b> dialog box, which allows an end user to specify the source of a linked object by typing in a string. You may also need to call <b>MkParseDisplayName</b> if your application supports a macro language that permits remote references (reference to elements outside of the document). 
+
+
+
+Parsing a display name often requires activating the same objects that would be activated during a binding operation, so it can be just as expensive (in terms of performance) as binding. Objects that are bound during the parsing operation are cached in the bind context passed to the function. If you plan to bind the moniker returned by <b>MkParseDisplayName</b>, it is best to do so immediately after the function returns, using the same bind context, which removes the need to activate objects a second time.
+
+<b>MkParseDisplayName</b> parses as much of the display name as it understands into a moniker. The function then calls <a href="https://msdn.microsoft.com/6a5a1f14-f14f-404b-90d8-0afceafc087c">IMoniker::ParseDisplayName</a> on the newly created moniker, passing the remainder of the display name. The moniker returned by <b>ParseDisplayName</b> is composed onto the end of the existing moniker and, if any of the display name remains unparsed, <b>ParseDisplayName</b> is called on the result of the composition. This process is repeated until the entire display name has been parsed.
+
+<b>MkParseDisplayName</b> attempts the following strategies to parse the beginning of the display name, using the first one that succeeds:
+
+<ol>
+<li>
+The function looks in the Running Object Table for file monikers corresponding to all prefixes of the display name that consist solely of valid file name characters. This strategy can identify documents that are as yet unsaved.
+
+</li>
+<li>
+The function checks the maximal prefix of the display name, which consists solely of valid file name characters, to see if an OLE 1 document is registered by that name. In this case, the returned moniker is an internal moniker provided by the OLE 1 compatibility layer of OLE 2.
+
+</li>
+<li>
+The function consults the file system to check whether a prefix of the display name matches an existing file. The file name can be drive-absolute, drive-relative, working-directory relative, or begin with an explicit network share name. This is the common case.
+
+</li>
+<li>
+If the initial character of the display name is '@', the function finds the longest string immediately following it  that conforms to the legal ProgID syntax. The function converts this string to a CLSID using the <a href="https://msdn.microsoft.com/89fb20af-65bf-4ed4-9f71-eb707ee8eb09">CLSIDFromProgID</a> function. If the CLSID represents an OLE 2 class, the function loads the corresponding class object and asks for an <a href="https://msdn.microsoft.com/37844d9b-35ce-4d30-8a58-dac4c671896f">IParseDisplayName</a> interface pointer. The resulting <b>IParseDisplayName</b> interface is then given the whole string to parse, starting with the '@'. If the CLSID represents an OLE 1 class, then the function treats the string following the ProgID as an OLE1/DDE link designator having <i>filename</i>|<i>item</i> syntax.
+
+</li>
+</ol>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/424036c9-c097-4507-b562-4a01f9199b1f">IMoniker::GetDisplayName</a>
+
+
+
+<a href="https://msdn.microsoft.com/6a5a1f14-f14f-404b-90d8-0afceafc087c">IMoniker::ParseDisplayName</a>
+
+
+
+<a href="https://msdn.microsoft.com/37844d9b-35ce-4d30-8a58-dac4c671896f">IParseDisplayName</a>
+ 
+
+ 
+

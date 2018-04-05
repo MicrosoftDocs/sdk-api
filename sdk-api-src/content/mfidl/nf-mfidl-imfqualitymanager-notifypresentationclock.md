@@ -1,0 +1,107 @@
+---
+UID: NF:mfidl.IMFQualityManager.NotifyPresentationClock
+title: IMFQualityManager::NotifyPresentationClock method
+author: windows-driver-content
+description: Called when the Media Session selects a presentation clock.
+old-location: mf\imfqualitymanager_notifypresentationclock.htm
+old-project: medfound
+ms.assetid: b358d98e-7b02-4c58-b556-cfa15436e435
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: IMFQualityManager, IMFQualityManager interface [Media Foundation], NotifyPresentationClock method, IMFQualityManager::NotifyPresentationClock, NotifyPresentationClock method [Media Foundation], NotifyPresentationClock method [Media Foundation], IMFQualityManager interface, NotifyPresentationClock,IMFQualityManager.NotifyPresentationClock, b358d98e-7b02-4c58-b556-cfa15436e435, mf.imfqualitymanager_notifypresentationclock, mfidl/IMFQualityManager::NotifyPresentationClock
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: mfidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MF_URL_TRUST_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfuuid.lib
+-	mfuuid.dll
+api_name:
+-	IMFQualityManager.NotifyPresentationClock
+product: Windows
+targetos: Windows
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IMFQualityManager::NotifyPresentationClock method
+
+
+## -description
+
+
+
+Called when the Media Session selects a presentation clock.
+
+
+
+
+## -parameters
+
+
+
+
+### -param pClock [in]
+
+Pointer to the <a href="https://msdn.microsoft.com/979c4f77-cbee-468c-8f6b-e68442d89025">IMFPresentationClock</a> interface of the presentation clock. If this parameter is <b>NULL</b>, the quality manager should release any references to the presentation clock.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/66781a1f-7469-4222-9e99-6b1415830f4c">IMFQualityManager</a>
+ 
+
+ 
+

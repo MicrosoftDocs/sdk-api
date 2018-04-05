@@ -1,0 +1,198 @@
+---
+UID: NF:ntdsapi.DsReplicaSyncAllA
+title: DsReplicaSyncAllA function
+author: windows-driver-content
+description: Synchronizes a server with all other servers, using transitive replication, as necessary.
+old-location: ad\dsreplicasyncall.htm
+old-project: AD
+ms.assetid: 2608adde-4f18-4048-a96f-d736ff09cd4b
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: DS_REPSYNCALL_ABORT_IF_SERVER_UNAVAILABLE, DS_REPSYNCALL_CROSS_SITE_BOUNDARIES, DS_REPSYNCALL_DO_NOT_SYNC, DS_REPSYNCALL_ID_SERVERS_BY_DN, DS_REPSYNCALL_NO_OPTIONS, DS_REPSYNCALL_PUSH_CHANGES_OUTWARD, DS_REPSYNCALL_SKIP_INITIAL_CHECK, DS_REPSYNCALL_SYNC_ADJACENT_SERVERS_ONLY, DsReplicaSyncAll, DsReplicaSyncAll function [Active Directory], DsReplicaSyncAllA, DsReplicaSyncAllW, ad.dsreplicasyncall, ntdsapi/DsReplicaSyncAll, ntdsapi/DsReplicaSyncAllA, ntdsapi/DsReplicaSyncAllW
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: ntdsapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: DsReplicaSyncAllW (Unicode) and DsReplicaSyncAllA (ANSI)
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: DS_REPL_OP_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Ntdsapi.dll
+api_name:
+-	DsReplicaSyncAll
+-	DsReplicaSyncAllA
+-	DsReplicaSyncAllW
+product: Windows
+targetos: Windows
+req.lib: Ntdsapi.lib
+req.dll: Ntdsapi.dll
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# DsReplicaSyncAllA function
+
+
+## -description
+
+
+The <b>DsReplicaSyncAll</b> function synchronizes a server with all other servers, using transitive replication, as necessary. By default, <b>DsReplicaSyncAll</b> synchronizes the server with all other servers in its site; however, you can also use it to synchronize across site boundaries.
+
+
+## -parameters
+
+
+
+
+### -param hDS [in]
+
+Contains a directory service handle obtained from either the 
+<a href="https://msdn.microsoft.com/c73cd16d-ccfd-4f61-b1c5-50130bef64d7">DSBind</a> or 
+<a href="https://msdn.microsoft.com/708e3874-852c-4a57-bf4b-edaf98818fe5">DSBindWithCred</a> function.
+
+
+### -param pszNameContext [in]
+
+Pointer to a null-terminated string that specifies the distinguished name of the naming context to synchronize. The <i>pszNameContext</i> parameter is optional; if its value is <b>NULL</b>, the configuration naming context is replicated.
+
+
+### -param ulFlags [in]
+
+Passes additional data used to process the request. This parameter can be a combination of the following values.
+
+
+
+#### DS_REPSYNCALL_ABORT_IF_SERVER_UNAVAILABLE
+
+Generates a fatal error if any server cannot be contacted or if any server is unreachable due to a disconnected or broken topology.
+
+
+
+#### DS_REPSYNCALL_CROSS_SITE_BOUNDARIES
+
+Synchronizes across site boundaries. By default, <b>DsReplicaSyncAll</b> attempts to synchronize only with DCs in the same site as the home system. Set this flag to attempt to synchronize with all DCs in the enterprise forest. However, the DCs can be synchronized only if connected by a synchronous (RPC) transport.
+
+
+
+#### DS_REPSYNCALL_DO_NOT_SYNC
+
+Disables all synchronization. The topology is still analyzed, and unavailable or unreachable servers are still identified.
+
+
+
+#### DS_REPSYNCALL_ID_SERVERS_BY_DN
+
+In the event of a non-fatal error, returns server distinguished names (DN) instead of their GUID DNS names.
+
+
+
+#### DS_REPSYNCALL_NO_OPTIONS
+
+This option has no effect.
+
+
+
+#### DS_REPSYNCALL_PUSH_CHANGES_OUTWARD
+
+Pushes changes from the home server out to all partners using transitive replication. This reverses the direction of replication, and the order of execution of the replication sets from the usual "pulling" mode of execution.
+
+
+
+#### DS_REPSYNCALL_SKIP_INITIAL_CHECK
+
+Assumes that all servers are responding. This speeds operation of the <b>DsReplicaSyncAll</b> function, but if some servers are not responding, some transitive replications may be blocked.
+
+
+
+#### DS_REPSYNCALL_SYNC_ADJACENT_SERVERS_ONLY
+
+Disables transitive replication. Synchronization is performed only with adjacent servers.
+
+
+### -param pFnCallBack [in]
+
+Pointer to an application-defined <a href="https://msdn.microsoft.com/b5243a07-b058-4384-aafc-bf80078d904b">SyncUpdateProc</a> function called by the <b>DsReplicaSyncAll</b> function when it encounters an error, initiates synchronization of two servers, completes synchronization of two servers, or finishes synchronization of all the servers in the site.
+
+
+
+#### 
+
+
+### -param pCallbackData [in, optional]
+
+Pointer to application-defined data passed as the first argument of the <a href="https://msdn.microsoft.com/b5243a07-b058-4384-aafc-bf80078d904b">SyncUpdateProc</a> callback function pointed to by the <i>pFnCallBack</i> parameter.
+
+
+### -param pErrors [out, optional]
+
+A NULL-terminated array of pointers to  
+<a href="https://msdn.microsoft.com/70af4e3e-1f0e-49c5-b8c6-5e89114ed4ea">DS_REPSYNCALL_ERRINFO</a> structures that contain errors that occurred during synchronization. The memory used to hold both the array of pointers and the MsCS\mscs\clusctl_resource_type_get_private_property_fmts.xml data is allocated as a single block of memory and should be freed when no longer required  by a single call to <b>LocalFree</b> with the pointer value returned in <i>pErrors</i> used as the argument.
+
+
+## -returns
+
+
+
+If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
+
+If the function fails, the return value is as follows.
+
+
+
+
+## -remarks
+
+
+
+The <b>DsReplicaSyncAll</b> function attempts to bind to all servers before generating a topology to synchronize from. If a server cannot be contacted, the function excludes that server from the topology and attempts to work around it. Setting the <b>DS_REPSYNCALL_SKIP_INITIAL_CHECK</b> flag in <i>ulFlags</i> bypasses the initial binding.
+
+If a server cannot be contacted, the <b>DsReplicaSyncAll</b> function attempts to route around it and replicate from as many servers as possible, unless <b>DS_REPSYNCALL_ABORT_IF_SERVER_UNAVAILABLE</b> is set in <i>ulFlags</i>.
+
+The <b>DsReplicaSyncAll</b> function can use the callback function pointed to by <i>pFnCallBack</i> to keep an end user informed about the current status of the replication. Execution of the <b>DsReplicaSyncAll</b> function pauses when it calls the function pointed to by <i>pFnCallBack</i>. If the return value from the callback function is <b>TRUE</b>, replication continues; otherwise, the <b>DsReplicaSyncAll</b> function terminates replication.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/70af4e3e-1f0e-49c5-b8c6-5e89114ed4ea">DS_REPSYNCALL_ERRINFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/3b0005cb-0fb6-492c-89e5-8a18a88f881b">DS_REPSYNCALL_UPDATE</a>
+
+
+
+<a href="https://msdn.microsoft.com/a92783c2-ffb8-473e-8484-1c05ca5453ff">Domain Controller and Replication
+  Management Functions</a>
+
+
+
+<a href="https://msdn.microsoft.com/20c7f96d-f298-4321-a6f5-910c25e418db">DsReplicaSync</a>
+
+
+
+<a href="https://msdn.microsoft.com/b5243a07-b058-4384-aafc-bf80078d904b">SyncUpdateProc</a>
+ 
+
+ 
+

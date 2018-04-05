@@ -1,0 +1,125 @@
+---
+UID: NF:uianimation.IUIAnimationPrimitiveInterpolation.AddCubic
+title: IUIAnimationPrimitiveInterpolation::AddCubic method
+author: windows-driver-content
+description: Adds a cubic polynomial segment that describes the shape of a transition curve to the animation function.
+old-location: uianimation\iuianimationprimitiveinterpolation_addcubic.htm
+old-project: UIAnimation
+ms.assetid: 98738F6A-364E-491F-BCA3-F8B74B036D89
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: AddCubic method [Windows Animation], AddCubic method [Windows Animation], IUIAnimationPrimitiveInterpolation interface, AddCubic,IUIAnimationPrimitiveInterpolation.AddCubic, IUIAnimationPrimitiveInterpolation, IUIAnimationPrimitiveInterpolation interface [Windows Animation], AddCubic method, IUIAnimationPrimitiveInterpolation::AddCubic, uianimation.iuianimationprimitiveinterpolation_addcubic, uianimation/IUIAnimationPrimitiveInterpolation::AddCubic
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: uianimation.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8, Windows 7 and Platform Update for Windows 7 [desktop apps | UWP apps]
+req.target-min-winversvr: None supported
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: UIAnimation.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: UI_ANIMATION_TIMER_CLIENT_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	UIAnimation.dll
+api_name:
+-	IUIAnimationPrimitiveInterpolation.AddCubic
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: UIAnimation.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# IUIAnimationPrimitiveInterpolation::AddCubic method
+
+
+## -description
+
+
+Adds a cubic polynomial segment that describes the shape of a transition curve to the animation function.
+
+
+## -parameters
+
+
+
+
+### -param dimension
+
+
+
+
+### -param beginOffset [in]
+
+The begin offset for the segment, where 0 corresponds to the start of the transition.
+
+
+### -param constantCoefficient [in]
+
+The cubic polynomial constant coefficient.
+
+
+### -param linearCoefficient [in]
+
+The cubic polynomial linear coefficient.
+
+
+### -param quadraticCoefficient [in]
+
+The cubic polynomial quadratic coefficient.
+
+
+### -param cubicCoefficient [in]
+
+The cubic polynomial cubic coefficient.
+
+
+#### - cDimension [in]
+
+The dimension in which to apply the new segment.
+
+
+## -returns
+
+
+
+If this method succeeds, it returns S_OK. Otherwise, it returns an  <b>HRESULT</b> error code. See <a href="https://msdn.microsoft.com/38f15d61-d415-4c7d-b454-5144fc7c9b1e">Windows Animation Error Codes</a> for a list of error codes.
+
+
+
+
+## -remarks
+
+
+
+This method will fail with an error code of UI_E_INVALID_PRIMITIVE if the start time is either less than 0
+or less than the start time of  a previous segment.
+
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/6EAE7874-1103-4D2E-A325-37E5A95705F5">IUIAnimationPrimitiveInterpolation</a>
+ 
+
+ 
+

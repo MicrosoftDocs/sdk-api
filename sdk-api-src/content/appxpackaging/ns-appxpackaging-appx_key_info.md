@@ -1,0 +1,78 @@
+---
+UID: NS:appxpackaging.APPX_KEY_INFO
+title: APPX_KEY_INFO
+author: windows-driver-content
+description: Windows app package key information.
+old-location: appxpkg\appx_key_info.htm
+old-project: appxpkg
+ms.assetid: 16D21F7E-0F98-47F3-BB96-0E2D263B249B
+ms.author: windowsdriverdev
+ms.date: 3/30/2018
+ms.keywords: APPX_KEY_INFO, APPX_KEY_INFO structure [App packaging and management], PAPPX_KEY_INFO, PAPPX_KEY_INFO structure pointer [App packaging and management], appxpackaging/APPX_KEY_INFO, appxpackaging/PAPPX_KEY_INFO, appxpkg.appx_key_info
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: struct
+req.header: appxpackaging.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: AppxPackaging.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: APPX_KEY_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	AppxPackaging.h
+api_name:
+-	APPX_KEY_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# APPX_KEY_INFO structure
+
+
+## -description
+
+
+Windows app package key information.
+
+
+## -struct-fields
+
+
+
+
+### -field keyLength
+
+The length of the key.
+
+
+### -field keyIdLength
+
+The length of the key Id.
+
+
+### -field key
+
+The app package key.
+
+
+### -field keyId
+
+The app package key Id.
+

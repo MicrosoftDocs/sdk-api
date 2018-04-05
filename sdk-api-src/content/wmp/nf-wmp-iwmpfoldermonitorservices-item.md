@@ -1,0 +1,122 @@
+---
+UID: NF:wmp.IWMPFolderMonitorServices.item
+title: IWMPFolderMonitorServices::item method
+author: windows-driver-content
+description: This method and all other methods of the IWMPFolderMonitorServices interface are deprecated.The item method retrieves the path to the folder corresponding to the specified index.
+old-location: wmp\iwmpfoldermonitorservices_item.htm
+old-project: WMP
+ms.assetid: d9c79b85-ac64-456c-95b2-fe28a8c99fac
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: IWMPFolderMonitorServices, IWMPFolderMonitorServices interface [Windows Media Player], item method, IWMPFolderMonitorServices::item, IWMPFolderMonitorServicesitem, item method [Windows Media Player], item method [Windows Media Player], IWMPFolderMonitorServices interface, item,IWMPFolderMonitorServices.item, wmp.iwmpfoldermonitorservices_item, wmp/IWMPFolderMonitorServices::item
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wmp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Media Player 11.
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WMPSyncState
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	wmp.dll
+api_name:
+-	IWMPFolderMonitorServices.item
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IWMPFolderMonitorServices::item method
+
+
+## -description
+
+
+
+This method and all other methods of the <a href="https://msdn.microsoft.com/42c3b03c-f8f8-4219-91e1-da54a175fb24">IWMPFolderMonitorServices</a> interface are deprecated.
+
+The <b>item</b> method retrieves the path to the folder corresponding to the specified index.
+
+
+
+
+## -parameters
+
+
+
+
+### -param lIndex [in]
+
+A <b>long</b> specifying the index of the folder to retrieve.
+
+
+### -param pbstrFolder [out]
+
+Pointer to a <b>BSTR</b> that receives the folder path string.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+<b>Windows Media Player 10 Mobile: </b>This method is not supported.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/42c3b03c-f8f8-4219-91e1-da54a175fb24">IWMPFolderMonitorServices Interface</a>
+ 
+
+ 
+

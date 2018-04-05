@@ -1,0 +1,84 @@
+---
+UID: NF:avrfsdk.VerifierIsPerUserSettingsEnabled
+title: VerifierIsPerUserSettingsEnabled function
+author: windows-driver-content
+description: Determines whether Application Verifier can use per-user settings.
+old-location: winprog\verifierisperusersettingsenabled.htm
+old-project: DevNotes
+ms.assetid: 29ea23ca-cb11-4b88-8863-9893e94f4e20
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: VerifierIsPerUserSettingsEnabled, VerifierIsPerUserSettingsEnabled function [Windows API], avrfsdk/VerifierIsPerUserSettingsEnabled, winprog.verifierisperusersettingsenabled
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: avrfsdk.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Verifier.dll
+api_name:
+-	VerifierIsPerUserSettingsEnabled
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Verifier.dll
+req.irql: 
+---
+
+# VerifierIsPerUserSettingsEnabled function
+
+
+## -description
+
+
+Determines whether Application Verifier can use per-user settings.
+
+
+## -parameters
+
+
+
+
+
+
+## -returns
+
+
+
+If per-user settings are enabled, the function returns <b>TRUE</b>. Otherwise, it returns <b>FALSE</b>.
+
+
+
+
+## -remarks
+
+
+
+Application Verifier settings are stored in the following registry key <b>HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Image File Execution Options</b> for native applications and <b>HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Windows NT\CurrentVersion\Image File Execution Options</b> for applications running under WOW64. Only administrators can write to these keys.
+
+Starting with Windows Vista, Application Verifier settings can be stored in <b>HKEY_CURRENT_USER</b>. To enable the use of the per-user settings, the administrator must create a REG_DWORD value named <b>ImageExecutionOptions</b> in the <b>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager</b> key, set the low-order bit, and reboot the computer. To disable the use of the per-user settings, the administrator must either clear the bit or delete the registry value and reboot the computer.
+
+This function has no associated import library. You must use the <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a> function to load Verifier.dll and call the <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a> function to get the address of this function.
+
+
+
+
+

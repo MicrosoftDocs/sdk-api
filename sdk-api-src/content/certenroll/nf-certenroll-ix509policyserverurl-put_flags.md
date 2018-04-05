@@ -1,0 +1,80 @@
+---
+UID: NF:certenroll.IX509PolicyServerUrl.put_Flags
+title: IX509PolicyServerUrl::put_Flags method
+author: windows-driver-content
+description: Specifies or retrieves a value that indicates whether the certificate enrollment policy (CEP) server policy information can be loaded from group policy, from the registry, or both.
+old-location: security\ix509policyserverurl_flags.htm
+old-project: SecCertEnroll
+ms.assetid: 60a9dee9-6311-45b6-8fe9-f916878a64dd
+ms.author: windowsdriverdev
+ms.date: 3/29/2018
+ms.keywords: Flags property [Security], Flags property [Security], IX509PolicyServerUrl interface, IX509PolicyServerUrl, IX509PolicyServerUrl interface [Security], Flags property, IX509PolicyServerUrl.Flags, IX509PolicyServerUrl::get_Flags, IX509PolicyServerUrl::put_Flags, PsfLocationGroupPolicy, PsfLocationRegistry, certenroll/IX509PolicyServerUrl::Flags, certenroll/IX509PolicyServerUrl::get_Flags, certenroll/IX509PolicyServerUrl::put_Flags, put_Flags,IX509PolicyServerUrl.put_Flags, security.ix509policyserverurl_flags
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: certenroll.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Certenroll.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: X509RequestType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Certenroll.h
+api_name:
+-	IX509PolicyServerUrl.Flags
+-	IX509PolicyServerUrl.get_Flags
+-	IX509PolicyServerUrl.put_Flags
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# IX509PolicyServerUrl::put_Flags method
+
+
+## -description
+
+
+The <b>Flags</b> property specifies or retrieves a value that indicates whether the certificate enrollment policy (CEP) server policy information can be loaded from group policy, from the registry, or both.
+
+This property is read/write.
+
+
+## -parameters
+
+
+## -remarks
+
+
+
+When the PsfLocationGroupPolicy and PsfLocationRegistry flags are combined, this method reads policy information from the local registry and combines it with policy information specified by group policy.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/ad9d61ec-f607-4f71-ad8a-28d821e29c27">IX509PolicyServerUrl</a>
+ 
+
+ 
+

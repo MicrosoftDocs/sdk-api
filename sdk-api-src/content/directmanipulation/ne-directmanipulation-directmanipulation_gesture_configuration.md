@@ -1,0 +1,107 @@
+---
+UID: NE:directmanipulation.DIRECTMANIPULATION_GESTURE_CONFIGURATION
+title: DIRECTMANIPULATION_GESTURE_CONFIGURATION
+author: windows-driver-content
+description: Defines the gestures that can be passed to SetManualGesture.
+old-location: directmanipulation\directmanipulation_gesture_configuration.htm
+old-project: directmanipulation
+ms.assetid: B8EE991B-6DBF-42DE-966F-FA5CB397562C
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: DIRECTMANIPULATION_GESTURE_CONFIGURATION, DIRECTMANIPULATION_GESTURE_CONFIGURATION enumeration [Direct Manipulation], DIRECTMANIPULATION_GESTURE_CROSS_SLIDE_HORIZONTAL, DIRECTMANIPULATION_GESTURE_CROSS_SLIDE_VERTICAL, DIRECTMANIPULATION_GESTURE_DEFAULT, DIRECTMANIPULATION_GESTURE_NONE, DIRECTMANIPULATION_GESTURE_PINCH_ZOOM, directmanipulation.directmanipulation_gesture_configuration, directmanipulation/DIRECTMANIPULATION_GESTURE_CONFIGURATION, directmanipulation/DIRECTMANIPULATION_GESTURE_CROSS_SLIDE_HORIZONTAL, directmanipulation/DIRECTMANIPULATION_GESTURE_CROSS_SLIDE_VERTICAL, directmanipulation/DIRECTMANIPULATION_GESTURE_DEFAULT, directmanipulation/DIRECTMANIPULATION_GESTURE_NONE, directmanipulation/DIRECTMANIPULATION_GESTURE_PINCH_ZOOM
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: enum
+req.header: directmanipulation.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: DirectManipulation.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: DIRECTMANIPULATION_GESTURE_CONFIGURATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	directmanipulation.h
+api_name:
+-	DIRECTMANIPULATION_GESTURE_CONFIGURATION
+product: Windows
+targetos: Windows
+req.lib: Winmm.lib
+req.dll: Winmm.dll
+req.irql: 
+---
+
+# DIRECTMANIPULATION_GESTURE_CONFIGURATION enumeration
+
+
+## -description
+
+
+Defines the gestures that can be passed to <a href="https://msdn.microsoft.com/EBBBCEDB-8BAC-4E87-A69C-9730865A257F">SetManualGesture</a>.
+
+
+## -enum-fields
+
+
+
+
+### -field DIRECTMANIPULATION_GESTURE_NONE
+
+No gestures are defined.
+
+
+### -field DIRECTMANIPULATION_GESTURE_DEFAULT
+
+Only default gestures are supported. This is the default value.
+
+
+### -field DIRECTMANIPULATION_GESTURE_CROSS_SLIDE_VERTICAL
+
+Vertical slide and swipe gestures are supported through the cross-slide interaction. For more information, see <a href="https://msdn.microsoft.com/897555e2-c567-4bbe-b600-553daeb223d5">Guidelines for cross-slide</a>.
+
+
+### -field DIRECTMANIPULATION_GESTURE_CROSS_SLIDE_HORIZONTAL
+
+Horizontal slide and swipe gestures are supported through the cross-slide interaction. For more information, see <a href="https://msdn.microsoft.com/897555e2-c567-4bbe-b600-553daeb223d5">Guidelines for cross-slide</a>.
+
+
+### -field DIRECTMANIPULATION_GESTURE_PINCH_ZOOM
+
+Pinch and stretch gestures for zooming.
+
+
+## -remarks
+
+
+
+By default, <a href="https://msdn.microsoft.com/26358bc5-71e9-40f0-9243-9bddd961a0e5">Direct Manipulation</a> always reassigns tap and press-and-hold gestures to the application. 
+
+
+Use <b>DIRECTMANIPULATION_GESTURE_PINCH_ZOOM</b> to zoom instead of scale.
+
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/D116798F-E381-46D4-8271-8BD8CADC9D27">Direct Manipulation Enumerations</a>
+ 
+
+ 
+

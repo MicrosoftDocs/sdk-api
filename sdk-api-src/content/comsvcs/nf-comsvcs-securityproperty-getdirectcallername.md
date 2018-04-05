@@ -1,0 +1,96 @@
+---
+UID: NF:comsvcs.SecurityProperty.GetDirectCallerName
+title: SecurityProperty::GetDirectCallerName method
+author: windows-driver-content
+description: Retrieves the user name associated with the external process that called the currently executing method.
+old-location: cos\securityproperty_getdirectcallername.htm
+old-project: cossdk
+ms.assetid: 451e073f-8dba-459a-92f3-4e9f1128a2c6
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: GetDirectCallerName method [COM+], GetDirectCallerName method [COM+], SecurityProperty interface, GetDirectCallerName,SecurityProperty.GetDirectCallerName, SecurityProperty, SecurityProperty interface [COM+], GetDirectCallerName method, SecurityProperty::GetDirectCallerName, _cos_SecurityProperty_GetDirectCallerName, comsvcs/SecurityProperty::GetDirectCallerName, cos.securityproperty_getdirectcallername
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: comsvcs.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: TRACKING_COLL_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	ComSvcs.h
+api_name:
+-	SecurityProperty.GetDirectCallerName
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# SecurityProperty::GetDirectCallerName method
+
+
+## -description
+
+
+Retrieves the user name associated with the external process that called the currently executing method.
+
+
+## -parameters
+
+
+
+
+### -param bstrUserName [out]
+
+A reference to the user name associated with the external process that called the currently executing method.
+
+
+## -returns
+
+
+
+This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E_UNEXPECTED, E_FAIL, and S_OK.
+
+
+
+
+## -remarks
+
+
+
+The following scenarios illustrate the functionality of this method:
+
+<ul>
+<li>A base process, running on server A as user A, calls into object X on server B, running as user B. Then object X calls into object Y, running on server C. If object Y calls <b>GetDirectCallerName</b>, the name of user B is retrieved.</li>
+<li>A base process, running on server A as user A, calls into object X on server B, running as user B. Then object X calls into object Y, running in the same process as object X, also on server B. When object Y calls <b>GetDirectCallerName</b>, the name of user A is returned, not the name of user B.</li>
+</ul>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/e4eb8e83-3510-4c2c-8b9c-563bfcbf48b3">SecurityProperty</a>
+ 
+
+ 
+

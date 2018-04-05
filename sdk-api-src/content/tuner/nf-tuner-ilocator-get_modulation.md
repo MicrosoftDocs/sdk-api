@@ -1,0 +1,103 @@
+---
+UID: NF:tuner.ILocator.get_Modulation
+title: ILocator::get_Modulation method
+author: windows-driver-content
+description: The get_Modulation method gets the modulation type.
+old-location: mstv\ilocator_get_modulation.htm
+old-project: mstv
+ms.assetid: 6aca60fa-ea8d-440d-a037-20537c25a105
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: ILocator, ILocator interface [Microsoft TV Technologies], get_Modulation method, ILocator::get_Modulation, ILocatorget_Modulation, get_Modulation method [Microsoft TV Technologies], get_Modulation method [Microsoft TV Technologies], ILocator interface, get_Modulation,ILocator.get_Modulation, mstv.ilocator_get_modulation, tuner/ILocator::get_Modulation
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: tuner.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: None supported
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Tuner.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	tuner.h
+api_name:
+-	ILocator.get_Modulation
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# ILocator::get_Modulation method
+
+
+## -description
+
+
+
+The <b>get_Modulation</b> method gets the modulation type.
+
+
+
+
+## -parameters
+
+
+
+
+### -param Modulation
+
+
+
+
+
+
+#### - pModulation [out]
+
+Receives the modulation type, as a member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567735">ModulationType</a> enumeration.
+
+
+## -returns
+
+
+
+Returns S_OK if successful. If the method fails, error information can be retrieved using the standard COM <b>IErrorInfo</b> interface.
+
+
+
+
+## -remarks
+
+
+
+See <a href="https://msdn.microsoft.com/84a5b2ce-d26b-4ffc-b757-a799658f2b34">put_Modulation</a> for the definition of <b>ModulationType</b>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/1d6c18f0-e7f1-4a1c-9edb-e4b66297becf">ILocator Interface</a>
+ 
+
+ 
+

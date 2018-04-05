@@ -1,0 +1,94 @@
+---
+UID: NF:d3d10sdklayers.ID3D10InfoQueue.GetRetrievalFilter
+title: ID3D10InfoQueue::GetRetrievalFilter method
+author: windows-driver-content
+description: Get the retrieval filter at the top of the retrieval-filter stack.
+old-location: direct3d10\id3d10infoqueue_getretrievalfilter.htm
+old-project: direct3d10
+ms.assetid: VS|directx_sdk|~\id3d10infoqueue_getretrievalfilter.htm
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: 2b23a290-1dc3-6619-a573-ee54c7ce9984, GetRetrievalFilter method [Direct3D 10], GetRetrievalFilter method [Direct3D 10], ID3D10InfoQueue interface, GetRetrievalFilter,ID3D10InfoQueue.GetRetrievalFilter, ID3D10InfoQueue, ID3D10InfoQueue interface [Direct3D 10], GetRetrievalFilter method, ID3D10InfoQueue::GetRetrievalFilter, d3d10sdklayers/ID3D10InfoQueue::GetRetrievalFilter, direct3d10.id3d10infoqueue_getretrievalfilter
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: d3d10sdklayers.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: D3D10_MESSAGE_SEVERITY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	D3D10SDKLayers.h
+api_name:
+-	ID3D10InfoQueue.GetRetrievalFilter
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# ID3D10InfoQueue::GetRetrievalFilter method
+
+
+## -description
+
+
+Get the retrieval filter at the top of the retrieval-filter stack.
+
+
+## -parameters
+
+
+
+
+### -param pFilter [out]
+
+Type: <b><a href="https://msdn.microsoft.com/78eb4b2c-ec22-4d30-befc-bf253d8768ba">D3D10_INFO_QUEUE_FILTER</a>*</b>
+
+Retrieval filter at the top of the retrieval-filter stack.
+
+
+### -param pFilterByteLength [in, out]
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">SIZE_T</a>*</b>
+
+Size of the retrieval filter in bytes. If pFilter is <b>NULL</b>, the size of the retrieval filter will be output to this parameter.
+
+
+## -returns
+
+
+
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+
+This method returns one of the following <a href="https://msdn.microsoft.com/7b67d428-d000-4c3e-adc1-b5fc67a15a6a">Direct3D 10 Return Codes</a>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/b1405273-53f4-49da-acf5-832e73a25ac2">ID3D10InfoQueue Interface</a>
+ 
+
+ 
+

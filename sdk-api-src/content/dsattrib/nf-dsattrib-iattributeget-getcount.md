@@ -1,0 +1,108 @@
+---
+UID: NF:dsattrib.IAttributeGet.GetCount
+title: IAttributeGet::GetCount method
+author: windows-driver-content
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+old-location: mstv\iattributeget_getcount.htm
+old-project: mstv
+ms.assetid: 340a0a0d-26e9-4c63-8552-15f7c841c759
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: GetCount method [Microsoft TV Technologies], GetCount method [Microsoft TV Technologies], IAttributeGet interface, GetCount,IAttributeGet.GetCount, IAttributeGet, IAttributeGet interface [Microsoft TV Technologies], GetCount method, IAttributeGet::GetCount, IAttributeGetGetCount, dsattrib/IAttributeGet::GetCount, mstv.iattributeget_getcount
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: dsattrib.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: DSA_NEWOBJ_DISPINFO, *LPDSA_NEWOBJ_DISPINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	dsattrib.h
+api_name:
+-	IAttributeGet.GetCount
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# IAttributeGet::GetCount method
+
+
+## -description
+
+
+
+This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+        
+
+
+
+The <b>GetCount</b> method returns the number of attributes on this object.
+
+
+## -parameters
+
+
+
+
+### -param plCount [out]
+
+Receives the number of attributes.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/561267ac-8720-4aba-b812-784ab1e42114">IAttributeGet Interface</a>
+ 
+
+ 
+

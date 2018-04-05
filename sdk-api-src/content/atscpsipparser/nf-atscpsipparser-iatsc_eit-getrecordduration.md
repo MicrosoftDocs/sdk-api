@@ -1,0 +1,135 @@
+---
+UID: NF:atscpsipparser.IATSC_EIT.GetRecordDuration
+title: IATSC_EIT::GetRecordDuration method
+author: windows-driver-content
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+old-location: mstv\iatsc_eit_getrecordduration.htm
+old-project: mstv
+ms.assetid: f22a84de-eae3-4981-a38b-6d26fee03c54
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: GetRecordDuration method [Microsoft TV Technologies], GetRecordDuration method [Microsoft TV Technologies], IATSC_EIT interface, GetRecordDuration,IATSC_EIT.GetRecordDuration, IATSC_EIT, IATSC_EIT interface [Microsoft TV Technologies], GetRecordDuration method, IATSC_EIT::GetRecordDuration, IATSC_EITGetRecordDuration, atscpsipparser/IATSC_EIT::GetRecordDuration, mstv.iatsc_eit_getrecordduration
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: atscpsipparser.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: APPX_PACKAGE_WRITER_PAYLOAD_STREAM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	atscpsipparser.h
+api_name:
+-	IATSC_EIT.GetRecordDuration
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# IATSC_EIT::GetRecordDuration method
+
+
+## -description
+
+
+
+This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+        
+
+
+
+The <b>GetRecordDuration</b> method returns the event duration for a record in the EIT.
+
+
+## -parameters
+
+
+
+
+### -param dwRecordIndex [in]
+
+Specifies the record number, indexed from zero. Call the <a href="https://msdn.microsoft.com/edf16862-5bc4-4022-9727-11c1a291417d">IATSC_EIT::GetCountOfRecords</a> method to get the number of records in the EIT.
+
+
+### -param pmdVal [out]
+
+Pointer to an <a href="https://msdn.microsoft.com/476b7fe1-2186-4242-9a0b-65ae4e18511e">MPEG_DURATION</a> structure allocated by the caller. The method fills the structure with the event duration.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_POINTER</b></dt>
+</dl>
+</td>
+<td width="60%">
+NULL pointer argument.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>MPEG2_E_OUT_OF_BOUNDS</b></dt>
+</dl>
+</td>
+<td width="60%">
+Index out of bounds.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/ab3fd79f-4ca6-418e-8e7c-a5fa196c09e6">IATSC_EIT Interface</a>
+ 
+
+ 
+

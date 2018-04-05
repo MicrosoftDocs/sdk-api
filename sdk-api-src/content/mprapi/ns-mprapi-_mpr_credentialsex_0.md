@@ -1,0 +1,85 @@
+---
+UID: NS:mprapi._MPR_CREDENTIALSEX_0
+title: "_MPR_CREDENTIALSEX_0"
+author: windows-driver-content
+description: The MPR_CREDENTIALSEX_0 structure contains extended credentials information such as the information used by Extensible Authentication Protocols (EAPs).
+old-location: rras\mpr_credentialsex_0.htm
+old-project: RRAS
+ms.assetid: a1524c6e-3a94-4fc1-be28-bcaca8bcc62e
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: MPR_CREDENTIALSEX_0, MPR_CREDENTIALSEX_0 structure [RAS], PMPR_CREDENTIALSEX_0, PMPR_CREDENTIALSEX_0 structure pointer [RAS], _MPR_CREDENTIALSEX_0, _mpr_mpr_credentialsex_0, mprapi/MPR_CREDENTIALSEX_0, mprapi/PMPR_CREDENTIALSEX_0, rras.mpr_credentialsex_0
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: struct
+req.header: mprapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Mprapi.h
+api_name:
+-	MPR_CREDENTIALSEX_0
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# _MPR_CREDENTIALSEX_0 structure
+
+
+## -description
+
+
+The 
+<b>MPR_CREDENTIALSEX_0</b> structure contains extended credentials information such as the information used by Extensible Authentication Protocols (EAPs).
+
+
+## -struct-fields
+
+
+
+
+### -field dwSize
+
+Specifies the size of the data pointed to by the <b>lpbCredentialsInfo</b> member.
+
+
+### -field lpbCredentialsInfo
+
+Pointer to the extended credentials information.
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/0ef9f437-a15b-4f6c-ac76-4c31a23e8792">MprAdminInterfaceGetCredentialsEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/d0807c03-3994-4624-97ea-94b55e7cd1e4">MprAdminInterfaceSetCredentialsEx</a>
+ 
+
+ 
+

@@ -1,0 +1,84 @@
+---
+UID: NF:objidlbase.IRpcStubBuffer.Connect
+title: IRpcStubBuffer::Connect method
+author: windows-driver-content
+description: Initializes a server stub, binding it to the specified interface.
+old-location: com\irpcstubbuffer_connect.htm
+old-project: com
+ms.assetid: 0a452287-b674-4b51-9690-316beeab4482
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: Connect method [COM], Connect method [COM], IRpcStubBuffer interface, Connect,IRpcStubBuffer.Connect, IRpcStubBuffer, IRpcStubBuffer interface [COM], Connect method, IRpcStubBuffer::Connect, _com_irpcstubbuffer_connect, com.irpcstubbuffer_connect, objidlbase/IRpcStubBuffer::Connect
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: objidlbase.h
+req.include-header: ObjIdl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: ObjIdl.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: THDTYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	objidlbase.h
+api_name:
+-	IRpcStubBuffer.Connect
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# IRpcStubBuffer::Connect method
+
+
+## -description
+
+
+Initializes a server stub, binding it to the specified interface.
+
+
+## -parameters
+
+
+
+
+### -param pUnkServer [in]
+
+A pointer to the interface.
+
+
+## -returns
+
+
+
+This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E_UNEXPECTED, E_FAIL, and S_OK.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/0aa724f0-6110-4ebf-a0c1-d309074a61d9">IRpcStubBuffer</a>
+ 
+
+ 
+

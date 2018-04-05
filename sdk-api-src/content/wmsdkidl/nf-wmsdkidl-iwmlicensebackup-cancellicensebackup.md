@@ -1,0 +1,99 @@
+---
+UID: NF:wmsdkidl.IWMLicenseBackup.CancelLicenseBackup
+title: IWMLicenseBackup::CancelLicenseBackup method
+author: windows-driver-content
+description: The CancelLicenseBackup method cancels a current backup operation.
+old-location: wmformat\iwmlicensebackup_cancellicensebackup.htm
+old-project: wmformat
+ms.assetid: aa226875-d59f-4fac-b38b-f94727fa2f4a
+ms.author: windowsdriverdev
+ms.date: 3/23/2018
+ms.keywords: CancelLicenseBackup method [windows Media Format], CancelLicenseBackup method [windows Media Format], IWMLicenseBackup interface, CancelLicenseBackup,IWMLicenseBackup.CancelLicenseBackup, IWMLicenseBackup, IWMLicenseBackup interface [windows Media Format], CancelLicenseBackup method, IWMLicenseBackup::CancelLicenseBackup, IWMLicenseBackupCancelLicenseBackup, wmformat.iwmlicensebackup_cancellicensebackup, wmsdkidl/IWMLicenseBackup::CancelLicenseBackup
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wmsdkidl.h
+req.include-header: Wmsdk.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WM_AETYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wmvcore.lib
+-	Wmvcore.dll
+-	WMStubDRM.lib
+-	WMStubDRM.dll
+api_name:
+-	IWMLicenseBackup.CancelLicenseBackup
+product: Windows
+targetos: Windows
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IWMLicenseBackup::CancelLicenseBackup method
+
+
+## -description
+
+
+<p class="CCE_Message">[<b>CancelLicenseBackup</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="http://go.microsoft.com/fwlink/p/?linkid=325240">Microsoft PlayReady</a>.
+]
+
+
+The <b>CancelLicenseBackup</b> method cancels a current backup operation.
+
+
+
+
+## -parameters
+
+
+
+
+
+
+## -returns
+
+
+
+If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+A backup operation is asynchronous, and a call to this method cancels a backup that is in progress.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/4ef43b7e-706b-48f6-80ba-7d0a59c3929a">IWMLicenseBackup Interface</a>
+ 
+
+ 
+

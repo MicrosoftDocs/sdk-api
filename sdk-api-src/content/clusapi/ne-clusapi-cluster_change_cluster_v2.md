@@ -1,0 +1,133 @@
+---
+UID: NE:clusapi.CLUSTER_CHANGE_CLUSTER_V2
+title: CLUSTER_CHANGE_CLUSTER_V2
+author: windows-driver-content
+description: Defines the list of notifications that are generated for a cluster.
+old-location: mscs\cluster_change_cluster_v2.htm
+old-project: MsCS
+ms.assetid: EF414341-1EA4-4E69-AEA6-1CA3EAEAEDA5
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: CLUSTER_CHANGE_CLUSTER_ALL_V2, CLUSTER_CHANGE_CLUSTER_COMMON_PROPERTY_V2, CLUSTER_CHANGE_CLUSTER_GROUP_ADDED_V2, CLUSTER_CHANGE_CLUSTER_HANDLE_CLOSE_V2, CLUSTER_CHANGE_CLUSTER_LOST_NOTIFICATIONS_V2, CLUSTER_CHANGE_CLUSTER_MEMBERSHIP_V2, CLUSTER_CHANGE_CLUSTER_NETWORK_ADDED_V2, CLUSTER_CHANGE_CLUSTER_NODE_ADDED_V2, CLUSTER_CHANGE_CLUSTER_PRIVATE_PROPERTY_V2, CLUSTER_CHANGE_CLUSTER_RECONNECT_V2, CLUSTER_CHANGE_CLUSTER_RENAME_V2, CLUSTER_CHANGE_CLUSTER_RESOURCE_TYPE_ADDED_V2, CLUSTER_CHANGE_CLUSTER_STATE_V2, CLUSTER_CHANGE_CLUSTER_UPGRADED_V2, CLUSTER_CHANGE_CLUSTER_V2, CLUSTER_CHANGE_CLUSTER_V2 enumeration [Failover Cluster], clusapi/CLUSTER_CHANGE_CLUSTER_ALL_V2, clusapi/CLUSTER_CHANGE_CLUSTER_COMMON_PROPERTY_V2, clusapi/CLUSTER_CHANGE_CLUSTER_GROUP_ADDED_V2, clusapi/CLUSTER_CHANGE_CLUSTER_HANDLE_CLOSE_V2, clusapi/CLUSTER_CHANGE_CLUSTER_LOST_NOTIFICATIONS_V2, clusapi/CLUSTER_CHANGE_CLUSTER_MEMBERSHIP_V2, clusapi/CLUSTER_CHANGE_CLUSTER_NETWORK_ADDED_V2, clusapi/CLUSTER_CHANGE_CLUSTER_NODE_ADDED_V2, clusapi/CLUSTER_CHANGE_CLUSTER_PRIVATE_PROPERTY_V2, clusapi/CLUSTER_CHANGE_CLUSTER_RECONNECT_V2, clusapi/CLUSTER_CHANGE_CLUSTER_RENAME_V2, clusapi/CLUSTER_CHANGE_CLUSTER_RESOURCE_TYPE_ADDED_V2, clusapi/CLUSTER_CHANGE_CLUSTER_STATE_V2, clusapi/CLUSTER_CHANGE_CLUSTER_UPGRADED_V2, clusapi/CLUSTER_CHANGE_CLUSTER_V2, msclus/CLUSTER_CHANGE_CLUSTER_ALL_V2, msclus/CLUSTER_CHANGE_CLUSTER_COMMON_PROPERTY_V2, msclus/CLUSTER_CHANGE_CLUSTER_GROUP_ADDED_V2, msclus/CLUSTER_CHANGE_CLUSTER_HANDLE_CLOSE_V2, msclus/CLUSTER_CHANGE_CLUSTER_LOST_NOTIFICATIONS_V2, msclus/CLUSTER_CHANGE_CLUSTER_MEMBERSHIP_V2, msclus/CLUSTER_CHANGE_CLUSTER_NETWORK_ADDED_V2, msclus/CLUSTER_CHANGE_CLUSTER_NODE_ADDED_V2, msclus/CLUSTER_CHANGE_CLUSTER_PRIVATE_PROPERTY_V2, msclus/CLUSTER_CHANGE_CLUSTER_RECONNECT_V2, msclus/CLUSTER_CHANGE_CLUSTER_RENAME_V2, msclus/CLUSTER_CHANGE_CLUSTER_RESOURCE_TYPE_ADDED_V2, msclus/CLUSTER_CHANGE_CLUSTER_STATE_V2, msclus/CLUSTER_CHANGE_CLUSTER_UPGRADED_V2, msclus/CLUSTER_CHANGE_CLUSTER_V2, mscs.cluster_change_cluster_v2
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: enum
+req.header: clusapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2012
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: CLUSTER_CHANGE_CLUSTER_V2
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ClusAPI.h
+-	MsClus.h
+api_name:
+-	CLUSTER_CHANGE_CLUSTER_V2
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# CLUSTER_CHANGE_CLUSTER_V2 enumeration
+
+
+## -description
+
+
+Defines the list of notifications that are generated for a cluster.
+
+
+## -enum-fields
+
+
+
+
+### -field CLUSTER_CHANGE_CLUSTER_RECONNECT_V2
+
+Indicates that a reconnect procedure occurred. This notification applies to clients only.
+
+
+### -field CLUSTER_CHANGE_CLUSTER_STATE_V2
+
+Indicates that a cluster state changed. This notification applies to clients only.
+
+
+### -field CLUSTER_CHANGE_CLUSTER_GROUP_ADDED_V2
+
+Indicates that a new group was created.
+
+
+### -field CLUSTER_CHANGE_CLUSTER_HANDLE_CLOSE_V2
+
+Indicates that a context handle was closed. This notification applies to clients only.
+
+
+### -field CLUSTER_CHANGE_CLUSTER_NETWORK_ADDED_V2
+
+Indicates that a cluster network was added to the cluster.
+
+
+### -field CLUSTER_CHANGE_CLUSTER_NODE_ADDED_V2
+
+Indicates that a node was added to the cluster. Nodes are added to a cluster in an implementation-specific way.
+
+
+### -field CLUSTER_CHANGE_CLUSTER_RESOURCE_TYPE_ADDED_V2
+
+Indicates that a new resource type was added to the cluster.
+
+
+### -field CLUSTER_CHANGE_CLUSTER_COMMON_PROPERTY_V2
+
+Indicates that a cluster common property changed.
+
+
+### -field CLUSTER_CHANGE_CLUSTER_PRIVATE_PROPERTY_V2
+
+Indicates that a cluster private property changed.
+
+
+### -field CLUSTER_CHANGE_CLUSTER_LOST_NOTIFICATIONS_V2
+
+Indicates that notifications might have been lost due to a transient condition on the server.
+
+
+### -field CLUSTER_CHANGE_CLUSTER_RENAME_V2
+
+Indicates that the cluster's name changed.
+
+
+### -field CLUSTER_CHANGE_CLUSTER_MEMBERSHIP_V2
+
+Indicates that the cluster's membership changed.
+
+
+### -field CLUSTER_CHANGE_CLUSTER_UPGRADED_V2
+
+Indicates that the cluster upgraded the Cluster service.
+
+<b>Windows Server 2012 R2 and Windows Server 2012:  </b>This value is not supported until Windows Server 2016.
+
+
+### -field CLUSTER_CHANGE_CLUSTER_ALL_V2
+
+Indicates all V2 cluster notifications.
+
+<b>Windows Server 2012 R2 and Windows Server 2012:  </b>The value of this constant is  4095 (0x0FFF).
+

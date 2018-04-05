@@ -1,0 +1,69 @@
+---
+UID: NE:uiautomationclient.AutomationElementMode
+title: AutomationElementMode
+author: windows-driver-content
+description: Contains values that specify the type of reference to use when returning UI Automation elements.
+old-location: winauto\uiauto_AutomationElementModeEnum.htm
+old-project: WinAuto
+ms.assetid: b0fadf47-2916-4555-b563-d0b5cd9056e6
+ms.author: windowsdriverdev
+ms.date: 3/29/2018
+ms.keywords: AutomationElementMode, AutomationElementMode enumeration [Windows Accessibility], AutomationElementMode_Full, AutomationElementMode_None, uiauto.uiauto_AutomationElementModeEnum, uiauto_AutomationElementModeEnum, uiautomationclient/AutomationElementMode, uiautomationclient/AutomationElementMode_Full, uiautomationclient/AutomationElementMode_None, winauto.uiauto_AutomationElementModeEnum
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: enum
+req.header: uiautomationclient.h
+req.include-header: UIAutomation.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: UIAnimation.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	UIAutomationClient.h
+api_name:
+-	AutomationElementMode
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# AutomationElementMode enumeration
+
+
+## -description
+
+
+Contains values that specify the type of reference to use when returning UI Automation elements.
+
+
+## -enum-fields
+
+
+
+
+### -field AutomationElementMode_None
+
+Specifies that returned elements have no reference to the underlying UI and contain only cached information.
+
+
+### -field AutomationElementMode_Full
+
+Specifies that returned elements have a full reference to the underlying UI.
+

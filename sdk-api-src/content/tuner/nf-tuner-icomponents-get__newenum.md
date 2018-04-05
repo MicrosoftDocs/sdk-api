@@ -1,0 +1,98 @@
+---
+UID: NF:tuner.IComponents.get__NewEnum
+title: IComponents::get__NewEnum method
+author: windows-driver-content
+description: The get__NewEnum enumeration method supports For...Each loops in Automation clients.
+old-location: mstv\icomponents_get__newenum.htm
+old-project: mstv
+ms.assetid: fcb965f4-8fd6-415f-8fb6-a80d0c92731d
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: IComponents, IComponents interface [Microsoft TV Technologies], get__NewEnum method, IComponents::get__NewEnum, IComponentsget__NewEnum, get__NewEnum method [Microsoft TV Technologies], get__NewEnum method [Microsoft TV Technologies], IComponents interface, get__NewEnum,IComponents.get__NewEnum, mstv.icomponents_get__newenum, tuner/IComponents::get__NewEnum
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: tuner.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: None supported
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Tuner.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	tuner.h
+api_name:
+-	IComponents.get__NewEnum
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# IComponents::get__NewEnum method
+
+
+## -description
+
+
+
+The <b>get__NewEnum</b> enumeration method supports <code>For...Each</code> loops in Automation clients.
+
+
+
+
+## -parameters
+
+
+
+
+### -param ppNewEnum [out]
+
+Address of an <b>IEnumVARIANT</b> interface pointer that will receive the enumeration.
+
+
+## -returns
+
+
+
+Returns S_OK if successful. If the method fails, error information can be retrieved using the standard COM <b>IErrorInfo</b> interface.
+
+
+
+
+## -remarks
+
+
+
+This method is provided so that scripting and Visual Basic applications can iterate through the collection in a <code>For...Each</code> loop. C++ applications should use the <a href="https://msdn.microsoft.com/214030ff-8aec-46df-8b59-f31fe926d8aa">IComponents::EnumComponents</a> method.
+
+The returned <b>IEnumVARIANT</b> interface is not thread safe, because it is intended primarily for use by Automation clients. Clients should not call methods on the interface from more than one thread.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/670b47ba-bcbd-4281-95e3-a5d784f0610b">IComponents Interface</a>
+ 
+
+ 
+

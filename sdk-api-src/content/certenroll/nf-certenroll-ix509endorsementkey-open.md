@@ -1,0 +1,80 @@
+---
+UID: NF:certenroll.IX509EndorsementKey.Open
+title: IX509EndorsementKey::Open method
+author: windows-driver-content
+description: Opens the endorsement key. The endorsement key must be open before you can retrieve an information from the endorsement key, add or remove certificates, or export the endorsement key.
+old-location: security\ix509endorsementkey_open.htm
+old-project: SecCertEnroll
+ms.assetid: 06855fc0-0d87-4fe7-9525-55eb60bffcd1
+ms.author: windowsdriverdev
+ms.date: 3/29/2018
+ms.keywords: IX509EndorsementKey, IX509EndorsementKey interface [Security], Open method, IX509EndorsementKey::Open, Open method [Security], Open method [Security], IX509EndorsementKey interface, Open,IX509EndorsementKey.Open, certenroll/IX509EndorsementKey::Open, security.ix509endorsementkey_open
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: certenroll.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Certenroll.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: X509RequestType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Certenroll.dll
+api_name:
+-	IX509EndorsementKey.Open
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Certenroll.dll
+req.irql: 
+---
+
+# IX509EndorsementKey::Open method
+
+
+## -description
+
+
+Opens the endorsement key. The endorsement key must be open before you can retrieve an information from the endorsement key, add or remove certificates, or export the endorsement key.
+
+
+## -parameters
+
+
+
+
+
+
+## -returns
+
+
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/24f063a7-02e3-47cf-89ca-ebc63bf3e2dc">IX509EndorsementKey</a>
+ 
+
+ 
+

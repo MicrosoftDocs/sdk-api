@@ -1,0 +1,77 @@
+---
+UID: NF:syncmgr.ISyncMgrEvent.GetLevel
+title: ISyncMgrEvent::GetLevel method
+author: windows-driver-content
+description: Gets the log level of the event.
+old-location: shell\ISyncMgrEvent_GetLevel.htm
+old-project: shell
+ms.assetid: 2937dc05-9576-43b4-9fbe-6c151dffcace
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: GetLevel method [Windows Shell], GetLevel method [Windows Shell], ISyncMgrEvent interface, GetLevel,ISyncMgrEvent.GetLevel, ISyncMgrEvent, ISyncMgrEvent interface [Windows Shell], GetLevel method, ISyncMgrEvent::GetLevel, _shell_ISyncMgrEvent_GetLevel, shell.ISyncMgrEvent_GetLevel, syncmgr/ISyncMgrEvent::GetLevel
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: syncmgr.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Syncmgr.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: SYNCMGR_SYNC_CONTROL_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Syncmgr.h
+api_name:
+-	ISyncMgrEvent.GetLevel
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# ISyncMgrEvent::GetLevel method
+
+
+## -description
+
+
+Gets the log level of the event.
+
+
+## -parameters
+
+
+
+
+### -param pnLevel [out]
+
+Type: <b><a href="https://msdn.microsoft.com/9a961cd2-c05f-47cf-a50a-40af18eac0cd">SYNCMGR_EVENT_LEVEL</a>*</b>
+
+When this method returns, contains a pointer to a member of the <a href="https://msdn.microsoft.com/9a961cd2-c05f-47cf-a50a-40af18eac0cd">SYNCMGR_EVENT_LEVEL</a> enumeration that indicates the log level.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+

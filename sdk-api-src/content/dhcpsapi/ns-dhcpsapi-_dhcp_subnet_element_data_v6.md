@@ -1,0 +1,110 @@
+---
+UID: NS:dhcpsapi._DHCP_SUBNET_ELEMENT_DATA_V6
+title: "_DHCP_SUBNET_ELEMENT_DATA_V6"
+author: windows-driver-content
+description: Contains definitions for the elements of the IPv6 prefix, such as IPv6 reservation, IPv6 exclusion range, and IPv6 range.
+old-location: dhcp\dhcp_subnet_element_data_v6.htm
+old-project: DHCP
+ms.assetid: de5fa8c5-5cd7-4358-bacd-f27f4b7f3761
+ms.author: windowsdriverdev
+ms.date: 3/23/2018
+ms.keywords: "*LPDHCP_SUBNET_ELEMENT_DATA_V6, DHCP_SUBNET_ELEMENT_DATA_V6, DHCP_SUBNET_ELEMENT_DATA_V6 structure [DHCP], PDHCP_SUBNET_ELEMENT_DATA_V6, PDHCP_SUBNET_ELEMENT_DATA_V6 structure pointer [DHCP], _DHCP_SUBNET_ELEMENT_DATA_V6, dhcp.dhcp_subnet_element_data_v6, dhcpsapi/DHCP_SUBNET_ELEMENT_DATA_V6, dhcpsapi/PDHCP_SUBNET_ELEMENT_DATA_V6"
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: struct
+req.header: dhcpsapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008, Windows Server 2008 R2 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: DHCP_SUBNET_ELEMENT_DATA_V6, *LPDHCP_SUBNET_ELEMENT_DATA_V6
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Dhcpsapi.h
+api_name:
+-	DHCP_SUBNET_ELEMENT_DATA_V6
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# _DHCP_SUBNET_ELEMENT_DATA_V6 structure
+
+
+## -description
+
+
+The <b>DHCP_SUBNET_ELEMENT_DATA_V6</b> structure contains definitions for the elements of the IPv6 prefix, such as IPv6 reservation, IPv6 exclusion range, and IPv6 range.
+
+
+## -struct-fields
+
+
+
+
+### -field Element
+
+A union of different IPv6 prefix element types. The value of this union is dependent on the <b>ElementType</b> member.
+
+
+
+#### IpRange
+
+Pointer to a <a href="https://msdn.microsoft.com/3a918a2b-beff-4562-9c7f-acee2cc8f2da">DHCP_IP_RANGE_V6</a> structure that contains the IPv6 range for this IPv6 prefix.
+
+
+
+#### ReservedIp
+
+Pointer to a <a href="https://msdn.microsoft.com/f1595632-018b-4626-b3c6-49f0e5b3752c">DHCP_IP_RESERVATION_V6</a> structure that contains the IPv6 reservation information.
+
+
+
+#### ExcludeIpRange
+
+Pointer to a <a href="https://msdn.microsoft.com/3a918a2b-beff-4562-9c7f-acee2cc8f2da">DHCP_IP_RANGE_V6</a> structure that contains the IPv6 exclusion range information.
+
+
+### -field _DHCP_SUBNET_ELEMENT_UNION_V6
+
+ 
+
+
+### -field ElementType
+
+Defines the set of possible prefix element types. This value is used to determine which of the values are chosen from the subsequent union element.
+
+
+## -see-also
+
+
+
+
+<b>DHCP_IP_RANGE_V6</b>
+
+
+
+<a href="https://msdn.microsoft.com/f1595632-018b-4626-b3c6-49f0e5b3752c">DHCP_IP_RESERVATION_V6</a>
+
+
+
+<a href="https://msdn.microsoft.com/de5fa8c5-5cd7-4358-bacd-f27f4b7f3761">DHCP_SUBNET_ELEMENT_DATA_V6</a>
+ 
+
+ 
+

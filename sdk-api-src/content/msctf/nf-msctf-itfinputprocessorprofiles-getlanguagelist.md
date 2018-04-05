@@ -1,0 +1,144 @@
+---
+UID: NF:msctf.ITfInputProcessorProfiles.GetLanguageList
+title: ITfInputProcessorProfiles::GetLanguageList method
+author: windows-driver-content
+description: ITfInputProcessorProfiles::GetLanguageList method
+old-location: tsf\itfinputprocessorprofiles_getlanguagelist.htm
+old-project: TSF
+ms.assetid: dffca277-1c2c-4e3d-965f-42e7907ba603
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: GetLanguageList method [Text Services Framework], GetLanguageList method [Text Services Framework], ITfInputProcessorProfiles interface, GetLanguageList,ITfInputProcessorProfiles.GetLanguageList, ITfInputProcessorProfiles, ITfInputProcessorProfiles interface [Text Services Framework], GetLanguageList method, ITfInputProcessorProfiles::GetLanguageList, _tsf_itfinputprocessorprofiles_getlanguagelist_ref, msctf/ITfInputProcessorProfiles::GetLanguageList, tsf.itfinputprocessorprofiles_getlanguagelist
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: msctf.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Msctf.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: TF_DA_ATTR_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Msctf.dll
+api_name:
+-	ITfInputProcessorProfiles.GetLanguageList
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# ITfInputProcessorProfiles::GetLanguageList method
+
+
+## -description
+
+
+
+
+## -parameters
+
+
+
+
+### -param ppLangId [out]
+
+Pointer to a <b>LANGID</b> pointer that receives the array of identifiers of the currently installed languages. The number of identifiers placed in this array is supplied in <i>pulCount</i>. The array is allocated by this method. The caller must free this memory when it is no longer required using <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms680722">CoTaskMemFree</a>.
+
+
+### -param pulCount [out]
+
+Pointer to a ULONG value the receives the number of identifiers placed in the array at <i>ppLangId</i>.
+
+
+## -returns
+
+
+
+This method can return one of these values.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method was successful.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_FAIL</b></dt>
+</dl>
+</td>
+<td width="60%">
+An unspecified error occurred.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+One or more parameters are invalid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_OUTOFMEMORY</b></dt>
+</dl>
+</td>
+<td width="60%">
+A memory allocation failure occurred.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms680722">CoTaskMemFree</a>
+
+
+
+<a href="https://msdn.microsoft.com/9fa722a4-1e3f-4845-aea7-3b24b517f2a5">ITfInputProcessorProfiles</a>
+ 
+
+ 
+

@@ -1,0 +1,121 @@
+---
+UID: NF:control.IDeferredCommand.Postpone
+title: IDeferredCommand::Postpone method
+author: windows-driver-content
+description: The Postpone method specifies a new invocation time for the command.
+old-location: dshow\ideferredcommand_postpone.htm
+old-project: DirectShow
+ms.assetid: 184370db-95df-45a8-b1a0-e399923f866e
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: IDeferredCommand, IDeferredCommand interface [DirectShow], Postpone method, IDeferredCommand::Postpone, IDeferredCommandPostpone, Postpone method [DirectShow], Postpone method [DirectShow], IDeferredCommand interface, Postpone,IDeferredCommand.Postpone, control/IDeferredCommand::Postpone, dshow.ideferredcommand_postpone
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: control.h
+req.include-header: Dshow.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WMPContextMenuInfo
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Strmiids.lib
+-	Strmiids.dll
+api_name:
+-	IDeferredCommand.Postpone
+product: Windows
+targetos: Windows
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
+---
+
+# IDeferredCommand::Postpone method
+
+
+## -description
+
+
+
+The <code>Postpone</code> method specifies a new invocation time for the command.
+
+
+
+
+## -parameters
+
+
+
+
+### -param newtime
+
+New time at which to invoke the command.
+
+
+## -returns
+
+
+
+Returns an <b>HRESULT</b> value. Possible values include the following.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+Success.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>VFW_E_TIME_ALREADY_PASSED</b></dt>
+</dl>
+</td>
+<td width="60%">
+The specified time has already passed.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+
+
+
+<a href="https://msdn.microsoft.com/8161932a-16aa-4700-b91d-b4d8948ad59f">IDeferredCommand Interface</a>
+ 
+
+ 
+

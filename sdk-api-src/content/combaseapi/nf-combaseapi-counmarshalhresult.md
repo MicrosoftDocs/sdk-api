@@ -1,0 +1,147 @@
+---
+UID: NF:combaseapi.CoUnmarshalHresult
+title: CoUnmarshalHresult function
+author: windows-driver-content
+description: Unmarshals an HRESULT type from the specified stream.
+old-location: com\counmarshalhresult.htm
+old-project: com
+ms.assetid: a45ef72c-d385-4012-9683-7d2cc6d68b6d
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: CoUnmarshalHresult, CoUnmarshalHresult function [COM], _com_CoUnmarshalHresult, com.counmarshalhresult, combaseapi/CoUnmarshalHresult
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: combaseapi.h
+req.include-header: Objbase.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: REGCLS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Ole32.dll
+-	API-MS-Win-Core-Com-l1-1-0.dll
+-	ComBase.dll
+-	API-MS-Win-Core-Com-l1-1-1.dll
+-	API-MS-Win-DownLevel-Ole32-l1-1-1.dll
+api_name:
+-	CoUnmarshalHresult
+product: Windows
+targetos: Windows
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
+---
+
+# CoUnmarshalHresult function
+
+
+## -description
+
+
+Unmarshals an <b>HRESULT</b> type from the specified stream.
+
+
+## -parameters
+
+
+
+
+### -param pstm [in]
+
+A pointer to the stream from which the <b>HRESULT</b> is to be unmarshaled.
+
+
+### -param phresult [out]
+
+A pointer to the unmarshaled <b>HRESULT</b>.
+
+
+## -returns
+
+
+
+This function can return the standard return values E_OUTOFMEMORY and E_UNEXPECTED, as well as the following values.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The <b>HRESULT</b> was unmarshaled successfully.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>STG_E_INVALIDPOINTER</b></dt>
+</dl>
+</td>
+<td width="60%">
+<i>pStm</i> is an invalid pointer.
+
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+You do not explicitly call this function unless you are performing custom marshaling (that is, writing your own implementation of <a href="https://msdn.microsoft.com/e6f08949-f27d-4aba-adff-eaf9c356a928">IMarshal</a>), and your implementation needs to unmarshal an <b>HRESULT</b>.
+
+You must use <b>CoUnmarshalHresult</b> to unmarshal <b>HRESULT</b> values previously marshaled by a call to the <a href="https://msdn.microsoft.com/37aaf404-49ca-4881-a369-44c5288abf1d">CoMarshalHresult</a> function.
+
+This function performs the following tasks:
+
+<ol>
+<li>
+ an <b>HRESULT</b> from a stream.
+
+</li>
+<li>Returns the <b>HRESULT</b>.</li>
+</ol>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/37aaf404-49ca-4881-a369-44c5288abf1d">CoMarshalHresult</a>
+
+
+
+<a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a>
+ 
+
+ 
+

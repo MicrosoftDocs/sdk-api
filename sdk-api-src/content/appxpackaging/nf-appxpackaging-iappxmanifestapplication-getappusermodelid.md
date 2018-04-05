@@ -1,0 +1,108 @@
+---
+UID: NF:appxpackaging.IAppxManifestApplication.GetAppUserModelId
+title: IAppxManifestApplication::GetAppUserModelId method
+author: windows-driver-content
+description: Gets the application user model identifier.
+old-location: appxpkg\iappxmanifestapplication_getappusermodelid.htm
+old-project: appxpkg
+ms.assetid: A1CD62B4-A314-43B3-AD80-3EB3EDF63B3D
+ms.author: windowsdriverdev
+ms.date: 3/30/2018
+ms.keywords: GetAppUserModelId method [App packaging and management], GetAppUserModelId method [App packaging and management], IAppxManifestApplication interface, GetAppUserModelId,IAppxManifestApplication.GetAppUserModelId, IAppxManifestApplication, IAppxManifestApplication interface [App packaging and management], GetAppUserModelId method, IAppxManifestApplication::GetAppUserModelId, appxpackaging/IAppxManifestApplication::GetAppUserModelId, appxpkg.iappxmanifestapplication_getappusermodelid
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: appxpackaging.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: AppxPackaging.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: APPX_PACKAGE_ARCHITECTURE2
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	AppxPackaging.h
+api_name:
+-	IAppxManifestApplication.GetAppUserModelId
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# IAppxManifestApplication::GetAppUserModelId method
+
+
+## -description
+
+
+Gets the application user model identifier.
+
+
+## -parameters
+
+
+
+
+### -param appUserModelId [out, retval]
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPWSTR</a>*</b>
+
+The user model identifier.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+The caller must free the memory allocated for <i>appUserModelId</i> using the <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a> function.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/ebce2d99-6f20-4545-9f12-d79cd8d0828f">Application User Model IDs</a>
+
+
+
+<b>Concepts</b>
+
+
+
+<a href="https://msdn.microsoft.com/16FC78D1-7387-4C90-9F63-BCFA110BC487">IAppxManifestApplication</a>
+
+
+
+<b>Reference</b>
+ 
+
+ 
+

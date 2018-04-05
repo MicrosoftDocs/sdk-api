@@ -1,0 +1,114 @@
+---
+UID: NF:ehstorapi.IEnhancedStorageACT2.IsDeviceRemovable
+title: IEnhancedStorageACT2::IsDeviceRemovable method
+author: windows-driver-content
+description: IEnhancedStorageACT2::IsDeviceRemovable method returns information that indicates if the device associated with the ACT is removable.
+old-location: enstor\ienhancedstorageact2_isdeviceremovable.htm
+old-project: enstor
+ms.assetid: 1118756d-56d7-4f59-8e2a-2cb970a7a62a
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: IEnhancedStorageACT2, IEnhancedStorageACT2 interface [Enhanced Storage], IsDeviceRemovable method, IEnhancedStorageACT2::IsDeviceRemovable, IsDeviceRemovable method [Enhanced Storage], IsDeviceRemovable method [Enhanced Storage], IEnhancedStorageACT2 interface, IsDeviceRemovable,IEnhancedStorageACT2.IsDeviceRemovable, ehstorapi/IEnhancedStorageACT2::IsDeviceRemovable, enstor.ienhancedstorageact2_isdeviceremovable
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: ehstorapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: None supported
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: EhStorAPI.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: TimedLevel
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	EhStorAPI.h
+api_name:
+-	IEnhancedStorageACT2.IsDeviceRemovable
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
+---
+
+# IEnhancedStorageACT2::IsDeviceRemovable method
+
+
+## -description
+
+
+The <b>IEnhancedStorageACT2::IsDeviceRemovable</b> method returns information that indicates if the device associated with the ACT is removable.
+
+
+## -parameters
+
+
+
+
+### -param pIsDeviceRemovable
+
+Pointer to a boolean value that indicates if the device associated with the ACT is removable.
+
+
+## -returns
+
+
+
+This method can return one of the following values:
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The information was successfully retrieved.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+<i>pIsDeviceRemovable</i> is <b>NULL</b>.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/23f47a1a-c2d1-43ed-871a-ca80aab2eed6">IEnhancedStorageACT2</a>
+ 
+
+ 
+

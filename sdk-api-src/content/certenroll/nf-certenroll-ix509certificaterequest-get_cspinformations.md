@@ -1,0 +1,142 @@
+---
+UID: NF:certenroll.IX509CertificateRequest.get_CspInformations
+title: IX509CertificateRequest::get_CspInformations method
+author: windows-driver-content
+description: Specifies and retrieves a collection of cryptographic providers available for use by the request object.
+old-location: security\ix509certificaterequest_cspinformations_property.htm
+old-project: SecCertEnroll
+ms.assetid: 7be532ab-0ab0-4c22-b274-c925fd5827d5
+ms.author: windowsdriverdev
+ms.date: 3/29/2018
+ms.keywords: CspInformations method [Security], CspInformations method [Security], IX509CertificateRequest interface, IX509CertificateRequest, IX509CertificateRequest interface [Security], CspInformations method, IX509CertificateRequest::CspInformations, IX509CertificateRequest::get_CspInformations, certenroll/IX509CertificateRequest::CspInformations, get_CspInformations, get_CspInformations,IX509CertificateRequest.get_CspInformations, security.ix509certificaterequest_cspinformations_property
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: certenroll.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: X509RequestType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	CertEnroll.dll
+api_name:
+-	IX509CertificateRequest.CspInformations
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
+---
+
+# IX509CertificateRequest::get_CspInformations method
+
+
+## -description
+
+
+The <b>CspInformations</b> property specifies and retrieves a collection of cryptographic providers available for use by the request object.
+
+
+## -parameters
+
+
+
+
+### -param ppValue [out]
+
+Address of a variable that receives a pointer to a collection of <a href="https://msdn.microsoft.com/e337ae2c-6f86-4025-8d31-47bc5d8a4ca8">ICspInformation</a> interfaces.
+
+
+#### - pValue [in]
+
+Pointer to an <a href="https://msdn.microsoft.com/8141023c-c162-46d6-9c37-e227ce1c8761">ICspInformations</a> interface that contains a collection of <a href="https://msdn.microsoft.com/e337ae2c-6f86-4025-8d31-47bc5d8a4ca8">ICspInformation</a> interfaces. 
+
+
+## -returns
+
+
+
+If the function succeeds, the function returns <b>S_OK</b>.
+
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>CERTSRV_E_PROPERTY_EMPTY</b></dt>
+</dl>
+</td>
+<td width="60%">
+The property value could not be found.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+If you want to specify a collection of providers, you must set this property before calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a> method. The collection that you specify must contain all providers currently installed on the computer. If you specify a subset or a superset, the behavior of this property is undefined.
+
+If you do not specify a collection, the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a> method sets the property value to a collection of all providers installed on the computer.
+
+The <b>CspInformations</b> property exists so that the caller can avoid forcing the request object to fill the collection. This is useful when the caller is creating multiple requests in one session.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/5425c9ab-565d-449d-87e1-e5765868acfb">IX509CertificateRequest</a>
+
+
+
+<a href="https://msdn.microsoft.com/7197a225-b2dc-47bb-8843-d3fb4bf95811">IX509CertificateRequestCertificate</a>
+
+
+
+<a href="https://msdn.microsoft.com/77059388-c442-4db5-ab27-1db25e2f63b9">IX509CertificateRequestCmc</a>
+
+
+
+<a href="https://msdn.microsoft.com/5b3764dc-fc63-45cc-8c35-65539c461e81">IX509CertificateRequestPkcs10</a>
+
+
+
+<a href="https://msdn.microsoft.com/ae869557-6523-4387-835e-c9631898d864">IX509CertificateRequestPkcs7</a>
+
+
+
+<a href="https://msdn.microsoft.com/25774ccb-8e76-443d-89da-177d6e77c019">IX509SignatureInformation</a>
+ 
+
+ 
+

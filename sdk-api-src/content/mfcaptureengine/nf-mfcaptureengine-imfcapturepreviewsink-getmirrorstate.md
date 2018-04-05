@@ -1,0 +1,84 @@
+---
+UID: NF:mfcaptureengine.IMFCapturePreviewSink.GetMirrorState
+title: IMFCapturePreviewSink::GetMirrorState method
+author: windows-driver-content
+description: Gets the current mirroring state of the video preview stream.
+old-location: mf\imfcapturepreviewsink_getmirrorstate.htm
+old-project: medfound
+ms.assetid: 6EFC9DFF-4029-46F0-9357-983FE528D4FE
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: GetMirrorState method [Media Foundation], GetMirrorState method [Media Foundation], IMFCapturePreviewSink interface, GetMirrorState,IMFCapturePreviewSink.GetMirrorState, IMFCapturePreviewSink, IMFCapturePreviewSink interface [Media Foundation], GetMirrorState method, IMFCapturePreviewSink::GetMirrorState, mf.imfcapturepreviewsink_getmirrorstate, mfcaptureengine/IMFCapturePreviewSink::GetMirrorState
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: mfcaptureengine.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MF_CAPTURE_ENGINE_STREAM_CATEGORY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfcaptureengine.h
+api_name:
+-	IMFCapturePreviewSink.GetMirrorState
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IMFCapturePreviewSink::GetMirrorState method
+
+
+## -description
+
+
+Gets the current mirroring state of the video preview stream.
+
+
+## -parameters
+
+
+
+
+### -param pfMirrorState [out]
+
+Receives the value <b>TRUE</b> if mirroring is enabled, or <b>FALSE</b> if mirroring is disabled.
+
+
+## -returns
+
+
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/5E64C24D-D6EC-419B-9DC8-309EBCE0077E">IMFCapturePreviewSink</a>
+ 
+
+ 
+

@@ -1,0 +1,112 @@
+---
+UID: NF:wmcodecdsp.ITocEntry.SetSubEntries
+title: ITocEntry::SetSubEntries method
+author: windows-driver-content
+description: The SetSubEntries identifies a set of entries as being subentries of this entry.
+old-location: mf\itocentry_setsubentries.htm
+old-project: medfound
+ms.assetid: 4b3f4038-483c-4f00-a819-ace83d99da58
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: ITocEntry, ITocEntry interface [Media Foundation], SetSubEntries method, ITocEntry::SetSubEntries, SetSubEntries method [Media Foundation], SetSubEntries method [Media Foundation], ITocEntry interface, SetSubEntries,ITocEntry.SetSubEntries, codecapi.itocentry_setsubentries, mf.itocentry_setsubentries, wmcodecdsp/ITocEntry::SetSubEntries
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wmcodecdsp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MFVideoDSPMode
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	wmvdspa.dll
+api_name:
+-	ITocEntry.SetSubEntries
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Wmvdspa.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# ITocEntry::SetSubEntries method
+
+
+## -description
+
+
+The <b>SetSubEntries</b> identifies a set of entries as being subentries of this entry.
+
+
+## -parameters
+
+
+
+
+### -param dwNumSubEntries [in]
+
+The number of indices in the array pointed to by <i>pwSubEntryIndices</i>.
+
+
+### -param pwSubEntryIndices [in]
+
+Pointer to an array of <b>WORD</b>s. Each <b>WORD</b> in the array specifies the index of an entry that is to be considered a subentry of this entry.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/583340d7-87f9-40c5-a0dc-3e69bbb96334">GetSubEntries</a>
+
+
+
+<a href="https://msdn.microsoft.com/82a1a390-50b1-4699-9baa-60cea322ce7c">ITocEntry</a>
+ 
+
+ 
+

@@ -1,0 +1,253 @@
+---
+UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreatePackageFromFile
+title: IXpsOMObjectFactory::CreatePackageFromFile method
+author: windows-driver-content
+description: Opens an XPS package file and returns an instantiated XPS document object tree.
+old-location: xps\ixpsomobjectfactory_createpackagefromfile.htm
+old-project: printdocs
+ms.assetid: 2498792b-a33c-47cd-8d88-8e89b99c432d
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: CreatePackageFromFile method [XPS Documents and Packaging], CreatePackageFromFile method [XPS Documents and Packaging], IXpsOMObjectFactory interface, CreatePackageFromFile,IXpsOMObjectFactory.CreatePackageFromFile, FALSE, IXpsOMObjectFactory, IXpsOMObjectFactory interface [XPS Documents and Packaging], CreatePackageFromFile method, IXpsOMObjectFactory::CreatePackageFromFile, TRUE, xps.ixpsomobjectfactory_createpackagefromfile, xpsobjectmodel/IXpsOMObjectFactory::CreatePackageFromFile
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: xpsobjectmodel.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: XpsObjectModel.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: XPS_INTERLEAVING
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	xpsobjectmodel.h
+api_name:
+-	IXpsOMObjectFactory.CreatePackageFromFile
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+---
+
+# IXpsOMObjectFactory::CreatePackageFromFile method
+
+
+## -description
+
+
+Opens an XPS package file and returns an instantiated XPS document object  tree.
+
+
+## -parameters
+
+
+
+
+### -param filename [in]
+
+The name of the XPS package file.
+
+
+### -param reuseObjects [in]
+
+A Boolean value that indicates whether  the software  is to attempt to optimize the document object tree by sharing objects that are identical in all properties and children. 
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="TRUE"></a><a id="true"></a><dl>
+<dt><b><b>TRUE</b></b></dt>
+</dl>
+</td>
+<td width="60%">
+The software will attempt to optimize the object tree.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="FALSE"></a><a id="false"></a><dl>
+<dt><b><b>FALSE</b></b></dt>
+</dl>
+</td>
+<td width="60%">
+The software will not attempt to optimize the object tree.
+
+</td>
+</tr>
+</table>
+ 
+
+
+### -param package [out, retval]
+
+A pointer to the new  <a href="https://msdn.microsoft.com/7b0a36d6-1af1-4c2c-af14-d6139e9115c3">IXpsOMPackage</a> interface that contains the resulting XPS document object tree.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://msdn.microsoft.com/9e6db1e3-7151-4538-8607-b7185ebc0110">XPS Document Errors</a>.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_POINTER</b></dt>
+</dl>
+</td>
+<td width="60%">
+<i>filename</i> or   <i>package</i> is <b>NULL</b>.
+
+</td>
+</tr>
+</table>
+ 
+
+This method calls the <a href="https://msdn.microsoft.com/77df9cb2-757e-4b07-9c1c-73af0df4702f">Packaging</a> API. For information about the Packaging API return values, see <a href="https://msdn.microsoft.com/b4cd8f69-3559-46a0-95ec-6fcaab21959c">Packaging Errors</a>.
+
+
+
+
+## -remarks
+
+
+
+This method does not validate the contents of any stream-based resources that it loads from the stream  into the  objects of the XPS OM. Instead, the application must validate these resources before it uses them.
+
+This method does not deserialize the document pages; it only deserializes the XPS package down to the page reference parts. The actual pages can be deserialized as they are needed, by calling the <a href="https://msdn.microsoft.com/0004217f-f379-4175-bbce-eea93d96f37f">IXpsOMPageReference::GetPage</a> method. Because the pages are not deserialized when   <b>GetPage</b>  is called, it is possible for this method to return S_OK or, if an attempt is made to load a problematic page  in an XPS package, to return an error.
+
+If you write an XPS OM immediately after you have read an XPS package into it, some of the original content might be lost or changed.
+
+Some of the changes that can occur in such a case are listed in the table that follows:<table>
+<tr>
+<th>Document feature</th>
+<th>Action</th>
+</tr>
+<tr>
+<td>
+Digital signatures
+
+</td>
+<td>
+Removed from document
+
+</td>
+</tr>
+<tr>
+<td>
+DiscardControl part
+
+</td>
+<td>
+Removed from document
+
+</td>
+</tr>
+<tr>
+<td>
+Foreign document parts
+
+</td>
+<td>
+Removed from document
+
+</td>
+</tr>
+<tr>
+<td>
+FixedPage markup
+
+</td>
+<td>
+Modified from original
+
+</td>
+</tr>
+<tr>
+<td>
+Resource dictionary markup
+
+</td>
+<td>
+Modified from original if Optimization flag is set
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+For information about using <a href="https://msdn.microsoft.com/7b0a36d6-1af1-4c2c-af14-d6139e9115c3">IXpsOMPackage</a> interface in a program, see <a href="https://msdn.microsoft.com/5b6f12ba-9a41-4252-96c4-391bb8d75cd4">Create a Blank XPS OM</a>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/5b6f12ba-9a41-4252-96c4-391bb8d75cd4">Create a Blank XPS OM</a>
+
+
+
+<a href="https://msdn.microsoft.com/2444703e-4b89-4ef0-9ed7-aa937bc62e8c">IXpsOMObjectFactory</a>
+
+
+
+<a href="https://msdn.microsoft.com/7b0a36d6-1af1-4c2c-af14-d6139e9115c3">IXpsOMPackage</a>
+
+
+
+<a href="https://msdn.microsoft.com/0004217f-f379-4175-bbce-eea93d96f37f">IXpsOMPageReference::GetPage</a>
+
+
+
+<a href="https://msdn.microsoft.com/b4cd8f69-3559-46a0-95ec-6fcaab21959c">Packaging Errors</a>
+
+
+
+<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+
+
+
+<a href="https://msdn.microsoft.com/9e6db1e3-7151-4538-8607-b7185ebc0110">XPS Document Errors</a>
+ 
+
+ 
+

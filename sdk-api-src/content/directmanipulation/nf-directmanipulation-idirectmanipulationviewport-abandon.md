@@ -1,0 +1,90 @@
+---
+UID: NF:directmanipulation.IDirectManipulationViewport.Abandon
+title: IDirectManipulationViewport::Abandon method
+author: windows-driver-content
+description: Releases all resources that are used by the viewport and prepares it for destruction from memory.
+old-location: directmanipulation\idirectmanipulationviewport_abandon.htm
+old-project: directmanipulation
+ms.assetid: 83d0bcde-03d2-4eba-991a-399b5307c8bd
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: Abandon method [Direct Manipulation], Abandon method [Direct Manipulation], IDirectManipulationViewport interface, Abandon,IDirectManipulationViewport.Abandon, IDirectManipulationViewport, IDirectManipulationViewport interface [Direct Manipulation], Abandon method, IDirectManipulationViewport::Abandon, directmanipulation.idirectmanipulationviewport_abandon, directmanipulation/IDirectManipulationViewport::Abandon
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: directmanipulation.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: DirectManipulation.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: DIRECTMANIPULATION_VIEWPORT_OPTIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	DirectManipulation.h
+api_name:
+-	IDirectManipulationViewport.Abandon
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# IDirectManipulationViewport::Abandon method
+
+
+## -description
+
+
+    Releases all resources that are used by the viewport and prepares it for destruction from memory.
+
+
+
+## -parameters
+
+
+
+
+
+
+## -returns
+
+
+
+If the method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+Once <b>Abandon</b> has been called, do not make subsequent function calls on the viewport. If a function is called after <b>Abandon</b>, <b>E_INVALID_STATE</b> will be returned.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/4c14143b-3b5f-401d-9df7-f17374abcd99">IDirectManipulationViewport</a>
+ 
+
+ 
+

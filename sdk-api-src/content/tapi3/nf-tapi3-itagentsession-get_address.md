@@ -1,0 +1,143 @@
+---
+UID: NF:tapi3.ITAgentSession.get_Address
+title: ITAgentSession::get_Address method
+author: windows-driver-content
+description: The get_Address method gets a pointer to the ITAddress interface associated with this session.
+old-location: tapi3\itagentsession_get_address.htm
+old-project: Tapi
+ms.assetid: addd088d-5bca-4865-8cae-3c013554dafd
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: ITAgentSession, ITAgentSession interface [TAPI 2.2], get_Address method, ITAgentSession::get_Address, _tapi3_itagentsession_get_address, get_Address method [TAPI 2.2], get_Address method [TAPI 2.2], ITAgentSession interface, get_Address,ITAgentSession.get_Address, tapi3.itagentsession_get_address, tapi3cc/ITAgentSession::get_Address
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: tapi3.h
+req.include-header: Tapi3.h
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MSP_EVENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Tapi3.dll
+api_name:
+-	ITAgentSession.get_Address
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# ITAgentSession::get_Address method
+
+
+## -description
+
+
+The 
+<b>get_Address</b> method gets a pointer to the 
+<a href="https://msdn.microsoft.com/93f2e4cf-013e-4064-88d5-69fddd458274">ITAddress</a> interface associated with this session.
+
+
+## -parameters
+
+
+
+
+### -param ppAddress [out]
+
+Pointer for 
+<a href="https://msdn.microsoft.com/93f2e4cf-013e-4064-88d5-69fddd458274">ITAddress</a>.
+
+
+## -returns
+
+
+
+This method can return one of these values.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+Method succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_OUTOFMEMORY</b></dt>
+</dl>
+</td>
+<td width="60%">
+Insufficient memory exists to perform the operation.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_POINTER</b></dt>
+</dl>
+</td>
+<td width="60%">
+The <i>ppAddress</i> parameter is not a valid pointer.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+TAPI calls the <b>AddRef</b> method on the 
+<a href="https://msdn.microsoft.com/93f2e4cf-013e-4064-88d5-69fddd458274">ITAddress</a> interface returned by <b>ITAgentSession::get_Address</b>. The application must call <b>Release</b> on the 
+<b>ITAddress</b> interface to free resources associated with it.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/93f2e4cf-013e-4064-88d5-69fddd458274">ITAddress</a>
+
+
+
+<a href="https://msdn.microsoft.com/b0db0834-7b9b-4a72-9cc6-6cba31ed1275">ITAgentSession</a>
+ 
+
+ 
+

@@ -1,0 +1,110 @@
+---
+UID: NE:vss._VSS_HARDWARE_OPTIONS
+title: "_VSS_HARDWARE_OPTIONS"
+author: windows-driver-content
+description: Defines shadow copy LUN flags.
+old-location: base\_vss_hardware_options.htm
+old-project: VSS
+ms.assetid: 545977ae-7f62-4a8e-9d2f-936224f413b7
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: "*PVSS_HARDWARE_OPTIONS, PVSS_HARDWARE_OPTIONS, PVSS_HARDWARE_OPTIONS enumeration pointer, VSS_BREAKEX_FLAG_MAKE_READ_WRITE, VSS_BREAKEX_FLAG_MASK_LUNS, VSS_BREAKEX_FLAG_REVERT_IDENTITY_ALL, VSS_BREAKEX_FLAG_REVERT_IDENTITY_NONE, VSS_HARDWARE_OPTIONS, VSS_HARDWARE_OPTIONS enumeration, VSS_ONLUNSTATECHANGE_DO_MASK_LUNS, VSS_ONLUNSTATECHANGE_NOTIFY_LUN_POST_RECOVERY, VSS_ONLUNSTATECHANGE_NOTIFY_LUN_PRE_RECOVERY, VSS_ONLUNSTATECHANGE_NOTIFY_READ_WRITE, _VSS_HARDWARE_OPTIONS, _VSS_HARDWARE_OPTIONS enumeration, base._vss_hardware_options, vss/PVSS_HARDWARE_OPTIONS, vss/VSS_BREAKEX_FLAG_MAKE_READ_WRITE, vss/VSS_BREAKEX_FLAG_MASK_LUNS, vss/VSS_BREAKEX_FLAG_REVERT_IDENTITY_ALL, vss/VSS_BREAKEX_FLAG_REVERT_IDENTITY_NONE, vss/VSS_ONLUNSTATECHANGE_DO_MASK_LUNS, vss/VSS_ONLUNSTATECHANGE_NOTIFY_LUN_POST_RECOVERY, vss/VSS_ONLUNSTATECHANGE_NOTIFY_LUN_PRE_RECOVERY, vss/VSS_ONLUNSTATECHANGE_NOTIFY_READ_WRITE, vss/_VSS_HARDWARE_OPTIONS"
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: enum
+req.header: vss.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista with SP1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: VSS_HARDWARE_OPTIONS, *PVSS_HARDWARE_OPTIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Vss.h
+api_name:
+-	VSS_HARDWARE_OPTIONS
+product: Windows
+targetos: Windows
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
+req.product: Windows UI
+---
+
+# _VSS_HARDWARE_OPTIONS enumeration
+
+
+## -description
+
+
+Defines shadow copy LUN flags.
+
+
+## -enum-fields
+
+
+
+
+### -field VSS_BREAKEX_FLAG_MASK_LUNS
+
+The shadow copy LUN will be masked from the host.
+
+
+### -field VSS_BREAKEX_FLAG_MAKE_READ_WRITE
+
+The shadow copy LUN will be exposed to the host as a read-write volume.
+
+
+### -field VSS_BREAKEX_FLAG_REVERT_IDENTITY_ALL
+
+The disk identifiers of all of the shadow copy LUNs will be reverted to that of the original LUNs. However, if any of the original LUNs are present on the system, the operation will fail and none of the identifiers will be reverted.
+
+
+### -field VSS_BREAKEX_FLAG_REVERT_IDENTITY_NONE
+
+None of the disk identifiers of the shadow copy LUNs will be reverted.
+
+
+### -field VSS_ONLUNSTATECHANGE_NOTIFY_READ_WRITE
+
+The shadow copy LUNs will be converted permanently to read-write. This flag is set only as a notification for the provider; no provider action is required. For more information, see the <a href="https://msdn.microsoft.com/7546eca0-db52-4c4b-9b5a-a3cfdf2a98af">IVssHardwareSnapshotProviderEx::OnLunStateChange</a> method.
+
+
+### -field VSS_ONLUNSTATECHANGE_NOTIFY_LUN_PRE_RECOVERY
+
+The shadow copy LUNs will be converted temporarily to read-write and are about to undergo TxF recovery or VSS auto-recovery. This flag is set only as a notification for the provider; no provider action is required. For more information, see the <a href="https://msdn.microsoft.com/7546eca0-db52-4c4b-9b5a-a3cfdf2a98af">IVssHardwareSnapshotProviderEx::OnLunStateChange</a> method.
+
+
+### -field VSS_ONLUNSTATECHANGE_NOTIFY_LUN_POST_RECOVERY
+
+The shadow copy LUNs have just undergone TxF recovery or VSS auto-recovery and have been converted back to read-only. This flag is set only as a notification for the provider; no provider action is required. For more information, see the <a href="https://msdn.microsoft.com/7546eca0-db52-4c4b-9b5a-a3cfdf2a98af">IVssHardwareSnapshotProviderEx::OnLunStateChange</a> method.
+
+
+### -field VSS_ONLUNSTATECHANGE_DO_MASK_LUNS
+
+The provider must mask shadow copy LUNs from this computer. For more information, see the <a href="https://msdn.microsoft.com/7546eca0-db52-4c4b-9b5a-a3cfdf2a98af">IVssHardwareSnapshotProviderEx::OnLunStateChange</a> method.
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/7546eca0-db52-4c4b-9b5a-a3cfdf2a98af">IVssHardwareSnapshotProviderEx::OnLunStateChange</a>
+ 
+
+ 
+

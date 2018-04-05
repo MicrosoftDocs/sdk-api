@@ -1,0 +1,102 @@
+---
+UID: NF:mfidl.MFCreateContentDecryptorContext
+title: MFCreateContentDecryptorContext function
+author: windows-driver-content
+description: Creates an IMFContentDecryptorContext interface for the specified media protection system.
+old-location: mf\mfcreatecontentdecryptorcontext.htm
+old-project: medfound
+ms.assetid: 9CD2AEAE-E960-450F-824B-ED9FD32FB210
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: MFCreateContentDecryptorContext, MFCreateContentDecryptorContext function [Media Foundation], mf.mfcreatecontentdecryptorcontext, mfidl/MFCreateContentDecryptorContext
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: mfidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2016 [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MF_URL_TRUST_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	mfplat.dll
+api_name:
+-	MFCreateContentDecryptorContext
+product: Windows
+targetos: Windows
+req.lib: Mfplat.lib
+req.dll: Mfplat.dll
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# MFCreateContentDecryptorContext function
+
+
+## -description
+
+
+Creates an <a href="https://msdn.microsoft.com/94DB835F-3D2A-4CC8-A1CF-10215E3D30D6">IMFContentDecryptorContext</a> interface for the specified media protection system.  
+
+
+## -parameters
+
+
+
+
+### -param guidMediaProtectionSystemId [in]
+
+The identifier of the media protection system for which you want to create an <a href="https://msdn.microsoft.com/94DB835F-3D2A-4CC8-A1CF-10215E3D30D6">IMFContentDecryptorContext</a> interface.
+
+
+### -param pD3DManager [in, optional]
+
+Pointer to the <a href="https://msdn.microsoft.com/4A0DC266-FCF0-4ECD-AC78-CF429839486D">IMFDXGIDeviceManager</a> interface that you want to use for sharing the Direct3D 11 device.
+
+
+### -param pContentProtectionDevice [in]
+
+The <a href="https://msdn.microsoft.com/A95F6526-60D2-4922-897E-6369EBB0DC79">IMFContentProtectionDevice</a> interface for the specified media protection system.
+
+
+### -param ppContentDecryptorContext [out]
+
+Pointer to the created <a href="https://msdn.microsoft.com/94DB835F-3D2A-4CC8-A1CF-10215E3D30D6">IMFContentDecryptorContext</a> interface.
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/94DB835F-3D2A-4CC8-A1CF-10215E3D30D6">IMFContentDecryptorContext</a>
+
+
+
+<a href="https://msdn.microsoft.com/A95F6526-60D2-4922-897E-6369EBB0DC79">IMFContentProtectionDevice</a>
+
+
+
+<a href="https://msdn.microsoft.com/4A0DC266-FCF0-4ECD-AC78-CF429839486D">IMFDXGIDeviceManager</a>
+
+
+
+<a href="https://msdn.microsoft.com/3018ffa7-e709-45b0-8b2b-7640d5633378">Media Foundation Functions</a>
+ 
+
+ 
+

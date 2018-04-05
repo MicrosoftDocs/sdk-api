@@ -1,0 +1,88 @@
+---
+UID: NE:webservices.WS_CHARSET
+title: WS_CHARSET
+author: windows-driver-content
+description: Identifies the character set of a document.
+old-location: wsw\ws_charset.htm
+old-project: wsw
+ms.assetid: 47dadf5d-1bc7-4f93-936c-21c936bc3fc3
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: WS_CHARSET, WS_CHARSET enumeration [Web Services for Windows], WS_CHARSET_AUTO, WS_CHARSET_UTF16BE, WS_CHARSET_UTF16LE, WS_CHARSET_UTF8, webservices/WS_CHARSET, webservices/WS_CHARSET_AUTO, webservices/WS_CHARSET_UTF16BE, webservices/WS_CHARSET_UTF16LE, webservices/WS_CHARSET_UTF8, wsw.ws_charset
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: enum
+req.header: webservices.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WS_CHARSET
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WebServices.h
+api_name:
+-	WS_CHARSET
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# WS_CHARSET enumeration
+
+
+## -description
+
+
+Identifies the character set of a document.
+
+
+## -enum-fields
+
+
+
+
+### -field WS_CHARSET_AUTO
+
+
+          Specifies that the charset of a document should be determined automatically by inspecting
+          the BOM (Byte Order Marks) of the document and the xml declaration if present.
+        
+
+
+### -field WS_CHARSET_UTF8
+
+
+          Specifies that the charset of a document is UTF-8.
+        
+
+
+### -field WS_CHARSET_UTF16LE
+
+
+          Specifies that the charset of a document is UTF-16LE.
+        
+
+
+### -field WS_CHARSET_UTF16BE
+
+
+          Specifies that the charset of a document is UTF-16BE.
+        
+

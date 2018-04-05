@@ -1,0 +1,133 @@
+---
+UID: NF:wingdi.CreateDiscardableBitmap
+title: CreateDiscardableBitmap function
+author: windows-driver-content
+description: The CreateDiscardableBitmap function creates a discardable bitmap that is compatible with the specified device.
+old-location: gdi\creatediscardablebitmap.htm
+old-project: gdi
+ms.assetid: 79168baf-26ea-4d24-b75c-d0658a56892c
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: CreateDiscardableBitmap, CreateDiscardableBitmap function [Windows GDI], _win32_CreateDiscardableBitmap, gdi.creatediscardablebitmap, wingdi/CreateDiscardableBitmap
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: wingdi.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: FAX_TIME, *PFAX_TIME
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	gdi32.dll
+-	Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+-	GDI32Full.dll
+api_name:
+-	CreateDiscardableBitmap
+product: Windows
+targetos: Windows
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# CreateDiscardableBitmap function
+
+
+## -description
+
+
+The <b>CreateDiscardableBitmap</b> function creates a discardable bitmap that is compatible with the specified device. The bitmap has the same bits-per-pixel format and the same color palette as the device. An application can select this bitmap as the current bitmap for a memory device that is compatible with the specified device.
+<div class="alert"><b>Note</b>  This function is provided only for compatibility with 16-bit versions of Windows. Applications should use the <a href="https://msdn.microsoft.com/d2866beb-ff7a-4390-8651-e7bf458ddf88">CreateCompatibleBitmap</a> function.</div><div> </div>
+
+## -parameters
+
+
+
+
+### -param hdc [in]
+
+A handle to a device context.
+
+
+### -param cx
+
+TBD
+
+
+### -param cy
+
+TBD
+
+
+
+
+#### - nHeight [in]
+
+The height, in pixels, of the bitmap.
+
+
+#### - nWidth [in]
+
+The width, in pixels, of the bitmap.
+
+
+## -returns
+
+
+
+If the function succeeds, the return value is a handle to the compatible bitmap (DDB).
+
+If the function fails, the return value is <b>NULL</b>.
+
+
+
+
+## -remarks
+
+
+
+When you no longer need the bitmap, call the <a href="https://msdn.microsoft.com/cc679af0-6839-4c83-9c42-39d7ededda40">DeleteObject</a> function to delete it.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/ef3abc8a-5d95-41d0-8eb6-47719d472414">Bitmap Functions</a>
+
+
+
+<a href="https://msdn.microsoft.com/ff0a5ae3-ae2e-4417-b5e5-0f9871c03964">Bitmaps Overview</a>
+
+
+
+<a href="https://msdn.microsoft.com/d2866beb-ff7a-4390-8651-e7bf458ddf88">
+        CreateCompatibleBitmap
+      </a>
+
+
+
+<a href="https://msdn.microsoft.com/cc679af0-6839-4c83-9c42-39d7ededda40">DeleteObject</a>
+ 
+
+ 
+

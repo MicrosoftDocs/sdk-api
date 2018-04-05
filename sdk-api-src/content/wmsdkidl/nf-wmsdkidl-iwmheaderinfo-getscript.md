@@ -1,0 +1,232 @@
+---
+UID: NF:wmsdkidl.IWMHeaderInfo.GetScript
+title: IWMHeaderInfo::GetScript method
+author: windows-driver-content
+description: The GetScript method returns the type and command strings, and the presentation time, of a script.
+old-location: wmformat\iwmheaderinfo_getscript.htm
+old-project: wmformat
+ms.assetid: 779a7618-9f22-4caf-8a4e-b622e422c30d
+ms.author: windowsdriverdev
+ms.date: 3/23/2018
+ms.keywords: GetScript method [windows Media Format], GetScript method [windows Media Format], IWMHeaderInfo interface, GetScript method [windows Media Format], IWMHeaderInfo2 interface, GetScript method [windows Media Format], IWMHeaderInfo3 interface, GetScript,IWMHeaderInfo.GetScript, IWMHeaderInfo, IWMHeaderInfo interface [windows Media Format], GetScript method, IWMHeaderInfo2 interface [windows Media Format], GetScript method, IWMHeaderInfo2::GetScript, IWMHeaderInfo3 interface [windows Media Format], GetScript method, IWMHeaderInfo3::GetScript, IWMHeaderInfo::GetScript, IWMHeaderInfoGetScript, wmformat.iwmheaderinfo_getscript, wmsdkidl/IWMHeaderInfo2::GetScript, wmsdkidl/IWMHeaderInfo3::GetScript, wmsdkidl/IWMHeaderInfo::GetScript
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wmsdkidl.h
+req.include-header: Wmsdk.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WM_AETYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wmvcore.lib
+-	Wmvcore.dll
+-	WMStubDRM.lib
+-	WMStubDRM.dll
+-	qasf.dll
+api_name:
+-	IWMHeaderInfo.GetScript
+-	IWMHeaderInfo2.GetScript
+-	IWMHeaderInfo3.GetScript
+product: Windows
+targetos: Windows
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IWMHeaderInfo::GetScript method
+
+
+## -description
+
+
+
+The <b>GetScript</b> method returns the type and command strings, and the presentation time, of a script.
+
+
+
+
+## -parameters
+
+
+
+
+### -param wIndex [in]
+
+<b>WORD</b>that contains the index.
+
+
+### -param pwszType [out]
+
+Pointer to a wide-character <b>null</b>-terminated string buffer into which the type is copied.
+
+
+### -param pcchTypeLen [in, out]
+
+On input, a pointer to a variable that contains the length of the <i>pwszType</i> array in wide characters (2 bytes). On output, if the method succeeds, the variable contains the actual length of the string loaded into <i>pwszType</i>.This includes the terminating <b>null</b> character. To retrieve the length of the type, you must set this to zero and set <i>pwszType</i> to <b>NULL</b>.
+
+
+### -param pwszCommand [out]
+
+Pointer to a wide-character <b>null</b>-terminated string buffer into which the command is copied.
+
+
+### -param pcchCommandLen [in, out]
+
+On input, a pointer to a variable that contains the length of the <i>pwszCommand</i> array in wide characters (2 bytes). On output, if the method succeeds, the variable contains the actual length of the command string. This  includes the terminating <b>null</b> character. To retrieve the length of the command, you must set this to zero and set <i>pwszCommand</i> to <b>NULL</b>.
+
+
+### -param pcnsScriptTime [out]
+
+Pointer to a <b>QWORD</b>that specifies the presentation time of this script command in 100-nanosecond increments.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ASF_E_BUFFERTOOSMALL</b></dt>
+</dl>
+</td>
+<td width="60%">
+The size specified by <i>pcchCommandLen</i> or <i>pcchTypeLen</i> is not large enough to receive the value.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ASF_E_NOTFOUND</b></dt>
+</dl>
+</td>
+<td width="60%">
+A script command that matches was not found.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>NS_E_INVALID_STATE</b></dt>
+</dl>
+</td>
+<td width="60%">
+The object is not in a configurable state.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+A pointer is <b>NULL</b> where a value is required.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_POINTER</b></dt>
+</dl>
+</td>
+<td width="60%">
+A pointer variable does not contain a valid pointer.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_UNEXPECTED</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method failed for an unspecified reason.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+You should make two calls to <b>GetScript</b> for each script you want to retrieve. On the first call, pass <b>NULL</b> for <i>pwszType</i> and <i>pwszCommand</i>. On return, the values that are pointed to by <i>pcchTypeLen</i> and <i>pcchCommandLen</i> are set to the number of wide characters. These  include the terminating <b>null</b> character, which is required to hold the script type in <i>pcchTypeLen</i> and the command in <i>pcchCommandLen</i>. You can then create buffers of the appropriate size to receive <i>pwszType</i> and <i>pwszCommand</i> and pass pointers to them on the second call.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/649f9a73-c70a-4524-b577-366ade969f2f">IWMHeaderInfo Interface</a>
+
+
+
+<a href="https://msdn.microsoft.com/af670b54-f695-4b6f-8190-c25ea409b53a">IWMHeaderInfo2</a>
+
+
+
+<a href="https://msdn.microsoft.com/5791e330-3877-4d3a-b27f-f14b97d1a435">IWMHeaderInfo3</a>
+
+
+
+<a href="https://msdn.microsoft.com/e20644fb-077e-4eee-8802-6099002f3969">IWMHeaderInfo::AddScript</a>
+
+
+
+<a href="https://msdn.microsoft.com/c1a0b35c-db05-402a-9bde-684bead1eedf">IWMHeaderInfo::GetScriptCount</a>
+
+
+
+<a href="https://msdn.microsoft.com/c66e808d-25f9-4745-8bcc-731f2556f470">IWMHeaderInfo::RemoveScript</a>
+ 
+
+ 
+

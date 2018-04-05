@@ -1,0 +1,74 @@
+---
+UID: NS:xamlom.ParentChildRelation
+title: ParentChildRelation
+author: windows-driver-content
+description: Associates a parent object with a child object.
+old-location: xaml_diagnostics\parentchildrelation.htm
+old-project: xaml_diagnostics
+ms.assetid: 49BC909B-2886-4F03-8F4D-60B9126DA236
+ms.author: windowsdriverdev
+ms.date: 3/19/2018
+ms.keywords: PParentChildRelation, PParentChildRelation structure pointer, ParentChildRelation, ParentChildRelation structure, xaml_diagnostics.parentchildrelation, xamlom/PParentChildRelation, xamlom/ParentChildRelation
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: struct
+req.header: xamlom.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: XamlOM.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: ParentChildRelation
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	xamlom.h
+api_name:
+-	ParentChildRelation
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+---
+
+# ParentChildRelation structure
+
+
+## -description
+
+
+Associates a parent object with a child object.
+
+
+## -struct-fields
+
+
+
+
+### -field Parent
+
+A handle to the parent object.
+
+
+### -field Child
+
+A handle to the child object.
+
+
+### -field ChildIndex
+
+The index of <b>Child</b> in the <b>Children</b> collection of <b>Parent</b>.
+

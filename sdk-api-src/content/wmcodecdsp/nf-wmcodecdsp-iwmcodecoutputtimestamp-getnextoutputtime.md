@@ -1,0 +1,114 @@
+---
+UID: NF:wmcodecdsp.IWMCodecOutputTimestamp.GetNextOutputTime
+title: IWMCodecOutputTimestamp::GetNextOutputTime method
+author: windows-driver-content
+description: Queries the decoder for the time stamp of the upcoming output sample. Use this method if you need to know the time of the sample before calling IMediaObject::ProcessOutput or IMFTransform::ProcessOutput to get the sample.
+old-location: mf\iwmcodecoutputtimestampgetnextoutputtime.htm
+old-project: medfound
+ms.assetid: 8af7e77b-da10-4d6a-b7a1-515a54aa3a20
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: GetNextOutputTime method [Media Foundation], GetNextOutputTime method [Media Foundation], IWMCodecOutputTimestamp interface, GetNextOutputTime,IWMCodecOutputTimestamp.GetNextOutputTime, IWMCodecOutputTimestamp, IWMCodecOutputTimestamp interface [Media Foundation], GetNextOutputTime method, IWMCodecOutputTimestamp::GetNextOutputTime, codecapi.iwmcodecoutputtimestampgetnextoutputtime, mf.iwmcodecoutputtimestampgetnextoutputtime, wmcodecdsp/ IWMCodecOutputTimestamp::GetNextOutputTime
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wmcodecdsp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MFVideoDSPMode
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	wmcodecdsp.h
+api_name:
+-	IWMCodecOutputTimestamp.GetNextOutputTime
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IWMCodecOutputTimestamp::GetNextOutputTime method
+
+
+## -description
+
+
+
+Queries the decoder for the time stamp of the upcoming output sample. Use this method if you need to know the time of the sample before calling <b>IMediaObject::ProcessOutput</b> or <a href="https://msdn.microsoft.com/dc58cc75-7e01-4f47-a572-8e3ca1bc43b4">IMFTransform::ProcessOutput</a> to get the sample.
+
+
+
+## -parameters
+
+
+
+
+### -param prtTime [out]
+
+Address of a variable that receives the presentation time of the next sample.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+This method is important when decoding video using frame interpolation, because the rendering application cannot predict the time stamps of interpolated frames.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/0dbac3fa-7521-434d-aa0a-2e8422c3da59">IWMCodecOutputTimestamp Interface</a>
+ 
+
+ 
+

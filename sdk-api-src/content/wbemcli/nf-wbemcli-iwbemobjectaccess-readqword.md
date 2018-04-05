@@ -1,0 +1,91 @@
+---
+UID: NF:wbemcli.IWbemObjectAccess.ReadQWORD
+title: IWbemObjectAccess::ReadQWORD method
+author: windows-driver-content
+description: The ReadQWORD method reads 64 bits of property data identified by a property handle.
+old-location: wmi\iwbemobjectaccess_readqword.htm
+old-project: WmiSdk
+ms.assetid: cb76eb26-e407-411a-9ccb-a03eaa8bf22e
+ms.author: windowsdriverdev
+ms.date: 3/16/2018
+ms.keywords: IWbemObjectAccess, IWbemObjectAccess interface [Windows Management Instrumentation], ReadQWORD method, IWbemObjectAccess::ReadQWORD, ReadQWORD method [Windows Management Instrumentation], ReadQWORD method [Windows Management Instrumentation], IWbemObjectAccess interface, ReadQWORD,IWbemObjectAccess.ReadQWORD, _hmm_iwbemobjectaccess_readqword, wbemcli/IWbemObjectAccess::ReadQWORD, wmi.iwbemobjectaccess_readqword
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wbemcli.h
+req.include-header: Wbemidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WMI_OBJ_TEXT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Esscli.dll
+-	Fastprox.dll
+-	Wbemess.dll
+api_name:
+-	IWbemObjectAccess.ReadQWORD
+product: Windows
+targetos: Windows
+req.lib: Wbemuuid.lib
+req.dll: Esscli.dll; Fastprox.dll; Wbemess.dll
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# IWbemObjectAccess::ReadQWORD method
+
+
+## -description
+
+
+The <b>ReadQWORD</b> method reads 64 bits of property data identified by a property handle.
+
+
+## -parameters
+
+
+
+
+### -param lHandle [in]
+
+Integer that contains the handle identifying the property.
+
+
+### -param pqw [out]
+
+Pointer to a unsigned 64-bit integer used to return the data being read.
+
+
+## -returns
+
+
+
+This method returns <b>WBEM_S_NO_ERROR</b> if successful. If the property was <b>NULL</b>, then the method returns <b>WBEM_S_FALSE</b>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/1025ae50-870f-4d38-8e83-3c6b628315c6">IWbemObjectAccess</a>
+ 
+
+ 
+

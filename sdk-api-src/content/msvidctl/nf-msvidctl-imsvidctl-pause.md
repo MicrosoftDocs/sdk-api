@@ -1,0 +1,81 @@
+---
+UID: NF:msvidctl.IMSVidCtl.Pause
+title: IMSVidCtl::Pause method
+author: windows-driver-content
+description: The Pause method pauses the filter graph.
+old-location: mstv\imsvidctl_pause.htm
+old-project: mstv
+ms.assetid: fd7687d8-325f-4a51-ab57-ffcc45a9157b
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: IMSVidCtl, IMSVidCtl interface [Microsoft TV Technologies], Pause method, IMSVidCtl::Pause, IMSVidCtlPause, Pause method [Microsoft TV Technologies], Pause method [Microsoft TV Technologies], IMSVidCtl interface, Pause,IMSVidCtl.Pause, mstv.imsvidctl_pause, msvidctl/IMSVidCtl::Pause
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: msvidctl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: None supported
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Msvidctl.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MSVidCtlStateList
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	msvidctl.h
+api_name:
+-	IMSVidCtl.Pause
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# IMSVidCtl::Pause method
+
+
+## -description
+
+
+The <b>Pause</b> method pauses the filter graph.
+
+
+## -parameters
+
+
+
+
+
+
+## -returns
+
+
+
+If the method succeeds, it returns S_OK. If it fails, it returns an error code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/e3ea10ea-bfb4-4c35-9933-5ad0367fd9ee">IMSVidCtl Interface</a>
+ 
+
+ 
+

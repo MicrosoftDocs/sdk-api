@@ -1,0 +1,106 @@
+---
+UID: NC:cryptxml.CryptXmlDllVerifySignature
+title: CryptXmlDllVerifySignature
+author: windows-driver-content
+description: Verifies a signature.
+old-location: security\cryptxmldllverifysignature.htm
+old-project: SecCrypto
+ms.assetid: 6e864156-37bd-4f2a-b2e9-f7269aa70241
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: CryptXmlDllVerifySignature, CryptXmlDllVerifySignature function pointer [Security], cryptxml/CryptXmlDllVerifySignature, security.cryptxmldllverifysignature
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: callback
+req.header: cryptxml.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: CRYPTUI_WIZ_IMPORT_SRC_INFO, *PCRYPTUI_WIZ_IMPORT_SRC_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Cryptxml.h
+api_name:
+-	CryptXmlDllVerifySignature
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# CryptXmlDllVerifySignature callback
+
+
+## -description
+
+
+The <b>CryptXmlDllVerifySignature</b>  function verifies a signature.
+
+The <b>CryptXmlDllVerifySignature</b> function is exposed through the exported <a href="https://msdn.microsoft.com/a547e869-3c9f-4408-9895-29fae0cc6066">CryptXmlDllGetInterface</a>  function.
+
+
+## -parameters
+
+
+
+
+### -param *pSignatureMethod [in]
+
+A pointer to a <a href="https://msdn.microsoft.com/4eb99c1e-fa06-41ec-906c-a3ba34e7aaeb">CRYPT_XML_ALGORITHM</a> structure that specifies the algorithm.
+
+
+### -param hKey [in]
+
+A handle to the public key. 
+
+
+### -param *pbInput [in]
+
+A pointer to a buffer that contains the signed data. The <i>cbInput</i> parameter contains the size of this buffer. 
+
+
+### -param cbInput [in]
+
+The size, in bytes, of the buffer pointed to by the <i>pbInput</i> parameter.
+
+
+### -param *pbSignature [in]
+
+A pointer to a buffer that contains the signature value to be verified. The <i>cbSignature</i> parameter contains the size of this buffer. 
+
+
+### -param cbSignature [in]
+
+The size, in bytes, of the <i>pbSignature</i> buffer.
+
+
+#### - hCryptProv [in]
+
+A handle to the cryptographic provider.
+
+
+## -returns
+
+
+
+If the function succeeds, the function returns zero.
+
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error.
+
+
+

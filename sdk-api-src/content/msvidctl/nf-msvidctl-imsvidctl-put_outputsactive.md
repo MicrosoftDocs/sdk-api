@@ -1,0 +1,89 @@
+---
+UID: NF:msvidctl.IMSVidCtl.put_OutputsActive
+title: IMSVidCtl::put_OutputsActive method
+author: windows-driver-content
+description: The put_OutputsActive method specifies the active output devices.
+old-location: mstv\imsvidctl_put_outputsactive.htm
+old-project: mstv
+ms.assetid: 636cedef-f6e5-40f2-8f1c-9f886d618ad0
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: IMSVidCtl, IMSVidCtl interface [Microsoft TV Technologies], put_OutputsActive method, IMSVidCtl::put_OutputsActive, IMSVidCtlput_OutputsActive, mstv.imsvidctl_put_outputsactive, msvidctl/IMSVidCtl::put_OutputsActive, put_OutputsActive method [Microsoft TV Technologies], put_OutputsActive method [Microsoft TV Technologies], IMSVidCtl interface, put_OutputsActive,IMSVidCtl.put_OutputsActive
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: msvidctl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: None supported
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Msvidctl.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MSVidCtlStateList
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	msvidctl.h
+api_name:
+-	IMSVidCtl.put_OutputsActive
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# IMSVidCtl::put_OutputsActive method
+
+
+## -description
+
+
+The <b>put_OutputsActive</b> method specifies the active output devices.
+
+
+## -parameters
+
+
+
+
+### -param pVal [in]
+
+Pointer to the new collection of output devices.
+          
+
+
+## -returns
+
+
+
+If the method succeeds, it returns S_OK. If it fails, it returns an error code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/e3ea10ea-bfb4-4c35-9933-5ad0367fd9ee">IMSVidCtl Interface</a>
+
+
+
+<a href="https://msdn.microsoft.com/9465ff38-c524-47e1-8bc0-bd6b2e0dea8c">IMSVidCtl::get_OutputsActive</a>
+ 
+
+ 
+

@@ -1,0 +1,90 @@
+---
+UID: NF:provider.Provider.Flush
+title: Provider::Flush method
+author: windows-driver-content
+description: The Flush method is called by the provider framework to delete all unnecessary memory in use by the provider.
+old-location: wmi\provider_flush.htm
+old-project: WmiSdk
+ms.assetid: c8be35ec-cd2e-45ec-b47f-48acf5e6f51a
+ms.author: windowsdriverdev
+ms.date: 3/16/2018
+ms.keywords: "?Flush@Provider@@MAEXXZ, ?Flush@Provider@@MEAAXXZ, Flush method [Windows Management Instrumentation], Flush method [Windows Management Instrumentation], Provider interface, Flush,Provider.Flush, Provider, Provider interface [Windows Management Instrumentation], Flush method, Provider::Flush, _hmm_provider_flush, provider/Provider::Flush, wmi.provider_flush"
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: provider.h
+req.include-header: FwCommon.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: PROPVAR_COMPARE_UNIT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	FrameDynOS.dll
+-	FrameDyn.dll
+api_name:
+-	Provider.Flush
+-	?Flush@Provider@@MAEXXZ
+-	?Flush@Provider@@MEAAXXZ
+product: Windows
+targetos: Windows
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# Provider::Flush method
+
+
+## -description
+
+
+<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/library/windows/hardware/hh406455">Provider</a> class 
+    is part of the WMI Provider Framework which is now considered in final state, and no further development, 
+    enhancements, or updates will be available for non-security related issues affecting these libraries. The 
+    <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new 
+    development.]
+
+The <b>Flush</b> method is called by the provider framework to delete all unnecessary memory in use by the provider. Because your provider may be called again after a call to <b>Flush</b>, you must re-create any objects released by <b>Flush</b>. If you override this method, you should call the parent object's <b>Flush</b> method to release any framework memory associated with your provider.
+
+
+## -parameters
+
+
+
+
+
+
+## -returns
+
+
+
+This method has no return values.
+
+
+
+
+## -remarks
+
+
+
+Override this method only if your framework provider allocates memory that can be flushed. If your provider chooses to override, include a call to <b>Provider::Flush</b> in the provider's implementation.
+
+<div class="alert"><b>Note</b>  Because your provider may be called after a call to <b>Flush</b>, you must be prepared to re-create any items released by the call to <b>Flush</b>.</div>
+<div> </div>
+
+

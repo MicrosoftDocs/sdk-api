@@ -1,0 +1,77 @@
+---
+UID: NF:shdeprecated.ITravelLog.CountEntries
+title: ITravelLog::CountEntries method
+author: windows-driver-content
+description: Deprecated. Generates the number of entries in the travel log.
+old-location: shell\ITravelLog_CountEntries.htm
+old-project: shell
+ms.assetid: 490f7350-6c67-4c79-a100-af266b269472
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: CountEntries method [Windows Shell], CountEntries method [Windows Shell], ITravelLog interface, CountEntries,ITravelLog.CountEntries, ITravelLog, ITravelLog interface [Windows Shell], CountEntries method, ITravelLog::CountEntries, shdeprecated/ITravelLog::CountEntries, shell.ITravelLog_CountEntries, zone_ITravelLog_CountEntries
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: shdeprecated.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Shdeprecated.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: BNSTATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Shdeprecated.h
+api_name:
+-	ITravelLog.CountEntries
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 4.0
+---
+
+# ITravelLog::CountEntries method
+
+
+## -description
+
+
+Deprecated. Generates the number of entries in the travel log.
+
+
+## -parameters
+
+
+
+
+### -param punk [in]
+
+Type: <b><a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>*</b>
+
+A pointer to an <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> representing the nearest browser or frame within which the travel generating the log is taking place.
+
+
+## -returns
+
+
+
+Type: <b>DWORD</b>
+
+The number of entries in the travel log.
+
+
+

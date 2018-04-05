@@ -1,0 +1,71 @@
+---
+UID: NF:uiautomationclient.IUIAutomationElement4.get_CachedPositionInSet
+title: IUIAutomationElement4::get_CachedPositionInSet method
+author: windows-driver-content
+description: Returns the cached 1-based integer for the ordinal position in the set for the element.
+old-location: winauto\uiauto_IUIAutomationElement4_CachedPositionInSet.htm
+old-project: WinAuto
+ms.assetid: 68CB368F-90AC-4BAB-A097-CB1517D77B6F
+ms.author: windowsdriverdev
+ms.date: 3/29/2018
+ms.keywords: CachedPositionInSet property [Windows Accessibility], CachedPositionInSet property [Windows Accessibility], IUIAutomationElement4 interface, IUIAutomationElement4, IUIAutomationElement4 interface [Windows Accessibility], CachedPositionInSet property, IUIAutomationElement4.CachedPositionInSet, IUIAutomationElement4::get_CachedPositionInSet, get_CachedPositionInSet,IUIAutomationElement4.get_CachedPositionInSet, uiautomationclient/IUIAutomationElement4::CachedPositionInSet, uiautomationclient/IUIAutomationElement4::get_CachedPositionInSet, winauto.uiauto_IUIAutomationElement4_CachedPositionInSet
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: uiautomationclient.h
+req.include-header: UIAutomation.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: UIAutomationClient.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	UIAutomationCore.dll
+api_name:
+-	IUIAutomationElement4.CachedPositionInSet
+-	IUIAutomationElement4.get_CachedPositionInSet
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: UIAutomationCore.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# IUIAutomationElement4::get_CachedPositionInSet method
+
+
+## -description
+
+
+Returns the cached 1-based integer for the ordinal position in the set for the element.
+
+This property is read-only.
+
+
+## -parameters
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/658FA354-38AE-4038-9F18-FE2858900BF7">IUIAutomationElement4</a>
+ 
+
+ 
+

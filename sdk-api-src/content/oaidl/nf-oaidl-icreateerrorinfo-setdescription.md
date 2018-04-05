@@ -1,0 +1,128 @@
+---
+UID: NF:oaidl.ICreateErrorInfo.SetDescription
+title: ICreateErrorInfo::SetDescription method
+author: windows-driver-content
+description: Sets the textual description of the error.
+old-location: automat\icreateerrorinfo_setdescription.htm
+old-project: automat
+ms.assetid: 32d10343-4be4-4ebc-b2fd-43a292c006b2
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: ICreateErrorInfo, ICreateErrorInfo interface [Automation], SetDescription method, ICreateErrorInfo::SetDescription, SetDescription method [Automation], SetDescription method [Automation], ICreateErrorInfo interface, SetDescription,ICreateErrorInfo.SetDescription, _oa96_ICreateErrorInfo_SetDescription, automat.icreateerrorinfo_setdescription, oaidl/ICreateErrorInfo::SetDescription
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: oaidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: OaIdl.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: VARKIND
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	oaidl.h
+api_name:
+-	ICreateErrorInfo.SetDescription
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# ICreateErrorInfo::SetDescription method
+
+
+## -description
+
+
+Sets the textual description of the error.
+
+
+## -parameters
+
+
+
+
+### -param szDescription [in]
+
+A brief description of the error.
+
+
+## -returns
+
+
+
+This method can return one of these values.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+Success.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_OUTOFMEMORY</b></dt>
+</dl>
+</td>
+<td width="60%">
+Insufficient memory to complete the operation.
+
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+The text should be supplied in the language specified by the locale ID (LCID) that was passed to the method raising the error. For more information, see LCID Attribute in <a href="https://msdn.microsoft.com/c4061d23-b6bd-43f4-adf0-5980dae7a059">Type Libraries and the Object Description Language</a>. 
+
+
+
+Use of this function is demonstrated in the file Main.cpp of the COM Fundamentals Hello sample.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/2e7c5ad5-9018-413e-8826-ef752ebf302c">ICreateErrorInfo</a>
+ 
+
+ 
+

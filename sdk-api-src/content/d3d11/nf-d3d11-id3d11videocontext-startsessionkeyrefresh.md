@@ -1,0 +1,106 @@
+---
+UID: NF:d3d11.ID3D11VideoContext.StartSessionKeyRefresh
+title: ID3D11VideoContext::StartSessionKeyRefresh method
+author: windows-driver-content
+description: Gets a random number that can be used to refresh the session key.
+old-location: mf\id3d11videocontext_startsessionkeyrefresh.htm
+old-project: medfound
+ms.assetid: 63376BFE-BA84-4268-8AA8-128BEB83AE78
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: ID3D11VideoContext, ID3D11VideoContext interface [Media Foundation], StartSessionKeyRefresh method, ID3D11VideoContext::StartSessionKeyRefresh, StartSessionKeyRefresh method [Media Foundation], StartSessionKeyRefresh method [Media Foundation], ID3D11VideoContext interface, StartSessionKeyRefresh,ID3D11VideoContext.StartSessionKeyRefresh, d3d11/ID3D11VideoContext::StartSessionKeyRefresh, mf.id3d11videocontext_startsessionkeyrefresh
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: d3d11.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: D3D11_VPOV_DIMENSION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	d3d11.h
+api_name:
+-	ID3D11VideoContext.StartSessionKeyRefresh
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# ID3D11VideoContext::StartSessionKeyRefresh method
+
+
+## -description
+
+
+Gets a random number that can be used to refresh the session key.
+
+
+
+
+## -parameters
+
+
+
+
+### -param pCryptoSession [in]
+
+A pointer to the <a href="https://msdn.microsoft.com/E17F39CB-61E3-44EF-805D-AD386743744E">ID3D11CryptoSession</a> interface.
+
+
+### -param RandomNumberSize [in]
+
+The size of the <i>pRandomNumber</i> array, in bytes. The size should match the size of the session key.
+
+
+### -param pRandomNumber [out]
+
+A pointer to a byte array that receives a random number.
+
+
+## -returns
+
+
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+To generate a new session key, perform a bitwise <b>XOR</b> between the previous session key and the random number. The new session key does not take affect until the application calls <a href="https://msdn.microsoft.com/2F602A5E-B5D1-4749-8696-9F0594770B4F">ID3D11VideoContext::FinishSessionKeyRefresh</a>.
+
+To query whether the driver supports this method, call <a href="https://msdn.microsoft.com/3BF2D2B9-6A12-4E71-9F52-829BABA32EF6">ID3D11VideoDevice::GetContentProtectionCaps</a> and check for the <b>D3D11_CONTENT_PROTECTION_CAPS_FRESHEN_SESSION_KEY</b> capabilities flag.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/6EF09C31-56C7-46B5-87AE-B1FE43EC66FC">ID3D11VideoContext</a>
+ 
+
+ 
+

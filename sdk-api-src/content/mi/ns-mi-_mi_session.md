@@ -1,0 +1,90 @@
+---
+UID: NS:mi._MI_Session
+title: "_MI_Session"
+author: windows-driver-content
+description: An object that is associated with a destination and has a set of credentials and options associated with it. .
+old-location: wmi_v2\mi_session.htm
+old-project: wmi_v2
+ms.assetid: 68a69321-0aa9-423e-a72f-aa2f4dee2d51
+ms.author: windowsdriverdev
+ms.date: 3/23/2018
+ms.keywords: MI_Session, MI_Session structure [Windows Management Infrastructure (MI)], _MI_Session, mi/MI_Session, wmi._mi_session, wmi_v2.mi_session
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: struct
+req.header: mi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MI_Session, MI_Session
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Mi.h
+api_name:
+-	MI_Session
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# _MI_Session structure
+
+
+## -description
+
+
+An object that is associated with a destination and has a set of credentials and options associated with it. .
+
+
+## -struct-fields
+
+
+
+
+### -field reserved1
+
+For internal use only.
+
+
+### -field reserved2
+
+For internal use only.
+
+
+### -field ft
+
+This is the function table for accessing carrying out 
+                      operations on a destination machine, along with configuration of the session. Use the functions containing the MI_Session_ prefix to access this information.
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/76010766-aa20-4632-940d-48d9769803da">MI_Application_NewSession</a>
+
+
+
+<a href="https://msdn.microsoft.com/275657b1-9e74-456e-9ef9-28b621d27fc7">MI_Context_GetLocalSession</a>
+ 
+
+ 
+

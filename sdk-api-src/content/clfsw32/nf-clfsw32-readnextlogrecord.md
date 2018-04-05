@@ -1,0 +1,221 @@
+---
+UID: NF:clfsw32.ReadNextLogRecord
+title: ReadNextLogRecord function
+author: windows-driver-content
+description: Reads the next record in a sequence that is initiated by a call to ReadLogRecord or ReadLogRestartArea.
+old-location: fs\readnextlogrecord.htm
+old-project: Clfs
+ms.assetid: 7736106b-6c43-496e-83b8-fa433c29e680
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: ClfsClientRecord, ClfsDataRecord, ClfsRestartRecord, ReadNextLogRecord, ReadNextLogRecord function [Files], clfsw32/ReadNextLogRecord, fs.readnextlogrecord
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: clfsw32.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: LOG_MANAGEMENT_CALLBACKS, *PLOG_MANAGEMENT_CALLBACKS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Clfsw32.dll
+api_name:
+-	ReadNextLogRecord
+product: Windows
+targetos: Windows
+req.lib: Clfsw32.lib
+req.dll: Clfsw32.dll
+req.irql: 
+---
+
+# ReadNextLogRecord function
+
+
+## -description
+
+
+Reads the next record in a sequence that is initiated by a call to <a href="https://msdn.microsoft.com/1c56c47b-d898-4c70-ba70-8978057c66b9">ReadLogRecord</a> or <a href="https://msdn.microsoft.com/ab59d2fe-d951-42f3-b270-844eaeb6ff90">ReadLogRestartArea</a>.   By using <b>ReadNextLogRecord</b> iteratively, a client can read all records of a specified type in a log.  The direction of enumeration is determined by specifying the context mode when beginning the read sequence.
+
+
+## -parameters
+
+
+
+
+### -param pvReadContext [in, out]
+
+A pointer to a  read context  that the system allocates and creates during a successful call to <a href="https://msdn.microsoft.com/1c56c47b-d898-4c70-ba70-8978057c66b9">ReadLogRecord</a> or <a href="https://msdn.microsoft.com/ab59d2fe-d951-42f3-b270-844eaeb6ff90">ReadLogRestartArea</a>.  
+
+If the function defers completion of an operation, it  returns a pointer to a valid read context and an error status of <b>ERROR_IO_PENDING</b>.  For information about handling asynchronous completion, see the Remarks section of this topic.
+
+
+### -param ppvBuffer [out]
+
+A pointer to a variable that receives a pointer to the read data.
+
+
+### -param pcbBuffer [out]
+
+A pointer to a variable that receives the size of the read data that is returned in <i>ppvReadBuffer</i>, in bytes.
+
+
+### -param peRecordType [in, out]
+
+A pointer that, on input, specifies   the record type filter of the next record read, and on output specifies the record type that is returned.    
+
+Clients can specify any of the following record types.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="ClfsDataRecord"></a><a id="clfsdatarecord"></a><a id="CLFSDATARECORD"></a><dl>
+<dt><b>ClfsDataRecord</b></dt>
+</dl>
+</td>
+<td width="60%">
+ Only user-data records are read.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="ClfsRestartRecord"></a><a id="clfsrestartrecord"></a><a id="CLFSRESTARTRECORD"></a><dl>
+<dt><b>ClfsRestartRecord</b></dt>
+</dl>
+</td>
+<td width="60%">
+ Only restart records are read.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="ClfsClientRecord"></a><a id="clfsclientrecord"></a><a id="CLFSCLIENTRECORD"></a><dl>
+<dt><b>ClfsClientRecord</b></dt>
+</dl>
+</td>
+<td width="60%">
+ All restart and data records are read.
+
+</td>
+</tr>
+</table>
+ 
+
+
+### -param OPTIONAL
+
+TBD
+
+
+
+
+### -param plsnUndoNext [out]
+
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541824">CLFS_LSN</a> structure that receives the LSN of the next record in an undo record chain.
+
+
+### -param plsnPrevious [out]
+
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541824">CLFS_LSN</a> structure that receives the LSN of the next record in the previous record chain.
+
+
+### -param plsnRecord [out]
+
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541824">CLFS_LSN</a> structure that receives the LSN of the current record read into the read context.
+
+
+#### - pOverlapped [in, out, optional]
+
+A pointer to an <a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structure that is required for asynchronous operation. 
+
+This parameter can be <b>NULL</b> if asynchronous operation is not used.
+
+
+#### - plsnUser [in, optional]
+
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541824">CLFS_LSN</a> structure that specifies   the log client  to read this log sequence number (LSN) as the next LSN instead of  reading forward to the next record, reading the previous LSN, or reading the next undo LSN.  
+
+This parameter gives log clients the ability to cursor through user-defined LSN chains in client buffers.  The relationship of this parameter to the current LSN held by the read context must be consistent with the context mode, <i>ecxMode</i>,  that is specified in the <a href="https://msdn.microsoft.com/1c56c47b-d898-4c70-ba70-8978057c66b9">ReadLogRecord</a>  entry points; otherwise, an error code of <b>ERROR_INVALID_PARAMETER</b> is returned.
+
+
+## -returns
+
+
+
+If the function succeeds, the return value is nonzero.
+						
+
+If the function fails, the return value is zero. To get extended error information, call 
+<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. 
+
+The following  list identifies the  possible error codes:
+
+
+
+
+## -remarks
+
+
+
+If <b>ReadNextLogRecord</b>  returns with a status code of <b>ERROR_IO_PENDING</b>, the client should synchronize its execution with deferred completion of the overlapped I/O operation by using <a href="https://msdn.microsoft.com/7f999959-9b22-4491-ae2b-a2674d821110">GetOverlappedResult</a>, or one of the synchronization <a href="https://msdn.microsoft.com/9c66c71d-fdfd-42ae-895c-2fc842b5bc7a">Wait Functions</a>. For more information, see <a href="https://msdn.microsoft.com/db44990e-5a0f-4153-8ff6-79dd7cda48af">Synchronization and Overlapped Input and Output</a>. 
+
+After <b>ReadNextLogRecord</b> completes asynchronously, the requested record  is  read from the disk, but is not   resolved to a pointer in <i>*ppvReadBuffer</i>. To obtain a valid pointer to the record,  the client must call <b>ReadNextLogRecord</b> a second time.
+
+<div class="alert"><b>Note</b>  Common Log File System (CLFS) read contexts are not thread-safe. They should not be used by more than one thread at a time.<p class="note">CLFS read contexts should not be passed into more than one asynchronous read at a time, or the function fails with ERROR_READ.
+
+</div>
+<div> </div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541824">CLFS_LSN</a>
+
+
+
+<a href="https://msdn.microsoft.com/63489b1b-75de-469d-9ffc-f0353bb2fdd9">CLFS_RECORD_TYPE</a>
+
+
+
+<a href="https://msdn.microsoft.com/a3059828-d291-493d-a4fe-13d06e49ed12">Common Log File System Functions</a>
+
+
+
+<a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a>
+
+
+
+<a href="https://msdn.microsoft.com/1c56c47b-d898-4c70-ba70-8978057c66b9">ReadLogRecord</a>
+
+
+
+<a href="https://msdn.microsoft.com/ab59d2fe-d951-42f3-b270-844eaeb6ff90">ReadLogRestartArea</a>
+
+
+
+<a href="https://msdn.microsoft.com/db44990e-5a0f-4153-8ff6-79dd7cda48af">Synchronization and Overlapped Input and Output</a>
+ 
+
+ 
+

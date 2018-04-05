@@ -1,0 +1,131 @@
+---
+UID: NS:mobsync._tagSYNCMGRITEM
+title: "_tagSYNCMGRITEM"
+author: windows-driver-content
+description: Provides information about items being enumerated by the ISyncMgrEnumItems interface.
+old-location: shell\syncmgr_syncmgritem.htm
+old-project: shell
+ms.assetid: 84fa1d81-d1b9-44d7-be97-14511ef95528
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: "*LPSYNCMGRITEM, LPSYNCMGRITEM, LPSYNCMGRITEM structure pointer [Windows Shell], SYNCMGRITEM, SYNCMGRITEM structure [Windows Shell], SYNCMGRITEMSTATE_CHECKED, SYNCMGRITEMSTATE_UNCHECKED, _tagSYNCMGRITEM, mobsync/LPSYNCMGRITEM, mobsync/SYNCMGRITEM, shell.syncmgr_syncmgritem, syncmgr.syncmgritem"
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: struct
+req.header: mobsync.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: SYNCMGRITEM, *LPSYNCMGRITEM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Mobsync.h
+api_name:
+-	SYNCMGRITEM
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# _tagSYNCMGRITEM structure
+
+
+## -description
+
+
+Provides information about items being enumerated by the <a href="https://msdn.microsoft.com/d90e3a19-0ea8-4396-a6e7-dafe1dc9b2ec">ISyncMgrEnumItems</a> interface.
+
+
+## -struct-fields
+
+
+
+
+### -field cbSize
+
+Type: <b>DWORD</b>
+
+The size of the structure.
+
+
+### -field dwFlags
+
+Type: <b>DWORD</b>
+
+One or more values from the <a href="https://msdn.microsoft.com/6297f10b-9a2c-4077-9dca-e5c0850d125a">SYNCMGRITEMFLAGS</a> enumeration.
+
+
+### -field ItemID
+
+Type: <b>GUID</b>
+
+The identifier for this item.
+
+
+### -field dwItemState
+
+Type: <b>DWORD</b>
+
+Indicates whether this item is included in synchronization operations. This member can have one of the following values.
+
+
+
+#### SYNCMGRITEMSTATE_UNCHECKED (0)
+
+The default is not including this item in synchronization operations.
+
+
+
+#### SYNCMGRITEMSTATE_CHECKED (1)
+
+The default is including this item in synchronization operations.
+
+
+### -field hIcon
+
+Type: <b>HICON</b>
+
+The icon for this item.
+
+
+### -field wszItemName
+
+Type: <b>WCHAR[MAX_SYNCMGRITEMNAME]</b>
+
+The name of this item.
+
+
+### -field ftLastUpdate
+
+Type: <b>FILETIME</b>
+
+The time of the last synchronization for this item.
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/6297f10b-9a2c-4077-9dca-e5c0850d125a">SYNCMGRITEMFLAGS</a>
+ 
+
+ 
+

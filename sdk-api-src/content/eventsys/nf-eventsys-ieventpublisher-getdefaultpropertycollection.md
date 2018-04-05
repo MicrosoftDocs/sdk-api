@@ -1,0 +1,93 @@
+---
+UID: NF:eventsys.IEventPublisher.GetDefaultPropertyCollection
+title: IEventPublisher::GetDefaultPropertyCollection method
+author: windows-driver-content
+description: Creates a collection object that enumerates the properties contained in the property bag associated with the event publisher object.
+old-location: com\ieventpublisher_getdefaultpropertycollection.htm
+old-project: com
+ms.assetid: ca5d116a-b995-4311-9c58-6b957fca6b53
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: GetDefaultPropertyCollection method [COM], GetDefaultPropertyCollection method [COM], IEventPublisher interface, GetDefaultPropertyCollection,IEventPublisher.GetDefaultPropertyCollection, IEventPublisher, IEventPublisher interface [COM], GetDefaultPropertyCollection method, IEventPublisher::GetDefaultPropertyCollection, _com_ieventpublisher_getdefaultpropertycollection, com.ieventpublisher_getdefaultpropertycollection, eventsys/IEventPublisher::GetDefaultPropertyCollection
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: eventsys.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: EventSys.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: EOC_ChangeType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	EventSys.h
+api_name:
+-	IEventPublisher.GetDefaultPropertyCollection
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
+---
+
+# IEventPublisher::GetDefaultPropertyCollection method
+
+
+## -description
+
+
+Creates a collection object that enumerates the properties contained in the property bag associated with the event publisher object.
+
+
+## -parameters
+
+
+
+
+### -param collection [out, retval]
+
+A pointer to an <a href="_cos_IEventObjectCollection">IEventObjectCollection</a> interface pointer on an event object collection. This parameter cannot be <b>NULL</b>.
+
+
+## -returns
+
+
+
+The possible return values include E_INVALIDARG, E_OUTOFMEMORY, E_UNEXPECTED, E_FAIL, and S_OK.
+
+
+
+
+## -remarks
+
+
+
+An <a href="https://msdn.microsoft.com/132b79c8-d7f4-49c1-87c7-9bdf311ae697">EventPublisher</a> object includes a property bag that can contain name and value pairs. Objects in the event system, including subscribers, can add, modify, and read these properties.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/132b79c8-d7f4-49c1-87c7-9bdf311ae697">IEventPublisher</a>
+ 
+
+ 
+

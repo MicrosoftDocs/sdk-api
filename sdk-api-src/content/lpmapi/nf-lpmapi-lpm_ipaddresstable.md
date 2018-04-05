@@ -1,0 +1,92 @@
+---
+UID: NF:lpmapi.LPM_IpAddressTable
+title: LPM_IpAddressTable function
+author: windows-driver-content
+description: The LPM_IpAddressTable function is used by the PCM to pass a list of IP addresses assigned to the Windows 2000 Server upon which the LPM is initialized.
+old-location: qos\lpm_ipaddresstable.htm
+old-project: QOS
+ms.assetid: f02ecb97-3797-49a0-8bff-fcb16096cb25
+ms.author: windowsdriverdev
+ms.date: 3/23/2018
+ms.keywords: LPM_IpAddressTable, LPM_IpAddressTable callback function [QOS], _gqos_lpm_ipaddresstable, lpmapi/LPM_IpAddressTable, qos.lpm_ipaddresstable
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: lpmapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MC_TIMING_REPORT, *LPMC_TIMING_REPORT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Lpmapi.h
+api_name:
+-	LPM_IpAddressTable
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# LPM_IpAddressTable function
+
+
+## -description
+
+
+The 
+<i>LPM_IpAddressTable</i> function is used by the PCM to pass a list of IP addresses assigned to the Windows 2000 Server upon which the LPM is initialized. The PCM calls this routine after the LPM has successfully initialized, but before making any requests. The PCM also uses the 
+<i>LPM_IpAddressTable</i> function to update LPMs regarding IP address changes. LPMs are expected to detect IP address changes and update their states appropriately.
+
+
+## -parameters
+
+
+
+
+### -param cIpAddrTable [in]
+
+Number of addresses in the IP table.
+
+
+### -param pIpAddrTable [in]
+
+Pointer to an 
+<a href="https://msdn.microsoft.com/cbd67aa2-8b87-4e24-8a8e-a6c60cebf31f">LPMIPTABLE</a> structure that contains the IP addresses assigned to the Windows 2000 Server on which the LPM resides.
+
+
+## -returns
+
+
+
+Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/cbd67aa2-8b87-4e24-8a8e-a6c60cebf31f">LPMIPTABLE</a>
+ 
+
+ 
+

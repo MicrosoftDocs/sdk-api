@@ -1,0 +1,104 @@
+---
+UID: NS:p2p.peer_node_info_tag
+title: peer_node_info_tag
+author: windows-driver-content
+description: The PEER_NODE_INFO structure contains information that is specific to a particular node in a peer graph.
+old-location: p2p\peer_node_info.htm
+old-project: P2PSdk
+ms.assetid: 51cc6c27-91ca-4d02-95d6-207827450fd5
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: "*PPEER_NODE_INFO, PEER_NODE_INFO, PEER_NODE_INFO structure [Peer Networking], PPEER_NODE_INFO, PPEER_NODE_INFO structure pointer [Peer Networking], p2p.peer_node_info, p2p/PPEER_NODE_INFO, p2p/peer_node_info_tag, peer_node_info_tag"
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: struct
+req.header: p2p.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2 [desktop apps only],Windows XP with SP1 with the Advanced Networking Pack forWindows XP
+req.target-min-winversvr: None supported
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: PEER_NODE_INFO, *PPEER_NODE_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	P2P.h
+api_name:
+-	PEER_NODE_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# peer_node_info_tag structure
+
+
+## -description
+
+
+The <b>PEER_NODE_INFO</b> structure contains information that is specific to a particular node in a peer graph.
+
+
+## -struct-fields
+
+
+
+
+### -field dwSize
+
+Specifies the size of the data structure. Set the value to   sizeof(<b>PEER_NODE_INFO</b>). This member is required and has no default value.
+
+
+### -field ullNodeId
+
+Specifies a unique ID that identifies an application's  connection to its neighbor. An application cannot set the value of this member, it is created by the Peer Graphing Infrastructure.
+
+
+### -field pwzPeerId
+
+Specifies the ID of this peer. This value is set for the application by the Peer Graphing Infrastructure. when the application creates or opens a peer graph.
+
+
+### -field cAddresses
+
+Specifies the number of addresses in <b>pAddresses</b>. This member is required and has no default value.
+
+
+### -field pAddresses
+
+Points to  an array of <a href="https://msdn.microsoft.com/09476d3b-ec65-40a2-90ee-a20be230deca">PEER_ADDRESS</a> structures that indicate which addresses and  ports this instance is listening to for group traffic. This member is required and has no default value.
+
+
+### -field pwzAttributes
+
+Points to a string  that contains the  attributes that describe this particular node. This string is a free-form text string that is specific to the application. This parameter is optional; the default value is <b>NULL</b>.
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/09476d3b-ec65-40a2-90ee-a20be230deca">PEER_ADDRESS</a>
+
+
+
+<a href="https://msdn.microsoft.com/7149aba3-d44b-4492-aa56-4d8dbfba7b7c">PeerGraphGetNodeInfo</a>
+ 
+
+ 
+

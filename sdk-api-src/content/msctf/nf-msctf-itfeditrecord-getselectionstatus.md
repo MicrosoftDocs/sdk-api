@@ -1,0 +1,102 @@
+---
+UID: NF:msctf.ITfEditRecord.GetSelectionStatus
+title: ITfEditRecord::GetSelectionStatus method
+author: windows-driver-content
+description: ITfEditRecord::GetSelectionStatus method
+old-location: tsf\itfeditrecord_getselectionstatus.htm
+old-project: TSF
+ms.assetid: ad7dbd71-6241-45a0-9815-1f0eedc5213a
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: GetSelectionStatus method [Text Services Framework], GetSelectionStatus method [Text Services Framework], ITfEditRecord interface, GetSelectionStatus,ITfEditRecord.GetSelectionStatus, ITfEditRecord, ITfEditRecord interface [Text Services Framework], GetSelectionStatus method, ITfEditRecord::GetSelectionStatus, _tsf_itfeditrecord_getselectionstatus_ref, msctf/ITfEditRecord::GetSelectionStatus, tsf.itfeditrecord_getselectionstatus
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: msctf.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Msctf.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: TF_DA_ATTR_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	msctf.dll
+api_name:
+-	ITfEditRecord.GetSelectionStatus
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# ITfEditRecord::GetSelectionStatus method
+
+
+## -description
+
+
+
+
+## -parameters
+
+
+
+
+### -param pfChanged [out]
+
+Pointer to a <b>BOOL</b> value that receives a value that indicates if the selection changed due to an edit session. Receives a nonzero value if the selection changed or zero otherwise.
+
+
+## -returns
+
+
+
+This method can return one of these values.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method was successful.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+<i>pfChanged</i> is invalid.
+
+</td>
+</tr>
+</table>
+ 
+
+
+

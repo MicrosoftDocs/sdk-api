@@ -1,0 +1,243 @@
+---
+UID: NF:wmsdkidl.IWMHeaderInfo.GetAttributeByIndex
+title: IWMHeaderInfo::GetAttributeByIndex method
+author: windows-driver-content
+description: The GetAttributeByIndex method returns a descriptive attribute that is stored in the header section of the ASF file. This method is replaced by IWMHeaderInfo3::GetAttributeByIndexEx and should not be used.
+old-location: wmformat\iwmheaderinfo_getattributebyindex.htm
+old-project: wmformat
+ms.assetid: 905fdf2c-a398-457e-80e9-aac124301f99
+ms.author: windowsdriverdev
+ms.date: 3/23/2018
+ms.keywords: GetAttributeByIndex method [windows Media Format], GetAttributeByIndex method [windows Media Format], IWMHeaderInfo interface, GetAttributeByIndex method [windows Media Format], IWMHeaderInfo2 interface, GetAttributeByIndex method [windows Media Format], IWMHeaderInfo3 interface, GetAttributeByIndex,IWMHeaderInfo.GetAttributeByIndex, IWMHeaderInfo, IWMHeaderInfo interface [windows Media Format], GetAttributeByIndex method, IWMHeaderInfo2 interface [windows Media Format], GetAttributeByIndex method, IWMHeaderInfo2::GetAttributeByIndex, IWMHeaderInfo3 interface [windows Media Format], GetAttributeByIndex method, IWMHeaderInfo3::GetAttributeByIndex, IWMHeaderInfo::GetAttributeByIndex, IWMHeaderInfoGetAttributeByIndex, wmformat.iwmheaderinfo_getattributebyindex, wmsdkidl/IWMHeaderInfo2::GetAttributeByIndex, wmsdkidl/IWMHeaderInfo3::GetAttributeByIndex, wmsdkidl/IWMHeaderInfo::GetAttributeByIndex
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wmsdkidl.h
+req.include-header: Wmsdk.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WM_AETYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wmvcore.lib
+-	Wmvcore.dll
+-	WMStubDRM.lib
+-	WMStubDRM.dll
+-	qasf.dll
+api_name:
+-	IWMHeaderInfo.GetAttributeByIndex
+-	IWMHeaderInfo2.GetAttributeByIndex
+-	IWMHeaderInfo3.GetAttributeByIndex
+product: Windows
+targetos: Windows
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IWMHeaderInfo::GetAttributeByIndex method
+
+
+## -description
+
+
+
+The <b>GetAttributeByIndex</b> method returns a descriptive attribute that is stored in the header section of the ASF file. This method is replaced by <a href="https://msdn.microsoft.com/c20f4c79-f5b3-45d9-ad70-5fb9745bbf1b">IWMHeaderInfo3::GetAttributeByIndexEx</a> and should not be used.
+
+
+
+
+## -parameters
+
+
+
+
+### -param wIndex [in]
+
+<b>WORD</b> containing the index.
+
+
+### -param pwStreamNum [in]
+
+Pointer to a <b>WORD</b> containing the stream number. Although this parameter is a pointer, the method will not change the value. For file-level attributes, use zero for the stream number.
+
+
+### -param pwszName [out]
+
+Pointer to a wide-character <b>null</b>-terminated string containing the name. Pass <b>NULL</b> to this parameter to retrieve the required length for the name. Attribute names are limited to 1024 wide characters.
+
+
+### -param pcchNameLen [in, out]
+
+On input, a pointer to a variable containing the length of the <i>pwszName</i> array in wide characters (2 bytes). On output, if the method succeeds, the variable contains the actual length of the name, including the terminating <b>null</b> character.
+
+
+### -param pType [out]
+
+Pointer to a variable containing one value from the <b>WMT_ATTR_DATATYPE</b> enumeration type.
+
+
+### -param pValue [out]
+
+Pointer to a byte array containing the value. Pass <b>NULL</b> to this parameter to retrieve the required length for the value.
+
+
+### -param pcbLength [in, out]
+
+On input, a pointer to a variable containing the length of the <i>pValue</i> array, in bytes. On output, if the method succeeds, the variable contains the actual number of bytes written to <i>pValue</i> by the method.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>NS_E_INVALID_STATE</b></dt>
+</dl>
+</td>
+<td width="60%">
+The object is not in a valid state, or no profile has been set.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+<i>pwStreamNum</i> does not point to a valid stream number, or no data type was supplied.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_POINTER</b></dt>
+</dl>
+</td>
+<td width="60%">
+A pointer supplied in a parameter was not valid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_UNEXPECTED</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method failed for an unspecified reason.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ASF_E_BUFFERTOOSMALL</b></dt>
+</dl>
+</td>
+<td width="60%">
+The <i>pValue</i> array is too small to contain the attribute value.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ASF_E_NOTFOUND</b></dt>
+</dl>
+</td>
+<td width="60%">
+There is no attribute at <i>wIndex</i>.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+You should make two calls to <b>GetAttributeByIndex</b> for each attribute you want to retrieve. On the first call, pass <b>NULL</b> for <i>pwszName</i> and <i>pValue</i>. On return, the value pointed to by <i>pcchNameLen</i> is set to the number of wide characters, including the terminating <b>null</b> character, required to hold the attribute name, and the value pointed to by <i>pcbLength</i> is set to the number of bytes required to hold the attribute value. You can then create buffers of the appropriate size to receive <i>pwszName</i> and <i>pValue</i> and pass pointers to them on the second call.
+
+Attributes in MP3 files cannot be stream-specific. When using this method with MP3 files, you must use zero for the stream number.
+
+For a list of all the predefined attributes, see <a href="https://msdn.microsoft.com/1e9392b4-4fff-41ad-9d80-23c1c7f9e9a4">Attributes</a>.
+
+The objects of the Windows Media Format SDK perform type checking on some supported metadata attributes, but not all of them. You should ensure that any attributes you use are set using the data type specified in the <a href="https://msdn.microsoft.com/1e9392b4-4fff-41ad-9d80-23c1c7f9e9a4">Attributes</a> section of this documentation. Likewise, you cannot assume that an attribute set by another application will use the correct data type.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/1e9392b4-4fff-41ad-9d80-23c1c7f9e9a4">Attributes</a>
+
+
+
+<a href="https://msdn.microsoft.com/649f9a73-c70a-4524-b577-366ade969f2f">IWMHeaderInfo Interface</a>
+
+
+
+<a href="https://msdn.microsoft.com/af670b54-f695-4b6f-8190-c25ea409b53a">IWMHeaderInfo2</a>
+
+
+
+<a href="https://msdn.microsoft.com/5791e330-3877-4d3a-b27f-f14b97d1a435">IWMHeaderInfo3</a>
+
+
+
+<a href="https://msdn.microsoft.com/174969a2-4fe2-477b-9990-051d23bf8a29">IWMHeaderInfo::SetAttribute</a>
+
+
+
+<a href="https://msdn.microsoft.com/2a2756f9-2d76-48c9-bbea-35ee33a39918">WMT_ATTR_DATATYPE</a>
+ 
+
+ 
+

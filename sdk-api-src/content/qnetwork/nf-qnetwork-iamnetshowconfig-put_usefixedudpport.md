@@ -1,0 +1,113 @@
+---
+UID: NF:qnetwork.IAMNetShowConfig.put_UseFixedUDPPort
+title: IAMNetShowConfig::put_UseFixedUDPPort method
+author: windows-driver-content
+description: The put_UseFixedUDPPort method specifies whether to use a fixed UDP port number.
+old-location: dshow\iamnetshowconfig_put_usefixedudpport.htm
+old-project: DirectShow
+ms.assetid: a7b0c118-0479-4f28-8e2f-6c143cde9ff0
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: IAMNetShowConfig, IAMNetShowConfig interface [DirectShow], put_UseFixedUDPPort method, IAMNetShowConfig::put_UseFixedUDPPort, IAMNetShowConfigput_UseFixedUDPPort, dshow.iamnetshowconfig_put_usefixedudpport, put_UseFixedUDPPort method [DirectShow], put_UseFixedUDPPort method [DirectShow], IAMNetShowConfig interface, put_UseFixedUDPPort,IAMNetShowConfig.put_UseFixedUDPPort, qnetwork/IAMNetShowConfig::put_UseFixedUDPPort
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: qnetwork.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: AMExtendedSeekingCapabilities
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Qnetwork.h
+api_name:
+-	IAMNetShowConfig.put_UseFixedUDPPort
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# IAMNetShowConfig::put_UseFixedUDPPort method
+
+
+## -description
+
+
+
+The <code>put_UseFixedUDPPort</code> method specifies whether to use a fixed UDP port number.
+
+
+
+
+## -parameters
+
+
+
+
+### -param UseFixedUDPPort
+
+Specify one of the following values.
+
+<table>
+<tr>
+<th>
+                  Value
+                </th>
+<th>
+                  Description
+                </th>
+</tr>
+<tr>
+<td>VARIANT_TRUE</td>
+<td>Use a fixed UDP port.</td>
+</tr>
+<tr>
+<td>VARIANT_FALSE</td>
+<td>Use a dynamic UDP port.</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -returns
+
+
+
+If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</b> error code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/611b43dc-7f6d-404e-90a4-b109b9475fb6">IAMNetShowConfig Interface</a>
+
+
+
+<a href="https://msdn.microsoft.com/461b3999-ee1f-4d2a-9ebc-38faf344eba0">IAMNetShowConfig::put_FixedUDPPort</a>
+ 
+
+ 
+

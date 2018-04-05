@@ -1,0 +1,86 @@
+---
+UID: NF:wiavideo.IWiaVideo.TakePicture
+title: IWiaVideo::TakePicture method
+author: windows-driver-content
+description: The IWiaVideo::TakePicture method extracts a still image from the video stream, and saves the image as a JPEG file.
+old-location: wia\_wia_IWiaVideo_TakePicture.htm
+old-project: wia
+ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiavideo\takepicture.htm
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: IWiaVideo, IWiaVideo interface [WIA], TakePicture method, IWiaVideo::TakePicture, TakePicture method [WIA], TakePicture method [WIA], IWiaVideo interface, TakePicture,IWiaVideo.TakePicture, _wia_IWiaVideo_TakePicture, wia._wia_IWiaVideo_TakePicture, wiavideo/IWiaVideo::TakePicture
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wiavideo.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WIAVIDEO_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wiavideo.dll
+api_name:
+-	IWiaVideo.TakePicture
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Wiavideo.dll
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# IWiaVideo::TakePicture method
+
+
+## -description
+
+
+The <b>IWiaVideo::TakePicture</b> method extracts a still image from the video stream, and saves the image as a JPEG file.
+
+
+## -parameters
+
+
+
+
+### -param pbstrNewImageFilename [out]
+
+Type: <b>BSTR*</b>
+
+Receives the full path and filename of the JPEG file that this method creates.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+The path and directory where the image file is saved are specified by the <a href="https://msdn.microsoft.com/f7bff8d2-1cdd-4d32-877b-c61343888a26">IWiaVideo::ImagesDirectory</a> property.
+
+
+

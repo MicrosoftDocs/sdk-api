@@ -1,0 +1,103 @@
+---
+UID: NF:shimgdata.IShellImageData.IsDecoded
+title: IShellImageData::IsDecoded method
+author: windows-driver-content
+description: Determines whether the image has been decoded by calling IShellImageData::Decode. Many operations return a failure code if the image is not first decoded.
+old-location: shell\IShellImageData_IsDecoded.htm
+old-project: shell
+ms.assetid: f02dbf35-4dc7-4750-978d-b703338514df
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: IShellImageData, IShellImageData interface [Windows Shell], IsDecoded method, IShellImageData::IsDecoded, IsDecoded method [Windows Shell], IsDecoded method [Windows Shell], IShellImageData interface, IsDecoded,IShellImageData.IsDecoded, _shell_IShellImageData_IsDecoded, shell.IShellImageData_IsDecoded, shimgdata/IShellImageData::IsDecoded
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: shimgdata.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Shimgdata.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: SHELL_UI_COMPONENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Shell32.dll
+api_name:
+-	IShellImageData.IsDecoded
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
+req.product: Internet Explorer 5.0
+---
+
+# IShellImageData::IsDecoded method
+
+
+## -description
+
+
+Determines whether the image has been decoded by calling <a href="https://msdn.microsoft.com/954424d6-cb90-46c1-a850-4e1113dfe2e4">IShellImageData::Decode</a>. Many operations return a failure code if the image is not first decoded.
+
+
+## -parameters
+
+
+
+
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+Returns one of the following:
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+
+<a href="https://msdn.microsoft.com/954424d6-cb90-46c1-a850-4e1113dfe2e4">IShellImageData::Decode</a> was called on the image and was successful.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_FALSE</b></dt>
+</dl>
+</td>
+<td width="60%">
+All other cases.
+
+</td>
+</tr>
+</table>
+ 
+
+
+

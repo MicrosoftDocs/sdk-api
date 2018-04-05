@@ -1,0 +1,91 @@
+---
+UID: NE:tapi3if.QOS_SERVICE_LEVEL
+title: QOS_SERVICE_LEVEL
+author: windows-driver-content
+description: The QOS_SERVICE_LEVEL enum is used by the ITBasicCallControl::SetQOS method to indicate quality of service requirements for a call.
+old-location: tapi3\qos_service_level.htm
+old-project: Tapi
+ms.assetid: 8b0a93ab-6445-4c60-9d27-552c355c1355
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: QOS_SERVICE_LEVEL, QOS_SERVICE_LEVEL enumeration [TAPI 2.2], QSL_BEST_EFFORT, QSL_IF_AVAILABLE, QSL_NEEDED, _tapi3_qos_service_level, tapi3.qos_service_level, tapi3if/QOS_SERVICE_LEVEL, tapi3if/QSL_BEST_EFFORT, tapi3if/QSL_IF_AVAILABLE, tapi3if/QSL_NEEDED
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: enum
+req.header: tapi3if.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: QOS_SERVICE_LEVEL
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Tapi3if.h
+api_name:
+-	QOS_SERVICE_LEVEL
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# QOS_SERVICE_LEVEL enumeration
+
+
+## -description
+
+
+The 
+<b>QOS_SERVICE_LEVEL</b> enum is used by the 
+<a href="https://msdn.microsoft.com/f1e6ef32-5706-4b1c-a1fa-a7be48fd6efd">ITBasicCallControl::SetQOS</a> method to indicate quality of service requirements for a call.
+
+
+## -enum-fields
+
+
+
+
+### -field QSL_NEEDED
+
+Quality of service level required.
+
+
+### -field QSL_IF_AVAILABLE
+
+Quality of service level desired if available.
+
+
+### -field QSL_BEST_EFFORT
+
+Quality of service level desired is "best effort."
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/f1e6ef32-5706-4b1c-a1fa-a7be48fd6efd">ITBasicCallControl::SetQOS</a>
+
+
+
+<a href="https://msdn.microsoft.com/6e3a8aef-bd76-4047-9018-801a3cab2c62">ITQOSEvent</a>
+ 
+
+ 
+

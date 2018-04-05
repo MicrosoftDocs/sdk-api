@@ -1,0 +1,180 @@
+---
+UID: NF:ncrypt.NCryptEnumStorageProviders
+title: NCryptEnumStorageProviders function
+author: windows-driver-content
+description: Obtains the names of the registered key storage providers.
+old-location: security\ncryptenumstorageproviders_func.htm
+old-project: SecCNG
+ms.assetid: 24a8ee01-b716-4f36-9df5-b6476b1df4f0
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: NCRYPT_SILENT_FLAG, NCryptEnumStorageProviders, NCryptEnumStorageProviders function [Security], ncrypt/NCryptEnumStorageProviders, security.ncryptenumstorageproviders_func
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: ncrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: SESSION_HEADER, *PSESSION_HEADER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Ncrypt.dll
+api_name:
+-	NCryptEnumStorageProviders
+product: Windows
+targetos: Windows
+req.lib: Ncrypt.lib
+req.dll: Ncrypt.dll
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# NCryptEnumStorageProviders function
+
+
+## -description
+
+
+The <b>NCryptEnumStorageProviders</b> function obtains the names of the registered key storage providers.
+
+
+## -parameters
+
+
+
+
+### -param pdwProviderCount [out]
+
+The address of a <b>DWORD</b> to receive the number of elements in the <i>ppProviderList</i> array.
+
+
+### -param ppProviderList [out]
+
+The address of an <a href="https://msdn.microsoft.com/21d8bf28-ee3f-4036-b3b0-d9c68cb14fa9">NCryptProviderName</a> structure pointer to receive an array of the registered key storage provider names. The variable pointed to by the <i>pdwProviderCount</i> parameter receives the number of elements in this array.
+
+When this memory is no longer needed, free it by passing this pointer to the <a href="https://msdn.microsoft.com/15f19999-cf64-4a30-b38d-9372066add0a">NCryptFreeBuffer</a> function.
+
+
+### -param dwFlags [in]
+
+Flags that modify function behavior. This can be zero (0) or the following value.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="NCRYPT_SILENT_FLAG"></a><a id="ncrypt_silent_flag"></a><dl>
+<dt><b>NCRYPT_SILENT_FLAG</b></dt>
+</dl>
+</td>
+<td width="60%">
+Requests that the key service provider (KSP) not display any user interface. If the provider must display the UI to operate, the call fails and the KSP should set the <b>NTE_SILENT_CONTEXT</b> error code as the last error.
+
+</td>
+</tr>
+</table>
+ 
+
+
+## -returns
+
+
+
+Returns a status code that indicates the success or failure of the function.
+
+
+Possible return codes include, but are not limited to, the following.
+
+
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_SUCCESS</b></dt>
+</dl>
+</td>
+<td width="60%">
+The function was successful.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>NTE_BAD_FLAGS</b></dt>
+</dl>
+</td>
+<td width="60%">
+The <i>dwFlags</i> parameter contains a value that is not valid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>NTE_INVALID_PARAMETER</b></dt>
+</dl>
+</td>
+<td width="60%">
+One or more parameters are not valid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>NTE_NO_MEMORY</b></dt>
+</dl>
+</td>
+<td width="60%">
+A memory allocation failure occurred.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+A service must not call this function from its <a href="http://go.microsoft.com/fwlink/p/?linkid=137250">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/15f19999-cf64-4a30-b38d-9372066add0a">NCryptFreeBuffer</a>
+ 
+
+ 
+

@@ -1,0 +1,122 @@
+---
+UID: NF:imapi2fs.IFileSystemImage.get_Root
+title: IFileSystemImage::get_Root method
+author: windows-driver-content
+description: Retrieves the root directory item.
+old-location: imapi\ifilesystemimage_get_root.htm
+old-project: imapi
+ms.assetid: 4b43468a-f02c-4806-9f65-529dc6d8f20a
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: IFileSystemImage, IFileSystemImage interface [IMAPI], get_Root method, IFileSystemImage::get_Root, get_Root method [IMAPI], get_Root method [IMAPI], IFileSystemImage interface, get_Root,IFileSystemImage.get_Root, imapi.ifilesystemimage_get_root, imapi2fs/IFileSystemImage::get_Root
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: imapi2fs.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Imapi2fs.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: PlatformId
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	imapi2fs.h
+api_name:
+-	IFileSystemImage.get_Root
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IFileSystemImage::get_Root method
+
+
+## -description
+
+
+Retrieves the root directory item.
+
+
+## -parameters
+
+
+
+
+### -param pVal [out]
+
+An <a href="https://msdn.microsoft.com/1c9a2e36-0e79-4bad-b880-ddfbf473308b">IFsiDirectoryItem</a> interface of the root directory item.
+
+
+## -returns
+
+
+
+S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_POINTER</b></dt>
+</dl>
+</td>
+<td width="60%">
+Pointer is not valid.
+
+Value: 0x80004003
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_OUTOFMEMORY</b></dt>
+</dl>
+</td>
+<td width="60%">
+Failed to allocate the required memory.
+
+Value: 0x8007000E
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/0256f1d2-a3fb-45b2-bd84-e2b71148e4ec">IFileSystemImage</a>
+
+
+
+<a href="https://msdn.microsoft.com/1c9a2e36-0e79-4bad-b880-ddfbf473308b">IFsiDirectoryItem</a>
+ 
+
+ 
+

@@ -1,0 +1,129 @@
+---
+UID: NF:imapi2fs.IFileSystemImage.CalculateDiscIdentifier
+title: IFileSystemImage::CalculateDiscIdentifier method
+author: windows-driver-content
+description: Retrieves a string that identifies a disc and the sessions recorded on the disc.
+old-location: imapi\ifilesystemimage_calculatediscidentifier.htm
+old-project: imapi
+ms.assetid: c1d1fc83-326e-4d9f-b771-c520ee956ed5
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: CalculateDiscIdentifier method [IMAPI], CalculateDiscIdentifier method [IMAPI], IFileSystemImage interface, CalculateDiscIdentifier,IFileSystemImage.CalculateDiscIdentifier, IFileSystemImage, IFileSystemImage interface [IMAPI], CalculateDiscIdentifier method, IFileSystemImage::CalculateDiscIdentifier, imapi.ifilesystemimage_calculatediscidentifier, imapi2fs/IFileSystemImage::CalculateDiscIdentifier
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: imapi2fs.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Imapi2fs.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: PlatformId
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	imapi2fs.h
+api_name:
+-	IFileSystemImage.CalculateDiscIdentifier
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IFileSystemImage::CalculateDiscIdentifier method
+
+
+## -description
+
+
+Retrieves a string that identifies a disc and the sessions recorded on the disc.
+
+
+## -parameters
+
+
+
+
+### -param discIdentifier [out]
+
+String that contains a signature that identifies the disc and the sessions on it. This string is not guaranteed to be unique between discs.
+
+
+## -returns
+
+
+
+S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_POINTER</b></dt>
+</dl>
+</td>
+<td width="60%">
+Pointer is not valid.
+
+Value: 0x80004003
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>IMAPI_E_MULTISESSION_NOT_SET</b></dt>
+</dl>
+</td>
+<td width="60%">
+MultisessionInterfaces property must be set prior calling this method.
+
+Value: 0xC0AAB15D
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+When layering sessions on a disc, the signature acts as a key that the client can use to ensure the session order, and to distinguish sessions on disc from session images that will be laid on the disc. 
+
+You must call <a href="https://msdn.microsoft.com/632cd123-4e66-4ac3-891a-aa9d0c085b4f">IFileSystemImage::put_MultisessionInterfaces</a> prior to calling <b>CalculateDiscIdentifier</b>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/0256f1d2-a3fb-45b2-bd84-e2b71148e4ec">IFileSystemImage</a>
+ 
+
+ 
+

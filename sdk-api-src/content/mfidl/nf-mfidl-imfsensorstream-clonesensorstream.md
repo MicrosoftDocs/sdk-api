@@ -1,0 +1,122 @@
+---
+UID: NF:mfidl.IMFSensorStream.CloneSensorStream
+title: IMFSensorStream::CloneSensorStream method
+author: windows-driver-content
+description: Clones the IMFSensorStream.
+old-location: mf\imfsensorstream_clonesensorstream.htm
+old-project: medfound
+ms.assetid: A9729DEB-AA59-476B-A309-A960C3B1E40E
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: CloneSensorStream method [Media Foundation], CloneSensorStream method [Media Foundation], IMFSensorStream interface, CloneSensorStream,IMFSensorStream.CloneSensorStream, IMFSensorStream, IMFSensorStream interface [Media Foundation], CloneSensorStream method, IMFSensorStream::CloneSensorStream, mf.imfsensorstream_clonesensorstream, mfidl/IMFSensorStream::CloneSensorStream
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: mfidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
+req.target-min-winversvr: None supported
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MF_URL_TRUST_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfplat.lib
+-	mfplat.dll
+-	mfplat.dll
+-	mfplat.dll.dll
+api_name:
+-	IMFSensorStream.CloneSensorStream
+product: Windows
+targetos: Windows
+req.lib: Mfplat.lib; Mfplat.dll
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IMFSensorStream::CloneSensorStream method
+
+
+## -description
+
+
+Clones the <a href="https://msdn.microsoft.com/9A5F6E25-796A-4798-8E4A-ABB9EB6A3B84">IMFSensorStream</a>.
+
+
+## -parameters
+
+
+
+
+### -param ppStream [out]
+
+If the call is successful, <i>ppStream</i> receives the cloned <a href="https://msdn.microsoft.com/9A5F6E25-796A-4798-8E4A-ABB9EB6A3B84">IMFSensorStream</a>.
+
+
+## -returns
+
+
+
+
+            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+          
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+
+                The method succeeded.
+              
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_POINTER</b></dt>
+</dl>
+</td>
+<td width="60%">
+
+                The <i>ppStream</i> parameter is null.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/9A5F6E25-796A-4798-8E4A-ABB9EB6A3B84">IMFSensorStream</a>
+ 
+
+ 
+

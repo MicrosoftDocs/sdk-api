@@ -1,0 +1,150 @@
+---
+UID: NF:p2p.PeerGroupUniversalTimeToPeerTime
+title: PeerGroupUniversalTimeToPeerTime function
+author: windows-driver-content
+description: The PeerGroupUniversalTimeToPeerTime function converts a local time value from a peer's computer to a common peer group time value.
+old-location: p2p\peergroupuniversaltimetopeertime.htm
+old-project: P2PSdk
+ms.assetid: 8d64c66a-96c3-48c4-82fa-c57554074729
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: PeerGroupUniversalTimeToPeerTime, PeerGroupUniversalTimeToPeerTime function [Peer Networking], p2p.peergroupuniversaltimetopeertime, p2p/PeerGroupUniversalTimeToPeerTime
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: p2p.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2 [desktop apps only],Windows XP with SP1 with the Advanced Networking Pack forWindows XP
+req.target-min-winversvr: None supported
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: PEER_WATCH_PERMISSION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	P2P.dll
+api_name:
+-	PeerGroupUniversalTimeToPeerTime
+product: Windows
+targetos: Windows
+req.lib: P2P.lib
+req.dll: P2P.dll
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# PeerGroupUniversalTimeToPeerTime function
+
+
+## -description
+
+
+The <b>PeerGroupUniversalTimeToPeerTime</b> function converts a local time value from a peer's computer to a common peer group time value.
+
+
+## -parameters
+
+
+
+
+### -param hGroup [in]
+
+Handle to the  peer group a peer participates in. This handle is returned by the <a href="https://msdn.microsoft.com/b85d87c6-28b7-49f8-865c-9d246f89367e">PeerGroupCreate</a>, <a href="https://msdn.microsoft.com/cfaf244f-8786-4801-926d-f6c79bfa4275">PeerGroupOpen</a>, or <a href="https://msdn.microsoft.com/a7f5689d-4849-4363-bc61-3fed63f4287b">PeerGroupJoin</a> function. This parameter is required.
+
+
+### -param pftUniversalTime [in]
+
+Pointer to the universal time value, represented as a <a href="https://msdn.microsoft.com/2d72b1bc-4687-4672-9644-85ad9b197a72">FILETIME</a> structure. This parameter is required.
+
+
+### -param pftPeerTime [out]
+
+Pointer to the returned peer time—Greenwich Mean Time (GMT) value that is represented as a <a href="https://msdn.microsoft.com/2d72b1bc-4687-4672-9644-85ad9b197a72">FILETIME</a> structure. This parameter is <b>NULL</b> if an error occurs. 
+
+
+## -returns
+
+
+
+Returns <b>S_OK</b> if the function succeeds. Otherwise, the function returns either one of the RPC errors or one of the following values.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+One of the parameters is not valid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>PEER_E_GROUP_NOT_READY</b></dt>
+</dl>
+</td>
+<td width="60%">
+The peer group is not in a state where peer time can be accurately calculated. For example, <a href="https://msdn.microsoft.com/a7f5689d-4849-4363-bc61-3fed63f4287b">PeerGroupJoin</a> has been called, but synchronization with the peer group database has not completed.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>PEER_E_NOT_INITIALIZED</b></dt>
+</dl>
+</td>
+<td width="60%">
+The group must be  initialized with a call to <a href="https://msdn.microsoft.com/c07e200d-9578-4367-a0f8-699ae300fc1f">PeerGroupStartup</a> before using this function.
+
+</td>
+</tr>
+</table>
+ 
+
+Cryptography-specific errors can be returned from the <a href="https://msdn.microsoft.com/c36025c5-a407-4a05-8780-23f8107730df">Microsoft RSA Base Provider</a>. These errors are prefixed with CRYPT_* and defined in Winerror.h.
+
+
+
+
+## -remarks
+
+
+
+<i>Universal time</i> is  the universal time value maintained on a peer's computer.
+
+<i>Peer time</i> is a common reference time maintained by a peer group, expressed as Coordinated Universal Time (UTC). It is often offset from the universal time value, and is used to correct latency issues.
+
+Peer time can be converted to universal time by calling the converse function <a href="https://msdn.microsoft.com/27164da8-b5c7-41c1-bfe1-1c5797aa7ae1">PeerGroupPeerTimeToUniversalTime</a>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/27164da8-b5c7-41c1-bfe1-1c5797aa7ae1">PeerGroupPeerTimeToUniversalTime</a>
+ 
+
+ 
+

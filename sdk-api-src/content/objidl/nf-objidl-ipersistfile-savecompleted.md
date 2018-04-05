@@ -1,0 +1,97 @@
+---
+UID: NF:objidl.IPersistFile.SaveCompleted
+title: IPersistFile::SaveCompleted method
+author: windows-driver-content
+description: Notifies the object that it can write to its file.
+old-location: com\ipersistfile_savecompleted.htm
+old-project: com
+ms.assetid: eda29981-0c24-409a-8fb9-2dc2eb96d108
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: IPersistFile, IPersistFile interface [COM], SaveCompleted method, IPersistFile::SaveCompleted, SaveCompleted method [COM], SaveCompleted method [COM], IPersistFile interface, SaveCompleted,IPersistFile.SaveCompleted, _com_ipersistfile_savecompleted, com.ipersistfile_savecompleted, objidl/IPersistFile::SaveCompleted
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: objidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: ObjIdl.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: THDTYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	ObjIdl.h
+api_name:
+-	IPersistFile.SaveCompleted
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# IPersistFile::SaveCompleted method
+
+
+## -description
+
+
+Notifies the object that it can write to its file. It does this by notifying the object that it can revert from NoScribble mode (in which it must not write to its file), to Normal mode (in which it can). The component enters NoScribble mode when it receives an <a href="https://msdn.microsoft.com/da9581e8-98c7-4592-8ee1-a1bc8232635b">IPersistFile::Save</a> call.
+
+
+## -parameters
+
+
+
+
+### -param pszFileName [in]
+
+The absolute path of the file where the object was saved previously.
+
+
+## -returns
+
+
+
+This method always returns S_OK.
+
+
+
+
+## -remarks
+
+
+
+<b>SaveCompleted</b> is called when a call to <a href="https://msdn.microsoft.com/da9581e8-98c7-4592-8ee1-a1bc8232635b">IPersistFile::Save</a> is completed, and the file that was saved is now the current working file (having been saved with <b>Save</b> or <b>Save As</b> operations). The call to <b>Save</b> puts the object into NoScribble mode so it cannot write to its file. When <b>SaveCompleted</b> is called, the object reverts to Normal mode, in which it is free to write to its file.
+
+<h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
+OLE does not call the <b>SaveCompleted</b> method. Typically, applications would not call it unless they are saving objects directly to files, an operation which is generally left to the end-user.
+
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/7d34507f-8a16-43b4-8225-010798abc546">IPersistFile</a>
+ 
+
+ 
+

@@ -1,0 +1,89 @@
+---
+UID: NF:cscobj.IOfflineFilesEventsFilter.GetPathFilter
+title: IOfflineFilesEventsFilter::GetPathFilter method
+author: windows-driver-content
+description: Retrieves a UNC path string and a scope indicator describing which path-based events should be delivered to this event sink.
+old-location: of\iofflinefileseventsfilter_getpathfilter.htm
+old-project: OfflineFiles
+ms.assetid: 0b9d8339-3daa-4f0c-8a52-59e06b663163
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: GetPathFilter method [Offline Files], GetPathFilter method [Offline Files], IOfflineFilesEventsFilter interface, GetPathFilter,IOfflineFilesEventsFilter.GetPathFilter, IOfflineFilesEventsFilter, IOfflineFilesEventsFilter interface [Offline Files], GetPathFilter method, IOfflineFilesEventsFilter::GetPathFilter, cscobj/IOfflineFilesEventsFilter::GetPathFilter, of.iofflinefileseventsfilter_getpathfilter
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: cscobj.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: OFFLINEFILES_SYNC_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	CscSvc.dll
+-	CscObj.dll
+api_name:
+-	IOfflineFilesEventsFilter.GetPathFilter
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: CscSvc.dll; CscObj.dll
+req.irql: 
+---
+
+# IOfflineFilesEventsFilter::GetPathFilter method
+
+
+## -description
+
+
+Retrieves a UNC path string and a scope indicator describing which path-based events should be delivered to this event sink.
+
+
+## -parameters
+
+
+
+
+### -param ppszFilter [out]
+
+Receives a fully qualified UNC path string identifying the path associated with the filter. The memory for this string must be allocated using the <a href="_com_cotaskmemalloc">CoTaskMemAlloc</a> function.
+
+
+### -param pMatch [out]
+
+Receives an <a href="https://msdn.microsoft.com/fae3d36d-b5f3-45ae-97f2-41fd6045d976">OFFLINEFILES_PATHFILTER_MATCH</a> enumeration  value indicating which descendants of the filter path are to be included in the set of events delivered to the event sink.
+
+
+## -returns
+
+
+
+Return <b>S_OK</b> if implemented, <b>E_NOTIMPL</b> if not implemented.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/8c2c793e-c91c-4ca7-a03c-e349de00de6c">IOfflineFilesEventsFilter</a>
+ 
+
+ 
+

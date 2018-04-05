@@ -1,0 +1,119 @@
+---
+UID: NF:wsdclient.IWSDEndpointProxy.AbortAsyncOperation
+title: IWSDEndpointProxy::AbortAsyncOperation method
+author: windows-driver-content
+description: Aborts a pending asynchronous operation.
+old-location: ncd\iwsdendpointproxy_abortasyncoperation.htm
+old-project: WsdApi
+ms.assetid: 559c7fcd-9652-4dfa-b22a-45929b6aee14
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: AbortAsyncOperation method, AbortAsyncOperation method, IWSDEndpointProxy interface, AbortAsyncOperation,IWSDEndpointProxy.AbortAsyncOperation, IWSDEndpointProxy, IWSDEndpointProxy interface, AbortAsyncOperation method, IWSDEndpointProxy::AbortAsyncOperation, ncd.iwsdendpointproxy_abortasyncoperation, wsdclient/IWSDEndpointProxy::AbortAsyncOperation
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wsdclient.h
+req.include-header: Wsdapi.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: WsdClient.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WSD_SECURITY_SIGNATURE_VALIDATION, *PWSD_SECURITY_SIGNATURE_VALIDATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wsdapi.dll
+api_name:
+-	IWSDEndpointProxy.AbortAsyncOperation
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Wsdapi.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IWSDEndpointProxy::AbortAsyncOperation method
+
+
+## -description
+
+
+Aborts a pending asynchronous operation.
+
+
+## -parameters
+
+
+
+
+### -param pAsyncResult [in]
+
+Calls the <a href="https://msdn.microsoft.com/9237bcb4-4404-4d15-a18a-1d651e3fb899">Abort</a> method to end the asynchronous operation. 
+
+
+## -returns
+
+
+
+This method can return one of these values.
+
+
+Possible return values include, but are not limited to, the following.
+
+
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+Method completed successfully.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+<i>pAsyncResult</i> is <b>NULL</b> or <i>pAsyncResult</i> does not support the <a href="https://msdn.microsoft.com/24108143-55b7-4098-a4cc-025dfdfd054a">IWSDAsyncCallback</a> interface.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/58ca085f-8939-413c-8fd3-4d867b1cf490">IWSDEndpointProxy</a>
+ 
+
+ 
+

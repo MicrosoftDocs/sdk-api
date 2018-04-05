@@ -1,0 +1,223 @@
+---
+UID: NF:heapapi.HeapCreate
+title: HeapCreate function
+author: windows-driver-content
+description: Creates a private heap object that can be used by the calling process. The function reserves space in the virtual address space of the process and allocates physical storage for a specified initial portion of this block.
+old-location: base\heapcreate.htm
+old-project: Memory
+ms.assetid: 8c0a77a2-37e6-41f7-bdc6-1f3768d61c9b
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: HEAP_CREATE_ENABLE_EXECUTE, HEAP_GENERATE_EXCEPTIONS, HEAP_NO_SERIALIZE, HeapCreate, HeapCreate function, _win32_heapcreate, base.heapcreate, heapapi/HeapCreate, winbase/HeapCreate
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: heapapi.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: GPMStarterGPOType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Kernel32.dll
+-	API-MS-Win-Core-heap-l1-1-0.dll
+-	KernelBase.dll
+-	API-MS-Win-Core-heap-l1-2-0.dll
+-	API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+-	MinKernelBase.dll
+api_name:
+-	HeapCreate
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# HeapCreate function
+
+
+## -description
+
+
+Creates a private heap object that can be used by the calling process. The function reserves space in the virtual address space of the process and allocates physical storage for a specified initial portion of this block.
+
+
+## -parameters
+
+
+
+
+### -param flOptions [in]
+
+The heap allocation options. These options affect subsequent access to the new heap through calls to the heap functions. This parameter can be 0 or one or more of the following values. 
+
+
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="HEAP_CREATE_ENABLE_EXECUTE"></a><a id="heap_create_enable_execute"></a><dl>
+<dt><b>HEAP_CREATE_ENABLE_EXECUTE</b></dt>
+<dt>0x00040000</dt>
+</dl>
+</td>
+<td width="60%">
+All memory blocks that are allocated from this heap allow code execution, if the hardware enforces <a href="https://msdn.microsoft.com/75cd83a5-4b77-4ca9-b595-e32d0dd609d0">data execution prevention</a>. Use this flag heap in applications that run code from the heap. If <b>HEAP_CREATE_ENABLE_EXECUTE</b> is not specified and an application attempts to run code from a protected page, the application receives an exception with the status code <b>STATUS_ACCESS_VIOLATION</b>. 
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="HEAP_GENERATE_EXCEPTIONS"></a><a id="heap_generate_exceptions"></a><dl>
+<dt><b>HEAP_GENERATE_EXCEPTIONS</b></dt>
+<dt>0x00000004</dt>
+</dl>
+</td>
+<td width="60%">
+The system raises an exception to indicate failure (for example,  an out-of-memory condition) for calls to <a href="https://msdn.microsoft.com/9a176312-0312-4cc1-baf5-949b346d983e">HeapAlloc</a> and <a href="https://msdn.microsoft.com/21d711d9-3b16-4537-a830-1a2fa049a471">HeapReAlloc</a> instead of returning <b>NULL</b>.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="HEAP_NO_SERIALIZE"></a><a id="heap_no_serialize"></a><dl>
+<dt><b>HEAP_NO_SERIALIZE</b></dt>
+<dt>0x00000001</dt>
+</dl>
+</td>
+<td width="60%">
+Serialized access is not used when the heap functions access this heap. This option applies to all subsequent heap function calls. Alternatively, you can specify this option on individual heap function calls. 
+
+The low-fragmentation heap (LFH) cannot be enabled for a heap created with this option.
+
+ A heap created with this option cannot be locked.
+
+For more information about serialized access, see the  Remarks section of this topic.
+
+</td>
+</tr>
+</table>
+ 
+
+
+### -param dwInitialSize [in]
+
+The initial size of the heap, in bytes. This value determines the initial amount of memory that is committed for the heap. The value is rounded up to a multiple of the system page size. The value must be smaller than <i>dwMaximumSize</i>.
+
+If this parameter is 0, the function commits one page. To determine the size of a page on the host computer, use the 
+<a href="https://msdn.microsoft.com/f6d745af-729a-494e-90b4-19fe7d97c7af">GetSystemInfo</a> function.
+
+
+### -param dwMaximumSize [in]
+
+The maximum size of the heap, in bytes. The 
+<b>HeapCreate</b> function rounds <i>dwMaximumSize</i> up to a multiple of the system page size and then reserves a block of that size in the process's virtual address space for the heap. If allocation requests made by the 
+<a href="https://msdn.microsoft.com/9a176312-0312-4cc1-baf5-949b346d983e">HeapAlloc</a> or 
+<a href="https://msdn.microsoft.com/21d711d9-3b16-4537-a830-1a2fa049a471">HeapReAlloc</a> functions exceed the size specified by <i>dwInitialSize</i>, the system commits additional pages of memory for the heap, up to the heap's maximum size. 
+
+If <i>dwMaximumSize</i> is not zero, the heap size is fixed and cannot grow beyond the maximum size. Also, the largest memory block that can be allocated from the heap is slightly less than 512 KB for a 32-bit process and slightly less than 1,024 KB for a 64-bit process. Requests to allocate larger blocks fail, even if the maximum size of the heap is large enough to contain the block. 
+
+
+
+
+If <i>dwMaximumSize</i> is 0, the heap can grow in size. The heap's size is limited only by the available memory. Requests to allocate memory blocks larger than the limit for a fixed-size heap do not automatically fail; instead, the system calls the 
+<a href="https://msdn.microsoft.com/a720dd89-c47c-4e48-bbc6-f2e02dfc4ed2">VirtualAlloc</a> function to obtain the memory that is needed for large blocks. Applications that need to allocate large memory blocks should set <i>dwMaximumSize</i> to 0.
+
+
+## -returns
+
+
+
+If the function succeeds, the return value is a handle to the newly created heap.
+
+If the function fails, the return value is <b>NULL</b>. To get extended error information, call 
+<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+
+
+
+
+## -remarks
+
+
+
+The 
+<b>HeapCreate</b> function creates a private heap object from which the calling process can allocate memory blocks by using the 
+<a href="https://msdn.microsoft.com/9a176312-0312-4cc1-baf5-949b346d983e">HeapAlloc</a> function. The initial size determines the number of committed pages that are allocated initially for the heap. The maximum size determines the total number of reserved pages. These pages create a block in the process's virtual address space into which the heap can grow. If requests by 
+<b>HeapAlloc</b> exceed the current size of committed pages, additional pages are automatically committed from this reserved space, if the physical storage is available.
+
+<b>Windows Server 2003 and Windows XP:  </b>By default, the newly created private heap is a standard heap. To enable the low-fragmentation heap, call the 
+<a href="https://msdn.microsoft.com/33c262ca-5093-4f44-a8c6-09045bc90f60">HeapSetInformation</a> function with a handle to the private heap.
+
+The memory of a private heap object is accessible only to the process that created it. If a dynamic-link library (DLL) creates a private heap, the heap is created in the address space of the process that calls the DLL, and it is accessible only to that process.
+
+The system uses memory from the private heap to store heap support structures, so not all of the specified heap size is available to the process. For example, if the 
+<a href="https://msdn.microsoft.com/9a176312-0312-4cc1-baf5-949b346d983e">HeapAlloc</a> function requests 64 kilobytes (K) from a heap with a maximum size of 64K, the request may fail because of system overhead.
+
+If <b>HEAP_NO_SERIALIZE</b> is not specified (the simple default), the heap serializes access within the calling process. Serialization ensures mutual exclusion when two or more threads attempt simultaneously to allocate or free blocks from the same heap. There is a small performance cost to serialization, but it must be used whenever multiple threads allocate and free memory from the same heap. The <a href="https://msdn.microsoft.com/bc01b82d-ef10-40d7-af82-e599ba825944">HeapLock</a> and <a href="https://msdn.microsoft.com/c1a7b2c8-293e-4e07-a654-fd10b2f0ef39">HeapUnlock</a> functions can be used to block and permit access to a serialized heap.
+
+Setting <b>HEAP_NO_SERIALIZE</b> eliminates mutual exclusion on the heap. Without serialization, two or more threads that use the same heap handle might attempt to allocate or free memory simultaneously, which may cause corruption in the heap. Therefore, <b>HEAP_NO_SERIALIZE</b> can safely be used only in the following situations:
+
+<ul>
+<li>The process has only one thread.</li>
+<li>The process has multiple threads, but only one thread calls the heap functions for a specific heap.</li>
+<li>The process has multiple threads, and the application provides its own mechanism for mutual exclusion to a specific heap.</li>
+</ul>
+If the <a href="https://msdn.microsoft.com/bc01b82d-ef10-40d7-af82-e599ba825944">HeapLock</a> and <a href="https://msdn.microsoft.com/c1a7b2c8-293e-4e07-a654-fd10b2f0ef39">HeapUnlock</a> functions are called on a heap created with the <b>HEAP_NO_SERIALIZE</b> flag, the results are undefined.
+
+To obtain a handle to the default heap for a process, use the <a href="https://msdn.microsoft.com/ecd716b2-df48-4914-9de4-47d8ad8ff9a2">GetProcessHeap</a> function. To obtain handles to the default heap and private heaps that are active for the calling process, use the <a href="https://msdn.microsoft.com/6287c74d-5987-44ec-8b6f-2d5a08338877">GetProcessHeaps</a> function.
+
+
+#### Examples
+
+
+<a href="https://msdn.microsoft.com/ef37d644-473f-4e51-9785-5b44fe0dce42">Enumerating a Heap</a>
+
+
+<div class="code"></div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/cfb683fa-4f46-48b5-9a28-f4625a9cb8cd">Heap Functions</a>
+
+
+
+<a href="https://msdn.microsoft.com/9a176312-0312-4cc1-baf5-949b346d983e">HeapAlloc</a>
+
+
+
+<a href="https://msdn.microsoft.com/2ad8d15f-de5e-424d-9349-3baccb000a36">HeapDestroy</a>
+
+
+
+<a href="https://msdn.microsoft.com/036e95ff-f71f-49c3-8321-ed4c4bee5455">HeapValidate</a>
+
+
+
+<a href="https://msdn.microsoft.com/5a2a7a62-0bda-4a0d-93d2-25b4898871fd">Memory
+		  Management Functions</a>
+ 
+
+ 
+

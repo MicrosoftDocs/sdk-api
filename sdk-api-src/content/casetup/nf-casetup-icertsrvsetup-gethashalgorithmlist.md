@@ -1,0 +1,79 @@
+---
+UID: NF:casetup.ICertSrvSetup.GetHashAlgorithmList
+title: ICertSrvSetup::GetHashAlgorithmList method
+author: windows-driver-content
+description: Gets the list of hash algorithms supported by the specified cryptographic service provider (CSP) for an asymmetric signature key algorithm.
+old-location: security\icertsrvsetup_gethashalgorithmlist.htm
+old-project: SecCrypto
+ms.assetid: 451c240d-8df9-4f4a-ab0e-56c5252d3b50
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: GetHashAlgorithmList method [Security], GetHashAlgorithmList method [Security], ICertSrvSetup interface, GetHashAlgorithmList,ICertSrvSetup.GetHashAlgorithmList, ICertSrvSetup, ICertSrvSetup interface [Security], GetHashAlgorithmList method, ICertSrvSetup::GetHashAlgorithmList, casetup/ICertSrvSetup::GetHashAlgorithmList, security.icertsrvsetup_gethashalgorithmlist
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: casetup.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Casetup.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: CEPSetupProperty
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Certocm.dll
+api_name:
+-	ICertSrvSetup.GetHashAlgorithmList
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Certocm.dll
+req.irql: 
+---
+
+# ICertSrvSetup::GetHashAlgorithmList method
+
+
+## -description
+
+
+The <b>GetHashAlgorithmList</b> method gets the list of hash algorithms supported by the specified <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">cryptographic service provider</a> (CSP) for an asymmetric signature key algorithm. This method does not change the state of the <b>CCertSrvSetup</b> object.
+
+
+## -parameters
+
+
+
+
+### -param bstrProviderName [in]
+
+A string that contains the provider name. For key storage providers, this must be in the form <i>PublicKeyAlgorithmName</i>#<i>KeyStorageProviderName</i> for example "RSA#Microsoft Software Key Storage provider".
+
+
+### -param pVal [out]
+
+A pointer to a <b>VARIANT</b> array of <b>VT_BSTR</b> types, where each string represents the name of an hash algorithm supported by the CSP.
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/6792a0d6-d304-481d-a97b-5fb7033c7eae">ICertSrvSetup</a>
+ 
+
+ 
+

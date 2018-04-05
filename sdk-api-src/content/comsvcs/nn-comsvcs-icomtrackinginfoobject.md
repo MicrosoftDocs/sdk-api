@@ -1,0 +1,95 @@
+---
+UID: NN:comsvcs.IComTrackingInfoObject
+title: IComTrackingInfoObject
+author: windows-driver-content
+description: Retrieves the properties of a tracking information object.
+old-location: cos\icomtrackinginfoobject.htm
+old-project: cossdk
+ms.assetid: 2e27b2b5-a2f5-471d-9f3d-95b13c07037b
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: IComTrackingInfoObject, IComTrackingInfoObject interface [COM+], IComTrackingInfoObject interface [COM+], described, _dtc_IComTrackingInfoObject, comsvcs/IComTrackingInfoObject, cos.icomtrackinginfoobject
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: interface
+req.header: comsvcs.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: TRACKING_COLL_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	ComSvcs.h
+api_name:
+-	IComTrackingInfoObject
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# IComTrackingInfoObject interface
+
+
+## -description
+
+
+Retrieves the properties of a tracking information object.
+
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IComTrackingInfoObject</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IComTrackingInfoObject</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
+
+## -members
+
+The <b>IComTrackingInfoObject</b> interface has these methods.
+<table class="members" id="memberListMethods">
+<tr>
+<th align="left" width="37%">Method</th>
+<th align="left" width="63%">Description</th>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff597624">GetValue</a>
+</td>
+<td align="left" width="63%">
+Retrieves the value of the specified property.
+
+</td>
+</tr>
+</table> 
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/07f68734-a382-4fe5-86af-90805f61c68d">COM+ Instrumentation</a>
+
+
+
+<a href="https://msdn.microsoft.com/ad3bdeb5-f303-411a-abfb-ccde3f9a86b9">COM+ Tracking</a>
+ 
+
+ 
+

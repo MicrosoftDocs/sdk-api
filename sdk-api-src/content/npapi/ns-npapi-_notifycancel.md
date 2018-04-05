@@ -1,0 +1,85 @@
+---
+UID: NS:npapi._NOTIFYCANCEL
+title: "_NOTIFYCANCEL"
+author: windows-driver-content
+description: The NOTIFYCANCEL structure contains the details of a network disconnect operation. It is used by the CancelConnectNotify function.
+old-location: security\notifycancel.htm
+old-project: SecAuthN
+ms.assetid: cc4cb0fb-ff7d-4bdc-944c-3bf9b08ea72c
+ms.author: windowsdriverdev
+ms.date: 3/29/2018
+ms.keywords: "*LPNOTIFYCANCEL, LPNOTIFYCANCEL, LPNOTIFYCANCEL structure pointer [Security], NOTIFYCANCEL, NOTIFYCANCEL structure [Security], _NOTIFYCANCEL, _mnp_notifycancel, npapi/LPNOTIFYCANCEL, npapi/NOTIFYCANCEL, security.notifycancel"
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: struct
+req.header: npapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: NOTIFYCANCEL, *LPNOTIFYCANCEL
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Npapi.h
+api_name:
+-	NOTIFYCANCEL
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# _NOTIFYCANCEL structure
+
+
+## -description
+
+
+The <b>NOTIFYCANCEL</b> structure contains the details of a network disconnect operation. It is used by the 
+<a href="https://msdn.microsoft.com/94bd969d-f94d-449c-971d-d17fff2c07e1">CancelConnectNotify</a> function.
+
+
+## -struct-fields
+
+
+
+
+### -field lpName
+
+Pointer to the name of the local device or network resource whose connection is being canceled.
+
+
+### -field lpProvider
+
+For advance notification, this field is not defined. The MPR will try all valid providers to cancel the connection. 
+
+
+
+
+For after-the-fact notification, if the cancel operation was successful, this field specifies the name of the network provider that canceled the connection.
+
+
+### -field dwFlags
+
+Currently, the only flag supported is CONNECT_UPDATE_PROFILE, which indicates whether the disconnection should remain persistent. If this flag is set, Windows no longer restores this connection when the user logs on.
+
+
+### -field fForce
+
+Indicates whether the disconnect should continue even if there are open files or jobs on the connection. If this field is <b>TRUE</b>, the connection is canceled regardless of open files or jobs. If this field is <b>FALSE</b>, the connection will not be canceled if there are open files or jobs.
+

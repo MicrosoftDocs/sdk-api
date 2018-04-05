@@ -1,0 +1,74 @@
+---
+UID: NF:commctrl.Pager_GetPos
+title: Pager_GetPos macro
+author: windows-driver-content
+description: Retrieves the current scroll position of the pager control. You can use this macro or send the PGM_GETPOS message explicitly.
+old-location: controls\Pager_GetPos.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\pager\macros\pager_getpos.htm
+ms.author: windowsdriverdev
+ms.date: 3/31/2018
+ms.keywords: Pager_GetPos, Pager_GetPos macro [Windows Controls], _win32_Pager_GetPos, _win32_Pager_GetPos_cpp, commctrl/Pager_GetPos, controls.Pager_GetPos, controls._win32_Pager_GetPos
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: macro
+req.header: commctrl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: CATEGORYINFO, *LPCATEGORYINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Commctrl.h
+api_name:
+-	Pager_GetPos
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# Pager_GetPos macro
+
+
+## -description
+
+
+Retrieves the current scroll position of the pager control. You can use this macro or send the <a href="https://msdn.microsoft.com/1e0f967a-3290-43b7-b812-8cf56abf2d32">PGM_GETPOS</a> message explicitly. 
+
+
+## -parameters
+
+
+
+
+### -param hwnd
+
+TBD
+
+
+
+
+
+
+#### - hwndPager
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+
+Handle to the pager control. 
+

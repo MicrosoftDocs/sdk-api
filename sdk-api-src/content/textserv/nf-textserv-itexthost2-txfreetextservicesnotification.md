@@ -1,0 +1,91 @@
+---
+UID: NF:textserv.ITextHost2.TxFreeTextServicesNotification
+title: ITextHost2::TxFreeTextServicesNotification method
+author: windows-driver-content
+description: Notifies the text host that text services have been freed.
+old-location: controls\itexthost2_txfreetextservicesnotification.htm
+old-project: Controls
+ms.assetid: AD017B2A-C38E-4A55-AA31-84639BE87FA8
+ms.author: windowsdriverdev
+ms.date: 3/31/2018
+ms.keywords: ITextHost2, ITextHost2 interface [Windows Controls], TxFreeTextServicesNotification method, ITextHost2::TxFreeTextServicesNotification, TxFreeTextServicesNotification method [Windows Controls], TxFreeTextServicesNotification method [Windows Controls], ITextHost2 interface, TxFreeTextServicesNotification,ITextHost2.TxFreeTextServicesNotification, controls.itexthost2_txfreetextservicesnotification, textserv/ITextHost2::TxFreeTextServicesNotification
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: textserv.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: TMGR_DIRECTION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Msftedit.dll
+api_name:
+-	ITextHost2.TxFreeTextServicesNotification
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# ITextHost2::TxFreeTextServicesNotification method
+
+
+## -description
+
+
+Notifies the text host that text services have been freed. 
+
+
+## -parameters
+
+
+
+
+
+
+## -returns
+
+
+
+This method does not return a value.
+
+
+
+
+## -remarks
+
+
+
+If the text host hasn't received this notification when the text host is shutting down, the text host can tell text services to release its text host reference count. 
+
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/A715E70C-E8BB-4796-BDA6-90B745EC7761">ITextHost2</a>
+ 
+
+ 
+

@@ -1,0 +1,81 @@
+---
+UID: NF:imapi2fs.IEnumFsiItems.Reset
+title: IEnumFsiItems::Reset method
+author: windows-driver-content
+description: Resets the enumeration sequence to the beginning.
+old-location: imapi\ienumfsiitems_reset.htm
+old-project: imapi
+ms.assetid: 85b3ce47-411f-4824-acea-9ea974206672
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: IEnumFsiItems, IEnumFsiItems interface [IMAPI], Reset method, IEnumFsiItems::Reset, Reset method [IMAPI], Reset method [IMAPI], IEnumFsiItems interface, Reset,IEnumFsiItems.Reset, imapi.ienumfsiitems_reset, imapi2fs/IEnumFsiItems::Reset
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: imapi2fs.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Imapi2fs.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: PlatformId
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	imapi2fs.h
+api_name:
+-	IEnumFsiItems.Reset
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IEnumFsiItems::Reset method
+
+
+## -description
+
+
+Resets the enumeration sequence to the beginning.
+
+
+## -parameters
+
+
+
+
+
+
+## -returns
+
+
+
+S_OK is returned on success, but other success codes may be returned as a result of implementation.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/f3186af1-4056-4cb5-aac4-5253ee6dbc01">IEnumFsiItems</a>
+ 
+
+ 
+

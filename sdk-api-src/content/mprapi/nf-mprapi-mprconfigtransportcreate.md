@@ -1,0 +1,234 @@
+---
+UID: NF:mprapi.MprConfigTransportCreate
+title: MprConfigTransportCreate function
+author: windows-driver-content
+description: The MprConfigTransportCreate function adds the specified transport to the list of transport protocols present in the specified router configuration.
+old-location: rras\mprconfigtransportcreate.htm
+old-project: RRAS
+ms.assetid: a4cc4519-ce76-4619-b6dc-a5dfa18134e6
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: MprConfigTransportCreate, MprConfigTransportCreate function [RAS], _mpr_mprconfigtransportcreate, mprapi/MprConfigTransportCreate, rras.mprconfigtransportcreate
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: mprapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: ROUTER_INTERFACE_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Mprapi.dll
+api_name:
+-	MprConfigTransportCreate
+product: Windows
+targetos: Windows
+req.lib: Mprapi.lib
+req.dll: Mprapi.dll
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# MprConfigTransportCreate function
+
+
+## -description
+
+
+The 
+<b>MprConfigTransportCreate</b> function adds the specified transport to the list of transport protocols present in the specified router configuration.
+
+
+## -parameters
+
+
+
+
+### -param hMprConfig [in]
+
+Handle to the router configuration to which to add the transport. Obtain this handle by calling 
+<a href="https://msdn.microsoft.com/40029088-191d-49b1-88d3-79ffb2da0eef">MprConfigServerConnect</a>.
+
+
+### -param dwTransportId [in]
+
+A <b>DWORD</b> value that describes the transport to add to the configuration. This parameter also identifies the router manager for the transport. Acceptable values for <i>dwTransportId</i> are listed in the following table.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Transport (Protocol Family)</th>
+</tr>
+<tr>
+<td>PID_ATALK</td>
+<td>AppleTalk</td>
+</tr>
+<tr>
+<td>PID_IP</td>
+<td>Internet Protocol version 4</td>
+</tr>
+<tr>
+<td>PID_IPX</td>
+<td>Internet Packet Exchange</td>
+</tr>
+<tr>
+<td>PID_NBF</td>
+<td>NetBIOS Frames Protocol</td>
+</tr>
+<tr>
+<td>PID_IPV6</td>
+<td>Windows Server 2008 or later: Internet Protocol version 6</td>
+</tr>
+</table>
+ 
+
+
+### -param lpwsTransportName [in, optional]
+
+Pointer to a <b>null</b>-terminated Unicode string that specifies the name of the transport being added. If this parameter is not specified, the <i>dwTransportId</i> parameter is converted into a string and used as the transport name.
+
+
+### -param pGlobalInfo [in]
+
+Pointer to an information header that specifies global information for the transport. The router manager for the transport interprets this information. Use the 
+<a href="https://msdn.microsoft.com/e88720aa-080b-4d87-a442-1b436c256ca6">Information Header Functions</a> to manipulate information headers.
+
+
+### -param dwGlobalInfoSize [in]
+
+Specifies the size, in bytes, of the data pointed to by the <i>pGlobalInfo</i> parameter.
+
+
+### -param pClientInterfaceInfo [in, optional]
+
+Pointer to an information header that specifies default interface information for client routers. This information is used to configure dynamic interfaces for client routers for this transport. Use the 
+<a href="https://msdn.microsoft.com/e88720aa-080b-4d87-a442-1b436c256ca6">Information Header Functions</a> to manipulate information headers. 
+
+
+
+
+This parameter is optional; the calling application can specify <b>NULL</b> for this parameter.
+
+
+### -param dwClientInterfaceInfoSize [in, optional]
+
+Specifies the size, in bytes, of the data pointed to by the <i>pClientInterfaceInfo</i> parameter. If the calling application specifies <b>NULL</b> for <i>pClientInterfaceInfo</i>, the calling application should specify zero for this parameter.
+
+
+### -param lpwsDLLPath [in, optional]
+
+Pointer to a <b>null</b>-terminated Unicode string that specifies the name of the router manager DLL for the specified transport. If this name is specified, the function sets the DLL path for this transport to this name. 
+
+
+
+
+This parameter is optional; the calling application can specify <b>NULL</b> for this parameter.
+
+
+### -param phRouterTransport [out]
+
+A pointer to a  
+<b>HANDLE</b> variable that receives the transport configuration handle type indicated in the <i>dwTransportId</i> parameter.
+
+
+## -returns
+
+
+
+If the function succeeds, the return value is NO_ERROR.
+
+If the function fails, the return value is one of the following error codes.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_INVALID_PARAMETER</b></dt>
+</dl>
+</td>
+<td width="60%">
+The <i>hMprConfig</i> parameter is <b>NULL</b>, or the <i>phRouterTransport</i> parameter is <b>NULL</b>, or both are <b>NULL</b>.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_NOT_ENOUGH_MEMORY</b></dt>
+</dl>
+</td>
+<td width="60%">
+Insufficient resources to complete the operation.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>Other</b></dt>
+</dl>
+</td>
+<td width="60%">
+Use 
+<a href="_win32_formatmessage">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+If the specified transport already exists, 
+<b>MprConfigTransportCreate</b> does the equivalent of an 
+<a href="https://msdn.microsoft.com/571149a5-5a09-4a04-9327-47aecca7d17f">MprConfigTransportSetInfo</a> call using the supplied parameter values.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="_win32_formatmessage">FormatMessage</a>
+
+
+
+<a href="https://msdn.microsoft.com/40029088-191d-49b1-88d3-79ffb2da0eef">MprConfigServerConnect</a>
+
+
+
+<a href="https://msdn.microsoft.com/fb65885c-7c3b-4c90-9516-388f09703c90">Router Configuration Functions</a>
+
+
+
+<a href="https://msdn.microsoft.com/352505a9-616a-4d47-9857-f88d345333fd">Router Management Reference</a>
+ 
+
+ 
+

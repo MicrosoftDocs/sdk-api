@@ -1,0 +1,132 @@
+---
+UID: NF:gpedit.IGroupPolicyObject.New
+title: IGroupPolicyObject::New method
+author: windows-driver-content
+description: The New method creates a new GPO in the Active Directory with the specified display name. The method opens the GPO using the OpenDSGPO method.
+old-location: policy\igrouppolicyobject_new.htm
+old-project: Policy
+ms.assetid: e251cac2-8fc8-4ed0-b940-4a9f47eca26b
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: GPO_OPEN_LOAD_REGISTRY, GPO_OPEN_READ_ONLY, IGroupPolicyObject, IGroupPolicyObject interface [Group Policy], New method, IGroupPolicyObject::New, New method [Group Policy], New method [Group Policy], IGroupPolicyObject interface, New,IGroupPolicyObject.New, _win32_igrouppolicyobject_new, gpedit/IGroupPolicyObject::New, policy.igrouppolicyobject_new
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: gpedit.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Gpedit.dll
+api_name:
+-	IGroupPolicyObject.New
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Gpedit.dll
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IGroupPolicyObject::New method
+
+
+## -description
+
+
+The
+    <b>New</b> method creates a new GPO in the Active Directory with the specified display name. The method opens the GPO using the 
+<a href="https://msdn.microsoft.com/362b6229-d73f-424f-b906-05ed43e5e034">OpenDSGPO</a> method.
+
+
+## -parameters
+
+
+
+
+### -param pszDomainName [in]
+
+Specifies the Active Directory path of the object to create. If the path specifies a domain controller, the GPO is created on that DC. Otherwise, the system will select a DC on the caller's behalf.
+
+
+### -param pszDisplayName [in]
+
+Specifies the display name of the object to create.
+
+
+### -param dwFlags [in]
+
+Specifies whether or not the registry information should be loaded for the GPO. This parameter can be one of the following values.
+
+
+
+#### GPO_OPEN_LOAD_REGISTRY
+
+Load the registry information.
+
+
+
+#### GPO_OPEN_READ_ONLY
+
+Open the GPO in read-only mode.
+
+
+## -returns
+
+
+
+If the method succeeds, the return value is <b>S_OK</b>. Otherwise, the method returns one of the COM error codes defined in the Platform SDK header file WinError.h.
+
+
+
+
+## -remarks
+
+
+
+To open a GPO that already exists, you can call the 
+<a href="https://msdn.microsoft.com/362b6229-d73f-424f-b906-05ed43e5e034">OpenDSGPO</a> method.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/dc15a69d-a44d-4731-a9e5-6165abd581c4">Group Policy
+    Interfaces</a>
+
+
+
+<a href="https://msdn.microsoft.com/1285ab5a-ea68-4c16-bc34-8ab2f3cfad35">Group Policy
+    Overview</a>
+
+
+
+<a href="https://msdn.microsoft.com/b3cd31a1-c238-4eb2-8164-9c4891e6227b">IGroupPolicyObject</a>
+
+
+
+<a href="https://msdn.microsoft.com/362b6229-d73f-424f-b906-05ed43e5e034">OpenDSGPO</a>
+ 
+
+ 
+

@@ -1,0 +1,75 @@
+---
+UID: NF:uiautomationclient.IUIAutomationElement4.get_CurrentAnnotationObjects
+title: IUIAutomationElement4::get_CurrentAnnotationObjects method
+author: windows-driver-content
+description: Returns the current list of annotation objects associated with this element, such as comment, header, footer, and so on.
+old-location: winauto\uiauto_IUIAutomationElement4_CurrentAnnotationObjects.htm
+old-project: WinAuto
+ms.assetid: 504EB3B3-0241-4164-B775-F2D727D6B5B1
+ms.author: windowsdriverdev
+ms.date: 3/29/2018
+ms.keywords: CurrentAnnotationObjects property [Windows Accessibility], CurrentAnnotationObjects property [Windows Accessibility], IUIAutomationElement4 interface, IUIAutomationElement4, IUIAutomationElement4 interface [Windows Accessibility], CurrentAnnotationObjects property, IUIAutomationElement4.CurrentAnnotationObjects, IUIAutomationElement4::get_CurrentAnnotationObjects, get_CurrentAnnotationObjects,IUIAutomationElement4.get_CurrentAnnotationObjects, uiautomationclient/IUIAutomationElement4::CurrentAnnotationObjects, uiautomationclient/IUIAutomationElement4::get_CurrentAnnotationObjects, winauto.uiauto_IUIAutomationElement4_CurrentAnnotationObjects
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: uiautomationclient.h
+req.include-header: UIAutomation.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: UIAutomationClient.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	UIAutomationCore.dll
+api_name:
+-	IUIAutomationElement4.CurrentAnnotationObjects
+-	IUIAutomationElement4.get_CurrentAnnotationObjects
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: UIAutomationCore.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# IUIAutomationElement4::get_CurrentAnnotationObjects method
+
+
+## -description
+
+
+Returns the current list of annotation objects associated with this element, such as comment, header, footer, and so on.
+
+This property is read-only.
+
+
+## -parameters
+
+
+## -see-also
+
+
+
+
+<a href="winauto.uiauto_IUIAutomationElement4_CachedAnnotationObjects">CachedAnnotationObjects</a>
+
+
+
+<a href="winauto.iuiautomationelement4">IUIAutomationElement4</a>
+ 
+
+ 
+

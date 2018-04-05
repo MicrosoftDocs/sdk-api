@@ -1,0 +1,115 @@
+---
+UID: NF:segment.IMSVidClosedCaptioning.get_Enable
+title: IMSVidClosedCaptioning::get_Enable method
+author: windows-driver-content
+description: The get_Enable method queries whether closed captioning is enabled.
+old-location: mstv\imsvidclosedcaptioning_get_enable.htm
+old-project: mstv
+ms.assetid: 2bb46aa7-fd94-4afa-9bba-769472e014ff
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: IMSVidClosedCaptioning, IMSVidClosedCaptioning interface [Microsoft TV Technologies], get_Enable method, IMSVidClosedCaptioning::get_Enable, IMSVidClosedCaptioningget_Enable, get_Enable method [Microsoft TV Technologies], get_Enable method [Microsoft TV Technologies], IMSVidClosedCaptioning interface, get_Enable,IMSVidClosedCaptioning.get_Enable, mstv.imsvidclosedcaptioning_get_enable, segment/IMSVidClosedCaptioning::get_Enable
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: segment.h
+req.include-header: Msvidctl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: None supported
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Segment.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: SourceSizeList
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	segment.h
+api_name:
+-	IMSVidClosedCaptioning.get_Enable
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# IMSVidClosedCaptioning::get_Enable method
+
+
+## -description
+
+
+The <b>get_Enable</b> method queries whether closed captioning is enabled.
+
+
+## -parameters
+
+
+
+
+### -param On
+
+
+
+
+
+
+#### - pOn [out]
+
+Pointer to a variable that receives one of the following values.
+
+<table>
+<tr>
+<th>
+                  Value
+                </th>
+<th>
+                  Description
+                </th>
+</tr>
+<tr>
+<td>VARIANT_TRUE</td>
+<td>Closed captioning is enabled.</td>
+</tr>
+<tr>
+<td>VARIANT_FALSE</td>
+<td>Closed captioning is disabled.</td>
+</tr>
+</table>
+ 
+
+
+## -returns
+
+
+
+If the method succeeds, it returns S_OK. If it fails, it returns an error code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/070a208b-cf4c-41e1-9a5f-76cc444285c9">IMSVidClosedCaptioning Interface</a>
+
+
+
+<a href="https://msdn.microsoft.com/2485b634-24e9-4945-ae46-0ca7fdb9d92b">IMSVidClosedCaptioning::put_Enable</a>
+ 
+
+ 
+

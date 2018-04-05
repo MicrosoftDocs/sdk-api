@@ -1,0 +1,89 @@
+---
+UID: NF:wcmconfig.ISettingsContext.RevertSetting
+title: ISettingsContext::RevertSetting method
+author: windows-driver-content
+description: Reverts a setting in the namespace.
+old-location: smi\isettingscontext_revertsetting.htm
+old-project: SMI
+ms.assetid: 11f541e6-fd97-4756-91c1-44ba2e3d35b1
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: ISettingsContext, ISettingsContext interface [SMI], RevertSetting method, ISettingsContext::RevertSetting, RevertSetting method [SMI], RevertSetting method [SMI], ISettingsContext interface, RevertSetting,ISettingsContext.RevertSetting, smi.isettingscontext_revertsetting, wcmconfig/ISettingsContext::RevertSetting
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wcmconfig.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: WcmConfig.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WcmNamespaceAccess
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SMIEngine.dll
+api_name:
+-	ISettingsContext.RevertSetting
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SMIEngine.dll
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# ISettingsContext::RevertSetting method
+
+
+## -description
+
+
+Reverts a setting in the namespace.
+
+
+## -parameters
+
+
+
+
+### -param pIdentity [in]
+
+The fully-specified identity for the namespace that holds the setting  to be reverted.
+
+
+### -param pwzSetting [in]
+
+A path to a setting within the namespace that has been overridden in this context.
+
+
+## -returns
+
+
+
+This method returns an HRESULT value. <b>S_OK</b> indicates success. It returns <b>WCM_E_NAMESPACENOTFOUND</b> if <i>pIdentity</i> specifies a namespace that is not currently in the context. It returns <b>WCM_E_STATENODENOTFOUND</b> if <i>pwzSetting</i> is not changed in the context.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/29f43c3f-57bf-4208-a0bf-9b4414795a59">ISettingsContext</a>
+ 
+
+ 
+

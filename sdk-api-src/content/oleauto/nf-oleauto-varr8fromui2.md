@@ -1,0 +1,154 @@
+---
+UID: NF:oleauto.VarR8FromUI2
+title: VarR8FromUI2 function
+author: windows-driver-content
+description: Converts an unsigned short value to a double value.
+old-location: automat\varr8fromui2.htm
+old-project: automat
+ms.assetid: fb66fc4e-8b71-4244-8949-0fa276728df7
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: VarR8FromUI2, VarR8FromUI2 function [Automation], _oa96_VarR8FromUI2, automat.varr8fromui2, oleauto/VarR8FromUI2
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: oleauto.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: REGKIND
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	OleAut32.dll
+api_name:
+-	VarR8FromUI2
+product: Windows
+targetos: Windows
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# VarR8FromUI2 function
+
+
+## -description
+
+
+Converts an unsigned short value to a double value.
+
+
+## -parameters
+
+
+
+
+### -param uiIn [in]
+
+The value to convert.
+
+
+### -param pdblOut [out]
+
+The resulting value.
+
+
+## -returns
+
+
+
+This function can return one of these values.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+Success.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>DISP_E_BADVARTYPE</b></dt>
+</dl>
+</td>
+<td width="60%">
+The input parameter is not a valid type of variant.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>DISP_E_OVERFLOW</b></dt>
+</dl>
+</td>
+<td width="60%">
+The data pointed to by the output parameter does not fit in the destination type.
+
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>DISP_E_TYPEMISMATCH</b></dt>
+</dl>
+</td>
+<td width="60%">
+The argument could not be coerced to the specified type.
+
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+One of the arguments is not valid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_OUTOFMEMORY</b></dt>
+</dl>
+</td>
+<td width="60%">
+Insufficient memory to complete the operation.
+
+</td>
+</tr>
+</table>
+ 
+
+
+

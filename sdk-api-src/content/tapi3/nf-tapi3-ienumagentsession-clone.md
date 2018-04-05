@@ -1,0 +1,149 @@
+---
+UID: NF:tapi3.IEnumAgentSession.Clone
+title: IEnumAgentSession::Clone method
+author: windows-driver-content
+description: The Clone method creates another enumerator that contains the same enumeration state as the current one.
+old-location: tapi3\ienumagentsession_clone.htm
+old-project: Tapi
+ms.assetid: 6ccc7601-4355-49c8-b280-875f1accf9ff
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: Clone method [TAPI 2.2], Clone method [TAPI 2.2], IEnumAgentSession interface, Clone,IEnumAgentSession.Clone, IEnumAgentSession, IEnumAgentSession interface [TAPI 2.2], Clone method, IEnumAgentSession::Clone, _tapi3_ienumagentsession_clone, tapi3.ienumagentsession_clone, tapi3cc/IEnumAgentSession::Clone
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: tapi3.h
+req.include-header: Tapi3.h
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MSP_EVENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Tapi3.dll
+api_name:
+-	IEnumAgentSession.Clone
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# IEnumAgentSession::Clone method
+
+
+## -description
+
+
+The 
+<b>Clone</b> method creates another enumerator that contains the same enumeration state as the current one.
+
+
+## -parameters
+
+
+
+
+### -param ppEnum [out]
+
+Pointer to new 
+<a href="https://msdn.microsoft.com/38b9fc57-a0af-4dfa-9058-e721138c8be9">IEnumAgentSession</a> interface.
+
+
+## -returns
+
+
+
+This method can return one of these values.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+Method succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_POINTER</b></dt>
+</dl>
+</td>
+<td width="60%">
+The <i>ppEnum</i> parameter not a valid pointer.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_OUTOFMEMORY</b></dt>
+</dl>
+</td>
+<td width="60%">
+Insufficient memory exists to perform the operation.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_UNEXPECTED</b></dt>
+</dl>
+</td>
+<td width="60%">
+Failed for unknown reasons.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+TAPI calls the <b>AddRef</b> method on the 
+<a href="https://msdn.microsoft.com/38b9fc57-a0af-4dfa-9058-e721138c8be9">IEnumAgentSession</a> interface returned by <b>IEnumAgentSession::Clone</b>. The application must call <b>Release</b> on the 
+<b>IEnumAgentSession</b> interface to free resources associated with it.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/38b9fc57-a0af-4dfa-9058-e721138c8be9">IEnumAgentSession</a>
+ 
+
+ 
+

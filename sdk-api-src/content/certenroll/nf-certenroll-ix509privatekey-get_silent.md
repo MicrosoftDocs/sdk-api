@@ -1,0 +1,80 @@
+---
+UID: NF:certenroll.IX509PrivateKey.get_Silent
+title: IX509PrivateKey::get_Silent method
+author: windows-driver-content
+description: Specifies or retrieves a Boolean value that indicates whether the Certificate Enrollment Control is allowed to display a dialog box when the private key is accessed.
+old-location: security\ix509privatekey_silent_property.htm
+old-project: SecCertEnroll
+ms.assetid: 4f61a513-620c-48c4-b9dd-032b13a9f654
+ms.author: windowsdriverdev
+ms.date: 3/29/2018
+ms.keywords: IX509PrivateKey, IX509PrivateKey interface [Security], Silent property, IX509PrivateKey.Silent, IX509PrivateKey::get_Silent, IX509PrivateKey::put_Silent, Silent property [Security], Silent property [Security], IX509PrivateKey interface, certenroll/IX509PrivateKey::Silent, certenroll/IX509PrivateKey::get_Silent, certenroll/IX509PrivateKey::put_Silent, get_Silent,IX509PrivateKey.get_Silent, security.ix509privatekey_silent_property
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: certenroll.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: X509RequestType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	CertEnroll.dll
+api_name:
+-	IX509PrivateKey.Silent
+-	IX509PrivateKey.get_Silent
+-	IX509PrivateKey.put_Silent
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
+---
+
+# IX509PrivateKey::get_Silent method
+
+
+## -description
+
+
+The <b>Silent</b> property specifies or retrieves a Boolean value that indicates whether the Certificate Enrollment Control is allowed to display  a dialog box when the private key is accessed.
+
+This property is read/write.
+
+
+## -parameters
+
+
+## -remarks
+
+
+
+If the user interface is not allowed but is required to access the private key, operations that require the user interface will fail.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/72612ea4-ed45-46ac-9dad-614a9a754d83">IX509PrivateKey</a>
+ 
+
+ 
+

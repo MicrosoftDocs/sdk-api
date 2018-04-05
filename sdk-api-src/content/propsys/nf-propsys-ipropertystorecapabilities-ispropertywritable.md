@@ -1,0 +1,116 @@
+---
+UID: NF:propsys.IPropertyStoreCapabilities.IsPropertyWritable
+title: IPropertyStoreCapabilities::IsPropertyWritable method
+author: windows-driver-content
+description: Queries whether the property handler allows a specific property to be edited in the UI by the user.
+old-location: properties\IPropertyStoreCapabilities_IsPropertyWritable.htm
+old-project: properties
+ms.assetid: ffd13c93-3011-4955-ad1e-2731afd83956
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: IPropertyStoreCapabilities, IPropertyStoreCapabilities interface [Windows Properties], IsPropertyWritable method, IPropertyStoreCapabilities::IsPropertyWritable, IsPropertyWritable method [Windows Properties], IsPropertyWritable method [Windows Properties], IPropertyStoreCapabilities interface, IsPropertyWritable,IPropertyStoreCapabilities.IsPropertyWritable, _shell_IPropertyStoreCapabilities_IsPropertyWritable, properties.IPropertyStoreCapabilities_IsPropertyWritable, propsys/IPropertyStoreCapabilities::IsPropertyWritable, shell.IPropertyStoreCapabilities_IsPropertyWritable
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: propsys.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Propsys.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: PSC_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Propsys.h
+api_name:
+-	IPropertyStoreCapabilities.IsPropertyWritable
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# IPropertyStoreCapabilities::IsPropertyWritable method
+
+
+## -description
+
+
+Queries whether the property handler allows a specific property to be edited in the UI by the user.
+
+
+## -parameters
+
+
+
+
+### -param key [in]
+
+Type: <b>REFPROPERTYKEY</b>
+
+A reference to <a href="shell.PROPERTYKEY">PROPERTYKEY</a> structure that represents the property being queried.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+Returns one of the following values.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The property can be edited and stored by the handler.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_FALSE</b></dt>
+</dl>
+</td>
+<td width="60%">
+The property cannot be edited.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+The Shell disables the editing of controls by the user as appropriate through this method. A handler that does not support <a href="shell.IPropertyStoreCapabilities">IPropertyStoreCapabilities</a> is assumed to support writing of any property.
+
+
+

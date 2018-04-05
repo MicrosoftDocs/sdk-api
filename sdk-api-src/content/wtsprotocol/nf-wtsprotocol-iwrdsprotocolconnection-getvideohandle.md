@@ -1,0 +1,88 @@
+---
+UID: NF:wtsprotocol.IWRdsProtocolConnection.GetVideoHandle
+title: IWRdsProtocolConnection::GetVideoHandle method
+author: windows-driver-content
+description: Obtains the handle of the video device for the protocol.
+old-location: termserv\iwrdsprotocolconnection_getvideohandle.htm
+old-project: TermServ
+ms.assetid: 069ee899-ae3a-4043-92b5-e193dbfe4f54
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: GetVideoHandle method [Remote Desktop Services], GetVideoHandle method [Remote Desktop Services], IWRdsProtocolConnection interface, GetVideoHandle,IWRdsProtocolConnection.GetVideoHandle, IWRdsProtocolConnection, IWRdsProtocolConnection interface [Remote Desktop Services], GetVideoHandle method, IWRdsProtocolConnection::GetVideoHandle, termserv.iwrdsprotocolconnection_getvideohandle, wtsprotocol/IWRdsProtocolConnection::GetVideoHandle
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wtsprotocol.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2012
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Wtsprotocol.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WTS_PROPERTY_VALUE, *PWTS_PROPERTY_VALUE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	wtsprotocol.h
+api_name:
+-	IWRdsProtocolConnection.GetVideoHandle
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IWRdsProtocolConnection::GetVideoHandle method
+
+
+## -description
+
+
+Obtains the handle of the video device for the protocol.
+
+
+## -parameters
+
+
+
+
+### -param pVideoHandle [out]
+
+A pointer to a handle that receives the handle of the video device.
+
+If the protocol object is using the <a href="https://msdn.microsoft.com/ff8d2dd0-adbb-40de-a074-3228d803f4c8">IWRdsRemoteFXGraphicsConnection</a>  interface, this method should set the contents of <i>pVideoHandle</i> to <b>NULL</b> and return <b>E_NOTIMPL</b>.
+
+If the protocol is not using the <a href="https://msdn.microsoft.com/ff8d2dd0-adbb-40de-a074-3228d803f4c8">IWRdsRemoteFXGraphicsConnection</a> interface, this method should return a handle to the video miniport driver for the remote session associated with the protocol.
+
+
+## -returns
+
+
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/2b8a5b2f-5a54-4d60-8b5a-8a914728087c">IWRdsProtocolConnection</a>
+ 
+
+ 
+

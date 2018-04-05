@@ -1,0 +1,72 @@
+---
+UID: NF:wuapi.IUpdateCollection.put_Item
+title: IUpdateCollection::put_Item method
+author: windows-driver-content
+description: Gets or sets an IUpdate interface in a collection.
+old-location: wua\iupdatecollection_item.htm
+old-project: Wua_Sdk
+ms.assetid: d36af17d-b4ac-48ef-8ca4-cc44d7f9a4ee
+ms.author: windowsdriverdev
+ms.date: 3/15/2018
+ms.keywords: IUpdateCollection, IUpdateCollection interface [Windows Update Agent], Item property, IUpdateCollection.Item, IUpdateCollection::get_Item, IUpdateCollection::put_Item, Item property [Windows Update Agent], Item property [Windows Update Agent], IUpdateCollection interface, put_Item,IUpdateCollection.put_Item, wua.iupdatecollection_item, wuapi/IUpdateCollection::Item, wuapi/IUpdateCollection::get_Item, wuapi/IUpdateCollection::put_Item
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wuapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Wuapi.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: UpdateType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wuapi.dll
+api_name:
+-	IUpdateCollection.Item
+-	IUpdateCollection.get_Item
+-	IUpdateCollection.put_Item
+product: Windows
+targetos: Windows
+req.lib: Wuguid.lib
+req.dll: Wuapi.dll
+req.irql: 
+req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+---
+
+# IUpdateCollection::put_Item method
+
+
+## -description
+
+
+Gets or sets an <a href="https://msdn.microsoft.com/d0feee2a-96f6-4c86-aaf8-f49d05616fc9">IUpdate</a> interface in a collection.
+
+This property is read/write.
+
+
+## -parameters
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/e56a09e9-6a5f-4579-9a5c-987519fccaad">IUpdateCollection</a>
+ 
+
+ 
+

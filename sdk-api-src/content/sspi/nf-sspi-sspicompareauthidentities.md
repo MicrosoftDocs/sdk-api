@@ -1,0 +1,91 @@
+---
+UID: NF:sspi.SspiCompareAuthIdentities
+title: SspiCompareAuthIdentities function
+author: windows-driver-content
+description: Compares the two specified credentials.
+old-location: security\sspicompareauthidentities.htm
+old-project: SecAuthN
+ms.assetid: d2c4f363-3d86-48f0-bae1-4f9240d68bab
+ms.author: windowsdriverdev
+ms.date: 3/29/2018
+ms.keywords: SspiCompareAuthIdentities, SspiCompareAuthIdentities function [Security], security.sspicompareauthidentities, sspi/SspiCompareAuthIdentities
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: sspi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: SEC_APPLICATION_PROTOCOL_NEGOTIATION_STATUS, *PSEC_APPLICATION_PROTOCOL_NEGOTIATION_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	SspiCli.dll
+api_name:
+-	SspiCompareAuthIdentities
+product: Windows
+targetos: Windows
+req.lib: Secur32.lib
+req.dll: SspiCli.dll
+req.irql: 
+req.product: Internet Explorer 6.01
+---
+
+# SspiCompareAuthIdentities function
+
+
+## -description
+
+
+Compares the two specified credentials.
+
+
+## -parameters
+
+
+
+
+### -param AuthIdentity1 [in]
+
+A pointer to an opaque structure that specifies the first credential to compare.
+
+
+### -param AuthIdentity2 [in]
+
+A pointer to an opaque structure that specifies the second credential to compare.
+
+
+### -param SameSuppliedUser [out]
+
+<b>TRUE</b> if the user account specified by the <i>AuthIdentity1</i> parameter is the same as the user account specified by the <i>AuthIdentity2</i> parameter; otherwise, <b>FALSE</b>.
+
+
+### -param SameSuppliedIdentity [out]
+
+<b>TRUE</b> if the identity specified by the <i>AuthIdentity1</i> parameter is the same as the identity specified by the <i>AuthIdentity2</i> parameter; otherwise, <b>FALSE</b>.
+
+
+## -returns
+
+
+
+
+						If the function succeeds, it returns <b>SEC_E_OK</b>.
+
+If the function fails, it returns a nonzero error code.
+
+
+

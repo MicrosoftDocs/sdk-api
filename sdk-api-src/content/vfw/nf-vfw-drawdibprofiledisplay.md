@@ -1,0 +1,155 @@
+---
+UID: NF:vfw.DrawDibProfileDisplay
+title: DrawDibProfileDisplay function
+author: windows-driver-content
+description: The DrawDibProfileDisplay function determines settings for the display system when using DrawDib functions.
+old-location: multimedia\drawdibprofiledisplay.htm
+old-project: Multimedia
+ms.assetid: 51f8b1a2-26e2-40d3-bbc0-5c6c1b482014
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: DrawDibProfileDisplay, DrawDibProfileDisplay function [Windows Multimedia], _win32_DrawDibProfileDisplay, multimedia.drawdibprofiledisplay, vfw/DrawDibProfileDisplay
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: vfw.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: VS_FIXEDFILEINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Msvfw32.dll
+api_name:
+-	DrawDibProfileDisplay
+product: Windows
+targetos: Windows
+req.lib: Vfw32.lib
+req.dll: Msvfw32.dll
+req.irql: 
+req.product: Windows UI
+---
+
+# DrawDibProfileDisplay function
+
+
+## -description
+
+
+
+The <b>DrawDibProfileDisplay</b> function determines settings for the display system when using DrawDib functions.
+
+
+
+
+## -parameters
+
+
+
+
+### -param lpbi
+
+Pointer to a <a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb172327">BITMAPINFOHEADER</a> structure that contains bitmap information. You can also specify <b>NULL</b> to verify that the profile information is current. If the profile information is not current, DrawDib will rerun the profile tests to obtain a current set of information. When you call <b>DrawDibProfileDisplay</b> with this parameter set to <b>NULL</b>, the return value is meaningless.
+
+
+## -returns
+
+
+
+
+            Returns a value that indicates the fastest drawing and stretching capabilities of the display system. This value can be zero if the bitmap format is not supported or one or more of the following values.
+          
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>PD_CAN_DRAW_DIB</b></dt>
+</dl>
+</td>
+<td width="60%">
+DrawDib can draw images using this format. Stretching might or might not also be supported.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>PD_CAN_STRETCHDIB</b></dt>
+</dl>
+</td>
+<td width="60%">
+DrawDib can stretch and draw images using this format.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>PD_STRETCHDIB_1_1_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+
+<a href="https://msdn.microsoft.com/3d57a79a-338d-48ab-8161-3ce17739bf20">StretchDIBits</a> draws unstretched images using this format faster than an alternative method.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>PD_STRETCHDIB_1_2_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+
+<a href="https://msdn.microsoft.com/3d57a79a-338d-48ab-8161-3ce17739bf20">StretchDIBits</a> draws stretched images (in a 1:2 ratio) using this format faster than an alternative method.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>PD_STRETCHDIB_1_N_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+
+<a href="https://msdn.microsoft.com/3d57a79a-338d-48ab-8161-3ce17739bf20">StretchDIBits</a> draws stretched images (in a 1:N ratio) using this format faster than an alternative method.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/9ba47b8d-5328-477e-9272-21e897e54348">DrawDib Functions</a>
+ 
+
+ 
+

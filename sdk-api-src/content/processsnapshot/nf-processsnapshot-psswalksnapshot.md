@@ -1,0 +1,191 @@
+---
+UID: NF:processsnapshot.PssWalkSnapshot
+title: PssWalkSnapshot function
+author: windows-driver-content
+description: Returns information from the current walk position and advanced the walk marker to the next position.
+old-location: proc_snap\psswalksnapshot.htm
+old-project: proc_snap
+ms.assetid: C6AC38B5-0A1C-44D7-A1F6-8196AE9B8FB0
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: PssWalkSnapshot, PssWalkSnapshot function, proc_snap.psswalksnapshot, processsnapshot/PssWalkSnapshot
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: processsnapshot.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: PSS_WALK_INFORMATION_CLASS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	kernel32.dll
+-	API-MS-Win-Core-Processsnapshot-l1-1-0.dll
+-	KernelBase.dll
+api_name:
+-	PssWalkSnapshot
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Kernel32.dll
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# PssWalkSnapshot function
+
+
+## -description
+
+
+Returns information from the current walk position and advanced the walk marker to the next position.
+
+
+## -parameters
+
+
+
+
+### -param SnapshotHandle [in]
+
+A handle to the snapshot.
+
+
+### -param InformationClass [in]
+
+The type of information to return. For more information, see <a href="https://msdn.microsoft.com/93A79F7F-2164-4F7A-ADE7-C1655EEFC9BF">PSS_WALK_INFORMATION_CLASS</a>.
+
+
+### -param WalkMarkerHandle [in]
+
+A handle to a walk marker. The walk marker indicates the walk position from which data is to be returned. <b>PssWalkSnapshot</b> advances the walk marker to the next walk position in time order before returning to the caller.
+
+
+### -param Buffer [out]
+
+The snapshot information that this function returns.
+
+
+### -param BufferLength [in]
+
+The size of <i>Buffer</i>, in bytes.
+
+
+## -returns
+
+
+
+This function returns <b>ERROR_SUCCESS</b> on success or one of the following error codes.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_BAD_LENGTH</b></dt>
+</dl>
+</td>
+<td width="60%">
+The specified buffer length is invalid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_INVALID_HANDLE</b></dt>
+</dl>
+</td>
+<td width="60%">
+The specified handle is invalid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_INVALID_PARAMETER</b></dt>
+</dl>
+</td>
+<td width="60%">
+The specified information class is invalid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_MORE_DATA</b></dt>
+</dl>
+</td>
+<td width="60%">
+<i>Buffer</i> is <b>NULL</b>, and there is data at the current position to return.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_NO_MORE_ITEMS</b></dt>
+</dl>
+</td>
+<td width="60%">
+The walk has completed and there are no more items to return.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_NOT_FOUND</b></dt>
+</dl>
+</td>
+<td width="60%">
+The requested information is not in the snapshot.
+
+</td>
+</tr>
+</table>
+ 
+
+All error codes are defined in winerror.h. Use <a href="https://msdn.microsoft.com/b9d61342-4bcf-42e9-96f1-a5993dfb6c0c">FormatMessage</a> with the <b>FORMAT_MESSAGE_FROM_SYSTEM</b> flag to get a message for an error code.
+
+
+
+
+## -remarks
+
+
+
+For snapshot data types that have a variable number of instances within a snapshot, you use the <b>PssWalkSnapshot</b> function to obtain the instances one after another. You set the <i>InformationClass</i> parameter to specify the type of data. 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/1dc6fe86-3f5a-4810-8e93-a0fe309c54ee">Process Snapshotting</a>
+ 
+
+ 
+

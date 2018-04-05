@@ -1,0 +1,119 @@
+---
+UID: NF:d2d1.D2D1CreateFactory
+title: D2D1CreateFactory function
+author: windows-driver-content
+description: Creates a factory object that can be used to create Direct2D resources.
+old-location: direct2d\d2d1createfactory.htm
+old-project: Direct2D
+ms.assetid: 8c0a685a-8f33-4072-a715-bb423cb44f03
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: D2D1CreateFactory, D2D1CreateFactory function [Direct2D], d2d1/D2D1CreateFactory, direct2d.d2d1createfactory
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: d2d1.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: D2D1_WINDOW_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	D2d1.dll
+api_name:
+-	D2D1CreateFactory
+product: Windows
+targetos: Windows
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
+---
+
+# D2D1CreateFactory function
+
+
+## -description
+
+
+Creates a factory object 
+  that can be used to create Direct2D resources.
+
+
+## -parameters
+
+
+
+
+### -param factoryType [in]
+
+Type: <b><a href="https://msdn.microsoft.com/428053d3-7ea0-4b01-9924-4a31d8e018fb">D2D1_FACTORY_TYPE</a></b>
+
+The threading model of the factory and the resources it creates.
+
+
+### -param riid [in]
+
+Type: <b>REFIID</b>
+
+A reference to the IID of <a href="https://msdn.microsoft.com/cef6115c-98e8-49e6-b419-271b43ce2938">ID2D1Factory</a> that is obtained by using __uuidof(ID2D1Factory).
+
+
+### -param pFactoryOptions [in, optional]
+
+Type: <b>const <a href="https://msdn.microsoft.com/2765d34e-978c-4121-82c9-2780d54e2850">D2D1_FACTORY_OPTIONS</a>*</b>
+
+The level of detail provided to the debugging layer.
+
+
+### -param ppIFactory [out]
+
+Type: <b>void**</b>
+
+When this method returns, contains the address to a pointer to the new factory.
+
+
+## -returns
+
+
+
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+
+If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+The <a href="https://msdn.microsoft.com/cef6115c-98e8-49e6-b419-271b43ce2938">ID2D1Factory</a> interface provides the starting point for  Direct2D. In general, objects created from a single instance of a factory object can be used with other resources created from that instance, but not with resources created by other factory instances.  
+	 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/b1362ef6-40fc-4fa5-ba5b-22c622c39f04">Direct2D API Overview</a>
+ 
+
+ 
+

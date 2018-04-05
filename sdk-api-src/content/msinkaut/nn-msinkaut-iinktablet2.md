@@ -1,0 +1,69 @@
+---
+UID: NN:msinkaut.IInkTablet2
+title: IInkTablet2
+author: windows-driver-content
+description: Extends the IInkTablet interface.
+old-location: tablet\iinktablet2.htm
+old-project: tablet
+ms.assetid: c912689c-9a85-41a0-87d8-68332ea762a7
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: IInkTablet2, IInkTablet2 interface [Tablet PC], IInkTablet2 interface [Tablet PC], described, c912689c-9a85-41a0-87d8-68332ea762a7, msinkaut/IInkTablet2, tablet.iinktablet2
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: interface
+req.header: msinkaut.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
+req.target-min-winversvr: None supported
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: TabletPropertyMetricUnit
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	InkObj.dll
+-	InkObj.dll.dll
+api_name:
+-	IInkTablet2
+product: Windows
+targetos: Windows
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 SP2 or later
+---
+
+# IInkTablet2 interface
+
+
+## -description
+
+
+
+Extends the IInkTablet interface.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/9a945740-b191-41f5-8b3d-49b7e2d1e463">IInkTablet Interface</a>
+ 
+
+ 
+

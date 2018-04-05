@@ -1,0 +1,283 @@
+---
+UID: NF:wintrust.WinVerifyTrustEx
+title: WinVerifyTrustEx function
+author: windows-driver-content
+description: Performs a trust verification action on a specified object and takes a pointer to a WINTRUST_DATA structure.
+old-location: security\winverifytrustex.htm
+old-project: SecCrypto
+ms.assetid: 209c9953-a4a5-4ff0-961f-92e97ccce23d
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: A valid window handle, DRIVER_ACTION_VERIFY, HTTPSPROV_ACTION, INVALID_HANDLE_VALUE, OFFICESIGN_ACTION_VERIFY, WINTRUST_ACTION_GENERIC_CERT_VERIFY, WINTRUST_ACTION_GENERIC_CHAIN_VERIFY, WINTRUST_ACTION_GENERIC_VERIFY_V2, WINTRUST_ACTION_TRUSTPROVIDER_TEST, WinVerifyTrustEx, WinVerifyTrustEx function [Security], Zero, security.winverifytrustex, wintrust/WinVerifyTrustEx
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: wintrust.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: TEB, *PTEB
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Wintrust.dll
+api_name:
+-	WinVerifyTrustEx
+product: Windows
+targetos: Windows
+req.lib: Wintrust.lib
+req.dll: Wintrust.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# WinVerifyTrustEx function
+
+
+## -description
+
+
+The <b>WinVerifyTrustEx</b> function performs a trust verification action on a specified object and takes a pointer to a <a href="https://msdn.microsoft.com/8fb68f44-6f69-4eac-90de-02689e3e86cf">WINTRUST_DATA</a> structure. The function passes the inquiry to a <a href="https://msdn.microsoft.com/11f2e098-1d1e-473b-90ff-7b86eb923e9f">trust provider</a>, if one exists, that supports the action identifier. This function has no associated import library. You must use the <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a> and <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a> functions to dynamically link to Wintrust.dll.
+
+For certificate verification, use the <a href="https://msdn.microsoft.com/8c93036c-0b93-40d4-b0e3-ba1f2fc72db1">CertGetCertificateChain</a> and <a href="https://msdn.microsoft.com/19c37f77-1072-4740-b244-764b816a2a1f">CertVerifyCertificateChainPolicy</a> functions.
+
+
+## -parameters
+
+
+
+
+### -param hwnd [in]
+
+Optional handle to a caller window. A trust provider can use this value to determine whether it can interact with the user. However, trust providers typically perform verification actions without input from the user.
+
+This parameter can be one of the following values.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="INVALID_HANDLE_VALUE"></a><a id="invalid_handle_value"></a><dl>
+<dt><b>INVALID_HANDLE_VALUE</b></dt>
+</dl>
+</td>
+<td width="60%">
+There is no interactive user. The trust provider performs the verification action without the user's assistance.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="Zero"></a><a id="zero"></a><a id="ZERO"></a><dl>
+<dt><b>Zero</b></dt>
+</dl>
+</td>
+<td width="60%">
+The trust provider can use the interactive desktop to display its user interface.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="A_valid_window_handle"></a><a id="a_valid_window_handle"></a><a id="A_VALID_WINDOW_HANDLE"></a><dl>
+<dt><b>A valid window handle</b></dt>
+</dl>
+</td>
+<td width="60%">
+A trust provider can treat any value other than INVALID_HANDLE_VALUE or zero as a valid window handle that it can use to interact with the user.
+
+</td>
+</tr>
+</table>
+ 
+
+
+### -param pgActionID [in]
+
+A pointer to a <b>GUID</b> structure that identifies an action and the <a href="https://msdn.microsoft.com/11f2e098-1d1e-473b-90ff-7b86eb923e9f">trust provider</a> that supports that action. This value indicates the type of verification action to be performed on the structure pointed to by <i>pWinTrustData</i>.
+
+The WinTrust service is designed to work with trust providers implemented by third parties. Each trust provider provides its own unique set of action identifiers. For information about the action identifiers supported by a trust provider, see the documentation for that trust provider.
+
+For example, Microsoft provides a Software Publisher Trust Provider that can establish the trustworthiness of software being downloaded from the Internet or some other public network. The Software Publisher Trust Provider supports the following action identifiers. These constants are defined in Softpub.h.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="DRIVER_ACTION_VERIFY"></a><a id="driver_action_verify"></a><dl>
+<dt><b>DRIVER_ACTION_VERIFY</b></dt>
+</dl>
+</td>
+<td width="60%">
+Verify the
+authenticity of a Windows Hardware Quality Labs (WHQL) signed driver.  This is an Authenticode add-on
+policy provider.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="HTTPSPROV_ACTION"></a><a id="httpsprov_action"></a><dl>
+<dt><b>HTTPSPROV_ACTION</b></dt>
+</dl>
+</td>
+<td width="60%">
+Verify an SSL/TLS connection through Internet Explorer.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="OFFICESIGN_ACTION_VERIFY"></a><a id="officesign_action_verify"></a><dl>
+<dt><b>OFFICESIGN_ACTION_VERIFY</b></dt>
+</dl>
+</td>
+<td width="60%">
+ This Action ID is not supported. Verify the
+authenticity of a structured storage file by using the Microsoft Office
+Authenticode add-on policy provider.
+
+<b>Windows Server 2003 and Windows XP:  </b>This Action ID is supported.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="WINTRUST_ACTION_GENERIC_CERT_VERIFY"></a><a id="wintrust_action_generic_cert_verify"></a><dl>
+<dt><b>WINTRUST_ACTION_GENERIC_CERT_VERIFY</b></dt>
+</dl>
+</td>
+<td width="60%">
+Verify
+a certificate chain only.  This is only valid when passing in a
+certificate context in the <a href="https://msdn.microsoft.com/b7efac6a-ac9f-477a-aada-63fe32208e6f">WinVerifyTrust</a> input structures.
+
+<div class="alert"><b>Note</b>  We do not recommend  using this function to perform certificate verification. To perform certificate verification, use the <a href="https://msdn.microsoft.com/8c93036c-0b93-40d4-b0e3-ba1f2fc72db1">CertGetCertificateChain</a> and <a href="https://msdn.microsoft.com/19c37f77-1072-4740-b244-764b816a2a1f">CertVerifyCertificateChainPolicy</a> functions.</div>
+<div> </div>
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="WINTRUST_ACTION_GENERIC_CHAIN_VERIFY"></a><a id="wintrust_action_generic_chain_verify"></a><dl>
+<dt><b>WINTRUST_ACTION_GENERIC_CHAIN_VERIFY</b></dt>
+</dl>
+</td>
+<td width="60%">
+Verify
+certificate chains created from any object type.
+A callback is provided to implement the final chain policy by using
+the chain context for each signer and counter signer.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="WINTRUST_ACTION_GENERIC_VERIFY_V2"></a><a id="wintrust_action_generic_verify_v2"></a><dl>
+<dt><b>WINTRUST_ACTION_GENERIC_VERIFY_V2</b></dt>
+</dl>
+</td>
+<td width="60%">
+Verify a file or object using the Authenticode policy provider.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="WINTRUST_ACTION_TRUSTPROVIDER_TEST"></a><a id="wintrust_action_trustprovider_test"></a><dl>
+<dt><b>WINTRUST_ACTION_TRUSTPROVIDER_TEST</b></dt>
+</dl>
+</td>
+<td width="60%">
+Write
+the <a href="https://msdn.microsoft.com/93ea2ad5-65da-4daa-bfd4-e3d1307829b2">CRYPT_PROVIDER_DATA</a> structure to a file after calling the
+Authenticode policy provider.
+
+</td>
+</tr>
+</table>
+ 
+
+
+### -param pWinTrustData [in]
+
+A pointer to a 
+<a href="https://msdn.microsoft.com/8fb68f44-6f69-4eac-90de-02689e3e86cf">WINTRUST_DATA</a> structure that contains information that the <a href="https://msdn.microsoft.com/11f2e098-1d1e-473b-90ff-7b86eb923e9f">trust provider</a> needs to process the specified action identifier. Typically, the structure includes information that identifies the object that the trust provider must evaluate.
+
+The format of the structure depends on the action identifier. For information about the data required for a specific action identifier, see the documentation for the trust provider that supports that action.
+
+
+## -returns
+
+
+
+If the trust provider verifies that the subject is trusted for the specified action, the return value is ERROR_SUCCESS. Otherwise, the function returns a status code from the <a href="https://msdn.microsoft.com/11f2e098-1d1e-473b-90ff-7b86eb923e9f">trust provider</a>.
+
+For example, a trust provider might indicate that the subject is not trusted, or is trusted but with limitations or warnings. The return value can be a trust provider–specific value described in the documentation for an individual trust provider, or it can be one of the following error codes.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>TRUST_E_SUBJECT_NOT_TRUSTED</b></dt>
+</dl>
+</td>
+<td width="60%">
+The subject failed the specified verification action. Most trust providers return a more detailed error code that describes the reason for the failure.
+
+<div class="alert"><b>Note</b>  <p class="note">The <b>TRUST_E_SUBJECT_NOT_TRUSTED</b> return code may be returned depending on the value of the <b>EnableCertPaddingCheck</b> registry key under <b>HKLM\Software\Microsoft\Cryptography\Wintrust\Config</b>. If <b>EnableCertPaddingCheck</b> is set to "1", then an additional check is performed to verify that the <b>WIN_CERTIFICATE</b> structure does not contain extraneous information. The check validates that there is no non-zero data beyond the PKCS #7 structure. The <b>EnableCertPaddingCheck</b> key will be set to "1" by default on June 10, 2014. For more information, please refer to the following security advisory: <a href="http://technet.microsoft.com/security/advisory/2915720">http://technet.microsoft.com/security/advisory/2915720#section1</a>.
+
+</div>
+<div> </div>
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>TRUST_E_PROVIDER_UNKNOWN</b></dt>
+</dl>
+</td>
+<td width="60%">
+The trust provider is not recognized on this system.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>TRUST_E_ACTION_UNKNOWN</b></dt>
+</dl>
+</td>
+<td width="60%">
+The trust provider does not support the specified action.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>TRUST_E_SUBJECT_FORM_UNKNOWN</b></dt>
+</dl>
+</td>
+<td width="60%">
+The trust provider does not support the form specified for the subject.
+
+</td>
+</tr>
+</table>
+ 
+
+
+

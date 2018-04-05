@@ -1,0 +1,111 @@
+---
+UID: NE:d3d12sdklayers.D3D12_GPU_BASED_VALIDATION_PIPELINE_STATE_CREATE_FLAGS
+title: D3D12_GPU_BASED_VALIDATION_PIPELINE_STATE_CREATE_FLAGS
+author: windows-driver-content
+description: Specifies how GPU-Based Validation handles patched pipeline states during ID3D12Device::CreateGraphicsPipelineState and ID3D12Device::CreateComputePipelineState.
+old-location: direct3d12\d3d12_gpu_based_validation_pipeline_state_create_flags.htm
+old-project: direct3d12
+ms.assetid: B3D0ABD0-E7CE-4853-AC7C-228398B4588C
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: D3D12_GPU_BASED_VALIDATION_PIPELINE_STATE_CREATE_FLAGS, D3D12_GPU_BASED_VALIDATION_PIPELINE_STATE_CREATE_FLAGS enumeration, D3D12_GPU_BASED_VALIDATION_PIPELINE_STATE_CREATE_FLAGS_VALID_MASK, D3D12_GPU_BASED_VALIDATION_PIPELINE_STATE_CREATE_FLAG_FRONT_LOAD_CREATE_GUARDED_VALIDATION_SHADERS, D3D12_GPU_BASED_VALIDATION_PIPELINE_STATE_CREATE_FLAG_FRONT_LOAD_CREATE_TRACKING_ONLY_SHADERS, D3D12_GPU_BASED_VALIDATION_PIPELINE_STATE_CREATE_FLAG_FRONT_LOAD_CREATE_UNGUARDED_VALIDATION_SHADERS, D3D12_GPU_BASED_VALIDATION_PIPELINE_STATE_CREATE_FLAG_NONE, d3d12sdklayers/D3D12_GPU_BASED_VALIDATION_PIPELINE_STATE_CREATE_FLAGS, d3d12sdklayers/D3D12_GPU_BASED_VALIDATION_PIPELINE_STATE_CREATE_FLAGS_VALID_MASK, d3d12sdklayers/D3D12_GPU_BASED_VALIDATION_PIPELINE_STATE_CREATE_FLAG_FRONT_LOAD_CREATE_GUARDED_VALIDATION_SHADERS, d3d12sdklayers/D3D12_GPU_BASED_VALIDATION_PIPELINE_STATE_CREATE_FLAG_FRONT_LOAD_CREATE_TRACKING_ONLY_SHADERS, d3d12sdklayers/D3D12_GPU_BASED_VALIDATION_PIPELINE_STATE_CREATE_FLAG_FRONT_LOAD_CREATE_UNGUARDED_VALIDATION_SHADERS, d3d12sdklayers/D3D12_GPU_BASED_VALIDATION_PIPELINE_STATE_CREATE_FLAG_NONE, direct3d12.d3d12_gpu_based_validation_pipeline_state_create_flags
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: enum
+req.header: d3d12sdklayers.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: D3D12_GPU_BASED_VALIDATION_PIPELINE_STATE_CREATE_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	d3d12sdklayers.h
+api_name:
+-	D3D12_GPU_BASED_VALIDATION_PIPELINE_STATE_CREATE_FLAGS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# D3D12_GPU_BASED_VALIDATION_PIPELINE_STATE_CREATE_FLAGS enumeration
+
+
+## -description
+
+
+<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
+
+Specifies how GPU-Based Validation handles patched pipeline states during <a href="https://msdn.microsoft.com/E35FCC4A-7527-4A6C-8569-0801A06AA427">ID3D12Device::CreateGraphicsPipelineState</a> and <a href="https://msdn.microsoft.com/FFA361B2-D8FA-4F5A-8D0C-022C2AA76B57">ID3D12Device::CreateComputePipelineState</a>.
+
+
+## -enum-fields
+
+
+
+
+### -field D3D12_GPU_BASED_VALIDATION_PIPELINE_STATE_CREATE_FLAG_NONE
+
+This is the default value.  Indicates no patching of pipeline states should be done during PSO creation.  Instead PSO’s are patched on first use in a command list.  This can help to reduce the up-front cost of PSO creation but may instead slow down command list recording until a steady-state is reached.
+
+
+### -field D3D12_GPU_BASED_VALIDATION_PIPELINE_STATE_CREATE_FLAG_FRONT_LOAD_CREATE_TRACKING_ONLY_SHADERS
+
+Indicates that state-tracking GPU-Based Validation PSO’s should be created along with the original PSO at create time.
+
+
+### -field D3D12_GPU_BASED_VALIDATION_PIPELINE_STATE_CREATE_FLAG_FRONT_LOAD_CREATE_UNGUARDED_VALIDATION_SHADERS
+
+Indicates that unguarded GPU-Based Validation PSO’s should be created along with the original PSO at create time.
+
+
+### -field D3D12_GPU_BASED_VALIDATION_PIPELINE_STATE_CREATE_FLAG_FRONT_LOAD_CREATE_GUARDED_VALIDATION_SHADERS
+
+Indicates that guarded GPU-Based Validation PSO’s should be created along with the original PSO at create time.
+
+
+### -field D3D12_GPU_BASED_VALIDATION_PIPELINE_STATE_CREATE_FLAGS_VALID_MASK
+
+Internal use only.
+
+
+## -remarks
+
+
+
+This enum is used by the <a href="https://msdn.microsoft.com/2C4E7A8D-CC42-4C2E-848E-7DA3ECA24391">D3D12_DEBUG_DEVICE_GPU_BASED_VALIDATION_SETTINGS</a> structure.
+
+Generally speaking most application developers are likely to leave this parameter unchanged.  However, if the overhead of deferring patched PSO creation is suspected to be too much of a performance problem, then developers should consider changing this setting.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/6E76C857-128E-4F0E-9711-72C4CF6C835C">Debug Layer Enumerations</a>
+
+
+
+<a href="https://msdn.microsoft.com/01D1F94F-4DD4-4781-86EF-6C639E8B1069">Using D3D12 Debug Layer GPU-Based Validation</a>
+ 
+
+ 
+

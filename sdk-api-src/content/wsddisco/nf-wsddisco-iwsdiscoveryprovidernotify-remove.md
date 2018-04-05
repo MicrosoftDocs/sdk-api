@@ -1,0 +1,95 @@
+---
+UID: NF:wsddisco.IWSDiscoveryProviderNotify.Remove
+title: IWSDiscoveryProviderNotify::Remove method
+author: windows-driver-content
+description: Provides information on a recently departed discovery host (from a Bye message).
+old-location: ncd\iwsdiscoveryprovidernotify_remove.htm
+old-project: WsdApi
+ms.assetid: 776fc1d5-9dfe-445f-9af6-36faf971bf37
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: IWSDiscoveryProviderNotify, IWSDiscoveryProviderNotify interface, Remove method, IWSDiscoveryProviderNotify::Remove, Remove method, Remove method, IWSDiscoveryProviderNotify interface, Remove,IWSDiscoveryProviderNotify.Remove, ncd.iwsdiscoveryprovidernotify_remove, wsddisco/IWSDiscoveryProviderNotify::Remove
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wsddisco.h
+req.include-header: Wsdapi.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Wsddisco.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WSD_SECURITY_SIGNATURE_VALIDATION, *PWSD_SECURITY_SIGNATURE_VALIDATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wsdapi.dll
+api_name:
+-	IWSDiscoveryProviderNotify.Remove
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Wsdapi.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IWSDiscoveryProviderNotify::Remove method
+
+
+## -description
+
+
+Provides information on a recently departed discovery host (from a Bye message).
+
+
+## -parameters
+
+
+
+
+### -param pService [in]
+
+A pointer to an <a href="https://msdn.microsoft.com/6516098a-e440-4dec-b275-165ea3072d49">IWSDiscoveredService</a> interface that represents a remote discovery host.
+
+
+## -returns
+
+
+
+The return value is not meaningful. An implementer should return S_OK.
+
+
+
+
+## -remarks
+
+
+
+<b>Remove</b> will be called once per announcement of a departing discovery host.
+
+<div class="alert"><b>Note</b>  Multiple simultaneous calls may be made to <b>Remove</b> by the provider, so it is essential that shared data be synchronized when implementing this callback routine.</div>
+<div> </div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/e186f721-14d9-4d9b-942a-1c05ada2bee6">IWSDiscoveryProviderNotify</a>
+ 
+
+ 
+

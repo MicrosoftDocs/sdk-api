@@ -1,0 +1,84 @@
+---
+UID: NF:msrdc.ISimilarityTraitsMapping.GetFileSize
+title: ISimilarityTraitsMapping::GetFileSize method
+author: windows-driver-content
+description: Returns the size of a similarity traits table file.
+old-location: rdc\isimilaritytraitsmapping_getfilesize.htm
+old-project: Rdc
+ms.assetid: 920b9c77-ca45-42ff-801f-cbe1ab3eab2c
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: GetFileSize method [Remote Differential Compression], GetFileSize method [Remote Differential Compression], ISimilarityTraitsMapping interface, GetFileSize,ISimilarityTraitsMapping.GetFileSize, ISimilarityTraitsMapping, ISimilarityTraitsMapping interface [Remote Differential Compression], GetFileSize method, ISimilarityTraitsMapping::GetFileSize, fs.isimilaritytraitsmapping_getfilesize, msrdc/ISimilarityTraitsMapping::GetFileSize, rdc.isimilaritytraitsmapping_getfilesize
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: msrdc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: MsRdc.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: RdcMappingAccessMode
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	MsRdc.dll
+api_name:
+-	ISimilarityTraitsMapping.GetFileSize
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: MsRdc.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 SP2 or later
+---
+
+# ISimilarityTraitsMapping::GetFileSize method
+
+
+## -description
+
+
+Returns the size of a similarity traits table file.
+
+
+## -parameters
+
+
+
+
+### -param fileSize [out]
+
+Pointer to a location that receives the file size, in bytes.
+
+
+## -returns
+
+
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/1ddc599b-5a9b-4807-9005-00793f9a6ed4">ISimilarityTraitsMapping</a>
+ 
+
+ 
+

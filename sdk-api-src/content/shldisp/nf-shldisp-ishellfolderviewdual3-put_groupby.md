@@ -1,0 +1,77 @@
+---
+UID: NF:shldisp.IShellFolderViewDual3.put_GroupBy
+title: IShellFolderViewDual3::put_GroupBy method
+author: windows-driver-content
+description: Sets the column used in grouping the folder view.
+old-location: shell\IShellFolderViewDual3_put_GroupBy.htm
+old-project: shell
+ms.assetid: 32c23b6f-7c6f-432c-9f0e-11de8608e546
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: IShellFolderViewDual3, IShellFolderViewDual3 interface [Windows Shell], put_GroupBy method, IShellFolderViewDual3::put_GroupBy, _shell_IShellFolderViewDual3_put_GroupBy, put_GroupBy method [Windows Shell], put_GroupBy method [Windows Shell], IShellFolderViewDual3 interface, put_GroupBy,IShellFolderViewDual3.put_GroupBy, shell.IShellFolderViewDual3_put_GroupBy, shldisp/IShellFolderViewDual3::put_GroupBy
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: shldisp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Shldisp.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: AUTOCOMPLETEOPTIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Shldisp.h
+api_name:
+-	IShellFolderViewDual3.put_GroupBy
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5.0
+---
+
+# IShellFolderViewDual3::put_GroupBy method
+
+
+## -description
+
+
+Sets the column used in grouping the folder view.
+
+
+## -parameters
+
+
+
+
+### -param bstrGroupBy [in]
+
+Type: <b><a href="1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a></b>
+
+A <b>BSTR</b> that contains the column name.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+

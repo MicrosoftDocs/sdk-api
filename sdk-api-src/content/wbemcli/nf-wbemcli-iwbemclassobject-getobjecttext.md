@@ -1,0 +1,120 @@
+---
+UID: NF:wbemcli.IWbemClassObject.GetObjectText
+title: IWbemClassObject::GetObjectText method
+author: windows-driver-content
+description: The IWbemClassObject::GetObjectText method returns a textual rendering of the object in the MOF syntax.
+old-location: wmi\iwbemclassobject_getobjecttext.htm
+old-project: WmiSdk
+ms.assetid: 7e874e9a-7417-4b3f-95c5-398fe92bfdf8
+ms.author: windowsdriverdev
+ms.date: 3/16/2018
+ms.keywords: GetObjectText method [Windows Management Instrumentation], GetObjectText method [Windows Management Instrumentation], IWbemClassObject interface, GetObjectText,IWbemClassObject.GetObjectText, IWbemClassObject, IWbemClassObject interface [Windows Management Instrumentation], GetObjectText method, IWbemClassObject::GetObjectText, _hmm_iwbemclassobject_getobjecttext, wbemcli/IWbemClassObject::GetObjectText, wmi.iwbemclassobject_getobjecttext
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wbemcli.h
+req.include-header: Wbemidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: WbemCli.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WMI_OBJ_TEXT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	CIMWin32.dll
+-	Esscli.dll
+-	Fastprox.dll
+-	FrameDyn.dll
+-	FrameDynOS.dll
+-	Krnlprov.dll
+-	Ncprov.dll
+-	Wbemcore.dll
+-	Wbemess.dll
+-	Wmipiprt.dll
+api_name:
+-	IWbemClassObject.GetObjectText
+product: Windows
+targetos: Windows
+req.lib: WbemUuid.lib
+req.dll: CIMWin32.dll; Esscli.dll; Fastprox.dll; FrameDyn.dll; FrameDynOS.dll; Krnlprov.dll; Ncprov.dll; Wbemcore.dll; Wbemess.dll; Wmipiprt.dll
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# IWbemClassObject::GetObjectText method
+
+
+## -description
+
+
+The 
+<b>IWbemClassObject::GetObjectText</b> method returns a textual rendering of the object in the MOF syntax. Notice that the MOF text returned does not contain all the information about the object, but only enough information for the MOF compiler to be able to re-create the original object. For instance, no propagated qualifiers or parent class properties are displayed.
+
+
+## -parameters
+
+
+
+
+### -param lFlags [in]
+
+Normally 0. If <b>WBEM_FLAG_NO_FLAVORS</b> is specified, qualifiers will be presented without propagation or flavor information.
+
+
+### -param pstrObjectText [out]
+
+This must point to <b>NULL</b> on entry. This parameter receives from Windows Management a newly allocated <b>BSTR</b> that was initialized with <b>SysAllocString</b>. You must call <b>SysFreeString</b> on the pointer when the string is no longer required. This pointer points to a MOF syntax rendering of the object upon return from the call. Because this is an out parameter, the pointer must not point to a string that is valid before this method is called, because the pointer will not be deallocated.
+
+
+## -returns
+
+
+
+This method returns an <b>HRESULT</b> indicating the status of the method call. The following list lists the value contained within an <b>HRESULT</b>. For general <b>HRESULT</b> values, see <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">System Error Codes</a>.
+
+
+
+
+## -remarks
+
+
+
+The following algorithm is used to reconstruct the text of the parameters of a method:
+
+<ol>
+<li>Parameters are resequenced in the order of their identifier values.</li>
+<li>Parameters that are specified as [in] and [out] will be combined into a single parameter.</li>
+</ol>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/a3ce37d7-5580-4b84-9119-78412c8e0d27">IWbemClassObject</a>
+
+
+
+<a href="https://msdn.microsoft.com/8b36bd32-4931-4641-a019-cbaa3547edd0">IWbemQualifierSet</a>
+
+
+
+<a href="https://msdn.microsoft.com/6E4F87D1-9952-4D85-9A32-3D7068831087">WBEM_TEXT_FLAG_TYPE</a>
+ 
+
+ 
+

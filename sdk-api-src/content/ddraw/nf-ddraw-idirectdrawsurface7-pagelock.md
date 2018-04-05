@@ -1,0 +1,119 @@
+---
+UID: NF:ddraw.IDirectDrawSurface7.PageLock
+title: IDirectDrawSurface7::PageLock method
+author: windows-driver-content
+description: Prevents a system-memory surface from being paged out while a bit block transfer (bitblt) operation that uses direct memory access (DMA) transfers to or from system memory is in progress.
+old-location: directdraw\idirectdrawsurface7_pagelock.htm
+old-project: directdraw
+ms.assetid: 018e6539-bb2a-472c-bab4-2c0665cdbe15
+ms.author: windowsdriverdev
+ms.date: 3/23/2018
+ms.keywords: IDirectDrawSurface7, IDirectDrawSurface7 interface [DirectDraw], PageLock method, IDirectDrawSurface7::PageLock, PageLock method [DirectDraw], PageLock method [DirectDraw], IDirectDrawSurface7 interface, PageLock,IDirectDrawSurface7.PageLock, ddraw/IDirectDrawSurface7::PageLock, directdraw.idirectdrawsurface7_pagelock
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: ddraw.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: DEDUP_CONTAINER_EXTENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Ddraw.dll
+api_name:
+-	IDirectDrawSurface7.PageLock
+product: Windows
+targetos: Windows
+req.lib: Ddraw.lib
+req.dll: Ddraw.dll
+req.irql: 
+---
+
+# IDirectDrawSurface7::PageLock method
+
+
+## -description
+
+
+Prevents a system-memory surface from being paged out while a bit block transfer (bitblt) operation that uses direct memory access (DMA) transfers to or from system memory is in progress.
+
+
+
+## -parameters
+
+
+
+
+
+
+#### - dwFlags [in]
+
+Currently not used and must be set to 0.
+
+
+## -returns
+
+
+
+If the method succeeds, the return value is DD_OK.
+
+
+
+If it fails, the method can return one of the following error values:
+
+<ul>
+<li>DDERR_CANTPAGELOCK</li>
+<li>DDERR_INVALIDOBJECT</li>
+<li>DDERR_INVALIDPARAMS</li>
+<li>DDERR_SURFACELOST</li>
+</ul>
+
+
+
+## -remarks
+
+
+
+You must call <b>PageLock</b> to make use of DMA support. If you do not, the bitblt occurs by using software emulation.
+
+The performance of the operating system can be negatively affected if too much memory is locked.
+
+A lock count is maintained for each surface and is incremented each time that <b>PageLock</b> is called for that surface. The count is decremented when <a href="https://msdn.microsoft.com/1a87df37-a53f-4240-a5cb-47b13999c34b">IDirectDrawSurface7::PageUnlock</a> is called. When the count reaches 0, the memory is unlocked, and can then be paged by the operating system.
+
+<b>PageLock</b> works only on system-memory surfaces; it does not page-lock a display-memory surface or an emulated primary surface. If an application calls <b>PageLock</b> on a display memory surface, the method does nothing except return DD_OK.
+
+
+
+<b>IDirectDrawSurface7::PageLock</b> was not implemented in the <b>IDirectDraw</b> interface version.
+
+
+
+You must use <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a> to access the <b>PageLock</b> method.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/be686d56-c242-4228-ac8e-8f764ad29756">IDirectDrawSurface7</a>
+ 
+
+ 
+

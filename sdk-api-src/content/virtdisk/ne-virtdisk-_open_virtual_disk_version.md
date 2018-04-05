@@ -1,0 +1,98 @@
+---
+UID: NE:virtdisk._OPEN_VIRTUAL_DISK_VERSION
+title: "_OPEN_VIRTUAL_DISK_VERSION"
+author: windows-driver-content
+description: Contains the version of the virtual disk OPEN_VIRTUAL_DISK_PARAMETERS structure to use in calls to virtual disk functions.
+old-location: vhd\open_virtual_disk_version.htm
+old-project: VStor
+ms.assetid: 3f45324a-6e31-43d6-9fc9-65c85e6c3493
+ms.author: windowsdriverdev
+ms.date: 3/27/2018
+ms.keywords: OPEN_VIRTUAL_DISK_VERSION, OPEN_VIRTUAL_DISK_VERSION enumeration [VHD], OPEN_VIRTUAL_DISK_VERSION_1, OPEN_VIRTUAL_DISK_VERSION_2, OPEN_VIRTUAL_DISK_VERSION_UNSPECIFIED, _OPEN_VIRTUAL_DISK_VERSION, vhd.open_virtual_disk_version, virtdisk/OPEN_VIRTUAL_DISK_VERSION, virtdisk/OPEN_VIRTUAL_DISK_VERSION_1, virtdisk/OPEN_VIRTUAL_DISK_VERSION_2, virtdisk/OPEN_VIRTUAL_DISK_VERSION_UNSPECIFIED
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: enum
+req.header: virtdisk.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7
+req.target-min-winversvr: Windows Server 2008 R2
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: OPEN_VIRTUAL_DISK_VERSION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	VirtDisk.h
+api_name:
+-	OPEN_VIRTUAL_DISK_VERSION
+product: Windows
+targetos: Windows
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
+req.product: Windows UI
+---
+
+# _OPEN_VIRTUAL_DISK_VERSION enumeration
+
+
+## -description
+
+
+Contains the version of the virtual disk 
+    <a href="https://msdn.microsoft.com/ad67bc3e-a0fe-4198-9307-819577abef7f">OPEN_VIRTUAL_DISK_PARAMETERS</a> structure to 
+    use in calls to virtual disk functions.
+
+
+## -enum-fields
+
+
+
+
+### -field OPEN_VIRTUAL_DISK_VERSION_UNSPECIFIED
+
+Not supported.
+
+
+### -field OPEN_VIRTUAL_DISK_VERSION_1
+
+The <b>Version1</b> member structure will be used.
+
+
+### -field OPEN_VIRTUAL_DISK_VERSION_2
+
+The <b>Version2</b> member structure will be used.
+
+<b>Windows 7 and Windows Server 2008 R2:  </b>This value is not supported until Windows 8 and Windows Server 2012.
+
+
+### -field OPEN_VIRTUAL_DISK_VERSION_3
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/c9531c07-ad55-42b6-8685-7f55a47e8485">About VHD</a>
+
+
+
+<a href="https://msdn.microsoft.com/3b5d0da0-2b23-4b7c-b007-ed3fe030926c">VHD Reference</a>
+ 
+
+ 
+

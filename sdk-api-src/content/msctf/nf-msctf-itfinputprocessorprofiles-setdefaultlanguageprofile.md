@@ -1,0 +1,123 @@
+---
+UID: NF:msctf.ITfInputProcessorProfiles.SetDefaultLanguageProfile
+title: ITfInputProcessorProfiles::SetDefaultLanguageProfile method
+author: windows-driver-content
+description: ITfInputProcessorProfiles::SetDefaultLanguageProfile method
+old-location: tsf\itfinputprocessorprofiles_setdefaultlanguageprofile.htm
+old-project: TSF
+ms.assetid: 385bf5d6-6541-483d-8286-1ba759616fc6
+ms.author: windowsdriverdev
+ms.date: 3/26/2018
+ms.keywords: ITfInputProcessorProfiles, ITfInputProcessorProfiles interface [Text Services Framework], SetDefaultLanguageProfile method, ITfInputProcessorProfiles::SetDefaultLanguageProfile, SetDefaultLanguageProfile method [Text Services Framework], SetDefaultLanguageProfile method [Text Services Framework], ITfInputProcessorProfiles interface, SetDefaultLanguageProfile,ITfInputProcessorProfiles.SetDefaultLanguageProfile, _tsf_itfinputprocessorprofiles_setdefaultlanguageprofile_ref, msctf/ITfInputProcessorProfiles::SetDefaultLanguageProfile, tsf.itfinputprocessorprofiles_setdefaultlanguageprofile
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: msctf.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Msctf.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: TF_DA_ATTR_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Msctf.dll
+api_name:
+-	ITfInputProcessorProfiles.SetDefaultLanguageProfile
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# ITfInputProcessorProfiles::SetDefaultLanguageProfile method
+
+
+## -description
+
+
+
+
+## -parameters
+
+
+
+
+### -param langid [in]
+
+Contains a LANGID value that specifies which language to set the default profile for.
+
+
+### -param rclsid [in]
+
+Contains the CLSID of the text service that will be the default for the language.
+
+
+### -param guidProfiles [in]
+
+Contains a GUID value that identifies the language profile that will be the default.
+
+
+## -returns
+
+
+
+This method can return one of these values.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method was successful.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_FAIL</b></dt>
+</dl>
+</td>
+<td width="60%">
+An unspecified error occurred.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+One or more parameters are invalid.
+
+</td>
+</tr>
+</table>
+ 
+
+
+

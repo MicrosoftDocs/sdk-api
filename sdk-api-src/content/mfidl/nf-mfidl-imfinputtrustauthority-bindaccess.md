@@ -1,0 +1,116 @@
+---
+UID: NF:mfidl.IMFInputTrustAuthority.BindAccess
+title: IMFInputTrustAuthority::BindAccess method
+author: windows-driver-content
+description: Notifies the input trust authority (ITA) that a requested action is about to be performed.
+old-location: mf\imfinputtrustauthority_bindaccess.htm
+old-project: medfound
+ms.assetid: 94e447af-9311-4a2c-9ec5-be371684f79d
+ms.author: windowsdriverdev
+ms.date: 4/2/2018
+ms.keywords: 94e447af-9311-4a2c-9ec5-be371684f79d, BindAccess method [Media Foundation], BindAccess method [Media Foundation], IMFInputTrustAuthority interface, BindAccess,IMFInputTrustAuthority.BindAccess, IMFInputTrustAuthority, IMFInputTrustAuthority interface [Media Foundation], BindAccess method, IMFInputTrustAuthority::BindAccess, mf.imfinputtrustauthority_bindaccess, mfidl/IMFInputTrustAuthority::BindAccess
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: mfidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MF_URL_TRUST_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfuuid.lib
+-	mfuuid.dll
+api_name:
+-	IMFInputTrustAuthority.BindAccess
+product: Windows
+targetos: Windows
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IMFInputTrustAuthority::BindAccess method
+
+
+## -description
+
+
+
+Notifies the input trust authority (ITA) that a requested action is about to be performed.
+
+
+
+
+## -parameters
+
+
+
+
+### -param pParam [in]
+
+Pointer to an <a href="https://msdn.microsoft.com/5ff3ec3a-a7b1-4378-8e8b-d59a6f5bb28d">MFINPUTTRUSTAUTHORITY_ACCESS_PARAMS</a> structure that contains parameters for the <b>BindAccess</b> action.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+Before calling this method, the Media Session calls <a href="https://msdn.microsoft.com/8f2f7f65-7000-4404-8678-ba36c5c97c80">IMFInputTrustAuthority::RequestAccess</a> to request an action. The <b>BindAccess</b> method notifies the ITA that the action is definitely about to occur, so that the ITA can update its internal state as needed. If the method returns a failure code, the Media Session cancels the action.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/637e0225-6fd8-4b83-b4fb-119e7a5ef5d2">IMFInputTrustAuthority</a>
+ 
+
+ 
+

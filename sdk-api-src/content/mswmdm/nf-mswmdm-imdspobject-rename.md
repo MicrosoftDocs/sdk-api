@@ -1,0 +1,113 @@
+---
+UID: NF:mswmdm.IMDSPObject.Rename
+title: IMDSPObject::Rename method
+author: windows-driver-content
+description: The Rename method renames the associated object which can be a file or a folder.
+old-location: wmdm\imdspobject_rename.htm
+old-project: WMDM
+ms.assetid: 3da6a4a4-6e3b-4907-a466-5a5bd34f4374
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: IMDSPObject, IMDSPObject interface [windows Media Device Manager], Rename method, IMDSPObject::Rename, IMDSPObjectRename, Rename method [windows Media Device Manager], Rename method [windows Media Device Manager], IMDSPObject interface, Rename,IMDSPObject.Rename, mswmdm/IMDSPObject::Rename, wmdm.imdspobject_rename
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: mswmdm.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MSVidCtlStateList
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mssachlp.lib
+-	mssachlp.dll
+api_name:
+-	IMDSPObject.Rename
+product: Windows
+targetos: Windows
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# IMDSPObject::Rename method
+
+
+## -description
+
+
+
+The <b>Rename</b> method renames the associated object which can be a file or a folder.
+
+
+
+
+## -parameters
+
+
+
+
+### -param pwszNewName [in]
+
+Pointer to a wide-character null-terminated string to receive a new name for the object. For information on how to use the <b>LPWSTR</b> variable type, see the Windows documentation.
+
+
+### -param pProgress [in]
+
+Pointer to an application-implemented <a href="https://msdn.microsoft.com/9af022a6-19b4-41b7-b951-0acad6aab4a2">IWMDMProgress</a> interface that enables the application to receive progress notification for lengthy renaming operations.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. All the interface methods in Windows Media Device Manager can return any of the following classes of error codes:
+
+<ul>
+<li>Standard COM error codes </li>
+<li>Windows error codes converted to HRESULT values </li>
+<li>Windows Media Device Manager error codes </li>
+</ul>
+For an extensive list of possible error codes, see <a href="https://msdn.microsoft.com/library/windows/hardware/dn938542">Error Codes</a>.
+
+
+
+
+## -remarks
+
+
+
+This method is optional. For more information, see <a href="https://msdn.microsoft.com/582c9dd5-f8ab-48df-afb3-fba931ee0dea">Mandatory and Optional Interfaces</a>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/271d7185-1a9d-4bec-9289-4ae5461ed741">IMDSPObject Interface</a>
+
+
+
+<a href="https://msdn.microsoft.com/9af022a6-19b4-41b7-b951-0acad6aab4a2">IWMDMProgress Interface</a>
+ 
+
+ 
+
