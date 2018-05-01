@@ -7,7 +7,7 @@ old-location: wmp\iwmpsubscriptionservice2_serviceevent.htm
 old-project: WMP
 ms.assetid: 5937cf18-2548-45da-87eb-519448e64405
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPSubscriptionService2, IWMPSubscriptionService2 interface [Windows Media Player], serviceEvent method, IWMPSubscriptionService2::serviceEvent, IWMPSubscriptionService2serviceEvent, serviceEvent method [Windows Media Player], serviceEvent method [Windows Media Player], IWMPSubscriptionService2 interface, serviceEvent,IWMPSubscriptionService2.serviceEvent, subscriptionservices/IWMPSubscriptionService2::serviceEvent, wmp.iwmpsubscriptionservice2_serviceevent
 ms.prod: windows-hardware
 ms.technology: windows-devices

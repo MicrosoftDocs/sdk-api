@@ -7,7 +7,7 @@ old-location: mstv\icomponenttype_put_mediatype.htm
 old-project: mstv
 ms.assetid: 6f77a391-232f-46ef-a028-763ebc706784
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IComponentType, IComponentType interface [Microsoft TV Technologies], put_MediaType method, IComponentType::put_MediaType, IComponentTypeput_MediaType, mstv.icomponenttype_put_mediatype, put_MediaType method [Microsoft TV Technologies], put_MediaType method [Microsoft TV Technologies], IComponentType interface, put_MediaType,IComponentType.put_MediaType, tuner/IComponentType::put_MediaType
 ms.prod: windows-hardware
 ms.technology: windows-devices

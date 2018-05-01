@@ -7,7 +7,7 @@ old-location: com\iperpropertybrowsing_getdisplaystring.htm
 old-project: com
 ms.assetid: 949d7d12-de59-441d-ac0f-e18f050d005d
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: GetDisplayString method [COM], GetDisplayString method [COM], IPerPropertyBrowsing interface, GetDisplayString,IPerPropertyBrowsing.GetDisplayString, IPerPropertyBrowsing, IPerPropertyBrowsing interface [COM], GetDisplayString method, IPerPropertyBrowsing::GetDisplayString, _ctrl_iperpropertybrowsing_getdisplaystring, com.iperpropertybrowsing_getdisplaystring, ocidl/IPerPropertyBrowsing::GetDisplayString
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IPerPropertyBrowsing::GetDisplayString method

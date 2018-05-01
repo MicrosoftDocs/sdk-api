@@ -7,7 +7,7 @@ old-location: mstv\iisdbseriesdescriptor_gettag.htm
 old-project: mstv
 ms.assetid: 7f67fcf4-76b6-4e1c-99a1-e09b406b5bd9
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies], IIsdbSeriesDescriptor interface, GetTag,IIsdbSeriesDescriptor.GetTag, IIsdbSeriesDescriptor, IIsdbSeriesDescriptor interface [Microsoft TV Technologies], GetTag method, IIsdbSeriesDescriptor::GetTag, dvbsiparser/IIsdbSeriesDescriptor::GetTag, mstv.iisdbseriesdescriptor_gettag
 ms.prod: windows-hardware
 ms.technology: windows-devices

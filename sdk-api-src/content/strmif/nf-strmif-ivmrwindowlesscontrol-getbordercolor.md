@@ -7,7 +7,7 @@ old-location: dshow\ivmrwindowlesscontrol_getbordercolor.htm
 old-project: DirectShow
 ms.assetid: f0bf04c8-17e6-4e1f-b35f-2e10c9de8b92
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetBorderColor method [DirectShow], GetBorderColor method [DirectShow], IVMRWindowlessControl interface, GetBorderColor,IVMRWindowlessControl.GetBorderColor, IVMRWindowlessControl, IVMRWindowlessControl interface [DirectShow], GetBorderColor method, IVMRWindowlessControl::GetBorderColor, IVMRWindowlessControlGetBorderColor, dshow.ivmrwindowlesscontrol_getbordercolor, strmif/IVMRWindowlessControl::GetBorderColor
 ms.prod: windows-hardware
 ms.technology: windows-devices

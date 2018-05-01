@@ -7,7 +7,7 @@ old-location: termserv\iworkspaceclientext_issuedisconnect.htm
 old-project: TermServ
 ms.assetid: 07c2546b-e9bf-46e6-a1de-6da31fa1579b
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: IWorkspaceClientExt, IWorkspaceClientExt interface [Remote Desktop Services], IssueDisconnect method, IWorkspaceClientExt::IssueDisconnect, IssueDisconnect method [Remote Desktop Services], IssueDisconnect method [Remote Desktop Services], IWorkspaceClientExt interface, IssueDisconnect,IWorkspaceClientExt.IssueDisconnect, termserv.iworkspaceclientext_issuedisconnect, workspaceruntimeclientext/IWorkspaceClientExt::IssueDisconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices

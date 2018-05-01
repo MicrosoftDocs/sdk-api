@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomation_VariantToRect.htm
 old-project: WinAuto
 ms.assetid: ef8bb8eb-c6f1-4797-b64f-f4f9d41db2bb
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: IUIAutomation, IUIAutomation interface [Windows Accessibility], VariantToRect method, IUIAutomation::VariantToRect, VariantToRect method [Windows Accessibility], VariantToRect method [Windows Accessibility], IUIAutomation interface, VariantToRect,IUIAutomation.VariantToRect, uiauto.uiauto_IUIAutomation_VariantToRect, uiauto_IUIAutomation_VariantToRect, uiautomationclient/IUIAutomation::VariantToRect, winauto.uiauto_IUIAutomation_VariantToRect
 ms.prod: windows-hardware
 ms.technology: windows-devices

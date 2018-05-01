@@ -7,7 +7,7 @@ old-location: gdi\setpaletteentries.htm
 old-project: gdi
 ms.assetid: df38f482-75ba-4800-8b26-92204c63255e
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/17/2018
 ms.keywords: SetPaletteEntries, SetPaletteEntries function [Windows GDI], _win32_SetPaletteEntries, gdi.setpaletteentries, wingdi/SetPaletteEntries
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: FAX_TIME, *PFAX_TIME
+req.typenames: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
 topic_type:
 -	APIRef
 -	kbSyntax

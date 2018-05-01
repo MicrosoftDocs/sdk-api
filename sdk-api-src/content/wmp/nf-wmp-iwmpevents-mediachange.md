@@ -7,7 +7,7 @@ old-location: wmp\iwmpevents_iwmpevents__mediachange.htm
 old-project: WMP
 ms.assetid: 385fb52c-62d2-482d-bc9f-94dbf693a27c
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPEvents, IWMPEvents interface [Windows Media Player], MediaChange method, IWMPEvents::MediaChange, IWMPEventsMediaChange, MediaChange method [Windows Media Player], MediaChange method [Windows Media Player], IWMPEvents interface, MediaChange,IWMPEvents.MediaChange, wmp.iwmpevents_iwmpevents__mediachange, wmp/IWMPEvents::MediaChange
 ms.prod: windows-hardware
 ms.technology: windows-devices

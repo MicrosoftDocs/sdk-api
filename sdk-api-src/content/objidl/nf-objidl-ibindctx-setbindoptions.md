@@ -7,7 +7,7 @@ old-location: com\ibindctx_setbindoptions.htm
 old-project: com
 ms.assetid: 9dcce48e-567e-42b4-8df2-2bc861cb5fcb
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IBindCtx, IBindCtx interface [COM], SetBindOptions method, IBindCtx::SetBindOptions, SetBindOptions method [COM], SetBindOptions method [COM], IBindCtx interface, SetBindOptions,IBindCtx.SetBindOptions, _com_ibindctx_setbindoptions, com.ibindctx_setbindoptions, objidl/IBindCtx::SetBindOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IBindCtx::SetBindOptions method

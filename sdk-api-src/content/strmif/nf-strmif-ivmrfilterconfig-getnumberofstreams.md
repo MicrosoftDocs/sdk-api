@@ -7,7 +7,7 @@ old-location: dshow\ivmrfilterconfig_getnumberofstreams.htm
 old-project: DirectShow
 ms.assetid: e031c427-23bb-4243-bb38-0837a6db8c2c
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetNumberOfStreams method [DirectShow], GetNumberOfStreams method [DirectShow], IVMRFilterConfig interface, GetNumberOfStreams,IVMRFilterConfig.GetNumberOfStreams, IVMRFilterConfig, IVMRFilterConfig interface [DirectShow], GetNumberOfStreams method, IVMRFilterConfig::GetNumberOfStreams, IVMRFilterConfigGetNumberOfStreams, dshow.ivmrfilterconfig_getnumberofstreams, strmif/IVMRFilterConfig::GetNumberOfStreams
 ms.prod: windows-hardware
 ms.technology: windows-devices

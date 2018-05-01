@@ -7,7 +7,7 @@ old-location: mf\imfoutputpolicy_getminimumgrlversion.htm
 old-project: medfound
 ms.assetid: 41da430b-9cdd-4ab0-873d-f6d94f48d401
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 41da430b-9cdd-4ab0-873d-f6d94f48d401, GetMinimumGRLVersion method [Media Foundation], GetMinimumGRLVersion method [Media Foundation], IMFOutputPolicy interface, GetMinimumGRLVersion,IMFOutputPolicy.GetMinimumGRLVersion, IMFOutputPolicy, IMFOutputPolicy interface [Media Foundation], GetMinimumGRLVersion method, IMFOutputPolicy::GetMinimumGRLVersion, mf.imfoutputpolicy_getminimumgrlversion, mfidl/IMFOutputPolicy::GetMinimumGRLVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: termserv\itssbservicenotification_notifyservicefailure.htm
 old-project: TermServ
 ms.assetid: 76e8819f-93d0-4f1b-a573-5b9aeaaae08a
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: ITsSbServiceNotification, ITsSbServiceNotification interface [Remote Desktop Services], NotifyServiceFailure method, ITsSbServiceNotification::NotifyServiceFailure, NotifyServiceFailure method [Remote Desktop Services], NotifyServiceFailure method [Remote Desktop Services], ITsSbServiceNotification interface, NotifyServiceFailure,ITsSbServiceNotification.NotifyServiceFailure, sbtsv/ITsSbServiceNotification::NotifyServiceFailure, termserv.itssbservicenotification_notifyservicefailure
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITsSbServiceNotification::NotifyServiceFailure method

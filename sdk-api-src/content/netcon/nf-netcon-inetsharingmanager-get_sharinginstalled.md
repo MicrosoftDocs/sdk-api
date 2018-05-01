@@ -7,7 +7,7 @@ old-location: ics\inetsharingmanager_get_sharinginstalled.htm
 old-project: ICS
 ms.assetid: 7cf705dd-41c3-4ac7-a75f-5677a7b49645
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: INetSharingManager, INetSharingManager interface [ICS/ICF], get_SharingInstalled method, INetSharingManager::get_SharingInstalled, _ics_inetsharingmanager_get_sharinginstalled, get_SharingInstalled method [ICS/ICF], get_SharingInstalled method [ICS/ICF], INetSharingManager interface, get_SharingInstalled,INetSharingManager.get_SharingInstalled, ics.inetsharingmanager_get_sharinginstalled, netcon/INetSharingManager::get_SharingInstalled
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # INetSharingManager::get_SharingInstalled method

@@ -7,7 +7,7 @@ old-location: security\cryptgetsignercertificatecallback.htm
 old-project: SecCrypto
 ms.assetid: 557ebb26-cce0-4c41-b49c-769b2831cf35
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: CryptGetSignerCertificateCallback, CryptGetSignerCertificateCallback callback function [Security], PFN_CRYPT_GET_SIGNER_CERTIFICATE, security.cryptgetsignercertificatecallback, wincrypt/CryptGetSignerCertificateCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

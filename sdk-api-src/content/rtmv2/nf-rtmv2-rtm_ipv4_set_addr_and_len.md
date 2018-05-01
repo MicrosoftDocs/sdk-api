@@ -7,7 +7,7 @@ old-location: rras\rtm_ipv4_set_addr_and_len.htm
 old-project: RRAS
 ms.assetid: c6f60346-51ff-4e1e-9edb-b326184f79cf
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: RTM_IPV4_SET_ADDR_AND_LEN, RTM_IPV4_SET_ADDR_AND_LEN macro [RAS], _rtmv2ref_rtm_ipv4_set_addr_and_len, rras.rtm_ipv4_set_addr_and_len, rtmv2/RTM_IPV4_SET_ADDR_AND_LEN
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # RTM_IPV4_SET_ADDR_AND_LEN macro

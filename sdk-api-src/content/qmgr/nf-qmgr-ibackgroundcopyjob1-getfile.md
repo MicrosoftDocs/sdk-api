@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyjob1_getfile.htm
 old-project: Bits
 ms.assetid: 6cd680cc-abe0-44e1-a650-079295a8dd4a
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/10/2018
 ms.keywords: GetFile method [BITS], GetFile method [BITS], IBackgroundCopyJob1 interface, GetFile,IBackgroundCopyJob1.GetFile, IBackgroundCopyJob1, IBackgroundCopyJob1 interface [BITS], GetFile method, IBackgroundCopyJob1::GetFile, bits.ibackgroundcopyjob1_getfile, qmgr/IBackgroundCopyJob1::GetFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: QmgrPrxy.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IBackgroundCopyJob1::GetFile method

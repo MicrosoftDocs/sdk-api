@@ -7,7 +7,7 @@ old-location: nwifi\wlansetprofilelist.htm
 old-project: NativeWiFi
 ms.assetid: 980c7920-a25e-4e05-a742-77178a7f000a
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/13/2018
 ms.keywords: WlanSetProfileList, WlanSetProfileList function [NativeWIFI], nwifi.wlansetprofilelist, wlanapi/WlanSetProfileList
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmp\iwmpsettings_get_balance.htm
 old-project: WMP
 ms.assetid: 457ee1a8-44da-424d-9cc5-0f0421791757
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPSettings, IWMPSettings interface [Windows Media Player], get_balance method, IWMPSettings::get_balance, IWMPSettingsget_balance, get_balance method [Windows Media Player], get_balance method [Windows Media Player], IWMPSettings interface, get_balance,IWMPSettings.get_balance, wmp.iwmpsettings_get_balance, wmp/IWMPSettings::get_balance
 ms.prod: windows-hardware
 ms.technology: windows-devices

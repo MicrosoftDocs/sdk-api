@@ -7,7 +7,7 @@ old-location: mstv\idvbextendedeventdescriptor_gettag.htm
 old-project: mstv
 ms.assetid: 8f6dad8a-fd95-48c3-9bb2-222c5ec958f5
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies], IDvbExtendedEventDescriptor interface, GetTag,IDvbExtendedEventDescriptor.GetTag, IDvbExtendedEventDescriptor, IDvbExtendedEventDescriptor interface [Microsoft TV Technologies], GetTag method, IDvbExtendedEventDescriptor::GetTag, dvbsiparser/IDvbExtendedEventDescriptor::GetTag, mstv.idvbextendedeventdescriptor_gettag
 ms.prod: windows-hardware
 ms.technology: windows-devices

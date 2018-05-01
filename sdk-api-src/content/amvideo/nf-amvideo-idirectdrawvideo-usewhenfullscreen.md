@@ -7,7 +7,7 @@ old-location: dshow\idirectdrawvideo_usewhenfullscreen.htm
 old-project: DirectShow
 ms.assetid: e50f7f06-6534-4373-a2b8-fa315158729d
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IDirectDrawVideo, IDirectDrawVideo interface [DirectShow], UseWhenFullScreen method, IDirectDrawVideo::UseWhenFullScreen, IDirectDrawVideoUseWhenFullScreen, UseWhenFullScreen method [DirectShow], UseWhenFullScreen method [DirectShow], IDirectDrawVideo interface, UseWhenFullScreen,IDirectDrawVideo.UseWhenFullScreen, amvideo/IDirectDrawVideo::UseWhenFullScreen, dshow.idirectdrawvideo_usewhenfullscreen
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\INameSpaceTreeAccessible_OnGetAccessibilityRole.htm
 old-project: shell
 ms.assetid: 9de27a09-dc11-46a6-a233-696ccf35aa87
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: INameSpaceTreeAccessible, INameSpaceTreeAccessible interface [Windows Shell], OnGetAccessibilityRole method, INameSpaceTreeAccessible::OnGetAccessibilityRole, OnGetAccessibilityRole method [Windows Shell], OnGetAccessibilityRole method [Windows Shell], INameSpaceTreeAccessible interface, OnGetAccessibilityRole,INameSpaceTreeAccessible.OnGetAccessibilityRole, _shell_INameSpaceTreeAccessible_OnGetAccessibilityRole, shell.INameSpaceTreeAccessible_OnGetAccessibilityRole, shobjidl/INameSpaceTreeAccessible::OnGetAccessibilityRole
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\ibda_drmservice_setdrm.htm
 old-project: mstv
 ms.assetid: 89da348f-c79c-4c77-8270-51a71b0a1a89
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IBDA_DRMService, IBDA_DRMService interface [Microsoft TV Technologies], SetDRM method, IBDA_DRMService::SetDRM, SetDRM method [Microsoft TV Technologies], SetDRM method [Microsoft TV Technologies], IBDA_DRMService interface, SetDRM,IBDA_DRMService.SetDRM, bdaiface/IBDA_DRMService::SetDRM, mstv.ibda_drmservice_setdrm
 ms.prod: windows-hardware
 ms.technology: windows-devices

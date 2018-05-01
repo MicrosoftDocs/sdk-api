@@ -7,7 +7,7 @@ old-location: cos\imanagedpooledobj_setheld.htm
 old-project: cossdk
 ms.assetid: 36e7f210-0532-424f-b958-a7a1be904b3c
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: IManagedPooledObj, IManagedPooledObj interface [COM+], SetHeld method, IManagedPooledObj::SetHeld, SetHeld method [COM+], SetHeld method [COM+], IManagedPooledObj interface, SetHeld,IManagedPooledObj.SetHeld, _cos_IManagedPooledObj_SetHeld, comsvcs/IManagedPooledObj::SetHeld, cos.imanagedpooledobj_setheld
 ms.prod: windows-hardware
 ms.technology: windows-devices

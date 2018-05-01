@@ -7,7 +7,7 @@ old-location: properties\PSCreateMultiplexPropertyStore.htm
 old-project: properties
 ms.assetid: 4a6b5a10-5ef2-42c7-bf3b-dfa743be252f
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/5/2018
 ms.keywords: PSCreateMultiplexPropertyStore, PSCreateMultiplexPropertyStore function [Windows Properties], _shell_PSCreateMultiplexPropertyStore, properties.PSCreateMultiplexPropertyStore, propsys/PSCreateMultiplexPropertyStore, shell.PSCreateMultiplexPropertyStore
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # PSCreateMultiplexPropertyStore function

@@ -60,6 +60,26 @@ The
 
 
 
+### -field Reserved1
+
+Reserved for future use.
+
+
+### -field Reserved2
+
+Reserved for future use.
+
+
+### -field SrcAddr
+
+Source address.
+
+
+### -field DstAddr
+
+Destination address.
+
+
 ### -field S_un
 
 
@@ -110,26 +130,6 @@ ICMP message type and ICMP message code.
 ### -field S_un.S_un_icmp.filler
 
  
-
-
-### -field Reserved1
-
-Reserved for future use.
-
-
-### -field Reserved2
-
-Reserved for future use.
-
-
-### -field SrcAddr
-
-Source address.
-
-
-### -field DstAddr
-
-Destination address.
 
 
 ### -field ProtocolId

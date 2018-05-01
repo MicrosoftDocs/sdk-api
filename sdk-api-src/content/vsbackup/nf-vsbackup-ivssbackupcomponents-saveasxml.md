@@ -7,7 +7,7 @@ old-location: base\ivssbackupcomponents_saveasxml.htm
 old-project: VSS
 ms.assetid: 8184d15a-7d1f-49ed-afe3-fa9d81a4d32d
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: IVssBackupComponents, IVssBackupComponents interface [VSS], SaveAsXML method, IVssBackupComponents::SaveAsXML, SaveAsXML method [VSS], SaveAsXML method [VSS], IVssBackupComponents interface, SaveAsXML,IVssBackupComponents.SaveAsXML, _win32_ivssbackupcomponents_saveasxml, base.ivssbackupcomponents_saveasxml, vsbackup/IVssBackupComponents::SaveAsXML
 ms.prod: windows-hardware
 ms.technology: windows-devices

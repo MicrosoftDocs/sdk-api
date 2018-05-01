@@ -7,7 +7,7 @@ old-location: tapi2\linegetnewcalls.htm
 old-project: Tapi
 ms.assetid: 179af1a1-078f-401c-8c15-12fc8ca06e3c
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: "_tapi2_linegetnewcalls, lineGetNewCalls, lineGetNewCalls function [TAPI 2.2], tapi/lineGetNewCalls, tapi2.linegetnewcalls"
 ms.prod: windows-hardware
 ms.technology: windows-devices

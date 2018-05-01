@@ -7,7 +7,7 @@ old-location: security\ix509extensionsubjectkeyidentifier_initializeencode_metho
 old-project: SecCertEnroll
 ms.assetid: 0faf3567-3908-473e-9f5c-392991ea668c
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: IX509ExtensionSubjectKeyIdentifier, IX509ExtensionSubjectKeyIdentifier interface [Security], InitializeEncode method, IX509ExtensionSubjectKeyIdentifier::InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security], IX509ExtensionSubjectKeyIdentifier interface, InitializeEncode,IX509ExtensionSubjectKeyIdentifier.InitializeEncode, certenroll/IX509ExtensionSubjectKeyIdentifier::InitializeEncode, security.ix509extensionsubjectkeyidentifier_initializeencode_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\ivirtualdesktopmanager_iswindowoncurrentvirtualdesktop.htm
 old-project: shell
 ms.assetid: CBC97CF4-0C88-4C68-A873-5A5962C5817D
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IVirtualDesktopManager, IVirtualDesktopManager interface [Windows Shell], IsWindowOnCurrentVirtualDesktop method, IVirtualDesktopManager::IsWindowOnCurrentVirtualDesktop, IsWindowOnCurrentVirtualDesktop method [Windows Shell], IsWindowOnCurrentVirtualDesktop method [Windows Shell], IVirtualDesktopManager interface, IsWindowOnCurrentVirtualDesktop,IVirtualDesktopManager.IsWindowOnCurrentVirtualDesktop, shell.ivirtualdesktopmanager_iswindowoncurrentvirtualdesktop, shobjidl/IVirtualDesktopManager::IsWindowOnCurrentVirtualDesktop
 ms.prod: windows-hardware
 ms.technology: windows-devices

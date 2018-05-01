@@ -7,7 +7,7 @@ old-location: automat\icreatetypelib_setlcid.htm
 old-project: automat
 ms.assetid: 4281058b-a617-4504-bc36-b18763b40897
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: ICreateTypeLib, ICreateTypeLib interface [Automation], SetLcid method, ICreateTypeLib::SetLcid, SetLcid method [Automation], SetLcid method [Automation], ICreateTypeLib interface, SetLcid,ICreateTypeLib.SetLcid, _oa96_ICreateTypeLib_SetLcid, automat.icreatetypelib_setlcid, oaidl/ICreateTypeLib::SetLcid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ICreateTypeLib::SetLcid method

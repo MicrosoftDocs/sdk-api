@@ -7,7 +7,7 @@ old-location: wua\iupdate_lastdeploymentchangetime.htm
 old-project: Wua_Sdk
 ms.assetid: 5190ed29-5737-4100-b67c-1333bde28102
 ms.author: windowsdriverdev
-ms.date: 3/15/2018
+ms.date: 4/18/2018
 ms.keywords: IUpdate, IUpdate interface [Windows Update Agent], LastDeploymentChangeTime property, IUpdate.LastDeploymentChangeTime, IUpdate::get_LastDeploymentChangeTime, LastDeploymentChangeTime property [Windows Update Agent], LastDeploymentChangeTime property [Windows Update Agent], IUpdate interface, get_LastDeploymentChangeTime,IUpdate.get_LastDeploymentChangeTime, wua.iupdate_lastdeploymentchangetime, wuapi/IUpdate::LastDeploymentChangeTime, wuapi/IUpdate::get_LastDeploymentChangeTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

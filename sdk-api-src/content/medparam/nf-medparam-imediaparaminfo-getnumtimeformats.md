@@ -7,7 +7,7 @@ old-location: dshow\imediaparaminfo_getnumtimeformats.htm
 old-project: DirectShow
 ms.assetid: 5c398554-af2b-4e7d-8f5c-1c361535e7c6
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetNumTimeFormats method [DirectShow], GetNumTimeFormats method [DirectShow], IMediaParamInfo interface, GetNumTimeFormats,IMediaParamInfo.GetNumTimeFormats, IMediaParamInfo, IMediaParamInfo interface [DirectShow], GetNumTimeFormats method, IMediaParamInfo::GetNumTimeFormats, IMediaParamInfoGetNumTimeFormats, dshow.imediaparaminfo_getnumtimeformats, medparam/IMediaParamInfo::GetNumTimeFormats
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: ad\ds_repl_cursors.htm
 old-project: AD
 ms.assetid: 0fe5ad72-d3f3-42a8-a36f-ca1fc9c55c50
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/20/2018
 ms.keywords: DS_REPL_CURSORS, DS_REPL_CURSORS structure [Active Directory], _DS_REPL_CURSORS, _glines_ds_repl_cursors, ad.ds__repl__cursors, ad.ds_repl_cursors, ntdsapi/DS_REPL_CURSORS
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _DS_REPL_CURSORS structure

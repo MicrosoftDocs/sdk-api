@@ -7,7 +7,7 @@ old-location: controls\ITextHost_TxSetCaretPos.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\itexthost\itexthosttxsetcaretpos.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextHost, ITextHost interface [Windows Controls], TxSetCaretPos method, ITextHost::TxSetCaretPos, TxSetCaretPos method [Windows Controls], TxSetCaretPos method [Windows Controls], ITextHost interface, TxSetCaretPos,ITextHost.TxSetCaretPos, _win32_ITextHost_TxSetCaretPos, _win32_ITextHost_TxSetCaretPos_cpp, controls.ITextHost_TxSetCaretPos, controls._win32_ITextHost_TxSetCaretPos, textserv/ITextHost::TxSetCaretPos
 ms.prod: windows-hardware
 ms.technology: windows-devices

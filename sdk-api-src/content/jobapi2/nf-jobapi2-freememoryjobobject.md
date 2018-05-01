@@ -7,7 +7,7 @@ old-location: base\freememoryjobobject.htm
 old-project: ProcThread
 ms.assetid: 8EA45FC6-A8CC-4786-8CF2-4FC868B974F2
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: FreeMemoryJobObject, FreeMemoryJobObject function, base.freememoryjobobject, jobapi2/FreeMemoryJobObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

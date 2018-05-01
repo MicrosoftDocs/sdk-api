@@ -7,7 +7,7 @@ old-location: dshow\ireferenceclock_advisetime.htm
 old-project: DirectShow
 ms.assetid: 22f0c987-a3ae-4d6e-9184-a0a4282340aa
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: AdviseTime method [DirectShow], AdviseTime method [DirectShow], IReferenceClock interface, AdviseTime,IReferenceClock.AdviseTime, IReferenceClock, IReferenceClock interface [DirectShow], AdviseTime method, IReferenceClock::AdviseTime, IReferenceClockAdviseTime, dshow.ireferenceclock_advisetime, strmif/IReferenceClock::AdviseTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

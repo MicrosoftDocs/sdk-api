@@ -7,7 +7,7 @@ old-location: dshow\iamnetshowexprops_getcodecurl.htm
 old-project: DirectShow
 ms.assetid: ad5672a8-2af9-45ef-b510-3c2f8948f64b
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetCodecURL method [DirectShow], GetCodecURL method [DirectShow], IAMNetShowExProps interface, GetCodecURL,IAMNetShowExProps.GetCodecURL, IAMNetShowExProps, IAMNetShowExProps interface [DirectShow], GetCodecURL method, IAMNetShowExProps::GetCodecURL, IAMNetShowExPropsGetCodecURL, dshow.iamnetshowexprops_getcodecurl, qnetwork/IAMNetShowExProps::GetCodecURL
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IAMNetShowExProps::GetCodecURL method

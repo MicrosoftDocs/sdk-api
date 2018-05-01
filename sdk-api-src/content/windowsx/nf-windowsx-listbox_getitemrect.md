@@ -7,7 +7,7 @@ old-location: controls\ListBox_GetItemRect.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_getitemrect.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ListBox_GetItemRect, ListBox_GetItemRect macro [Windows Controls], _win32_ListBox_GetItemRect, _win32_ListBox_GetItemRect_cpp, controls.ListBox_GetItemRect, controls._win32_ListBox_GetItemRect, windowsx/ListBox_GetItemRect
 ms.prod: windows-hardware
 ms.technology: windows-devices

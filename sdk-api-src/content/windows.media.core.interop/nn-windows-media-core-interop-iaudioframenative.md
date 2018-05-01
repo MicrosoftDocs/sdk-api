@@ -7,7 +7,7 @@ old-location: winrt\iaudioframenative.htm
 old-project: WinRT
 ms.assetid: 9C9DDDFD-8399-403F-8EB4-485D8531C94B
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/24/2018
 ms.keywords: IAudioFrameNative, IAudioFrameNative interface [Windows Runtime], IAudioFrameNative interface [Windows Runtime], described, windows/IAudioFrameNative, winrt.iaudioframenative
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: PDF_RENDER_PARAMS
+req.typenames: TimeSpan
 topic_type:
 -	APIRef
 -	kbSyntax

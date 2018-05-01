@@ -7,7 +7,7 @@ old-location: properties\VariantGetStringElem.htm
 old-project: properties
 ms.assetid: c4d1a37e-f7d1-4c0e-8d05-93a0153f2878
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/5/2018
 ms.keywords: VariantGetStringElem, VariantGetStringElem function [Windows Properties], _shell_VariantGetStringElem, properties.VariantGetStringElem, propvarutil/VariantGetStringElem, shell.VariantGetStringElem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # VariantGetStringElem function

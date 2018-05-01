@@ -7,7 +7,7 @@ old-location: dshow\icodecapi_setvaluewithnotify.htm
 old-project: DirectShow
 ms.assetid: b2899e30-4dfb-47e7-88dd-adba49368a4f
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ICodecAPI, ICodecAPI interface [DirectShow], SetValueWithNotify method, ICodecAPI::SetValueWithNotify, ICodecAPISetValueWithNotify, SetValueWithNotify method [DirectShow], SetValueWithNotify method [DirectShow], ICodecAPI interface, SetValueWithNotify,ICodecAPI.SetValueWithNotify, dshow.icodecapi_setvaluewithnotify, strmif/ICodecAPI::SetValueWithNotify
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: cos\imtseventinfo_get_value.htm
 old-project: cossdk
 ms.assetid: 61757e85-28b2-4599-9be4-69a3531e5ac2
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: IMtsEventInfo, IMtsEventInfo interface [COM+], get_Value method, IMtsEventInfo::get_Value, _dtc_IMtsEventInfo_Value, comsvcs/IMtsEventInfo::get_Value, cos.imtseventinfo_get_value, get_Value method [COM+], get_Value method [COM+], IMtsEventInfo interface, get_Value,IMtsEventInfo.get_Value
 ms.prod: windows-hardware
 ms.technology: windows-devices

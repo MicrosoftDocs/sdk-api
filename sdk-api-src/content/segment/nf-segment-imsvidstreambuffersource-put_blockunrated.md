@@ -7,7 +7,7 @@ old-location: mstv\imsvidstreambuffersource_put_blockunrated.htm
 old-project: mstv
 ms.assetid: 9dd59b87-708b-4003-9575-54a02b97c272
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidStreamBufferSource, IMSVidStreamBufferSource interface [Microsoft TV Technologies], put_BlockUnrated method, IMSVidStreamBufferSource::put_BlockUnrated, IMSVidStreamBufferSourceput_BlockUnrated, mstv.imsvidstreambuffersource_put_blockunrated, put_BlockUnrated method [Microsoft TV Technologies], put_BlockUnrated method [Microsoft TV Technologies], IMSVidStreamBufferSource interface, put_BlockUnrated,IMSVidStreamBufferSource.put_BlockUnrated, segment/IMSVidStreamBufferSource::put_BlockUnrated
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidStreamBufferSource::put_BlockUnrated method

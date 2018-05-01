@@ -7,7 +7,7 @@ old-location: dlgbox\getdlgitem.htm
 old-project: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\getdlgitem.htm
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/10/2018
 ms.keywords: GetDlgItem, GetDlgItem function [Dialog Boxes], _win32_GetDlgItem, _win32_getdlgitem_cpp, dlgbox.getdlgitem, winui._win32_getdlgitem, winuser/GetDlgItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

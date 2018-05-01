@@ -7,7 +7,7 @@ old-location: tapi3\itpluggableterminalclassregistration_put_mediatypes.htm
 old-project: Tapi
 ms.assetid: f5a5fb8b-5b71-4f57-8125-46c482897c21
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: ITPluggableTerminalClassRegistration, ITPluggableTerminalClassRegistration interface [TAPI 2.2], put_MediaTypes method, ITPluggableTerminalClassRegistration::put_MediaTypes, _tapi3_itpluggableterminalclassregistration_put_mediatypes, put_MediaTypes method [TAPI 2.2], put_MediaTypes method [TAPI 2.2], ITPluggableTerminalClassRegistration interface, put_MediaTypes,ITPluggableTerminalClassRegistration.put_MediaTypes, tapi3.itpluggableterminalclassregistration_put_mediatypes, termmgr/ITPluggableTerminalClassRegistration::put_MediaTypes
 ms.prod: windows-hardware
 ms.technology: windows-devices

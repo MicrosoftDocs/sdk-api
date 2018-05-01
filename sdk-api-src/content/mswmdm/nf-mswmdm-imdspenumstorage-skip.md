@@ -7,7 +7,7 @@ old-location: wmdm\imdspenumstorage_skip.htm
 old-project: WMDM
 ms.assetid: 68025a40-a423-4a11-87c6-ae8c2d7b3765
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: IMDSPEnumStorage, IMDSPEnumStorage interface [windows Media Device Manager], Skip method, IMDSPEnumStorage::Skip, IMDSPEnumStorageSkip, Skip method [windows Media Device Manager], Skip method [windows Media Device Manager], IMDSPEnumStorage interface, Skip,IMDSPEnumStorage.Skip, mswmdm/IMDSPEnumStorage::Skip, wmdm.imdspenumstorage_skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMDSPEnumStorage::Skip method

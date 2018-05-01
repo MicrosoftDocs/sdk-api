@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrSyncCallback_SetHandlerProgressText.htm
 old-project: shell
 ms.assetid: 5f16de5e-fed0-4d2c-a764-2239f9225cad
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ISyncMgrSyncCallback, ISyncMgrSyncCallback interface [Windows Shell], SetHandlerProgressText method, ISyncMgrSyncCallback::SetHandlerProgressText, SetHandlerProgressText method [Windows Shell], SetHandlerProgressText method [Windows Shell], ISyncMgrSyncCallback interface, SetHandlerProgressText,ISyncMgrSyncCallback.SetHandlerProgressText, _shell_ISyncMgrSyncCallback_SetHandlerProgressText, shell.ISyncMgrSyncCallback_SetHandlerProgressText, syncmgr/ISyncMgrSyncCallback::SetHandlerProgressText
 ms.prod: windows-hardware
 ms.technology: windows-devices

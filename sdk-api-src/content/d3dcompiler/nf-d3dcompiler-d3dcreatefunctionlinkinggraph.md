@@ -7,7 +7,7 @@ old-location: direct3dhlsl\d3dcreatefunctionlinkinggraph.htm
 old-project: direct3dhlsl
 ms.assetid: D0BC7D62-EBF8-4144-8DC0-A87BF1B83006
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/12/2018
 ms.keywords: D3DCreateFunctionLinkingGraph, D3DCreateFunctionLinkingGraph function [HLSL], d3dcompiler/D3DCreateFunctionLinkingGraph, direct3dhlsl.d3dcreatefunctionlinkinggraph
 ms.prod: windows-hardware
 ms.technology: windows-devices

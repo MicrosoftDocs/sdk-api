@@ -7,7 +7,7 @@ old-location: wmp\iwmpconvert_convertfile.htm
 old-project: WMP
 ms.assetid: 69ca3863-94ec-457f-9f93-aebb5b80c8a9
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: ConvertFile method [Windows Media Player], ConvertFile method [Windows Media Player], IWMPConvert interface, ConvertFile,IWMPConvert.ConvertFile, IWMPConvert, IWMPConvert interface [Windows Media Player], ConvertFile method, IWMPConvert::ConvertFile, IWMPConvertConvertFile, wmp.iwmpconvert_convertfile, wmpservices/IWMPConvert::ConvertFile
 ms.prod: windows-hardware
 ms.technology: windows-devices

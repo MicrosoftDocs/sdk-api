@@ -7,7 +7,7 @@ old-location: search\_search_IQuerySolution_GetErrors.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iquerysolution\geterrors.htm
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/24/2018
 ms.keywords: GetErrors method [search], GetErrors method [search], IQuerySolution interface, GetErrors,IQuerySolution.GetErrors, IQuerySolution, IQuerySolution interface [search], GetErrors method, IQuerySolution::GetErrors, _search_IQuerySolution_GetErrors, search._search_IQuerySolution_GetErrors, structuredquery/IQuerySolution::GetErrors
 ms.prod: windows-hardware
 ms.technology: windows-devices

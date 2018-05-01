@@ -7,7 +7,7 @@ old-location: dshow\iamstreamcontrol_getinfo.htm
 old-project: DirectShow
 ms.assetid: 9993534c-ec93-4c15-b977-6a0933d23a72
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetInfo method [DirectShow], GetInfo method [DirectShow], IAMStreamControl interface, GetInfo,IAMStreamControl.GetInfo, IAMStreamControl, IAMStreamControl interface [DirectShow], GetInfo method, IAMStreamControl::GetInfo, IAMStreamControlGetInfo, dshow.iamstreamcontrol_getinfo, strmif/IAMStreamControl::GetInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

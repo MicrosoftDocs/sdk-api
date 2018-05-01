@@ -7,7 +7,7 @@ old-location: p2p\peergroupgetstatus.htm
 old-project: P2PSdk
 ms.assetid: 712e6473-bb49-460a-9761-69a5ee4a067e
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/23/2018
 ms.keywords: PeerGroupGetStatus, PeerGroupGetStatus function [Peer Networking], p2p.peergroupgetstatus, p2p/PeerGroupGetStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # PeerGroupGetStatus function

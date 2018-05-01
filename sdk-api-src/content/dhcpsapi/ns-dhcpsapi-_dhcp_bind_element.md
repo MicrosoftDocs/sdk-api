@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_bind_element.htm
 old-project: DHCP
 ms.assetid: 00d9d23e-fb39-4f3c-a2b9-9983322879fd
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/7/2018
 ms.keywords: "*LPDHCP_BIND_ELEMENT, DHCP_BIND_ELEMENT, DHCP_BIND_ELEMENT structure [DHCP], DHCP_ENDPOINT_FLAG_CANT_MODIFY, LPDHCP_BIND_ELEMENT, LPDHCP_BIND_ELEMENT structure pointer [DHCP], _DHCP_BIND_ELEMENT, dhcp.dhcp_bind_element, dhcpsapi/LPDHCP_BIND_ELEMENT, dhcpsapi/_DHCP_BIND_ELEMENT"
 ms.prod: windows-hardware
 ms.technology: windows-devices

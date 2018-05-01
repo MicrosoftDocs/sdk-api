@@ -7,7 +7,7 @@ old-location: winauto\uiauto_UiaProviderCallbackAutoMeth.htm
 old-project: WinAuto
 ms.assetid: 45a32e14-9b8b-452e-a2eb-0f6773980f2f
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: UiaProviderCallback, UiaProviderCallback callback function [Windows Accessibility], uiauto.uiauto_UiaProviderCallbackAutoMeth, uiauto_UiaProviderCallbackAutoMeth, uiautomationcoreapi/UiaProviderCallback, winauto.uiauto_UiaProviderCallbackAutoMeth
 ms.prod: windows-hardware
 ms.technology: windows-devices

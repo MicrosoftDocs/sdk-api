@@ -7,7 +7,7 @@ old-location: security\lsacallauthenticationpackage.htm
 old-project: SecAuthN
 ms.assetid: b891fa60-28b3-4819-9a92-e4524677fa4f
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/24/2018
 ms.keywords: LsaCallAuthenticationPackage, LsaCallAuthenticationPackage function [Security], _lsa_lsacallauthenticationpackage, ntsecapi/LsaCallAuthenticationPackage, security.lsacallauthenticationpackage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # LsaCallAuthenticationPackage function

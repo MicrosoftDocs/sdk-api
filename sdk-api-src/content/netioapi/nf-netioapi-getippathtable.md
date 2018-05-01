@@ -7,7 +7,7 @@ old-location: iphlp\getippathtable.htm
 old-project: IpHlp
 ms.assetid: e03816a4-0b86-4e0b-a45e-8148c8ba5472
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 4/13/2018
 ms.keywords: AF_INET, AF_INET6, AF_UNSPEC, GetIpPathTable, GetIpPathTable function [IP Helper], iphlp.getippathtable, netioapi/GetIpPathTable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # GetIpPathTable function

@@ -7,7 +7,7 @@ old-location: controls\ListView_GetStringWidth.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getstringwidth.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ListView_GetStringWidth, ListView_GetStringWidth macro [Windows Controls], _win32_ListView_GetStringWidth, _win32_ListView_GetStringWidth_cpp, commctrl/ListView_GetStringWidth, controls.ListView_GetStringWidth, controls._win32_ListView_GetStringWidth
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CATEGORYINFO, *LPCATEGORYINFO
+req.typenames: STGOPTIONS
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_filter_getexpression.htm
 old-project: wmi_v2
 ms.assetid: a1ba9cf2-b613-4621-a4ac-39808b4bfd8e
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/18/2018
 ms.keywords: MI_Filter_GetExpression, MI_Filter_GetExpression function [Windows Management Infrastructure (MI)], mi/MI_Filter_GetExpression, wmi_v2.mi_filter_getexpression
 ms.prod: windows-hardware
 ms.technology: windows-devices

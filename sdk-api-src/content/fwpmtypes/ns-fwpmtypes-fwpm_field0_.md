@@ -7,7 +7,7 @@ old-location: fwp\fwpm_field0_struct.htm
 old-project: FWP
 ms.assetid: 30d68d48-156e-440b-8607-8b64cfa25049
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: FWPM_FIELD0, FWPM_FIELD0 structure [Filtering], FWPM_FIELD0_, fwp.fwpm_field0_struct, fwpmtypes/FWPM_FIELD0
 ms.prod: windows-hardware
 ms.technology: windows-devices

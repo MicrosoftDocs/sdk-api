@@ -7,7 +7,7 @@ old-location: mf\imftimedtextcue_getoriginalid.htm
 old-project: medfound
 ms.assetid: D5B94171-AEB0-4A7D-B596-F888B69A436D
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetOriginalId method [Media Foundation], GetOriginalId method [Media Foundation], IMFTimedTextCue interface, GetOriginalId,IMFTimedTextCue.GetOriginalId, IMFTimedTextCue, IMFTimedTextCue interface [Media Foundation], GetOriginalId method, IMFTimedTextCue::GetOriginalId, mf.imftimedtextcue_getoriginalid, mfmediaengine/IMFTimedTextCue::GetOriginalId
 ms.prod: windows-hardware
 ms.technology: windows-devices

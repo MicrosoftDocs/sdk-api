@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IRawElementProviderAdviseEvents_AdviseEventAdded.ht
 old-project: WinAuto
 ms.assetid: b5902d9b-e008-4b91-933e-82506718eecd
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: AdviseEventAdded method [Windows Accessibility], AdviseEventAdded method [Windows Accessibility], IRawElementProviderAdviseEvents interface, AdviseEventAdded,IRawElementProviderAdviseEvents.AdviseEventAdded, IRawElementProviderAdviseEvents, IRawElementProviderAdviseEvents interface [Windows Accessibility], AdviseEventAdded method, IRawElementProviderAdviseEvents::AdviseEventAdded, uiauto.uiauto_IRawElementProviderAdviseEvents_AdviseEventAdded, uiauto_IRawElementProviderAdviseEvents_AdviseEventAdded, uiautomationcore/IRawElementProviderAdviseEvents::AdviseEventAdded, winauto.uiauto_IRawElementProviderAdviseEvents_AdviseEventAdded
 ms.prod: windows-hardware
 ms.technology: windows-devices

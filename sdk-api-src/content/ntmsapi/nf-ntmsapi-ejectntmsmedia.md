@@ -7,7 +7,7 @@ old-location: fs\ejectntmsmedia.htm
 old-project: Rsm
 ms.assetid: ecb7374c-d1fa-4e7c-87ad-045122cb466e
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/5/2018
 ms.keywords: EjectNtmsMedia, EjectNtmsMedia function [Files], NTMS_EJECT_QUEUE, NTMS_EJECT_START, NTMS_EJECT_STOP, _zaw_ejectntmsmedia, base.ejectntmsmedia, fs.ejectntmsmedia, ntmsapi/EjectNtmsMedia
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # EjectNtmsMedia function

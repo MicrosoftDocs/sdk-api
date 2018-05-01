@@ -7,7 +7,7 @@ old-location: properties\InitPropVariantFromGUIDAsBuffer.htm
 old-project: properties
 ms.assetid: 9ff3ec09-3314-4830-b970-b33f5a53d66c
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/5/2018
 ms.keywords: InitPropVariantFromGUIDAsBuffer, InitPropVariantFromGUIDAsBuffer function [Windows Properties], properties.InitPropVariantFromGUIDAsBuffer, propvarutil/InitPropVariantFromGUIDAsBuffer, shell.InitPropVariantFromGUIDAsBuffer, shell_InitPropVariantFromGUIDAsBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # InitPropVariantFromGUIDAsBuffer function

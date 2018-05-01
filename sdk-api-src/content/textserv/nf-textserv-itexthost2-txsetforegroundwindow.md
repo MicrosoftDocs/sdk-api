@@ -7,7 +7,7 @@ old-location: controls\itexthost2_txsetforegroundwindow.htm
 old-project: Controls
 ms.assetid: 0C3400BB-FC9A-43C3-92B4-055DE0A17717
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextHost2, ITextHost2 interface [Windows Controls], TxSetForegroundWindow method, ITextHost2::TxSetForegroundWindow, TxSetForegroundWindow method [Windows Controls], TxSetForegroundWindow method [Windows Controls], ITextHost2 interface, TxSetForegroundWindow,ITextHost2.TxSetForegroundWindow, controls.itexthost2_txsetforegroundwindow, textserv/ITextHost2::TxSetForegroundWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices

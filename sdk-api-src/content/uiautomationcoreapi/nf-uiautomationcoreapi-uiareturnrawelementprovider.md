@@ -7,7 +7,7 @@ old-location: winauto\uiauto_UiaReturnRawElementProviderFunction.htm
 old-project: WinAuto
 ms.assetid: 800dfad2-2263-4069-a1fe-f737842b3357
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: UiaReturnRawElementProvider, UiaReturnRawElementProvider function [Windows Accessibility], uiauto.uiauto_UiaReturnRawElementProviderFunction, uiauto_UiaReturnRawElementProviderFunction, uiautomationcoreapi/UiaReturnRawElementProvider, winauto.uiauto_UiaReturnRawElementProviderFunction
 ms.prod: windows-hardware
 ms.technology: windows-devices

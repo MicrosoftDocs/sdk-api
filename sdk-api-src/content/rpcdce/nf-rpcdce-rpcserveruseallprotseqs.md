@@ -7,7 +7,7 @@ old-location: rpc\rpcserveruseallprotseqs.htm
 old-project: Rpc
 ms.assetid: e7379656-d6b7-4e5f-9251-7b112a40c6d5
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: RpcServerUseAllProtseqs, RpcServerUseAllProtseqs function [RPC], _rpc_rpcserveruseallprotseqs, rpc.rpcserveruseallprotseqs, rpcdce/RpcServerUseAllProtseqs
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # RpcServerUseAllProtseqs function

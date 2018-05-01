@@ -1,14 +1,14 @@
 ---
 UID: NS:windns.__unnamed_struct_27
-title: DNS_NXT_DATAW
+title: DNS_LOC_DATA
 author: windows-driver-content
-description: The DNS_NXT_DATA structure represents a DNS next (NXT) resource record (RR) as specified in section 5 of RFC 2535.
-old-location: dns\dns_nxt_data.htm
+description: The DNS_LOC_DATA structure represents a DNS location (LOC) resource record (RR) as specified in RFC 1876.
+old-location: dns\dns_loc_data.htm
 old-project: DNS
-ms.assetid: 0e5370c2-30d3-4bb7-85a0-f4412f5572fd
+ms.assetid: c1e05479-17f0-4993-8dcf-02036989d6dc
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
-ms.keywords: "*PDNS_NXT_DATA, *PDNS_NXT_DATAW, DNS_NXT_DATA, DNS_NXT_DATA structure [DNS], DNS_NXT_DATAW, PDNS_NXT_DATA, PDNS_NXT_DATA structure pointer [DNS], _dns_dns_nxt_data, dns.dns_nxt_data, windns/DNS_NXT_DATA, windns/PDNS_NXT_DATA"
+ms.date: 4/18/2018
+ms.keywords: "*PDNS_LOC_DATA, DNS_LOC_DATA, DNS_LOC_DATA structure [DNS], PDNS_LOC_DATA, PDNS_LOC_DATA structure pointer [DNS], _dns_dns_loc_data, dns.dns_loc_data, windns/DNS_LOC_DATA, windns/PDNS_LOC_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: DNS_NXT_DATAW, *PDNS_NXT_DATAW
+req.typenames: DNS_LOC_DATA, *PDNS_LOC_DATA
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	Windns.h
 api_name:
--	DNS_NXT_DATA
+-	DNS_LOC_DATA
 product: Windows
 targetos: Windows
 req.lib: 
@@ -44,14 +44,14 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# DNS_NXT_DATAW structure
+# DNS_LOC_DATA structure
 
 
 ## -description
 
 
 The 
-<b>DNS_NXT_DATA</b> structure represents a DNS next (NXT) resource record (RR) as specified in section 5 of <a href="http://go.microsoft.com/fwlink/p/?linkid=124775">RFC 2535</a>.
+<b>DNS_LOC_DATA</b> structure represents a DNS location (LOC) resource record (RR) as specified in <a href=" http://go.microsoft.com/fwlink/p/?linkid=106954">RFC 1876</a>.
 
 
 ## -struct-fields
@@ -59,19 +59,39 @@ The
 
 
 
-### -field pNameNext
+### -field wVersion
 
-A pointer to a string that represents the name of the next domain.
-
-
-### -field wNumTypes
-
-The number of elements in the <b>wTypes</b> array. <b>wNumTypes</b> must be 2 or greater but cannot exceed 8.
+The version number of the representation. Must be zero.
 
 
-### -field wTypes
+### -field wSize
 
-A <b>BYTE</b> array that contains a bitmap which specifies the RR types that are present  in the next domain. Each bit in the array corresponds to a <a href="https://msdn.microsoft.com/95bc9193-7962-498a-9abd-c4718ac35f0f">DNS Record Type</a> as defined in section 5.2 of <a href="http://go.microsoft.com/fwlink/p/?linkid=124775">RFC 2535</a>.
+The diameter of a sphere enclosing the described entity, defined as "SIZE"         in section 2 of <a href=" http://go.microsoft.com/fwlink/p/?linkid=106954">RFC 1876</a>.
+
+
+### -field wHorPrec
+
+The horizontal data precision, defined as "HORIZ PRE"         in section 2 of <a href=" http://go.microsoft.com/fwlink/p/?linkid=106954">RFC 1876</a>.
+
+
+### -field wVerPrec
+
+The vertical data precision, defined as "VERT PRE"         in section 2 of <a href=" http://go.microsoft.com/fwlink/p/?linkid=106954">RFC 1876</a>.
+
+
+### -field dwLatitude
+
+The latitude of the center of the sphere, defined as "LATITUDE"         in section 2 of <a href=" http://go.microsoft.com/fwlink/p/?linkid=106954">RFC 1876</a>.
+
+
+### -field dwLongitude
+
+The longitude of the center of the sphere, defined as "LONGITUDE"         in section 2 of <a href=" http://go.microsoft.com/fwlink/p/?linkid=106954">RFC 1876</a>.
+
+
+### -field dwAltitude
+
+The altitude of the center of the sphere, defined as "ALTITUDE"         in section 2 of <a href=" http://go.microsoft.com/fwlink/p/?linkid=106954">RFC 1876</a>.
 
 
 ## -remarks
@@ -79,7 +99,7 @@ A <b>BYTE</b> array that contains a bitmap which specifies the RR types that are
 
 
 The 
-<b>DNS_NXT_DATA</b> structure is used in conjunction with the 
+<b>DNS_LOC_DATA</b> structure is used in conjunction with the 
 <a href="https://msdn.microsoft.com/ab7b96a5-346f-4e01-bb2a-885f44764590">DNS_RECORD</a> structure to programmatically manage DNS entries.
 
 

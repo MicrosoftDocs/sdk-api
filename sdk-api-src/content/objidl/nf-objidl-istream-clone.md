@@ -7,7 +7,7 @@ old-location: stg\istream_clone.htm
 old-project: Stg
 ms.assetid: 677c37fb-598f-4bb0-b5d6-600e0befc722
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/20/2018
 ms.keywords: Clone method [Structured Storage], Clone method [Structured Storage], IStream interface, Clone,IStream.Clone, IStream, IStream interface [Structured Storage], Clone method, IStream::Clone, _stg_istream_clone, objidl/IStream::Clone, stg.istream_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IStream::Clone method

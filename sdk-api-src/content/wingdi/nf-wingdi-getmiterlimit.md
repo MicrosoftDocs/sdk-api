@@ -7,7 +7,7 @@ old-location: gdi\getmiterlimit.htm
 old-project: gdi
 ms.assetid: 51b1fb95-dd44-47f8-9311-2c6dc9c57bbc
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/17/2018
 ms.keywords: GetMiterLimit, GetMiterLimit function [Windows GDI], _win32_GetMiterLimit, gdi.getmiterlimit, wingdi/GetMiterLimit
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: FAX_TIME, *PFAX_TIME
+req.typenames: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
 topic_type:
 -	APIRef
 -	kbSyntax

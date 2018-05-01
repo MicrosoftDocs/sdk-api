@@ -7,7 +7,7 @@ old-location: tablet\irealtimestylus_removeallstylussyncplugins.htm
 old-project: tablet
 ms.assetid: 6d6aa14b-f1f5-460a-b37a-5187022ad301
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: 6d6aa14b-f1f5-460a-b37a-5187022ad301, IRealTimeStylus, IRealTimeStylus interface [Tablet PC], RemoveAllStylusSyncPlugins method, IRealTimeStylus::RemoveAllStylusSyncPlugins, RemoveAllStylusSyncPlugins method [Tablet PC], RemoveAllStylusSyncPlugins method [Tablet PC], IRealTimeStylus interface, RemoveAllStylusSyncPlugins,IRealTimeStylus.RemoveAllStylusSyncPlugins, rtscom/IRealTimeStylus::RemoveAllStylusSyncPlugins, tablet.irealtimestylus_removeallstylussyncplugins
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: RTSCom.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IRealTimeStylus::RemoveAllStylusSyncPlugins method

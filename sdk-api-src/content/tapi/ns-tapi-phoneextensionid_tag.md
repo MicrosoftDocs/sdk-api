@@ -7,7 +7,7 @@ old-location: tapi2\phoneextensionid_str.htm
 old-project: Tapi
 ms.assetid: 61f376fd-2287-4425-9445-163f71aebf04
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: "*LPPHONEEXTENSIONID, LPPHONEEXTENSIONID, LPPHONEEXTENSIONID structure pointer [TAPI 2.2], PHONEEXTENSIONID, PHONEEXTENSIONID structure [TAPI 2.2], _tapi2_phoneextensionid_str, phoneextensionid_tag, tapi/LPPHONEEXTENSIONID, tapi/PHONEEXTENSIONID, tapi2.phoneextensionid_str"
 ms.prod: windows-hardware
 ms.technology: windows-devices

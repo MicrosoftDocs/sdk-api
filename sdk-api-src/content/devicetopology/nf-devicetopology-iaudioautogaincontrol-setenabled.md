@@ -7,7 +7,7 @@ old-location: coreaudio\iaudioautogaincontrol_setenabled.htm
 old-project: CoreAudio
 ms.assetid: 05bf3b59-20e9-4bb0-931b-b6f28676cb5f
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: IAudioAutoGainControl, IAudioAutoGainControl interface [Core Audio], SetEnabled method, IAudioAutoGainControl::SetEnabled, IAudioAutoGainControlSetEnabled, SetEnabled method [Core Audio], SetEnabled method [Core Audio], IAudioAutoGainControl interface, SetEnabled,IAudioAutoGainControl.SetEnabled, coreaudio.iaudioautogaincontrol_setenabled, devicetopology/IAudioAutoGainControl::SetEnabled
 ms.prod: windows-hardware
 ms.technology: windows-devices

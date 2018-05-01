@@ -7,7 +7,7 @@ old-location: nps\SDO_isdocollection_item.htm
 old-project: Nps
 ms.assetid: 1c830e23-dc6f-49dd-83fe-8ddd39ac1bf6
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/24/2018
 ms.keywords: ISdoCollection, ISdoCollection interface [Network Policy Server], Item method, ISdoCollection::Item, Item method [Network Policy Server], Item method [Network Policy Server], ISdoCollection interface, Item,ISdoCollection.Item, _sdo_isdocollection_item, nps.SDO_isdocollection_item, sdo.isdocollection_item, sdoias/ISdoCollection::Item
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Iassdo.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ISdoCollection::Item method

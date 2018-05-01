@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicenummetadataitem_next.htm
 old-project: wic
 ms.assetid: e502f42e-573c-416b-9282-dd50827ef132
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: IWICEnumMetadataItem, IWICEnumMetadataItem interface [Windows Imaging Component], Next method, IWICEnumMetadataItem::Next, Next method [Windows Imaging Component], Next method [Windows Imaging Component], IWICEnumMetadataItem interface, Next,IWICEnumMetadataItem.Next, _wic_codec_iwicenummetadataitem_next, wic._wic_codec_iwicenummetadataitem_next, wincodec/IWICEnumMetadataItem::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices

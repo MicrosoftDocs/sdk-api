@@ -7,7 +7,7 @@ old-location: controls\ITextFont_GetStyle.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextfont\itextfontgetstyle.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: GetStyle method [Windows Controls], GetStyle method [Windows Controls], ITextFont interface, GetStyle,ITextFont.GetStyle, ITextFont, ITextFont interface [Windows Controls], GetStyle method, ITextFont::GetStyle, _win32_ITextFont_GetStyle, _win32_ITextFont_GetStyle_cpp, controls.ITextFont_GetStyle, controls._win32_ITextFont_GetStyle, tom/ITextFont::GetStyle
 ms.prod: windows-hardware
 ms.technology: windows-devices

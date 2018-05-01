@@ -7,7 +7,7 @@ old-location: mf\imfcontentenabler_isautomaticsupported.htm
 old-project: medfound
 ms.assetid: 144470ce-2849-4464-8596-fac216529145
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 144470ce-2849-4464-8596-fac216529145, IMFContentEnabler, IMFContentEnabler interface [Media Foundation], IsAutomaticSupported method, IMFContentEnabler::IsAutomaticSupported, IsAutomaticSupported method [Media Foundation], IsAutomaticSupported method [Media Foundation], IMFContentEnabler interface, IsAutomaticSupported,IMFContentEnabler.IsAutomaticSupported, mf.imfcontentenabler_isautomaticsupported, mfidl/IMFContentEnabler::IsAutomaticSupported
 ms.prod: windows-hardware
 ms.technology: windows-devices

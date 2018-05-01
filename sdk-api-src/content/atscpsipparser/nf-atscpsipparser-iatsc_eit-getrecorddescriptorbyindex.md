@@ -7,7 +7,7 @@ old-location: mstv\iatsc_eit_getrecorddescriptorbyindex.htm
 old-project: mstv
 ms.assetid: 06144d3d-b789-4ba3-b313-958de366764f
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetRecordDescriptorByIndex method [Microsoft TV Technologies], GetRecordDescriptorByIndex method [Microsoft TV Technologies], IATSC_EIT interface, GetRecordDescriptorByIndex,IATSC_EIT.GetRecordDescriptorByIndex, IATSC_EIT, IATSC_EIT interface [Microsoft TV Technologies], GetRecordDescriptorByIndex method, IATSC_EIT::GetRecordDescriptorByIndex, IATSC_EITGetRecordDescriptorByIndex, atscpsipparser/IATSC_EIT::GetRecordDescriptorByIndex, mstv.iatsc_eit_getrecorddescriptorbyindex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_WRITER_PAYLOAD_STREAM
+req.typenames: AsyncStatus
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,7 +7,7 @@ old-location: http\httpaddfragmenttocache.htm
 old-project: Http
 ms.assetid: caef2e93-39cd-4282-97d9-870f8236d8c4
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: HttpAddFragmentToCache, HttpAddFragmentToCache function [HTTP], _http_httpaddfragmenttocache, http.httpaddfragmenttocache, http/HttpAddFragmentToCache
 ms.prod: windows-hardware
 ms.technology: windows-devices

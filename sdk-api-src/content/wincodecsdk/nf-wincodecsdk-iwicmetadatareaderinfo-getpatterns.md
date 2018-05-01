@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicmetadatareaderinfo_getpatterns.htm
 old-project: wic
 ms.assetid: bc0033f7-801d-4ae0-a2cb-bdda25303476
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: GetPatterns method [Windows Imaging Component], GetPatterns method [Windows Imaging Component], IWICMetadataReaderInfo interface, GetPatterns,IWICMetadataReaderInfo.GetPatterns, IWICMetadataReaderInfo, IWICMetadataReaderInfo interface [Windows Imaging Component], GetPatterns method, IWICMetadataReaderInfo::GetPatterns, _wic_codec_iwicmetadatareaderinfo_getpatterns, wic._wic_codec_iwicmetadatareaderinfo_getpatterns, wincodecsdk/IWICMetadataReaderInfo::GetPatterns
 ms.prod: windows-hardware
 ms.technology: windows-devices

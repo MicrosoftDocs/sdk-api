@@ -7,7 +7,7 @@ old-location: wmi\iwbemstatuscodetext_geterrorcodetext.htm
 old-project: WmiSdk
 ms.assetid: f2adc740-f1d9-434e-a7ac-b4830350e862
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: GetErrorCodeText method [Windows Management Instrumentation], GetErrorCodeText method [Windows Management Instrumentation], IWbemStatusCodeText interface, GetErrorCodeText,IWbemStatusCodeText.GetErrorCodeText, IWbemStatusCodeText, IWbemStatusCodeText interface [Windows Management Instrumentation], GetErrorCodeText method, IWbemStatusCodeText::GetErrorCodeText, _hmm_iwbemstatuscodetext_geterrorcodetext, wbemcli/IWbemStatusCodeText::GetErrorCodeText, wmi.iwbemstatuscodetext_geterrorcodetext
 ms.prod: windows-hardware
 ms.technology: windows-devices

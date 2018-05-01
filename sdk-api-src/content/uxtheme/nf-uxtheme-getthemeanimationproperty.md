@@ -7,7 +7,7 @@ old-location: controls\getthemeanimationproperty.htm
 old-project: Controls
 ms.assetid: CEFB457B-2022-4FCC-AF1E-78A62D62E034
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: GetThemeAnimationProperty, GetThemeAnimationProperty function [Windows Controls], controls.getthemeanimationproperty, uxtheme/GetThemeAnimationProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

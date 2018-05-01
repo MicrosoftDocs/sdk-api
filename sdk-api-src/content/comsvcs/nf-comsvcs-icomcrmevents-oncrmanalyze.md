@@ -7,7 +7,7 @@ old-location: cos\icomcrmevents_oncrmanalyze.htm
 old-project: cossdk
 ms.assetid: 08bdc192-f1f8-4d0d-a432-cf6316d8033a
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: IComCRMEvents, IComCRMEvents interface [COM+], OnCRMAnalyze method, IComCRMEvents::OnCRMAnalyze, OnCRMAnalyze method [COM+], OnCRMAnalyze method [COM+], IComCRMEvents interface, OnCRMAnalyze,IComCRMEvents.OnCRMAnalyze, _dtc_IComCRMEvents_OnCRMAnalyze, comsvcs/IComCRMEvents::OnCRMAnalyze, cos.icomcrmevents_oncrmanalyze
 ms.prod: windows-hardware
 ms.technology: windows-devices

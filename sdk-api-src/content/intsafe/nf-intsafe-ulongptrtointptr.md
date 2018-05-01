@@ -2,13 +2,13 @@
 UID: NF:intsafe.ULongPtrToIntPtr
 title: ULongPtrToIntPtr function
 author: windows-driver-content
-description: Converts a value of type ULONG_PTR to a value of type INT_PTR.
-old-location: shell\ULongPtrToIntPtr.htm
+description: Converts a value of type DWORD_PTR to a value of type INT_PTR.
+old-location: shell\DWordPtrToIntPtr.htm
 old-project: shell
-ms.assetid: 06d85c02-8ccf-4913-aec5-f338eebdf366
+ms.assetid: 8d3931b4-c44f-416f-97f4-911f78861fb5
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
-ms.keywords: ULongPtrToIntPtr, ULongPtrToIntPtr function [Windows Shell], _shell_ULongPtrToIntPtr, intsafe/ULongPtrToIntPtr, shell.ULongPtrToIntPtr
+ms.date: 4/26/2018
+ms.keywords: DWordPtrToIntPtr, DWordPtrToIntPtr function [Windows Shell], ULongPtrToIntPtr, _shell_DWordPtrToIntPtr, intsafe/DWordPtrToIntPtr, shell.DWordPtrToIntPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -31,15 +31,15 @@ topic_type:
 -	APIRef
 -	kbSyntax
 api_type:
--	HeaderDef
+-	DllExport
 api_location:
--	Intsafe.h
+-	None
 api_name:
--	ULongPtrToIntPtr
+-	DWordPtrToIntPtr
 product: Windows
 targetos: Windows
 req.lib: 
-req.dll: 
+req.dll: None
 req.irql: 
 req.product: GDI+ 1.1
 ---
@@ -50,7 +50,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Converts a value of type <b>ULONG_PTR</b> to a value of type <b>INT_PTR</b>.
+Converts a value of type <b>DWORD_PTR</b> to a value of type <b>INT_PTR</b>.
 
 
 ## -parameters
@@ -58,11 +58,9 @@ Converts a value of type <b>ULONG_PTR</b> to a value of type <b>INT_PTR</b>.
 
 
 
-### -param ulOperand [in]
+### -param ulOperand
 
-Type: <b>ULONG_PTR</b>
-
-The value to be converted.
+TBD
 
 
 ### -param piResult [out]
@@ -70,6 +68,13 @@ The value to be converted.
 Type: <b>INT_PTR*</b>
 
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns INTSAFE_E_ARITHMETIC_OVERFLOW and this parameter is not valid.
+
+
+#### - dwOperand [in]
+
+Type: <b>DWORD_PTR</b>
+
+The value to be converted.
 
 
 ## -returns

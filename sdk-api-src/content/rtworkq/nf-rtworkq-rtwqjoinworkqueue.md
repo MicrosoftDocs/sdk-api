@@ -7,7 +7,7 @@ old-location: base\rtwqjoinworkqueue.htm
 old-project: ProcThread
 ms.assetid: c7762a10-269e-48c0-83da-7e040cf9d083
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: RtwqJoinWorkQueue, RtwqJoinWorkQueue function, base.rtwqjoinworkqueue, rtworkq/RtwqJoinWorkQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Rtworkq.lib
 req.dll: RTWorkQ.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # RtwqJoinWorkQueue function

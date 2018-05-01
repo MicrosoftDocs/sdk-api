@@ -7,7 +7,7 @@ old-location: controls\ITextRange_Collapse.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\collapse.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: Collapse method [Windows Controls], Collapse method [Windows Controls], ITextRange interface, Collapse,ITextRange.Collapse, ITextRange, ITextRange interface [Windows Controls], Collapse method, ITextRange::Collapse, _win32_ITextRange_Collapse, _win32_ITextRange_Collapse_cpp, controls.ITextRange_Collapse, controls._win32_ITextRange_Collapse, tom/ITextRange::Collapse, tomEnd or tomFalse, tomStart or tomTrue
 ms.prod: windows-hardware
 ms.technology: windows-devices

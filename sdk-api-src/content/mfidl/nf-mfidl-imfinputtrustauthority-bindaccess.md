@@ -7,7 +7,7 @@ old-location: mf\imfinputtrustauthority_bindaccess.htm
 old-project: medfound
 ms.assetid: 94e447af-9311-4a2c-9ec5-be371684f79d
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 94e447af-9311-4a2c-9ec5-be371684f79d, BindAccess method [Media Foundation], BindAccess method [Media Foundation], IMFInputTrustAuthority interface, BindAccess,IMFInputTrustAuthority.BindAccess, IMFInputTrustAuthority, IMFInputTrustAuthority interface [Media Foundation], BindAccess method, IMFInputTrustAuthority::BindAccess, mf.imfinputtrustauthority_bindaccess, mfidl/IMFInputTrustAuthority::BindAccess
 ms.prod: windows-hardware
 ms.technology: windows-devices

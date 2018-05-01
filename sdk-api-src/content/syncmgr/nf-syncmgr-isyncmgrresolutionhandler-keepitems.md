@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrResolutionHandler_KeepItems.htm
 old-project: shell
 ms.assetid: 81be006b-4aa4-42da-ae1b-001ae92a3e9b
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ISyncMgrResolutionHandler, ISyncMgrResolutionHandler interface [Windows Shell], KeepItems method, ISyncMgrResolutionHandler::KeepItems, KeepItems method [Windows Shell], KeepItems method [Windows Shell], ISyncMgrResolutionHandler interface, KeepItems,ISyncMgrResolutionHandler.KeepItems, _shell_ISyncMgrResolutionHandler_KeepItems, shell.ISyncMgrResolutionHandler_KeepItems, syncmgr/ISyncMgrResolutionHandler::KeepItems
 ms.prod: windows-hardware
 ms.technology: windows-devices

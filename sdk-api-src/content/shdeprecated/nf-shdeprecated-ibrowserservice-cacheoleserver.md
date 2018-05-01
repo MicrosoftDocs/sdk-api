@@ -7,7 +7,7 @@ old-location: shell\IBrowserService_CacheOLEServer.htm
 old-project: shell
 ms.assetid: 8999e7d7-f29d-4fc8-8f1f-7a8e8b8f45e6
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: CacheOLEServer method [Windows Shell], CacheOLEServer method [Windows Shell], IBrowserService interface, CacheOLEServer,IBrowserService.CacheOLEServer, IBrowserService, IBrowserService interface [Windows Shell], CacheOLEServer method, IBrowserService::CacheOLEServer, shdeprecated/IBrowserService::CacheOLEServer, shell.IBrowserService_CacheOLEServer, zone_IBrowserService_CacheOLEServer
 ms.prod: windows-hardware
 ms.technology: windows-devices

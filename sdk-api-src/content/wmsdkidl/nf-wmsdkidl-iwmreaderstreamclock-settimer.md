@@ -7,7 +7,7 @@ old-location: wmformat\iwmreaderstreamclock_settimer.htm
 old-project: wmformat
 ms.assetid: 15d991e0-a271-4427-844f-5e4a9bbc6507
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMReaderStreamClock, IWMReaderStreamClock interface [windows Media Format], SetTimer method, IWMReaderStreamClock::SetTimer, IWMReaderStreamClockSetTimer, SetTimer method [windows Media Format], SetTimer method [windows Media Format], IWMReaderStreamClock interface, SetTimer,IWMReaderStreamClock.SetTimer, wmformat.iwmreaderstreamclock_settimer, wmsdkidl/IWMReaderStreamClock::SetTimer
 ms.prod: windows-hardware
 ms.technology: windows-devices

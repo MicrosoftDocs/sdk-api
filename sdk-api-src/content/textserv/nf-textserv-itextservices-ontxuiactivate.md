@@ -7,7 +7,7 @@ old-location: controls\ITextServices_OnTxUIActivate.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\ontxuiactivate.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextServices, ITextServices interface [Windows Controls], OnTxUIActivate method, ITextServices::OnTxUIActivate, OnTxUIActivate method [Windows Controls], OnTxUIActivate method [Windows Controls], ITextServices interface, OnTxUIActivate,ITextServices.OnTxUIActivate, _win32_ITextServices_OnTxUIActivate, _win32_ITextServices_OnTxUIActivate_cpp, controls.ITextServices_OnTxUIActivate, controls._win32_ITextServices_OnTxUIActivate, textserv/ITextServices::OnTxUIActivate
 ms.prod: windows-hardware
 ms.technology: windows-devices

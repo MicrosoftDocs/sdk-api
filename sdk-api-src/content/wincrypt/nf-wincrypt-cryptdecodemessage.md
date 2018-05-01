@@ -7,7 +7,7 @@ old-location: security\cryptdecodemessage.htm
 old-project: SecCrypto
 ms.assetid: 25ffd058-8f75-4ba5-b075-e3efc09f5d9d
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: CryptDecodeMessage, CryptDecodeMessage function [Security], _crypto2_cryptdecodemessage, security.cryptdecodemessage, wincrypt/CryptDecodeMessage
 ms.prod: windows-hardware
 ms.technology: windows-devices

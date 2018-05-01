@@ -7,7 +7,7 @@ old-location: tapi3\itallocatorproperties_getbuffersize.htm
 old-project: Tapi
 ms.assetid: c1571bbb-345b-4b62-acb2-67afda1c9c9b
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: GetBufferSize method [TAPI 2.2], GetBufferSize method [TAPI 2.2], ITAllocatorProperties interface, GetBufferSize,ITAllocatorProperties.GetBufferSize, ITAllocatorProperties, ITAllocatorProperties interface [TAPI 2.2], GetBufferSize method, ITAllocatorProperties::GetBufferSize, _tapi3_itallocatorproperties_getbuffersize, tapi3.itallocatorproperties_getbuffersize, tapi3ds/ITAllocatorProperties::GetBufferSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

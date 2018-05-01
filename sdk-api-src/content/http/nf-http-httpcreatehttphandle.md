@@ -7,7 +7,7 @@ old-location: http\httpcreatehttphandle.htm
 old-project: Http
 ms.assetid: c3741092-c23a-465f-9a65-5bcbf977fad3
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: HttpCreateHttpHandle, HttpCreateHttpHandle function [HTTP], _http_httpcreatehttphandle, http.httpcreatehttphandle, http/HttpCreateHttpHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

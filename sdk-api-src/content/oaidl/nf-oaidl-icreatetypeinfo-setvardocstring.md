@@ -7,7 +7,7 @@ old-location: automat\icreatetypeinfo_setvardocstring.htm
 old-project: automat
 ms.assetid: 6bea2b52-30d8-454c-ad96-f94417640ce5
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: ICreateTypeInfo, ICreateTypeInfo interface [Automation], SetVarDocString method, ICreateTypeInfo::SetVarDocString, SetVarDocString method [Automation], SetVarDocString method [Automation], ICreateTypeInfo interface, SetVarDocString,ICreateTypeInfo.SetVarDocString, _oa96_ICreateTypeInfo_SetVarDocString, automat.icreatetypeinfo_setvardocstring, oaidl/ICreateTypeInfo::SetVarDocString
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ICreateTypeInfo::SetVarDocString method

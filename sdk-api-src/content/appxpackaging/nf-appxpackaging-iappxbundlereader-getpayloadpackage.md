@@ -7,7 +7,7 @@ old-location: appxpkg\iappxbundlereader_getpayloadpackage.htm
 old-project: appxpkg
 ms.assetid: 6ACAB26C-22FC-45D7-9F6A-98B56B615DCA
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/26/2018
 ms.keywords: GetPayloadPackage method [App packaging and management], GetPayloadPackage method [App packaging and management], IAppxBundleReader interface, GetPayloadPackage,IAppxBundleReader.GetPayloadPackage, IAppxBundleReader, IAppxBundleReader interface [App packaging and management], GetPayloadPackage method, IAppxBundleReader::GetPayloadPackage, appxpackaging/IAppxBundleReader::GetPayloadPackage, appxpkg.iappxbundlereader_getpayloadpackage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_ARCHITECTURE2
+req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
 topic_type:
 -	APIRef
 -	kbSyntax

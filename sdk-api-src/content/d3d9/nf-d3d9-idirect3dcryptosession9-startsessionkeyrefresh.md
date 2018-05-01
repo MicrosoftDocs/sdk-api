@@ -7,7 +7,7 @@ old-location: mf\idirect3dcryptosession9_startsessionkeyrefresh.htm
 old-project: medfound
 ms.assetid: f25ad491-9ffb-40d1-94c3-af0cbae553bf
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IDirect3DCryptoSession9, IDirect3DCryptoSession9 interface [Media Foundation], StartSessionKeyRefresh method, IDirect3DCryptoSession9::StartSessionKeyRefresh, StartSessionKeyRefresh method [Media Foundation], StartSessionKeyRefresh method [Media Foundation], IDirect3DCryptoSession9 interface, StartSessionKeyRefresh,IDirect3DCryptoSession9.StartSessionKeyRefresh, d3d9/IDirect3DCryptoSession9::StartSessionKeyRefresh, mf.idirect3dcryptosession9_startsessionkeyrefresh
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: properties\InitPropVariantFromInt64.htm
 old-project: properties
 ms.assetid: 2a2a5348-4d3d-475c-8039-097b4dacf7cb
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/5/2018
 ms.keywords: InitPropVariantFromInt64, InitPropVariantFromInt64 function [Windows Properties], properties.InitPropVariantFromInt64, propvarutil/InitPropVariantFromInt64, shell.InitPropVariantFromInt64, shell_InitPropVariantFromInt64
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # InitPropVariantFromInt64 function

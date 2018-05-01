@@ -7,7 +7,7 @@ old-location: mstv\iatsc_vct_getrecordcarrierfrequency.htm
 old-project: mstv
 ms.assetid: ff875184-1d91-489d-9941-5d1cd3e9e872
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetRecordCarrierFrequency method [Microsoft TV Technologies], GetRecordCarrierFrequency method [Microsoft TV Technologies], IATSC_VCT interface, GetRecordCarrierFrequency,IATSC_VCT.GetRecordCarrierFrequency, IATSC_VCT, IATSC_VCT interface [Microsoft TV Technologies], GetRecordCarrierFrequency method, IATSC_VCT::GetRecordCarrierFrequency, IATSC_VCTGetRecordCarrierFrequency, atscpsipparser/IATSC_VCT::GetRecordCarrierFrequency, mstv.iatsc_vct_getrecordcarrierfrequency
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_WRITER_PAYLOAD_STREAM
+req.typenames: AsyncStatus
 topic_type:
 -	APIRef
 -	kbSyntax

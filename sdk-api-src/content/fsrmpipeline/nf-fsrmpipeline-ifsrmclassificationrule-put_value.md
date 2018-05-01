@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmclassificationrule_value.htm
 old-project: Fsrm
 ms.assetid: c243cf7a-23f5-4d81-acea-9bf6ed66967d
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: IFsrmClassificationRule, IFsrmClassificationRule interface [File Server Resource Manager], Value property, IFsrmClassificationRule.Value, IFsrmClassificationRule::get_Value, IFsrmClassificationRule::put_Value, Value property [File Server Resource Manager], Value property [File Server Resource Manager], IFsrmClassificationRule interface, fs.ifsrmclassificationrule_value, fsrm.ifsrmclassificationrule_value, fsrmpipeline/IFsrmClassificationRule::Value, fsrmpipeline/IFsrmClassificationRule::get_Value, fsrmpipeline/IFsrmClassificationRule::put_Value, put_Value,IFsrmClassificationRule.put_Value
 ms.prod: windows-hardware
 ms.technology: windows-devices

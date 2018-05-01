@@ -7,7 +7,7 @@ old-location: security\cessetupproperty.htm
 old-project: SecCrypto
 ms.assetid: 9FA6B249-B5B3-40AF-B175-CD5933D468B9
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: CESSetupProperty, CESSetupProperty enumeration [Security], ENUM_CESSETUPPROP_AUTHENTICATION, ENUM_CESSETUPPROP_CACONFIG, ENUM_CESSETUPPROP_RENEWALONLY, ENUM_CESSETUPPROP_SSLCERTHASH, ENUM_CESSETUPPROP_URL, ENUM_CESSETUPPROP_USE_IISAPPPOOLIDENTITY, __MIDL___MIDL_itf_casetup_0000_0004_0001, casetup/CESSetupProperty, casetup/ENUM_CESSETUPPROP_AUTHENTICATION, casetup/ENUM_CESSETUPPROP_CACONFIG, casetup/ENUM_CESSETUPPROP_RENEWALONLY, casetup/ENUM_CESSETUPPROP_SSLCERTHASH, casetup/ENUM_CESSETUPPROP_URL, casetup/ENUM_CESSETUPPROP_USE_IISAPPPOOLIDENTITY, security.cessetupproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

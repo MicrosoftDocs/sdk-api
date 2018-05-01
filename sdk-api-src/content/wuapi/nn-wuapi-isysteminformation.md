@@ -7,7 +7,7 @@ old-location: wua\isysteminformation.htm
 old-project: Wua_Sdk
 ms.assetid: b0aebfd6-1d62-43b3-8c40-2eeb67fab27d
 ms.author: windowsdriverdev
-ms.date: 3/15/2018
+ms.date: 4/18/2018
 ms.keywords: ISystemInformation, ISystemInformation interface [Windows Update Agent], ISystemInformation interface [Windows Update Agent], described, wua.isysteminformation, wuapi/ISystemInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-req.product: HPC Pack 2008 R2 Client Utilities, HPC Pack 2008 Client Utilities
+req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
 # ISystemInformation interface

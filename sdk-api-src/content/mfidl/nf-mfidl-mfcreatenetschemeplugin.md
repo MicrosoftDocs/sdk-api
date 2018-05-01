@@ -7,7 +7,7 @@ old-location: mf\mfcreatenetschemeplugin.htm
 old-project: medfound
 ms.assetid: f08de332-2b05-4fee-be45-d4928f5f4ef2
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: MFCreateNetSchemePlugin, MFCreateNetSchemePlugin function [Media Foundation], f08de332-2b05-4fee-be45-d4928f5f4ef2, mf.mfcreatenetschemeplugin, mfidl/MFCreateNetSchemePlugin
 ms.prod: windows-hardware
 ms.technology: windows-devices

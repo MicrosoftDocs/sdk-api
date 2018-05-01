@@ -7,7 +7,7 @@ old-location: tablet\iinkrecognitionalternate_getpropertyvalue.htm
 old-project: tablet
 ms.assetid: b2ebf45a-b995-4fbc-b86d-b94d1f48f659
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: ConfidenceLevel, GetPropertyValue method [Tablet PC], GetPropertyValue method [Tablet PC], IInkRecognitionAlternate interface, GetPropertyValue,IInkRecognitionAlternate.GetPropertyValue, HotPoint, IInkRecognitionAlternate, IInkRecognitionAlternate interface [Tablet PC], GetPropertyValue method, IInkRecognitionAlternate::GetPropertyValue, LineMetrics, LineNumber, MaximumStrokeCount, PointsPerInch, S_OK, Segmentation, b2ebf45a-b995-4fbc-b86d-b94d1f48f659, msinkaut/IInkRecognitionAlternate::GetPropertyValue, tablet.iinkrecognitionalternate_getpropertyvalue
 ms.prod: windows-hardware
 ms.technology: windows-devices

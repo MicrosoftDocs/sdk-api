@@ -7,7 +7,7 @@ old-location: intl\script_visattr.htm
 old-project: Intl
 ms.assetid: 83b77f60-2520-49ee-bc7f-27cb3db02ac8
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/25/2018
 ms.keywords: FALSE, SCRIPT_VISATTR, SCRIPT_VISATTR structure [Internationalization for Windows Applications], TRUE, _win32_SCRIPT_VISATTR_str, intl.script_visattr, tag_SCRIPT_VISATTR, usp10/SCRIPT_VISATTR
 ms.prod: windows-hardware
 ms.technology: windows-devices

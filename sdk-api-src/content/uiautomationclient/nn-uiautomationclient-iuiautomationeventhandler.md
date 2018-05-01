@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationEventHandler.htm
 old-project: WinAuto
 ms.assetid: 3b79e085-fb38-403d-b7f1-3e7680f3449f
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: IUIAutomationEventHandler, IUIAutomationEventHandler interface [Windows Accessibility], IUIAutomationEventHandler interface [Windows Accessibility], described, uiauto.uiauto_IUIAutomationEventHandler, uiauto_IUIAutomationEventHandler, uiautomationclient/IUIAutomationEventHandler, winauto.uiauto_IUIAutomationEventHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices

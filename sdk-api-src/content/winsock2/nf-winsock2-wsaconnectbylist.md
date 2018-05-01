@@ -7,7 +7,7 @@ old-location: winsock\wsaconnectbylist.htm
 old-project: WinSock
 ms.assetid: 7323d814-e96e-44b9-8ade-a9317e4fbf17
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/24/2018
 ms.keywords: WSAConnectByList, WSAConnectByList function [Winsock], winsock.wsaconnectbylist, winsock2/WSAConnectByList
 ms.prod: windows-hardware
 ms.technology: windows-devices

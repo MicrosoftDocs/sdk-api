@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmquotamanager.htm
 old-project: Fsrm
 ms.assetid: 20bda7d6-5c7b-4066-82e2-83ad52515568
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: IFsrmQuotaManager, IFsrmQuotaManager interface [File Server Resource Manager], IFsrmQuotaManager interface [File Server Resource Manager], described, fs.ifsrmquotamanager, fsrm.ifsrmquotamanager, fsrmquota/IFsrmQuotaManager
 ms.prod: windows-hardware
 ms.technology: windows-devices

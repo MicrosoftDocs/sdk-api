@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device_getnodecount.htm
 old-project: direct3d12
 ms.assetid: 5C5BA618-1B53-45EA-A2E6-19FCAF4FB67C
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: GetNodeCount method, GetNodeCount method, ID3D12Device interface, GetNodeCount,ID3D12Device.GetNodeCount, ID3D12Device, ID3D12Device interface, GetNodeCount method, ID3D12Device::GetNodeCount, d3d12/ID3D12Device::GetNodeCount, direct3d12.id3d12device_getnodecount
 ms.prod: windows-hardware
 ms.technology: windows-devices

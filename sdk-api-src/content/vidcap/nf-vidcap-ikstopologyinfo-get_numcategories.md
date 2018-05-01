@@ -7,7 +7,7 @@ old-location: dshow\ikstopologyinfo_get_numcategories.htm
 old-project: DirectShow
 ms.assetid: 86bbe461-37c1-4dbc-bebd-fa8784d49083
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IKsTopologyInfo, IKsTopologyInfo interface [DirectShow], get_NumCategories method, IKsTopologyInfo::get_NumCategories, IKsTopologyInfoget_NumCategories, dshow.ikstopologyinfo_get_numcategories, get_NumCategories method [DirectShow], get_NumCategories method [DirectShow], IKsTopologyInfo interface, get_NumCategories,IKsTopologyInfo.get_NumCategories, vidcap/IKsTopologyInfo::get_NumCategories
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: VIDEOHDR, *PVIDEOHDR, *LPVIDEOHDR
+req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,7 +7,7 @@ old-location: dshow\imediastream_setsameformat.htm
 old-project: DirectShow
 ms.assetid: 6a228547-7187-4a7a-8850-2681e0ccb13e
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IMediaStream, IMediaStream interface [DirectShow], SetSameFormat method, IMediaStream::SetSameFormat, IMediaStreamSetSameFormat, SetSameFormat method [DirectShow], SetSameFormat method [DirectShow], IMediaStream interface, SetSameFormat,IMediaStream.SetSameFormat, dshow.imediastream_setsameformat, mmstream/IMediaStream::SetSameFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices

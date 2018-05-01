@@ -7,7 +7,7 @@ old-location: security\wintrust_data.htm
 old-project: SecCrypto
 ms.assetid: 8fb68f44-6f69-4eac-90de-02689e3e86cf
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: "*PWINTRUST_DATA, PWINTRUST_DATA, PWINTRUST_DATA structure pointer [Security], WINTRUST_DATA, WINTRUST_DATA structure [Security], WTD_CACHE_ONLY_URL_RETRIEVAL, WTD_CHOICE_BLOB, WTD_CHOICE_CATALOG, WTD_CHOICE_CERT, WTD_CHOICE_FILE, WTD_CHOICE_SIGNER, WTD_DISABLE_MD2_MD4, WTD_HASH_ONLY_FLAG, WTD_LIFETIME_SIGNING_FLAG, WTD_MOTW, WTD_NO_IE4_CHAIN_FLAG, WTD_NO_POLICY_USAGE_FLAG, WTD_REVOCATION_CHECK_CHAIN, WTD_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT, WTD_REVOCATION_CHECK_END_CERT, WTD_REVOCATION_CHECK_NONE, WTD_REVOKE_NONE, WTD_REVOKE_WHOLECHAIN, WTD_SAFER_FLAG, WTD_STATEACTION_AUTO_CACHE, WTD_STATEACTION_AUTO_CACHE_FLUSH, WTD_STATEACTION_CLOSE, WTD_STATEACTION_IGNORE, WTD_STATEACTION_VERIFY, WTD_UICONTEXT_EXECUTE, WTD_UICONTEXT_INSTALL, WTD_UI_ALL, WTD_UI_NOBAD, WTD_UI_NOGOOD, WTD_UI_NONE, WTD_USE_DEFAULT_OSVER_CHECK, WTD_USE_IE4_TRUST_FLAG, _WINTRUST_DATA, _win32_wintrust_data, security.wintrust_data, wintrust/PWINTRUST_DATA, wintrust/WINTRUST_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,13 +59,6 @@ The <b>WINTRUST_DATA</b> structure is used when calling
 ## -struct-fields
 
 
-
-
-### -field pSignatureSettings
-
-Pointer to a <a href="https://msdn.microsoft.com/E0F526B4-AFDE-4481-B49F-EE7467F97A46">WINTRUST_SIGNATURE_SETTINGS</a> structure.
-
-<b>Windows 8 and Windows Server 2012:  </b>Support for this member begins.
 
 
 ### -field cbStruct
@@ -528,6 +521,13 @@ Use when calling <a href="https://msdn.microsoft.com/b7efac6a-ac9f-477a-aada-63f
 </tr>
 </table>
  
+
+
+### -field pSignatureSettings
+
+Pointer to a <a href="https://msdn.microsoft.com/E0F526B4-AFDE-4481-B49F-EE7467F97A46">WINTRUST_SIGNATURE_SETTINGS</a> structure.
+
+<b>Windows 8 and Windows Server 2012:  </b>Support for this member begins.
 
 
 #### - pBlob

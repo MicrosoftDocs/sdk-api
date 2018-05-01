@@ -7,7 +7,7 @@ old-location: direct3d11\id3dx11fft_getinversescale.htm
 old-project: direct3d11
 ms.assetid: 7ec8f0c6-7c7a-481b-b751-523ed82726c9
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/6/2018
 ms.keywords: GetInverseScale method [Direct3D 11], GetInverseScale method [Direct3D 11], ID3DX11FFT interface, GetInverseScale,ID3DX11FFT.GetInverseScale, ID3DX11FFT, ID3DX11FFT interface [Direct3D 11], GetInverseScale method, ID3DX11FFT::GetInverseScale, a23a27f6-fe6a-bb3f-cfa4-e42a5f44baf7, d3dcsx/ID3DX11FFT::GetInverseScale, direct3d11.id3dx11fft_getinversescale
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: properties\IPropertyEnumTypeList_GetAt.htm
 old-project: properties
 ms.assetid: 1713d16f-58d9-46f9-9795-4e05ff257901
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/5/2018
 ms.keywords: GetAt method [Windows Properties], GetAt method [Windows Properties], IPropertyEnumTypeList interface, GetAt,IPropertyEnumTypeList.GetAt, IPropertyEnumTypeList, IPropertyEnumTypeList interface [Windows Properties], GetAt method, IPropertyEnumTypeList::GetAt, _shell_IPropertyEnumTypeList_GetAt, properties.IPropertyEnumTypeList_GetAt, propsys/IPropertyEnumTypeList::GetAt, shell.IPropertyEnumTypeList_GetAt
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IPropertyEnumTypeList::GetAt method

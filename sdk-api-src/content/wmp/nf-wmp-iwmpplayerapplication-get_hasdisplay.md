@@ -7,7 +7,7 @@ old-location: wmp\iwmpplayerapplication_get_hasdisplay.htm
 old-project: WMP
 ms.assetid: a356929a-51de-49b6-bf7a-b3bd7fa35ea2
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPPlayerApplication, IWMPPlayerApplication interface [Windows Media Player], get_hasDisplay method, IWMPPlayerApplication::get_hasDisplay, IWMPPlayerApplicationget_hasDisplay, get_hasDisplay method [Windows Media Player], get_hasDisplay method [Windows Media Player], IWMPPlayerApplication interface, get_hasDisplay,IWMPPlayerApplication.get_hasDisplay, wmp.iwmpplayerapplication_get_hasdisplay, wmp/IWMPPlayerApplication::get_hasDisplay
 ms.prod: windows-hardware
 ms.technology: windows-devices

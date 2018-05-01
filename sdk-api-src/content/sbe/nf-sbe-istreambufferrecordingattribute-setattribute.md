@@ -7,7 +7,7 @@ old-location: mstv\istreambufferrecordingattribute_setattribute.htm
 old-project: mstv
 ms.assetid: cc441a00-e98f-4ea7-b902-d74846fc93cc
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IStreamBufferRecordingAttribute, IStreamBufferRecordingAttribute interface [Microsoft TV Technologies], SetAttribute method, IStreamBufferRecordingAttribute::SetAttribute, IStreamBufferRecordingAttributeSetAttribute, SetAttribute method [Microsoft TV Technologies], SetAttribute method [Microsoft TV Technologies], IStreamBufferRecordingAttribute interface, SetAttribute,IStreamBufferRecordingAttribute.SetAttribute, mstv.istreambufferrecordingattribute_setattribute, sbe/IStreamBufferRecordingAttribute::SetAttribute
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IStreamBufferRecordingAttribute::SetAttribute method

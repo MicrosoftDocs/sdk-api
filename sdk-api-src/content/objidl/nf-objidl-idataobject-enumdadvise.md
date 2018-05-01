@@ -7,7 +7,7 @@ old-location: com\idataobject_enumdadvise.htm
 old-project: com
 ms.assetid: 319637fd-d9b5-4da0-ac92-4c52fa9f5231
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: EnumDAdvise method [COM], EnumDAdvise method [COM], IDataObject interface, EnumDAdvise,IDataObject.EnumDAdvise, IDataObject, IDataObject interface [COM], EnumDAdvise method, IDataObject::EnumDAdvise, _ole_idataobject_enumdadvise, com.idataobject_enumdadvise, objidl/IDataObject::EnumDAdvise
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IDataObject::EnumDAdvise method

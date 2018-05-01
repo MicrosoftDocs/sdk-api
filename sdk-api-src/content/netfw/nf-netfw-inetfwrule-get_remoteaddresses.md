@@ -7,7 +7,7 @@ old-location: ics\inetfwrule_remoteaddresses.htm
 old-project: ICS
 ms.assetid: 107e8cad-a603-4ac8-aa3c-6a85d47016ef
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: INetFwRule, INetFwRule interface [ICS/ICF], RemoteAddresses property, INetFwRule.RemoteAddresses, INetFwRule::get_RemoteAddresses, INetFwRule::put_RemoteAddresses, RemoteAddresses property [ICS/ICF], RemoteAddresses property [ICS/ICF], INetFwRule interface, get_RemoteAddresses,INetFwRule.get_RemoteAddresses, ics.inetfwrule_remoteaddresses, netfw/INetFwRule::RemoteAddresses, netfw/INetFwRule::get_RemoteAddresses, netfw/INetFwRule::put_RemoteAddresses
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: 
 req.dll: FirewallAPI.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # INetFwRule::get_RemoteAddresses method

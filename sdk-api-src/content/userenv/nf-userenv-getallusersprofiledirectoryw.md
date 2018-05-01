@@ -7,7 +7,7 @@ old-location: shell\GetAllUsersProfileDirectory.htm
 old-project: shell
 ms.assetid: bd08947a-df57-4dd9-b9ba-a01b315bfdf1
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetAllUsersProfileDirectory, GetAllUsersProfileDirectory function [Windows Shell], GetAllUsersProfileDirectoryA, GetAllUsersProfileDirectoryW, _shell_GetAllUsersProfileDirectory, shell.GetAllUsersProfileDirectory, userenv/GetAllUsersProfileDirectory, userenv/GetAllUsersProfileDirectoryA, userenv/GetAllUsersProfileDirectoryW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: SOFTDISTINFO, *LPSOFTDISTINFO
+req.typenames: USB_UNICODE_NAME, *PUSB_UNICODE_NAME
 topic_type:
 -	APIRef
 -	kbSyntax

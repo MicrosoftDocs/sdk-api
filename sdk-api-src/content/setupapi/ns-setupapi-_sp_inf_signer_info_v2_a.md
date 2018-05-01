@@ -7,7 +7,7 @@ old-location: setup\sp_inf_signer_info.htm
 old-project: SetupApi
 ms.assetid: 50ceee47-3a89-4bd7-8508-5a4d75514861
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/10/2018
 ms.keywords: "*PSP_INF_SIGNER_INFO_V2_A, PSP_INF_SIGNER_INFO, PSP_INF_SIGNER_INFO structure pointer [Setup API], SP_INF_SIGNER_INFO, SP_INF_SIGNER_INFO structure [Setup API], SP_INF_SIGNER_INFO_A, SP_INF_SIGNER_INFO_V2, SP_INF_SIGNER_INFO_V2_A, _SP_INF_SIGNER_INFO_V2_A, _setupapi_filepaths_signerinfo, setup.sp_inf_signer_info, setupapi/PSP_INF_SIGNER_INFO, setupapi/SP_INF_SIGNER_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _SP_INF_SIGNER_INFO_V2_A structure

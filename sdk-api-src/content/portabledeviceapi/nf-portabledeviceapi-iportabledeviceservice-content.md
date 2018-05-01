@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledeviceservice_content.htm
 old-project: wpd_sdk
 ms.assetid: 36977b23-b03f-48bc-8313-ddfe2ef208de
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/11/2018
 ms.keywords: Content method [Windows Portable Devices SDK], Content method [Windows Portable Devices SDK], IPortableDeviceService interface, Content,IPortableDeviceService.Content, IPortableDeviceService, IPortableDeviceService interface [Windows Portable Devices SDK], Content method, IPortableDeviceService::Content, portabledeviceapi/IPortableDeviceService::Content, wpdsdk.iportabledeviceservice_content
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: WPD_WHITE_BALANCE_SETTINGS
+req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IPortableDeviceService::Content method

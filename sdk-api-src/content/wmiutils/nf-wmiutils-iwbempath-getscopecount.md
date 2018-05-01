@@ -7,7 +7,7 @@ old-location: wmi\iwbempath_getscopecount.htm
 old-project: WmiSdk
 ms.assetid: 3e818a4d-0a38-44ce-9027-2a94b7c86bef
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: GetScopeCount method [Windows Management Instrumentation], GetScopeCount method [Windows Management Instrumentation], IWbemPath interface, GetScopeCount,IWbemPath.GetScopeCount, IWbemPath, IWbemPath interface [Windows Management Instrumentation], GetScopeCount method, IWbemPath::GetScopeCount, _hmm_iwbempath_getscopecount, wmi.iwbempath_getscopecount, wmiutils/IWbemPath::GetScopeCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

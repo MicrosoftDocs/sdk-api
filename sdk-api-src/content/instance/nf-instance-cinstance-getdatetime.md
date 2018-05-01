@@ -7,7 +7,7 @@ old-location: wmi\cinstance_getdatetime.htm
 old-project: WmiSdk
 ms.assetid: b7474d1c-4ed9-4669-a0e6-01230a3bf8fa
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: CInstance, CInstance interface [Windows Management Instrumentation], GetDateTime method, CInstance::GetDateTime, GetDateTime method [Windows Management Instrumentation], GetDateTime method [Windows Management Instrumentation], CInstance interface, GetDateTime,CInstance.GetDateTime, _hmm_cinstance_getdatetime, instance/CInstance::GetDateTime, wmi.cinstance_getdatetime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: InputScope
+req.typenames: TrustLevel
 topic_type:
 -	APIRef
 -	kbSyntax

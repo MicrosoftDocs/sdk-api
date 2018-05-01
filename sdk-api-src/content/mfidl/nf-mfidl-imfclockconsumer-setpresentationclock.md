@@ -7,7 +7,7 @@ old-location: mf\imfclockconsumer_setpresentationclock.htm
 old-project: medfound
 ms.assetid: 7F4CC427-1DBE-4586-BA67-7AB472A55408
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFClockConsumer, IMFClockConsumer interface [Media Foundation], SetPresentationClock method, IMFClockConsumer::SetPresentationClock, SetPresentationClock method [Media Foundation], SetPresentationClock method [Media Foundation], IMFClockConsumer interface, SetPresentationClock,IMFClockConsumer.SetPresentationClock, mf.imfclockconsumer_setpresentationclock, mfidl/IMFClockConsumer::SetPresentationClock
 ms.prod: windows-hardware
 ms.technology: windows-devices

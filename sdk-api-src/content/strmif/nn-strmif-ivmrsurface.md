@@ -7,7 +7,7 @@ old-location: dshow\ivmrsurface.htm
 old-project: DirectShow
 ms.assetid: 8222ea5c-be77-4f33-83ff-073fb3e85e73
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IVMRSurface, IVMRSurface interface [DirectShow], IVMRSurface interface [DirectShow], described, IVMRSurfaceInterface, dshow.ivmrsurface, strmif/IVMRSurface
 ms.prod: windows-hardware
 ms.technology: windows-devices

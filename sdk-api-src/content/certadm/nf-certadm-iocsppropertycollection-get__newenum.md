@@ -7,7 +7,7 @@ old-location: security\iocsppropertycollection__newenum_method.htm
 old-project: SecCrypto
 ms.assetid: 09ed83ce-ebab-4d03-a508-304f54206921
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: IOCSPPropertyCollection, IOCSPPropertyCollection interface [Security], _NewEnum property, IOCSPPropertyCollection._NewEnum, IOCSPPropertyCollection::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security], IOCSPPropertyCollection interface, certadm/IOCSPPropertyCollection::_NewEnum, certadm/IOCSPPropertyCollection::get__NewEnum, get__NewEnum,IOCSPPropertyCollection.get__NewEnum, security.iocsppropertycollection__newenum_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CHANNEL_ENTRY_POINTS, *PCHANNEL_ENTRY_POINTS
+req.typenames: 
 topic_type:
 -	APIRef
 -	kbSyntax

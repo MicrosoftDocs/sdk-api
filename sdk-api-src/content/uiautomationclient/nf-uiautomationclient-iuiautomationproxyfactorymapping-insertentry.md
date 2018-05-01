@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationProxyFactoryMapping_InsertEntry.htm
 old-project: WinAuto
 ms.assetid: fe737909-0331-4c5f-8d38-8dce09bd2e44
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: IUIAutomationProxyFactoryMapping, IUIAutomationProxyFactoryMapping interface [Windows Accessibility], InsertEntry method, IUIAutomationProxyFactoryMapping::InsertEntry, InsertEntry method [Windows Accessibility], InsertEntry method [Windows Accessibility], IUIAutomationProxyFactoryMapping interface, InsertEntry,IUIAutomationProxyFactoryMapping.InsertEntry, uiauto.uiauto_IUIAutomationProxyFactoryMapping_InsertEntry, uiauto_IUIAutomationProxyFactoryMapping_InsertEntry, uiautomationclient/IUIAutomationProxyFactoryMapping::InsertEntry, winauto.uiauto_IUIAutomationProxyFactoryMapping_InsertEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices

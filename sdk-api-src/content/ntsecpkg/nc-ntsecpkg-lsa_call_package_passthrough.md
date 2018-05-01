@@ -7,7 +7,7 @@ old-location: security\callpackagepassthrough.htm
 old-project: SecAuthN
 ms.assetid: 622856ca-f49e-4995-bead-7b02501a84e5
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/24/2018
 ms.keywords: CallPackagePassthrough, CallPackagePassthrough function [Security], LSA_CALL_PACKAGE_PASSTHROUGH, _ssp_callpackagepassthrough, ntsecpkg/CallPackagePassthrough, security.callpackagepassthrough
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # LSA_CALL_PACKAGE_PASSTHROUGH callback

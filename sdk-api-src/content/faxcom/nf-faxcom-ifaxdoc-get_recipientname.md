@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxdoc_get_recipientname_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_5xut.htm
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/18/2018
 ms.keywords: FaxDoc object [Fax Service], RecipientName property, IFaxDoc, IFaxDoc::get_RecipientName, RecipientName property [Fax Service], RecipientName property [Fax Service], FaxDoc object, _mfax_ifaxdoc_get_recipientname, fax._mfax_ifaxdoc_get_recipientname, fax._mfax_ifaxdoc_get_recipientname_vb, get_RecipientName,IFaxDoc.get_RecipientName
 ms.prod: windows-hardware
 ms.technology: windows-devices

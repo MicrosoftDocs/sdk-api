@@ -7,7 +7,7 @@ old-location: wua\iautomaticupdates_detectnow.htm
 old-project: Wua_Sdk
 ms.assetid: ef40cd57-eab3-4ccf-a574-ab5237565e5b
 ms.author: windowsdriverdev
-ms.date: 3/15/2018
+ms.date: 4/18/2018
 ms.keywords: DetectNow method [Windows Update Agent], DetectNow method [Windows Update Agent], IAutomaticUpdates interface, DetectNow,IAutomaticUpdates.DetectNow, IAutomaticUpdates, IAutomaticUpdates interface [Windows Update Agent], DetectNow method, IAutomaticUpdates::DetectNow, wua.iautomaticupdates_detectnow, wuapi/IAutomaticUpdates::DetectNow
 ms.prod: windows-hardware
 ms.technology: windows-devices

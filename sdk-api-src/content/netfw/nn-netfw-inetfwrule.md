@@ -7,7 +7,7 @@ old-location: ics\inetfwrule.htm
 old-project: ICS
 ms.assetid: 59e2a140-bf55-4f0e-bf4b-1a39d3dc0457
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: INetFwRule, INetFwRule interface [ICS/ICF], INetFwRule interface [ICS/ICF], described, ics.inetfwrule, netfw/INetFwRule
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: FirewallAPI.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # INetFwRule interface

@@ -7,7 +7,7 @@ old-location: shell\ICDBurn_Burn.htm
 old-project: shell
 ms.assetid: e081973a-e923-45de-93ba-3281be73cc93
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: Burn method [Windows Shell], Burn method [Windows Shell], ICDBurn interface, Burn,ICDBurn.Burn, ICDBurn, ICDBurn interface [Windows Shell], Burn method, ICDBurn::Burn, _shell_ICDBurn_Burn, shell.ICDBurn_Burn, shobjidl/ICDBurn::Burn
 ms.prod: windows-hardware
 ms.technology: windows-devices

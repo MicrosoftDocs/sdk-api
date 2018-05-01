@@ -7,7 +7,7 @@ old-location: security\convertstringsidtosid.htm
 old-project: SecAuthZ
 ms.assetid: bf7262e3-ad2c-44c4-99cb-dcf29ad36efd
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: ConvertStringSidToSid, ConvertStringSidToSid function [Security], ConvertStringSidToSidA, ConvertStringSidToSidW, _win32_convertstringsidtosid, sddl/ConvertStringSidToSid, sddl/ConvertStringSidToSidA, sddl/ConvertStringSidToSidW, security.convertstringsidtosid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: SENSE_DATA, *PSENSE_DATA, FIXED_SENSE_DATA, *PFIXED_SENSE_DATA
+req.typenames: SCHEDULE_HEADER, *PSCHEDULE_HEADER
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -49,7 +49,7 @@ targetos: Windows
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ConvertStringSidToSidW function

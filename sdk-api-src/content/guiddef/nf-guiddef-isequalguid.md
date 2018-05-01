@@ -1,17 +1,17 @@
 ---
 UID: NF:guiddef.IsEqualGUID
-title: IsEqualGUID function
+title: IsEqualGUID macro
 author: windows-driver-content
 description: Determines whether two GUIDs are equal.
 old-location: com\isequalguid.htm
 old-project: com
 ms.assetid: 3580a0c4-e1f8-4bb7-ba66-c4702ecd11f1
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IsEqualGUID, IsEqualGUID function [COM], _com_IsEqualGUID, com.isequalguid, winddi/IsEqualGUID
 ms.prod: windows-hardware
 ms.technology: windows-devices
-ms.topic: function
+ms.topic: macro
 req.header: guiddef.h
 req.include-header: GuidDef.h, Objbase.h
 req.target-type: Windows
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IsEqualGUID function
+# IsEqualGUID macro
 
 
 ## -description
@@ -68,15 +68,6 @@ The first GUID.
 ### -param rguid2 [in]
 
 The second GUID.
-
-
-## -returns
-
-
-
-If the values are equal, the return value is <b>TRUE</b>. Otherwise, the return value is <b>FALSE</b>.
-
-
 
 
 ## -remarks

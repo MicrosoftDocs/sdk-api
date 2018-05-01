@@ -7,7 +7,7 @@ old-location: winrt\irestrictederrorinfo.htm
 old-project: WinRT
 ms.assetid: 1af8d4bf-1217-44ca-b0dd-9a6feda16100
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/24/2018
 ms.keywords: IRestrictedErrorInfo, IRestrictedErrorInfo interface [Windows Runtime], IRestrictedErrorInfo interface [Windows Runtime], described, restrictederrorinfo/IRestrictedErrorInfo, winrt.irestrictederrorinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IRestrictedErrorInfo interface

@@ -7,7 +7,7 @@ old-location: mf\imfvideomixercontrol_setstreamzorder.htm
 old-project: medfound
 ms.assetid: 6187724a-6345-4feb-90a0-097b6d21180f
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 6187724a-6345-4feb-90a0-097b6d21180f, IMFVideoMixerControl, IMFVideoMixerControl interface [Media Foundation], SetStreamZOrder method, IMFVideoMixerControl::SetStreamZOrder, SetStreamZOrder method [Media Foundation], SetStreamZOrder method [Media Foundation], IMFVideoMixerControl interface, SetStreamZOrder,IMFVideoMixerControl.SetStreamZOrder, evr/IMFVideoMixerControl::SetStreamZOrder, mf.imfvideomixercontrol_setstreamzorder
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: cos\ienumeventobject_next.htm
 old-project: cossdk
 ms.assetid: c9dab0b5-dbbb-4330-afd2-e13e708d708f
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: IEnumEventObject, IEnumEventObject interface [COM+], Next method, IEnumEventObject::Next, Next method [COM+], Next method [COM+], IEnumEventObject interface, Next,IEnumEventObject.Next, _cos_ienumeventobject_next, cos.ienumeventobject_next, eventsys/IEnumEventObject::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices

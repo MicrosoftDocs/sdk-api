@@ -7,7 +7,7 @@ old-location: mstv\itunerequest_get_locator.htm
 old-project: mstv
 ms.assetid: 9f2a000a-0133-44f4-8e9c-7d37435596d7
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: ITuneRequest, ITuneRequest interface [Microsoft TV Technologies], get_Locator method, ITuneRequest::get_Locator, ITuneRequestget_Locator, get_Locator method [Microsoft TV Technologies], get_Locator method [Microsoft TV Technologies], ITuneRequest interface, get_Locator,ITuneRequest.get_Locator, mstv.itunerequest_get_locator, tuner/ITuneRequest::get_Locator
 ms.prod: windows-hardware
 ms.technology: windows-devices

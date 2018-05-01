@@ -7,7 +7,7 @@ old-location: com\ifont_get_size.htm
 old-project: com
 ms.assetid: aeee7dfc-5ccd-4c30-a59e-5eec93505288
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IFont, IFont interface [COM], get_Size method, IFont::get_Size, _ctrl_ifont_get_size, com.ifont_get_size, get_Size method [COM], get_Size method [COM], IFont interface, get_Size,IFont.get_Size, ocidl/IFont::get_Size
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IFont::get_Size method

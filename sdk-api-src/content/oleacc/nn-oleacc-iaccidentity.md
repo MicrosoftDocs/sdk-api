@@ -7,7 +7,7 @@ old-location: winauto\iaccidentity.htm
 old-project: WinAuto
 ms.assetid: 59fde1a5-42bd-40e0-8143-edd082b2b166
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: IAccIdentity, IAccIdentity interface [Windows Accessibility], IAccIdentity interface [Windows Accessibility], described, msaa.iaccidentity, oleacc/IAccIdentity, winauto.iaccidentity
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Oleacc.lib
 req.dll: Oleacc.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IAccIdentity interface

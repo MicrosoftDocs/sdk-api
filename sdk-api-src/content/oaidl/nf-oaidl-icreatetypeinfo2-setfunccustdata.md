@@ -7,7 +7,7 @@ old-location: automat\icreatetypeinfo2_setfunccustdata.htm
 old-project: automat
 ms.assetid: 553e872f-0620-4b36-a01d-86088bd12f80
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: ICreateTypeInfo2, ICreateTypeInfo2 interface [Automation], SetFuncCustData method, ICreateTypeInfo2::SetFuncCustData, SetFuncCustData method [Automation], SetFuncCustData method [Automation], ICreateTypeInfo2 interface, SetFuncCustData,ICreateTypeInfo2.SetFuncCustData, _oa96_ICreateTypeInfo2_SetFuncCustData, automat.icreatetypeinfo2_setfunccustdata, oaidl/ICreateTypeInfo2::SetFuncCustData
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ICreateTypeInfo2::SetFuncCustData method

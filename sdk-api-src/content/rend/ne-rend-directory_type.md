@@ -7,7 +7,7 @@ old-location: tapi3\directory_type.htm
 old-project: Tapi
 ms.assetid: dd4292f0-ca76-4464-b0fb-288ce5813a40
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: DIRECTORY_TYPE, DIRECTORY_TYPE enumeration [TAPI 2.2], DT_ILS, DT_NTDS, _tapi3_directory_type, rend/DIRECTORY_TYPE, rend/DT_ILS, rend/DT_NTDS, tapi3.directory_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Relogger.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
@@ -38,10 +38,10 @@ api_name:
 -	DIRECTORY_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
+req.lib: RuntimeObject.lib
+req.dll: ComBase.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # DIRECTORY_TYPE enumeration

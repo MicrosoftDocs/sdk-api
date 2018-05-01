@@ -7,7 +7,7 @@ old-location: dshow\iconfigasfwriter_setindexmode.htm
 old-project: DirectShow
 ms.assetid: d7f5d13a-d36e-4da2-babc-0446e5697b61
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IConfigAsfWriter, IConfigAsfWriter interface [DirectShow], SetIndexMode method, IConfigAsfWriter::SetIndexMode, IConfigAsfWriterSetIndexMode, SetIndexMode method [DirectShow], SetIndexMode method [DirectShow], IConfigAsfWriter interface, SetIndexMode,IConfigAsfWriter.SetIndexMode, dshow.iconfigasfwriter_setindexmode, dshowasf/IConfigAsfWriter::SetIndexMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

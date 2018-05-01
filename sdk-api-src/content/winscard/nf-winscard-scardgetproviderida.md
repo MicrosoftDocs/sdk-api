@@ -7,7 +7,7 @@ old-location: security\scardgetproviderid.htm
 old-project: SecAuthN
 ms.assetid: 6e0f42af-9ac1-469b-b241-939d64676d99
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/24/2018
 ms.keywords: SCardGetProviderId, SCardGetProviderId function [Security], SCardGetProviderIdA, SCardGetProviderIdW, _smart_scardgetproviderid, security.scardgetproviderid, winscard/SCardGetProviderId, winscard/SCardGetProviderIdA, winscard/SCardGetProviderIdW
 ms.prod: windows-hardware
 ms.technology: windows-devices

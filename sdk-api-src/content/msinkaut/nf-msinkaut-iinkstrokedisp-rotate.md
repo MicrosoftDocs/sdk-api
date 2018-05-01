@@ -7,7 +7,7 @@ old-location: tablet\iinkstrokedisp_rotate.htm
 old-project: tablet
 ms.assetid: 3b3d5a58-31e8-4d0e-a1c9-25bb36bb8d9c
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: 3b3d5a58-31e8-4d0e-a1c9-25bb36bb8d9c, IInkStrokeDisp, IInkStrokeDisp interface [Tablet PC], Rotate method, IInkStrokeDisp::Rotate, Rotate method [Tablet PC], Rotate method [Tablet PC], IInkStrokeDisp interface, Rotate,IInkStrokeDisp.Rotate, msinkaut/IInkStrokeDisp::Rotate, tablet.iinkstrokedisp_rotate
 ms.prod: windows-hardware
 ms.technology: windows-devices

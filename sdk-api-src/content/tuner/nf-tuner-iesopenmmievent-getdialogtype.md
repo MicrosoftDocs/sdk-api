@@ -7,7 +7,7 @@ old-location: mstv\iesopenmmievent_getdialogtype.htm
 old-project: mstv
 ms.assetid: 93f3cd5e-7d8e-42b9-a688-3df22855e7fb
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetDialogType method [Microsoft TV Technologies], GetDialogType method [Microsoft TV Technologies], IESOpenMmiEvent interface, GetDialogType,IESOpenMmiEvent.GetDialogType, IESOpenMmiEvent, IESOpenMmiEvent interface [Microsoft TV Technologies], GetDialogType method, IESOpenMmiEvent::GetDialogType, mstv.iesopenmmievent_getdialogtype, tuner/IESOpenMmiEvent::GetDialogType
 ms.prod: windows-hardware
 ms.technology: windows-devices

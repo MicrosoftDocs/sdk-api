@@ -7,7 +7,7 @@ old-location: com\iolecachecontrol_onstop.htm
 old-project: com
 ms.assetid: 95e62e9d-39bd-4bf8-ba25-c6a9c7fc515b
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IOleCacheControl, IOleCacheControl interface [COM], OnStop method, IOleCacheControl::OnStop, OnStop method [COM], OnStop method [COM], IOleCacheControl interface, OnStop,IOleCacheControl.OnStop, _ole_iolecachecontrol_onstop, com.iolecachecontrol_onstop, oleidl/IOleCacheControl::OnStop
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IOleCacheControl::OnStop method

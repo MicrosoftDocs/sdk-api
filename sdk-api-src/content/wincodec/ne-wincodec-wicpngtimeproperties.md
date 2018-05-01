@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_wicpngtimeproperties.htm
 old-project: wic
 ms.assetid: 202dc399-0173-4995-af74-09ee71e1dcf1
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: WICPngTimeDay, WICPngTimeHour, WICPngTimeMinute, WICPngTimeMonth, WICPngTimeProperties, WICPngTimeProperties enumeration [Windows Imaging Component], WICPngTimeSecond, WICPngTimeYear, _wic_codec_wicpngtimeproperties, wic._wic_codec_wicpngtimeproperties, wincodec/WICPngTimeDay, wincodec/WICPngTimeHour, wincodec/WICPngTimeMinute, wincodec/WICPngTimeMonth, wincodec/WICPngTimeProperties, wincodec/WICPngTimeSecond, wincodec/WICPngTimeYear
 ms.prod: windows-hardware
 ms.technology: windows-devices

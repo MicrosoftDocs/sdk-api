@@ -7,7 +7,7 @@ old-location: base\ioctl_storage_load_media.htm
 old-project: DevIO
 ms.assetid: e5b370e9-03e8-4ab8-ba3c-4677cecb3bef
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/3/2018
 ms.keywords: IOCTL_STORAGE_LOAD_MEDIA, IOCTL_STORAGE_LOAD_MEDIA control code, _win32_ioctl_storage_load_media, base.ioctl_storage_load_media, winioctl/IOCTL_STORAGE_LOAD_MEDIA
 ms.prod: windows-hardware
 ms.technology: windows-devices

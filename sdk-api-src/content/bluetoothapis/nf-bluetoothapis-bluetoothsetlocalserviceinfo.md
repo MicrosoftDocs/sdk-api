@@ -3,20 +3,20 @@ UID: NF:bluetoothapis.BluetoothSetLocalServiceInfo
 title: BluetoothSetLocalServiceInfo function
 author: windows-driver-content
 description: Sets local service information for a specific Bluetooth radio.
-old-location: bluetooth\bluetoothsetlocalserviceinfo.htm
-old-project: Bluetooth
-ms.assetid: 836c7804-6747-4a0b-b97c-c8c4e00374ca
+old-location: bltooth\bluetoothsetlocalserviceinfo.htm
+old-project: bltooth
+ms.assetid: ab76f5d5-b7b6-4dc5-967d-5fe19260b5ad
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
-ms.keywords: BluetoothSetLocalServiceInfo, BluetoothSetLocalServiceInfo function [Bluetooth], bluetooth.bluetoothsetlocalserviceinfo, bluetoothapis/BluetoothSetLocalServiceInfo
+ms.date: 4/23/2018
+ms.keywords: BluetoothSetLocalServiceInfo, BluetoothSetLocalServiceInfo function [Bluetooth Devices], bltooth.bluetoothsetlocalserviceinfo, bluetoothapis/BluetoothSetLocalServiceInfo, bth_funcs_036c64a4-5050-4d5d-8217-fc4ff9ef300d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
 req.header: bluetoothapis.h
-req.include-header: Bthsdpdef.h, BluetoothAPIs.h
-req.target-type: Windows
-req.target-min-winverclnt: Windows Vista [desktop apps only]
-req.target-min-winversvr: None supported
+req.include-header: 
+req.target-type: Universal
+req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
+req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -33,15 +33,15 @@ topic_type:
 api_type:
 -	DllExport
 api_location:
--	Bthprops.dll
+-	BthProps.dll
 -	BluetoothAPIs.dll
 -	Ext-MS-Win-Bluetooth-APIs-l1-1-0.dll
 api_name:
 -	BluetoothSetLocalServiceInfo
 product: Windows
 targetos: Windows
-req.lib: Bthprops.lib
-req.dll: Bthprops.dll
+req.lib: BthProps.lib
+req.dll: BthProps.dll; BluetoothAPIs.dll
 req.irql: 
 ---
 
@@ -51,11 +51,9 @@ req.irql:
 ## -description
 
 
-
-The <b>BluetoothSetLocalServiceInfo</b> function
-sets local service information for a specific Bluetooth radio. This function is used to advertise services to which remote devices can connect.<div class="alert"><b>Note</b>  Service information set with this function will persist across reboots.</div>
-<div> </div>
-
+The 
+  <b>BluetoothSetLocalServiceInfo</b> function sets local service information for a specific Bluetooth
+  radio.
 
 
 ## -parameters
@@ -65,29 +63,32 @@ sets local service information for a specific Bluetooth radio. This function is 
 
 ### -param hRadioIn [in, optional]
 
-A handle of the Bluetooth radio device to which the local service information applies. If this parameter is <b>NULL</b>, <b>BluetoothSetLocalServiceInfo</b> searches for the first available local Bluetooth radio.
+A handle of the Bluetooth radio device to specify local service information for. If <b>NULL</b>, 
+     <b>BluetoothSetLocalServiceInfo</b> searches for the first available local Bluetooth radio.
 
 
 ### -param pClassGuid [in]
 
-The GUID of the service to expose. This should match the GUID in the server-side INF file for the profile driver. 
+The GUID of the service to expose. This should match the <b>GUID</b> in the server-side INF file.
 
 
-### -param ulInstance
+### -param ulInstance [in]
 
-An instance ID for the device node of the Plug and Play (PnP) ID. 
+An instance ID for the device node of the Plug and Play (PnP) ID.
 
 
-### -param pServiceInfoIn
+### -param pServiceInfoIn [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/d16fe6f1-4b76-4dbe-825e-e3995d2b4961">BLUETOOTH_LOCAL_SERVICE_INFO</a> structure that describes the local service to set.
+A pointer to a <a href="https://msdn.microsoft.com/d16fe6f1-4b76-4dbe-825e-e3995d2b4961">BLUETOOTH_LOCAL_SERVICE_INFO</a> structure that describes the local service to
+     set.
 
 
 ## -returns
 
 
 
-Returns ERROR_SUCCESS upon successful completion. The following table shows some common errors.
+The 
+     <b>BluetoothSetLocalServiceInfo</b> function returns the following values:
 
 <table>
 <tr>
@@ -101,18 +102,18 @@ Returns ERROR_SUCCESS upon successful completion. The following table shows some
 </dl>
 </td>
 <td width="60%">
-The specified Bluetooth radio was not detected. 
+The specified Bluetooth radio was not detected.
 
 </td>
 </tr>
 <tr>
 <td width="40%">
 <dl>
-<dt><b>ERROR_BAD_UNIT </b></dt>
+<dt><b>ERROR_BAD_UNIT</b></dt>
 </dl>
 </td>
 <td width="60%">
-No Bluetooth radios were detected. 
+No Bluetooth radios were detected.
 
 </td>
 </tr>
@@ -123,7 +124,8 @@ No Bluetooth radios were detected.
 </dl>
 </td>
 <td width="60%">
-There were insufficient resources to complete the operation. This condition occurs when more than 100 local physical device objects (PDOs) corresponding to Bluetooth services.
+Sufficient resources were not available to complete the operation. You can receive this error
+       when more than 100 local physical device objects (PDOs) correspond to Bluetooth services.
 
 </td>
 </tr>
@@ -134,7 +136,8 @@ There were insufficient resources to complete the operation. This condition occu
 </dl>
 </td>
 <td width="60%">
-The caller does not have the required privileges.
+The caller does not have the required privileges. See the Remarks section for information about
+       how to elevate privileges.
 
 </td>
 </tr>
@@ -148,10 +151,29 @@ The caller does not have the required privileges.
 
 
 
-Applications can call <b>BluetoothSetLocalServiceInfo</b> subsequent times with the same service GUID but with a <b>different</b> instance ID to create multiple instances of the specified server-side profile.
-It is important that each instance ID associated with a device is unique,  as it will prevent the service driver from being prematurely uninstalled if one, of possibly many, dependent devices is unpaired.
+<b>BluetoothSetLocalServiceInfo</b> is a user-mode API that is used only by profile driver developers to
+    trigger the installation of a local service that is described by the service <b>GUID</b> in 
+    <i>pClassGuid</i>.
 
- The process that calls <b>BluetoothSetLocalServiceInfo</b> must have the <b>SE_LOAD_DRIVER_NAME</b> privilege. A process running in the system or in the  administrator context can elevate its privilege using the <a href="https://msdn.microsoft.com/334b8ba8-101d-43a1-a8bf-1c7e0448c272">LookupPrivilegeValue</a> and <a href="https://msdn.microsoft.com/8e3f70cd-814e-4aab-8f48-0ca482beef2e">AdjustTokenPrivileges</a> functions.
+<b>BluetoothSetLocalServiceInfo</b> generates a Plug and Play (PnP) device ID in the form of "BTHENUM\{<i>ClassGuid</i>}". For example, "BTHENUM\{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}". User-mode applications
+    can call 
+    <b>BluetoothSetLocalServiceInfo</b> subsequent times with the same service GUID but with a different
+    instance ID to create multiple instances of the specified server-side profile.
+
+To use Bluetooth APIs like 
+    <b>BluetoothSetLocalServiceInfo</b>, user-mode applications should link with 
+    BthProps.lib.
+
+<div class="alert"><b>Warning</b>  The process that calls 
+    <b>BluetoothSetLocalServiceInfo</b> must have the <b>SE_LOAD_DRIVER_NAME</b> privilege. A process running in the
+    system or an administrator context can elevate its privilege by using the SDK 
+    <a href="https://msdn.microsoft.com/334b8ba8-101d-43a1-a8bf-1c7e0448c272">LookupPrivilegeValue</a> and 
+    <a href="https://msdn.microsoft.com/8e3f70cd-814e-4aab-8f48-0ca482beef2e">AdjustTokenPrivileges</a> functions. For more information about this see 
+    <a href="https://msdn.microsoft.com/2bf2b2df-260c-42a5-9ee9-6db91f304036">Installing a Bluetooth
+    Device</a>.</div>
+<div> </div>
+The <a href="https://msdn.microsoft.com/d16fe6f1-4b76-4dbe-825e-e3995d2b4961">BLUETOOTH_LOCAL_SERVICE_INFO</a> structure is defined in the SDK 
+    BluetoothApis.h header file.
 
 
 
@@ -162,10 +184,6 @@ It is important that each instance ID associated with a device is unique,  as it
 
 
 <a href="https://msdn.microsoft.com/d16fe6f1-4b76-4dbe-825e-e3995d2b4961">BLUETOOTH_LOCAL_SERVICE_INFO</a>
-
-
-
-<a href="http://go.microsoft.com/fwlink/p/?linkid=98686">BluetoothSetLocalServiceInfo (WDK)</a>
  
 
  

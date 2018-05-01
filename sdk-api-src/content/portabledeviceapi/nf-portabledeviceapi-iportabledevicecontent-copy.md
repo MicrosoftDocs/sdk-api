@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledevicecontent_copy.htm
 old-project: wpd_sdk
 ms.assetid: 46d6abad-457c-47d7-a83a-b5ba2b84b064
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/11/2018
 ms.keywords: Copy method [Windows Portable Devices SDK], Copy method [Windows Portable Devices SDK], IPortableDeviceContent interface, Copy,IPortableDeviceContent.Copy, IPortableDeviceContent, IPortableDeviceContent interface [Windows Portable Devices SDK], Copy method, IPortableDeviceContent::Copy, IPortableDeviceContentCopy, portabledeviceapi/IPortableDeviceContent::Copy, wpdsdk.iportabledevicecontent_copy
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: WPD_WHITE_BALANCE_SETTINGS
+req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: PortableDeviceGUIDs.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IPortableDeviceContent::Copy method

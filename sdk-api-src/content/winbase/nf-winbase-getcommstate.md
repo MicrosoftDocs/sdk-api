@@ -7,7 +7,7 @@ old-location: base\getcommstate.htm
 old-project: DevIO
 ms.assetid: 974c2ddc-9f7f-445e-ac47-8cd86817ce9b
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/3/2018
 ms.keywords: GetCommState, GetCommState function, _win32_getcommstate, base.getcommstate, winbase/GetCommState
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmquotamanager_createautoapplyquota.htm
 old-project: Fsrm
 ms.assetid: faaa55ca-a0b1-4cd4-9c73-20d80879b10c
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: CreateAutoApplyQuota method [File Server Resource Manager], CreateAutoApplyQuota method [File Server Resource Manager], FsrmQuotaManager class, CreateAutoApplyQuota method [File Server Resource Manager], IFsrmQuotaManager interface, CreateAutoApplyQuota method [File Server Resource Manager], IFsrmQuotaManagerEx interface, CreateAutoApplyQuota,IFsrmQuotaManager.CreateAutoApplyQuota, FsrmQuotaManager class [File Server Resource Manager], CreateAutoApplyQuota method, IFsrmQuotaManager, IFsrmQuotaManager interface [File Server Resource Manager], CreateAutoApplyQuota method, IFsrmQuotaManager::CreateAutoApplyQuota, IFsrmQuotaManagerEx interface [File Server Resource Manager], CreateAutoApplyQuota method, IFsrmQuotaManagerEx::CreateAutoApplyQuota, fs.ifsrmquotamanager_createautoapplyquota, fsrm.ifsrmquotamanager_createautoapplyquota, fsrmquota/IFsrmQuotaManager::CreateAutoApplyQuota, fsrmquota/IFsrmQuotaManagerEx::CreateAutoApplyQuota
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\iwmcodecstringsgetdescription.htm
 old-project: medfound
 ms.assetid: 79068e6c-bd16-45e4-a8af-6a03e0c5b528
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetDescription method [Media Foundation], GetDescription method [Media Foundation], IWMCodecStrings interface, GetDescription,IWMCodecStrings.GetDescription, IWMCodecStrings, IWMCodecStrings interface [Media Foundation], GetDescription method, IWMCodecStrings::GetDescription, codecapi.iwmcodecstringsgetdescription, mf.iwmcodecstringsgetdescription, wmcodecdsp/ IWMCodecStrings::GetDescription
 ms.prod: windows-hardware
 ms.technology: windows-devices

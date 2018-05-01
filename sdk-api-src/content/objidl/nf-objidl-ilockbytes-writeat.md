@@ -7,7 +7,7 @@ old-location: stg\ilockbytes_writeat.htm
 old-project: Stg
 ms.assetid: a27af4e1-293d-438a-8068-87275a51fd48
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/20/2018
 ms.keywords: ILockBytes, ILockBytes interface [Structured Storage], WriteAt method, ILockBytes::WriteAt, WriteAt method [Structured Storage], WriteAt method [Structured Storage], ILockBytes interface, WriteAt,ILockBytes.WriteAt, _stg_ilockbytes_writeat, objidl/ILockBytes::WriteAt, stg.ilockbytes_writeat
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ILockBytes::WriteAt method

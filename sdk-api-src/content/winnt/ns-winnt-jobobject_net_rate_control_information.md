@@ -7,7 +7,7 @@ old-location: base\jobobject_net_rate_control_information.htm
 old-project: ProcThread
 ms.assetid: CE55BC2A-B27C-490A-9D5A-C18FEC09638C
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: JOBOBJECT_NET_RATE_CONTROL_INFORMATION, JOBOBJECT_NET_RATE_CONTROL_INFORMATION structure, base.jobobject_net_rate_control_information, winnt/JOBOBJECT_NET_RATE_CONTROL_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices

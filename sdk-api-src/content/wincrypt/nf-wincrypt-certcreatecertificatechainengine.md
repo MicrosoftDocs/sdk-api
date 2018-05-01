@@ -7,7 +7,7 @@ old-location: security\certcreatecertificatechainengine.htm
 old-project: SecCrypto
 ms.assetid: e173016a-d3d7-42e0-aad8-e738abaf1df9
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: CertCreateCertificateChainEngine, CertCreateCertificateChainEngine function [Security], _crypto2_certcreatecertificatechainengine, security.certcreatecertificatechainengine, wincrypt/CertCreateCertificateChainEngine
 ms.prod: windows-hardware
 ms.technology: windows-devices

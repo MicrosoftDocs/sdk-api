@@ -7,7 +7,7 @@ old-location: cos\icomthreadevents_onthreadstart.htm
 old-project: cossdk
 ms.assetid: 9316965e-13e8-4e3a-9404-8e49334773bc
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: IComThreadEvents, IComThreadEvents interface [COM+], OnThreadStart method, IComThreadEvents::OnThreadStart, OnThreadStart method [COM+], OnThreadStart method [COM+], IComThreadEvents interface, OnThreadStart,IComThreadEvents.OnThreadStart, _dtc_IComThreadEvents_OnThreadStart, comsvcs/IComThreadEvents::OnThreadStart, cos.icomthreadevents_onthreadstart
 ms.prod: windows-hardware
 ms.technology: windows-devices

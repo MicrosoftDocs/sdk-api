@@ -7,7 +7,7 @@ old-location: mf\imfmediaengine_getduration.htm
 old-project: medfound
 ms.assetid: E5C793A2-7C6F-42D0-B8DE-17F1B62A0352
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetDuration method [Media Foundation], GetDuration method [Media Foundation], IMFMediaEngine interface, GetDuration,IMFMediaEngine.GetDuration, IMFMediaEngine, IMFMediaEngine interface [Media Foundation], GetDuration method, IMFMediaEngine::GetDuration, mf.imfmediaengine_getduration, mfmediaengine/IMFMediaEngine::GetDuration
 ms.prod: windows-hardware
 ms.technology: windows-devices

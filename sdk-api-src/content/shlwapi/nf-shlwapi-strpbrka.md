@@ -7,7 +7,7 @@ old-location: shell\StrPBrk.htm
 old-project: shell
 ms.assetid: 116c0791-33dd-4c3f-b8a4-a7df91fc5f6a
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: StrPBrk, StrPBrk function [Windows Shell], StrPBrkA, StrPBrkW, _win32_StrPBrk, shell.StrPBrk, shlwapi/StrPBrk, shlwapi/StrPBrkA, shlwapi/StrPBrkW
 ms.prod: windows-hardware
 ms.technology: windows-devices

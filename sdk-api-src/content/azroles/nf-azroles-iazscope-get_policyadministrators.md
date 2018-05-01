@@ -7,7 +7,7 @@ old-location: security\iazscope_policyadministrators.htm
 old-project: SecAuthZ
 ms.assetid: 13c11105-b44d-46e0-ab73-c11fede1507b
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: AzScope object [Security], PolicyAdministrators property, IAzScope, IAzScope interface [Security], PolicyAdministrators property, IAzScope.PolicyAdministrators, IAzScope::get_PolicyAdministrators, PolicyAdministrators property [Security], PolicyAdministrators property [Security], AzScope object, PolicyAdministrators property [Security], IAzScope interface, azroles/IAzScope::PolicyAdministrators, azroles/IAzScope::get_PolicyAdministrators, get_PolicyAdministrators,IAzScope.get_PolicyAdministrators, security.iazscope_policyadministrators
 ms.prod: windows-hardware
 ms.technology: windows-devices

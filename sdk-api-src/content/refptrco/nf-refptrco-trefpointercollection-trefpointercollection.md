@@ -7,7 +7,7 @@ old-location: wmi\trefpointercollection_trefpointercollection.htm
 old-project: WmiSdk
 ms.assetid: f4fcfe31-49ce-434c-a6e4-cf60e0a435e6
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: TRefPointerCollection, TRefPointerCollection interface [Windows Management Instrumentation], TRefPointerCollection method, TRefPointerCollection method [Windows Management Instrumentation], TRefPointerCollection method [Windows Management Instrumentation], TRefPointerCollection interface, TRefPointerCollection,TRefPointerCollection.TRefPointerCollection, TRefPointerCollection::TRefPointerCollection, _hmm_trefpointercollection_trefpointercollection, refptrco/TRefPointerCollection::TRefPointerCollection, wmi.trefpointercollection_trefpointercollection
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # TRefPointerCollection::TRefPointerCollection method

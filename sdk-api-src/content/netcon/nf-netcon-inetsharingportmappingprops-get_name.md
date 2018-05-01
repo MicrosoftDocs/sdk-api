@@ -7,7 +7,7 @@ old-location: ics\inetsharingportmappingprops_get_name.htm
 old-project: ICS
 ms.assetid: 0f2b4d49-a13d-49e1-96d0-276afe4208b2
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: INetSharingPortMappingProps, INetSharingPortMappingProps interface [ICS/ICF], get_Name method, INetSharingPortMappingProps::get_Name, _ics_inetsharingportmappingprops_get_name, get_Name method [ICS/ICF], get_Name method [ICS/ICF], INetSharingPortMappingProps interface, get_Name,INetSharingPortMappingProps.get_Name, ics.inetsharingportmappingprops_get_name, netcon/INetSharingPortMappingProps::get_Name
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # INetSharingPortMappingProps::get_Name method

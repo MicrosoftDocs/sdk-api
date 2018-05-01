@@ -7,7 +7,7 @@ old-location: wua\iautomaticupdatessettings_refresh.htm
 old-project: Wua_Sdk
 ms.assetid: 308426d9-d524-406a-931c-1fdb854aa4fb
 ms.author: windowsdriverdev
-ms.date: 3/15/2018
+ms.date: 4/18/2018
 ms.keywords: IAutomaticUpdatesSettings, IAutomaticUpdatesSettings interface [Windows Update Agent], Refresh method, IAutomaticUpdatesSettings::Refresh, Refresh method [Windows Update Agent], Refresh method [Windows Update Agent], IAutomaticUpdatesSettings interface, Refresh,IAutomaticUpdatesSettings.Refresh, wua.iautomaticupdatessettings_refresh, wuapi/IAutomaticUpdatesSettings::Refresh
 ms.prod: windows-hardware
 ms.technology: windows-devices

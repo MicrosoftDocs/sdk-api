@@ -7,7 +7,7 @@ old-location: wmi\chstring_getbuffer.htm
 old-project: WmiSdk
 ms.assetid: 07fa7cae-8af6-491b-a561-8947afde47ab
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: "?GetBuffer@CHString@@QAEPAGH@Z, ?GetBuffer@CHString@@QEAAPEAGH@Z, CHString, CHString interface [Windows Management Instrumentation], GetBuffer method, CHString::GetBuffer, GetBuffer method [Windows Management Instrumentation], GetBuffer method [Windows Management Instrumentation], CHString interface, GetBuffer,CHString.GetBuffer, _hmm_chstring_getbuffer, chstring/CHString::GetBuffer, wmi.chstring_getbuffer"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CF_SYNC_ROOT_STANDARD_INFO
+req.typenames: CF_SYNC_STATUS
 topic_type:
 -	APIRef
 -	kbSyntax

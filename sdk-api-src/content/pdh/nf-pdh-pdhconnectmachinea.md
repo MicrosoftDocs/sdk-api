@@ -7,7 +7,7 @@ old-location: perf\pdhconnectmachine.htm
 old-project: PerfCtrs
 ms.assetid: 8f8b4651-b550-4b34-bb2f-d2497c56b572
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/23/2018
 ms.keywords: PdhConnectMachine, PdhConnectMachine function [Perf], PdhConnectMachineA, PdhConnectMachineW, _win32_pdhconnectmachine, base.pdhconnectmachine, pdh/PdhConnectMachine, pdh/PdhConnectMachineA, pdh/PdhConnectMachineW, perf.pdhconnectmachine
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: Pdh.lib
 req.dll: Pdh.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # PdhConnectMachineA function

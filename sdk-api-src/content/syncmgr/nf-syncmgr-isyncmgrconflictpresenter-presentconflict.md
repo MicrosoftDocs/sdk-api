@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrConflictPresenter_PresentConflict.htm
 old-project: shell
 ms.assetid: 632c0e9c-facd-422e-9467-005c44adc175
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ISyncMgrConflictPresenter, ISyncMgrConflictPresenter interface [Windows Shell], PresentConflict method, ISyncMgrConflictPresenter::PresentConflict, PresentConflict method [Windows Shell], PresentConflict method [Windows Shell], ISyncMgrConflictPresenter interface, PresentConflict,ISyncMgrConflictPresenter.PresentConflict, _shell_ISyncMgrConflictPresenter_PresentConflict, shell.ISyncMgrConflictPresenter_PresentConflict, syncmgr/ISyncMgrConflictPresenter::PresentConflict
 ms.prod: windows-hardware
 ms.technology: windows-devices

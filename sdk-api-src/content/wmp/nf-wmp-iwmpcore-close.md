@@ -7,7 +7,7 @@ old-location: wmp\iwmpcore_close.htm
 old-project: WMP
 ms.assetid: e6e21995-5dbd-4893-a9f2-6ce918d3fbc4
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPCore, IWMPCore interface [Windows Media Player], close method, IWMPCore::close, IWMPCoreclose, close method [Windows Media Player], close method [Windows Media Player], IWMPCore interface, close,IWMPCore.close, wmp.iwmpcore_close, wmp/IWMPCore::close
 ms.prod: windows-hardware
 ms.technology: windows-devices

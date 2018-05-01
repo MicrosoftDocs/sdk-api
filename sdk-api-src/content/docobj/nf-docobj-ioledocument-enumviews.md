@@ -7,7 +7,7 @@ old-location: com\ioledocument_enumviews.htm
 old-project: com
 ms.assetid: ca186853-0792-4a34-b718-46927a73e670
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: EnumViews method [COM], EnumViews method [COM], IOleDocument interface, EnumViews,IOleDocument.EnumViews, IOleDocument, IOleDocument interface [COM], EnumViews method, IOleDocument::EnumViews, _ole_ioledocument_enumviews, com.ioledocument_enumviews, docobj/IOleDocument::EnumViews
 ms.prod: windows-hardware
 ms.technology: windows-devices

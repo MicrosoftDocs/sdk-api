@@ -2,21 +2,21 @@
 UID: NS:windef.tagPOINT
 title: tagPOINT
 author: windows-driver-content
-description: The POINT structure defines the x- and y- coordinates of a point.
-old-location: gdi\point.htm
-old-project: gdi
-ms.assetid: ecb0f0e1-90c2-48ab-a069-552262b49c7c
+description: The POINT structure defines the x- and y-coordinates of a point.
+old-location: display\point.htm
+old-project: display
+ms.assetid: 6fb3bd3f-f810-4043-812b-94495f38a6aa
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
-ms.keywords: "*LPPOINT, *NPPOINT, *PPOINT, POINT, POINT structure [Windows GDI], PPOINT, PPOINT structure pointer [Windows GDI], _win32_POINT_str, gdi.point, tagPOINT, windef/POINT, windef/PPOINT"
+ms.date: 4/16/2018
+ms.keywords: "*LPPOINT, *NPPOINT, *PPOINT, LPPOINT, LPPOINT structure pointer [Display Devices], NPPOINT, NPPOINT structure pointer [Display Devices], POINT, POINT structure [Display Devices], PPOINT, PPOINT structure pointer [Display Devices], display.point, grstrcts_1a83f2ca-3373-4aa6-b6ec-54c3b6b173f3.xml, tagPOINT, windef/LPPOINT, windef/NPPOINT, windef/POINT, windef/PPOINT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: windef.h
 req.include-header: Windows.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
-req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -33,7 +33,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	Windef.h
+-	windef.h
 api_name:
 -	POINT
 product: Windows
@@ -50,10 +50,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-The <b>POINT</b> structure defines the x- and y- coordinates of a point.
-
-
+The POINT structure defines the x- and y-coordinates of a point.
 
 
 ## -struct-fields
@@ -63,12 +60,21 @@ The <b>POINT</b> structure defines the x- and y- coordinates of a point.
 
 ### -field x
 
-The x-coordinate of the point.
+Specifies the <i>x</i>-coordinate of the point. 
 
 
 ### -field y
 
-The y-coordinate of the point.
+Specifies the <i>y</i>-coordinate of the point. 
+
+
+## -remarks
+
+
+
+The POINT structure is identical to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569166">POINTL</a> structure.
+
+
 
 
 ## -see-also
@@ -76,31 +82,11 @@ The y-coordinate of the point.
 
 
 
-<a href="_win32_childwindowfrompoint_cpp">ChildWindowFromPoint</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569166">POINTL</a>
 
 
 
-<a href="https://msdn.microsoft.com/0b938237-cb06-4776-86f8-14478abcee00">GetBrushOrgEx</a>
-
-
-
-<a href="https://msdn.microsoft.com/8a47a238-082c-44b8-a270-5ebb4d3d9fc8">PtInRect</a>
-
-
-
-<a href="https://msdn.microsoft.com/88700dde-2559-4916-9445-0fdd73da7501">Rectangle Structures</a>
-
-
-
-<a href="https://msdn.microsoft.com/23c251d1-b8c5-425f-b2b3-44954cf653e9">Rectangles Overview</a>
-
-
-
-<a href="https://msdn.microsoft.com/dcc7575a-49fd-4306-8baa-57e9e0d5ed1f">SetBrushOrgEx</a>
-
-
-
-<a href="_win32_windowfrompoint_cpp">WindowFromPoint</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569167">POINTS</a>
  
 
  

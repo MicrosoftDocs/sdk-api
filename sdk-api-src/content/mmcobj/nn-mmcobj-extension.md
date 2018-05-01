@@ -7,7 +7,7 @@ old-location: security\extension.htm
 old-project: SecCrypto
 ms.assetid: cca3121d-0f0f-4de2-a225-6dd3910078d7
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: Extension, Extension object [Security], Extension object [Security], described, mmcobj/Extension, security.extension
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: WIN32_FIND_DATAW, *PWIN32_FIND_DATAW, *LPWIN32_FIND_DATAW
+req.typenames: "_ColumnSortOrder, COLUMNSORTORDER"
 topic_type:
 -	APIRef
 -	kbSyntax

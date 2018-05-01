@@ -7,7 +7,7 @@ old-location: shell\SetWindowSubclass.htm
 old-project: shell
 ms.assetid: 0b11144d-eb4e-462c-96d3-38c4bac48f2a
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: SetWindowSubclass, SetWindowSubclass function [Windows Shell], commctrl/SetWindowSubclass, inet_SetWindowSubclass, shell.SetWindowSubclass
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CATEGORYINFO, *LPCATEGORYINFO
+req.typenames: STGOPTIONS
 topic_type:
 -	APIRef
 -	kbSyntax

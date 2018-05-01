@@ -7,7 +7,7 @@ old-location: nwifi\wlanhostednetworksetproperty.htm
 old-project: NativeWiFi
 ms.assetid: 88139383-f5d5-4e42-b41e-ea754a89356d
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/13/2018
 ms.keywords: WlanHostedNetworkSetProperty, WlanHostedNetworkSetProperty function [NativeWIFI], nwifi.wlanhostednetworksetproperty, wlan_hosted_network_opcode_connection_settings, wlan_hosted_network_opcode_enable, wlanapi/WlanHostedNetworkSetProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

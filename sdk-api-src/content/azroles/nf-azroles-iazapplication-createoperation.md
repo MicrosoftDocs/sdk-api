@@ -7,7 +7,7 @@ old-location: security\iazapplication_createoperation.htm
 old-project: SecAuthZ
 ms.assetid: 4faf4fc3-5847-40a1-9f85-fb10bb3048b4
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: AzApplication object [Security], CreateOperation method, CreateOperation method [Security], CreateOperation method [Security], AzApplication object, CreateOperation method [Security], IAzApplication interface, CreateOperation,IAzApplication.CreateOperation, IAzApplication, IAzApplication interface [Security], CreateOperation method, IAzApplication::CreateOperation, azroles/IAzApplication::CreateOperation, security.iazapplication_createoperation
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: search\_search_HITRANGE.htm
 old-project: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\structures\hitrange.htm
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/24/2018
 ms.keywords: HITRANGE, HITRANGE structure [search], _search_HITRANGE, search._search_HITRANGE, structuredquery/HITRANGE, tagHITRANGE
 ms.prod: windows-hardware
 ms.technology: windows-devices

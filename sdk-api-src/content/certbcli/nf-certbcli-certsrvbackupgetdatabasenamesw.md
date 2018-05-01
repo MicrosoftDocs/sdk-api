@@ -7,7 +7,7 @@ old-location: security\certsrvbackupgetdatabasenames.htm
 old-project: SecCrypto
 ms.assetid: 5e62be79-693a-4543-8d83-262f00686c99
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: CSBFT_CERTSERVER_DATABASE, CertSrvBackupGetDatabaseNames, CertSrvBackupGetDatabaseNames function [Security], CertSrvBackupGetDatabaseNamesW, _certsrv_certsrvbackupgetdatabasenames, certbcli/CertSrvBackupGetDatabaseNames, certbcli/CertSrvBackupGetDatabaseNamesW, security.certsrvbackupgetdatabasenames
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CHANNEL_ENTRY_POINTS, *PCHANNEL_ENTRY_POINTS
+req.typenames: 
 topic_type:
 -	APIRef
 -	kbSyntax

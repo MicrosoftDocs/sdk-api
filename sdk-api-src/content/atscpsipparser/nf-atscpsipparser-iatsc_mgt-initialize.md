@@ -7,7 +7,7 @@ old-location: mstv\iatsc_mgt_initialize.htm
 old-project: mstv
 ms.assetid: dbb77a8d-aac7-454a-98e5-fd5f9316121c
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IATSC_MGT, IATSC_MGT interface [Microsoft TV Technologies], Initialize method, IATSC_MGT::Initialize, IATSC_MGTInitialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies], IATSC_MGT interface, Initialize,IATSC_MGT.Initialize, atscpsipparser/IATSC_MGT::Initialize, mstv.iatsc_mgt_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_WRITER_PAYLOAD_STREAM
+req.typenames: AsyncStatus
 topic_type:
 -	APIRef
 -	kbSyntax

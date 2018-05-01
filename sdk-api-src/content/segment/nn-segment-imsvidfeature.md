@@ -7,7 +7,7 @@ old-location: mstv\imsvidfeature.htm
 old-project: mstv
 ms.assetid: 0512e1d6-e10e-421e-846c-4bcd7e86d0e7
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidFeature, IMSVidFeature interface [Microsoft TV Technologies], IMSVidFeature interface [Microsoft TV Technologies], described, IMSVidFeatureInterface, mstv.imsvidfeature, segment/IMSVidFeature
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidFeature interface

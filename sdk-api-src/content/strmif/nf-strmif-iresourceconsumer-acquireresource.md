@@ -7,7 +7,7 @@ old-location: dshow\iresourceconsumer_acquireresource.htm
 old-project: DirectShow
 ms.assetid: e88d90af-681e-483b-9b29-9844eec75e41
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: AcquireResource method [DirectShow], AcquireResource method [DirectShow], IResourceConsumer interface, AcquireResource,IResourceConsumer.AcquireResource, IResourceConsumer, IResourceConsumer interface [DirectShow], AcquireResource method, IResourceConsumer::AcquireResource, IResourceConsumerAcquireResource, dshow.iresourceconsumer_acquireresource, strmif/IResourceConsumer::AcquireResource
 ms.prod: windows-hardware
 ms.technology: windows-devices

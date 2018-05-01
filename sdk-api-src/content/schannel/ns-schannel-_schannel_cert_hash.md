@@ -7,7 +7,7 @@ old-location: security\schannel_cert_hash.htm
 old-project: SecAuthN
 ms.assetid: BC068062-6644-4296-990F-7C533DC80C02
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/24/2018
 ms.keywords: "*PSCHANNEL_CERT_HASH, PSCHANNEL_CERT_HASH, PSCHANNEL_CERT_HASH structure pointer [Security], SCHANNEL_CERT_HASH, SCHANNEL_CERT_HASH structure [Security], SCH_MACHINE_CERT_HASH, _SCHANNEL_CERT_HASH, schannel/PSCHANNEL_CERT_HASH, schannel/SCHANNEL_CERT_HASH, security.schannel_cert_hash"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _SCHANNEL_CERT_HASH structure

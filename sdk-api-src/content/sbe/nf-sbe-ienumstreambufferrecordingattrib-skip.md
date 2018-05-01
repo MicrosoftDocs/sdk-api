@@ -7,7 +7,7 @@ old-location: mstv\ienumstreambufferrecordingattrib_skip.htm
 old-project: mstv
 ms.assetid: 83beb8e9-f268-4ae1-a90b-548f0e3f6c99
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IEnumStreamBufferRecordingAttrib, IEnumStreamBufferRecordingAttrib interface [Microsoft TV Technologies], Skip method, IEnumStreamBufferRecordingAttrib::Skip, IEnumStreamBufferRecordingAttribSkip, Skip method [Microsoft TV Technologies], Skip method [Microsoft TV Technologies], IEnumStreamBufferRecordingAttrib interface, Skip,IEnumStreamBufferRecordingAttrib.Skip, mstv.ienumstreambufferrecordingattrib_skip, sbe/IEnumStreamBufferRecordingAttrib::Skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IEnumStreamBufferRecordingAttrib::Skip method

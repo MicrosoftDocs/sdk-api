@@ -58,47 +58,6 @@ Represents a node in a wait chain.
 
 
 
-### -field LockObject
-
-
-### -field LockObject.ObjectName
-
-The name of the object. Object names are only available for certain object, such as mutexes. If the object does not have a name, this member is an empty string.
-
-
-### -field LockObject.Timeout
-
-This member is reserved for future use.
-
-
-### -field LockObject.Alertable
-
-This member is reserved for future use.
-
-
-### -field ThreadObject
-
-
-### -field ThreadObject.ProcessId
-
-The process identifier.
-
-
-### -field ThreadObject.ThreadId
-
-The thread identifier. For COM and ALPC, this member can be 0.
-
-
-### -field ThreadObject.WaitTime
-
-The wait time.
-
-
-### -field ThreadObject.ContextSwitches
-
-The number of context switches.
-
-
 ### -field ObjectType
 
 The object type. This member is one of the following values from the <b>WCT_OBJECT_TYPE</b> enumeration type.
@@ -247,6 +206,47 @@ The object status.  This member is one of the following values from the <b>WCT_O
 
 
 #### WctStatusError
+
+
+### -field LockObject
+
+
+### -field LockObject.ObjectName
+
+The name of the object. Object names are only available for certain object, such as mutexes. If the object does not have a name, this member is an empty string.
+
+
+### -field LockObject.Timeout
+
+This member is reserved for future use.
+
+
+### -field LockObject.Alertable
+
+This member is reserved for future use.
+
+
+### -field ThreadObject
+
+
+### -field ThreadObject.ProcessId
+
+The process identifier.
+
+
+### -field ThreadObject.ThreadId
+
+The thread identifier. For COM and ALPC, this member can be 0.
+
+
+### -field ThreadObject.WaitTime
+
+The wait time.
+
+
+### -field ThreadObject.ContextSwitches
+
+The number of context switches.
 
 
 ## -see-also

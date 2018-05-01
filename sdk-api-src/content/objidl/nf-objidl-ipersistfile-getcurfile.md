@@ -7,7 +7,7 @@ old-location: com\ipersistfile_getcurfile.htm
 old-project: com
 ms.assetid: 61f1751d-47ce-4b3f-9876-24ddd542dacb
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: GetCurFile method [COM], GetCurFile method [COM], IPersistFile interface, GetCurFile,IPersistFile.GetCurFile, IPersistFile, IPersistFile interface [COM], GetCurFile method, IPersistFile::GetCurFile, _com_ipersistfile_getcurfile, com.ipersistfile_getcurfile, objidl/IPersistFile::GetCurFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IPersistFile::GetCurFile method

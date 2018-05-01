@@ -7,7 +7,7 @@ old-location: dshow\icameracontrol_put_focusrelative.htm
 old-project: DirectShow
 ms.assetid: d40edc5d-8fa2-4e3a-8aab-c51da0ac8036
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ICameraControl, ICameraControl interface [DirectShow], put_FocusRelative method, ICameraControl::put_FocusRelative, ICameraControlput_FocusRelative, dshow.icameracontrol_put_focusrelative, put_FocusRelative method [DirectShow], put_FocusRelative method [DirectShow], ICameraControl interface, put_FocusRelative,ICameraControl.put_FocusRelative, vidcap/ICameraControl::put_FocusRelative
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: VIDEOHDR, *PVIDEOHDR, *LPVIDEOHDR
+req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
 topic_type:
 -	APIRef
 -	kbSyntax

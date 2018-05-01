@@ -7,7 +7,7 @@ old-location: tapi2\lineinitializeex.htm
 old-project: Tapi
 ms.assetid: 18cd145d-e434-433a-ab10-91bf5b060c21
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: "_tapi2_lineinitializeex, lineInitializeEx, lineInitializeEx function [TAPI 2.2], lineInitializeExA, lineInitializeExW, tapi/lineInitializeEx, tapi/lineInitializeExA, tapi/lineInitializeExW, tapi2.lineinitializeex"
 ms.prod: windows-hardware
 ms.technology: windows-devices

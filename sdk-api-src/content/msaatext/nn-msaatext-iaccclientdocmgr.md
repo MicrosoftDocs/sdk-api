@@ -7,7 +7,7 @@ old-location: winauto\iaccclientdocmgr.htm
 old-project: WinAuto
 ms.assetid: 29d9c39c-0067-4ec4-b49c-13a174ff8722
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: IAccClientDocMgr, IAccClientDocMgr interface [Windows Accessibility], IAccClientDocMgr interface [Windows Accessibility], described, msaa.iaccclientdocmgr, msaatext/IAccClientDocMgr, winauto.iaccclientdocmgr
 ms.prod: windows-hardware
 ms.technology: windows-devices

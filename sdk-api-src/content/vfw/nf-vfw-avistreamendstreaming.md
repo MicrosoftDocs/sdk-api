@@ -7,7 +7,7 @@ old-location: multimedia\avistreamendstreaming.htm
 old-project: Multimedia
 ms.assetid: 8555bc24-c017-4d02-854b-e64cf9e8ae1b
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/25/2018
 ms.keywords: AVIStreamEndStreaming, AVIStreamEndStreaming function [Windows Multimedia], _win32_AVIStreamEndStreaming, multimedia.avistreamendstreaming, vfw/AVIStreamEndStreaming
 ms.prod: windows-hardware
 ms.technology: windows-devices

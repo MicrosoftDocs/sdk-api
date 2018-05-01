@@ -7,8 +7,8 @@ old-location: direct3d11\d3d11_unordered_access_view_desc1.htm
 old-project: direct3d11
 ms.assetid: 833B4B8A-5702-4C17-AFD2-DFDF69354DDD
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
-ms.keywords: D3D11_UNORDERED_ACCESS_VIEW_DESC1, D3D11_UNORDERED_ACCESS_VIEW_DESC1 structure [Direct3D 11], d3d11_3/D3D11_UNORDERED_ACCESS_VIEW_DESC1, direct3d11.d3d11_unordered_access_view_desc1
+ms.date: 4/6/2018
+ms.keywords: CD3D11_UNORDERED_ACCESS_VIEW_DESC1, D3D11_UNORDERED_ACCESS_VIEW_DESC1, D3D11_UNORDERED_ACCESS_VIEW_DESC1 structure [Direct3D 11], d3d11_3/D3D11_UNORDERED_ACCESS_VIEW_DESC1, direct3d11.d3d11_unordered_access_view_desc1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -57,12 +57,12 @@ Describes the subresources from a resource that are accessible using an unordere
 
 
 
-### -field Format
+#### - Format
 
 A <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a>-typed value that specifies the data format.
 
 
-### -field ViewDimension
+#### - ViewDimension
 
 A <a href="https://msdn.microsoft.com/c9a2bcd1-9cfb-4cac-87eb-4747af745fdd">D3D11_UAV_DIMENSION</a>-typed value that  specifies the resource type of the view. This type is the same as the resource type of the underlying resource. This member also determines which _UAV to use in the union below.
 

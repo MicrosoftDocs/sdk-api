@@ -7,7 +7,7 @@ old-location: dshow\imediaeventsink.htm
 old-project: DirectShow
 ms.assetid: 50aa04b4-9a04-4d0d-a558-42595a69aef7
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IMediaEventSink, IMediaEventSink interface [DirectShow], IMediaEventSink interface [DirectShow], described, IMediaEventSinkInterface, dshow.imediaeventsink, strmif/IMediaEventSink
 ms.prod: windows-hardware
 ms.technology: windows-devices

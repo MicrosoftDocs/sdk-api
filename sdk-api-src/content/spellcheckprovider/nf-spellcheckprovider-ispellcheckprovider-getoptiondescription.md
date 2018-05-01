@@ -7,7 +7,7 @@ old-location: intl\ispellcheckprovider_getoptiondescription.htm
 old-project: Intl
 ms.assetid: 0F2ED4B7-AE71-4431-83FE-739F7D0D5CD2
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/25/2018
 ms.keywords: GetOptionDescription method [Internationalization for Windows Applications], GetOptionDescription method [Internationalization for Windows Applications], ISpellCheckProvider interface, GetOptionDescription,ISpellCheckProvider.GetOptionDescription, ISpellCheckProvider, ISpellCheckProvider interface [Internationalization for Windows Applications], GetOptionDescription method, ISpellCheckProvider::GetOptionDescription, intl.ispellcheckprovider_getoptiondescription, spellcheckprovider/ISpellCheckProvider::GetOptionDescription
 ms.prod: windows-hardware
 ms.technology: windows-devices

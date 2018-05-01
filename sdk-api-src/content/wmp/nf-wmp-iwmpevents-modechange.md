@@ -7,7 +7,7 @@ old-location: wmp\iwmpevents_iwmpevents__modechange.htm
 old-project: WMP
 ms.assetid: 64761f19-914a-4ab5-aeb9-12c0aefc8113
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPEvents, IWMPEvents interface [Windows Media Player], ModeChange method, IWMPEvents::ModeChange, IWMPEventsModeChange, ModeChange method [Windows Media Player], ModeChange method [Windows Media Player], IWMPEvents interface, ModeChange,IWMPEvents.ModeChange, wmp.iwmpevents_iwmpevents__modechange, wmp/IWMPEvents::ModeChange
 ms.prod: windows-hardware
 ms.technology: windows-devices

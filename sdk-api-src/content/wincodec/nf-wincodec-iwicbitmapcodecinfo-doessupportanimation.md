@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicbitmapcodecinfo_doessupportanimation.htm
 old-project: wic
 ms.assetid: 17635459-e067-4fdb-a801-4ad6cc622215
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: DoesSupportAnimation method [Windows Imaging Component], DoesSupportAnimation method [Windows Imaging Component], IWICBitmapCodecInfo interface, DoesSupportAnimation,IWICBitmapCodecInfo.DoesSupportAnimation, IWICBitmapCodecInfo, IWICBitmapCodecInfo interface [Windows Imaging Component], DoesSupportAnimation method, IWICBitmapCodecInfo::DoesSupportAnimation, _wic_codec_iwicbitmapcodecinfo_doessupportanimation, wic._wic_codec_iwicbitmapcodecinfo_doessupportanimation, wincodec/IWICBitmapCodecInfo::DoesSupportAnimation
 ms.prod: windows-hardware
 ms.technology: windows-devices

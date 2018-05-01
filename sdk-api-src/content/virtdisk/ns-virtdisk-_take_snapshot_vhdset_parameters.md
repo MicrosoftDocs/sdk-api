@@ -61,6 +61,12 @@ Contains snapshot parameters, indicating information about the new snapshot to b
 
 
 
+### -field Version
+
+A value from the <a href="https://msdn.microsoft.com/E544AC22-6865-4ECF-92F8-B8027746C231">TAKE_SNAPSHOT_VHDSET_VERSION</a> enumeration that is the discriminant for the union. 
+
+
+
 ### -field Version1
 
 A structure with the following member.
@@ -69,11 +75,5 @@ A structure with the following member.
 ### -field Version1.SnapshotId
 
 The Id of the new Snapshot to be added to the Vhd Set. 
-
-
-
-### -field Version
-
-A value from the <a href="https://msdn.microsoft.com/E544AC22-6865-4ECF-92F8-B8027746C231">TAKE_SNAPSHOT_VHDSET_VERSION</a> enumeration that is the discriminant for the union. 
 
 

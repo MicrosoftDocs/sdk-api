@@ -7,7 +7,7 @@ old-location: termserv\itssbresourcepluginstore_savesession.htm
 old-project: TermServ
 ms.assetid: a4f29a99-8478-425d-91d7-c771c35bb2fa
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: ITsSbResourcePluginStore, ITsSbResourcePluginStore interface [Remote Desktop Services], SaveSession method, ITsSbResourcePluginStore::SaveSession, ITsSbResourcePluginStoreEx interface [Remote Desktop Services], SaveSession method, ITsSbResourcePluginStoreEx::SaveSession, SaveSession method [Remote Desktop Services], SaveSession method [Remote Desktop Services], ITsSbResourcePluginStore interface, SaveSession method [Remote Desktop Services], ITsSbResourcePluginStoreEx interface, SaveSession,ITsSbResourcePluginStore.SaveSession, sbtsv/ITsSbResourcePluginStore::SaveSession, sbtsv/ITsSbResourcePluginStoreEx::SaveSession, termserv.itssbresourcepluginstore_savesession
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITsSbResourcePluginStore::SaveSession method

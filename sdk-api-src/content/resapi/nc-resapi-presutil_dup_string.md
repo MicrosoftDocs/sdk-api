@@ -7,7 +7,7 @@ old-location: mscs\resutildupstring.htm
 old-project: MsCS
 ms.assetid: 7d993247-ea8c-46a0-a11e-e03b981ed4ae
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: PRESUTIL_DUP_STRING, PRESUTIL_DUP_STRING callback function [Failover Cluster], _wolf_resutildupstring, mscs.resutildupstring, resapi/PRESUTIL_DUP_STRING
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # PRESUTIL_DUP_STRING callback

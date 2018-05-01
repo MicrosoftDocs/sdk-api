@@ -7,7 +7,7 @@ old-location: dshow\ivmrsurfaceallocator_allocatesurface.htm
 old-project: DirectShow
 ms.assetid: 6783df91-c92f-45d0-b299-16cdbc4bb630
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: AllocateSurface method [DirectShow], AllocateSurface method [DirectShow], IVMRSurfaceAllocator interface, AllocateSurface,IVMRSurfaceAllocator.AllocateSurface, IVMRSurfaceAllocator, IVMRSurfaceAllocator interface [DirectShow], AllocateSurface method, IVMRSurfaceAllocator::AllocateSurface, IVMRSurfaceAllocatorAllocateSurface, dshow.ivmrsurfaceallocator_allocatesurface, strmif/IVMRSurfaceAllocator::AllocateSurface
 ms.prod: windows-hardware
 ms.technology: windows-devices

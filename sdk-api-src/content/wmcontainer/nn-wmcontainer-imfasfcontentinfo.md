@@ -7,7 +7,7 @@ old-location: mf\imfasfcontentinfo.htm
 old-project: medfound
 ms.assetid: 9f490e6a-f378-45c1-a69d-985c6e884358
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 9f490e6a-f378-45c1-a69d-985c6e884358, IMFASFContentInfo, IMFASFContentInfo interface [Media Foundation], IMFASFContentInfo interface [Media Foundation], described, mf.imfasfcontentinfo, wmcontainer/IMFASFContentInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

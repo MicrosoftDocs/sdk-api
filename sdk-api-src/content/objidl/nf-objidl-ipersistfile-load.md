@@ -7,7 +7,7 @@ old-location: com\ipersistfile_load.htm
 old-project: com
 ms.assetid: 8391aa5c-fe6e-4b03-9eef-7958f75910a5
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IPersistFile, IPersistFile interface [COM], Load method, IPersistFile::Load, Load method [COM], Load method [COM], IPersistFile interface, Load,IPersistFile.Load, _com_ipersistfile_load, com.ipersistfile_load, objidl/IPersistFile::Load
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IPersistFile::Load method

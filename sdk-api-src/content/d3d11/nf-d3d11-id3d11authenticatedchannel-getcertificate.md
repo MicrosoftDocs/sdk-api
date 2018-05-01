@@ -7,7 +7,7 @@ old-location: mf\id3d11authenticatedchannel_getcertificate.htm
 old-project: medfound
 ms.assetid: D7FC07CA-B045-4C44-B3FD-B902C5437E47
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetCertificate method [Media Foundation], GetCertificate method [Media Foundation], ID3D11AuthenticatedChannel interface, GetCertificate,ID3D11AuthenticatedChannel.GetCertificate, ID3D11AuthenticatedChannel, ID3D11AuthenticatedChannel interface [Media Foundation], GetCertificate method, ID3D11AuthenticatedChannel::GetCertificate, d3d11/ID3D11AuthenticatedChannel::GetCertificate, mf.id3d11authenticatedchannel_getcertificate
 ms.prod: windows-hardware
 ms.technology: windows-devices

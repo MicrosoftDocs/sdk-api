@@ -7,7 +7,7 @@ old-location: mf\imfpmediaplayer_framestep.htm
 old-project: medfound
 ms.assetid: b7965965-2fbc-4494-9368-7d9699e4092a
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: FrameStep method [Media Foundation], FrameStep method [Media Foundation], IMFPMediaPlayer interface, FrameStep,IMFPMediaPlayer.FrameStep, IMFPMediaPlayer, IMFPMediaPlayer interface [Media Foundation], FrameStep method, IMFPMediaPlayer::FrameStep, mf.imfpmediaplayer_framestep, mfplay/IMFPMediaPlayer::FrameStep
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\imediaobject_discontinuity.htm
 old-project: DirectShow
 ms.assetid: 1a8e51e2-5d19-423d-acd2-8f1c0a143cf3
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: Discontinuity method [DirectShow], Discontinuity method [DirectShow], IMediaObject interface, Discontinuity,IMediaObject.Discontinuity, IMediaObject, IMediaObject interface [DirectShow], Discontinuity method, IMediaObject::Discontinuity, IMediaObjectDiscontinuity, dshow.imediaobject_discontinuity, mediaobj/IMediaObject::Discontinuity
 ms.prod: windows-hardware
 ms.technology: windows-devices

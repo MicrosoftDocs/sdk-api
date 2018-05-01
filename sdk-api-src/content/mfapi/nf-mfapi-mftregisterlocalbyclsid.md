@@ -7,7 +7,7 @@ old-location: mf\mftregisterlocalbyclsid.htm
 old-project: medfound
 ms.assetid: 80c45ac3-4487-41bf-a5f5-f459db3cd700
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: MFTRegisterLocalByCLSID, MFTRegisterLocalByCLSID function [Media Foundation], mf.mftregisterlocalbyclsid, mfapi/MFTRegisterLocalByCLSID
 ms.prod: windows-hardware
 ms.technology: windows-devices

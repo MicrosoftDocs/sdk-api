@@ -7,7 +7,7 @@ old-location: ad\dsbind.htm
 old-project: AD
 ms.assetid: c73cd16d-ccfd-4f61-b1c5-50130bef64d7
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/20/2018
 ms.keywords: DsBind, DsBind function [Active Directory], DsBindA, DsBindW, _glines_dsbind, ad.dsbind, ntdsapi/DsBind, ntdsapi/DsBindA, ntdsapi/DsBindW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: Ntdsapi.lib
 req.dll: Ntdsapi.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # DsBindA function

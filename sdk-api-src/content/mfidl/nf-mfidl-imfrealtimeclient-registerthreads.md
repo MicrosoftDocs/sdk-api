@@ -7,7 +7,7 @@ old-location: mf\imfrealtimeclient_registerthreads.htm
 old-project: medfound
 ms.assetid: 0ed3a8f6-1ea1-44af-ac6e-8712fd59ae31
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 0ed3a8f6-1ea1-44af-ac6e-8712fd59ae31, IMFRealTimeClient, IMFRealTimeClient interface [Media Foundation], RegisterThreads method, IMFRealTimeClient::RegisterThreads, RegisterThreads method [Media Foundation], RegisterThreads method [Media Foundation], IMFRealTimeClient interface, RegisterThreads,IMFRealTimeClient.RegisterThreads, mf.imfrealtimeclient_registerthreads, mfidl/IMFRealTimeClient::RegisterThreads
 ms.prod: windows-hardware
 ms.technology: windows-devices

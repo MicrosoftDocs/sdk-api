@@ -7,7 +7,7 @@ old-location: winrt\ivirtualsurfaceimagesourcenative_resize.htm
 old-project: WinRT
 ms.assetid: 09808606-9735-4838-BE32-F10B172FD7A9
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/24/2018
 ms.keywords: IVirtualSurfaceImageSourceNative, IVirtualSurfaceImageSourceNative interface [Windows Runtime], Resize method, IVirtualSurfaceImageSourceNative::Resize, Resize method [Windows Runtime], Resize method [Windows Runtime], IVirtualSurfaceImageSourceNative interface, Resize,IVirtualSurfaceImageSourceNative.Resize, windows/IVirtualSurfaceImageSourceNative::Resize, winrt.ivirtualsurfaceimagesourcenative_resize
 ms.prod: windows-hardware
 ms.technology: windows-devices

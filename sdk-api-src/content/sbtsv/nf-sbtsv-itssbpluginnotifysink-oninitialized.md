@@ -7,7 +7,7 @@ old-location: termserv\itssbpluginnotifysink_oninitialized.htm
 old-project: TermServ
 ms.assetid: 2fe468c9-457f-4a56-aaf9-4eb48fec8720
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: ITsSbPluginNotifySink, ITsSbPluginNotifySink interface [Remote Desktop Services], OnInitialized method, ITsSbPluginNotifySink::OnInitialized, OnInitialized method [Remote Desktop Services], OnInitialized method [Remote Desktop Services], ITsSbPluginNotifySink interface, OnInitialized,ITsSbPluginNotifySink.OnInitialized, sbtsv/ITsSbPluginNotifySink::OnInitialized, termserv.itssbpluginnotifysink_oninitialized
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITsSbPluginNotifySink::OnInitialized method

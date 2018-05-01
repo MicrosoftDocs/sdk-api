@@ -1,14 +1,14 @@
 ---
 UID: NS:windns.__unnamed_struct_31
-title: DNS_NAPTR_DATAW
+title: DNS_SRV_DATAA
 author: windows-driver-content
-description: The DNS_NAPTR_DATA structure represents a Naming Authority Pointer (NAPTR) DNS Resource Record (RR) as specified in RFC 2915.
-old-location: dns\dns_naptr_data.htm
+description: The DNS_SRV_DATA structure represents a DNS service (SRV) record as specified in RFC 2782.
+old-location: dns\dns_srv_data.htm
 old-project: DNS
-ms.assetid: 8f576efb-4ef3-4fc0-8cf5-d373460a3b3c
+ms.assetid: 212db7ac-a5e3-4e58-b1c2-0eb551403dfc
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
-ms.keywords: "*PDNS_NAPTR_DATA, *PDNS_NAPTR_DATAW, DNS_NAPTR_DATA, DNS_NAPTR_DATA structure [DNS], DNS_NAPTR_DATAW, PDNS_NAPTR_DATA, PDNS_NAPTR_DATA structure pointer [DNS], dns.dns_naptr_data, windns/DNS_NAPTR_DATA, windns/PDNS_NAPTR_DATA"
+ms.date: 4/18/2018
+ms.keywords: "*PDNS_SRV_DATA, *PDNS_SRV_DATAA, DNS_SRV_DATA, DNS_SRV_DATA structure [DNS], DNS_SRV_DATAA, PDNS_SRV_DATA, PDNS_SRV_DATA structure pointer [DNS], _dns_dns_srv_data, dns.dns_srv_data, windns/DNS_SRV_DATA, windns/PDNS_SRV_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: DNS_NAPTR_DATAW, *PDNS_NAPTR_DATAW
+req.typenames: DNS_SRV_DATAA, *PDNS_SRV_DATAA
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	Windns.h
 api_name:
--	DNS_NAPTR_DATA
+-	DNS_SRV_DATA
 product: Windows
 targetos: Windows
 req.lib: 
@@ -44,14 +44,14 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# DNS_NAPTR_DATAW structure
+# DNS_SRV_DATAA structure
 
 
 ## -description
 
 
 The 
-<b>DNS_NAPTR_DATA</b> structure represents a Naming Authority Pointer (NAPTR) DNS Resource Record (RR) as specified in <a href="http://go.microsoft.com/fwlink/p/?linkid=107024">RFC 2915</a>.
+<b>DNS_SRV_DATA</b> structure represents a DNS service (SRV) record as specified in <a href="http://go.microsoft.com/fwlink/p/?linkid=90381">RFC 2782</a>.
 
 
 ## -struct-fields
@@ -59,34 +59,40 @@ The
 
 
 
-### -field wOrder
+### -field pNameTarget
 
- A value that determines the NAPTR RR processing order as defined in section 2 of <a href="http://go.microsoft.com/fwlink/p/?linkid=107024">RFC 2915</a>.
-
-
-### -field wPreference
-
-A value that determines the NAPTR RR processing  order  for records with the same <b>wOrder</b> value as defined in section 2 of <a href="http://go.microsoft.com/fwlink/p/?linkid=107024">RFC 2915</a>.
+A pointer to a string that represents the target host.
 
 
-### -field pFlags
+### -field wPriority
 
-A pointer to a string  that represents a set of NAPTR RR flags which determine the interpretation and processing of NAPTR record fields as defined in section 2 of <a href="http://go.microsoft.com/fwlink/p/?linkid=107024">RFC 2915</a>.
-
-
-### -field pService
-
-A pointer to a string that represents the available services in this rewrite path as defined in section 2 of <a href="http://go.microsoft.com/fwlink/p/?linkid=107024">RFC 2915</a>.
+The priority of the target host specified in <b>pNameTarget</b>. Lower numbers imply higher priority to clients attempting to use this service.
 
 
-### -field pRegularExpression
+### -field wWeight
 
-A pointer to a string that represents a substitution expression as defined in sections 2 and 3 of <a href="http://go.microsoft.com/fwlink/p/?linkid=107024">RFC 2915</a>.
+The relative weight of the target host in <b>pNameTarget</b> to other hosts with the same <b>wPriority</b>. The chances of using this host should be proportional to its weight.
 
 
-### -field pReplacement
+### -field wPort
 
-A pointer to a string that represents the next NAPTR query name as defined in section 2 of <a href="http://go.microsoft.com/fwlink/p/?linkid=107024">RFC 2915</a>.
+The port used on the target host for this service.
+
+
+### -field Pad
+
+Reserved for padding. Do not use.
+
+
+## -remarks
+
+
+
+The 
+<b>DNS_SRV_DATA</b> structure is used in conjunction with the 
+<a href="https://msdn.microsoft.com/ab7b96a5-346f-4e01-bb2a-885f44764590">DNS_RECORD</a> structure to programmatically manage DNS entries.
+
+
 
 
 ## -see-also

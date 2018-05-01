@@ -7,7 +7,7 @@ old-location: tablet\istylusplugin_stylusdown.htm
 old-project: tablet
 ms.assetid: 13fb831c-e3e8-4e04-81ce-d4658be105a0
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: 13fb831c-e3e8-4e04-81ce-d4658be105a0, IStylusPlugin, IStylusPlugin interface [Tablet PC], StylusDown method, IStylusPlugin::StylusDown, StylusDown method [Tablet PC], StylusDown method [Tablet PC], IStylusPlugin interface, StylusDown,IStylusPlugin.StylusDown, rtscom/IStylusPlugin::StylusDown, tablet.istylusplugin_stylusdown
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: RTSCom.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IStylusPlugin::StylusDown method

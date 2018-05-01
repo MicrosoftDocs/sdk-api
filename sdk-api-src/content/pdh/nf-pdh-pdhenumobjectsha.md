@@ -7,7 +7,7 @@ old-location: perf\pdhenumobjectsh.htm
 old-project: PerfCtrs
 ms.assetid: 8f68a7a8-cc56-4f7f-a86f-4b439738808d
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/23/2018
 ms.keywords: FALSE, PERF_DETAIL_ADVANCED, PERF_DETAIL_EXPERT, PERF_DETAIL_NOVICE, PERF_DETAIL_WIZARD, PdhEnumObjectsH, PdhEnumObjectsH function [Perf], PdhEnumObjectsHA, PdhEnumObjectsHW, TRUE, _win32_pdhenumobjectsh, base.pdhenumobjectsh, pdh/PdhEnumObjectsH, pdh/PdhEnumObjectsHA, pdh/PdhEnumObjectsHW, perf.pdhenumobjectsh
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: Pdh.lib
 req.dll: Pdh.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # PdhEnumObjectsHA function

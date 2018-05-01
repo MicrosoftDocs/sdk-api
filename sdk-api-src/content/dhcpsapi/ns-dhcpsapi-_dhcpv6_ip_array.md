@@ -7,7 +7,7 @@ old-location: dhcp\dhcpv6_ip_array.htm
 old-project: DHCP
 ms.assetid: B87CF991-FFC8-4CB4-8EE9-66716EC9B58D
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/7/2018
 ms.keywords: "*LPDHCPV6_IP_ARRAY, DHCPV6_IP_ARRAY, DHCPV6_IP_ARRAY structure [DHCP], PDHCPV6_IP_ARRAY, PDHCPV6_IP_ARRAY structure pointer [DHCP], _DHCPV6_IP_ARRAY, dhcp.dhcpv6_ip_array, dhcpsapi/DHCPV6_IP_ARRAY, dhcpsapi/PDHCPV6_IP_ARRAY"
 ms.prod: windows-hardware
 ms.technology: windows-devices

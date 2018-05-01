@@ -7,7 +7,7 @@ old-location: cos\icomcrmevents_oncrmdone.htm
 old-project: cossdk
 ms.assetid: 8845fd4d-a1a8-40cf-9359-5a2900432f32
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: IComCRMEvents, IComCRMEvents interface [COM+], OnCRMDone method, IComCRMEvents::OnCRMDone, OnCRMDone method [COM+], OnCRMDone method [COM+], IComCRMEvents interface, OnCRMDone,IComCRMEvents.OnCRMDone, _dtc_IComCRMEvents_OnCRMDone, comsvcs/IComCRMEvents::OnCRMDone, cos.icomcrmevents_oncrmdone
 ms.prod: windows-hardware
 ms.technology: windows-devices

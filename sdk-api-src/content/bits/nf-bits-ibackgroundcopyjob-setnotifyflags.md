@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyjob_setnotifyflags.htm
 old-project: Bits
 ms.assetid: 24aa6445-d7bd-4825-9121-402e63ae6f69
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/10/2018
 ms.keywords: BG_NOTIFY_DISABLE, BG_NOTIFY_FILE_RANGES_TRANSFERRED, BG_NOTIFY_FILE_TRANSFERRED, BG_NOTIFY_JOB_ERROR, BG_NOTIFY_JOB_MODIFICATION, BG_NOTIFY_JOB_TRANSFERRED, IBackgroundCopyJob, IBackgroundCopyJob interface [BITS], SetNotifyFlags method, IBackgroundCopyJob::SetNotifyFlags, SetNotifyFlags method [BITS], SetNotifyFlags method [BITS], IBackgroundCopyJob interface, SetNotifyFlags,IBackgroundCopyJob.SetNotifyFlags, _drz_ibackgroundcopyjob_setnotifyflags, bits.ibackgroundcopyjob_setnotifyflags, bits/IBackgroundCopyJob::SetNotifyFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices

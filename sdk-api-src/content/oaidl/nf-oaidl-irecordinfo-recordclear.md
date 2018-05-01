@@ -7,7 +7,7 @@ old-location: automat\irecordinfo_recordclear.htm
 old-project: automat
 ms.assetid: 979b0702-3342-4036-8113-c84728436ab6
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: IRecordInfo, IRecordInfo interface [Automation], RecordClear method, IRecordInfo::RecordClear, RecordClear method [Automation], RecordClear method [Automation], IRecordInfo interface, RecordClear,IRecordInfo.RecordClear, _oa96_IRecordInfo_RecordClear, automat.irecordinfo_recordclear, oaidl/IRecordInfo::RecordClear
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IRecordInfo::RecordClear method

@@ -7,7 +7,7 @@ old-location: automat\icreatetypeinfo_setguid.htm
 old-project: automat
 ms.assetid: 031bc83d-8e0c-49da-aa15-cd44af469592
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: ICreateTypeInfo, ICreateTypeInfo interface [Automation], SetGuid method, ICreateTypeInfo::SetGuid, SetGuid method [Automation], SetGuid method [Automation], ICreateTypeInfo interface, SetGuid,ICreateTypeInfo.SetGuid, _oa96_ICreateTypeInfo_SetGuid, automat.icreatetypeinfo_setguid, oaidl/ICreateTypeInfo::SetGuid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ICreateTypeInfo::SetGuid method

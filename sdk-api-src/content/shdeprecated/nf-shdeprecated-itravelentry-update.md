@@ -7,7 +7,7 @@ old-location: shell\ITravelEntry_Update.htm
 old-project: shell
 ms.assetid: 49861eb7-0e8e-41d9-b9b7-3b9bd35d0e52
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: FALSE, ITravelEntry, ITravelEntry interface [Windows Shell], Update method, ITravelEntry::Update, TRUE, Update method [Windows Shell], Update method [Windows Shell], ITravelEntry interface, Update,ITravelEntry.Update, shdeprecated/ITravelEntry::Update, shell.ITravelEntry_Update, zone_ITravelEntry_Update
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\iamdevmemoryallocator_checkmemory.htm
 old-project: DirectShow
 ms.assetid: d51be809-4a97-4098-9ef3-8ed6603f26c0
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: CheckMemory method [DirectShow], CheckMemory method [DirectShow], IAMDevMemoryAllocator interface, CheckMemory,IAMDevMemoryAllocator.CheckMemory, IAMDevMemoryAllocator, IAMDevMemoryAllocator interface [DirectShow], CheckMemory method, IAMDevMemoryAllocator::CheckMemory, IAMDevMemoryAllocatorCheckMemory, dshow.iamdevmemoryallocator_checkmemory, strmif/IAMDevMemoryAllocator::CheckMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\getappcontainerfolderpath.htm
 old-project: shell
 ms.assetid: 7D3AB78D-C094-4F89-8032-13F3C137E910
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetAppContainerFolderPath, GetAppContainerFolderPath function [Windows Shell], shell.getappcontainerfolderpath, userenv/GetAppContainerFolderPath
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: SOFTDISTINFO, *LPSOFTDISTINFO
+req.typenames: USB_UNICODE_NAME, *PUSB_UNICODE_NAME
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,7 +7,7 @@ old-location: security\ipolicyqualifier_initializeencode_method.htm
 old-project: SecCertEnroll
 ms.assetid: fc8b5916-0557-4f9b-8478-169a3dd9cebc
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: IPolicyQualifier, IPolicyQualifier interface [Security], InitializeEncode method, IPolicyQualifier::InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security], IPolicyQualifier interface, InitializeEncode,IPolicyQualifier.InitializeEncode, PolicyQualifierTypeUnknown, PolicyQualifierTypeUrl, PolicyQualifierTypeUserNotice, certenroll/IPolicyQualifier::InitializeEncode, security.ipolicyqualifier_initializeencode_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

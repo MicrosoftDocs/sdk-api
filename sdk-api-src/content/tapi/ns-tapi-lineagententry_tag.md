@@ -7,7 +7,7 @@ old-location: tapi2\lineagententry_str.htm
 old-project: Tapi
 ms.assetid: 89feff58-3396-4999-be24-4d14839378e1
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: "*LPLINEAGENTENTRY, LINEAGENTENTRY, LINEAGENTENTRY structure [TAPI 2.2], LPLINEAGENTENTRY, LPLINEAGENTENTRY structure pointer [TAPI 2.2], _tapi2_lineagententry_str, lineagententry_tag, tapi/LINEAGENTENTRY, tapi/LPLINEAGENTENTRY, tapi2.lineagententry_str"
 ms.prod: windows-hardware
 ms.technology: windows-devices

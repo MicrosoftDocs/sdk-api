@@ -7,7 +7,7 @@ old-location: com\imessagefilter_retryrejectedcall.htm
 old-project: com
 ms.assetid: 3f800819-2a21-4e46-ad15-f9594fac1a3d
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IMessageFilter, IMessageFilter interface [COM], RetryRejectedCall method, IMessageFilter::RetryRejectedCall, RetryRejectedCall method [COM], RetryRejectedCall method [COM], IMessageFilter interface, RetryRejectedCall,IMessageFilter.RetryRejectedCall, _com_imessagefilter_retryrejectedcall, com.imessagefilter_retryrejectedcall, objidl/IMessageFilter::RetryRejectedCall
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMessageFilter::RetryRejectedCall method

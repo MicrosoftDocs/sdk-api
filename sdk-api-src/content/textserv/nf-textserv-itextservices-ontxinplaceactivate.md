@@ -7,7 +7,7 @@ old-location: controls\ITextServices_OnTxInPlaceActivate.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\ontxinplaceactivate.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextServices, ITextServices interface [Windows Controls], OnTxInPlaceActivate method, ITextServices::OnTxInPlaceActivate, OnTxInPlaceActivate method [Windows Controls], OnTxInPlaceActivate method [Windows Controls], ITextServices interface, OnTxInPlaceActivate,ITextServices.OnTxInPlaceActivate, _win32_ITextServices_OnTxInPlaceActivate, _win32_ITextServices_OnTxInPlaceActivate_cpp, controls.ITextServices_OnTxInPlaceActivate, controls._win32_ITextServices_OnTxInPlaceActivate, textserv/ITextServices::OnTxInPlaceActivate
 ms.prod: windows-hardware
 ms.technology: windows-devices

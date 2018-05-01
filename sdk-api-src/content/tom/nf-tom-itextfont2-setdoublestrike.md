@@ -7,7 +7,7 @@ old-location: controls\itextfont2_setdoublestrike.htm
 old-project: Controls
 ms.assetid: bed8ce93-5c3a-43ee-b9c7-c1fd42481bbd
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextFont2, ITextFont2 interface [Windows Controls], SetDoubleStrike method, ITextFont2::SetDoubleStrike, SetDoubleStrike method [Windows Controls], SetDoubleStrike method [Windows Controls], ITextFont2 interface, SetDoubleStrike,ITextFont2.SetDoubleStrike, controls.itextfont2_setdoublestrike, tom/ITextFont2::SetDoubleStrike
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: iphlp\createpersistenttcpportreservation.htm
 old-project: IpHlp
 ms.assetid: 19DAF828-B0E4-49E2-843D-7350C8083C45
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 4/13/2018
 ms.keywords: CreatePersistentTcpPortReservation, CreatePersistentTcpPortReservation function [IP Helper], iphlp.createpersistenttcpportreservation, iphlpapi/CreatePersistentTcpPortReservation
 ms.prod: windows-hardware
 ms.technology: windows-devices

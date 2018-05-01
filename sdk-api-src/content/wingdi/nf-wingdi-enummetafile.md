@@ -7,7 +7,7 @@ old-location: gdi\enummetafile.htm
 old-project: gdi
 ms.assetid: b11c7467-64a9-442b-8dee-26e15f64a26b
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/17/2018
 ms.keywords: EnumMetaFile, EnumMetaFile function [Windows GDI], _win32_EnumMetaFile, gdi.enummetafile, wingdi/EnumMetaFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: FAX_TIME, *PFAX_TIME
+req.typenames: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
 topic_type:
 -	APIRef
 -	kbSyntax

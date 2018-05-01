@@ -7,7 +7,7 @@ old-location: wmformat\iwmsinternaladminnetsource_getcredentials.htm
 old-project: wmformat
 ms.assetid: e4d6bcc3-a32b-4270-8b43-f3b6a5046fd6
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: GetCredentials method [windows Media Format], GetCredentials method [windows Media Format], IWMSInternalAdminNetSource interface, GetCredentials,IWMSInternalAdminNetSource.GetCredentials, IWMSInternalAdminNetSource, IWMSInternalAdminNetSource interface [windows Media Format], GetCredentials method, IWMSInternalAdminNetSource::GetCredentials, IWMSInternalAdminNetSourceGetCredentials, wmformat.iwmsinternaladminnetsource_getcredentials, wmsinternaladminnetsource/IWMSInternalAdminNetSource::GetCredentials
 ms.prod: windows-hardware
 ms.technology: windows-devices

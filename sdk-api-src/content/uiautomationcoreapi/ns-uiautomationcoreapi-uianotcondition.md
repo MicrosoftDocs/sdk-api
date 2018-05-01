@@ -7,7 +7,7 @@ old-location: winauto\uiauto_UiaNotConditionStruct.htm
 old-project: WinAuto
 ms.assetid: 56f3f6b2-31b6-4eba-a6be-6a64f72e98df
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: UiaNotCondition, UiaNotCondition structure [Windows Accessibility], uiauto.uiauto_UiaNotConditionStruct, uiauto_UiaNotConditionStruct, uiautomationcoreapi/UiaNotCondition, winauto.uiauto_UiaNotConditionStruct
 ms.prod: windows-hardware
 ms.technology: windows-devices

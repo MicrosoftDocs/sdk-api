@@ -7,7 +7,7 @@ old-location: security\crl_dist_points_info.htm
 old-project: SecCrypto
 ms.assetid: cc0fe49c-80ab-42d8-9756-a6d6b885761e
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: "*PCRL_DIST_POINTS_INFO, CRL_DIST_POINTS_INFO, CRL_DIST_POINTS_INFO structure [Security], PCRL_DIST_POINTS_INFO, PCRL_DIST_POINTS_INFO structure pointer [Security], _CRL_DIST_POINTS_INFO, _crypto2_crl_dist_points_info, security.crl_dist_points_info, wincrypt/CRL_DIST_POINTS_INFO, wincrypt/PCRL_DIST_POINTS_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

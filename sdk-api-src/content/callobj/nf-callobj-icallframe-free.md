@@ -7,7 +7,7 @@ old-location: com\icallframe_free.htm
 old-project: com
 ms.assetid: 97261d93-40cf-4a27-9bee-677600c04699
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: Free method [COM], Free method [COM], ICallFrame interface, Free,ICallFrame.Free, ICallFrame, ICallFrame interface [COM], Free method, ICallFrame::Free, _com_icallframe_free, callobj/ICallFrame::Free, com.icallframe_free
 ms.prod: windows-hardware
 ms.technology: windows-devices

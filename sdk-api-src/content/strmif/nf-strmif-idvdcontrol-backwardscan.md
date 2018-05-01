@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol_backwardscan.htm
 old-project: DirectShow
 ms.assetid: 9d2b1635-9b02-465a-a725-8b7985b651fb
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: BackwardScan method [DirectShow], BackwardScan method [DirectShow], IDvdControl interface, BackwardScan,IDvdControl.BackwardScan, IDvdControl, IDvdControl interface [DirectShow], BackwardScan method, IDvdControl::BackwardScan, IDvdControlBackwardScan, dshow.idvdcontrol_backwardscan, strmif/IDvdControl::BackwardScan
 ms.prod: windows-hardware
 ms.technology: windows-devices

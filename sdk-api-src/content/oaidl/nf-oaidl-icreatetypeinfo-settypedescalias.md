@@ -7,7 +7,7 @@ old-location: automat\icreatetypeinfo_settypedescalias.htm
 old-project: automat
 ms.assetid: 63435592-9fc8-4d49-a388-87f1d15f2603
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: ICreateTypeInfo, ICreateTypeInfo interface [Automation], SetTypeDescAlias method, ICreateTypeInfo::SetTypeDescAlias, SetTypeDescAlias method [Automation], SetTypeDescAlias method [Automation], ICreateTypeInfo interface, SetTypeDescAlias,ICreateTypeInfo.SetTypeDescAlias, _oa96_ICreateTypeInfo_SetTypeDescAlias, automat.icreatetypeinfo_settypedescalias, oaidl/ICreateTypeInfo::SetTypeDescAlias
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ICreateTypeInfo::SetTypeDescAlias method

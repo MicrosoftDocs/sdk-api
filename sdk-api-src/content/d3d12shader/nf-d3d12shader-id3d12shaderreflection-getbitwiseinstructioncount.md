@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12shaderreflection_getbitwiseinstructioncount.htm
 old-project: direct3d12
 ms.assetid: 6862DC01-E75B-4913-882C-27C1CC659086
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: GetBitwiseInstructionCount method, GetBitwiseInstructionCount method, ID3D12ShaderReflection interface, GetBitwiseInstructionCount,ID3D12ShaderReflection.GetBitwiseInstructionCount, ID3D12ShaderReflection, ID3D12ShaderReflection interface, GetBitwiseInstructionCount method, ID3D12ShaderReflection::GetBitwiseInstructionCount, d3d12shader/ID3D12ShaderReflection::GetBitwiseInstructionCount, direct3d12.id3d12shaderreflection_getbitwiseinstructioncount
 ms.prod: windows-hardware
 ms.technology: windows-devices

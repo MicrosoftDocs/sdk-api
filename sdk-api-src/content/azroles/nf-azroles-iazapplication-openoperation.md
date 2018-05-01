@@ -7,7 +7,7 @@ old-location: security\iazapplication_openoperation.htm
 old-project: SecAuthZ
 ms.assetid: 37dddf38-a79b-419f-891b-8da7dc2bdf42
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: AzApplication object [Security], OpenOperation method, IAzApplication, IAzApplication interface [Security], OpenOperation method, IAzApplication::OpenOperation, OpenOperation method [Security], OpenOperation method [Security], AzApplication object, OpenOperation method [Security], IAzApplication interface, OpenOperation,IAzApplication.OpenOperation, azroles/IAzApplication::OpenOperation, security.iazapplication_openoperation
 ms.prod: windows-hardware
 ms.technology: windows-devices

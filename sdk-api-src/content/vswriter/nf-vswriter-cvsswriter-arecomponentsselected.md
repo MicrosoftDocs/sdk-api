@@ -7,7 +7,7 @@ old-location: base\cvsswriter_arecomponentsselected.htm
 old-project: VSS
 ms.assetid: da84f1ab-8712-436f-8ae7-ba3d52a761c0
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: AreComponentsSelected method [VSS], AreComponentsSelected method [VSS], CVssWriter class, AreComponentsSelected,CVssWriter.AreComponentsSelected, CVssWriter, CVssWriter class [VSS], AreComponentsSelected method, CVssWriter::AreComponentsSelected, _win32_cvsswriter_arecomponentsselected, base.cvsswriter_arecomponentsselected, vswriter/CVssWriter::AreComponentsSelected
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\ix509extensionenhancedkeyusage_initializeencode_method.ht
 old-project: SecCertEnroll
 ms.assetid: 6cb12736-db5d-4d65-b32f-4bd11ceea01d
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: IX509ExtensionEnhancedKeyUsage, IX509ExtensionEnhancedKeyUsage interface [Security], InitializeEncode method, IX509ExtensionEnhancedKeyUsage::InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security], IX509ExtensionEnhancedKeyUsage interface, InitializeEncode,IX509ExtensionEnhancedKeyUsage.InitializeEncode, certenroll/IX509ExtensionEnhancedKeyUsage::InitializeEncode, security.ix509extensionenhancedkeyusage_initializeencode_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

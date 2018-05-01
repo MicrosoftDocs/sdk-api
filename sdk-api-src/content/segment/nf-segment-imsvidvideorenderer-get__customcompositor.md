@@ -7,7 +7,7 @@ old-location: mstv\imsvidvideorenderer_get__customcompositor.htm
 old-project: mstv
 ms.assetid: cafdc512-2994-4374-9396-b0bb946bc490
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidVideoRenderer, IMSVidVideoRenderer interface [Microsoft TV Technologies], get__CustomCompositor method, IMSVidVideoRenderer::get__CustomCompositor, IMSVidVideoRendererget__CustomCompositor, get__CustomCompositor method [Microsoft TV Technologies], get__CustomCompositor method [Microsoft TV Technologies], IMSVidVideoRenderer interface, get__CustomCompositor,IMSVidVideoRenderer.get__CustomCompositor, mstv.imsvidvideorenderer_get__customcompositor, segment/IMSVidVideoRenderer::get__CustomCompositor
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidVideoRenderer::get__CustomCompositor method

@@ -7,7 +7,7 @@ old-location: wmp\iwmpsyncdevice_isidentical.htm
 old-project: WMP
 ms.assetid: 4335d480-5af0-4764-b8f8-0e6edc1598b7
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPSyncDevice, IWMPSyncDevice interface [Windows Media Player], isIdentical method, IWMPSyncDevice::isIdentical, IWMPSyncDeviceisIdentical, isIdentical method [Windows Media Player], isIdentical method [Windows Media Player], IWMPSyncDevice interface, isIdentical,IWMPSyncDevice.isIdentical, wmp.iwmpsyncdevice_isidentical, wmp/IWMPSyncDevice::isIdentical
 ms.prod: windows-hardware
 ms.technology: windows-devices

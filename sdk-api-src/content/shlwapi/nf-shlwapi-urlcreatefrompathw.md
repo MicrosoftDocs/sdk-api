@@ -7,7 +7,7 @@ old-location: shell\UrlCreateFromPath.htm
 old-project: shell
 ms.assetid: b69ab203-daab-4951-b3b9-c5ca37c532b3
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: UrlCreateFromPath, UrlCreateFromPath function [Windows Shell], UrlCreateFromPathA, UrlCreateFromPathW, _win32_UrlCreateFromPath, shell.UrlCreateFromPath, shlwapi/UrlCreateFromPath, shlwapi/UrlCreateFromPathA, shlwapi/UrlCreateFromPathW
 ms.prod: windows-hardware
 ms.technology: windows-devices

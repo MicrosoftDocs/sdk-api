@@ -7,7 +7,7 @@ old-location: winauto\uiauto_istylesprovider_fillcolor.htm
 old-project: WinAuto
 ms.assetid: E5E7DA9D-02AD-4802-8B7E-6177CFC2925E
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: FillColor property [Windows Accessibility], FillColor property [Windows Accessibility], IStylesProvider interface, IStylesProvider, IStylesProvider interface [Windows Accessibility], FillColor property, IStylesProvider.FillColor, IStylesProvider::get_FillColor, get_FillColor,IStylesProvider.get_FillColor, uiautomationcore/IStylesProvider::FillColor, uiautomationcore/IStylesProvider::get_FillColor, winauto.uiauto_istylesprovider_fillcolor
 ms.prod: windows-hardware
 ms.technology: windows-devices

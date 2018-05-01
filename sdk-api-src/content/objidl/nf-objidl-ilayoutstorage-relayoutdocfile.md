@@ -7,7 +7,7 @@ old-location: stg\ilayoutstorage_relayoutdocfile.htm
 old-project: Stg
 ms.assetid: 5db3a26c-595a-4c9b-bb6d-b170eb9864df
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/20/2018
 ms.keywords: ILayoutStorage, ILayoutStorage interface [Structured Storage], ReLayoutDocfile method, ILayoutStorage::ReLayoutDocfile, ReLayoutDocfile method [Structured Storage], ReLayoutDocfile method [Structured Storage], ILayoutStorage interface, ReLayoutDocfile,ILayoutStorage.ReLayoutDocfile, _stg_ilayoutstorage_relayoutdocfile, objidl/ILayoutStorage::ReLayoutDocfile, stg.ilayoutstorage_relayoutdocfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ILayoutStorage::ReLayoutDocfile method

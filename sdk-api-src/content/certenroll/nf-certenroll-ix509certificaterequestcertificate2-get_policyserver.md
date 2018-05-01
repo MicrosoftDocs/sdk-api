@@ -7,7 +7,7 @@ old-location: security\ix509certificaterequestcertificate2_policyserver.htm
 old-project: SecCertEnroll
 ms.assetid: 698f78a3-75aa-4499-a3df-00a3e1d0a607
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: IX509CertificateRequestCertificate2, IX509CertificateRequestCertificate2 interface [Security], PolicyServer property, IX509CertificateRequestCertificate2.PolicyServer, IX509CertificateRequestCertificate2::get_PolicyServer, PolicyServer property [Security], PolicyServer property [Security], IX509CertificateRequestCertificate2 interface, certenroll/IX509CertificateRequestCertificate2::PolicyServer, certenroll/IX509CertificateRequestCertificate2::get_PolicyServer, get_PolicyServer,IX509CertificateRequestCertificate2.get_PolicyServer, security.ix509certificaterequestcertificate2_policyserver
 ms.prod: windows-hardware
 ms.technology: windows-devices

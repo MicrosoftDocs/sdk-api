@@ -7,7 +7,7 @@ old-location: mstv\ibda_dridrmservice_getdrmstatus.htm
 old-project: mstv
 ms.assetid: 145e4716-05e1-41b8-98f3-72e719ca8b9f
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetDRMStatus method [DirectShow], GetDRMStatus method [DirectShow], IBDA_DRIDRMService interface, GetDRMStatus,IBDA_DRIDRMService.GetDRMStatus, IBDA_DRIDRMService, IBDA_DRIDRMService interface [DirectShow], GetDRMStatus method, IBDA_DRIDRMService::GetDRMStatus, bdaiface/IBDA_DRIDRMService::GetDRMStatus, mstv.ibda_dridrmservice_getdrmstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

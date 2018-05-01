@@ -7,7 +7,7 @@ old-location: automat\icreateerrorinfo_sethelpfile.htm
 old-project: automat
 ms.assetid: bb439d74-fd52-4c95-afc5-d57e2fe5029d
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: ICreateErrorInfo, ICreateErrorInfo interface [Automation], SetHelpFile method, ICreateErrorInfo::SetHelpFile, SetHelpFile method [Automation], SetHelpFile method [Automation], ICreateErrorInfo interface, SetHelpFile,ICreateErrorInfo.SetHelpFile, _oa96_ICreateErrorInfo_SetHelpFile, automat.icreateerrorinfo_sethelpfile, oaidl/ICreateErrorInfo::SetHelpFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ICreateErrorInfo::SetHelpFile method

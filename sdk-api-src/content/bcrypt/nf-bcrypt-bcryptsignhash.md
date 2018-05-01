@@ -7,7 +7,7 @@ old-location: security\bcryptsignhash_func.htm
 old-project: SecCNG
 ms.assetid: f402ea9e-89ae-4ccc-9591-aa2328287c0e
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: BCRYPT_PAD_PKCS1, BCRYPT_PAD_PSS, BCryptSignHash, BCryptSignHash function [Security], bcrypt/BCryptSignHash, security.bcryptsignhash_func
 ms.prod: windows-hardware
 ms.technology: windows-devices

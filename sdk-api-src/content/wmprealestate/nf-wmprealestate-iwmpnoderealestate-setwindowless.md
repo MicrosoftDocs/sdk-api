@@ -7,7 +7,7 @@ old-location: wmp\iwmpnoderealestate_setwindowless.htm
 old-project: WMP
 ms.assetid: 408d33f6-916f-4443-8a92-fab00c11cad4
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPNodeRealEstate, IWMPNodeRealEstate interface [Windows Media Player], SetWindowless method, IWMPNodeRealEstate::SetWindowless, IWMPNodeRealEstateSetWindowlessRendering, SetWindowless method [Windows Media Player], SetWindowless method [Windows Media Player], IWMPNodeRealEstate interface, SetWindowless,IWMPNodeRealEstate.SetWindowless, wmp.iwmpnoderealestate_setwindowless, wmprealestate/IWMPNodeRealEstate::SetWindowless
 ms.prod: windows-hardware
 ms.technology: windows-devices

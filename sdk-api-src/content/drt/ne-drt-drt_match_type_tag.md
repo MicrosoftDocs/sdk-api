@@ -7,7 +7,7 @@ old-location: p2p\drt_match_type.htm
 old-project: P2PSdk
 ms.assetid: ab6e3a91-bd40-4a5e-889e-4d9c7279a4a3
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/23/2018
 ms.keywords: DRT_MATCH_EXACT, DRT_MATCH_INTERMEDIATE, DRT_MATCH_NEAR, DRT_MATCH_TYPE, DRT_MATCH_TYPE enumeration [Peer Networking], drt/DRT_MATCH_EXACT, drt/DRT_MATCH_INTERMEDIATE, drt/DRT_MATCH_NEAR, drt/DRT_MATCH_TYPE, drt_match_type_tag, p2p.drt_match_type
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tapi2\linesetcalltreatment.htm
 old-project: Tapi
 ms.assetid: 0f1a3303-f6c3-4a5f-99bd-35e107c9b0b0
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: "_tapi2_linesetcalltreatment, lineSetCallTreatment, lineSetCallTreatment function [TAPI 2.2], tapi/lineSetCallTreatment, tapi2.linesetcalltreatment"
 ms.prod: windows-hardware
 ms.technology: windows-devices

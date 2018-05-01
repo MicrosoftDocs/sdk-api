@@ -7,7 +7,7 @@ old-location: nwifi\wlanhostednetworkinitsettings.htm
 old-project: NativeWiFi
 ms.assetid: aed4db5d-9740-43ee-bf09-7a4a5abae953
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/13/2018
 ms.keywords: WlanHostedNetworkInitSettings, WlanHostedNetworkInitSettings function [NativeWIFI], nwifi.wlanhostednetworkinitsettings, wlanapi/WlanHostedNetworkInitSettings
 ms.prod: windows-hardware
 ms.technology: windows-devices

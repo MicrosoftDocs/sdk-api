@@ -7,7 +7,7 @@ old-location: setup\source_media_str.htm
 old-project: SetupApi
 ms.assetid: 93a72ec8-b979-4e61-bb06-eed1a6432f16
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/10/2018
 ms.keywords: "*PSOURCE_MEDIA_W, PSOURCE_MEDIA, PSOURCE_MEDIA structure pointer [Setup API], SOURCE_MEDIA, SOURCE_MEDIA structure [Setup API], SOURCE_MEDIA_W, _SOURCE_MEDIA_W, _setupapi_source_media_str, setup.source_media_str, setupapi/PSOURCE_MEDIA, setupapi/SOURCE_MEDIA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _SOURCE_MEDIA_W structure

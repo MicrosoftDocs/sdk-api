@@ -7,7 +7,7 @@ old-location: security\iazapplicationgroup_description.htm
 old-project: SecAuthZ
 ms.assetid: b2ef8988-b4de-423f-b727-f69a789b98cf
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: AzApplicationGroup object [Security], Description property, Description property [Security], Description property [Security], AzApplicationGroup object, Description property [Security], IAzApplicationGroup interface, IAzApplicationGroup, IAzApplicationGroup interface [Security], Description property, IAzApplicationGroup.Description, IAzApplicationGroup::get_Description, IAzApplicationGroup::put_Description, azroles/IAzApplicationGroup::Description, azroles/IAzApplicationGroup::get_Description, azroles/IAzApplicationGroup::put_Description, put_Description,IAzApplicationGroup.put_Description, security.iazapplicationgroup_description
 ms.prod: windows-hardware
 ms.technology: windows-devices

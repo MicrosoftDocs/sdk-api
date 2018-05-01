@@ -7,7 +7,7 @@ old-location: dshow\ivmrimagepresenterconfig_getrenderingprefs.htm
 old-project: DirectShow
 ms.assetid: e9ca9c02-e38d-4600-aee8-08afd03423ad
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetRenderingPrefs method [DirectShow], GetRenderingPrefs method [DirectShow], IVMRImagePresenterConfig interface, GetRenderingPrefs,IVMRImagePresenterConfig.GetRenderingPrefs, IVMRImagePresenterConfig, IVMRImagePresenterConfig interface [DirectShow], GetRenderingPrefs method, IVMRImagePresenterConfig::GetRenderingPrefs, IVMRImagePresenterConfigGetRenderingPrefs, dshow.ivmrimagepresenterconfig_getrenderingprefs, strmif/IVMRImagePresenterConfig::GetRenderingPrefs
 ms.prod: windows-hardware
 ms.technology: windows-devices

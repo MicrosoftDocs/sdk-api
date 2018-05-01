@@ -7,7 +7,7 @@ old-location: tapi2\linegetrequest.htm
 old-project: Tapi
 ms.assetid: c72ed61f-abbe-4a6d-9f8d-95afbd5dfb04
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: "_tapi2_linegetrequest, lineGetRequest, lineGetRequest function [TAPI 2.2], lineGetRequestA, lineGetRequestW, tapi/lineGetRequest, tapi/lineGetRequestA, tapi/lineGetRequestW, tapi2.linegetrequest"
 ms.prod: windows-hardware
 ms.technology: windows-devices

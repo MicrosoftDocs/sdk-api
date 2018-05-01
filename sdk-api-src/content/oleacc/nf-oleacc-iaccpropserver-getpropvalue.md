@@ -7,7 +7,7 @@ old-location: winauto\iaccpropserver_iaccpropserver__getpropvalue.htm
 old-project: WinAuto
 ms.assetid: 35cb2935-c41b-4588-9199-23789af23b72
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: GetPropValue method [Windows Accessibility], GetPropValue method [Windows Accessibility], IAccPropServer interface, GetPropValue,IAccPropServer.GetPropValue, IAccPropServer, IAccPropServer interface [Windows Accessibility], GetPropValue method, IAccPropServer::GetPropValue, _msaa_IAccPropServer_GetPropValue, msaa.iaccpropserver_iaccpropserver__getpropvalue, oleacc/IAccPropServer::GetPropValue, winauto.iaccpropserver_iaccpropserver__getpropvalue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Oleacc.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IAccPropServer::GetPropValue method

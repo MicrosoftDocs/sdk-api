@@ -7,7 +7,7 @@ old-location: base\ivsscreateexpresswritermetadata_setbackupschema.htm
 old-project: VSS
 ms.assetid: b270424d-61e1-4984-a487-4dcb4e113985
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: IVssCreateExpressWriterMetadata, IVssCreateExpressWriterMetadata interface, SetBackupSchema method, IVssCreateExpressWriterMetadata::SetBackupSchema, SetBackupSchema method, SetBackupSchema method, IVssCreateExpressWriterMetadata interface, SetBackupSchema,IVssCreateExpressWriterMetadata.SetBackupSchema, base.ivsscreateexpresswritermetadata_setbackupschema, vswriter/IVssCreateExpressWriterMetadata::SetBackupSchema
 ms.prod: windows-hardware
 ms.technology: windows-devices

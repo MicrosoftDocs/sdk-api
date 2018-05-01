@@ -7,7 +7,7 @@ old-location: dshow\iselector_get_sourcenodeid.htm
 old-project: DirectShow
 ms.assetid: ae2b0e1a-1527-4634-b2f9-47c9519b55a6
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ISelector, ISelector interface [DirectShow], get_SourceNodeId method, ISelector::get_SourceNodeId, ISelectorget_SourceNodeId, dshow.iselector_get_sourcenodeid, get_SourceNodeId method [DirectShow], get_SourceNodeId method [DirectShow], ISelector interface, get_SourceNodeId,ISelector.get_SourceNodeId, vidcap/ISelector::get_SourceNodeId
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: VIDEOHDR, *PVIDEOHDR, *LPVIDEOHDR
+req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
 topic_type:
 -	APIRef
 -	kbSyntax

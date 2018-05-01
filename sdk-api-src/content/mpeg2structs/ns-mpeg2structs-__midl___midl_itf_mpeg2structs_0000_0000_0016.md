@@ -7,7 +7,7 @@ old-location: mstv\dsmcc_filter_options.htm
 old-project: mstv
 ms.assetid: a8be6d69-1b41-49f0-8588-624b8de98678
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: DSMCC_FILTER_OPTIONS, DSMCC_FILTER_OPTIONS structure [Microsoft TV Technologies], __MIDL___MIDL_itf_mpeg2structs_0000_0000_0016, mpeg2structs/DSMCC_FILTER_OPTIONS, mstv.dsmcc_filter_options
 ms.prod: windows-hardware
 ms.technology: windows-devices

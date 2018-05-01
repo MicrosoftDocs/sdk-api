@@ -7,7 +7,7 @@ old-location: mstv\imsvidctl_put_inputactive.htm
 old-project: mstv
 ms.assetid: 696d8ece-a377-4fe8-a790-a68d1a24e65a
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidCtl, IMSVidCtl interface [Microsoft TV Technologies], put_InputActive method, IMSVidCtl::put_InputActive, IMSVidCtlput_InputActive, mstv.imsvidctl_put_inputactive, msvidctl/IMSVidCtl::put_InputActive, put_InputActive method [Microsoft TV Technologies], put_InputActive method [Microsoft TV Technologies], IMSVidCtl interface, put_InputActive,IMSVidCtl.put_InputActive
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidCtl::put_InputActive method

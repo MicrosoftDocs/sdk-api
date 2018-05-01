@@ -7,7 +7,7 @@ old-location: security\icertpropertyarchivedkeyhash_initialize_method.htm
 old-project: SecCertEnroll
 ms.assetid: 1f201b37-6f3a-4f1c-83b8-2f1dbb1d4d07
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: ICertPropertyArchivedKeyHash, ICertPropertyArchivedKeyHash interface [Security], Initialize method, ICertPropertyArchivedKeyHash::Initialize, Initialize method [Security], Initialize method [Security], ICertPropertyArchivedKeyHash interface, Initialize,ICertPropertyArchivedKeyHash.Initialize, certenroll/ICertPropertyArchivedKeyHash::Initialize, security.icertpropertyarchivedkeyhash_initialize_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

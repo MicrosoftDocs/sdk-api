@@ -7,7 +7,7 @@ old-location: com\oleuignrlprops_struct.htm
 old-project: com
 ms.assetid: 851d66c8-94a7-47ab-95f4-12a34897de20
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*LPOLEUIGNRLPROPSW, *POLEUIGNRLPROPSW, LPOLEUIGNRLPROPS, LPOLEUIGNRLPROPS structure pointer [COM], OLEUIGNRLPROPS, OLEUIGNRLPROPS structure [COM], OLEUIGNRLPROPSA, OLEUIGNRLPROPSW, POLEUIGNRLPROPS, POLEUIGNRLPROPS structure pointer [COM], _ole_OLEUIGNRLPROPS, com.oleuignrlprops_struct, oledlg/LPOLEUIGNRLPROPS, oledlg/OLEUIGNRLPROPS, oledlg/OLEUIGNRLPROPSA, oledlg/OLEUIGNRLPROPSW, oledlg/POLEUIGNRLPROPS, tagOLEUIGNRLPROPSW"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # tagOLEUIGNRLPROPSW structure
@@ -58,11 +58,6 @@ Initializes the <b>General</b> tab of the <b>Object Properties</b> dialog box. A
 ## -struct-fields
 
 
-
-
-### -field lpOP
-
-Used internally.
 
 
 ### -field cbStruct
@@ -93,6 +88,11 @@ Application-defined data that the library passes to the hook function pointed to
 ### -field dwReserved2
 
 This member is reserved.
+
+
+### -field lpOP
+
+Used internally.
 
 
 ## -see-also

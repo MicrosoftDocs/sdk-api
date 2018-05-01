@@ -7,7 +7,7 @@ old-location: mf\imfsinkwriter_placemarker.htm
 old-project: medfound
 ms.assetid: 93140993-a926-437e-bc40-9b011c4c6832
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFSinkWriter, IMFSinkWriter interface [Media Foundation], PlaceMarker method, IMFSinkWriter::PlaceMarker, PlaceMarker method [Media Foundation], PlaceMarker method [Media Foundation], IMFSinkWriter interface, PlaceMarker,IMFSinkWriter.PlaceMarker, mf.imfsinkwriter_placemarker, mfreadwrite/IMFSinkWriter::PlaceMarker
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: cos\ithreadpoolknobs_setminthreads.htm
 old-project: cossdk
 ms.assetid: 17852fb8-7e8e-44bb-99f2-b7b7a5053f49
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: IThreadPoolKnobs, IThreadPoolKnobs interface [COM+], SetMinThreads method, IThreadPoolKnobs::SetMinThreads, SetMinThreads method [COM+], SetMinThreads method [COM+], IThreadPoolKnobs interface, SetMinThreads,IThreadPoolKnobs.SetMinThreads, _cos_IThreadPoolKnobs_SetMinThreads, comsvcs/IThreadPoolKnobs::SetMinThreads, cos.ithreadpoolknobs_setminthreads
 ms.prod: windows-hardware
 ms.technology: windows-devices

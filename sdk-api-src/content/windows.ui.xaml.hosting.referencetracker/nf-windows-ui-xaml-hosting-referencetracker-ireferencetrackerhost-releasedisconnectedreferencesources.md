@@ -7,7 +7,7 @@ old-location: winrt\ireferencetrackerhost_releasedisconnectedreferencesources.ht
 old-project: WinRT
 ms.assetid: c8b6f458-a9b9-41b7-a718-a193803842d8
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/24/2018
 ms.keywords: IReferenceTrackerHost, IReferenceTrackerHost interface [Windows Runtime], ReleaseDisconnectedReferenceSources method, IReferenceTrackerHost::ReleaseDisconnectedReferenceSources, ReleaseDisconnectedReferenceSources method [Windows Runtime], ReleaseDisconnectedReferenceSources method [Windows Runtime], IReferenceTrackerHost interface, ReleaseDisconnectedReferenceSources,IReferenceTrackerHost.ReleaseDisconnectedReferenceSources, windows/IReferenceTrackerHost::ReleaseDisconnectedReferenceSources, winrt.ireferencetrackerhost_releasedisconnectedreferencesources
 ms.prod: windows-hardware
 ms.technology: windows-devices

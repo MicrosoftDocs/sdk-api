@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12commandsignature.htm
 old-project: direct3d12
 ms.assetid: 57EC15D0-9056-4AFC-86EF-3658DEA8AF40
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: ID3D12CommandSignature, ID3D12CommandSignature interface, ID3D12CommandSignature interface, described, d3d12/ID3D12CommandSignature, direct3d12.id3d12commandsignature
 ms.prod: windows-hardware
 ms.technology: windows-devices

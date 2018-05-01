@@ -7,7 +7,7 @@ old-location: wmi\iwbemconfigurerefresher_addrefresher.htm
 old-project: WmiSdk
 ms.assetid: 17eaf6b0-e2e1-4a23-952d-2439da89f765
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: AddRefresher method [Windows Management Instrumentation], AddRefresher method [Windows Management Instrumentation], IWbemConfigureRefresher interface, AddRefresher,IWbemConfigureRefresher.AddRefresher, IWbemConfigureRefresher, IWbemConfigureRefresher interface [Windows Management Instrumentation], AddRefresher method, IWbemConfigureRefresher::AddRefresher, _hmm_iwbemconfigurerefresher_addrefresher, wbemcli/IWbemConfigureRefresher::AddRefresher, wmi.iwbemconfigurerefresher_addrefresher
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: controls\itextdocument2_getversion.htm
 old-project: Controls
 ms.assetid: 4cc4502b-4e7c-4561-b7d4-a248bf248a8a
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: GetVersion method [Windows Controls], GetVersion method [Windows Controls], ITextDocument2 interface, GetVersion,ITextDocument2.GetVersion, ITextDocument2, ITextDocument2 interface [Windows Controls], GetVersion method, ITextDocument2::GetVersion, controls.itextdocument2_getversion, tom/ITextDocument2::GetVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices

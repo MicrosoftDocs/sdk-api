@@ -7,7 +7,7 @@ old-location: base\ivsswmdependency_getlogicalpath.htm
 old-project: VSS
 ms.assetid: 642e9266-40b8-4184-b83f-3131886da32b
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: GetLogicalPath method [VSS], GetLogicalPath method [VSS], IVssWMDependency interface, GetLogicalPath,IVssWMDependency.GetLogicalPath, IVssWMDependency, IVssWMDependency interface [VSS], GetLogicalPath method, IVssWMDependency::GetLogicalPath, _win32_ivsswmdependency_getlogicalpath, base.ivsswmdependency_getlogicalpath, vswriter/IVssWMDependency::GetLogicalPath
 ms.prod: windows-hardware
 ms.technology: windows-devices

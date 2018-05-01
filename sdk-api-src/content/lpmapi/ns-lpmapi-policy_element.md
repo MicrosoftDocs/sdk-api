@@ -59,17 +59,17 @@ The
 
 
 
-### -field usPeLength
+#### - usPeLength
 
 Length of the Policy Element, in bytes.
 
 
-### -field usPeType
+#### - usPeType
 
 Policy Element type.
 
 
-### -field ucPeData
+#### - ucPeData
 
 Policy Element data.
 

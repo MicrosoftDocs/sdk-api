@@ -7,7 +7,7 @@ old-location: security\azbizrulecontext_getparameter.htm
 old-project: SecAuthZ
 ms.assetid: 9c956eea-92a5-4da8-abe0-a5ab4e41ab85
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: AzBizRuleContext object [Security], GetParameter method, GetParameter method [Security], GetParameter method [Security], AzBizRuleContext object, GetParameter method [Security], IAzBizRuleContext interface, GetParameter,IAzBizRuleContext.GetParameter, IAzBizRuleContext, IAzBizRuleContext interface [Security], GetParameter method, IAzBizRuleContext::GetParameter, azroles/IAzBizRuleContext::GetParameter, security.azbizrulecontext_getparameter
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\itoccollection_addentry.htm
 old-project: medfound
 ms.assetid: b4d4e40b-151b-4217-81c8-1eaa8336407d
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: AddEntry method [Media Foundation], AddEntry method [Media Foundation], ITocCollection interface, AddEntry,ITocCollection.AddEntry, ITocCollection, ITocCollection interface [Media Foundation], AddEntry method, ITocCollection::AddEntry, codecapi.itoccollection_addentry, mf.itoccollection_addentry, wmcodecdsp/ITocCollection::AddEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices

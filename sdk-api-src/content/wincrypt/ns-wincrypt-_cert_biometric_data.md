@@ -7,7 +7,7 @@ old-location: security\cert_biometric_data.htm
 old-project: SecCrypto
 ms.assetid: 544297e2-b6a6-4a33-94b6-47066262506a
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: "*PCERT_BIOMETRIC_DATA, CERT_BIOMETRIC_DATA, CERT_BIOMETRIC_DATA structure [Security], CERT_BIOMETRIC_OID_DATA_CHOICE, CERT_BIOMETRIC_PICTURE_TYPE, CERT_BIOMETRIC_PREDEFINED_DATA_CHOICE, CERT_BIOMETRIC_SIGNATURE_TYPE, PCERT_BIOMETRIC_DATA, PCERT_BIOMETRIC_DATA structure pointer [Security], _CERT_BIOMETRIC_DATA, security.cert_biometric_data, wincrypt/CERT_BIOMETRIC_DATA, wincrypt/PCERT_BIOMETRIC_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,11 +58,6 @@ The <b>CERT_BIOMETRIC_DATA</b> structure contains information about biometric da
 
 
 
-### -field DUMMYUNIONNAME
-
- 
-
-
 ### -field dwTypeOfBiometricDataChoice
 
 Specifies the type of biometric data. This can be one of the following values.
@@ -94,6 +89,11 @@ The biometric data type is identified by the <b>pszObjId</b> member.
 </tr>
 </table>
  
+
+
+### -field DUMMYUNIONNAME
+
+ 
 
 
 ### -field HashedUrl

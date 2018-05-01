@@ -7,7 +7,7 @@ old-location: com\iserversecurity_queryblanket.htm
 old-project: com
 ms.assetid: 1a6fd68c-8e71-45f8-8a8e-c8a5f4f36868
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IServerSecurity, IServerSecurity interface [COM], QueryBlanket method, IServerSecurity::QueryBlanket, QueryBlanket method [COM], QueryBlanket method [COM], IServerSecurity interface, QueryBlanket,IServerSecurity.QueryBlanket, _com_iserversecurity_queryblanket, com.iserversecurity_queryblanket, objidlbase/IServerSecurity::QueryBlanket
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IServerSecurity::QueryBlanket method

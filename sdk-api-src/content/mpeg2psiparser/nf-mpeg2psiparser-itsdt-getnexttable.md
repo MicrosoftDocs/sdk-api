@@ -7,7 +7,7 @@ old-location: mstv\itsdt_getnexttable.htm
 old-project: mstv
 ms.assetid: 7b60647a-b668-4884-967d-044ff0d149c2
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetNextTable method [Microsoft TV Technologies], GetNextTable method [Microsoft TV Technologies], ITSDT interface, GetNextTable,ITSDT.GetNextTable, ITSDT, ITSDT interface [Microsoft TV Technologies], GetNextTable method, ITSDT::GetNextTable, ITSDTGetNextTable, mpeg2psiparser/ITSDT::GetNextTable, mstv.itsdt_getnexttable
 ms.prod: windows-hardware
 ms.technology: windows-devices

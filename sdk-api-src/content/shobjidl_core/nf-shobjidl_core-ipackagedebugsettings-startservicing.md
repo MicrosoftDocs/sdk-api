@@ -7,7 +7,7 @@ old-location: winrt\ipackagedebugsettings_startservicing.htm
 old-project: WinRT
 ms.assetid: 8DBD9EF8-F350-4B92-BC4C-6E3ACBBF7D95
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/24/2018
 ms.keywords: IPackageDebugSettings, IPackageDebugSettings interface [Windows Runtime], StartServicing method, IPackageDebugSettings::StartServicing, StartServicing method [Windows Runtime], StartServicing method [Windows Runtime], IPackageDebugSettings interface, StartServicing,IPackageDebugSettings.StartServicing, shobjidl_core/IPackageDebugSettings::StartServicing, winrt.ipackagedebugsettings_startservicing
 ms.prod: windows-hardware
 ms.technology: windows-devices

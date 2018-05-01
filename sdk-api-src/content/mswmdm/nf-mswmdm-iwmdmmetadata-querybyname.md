@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmmetadata_querybyname.htm
 old-project: WMDM
 ms.assetid: e793954b-6aef-4088-97cb-eb1f050cc64b
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: IWMDMMetaData, IWMDMMetaData interface [windows Media Device Manager], QueryByName method, IWMDMMetaData::QueryByName, IWMDMMetaDataQueryByName, QueryByName method [windows Media Device Manager], QueryByName method [windows Media Device Manager], IWMDMMetaData interface, QueryByName,IWMDMMetaData.QueryByName, mswmdm/IWMDMMetaData::QueryByName, wmdm.iwmdmmetadata_querybyname
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IWMDMMetaData::QueryByName method

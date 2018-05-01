@@ -7,7 +7,7 @@ old-location: gdi\createfontindirect.htm
 old-project: gdi
 ms.assetid: b7919fb6-8515-4f1b-af9c-dc7eac381b90
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/17/2018
 ms.keywords: CreateFontIndirect, CreateFontIndirect function [Windows GDI], CreateFontIndirectA, CreateFontIndirectW, _win32_CreateFontIndirect, gdi.createfontindirect, wingdi/CreateFontIndirect, wingdi/CreateFontIndirectA, wingdi/CreateFontIndirectW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: FAX_TIME, *PFAX_TIME
+req.typenames: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxdeviceproviders_item_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_7fsd_cpp.htm
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/18/2018
 ms.keywords: IFaxDeviceProviders, IFaxDeviceProviders interface [Fax Service], get_Item method, IFaxDeviceProviders::get_Item, _mfax_faxdeviceproviders.item_cpp, fax._mfax_faxdeviceproviders_item_cpp, faxcomex/IFaxDeviceProviders::get_Item, get_Item method [Fax Service], get_Item method [Fax Service], IFaxDeviceProviders interface, get_Item,IFaxDeviceProviders.get_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_all_options.htm
 old-project: DHCP
 ms.assetid: b02e3582-c99b-4d5a-aaae-c2fefd7dfaf9
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/7/2018
 ms.keywords: "*LPDHCP_ALL_OPTIONS, DHCP_ALL_OPTIONS, DHCP_ALL_OPTIONS structure [DHCP], LPDHCP_ALL_OPTIONS, LPDHCP_ALL_OPTIONS structure pointer [DHCP], _DHCP_ALL_OPTIONS, dhcp.dhcp_all_options, dhcpsapi/LPDHCP_ALL_OPTIONS, dhcpsapi/_DHCP_ALL_OPTIONS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -57,11 +57,6 @@ The <b>DHCP_ALL_OPTIONS</b> structure defines the set of all options available o
 
 
 
-### -field VendorOptions
-
- 
-
-
 ### -field Flags
 
 Reserved. This value should be set to 0.
@@ -76,6 +71,13 @@ Reserved. This value should be set to 0.
 ### -field NumVendorOptions
 
 Specifies the number of vendor options listed in <b>VendorOptions</b>.
+
+
+### -field VendorOptions
+
+ 
+
+
 
 
 #### - *VendorOptions

@@ -7,7 +7,7 @@ old-location: controls\ITextFont_GetSize.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getsize.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: GetSize method [Windows Controls], GetSize method [Windows Controls], ITextFont interface, GetSize,ITextFont.GetSize, ITextFont, ITextFont interface [Windows Controls], GetSize method, ITextFont::GetSize, _win32_ITextFont_GetSize, _win32_ITextFont_GetSize_cpp, controls.ITextFont_GetSize, controls._win32_ITextFont_GetSize, tom/ITextFont::GetSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

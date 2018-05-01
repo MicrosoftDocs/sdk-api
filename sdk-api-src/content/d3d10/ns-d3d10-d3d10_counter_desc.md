@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_counter_desc.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_counter_desc.htm
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: 5a8f3ccd-0cb9-a3e0-7e55-eb5c1dfe5252, D3D10_COUNTER_DESC, D3D10_COUNTER_DESC structure [Direct3D 10], d3d10/D3D10_COUNTER_DESC, direct3d10.d3d10_counter_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices

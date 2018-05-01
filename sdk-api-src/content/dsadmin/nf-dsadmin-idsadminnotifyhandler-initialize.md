@@ -7,7 +7,7 @@ old-location: ad\idsadminnotifyhandler_initialize.htm
 old-project: AD
 ms.assetid: 7fcd49d3-ccdb-4d55-96ea-cc925a36c366
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/20/2018
 ms.keywords: DSA_NOTIFY_ALL, DSA_NOTIFY_DEL, DSA_NOTIFY_MOV, DSA_NOTIFY_PROP, DSA_NOTIFY_REN, IDsAdminNotifyHandler, IDsAdminNotifyHandler interface [Active Directory], Initialize method, IDsAdminNotifyHandler::Initialize, Initialize method [Active Directory], Initialize method [Active Directory], IDsAdminNotifyHandler interface, Initialize,IDsAdminNotifyHandler.Initialize, ad.idsadminnotifyhandler_initialize, dsadmin/IDsAdminNotifyHandler::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

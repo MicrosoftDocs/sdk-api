@@ -7,7 +7,7 @@ old-location: iphlp\getifstacktable.htm
 old-project: IpHlp
 ms.assetid: c1b0f091-2aef-447e-9866-a886838a6267
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 4/13/2018
 ms.keywords: GetIfStackTable, GetIfStackTable function [IP Helper], iphlp.getifstacktable, netioapi/GetIfStackTable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # GetIfStackTable function

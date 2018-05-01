@@ -7,7 +7,7 @@ old-location: bits\ienumbackgroundcopyjobs_getcount.htm
 old-project: Bits
 ms.assetid: 024ffd11-5084-4ff5-b1b6-9aec3e802900
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/10/2018
 ms.keywords: GetCount method [BITS], GetCount method [BITS], IEnumBackgroundCopyJobs interface, GetCount,IEnumBackgroundCopyJobs.GetCount, IEnumBackgroundCopyJobs, IEnumBackgroundCopyJobs interface [BITS], GetCount method, IEnumBackgroundCopyJobs::GetCount, _drz_ienumbackgroundcopyjobs_getcount, bits.ienumbackgroundcopyjobs_getcount, bits/IEnumBackgroundCopyJobs::GetCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

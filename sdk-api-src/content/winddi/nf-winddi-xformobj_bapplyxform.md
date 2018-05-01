@@ -1,0 +1,157 @@
+---
+UID: NF:winddi.XFORMOBJ_bApplyXform
+title: XFORMOBJ_bApplyXform function
+author: windows-driver-content
+description: The XFORMOBJ_bApplyXform function applies the given transform or its inverse to the given array of points.
+old-location: display\xformobj_bapplyxform.htm
+old-project: display
+ms.assetid: a9267d2a-96ab-4518-8045-428ab74bd599
+ms.author: windowsdriverdev
+ms.date: 4/16/2018
+ms.keywords: XFORMOBJ_bApplyXform, XFORMOBJ_bApplyXform function [Display Devices], display.xformobj_bapplyxform, gdifncs_d95d97d6-6fd2-4deb-b7f9-627eef20fece.xml, winddi/XFORMOBJ_bApplyXform
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: winddi.h
+req.include-header: Winddi.h
+req.target-type: Universal
+req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Win32k.sys
+api_name:
+-	XFORMOBJ_bApplyXform
+product: Windows
+targetos: Windows
+req.lib: Win32k.lib
+req.dll: Win32k.sys
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# XFORMOBJ_bApplyXform function
+
+
+## -description
+
+
+The <b>XFORMOBJ_bApplyXform</b> function applies the given transform or its inverse to the given array of points.
+
+
+## -parameters
+
+
+
+
+### -param pxo
+
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff570618">XFORMOBJ</a> structure that defines the transform to be applied to the <i>pvIn</i> array.
+
+
+### -param __out_validated
+
+TBD
+
+
+### -param cPoints
+
+Specifies the count of points in <i>pvIn</i> to be transformed.
+
+
+### -param pvIn
+
+Pointer to an array of input points. The format of the points is specified by the <i>iMode</i> parameter.
+
+
+### -param pvOut
+
+Pointer to the buffer that is to receive the transformed points. The <i>iMode</i> parameter specifies the format of the points.
+
+
+#### - iMode [in]
+
+Identifies the transform and the input and output data types. This parameter can be one of the following:
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td>
+XF_INV_FXTOL
+
+</td>
+<td>
+Applies the inverse of the transform to POINTFIX structures to get <a href="https://msdn.microsoft.com/library/windows/hardware/ff569166">POINTL</a> structures.
+
+</td>
+</tr>
+<tr>
+<td>
+XF_INV_LTOL
+
+</td>
+<td>
+Applies the inverse of the transform to POINTL structures to get POINTL structures.
+
+</td>
+</tr>
+<tr>
+<td>
+XF_LTOFX
+
+</td>
+<td>
+Applies the transform to POINTL structures to get POINTFIX structures (see <a href="https://msdn.microsoft.com/2054aa16-6d86-4db3-8b16-4570b0374e23">GDI Data Types</a>).
+
+</td>
+</tr>
+<tr>
+<td>
+XF_LTOL
+
+</td>
+<td>
+Applies the transform to POINTL structures to get POINTL structures.
+
+</td>
+</tr>
+</table>
+ 
+
+
+## -returns
+
+
+
+The return value is <b>TRUE</b> if all points were transformed without overflow. <b>FALSE</b> is returned if <i>pxo</i>, <i>pvIn</i>, or <i>pvOut</i> are <b>null</b>, or if overflow occurs during the transformation.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570618">XFORMOBJ</a>
+ 
+
+ 
+

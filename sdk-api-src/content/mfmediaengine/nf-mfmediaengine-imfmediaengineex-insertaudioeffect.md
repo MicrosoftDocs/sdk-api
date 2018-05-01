@@ -7,7 +7,7 @@ old-location: mf\imfmediaengineex_insertaudioeffect.htm
 old-project: medfound
 ms.assetid: 0D9ED497-A991-473F-A775-CA780A1E0E06
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: FALSE, IMFMediaEngineEx, IMFMediaEngineEx interface [Media Foundation], InsertAudioEffect method, IMFMediaEngineEx::InsertAudioEffect, InsertAudioEffect method [Media Foundation], InsertAudioEffect method [Media Foundation], IMFMediaEngineEx interface, InsertAudioEffect,IMFMediaEngineEx.InsertAudioEffect, TRUE, mf.imfmediaengineex_insertaudioeffect, mfmediaengine/IMFMediaEngineEx::InsertAudioEffect
 ms.prod: windows-hardware
 ms.technology: windows-devices

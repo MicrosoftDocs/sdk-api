@@ -7,7 +7,7 @@ old-location: com\ioledocumentview_show.htm
 old-project: com
 ms.assetid: eecc0230-0713-40e9-913c-c51b8a905575
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IOleDocumentView, IOleDocumentView interface [COM], Show method, IOleDocumentView::Show, Show method [COM], Show method [COM], IOleDocumentView interface, Show,IOleDocumentView.Show, _ole_ioledocumentview_show, com.ioledocumentview_show, docobj/IOleDocumentView::Show
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: fsrm\fsrmpropertydefinitionflags.htm
 old-project: Fsrm
 ms.assetid: a31f2401-affa-438b-a484-7b70ea6e9181
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: FsrmPropertyDefinitionFlags, FsrmPropertyDefinitionFlags enumeration [File Server Resource Manager], FsrmPropertyDefinitionFlags_Deprecated, FsrmPropertyDefinitionFlags_Global, FsrmPropertyDefinitionFlags_Secure, _FsrmPropertyDefinitionFlags, fs.fsrmpropertydefinitionflags, fsrm.fsrmpropertydefinitionflags, fsrmenums/FsrmPropertyDefinitionFlags, fsrmenums/FsrmPropertyDefinitionFlags_Deprecated, fsrmenums/FsrmPropertyDefinitionFlags_Global, fsrmenums/FsrmPropertyDefinitionFlags_Secure
 ms.prod: windows-hardware
 ms.technology: windows-devices

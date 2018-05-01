@@ -7,7 +7,7 @@ old-location: controls\ITextFont_SetSize.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setsize.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextFont, ITextFont interface [Windows Controls], SetSize method, ITextFont::SetSize, SetSize method [Windows Controls], SetSize method [Windows Controls], ITextFont interface, SetSize,ITextFont.SetSize, _win32_ITextFont_SetSize, _win32_ITextFont_SetSize_cpp, controls.ITextFont_SetSize, controls._win32_ITextFont_SetSize, tom/ITextFont::SetSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

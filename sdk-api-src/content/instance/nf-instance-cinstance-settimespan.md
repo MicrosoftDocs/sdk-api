@@ -7,7 +7,7 @@ old-location: wmi\cinstance_settimespan.htm
 old-project: WmiSdk
 ms.assetid: d23197a2-7352-44e8-b962-2509fdf9673d
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: CInstance, CInstance interface [Windows Management Instrumentation], SetTimeSpan method, CInstance::SetTimeSpan, SetTimeSpan method [Windows Management Instrumentation], SetTimeSpan method [Windows Management Instrumentation], CInstance interface, SetTimeSpan,CInstance.SetTimeSpan, _hmm_cinstance_settimespan, instance/CInstance::SetTimeSpan, wmi.cinstance_settimespan
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: InputScope
+req.typenames: TrustLevel
 topic_type:
 -	APIRef
 -	kbSyntax

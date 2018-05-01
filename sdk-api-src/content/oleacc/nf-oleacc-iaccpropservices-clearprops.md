@@ -7,7 +7,7 @@ old-location: winauto\iaccpropservices_iaccpropservices__clearprops.htm
 old-project: WinAuto
 ms.assetid: 6a3bce93-1d5d-48cf-84f4-cbca445b5451
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: ClearProps method [Windows Accessibility], ClearProps method [Windows Accessibility], IAccPropServices interface, ClearProps,IAccPropServices.ClearProps, IAccPropServices, IAccPropServices interface [Windows Accessibility], ClearProps method, IAccPropServices::ClearProps, _msaa_IAccPropServices_ClearProps, msaa.iaccpropservices_iaccpropservices__clearprops, oleacc/IAccPropServices::ClearProps, winauto.iaccpropservices_iaccpropservices__clearprops
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Oleacc.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IAccPropServices::ClearProps method

@@ -7,7 +7,7 @@ old-location: cos\iasyncerrornotify_onerror.htm
 old-project: cossdk
 ms.assetid: a48d7733-bbcb-4c03-b265-f112e24c07d9
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: IAsyncErrorNotify, IAsyncErrorNotify interface [COM+], OnError method, IAsyncErrorNotify::OnError, OnError method [COM+], OnError method [COM+], IAsyncErrorNotify interface, OnError,IAsyncErrorNotify.OnError, _cos_IAsyncErrorNotify_OnError, comsvcs/IAsyncErrorNotify::OnError, cos.iasyncerrornotify_onerror
 ms.prod: windows-hardware
 ms.technology: windows-devices

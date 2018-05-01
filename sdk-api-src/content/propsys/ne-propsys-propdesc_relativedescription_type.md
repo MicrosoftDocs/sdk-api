@@ -7,7 +7,7 @@ old-location: properties\PROPDESC_RELATIVEDESCRIPTION_TYPE.htm
 old-project: properties
 ms.assetid: cc9d59db-88d6-4726-ac1e-15b483afd637
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/5/2018
 ms.keywords: PDRDT_COUNT, PDRDT_DATE, PDRDT_DURATION, PDRDT_GENERAL, PDRDT_LENGTH, PDRDT_PRIORITY, PDRDT_RATE, PDRDT_RATING, PDRDT_REVISION, PDRDT_SIZE, PDRDT_SPEED, PROPDESC_RELATIVEDESCRIPTION_TYPE, PROPDESC_RELATIVEDESCRIPTION_TYPE enumeration [Windows Properties], properties.PROPDESC_RELATIVEDESCRIPTION_TYPE, propsys/PDRDT_COUNT, propsys/PDRDT_DATE, propsys/PDRDT_DURATION, propsys/PDRDT_GENERAL, propsys/PDRDT_LENGTH, propsys/PDRDT_PRIORITY, propsys/PDRDT_RATE, propsys/PDRDT_RATING, propsys/PDRDT_REVISION, propsys/PDRDT_SIZE, propsys/PDRDT_SPEED, propsys/PROPDESC_RELATIVEDESCRIPTION_TYPE, shell.PROPDESC_RELATIVEDESCRIPTION_TYPE, shell_PROPDESC_RELATIVEDESCRIPTION_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # PROPDESC_RELATIVEDESCRIPTION_TYPE enumeration

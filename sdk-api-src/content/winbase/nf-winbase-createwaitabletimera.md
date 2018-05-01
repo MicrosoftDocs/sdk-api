@@ -7,7 +7,7 @@ old-location: base\createwaitabletimer.htm
 old-project: Sync
 ms.assetid: 41c915c4-424d-43dd-89d9-a6b4fbee701c
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: CreateWaitableTimer, CreateWaitableTimer function, CreateWaitableTimerA, CreateWaitableTimerW, _win32_createwaitabletimer, base.createwaitabletimer, winbase/CreateWaitableTimer, winbase/CreateWaitableTimerA, winbase/CreateWaitableTimerW
 ms.prod: windows-hardware
 ms.technology: windows-devices

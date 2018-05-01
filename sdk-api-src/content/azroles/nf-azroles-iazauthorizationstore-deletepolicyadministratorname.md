@@ -7,7 +7,7 @@ old-location: security\azauthorizationstore_deletepolicyadministratorname.htm
 old-project: SecAuthZ
 ms.assetid: 28be14c8-9e39-4410-a08c-b52bb63d0ce4
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: AzAuthorizationStore object [Security], DeletePolicyAdministratorName method, DeletePolicyAdministratorName method [Security], DeletePolicyAdministratorName method [Security], AzAuthorizationStore object, DeletePolicyAdministratorName method [Security], IAzAuthorizationStore interface, DeletePolicyAdministratorName,IAzAuthorizationStore.DeletePolicyAdministratorName, IAzAuthorizationStore, IAzAuthorizationStore interface [Security], DeletePolicyAdministratorName method, IAzAuthorizationStore::DeletePolicyAdministratorName, azroles/IAzAuthorizationStore::DeletePolicyAdministratorName, security.azauthorizationstore_deletepolicyadministratorname
 ms.prod: windows-hardware
 ms.technology: windows-devices

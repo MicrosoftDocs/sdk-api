@@ -7,7 +7,7 @@ old-location: mf\imftopoloader.htm
 old-project: medfound
 ms.assetid: 5ebf117c-e60a-40f2-a24b-c4f9dbdae942
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 5ebf117c-e60a-40f2-a24b-c4f9dbdae942, IMFTopoLoader, IMFTopoLoader interface [Media Foundation], IMFTopoLoader interface [Media Foundation], described, mf.imftopoloader, mfidl/IMFTopoLoader
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ api_name:
 product: Windows
 targetos: Windows
 req.lib: Mfuuid.lib
-req.dll: Mfplat.dll
+req.dll: Mfsensorgroup.dll
 req.irql: 
 req.product: GDI+ 1.1
 ---

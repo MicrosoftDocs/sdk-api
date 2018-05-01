@@ -7,7 +7,7 @@ old-location: mf\imfclockstatesink_onclockstop.htm
 old-project: medfound
 ms.assetid: 472b704f-d402-4e0b-96b8-fea267e8ff63
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 472b704f-d402-4e0b-96b8-fea267e8ff63, IMFClockStateSink, IMFClockStateSink interface [Media Foundation], OnClockStop method, IMFClockStateSink::OnClockStop, OnClockStop method [Media Foundation], OnClockStop method [Media Foundation], IMFClockStateSink interface, OnClockStop,IMFClockStateSink.OnClockStop, mf.imfclockstatesink_onclockstop, mfidl/IMFClockStateSink::OnClockStop
 ms.prod: windows-hardware
 ms.technology: windows-devices

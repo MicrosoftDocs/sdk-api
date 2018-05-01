@@ -7,7 +7,7 @@ old-location: nps\SDO_isdoservicecontrol_startservice.htm
 old-project: Nps
 ms.assetid: f024a3b8-c527-4a43-99df-c5b146dae1b8
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/24/2018
 ms.keywords: ISdoServiceControl, ISdoServiceControl interface [Network Policy Server], StartService method, ISdoServiceControl::StartService, StartService method [Network Policy Server], StartService method [Network Policy Server], ISdoServiceControl interface, StartService,ISdoServiceControl.StartService, _sdo_isdoservicecontrol_startservice, nps.SDO_isdoservicecontrol_startservice, sdo.isdoservicecontrol_startservice, sdoias/ISdoServiceControl::StartService
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Iassdo.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ISdoServiceControl::StartService method

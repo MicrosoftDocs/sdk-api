@@ -7,7 +7,7 @@ old-location: controls\ListView_CancelEditLabel.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_canceleditlabel.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ListView_CancelEditLabel, ListView_CancelEditLabel macro [Windows Controls], _win32_ListView_CancelEditLabel, _win32_ListView_CancelEditLabel_cpp, commctrl/ListView_CancelEditLabel, controls.ListView_CancelEditLabel, controls._win32_ListView_CancelEditLabel
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CATEGORYINFO, *LPCATEGORYINFO
+req.typenames: STGOPTIONS
 topic_type:
 -	APIRef
 -	kbSyntax

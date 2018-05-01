@@ -7,7 +7,7 @@ old-location: mstv\iesrequesttunerevent_getestimatedtime.htm
 old-project: mstv
 ms.assetid: 9968c1b1-5a4d-45a1-a083-afdbcc616f6d
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetEstimatedTime method [Microsoft TV Technologies], GetEstimatedTime method [Microsoft TV Technologies], IESRequestTunerEvent interface, GetEstimatedTime,IESRequestTunerEvent.GetEstimatedTime, IESRequestTunerEvent, IESRequestTunerEvent interface [Microsoft TV Technologies], GetEstimatedTime method, IESRequestTunerEvent::GetEstimatedTime, mstv.iesrequesttunerevent_getestimatedtime, tuner/IESRequestTunerEvent::GetEstimatedTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

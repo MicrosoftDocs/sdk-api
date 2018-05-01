@@ -7,7 +7,7 @@ old-location: ad\ds_repl_attr_meta_data_2.htm
 old-project: AD
 ms.assetid: 392457b7-df69-44d0-82b2-8381d5877354
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/20/2018
 ms.keywords: DS_REPL_ATTR_META_DATA_2, DS_REPL_ATTR_META_DATA_2 structure [Active Directory], _DS_REPL_ATTR_META_DATA_2, ad.ds_repl_attr_meta_data_2, ntdsapi/DS_REPL_ATTR_META_DATA_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _DS_REPL_ATTR_META_DATA_2 structure

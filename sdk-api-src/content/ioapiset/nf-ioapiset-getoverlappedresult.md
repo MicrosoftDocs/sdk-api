@@ -7,7 +7,7 @@ old-location: base\getoverlappedresult.htm
 old-project: Sync
 ms.assetid: 7f999959-9b22-4491-ae2b-a2674d821110
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: GetOverlappedResult, GetOverlappedResult function, _win32_getoverlappedresult, base.getoverlappedresult, ioapiset/GetOverlappedResult, winbase/GetOverlappedResult
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tapi3\itpluggableterminalclassregistration_delete.htm
 old-project: Tapi
 ms.assetid: ddc0e33a-d7f4-4380-b53b-e368f7646cbf
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: Delete method [TAPI 2.2], Delete method [TAPI 2.2], ITPluggableTerminalClassRegistration interface, Delete,ITPluggableTerminalClassRegistration.Delete, ITPluggableTerminalClassRegistration, ITPluggableTerminalClassRegistration interface [TAPI 2.2], Delete method, ITPluggableTerminalClassRegistration::Delete, _tapi3_itpluggableterminalclassregistration_delete, tapi3.itpluggableterminalclassregistration_delete, termmgr/ITPluggableTerminalClassRegistration::Delete
 ms.prod: windows-hardware
 ms.technology: windows-devices

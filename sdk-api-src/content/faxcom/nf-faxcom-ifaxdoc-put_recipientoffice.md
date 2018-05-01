@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxdoc_get_recipientoffice_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_563p.htm
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/18/2018
 ms.keywords: FaxDoc object [Fax Service], RecipientOffice property, IFaxDoc, IFaxDoc::put_RecipientOffice, RecipientOffice property [Fax Service], RecipientOffice property [Fax Service], FaxDoc object, _mfax_ifaxdoc_get_recipientoffice, fax._mfax_ifaxdoc_get_recipientoffice, fax._mfax_ifaxdoc_get_recipientoffice_vb, put_RecipientOffice,IFaxDoc.put_RecipientOffice
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: com\ioleinplacesite_discardundostate.htm
 old-project: com
 ms.assetid: 8fe69aa5-a526-4e95-920b-01f84ae4ca83
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: DiscardUndoState method [COM], DiscardUndoState method [COM], IOleInPlaceSite interface, DiscardUndoState,IOleInPlaceSite.DiscardUndoState, IOleInPlaceSite, IOleInPlaceSite interface [COM], DiscardUndoState method, IOleInPlaceSite::DiscardUndoState, IOleInPlaceSiteWindowless.DiscardUndoState, _ole_ioleinplacesite_discardundostate, com.ioleinplacesite_discardundostate, oleidl/IOleInPlaceSite::DiscardUndoState
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IOleInPlaceSite::DiscardUndoState method

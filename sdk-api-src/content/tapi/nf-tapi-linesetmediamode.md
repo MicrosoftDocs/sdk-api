@@ -7,7 +7,7 @@ old-location: tapi2\linesetmediamode.htm
 old-project: Tapi
 ms.assetid: 4a0e3fd7-9483-4d21-9b6f-bb6c04aa8226
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: "_tapi2_linesetmediamode, lineSetMediaMode, lineSetMediaMode function [TAPI 2.2], tapi/lineSetMediaMode, tapi2.linesetmediamode"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_usercredentials.htm
 old-project: wmi_v2
 ms.assetid: 30191cd1-00de-42ef-ac95-5e174d273c80
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/18/2018
 ms.keywords: MI_AUTH_TYPE_BASIC, MI_AUTH_TYPE_CLIENT_CERTS, MI_AUTH_TYPE_CREDSSP, MI_AUTH_TYPE_DEFAULT, MI_AUTH_TYPE_DIGEST, MI_AUTH_TYPE_ISSUER_CERT, MI_AUTH_TYPE_KERBEROS, MI_AUTH_TYPE_NEGO_NO_CREDS, MI_AUTH_TYPE_NEGO_WITH_CREDS, MI_AUTH_TYPE_NONE, MI_AUTH_TYPE_NTLM, MI_UserCredentials, MI_UserCredentials structure [Windows Management Infrastructure (MI)], _MI_UserCredentials, mi/MI_UserCredentials, wmi._mi_usercredentials, wmi_v2.mi_usercredentials
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -57,21 +57,6 @@ and password or a certificate thumbprint.
 ## -struct-fields
 
 
-
-
-### -field credentials
-
-
-
-#### usernamePassword
-
-Contains username and password information.
-
-
-
-#### certificateThumbprint
-
-Certificate thumbprint for the user.
 
 
 ### -field authenticationType
@@ -141,4 +126,19 @@ Uses CREDSSP, a delegated authentication mechanism. Username/password are option
 #### MI_AUTH_TYPE_ISSUER_CERT (MI_T("IssuerCert"))
 
 Push/Source Initiated subscriptions only.
+
+
+### -field credentials
+
+
+
+#### usernamePassword
+
+Contains username and password information.
+
+
+
+#### certificateThumbprint
+
+Certificate thumbprint for the user.
 

@@ -7,7 +7,7 @@ old-location: tapi3\cmspaddress_receivetspaddressdata.htm
 old-project: Tapi
 ms.assetid: 56fc4024-bca0-405c-8a15-29ac8e486f80
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: CMSPAddress, CMSPAddress interface [TAPI 2.2], ReceiveTSPAddressData method, CMSPAddress::ReceiveTSPAddressData, ReceiveTSPAddressData method [TAPI 2.2], ReceiveTSPAddressData method [TAPI 2.2], CMSPAddress interface, ReceiveTSPAddressData,CMSPAddress.ReceiveTSPAddressData, _tapi3_cmspaddress_receivetspaddressdata, mspaddr/CMSPAddress::ReceiveTSPAddressData, tapi3.cmspaddress_receivetspaddressdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: OPC_SIGNATURE_TIME_FORMAT
+req.typenames: MSP_EVENT_INFO
 topic_type:
 -	APIRef
 -	kbSyntax

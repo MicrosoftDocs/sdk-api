@@ -7,7 +7,7 @@ old-location: controls\ITextPara_GetNoLineNumber.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getnolinenumber.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: GetNoLineNumber method [Windows Controls], GetNoLineNumber method [Windows Controls], ITextPara interface, GetNoLineNumber,ITextPara.GetNoLineNumber, ITextPara, ITextPara interface [Windows Controls], GetNoLineNumber method, ITextPara::GetNoLineNumber, _win32_ITextPara_GetNoLineNumber, _win32_ITextPara_GetNoLineNumber_cpp, controls.ITextPara_GetNoLineNumber, controls._win32_ITextPara_GetNoLineNumber, tom/ITextPara::GetNoLineNumber
 ms.prod: windows-hardware
 ms.technology: windows-devices

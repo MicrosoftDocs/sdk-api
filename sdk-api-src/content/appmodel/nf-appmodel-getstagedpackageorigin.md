@@ -7,7 +7,7 @@ old-location: appxpkg\getstagedpackageorigin.htm
 old-project: appxpkg
 ms.assetid: 7A1EE2CA-83CE-4E03-85A5-0061E29EB49B
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/26/2018
 ms.keywords: GetStagedPackageOrigin, GetStagedPackageOrigin function [App packaging and management], appmodel/GetStagedPackageOrigin, appxpkg.getstagedpackageorigin
 ms.prod: windows-hardware
 ms.technology: windows-devices

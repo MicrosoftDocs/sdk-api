@@ -7,7 +7,7 @@ old-location: security\iazscope_deleterole.htm
 old-project: SecAuthZ
 ms.assetid: 9155c4f8-ad17-402e-80a1-3dcee044d2c4
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: AzScope object [Security], DeleteRole method, DeleteRole method [Security], DeleteRole method [Security], AzScope object, DeleteRole method [Security], IAzScope interface, DeleteRole,IAzScope.DeleteRole, IAzScope, IAzScope interface [Security], DeleteRole method, IAzScope::DeleteRole, azroles/IAzScope::DeleteRole, security.iazscope_deleterole
 ms.prod: windows-hardware
 ms.technology: windows-devices

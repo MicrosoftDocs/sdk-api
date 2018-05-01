@@ -7,7 +7,7 @@ old-location: base\ivssexpresswriter_register.htm
 old-project: VSS
 ms.assetid: 75cdc416-5fb6-4c9e-b7ab-f79b091786b2
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: IVssExpressWriter, IVssExpressWriter interface, Register method, IVssExpressWriter::Register, Register method, Register method, IVssExpressWriter interface, Register,IVssExpressWriter.Register, base.ivssexpresswriter_register, vswriter/IVssExpressWriter::Register
 ms.prod: windows-hardware
 ms.technology: windows-devices

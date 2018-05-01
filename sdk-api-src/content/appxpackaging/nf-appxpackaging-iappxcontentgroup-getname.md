@@ -7,7 +7,7 @@ old-location: appxpkg\iappxcontentgroup_getname.htm
 old-project: appxpkg
 ms.assetid: 169E5A94-F7F7-4BFC-8E19-9E830C920E1B
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/26/2018
 ms.keywords: GetName method [App packaging and management], GetName method [App packaging and management], IAppxContentGroup interface, GetName,IAppxContentGroup.GetName, IAppxContentGroup, IAppxContentGroup interface [App packaging and management], GetName method, IAppxContentGroup::GetName, appxpackaging/IAppxContentGroup::GetName, appxpkg.iappxcontentgroup_getname
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_ARCHITECTURE2
+req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
 topic_type:
 -	APIRef
 -	kbSyntax

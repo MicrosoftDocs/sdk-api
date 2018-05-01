@@ -7,7 +7,7 @@ old-location: termserv\iwrdsgraphicschannelevents_onchannelopened.htm
 old-project: TermServ
 ms.assetid: dafff806-8b63-40cd-8b04-efb0497cb043
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: IWRdsGraphicsChannelEvents, IWRdsGraphicsChannelEvents interface [Remote Desktop Services], OnChannelOpened method, IWRdsGraphicsChannelEvents::OnChannelOpened, OnChannelOpened method [Remote Desktop Services], OnChannelOpened method [Remote Desktop Services], IWRdsGraphicsChannelEvents interface, OnChannelOpened,IWRdsGraphicsChannelEvents.OnChannelOpened, termserv.iwrdsgraphicschannelevents_onchannelopened, wrdsgraphicschannels/IWRdsGraphicsChannelEvents::OnChannelOpened
 ms.prod: windows-hardware
 ms.technology: windows-devices

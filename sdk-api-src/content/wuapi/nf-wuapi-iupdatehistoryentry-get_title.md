@@ -7,7 +7,7 @@ old-location: wua\iupdatehistoryentry_title.htm
 old-project: Wua_Sdk
 ms.assetid: 8a49fddf-ebaf-403e-bb7f-705ab08395eb
 ms.author: windowsdriverdev
-ms.date: 3/15/2018
+ms.date: 4/18/2018
 ms.keywords: IUpdateHistoryEntry, IUpdateHistoryEntry interface [Windows Update Agent], Title property, IUpdateHistoryEntry.Title, IUpdateHistoryEntry::get_Title, Title property [Windows Update Agent], Title property [Windows Update Agent], IUpdateHistoryEntry interface, get_Title,IUpdateHistoryEntry.get_Title, wua.iupdatehistoryentry_title, wuapi/IUpdateHistoryEntry::Title, wuapi/IUpdateHistoryEntry::get_Title
 ms.prod: windows-hardware
 ms.technology: windows-devices

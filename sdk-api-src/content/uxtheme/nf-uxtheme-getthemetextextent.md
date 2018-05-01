@@ -7,7 +7,7 @@ old-location: controls\GetThemeTextExtent.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemetextextent.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: GetThemeTextExtent, GetThemeTextExtent function [Windows Controls], controls.GetThemeTextExtent, controls.inet_GetThemeTextExtent, inet_GetThemeTextExtent, inet_GetThemeTextExtent_cpp, uxtheme/GetThemeTextExtent
 ms.prod: windows-hardware
 ms.technology: windows-devices

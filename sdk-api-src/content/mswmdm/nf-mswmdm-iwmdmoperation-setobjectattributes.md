@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmoperation_setobjectattributes.htm
 old-project: WMDM
 ms.assetid: 0ee2eabe-c20d-48fe-96f4-cb4143869462
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: IWMDMOperation, IWMDMOperation interface [windows Media Device Manager], SetObjectAttributes method, IWMDMOperation::SetObjectAttributes, IWMDMOperationSetObjectAttributes, SetObjectAttributes method [windows Media Device Manager], SetObjectAttributes method [windows Media Device Manager], IWMDMOperation interface, SetObjectAttributes,IWMDMOperation.SetObjectAttributes, mswmdm/IWMDMOperation::SetObjectAttributes, wmdm.iwmdmoperation_setobjectattributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IWMDMOperation::SetObjectAttributes method

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_STRUC_ColorCurveParams.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\structures\colorcurveparams.htm
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/5/2018
 ms.keywords: ColorCurveParams, ColorCurveParams structure [GDI+], _gdiplus_STRUC_ColorCurveParams, gdiplus._gdiplus_STRUC_ColorCurveParams, gdipluseffects/ColorCurveParams
 ms.prod: windows-hardware
 ms.technology: windows-devices

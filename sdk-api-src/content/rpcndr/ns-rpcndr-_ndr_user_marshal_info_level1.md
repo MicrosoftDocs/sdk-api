@@ -7,7 +7,7 @@ old-location: rpc\ndr_user_marshal_info_level1.htm
 old-project: Rpc
 ms.assetid: fe664968-ce70-4bc4-9caa-3e4d241d253c
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: NDR_USER_MARSHAL_INFO_LEVEL1, NDR_USER_MARSHAL_INFO_LEVEL1 structure [RPC], _NDR_USER_MARSHAL_INFO_LEVEL1, _rpc_ndr_user_marshal_info_level1, rpc.ndr_user_marshal_info_level1, rpcndr/NDR_USER_MARSHAL_INFO_LEVEL1
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _NDR_USER_MARSHAL_INFO_LEVEL1 structure
@@ -59,11 +59,6 @@ The
 ## -struct-fields
 
 
-
-
-### -field pRpcChannelBuffer
-
-If the current call is for a COM interface, this member is a pointer to the channel buffer that RPC uses for the call. Otherwise, this member is null.
 
 
 ### -field Buffer
@@ -84,6 +79,11 @@ Function used by RPC to allocate memory for the application. An example of the u
 ### -field pfnFree
 
 Function used by RPC to free memory for the application. An example of the use of this function is to free a node.
+
+
+### -field pRpcChannelBuffer
+
+If the current call is for a COM interface, this member is a pointer to the channel buffer that RPC uses for the call. Otherwise, this member is null.
 
 
 ### -field Reserved

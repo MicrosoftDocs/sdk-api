@@ -7,7 +7,7 @@ old-location: com\iprovideclassinfo2_getguid.htm
 old-project: com
 ms.assetid: 1a424b93-93a9-4dc7-9c77-349522ee9e70
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: GetGUID method [COM], GetGUID method [COM], IProvideClassInfo2 interface, GetGUID,IProvideClassInfo2.GetGUID, IProvideClassInfo2, IProvideClassInfo2 interface [COM], GetGUID method, IProvideClassInfo2::GetGUID, _com_iprovideclassinfo2_getguid, com.iprovideclassinfo2_getguid, ocidl/IProvideClassInfo2::GetGUID
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IProvideClassInfo2::GetGUID method

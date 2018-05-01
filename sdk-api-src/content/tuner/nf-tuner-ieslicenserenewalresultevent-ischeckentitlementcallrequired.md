@@ -7,7 +7,7 @@ old-location: mstv\ieslicenserenewalresultevent_ischeckentitlementcallrequired.h
 old-project: mstv
 ms.assetid: e19375c6-5999-43e9-9d91-3237b900cb07
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IESLicenseRenewalResultEvent, IESLicenseRenewalResultEvent interface [DirectShow], IsCheckEntitlementCallRequired method, IESLicenseRenewalResultEvent::IsCheckEntitlementCallRequired, IsCheckEntitlementCallRequired method [DirectShow], IsCheckEntitlementCallRequired method [DirectShow], IESLicenseRenewalResultEvent interface, IsCheckEntitlementCallRequired,IESLicenseRenewalResultEvent.IsCheckEntitlementCallRequired, mstv.ieslicenserenewalresultevent_ischeckentitlementcallrequired, tuner/IESLicenseRenewalResultEvent::IsCheckEntitlementCallRequired
 ms.prod: windows-hardware
 ms.technology: windows-devices

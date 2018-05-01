@@ -7,7 +7,7 @@ old-location: rm\drmverify.htm
 old-project: AdRms_Sdk
 ms.assetid: aebf46e7-9de2-40e7-a748-0621a61ccb6a
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/11/2018
 ms.keywords: DRMVerify, DRMVerify function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMVerify, rm.drmverify
 ms.prod: windows-hardware
 ms.technology: windows-devices

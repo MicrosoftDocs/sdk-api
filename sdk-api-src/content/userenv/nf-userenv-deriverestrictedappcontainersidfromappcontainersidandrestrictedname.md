@@ -7,7 +7,7 @@ old-location: shell\deriverestrictedappcontainersidfromappcontainersidandrestric
 old-project: shell
 ms.assetid: D9E34178-3AC2-4C7A-906B-A42D69428C63
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: DeriveRestrictedAppContainerSidFromAppContainerSidAndRestrictedName, DeriveRestrictedAppContainerSidFromAppContainerSidAndRestrictedName function [Windows Shell], shell.deriverestrictedappcontainersidfromappcontainersidandrestrictedname, userenv/DeriveRestrictedAppContainerSidFromAppContainerSidAndRestrictedName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: SOFTDISTINFO, *LPSOFTDISTINFO
+req.typenames: USB_UNICODE_NAME, *PUSB_UNICODE_NAME
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,7 +7,7 @@ old-location: mstv\imsvidclosedcaptioning_get_enable.htm
 old-project: mstv
 ms.assetid: 2bb46aa7-fd94-4afa-9bba-769472e014ff
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidClosedCaptioning, IMSVidClosedCaptioning interface [Microsoft TV Technologies], get_Enable method, IMSVidClosedCaptioning::get_Enable, IMSVidClosedCaptioningget_Enable, get_Enable method [Microsoft TV Technologies], get_Enable method [Microsoft TV Technologies], IMSVidClosedCaptioning interface, get_Enable,IMSVidClosedCaptioning.get_Enable, mstv.imsvidclosedcaptioning_get_enable, segment/IMSVidClosedCaptioning::get_Enable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidClosedCaptioning::get_Enable method

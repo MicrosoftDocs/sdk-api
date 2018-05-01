@@ -7,7 +7,7 @@ old-location: wmformat\iwmwriteradvanced_getsinkcount.htm
 old-project: wmformat
 ms.assetid: 210c96bc-3659-43e6-acb2-4d9f328e81e0
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: GetSinkCount method [windows Media Format], GetSinkCount method [windows Media Format], IWMWriterAdvanced interface, GetSinkCount,IWMWriterAdvanced.GetSinkCount, IWMWriterAdvanced, IWMWriterAdvanced interface [windows Media Format], GetSinkCount method, IWMWriterAdvanced::GetSinkCount, IWMWriterAdvancedGetSinkCount, wmformat.iwmwriteradvanced_getsinkcount, wmsdkidl/IWMWriterAdvanced::GetSinkCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmi\provider_validateflags.htm
 old-project: WmiSdk
 ms.assetid: 1d6d1006-99b9-4646-a5c4-835940ce3ac0
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: Provider, Provider interface [Windows Management Instrumentation], ValidateFlags method, Provider::ValidateFlags, ValidateFlags method [Windows Management Instrumentation], ValidateFlags method [Windows Management Instrumentation], Provider interface, ValidateFlags,Provider.ValidateFlags, _hmm_provider_validateflags, provider/Provider::ValidateFlags, wmi.provider_validateflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # Provider::ValidateFlags method

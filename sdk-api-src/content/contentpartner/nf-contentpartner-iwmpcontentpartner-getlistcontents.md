@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontentpartner_getlistcontents.htm
 old-project: WMP
 ms.assetid: a48935ea-8275-4b68-a1ab-006a23c455ad
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: GetListContents method [Windows Media Player], GetListContents method [Windows Media Player], IWMPContentPartner interface, GetListContents,IWMPContentPartner.GetListContents, IWMPContentPartner, IWMPContentPartner interface [Windows Media Player], GetListContents method, IWMPContentPartner::GetListContents, IWMPContentPartnerGetListContents, contentpartner/IWMPContentPartner::GetListContents, wmp.iwmpcontentpartner_getlistcontents
 ms.prod: windows-hardware
 ms.technology: windows-devices

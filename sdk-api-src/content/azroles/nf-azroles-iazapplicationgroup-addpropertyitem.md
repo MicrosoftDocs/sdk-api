@@ -7,7 +7,7 @@ old-location: security\iazapplicationgroup_addpropertyitem.htm
 old-project: SecAuthZ
 ms.assetid: 7a7a11ad-42f9-4d3f-8d55-6e8b3e1bea7e
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: AZ_PROP_GROUP_APP_MEMBERS, AZ_PROP_GROUP_APP_NON_MEMBERS, AZ_PROP_GROUP_MEMBERS, AZ_PROP_GROUP_MEMBERS_NAME, AZ_PROP_GROUP_NON_MEMBERS, AZ_PROP_GROUP_NON_MEMBERS_NAME, AddPropertyItem method [Security], AddPropertyItem method [Security], AzApplicationGroup object, AddPropertyItem method [Security], IAzApplicationGroup interface, AddPropertyItem,IAzApplicationGroup.AddPropertyItem, AzApplicationGroup object [Security], AddPropertyItem method, IAzApplicationGroup, IAzApplicationGroup interface [Security], AddPropertyItem method, IAzApplicationGroup::AddPropertyItem, azroles/IAzApplicationGroup::AddPropertyItem, security.iazapplicationgroup_addpropertyitem
 ms.prod: windows-hardware
 ms.technology: windows-devices

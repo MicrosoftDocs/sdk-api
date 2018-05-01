@@ -7,7 +7,7 @@ old-location: base\ivsssoftwaresnapshotprovider_setsnapshotproperty.htm
 old-project: VSS
 ms.assetid: 0f3dc027-9663-4b74-a9b5-a117c4f72a00
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: IVssSoftwareSnapshotProvider, IVssSoftwareSnapshotProvider interface, SetSnapshotProperty method, IVssSoftwareSnapshotProvider::SetSnapshotProperty, SetSnapshotProperty method, SetSnapshotProperty method, IVssSoftwareSnapshotProvider interface, SetSnapshotProperty,IVssSoftwareSnapshotProvider.SetSnapshotProperty, base.ivsssoftwaresnapshotprovider_setsnapshotproperty, vsprov/IVssSoftwareSnapshotProvider::SetSnapshotProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

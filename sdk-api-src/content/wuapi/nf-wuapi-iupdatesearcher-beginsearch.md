@@ -7,7 +7,7 @@ old-location: wua\iupdatesearcherbeginsearch.htm
 old-project: Wua_Sdk
 ms.assetid: 8af818b1-7dd8-4f48-b447-5b6dfbfce420
 ms.author: windowsdriverdev
-ms.date: 3/15/2018
+ms.date: 4/18/2018
 ms.keywords: BeginSearch method [Windows Update Agent], BeginSearch method [Windows Update Agent], IUpdateSearcher interface, BeginSearch,IUpdateSearcher.BeginSearch, IUpdateSearcher, IUpdateSearcher interface [Windows Update Agent], BeginSearch method, IUpdateSearcher::BeginSearch, wua.iupdatesearcherbeginsearch, wuapi/IUpdateSearcher::BeginSearch
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winauto\iaccpropservices_iaccpropservices__setpropvalue.htm
 old-project: WinAuto
 ms.assetid: c86acb70-fa77-4f95-8a99-e60872cdaa7e
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: IAccPropServices, IAccPropServices interface [Windows Accessibility], SetPropValue method, IAccPropServices::SetPropValue, SetPropValue method [Windows Accessibility], SetPropValue method [Windows Accessibility], IAccPropServices interface, SetPropValue,IAccPropServices.SetPropValue, _msaa_IAccPropServices_SetPropValue, msaa.iaccpropservices_iaccpropservices__setpropvalue, oleacc/IAccPropServices::SetPropValue, winauto.iaccpropservices_iaccpropservices__setpropvalue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Oleacc.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IAccPropServices::SetPropValue method

@@ -7,7 +7,7 @@ old-location: com\coinstall.htm
 old-project: com
 ms.assetid: 9486ef2d-51a1-41b4-85e5-427af9a98cec
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: CoInstall, CoInstall function [COM], _com_CoInstall, com.coinstall, objbase/CoInstall
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # CoInstall function

@@ -7,7 +7,7 @@ old-location: dshow\am_pushsource_flags.htm
 old-project: DirectShow
 ms.assetid: 878dc41b-8df3-4294-9e1f-7a3da1834ad1
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: AM_PUSHSOURCECAPS_INTERNAL_RM, AM_PUSHSOURCECAPS_NOT_LIVE, AM_PUSHSOURCECAPS_PRIVATE_CLOCK, AM_PUSHSOURCEREQS_USE_STREAM_CLOCK, AM_PUSHSOURCE_FLAGSEnumeration, _AM_PUSHSOURCE_FLAGS, _AM_PUSHSOURCE_FLAGS enumeration [DirectShow], dshow.am_pushsource_flags, strmif/AM_PUSHSOURCECAPS_INTERNAL_RM, strmif/AM_PUSHSOURCECAPS_NOT_LIVE, strmif/AM_PUSHSOURCECAPS_PRIVATE_CLOCK, strmif/AM_PUSHSOURCEREQS_USE_STREAM_CLOCK, strmif/_AM_PUSHSOURCE_FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices

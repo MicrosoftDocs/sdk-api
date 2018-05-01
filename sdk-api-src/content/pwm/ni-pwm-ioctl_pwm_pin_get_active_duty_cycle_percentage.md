@@ -7,7 +7,7 @@ old-location: base\ioctl_pwm_pin_get_active_duty_cycle_percentage.htm
 old-project: DevIO
 ms.assetid: F327D8E9-7441-41A4-B70B-E148083605C2
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/3/2018
 ms.keywords: IOCTL_PWM_PIN_GET_ACTIVE_DUTY_CYCLE_PERCENTAGE, IOCTL_PWM_PIN_GET_ACTIVE_DUTY_CYCLE_PERCENTAGE control code, base.ioctl_pwm_pin_get_active_duty_cycle_percentage, pwm/IOCTL_PWM_PIN_GET_ACTIVE_DUTY_CYCLE_PERCENTAGE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IOCTL_PWM_PIN_GET_ACTIVE_DUTY_CYCLE_PERCENTAGE IOCTL

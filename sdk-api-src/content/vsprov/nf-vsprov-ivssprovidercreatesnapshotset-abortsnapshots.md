@@ -7,7 +7,7 @@ old-location: base\ivssprovidercreatesnapshotset_abortsnapshots.htm
 old-project: VSS
 ms.assetid: 393fd5aa-9934-4918-8699-25c41d0dc982
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: AbortSnapshots method [VSS], AbortSnapshots method [VSS], IVssProviderCreateSnapshotSet interface, AbortSnapshots,IVssProviderCreateSnapshotSet.AbortSnapshots, IVssProviderCreateSnapshotSet, IVssProviderCreateSnapshotSet interface [VSS], AbortSnapshots method, IVssProviderCreateSnapshotSet::AbortSnapshots, base.ivssprovidercreatesnapshotset_abortsnapshots, vsprov/IVssProviderCreateSnapshotSet::AbortSnapshots
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_TextRange_GetAttributeValueConPat.htm
 old-project: WinAuto
 ms.assetid: f5d90dba-7c84-45a8-be84-898d6079c428
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: TextRange_GetAttributeValue, TextRange_GetAttributeValue function [Windows Accessibility], uiauto.uiauto_TextRange_GetAttributeValueConPat, uiauto_TextRange_GetAttributeValueConPat, uiautomationcoreapi/TextRange_GetAttributeValue, winauto.uiauto_TextRange_GetAttributeValueConPat
 ms.prod: windows-hardware
 ms.technology: windows-devices

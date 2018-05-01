@@ -7,7 +7,7 @@ old-location: wmp\iwmpcore_get_versioninfo.htm
 old-project: WMP
 ms.assetid: 8c8bb30b-8f8e-4f49-9506-d4735bccf847
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPCore, IWMPCore interface [Windows Media Player], get_versionInfo method, IWMPCore::get_versionInfo, IWMPCoreget_versionInfo, get_versionInfo method [Windows Media Player], get_versionInfo method [Windows Media Player], IWMPCore interface, get_versionInfo,IWMPCore.get_versionInfo, wmp.iwmpcore_get_versioninfo, wmp/IWMPCore::get_versionInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

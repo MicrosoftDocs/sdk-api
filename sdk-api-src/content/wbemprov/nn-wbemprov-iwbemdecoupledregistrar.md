@@ -7,7 +7,7 @@ old-location: wmi\iwbemdecoupledregistrar.htm
 old-project: WmiSdk
 ms.assetid: ec805089-aff4-4885-b650-a784ce25a7d3
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: IWbemDecoupledRegistrar, IWbemDecoupledRegistrar interface [Windows Management Instrumentation], IWbemDecoupledRegistrar interface [Windows Management Instrumentation], described, _hmm_iwbemdecoupledregistrar, wbemprov/IWbemDecoupledRegistrar, wmi.iwbemdecoupledregistrar
 ms.prod: windows-hardware
 ms.technology: windows-devices

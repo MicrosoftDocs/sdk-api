@@ -7,7 +7,7 @@ old-location: shell\SHOpenRegStream.htm
 old-project: shell
 ms.assetid: 2f839b89-8584-4b4d-91e7-166b6e2b6892
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: SHOpenRegStream, SHOpenRegStream function [Windows Shell], SHOpenRegStreamA, SHOpenRegStreamW, STGM_READ, STGM_READWRITE, STGM_WRITE, _win32_SHOpenRegStream, shell.SHOpenRegStream, shlwapi/SHOpenRegStream, shlwapi/SHOpenRegStreamA, shlwapi/SHOpenRegStreamW
 ms.prod: windows-hardware
 ms.technology: windows-devices

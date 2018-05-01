@@ -7,7 +7,7 @@ old-location: cos\ieventcontrol_getsubscriptions.htm
 old-project: cossdk
 ms.assetid: ba39305d-8dc3-40fe-b6f6-d5c22f54a180
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: GetSubscriptions method [COM+], GetSubscriptions method [COM+], IEventControl interface, GetSubscriptions,IEventControl.GetSubscriptions, IEventControl, IEventControl interface [COM+], GetSubscriptions method, IEventControl::GetSubscriptions, _cos_IEventControl_GetSubscriptions, cos.ieventcontrol_getsubscriptions, eventsys/IEventControl::GetSubscriptions
 ms.prod: windows-hardware
 ms.technology: windows-devices

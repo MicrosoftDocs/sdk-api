@@ -7,7 +7,7 @@ old-location: termserv\itssbsession_protocoltype.htm
 old-project: TermServ
 ms.assetid: ee4016c7-1cd4-456c-abec-e43d57866bc1
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: ITsSbSession, ITsSbSession interface [Remote Desktop Services], ProtocolType property, ITsSbSession.ProtocolType, ITsSbSession::get_ProtocolType, ITsSbSession::put_ProtocolType, ProtocolType property [Remote Desktop Services], ProtocolType property [Remote Desktop Services], ITsSbSession interface, get_ProtocolType,ITsSbSession.get_ProtocolType, sbtsv/ITsSbSession::ProtocolType, sbtsv/ITsSbSession::get_ProtocolType, sbtsv/ITsSbSession::put_ProtocolType, termserv.itssbsession_protocoltype
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITsSbSession::get_ProtocolType method

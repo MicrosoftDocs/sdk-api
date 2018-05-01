@@ -7,7 +7,7 @@ old-location: dshow\ifilterchain_removechain.htm
 old-project: DirectShow
 ms.assetid: a47d2087-5f06-4fce-b573-16935370a34c
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IFilterChain, IFilterChain interface [DirectShow], RemoveChain method, IFilterChain::RemoveChain, IFilterChainRemoveChain, RemoveChain method [DirectShow], RemoveChain method [DirectShow], IFilterChain interface, RemoveChain,IFilterChain.RemoveChain, dshow.ifilterchain_removechain, strmif/IFilterChain::RemoveChain
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\IBrowserService2_OnSize.htm
 old-project: shell
 ms.assetid: 082eabc4-6807-4d40-aa06-f7d230039073
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IBrowserService2, IBrowserService2 interface [Windows Shell], OnSize method, IBrowserService2::OnSize, OnSize method [Windows Shell], OnSize method [Windows Shell], IBrowserService2 interface, OnSize,IBrowserService2.OnSize, shdeprecated/IBrowserService2::OnSize, shell.IBrowserService2_OnSize, zone_IBrowserService2_OnSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

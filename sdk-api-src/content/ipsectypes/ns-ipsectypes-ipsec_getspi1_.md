@@ -7,7 +7,7 @@ old-location: fwp\ipsec_getspi1.htm
 old-project: FWP
 ms.assetid: 671a8dd2-b4f6-4bdd-a6f1-1bf4260c6cbe
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: IPSEC_GETSPI1, IPSEC_GETSPI1 structure [Filtering], IPSEC_GETSPI1_, fwp.ipsec_getspi1, ipsectypes/IPSEC_GETSPI1
 ms.prod: windows-hardware
 ms.technology: windows-devices

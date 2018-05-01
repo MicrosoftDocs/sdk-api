@@ -7,7 +7,7 @@ old-location: wmi\iwbemclassobject_endenumeration.htm
 old-project: WmiSdk
 ms.assetid: a9fa8567-7504-4d59-a874-1dc7b2620a0b
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: EndEnumeration method [Windows Management Instrumentation], EndEnumeration method [Windows Management Instrumentation], IWbemClassObject interface, EndEnumeration,IWbemClassObject.EndEnumeration, IWbemClassObject, IWbemClassObject interface [Windows Management Instrumentation], EndEnumeration method, IWbemClassObject::EndEnumeration, _hmm_iwbemclassobject_endenumeration, wbemcli/IWbemClassObject::EndEnumeration, wmi.iwbemclassobject_endenumeration
 ms.prod: windows-hardware
 ms.technology: windows-devices

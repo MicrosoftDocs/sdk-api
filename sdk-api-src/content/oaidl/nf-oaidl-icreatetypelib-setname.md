@@ -7,7 +7,7 @@ old-location: automat\icreatetypelib_setname.htm
 old-project: automat
 ms.assetid: b533d2a1-f008-4345-8545-aebe14aa44f5
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: ICreateTypeLib, ICreateTypeLib interface [Automation], SetName method, ICreateTypeLib::SetName, SetName method [Automation], SetName method [Automation], ICreateTypeLib interface, SetName,ICreateTypeLib.SetName, _oa96_ICreateTypeLib_SetName, automat.icreatetypelib_setname, oaidl/ICreateTypeLib::SetName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ICreateTypeLib::SetName method

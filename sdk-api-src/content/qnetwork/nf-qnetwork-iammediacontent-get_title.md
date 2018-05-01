@@ -7,7 +7,7 @@ old-location: dshow\iammediacontent_get_title.htm
 old-project: DirectShow
 ms.assetid: 60543438-9547-44fe-8468-baee03d6ebc9
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMMediaContent, IAMMediaContent interface [DirectShow], get_Title method, IAMMediaContent::get_Title, IAMMediaContentget_Title, dshow.iammediacontent_get_title, get_Title method [DirectShow], get_Title method [DirectShow], IAMMediaContent interface, get_Title,IAMMediaContent.get_Title, qnetwork/IAMMediaContent::get_Title
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IAMMediaContent::get_Title method

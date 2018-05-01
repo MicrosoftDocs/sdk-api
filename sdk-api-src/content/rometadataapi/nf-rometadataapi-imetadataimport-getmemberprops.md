@@ -1,0 +1,144 @@
+---
+UID: NF:rometadataapi.IMetaDataImport.GetMemberProps
+title: IMetaDataImport::GetMemberProps method
+author: windows-driver-content
+description: Gets metadata information, including the name, binary signature, and relative virtual address, of the Type member referenced by the specified metadata token.
+old-location: winrt\imetadataimport_getmemberprops.htm
+old-project: WinRT
+ms.assetid: b278947f-4e84-4438-bb93-11bfd2d56be3
+ms.author: windowsdriverdev
+ms.date: 4/24/2018
+ms.keywords: GetMemberProps method [Windows Runtime], GetMemberProps method [Windows Runtime], IMetaDataImport interface, GetMemberProps,IMetaDataImport.GetMemberProps, IMetaDataImport, IMetaDataImport interface [Windows Runtime], GetMemberProps method, IMetaDataImport::GetMemberProps, rometadataapi/IMetaDataImport::GetMemberProps, winrt.imetadataimport_getmemberprops
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: rometadataapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Rometadataapi.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: RO_ERROR_REPORTING_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	rometadataapi.h
+api_name:
+-	IMetaDataImport.GetMemberProps
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 SP2 or later
+---
+
+# IMetaDataImport::GetMemberProps method
+
+
+## -description
+
+
+Gets metadata information, including the name, binary signature, and relative virtual address, of the Type member referenced by the specified metadata token.
+
+
+## -parameters
+
+
+
+
+### -param tkMember [in]
+
+The token that references the member to get the associated metadata for.
+
+
+### -param ptkTypeDef [out]
+
+A pointer to the metadata token that represents the class of the member.
+
+
+### -param szMember [out]
+
+The name of the member.
+
+
+### -param cchMember [in]
+
+The size in wide characters of the szMember buffer.
+
+
+### -param pchMember [out]
+
+The size in wide characters of the returned name.
+
+
+### -param pdwAttr [out]
+
+Any flag values applied to the member.
+
+
+### -param ppvSigBlob [out]
+
+A pointer to the binary metadata signature of the member.
+
+
+### -param pcbSigBlob [out]
+
+The size in bytes of <i>ppvSigBlob</i>.
+
+
+### -param pulCodeRVA [out]
+
+A pointer to the relative virtual address of the member.
+
+
+### -param pdwImplFlags [out]
+
+Any method implementation flags associated with the member.
+
+
+### -param pdwCPlusTypeFlag [out]
+
+A flag that marks a ValueType.
+
+
+### -param ppValue [out]
+
+A constant string value returned by this member.
+
+
+### -param pcchValue [out]
+
+The size in characters of <i>ppValue</i>, or zero if <i>ppValue</i> does not hold a string.
+
+
+## -returns
+
+
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/5457d9d3-9a43-4e89-a52f-1254662ed92a">IMetaDataImport</a>
+ 
+
+ 
+

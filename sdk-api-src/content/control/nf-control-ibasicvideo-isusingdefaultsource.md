@@ -7,7 +7,7 @@ old-location: dshow\ibasicvideo_isusingdefaultsource.htm
 old-project: DirectShow
 ms.assetid: 85cb633f-95cd-4cbe-9572-324ec784e6bb
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IBasicVideo, IBasicVideo interface [DirectShow], IsUsingDefaultSource method, IBasicVideo::IsUsingDefaultSource, IBasicVideoIsUsingDefaultSource, IsUsingDefaultSource method [DirectShow], IsUsingDefaultSource method [DirectShow], IBasicVideo interface, IsUsingDefaultSource,IBasicVideo.IsUsingDefaultSource, control/IBasicVideo::IsUsingDefaultSource, dshow.ibasicvideo_isusingdefaultsource
 ms.prod: windows-hardware
 ms.technology: windows-devices

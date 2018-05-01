@@ -7,7 +7,7 @@ old-location: wmformat\iwmsyncreader_getmaxstreamsamplesize.htm
 old-project: wmformat
 ms.assetid: 8b098985-4eb2-4292-a9b9-cfdd051e9c0e
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: GetMaxStreamSampleSize method [windows Media Format], GetMaxStreamSampleSize method [windows Media Format], IWMSyncReader interface, GetMaxStreamSampleSize,IWMSyncReader.GetMaxStreamSampleSize, IWMSyncReader, IWMSyncReader interface [windows Media Format], GetMaxStreamSampleSize method, IWMSyncReader::GetMaxStreamSampleSize, IWMSyncReaderGetMaxStreamSampleSize, wmformat.iwmsyncreader_getmaxstreamsamplesize, wmsdkidl/IWMSyncReader::GetMaxStreamSampleSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

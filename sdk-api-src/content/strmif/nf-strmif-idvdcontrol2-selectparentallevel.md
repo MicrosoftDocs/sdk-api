@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol2_selectparentallevel.htm
 old-project: DirectShow
 ms.assetid: c87f8b12-0c14-4d3a-ac79-98577607d053
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IDvdControl2, IDvdControl2 interface [DirectShow], SelectParentalLevel method, IDvdControl2::SelectParentalLevel, IDvdControl2SelectParentalLevel, SelectParentalLevel method [DirectShow], SelectParentalLevel method [DirectShow], IDvdControl2 interface, SelectParentalLevel,IDvdControl2.SelectParentalLevel, dshow.idvdcontrol2_selectparentallevel, strmif/IDvdControl2::SelectParentalLevel
 ms.prod: windows-hardware
 ms.technology: windows-devices

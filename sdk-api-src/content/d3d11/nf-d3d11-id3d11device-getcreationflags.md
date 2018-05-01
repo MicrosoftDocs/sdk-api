@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11device_getcreationflags.htm
 old-project: direct3d11
 ms.assetid: 124e1a50-8fae-4af5-8a9f-a56f000ccbe7
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/6/2018
 ms.keywords: 19c344e0-8664-5c52-5bb8-46d3941967fa, GetCreationFlags method [Direct3D 11], GetCreationFlags method [Direct3D 11], ID3D11Device interface, GetCreationFlags,ID3D11Device.GetCreationFlags, ID3D11Device, ID3D11Device interface [Direct3D 11], GetCreationFlags method, ID3D11Device::GetCreationFlags, d3d11/ID3D11Device::GetCreationFlags, direct3d11.id3d11device_getcreationflags
 ms.prod: windows-hardware
 ms.technology: windows-devices

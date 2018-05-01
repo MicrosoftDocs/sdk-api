@@ -7,7 +7,7 @@ old-location: automat\vari4fromdate.htm
 old-project: automat
 ms.assetid: 97ef1fb3-11c8-4889-82d4-9be4734a95ba
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: VarI4FromDate, VarI4FromDate function [Automation], _oa96_VarI4FromDate, automat.vari4fromdate, oleauto/VarI4FromDate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # VarI4FromDate function

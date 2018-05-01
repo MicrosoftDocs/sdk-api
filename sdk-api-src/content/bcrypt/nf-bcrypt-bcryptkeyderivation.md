@@ -7,7 +7,7 @@ old-location: security\bcryptkeyderivation.htm
 old-project: SecCNG
 ms.assetid: D0B91FFE-2E72-4AE3-A84F-DC598C02CF53
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: BCryptKeyDerivation, BCryptKeyDerivation function [Security], bcrypt/BCryptKeyDerivation, security.bcryptkeyderivation
 ms.prod: windows-hardware
 ms.technology: windows-devices

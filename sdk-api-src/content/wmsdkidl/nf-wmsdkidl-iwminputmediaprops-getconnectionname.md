@@ -7,7 +7,7 @@ old-location: wmformat\iwminputmediaprops_getconnectionname.htm
 old-project: wmformat
 ms.assetid: efb8b26b-c04f-4253-85a7-13456e1599bb
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: GetConnectionName method [windows Media Format], GetConnectionName method [windows Media Format], IWMInputMediaProps interface, GetConnectionName,IWMInputMediaProps.GetConnectionName, IWMInputMediaProps, IWMInputMediaProps interface [windows Media Format], GetConnectionName method, IWMInputMediaProps::GetConnectionName, IWMInputMediaPropsGetConnectionName, wmformat.iwminputmediaprops_getconnectionname, wmsdkidl/IWMInputMediaProps::GetConnectionName
 ms.prod: windows-hardware
 ms.technology: windows-devices

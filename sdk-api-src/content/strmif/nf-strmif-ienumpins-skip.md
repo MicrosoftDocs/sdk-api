@@ -7,7 +7,7 @@ old-location: dshow\ienumpins_skip.htm
 old-project: DirectShow
 ms.assetid: 501d08ee-ebd1-48dc-8cc9-bf017034b4cd
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IEnumPins, IEnumPins interface [DirectShow], Skip method, IEnumPins::Skip, IEnumPinsSkip, Skip method [DirectShow], Skip method [DirectShow], IEnumPins interface, Skip,IEnumPins.Skip, dshow.ienumpins_skip, strmif/IEnumPins::Skip
 ms.prod: windows-hardware
 ms.technology: windows-devices

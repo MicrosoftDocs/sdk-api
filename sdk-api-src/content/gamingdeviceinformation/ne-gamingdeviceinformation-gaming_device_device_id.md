@@ -38,8 +38,8 @@ api_name:
 -	GAMING_DEVICE_DEVICE_ID
 product: Windows
 targetos: Windows
-req.lib: Windowsapp.lib
-req.dll: Gamemonitor.dll
+req.lib: 
+req.dll: Fxsutility.dll
 req.irql: 
 req.product: Internet Explorer 5
 ---

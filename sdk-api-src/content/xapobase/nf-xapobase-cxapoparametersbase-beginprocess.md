@@ -7,7 +7,7 @@ old-location: xaudio2\cxapoparametersbase_beginprocess.htm
 old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.cxapoparameterbase.CXAPOParametersBase.BeginProcess
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/20/2018
 ms.keywords: BeginProcess method [XAudio2 Audio Mixing APIs], BeginProcess method [XAudio2 Audio Mixing APIs], CXAPOParametersBase interface, BeginProcess,CXAPOParametersBase.BeginProcess, CXAPOParametersBase, CXAPOParametersBase interface [XAudio2 Audio Mixing APIs], BeginProcess method, CXAPOParametersBase::BeginProcess, xapobase/CXAPOParametersBase::BeginProcess, xaudio2.cxapoparametersbase_beginprocess
 ms.prod: windows-hardware
 ms.technology: windows-devices

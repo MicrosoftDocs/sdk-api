@@ -7,7 +7,7 @@ old-location: stg\stgty.htm
 old-project: Stg
 ms.assetid: 67189e7a-b089-4a29-adf8-ad7c459c7974
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/20/2018
 ms.keywords: STGTY, STGTY enumeration [Structured Storage], STGTY_LOCKBYTES, STGTY_PROPERTY, STGTY_STORAGE, STGTY_STREAM, _stg_stgty, objidl/STGTY, objidl/STGTY_LOCKBYTES, objidl/STGTY_PROPERTY, objidl/STGTY_STORAGE, objidl/STGTY_STREAM, stg.stgty, tagSTGTY
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Shell32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # tagSTGTY enumeration

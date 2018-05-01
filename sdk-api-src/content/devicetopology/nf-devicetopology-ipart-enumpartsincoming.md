@@ -7,7 +7,7 @@ old-location: coreaudio\ipart_enumpartsincoming.htm
 old-project: CoreAudio
 ms.assetid: 0d74837e-12d1-4d94-941e-6a81aeac1151
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: EnumPartsIncoming method [Core Audio], EnumPartsIncoming method [Core Audio], IPart interface, EnumPartsIncoming,IPart.EnumPartsIncoming, IPart, IPart interface [Core Audio], EnumPartsIncoming method, IPart::EnumPartsIncoming, IPartEnumPartsIncoming, coreaudio.ipart_enumpartsincoming, devicetopology/IPart::EnumPartsIncoming
 ms.prod: windows-hardware
 ms.technology: windows-devices

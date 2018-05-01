@@ -7,7 +7,7 @@ old-location: termserv\itssbresourcenotificationex_notifysessionchangeex.htm
 old-project: TermServ
 ms.assetid: 75f7371a-fd3e-4045-b8fe-23d57d75b27a
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: ITsSbResourceNotificationEx, ITsSbResourceNotificationEx interface [Remote Desktop Services], NotifySessionChangeEx method, ITsSbResourceNotificationEx::NotifySessionChangeEx, NotifySessionChangeEx method [Remote Desktop Services], NotifySessionChangeEx method [Remote Desktop Services], ITsSbResourceNotificationEx interface, NotifySessionChangeEx,ITsSbResourceNotificationEx.NotifySessionChangeEx, sbtsv/ITsSbResourceNotificationEx::NotifySessionChangeEx, termserv.itssbresourcenotificationex_notifysessionchangeex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITsSbResourceNotificationEx::NotifySessionChangeEx method

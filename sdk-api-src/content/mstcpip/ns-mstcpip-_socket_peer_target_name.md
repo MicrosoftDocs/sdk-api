@@ -7,7 +7,7 @@ old-location: winsock\socket_peer_target_name.htm
 old-project: WinSock
 ms.assetid: 6e807cc3-f9de-4d15-b337-4a6b4be910c2
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/24/2018
 ms.keywords: SOCKET_PEER_TARGET_NAME, SOCKET_PEER_TARGET_NAME structure [Winsock], _SOCKET_PEER_TARGET_NAME, mstcpip/SOCKET_PEER_TARGET_NAME, winsock.socket_peer_target_name
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _SOCKET_PEER_TARGET_NAME structure

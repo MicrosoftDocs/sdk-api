@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3dtexture9__getleveldesc.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dtexture9__getleveldesc.htm
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/10/2018
 ms.keywords: 56fc4d84-d125-0b2e-6670-ecb45faa49cd, GetLevelDesc method [Direct3D 9], GetLevelDesc method [Direct3D 9], IDirect3DTexture9 interface, GetLevelDesc,IDirect3DTexture9.GetLevelDesc, IDirect3DTexture9, IDirect3DTexture9 interface [Direct3D 9], GetLevelDesc method, IDirect3DTexture9::GetLevelDesc, d3d9helper/IDirect3DTexture9::GetLevelDesc, direct3d9.idirect3dtexture9__getleveldesc
 ms.prod: windows-hardware
 ms.technology: windows-devices

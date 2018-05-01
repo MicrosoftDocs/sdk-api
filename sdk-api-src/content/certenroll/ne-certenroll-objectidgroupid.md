@@ -7,7 +7,7 @@ old-location: security\objectidgroupid_enum.htm
 old-project: SecCertEnroll
 ms.assetid: 66a70cad-ce72-461b-8d71-605a62dd35b4
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: ObjectIdGroupId, ObjectIdGroupId enumeration [Security], XCN_CRYPT_ANY_GROUP_ID, XCN_CRYPT_ENCRYPT_ALG_OID_GROUP_ID, XCN_CRYPT_ENHKEY_USAGE_OID_GROUP_ID, XCN_CRYPT_EXT_OR_ATTR_OID_GROUP_ID, XCN_CRYPT_FIRST_ALG_OID_GROUP_ID, XCN_CRYPT_HASH_ALG_OID_GROUP_ID, XCN_CRYPT_KEY_LENGTH_MASK, XCN_CRYPT_LAST_ALG_OID_GROUP_ID, XCN_CRYPT_LAST_OID_GROUP_ID, XCN_CRYPT_OID_DISABLE_SEARCH_DS_FLAG, XCN_CRYPT_POLICY_OID_GROUP_ID, XCN_CRYPT_PUBKEY_ALG_OID_GROUP_ID, XCN_CRYPT_RDN_ATTR_OID_GROUP_ID, XCN_CRYPT_SIGN_ALG_OID_GROUP_ID, XCN_CRYPT_TEMPLATE_OID_GROUP_ID, certenroll/ObjectIdGroupId, certenroll/XCN_CRYPT_ANY_GROUP_ID, certenroll/XCN_CRYPT_ENCRYPT_ALG_OID_GROUP_ID, certenroll/XCN_CRYPT_ENHKEY_USAGE_OID_GROUP_ID, certenroll/XCN_CRYPT_EXT_OR_ATTR_OID_GROUP_ID, certenroll/XCN_CRYPT_FIRST_ALG_OID_GROUP_ID, certenroll/XCN_CRYPT_HASH_ALG_OID_GROUP_ID, certenroll/XCN_CRYPT_KEY_LENGTH_MASK, certenroll/XCN_CRYPT_LAST_ALG_OID_GROUP_ID, certenroll/XCN_CRYPT_LAST_OID_GROUP_ID, certenroll/XCN_CRYPT_OID_DISABLE_SEARCH_DS_FLAG, certenroll/XCN_CRYPT_POLICY_OID_GROUP_ID, certenroll/XCN_CRYPT_PUBKEY_ALG_OID_GROUP_ID, certenroll/XCN_CRYPT_RDN_ATTR_OID_GROUP_ID, certenroll/XCN_CRYPT_SIGN_ALG_OID_GROUP_ID, certenroll/XCN_CRYPT_TEMPLATE_OID_GROUP_ID, security.objectidgroupid_enum
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -327,6 +327,9 @@ Issuance policy group. This includes the following OIDs. The <i>x.y.z</i> portio
 ### -field XCN_CRYPT_TEMPLATE_OID_GROUP_ID
 
 Certificate template group. The OIDs in this group identify the certificate templates that are available to the client, and all begin with 1.3.6.1.4.1.311.21.8. but are completed by randomly generated numeric sequences that are unique for each forest.
+
+
+### -field XCN_CRYPT_KDF_OID_GROUP_ID
 
 
 ### -field XCN_CRYPT_LAST_OID_GROUP_ID

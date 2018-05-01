@@ -7,7 +7,7 @@ old-location: winrt\ipdfrenderernative_renderpagetodevicecontext.htm
 old-project: WinRT
 ms.assetid: 5ec97d21-3160-48e7-9486-a8ea9ca9df92
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/24/2018
 ms.keywords: IPdfRendererNative, IPdfRendererNative interface [Windows Runtime], RenderPageToDeviceContext method, IPdfRendererNative::RenderPageToDeviceContext, RenderPageToDeviceContext method [Windows Runtime], RenderPageToDeviceContext method [Windows Runtime], IPdfRendererNative interface, RenderPageToDeviceContext,IPdfRendererNative.RenderPageToDeviceContext, windows/IPdfRendererNative::RenderPageToDeviceContext, winrt.ipdfrenderernative_renderpagetodevicecontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: DOT11_BSSID_LIST, *PDOT11_BSSID_LIST
+req.typenames: IP6_ADDRESS, *PIP6_ADDRESS
 topic_type:
 -	APIRef
 -	kbSyntax

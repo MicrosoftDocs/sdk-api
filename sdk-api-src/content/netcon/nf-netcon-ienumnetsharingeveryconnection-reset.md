@@ -7,7 +7,7 @@ old-location: ics\ienumnetsharingeveryconnection_reset.htm
 old-project: ICS
 ms.assetid: c41539b9-2596-4bb4-9194-fa9accde165d
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: IEnumNetSharingEveryConnection, IEnumNetSharingEveryConnection interface [ICS/ICF], Reset method, IEnumNetSharingEveryConnection::Reset, Reset method [ICS/ICF], Reset method [ICS/ICF], IEnumNetSharingEveryConnection interface, Reset,IEnumNetSharingEveryConnection.Reset, _ics_ienumnetsharingeveryconnection_reset, ics.ienumnetsharingeveryconnection_reset, netcon/IEnumNetSharingEveryConnection::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IEnumNetSharingEveryConnection::Reset method

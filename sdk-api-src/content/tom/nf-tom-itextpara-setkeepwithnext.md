@@ -7,7 +7,7 @@ old-location: controls\ITextPara_SetKeepWithNext.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setkeepwithnext.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextPara, ITextPara interface [Windows Controls], SetKeepWithNext method, ITextPara::SetKeepWithNext, SetKeepWithNext method [Windows Controls], SetKeepWithNext method [Windows Controls], ITextPara interface, SetKeepWithNext,ITextPara.SetKeepWithNext, _win32_ITextPara_SetKeepWithNext, _win32_ITextPara_SetKeepWithNext_cpp, controls.ITextPara_SetKeepWithNext, controls._win32_ITextPara_SetKeepWithNext, tom/ITextPara::SetKeepWithNext
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: controls\itextdocument2_getstory.htm
 old-project: Controls
 ms.assetid: bb1322e9-47b2-4770-b5de-c5eeda70eed1
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: GetStory method [Windows Controls], GetStory method [Windows Controls], ITextDocument2 interface, GetStory,ITextDocument2.GetStory, ITextDocument2, ITextDocument2 interface [Windows Controls], GetStory method, ITextDocument2::GetStory, controls.itextdocument2_getstory, tom/ITextDocument2::GetStory
 ms.prod: windows-hardware
 ms.technology: windows-devices

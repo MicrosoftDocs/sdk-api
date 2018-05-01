@@ -7,7 +7,7 @@ old-location: p2p\peerdistserverclosestreamhandle.htm
 old-project: P2PSdk
 ms.assetid: 599b4694-3d03-4d25-9d02-313599aaaf0b
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/23/2018
 ms.keywords: PeerDistServerCloseStreamHandle, PeerDistServerCloseStreamHandle function [Peer Networking], p2p.peerdistserverclosestreamhandle, peerdist/PeerDistServerCloseStreamHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: PeerDist.lib
 req.dll: PeerDist.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # PeerDistServerCloseStreamHandle function

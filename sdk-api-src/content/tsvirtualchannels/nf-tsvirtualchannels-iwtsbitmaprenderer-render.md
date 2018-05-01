@@ -7,7 +7,7 @@ old-location: termserv\iwtsbitmaprenderer_render.htm
 old-project: TermServ
 ms.assetid: 536c6954-0cde-48d1-ba5b-a97c9942f0f6
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: IWTSBitmapRenderer, IWTSBitmapRenderer interface [Remote Desktop Services], Render method, IWTSBitmapRenderer::Render, Render method [Remote Desktop Services], Render method [Remote Desktop Services], IWTSBitmapRenderer interface, Render,IWTSBitmapRenderer.Render, termserv.iwtsbitmaprenderer_render, tsvirtualchannels/IWTSBitmapRenderer::Render
 ms.prod: windows-hardware
 ms.technology: windows-devices

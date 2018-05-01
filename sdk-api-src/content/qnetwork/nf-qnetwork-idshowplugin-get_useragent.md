@@ -7,7 +7,7 @@ old-location: dshow\idshowplugin_get_useragent.htm
 old-project: DirectShow
 ms.assetid: 0bbd3cd2-75d8-4c48-837d-4cb045cad35b
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IDShowPlugin, IDShowPlugin interface [DirectShow], get_UserAgent method, IDShowPlugin::get_UserAgent, IDShowPluginget_UserAgent, dshow.idshowplugin_get_useragent, get_UserAgent method [DirectShow], get_UserAgent method [DirectShow], IDShowPlugin interface, get_UserAgent,IDShowPlugin.get_UserAgent, qnetwork/IDShowPlugin::get_UserAgent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IDShowPlugin::get_UserAgent method

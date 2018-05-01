@@ -7,7 +7,7 @@ old-location: controls\ITextRange_MoveStart.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\movestart.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextRange, ITextRange interface [Windows Controls], MoveStart method, ITextRange::MoveStart, MoveStart method [Windows Controls], MoveStart method [Windows Controls], ITextRange interface, MoveStart,ITextRange.MoveStart, _win32_ITextRange_MoveStart, _win32_ITextRange_MoveStart_cpp, controls.ITextRange_MoveStart, controls._win32_ITextRange_MoveStart, tom/ITextRange::MoveStart
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\IBrowserService2__UIActivateView.htm
 old-project: shell
 ms.assetid: 9c8439f8-5931-4aca-8085-2707b6f964f0
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IBrowserService2, IBrowserService2 interface [Windows Shell], _UIActivateView method, IBrowserService2::_UIActivateView, _UIActivateView method [Windows Shell], _UIActivateView method [Windows Shell], IBrowserService2 interface, _UIActivateView,IBrowserService2._UIActivateView, shdeprecated/IBrowserService2::_UIActivateView, shell.IBrowserService2__UIActivateView, zone_IBrowserService2__UIActivateView
 ms.prod: windows-hardware
 ms.technology: windows-devices

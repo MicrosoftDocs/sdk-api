@@ -7,7 +7,7 @@ old-location: appxpkg\iappxblockmapfile_getuncompressedsize.htm
 old-project: appxpkg
 ms.assetid: 35D3EADC-F8EF-4D8F-8016-2E30976965EC
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/26/2018
 ms.keywords: GetUncompressedSize method [App packaging and management], GetUncompressedSize method [App packaging and management], IAppxBlockMapFile interface, GetUncompressedSize,IAppxBlockMapFile.GetUncompressedSize, IAppxBlockMapFile, IAppxBlockMapFile interface [App packaging and management], GetUncompressedSize method, IAppxBlockMapFile::GetUncompressedSize, appxpackaging/IAppxBlockMapFile::GetUncompressedSize, appxpkg.iappxblockmapfile_getuncompressedsize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_ARCHITECTURE2
+req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
 topic_type:
 -	APIRef
 -	kbSyntax

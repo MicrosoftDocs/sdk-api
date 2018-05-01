@@ -7,7 +7,7 @@ old-location: security\getclientinfo.htm
 old-project: SecAuthN
 ms.assetid: 3669f2e2-da70-4195-bdd0-f8415d97ae99
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/24/2018
 ms.keywords: GetClientInfo, GetClientInfo function [Security], LSA_GET_CLIENT_INFO, _ssp_getclientinfo, ntsecpkg/GetClientInfo, security.getclientinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # LSA_GET_CLIENT_INFO callback

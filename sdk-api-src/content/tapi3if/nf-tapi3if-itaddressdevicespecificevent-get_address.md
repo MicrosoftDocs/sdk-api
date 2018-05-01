@@ -7,7 +7,7 @@ old-location: tapi3\itaddressdevicespecificevent_get_address.htm
 old-project: Tapi
 ms.assetid: 95b745c9-c18a-47c9-8ceb-b2c225ebbf73
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: ITAddressDeviceSpecificEvent, ITAddressDeviceSpecificEvent interface [TAPI 2.2], get_Address method, ITAddressDeviceSpecificEvent::get_Address, _tapi3_itaddressdevicespecificevent_get_address, get_Address method [TAPI 2.2], get_Address method [TAPI 2.2], ITAddressDeviceSpecificEvent interface, get_Address,ITAddressDeviceSpecificEvent.get_Address, tapi3.itaddressdevicespecificevent_get_address, tapi3if/ITAddressDeviceSpecificEvent::get_Address
 ms.prod: windows-hardware
 ms.technology: windows-devices

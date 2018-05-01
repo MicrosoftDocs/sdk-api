@@ -7,7 +7,7 @@ old-location: com\iviewobject_setadvise.htm
 old-project: com
 ms.assetid: 64712679-8454-41fa-9497-f0ab97240a51
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: ADVF_ONLYONCE, ADVF_PRIMEFIRST, IViewObject, IViewObject interface [COM], SetAdvise method, IViewObject::SetAdvise, SetAdvise method [COM], SetAdvise method [COM], IViewObject interface, SetAdvise,IViewObject.SetAdvise, _ole_iviewobject_setadvise, com.iviewobject_setadvise, oleidl/IViewObject::SetAdvise
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IViewObject::SetAdvise method

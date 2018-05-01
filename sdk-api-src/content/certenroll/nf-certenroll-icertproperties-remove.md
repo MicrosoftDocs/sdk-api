@@ -7,7 +7,7 @@ old-location: security\icertproperties_remove_method.htm
 old-project: SecCertEnroll
 ms.assetid: 7ee9e624-6f27-4177-9711-7062cb10f77b
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: ICertProperties, ICertProperties interface [Security], Remove method, ICertProperties::Remove, Remove method [Security], Remove method [Security], ICertProperties interface, Remove,ICertProperties.Remove, certenroll/ICertProperties::Remove, security.icertproperties_remove_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

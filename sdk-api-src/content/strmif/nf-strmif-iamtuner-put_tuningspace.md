@@ -7,7 +7,7 @@ old-location: dshow\iamtuner_put_tuningspace.htm
 old-project: DirectShow
 ms.assetid: fd0c0bc5-2c46-4c5a-8f93-9021f37a6e6a
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMTuner, IAMTuner interface [DirectShow], put_TuningSpace method, IAMTuner::put_TuningSpace, IAMTunerput_TuningSpace, dshow.iamtuner_put_tuningspace, put_TuningSpace method [DirectShow], put_TuningSpace method [DirectShow], IAMTuner interface, put_TuningSpace,IAMTuner.put_TuningSpace, strmif/IAMTuner::put_TuningSpace
 ms.prod: windows-hardware
 ms.technology: windows-devices

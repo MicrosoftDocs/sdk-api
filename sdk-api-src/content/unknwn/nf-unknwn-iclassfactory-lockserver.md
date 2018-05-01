@@ -7,7 +7,7 @@ old-location: com\iclassfactory_lockserver.htm
 old-project: com
 ms.assetid: 4c817b89-013d-477f-a713-5e320896dfa0
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IClassFactory, IClassFactory interface [COM], LockServer method, IClassFactory::LockServer, LockServer method [COM], LockServer method [COM], IClassFactory interface, LockServer,IClassFactory.LockServer, _com_iclassfactory_lockserver, com.iclassfactory_lockserver, unknwnbase/IClassFactory::LockServer
 ms.prod: windows-hardware
 ms.technology: windows-devices

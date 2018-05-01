@@ -7,7 +7,7 @@ old-location: shell\DllInstall.htm
 old-project: shell
 ms.assetid: d161f2ec-31e6-405e-b76c-9976b0880816
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: DllInstall, DllInstall function [Windows Shell], _win32_DllInstall, shell.DllInstall, shlwapi/DllInstall
 ms.prod: windows-hardware
 ms.technology: windows-devices

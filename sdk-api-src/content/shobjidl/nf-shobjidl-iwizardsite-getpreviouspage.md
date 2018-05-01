@@ -7,7 +7,7 @@ old-location: shell\IWizardSite_GetPreviousPage.htm
 old-project: shell
 ms.assetid: 998eabc5-a0d4-450f-92bf-cf81f74c48d2
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetPreviousPage method [Windows Shell], GetPreviousPage method [Windows Shell], IWizardSite interface, GetPreviousPage,IWizardSite.GetPreviousPage, IWizardSite, IWizardSite interface [Windows Shell], GetPreviousPage method, IWizardSite::GetPreviousPage, _shell_IWizardSite_GetPreviousPage, shell.IWizardSite_GetPreviousPage, shobjidl/IWizardSite::GetPreviousPage
 ms.prod: windows-hardware
 ms.technology: windows-devices

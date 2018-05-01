@@ -7,7 +7,7 @@ old-location: mstv\impeg2tablefilter.htm
 old-project: mstv
 ms.assetid: 9467352d-44a5-41eb-b426-28df83a6d423
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMpeg2TableFilter, IMpeg2TableFilter interface [Microsoft TV Technologies], IMpeg2TableFilter interface [Microsoft TV Technologies], described, IMpeg2TableFilterInterface, mpeg2data/IMpeg2TableFilter, mstv.impeg2tablefilter
 ms.prod: windows-hardware
 ms.technology: windows-devices

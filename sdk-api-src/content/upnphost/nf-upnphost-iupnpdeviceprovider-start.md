@@ -7,7 +7,7 @@ old-location: upnp\iupnpdeviceprovider_start.htm
 old-project: UPnP
 ms.assetid: a76c7063-bad5-4f59-a5ca-8a8a4a79787e
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/25/2018
 ms.keywords: IUPnPDeviceProvider, IUPnPDeviceProvider interface [UPnP APIs], Start method, IUPnPDeviceProvider::Start, Start method [UPnP APIs], Start method [UPnP APIs], IUPnPDeviceProvider interface, Start,IUPnPDeviceProvider.Start, _upnp_iupnpdeviceprovider_start, upnp.iupnpdeviceprovider_start, upnphost/IUPnPDeviceProvider::Start
 ms.prod: windows-hardware
 ms.technology: windows-devices

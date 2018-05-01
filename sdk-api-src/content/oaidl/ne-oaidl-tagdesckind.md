@@ -7,7 +7,7 @@ old-location: automat\desckind.htm
 old-project: automat
 ms.assetid: bab3d80a-7610-455c-9c64-31a60f4bf01e
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: DESCKIND, DESCKIND enumeration [Automation], DESCKIND_FUNCDESC, DESCKIND_IMPLICITAPPOBJ, DESCKIND_MAX, DESCKIND_NONE, DESCKIND_TYPECOMP, DESCKIND_VARDESC, _oa96_DESCKIND, automat.desckind, oaidl/DESCKIND, oaidl/DESCKIND_FUNCDESC, oaidl/DESCKIND_IMPLICITAPPOBJ, oaidl/DESCKIND_MAX, oaidl/DESCKIND_NONE, oaidl/DESCKIND_TYPECOMP, oaidl/DESCKIND_VARDESC, tagDESCKIND
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # tagDESCKIND enumeration

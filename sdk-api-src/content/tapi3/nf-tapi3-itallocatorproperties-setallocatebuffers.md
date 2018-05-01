@@ -7,7 +7,7 @@ old-location: tapi3\itallocatorproperties_setallocatebuffers.htm
 old-project: Tapi
 ms.assetid: 5f4a25f8-1a5f-40ff-9a29-586d1c7c217c
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: ITAllocatorProperties, ITAllocatorProperties interface [TAPI 2.2], SetAllocateBuffers method, ITAllocatorProperties::SetAllocateBuffers, SetAllocateBuffers method [TAPI 2.2], SetAllocateBuffers method [TAPI 2.2], ITAllocatorProperties interface, SetAllocateBuffers,ITAllocatorProperties.SetAllocateBuffers, _tapi3_itallocatorproperties_setallocatebuffers, tapi3.itallocatorproperties_setallocatebuffers, tapi3ds/ITAllocatorProperties::SetAllocateBuffers
 ms.prod: windows-hardware
 ms.technology: windows-devices

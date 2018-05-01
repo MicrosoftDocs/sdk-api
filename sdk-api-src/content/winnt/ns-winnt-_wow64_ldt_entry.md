@@ -58,6 +58,16 @@ Describes an entry in the descriptor table for a 32-bit thread on a 64-bit syste
 
 
 
+### -field LimitLow
+
+The low-order part of the address of the last byte in the segment.
+
+
+### -field BaseLow
+
+The low-order part of the base address of the segment.
+
+
 ### -field HighWord
 
 The high-order portion of the descriptor. This member may be interpreted as bytes or collections of bits, depending on the level of detail required. 
@@ -146,16 +156,6 @@ The granularity. This member contains 0 if the segment is byte granular, 1 if th
 ### -field HighWord.Bits.BaseHi
 
 The high bits (24â€“31) of the base address of the segment.
-
-
-### -field LimitLow
-
-The low-order part of the address of the last byte in the segment.
-
-
-### -field BaseLow
-
-The low-order part of the base address of the segment.
 
 
 ## -remarks

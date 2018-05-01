@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicpixelformatinfo_getcolorcontext.htm
 old-project: wic
 ms.assetid: c35fc474-cbf5-4705-b0f1-a2e24a062a7a
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: GetColorContext method [Windows Imaging Component], GetColorContext method [Windows Imaging Component], IWICPixelFormatInfo interface, GetColorContext,IWICPixelFormatInfo.GetColorContext, IWICPixelFormatInfo, IWICPixelFormatInfo interface [Windows Imaging Component], GetColorContext method, IWICPixelFormatInfo::GetColorContext, _wic_codec_iwicpixelformatinfo_getcolorcontext, wic._wic_codec_iwicpixelformatinfo_getcolorcontext, wincodec/IWICPixelFormatInfo::GetColorContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

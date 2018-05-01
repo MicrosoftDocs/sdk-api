@@ -7,7 +7,7 @@ old-location: security\lsaaplogonterminated.htm
 old-project: SecAuthN
 ms.assetid: 17e8426a-5a25-48ca-8cef-91bbeda8490c
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/24/2018
 ms.keywords: LSA_AP_LOGON_TERMINATED, LsaApLogonTerminated, LsaApLogonTerminated function [Security], _lsa_lsaaplogonterminated, ntsecpkg/LsaApLogonTerminated, security.lsaaplogonterminated
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # LSA_AP_LOGON_TERMINATED callback

@@ -7,7 +7,7 @@ old-location: wua\iupdate_deploymentaction.htm
 old-project: Wua_Sdk
 ms.assetid: 52bdde0e-6b00-4bc9-8ad6-8bae5b01b7f3
 ms.author: windowsdriverdev
-ms.date: 3/15/2018
+ms.date: 4/18/2018
 ms.keywords: DeploymentAction property [Windows Update Agent], DeploymentAction property [Windows Update Agent], IUpdate interface, IUpdate, IUpdate interface [Windows Update Agent], DeploymentAction property, IUpdate.DeploymentAction, IUpdate::get_DeploymentAction, get_DeploymentAction,IUpdate.get_DeploymentAction, wua.iupdate_deploymentaction, wuapi/IUpdate::DeploymentAction, wuapi/IUpdate::get_DeploymentAction
 ms.prod: windows-hardware
 ms.technology: windows-devices

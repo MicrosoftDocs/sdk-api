@@ -7,7 +7,7 @@ old-location: gdi\offsetrgn.htm
 old-project: gdi
 ms.assetid: 5228c614-3278-4852-a867-7eed57359aef
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/17/2018
 ms.keywords: OffsetRgn, OffsetRgn function [Windows GDI], _win32_OffsetRgn, gdi.offsetrgn, wingdi/OffsetRgn
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: FAX_TIME, *PFAX_TIME
+req.typenames: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
 topic_type:
 -	APIRef
 -	kbSyntax

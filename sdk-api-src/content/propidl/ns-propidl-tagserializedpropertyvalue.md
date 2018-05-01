@@ -7,7 +7,7 @@ old-location: shell\SERIALIZEDPROPERTYVALUE.htm
 old-project: shell
 ms.assetid: ab64a16e-624d-427a-8f9c-5c8c4a9df625
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: SERIALIZEDPROPERTYVALUE, SERIALIZEDPROPERTYVALUE structure [Windows Shell], _shell_SERIALIZEDPROPERTYVALUE, propidl/SERIALIZEDPROPERTYVALUE, shell.SERIALIZEDPROPERTYVALUE, tagSERIALIZEDPROPERTYVALUE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # tagSERIALIZEDPROPERTYVALUE structure

@@ -7,7 +7,7 @@ old-location: mstv\ituningspace_clone.htm
 old-project: mstv
 ms.assetid: 01dcde87-b043-491e-b5cf-9800c12b5335
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: Clone method [Microsoft TV Technologies], Clone method [Microsoft TV Technologies], ITuningSpace interface, Clone,ITuningSpace.Clone, ITuningSpace, ITuningSpace interface [Microsoft TV Technologies], Clone method, ITuningSpace::Clone, ITuningSpaceClone, mstv.ituningspace_clone, tuner/ITuningSpace::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

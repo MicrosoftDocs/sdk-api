@@ -7,7 +7,7 @@ old-location: controls\IImageList_AddMasked.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\addmasked.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: AddMasked method [Windows Controls], AddMasked method [Windows Controls], IImageList interface, AddMasked,IImageList.AddMasked, IImageList, IImageList interface [Windows Controls], AddMasked method, IImageList::AddMasked, comctl_IImageList_AddMasked, comctl_IImageList_AddMasked_cpp, commoncontrols/IImageList::AddMasked, controls.IImageList_AddMasked, controls.comctl_IImageList_AddMasked
 ms.prod: windows-hardware
 ms.technology: windows-devices

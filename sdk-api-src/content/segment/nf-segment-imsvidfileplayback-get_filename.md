@@ -7,7 +7,7 @@ old-location: mstv\imsvidfileplayback_get_filename.htm
 old-project: mstv
 ms.assetid: c8e01204-fb8e-4ebb-97d9-04dda15c491a
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidFilePlayback, IMSVidFilePlayback interface [Microsoft TV Technologies], get_FileName method, IMSVidFilePlayback::get_FileName, IMSVidFilePlaybackget_FileName, get_FileName method [Microsoft TV Technologies], get_FileName method [Microsoft TV Technologies], IMSVidFilePlayback interface, get_FileName,IMSVidFilePlayback.get_FileName, mstv.imsvidfileplayback_get_filename, segment/IMSVidFilePlayback::get_FileName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidFilePlayback::get_FileName method

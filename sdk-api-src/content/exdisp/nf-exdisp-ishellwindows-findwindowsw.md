@@ -7,7 +7,7 @@ old-location: shell\IShellWindows_FindWindowSW.htm
 old-project: shell
 ms.assetid: 10eed153-cb0b-4ce0-8cc5-2e7ebf683fda
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: FindWindowSW method [Windows Shell], FindWindowSW method [Windows Shell], IShellWindows interface, FindWindowSW,IShellWindows.FindWindowSW, IShellWindows, IShellWindows interface [Windows Shell], FindWindowSW method, IShellWindows::FindWindowSW, _win32_IShellWindows_FindWindowSW, exdisp/IShellWindows::FindWindowSW, shell.IShellWindows_FindWindowSW
 ms.prod: windows-hardware
 ms.technology: windows-devices

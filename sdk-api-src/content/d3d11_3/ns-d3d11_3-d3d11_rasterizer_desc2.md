@@ -7,8 +7,8 @@ old-location: direct3d11\d3d11_rasterizer_desc2.htm
 old-project: direct3d11
 ms.assetid: 54B5744A-1F50-4203-A43B-7E830D769534
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
-ms.keywords: D3D11_RASTERIZER_DESC2, D3D11_RASTERIZER_DESC2 structure [Direct3D 11], d3d11_3/D3D11_RASTERIZER_DESC2, direct3d11.d3d11_rasterizer_desc2
+ms.date: 4/6/2018
+ms.keywords: CD3D11_RASTERIZER_DESC2, D3D11_RASTERIZER_DESC2, D3D11_RASTERIZER_DESC2 structure [Direct3D 11], d3d11_3/D3D11_RASTERIZER_DESC2, direct3d11.d3d11_rasterizer_desc2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -57,37 +57,37 @@ Describes rasterizer state.
 
 
 
-### -field FillMode
+#### - FillMode
 
 A <a href="https://msdn.microsoft.com/853a7df5-4740-40dd-9188-2b399f3aae68">D3D11_FILL_MODE</a>-typed value that determines the fill mode to use when rendering.
 
 
-### -field CullMode
+#### - CullMode
 
 A <a href="https://msdn.microsoft.com/437c4e2f-f120-44db-b0ce-f4dd4e666814">D3D11_CULL_MODE</a>-typed value that indicates that triangles facing the specified direction are not drawn.
 
 
-### -field FrontCounterClockwise
+#### - FrontCounterClockwise
 
 Specifies whether a triangle is front- or back-facing. If <b>TRUE</b>, a triangle will be considered front-facing if its vertices are counter-clockwise on the render target and considered back-facing if they are clockwise. If <b>FALSE</b>, the opposite is true.
 
 
-### -field DepthBias
+#### - DepthBias
 
 Depth value added to a given pixel. For info about depth bias, see <a href="https://msdn.microsoft.com/library/windows/hardware/jj123786">Depth Bias</a>.
 
 
-### -field DepthBiasClamp
+#### - DepthBiasClamp
 
 Maximum depth bias of a pixel. For info about depth bias, see <a href="https://msdn.microsoft.com/library/windows/hardware/jj123786">Depth Bias</a>.
 
 
-### -field SlopeScaledDepthBias
+#### - SlopeScaledDepthBias
 
 Scalar on a given pixel's slope. For info about depth bias, see <a href="https://msdn.microsoft.com/library/windows/hardware/jj123786">Depth Bias</a>.
 
 
-### -field DepthClipEnable
+#### - DepthClipEnable
 
 Specifies whether to enable clipping based on distance.
 
@@ -104,22 +104,22 @@ When you set <b>DepthClipEnable</b> to <b>FALSE</b>, the hardware skips the z cl
 
 
 
-### -field ScissorEnable
+#### - ScissorEnable
 
 Specifies whether to enable scissor-rectangle culling. All pixels outside an active scissor rectangle are culled.
 
 
-### -field MultisampleEnable
+#### - MultisampleEnable
 
 Specifies whether to use the quadrilateral or alpha line anti-aliasing algorithm on multisample antialiasing (MSAA) render targets. Set to <b>TRUE</b> to use the quadrilateral line anti-aliasing algorithm and to <b>FALSE</b> to use the alpha line anti-aliasing algorithm. For more info about this member, see Remarks.
 
 
-### -field AntialiasedLineEnable
+#### - AntialiasedLineEnable
 
 Specifies whether to enable line antialiasing; only applies if doing line drawing and <b>MultisampleEnable</b> is <b>FALSE</b>. For more info about this member, see Remarks.
 
 
-### -field ForcedSampleCount
+#### - ForcedSampleCount
 
 The sample count that is forced while UAV rendering or rasterizing. Valid values are 0, 1, 2, 4, 8, and optionally 16. 0 indicates that the sample count is not forced.
 
@@ -134,7 +134,7 @@ The sample count that is forced while UAV rendering or rasterizing. Valid values
 </ul>Otherwise, rendering behavior is undefined. For info about how to configure depth-stencil, see <a href="https://msdn.microsoft.com/e8f52d5f-266f-4e2c-b38d-d7fd9e27fe1f">Configuring Depth-Stencil Functionality</a>.</div>
 <div> </div>
 
-### -field ConservativeRaster
+#### - ConservativeRaster
 
 A <a href="https://msdn.microsoft.com/79D5A8A2-E379-4BE7-A0B2-50D16EFECAA3">D3D11_CONSERVATIVE_RASTERIZATION_MODE</a>-typed value that identifies whether conservative rasterization is on or off.
 

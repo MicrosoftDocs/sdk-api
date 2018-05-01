@@ -7,7 +7,7 @@ old-location: p2p\peer_pnrp_registration_info.htm
 old-project: P2PSdk
 ms.assetid: 2825cb65-94b4-4bed-acff-7fa35a992284
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/23/2018
 ms.keywords: "*PPEER_PNRP_REGISTRATION_INFO, PEER_PNRP_REGISTRATION_INFO, PEER_PNRP_REGISTRATION_INFO structure [Peer Networking], PPEER_PNRP_REGISTRATION_INFO, PPEER_PNRP_REGISTRATION_INFO structure pointer [Peer Networking], p2p.peer_pnrp_registration_info, p2p/PEER_PNRP_REGISTRATION_INFO, p2p/PPEER_PNRP_REGISTRATION_INFO, peer_pnrp_registration_info_tag"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # peer_pnrp_registration_info_tag structure

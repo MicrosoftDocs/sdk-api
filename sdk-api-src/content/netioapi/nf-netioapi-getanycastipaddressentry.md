@@ -7,7 +7,7 @@ old-location: iphlp\getanycastipaddressentry.htm
 old-project: IpHlp
 ms.assetid: d60828ed-e1fd-4e57-92be-08a189c27fe5
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 4/13/2018
 ms.keywords: GetAnycastIpAddressEntry, GetAnycastIpAddressEntry function [IP Helper], iphlp.getanycastipaddressentry, netioapi/GetAnycastIpAddressEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # GetAnycastIpAddressEntry function

@@ -7,7 +7,7 @@ old-location: automat\itypelib_gettypeinfocount.htm
 old-project: automat
 ms.assetid: 63436bee-c71b-4d32-bfca-426c8953a75b
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: GetTypeInfoCount method [Automation], GetTypeInfoCount method [Automation], ITypeLib interface, GetTypeInfoCount,ITypeLib.GetTypeInfoCount, ITypeLib, ITypeLib interface [Automation], GetTypeInfoCount method, ITypeLib::GetTypeInfoCount, _oa96_ITypeLib_GetTypeInfoCount, automat.itypelib_gettypeinfocount, oaidl/ITypeLib::GetTypeInfoCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITypeLib::GetTypeInfoCount method

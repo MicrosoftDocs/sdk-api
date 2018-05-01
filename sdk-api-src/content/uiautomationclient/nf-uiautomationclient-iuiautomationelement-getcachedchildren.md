@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement_GetCachedChildren.htm
 old-project: WinAuto
 ms.assetid: dab24be3-0e0e-445f-a9cc-bb2733916cdc
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: GetCachedChildren method [Windows Accessibility], GetCachedChildren method [Windows Accessibility], IUIAutomationElement interface, GetCachedChildren,IUIAutomationElement.GetCachedChildren, IUIAutomationElement, IUIAutomationElement interface [Windows Accessibility], GetCachedChildren method, IUIAutomationElement::GetCachedChildren, uiauto.uiauto_IUIAutomationElement_GetCachedChildren, uiauto_IUIAutomationElement_GetCachedChildren, uiautomationclient/IUIAutomationElement::GetCachedChildren, winauto.uiauto_IUIAutomationElement_GetCachedChildren
 ms.prod: windows-hardware
 ms.technology: windows-devices

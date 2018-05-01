@@ -7,7 +7,7 @@ old-location: com\iolecontrolsite_transformcoords.htm
 old-project: com
 ms.assetid: c7add062-4b42-43be-a982-c881c947f8f0
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IOleControlSite, IOleControlSite interface [COM], TransformCoords method, IOleControlSite::TransformCoords, TransformCoords method [COM], TransformCoords method [COM], IOleControlSite interface, TransformCoords,IOleControlSite.TransformCoords, XFORMCOORDS_CONTAINERTOHIMETRIC, XFORMCOORDS_EVENTCOMPAT, XFORMCOORDS_HIMETRICTOCONTAINER, XFORMCOORDS_POSITION, XFORMCOORDS_SIZE, _ctrl_iolecontrolsite_transformcoords, com.iolecontrolsite_transformcoords, ocidl/IOleControlSite::TransformCoords
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IOleControlSite::TransformCoords method

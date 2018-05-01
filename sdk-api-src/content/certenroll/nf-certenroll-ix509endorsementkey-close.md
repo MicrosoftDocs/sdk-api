@@ -7,7 +7,7 @@ old-location: security\ix509endorsementkey_close.htm
 old-project: SecCertEnroll
 ms.assetid: 71855c96-a828-4bb6-849a-53be8269277d
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: Close method [Security], Close method [Security], IX509EndorsementKey interface, Close,IX509EndorsementKey.Close, IX509EndorsementKey, IX509EndorsementKey interface [Security], Close method, IX509EndorsementKey::Close, certenroll/IX509EndorsementKey::Close, security.ix509endorsementkey_close
 ms.prod: windows-hardware
 ms.technology: windows-devices

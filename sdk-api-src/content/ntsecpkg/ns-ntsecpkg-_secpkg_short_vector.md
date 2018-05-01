@@ -7,7 +7,7 @@ old-location: security\secpkg_short_vector.htm
 old-project: SecAuthN
 ms.assetid: 55F6B72E-B4D5-44F0-9268-D25D677746C5
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/24/2018
 ms.keywords: "*PSECPKG_SHORT_VECTOR, PSECPKG_SHORT_VECTOR, PSECPKG_SHORT_VECTOR structure pointer [Security], SECPKG_SHORT_VECTOR, SECPKG_SHORT_VECTOR structure [Security], _SECPKG_SHORT_VECTOR, ntsecpkg/PSECPKG_SHORT_VECTOR, ntsecpkg/SECPKG_SHORT_VECTOR, security.secpkg_short_vector"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _SECPKG_SHORT_VECTOR structure

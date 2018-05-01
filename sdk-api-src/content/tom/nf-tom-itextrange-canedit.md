@@ -7,7 +7,7 @@ old-location: controls\ITextRange_CanEdit.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\canedit.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: CanEdit method [Windows Controls], CanEdit method [Windows Controls], ITextRange interface, CanEdit,ITextRange.CanEdit, ITextRange, ITextRange interface [Windows Controls], CanEdit method, ITextRange::CanEdit, _win32_ITextRange_CanEdit, _win32_ITextRange_CanEdit_cpp, controls.ITextRange_CanEdit, controls._win32_ITextRange_CanEdit, tom/ITextRange::CanEdit
 ms.prod: windows-hardware
 ms.technology: windows-devices

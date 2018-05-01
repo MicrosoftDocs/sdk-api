@@ -7,7 +7,7 @@ old-location: properties\IPropertySystem_FormatForDisplayAlloc.htm
 old-project: properties
 ms.assetid: 8e62855a-6d2c-45fa-b7bc-01270126b969
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/5/2018
 ms.keywords: FormatForDisplayAlloc method [Windows Properties], FormatForDisplayAlloc method [Windows Properties], IPropertySystem interface, FormatForDisplayAlloc,IPropertySystem.FormatForDisplayAlloc, IPropertySystem, IPropertySystem interface [Windows Properties], FormatForDisplayAlloc method, IPropertySystem::FormatForDisplayAlloc, properties.IPropertySystem_FormatForDisplayAlloc, propsys/IPropertySystem::FormatForDisplayAlloc, shell.IPropertySystem_FormatForDisplayAlloc, shell_IPropertySystem_FormatForDisplayAlloc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IPropertySystem::FormatForDisplayAlloc method

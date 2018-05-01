@@ -7,7 +7,7 @@ old-location: security\ipolicyqualifier_type_property.htm
 old-project: SecCertEnroll
 ms.assetid: eb48d2a0-c689-45b1-9f06-83df71987b4b
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: IPolicyQualifier, IPolicyQualifier interface [Security], Type property, IPolicyQualifier.Type, IPolicyQualifier::get_Type, Type property [Security], Type property [Security], IPolicyQualifier interface, certenroll/IPolicyQualifier::Type, certenroll/IPolicyQualifier::get_Type, get_Type,IPolicyQualifier.get_Type, security.ipolicyqualifier_type_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

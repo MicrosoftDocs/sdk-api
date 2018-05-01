@@ -7,7 +7,7 @@ old-location: termserv\itsgauthenticationengine.htm
 old-project: TermServ
 ms.assetid: c72f3f22-a403-45b0-9ccb-6339ae001024
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: ITSGAuthenticationEngine, ITSGAuthenticationEngine interface [Remote Desktop Services], ITSGAuthenticationEngine interface [Remote Desktop Services], described, termserv.itsgauthenticationengine, tsgauthenticationengine/ITSGAuthenticationEngine
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: TC_IFC_DESCRIPTOR, *PTC_IFC_DESCRIPTOR
+req.typenames: TRANSPORT_SETTING_ID, *PTRANSPORT_SETTING_ID
 topic_type:
 -	APIRef
 -	kbSyntax

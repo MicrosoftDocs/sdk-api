@@ -7,7 +7,7 @@ old-location: mstv\iatsc_vct_getrecordishiddenbitset.htm
 old-project: mstv
 ms.assetid: ef02da20-7c81-4c0b-83fd-7e4c0a36ea1a
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetRecordIsHiddenBitSet method [Microsoft TV Technologies], GetRecordIsHiddenBitSet method [Microsoft TV Technologies], IATSC_VCT interface, GetRecordIsHiddenBitSet,IATSC_VCT.GetRecordIsHiddenBitSet, IATSC_VCT, IATSC_VCT interface [Microsoft TV Technologies], GetRecordIsHiddenBitSet method, IATSC_VCT::GetRecordIsHiddenBitSet, IATSC_VCTGetRecordIsHiddenBitSet, atscpsipparser/IATSC_VCT::GetRecordIsHiddenBitSet, mstv.iatsc_vct_getrecordishiddenbitset
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_WRITER_PAYLOAD_STREAM
+req.typenames: AsyncStatus
 topic_type:
 -	APIRef
 -	kbSyntax

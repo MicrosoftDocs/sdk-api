@@ -7,7 +7,7 @@ old-location: security\bcryptenumregisteredproviders.htm
 old-project: SecCNG
 ms.assetid: a01adfec-dbe0-4817-af97-63163760fafc
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: BCryptEnumRegisteredProviders, BCryptEnumRegisteredProviders function [Security], bcrypt/BCryptEnumRegisteredProviders, security.bcryptenumregisteredproviders
 ms.prod: windows-hardware
 ms.technology: windows-devices

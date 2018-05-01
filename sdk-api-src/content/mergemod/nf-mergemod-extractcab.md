@@ -7,7 +7,7 @@ old-location: setup\merge_extractcab.htm
 old-project: Msi
 ms.assetid: a6fe8b69-8f4a-45f7-b7e6-7620a00500bb
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/26/2018
 ms.keywords: ExtractCAB, ExtractCAB method, ExtractCAB method, Merge class, Merge class, ExtractCAB method, _msi_extractcab_method, setup.merge_extractcab
 ms.prod: windows-hardware
 ms.technology: windows-devices

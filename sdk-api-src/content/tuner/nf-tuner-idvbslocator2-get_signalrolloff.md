@@ -7,7 +7,7 @@ old-location: mstv\idvbslocator2_signalrolloff.htm
 old-project: mstv
 ms.assetid: 2c6ac5ef-4d89-430c-a6df-bef8dd00b89f
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IDVBSLocator2, IDVBSLocator2 interface [Microsoft TV Technologies], SignalRollOff property, IDVBSLocator2.SignalRollOff, IDVBSLocator2::get_SignalRollOff, IDVBSLocator2::put_SignalRollOff, SignalRollOff property [Microsoft TV Technologies], SignalRollOff property [Microsoft TV Technologies], IDVBSLocator2 interface, get_SignalRollOff,IDVBSLocator2.get_SignalRollOff, mstv.idvbslocator2_signalrolloff, tuner/IDVBSLocator2::SignalRollOff, tuner/IDVBSLocator2::get_SignalRollOff, tuner/IDVBSLocator2::put_SignalRollOff
 ms.prod: windows-hardware
 ms.technology: windows-devices

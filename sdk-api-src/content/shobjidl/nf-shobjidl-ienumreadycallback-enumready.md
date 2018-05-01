@@ -7,7 +7,7 @@ old-location: shell\IEnumReadyCallback_EnumReady.htm
 old-project: shell
 ms.assetid: 4bb0772a-a863-49eb-a262-755d0ea3ea86
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: EnumReady method [Windows Shell], EnumReady method [Windows Shell], IEnumReadyCallback interface, EnumReady,IEnumReadyCallback.EnumReady, IEnumReadyCallback, IEnumReadyCallback interface [Windows Shell], EnumReady method, IEnumReadyCallback::EnumReady, _shell_IEnumReadyCallback_EnumReady, shell.IEnumReadyCallback_EnumReady, shobjidl/IEnumReadyCallback::EnumReady
 ms.prod: windows-hardware
 ms.technology: windows-devices

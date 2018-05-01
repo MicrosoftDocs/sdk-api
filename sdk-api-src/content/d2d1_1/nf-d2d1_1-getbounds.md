@@ -7,7 +7,7 @@ old-location: direct2d\id2d1geometry_getbounds.htm
 old-project: Direct2D
 ms.assetid: 3932189a-7c6b-4144-9d4a-32d2aba70835
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: GetBounds, GetBounds methods [Direct2D], d2d1_1/GetBounds, direct2d.id2d1geometry_getbounds
 ms.prod: windows-hardware
 ms.technology: windows-devices

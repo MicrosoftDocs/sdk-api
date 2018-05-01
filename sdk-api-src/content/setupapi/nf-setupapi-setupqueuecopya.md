@@ -7,7 +7,7 @@ old-location: setup\setupqueuecopy.htm
 old-project: SetupApi
 ms.assetid: c8683438-7a28-4713-8781-45f9bd75b72c
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/10/2018
 ms.keywords: SetupQueueCopy, SetupQueueCopy function [Setup API], SetupQueueCopyA, SetupQueueCopyW, _setupapi_setupqueuecopy, setup.setupqueuecopy, setupapi/SetupQueueCopy, setupapi/SetupQueueCopyA, setupapi/SetupQueueCopyW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # SetupQueueCopyA function

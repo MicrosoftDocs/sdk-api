@@ -7,7 +7,7 @@ old-location: security\ix509privatekey_description_property.htm
 old-project: SecCertEnroll
 ms.assetid: 84889286-7740-4f4f-b095-1fb999702f9a
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: Description property [Security], Description property [Security], IX509PrivateKey interface, IX509PrivateKey, IX509PrivateKey interface [Security], Description property, IX509PrivateKey.Description, IX509PrivateKey::get_Description, IX509PrivateKey::put_Description, certenroll/IX509PrivateKey::Description, certenroll/IX509PrivateKey::get_Description, certenroll/IX509PrivateKey::put_Description, get_Description,IX509PrivateKey.get_Description, security.ix509privatekey_description_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

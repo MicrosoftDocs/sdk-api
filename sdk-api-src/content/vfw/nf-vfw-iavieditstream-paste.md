@@ -7,7 +7,7 @@ old-location: multimedia\iavieditstream_paste.htm
 old-project: Multimedia
 ms.assetid: bdb6de96-6a1e-49ca-a824-ed6d7b43fd13
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/25/2018
 ms.keywords: IAVIEditStream, IAVIEditStream interface [Windows Multimedia], Paste method, IAVIEditStream::Paste, Paste method [Windows Multimedia], Paste method [Windows Multimedia], IAVIEditStream interface, Paste,IAVIEditStream.Paste, _win32_IAVIEditStream_Paste, multimedia.iavieditstream_paste, vfw/IAVIEditStream::Paste
 ms.prod: windows-hardware
 ms.technology: windows-devices

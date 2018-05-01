@@ -2,13 +2,13 @@
 UID: NF:intsafe.ULongToUChar
 title: ULongToUChar function
 author: windows-driver-content
-description: Converts a value of type ULONG to a value of type UCHAR.
-old-location: shell\ULongToUChar.htm
+description: Converts a value of type DWORD to a value of type UCHAR.
+old-location: shell\DWordToUChar.htm
 old-project: shell
-ms.assetid: 459c616d-8551-4112-850f-ddd4743fc2a6
+ms.assetid: 1299608f-782b-4492-8b92-41eb72d93c17
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
-ms.keywords: ULongToUChar, ULongToUChar function [Windows Shell], _shell_ULongToUChar, intsafe/ULongToUChar, shell.ULongToUChar
+ms.date: 4/26/2018
+ms.keywords: DWordToUChar, DWordToUChar function [Windows Shell], ULongToUChar, _shell_DWordToUChar, intsafe/DWordToUChar, shell.DWordToUChar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -31,15 +31,15 @@ topic_type:
 -	APIRef
 -	kbSyntax
 api_type:
--	HeaderDef
+-	DllExport
 api_location:
--	Intsafe.h
+-	None
 api_name:
--	ULongToUChar
+-	DWordToUChar
 product: Windows
 targetos: Windows
 req.lib: 
-req.dll: 
+req.dll: None
 req.irql: 
 req.product: GDI+ 1.1
 ---
@@ -50,7 +50,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Converts a value of type <b>ULONG</b> to a value of type <b>UCHAR</b>.
+Converts a value of type <b>DWORD</b> to a value of type <b>UCHAR</b>.
 
 
 ## -parameters
@@ -58,14 +58,26 @@ Converts a value of type <b>ULONG</b> to a value of type <b>UCHAR</b>.
 
 
 
-### -param ulOperand [in]
+### -param ulOperand
 
-Type: <b>ULONG</b>
+TBD
+
+
+### -param pch
+
+TBD
+
+
+
+
+#### - dwOperand [in]
+
+Type: <b>DWORD</b>
 
 The value to be converted.
 
 
-### -param pch [out]
+#### - puchResult [out]
 
 Type: <b>UCHAR*</b>
 

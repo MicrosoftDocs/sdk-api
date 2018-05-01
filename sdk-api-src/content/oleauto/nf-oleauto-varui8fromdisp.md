@@ -7,7 +7,7 @@ old-location: automat\varui8fromdisp.htm
 old-project: automat
 ms.assetid: b9741fc3-fefd-4504-8d4b-565d9ba8b5c2
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: VarUI8FromDisp, VarUI8FromDisp function [Automation], _oa96_VarUI8FromDisp, automat.varui8fromdisp, oleauto/VarUI8FromDisp
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # VarUI8FromDisp function

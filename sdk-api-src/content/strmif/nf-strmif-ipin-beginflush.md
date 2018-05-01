@@ -7,7 +7,7 @@ old-location: dshow\ipin_beginflush.htm
 old-project: DirectShow
 ms.assetid: 15563666-5f35-46a0-ad12-215979c9d9c1
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: BeginFlush method [DirectShow], BeginFlush method [DirectShow], IPin interface, BeginFlush,IPin.BeginFlush, IPin, IPin interface [DirectShow], BeginFlush method, IPin::BeginFlush, IPinBeginFlush, dshow.ipin_beginflush, strmif/IPin::BeginFlush
 ms.prod: windows-hardware
 ms.technology: windows-devices

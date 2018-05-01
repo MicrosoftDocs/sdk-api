@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontentpartnercallback_getcontentidsinlibrary.htm
 old-project: WMP
 ms.assetid: c8fbac82-77dc-4316-860d-cdf53e8bb9a7
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: GetContentIDsInLibrary method [Windows Media Player], GetContentIDsInLibrary method [Windows Media Player], IWMPContentPartnerCallback interface, GetContentIDsInLibrary,IWMPContentPartnerCallback.GetContentIDsInLibrary, IWMPContentPartnerCallback, IWMPContentPartnerCallback interface [Windows Media Player], GetContentIDsInLibrary method, IWMPContentPartnerCallback::GetContentIDsInLibrary, IWMPContentPartnerCallbackGetContentIDsInLibrary, contentpartner/IWMPContentPartnerCallback::GetContentIDsInLibrary, wmp.iwmpcontentpartnercallback_getcontentidsinlibrary
 ms.prod: windows-hardware
 ms.technology: windows-devices

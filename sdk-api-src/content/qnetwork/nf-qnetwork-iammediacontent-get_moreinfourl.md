@@ -7,7 +7,7 @@ old-location: dshow\iammediacontent_get_moreinfourl.htm
 old-project: DirectShow
 ms.assetid: 8efaa0b9-09c1-4434-a992-6290fc388cb2
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMMediaContent, IAMMediaContent interface [DirectShow], get_MoreInfoURL method, IAMMediaContent::get_MoreInfoURL, IAMMediaContentget_MoreInfoURL, dshow.iammediacontent_get_moreinfourl, get_MoreInfoURL method [DirectShow], get_MoreInfoURL method [DirectShow], IAMMediaContent interface, get_MoreInfoURL,IAMMediaContent.get_MoreInfoURL, qnetwork/IAMMediaContent::get_MoreInfoURL
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IAMMediaContent::get_MoreInfoURL method

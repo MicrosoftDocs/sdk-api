@@ -7,7 +7,7 @@ old-location: mf\imfmediaengineex_isstereo3d.htm
 old-project: medfound
 ms.assetid: 9E1C2E47-416F-4016-A576-7BE360A66A81
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFMediaEngineEx, IMFMediaEngineEx interface [Media Foundation], IsStereo3D method, IMFMediaEngineEx::IsStereo3D, IsStereo3D method [Media Foundation], IsStereo3D method [Media Foundation], IMFMediaEngineEx interface, IsStereo3D,IMFMediaEngineEx.IsStereo3D, mf.imfmediaengineex_isstereo3d, mfmediaengine/IMFMediaEngineEx::IsStereo3D
 ms.prod: windows-hardware
 ms.technology: windows-devices

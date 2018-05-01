@@ -7,7 +7,7 @@ old-location: security\icertencodebitstring_getbitcount.htm
 old-project: SecCrypto
 ms.assetid: 9fbaaf03-02b8-4c6f-8cc2-3fd897fdc81d
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: CCertEncodeBitString object [Security], GetBitCount method, GetBitCount method [Security], GetBitCount method [Security], CCertEncodeBitString object, GetBitCount method [Security], ICertEncodeBitString interface, GetBitCount,ICertEncodeBitString.GetBitCount, ICertEncodeBitString, ICertEncodeBitString interface [Security], GetBitCount method, ICertEncodeBitString::GetBitCount, _certsrv_icertencodebitstring_getbitcount, certenc/ICertEncodeBitString::GetBitCount, security.icertencodebitstring_getbitcount
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,14 +1,14 @@
 ---
 UID: NS:windns.__unnamed_struct_6
-title: DNS_MINFO_DATAW
+title: DNS_SOA_DATAA
 author: windows-driver-content
-description: The DNS_MINFO_DATA structure represents a DNS mail information (MINFO) record as specified in section 3.3.7 of RFC 1035.
-old-location: dns\dns_minfo_data.htm
+description: The DNS_SOA_DATA structure represents a DNS start of authority (SOA) record as specified in section 3.3.13 of RFC 1035.
+old-location: dns\dns_soa_data.htm
 old-project: DNS
-ms.assetid: cd392b48-734f-462b-b893-855f07c30575
+ms.assetid: 715cbb70-91fe-47ac-a713-1fe0701d4f8c
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
-ms.keywords: "*PDNS_MINFO_DATA, *PDNS_MINFO_DATAW, DNS_MINFO_DATA, DNS_MINFO_DATA structure [DNS], DNS_MINFO_DATAW, PDNS_MINFO_DATA, PDNS_MINFO_DATA structure pointer [DNS], _dns_dns_minfo_data, dns.dns_minfo_data, windns/DNS_MINFO_DATA, windns/PDNS_MINFO_DATA"
+ms.date: 4/18/2018
+ms.keywords: "*PDNS_SOA_DATA, *PDNS_SOA_DATAA, DNS_SOA_DATA, DNS_SOA_DATA structure [DNS], DNS_SOA_DATAA, PDNS_SOA_DATA, PDNS_SOA_DATA structure pointer [DNS], _dns_dns_soa_data, dns.dns_soa_data, windns/DNS_SOA_DATA, windns/PDNS_SOA_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: DNS_MINFO_DATAW, *PDNS_MINFO_DATAW
+req.typenames: DNS_SOA_DATAA, *PDNS_SOA_DATAA
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	Windns.h
 api_name:
--	DNS_MINFO_DATA
+-	DNS_SOA_DATA
 product: Windows
 targetos: Windows
 req.lib: 
@@ -44,14 +44,14 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# DNS_MINFO_DATAW structure
+# DNS_SOA_DATAA structure
 
 
 ## -description
 
 
 The 
-<b>DNS_MINFO_DATA</b> structure represents a DNS mail information (MINFO) record as specified in section 3.3.7 of <a href="http://go.microsoft.com/fwlink/p/?linkid=90264">RFC 1035</a>.
+<b>DNS_SOA_DATA</b> structure represents a DNS start of authority (SOA) record as specified in section 3.3.13 of <a href="http://go.microsoft.com/fwlink/p/?linkid=90264">RFC 1035</a>.
 
 
 ## -struct-fields
@@ -59,14 +59,39 @@ The
 
 
 
-### -field pNameMailbox
+### -field pNamePrimaryServer
 
-A pointer to a string that represents the <a href="f_gly.htm">fully qualified domain name</a> (FQDN) of the mailbox responsible for the mailing list or mailbox specified in the record's owner name.
+A pointer to a string that represents the name of the authoritative DNS server for the zone to which the record belongs.
 
 
-### -field pNameErrorsMailbox
+### -field pNameAdministrator
 
-A pointer to a string that represents the FQDN of the mailbox to receive error messages related to the mailing list.
+A pointer to a string that represents the name of the responsible party for the zone to which the record belongs.
+
+
+### -field dwSerialNo
+
+The serial number of the SOA record.
+
+
+### -field dwRefresh
+
+The time, in seconds, before the zone containing this record should be refreshed.
+
+
+### -field dwRetry
+
+The time, in seconds, before retrying a failed refresh of the zone to which this record belongs.
+
+
+### -field dwExpire
+
+The time, in seconds, before an unresponsive zone is no longer authoritative.
+
+
+### -field dwDefaultTtl
+
+The lower limit on the time, in seconds, that a DNS server or caching resolver are allowed to cache any resource records (RR) from the zone to which this record belongs.
 
 
 ## -remarks
@@ -74,7 +99,7 @@ A pointer to a string that represents the FQDN of the mailbox to receive error m
 
 
 The 
-<b>DNS_MINFO_DATA</b> structure is used in conjunction with the 
+<b>DNS_SOA_DATA</b> structure is used in conjunction with the 
 <a href="https://msdn.microsoft.com/ab7b96a5-346f-4e01-bb2a-885f44764590">DNS_RECORD</a> structure to programmatically manage DNS entries.
 
 

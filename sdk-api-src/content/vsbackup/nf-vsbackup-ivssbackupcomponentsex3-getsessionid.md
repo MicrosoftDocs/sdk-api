@@ -7,7 +7,7 @@ old-location: base\ivssbackupcomponentsex3_getsessionid.htm
 old-project: VSS
 ms.assetid: ad7e548a-9f7a-4e35-9811-edb68458a1df
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: GetSessionId method, GetSessionId method, IVssBackupComponentsEx3 interface, GetSessionId,IVssBackupComponentsEx3.GetSessionId, IVssBackupComponentsEx3, IVssBackupComponentsEx3 interface, GetSessionId method, IVssBackupComponentsEx3::GetSessionId, base.ivssbackupcomponentsex3_getsessionid, vsbackup/IVssBackupComponentsEx3::GetSessionId
 ms.prod: windows-hardware
 ms.technology: windows-devices

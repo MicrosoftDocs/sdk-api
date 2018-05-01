@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopygroup_getjob.htm
 old-project: Bits
 ms.assetid: c392e9e2-0489-457b-b21a-dfff9e2c0f39
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/10/2018
 ms.keywords: GetJob method [BITS], GetJob method [BITS], IBackgroundCopyGroup interface, GetJob,IBackgroundCopyGroup.GetJob, IBackgroundCopyGroup, IBackgroundCopyGroup interface [BITS], GetJob method, IBackgroundCopyGroup::GetJob, bits.ibackgroundcopygroup_getjob, qmgr/IBackgroundCopyGroup::GetJob
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: QmgrPrxy.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IBackgroundCopyGroup::GetJob method

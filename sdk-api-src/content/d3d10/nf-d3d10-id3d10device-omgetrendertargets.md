@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_omgetrendertargets.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_omgetrendertargets.htm
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: ID3D10Device, ID3D10Device interface [Direct3D 10], OMGetRenderTargets method, ID3D10Device::OMGetRenderTargets, OMGetRenderTargets method [Direct3D 10], OMGetRenderTargets method [Direct3D 10], ID3D10Device interface, OMGetRenderTargets,ID3D10Device.OMGetRenderTargets, d3d10/ID3D10Device::OMGetRenderTargets, direct3d10.id3d10device_omgetrendertargets, f378deb9-1829-aecc-36fe-7c3ab163d523
 ms.prod: windows-hardware
 ms.technology: windows-devices

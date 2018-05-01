@@ -7,7 +7,7 @@ old-location: mstv\imsvidstreambufferrecordingcontrol_get_recordingstopped.htm
 old-project: mstv
 ms.assetid: 894bed11-7bb6-49b9-8036-c32536949dbd
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidStreamBufferRecordingControl, IMSVidStreamBufferRecordingControl interface [Microsoft TV Technologies], get_RecordingStopped method, IMSVidStreamBufferRecordingControl::get_RecordingStopped, IMSVidStreamBufferRecordingControlget_RecordingStopped, get_RecordingStopped method [Microsoft TV Technologies], get_RecordingStopped method [Microsoft TV Technologies], IMSVidStreamBufferRecordingControl interface, get_RecordingStopped,IMSVidStreamBufferRecordingControl.get_RecordingStopped, mstv.imsvidstreambufferrecordingcontrol_get_recordingstopped, segment/IMSVidStreamBufferRecordingControl::get_RecordingStopped
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidStreamBufferRecordingControl::get_RecordingStopped method

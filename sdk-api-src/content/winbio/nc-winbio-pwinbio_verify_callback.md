@@ -7,7 +7,7 @@ old-location: secbiomet\pwinbio_verify_callback.htm
 old-project: SecBioMet
 ms.assetid: CD847827-D50F-41C2-81F7-B5ED316E7ABD
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: PWINBIO_VERIFY_CALLBACK, PWINBIO_VERIFY_CALLBACK callback function [Windows Biometric Framework API], secbiomet.pwinbio_verify_callback, winbio/PWINBIO_VERIFY_CALLBACK
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: coreaudio\ihardwareaudioenginebase_setenginedeviceformat.htm
 old-project: CoreAudio
 ms.assetid: BE4644E7-DBC7-4B30-AD26-483889425195
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: IHardwareAudioEngineBase, IHardwareAudioEngineBase interface [Core Audio], SetEngineDeviceFormat method, IHardwareAudioEngineBase::SetEngineDeviceFormat, SetEngineDeviceFormat method [Core Audio], SetEngineDeviceFormat method [Core Audio], IHardwareAudioEngineBase interface, SetEngineDeviceFormat,IHardwareAudioEngineBase.SetEngineDeviceFormat, audioengineendpoint/IHardwareAudioEngineBase::SetEngineDeviceFormat, coreaudio.ihardwareaudioenginebase_setenginedeviceformat
 ms.prod: windows-hardware
 ms.technology: windows-devices

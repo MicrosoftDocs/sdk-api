@@ -7,7 +7,7 @@ old-location: termserv\iwtsprotocolconnection_isuserallowedtologon.htm
 old-project: TermServ
 ms.assetid: 297ecc6c-6598-4c1a-94df-9d9924917cdf
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: IWTSProtocolConnection, IWTSProtocolConnection interface [Remote Desktop Services], IsUserAllowedToLogon method, IWTSProtocolConnection::IsUserAllowedToLogon, IsUserAllowedToLogon method [Remote Desktop Services], IsUserAllowedToLogon method [Remote Desktop Services], IWTSProtocolConnection interface, IsUserAllowedToLogon,IWTSProtocolConnection.IsUserAllowedToLogon, termserv.iwtsprotocolconnection_isuserallowedtologon, wtsprotocol/IWTSProtocolConnection::IsUserAllowedToLogon
 ms.prod: windows-hardware
 ms.technology: windows-devices

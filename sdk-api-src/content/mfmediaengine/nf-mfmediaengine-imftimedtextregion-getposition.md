@@ -7,7 +7,7 @@ old-location: mf\imftimedtextregion_getposition.htm
 old-project: medfound
 ms.assetid: 1DEE0689-A428-4121-9ED5-5E4D1376461E
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetPosition method [Media Foundation], GetPosition method [Media Foundation], IMFTimedTextRegion interface, GetPosition,IMFTimedTextRegion.GetPosition, IMFTimedTextRegion, IMFTimedTextRegion interface [Media Foundation], GetPosition method, IMFTimedTextRegion::GetPosition, mf.imftimedtextregion_getposition, mfmediaengine/IMFTimedTextRegion::GetPosition
 ms.prod: windows-hardware
 ms.technology: windows-devices

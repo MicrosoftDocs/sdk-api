@@ -7,7 +7,7 @@ old-location: direct2d\matrix3x2f_reinterpretbasetype_const_d2d1_matrix_3x2_f__p
 old-project: Direct2D
 ms.assetid: 6bf93ed8-4ca7-4e6f-b2fb-68f896469667
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: D2D1.Matrix3x2F.ReinterpretBaseType, D2D1::Matrix3x2F::ReinterpretBaseType, Matrix3x2F, Matrix3x2F interface [Direct2D], ReinterpretBaseType method, Matrix3x2F::ReinterpretBaseType, ReinterpretBaseType method [Direct2D], ReinterpretBaseType method [Direct2D], Matrix3x2F interface, ReinterpretBaseType,Matrix3x2F.ReinterpretBaseType, d2d1helper/Matrix3x2F::ReinterpretBaseType, direct2d.matrix3x2f_reinterpretbasetype_const_d2d1_matrix_3x2_f__pmatrix_
 ms.prod: windows-hardware
 ms.technology: windows-devices

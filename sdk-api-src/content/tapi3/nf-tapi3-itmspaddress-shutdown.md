@@ -7,7 +7,7 @@ old-location: tapi3\itmspaddress_shutdown.htm
 old-project: Tapi
 ms.assetid: 877691cb-b12b-4389-b93c-4ff13a52f4d7
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: ITMSPAddress, ITMSPAddress interface [TAPI 2.2], Shutdown method, ITMSPAddress::Shutdown, Shutdown method [TAPI 2.2], Shutdown method [TAPI 2.2], ITMSPAddress interface, Shutdown,ITMSPAddress.Shutdown, _tapi3_itmspaddress_shutdown, msp/ITMSPAddress::Shutdown, tapi3.itmspaddress_shutdown
 ms.prod: windows-hardware
 ms.technology: windows-devices

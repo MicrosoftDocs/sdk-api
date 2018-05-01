@@ -7,7 +7,7 @@ old-location: wmformat\iwmwriterfilesink3_ondataunitex.htm
 old-project: wmformat
 ms.assetid: 1dbcb27b-7588-4475-99fe-3e547d1659d3
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMWriterFileSink3, IWMWriterFileSink3 interface [windows Media Format], OnDataUnitEx method, IWMWriterFileSink3::OnDataUnitEx, IWMWriterFileSink3OnDataUnitEx, OnDataUnitEx method [windows Media Format], OnDataUnitEx method [windows Media Format], IWMWriterFileSink3 interface, OnDataUnitEx,IWMWriterFileSink3.OnDataUnitEx, wmformat.iwmwriterfilesink3_ondataunitex, wmsdkidl/IWMWriterFileSink3::OnDataUnitEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

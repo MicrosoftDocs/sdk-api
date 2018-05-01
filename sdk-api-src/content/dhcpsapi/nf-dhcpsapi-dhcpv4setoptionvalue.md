@@ -7,7 +7,7 @@ old-location: dhcp\dhcpv4setoptionvalue.htm
 old-project: DHCP
 ms.assetid: cf8141cc-8cf3-4932-b13a-e276dcdeb825
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/7/2018
 ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpV4SetOptionValue, DhcpV4SetOptionValue function [DHCP], dhcp.dhcpv4setoptionvalue, dhcpsapi/DhcpV4SetOptionValue
 ms.prod: windows-hardware
 ms.technology: windows-devices

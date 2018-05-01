@@ -7,7 +7,7 @@ old-location: dshow\icameracontrol_get_zoom.htm
 old-project: DirectShow
 ms.assetid: 7c1fe500-bccf-46ed-bcd9-f65b25e8ccb7
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ICameraControl, ICameraControl interface [DirectShow], get_Zoom method, ICameraControl::get_Zoom, ICameraControlget_Zoom, dshow.icameracontrol_get_zoom, get_Zoom method [DirectShow], get_Zoom method [DirectShow], ICameraControl interface, get_Zoom,ICameraControl.get_Zoom, vidcap/ICameraControl::get_Zoom
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: VIDEOHDR, *PVIDEOHDR, *LPVIDEOHDR
+req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
 topic_type:
 -	APIRef
 -	kbSyntax

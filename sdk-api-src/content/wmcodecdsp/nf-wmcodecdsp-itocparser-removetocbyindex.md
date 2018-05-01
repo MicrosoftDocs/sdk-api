@@ -7,7 +7,7 @@ old-location: mf\itocparser_removetocbyindex.htm
 old-project: medfound
 ms.assetid: 7ec459bf-c631-4ad4-beb3-4cd1e89c1d35
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: ITocParser, ITocParser interface [Media Foundation], RemoveTocByIndex method, ITocParser::RemoveTocByIndex, RemoveTocByIndex method [Media Foundation], RemoveTocByIndex method [Media Foundation], ITocParser interface, RemoveTocByIndex,ITocParser.RemoveTocByIndex, codecapi.itocparser_removetocbyindex, mf.itocparser_removetocbyindex, wmcodecdsp/ITocParser::RemoveTocByIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices

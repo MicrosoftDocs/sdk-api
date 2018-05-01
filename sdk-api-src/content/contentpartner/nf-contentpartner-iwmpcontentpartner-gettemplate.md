@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontentpartner_gettemplate.htm
 old-project: WMP
 ms.assetid: 4bfe7d84-9f65-4bd4-867a-65c96291397d
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: GetTemplate method [Windows Media Player], GetTemplate method [Windows Media Player], IWMPContentPartner interface, GetTemplate,IWMPContentPartner.GetTemplate, IWMPContentPartner, IWMPContentPartner interface [Windows Media Player], GetTemplate method, IWMPContentPartner::GetTemplate, IWMPContentPartnerGetTemplate, contentpartner/IWMPContentPartner::GetTemplate, wmp.iwmpcontentpartner_gettemplate
 ms.prod: windows-hardware
 ms.technology: windows-devices

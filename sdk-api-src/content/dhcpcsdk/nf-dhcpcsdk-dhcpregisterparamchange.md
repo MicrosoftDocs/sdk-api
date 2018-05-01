@@ -7,7 +7,7 @@ old-location: dhcp\dhcpregisterparamchange.htm
 old-project: DHCP
 ms.assetid: e0099827-2f88-4309-a5e7-3bc1395de5a2
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/7/2018
 ms.keywords: DhcpRegisterParamChange, DhcpRegisterParamChange function [DHCP], _dhcp_dhcpregisterparamchange, dhcp.dhcpregisterparamchange, dhcpcsdk/DhcpRegisterParamChange
 ms.prod: windows-hardware
 ms.technology: windows-devices

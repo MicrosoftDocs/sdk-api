@@ -7,7 +7,7 @@ old-location: dshow\icodecapi_ismodifiable.htm
 old-project: DirectShow
 ms.assetid: 5f7c7f72-02f2-4840-aaa2-9d26fe564577
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ICodecAPI, ICodecAPI interface [DirectShow], IsModifiable method, ICodecAPI::IsModifiable, ICodecAPIIsModifiable, IsModifiable method [DirectShow], IsModifiable method [DirectShow], ICodecAPI interface, IsModifiable,ICodecAPI.IsModifiable, dshow.icodecapi_ismodifiable, strmif/ICodecAPI::IsModifiable
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\iisdb_nbit_getrecordkeys.htm
 old-project: mstv
 ms.assetid: c8f58c17-b3b1-4fc8-b6e0-2ab23681280d
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetRecordKeys method [Microsoft TV Technologies], GetRecordKeys method [Microsoft TV Technologies], IISDB_NBIT interface, GetRecordKeys,IISDB_NBIT.GetRecordKeys, IISDB_NBIT, IISDB_NBIT interface [Microsoft TV Technologies], GetRecordKeys method, IISDB_NBIT::GetRecordKeys, dvbsiparser/IISDB_NBIT::GetRecordKeys, mstv.iisdb_nbit_getrecordkeys
 ms.prod: windows-hardware
 ms.technology: windows-devices

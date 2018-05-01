@@ -7,7 +7,7 @@ old-location: controls\itextdocument2_setproperty.htm
 old-project: Controls
 ms.assetid: 29e70a21-9fab-4fba-9cc4-f1268b005edb
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextDocument2, ITextDocument2 interface [Windows Controls], SetProperty method, ITextDocument2::SetProperty, SetProperty method [Windows Controls], SetProperty method [Windows Controls], ITextDocument2 interface, SetProperty,ITextDocument2.SetProperty, controls.itextdocument2_setproperty, tom/ITextDocument2::SetProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

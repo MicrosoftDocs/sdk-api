@@ -7,7 +7,7 @@ old-location: wmi\chstring_formatmessagew.htm
 old-project: WmiSdk
 ms.assetid: 45780467-d3aa-4927-aa53-60e5ee277c27
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: CHString, CHString::FormatMessageW, CHString::FormatMessageW methods [Windows Management Instrumentation], FormatMessageW,CHString.FormatMessageW, chstring/CHString::FormatMessageW, wmi.chstring_formatmessagew
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CF_SYNC_ROOT_STANDARD_INFO
+req.typenames: CF_SYNC_STATUS
 topic_type:
 -	APIRef
 -	kbSyntax

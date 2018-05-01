@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext2_copytilemappings.htm
 old-project: direct3d11
 ms.assetid: 03EBF4F5-CEC3-485D-8124-AAB90DA4D6E1
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/6/2018
 ms.keywords: CopyTileMappings method [Direct3D 11], CopyTileMappings method [Direct3D 11], ID3D11DeviceContext2 interface, CopyTileMappings,ID3D11DeviceContext2.CopyTileMappings, ID3D11DeviceContext2, ID3D11DeviceContext2 interface [Direct3D 11], CopyTileMappings method, ID3D11DeviceContext2::CopyTileMappings, d3d11_2/ID3D11DeviceContext2::CopyTileMappings, direct3d11.id3d11devicecontext2_copytilemappings
 ms.prod: windows-hardware
 ms.technology: windows-devices

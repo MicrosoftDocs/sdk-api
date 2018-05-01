@@ -7,7 +7,7 @@ old-location: shell\ICredentialProviderCredential_SetComboBoxSelectedValue.htm
 old-project: shell
 ms.assetid: fe33500b-ab34-4f28-b244-692e62d6d30c
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ICredentialProviderCredential, ICredentialProviderCredential interface [Windows Shell], SetComboBoxSelectedValue method, ICredentialProviderCredential::SetComboBoxSelectedValue, SetComboBoxSelectedValue method [Windows Shell], SetComboBoxSelectedValue method [Windows Shell], ICredentialProviderCredential interface, SetComboBoxSelectedValue,ICredentialProviderCredential.SetComboBoxSelectedValue, _shell_ICredentialProviderCredential_SetComboBoxSelectedValue, credentialprovider/ICredentialProviderCredential::SetComboBoxSelectedValue, shell.ICredentialProviderCredential_SetComboBoxSelectedValue
 ms.prod: windows-hardware
 ms.technology: windows-devices

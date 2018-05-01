@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3dbasetexture9__getautogenfiltertype.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dbasetexture9__getautogenfiltertype.htm
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/10/2018
 ms.keywords: 7a155e44-4ee7-ac87-0ef7-42daed0b87ba, GetAutoGenFilterType method [Direct3D 9], GetAutoGenFilterType method [Direct3D 9], IDirect3DBaseTexture9 interface, GetAutoGenFilterType,IDirect3DBaseTexture9.GetAutoGenFilterType, IDirect3DBaseTexture9, IDirect3DBaseTexture9 interface [Direct3D 9], GetAutoGenFilterType method, IDirect3DBaseTexture9::GetAutoGenFilterType, d3d9helper/IDirect3DBaseTexture9::GetAutoGenFilterType, direct3d9.idirect3dbasetexture9__getautogenfiltertype
 ms.prod: windows-hardware
 ms.technology: windows-devices

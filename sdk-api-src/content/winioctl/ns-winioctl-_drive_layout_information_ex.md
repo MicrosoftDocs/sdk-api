@@ -58,11 +58,6 @@ Contains extended information about a drive's partitions.
 
 
 
-### -field DUMMYUNIONNAME
-
- 
-
-
 ### -field PartitionStyle
 
 The style of the partitions on the drive enumerated by the 
@@ -119,6 +114,11 @@ The number of partitions on the drive. On hard disks with the MBR layout, this v
       of the <b>Mbr</b> member of the 
       <a href="https://msdn.microsoft.com/library/windows/hardware/ff563754">PARTITION_INFORMATION_EX</a> structure of the 
       <b>PartitionEntry</b> member of this structure.
+
+
+### -field DUMMYUNIONNAME
+
+ 
 
 
 ### -field PartitionEntry

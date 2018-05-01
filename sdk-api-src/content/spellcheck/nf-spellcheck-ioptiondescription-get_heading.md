@@ -7,7 +7,7 @@ old-location: intl\ioptiondescription_heading.htm
 old-project: Intl
 ms.assetid: 32dd23ea-d7d0-4ebe-af52-0a014b02a0c0
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/25/2018
 ms.keywords: Heading property [Internationalization for Windows Applications], Heading property [Internationalization for Windows Applications], IOptionDescription interface, IOptionDescription, IOptionDescription interface [Internationalization for Windows Applications], Heading property, IOptionDescription.Heading, IOptionDescription::get_Heading, get_Heading,IOptionDescription.get_Heading, intl.ioptiondescription_heading, spellcheck/IOptionDescription::Heading, spellcheck/IOptionDescription::get_Heading
 ms.prod: windows-hardware
 ms.technology: windows-devices

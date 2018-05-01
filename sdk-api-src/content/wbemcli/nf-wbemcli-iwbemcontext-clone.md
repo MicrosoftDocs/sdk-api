@@ -7,7 +7,7 @@ old-location: wmi\iwbemcontext_clone.htm
 old-project: WmiSdk
 ms.assetid: a832f4b0-a450-4f74-a6ec-d205f57c1656
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: Clone method [Windows Management Instrumentation], Clone method [Windows Management Instrumentation], IWbemContext interface, Clone,IWbemContext.Clone, IWbemContext, IWbemContext interface [Windows Management Instrumentation], Clone method, IWbemContext::Clone, _hmm_iwbemcontext_clone, wbemcli/IWbemContext::Clone, wmi.iwbemcontext_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

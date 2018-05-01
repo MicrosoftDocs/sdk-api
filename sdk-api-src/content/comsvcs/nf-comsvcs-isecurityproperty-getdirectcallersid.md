@@ -7,7 +7,7 @@ old-location: cos\isecurityproperty_getdirectcallersid.htm
 old-project: cossdk
 ms.assetid: e322df62-25a4-40a3-9b80-da468a265162
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: GetDirectCallerSID method [COM+], GetDirectCallerSID method [COM+], ISecurityProperty interface, GetDirectCallerSID,ISecurityProperty.GetDirectCallerSID, ISecurityProperty, ISecurityProperty interface [COM+], GetDirectCallerSID method, ISecurityProperty::GetDirectCallerSID, _cos_ISecurityProperty_GetDirectCallerSID, comsvcs/ISecurityProperty::GetDirectCallerSID, cos.isecurityproperty_getdirectcallersid
 ms.prod: windows-hardware
 ms.technology: windows-devices

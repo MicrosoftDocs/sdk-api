@@ -7,7 +7,7 @@ old-location: mediastreaming\idevicecontroller_add_devicedeparture.htm
 old-project: mediastreaming
 ms.assetid: 3DCE2BA9-1F94-45F2-97B7-64BD62B21578
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/10/2018
 ms.keywords: IDeviceController, IDeviceController interface [Media Streaming API], add_DeviceDeparture method, IDeviceController::add_DeviceDeparture, add_DeviceDeparture method [Media Streaming API], add_DeviceDeparture method [Media Streaming API], IDeviceController interface, add_DeviceDeparture,IDeviceController.add_DeviceDeparture, mediastreaming.idevicecontroller_add_devicedeparture, windows/IDeviceController::add_DeviceDeparture
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: PDF_RENDER_PARAMS
+req.typenames: TimeSpan
 topic_type:
 -	APIRef
 -	kbSyntax

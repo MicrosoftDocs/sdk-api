@@ -104,6 +104,12 @@ Search for file revision. When this value is specified, the
 ### -field CsvControlGetCsvFsMdsPathV2
 
 
+### -field CsvControlDisableCaching
+
+
+### -field CsvControlEnableCaching
+
+
 
 
 #### - CsvControlMdsPath

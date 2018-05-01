@@ -7,7 +7,7 @@ old-location: rras\mpradmingetipv6addressforuser.htm
 old-project: RRAS
 ms.assetid: ec4b4130-4864-470f-8647-1fcadd359c58
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: MprAdminGetIpv6AddressForUser, MprAdminGetIpv6AddressForUser callback function [RAS], mprapi/MprAdminGetIpv6AddressForUser, rras.mpradmingetipv6addressforuser
 ms.prod: windows-hardware
 ms.technology: windows-devices

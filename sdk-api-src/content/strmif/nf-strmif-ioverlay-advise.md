@@ -7,7 +7,7 @@ old-location: dshow\ioverlay_advise.htm
 old-project: DirectShow
 ms.assetid: 02db2233-b185-47a9-9655-409991a74d4e
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: Advise method [DirectShow], Advise method [DirectShow], IOverlay interface, Advise,IOverlay.Advise, IOverlay, IOverlay interface [DirectShow], Advise method, IOverlay::Advise, IOverlayAdvise, dshow.ioverlay_advise, strmif/IOverlay::Advise
 ms.prod: windows-hardware
 ms.technology: windows-devices

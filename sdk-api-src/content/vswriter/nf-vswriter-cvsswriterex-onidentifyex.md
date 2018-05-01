@@ -7,7 +7,7 @@ old-location: base\cvsswriterex_onidentifyex.htm
 old-project: VSS
 ms.assetid: 4cb3b8f6-f702-4fba-a3cc-af84897cfd82
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: CVssWriterEx, CVssWriterEx interface, OnIdentifyEx method, CVssWriterEx::OnIdentifyEx, OnIdentifyEx method, OnIdentifyEx method, CVssWriterEx interface, OnIdentifyEx,CVssWriterEx.OnIdentifyEx, base.cvsswriterex_onidentifyex, vswriter/CVssWriterEx::OnIdentifyEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

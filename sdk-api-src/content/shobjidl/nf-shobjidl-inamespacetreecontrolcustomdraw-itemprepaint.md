@@ -7,7 +7,7 @@ old-location: shell\INameSpaceTreeControlCustomDraw_ItemPrePaint.htm
 old-project: shell
 ms.assetid: 0245ecfd-2617-481a-9d34-8fc4eb0ea012
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: INameSpaceTreeControlCustomDraw, INameSpaceTreeControlCustomDraw interface [Windows Shell], ItemPrePaint method, INameSpaceTreeControlCustomDraw::ItemPrePaint, ItemPrePaint method [Windows Shell], ItemPrePaint method [Windows Shell], INameSpaceTreeControlCustomDraw interface, ItemPrePaint,INameSpaceTreeControlCustomDraw.ItemPrePaint, _shell_INameSpaceTreeControlCustomDraw_ItemPrePaint, shell.INameSpaceTreeControlCustomDraw_ItemPrePaint, shobjidl/INameSpaceTreeControlCustomDraw::ItemPrePaint
 ms.prod: windows-hardware
 ms.technology: windows-devices

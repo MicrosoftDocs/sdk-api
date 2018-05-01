@@ -7,7 +7,7 @@ old-location: base\rtwqlockplatform.htm
 old-project: ProcThread
 ms.assetid: 25baa2ad-95b8-4ac0-a838-e95c6141e13b
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: RtwqLockPlatform, RtwqLockPlatform function, base.rtwqlockplatform, rtworkq/RtwqLockPlatform
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Rtworkq.lib
 req.dll: RTWorkQ.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # RtwqLockPlatform function

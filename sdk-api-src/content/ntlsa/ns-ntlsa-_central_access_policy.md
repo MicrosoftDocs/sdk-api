@@ -7,7 +7,7 @@ old-location: security\central_access_policy.htm
 old-project: SecAuthN
 ms.assetid: C1C2E8AE-0B7F-4620-9C27-31DAF683E342
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/24/2018
 ms.keywords: "*PCENTRAL_ACCESS_POLICY, CENTRAL_ACCESS_POLICY, CENTRAL_ACCESS_POLICY structure [Security], PCENTRAL_ACCESS_POLICY, PCENTRAL_ACCESS_POLICY structure pointer [Security], _CENTRAL_ACCESS_POLICY, ntlsa/CENTRAL_ACCESS_POLICY, ntlsa/PCENTRAL_ACCESS_POLICY, security.central_access_policy"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _CENTRAL_ACCESS_POLICY structure

@@ -7,7 +7,7 @@ old-location: dshow\igraphconfig_removefilterex.htm
 old-project: DirectShow
 ms.assetid: c3298aa2-4eb2-4e47-9f36-5f2cf541d13e
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IGraphConfig, IGraphConfig interface [DirectShow], RemoveFilterEx method, IGraphConfig::RemoveFilterEx, IGraphConfigRemoveFilterEx, RemoveFilterEx method [DirectShow], RemoveFilterEx method [DirectShow], IGraphConfig interface, RemoveFilterEx,IGraphConfig.RemoveFilterEx, dshow.igraphconfig_removefilterex, strmif/IGraphConfig::RemoveFilterEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

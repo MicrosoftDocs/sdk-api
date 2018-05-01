@@ -7,7 +7,7 @@ old-location: automat\variantcopy.htm
 old-project: automat
 ms.assetid: f6ddbe1f-37b0-44f1-a3f0-b7ef4df88f8a
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: VariantCopy, VariantCopy function [Automation], _oa96_VariantCopy, automat.variantcopy, oleauto/VariantCopy
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # VariantCopy function

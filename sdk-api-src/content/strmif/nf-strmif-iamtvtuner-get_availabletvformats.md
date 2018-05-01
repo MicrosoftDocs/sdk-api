@@ -7,7 +7,7 @@ old-location: dshow\iamtvtuner_get_availabletvformats.htm
 old-project: DirectShow
 ms.assetid: 7b1a31d4-be05-4ab3-8ca3-b1a3f4bda03f
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMTVTuner, IAMTVTuner interface [DirectShow], get_AvailableTVFormats method, IAMTVTuner::get_AvailableTVFormats, IAMTVTunerget_AvailableTVFormats, dshow.iamtvtuner_get_availabletvformats, get_AvailableTVFormats method [DirectShow], get_AvailableTVFormats method [DirectShow], IAMTVTuner interface, get_AvailableTVFormats,IAMTVTuner.get_AvailableTVFormats, strmif/IAMTVTuner::get_AvailableTVFormats
 ms.prod: windows-hardware
 ms.technology: windows-devices

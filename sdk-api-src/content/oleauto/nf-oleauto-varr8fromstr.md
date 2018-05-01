@@ -7,7 +7,7 @@ old-location: automat\varr8fromstr.htm
 old-project: automat
 ms.assetid: 8c22ce8a-0161-4d58-9902-724333292911
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: LOCALE_NOUSEROVERRIDE, VAR_DATEVALUEONLY, VAR_TIMEVALUEONLY, VarR8FromStr, VarR8FromStr function [Automation], _oa96_VarR8FromStr, automat.varr8fromstr, oleauto/VarR8FromStr
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # VarR8FromStr function

@@ -7,7 +7,7 @@ old-location: mf\imfpmediaplayer_shutdown.htm
 old-project: medfound
 ms.assetid: c56b07b5-f595-4933-9af6-868fc8938849
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFPMediaPlayer, IMFPMediaPlayer interface [Media Foundation], Shutdown method, IMFPMediaPlayer::Shutdown, Shutdown method [Media Foundation], Shutdown method [Media Foundation], IMFPMediaPlayer interface, Shutdown,IMFPMediaPlayer.Shutdown, mf.imfpmediaplayer_shutdown, mfplay/IMFPMediaPlayer::Shutdown
 ms.prod: windows-hardware
 ms.technology: windows-devices

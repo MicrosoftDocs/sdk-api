@@ -39,7 +39,7 @@ api_name:
 product: Windows
 targetos: Windows
 req.lib: 
-req.dll: 
+req.dll: Sptip.dll
 req.irql: 
 ---
 

@@ -7,7 +7,7 @@ old-location: mstv\idvb_eit_getcountofrecords.htm
 old-project: mstv
 ms.assetid: 1ea8c91b-f1a2-4c04-933c-c8a2fbfda86f
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies], IDVB_EIT interface, GetCountOfRecords,IDVB_EIT.GetCountOfRecords, IDVB_EIT, IDVB_EIT interface [Microsoft TV Technologies], GetCountOfRecords method, IDVB_EIT::GetCountOfRecords, IDVB_EITGetCountOfRecords, dvbsiparser/IDVB_EIT::GetCountOfRecords, mstv.idvb_eit_getcountofrecords
 ms.prod: windows-hardware
 ms.technology: windows-devices

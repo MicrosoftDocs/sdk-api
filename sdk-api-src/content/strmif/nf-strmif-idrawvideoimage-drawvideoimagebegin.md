@@ -7,7 +7,7 @@ old-location: dshow\idrawvideoimage_drawvideoimagebegin.htm
 old-project: DirectShow
 ms.assetid: a39125b3-15b1-428d-aa64-c1b2bccf616a
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: DrawVideoImageBegin method [DirectShow], DrawVideoImageBegin method [DirectShow], IDrawVideoImage interface, DrawVideoImageBegin,IDrawVideoImage.DrawVideoImageBegin, IDrawVideoImage, IDrawVideoImage interface [DirectShow], DrawVideoImageBegin method, IDrawVideoImage::DrawVideoImageBegin, IDrawVideoImageDrawVideoImageBegin, dshow.idrawvideoimage_drawvideoimagebegin, strmif/IDrawVideoImage::DrawVideoImageBegin
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\ix509enrollment_certificatedescription_property.htm
 old-project: SecCertEnroll
 ms.assetid: 5057770b-79b1-4c83-bf2e-bff1eb91aea0
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: CertificateDescription property [Security], CertificateDescription property [Security], IX509Enrollment interface, IX509Enrollment, IX509Enrollment interface [Security], CertificateDescription property, IX509Enrollment.CertificateDescription, IX509Enrollment::get_CertificateDescription, IX509Enrollment::put_CertificateDescription, certenroll/IX509Enrollment::CertificateDescription, certenroll/IX509Enrollment::get_CertificateDescription, certenroll/IX509Enrollment::put_CertificateDescription, put_CertificateDescription,IX509Enrollment.put_CertificateDescription, security.ix509enrollment_certificatedescription_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

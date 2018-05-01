@@ -1,0 +1,100 @@
+---
+UID: NF:xenroll.IEnroll.AddCertTypeToRequestWStr
+title: IEnroll::AddCertTypeToRequestWStr method
+author: windows-driver-content
+description: Adds a certificate template to a request (used to support the enterprise certification authority (CA)).
+old-location: security\ienroll4_addcerttypetorequestwstr.htm
+old-project: SecCrypto
+ms.assetid: d9bf51db-375e-4230-953c-d9893228d7e1
+ms.author: windowsdriverdev
+ms.date: 4/18/2018
+ms.keywords: AddCertTypeToRequestWStr method [Security], AddCertTypeToRequestWStr method [Security], IEnroll interface, AddCertTypeToRequestWStr,IEnroll.AddCertTypeToRequestWStr, IEnroll, IEnroll interface [Security], AddCertTypeToRequestWStr method, IEnroll::AddCertTypeToRequestWStr, security.ienroll4_addcerttypetorequestwstr, xenroll/IEnroll::AddCertTypeToRequestWStr
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: xenroll.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: XBL_IDP_AUTH_TOKEN_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Xenroll.dll
+api_name:
+-	IEnroll.AddCertTypeToRequestWStr
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Xenroll.dll
+req.irql: 
+req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+---
+
+# IEnroll::AddCertTypeToRequestWStr method
+
+
+## -description
+
+
+<p class="CCE_Message">[This method is no longer available for use as of Windows Server 2008 and Windows Vista.]
+
+The <b>AddCertTypeToRequestWStr</b> method adds a certificate template to a request (used to support the enterprise <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a> (CA)). This method was first defined by the <a href="https://msdn.microsoft.com/60a28944-35de-4ea2-8523-5634685ac224">IEnroll2</a> interface.
+
+The <b>AddCertTypeToRequestWStr</b> method is an advanced topic that is associated with the Microsoft Certificate Services enterprise Policy Module. Its use is not recommended for most applications.
+
+The phrase "certificate type" is synonymous with "certificate template."
+
+
+## -parameters
+
+
+
+
+### -param szw [in]
+
+Fully qualified name of the certificate template which is being added to the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate request</a>. This value is interpreted by the certification authority.
+
+
+## -returns
+
+
+
+
+						The return value is an <b>HRESULT</b>, with S_OK returned if the call is successful.
+
+
+
+
+## -remarks
+
+
+
+This method can be called multiple times if more than one certificate template is desired for the request.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/133529fb-e02a-41a2-83df-646cbc01dbe9">IEnroll</a>
+ 
+
+ 
+

@@ -7,7 +7,7 @@ old-location: tapi2\phoneinitializeexparams_str.htm
 old-project: Tapi
 ms.assetid: 465653e4-b88a-42a0-99b0-ce26eeaf99fd
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: "*LPPHONEINITIALIZEEXPARAMS, LPPHONEINITIALIZEEXPARAMS, LPPHONEINITIALIZEEXPARAMS structure pointer [TAPI 2.2], PHONEINITIALIZEEXPARAMS, PHONEINITIALIZEEXPARAMS structure [TAPI 2.2], _tapi2_phoneinitializeexparams_str, phoneinitializeexparams_tag, tapi/LPPHONEINITIALIZEEXPARAMS, tapi/PHONEINITIALIZEEXPARAMS, tapi2.phoneinitializeexparams_str"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,22 +60,6 @@ The
 
 
 
-### -field Handles
-
-
-
-#### hEvent
-
-If <b>dwOptions</b> specifies PHONEINITIALIZEEXOPTION_USEEVENT, TAPI returns the event handle in this member.
-
-
-
-#### hCompletionPort
-
-If <b>dwOptions</b> specifies PHONEINITIALIZEEXOPTION_USECOMPLETIONPORT, the application must specify in this member the handle of an existing completion port opened using 
-<a href="https://msdn.microsoft.com/40cb47fc-7b15-47f6-bee2-2611d4686053">CreateIoCompletionPort</a>.
-
-
 ### -field dwTotalSize
 
 Total size allocated to this data structure, in bytes.
@@ -95,6 +79,22 @@ Size of the portion of this data structure that contains useful information, in 
 
 One of the 
 <a href="https://msdn.microsoft.com/7d8b122d-bebe-4904-abc8-d680b0899e25">PHONEINITIALIZEEXOPTION_ Constants</a>. Specifies the event notification mechanism the application desires to use.
+
+
+### -field Handles
+
+
+
+#### hEvent
+
+If <b>dwOptions</b> specifies PHONEINITIALIZEEXOPTION_USEEVENT, TAPI returns the event handle in this member.
+
+
+
+#### hCompletionPort
+
+If <b>dwOptions</b> specifies PHONEINITIALIZEEXOPTION_USECOMPLETIONPORT, the application must specify in this member the handle of an existing completion port opened using 
+<a href="https://msdn.microsoft.com/40cb47fc-7b15-47f6-bee2-2611d4686053">CreateIoCompletionPort</a>.
 
 
 ### -field dwCompletionKey

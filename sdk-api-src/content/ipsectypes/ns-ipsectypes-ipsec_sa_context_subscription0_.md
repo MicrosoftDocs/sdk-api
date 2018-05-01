@@ -7,7 +7,7 @@ old-location: fwp\ipsec_sa_context_subscription0.htm
 old-project: FWP
 ms.assetid: d729f4e2-621a-4a39-beed-e339b76f53fc
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: IPSEC_SA_CONTEXT_SUBSCRIPTION0, IPSEC_SA_CONTEXT_SUBSCRIPTION0 structure [Filtering], IPSEC_SA_CONTEXT_SUBSCRIPTION0_, fwp.ipsec_sa_context_subscription0, ipsectypes/IPSEC_SA_CONTEXT_SUBSCRIPTION0
 ms.prod: windows-hardware
 ms.technology: windows-devices

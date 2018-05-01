@@ -7,7 +7,7 @@ old-location: p2p\peergraphgetproperties.htm
 old-project: P2PSdk
 ms.assetid: f62fadf8-8cc2-4597-93b0-e076258ccd6a
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/23/2018
 ms.keywords: PeerGraphGetProperties, PeerGraphGetProperties function [Peer Networking], p2p.peergraphgetproperties, p2p/PeerGraphGetProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: P2PGraph.lib
 req.dll: P2PGraph.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # PeerGraphGetProperties function

@@ -7,7 +7,7 @@ old-location: mstv\ibda_topology_setmedium.htm
 old-project: mstv
 ms.assetid: e2997929-d0a9-4732-8a8f-8f94c413fae5
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IBDA_Topology, IBDA_Topology interface [Microsoft TV Technologies], SetMedium method, IBDA_Topology::SetMedium, IBDA_TopologySetMedium, SetMedium method [Microsoft TV Technologies], SetMedium method [Microsoft TV Technologies], IBDA_Topology interface, SetMedium,IBDA_Topology.SetMedium, bdaiface/IBDA_Topology::SetMedium, mstv.ibda_topology_setmedium
 ms.prod: windows-hardware
 ms.technology: windows-devices

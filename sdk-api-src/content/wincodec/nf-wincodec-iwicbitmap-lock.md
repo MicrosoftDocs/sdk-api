@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicbitmap_lock.htm
 old-project: wic
 ms.assetid: 2ab25a00-c89c-4a2c-8e12-8ce81cc21bca
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: IWICBitmap, IWICBitmap interface [Windows Imaging Component], Lock method, IWICBitmap::Lock, Lock method [Windows Imaging Component], Lock method [Windows Imaging Component], IWICBitmap interface, Lock,IWICBitmap.Lock, WICBitmapLockRead, WICBitmapLockWrite, _wic_codec_iwicbitmap_lock, wic._wic_codec_iwicbitmap_lock, wincodec/IWICBitmap::Lock
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\iguidedata_getguideprogramids.htm
 old-project: mstv
 ms.assetid: d182057a-096b-4286-8174-a3ce25c1c86f
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetGuideProgramIDs method [Microsoft TV Technologies], GetGuideProgramIDs method [Microsoft TV Technologies], IGuideData interface, GetGuideProgramIDs,IGuideData.GetGuideProgramIDs, IGuideData, IGuideData interface [Microsoft TV Technologies], GetGuideProgramIDs method, IGuideData::GetGuideProgramIDs, IGuideDataGetGuideProgramIDs, bdatif/IGuideData::GetGuideProgramIDs, mstv.iguidedata_getguideprogramids
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: SpanningEventEmmMessage
+req.typenames: SmartCardApplication
 topic_type:
 -	APIRef
 -	kbSyntax

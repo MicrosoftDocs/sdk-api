@@ -7,7 +7,7 @@ old-location: dshow\icameracontrol_get_panrelative.htm
 old-project: DirectShow
 ms.assetid: a7237e0a-82b3-4e2a-a6c7-97fbb03b5917
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ICameraControl, ICameraControl interface [DirectShow], get_PanRelative method, ICameraControl::get_PanRelative, ICameraControlget_PanRelative, dshow.icameracontrol_get_panrelative, get_PanRelative method [DirectShow], get_PanRelative method [DirectShow], ICameraControl interface, get_PanRelative,ICameraControl.get_PanRelative, vidcap/ICameraControl::get_PanRelative
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: VIDEOHDR, *PVIDEOHDR, *LPVIDEOHDR
+req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
 topic_type:
 -	APIRef
 -	kbSyntax

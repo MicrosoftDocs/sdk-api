@@ -7,7 +7,7 @@ old-location: dshow\iamtvtuner_get_videofrequency.htm
 old-project: DirectShow
 ms.assetid: d19552ce-1314-4217-9bd3-72369b4334cf
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMTVTuner, IAMTVTuner interface [DirectShow], get_VideoFrequency method, IAMTVTuner::get_VideoFrequency, IAMTVTunerget_VideoFrequency, dshow.iamtvtuner_get_videofrequency, get_VideoFrequency method [DirectShow], get_VideoFrequency method [DirectShow], IAMTVTuner interface, get_VideoFrequency,IAMTVTuner.get_VideoFrequency, strmif/IAMTVTuner::get_VideoFrequency
 ms.prod: windows-hardware
 ms.technology: windows-devices

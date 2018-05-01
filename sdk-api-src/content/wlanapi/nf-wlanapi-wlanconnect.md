@@ -7,7 +7,7 @@ old-location: nwifi\wlanconnect.htm
 old-project: NativeWiFi
 ms.assetid: 24ab2024-e786-454f-860f-cf2431f001bb
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/13/2018
 ms.keywords: WlanConnect, WlanConnect function [NativeWIFI], nwifi.wlanconnect, wlanapi/WlanConnect
 ms.prod: windows-hardware
 ms.technology: windows-devices

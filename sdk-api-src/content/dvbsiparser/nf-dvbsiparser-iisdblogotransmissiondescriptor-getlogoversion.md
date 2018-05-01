@@ -7,7 +7,7 @@ old-location: mstv\iisdblogotransmissiondescriptor_getlogoversion.htm
 old-project: mstv
 ms.assetid: b6cc23b4-b0cf-410c-9c15-03d58e795e6b
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetLogoVersion method [Microsoft TV Technologies], GetLogoVersion method [Microsoft TV Technologies], IIsdbLogoTransmissionDescriptor interface, GetLogoVersion,IIsdbLogoTransmissionDescriptor.GetLogoVersion, IIsdbLogoTransmissionDescriptor, IIsdbLogoTransmissionDescriptor interface [Microsoft TV Technologies], GetLogoVersion method, IIsdbLogoTransmissionDescriptor::GetLogoVersion, dvbsiparser/IIsdbLogoTransmissionDescriptor::GetLogoVersion, mstv.iisdblogotransmissiondescriptor_getlogoversion
 ms.prod: windows-hardware
 ms.technology: windows-devices

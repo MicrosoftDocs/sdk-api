@@ -7,7 +7,7 @@ old-location: com\ifont_put_bold.htm
 old-project: com
 ms.assetid: c25738fe-daf4-4eac-b4b0-354950e29f27
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IFont, IFont interface [COM], put_Bold method, IFont::put_Bold, _ctrl_ifont_put_bold, com.ifont_put_bold, ocidl/IFont::put_Bold, put_Bold method [COM], put_Bold method [COM], IFont interface, put_Bold,IFont.put_Bold
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IFont::put_Bold method

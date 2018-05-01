@@ -7,7 +7,7 @@ old-location: security\ienumcertviewrow_enumcertviewextension.htm
 old-project: SecCrypto
 ms.assetid: 41028000-fa87-4ad0-93fc-314c5d3870f9
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: EnumCertViewExtension method [Security], EnumCertViewExtension method [Security], IEnumCERTVIEWROW interface, EnumCertViewExtension,IEnumCERTVIEWROW.EnumCertViewExtension, IEnumCERTVIEWROW, IEnumCERTVIEWROW interface [Security], EnumCertViewExtension method, IEnumCERTVIEWROW::EnumCertViewExtension, _certsrv_ienumcertviewrow_enumcertviewextension, certview/IEnumCERTVIEWROW::EnumCertViewExtension, security.ienumcertviewrow_enumcertviewextension
 ms.prod: windows-hardware
 ms.technology: windows-devices

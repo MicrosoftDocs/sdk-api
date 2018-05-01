@@ -7,7 +7,7 @@ old-location: winrt\ipackagedebugsettings_startsessionredirection.htm
 old-project: WinRT
 ms.assetid: 686CF2EC-CEE7-4E6A-9E97-9DD80AE89131
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/24/2018
 ms.keywords: IPackageDebugSettings, IPackageDebugSettings interface [Windows Runtime], StartSessionRedirection method, IPackageDebugSettings::StartSessionRedirection, StartSessionRedirection method [Windows Runtime], StartSessionRedirection method [Windows Runtime], IPackageDebugSettings interface, StartSessionRedirection,IPackageDebugSettings.StartSessionRedirection, shobjidl_core/IPackageDebugSettings::StartSessionRedirection, winrt.ipackagedebugsettings_startsessionredirection
 ms.prod: windows-hardware
 ms.technology: windows-devices

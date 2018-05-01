@@ -7,7 +7,7 @@ old-location: cos\icrmcompensator_setlogcontrol.htm
 old-project: cossdk
 ms.assetid: a68e49c7-a0d3-4c37-b438-864578e4a680
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: ICrmCompensator, ICrmCompensator interface [COM+], SetLogControl method, ICrmCompensator::SetLogControl, SetLogControl method [COM+], SetLogControl method [COM+], ICrmCompensator interface, SetLogControl,ICrmCompensator.SetLogControl, _dtc_ICrmCompensator_SetLogControl, comsvcs/ICrmCompensator::SetLogControl, cos.icrmcompensator_setlogcontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices

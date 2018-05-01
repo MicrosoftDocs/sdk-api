@@ -7,7 +7,7 @@ old-location: gdi\getrasterizercaps.htm
 old-project: gdi
 ms.assetid: 0898d1c0-5480-4bd2-aa45-918340172a05
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/17/2018
 ms.keywords: GetRasterizerCaps, GetRasterizerCaps function [Windows GDI], _win32_GetRasterizerCaps, gdi.getrasterizercaps, wingdi/GetRasterizerCaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: FAX_TIME, *PFAX_TIME
+req.typenames: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,7 +7,7 @@ old-location: xaudio2\fxmasteringlimiter_parameters.htm
 old-project: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xapofx.FXMASTERINGLIMITER_PARAMETERS
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/20/2018
 ms.keywords: FXMASTERINGLIMITER_PARAMETERS, FXMASTERINGLIMITER_PARAMETERS structure [XAudio2 Audio Mixing APIs], xapofx/FXMASTERINGLIMITER_PARAMETERS, xaudio2.fxmasteringlimiter_parameters
 ms.prod: windows-hardware
 ms.technology: windows-devices

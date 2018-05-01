@@ -7,7 +7,7 @@ old-location: controls\IRichEditOleCallback_QueryAcceptData.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditolecallback\iricheditolecallbackqueryacceptdata.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: IRichEditOleCallback, IRichEditOleCallback interface [Windows Controls], QueryAcceptData method, IRichEditOleCallback::QueryAcceptData, QueryAcceptData method [Windows Controls], QueryAcceptData method [Windows Controls], IRichEditOleCallback interface, QueryAcceptData,IRichEditOleCallback.QueryAcceptData, RECO_DROP, RECO_PASTE, _win32_IRichEditOleCallback_QueryAcceptData, _win32_IRichEditOleCallback_QueryAcceptData_cpp, controls.IRichEditOleCallback_QueryAcceptData, controls._win32_IRichEditOleCallback_QueryAcceptData, richole/IRichEditOleCallback::QueryAcceptData
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IRichEditOleCallback::QueryAcceptData method

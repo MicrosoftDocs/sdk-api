@@ -7,7 +7,7 @@ old-location: tapi3\itterminalcontrol_stoprenderfilter.htm
 old-project: Tapi
 ms.assetid: 30a47de7-c54d-4600-9b4b-07013f962c4d
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: ITTerminalControl, ITTerminalControl interface [TAPI 2.2], StopRenderFilter method, ITTerminalControl::StopRenderFilter, StopRenderFilter method [TAPI 2.2], StopRenderFilter method [TAPI 2.2], ITTerminalControl interface, StopRenderFilter,ITTerminalControl.StopRenderFilter, _tapi3_itterminalcontrol_stoprenderfilter, tapi3.itterminalcontrol_stoprenderfilter, termmgr/ITTerminalControl::StopRenderFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\iazapplication_deletescope.htm
 old-project: SecAuthZ
 ms.assetid: 2a3c2e18-9264-496a-9bd3-ff9c529a2426
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: AzApplication object [Security], DeleteScope method, DeleteScope method [Security], DeleteScope method [Security], AzApplication object, DeleteScope method [Security], IAzApplication interface, DeleteScope,IAzApplication.DeleteScope, IAzApplication, IAzApplication interface [Security], DeleteScope method, IAzApplication::DeleteScope, azroles/IAzApplication::DeleteScope, security.iazapplication_deletescope
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # PSS_HANDLE_ENTRY structure
@@ -56,6 +56,81 @@ Holds information about a handle returned by <a href="https://msdn.microsoft.com
 ## -struct-fields
 
 
+
+
+### -field Handle
+
+The handle value.
+
+
+### -field Flags
+
+Flags that indicate what parts of this structure are valid. For more information, see <a href="https://msdn.microsoft.com/A4A604A9-0210-413C-BCAC-F8458B371D42">PSS_HANDLE_FLAGS</a>.
+
+
+### -field ObjectType
+
+The type of the object that the handle references. For more information, see <a href="https://msdn.microsoft.com/3AF2AE47-6E1A-4B20-B6A3-36C1DDB80674">PSS_OBJECT_TYPE</a>.
+
+
+### -field CaptureTime
+
+The capture time of this information. For more information, see <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a>.
+
+
+### -field Attributes
+
+Attributes.
+
+
+### -field GrantedAccess
+
+Reserved for use by the operating system.
+
+
+### -field HandleCount
+
+Reserved for use by the operating system.
+
+
+### -field PointerCount
+
+Reserved for use by the operating system.
+
+
+### -field PagedPoolCharge
+
+Reserved for use by the operating system.
+
+
+### -field NonPagedPoolCharge
+
+Reserved for use by the operating system.
+
+
+### -field CreationTime
+
+Reserved for use by the operating system.
+
+
+### -field TypeNameLength
+
+The length of <b>TypeName</b>, in bytes.
+
+
+### -field TypeName
+
+The type name of the object referenced by this handle. The buffer may not terminated by a <b>NULL</b> character. The pointer is valid for the lifetime of the walk marker passed to <a href="https://msdn.microsoft.com/C6AC38B5-0A1C-44D7-A1F6-8196AE9B8FB0">PssWalkSnapshot</a>.
+
+
+### -field ObjectNameLength
+
+The length of <b>ObjectName</b>, in bytes.
+
+
+### -field ObjectName
+
+Specifies the name of the object referenced by this handle. The buffer may not terminated by a <b>NULL</b> character. The pointer is valid for the lifetime of the walk marker passed to <a href="https://msdn.microsoft.com/C6AC38B5-0A1C-44D7-A1F6-8196AE9B8FB0">PssWalkSnapshot</a>.
 
 
 ### -field TypeSpecificInformation
@@ -223,79 +298,6 @@ Reserved for use by the operating system.
  
 
 
-### -field Handle
-
-The handle value.
-
-
-### -field Flags
-
-Flags that indicate what parts of this structure are valid. For more information, see <a href="https://msdn.microsoft.com/A4A604A9-0210-413C-BCAC-F8458B371D42">PSS_HANDLE_FLAGS</a>.
-
-
-### -field ObjectType
-
-The type of the object that the handle references. For more information, see <a href="https://msdn.microsoft.com/3AF2AE47-6E1A-4B20-B6A3-36C1DDB80674">PSS_OBJECT_TYPE</a>.
-
-
-### -field CaptureTime
-
-The capture time of this information. For more information, see <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a>.
-
-
-### -field Attributes
-
-Attributes.
-
-
-### -field GrantedAccess
-
-Reserved for use by the operating system.
-
-
-### -field HandleCount
-
-Reserved for use by the operating system.
-
-
-### -field PointerCount
-
-Reserved for use by the operating system.
-
-
-### -field PagedPoolCharge
-
-Reserved for use by the operating system.
-
-
-### -field NonPagedPoolCharge
-
-Reserved for use by the operating system.
-
-
-### -field CreationTime
-
-Reserved for use by the operating system.
-
-
-### -field TypeNameLength
-
-The length of <b>TypeName</b>, in bytes.
-
-
-### -field TypeName
-
-The type name of the object referenced by this handle. The buffer may not terminated by a <b>NULL</b> character. The pointer is valid for the lifetime of the walk marker passed to <a href="https://msdn.microsoft.com/C6AC38B5-0A1C-44D7-A1F6-8196AE9B8FB0">PssWalkSnapshot</a>.
-
-
-### -field ObjectNameLength
-
-The length of <b>ObjectName</b>, in bytes.
-
-
-### -field ObjectName
-
-Specifies the name of the object referenced by this handle. The buffer may not terminated by a <b>NULL</b> character. The pointer is valid for the lifetime of the walk marker passed to <a href="https://msdn.microsoft.com/C6AC38B5-0A1C-44D7-A1F6-8196AE9B8FB0">PssWalkSnapshot</a>.
 
 
 ## -remarks

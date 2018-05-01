@@ -7,7 +7,7 @@ old-location: dshow\iamnetshowexprops_get_bandwidth.htm
 old-project: DirectShow
 ms.assetid: 042ddea5-c17a-4cd6-a18d-9a3b65bf11b7
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMNetShowExProps, IAMNetShowExProps interface [DirectShow], get_Bandwidth method, IAMNetShowExProps::get_Bandwidth, IAMNetShowExPropsget_Bandwidth, dshow.iamnetshowexprops_get_bandwidth, get_Bandwidth method [DirectShow], get_Bandwidth method [DirectShow], IAMNetShowExProps interface, get_Bandwidth,IAMNetShowExProps.get_Bandwidth, qnetwork/IAMNetShowExProps::get_Bandwidth
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IAMNetShowExProps::get_Bandwidth method

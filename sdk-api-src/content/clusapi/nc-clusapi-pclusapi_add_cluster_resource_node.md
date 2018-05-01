@@ -7,7 +7,7 @@ old-location: mscs\addclusterresourcenode.htm
 old-project: MsCS
 ms.assetid: d87f9541-7cc6-4dbb-8f1f-e8e36462b01b
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: PCLUSAPI_ADD_CLUSTER_RESOURCE_NODE, PCLUSAPI_ADD_CLUSTER_RESOURCE_NODE callback function [Failover Cluster], _wolf_addclusterresourcenode, clusapi/PCLUSAPI_ADD_CLUSTER_RESOURCE_NODE, mscs.addclusterresourcenode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: LOG_MANAGEMENT_CALLBACKS, *PLOG_MANAGEMENT_CALLBACKS
+req.typenames: Sources
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,7 +7,7 @@ old-location: mf\imfdxgidevicemanager_testdevice.htm
 old-project: medfound
 ms.assetid: DBBECFE0-110D-4A77-88D4-7D6AB8B2A67C
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFDXGIDeviceManager, IMFDXGIDeviceManager interface [Media Foundation], TestDevice method, IMFDXGIDeviceManager::TestDevice, TestDevice method [Media Foundation], TestDevice method [Media Foundation], IMFDXGIDeviceManager interface, TestDevice,IMFDXGIDeviceManager.TestDevice, mf.imfdxgidevicemanager_testdevice, mfobjects/IMFDXGIDeviceManager::TestDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices

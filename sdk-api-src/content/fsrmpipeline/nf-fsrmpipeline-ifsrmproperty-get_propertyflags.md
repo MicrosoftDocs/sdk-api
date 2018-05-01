@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmproperty_propertyflags.htm
 old-project: Fsrm
 ms.assetid: 59c52ac2-82ef-4dfa-85e9-450149c2e904
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: IFsrmProperty, IFsrmProperty interface [File Server Resource Manager], PropertyFlags property, IFsrmProperty.PropertyFlags, IFsrmProperty::get_PropertyFlags, PropertyFlags property [File Server Resource Manager], PropertyFlags property [File Server Resource Manager], IFsrmProperty interface, fs.ifsrmproperty_propertyflags, fsrm.ifsrmproperty_propertyflags, fsrmpipeline/IFsrmProperty::PropertyFlags, fsrmpipeline/IFsrmProperty::get_PropertyFlags, get_PropertyFlags,IFsrmProperty.get_PropertyFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol2_playforwards.htm
 old-project: DirectShow
 ms.assetid: bf57e2fd-c85f-430d-a1fa-5b59f7bfb8af
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IDvdControl2, IDvdControl2 interface [DirectShow], PlayForwards method, IDvdControl2::PlayForwards, IDvdControl2PlayForwards, PlayForwards method [DirectShow], PlayForwards method [DirectShow], IDvdControl2 interface, PlayForwards,IDvdControl2.PlayForwards, dshow.idvdcontrol2_playforwards, strmif/IDvdControl2::PlayForwards
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\deletecriticalsection.htm
 old-project: Sync
 ms.assetid: 97e29fc3-b155-448e-aaa9-19f0fc2d841e
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: DeleteCriticalSection, DeleteCriticalSection function, _win32_deletecriticalsection, base.deletecriticalsection, synchapi/DeleteCriticalSection, winbase/DeleteCriticalSection
 ms.prod: windows-hardware
 ms.technology: windows-devices

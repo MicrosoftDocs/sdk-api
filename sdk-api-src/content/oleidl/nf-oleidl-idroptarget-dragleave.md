@@ -7,7 +7,7 @@ old-location: com\idroptarget_dragleave.htm
 old-project: com
 ms.assetid: 2f2f1bdb-e57c-42e2-9afb-65b13cdc22f8
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: DragLeave method [COM], DragLeave method [COM], IDropTarget interface, DragLeave,IDropTarget.DragLeave, IDropTarget, IDropTarget interface [COM], DragLeave method, IDropTarget::DragLeave, _ole_idroptarget_dragleave, com.idroptarget_dragleave, oleidl/IDropTarget::DragLeave
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IDropTarget::DragLeave method

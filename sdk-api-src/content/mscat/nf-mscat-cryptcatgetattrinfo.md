@@ -7,7 +7,7 @@ old-location: security\cryptcatgetattrinfo.htm
 old-project: SecCrypto
 ms.assetid: e36966ea-741e-4380-85cd-5a3c9db38e6d
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: CryptCATGetAttrInfo, CryptCATGetAttrInfo function [Security], mscat/CryptCATGetAttrInfo, security.cryptcatgetattrinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: ACMSTREAMHEADER, *PACMSTREAMHEADER, *LPACMSTREAMHEADER
+req.typenames: KSP_PINMODE, *PKSP_PINMODE
 topic_type:
 -	APIRef
 -	kbSyntax

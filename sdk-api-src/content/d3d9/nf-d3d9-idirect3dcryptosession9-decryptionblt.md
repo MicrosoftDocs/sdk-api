@@ -7,7 +7,7 @@ old-location: mf\idirect3dcryptosession9_decryptionblt.htm
 old-project: medfound
 ms.assetid: 03032a3f-e10f-4f40-837e-01b7b113b29e
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: DecryptionBlt method [Media Foundation], DecryptionBlt method [Media Foundation], IDirect3DCryptoSession9 interface, DecryptionBlt,IDirect3DCryptoSession9.DecryptionBlt, IDirect3DCryptoSession9, IDirect3DCryptoSession9 interface [Media Foundation], DecryptionBlt method, IDirect3DCryptoSession9::DecryptionBlt, d3d9/IDirect3DCryptoSession9::DecryptionBlt, mf.idirect3dcryptosession9_decryptionblt
 ms.prod: windows-hardware
 ms.technology: windows-devices

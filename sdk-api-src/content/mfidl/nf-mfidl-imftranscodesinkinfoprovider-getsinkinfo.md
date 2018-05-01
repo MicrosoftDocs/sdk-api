@@ -7,7 +7,7 @@ old-location: mf\imftranscodesinkinfoprovider_getsinkinfo.htm
 old-project: medfound
 ms.assetid: d880e13a-879e-4882-a69d-f1920225e478
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetSinkInfo method [Media Foundation], GetSinkInfo method [Media Foundation], IMFTranscodeSinkInfoProvider interface, GetSinkInfo,IMFTranscodeSinkInfoProvider.GetSinkInfo, IMFTranscodeSinkInfoProvider, IMFTranscodeSinkInfoProvider interface [Media Foundation], GetSinkInfo method, IMFTranscodeSinkInfoProvider::GetSinkInfo, mf.imftranscodesinkinfoprovider_getsinkinfo, mfidl/IMFTranscodeSinkInfoProvider::GetSinkInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\imfasfcontentinfo_getencodingconfigurationpropertystore.htm
 old-project: medfound
 ms.assetid: e77a5564-82bc-4c1d-9fb8-84ab484c4ca8
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetEncodingConfigurationPropertyStore method [Media Foundation], GetEncodingConfigurationPropertyStore method [Media Foundation], IMFASFContentInfo interface, GetEncodingConfigurationPropertyStore,IMFASFContentInfo.GetEncodingConfigurationPropertyStore, IMFASFContentInfo, IMFASFContentInfo interface [Media Foundation], GetEncodingConfigurationPropertyStore method, IMFASFContentInfo::GetEncodingConfigurationPropertyStore, e77a5564-82bc-4c1d-9fb8-84ab484c4ca8, mf.imfasfcontentinfo_getencodingconfigurationpropertystore, wmcontainer/IMFASFContentInfo::GetEncodingConfigurationPropertyStore
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: rm\drmsetnameanddescription.htm
 old-project: AdRms_Sdk
 ms.assetid: c5dc8aa8-f45b-4b8a-bd83-0661db424303
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/11/2018
 ms.keywords: DRMSetNameAndDescription, DRMSetNameAndDescription function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMSetNameAndDescription, rm.drmsetnameanddescription
 ms.prod: windows-hardware
 ms.technology: windows-devices

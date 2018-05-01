@@ -7,7 +7,7 @@ old-location: security\copytoclientbuffer.htm
 old-project: SecAuthN
 ms.assetid: 53ea2c99-7934-447d-9ec5-e88ee925ca89
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/24/2018
 ms.keywords: CopyToClientBuffer, CopyToClientBuffer function [Security], LSA_COPY_TO_CLIENT_BUFFER, _lsa_copytoclientbuffer, ntsecpkg/CopyToClientBuffer, security.copytoclientbuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # LSA_COPY_TO_CLIENT_BUFFER callback

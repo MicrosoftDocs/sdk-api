@@ -7,7 +7,7 @@ old-location: dshow\ipin_connectedto.htm
 old-project: DirectShow
 ms.assetid: 970c814f-2309-481e-9e8e-9bd32b83fdc7
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ConnectedTo method [DirectShow], ConnectedTo method [DirectShow], IPin interface, ConnectedTo,IPin.ConnectedTo, IPin, IPin interface [DirectShow], ConnectedTo method, IPin::ConnectedTo, IPinConnectedTo, dshow.ipin_connectedto, strmif/IPin::ConnectedTo
 ms.prod: windows-hardware
 ms.technology: windows-devices

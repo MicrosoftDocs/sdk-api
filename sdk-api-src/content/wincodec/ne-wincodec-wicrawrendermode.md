@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_wicrawrendermode.htm
 old-project: wic
 ms.assetid: dc020c78-a018-42ee-a500-65a743b96107
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: WICRawRenderMode, WICRawRenderMode enumeration [Windows Imaging Component], WICRawRenderModeBestQuality, WICRawRenderModeDraft, WICRawRenderModeNormal, _wic_codec_wicrawrendermode, wic._wic_codec_wicrawrendermode, wincodec/WICRawRenderMode, wincodec/WICRawRenderModeBestQuality, wincodec/WICRawRenderModeDraft, wincodec/WICRawRenderModeNormal
 ms.prod: windows-hardware
 ms.technology: windows-devices

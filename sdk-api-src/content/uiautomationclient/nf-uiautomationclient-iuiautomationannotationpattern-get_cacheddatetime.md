@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationAnnotationPattern_CachedDateTime.htm
 old-project: WinAuto
 ms.assetid: 506019F7-0EC3-4FEA-9B22-C84548ACD8A6
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: CachedDateTime property [Windows Accessibility], CachedDateTime property [Windows Accessibility], IUIAutomationAnnotationPattern interface, IUIAutomationAnnotationPattern, IUIAutomationAnnotationPattern interface [Windows Accessibility], CachedDateTime property, IUIAutomationAnnotationPattern.CachedDateTime, IUIAutomationAnnotationPattern::get_CachedDateTime, get_CachedDateTime,IUIAutomationAnnotationPattern.get_CachedDateTime, uiautomationclient/IUIAutomationAnnotationPattern::CachedDateTime, uiautomationclient/IUIAutomationAnnotationPattern::get_CachedDateTime, winauto.uiauto_IUIAutomationAnnotationPattern_CachedDateTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

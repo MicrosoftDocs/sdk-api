@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationTogglePattern_CurrentToggleState.htm
 old-project: WinAuto
 ms.assetid: 93966356-11b1-4b2a-ac1c-d3daa9d5b1dd
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: CurrentToggleState property [Windows Accessibility], CurrentToggleState property [Windows Accessibility], IUIAutomationTogglePattern interface, IUIAutomationTogglePattern, IUIAutomationTogglePattern interface [Windows Accessibility], CurrentToggleState property, IUIAutomationTogglePattern.CurrentToggleState, IUIAutomationTogglePattern::get_CurrentToggleState, get_CurrentToggleState,IUIAutomationTogglePattern.get_CurrentToggleState, uiauto.uiauto_IUIAutomationTogglePattern_CurrentToggleState, uiauto_IUIAutomationTogglePattern_CurrentToggleState, uiautomationclient/IUIAutomationTogglePattern::CurrentToggleState, uiautomationclient/IUIAutomationTogglePattern::get_CurrentToggleState, winauto.uiauto_IUIAutomationTogglePattern_CurrentToggleState
 ms.prod: windows-hardware
 ms.technology: windows-devices

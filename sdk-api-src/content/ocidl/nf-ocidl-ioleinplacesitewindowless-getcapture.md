@@ -7,7 +7,7 @@ old-location: com\ioleinplacesitewindowless_getcapture.htm
 old-project: com
 ms.assetid: adbe9c66-d716-4489-b705-43a5317c7646
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: GetCapture method [COM], GetCapture method [COM], IOleInPlaceSiteWindowless interface, GetCapture,IOleInPlaceSiteWindowless.GetCapture, IOleInPlaceSiteWindowless, IOleInPlaceSiteWindowless interface [COM], GetCapture method, IOleInPlaceSiteWindowless::GetCapture, _ole_ioleinplacesitewindowless_getcapture, com.ioleinplacesitewindowless_getcapture, ocidl/IOleInPlaceSiteWindowless::GetCapture
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IOleInPlaceSiteWindowless::GetCapture method

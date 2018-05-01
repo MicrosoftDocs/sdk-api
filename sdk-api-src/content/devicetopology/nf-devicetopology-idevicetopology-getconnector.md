@@ -7,7 +7,7 @@ old-location: coreaudio\idevicetopology_getconnector.htm
 old-project: CoreAudio
 ms.assetid: a2da5d1e-ecd3-411e-8428-f529569cc11d
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: GetConnector method [Core Audio], GetConnector method [Core Audio], IDeviceTopology interface, GetConnector,IDeviceTopology.GetConnector, IDeviceTopology, IDeviceTopology interface [Core Audio], GetConnector method, IDeviceTopology::GetConnector, IDeviceTopologyGetConnector, coreaudio.idevicetopology_getconnector, devicetopology/IDeviceTopology::GetConnector
 ms.prod: windows-hardware
 ms.technology: windows-devices

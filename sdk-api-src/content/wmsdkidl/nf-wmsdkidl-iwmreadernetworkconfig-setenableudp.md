@@ -7,7 +7,7 @@ old-location: wmformat\iwmreadernetworkconfig_setenableudp.htm
 old-project: wmformat
 ms.assetid: 03afdef3-2aa8-4826-8dce-6d501fa42bcd
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMReaderNetworkConfig, IWMReaderNetworkConfig interface [windows Media Format], SetEnableUDP method, IWMReaderNetworkConfig::SetEnableUDP, IWMReaderNetworkConfigSetEnableUDP, SetEnableUDP method [windows Media Format], SetEnableUDP method [windows Media Format], IWMReaderNetworkConfig interface, SetEnableUDP,IWMReaderNetworkConfig.SetEnableUDP, wmformat.iwmreadernetworkconfig_setenableudp, wmsdkidl/IWMReaderNetworkConfig::SetEnableUDP
 ms.prod: windows-hardware
 ms.technology: windows-devices

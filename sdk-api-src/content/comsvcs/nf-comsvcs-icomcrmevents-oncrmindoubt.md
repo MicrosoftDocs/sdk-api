@@ -7,7 +7,7 @@ old-location: cos\icomcrmevents_oncrmindoubt.htm
 old-project: cossdk
 ms.assetid: b1144b7c-097f-4a1c-b7d7-d71b8108625b
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: IComCRMEvents, IComCRMEvents interface [COM+], OnCRMIndoubt method, IComCRMEvents::OnCRMIndoubt, OnCRMIndoubt method [COM+], OnCRMIndoubt method [COM+], IComCRMEvents interface, OnCRMIndoubt,IComCRMEvents.OnCRMIndoubt, _dtc_IComCRMEvents_OnCRMIndoubt, comsvcs/IComCRMEvents::OnCRMIndoubt, cos.icomcrmevents_oncrmindoubt
 ms.prod: windows-hardware
 ms.technology: windows-devices

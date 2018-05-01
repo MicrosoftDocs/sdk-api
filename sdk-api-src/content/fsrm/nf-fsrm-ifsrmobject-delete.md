@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmobject_delete.htm
 old-project: Fsrm
 ms.assetid: ce8a17fe-377b-4a0e-9a95-7dc25a1411ce
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: Delete method [File Server Resource Manager], Delete method [File Server Resource Manager], IFsrmObject interface, Delete,IFsrmObject.Delete, IFsrmObject, IFsrmObject interface [File Server Resource Manager], Delete method, IFsrmObject::Delete, fs.ifsrmobject_delete, fsrm.ifsrmobject_delete, fsrm/IFsrmObject::Delete
 ms.prod: windows-hardware
 ms.technology: windows-devices

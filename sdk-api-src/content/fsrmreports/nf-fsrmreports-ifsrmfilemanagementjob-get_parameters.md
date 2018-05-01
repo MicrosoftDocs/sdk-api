@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmfilemanagementjob_parameters.htm
 old-project: Fsrm
 ms.assetid: 87eb994c-3d15-4c6b-90c3-1ddb340f7458
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: IFsrmFileManagementJob, IFsrmFileManagementJob interface [File Server Resource Manager], Parameters property, IFsrmFileManagementJob.Parameters, IFsrmFileManagementJob::get_Parameters, IFsrmFileManagementJob::put_Parameters, Parameters property [File Server Resource Manager], Parameters property [File Server Resource Manager], IFsrmFileManagementJob interface, fs.ifsrmfilemanagementjob_parameters, fsrm.ifsrmfilemanagementjob_parameters, fsrmreports/IFsrmFileManagementJob::Parameters, fsrmreports/IFsrmFileManagementJob::get_Parameters, fsrmreports/IFsrmFileManagementJob::put_Parameters, get_Parameters,IFsrmFileManagementJob.get_Parameters
 ms.prod: windows-hardware
 ms.technology: windows-devices

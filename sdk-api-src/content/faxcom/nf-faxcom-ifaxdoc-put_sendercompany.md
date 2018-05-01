@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxdoc_get_sendercompany_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_7wjd.htm
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/18/2018
 ms.keywords: FaxDoc object [Fax Service], SenderCompany property, IFaxDoc, IFaxDoc::put_SenderCompany, SenderCompany property [Fax Service], SenderCompany property [Fax Service], FaxDoc object, _mfax_ifaxdoc_get_sendercompany, fax._mfax_ifaxdoc_get_sendercompany, fax._mfax_ifaxdoc_get_sendercompany_vb, put_SenderCompany,IFaxDoc.put_SenderCompany
 ms.prod: windows-hardware
 ms.technology: windows-devices

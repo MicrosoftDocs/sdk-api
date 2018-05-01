@@ -7,7 +7,7 @@ old-location: dshow\ivmrdeinterlacecontrol9.htm
 old-project: DirectShow
 ms.assetid: 685f3627-30bd-4c78-9eda-0b06203dd46e
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IVMRDeinterlaceControl9, IVMRDeinterlaceControl9 interface [DirectShow], IVMRDeinterlaceControl9 interface [DirectShow], described, IVMRDeinterlaceControl9Interface, dshow.ivmrdeinterlacecontrol9, vmr9/IVMRDeinterlaceControl9
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\ivmrimagepresenterexclmodeconfig.htm
 old-project: DirectShow
 ms.assetid: 67c9675c-c0fd-44f6-bdeb-ac3f73e937cc
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IVMRImagePresenterExclModeConfig, IVMRImagePresenterExclModeConfig interface [DirectShow], IVMRImagePresenterExclModeConfig interface [DirectShow], described, dshow.ivmrimagepresenterexclmodeconfig, strmif/IVMRImagePresenterExclModeConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices

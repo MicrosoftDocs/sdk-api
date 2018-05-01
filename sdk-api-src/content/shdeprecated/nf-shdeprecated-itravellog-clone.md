@@ -7,7 +7,7 @@ old-location: shell\ITravelLog_Clone.htm
 old-project: shell
 ms.assetid: 546581f1-648d-4817-b3d2-aca219b74911
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: Clone method [Windows Shell], Clone method [Windows Shell], ITravelLog interface, Clone,ITravelLog.Clone, ITravelLog, ITravelLog interface [Windows Shell], Clone method, ITravelLog::Clone, shdeprecated/ITravelLog::Clone, shell.ITravelLog_Clone, zone_ITravelLog_Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

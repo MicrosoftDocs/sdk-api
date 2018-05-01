@@ -7,7 +7,7 @@ old-location: tmg\terminatefilter.htm
 old-project: TMG
 ms.assetid: e1b14756-6df1-4944-a34b-1d739b0f0ca4
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/3/2018
 ms.keywords: TerminateFilter, TerminateFilter callback function [Forefront TMG], httpfilt/TerminateFilter, tmg.terminatefilter
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11device_createdomainshader.htm
 old-project: direct3d11
 ms.assetid: 414525a8-55ad-4d37-a302-5c30909588f1
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/6/2018
 ms.keywords: 8c230b52-7c67-4576-98d9-238d464c9620, CreateDomainShader method [Direct3D 11], CreateDomainShader method [Direct3D 11], ID3D11Device interface, CreateDomainShader,ID3D11Device.CreateDomainShader, ID3D11Device, ID3D11Device interface [Direct3D 11], CreateDomainShader method, ID3D11Device::CreateDomainShader, d3d11/ID3D11Device::CreateDomainShader, direct3d11.id3d11device_createdomainshader
 ms.prod: windows-hardware
 ms.technology: windows-devices

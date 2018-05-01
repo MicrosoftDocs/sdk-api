@@ -7,7 +7,7 @@ old-location: ics\inetfwmgr_restoredefaults.htm
 old-project: ICS
 ms.assetid: ed2fd6b6-e449-4bed-aeb4-eb4345f67b12
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: INetFwMgr, INetFwMgr interface [ICS/ICF], RestoreDefaults method, INetFwMgr::RestoreDefaults, RestoreDefaults method [ICS/ICF], RestoreDefaults method [ICS/ICF], INetFwMgr interface, RestoreDefaults,INetFwMgr.RestoreDefaults, ics.inetfwmgr_restoredefaults, netfw/INetFwMgr::RestoreDefaults
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # INetFwMgr::RestoreDefaults method

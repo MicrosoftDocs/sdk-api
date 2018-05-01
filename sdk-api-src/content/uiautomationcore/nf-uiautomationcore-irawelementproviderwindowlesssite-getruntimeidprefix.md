@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IRawElementProviderWindowlessSite_getRuntimeIdPrefi
 old-project: WinAuto
 ms.assetid: E10BBE53-5AAB-4BAB-AFC8-866224011E43
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: GetRuntimeIdPrefix method [Windows Accessibility], GetRuntimeIdPrefix method [Windows Accessibility], IRawElementProviderWindowlessSite interface, GetRuntimeIdPrefix,IRawElementProviderWindowlessSite.GetRuntimeIdPrefix, IRawElementProviderWindowlessSite, IRawElementProviderWindowlessSite interface [Windows Accessibility], GetRuntimeIdPrefix method, IRawElementProviderWindowlessSite::GetRuntimeIdPrefix, uiautomationcore/IRawElementProviderWindowlessSite::GetRuntimeIdPrefix, winauto.uiauto_IRawElementProviderWindowlessSite_getRuntimeIdPrefix
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\ienumtunerequests_skip.htm
 old-project: mstv
 ms.assetid: 43ed5c7e-2d31-417e-9d87-c3100e5096d0
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IEnumTuneRequests, IEnumTuneRequests interface [Microsoft TV Technologies], Skip method, IEnumTuneRequests::Skip, IEnumTuneRequestsSkip, Skip method [Microsoft TV Technologies], Skip method [Microsoft TV Technologies], IEnumTuneRequests interface, Skip,IEnumTuneRequests.Skip, bdatif/IEnumTuneRequests::Skip, mstv.ienumtunerequests_skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: SpanningEventEmmMessage
+req.typenames: SmartCardApplication
 topic_type:
 -	APIRef
 -	kbSyntax

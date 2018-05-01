@@ -7,7 +7,7 @@ old-location: cos\icomadmincatalog_startrouter.htm
 old-project: cossdk
 ms.assetid: 2d2c0ee0-2758-4d69-878a-78ce216a9201
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: ICOMAdminCatalog, ICOMAdminCatalog interface [COM+], StartRouter method, ICOMAdminCatalog::StartRouter, StartRouter method [COM+], StartRouter method [COM+], ICOMAdminCatalog interface, StartRouter,ICOMAdminCatalog.StartRouter, _cos_ICOMAdminCatalog_StartRouter, comadmin/ICOMAdminCatalog::StartRouter, cos.icomadmincatalog_startrouter
 ms.prod: windows-hardware
 ms.technology: windows-devices

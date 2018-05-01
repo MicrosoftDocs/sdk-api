@@ -7,7 +7,7 @@ old-location: direct2d\d2d1_border_mode.htm
 old-project: Direct2D
 ms.assetid: 093C7028-9C0E-4BB5-9769-C456B7A23B6F
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: D2D1_BORDER_MODE, D2D1_BORDER_MODE enumeration [Direct2D], D2D1_BORDER_MODE_HARD, D2D1_BORDER_MODE_SOFT, d2d1effects/D2D1_BORDER_MODE, d2d1effects/D2D1_BORDER_MODE_HARD, d2d1effects/D2D1_BORDER_MODE_SOFT, direct2d.d2d1_border_mode
 ms.prod: windows-hardware
 ms.technology: windows-devices

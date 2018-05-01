@@ -7,7 +7,7 @@ old-location: dshow\ienumregfilters_skip.htm
 old-project: DirectShow
 ms.assetid: d774ea12-cc06-47c5-82ee-c1ec761e0097
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IEnumRegFilters, IEnumRegFilters interface [DirectShow], Skip method, IEnumRegFilters::Skip, IEnumRegFiltersSkip, Skip method [DirectShow], Skip method [DirectShow], IEnumRegFilters interface, Skip,IEnumRegFilters.Skip, dshow.ienumregfilters_skip, strmif/IEnumRegFilters::Skip
 ms.prod: windows-hardware
 ms.technology: windows-devices

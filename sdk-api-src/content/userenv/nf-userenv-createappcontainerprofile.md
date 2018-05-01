@@ -7,7 +7,7 @@ old-location: shell\createappcontainerprofile.htm
 old-project: shell
 ms.assetid: 73F5F30F-4083-4D33-B181-31B782AD40D6
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: CreateAppContainerProfile, CreateAppContainerProfile function [Windows Shell], shell.createappcontainerprofile, userenv/CreateAppContainerProfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: SOFTDISTINFO, *LPSOFTDISTINFO
+req.typenames: USB_UNICODE_NAME, *PUSB_UNICODE_NAME
 topic_type:
 -	APIRef
 -	kbSyntax

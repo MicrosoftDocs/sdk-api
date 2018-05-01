@@ -7,7 +7,7 @@ old-location: controls\IImageList_Add.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\add.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: Add method [Windows Controls], Add method [Windows Controls], IImageList interface, Add,IImageList.Add, IImageList, IImageList interface [Windows Controls], Add method, IImageList::Add, comctl_IImageList_Add, comctl_IImageList_Add_cpp, commoncontrols/IImageList::Add, controls.IImageList_Add, controls.comctl_IImageList_Add
 ms.prod: windows-hardware
 ms.technology: windows-devices

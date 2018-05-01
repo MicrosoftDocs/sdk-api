@@ -7,7 +7,7 @@ old-location: shell\citemidfactory_getpropertystorage.htm
 old-project: shell
 ms.assetid: 3A3F0F28-C9E1-4F2E-9A02-C6A48BF3C204
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: CItemIDFactory, CItemIDFactory interface [Windows Shell], GetPropertyStorage method, CItemIDFactory::GetPropertyStorage, GetPropertyStorage method [Windows Shell], GetPropertyStorage method [Windows Shell], CItemIDFactory interface, GetPropertyStorage,CItemIDFactory.GetPropertyStorage, shell.citemidfactory_getpropertystorage, shidfact/CItemIDFactory::GetPropertyStorage
 ms.prod: windows-hardware
 ms.technology: windows-devices

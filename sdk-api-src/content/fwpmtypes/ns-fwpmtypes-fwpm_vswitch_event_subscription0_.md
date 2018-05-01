@@ -7,7 +7,7 @@ old-location: fwp\fwpm_vswitch_event_subscription0.htm
 old-project: FWP
 ms.assetid: f099d531-ab40-4661-b33f-a805a84fba7e
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: FWPM_VSWITCH_EVENT_SUBSCRIPTION0, FWPM_VSWITCH_EVENT_SUBSCRIPTION0 structure [Filtering], FWPM_VSWITCH_EVENT_SUBSCRIPTION0_, fwp.fwpm_vswitch_event_subscription0, fwpmtypes/FWPM_VSWITCH_EVENT_SUBSCRIPTION0
 ms.prod: windows-hardware
 ms.technology: windows-devices

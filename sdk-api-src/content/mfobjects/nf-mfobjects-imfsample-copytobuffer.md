@@ -7,7 +7,7 @@ old-location: mf\imfsample_copytobuffer.htm
 old-project: medfound
 ms.assetid: c8a23e0a-ed2f-449d-b834-f60f383d0b5e
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: CopyToBuffer method [Media Foundation], CopyToBuffer method [Media Foundation], IMFSample interface, CopyToBuffer,IMFSample.CopyToBuffer, IMFSample, IMFSample interface [Media Foundation], CopyToBuffer method, IMFSample::CopyToBuffer, c8a23e0a-ed2f-449d-b834-f60f383d0b5e, mf.imfsample_copytobuffer, mfobjects/IMFSample::CopyToBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

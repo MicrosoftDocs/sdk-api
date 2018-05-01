@@ -7,7 +7,7 @@ old-location: winauto\wineventproc.htm
 old-project: WinAuto
 ms.assetid: 74f52fb2-2e09-4f04-bf77-160589842e9d
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: WINEVENTPROC, WINEVENTPROC function pointer [Windows Accessibility], _msaa_WinEventProc_Callback_Function, winauto.wineventproc, winauto.wineventproc_COLLISION373, wineventproc, winuser/WINEVENTPROC
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: WIN_CERTIFICATE, *LPWIN_CERTIFICATE
+req.typenames: WINUSB_PIPE_INFORMATION_EX, *PWINUSB_PIPE_INFORMATION_EX
 topic_type:
 -	APIRef
 -	kbSyntax

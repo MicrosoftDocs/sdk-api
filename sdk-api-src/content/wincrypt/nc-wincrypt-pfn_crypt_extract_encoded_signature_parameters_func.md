@@ -7,7 +7,7 @@ old-location: security\pfn_crypt_extract_encoded_signature_parameters_func.htm
 old-project: SecCrypto
 ms.assetid: 2b990a1d-8913-49bc-920f-253b38871eb6
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: PFN_CRYPT_EXTRACT_ENCODED_SIGNATURE_PARAMETERS_FUNC, PFN_CRYPT_EXTRACT_ENCODED_SIGNATURE_PARAMETERS_FUNC function pointer [Security], security.pfn_crypt_extract_encoded_signature_parameters_func, wincrypt/PFN_CRYPT_EXTRACT_ENCODED_SIGNATURE_PARAMETERS_FUNC
 ms.prod: windows-hardware
 ms.technology: windows-devices

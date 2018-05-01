@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicimagingfactory_createfastmetadataencoderfromdec
 old-project: wic
 ms.assetid: 3264a987-4308-4c50-b99c-70142bc49476
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: CreateFastMetadataEncoderFromDecoder method [Windows Imaging Component], CreateFastMetadataEncoderFromDecoder method [Windows Imaging Component], IWICImagingFactory interface, CreateFastMetadataEncoderFromDecoder,IWICImagingFactory.CreateFastMetadataEncoderFromDecoder, IWICImagingFactory, IWICImagingFactory interface [Windows Imaging Component], CreateFastMetadataEncoderFromDecoder method, IWICImagingFactory::CreateFastMetadataEncoderFromDecoder, _wic_codec_iwicimagingfactory_createfastmetadataencoderfromdecoder, wic._wic_codec_iwicimagingfactory_createfastmetadataencoderfromdecoder, wincodec/IWICImagingFactory::CreateFastMetadataEncoderFromDecoder
 ms.prod: windows-hardware
 ms.technology: windows-devices

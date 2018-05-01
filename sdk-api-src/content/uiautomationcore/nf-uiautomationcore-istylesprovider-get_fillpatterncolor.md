@@ -7,7 +7,7 @@ old-location: winauto\uiauto_istylesprovider_fillpatterncolor.htm
 old-project: WinAuto
 ms.assetid: F1448296-1E4E-4127-B415-C921A52A9B72
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: FillPatternColor property [Windows Accessibility], FillPatternColor property [Windows Accessibility], IStylesProvider interface, IStylesProvider, IStylesProvider interface [Windows Accessibility], FillPatternColor property, IStylesProvider.FillPatternColor, IStylesProvider::get_FillPatternColor, get_FillPatternColor,IStylesProvider.get_FillPatternColor, uiautomationcore/IStylesProvider::FillPatternColor, uiautomationcore/IStylesProvider::get_FillPatternColor, winauto.uiauto_istylesprovider_fillpatterncolor
 ms.prod: windows-hardware
 ms.technology: windows-devices

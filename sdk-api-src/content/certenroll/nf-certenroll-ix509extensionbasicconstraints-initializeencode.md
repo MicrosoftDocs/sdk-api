@@ -7,7 +7,7 @@ old-location: security\ix509extensionbasicconstraints_initializeencode_method.ht
 old-project: SecCertEnroll
 ms.assetid: e9a08445-8fc5-45cc-a2c6-ec62470e5c55
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: IX509ExtensionBasicConstraints, IX509ExtensionBasicConstraints interface [Security], InitializeEncode method, IX509ExtensionBasicConstraints::InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security], IX509ExtensionBasicConstraints interface, InitializeEncode,IX509ExtensionBasicConstraints.InitializeEncode, certenroll/IX509ExtensionBasicConstraints::InitializeEncode, security.ix509extensionbasicconstraints_initializeencode_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

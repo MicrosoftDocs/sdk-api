@@ -7,7 +7,7 @@ old-location: sidebar\System_Sound_beep.htm
 old-project: sidebar
 ms.assetid: VS|sidebar|~\sidebar\reference\objects\systemsound\beep.htm
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/17/2018
 ms.keywords: Beep, System.Sound object [Windows Sidebar], beep method, System.Sound.beep, beep method [Windows Sidebar], beep method [Windows Sidebar], System.Sound object, sidebar.System_Sound_beep
 ms.prod: windows-hardware
 ms.technology: windows-devices

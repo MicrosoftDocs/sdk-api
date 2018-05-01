@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device_createqueryheap.htm
 old-project: direct3d12
 ms.assetid: 98B238D0-8E4D-46C1-AC2C-09473A972E71
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: CreateQueryHeap method, CreateQueryHeap method, ID3D12Device interface, CreateQueryHeap,ID3D12Device.CreateQueryHeap, ID3D12Device, ID3D12Device interface, CreateQueryHeap method, ID3D12Device::CreateQueryHeap, d3d12/ID3D12Device::CreateQueryHeap, direct3d12.id3d12device_createqueryheap
 ms.prod: windows-hardware
 ms.technology: windows-devices

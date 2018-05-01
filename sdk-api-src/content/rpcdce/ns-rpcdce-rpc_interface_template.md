@@ -7,7 +7,7 @@ old-location: rpc\rpc_interface_template.htm
 old-project: Rpc
 ms.assetid: 4DBD0B43-659B-4074-954B-FE9ABB0DCE63
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: "*PRPC_INTERFACE_TEMPLATE, PRPC_INTERFACE_TEMPLATE, PRPC_INTERFACE_TEMPLATE structure pointer [RPC], RPC_INTERFACE_TEMPLATE, RPC_INTERFACE_TEMPLATE structure [RPC], RPC_INTERFACE_TEMPLATEA, RPC_INTERFACE_TEMPLATEW, rpc.rpc_interface_template, rpcdce/PRPC_INTERFACE_TEMPLATE, rpcdce/RPC_INTERFACE_TEMPLATE, rpcdce/RPC_INTERFACE_TEMPLATEA, rpcdce/RPC_INTERFACE_TEMPLATEW"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # RPC_INTERFACE_TEMPLATE structure

@@ -7,7 +7,7 @@ old-location: mstv\ibda_fdc_removepid.htm
 old-project: mstv
 ms.assetid: 1277726c-6443-416c-a5d4-044d5f885af7
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IBDA_FDC, IBDA_FDC interface [Microsoft TV Technologies], RemovePid method, IBDA_FDC::RemovePid, RemovePid method [Microsoft TV Technologies], RemovePid method [Microsoft TV Technologies], IBDA_FDC interface, RemovePid,IBDA_FDC.RemovePid, bdaiface/IBDA_FDC::RemovePid, mstv.ibda_fdc_removepid
 ms.prod: windows-hardware
 ms.technology: windows-devices

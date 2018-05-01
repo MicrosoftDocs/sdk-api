@@ -7,7 +7,7 @@ old-location: automat\itypeinfo.htm
 old-project: automat
 ms.assetid: f3356463-3373-4279-bae1-953378aa2680
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: ITypeInfo, ITypeInfo interface [Automation], ITypeInfo interface [Automation], described, _oa96_ITypeInfo_Interface, automat.itypeinfo, oaidl/ITypeInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITypeInfo interface

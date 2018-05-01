@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol_menulanguageselect.htm
 old-project: DirectShow
 ms.assetid: 6b5c660c-3d3f-4f78-8eca-3a42982eb0ae
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IDvdControl, IDvdControl interface [DirectShow], MenuLanguageSelect method, IDvdControl::MenuLanguageSelect, IDvdControlMenuLanguageSelect, MenuLanguageSelect method [DirectShow], MenuLanguageSelect method [DirectShow], IDvdControl interface, MenuLanguageSelect,IDvdControl.MenuLanguageSelect, dshow.idvdcontrol_menulanguageselect, strmif/IDvdControl::MenuLanguageSelect
 ms.prod: windows-hardware
 ms.technology: windows-devices

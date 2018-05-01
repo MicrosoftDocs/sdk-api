@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationValuePattern_CachedIsReadOnly.htm
 old-project: WinAuto
 ms.assetid: 73b66597-7d53-4b37-a9b6-f3ef4640d301
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: CachedIsReadOnly property [Windows Accessibility], CachedIsReadOnly property [Windows Accessibility], IUIAutomationValuePattern interface, IUIAutomationValuePattern, IUIAutomationValuePattern interface [Windows Accessibility], CachedIsReadOnly property, IUIAutomationValuePattern.CachedIsReadOnly, IUIAutomationValuePattern::get_CachedIsReadOnly, get_CachedIsReadOnly,IUIAutomationValuePattern.get_CachedIsReadOnly, uiauto.uiauto_IUIAutomationValuePattern_CachedIsReadOnly, uiauto_IUIAutomationValuePattern_CachedIsReadOnly, uiautomationclient/IUIAutomationValuePattern::CachedIsReadOnly, uiautomationclient/IUIAutomationValuePattern::get_CachedIsReadOnly, winauto.uiauto_IUIAutomationValuePattern_CachedIsReadOnly
 ms.prod: windows-hardware
 ms.technology: windows-devices

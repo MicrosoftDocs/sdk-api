@@ -7,7 +7,7 @@ old-location: base\rtlinterlockedflushslist.htm
 old-project: Sync
 ms.assetid: bc5f28d8-c976-4614-9136-99887c617023
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: RtlInterlockedFlushSList, RtlInterlockedFlushSList function, base.rtlinterlockedflushslist, winnt/RtlInterlockedFlushSList
 ms.prod: windows-hardware
 ms.technology: windows-devices

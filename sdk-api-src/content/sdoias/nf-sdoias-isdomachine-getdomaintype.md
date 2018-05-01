@@ -7,7 +7,7 @@ old-location: nps\SDO_isdomachine_getdomaintype.htm
 old-project: Nps
 ms.assetid: 9c22ec67-4a12-4487-bac5-8f0e666b8029
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/24/2018
 ms.keywords: GetDomainType method [Network Policy Server], GetDomainType method [Network Policy Server], ISdoMachine interface, GetDomainType method [Network Policy Server], SdoMachine object, GetDomainType,ISdoMachine.GetDomainType, ISdoMachine, ISdoMachine interface [Network Policy Server], GetDomainType method, ISdoMachine::GetDomainType, SdoMachine object [Network Policy Server], GetDomainType method, _sdo_isdomachine_getdomaintype, nps.SDO_isdomachine_getdomaintype, sdo.isdomachine_getdomaintype, sdoias/ISdoMachine::GetDomainType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: Iassdo.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ISdoMachine::GetDomainType method

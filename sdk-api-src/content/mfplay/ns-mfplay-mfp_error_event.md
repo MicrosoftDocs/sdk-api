@@ -7,7 +7,7 @@ old-location: mf\mfp_error_event.htm
 old-project: medfound
 ms.assetid: 0ccfdefa-4913-4a02-bb91-14df1c185ddf
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: MFP_ERROR_EVENT, MFP_ERROR_EVENT structure [Media Foundation], mf.mfp_error_event, mfplay/MFP_ERROR_EVENT
 ms.prod: windows-hardware
 ms.technology: windows-devices

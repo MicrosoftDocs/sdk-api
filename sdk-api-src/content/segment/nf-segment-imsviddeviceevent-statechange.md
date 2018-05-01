@@ -7,7 +7,7 @@ old-location: mstv\imsviddeviceevent_statechange.htm
 old-project: mstv
 ms.assetid: 0f7a5e37-5a0d-415e-aca0-df5f9448b017
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidDeviceEvent, IMSVidDeviceEvent interface [Microsoft TV Technologies], StateChange method, IMSVidDeviceEvent::StateChange, IMSVidDeviceEventStateChange, StateChange method [Microsoft TV Technologies], StateChange method [Microsoft TV Technologies], IMSVidDeviceEvent interface, StateChange,IMSVidDeviceEvent.StateChange, mstv.imsviddeviceevent_statechange, segment/IMSVidDeviceEvent::StateChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidDeviceEvent::StateChange method

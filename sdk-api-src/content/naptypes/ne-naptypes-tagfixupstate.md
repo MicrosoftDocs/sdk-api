@@ -20,7 +20,7 @@ req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: LoadMUILibraryW (Unicode) and LoadMUILibraryA (ANSI)
 req.idl: NapTypes.idl
 req.max-support: 
 req.namespace: 
@@ -38,10 +38,10 @@ api_name:
 -	FixupState
 product: Windows
 targetos: Windows
-req.lib: 
+req.lib: Muiload.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # tagFixupState enumeration

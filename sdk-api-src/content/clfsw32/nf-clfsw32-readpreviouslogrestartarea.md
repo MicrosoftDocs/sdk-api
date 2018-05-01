@@ -7,7 +7,7 @@ old-location: fs\readpreviouslogrestartarea.htm
 old-project: Clfs
 ms.assetid: f304dbb7-7d5c-403c-9418-60947cc4c3a1
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/25/2018
 ms.keywords: ReadPreviousLogRestartArea, ReadPreviousLogRestartArea function [Files], clfsw32/ReadPreviousLogRestartArea, fs.readpreviouslogrestartarea
 ms.prod: windows-hardware
 ms.technology: windows-devices

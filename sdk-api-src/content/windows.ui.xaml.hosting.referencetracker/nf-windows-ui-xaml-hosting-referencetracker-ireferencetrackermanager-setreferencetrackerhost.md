@@ -7,7 +7,7 @@ old-location: winrt\ireferencetrackermanager_setreferencetrackerhost.htm
 old-project: WinRT
 ms.assetid: 02828d30-5023-4bd6-9c7a-8a3458462655
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/24/2018
 ms.keywords: IReferenceTrackerManager, IReferenceTrackerManager interface [Windows Runtime], SetReferenceTrackerHost method, IReferenceTrackerManager::SetReferenceTrackerHost, SetReferenceTrackerHost method [Windows Runtime], SetReferenceTrackerHost method [Windows Runtime], IReferenceTrackerManager interface, SetReferenceTrackerHost,IReferenceTrackerManager.SetReferenceTrackerHost, windows/IReferenceTrackerManager::SetReferenceTrackerHost, winrt.ireferencetrackermanager_setreferencetrackerhost
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: termserv\iwrdsremotefxgraphicsconnection_getvirtualchanneltranspor
 old-project: TermServ
 ms.assetid: 70de545f-f630-40cc-8456-ea0703caba17
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: GetVirtualChannelTransport method [Remote Desktop Services], GetVirtualChannelTransport method [Remote Desktop Services], IWRdsRemoteFXGraphicsConnection interface, GetVirtualChannelTransport,IWRdsRemoteFXGraphicsConnection.GetVirtualChannelTransport, IWRdsRemoteFXGraphicsConnection, IWRdsRemoteFXGraphicsConnection interface [Remote Desktop Services], GetVirtualChannelTransport method, IWRdsRemoteFXGraphicsConnection::GetVirtualChannelTransport, termserv.iwrdsremotefxgraphicsconnection_getvirtualchanneltransport, wtsprotocol/IWRdsRemoteFXGraphicsConnection::GetVirtualChannelTransport
 ms.prod: windows-hardware
 ms.technology: windows-devices

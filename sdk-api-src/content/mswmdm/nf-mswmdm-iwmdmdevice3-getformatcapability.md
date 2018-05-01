@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmdevice3_getformatcapability.htm
 old-project: WMDM
 ms.assetid: 728df998-748b-4c53-b5a6-3a6ccae0d7e4
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: GetFormatCapability method [windows Media Device Manager], GetFormatCapability method [windows Media Device Manager], IWMDMDevice3 interface, GetFormatCapability,IWMDMDevice3.GetFormatCapability, IWMDMDevice3, IWMDMDevice3 interface [windows Media Device Manager], GetFormatCapability method, IWMDMDevice3::GetFormatCapability, IWMDMDevice3GetFormatCapability, mswmdm/IWMDMDevice3::GetFormatCapability, wmdm.iwmdmdevice3_getformatcapability
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IWMDMDevice3::GetFormatCapability method

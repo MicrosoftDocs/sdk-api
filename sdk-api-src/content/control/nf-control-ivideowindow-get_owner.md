@@ -7,7 +7,7 @@ old-location: dshow\ivideowindow_get_owner.htm
 old-project: DirectShow
 ms.assetid: 9bb21c2a-25c6-43fa-a1b0-9f09944f1326
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IVideoWindow, IVideoWindow interface [DirectShow], get_Owner method, IVideoWindow::get_Owner, IVideoWindowget_Owner, control/IVideoWindow::get_Owner, dshow.ivideowindow_get_owner, get_Owner method [DirectShow], get_Owner method [DirectShow], IVideoWindow interface, get_Owner,IVideoWindow.get_Owner
 ms.prod: windows-hardware
 ms.technology: windows-devices

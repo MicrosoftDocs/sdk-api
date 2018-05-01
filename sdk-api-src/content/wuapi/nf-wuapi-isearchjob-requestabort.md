@@ -7,7 +7,7 @@ old-location: wua\isearchjob_requestabort.htm
 old-project: Wua_Sdk
 ms.assetid: ceedfa28-eef3-4707-8e3a-e59ad45dbea7
 ms.author: windowsdriverdev
-ms.date: 3/15/2018
+ms.date: 4/18/2018
 ms.keywords: ISearchJob, ISearchJob interface [Windows Update Agent], RequestAbort method, ISearchJob::RequestAbort, RequestAbort method [Windows Update Agent], RequestAbort method [Windows Update Agent], ISearchJob interface, RequestAbort,ISearchJob.RequestAbort, wua.isearchjob_requestabort, wuapi/ISearchJob::RequestAbort
 ms.prod: windows-hardware
 ms.technology: windows-devices

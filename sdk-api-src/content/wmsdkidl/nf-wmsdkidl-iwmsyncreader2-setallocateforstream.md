@@ -7,7 +7,7 @@ old-location: wmformat\iwmsyncreader2_setallocateforstream.htm
 old-project: wmformat
 ms.assetid: ed94977e-e930-4045-a69d-36109e7e21c9
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMSyncReader2, IWMSyncReader2 interface [windows Media Format], SetAllocateForStream method, IWMSyncReader2::SetAllocateForStream, IWMSyncReader2SetAllocateForStream, SetAllocateForStream method [windows Media Format], SetAllocateForStream method [windows Media Format], IWMSyncReader2 interface, SetAllocateForStream,IWMSyncReader2.SetAllocateForStream, wmformat.iwmsyncreader2_setallocateforstream, wmsdkidl/IWMSyncReader2::SetAllocateForStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winauto\iaccclientdocmgr_iaccclientdocmgr__lookupbyhwnd.htm
 old-project: WinAuto
 ms.assetid: fb67c208-b79b-4219-ba5b-2235ae4a1dcf
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: IAccClientDocMgr, IAccClientDocMgr interface [Windows Accessibility], LookupByHWND method, IAccClientDocMgr::LookupByHWND, LookupByHWND method [Windows Accessibility], LookupByHWND method [Windows Accessibility], IAccClientDocMgr interface, LookupByHWND,IAccClientDocMgr.LookupByHWND, _msaa_IAccClientDocMgr_LookupByHWND, msaa.iaccclientdocmgr_iaccclientdocmgr__lookupbyhwnd, msaatext/IAccClientDocMgr::LookupByHWND, winauto.iaccclientdocmgr_iaccclientdocmgr__lookupbyhwnd
 ms.prod: windows-hardware
 ms.technology: windows-devices

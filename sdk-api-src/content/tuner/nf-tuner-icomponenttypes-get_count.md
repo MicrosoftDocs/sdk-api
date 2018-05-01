@@ -7,7 +7,7 @@ old-location: mstv\icomponenttypes_get_count.htm
 old-project: mstv
 ms.assetid: 9f353702-1be1-4fa0-9312-f76f23f63a2b
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IComponentTypes, IComponentTypes interface [Microsoft TV Technologies], get_Count method, IComponentTypes::get_Count, IComponentTypesget_Count, get_Count method [Microsoft TV Technologies], get_Count method [Microsoft TV Technologies], IComponentTypes interface, get_Count,IComponentTypes.get_Count, mstv.icomponenttypes_get_count, tuner/IComponentTypes::get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices

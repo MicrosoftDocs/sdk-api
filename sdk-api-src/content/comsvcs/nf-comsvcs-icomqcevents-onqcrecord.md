@@ -7,7 +7,7 @@ old-location: cos\icomqcevents_onqcrecord.htm
 old-project: cossdk
 ms.assetid: 6a7ff5ac-df0f-4aea-b6f1-813c7e22e6c2
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: IComQCEvents, IComQCEvents interface [COM+], OnQCRecord method, IComQCEvents::OnQCRecord, OnQCRecord method [COM+], OnQCRecord method [COM+], IComQCEvents interface, OnQCRecord,IComQCEvents.OnQCRecord, _dtc_IComQCEvents_OnQCRecord, comsvcs/IComQCEvents::OnQCRecord, cos.icomqcevents_onqcrecord
 ms.prod: windows-hardware
 ms.technology: windows-devices

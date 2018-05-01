@@ -7,7 +7,7 @@ old-location: intl\iimespecifyapplets_getappletiidlist.htm
 old-project: Intl
 ms.assetid: 05FD7E9A-5C65-4FB7-B509-591B4B434961
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/25/2018
 ms.keywords: GetAppletIIDList method [Internationalization for Windows Applications], GetAppletIIDList method [Internationalization for Windows Applications], IImeSpecifyApplets interface, GetAppletIIDList,IImeSpecifyApplets.GetAppletIIDList, IImeSpecifyApplets, IImeSpecifyApplets interface [Internationalization for Windows Applications], GetAppletIIDList method, IImeSpecifyApplets::GetAppletIIDList, imepad/IImeSpecifyApplets::GetAppletIIDList, intl.iimespecifyapplets_getappletiidlist
 ms.prod: windows-hardware
 ms.technology: windows-devices

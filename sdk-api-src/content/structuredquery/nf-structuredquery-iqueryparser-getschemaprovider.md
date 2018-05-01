@@ -7,7 +7,7 @@ old-location: search\_search_IQueryParser_GetSchemaProvider.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iqueryparser\getschemaprovider.htm
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/24/2018
 ms.keywords: GetSchemaProvider method [search], GetSchemaProvider method [search], IQueryParser interface, GetSchemaProvider,IQueryParser.GetSchemaProvider, IQueryParser, IQueryParser interface [search], GetSchemaProvider method, IQueryParser::GetSchemaProvider, _search_IQueryParser_GetSchemaProvider, search._search_IQueryParser_GetSchemaProvider, structuredquery/IQueryParser::GetSchemaProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices

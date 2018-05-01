@@ -7,7 +7,7 @@ old-location: wmformat\iwmreadercallbackadvanced_onstreamselection.htm
 old-project: wmformat
 ms.assetid: d0d699b3-e2f3-427c-9159-e2ed875887ca
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMReaderCallbackAdvanced, IWMReaderCallbackAdvanced interface [windows Media Format], OnStreamSelection method, IWMReaderCallbackAdvanced::OnStreamSelection, IWMReaderCallbackAdvancedOnStreamSelection, OnStreamSelection method [windows Media Format], OnStreamSelection method [windows Media Format], IWMReaderCallbackAdvanced interface, OnStreamSelection,IWMReaderCallbackAdvanced.OnStreamSelection, wmformat.iwmreadercallbackadvanced_onstreamselection, wmsdkidl/IWMReaderCallbackAdvanced::OnStreamSelection
 ms.prod: windows-hardware
 ms.technology: windows-devices

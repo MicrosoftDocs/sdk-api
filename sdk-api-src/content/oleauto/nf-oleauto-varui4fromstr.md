@@ -7,7 +7,7 @@ old-location: automat\varui4fromstr.htm
 old-project: automat
 ms.assetid: ff6e3dd0-3bb6-4197-aba4-dd4240af918f
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: LOCALE_NOUSEROVERRIDE, VAR_DATEVALUEONLY, VAR_TIMEVALUEONLY, VarUI4FromStr, VarUI4FromStr function [Automation], _oa96_VarUI4FromStr, automat.varui4fromstr, oleauto/VarUI4FromStr
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # VarUI4FromStr function

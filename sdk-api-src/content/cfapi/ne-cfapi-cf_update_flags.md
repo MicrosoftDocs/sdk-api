@@ -105,7 +105,7 @@ The platform removes all existing extrinsic properties on the placeholder.
 
 
 
-#### - CF_UPDATE_FLAG_PASSTHROUGH_FS_METADATA
+### -field CF_UPDATE_FLAG_PASSTHROUGH_FS_METADATA
 
 <b>Note</b>  This value is new for Windows 10, version 1803.
 

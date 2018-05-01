@@ -7,7 +7,7 @@ old-location: mstv\imsvidstreambuffersourceevent3_broadcastevent.htm
 old-project: mstv
 ms.assetid: 05eeb539-3a0a-4a00-abe5-0a014629d186
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: BroadcastEvent method [Microsoft TV Technologies], BroadcastEvent method [Microsoft TV Technologies], IMSVidStreamBufferSourceEvent3 interface, BroadcastEvent,IMSVidStreamBufferSourceEvent3.BroadcastEvent, IMSVidStreamBufferSourceEvent3, IMSVidStreamBufferSourceEvent3 interface [Microsoft TV Technologies], BroadcastEvent method, IMSVidStreamBufferSourceEvent3::BroadcastEvent, IMSVidStreamBufferSourceEvent3BroadcastEvent, mstv.imsvidstreambuffersourceevent3_broadcastevent, segment/IMSVidStreamBufferSourceEvent3::BroadcastEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidStreamBufferSourceEvent3::BroadcastEvent method

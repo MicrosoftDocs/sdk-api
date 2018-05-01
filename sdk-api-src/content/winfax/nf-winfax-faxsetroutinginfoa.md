@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxsetroutinginfo.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_66i7.htm
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/18/2018
 ms.keywords: FaxSetRoutingInfo, FaxSetRoutingInfo function [Fax Service], FaxSetRoutingInfoA, FaxSetRoutingInfoW, _mfax_faxsetroutinginfo, fax._mfax_faxsetroutinginfo, winfax/FaxSetRoutingInfo, winfax/FaxSetRoutingInfoA, winfax/FaxSetRoutingInfoW
 ms.prod: windows-hardware
 ms.technology: windows-devices

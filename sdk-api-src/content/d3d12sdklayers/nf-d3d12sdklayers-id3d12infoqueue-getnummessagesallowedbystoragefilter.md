@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12infoqueue_getnummessagesallowedbystoragefilter.ht
 old-project: direct3d12
 ms.assetid: 15B4F5B7-0590-45CC-9499-8ACF1B41E7C2
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: GetNumMessagesAllowedByStorageFilter method, GetNumMessagesAllowedByStorageFilter method, ID3D12InfoQueue interface, GetNumMessagesAllowedByStorageFilter,ID3D12InfoQueue.GetNumMessagesAllowedByStorageFilter, ID3D12InfoQueue, ID3D12InfoQueue interface, GetNumMessagesAllowedByStorageFilter method, ID3D12InfoQueue::GetNumMessagesAllowedByStorageFilter, d3d12sdklayers/ID3D12InfoQueue::GetNumMessagesAllowedByStorageFilter, direct3d12.id3d12infoqueue_getnummessagesallowedbystoragefilter
 ms.prod: windows-hardware
 ms.technology: windows-devices

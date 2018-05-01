@@ -7,7 +7,7 @@ old-location: dshow\imediastream_createsharedsample.htm
 old-project: DirectShow
 ms.assetid: acefa476-e607-45b4-854d-840e948af029
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: CreateSharedSample method [DirectShow], CreateSharedSample method [DirectShow], IMediaStream interface, CreateSharedSample,IMediaStream.CreateSharedSample, IMediaStream, IMediaStream interface [DirectShow], CreateSharedSample method, IMediaStream::CreateSharedSample, IMediaStreamCreateSharedSample, dshow.imediastream_createsharedsample, mmstream/IMediaStream::CreateSharedSample
 ms.prod: windows-hardware
 ms.technology: windows-devices

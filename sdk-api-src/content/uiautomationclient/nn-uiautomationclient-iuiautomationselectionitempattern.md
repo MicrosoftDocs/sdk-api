@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationSelectionItemPattern.htm
 old-project: WinAuto
 ms.assetid: b76d5003-b9af-4a48-91d3-8075f45cf131
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: IUIAutomationSelectionItemPattern, IUIAutomationSelectionItemPattern interface [Windows Accessibility], IUIAutomationSelectionItemPattern interface [Windows Accessibility], described, uiauto.uiauto_IUIAutomationSelectionItemPattern, uiauto_IUIAutomationSelectionItemPattern, uiautomationclient/IUIAutomationSelectionItemPattern, winauto.uiauto_IUIAutomationSelectionItemPattern
 ms.prod: windows-hardware
 ms.technology: windows-devices

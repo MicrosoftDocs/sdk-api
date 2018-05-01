@@ -7,7 +7,7 @@ old-location: base\dev_broadcast_deviceinterface_str.htm
 old-project: DevIO
 ms.assetid: 23e6b2b9-2053-4dfa-9c0a-283279f086b8
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/3/2018
 ms.keywords: "*PDEV_BROADCAST_DEVICEINTERFACE_A, DEV_BROADCAST_DEVICEINTERFACE, DEV_BROADCAST_DEVICEINTERFACE structure, DEV_BROADCAST_DEVICEINTERFACE_A, PDEV_BROADCAST_DEVICEINTERFACE, PDEV_BROADCAST_DEVICEINTERFACE structure pointer, _DEV_BROADCAST_DEVICEINTERFACE_A, _win32_dev_broadcast_deviceinterface_str, base.dev_broadcast_deviceinterface_str, dbt/DEV_BROADCAST_DEVICEINTERFACE, dbt/PDEV_BROADCAST_DEVICEINTERFACE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

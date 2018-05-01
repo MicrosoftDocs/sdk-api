@@ -7,7 +7,7 @@ old-location: mstv\idvbmultilingualservicenamedescriptor_gettag.htm
 old-project: mstv
 ms.assetid: 428f3309-67aa-4a47-9585-0308bee47e16
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies], IDvbMultilingualServiceNameDescriptor interface, GetTag,IDvbMultilingualServiceNameDescriptor.GetTag, IDvbMultilingualServiceNameDescriptor, IDvbMultilingualServiceNameDescriptor interface [Microsoft TV Technologies], GetTag method, IDvbMultilingualServiceNameDescriptor::GetTag, dvbsiparser/IDvbMultilingualServiceNameDescriptor::GetTag, mstv.idvbmultilingualservicenamedescriptor_gettag
 ms.prod: windows-hardware
 ms.technology: windows-devices

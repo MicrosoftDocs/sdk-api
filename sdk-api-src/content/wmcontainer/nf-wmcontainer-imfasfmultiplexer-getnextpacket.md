@@ -7,7 +7,7 @@ old-location: mf\imfasfmultiplexer_getnextpacket.htm
 old-project: medfound
 ms.assetid: 39b9f8a0-fb26-4f46-98fd-b4636f8f88c7
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 39b9f8a0-fb26-4f46-98fd-b4636f8f88c7, GetNextPacket method [Media Foundation], GetNextPacket method [Media Foundation], IMFASFMultiplexer interface, GetNextPacket,IMFASFMultiplexer.GetNextPacket, IMFASFMultiplexer, IMFASFMultiplexer interface [Media Foundation], GetNextPacket method, IMFASFMultiplexer::GetNextPacket, mf.imfasfmultiplexer_getnextpacket, wmcontainer/IMFASFMultiplexer::GetNextPacket
 ms.prod: windows-hardware
 ms.technology: windows-devices

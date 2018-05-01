@@ -7,7 +7,7 @@ old-location: security\cancelnotification.htm
 old-project: SecAuthN
 ms.assetid: b7333318-ee17-4cc2-9382-2d4871ddee78
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/24/2018
 ms.keywords: CancelNotification, CancelNotification function [Security], LSA_CANCEL_NOTIFICATION, _ssp_cancelnotification, ntsecpkg/CancelNotification, security.cancelnotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # LSA_CANCEL_NOTIFICATION callback

@@ -7,7 +7,7 @@ old-location: security\auditlogon.htm
 old-project: SecAuthN
 ms.assetid: 1b0316ae-0c09-4a7e-8443-e59b4db9e825
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/24/2018
 ms.keywords: AuditLogon, AuditLogon function [Security], LSA_AUDIT_LOGON, _ssp_auditlogon, ntsecpkg/AuditLogon, security.auditlogon
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # LSA_AUDIT_LOGON callback

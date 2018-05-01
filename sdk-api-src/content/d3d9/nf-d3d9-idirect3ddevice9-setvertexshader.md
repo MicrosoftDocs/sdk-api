@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3ddevice9__setvertexshader.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__setvertexshader.htm
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/10/2018
 ms.keywords: 4fecc980-501f-804d-d212-782bd9df73d4, IDirect3DDevice9, IDirect3DDevice9 interface [Direct3D 9], SetVertexShader method, IDirect3DDevice9::SetVertexShader, SetVertexShader method [Direct3D 9], SetVertexShader method [Direct3D 9], IDirect3DDevice9 interface, SetVertexShader,IDirect3DDevice9.SetVertexShader, d3d9helper/IDirect3DDevice9::SetVertexShader, direct3d9.idirect3ddevice9__setvertexshader
 ms.prod: windows-hardware
 ms.technology: windows-devices

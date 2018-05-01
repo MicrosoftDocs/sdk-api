@@ -7,7 +7,7 @@ old-location: mstv\iatsc_vct_getprotocolversion.htm
 old-project: mstv
 ms.assetid: 51bfc546-9150-4063-b8a4-2dc1238070d0
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetProtocolVersion method [Microsoft TV Technologies], GetProtocolVersion method [Microsoft TV Technologies], IATSC_VCT interface, GetProtocolVersion,IATSC_VCT.GetProtocolVersion, IATSC_VCT, IATSC_VCT interface [Microsoft TV Technologies], GetProtocolVersion method, IATSC_VCT::GetProtocolVersion, IATSC_VCTGetProtocolVersion, atscpsipparser/IATSC_VCT::GetProtocolVersion, mstv.iatsc_vct_getprotocolversion
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_WRITER_PAYLOAD_STREAM
+req.typenames: AsyncStatus
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,7 +7,7 @@ old-location: dshow\imediaseeking_getduration.htm
 old-project: DirectShow
 ms.assetid: 15b98fb0-a0dd-47fc-8046-fa336afa970c
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetDuration method [DirectShow], GetDuration method [DirectShow], IMediaSeeking interface, GetDuration,IMediaSeeking.GetDuration, IMediaSeeking, IMediaSeeking interface [DirectShow], GetDuration method, IMediaSeeking::GetDuration, IMediaSeekingGetDuration, dshow.imediaseeking_getduration, strmif/IMediaSeeking::GetDuration
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: controls\ITextHost_TxGetMaxLength.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txgetmaxlength.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextHost, ITextHost interface [Windows Controls], TxGetMaxLength method, ITextHost::TxGetMaxLength, TxGetMaxLength method [Windows Controls], TxGetMaxLength method [Windows Controls], ITextHost interface, TxGetMaxLength,ITextHost.TxGetMaxLength, _win32_ITextHost_TxGetMaxLength, _win32_ITextHost_TxGetMaxLength_cpp, controls.ITextHost_TxGetMaxLength, controls._win32_ITextHost_TxGetMaxLength, textserv/ITextHost::TxGetMaxLength
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\imsvidvideorenderer_setupmixerbitmap.htm
 old-project: mstv
 ms.assetid: a91561e3-469b-412a-b5ab-af2a5a0855a6
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidVideoRenderer, IMSVidVideoRenderer interface [Microsoft TV Technologies], SetupMixerBitmap method, IMSVidVideoRenderer::SetupMixerBitmap, IMSVidVideoRendererSetupMixerBitmap, SetupMixerBitmap method [Microsoft TV Technologies], SetupMixerBitmap method [Microsoft TV Technologies], IMSVidVideoRenderer interface, SetupMixerBitmap,IMSVidVideoRenderer.SetupMixerBitmap, mstv.imsvidvideorenderer_setupmixerbitmap, segment/IMSVidVideoRenderer::SetupMixerBitmap
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidVideoRenderer::SetupMixerBitmap method

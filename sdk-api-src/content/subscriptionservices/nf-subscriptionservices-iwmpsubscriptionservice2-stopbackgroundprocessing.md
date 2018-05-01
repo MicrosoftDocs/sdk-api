@@ -7,7 +7,7 @@ old-location: wmp\iwmpsubscriptionservice2_stopbackgroundprocessing.htm
 old-project: WMP
 ms.assetid: afca5ab8-d7ca-48e9-8220-d132d1893f0e
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPSubscriptionService2, IWMPSubscriptionService2 interface [Windows Media Player], stopBackgroundProcessing method, IWMPSubscriptionService2::stopBackgroundProcessing, IWMPSubscriptionService2stopBackgroundProcessing, stopBackgroundProcessing method [Windows Media Player], stopBackgroundProcessing method [Windows Media Player], IWMPSubscriptionService2 interface, stopBackgroundProcessing,IWMPSubscriptionService2.stopBackgroundProcessing, subscriptionservices/IWMPSubscriptionService2::stopBackgroundProcessing, wmp.iwmpsubscriptionservice2_stopbackgroundprocessing
 ms.prod: windows-hardware
 ms.technology: windows-devices

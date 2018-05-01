@@ -7,7 +7,7 @@ old-location: mstv\ibda_guidedatadeliveryservice_getguidedatatype.htm
 old-project: mstv
 ms.assetid: 74370ba8-2104-41f9-aa02-02b6790236da
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: CLSID_PBDA_GDDS_DATA_TYPE, GetGuideDataType method [Microsoft TV Technologies], GetGuideDataType method [Microsoft TV Technologies], IBDA_GuideDataDeliveryService interface, GetGuideDataType,IBDA_GuideDataDeliveryService.GetGuideDataType, IBDA_GuideDataDeliveryService, IBDA_GuideDataDeliveryService interface [Microsoft TV Technologies], GetGuideDataType method, IBDA_GuideDataDeliveryService::GetGuideDataType, bdaiface/IBDA_GuideDataDeliveryService::GetGuideDataType, mstv.ibda_guidedatadeliveryservice_getguidedatatype
 ms.prod: windows-hardware
 ms.technology: windows-devices

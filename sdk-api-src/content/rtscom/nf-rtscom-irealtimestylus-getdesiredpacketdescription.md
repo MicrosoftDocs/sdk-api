@@ -7,7 +7,7 @@ old-location: tablet\irealtimestylus_getdesiredpacketdescription.htm
 old-project: tablet
 ms.assetid: 8799eb17-8ad0-49c1-a278-40b3bff9d281
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: 8799eb17-8ad0-49c1-a278-40b3bff9d281, GetDesiredPacketDescription method [Tablet PC], GetDesiredPacketDescription method [Tablet PC], IRealTimeStylus interface, GetDesiredPacketDescription,IRealTimeStylus.GetDesiredPacketDescription, IRealTimeStylus, IRealTimeStylus interface [Tablet PC], GetDesiredPacketDescription method, IRealTimeStylus::GetDesiredPacketDescription, rtscom/IRealTimeStylus::GetDesiredPacketDescription, tablet.irealtimestylus_getdesiredpacketdescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: RTSCom.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IRealTimeStylus::GetDesiredPacketDescription method

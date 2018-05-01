@@ -7,7 +7,7 @@ old-location: base\ivssbackupcomponents_getwriterstatuscount.htm
 old-project: VSS
 ms.assetid: e358cb2b-9b0f-47fb-a0ca-7bbbc6e49aff
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: GetWriterStatusCount method [VSS], GetWriterStatusCount method [VSS], IVssBackupComponents interface, GetWriterStatusCount,IVssBackupComponents.GetWriterStatusCount, IVssBackupComponents, IVssBackupComponents interface [VSS], GetWriterStatusCount method, IVssBackupComponents::GetWriterStatusCount, _win32_ivssbackupcomponents_getwriterstatuscount, base.ivssbackupcomponents_getwriterstatuscount, vsbackup/IVssBackupComponents::GetWriterStatusCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

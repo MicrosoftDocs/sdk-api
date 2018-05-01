@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IProxyProviderWinEventSink_AddAutomationPropertyCha
 old-project: WinAuto
 ms.assetid: 84b8db1d-75ec-45b6-a4a5-c5d4bffe6978
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: AddAutomationPropertyChangedEvent method [Windows Accessibility], AddAutomationPropertyChangedEvent method [Windows Accessibility], IProxyProviderWinEventSink interface, AddAutomationPropertyChangedEvent,IProxyProviderWinEventSink.AddAutomationPropertyChangedEvent, IProxyProviderWinEventSink, IProxyProviderWinEventSink interface [Windows Accessibility], AddAutomationPropertyChangedEvent method, IProxyProviderWinEventSink::AddAutomationPropertyChangedEvent, uiauto.uiauto_IProxyProviderWinEventSink_AddAutomationPropertyChangedEvent, uiauto_IProxyProviderWinEventSink_AddAutomationPropertyChangedEvent, uiautomationcore/IProxyProviderWinEventSink::AddAutomationPropertyChangedEvent, winauto.uiauto_IProxyProviderWinEventSink_AddAutomationPropertyChangedEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\icameracontrol_put_pan.htm
 old-project: DirectShow
 ms.assetid: 71dc3fe3-089c-46e8-a63b-7a638068d069
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ICameraControl, ICameraControl interface [DirectShow], put_Pan method, ICameraControl::put_Pan, ICameraControlput_Pan, dshow.icameracontrol_put_pan, put_Pan method [DirectShow], put_Pan method [DirectShow], ICameraControl interface, put_Pan,ICameraControl.put_Pan, vidcap/ICameraControl::put_Pan
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: VIDEOHDR, *PVIDEOHDR, *LPVIDEOHDR
+req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
 topic_type:
 -	APIRef
 -	kbSyntax

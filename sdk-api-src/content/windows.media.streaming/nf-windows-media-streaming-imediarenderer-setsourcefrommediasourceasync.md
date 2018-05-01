@@ -7,7 +7,7 @@ old-location: mediastreaming\imediarenderer_setsourcefrommediasourceasync.htm
 old-project: mediastreaming
 ms.assetid: AC30F3C4-30DD-41B1-B2CE-5F908588A779
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/10/2018
 ms.keywords: IMediaRenderer, IMediaRenderer interface [Media Streaming API], SetSourceFromMediaSourceAsync method, IMediaRenderer::SetSourceFromMediaSourceAsync, SetSourceFromMediaSourceAsync method [Media Streaming API], SetSourceFromMediaSourceAsync method [Media Streaming API], IMediaRenderer interface, SetSourceFromMediaSourceAsync,IMediaRenderer.SetSourceFromMediaSourceAsync, mediastreaming.imediarenderer_setsourcefrommediasourceasync, windows/IMediaRenderer::SetSourceFromMediaSourceAsync
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: PDF_RENDER_PARAMS
+req.typenames: TimeSpan
 topic_type:
 -	APIRef
 -	kbSyntax

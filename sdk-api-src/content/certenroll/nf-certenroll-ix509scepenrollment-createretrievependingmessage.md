@@ -7,7 +7,7 @@ old-location: security\ix509scepenrollment_createretrievependingmessage.htm
 old-project: SecCertEnroll
 ms.assetid: 86d031b0-2009-460b-8bed-fe7a0489f22b
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: CreateRetrievePendingMessage method [Security], CreateRetrievePendingMessage method [Security], IX509SCEPEnrollment interface, CreateRetrievePendingMessage,IX509SCEPEnrollment.CreateRetrievePendingMessage, IX509SCEPEnrollment, IX509SCEPEnrollment interface [Security], CreateRetrievePendingMessage method, IX509SCEPEnrollment::CreateRetrievePendingMessage, certenroll/IX509SCEPEnrollment::CreateRetrievePendingMessage, security.ix509scepenrollment_createretrievependingmessage
 ms.prod: windows-hardware
 ms.technology: windows-devices

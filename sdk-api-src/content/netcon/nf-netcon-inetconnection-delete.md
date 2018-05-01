@@ -7,7 +7,7 @@ old-location: ics\inetconnection_delete.htm
 old-project: ICS
 ms.assetid: d2179872-da9b-4d89-b6e9-b318d304b15d
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: Delete method [ICS/ICF], Delete method [ICS/ICF], INetConnection interface, Delete,INetConnection.Delete, INetConnection, INetConnection interface [ICS/ICF], Delete method, INetConnection::Delete, _ics_inetconnection_delete, ics.inetconnection_delete, netcon/INetConnection::Delete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # INetConnection::Delete method

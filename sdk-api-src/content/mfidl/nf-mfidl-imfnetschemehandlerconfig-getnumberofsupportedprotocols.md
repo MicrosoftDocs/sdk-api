@@ -7,7 +7,7 @@ old-location: mf\imfnetschemehandlerconfig_getnumberofsupportedprotocols.htm
 old-project: medfound
 ms.assetid: a0cbb01c-c86c-4186-81ca-6055aab5d361
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetNumberOfSupportedProtocols method [Media Foundation], GetNumberOfSupportedProtocols method [Media Foundation], IMFNetSchemeHandlerConfig interface, GetNumberOfSupportedProtocols,IMFNetSchemeHandlerConfig.GetNumberOfSupportedProtocols, IMFNetSchemeHandlerConfig, IMFNetSchemeHandlerConfig interface [Media Foundation], GetNumberOfSupportedProtocols method, IMFNetSchemeHandlerConfig::GetNumberOfSupportedProtocols, a0cbb01c-c86c-4186-81ca-6055aab5d361, mf.imfnetschemehandlerconfig_getnumberofsupportedprotocols, mfidl/IMFNetSchemeHandlerConfig::GetNumberOfSupportedProtocols
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: rras\mpr_filter_0.htm
 old-project: RRAS
 ms.assetid: f930b145-554b-40ea-ace0-60978ed428c1
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: "*PMPR_FILTER_0, MPR_FILTER_0, MPR_FILTER_0 structure [RAS], PMPR_FILTER_0, PMPR_FILTER_0 structure pointer [RAS], _MPR_FILTER_0, mprapi/MPR_FILTER_0, mprapi/PMPR_FILTER_0, rras.mpr_filter_0"
 ms.prod: windows-hardware
 ms.technology: windows-devices

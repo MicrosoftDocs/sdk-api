@@ -7,7 +7,7 @@ old-location: ics\inetsharingportmappingcollection_get__newenum.htm
 old-project: ICS
 ms.assetid: e2e7fee0-70b7-4b74-a95f-0637a0c1cdd2
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: INetSharingPortMappingCollection, INetSharingPortMappingCollection interface [ICS/ICF], get__NewEnum method, INetSharingPortMappingCollection::get__NewEnum, _ics_inetsharingportmappingcollection_get__newenum, get__NewEnum method [ICS/ICF], get__NewEnum method [ICS/ICF], INetSharingPortMappingCollection interface, get__NewEnum,INetSharingPortMappingCollection.get__NewEnum, ics.inetsharingportmappingcollection_get__newenum, netcon/INetSharingPortMappingCollection::get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # INetSharingPortMappingCollection::get__NewEnum method

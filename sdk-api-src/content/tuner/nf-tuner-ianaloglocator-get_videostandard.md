@@ -7,7 +7,7 @@ old-location: mstv\ianaloglocator_get_videostandard.htm
 old-project: mstv
 ms.assetid: 8530f436-8067-43bd-8f64-45e042ccb466
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IAnalogLocator, IAnalogLocator interface [Microsoft TV Technologies], get_VideoStandard method, IAnalogLocator::get_VideoStandard, IAnalogLocatorget_VideoStandard, get_VideoStandard method [Microsoft TV Technologies], get_VideoStandard method [Microsoft TV Technologies], IAnalogLocator interface, get_VideoStandard,IAnalogLocator.get_VideoStandard, mstv.ianaloglocator_get_videostandard, tuner/IAnalogLocator::get_VideoStandard
 ms.prod: windows-hardware
 ms.technology: windows-devices

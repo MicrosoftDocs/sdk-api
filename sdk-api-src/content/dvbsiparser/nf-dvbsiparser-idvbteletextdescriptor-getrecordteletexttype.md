@@ -7,7 +7,7 @@ old-location: mstv\idvbteletextdescriptor_getrecordteletexttype.htm
 old-project: mstv
 ms.assetid: 4272d95a-406f-4afc-92b9-abfd618f41ab
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetRecordTeletextType method [Microsoft TV Technologies], GetRecordTeletextType method [Microsoft TV Technologies], IDvbTeletextDescriptor interface, GetRecordTeletextType,IDvbTeletextDescriptor.GetRecordTeletextType, IDvbTeletextDescriptor, IDvbTeletextDescriptor interface [Microsoft TV Technologies], GetRecordTeletextType method, IDvbTeletextDescriptor::GetRecordTeletextType, dvbsiparser/IDvbTeletextDescriptor::GetRecordTeletextType, mstv.idvbteletextdescriptor_getrecordteletexttype
 ms.prod: windows-hardware
 ms.technology: windows-devices

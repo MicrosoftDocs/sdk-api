@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol_parentalcountryselect.htm
 old-project: DirectShow
 ms.assetid: fc79ad9b-4044-4a33-83b4-f3033283058a
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IDvdControl, IDvdControl interface [DirectShow], ParentalCountrySelect method, IDvdControl::ParentalCountrySelect, IDvdControlParentalCountrySelect, ParentalCountrySelect method [DirectShow], ParentalCountrySelect method [DirectShow], IDvdControl interface, ParentalCountrySelect,IDvdControl.ParentalCountrySelect, dshow.idvdcontrol_parentalcountryselect, strmif/IDvdControl::ParentalCountrySelect
 ms.prod: windows-hardware
 ms.technology: windows-devices

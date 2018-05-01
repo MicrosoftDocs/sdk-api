@@ -7,7 +7,7 @@ old-location: mediastreaming\idevicecontroller_adddevice.htm
 old-project: mediastreaming
 ms.assetid: 9D7DD7C2-21C0-4DD2-BB71-613203097692
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/10/2018
 ms.keywords: AddDevice method [Media Streaming API], AddDevice method [Media Streaming API], IDeviceController interface, AddDevice,IDeviceController.AddDevice, IDeviceController, IDeviceController interface [Media Streaming API], AddDevice method, IDeviceController::AddDevice, mediastreaming.idevicecontroller_adddevice, windows/IDeviceController::AddDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: PDF_RENDER_PARAMS
+req.typenames: TimeSpan
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,7 +7,7 @@ old-location: mf\imfsamplegrabbersinkcallback2_onprocesssampleex.htm
 old-project: medfound
 ms.assetid: dc880967-ac97-4835-bbc9-1bd664e42739
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFSampleGrabberSinkCallback2, IMFSampleGrabberSinkCallback2 interface [Media Foundation], OnProcessSampleEx method, IMFSampleGrabberSinkCallback2::OnProcessSampleEx, OnProcessSampleEx method [Media Foundation], OnProcessSampleEx method [Media Foundation], IMFSampleGrabberSinkCallback2 interface, OnProcessSampleEx,IMFSampleGrabberSinkCallback2.OnProcessSampleEx, mf.imfsamplegrabbersinkcallback2_onprocesssampleex, mfidl/IMFSampleGrabberSinkCallback2::OnProcessSampleEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\claim_security_attribute_fqbn_value.htm
 old-project: SecAuthZ
 ms.assetid: 1FD9A519-40EA-4780-90F5-C9DF4ADAE72C
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: "*PCLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE, CLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE, CLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE structure [Security], PCLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE, PCLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE structure pointer [Security], _CLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE, security.claim_security_attribute_fqbn_value, winnt/CLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE, winnt/PCLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

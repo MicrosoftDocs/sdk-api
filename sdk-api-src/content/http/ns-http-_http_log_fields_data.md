@@ -7,7 +7,7 @@ old-location: http\http_log_fields_data.htm
 old-project: Http
 ms.assetid: 5d1b86fe-161d-4182-b3fe-9a03a843e62e
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: "*PHTTP_LOG_FIELDS_DATA, *PHTTP_LOG_FIELDS_DATA structure [HTTP], HTTP_LOG_FIELDS_DATA, HTTP_LOG_FIELDS_DATA structure [HTTP], _HTTP_LOG_FIELDS_DATA, http.http_log_fields_data, http/*PHTTP_LOG_FIELDS_DATA, http/HTTP_LOG_FIELDS_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices

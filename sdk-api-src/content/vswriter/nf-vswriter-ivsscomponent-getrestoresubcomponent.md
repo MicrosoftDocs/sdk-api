@@ -7,7 +7,7 @@ old-location: base\ivsscomponent_getrestoresubcomponent.htm
 old-project: VSS
 ms.assetid: 23c37342-fcbd-4401-83d5-a52d4a69b908
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: GetRestoreSubcomponent method [VSS], GetRestoreSubcomponent method [VSS], IVssComponent interface, GetRestoreSubcomponent,IVssComponent.GetRestoreSubcomponent, IVssComponent, IVssComponent interface [VSS], GetRestoreSubcomponent method, IVssComponent::GetRestoreSubcomponent, _win32_ivsscomponent_getrestoresubcomponent, base.ivsscomponent_getrestoresubcomponent, vswriter/IVssComponent::GetRestoreSubcomponent
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dhcp\dhcpserversetconfigv6.htm
 old-project: DHCP
 ms.assetid: 6e24b1d8-ae76-4834-9c44-f1dcae946fa9
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/7/2018
 ms.keywords: DhcpServerSetConfigV6, DhcpServerSetConfigV6 function [DHCP], Set_AuditLogState, Set_PreferredLifetime, Set_PreferredLifetimeIATA, Set_RapidCommitFlag, Set_T1, Set_T2, Set_UnicastFlag, Set_ValidLifetime, Set_ValidLifetimeIATA, dhcp.dhcpserversetconfigv6, dhcpsapi/DhcpServerSetConfigV6
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tapi3\directory_object_type.htm
 old-project: Tapi
 ms.assetid: 17deac23-a81f-4bb3-a6e5-4105c504c0b5
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: DIRECTORY_OBJECT_TYPE, DIRECTORY_OBJECT_TYPE enumeration [TAPI 2.2], OT_CONFERENCE, OT_USER, _tapi3_directory_object_type, rend/DIRECTORY_OBJECT_TYPE, rend/OT_CONFERENCE, rend/OT_USER, tapi3.directory_object_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Relogger.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
@@ -38,10 +38,10 @@ api_name:
 -	DIRECTORY_OBJECT_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
+req.lib: RuntimeObject.lib
+req.dll: ComBase.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # DIRECTORY_OBJECT_TYPE enumeration

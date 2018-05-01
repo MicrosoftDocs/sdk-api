@@ -7,7 +7,7 @@ old-location: direct2d\D2D1_EXTEND_MODE.htm
 old-project: Direct2D
 ms.assetid: 6b6e1fe1-d43a-46cf-904d-5266b9bd6bf4
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: D2D1_EXTEND_MODE, D2D1_EXTEND_MODE enumeration [Direct2D], D2D1_EXTEND_MODE_CLAMP, D2D1_EXTEND_MODE_MIRROR, D2D1_EXTEND_MODE_WRAP, d2d1/D2D1_EXTEND_MODE, d2d1/D2D1_EXTEND_MODE_CLAMP, d2d1/D2D1_EXTEND_MODE_MIRROR, d2d1/D2D1_EXTEND_MODE_WRAP, direct2d.D2D1_EXTEND_MODE
 ms.prod: windows-hardware
 ms.technology: windows-devices

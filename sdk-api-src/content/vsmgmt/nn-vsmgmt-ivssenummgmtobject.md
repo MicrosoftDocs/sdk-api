@@ -7,7 +7,7 @@ old-location: base\ivssenummgmtobject.htm
 old-project: VSS
 ms.assetid: c2067822-1824-4676-8376-7d83fcbbaea3
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: IVssEnumMgmtObject, IVssEnumMgmtObject interface [Files], IVssEnumMgmtObject interface [Files], described, base.ivssenummgmtobject, vsmgmt/IVssEnumMgmtObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

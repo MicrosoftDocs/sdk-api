@@ -7,7 +7,7 @@ old-location: base\cvsswriter_onbackupcomplete.htm
 old-project: VSS
 ms.assetid: 77d0621d-81bd-4d53-8e5d-f5d3bfd86013
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: CVssWriter, CVssWriter interface [VSS], OnBackupComplete method, CVssWriter::OnBackupComplete, OnBackupComplete method [VSS], OnBackupComplete method [VSS], CVssWriter interface, OnBackupComplete,CVssWriter.OnBackupComplete, _win32_cvsswriter_onbackupcomplete, base.cvsswriter_onbackupcomplete, vswriter/CVssWriter::OnBackupComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices

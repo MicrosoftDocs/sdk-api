@@ -96,4 +96,7 @@ Session is used to associate different scan calls, such as if the contents
 ### -field AMSI_ATTRIBUTE_ALL_ADDRESS
 
 
+### -field AMSI_ATTRIBUTE_QUIET
+
+
 

@@ -7,7 +7,7 @@ old-location: cos\mtscreateactivity.htm
 old-project: cossdk
 ms.assetid: 25ae1f2e-f937-4d06-9709-ded2fc8c5777
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: MTSCreateActivity, MTSCreateActivity function [COM+], _cos_MTSCreateActivity, comsvcs/MTSCreateActivity, cos.mtscreateactivity
 ms.prod: windows-hardware
 ms.technology: windows-devices

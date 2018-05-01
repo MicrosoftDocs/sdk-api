@@ -7,7 +7,7 @@ old-location: cos\icrmformatlogrecords_getcolumncount.htm
 old-project: cossdk
 ms.assetid: d1b1bc24-6e9d-4f48-ac11-f3892a3be2b1
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: GetColumnCount method [COM+], GetColumnCount method [COM+], ICrmFormatLogRecords interface, GetColumnCount,ICrmFormatLogRecords.GetColumnCount, ICrmFormatLogRecords, ICrmFormatLogRecords interface [COM+], GetColumnCount method, ICrmFormatLogRecords::GetColumnCount, _dtc_ICrmFormatLogRecords_GetColumnCount, comsvcs/ICrmFormatLogRecords::GetColumnCount, cos.icrmformatlogrecords_getcolumncount
 ms.prod: windows-hardware
 ms.technology: windows-devices

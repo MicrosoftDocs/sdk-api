@@ -7,7 +7,7 @@ old-location: wmp\iwmplibraryservices_getcountbytype.htm
 old-project: WMP
 ms.assetid: e592fc2e-97d8-4d3c-bbef-7cbaa63a6909
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPLibraryServices, IWMPLibraryServices interface [Windows Media Player], getCountByType method, IWMPLibraryServices::getCountByType, IWMPLibraryServicesgetCountByType, getCountByType method [Windows Media Player], getCountByType method [Windows Media Player], IWMPLibraryServices interface, getCountByType,IWMPLibraryServices.getCountByType, wmp.iwmplibraryservices_getcountbytype, wmp/IWMPLibraryServices::getCountByType
 ms.prod: windows-hardware
 ms.technology: windows-devices

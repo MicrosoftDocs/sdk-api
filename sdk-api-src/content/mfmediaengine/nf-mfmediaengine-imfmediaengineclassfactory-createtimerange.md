@@ -7,7 +7,7 @@ old-location: mf\imfmediaengineclassfactory_createtimerange.htm
 old-project: medfound
 ms.assetid: 293769E8-8C8A-40D1-AF51-1DBB773F88D5
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: CreateTimeRange method [Media Foundation], CreateTimeRange method [Media Foundation], IMFMediaEngineClassFactory interface, CreateTimeRange,IMFMediaEngineClassFactory.CreateTimeRange, IMFMediaEngineClassFactory, IMFMediaEngineClassFactory interface [Media Foundation], CreateTimeRange method, IMFMediaEngineClassFactory::CreateTimeRange, mf.imfmediaengineclassfactory_createtimerange, mfmediaengine/IMFMediaEngineClassFactory::CreateTimeRange
 ms.prod: windows-hardware
 ms.technology: windows-devices

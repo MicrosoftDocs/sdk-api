@@ -7,7 +7,7 @@ old-location: mf\imfvideosampleallocator_initializesampleallocator.htm
 old-project: medfound
 ms.assetid: b1e4557e-990c-4239-b9ec-5c7c46072e54
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFVideoSampleAllocator, IMFVideoSampleAllocator interface [Media Foundation], InitializeSampleAllocator method, IMFVideoSampleAllocator::InitializeSampleAllocator, InitializeSampleAllocator method [Media Foundation], InitializeSampleAllocator method [Media Foundation], IMFVideoSampleAllocator interface, InitializeSampleAllocator,IMFVideoSampleAllocator.InitializeSampleAllocator, b1e4557e-990c-4239-b9ec-5c7c46072e54, mf.imfvideosampleallocator_initializesampleallocator, mfidl/IMFVideoSampleAllocator::InitializeSampleAllocator
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\cryptxmldllfinalizedigest.htm
 old-project: SecCrypto
 ms.assetid: 749226fa-6de8-4c1c-9ec0-9801a2029a6e
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: CryptXmlDllFinalizeDigest, CryptXmlDllFinalizeDigest function pointer [Security], cryptxml/CryptXmlDllFinalizeDigest, security.cryptxmldllfinalizedigest
 ms.prod: windows-hardware
 ms.technology: windows-devices

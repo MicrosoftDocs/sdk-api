@@ -7,7 +7,7 @@ old-location: security\tokenbinding_identifier.htm
 old-project: SecCNG
 ms.assetid: 301E099E-B621-41E1-BF9B-3AF8C53F9227
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: TOKENBINDING_IDENTIFIER, TOKENBINDING_IDENTIFIER structure [Security], TOKENBINDING_SIGNATURE_ALGORITHM_ECDSAP256, TOKENBINDING_SIGNATURE_ALGORITHM_RSA, security.tokenbinding_identifier, tokenbinding/TOKENBINDING_IDENTIFIER
 ms.prod: windows-hardware
 ms.technology: windows-devices

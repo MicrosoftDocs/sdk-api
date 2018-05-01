@@ -7,7 +7,7 @@ old-location: shell\DiskQuotaControl_GiveUserNameResolutionPriority.htm
 old-project: shell
 ms.assetid: 4c75f966-2e7d-4415-b1db-c98f8bdd4ce3
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: DiskQuotaControl object [Windows Shell], GiveUserNameResolutionPriority method, GiveUserNameResolutionPriority, GiveUserNameResolutionPriority method [Windows Shell], GiveUserNameResolutionPriority method [Windows Shell], DiskQuotaControl object, _win32_DiskQuotaControl_GiveUserNameResolutionPriority, shell.DiskQuotaControl_GiveUserNameResolutionPriority
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\iazscope_deleteapplicationgroup.htm
 old-project: SecAuthZ
 ms.assetid: 9571bff3-dfe5-48fa-be51-38d61da40414
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: AzScope object [Security], DeleteApplicationGroup method, DeleteApplicationGroup method [Security], DeleteApplicationGroup method [Security], AzScope object, DeleteApplicationGroup method [Security], IAzScope interface, DeleteApplicationGroup,IAzScope.DeleteApplicationGroup, IAzScope, IAzScope interface [Security], DeleteApplicationGroup method, IAzScope::DeleteApplicationGroup, azroles/IAzScope::DeleteApplicationGroup, security.iazscope_deleteapplicationgroup
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\ienumguidedataproperties_next.htm
 old-project: mstv
 ms.assetid: 5d13ce97-5729-48e5-a742-0689b2aae1f3
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IEnumGuideDataProperties, IEnumGuideDataProperties interface [Microsoft TV Technologies], Next method, IEnumGuideDataProperties::Next, IEnumGuideDataPropertiesNext, Next method [Microsoft TV Technologies], Next method [Microsoft TV Technologies], IEnumGuideDataProperties interface, Next,IEnumGuideDataProperties.Next, bdatif/IEnumGuideDataProperties::Next, mstv.ienumguidedataproperties_next
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: SpanningEventEmmMessage
+req.typenames: SmartCardApplication
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,7 +7,7 @@ old-location: secbiomet\winbiolocatesensorwithcallback.htm
 old-project: SecBioMet
 ms.assetid: d94db51b-67da-477a-82e6-c92da756f017
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: WinBioLocateSensorWithCallback, WinBioLocateSensorWithCallback function [Windows Biometric Framework API], secbiomet.winbiolocatesensorwithcallback, winbio/WinBioLocateSensorWithCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

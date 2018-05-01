@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontrols_get_currentmarker.htm
 old-project: WMP
 ms.assetid: 42576961-a9bd-4f64-bf56-a5d6bd07e82f
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPControls, IWMPControls interface [Windows Media Player], get_currentMarker method, IWMPControls::get_currentMarker, IWMPControlsget_currentMarker, get_currentMarker method [Windows Media Player], get_currentMarker method [Windows Media Player], IWMPControls interface, get_currentMarker,IWMPControls.get_currentMarker, wmp.iwmpcontrols_get_currentmarker, wmp/IWMPControls::get_currentMarker
 ms.prod: windows-hardware
 ms.technology: windows-devices

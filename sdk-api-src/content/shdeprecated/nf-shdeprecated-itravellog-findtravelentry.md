@@ -7,7 +7,7 @@ old-location: shell\ITravelLog_FindTravelEntry.htm
 old-project: shell
 ms.assetid: 128627f3-c010-4b8e-b067-fdc1eed346e4
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: FindTravelEntry method [Windows Shell], FindTravelEntry method [Windows Shell], ITravelLog interface, FindTravelEntry,ITravelLog.FindTravelEntry, ITravelLog, ITravelLog interface [Windows Shell], FindTravelEntry method, ITravelLog::FindTravelEntry, shdeprecated/ITravelLog::FindTravelEntry, shell.ITravelLog_FindTravelEntry, zone_ITravelLog_FindTravelEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices

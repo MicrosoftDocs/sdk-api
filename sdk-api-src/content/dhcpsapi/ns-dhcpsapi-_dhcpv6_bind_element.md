@@ -7,7 +7,7 @@ old-location: dhcp\dhcpv6_bind_element.htm
 old-project: DHCP
 ms.assetid: 7c5b1d5d-7c91-46a8-aaa0-1d957430461d
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/7/2018
 ms.keywords: "*LPDHCPV6_BIND_ELEMENT, DHCPV6_BIND_ELEMENT, DHCPV6_BIND_ELEMENT structure [DHCP], DHCP_ENDPOINT_FLAG_CANT_MODIFY, PDHCPV6_BIND_ELEMENT, PDHCPV6_BIND_ELEMENT structure pointer [DHCP], _DHCPV6_BIND_ELEMENT, dhcp.dhcpv6_bind_element, dhcpsapi/DHCPV6_BIND_ELEMENT, dhcpsapi/PDHCPV6_BIND_ELEMENT"
 ms.prod: windows-hardware
 ms.technology: windows-devices

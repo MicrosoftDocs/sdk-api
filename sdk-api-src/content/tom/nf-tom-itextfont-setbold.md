@@ -7,7 +7,7 @@ old-location: controls\ITextFont_SetBold.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setbold.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextFont, ITextFont interface [Windows Controls], SetBold method, ITextFont::SetBold, SetBold method [Windows Controls], SetBold method [Windows Controls], ITextFont interface, SetBold,ITextFont.SetBold, _win32_ITextFont_SetBold, _win32_ITextFont_SetBold_cpp, controls.ITextFont_SetBold, controls._win32_ITextFont_SetBold, tom/ITextFont::SetBold
 ms.prod: windows-hardware
 ms.technology: windows-devices

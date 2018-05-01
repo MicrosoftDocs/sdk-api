@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxstatus_get_description_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_5goe.htm
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/18/2018
 ms.keywords: Description property [Fax Service], Description property [Fax Service], FaxStatus object, FaxStatus object [Fax Service], Description property, IFaxStatus, IFaxStatus::get_Description, _mfax_ifaxstatus_get_description, fax._mfax_ifaxstatus_get_description, fax._mfax_ifaxstatus_get_description_vb, get_Description,IFaxStatus.get_Description
 ms.prod: windows-hardware
 ms.technology: windows-devices

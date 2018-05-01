@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_Select.htm
 old-project: WinAuto
 ms.assetid: d311a10d-4762-47c9-a0bd-299da43827f7
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: IUIAutomationLegacyIAccessiblePattern, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility], Select method, IUIAutomationLegacyIAccessiblePattern::Select, Select method [Windows Accessibility], Select method [Windows Accessibility], IUIAutomationLegacyIAccessiblePattern interface, Select,IUIAutomationLegacyIAccessiblePattern.Select, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_Select, uiauto_IUIAutomationLegacyIAccessiblePattern_Select, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::Select, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_Select
 ms.prod: windows-hardware
 ms.technology: windows-devices

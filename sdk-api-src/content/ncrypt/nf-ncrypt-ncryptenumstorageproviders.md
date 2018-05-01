@@ -7,7 +7,7 @@ old-location: security\ncryptenumstorageproviders_func.htm
 old-project: SecCNG
 ms.assetid: 24a8ee01-b716-4f36-9df5-b6476b1df4f0
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: NCRYPT_SILENT_FLAG, NCryptEnumStorageProviders, NCryptEnumStorageProviders function [Security], ncrypt/NCryptEnumStorageProviders, security.ncryptenumstorageproviders_func
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Ncrypt.lib
 req.dll: Ncrypt.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # NCryptEnumStorageProviders function

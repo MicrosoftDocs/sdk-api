@@ -7,7 +7,7 @@ old-location: mstv\imsviddataservices.htm
 old-project: mstv
 ms.assetid: 6f70aa63-849c-4170-80c1-359210be4d61
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidDataServices, IMSVidDataServices interface [Microsoft TV Technologies], IMSVidDataServices interface [Microsoft TV Technologies], described, IMSVidDataServicesInterface, mstv.imsviddataservices, segment/IMSVidDataServices
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidDataServices interface

@@ -7,7 +7,7 @@ old-location: mf\id3d11videocontext_videoprocessorgetstreamlumakey.htm
 old-project: medfound
 ms.assetid: 1DE22456-84E9-478F-A6CA-4C9CACF7E9AF
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: ID3D11VideoContext, ID3D11VideoContext interface [Media Foundation], VideoProcessorGetStreamLumaKey method, ID3D11VideoContext::VideoProcessorGetStreamLumaKey, VideoProcessorGetStreamLumaKey method [Media Foundation], VideoProcessorGetStreamLumaKey method [Media Foundation], ID3D11VideoContext interface, VideoProcessorGetStreamLumaKey,ID3D11VideoContext.VideoProcessorGetStreamLumaKey, d3d11/ID3D11VideoContext::VideoProcessorGetStreamLumaKey, mf.id3d11videocontext_videoprocessorgetstreamlumakey
 ms.prod: windows-hardware
 ms.technology: windows-devices

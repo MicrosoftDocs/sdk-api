@@ -7,7 +7,7 @@ old-location: dshow\idmowrapperfilter_init.htm
 old-project: DirectShow
 ms.assetid: 45f305b5-82bc-44c1-9af7-93aab371ed33
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IDMOWrapperFilter, IDMOWrapperFilter interface [DirectShow], Init method, IDMOWrapperFilter::Init, IDMOWrapperFilterInit, Init method [DirectShow], Init method [DirectShow], IDMOWrapperFilter interface, Init,IDMOWrapperFilter.Init, dmodshow/IDMOWrapperFilter::Init, dshow.idmowrapperfilter_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: 
+req.typenames: VMEMHEAP
 topic_type:
 -	APIRef
 -	kbSyntax

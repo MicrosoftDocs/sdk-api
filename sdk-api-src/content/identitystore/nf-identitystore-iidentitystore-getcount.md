@@ -7,7 +7,7 @@ old-location: security\iidentitystore_getcount.htm
 old-project: SecAuthN
 ms.assetid: f7f30ab9-f55d-44fa-9098-c6bf865125f8
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/24/2018
 ms.keywords: GetCount method [Security], GetCount method [Security], IIdentityStore interface, GetCount,IIdentityStore.GetCount, IIdentityStore, IIdentityStore interface [Security], GetCount method, IIdentityStore::GetCount, identitystore/IIdentityStore::GetCount, security.iidentitystore_getcount
 ms.prod: windows-hardware
 ms.technology: windows-devices

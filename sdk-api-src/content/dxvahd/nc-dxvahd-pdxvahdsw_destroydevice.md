@@ -7,7 +7,7 @@ old-location: mf\pdxvahdsw_destroydevice.htm
 old-project: medfound
 ms.assetid: 1d0cc0a4-effb-4dea-b6ba-ca1a4e1e394e
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: PDXVAHDSW_DestroyDevice, PDXVAHDSW_DestroyDevice function pointer [Media Foundation], dxvahd/PDXVAHDSW_DestroyDevice, mf.pdxvahdsw_destroydevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: DXVA2_VideoSample
+req.typenames: DXVA_COPPStatusSignalingCmdData
 topic_type:
 -	APIRef
 -	kbSyntax

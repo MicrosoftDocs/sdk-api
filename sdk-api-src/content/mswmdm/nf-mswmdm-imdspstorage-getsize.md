@@ -7,7 +7,7 @@ old-location: wmdm\imdspstorage_getsize.htm
 old-project: WMDM
 ms.assetid: 95b28f9a-744c-4d49-a91c-6652d688b91a
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: GetSize method [windows Media Device Manager], GetSize method [windows Media Device Manager], IMDSPStorage interface, GetSize,IMDSPStorage.GetSize, IMDSPStorage, IMDSPStorage interface [windows Media Device Manager], GetSize method, IMDSPStorage::GetSize, IMDSPStorageGetSize, mswmdm/IMDSPStorage::GetSize, wmdm.imdspstorage_getsize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMDSPStorage::GetSize method

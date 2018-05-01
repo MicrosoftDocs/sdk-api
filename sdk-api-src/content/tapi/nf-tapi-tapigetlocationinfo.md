@@ -7,7 +7,7 @@ old-location: tapi2\tapigetlocationinfo.htm
 old-project: Tapi
 ms.assetid: c7c83cb7-3fd6-4dbb-8510-2c9afcc7015c
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: "_tapi2_tapigetlocationinfo, tapi/tapiGetLocationInfo, tapi/tapiGetLocationInfoA, tapi/tapiGetLocationInfoW, tapi2.tapigetlocationinfo, tapiGetLocationInfo, tapiGetLocationInfo function [TAPI 2.2], tapiGetLocationInfoA, tapiGetLocationInfoW"
 ms.prod: windows-hardware
 ms.technology: windows-devices

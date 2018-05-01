@@ -7,7 +7,7 @@ old-location: controls\ListView_GetInsertMark.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getinsertmark.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ListView_GetInsertMark, ListView_GetInsertMark macro [Windows Controls], _win32_ListView_GetInsertMark, _win32_ListView_GetInsertMark_cpp, commctrl/ListView_GetInsertMark, controls.ListView_GetInsertMark, controls._win32_ListView_GetInsertMark
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CATEGORYINFO, *LPCATEGORYINFO
+req.typenames: STGOPTIONS
 topic_type:
 -	APIRef
 -	kbSyntax

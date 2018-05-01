@@ -7,7 +7,7 @@ old-location: wmi\iwbempathkeylist_setkey2.htm
 old-project: WmiSdk
 ms.assetid: 3b282124-d544-405a-96e0-39cc504c8117
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: IWbemPathKeyList, IWbemPathKeyList interface [Windows Management Instrumentation], SetKey2 method, IWbemPathKeyList::SetKey2, SetKey2 method [Windows Management Instrumentation], SetKey2 method [Windows Management Instrumentation], IWbemPathKeyList interface, SetKey2,IWbemPathKeyList.SetKey2, _hmm_iwbempathkeylist_setkey2, wmi.iwbempathkeylist_setkey2, wmiutils/IWbemPathKeyList::SetKey2
 ms.prod: windows-hardware
 ms.technology: windows-devices

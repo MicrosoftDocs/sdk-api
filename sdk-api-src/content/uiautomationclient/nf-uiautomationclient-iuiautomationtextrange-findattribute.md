@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationTextRange_FindAttribute.htm
 old-project: WinAuto
 ms.assetid: 12722d22-79ca-4390-8155-61234b821256
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: FindAttribute method [Windows Accessibility], FindAttribute method [Windows Accessibility], IUIAutomationTextRange interface, FindAttribute,IUIAutomationTextRange.FindAttribute, IUIAutomationTextRange, IUIAutomationTextRange interface [Windows Accessibility], FindAttribute method, IUIAutomationTextRange::FindAttribute, uiauto.uiauto_IUIAutomationTextRange_FindAttribute, uiauto_IUIAutomationTextRange_FindAttribute, uiautomationclient/IUIAutomationTextRange::FindAttribute, winauto.uiauto_IUIAutomationTextRange_FindAttribute
 ms.prod: windows-hardware
 ms.technology: windows-devices

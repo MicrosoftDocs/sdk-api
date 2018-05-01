@@ -7,7 +7,7 @@ old-location: fsrm\fsrmactiontype.htm
 old-project: Fsrm
 ms.assetid: 3e34395e-b8e6-4288-a040-dff6cf7f5fe6
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: FsrmActionType, FsrmActionType enumeration [File Server Resource Manager], FsrmActionType_Command, FsrmActionType_Email, FsrmActionType_EventLog, FsrmActionType_Report, FsrmActionType_Unknown, _FsrmActionType, fs.fsrmactiontype, fsrm.fsrmactiontype, fsrmenums/FsrmActionType, fsrmenums/FsrmActionType_Command, fsrmenums/FsrmActionType_Email, fsrmenums/FsrmActionType_EventLog, fsrmenums/FsrmActionType_Report, fsrmenums/FsrmActionType_Unknown
 ms.prod: windows-hardware
 ms.technology: windows-devices

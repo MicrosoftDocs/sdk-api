@@ -7,7 +7,7 @@ old-location: com\iprocessinitcontrol_resetinitializertimeout.htm
 old-project: com
 ms.assetid: 1045b9c9-d7ad-4306-bd9d-7c2a4bda9a62
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IProcessInitControl, IProcessInitControl interface [COM], ResetInitializerTimeout method, IProcessInitControl::ResetInitializerTimeout, ResetInitializerTimeout method [COM], ResetInitializerTimeout method [COM], IProcessInitControl interface, ResetInitializerTimeout,IProcessInitControl.ResetInitializerTimeout, _com_iprocessinitcontrol_resetinitializertimeout, com.iprocessinitcontrol_resetinitializertimeout, objidlbase/IProcessInitControl::ResetInitializerTimeout
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IProcessInitControl::ResetInitializerTimeout method

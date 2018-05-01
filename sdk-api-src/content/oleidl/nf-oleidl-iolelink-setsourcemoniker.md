@@ -7,7 +7,7 @@ old-location: com\iolelink_setsourcemoniker.htm
 old-project: com
 ms.assetid: 85fe1d28-d9c6-46b4-abff-6afce9ff3cd0
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IOleLink, IOleLink interface [COM], SetSourceMoniker method, IOleLink::SetSourceMoniker, SetSourceMoniker method [COM], SetSourceMoniker method [COM], IOleLink interface, SetSourceMoniker,IOleLink.SetSourceMoniker, _ole_iolelink_setsourcemoniker, com.iolelink_setsourcemoniker, oleidl/IOleLink::SetSourceMoniker
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IOleLink::SetSourceMoniker method

@@ -7,7 +7,7 @@ old-location: security\cryptcatmember.htm
 old-project: SecCrypto
 ms.assetid: 08f663d9-9dc2-4ac9-95c5-7f2ed972eb9b
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: CRYPTCATMEMBER, CRYPTCATMEMBER structure [Security], CRYPTCATMEMBER_, mscat/CRYPTCATMEMBER, security.cryptcatmember
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,11 +60,6 @@ The <b>CRYPTCATMEMBER</b> structure provides information about a catalog member.
 
 
 
-### -field pIndirectData
-
-A pointer to a <b>SIP_INDIRECT_DATA</b> structure.
-
-
 ### -field cbStruct
 
 The size, in bytes, of this structure.
@@ -88,6 +83,11 @@ A pointer to a null-terminated string that contains the file name.
 ### -field fdwMemberFlags
 
 Value that specifies the member flags.
+
+
+### -field pIndirectData
+
+A pointer to a <b>SIP_INDIRECT_DATA</b> structure.
 
 
 ### -field dwCertVersion

@@ -7,7 +7,7 @@ old-location: iphlp\getadapterindex.htm
 old-project: IpHlp
 ms.assetid: e98ee6b3-30c2-4629-859e-e7440781cd86
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 4/13/2018
 ms.keywords: GetAdapterIndex, GetAdapterIndex function [IP Helper], _iphlp_getadapterindex, iphlp.getadapterindex, iphlpapi/GetAdapterIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices

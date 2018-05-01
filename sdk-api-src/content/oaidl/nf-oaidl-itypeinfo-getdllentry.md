@@ -7,7 +7,7 @@ old-location: automat\itypeinfo_getdllentry.htm
 old-project: automat
 ms.assetid: 1b947de4-4a3e-40f3-837b-c60b0ab67ef1
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: GetDllEntry method [Automation], GetDllEntry method [Automation], ITypeInfo interface, GetDllEntry,ITypeInfo.GetDllEntry, ITypeInfo, ITypeInfo interface [Automation], GetDllEntry method, ITypeInfo::GetDllEntry, _oa96_ITypeInfo_GetDllEntry, automat.itypeinfo_getdllentry, oaidl/ITypeInfo::GetDllEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITypeInfo::GetDllEntry method

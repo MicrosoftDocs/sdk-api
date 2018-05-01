@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrConflictStore.htm
 old-project: shell
 ms.assetid: 25f47c73-eb9f-4beb-aa10-4f12b38d6507
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ISyncMgrConflictStore, ISyncMgrConflictStore interface [Windows Shell], ISyncMgrConflictStore interface [Windows Shell], described, _shell_ISyncMgrConflictStore, shell.ISyncMgrConflictStore, syncmgr/ISyncMgrConflictStore
 ms.prod: windows-hardware
 ms.technology: windows-devices

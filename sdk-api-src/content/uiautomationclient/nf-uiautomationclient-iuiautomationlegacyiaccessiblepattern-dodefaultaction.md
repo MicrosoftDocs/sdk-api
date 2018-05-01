@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_DoDefaultActi
 old-project: WinAuto
 ms.assetid: b518a835-02f5-48ce-a70b-792abf8b4306
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: DoDefaultAction method [Windows Accessibility], DoDefaultAction method [Windows Accessibility], IUIAutomationLegacyIAccessiblePattern interface, DoDefaultAction,IUIAutomationLegacyIAccessiblePattern.DoDefaultAction, IUIAutomationLegacyIAccessiblePattern, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility], DoDefaultAction method, IUIAutomationLegacyIAccessiblePattern::DoDefaultAction, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_DoDefaultAction, uiauto_IUIAutomationLegacyIAccessiblePattern_DoDefaultAction, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::DoDefaultAction, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_DoDefaultAction
 ms.prod: windows-hardware
 ms.technology: windows-devices

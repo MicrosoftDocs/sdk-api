@@ -7,7 +7,7 @@ old-location: wmp\iwmpnetwork_get_downloadprogress.htm
 old-project: WMP
 ms.assetid: e9ed2027-cba4-4701-a416-a2190b51570c
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPNetwork, IWMPNetwork interface [Windows Media Player], get_downloadProgress method, IWMPNetwork::get_downloadProgress, IWMPNetworkget_downloadProgress, get_downloadProgress method [Windows Media Player], get_downloadProgress method [Windows Media Player], IWMPNetwork interface, get_downloadProgress,IWMPNetwork.get_downloadProgress, wmp.iwmpnetwork_get_downloadprogress, wmp/IWMPNetwork::get_downloadProgress
 ms.prod: windows-hardware
 ms.technology: windows-devices

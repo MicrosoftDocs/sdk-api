@@ -7,7 +7,7 @@ old-location: com\pictdesc.htm
 old-project: com
 ms.assetid: eb1f1de7-dcfe-4c1c-8737-f5ab4d7977d6
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*LPPICTDESC, LPPICTDESC, LPPICTDESC structure pointer [COM], PICTDESC, PICTDESC structure [COM], _ctrl_PICTDESC, com.pictdesc, olectl/LPPICTDESC, olectl/PICTDESC, tagPICTDESC"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # tagPICTDESC structure
@@ -56,6 +56,16 @@ Contains parameters to create a picture object through the <a href="https://msdn
 ## -struct-fields
 
 
+
+
+### -field cbSizeofstruct
+
+The size of the structure, in bytes.
+
+
+### -field picType
+
+Type of picture described by this structure, which can be any value from the <a href="https://msdn.microsoft.com/79f10687-f0eb-4b5e-a1a9-9186dbd0b51f">PICTYPE</a> enumeration. This selects the arm of the union that corresponds to one of the picture type structures below.
 
 
 ### -field bmp
@@ -111,16 +121,6 @@ Structure containing enhanced metafile information if <b>picType</b> is <b>PICTY
 ### -field emf.hemf
 
 The <b>HENHMETAFILE</b> handle identifying the enhanced metafile assigned to the picture object.
-
-
-### -field cbSizeofstruct
-
-The size of the structure, in bytes.
-
-
-### -field picType
-
-Type of picture described by this structure, which can be any value from the <a href="https://msdn.microsoft.com/79f10687-f0eb-4b5e-a1a9-9186dbd0b51f">PICTYPE</a> enumeration. This selects the arm of the union that corresponds to one of the picture type structures below.
 
 
 ## -see-also

@@ -7,7 +7,7 @@ old-location: automat\varui4fromr8.htm
 old-project: automat
 ms.assetid: 3ab77fc1-cf5f-4543-a507-94a1055087e3
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: VarUI4FromR8, VarUI4FromR8 function [Automation], _oa96_VarUI4FromR8, automat.varui4fromr8, oleauto/VarUI4FromR8
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # VarUI4FromR8 function

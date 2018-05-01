@@ -7,7 +7,7 @@ old-location: mstv\idvbterrestrialdeliverysystemdescriptor_getguardinterval.htm
 old-project: mstv
 ms.assetid: e6c3e121-7214-49cc-b88e-6a1269f5bdbd
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetGuardInterval method [Microsoft TV Technologies], GetGuardInterval method [Microsoft TV Technologies], IDvbTerrestrialDeliverySystemDescriptor interface, GetGuardInterval,IDvbTerrestrialDeliverySystemDescriptor.GetGuardInterval, IDvbTerrestrialDeliverySystemDescriptor, IDvbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies], GetGuardInterval method, IDvbTerrestrialDeliverySystemDescriptor::GetGuardInterval, IDvbTerrestrialDeliverySystemDescriptorGetGuardInterval, dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor::GetGuardInterval, mstv.idvbterrestrialdeliverysystemdescriptor_getguardinterval
 ms.prod: windows-hardware
 ms.technology: windows-devices

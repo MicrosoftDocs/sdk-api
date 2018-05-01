@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationPatternHandler_Dispatch.htm
 old-project: WinAuto
 ms.assetid: c94d650e-74a8-4d4f-92bf-5402576f8773
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: Dispatch method [Windows Accessibility], Dispatch method [Windows Accessibility], IUIAutomationPatternHandler interface, Dispatch,IUIAutomationPatternHandler.Dispatch, IUIAutomationPatternHandler, IUIAutomationPatternHandler interface [Windows Accessibility], Dispatch method, IUIAutomationPatternHandler::Dispatch, uiauto.uiauto_IUIAutomationPatternHandler_Dispatch, uiauto_IUIAutomationPatternHandler_Dispatch, uiautomationcore/IUIAutomationPatternHandler::Dispatch, winauto.uiauto_IUIAutomationPatternHandler_Dispatch
 ms.prod: windows-hardware
 ms.technology: windows-devices

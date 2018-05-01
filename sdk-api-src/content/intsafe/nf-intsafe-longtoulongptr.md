@@ -7,7 +7,7 @@ old-location: shell\LongToULongPtr.htm
 old-project: shell
 ms.assetid: fe2669b2-6121-4348-ac7b-f89a0121b994
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: LongToULongPtr, LongToULongPtr function [Windows Shell], _shell_LongToULongPtr, intsafe/LongToULongPtr, shell.LongToULongPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices

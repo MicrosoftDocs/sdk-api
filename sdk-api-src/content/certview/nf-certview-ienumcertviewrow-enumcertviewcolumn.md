@@ -7,7 +7,7 @@ old-location: security\ienumcertviewrow_enumcertviewcolumn.htm
 old-project: SecCrypto
 ms.assetid: 78fd2431-c4c7-4df9-856a-69665fa8c063
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: EnumCertViewColumn method [Security], EnumCertViewColumn method [Security], IEnumCERTVIEWROW interface, EnumCertViewColumn,IEnumCERTVIEWROW.EnumCertViewColumn, IEnumCERTVIEWROW, IEnumCERTVIEWROW interface [Security], EnumCertViewColumn method, IEnumCERTVIEWROW::EnumCertViewColumn, _certsrv_ienumcertviewrow_enumcertviewcolumn, certview/IEnumCERTVIEWROW::EnumCertViewColumn, security.ienumcertviewrow_enumcertviewcolumn
 ms.prod: windows-hardware
 ms.technology: windows-devices

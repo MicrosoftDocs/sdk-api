@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12infoqueue_popstoragefilter.htm
 old-project: direct3d12
 ms.assetid: C90952B6-7556-4214-8D08-694C593C9183
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: ID3D12InfoQueue, ID3D12InfoQueue interface, PopStorageFilter method, ID3D12InfoQueue::PopStorageFilter, PopStorageFilter method, PopStorageFilter method, ID3D12InfoQueue interface, PopStorageFilter,ID3D12InfoQueue.PopStorageFilter, d3d12sdklayers/ID3D12InfoQueue::PopStorageFilter, direct3d12.id3d12infoqueue_popstoragefilter
 ms.prod: windows-hardware
 ms.technology: windows-devices

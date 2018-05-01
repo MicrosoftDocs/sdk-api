@@ -7,7 +7,7 @@ old-location: cos\icrmmonitorclerks_transactionuow.htm
 old-project: cossdk
 ms.assetid: 9907ae75-7cb6-4fde-837c-616b106b4d7d
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: ICrmMonitorClerks, ICrmMonitorClerks interface [COM+], TransactionUOW method, ICrmMonitorClerks::TransactionUOW, TransactionUOW method [COM+], TransactionUOW method [COM+], ICrmMonitorClerks interface, TransactionUOW,ICrmMonitorClerks.TransactionUOW, _dtc_ICrmMonitorClerks_TransactionUOW, comsvcs/ICrmMonitorClerks::TransactionUOW, cos.icrmmonitorclerks_transactionuow
 ms.prod: windows-hardware
 ms.technology: windows-devices

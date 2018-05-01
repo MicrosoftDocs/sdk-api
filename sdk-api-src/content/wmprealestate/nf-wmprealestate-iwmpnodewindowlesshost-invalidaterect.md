@@ -7,7 +7,7 @@ old-location: wmp\iwmpnodewindowlesshost_invalidaterect.htm
 old-project: WMP
 ms.assetid: 35fdb7cb-d885-4c01-998a-dab16b301bd4
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPNodeWindowlessHost, IWMPNodeWindowlessHost interface [Windows Media Player], InvalidateRect method, IWMPNodeWindowlessHost::InvalidateRect, IWMPNodeWindowlessHostInvalidateRectRendering, InvalidateRect method [Windows Media Player], InvalidateRect method [Windows Media Player], IWMPNodeWindowlessHost interface, InvalidateRect,IWMPNodeWindowlessHost.InvalidateRect, wmp.iwmpnodewindowlesshost_invalidaterect, wmprealestate/IWMPNodeWindowlessHost::InvalidateRect
 ms.prod: windows-hardware
 ms.technology: windows-devices

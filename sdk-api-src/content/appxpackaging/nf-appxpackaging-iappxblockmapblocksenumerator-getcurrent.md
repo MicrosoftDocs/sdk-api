@@ -7,7 +7,7 @@ old-location: appxpkg\iappxblockmapblocksenumerator_getcurrent.htm
 old-project: appxpkg
 ms.assetid: A546BD4D-DA7A-4A50-BD45-2219D70DF0F9
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/26/2018
 ms.keywords: GetCurrent method [App packaging and management], GetCurrent method [App packaging and management], IAppxBlockMapBlocksEnumerator interface, GetCurrent,IAppxBlockMapBlocksEnumerator.GetCurrent, IAppxBlockMapBlocksEnumerator, IAppxBlockMapBlocksEnumerator interface [App packaging and management], GetCurrent method, IAppxBlockMapBlocksEnumerator::GetCurrent, appxpackaging/IAppxBlockMapBlocksEnumerator::GetCurrent, appxpkg.iappxblockmapblocksenumerator_getcurrent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_ARCHITECTURE2
+req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
 topic_type:
 -	APIRef
 -	kbSyntax

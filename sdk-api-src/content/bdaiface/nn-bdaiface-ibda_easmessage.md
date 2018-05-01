@@ -7,7 +7,7 @@ old-location: mstv\ibda_easmessage.htm
 old-project: mstv
 ms.assetid: dfacaa47-c844-434f-951a-9ee38fa8af4a
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IBDA_EasMessage, IBDA_EasMessage interface [Microsoft TV Technologies], IBDA_EasMessage interface [Microsoft TV Technologies], described, IBDA_EasMessageInterface, bdaiface/IBDA_EasMessage, mstv.ibda_easmessage
 ms.prod: windows-hardware
 ms.technology: windows-devices

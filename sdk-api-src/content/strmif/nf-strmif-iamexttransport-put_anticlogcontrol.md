@@ -7,7 +7,7 @@ old-location: dshow\iamexttransport_put_anticlogcontrol.htm
 old-project: DirectShow
 ms.assetid: 02d1e400-9959-4c68-ad8e-bc1700205179
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMExtTransport, IAMExtTransport interface [DirectShow], put_AntiClogControl method, IAMExtTransport::put_AntiClogControl, IAMExtTransportput_AntiClogControl, dshow.iamexttransport_put_anticlogcontrol, put_AntiClogControl method [DirectShow], put_AntiClogControl method [DirectShow], IAMExtTransport interface, put_AntiClogControl,IAMExtTransport.put_AntiClogControl, strmif/IAMExtTransport::put_AntiClogControl
 ms.prod: windows-hardware
 ms.technology: windows-devices

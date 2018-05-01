@@ -7,7 +7,7 @@ old-location: appxpkg\getpackagepath.htm
 old-project: appxpkg
 ms.assetid: BDA0DD87-A36D-486B-BF89-EA5CC105C742
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/26/2018
 ms.keywords: GetPackagePath, GetPackagePath function [App packaging and management], appmodel/GetPackagePath, appxpkg.getpackagepath
 ms.prod: windows-hardware
 ms.technology: windows-devices

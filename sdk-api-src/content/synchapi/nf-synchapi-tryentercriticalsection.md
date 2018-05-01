@@ -7,7 +7,7 @@ old-location: base\tryentercriticalsection.htm
 old-project: Sync
 ms.assetid: 5225bda1-6e20-4f6b-9f9b-633c62acfdce
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: TryEnterCriticalSection, TryEnterCriticalSection function, _win32_tryentercriticalsection, base.tryentercriticalsection, synchapi/TryEnterCriticalSection, winbase/TryEnterCriticalSection
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\ibda_digitaldemodulator2_get_transmissionmode.htm
 old-project: mstv
 ms.assetid: b5722904-24a4-491f-8563-bfb2d5695d86
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IBDA_DigitalDemodulator2, IBDA_DigitalDemodulator2 interface [Microsoft TV Technologies], get_TransmissionMode method, IBDA_DigitalDemodulator2::get_TransmissionMode, bdaiface/IBDA_DigitalDemodulator2::get_TransmissionMode, get_TransmissionMode method [Microsoft TV Technologies], get_TransmissionMode method [Microsoft TV Technologies], IBDA_DigitalDemodulator2 interface, get_TransmissionMode,IBDA_DigitalDemodulator2.get_TransmissionMode, mstv.ibda_digitaldemodulator2_get_transmissionmode
 ms.prod: windows-hardware
 ms.technology: windows-devices

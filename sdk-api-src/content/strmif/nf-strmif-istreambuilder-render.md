@@ -7,7 +7,7 @@ old-location: dshow\istreambuilder_render.htm
 old-project: DirectShow
 ms.assetid: 7bba9d1a-03a8-4572-a08c-2e12071df73b
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IStreamBuilder, IStreamBuilder interface [DirectShow], Render method, IStreamBuilder::Render, IStreamBuilderRender, Render method [DirectShow], Render method [DirectShow], IStreamBuilder interface, Render,IStreamBuilder.Render, dshow.istreambuilder_render, strmif/IStreamBuilder::Render
 ms.prod: windows-hardware
 ms.technology: windows-devices

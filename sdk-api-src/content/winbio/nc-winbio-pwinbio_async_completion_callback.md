@@ -7,7 +7,7 @@ old-location: secbiomet\pwinbio_async_completion_callback.htm
 old-project: SecBioMet
 ms.assetid: 550EA13D-18CE-4B73-9C9B-4D5C46C48A75
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: PWINBIO_ASYNC_COMPLETION_CALLBACK, PWINBIO_ASYNC_COMPLETION_CALLBACK function pointer [Windows Biometric Framework API], secbiomet.pwinbio_async_completion_callback, winbio/PWINBIO_ASYNC_COMPLETION_CALLBACK
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmi\cframeworkquery_getvaluesforprop.htm
 old-project: WmiSdk
 ms.assetid: b5ed4b48-f622-4a55-897d-d800ada0270f
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: CFrameworkQuery, CFrameworkQuery::GetValuesForProp, CFrameworkQuery::GetValuesForProp methods [Windows Management Instrumentation], GetValuesForProp,CFrameworkQuery.GetValuesForProp, frquery/CFrameworkQuery::GetValuesForProp, wmi.cframeworkquery_getvaluesforprop
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: xaudio2\xaudio2frequencyratiotosemitones.htm
 old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.xaudio2.XAudio2FrequencyRatioToSemitones(float)
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/20/2018
 ms.keywords: XAudio2FrequencyRatioToSemitones, XAudio2FrequencyRatioToSemitones function [XAudio2 Audio Mixing APIs], xaudio2.xaudio2frequencyratiotosemitones, xaudio2/XAudio2FrequencyRatioToSemitones
 ms.prod: windows-hardware
 ms.technology: windows-devices

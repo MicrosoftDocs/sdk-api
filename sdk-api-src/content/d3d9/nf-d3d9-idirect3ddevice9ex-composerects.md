@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3ddevice9ex_composerect.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9ex_composerect.htm
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/10/2018
 ms.keywords: 097e4733-c996-6415-2d0b-16df84b70922, ComposeRects method [Direct3D 9], ComposeRects method [Direct3D 9], IDirect3DDevice9Ex interface, ComposeRects,IDirect3DDevice9Ex.ComposeRects, IDirect3DDevice9Ex, IDirect3DDevice9Ex interface [Direct3D 9], ComposeRects method, IDirect3DDevice9Ex::ComposeRects, d3d9/IDirect3DDevice9Ex::ComposeRects, direct3d9.idirect3ddevice9ex_composerect
 ms.prod: windows-hardware
 ms.technology: windows-devices

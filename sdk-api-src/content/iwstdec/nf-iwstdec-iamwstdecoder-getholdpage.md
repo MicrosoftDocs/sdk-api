@@ -7,7 +7,7 @@ old-location: dshow\iamwstdecoder_getholdpage.htm
 old-project: DirectShow
 ms.assetid: db09b2a2-7f92-421a-8582-4ed648563119
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetHoldPage method [DirectShow], GetHoldPage method [DirectShow], IAMWstDecoder interface, GetHoldPage,IAMWstDecoder.GetHoldPage, IAMWstDecoder, IAMWstDecoder interface [DirectShow], GetHoldPage method, IAMWstDecoder::GetHoldPage, IAMWstDecoderGetHoldPage, dshow.iamwstdecoder_getholdpage, iwstdec/IAMWstDecoder::GetHoldPage
 ms.prod: windows-hardware
 ms.technology: windows-devices

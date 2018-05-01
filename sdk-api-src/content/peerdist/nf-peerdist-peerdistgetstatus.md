@@ -7,7 +7,7 @@ old-location: p2p\peerdistgetstatus.htm
 old-project: P2PSdk
 ms.assetid: 1ab188cc-db79-49b2-977f-0b8fccf7f274
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/23/2018
 ms.keywords: PeerDistGetStatus, PeerDistGetStatus function [Peer Networking], p2p.peerdistgetstatus, peerdist/PeerDistGetStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: PeerDist.lib
 req.dll: PeerDist.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # PeerDistGetStatus function

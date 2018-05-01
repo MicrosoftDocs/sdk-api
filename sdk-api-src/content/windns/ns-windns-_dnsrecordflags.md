@@ -7,7 +7,7 @@ old-location: dns\dns_record.htm
 old-project: DNS
 ms.assetid: ab7b96a5-346f-4e01-bb2a-885f44764590
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: DNS_RECORD, DNS_RECORD structure [DNS], DNS_RECORD_FLAGS, PDNS_RECORD, PDNS_RECORD structure pointer [DNS], _DnsRecordFlags, _dns_dns_record, dns.dns_record, windns/DNS_RECORD, windns/PDNS_RECORD
 ms.prod: windows-hardware
 ms.technology: windows-devices

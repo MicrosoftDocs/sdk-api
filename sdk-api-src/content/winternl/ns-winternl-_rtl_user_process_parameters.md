@@ -7,7 +7,7 @@ old-location: base\rtl_user_process_parameters.htm
 old-project: ProcThread
 ms.assetid: e736aefa-9945-4526-84d8-adb6e82b9991
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: "*PRTL_USER_PROCESS_PARAMETERS, PRTL_USER_PROCESS_PARAMETERS, PRTL_USER_PROCESS_PARAMETERS structure pointer, RTL_USER_PROCESS_PARAMETERS, RTL_USER_PROCESS_PARAMETERS structure, _RTL_USER_PROCESS_PARAMETERS, base.rtl_user_process_parameters, winternl/PRTL_USER_PROCESS_PARAMETERS, winternl/RTL_USER_PROCESS_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

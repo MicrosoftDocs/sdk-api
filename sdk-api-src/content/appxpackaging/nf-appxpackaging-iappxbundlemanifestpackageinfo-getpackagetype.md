@@ -7,7 +7,7 @@ old-location: appxpkg\iappxbundlemanifestpackageinfo_getpackagetype.htm
 old-project: appxpkg
 ms.assetid: 965E48E3-7C60-4299-85F4-07CB879E7B39
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/26/2018
 ms.keywords: GetPackageType method [App packaging and management], GetPackageType method [App packaging and management], IAppxBundleManifestPackageInfo interface, GetPackageType,IAppxBundleManifestPackageInfo.GetPackageType, IAppxBundleManifestPackageInfo, IAppxBundleManifestPackageInfo interface [App packaging and management], GetPackageType method, IAppxBundleManifestPackageInfo::GetPackageType, appxpackaging/IAppxBundleManifestPackageInfo::GetPackageType, appxpkg.iappxbundlemanifestpackageinfo_getpackagetype
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_ARCHITECTURE2
+req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
 topic_type:
 -	APIRef
 -	kbSyntax

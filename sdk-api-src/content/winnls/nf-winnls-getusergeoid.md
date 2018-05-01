@@ -7,7 +7,7 @@ old-location: intl\getusergeoid.htm
 old-project: Intl
 ms.assetid: 9d4d196d-4000-4866-a4c7-e7b9cb669c6f
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/25/2018
 ms.keywords: GetUserGeoID, GetUserGeoID function [Internationalization for Windows Applications], _win32_GetUserGeoID, intl.getusergeoid, winnls/GetUserGeoID
 ms.prod: windows-hardware
 ms.technology: windows-devices

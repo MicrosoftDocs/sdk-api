@@ -7,7 +7,7 @@ old-location: tapi3\itagent_get_user.htm
 old-project: Tapi
 ms.assetid: 6949fdb0-5841-4473-bb50-2ea598a71576
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: ITAgent, ITAgent interface [TAPI 2.2], get_User method, ITAgent::get_User, _tapi3_itagent_get_user, get_User method [TAPI 2.2], get_User method [TAPI 2.2], ITAgent interface, get_User,ITAgent.get_User, tapi3.itagent_get_user, tapi3cc/ITAgent::get_User
 ms.prod: windows-hardware
 ms.technology: windows-devices

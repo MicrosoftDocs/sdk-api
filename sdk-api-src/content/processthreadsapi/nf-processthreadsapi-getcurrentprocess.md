@@ -7,7 +7,7 @@ old-location: base\getcurrentprocess.htm
 old-project: ProcThread
 ms.assetid: 0471790c-3bb9-4180-8676-941e655b1812
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: GetCurrentProcess, GetCurrentProcess function, _win32_getcurrentprocess, base.getcurrentprocess, processthreadsapi/GetCurrentProcess, winbase/GetCurrentProcess
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -48,7 +48,7 @@ targetos: Windows
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # GetCurrentProcess function

@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicstream.htm
 old-project: wic
 ms.assetid: bc398732-037d-4f48-940f-c70975447972
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: IWICStream, IWICStream interface [Windows Imaging Component], IWICStream interface [Windows Imaging Component], described, _wic_codec_iwicstream, wic._wic_codec_iwicstream, wincodec/IWICStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

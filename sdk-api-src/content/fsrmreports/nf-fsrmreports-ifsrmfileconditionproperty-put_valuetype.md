@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmfileconditionproperty_valuetype.htm
 old-project: Fsrm
 ms.assetid: 86086089-936a-428f-bc2b-514c873db1a3
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: IFsrmFileConditionProperty, IFsrmFileConditionProperty interface [File Server Resource Manager], ValueType property, IFsrmFileConditionProperty.ValueType, IFsrmFileConditionProperty::get_ValueType, IFsrmFileConditionProperty::put_ValueType, ValueType property [File Server Resource Manager], ValueType property [File Server Resource Manager], IFsrmFileConditionProperty interface, fs.ifsrmfileconditionproperty_valuetype, fsrm.ifsrmfileconditionproperty_valuetype, fsrmreports/IFsrmFileConditionProperty::ValueType, fsrmreports/IFsrmFileConditionProperty::get_ValueType, fsrmreports/IFsrmFileConditionProperty::put_ValueType, put_ValueType,IFsrmFileConditionProperty.put_ValueType
 ms.prod: windows-hardware
 ms.technology: windows-devices

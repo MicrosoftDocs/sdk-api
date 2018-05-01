@@ -7,7 +7,7 @@ old-location: mf\itoc_getcontext.htm
 old-project: medfound
 ms.assetid: b4c65f1b-7465-4229-8fac-92d6b1be50da
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetContext method [Media Foundation], GetContext method [Media Foundation], IToc interface, GetContext,IToc.GetContext, IToc, IToc interface [Media Foundation], GetContext method, IToc::GetContext, codecapi.itoc_getcontext, mf.itoc_getcontext, wmcodecdsp/IToc::GetContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

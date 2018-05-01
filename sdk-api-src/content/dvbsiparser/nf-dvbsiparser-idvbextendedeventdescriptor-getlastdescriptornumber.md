@@ -7,7 +7,7 @@ old-location: mstv\idvbextendedeventdescriptor_getlastdescriptornumber.htm
 old-project: mstv
 ms.assetid: fccfec3b-0177-4a3d-8c82-0cba3633a613
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetLastDescriptorNumber method [Microsoft TV Technologies], GetLastDescriptorNumber method [Microsoft TV Technologies], IDvbExtendedEventDescriptor interface, GetLastDescriptorNumber,IDvbExtendedEventDescriptor.GetLastDescriptorNumber, IDvbExtendedEventDescriptor, IDvbExtendedEventDescriptor interface [Microsoft TV Technologies], GetLastDescriptorNumber method, IDvbExtendedEventDescriptor::GetLastDescriptorNumber, dvbsiparser/IDvbExtendedEventDescriptor::GetLastDescriptorNumber, mstv.idvbextendedeventdescriptor_getlastdescriptornumber
 ms.prod: windows-hardware
 ms.technology: windows-devices

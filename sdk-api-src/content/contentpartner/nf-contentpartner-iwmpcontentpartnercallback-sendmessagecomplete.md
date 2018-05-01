@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontentpartnercallback_sendmessagecomplete.htm
 old-project: WMP
 ms.assetid: fa5c6b8f-5797-4703-9be8-e3c3a1f1f5f3
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPContentPartnerCallback, IWMPContentPartnerCallback interface [Windows Media Player], SendMessageComplete method, IWMPContentPartnerCallback::SendMessageComplete, IWMPContentPartnerCallbackSendMessageComplete, SendMessageComplete method [Windows Media Player], SendMessageComplete method [Windows Media Player], IWMPContentPartnerCallback interface, SendMessageComplete,IWMPContentPartnerCallback.SendMessageComplete, contentpartner/IWMPContentPartnerCallback::SendMessageComplete, wmp.iwmpcontentpartnercallback_sendmessagecomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices

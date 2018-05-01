@@ -7,7 +7,7 @@ old-location: properties\IPropertyEnumType_GetValue.htm
 old-project: properties
 ms.assetid: e820087b-95fb-4352-9bb0-cf34216d37a6
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/5/2018
 ms.keywords: GetValue method [Windows Properties], GetValue method [Windows Properties], IPropertyEnumType interface, GetValue,IPropertyEnumType.GetValue, IPropertyEnumType, IPropertyEnumType interface [Windows Properties], GetValue method, IPropertyEnumType::GetValue, _shell_IPropertyEnumType_GetValue, properties.IPropertyEnumType_GetValue, propsys/IPropertyEnumType::GetValue, shell.IPropertyEnumType_GetValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IPropertyEnumType::GetValue method

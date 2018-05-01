@@ -7,7 +7,7 @@ old-location: ics\inetfwmgr_localpolicy.htm
 old-project: ICS
 ms.assetid: ec32c591-d677-4251-90c8-1bd4fa516245
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: INetFwMgr, INetFwMgr interface [ICS/ICF], LocalPolicy property, INetFwMgr.LocalPolicy, INetFwMgr::get_LocalPolicy, LocalPolicy property [ICS/ICF], LocalPolicy property [ICS/ICF], INetFwMgr interface, get_LocalPolicy,INetFwMgr.get_LocalPolicy, ics.inetfwmgr_localpolicy, netfw/INetFwMgr::LocalPolicy, netfw/INetFwMgr::get_LocalPolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: 
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # INetFwMgr::get_LocalPolicy method

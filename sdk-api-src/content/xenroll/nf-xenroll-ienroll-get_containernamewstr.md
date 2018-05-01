@@ -1,0 +1,101 @@
+---
+UID: NF:xenroll.IEnroll.get_ContainerNameWStr
+title: IEnroll::get_ContainerNameWStr method
+author: windows-driver-content
+description: Sets or retrieves the name of the key container to use.
+old-location: security\ienroll4_containernamewstr.htm
+old-project: SecCrypto
+ms.assetid: 6740378a-342b-4520-89c7-32d44e23cfca
+ms.author: windowsdriverdev
+ms.date: 4/18/2018
+ms.keywords: ContainerNameWStr property [Security], ContainerNameWStr property [Security], IEnroll interface, IEnroll, IEnroll interface [Security], ContainerNameWStr property, IEnroll.ContainerNameWStr, IEnroll::get_ContainerNameWStr, IEnroll::put_ContainerNameWStr, get_ContainerNameWStr,IEnroll.get_ContainerNameWStr, security.ienroll4_containernamewstr, xenroll/IEnroll::ContainerNameWStr, xenroll/IEnroll::get_ContainerNameWStr, xenroll/IEnroll::put_ContainerNameWStr
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: xenroll.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: XBL_IDP_AUTH_TOKEN_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Xenroll.dll
+api_name:
+-	IEnroll.ContainerNameWStr
+-	IEnroll.get_ContainerNameWStr
+-	IEnroll.put_ContainerNameWStr
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Xenroll.dll
+req.irql: 
+req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+---
+
+# IEnroll::get_ContainerNameWStr method
+
+
+## -description
+
+
+<p class="CCE_Message">[This property is no longer available for use as of Windows Server 2008 and Windows Vista.]
+
+The <b>ContainerNameWStr</b> property sets or retrieves the  name of the <a href="https://msdn.microsoft.com/f17042c3-ba1a-408f-af55-5f171b0dee33">key container</a> to use.
+
+This property was first defined in the <a href="https://msdn.microsoft.com/5be210b8-475a-4504-9cc0-5b02384e114e">IEnroll</a> interface.
+
+This property is read/write.
+
+
+## -parameters
+
+
+## -remarks
+
+
+
+The container specified may be an existing container or a new one. It may only be an existing container if the 
+<a href="https://msdn.microsoft.com/1534ec57-71d3-4189-a94e-7bcb3c0670e1">UseExistingKeySet</a> property is set, as long as the key set has not been generated yet. For example, if only an <a href="https://msdn.microsoft.com/f1caccd2-3453-448e-b194-bf899eff8091">exchange key</a> set has been generated for a container, it is still possible to perform a certificate enrollment using the signature key set without setting <b>UseExistingKeySet</b>. The <i>exchange key set</i> could be used if <b>UseExistingKeySet</b> is set beforehand.
+
+By default, a new container is selected each time the <a href="https://msdn.microsoft.com/5be210b8-475a-4504-9cc0-5b02384e114e">IEnroll</a> control is run. This ensures that a new key set is generated. If this property is not explicitly set, a generated GUID is used as the container name.
+
+
+The <b>ContainerNameWStr</b> property affects the behavior of the following methods:
+
+<ul>
+<li>
+<a href="https://msdn.microsoft.com/ebbcc9ad-9f87-4abe-963b-38c57a60e45e">createPKCS10WStr</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/5edd54c5-9dfb-44b8-a293-4fe6a8de45e3">createFilePKCS10WStr</a>
+</li>
+</ul>
+
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/133529fb-e02a-41a2-83df-646cbc01dbe9">IEnroll</a>
+ 
+
+ 
+

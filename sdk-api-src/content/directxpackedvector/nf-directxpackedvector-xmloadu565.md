@@ -7,7 +7,7 @@ old-location: dxmath\xmloadu565.htm
 old-project: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadU565(const XMU565)
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/23/2018
 ms.keywords: DirectX::PackedVector.XMLoadU565, XMLoadU565, XMLoadU565 method [DirectX Math Support APIs], dxmath.xmloadu565
 ms.prod: windows-hardware
 ms.technology: windows-devices

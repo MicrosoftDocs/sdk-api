@@ -7,7 +7,7 @@ old-location: winprog\verifierisperusersettingsenabled.htm
 old-project: DevNotes
 ms.assetid: 29ea23ca-cb11-4b88-8863-9893e94f4e20
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/13/2018
 ms.keywords: VerifierIsPerUserSettingsEnabled, VerifierIsPerUserSettingsEnabled function [Windows API], avrfsdk/VerifierIsPerUserSettingsEnabled, winprog.verifierisperusersettingsenabled
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: properties\IPropertySystem_FormatForDisplay.htm
 old-project: properties
 ms.assetid: 674b1651-6354-4995-abeb-271df3748e1b
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/5/2018
 ms.keywords: FormatForDisplay method [Windows Properties], FormatForDisplay method [Windows Properties], IPropertySystem interface, FormatForDisplay,IPropertySystem.FormatForDisplay, IPropertySystem, IPropertySystem interface [Windows Properties], FormatForDisplay method, IPropertySystem::FormatForDisplay, properties.IPropertySystem_FormatForDisplay, propsys/IPropertySystem::FormatForDisplay, shell.IPropertySystem_FormatForDisplay, shell_IPropertySystem_FormatForDisplay
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IPropertySystem::FormatForDisplay method

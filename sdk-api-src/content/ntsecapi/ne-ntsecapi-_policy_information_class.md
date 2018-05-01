@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _POLICY_INFORMATION_CLASS enumeration
@@ -128,6 +128,9 @@ Query or set Domain Name System (DNS) information about the account domain assoc
 
 
 ### -field PolicyLocalAccountDomainInformation
+
+
+### -field PolicyMachineAccountInformation
 
 
 ### -field PolicyLastEntry

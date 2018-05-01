@@ -7,7 +7,7 @@ old-location: wmi\iwbemcontext_beginenumeration.htm
 old-project: WmiSdk
 ms.assetid: 34106c63-3b50-4078-babf-12173bd702ba
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: BeginEnumeration method [Windows Management Instrumentation], BeginEnumeration method [Windows Management Instrumentation], IWbemContext interface, BeginEnumeration,IWbemContext.BeginEnumeration, IWbemContext, IWbemContext interface [Windows Management Instrumentation], BeginEnumeration method, IWbemContext::BeginEnumeration, _hmm_iwbemcontext_beginenumeration, wbemcli/IWbemContext::BeginEnumeration, wmi.iwbemcontext_beginenumeration
 ms.prod: windows-hardware
 ms.technology: windows-devices

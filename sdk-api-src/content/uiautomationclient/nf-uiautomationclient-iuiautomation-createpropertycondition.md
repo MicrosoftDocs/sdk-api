@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomation_CreatePropertyCondition.htm
 old-project: WinAuto
 ms.assetid: 8b777a53-90a8-4e51-b707-d0ea8f5790a8
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: CreatePropertyCondition method [Windows Accessibility], CreatePropertyCondition method [Windows Accessibility], IUIAutomation interface, CreatePropertyCondition,IUIAutomation.CreatePropertyCondition, IUIAutomation, IUIAutomation interface [Windows Accessibility], CreatePropertyCondition method, IUIAutomation::CreatePropertyCondition, uiauto.uiauto_IUIAutomation_CreatePropertyCondition, uiauto_IUIAutomation_CreatePropertyCondition, uiautomationclient/IUIAutomation::CreatePropertyCondition, winauto.uiauto_IUIAutomation_CreatePropertyCondition
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmp\iwmpsettings_get_mute.htm
 old-project: WMP
 ms.assetid: b0bb1c84-d208-4d29-a797-bb18af039f03
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPSettings, IWMPSettings interface [Windows Media Player], get_mute method, IWMPSettings::get_mute, IWMPSettingsget_mute, get_mute method [Windows Media Player], get_mute method [Windows Media Player], IWMPSettings interface, get_mute,IWMPSettings.get_mute, wmp.iwmpsettings_get_mute, wmp/IWMPSettings::get_mute
 ms.prod: windows-hardware
 ms.technology: windows-devices

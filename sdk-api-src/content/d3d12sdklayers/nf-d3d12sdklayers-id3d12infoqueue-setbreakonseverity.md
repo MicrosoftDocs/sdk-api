@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12infoqueue_setbreakonseverity.htm
 old-project: direct3d12
 ms.assetid: 5A055726-B17A-4058-A964-F50BE2FB1FFA
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: ID3D12InfoQueue, ID3D12InfoQueue interface, SetBreakOnSeverity method, ID3D12InfoQueue::SetBreakOnSeverity, SetBreakOnSeverity method, SetBreakOnSeverity method, ID3D12InfoQueue interface, SetBreakOnSeverity,ID3D12InfoQueue.SetBreakOnSeverity, d3d12sdklayers/ID3D12InfoQueue::SetBreakOnSeverity, direct3d12.id3d12infoqueue_setbreakonseverity
 ms.prod: windows-hardware
 ms.technology: windows-devices

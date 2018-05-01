@@ -7,7 +7,7 @@ old-location: wic\iwicimageencoder_writeframe.htm
 old-project: wic
 ms.assetid: 08CD0CE4-5948-4A8F-AA96-9A2BF43EC6D3
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: IWICImageEncoder, IWICImageEncoder interface [Windows Imaging Component], WriteFrame method, IWICImageEncoder::WriteFrame, WriteFrame method [Windows Imaging Component], WriteFrame method [Windows Imaging Component], IWICImageEncoder interface, WriteFrame,IWICImageEncoder.WriteFrame, wic.iwicimageencoder_writeframe, wincodec/IWICImageEncoder::WriteFrame
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmformat\iwmlicensebackup_backuplicenses.htm
 old-project: wmformat
 ms.assetid: 714971d7-8ccb-41fa-92b2-802a503ae228
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: BackupLicenses method [windows Media Format], BackupLicenses method [windows Media Format], IWMLicenseBackup interface, BackupLicenses,IWMLicenseBackup.BackupLicenses, IWMLicenseBackup, IWMLicenseBackup interface [windows Media Format], BackupLicenses method, IWMLicenseBackup::BackupLicenses, IWMLicenseBackupBackupLicenses, wmformat.iwmlicensebackup_backuplicenses, wmsdkidl/IWMLicenseBackup::BackupLicenses
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmp\iwmpgraphcreation.htm
 old-project: WMP
 ms.assetid: 80d6f1f0-10c9-4e60-9bb7-556e340730a8
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPGraphCreation, IWMPGraphCreation interface [Windows Media Player], IWMPGraphCreation interface [Windows Media Player], described, IWMPGraphCreationInterface, wmp.iwmpgraphcreation, wmpservices/IWMPGraphCreation
 ms.prod: windows-hardware
 ms.technology: windows-devices

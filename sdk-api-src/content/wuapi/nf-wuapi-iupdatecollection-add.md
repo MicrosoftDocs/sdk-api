@@ -7,7 +7,7 @@ old-location: wua\iupdatecollection_add.htm
 old-project: Wua_Sdk
 ms.assetid: 32b25c99-d2a0-4365-a285-f66381cfc3e7
 ms.author: windowsdriverdev
-ms.date: 3/15/2018
+ms.date: 4/18/2018
 ms.keywords: Add method [Windows Update Agent], Add method [Windows Update Agent], IUpdateCollection interface, Add,IUpdateCollection.Add, IUpdateCollection, IUpdateCollection interface [Windows Update Agent], Add method, IUpdateCollection::Add, wua.iupdatecollection_add, wuapi/IUpdateCollection::Add
 ms.prod: windows-hardware
 ms.technology: windows-devices

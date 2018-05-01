@@ -7,7 +7,7 @@ old-location: mstv\impeg2tablefilter_removetable.htm
 old-project: mstv
 ms.assetid: b8875340-48cf-47eb-a7cc-58e181df37fb
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMpeg2TableFilter, IMpeg2TableFilter interface [Microsoft TV Technologies], RemoveTable method, IMpeg2TableFilter::RemoveTable, IMpeg2TableFilterRemoveTable, RemoveTable method [Microsoft TV Technologies], RemoveTable method [Microsoft TV Technologies], IMpeg2TableFilter interface, RemoveTable,IMpeg2TableFilter.RemoveTable, mpeg2data/IMpeg2TableFilter::RemoveTable, mstv.impeg2tablefilter_removetable
 ms.prod: windows-hardware
 ms.technology: windows-devices

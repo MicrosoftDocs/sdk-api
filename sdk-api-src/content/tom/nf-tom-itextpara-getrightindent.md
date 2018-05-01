@@ -7,7 +7,7 @@ old-location: controls\ITextPara_GetRightIndent.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getrightindent.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: GetRightIndent method [Windows Controls], GetRightIndent method [Windows Controls], ITextPara interface, GetRightIndent,ITextPara.GetRightIndent, ITextPara, ITextPara interface [Windows Controls], GetRightIndent method, ITextPara::GetRightIndent, _win32_ITextPara_GetRightIndent, _win32_ITextPara_GetRightIndent_cpp, controls.ITextPara_GetRightIndent, controls._win32_ITextPara_GetRightIndent, tom/ITextPara::GetRightIndent
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: indexsrv\ifilter_bindregion.htm
 old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_8bam.htm
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/11/2018
 ms.keywords: BindRegion method [Indexing Service], BindRegion method [Indexing Service], IFilter interface, BindRegion,IFilter.BindRegion, IFilter, IFilter interface [Indexing Service], BindRegion method, IFilter::BindRegion, _idxs_IFilter_BindRegion, filter/IFilter::BindRegion, indexsrv.ifilter_bindregion
 ms.prod: windows-hardware
 ms.technology: windows-devices

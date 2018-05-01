@@ -7,7 +7,7 @@ old-location: dshow\imemallocatornotifycallbacktemp_notifyrelease.htm
 old-project: DirectShow
 ms.assetid: deb5d97c-67f7-48ae-b408-1af89477b1b7
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IMemAllocatorNotifyCallbackTemp, IMemAllocatorNotifyCallbackTemp interface [DirectShow], NotifyRelease method, IMemAllocatorNotifyCallbackTemp::NotifyRelease, IMemAllocatorNotifyCallbackTempNotifyRelease, NotifyRelease method [DirectShow], NotifyRelease method [DirectShow], IMemAllocatorNotifyCallbackTemp interface, NotifyRelease,IMemAllocatorNotifyCallbackTemp.NotifyRelease, dshow.imemallocatornotifycallbacktemp_notifyrelease, strmif/IMemAllocatorNotifyCallbackTemp::NotifyRelease
 ms.prod: windows-hardware
 ms.technology: windows-devices

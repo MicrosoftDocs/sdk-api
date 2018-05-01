@@ -7,7 +7,7 @@ old-location: security\cryptcatadminreleasecatalogcontext.htm
 old-project: SecCrypto
 ms.assetid: 6cc13013-2c0a-4934-a866-30b69cbcf934
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: CryptCATAdminReleaseCatalogContext, CryptCATAdminReleaseCatalogContext function [Security], mscat/CryptCATAdminReleaseCatalogContext, security.cryptcatadminreleasecatalogcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: ACMSTREAMHEADER, *PACMSTREAMHEADER, *LPACMSTREAMHEADER
+req.typenames: KSP_PINMODE, *PKSP_PINMODE
 topic_type:
 -	APIRef
 -	kbSyntax

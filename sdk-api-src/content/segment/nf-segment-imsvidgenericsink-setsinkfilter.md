@@ -7,7 +7,7 @@ old-location: mstv\imsvidgenericsink_setsinkfilter.htm
 old-project: mstv
 ms.assetid: 51a26dc5-a551-4f97-9dd4-6522a14989a8
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidGenericSink, IMSVidGenericSink interface [Microsoft TV Technologies], SetSinkFilter method, IMSVidGenericSink::SetSinkFilter, IMSVidGenericSinkSetSinkFilter, SetSinkFilter method [Microsoft TV Technologies], SetSinkFilter method [Microsoft TV Technologies], IMSVidGenericSink interface, SetSinkFilter,IMSVidGenericSink.SetSinkFilter, mstv.imsvidgenericsink_setsinkfilter, segment/IMSVidGenericSink::SetSinkFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidGenericSink::SetSinkFilter method

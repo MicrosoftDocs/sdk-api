@@ -7,7 +7,7 @@ old-location: dshow\iamwstdecoder_setcurrentpage.htm
 old-project: DirectShow
 ms.assetid: 84f8854d-77a7-4ae3-9fec-c4d6fce7eead
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMWstDecoder, IAMWstDecoder interface [DirectShow], SetCurrentPage method, IAMWstDecoder::SetCurrentPage, IAMWstDecoderSetCurrentPage, SetCurrentPage method [DirectShow], SetCurrentPage method [DirectShow], IAMWstDecoder interface, SetCurrentPage,IAMWstDecoder.SetCurrentPage, dshow.iamwstdecoder_setcurrentpage, iwstdec/IAMWstDecoder::SetCurrentPage
 ms.prod: windows-hardware
 ms.technology: windows-devices

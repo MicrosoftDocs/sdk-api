@@ -7,7 +7,7 @@ old-location: com\ipropertypage_setpagesite.htm
 old-project: com
 ms.assetid: a57f3f0c-53c0-4ddf-9827-df912f263a9e
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IPropertyPage, IPropertyPage interface [COM], SetPageSite method, IPropertyPage::SetPageSite, SetPageSite method [COM], SetPageSite method [COM], IPropertyPage interface, SetPageSite,IPropertyPage.SetPageSite, _ctrl_ipropertypage_setpagesite, com.ipropertypage_setpagesite, ocidl/IPropertyPage::SetPageSite
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IPropertyPage::SetPageSite method

@@ -7,7 +7,7 @@ old-location: winauto\iaccpropserver.htm
 old-project: WinAuto
 ms.assetid: e82dfa58-9b36-4e42-9275-c09bad7bc730
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: IAccPropServer, IAccPropServer interface [Windows Accessibility], IAccPropServer interface [Windows Accessibility], described, msaa.iaccpropserver, oleacc/IAccPropServer, winauto.iaccpropserver
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Oleacc.lib
 req.dll: Oleacc.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IAccPropServer interface

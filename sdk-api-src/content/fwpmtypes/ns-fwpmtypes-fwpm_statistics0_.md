@@ -7,7 +7,7 @@ old-location: fwp\fwpm_statistics0.htm
 old-project: FWP
 ms.assetid: c3ac6871-79b1-4378-8f3c-a56e85fd2a3b
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: FWPM_STATISTICS0, FWPM_STATISTICS0 structure [Filtering], FWPM_STATISTICS0_, fwp.fwpm_statistics0, fwpmtypes/FWPM_STATISTICS0
 ms.prod: windows-hardware
 ms.technology: windows-devices

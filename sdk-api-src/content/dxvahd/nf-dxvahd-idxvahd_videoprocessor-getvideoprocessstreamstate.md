@@ -7,7 +7,7 @@ old-location: mf\idxvahd_videoprocessor_getvideoprocessstreamstate.htm
 old-project: medfound
 ms.assetid: 1ceeae95-d67d-4f11-b815-f4eef517e7ce
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetVideoProcessStreamState method [Media Foundation], GetVideoProcessStreamState method [Media Foundation], IDXVAHD_VideoProcessor interface, GetVideoProcessStreamState,IDXVAHD_VideoProcessor.GetVideoProcessStreamState, IDXVAHD_VideoProcessor, IDXVAHD_VideoProcessor interface [Media Foundation], GetVideoProcessStreamState method, IDXVAHD_VideoProcessor::GetVideoProcessStreamState, dxvahd/IDXVAHD_VideoProcessor::GetVideoProcessStreamState, mf.idxvahd_videoprocessor_getvideoprocessstreamstate
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winprog\wsc_security_signature_status.htm
 old-project: DevNotes
 ms.assetid: 1D09F5C6-F5A4-40A5-836B-25709E3017B9
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/13/2018
 ms.keywords: WSC_SECURITY_PRODUCT_OUT_OF_DATE, WSC_SECURITY_PRODUCT_UP_TO_DATE, WSC_SECURITY_SIGNATURE_STATUS, WSC_SECURITY_SIGNATURE_STATUS enumeration [Windows API], _WSC_SECURITY_SIGNATURE_STATUS, iwscapi/WSC_SECURITY_PRODUCT_OUT_OF_DATE, iwscapi/WSC_SECURITY_PRODUCT_UP_TO_DATE, iwscapi/WSC_SECURITY_SIGNATURE_STATUS, winprog.wsc_security_signature_status
 ms.prod: windows-hardware
 ms.technology: windows-devices

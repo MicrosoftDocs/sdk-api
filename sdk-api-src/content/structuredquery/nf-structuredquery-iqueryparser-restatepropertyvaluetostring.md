@@ -7,7 +7,7 @@ old-location: search\_search_IQueryParser_RestatePropertyValueToString.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iqueryparser\restatepropertyvaluetostring.htm
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/24/2018
 ms.keywords: IQueryParser, IQueryParser interface [search], RestatePropertyValueToString method, IQueryParser::RestatePropertyValueToString, RestatePropertyValueToString method [search], RestatePropertyValueToString method [search], IQueryParser interface, RestatePropertyValueToString,IQueryParser.RestatePropertyValueToString, _search_IQueryParser_RestatePropertyValueToString, search._search_IQueryParser_RestatePropertyValueToString, structuredquery/IQueryParser::RestatePropertyValueToString
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\imfmediatimerange_getlength.htm
 old-project: medfound
 ms.assetid: 0865A667-A09E-4F42-A420-4A155AD34394
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetLength method [Media Foundation], GetLength method [Media Foundation], IMFMediaTimeRange interface, GetLength,IMFMediaTimeRange.GetLength, IMFMediaTimeRange, IMFMediaTimeRange interface [Media Foundation], GetLength method, IMFMediaTimeRange::GetLength, mf.imfmediatimerange_getlength, mfmediaengine/IMFMediaTimeRange::GetLength
 ms.prod: windows-hardware
 ms.technology: windows-devices

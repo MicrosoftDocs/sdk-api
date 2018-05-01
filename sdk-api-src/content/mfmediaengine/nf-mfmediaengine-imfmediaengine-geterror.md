@@ -7,7 +7,7 @@ old-location: mf\imfmediaengine_geterror.htm
 old-project: medfound
 ms.assetid: F8A51AF8-8D73-47BC-ADA2-7F5108587873
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetError method [Media Foundation], GetError method [Media Foundation], IMFMediaEngine interface, GetError,IMFMediaEngine.GetError, IMFMediaEngine, IMFMediaEngine interface [Media Foundation], GetError method, IMFMediaEngine::GetError, mf.imfmediaengine_geterror, mfmediaengine/IMFMediaEngine::GetError
 ms.prod: windows-hardware
 ms.technology: windows-devices

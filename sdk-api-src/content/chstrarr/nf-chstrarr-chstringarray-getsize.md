@@ -7,7 +7,7 @@ old-location: wmi\chstringarray_getsize.htm
 old-project: WmiSdk
 ms.assetid: 5db50c38-a9c7-4711-925e-291cebf2b6f1
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: "?GetSize@CHStringArray@@QEBAHXZ, CHStringArray, CHStringArray interface [Windows Management Instrumentation], GetSize method, CHStringArray::GetSize, GetSize method [Windows Management Instrumentation], GetSize method [Windows Management Instrumentation], CHStringArray interface, GetSize,CHStringArray.GetSize, _hmm_chstringarray_getsize, chstrarr/CHStringArray::GetSize, wmi.chstringarray_getsize"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CF_SYNC_ROOT_STANDARD_INFO
+req.typenames: CF_SYNC_STATUS
 topic_type:
 -	APIRef
 -	kbSyntax

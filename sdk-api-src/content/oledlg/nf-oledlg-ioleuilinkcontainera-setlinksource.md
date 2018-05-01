@@ -7,7 +7,7 @@ old-location: com\ioleuilinkcontainer_setlinksource.htm
 old-project: com
 ms.assetid: c76723e8-e895-4ba1-9ba1-7e56a44cc5f2
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IOleUILinkContainer interface [COM], SetLinkSource method, IOleUILinkContainer::SetLinkSource, IOleUILinkContainerA, IOleUILinkContainerA interface [COM], SetLinkSource method, IOleUILinkContainerA::SetLinkSource, IOleUILinkContainerW interface [COM], SetLinkSource method, IOleUILinkContainerW::SetLinkSource, SetLinkSource method [COM], SetLinkSource method [COM], IOleUILinkContainer interface, SetLinkSource method [COM], IOleUILinkContainerA interface, SetLinkSource method [COM], IOleUILinkContainerW interface, SetLinkSource,IOleUILinkContainerA.SetLinkSource, com.ioleuilinkcontainer_setlinksource, ole_IOleUILinkContainer_SetLinkSource, oledlg/IOleUILinkContainer::SetLinkSource, oledlg/IOleUILinkContainerA::SetLinkSource, oledlg/IOleUILinkContainerW::SetLinkSource
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IOleUILinkContainerA::SetLinkSource method

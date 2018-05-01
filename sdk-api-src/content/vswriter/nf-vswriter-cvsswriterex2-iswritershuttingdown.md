@@ -7,7 +7,7 @@ old-location: base\cvsswriterex2_iswritershuttingdown.htm
 old-project: VSS
 ms.assetid: 78ea5993-ee86-435b-a225-8cb6e5f1a240
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: CVssWriterEx2, CVssWriterEx2 interface, IsWriterShuttingDown method, CVssWriterEx2::IsWriterShuttingDown, IsWriterShuttingDown method, IsWriterShuttingDown method, CVssWriterEx2 interface, IsWriterShuttingDown,CVssWriterEx2.IsWriterShuttingDown, base.cvsswriterex2_iswritershuttingdown, vswriter/CVssWriterEx2::IsWriterShuttingDown
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\imfasfstreamselector_getoutputmutexcount.htm
 old-project: medfound
 ms.assetid: d6e98595-3307-47f5-806d-796350c78cec
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetOutputMutexCount method [Media Foundation], GetOutputMutexCount method [Media Foundation], IMFASFStreamSelector interface, GetOutputMutexCount,IMFASFStreamSelector.GetOutputMutexCount, IMFASFStreamSelector, IMFASFStreamSelector interface [Media Foundation], GetOutputMutexCount method, IMFASFStreamSelector::GetOutputMutexCount, d6e98595-3307-47f5-806d-796350c78cec, mf.imfasfstreamselector_getoutputmutexcount, wmcontainer/IMFASFStreamSelector::GetOutputMutexCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

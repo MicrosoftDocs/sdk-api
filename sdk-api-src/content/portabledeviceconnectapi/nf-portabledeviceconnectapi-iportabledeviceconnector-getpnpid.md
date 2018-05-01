@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledeviceconnector_getpnpid.htm
 old-project: wpd_sdk
 ms.assetid: 39e7702a-f23e-4f04-8524-06a0fcc025a1
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/11/2018
 ms.keywords: GetPnPID method [Windows Portable Devices SDK], GetPnPID method [Windows Portable Devices SDK], IPortableDeviceConnector interface, GetPnPID,IPortableDeviceConnector.GetPnPID, IPortableDeviceConnector, IPortableDeviceConnector interface [Windows Portable Devices SDK], GetPnPID method, IPortableDeviceConnector::GetPnPID, devpkey/IPortableDeviceConnector::GetPnPID, portabledeviceconnectapi/IPortableDeviceConnector::GetPnPID, wpdsdk.iportabledeviceconnector_getpnpid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: WPD_WHITE_BALANCE_SETTINGS
+req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: PortableDeviceGuids.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IPortableDeviceConnector::GetPnPID method

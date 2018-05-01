@@ -7,7 +7,7 @@ old-location: cos\icontextproperties_count.htm
 old-project: cossdk
 ms.assetid: 96259fe8-138d-498e-8be0-1fe1cc3f0d83
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: Count method [COM+], Count method [COM+], IContextProperties interface, Count,IContextProperties.Count, IContextProperties, IContextProperties interface [COM+], Count method, IContextProperties::Count, _cos_IContextProperties_Count, comsvcs/IContextProperties::Count, cos.icontextproperties_count
 ms.prod: windows-hardware
 ms.technology: windows-devices

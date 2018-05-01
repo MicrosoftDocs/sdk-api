@@ -7,7 +7,7 @@ old-location: ics\inetfwopenport_enabled.htm
 old-project: ICS
 ms.assetid: f4fc7a4f-abc5-486a-89c8-dfea17770f3c
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: Enabled property [ICS/ICF], Enabled property [ICS/ICF], INetFwOpenPort interface, INetFwOpenPort, INetFwOpenPort interface [ICS/ICF], Enabled property, INetFwOpenPort.Enabled, INetFwOpenPort::get_Enabled, INetFwOpenPort::put_Enabled, get_Enabled,INetFwOpenPort.get_Enabled, ics.inetfwopenport_enabled, netfw/INetFwOpenPort::Enabled, netfw/INetFwOpenPort::get_Enabled, netfw/INetFwOpenPort::put_Enabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: 
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # INetFwOpenPort::get_Enabled method

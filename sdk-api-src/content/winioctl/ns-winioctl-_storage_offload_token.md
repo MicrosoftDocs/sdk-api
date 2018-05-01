@@ -7,7 +7,7 @@ old-location: base\storage_offload_token.htm
 old-project: DevIO
 ms.assetid: e33550d6-8d98-4fbb-8e61-d309f0e8e867
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/3/2018
 ms.keywords: "*PSTORAGE_OFFLOAD_TOKEN, PSTORAGE_OFFLOAD_TOKEN, PSTORAGE_OFFLOAD_TOKEN structure pointer, STORAGE_OFFLOAD_TOKEN, STORAGE_OFFLOAD_TOKEN structure, STORAGE_OFFLOAD_TOKEN_TYPE_WELL_KNOWN, _STORAGE_OFFLOAD_TOKEN, base.storage_offload_token, winioctl/PSTORAGE_OFFLOAD_TOKEN, winioctl/STORAGE_OFFLOAD_TOKEN"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,19 +62,6 @@ Contains the token used to represent a portion of a file used in by offload read
 
 
 
-### -field DUMMYUNIONNAME
-
- 
-
-
-### -field DUMMYUNIONNAME.StorageOffloadZeroDataToken
-
-
-### -field DUMMYUNIONNAME.StorageOffloadZeroDataToken.Reserved2
-
-Reserved.
-
-
 ### -field TokenType
 
 A 32-bit unsigned integer which defines the type of <b>Token</b>.
@@ -108,6 +95,19 @@ Reserved.
 ### -field TokenIdLength
 
 The length of the token data in <b>Token</b>.
+
+
+### -field DUMMYUNIONNAME
+
+ 
+
+
+### -field DUMMYUNIONNAME.StorageOffloadZeroDataToken
+
+
+### -field DUMMYUNIONNAME.StorageOffloadZeroDataToken.Reserved2
+
+Reserved.
 
 
 #### - Token

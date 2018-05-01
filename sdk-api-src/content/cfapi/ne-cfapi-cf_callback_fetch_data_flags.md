@@ -67,7 +67,7 @@ No data fetch flag.
 Flag to be used if the callback is invoked as a result of previously interrupted hydration process.
 
 
-#### - CF_CALLBACK_FETCH_DATA_FLAG_EXPLICIT_HYDRATION
+### -field CF_CALLBACK_FETCH_DATA_FLAG_EXPLICIT_HYDRATION
 
 <b>Note</b>  This value is new for Windows 10, version 1803.
 

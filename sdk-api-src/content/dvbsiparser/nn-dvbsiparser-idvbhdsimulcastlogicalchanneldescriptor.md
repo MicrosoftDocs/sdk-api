@@ -7,7 +7,7 @@ old-location: mstv\idvbhdsimulcastlogicalchanneldescriptor.htm
 old-project: mstv
 ms.assetid: 39ba28a6-0798-4049-82f6-1969822f4933
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IDvbHDSimulcastLogicalChannelDescriptor, IDvbHDSimulcastLogicalChannelDescriptor interface [Microsoft TV Technologies], IDvbHDSimulcastLogicalChannelDescriptor interface [Microsoft TV Technologies], described, dvbsiparser/IDvbHDSimulcastLogicalChannelDescriptor, mstv.idvbhdsimulcastlogicalchanneldescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices

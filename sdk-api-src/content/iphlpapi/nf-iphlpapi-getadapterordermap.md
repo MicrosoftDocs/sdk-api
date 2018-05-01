@@ -7,7 +7,7 @@ old-location: iphlp\getadapterordermap.htm
 old-project: IpHlp
 ms.assetid: 43d7429b-6874-4ea6-bbf0-67456af520bc
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 4/13/2018
 ms.keywords: GetAdapterOrderMap, GetAdapterOrderMap function [IP Helper], iphlp.getadapterordermap, iphlpapi/GetAdapterOrderMap
 ms.prod: windows-hardware
 ms.technology: windows-devices

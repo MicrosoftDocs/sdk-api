@@ -7,7 +7,7 @@ old-location: dshow\iammediatypestream_setstreamallocatorrequirements.htm
 old-project: DirectShow
 ms.assetid: d34a00dd-e863-4356-97f9-da3776ecb47b
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMMediaTypeStream, IAMMediaTypeStream interface [DirectShow], SetStreamAllocatorRequirements method, IAMMediaTypeStream::SetStreamAllocatorRequirements, IAMMediaTypeStreamSetStreamAllocatorRequirements, SetStreamAllocatorRequirements method [DirectShow], SetStreamAllocatorRequirements method [DirectShow], IAMMediaTypeStream interface, SetStreamAllocatorRequirements,IAMMediaTypeStream.SetStreamAllocatorRequirements, amstream/IAMMediaTypeStream::SetStreamAllocatorRequirements, dshow.iammediatypestream_setstreamallocatorrequirements
 ms.prod: windows-hardware
 ms.technology: windows-devices

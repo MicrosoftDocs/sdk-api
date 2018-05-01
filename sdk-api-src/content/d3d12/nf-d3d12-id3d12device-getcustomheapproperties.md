@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device_getcustomheapproperties.htm
 old-project: direct3d12
 ms.assetid: FD1A7C77-24C3-49D5-8F20-01D5FF7FC895
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: GetCustomHeapProperties method, GetCustomHeapProperties method, ID3D12Device interface, GetCustomHeapProperties,ID3D12Device.GetCustomHeapProperties, ID3D12Device, ID3D12Device interface, GetCustomHeapProperties method, ID3D12Device::GetCustomHeapProperties, d3d12/ID3D12Device::GetCustomHeapProperties, direct3d12.id3d12device_getcustomheapproperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

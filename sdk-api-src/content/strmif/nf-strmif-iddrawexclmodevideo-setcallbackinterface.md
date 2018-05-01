@@ -7,7 +7,7 @@ old-location: dshow\iddrawexclmodevideo_setcallbackinterface.htm
 old-project: DirectShow
 ms.assetid: f8f885fe-d1a2-4635-9f30-d57ac0eb905e
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IDDrawExclModeVideo, IDDrawExclModeVideo interface [DirectShow], SetCallbackInterface method, IDDrawExclModeVideo::SetCallbackInterface, IDDrawExclModeVideoSetCallbackInterface, SetCallbackInterface method [DirectShow], SetCallbackInterface method [DirectShow], IDDrawExclModeVideo interface, SetCallbackInterface,IDDrawExclModeVideo.SetCallbackInterface, dshow.iddrawexclmodevideo_setcallbackinterface, strmif/IDDrawExclModeVideo::SetCallbackInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices

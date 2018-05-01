@@ -7,7 +7,7 @@ old-location: dshow\imediacontrol_get_regfiltercollection.htm
 old-project: DirectShow
 ms.assetid: 55257cef-2777-4a88-8805-e474e3b13c75
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IMediaControl, IMediaControl interface [DirectShow], get_RegFilterCollection method, IMediaControl::get_RegFilterCollection, IMediaControlget_RegFilterCollection, control/IMediaControl::get_RegFilterCollection, dshow.imediacontrol_get_regfiltercollection, get_RegFilterCollection method [DirectShow], get_RegFilterCollection method [DirectShow], IMediaControl interface, get_RegFilterCollection,IMediaControl.get_RegFilterCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices

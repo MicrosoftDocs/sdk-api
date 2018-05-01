@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomation3_RemoveTextEditTextChangedEventHandle
 old-project: WinAuto
 ms.assetid: CCB8C8FC-B0CF-2C3D-64B5-9CCF1BB64058
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: IUIAutomation3, IUIAutomation3 interface [Windows Accessibility], RemoveTextEditTextChangedEventHandler method, IUIAutomation3::RemoveTextEditTextChangedEventHandler, RemoveTextEditTextChangedEventHandler method [Windows Accessibility], RemoveTextEditTextChangedEventHandler method [Windows Accessibility], IUIAutomation3 interface, RemoveTextEditTextChangedEventHandler,IUIAutomation3.RemoveTextEditTextChangedEventHandler, uiautomationclient/IUIAutomation3::RemoveTextEditTextChangedEventHandler, winauto.uiauto_IUIAutomation3_RemoveTextEditTextChangedEventHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices

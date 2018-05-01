@@ -7,7 +7,7 @@ old-location: winauto\iswineventhookinstalled.htm
 old-project: WinAuto
 ms.assetid: bc1e97ad-748d-420a-8c9a-72a555b685e1
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: IsWinEventHookInstalled, IsWinEventHookInstalled function [Windows Accessibility], _msaa_IsWinEventHookInstalled, msaa.iswineventhookinstalled, winauto.iswineventhookinstalled, winuser/IsWinEventHookInstalled
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\cryptsetproviderex.htm
 old-project: SecCrypto
 ms.assetid: 5f0c2724-5144-4a22-a7da-2a5162f06f5d
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: CRYPT_DELETE_DEFAULT, CRYPT_MACHINE_DEFAULT, CRYPT_USER_DEFAULT, CryptSetProviderEx, CryptSetProviderEx function [Security], CryptSetProviderExA, CryptSetProviderExW, _crypto2_cryptsetproviderex, security.cryptsetproviderex, wincrypt/CryptSetProviderEx, wincrypt/CryptSetProviderExA, wincrypt/CryptSetProviderExW
 ms.prod: windows-hardware
 ms.technology: windows-devices

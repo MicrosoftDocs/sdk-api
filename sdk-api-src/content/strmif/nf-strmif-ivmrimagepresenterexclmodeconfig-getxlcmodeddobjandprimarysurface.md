@@ -7,7 +7,7 @@ old-location: dshow\ivmrimagepresenterexclmodeconfig_getxlcmodeddobjandprimarysu
 old-project: DirectShow
 ms.assetid: 09b756de-7fd2-44d8-9ef3-6b5dc56cb8b3
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetXlcModeDDObjAndPrimarySurface, GetXlcModeDDObjAndPrimarySurface method [DirectShow], GetXlcModeDDObjAndPrimarySurface method [DirectShow], IVMRImagePresenterExclModeConfig interface, GetXlcModeDDObjAndPrimarySurface,IVMRImagePresenterExclModeConfig.GetXlcModeDDObjAndPrimarySurface, IVMRImagePresenterExclModeConfig, IVMRImagePresenterExclModeConfig interface [DirectShow], GetXlcModeDDObjAndPrimarySurface method, IVMRImagePresenterExclModeConfig::GetXlcModeDDObjAndPrimarySurface, dshow.ivmrimagepresenterexclmodeconfig_getxlcmodeddobjandprimarysurface, strmif/IVMRImagePresenterExclModeConfig::GetXlcModeDDObjAndPrimarySurface
 ms.prod: windows-hardware
 ms.technology: windows-devices

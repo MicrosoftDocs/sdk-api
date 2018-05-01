@@ -7,7 +7,7 @@ old-location: mstv\ixdstorat_init.htm
 old-project: mstv
 ms.assetid: c7c38755-46d3-4100-ba14-c153c4a6a517
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IXDSToRat, IXDSToRat interface [Microsoft TV Technologies], Init method, IXDSToRat::Init, IXDSToRatInit, Init method [Microsoft TV Technologies], Init method [Microsoft TV Technologies], IXDSToRat interface, Init,IXDSToRat.Init, mstv.ixdstorat_init, tvratings/IXDSToRat::Init
 ms.prod: windows-hardware
 ms.technology: windows-devices

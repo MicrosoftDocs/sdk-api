@@ -7,7 +7,7 @@ old-location: security\iazapplications_newenum.htm
 old-project: SecAuthZ
 ms.assetid: 8c01c1b4-d3e0-40c2-b0b7-524423c38c45
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: AzApplications object [Security], _NewEnum property, IAzApplications, IAzApplications interface [Security], _NewEnum property, IAzApplications._NewEnum, IAzApplications::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security], AzApplications object, _NewEnum property [Security], IAzApplications interface, azroles/IAzApplications::_NewEnum, azroles/IAzApplications::get__NewEnum, get__NewEnum,IAzApplications.get__NewEnum, security.iazapplications_newenum
 ms.prod: windows-hardware
 ms.technology: windows-devices

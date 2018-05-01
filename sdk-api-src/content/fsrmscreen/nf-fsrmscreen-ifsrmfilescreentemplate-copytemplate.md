@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmfilescreentemplate_copytemplate.htm
 old-project: Fsrm
 ms.assetid: c6c69f15-9a7c-43f4-9d68-a54c333453f5
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: CopyTemplate method [File Server Resource Manager], CopyTemplate method [File Server Resource Manager], IFsrmFileScreenTemplate interface, CopyTemplate,IFsrmFileScreenTemplate.CopyTemplate, IFsrmFileScreenTemplate, IFsrmFileScreenTemplate interface [File Server Resource Manager], CopyTemplate method, IFsrmFileScreenTemplate::CopyTemplate, fs.ifsrmfilescreentemplate_copytemplate, fsrm.ifsrmfilescreentemplate_copytemplate, fsrmscreen/IFsrmFileScreenTemplate::CopyTemplate
 ms.prod: windows-hardware
 ms.technology: windows-devices

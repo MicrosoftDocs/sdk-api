@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxdoc_get_coverpagesubject_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_6svo.htm
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/18/2018
 ms.keywords: CoverpageSubject property [Fax Service], CoverpageSubject property [Fax Service], FaxDoc object, FaxDoc object [Fax Service], CoverpageSubject property, IFaxDoc, IFaxDoc::get_CoverpageSubject, _mfax_ifaxdoc_get_coverpagesubject, fax._mfax_ifaxdoc_get_coverpagesubject, fax._mfax_ifaxdoc_get_coverpagesubject_vb, get_CoverpageSubject,IFaxDoc.get_CoverpageSubject
 ms.prod: windows-hardware
 ms.technology: windows-devices

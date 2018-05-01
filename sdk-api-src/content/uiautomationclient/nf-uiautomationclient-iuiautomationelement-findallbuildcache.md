@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement_FindAllBuildCache.htm
 old-project: WinAuto
 ms.assetid: acf16f88-2b68-4fd4-b715-b3a61340bdd0
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: FindAllBuildCache method [Windows Accessibility], FindAllBuildCache method [Windows Accessibility], IUIAutomationElement interface, FindAllBuildCache,IUIAutomationElement.FindAllBuildCache, IUIAutomationElement, IUIAutomationElement interface [Windows Accessibility], FindAllBuildCache method, IUIAutomationElement::FindAllBuildCache, uiauto.uiauto_IUIAutomationElement_FindAllBuildCache, uiauto_IUIAutomationElement_FindAllBuildCache, uiautomationclient/IUIAutomationElement::FindAllBuildCache, winauto.uiauto_IUIAutomationElement_FindAllBuildCache
 ms.prod: windows-hardware
 ms.technology: windows-devices

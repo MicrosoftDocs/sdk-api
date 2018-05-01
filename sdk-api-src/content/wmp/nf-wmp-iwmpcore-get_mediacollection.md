@@ -7,7 +7,7 @@ old-location: wmp\iwmpcore_get_mediacollection.htm
 old-project: WMP
 ms.assetid: 41b090ca-edf0-440e-b578-26c5ad064657
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPCore, IWMPCore interface [Windows Media Player], get_mediaCollection method, IWMPCore::get_mediaCollection, IWMPCoreget_mediaCollection, get_mediaCollection method [Windows Media Player], get_mediaCollection method [Windows Media Player], IWMPCore interface, get_mediaCollection,IWMPCore.get_mediaCollection, wmp.iwmpcore_get_mediacollection, wmp/IWMPCore::get_mediaCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices

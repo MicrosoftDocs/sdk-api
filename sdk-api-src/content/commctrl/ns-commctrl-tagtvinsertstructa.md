@@ -7,7 +7,7 @@ old-location: controls\TVINSERTSTRUCT.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\treeview\structures\tvinsertstruct.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: "*LPTVINSERTSTRUCTA, LPTVINSERTSTRUCT, LPTVINSERTSTRUCT structure pointer [Windows Controls], TVINSERTSTRUCT, TVINSERTSTRUCT structure [Windows Controls], TVINSERTSTRUCTA, TVINSERTSTRUCTW, TVI_FIRST, TVI_LAST, TVI_ROOT, TVI_SORT, _win32_TVINSERTSTRUCT, _win32_TVINSERTSTRUCT_cpp, commctrl/LPTVINSERTSTRUCT, commctrl/TVINSERTSTRUCT, commctrl/TVINSERTSTRUCTA, commctrl/TVINSERTSTRUCTW, controls.TVINSERTSTRUCT, controls._win32_TVINSERTSTRUCT, tagTVINSERTSTRUCTA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -57,27 +57,6 @@ Contains information used to add a new item to a tree-view control. This structu
 ## -struct-fields
 
 
-
-
-### -field DUMMYUNIONNAME
-
-
-
-#### itemex
-
-<b>Type: <b><a href="https://msdn.microsoft.com/a1112639-fe6d-432a-8b0a-b914bcb30e11">TVITEMEX</a></b>
-</b>
-
-<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 4.71</a>. <a href="https://msdn.microsoft.com/a1112639-fe6d-432a-8b0a-b914bcb30e11">TVITEMEX</a> structure that contains information about the item to add. 
-
-
-
-#### item
-
-<b>Type: <b><a href="https://msdn.microsoft.com/8e97f293-3cfb-4320-9781-639dfda1bbfe">TVITEM</a></b>
-</b>
-
-<a href="https://msdn.microsoft.com/8e97f293-3cfb-4320-9781-639dfda1bbfe">TVITEM</a> structure that contains information about the item to add. 
 
 
 ### -field hParent
@@ -140,6 +119,27 @@ Inserts the item into the list in alphabetical order.
 </tr>
 </table>
  
+
+
+### -field DUMMYUNIONNAME
+
+
+
+#### itemex
+
+<b>Type: <b><a href="https://msdn.microsoft.com/a1112639-fe6d-432a-8b0a-b914bcb30e11">TVITEMEX</a></b>
+</b>
+
+<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 4.71</a>. <a href="https://msdn.microsoft.com/a1112639-fe6d-432a-8b0a-b914bcb30e11">TVITEMEX</a> structure that contains information about the item to add. 
+
+
+
+#### item
+
+<b>Type: <b><a href="https://msdn.microsoft.com/8e97f293-3cfb-4320-9781-639dfda1bbfe">TVITEM</a></b>
+</b>
+
+<a href="https://msdn.microsoft.com/8e97f293-3cfb-4320-9781-639dfda1bbfe">TVITEM</a> structure that contains information about the item to add. 
 
 
 #### - item

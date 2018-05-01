@@ -7,7 +7,7 @@ old-location: coreaudio\ihardwareaudioenginebase_setgfxstate.htm
 old-project: CoreAudio
 ms.assetid: 1B90A629-D41A-4339-918B-DAAF577EB699
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: IHardwareAudioEngineBase, IHardwareAudioEngineBase interface [Core Audio], SetGfxState method, IHardwareAudioEngineBase::SetGfxState, SetGfxState method [Core Audio], SetGfxState method [Core Audio], IHardwareAudioEngineBase interface, SetGfxState,IHardwareAudioEngineBase.SetGfxState, audioengineendpoint/IHardwareAudioEngineBase::SetGfxState, coreaudio.ihardwareaudioenginebase_setgfxstate
 ms.prod: windows-hardware
 ms.technology: windows-devices

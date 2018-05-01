@@ -7,7 +7,7 @@ old-location: dshow\idirectdrawvideo_useoverlaystretch.htm
 old-project: DirectShow
 ms.assetid: e617b40d-ba5b-4fc8-825e-3c751f72bc2c
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IDirectDrawVideo, IDirectDrawVideo interface [DirectShow], UseOverlayStretch method, IDirectDrawVideo::UseOverlayStretch, IDirectDrawVideoUseOverlayStretch, UseOverlayStretch method [DirectShow], UseOverlayStretch method [DirectShow], IDirectDrawVideo interface, UseOverlayStretch,IDirectDrawVideo.UseOverlayStretch, amvideo/IDirectDrawVideo::UseOverlayStretch, dshow.idirectdrawvideo_useoverlaystretch
 ms.prod: windows-hardware
 ms.technology: windows-devices

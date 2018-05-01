@@ -7,7 +7,7 @@ old-location: ics\inetfwrule_localports.htm
 old-project: ICS
 ms.assetid: 72c4f00c-d5c4-4d93-892b-ec9a63f8df09
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: ""*", "RPC", "RPC-EPMap", "Teredo", INetFwRule, INetFwRule interface [ICS/ICF], LocalPorts property, INetFwRule.LocalPorts, INetFwRule::get_LocalPorts, INetFwRule::put_LocalPorts, LocalPorts property [ICS/ICF], LocalPorts property [ICS/ICF], INetFwRule interface, ics.inetfwrule_localports, netfw/INetFwRule::LocalPorts, netfw/INetFwRule::get_LocalPorts, netfw/INetFwRule::put_LocalPorts, put_LocalPorts,INetFwRule.put_LocalPorts"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: 
 req.dll: FirewallAPI.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # INetFwRule::put_LocalPorts method

@@ -7,7 +7,7 @@ old-location: winprog\ixmlelementcollection_item.htm
 old-project: DevNotes
 ms.assetid: 3851fe72-b826-4948-ba74-638229429345
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/13/2018
 ms.keywords: IXMLElementCollection, IXMLElementCollection interface [Windows API], item method, IXMLElementCollection::item, item method [Windows API], item method [Windows API], IXMLElementCollection interface, item,IXMLElementCollection.item, msxml/IXMLElementCollection::item, winprog.ixmlelementcollection_item
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Msxml.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IXMLElementCollection::item method

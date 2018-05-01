@@ -7,7 +7,7 @@ old-location: perf\pdhlookupperfindexbyname.htm
 old-project: PerfCtrs
 ms.assetid: b8530bf3-0a9b-49c2-9494-4dca14cd57ef
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/23/2018
 ms.keywords: PdhLookupPerfIndexByName, PdhLookupPerfIndexByName function [Perf], PdhLookupPerfIndexByNameA, PdhLookupPerfIndexByNameW, _win32_pdhlookupperfindexbyname, base.pdhlookupperfindexbyname, pdh/PdhLookupPerfIndexByName, pdh/PdhLookupPerfIndexByNameA, pdh/PdhLookupPerfIndexByNameW, perf.pdhlookupperfindexbyname
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: Pdh.lib
 req.dll: Pdh.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # PdhLookupPerfIndexByNameA function

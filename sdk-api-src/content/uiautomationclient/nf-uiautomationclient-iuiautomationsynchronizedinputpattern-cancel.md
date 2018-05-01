@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationSynchronizedInputPattern_Cancel.htm
 old-project: WinAuto
 ms.assetid: bf6d5507-b51c-4aaf-ab8f-3b9d88bf7bba
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: Cancel method [Windows Accessibility], Cancel method [Windows Accessibility], IUIAutomationSynchronizedInputPattern interface, Cancel,IUIAutomationSynchronizedInputPattern.Cancel, IUIAutomationSynchronizedInputPattern, IUIAutomationSynchronizedInputPattern interface [Windows Accessibility], Cancel method, IUIAutomationSynchronizedInputPattern::Cancel, uiauto.uiauto_IUIAutomationSynchronizedInputPattern_Cancel, uiauto_IUIAutomationSynchronizedInputPattern_Cancel, uiautomationclient/IUIAutomationSynchronizedInputPattern::Cancel, winauto.uiauto_IUIAutomationSynchronizedInputPattern_Cancel
 ms.prod: windows-hardware
 ms.technology: windows-devices

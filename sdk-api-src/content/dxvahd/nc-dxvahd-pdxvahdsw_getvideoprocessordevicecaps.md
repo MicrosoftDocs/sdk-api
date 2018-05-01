@@ -7,7 +7,7 @@ old-location: mf\pdxvahdsw_getvideoprocessordevicecaps.htm
 old-project: medfound
 ms.assetid: 09753e3b-7235-4204-ad08-a083a7db4a2b
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: PDXVAHDSW_GetVideoProcessorDeviceCaps, PDXVAHDSW_GetVideoProcessorDeviceCaps function pointer [Media Foundation], dxvahd/PDXVAHDSW_GetVideoProcessorDeviceCaps, mf.pdxvahdsw_getvideoprocessordevicecaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: DXVA2_VideoSample
+req.typenames: DXVA_COPPStatusSignalingCmdData
 topic_type:
 -	APIRef
 -	kbSyntax

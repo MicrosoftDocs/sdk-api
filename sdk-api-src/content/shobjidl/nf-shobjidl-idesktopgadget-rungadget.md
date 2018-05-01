@@ -7,7 +7,7 @@ old-location: shell\IDesktopGadget_RunGadget.htm
 old-project: shell
 ms.assetid: 9243fd88-122f-40be-ab71-66c52fa99168
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IDesktopGadget, IDesktopGadget interface [Windows Shell], RunGadget method, IDesktopGadget::RunGadget, RunGadget method [Windows Shell], RunGadget method [Windows Shell], IDesktopGadget interface, RunGadget,IDesktopGadget.RunGadget, _shell_IDesktopGadget_RunGadget, shell.IDesktopGadget_RunGadget, shobjidl/IDesktopGadget::RunGadget
 ms.prod: windows-hardware
 ms.technology: windows-devices

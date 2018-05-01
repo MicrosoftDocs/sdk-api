@@ -7,7 +7,7 @@ old-location: security\credfindbestcredential.htm
 old-project: SecAuthN
 ms.assetid: b39e3167-dd63-4b81-b850-f3117be348a5
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/24/2018
 ms.keywords: CredFindBestCredential, CredFindBestCredential function [Security], CredFindBestCredentialA, CredFindBestCredentialW, security.credfindbestcredential, wincred/CredFindBestCredential, wincred/CredFindBestCredentialA, wincred/CredFindBestCredentialW
 ms.prod: windows-hardware
 ms.technology: windows-devices

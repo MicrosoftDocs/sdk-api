@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationAnnotationPattern_CachedTarget.htm
 old-project: WinAuto
 ms.assetid: AAE5557B-4851-4B72-8C42-083457CD75CC
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: CachedTarget property [Windows Accessibility], CachedTarget property [Windows Accessibility], IUIAutomationAnnotationPattern interface, IUIAutomationAnnotationPattern, IUIAutomationAnnotationPattern interface [Windows Accessibility], CachedTarget property, IUIAutomationAnnotationPattern.CachedTarget, IUIAutomationAnnotationPattern::get_CachedTarget, get_CachedTarget,IUIAutomationAnnotationPattern.get_CachedTarget, uiautomationclient/IUIAutomationAnnotationPattern::CachedTarget, uiautomationclient/IUIAutomationAnnotationPattern::get_CachedTarget, winauto.uiauto_IUIAutomationAnnotationPattern_CachedTarget
 ms.prod: windows-hardware
 ms.technology: windows-devices

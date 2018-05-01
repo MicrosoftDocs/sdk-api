@@ -7,7 +7,7 @@ old-location: termserv\iwtsprotocolconnection_getlicenseconnection.htm
 old-project: TermServ
 ms.assetid: 714e2479-54b2-4899-9fbd-68fa35051f58
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: GetLicenseConnection method [Remote Desktop Services], GetLicenseConnection method [Remote Desktop Services], IWTSProtocolConnection interface, GetLicenseConnection,IWTSProtocolConnection.GetLicenseConnection, IWTSProtocolConnection, IWTSProtocolConnection interface [Remote Desktop Services], GetLicenseConnection method, IWTSProtocolConnection::GetLicenseConnection, termserv.iwtsprotocolconnection_getlicenseconnection, wtsprotocol/IWTSProtocolConnection::GetLicenseConnection
 ms.prod: windows-hardware
 ms.technology: windows-devices

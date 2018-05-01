@@ -7,7 +7,7 @@ old-location: mf\imfnetproxylocator_registerproxyresult.htm
 old-project: medfound
 ms.assetid: 2b1a55c6-7d78-47cc-9098-6504d11a4eef
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 2b1a55c6-7d78-47cc-9098-6504d11a4eef, IMFNetProxyLocator, IMFNetProxyLocator interface [Media Foundation], RegisterProxyResult method, IMFNetProxyLocator::RegisterProxyResult, RegisterProxyResult method [Media Foundation], RegisterProxyResult method [Media Foundation], IMFNetProxyLocator interface, RegisterProxyResult,IMFNetProxyLocator.RegisterProxyResult, mf.imfnetproxylocator_registerproxyresult, mfidl/IMFNetProxyLocator::RegisterProxyResult
 ms.prod: windows-hardware
 ms.technology: windows-devices

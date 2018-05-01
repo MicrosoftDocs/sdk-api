@@ -7,7 +7,7 @@ old-location: shell\IEnumSyncMgrConflict_Skip.htm
 old-project: shell
 ms.assetid: d636dd60-835f-40a8-b2e6-7d7ebf87e897
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IEnumSyncMgrConflict, IEnumSyncMgrConflict interface [Windows Shell], Skip method, IEnumSyncMgrConflict::Skip, Skip method [Windows Shell], Skip method [Windows Shell], IEnumSyncMgrConflict interface, Skip,IEnumSyncMgrConflict.Skip, _shell_IEnumSyncMgrConflict_Skip, shell.IEnumSyncMgrConflict_Skip, syncmgr/IEnumSyncMgrConflict::Skip
 ms.prod: windows-hardware
 ms.technology: windows-devices

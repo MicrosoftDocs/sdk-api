@@ -7,7 +7,7 @@ old-location: base\signalobjectandwait.htm
 old-project: Sync
 ms.assetid: 2b1ce22b-8edb-4685-99f4-4fc38eec202a
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: SignalObjectAndWait, SignalObjectAndWait function, _win32_signalobjectandwait, base.signalobjectandwait, winbase/SignalObjectAndWait
 ms.prod: windows-hardware
 ms.technology: windows-devices

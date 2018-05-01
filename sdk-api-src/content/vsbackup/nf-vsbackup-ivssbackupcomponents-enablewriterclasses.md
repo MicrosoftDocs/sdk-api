@@ -7,7 +7,7 @@ old-location: base\ivssbackupcomponents_enablewriterclasses.htm
 old-project: VSS
 ms.assetid: 27dae374-f3c4-44a5-a0d7-3edb647f0593
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: EnableWriterClasses method [VSS], EnableWriterClasses method [VSS], IVssBackupComponents interface, EnableWriterClasses,IVssBackupComponents.EnableWriterClasses, IVssBackupComponents, IVssBackupComponents interface [VSS], EnableWriterClasses method, IVssBackupComponents::EnableWriterClasses, _win32_ivssbackupcomponents_enablewriterclasses, base.ivssbackupcomponents_enablewriterclasses, vsbackup/IVssBackupComponents::EnableWriterClasses
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _QOS_DESTADDR structure
@@ -60,9 +60,11 @@ The QOS object
 
 
 
-### -field sockaddr
+### -field ObjectHdr
 
- 
+The QOS object 
+<a href="https://msdn.microsoft.com/a2021d70-e7ef-4c2a-8800-1a1d7540ce02">QOS_OBJECT_HDR</a>. The object type for this QOS object should be 
+<b>QOS_DESTADDR</b>.
 
 
 ### -field SocketAddress
@@ -70,11 +72,9 @@ The QOS object
 Address of the destination socket.
 
 
-### -field ObjectHdr
+### -field sockaddr
 
-The QOS object 
-<a href="https://msdn.microsoft.com/a2021d70-e7ef-4c2a-8800-1a1d7540ce02">QOS_OBJECT_HDR</a>. The object type for this QOS object should be 
-<b>QOS_DESTADDR</b>.
+ 
 
 
 ### -field SocketAddressLength

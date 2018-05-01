@@ -7,7 +7,7 @@ old-location: base\ivssprovidercreatesnapshotset_postcommitsnapshots.htm
 old-project: VSS
 ms.assetid: 191b263b-1bcf-4617-95d4-5b4c1ed714ee
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: IVssProviderCreateSnapshotSet, IVssProviderCreateSnapshotSet interface [VSS], PostCommitSnapshots method, IVssProviderCreateSnapshotSet::PostCommitSnapshots, PostCommitSnapshots method [VSS], PostCommitSnapshots method [VSS], IVssProviderCreateSnapshotSet interface, PostCommitSnapshots,IVssProviderCreateSnapshotSet.PostCommitSnapshots, base.ivssprovidercreatesnapshotset_postcommitsnapshots, vsprov/IVssProviderCreateSnapshotSet::PostCommitSnapshots
 ms.prod: windows-hardware
 ms.technology: windows-devices

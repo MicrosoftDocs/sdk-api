@@ -7,7 +7,7 @@ old-location: dhcp\dhcpgetserverspecificstrings.htm
 old-project: DHCP
 ms.assetid: dc283fa3-6077-4010-8c71-9dc91ed2dadf
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/7/2018
 ms.keywords: DhcpGetServerSpecificStrings, DhcpGetServerSpecificStrings function [DHCP], dhcp.dhcpgetserverspecificstrings, dhcpsapi/DhcpGetServerSpecificStrings
 ms.prod: windows-hardware
 ms.technology: windows-devices

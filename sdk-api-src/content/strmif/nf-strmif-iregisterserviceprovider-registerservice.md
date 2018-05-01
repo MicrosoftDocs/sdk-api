@@ -7,7 +7,7 @@ old-location: dshow\iregisterserviceprovider_registerservice.htm
 old-project: DirectShow
 ms.assetid: be8c3a89-687e-4a53-9fd0-0ec676e27ce0
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IRegisterServiceProvider, IRegisterServiceProvider interface [DirectShow], RegisterService method, IRegisterServiceProvider::RegisterService, IRegisterServiceProviderRegisterService, RegisterService method [DirectShow], RegisterService method [DirectShow], IRegisterServiceProvider interface, RegisterService,IRegisterServiceProvider.RegisterService, dshow.iregisterserviceprovider_registerservice, strmif/IRegisterServiceProvider::RegisterService
 ms.prod: windows-hardware
 ms.technology: windows-devices

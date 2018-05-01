@@ -7,7 +7,7 @@ old-location: wmformat\iwmsinternaladminnetsource_registerproxyfailure.htm
 old-project: wmformat
 ms.assetid: 50a41a98-2827-425e-91fc-5196996abe98
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMSInternalAdminNetSource, IWMSInternalAdminNetSource interface [windows Media Format], RegisterProxyFailure method, IWMSInternalAdminNetSource::RegisterProxyFailure, RegisterProxyFailure method [windows Media Format], RegisterProxyFailure method [windows Media Format], IWMSInternalAdminNetSource interface, RegisterProxyFailure,IWMSInternalAdminNetSource.RegisterProxyFailure, wmformat.iwmsinternaladminnetsource_registerproxyfailure, wmsinternaladminnetsource/IWMSInternalAdminNetSource::RegisterProxyFailure
 ms.prod: windows-hardware
 ms.technology: windows-devices

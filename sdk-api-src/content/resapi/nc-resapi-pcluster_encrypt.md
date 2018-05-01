@@ -7,7 +7,7 @@ old-location: mscs\clusterencrypt.htm
 old-project: MsCS
 ms.assetid: 5C15E553-D6C6-47F7-B6DE-E7CA4795CA87
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: PCLUSTER_ENCRYPT, PCLUSTER_ENCRYPT callback function [Failover Cluster], mscs.clusterencrypt, resapi/PCLUSTER_ENCRYPT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # PCLUSTER_ENCRYPT callback

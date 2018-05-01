@@ -7,7 +7,7 @@ old-location: xaudio2\ixaudio2_interface_startengine.htm
 old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2.IXAudio2.StartEngine
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/20/2018
 ms.keywords: IXAudio2, IXAudio2 interface [XAudio2 Audio Mixing APIs], StartEngine method, IXAudio2::StartEngine, StartEngine method [XAudio2 Audio Mixing APIs], StartEngine method [XAudio2 Audio Mixing APIs], IXAudio2 interface, StartEngine,IXAudio2.StartEngine, xaudio2.ixaudio2_interface_startengine, xaudio2/IXAudio2::StartEngine
 ms.prod: windows-hardware
 ms.technology: windows-devices

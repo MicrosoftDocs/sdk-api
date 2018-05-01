@@ -7,7 +7,7 @@ old-location: com\iconnectionpoint_getconnectioninterface.htm
 old-project: com
 ms.assetid: d97bda43-0d4f-4ae2-b3d8-2c47d25de01a
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: GetConnectionInterface method [COM], GetConnectionInterface method [COM], IConnectionPoint interface, GetConnectionInterface,IConnectionPoint.GetConnectionInterface, IConnectionPoint, IConnectionPoint interface [COM], GetConnectionInterface method, IConnectionPoint::GetConnectionInterface, _com_iconnectionpoint_getconnectioninterface, com.iconnectionpoint_getconnectioninterface, ocidl/IConnectionPoint::GetConnectionInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IConnectionPoint::GetConnectionInterface method

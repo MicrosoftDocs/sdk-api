@@ -7,7 +7,7 @@ old-location: tapi3\itdigitsgatheredevent_get_callbackinstance.htm
 old-project: Tapi
 ms.assetid: 28c613bc-8320-43b5-a9b3-b6a47876d7dd
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: ITDigitsGatheredEvent, ITDigitsGatheredEvent interface [TAPI 2.2], get_CallbackInstance method, ITDigitsGatheredEvent::get_CallbackInstance, _tapi3_itdigitsgatheredevent_get_callbackinstance, get_CallbackInstance method [TAPI 2.2], get_CallbackInstance method [TAPI 2.2], ITDigitsGatheredEvent interface, get_CallbackInstance,ITDigitsGatheredEvent.get_CallbackInstance, tapi3.itdigitsgatheredevent_get_callbackinstance, tapi3if/ITDigitsGatheredEvent::get_CallbackInstance
 ms.prod: windows-hardware
 ms.technology: windows-devices

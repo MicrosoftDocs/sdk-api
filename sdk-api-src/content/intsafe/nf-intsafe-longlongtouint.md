@@ -7,7 +7,7 @@ old-location: shell\LongLongToUInt.htm
 old-project: shell
 ms.assetid: e9bb0a51-3593-4074-8ea1-10fb9f0d8087
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: LongLongToUInt, LongLongToUInt function [Windows Shell], intsafe/LongLongToUInt, shell.LongLongToUInt
 ms.prod: windows-hardware
 ms.technology: windows-devices

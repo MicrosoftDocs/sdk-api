@@ -7,7 +7,7 @@ old-location: mstv\imsvidvideorendererevent2.htm
 old-project: mstv
 ms.assetid: a73ab8f4-724f-4d61-909e-7d43a3e373e3
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidVideoRendererEvent2, IMSVidVideoRendererEvent2 interface [Microsoft TV Technologies], IMSVidVideoRendererEvent2 interface [Microsoft TV Technologies], described, mstv.imsvidvideorendererevent2, segment/IMSVidVideoRendererEvent2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidVideoRendererEvent2 interface

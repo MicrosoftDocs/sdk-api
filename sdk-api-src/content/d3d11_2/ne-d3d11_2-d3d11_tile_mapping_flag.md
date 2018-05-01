@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_tile_mapping_flags.htm
 old-project: direct3d11
 ms.assetid: 13B4665C-F8A2-45A7-BBE9-FEB45FB08963
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/6/2018
 ms.keywords: D3D11_TILE_MAPPING_FLAG, D3D11_TILE_MAPPING_FLAG enumeration [Direct3D 11], D3D11_TILE_MAPPING_NO_OVERWRITE, d3d11_2/D3D11_TILE_MAPPING_FLAG, d3d11_2/D3D11_TILE_MAPPING_NO_OVERWRITE, direct3d11.d3d11_tile_mapping_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices

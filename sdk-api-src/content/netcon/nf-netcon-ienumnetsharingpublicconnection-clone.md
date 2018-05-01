@@ -7,7 +7,7 @@ old-location: ics\ienumnetsharingpublicconnection_clone.htm
 old-project: ICS
 ms.assetid: 5343acd3-d148-442c-a1d7-226248556f17
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: Clone method [ICS/ICF], Clone method [ICS/ICF], IEnumNetSharingPublicConnection interface, Clone,IEnumNetSharingPublicConnection.Clone, IEnumNetSharingPublicConnection, IEnumNetSharingPublicConnection interface [ICS/ICF], Clone method, IEnumNetSharingPublicConnection::Clone, _ics_ienumnetsharingpublicconnection_clone, ics.ienumnetsharingpublicconnection_clone, netcon/IEnumNetSharingPublicConnection::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IEnumNetSharingPublicConnection::Clone method

@@ -7,7 +7,7 @@ old-location: base\jobobject_basic_process_id_list_str.htm
 old-project: ProcThread
 ms.assetid: fae42f3b-d4bd-4126-aa19-47f046ced09f
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: "*PJOBOBJECT_BASIC_PROCESS_ID_LIST, JOBOBJECT_BASIC_PROCESS_ID_LIST, JOBOBJECT_BASIC_PROCESS_ID_LIST structure, PJOBOBJECT_BASIC_PROCESS_ID_LIST, PJOBOBJECT_BASIC_PROCESS_ID_LIST structure pointer, _JOBOBJECT_BASIC_PROCESS_ID_LIST, _win32_jobobject_basic_process_id_list_str, base.jobobject_basic_process_id_list_str, winnt/JOBOBJECT_BASIC_PROCESS_ID_LIST, winnt/PJOBOBJECT_BASIC_PROCESS_ID_LIST"
 ms.prod: windows-hardware
 ms.technology: windows-devices

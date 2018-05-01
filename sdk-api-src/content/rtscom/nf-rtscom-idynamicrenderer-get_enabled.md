@@ -7,7 +7,7 @@ old-location: tablet\idynamicrenderer_enabled.htm
 old-project: tablet
 ms.assetid: b226d146-af96-4a51-aa11-8b2fe057a4b2
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: Enabled property [Tablet PC], Enabled property [Tablet PC], IDynamicRenderer interface, IDynamicRenderer, IDynamicRenderer interface [Tablet PC], Enabled property, IDynamicRenderer.Enabled, IDynamicRenderer.get_Enabled, IDynamicRenderer.put_Enabled, IDynamicRenderer::get_Enabled, IDynamicRenderer::put_Enabled, b226d146-af96-4a51-aa11-8b2fe057a4b2, get_Enabled,IDynamicRenderer.get_Enabled, rtscom/IDynamicRenderer::Enabled, rtscom/IDynamicRenderer::get_Enabled, rtscom/IDynamicRenderer::put_Enabled, tablet.idynamicrenderer_enabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,7 +45,7 @@ targetos: Windows
 req.lib: 
 req.dll: RTSCom.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IDynamicRenderer::get_Enabled method

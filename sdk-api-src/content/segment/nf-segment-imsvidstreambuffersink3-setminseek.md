@@ -7,7 +7,7 @@ old-location: mstv\imsvidstreambuffersink3_setminseek.htm
 old-project: mstv
 ms.assetid: 2f7a7323-c9da-47f9-95e2-dd13fc023373
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidStreamBufferSink3, IMSVidStreamBufferSink3 interface [Microsoft TV Technologies], SetMinSeek method, IMSVidStreamBufferSink3::SetMinSeek, IMSVidStreamBufferSink3SetMinSeek, SetMinSeek method [Microsoft TV Technologies], SetMinSeek method [Microsoft TV Technologies], IMSVidStreamBufferSink3 interface, SetMinSeek,IMSVidStreamBufferSink3.SetMinSeek, mstv.imsvidstreambuffersink3_setminseek, segment/IMSVidStreamBufferSink3::SetMinSeek
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidStreamBufferSink3::SetMinSeek method

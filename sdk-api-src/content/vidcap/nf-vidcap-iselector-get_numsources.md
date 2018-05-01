@@ -7,7 +7,7 @@ old-location: dshow\iselector_get_numsources.htm
 old-project: DirectShow
 ms.assetid: ff04e32f-7902-417e-b0d4-125914928679
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ISelector, ISelector interface [DirectShow], get_NumSources method, ISelector::get_NumSources, ISelectorget_NumSources, dshow.iselector_get_numsources, get_NumSources method [DirectShow], get_NumSources method [DirectShow], ISelector interface, get_NumSources,ISelector.get_NumSources, vidcap/ISelector::get_NumSources
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: VIDEOHDR, *PVIDEOHDR, *LPVIDEOHDR
+req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
 topic_type:
 -	APIRef
 -	kbSyntax

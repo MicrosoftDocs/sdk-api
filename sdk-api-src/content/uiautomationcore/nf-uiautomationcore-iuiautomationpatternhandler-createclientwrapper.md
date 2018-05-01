@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationPatternHandler_CreateClientWrapper.htm
 old-project: WinAuto
 ms.assetid: 03530381-52f8-4d9b-a54c-faebf7cd4a06
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: CreateClientWrapper method [Windows Accessibility], CreateClientWrapper method [Windows Accessibility], IUIAutomationPatternHandler interface, CreateClientWrapper,IUIAutomationPatternHandler.CreateClientWrapper, IUIAutomationPatternHandler, IUIAutomationPatternHandler interface [Windows Accessibility], CreateClientWrapper method, IUIAutomationPatternHandler::CreateClientWrapper, uiauto.uiauto_IUIAutomationPatternHandler_CreateClientWrapper, uiauto_IUIAutomationPatternHandler_CreateClientWrapper, uiautomationcore/IUIAutomationPatternHandler::CreateClientWrapper, winauto.uiauto_IUIAutomationPatternHandler_CreateClientWrapper
 ms.prod: windows-hardware
 ms.technology: windows-devices

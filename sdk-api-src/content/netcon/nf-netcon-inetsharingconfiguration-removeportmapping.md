@@ -7,7 +7,7 @@ old-location: ics\inetsharingconfiguration_removeportmapping.htm
 old-project: ICS
 ms.assetid: 2790aced-a3a9-425d-9e0f-fe8df4fcb934
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: INetSharingConfiguration, INetSharingConfiguration interface [ICS/ICF], RemovePortMapping method, INetSharingConfiguration::RemovePortMapping, RemovePortMapping method [ICS/ICF], RemovePortMapping method [ICS/ICF], INetSharingConfiguration interface, RemovePortMapping,INetSharingConfiguration.RemovePortMapping, _ics_inetsharingconfiguration_removeportmapping, ics.inetsharingconfiguration_removeportmapping, netcon/INetSharingConfiguration::RemovePortMapping
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # INetSharingConfiguration::RemovePortMapping method

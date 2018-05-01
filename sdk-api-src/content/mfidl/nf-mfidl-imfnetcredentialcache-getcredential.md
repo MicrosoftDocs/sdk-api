@@ -7,7 +7,7 @@ old-location: mf\imfnetcredentialcache_getcredential.htm
 old-project: medfound
 ms.assetid: 7e095445-354a-4fbb-b354-bf87eb77552f
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 7e095445-354a-4fbb-b354-bf87eb77552f, GetCredential method [Media Foundation], GetCredential method [Media Foundation], IMFNetCredentialCache interface, GetCredential,IMFNetCredentialCache.GetCredential, IMFNetCredentialCache, IMFNetCredentialCache interface [Media Foundation], GetCredential method, IMFNetCredentialCache::GetCredential, mf.imfnetcredentialcache_getcredential, mfidl/IMFNetCredentialCache::GetCredential
 ms.prod: windows-hardware
 ms.technology: windows-devices

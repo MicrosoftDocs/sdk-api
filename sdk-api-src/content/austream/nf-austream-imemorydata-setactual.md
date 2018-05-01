@@ -7,7 +7,7 @@ old-location: dshow\imemorydata_setactual.htm
 old-project: DirectShow
 ms.assetid: 22d9c24b-deb0-429a-ad9c-f6d286c7cdeb
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IMemoryData, IMemoryData interface [DirectShow], SetActual method, IMemoryData::SetActual, IMemoryDataSetActual, SetActual method [DirectShow], SetActual method [DirectShow], IMemoryData interface, SetActual,IMemoryData.SetActual, austream/IMemoryData::SetActual, dshow.imemorydata_setactual
 ms.prod: windows-hardware
 ms.technology: windows-devices

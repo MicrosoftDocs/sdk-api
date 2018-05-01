@@ -7,7 +7,7 @@ old-location: wmformat\iwmprofile_createnewmutualexclusion.htm
 old-project: wmformat
 ms.assetid: fcf3a549-5ae1-459a-95b9-923570f59a4a
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: CreateNewMutualExclusion method [windows Media Format], CreateNewMutualExclusion method [windows Media Format], IWMProfile interface, CreateNewMutualExclusion method [windows Media Format], IWMProfile2 interface, CreateNewMutualExclusion method [windows Media Format], IWMProfile3 interface, CreateNewMutualExclusion,IWMProfile.CreateNewMutualExclusion, IWMProfile, IWMProfile interface [windows Media Format], CreateNewMutualExclusion method, IWMProfile2 interface [windows Media Format], CreateNewMutualExclusion method, IWMProfile2::CreateNewMutualExclusion, IWMProfile3 interface [windows Media Format], CreateNewMutualExclusion method, IWMProfile3::CreateNewMutualExclusion, IWMProfile::CreateNewMutualExclusion, IWMProfileCreateNewMutualExclusion, wmformat.iwmprofile_createnewmutualexclusion, wmsdkidl/IWMProfile2::CreateNewMutualExclusion, wmsdkidl/IWMProfile3::CreateNewMutualExclusion, wmsdkidl/IWMProfile::CreateNewMutualExclusion
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: nwifi\onex_auth_params.htm
 old-project: NativeWiFi
 ms.assetid: a5dcd546-abe5-4553-baa8-656d37b263a3
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/13/2018
 ms.keywords: "*PONEX_AUTH_PARAMS, ONEX_AUTH_PARAMS, ONEX_AUTH_PARAMS structure [NativeWIFI], PONEX_AUTH_PARAMS, PONEX_AUTH_PARAMS structure pointer [NativeWIFI], _ONEX_AUTH_PARAMS, dot1x/ONEX_AUTH_PARAMS, dot1x/PONEX_AUTH_PARAMS, nwifi.onex_auth_params"
 ms.prod: windows-hardware
 ms.technology: windows-devices

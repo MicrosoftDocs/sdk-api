@@ -7,7 +7,7 @@ old-location: upnp\iupnpserviceasync_endinvokeaction.htm
 old-project: UPnP
 ms.assetid: 1B10F8E9-D3C9-432B-B773-77B4BB82224C
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/25/2018
 ms.keywords: EndInvokeAction method [UPnP APIs], EndInvokeAction method [UPnP APIs], IUPnPServiceAsync interface, EndInvokeAction,IUPnPServiceAsync.EndInvokeAction, IUPnPServiceAsync, IUPnPServiceAsync interface [UPnP APIs], EndInvokeAction method, IUPnPServiceAsync::EndInvokeAction, upnp.iupnpserviceasync_endinvokeaction, upnp/IUPnPServiceAsync::EndInvokeAction
 ms.prod: windows-hardware
 ms.technology: windows-devices

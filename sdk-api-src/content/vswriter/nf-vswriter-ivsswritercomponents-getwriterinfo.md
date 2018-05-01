@@ -7,7 +7,7 @@ old-location: base\ivsswritercomponents_getwriterinfo.htm
 old-project: VSS
 ms.assetid: 22a539ac-1440-4fe9-b68e-feec97cab6c8
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: GetWriterInfo method [VSS], GetWriterInfo method [VSS], IVssWriterComponents interface, GetWriterInfo,IVssWriterComponents.GetWriterInfo, IVssWriterComponents, IVssWriterComponents interface [VSS], GetWriterInfo method, IVssWriterComponents::GetWriterInfo, _win32_ivsswritercomponents_getwriterinfo, base.ivsswritercomponents_getwriterinfo, vswriter/IVssWriterComponents::GetWriterInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

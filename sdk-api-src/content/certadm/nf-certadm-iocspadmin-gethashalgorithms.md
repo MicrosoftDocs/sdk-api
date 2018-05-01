@@ -7,7 +7,7 @@ old-location: security\iocspadmin_gethashalgorithms.htm
 old-project: SecCrypto
 ms.assetid: aa131478-0456-4ae8-82a6-5dc8eaa293e0
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: GetHashAlgorithms method [Security], GetHashAlgorithms method [Security], IOCSPAdmin interface, GetHashAlgorithms,IOCSPAdmin.GetHashAlgorithms, IOCSPAdmin, IOCSPAdmin interface [Security], GetHashAlgorithms method, IOCSPAdmin::GetHashAlgorithms, certadm/IOCSPAdmin::GetHashAlgorithms, security.iocspadmin_gethashalgorithms
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CHANNEL_ENTRY_POINTS, *PCHANNEL_ENTRY_POINTS
+req.typenames: 
 topic_type:
 -	APIRef
 -	kbSyntax

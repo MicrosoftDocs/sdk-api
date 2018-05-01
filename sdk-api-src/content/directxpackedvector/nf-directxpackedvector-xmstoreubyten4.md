@@ -7,7 +7,7 @@ old-location: dxmath\xmstoreubyten4.htm
 old-project: dxmath
 ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreUByteN4(XMUBYTEN4@,XMVECTOR)
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/23/2018
 ms.keywords: DirectX::PackedVector.XMStoreUByteN4, XMStoreUByteN4, XMStoreUByteN4 method [DirectX Math Support APIs], dxmath.xmstoreubyten4
 ms.prod: windows-hardware
 ms.technology: windows-devices

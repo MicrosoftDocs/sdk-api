@@ -7,7 +7,7 @@ old-location: wmformat\iwmreadernetworkconfig_getenabletcp.htm
 old-project: wmformat
 ms.assetid: 6623c2f9-24cb-4038-9aa5-2eb634b3f1a2
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: GetEnableTCP method [windows Media Format], GetEnableTCP method [windows Media Format], IWMReaderNetworkConfig interface, GetEnableTCP,IWMReaderNetworkConfig.GetEnableTCP, IWMReaderNetworkConfig, IWMReaderNetworkConfig interface [windows Media Format], GetEnableTCP method, IWMReaderNetworkConfig::GetEnableTCP, IWMReaderNetworkConfigGetEnableTCP, wmformat.iwmreadernetworkconfig_getenabletcp, wmsdkidl/IWMReaderNetworkConfig::GetEnableTCP
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmp\iwmpevents3.htm
 old-project: WMP
 ms.assetid: 654b7d78-97d4-4770-9729-dd1fed0431d9
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPEvents3, IWMPEvents3 interface [Windows Media Player], IWMPEvents3 interface [Windows Media Player], described, IWMPEvents3Interface, wmp.iwmpevents3, wmp/IWMPEvents3
 ms.prod: windows-hardware
 ms.technology: windows-devices

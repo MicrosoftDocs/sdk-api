@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11vertexshader.htm
 old-project: direct3d11
 ms.assetid: 8300ec12-ecf5-49c2-9313-b542a7d971f3
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/6/2018
 ms.keywords: ID3D11VertexShader, ID3D11VertexShader interface [Direct3D 11], ID3D11VertexShader interface [Direct3D 11], described, b9c949e5-8c3e-0e31-c320-230e1c67dfaf, d3d11/ID3D11VertexShader, direct3d11.id3d11vertexshader
 ms.prod: windows-hardware
 ms.technology: windows-devices

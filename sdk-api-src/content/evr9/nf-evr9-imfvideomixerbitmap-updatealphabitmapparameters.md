@@ -7,7 +7,7 @@ old-location: mf\imfvideomixerbitmap_updatealphabitmapparameters.htm
 old-project: medfound
 ms.assetid: 369bf934-b0a0-44b2-bea2-e8575404d36d
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 369bf934-b0a0-44b2-bea2-e8575404d36d, IMFVideoMixerBitmap, IMFVideoMixerBitmap interface [Media Foundation], UpdateAlphaBitmapParameters method, IMFVideoMixerBitmap::UpdateAlphaBitmapParameters, UpdateAlphaBitmapParameters method [Media Foundation], UpdateAlphaBitmapParameters method [Media Foundation], IMFVideoMixerBitmap interface, UpdateAlphaBitmapParameters,IMFVideoMixerBitmap.UpdateAlphaBitmapParameters, evr9/IMFVideoMixerBitmap::UpdateAlphaBitmapParameters, mf.imfvideomixerbitmap_updatealphabitmapparameters
 ms.prod: windows-hardware
 ms.technology: windows-devices

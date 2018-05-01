@@ -7,7 +7,7 @@ old-location: winauto\uiauto_TextRange_CloneConPat.htm
 old-project: WinAuto
 ms.assetid: df067f6b-f15f-48cf-979a-d1a9bfbdc05f
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: TextRange_Clone, TextRange_Clone function [Windows Accessibility], uiauto.uiauto_TextRange_CloneConPat, uiauto_TextRange_CloneConPat, uiautomationcoreapi/TextRange_Clone, winauto.uiauto_TextRange_CloneConPat
 ms.prod: windows-hardware
 ms.technology: windows-devices

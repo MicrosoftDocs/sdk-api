@@ -7,7 +7,7 @@ old-location: wmp\iwmpcore_get_network.htm
 old-project: WMP
 ms.assetid: 8100008a-50da-4496-9d5a-77bcca94e903
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPCore, IWMPCore interface [Windows Media Player], get_network method, IWMPCore::get_network, IWMPCoreget_network, get_network method [Windows Media Player], get_network method [Windows Media Player], IWMPCore interface, get_network,IWMPCore.get_network, wmp.iwmpcore_get_network, wmp/IWMPCore::get_network
 ms.prod: windows-hardware
 ms.technology: windows-devices

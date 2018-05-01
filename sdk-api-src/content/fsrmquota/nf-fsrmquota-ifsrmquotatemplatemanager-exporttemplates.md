@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmquotatemplatemanager_exporttemplates.htm
 old-project: Fsrm
 ms.assetid: 36ba071b-4db2-42fb-90a8-838c45dfdd16
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: ExportTemplates method [File Server Resource Manager], ExportTemplates method [File Server Resource Manager], FsrmQuotaTemplateManager class, ExportTemplates method [File Server Resource Manager], IFsrmQuotaTemplateManager interface, ExportTemplates,IFsrmQuotaTemplateManager.ExportTemplates, FsrmQuotaTemplateManager class [File Server Resource Manager], ExportTemplates method, IFsrmQuotaTemplateManager, IFsrmQuotaTemplateManager interface [File Server Resource Manager], ExportTemplates method, IFsrmQuotaTemplateManager::ExportTemplates, fs.ifsrmquotatemplatemanager_exporttemplates, fsrm.ifsrmquotatemplatemanager_exporttemplates, fsrmquota/IFsrmQuotaTemplateManager::ExportTemplates
 ms.prod: windows-hardware
 ms.technology: windows-devices

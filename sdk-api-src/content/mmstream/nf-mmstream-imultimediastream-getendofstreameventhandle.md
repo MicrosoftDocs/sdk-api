@@ -7,7 +7,7 @@ old-location: dshow\imultimediastream_getendofstreameventhandle.htm
 old-project: DirectShow
 ms.assetid: 0e4f59f8-c56e-4768-9047-2793515edfeb
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetEndOfStreamEventHandle method [DirectShow], GetEndOfStreamEventHandle method [DirectShow], IMultiMediaStream interface, GetEndOfStreamEventHandle,IMultiMediaStream.GetEndOfStreamEventHandle, IMultiMediaStream, IMultiMediaStream interface [DirectShow], GetEndOfStreamEventHandle method, IMultiMediaStream::GetEndOfStreamEventHandle, IMultiMediaStreamGetEndOfStreamEventHandle, dshow.imultimediastream_getendofstreameventhandle, mmstream/IMultiMediaStream::GetEndOfStreamEventHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

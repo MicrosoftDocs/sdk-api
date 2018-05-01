@@ -7,7 +7,7 @@ old-location: mstv\istreambufferconfigure3_setnamespace.htm
 old-project: mstv
 ms.assetid: e009e078-99f5-4da1-88ce-c07e9588c5e8
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IStreamBufferConfigure3, IStreamBufferConfigure3 interface [Microsoft TV Technologies], SetNamespace method, IStreamBufferConfigure3::SetNamespace, IStreamBufferConfigure3SetNamespace, SetNamespace method [Microsoft TV Technologies], SetNamespace method [Microsoft TV Technologies], IStreamBufferConfigure3 interface, SetNamespace,IStreamBufferConfigure3.SetNamespace, mstv.istreambufferconfigure3_setnamespace, sbe/IStreamBufferConfigure3::SetNamespace
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IStreamBufferConfigure3::SetNamespace method

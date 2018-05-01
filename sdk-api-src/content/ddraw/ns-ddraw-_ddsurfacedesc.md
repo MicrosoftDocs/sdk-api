@@ -57,11 +57,6 @@ Do not use. This structure is superseded by the <a href="https://msdn.microsoft.
 
 
 
-### -field DUMMYUNIONNAMEN
-
- 
-
-
 ### -field dwSize
 
 Size of the structure, in bytes. This member must be initialized before the structure is used.
@@ -187,6 +182,11 @@ Width of the surface to be created, in pixels.
 ### -field dwBackBufferCount
 
 Number of back buffers.
+
+
+### -field DUMMYUNIONNAMEN
+
+ 
 
 
 ### -field dwAlphaBitDepth

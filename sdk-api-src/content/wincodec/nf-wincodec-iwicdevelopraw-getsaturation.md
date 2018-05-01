@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicdevelopraw_getsaturation.htm
 old-project: wic
 ms.assetid: 621868d6-3444-48f9-a069-f52ebacd7bbb
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: GetSaturation method [Windows Imaging Component], GetSaturation method [Windows Imaging Component], IWICDevelopRaw interface, GetSaturation,IWICDevelopRaw.GetSaturation, IWICDevelopRaw, IWICDevelopRaw interface [Windows Imaging Component], GetSaturation method, IWICDevelopRaw::GetSaturation, _wic_codec_iwicdevelopraw_getsaturation, wic._wic_codec_iwicdevelopraw_getsaturation, wincodec/IWICDevelopRaw::GetSaturation
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -82,7 +82,7 @@ An opaque handle to the placeholder.
 A correlation vector on a placeholder used for telemetry purposes.
 
 
-#### - SyncStatus
+### -field SyncStatus
 
 <b>Note</b>  This member is new for Windows 10, version 1803.
 

@@ -7,7 +7,7 @@ old-location: termserv\iwtsprotocolshadowconnection_dotarget.htm
 old-project: TermServ
 ms.assetid: 437983a4-48a4-4b37-99ba-35fe1f03b3ec
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: DoTarget method [Remote Desktop Services], DoTarget method [Remote Desktop Services], IWTSProtocolShadowConnection interface, DoTarget,IWTSProtocolShadowConnection.DoTarget, IWTSProtocolShadowConnection, IWTSProtocolShadowConnection interface [Remote Desktop Services], DoTarget method, IWTSProtocolShadowConnection::DoTarget, termserv.iwtsprotocolshadowconnection_dotarget, wtsprotocol/IWTSProtocolShadowConnection::DoTarget
 ms.prod: windows-hardware
 ms.technology: windows-devices

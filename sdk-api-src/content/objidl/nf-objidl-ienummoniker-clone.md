@@ -7,7 +7,7 @@ old-location: com\ienummoniker_clone.htm
 old-project: com
 ms.assetid: 6238e556-9ef4-42c7-95ba-12468cec6b52
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: Clone method [COM], Clone method [COM], IEnumMoniker interface, Clone,IEnumMoniker.Clone, IEnumMoniker, IEnumMoniker interface [COM], Clone method, IEnumMoniker::Clone, _ole_ienummoniker_clone, com.ienummoniker_clone, objidl/IEnumMoniker::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IEnumMoniker::Clone method

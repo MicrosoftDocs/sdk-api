@@ -7,7 +7,7 @@ old-location: fwp\fwpmenginesetsecurityinfo0.htm
 old-project: FWP
 ms.assetid: 31a7f409-26c9-4804-bd74-b9ee356da84c
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: FwpmEngineSetSecurityInfo0, FwpmEngineSetSecurityInfo0 function [Filtering], fwp.fwpmenginesetsecurityinfo0, fwpmu/FwpmEngineSetSecurityInfo0
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\id3d11videoprocessorenumerator_getvideoprocessorcustomrate.htm
 old-project: medfound
 ms.assetid: 0FA868E6-B0FB-433B-A183-72DDE39B207E
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetVideoProcessorCustomRate method [Media Foundation], GetVideoProcessorCustomRate method [Media Foundation], ID3D11VideoProcessorEnumerator interface, GetVideoProcessorCustomRate,ID3D11VideoProcessorEnumerator.GetVideoProcessorCustomRate, ID3D11VideoProcessorEnumerator, ID3D11VideoProcessorEnumerator interface [Media Foundation], GetVideoProcessorCustomRate method, ID3D11VideoProcessorEnumerator::GetVideoProcessorCustomRate, d3d11/ID3D11VideoProcessorEnumerator::GetVideoProcessorCustomRate, mf.id3d11videoprocessorenumerator_getvideoprocessorcustomrate
 ms.prod: windows-hardware
 ms.technology: windows-devices

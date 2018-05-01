@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist_setgraphicsrootdescriptortabl
 old-project: direct3d12
 ms.assetid: AF182E9D-6A85-42B2-ADE4-490756AEDCE7
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: ID3D12GraphicsCommandList, ID3D12GraphicsCommandList interface, SetGraphicsRootDescriptorTable method, ID3D12GraphicsCommandList::SetGraphicsRootDescriptorTable, SetGraphicsRootDescriptorTable method, SetGraphicsRootDescriptorTable method, ID3D12GraphicsCommandList interface, SetGraphicsRootDescriptorTable,ID3D12GraphicsCommandList.SetGraphicsRootDescriptorTable, d3d12/ID3D12GraphicsCommandList::SetGraphicsRootDescriptorTable, direct3d12.id3d12graphicscommandlist_setgraphicsrootdescriptortable
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\iazbizruleinterfaces_remove_method.htm
 old-project: SecAuthZ
 ms.assetid: 398e4151-aeda-48d0-b6f5-e0ea749d0720
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: IAzBizRuleInterfaces, IAzBizRuleInterfaces interface [Security], Remove method, IAzBizRuleInterfaces::Remove, Remove method [Security], Remove method [Security], IAzBizRuleInterfaces interface, Remove,IAzBizRuleInterfaces.Remove, azroles/IAzBizRuleInterfaces::Remove, security.iazbizruleinterfaces_remove_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

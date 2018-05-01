@@ -60,14 +60,14 @@ The <b>LDAPControl</b> structure represents both client-side and server controls
 
 
 
-### -field ldctl_value
-
-The data associated with the control, if any. If no data is associated with the control, set this member to <b>NULL</b>.
-
-
 ### -field ldctl_oid
 
 Pointer to a wide, null-terminated string that indicates  control type, such as "1.2.840.113556.1.4.805".
+
+
+### -field ldctl_value
+
+The data associated with the control, if any. If no data is associated with the control, set this member to <b>NULL</b>.
 
 
 ### -field ldctl_iscritical

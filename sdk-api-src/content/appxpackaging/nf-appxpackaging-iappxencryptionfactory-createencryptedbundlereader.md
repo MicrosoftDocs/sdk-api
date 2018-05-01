@@ -7,7 +7,7 @@ old-location: appxpkg\iappxencryptionfactory_createencryptedbundlereader.htm
 old-project: appxpkg
 ms.assetid: 1802E721-9320-4B05-9C38-6C3AC3FB413C
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/26/2018
 ms.keywords: CreateEncryptedBundleReader method [App packaging and management], CreateEncryptedBundleReader method [App packaging and management], IAppxEncryptionFactory interface, CreateEncryptedBundleReader,IAppxEncryptionFactory.CreateEncryptedBundleReader, IAppxEncryptionFactory, IAppxEncryptionFactory interface [App packaging and management], CreateEncryptedBundleReader method, IAppxEncryptionFactory::CreateEncryptedBundleReader, appxpackaging/IAppxEncryptionFactory::CreateEncryptedBundleReader, appxpkg.iappxencryptionfactory_createencryptedbundlereader
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_ARCHITECTURE2
+req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
 topic_type:
 -	APIRef
 -	kbSyntax

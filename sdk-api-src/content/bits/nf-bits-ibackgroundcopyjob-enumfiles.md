@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyjob_enumfiles.htm
 old-project: Bits
 ms.assetid: c6b8ef69-9c67-447f-9f90-b6905a5a5a19
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/10/2018
 ms.keywords: EnumFiles method [BITS], EnumFiles method [BITS], IBackgroundCopyJob interface, EnumFiles,IBackgroundCopyJob.EnumFiles, IBackgroundCopyJob, IBackgroundCopyJob interface [BITS], EnumFiles method, IBackgroundCopyJob::EnumFiles, _drz_ibackgroundcopyjob_enumfiles, bits.ibackgroundcopyjob_enumfiles, bits/IBackgroundCopyJob::EnumFiles
 ms.prod: windows-hardware
 ms.technology: windows-devices

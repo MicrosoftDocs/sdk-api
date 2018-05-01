@@ -7,7 +7,7 @@ old-location: nps\SDO_identity_type.htm
 old-project: Nps
 ms.assetid: b5b5a8a3-790a-4103-a8a1-718bd77eeb7f
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/24/2018
 ms.keywords: IAS_IDENTITY_NO_DEFAULT, IDENTITY_TYPE, IDENTITY_TYPE enumeration [Network Policy Server], _IDENTITY_TYPE, nps.SDO_identity_type, sdo.identity_type, sdoias/IAS_IDENTITY_NO_DEFAULT, sdoias/IDENTITY_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _IDENTITY_TYPE enumeration

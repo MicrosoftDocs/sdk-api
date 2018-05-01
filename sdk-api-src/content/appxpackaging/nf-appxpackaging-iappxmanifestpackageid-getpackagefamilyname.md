@@ -7,7 +7,7 @@ old-location: appxpkg\iappxmanifestpackageid_getpackagefamilyname.htm
 old-project: appxpkg
 ms.assetid: A4505020-61CB-4893-AB3B-6EF0E55FD225
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/26/2018
 ms.keywords: GetPackageFamilyName method [App packaging and management], GetPackageFamilyName method [App packaging and management], IAppxManifestPackageId interface, GetPackageFamilyName,IAppxManifestPackageId.GetPackageFamilyName, IAppxManifestPackageId, IAppxManifestPackageId interface [App packaging and management], GetPackageFamilyName method, IAppxManifestPackageId::GetPackageFamilyName, appxpackaging/IAppxManifestPackageId::GetPackageFamilyName, appxpkg.iappxmanifestpackageid_getpackagefamilyname
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_ARCHITECTURE2
+req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
 topic_type:
 -	APIRef
 -	kbSyntax

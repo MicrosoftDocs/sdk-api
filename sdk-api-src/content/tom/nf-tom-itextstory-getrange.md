@@ -7,7 +7,7 @@ old-location: controls\itextstory_getrange.htm
 old-project: Controls
 ms.assetid: 7cc02056-c431-470a-83ef-99e47123da1e
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: GetRange method [Windows Controls], GetRange method [Windows Controls], ITextStory interface, GetRange,ITextStory.GetRange, ITextStory, ITextStory interface [Windows Controls], GetRange method, ITextStory::GetRange, controls.itextstory_getrange, tom/ITextStory::GetRange
 ms.prod: windows-hardware
 ms.technology: windows-devices

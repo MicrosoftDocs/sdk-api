@@ -7,7 +7,7 @@ old-location: dshow\am_dvdcopy_disckey.htm
 old-project: DirectShow
 ms.assetid: ab4d7b2d-59a6-4ad1-9120-552747b96596
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: "*PAM_DVDCOPY_DISCKEY, AM_DVDCOPY_DISCKEY, AM_DVDCOPY_DISCKEY structure [DirectShow], PAM_DVDCOPY_DISCKEY, PAM_DVDCOPY_DISCKEY structure pointer [DirectShow], _AM_DVDCOPY_DISCKEY, dshow.am_dvdcopy_disckey, dvdmedia/AM_DVDCOPY_DISCKEY, dvdmedia/PAM_DVDCOPY_DISCKEY"
 ms.prod: windows-hardware
 ms.technology: windows-devices

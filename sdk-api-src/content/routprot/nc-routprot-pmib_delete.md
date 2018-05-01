@@ -7,7 +7,7 @@ old-location: rras\mibdelete.htm
 old-project: RRAS
 ms.assetid: 3097843e-ffa6-443a-9ee8-1034f3ed474a
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: MibDelete, MibDelete callback function [RAS], PMIB_DELETE, _mpr_mibdelete, routprot/MibDelete, rras.mibdelete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: REOBJECT
+req.typenames: RO_ERROR_REPORTING_FLAGS
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # PMIB_DELETE callback

@@ -7,7 +7,7 @@ old-location: wmformat\iwmsyncreader_getoutputprops.htm
 old-project: wmformat
 ms.assetid: a5e701ea-8b53-4abe-8b78-7c6fb151d80f
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: GetOutputProps method [windows Media Format], GetOutputProps method [windows Media Format], IWMSyncReader interface, GetOutputProps,IWMSyncReader.GetOutputProps, IWMSyncReader, IWMSyncReader interface [windows Media Format], GetOutputProps method, IWMSyncReader::GetOutputProps, IWMSyncReaderGetOutputProps, wmformat.iwmsyncreader_getoutputprops, wmsdkidl/IWMSyncReader::GetOutputProps
 ms.prod: windows-hardware
 ms.technology: windows-devices

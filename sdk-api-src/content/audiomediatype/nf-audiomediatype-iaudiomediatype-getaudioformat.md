@@ -1,0 +1,93 @@
+---
+UID: NF:audiomediatype.IAudioMediaType.GetAudioFormat
+title: IAudioMediaType::GetAudioFormat method
+author: windows-driver-content
+description: The GetAudioFormat method returns the WAVEFORMATEX structure for the audio data format.
+old-location: audio\iaudiomediatype_getaudioformat.htm
+old-project: audio
+ms.assetid: 5e00e566-3209-435a-85ae-2c209f0e0eb3
+ms.author: windowsdriverdev
+ms.date: 4/16/2018
+ms.keywords: GetAudioFormat method [Audio Devices], GetAudioFormat method [Audio Devices], IAudioMediaType interface, GetAudioFormat,IAudioMediaType.GetAudioFormat, IAudioMediaType, IAudioMediaType interface [Audio Devices], GetAudioFormat method, IAudioMediaType::GetAudioFormat, audio.iaudiomediatype_getaudioformat, audio_syseffects_r_9859bef7-75b8-45eb-acc2-90c5d7ef5ee1.xml, audiomediatype/IAudioMediaType::GetAudioFormat
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: audiomediatype.h
+req.include-header: Audiomediatype.h
+req.target-type: Desktop
+req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: AE_CURRENT_POSITION, *PAE_CURRENT_POSITION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Audiomediatype.idl
+-	Audiomediatype.idl.dll
+api_name:
+-	IAudioMediaType.GetAudioFormat
+product: Windows
+targetos: Windows
+req.lib: Audiomediatype.idl
+req.dll: 
+req.irql: All levels
+---
+
+# IAudioMediaType::GetAudioFormat method
+
+
+## -description
+
+
+The <code>GetAudioFormat</code> method returns the <a href="https://msdn.microsoft.com/library/windows/hardware/ff538799">WAVEFORMATEX</a> structure for the audio data format.
+
+
+## -parameters
+
+
+
+
+
+
+#### - None
+
+
+## -returns
+
+
+
+The <code>GetAudioFormat</code> method returns a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff538799">WAVEFORMATEX</a> structure.
+
+
+
+
+## -remarks
+
+
+
+The pointer that is returned is valid only while the <b>IAudioMediaType</b> interface is referenced.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538799">WAVEFORMATEX</a>
+ 
+
+ 
+

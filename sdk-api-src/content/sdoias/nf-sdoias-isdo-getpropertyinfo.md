@@ -7,7 +7,7 @@ old-location: nps\SDO_isdo_getpropertyinfo.htm
 old-project: Nps
 ms.assetid: fa2f0209-ec78-4b59-8f01-f1534b8894c1
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/24/2018
 ms.keywords: GetPropertyInfo method [Network Policy Server], GetPropertyInfo method [Network Policy Server], ISdo interface, GetPropertyInfo,ISdo.GetPropertyInfo, ISdo, ISdo interface [Network Policy Server], GetPropertyInfo method, ISdo::GetPropertyInfo, _sdo_isdo_getpropertyinfo, nps.SDO_isdo_getpropertyinfo, sdo.isdo_getpropertyinfo, sdoias/ISdo::GetPropertyInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Iassdo.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ISdo::GetPropertyInfo method

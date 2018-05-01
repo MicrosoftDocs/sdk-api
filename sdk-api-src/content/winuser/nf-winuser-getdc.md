@@ -7,7 +7,7 @@ old-location: gdi\getdc.htm
 old-project: gdi
 ms.assetid: 50b2387b-c8e4-42a8-8f0f-0bdb355adbfd
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/17/2018
 ms.keywords: GetDC, GetDC function [Windows GDI], _win32_GetDC, gdi.getdc, winuser/GetDC
 ms.prod: windows-hardware
 ms.technology: windows-devices

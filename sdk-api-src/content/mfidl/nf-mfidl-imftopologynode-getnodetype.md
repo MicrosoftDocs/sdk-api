@@ -7,7 +7,7 @@ old-location: mf\imftopologynode_getnodetype.htm
 old-project: medfound
 ms.assetid: 64b2d2b4-1f00-412d-8188-fa361dc317a1
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 64b2d2b4-1f00-412d-8188-fa361dc317a1, GetNodeType method [Media Foundation], GetNodeType method [Media Foundation], IMFTopologyNode interface, GetNodeType,IMFTopologyNode.GetNodeType, IMFTopologyNode, IMFTopologyNode interface [Media Foundation], GetNodeType method, IMFTopologyNode::GetNodeType, mf.imftopologynode_getnodetype, mfidl/IMFTopologyNode::GetNodeType
 ms.prod: windows-hardware
 ms.technology: windows-devices

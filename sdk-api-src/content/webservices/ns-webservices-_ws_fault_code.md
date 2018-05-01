@@ -58,16 +58,16 @@ Represents a fault code.
 
 
 
-### -field subCode
-
-
-                    Pointer to the next fault code in the list.
-                
-
-
 ### -field value
 
 
                     The local name and namespace URI that identify the fault code.
+                
+
+
+### -field subCode
+
+
+                    Pointer to the next fault code in the list.
                 
 

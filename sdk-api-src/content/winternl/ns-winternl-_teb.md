@@ -7,7 +7,7 @@ old-location: base\teb.htm
 old-project: ProcThread
 ms.assetid: fc77fc09-6319-4daa-ac96-1ded661ef800
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: "*PTEB, PTEB, PTEB structure pointer, TEB, TEB structure, _TEB, base.teb, winternl/PTEB, winternl/TEB"
 ms.prod: windows-hardware
 ms.technology: windows-devices

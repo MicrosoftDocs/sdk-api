@@ -7,7 +7,7 @@ old-location: dshow\iamvideocompression_put_quality.htm
 old-project: DirectShow
 ms.assetid: 7ecc00f9-73d4-4d26-b7b0-1b6419027d69
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMVideoCompression, IAMVideoCompression interface [DirectShow], put_Quality method, IAMVideoCompression::put_Quality, IAMVideoCompressionput_Quality, dshow.iamvideocompression_put_quality, put_Quality method [DirectShow], put_Quality method [DirectShow], IAMVideoCompression interface, put_Quality,IAMVideoCompression.put_Quality, strmif/IAMVideoCompression::put_Quality
 ms.prod: windows-hardware
 ms.technology: windows-devices

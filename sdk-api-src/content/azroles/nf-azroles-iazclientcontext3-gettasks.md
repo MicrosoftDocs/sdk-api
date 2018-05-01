@@ -7,7 +7,7 @@ old-location: security\iazclientcontext3_gettasks_method.htm
 old-project: SecAuthZ
 ms.assetid: 285f0e9a-8604-4475-8a73-ed33581f87f4
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: GetTasks method [Security], GetTasks method [Security], IAzClientContext3 interface, GetTasks,IAzClientContext3.GetTasks, IAzClientContext3, IAzClientContext3 interface [Security], GetTasks method, IAzClientContext3::GetTasks, azroles/IAzClientContext3::GetTasks, security.iazclientcontext3_gettasks_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

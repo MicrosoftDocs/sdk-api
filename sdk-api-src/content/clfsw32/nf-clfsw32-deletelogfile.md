@@ -7,7 +7,7 @@ old-location: fs\deletelogfile.htm
 old-project: Clfs
 ms.assetid: a7dd8efc-b572-4591-9e46-1cd5105d4ca2
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/25/2018
 ms.keywords: DeleteLogFile, DeleteLogFile function [Files], clfsw32/DeleteLogFile, fs.deletelogfile
 ms.prod: windows-hardware
 ms.technology: windows-devices

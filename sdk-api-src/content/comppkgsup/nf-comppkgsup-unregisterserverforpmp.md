@@ -7,7 +7,7 @@ old-location: winprog\unregisterserverforpmp.htm
 old-project: DevNotes
 ms.assetid: FF89301E-FE17-4B14-872E-271BDB85A784
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/13/2018
 ms.keywords: UnregisterServerForPMP, UnregisterServerForPMP function [Windows API], comppkgsup/UnregisterServerForPMP, winprog.unregisterserverforpmp
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tapi3\itdirectory_put_defaultobjectttl.htm
 old-project: Tapi
 ms.assetid: aecadd26-648e-43ce-8331-ef4af24567ed
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: ITDirectory, ITDirectory interface [TAPI 2.2], put_DefaultObjectTTL method, ITDirectory::put_DefaultObjectTTL, _tapi3_itdirectory_put_defaultobjectttl, put_DefaultObjectTTL method [TAPI 2.2], put_DefaultObjectTTL method [TAPI 2.2], ITDirectory interface, put_DefaultObjectTTL,ITDirectory.put_DefaultObjectTTL, rend/ITDirectory::put_DefaultObjectTTL, tapi3.itdirectory_put_defaultobjectttl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Rend.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITDirectory::put_DefaultObjectTTL method

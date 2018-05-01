@@ -2,13 +2,13 @@
 UID: NF:intsafe.ULongLongSub
 title: ULongLongSub function
 author: windows-driver-content
-description: Subtracts one value of type ULONGLONG from another.
-old-location: shell\ULongLongSub.htm
+description: Subtracts one value of type SIZE_T from another.
+old-location: shell\SIZETSub_1.htm
 old-project: shell
-ms.assetid: bffec47c-6985-42e7-b7df-c0cd1f090e0c
+ms.assetid: 10c66f6a-648d-4308-9c23-384ebe273af3
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
-ms.keywords: ULongLongSub, ULongLongSub function [Windows Shell], _shell_ULongLongSub, intsafe/ULongLongSub, shell.ULongLongSub
+ms.date: 4/26/2018
+ms.keywords: SIZETSub, SIZETSub function [Windows Shell], ULongLongSub, _shell_SIZETSub, intsafe/SIZETSub, shell.SIZETSub, shell.SIZETSub_1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	Intsafe.h
 api_name:
--	ULongLongSub
+-	SIZETSub
 product: Windows
 targetos: Windows
 req.lib: 
@@ -50,7 +50,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Subtracts one value of type <b>ULONGLONG</b> from another.
+Subtracts one value of type <b>SIZE_T</b> from another.
 
 
 ## -parameters
@@ -58,23 +58,40 @@ Subtracts one value of type <b>ULONGLONG</b> from another.
 
 
 
-### -param ullMinuend [in]
+### -param ullMinuend
 
-Type: <b>ULONGLONG</b>
-
-The value from which <i>ullSubtrahend</i> is subtracted.
+TBD
 
 
-### -param ullSubtrahend [in]
+### -param ullSubtrahend
 
-Type: <b>ULONGLONG</b>
-
-The value to subtract from <i>ullMinuend</i>.
+TBD
 
 
-### -param pullResult [out]
+### -param pullResult
 
-Type: <b>ULONGLONG*</b>
+TBD
+
+
+
+
+#### - cbMinuend [in]
+
+Type: <b>SIZE_T</b>
+
+The value from which <i>cbSubtrahend</i> is subtracted.
+
+
+#### - cbSubtrahend [in]
+
+Type: <b>SIZE_T</b>
+
+The value to subtract from <i>cbMinuend</i>.
+
+
+#### - pcbResult [out]
+
+Type: <b>SIZE_T*</b>
 
 A pointer to the result. If the operation results in a value that overflows or underflows the capacity of the type, the function returns INTSAFE_E_ARITHMETIC_OVERFLOW and this parameter is not valid.
 

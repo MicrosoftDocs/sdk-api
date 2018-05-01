@@ -7,7 +7,7 @@ old-location: automat\itypeinfo_getreftypeofimpltype.htm
 old-project: automat
 ms.assetid: aec61a9a-fa4f-42cd-a74b-100cdf2c2624
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: GetRefTypeOfImplType method [Automation], GetRefTypeOfImplType method [Automation], ITypeInfo interface, GetRefTypeOfImplType,ITypeInfo.GetRefTypeOfImplType, ITypeInfo, ITypeInfo interface [Automation], GetRefTypeOfImplType method, ITypeInfo::GetRefTypeOfImplType, _oa96_ITypeInfo_GetRefTypeOfImplType, automat.itypeinfo_getreftypeofimpltype, oaidl/ITypeInfo::GetRefTypeOfImplType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITypeInfo::GetRefTypeOfImplType method

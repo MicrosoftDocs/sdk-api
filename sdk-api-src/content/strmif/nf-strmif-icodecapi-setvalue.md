@@ -7,7 +7,7 @@ old-location: dshow\icodecapi_setvalue.htm
 old-project: DirectShow
 ms.assetid: e78a310a-3605-4cb3-a0c3-7864c890c1fa
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ICodecAPI, ICodecAPI interface [DirectShow], SetValue method, ICodecAPI::SetValue, ICodecAPISetValue, SetValue method [DirectShow], SetValue method [DirectShow], ICodecAPI interface, SetValue,ICodecAPI.SetValue, dshow.icodecapi_setvalue, strmif/ICodecAPI::SetValue
 ms.prod: windows-hardware
 ms.technology: windows-devices

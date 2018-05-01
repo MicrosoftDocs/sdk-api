@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_all_option_values_pb.htm
 old-project: DHCP
 ms.assetid: 5b43263a-fea1-452b-9981-a0f2cf1c8cf0
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/7/2018
 ms.keywords: "*LPDHCP_ALL_OPTION_VALUES_PB, DHCP_ALL_OPTION_VALUES_PB, DHCP_ALL_OPTION_VALUES_PB structure [DHCP], LPDHCP_ALL_OPTION_VALUES_PB, LPDHCP_ALL_OPTION_VALUES_PB structure pointer [DHCP], _DHCP_ALL_OPTION_VALUES_PB, dhcp.dhcp_all_option_values_pb, dhcpsapi/DHCP_ALL_OPTION_VALUES_PB, dhcpsapi/LPDHCP_ALL_OPTION_VALUES_PB"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -57,6 +57,16 @@ The <b>DHCP_ALL_OPTION_VALUES_PB</b> structure defines the set of all option val
 
 
 
+### -field Flags
+
+Reserved. Must be 0.
+
+
+### -field NumElements
+
+Integer that specifies the number of elements in <b>Options</b>.
+
+
 ### -field Options
 
 Pointer to an array of structures that contain the set of all option values for specific vendor/policy pairs. There is one element per pair.
@@ -84,16 +94,6 @@ Pointer to a null-terminated Unicode string that represents the vendor name  for
 #### OptionsArray
 
 A pointer to a <a href="https://msdn.microsoft.com/c68b9543-0d7a-46ab-babd-3868c1338d67">DHCP_OPTION_VALUE_ARRAY</a> structure that contains the set of all option values for the specified vendor/policy pair.
-
-
-### -field Flags
-
-Reserved. Must be 0.
-
-
-### -field NumElements
-
-Integer that specifies the number of elements in <b>Options</b>.
 
 
 ## -see-also

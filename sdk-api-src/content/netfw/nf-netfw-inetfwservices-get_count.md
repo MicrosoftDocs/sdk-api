@@ -7,7 +7,7 @@ old-location: ics\inetfwservices_count.htm
 old-project: ICS
 ms.assetid: 543d54d9-1dc8-4348-ab8d-369857a213ef
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: Count property [ICS/ICF], Count property [ICS/ICF], INetFwServices interface, INetFwServices, INetFwServices interface [ICS/ICF], Count property, INetFwServices.Count, INetFwServices::get_Count, get_Count,INetFwServices.get_Count, ics.inetfwservices_count, netfw/INetFwServices::Count, netfw/INetFwServices::get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: 
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # INetFwServices::get_Count method

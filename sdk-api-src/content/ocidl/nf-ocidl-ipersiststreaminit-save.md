@@ -7,7 +7,7 @@ old-location: com\ipersiststreaminit_save.htm
 old-project: com
 ms.assetid: f88b61d0-dd85-4e8e-b445-dfced6521981
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IPersistStreamInit, IPersistStreamInit interface [COM], Save method, IPersistStreamInit::Save, Save method [COM], Save method [COM], IPersistStreamInit interface, Save,IPersistStreamInit.Save, _com_ipersiststreaminit_save, com.ipersiststreaminit_save, ocidl/IPersistStreamInit::Save
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IPersistStreamInit::Save method

@@ -7,7 +7,7 @@ old-location: mediastreaming\imediarenderer_add_transportparametersupdate.htm
 old-project: mediastreaming
 ms.assetid: 34D11925-387B-414F-A176-336BBCF87821
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/10/2018
 ms.keywords: IMediaRenderer, IMediaRenderer interface [Media Streaming API], add_TransportParametersUpdate method, IMediaRenderer::add_TransportParametersUpdate, add_TransportParametersUpdate method [Media Streaming API], add_TransportParametersUpdate method [Media Streaming API], IMediaRenderer interface, add_TransportParametersUpdate,IMediaRenderer.add_TransportParametersUpdate, mediastreaming.imediarenderer_add_transportparametersupdate, windows/IMediaRenderer::add_TransportParametersUpdate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: PDF_RENDER_PARAMS
+req.typenames: TimeSpan
 topic_type:
 -	APIRef
 -	kbSyntax

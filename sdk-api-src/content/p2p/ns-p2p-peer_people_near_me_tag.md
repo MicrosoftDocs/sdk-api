@@ -7,7 +7,7 @@ old-location: p2p\peer_people_near_me.htm
 old-project: P2PSdk
 ms.assetid: 15dae06d-0f44-4e7d-b146-6fcd7cc6912e
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/23/2018
 ms.keywords: "*PPEER_PEOPLE_NEAR_ME, PCPEER_PEOPLE_NEAR_ME, PCPEER_PEOPLE_NEAR_ME structure pointer [Peer Networking], PEER_PEOPLE_NEAR_ME, PEER_PEOPLE_NEAR_ME structure [Peer Networking], PPEER_PEOPLE_NEAR_ME, PPEER_PEOPLE_NEAR_ME structure pointer [Peer Networking], PPPEER_PEOPLE_NEAR_ME, PPPEER_PEOPLE_NEAR_ME structure pointer [Peer Networking], p2p.peer_people_near_me, p2p/PCPEER_PEOPLE_NEAR_ME, p2p/PEER_PEOPLE_NEAR_ME, p2p/PPEER_PEOPLE_NEAR_ME, p2p/PPPEER_PEOPLE_NEAR_ME, peer_people_near_me_tag"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # peer_people_near_me_tag structure

@@ -7,7 +7,7 @@ old-location: base\ioctl_changer_set_access.htm
 old-project: DevIO
 ms.assetid: 567817d5-60cd-494c-94d9-0899e1142242
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/3/2018
 ms.keywords: IOCTL_CHANGER_SET_ACCESS, IOCTL_CHANGER_SET_ACCESS control code, _win32_ioctl_changer_set_access, base.ioctl_changer_set_access, winioctl/IOCTL_CHANGER_SET_ACCESS
 ms.prod: windows-hardware
 ms.technology: windows-devices

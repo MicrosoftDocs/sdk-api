@@ -7,7 +7,7 @@ old-location: tapi3\itforwardinformation2_getforwardtype2.htm
 old-project: Tapi
 ms.assetid: c3142217-d3fa-4e0b-ad3b-65a0557ce951
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: GetForwardType2 method [TAPI 2.2], GetForwardType2 method [TAPI 2.2], ITForwardInformation2 interface, GetForwardType2,ITForwardInformation2.GetForwardType2, ITForwardInformation2, ITForwardInformation2 interface [TAPI 2.2], GetForwardType2 method, ITForwardInformation2::GetForwardType2, _tapi3_itforwardinformation2_getforwardtype2, tapi3.itforwardinformation2_getforwardtype2, tapi3if/ITForwardInformation2::GetForwardType2
 ms.prod: windows-hardware
 ms.technology: windows-devices

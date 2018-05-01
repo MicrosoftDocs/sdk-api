@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationItemContainerPattern_FindItemByPropert
 old-project: WinAuto
 ms.assetid: d27f07ae-2c88-4cde-99b8-0c8c987b95d3
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: FindItemByProperty method [Windows Accessibility], FindItemByProperty method [Windows Accessibility], IUIAutomationItemContainerPattern interface, FindItemByProperty,IUIAutomationItemContainerPattern.FindItemByProperty, IUIAutomationItemContainerPattern, IUIAutomationItemContainerPattern interface [Windows Accessibility], FindItemByProperty method, IUIAutomationItemContainerPattern::FindItemByProperty, uiauto.uiauto_IUIAutomationItemContainerPattern_FindItemByProperty, uiauto_IUIAutomationItemContainerPattern_FindItemByProperty, uiautomationclient/IUIAutomationItemContainerPattern::FindItemByProperty, winauto.uiauto_IUIAutomationItemContainerPattern_FindItemByProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct2d\d2d1invertmatrix.htm
 old-project: Direct2D
 ms.assetid: af01b6df-ada9-4e21-98f0-356b96d1017a
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: D2D1InvertMatrix, D2D1InvertMatrix function [Direct2D], d2d1/D2D1InvertMatrix, direct2d.d2d1invertmatrix
 ms.prod: windows-hardware
 ms.technology: windows-devices

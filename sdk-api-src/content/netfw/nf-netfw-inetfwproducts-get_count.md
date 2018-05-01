@@ -7,7 +7,7 @@ old-location: ics\inetfwproducts_count.htm
 old-project: ICS
 ms.assetid: 2090603e-33c8-4b2a-86d4-efc1c5665af8
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: Count property [ICS/ICF], Count property [ICS/ICF], INetFwProducts interface, INetFwProducts, INetFwProducts interface [ICS/ICF], Count property, INetFwProducts.Count, INetFwProducts::get_Count, get_Count,INetFwProducts.get_Count, ics.inetfwproducts_count, netfw/INetFwProducts::Count, netfw/INetFwProducts::get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: FirewallAPI.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # INetFwProducts::get_Count method

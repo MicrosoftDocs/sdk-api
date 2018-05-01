@@ -7,7 +7,7 @@ old-location: security\icertview2_openconnection.htm
 old-project: SecCrypto
 ms.assetid: 576af4d1-88c9-40e3-9438-9fefd483be7a
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: CCertView object [Security], OpenConnection method, ICertView, ICertView interface [Security], OpenConnection method, ICertView2 interface [Security], OpenConnection method, ICertView2::OpenConnection, ICertView::OpenConnection, OpenConnection method [Security], OpenConnection method [Security], CCertView object, OpenConnection method [Security], ICertView interface, OpenConnection method [Security], ICertView2 interface, OpenConnection,ICertView.OpenConnection, certview/ICertView2::OpenConnection, certview/ICertView::OpenConnection, security.icertview2_openconnection
 ms.prod: windows-hardware
 ms.technology: windows-devices

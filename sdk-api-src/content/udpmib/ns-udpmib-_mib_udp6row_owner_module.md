@@ -59,13 +59,6 @@ The <b>MIB_UDP6ROW_OWNER_MODULE</b> structure contains an entry from the User Da
 
 
 
-### -field SpecificPortBind
-
-Type: <b>int</b>
-
-A value that indicates if a specific port was specified in the last context bind operation.
-
-
 ### -field ucLocalAddr
 
 Type: <b>UCHAR[16]</b>
@@ -102,6 +95,13 @@ The PID of the process that issued a context bind for this endpoint. If this val
 Type: <b>LARGE_INTEGER</b>
 
 A <a href="https://msdn.microsoft.com/f77cdf86-0f97-4a89-b565-95b46fa7d65b">SYSTEMTIME</a> structure that indicates when the context bind operation that created this endpoint occurred.
+
+
+### -field SpecificPortBind
+
+Type: <b>int</b>
+
+A value that indicates if a specific port was specified in the last context bind operation.
 
 
 ### -field OwningModuleInfo

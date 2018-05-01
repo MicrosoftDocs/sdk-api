@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_query_misc_flag.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_query_misc_flag.htm
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: D3D10_QUERY_MISC_FLAG, D3D10_QUERY_MISC_FLAG enumeration [Direct3D 10], D3D10_QUERY_MISC_PREDICATEHINT, afca49a1-e15e-21f0-d3cc-592d3ba4b0cd, d3d10/D3D10_QUERY_MISC_FLAG, d3d10/D3D10_QUERY_MISC_PREDICATEHINT, direct3d10.d3d10_query_misc_flag
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\imfbytestreamcachecontrol2_isbackgroundtransferactive.htm
 old-project: medfound
 ms.assetid: FC08E5E8-A7E0-461C-B70C-B1273FCDD1A0
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFByteStreamCacheControl2, IMFByteStreamCacheControl2 interface [Media Foundation], IsBackgroundTransferActive method, IMFByteStreamCacheControl2::IsBackgroundTransferActive, IsBackgroundTransferActive method [Media Foundation], IsBackgroundTransferActive method [Media Foundation], IMFByteStreamCacheControl2 interface, IsBackgroundTransferActive,IMFByteStreamCacheControl2.IsBackgroundTransferActive, mf.imfbytestreamcachecontrol2_isbackgroundtransferactive, mfidl/IMFByteStreamCacheControl2::IsBackgroundTransferActive
 ms.prod: windows-hardware
 ms.technology: windows-devices

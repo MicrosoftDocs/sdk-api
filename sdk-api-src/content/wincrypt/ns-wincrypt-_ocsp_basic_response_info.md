@@ -7,7 +7,7 @@ old-location: security\ocsp_basic_response_info.htm
 old-project: SecCrypto
 ms.assetid: f067bfa0-114b-4295-bbee-a963d8b64332
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: "*POCSP_BASIC_RESPONSE_INFO, OCSP_BASIC_BY_KEY_RESPONDER_ID, OCSP_BASIC_BY_NAME_RESPONDER_ID, OCSP_BASIC_RESPONSE_INFO, OCSP_BASIC_RESPONSE_INFO structure [Security], OCSP_BASIC_RESPONSE_V1, POCSP_BASIC_RESPONSE_INFO, POCSP_BASIC_RESPONSE_INFO structure pointer [Security], _OCSP_BASIC_RESPONSE_INFO, security.ocsp_basic_response_info, wincrypt/OCSP_BASIC_RESPONSE_INFO, wincrypt/POCSP_BASIC_RESPONSE_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,11 +58,6 @@ req.product: Windows Address Book 5.0
 
 
 
-### -field DUMMYUNIONNAME
-
- 
-
-
 ### -field dwVersion
 
 A value that indicates the protocol version of the response.
@@ -83,6 +78,11 @@ A value that indicates the type of ID the responder used in this response.
 
 
 #### OCSP_BASIC_BY_KEY_RESPONDER_ID (2)
+
+
+### -field DUMMYUNIONNAME
+
+ 
 
 
 ### -field ProducedAt

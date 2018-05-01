@@ -7,7 +7,7 @@ old-location: termserv\itssbclientconnection_initialprogram.htm
 old-project: TermServ
 ms.assetid: 8734b130-f1fd-4107-b0cc-482b78647ac7
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: ITsSbClientConnection, ITsSbClientConnection interface [Remote Desktop Services], InitialProgram property, ITsSbClientConnection.InitialProgram, ITsSbClientConnection::get_InitialProgram, InitialProgram property [Remote Desktop Services], InitialProgram property [Remote Desktop Services], ITsSbClientConnection interface, get_InitialProgram,ITsSbClientConnection.get_InitialProgram, sbtsv/ITsSbClientConnection::InitialProgram, sbtsv/ITsSbClientConnection::get_InitialProgram, termserv.itssbclientconnection_initialprogram
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITsSbClientConnection::get_InitialProgram method

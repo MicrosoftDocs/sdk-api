@@ -7,7 +7,7 @@ old-location: wmp\iwmpevents_iwmpevents__mediacollectionattributestringremoved.h
 old-project: WMP
 ms.assetid: 4e7a3d71-4ec1-4c33-9101-d9d90ee8b1f9
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPEvents, IWMPEvents interface [Windows Media Player], MediaCollectionAttributeStringRemoved method, IWMPEvents::MediaCollectionAttributeStringRemoved, IWMPEventsMediaCollectionAttributeStringRemoved, MediaCollectionAttributeStringRemoved method [Windows Media Player], MediaCollectionAttributeStringRemoved method [Windows Media Player], IWMPEvents interface, MediaCollectionAttributeStringRemoved,IWMPEvents.MediaCollectionAttributeStringRemoved, wmp.iwmpevents_iwmpevents__mediacollectionattributestringremoved, wmp/IWMPEvents::MediaCollectionAttributeStringRemoved
 ms.prod: windows-hardware
 ms.technology: windows-devices

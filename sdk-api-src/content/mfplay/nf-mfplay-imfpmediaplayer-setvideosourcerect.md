@@ -7,7 +7,7 @@ old-location: mf\imfpmediaplayer_setvideosourcerect.htm
 old-project: medfound
 ms.assetid: c95d724f-40a9-43c5-b81a-8505eda516f7
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFPMediaPlayer, IMFPMediaPlayer interface [Media Foundation], SetVideoSourceRect method, IMFPMediaPlayer::SetVideoSourceRect, SetVideoSourceRect method [Media Foundation], SetVideoSourceRect method [Media Foundation], IMFPMediaPlayer interface, SetVideoSourceRect,IMFPMediaPlayer.SetVideoSourceRect, mf.imfpmediaplayer_setvideosourcerect, mfplay/IMFPMediaPlayer::SetVideoSourceRect
 ms.prod: windows-hardware
 ms.technology: windows-devices

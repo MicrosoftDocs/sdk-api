@@ -2,13 +2,13 @@
 UID: NF:intsafe.LongToUIntPtr
 title: LongToUIntPtr function
 author: windows-driver-content
-description: Converts a value of type LONG to a value of type UINT_PTR.
-old-location: shell\LongToUIntPtr.htm
+description: Converts a value of type LONG to a value of type size_t.
+old-location: shell\LongToSizeT.htm
 old-project: shell
-ms.assetid: 67cbda8e-94b7-4391-aa87-60a68abe3d3b
+ms.assetid: 77a3e14f-1dc9-42f6-9ff1-579c5223932d
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
-ms.keywords: LongToUIntPtr, LongToUIntPtr function [Windows Shell], _shell_LongToUIntPtr, intsafe/LongToUIntPtr, shell.LongToUIntPtr
+ms.date: 4/26/2018
+ms.keywords: LongToSizeT, LongToSizeT function [Windows Shell], LongToUIntPtr, _shell_LongToSizeT, intsafe/LongToSizeT, shell.LongToSizeT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	Intsafe.h
 api_name:
--	LongToUIntPtr
+-	LongToSizeT
 product: Windows
 targetos: Windows
 req.lib: 
@@ -50,7 +50,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Converts a value of type <b>LONG</b> to a value of type <b>UINT_PTR</b>.
+Converts a value of type <b>LONG</b> to a value of type <b>size_t</b>.
 
 
 ## -parameters
@@ -72,9 +72,9 @@ TBD
 
 
 
-#### - piResult [out]
+#### - pcbResult [out]
 
-Type: <b>UINT_PTR*</b>
+Type: <b>size_t*</b>
 
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns INTSAFE_E_ARITHMETIC_OVERFLOW and this parameter is not valid.
 

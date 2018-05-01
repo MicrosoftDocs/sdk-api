@@ -7,7 +7,7 @@ old-location: automat\vardecdiv.htm
 old-project: automat
 ms.assetid: 75affc6f-08b4-4ca4-98a8-24cf28272c0a
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: VarDecDiv, VarDecDiv function [Automation], _oa96_VarDecDiv, automat.vardecdiv, oleauto/VarDecDiv
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # VarDecDiv function

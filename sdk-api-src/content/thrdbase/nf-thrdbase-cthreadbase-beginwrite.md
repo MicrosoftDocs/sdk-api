@@ -7,7 +7,7 @@ old-location: wmi\cthreadbase_beginwrite.htm
 old-project: WmiSdk
 ms.assetid: 51ae6b39-b524-4bf9-ac71-45c812ad1680
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: "?BeginWrite@CThreadBase@@QAEHK@Z, BeginWrite method [Windows Management Instrumentation], BeginWrite method [Windows Management Instrumentation], CThreadBase interface, BeginWrite,CThreadBase.BeginWrite, CThreadBase, CThreadBase interface [Windows Management Instrumentation], BeginWrite method, CThreadBase::BeginWrite, thrdbase/CThreadBase::BeginWrite, wmi.cthreadbase_beginwrite"
 ms.prod: windows-hardware
 ms.technology: windows-devices

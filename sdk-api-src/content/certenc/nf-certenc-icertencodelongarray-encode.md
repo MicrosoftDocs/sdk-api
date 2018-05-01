@@ -7,7 +7,7 @@ old-location: security\icertencodelongarray_encode.htm
 old-project: SecCrypto
 ms.assetid: e2cf6e69-2431-4a97-86f1-9e1546aa6c08
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: CCertEncodeLongArray object [Security], Encode method, Encode method [Security], Encode method [Security], CCertEncodeLongArray object, Encode method [Security], ICertEncodeLongArray interface, Encode,ICertEncodeLongArray.Encode, ICertEncodeLongArray, ICertEncodeLongArray interface [Security], Encode method, ICertEncodeLongArray::Encode, _certsrv_icertencodelongarray_encode, certenc/ICertEncodeLongArray::Encode, security.icertencodelongarray_encode
 ms.prod: windows-hardware
 ms.technology: windows-devices

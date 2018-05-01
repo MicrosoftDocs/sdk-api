@@ -1,0 +1,227 @@
+---
+UID: NC:winbio_adapter.PIBIO_ENGINE_DETACH_FN
+title: PIBIO_ENGINE_DETACH_FN
+author: windows-driver-content
+description: Releases adapter-specific resources attached to the pipeline.
+old-location: secbiomet\engineadapterdetach.htm
+old-project: SecBioMet
+ms.assetid: a4bc8ef1-6005-4661-9bb1-20ea08d9a125
+ms.author: windowsdriverdev
+ms.date: 4/24/2018
+ms.keywords: EngineAdapterDetach, EngineAdapterDetach callback function [Windows Biometric Framework API], PIBIO_ENGINE_DETACH_FN, secbiomet.engineadapterdetach, winbio_adapter/EngineAdapterDetach
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: callback
+req.header: winbio_adapter.h
+req.include-header: Winbio_adapter.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WINBIO_ASYNC_RESULT, *PWINBIO_ASYNC_RESULT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Winbio_adapter.h
+api_name:
+-	EngineAdapterDetach
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# PIBIO_ENGINE_DETACH_FN callback
+
+
+## -description
+
+
+Called by the Windows Biometric Framework immediately before an engine adapter is removed from the processing pipeline of the biometric unit. The purpose of this function is to release adapter specific resources attached to the pipeline.
+
+
+## -parameters
+
+
+
+
+### -param Pipeline [in, out]
+
+Pointer to a <a href="https://msdn.microsoft.com/b5fc2b14-b0b6-4327-a42a-ecae41c3e12a">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
+
+
+## -returns
+
+
+
+If the function succeeds, it returns S_OK. If the function fails, it must return one of the following <b>HRESULT</b> values to indicate the error.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_POINTER</b></dt>
+</dl>
+</td>
+<td width="60%">
+The <i>Pipeline</i> parameter cannot be <b>NULL</b>.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>WINBIO_E_INVALID_DEVICE_STATE</b></dt>
+</dl>
+</td>
+<td width="60%">
+The <b>EngineContext</b> field of the <a href="https://msdn.microsoft.com/b5fc2b14-b0b6-4327-a42a-ecae41c3e12a">WINBIO_PIPELINE</a> structure cannot be <b>NULL</b>.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+To prevent memory leaks, your implementation of the <i>EngineAdapterDetach</i> function must release the private <b>WINBIO_ENGINE_CONTEXT</b> structure pointed to by the  <b>EngineContext</b> member of the pipeline along with any other resources attached to the engine context.
+
+If the <b>EngineContext</b> field in the pipeline object is <b>NULL</b> when this function is called, the pipeline was not properly initialized and you must return <b>WINBIO_E_INVALID_DEVICE_STATE</b> to notify the Windows Biometric Framework of the problem.
+
+Before returning S_OK, the <i>EngineAdapterDetach</i> function must set the <b>EngineContext</b> field of the <a href="https://msdn.microsoft.com/b5fc2b14-b0b6-4327-a42a-ecae41c3e12a">WINBIO_PIPELINE</a> structure to <b>NULL</b> and the <b>EngineHandle</b> field to <b>INVALID_HANDLE_VALUE</b>.
+
+This function is called after the storage adapter has been removed from the pipeline. Therefore, this function must not call any functions referenced by the <a href="https://msdn.microsoft.com/1cc7ce07-66df-43d9-9db2-50558a0f5f47">WINBIO_STORAGE_INTERFACE</a> structure pointed to by the <b>StorageInterface</b> member of the pipeline object.
+
+
+#### Examples
+
+The following pseudocode shows one possible implementation of this function. The example does not compile. You must adapt it to suit your purpose.
+
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>//////////////////////////////////////////////////////////////////////////////////////////
+//
+// EngineAdapterDetach
+//
+// Purpose:
+//      Releases adapter specific resources attached to the pipeline.
+//      
+// Parameters:
+//      Pipeline -  Pointer to a WINBIO_PIPELINE structure associated with 
+//                  the biometric unit.
+//
+static HRESULT
+WINAPI
+EngineAdapterDetach(
+    __inout PWINBIO_PIPELINE Pipeline
+    )
+{
+    PWINBIO_ENGINE_CONTEXT context = NULL;
+
+    // Verify that the Pipeline parameter is not NULL.
+    if (!ARGUMENT_PRESENT(Pipeline))
+    {
+        hr = E_POINTER;
+        goto cleanup;
+    }
+
+    // Retrieve the context from the pipeline and assign it to a local
+    // variable.
+    context = (PWINBIO_ENGINE_CONTEXT)Pipeline-&gt;EngineContext;
+    if (context == NULL)
+    {
+        goto cleanup;
+    }
+
+    // Set the context on the pipeline to NULL.
+    Pipeline-&gt;EngineContext = NULL;
+
+    // If your adapter supports software-based template hashing and you
+    // opened a Cryptography Next Generation (CNG) hash object handle
+    // during initialization, implement the following custom function to 
+    // release the CNG resources.
+    _AdapterCleanupCrypto(context);
+
+    // Implement one or more custom routines to release any structures 
+    // that remain attached to the context block. These structures can 
+    // include the most recent feature set, the current enrollment template, 
+    // and other custom defined objects.
+    if (context-&gt;FeatureSet != NULL)
+    {
+        _AdapterRelease(context-&gt;FeatureSet);
+        context-&gt;FeatureSet = NULL;
+        context-&gt;FeatureSetSize = 0;
+    }
+
+    if (context-&gt;Enrollment.Template != NULL)
+    {
+        _AdapterRelease(context-&gt;Enrollment.Template);
+        context-&gt;Enrollment.Template = NULL;
+        context-&gt;Enrollment.TemplateSize = 0;
+        context-&gt;Enrollment.SampleCount = 0;
+    }
+
+    if (context-&gt;SomePointerField != NULL)
+    {
+        _AdapterRelease(context-&gt;SomePointerField);
+        context-&gt;SomePointerField = NULL;
+    }
+
+    // Release the context block.
+    _AdapterRelease(context);
+
+cleanup:
+
+    return S_OK;
+}
+</pre>
+</td>
+</tr>
+</table></span></div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/e797952b-c7dd-41ad-9536-97d7ce1a7a5d">EngineAdapterAttach</a>
+
+
+
+<a href="https://msdn.microsoft.com/5f04d912-f9bc-41d4-aa9e-b843e4b5a994">Plug-in Functions</a>
+
+
+
+<a href="https://msdn.microsoft.com/58124c44-4343-44c1-84a2-c03455d68199">SensorAdapterDetach</a>
+ 
+
+ 
+

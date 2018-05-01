@@ -7,7 +7,7 @@ old-location: tapi2\linemonitormedia.htm
 old-project: Tapi
 ms.assetid: d79a5469-2248-466b-a5ca-32a568b135d2
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: "_tapi2_linemonitormedia, lineMonitorMedia, lineMonitorMedia function [TAPI 2.2], tapi/lineMonitorMedia, tapi2.linemonitormedia"
 ms.prod: windows-hardware
 ms.technology: windows-devices

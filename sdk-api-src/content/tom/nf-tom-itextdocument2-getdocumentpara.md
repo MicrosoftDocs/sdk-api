@@ -7,7 +7,7 @@ old-location: controls\itextdocument2_getdocumentpara.htm
 old-project: Controls
 ms.assetid: 3667587e-3cf1-4b86-82fd-2fc34d4cbeee
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: GetDocumentPara method [Windows Controls], GetDocumentPara method [Windows Controls], ITextDocument2 interface, GetDocumentPara,ITextDocument2.GetDocumentPara, ITextDocument2, ITextDocument2 interface [Windows Controls], GetDocumentPara method, ITextDocument2::GetDocumentPara, controls.itextdocument2_getdocumentpara, tom/ITextDocument2::GetDocumentPara
 ms.prod: windows-hardware
 ms.technology: windows-devices

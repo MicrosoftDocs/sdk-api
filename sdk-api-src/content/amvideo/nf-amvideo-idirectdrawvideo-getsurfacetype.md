@@ -7,7 +7,7 @@ old-location: dshow\idirectdrawvideo_getsurfacetype.htm
 old-project: DirectShow
 ms.assetid: f5d5c608-1890-43f8-bdf3-3fcb0c6a2f5e
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetSurfaceType method [DirectShow], GetSurfaceType method [DirectShow], IDirectDrawVideo interface, GetSurfaceType,IDirectDrawVideo.GetSurfaceType, IDirectDrawVideo, IDirectDrawVideo interface [DirectShow], GetSurfaceType method, IDirectDrawVideo::GetSurfaceType, IDirectDrawVideoGetSurfaceType, amvideo/IDirectDrawVideo::GetSurfaceType, dshow.idirectdrawvideo_getsurfacetype
 ms.prod: windows-hardware
 ms.technology: windows-devices

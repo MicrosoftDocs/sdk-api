@@ -7,7 +7,7 @@ old-location: gdi\emrextcreatefontindirectw.htm
 old-project: gdi
 ms.assetid: 27adba1d-6845-4d5e-8183-9c092775b473
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/17/2018
 ms.keywords: "*PEMREXTCREATEFONTINDIRECTW, *PEMREXTCREATEFONTINDIRECTW structure [Windows GDI], EMREXTCREATEFONTINDIRECTW, EMREXTCREATEFONTINDIRECTW structure [Windows GDI], _win32_EMREXTCREATEFONTINDIRECTW_str, gdi.emrextcreatefontindirectw, tagEMREXTCREATEFONTINDIRECTW, wingdi/*PEMREXTCREATEFONTINDIRECTW, wingdi/EMREXTCREATEFONTINDIRECTW"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: lwef\iemptyvolumecache_getspaceused.htm
 old-project: lwef
 ms.assetid: c8ec2f70-f327-49d4-babb-a9640f105003
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/10/2018
 ms.keywords: GetSpaceUsed method [Legacy Windows Environment Features], GetSpaceUsed method [Legacy Windows Environment Features], IEmptyVolumeCache interface, GetSpaceUsed,IEmptyVolumeCache.GetSpaceUsed, IEmptyVolumeCache, IEmptyVolumeCache interface [Legacy Windows Environment Features], GetSpaceUsed method, IEmptyVolumeCache::GetSpaceUsed, _win32_IEmptyVolumeCache_GetSpaceUsed, emptyvc/IEmptyVolumeCache::GetSpaceUsed, lwef.iemptyvolumecache_getspaceused, shell.iemptyvolumecache_getspaceused
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MAPPING_SERVICE_INFO, *PMAPPING_SERVICE_INFO
+req.typenames: EMI_VERSION
 topic_type:
 -	APIRef
 -	kbSyntax

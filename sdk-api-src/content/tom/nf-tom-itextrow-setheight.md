@@ -7,7 +7,7 @@ old-location: controls\itextrow_setheight.htm
 old-project: Controls
 ms.assetid: c377bdef-d906-4f7b-98f0-13633906ced9
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextRow, ITextRow interface [Windows Controls], SetHeight method, ITextRow::SetHeight, SetHeight method [Windows Controls], SetHeight method [Windows Controls], ITextRow interface, SetHeight,ITextRow.SetHeight, controls.itextrow_setheight, tom/ITextRow::SetHeight
 ms.prod: windows-hardware
 ms.technology: windows-devices

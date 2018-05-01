@@ -7,7 +7,7 @@ old-location: mstv\ienumguidedataproperties_clone.htm
 old-project: mstv
 ms.assetid: 4956b37c-a39f-4f5d-bc2d-9746a98660ec
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: Clone method [Microsoft TV Technologies], Clone method [Microsoft TV Technologies], IEnumGuideDataProperties interface, Clone,IEnumGuideDataProperties.Clone, IEnumGuideDataProperties, IEnumGuideDataProperties interface [Microsoft TV Technologies], Clone method, IEnumGuideDataProperties::Clone, IEnumGuideDataPropertiesClone, bdatif/IEnumGuideDataProperties::Clone, mstv.ienumguidedataproperties_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: SpanningEventEmmMessage
+req.typenames: SmartCardApplication
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,7 +7,7 @@ old-location: termserv\iwrdsprotocolconnection_getclientmonitordata.htm
 old-project: TermServ
 ms.assetid: df70ff56-3e12-4842-a818-31ee75da96a9
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: GetClientMonitorData method [Remote Desktop Services], GetClientMonitorData method [Remote Desktop Services], IWRdsProtocolConnection interface, GetClientMonitorData,IWRdsProtocolConnection.GetClientMonitorData, IWRdsProtocolConnection, IWRdsProtocolConnection interface [Remote Desktop Services], GetClientMonitorData method, IWRdsProtocolConnection::GetClientMonitorData, termserv.iwrdsprotocolconnection_getclientmonitordata, termserv.iwrdsremotefxgraphicsconnection_getclientmonitordata, wtsprotocol/IWRdsProtocolConnection::GetClientMonitorData
 ms.prod: windows-hardware
 ms.technology: windows-devices

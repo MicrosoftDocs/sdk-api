@@ -7,7 +7,7 @@ old-location: cos\icontextproperties_enumnames.htm
 old-project: cossdk
 ms.assetid: cae9eaf7-a422-4daa-9f0a-e7863f167112
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: EnumNames method [COM+], EnumNames method [COM+], IContextProperties interface, EnumNames,IContextProperties.EnumNames, IContextProperties, IContextProperties interface [COM+], EnumNames method, IContextProperties::EnumNames, _cos_IContextProperties_EnumNames, comsvcs/IContextProperties::EnumNames, cos.icontextproperties_enumnames
 ms.prod: windows-hardware
 ms.technology: windows-devices

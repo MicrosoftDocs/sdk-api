@@ -1,17 +1,17 @@
 ---
 UID: NF:comsvcs.GetObjectContext
-title: GetObjectContext function
+title: GetObjectContext macro
 author: windows-driver-content
 description: Retrieves a reference to the context that is associated with the current COM+ object.
 old-location: cos\getobjectcontext.htm
 old-project: cossdk
 ms.assetid: e93406df-e61c-4ee5-9cd4-828aab2c05b6
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: GetObjectContext, GetObjectContext function [COM+], _cos_GetObjectContext, comsvcs/GetObjectContext, cos.getobjectcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
-ms.topic: function
+ms.topic: macro
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -43,7 +43,7 @@ req.dll: ComSvcs.dll
 req.irql: 
 ---
 
-# GetObjectContext function
+# GetObjectContext macro
 
 
 ## -description
@@ -59,70 +59,18 @@ For similar functionality, see <a href="https://msdn.microsoft.com/7e2edb2f-ca86
 
 
 
-### -param ppInstanceContext [out]
+### -param ppIOC
+
+TBD
+
+
+
+
+
+
+#### - ppInstanceContext [out]
 
 A reference to <a href="https://msdn.microsoft.com/9395bc9a-dfe5-428a-839f-1c4ad090f636">IObjectContext</a> on the object's context. If the object's component has not been imported into an MTS package or if the <b>GetObjectContext</b> function is called from a constructor or an <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> method, this parameter is set to a <b>NULL</b> pointer.
-
-
-## -returns
-
-
-
-This method can return the following values.
-
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The method completed successfully.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_INVALIDARG</b></dt>
-</dl>
-</td>
-<td width="60%">
-The argument is invalid.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_UNEXPECTED</b></dt>
-</dl>
-</td>
-<td width="60%">
-An unexpected error has occurred.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>CONTEXT_E_NOCONTEXT</b></dt>
-</dl>
-</td>
-<td width="60%">
-The current object does not have a context associated with it, because either the component was not imported into an application or the object was not created with one of the COM+ <b>CreateInstance</b> methods. This error is also returned if <a href="https://msdn.microsoft.com/e93406df-e61c-4ee5-9cd4-828aab2c05b6">GetObjectContext</a> is called from the constructor or from an <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> method.
-
-</td>
-</tr>
-</table>
- 
-
-
 
 
 ## -remarks

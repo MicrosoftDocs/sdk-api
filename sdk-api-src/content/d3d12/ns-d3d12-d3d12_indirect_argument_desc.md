@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_indirect_argument_desc.htm
 old-project: direct3d12
 ms.assetid: 2B51E4B1-F48A-4937-A92D-6AE9449018B4
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: D3D12_INDIRECT_ARGUMENT_DESC, D3D12_INDIRECT_ARGUMENT_DESC structure, d3d12/D3D12_INDIRECT_ARGUMENT_DESC, direct3d12.d3d12_indirect_argument_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -57,6 +57,13 @@ req.irql:
 ## -struct-fields
 
 
+
+
+### -field Type
+
+
+            A single <a href="https://msdn.microsoft.com/03324A50-BE16-4FC0-BFE7-9EE97C738165">D3D12_INDIRECT_ARGUMENT_TYPE</a> enumeration constant.
+          
 
 
 ### -field VertexBuffer
@@ -124,13 +131,6 @@ req.irql:
 
                 Specifies the root index of the UAV.
               
-
-
-### -field Type
-
-
-            A single <a href="https://msdn.microsoft.com/03324A50-BE16-4FC0-BFE7-9EE97C738165">D3D12_INDIRECT_ARGUMENT_TYPE</a> enumeration constant.
-          
 
 
 ## -remarks

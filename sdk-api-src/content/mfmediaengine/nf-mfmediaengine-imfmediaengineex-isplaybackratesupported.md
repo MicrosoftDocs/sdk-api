@@ -7,7 +7,7 @@ old-location: mf\imfmediaengineex_isplaybackratesupported.htm
 old-project: medfound
 ms.assetid: 2BE9954A-0B67-45A8-9B79-1148DCB4DDC4
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFMediaEngineEx, IMFMediaEngineEx interface [Media Foundation], IsPlaybackRateSupported method, IMFMediaEngineEx::IsPlaybackRateSupported, IsPlaybackRateSupported method [Media Foundation], IsPlaybackRateSupported method [Media Foundation], IMFMediaEngineEx interface, IsPlaybackRateSupported,IMFMediaEngineEx.IsPlaybackRateSupported, mf.imfmediaengineex_isplaybackratesupported, mfmediaengine/IMFMediaEngineEx::IsPlaybackRateSupported
 ms.prod: windows-hardware
 ms.technology: windows-devices

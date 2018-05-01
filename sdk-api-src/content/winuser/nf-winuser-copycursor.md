@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.CopyCursor
-title: CopyCursor function
+title: CopyCursor macro
 author: windows-driver-content
 description: Copies the specified cursor.
 old-location: menurc\copycursor.htm
@@ -11,7 +11,7 @@ ms.date: 3/29/2018
 ms.keywords: CopyCursor, CopyCursor function [Menus and Other Resources], _win32_CopyCursor, _win32_copycursor_cpp, menurc.copycursor, winui._win32_copycursor, winuser/CopyCursor
 ms.prod: windows-hardware
 ms.technology: windows-devices
-ms.topic: function
+ms.topic: macro
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# CopyCursor function
+# CopyCursor macro
 
 
 ## -description
@@ -58,31 +58,11 @@ Copies the specified cursor.
 
 
 
-### -param hCursor
-
-TBD
-
-
-
-
-#### - pcur [in]
+### -param pcur [in]
 
 Type: <b>HCURSOR</b>
 
 A handle to the cursor to be copied.
-
-
-## -returns
-
-
-
-Type: <b>HCURSOR</b>
-
-If the function succeeds, the return value is the handle to the duplicate cursor.
-
-If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. 
-
-
 
 
 ## -remarks

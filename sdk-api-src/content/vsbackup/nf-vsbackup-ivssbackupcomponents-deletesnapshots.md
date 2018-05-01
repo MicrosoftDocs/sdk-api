@@ -7,7 +7,7 @@ old-location: base\ivssbackupcomponents_deletesnapshots.htm
 old-project: VSS
 ms.assetid: 2e06f69e-8210-4773-8080-5c58e6f59792
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: DeleteSnapshots method [VSS], DeleteSnapshots method [VSS], IVssBackupComponents interface, DeleteSnapshots,IVssBackupComponents.DeleteSnapshots, IVssBackupComponents, IVssBackupComponents interface [VSS], DeleteSnapshots method, IVssBackupComponents::DeleteSnapshots, _win32_ivssbackupcomponents_deletesnapshots, base.ivssbackupcomponents_deletesnapshots, vsbackup/IVssBackupComponents::DeleteSnapshots
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\iazapplication_addpolicyreader.htm
 old-project: SecAuthZ
 ms.assetid: fb44461c-e494-4393-bdcd-0e759f6fbae1
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: AddPolicyReader method [Security], AddPolicyReader method [Security], AzApplication object, AddPolicyReader method [Security], IAzApplication interface, AddPolicyReader,IAzApplication.AddPolicyReader, AzApplication object [Security], AddPolicyReader method, IAzApplication, IAzApplication interface [Security], AddPolicyReader method, IAzApplication::AddPolicyReader, azroles/IAzApplication::AddPolicyReader, security.iazapplication_addpolicyreader
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\icaptionservicedescriptor_getcctype.htm
 old-project: mstv
 ms.assetid: d245118a-3ff2-4ea7-9ff9-f8c1991f2073
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetCCType method [Microsoft TV Technologies], GetCCType method [Microsoft TV Technologies], ICaptionServiceDescriptor interface, GetCCType,ICaptionServiceDescriptor.GetCCType, ICaptionServiceDescriptor, ICaptionServiceDescriptor interface [Microsoft TV Technologies], GetCCType method, ICaptionServiceDescriptor::GetCCType, ICaptionServiceDescriptorGetCCType, atscpsipparser/ICaptionServiceDescriptor::GetCCType, mstv.icaptionservicedescriptor_getcctype
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_WRITER_PAYLOAD_STREAM
+req.typenames: AsyncStatus
 topic_type:
 -	APIRef
 -	kbSyntax

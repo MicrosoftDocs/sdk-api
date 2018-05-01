@@ -7,7 +7,7 @@ old-location: mf\imfattributes_setitem.htm
 old-project: medfound
 ms.assetid: 1ac6e1c3-cf78-4cff-a992-4f92f243c443
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 1ac6e1c3-cf78-4cff-a992-4f92f243c443, IMFAttributes, IMFAttributes interface [Media Foundation], SetItem method, IMFAttributes::SetItem, SetItem method [Media Foundation], SetItem method [Media Foundation], IMFAttributes interface, SetItem,IMFAttributes.SetItem, mf.imfattributes_setitem, mfobjects/IMFAttributes::SetItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

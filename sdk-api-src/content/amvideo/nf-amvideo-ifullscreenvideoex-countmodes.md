@@ -7,7 +7,7 @@ old-location: dshow\ifullscreenvideoex_countmodes.htm
 old-project: DirectShow
 ms.assetid: 70d4e124-083b-4729-8f39-778e815ea23b
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: CountModes method [DirectShow], CountModes method [DirectShow], IFullScreenVideoEx interface, CountModes,IFullScreenVideoEx.CountModes, IFullScreenVideoCountModes, IFullScreenVideoEx, IFullScreenVideoEx interface [DirectShow], CountModes method, IFullScreenVideoEx::CountModes, amvideo/IFullScreenVideoEx::CountModes, dshow.ifullscreenvideoex_countmodes
 ms.prod: windows-hardware
 ms.technology: windows-devices

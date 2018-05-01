@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiosessionmanager_getsimpleaudiovolume.htm
 old-project: CoreAudio
 ms.assetid: 2f3c5a40-308f-48b4-b35c-aebd0cc6b849
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: GetSimpleAudioVolume method [Core Audio], GetSimpleAudioVolume method [Core Audio], IAudioSessionManager interface, GetSimpleAudioVolume,IAudioSessionManager.GetSimpleAudioVolume, IAudioSessionManager, IAudioSessionManager interface [Core Audio], GetSimpleAudioVolume method, IAudioSessionManager::GetSimpleAudioVolume, IAudioSessionManagerGetSimpleAudioVolume, audiopolicy/IAudioSessionManager::GetSimpleAudioVolume, coreaudio.iaudiosessionmanager_getsimpleaudiovolume
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: AE_CURRENT_POSITION, *PAE_CURRENT_POSITION
+req.typenames: UNCOMPRESSEDAUDIOFORMAT
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -58,6 +58,14 @@ Contains virtual hard disk (VHD)  attach request parameters.
 
 
 
+### -field Version
+
+A <a href="https://msdn.microsoft.com/2cd4fda7-a005-49c6-a525-81b7605a189a">ATTACH_VIRTUAL_DISK_VERSION</a> 
+     enumeration that specifies the version of the 
+     <b>ATTACH_VIRTUAL_DISK_PARAMETERS</b> 
+     structure being passed to or from the VHD functions.
+
+
 ### -field Version1
 
 A structure with the following member.
@@ -66,14 +74,6 @@ A structure with the following member.
 ### -field Version1.Reserved
 
 Reserved.
-
-
-### -field Version
-
-A <a href="https://msdn.microsoft.com/2cd4fda7-a005-49c6-a525-81b7605a189a">ATTACH_VIRTUAL_DISK_VERSION</a> 
-     enumeration that specifies the version of the 
-     <b>ATTACH_VIRTUAL_DISK_PARAMETERS</b> 
-     structure being passed to or from the VHD functions.
 
 
 ## -see-also

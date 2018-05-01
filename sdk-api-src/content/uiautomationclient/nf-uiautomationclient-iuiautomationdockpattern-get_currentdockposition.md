@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationDockPattern_CurrentDockPosition.htm
 old-project: WinAuto
 ms.assetid: ce51a971-5ea1-48fc-85ff-5f7c864bc7b3
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: CurrentDockPosition property [Windows Accessibility], CurrentDockPosition property [Windows Accessibility], IUIAutomationDockPattern interface, IUIAutomationDockPattern, IUIAutomationDockPattern interface [Windows Accessibility], CurrentDockPosition property, IUIAutomationDockPattern.CurrentDockPosition, IUIAutomationDockPattern::get_CurrentDockPosition, get_CurrentDockPosition,IUIAutomationDockPattern.get_CurrentDockPosition, uiauto.uiauto_IUIAutomationDockPattern_CurrentDockPosition, uiauto_IUIAutomationDockPattern_CurrentDockPosition, uiautomationclient/IUIAutomationDockPattern::CurrentDockPosition, uiautomationclient/IUIAutomationDockPattern::get_CurrentDockPosition, winauto.uiauto_IUIAutomationDockPattern_CurrentDockPosition
 ms.prod: windows-hardware
 ms.technology: windows-devices

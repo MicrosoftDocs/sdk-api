@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol2_playprevchapter.htm
 old-project: DirectShow
 ms.assetid: bebfe1e1-9197-4105-9b3f-edeb6f04836c
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IDvdControl2, IDvdControl2 interface [DirectShow], PlayPrevChapter method, IDvdControl2::PlayPrevChapter, IDvdControl2PlayPrevChapter, PlayPrevChapter method [DirectShow], PlayPrevChapter method [DirectShow], IDvdControl2 interface, PlayPrevChapter,IDvdControl2.PlayPrevChapter, dshow.idvdcontrol2_playprevchapter, strmif/IDvdControl2::PlayPrevChapter
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\bcrypt_init_auth_mode_info.htm
 old-project: SecCNG
 ms.assetid: 5c825337-bd60-48e4-9d71-bfd1d38ab171
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: BCRYPT_INIT_AUTH_MODE_INFO, BCRYPT_INIT_AUTH_MODE_INFO macro [Security], bcrypt/BCRYPT_INIT_AUTH_MODE_INFO, security.bcrypt_init_auth_mode_info
 ms.prod: windows-hardware
 ms.technology: windows-devices

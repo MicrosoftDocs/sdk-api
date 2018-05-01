@@ -7,7 +7,7 @@ old-location: winprog\fcache_richcreate_callback.htm
 old-project: DevNotes
 ms.assetid: 86e0d47e-469b-4c1d-9e39-f4f6d9e58ba0
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/13/2018
 ms.keywords: FCACHE_RICHCREATE_CALLBACK, FCACHE_RICHCREATE_CALLBACK function pointer [Windows API], filehc/FCACHE_RICHCREATE_CALLBACK, winprog.fcache_richcreate_callback
 ms.prod: windows-hardware
 ms.technology: windows-devices

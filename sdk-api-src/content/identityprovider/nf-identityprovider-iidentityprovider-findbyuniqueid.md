@@ -7,7 +7,7 @@ old-location: security\iidentityprovider_findbyuniqueid.htm
 old-project: SecAuthN
 ms.assetid: 26a0e247-0387-4455-9510-bd0e6adc0213
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/24/2018
 ms.keywords: FindByUniqueID method [Security], FindByUniqueID method [Security], IIdentityProvider interface, FindByUniqueID,IIdentityProvider.FindByUniqueID, IIdentityProvider, IIdentityProvider interface [Security], FindByUniqueID method, IIdentityProvider::FindByUniqueID, identityprovider/IIdentityProvider::FindByUniqueID, security.iidentityprovider_findbyuniqueid
 ms.prod: windows-hardware
 ms.technology: windows-devices

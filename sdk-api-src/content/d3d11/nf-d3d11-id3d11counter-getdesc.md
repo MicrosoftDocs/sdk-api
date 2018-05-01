@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11counter_getdesc.htm
 old-project: direct3d11
 ms.assetid: 2422b2d3-29c1-40cf-a41a-f9f299c2d436
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/6/2018
 ms.keywords: 107efca2-bbb6-d2d4-0cd9-b65d35420837, GetDesc method [Direct3D 11], GetDesc method [Direct3D 11], ID3D11Counter interface, GetDesc,ID3D11Counter.GetDesc, ID3D11Counter, ID3D11Counter interface [Direct3D 11], GetDesc method, ID3D11Counter::GetDesc, d3d11/ID3D11Counter::GetDesc, direct3d11.id3d11counter_getdesc
 ms.prod: windows-hardware
 ms.technology: windows-devices

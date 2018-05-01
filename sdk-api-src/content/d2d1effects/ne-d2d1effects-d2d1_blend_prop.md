@@ -7,7 +7,7 @@ old-location: direct2d\d2d1_blend_prop.htm
 old-project: Direct2D
 ms.assetid: 475CD001-27F6-40DE-887E-EC3EECB40DDA
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: D2D1_BLEND_PROP, D2D1_BLEND_PROP enumeration [Direct2D], D2D1_BLEND_PROP_MODE, d2d1effects/D2D1_BLEND_PROP, d2d1effects/D2D1_BLEND_PROP_MODE, direct2d.d2d1_blend_prop
 ms.prod: windows-hardware
 ms.technology: windows-devices

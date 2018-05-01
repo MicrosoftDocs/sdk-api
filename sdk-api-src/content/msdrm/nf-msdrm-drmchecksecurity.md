@@ -7,7 +7,7 @@ old-location: rm\drmchecksecurity.htm
 old-project: AdRms_Sdk
 ms.assetid: 8c0ea50b-ba7c-4cbc-9e1d-4089995374f8
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/11/2018
 ms.keywords: DRMCheckSecurity, DRMCheckSecurity function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMCheckSecurity, rm.drmchecksecurity
 ms.prod: windows-hardware
 ms.technology: windows-devices

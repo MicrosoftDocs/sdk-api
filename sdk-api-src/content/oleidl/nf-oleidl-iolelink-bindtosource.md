@@ -7,7 +7,7 @@ old-location: com\iolelink_bindtosource.htm
 old-project: com
 ms.assetid: 1fadd27d-cb2c-47fc-891a-16f82bdac0f6
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: BindToSource method [COM], BindToSource method [COM], IOleLink interface, BindToSource,IOleLink.BindToSource, IOleLink, IOleLink interface [COM], BindToSource method, IOleLink::BindToSource, _ole_iolelink_bindtosource, com.iolelink_bindtosource, oleidl/IOleLink::BindToSource
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IOleLink::BindToSource method

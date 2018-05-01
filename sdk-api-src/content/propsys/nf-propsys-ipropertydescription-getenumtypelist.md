@@ -7,7 +7,7 @@ old-location: properties\IPropertyDescription_GetEnumTypeList.htm
 old-project: properties
 ms.assetid: ab6c41c2-d85c-4ff9-9061-043303eb1a83
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/5/2018
 ms.keywords: GetEnumTypeList method [Windows Properties], GetEnumTypeList method [Windows Properties], IPropertyDescription interface, GetEnumTypeList,IPropertyDescription.GetEnumTypeList, IPropertyDescription, IPropertyDescription interface [Windows Properties], GetEnumTypeList method, IPropertyDescription::GetEnumTypeList, properties.IPropertyDescription_GetEnumTypeList, propsys/IPropertyDescription::GetEnumTypeList, shell.IPropertyDescription_GetEnumTypeList, shell_IPropertyDescription_GetEnumTypeList
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IPropertyDescription::GetEnumTypeList method

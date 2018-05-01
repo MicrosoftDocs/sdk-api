@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3ddevice9__drawprimitive.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__drawprimitive.htm
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/10/2018
 ms.keywords: DrawPrimitive method [Direct3D 9], DrawPrimitive method [Direct3D 9], IDirect3DDevice9 interface, DrawPrimitive,IDirect3DDevice9.DrawPrimitive, IDirect3DDevice9, IDirect3DDevice9 interface [Direct3D 9], DrawPrimitive method, IDirect3DDevice9::DrawPrimitive, d3d9helper/IDirect3DDevice9::DrawPrimitive, direct3d9.idirect3ddevice9__drawprimitive, f6573fdd-1724-cbca-56a1-0b336470257e
 ms.prod: windows-hardware
 ms.technology: windows-devices

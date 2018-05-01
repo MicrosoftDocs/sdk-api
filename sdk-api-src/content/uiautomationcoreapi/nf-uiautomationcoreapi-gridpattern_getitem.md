@@ -7,7 +7,7 @@ old-location: winauto\uiauto_GridPattern_GetItemConPat.htm
 old-project: WinAuto
 ms.assetid: 776b704b-479b-4b01-8522-b50500bf1c84
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: GridPattern_GetItem, GridPattern_GetItem function [Windows Accessibility], uiauto.uiauto_GridPattern_GetItemConPat, uiauto_GridPattern_GetItemConPat, uiautomationcoreapi/GridPattern_GetItem, winauto.uiauto_GridPattern_GetItemConPat
 ms.prod: windows-hardware
 ms.technology: windows-devices

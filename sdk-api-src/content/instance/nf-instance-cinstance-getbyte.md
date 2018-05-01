@@ -7,7 +7,7 @@ old-location: wmi\cinstance_getbyte.htm
 old-project: WmiSdk
 ms.assetid: a84b2de4-453d-4f69-8bac-df361180bc10
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: CInstance, CInstance interface [Windows Management Instrumentation], GetByte method, CInstance::GetByte, GetByte method [Windows Management Instrumentation], GetByte method [Windows Management Instrumentation], CInstance interface, GetByte,CInstance.GetByte, _hmm_cinstance_getbyte, instance/CInstance::GetByte, wmi.cinstance_getbyte
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: InputScope
+req.typenames: TrustLevel
 topic_type:
 -	APIRef
 -	kbSyntax

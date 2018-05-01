@@ -7,7 +7,7 @@ old-location: direct2d\rectu.htm
 old-project: Direct2D
 ms.assetid: a0b7b850-b58d-43a0-b5c5-61a3791f0681
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: RectU, RectU function [Direct2D], d2d1helper/RectU, direct2d.rectu
 ms.prod: windows-hardware
 ms.technology: windows-devices

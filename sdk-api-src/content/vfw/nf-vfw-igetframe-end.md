@@ -7,7 +7,7 @@ old-location: multimedia\igetframe_end.htm
 old-project: Multimedia
 ms.assetid: dc5423c7-4f21-4941-adda-6f4665e86210
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/25/2018
 ms.keywords: End method [Windows Multimedia], End method [Windows Multimedia], IGetFrame interface, End,IGetFrame.End, IGetFrame, IGetFrame interface [Windows Multimedia], End method, IGetFrame::End, _win32_IGetFrame_End, multimedia.igetframe_end, vfw/IGetFrame::End
 ms.prod: windows-hardware
 ms.technology: windows-devices

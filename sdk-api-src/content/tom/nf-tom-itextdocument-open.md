@@ -7,7 +7,7 @@ old-location: controls\ITextDocument_Open.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\open.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextDocument, ITextDocument interface [Windows Controls], Open method, ITextDocument::Open, Open method [Windows Controls], Open method [Windows Controls], ITextDocument interface, Open,ITextDocument.Open, _win32_ITextDocument_Open, _win32_ITextDocument_Open_cpp, controls.ITextDocument_Open, controls._win32_ITextDocument_Open, tom/ITextDocument::Open, tomCreateAlways, tomCreateNew, tomHTML, tomOpenAlways, tomOpenExisting, tomPasteFile, tomRTF, tomReadOnly, tomShareDenyRead, tomShareDenyWrite, tomText, tomTruncateExisting, tomWordDocument
 ms.prod: windows-hardware
 ms.technology: windows-devices

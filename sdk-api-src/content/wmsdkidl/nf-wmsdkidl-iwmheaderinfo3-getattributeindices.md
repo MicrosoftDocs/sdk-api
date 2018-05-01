@@ -7,7 +7,7 @@ old-location: wmformat\iwmheaderinfo3_getattributeindices.htm
 old-project: wmformat
 ms.assetid: 15c8f0c2-f2d4-441a-b6a9-774da820d03c
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: GetAttributeIndices method [windows Media Format], GetAttributeIndices method [windows Media Format], IWMHeaderInfo3 interface, GetAttributeIndices,IWMHeaderInfo3.GetAttributeIndices, IWMHeaderInfo3, IWMHeaderInfo3 interface [windows Media Format], GetAttributeIndices method, IWMHeaderInfo3::GetAttributeIndices, IWMHeaderInfo3GetAttributeIndices, wmformat.iwmheaderinfo3_getattributeindices, wmsdkidl/IWMHeaderInfo3::GetAttributeIndices
 ms.prod: windows-hardware
 ms.technology: windows-devices

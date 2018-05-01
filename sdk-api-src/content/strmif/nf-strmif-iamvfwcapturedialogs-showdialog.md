@@ -7,7 +7,7 @@ old-location: dshow\iamvfwcapturedialogs_showdialog.htm
 old-project: DirectShow
 ms.assetid: 988b68e5-12fb-47c5-8a49-81ba262da739
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMVfwCaptureDialogs, IAMVfwCaptureDialogs interface [DirectShow], ShowDialog method, IAMVfwCaptureDialogs::ShowDialog, IAMVfwCaptureDialogsShowDialog, ShowDialog method [DirectShow], ShowDialog method [DirectShow], IAMVfwCaptureDialogs interface, ShowDialog,IAMVfwCaptureDialogs.ShowDialog, dshow.iamvfwcapturedialogs_showdialog, strmif/IAMVfwCaptureDialogs::ShowDialog
 ms.prod: windows-hardware
 ms.technology: windows-devices

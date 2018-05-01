@@ -7,7 +7,7 @@ old-location: termserv\itsgauthenticationengine_cancelauthentication.htm
 old-project: TermServ
 ms.assetid: 07da9ffa-b137-4e99-a1d1-14b7c14438a3
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: CancelAuthentication method [Remote Desktop Services], CancelAuthentication method [Remote Desktop Services], ITSGAuthenticationEngine interface, CancelAuthentication,ITSGAuthenticationEngine.CancelAuthentication, ITSGAuthenticationEngine, ITSGAuthenticationEngine interface [Remote Desktop Services], CancelAuthentication method, ITSGAuthenticationEngine::CancelAuthentication, termserv.itsgauthenticationengine_cancelauthentication, tsgauthenticationengine/ITSGAuthenticationEngine::CancelAuthentication
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: TC_IFC_DESCRIPTOR, *PTC_IFC_DESCRIPTOR
+req.typenames: TRANSPORT_SETTING_ID, *PTRANSPORT_SETTING_ID
 topic_type:
 -	APIRef
 -	kbSyntax

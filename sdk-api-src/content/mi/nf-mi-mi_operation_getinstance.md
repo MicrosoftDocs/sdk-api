@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_operation_getinstance.htm
 old-project: wmi_v2
 ms.assetid: 25c2d3fa-276d-4506-a044-4057c8cdc863
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/18/2018
 ms.keywords: MI_Operation_GetInstance, MI_Operation_GetInstance function [Windows Management Infrastructure (MI)], mi/MI_Operation_GetInstance, wmi_v2.mi_operation_getinstance
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -101,7 +101,7 @@ In the case of an error, this returned value provides additional debugging infor
 ### -param completionDetails
 
 In the case of an error, this returned value provides additional error information - typically in the form 
-      of a <a href="https://msdn.microsoft.com/a0a99371-7b49-4ba1-89fb-d7034d162e01">CIM_Error</a> object (or a derived class). This returned 
+      of a <a href="https://msdn.microsoft.com/a7dc450d-7dbd-4097-a186-0e42f100fbfe">CIM_Error</a> object (or a derived class). This returned 
       instance has the same lifetime as the <b>classResult</b> value. If this value is needs to 
       stay active longer, then the value needs to be cloned via 
       <a href="https://msdn.microsoft.com/9c7a4659-5bc4-4d24-89bc-9da4f2bdf107">MI_Instance_Clone</a>.

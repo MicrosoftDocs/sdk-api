@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IRawElementProviderHostingAccessibles.htm
 old-project: WinAuto
 ms.assetid: 2DBD5B1A-127A-4D71-8117-5FCCE653698C
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: IRawElementProviderHostingAccessibles, IRawElementProviderHostingAccessibles interface [Windows Accessibility], IRawElementProviderHostingAccessibles interface [Windows Accessibility], described, uiautomationcore/IRawElementProviderHostingAccessibles, winauto.uiauto_IRawElementProviderHostingAccessibles
 ms.prod: windows-hardware
 ms.technology: windows-devices

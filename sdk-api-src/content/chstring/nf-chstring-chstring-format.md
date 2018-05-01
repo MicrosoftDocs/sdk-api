@@ -7,7 +7,7 @@ old-location: wmi\chstring_format.htm
 old-project: WmiSdk
 ms.assetid: 95d24b0e-3580-4a5d-8dad-50d44ef1ca39
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: CHString, CHString::Format, CHString::Format methods [Windows Management Instrumentation], Format,CHString.Format, chstring/CHString::Format, wmi.chstring_format
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CF_SYNC_ROOT_STANDARD_INFO
+req.typenames: CF_SYNC_STATUS
 topic_type:
 -	APIRef
 -	kbSyntax

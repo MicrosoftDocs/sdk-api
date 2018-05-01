@@ -7,7 +7,7 @@ old-location: mstv\ituningspace_enumcategoryguids.htm
 old-project: mstv
 ms.assetid: d9efbbda-fa95-46ea-aedc-7be5b13d16b5
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: EnumCategoryGUIDs method [Microsoft TV Technologies], EnumCategoryGUIDs method [Microsoft TV Technologies], ITuningSpace interface, EnumCategoryGUIDs,ITuningSpace.EnumCategoryGUIDs, ITuningSpace, ITuningSpace interface [Microsoft TV Technologies], EnumCategoryGUIDs method, ITuningSpace::EnumCategoryGUIDs, ITuningSpaceEnumCategoryGUIDs, mstv.ituningspace_enumcategoryguids, tuner/ITuningSpace::EnumCategoryGUIDs
 ms.prod: windows-hardware
 ms.technology: windows-devices

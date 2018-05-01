@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmreportjob_mailto.htm
 old-project: Fsrm
 ms.assetid: 8ec5d65a-9729-4d68-bceb-b07a2f56755e
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: IFsrmReportJob, IFsrmReportJob interface [File Server Resource Manager], MailTo property, IFsrmReportJob.MailTo, IFsrmReportJob::get_MailTo, IFsrmReportJob::put_MailTo, MailTo property [File Server Resource Manager], MailTo property [File Server Resource Manager], IFsrmReportJob interface, fs.ifsrmreportjob_mailto, fsrm.ifsrmreportjob_mailto, fsrmreports/IFsrmReportJob::MailTo, fsrmreports/IFsrmReportJob::get_MailTo, fsrmreports/IFsrmReportJob::put_MailTo, put_MailTo,IFsrmReportJob.put_MailTo
 ms.prod: windows-hardware
 ms.technology: windows-devices

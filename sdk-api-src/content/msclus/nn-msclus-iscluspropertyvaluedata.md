@@ -7,7 +7,7 @@ old-location: mscs\cluspropertyvaluedata_collection.htm
 old-project: MsCS
 ms.assetid: d95a90f6-2a70-428b-aff3-3be9e9e66071
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: ClusPropertyValueData, ClusPropertyValueData collection [Failover Cluster], ClusPropertyValueData collection [Failover Cluster], described, ISClusPropertyValueData, _wolf_cluspropertyvaluedata_collection, msclus/ClusPropertyValueData, mscs.cluspropertyvaluedata_collection
 ms.prod: windows-hardware
 ms.technology: windows-devices

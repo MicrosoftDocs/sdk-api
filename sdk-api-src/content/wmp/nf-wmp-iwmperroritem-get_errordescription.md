@@ -7,7 +7,7 @@ old-location: wmp\iwmperroritem_get_errordescription.htm
 old-project: WMP
 ms.assetid: eb322580-2cc6-4094-9da3-9b8d78a5cb48
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPErrorItem, IWMPErrorItem interface [Windows Media Player], get_errorDescription method, IWMPErrorItem::get_errorDescription, IWMPErrorItemget_errorDescription, get_errorDescription method [Windows Media Player], get_errorDescription method [Windows Media Player], IWMPErrorItem interface, get_errorDescription,IWMPErrorItem.get_errorDescription, wmp.iwmperroritem_get_errordescription, wmp/IWMPErrorItem::get_errorDescription
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationScrollPattern_CurrentHorizontalScrollP
 old-project: WinAuto
 ms.assetid: dd882f92-be09-49c8-b2fc-fe54f661c686
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: CurrentHorizontalScrollPercent property [Windows Accessibility], CurrentHorizontalScrollPercent property [Windows Accessibility], IUIAutomationScrollPattern interface, IUIAutomationScrollPattern, IUIAutomationScrollPattern interface [Windows Accessibility], CurrentHorizontalScrollPercent property, IUIAutomationScrollPattern.CurrentHorizontalScrollPercent, IUIAutomationScrollPattern::get_CurrentHorizontalScrollPercent, get_CurrentHorizontalScrollPercent,IUIAutomationScrollPattern.get_CurrentHorizontalScrollPercent, uiauto.uiauto_IUIAutomationScrollPattern_CurrentHorizontalScrollPercent, uiauto_IUIAutomationScrollPattern_CurrentHorizontalScrollPercent, uiautomationclient/IUIAutomationScrollPattern::CurrentHorizontalScrollPercent, uiautomationclient/IUIAutomationScrollPattern::get_CurrentHorizontalScrollPercent, winauto.uiauto_IUIAutomationScrollPattern_CurrentHorizontalScrollPercent
 ms.prod: windows-hardware
 ms.technology: windows-devices

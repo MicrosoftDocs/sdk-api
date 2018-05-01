@@ -7,7 +7,7 @@ old-location: properties\IPropertyStoreCache_SetValueAndState.htm
 old-project: properties
 ms.assetid: 2f330b24-339f-420b-871f-6f2ac7bc578c
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/5/2018
 ms.keywords: IPropertyStoreCache, IPropertyStoreCache interface [Windows Properties], SetValueAndState method, IPropertyStoreCache::SetValueAndState, SetValueAndState method [Windows Properties], SetValueAndState method [Windows Properties], IPropertyStoreCache interface, SetValueAndState,IPropertyStoreCache.SetValueAndState, properties.IPropertyStoreCache_SetValueAndState, propsys/IPropertyStoreCache::SetValueAndState, shell.IPropertyStoreCache_SetValueAndState, shell_IPropertyStoreCache_SetValueAndState
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IPropertyStoreCache::SetValueAndState method

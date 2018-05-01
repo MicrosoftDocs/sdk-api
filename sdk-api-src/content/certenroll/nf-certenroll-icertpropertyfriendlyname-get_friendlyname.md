@@ -7,7 +7,7 @@ old-location: security\icertpropertyfriendlyname_friendlyname_property.htm
 old-project: SecCertEnroll
 ms.assetid: 7204800e-e7ae-4fc0-a221-d6f3c2b2855b
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: FriendlyName property [Security], FriendlyName property [Security], ICertPropertyFriendlyName interface, ICertPropertyFriendlyName, ICertPropertyFriendlyName interface [Security], FriendlyName property, ICertPropertyFriendlyName.FriendlyName, ICertPropertyFriendlyName::get_FriendlyName, certenroll/ICertPropertyFriendlyName::FriendlyName, certenroll/ICertPropertyFriendlyName::get_FriendlyName, get_FriendlyName,ICertPropertyFriendlyName.get_FriendlyName, security.icertpropertyfriendlyname_friendlyname_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

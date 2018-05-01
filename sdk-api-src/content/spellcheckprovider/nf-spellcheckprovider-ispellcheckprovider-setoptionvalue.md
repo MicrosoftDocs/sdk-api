@@ -7,7 +7,7 @@ old-location: intl\ispellcheckprovider_setoptionvalue.htm
 old-project: Intl
 ms.assetid: 635E6024-DD9F-403D-B05F-B719EFE78FC0
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/25/2018
 ms.keywords: ISpellCheckProvider, ISpellCheckProvider interface [Internationalization for Windows Applications], SetOptionValue method, ISpellCheckProvider::SetOptionValue, SetOptionValue method [Internationalization for Windows Applications], SetOptionValue method [Internationalization for Windows Applications], ISpellCheckProvider interface, SetOptionValue,ISpellCheckProvider.SetOptionValue, intl.ispellcheckprovider_setoptionvalue, spellcheckprovider/ISpellCheckProvider::SetOptionValue
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\igraphconfig_reconfigure.htm
 old-project: DirectShow
 ms.assetid: 924087c0-e3ad-437b-96e5-de39bbce2ea7
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IGraphConfig, IGraphConfig interface [DirectShow], Reconfigure method, IGraphConfig::Reconfigure, IGraphConfigReconfigure, Reconfigure method [DirectShow], Reconfigure method [DirectShow], IGraphConfig interface, Reconfigure,IGraphConfig.Reconfigure, dshow.igraphconfig_reconfigure, strmif/IGraphConfig::Reconfigure
 ms.prod: windows-hardware
 ms.technology: windows-devices

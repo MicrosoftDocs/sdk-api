@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiosessioncontrol2_issystemsoundssession.htm
 old-project: CoreAudio
 ms.assetid: 9060f89c-83b1-433d-96e3-86ae4b1c7e7c
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: IAudioSessionControl2, IAudioSessionControl2 interface [Core Audio], IsSystemSoundsSession method, IAudioSessionControl2::IsSystemSoundsSession, IsSystemSoundsSession method [Core Audio], IsSystemSoundsSession method [Core Audio], IAudioSessionControl2 interface, IsSystemSoundsSession,IAudioSessionControl2.IsSystemSoundsSession, audiopolicy/IAudioSessionControl2::IsSystemSoundsSession, coreaudio.iaudiosessioncontrol2_issystemsoundssession
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: AE_CURRENT_POSITION, *PAE_CURRENT_POSITION
+req.typenames: UNCOMPRESSEDAUDIOFORMAT
 topic_type:
 -	APIRef
 -	kbSyntax

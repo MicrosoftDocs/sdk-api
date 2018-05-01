@@ -7,7 +7,7 @@ old-location: wmp\iwmpnetwork_setproxyport.htm
 old-project: WMP
 ms.assetid: 36b7290d-c359-45bb-b77b-46b696e9edcf
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPNetwork, IWMPNetwork interface [Windows Media Player], setProxyPort method, IWMPNetwork::setProxyPort, IWMPNetworksetProxyPort, setProxyPort method [Windows Media Player], setProxyPort method [Windows Media Player], IWMPNetwork interface, setProxyPort,IWMPNetwork.setProxyPort, wmp.iwmpnetwork_setproxyport, wmp/IWMPNetwork::setProxyPort
 ms.prod: windows-hardware
 ms.technology: windows-devices

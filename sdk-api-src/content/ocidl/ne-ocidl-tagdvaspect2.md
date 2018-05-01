@@ -7,7 +7,7 @@ old-location: com\dvaspect2.htm
 old-project: com
 ms.assetid: 9000b807-5a42-437f-a3e8-a7b23be1665b
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: DVASPECT2, DVASPECT2 enumeration [COM], DVASPECT_OPAQUE, DVASPECT_TRANSPARENT, _ole_DVASPECT2, com.dvaspect2, ocidl/DVASPECT2, ocidl/DVASPECT_OPAQUE, ocidl/DVASPECT_TRANSPARENT, tagDVASPECT2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # tagDVASPECT2 enumeration

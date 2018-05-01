@@ -7,7 +7,7 @@ old-location: wmformat\iwmreaderadvanced2_startatmarker.htm
 old-project: wmformat
 ms.assetid: 444adb2f-4289-4950-8841-07353479ef43
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMReaderAdvanced2, IWMReaderAdvanced2 interface [windows Media Format], StartAtMarker method, IWMReaderAdvanced2::StartAtMarker, IWMReaderAdvanced2StartAtMarker, StartAtMarker method [windows Media Format], StartAtMarker method [windows Media Format], IWMReaderAdvanced2 interface, StartAtMarker,IWMReaderAdvanced2.StartAtMarker, wmformat.iwmreaderadvanced2_startatmarker, wmsdkidl/IWMReaderAdvanced2::StartAtMarker
 ms.prod: windows-hardware
 ms.technology: windows-devices

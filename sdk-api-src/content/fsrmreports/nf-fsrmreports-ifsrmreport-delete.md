@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmreport_delete.htm
 old-project: Fsrm
 ms.assetid: b50139bc-c584-4bed-bf2e-34f1fef16e6d
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: Delete method [File Server Resource Manager], Delete method [File Server Resource Manager], IFsrmReport interface, Delete,IFsrmReport.Delete, IFsrmReport, IFsrmReport interface [File Server Resource Manager], Delete method, IFsrmReport::Delete, fs.ifsrmreport_delete, fsrm.ifsrmreport_delete, fsrmreports/IFsrmReport::Delete
 ms.prod: windows-hardware
 ms.technology: windows-devices

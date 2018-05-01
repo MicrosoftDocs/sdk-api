@@ -7,7 +7,7 @@ old-location: com\idropsourcenotify_dragleavetarget.htm
 old-project: com
 ms.assetid: 6267db46-92ce-43b8-8e3f-ffd7d2b8a2e8
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: DragLeaveTarget method [COM], DragLeaveTarget method [COM], IDropSourceNotify interface, DragLeaveTarget,IDropSourceNotify.DragLeaveTarget, IDropSourceNotify, IDropSourceNotify interface [COM], DragLeaveTarget method, IDropSourceNotify::DragLeaveTarget, _ole_idropsourcenotify_dragleavetarget, com.idropsourcenotify_dragleavetarget, oleidl/IDropSourceNotify::DragLeaveTarget
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IDropSourceNotify::DragLeaveTarget method

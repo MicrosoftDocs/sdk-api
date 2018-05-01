@@ -7,7 +7,7 @@ old-location: mstv\idvbslocator_put_westposition.htm
 old-project: mstv
 ms.assetid: 567aa90e-6179-477a-813d-13e99b16bbc2
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IDVBSLocator, IDVBSLocator interface [Microsoft TV Technologies], put_WestPosition method, IDVBSLocator::put_WestPosition, IDVBSLocatorput_WestPosition, mstv.idvbslocator_put_westposition, put_WestPosition method [Microsoft TV Technologies], put_WestPosition method [Microsoft TV Technologies], IDVBSLocator interface, put_WestPosition,IDVBSLocator.put_WestPosition, tuner/IDVBSLocator::put_WestPosition
 ms.prod: windows-hardware
 ms.technology: windows-devices

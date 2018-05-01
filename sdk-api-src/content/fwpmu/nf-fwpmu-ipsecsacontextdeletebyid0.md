@@ -7,7 +7,7 @@ old-location: fwp\ipsecsacontextdeletebyid0.htm
 old-project: FWP
 ms.assetid: 4e3b1c5e-3da4-4c6b-aacf-beb90aa96923
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: IPsecSaContextDeleteById0, IPsecSaContextDeleteById0 function [Filtering], fwp.ipsecsacontextdeletebyid0, fwpmu/IPsecSaContextDeleteById0
 ms.prod: windows-hardware
 ms.technology: windows-devices

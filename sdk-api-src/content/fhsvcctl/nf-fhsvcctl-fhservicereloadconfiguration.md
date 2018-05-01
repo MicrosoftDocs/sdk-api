@@ -7,7 +7,7 @@ old-location: winprog\fhservicereloadconfiguration.htm
 old-project: DevNotes
 ms.assetid: DEFD729F-ED84-4C6A-8014-E986C2EB2767
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/13/2018
 ms.keywords: FhServiceReloadConfiguration, FhServiceReloadConfiguration function [Windows API], fhsvcctl/FhServiceReloadConfiguration, winprog.fhservicereloadconfiguration
 ms.prod: windows-hardware
 ms.technology: windows-devices

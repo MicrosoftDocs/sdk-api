@@ -7,7 +7,7 @@ old-location: security\ienumcertviewrow_next.htm
 old-project: SecCrypto
 ms.assetid: 6e471ee9-4b69-468c-a724-e43bd93419d9
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: IEnumCERTVIEWROW, IEnumCERTVIEWROW interface [Security], Next method, IEnumCERTVIEWROW::Next, Next method [Security], Next method [Security], IEnumCERTVIEWROW interface, Next,IEnumCERTVIEWROW.Next, _certsrv_ienumcertviewrow_next, certview/IEnumCERTVIEWROW::Next, security.ienumcertviewrow_next
 ms.prod: windows-hardware
 ms.technology: windows-devices

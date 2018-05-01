@@ -7,7 +7,7 @@ old-location: security\regsetkeysecurity.htm
 old-project: SecAuthZ
 ms.assetid: 08bf8fc1-6a08-490e-b589-730211774257
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: RegSetKeySecurity, RegSetKeySecurity function [Security], _win32_regsetkeysecurity, security.regsetkeysecurity, winreg/RegSetKeySecurity
 ms.prod: windows-hardware
 ms.technology: windows-devices

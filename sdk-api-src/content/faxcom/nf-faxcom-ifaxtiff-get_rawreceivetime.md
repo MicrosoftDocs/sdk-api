@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxtiff_get_rawreceivetime_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_9usl.htm
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/18/2018
 ms.keywords: FaxTiff object [Fax Service], RawReceiveTime property, IFaxTiff, IFaxTiff::get_RawReceiveTime, RawReceiveTime property [Fax Service], RawReceiveTime property [Fax Service], FaxTiff object, _mfax_ifaxtiff_get_rawreceivetime, fax._mfax_ifaxtiff_get_rawreceivetime, fax._mfax_ifaxtiff_get_rawreceivetime_vb, get_RawReceiveTime,IFaxTiff.get_RawReceiveTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

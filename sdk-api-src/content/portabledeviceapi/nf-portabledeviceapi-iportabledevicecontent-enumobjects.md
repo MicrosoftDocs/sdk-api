@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledevicecontent_enumobjects.htm
 old-project: wpd_sdk
 ms.assetid: 72526019-58c9-4a18-a925-e0a900f3e35a
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/11/2018
 ms.keywords: EnumObjects method [Windows Portable Devices SDK], EnumObjects method [Windows Portable Devices SDK], IPortableDeviceContent interface, EnumObjects,IPortableDeviceContent.EnumObjects, IPortableDeviceContent, IPortableDeviceContent interface [Windows Portable Devices SDK], EnumObjects method, IPortableDeviceContent::EnumObjects, IPortableDeviceContentEnumObjects, portabledeviceapi/IPortableDeviceContent::EnumObjects, wpdsdk.iportabledevicecontent_enumobjects
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: WPD_WHITE_BALANCE_SETTINGS
+req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: PortableDeviceGUIDs.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IPortableDeviceContent::EnumObjects method

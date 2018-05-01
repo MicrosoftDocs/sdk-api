@@ -7,7 +7,7 @@ old-location: controls\ITextHost_TxClientToScreen.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txclienttoscreen.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextHost, ITextHost interface [Windows Controls], TxClientToScreen method, ITextHost::TxClientToScreen, TxClientToScreen method [Windows Controls], TxClientToScreen method [Windows Controls], ITextHost interface, TxClientToScreen,ITextHost.TxClientToScreen, _win32_ITextHost_TxClientToScreen, _win32_ITextHost_TxClientToScreen_cpp, controls.ITextHost_TxClientToScreen, controls._win32_ITextHost_TxClientToScreen, textserv/ITextHost::TxClientToScreen
 ms.prod: windows-hardware
 ms.technology: windows-devices

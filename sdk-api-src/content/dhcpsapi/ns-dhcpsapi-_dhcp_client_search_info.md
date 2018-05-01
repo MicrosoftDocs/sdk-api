@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_search_info.htm
 old-project: DHCP
 ms.assetid: 3c6f85d7-c156-4379-bad9-0705698f12e5
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/7/2018
 ms.keywords: "*LPDHCP_SEARCH_INFO, DHCP_SEARCH_INFO, DHCP_SEARCH_INFO structure [DHCP], LPDHCP_SEARCH_INFO, LPDHCP_SEARCH_INFO structure pointer [DHCP], _DHCP_CLIENT_SEARCH_INFO, dhcp.dhcp_search_info, dhcpsapi/LPDHCP_SEARCH_INFO, dhcpsapi/_DHCP_CLIENT_SEARCH_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -57,6 +57,12 @@ The <b>DHCP_SEARCH_INFO</b> structure defines the DHCP client record data used t
 
 
 
+### -field SearchType
+
+
+<a href="https://msdn.microsoft.com/b635ea03-689c-4471-bff2-72fceec78440">DHCP_SEARCH_INFO_TYPE</a> enumeration value that specifies the data included in the subsequent member of this structure.
+
+
 ### -field SearchInfo
 
 
@@ -85,10 +91,6 @@ Unicode string that specifies the network name of the DHCP client.  This field i
  
 
 
-### -field SearchType
-
-
-<a href="https://msdn.microsoft.com/b635ea03-689c-4471-bff2-72fceec78440">DHCP_SEARCH_INFO_TYPE</a> enumeration value that specifies the data included in the subsequent member of this structure.
 
 
 ## -see-also

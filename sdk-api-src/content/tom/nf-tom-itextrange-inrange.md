@@ -7,7 +7,7 @@ old-location: controls\ITextRange_InRange.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\inrange.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextRange, ITextRange interface [Windows Controls], InRange method, ITextRange::InRange, InRange method [Windows Controls], InRange method [Windows Controls], ITextRange interface, InRange,ITextRange.InRange, _win32_ITextRange_InRange, _win32_ITextRange_InRange_cpp, controls.ITextRange_InRange, controls._win32_ITextRange_InRange, tom/ITextRange::InRange
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\ivmrdeinterlacecontrol9_getdeinterlacemodecaps.htm
 old-project: DirectShow
 ms.assetid: 62b71df5-7665-4023-90cd-e426b751c1df
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetDeinterlaceModeCaps method [DirectShow], GetDeinterlaceModeCaps method [DirectShow], IVMRDeinterlaceControl9 interface, GetDeinterlaceModeCaps,IVMRDeinterlaceControl9.GetDeinterlaceModeCaps, IVMRDeinterlaceControl9, IVMRDeinterlaceControl9 interface [DirectShow], GetDeinterlaceModeCaps method, IVMRDeinterlaceControl9::GetDeinterlaceModeCaps, IVMRDeinterlaceControl9GetDeinterlaceModeCaps, dshow.ivmrdeinterlacecontrol9_getdeinterlacemodecaps, vmr9/IVMRDeinterlaceControl9::GetDeinterlaceModeCaps
 ms.prod: windows-hardware
 ms.technology: windows-devices

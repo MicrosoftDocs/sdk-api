@@ -7,7 +7,7 @@ old-location: dshow\iamcertifiedoutputprotection_sessionsequencestart.htm
 old-project: DirectShow
 ms.assetid: 0321e315-b53c-487f-a015-80f7ed581737
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMCertifiedOutputProtection, IAMCertifiedOutputProtection interface [DirectShow], SessionSequenceStart method, IAMCertifiedOutputProtection::SessionSequenceStart, IAMCertifiedOutputProtectionSessionSequenceStart, SessionSequenceStart method [DirectShow], SessionSequenceStart method [DirectShow], IAMCertifiedOutputProtection interface, SessionSequenceStart,IAMCertifiedOutputProtection.SessionSequenceStart, dshow.iamcertifiedoutputprotection_sessionsequencestart, strmif/IAMCertifiedOutputProtection::SessionSequenceStart
 ms.prod: windows-hardware
 ms.technology: windows-devices

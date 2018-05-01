@@ -7,7 +7,7 @@ old-location: com\ioleundomanager_getlastredodescription.htm
 old-project: com
 ms.assetid: b3d514cf-1d1f-4b5b-89f6-d0e03aa794cc
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: GetLastRedoDescription method [COM], GetLastRedoDescription method [COM], IOleUndoManager interface, GetLastRedoDescription,IOleUndoManager.GetLastRedoDescription, IOleUndoManager, IOleUndoManager interface [COM], GetLastRedoDescription method, IOleUndoManager::GetLastRedoDescription, _ole_ioleundomanager_getlastredodescription, com.ioleundomanager_getlastredodescription, ocidl/IOleUndoManager::GetLastRedoDescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IOleUndoManager::GetLastRedoDescription method

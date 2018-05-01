@@ -7,7 +7,7 @@ old-location: shell\IExpDispSupport_OnInvoke.htm
 old-project: shell
 ms.assetid: 92228340-2472-4920-90b7-ce46cab7406e
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: DISPATCH_METHOD, DISPATCH_PROPERTYGET, DISPATCH_PROPERTYPUT, DISPATCH_PROPERTYPUTREF, IExpDispSupport, IExpDispSupport interface [Windows Shell], OnInvoke method, IExpDispSupport::OnInvoke, OnInvoke method [Windows Shell], OnInvoke method [Windows Shell], IExpDispSupport interface, OnInvoke,IExpDispSupport.OnInvoke, shdeprecated/IExpDispSupport::OnInvoke, shell.IExpDispSupport_OnInvoke, zone_IExpDispSupport_OnInvoke
 ms.prod: windows-hardware
 ms.technology: windows-devices

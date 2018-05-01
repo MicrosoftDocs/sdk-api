@@ -7,7 +7,7 @@ old-location: setup\ivalidate_opendatabase.htm
 old-project: Msi
 ms.assetid: 3f295eea-5f6b-4afa-b0ac-55606086b2b2
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/26/2018
 ms.keywords: IValidate, IValidate interface, OpenDatabase method, IValidate::OpenDatabase, OpenDatabase method, OpenDatabase method, IValidate interface, OpenDatabase,IValidate.OpenDatabase, evalcom2/IValidate::OpenDatabase, setup.ivalidate_opendatabase
 ms.prod: windows-hardware
 ms.technology: windows-devices

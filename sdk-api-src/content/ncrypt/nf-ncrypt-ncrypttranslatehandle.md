@@ -7,7 +7,7 @@ old-location: security\ncrypttranslatehandle.htm
 old-project: SecCNG
 ms.assetid: 0c339864-b598-430c-a597-09d3571fdbb2
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: AT_KEYEXCHANGE, AT_SIGNATURE, NCryptTranslateHandle, NCryptTranslateHandle function [Security], ncrypt/NCryptTranslateHandle, security.ncrypttranslatehandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Ncrypt.lib
 req.dll: Ncrypt.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # NCryptTranslateHandle function

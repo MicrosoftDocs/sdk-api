@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_destinationoptions_settimeout.htm
 old-project: wmi_v2
 ms.assetid: 81309b13-657c-45fc-b4fd-21bfb28247a2
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/18/2018
 ms.keywords: MI_DestinationOptions_SetTimeout, MI_DestinationOptions_SetTimeout function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_SetTimeout, wmi_v2.mi_destinationoptions_settimeout
 ms.prod: windows-hardware
 ms.technology: windows-devices

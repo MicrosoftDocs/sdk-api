@@ -7,7 +7,7 @@ old-location: wmi\cinstance_isnull.htm
 old-project: WmiSdk
 ms.assetid: 54d0135f-f387-43f5-ab5a-aa134141d3b0
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: "?IsNull@CInstance@@QBE_NPBG@Z, ?IsNull@CInstance@@QEBA_NPEBG@Z, CInstance, CInstance interface [Windows Management Instrumentation], IsNull method, CInstance::IsNull, IsNull method [Windows Management Instrumentation], IsNull method [Windows Management Instrumentation], CInstance interface, IsNull,CInstance.IsNull, _hmm_cinstance_isnull, instance/CInstance::IsNull, wmi.cinstance_isnull"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: InputScope
+req.typenames: TrustLevel
 topic_type:
 -	APIRef
 -	kbSyntax

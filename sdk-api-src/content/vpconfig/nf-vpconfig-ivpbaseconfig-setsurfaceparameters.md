@@ -7,7 +7,7 @@ old-location: dshow\ivpbaseconfig_setsurfaceparameters.htm
 old-project: DirectShow
 ms.assetid: 4af0092e-5866-45ca-b0be-e97d9dd51b0f
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IVPBaseConfig, IVPBaseConfig interface [DirectShow], SetSurfaceParameters method, IVPBaseConfig::SetSurfaceParameters, IVPBaseConfigSetSurfaceParameters, SetSurfaceParameters method [DirectShow], SetSurfaceParameters method [DirectShow], IVPBaseConfig interface, SetSurfaceParameters,IVPBaseConfig.SetSurfaceParameters, dshow.ivpbaseconfig_setsurfaceparameters, vpconfig/IVPBaseConfig::SetSurfaceParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices

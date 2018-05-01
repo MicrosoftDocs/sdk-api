@@ -7,7 +7,7 @@ old-location: dshow\idvdinfo2_getaudiolanguage.htm
 old-project: DirectShow
 ms.assetid: c95afa36-879b-4fd5-bf92-0b9b93c708ef
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetAudioLanguage method [DirectShow], GetAudioLanguage method [DirectShow], IDvdInfo2 interface, GetAudioLanguage,IDvdInfo2.GetAudioLanguage, IDvdInfo2, IDvdInfo2 interface [DirectShow], GetAudioLanguage method, IDvdInfo2::GetAudioLanguage, IDvdInfo2GetAudioLanguage, dshow.idvdinfo2_getaudiolanguage, strmif/IDvdInfo2::GetAudioLanguage
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_so_declaration_entry.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_so_declaration_entry.htm
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: 367a5fa7-5907-24fc-2124-92ee48f50140, D3D10_SO_DECLARATION_ENTRY, D3D10_SO_DECLARATION_ENTRY structure [Direct3D 10], d3d10/D3D10_SO_DECLARATION_ENTRY, direct3d10.d3d10_so_declaration_entry
 ms.prod: windows-hardware
 ms.technology: windows-devices

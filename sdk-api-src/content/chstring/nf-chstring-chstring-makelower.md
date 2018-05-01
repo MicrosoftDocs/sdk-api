@@ -7,7 +7,7 @@ old-location: wmi\chstring_makelower.htm
 old-project: WmiSdk
 ms.assetid: 5031bbd0-d7a6-4b58-b338-da875c24ad25
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: CHString, CHString interface [Windows Management Instrumentation], MakeLower method, CHString::MakeLower, MakeLower method [Windows Management Instrumentation], MakeLower method [Windows Management Instrumentation], CHString interface, MakeLower,CHString.MakeLower, _hmm_chstring_makelower, chstring/CHString::MakeLower, wmi.chstring_makelower
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CF_SYNC_ROOT_STANDARD_INFO
+req.typenames: CF_SYNC_STATUS
 topic_type:
 -	APIRef
 -	kbSyntax

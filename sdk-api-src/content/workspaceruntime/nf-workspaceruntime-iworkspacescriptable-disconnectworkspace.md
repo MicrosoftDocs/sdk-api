@@ -7,7 +7,7 @@ old-location: termserv\iworkspacescriptable_disconnectworkspace.htm
 old-project: TermServ
 ms.assetid: f422535a-0226-4951-b505-410711878fe7
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: DisconnectWorkspace method [Remote Desktop Services], DisconnectWorkspace method [Remote Desktop Services], IWorkspaceScriptable interface, DisconnectWorkspace method [Remote Desktop Services], IWorkspaceScriptable2 interface, DisconnectWorkspace method [Remote Desktop Services], IWorkspaceScriptable3 interface, DisconnectWorkspace method [Remote Desktop Services], Workspace object, DisconnectWorkspace,IWorkspaceScriptable.DisconnectWorkspace, IWorkspaceScriptable, IWorkspaceScriptable interface [Remote Desktop Services], DisconnectWorkspace method, IWorkspaceScriptable2 interface [Remote Desktop Services], DisconnectWorkspace method, IWorkspaceScriptable2::DisconnectWorkspace, IWorkspaceScriptable3 interface [Remote Desktop Services], DisconnectWorkspace method, IWorkspaceScriptable3::DisconnectWorkspace, IWorkspaceScriptable::DisconnectWorkspace, Workspace object [Remote Desktop Services], DisconnectWorkspace method, termserv.iworkspacescriptable_disconnectworkspace, workspaceruntime/IWorkspaceScriptable2::DisconnectWorkspace, workspaceruntime/IWorkspaceScriptable3::DisconnectWorkspace, workspaceruntime/IWorkspaceScriptable::DisconnectWorkspace
 ms.prod: windows-hardware
 ms.technology: windows-devices

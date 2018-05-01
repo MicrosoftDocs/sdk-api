@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmobjectinfo_getplayoffset.htm
 old-project: WMDM
 ms.assetid: 8642404a-33ff-40b7-b05a-f193e8feadf5
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: GetPlayOffset method [windows Media Device Manager], GetPlayOffset method [windows Media Device Manager], IWMDMObjectInfo interface, GetPlayOffset,IWMDMObjectInfo.GetPlayOffset, IWMDMObjectInfo, IWMDMObjectInfo interface [windows Media Device Manager], GetPlayOffset method, IWMDMObjectInfo::GetPlayOffset, IWMDMObjectInfoGetPlayOffset, mswmdm/IWMDMObjectInfo::GetPlayOffset, wmdm.iwmdmobjectinfo_getplayoffset
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IWMDMObjectInfo::GetPlayOffset method

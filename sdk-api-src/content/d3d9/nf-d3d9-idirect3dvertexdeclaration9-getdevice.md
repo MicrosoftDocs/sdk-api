@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3dvertexdeclaration9__getdevice.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dvertexdeclaration9__getdevice.htm
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/10/2018
 ms.keywords: 06ae2ca9-697f-c95d-8f0b-7e78f6bb21dd, GetDevice method [Direct3D 9], GetDevice method [Direct3D 9], IDirect3DVertexDeclaration9 interface, GetDevice,IDirect3DVertexDeclaration9.GetDevice, IDirect3DVertexDeclaration9, IDirect3DVertexDeclaration9 interface [Direct3D 9], GetDevice method, IDirect3DVertexDeclaration9::GetDevice, d3d9helper/IDirect3DVertexDeclaration9::GetDevice, direct3d9.idirect3dvertexdeclaration9__getdevice
 ms.prod: windows-hardware
 ms.technology: windows-devices

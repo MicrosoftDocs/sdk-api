@@ -7,7 +7,7 @@ old-location: termserv\itssbresourcepluginstore_settargetpropertywithversionchec
 old-project: TermServ
 ms.assetid: 51b5e267-da1a-4d83-81bc-0cf8fb525fa9
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: ITsSbResourcePluginStore, ITsSbResourcePluginStore interface [Remote Desktop Services], SetTargetPropertyWithVersionCheck method, ITsSbResourcePluginStore::SetTargetPropertyWithVersionCheck, SetTargetPropertyWithVersionCheck method [Remote Desktop Services], SetTargetPropertyWithVersionCheck method [Remote Desktop Services], ITsSbResourcePluginStore interface, SetTargetPropertyWithVersionCheck,ITsSbResourcePluginStore.SetTargetPropertyWithVersionCheck, sbtsv/ITsSbResourcePluginStore::SetTargetPropertyWithVersionCheck, termserv.itssbresourcepluginstore_settargetpropertywithversioncheck
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITsSbResourcePluginStore::SetTargetPropertyWithVersionCheck method

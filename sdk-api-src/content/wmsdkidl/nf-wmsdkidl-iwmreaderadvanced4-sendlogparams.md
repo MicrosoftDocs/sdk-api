@@ -7,7 +7,7 @@ old-location: wmformat\iwmreaderadvanced4_sendlogparams.htm
 old-project: wmformat
 ms.assetid: 3b345573-bdca-4a1f-b272-716e2ca4c88c
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMReaderAdvanced4, IWMReaderAdvanced4 interface [windows Media Format], SendLogParams method, IWMReaderAdvanced4::SendLogParams, IWMReaderAdvanced4SendLogParams, SendLogParams method [windows Media Format], SendLogParams method [windows Media Format], IWMReaderAdvanced4 interface, SendLogParams,IWMReaderAdvanced4.SendLogParams, wmformat.iwmreaderadvanced4_sendlogparams, wmsdkidl/IWMReaderAdvanced4::SendLogParams
 ms.prod: windows-hardware
 ms.technology: windows-devices

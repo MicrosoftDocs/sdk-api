@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffects_item.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffects\item.htm
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IMILBitmapEffects, IMILBitmapEffects interface [WPF Bitmap Effects], Item method, IMILBitmapEffects::Item, Item method [WPF Bitmap Effects], Item method [WPF Bitmap Effects], IMILBitmapEffects interface, Item,IMILBitmapEffects.Item, _wibe_imilbitmapeffects_item, mileffects/IMILBitmapEffects::Item, wibe._wibe_imilbitmapeffects_item
 ms.prod: windows-hardware
 ms.technology: windows-devices

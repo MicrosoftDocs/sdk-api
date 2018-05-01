@@ -7,7 +7,7 @@ old-location: mf\imfpmediaplayer_getposition.htm
 old-project: medfound
 ms.assetid: e3401c66-0dc7-46ef-9a38-088d605a3038
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetPosition method [Media Foundation], GetPosition method [Media Foundation], IMFPMediaPlayer interface, GetPosition,IMFPMediaPlayer.GetPosition, IMFPMediaPlayer, IMFPMediaPlayer interface [Media Foundation], GetPosition method, IMFPMediaPlayer::GetPosition, MFP_POSITIONTYPE_100NS, mf.imfpmediaplayer_getposition, mfplay/IMFPMediaPlayer::GetPosition
 ms.prod: windows-hardware
 ms.technology: windows-devices

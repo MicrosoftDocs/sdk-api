@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxdoc_get_recipienttitle_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_3bs5.htm
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/18/2018
 ms.keywords: FaxDoc object [Fax Service], RecipientTitle property, IFaxDoc, IFaxDoc::put_RecipientTitle, RecipientTitle property [Fax Service], RecipientTitle property [Fax Service], FaxDoc object, _mfax_ifaxdoc_get_recipienttitle, fax._mfax_ifaxdoc_get_recipienttitle, fax._mfax_ifaxdoc_get_recipienttitle_vb, put_RecipientTitle,IFaxDoc.put_RecipientTitle
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\authzsetappcontainerinformation.htm
 old-project: SecAuthZ
 ms.assetid: CD01C5E1-2367-4CC1-A495-A295E3C82B46
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: AuthzSetAppContainerInformation, AuthzSetAppContainerInformation function [Security], authz/AuthzSetAppContainerInformation, security.authzsetappcontainerinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tapi3\itrendezvous_enumeratedefaultdirectories.htm
 old-project: Tapi
 ms.assetid: fe89a370-32ed-4519-bb98-9d9ea7615eb7
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: EnumerateDefaultDirectories method [TAPI 2.2], EnumerateDefaultDirectories method [TAPI 2.2], ITRendezvous interface, EnumerateDefaultDirectories,ITRendezvous.EnumerateDefaultDirectories, ITRendezvous, ITRendezvous interface [TAPI 2.2], EnumerateDefaultDirectories method, ITRendezvous::EnumerateDefaultDirectories, _tapi3_itrendezvous_enumeratedefaultdirectories, rend/ITRendezvous::EnumerateDefaultDirectories, tapi3.itrendezvous_enumeratedefaultdirectories
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Rend.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITRendezvous::EnumerateDefaultDirectories method

@@ -7,7 +7,7 @@ old-location: base\ivssbackupcomponentsex2_breaksnapshotsetex.htm
 old-project: VSS
 ms.assetid: 595fe295-082d-4130-9698-952df49a922e
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: BreakSnapshotSetEx method, BreakSnapshotSetEx method, IVssBackupComponentsEx2 interface, BreakSnapshotSetEx,IVssBackupComponentsEx2.BreakSnapshotSetEx, IVssBackupComponentsEx2, IVssBackupComponentsEx2 interface, BreakSnapshotSetEx method, IVssBackupComponentsEx2::BreakSnapshotSetEx, base.ivssbackupcomponentsex2_breaksnapshotsetex, vsbackup/IVssBackupComponentsEx2::BreakSnapshotSetEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

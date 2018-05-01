@@ -7,7 +7,7 @@ old-location: base\ivssbackupcomponents_reverttosnapshot.htm
 old-project: VSS
 ms.assetid: 9976195e-3448-4b0e-82b2-1ae061c75b17
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: IVssBackupComponents, IVssBackupComponents interface [VSS], RevertToSnapshot method, IVssBackupComponents::RevertToSnapshot, RevertToSnapshot method [VSS], RevertToSnapshot method [VSS], IVssBackupComponents interface, RevertToSnapshot,IVssBackupComponents.RevertToSnapshot, _win32_ivssbackupcomponents_reverttosnapshot, base.ivssbackupcomponents_reverttosnapshot, vsbackup/IVssBackupComponents::RevertToSnapshot
 ms.prod: windows-hardware
 ms.technology: windows-devices

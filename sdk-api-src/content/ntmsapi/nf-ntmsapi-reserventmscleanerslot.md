@@ -7,7 +7,7 @@ old-location: fs\reserventmscleanerslot.htm
 old-project: Rsm
 ms.assetid: 17e5acf8-c6b3-42a8-a9fe-fdda53779b67
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/5/2018
 ms.keywords: ReserveNtmsCleanerSlot, ReserveNtmsCleanerSlot function [Files], _zaw_reserventmscleanerslot, base.reserventmscleanerslot, fs.reserventmscleanerslot, ntmsapi/ReserveNtmsCleanerSlot
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ReserveNtmsCleanerSlot function

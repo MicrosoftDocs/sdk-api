@@ -7,7 +7,7 @@ old-location: dshow\imediastream_sendendofstream.htm
 old-project: DirectShow
 ms.assetid: aa774875-1cf2-4792-a492-fef64571ae8f
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IMediaStream, IMediaStream interface [DirectShow], SendEndOfStream method, IMediaStream::SendEndOfStream, IMediaStreamSendEndOfStream, SendEndOfStream method [DirectShow], SendEndOfStream method [DirectShow], IMediaStream interface, SendEndOfStream,IMediaStream.SendEndOfStream, dshow.imediastream_sendendofstream, mmstream/IMediaStream::SendEndOfStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

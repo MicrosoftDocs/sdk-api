@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11query_getdesc.htm
 old-project: direct3d11
 ms.assetid: 7eca470a-98ff-450a-8ff9-3b929ff70deb
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/6/2018
 ms.keywords: 81b30780-0d31-5b18-acbb-e89550c3c0f3, GetDesc method [Direct3D 11], GetDesc method [Direct3D 11], ID3D11Query interface, GetDesc,ID3D11Query.GetDesc, ID3D11Query, ID3D11Query interface [Direct3D 11], GetDesc method, ID3D11Query::GetDesc, d3d11/ID3D11Query::GetDesc, direct3d11.id3d11query_getdesc
 ms.prod: windows-hardware
 ms.technology: windows-devices

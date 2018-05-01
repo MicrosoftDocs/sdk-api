@@ -7,7 +7,7 @@ old-location: wmp\iwmpdvd_titlemenu.htm
 old-project: WMP
 ms.assetid: 93a06367-5b0b-421d-abef-f6cd23e5b0d5
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPDVD, IWMPDVD interface [Windows Media Player], titleMenu method, IWMPDVD::titleMenu, IWMPDVDtitleMenu, titleMenu method [Windows Media Player], titleMenu method [Windows Media Player], IWMPDVD interface, titleMenu,IWMPDVD.titleMenu, wmp.iwmpdvd_titlemenu, wmp/IWMPDVD::titleMenu
 ms.prod: windows-hardware
 ms.technology: windows-devices

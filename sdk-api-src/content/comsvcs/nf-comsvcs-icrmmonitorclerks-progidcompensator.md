@@ -7,7 +7,7 @@ old-location: cos\icrmmonitorclerks_progidcompensator.htm
 old-project: cossdk
 ms.assetid: c174908b-293e-4481-b35d-455ee4f52eea
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: ICrmMonitorClerks, ICrmMonitorClerks interface [COM+], ProgIdCompensator method, ICrmMonitorClerks::ProgIdCompensator, ProgIdCompensator method [COM+], ProgIdCompensator method [COM+], ICrmMonitorClerks interface, ProgIdCompensator,ICrmMonitorClerks.ProgIdCompensator, _dtc_ICrmMonitorClerks_ProgIdCompensator, comsvcs/ICrmMonitorClerks::ProgIdCompensator, cos.icrmmonitorclerks_progidcompensator
 ms.prod: windows-hardware
 ms.technology: windows-devices

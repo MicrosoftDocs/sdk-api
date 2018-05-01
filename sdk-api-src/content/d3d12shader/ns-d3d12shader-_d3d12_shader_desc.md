@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_shader_desc.htm
 old-project: direct3d12
 ms.assetid: FE989434-B1B6-48F3-8F95-64B1E7C988F5
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: D3D12_SHADER_DESC, D3D12_SHADER_DESC structure, _D3D12_SHADER_DESC, d3d12shader/D3D12_SHADER_DESC, direct3d12.d3d12_shader_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices

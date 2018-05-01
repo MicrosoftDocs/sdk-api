@@ -1,14 +1,14 @@
 ---
 UID: NS:windns.__unnamed_struct_32
-title: DNS_NAPTR_DATAA
+title: DNS_NAPTR_DATAW
 author: windows-driver-content
 description: The DNS_NAPTR_DATA structure represents a Naming Authority Pointer (NAPTR) DNS Resource Record (RR) as specified in RFC 2915.
 old-location: dns\dns_naptr_data.htm
 old-project: DNS
 ms.assetid: 8f576efb-4ef3-4fc0-8cf5-d373460a3b3c
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
-ms.keywords: "*PDNS_NAPTR_DATA, *PDNS_NAPTR_DATAA, DNS_NAPTR_DATA, DNS_NAPTR_DATA structure [DNS], DNS_NAPTR_DATAA, PDNS_NAPTR_DATA, PDNS_NAPTR_DATA structure pointer [DNS], dns.dns_naptr_data, windns/DNS_NAPTR_DATA, windns/PDNS_NAPTR_DATA"
+ms.date: 4/18/2018
+ms.keywords: "*PDNS_NAPTR_DATA, *PDNS_NAPTR_DATAW, DNS_NAPTR_DATA, DNS_NAPTR_DATA structure [DNS], DNS_NAPTR_DATAW, PDNS_NAPTR_DATA, PDNS_NAPTR_DATA structure pointer [DNS], dns.dns_naptr_data, windns/DNS_NAPTR_DATA, windns/PDNS_NAPTR_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: DNS_NAPTR_DATAA, *PDNS_NAPTR_DATAA
+req.typenames: DNS_NAPTR_DATAW, *PDNS_NAPTR_DATAW
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# DNS_NAPTR_DATAA structure
+# DNS_NAPTR_DATAW structure
 
 
 ## -description

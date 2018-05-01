@@ -7,7 +7,7 @@ old-location: wab\_wab_WABOpenEx.htm
 old-project: wab
 ms.assetid: VS|wab|~\wab\reference\functions\wabopenex.htm
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 4/3/2018
 ms.keywords: WABOpenEx, WABOpenEx callback function [Windows Address Book], _wab_WABOpenEx, wab._wab_WABOpenEx, wabapi/WABOpenEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

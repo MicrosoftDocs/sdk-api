@@ -7,7 +7,7 @@ old-location: bits\ienumbitspeers_skip.htm
 old-project: Bits
 ms.assetid: 23a9b424-11a3-4cbf-a867-93026f0725cc
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/10/2018
 ms.keywords: IEnumBitsPeers, IEnumBitsPeers interface [BITS], Skip method, IEnumBitsPeers::Skip, Skip method [BITS], Skip method [BITS], IEnumBitsPeers interface, Skip,IEnumBitsPeers.Skip, bits.ienumbitspeers_skip, bits3_0/IEnumBitsPeers::Skip
 ms.prod: windows-hardware
 ms.technology: windows-devices

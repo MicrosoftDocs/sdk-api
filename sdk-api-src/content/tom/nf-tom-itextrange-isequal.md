@@ -7,7 +7,7 @@ old-location: controls\ITextRange_IsEqual.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextrange\itextrangeisequal.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextRange, ITextRange interface [Windows Controls], IsEqual method, ITextRange::IsEqual, IsEqual method [Windows Controls], IsEqual method [Windows Controls], ITextRange interface, IsEqual,ITextRange.IsEqual, _win32_ITextRange_IsEqual, _win32_ITextRange_IsEqual_cpp, controls.ITextRange_IsEqual, controls._win32_ITextRange_IsEqual, tom/ITextRange::IsEqual
 ms.prod: windows-hardware
 ms.technology: windows-devices

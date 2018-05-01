@@ -7,7 +7,7 @@ old-location: bits\ibitsextensionsetupfactory_getobject.htm
 old-project: Bits
 ms.assetid: ac0bb9d5-3f1f-4c9b-bd7d-905e0451bf70
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/10/2018
 ms.keywords: GetObject method [BITS], GetObject method [BITS], IBITSExtensionSetupFactory interface, GetObject,IBITSExtensionSetupFactory.GetObject, IBITSExtensionSetupFactory, IBITSExtensionSetupFactory interface [BITS], GetObject method, IBITSExtensionSetupFactory::GetObject, _drz_ibitsextensionsetupfactory_getobject, bits.ibitsextensionsetupfactory_getobject, bitscfg/IBITSExtensionSetupFactory::GetObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

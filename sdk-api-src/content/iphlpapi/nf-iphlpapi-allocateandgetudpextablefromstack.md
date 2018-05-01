@@ -7,7 +7,7 @@ old-location: iphlp\allocateandgetudpextablefromstack.htm
 old-project: IpHlp
 ms.assetid: 22bb2cc2-c559-4a03-a1ab-9a7fa0442b13
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 4/13/2018
 ms.keywords: AF_INET, AF_INET6, AllocateAndGetUdpExTableFromStack, AllocateAndGetUdpExTableFromStack function [IP Helper], iphlp.allocateandgetudpextablefromstack, iphlpapi/AllocateAndGetUdpExTableFromStack
 ms.prod: windows-hardware
 ms.technology: windows-devices

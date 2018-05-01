@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationStylesPattern_CachedStyleName.htm
 old-project: WinAuto
 ms.assetid: FFFD7437-842E-42FC-99A0-27E2EFA9F645
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: CachedStyleName property [Windows Accessibility], CachedStyleName property [Windows Accessibility], IUIAutomationStylesPattern interface, IUIAutomationStylesPattern, IUIAutomationStylesPattern interface [Windows Accessibility], CachedStyleName property, IUIAutomationStylesPattern.CachedStyleName, IUIAutomationStylesPattern::get_CachedStyleName, get_CachedStyleName,IUIAutomationStylesPattern.get_CachedStyleName, uiautomationclient/IUIAutomationStylesPattern::CachedStyleName, uiautomationclient/IUIAutomationStylesPattern::get_CachedStyleName, winauto.uiauto_IUIAutomationStylesPattern_CachedStyleName
 ms.prod: windows-hardware
 ms.technology: windows-devices

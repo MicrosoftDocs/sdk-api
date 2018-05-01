@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicimagingfactory_createcomponentenumerator.htm
 old-project: wic
 ms.assetid: 810bf0c2-2780-4ba3-84c1-7b257139e26e
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: CreateComponentEnumerator method [Windows Imaging Component], CreateComponentEnumerator method [Windows Imaging Component], IWICImagingFactory interface, CreateComponentEnumerator,IWICImagingFactory.CreateComponentEnumerator, IWICImagingFactory, IWICImagingFactory interface [Windows Imaging Component], CreateComponentEnumerator method, IWICImagingFactory::CreateComponentEnumerator, _wic_codec_iwicimagingfactory_createcomponentenumerator, wic._wic_codec_iwicimagingfactory_createcomponentenumerator, wincodec/IWICImagingFactory::CreateComponentEnumerator
 ms.prod: windows-hardware
 ms.technology: windows-devices

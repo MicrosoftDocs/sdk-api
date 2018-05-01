@@ -7,7 +7,7 @@ old-location: mstv\iisdbcomponentgroupdescriptor_getrecordcaunitnumberofcomponen
 old-project: mstv
 ms.assetid: 2656ecfd-84a1-43cb-8fa3-a188f9176c01
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetRecordCAUnitNumberOfComponents method [Microsoft TV Technologies], GetRecordCAUnitNumberOfComponents method [Microsoft TV Technologies], IIsdbComponentGroupDescriptor interface, GetRecordCAUnitNumberOfComponents,IIsdbComponentGroupDescriptor.GetRecordCAUnitNumberOfComponents, IIsdbComponentGroupDescriptor, IIsdbComponentGroupDescriptor interface [Microsoft TV Technologies], GetRecordCAUnitNumberOfComponents method, IIsdbComponentGroupDescriptor::GetRecordCAUnitNumberOfComponents, dvbsiparser/IIsdbComponentGroupDescriptor::GetRecordCAUnitNumberOfComponents, mstv.iisdbcomponentgroupdescriptor_getrecordcaunitnumberofcomponents
 ms.prod: windows-hardware
 ms.technology: windows-devices

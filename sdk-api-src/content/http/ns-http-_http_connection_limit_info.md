@@ -7,7 +7,7 @@ old-location: http\http_connection_limit_info.htm
 old-project: Http
 ms.assetid: 6d2c1eeb-d248-4ca5-80b3-5c9f69ce8b9b
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: "*PHTTP_CONNECTION_LIMIT_INFO, *PHTTP_CONNECTION_LIMIT_INFO structure [HTTP], HTTP_CONNECTION_LIMIT_INFO, HTTP_CONNECTION_LIMIT_INFO structure [HTTP], _HTTP_CONNECTION_LIMIT_INFO, http.http_connection_limit_info, http/*PHTTP_CONNECTION_LIMIT_INFO, http/HTTP_CONNECTION_LIMIT_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

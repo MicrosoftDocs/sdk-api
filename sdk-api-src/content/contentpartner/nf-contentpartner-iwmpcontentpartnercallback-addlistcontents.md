@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontentpartnercallback_addlistcontents.htm
 old-project: WMP
 ms.assetid: 22d28495-310e-4f3d-a0e3-8f6679c78c40
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: AddListContents method [Windows Media Player], AddListContents method [Windows Media Player], IWMPContentPartnerCallback interface, AddListContents,IWMPContentPartnerCallback.AddListContents, IWMPContentPartnerCallback, IWMPContentPartnerCallback interface [Windows Media Player], AddListContents method, IWMPContentPartnerCallback::AddListContents, IWMPContentPartnerCallbackAddListContents, contentpartner/IWMPContentPartnerCallback::AddListContents, wmp.iwmpcontentpartnercallback_addlistcontents
 ms.prod: windows-hardware
 ms.technology: windows-devices

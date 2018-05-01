@@ -58,6 +58,11 @@ Contains the output for the <a href="https://msdn.microsoft.com/library/windows/
 
 
 
+### -field BootSectorCount
+
+Number of elements in the <b>BootSectors</b> array.
+
+
 ### -field BootSectors
 
 A variable length array of structures each containing the following member.
@@ -67,11 +72,6 @@ A variable length array of structures each containing the following member.
 #### Offset
 
 The location of a boot sector or a copy of a boot sector.
-
-
-### -field BootSectorCount
-
-Number of elements in the <b>BootSectors</b> array.
 
 
 ## -see-also

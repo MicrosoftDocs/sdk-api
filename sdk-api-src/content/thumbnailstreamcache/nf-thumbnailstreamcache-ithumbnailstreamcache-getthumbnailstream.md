@@ -7,7 +7,7 @@ old-location: shell\ithumbnailstreamcache_getthumbnailstream.htm
 old-project: shell
 ms.assetid: 66A89AF9-DEBE-485C-B8E9-519F63386F7D
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetThumbnailStream method [Windows Shell], GetThumbnailStream method [Windows Shell], IThumbnailStreamCache interface, GetThumbnailStream,IThumbnailStreamCache.GetThumbnailStream, IThumbnailStreamCache, IThumbnailStreamCache interface [Windows Shell], GetThumbnailStream method, IThumbnailStreamCache::GetThumbnailStream, shell.ithumbnailstreamcache_getthumbnailstream, thumbnailstreamcache/IThumbnailStreamCache::GetThumbnailStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

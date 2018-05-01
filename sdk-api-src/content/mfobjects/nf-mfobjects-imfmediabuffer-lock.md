@@ -7,7 +7,7 @@ old-location: mf\imfmediabuffer_lock.htm
 old-project: medfound
 ms.assetid: 28ac372a-6e73-4e66-bf69-bcc244821b71
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 28ac372a-6e73-4e66-bf69-bcc244821b71, IMFMediaBuffer, IMFMediaBuffer interface [Media Foundation], Lock method, IMFMediaBuffer::Lock, Lock method [Media Foundation], Lock method [Media Foundation], IMFMediaBuffer interface, Lock,IMFMediaBuffer.Lock, mf.imfmediabuffer_lock, mfobjects/IMFMediaBuffer::Lock
 ms.prod: windows-hardware
 ms.technology: windows-devices

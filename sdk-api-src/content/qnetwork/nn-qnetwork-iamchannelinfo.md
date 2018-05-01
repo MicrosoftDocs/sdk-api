@@ -7,7 +7,7 @@ old-location: dshow\iamchannelinfo.htm
 old-project: DirectShow
 ms.assetid: 779d1c0a-f838-4d02-8254-d66916d3b790
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMChannelInfo, IAMChannelInfo interface [DirectShow], IAMChannelInfo interface [DirectShow], described, IAMChannelInfoInterface, dshow.iamchannelinfo, qnetwork/IAMChannelInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IAMChannelInfo interface

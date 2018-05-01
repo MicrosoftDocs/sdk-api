@@ -7,7 +7,7 @@ old-location: tablet\iinkdivisionresult_resultbytype.htm
 old-project: tablet
 ms.assetid: d0bad0e8-e48c-443b-b52e-e95de3158710
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: IInkDivisionResult, IInkDivisionResult interface [Tablet PC], ResultByType method, IInkDivisionResult::ResultByType, ResultByType method [Tablet PC], ResultByType method [Tablet PC], IInkDivisionResult interface, ResultByType,IInkDivisionResult.ResultByType, d0bad0e8-e48c-443b-b52e-e95de3158710, msinkaut15/IInkDivisionResult::ResultByType, tablet.iinkdivisionresult_resultbytype
 ms.prod: windows-hardware
 ms.technology: windows-devices

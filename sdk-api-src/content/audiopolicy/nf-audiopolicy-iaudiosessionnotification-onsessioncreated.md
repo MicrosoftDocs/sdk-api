@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiosessionnotification_onsessioncreated.htm
 old-project: CoreAudio
 ms.assetid: 03f22e06-f446-4c57-a955-3d12deec4152
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: IAudioSessionNotification, IAudioSessionNotification interface [Core Audio], OnSessionCreated method, IAudioSessionNotification::OnSessionCreated, OnSessionCreated method [Core Audio], OnSessionCreated method [Core Audio], IAudioSessionNotification interface, OnSessionCreated,IAudioSessionNotification.OnSessionCreated, audiopolicy/IAudioSessionNotification::OnSessionCreated, coreaudio.iaudiosessionnotification_onsessioncreated
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: AE_CURRENT_POSITION, *PAE_CURRENT_POSITION
+req.typenames: UNCOMPRESSEDAUDIOFORMAT
 topic_type:
 -	APIRef
 -	kbSyntax

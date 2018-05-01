@@ -7,7 +7,7 @@ old-location: cos\icomcrmevents_oncrmcommit.htm
 old-project: cossdk
 ms.assetid: 76b87452-fa29-49f7-acc8-2ae2039757b0
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: IComCRMEvents, IComCRMEvents interface [COM+], OnCRMCommit method, IComCRMEvents::OnCRMCommit, OnCRMCommit method [COM+], OnCRMCommit method [COM+], IComCRMEvents interface, OnCRMCommit,IComCRMEvents.OnCRMCommit, _dtc_IComCRMEvents_OnCRMCommit, comsvcs/IComCRMEvents::OnCRMCommit, cos.icomcrmevents_oncrmcommit
 ms.prod: windows-hardware
 ms.technology: windows-devices

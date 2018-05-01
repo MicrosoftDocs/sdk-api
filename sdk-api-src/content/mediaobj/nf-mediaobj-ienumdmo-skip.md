@@ -7,7 +7,7 @@ old-location: dshow\ienumdmo_skip.htm
 old-project: DirectShow
 ms.assetid: 32722190-52b5-468a-91d6-a828ad02b203
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IEnumDMO, IEnumDMO interface [DirectShow], Skip method, IEnumDMO::Skip, IEnumDMOSkip, Skip method [DirectShow], Skip method [DirectShow], IEnumDMO interface, Skip,IEnumDMO.Skip, dshow.ienumdmo_skip, mediaobj/IEnumDMO::Skip
 ms.prod: windows-hardware
 ms.technology: windows-devices

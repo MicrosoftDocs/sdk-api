@@ -7,7 +7,7 @@ old-location: com\ivbformat.htm
 old-project: com
 ms.assetid: 6b05c0c7-6f38-42cf-bf7b-2a54a4302b68
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IVBFormat, IVBFormat interface [COM], IVBFormat interface [COM], described, _com_IVBFormat, com.ivbformat, vbinterf/IVBFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\imsvidvideorenderer_get_minvidrect.htm
 old-project: mstv
 ms.assetid: 2e65f2b2-d479-429a-b5c7-8c5cbb6c833d
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidVideoRenderer, IMSVidVideoRenderer interface [Microsoft TV Technologies], get_MinVidRect method, IMSVidVideoRenderer::get_MinVidRect, IMSVidVideoRendererget_MinVidRect, get_MinVidRect method [Microsoft TV Technologies], get_MinVidRect method [Microsoft TV Technologies], IMSVidVideoRenderer interface, get_MinVidRect,IMSVidVideoRenderer.get_MinVidRect, mstv.imsvidvideorenderer_get_minvidrect, segment/IMSVidVideoRenderer::get_MinVidRect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidVideoRenderer::get_MinVidRect method

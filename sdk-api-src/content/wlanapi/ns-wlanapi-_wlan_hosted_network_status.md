@@ -7,7 +7,7 @@ old-location: nwifi\wlan_hosted_network_status.htm
 old-project: NativeWiFi
 ms.assetid: 5fa00041-235f-4f48-a367-e1eaec8474ce
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/13/2018
 ms.keywords: "*PWLAN_HOSTED_NETWORK_STATUS, PWLAN_HOSTED_NETWORK_STATUS, PWLAN_HOSTED_NETWORK_STATUS structure pointer [NativeWIFI], WLAN_HOSTED_NETWORK_STATUS, WLAN_HOSTED_NETWORK_STATUS structure [NativeWIFI], _WLAN_HOSTED_NETWORK_STATUS, nwifi.wlan_hosted_network_status, wlanapi/PWLAN_HOSTED_NETWORK_STATUS, wlanapi/WLAN_HOSTED_NETWORK_STATUS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

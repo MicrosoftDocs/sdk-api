@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12shaderreflectiontype_getmembertypebyname.htm
 old-project: direct3d12
 ms.assetid: 1A05A112-3975-4424-AED7-55F9CFBF8771
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: GetMemberTypeByName method, GetMemberTypeByName method, ID3D12ShaderReflectionType interface, GetMemberTypeByName,ID3D12ShaderReflectionType.GetMemberTypeByName, ID3D12ShaderReflectionType, ID3D12ShaderReflectionType interface, GetMemberTypeByName method, ID3D12ShaderReflectionType::GetMemberTypeByName, d3d12shader/ID3D12ShaderReflectionType::GetMemberTypeByName, direct3d12.id3d12shaderreflectiontype_getmembertypebyname
 ms.prod: windows-hardware
 ms.technology: windows-devices

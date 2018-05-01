@@ -7,7 +7,7 @@ old-location: gdi\ttpolycurve.htm
 old-project: gdi
 ms.assetid: 59a26aec-786e-471b-8e08-ddffb04874d6
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/17/2018
 ms.keywords: "*LPTTPOLYCURVE, LPTTPOLYCURVE, LPTTPOLYCURVE structure pointer [Windows GDI], TTPOLYCURVE, TTPOLYCURVE structure [Windows GDI], _win32_TTPOLYCURVE_str, gdi.ttpolycurve, tagTTPOLYCURVE, wingdi/LPTTPOLYCURVE, wingdi/TTPOLYCURVE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

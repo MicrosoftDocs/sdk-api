@@ -7,7 +7,7 @@ old-location: mf\imfworkqueueservices_gettopologyworkqueuemmcsstaskid.htm
 old-project: medfound
 ms.assetid: 0d519b96-428f-4cad-affc-2e94cdf28ae7
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 0d519b96-428f-4cad-affc-2e94cdf28ae7, GetTopologyWorkQueueMMCSSTaskId method [Media Foundation], GetTopologyWorkQueueMMCSSTaskId method [Media Foundation], IMFWorkQueueServices interface, GetTopologyWorkQueueMMCSSTaskId,IMFWorkQueueServices.GetTopologyWorkQueueMMCSSTaskId, IMFWorkQueueServices, IMFWorkQueueServices interface [Media Foundation], GetTopologyWorkQueueMMCSSTaskId method, IMFWorkQueueServices::GetTopologyWorkQueueMMCSSTaskId, mf.imfworkqueueservices_gettopologyworkqueuemmcsstaskid, mfidl/IMFWorkQueueServices::GetTopologyWorkQueueMMCSSTaskId
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\mfbeginregisterworkqueuewithmmcssex.htm
 old-project: medfound
 ms.assetid: D27E2B51-857D-48E5-8D25-A26917FCF959
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: MFBeginRegisterWorkQueueWithMMCSSEx, MFBeginRegisterWorkQueueWithMMCSSEx function [Media Foundation], mf.mfbeginregisterworkqueuewithmmcssex, mfapi/MFBeginRegisterWorkQueueWithMMCSSEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

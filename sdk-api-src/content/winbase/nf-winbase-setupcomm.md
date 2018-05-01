@@ -7,7 +7,7 @@ old-location: base\setupcomm.htm
 old-project: DevIO
 ms.assetid: 7b42fdad-5847-4036-957e-2f71ad982d9f
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/3/2018
 ms.keywords: SetupComm, SetupComm function, _win32_setupcomm, base.setupcomm, winbase/SetupComm
 ms.prod: windows-hardware
 ms.technology: windows-devices

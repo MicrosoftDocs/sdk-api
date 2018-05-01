@@ -7,7 +7,7 @@ old-location: gdi\panose.htm
 old-project: gdi
 ms.assetid: 18aa4a36-8e47-4e35-973f-376d412ed923
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/17/2018
 ms.keywords: "*LPPANOSE, LPPANOSE, LPPANOSE structure pointer [Windows GDI], PANOSE, PANOSE structure [Windows GDI], _win32_PANOSE_str, gdi.panose, tagPANOSE, wingdi/LPPANOSE, wingdi/PANOSE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

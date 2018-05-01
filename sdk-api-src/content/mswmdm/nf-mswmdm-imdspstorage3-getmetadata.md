@@ -7,7 +7,7 @@ old-location: wmdm\imdspstorage3_getmetadata.htm
 old-project: WMDM
 ms.assetid: a341289b-79e6-4ac7-b0d3-72ad5953c1df
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: GetMetadata method [windows Media Device Manager], GetMetadata method [windows Media Device Manager], IMDSPStorage3 interface, GetMetadata,IMDSPStorage3.GetMetadata, IMDSPStorage3, IMDSPStorage3 interface [windows Media Device Manager], GetMetadata method, IMDSPStorage3::GetMetadata, IMDSPStorage3GetMetadata, mswmdm/IMDSPStorage3::GetMetadata, wmdm.imdspstorage3_getmetadata
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMDSPStorage3::GetMetadata method

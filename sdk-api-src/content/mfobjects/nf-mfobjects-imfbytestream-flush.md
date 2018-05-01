@@ -7,7 +7,7 @@ old-location: mf\imfbytestream_flush.htm
 old-project: medfound
 ms.assetid: 16ea6c38-52f3-405e-8a8f-be5d0527099c
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 16ea6c38-52f3-405e-8a8f-be5d0527099c, Flush method [Media Foundation], Flush method [Media Foundation], IMFByteStream interface, Flush,IMFByteStream.Flush, IMFByteStream, IMFByteStream interface [Media Foundation], Flush method, IMFByteStream::Flush, mf.imfbytestream_flush, mfobjects/IMFByteStream::Flush
 ms.prod: windows-hardware
 ms.technology: windows-devices

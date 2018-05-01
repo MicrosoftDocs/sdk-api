@@ -7,7 +7,7 @@ old-location: wua\iautomaticupdates_pause.htm
 old-project: Wua_Sdk
 ms.assetid: 42985fdf-b3b3-43f0-addb-478298bd8ebd
 ms.author: windowsdriverdev
-ms.date: 3/15/2018
+ms.date: 4/18/2018
 ms.keywords: IAutomaticUpdates, IAutomaticUpdates interface [Windows Update Agent], Pause method, IAutomaticUpdates::Pause, Pause method [Windows Update Agent], Pause method [Windows Update Agent], IAutomaticUpdates interface, Pause,IAutomaticUpdates.Pause, wua.iautomaticupdates_pause, wuapi/IAutomaticUpdates::Pause
 ms.prod: windows-hardware
 ms.technology: windows-devices

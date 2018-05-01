@@ -7,7 +7,7 @@ old-location: mstv\icat_initialize.htm
 old-project: mstv
 ms.assetid: 74751ee7-4cc9-451b-b4da-29df3ebf0df5
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: ICAT, ICAT interface [Microsoft TV Technologies], Initialize method, ICAT::Initialize, ICATInitialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies], ICAT interface, Initialize,ICAT.Initialize, mpeg2psiparser/ICAT::Initialize, mstv.icat_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

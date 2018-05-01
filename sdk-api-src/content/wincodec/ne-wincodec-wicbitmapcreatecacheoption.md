@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_wicbitmapcreatecacheoption.htm
 old-project: wic
 ms.assetid: 121d394d-e818-44c5-bf44-3b01df61c780
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: WICBitmapCacheOnDemand, WICBitmapCacheOnLoad, WICBitmapCreateCacheOption, WICBitmapCreateCacheOption enumeration [Windows Imaging Component], WICBitmapNoCache, _wic_codec_wicbitmapcreatecacheoption, wic._wic_codec_wicbitmapcreatecacheoption, wincodec/WICBitmapCacheOnDemand, wincodec/WICBitmapCacheOnLoad, wincodec/WICBitmapCreateCacheOption, wincodec/WICBitmapNoCache
 ms.prod: windows-hardware
 ms.technology: windows-devices

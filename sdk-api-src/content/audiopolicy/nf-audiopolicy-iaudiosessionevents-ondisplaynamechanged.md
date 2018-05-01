@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiosessionevents_ondisplaynamechanged.htm
 old-project: CoreAudio
 ms.assetid: 65d21f0c-b6f1-4506-975c-6d0308b3fc2f
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: IAudioSessionEvents, IAudioSessionEvents interface [Core Audio], OnDisplayNameChanged method, IAudioSessionEvents::OnDisplayNameChanged, IAudioSessionEventsOnDisplayNameChanged, OnDisplayNameChanged method [Core Audio], OnDisplayNameChanged method [Core Audio], IAudioSessionEvents interface, OnDisplayNameChanged,IAudioSessionEvents.OnDisplayNameChanged, audiopolicy/IAudioSessionEvents::OnDisplayNameChanged, coreaudio.iaudiosessionevents_ondisplaynamechanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: AE_CURRENT_POSITION, *PAE_CURRENT_POSITION
+req.typenames: UNCOMPRESSEDAUDIOFORMAT
 topic_type:
 -	APIRef
 -	kbSyntax

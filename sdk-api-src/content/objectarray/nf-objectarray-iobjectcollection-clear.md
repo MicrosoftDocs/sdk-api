@@ -7,7 +7,7 @@ old-location: shell\IObjectCollection_Clear.htm
 old-project: shell
 ms.assetid: b32ce885-aafe-4c81-8e7a-74f67fa15180
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: Clear method [Windows Shell], Clear method [Windows Shell], IObjectCollection interface, Clear,IObjectCollection.Clear, IObjectCollection, IObjectCollection interface [Windows Shell], Clear method, IObjectCollection::Clear, _shell_IObjectCollection_Clear, objectarray/IObjectCollection::Clear, shell.IObjectCollection_Clear
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IObjectCollection::Clear method

@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicbitmapcodecprogressnotification_registerprogres
 old-project: wic
 ms.assetid: ac47178a-f149-4313-8673-ece59e88cfb3
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: IWICBitmapCodecProgressNotification, IWICBitmapCodecProgressNotification interface [Windows Imaging Component], RegisterProgressNotification method, IWICBitmapCodecProgressNotification::RegisterProgressNotification, RegisterProgressNotification method [Windows Imaging Component], RegisterProgressNotification method [Windows Imaging Component], IWICBitmapCodecProgressNotification interface, RegisterProgressNotification,IWICBitmapCodecProgressNotification.RegisterProgressNotification, _wic_codec_iwicbitmapcodecprogressnotification_registerprogressnotification, wic._wic_codec_iwicbitmapcodecprogressnotification_registerprogressnotification, wincodec/IWICBitmapCodecProgressNotification::RegisterProgressNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices

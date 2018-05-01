@@ -7,7 +7,7 @@ old-location: winrt\pdfrenderparams.htm
 old-project: WinRT
 ms.assetid: 5C229DEF-DAF7-414B-B733-4807E4122C16
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/24/2018
 ms.keywords: PdfRenderParams, PdfRenderParams function [Windows Runtime], windows/PdfRenderParams, winrt.pdfrenderparams
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: DOT11_BSSID_LIST, *PDOT11_BSSID_LIST
+req.typenames: IP6_ADDRESS, *PIP6_ADDRESS
 topic_type:
 -	APIRef
 -	kbSyntax

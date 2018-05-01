@@ -7,7 +7,7 @@ old-location: com\pagerange.htm
 old-project: com
 ms.assetid: b37d57e6-1634-4676-9f31-e3db2835983f
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: PAGERANGE, PAGERANGE structure [COM], _ctrl_PAGERANGE, com.pagerange, docobj/PAGERANGE, tagPAGERANGE
 ms.prod: windows-hardware
 ms.technology: windows-devices

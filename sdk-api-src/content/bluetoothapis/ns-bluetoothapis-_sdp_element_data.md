@@ -57,6 +57,40 @@ The <b>SDP_ELEMENT_DATA</b> structure stores SDP element data.
 
 
 
+### -field type
+
+Enumeration of SDP element types.  Generic element types have a
+    <b>specificType</b> value different from SDP_ST_NONE.  The generic SDP element types are the following:
+
+
+<ul>
+<li>SDP_TYPE_UINT</li>
+<li>SDP_TYPE_INT</li>
+<li>SDP_TYPE_UUID</li>
+</ul>
+
+
+
+The following element types do not have corresponding <b>specificType</b> values:
+
+<ul>
+<li>SDP_TYPE_STRING</li>
+<li>SDP_TYPE_URL</li>
+<li>SDP_TYPE_SEQUENCE</li>
+<li>SDP_TYPE_ALTERNATIVE</li>
+<li>SDP_TYPE_BOOLEAN</li>
+<li>SDP_TYPE_NIL</li>
+</ul>
+
+
+There is no associated data value with the type SDP_TYPE_NIL.
+
+
+### -field specificType
+
+Specific type of SDP element, used to further specify generic element types.
+
+
 ### -field data
 
 
@@ -194,40 +228,6 @@ Raw alternative that begins at the alternative element header. Value for type eq
 ### -field data.alternative.length
 
 Length of the raw alternative. Cannot be null terminated.
-
-
-### -field type
-
-Enumeration of SDP element types.  Generic element types have a
-    <b>specificType</b> value different from SDP_ST_NONE.  The generic SDP element types are the following:
-
-
-<ul>
-<li>SDP_TYPE_UINT</li>
-<li>SDP_TYPE_INT</li>
-<li>SDP_TYPE_UUID</li>
-</ul>
-
-
-
-The following element types do not have corresponding <b>specificType</b> values:
-
-<ul>
-<li>SDP_TYPE_STRING</li>
-<li>SDP_TYPE_URL</li>
-<li>SDP_TYPE_SEQUENCE</li>
-<li>SDP_TYPE_ALTERNATIVE</li>
-<li>SDP_TYPE_BOOLEAN</li>
-<li>SDP_TYPE_NIL</li>
-</ul>
-
-
-There is no associated data value with the type SDP_TYPE_NIL.
-
-
-### -field specificType
-
-Specific type of SDP element, used to further specify generic element types.
 
 
 ## -see-also

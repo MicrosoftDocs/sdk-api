@@ -7,7 +7,7 @@ old-location: security\iazscope_addpolicyadministratorname.htm
 old-project: SecAuthZ
 ms.assetid: a160e4cb-e779-413e-9d8a-5fb9684a48f2
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: AddPolicyAdministratorName method [Security], AddPolicyAdministratorName method [Security], AzScope object, AddPolicyAdministratorName method [Security], IAzScope interface, AddPolicyAdministratorName,IAzScope.AddPolicyAdministratorName, AzScope object [Security], AddPolicyAdministratorName method, IAzScope, IAzScope interface [Security], AddPolicyAdministratorName method, IAzScope::AddPolicyAdministratorName, azroles/IAzScope::AddPolicyAdministratorName, security.iazscope_addpolicyadministratorname
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmdm\imdspstorageglobals_getcapabilities.htm
 old-project: WMDM
 ms.assetid: 83204c04-503d-4687-8a4d-3c95a6def8d1
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: GetCapabilities method [windows Media Device Manager], GetCapabilities method [windows Media Device Manager], IMDSPStorageGlobals interface, GetCapabilities,IMDSPStorageGlobals.GetCapabilities, IMDSPStorageGlobals, IMDSPStorageGlobals interface [windows Media Device Manager], GetCapabilities method, IMDSPStorageGlobals::GetCapabilities, IMDSPStorageGlobalsGetCapabilities, mswmdm/IMDSPStorageGlobals::GetCapabilities, wmdm.imdspstorageglobals_getcapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMDSPStorageGlobals::GetCapabilities method

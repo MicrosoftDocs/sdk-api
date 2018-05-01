@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxserver2_configuration_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxserver2\configuration.htm
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/18/2018
 ms.keywords: Configuration property [Fax Service], Configuration property [Fax Service], FaxServer object, FaxServer object [Fax Service], Configuration property, IFaxServer2, IFaxServer2::get_Configuration, _mfax_faxserver2.configuration, fax._mfax_faxserver2_configuration, fax._mfax_faxserver2_configuration_vb, get_Configuration,IFaxServer2.get_Configuration
 ms.prod: windows-hardware
 ms.technology: windows-devices

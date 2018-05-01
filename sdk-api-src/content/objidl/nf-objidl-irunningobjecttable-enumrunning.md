@@ -7,7 +7,7 @@ old-location: com\irunningobjecttable_enumrunning.htm
 old-project: com
 ms.assetid: 09ff0d05-627b-4e47-8534-25cd8735c6e5
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: EnumRunning method [COM], EnumRunning method [COM], IRunningObjectTable interface, EnumRunning,IRunningObjectTable.EnumRunning, IRunningObjectTable, IRunningObjectTable interface [COM], EnumRunning method, IRunningObjectTable::EnumRunning, _com_irunningobjecttable_enumrunning, com.irunningobjecttable_enumrunning, objidl/IRunningObjectTable::EnumRunning
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IRunningObjectTable::EnumRunning method

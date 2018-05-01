@@ -7,7 +7,7 @@ old-location: secbiomet\winbiolockunit.htm
 old-project: SecBioMet
 ms.assetid: 421520eb-ae67-4ead-8202-ffa468a20bdd
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: WinBioLockUnit, WinBioLockUnit function [Windows Biometric Framework API], secbiomet.winbiolockunit, winbio/WinBioLockUnit
 ms.prod: windows-hardware
 ms.technology: windows-devices

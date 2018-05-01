@@ -7,7 +7,7 @@ old-location: security\iazapplication_generateaudits.htm
 old-project: SecAuthZ
 ms.assetid: c35f612e-4a2c-46b6-913a-26b0819394f4
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: AzApplication object [Security], GenerateAudits property, GenerateAudits property [Security], GenerateAudits property [Security], AzApplication object, GenerateAudits property [Security], IAzApplication interface, IAzApplication, IAzApplication interface [Security], GenerateAudits property, IAzApplication.GenerateAudits, IAzApplication::get_GenerateAudits, IAzApplication::put_GenerateAudits, azroles/IAzApplication::GenerateAudits, azroles/IAzApplication::get_GenerateAudits, azroles/IAzApplication::put_GenerateAudits, get_GenerateAudits,IAzApplication.get_GenerateAudits, security.iazapplication_generateaudits
 ms.prod: windows-hardware
 ms.technology: windows-devices

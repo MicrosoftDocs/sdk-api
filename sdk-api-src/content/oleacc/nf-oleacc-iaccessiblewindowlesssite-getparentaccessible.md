@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IAccessibleWindowlessSite_GetParentAccessible.htm
 old-project: WinAuto
 ms.assetid: 579C2425-9C3E-4CFF-8A25-C661670FB636
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: GetParentAccessible method [Windows Accessibility], GetParentAccessible method [Windows Accessibility], IAccessibleWindowlessSite interface, GetParentAccessible,IAccessibleWindowlessSite.GetParentAccessible, IAccessibleWindowlessSite, IAccessibleWindowlessSite interface [Windows Accessibility], GetParentAccessible method, IAccessibleWindowlessSite::GetParentAccessible, oleacc/IAccessibleWindowlessSite::GetParentAccessible, winauto.uiauto_IAccessibleWindowlessSite_GetParentAccessible
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Oleacc.lib
 req.dll: Oleacc.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IAccessibleWindowlessSite::GetParentAccessible method

@@ -7,7 +7,7 @@ old-location: base\getusername.htm
 old-project: SysInfo
 ms.assetid: 87adc46a-c069-4ee5-900a-03b646306e64
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: GetUserName, GetUserName function, GetUserNameA, GetUserNameW, _win32_getusername, base.getusername, winbase/GetUserName, winbase/GetUserNameA, winbase/GetUserNameW
 ms.prod: windows-hardware
 ms.technology: windows-devices

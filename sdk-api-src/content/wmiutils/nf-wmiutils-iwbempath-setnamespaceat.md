@@ -7,7 +7,7 @@ old-location: wmi\iwbempath_setnamespaceat.htm
 old-project: WmiSdk
 ms.assetid: 59e8d4bc-1bf6-4fe7-a269-22f0317b876c
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: IWbemPath, IWbemPath interface [Windows Management Instrumentation], SetNamespaceAt method, IWbemPath::SetNamespaceAt, SetNamespaceAt method [Windows Management Instrumentation], SetNamespaceAt method [Windows Management Instrumentation], IWbemPath interface, SetNamespaceAt,IWbemPath.SetNamespaceAt, _hmm_iwbempath_setnamespaceat, wmi.iwbempath_setnamespaceat, wmiutils/IWbemPath::SetNamespaceAt
 ms.prod: windows-hardware
 ms.technology: windows-devices

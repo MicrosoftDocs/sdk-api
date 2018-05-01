@@ -1,14 +1,14 @@
 ---
 UID: NS:windns.__unnamed_struct_9
-title: DNS_MX_DATAA
+title: DNS_MX_DATAW
 author: windows-driver-content
 description: The DNS_MX_DATA structure represents a DNS mail exchanger (MX) record as specified in section 3.3.9 of RFC 1035.
 old-location: dns\dns_mx_data.htm
 old-project: DNS
 ms.assetid: 72a0b42e-a7af-42d2-b672-cf06d0b5d1ba
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
-ms.keywords: "*PDNS_MX_DATA, *PDNS_MX_DATAA, DNS_MX_DATA, DNS_MX_DATA structure [DNS], DNS_MX_DATAA, PDNS_MX_DATA, PDNS_MX_DATA structure pointer [DNS], _dns_dns_mx_data, dns.dns_mx_data, windns/DNS_MX_DATA, windns/PDNS_MX_DATA"
+ms.date: 4/18/2018
+ms.keywords: "*PDNS_MX_DATA, *PDNS_MX_DATAW, DNS_MX_DATA, DNS_MX_DATA structure [DNS], DNS_MX_DATAW, PDNS_MX_DATA, PDNS_MX_DATA structure pointer [DNS], _dns_dns_mx_data, dns.dns_mx_data, windns/DNS_MX_DATA, windns/PDNS_MX_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: DNS_MX_DATAA, *PDNS_MX_DATAA
+req.typenames: DNS_MX_DATAW, *PDNS_MX_DATAW
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# DNS_MX_DATAA structure
+# DNS_MX_DATAW structure
 
 
 ## -description

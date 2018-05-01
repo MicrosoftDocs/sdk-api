@@ -7,7 +7,7 @@ old-location: mstv\itunerequestinfo_getnextprogram.htm
 old-project: mstv
 ms.assetid: ed1c5a30-19fb-46a8-b521-017da56d85c8
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetNextProgram method [Microsoft TV Technologies], GetNextProgram method [Microsoft TV Technologies], ITuneRequestInfo interface, GetNextProgram,ITuneRequestInfo.GetNextProgram, ITuneRequestInfo, ITuneRequestInfo interface [Microsoft TV Technologies], GetNextProgram method, ITuneRequestInfo::GetNextProgram, ITuneRequestInfoGetNextProgram, bdatif/ITuneRequestInfo::GetNextProgram, mstv.itunerequestinfo_getnextprogram
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: SpanningEventEmmMessage
+req.typenames: SmartCardApplication
 topic_type:
 -	APIRef
 -	kbSyntax

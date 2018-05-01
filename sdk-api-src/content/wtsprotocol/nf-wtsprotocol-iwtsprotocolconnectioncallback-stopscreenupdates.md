@@ -7,7 +7,7 @@ old-location: termserv\iwtsprotocolconnectioncallback_stopscreenupdates.htm
 old-project: TermServ
 ms.assetid: 69fab470-8763-405e-96f1-d3b1c5a26422
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: IWTSProtocolConnectionCallback, IWTSProtocolConnectionCallback interface [Remote Desktop Services], StopScreenUpdates method, IWTSProtocolConnectionCallback::StopScreenUpdates, StopScreenUpdates method [Remote Desktop Services], StopScreenUpdates method [Remote Desktop Services], IWTSProtocolConnectionCallback interface, StopScreenUpdates,IWTSProtocolConnectionCallback.StopScreenUpdates, termserv.iwtsprotocolconnectioncallback_stopscreenupdates, wtsprotocol/IWTSProtocolConnectionCallback::StopScreenUpdates
 ms.prod: windows-hardware
 ms.technology: windows-devices

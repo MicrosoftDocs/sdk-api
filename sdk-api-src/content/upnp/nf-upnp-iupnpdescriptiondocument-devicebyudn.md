@@ -7,7 +7,7 @@ old-location: upnp\iupnpdescriptiondocument_devicebyudn.htm
 old-project: UPnP
 ms.assetid: 0f8ae379-3ec6-4fe2-ae7b-fe3750a5d4c3
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/25/2018
 ms.keywords: DeviceByUDN method [UPnP APIs], DeviceByUDN method [UPnP APIs], IUPnPDescriptionDocument interface, DeviceByUDN,IUPnPDescriptionDocument.DeviceByUDN, IUPnPDescriptionDocument, IUPnPDescriptionDocument interface [UPnP APIs], DeviceByUDN method, IUPnPDescriptionDocument::DeviceByUDN, _upnp_iupnpdescriptiondocument_devicebyudn, upnp.iupnpdescriptiondocument_devicebyudn, upnp/IUPnPDescriptionDocument::DeviceByUDN
 ms.prod: windows-hardware
 ms.technology: windows-devices

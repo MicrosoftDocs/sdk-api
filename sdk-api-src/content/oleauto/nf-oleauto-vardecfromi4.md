@@ -7,7 +7,7 @@ old-location: automat\vardecfromi4.htm
 old-project: automat
 ms.assetid: 577d0420-4a1c-4733-bf3b-4c20c1591d2f
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: VarDecFromI4, VarDecFromI4 function [Automation], _oa96_VarDecFromI4, automat.vardecfromi4, oleauto/VarDecFromI4
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # VarDecFromI4 function

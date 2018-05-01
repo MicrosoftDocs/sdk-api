@@ -7,7 +7,7 @@ old-location: rm\drmgetunboundlicenseobject.htm
 old-project: AdRms_Sdk
 ms.assetid: d3e03d62-5202-4969-a4c7-5fbf89070436
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/11/2018
 ms.keywords: DRMGetUnboundLicenseObject, DRMGetUnboundLicenseObject function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetUnboundLicenseObject, rm.drmgetunboundlicenseobject
 ms.prod: windows-hardware
 ms.technology: windows-devices

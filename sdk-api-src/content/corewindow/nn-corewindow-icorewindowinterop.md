@@ -7,7 +7,7 @@ old-location: winrt\icorewindowinterop.htm
 old-project: WinRT
 ms.assetid: 6928FA3A-C367-4C99-A67E-8ED0153D6349
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/24/2018
 ms.keywords: ICoreWindowInterop, ICoreWindowInterop interface [Windows Runtime], ICoreWindowInterop interface [Windows Runtime], described, corewindow/ICoreWindowInterop, winrt.icorewindowinterop
 ms.prod: windows-hardware
 ms.technology: windows-devices

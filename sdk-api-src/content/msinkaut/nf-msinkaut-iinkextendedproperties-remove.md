@@ -7,7 +7,7 @@ old-location: tablet\iinkextendedproperties_remove.htm
 old-project: tablet
 ms.assetid: 2211a462-df26-4168-b89c-9607683defdb
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: 2211a462-df26-4168-b89c-9607683defdb, IInkExtendedProperties, IInkExtendedProperties interface [Tablet PC], Remove method, IInkExtendedProperties::Remove, Remove method [Tablet PC], Remove method [Tablet PC], IInkExtendedProperties interface, Remove,IInkExtendedProperties.Remove, msinkaut/IInkExtendedProperties::Remove, tablet.iinkextendedproperties_remove
 ms.prod: windows-hardware
 ms.technology: windows-devices

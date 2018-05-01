@@ -7,7 +7,7 @@ old-location: security\prov_enumalgs.htm
 old-project: SecCrypto
 ms.assetid: 8301d07f-88aa-49b4-9091-8f515b585c57
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: PROV_ENUMALGS, PROV_ENUMALGS structure [Security], _PROV_ENUMALGS, _crypto2_prov_enumalgs, security.prov_enumalgs, wincrypt/PROV_ENUMALGS
 ms.prod: windows-hardware
 ms.technology: windows-devices

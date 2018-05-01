@@ -7,7 +7,7 @@ old-location: dshow\ifiltergraph_setdefaultsyncsource.htm
 old-project: DirectShow
 ms.assetid: 775e7136-f6d0-47bc-852f-1c5c88ad03bf
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IFilterGraph, IFilterGraph interface [DirectShow], SetDefaultSyncSource method, IFilterGraph::SetDefaultSyncSource, IFilterGraphSetDefaultSyncSource, SetDefaultSyncSource method [DirectShow], SetDefaultSyncSource method [DirectShow], IFilterGraph interface, SetDefaultSyncSource,IFilterGraph.SetDefaultSyncSource, dshow.ifiltergraph_setdefaultsyncsource, strmif/IFilterGraph::SetDefaultSyncSource
 ms.prod: windows-hardware
 ms.technology: windows-devices

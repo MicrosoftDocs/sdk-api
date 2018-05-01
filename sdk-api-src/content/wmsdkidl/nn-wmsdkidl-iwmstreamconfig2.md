@@ -7,7 +7,7 @@ old-location: wmformat\iwmstreamconfig2.htm
 old-project: wmformat
 ms.assetid: 3ce92541-6634-4418-a7ee-f9bcaf8f42ad
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMStreamConfig2, IWMStreamConfig2 interface [windows Media Format], IWMStreamConfig2 interface [windows Media Format], described, IWMStreamConfig2Interface, wmformat.iwmstreamconfig2, wmsdkidl/IWMStreamConfig2
 ms.prod: windows-hardware
 ms.technology: windows-devices

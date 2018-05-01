@@ -7,7 +7,7 @@ old-location: fs\beginntmsdevicechangedetection.htm
 old-project: Rsm
 ms.assetid: d325a10a-5bf9-4431-8a6a-a50c4cf46728
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/5/2018
 ms.keywords: BeginNtmsDeviceChangeDetection, BeginNtmsDeviceChangeDetection function [Files], _zaw_beginntmsdevicechangedetection, base.beginntmsdevicechangedetection, fs.beginntmsdevicechangedetection, ntmsapi/BeginNtmsDeviceChangeDetection
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # BeginNtmsDeviceChangeDetection function

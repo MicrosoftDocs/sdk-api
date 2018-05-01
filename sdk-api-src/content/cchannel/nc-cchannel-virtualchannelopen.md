@@ -7,7 +7,7 @@ old-location: termserv\virtualchannelopen.htm
 old-project: TermServ
 ms.assetid: 4ec75f9d-dbdf-499d-80a9-25fc6e9c5cb9
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: VirtualChannelOpen, VirtualChannelOpen function pointer [Remote Desktop Services], _win32_virtualchannelopen, cchannel/VirtualChannelOpen, termserv.virtualchannelopen
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: indexsrv\fullpropspec.htm
 old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_599f.htm
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/11/2018
 ms.keywords: FULLPROPSPEC, FULLPROPSPEC structure [Indexing Service], _idxs_FULLPROPSPEC, filter/FULLPROPSPEC, indexsrv.fullpropspec, tagFULLPROPSPEC
 ms.prod: windows-hardware
 ms.technology: windows-devices

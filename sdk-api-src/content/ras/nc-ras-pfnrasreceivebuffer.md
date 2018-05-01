@@ -7,7 +7,7 @@ old-location: rras\rasreceivebuffer.htm
 old-project: RRAS
 ms.assetid: cc5523df-748d-4f96-8d54-bf0a2f9ecde4
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: PFNRASRECEIVEBUFFER, RasReceiveBuffer, RasReceiveBuffer callback function [RAS], _ras_rasreceivebuffer, ras/RasReceiveBuffer, rras.rasreceivebuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # PFNRASRECEIVEBUFFER callback

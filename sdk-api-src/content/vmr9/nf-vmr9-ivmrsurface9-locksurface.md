@@ -7,7 +7,7 @@ old-location: dshow\ivmrsurface9_locksurface.htm
 old-project: DirectShow
 ms.assetid: fb185898-5d65-48ee-a7be-f4207199f5e9
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IVMRSurface9, IVMRSurface9 interface [DirectShow], LockSurface method, IVMRSurface9::LockSurface, IVMRSurface9LockSurface, LockSurface method [DirectShow], LockSurface method [DirectShow], IVMRSurface9 interface, LockSurface,IVMRSurface9.LockSurface, dshow.ivmrsurface9_locksurface, vmr9/IVMRSurface9::LockSurface
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\EXP_SPECIAL_FOLDER_str.htm
 old-project: shell
 ms.assetid: e80fa582-8dd1-4924-a3ca-a2ee668653d3
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: "*LPEXP_SPECIAL_FOLDER, EXP_SPECIAL_FOLDER, EXP_SPECIAL_FOLDER structure [Windows Shell], LPEXP_SPECIAL_FOLDER, LPEXP_SPECIAL_FOLDER structure pointer [Windows Shell], _win32_EXP_SPECIAL_FOLDER_str, shell.EXP_SPECIAL_FOLDER_str, shlobj_core/EXP_SPECIAL_FOLDER, shlobj_core/LPEXP_SPECIAL_FOLDER"
 ms.prod: windows-hardware
 ms.technology: windows-devices

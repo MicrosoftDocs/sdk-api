@@ -7,7 +7,7 @@ old-location: shell\INameSpaceTreeControl2_SetControlStyle2.htm
 old-project: shell
 ms.assetid: 17d54fa9-ff5c-4fca-a7a6-7ecd4a58c7b9
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: INameSpaceTreeControl2, INameSpaceTreeControl2 interface [Windows Shell], SetControlStyle2 method, INameSpaceTreeControl2::SetControlStyle2, SetControlStyle2 method [Windows Shell], SetControlStyle2 method [Windows Shell], INameSpaceTreeControl2 interface, SetControlStyle2,INameSpaceTreeControl2.SetControlStyle2, _shell_INameSpaceTreeControl2_SetControlStyle2, shell.INameSpaceTreeControl2_SetControlStyle2, shobjidl/INameSpaceTreeControl2::SetControlStyle2
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\imsvidstreambuffersourceevent_ratingsblocked.htm
 old-project: mstv
 ms.assetid: 1d5e510e-9629-4249-a704-b7a995d27edf
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidStreamBufferSourceEvent, IMSVidStreamBufferSourceEvent interface [Microsoft TV Technologies], RatingsBlocked method, IMSVidStreamBufferSourceEvent::RatingsBlocked, IMSVidStreamBufferSourceEventRatingsBlocked, RatingsBlocked method [Microsoft TV Technologies], RatingsBlocked method [Microsoft TV Technologies], IMSVidStreamBufferSourceEvent interface, RatingsBlocked,IMSVidStreamBufferSourceEvent.RatingsBlocked, mstv.imsvidstreambuffersourceevent_ratingsblocked, segment/IMSVidStreamBufferSourceEvent::RatingsBlocked
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidStreamBufferSourceEvent::RatingsBlocked method

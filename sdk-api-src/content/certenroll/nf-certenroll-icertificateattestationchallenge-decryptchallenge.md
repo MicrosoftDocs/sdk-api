@@ -7,7 +7,7 @@ old-location: security\icertificateattestationchallenge_decryptchallenge.htm
 old-project: SecCertEnroll
 ms.assetid: ae0fb86f-c567-4b85-abfe-7a035491e4fc
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: DecryptChallenge method [Security], DecryptChallenge method [Security], ICertificateAttestationChallenge interface, DecryptChallenge,ICertificateAttestationChallenge.DecryptChallenge, ICertificateAttestationChallenge, ICertificateAttestationChallenge interface [Security], DecryptChallenge method, ICertificateAttestationChallenge::DecryptChallenge, certenroll/ICertificateAttestationChallenge::DecryptChallenge, security.icertificateattestationchallenge_decryptchallenge
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: termserv\target_state.htm
 old-project: TermServ
 ms.assetid: 52ef4bb9-d025-4b54-ac5b-16fa28047cc6
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: TARGET_CHECKED_OUT, TARGET_DOWN, TARGET_HIBERNATED, TARGET_INITIALIZING, TARGET_RUNNING, TARGET_STATE, TARGET_STATE enumeration [Remote Desktop Services], TARGET_STOPPED, TARGET_UNKNOWN, _TARGET_STATE, sessdirpublictypes/TARGET_CHECKED_OUT, sessdirpublictypes/TARGET_DOWN, sessdirpublictypes/TARGET_HIBERNATED, sessdirpublictypes/TARGET_INITIALIZING, sessdirpublictypes/TARGET_RUNNING, sessdirpublictypes/TARGET_STATE, sessdirpublictypes/TARGET_STOPPED, sessdirpublictypes/TARGET_UNKNOWN, termserv.target_state
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Sensorsapi.lib
 req.dll: Sensorsapi.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _TARGET_STATE enumeration

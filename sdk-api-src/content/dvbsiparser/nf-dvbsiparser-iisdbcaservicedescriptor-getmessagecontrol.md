@@ -7,7 +7,7 @@ old-location: mstv\iisdbcaservicedescriptor_getmessagecontrol.htm
 old-project: mstv
 ms.assetid: 0a911c5e-a026-4d35-a6a2-e33ba53f3057
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetMessageControl method [Microsoft TV Technologies], GetMessageControl method [Microsoft TV Technologies], IIsdbCAServiceDescriptor interface, GetMessageControl,IIsdbCAServiceDescriptor.GetMessageControl, IIsdbCAServiceDescriptor, IIsdbCAServiceDescriptor interface [Microsoft TV Technologies], GetMessageControl method, IIsdbCAServiceDescriptor::GetMessageControl, dvbsiparser/IIsdbCAServiceDescriptor::GetMessageControl, mstv.iisdbcaservicedescriptor_getmessagecontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tapi2\linegettranslatecaps.htm
 old-project: Tapi
 ms.assetid: 77437b06-fb02-44b5-8642-b3de700853ef
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: "_tapi2_linegettranslatecaps, lineGetTranslateCaps, lineGetTranslateCaps function [TAPI 2.2], lineGetTranslateCapsA, lineGetTranslateCapsW, tapi/lineGetTranslateCaps, tapi/lineGetTranslateCapsA, tapi/lineGetTranslateCapsW, tapi2.linegettranslatecaps"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\imfmediaengineprotectedcontent_shareresources.htm
 old-project: medfound
 ms.assetid: 7C94AEA2-1D72-4C45-9EDF-90593CC60E2C
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFMediaEngineProtectedContent, IMFMediaEngineProtectedContent interface [Media Foundation], ShareResources method, IMFMediaEngineProtectedContent::ShareResources, ShareResources method [Media Foundation], ShareResources method [Media Foundation], IMFMediaEngineProtectedContent interface, ShareResources,IMFMediaEngineProtectedContent.ShareResources, mf.imfmediaengineprotectedcontent_shareresources, mfmediaengine/IMFMediaEngineProtectedContent::ShareResources
 ms.prod: windows-hardware
 ms.technology: windows-devices

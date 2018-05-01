@@ -7,7 +7,7 @@ old-location: mstv\idvbcabledeliverysystemdescriptor.htm
 old-project: mstv
 ms.assetid: b4fb2fd0-e32a-4737-8095-7d4df40a26a0
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IDvbCableDeliverySystemDescriptor, IDvbCableDeliverySystemDescriptor interface [Microsoft TV Technologies], IDvbCableDeliverySystemDescriptor interface [Microsoft TV Technologies], described, IDvbCableDeliverySystemDescriptorInterface, dvbsiparser/IDvbCableDeliverySystemDescriptor, mstv.idvbcabledeliverysystemdescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices

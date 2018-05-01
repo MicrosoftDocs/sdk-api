@@ -7,7 +7,7 @@ old-location: cos\icomactivityevents_onactivitycreate.htm
 old-project: cossdk
 ms.assetid: 27d6dfd6-24c8-480b-9d91-6c6cce08384c
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: IComActivityEvents, IComActivityEvents interface [COM+], OnActivityCreate method, IComActivityEvents::OnActivityCreate, OnActivityCreate method [COM+], OnActivityCreate method [COM+], IComActivityEvents interface, OnActivityCreate,IComActivityEvents.OnActivityCreate, _dtc_IComActivityEvents_OnActivityCreate, comsvcs/IComActivityEvents::OnActivityCreate, cos.icomactivityevents_onactivitycreate
 ms.prod: windows-hardware
 ms.technology: windows-devices

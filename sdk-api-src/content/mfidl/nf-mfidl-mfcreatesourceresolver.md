@@ -7,7 +7,7 @@ old-location: mf\mfcreatesourceresolver.htm
 old-project: medfound
 ms.assetid: 60d6b0e2-5ab2-4a20-99d9-e6b806a1f576
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 60d6b0e2-5ab2-4a20-99d9-e6b806a1f576, MFCreateSourceResolver, MFCreateSourceResolver function [Media Foundation], mf.mfcreatesourceresolver, mfidl/MFCreateSourceResolver
 ms.prod: windows-hardware
 ms.technology: windows-devices

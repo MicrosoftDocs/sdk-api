@@ -7,7 +7,7 @@ old-location: com\imoniker_composewith.htm
 old-project: com
 ms.assetid: 6e41d79c-1a57-4270-aa84-160e0639852b
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: ComposeWith method [COM], ComposeWith method [COM], IMoniker interface, ComposeWith,IMoniker.ComposeWith, IMoniker, IMoniker interface [COM], ComposeWith method, IMoniker::ComposeWith, _com_imoniker_composewith, com.imoniker_composewith, objidl/IMoniker::ComposeWith
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMoniker::ComposeWith method

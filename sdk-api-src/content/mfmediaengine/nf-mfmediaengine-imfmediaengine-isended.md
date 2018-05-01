@@ -7,7 +7,7 @@ old-location: mf\imfmediaengine_isended.htm
 old-project: medfound
 ms.assetid: 0760707C-B25E-44FF-9263-6B59BF43A98E
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFMediaEngine, IMFMediaEngine interface [Media Foundation], IsEnded method, IMFMediaEngine::IsEnded, IsEnded method [Media Foundation], IsEnded method [Media Foundation], IMFMediaEngine interface, IsEnded,IMFMediaEngine.IsEnded, mf.imfmediaengine_isended, mfmediaengine/IMFMediaEngine::IsEnded
 ms.prod: windows-hardware
 ms.technology: windows-devices

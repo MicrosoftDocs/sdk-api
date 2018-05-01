@@ -7,7 +7,7 @@ old-location: wua\iautomaticupdatessettings2_checkpermission.htm
 old-project: Wua_Sdk
 ms.assetid: fbf36d9f-98c1-4b9d-b479-a9203b6ce952
 ms.author: windowsdriverdev
-ms.date: 3/15/2018
+ms.date: 4/18/2018
 ms.keywords: CheckPermission method [Windows Update Agent], CheckPermission method [Windows Update Agent], IAutomaticUpdatesSettings2 interface, CheckPermission,IAutomaticUpdatesSettings2.CheckPermission, IAutomaticUpdatesSettings2, IAutomaticUpdatesSettings2 interface [Windows Update Agent], CheckPermission method, IAutomaticUpdatesSettings2::CheckPermission, wua.iautomaticupdatessettings2_checkpermission, wuapi/IAutomaticUpdatesSettings2::CheckPermission
 ms.prod: windows-hardware
 ms.technology: windows-devices

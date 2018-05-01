@@ -7,7 +7,7 @@ old-location: dshow\iamstreamconfig_setformat.htm
 old-project: DirectShow
 ms.assetid: 8d64e5b6-e8fa-4678-92d4-3cbf92e13ddf
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMStreamConfig, IAMStreamConfig interface [DirectShow], SetFormat method, IAMStreamConfig::SetFormat, IAMStreamConfigSetFormat, SetFormat method [DirectShow], SetFormat method [DirectShow], IAMStreamConfig interface, SetFormat,IAMStreamConfig.SetFormat, dshow.iamstreamconfig_setformat, strmif/IAMStreamConfig::SetFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices

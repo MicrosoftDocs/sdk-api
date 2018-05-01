@@ -7,7 +7,7 @@ old-location: ad\ds_repl_value_meta_data_ext.htm
 old-project: AD
 ms.assetid: 2BE0F9C4-D688-4DE6-8DB2-15666D8BD070
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/20/2018
 ms.keywords: DS_REPL_VALUE_META_DATA_EXT, DS_REPL_VALUE_META_DATA_EXT structure [Active Directory], PDS_REPL_VALUE_META_DATA_EXT, PDS_REPL_VALUE_META_DATA_EXT structure pointer [Active Directory], _DS_REPL_VALUE_META_DATA_EXT, ad.ds_repl_value_meta_data_ext, ntdsapi/DS_REPL_VALUE_META_DATA_EXT, ntdsapi/PDS_REPL_VALUE_META_DATA_EXT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _DS_REPL_VALUE_META_DATA_EXT structure

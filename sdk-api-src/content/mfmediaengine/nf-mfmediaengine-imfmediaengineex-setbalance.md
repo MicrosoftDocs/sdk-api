@@ -7,7 +7,7 @@ old-location: mf\imfmediaengineex_setbalance.htm
 old-project: medfound
 ms.assetid: 11187826-B873-4182-A77B-FD9CCECFBAE5
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFMediaEngineEx, IMFMediaEngineEx interface [Media Foundation], SetBalance method, IMFMediaEngineEx::SetBalance, SetBalance method [Media Foundation], SetBalance method [Media Foundation], IMFMediaEngineEx interface, SetBalance,IMFMediaEngineEx.SetBalance, mf.imfmediaengineex_setbalance, mfmediaengine/IMFMediaEngineEx::SetBalance
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: com\irunnableobject_lockrunning.htm
 old-project: com
 ms.assetid: ce501785-16ad-4120-abea-41e2d6ca67df
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IRunnableObject, IRunnableObject interface [COM], LockRunning method, IRunnableObject::LockRunning, LockRunning method [COM], LockRunning method [COM], IRunnableObject interface, LockRunning,IRunnableObject.LockRunning, _com_irunnableobject_lockrunning, com.irunnableobject_lockrunning, objidl/IRunnableObject::LockRunning
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IRunnableObject::LockRunning method

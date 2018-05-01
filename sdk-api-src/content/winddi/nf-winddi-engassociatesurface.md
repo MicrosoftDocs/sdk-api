@@ -1,0 +1,372 @@
+---
+UID: NF:winddi.EngAssociateSurface
+title: EngAssociateSurface function
+author: windows-driver-content
+description: The EngAssociateSurface function marks a given surface as belonging to a specified device.
+old-location: display\engassociatesurface.htm
+old-project: display
+ms.assetid: 8cb6d4bf-67bd-4bfb-9605-eeb954fc590c
+ms.author: windowsdriverdev
+ms.date: 4/16/2018
+ms.keywords: EngAssociateSurface, EngAssociateSurface function [Display Devices], display.engassociatesurface, gdifncs_6be89779-b79a-4620-b740-d702945464c5.xml, winddi/EngAssociateSurface
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: winddi.h
+req.include-header: Winddi.h
+req.target-type: Universal
+req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Win32k.sys
+api_name:
+-	EngAssociateSurface
+product: Windows
+targetos: Windows
+req.lib: Win32k.lib
+req.dll: Win32k.sys
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# EngAssociateSurface function
+
+
+## -description
+
+
+The <b>EngAssociateSurface</b> function marks a given surface as belonging to a specified device.
+
+
+## -parameters
+
+
+
+
+### -param hsurf
+
+Handle to the surface or bitmap to be associated with <i>hdev</i>. This handle was returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff564199">EngCreateBitmap</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff564204">EngCreateDeviceBitmap</a>.
+
+
+### -param hdev
+
+Handle to the device with which the surface is to be associated. This is the GDI-created handle that was passed to the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff556181">DrvCompletePDEV</a> function.
+
+
+### -param flHooks
+
+Specifies the functions that the driver can hook from GDI. The driver must implement the corresponding function for every bit that it sets in <i>flHooks</i>. This member is a bitwise OR of any of the following values:  
+
+<table>
+<tr>
+<th>Flag</th>
+<th>Function to be hooked</th>
+</tr>
+<tr>
+<td>
+HOOK_ALPHABLEND
+
+</td>
+<td>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556176">DrvAlphaBlend</a>
+
+
+</td>
+</tr>
+<tr>
+<td>
+HOOK_BITBLT
+
+</td>
+<td>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556180">DrvBitBlt</a>
+
+
+</td>
+</tr>
+<tr>
+<td>
+HOOK_COPYBITS
+
+</td>
+<td>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556182">DrvCopyBits</a>
+
+
+</td>
+</tr>
+<tr>
+<td>
+HOOK_FILLPATH
+
+</td>
+<td>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556220">DrvFillPath</a>
+
+
+</td>
+</tr>
+<tr>
+<td>
+HOOK_GRADIENTFILL
+
+</td>
+<td>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556236">DrvGradientFill</a>
+
+
+</td>
+</tr>
+<tr>
+<td>
+HOOK_LINETO
+
+</td>
+<td>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556245">DrvLineTo</a>
+
+
+</td>
+</tr>
+<tr>
+<td>
+HOOK_MOVEPANNING
+
+</td>
+<td>
+Obsolete
+
+</td>
+</tr>
+<tr>
+<td>
+HOOK_PAINT
+
+</td>
+<td>
+Obsolete
+
+</td>
+</tr>
+<tr>
+<td>
+HOOK_PLGBLT
+
+</td>
+<td>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556258">DrvPlgBlt</a>
+
+
+</td>
+</tr>
+<tr>
+<td>
+HOOK_STRETCHBLT
+
+</td>
+<td>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556302">DrvStretchBlt</a>
+
+
+</td>
+</tr>
+<tr>
+<td>
+HOOK_STRETCHBLTROP
+
+</td>
+<td>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556306">DrvStretchBltROP</a>
+
+
+</td>
+</tr>
+<tr>
+<td>
+HOOK_STROKEANDFILLPATH
+
+</td>
+<td>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556311">DrvStrokeAndFillPath</a>
+
+
+</td>
+</tr>
+<tr>
+<td>
+HOOK_STROKEPATH
+
+</td>
+<td>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556316">DrvStrokePath</a>
+
+
+</td>
+</tr>
+<tr>
+<td>
+HOOK_SYNCHRONIZE
+
+</td>
+<td>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556323">DrvSynchronize</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff557273">DrvSynchronizeSurface</a> (either or both)
+
+</td>
+</tr>
+<tr>
+<td>
+HOOK_SYNCHRONIZEACCESS
+
+</td>
+<td>
+Obsolete
+
+</td>
+</tr>
+<tr>
+<td>
+HOOK_TEXTOUT
+
+</td>
+<td>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557277">DrvTextOut</a>
+
+
+</td>
+</tr>
+<tr>
+<td>
+HOOK_TRANSPARENTBLT
+
+</td>
+<td>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557283">DrvTransparentBlt</a>
+
+
+</td>
+</tr>
+</table>
+ 
+
+
+## -returns
+
+
+
+The return value is <b>TRUE</b> if the function is successful. Otherwise, the driver should send the information to the GDI function it is implementing, and return GDI's return value.
+
+
+
+
+## -remarks
+
+
+
+<b>EngAssociateSurface</b> can be used by printer drivers to implement "rules" or device fonts, or by display drivers to make use of special blt hardware.
+
+If the surface identified by <i>hsurf</i> is a standard format bitmap, the driver can specify which output functions to the surface it will handle by setting bits in <i>flHooks</i>. Setting bits in <i>flHooks</i> causes particular output functions to be sent to the driver instead. This is referred to as hooking. If the driver does not hook a call, GDI will automatically manage the operation when a standard format bitmap is being drawn on. 
+
+When the surface is associated, it assumes the default palette and style steps of the <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">PDEV</a>. A surface must be associated before it is returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff556214">DrvEnableSurface</a>.
+
+By default, when a driver supports device bitmaps by implementing <a href="https://msdn.microsoft.com/library/windows/hardware/ff556185">DrvCreateDeviceBitmap</a>/<a href="https://msdn.microsoft.com/library/windows/hardware/ff556187">DrvDeleteDeviceBitmap</a>, GDI does not automatically synchronize drawing calls to the device bitmap and to the primary surface. For example, GDI can call the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff556180">DrvBitBlt</a> function to draw to a device bitmap, while another thread is drawing to the primary surface by executing the driver's implementation of <a href="https://msdn.microsoft.com/library/windows/hardware/ff557277">DrvTextOut</a>. The driver can even be called to draw to multiple device bitmaps at the same time.
+
+After <a href="https://msdn.microsoft.com/library/windows/hardware/ff556214">DrvEnableSurface</a> returns a handle to a primary surface, do not call <b>EngAssociateSurface</b> on that handle. Doing so can cause a bug check in certain circumstances. For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=3100&amp;ID=330248">Microsoft Knowledge Base article 330248</a>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556180">DrvBitBlt</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556181">DrvCompletePDEV</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556182">DrvCopyBits</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556185">DrvCreateDeviceBitmap</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556187">DrvDeleteDeviceBitmap</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556214">DrvEnableSurface</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556220">DrvFillPath</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556245">DrvLineTo</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556302">DrvStretchBlt</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556311">DrvStrokeAndFillPath</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556316">DrvStrokePath</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556323">DrvSynchronize</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557273">DrvSynchronizeSurface</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557277">DrvTextOut</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564976">EngModifySurface</a>
+ 
+
+ 
+

@@ -7,7 +7,7 @@ old-location: ics\ienumnetsharingprivateconnection_next.htm
 old-project: ICS
 ms.assetid: 3f9cc481-8967-4b1e-95b2-c6ddec20a1ea
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: IEnumNetSharingPrivateConnection, IEnumNetSharingPrivateConnection interface [ICS/ICF], Next method, IEnumNetSharingPrivateConnection::Next, Next method [ICS/ICF], Next method [ICS/ICF], IEnumNetSharingPrivateConnection interface, Next,IEnumNetSharingPrivateConnection.Next, _ics_ienumnetsharingprivateconnection_next, ics.ienumnetsharingprivateconnection_next, netcon/IEnumNetSharingPrivateConnection::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IEnumNetSharingPrivateConnection::Next method

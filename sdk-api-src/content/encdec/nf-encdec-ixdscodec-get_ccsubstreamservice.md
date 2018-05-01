@@ -7,7 +7,7 @@ old-location: mstv\ixdscodec_get_ccsubstreamservice.htm
 old-project: mstv
 ms.assetid: 60523c2c-0d57-46d7-8ab2-eaf065a440d4
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IXDSCodec, IXDSCodec interface [Microsoft TV Technologies], get_CCSubstreamService method, IXDSCodec::get_CCSubstreamService, IXDSCodecget_CCSubstreamService, encdec/IXDSCodec::get_CCSubstreamService, get_CCSubstreamService method [Microsoft TV Technologies], get_CCSubstreamService method [Microsoft TV Technologies], IXDSCodec interface, get_CCSubstreamService,IXDSCodec.get_CCSubstreamService, mstv.ixdscodec_get_ccsubstreamservice
 ms.prod: windows-hardware
 ms.technology: windows-devices

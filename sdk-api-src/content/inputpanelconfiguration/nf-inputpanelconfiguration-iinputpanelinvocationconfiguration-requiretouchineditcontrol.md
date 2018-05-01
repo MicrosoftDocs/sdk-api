@@ -7,7 +7,7 @@ old-location: shell\iinputpanelinvocationconfiguration_requiretouchineditcontrol
 old-project: shell
 ms.assetid: FAFF0DC8-DD18-47A2-B3BD-24A69B75A100
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IInputPanelInvocationConfiguration, IInputPanelInvocationConfiguration interface [Windows Shell], RequireTouchInEditControl method, IInputPanelInvocationConfiguration::RequireTouchInEditControl, RequireTouchInEditControl method [Windows Shell], RequireTouchInEditControl method [Windows Shell], IInputPanelInvocationConfiguration interface, RequireTouchInEditControl,IInputPanelInvocationConfiguration.RequireTouchInEditControl, inputpanelconfiguration/IInputPanelInvocationConfiguration::RequireTouchInEditControl, shell.iinputpanelinvocationconfiguration_requiretouchineditcontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices

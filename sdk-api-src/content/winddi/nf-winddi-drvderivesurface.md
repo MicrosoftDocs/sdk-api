@@ -1,0 +1,110 @@
+---
+UID: NF:winddi.DrvDeriveSurface
+title: DrvDeriveSurface function
+author: windows-driver-content
+description: The DrvDeriveSurface function derives a GDI surface from the specified DirectDraw surface.
+old-location: display\drvderivesurface.htm
+old-project: display
+ms.assetid: 7cd0acf8-34ef-425b-9967-43008d77b900
+ms.author: windowsdriverdev
+ms.date: 4/16/2018
+ms.keywords: DrvDeriveSurface, DrvDeriveSurface function [Display Devices], ddifncs_b38de767-eeaf-4120-8711-6f3319a53058.xml, display.drvderivesurface, winddi/DrvDeriveSurface
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: winddi.h
+req.include-header: Winddi.h
+req.target-type: Desktop
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	winddi.h
+api_name:
+-	DrvDeriveSurface
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# DrvDeriveSurface function
+
+
+## -description
+
+
+The <b>DrvDeriveSurface</b> function derives a GDI surface from the specified DirectDraw surface.
+
+
+## -parameters
+
+
+
+
+### -param pDirectDraw
+
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff550586">DD_DIRECTDRAW_GLOBAL</a> structure that describes the DirectDraw object.
+
+
+### -param pSurface
+
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551733">DD_SURFACE_LOCAL</a> structure that describes the DirectDraw surface around which to wrap a GDI surface.
+
+
+## -returns
+
+
+
+<b>DrvDeriveSurface</b> returns a handle to the derived GDI surface upon success. It returns <b>NULL</b> if the call fails or if the driver cannot accelerate GDI drawing to the specified DirectDraw surface.
+
+
+
+
+## -remarks
+
+
+
+<b>DrvDeriveSurface</b> allows the driver to create a GDI surface wrapped around a DirectDraw video memory or AGP surface object in order to allow accelerated GDI drawing to the surface. If the driver does not hook this call, all GDI drawing to DirectDraw surfaces is done in software using the DIB engine.
+
+GDI calls <b>DrvDeriveSurface</b> with RGB surfaces only.
+
+The driver should call <a href="https://msdn.microsoft.com/library/windows/hardware/ff556185">DrvCreateDeviceBitmap</a> to create a GDI surface of the same size and format as that of the DirectDraw surface. Space for the actual pixels need not be allocated since it already exists.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556185">DrvCreateDeviceBitmap</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564204">EngCreateDeviceBitmap</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564976">EngModifySurface</a>
+ 
+
+ 
+

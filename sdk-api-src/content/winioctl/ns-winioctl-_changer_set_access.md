@@ -7,7 +7,7 @@ old-location: base\changer_set_access_str.htm
 old-project: DevIO
 ms.assetid: 14a687c0-18c0-4504-a49e-7ba1b1525d12
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/3/2018
 ms.keywords: "*PCHANGER_SET_ACCESS, CHANGER_SET_ACCESS, CHANGER_SET_ACCESS structure, EXTEND_IEPORT, LOCK_ELEMENT, PCHANGER_SET_ACCESS, PCHANGER_SET_ACCESS structure pointer, RETRACT_IEPORT, UNLOCK_ELEMENT, _CHANGER_SET_ACCESS, _win32_changer_set_access_str, base.changer_set_access_str, winioctl/CHANGER_SET_ACCESS, winioctl/PCHANGER_SET_ACCESS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

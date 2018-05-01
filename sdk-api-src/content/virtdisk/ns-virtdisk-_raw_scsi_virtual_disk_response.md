@@ -58,6 +58,12 @@ Contains raw SCSI virtual disk response parameters.
 
 
 
+### -field Version
+
+A <a href="https://msdn.microsoft.com/EE0567C8-D479-436B-B1AC-7D1C4AC3B403">RAW_SCSI_VIRTUAL_DISK_VERSION</a> enumeration that specifies the version of the <a href="https://msdn.microsoft.com/E6E6BD59-F7BC-4523-B368-6EBE12285593">RAW_SCSI_VIRTUAL_DISK_PARAMETERS</a> structure being passed to or from the VHD functions. 
+
+
+
 ### -field Version1
 
 A structure with the following member.
@@ -76,11 +82,5 @@ Length, in bytes, of the sense buffer.
 ### -field Version1.DataTransferLength
 
 Length, in bytes, of the buffer to be transferred. 
-
-
-
-### -field Version
-
-A <a href="https://msdn.microsoft.com/EE0567C8-D479-436B-B1AC-7D1C4AC3B403">RAW_SCSI_VIRTUAL_DISK_VERSION</a> enumeration that specifies the version of the <a href="https://msdn.microsoft.com/E6E6BD59-F7BC-4523-B368-6EBE12285593">RAW_SCSI_VIRTUAL_DISK_PARAMETERS</a> structure being passed to or from the VHD functions. 
 
 

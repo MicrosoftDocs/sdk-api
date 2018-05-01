@@ -7,7 +7,7 @@ old-location: mstv\imsvidstreambufferrecordingcontrol_get_stoptime.htm
 old-project: mstv
 ms.assetid: 17abe9d3-1a84-4dcf-bc61-d9eafe7418f7
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidStreamBufferRecordingControl, IMSVidStreamBufferRecordingControl interface [Microsoft TV Technologies], get_StopTime method, IMSVidStreamBufferRecordingControl::get_StopTime, IMSVidStreamBufferRecordingControlget_StopTime, get_StopTime method [Microsoft TV Technologies], get_StopTime method [Microsoft TV Technologies], IMSVidStreamBufferRecordingControl interface, get_StopTime,IMSVidStreamBufferRecordingControl.get_StopTime, mstv.imsvidstreambufferrecordingcontrol_get_stoptime, segment/IMSVidStreamBufferRecordingControl::get_StopTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidStreamBufferRecordingControl::get_StopTime method

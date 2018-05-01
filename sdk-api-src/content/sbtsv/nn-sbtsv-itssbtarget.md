@@ -7,7 +7,7 @@ old-location: termserv\itssbtarget.htm
 old-project: TermServ
 ms.assetid: bcb26b43-ec6e-4cc8-9d40-15a7a3a62582
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: ITsSbTarget, ITsSbTarget interface [Remote Desktop Services], ITsSbTarget interface [Remote Desktop Services], described, sbtsv/ITsSbTarget, termserv.itssbtarget
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITsSbTarget interface

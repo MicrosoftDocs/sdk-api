@@ -7,7 +7,7 @@ old-location: base\wow64suspendthread.htm
 old-project: ProcThread
 ms.assetid: d976675a-5400-41ac-a11d-c39a1b2dd50d
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: Wow64SuspendThread, Wow64SuspendThread function, base.wow64suspendthread, winbase/Wow64SuspendThread
 ms.prod: windows-hardware
 ms.technology: windows-devices

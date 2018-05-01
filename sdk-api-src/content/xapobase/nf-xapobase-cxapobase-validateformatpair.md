@@ -7,7 +7,7 @@ old-location: xaudio2\cxapobase_validateformatpair.htm
 old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.cxapobase.CXAPOBase.ValidateFormatPair(const WAVEFORMATEX,WAVEFORMATEX,BOOL)
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/20/2018
 ms.keywords: CXAPOBase, CXAPOBase interface [XAudio2 Audio Mixing APIs], ValidateFormatPair method, CXAPOBase::ValidateFormatPair, ValidateFormatPair method [XAudio2 Audio Mixing APIs], ValidateFormatPair method [XAudio2 Audio Mixing APIs], CXAPOBase interface, ValidateFormatPair,CXAPOBase.ValidateFormatPair, xapobase/CXAPOBase::ValidateFormatPair, xaudio2.cxapobase_validateformatpair
 ms.prod: windows-hardware
 ms.technology: windows-devices

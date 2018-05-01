@@ -7,7 +7,7 @@ old-location: rras\disconnectclient.htm
 old-project: RRAS
 ms.assetid: 45859605-2981-4236-9546-9b88e07673fe
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: DisconnectClient, DisconnectClient callback function [RAS], PDISCONNECT_CLIENT, _mpr_disconnectclient, routprot/DisconnectClient, rras.disconnectclient
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: REOBJECT
+req.typenames: RO_ERROR_REPORTING_FLAGS
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # PDISCONNECT_CLIENT callback

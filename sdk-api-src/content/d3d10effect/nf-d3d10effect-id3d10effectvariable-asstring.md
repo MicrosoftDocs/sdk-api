@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effectvariable_asstring.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectvariable_asstring.htm
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: 147dcf91-ad41-9a2f-06f9-e60ddc770e29, AsString method [Direct3D 10], AsString method [Direct3D 10], ID3D10EffectVariable interface, AsString,ID3D10EffectVariable.AsString, ID3D10EffectVariable, ID3D10EffectVariable interface [Direct3D 10], AsString method, ID3D10EffectVariable::AsString, d3d10effect/ID3D10EffectVariable::AsString, direct3d10.id3d10effectvariable_asstring
 ms.prod: windows-hardware
 ms.technology: windows-devices

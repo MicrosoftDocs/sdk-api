@@ -7,7 +7,7 @@ old-location: coreaudio\ispatialaudiometadataclient_activatespatialaudiometadata
 old-project: CoreAudio
 ms.assetid: 0A30C838-E9B0-4CC3-BE88-9354160B8084
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: ActivateSpatialAudioMetadataWriter method [Core Audio], ActivateSpatialAudioMetadataWriter method [Core Audio], ISpatialAudioMetadataClient interface, ActivateSpatialAudioMetadataWriter,ISpatialAudioMetadataClient.ActivateSpatialAudioMetadataWriter, ISpatialAudioMetadataClient, ISpatialAudioMetadataClient interface [Core Audio], ActivateSpatialAudioMetadataWriter method, ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataWriter, coreaudio.ispatialaudiometadataclient_activatespatialaudiometadatawriter, spatialaudiometadata/ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataWriter
 ms.prod: windows-hardware
 ms.technology: windows-devices

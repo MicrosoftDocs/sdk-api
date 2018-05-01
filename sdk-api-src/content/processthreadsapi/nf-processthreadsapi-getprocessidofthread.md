@@ -7,7 +7,7 @@ old-location: base\getprocessidofthread.htm
 old-project: ProcThread
 ms.assetid: 1878088b-e0fd-4009-b608-f491805948b5
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: GetProcessIdOfThread, GetProcessIdOfThread function, base.getprocessidofthread, processthreadsapi/GetProcessIdOfThread, winbase/GetProcessIdOfThread
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -48,7 +48,7 @@ targetos: Windows
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # GetProcessIdOfThread function

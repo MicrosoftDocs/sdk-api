@@ -1,0 +1,87 @@
+---
+UID: NF:xenroll.IEnroll2.SetHStoreRequest
+title: IEnroll2::SetHStoreRequest method
+author: windows-driver-content
+description: The SetHStoreRequest method specifies the handle to use for the request store. This method was first defined in the IEnroll2 interface.
+old-location: security\ienroll4_sethstorerequest.htm
+old-project: SecCrypto
+ms.assetid: 7424d94f-8f81-432a-b003-a1c30fcc70ae
+ms.author: windowsdriverdev
+ms.date: 4/18/2018
+ms.keywords: IEnroll2, IEnroll2 interface [Security], SetHStoreRequest method, IEnroll2::SetHStoreRequest, SetHStoreRequest method [Security], SetHStoreRequest method [Security], IEnroll2 interface, SetHStoreRequest,IEnroll2.SetHStoreRequest, security.ienroll4_sethstorerequest, xenroll/IEnroll2::SetHStoreRequest
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: xenroll.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: XBL_IDP_AUTH_TOKEN_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Xenroll.dll
+api_name:
+-	IEnroll2.SetHStoreRequest
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Xenroll.dll
+req.irql: 
+req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+---
+
+# IEnroll2::SetHStoreRequest method
+
+
+## -description
+
+
+<p class="CCE_Message">[This method is no longer available for use as of Windows Server 2008 and Windows Vista.]
+
+The <b>SetHStoreRequest</b> method specifies the handle to use for the request store. This method was first defined in the <a href="https://msdn.microsoft.com/60a28944-35de-4ea2-8523-5634685ac224">IEnroll2</a> interface.
+
+
+## -parameters
+
+
+
+
+### -param hStore [in]
+
+Certificate store handle to use for the request store.
+
+
+## -returns
+
+
+
+
+						The return value is an <b>HRESULT</b>. A value of S_OK indicates success.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/133529fb-e02a-41a2-83df-646cbc01dbe9">IEnroll2</a>
+ 
+
+ 
+

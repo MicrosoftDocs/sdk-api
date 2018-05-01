@@ -7,7 +7,7 @@ old-location: perf\pdh_data_item_path_elements_str.htm
 old-project: PerfCtrs
 ms.assetid: 7d80d9ac-0123-4743-93a2-fa9d609d81b2
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/23/2018
 ms.keywords: "*PPDH_DATA_ITEM_PATH_ELEMENTS_W, PDH_DATA_ITEM_PATH_ELEMENTS, PDH_DATA_ITEM_PATH_ELEMENTS structure [Perf], PDH_DATA_ITEM_PATH_ELEMENTS_A, PDH_DATA_ITEM_PATH_ELEMENTS_W, _PDH_DATA_ITEM_PATH_ELEMENTS_W, _win32_pdh_data_item_path_elements_str, base.pdh_data_item_path_elements_str, pdh/PDH_DATA_ITEM_PATH_ELEMENTS, pdh/PDH_DATA_ITEM_PATH_ELEMENTS_A, pdh/PDH_DATA_ITEM_PATH_ELEMENTS_W, perf.pdh_data_item_path_elements_str"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _PDH_DATA_ITEM_PATH_ELEMENTS_W structure

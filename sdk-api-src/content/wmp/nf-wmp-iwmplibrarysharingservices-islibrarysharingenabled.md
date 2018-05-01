@@ -7,7 +7,7 @@ old-location: wmp\iwmplibrarysharingservices_islibrarysharingenabled.htm
 old-project: WMP
 ms.assetid: bd643869-9111-423e-9f9c-7147d1e3c7b8
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPLibrarySharingServices, IWMPLibrarySharingServices interface [Windows Media Player], isLibrarySharingEnabled method, IWMPLibrarySharingServices::isLibrarySharingEnabled, IWMPLibrarySharingServicesisLibrarySharingEnabled, isLibrarySharingEnabled method [Windows Media Player], isLibrarySharingEnabled method [Windows Media Player], IWMPLibrarySharingServices interface, isLibrarySharingEnabled,IWMPLibrarySharingServices.isLibrarySharingEnabled, wmp.iwmplibrarysharingservices_islibrarysharingenabled, wmp/IWMPLibrarySharingServices::isLibrarySharingEnabled
 ms.prod: windows-hardware
 ms.technology: windows-devices

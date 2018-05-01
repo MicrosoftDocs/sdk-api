@@ -7,7 +7,7 @@ old-location: mstv\imsvidtunerevent_tunechanged.htm
 old-project: mstv
 ms.assetid: 5fc30a5a-b934-4c75-9cc8-5a039843ebe8
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidTunerEvent, IMSVidTunerEvent interface [Microsoft TV Technologies], TuneChanged method, IMSVidTunerEvent::TuneChanged, IMSVidTunerEventTuneChanged, TuneChanged method [Microsoft TV Technologies], TuneChanged method [Microsoft TV Technologies], IMSVidTunerEvent interface, TuneChanged,IMSVidTunerEvent.TuneChanged, mstv.imsvidtunerevent_tunechanged, segment/IMSVidTunerEvent::TuneChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidTunerEvent::TuneChanged method

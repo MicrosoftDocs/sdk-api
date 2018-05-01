@@ -7,7 +7,7 @@ old-location: mstv\ilocator_put_innerfec.htm
 old-project: mstv
 ms.assetid: 3ba6cfdf-2095-489c-a899-4b4305758ccb
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IDigitalLocatorput_InnerFEC, ILocator, ILocator interface [Microsoft TV Technologies], put_InnerFEC method, ILocator::put_InnerFEC, mstv.ilocator_put_innerfec, put_InnerFEC method [Microsoft TV Technologies], put_InnerFEC method [Microsoft TV Technologies], ILocator interface, put_InnerFEC,ILocator.put_InnerFEC, tuner/ILocator::put_InnerFEC
 ms.prod: windows-hardware
 ms.technology: windows-devices

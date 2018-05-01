@@ -7,7 +7,7 @@ old-location: rpc\ndrconformantarrayunmarshall.htm
 old-project: Rpc
 ms.assetid: 09acbea7-a835-4365-917f-4b12b2602bf0
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: NdrConformantArrayUnmarshall, NdrConformantArrayUnmarshall function [RPC], rpc.ndrconformantarrayunmarshall, rpcndr/NdrConformantArrayUnmarshall
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: RpcRT4.lib
 req.dll: RpcRT4.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # NdrConformantArrayUnmarshall function

@@ -7,7 +7,7 @@ old-location: bits\ienumbackgroundcopygroups_skip.htm
 old-project: Bits
 ms.assetid: 27e907d0-1b2a-44d2-b401-0b28d5a8b340
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/10/2018
 ms.keywords: IEnumBackgroundCopyGroups, IEnumBackgroundCopyGroups interface [BITS], Skip method, IEnumBackgroundCopyGroups::Skip, Skip method [BITS], Skip method [BITS], IEnumBackgroundCopyGroups interface, Skip,IEnumBackgroundCopyGroups.Skip, bits.ienumbackgroundcopygroups_skip, qmgr/IEnumBackgroundCopyGroups::Skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: QmgrPrxy.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IEnumBackgroundCopyGroups::Skip method

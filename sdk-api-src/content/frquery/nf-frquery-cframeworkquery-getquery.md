@@ -7,7 +7,7 @@ old-location: wmi\cframeworkquery_getquery.htm
 old-project: WmiSdk
 ms.assetid: 2f7b5057-8522-4ef3-bf5a-3b96b72128b3
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: "?GetQuery@CFrameworkQuery@@QAEABVCHString@@XZ, CFrameworkQuery, CFrameworkQuery interface [Windows Management Instrumentation], GetQuery method, CFrameworkQuery::GetQuery, GetQuery method [Windows Management Instrumentation], GetQuery method [Windows Management Instrumentation], CFrameworkQuery interface, GetQuery,CFrameworkQuery.GetQuery, _hmm_cframeworkquery_getquery, frquery/CFrameworkQuery::GetQuery, wmi.cframeworkquery_getquery"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct2d\D2D1_ARC_SEGMENT.htm
 old-project: Direct2D
 ms.assetid: 3f391265-20b4-4897-aa0b-d14b71cd5f0a
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: D2D1_ARC_SEGMENT, D2D1_ARC_SEGMENT structure [Direct2D], d2d1/D2D1_ARC_SEGMENT, direct2d.D2D1_ARC_SEGMENT
 ms.prod: windows-hardware
 ms.technology: windows-devices

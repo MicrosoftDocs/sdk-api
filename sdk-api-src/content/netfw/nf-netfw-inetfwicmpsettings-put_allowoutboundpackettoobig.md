@@ -7,7 +7,7 @@ old-location: ics\inetfwicmpsettings_allowoutboundpackettoobig.htm
 old-project: ICS
 ms.assetid: 057b2f45-1752-4f6d-a6a6-9871e20cd13a
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: AllowOutboundPacketTooBig property [ICS/ICF], AllowOutboundPacketTooBig property [ICS/ICF], INetFwIcmpSettings interface, INetFwIcmpSettings, INetFwIcmpSettings interface [ICS/ICF], AllowOutboundPacketTooBig property, INetFwIcmpSettings.AllowOutboundPacketTooBig, INetFwIcmpSettings::get_AllowOutboundPacketTooBig, INetFwIcmpSettings::put_AllowOutboundPacketTooBig, ics.inetfwicmpsettings_allowoutboundpackettoobig, netfw/INetFwIcmpSettings::AllowOutboundPacketTooBig, netfw/INetFwIcmpSettings::get_AllowOutboundPacketTooBig, netfw/INetFwIcmpSettings::put_AllowOutboundPacketTooBig, put_AllowOutboundPacketTooBig,INetFwIcmpSettings.put_AllowOutboundPacketTooBig
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: 
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # INetFwIcmpSettings::put_AllowOutboundPacketTooBig method

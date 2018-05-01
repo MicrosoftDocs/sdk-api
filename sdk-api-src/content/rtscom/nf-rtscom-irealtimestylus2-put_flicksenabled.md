@@ -7,7 +7,7 @@ old-location: tablet\irealtimestylus2_put_flicksenabled.htm
 old-project: tablet
 ms.assetid: 50bc70aa-da25-4420-87c3-ffeb9950dd34
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: 50bc70aa-da25-4420-87c3-ffeb9950dd34, IRealTimeStylus2, IRealTimeStylus2 interface [Tablet PC], put_FlicksEnabled method, IRealTimeStylus2::put_FlicksEnabled, put_FlicksEnabled method [Tablet PC], put_FlicksEnabled method [Tablet PC], IRealTimeStylus2 interface, put_FlicksEnabled,IRealTimeStylus2.put_FlicksEnabled, rtscom/IRealTimeStylus2::put_FlicksEnabled, tablet.irealtimestylus2_put_flicksenabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: RTSCom.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IRealTimeStylus2::put_FlicksEnabled method

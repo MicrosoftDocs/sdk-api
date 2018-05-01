@@ -7,7 +7,7 @@ old-location: dhcp\dhcpservergetconfigv6.htm
 old-project: DHCP
 ms.assetid: a867d8fe-0222-44aa-a00a-65a94cf59730
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/7/2018
 ms.keywords: DhcpServerGetConfigV6, DhcpServerGetConfigV6 function [DHCP], dhcp.dhcpservergetconfigv6, dhcpsapi/DhcpServerGetConfigV6
 ms.prod: windows-hardware
 ms.technology: windows-devices

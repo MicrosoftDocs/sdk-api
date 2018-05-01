@@ -7,7 +7,7 @@ old-location: wmp\iwmpsyncdevice_get_status.htm
 old-project: WMP
 ms.assetid: 2b194161-c25c-43d9-90ee-dd25ff61034b
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPSyncDevice, IWMPSyncDevice interface [Windows Media Player], get_status method, IWMPSyncDevice::get_status, IWMPSyncDeviceget_status, get_status method [Windows Media Player], get_status method [Windows Media Player], IWMPSyncDevice interface, get_status,IWMPSyncDevice.get_status, wmp.iwmpsyncdevice_get_status, wmp/IWMPSyncDevice::get_status
 ms.prod: windows-hardware
 ms.technology: windows-devices

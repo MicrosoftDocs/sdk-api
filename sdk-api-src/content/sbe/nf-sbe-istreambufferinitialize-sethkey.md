@@ -7,7 +7,7 @@ old-location: mstv\istreambufferinitialize_sethkey.htm
 old-project: mstv
 ms.assetid: f8d85180-2575-4525-9b8a-bec354e2cd4c
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IStreamBufferInitialize, IStreamBufferInitialize interface [Microsoft TV Technologies], SetHKEY method, IStreamBufferInitialize::SetHKEY, IStreamBufferInitializeSetHKEY, SetHKEY method [Microsoft TV Technologies], SetHKEY method [Microsoft TV Technologies], IStreamBufferInitialize interface, SetHKEY,IStreamBufferInitialize.SetHKEY, mstv.istreambufferinitialize_sethkey, sbe/IStreamBufferInitialize::SetHKEY
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IStreamBufferInitialize::SetHKEY method

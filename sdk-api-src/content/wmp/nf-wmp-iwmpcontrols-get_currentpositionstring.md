@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontrols_get_currentpositionstring.htm
 old-project: WMP
 ms.assetid: 8843852b-f98a-469f-8541-44b3c51ebd6c
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPControls, IWMPControls interface [Windows Media Player], get_currentPositionString method, IWMPControls::get_currentPositionString, IWMPControlsget_currentPositionString, get_currentPositionString method [Windows Media Player], get_currentPositionString method [Windows Media Player], IWMPControls interface, get_currentPositionString,IWMPControls.get_currentPositionString, wmp.iwmpcontrols_get_currentpositionstring, wmp/IWMPControls::get_currentPositionString
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_constant_buffer_view_desc.htm
 old-project: direct3d12
 ms.assetid: 83A4522E-AE87-42CE-9B95-CF63E92556AD
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: D3D12_CONSTANT_BUFFER_VIEW_DESC, D3D12_CONSTANT_BUFFER_VIEW_DESC structure, d3d12/D3D12_CONSTANT_BUFFER_VIEW_DESC, direct3d12.d3d12_constant_buffer_view_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices

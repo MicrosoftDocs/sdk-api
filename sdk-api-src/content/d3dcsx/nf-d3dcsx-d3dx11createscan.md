@@ -7,7 +7,7 @@ old-location: direct3d11\d3dx11createscan.htm
 old-project: direct3d11
 ms.assetid: daaa6913-a952-4f89-8a17-17e690ad8883
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/6/2018
 ms.keywords: 084772c2-3360-63d5-fb00-82f536323a9d, D3DX11CreateScan, D3DX11CreateScan function [Direct3D 11], d3dcsx/D3DX11CreateScan, direct3d11.d3dx11createscan
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: http\http_service_config_urlacl_key.htm
 old-project: Http
 ms.assetid: ab739046-c25c-43bd-8c1f-da3aab374a05
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: "*PHTTP_SERVICE_CONFIG_URLACL_KEY, HTTP_SERVICE_CONFIG_URLACL_KEY, HTTP_SERVICE_CONFIG_URLACL_KEY structure [HTTP], PHTTP_SERVICE_CONFIG_URLACL_KEY, PHTTP_SERVICE_CONFIG_URLACL_KEY structure pointer [HTTP], _HTTP_SERVICE_CONFIG_URLACL_KEY, _http_http_service_config_urlacl_key, http.http_service_config_urlacl_key, http/HTTP_SERVICE_CONFIG_URLACL_KEY, http/PHTTP_SERVICE_CONFIG_URLACL_KEY"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: nwifi\wlangetsecuritysettings.htm
 old-project: NativeWiFi
 ms.assetid: 5e14a70c-c049-4cd1-8675-2b01ed11463f
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/13/2018
 ms.keywords: WlanGetSecuritySettings, WlanGetSecuritySettings function [NativeWIFI], nwifi.wlangetsecuritysettings, wlan_opcode_value_type_set_by_group_policy, wlan_opcode_value_type_set_by_user, wlanapi/WlanGetSecuritySettings
 ms.prod: windows-hardware
 ms.technology: windows-devices

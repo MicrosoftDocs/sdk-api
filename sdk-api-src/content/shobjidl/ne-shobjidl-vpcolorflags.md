@@ -7,7 +7,7 @@ old-location: shell\VPCOLORFLAGS.htm
 old-project: shell
 ms.assetid: 438fb7ee-c0ce-4c20-9dbb-51593005d3ad
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: VPCF_BACKGROUND, VPCF_SORTCOLUMN, VPCF_SUBTEXT, VPCF_TEXT, VPCF_TEXTBACKGROUND, VPCOLORFLAGS, VPCOLORFLAGS enumeration [Windows Shell], _shell_VPCOLORFLAGS, shell.VPCOLORFLAGS, shobjidl/VPCF_BACKGROUND, shobjidl/VPCF_SORTCOLUMN, shobjidl/VPCF_SUBTEXT, shobjidl/VPCF_TEXT, shobjidl/VPCF_TEXTBACKGROUND, shobjidl/VPCOLORFLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices

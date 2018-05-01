@@ -7,7 +7,7 @@ old-location: dshow\iconfigavimux_setmasterstream.htm
 old-project: DirectShow
 ms.assetid: 1f255498-8bbb-48a0-ae97-0cf2698e609b
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IConfigAviMux, IConfigAviMux interface [DirectShow], SetMasterStream method, IConfigAviMux::SetMasterStream, IConfigAviMuxSetMasterStream, SetMasterStream method [DirectShow], SetMasterStream method [DirectShow], IConfigAviMux interface, SetMasterStream,IConfigAviMux.SetMasterStream, dshow.iconfigavimux_setmasterstream, strmif/IConfigAviMux::SetMasterStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

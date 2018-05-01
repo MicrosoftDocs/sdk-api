@@ -7,7 +7,7 @@ old-location: base\convertperformancecountertoauxiliarycounter.htm
 old-project: SysInfo
 ms.assetid: 2499981B-6C13-4A3D-836A-D4CCD11C8D50
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: ConvertPerformanceCounterToAuxiliaryCounter, ConvertPerformanceCounterToAuxiliaryCounter function, base.convertperformancecountertoauxiliarycounter, realtimeapiset/ConvertPerformanceCounterToAuxiliaryCounter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Mincore.lib
 req.dll: Kernel32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ConvertPerformanceCounterToAuxiliaryCounter function

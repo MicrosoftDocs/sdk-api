@@ -7,7 +7,7 @@ old-location: dshow\iamanalogvideoencoder_put_ccenable.htm
 old-project: DirectShow
 ms.assetid: 6513cde7-2765-4225-814b-a619d6a6ab15
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMAnalogVideoEncoder, IAMAnalogVideoEncoder interface [DirectShow], put_CCEnable method, IAMAnalogVideoEncoder::put_CCEnable, IAMAnalogVideoEncoderput_CCEnable, dshow.iamanalogvideoencoder_put_ccenable, put_CCEnable method [DirectShow], put_CCEnable method [DirectShow], IAMAnalogVideoEncoder interface, put_CCEnable,IAMAnalogVideoEncoder.put_CCEnable, strmif/IAMAnalogVideoEncoder::put_CCEnable
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmi\iwbemclassobject_getmethodqualifierset.htm
 old-project: WmiSdk
 ms.assetid: ba328f43-b08a-4b09-8aff-d7075cb6d419
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: GetMethodQualifierSet method [Windows Management Instrumentation], GetMethodQualifierSet method [Windows Management Instrumentation], IWbemClassObject interface, GetMethodQualifierSet,IWbemClassObject.GetMethodQualifierSet, IWbemClassObject, IWbemClassObject interface [Windows Management Instrumentation], GetMethodQualifierSet method, IWbemClassObject::GetMethodQualifierSet, _hmm_iwbemclassobject_getmethodqualifierset, wbemcli/IWbemClassObject::GetMethodQualifierSet, wmi.iwbemclassobject_getmethodqualifierset
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tapi3\cmspaddress_isvalidsetofmediatypes.htm
 old-project: Tapi
 ms.assetid: 4dc47d60-184d-4601-8c58-08ae8b747223
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: CMSPAddress, CMSPAddress interface [TAPI 2.2], IsValidSetOfMediaTypes method, CMSPAddress::IsValidSetOfMediaTypes, IsValidSetOfMediaTypes method [TAPI 2.2], IsValidSetOfMediaTypes method [TAPI 2.2], CMSPAddress interface, IsValidSetOfMediaTypes,CMSPAddress.IsValidSetOfMediaTypes, _tapi3_cmspaddress_isvalidsetofmediatypes, mspaddr/CMSPAddress::IsValidSetOfMediaTypes, tapi3.cmspaddress_isvalidsetofmediatypes
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: OPC_SIGNATURE_TIME_FORMAT
+req.typenames: MSP_EVENT_INFO
 topic_type:
 -	APIRef
 -	kbSyntax

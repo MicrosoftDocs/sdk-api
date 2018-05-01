@@ -7,7 +7,7 @@ old-location: dshow\imediaobject_setinputmaxlatency.htm
 old-project: DirectShow
 ms.assetid: 45fb0caa-cd12-4847-a646-f6fd90c50b81
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IMediaObject, IMediaObject interface [DirectShow], SetInputMaxLatency method, IMediaObject::SetInputMaxLatency, IMediaObjectSetInputMaxLatency, SetInputMaxLatency method [DirectShow], SetInputMaxLatency method [DirectShow], IMediaObject interface, SetInputMaxLatency,IMediaObject.SetInputMaxLatency, dshow.imediaobject_setinputmaxlatency, mediaobj/IMediaObject::SetInputMaxLatency
 ms.prod: windows-hardware
 ms.technology: windows-devices

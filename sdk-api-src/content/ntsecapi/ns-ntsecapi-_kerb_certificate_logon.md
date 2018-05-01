@@ -7,7 +7,7 @@ old-location: security\kerb_certificate_logon.htm
 old-project: SecAuthN
 ms.assetid: e6aa0042-edb5-4e9b-b545-5159d3bfb8fc
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/24/2018
 ms.keywords: "*PKERB_CERTIFICATE_LOGON, KERB_CERTIFICATE_LOGON, KERB_CERTIFICATE_LOGON structure [Security], KERB_CERTIFICATE_LOGON_FLAG_CHECK_DUPLICATES, KERB_CERTIFICATE_LOGON_FLAG_USE_CERTIFICATE_INFO, KerbCertificateLogon, KerbCertificateUnlockLogon, PKERB_CERTIFICATE_LOGON, PKERB_CERTIFICATE_LOGON structure pointer [Security], _KERB_CERTIFICATE_LOGON, ntsecapi/KERB_CERTIFICATE_LOGON, ntsecapi/PKERB_CERTIFICATE_LOGON, security.kerb_certificate_logon"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _KERB_CERTIFICATE_LOGON structure

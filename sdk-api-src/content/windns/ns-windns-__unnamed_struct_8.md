@@ -1,14 +1,14 @@
 ---
 UID: NS:windns.__unnamed_struct_8
-title: DNS_MX_DATAW
+title: DNS_MINFO_DATAA
 author: windows-driver-content
-description: The DNS_MX_DATA structure represents a DNS mail exchanger (MX) record as specified in section 3.3.9 of RFC 1035.
-old-location: dns\dns_mx_data.htm
+description: The DNS_MINFO_DATA structure represents a DNS mail information (MINFO) record as specified in section 3.3.7 of RFC 1035.
+old-location: dns\dns_minfo_data.htm
 old-project: DNS
-ms.assetid: 72a0b42e-a7af-42d2-b672-cf06d0b5d1ba
+ms.assetid: cd392b48-734f-462b-b893-855f07c30575
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
-ms.keywords: "*PDNS_MX_DATA, *PDNS_MX_DATAW, DNS_MX_DATA, DNS_MX_DATA structure [DNS], DNS_MX_DATAW, PDNS_MX_DATA, PDNS_MX_DATA structure pointer [DNS], _dns_dns_mx_data, dns.dns_mx_data, windns/DNS_MX_DATA, windns/PDNS_MX_DATA"
+ms.date: 4/18/2018
+ms.keywords: "*PDNS_MINFO_DATA, *PDNS_MINFO_DATAA, DNS_MINFO_DATA, DNS_MINFO_DATA structure [DNS], DNS_MINFO_DATAA, PDNS_MINFO_DATA, PDNS_MINFO_DATA structure pointer [DNS], _dns_dns_minfo_data, dns.dns_minfo_data, windns/DNS_MINFO_DATA, windns/PDNS_MINFO_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: DNS_MX_DATAW, *PDNS_MX_DATAW
+req.typenames: DNS_MINFO_DATAA, *PDNS_MINFO_DATAA
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	Windns.h
 api_name:
--	DNS_MX_DATA
+-	DNS_MINFO_DATA
 product: Windows
 targetos: Windows
 req.lib: 
@@ -44,14 +44,14 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# DNS_MX_DATAW structure
+# DNS_MINFO_DATAA structure
 
 
 ## -description
 
 
 The 
-<b>DNS_MX_DATA</b> structure represents a DNS mail exchanger (MX) record as specified in section 3.3.9 of <a href="http://go.microsoft.com/fwlink/p/?linkid=90264">RFC 1035</a>.
+<b>DNS_MINFO_DATA</b> structure represents a DNS mail information (MINFO) record as specified in section 3.3.7 of <a href="http://go.microsoft.com/fwlink/p/?linkid=90264">RFC 1035</a>.
 
 
 ## -struct-fields
@@ -59,19 +59,14 @@ The
 
 
 
-### -field pNameExchange
+### -field pNameMailbox
 
-A pointer to a string that represents the fully qualified domain name (FQDN) of the host willing to act as a mail exchange.
-
-
-### -field wPreference
-
-A preference given to this resource record among others of the same owner. Lower values are preferred.
+A pointer to a string that represents the <a href="f_gly.htm">fully qualified domain name</a> (FQDN) of the mailbox responsible for the mailing list or mailbox specified in the record's owner name.
 
 
-### -field Pad
+### -field pNameErrorsMailbox
 
-Reserved for padding. Do not use.
+A pointer to a string that represents the FQDN of the mailbox to receive error messages related to the mailing list.
 
 
 ## -remarks
@@ -79,7 +74,7 @@ Reserved for padding. Do not use.
 
 
 The 
-<b>DNS_MX_DATA</b> structure is used in conjunction with the 
+<b>DNS_MINFO_DATA</b> structure is used in conjunction with the 
 <a href="https://msdn.microsoft.com/ab7b96a5-346f-4e01-bb2a-885f44764590">DNS_RECORD</a> structure to programmatically manage DNS entries.
 
 

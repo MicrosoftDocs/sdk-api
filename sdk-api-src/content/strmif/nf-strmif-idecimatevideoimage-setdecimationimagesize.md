@@ -7,7 +7,7 @@ old-location: dshow\idecimatevideoimage_setdecimationimagesize.htm
 old-project: DirectShow
 ms.assetid: 3f165e74-768f-48e3-be0f-887962ea9bfb
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IDecimateVideoImage, IDecimateVideoImage interface [DirectShow], SetDecimationImageSize method, IDecimateVideoImage::SetDecimationImageSize, IDecimateVideoImageSetDecimationImageSize, SetDecimationImageSize method [DirectShow], SetDecimationImageSize method [DirectShow], IDecimateVideoImage interface, SetDecimationImageSize,IDecimateVideoImage.SetDecimationImageSize, dshow.idecimatevideoimage_setdecimationimagesize, strmif/IDecimateVideoImage::SetDecimationImageSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

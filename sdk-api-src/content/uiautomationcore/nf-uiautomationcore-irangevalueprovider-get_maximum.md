@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IRangeValueProvider_Maximum.htm
 old-project: WinAuto
 ms.assetid: a681b992-c3db-497a-ae38-df62f9016ba6
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: IRangeValueProvider, IRangeValueProvider interface [Windows Accessibility], Maximum property, IRangeValueProvider.Maximum, IRangeValueProvider::get_Maximum, Maximum property [Windows Accessibility], Maximum property [Windows Accessibility], IRangeValueProvider interface, get_Maximum,IRangeValueProvider.get_Maximum, uiauto.uiauto_IRangeValueProvider_Maximum, uiauto_IRangeValueProvider_Maximum, uiautomationcore/IRangeValueProvider::Maximum, uiautomationcore/IRangeValueProvider::get_Maximum, winauto.uiauto_IRangeValueProvider_Maximum
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmformat\iwmprofile3_setstorageformat.htm
 old-project: wmformat
 ms.assetid: 43cbb36f-ec00-48e5-9182-b69e8c196ab0
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMProfile3, IWMProfile3 interface [windows Media Format], SetStorageFormat method, IWMProfile3::SetStorageFormat, IWMProfile3SetStorageFormat, SetStorageFormat method [windows Media Format], SetStorageFormat method [windows Media Format], IWMProfile3 interface, SetStorageFormat,IWMProfile3.SetStorageFormat, wmformat.iwmprofile3_setstorageformat, wmsdkidl/IWMProfile3::SetStorageFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices

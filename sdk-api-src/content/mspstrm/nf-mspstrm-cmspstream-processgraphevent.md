@@ -7,7 +7,7 @@ old-location: tapi3\cmspstream_processgraphevent.htm
 old-project: Tapi
 ms.assetid: 343411de-956d-4264-8bab-ce0c2459f6d1
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: CMSPStream, CMSPStream interface [TAPI 2.2], ProcessGraphEvent method, CMSPStream::ProcessGraphEvent, ProcessGraphEvent method [TAPI 2.2], ProcessGraphEvent method [TAPI 2.2], CMSPStream interface, ProcessGraphEvent,CMSPStream.ProcessGraphEvent, _tapi3_cmspstream_processgraphevent, mspstrm/CMSPStream::ProcessGraphEvent, tapi3.cmspstream_processgraphevent
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: secbiomet\winbiocontrolunit.htm
 old-project: SecBioMet
 ms.assetid: 5d11f72a-3392-4089-a563-1771f8c2c8f7
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: WINBIO_COMPONENT_ENGINE, WINBIO_COMPONENT_SENSOR, WINBIO_COMPONENT_STORAGE, WinBioControlUnit, WinBioControlUnit function [Windows Biometric Framework API], secbiomet.winbiocontrolunit, winbio/WinBioControlUnit
 ms.prod: windows-hardware
 ms.technology: windows-devices

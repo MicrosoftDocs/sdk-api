@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwiccomponentinfo_getspecversion.htm
 old-project: wic
 ms.assetid: 18a771c7-8764-4694-be05-29c5eda27e93
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: GetSpecVersion method [Windows Imaging Component], GetSpecVersion method [Windows Imaging Component], IWICComponentInfo interface, GetSpecVersion,IWICComponentInfo.GetSpecVersion, IWICComponentInfo, IWICComponentInfo interface [Windows Imaging Component], GetSpecVersion method, IWICComponentInfo::GetSpecVersion, _wic_codec_iwiccomponentinfo_getspecversion, wic._wic_codec_iwiccomponentinfo_getspecversion, wincodec/IWICComponentInfo::GetSpecVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices

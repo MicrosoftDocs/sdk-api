@@ -7,7 +7,7 @@ old-location: automat\icreatetypelib2_sethelpstringcontext.htm
 old-project: automat
 ms.assetid: 35093252-74ff-4161-bf3d-f5e6b69e73c1
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: ICreateTypeLib2, ICreateTypeLib2 interface [Automation], SetHelpStringContext method, ICreateTypeLib2::SetHelpStringContext, SetHelpStringContext method [Automation], SetHelpStringContext method [Automation], ICreateTypeLib2 interface, SetHelpStringContext,ICreateTypeLib2.SetHelpStringContext, _oa96_ICreateTypeLib2_SetHelpStringContext, automat.icreatetypelib2_sethelpstringcontext, oaidl/ICreateTypeLib2::SetHelpStringContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ICreateTypeLib2::SetHelpStringContext method

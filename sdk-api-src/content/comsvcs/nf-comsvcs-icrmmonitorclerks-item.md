@@ -7,7 +7,7 @@ old-location: cos\icrmmonitorclerks_item.htm
 old-project: cossdk
 ms.assetid: af25d159-95e6-4695-9350-9a3c1bc034e9
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: ICrmMonitorClerks, ICrmMonitorClerks interface [COM+], Item method, ICrmMonitorClerks::Item, Item method [COM+], Item method [COM+], ICrmMonitorClerks interface, Item,ICrmMonitorClerks.Item, _dtc_ICrmMonitorClerks_Item, comsvcs/ICrmMonitorClerks::Item, cos.icrmmonitorclerks_item
 ms.prod: windows-hardware
 ms.technology: windows-devices

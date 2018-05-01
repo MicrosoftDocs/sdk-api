@@ -7,7 +7,7 @@ old-location: mstv\icat_registerforwhencurrent.htm
 old-project: mstv
 ms.assetid: 74a5c410-314e-4f49-b294-a4788e85cbef
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: ICAT, ICAT interface [Microsoft TV Technologies], RegisterForWhenCurrent method, ICAT::RegisterForWhenCurrent, ICATRegisterForWhenCurrent, RegisterForWhenCurrent method [Microsoft TV Technologies], RegisterForWhenCurrent method [Microsoft TV Technologies], ICAT interface, RegisterForWhenCurrent,ICAT.RegisterForWhenCurrent, mpeg2psiparser/ICAT::RegisterForWhenCurrent, mstv.icat_registerforwhencurrent
 ms.prod: windows-hardware
 ms.technology: windows-devices

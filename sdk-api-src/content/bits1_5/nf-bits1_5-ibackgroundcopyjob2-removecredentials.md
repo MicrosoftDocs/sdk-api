@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyjob2_removecredentials.htm
 old-project: Bits
 ms.assetid: dbc6a05d-9e1f-4cc9-b28b-0874aafdfd7c
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/10/2018
 ms.keywords: IBackgroundCopyJob2, IBackgroundCopyJob2 interface [BITS], RemoveCredentials method, IBackgroundCopyJob2::RemoveCredentials, RemoveCredentials method [BITS], RemoveCredentials method [BITS], IBackgroundCopyJob2 interface, RemoveCredentials,IBackgroundCopyJob2.RemoveCredentials, _drz_ibackgroundcopyjob2_removecredentials, bits.ibackgroundcopyjob2_removecredentials, bits1_5/IBackgroundCopyJob2::RemoveCredentials
 ms.prod: windows-hardware
 ms.technology: windows-devices

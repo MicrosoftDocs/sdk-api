@@ -7,7 +7,7 @@ old-location: mstv\dsmcc_section.htm
 old-project: mstv
 ms.assetid: b043f63c-cee0-4167-9b11-09b747f63b8d
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: "*PDSMCC_SECTION, DSMCC_SECTION, DSMCC_SECTION structure [Microsoft TV Technologies], PDSMCC_SECTION, PDSMCC_SECTION structure pointer [Microsoft TV Technologies], __MIDL___MIDL_itf_mpeg2structs_0000_0000_0011, mpeg2structs/DSMCC_SECTION, mpeg2structs/PDSMCC_SECTION, mstv.dsmcc_section"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,6 +61,11 @@ The <b>DSMCC_SECTION</b> structure represents a DSM-CC section header. If a sect
 
 
 
+### -field TableId
+
+Specifies the table identifier (TID) of the section.
+
+
 ### -field Header
 
 A union that contains the following members.
@@ -78,6 +83,11 @@ Contains packed header bits, as an <b>MPEG_HEADER_BITS_MIDL</b> structure. Appli
 Contains the header bits as a <b>WORD</b> type. To get the individual bitfields, coerce this member to an <a href="https://msdn.microsoft.com/e25d36af-ee72-4986-8d96-2bce8b19ac80">MPEG_HEADER_BITS</a> structure.
 
 
+### -field TableIdExtension
+
+Specifies the table_id_extension field.
+
+
 ### -field Version
 
 A union that contains the following members.
@@ -93,16 +103,6 @@ Contains the version number and current/next indicator bit as an <b>MPEG_HEADER_
 #### B
 
 Contains the version number and current/next indicator bit as a <b>BYTE</b> type. To get the individual bit fields, coerce this member to an <a href="https://msdn.microsoft.com/d9a33ca6-2e35-4f7c-8621-ce30effeb687">MPEG_HEADER_VERSION_BITS</a> structure.
-
-
-### -field TableId
-
-Specifies the table identifier (TID) of the section.
-
-
-### -field TableIdExtension
-
-Specifies the table_id_extension field.
 
 
 ### -field SectionNumber

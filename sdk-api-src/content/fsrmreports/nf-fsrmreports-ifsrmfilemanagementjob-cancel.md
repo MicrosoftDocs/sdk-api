@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmfilemanagementjob_cancel.htm
 old-project: Fsrm
 ms.assetid: 3abb6673-fdd8-4828-ba7a-7666208dc8f0
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: Cancel method [File Server Resource Manager], Cancel method [File Server Resource Manager], IFsrmFileManagementJob interface, Cancel,IFsrmFileManagementJob.Cancel, IFsrmFileManagementJob, IFsrmFileManagementJob interface [File Server Resource Manager], Cancel method, IFsrmFileManagementJob::Cancel, fs.ifsrmfilemanagementjob_cancel, fsrm.ifsrmfilemanagementjob_cancel, fsrmreports/IFsrmFileManagementJob::Cancel
 ms.prod: windows-hardware
 ms.technology: windows-devices

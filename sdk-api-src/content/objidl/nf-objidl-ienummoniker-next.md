@@ -7,7 +7,7 @@ old-location: com\ienummoniker_next.htm
 old-project: com
 ms.assetid: ab4fd626-bddc-42b4-b279-b89d1f79b1e1
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IEnumMoniker, IEnumMoniker interface [COM], Next method, IEnumMoniker::Next, Next method [COM], Next method [COM], IEnumMoniker interface, Next,IEnumMoniker.Next, _ole_ienummoniker_next, com.ienummoniker_next, objidl/IEnumMoniker::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IEnumMoniker::Next method

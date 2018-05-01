@@ -7,7 +7,7 @@ old-location: wmformat\iwmreaderadvanced2_getsaveasprogress.htm
 old-project: wmformat
 ms.assetid: 0317f010-4b7f-4f79-9460-ba6b1e904ffa
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: GetSaveAsProgress method [windows Media Format], GetSaveAsProgress method [windows Media Format], IWMReaderAdvanced2 interface, GetSaveAsProgress,IWMReaderAdvanced2.GetSaveAsProgress, IWMReaderAdvanced2, IWMReaderAdvanced2 interface [windows Media Format], GetSaveAsProgress method, IWMReaderAdvanced2::GetSaveAsProgress, IWMReaderAdvanced2GetSaveAsProgress, wmformat.iwmreaderadvanced2_getsaveasprogress, wmsdkidl/IWMReaderAdvanced2::GetSaveAsProgress
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\idtfilter2_getlasterrorcode.htm
 old-project: mstv
 ms.assetid: e4de424c-0db6-408e-ab1a-57ae8899f4a7
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetLastErrorCode method [Microsoft TV Technologies], GetLastErrorCode method [Microsoft TV Technologies], IDTFilter2 interface, GetLastErrorCode,IDTFilter2.GetLastErrorCode, IDTFilter2, IDTFilter2 interface [Microsoft TV Technologies], GetLastErrorCode method, IDTFilter2::GetLastErrorCode, IDTFilter2GetLastErrorCode, encdec/IDTFilter2::GetLastErrorCode, mstv.idtfilter2_getlasterrorcode
 ms.prod: windows-hardware
 ms.technology: windows-devices

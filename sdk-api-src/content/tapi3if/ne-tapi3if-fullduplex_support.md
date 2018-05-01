@@ -7,7 +7,7 @@ old-location: tapi3\fullduplex_support.htm
 old-project: Tapi
 ms.assetid: 36f9f126-361f-448a-a464-ffef1de25d26
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: FDS_NOTSUPPORTED, FDS_SUPPORTED, FDS_UNKNOWN, FULLDUPLEX_SUPPORT, FULLDUPLEX_SUPPORT enumeration [TAPI 2.2], _tapi3_fullduplex_support, tapi3.fullduplex_support, tapi3if/FDS_NOTSUPPORTED, tapi3if/FDS_SUPPORTED, tapi3if/FDS_UNKNOWN, tapi3if/FULLDUPLEX_SUPPORT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,8 +38,8 @@ api_name:
 -	FULLDUPLEX_SUPPORT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
 req.irql: 
 req.product: Windows XP with SP1 and later
 ---

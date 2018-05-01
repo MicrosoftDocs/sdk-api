@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effectpass_getgeometryshaderdesc.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectpass_getgeometryshaderdesc.htm
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: 1f200fc8-f573-7b6c-75f4-5b7cf7a95eb1, GetGeometryShaderDesc method [Direct3D 10], GetGeometryShaderDesc method [Direct3D 10], ID3D10EffectPass interface, GetGeometryShaderDesc,ID3D10EffectPass.GetGeometryShaderDesc, ID3D10EffectPass, ID3D10EffectPass interface [Direct3D 10], GetGeometryShaderDesc method, ID3D10EffectPass::GetGeometryShaderDesc, d3d10effect/ID3D10EffectPass::GetGeometryShaderDesc, direct3d10.id3d10effectpass_getgeometryshaderdesc
 ms.prod: windows-hardware
 ms.technology: windows-devices

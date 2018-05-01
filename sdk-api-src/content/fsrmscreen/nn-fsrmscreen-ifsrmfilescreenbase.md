@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmfilescreenbase.htm
 old-project: Fsrm
 ms.assetid: 9e52af8c-e03b-4b44-83bd-541fe1419d6c
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: IFsrmFileScreenBase, IFsrmFileScreenBase interface [File Server Resource Manager], IFsrmFileScreenBase interface [File Server Resource Manager], described, fs.ifsrmfilescreenbase, fsrm.ifsrmfilescreenbase, fsrmscreen/IFsrmFileScreenBase
 ms.prod: windows-hardware
 ms.technology: windows-devices

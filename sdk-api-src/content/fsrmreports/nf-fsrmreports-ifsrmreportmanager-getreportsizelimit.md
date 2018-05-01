@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmreportmanager_getreportsizelimit.htm
 old-project: Fsrm
 ms.assetid: 1fe2546c-d70c-466a-8640-77cc2403a91d
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: FsrmReportManager class [File Server Resource Manager], GetReportSizeLimit method, GetReportSizeLimit method [File Server Resource Manager], GetReportSizeLimit method [File Server Resource Manager], FsrmReportManager class, GetReportSizeLimit method [File Server Resource Manager], IFsrmReportManager interface, GetReportSizeLimit,IFsrmReportManager.GetReportSizeLimit, IFsrmReportManager, IFsrmReportManager interface [File Server Resource Manager], GetReportSizeLimit method, IFsrmReportManager::GetReportSizeLimit, fs.ifsrmreportmanager_getreportsizelimit, fsrm.ifsrmreportmanager_getreportsizelimit, fsrmreports/IFsrmReportManager::GetReportSizeLimit
 ms.prod: windows-hardware
 ms.technology: windows-devices

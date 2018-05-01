@@ -7,7 +7,7 @@ old-location: tmg\http_filter_log.htm
 old-project: TMG
 ms.assetid: c235937a-a7d4-48e9-b75c-5bbb09486041
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/3/2018
 ms.keywords: "*PHTTP_FILTER_LOG, HTTP_FILTER_LOG, HTTP_FILTER_LOG structure [Forefront TMG], PHTTP_FILTER_LOG, PHTTP_FILTER_LOG structure pointer [Forefront TMG], _HTTP_FILTER_LOG, httpfilt/HTTP_FILTER_LOG, httpfilt/PHTTP_FILTER_LOG, tmg.http_filter_log"
 ms.prod: windows-hardware
 ms.technology: windows-devices

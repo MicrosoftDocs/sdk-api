@@ -7,7 +7,7 @@ old-location: mstv\iatsc_vct_getversionnumber.htm
 old-project: mstv
 ms.assetid: c89e2fde-958f-4193-84d9-2d98e7560c6a
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetVersionNumber method [Microsoft TV Technologies], GetVersionNumber method [Microsoft TV Technologies], IATSC_VCT interface, GetVersionNumber,IATSC_VCT.GetVersionNumber, IATSC_VCT, IATSC_VCT interface [Microsoft TV Technologies], GetVersionNumber method, IATSC_VCT::GetVersionNumber, IATSC_VCTGetVersionNumber, atscpsipparser/IATSC_VCT::GetVersionNumber, mstv.iatsc_vct_getversionnumber
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_WRITER_PAYLOAD_STREAM
+req.typenames: AsyncStatus
 topic_type:
 -	APIRef
 -	kbSyntax

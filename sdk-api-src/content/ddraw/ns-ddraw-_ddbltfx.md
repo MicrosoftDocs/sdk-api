@@ -59,11 +59,6 @@ The DDBLTFX structure passes raster operations (ROPs), effects, and override inf
 
 
 
-### -field DUMMYUNIONNAMEN
-
- 
-
-
 ### -field dwSize
 
 Size of the structure, in bytes. This member must be initialized before the structure is used.
@@ -196,6 +191,11 @@ Bit depth of the destination alpha constant.
 ### -field dwAlphaSrcConstBitDepth
 
 Bit depth of the source alpha constant.
+
+
+### -field DUMMYUNIONNAMEN
+
+ 
 
 
 ### -field ddckDestColorkey

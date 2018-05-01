@@ -7,7 +7,7 @@ old-location: security\icertificatepolicies_add_method.htm
 old-project: SecCertEnroll
 ms.assetid: 85dc750c-ef18-4136-962e-c95bcca05b9a
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: Add method [Security], Add method [Security], ICertificatePolicies interface, Add,ICertificatePolicies.Add, ICertificatePolicies, ICertificatePolicies interface [Security], Add method, ICertificatePolicies::Add, certenroll/ICertificatePolicies::Add, security.icertificatepolicies_add_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\ivssdifferentialsoftwaresnapshotmgmt_queryvolumessupportedfor
 old-project: VSS
 ms.assetid: 2aad75e3-0228-4cc4-b813-c70a7ebfdea5
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: IVssDifferentialSoftwareSnapshotMgmt, IVssDifferentialSoftwareSnapshotMgmt interface [VSS], QueryVolumesSupportedForDiffAreas method, IVssDifferentialSoftwareSnapshotMgmt::QueryVolumesSupportedForDiffAreas, QueryVolumesSupportedForDiffAreas method [VSS], QueryVolumesSupportedForDiffAreas method [VSS], IVssDifferentialSoftwareSnapshotMgmt interface, QueryVolumesSupportedForDiffAreas,IVssDifferentialSoftwareSnapshotMgmt.QueryVolumesSupportedForDiffAreas, base.ivssdifferentialsoftwaresnapshotmgmt_queryvolumessupportedfordiffareas, vsmgmt/IVssDifferentialSoftwareSnapshotMgmt::QueryVolumesSupportedForDiffAreas
 ms.prod: windows-hardware
 ms.technology: windows-devices

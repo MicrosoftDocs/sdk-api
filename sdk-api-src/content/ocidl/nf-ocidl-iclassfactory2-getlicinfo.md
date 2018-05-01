@@ -7,7 +7,7 @@ old-location: com\iclassfactory2_getlicinfo.htm
 old-project: com
 ms.assetid: e55d1089-b1df-4de0-9a19-cbd255b36126
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: GetLicInfo method [COM], GetLicInfo method [COM], IClassFactory2 interface, GetLicInfo,IClassFactory2.GetLicInfo, IClassFactory2, IClassFactory2 interface [COM], GetLicInfo method, IClassFactory2::GetLicInfo, _com_iclassfactory2_getlicinfo, com.iclassfactory2_getlicinfo, ocidl/IClassFactory2::GetLicInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IClassFactory2::GetLicInfo method

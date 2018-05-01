@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomation_ElementFromPointBuildCache.htm
 old-project: WinAuto
 ms.assetid: fb3a8773-270a-4e33-bcbe-bde7794ea4ad
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: ElementFromPointBuildCache method [Windows Accessibility], ElementFromPointBuildCache method [Windows Accessibility], IUIAutomation interface, ElementFromPointBuildCache,IUIAutomation.ElementFromPointBuildCache, IUIAutomation, IUIAutomation interface [Windows Accessibility], ElementFromPointBuildCache method, IUIAutomation::ElementFromPointBuildCache, uiauto.uiauto_IUIAutomation_ElementFromPointBuildCache, uiauto_IUIAutomation_ElementFromPointBuildCache, uiautomationclient/IUIAutomation::ElementFromPointBuildCache, winauto.uiauto_IUIAutomation_ElementFromPointBuildCache
 ms.prod: windows-hardware
 ms.technology: windows-devices

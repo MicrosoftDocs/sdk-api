@@ -7,7 +7,7 @@ old-location: controls\itextrow_getcellwidth.htm
 old-project: Controls
 ms.assetid: dc73fdf4-29ce-4432-825d-725d61717b7a
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: GetCellWidth method [Windows Controls], GetCellWidth method [Windows Controls], ITextRow interface, GetCellWidth,ITextRow.GetCellWidth, ITextRow, ITextRow interface [Windows Controls], GetCellWidth method, ITextRow::GetCellWidth, controls.itextrow_getcellwidth, tom/ITextRow::GetCellWidth
 ms.prod: windows-hardware
 ms.technology: windows-devices

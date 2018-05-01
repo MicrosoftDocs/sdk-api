@@ -7,7 +7,7 @@ old-location: tablet\istylusplugin_packets.htm
 old-project: tablet
 ms.assetid: c6a3d563-4776-4ac6-bdc3-798192ba4546
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: IStylusPlugin, IStylusPlugin interface [Tablet PC], Packets method, IStylusPlugin::Packets, Packets method [Tablet PC], Packets method [Tablet PC], IStylusPlugin interface, Packets,IStylusPlugin.Packets, c6a3d563-4776-4ac6-bdc3-798192ba4546, rtscom/IStylusPlugin::Packets, tablet.istylusplugin_packets
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: RTSCom.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IStylusPlugin::Packets method

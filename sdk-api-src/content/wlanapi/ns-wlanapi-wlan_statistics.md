@@ -7,7 +7,7 @@ old-location: nwifi\wlan_statistics.htm
 old-project: NativeWiFi
 ms.assetid: d66d89f1-bb12-4c2e-8c7a-a4eba008955d
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/13/2018
 ms.keywords: "*PWLAN_STATISTICS, PWLAN_STATISTICS, PWLAN_STATISTICS structure pointer [NativeWIFI], WLAN_STATISTICS, WLAN_STATISTICS structure [NativeWIFI], nwifi.wlan_statistics, wlanapi/PWLAN_STATISTICS, wlanapi/WLAN_STATISTICS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

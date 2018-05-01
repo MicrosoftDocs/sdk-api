@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12debugdevice1_setenablesynchronizedcommandqueueval
 old-project: direct3d12
 ms.assetid: B2038241-201B-402B-9B5A-BA2D2239A62A
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: ID3D12Debug1, ID3D12Debug1 interface, SetEnableSynchronizedCommandQueueValidation method, ID3D12Debug1::SetEnableSynchronizedCommandQueueValidation, SetEnableSynchronizedCommandQueueValidation method, SetEnableSynchronizedCommandQueueValidation method, ID3D12Debug1 interface, SetEnableSynchronizedCommandQueueValidation,ID3D12Debug1.SetEnableSynchronizedCommandQueueValidation, d3d12sdklayers/ID3D12Debug1::SetEnableSynchronizedCommandQueueValidation, direct3d12.id3d12debugdevice1_setenablesynchronizedcommandqueuevalidation
 ms.prod: windows-hardware
 ms.technology: windows-devices

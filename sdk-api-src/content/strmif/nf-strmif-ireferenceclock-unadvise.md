@@ -7,7 +7,7 @@ old-location: dshow\ireferenceclock_unadvise.htm
 old-project: DirectShow
 ms.assetid: 1f032036-4502-473a-93e1-976a66d8bde1
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IReferenceClock, IReferenceClock interface [DirectShow], Unadvise method, IReferenceClock::Unadvise, IReferenceClockUnadvise, Unadvise method [DirectShow], Unadvise method [DirectShow], IReferenceClock interface, Unadvise,IReferenceClock.Unadvise, dshow.ireferenceclock_unadvise, strmif/IReferenceClock::Unadvise
 ms.prod: windows-hardware
 ms.technology: windows-devices

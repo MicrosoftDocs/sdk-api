@@ -7,7 +7,7 @@ old-location: mf\dxvahd_blt_state_alpha_fill_data.htm
 old-project: medfound
 ms.assetid: dcd42210-d5f8-42c7-aac0-08f0ce4b7ac9
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: DXVAHD_BLT_STATE_ALPHA_FILL_DATA, DXVAHD_BLT_STATE_ALPHA_FILL_DATA structure [Media Foundation], _DXVAHD_BLT_STATE_ALPHA_FILL_DATA, dxvahd/DXVAHD_BLT_STATE_ALPHA_FILL_DATA, mf.dxvahd_blt_state_alpha_fill_data
 ms.prod: windows-hardware
 ms.technology: windows-devices

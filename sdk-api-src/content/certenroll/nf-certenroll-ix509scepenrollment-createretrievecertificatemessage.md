@@ -7,7 +7,7 @@ old-location: security\ix509scepenrollment_createretrievecertificatemessage.htm
 old-project: SecCertEnroll
 ms.assetid: 238a837f-4464-49ce-b87a-03abcfc0abea
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: CreateRetrieveCertificateMessage method [Security], CreateRetrieveCertificateMessage method [Security], IX509SCEPEnrollment interface, CreateRetrieveCertificateMessage,IX509SCEPEnrollment.CreateRetrieveCertificateMessage, IX509SCEPEnrollment, IX509SCEPEnrollment interface [Security], CreateRetrieveCertificateMessage method, IX509SCEPEnrollment::CreateRetrieveCertificateMessage, certenroll/IX509SCEPEnrollment::CreateRetrieveCertificateMessage, security.ix509scepenrollment_createretrievecertificatemessage
 ms.prod: windows-hardware
 ms.technology: windows-devices

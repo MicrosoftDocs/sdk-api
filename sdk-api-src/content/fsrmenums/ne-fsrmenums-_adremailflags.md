@@ -7,7 +7,7 @@ old-location: fsrm\adremailflags.htm
 old-project: Fsrm
 ms.assetid: 149c0f4b-b30b-4439-b8a8-d0423be41c64
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: AdrEmailFlags, AdrEmailFlags enumeration [File Server Resource Manager], AdrEmailFlags_GenerateEventLog, AdrEmailFlags_IncludeDeviceClaims, AdrEmailFlags_IncludeUserInfo, AdrEmailFlags_PutAdminOnToLine, AdrEmailFlags_PutDataOwnerOnToLine, _AdrEmailFlags, fs.adremailflags, fsrm.adremailflags, fsrmenums/AdrEmailFlags, fsrmenums/AdrEmailFlags_GenerateEventLog, fsrmenums/AdrEmailFlags_IncludeDeviceClaims, fsrmenums/AdrEmailFlags_IncludeUserInfo, fsrmenums/AdrEmailFlags_PutAdminOnToLine, fsrmenums/AdrEmailFlags_PutDataOwnerOnToLine
 ms.prod: windows-hardware
 ms.technology: windows-devices

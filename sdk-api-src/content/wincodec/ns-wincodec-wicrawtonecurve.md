@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_wicrawtonecurve.htm
 old-project: wic
 ms.assetid: 45eedc32-a642-4ef6-a02a-63eaeacf0012
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: WICRawToneCurve, WICRawToneCurve structure [Windows Imaging Component], _wic_codec_wicrawtonecurve, wic._wic_codec_wicrawtonecurve, wincodec/WICRawToneCurve
 ms.prod: windows-hardware
 ms.technology: windows-devices

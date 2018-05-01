@@ -7,7 +7,7 @@ old-location: base\ioctl_changer_get_product_data.htm
 old-project: DevIO
 ms.assetid: 60744666-fb37-4263-8f4a-e7e043e6b71e
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/3/2018
 ms.keywords: IOCTL_CHANGER_GET_PRODUCT_DATA, IOCTL_CHANGER_GET_PRODUCT_DATA control code, _win32_ioctl_changer_get_product_data, base.ioctl_changer_get_product_data, winioctl/IOCTL_CHANGER_GET_PRODUCT_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices

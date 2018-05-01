@@ -7,7 +7,7 @@ old-location: wmp\iwmpcore_get_closedcaption.htm
 old-project: WMP
 ms.assetid: 7f170430-2ce4-490b-9163-f39221a8db5c
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPCore, IWMPCore interface [Windows Media Player], get_closedCaption method, IWMPCore::get_closedCaption, IWMPCoreget_closedCaption, get_closedCaption method [Windows Media Player], get_closedCaption method [Windows Media Player], IWMPCore interface, get_closedCaption,IWMPCore.get_closedCaption, wmp.iwmpcore_get_closedcaption, wmp/IWMPCore::get_closedCaption
 ms.prod: windows-hardware
 ms.technology: windows-devices

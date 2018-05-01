@@ -7,7 +7,7 @@ old-location: security\iaztask_deletetask.htm
 old-project: SecAuthZ
 ms.assetid: 1e1288ff-d67b-4180-bfd0-63b81df8f99b
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: AzTask object [Security], DeleteTask method, DeleteTask method [Security], DeleteTask method [Security], AzTask object, DeleteTask method [Security], IAzTask interface, DeleteTask,IAzTask.DeleteTask, IAzTask, IAzTask interface [Security], DeleteTask method, IAzTask::DeleteTask, azroles/IAzTask::DeleteTask, security.iaztask_deletetask
 ms.prod: windows-hardware
 ms.technology: windows-devices

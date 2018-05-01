@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrControl_UpdateEvents.htm
 old-project: shell
 ms.assetid: 72848e6a-eec3-45fc-b599-a5a8da2e1070
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ISyncMgrControl, ISyncMgrControl interface [Windows Shell], UpdateEvents method, ISyncMgrControl::UpdateEvents, UpdateEvents method [Windows Shell], UpdateEvents method [Windows Shell], ISyncMgrControl interface, UpdateEvents,ISyncMgrControl.UpdateEvents, _shell_ISyncMgrControl_UpdateEvents, shell.ISyncMgrControl_UpdateEvents, syncmgr/ISyncMgrControl::UpdateEvents
 ms.prod: windows-hardware
 ms.technology: windows-devices

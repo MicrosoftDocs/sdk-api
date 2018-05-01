@@ -7,7 +7,7 @@ old-location: security\ienumcertviewcolumn_next.htm
 old-project: SecCrypto
 ms.assetid: 4c77d1c7-af3a-4a7d-bf42-69be887c881e
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: IEnumCERTVIEWCOLUMN, IEnumCERTVIEWCOLUMN interface [Security], Next method, IEnumCERTVIEWCOLUMN::Next, Next method [Security], Next method [Security], IEnumCERTVIEWCOLUMN interface, Next,IEnumCERTVIEWCOLUMN.Next, _certsrv_ienumcertviewcolumn_next, certview/IEnumCERTVIEWCOLUMN::Next, security.ienumcertviewcolumn_next
 ms.prod: windows-hardware
 ms.technology: windows-devices

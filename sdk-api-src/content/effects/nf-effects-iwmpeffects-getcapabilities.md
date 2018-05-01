@@ -7,7 +7,7 @@ old-location: wmp\iwmpeffects_getcapabilities.htm
 old-project: WMP
 ms.assetid: e2efb0cd-417f-4b96-a4d7-c02c41a6244d
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: EffectsGetCapabilities, GetCapabilities method [Windows Media Player], GetCapabilities method [Windows Media Player], IWMPEffects interface, GetCapabilities,IWMPEffects.GetCapabilities, IWMPEffects, IWMPEffects interface [Windows Media Player], GetCapabilities method, IWMPEffects::GetCapabilities, effects/IWMPEffects::GetCapabilities, wmp.iwmpeffects_getcapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices

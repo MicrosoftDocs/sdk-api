@@ -7,7 +7,7 @@ old-location: coreaudio\iaudioinputselector_getselection.htm
 old-project: CoreAudio
 ms.assetid: 38288a63-62a3-4b06-b2e6-dbe8c27e09ad
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: GetSelection method [Core Audio], GetSelection method [Core Audio], IAudioInputSelector interface, GetSelection,IAudioInputSelector.GetSelection, IAudioInputSelector, IAudioInputSelector interface [Core Audio], GetSelection method, IAudioInputSelector::GetSelection, IAudioInputSelectorGetSelection, coreaudio.iaudioinputselector_getselection, devicetopology/IAudioInputSelector::GetSelection
 ms.prod: windows-hardware
 ms.technology: windows-devices

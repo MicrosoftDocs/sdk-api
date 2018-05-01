@@ -7,7 +7,7 @@ old-location: wab\_wab_IABContainer.htm
 old-project: wab
 ms.assetid: VS|wab|~\wab\reference\ifaces\iabcontainer\iabcontainer.htm
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 4/3/2018
 ms.keywords: IABContainer, IABContainer interface [Windows Address Book], IABContainer interface [Windows Address Book], described, _wab_IABContainer, wab._wab_IABContainer, wabdefs/IABContainer
 ms.prod: windows-hardware
 ms.technology: windows-devices

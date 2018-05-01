@@ -7,7 +7,7 @@ old-location: security\iazscope_submit.htm
 old-project: SecAuthZ
 ms.assetid: c06f1994-71d9-4867-a5ed-8fa90206994f
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: AzScope object [Security], Submit method, IAzScope, IAzScope interface [Security], Submit method, IAzScope::Submit, Submit method [Security], Submit method [Security], AzScope object, Submit method [Security], IAzScope interface, Submit,IAzScope.Submit, azroles/IAzScope::Submit, security.iazscope_submit
 ms.prod: windows-hardware
 ms.technology: windows-devices

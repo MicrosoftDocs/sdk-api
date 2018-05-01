@@ -7,7 +7,7 @@ old-location: mstv\iguidedata_getscheduleentryproperties.htm
 old-project: mstv
 ms.assetid: 7fe01a0b-8101-40a2-97ee-e0f5c9d8d1a0
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetScheduleEntryProperties method [Microsoft TV Technologies], GetScheduleEntryProperties method [Microsoft TV Technologies], IGuideData interface, GetScheduleEntryProperties,IGuideData.GetScheduleEntryProperties, IGuideData, IGuideData interface [Microsoft TV Technologies], GetScheduleEntryProperties method, IGuideData::GetScheduleEntryProperties, IGuideDataGetScheduleEntryProperties, bdatif/IGuideData::GetScheduleEntryProperties, mstv.iguidedata_getscheduleentryproperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: SpanningEventEmmMessage
+req.typenames: SmartCardApplication
 topic_type:
 -	APIRef
 -	kbSyntax

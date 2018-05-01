@@ -7,7 +7,7 @@ old-location: upnp\iupnpdevicefindercallback_deviceadded.htm
 old-project: UPnP
 ms.assetid: 4a61ca43-cbc6-4db2-9706-23cadbae9c3e
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/25/2018
 ms.keywords: DeviceAdded method [UPnP APIs], DeviceAdded method [UPnP APIs], IUPnPDeviceFinderCallback interface, DeviceAdded,IUPnPDeviceFinderCallback.DeviceAdded, IUPnPDeviceFinderCallback, IUPnPDeviceFinderCallback interface [UPnP APIs], DeviceAdded method, IUPnPDeviceFinderCallback::DeviceAdded, _upnp_iupnpdevicefindercallback_deviceadded, upnp.iupnpdevicefindercallback_deviceadded, upnp/IUPnPDeviceFinderCallback::DeviceAdded
 ms.prod: windows-hardware
 ms.technology: windows-devices

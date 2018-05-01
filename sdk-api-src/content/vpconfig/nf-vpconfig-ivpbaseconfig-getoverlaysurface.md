@@ -7,7 +7,7 @@ old-location: dshow\ivpbaseconfig_getoverlaysurface.htm
 old-project: DirectShow
 ms.assetid: a4d4b63f-b84c-4831-b16e-c0042b54a215
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetOverlaySurface method [DirectShow], GetOverlaySurface method [DirectShow], IVPBaseConfig interface, GetOverlaySurface,IVPBaseConfig.GetOverlaySurface, IVPBaseConfig, IVPBaseConfig interface [DirectShow], GetOverlaySurface method, IVPBaseConfig::GetOverlaySurface, IVPBaseConfigGetOverlaySurface, dshow.ivpbaseconfig_getoverlaysurface, vpconfig/IVPBaseConfig::GetOverlaySurface
 ms.prod: windows-hardware
 ms.technology: windows-devices

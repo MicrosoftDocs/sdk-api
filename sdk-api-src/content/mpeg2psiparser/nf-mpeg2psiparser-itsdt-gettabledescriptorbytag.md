@@ -7,7 +7,7 @@ old-location: mstv\itsdt_gettabledescriptorbytag.htm
 old-project: mstv
 ms.assetid: cb2f544b-02fd-4a48-838f-56815710a5bd
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetTableDescriptorByTag method [Microsoft TV Technologies], GetTableDescriptorByTag method [Microsoft TV Technologies], ITSDT interface, GetTableDescriptorByTag,ITSDT.GetTableDescriptorByTag, ITSDT, ITSDT interface [Microsoft TV Technologies], GetTableDescriptorByTag method, ITSDT::GetTableDescriptorByTag, ITSDTGetTableDescriptorByTag, mpeg2psiparser/ITSDT::GetTableDescriptorByTag, mstv.itsdt_gettabledescriptorbytag
 ms.prod: windows-hardware
 ms.technology: windows-devices

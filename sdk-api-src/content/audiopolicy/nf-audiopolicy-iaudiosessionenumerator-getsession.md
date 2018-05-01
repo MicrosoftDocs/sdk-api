@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiosessionenumerator_getsession.htm
 old-project: CoreAudio
 ms.assetid: 45b7af16-aca0-49f8-b977-f7e4f1885687
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: GetSession method [Core Audio], GetSession method [Core Audio], IAudioSessionEnumerator interface, GetSession,IAudioSessionEnumerator.GetSession, IAudioSessionEnumerator, IAudioSessionEnumerator interface [Core Audio], GetSession method, IAudioSessionEnumerator::GetSession, audiopolicy/IAudioSessionEnumerator::GetSession, coreaudio.iaudiosessionenumerator_getsession
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: AE_CURRENT_POSITION, *PAE_CURRENT_POSITION
+req.typenames: UNCOMPRESSEDAUDIOFORMAT
 topic_type:
 -	APIRef
 -	kbSyntax

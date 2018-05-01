@@ -7,7 +7,7 @@ old-location: wmformat\iwmaddressaccess_getaccessentry.htm
 old-project: wmformat
 ms.assetid: b01b921b-0bb8-447b-877c-8ac218422d36
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: GetAccessEntry method [windows Media Format], GetAccessEntry method [windows Media Format], IWMAddressAccess interface, GetAccessEntry,IWMAddressAccess.GetAccessEntry, IWMAddressAccess, IWMAddressAccess interface [windows Media Format], GetAccessEntry method, IWMAddressAccess::GetAccessEntry, IWMAddressAccessGetAccessEntry, wmformat.iwmaddressaccess_getaccessentry, wmsdkidl/IWMAddressAccess::GetAccessEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: com\ienumoledocumentviews_skip.htm
 old-project: com
 ms.assetid: ea853e5a-ea73-441f-9b13-0425a4d734ad
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IEnumOleDocumentViews, IEnumOleDocumentViews interface [COM], Skip method, IEnumOleDocumentViews::Skip, Skip method [COM], Skip method [COM], IEnumOleDocumentViews interface, Skip,IEnumOleDocumentViews.Skip, _ole_ienumoledocumentviews_skip, com.ienumoledocumentviews_skip, docobj/IEnumOleDocumentViews::Skip
 ms.prod: windows-hardware
 ms.technology: windows-devices

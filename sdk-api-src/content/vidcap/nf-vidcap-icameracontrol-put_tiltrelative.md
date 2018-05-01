@@ -7,7 +7,7 @@ old-location: dshow\icameracontrol_put_tiltrelative.htm
 old-project: DirectShow
 ms.assetid: 69aa7ecf-4816-460b-b4f8-480c0d4f8331
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ICameraControl, ICameraControl interface [DirectShow], put_TiltRelative method, ICameraControl::put_TiltRelative, ICameraControlput_TiltRelative, dshow.icameracontrol_put_tiltrelative, put_TiltRelative method [DirectShow], put_TiltRelative method [DirectShow], ICameraControl interface, put_TiltRelative,ICameraControl.put_TiltRelative, vidcap/ICameraControl::put_TiltRelative
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: VIDEOHDR, *PVIDEOHDR, *LPVIDEOHDR
+req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
 topic_type:
 -	APIRef
 -	kbSyntax

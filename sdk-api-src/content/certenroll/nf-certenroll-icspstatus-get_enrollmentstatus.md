@@ -7,7 +7,7 @@ old-location: security\icspstatus_enrollmentstatus_property.htm
 old-project: SecCertEnroll
 ms.assetid: 56798477-ec12-47b6-a226-d20258677033
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: EnrollmentStatus property [Security], EnrollmentStatus property [Security], ICspStatus interface, ICspStatus, ICspStatus interface [Security], EnrollmentStatus property, ICspStatus.EnrollmentStatus, ICspStatus::get_EnrollmentStatus, certenroll/ICspStatus::EnrollmentStatus, certenroll/ICspStatus::get_EnrollmentStatus, get_EnrollmentStatus,ICspStatus.get_EnrollmentStatus, security.icspstatus_enrollmentstatus_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

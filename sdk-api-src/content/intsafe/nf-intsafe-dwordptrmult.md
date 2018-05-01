@@ -7,7 +7,7 @@ old-location: shell\DWordPtrMult.htm
 old-project: shell
 ms.assetid: 9f5beb13-17cd-44ef-a352-843d51304ab6
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: DWordPtrMult, DWordPtrMult function [Windows Shell], _shell_DWordPtrMult, intsafe/DWordPtrMult, shell.DWordPtrMult
 ms.prod: windows-hardware
 ms.technology: windows-devices

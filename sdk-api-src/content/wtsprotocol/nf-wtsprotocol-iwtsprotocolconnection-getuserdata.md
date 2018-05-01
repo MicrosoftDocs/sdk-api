@@ -7,7 +7,7 @@ old-location: termserv\iwtsprotocolconnection_getuserdata.htm
 old-project: TermServ
 ms.assetid: fa77c537-c78d-4fe3-b597-787efd740cf6
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: GetUserData method [Remote Desktop Services], GetUserData method [Remote Desktop Services], IWTSProtocolConnection interface, GetUserData,IWTSProtocolConnection.GetUserData, IWTSProtocolConnection, IWTSProtocolConnection interface [Remote Desktop Services], GetUserData method, IWTSProtocolConnection::GetUserData, termserv.iwtsprotocolconnection_getuserdata, wtsprotocol/IWTSProtocolConnection::GetUserData
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\ivssenummgmtobject_clone.htm
 old-project: VSS
 ms.assetid: f957052a-5511-4f00-b864-1f03ead2ba58
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: Clone method [VSS], Clone method [VSS], IVssEnumMgmtObject interface, Clone,IVssEnumMgmtObject.Clone, IVssEnumMgmtObject, IVssEnumMgmtObject interface [VSS], Clone method, IVssEnumMgmtObject::Clone, base.ivssenummgmtobject_clone, vsmgmt/IVssEnumMgmtObject::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: controls\LVITEMINDEX.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lvitemindex.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: "*PLVITEMINDEX, LVITEMINDEX, LVITEMINDEX structure [Windows Controls], PLVITEMINDEX, PLVITEMINDEX structure pointer [Windows Controls], _shell_LVITEMINDEX, _shell_LVITEMINDEX_cpp, commctrl/LVITEMINDEX, commctrl/PLVITEMINDEX, controls.LVITEMINDEX, controls._shell_LVITEMINDEX, tagLVITEMINDEX"
 ms.prod: windows-hardware
 ms.technology: windows-devices

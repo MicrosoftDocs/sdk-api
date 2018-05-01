@@ -7,7 +7,7 @@ old-location: netbios\adapter_status.htm
 old-project: NetBIOS
 ms.assetid: 402bc5ce-bce4-4ba9-b82d-13cd3dc7097b
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: "*PADAPTER_STATUS, ADAPTER_STATUS, ADAPTER_STATUS structure [NetBIOS], PADAPTER_STATUS, PADAPTER_STATUS structure pointer [NetBIOS], _ADAPTER_STATUS, nb30/ADAPTER_STATUS, nb30/PADAPTER_STATUS, netbios.adapter_status"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _ADAPTER_STATUS structure

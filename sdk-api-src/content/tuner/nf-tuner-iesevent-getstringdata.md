@@ -7,7 +7,7 @@ old-location: mstv\iesevent_getstringdata.htm
 old-project: mstv
 ms.assetid: 6a1c98af-a753-40e5-bea8-825863f94172
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetStringData method [Microsoft TV Technologies], GetStringData method [Microsoft TV Technologies], IESEvent interface, GetStringData,IESEvent.GetStringData, IESEvent, IESEvent interface [Microsoft TV Technologies], GetStringData method, IESEvent::GetStringData, mstv.iesevent_getstringdata, tuner/IESEvent::GetStringData
 ms.prod: windows-hardware
 ms.technology: windows-devices

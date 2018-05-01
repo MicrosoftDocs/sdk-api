@@ -7,7 +7,7 @@ old-location: com\ieventpublisher_publisherid.htm
 old-project: com
 ms.assetid: edc66367-68af-47a7-873c-006c257e840e
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IEventPublisher, IEventPublisher interface [COM], PublisherID property, IEventPublisher.PublisherID, IEventPublisher::put_PublisherID, PublisherID property [COM], PublisherID property [COM], IEventPublisher interface, _com_ieventpublisher_publisherid, com.ieventpublisher_publisherid, eventsys/IEventPublisher::PublisherID, eventsys/IEventPublisher::put_PublisherID, put_PublisherID,IEventPublisher.put_PublisherID
 ms.prod: windows-hardware
 ms.technology: windows-devices

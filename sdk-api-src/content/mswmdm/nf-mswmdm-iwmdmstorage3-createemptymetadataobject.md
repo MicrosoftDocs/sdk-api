@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmstorage3_createemptymetadataobject.htm
 old-project: WMDM
 ms.assetid: e46b5f30-3dd9-4e5a-bd75-c7716a1d8a2a
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: CreateEmptyMetadataObject method [windows Media Device Manager], CreateEmptyMetadataObject method [windows Media Device Manager], IWMDMStorage3 interface, CreateEmptyMetadataObject,IWMDMStorage3.CreateEmptyMetadataObject, IWMDMStorage3, IWMDMStorage3 interface [windows Media Device Manager], CreateEmptyMetadataObject method, IWMDMStorage3::CreateEmptyMetadataObject, IWMDMStorage3CreateEmptyMetadataObject, mswmdm/IWMDMStorage3::CreateEmptyMetadataObject, wmdm.iwmdmstorage3_createemptymetadataobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IWMDMStorage3::CreateEmptyMetadataObject method

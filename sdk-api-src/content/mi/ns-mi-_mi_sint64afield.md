@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_sint64afield.htm
 old-project: wmi_v2
 ms.assetid: 5004d3e3-43bf-4a83-b2db-f916e8fed816
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/18/2018
 ms.keywords: MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, MI_Sint64AField, MI_Sint64AField structure [Windows Management Infrastructure (MI)], _MI_Sint64AField, mi/MI_Sint64AField, wmi._mi_sint64afield, wmi_v2.mi_sint64afield
 ms.prod: windows-hardware
 ms.technology: windows-devices

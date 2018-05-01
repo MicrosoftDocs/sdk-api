@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_context_writecimerror.htm
 old-project: wmi_v2
 ms.assetid: 6df0841b-3e13-4f9a-9e54-5c3c0c0d79fe
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/18/2018
 ms.keywords: MI_Context_WriteCimError, MI_Context_WriteCimError function [Windows Management Infrastructure (MI)], mi/MI_Context_WriteCimError, wmi.mi_writecimerror, wmi_v2.mi_context_writecimerror
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,7 +65,7 @@ Request context.
 
 ### -param error [in]
 
-An instance of a <a href="https://msdn.microsoft.com/a0a99371-7b49-4ba1-89fb-d7034d162e01">CIM_Error</a> class.
+An instance of a <a href="https://msdn.microsoft.com/a7dc450d-7dbd-4097-a186-0e42f100fbfe">CIM_Error</a> class.
 
 
 ### -param flag [out]
@@ -96,7 +96,7 @@ A provider calls this function to send a CIM error instance to the client.  This
 
 
 
-<a href="https://msdn.microsoft.com/a0a99371-7b49-4ba1-89fb-d7034d162e01">CIM_Error</a>
+<a href="https://msdn.microsoft.com/a7dc450d-7dbd-4097-a186-0e42f100fbfe">CIM_Error</a>
 
 
 

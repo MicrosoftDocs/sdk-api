@@ -7,7 +7,7 @@ old-location: mstv\isbe2globalevent_getevent.htm
 old-project: mstv
 ms.assetid: 2ffa323d-6793-49e2-98ea-b9349c946c7c
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetEvent method [Microsoft TV Technologies], GetEvent method [Microsoft TV Technologies], ISBE2GlobalEvent interface, GetEvent,ISBE2GlobalEvent.GetEvent, ISBE2GlobalEvent, ISBE2GlobalEvent interface [Microsoft TV Technologies], GetEvent method, ISBE2GlobalEvent::GetEvent, mstv.isbe2globalevent_getevent, sbe/ISBE2GlobalEvent::GetEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ISBE2GlobalEvent::GetEvent method

@@ -7,7 +7,7 @@ old-location: security\ienumcertviewcolumn_reset.htm
 old-project: SecCrypto
 ms.assetid: 0be00eb0-1a22-4849-95ca-276099bbfa74
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: IEnumCERTVIEWCOLUMN, IEnumCERTVIEWCOLUMN interface [Security], Reset method, IEnumCERTVIEWCOLUMN object [Security], Reset method, IEnumCERTVIEWCOLUMN::Reset, Reset method [Security], Reset method [Security], IEnumCERTVIEWCOLUMN interface, Reset method [Security], IEnumCERTVIEWCOLUMN object, Reset,IEnumCERTVIEWCOLUMN.Reset, _certsrv_ienumcertviewcolumn_reset, certview/IEnumCERTVIEWCOLUMN::Reset, security.ienumcertviewcolumn_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices

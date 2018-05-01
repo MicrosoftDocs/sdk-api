@@ -7,7 +7,7 @@ old-location: wmi\chstring_getlength.htm
 old-project: WmiSdk
 ms.assetid: b898f9d1-b9a2-4c7b-a7c0-1b6b51ae565f
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: "?GetLength@CHString@@QBEHXZ, ?GetLength@CHString@@QEBAHXZ, CHString, CHString interface [Windows Management Instrumentation], GetLength method, CHString::GetLength, GetLength method [Windows Management Instrumentation], GetLength method [Windows Management Instrumentation], CHString interface, GetLength,CHString.GetLength, _hmm_chstring_getlength, chstring/CHString::GetLength, wmi.chstring_getlength"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CF_SYNC_ROOT_STANDARD_INFO
+req.typenames: CF_SYNC_STATUS
 topic_type:
 -	APIRef
 -	kbSyntax

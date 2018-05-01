@@ -7,7 +7,7 @@ old-location: wmformat\iwmheaderinfo3_getattributebyindexex.htm
 old-project: wmformat
 ms.assetid: c20f4c79-f5b3-45d9-ad70-5fb9745bbf1b
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: GetAttributeByIndexEx method [windows Media Format], GetAttributeByIndexEx method [windows Media Format], IWMHeaderInfo3 interface, GetAttributeByIndexEx,IWMHeaderInfo3.GetAttributeByIndexEx, IWMHeaderInfo3, IWMHeaderInfo3 interface [windows Media Format], GetAttributeByIndexEx method, IWMHeaderInfo3::GetAttributeByIndexEx, IWMHeaderInfo3GetAttributeByIndexEx, wmformat.iwmheaderinfo3_getattributebyindexex, wmsdkidl/IWMHeaderInfo3::GetAttributeByIndexEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

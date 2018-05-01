@@ -7,7 +7,7 @@ old-location: controls\itextdocument2_seteffectcolor.htm
 old-project: Controls
 ms.assetid: 6371b525-96da-42a7-8cee-228b47208f46
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextDocument2, ITextDocument2 interface [Windows Controls], SetEffectColor method, ITextDocument2::SetEffectColor, SetEffectColor method [Windows Controls], SetEffectColor method [Windows Controls], ITextDocument2 interface, SetEffectColor,ITextDocument2.SetEffectColor, controls.itextdocument2_seteffectcolor, tom/ITextDocument2::SetEffectColor
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -101,3 +101,11 @@ The sync provider has lost connectivity.
 
 Clears the flags of the sync provider.
 
+
+### -field CF_PROVIDER_STATUS_TERMINATED
+
+
+### -field CF_PROVIDER_STATUS_ERROR
+
+
+

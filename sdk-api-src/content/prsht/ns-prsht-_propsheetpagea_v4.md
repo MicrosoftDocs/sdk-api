@@ -7,7 +7,7 @@ old-location: controls\PROPSHEETPAGE.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\structures\propsheetpage.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: "*LPPROPSHEETPAGEA_V4, LPPROPSHEETPAGE, LPPROPSHEETPAGE structure pointer [Windows Controls], PROPSHEETPAGE, PROPSHEETPAGE structure [Windows Controls], PROPSHEETPAGEA, PROPSHEETPAGEA_LATEST, PROPSHEETPAGEA_V4, PROPSHEETPAGEW, PSP_DEFAULT, PSP_DLGINDIRECT, PSP_HASHELP, PSP_HIDEHEADER, PSP_PREMATURE, PSP_RTLREADING, PSP_USECALLBACK, PSP_USEFUSIONCONTEXT, PSP_USEHEADERSUBTITLE, PSP_USEHEADERTITLE, PSP_USEHICON, PSP_USEICONID, PSP_USEREFPARENT, PSP_USETITLE, _PROPSHEETPAGEA_V4, _win32_PROPSHEETPAGE_str, _win32_PROPSHEETPAGE_str_cpp, controls.PROPSHEETPAGE, controls._win32_PROPSHEETPAGE_str, prsht/LPPROPSHEETPAGE, prsht/PROPSHEETPAGE, prsht/PROPSHEETPAGEA, prsht/PROPSHEETPAGEW"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _PROPSHEETPAGEA_V4 structure
@@ -58,11 +58,6 @@ Defines a page in a property sheet.
 ## -struct-fields
 
 
-
-
-### -field DUMMYUNIONNAME3
-
- 
 
 
 ### -field pszHeaderTitle
@@ -103,6 +98,13 @@ Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/hh973215">
 
 
 <a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 6.0</a> or later. An activation context handle. Set this member to the handle that is returned when you create the activation context with <a href="https://msdn.microsoft.com/11508215-8d8b-4040-a725-88804103fac4">CreateActCtx</a>. The system will activate this context before creating the dialog box. You do not need to use this member if you use a global manifest. See the Remarks.
+
+
+### -field DUMMYUNIONNAME3
+
+ 
+
+
 
 
 #### - dwFlags

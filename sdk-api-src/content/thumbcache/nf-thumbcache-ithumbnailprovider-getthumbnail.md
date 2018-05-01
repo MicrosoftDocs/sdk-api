@@ -7,7 +7,7 @@ old-location: shell\IThumbnailProvider_GetThumbnail.htm
 old-project: shell
 ms.assetid: 5ea237fb-6b1c-4e87-a9f3-711ffa37b3dc
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetThumbnail method [Windows Shell], GetThumbnail method [Windows Shell], IThumbnailProvider interface, GetThumbnail,IThumbnailProvider.GetThumbnail, IThumbnailProvider, IThumbnailProvider interface [Windows Shell], GetThumbnail method, IThumbnailProvider::GetThumbnail, WTSAT_ARGB, WTSAT_RGB, WTSAT_UNKNOWN, _shell_IThumbnailProvider_GetThumbnail, shell.IThumbnailProvider_GetThumbnail, thumbcache/IThumbnailProvider::GetThumbnail
 ms.prod: windows-hardware
 ms.technology: windows-devices

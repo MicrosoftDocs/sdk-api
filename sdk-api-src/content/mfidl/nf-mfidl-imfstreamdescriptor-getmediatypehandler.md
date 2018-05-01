@@ -7,7 +7,7 @@ old-location: mf\imfstreamdescriptor_getmediatypehandler.htm
 old-project: medfound
 ms.assetid: 8e991417-fe15-4749-94c4-26c621692b52
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 8e991417-fe15-4749-94c4-26c621692b52, GetMediaTypeHandler method [Media Foundation], GetMediaTypeHandler method [Media Foundation], IMFStreamDescriptor interface, GetMediaTypeHandler,IMFStreamDescriptor.GetMediaTypeHandler, IMFStreamDescriptor, IMFStreamDescriptor interface [Media Foundation], GetMediaTypeHandler method, IMFStreamDescriptor::GetMediaTypeHandler, mf.imfstreamdescriptor_getmediatypehandler, mfidl/IMFStreamDescriptor::GetMediaTypeHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices

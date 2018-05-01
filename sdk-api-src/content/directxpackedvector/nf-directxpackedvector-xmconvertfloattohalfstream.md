@@ -7,7 +7,7 @@ old-location: dxmath\xmconvertfloattohalfstream.htm
 old-project: dxmath
 ms.assetid: M:Microsoft.directx_sdk.conversion.XMConvertFloatToHalfStream(HALF@,uint32_t,const float,uint32_t,uint32_t)
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/23/2018
 ms.keywords: DirectX::PackedVector.XMConvertFloatToHalfStream, XMConvertFloatToHalfStream, XMConvertFloatToHalfStream method [DirectX Math Support APIs], dxmath.xmconvertfloattohalfstream
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: bits\ienumbackgroundcopyjobs_reset.htm
 old-project: Bits
 ms.assetid: 045df884-88e0-4d5a-a790-6b3b9ba2d4f5
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/10/2018
 ms.keywords: IEnumBackgroundCopyJobs, IEnumBackgroundCopyJobs interface [BITS], Reset method, IEnumBackgroundCopyJobs::Reset, Reset method [BITS], Reset method [BITS], IEnumBackgroundCopyJobs interface, Reset,IEnumBackgroundCopyJobs.Reset, _drz_ienumbackgroundcopyjobs_reset, bits.ienumbackgroundcopyjobs_reset, bits/IEnumBackgroundCopyJobs::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices

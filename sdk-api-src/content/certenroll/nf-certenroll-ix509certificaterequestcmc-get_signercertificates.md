@@ -7,7 +7,7 @@ old-location: security\ix509certificaterequestcmc_signercertificates_property.ht
 old-project: SecCertEnroll
 ms.assetid: 0b963fe2-32bd-4f99-9d4f-b17cb2d65909
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: IX509CertificateRequestCmc, IX509CertificateRequestCmc interface [Security], SignerCertificates property, IX509CertificateRequestCmc.SignerCertificates, IX509CertificateRequestCmc::get_SignerCertificates, SignerCertificates property [Security], SignerCertificates property [Security], IX509CertificateRequestCmc interface, certenroll/IX509CertificateRequestCmc::SignerCertificates, certenroll/IX509CertificateRequestCmc::get_SignerCertificates, get_SignerCertificates,IX509CertificateRequestCmc.get_SignerCertificates, security.ix509certificaterequestcmc_signercertificates_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

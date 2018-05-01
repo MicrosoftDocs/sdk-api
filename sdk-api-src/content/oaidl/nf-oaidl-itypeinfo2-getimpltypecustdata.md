@@ -7,7 +7,7 @@ old-location: automat\itypeinfo2_getimpltypecustdata.htm
 old-project: automat
 ms.assetid: 1cb30f35-8ef0-482a-bd1f-83445c97fb1f
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: GetImplTypeCustData method [Automation], GetImplTypeCustData method [Automation], ITypeInfo2 interface, GetImplTypeCustData,ITypeInfo2.GetImplTypeCustData, ITypeInfo2, ITypeInfo2 interface [Automation], GetImplTypeCustData method, ITypeInfo2::GetImplTypeCustData, _oa96_ITypeInfo2_GetImplTypeCustData, automat.itypeinfo2_getimpltypecustdata, oaidl/ITypeInfo2::GetImplTypeCustData
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITypeInfo2::GetImplTypeCustData method

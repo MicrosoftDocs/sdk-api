@@ -60,6 +60,11 @@ Describes parameters to be used when changing a partition's type.
 
 
 
+### -field style
+
+A value from the <a href="https://msdn.microsoft.com/31b7f0b3-cc3c-48e7-a4f0-628f0185f3cb">VDS_PARTITION_STYLE</a> enumeration that describes the disk's partition style.
+
+
 ### -field MbrPartInfo
 
 Contains information for a Master Boot Record partition.
@@ -81,11 +86,6 @@ Contains information for a GUID Partitioning Table partition.
 
 <div class="alert"><b>Note</b>  Only the basic data partition type is allowed.</div>
 <div> </div>
-
-### -field style
-
-A value from the <a href="https://msdn.microsoft.com/31b7f0b3-cc3c-48e7-a4f0-628f0185f3cb">VDS_PARTITION_STYLE</a> enumeration that describes the disk's partition style.
-
 
 ## -remarks
 

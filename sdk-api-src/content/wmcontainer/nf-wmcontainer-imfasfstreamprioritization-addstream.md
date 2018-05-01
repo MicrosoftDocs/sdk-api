@@ -7,7 +7,7 @@ old-location: mf\imfasfstreamprioritization_addstream.htm
 old-project: medfound
 ms.assetid: 440d2838-0314-45f7-b73b-653fe5535c88
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 440d2838-0314-45f7-b73b-653fe5535c88, AddStream method [Media Foundation], AddStream method [Media Foundation], IMFASFStreamPrioritization interface, AddStream,IMFASFStreamPrioritization.AddStream, IMFASFStreamPrioritization, IMFASFStreamPrioritization interface [Media Foundation], AddStream method, IMFASFStreamPrioritization::AddStream, mf.imfasfstreamprioritization_addstream, wmcontainer/IMFASFStreamPrioritization::AddStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

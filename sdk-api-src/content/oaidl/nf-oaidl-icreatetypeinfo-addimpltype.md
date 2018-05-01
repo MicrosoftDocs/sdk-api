@@ -7,7 +7,7 @@ old-location: automat\icreatetypeinfo_addimpltype.htm
 old-project: automat
 ms.assetid: fef8421f-67de-402b-8efd-7a104c84ca6e
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: AddImplType method [Automation], AddImplType method [Automation], ICreateTypeInfo interface, AddImplType,ICreateTypeInfo.AddImplType, ICreateTypeInfo, ICreateTypeInfo interface [Automation], AddImplType method, ICreateTypeInfo::AddImplType, _oa96_ICreateTypeInfo_AddImplType, automat.icreatetypeinfo_addimpltype, oaidl/ICreateTypeInfo::AddImplType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ICreateTypeInfo::AddImplType method

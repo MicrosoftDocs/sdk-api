@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmmutablecollection.htm
 old-project: Fsrm
 ms.assetid: e41f01ef-5dd2-4066-82cd-45b57578c9bb
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: IFsrmMutableCollection, IFsrmMutableCollection interface [File Server Resource Manager], IFsrmMutableCollection interface [File Server Resource Manager], described, fs.ifsrmmutablecollection, fsrm.ifsrmmutablecollection, fsrm/IFsrmMutableCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices

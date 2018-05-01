@@ -7,7 +7,7 @@ old-location: shell\SYNCMGR_SYNC_CONTROL_FLAGS.htm
 old-project: shell
 ms.assetid: 2191c105-788d-434e-a3c1-4f7b7dc543c4
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: SYNCMGR_SCF_IGNORE_IF_ALREADY_SYNCING, SYNCMGR_SCF_NONE, SYNCMGR_SCF_VALID, SYNCMGR_SYNC_CONTROL_FLAGS, SYNCMGR_SYNC_CONTROL_FLAGS enumeration [Windows Shell], _shell_SYNCMGR_SYNC_CONTROL_FLAGS, shell.SYNCMGR_SYNC_CONTROL_FLAGS, syncmgr/SYNCMGR_SCF_IGNORE_IF_ALREADY_SYNCING, syncmgr/SYNCMGR_SCF_NONE, syncmgr/SYNCMGR_SCF_VALID, syncmgr/SYNCMGR_SYNC_CONTROL_FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices

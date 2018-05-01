@@ -7,7 +7,7 @@ old-location: cos\ieventsystem.htm
 old-project: cossdk
 ms.assetid: 29b3e552-b717-4d10-9fa4-1386da3c5460
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: IEventSystem, IEventSystem interface [COM+], IEventSystem interface [COM+], described, _cos_IEventSystem, cos.ieventsystem, eventsys/IEventSystem
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: com\ienumguid_next.htm
 old-project: com
 ms.assetid: d32e02c7-1109-40cc-bf36-d224fa59fe20
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IEnumGUID, IEnumGUID interface [COM], Next method, IEnumGUID::Next, Next method [COM], Next method [COM], IEnumGUID interface, Next,IEnumGUID.Next, _com_ienumguid_next, com.ienumguid_next, comcat/IEnumGUID::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tapi3\cmspcallbase_mspcallrelease.htm
 old-project: Tapi
 ms.assetid: 662361f2-ce0c-4c07-88c1-30393a236bf6
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: CMSPCallBase, CMSPCallBase interface [TAPI 2.2], MSPCallRelease method, CMSPCallBase::MSPCallRelease, MSPCallRelease method [TAPI 2.2], MSPCallRelease method [TAPI 2.2], CMSPCallBase interface, MSPCallRelease,CMSPCallBase.MSPCallRelease, _tapi3_cmspcallbase_mspcallrelease, mspcall/CMSPCallBase::MSPCallRelease, tapi3.cmspcallbase_mspcallrelease
 ms.prod: windows-hardware
 ms.technology: windows-devices

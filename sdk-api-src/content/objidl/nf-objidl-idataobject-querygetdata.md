@@ -7,7 +7,7 @@ old-location: com\idataobject_querygetdata.htm
 old-project: com
 ms.assetid: 38a1bb4f-7762-4e74-a386-4ae05e59d15f
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IDataObject, IDataObject interface [COM], QueryGetData method, IDataObject::QueryGetData, QueryGetData method [COM], QueryGetData method [COM], IDataObject interface, QueryGetData,IDataObject.QueryGetData, _ole_idataobject_querygetdata, com.idataobject_querygetdata, objidl/IDataObject::QueryGetData
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IDataObject::QueryGetData method

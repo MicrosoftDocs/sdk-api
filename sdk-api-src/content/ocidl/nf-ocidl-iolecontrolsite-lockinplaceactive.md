@@ -7,7 +7,7 @@ old-location: com\iolecontrolsite_lockinplaceactive.htm
 old-project: com
 ms.assetid: abd9a6c6-1551-4423-b1d6-f735159f6df4
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IOleControlSite, IOleControlSite interface [COM], LockInPlaceActive method, IOleControlSite::LockInPlaceActive, LockInPlaceActive method [COM], LockInPlaceActive method [COM], IOleControlSite interface, LockInPlaceActive,IOleControlSite.LockInPlaceActive, _ctrl_iolecontrolsite_lockinplaceactive, com.iolecontrolsite_lockinplaceactive, ocidl/IOleControlSite::LockInPlaceActive
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IOleControlSite::LockInPlaceActive method

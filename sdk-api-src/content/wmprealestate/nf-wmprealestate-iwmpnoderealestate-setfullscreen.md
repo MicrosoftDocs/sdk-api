@@ -7,7 +7,7 @@ old-location: wmp\iwmpnoderealestate_setfullscreen.htm
 old-project: WMP
 ms.assetid: 63d3363d-3104-4760-b185-fd75547a53ec
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPNodeRealEstate, IWMPNodeRealEstate interface [Windows Media Player], SetFullScreen method, IWMPNodeRealEstate::SetFullScreen, IWMPNodeRealEstateSetFullScreenRendering, SetFullScreen method [Windows Media Player], SetFullScreen method [Windows Media Player], IWMPNodeRealEstate interface, SetFullScreen,IWMPNodeRealEstate.SetFullScreen, wmp.iwmpnoderealestate_setfullscreen, wmprealestate/IWMPNodeRealEstate::SetFullScreen
 ms.prod: windows-hardware
 ms.technology: windows-devices

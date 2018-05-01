@@ -7,7 +7,7 @@ old-location: tapi3\itdirectoryobjectconference_get_isencrypted.htm
 old-project: Tapi
 ms.assetid: a3228efa-2501-44ec-ba85-0e3b7c00b483
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: ITDirectoryObjectConference, ITDirectoryObjectConference interface [TAPI 2.2], get_IsEncrypted method, ITDirectoryObjectConference::get_IsEncrypted, _tapi3_itdirectoryobjectconference_get_isencrypted, get_IsEncrypted method [TAPI 2.2], get_IsEncrypted method [TAPI 2.2], ITDirectoryObjectConference interface, get_IsEncrypted,ITDirectoryObjectConference.get_IsEncrypted, rend/ITDirectoryObjectConference::get_IsEncrypted, tapi3.itdirectoryobjectconference_get_isencrypted
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Rend.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITDirectoryObjectConference::get_IsEncrypted method

@@ -7,7 +7,7 @@ old-location: tapi3\itdirectory_get_isdynamic.htm
 old-project: Tapi
 ms.assetid: 4260ad95-d684-44e4-877f-fcdbe4fe0fd7
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: ITDirectory, ITDirectory interface [TAPI 2.2], get_IsDynamic method, ITDirectory::get_IsDynamic, _tapi3_itdirectory_get_isdynamic, get_IsDynamic method [TAPI 2.2], get_IsDynamic method [TAPI 2.2], ITDirectory interface, get_IsDynamic,ITDirectory.get_IsDynamic, rend/ITDirectory::get_IsDynamic, tapi3.itdirectory_get_isdynamic
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Rend.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITDirectory::get_IsDynamic method

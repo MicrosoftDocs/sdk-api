@@ -7,7 +7,7 @@ old-location: coreaudio\ispatialaudiometadatacopier_open.htm
 old-project: CoreAudio
 ms.assetid: F2D077EF-89B0-4BD6-85FB-F0AF63F1986D
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: ISpatialAudioMetadataCopier, ISpatialAudioMetadataCopier interface [Core Audio], Open method, ISpatialAudioMetadataCopier::Open, Open method [Core Audio], Open method [Core Audio], ISpatialAudioMetadataCopier interface, Open,ISpatialAudioMetadataCopier.Open, coreaudio.ispatialaudiometadatacopier_open, spatialaudiometadata/ISpatialAudioMetadataCopier::Open
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: com\ipropertypage_move.htm
 old-project: com
 ms.assetid: 305857c2-cb3a-4a56-9db3-b986b278bd02
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IPropertyPage, IPropertyPage interface [COM], Move method, IPropertyPage::Move, Move method [COM], Move method [COM], IPropertyPage interface, Move,IPropertyPage.Move, _ctrl_ipropertypage_move, com.ipropertypage_move, ocidl/IPropertyPage::Move
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IPropertyPage::Move method

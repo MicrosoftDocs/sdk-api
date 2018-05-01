@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxjobs_get_count.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_33zo.htm
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/18/2018
 ms.keywords: IFaxJobs, IFaxJobs interface [Fax Service], get_Count method, IFaxJobs::get_Count, _mfax_ifaxjobs_get_count, fax._mfax_ifaxjobs_get_count, faxcom/IFaxJobs::get_Count, get_Count method [Fax Service], get_Count method [Fax Service], IFaxJobs interface, get_Count,IFaxJobs.get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices

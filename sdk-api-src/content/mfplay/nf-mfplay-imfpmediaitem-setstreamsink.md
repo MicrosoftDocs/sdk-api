@@ -7,7 +7,7 @@ old-location: mf\imfpmediaitem_setstreamsink.htm
 old-project: medfound
 ms.assetid: 97ed9cc0-5f69-4ecb-98c7-c58130b91d7c
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFPMediaItem, IMFPMediaItem interface [Media Foundation], SetStreamSink method, IMFPMediaItem::SetStreamSink, SetStreamSink method [Media Foundation], SetStreamSink method [Media Foundation], IMFPMediaItem interface, SetStreamSink,IMFPMediaItem.SetStreamSink, mf.imfpmediaitem_setstreamsink, mfplay/IMFPMediaItem::SetStreamSink
 ms.prod: windows-hardware
 ms.technology: windows-devices

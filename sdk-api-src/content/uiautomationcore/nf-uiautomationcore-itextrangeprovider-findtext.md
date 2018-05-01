@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ITextRangeProvider_FindText.htm
 old-project: WinAuto
 ms.assetid: 6012bc1e-5c1c-4874-ba2b-5e16eaf21f1d
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: FindText method [Windows Accessibility], FindText method [Windows Accessibility], ITextRangeProvider interface, FindText,ITextRangeProvider.FindText, ITextRangeProvider, ITextRangeProvider interface [Windows Accessibility], FindText method, ITextRangeProvider::FindText, uiauto.uiauto_ITextRangeProvider_FindText, uiauto_ITextRangeProvider_FindText, uiautomationcore/ITextRangeProvider::FindText, winauto.uiauto_ITextRangeProvider_FindText
 ms.prod: windows-hardware
 ms.technology: windows-devices

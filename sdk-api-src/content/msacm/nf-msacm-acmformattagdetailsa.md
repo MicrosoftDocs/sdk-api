@@ -7,7 +7,7 @@ old-location: multimedia\acmformattagdetails.htm
 old-project: Multimedia
 ms.assetid: 294d9e8b-de47-4ebe-8989-558469ba1356
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/25/2018
 ms.keywords: "_win32_acmFormatTagDetails, acmFormatTagDetails, acmFormatTagDetails function [Windows Multimedia], acmFormatTagDetailsA, acmFormatTagDetailsW, msacm/acmFormatTagDetails, msacm/acmFormatTagDetailsA, msacm/acmFormatTagDetailsW, multimedia.acmformattagdetails"
 ms.prod: windows-hardware
 ms.technology: windows-devices

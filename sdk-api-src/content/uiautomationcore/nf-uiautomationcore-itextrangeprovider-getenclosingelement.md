@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ITextRangeProvider_GetEnclosingElement.htm
 old-project: WinAuto
 ms.assetid: 51615c53-3239-41d6-895b-dbda68b6b4db
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: GetEnclosingElement method [Windows Accessibility], GetEnclosingElement method [Windows Accessibility], ITextRangeProvider interface, GetEnclosingElement,ITextRangeProvider.GetEnclosingElement, ITextRangeProvider, ITextRangeProvider interface [Windows Accessibility], GetEnclosingElement method, ITextRangeProvider::GetEnclosingElement, uiauto.uiauto_ITextRangeProvider_GetEnclosingElement, uiauto_ITextRangeProvider_GetEnclosingElement, uiautomationcore/ITextRangeProvider::GetEnclosingElement, winauto.uiauto_ITextRangeProvider_GetEnclosingElement
 ms.prod: windows-hardware
 ms.technology: windows-devices

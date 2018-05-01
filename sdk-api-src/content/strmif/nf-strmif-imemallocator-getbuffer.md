@@ -7,7 +7,7 @@ old-location: dshow\imemallocator_getbuffer.htm
 old-project: DirectShow
 ms.assetid: a5d015c8-ef15-4bac-906f-5d064fbff11f
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetBuffer method [DirectShow], GetBuffer method [DirectShow], IMemAllocator interface, GetBuffer,IMemAllocator.GetBuffer, IMemAllocator, IMemAllocator interface [DirectShow], GetBuffer method, IMemAllocator::GetBuffer, IMemAllocatorGetBuffer, dshow.imemallocator_getbuffer, strmif/IMemAllocator::GetBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

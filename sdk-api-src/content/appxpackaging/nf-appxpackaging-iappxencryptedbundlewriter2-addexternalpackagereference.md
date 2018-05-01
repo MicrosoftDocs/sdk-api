@@ -7,7 +7,7 @@ old-location: appxpkg\iappxencryptedbundlewriter2_addexternalpackagereference.ht
 old-project: appxpkg
 ms.assetid: F1572E99-17C0-4239-9F95-47880CC50C64
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/26/2018
 ms.keywords: AddExternalPackageReference method [App packaging and management], AddExternalPackageReference method [App packaging and management], IAppxEncryptedBundleWriter2 interface, AddExternalPackageReference,IAppxEncryptedBundleWriter2.AddExternalPackageReference, IAppxEncryptedBundleWriter2, IAppxEncryptedBundleWriter2 interface [App packaging and management], AddExternalPackageReference method, IAppxEncryptedBundleWriter2::AddExternalPackageReference, appxpackaging/IAppxEncryptedBundleWriter2::AddExternalPackageReference, appxpkg.iappxencryptedbundlewriter2_addexternalpackagereference
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_ARCHITECTURE2
+req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
 topic_type:
 -	APIRef
 -	kbSyntax

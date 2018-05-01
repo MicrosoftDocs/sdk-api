@@ -7,7 +7,7 @@ old-location: dshow\iamstreamconfig.htm
 old-project: DirectShow
 ms.assetid: c171763e-9108-49a0-a4b7-855c6db0a71d
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMStreamConfig, IAMStreamConfig interface [DirectShow], IAMStreamConfig interface [DirectShow], described, IAMStreamConfigInterface, dshow.iamstreamconfig, strmif/IAMStreamConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_iasetinputlayout.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_iasetinputlayout.htm
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: 5492ac19-1f40-6d42-38a5-490e297331f0, IASetInputLayout method [Direct3D 10], IASetInputLayout method [Direct3D 10], ID3D10Device interface, IASetInputLayout,ID3D10Device.IASetInputLayout, ID3D10Device, ID3D10Device interface [Direct3D 10], IASetInputLayout method, ID3D10Device::IASetInputLayout, d3d10/ID3D10Device::IASetInputLayout, direct3d10.id3d10device_iasetinputlayout
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmp\iwmpevents_iwmpevents__playerdockedstatechange.htm
 old-project: WMP
 ms.assetid: 6fbe545a-2130-4cda-a663-6103d938aef4
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPEvents, IWMPEvents interface [Windows Media Player], PlayerDockedStateChange method, IWMPEvents::PlayerDockedStateChange, IWMPEventsPlayerDockedStateChange, PlayerDockedStateChange method [Windows Media Player], PlayerDockedStateChange method [Windows Media Player], IWMPEvents interface, PlayerDockedStateChange,IWMPEvents.PlayerDockedStateChange, wmp.iwmpevents_iwmpevents__playerdockedstatechange, wmp/IWMPEvents::PlayerDockedStateChange
 ms.prod: windows-hardware
 ms.technology: windows-devices

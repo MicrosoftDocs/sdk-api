@@ -7,7 +7,7 @@ old-location: properties\IPropertySystem_UnregisterPropertySchema.htm
 old-project: properties
 ms.assetid: de81e174-9c32-455f-a7ba-a3d1b2223b84
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/5/2018
 ms.keywords: IPropertySystem, IPropertySystem interface [Windows Properties], UnregisterPropertySchema method, IPropertySystem::UnregisterPropertySchema, UnregisterPropertySchema method [Windows Properties], UnregisterPropertySchema method [Windows Properties], IPropertySystem interface, UnregisterPropertySchema,IPropertySystem.UnregisterPropertySchema, properties.IPropertySystem_UnregisterPropertySchema, propsys/IPropertySystem::UnregisterPropertySchema, shell.IPropertySystem_UnregisterPropertySchema, shell_IPropertySystem_UnregisterPropertySchema
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Propsys.dll (version 5.0 or later)
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IPropertySystem::UnregisterPropertySchema method

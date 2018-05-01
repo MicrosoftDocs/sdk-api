@@ -7,7 +7,7 @@ old-location: winsock\group_req.htm
 old-project: WinSock
 ms.assetid: 053cf2c3-4f31-4f1e-be5c-d857e74d9465
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/24/2018
 ms.keywords: "*PGROUP_REQ, GROUP_REQ, GROUP_REQ structure [Winsock], PGROUP_REQ, PGROUP_REQ structure pointer [Winsock], group_req, winsock.group_req, ws2ipdef/GROUP_REQ, ws2ipdef/PGROUP_REQ"
 ms.prod: windows-hardware
 ms.technology: windows-devices

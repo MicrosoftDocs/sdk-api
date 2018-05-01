@@ -7,7 +7,7 @@ old-location: wmformat\iwmregistereddevice_getdevicecertificate.htm
 old-project: wmformat
 ms.assetid: 80313abc-2212-4b1a-9d4e-9f3015370ea7
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: GetDeviceCertificate method [windows Media Format], GetDeviceCertificate method [windows Media Format], IWMRegisteredDevice interface, GetDeviceCertificate,IWMRegisteredDevice.GetDeviceCertificate, IWMRegisteredDevice, IWMRegisteredDevice interface [windows Media Format], GetDeviceCertificate method, IWMRegisteredDevice::GetDeviceCertificate, IWMRegisteredDeviceGetDeviceCertificate, wmformat.iwmregistereddevice_getdevicecertificate, wmsdkidl/IWMRegisteredDevice::GetDeviceCertificate
 ms.prod: windows-hardware
 ms.technology: windows-devices

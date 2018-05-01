@@ -7,7 +7,7 @@ old-location: base\interlockedpushentryslist.htm
 old-project: Sync
 ms.assetid: 60e3b6f7-f556-4699-be90-db7330cfb8ca
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: InterlockedPushEntrySList, InterlockedPushEntrySList function, _win32_interlockedpushentryslist, base.interlockedpushentryslist, interlockedapi/InterlockedPushEntrySList, winbase/InterlockedPushEntrySList
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: xaudio2\ixaudio2_interface_createsourcevoice.htm
 old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2.IXAudio2.CreateSourceVoice(IXAudio2SourceVoice@,const WAVEFORMATEX,UINT32,float,IXAudio2VoiceCallback,const XAUDIO2_VOICE_SENDS,const XAUDIO2_EFFECT_CHAIN)
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/20/2018
 ms.keywords: CreateSourceVoice method [XAudio2 Audio Mixing APIs], CreateSourceVoice method [XAudio2 Audio Mixing APIs], IXAudio2 interface, CreateSourceVoice,IXAudio2.CreateSourceVoice, IXAudio2, IXAudio2 interface [XAudio2 Audio Mixing APIs], CreateSourceVoice method, IXAudio2::CreateSourceVoice, xaudio2.ixaudio2_interface_createsourcevoice, xaudio2/IXAudio2::CreateSourceVoice
 ms.prod: windows-hardware
 ms.technology: windows-devices

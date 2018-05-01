@@ -7,7 +7,7 @@ old-location: wmi\iwbemeventprovidersecurity_accesscheck.htm
 old-project: WmiSdk
 ms.assetid: 9c5cf37f-f43f-46c7-a5b4-1537aead158e
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: AccessCheck method [Windows Management Instrumentation], AccessCheck method [Windows Management Instrumentation], IWbemEventProviderSecurity interface, AccessCheck,IWbemEventProviderSecurity.AccessCheck, IWbemEventProviderSecurity, IWbemEventProviderSecurity interface [Windows Management Instrumentation], AccessCheck method, IWbemEventProviderSecurity::AccessCheck, _hmm_iwbemeventprovidersecurity_accesscheck, wbemprov/IWbemEventProviderSecurity::AccessCheck, wmi.iwbemeventprovidersecurity_accesscheck
 ms.prod: windows-hardware
 ms.technology: windows-devices

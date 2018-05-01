@@ -1,14 +1,14 @@
 ---
 UID: NS:windns.__unnamed_struct_30
-title: DNS_SRV_DATAA
+title: DNS_SRV_DATAW
 author: windows-driver-content
 description: The DNS_SRV_DATA structure represents a DNS service (SRV) record as specified in RFC 2782.
 old-location: dns\dns_srv_data.htm
 old-project: DNS
 ms.assetid: 212db7ac-a5e3-4e58-b1c2-0eb551403dfc
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
-ms.keywords: "*PDNS_SRV_DATA, *PDNS_SRV_DATAA, DNS_SRV_DATA, DNS_SRV_DATA structure [DNS], DNS_SRV_DATAA, PDNS_SRV_DATA, PDNS_SRV_DATA structure pointer [DNS], _dns_dns_srv_data, dns.dns_srv_data, windns/DNS_SRV_DATA, windns/PDNS_SRV_DATA"
+ms.date: 4/18/2018
+ms.keywords: "*PDNS_SRV_DATA, *PDNS_SRV_DATAW, DNS_SRV_DATA, DNS_SRV_DATA structure [DNS], DNS_SRV_DATAW, PDNS_SRV_DATA, PDNS_SRV_DATA structure pointer [DNS], _dns_dns_srv_data, dns.dns_srv_data, windns/DNS_SRV_DATA, windns/PDNS_SRV_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: DNS_SRV_DATAA, *PDNS_SRV_DATAA
+req.typenames: DNS_SRV_DATAW, *PDNS_SRV_DATAW
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# DNS_SRV_DATAA structure
+# DNS_SRV_DATAW structure
 
 
 ## -description

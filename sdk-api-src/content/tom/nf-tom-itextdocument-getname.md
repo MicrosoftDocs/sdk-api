@@ -7,7 +7,7 @@ old-location: controls\ITextDocument_GetName.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextdocument\itextdocumentgetname.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: GetName method [Windows Controls], GetName method [Windows Controls], ITextDocument interface, GetName,ITextDocument.GetName, ITextDocument, ITextDocument interface [Windows Controls], GetName method, ITextDocument::GetName, _win32_ITextDocument_GetName, _win32_ITextDocument_GetName_cpp, controls.ITextDocument_GetName, controls._win32_ITextDocument_GetName, tom/ITextDocument::GetName
 ms.prod: windows-hardware
 ms.technology: windows-devices

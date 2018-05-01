@@ -7,7 +7,7 @@ old-location: winprog\ieditionupgradehelper_updateoperatingsystem.htm
 old-project: DevNotes
 ms.assetid: C7A97C7E-654D-4717-975F-41B05F3BE901
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/13/2018
 ms.keywords: IEditionUpgradeHelper, IEditionUpgradeHelper interface [Windows API], UpdateOperatingSystem method, IEditionUpgradeHelper::UpdateOperatingSystem, UpdateOperatingSystem method [Windows API], UpdateOperatingSystem method [Windows API], IEditionUpgradeHelper interface, UpdateOperatingSystem,IEditionUpgradeHelper.UpdateOperatingSystem, editionupgradehelper/IEditionUpgradeHelper::UpdateOperatingSystem, winprog.ieditionupgradehelper_updateoperatingsystem
 ms.prod: windows-hardware
 ms.technology: windows-devices

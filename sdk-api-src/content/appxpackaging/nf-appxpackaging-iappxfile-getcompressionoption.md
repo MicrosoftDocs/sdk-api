@@ -7,7 +7,7 @@ old-location: appxpkg\iappxfile_getcompressionoption.htm
 old-project: appxpkg
 ms.assetid: E2F33ED4-EAD3-44AE-B646-3AB875FA7606
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/26/2018
 ms.keywords: GetCompressionOption method [App packaging and management], GetCompressionOption method [App packaging and management], IAppxFile interface, GetCompressionOption,IAppxFile.GetCompressionOption, IAppxFile, IAppxFile interface [App packaging and management], GetCompressionOption method, IAppxFile::GetCompressionOption, appxpackaging/IAppxFile::GetCompressionOption, appxpkg.iappxfile_getcompressionoption
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_ARCHITECTURE2
+req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
 topic_type:
 -	APIRef
 -	kbSyntax

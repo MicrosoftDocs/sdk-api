@@ -7,7 +7,7 @@ old-location: com\ioleobject_getextent.htm
 old-project: com
 ms.assetid: babaf55e-6c43-48d8-ad13-1333e29a3e1d
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: GetExtent method [COM], GetExtent method [COM], IOleObject interface, GetExtent,IOleObject.GetExtent, IOleObject, IOleObject interface [COM], GetExtent method, IOleObject::GetExtent, _ole_ioleobject_getextent, com.ioleobject_getextent, oleidl/IOleObject::GetExtent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IOleObject::GetExtent method

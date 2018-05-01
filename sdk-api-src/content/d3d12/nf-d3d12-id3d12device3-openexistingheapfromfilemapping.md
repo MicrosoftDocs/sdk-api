@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device3_openexistingheapfromfilemapping.htm
 old-project: direct3d12
 ms.assetid: 0F4B3FC8-59D6-423E-87FB-154234DC8C9D
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: CreatePipelineStateOpenExistingHeapFromFileMapping method, CreatePipelineStateOpenExistingHeapFromFileMapping method, Id3d12device3 interface, ID3D12Device3, ID3D12Device3::OpenExistingHeapFromFileMapping, Id3d12device3 interface, CreatePipelineStateOpenExistingHeapFromFileMapping method, Id3d12device3::CreatePipelineStateOpenExistingHeapFromFileMapping, OpenExistingHeapFromFileMapping,ID3D12Device3.OpenExistingHeapFromFileMapping, d3d12/Id3d12device3::CreatePipelineStateOpenExistingHeapFromFileMapping, direct3d12.id3d12device3_openexistingheapfromfilemapping
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: upnp\iupnpserviceasync_cancelasyncoperation.htm
 old-project: UPnP
 ms.assetid: FBEC2DF3-6D45-49F2-AAA8-6DED697BC5A6
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/25/2018
 ms.keywords: CancelAsyncOperation method [UPnP APIs], CancelAsyncOperation method [UPnP APIs], IUPnPServiceAsync interface, CancelAsyncOperation,IUPnPServiceAsync.CancelAsyncOperation, IUPnPServiceAsync, IUPnPServiceAsync interface [UPnP APIs], CancelAsyncOperation method, IUPnPServiceAsync::CancelAsyncOperation, upnp.iupnpserviceasync_cancelasyncoperation, upnp/IUPnPServiceAsync::CancelAsyncOperation
 ms.prod: windows-hardware
 ms.technology: windows-devices

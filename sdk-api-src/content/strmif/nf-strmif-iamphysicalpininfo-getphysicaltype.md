@@ -7,7 +7,7 @@ old-location: dshow\iamphysicalpininfo_getphysicaltype.htm
 old-project: DirectShow
 ms.assetid: e18be591-64c7-4da0-aa28-c51dca7901b7
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetPhysicalType method [DirectShow], GetPhysicalType method [DirectShow], IAMPhysicalPinInfo interface, GetPhysicalType,IAMPhysicalPinInfo.GetPhysicalType, IAMPhysicalPinInfo, IAMPhysicalPinInfo interface [DirectShow], GetPhysicalType method, IAMPhysicalPinInfo::GetPhysicalType, IAMPhysicalPinInfoGetPhysicalType, dshow.iamphysicalpininfo_getphysicaltype, strmif/IAMPhysicalPinInfo::GetPhysicalType
 ms.prod: windows-hardware
 ms.technology: windows-devices

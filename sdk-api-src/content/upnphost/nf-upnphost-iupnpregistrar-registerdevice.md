@@ -7,7 +7,7 @@ old-location: upnp\iupnpregistrar_registerdevice.htm
 old-project: UPnP
 ms.assetid: 1bb99a42-143b-495a-8b02-efa7ca1d4d29
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/25/2018
 ms.keywords: IUPnPRegistrar, IUPnPRegistrar interface [UPnP APIs], RegisterDevice method, IUPnPRegistrar::RegisterDevice, RegisterDevice method [UPnP APIs], RegisterDevice method [UPnP APIs], IUPnPRegistrar interface, RegisterDevice,IUPnPRegistrar.RegisterDevice, _upnp_iupnpregistrar_registerdevice, upnp.iupnpregistrar_registerdevice, upnphost/IUPnPRegistrar::RegisterDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices

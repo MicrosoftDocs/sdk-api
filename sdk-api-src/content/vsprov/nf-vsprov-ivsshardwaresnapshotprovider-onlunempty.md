@@ -7,7 +7,7 @@ old-location: base\ivsshardwaresnapshotprovider_onlunempty.htm
 old-project: VSS
 ms.assetid: 06a31704-9031-4ab9-84eb-685f6b648d27
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: IVssHardwareSnapshotProvider, IVssHardwareSnapshotProvider interface [VSS], OnLunEmpty method, IVssHardwareSnapshotProvider::OnLunEmpty, OnLunEmpty method [VSS], OnLunEmpty method [VSS], IVssHardwareSnapshotProvider interface, OnLunEmpty,IVssHardwareSnapshotProvider.OnLunEmpty, base.ivsshardwaresnapshotprovider_onlunempty, vsprov/IVssHardwareSnapshotProvider::OnLunEmpty
 ms.prod: windows-hardware
 ms.technology: windows-devices

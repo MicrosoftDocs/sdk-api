@@ -7,7 +7,7 @@ old-location: dshow\imediaparaminfo_getsupportedtimeformat.htm
 old-project: DirectShow
 ms.assetid: 04e4c9ea-4570-4fd0-986b-c835c692b73b
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetSupportedTimeFormat method [DirectShow], GetSupportedTimeFormat method [DirectShow], IMediaParamInfo interface, GetSupportedTimeFormat,IMediaParamInfo.GetSupportedTimeFormat, IMediaParamInfo, IMediaParamInfo interface [DirectShow], GetSupportedTimeFormat method, IMediaParamInfo::GetSupportedTimeFormat, IMediaParamInfoGetSupportedTimeFormat, dshow.imediaparaminfo_getsupportedtimeformat, medparam/IMediaParamInfo::GetSupportedTimeFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices

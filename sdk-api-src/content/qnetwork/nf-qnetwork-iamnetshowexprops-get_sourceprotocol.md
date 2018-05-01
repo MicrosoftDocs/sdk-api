@@ -7,7 +7,7 @@ old-location: dshow\iamnetshowexprops_get_sourceprotocol.htm
 old-project: DirectShow
 ms.assetid: 498e81fc-90d3-4a24-b672-c7c62b3bfd39
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMNetShowExProps, IAMNetShowExProps interface [DirectShow], get_SourceProtocol method, IAMNetShowExProps::get_SourceProtocol, IAMNetShowExPropsget_SourceProtocol, dshow.iamnetshowexprops_get_sourceprotocol, get_SourceProtocol method [DirectShow], get_SourceProtocol method [DirectShow], IAMNetShowExProps interface, get_SourceProtocol,IAMNetShowExProps.get_SourceProtocol, qnetwork/IAMNetShowExProps::get_SourceProtocol
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IAMNetShowExProps::get_SourceProtocol method

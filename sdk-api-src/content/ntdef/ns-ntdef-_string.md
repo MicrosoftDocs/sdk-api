@@ -1,0 +1,126 @@
+---
+UID: NS:ntdef._STRING
+title: "_STRING"
+author: windows-driver-content
+description: The ANSI_STRING structure defines a counted string used for ANSI strings.
+old-location: kernel\ansi_string.htm
+old-project: kernel
+ms.assetid: 80bd569a-ed6f-4227-9d14-c011623678a0
+ms.author: windowsdriverdev
+ms.date: 4/5/2018
+ms.keywords: "*PSTRING, ANSI_STRING, ANSI_STRING structure [Kernel-Mode Driver Architecture], CANSI_STRING, OEM_STRING, PANSI_STRING, PANSI_STRING structure pointer [Kernel-Mode Driver Architecture], STRING, _STRING, kernel.ansi_string, kstruct_a_0b84d0be-6b91-48b6-87cf-2fd99f043bc4.xml, ntdef/ANSI_STRING, ntdef/PANSI_STRING"
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: struct
+req.header: ntdef.h
+req.include-header: Wdm.h, Ntddk.h
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: STRING
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ntdef.h
+api_name:
+-	ANSI_STRING
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: Any level
+req.product: Compute Cluster Pack Client Utilities
+---
+
+# _STRING structure
+
+
+## -description
+
+
+The <b>ANSI_STRING</b> structure defines a counted string used for ANSI strings.
+
+
+## -struct-fields
+
+
+
+
+### -field Length
+
+The length in bytes of the string stored in the buffer pointed to by <b>Buffer</b>.
+
+
+### -field MaximumLength
+
+The length in bytes of the buffer pointed to by <b>Buffer</b>. 
+
+
+### -field Buffer
+
+Pointer to a buffer used to contain a string of characters.
+
+
+## -remarks
+
+
+
+The <b>ANSI_STRING</b> structure is used to pass ANSI strings. Use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561918">RtlInitAnsiString</a> routine to initialize an <b>ANSI_STRING</b>.
+
+If the string is null-terminated, <b>Length</b> does not include the terminating <b>NULL</b>.
+
+The <b>MaximumLength</b> is used to indicate the length of <b>Buffer</b> so that if the string is passed to a conversion routine such as <a href="https://msdn.microsoft.com/library/windows/hardware/ff562969">RtlUnicodeStringToAnsiString</a> the returned string does not exceed the buffer size.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558741">OEM_STRING</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561725">RtlAnsiStringToUnicodeSize</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561729">RtlAnsiStringToUnicodeString</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561899">RtlFreeAnsiString</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561918">RtlInitAnsiString</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553248">RtlUnicodeStringToAnsiSize</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562969">RtlUnicodeStringToAnsiString</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
+ 
+
+ 
+

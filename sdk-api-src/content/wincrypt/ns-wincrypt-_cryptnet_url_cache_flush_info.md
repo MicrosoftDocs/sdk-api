@@ -7,7 +7,7 @@ old-location: security\cryptnet_url_cache_flush_info.htm
 old-project: SecCrypto
 ms.assetid: 68b52dbe-c521-4281-9a00-d91ee14dd697
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: "*PCRYPTNET_URL_CACHE_FLUSH_INFO, CRYPTNET_URL_CACHE_DEFAULT_FLUSH, CRYPTNET_URL_CACHE_DISABLE_FLUSH, CRYPTNET_URL_CACHE_FLUSH_INFO, CRYPTNET_URL_CACHE_FLUSH_INFO structure [Security], PCRYPTNET_URL_CACHE_FLUSH_INFO, PCRYPTNET_URL_CACHE_FLUSH_INFO structure pointer [Security], _CRYPTNET_URL_CACHE_FLUSH_INFO, security.cryptnet_url_cache_flush_info, wincrypt/CRYPTNET_URL_CACHE_FLUSH_INFO, wincrypt/PCRYPTNET_URL_CACHE_FLUSH_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -2,21 +2,21 @@
 UID: NF:intsafe.LongLongToULong
 title: LongLongToULong function
 author: windows-driver-content
-description: Converts a value of type LONGLONG to a value of type ULONG.
-old-location: shell\LongLongToULong.htm
+description: Converts a value of type DWORD to a value of type USHORT.
+old-location: shell\DWordToUShort.htm
 old-project: shell
-ms.assetid: b816c07a-d257-4c2c-b3a7-958c763111ca
+ms.assetid: d0b990d6-26e0-4a09-8f24-f7f13be68f32
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
-ms.keywords: LongLongToULong, LongLongToULong function [Windows Shell], intsafe/LongLongToULong, shell.LongLongToULong
+ms.date: 4/26/2018
+ms.keywords: DWordToUShort, DWordToUShort function [Windows Shell], LongLongToULong, _shell_DWordToUShort, intsafe/DWordToUShort, shell.DWordToUShort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 7 [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2008 R2 [desktop apps | UWP apps]
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -31,15 +31,15 @@ topic_type:
 -	APIRef
 -	kbSyntax
 api_type:
--	HeaderDef
+-	DllExport
 api_location:
--	intsafe.h
+-	None
 api_name:
--	LongLongToULong
+-	DWordToUShort
 product: Windows
 targetos: Windows
 req.lib: 
-req.dll: 
+req.dll: None
 req.irql: 
 req.product: GDI+ 1.1
 ---
@@ -50,7 +50,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Converts a value of type <b>LONGLONG</b> to a value of type <b>ULONG</b>.
+Converts a value of type <b>DWORD</b> to a value of type <b>USHORT</b>.
 
 
 ## -parameters
@@ -58,21 +58,48 @@ Converts a value of type <b>LONGLONG</b> to a value of type <b>ULONG</b>.
 
 
 
-### -param llOperand [in]
+### -param llOperand
 
-The value to convert.
+TBD
 
 
-### -param pulResult [out]
+### -param pulResult
 
-The converted value.
+TBD
+
+
+
+
+#### - dwOperand [in]
+
+Type: <b>DWORD</b>
+
+The value to be converted.
+
+
+#### - pusResult [out]
+
+Type: <b>USHORT*</b>
+
+A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns INTSAFE_E_ARITHMETIC_OVERFLOW and this parameter is not valid.
 
 
 ## -returns
 
 
 
+Type: <b>HRESULT</b>
+
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
 
 
 

@@ -7,7 +7,7 @@ old-location: fwp\fwpm_net_event_ikeext_em_failure0.htm
 old-project: FWP
 ms.assetid: 53b28166-8f19-4891-aeb0-603628d95053
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: FWPM_NET_EVENT_IKEEXT_EM_FAILURE0, FWPM_NET_EVENT_IKEEXT_EM_FAILURE0 structure [Filtering], FWPM_NET_EVENT_IKEEXT_EM_FAILURE0_, FWPM_NET_EVENT_IKEEXT_EM_FAILURE_FLAG_MULTIPLE, fwp.fwpm_net_event_ikeext_em_failure0, fwpmtypes/FWPM_NET_EVENT_IKEEXT_EM_FAILURE0
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\IBrowserService2__ResizeNextBorderHelper.htm
 old-project: shell
 ms.assetid: 850025c0-96a0-4b7b-aa87-18325b0aecab
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IBrowserService2, IBrowserService2 interface [Windows Shell], _ResizeNextBorderHelper method, IBrowserService2::_ResizeNextBorderHelper, _ResizeNextBorderHelper method [Windows Shell], _ResizeNextBorderHelper method [Windows Shell], IBrowserService2 interface, _ResizeNextBorderHelper,IBrowserService2._ResizeNextBorderHelper, shdeprecated/IBrowserService2::_ResizeNextBorderHelper, shell.IBrowserService2__ResizeNextBorderHelper, zone_IBrowserService2__ResizeNextBorderHelper
 ms.prod: windows-hardware
 ms.technology: windows-devices

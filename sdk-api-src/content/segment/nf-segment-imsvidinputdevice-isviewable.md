@@ -7,7 +7,7 @@ old-location: mstv\imsvidinputdevice_isviewable.htm
 old-project: mstv
 ms.assetid: 4f62bcc4-8c58-4663-9b1f-a5ed7d000a79
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidInputDevice, IMSVidInputDevice interface [Microsoft TV Technologies], IsViewable method, IMSVidInputDevice::IsViewable, IMSVidInputDeviceIsViewable, IsViewable method [Microsoft TV Technologies], IsViewable method [Microsoft TV Technologies], IMSVidInputDevice interface, IsViewable,IMSVidInputDevice.IsViewable, mstv.imsvidinputdevice_isviewable, segment/IMSVidInputDevice::IsViewable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidInputDevice::IsViewable method

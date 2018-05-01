@@ -7,7 +7,7 @@ old-location: security\icertificationauthorities_computesitecosts.htm
 old-project: SecCertEnroll
 ms.assetid: 8dae92da-e4b9-4512-b4f4-463b5a92a0d1
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: ComputeSiteCosts method [Security], ComputeSiteCosts method [Security], ICertificationAuthorities interface, ComputeSiteCosts,ICertificationAuthorities.ComputeSiteCosts, ICertificationAuthorities, ICertificationAuthorities interface [Security], ComputeSiteCosts method, ICertificationAuthorities::ComputeSiteCosts, certenroll/ICertificationAuthorities::ComputeSiteCosts, security.icertificationauthorities_computesitecosts
 ms.prod: windows-hardware
 ms.technology: windows-devices

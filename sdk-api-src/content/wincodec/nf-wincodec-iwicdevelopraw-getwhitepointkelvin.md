@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicdevelopraw_getwhitepointkelvin.htm
 old-project: wic
 ms.assetid: 9f649de0-6b53-4c67-b75d-73a44cc07c56
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: GetWhitePointKelvin method [Windows Imaging Component], GetWhitePointKelvin method [Windows Imaging Component], IWICDevelopRaw interface, GetWhitePointKelvin,IWICDevelopRaw.GetWhitePointKelvin, IWICDevelopRaw, IWICDevelopRaw interface [Windows Imaging Component], GetWhitePointKelvin method, IWICDevelopRaw::GetWhitePointKelvin, _wic_codec_iwicdevelopraw_getwhitepointkelvin, wic._wic_codec_iwicdevelopraw_getwhitepointkelvin, wincodec/IWICDevelopRaw::GetWhitePointKelvin
 ms.prod: windows-hardware
 ms.technology: windows-devices

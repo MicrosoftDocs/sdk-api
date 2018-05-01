@@ -7,7 +7,7 @@ old-location: base\ivssbackupcomponents_setrestorestate.htm
 old-project: VSS
 ms.assetid: bc85e93f-1034-41cc-bf69-025aa86a56fd
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: IVssBackupComponents, IVssBackupComponents interface [VSS], SetRestoreState method, IVssBackupComponents::SetRestoreState, SetRestoreState method [VSS], SetRestoreState method [VSS], IVssBackupComponents interface, SetRestoreState,IVssBackupComponents.SetRestoreState, _win32_ivssbackupcomponents_setrestorestate, base.ivssbackupcomponents_setrestorestate, vsbackup/IVssBackupComponents::SetRestoreState
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyjob_gettimes.htm
 old-project: Bits
 ms.assetid: acc29cc2-b437-4799-9cdb-388a60f117e9
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/10/2018
 ms.keywords: GetTimes method [BITS], GetTimes method [BITS], IBackgroundCopyJob interface, GetTimes,IBackgroundCopyJob.GetTimes, IBackgroundCopyJob, IBackgroundCopyJob interface [BITS], GetTimes method, IBackgroundCopyJob::GetTimes, _drz_ibackgroundcopyjob_gettimes, bits.ibackgroundcopyjob_gettimes, bits/IBackgroundCopyJob::GetTimes
 ms.prod: windows-hardware
 ms.technology: windows-devices

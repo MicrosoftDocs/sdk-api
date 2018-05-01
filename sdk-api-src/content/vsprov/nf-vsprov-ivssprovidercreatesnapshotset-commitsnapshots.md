@@ -7,7 +7,7 @@ old-location: base\ivssprovidercreatesnapshotset_commitsnapshots.htm
 old-project: VSS
 ms.assetid: 60489142-125f-4deb-afa0-9dae63ea1d46
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: CommitSnapshots method [VSS], CommitSnapshots method [VSS], IVssProviderCreateSnapshotSet interface, CommitSnapshots,IVssProviderCreateSnapshotSet.CommitSnapshots, IVssProviderCreateSnapshotSet, IVssProviderCreateSnapshotSet interface [VSS], CommitSnapshots method, IVssProviderCreateSnapshotSet::CommitSnapshots, base.ivssprovidercreatesnapshotset_commitsnapshots, vsprov/IVssProviderCreateSnapshotSet::CommitSnapshots
 ms.prod: windows-hardware
 ms.technology: windows-devices

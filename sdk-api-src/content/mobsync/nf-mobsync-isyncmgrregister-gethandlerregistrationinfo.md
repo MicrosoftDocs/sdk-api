@@ -7,7 +7,7 @@ old-location: shell\syncmgr_isyncmgrregister_gethandlerregistrationinfo.htm
 old-project: shell
 ms.assetid: 35241829-58b8-448a-ae69-1d43b4d0ba10
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetHandlerRegistrationInfo method [Windows Shell], GetHandlerRegistrationInfo method [Windows Shell], ISyncMgrRegister interface, GetHandlerRegistrationInfo,ISyncMgrRegister.GetHandlerRegistrationInfo, ISyncMgrRegister, ISyncMgrRegister interface [Windows Shell], GetHandlerRegistrationInfo method, ISyncMgrRegister::GetHandlerRegistrationInfo, mobsync/ISyncMgrRegister::GetHandlerRegistrationInfo, shell.syncmgr_isyncmgrregister_gethandlerregistrationinfo, syncmgr.isyncmgrregister_gethandlerregistrationinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

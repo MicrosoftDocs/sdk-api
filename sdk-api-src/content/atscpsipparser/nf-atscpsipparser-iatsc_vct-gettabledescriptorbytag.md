@@ -7,7 +7,7 @@ old-location: mstv\iatsc_vct_gettabledescriptorbytag.htm
 old-project: mstv
 ms.assetid: 2ae29f5c-430a-45a0-870e-41b209572775
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetTableDescriptorByTag method [Microsoft TV Technologies], GetTableDescriptorByTag method [Microsoft TV Technologies], IATSC_VCT interface, GetTableDescriptorByTag,IATSC_VCT.GetTableDescriptorByTag, IATSC_VCT, IATSC_VCT interface [Microsoft TV Technologies], GetTableDescriptorByTag method, IATSC_VCT::GetTableDescriptorByTag, IATSC_VCTGetTableDescriptorByTag, atscpsipparser/IATSC_VCT::GetTableDescriptorByTag, mstv.iatsc_vct_gettabledescriptorbytag
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_WRITER_PAYLOAD_STREAM
+req.typenames: AsyncStatus
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,7 +7,7 @@ old-location: gdi\emrroundrect.htm
 old-project: gdi
 ms.assetid: 74caff9e-6882-4585-ad51-e83e4afb8454
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/17/2018
 ms.keywords: "*PEMRROUNDRECT, EMRROUNDRECT, EMRROUNDRECT structure [Windows GDI], PEMRROUNDRECT, PEMRROUNDRECT structure pointer [Windows GDI], _win32_EMRROUNDRECT_str, gdi.emrroundrect, tagEMRROUNDRECT, wingdi/EMRROUNDRECT, wingdi/PEMRROUNDRECT"
 ms.prod: windows-hardware
 ms.technology: windows-devices

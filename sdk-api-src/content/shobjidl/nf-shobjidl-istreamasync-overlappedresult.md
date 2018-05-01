@@ -7,7 +7,7 @@ old-location: shell\IStreamAsync_OverlappedResult.htm
 old-project: shell
 ms.assetid: 5a53934f-bbff-4bb0-b374-01adb629a041
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IStreamAsync, IStreamAsync interface [Windows Shell], OverlappedResult method, IStreamAsync::OverlappedResult, OverlappedResult method [Windows Shell], OverlappedResult method [Windows Shell], IStreamAsync interface, OverlappedResult,IStreamAsync.OverlappedResult, _shell_IStreamAsync_OverlappedResult, shell.IStreamAsync_OverlappedResult, shobjidl/IStreamAsync::OverlappedResult
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tapi3\ittonedetectionevent_get_call.htm
 old-project: Tapi
 ms.assetid: 50804e3d-ec60-44b3-ac6d-2518c96bfc64
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: ITToneDetectionEvent, ITToneDetectionEvent interface [TAPI 2.2], get_Call method, ITToneDetectionEvent::get_Call, _tapi3_ittonedetectionevent_get_call, get_Call method [TAPI 2.2], get_Call method [TAPI 2.2], ITToneDetectionEvent interface, get_Call,ITToneDetectionEvent.get_Call, tapi3.ittonedetectionevent_get_call, tapi3if/ITToneDetectionEvent::get_Call
 ms.prod: windows-hardware
 ms.technology: windows-devices

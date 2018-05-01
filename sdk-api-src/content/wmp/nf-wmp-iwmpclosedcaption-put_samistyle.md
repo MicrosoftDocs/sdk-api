@@ -7,7 +7,7 @@ old-location: wmp\iwmpclosedcaption_put_samistyle.htm
 old-project: WMP
 ms.assetid: 8f9a4f6e-4596-4c4a-ade7-5b7e1b82b229
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPClosedCaption, IWMPClosedCaption interface [Windows Media Player], put_SAMIStyle method, IWMPClosedCaption::put_SAMIStyle, IWMPClosedCaptionput_SAMIStyle, put_SAMIStyle method [Windows Media Player], put_SAMIStyle method [Windows Media Player], IWMPClosedCaption interface, put_SAMIStyle,IWMPClosedCaption.put_SAMIStyle, wmp.iwmpclosedcaption_put_samistyle, wmp/IWMPClosedCaption::put_SAMIStyle
 ms.prod: windows-hardware
 ms.technology: windows-devices

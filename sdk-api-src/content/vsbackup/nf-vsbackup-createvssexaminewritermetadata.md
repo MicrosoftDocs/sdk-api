@@ -7,7 +7,7 @@ old-location: base\createvssexaminewritermetadata.htm
 old-project: VSS
 ms.assetid: cb322541-d8c0-4a2e-9ce5-453d19ac3fd1
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: CreateVssExamineWriterMetadata, CreateVssExamineWriterMetadata function [VSS], CreateVssExamineWriterMetadataInternal, _win32_createvssexaminewritermetadata, base.createvssexaminewritermetadata, vsbackup/CreateVssExamineWriterMetadata, vsbackup/CreateVssExamineWriterMetadataInternal
 ms.prod: windows-hardware
 ms.technology: windows-devices

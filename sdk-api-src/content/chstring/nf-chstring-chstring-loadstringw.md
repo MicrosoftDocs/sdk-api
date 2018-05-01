@@ -7,7 +7,7 @@ old-location: wmi\chstring_loadstringw.htm
 old-project: WmiSdk
 ms.assetid: b5dca7ce-41b2-4290-bb15-23e0a8d64bd1
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: CHString, CHString interface [Windows Management Instrumentation], LoadStringW method, CHString::LoadStringW, LoadStringW method [Windows Management Instrumentation], LoadStringW method [Windows Management Instrumentation], CHString interface, LoadStringW,CHString.LoadStringW, _hmm_chstring_loadstringw, chstring/CHString::LoadStringW, wmi.chstring_loadstringw
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CF_SYNC_ROOT_STANDARD_INFO
+req.typenames: CF_SYNC_STATUS
 topic_type:
 -	APIRef
 -	kbSyntax

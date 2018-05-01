@@ -7,7 +7,7 @@ old-location: cos\icontextproperties_removeproperty.htm
 old-project: cossdk
 ms.assetid: 112c9e08-de15-4e46-934a-5e57a1a52adc
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: IContextProperties, IContextProperties interface [COM+], RemoveProperty method, IContextProperties::RemoveProperty, RemoveProperty method [COM+], RemoveProperty method [COM+], IContextProperties interface, RemoveProperty,IContextProperties.RemoveProperty, _cos_IContextProperties_RemoveProperty, comsvcs/IContextProperties::RemoveProperty, cos.icontextproperties_removeproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IRawElementProviderFragment_FragmentRoot.htm
 old-project: WinAuto
 ms.assetid: d3fceca3-78b2-4775-ae11-1c9e71dbf772
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: FragmentRoot property [Windows Accessibility], FragmentRoot property [Windows Accessibility], IRawElementProviderFragment interface, IRawElementProviderFragment, IRawElementProviderFragment interface [Windows Accessibility], FragmentRoot property, IRawElementProviderFragment.FragmentRoot, IRawElementProviderFragment::get_FragmentRoot, get_FragmentRoot,IRawElementProviderFragment.get_FragmentRoot, uiauto.uiauto_IRawElementProviderFragment_FragmentRoot, uiauto_IRawElementProviderFragment_FragmentRoot, uiautomationcore/IRawElementProviderFragment::FragmentRoot, uiautomationcore/IRawElementProviderFragment::get_FragmentRoot, winauto.uiauto_IRawElementProviderFragment_FragmentRoot
 ms.prod: windows-hardware
 ms.technology: windows-devices

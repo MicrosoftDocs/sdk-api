@@ -7,7 +7,7 @@ old-location: base\setdefaultcommconfig.htm
 old-project: DevIO
 ms.assetid: 3b228b56-34ca-4b37-af67-4e4e1fa60df2
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/3/2018
 ms.keywords: SetDefaultCommConfig, SetDefaultCommConfig function, SetDefaultCommConfigA, SetDefaultCommConfigW, _win32_setdefaultcommconfig, base.setdefaultcommconfig, winbase/SetDefaultCommConfig, winbase/SetDefaultCommConfigA, winbase/SetDefaultCommConfigW
 ms.prod: windows-hardware
 ms.technology: windows-devices

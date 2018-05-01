@@ -7,7 +7,7 @@ old-location: mstv\idvblogicalchanneldescriptor_getrecordlogicalchannelnumber.ht
 old-project: mstv
 ms.assetid: fa74587a-ba11-449c-ba0d-bea371e7f019
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetRecordLogicalChannelNumber method [DirectShow], GetRecordLogicalChannelNumber method [DirectShow], IDvbLogicalChannelDescriptor interface, GetRecordLogicalChannelNumber,IDvbLogicalChannelDescriptor.GetRecordLogicalChannelNumber, IDvbLogicalChannelDescriptor, IDvbLogicalChannelDescriptor interface [DirectShow], GetRecordLogicalChannelNumber method, IDvbLogicalChannelDescriptor::GetRecordLogicalChannelNumber, IDvbLogicalChannelDescriptorGetRecordLogicalChannelNumber, dvbsiparser/IDvbLogicalChannelDescriptor::GetRecordLogicalChannelNumber, mstv.idvblogicalchanneldescriptor_getrecordlogicalchannelnumber
 ms.prod: windows-hardware
 ms.technology: windows-devices

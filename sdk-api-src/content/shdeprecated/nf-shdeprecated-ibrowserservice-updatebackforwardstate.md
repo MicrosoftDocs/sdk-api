@@ -7,7 +7,7 @@ old-location: shell\IBrowserService_UpdateBackForwardState.htm
 old-project: shell
 ms.assetid: 03e4a470-96dc-408c-a124-5230c185b075
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IBrowserService, IBrowserService interface [Windows Shell], UpdateBackForwardState method, IBrowserService::UpdateBackForwardState, UpdateBackForwardState method [Windows Shell], UpdateBackForwardState method [Windows Shell], IBrowserService interface, UpdateBackForwardState,IBrowserService.UpdateBackForwardState, shdeprecated/IBrowserService::UpdateBackForwardState, shell.IBrowserService_UpdateBackForwardState, zone_IBrowserService_UpdateBackForwardState
 ms.prod: windows-hardware
 ms.technology: windows-devices

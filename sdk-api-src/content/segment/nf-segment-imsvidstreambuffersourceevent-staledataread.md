@@ -7,7 +7,7 @@ old-location: mstv\imsvidstreambuffersourceevent_staledataread.htm
 old-project: mstv
 ms.assetid: ad8da4d8-9c8c-40e6-9fd4-a32cf8e775ce
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidStreamBufferSourceEvent, IMSVidStreamBufferSourceEvent interface [Microsoft TV Technologies], StaleDataRead method, IMSVidStreamBufferSourceEvent::StaleDataRead, IMSVidStreamBufferSourceEventStaleDataRead, StaleDataRead method [Microsoft TV Technologies], StaleDataRead method [Microsoft TV Technologies], IMSVidStreamBufferSourceEvent interface, StaleDataRead,IMSVidStreamBufferSourceEvent.StaleDataRead, mstv.imsvidstreambuffersourceevent_staledataread, segment/IMSVidStreamBufferSourceEvent::StaleDataRead
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidStreamBufferSourceEvent::StaleDataRead method

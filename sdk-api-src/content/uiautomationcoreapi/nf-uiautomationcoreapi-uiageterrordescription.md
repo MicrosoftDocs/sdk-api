@@ -7,7 +7,7 @@ old-location: winauto\uiauto_UiaGetErrorDescriptionAutoMeth.htm
 old-project: WinAuto
 ms.assetid: bb00f7cd-8557-4ef7-a53c-c020d0acdb78
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: UiaGetErrorDescription, UiaGetErrorDescription function [Windows Accessibility], uiauto.uiauto_UiaGetErrorDescriptionAutoMeth, uiauto_UiaGetErrorDescriptionAutoMeth, uiautomationcoreapi/UiaGetErrorDescription, winauto.uiauto_UiaGetErrorDescriptionAutoMeth
 ms.prod: windows-hardware
 ms.technology: windows-devices

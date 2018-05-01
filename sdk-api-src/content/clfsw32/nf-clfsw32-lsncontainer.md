@@ -7,7 +7,7 @@ old-location: fs\lsncontainer.htm
 old-project: Clfs
 ms.assetid: 1bbbb37b-8197-44bd-b19b-c43ece1c46d2
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/25/2018
 ms.keywords: LsnContainer, LsnContainer function [Files], clfsw32/LsnContainer, fs.lsncontainer
 ms.prod: windows-hardware
 ms.technology: windows-devices

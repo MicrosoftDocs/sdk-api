@@ -7,7 +7,7 @@ old-location: dshow\ivideowindow_get_visible.htm
 old-project: DirectShow
 ms.assetid: b533398e-80f6-4f33-982b-93b8e0d705e9
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IVideoWindow, IVideoWindow interface [DirectShow], get_Visible method, IVideoWindow::get_Visible, IVideoWindowget_Visible, control/IVideoWindow::get_Visible, dshow.ivideowindow_get_visible, get_Visible method [DirectShow], get_Visible method [DirectShow], IVideoWindow interface, get_Visible,IVideoWindow.get_Visible
 ms.prod: windows-hardware
 ms.technology: windows-devices

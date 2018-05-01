@@ -7,7 +7,7 @@ old-location: appxpkg\appx_package_settings.htm
 old-project: appxpkg
 ms.assetid: 85874BCD-44EF-4442-96B8-F22AC4247DB4
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/26/2018
 ms.keywords: APPX_PACKAGE_SETTINGS, APPX_PACKAGE_SETTINGS structure [App packaging and management], appxpackaging/APPX_PACKAGE_SETTINGS, appxpkg.appx_package_settings
 ms.prod: windows-hardware
 ms.technology: windows-devices

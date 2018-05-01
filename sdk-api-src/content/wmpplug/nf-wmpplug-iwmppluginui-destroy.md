@@ -7,7 +7,7 @@ old-location: wmp\iwmppluginui_destroy.htm
 old-project: WMP
 ms.assetid: ca78c354-92ae-47d4-82c3-e41eae19f246
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: Destroy method [Windows Media Player], Destroy method [Windows Media Player], IWMPPluginUI interface, Destroy,IWMPPluginUI.Destroy, IWMPPluginUI, IWMPPluginUI interface [Windows Media Player], Destroy method, IWMPPluginUI::Destroy, IWMPPluginUIDestroy, wmp.iwmppluginui_destroy, wmpplug/IWMPPluginUI::Destroy
 ms.prod: windows-hardware
 ms.technology: windows-devices

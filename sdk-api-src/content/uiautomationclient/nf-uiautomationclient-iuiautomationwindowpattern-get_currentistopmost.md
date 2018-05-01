@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationWindowPattern_CurrentIsTopmost.htm
 old-project: WinAuto
 ms.assetid: 478b5c42-5cae-4661-a9fd-fcc48b537b84
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: CurrentIsTopmost property [Windows Accessibility], CurrentIsTopmost property [Windows Accessibility], IUIAutomationWindowPattern interface, IUIAutomationWindowPattern, IUIAutomationWindowPattern interface [Windows Accessibility], CurrentIsTopmost property, IUIAutomationWindowPattern.CurrentIsTopmost, IUIAutomationWindowPattern::get_CurrentIsTopmost, get_CurrentIsTopmost,IUIAutomationWindowPattern.get_CurrentIsTopmost, uiauto.uiauto_IUIAutomationWindowPattern_CurrentIsTopmost, uiauto_IUIAutomationWindowPattern_CurrentIsTopmost, uiautomationclient/IUIAutomationWindowPattern::CurrentIsTopmost, uiautomationclient/IUIAutomationWindowPattern::get_CurrentIsTopmost, winauto.uiauto_IUIAutomationWindowPattern_CurrentIsTopmost
 ms.prod: windows-hardware
 ms.technology: windows-devices

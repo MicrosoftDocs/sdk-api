@@ -7,7 +7,7 @@ old-location: mstv\iesfileexpirydateevent_getmaxrenewalcount.htm
 old-project: mstv
 ms.assetid: 3e823f7f-91cc-4e59-bbb5-1a33ef094999
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetMaxRenewalCount method [Microsoft TV Technologies], GetMaxRenewalCount method [Microsoft TV Technologies], IESFileExpiryDateEvent interface, GetMaxRenewalCount,IESFileExpiryDateEvent.GetMaxRenewalCount, IESFileExpiryDateEvent, IESFileExpiryDateEvent interface [Microsoft TV Technologies], GetMaxRenewalCount method, IESFileExpiryDateEvent::GetMaxRenewalCount, mstv.iesfileexpirydateevent_getmaxrenewalcount, tuner/IESFileExpiryDateEvent::GetMaxRenewalCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

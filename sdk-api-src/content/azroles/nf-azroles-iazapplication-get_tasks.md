@@ -7,7 +7,7 @@ old-location: security\iazapplication_tasks.htm
 old-project: SecAuthZ
 ms.assetid: 86126517-d239-4ee8-a7e4-7ad5b0aac6c7
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: AzApplication object [Security], Tasks property, IAzApplication, IAzApplication interface [Security], Tasks property, IAzApplication.Tasks, IAzApplication::get_Tasks, Tasks property [Security], Tasks property [Security], AzApplication object, Tasks property [Security], IAzApplication interface, azroles/IAzApplication::Tasks, azroles/IAzApplication::get_Tasks, get_Tasks,IAzApplication.get_Tasks, security.iazapplication_tasks
 ms.prod: windows-hardware
 ms.technology: windows-devices

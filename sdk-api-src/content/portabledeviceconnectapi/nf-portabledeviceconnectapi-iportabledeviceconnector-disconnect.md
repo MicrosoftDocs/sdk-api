@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledeviceconnector_disconnect.htm
 old-project: wpd_sdk
 ms.assetid: 0cc104e6-5e3a-4fce-ba3b-68f3fb94196b
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/11/2018
 ms.keywords: Disconnect method [Windows Portable Devices SDK], Disconnect method [Windows Portable Devices SDK], IPortableDeviceConnector interface, Disconnect,IPortableDeviceConnector.Disconnect, IPortableDeviceConnector, IPortableDeviceConnector interface [Windows Portable Devices SDK], Disconnect method, IPortableDeviceConnector::Disconnect, devpkey/IPortableDeviceConnector::Disconnect, portabledeviceconnectapi/IPortableDeviceConnector::Disconnect, wpdsdk.iportabledeviceconnector_disconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: WPD_WHITE_BALANCE_SETTINGS
+req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: PortableDeviceGuids.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IPortableDeviceConnector::Disconnect method

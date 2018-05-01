@@ -7,7 +7,7 @@ old-location: tablet\imathinputcontrol_setcustompaint.htm
 old-project: tablet
 ms.assetid: f734b73c-88a9-45d0-a657-ff048d1f5ffe
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: IMathInputControl, IMathInputControl interface [Tablet PC], SetCustomPaint method, IMathInputControl::SetCustomPaint, SetCustomPaint method [Tablet PC], SetCustomPaint method [Tablet PC], IMathInputControl interface, SetCustomPaint,IMathInputControl.SetCustomPaint, micaut/IMathInputControl::SetCustomPaint, tablet.imathinputcontrol_setcustompaint
 ms.prod: windows-hardware
 ms.technology: windows-devices

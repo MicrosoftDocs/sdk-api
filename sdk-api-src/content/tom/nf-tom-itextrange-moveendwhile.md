@@ -7,7 +7,7 @@ old-location: controls\ITextRange_MoveEndWhile.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\moveendwhile.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextRange, ITextRange interface [Windows Controls], MoveEndWhile method, ITextRange::MoveEndWhile, MoveEndWhile method [Windows Controls], MoveEndWhile method [Windows Controls], ITextRange interface, MoveEndWhile,ITextRange.MoveEndWhile, _win32_ITextRange_MoveEndWhile, _win32_ITextRange_MoveEndWhile_cpp, controls.ITextRange_MoveEndWhile, controls._win32_ITextRange_MoveEndWhile, tom/ITextRange::MoveEndWhile
 ms.prod: windows-hardware
 ms.technology: windows-devices

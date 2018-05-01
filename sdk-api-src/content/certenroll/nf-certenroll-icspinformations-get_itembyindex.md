@@ -7,7 +7,7 @@ old-location: security\icspinformations_itembyindex_property.htm
 old-project: SecCertEnroll
 ms.assetid: 9891dc5d-ebd6-4347-b47b-2def9c2d28a4
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: ICspInformations, ICspInformations interface [Security], ItemByIndex property, ICspInformations.ItemByIndex, ICspInformations::get_ItemByIndex, ItemByIndex property [Security], ItemByIndex property [Security], ICspInformations interface, certenroll/ICspInformations::ItemByIndex, certenroll/ICspInformations::get_ItemByIndex, get_ItemByIndex,ICspInformations.get_ItemByIndex, security.icspinformations_itembyindex_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

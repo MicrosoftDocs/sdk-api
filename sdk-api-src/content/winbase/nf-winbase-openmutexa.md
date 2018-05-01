@@ -7,7 +7,7 @@ old-location: base\openmutex.htm
 old-project: Sync
 ms.assetid: 0ea363c2-1ff7-4bf5-9e94-f1f17b8c8a11
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: OpenMutex, OpenMutex function, OpenMutexA, OpenMutexW, _win32_openmutex, base.openmutex, winbase/OpenMutex, winbase/OpenMutexA, winbase/OpenMutexW
 ms.prod: windows-hardware
 ms.technology: windows-devices

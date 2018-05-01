@@ -7,7 +7,7 @@ old-location: wmi\trefpointercollection_beginenum.htm
 old-project: WmiSdk
 ms.assetid: 5f7879e8-0eeb-4768-a478-8effd4e355d3
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: BeginEnum method [Windows Management Instrumentation], BeginEnum method [Windows Management Instrumentation], TRefPointerCollection interface, BeginEnum,TRefPointerCollection.BeginEnum, TRefPointerCollection, TRefPointerCollection interface [Windows Management Instrumentation], BeginEnum method, TRefPointerCollection::BeginEnum, _hmm_trefpointercollection_beginenum, refptrco/TRefPointerCollection::BeginEnum, wmi.trefpointercollection_beginenum
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # TRefPointerCollection::BeginEnum method

@@ -1,0 +1,101 @@
+---
+UID: NC:ddrawint.PDD_MOCOMPCB_GETCOMPBUFFINFO
+title: PDD_MOCOMPCB_GETCOMPBUFFINFO
+author: windows-driver-content
+description: The DDMoCompGetBuffInfo callback function allows the driver to specify how many interim surfaces are required to support the specified GUID, and the size, location, and format of each of these surfaces.
+old-location: display\ddmocompgetbuffinfo.htm
+old-project: display
+ms.assetid: 7303f80d-1b6e-401f-a9ef-cf646b716c70
+ms.author: windowsdriverdev
+ms.date: 4/16/2018
+ms.keywords: DdMoCompGetBuffInfo, DdMoCompGetBuffInfo callback function [Display Devices], PDD_MOCOMPCB_GETCOMPBUFFINFO, ddfncs_6b92e5df-6051-4481-a2a6-bb0f4cc4fd8e.xml, ddrawint/DdMoCompGetBuffInfo, display.ddmocompgetbuffinfo
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: callback
+req.header: ddrawint.h
+req.include-header: Winddi.h
+req.target-type: Desktop
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: "*LPDDHAL_DESTROYDDLOCALDATA, DDHAL_DESTROYDDLOCALDATA"
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	ddrawint.h
+api_name:
+-	DdMoCompGetBuffInfo
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# PDD_MOCOMPCB_GETCOMPBUFFINFO callback
+
+
+## -description
+
+
+The <b>DDMoCompGetBuffInfo</b> callback function allows the driver to specify how many interim surfaces are required to support the specified GUID, and the size, location, and format of each of these surfaces. 
+
+
+## -parameters
+
+
+
+
+### -param Arg1
+
+
+
+
+
+
+
+
+#### - lpBufferData
+
+Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551576">DD_GETMOCOMPCOMPBUFFDATA</a> structure that contains the compressed buffer information. 
+
+
+## -returns
+
+
+
+<b>DDMoCompGetBuffInfo</b> returns one of the following callback codes:
+
+
+
+
+## -remarks
+
+
+
+<b>DDMoCompGetBuffInfo</b> can be optionally implemented in DirectDraw drivers. This function is required for motion compensation support.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551576">DD_GETMOCOMPCOMPBUFFDATA</a>
+ 
+
+ 
+

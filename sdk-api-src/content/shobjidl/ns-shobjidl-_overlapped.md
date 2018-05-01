@@ -7,7 +7,7 @@ old-location: shell\OVERLAPPED.htm
 old-project: shell
 ms.assetid: 2b5964e5-dfc8-44f9-86a7-5ea5acc68c1b
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: "*LPOVERLAPPED, LPOVERLAPPED, LPOVERLAPPED structure pointer [Windows Shell], OVERLAPPED, OVERLAPPED structure [Windows Shell], _OVERLAPPED, _shell_OVERLAPPED, shell.OVERLAPPED, shobjidl/LPOVERLAPPED, shobjidl/OVERLAPPED"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,20 +58,6 @@ Contains information used in asynchronous (overlapped) input/output (I/O).
 
 
 
-### -field Offset
-
-Type: <b>DWORD</b>
-
-File position at which to start the transfer. The file position is a byte offset from the start of the file. The calling process must set this member before it calls the <a href="https://msdn.microsoft.com/c0046a89-1427-465e-a5f3-2398ebff04f3">IStreamAsync::ReadAsync</a> or <a href="https://msdn.microsoft.com/c5004923-191b-4ec1-83af-f066209c786a">IStreamAsync::WriteAsync</a> function.
-
-
-### -field OffsetHigh
-
-Type: <b>DWORD</b>
-
-High-order word of the file position at which to start the transfer.
-
-
 ### -field Internal
 
 Type: <b>ULONG_PTR</b>
@@ -84,6 +70,20 @@ Reserved for operating system use. This member, which specifies a system-depende
 Type: <b>ULONG_PTR</b>
 
 Reserved for operating system use. This member, which specifies the length of the data transferred, is valid when the <a href="https://msdn.microsoft.com/5a53934f-bbff-4bb0-b374-01adb629a041">IStreamAsync::OverlappedResult</a> function returns <b>TRUE</b>.
+
+
+### -field Offset
+
+Type: <b>DWORD</b>
+
+File position at which to start the transfer. The file position is a byte offset from the start of the file. The calling process must set this member before it calls the <a href="https://msdn.microsoft.com/c0046a89-1427-465e-a5f3-2398ebff04f3">IStreamAsync::ReadAsync</a> or <a href="https://msdn.microsoft.com/c5004923-191b-4ec1-83af-f066209c786a">IStreamAsync::WriteAsync</a> function.
+
+
+### -field OffsetHigh
+
+Type: <b>DWORD</b>
+
+High-order word of the file position at which to start the transfer.
 
 
 ### -field hEvent

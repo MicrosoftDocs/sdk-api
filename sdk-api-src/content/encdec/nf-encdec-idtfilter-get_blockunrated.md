@@ -7,7 +7,7 @@ old-location: mstv\idtfilter_get_blockunrated.htm
 old-project: mstv
 ms.assetid: 9b8ecc6b-02e8-47e9-a8df-6e73d58dd177
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IDTFilter, IDTFilter interface [Microsoft TV Technologies], get_BlockUnRated method, IDTFilter::get_BlockUnRated, IDTFilterget_BlockUnRated, encdec/IDTFilter::get_BlockUnRated, get_BlockUnRated method [Microsoft TV Technologies], get_BlockUnRated method [Microsoft TV Technologies], IDTFilter interface, get_BlockUnRated,IDTFilter.get_BlockUnRated, mstv.idtfilter_get_blockunrated
 ms.prod: windows-hardware
 ms.technology: windows-devices

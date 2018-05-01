@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmfilescreen_path.htm
 old-project: Fsrm
 ms.assetid: 383e829c-5089-4404-a6bd-429812069e85
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: IFsrmFileScreen, IFsrmFileScreen interface [File Server Resource Manager], Path property, IFsrmFileScreen.Path, IFsrmFileScreen::get_Path, Path property [File Server Resource Manager], Path property [File Server Resource Manager], IFsrmFileScreen interface, fs.ifsrmfilescreen_path, fsrm.ifsrmfilescreen_path, fsrmscreen/IFsrmFileScreen::Path, fsrmscreen/IFsrmFileScreen::get_Path, get_Path,IFsrmFileScreen.get_Path
 ms.prod: windows-hardware
 ms.technology: windows-devices

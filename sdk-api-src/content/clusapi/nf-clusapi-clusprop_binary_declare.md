@@ -7,7 +7,7 @@ old-location: mscs\clusprop_binary_declare.htm
 old-project: MsCS
 ms.assetid: f4730126-9dbf-438a-a9f2-9e917e5888b8
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: CLUSPROP_BINARY_DECLARE, CLUSPROP_BINARY_DECLARE macro [Failover Cluster], _wolf_clusprop_binary_declare, clusapi/CLUSPROP_BINARY_DECLARE, mscs.clusprop_binary_declare
 ms.prod: windows-hardware
 ms.technology: windows-devices

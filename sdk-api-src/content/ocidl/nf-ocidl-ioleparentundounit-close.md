@@ -7,7 +7,7 @@ old-location: com\ioleparentundounit_close.htm
 old-project: com
 ms.assetid: dcfe1962-c40f-4d3f-ae6a-b70755adebe8
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: Close method [COM], Close method [COM], IOleParentUndoUnit interface, Close,IOleParentUndoUnit.Close, IOleParentUndoUnit, IOleParentUndoUnit interface [COM], Close method, IOleParentUndoUnit::Close, _ole_ioleparentundounit_close, com.ioleparentundounit_close, ocidl/IOleParentUndoUnit::Close
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IOleParentUndoUnit::Close method

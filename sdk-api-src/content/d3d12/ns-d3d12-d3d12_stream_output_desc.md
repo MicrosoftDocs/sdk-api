@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_stream_output_desc.htm
 old-project: direct3d12
 ms.assetid: 9EFAA901-857B-40E3-B4B7-7C04D53BCA67
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: D3D12_STREAM_OUTPUT_DESC, D3D12_STREAM_OUTPUT_DESC structure, d3d12/D3D12_STREAM_OUTPUT_DESC, direct3d12.d3d12_stream_output_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices

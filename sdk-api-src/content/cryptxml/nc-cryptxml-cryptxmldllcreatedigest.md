@@ -7,7 +7,7 @@ old-location: security\cryptxmldllcreatedigest.htm
 old-project: SecCrypto
 ms.assetid: 9c9b14c8-511b-4e40-b3d3-014d75dc7fe4
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: CryptXmlDllCreateDigest, CryptXmlDllCreateDigest function pointer [Security], cryptxml/CryptXmlDllCreateDigest, security.cryptxmldllcreatedigest
 ms.prod: windows-hardware
 ms.technology: windows-devices

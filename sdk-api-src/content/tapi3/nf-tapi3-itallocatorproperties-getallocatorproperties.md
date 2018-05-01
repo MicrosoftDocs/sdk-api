@@ -7,7 +7,7 @@ old-location: tapi3\itallocatorproperties_getallocatorproperties.htm
 old-project: Tapi
 ms.assetid: 67360904-a632-43cf-9f67-50bbdbb62f48
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: GetAllocatorProperties method [TAPI 2.2], GetAllocatorProperties method [TAPI 2.2], ITAllocatorProperties interface, GetAllocatorProperties,ITAllocatorProperties.GetAllocatorProperties, ITAllocatorProperties, ITAllocatorProperties interface [TAPI 2.2], GetAllocatorProperties method, ITAllocatorProperties::GetAllocatorProperties, _tapi3_itallocatorproperties_getallocatorproperties, tapi3.itallocatorproperties_getallocatorproperties, tapi3ds/ITAllocatorProperties::GetAllocatorProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

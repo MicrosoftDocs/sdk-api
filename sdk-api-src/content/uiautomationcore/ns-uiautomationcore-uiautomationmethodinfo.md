@@ -7,7 +7,7 @@ old-location: winauto\uiauto_UIAutomationMethodInfoStruct.htm
 old-project: WinAuto
 ms.assetid: 33a52126-8757-44d0-91e1-758f51e3d0f8
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: UIAutomationMethodInfo, UIAutomationMethodInfo structure [Windows Accessibility], uiauto.uiauto_UIAutomationMethodInfoStruct, uiauto_UIAutomationMethodInfoStruct, uiautomationcore/UIAutomationMethodInfo, winauto.uiauto_UIAutomationMethodInfoStruct
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,13 +58,6 @@ Contains information about a method that is supported by a custom control patter
 
 
 
-### -field pParameterTypes
-
-Type: <b><a href="https://msdn.microsoft.com/6090d5b5-2376-43ce-bef2-49bb3515107a">UIAutomationType</a>*</b>
-
-A pointer to an array of values indicating the data types of the parameters of the method. The data types of the In parameters should be first, followed by those of the Out parameters.
-
-
 ### -field pProgrammaticName
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCWSTR</a></b>
@@ -91,6 +84,13 @@ The count of [in] parameters, which are always first in the <b>pParameterTypes</
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 The count of [out] parameters, which always follow the [in] parameters in the <b>pParameterTypes</b> array.
+
+
+### -field pParameterTypes
+
+Type: <b><a href="https://msdn.microsoft.com/6090d5b5-2376-43ce-bef2-49bb3515107a">UIAutomationType</a>*</b>
+
+A pointer to an array of values indicating the data types of the parameters of the method. The data types of the In parameters should be first, followed by those of the Out parameters.
 
 
 ### -field pParameterNames

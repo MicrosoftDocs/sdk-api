@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwiccomponentfactory_createmetadatareader.htm
 old-project: wic
 ms.assetid: 3fc94831-1743-4269-97af-48116e2a4e1a
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: CreateMetadataReader method [Windows Imaging Component], CreateMetadataReader method [Windows Imaging Component], IWICComponentFactory interface, CreateMetadataReader,IWICComponentFactory.CreateMetadataReader, IWICComponentFactory, IWICComponentFactory interface [Windows Imaging Component], CreateMetadataReader method, IWICComponentFactory::CreateMetadataReader, _wic_codec_iwiccomponentfactory_createmetadatareader, wic._wic_codec_iwiccomponentfactory_createmetadatareader, wincodecsdk/IWICComponentFactory::CreateMetadataReader
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\icertproperties_add_method.htm
 old-project: SecCertEnroll
 ms.assetid: 53ea895d-0c41-445e-bfcc-2b2e53e10ff8
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: Add method [Security], Add method [Security], ICertProperties interface, Add,ICertProperties.Add, ICertProperties, ICertProperties interface [Security], Add method, ICertProperties::Add, certenroll/ICertProperties::Add, security.icertproperties_add_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

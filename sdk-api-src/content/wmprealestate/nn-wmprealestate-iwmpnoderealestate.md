@@ -7,7 +7,7 @@ old-location: wmp\iwmpnoderealestate__deprecated.htm
 old-project: WMP
 ms.assetid: 0c9d382a-26de-4e53-9950-76916863f116
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPNodeRealEstate, IWMPNodeRealEstate (deprecated), IWMPNodeRealEstate (deprecated) interface [Windows Media Player], IWMPNodeRealEstate (deprecated) interface [Windows Media Player], described, IWMPNodeRealEstateInterfaceRendering, wmp.iwmpnoderealestate__deprecated, wmprealestate/IWMPNodeRealEstate (deprecated)
 ms.prod: windows-hardware
 ms.technology: windows-devices

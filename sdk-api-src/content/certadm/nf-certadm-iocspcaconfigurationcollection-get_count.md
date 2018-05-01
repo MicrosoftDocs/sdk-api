@@ -7,7 +7,7 @@ old-location: security\iocspcaconfigurationcollection_count_method.htm
 old-project: SecCrypto
 ms.assetid: 85e340f3-d625-49ea-93d8-28a44ca05ec8
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: Count property [Security], Count property [Security], IOCSPCAConfigurationCollection interface, IOCSPCAConfigurationCollection, IOCSPCAConfigurationCollection interface [Security], Count property, IOCSPCAConfigurationCollection.Count, IOCSPCAConfigurationCollection::get_Count, certadm/IOCSPCAConfigurationCollection::Count, certadm/IOCSPCAConfigurationCollection::get_Count, get_Count,IOCSPCAConfigurationCollection.get_Count, security.iocspcaconfigurationcollection_count_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CHANNEL_ENTRY_POINTS, *PCHANNEL_ENTRY_POINTS
+req.typenames: 
 topic_type:
 -	APIRef
 -	kbSyntax

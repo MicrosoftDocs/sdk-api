@@ -7,7 +7,7 @@ old-location: dhcp\dhcpv4querypolicyenforcement.htm
 old-project: DHCP
 ms.assetid: a622d83c-bb18-4482-be8d-fdd96382a5e1
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/7/2018
 ms.keywords: DhcpV4QueryPolicyEnforcement, DhcpV4QueryPolicyEnforcement function [DHCP], dhcp.dhcpv4querypolicyenforcement, dhcpsapi/DhcpV4QueryPolicyEnforcement
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmformat\iwmwriterfilesink3_getmode.htm
 old-project: wmformat
 ms.assetid: a8a7003e-e59f-451c-9f45-75d6d094a03b
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: GetMode method [windows Media Format], GetMode method [windows Media Format], IWMWriterFileSink3 interface, GetMode,IWMWriterFileSink3.GetMode, IWMWriterFileSink3, IWMWriterFileSink3 interface [windows Media Format], GetMode method, IWMWriterFileSink3::GetMode, IWMWriterFileSink3GetMode, wmformat.iwmwriterfilesink3_getmode, wmsdkidl/IWMWriterFileSink3::GetMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

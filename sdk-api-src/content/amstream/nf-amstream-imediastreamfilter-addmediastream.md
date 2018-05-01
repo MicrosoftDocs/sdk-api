@@ -7,7 +7,7 @@ old-location: dshow\imediastreamfilter_addmediastream.htm
 old-project: DirectShow
 ms.assetid: 0e4fdc28-3117-4b9d-a914-ddb70aa5125d
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: AddMediaStream method [DirectShow], AddMediaStream method [DirectShow], IMediaStreamFilter interface, AddMediaStream,IMediaStreamFilter.AddMediaStream, IMediaStreamFilter, IMediaStreamFilter interface [DirectShow], AddMediaStream method, IMediaStreamFilter::AddMediaStream, IMediaStreamFilterAddMediaStream, amstream/IMediaStreamFilter::AddMediaStream, dshow.imediastreamfilter_addmediastream
 ms.prod: windows-hardware
 ms.technology: windows-devices

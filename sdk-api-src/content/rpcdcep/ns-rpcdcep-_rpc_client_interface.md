@@ -7,7 +7,7 @@ old-location: rpc\rpc_client_interface.htm
 old-project: Rpc
 ms.assetid: be995f3b-1d4f-4622-9a00-ddaaeab3788d
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: "*PRPC_CLIENT_INTERFACE, RPC_CLIENT_INTERFACE, RPC_CLIENT_INTERFACE structure [RPC], _RPC_CLIENT_INTERFACE, _rpc_rpc_client_interface, rpc.rpc_client_interface, rpcdcep/RPC_CLIENT_INTERFACE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _RPC_CLIENT_INTERFACE structure

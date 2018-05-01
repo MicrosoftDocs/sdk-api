@@ -7,7 +7,7 @@ old-location: shell\IShellFolderViewDual3.htm
 old-project: shell
 ms.assetid: 1aa70db8-4225-49de-8b8f-ec86b1aafa22
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IShellFolderViewDual3, IShellFolderViewDual3 interface [Windows Shell], IShellFolderViewDual3 interface [Windows Shell], described, _shell_IShellFolderViewDual3, shell.IShellFolderViewDual3, shldisp/IShellFolderViewDual3
 ms.prod: windows-hardware
 ms.technology: windows-devices

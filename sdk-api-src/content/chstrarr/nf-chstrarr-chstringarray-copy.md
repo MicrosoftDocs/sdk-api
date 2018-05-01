@@ -7,7 +7,7 @@ old-location: wmi\chstringarray_copy.htm
 old-project: WmiSdk
 ms.assetid: 9598340f-c315-4c93-bc8a-2b7c1eaf5a35
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: CHStringArray, CHStringArray interface [Windows Management Instrumentation], Copy method, CHStringArray::Copy, Copy method [Windows Management Instrumentation], Copy method [Windows Management Instrumentation], CHStringArray interface, Copy,CHStringArray.Copy, _hmm_chstringarray_copy, chstrarr/CHStringArray::Copy, wmi.chstringarray_copy
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CF_SYNC_ROOT_STANDARD_INFO
+req.typenames: CF_SYNC_STATUS
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,7 +7,7 @@ old-location: mstv\icomponenttypes_get__newenum.htm
 old-project: mstv
 ms.assetid: 32ff7c56-3173-4aba-9884-6e388a41192d
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IComponentTypes, IComponentTypes interface [Microsoft TV Technologies], get__NewEnum method, IComponentTypes::get__NewEnum, IComponentTypesget__NewEnum, get__NewEnum method [Microsoft TV Technologies], get__NewEnum method [Microsoft TV Technologies], IComponentTypes interface, get__NewEnum,IComponentTypes.get__NewEnum, mstv.icomponenttypes_get__newenum, tuner/IComponentTypes::get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices

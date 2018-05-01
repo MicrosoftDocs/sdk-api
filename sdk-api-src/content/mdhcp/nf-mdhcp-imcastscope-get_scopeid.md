@@ -7,7 +7,7 @@ old-location: tapi3\imcastscope_get_scopeid.htm
 old-project: Tapi
 ms.assetid: 9c0ba8ab-1022-40c6-9d89-74250c149681
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: IMcastScope, IMcastScope interface [TAPI 2.2], get_ScopeID method, IMcastScope::get_ScopeID, _tapi3_imcastscope_get_scopeid, get_ScopeID method [TAPI 2.2], get_ScopeID method [TAPI 2.2], IMcastScope interface, get_ScopeID,IMcastScope.get_ScopeID, mdhcp/IMcastScope::get_ScopeID, tapi3.imcastscope_get_scopeid
 ms.prod: windows-hardware
 ms.technology: windows-devices

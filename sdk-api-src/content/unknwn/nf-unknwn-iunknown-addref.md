@@ -7,7 +7,7 @@ old-location: com\iunknown_addref.htm
 old-project: com
 ms.assetid: b4316efd-73d4-4995-b898-8025a316ba63
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: AddRef method [COM], AddRef method [COM], IUnknown interface, AddRef,IUnknown.AddRef, IUnknown, IUnknown interface [COM], AddRef method, IUnknown::AddRef, _com_iunknown_addref, com.iunknown_addref, unknwnbase/IUnknown::AddRef
 ms.prod: windows-hardware
 ms.technology: windows-devices

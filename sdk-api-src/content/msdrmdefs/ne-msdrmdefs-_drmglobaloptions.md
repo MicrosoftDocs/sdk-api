@@ -7,7 +7,7 @@ old-location: rm\drmglobaloptions.htm
 old-project: AdRms_Sdk
 ms.assetid: 57debd49-ec1e-432d-baac-2f828aeb4412
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/11/2018
 ms.keywords: DRMGLOBALOPTIONS, DRMGLOBALOPTIONS enumeration [Active Directory Rights Management Services SDK 1.0], DRMGLOBALOPTIONS_USE_SERVERSECURITYPROCESSOR, DRMGLOBALOPTIONS_USE_WINHTTP, _DRMGLOBALOPTIONS, msdrmdefs/DRMGLOBALOPTIONS, msdrmdefs/DRMGLOBALOPTIONS_USE_SERVERSECURITYPROCESSOR, msdrmdefs/DRMGLOBALOPTIONS_USE_WINHTTP, rm.drmglobaloptions
 ms.prod: windows-hardware
 ms.technology: windows-devices

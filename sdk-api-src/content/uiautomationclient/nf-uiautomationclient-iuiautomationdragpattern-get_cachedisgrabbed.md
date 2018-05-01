@@ -7,7 +7,7 @@ old-location: winauto\uiauto_iuiautomationdragpattern_cachedisgrabbed.htm
 old-project: WinAuto
 ms.assetid: DA63B155-56FC-49EE-99EA-56288CC7F8E9
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: CachedIsGrabbed property [Windows Accessibility], CachedIsGrabbed property [Windows Accessibility], IUIAutomationDragPattern interface, IUIAutomationDragPattern, IUIAutomationDragPattern interface [Windows Accessibility], CachedIsGrabbed property, IUIAutomationDragPattern.CachedIsGrabbed, IUIAutomationDragPattern::get_CachedIsGrabbed, get_CachedIsGrabbed,IUIAutomationDragPattern.get_CachedIsGrabbed, uiautomationclient/IUIAutomationDragPattern::CachedIsGrabbed, uiautomationclient/IUIAutomationDragPattern::get_CachedIsGrabbed, winauto.uiauto_iuiautomationdragpattern_cachedisgrabbed
 ms.prod: windows-hardware
 ms.technology: windows-devices

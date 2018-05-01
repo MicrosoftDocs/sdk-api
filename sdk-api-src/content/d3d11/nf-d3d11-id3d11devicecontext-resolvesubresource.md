@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext_resolvesubresource.htm
 old-project: direct3d11
 ms.assetid: 7b4d6180-e3bf-475a-9865-592cda6e9f4a
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/6/2018
 ms.keywords: 9790b3fd-189f-fe3d-b1be-96c2ba68f3f3, ID3D11DeviceContext, ID3D11DeviceContext interface [Direct3D 11], ResolveSubresource method, ID3D11DeviceContext::ResolveSubresource, ResolveSubresource method [Direct3D 11], ResolveSubresource method [Direct3D 11], ID3D11DeviceContext interface, ResolveSubresource,ID3D11DeviceContext.ResolveSubresource, d3d11/ID3D11DeviceContext::ResolveSubresource, direct3d11.id3d11devicecontext_resolvesubresource
 ms.prod: windows-hardware
 ms.technology: windows-devices

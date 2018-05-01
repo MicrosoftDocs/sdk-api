@@ -7,7 +7,7 @@ old-location: base\ivssfilesharesnapshotprovider_ispathsupported.htm
 old-project: VSS
 ms.assetid: 6a4db9dd-3854-414f-ba5c-83e36de6f19b
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: IVssFileShareSnapshotProvider, IVssFileShareSnapshotProvider interface [VSS], IsPathSupported method, IVssFileShareSnapshotProvider::IsPathSupported, IsPathSupported method [VSS], IsPathSupported method [VSS], IVssFileShareSnapshotProvider interface, IsPathSupported,IVssFileShareSnapshotProvider.IsPathSupported, base.ivssfilesharesnapshotprovider_ispathsupported, vsprov/IVssFileShareSnapshotProvider::IsPathSupported
 ms.prod: windows-hardware
 ms.technology: windows-devices

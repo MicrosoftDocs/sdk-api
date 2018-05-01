@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10multithread_getmultithreadprotected.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10multithread_getmultithreadprotected.htm
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: GetMultithreadProtected method [Direct3D 10], GetMultithreadProtected method [Direct3D 10], ID3D10Multithread interface, GetMultithreadProtected,ID3D10Multithread.GetMultithreadProtected, ID3D10Multithread, ID3D10Multithread interface [Direct3D 10], GetMultithreadProtected method, ID3D10Multithread::GetMultithreadProtected, c9c76a23-94f1-07fd-0f2b-39bc5da06624, d3d10/ID3D10Multithread::GetMultithreadProtected, direct3d10.id3d10multithread_getmultithreadprotected
 ms.prod: windows-hardware
 ms.technology: windows-devices

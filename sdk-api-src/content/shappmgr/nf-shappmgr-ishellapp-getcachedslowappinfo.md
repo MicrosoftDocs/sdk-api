@@ -7,7 +7,7 @@ old-location: shell\IShellApp_GetCachedSlowAppInfo.htm
 old-project: shell
 ms.assetid: 655edc51-0967-4b94-9eef-da213e735e0a
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetCachedSlowAppInfo method [Windows Shell], GetCachedSlowAppInfo method [Windows Shell], IShellApp interface, GetCachedSlowAppInfo,IShellApp.GetCachedSlowAppInfo, IShellApp, IShellApp interface [Windows Shell], GetCachedSlowAppInfo method, IShellApp::GetCachedSlowAppInfo, inet_IShellApp_GetCachedSlowAppInfo, shappmgr/IShellApp::GetCachedSlowAppInfo, shell.IShellApp_GetCachedSlowAppInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Shell32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IShellApp::GetCachedSlowAppInfo method

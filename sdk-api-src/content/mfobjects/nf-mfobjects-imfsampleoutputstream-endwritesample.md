@@ -7,7 +7,7 @@ old-location: mf\imfsampleoutputstream_endwritesample.htm
 old-project: medfound
 ms.assetid: AE65CE63-B7FF-403B-ABB8-5E6C53CAD314
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: EndWriteSample method [Media Foundation], EndWriteSample method [Media Foundation], IMFSampleOutputStream interface, EndWriteSample,IMFSampleOutputStream.EndWriteSample, IMFSampleOutputStream, IMFSampleOutputStream interface [Media Foundation], EndWriteSample method, IMFSampleOutputStream::EndWriteSample, mf.imfsampleoutputstream_endwritesample, mfobjects/IMFSampleOutputStream::EndWriteSample
 ms.prod: windows-hardware
 ms.technology: windows-devices

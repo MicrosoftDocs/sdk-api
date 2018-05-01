@@ -7,7 +7,7 @@ old-location: bits\ibitspeercacherecord_getfilemodificationtime.htm
 old-project: Bits
 ms.assetid: fe24b090-7dfd-4cbe-bb5d-ff3fd01723df
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/10/2018
 ms.keywords: GetFileModificationTime method [BITS], GetFileModificationTime method [BITS], IBitsPeerCacheRecord interface, GetFileModificationTime,IBitsPeerCacheRecord.GetFileModificationTime, IBitsPeerCacheRecord, IBitsPeerCacheRecord interface [BITS], GetFileModificationTime method, IBitsPeerCacheRecord::GetFileModificationTime, bits.ibitspeercacherecord_getfilemodificationtime, bits3_0/IBitsPeerCacheRecord::GetFileModificationTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -58,6 +58,14 @@ Contains virtual disk expansion request parameters.
 
 
 
+### -field Version
+
+An <a href="https://msdn.microsoft.com/28651993-81ad-4dfc-9c8b-3768fab5d3ae">EXPAND_VIRTUAL_DISK_VERSION</a> 
+      enumeration value that specifies the version of the 
+      <b>EXPAND_VIRTUAL_DISK_PARAMETERS</b> structure 
+      being passed to or from the virtual disk functions.
+
+
 ### -field Version1
 
 This structure is used if the <b>Version</b> member is 
@@ -67,14 +75,6 @@ This structure is used if the <b>Version</b> member is
 ### -field Version1.NewSize
 
 New size, in bytes, for the expansion request.
-
-
-### -field Version
-
-An <a href="https://msdn.microsoft.com/28651993-81ad-4dfc-9c8b-3768fab5d3ae">EXPAND_VIRTUAL_DISK_VERSION</a> 
-      enumeration value that specifies the version of the 
-      <b>EXPAND_VIRTUAL_DISK_PARAMETERS</b> structure 
-      being passed to or from the virtual disk functions.
 
 
 ## -see-also

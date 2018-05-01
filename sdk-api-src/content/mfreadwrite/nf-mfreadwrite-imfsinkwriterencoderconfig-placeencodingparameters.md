@@ -7,7 +7,7 @@ old-location: mf\imfsinkwriterencoderconfig_placeencodingparameters.htm
 old-project: medfound
 ms.assetid: ea09d806-c869-4a62-8f9d-c35db4e406ff
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFSinkWriterEncoderConfig, IMFSinkWriterEncoderConfig interface [Media Foundation], PlaceEncodingParameters method, IMFSinkWriterEncoderConfig::PlaceEncodingParameters, PlaceEncodingParameters method [Media Foundation], PlaceEncodingParameters method [Media Foundation], IMFSinkWriterEncoderConfig interface, PlaceEncodingParameters,IMFSinkWriterEncoderConfig.PlaceEncodingParameters, mf.imfsinkwriterencoderconfig_placeencodingparameters, mfreadwrite/IMFSinkWriterEncoderConfig::PlaceEncodingParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices

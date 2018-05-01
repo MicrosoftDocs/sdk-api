@@ -7,7 +7,7 @@ old-location: controls\ITextFont_SetSuperscript.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setsuperscript.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextFont, ITextFont interface [Windows Controls], SetSuperscript method, ITextFont::SetSuperscript, SetSuperscript method [Windows Controls], SetSuperscript method [Windows Controls], ITextFont interface, SetSuperscript,ITextFont.SetSuperscript, _win32_ITextFont_SetSuperscript, _win32_ITextFont_SetSuperscript_cpp, controls.ITextFont_SetSuperscript, controls._win32_ITextFont_SetSuperscript, tom/ITextFont::SetSuperscript
 ms.prod: windows-hardware
 ms.technology: windows-devices

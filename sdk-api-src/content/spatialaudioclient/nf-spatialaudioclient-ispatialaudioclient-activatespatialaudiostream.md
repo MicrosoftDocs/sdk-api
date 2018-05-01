@@ -7,7 +7,7 @@ old-location: coreaudio\ispatialaudioclient_activatespatialaudiostream.htm
 old-project: CoreAudio
 ms.assetid: CBBB5A62-D342-4FB7-890C-9FE37949CC07
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: ActivateSpatialAudioStream method [Core Audio], ActivateSpatialAudioStream method [Core Audio], ISpatialAudioClient interface, ActivateSpatialAudioStream,ISpatialAudioClient.ActivateSpatialAudioStream, ISpatialAudioClient, ISpatialAudioClient interface [Core Audio], ActivateSpatialAudioStream method, ISpatialAudioClient::ActivateSpatialAudioStream, coreaudio.ispatialaudioclient_activatespatialaudiostream, spatialaudioclient/ISpatialAudioClient::ActivateSpatialAudioStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmi\chstringarray_getat.htm
 old-project: WmiSdk
 ms.assetid: a950bc1e-1c13-4880-aee7-9a4606979993
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: CHStringArray, CHStringArray interface [Windows Management Instrumentation], GetAt method, CHStringArray::GetAt, GetAt method [Windows Management Instrumentation], GetAt method [Windows Management Instrumentation], CHStringArray interface, GetAt,CHStringArray.GetAt, _hmm_chstringarray_getat, chstrarr/CHStringArray::GetAt, wmi.chstringarray_getat
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CF_SYNC_ROOT_STANDARD_INFO
+req.typenames: CF_SYNC_STATUS
 topic_type:
 -	APIRef
 -	kbSyntax

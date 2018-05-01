@@ -7,7 +7,7 @@ old-location: controls\ITextFont_GetSuperscript.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getsuperscript.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: GetSuperscript method [Windows Controls], GetSuperscript method [Windows Controls], ITextFont interface, GetSuperscript,ITextFont.GetSuperscript, ITextFont, ITextFont interface [Windows Controls], GetSuperscript method, ITextFont::GetSuperscript, _win32_ITextFont_GetSuperscript, _win32_ITextFont_GetSuperscript_cpp, controls.ITextFont_GetSuperscript, controls._win32_ITextFont_GetSuperscript, tom/ITextFont::GetSuperscript
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\ix509certificaterequestpkcs10_initializefromcertificate_m
 old-project: SecCertEnroll
 ms.assetid: 3f390abc-5c1c-4f9c-a5f4-4d6fec065acf
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: IX509CertificateRequestPkcs10, IX509CertificateRequestPkcs10 interface [Security], InitializeFromCertificate method, IX509CertificateRequestPkcs10::InitializeFromCertificate, InheritDefault, InheritExtensionsFlag, InheritNewDefaultKey, InheritNewSimilarKey, InheritPrivateKey, InheritPublicKey, InheritRenewalCertificateFlag, InheritSubjectAltNameFlag, InheritSubjectFlag, InheritTemplateFlag, InheritValidityPeriodFlag, InitializeFromCertificate method [Security], InitializeFromCertificate method [Security], IX509CertificateRequestPkcs10 interface, InitializeFromCertificate,IX509CertificateRequestPkcs10.InitializeFromCertificate, certenroll/IX509CertificateRequestPkcs10::InitializeFromCertificate, security.ix509certificaterequestpkcs10_initializefromcertificate_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

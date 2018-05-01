@@ -7,7 +7,7 @@ old-location: setup\setupgetlinetext.htm
 old-project: SetupApi
 ms.assetid: ab689e03-5f4f-4f06-bd44-a927e1ab702d
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/10/2018
 ms.keywords: SetupGetLineText, SetupGetLineText function [Setup API], SetupGetLineTextA, SetupGetLineTextW, _setupapi_setupgetlinetext, setup.setupgetlinetext, setupapi/SetupGetLineText, setupapi/SetupGetLineTextA, setupapi/SetupGetLineTextW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,7 +45,7 @@ targetos: Windows
 req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # SetupGetLineTextA function

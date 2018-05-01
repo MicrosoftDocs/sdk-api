@@ -7,7 +7,7 @@ old-location: intl\immisime.htm
 old-project: Intl
 ms.assetid: 87bd38ce-c82c-4a65-8157-fcd69bc79566
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/25/2018
 ms.keywords: ImmIsIME, ImmIsIME function [Internationalization for Windows Applications], _win32_ImmIsIME, imm/ImmIsIME, intl.immisime
 ms.prod: windows-hardware
 ms.technology: windows-devices

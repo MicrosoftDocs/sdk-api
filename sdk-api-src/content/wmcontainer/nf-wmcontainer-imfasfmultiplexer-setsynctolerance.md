@@ -7,7 +7,7 @@ old-location: mf\imfasfmultiplexer_setsynctolerance.htm
 old-project: medfound
 ms.assetid: 54aea995-2beb-4c38-a79f-43a539031d95
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 54aea995-2beb-4c38-a79f-43a539031d95, IMFASFMultiplexer, IMFASFMultiplexer interface [Media Foundation], SetSyncTolerance method, IMFASFMultiplexer::SetSyncTolerance, SetSyncTolerance method [Media Foundation], SetSyncTolerance method [Media Foundation], IMFASFMultiplexer interface, SetSyncTolerance,IMFASFMultiplexer.SetSyncTolerance, mf.imfasfmultiplexer_setsynctolerance, wmcontainer/IMFASFMultiplexer::SetSyncTolerance
 ms.prod: windows-hardware
 ms.technology: windows-devices

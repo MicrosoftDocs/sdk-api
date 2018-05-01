@@ -7,7 +7,7 @@ old-location: base\getnumaavailablememorynodeex.htm
 old-project: ProcThread
 ms.assetid: 59382114-f3da-45e0-843e-51c0fd52a164
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: GetNumaAvailableMemoryNodeEx, GetNumaAvailableMemoryNodeEx function, base.getnumaavailablememorynodeex, winbase/GetNumaAvailableMemoryNodeEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

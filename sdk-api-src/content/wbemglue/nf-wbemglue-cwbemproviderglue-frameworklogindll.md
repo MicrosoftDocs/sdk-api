@@ -7,7 +7,7 @@ old-location: wmi\cwbemproviderglue_frameworklogindll.htm
 old-project: WmiSdk
 ms.assetid: b701c70a-73f6-48b7-ab90-bbde1d29c9a2
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: "?FrameworkLoginDLL@CWbemProviderGlue@@SAHPEBG@Z, ?FrameworkLoginDLL@CWbemProviderGlue@@SGHPBG@Z, CWbemProviderGlue, CWbemProviderGlue interface [Windows Management Instrumentation], FrameworkLoginDLL method, CWbemProviderGlue::FrameworkLoginDLL, FrameworkLoginDLL method [Windows Management Instrumentation], FrameworkLoginDLL method [Windows Management Instrumentation], CWbemProviderGlue interface, FrameworkLoginDLL,CWbemProviderGlue.FrameworkLoginDLL, _hmm_cwbemproviderglue_frameworklogindll, wbemglue/CWbemProviderGlue::FrameworkLoginDLL, wmi.cwbemproviderglue_frameworklogindll"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrControl_UpdateItem.htm
 old-project: shell
 ms.assetid: deb87d2f-74da-450a-a424-505240eadacb
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ISyncMgrControl, ISyncMgrControl interface [Windows Shell], UpdateItem method, ISyncMgrControl::UpdateItem, UpdateItem method [Windows Shell], UpdateItem method [Windows Shell], ISyncMgrControl interface, UpdateItem,ISyncMgrControl.UpdateItem, _shell_ISyncMgrControl_UpdateItem, shell.ISyncMgrControl_UpdateItem, syncmgr/ISyncMgrControl::UpdateItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

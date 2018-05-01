@@ -7,7 +7,7 @@ old-location: shell\ICredentialProviderCredentialEvents_DeleteFieldComboBoxItem.
 old-project: shell
 ms.assetid: 1d871480-4424-4a5b-8650-0211bad8b09a
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: DeleteFieldComboBoxItem method [Windows Shell], DeleteFieldComboBoxItem method [Windows Shell], ICredentialProviderCredentialEvents interface, DeleteFieldComboBoxItem,ICredentialProviderCredentialEvents.DeleteFieldComboBoxItem, ICredentialProviderCredentialEvents, ICredentialProviderCredentialEvents interface [Windows Shell], DeleteFieldComboBoxItem method, ICredentialProviderCredentialEvents::DeleteFieldComboBoxItem, _shell_ICredentialProviderCredentialEvents_DeleteFieldComboBoxItem, credentialprovider/ICredentialProviderCredentialEvents::DeleteFieldComboBoxItem, shell.ICredentialProviderCredentialEvents_DeleteFieldComboBoxItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

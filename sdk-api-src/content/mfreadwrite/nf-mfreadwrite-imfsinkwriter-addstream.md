@@ -7,7 +7,7 @@ old-location: mf\imfsinkwriter_addstream.htm
 old-project: medfound
 ms.assetid: 9f9b1216-e915-4188-bcfd-6c41e1821ec4
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: AddStream method [Media Foundation], AddStream method [Media Foundation], IMFSinkWriter interface, AddStream,IMFSinkWriter.AddStream, IMFSinkWriter, IMFSinkWriter interface [Media Foundation], AddStream method, IMFSinkWriter::AddStream, mf.imfsinkwriter_addstream, mfreadwrite/IMFSinkWriter::AddStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

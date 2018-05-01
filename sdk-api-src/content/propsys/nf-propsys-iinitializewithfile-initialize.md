@@ -7,7 +7,7 @@ old-location: shell\IInitializeWithFile_Initialize.htm
 old-project: shell
 ms.assetid: 7b7bb534-dff7-455b-baee-f573fb645cc3
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IInitializeWithFile, IInitializeWithFile interface [Windows Shell], Initialize method, IInitializeWithFile::Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell], IInitializeWithFile interface, Initialize,IInitializeWithFile.Initialize, STGM_READ, STGM_READWRITE, propsys/IInitializeWithFile::Initialize, shell.IInitializeWithFile_Initialize, shell_IInitializeWithFile_Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IInitializeWithFile::Initialize method

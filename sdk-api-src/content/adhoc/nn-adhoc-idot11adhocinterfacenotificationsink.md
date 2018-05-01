@@ -7,7 +7,7 @@ old-location: nwifi\idot11adhocinterfacenotificationsink.htm
 old-project: NativeWiFi
 ms.assetid: ab3fd026-32b4-48cb-aa10-37a084b5b08e
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/13/2018
 ms.keywords: IDot11AdHocInterfaceNotificationSink, IDot11AdHocInterfaceNotificationSink interface [NativeWIFI], IDot11AdHocInterfaceNotificationSink interface [NativeWIFI], described, adhoc/IDot11AdHocInterfaceNotificationSink, nwifi.idot11adhocinterfacenotificationsink
 ms.prod: windows-hardware
 ms.technology: windows-devices

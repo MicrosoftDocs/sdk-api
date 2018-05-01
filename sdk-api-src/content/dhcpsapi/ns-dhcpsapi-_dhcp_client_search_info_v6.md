@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_search_info_v6.htm
 old-project: DHCP
 ms.assetid: b290baab-9a70-437a-a519-876891184fbc
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/7/2018
 ms.keywords: "*LPDHCP_SEARCH_INFO_V6, DHCP_SEARCH_INFO_V6, DHCP_SEARCH_INFO_V6 structure [DHCP], Dhcpv6ClientDUID, Dhcpv6ClientIpAddress, Dhcpv6ClientName, PDHCP_SEARCH_INFO_V6, PDHCP_SEARCH_INFO_V6 structure pointer [DHCP], _DHCP_CLIENT_SEARCH_INFO_V6, dhcp.dhcp_search_info_v6, dhcpsapi/DHCP_SEARCH_INFO_V6, dhcpsapi/PDHCP_SEARCH_INFO_V6"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -57,6 +57,23 @@ The <b>DHCP_SEARCH_INFO_V6</b> structure contains the term or value on which the
 
 
 
+### -field SearchType
+
+Enumeration value that selects the type of the value on which the DHCPv6 database will be searched.
+
+
+
+##### )
+
+
+
+#####  )
+
+
+
+##### )
+
+
 ### -field SearchInfo
 
 
@@ -84,21 +101,6 @@ Unicode string that specifies the client name to search for.
  
 
 
-### -field SearchType
-
-Enumeration value that selects the type of the value on which the DHCPv6 database will be searched.
-
-
-
-##### )
-
-
-
-#####  )
-
-
-
-##### )
 
 
 ## -see-also

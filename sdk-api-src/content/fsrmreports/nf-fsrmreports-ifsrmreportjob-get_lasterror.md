@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmreportjob_lasterror.htm
 old-project: Fsrm
 ms.assetid: 7a610d10-8e43-49b7-b85b-bb0ec122fda8
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: IFsrmReportJob, IFsrmReportJob interface [File Server Resource Manager], LastError property, IFsrmReportJob.LastError, IFsrmReportJob::get_LastError, LastError property [File Server Resource Manager], LastError property [File Server Resource Manager], IFsrmReportJob interface, fs.ifsrmreportjob_lasterror, fsrm.ifsrmreportjob_lasterror, fsrmreports/IFsrmReportJob::LastError, fsrmreports/IFsrmReportJob::get_LastError, get_LastError,IFsrmReportJob.get_LastError
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\IQueryCodePage.htm
 old-project: shell
 ms.assetid: 362a0b69-ca57-4d56-8c14-8f32aa41926c
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IQueryCodePage, IQueryCodePage interface [Windows Shell], IQueryCodePage interface [Windows Shell], described, _shell_IQueryCodePage, shell.IQueryCodePage, shobjidl/IQueryCodePage
 ms.prod: windows-hardware
 ms.technology: windows-devices

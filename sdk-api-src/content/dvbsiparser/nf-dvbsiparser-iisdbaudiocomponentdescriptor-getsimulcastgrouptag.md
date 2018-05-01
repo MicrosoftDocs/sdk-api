@@ -7,7 +7,7 @@ old-location: mstv\iisdbaudiocomponentdescriptor_getsimulcastgrouptag.htm
 old-project: mstv
 ms.assetid: 125fa9c2-eba0-497b-82ca-cc3223e40b44
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetSimulcastGroupTag method [Microsoft TV Technologies], GetSimulcastGroupTag method [Microsoft TV Technologies], IIsdbAudioComponentDescriptor interface, GetSimulcastGroupTag,IIsdbAudioComponentDescriptor.GetSimulcastGroupTag, IIsdbAudioComponentDescriptor, IIsdbAudioComponentDescriptor interface [Microsoft TV Technologies], GetSimulcastGroupTag method, IIsdbAudioComponentDescriptor::GetSimulcastGroupTag, dvbsiparser/IIsdbAudioComponentDescriptor::GetSimulcastGroupTag, mstv.iisdbaudiocomponentdescriptor_getsimulcastgrouptag
 ms.prod: windows-hardware
 ms.technology: windows-devices

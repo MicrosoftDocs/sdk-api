@@ -7,7 +7,7 @@ old-location: controls\ITextRange_MoveEndUntil.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\moveenduntil.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextRange, ITextRange interface [Windows Controls], MoveEndUntil method, ITextRange::MoveEndUntil, MoveEndUntil method [Windows Controls], MoveEndUntil method [Windows Controls], ITextRange interface, MoveEndUntil,ITextRange.MoveEndUntil, _win32_ITextRange_MoveEndUntil, _win32_ITextRange_MoveEndUntil_cpp, controls.ITextRange_MoveEndUntil, controls._win32_ITextRange_MoveEndUntil, tom/ITextRange::MoveEndUntil
 ms.prod: windows-hardware
 ms.technology: windows-devices

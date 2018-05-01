@@ -7,7 +7,7 @@ old-location: cos\icatalogcollection_item.htm
 old-project: cossdk
 ms.assetid: 47c9dcfd-81fc-495c-848a-8c2b655e8fce
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: ICatalogCollection, ICatalogCollection interface [COM+], Item property, ICatalogCollection.Item, ICatalogCollection::get_Item, Item property [COM+], Item property [COM+], ICatalogCollection interface, _cos_ICatalogCollection_get_Item, comadmin/ICatalogCollection::Item, comadmin/ICatalogCollection::get_Item, cos.icatalogcollection_item, get_Item,ICatalogCollection.get_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices

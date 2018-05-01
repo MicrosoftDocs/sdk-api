@@ -7,7 +7,7 @@ old-location: termserv\iwtsprotocollogonerrorredirector_redirectstatus.htm
 old-project: TermServ
 ms.assetid: a333db5a-3564-4d33-bfd6-244975cc3c4f
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: IWTSProtocolLogonErrorRedirector, IWTSProtocolLogonErrorRedirector interface [Remote Desktop Services], RedirectStatus method, IWTSProtocolLogonErrorRedirector::RedirectStatus, RedirectStatus method [Remote Desktop Services], RedirectStatus method [Remote Desktop Services], IWTSProtocolLogonErrorRedirector interface, RedirectStatus,IWTSProtocolLogonErrorRedirector.RedirectStatus, termserv.iwtsprotocollogonerrorredirector_redirectstatus, wtsprotocol/IWTSProtocolLogonErrorRedirector::RedirectStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

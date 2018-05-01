@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomation_ElementFromHandle.htm
 old-project: WinAuto
 ms.assetid: 07c6b7fa-80af-44c2-abcf-a167385892d5
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: ElementFromHandle method [Windows Accessibility], ElementFromHandle method [Windows Accessibility], IUIAutomation interface, ElementFromHandle,IUIAutomation.ElementFromHandle, IUIAutomation, IUIAutomation interface [Windows Accessibility], ElementFromHandle method, IUIAutomation::ElementFromHandle, uiauto.uiauto_IUIAutomation_ElementFromHandle, uiauto_IUIAutomation_ElementFromHandle, uiautomationclient/IUIAutomation::ElementFromHandle, winauto.uiauto_IUIAutomation_ElementFromHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

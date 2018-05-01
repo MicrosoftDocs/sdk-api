@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_destinationoptions_clone.htm
 old-project: wmi_v2
 ms.assetid: f331561b-97ad-42f1-91b3-d180db92da07
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/18/2018
 ms.keywords: MI_DestinationOptions_Clone, MI_DestinationOptions_Clone function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_Clone, wmi_v2.mi_destinationoptions_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

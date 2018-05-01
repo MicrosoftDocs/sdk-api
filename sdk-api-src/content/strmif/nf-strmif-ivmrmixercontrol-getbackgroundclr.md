@@ -7,7 +7,7 @@ old-location: dshow\ivmrmixercontrol_getbackgroundclr.htm
 old-project: DirectShow
 ms.assetid: 095f0ed3-46e4-48f9-97d5-5bca1c2efa30
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetBackgroundClr method [DirectShow], GetBackgroundClr method [DirectShow], IVMRMixerControl interface, GetBackgroundClr,IVMRMixerControl.GetBackgroundClr, IVMRMixerControl, IVMRMixerControl interface [DirectShow], GetBackgroundClr method, IVMRMixerControl::GetBackgroundClr, IVMRMixerControlGetBackgroundClr, dshow.ivmrmixercontrol_getbackgroundclr, strmif/IVMRMixerControl::GetBackgroundClr
 ms.prod: windows-hardware
 ms.technology: windows-devices

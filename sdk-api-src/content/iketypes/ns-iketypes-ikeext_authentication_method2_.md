@@ -7,7 +7,7 @@ old-location: fwp\ikeext_authentication_method2.htm
 old-project: FWP
 ms.assetid: f0bd649e-746d-4802-87fe-d8baec2b252f
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: IKEEXT_AUTHENTICATION_METHOD2, IKEEXT_AUTHENTICATION_METHOD2 structure [Filtering], IKEEXT_AUTHENTICATION_METHOD2_, fwp.ikeext_authentication_method2, iketypes/IKEEXT_AUTHENTICATION_METHOD2
 ms.prod: windows-hardware
 ms.technology: windows-devices

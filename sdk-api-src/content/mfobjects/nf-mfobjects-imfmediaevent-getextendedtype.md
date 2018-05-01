@@ -7,7 +7,7 @@ old-location: mf\imfmediaevent_getextendedtype.htm
 old-project: medfound
 ms.assetid: 56284491-6f84-467e-9fac-46b04db4024a
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 56284491-6f84-467e-9fac-46b04db4024a, GetExtendedType method [Media Foundation], GetExtendedType method [Media Foundation], IMFMediaEvent interface, GetExtendedType,IMFMediaEvent.GetExtendedType, IMFMediaEvent, IMFMediaEvent interface [Media Foundation], GetExtendedType method, IMFMediaEvent::GetExtendedType, mf.imfmediaevent_getextendedtype, mfobjects/IMFMediaEvent::GetExtendedType
 ms.prod: windows-hardware
 ms.technology: windows-devices

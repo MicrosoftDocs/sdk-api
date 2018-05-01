@@ -7,7 +7,7 @@ old-location: dshow\iamexttransport_getchase.htm
 old-project: DirectShow
 ms.assetid: 9ef12fa0-2ec9-45e5-9c22-20f810dac73b
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetChase method [DirectShow], GetChase method [DirectShow], IAMExtTransport interface, GetChase,IAMExtTransport.GetChase, IAMExtTransport, IAMExtTransport interface [DirectShow], GetChase method, IAMExtTransport::GetChase, IAMExtTransportGetChase, dshow.iamexttransport_getchase, strmif/IAMExtTransport::GetChase
 ms.prod: windows-hardware
 ms.technology: windows-devices

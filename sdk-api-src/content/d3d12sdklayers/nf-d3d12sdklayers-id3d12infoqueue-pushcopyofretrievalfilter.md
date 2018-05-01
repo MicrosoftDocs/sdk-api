@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12infoqueue_pushcopyofretrievalfilter.htm
 old-project: direct3d12
 ms.assetid: A6F73BBC-760A-4CF9-AF81-B4499C4B081E
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: ID3D12InfoQueue, ID3D12InfoQueue interface, PushCopyOfRetrievalFilter method, ID3D12InfoQueue::PushCopyOfRetrievalFilter, PushCopyOfRetrievalFilter method, PushCopyOfRetrievalFilter method, ID3D12InfoQueue interface, PushCopyOfRetrievalFilter,ID3D12InfoQueue.PushCopyOfRetrievalFilter, d3d12sdklayers/ID3D12InfoQueue::PushCopyOfRetrievalFilter, direct3d12.id3d12infoqueue_pushcopyofretrievalfilter
 ms.prod: windows-hardware
 ms.technology: windows-devices

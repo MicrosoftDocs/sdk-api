@@ -7,7 +7,7 @@ old-location: base\rtwqunregisterplatformfrommmcss.htm
 old-project: ProcThread
 ms.assetid: 12fca5ba-640d-4c6f-878b-7744331bbcff
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: RtwqUnregisterPlatformFromMMCSS, RtwqUnregisterPlatformFromMMCSS function, base.rtwqunregisterplatformfrommmcss, rtworkq/RtwqUnregisterPlatformFromMMCSS
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Rtworkq.lib
 req.dll: RTWorkQ.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # RtwqUnregisterPlatformFromMMCSS function

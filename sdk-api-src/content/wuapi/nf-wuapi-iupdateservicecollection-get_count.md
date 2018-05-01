@@ -7,7 +7,7 @@ old-location: wua\iupdateservicecollection_count.htm
 old-project: Wua_Sdk
 ms.assetid: c52afc93-ac73-46d5-9f32-9d2bb8e65176
 ms.author: windowsdriverdev
-ms.date: 3/15/2018
+ms.date: 4/18/2018
 ms.keywords: Count property [Windows Update Agent], Count property [Windows Update Agent], IUpdateServiceCollection interface, IUpdateServiceCollection, IUpdateServiceCollection interface [Windows Update Agent], Count property, IUpdateServiceCollection.Count, IUpdateServiceCollection::get_Count, get_Count,IUpdateServiceCollection.get_Count, wua.iupdateservicecollection_count, wuapi/IUpdateServiceCollection::Count, wuapi/IUpdateServiceCollection::get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices

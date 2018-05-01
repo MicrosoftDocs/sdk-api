@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext_copyresource.htm
 old-project: direct3d11
 ms.assetid: 54c1c08a-792c-463d-8237-9f7947d15396
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/6/2018
 ms.keywords: CopyResource method [Direct3D 11], CopyResource method [Direct3D 11], ID3D11DeviceContext interface, CopyResource,ID3D11DeviceContext.CopyResource, ID3D11DeviceContext, ID3D11DeviceContext interface [Direct3D 11], CopyResource method, ID3D11DeviceContext::CopyResource, b389573e-412e-6a72-6e59-396d4bd62341, d3d11/ID3D11DeviceContext::CopyResource, direct3d11.id3d11devicecontext_copyresource
 ms.prod: windows-hardware
 ms.technology: windows-devices

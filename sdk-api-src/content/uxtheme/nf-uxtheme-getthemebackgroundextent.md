@@ -7,7 +7,7 @@ old-location: controls\GetThemeBackgroundExtent.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemebackgroundextent.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: GetThemeBackgroundExtent, GetThemeBackgroundExtent function [Windows Controls], controls.GetThemeBackgroundExtent, controls.inet_GetThemeBackgroundExtent, inet_GetThemeBackgroundExtent, inet_GetThemeBackgroundExtent_cpp, uxtheme/GetThemeBackgroundExtent
 ms.prod: windows-hardware
 ms.technology: windows-devices

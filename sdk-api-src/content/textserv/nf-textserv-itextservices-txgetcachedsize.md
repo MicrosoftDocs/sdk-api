@@ -7,7 +7,7 @@ old-location: controls\ITextServices_TxGetCachedSize.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txgetcachedsize.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextServices, ITextServices interface [Windows Controls], TxGetCachedSize method, ITextServices::TxGetCachedSize, TxGetCachedSize method [Windows Controls], TxGetCachedSize method [Windows Controls], ITextServices interface, TxGetCachedSize,ITextServices.TxGetCachedSize, _win32_ITextServices_TxGetCachedSize, _win32_ITextServices_TxGetCachedSize_cpp, controls.ITextServices_TxGetCachedSize, controls._win32_ITextServices_TxGetCachedSize, textserv/ITextServices::TxGetCachedSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

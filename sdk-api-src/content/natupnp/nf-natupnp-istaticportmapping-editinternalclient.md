@@ -7,7 +7,7 @@ old-location: ics\istaticportmapping_editinternalclient.htm
 old-project: ICS
 ms.assetid: 864d0edf-c9fd-4ea0-b950-119dc4a630dc
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: EditInternalClient method [ICS/ICF], EditInternalClient method [ICS/ICF], IStaticPortMapping interface, EditInternalClient,IStaticPortMapping.EditInternalClient, IStaticPortMapping, IStaticPortMapping interface [ICS/ICF], EditInternalClient method, IStaticPortMapping::EditInternalClient, _ics_istaticportmapping_editinternalclient, ics.istaticportmapping_editinternalclient, natupnp/IStaticPortMapping::EditInternalClient
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IStaticPortMapping::EditInternalClient method

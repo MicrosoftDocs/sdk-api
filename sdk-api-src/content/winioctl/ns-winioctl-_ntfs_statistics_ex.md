@@ -62,177 +62,6 @@ Contains statistical information from the NTFS file system.Support for this stru
 
 
 
-### -field MftWritesUserLevel
-
-
-
-#### Write
-
-The number of MFT writes due to a write operation.
-
-
-
-#### Create
-
-The number of MFT writes due to a create operation.
-
-
-
-#### SetInfo
-
-The number of MFT writes due to setting file information.
-
-
-
-#### Flush
-
-The number of MFT writes due to a flush operation.
-
-
-### -field Mft2WritesUserLevel
-
-
-
-#### Write
-
-The number of MFT mirror writes due to a write operation.
-
-
-
-#### Create
-
-The number of MFT mirror writes due to a create operation.
-
-
-
-#### SetInfo
-
-The number of MFT mirror writes due to setting file information.
-
-
-
-#### Flush
-
-The number of MFT mirror writes due to a flush operation.
-
-
-### -field BitmapWritesUserLevel
-
-
-
-#### Write
-
-The number of bitmap writes due to a write operation.
-
-
-
-#### Create
-
-The number of bitmap writes due to a create operation.
-
-
-
-#### SetInfo
-
-The number of bitmap writes due to setting file information.
-
-
-
-#### Flush
-
-The number of bitmap writes due to a flush operation.
-
-
-### -field MftBitmapWritesUserLevel
-
-
-
-#### Write
-
-The number of MFT bitmap writes due to a write operation.
-
-
-
-#### Create
-
-The number of bitmap writes due to a create operation.
-
-
-
-#### SetInfo
-
-The number of bitmap writes due to setting file information.
-
-
-
-#### Flush
-
-The number of bitmap writes due to a flush operation.
-
-
-### -field Allocate
-
-
-
-#### Calls
-
-The number of individual calls to allocate clusters.
-
-
-
-#### RunsReturned
-
-The number of runs used to satisfy all the requests.
-
-
-
-#### Hints
-
-The number of times a hint was specified.
-
-
-
-#### HintsHonored
-
-The number of times the hint was useful.
-
-
-
-#### Cache
-
-The number of times the cache was useful other than the hint.
-
-
-
-#### CacheMiss
-
-The number of times the cache was not useful.
-
-
-
-#### Clusters
-
-The number of clusters allocated.
-
-
-
-#### HintsClusters
-
-The number of clusters allocated through the hint.
-
-
-
-#### CacheClusters
-
-The number of clusters allocated through the cache other than the hint.
-
-
-
-#### CacheMissClusters
-
-The number of clusters allocated without the cache.
-
-
 ### -field LogFileFullExceptions
 
 The number of exceptions generated due to the log file being full.
@@ -263,6 +92,33 @@ The number of write operations on the MFT.
 The number of bytes written to the MFT.
 
 
+### -field MftWritesUserLevel
+
+
+
+#### Write
+
+The number of MFT writes due to a write operation.
+
+
+
+#### Create
+
+The number of MFT writes due to a create operation.
+
+
+
+#### SetInfo
+
+The number of MFT writes due to setting file information.
+
+
+
+#### Flush
+
+The number of MFT writes due to a flush operation.
+
+
 ### -field MftWritesFlushForLogFileFull
 
 The number of flushes of the MFT performed because the log file was full.
@@ -286,6 +142,33 @@ The number of write operations on the MFT mirror.
 ### -field Mft2WriteBytes
 
 The number of bytes written to the MFT mirror.
+
+
+### -field Mft2WritesUserLevel
+
+
+
+#### Write
+
+The number of MFT mirror writes due to a write operation.
+
+
+
+#### Create
+
+The number of MFT mirror writes due to a create operation.
+
+
+
+#### SetInfo
+
+The number of MFT mirror writes due to setting file information.
+
+
+
+#### Flush
+
+The number of MFT mirror writes due to a flush operation.
 
 
 ### -field Mft2WritesFlushForLogFileFull
@@ -358,6 +241,33 @@ The number of bitmap write operations performed by the lazy writer thread.
 Reserved.
 
 
+### -field BitmapWritesUserLevel
+
+
+
+#### Write
+
+The number of bitmap writes due to a write operation.
+
+
+
+#### Create
+
+The number of bitmap writes due to a create operation.
+
+
+
+#### SetInfo
+
+The number of bitmap writes due to setting file information.
+
+
+
+#### Flush
+
+The number of bitmap writes due to a flush operation.
+
+
 ### -field MftBitmapReads
 
 The number of read operations on the MFT bitmap.
@@ -391,6 +301,33 @@ The number of MFT bitmap write operations performed by the lazy writer thread.
 ### -field MftBitmapWritesUserRequest
 
 Reserved.
+
+
+### -field MftBitmapWritesUserLevel
+
+
+
+#### Write
+
+The number of MFT bitmap writes due to a write operation.
+
+
+
+#### Create
+
+The number of bitmap writes due to a create operation.
+
+
+
+#### SetInfo
+
+The number of bitmap writes due to setting file information.
+
+
+
+#### Flush
+
+The number of bitmap writes due to a flush operation.
 
 
 ### -field UserIndexReads
@@ -431,6 +368,69 @@ The number of write operations on the log file.
 ### -field LogFileWriteBytes
 
 The number of bytes written to the log file.
+
+
+### -field Allocate
+
+
+
+#### Calls
+
+The number of individual calls to allocate clusters.
+
+
+
+#### RunsReturned
+
+The number of runs used to satisfy all the requests.
+
+
+
+#### Hints
+
+The number of times a hint was specified.
+
+
+
+#### HintsHonored
+
+The number of times the hint was useful.
+
+
+
+#### Cache
+
+The number of times the cache was useful other than the hint.
+
+
+
+#### CacheMiss
+
+The number of times the cache was not useful.
+
+
+
+#### Clusters
+
+The number of clusters allocated.
+
+
+
+#### HintsClusters
+
+The number of clusters allocated through the hint.
+
+
+
+#### CacheClusters
+
+The number of clusters allocated through the cache other than the hint.
+
+
+
+#### CacheMissClusters
+
+The number of clusters allocated without the cache.
 
 
 ### -field DiskResourcesExhausted

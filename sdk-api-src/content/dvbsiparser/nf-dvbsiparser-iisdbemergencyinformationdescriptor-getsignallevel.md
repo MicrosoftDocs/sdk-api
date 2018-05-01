@@ -7,7 +7,7 @@ old-location: mstv\iisdbemergencyinformationdescriptor_getsignallevel.htm
 old-project: mstv
 ms.assetid: cf0c8d51-4ec8-4dad-8ef3-f18339ed0c0c
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetSignalLevel method [Microsoft TV Technologies], GetSignalLevel method [Microsoft TV Technologies], IIsdbEmergencyInformationDescriptor interface, GetSignalLevel,IIsdbEmergencyInformationDescriptor.GetSignalLevel, IIsdbEmergencyInformationDescriptor, IIsdbEmergencyInformationDescriptor interface [Microsoft TV Technologies], GetSignalLevel method, IIsdbEmergencyInformationDescriptor::GetSignalLevel, dvbsiparser/IIsdbEmergencyInformationDescriptor::GetSignalLevel, mstv.iisdbemergencyinformationdescriptor_getsignallevel
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\imixerpinconfig_setstreamtransparent.htm
 old-project: DirectShow
 ms.assetid: d1f60a35-ffef-4ebb-b331-558772310bcb
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IMixerPinConfig, IMixerPinConfig interface [DirectShow], SetStreamTransparent method, IMixerPinConfig::SetStreamTransparent, IMixerPinConfigSetStreamTransparent, SetStreamTransparent method [DirectShow], SetStreamTransparent method [DirectShow], IMixerPinConfig interface, SetStreamTransparent,IMixerPinConfig.SetStreamTransparent, dshow.imixerpinconfig_setstreamtransparent, mpconfig/IMixerPinConfig::SetStreamTransparent
 ms.prod: windows-hardware
 ms.technology: windows-devices

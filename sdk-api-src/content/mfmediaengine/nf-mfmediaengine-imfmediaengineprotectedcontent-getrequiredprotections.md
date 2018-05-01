@@ -7,7 +7,7 @@ old-location: mf\imfmediaengineprotectedcontent_getrequiredprotections.htm
 old-project: medfound
 ms.assetid: 4D67813D-F222-4EB1-B059-6DB5EC642DA2
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetRequiredProtections method [Media Foundation], GetRequiredProtections method [Media Foundation], IMFMediaEngineProtectedContent interface, GetRequiredProtections,IMFMediaEngineProtectedContent.GetRequiredProtections, IMFMediaEngineProtectedContent, IMFMediaEngineProtectedContent interface [Media Foundation], GetRequiredProtections method, IMFMediaEngineProtectedContent::GetRequiredProtections, mf.imfmediaengineprotectedcontent_getrequiredprotections, mfmediaengine/IMFMediaEngineProtectedContent::GetRequiredProtections
 ms.prod: windows-hardware
 ms.technology: windows-devices

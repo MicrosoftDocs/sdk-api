@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmfilegroup_nonmembers.htm
 old-project: Fsrm
 ms.assetid: c3c2ff78-db1a-44df-a7af-15c4a6c4b22d
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: IFsrmFileGroup, IFsrmFileGroup interface [File Server Resource Manager], NonMembers property, IFsrmFileGroup.NonMembers, IFsrmFileGroup::get_NonMembers, IFsrmFileGroup::put_NonMembers, NonMembers property [File Server Resource Manager], NonMembers property [File Server Resource Manager], IFsrmFileGroup interface, fs.ifsrmfilegroup_nonmembers, fsrm.ifsrmfilegroup_nonmembers, fsrmscreen/IFsrmFileGroup::NonMembers, fsrmscreen/IFsrmFileGroup::get_NonMembers, fsrmscreen/IFsrmFileGroup::put_NonMembers, get_NonMembers,IFsrmFileGroup.get_NonMembers
 ms.prod: windows-hardware
 ms.technology: windows-devices

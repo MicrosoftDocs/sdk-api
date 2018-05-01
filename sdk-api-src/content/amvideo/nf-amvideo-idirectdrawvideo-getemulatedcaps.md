@@ -7,7 +7,7 @@ old-location: dshow\idirectdrawvideo_getemulatedcaps.htm
 old-project: DirectShow
 ms.assetid: 623cd000-6194-458d-8ef1-5eca202756c1
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetEmulatedCaps method [DirectShow], GetEmulatedCaps method [DirectShow], IDirectDrawVideo interface, GetEmulatedCaps,IDirectDrawVideo.GetEmulatedCaps, IDirectDrawVideo, IDirectDrawVideo interface [DirectShow], GetEmulatedCaps method, IDirectDrawVideo::GetEmulatedCaps, IDirectDrawVideoGetEmulatedCaps, amvideo/IDirectDrawVideo::GetEmulatedCaps, dshow.idirectdrawvideo_getemulatedcaps
 ms.prod: windows-hardware
 ms.technology: windows-devices

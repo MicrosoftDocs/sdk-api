@@ -7,7 +7,7 @@ old-location: tablet\iinkstrokedisp_findintersections.htm
 old-project: tablet
 ms.assetid: a070fc87-608c-47be-b9b2-e2a41a31226f
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: FindIntersections method [Tablet PC], FindIntersections method [Tablet PC], IInkStrokeDisp interface, FindIntersections,IInkStrokeDisp.FindIntersections, IInkStrokeDisp, IInkStrokeDisp interface [Tablet PC], FindIntersections method, IInkStrokeDisp::FindIntersections, a070fc87-608c-47be-b9b2-e2a41a31226f, msinkaut/IInkStrokeDisp::FindIntersections, tablet.iinkstrokedisp_findintersections
 ms.prod: windows-hardware
 ms.technology: windows-devices

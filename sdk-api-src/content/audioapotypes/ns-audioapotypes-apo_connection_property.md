@@ -7,7 +7,7 @@ old-location: termserv\apo_connection_property.htm
 old-project: TermServ
 ms.assetid: dbf7ed62-445e-4f15-bc21-46117e694dc0
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: APO_CONNECTION_PROPERTY, APO_CONNECTION_PROPERTY structure [Remote Desktop Services], audioapotypes/APO_CONNECTION_PROPERTY, termserv.apo_connection_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

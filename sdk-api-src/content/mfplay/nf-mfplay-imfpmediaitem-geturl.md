@@ -7,7 +7,7 @@ old-location: mf\imfpmediaitem_geturl.htm
 old-project: medfound
 ms.assetid: 2598534c-28cc-4f4c-bf87-17ab7044e0c1
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetURL method [Media Foundation], GetURL method [Media Foundation], IMFPMediaItem interface, GetURL,IMFPMediaItem.GetURL, IMFPMediaItem, IMFPMediaItem interface [Media Foundation], GetURL method, IMFPMediaItem::GetURL, mf.imfpmediaitem_geturl, mfplay/IMFPMediaItem::GetURL
 ms.prod: windows-hardware
 ms.technology: windows-devices

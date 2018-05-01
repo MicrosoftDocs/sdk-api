@@ -7,7 +7,7 @@ old-location: wmp\iwmperror_get_item.htm
 old-project: WMP
 ms.assetid: 6fda2f53-e8d8-4b67-9aa1-72273fc68f6c
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPError, IWMPError interface [Windows Media Player], get_item method, IWMPError::get_item, IWMPErrorget_item, get_item method [Windows Media Player], get_item method [Windows Media Player], IWMPError interface, get_item,IWMPError.get_item, wmp.iwmperror_get_item, wmp/IWMPError::get_item
 ms.prod: windows-hardware
 ms.technology: windows-devices

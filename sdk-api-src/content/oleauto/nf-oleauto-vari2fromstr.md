@@ -7,7 +7,7 @@ old-location: automat\vari2fromstr.htm
 old-project: automat
 ms.assetid: a4f43356-5681-4926-aa2a-471fa2198a2c
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: LOCALE_NOUSEROVERRIDE, VAR_DATEVALUEONLY, VAR_TIMEVALUEONLY, VarI2FromStr, VarI2FromStr function [Automation], _oa96_VarI2FromStr, automat.vari2fromstr, oleauto/VarI2FromStr
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # VarI2FromStr function

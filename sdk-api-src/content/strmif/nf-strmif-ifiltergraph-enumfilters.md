@@ -7,7 +7,7 @@ old-location: dshow\ifiltergraph_enumfilters.htm
 old-project: DirectShow
 ms.assetid: 3a6dcd1a-3ec3-4f0f-8e82-2d33ad775eec
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: EnumFilters method [DirectShow], EnumFilters method [DirectShow], IFilterGraph interface, EnumFilters method [DirectShow], IGraphBuilder interface, EnumFilters,IFilterGraph.EnumFilters, IFilterGraph, IFilterGraph interface [DirectShow], EnumFilters method, IFilterGraph::EnumFilters, IFilterGraphEnumFilters, IGraphBuilder interface [DirectShow], EnumFilters method, IGraphBuilder.EnumFilters, IGraphBuilder::EnumFilters, dshow.ifiltergraph_enumfilters, strmif/IFilterGraph::EnumFilters, strmif/IGraphBuilder::EnumFilters
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontentpartner_sendmessage.htm
 old-project: WMP
 ms.assetid: 9e3c3293-db5d-4963-a9ca-db955c80a959
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPContentPartner, IWMPContentPartner interface [Windows Media Player], SendMessage method, IWMPContentPartner::SendMessage, IWMPContentPartnerSendMessage, SendMessage method [Windows Media Player], SendMessage method [Windows Media Player], IWMPContentPartner interface, SendMessage,IWMPContentPartner.SendMessage, contentpartner/IWMPContentPartner::SendMessage, wmp.iwmpcontentpartner_sendmessage
 ms.prod: windows-hardware
 ms.technology: windows-devices

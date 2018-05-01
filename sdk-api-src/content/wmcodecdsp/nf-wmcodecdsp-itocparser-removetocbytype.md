@@ -7,7 +7,7 @@ old-location: mf\itocparser_removetocbytype.htm
 old-project: medfound
 ms.assetid: e3d32dc9-ccae-46fd-9dd4-62e300981da0
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: ITocParser, ITocParser interface [Media Foundation], RemoveTocByType method, ITocParser::RemoveTocByType, RemoveTocByType method [Media Foundation], RemoveTocByType method [Media Foundation], ITocParser interface, RemoveTocByType,ITocParser.RemoveTocByType, codecapi.itocparser_removetocbytype, mf.itocparser_removetocbytype, wmcodecdsp/ITocParser::RemoveTocByType
 ms.prod: windows-hardware
 ms.technology: windows-devices

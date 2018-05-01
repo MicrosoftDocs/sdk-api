@@ -7,7 +7,7 @@ old-location: mf\idirectxvideoprocessor_videoprocessblt.htm
 old-project: medfound
 ms.assetid: 4a199ad3-621e-4594-a9f8-ad6cfd560cec
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 4a199ad3-621e-4594-a9f8-ad6cfd560cec, IDirectXVideoProcessor, IDirectXVideoProcessor interface [Media Foundation], VideoProcessBlt method, IDirectXVideoProcessor::VideoProcessBlt, VideoProcessBlt method [Media Foundation], VideoProcessBlt method [Media Foundation], IDirectXVideoProcessor interface, VideoProcessBlt,IDirectXVideoProcessor.VideoProcessBlt, dxva2api/IDirectXVideoProcessor::VideoProcessBlt, mf.idirectxvideoprocessor_videoprocessblt
 ms.prod: windows-hardware
 ms.technology: windows-devices

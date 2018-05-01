@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffectrendercontextimpl_getusesoftwarerendere
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectrendercontextimpl\getusesoftwarerenderer.htm
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: GetUseSoftwareRenderer method [WPF Bitmap Effects], GetUseSoftwareRenderer method [WPF Bitmap Effects], IMILBitmapEffectRenderContextImpl interface, GetUseSoftwareRenderer,IMILBitmapEffectRenderContextImpl.GetUseSoftwareRenderer, IMILBitmapEffectRenderContextImpl, IMILBitmapEffectRenderContextImpl interface [WPF Bitmap Effects], GetUseSoftwareRenderer method, IMILBitmapEffectRenderContextImpl::GetUseSoftwareRenderer, _wibe_imilbitmapeffectrendercontextimpl_getusesoftwarerenderer, mileffects/IMILBitmapEffectRenderContextImpl::GetUseSoftwareRenderer, wibe._wibe_imilbitmapeffectrendercontextimpl_getusesoftwarerenderer
 ms.prod: windows-hardware
 ms.technology: windows-devices

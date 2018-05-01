@@ -7,7 +7,7 @@ old-location: dshow\dvd_karaokeattributes.htm
 old-project: DirectShow
 ms.assetid: dffb0b0e-edce-47e7-b9c0-983fdd2c4746
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: DVD_KaraokeAttributes, DVD_KaraokeAttributes structure [DirectShow], DVD_KaraokeAttributesStructure, dshow.dvd_karaokeattributes, strmif/DVD_KaraokeAttributes, tagDVD_KaraokeAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices

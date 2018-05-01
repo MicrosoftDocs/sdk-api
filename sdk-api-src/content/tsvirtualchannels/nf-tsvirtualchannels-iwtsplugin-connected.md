@@ -7,7 +7,7 @@ old-location: termserv\iwtsplugin_connected.htm
 old-project: TermServ
 ms.assetid: 089db67e-6c3d-4950-a1dd-de0a3bbe8d5c
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: Connected method [Remote Desktop Services], Connected method [Remote Desktop Services], IWTSPlugin interface, Connected,IWTSPlugin.Connected, IWTSPlugin, IWTSPlugin interface [Remote Desktop Services], Connected method, IWTSPlugin::Connected, termserv.iwtsplugin_connected, tsvirtualchannels/IWTSPlugin::Connected
 ms.prod: windows-hardware
 ms.technology: windows-devices

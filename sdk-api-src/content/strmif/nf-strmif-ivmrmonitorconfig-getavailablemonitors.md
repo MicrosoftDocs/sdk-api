@@ -7,7 +7,7 @@ old-location: dshow\ivmrmonitorconfig_getavailablemonitors.htm
 old-project: DirectShow
 ms.assetid: 8a44ca7d-a195-4fcf-b09c-01f8176e0aa2
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetAvailableMonitors method [DirectShow], GetAvailableMonitors method [DirectShow], IVMRMonitorConfig interface, GetAvailableMonitors,IVMRMonitorConfig.GetAvailableMonitors, IVMRMonitorConfig, IVMRMonitorConfig interface [DirectShow], GetAvailableMonitors method, IVMRMonitorConfig::GetAvailableMonitors, IVMRMonitorConfigGetAvailableMonitors, dshow.ivmrmonitorconfig_getavailablemonitors, strmif/IVMRMonitorConfig::GetAvailableMonitors
 ms.prod: windows-hardware
 ms.technology: windows-devices

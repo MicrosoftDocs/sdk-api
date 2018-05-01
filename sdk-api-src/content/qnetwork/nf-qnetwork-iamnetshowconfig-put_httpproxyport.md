@@ -7,7 +7,7 @@ old-location: dshow\iamnetshowconfig_put_httpproxyport.htm
 old-project: DirectShow
 ms.assetid: dada8684-66e7-4983-984a-589d48d167ba
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMNetShowConfig, IAMNetShowConfig interface [DirectShow], put_HTTPProxyPort method, IAMNetShowConfig::put_HTTPProxyPort, IAMNetShowConfigput_HTTPProxyPort, dshow.iamnetshowconfig_put_httpproxyport, put_HTTPProxyPort method [DirectShow], put_HTTPProxyPort method [DirectShow], IAMNetShowConfig interface, put_HTTPProxyPort,IAMNetShowConfig.put_HTTPProxyPort, qnetwork/IAMNetShowConfig::put_HTTPProxyPort
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IAMNetShowConfig::put_HTTPProxyPort method

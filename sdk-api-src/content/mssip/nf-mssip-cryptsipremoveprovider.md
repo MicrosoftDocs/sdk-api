@@ -7,7 +7,7 @@ old-location: security\cryptsipremoveprovider.htm
 old-project: SecCrypto
 ms.assetid: 0a269956-b2c7-414a-b002-7cec0d52bfd6
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: CryptSIPRemoveProvider, CryptSIPRemoveProvider function [Security], mssip/CryptSIPRemoveProvider, security.cryptsipremoveprovider
 ms.prod: windows-hardware
 ms.technology: windows-devices

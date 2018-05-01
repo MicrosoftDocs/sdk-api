@@ -7,7 +7,7 @@ old-location: wmp\iwmpplayer4_get_playerapplication.htm
 old-project: WMP
 ms.assetid: 37b4b0b1-f16e-42ed-830e-9b0468a66eeb
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPPlayer4, IWMPPlayer4 interface [Windows Media Player], get_playerApplication method, IWMPPlayer4::get_playerApplication, IWMPPlayer4get_playerApplication, get_playerApplication method [Windows Media Player], get_playerApplication method [Windows Media Player], IWMPPlayer4 interface, get_playerApplication,IWMPPlayer4.get_playerApplication, wmp.iwmpplayer4_get_playerapplication, wmp/IWMPPlayer4::get_playerApplication
 ms.prod: windows-hardware
 ms.technology: windows-devices

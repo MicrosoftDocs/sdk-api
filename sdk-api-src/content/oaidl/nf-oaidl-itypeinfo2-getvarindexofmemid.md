@@ -7,7 +7,7 @@ old-location: automat\itypeinfo2_getvarindexofmemid.htm
 old-project: automat
 ms.assetid: 6b97ddbf-bcb3-4e39-a355-40c1fd4e8c6a
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: GetVarIndexOfMemId method [Automation], GetVarIndexOfMemId method [Automation], ITypeInfo2 interface, GetVarIndexOfMemId,ITypeInfo2.GetVarIndexOfMemId, ITypeInfo2, ITypeInfo2 interface [Automation], GetVarIndexOfMemId method, ITypeInfo2::GetVarIndexOfMemId, _oa96_ITypeInfo2_GetVarIndexOfMemId, automat.itypeinfo2_getvarindexofmemid, oaidl/ITypeInfo2::GetVarIndexOfMemId
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITypeInfo2::GetVarIndexOfMemId method

@@ -7,7 +7,7 @@ old-location: mstv\iencoderapi_issupported.htm
 old-project: mstv
 ms.assetid: bbcbde18-2b2d-48b0-9f52-185648f502ce
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IEncoderAPI, IEncoderAPI interface [Microsoft TV Technologies], IsSupported method, IEncoderAPI::IsSupported, IEncoderAPIIsSupported, IsSupported method [Microsoft TV Technologies], IsSupported method [Microsoft TV Technologies], IEncoderAPI interface, IsSupported,IEncoderAPI.IsSupported, mstv.iencoderapi_issupported, strmif/IEncoderAPI::IsSupported
 ms.prod: windows-hardware
 ms.technology: windows-devices

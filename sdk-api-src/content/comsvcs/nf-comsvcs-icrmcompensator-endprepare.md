@@ -7,7 +7,7 @@ old-location: cos\icrmcompensator_endprepare.htm
 old-project: cossdk
 ms.assetid: 97dfdd8c-1a33-4173-aa71-cb9c9b1ef5ee
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: EndPrepare method [COM+], EndPrepare method [COM+], ICrmCompensator interface, EndPrepare,ICrmCompensator.EndPrepare, ICrmCompensator, ICrmCompensator interface [COM+], EndPrepare method, ICrmCompensator::EndPrepare, _dtc_ICrmCompensator_EndPrepare, comsvcs/ICrmCompensator::EndPrepare, cos.icrmcompensator_endprepare
 ms.prod: windows-hardware
 ms.technology: windows-devices

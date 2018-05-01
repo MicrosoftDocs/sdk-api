@@ -7,7 +7,7 @@ old-location: tapi3\itdirectoryobjectuser_put_ipphoneprimary.htm
 old-project: Tapi
 ms.assetid: ba53ea12-7f05-4f68-8a59-915a5906b7be
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: ITDirectoryObjectUser, ITDirectoryObjectUser interface [TAPI 2.2], put_IPPhonePrimary method, ITDirectoryObjectUser::put_IPPhonePrimary, _tapi3_itdirectoryobjectuser_put_ipphoneprimary, put_IPPhonePrimary method [TAPI 2.2], put_IPPhonePrimary method [TAPI 2.2], ITDirectoryObjectUser interface, put_IPPhonePrimary,ITDirectoryObjectUser.put_IPPhonePrimary, rend/ITDirectoryObjectUser::put_IPPhonePrimary, tapi3.itdirectoryobjectuser_put_ipphoneprimary
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Rend.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITDirectoryObjectUser::put_IPPhonePrimary method

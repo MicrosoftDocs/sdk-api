@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3ddevice9__setsoftwarevertexprocessing.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__setsoftwarevertexprocessing.htm
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/10/2018
 ms.keywords: IDirect3DDevice9, IDirect3DDevice9 interface [Direct3D 9], SetSoftwareVertexProcessing method, IDirect3DDevice9::SetSoftwareVertexProcessing, SetSoftwareVertexProcessing method [Direct3D 9], SetSoftwareVertexProcessing method [Direct3D 9], IDirect3DDevice9 interface, SetSoftwareVertexProcessing,IDirect3DDevice9.SetSoftwareVertexProcessing, d3d9helper/IDirect3DDevice9::SetSoftwareVertexProcessing, direct3d9.idirect3ddevice9__setsoftwarevertexprocessing, f140124d-0bf1-92be-8e64-ee7d8f661302
 ms.prod: windows-hardware
 ms.technology: windows-devices

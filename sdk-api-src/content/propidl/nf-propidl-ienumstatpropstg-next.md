@@ -7,7 +7,7 @@ old-location: stg\ienumstatpropstg_next.htm
 old-project: Stg
 ms.assetid: 8e911da9-0056-4267-b9d0-c4ba929ddb94
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/20/2018
 ms.keywords: IEnumSTATPROPSTG, IEnumSTATPROPSTG interface [Structured Storage], Next method, IEnumSTATPROPSTG::Next, Next method [Structured Storage], Next method [Structured Storage], IEnumSTATPROPSTG interface, Next,IEnumSTATPROPSTG.Next, propidlbase/IEnumSTATPROPSTG::Next, stg.ienumstatpropstg_next
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IEnumSTATPROPSTG::Next method

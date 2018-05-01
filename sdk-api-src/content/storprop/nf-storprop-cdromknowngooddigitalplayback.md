@@ -7,7 +7,7 @@ old-location: base\cdromknowngooddigitalplayback.htm
 old-project: DevIO
 ms.assetid: df242729-2082-4608-bd73-4c8d215a09ea
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/3/2018
 ms.keywords: CdromKnownGoodDigitalPlayback, CdromKnownGoodDigitalPlayback function, base.cdromknowngooddigitalplayback, storprop/CdromKnownGoodDigitalPlayback
 ms.prod: windows-hardware
 ms.technology: windows-devices

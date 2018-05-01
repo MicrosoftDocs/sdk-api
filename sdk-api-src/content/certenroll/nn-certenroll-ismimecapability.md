@@ -7,7 +7,7 @@ old-location: security\ismimecapability.htm
 old-project: SecCertEnroll
 ms.assetid: 3cfbb16f-88fa-41f1-b719-cd5e8ad636cc
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: ISmimeCapability, ISmimeCapability interface [Security], ISmimeCapability interface [Security], described, certenroll/ISmimeCapability, security.ismimecapability
 ms.prod: windows-hardware
 ms.technology: windows-devices

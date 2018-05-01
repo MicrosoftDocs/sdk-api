@@ -7,7 +7,7 @@ old-location: cos\isharedpropertygroup_createproperty.htm
 old-project: cossdk
 ms.assetid: bc34ec47-b39f-49fd-a8dd-8c96bb708e88
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: CreateProperty method [COM+], CreateProperty method [COM+], ISharedPropertyGroup interface, CreateProperty,ISharedPropertyGroup.CreateProperty, ISharedPropertyGroup, ISharedPropertyGroup interface [COM+], CreateProperty method, ISharedPropertyGroup::CreateProperty, _cos_ISharedPropertyGroup_CreateProperty, comsvcs/ISharedPropertyGroup::CreateProperty, cos.isharedpropertygroup_createproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

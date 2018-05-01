@@ -7,7 +7,7 @@ old-location: security\iazscope_openrole.htm
 old-project: SecAuthZ
 ms.assetid: 55ec166e-5aad-411d-8cc4-0d789c8397c4
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: AzScope object [Security], OpenRole method, IAzScope, IAzScope interface [Security], OpenRole method, IAzScope::OpenRole, OpenRole method [Security], OpenRole method [Security], AzScope object, OpenRole method [Security], IAzScope interface, OpenRole,IAzScope.OpenRole, azroles/IAzScope::OpenRole, security.iazscope_openrole
 ms.prod: windows-hardware
 ms.technology: windows-devices

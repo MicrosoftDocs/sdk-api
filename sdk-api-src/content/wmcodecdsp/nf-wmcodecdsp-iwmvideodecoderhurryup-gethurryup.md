@@ -7,7 +7,7 @@ old-location: mf\iwmvideodecoderhurryupgethurryup.htm
 old-project: medfound
 ms.assetid: c5c58acd-ebf9-46ce-977b-1478b42559c4
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetHurryup method [Media Foundation], GetHurryup method [Media Foundation], IWMVideoDecoderHurryup interface, GetHurryup,IWMVideoDecoderHurryup.GetHurryup, IWMVideoDecoderHurryup, IWMVideoDecoderHurryup interface [Media Foundation], GetHurryup method, IWMVideoDecoderHurryup::GetHurryup, codecapi.iwmvideodecoderhurryupgethurryup, mf.iwmvideodecoderhurryupgethurryup, wmcodecdsp/ IWMVideoDecoderHurryup::GetHurryup
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_filter_type.htm
 old-project: direct3d12
 ms.assetid: 3988D194-97C7-46C7-829D-154891684D68
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: D3D12_FILTER_TYPE, D3D12_FILTER_TYPE enumeration, D3D12_FILTER_TYPE_LINEAR, D3D12_FILTER_TYPE_POINT, d3d12/D3D12_FILTER_TYPE, d3d12/D3D12_FILTER_TYPE_LINEAR, d3d12/D3D12_FILTER_TYPE_POINT, direct3d12.d3d12_filter_type
 ms.prod: windows-hardware
 ms.technology: windows-devices

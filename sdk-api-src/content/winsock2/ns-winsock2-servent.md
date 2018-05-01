@@ -7,7 +7,7 @@ old-location: winsock\servent_2.htm
 old-project: WinSock
 ms.assetid: 8696b854-4d37-4d1b-8383-169b5dc7a2ae
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/24/2018
 ms.keywords: "*LPSERVENT, *PSERVENT, FAR *LPSERVENT, FAR *LPSERVENT structure [Winsock], PSERVENT, PSERVENT structure pointer [Winsock], SERVENT, SERVENT structure [Winsock], _win32_servent_2, servent, servent structure [Winsock], winsock.servent_2, winsock/FAR *LPSERVENT, winsock/PSERVENT, winsock/servent"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,22 +60,22 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 
 
-#### - s_name
+### -field s_name
 
 The official name of the service.
 
 
-#### - s_aliases
+### -field s_aliases
 
 A <b>NULL</b>-terminated array of alternate names.
 
 
-#### - s_port
+### -field s_port
 
 The port number at which the service can be contacted. Port numbers are returned in network byte order.
 
 
-#### - s_proto
+### -field s_proto
 
 The name of the protocol to use when contacting the service.
 

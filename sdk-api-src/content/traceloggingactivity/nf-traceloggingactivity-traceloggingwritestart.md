@@ -7,7 +7,7 @@ old-location: tracelogging\traceloggingwritestart.htm
 old-project: tracelogging
 ms.assetid: E5B9347E-50A7-49BE-BDD5-DCED39371234
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: TraceLoggingWriteStart, TraceLoggingWriteStart macro, tracelogging.traceloggingwritestart, traceloggingactivity/TraceLoggingWriteStart
 ms.prod: windows-hardware
 ms.technology: windows-devices

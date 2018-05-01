@@ -7,7 +7,7 @@ old-location: security\ix509enrollmentpolicyserver_cost.htm
 old-project: SecCertEnroll
 ms.assetid: e79bc71f-5f7b-47d7-b45b-1279d27439d2
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: Cost property [Security], Cost property [Security], IX509EnrollmentPolicyServer interface, IX509EnrollmentPolicyServer, IX509EnrollmentPolicyServer interface [Security], Cost property, IX509EnrollmentPolicyServer.Cost, IX509EnrollmentPolicyServer::get_Cost, IX509EnrollmentPolicyServer::put_Cost, certenroll/IX509EnrollmentPolicyServer::Cost, certenroll/IX509EnrollmentPolicyServer::get_Cost, certenroll/IX509EnrollmentPolicyServer::put_Cost, put_Cost,IX509EnrollmentPolicyServer.put_Cost, security.ix509enrollmentpolicyserver_cost
 ms.prod: windows-hardware
 ms.technology: windows-devices

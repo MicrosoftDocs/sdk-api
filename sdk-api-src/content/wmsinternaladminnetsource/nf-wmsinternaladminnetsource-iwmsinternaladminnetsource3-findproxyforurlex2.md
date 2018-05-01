@@ -7,7 +7,7 @@ old-location: wmformat\iwmsinternaladminnetsource3_findproxyforurlex2.htm
 old-project: wmformat
 ms.assetid: 03c52ed2-bf77-4013-89d6-544d048f1056
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: FindProxyForURLEx2 method [windows Media Format], FindProxyForURLEx2 method [windows Media Format], IWMSInternalAdminNetSource3 interface, FindProxyForURLEx2,IWMSInternalAdminNetSource3.FindProxyForURLEx2, IWMSInternalAdminNetSource3, IWMSInternalAdminNetSource3 interface [windows Media Format], FindProxyForURLEx2 method, IWMSInternalAdminNetSource3::FindProxyForURLEx2, IWMSInternalAdminNetSource3FindProxyForURLEx2, wmformat.iwmsinternaladminnetsource3_findproxyforurlex2, wmsinternaladminnetsource/IWMSInternalAdminNetSource3::FindProxyForURLEx2
 ms.prod: windows-hardware
 ms.technology: windows-devices

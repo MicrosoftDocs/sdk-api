@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontentpartnercallback_downloadtrack.htm
 old-project: WMP
 ms.assetid: fe8772fa-2eb4-4dfe-b677-e667b6021690
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: DownloadTrack method [Windows Media Player], DownloadTrack method [Windows Media Player], IWMPContentPartnerCallback interface, DownloadTrack,IWMPContentPartnerCallback.DownloadTrack, IWMPContentPartnerCallback, IWMPContentPartnerCallback interface [Windows Media Player], DownloadTrack method, IWMPContentPartnerCallback::DownloadTrack, IWMPContentPartnerCallbackDownloadTrack, contentpartner/IWMPContentPartnerCallback::DownloadTrack, wmp.iwmpcontentpartnercallback_downloadtrack
 ms.prod: windows-hardware
 ms.technology: windows-devices

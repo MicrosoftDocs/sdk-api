@@ -7,7 +7,7 @@ old-location: mstv\impeg2_tif_control_addpids.htm
 old-project: mstv
 ms.assetid: 27add7cc-1d77-4ac5-b63f-757f63f4c9b8
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: AddPIDs method [Microsoft TV Technologies], AddPIDs method [Microsoft TV Technologies], IMPEG2_TIF_CONTROL interface, AddPIDs,IMPEG2_TIF_CONTROL.AddPIDs, IMPEG2_TIF_CONTROL, IMPEG2_TIF_CONTROL interface [Microsoft TV Technologies], AddPIDs method, IMPEG2_TIF_CONTROL::AddPIDs, IMPEG2_TIF_CONTROLAddPIDs, bdatif/IMPEG2_TIF_CONTROL::AddPIDs, mstv.impeg2_tif_control_addpids
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: SpanningEventEmmMessage
+req.typenames: SmartCardApplication
 topic_type:
 -	APIRef
 -	kbSyntax

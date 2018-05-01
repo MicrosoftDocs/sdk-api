@@ -7,7 +7,7 @@ old-location: mstv\ibda_conditionalaccess_get_entitlement.htm
 old-project: mstv
 ms.assetid: 361fe0ee-5834-4474-9cc7-92ea9077571c
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IBDA_ConditionalAccess, IBDA_ConditionalAccess interface [Microsoft TV Technologies], get_Entitlement method, IBDA_ConditionalAccess::get_Entitlement, IBDA_ConditionalAccessget_Entitlement, bdaiface/IBDA_ConditionalAccess::get_Entitlement, get_Entitlement method [Microsoft TV Technologies], get_Entitlement method [Microsoft TV Technologies], IBDA_ConditionalAccess interface, get_Entitlement,IBDA_ConditionalAccess.get_Entitlement, mstv.ibda_conditionalaccess_get_entitlement
 ms.prod: windows-hardware
 ms.technology: windows-devices

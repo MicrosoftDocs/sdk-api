@@ -7,7 +7,7 @@ old-location: mstv\iatsc_eit_getsourceid.htm
 old-project: mstv
 ms.assetid: 2ab6709e-3d96-4388-a9b2-97a2f04a4eae
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetSourceId method [Microsoft TV Technologies], GetSourceId method [Microsoft TV Technologies], IATSC_EIT interface, GetSourceId,IATSC_EIT.GetSourceId, IATSC_EIT, IATSC_EIT interface [Microsoft TV Technologies], GetSourceId method, IATSC_EIT::GetSourceId, IATSC_EITGetSourceId, atscpsipparser/IATSC_EIT::GetSourceId, mstv.iatsc_eit_getsourceid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_WRITER_PAYLOAD_STREAM
+req.typenames: AsyncStatus
 topic_type:
 -	APIRef
 -	kbSyntax

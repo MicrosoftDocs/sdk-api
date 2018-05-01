@@ -7,7 +7,7 @@ old-location: tapi3\cmspaddress_getdynamicterminalclasses.htm
 old-project: Tapi
 ms.assetid: 62ded118-ee43-4500-97e2-4177518465a6
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: CMSPAddress, CMSPAddress interface [TAPI 2.2], GetDynamicTerminalClasses method, CMSPAddress::GetDynamicTerminalClasses, GetDynamicTerminalClasses method [TAPI 2.2], GetDynamicTerminalClasses method [TAPI 2.2], CMSPAddress interface, GetDynamicTerminalClasses,CMSPAddress.GetDynamicTerminalClasses, _tapi3_cmspaddress_getdynamicterminalclasses, mspaddr/CMSPAddress::GetDynamicTerminalClasses, tapi3.cmspaddress_getdynamicterminalclasses
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: OPC_SIGNATURE_TIME_FORMAT
+req.typenames: MSP_EVENT_INFO
 topic_type:
 -	APIRef
 -	kbSyntax

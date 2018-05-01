@@ -7,7 +7,7 @@ old-location: wmi\iwbemobjectaccess_getpropertyhandle.htm
 old-project: WmiSdk
 ms.assetid: 889d90cd-f53f-460e-b1c2-ed2b87863d58
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: GetPropertyHandle method [Windows Management Instrumentation], GetPropertyHandle method [Windows Management Instrumentation], IWbemObjectAccess interface, GetPropertyHandle,IWbemObjectAccess.GetPropertyHandle, IWbemObjectAccess, IWbemObjectAccess interface [Windows Management Instrumentation], GetPropertyHandle method, IWbemObjectAccess::GetPropertyHandle, _hmm_iwbemobjectaccess_getpropertyhandle, wbemcli/IWbemObjectAccess::GetPropertyHandle, wmi.iwbemobjectaccess_getpropertyhandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

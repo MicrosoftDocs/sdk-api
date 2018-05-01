@@ -7,7 +7,7 @@ old-location: shell\IQueryCodePage_GetCodePage.htm
 old-project: shell
 ms.assetid: 05644051-c64e-443c-bc98-ed296bc0b8d9
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetCodePage method [Windows Shell], GetCodePage method [Windows Shell], IQueryCodePage interface, GetCodePage,IQueryCodePage.GetCodePage, IQueryCodePage, IQueryCodePage interface [Windows Shell], GetCodePage method, IQueryCodePage::GetCodePage, _shell_IQueryCodePage_GetCodePage, shell.IQueryCodePage_GetCodePage, shobjidl/IQueryCodePage::GetCodePage
 ms.prod: windows-hardware
 ms.technology: windows-devices

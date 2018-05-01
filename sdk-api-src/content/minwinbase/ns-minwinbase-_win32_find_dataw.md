@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: WIN32_FIND_DATAW (Unicode) and WIN32_FIND_DATAA (ANSI)
-req.idl: Mileffects.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 

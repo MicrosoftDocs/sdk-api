@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3dvolume9__setprivatedata.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dvolume9__setprivatedata.htm
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/10/2018
 ms.keywords: IDirect3DVolume9, IDirect3DVolume9 interface [Direct3D 9], SetPrivateData method, IDirect3DVolume9::SetPrivateData, SetPrivateData method [Direct3D 9], SetPrivateData method [Direct3D 9], IDirect3DVolume9 interface, SetPrivateData,IDirect3DVolume9.SetPrivateData, d3d9helper/IDirect3DVolume9::SetPrivateData, direct3d9.idirect3dvolume9__setprivatedata, e78e1093-63e6-c468-61fa-034b8ab6af7a
 ms.prod: windows-hardware
 ms.technology: windows-devices

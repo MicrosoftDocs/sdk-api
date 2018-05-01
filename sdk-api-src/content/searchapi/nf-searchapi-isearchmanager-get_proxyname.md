@@ -7,7 +7,7 @@ old-location: search\_search_ISearchManager_get_ProxyName.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchmanager\get_proxyname.htm
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/24/2018
 ms.keywords: ISearchManager, ISearchManager interface [search], get_ProxyName method, ISearchManager::get_ProxyName, _search_ISearchManager_get_ProxyName, get_ProxyName method [search], get_ProxyName method [search], ISearchManager interface, get_ProxyName,ISearchManager.get_ProxyName, search._search_ISearchManager_get_ProxyName, searchapi/ISearchManager::get_ProxyName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ISearchManager::get_ProxyName method

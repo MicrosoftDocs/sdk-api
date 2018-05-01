@@ -7,7 +7,7 @@ old-location: termserv\itssbbasenotifysink_onreportstatus.htm
 old-project: TermServ
 ms.assetid: 4bde8375-b03a-44b8-9ba5-bc15277f3a4a
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: CLIENT_MESSAGE_CONNECTION_ERROR, CLIENT_MESSAGE_CONNECTION_STATUS, ITsSbBaseNotifySink, ITsSbBaseNotifySink interface [Remote Desktop Services], OnReportStatus method, ITsSbBaseNotifySink::OnReportStatus, OnReportStatus method [Remote Desktop Services], OnReportStatus method [Remote Desktop Services], ITsSbBaseNotifySink interface, OnReportStatus,ITsSbBaseNotifySink.OnReportStatus, TS_STATUS_VM_BOOTING, TS_STATUS_VM_LOADING, TS_STATUS_VM_WAKING, sbtsv/ITsSbBaseNotifySink::OnReportStatus, termserv.itssbbasenotifysink_onreportstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITsSbBaseNotifySink::OnReportStatus method

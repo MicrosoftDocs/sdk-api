@@ -7,7 +7,7 @@ old-location: wmi\iwbemcallresult_getresultservices.htm
 old-project: WmiSdk
 ms.assetid: 64a4fc4c-f479-4b03-847c-041508e55532
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: GetResultServices method [Windows Management Instrumentation], GetResultServices method [Windows Management Instrumentation], IWbemCallResult interface, GetResultServices,IWbemCallResult.GetResultServices, IWbemCallResult, IWbemCallResult interface [Windows Management Instrumentation], GetResultServices method, IWbemCallResult::GetResultServices, _hmm_iwbemcallresult_getresultservices, wbemcli/IWbemCallResult::GetResultServices, wmi.iwbemcallresult_getresultservices
 ms.prod: windows-hardware
 ms.technology: windows-devices

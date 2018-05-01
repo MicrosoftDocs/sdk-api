@@ -7,7 +7,7 @@ old-location: mediastreaming\idevicecontroller_remove_devicearrival.htm
 old-project: mediastreaming
 ms.assetid: D1026B13-627C-4FD4-A402-C05E42CF3DCF
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/10/2018
 ms.keywords: IDeviceController, IDeviceController interface [Media Streaming API], remove_DeviceArrival method, IDeviceController::remove_DeviceArrival, mediastreaming.idevicecontroller_remove_devicearrival, remove_DeviceArrival method [Media Streaming API], remove_DeviceArrival method [Media Streaming API], IDeviceController interface, remove_DeviceArrival,IDeviceController.remove_DeviceArrival, windows/IDeviceController::remove_DeviceArrival
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: PDF_RENDER_PARAMS
+req.typenames: TimeSpan
 topic_type:
 -	APIRef
 -	kbSyntax

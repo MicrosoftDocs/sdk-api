@@ -7,7 +7,7 @@ old-location: termserv\itssbplacement_queryenvironmentfortarget.htm
 old-project: TermServ
 ms.assetid: 62320a0b-3f3e-4341-a481-a43af39c06f7
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: ITsSbPlacement, ITsSbPlacement interface [Remote Desktop Services], QueryEnvironmentForTarget method, ITsSbPlacement::QueryEnvironmentForTarget, QueryEnvironmentForTarget method [Remote Desktop Services], QueryEnvironmentForTarget method [Remote Desktop Services], ITsSbPlacement interface, QueryEnvironmentForTarget,ITsSbPlacement.QueryEnvironmentForTarget, sbtsv/ITsSbPlacement::QueryEnvironmentForTarget, termserv.itssbplacement_queryenvironmentfortarget
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITsSbPlacement::QueryEnvironmentForTarget method

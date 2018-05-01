@@ -7,7 +7,7 @@ old-location: com\icallframe_getreturnvalue.htm
 old-project: com
 ms.assetid: eb03e968-37af-46fd-b2ed-08c5ef8eb265
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: GetReturnValue method [COM], GetReturnValue method [COM], ICallFrame interface, GetReturnValue,ICallFrame.GetReturnValue, ICallFrame, ICallFrame interface [COM], GetReturnValue method, ICallFrame::GetReturnValue, _com_icallframe_getreturnvalue, callobj/ICallFrame::GetReturnValue, com.icallframe_getreturnvalue
 ms.prod: windows-hardware
 ms.technology: windows-devices

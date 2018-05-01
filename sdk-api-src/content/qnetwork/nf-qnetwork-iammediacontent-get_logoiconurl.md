@@ -7,7 +7,7 @@ old-location: dshow\iammediacontent_get_logoiconurl.htm
 old-project: DirectShow
 ms.assetid: 249f06ad-1571-4259-aaae-d0bc8208b9e5
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMMediaContent, IAMMediaContent interface [DirectShow], get_LogoIconURL method, IAMMediaContent::get_LogoIconURL, IAMMediaContentget_LogoIconURL, dshow.iammediacontent_get_logoiconurl, get_LogoIconURL method [DirectShow], get_LogoIconURL method [DirectShow], IAMMediaContent interface, get_LogoIconURL,IAMMediaContent.get_LogoIconURL, qnetwork/IAMMediaContent::get_LogoIconURL
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IAMMediaContent::get_LogoIconURL method

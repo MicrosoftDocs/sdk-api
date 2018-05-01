@@ -7,7 +7,7 @@ old-location: fs\ntms_mediapoolinformation.htm
 old-project: Rsm
 ms.assetid: 4feb9d68-f88b-4515-9c59-64fe9c5594d6
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/5/2018
 ms.keywords: NTMS_ALLOCATE_FROMSCRATCH, NTMS_DEALLOCATE_TOSCRATCH, NTMS_MEDIAPOOLINFORMATION, NTMS_MEDIAPOOLINFORMATION structure [Files], NTMS_POOLTYPE_APPLICATION, NTMS_POOLTYPE_FOREIGN, NTMS_POOLTYPE_IMPORT, NTMS_POOLTYPE_SCRATCH, NTMS_POOLTYPE_UNKNOWN, _NTMS_MEDIAPOOLINFORMATION, _zaw_ntms_mediapoolinformation, base.ntms_mediapoolinformation, fs.ntms_mediapoolinformation, ntmsapi/NTMS_MEDIAPOOLINFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _NTMS_MEDIAPOOLINFORMATION structure

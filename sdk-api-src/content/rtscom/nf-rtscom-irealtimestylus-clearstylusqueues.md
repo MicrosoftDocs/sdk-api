@@ -7,7 +7,7 @@ old-location: tablet\irealtimestylus_clearstylusqueues.htm
 old-project: tablet
 ms.assetid: 28270403-9d6d-4e57-9ec5-0d697f4df185
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: 28270403-9d6d-4e57-9ec5-0d697f4df185, ClearStylusQueues method [Tablet PC], ClearStylusQueues method [Tablet PC], IRealTimeStylus interface, ClearStylusQueues,IRealTimeStylus.ClearStylusQueues, IRealTimeStylus, IRealTimeStylus interface [Tablet PC], ClearStylusQueues method, IRealTimeStylus::ClearStylusQueues, rtscom/IRealTimeStylus::ClearStylusQueues, tablet.irealtimestylus_clearstylusqueues
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: RTSCom.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IRealTimeStylus::ClearStylusQueues method

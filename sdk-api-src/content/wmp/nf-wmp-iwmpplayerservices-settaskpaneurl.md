@@ -7,7 +7,7 @@ old-location: wmp\iwmpplayerservices_settaskpaneurl.htm
 old-project: WMP
 ms.assetid: 4ceacaeb-09af-4cdf-84b7-04574a83ec48
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPPlayerServices, IWMPPlayerServices interface [Windows Media Player], setTaskPaneURL method, IWMPPlayerServices::setTaskPaneURL, IWMPPlayerServicessetTaskPaneURLdeprecated, setTaskPaneURL method [Windows Media Player], setTaskPaneURL method [Windows Media Player], IWMPPlayerServices interface, setTaskPaneURL,IWMPPlayerServices.setTaskPaneURL, wmp.iwmpplayerservices_settaskpaneurl, wmp/IWMPPlayerServices::setTaskPaneURL
 ms.prod: windows-hardware
 ms.technology: windows-devices

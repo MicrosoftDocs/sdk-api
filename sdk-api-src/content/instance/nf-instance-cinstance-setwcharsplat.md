@@ -7,7 +7,7 @@ old-location: wmi\cinstance_setwcharsplat.htm
 old-project: WmiSdk
 ms.assetid: 3c565630-3626-4d60-9bd2-74c2218bec11
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: CInstance, CInstance interface [Windows Management Instrumentation], SetWCHARSplat method, CInstance::SetWCHARSplat, SetWCHARSplat method [Windows Management Instrumentation], SetWCHARSplat method [Windows Management Instrumentation], CInstance interface, SetWCHARSplat,CInstance.SetWCHARSplat, _hmm_cinstance_setwcharsplat, instance/CInstance::SetWCHARSplat, wmi.cinstance_setwcharsplat
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: InputScope
+req.typenames: TrustLevel
 topic_type:
 -	APIRef
 -	kbSyntax

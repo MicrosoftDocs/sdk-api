@@ -7,7 +7,7 @@ old-location: mstv\idvb_bat_getnexttable.htm
 old-project: mstv
 ms.assetid: 9ba93496-d32f-44f1-83d8-1cfb61b689e9
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetNextTable method [Microsoft TV Technologies], GetNextTable method [Microsoft TV Technologies], IDVB_BAT interface, GetNextTable,IDVB_BAT.GetNextTable, IDVB_BAT, IDVB_BAT interface [Microsoft TV Technologies], GetNextTable method, IDVB_BAT::GetNextTable, IDVB_BATGetNextTable, dvbsiparser/IDVB_BAT::GetNextTable, mstv.idvb_bat_getnexttable
 ms.prod: windows-hardware
 ms.technology: windows-devices

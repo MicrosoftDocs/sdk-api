@@ -7,7 +7,7 @@ old-location: shell\IShellFolderViewDual3_put_SortColumns.htm
 old-project: shell
 ms.assetid: cd61c44e-1612-48e3-9230-1a3a4667ece6
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IShellFolderViewDual3, IShellFolderViewDual3 interface [Windows Shell], put_SortColumns method, IShellFolderViewDual3::put_SortColumns, _shell_IShellFolderViewDual3_put_SortColumns, put_SortColumns method [Windows Shell], put_SortColumns method [Windows Shell], IShellFolderViewDual3 interface, put_SortColumns,IShellFolderViewDual3.put_SortColumns, shell.IShellFolderViewDual3_put_SortColumns, shldisp/IShellFolderViewDual3::put_SortColumns
 ms.prod: windows-hardware
 ms.technology: windows-devices

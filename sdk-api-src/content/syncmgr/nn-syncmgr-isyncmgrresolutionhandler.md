@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrResolutionHandler.htm
 old-project: shell
 ms.assetid: 5b77217d-5c63-41be-b4df-338714a90fb9
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ISyncMgrResolutionHandler, ISyncMgrResolutionHandler interface [Windows Shell], ISyncMgrResolutionHandler interface [Windows Shell], described, _shell_ISyncMgrResolutionHandler, shell.ISyncMgrResolutionHandler, syncmgr/ISyncMgrResolutionHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices

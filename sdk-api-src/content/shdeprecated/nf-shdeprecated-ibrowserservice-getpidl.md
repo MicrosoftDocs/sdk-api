@@ -7,7 +7,7 @@ old-location: shell\IBrowserService_GetPidl.htm
 old-project: shell
 ms.assetid: 49104b30-85c0-4adf-acfc-a06b5c4bbdef
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetPidl method [Windows Shell], GetPidl method [Windows Shell], IBrowserService interface, GetPidl,IBrowserService.GetPidl, IBrowserService, IBrowserService interface [Windows Shell], GetPidl method, IBrowserService::GetPidl, shdeprecated/IBrowserService::GetPidl, shell.IBrowserService_GetPidl, zone_IBrowserService_GetPidl
 ms.prod: windows-hardware
 ms.technology: windows-devices

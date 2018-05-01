@@ -7,7 +7,7 @@ old-location: winauto\uiauto_idroptargetprovider_droptargeteffects.htm
 old-project: WinAuto
 ms.assetid: FF4080DD-CED0-4F3C-9F0C-BB37BA94DC7D
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: DropTargetEffects property [Windows Accessibility], DropTargetEffects property [Windows Accessibility], IDropTargetProvider interface, IDropTargetProvider, IDropTargetProvider interface [Windows Accessibility], DropTargetEffects property, IDropTargetProvider.DropTargetEffects, IDropTargetProvider::get_DropTargetEffects, get_DropTargetEffects,IDropTargetProvider.get_DropTargetEffects, uiautomationcore/IDropTargetProvider::DropTargetEffects, uiautomationcore/IDropTargetProvider::get_DropTargetEffects, winauto.uiauto_idroptargetprovider_droptargeteffects
 ms.prod: windows-hardware
 ms.technology: windows-devices

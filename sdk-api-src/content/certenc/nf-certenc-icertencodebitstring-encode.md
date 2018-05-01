@@ -7,7 +7,7 @@ old-location: security\icertencodebitstring_encode.htm
 old-project: SecCrypto
 ms.assetid: 2dc74ab4-8f40-4e0d-a18e-ba9c99d5bf94
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: CCertEncodeBitString object [Security], Encode method, Encode method [Security], Encode method [Security], CCertEncodeBitString object, Encode method [Security], ICertEncodeBitString interface, Encode,ICertEncodeBitString.Encode, ICertEncodeBitString, ICertEncodeBitString interface [Security], Encode method, ICertEncodeBitString::Encode, _certsrv_icertencodebitstring_encode, certenc/ICertEncodeBitString::Encode, security.icertencodebitstring_encode
 ms.prod: windows-hardware
 ms.technology: windows-devices

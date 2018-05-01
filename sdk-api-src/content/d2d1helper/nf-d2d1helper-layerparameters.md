@@ -7,7 +7,7 @@ old-location: direct2d\layerparameters.htm
 old-project: Direct2D
 ms.assetid: c6a9ebca-5d60-4013-b35b-547b7f4600da
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: LayerParameters, LayerParameters function [Direct2D], d2d1helper/LayerParameters, direct2d.layerparameters
 ms.prod: windows-hardware
 ms.technology: windows-devices

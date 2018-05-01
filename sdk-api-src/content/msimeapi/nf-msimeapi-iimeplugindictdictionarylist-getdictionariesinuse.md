@@ -7,7 +7,7 @@ old-location: intl\iimeplugindictdictionarylist_getdictionariesinuse.htm
 old-project: Intl
 ms.assetid: 145F403E-7A7D-4336-96CD-620FA61DFCBF
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/25/2018
 ms.keywords: GetDictionariesInUse method [Internationalization for Windows Applications], GetDictionariesInUse method [Internationalization for Windows Applications], IImePlugInDictDictionaryList interface, GetDictionariesInUse,IImePlugInDictDictionaryList.GetDictionariesInUse, IImePlugInDictDictionaryList, IImePlugInDictDictionaryList interface [Internationalization for Windows Applications], GetDictionariesInUse method, IImePlugInDictDictionaryList::GetDictionariesInUse, intl.iimeplugindictdictionarylist_getdictionariesinuse, msimeapi/IImePlugInDictDictionaryList::GetDictionariesInUse
 ms.prod: windows-hardware
 ms.technology: windows-devices

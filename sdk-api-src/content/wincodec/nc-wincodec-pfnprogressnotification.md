@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_progressnotificationcallback.htm
 old-project: wic
 ms.assetid: 10dd9fbe-abff-4fc9-a3a5-7c01ecc10a7f
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: PFNProgressNotification, ProgressNotificationCallback, ProgressNotificationCallback callback function [Windows Imaging Component], _wic_codec_progressnotificationcallback, wic._wic_codec_progressnotificationcallback, wincodec/ProgressNotificationCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: WINBIO_VERSION, *PWINBIO_VERSION
+req.typenames: WINBIO_STORAGE_RECORD, *PWINBIO_STORAGE_RECORD
 topic_type:
 -	APIRef
 -	kbSyntax

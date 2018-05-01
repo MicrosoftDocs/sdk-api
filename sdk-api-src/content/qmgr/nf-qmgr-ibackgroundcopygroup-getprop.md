@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopygroup_getprop.htm
 old-project: Bits
 ms.assetid: c27debdf-22eb-417e-b870-2891167f4498
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/10/2018
 ms.keywords: GetProp method [BITS], GetProp method [BITS], IBackgroundCopyGroup interface, GetProp,IBackgroundCopyGroup.GetProp, IBackgroundCopyGroup, IBackgroundCopyGroup interface [BITS], GetProp method, IBackgroundCopyGroup::GetProp, bits.ibackgroundcopygroup_getprop, qmgr/IBackgroundCopyGroup::GetProp
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: QmgrPrxy.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IBackgroundCopyGroup::GetProp method

@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12infoqueue_getmessagecountlimit.htm
 old-project: direct3d12
 ms.assetid: FAE16E2C-6E18-4345-88A8-DDC5836A75A9
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: GetMessageCountLimit method, GetMessageCountLimit method, ID3D12InfoQueue interface, GetMessageCountLimit,ID3D12InfoQueue.GetMessageCountLimit, ID3D12InfoQueue, ID3D12InfoQueue interface, GetMessageCountLimit method, ID3D12InfoQueue::GetMessageCountLimit, d3d12sdklayers/ID3D12InfoQueue::GetMessageCountLimit, direct3d12.id3d12infoqueue_getmessagecountlimit
 ms.prod: windows-hardware
 ms.technology: windows-devices

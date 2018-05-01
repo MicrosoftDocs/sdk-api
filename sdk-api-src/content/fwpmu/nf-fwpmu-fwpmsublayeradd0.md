@@ -7,7 +7,7 @@ old-location: fwp\fwpmsublayeradd0_func.htm
 old-project: FWP
 ms.assetid: 85a6f4a9-297f-491d-b2f7-38de21dbe06c
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: FwpmSubLayerAdd0, FwpmSubLayerAdd0 function [Filtering], fwp.fwpmsublayeradd0_func, fwpmu/FwpmSubLayerAdd0
 ms.prod: windows-hardware
 ms.technology: windows-devices

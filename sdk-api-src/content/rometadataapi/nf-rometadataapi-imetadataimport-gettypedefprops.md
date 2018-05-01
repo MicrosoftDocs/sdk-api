@@ -1,0 +1,109 @@
+---
+UID: NF:rometadataapi.IMetaDataImport.GetTypeDefProps
+title: IMetaDataImport::GetTypeDefProps method
+author: windows-driver-content
+description: Returns metadata information for the Type represented by the specified TypeDef token.
+old-location: winrt\imetadataimport_gettypedefprops.htm
+old-project: WinRT
+ms.assetid: 447937af-5edb-4e5e-89a1-13d1a733b3f7
+ms.author: windowsdriverdev
+ms.date: 4/24/2018
+ms.keywords: GetTypeDefProps method [Windows Runtime], GetTypeDefProps method [Windows Runtime], IMetaDataImport interface, GetTypeDefProps,IMetaDataImport.GetTypeDefProps, IMetaDataImport, IMetaDataImport interface [Windows Runtime], GetTypeDefProps method, IMetaDataImport::GetTypeDefProps, rometadataapi/IMetaDataImport::GetTypeDefProps, winrt.imetadataimport_gettypedefprops
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: rometadataapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Rometadataapi.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: RO_ERROR_REPORTING_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	rometadataapi.h
+api_name:
+-	IMetaDataImport.GetTypeDefProps
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 SP2 or later
+---
+
+# IMetaDataImport::GetTypeDefProps method
+
+
+## -description
+
+
+Returns metadata information for the Type represented by the specified TypeDef token.
+
+
+## -parameters
+
+
+
+
+### -param tkTypeDef [in]
+
+The TypeDef token that represents the type to return metadata for.
+
+
+### -param szTypeDef [out]
+
+A buffer containing the type name.
+
+
+### -param cchTypeDef [in]
+
+The size in wide characters of <i>szTypeDef</i>.
+
+
+### -param pchTypeDef [out]
+
+The number of wide characters returned in <i>szTypeDef</i>.
+
+
+### -param pdwTypeDefFlags [out]
+
+A pointer to any flags that modify the type definition. This value is a bitmask from the <a href="http://msdn.microsoft.com/en-us/library/ms231889.aspx">CorTypeAttr</a> enumeration.
+
+
+### -param ptkExtends [out]
+
+A TypeDef or TypeRef metadata token that represents the base type of the requested type.
+
+
+## -returns
+
+
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/5457d9d3-9a43-4e89-a52f-1254662ed92a">IMetaDataImport</a>
+ 
+
+ 
+

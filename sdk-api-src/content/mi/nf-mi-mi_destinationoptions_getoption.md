@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_destinationoptions_getoption.htm
 old-project: wmi_v2
 ms.assetid: f7f26a4f-109f-4169-bc77-b0c763d7bcb8
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/18/2018
 ms.keywords: MI_DestinationOptions_GetOption, MI_DestinationOptions_GetOption function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_GetOption, wmi_v2.mi_destinationoptions_getoption
 ms.prod: windows-hardware
 ms.technology: windows-devices

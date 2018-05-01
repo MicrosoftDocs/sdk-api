@@ -7,7 +7,7 @@ old-location: termserv\iwtsprotocolconnection_sessionarbitrationenumeration.htm
 old-project: TermServ
 ms.assetid: 413d6df5-419f-4a68-bb91-dfec9f455b42
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: IWTSProtocolConnection, IWTSProtocolConnection interface [Remote Desktop Services], SessionArbitrationEnumeration method, IWTSProtocolConnection::SessionArbitrationEnumeration, SessionArbitrationEnumeration method [Remote Desktop Services], SessionArbitrationEnumeration method [Remote Desktop Services], IWTSProtocolConnection interface, SessionArbitrationEnumeration,IWTSProtocolConnection.SessionArbitrationEnumeration, termserv.iwtsprotocolconnection_sessionarbitrationenumeration, wtsprotocol/IWTSProtocolConnection::SessionArbitrationEnumeration
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: com\imoniker_hash.htm
 old-project: com
 ms.assetid: 5073c909-d3bc-480e-97fb-d096e60787e5
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: Hash method [COM], Hash method [COM], IMoniker interface, Hash,IMoniker.Hash, IMoniker, IMoniker interface [COM], Hash method, IMoniker::Hash, _com_imoniker_hash, com.imoniker_hash, objidl/IMoniker::Hash
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMoniker::Hash method

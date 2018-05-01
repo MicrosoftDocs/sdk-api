@@ -7,7 +7,7 @@ old-location: wmformat\iwmsinternaladminnetsource_shutdownproxycontext.htm
 old-project: wmformat
 ms.assetid: 95c6f641-e0b1-4391-b4bd-b43c03a330b4
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMSInternalAdminNetSource, IWMSInternalAdminNetSource interface [windows Media Format], ShutdownProxyContext method, IWMSInternalAdminNetSource::ShutdownProxyContext, IWMSInternalAdminNetSourceShutdownProxyContext, ShutdownProxyContext method [windows Media Format], ShutdownProxyContext method [windows Media Format], IWMSInternalAdminNetSource interface, ShutdownProxyContext,IWMSInternalAdminNetSource.ShutdownProxyContext, wmformat.iwmsinternaladminnetsource_shutdownproxycontext, wmsinternaladminnetsource/IWMSInternalAdminNetSource::ShutdownProxyContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

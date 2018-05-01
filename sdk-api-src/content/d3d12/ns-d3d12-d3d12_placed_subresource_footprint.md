@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_placed_subresource_footprint.htm
 old-project: direct3d12
 ms.assetid: 74740A52-C2A5-4AF6-92CC-85B5C214423F
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: D3D12_PLACED_SUBRESOURCE_FOOTPRINT, D3D12_PLACED_SUBRESOURCE_FOOTPRINT structure, d3d12/D3D12_PLACED_SUBRESOURCE_FOOTPRINT, direct3d12.d3d12_placed_subresource_footprint
 ms.prod: windows-hardware
 ms.technology: windows-devices

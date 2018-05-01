@@ -7,7 +7,7 @@ old-location: direct2d\id2d1devicecontext3_drawspritebatch_overloaded.htm
 old-project: Direct2D
 ms.assetid: 66d049ca-5d4b-1570-3fa3-8991f9fc97a0
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: DrawSpriteBatch, DrawSpriteBatch methods [Direct2D], d2d1_3/DrawSpriteBatch, direct2d.id2d1devicecontext3_drawspritebatch_overloaded
 ms.prod: windows-hardware
 ms.technology: windows-devices

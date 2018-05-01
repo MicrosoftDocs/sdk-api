@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_scan_list.htm
 old-project: DHCP
 ms.assetid: 9dc20612-1c08-4493-aab3-b524d8d88251
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/7/2018
 ms.keywords: "*LPDHCP_SCAN_LIST, DHCP_SCAN_LIST, DHCP_SCAN_LIST structure [DHCP], LPDHCP_SCAN_LIST, LPDHCP_SCAN_LIST structure pointer [DHCP], _DHCP_SCAN_LIST, dhcp.dhcp_scan_list, dhcpsapi/LPDHCP_SCAN_LIST, dhcpsapi/_DHCP_SCAN_LIST"
 ms.prod: windows-hardware
 ms.technology: windows-devices

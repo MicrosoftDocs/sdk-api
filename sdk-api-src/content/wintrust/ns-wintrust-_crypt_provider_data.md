@@ -7,7 +7,7 @@ old-location: security\crypt_provider_data.htm
 old-project: SecCrypto
 ms.assetid: 93ea2ad5-65da-4daa-bfd4-e3d1307829b2
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: "*PCRYPT_PROVIDER_DATA, CPD_REVOCATION_CHECK_CHAIN, CPD_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT, CPD_REVOCATION_CHECK_END_CERT, CPD_REVOCATION_CHECK_NONE, CPD_USE_NT5_CHAIN_FLAG, CRYPT_PROVIDER_DATA, CRYPT_PROVIDER_DATA structure [Security], PCRYPT_PROVIDER_DATA, PCRYPT_PROVIDER_DATA structure pointer [Security], _CRYPT_PROVIDER_DATA, security.crypt_provider_data, wintrust/CRYPT_PROVIDER_DATA, wintrust/PCRYPT_PROVIDER_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,31 +60,6 @@ The <b>CRYPT_PROVIDER_DATA</b> structure is used to pass data between <a href="h
 
 
 
-### -field psPfns
-
-A pointer to a <a href="https://msdn.microsoft.com/2c00f8ec-e262-4df8-8984-a2702a4162bf">CRYPT_PROVIDER_FUNCTIONS</a> structure.
-
-
-### -field pasSigners
-
-A pointer to an array of <a href="https://msdn.microsoft.com/39cf9a03-768d-4ae0-a19d-17652181dbe4">CRYPT_PROVIDER_SGNR</a> structures.
-
-
-### -field pasProvPrivData
-
-A pointer to an array of <a href="https://msdn.microsoft.com/499e4d9b-991a-4317-bc74-a1dfb6609a70">CRYPT_PROVIDER_PRIVDATA</a> structures.
-
-
-### -field pSigState
-
- 
-
-
-### -field pSigSettings
-
- 
-
-
 ### -field cbStruct
 
 The size, in bytes, of this structure.
@@ -130,6 +105,11 @@ The registry security settings.
 The registry policy settings.
 
 
+### -field psPfns
+
+A pointer to a <a href="https://msdn.microsoft.com/2c00f8ec-e262-4df8-8984-a2702a4162bf">CRYPT_PROVIDER_FUNCTIONS</a> structure.
+
+
 ### -field cdwTrustStepErrors
 
 The number of elements in the <b>padwTrustStepErrors</b> array.
@@ -165,9 +145,19 @@ A  handle to the cryptographic message.
 The number of elements in the <b>pasSigners</b> array.
 
 
+### -field pasSigners
+
+A pointer to an array of <a href="https://msdn.microsoft.com/39cf9a03-768d-4ae0-a19d-17652181dbe4">CRYPT_PROVIDER_SGNR</a> structures.
+
+
 ### -field csProvPrivData
 
 The number of elements in the <b>pasProvPrivData</b> array.
+
+
+### -field pasProvPrivData
+
+A pointer to an array of <a href="https://msdn.microsoft.com/499e4d9b-991a-4317-bc74-a1dfb6609a70">CRYPT_PROVIDER_PRIVDATA</a> structures.
 
 
 ### -field dwSubjectChoice
@@ -287,6 +277,18 @@ A value for the trust publisher settings.
 A <b>DWORD</b> value that specifies state data that is passed between a trust provider and the user interface.
 
 <b>Windows XP with SP1 and Windows XP:  </b>This member is ignored.
+
+
+### -field pSigState
+
+ 
+
+
+### -field pSigSettings
+
+ 
+
+
 
 
 #### - pPDSip

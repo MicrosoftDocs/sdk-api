@@ -7,7 +7,7 @@ old-location: setup\msiformatrecord.htm
 old-project: Msi
 ms.assetid: 574f51b1-a5cf-46c8-bfa3-449839872cf3
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/26/2018
 ms.keywords: MsiFormatRecord, MsiFormatRecord function, MsiFormatRecordA, MsiFormatRecordW, _msi_msiformatrecord, msiquery/MsiFormatRecord, msiquery/MsiFormatRecordA, msiquery/MsiFormatRecordW, setup.msiformatrecord
 ms.prod: windows-hardware
 ms.technology: windows-devices

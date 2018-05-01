@@ -7,7 +7,7 @@ old-location: security\icertpropertyautoenroll_initialize_method.htm
 old-project: SecCertEnroll
 ms.assetid: f9a949c8-acd9-45b2-882e-84daf0acfad4
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: ICertPropertyAutoEnroll, ICertPropertyAutoEnroll interface [Security], Initialize method, ICertPropertyAutoEnroll::Initialize, Initialize method [Security], Initialize method [Security], ICertPropertyAutoEnroll interface, Initialize,ICertPropertyAutoEnroll.Initialize, certenroll/ICertPropertyAutoEnroll::Initialize, security.icertpropertyautoenroll_initialize_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: search\_search_IConditionGenerator_Initialize.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iconditiongenerator\initialize.htm
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/24/2018
 ms.keywords: IConditionGenerator, IConditionGenerator interface [search], Initialize method, IConditionGenerator::Initialize, Initialize method [search], Initialize method [search], IConditionGenerator interface, Initialize,IConditionGenerator.Initialize, _search_IConditionGenerator_Initialize, search._search_IConditionGenerator_Initialize, structuredquery/IConditionGenerator::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

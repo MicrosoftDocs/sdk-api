@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_buffer_srv_flags.htm
 old-project: direct3d12
 ms.assetid: 153F82A2-077A-4D42-8FC3-C3370999AF6C
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: D3D12_BUFFER_SRV_FLAGS, D3D12_BUFFER_SRV_FLAGS enumeration, D3D12_BUFFER_SRV_FLAG_NONE, D3D12_BUFFER_SRV_FLAG_RAW, d3d12/D3D12_BUFFER_SRV_FLAGS, d3d12/D3D12_BUFFER_SRV_FLAG_NONE, d3d12/D3D12_BUFFER_SRV_FLAG_RAW, direct3d12.d3d12_buffer_srv_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices

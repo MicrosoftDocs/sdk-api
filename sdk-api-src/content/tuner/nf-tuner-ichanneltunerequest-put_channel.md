@@ -7,7 +7,7 @@ old-location: mstv\ichanneltunerequest_put_channel.htm
 old-project: mstv
 ms.assetid: 67a08647-a2b5-43b2-b5d2-3917beb6dd27
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IChannelTuneRequest, IChannelTuneRequest interface [Microsoft TV Technologies], put_Channel method, IChannelTuneRequest::put_Channel, IChannelTuneRequestput_Channel, mstv.ichanneltunerequest_put_channel, put_Channel method [Microsoft TV Technologies], put_Channel method [Microsoft TV Technologies], IChannelTuneRequest interface, put_Channel,IChannelTuneRequest.put_Channel, tuner/IChannelTuneRequest::put_Channel
 ms.prod: windows-hardware
 ms.technology: windows-devices

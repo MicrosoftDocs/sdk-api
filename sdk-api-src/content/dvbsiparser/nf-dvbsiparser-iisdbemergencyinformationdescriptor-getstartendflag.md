@@ -7,7 +7,7 @@ old-location: mstv\iisdbemergencyinformationdescriptor_getstartendflag.htm
 old-project: mstv
 ms.assetid: 13593be1-073c-41df-b389-f0920d192c92
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetStartEndFlag method [Microsoft TV Technologies], GetStartEndFlag method [Microsoft TV Technologies], IIsdbEmergencyInformationDescriptor interface, GetStartEndFlag,IIsdbEmergencyInformationDescriptor.GetStartEndFlag, IIsdbEmergencyInformationDescriptor, IIsdbEmergencyInformationDescriptor interface [Microsoft TV Technologies], GetStartEndFlag method, IIsdbEmergencyInformationDescriptor::GetStartEndFlag, dvbsiparser/IIsdbEmergencyInformationDescriptor::GetStartEndFlag, mstv.iisdbemergencyinformationdescriptor_getstartendflag
 ms.prod: windows-hardware
 ms.technology: windows-devices

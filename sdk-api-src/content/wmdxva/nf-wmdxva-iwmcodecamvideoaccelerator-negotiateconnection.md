@@ -7,7 +7,7 @@ old-location: wmformat\iwmcodecamvideoaccelerator_negotiateconnection.htm
 old-project: wmformat
 ms.assetid: 547c43ed-7e04-4323-9e10-019ecfdbb641
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMCodecAMVideoAccelerator, IWMCodecAMVideoAccelerator interface [windows Media Format], NegotiateConnection method, IWMCodecAMVideoAccelerator::NegotiateConnection, IWMCodecAMVideoAcceleratorNegotiateConnection, NegotiateConnection method [windows Media Format], NegotiateConnection method [windows Media Format], IWMCodecAMVideoAccelerator interface, NegotiateConnection,IWMCodecAMVideoAccelerator.NegotiateConnection, wmdxva/IWMCodecAMVideoAccelerator::NegotiateConnection, wmformat.iwmcodecamvideoaccelerator_negotiateconnection
 ms.prod: windows-hardware
 ms.technology: windows-devices

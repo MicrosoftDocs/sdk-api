@@ -7,7 +7,7 @@ old-location: wua\iwindowsdriverupdate5.htm
 old-project: Wua_Sdk
 ms.assetid: ec25e83b-2bd0-4ec4-99db-7a9877c4a42f
 ms.author: windowsdriverdev
-ms.date: 3/15/2018
+ms.date: 4/18/2018
 ms.keywords: IWindowsDriverUpdate5, IWindowsDriverUpdate5 interface [Windows Update Agent], IWindowsDriverUpdate5 interface [Windows Update Agent], described, wua.iwindowsdriverupdate5, wuapi/IWindowsDriverUpdate5
 ms.prod: windows-hardware
 ms.technology: windows-devices

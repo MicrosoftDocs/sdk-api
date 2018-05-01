@@ -7,7 +7,7 @@ old-location: mstv\idvbtuningspace2_put_networkid.htm
 old-project: mstv
 ms.assetid: 4f307629-710d-4992-b407-311774aa544a
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IDVBTuningSpace2, IDVBTuningSpace2 interface [Microsoft TV Technologies], put_NetworkID method, IDVBTuningSpace2::put_NetworkID, IDVBTuningSpace2put_NetworkID, mstv.idvbtuningspace2_put_networkid, put_NetworkID method [Microsoft TV Technologies], put_NetworkID method [Microsoft TV Technologies], IDVBTuningSpace2 interface, put_NetworkID,IDVBTuningSpace2.put_NetworkID, tuner/IDVBTuningSpace2::put_NetworkID
 ms.prod: windows-hardware
 ms.technology: windows-devices

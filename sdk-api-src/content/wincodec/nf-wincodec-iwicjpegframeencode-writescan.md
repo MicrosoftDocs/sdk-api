@@ -7,7 +7,7 @@ old-location: wic\iwicjpegframeencode_writescan.htm
 old-project: wic
 ms.assetid: FED02403-E696-4988-BFB6-F1E37D9FA5F1
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: IWICJpegFrameEncode, IWICJpegFrameEncode interface [Windows Imaging Component], WriteScan method, IWICJpegFrameEncode::WriteScan, WriteScan method [Windows Imaging Component], WriteScan method [Windows Imaging Component], IWICJpegFrameEncode interface, WriteScan,IWICJpegFrameEncode.WriteScan, wic.iwicjpegframeencode_writescan, wincodec/IWICJpegFrameEncode::WriteScan
 ms.prod: windows-hardware
 ms.technology: windows-devices

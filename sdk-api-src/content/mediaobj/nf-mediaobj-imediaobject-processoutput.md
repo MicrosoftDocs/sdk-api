@@ -7,7 +7,7 @@ old-location: dshow\imediaobject_processoutput.htm
 old-project: DirectShow
 ms.assetid: 1a3b1192-f1e9-4f04-b543-d38692502b8e
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IMediaObject, IMediaObject interface [DirectShow], ProcessOutput method, IMediaObject::ProcessOutput, IMediaObjectProcessOutput, ProcessOutput method [DirectShow], ProcessOutput method [DirectShow], IMediaObject interface, ProcessOutput,IMediaObject.ProcessOutput, dshow.imediaobject_processoutput, mediaobj/IMediaObject::ProcessOutput
 ms.prod: windows-hardware
 ms.technology: windows-devices

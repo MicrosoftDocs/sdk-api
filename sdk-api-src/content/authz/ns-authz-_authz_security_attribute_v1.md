@@ -7,7 +7,7 @@ old-location: security\authz_security_attribute_v1.htm
 old-project: SecAuthZ
 ms.assetid: 0c4778bb-1b5d-4422-b066-d2a6aaa1f351
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: "*PAUTHZ_SECURITY_ATTRIBUTE_V1, AUTHZ_SECURITY_ATTRIBUTE_NON_INHERITABLE, AUTHZ_SECURITY_ATTRIBUTE_TYPE_BOOLEAN, AUTHZ_SECURITY_ATTRIBUTE_TYPE_FQBN, AUTHZ_SECURITY_ATTRIBUTE_TYPE_INT64, AUTHZ_SECURITY_ATTRIBUTE_TYPE_OCTET_STRING, AUTHZ_SECURITY_ATTRIBUTE_TYPE_SID, AUTHZ_SECURITY_ATTRIBUTE_TYPE_STRING, AUTHZ_SECURITY_ATTRIBUTE_TYPE_UINT64, AUTHZ_SECURITY_ATTRIBUTE_V1, AUTHZ_SECURITY_ATTRIBUTE_V1 structure [Security], AUTHZ_SECURITY_ATTRIBUTE_VALUE_CASE_SENSITIVE, PAUTHZ_SECURITY_ATTRIBUTE_V1, PAUTHZ_SECURITY_ATTRIBUTE_V1 structure pointer [Security], _AUTHZ_SECURITY_ATTRIBUTE_V1, authz/AUTHZ_SECURITY_ATTRIBUTE_V1, authz/PAUTHZ_SECURITY_ATTRIBUTE_V1, security.authz_security_attribute_v1"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -55,39 +55,6 @@ The <b>AUTHZ_SECURITY_ATTRIBUTE_V1</b> structure defines a security attribute th
 ## -struct-fields
 
 
-
-
-### -field Values
-
-
-
-#### pInt64
-
-A pointer to one or more numeric attribute values.
-
-
-
-#### pUint64
-
-A pointer to one or more numeric attribute values.
-
-
-
-#### ppString
-
-A pointer to one or more string attribute values.
-
-
-
-#### pFqbn
-
-A pointer to one or more <a href="https://msdn.microsoft.com/05b4bf7d-a0d9-473c-b215-9cf566b2a996">AUTHZ_SECURITY_ATTRIBUTE_FQBN_VALUE</a> structures.
-
-
-
-#### pOctetString
-
-A pointer to one or more <a href="https://msdn.microsoft.com/aebe20d5-280f-45d3-a11d-279a08a1a165">AUTHZ_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE</a> structures.
 
 
 ### -field pName
@@ -243,6 +210,39 @@ The value of the attribute is case sensitive. This flag is valid for values that
 ### -field ValueCount
 
 The number of values specified in the <b>Values</b> member.
+
+
+### -field Values
+
+
+
+#### pInt64
+
+A pointer to one or more numeric attribute values.
+
+
+
+#### pUint64
+
+A pointer to one or more numeric attribute values.
+
+
+
+#### ppString
+
+A pointer to one or more string attribute values.
+
+
+
+#### pFqbn
+
+A pointer to one or more <a href="https://msdn.microsoft.com/05b4bf7d-a0d9-473c-b215-9cf566b2a996">AUTHZ_SECURITY_ATTRIBUTE_FQBN_VALUE</a> structures.
+
+
+
+#### pOctetString
+
+A pointer to one or more <a href="https://msdn.microsoft.com/aebe20d5-280f-45d3-a11d-279a08a1a165">AUTHZ_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE</a> structures.
 
 
 ## -see-also

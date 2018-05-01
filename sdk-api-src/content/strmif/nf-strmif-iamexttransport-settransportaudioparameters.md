@@ -7,7 +7,7 @@ old-location: dshow\iamexttransport_settransportaudioparameters.htm
 old-project: DirectShow
 ms.assetid: e013dd73-7276-48b3-bf5f-ffb4b3d49419
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMExtTransport, IAMExtTransport interface [DirectShow], SetTransportAudioParameters method, IAMExtTransport::SetTransportAudioParameters, IAMExtTransportSetTransportAudioParameters, SetTransportAudioParameters method [DirectShow], SetTransportAudioParameters method [DirectShow], IAMExtTransport interface, SetTransportAudioParameters,IAMExtTransport.SetTransportAudioParameters, dshow.iamexttransport_settransportaudioparameters, strmif/IAMExtTransport::SetTransportAudioParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices

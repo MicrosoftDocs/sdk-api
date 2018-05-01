@@ -7,7 +7,7 @@ old-location: mf\opm_configure_parameters.htm
 old-project: medfound
 ms.assetid: 60d13945-740f-46bd-9602-bacd0dac5e32
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: OPM_CONFIGURE_PARAMETERS, OPM_CONFIGURE_PARAMETERS structure [Media Foundation], _OPM_CONFIGURE_PARAMETERS, mf.opm_configure_parameters, opmapi/OPM_CONFIGURE_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _OPM_CONFIGURE_PARAMETERS structure

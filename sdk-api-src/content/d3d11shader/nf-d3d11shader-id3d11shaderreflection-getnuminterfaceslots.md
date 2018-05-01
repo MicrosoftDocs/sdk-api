@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11shaderreflection_getnuminterfaceslots.htm
 old-project: direct3d11
 ms.assetid: d2182f64-0d0e-4b1c-a566-f33fe7a0b093
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/6/2018
 ms.keywords: GetNumInterfaceSlots method [Direct3D 11], GetNumInterfaceSlots method [Direct3D 11], ID3D11ShaderReflection interface, GetNumInterfaceSlots,ID3D11ShaderReflection.GetNumInterfaceSlots, ID3D11ShaderReflection, ID3D11ShaderReflection interface [Direct3D 11], GetNumInterfaceSlots method, ID3D11ShaderReflection::GetNumInterfaceSlots, a1d291ec-34e3-530a-7aa8-8236227d54e4, d3d11shader/ID3D11ShaderReflection::GetNumInterfaceSlots, direct3d11.id3d11shaderreflection_getnuminterfaceslots
 ms.prod: windows-hardware
 ms.technology: windows-devices

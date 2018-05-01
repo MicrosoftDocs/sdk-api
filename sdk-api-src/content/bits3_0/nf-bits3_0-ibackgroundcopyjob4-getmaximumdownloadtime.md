@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyjob4_getmaximumdownloadtime.htm
 old-project: Bits
 ms.assetid: 2d258dc4-a6fd-46d7-ac90-2703c8ddc666
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/10/2018
 ms.keywords: GetMaximumDownloadTime method [BITS], GetMaximumDownloadTime method [BITS], IBackgroundCopyJob4 interface, GetMaximumDownloadTime,IBackgroundCopyJob4.GetMaximumDownloadTime, IBackgroundCopyJob4, IBackgroundCopyJob4 interface [BITS], GetMaximumDownloadTime method, IBackgroundCopyJob4::GetMaximumDownloadTime, bits.ibackgroundcopyjob4_getmaximumdownloadtime, bits3_0/IBackgroundCopyJob4::GetMaximumDownloadTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

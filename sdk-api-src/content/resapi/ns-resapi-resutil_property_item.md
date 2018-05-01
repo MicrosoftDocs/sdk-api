@@ -7,7 +7,7 @@ old-location: mscs\resutil_property_item.htm
 old-project: MsCS
 ms.assetid: f65ee50f-59f7-44db-ad69-b29b3e693c7e
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: "*PRESUTIL_PROPERTY_ITEM, PRESUTIL_PROPERTY_ITEM, PRESUTIL_PROPERTY_ITEM structure pointer [Failover Cluster], RESUTIL_PROPERTY_ITEM, RESUTIL_PROPERTY_ITEM structure [Failover Cluster], RESUTIL_PROPITEM_READ_ONLY, RESUTIL_PROPITEM_REQUIRED, RESUTIL_PROPITEM_SIGNED, _wolf_resutil_property_item, mscs.resutil_property_item, resapi/PRESUTIL_PROPERTY_ITEM, resapi/RESUTIL_PROPERTY_ITEM"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # RESUTIL_PROPERTY_ITEM structure
@@ -61,11 +61,6 @@ Contains
 
 
 
-### -field DUMMYUNIONNAME
-
- 
-
-
 ### -field Name
 
 The name of the property.
@@ -83,6 +78,11 @@ Describes the format of the property such as <b>CLUSPROP_FORMAT_BINARY</b> or
       <b>CLUSPROP_FORMAT_DWORD</b>. For a list of valid format values, see the 
       <b>wFormat</b> member of 
       <a href="https://msdn.microsoft.com/23353e11-63bb-4d3b-90fb-e2a5544e0d09">CLUSPROP_SYNTAX</a>.
+
+
+### -field DUMMYUNIONNAME
+
+ 
 
 
 ### -field Minimum

@@ -7,7 +7,7 @@ old-location: security\cert_policy_qualifier_info.htm
 old-project: SecCrypto
 ms.assetid: 86b1716d-541f-4e06-a824-01c22f0eba27
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: "*PCERT_POLICY_QUALIFIER_INFO, CERT_POLICY_QUALIFIER_INFO, CERT_POLICY_QUALIFIER_INFO structure [Security], PCERT_POLICY_QUALIFIER_INFO, PCERT_POLICY_QUALIFIER_INFO structure pointer [Security], _CERT_POLICY_QUALIFIER_INFO, _crypto2_cert_policy_qualifier_info, security.cert_policy_qualifier_info, wincrypt/CERT_POLICY_QUALIFIER_INFO, wincrypt/PCERT_POLICY_QUALIFIER_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

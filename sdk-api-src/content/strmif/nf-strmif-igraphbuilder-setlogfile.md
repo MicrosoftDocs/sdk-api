@@ -7,7 +7,7 @@ old-location: dshow\igraphbuilder_setlogfile.htm
 old-project: DirectShow
 ms.assetid: 194960ee-3418-420f-9242-a372097e4dc9
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IGraphBuilder, IGraphBuilder interface [DirectShow], SetLogFile method, IGraphBuilder::SetLogFile, IGraphBuilderSetLogFile, SetLogFile method [DirectShow], SetLogFile method [DirectShow], IGraphBuilder interface, SetLogFile,IGraphBuilder.SetLogFile, dshow.igraphbuilder_setlogfile, strmif/IGraphBuilder::SetLogFile
 ms.prod: windows-hardware
 ms.technology: windows-devices

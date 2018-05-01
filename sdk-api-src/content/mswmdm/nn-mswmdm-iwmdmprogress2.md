@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmprogress2.htm
 old-project: WMDM
 ms.assetid: 59619571-0ab7-42a4-ad25-c420ec9667a3
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: IWMDMProgress2, IWMDMProgress2 interface [windows Media Device Manager], IWMDMProgress2 interface [windows Media Device Manager], described, IWMDMProgress2Interface, mswmdm/IWMDMProgress2, wmdm.iwmdmprogress2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IWMDMProgress2 interface

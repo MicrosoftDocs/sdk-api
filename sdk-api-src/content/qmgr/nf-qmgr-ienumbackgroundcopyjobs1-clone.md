@@ -7,7 +7,7 @@ old-location: bits\ienumbackgroundcopyjobs1_clone.htm
 old-project: Bits
 ms.assetid: c26bec86-1cff-44bb-aa0c-c48b076ff993
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/10/2018
 ms.keywords: Clone method [BITS], Clone method [BITS], IEnumBackgroundCopyJobs1 interface, Clone,IEnumBackgroundCopyJobs1.Clone, IEnumBackgroundCopyJobs1, IEnumBackgroundCopyJobs1 interface [BITS], Clone method, IEnumBackgroundCopyJobs1::Clone, bits.ienumbackgroundcopyjobs1_clone, qmgr/IEnumBackgroundCopyJobs1::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: QmgrPrxy.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IEnumBackgroundCopyJobs1::Clone method

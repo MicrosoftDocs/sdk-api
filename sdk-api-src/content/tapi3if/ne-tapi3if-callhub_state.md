@@ -7,7 +7,7 @@ old-location: tapi3\callhub_state.htm
 old-project: Tapi
 ms.assetid: 8ddfe1f5-2f4a-4b41-83ce-858a669afc31
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: CALLHUB_STATE, CALLHUB_STATE enumeration [TAPI 2.2], CHS_ACTIVE, CHS_IDLE, _tapi3_callhub_state, tapi3.callhub_state, tapi3if/CALLHUB_STATE, tapi3if/CHS_ACTIVE, tapi3if/CHS_IDLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,8 +38,8 @@ api_name:
 -	CALLHUB_STATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
 req.irql: 
 req.product: Windows XP with SP1 and later
 ---

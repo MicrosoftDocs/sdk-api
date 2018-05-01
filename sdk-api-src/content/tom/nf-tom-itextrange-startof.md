@@ -7,7 +7,7 @@ old-location: controls\ITextRange_StartOf.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\startof.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextRange, ITextRange interface [Windows Controls], StartOf method, ITextRange::StartOf, StartOf method [Windows Controls], StartOf method [Windows Controls], ITextRange interface, StartOf,ITextRange.StartOf, _win32_ITextRange_StartOf, _win32_ITextRange_StartOf_cpp, controls.ITextRange_StartOf, controls._win32_ITextRange_StartOf, tom/ITextRange::StartOf
 ms.prod: windows-hardware
 ms.technology: windows-devices

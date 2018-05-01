@@ -7,7 +7,7 @@ old-location: com\icomthreadinginfo_getcurrentapartmenttype.htm
 old-project: com
 ms.assetid: 59cb216f-818c-4189-b77b-984961889a62
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: GetCurrentApartmentType method [COM], GetCurrentApartmentType method [COM], IComThreadingInfo interface, GetCurrentApartmentType,IComThreadingInfo.GetCurrentApartmentType, IComThreadingInfo, IComThreadingInfo interface [COM], GetCurrentApartmentType method, IComThreadingInfo::GetCurrentApartmentType, _com_icomthreadinginfo_getcurrentapartmenttype, com.icomthreadinginfo_getcurrentapartmenttype, objidlbase/IComThreadingInfo::GetCurrentApartmentType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IComThreadingInfo::GetCurrentApartmentType method

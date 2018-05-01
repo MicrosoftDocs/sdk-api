@@ -7,7 +7,7 @@ old-location: direct2d\renderingcontrols.htm
 old-project: Direct2D
 ms.assetid: 5004EA84-216C-4758-8AA1-7E823583871E
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: RenderingControls, RenderingControls function [Direct2D], d2d1_1helper/RenderingControls, direct2d.renderingcontrols
 ms.prod: windows-hardware
 ms.technology: windows-devices

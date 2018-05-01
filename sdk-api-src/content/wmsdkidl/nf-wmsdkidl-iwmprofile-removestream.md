@@ -7,7 +7,7 @@ old-location: wmformat\iwmprofile_removestream.htm
 old-project: wmformat
 ms.assetid: 82817b72-fde5-492e-b197-87bf145d0be9
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMProfile, IWMProfile interface [windows Media Format], RemoveStream method, IWMProfile2 interface [windows Media Format], RemoveStream method, IWMProfile2::RemoveStream, IWMProfile3 interface [windows Media Format], RemoveStream method, IWMProfile3::RemoveStream, IWMProfile::RemoveStream, IWMProfileRemoveStream, RemoveStream method [windows Media Format], RemoveStream method [windows Media Format], IWMProfile interface, RemoveStream method [windows Media Format], IWMProfile2 interface, RemoveStream method [windows Media Format], IWMProfile3 interface, RemoveStream,IWMProfile.RemoveStream, wmformat.iwmprofile_removestream, wmsdkidl/IWMProfile2::RemoveStream, wmsdkidl/IWMProfile3::RemoveStream, wmsdkidl/IWMProfile::RemoveStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

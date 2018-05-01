@@ -7,7 +7,7 @@ old-location: ics\inetfwmgr_isportallowed.htm
 old-project: ICS
 ms.assetid: 39e68271-8046-470a-af90-17bed770716d
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: INetFwMgr, INetFwMgr interface [ICS/ICF], IsPortAllowed method, INetFwMgr::IsPortAllowed, IsPortAllowed method [ICS/ICF], IsPortAllowed method [ICS/ICF], INetFwMgr interface, IsPortAllowed,INetFwMgr.IsPortAllowed, ics.inetfwmgr_isportallowed, netfw/INetFwMgr::IsPortAllowed
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # INetFwMgr::IsPortAllowed method

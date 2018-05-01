@@ -7,7 +7,7 @@ old-location: mf\imfmediasource_start.htm
 old-project: medfound
 ms.assetid: 0a5abafe-1525-4bda-946c-05a6145e57ee
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 0a5abafe-1525-4bda-946c-05a6145e57ee, IMFMediaSource, IMFMediaSource interface [Media Foundation], Start method, IMFMediaSource::Start, Start method [Media Foundation], Start method [Media Foundation], IMFMediaSource interface, Start,IMFMediaSource.Start, mf.imfmediasource_start, mfidl/IMFMediaSource::Start
 ms.prod: windows-hardware
 ms.technology: windows-devices

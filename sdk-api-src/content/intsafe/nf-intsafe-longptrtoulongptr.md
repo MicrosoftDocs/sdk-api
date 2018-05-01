@@ -2,13 +2,13 @@
 UID: NF:intsafe.LongPtrToULongPtr
 title: LongPtrToULongPtr function
 author: windows-driver-content
-description: Converts a value of type LONG_PTR to a value of type ULONG_PTR.
-old-location: shell\LongPtrToULongPtr.htm
+description: Converts a value of type LONG_PTR to a value of type DWORD_PTR.
+old-location: shell\LongPtrToDWordPtr.htm
 old-project: shell
-ms.assetid: c289c4cd-abb7-4483-b0a7-6eacadefeedc
+ms.assetid: 536570df-7531-4c88-9093-d491029f8bec
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
-ms.keywords: LongPtrToULongPtr, LongPtrToULongPtr function [Windows Shell], _shell_LongPtrToULongPtr, intsafe/LongPtrToULongPtr, shell.LongPtrToULongPtr
+ms.date: 4/26/2018
+ms.keywords: LongPtrToDWordPtr, LongPtrToDWordPtr function [Windows Shell], LongPtrToULongPtr, _shell_LongPtrToDWordPtr, intsafe/LongPtrToDWordPtr, shell.LongPtrToDWordPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	Intsafe.h
 api_name:
--	LongPtrToULongPtr
+-	LongPtrToDWordPtr
 product: Windows
 targetos: Windows
 req.lib: 
@@ -50,7 +50,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Converts a value of type <b>LONG_PTR</b> to a value of type <b>ULONG_PTR</b>.
+Converts a value of type <b>LONG_PTR</b> to a value of type <b>DWORD_PTR</b>.
 
 
 ## -parameters
@@ -65,9 +65,16 @@ Type: <b>LONG_PTR</b>
 The value to be converted.
 
 
-### -param pulResult [out]
+### -param pulResult
 
-Type: <b>ULONG_PTR*</b>
+TBD
+
+
+
+
+#### - pdwResult [out]
+
+Type: <b>DWORD_PTR*</b>
 
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns INTSAFE_E_ARITHMETIC_OVERFLOW and this parameter is not valid.
 
@@ -87,7 +94,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-This is one of a set of functions designed to provide type conversions and perform validity checks with minimal impact on performance.
+This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
 
 
 

@@ -7,7 +7,7 @@ old-location: dshow\iamdeviceremoval_deviceinfo.htm
 old-project: DirectShow
 ms.assetid: ec3628cf-fcb4-46c4-9de1-79bf1259c3db
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: DeviceInfo method [DirectShow], DeviceInfo method [DirectShow], IAMDeviceRemoval interface, DeviceInfo,IAMDeviceRemoval.DeviceInfo, IAMDeviceRemoval, IAMDeviceRemoval interface [DirectShow], DeviceInfo method, IAMDeviceRemoval::DeviceInfo, IAMDeviceRemovalDeviceInfo, dshow.iamdeviceremoval_deviceinfo, strmif/IAMDeviceRemoval::DeviceInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

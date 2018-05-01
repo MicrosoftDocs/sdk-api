@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_cpu_access_flag.htm
 old-project: direct3d11
 ms.assetid: 0a19c2a7-2570-40e2-8328-cbf5d7263605
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/6/2018
 ms.keywords: D3D11_CPU_ACCESS_FLAG, D3D11_CPU_ACCESS_FLAG enumeration [Direct3D 11], D3D11_CPU_ACCESS_READ, D3D11_CPU_ACCESS_WRITE, d3d11/D3D11_CPU_ACCESS_FLAG, d3d11/D3D11_CPU_ACCESS_READ, d3d11/D3D11_CPU_ACCESS_WRITE, direct3d11.d3d11_cpu_access_flag, e0f1ea8e-63f7-ef8a-fa11-3cbc160d2469
 ms.prod: windows-hardware
 ms.technology: windows-devices

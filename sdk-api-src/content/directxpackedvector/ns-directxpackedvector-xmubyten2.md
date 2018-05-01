@@ -7,7 +7,7 @@ old-location: dxmath\xmubyten2.htm
 old-project: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMUBYTEN2
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/23/2018
 ms.keywords: XMUBYTEN2, XMUBYTEN2 structure [DirectX Math Support APIs], directxpackedvector/XMUBYTEN2, dxmath.xmubyten2
 ms.prod: windows-hardware
 ms.technology: windows-devices

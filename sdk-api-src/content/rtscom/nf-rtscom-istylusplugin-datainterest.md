@@ -7,7 +7,7 @@ old-location: tablet\istylusplugin_datainterest.htm
 old-project: tablet
 ms.assetid: 7ff6ccf2-292c-4321-be2a-d6db7ce14943
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: 7ff6ccf2-292c-4321-be2a-d6db7ce14943, DataInterest method [Tablet PC], DataInterest method [Tablet PC], IStylusPlugin interface, DataInterest,IStylusPlugin.DataInterest, IStylusPlugin, IStylusPlugin interface [Tablet PC], DataInterest method, IStylusPlugin::DataInterest, rtscom/IStylusPlugin::DataInterest, tablet.istylusplugin_datainterest
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: RTSCom.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IStylusPlugin::DataInterest method

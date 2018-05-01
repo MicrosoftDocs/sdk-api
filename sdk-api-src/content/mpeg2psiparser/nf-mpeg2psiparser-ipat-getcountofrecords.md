@@ -7,7 +7,7 @@ old-location: mstv\ipat_getcountofrecords.htm
 old-project: mstv
 ms.assetid: 6b73a02e-d6dd-402b-baca-8728cd0fa900
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies], IPAT interface, GetCountOfRecords,IPAT.GetCountOfRecords, IPAT, IPAT interface [Microsoft TV Technologies], GetCountOfRecords method, IPAT::GetCountOfRecords, IPATGetCountOfRecords, mpeg2psiparser/IPAT::GetCountOfRecords, mstv.ipat_getcountofrecords
 ms.prod: windows-hardware
 ms.technology: windows-devices

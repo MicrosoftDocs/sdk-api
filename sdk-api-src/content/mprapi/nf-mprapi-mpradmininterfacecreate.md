@@ -7,7 +7,7 @@ old-location: rras\mpradmininterfacecreate.htm
 old-project: RRAS
 ms.assetid: c9590ebe-7e49-4ad1-bd9b-0d9c51938bc4
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: MprAdminInterfaceCreate, MprAdminInterfaceCreate function [RAS], _mpr_mpradmininterfacecreate, mprapi/MprAdminInterfaceCreate, rras.mpradmininterfacecreate
 ms.prod: windows-hardware
 ms.technology: windows-devices

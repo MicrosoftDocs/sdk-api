@@ -7,7 +7,7 @@ old-location: bits\ienumbackgroundcopyjobs_skip.htm
 old-project: Bits
 ms.assetid: 061f19f7-60e5-4242-871a-cab566c67cad
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/10/2018
 ms.keywords: IEnumBackgroundCopyJobs, IEnumBackgroundCopyJobs interface [BITS], Skip method, IEnumBackgroundCopyJobs::Skip, Skip method [BITS], Skip method [BITS], IEnumBackgroundCopyJobs interface, Skip,IEnumBackgroundCopyJobs.Skip, _drz_ienumbackgroundcopyjobs_skip, bits.ienumbackgroundcopyjobs_skip, bits/IEnumBackgroundCopyJobs::Skip
 ms.prod: windows-hardware
 ms.technology: windows-devices

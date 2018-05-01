@@ -7,7 +7,7 @@ old-location: base\ivsscomponent_getadditionalrestores.htm
 old-project: VSS
 ms.assetid: f398a88a-6572-4d0b-a241-37cc0e9e99a0
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: GetAdditionalRestores method [VSS], GetAdditionalRestores method [VSS], IVssComponent interface, GetAdditionalRestores,IVssComponent.GetAdditionalRestores, IVssComponent, IVssComponent interface [VSS], GetAdditionalRestores method, IVssComponent::GetAdditionalRestores, _win32_ivsscomponent_getadditionalrestores, base.ivsscomponent_getadditionalrestores, vswriter/IVssComponent::GetAdditionalRestores
 ms.prod: windows-hardware
 ms.technology: windows-devices

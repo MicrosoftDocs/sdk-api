@@ -7,7 +7,7 @@ old-location: wmdm\csecurechannelclient_macinit.htm
 old-project: WMDM
 ms.assetid: d383d040-55f7-4ed7-b5b8-8e963b6cb16a
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: CSecureChannelClient, CSecureChannelClient interface [windows Media Device Manager], MACInit method, CSecureChannelClient::MACInit, CSecureChannelClientMACInit, MACInit method [windows Media Device Manager], MACInit method [windows Media Device Manager], CSecureChannelClient interface, MACInit,CSecureChannelClient.MACInit, scclient/CSecureChannelClient::MACInit, wmdm.csecurechannelclient_macinit
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # CSecureChannelClient::MACInit method

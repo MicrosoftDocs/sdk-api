@@ -7,7 +7,7 @@ old-location: mstv\iatsc_stt_getgpsutcoffset.htm
 old-project: mstv
 ms.assetid: 124c864a-a504-4f3c-836f-bdbe730beda7
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetGpsUtcOffset method [Microsoft TV Technologies], GetGpsUtcOffset method [Microsoft TV Technologies], IATSC_STT interface, GetGpsUtcOffset,IATSC_STT.GetGpsUtcOffset, IATSC_STT, IATSC_STT interface [Microsoft TV Technologies], GetGpsUtcOffset method, IATSC_STT::GetGpsUtcOffset, IATSC_STTGetGpsUtcOffset, atscpsipparser/IATSC_STT::GetGpsUtcOffset, mstv.iatsc_stt_getgpsutcoffset
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_WRITER_PAYLOAD_STREAM
+req.typenames: AsyncStatus
 topic_type:
 -	APIRef
 -	kbSyntax

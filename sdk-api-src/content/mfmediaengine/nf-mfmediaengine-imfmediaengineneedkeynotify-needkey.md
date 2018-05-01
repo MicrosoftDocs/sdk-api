@@ -7,7 +7,7 @@ old-location: mf\imfmediaengineneedkeynotify_needkey.htm
 old-project: medfound
 ms.assetid: 2b9a64d6-1a0f-4375-973a-42734ac5658e
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFMediaEngineNeedKeyNotify, IMFMediaEngineNeedKeyNotify interface [Media Foundation], NeedKey method, IMFMediaEngineNeedKeyNotify::NeedKey, NeedKey method [Media Foundation], NeedKey method [Media Foundation], IMFMediaEngineNeedKeyNotify interface, NeedKey,IMFMediaEngineNeedKeyNotify.NeedKey, mf.imfmediaengineneedkeynotify_needkey, mfmediaengine/IMFMediaEngineNeedKeyNotify::NeedKey
 ms.prod: windows-hardware
 ms.technology: windows-devices

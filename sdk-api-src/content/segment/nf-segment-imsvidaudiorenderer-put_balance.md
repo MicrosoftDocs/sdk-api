@@ -7,7 +7,7 @@ old-location: mstv\imsvidaudiorenderer_put_balance.htm
 old-project: mstv
 ms.assetid: 25a9231a-d34a-4657-be0a-fcc979d1745d
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidAudioRenderer, IMSVidAudioRenderer interface [Microsoft TV Technologies], put_Balance method, IMSVidAudioRenderer::put_Balance, IMSVidAudioRendererput_Balance, mstv.imsvidaudiorenderer_put_balance, put_Balance method [Microsoft TV Technologies], put_Balance method [Microsoft TV Technologies], IMSVidAudioRenderer interface, put_Balance,IMSVidAudioRenderer.put_Balance, segment/IMSVidAudioRenderer::put_Balance
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidAudioRenderer::put_Balance method

@@ -7,7 +7,7 @@ old-location: automat\idispatch_gettypeinfocount.htm
 old-project: automat
 ms.assetid: da876d53-cb8a-465c-a43e-c0eb272e2a12
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: GetTypeInfoCount method [Automation], GetTypeInfoCount method [Automation], IAccessible interface, GetTypeInfoCount method [Automation], IDispatch interface, GetTypeInfoCount,IDispatch.GetTypeInfoCount, IAccessible interface [Automation], GetTypeInfoCount method, IAccessible::GetTypeInfoCount, IDispatch, IDispatch interface [Automation], GetTypeInfoCount method, IDispatch::GetTypeInfoCount, _oa96_IDispatch::GetTypeInfoCount, automat.idispatch_gettypeinfocount, oaidl/IAccessible::GetTypeInfoCount, oaidl/IDispatch::GetTypeInfoCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IDispatch::GetTypeInfoCount method

@@ -7,7 +7,7 @@ old-location: tablet\iinkrecognitionalternate_strokes.htm
 old-project: tablet
 ms.assetid: 60ce6ed5-67d3-4471-a7a1-4653e8a122a1
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: IInkRecognitionAlternate, IInkRecognitionAlternate interface [Tablet PC], Strokes property, IInkRecognitionAlternate.Strokes, IInkRecognitionAlternate.get_Strokes, IInkRecognitionAlternate::get_Strokes, Strokes property [Tablet PC], Strokes property [Tablet PC], IInkRecognitionAlternate interface, get_Strokes,IInkRecognitionAlternate.get_Strokes, msinkaut/IInkRecognitionAlternate::Strokes, msinkaut/IInkRecognitionAlternate::get_Strokes, tablet.iinkrecognitionalternate_strokes
 ms.prod: windows-hardware
 ms.technology: windows-devices

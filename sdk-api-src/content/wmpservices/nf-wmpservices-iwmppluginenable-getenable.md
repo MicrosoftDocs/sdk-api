@@ -7,7 +7,7 @@ old-location: wmp\iwmppluginenable_getenable.htm
 old-project: WMP
 ms.assetid: 29a08f6e-17a7-4bff-9aea-d5586d2b55b3
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: GetEnable method [Windows Media Player], GetEnable method [Windows Media Player], IWMPPluginEnable interface, GetEnable,IWMPPluginEnable.GetEnable, IWMPPluginEnable, IWMPPluginEnable interface [Windows Media Player], GetEnable method, IWMPPluginEnable::GetEnable, IWMPPluginEnableGetEnableDSP, wmp.iwmppluginenable_getenable, wmpservices/IWMPPluginEnable::GetEnable
 ms.prod: windows-hardware
 ms.technology: windows-devices

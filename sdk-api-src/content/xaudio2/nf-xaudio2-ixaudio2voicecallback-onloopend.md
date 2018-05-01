@@ -7,7 +7,7 @@ old-location: xaudio2\ixaudio2voicecallback_interface_onloopend.htm
 old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2voicecallback.IXAudio2VoiceCallback.OnLoopEnd(void)
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/20/2018
 ms.keywords: IXAudio2VoiceCallback, IXAudio2VoiceCallback interface [XAudio2 Audio Mixing APIs], OnLoopEnd method, IXAudio2VoiceCallback::OnLoopEnd, OnLoopEnd method [XAudio2 Audio Mixing APIs], OnLoopEnd method [XAudio2 Audio Mixing APIs], IXAudio2VoiceCallback interface, OnLoopEnd,IXAudio2VoiceCallback.OnLoopEnd, xaudio2.ixaudio2voicecallback_interface_onloopend, xaudio2/IXAudio2VoiceCallback::OnLoopEnd
 ms.prod: windows-hardware
 ms.technology: windows-devices

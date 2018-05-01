@@ -7,7 +7,7 @@ old-location: wmformat\iwmwriterpostview.htm
 old-project: wmformat
 ms.assetid: 1d24dbd6-86df-4a0a-8110-15f6a4c1f31d
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMWriterPostView, IWMWriterPostView interface [windows Media Format], IWMWriterPostView interface [windows Media Format], described, IWMWriterPostViewInterface, wmformat.iwmwriterpostview, wmsdkidl/IWMWriterPostView
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: automat\itypecomp_bind.htm
 old-project: automat
 ms.assetid: 04814179-2555-4ba5-a08c-bff776c03ca3
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: Bind method [Automation], Bind method [Automation], ITypeComp interface, Bind,ITypeComp.Bind, ITypeComp, ITypeComp interface [Automation], Bind method, ITypeComp::Bind, _oa96_ITypeComp_Bind, automat.itypecomp_bind, oaidl/ITypeComp::Bind
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITypeComp::Bind method

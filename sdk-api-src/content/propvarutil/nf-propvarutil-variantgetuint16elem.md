@@ -7,7 +7,7 @@ old-location: properties\VariantGetUInt16Elem.htm
 old-project: properties
 ms.assetid: 6d2a8b0b-bcd2-4bad-a006-2443eabd7a16
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/5/2018
 ms.keywords: VariantGetUInt16Elem, VariantGetUInt16Elem function [Windows Properties], _shell_VariantGetUInt16Elem, properties.VariantGetUInt16Elem, propvarutil/VariantGetUInt16Elem, shell.VariantGetUInt16Elem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # VariantGetUInt16Elem function

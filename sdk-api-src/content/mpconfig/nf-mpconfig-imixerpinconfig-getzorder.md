@@ -7,7 +7,7 @@ old-location: dshow\imixerpinconfig_getzorder.htm
 old-project: DirectShow
 ms.assetid: 5089a2b3-2973-4761-82f6-f6af3ac9f560
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetZOrder method [DirectShow], GetZOrder method [DirectShow], IMixerPinConfig interface, GetZOrder,IMixerPinConfig.GetZOrder, IMixerPinConfig, IMixerPinConfig interface [DirectShow], GetZOrder method, IMixerPinConfig::GetZOrder, IMixerPinConfigGetZOrder, dshow.imixerpinconfig_getzorder, mpconfig/IMixerPinConfig::GetZOrder
 ms.prod: windows-hardware
 ms.technology: windows-devices

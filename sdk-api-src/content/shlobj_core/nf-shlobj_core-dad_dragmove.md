@@ -7,7 +7,7 @@ old-location: shell\DAD_DragMove.htm
 old-project: shell
 ms.assetid: 7cd9f5ba-e14f-4c0c-8cde-2e7c4926b509
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: DAD_DragMove, DAD_DragMove function [Windows Shell], shell.DAD_DragMove, shell_DAD_DragMove, shlobj_core/DAD_DragMove
 ms.prod: windows-hardware
 ms.technology: windows-devices

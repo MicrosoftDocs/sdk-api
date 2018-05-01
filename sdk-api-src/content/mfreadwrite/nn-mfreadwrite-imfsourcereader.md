@@ -7,7 +7,7 @@ old-location: mf\imfsourcereader.htm
 old-project: medfound
 ms.assetid: 7d3cc314-6b9e-437c-afda-ee1965a12721
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFSourceReader, IMFSourceReader interface [Media Foundation], IMFSourceReader interface [Media Foundation], described, mf.imfsourcereader, mfreadwrite/IMFSourceReader
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11device3_readfromsubresource.htm
 old-project: direct3d11
 ms.assetid: 060B9627-3A95-4DBD-B3E6-3989D8D9C79E
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/6/2018
 ms.keywords: ID3D11Device3, ID3D11Device3 interface [Direct3D 11], ReadFromSubresource method, ID3D11Device3::ReadFromSubresource, ReadFromSubresource method [Direct3D 11], ReadFromSubresource method [Direct3D 11], ID3D11Device3 interface, ReadFromSubresource,ID3D11Device3.ReadFromSubresource, d3d11_3/ID3D11Device3::ReadFromSubresource, direct3d11.id3d11device3_readfromsubresource
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationAnnotationPattern_CachedAuthor.htm
 old-project: WinAuto
 ms.assetid: 9B1B2150-38DA-4B47-B539-BD1175F39A2D
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: CachedAuthor property [Windows Accessibility], CachedAuthor property [Windows Accessibility], IUIAutomationAnnotationPattern interface, IUIAutomationAnnotationPattern, IUIAutomationAnnotationPattern interface [Windows Accessibility], CachedAuthor property, IUIAutomationAnnotationPattern.CachedAuthor, IUIAutomationAnnotationPattern::get_CachedAuthor, get_CachedAuthor,IUIAutomationAnnotationPattern.get_CachedAuthor, uiautomationclient/IUIAutomationAnnotationPattern::CachedAuthor, uiautomationclient/IUIAutomationAnnotationPattern::get_CachedAuthor, winauto.uiauto_IUIAutomationAnnotationPattern_CachedAuthor
 ms.prod: windows-hardware
 ms.technology: windows-devices

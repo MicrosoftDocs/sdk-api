@@ -7,7 +7,7 @@ old-location: security\iazroleassignment_addroledefinition.htm
 old-project: SecAuthZ
 ms.assetid: 9946d273-3726-40f4-b438-7f2377fc8013
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: AddRoleDefinition method [Security], AddRoleDefinition method [Security], IAzRoleAssignment interface, AddRoleDefinition,IAzRoleAssignment.AddRoleDefinition, IAzRoleAssignment, IAzRoleAssignment interface [Security], AddRoleDefinition method, IAzRoleAssignment::AddRoleDefinition, azroles/IAzRoleAssignment::AddRoleDefinition, security.iazroleassignment_addroledefinition
 ms.prod: windows-hardware
 ms.technology: windows-devices

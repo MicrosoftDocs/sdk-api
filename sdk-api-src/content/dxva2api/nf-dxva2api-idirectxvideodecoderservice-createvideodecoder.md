@@ -7,7 +7,7 @@ old-location: mf\idirectxvideodecoderservice_createvideodecoder.htm
 old-project: medfound
 ms.assetid: 2a799411-e8d5-4ab8-b52f-7198af9a4f2b
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 2a799411-e8d5-4ab8-b52f-7198af9a4f2b, CreateVideoDecoder method [Media Foundation], CreateVideoDecoder method [Media Foundation], IDirectXVideoDecoderService interface, CreateVideoDecoder,IDirectXVideoDecoderService.CreateVideoDecoder, IDirectXVideoDecoderService, IDirectXVideoDecoderService interface [Media Foundation], CreateVideoDecoder method, IDirectXVideoDecoderService::CreateVideoDecoder, dxva2api/IDirectXVideoDecoderService::CreateVideoDecoder, mf.idirectxvideodecoderservice_createvideodecoder
 ms.prod: windows-hardware
 ms.technology: windows-devices

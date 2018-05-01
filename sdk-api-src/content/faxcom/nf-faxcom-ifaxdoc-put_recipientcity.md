@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxdoc_get_recipientcity_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_4uih.htm
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/18/2018
 ms.keywords: FaxDoc object [Fax Service], RecipientCity property, IFaxDoc, IFaxDoc::put_RecipientCity, RecipientCity property [Fax Service], RecipientCity property [Fax Service], FaxDoc object, _mfax_ifaxdoc_get_recipientcity, fax._mfax_ifaxdoc_get_recipientcity, fax._mfax_ifaxdoc_get_recipientcity_vb, put_RecipientCity,IFaxDoc.put_RecipientCity
 ms.prod: windows-hardware
 ms.technology: windows-devices

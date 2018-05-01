@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11device5_createfence.htm
 old-project: direct3d11
 ms.assetid: B4AA9E0D-AAF4-4632-A98F-A3212764D5E1
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/6/2018
 ms.keywords: CreateFence method [Direct3D 11], CreateFence method [Direct3D 11], ID3D11Device5 interface, CreateFence,ID3D11Device5.CreateFence, ID3D11Device5, ID3D11Device5 interface [Direct3D 11], CreateFence method, ID3D11Device5::CreateFence, d3d11_4/ID3D11Device5::CreateFence, direct3d11.id3d11device5_createfence
 ms.prod: windows-hardware
 ms.technology: windows-devices

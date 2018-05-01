@@ -7,7 +7,7 @@ old-location: wmp\iwmpevents_iwmpevents__domainchange.htm
 old-project: WMP
 ms.assetid: deb8e05e-a6dc-4971-9c34-9c12f1dedc9e
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: DomainChange method [Windows Media Player], DomainChange method [Windows Media Player], IWMPEvents interface, DomainChange,IWMPEvents.DomainChange, IWMPEvents, IWMPEvents interface [Windows Media Player], DomainChange method, IWMPEvents::DomainChange, IWMPEventsDomainChange, wmp.iwmpevents_iwmpevents__domainchange, wmp/IWMPEvents::DomainChange
 ms.prod: windows-hardware
 ms.technology: windows-devices

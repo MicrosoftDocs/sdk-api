@@ -7,7 +7,7 @@ old-location: termserv\itspubplugin_getcachelastupdatetime.htm
 old-project: TermServ
 ms.assetid: 66b18c7f-2623-44ed-8cb9-3cceaa9bab34
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: GetCacheLastUpdateTime method [Remote Desktop Services], GetCacheLastUpdateTime method [Remote Desktop Services], ItsPubPlugin interface, GetCacheLastUpdateTime,ItsPubPlugin.GetCacheLastUpdateTime, ItsPubPlugin, ItsPubPlugin interface [Remote Desktop Services], GetCacheLastUpdateTime method, ItsPubPlugin::GetCacheLastUpdateTime, termserv.itspubplugin_getcachelastupdatetime, tspubplugincom/ItsPubPlugin::GetCacheLastUpdateTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

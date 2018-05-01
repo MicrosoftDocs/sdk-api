@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_deserializer_classobjectneeded.htm
 old-project: wmi_v2
 ms.assetid: 0C813AAF-99B4-4DA7-9C2F-CD9FA146D7D2
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/18/2018
 ms.keywords: MI_Deserializer_ClassObjectNeeded, MI_Deserializer_ClassObjectNeeded callback function [Windows Management Infrastructure (MI)], mi/MI_Deserializer_ClassObjectNeeded, wmi_v2.mi_deserializer_classobjectneeded
 ms.prod: windows-hardware
 ms.technology: windows-devices

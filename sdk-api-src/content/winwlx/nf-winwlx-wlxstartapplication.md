@@ -7,7 +7,7 @@ old-location: security\wlxstartapplication.htm
 old-project: SecAuthN
 ms.assetid: ad6b520a-56b7-4d22-b4d4-4b45e9e42a9f
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/24/2018
 ms.keywords: WlxStartApplication, WlxStartApplication function [Security], _gina_wlxstartapplication, security.wlxstartapplication, winwlx/WlxStartApplication
 ms.prod: windows-hardware
 ms.technology: windows-devices

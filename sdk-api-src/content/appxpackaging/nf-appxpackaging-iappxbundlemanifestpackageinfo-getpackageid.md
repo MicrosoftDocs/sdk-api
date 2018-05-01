@@ -7,7 +7,7 @@ old-location: appxpkg\iappxbundlemanifestpackageinfo_getpackageid.htm
 old-project: appxpkg
 ms.assetid: 5C7F52C3-AB72-4023-900B-53E3B5504213
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/26/2018
 ms.keywords: GetPackageId method [App packaging and management], GetPackageId method [App packaging and management], IAppxBundleManifestPackageInfo interface, GetPackageId,IAppxBundleManifestPackageInfo.GetPackageId, IAppxBundleManifestPackageInfo, IAppxBundleManifestPackageInfo interface [App packaging and management], GetPackageId method, IAppxBundleManifestPackageInfo::GetPackageId, appxpackaging/IAppxBundleManifestPackageInfo::GetPackageId, appxpkg.iappxbundlemanifestpackageinfo_getpackageid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_ARCHITECTURE2
+req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
 topic_type:
 -	APIRef
 -	kbSyntax

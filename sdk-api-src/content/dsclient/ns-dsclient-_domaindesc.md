@@ -7,7 +7,7 @@ old-location: ad\domaindesc.htm
 old-project: AD
 ms.assetid: c788d106-2cc7-4d67-8568-23e858c0075f
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/20/2018
 ms.keywords: "*LPDOMAINDESC, *PDOMAIN_DESC, DOMAINDESC, DOMAINDESC structure [Active Directory], DOMAIN_DESC, DOMAIN_DESC structure [Active Directory], LPDOMAINDESC, LPDOMAINDESC structure pointer [Active Directory], PDOMAIN_DESC, PDOMAIN_DESC structure pointer [Active Directory], _DOMAINDESC, _glines_domaindesc, ad.domaindesc, dsclient/DOMAINDESC, dsclient/LPDOMAINDESC, dsclient/PDOMAIN_DESC"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -57,16 +57,6 @@ The <b>DOMAINDESC</b> structure contains data about an element in a domain tree 
 
 
 
-### -field pdChildList
-
-Contains a pointer to a <b>DOMAINDESC</b> structure that represents the first child of the domain. Obtain subsequent children by accessing the <b>pdNextSibling</b> member of the child structure. This member is <b>NULL</b> if the domain has no children.
-
-
-### -field pdNextSibling
-
-Contains a pointer to a <b>DOMAINDESC</b> structure that represents the next sibling of the domain. Obtain subsequent siblings by accessing the <b>pdNextSibling</b> member of the sibling structure. This member is <b>NULL</b> if the domain has no siblings.
-
-
 ### -field pszName
 
 Pointer to a Unicode string that contains the domain name.
@@ -100,6 +90,16 @@ Contains a set of flags that specify the attributes of the trust. For more infor
 ### -field fDownLevel
 
 Contains a nonzero value if the domain is a down-level domain or zero otherwise.
+
+
+### -field pdChildList
+
+Contains a pointer to a <b>DOMAINDESC</b> structure that represents the first child of the domain. Obtain subsequent children by accessing the <b>pdNextSibling</b> member of the child structure. This member is <b>NULL</b> if the domain has no children.
+
+
+### -field pdNextSibling
+
+Contains a pointer to a <b>DOMAINDESC</b> structure that represents the next sibling of the domain. Obtain subsequent siblings by accessing the <b>pdNextSibling</b> member of the sibling structure. This member is <b>NULL</b> if the domain has no siblings.
 
 
 ## -remarks

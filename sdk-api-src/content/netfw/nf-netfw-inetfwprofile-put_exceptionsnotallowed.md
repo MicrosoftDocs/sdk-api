@@ -7,7 +7,7 @@ old-location: ics\inetfwprofile_exceptionsnotallowed.htm
 old-project: ICS
 ms.assetid: 5b9eae72-546e-4724-acba-c2f2d9ad1cc6
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: ExceptionsNotAllowed property [ICS/ICF], ExceptionsNotAllowed property [ICS/ICF], INetFwProfile interface, INetFwProfile, INetFwProfile interface [ICS/ICF], ExceptionsNotAllowed property, INetFwProfile.ExceptionsNotAllowed, INetFwProfile::get_ExceptionsNotAllowed, INetFwProfile::put_ExceptionsNotAllowed, ics.inetfwprofile_exceptionsnotallowed, netfw/INetFwProfile::ExceptionsNotAllowed, netfw/INetFwProfile::get_ExceptionsNotAllowed, netfw/INetFwProfile::put_ExceptionsNotAllowed, put_ExceptionsNotAllowed,INetFwProfile.put_ExceptionsNotAllowed
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: 
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # INetFwProfile::put_ExceptionsNotAllowed method

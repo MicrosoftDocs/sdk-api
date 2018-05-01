@@ -7,7 +7,7 @@ old-location: wmformat\iwmreadernetworkconfig_getproxyport.htm
 old-project: wmformat
 ms.assetid: 042d702e-b4a1-43f6-b2c4-c81922d7c3f2
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: GetProxyPort method [windows Media Format], GetProxyPort method [windows Media Format], IWMReaderNetworkConfig interface, GetProxyPort,IWMReaderNetworkConfig.GetProxyPort, IWMReaderNetworkConfig, IWMReaderNetworkConfig interface [windows Media Format], GetProxyPort method, IWMReaderNetworkConfig::GetProxyPort, IWMReaderNetworkConfigGetProxyPort, wmformat.iwmreadernetworkconfig_getproxyport, wmsdkidl/IWMReaderNetworkConfig::GetProxyPort
 ms.prod: windows-hardware
 ms.technology: windows-devices

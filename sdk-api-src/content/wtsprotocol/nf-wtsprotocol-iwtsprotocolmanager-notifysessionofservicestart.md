@@ -7,7 +7,7 @@ old-location: termserv\iwtsprotocolmanager_notifysessionofservicestart.htm
 old-project: TermServ
 ms.assetid: 8b9e7578-75e1-4447-8ff9-e391bf339fbe
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: IWTSProtocolManager, IWTSProtocolManager interface [Remote Desktop Services], NotifySessionOfServiceStart method, IWTSProtocolManager::NotifySessionOfServiceStart, NotifySessionOfServiceStart method [Remote Desktop Services], NotifySessionOfServiceStart method [Remote Desktop Services], IWTSProtocolManager interface, NotifySessionOfServiceStart,IWTSProtocolManager.NotifySessionOfServiceStart, termserv.iwtsprotocolmanager_notifysessionofservicestart, wtsprotocol/IWTSProtocolManager::NotifySessionOfServiceStart
 ms.prod: windows-hardware
 ms.technology: windows-devices

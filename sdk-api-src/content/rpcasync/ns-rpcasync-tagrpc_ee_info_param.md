@@ -7,7 +7,7 @@ old-location: rpc\rpc_ee_info_param.htm
 old-project: Rpc
 ms.assetid: a201f8f3-6e74-4550-9738-d5415340994b
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: RPC_EE_INFO_PARAM, RPC_EE_INFO_PARAM structure [RPC], _rpc_rpc_ee_info_param, rpc.rpc_ee_info_param, rpcasync/RPC_EE_INFO_PARAM, tagRPC_EE_INFO_PARAM
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # tagRPC_EE_INFO_PARAM structure
@@ -58,6 +58,23 @@ The
 
 
 
+
+### -field ParameterType
+
+Type of parameter being provided as extended error information. This value determines which union member(s) is used. Valid values are the following: 
+
+
+
+
+<ul>
+<li><b>eeptAnsiString</b> to specify an ANSI string, indicating the value is provided in <b>AnsiString</b>.</li>
+<li><b>eeptUnicodeString</b> to specify a Unicode string, indicating the value is provided in <b>UnicodeString</b>.</li>
+<li><b>eeptLongVal</b> to specify a LONG value, indicating the value is provided in <b>LVal</b>.</li>
+<li><b>eeptShortVal</b> to specify a SHORT value, indicating the values is provided in <b>SVal</b>.</li>
+<li><b>eeptPointerVal</b> to specify a pointer value, indicating the values is provided in <b>PVal</b>.</li>
+<li><b>eeptBinary</b> is used by the RPC Runtime and should not be used or specified by applications.</li>
+<li><b>eeptNone</b> indicates the parameter contained either a Unicode or ANSI string, but was truncated due to lack of memory or network fragment length limitations.</li>
+</ul>
 
 ### -field u
 
@@ -97,23 +114,6 @@ ULONGLONG value representing the extended error information.
 
 Reserved.
 
-
-### -field ParameterType
-
-Type of parameter being provided as extended error information. This value determines which union member(s) is used. Valid values are the following: 
-
-
-
-
-<ul>
-<li><b>eeptAnsiString</b> to specify an ANSI string, indicating the value is provided in <b>AnsiString</b>.</li>
-<li><b>eeptUnicodeString</b> to specify a Unicode string, indicating the value is provided in <b>UnicodeString</b>.</li>
-<li><b>eeptLongVal</b> to specify a LONG value, indicating the value is provided in <b>LVal</b>.</li>
-<li><b>eeptShortVal</b> to specify a SHORT value, indicating the values is provided in <b>SVal</b>.</li>
-<li><b>eeptPointerVal</b> to specify a pointer value, indicating the values is provided in <b>PVal</b>.</li>
-<li><b>eeptBinary</b> is used by the RPC Runtime and should not be used or specified by applications.</li>
-<li><b>eeptNone</b> indicates the parameter contained either a Unicode or ANSI string, but was truncated due to lack of memory or network fragment length limitations.</li>
-</ul>
 
 ## -remarks
 

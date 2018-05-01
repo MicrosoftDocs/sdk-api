@@ -7,7 +7,7 @@ old-location: mscs\igetclusteruiinfo_geticon.htm
 old-project: MsCS
 ms.assetid: b4572178-6225-4a22-8b45-7e8abbaa9759
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: GetIcon method [Failover Cluster], GetIcon method [Failover Cluster], IGetClusterUIInfo interface, GetIcon,IGetClusterUIInfo.GetIcon, IGetClusterUIInfo, IGetClusterUIInfo interface [Failover Cluster], GetIcon method, IGetClusterUIInfo::GetIcon, _wolf_igetclusteruiinfo_geticon, cluadmex/IGetClusterUIInfo::GetIcon, mscs.igetclusteruiinfo_geticon
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: LOG_MANAGEMENT_CALLBACKS, *PLOG_MANAGEMENT_CALLBACKS
+req.typenames: Sources
 topic_type:
 -	APIRef
 -	kbSyntax

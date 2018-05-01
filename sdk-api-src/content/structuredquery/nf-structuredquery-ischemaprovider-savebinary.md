@@ -7,7 +7,7 @@ old-location: search\_search_ISchemaProvider_SaveBinary.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ischemaprovider\savebinary.htm
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/24/2018
 ms.keywords: ISchemaProvider, ISchemaProvider interface [search], SaveBinary method, ISchemaProvider::SaveBinary, SaveBinary method [search], SaveBinary method [search], ISchemaProvider interface, SaveBinary,ISchemaProvider.SaveBinary, _search_ISchemaProvider_SaveBinary, search._search_ISchemaProvider_SaveBinary, structuredquery/ISchemaProvider::SaveBinary
 ms.prod: windows-hardware
 ms.technology: windows-devices

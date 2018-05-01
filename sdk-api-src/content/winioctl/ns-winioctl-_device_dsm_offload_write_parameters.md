@@ -7,7 +7,7 @@ old-location: base\device_dsm_offload_write_parameters.htm
 old-project: DevIO
 ms.assetid: d0107cae-50c9-46d2-97cd-324030692903
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/3/2018
 ms.keywords: "*PDEVICE_DSM_OFFLOAD_WRITE_PARAMETERS, DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS, DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS structure, PDEVICE_DSM_OFFLOAD_WRITE_PARAMETERS, PDEVICE_DSM_OFFLOAD_WRITE_PARAMETERS structure pointer, _DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS, base.device_dsm_offload_write_parameters, winioctl/DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS, winioctl/PDEVICE_DSM_OFFLOAD_WRITE_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

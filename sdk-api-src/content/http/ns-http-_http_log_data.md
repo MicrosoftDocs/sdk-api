@@ -7,7 +7,7 @@ old-location: http\http_log_data.htm
 old-project: Http
 ms.assetid: 31598e37-d487-4ef0-9443-e704cc60a6b2
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: "*PHTTP_LOG_DATA, HTTP_LOG_DATA, HTTP_LOG_DATA structure [HTTP], PHTTP_LOG_DATA, PHTTP_LOG_DATA structure pointer [HTTP], _HTTP_LOG_DATA, http.http_log_data, http/HTTP_LOG_DATA, http/PHTTP_LOG_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices

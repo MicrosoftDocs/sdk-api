@@ -7,7 +7,7 @@ old-location: direct2d\d2d1_layer_parameters1.htm
 old-project: Direct2D
 ms.assetid: D7CC93F8-D871-4DFC-84A3-CA60EB52FF0A
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: D2D1_LAYER_PARAMETERS1, D2D1_LAYER_PARAMETERS1 structure [Direct2D], d2d1_1/D2D1_LAYER_PARAMETERS1, direct2d.d2d1_layer_parameters1
 ms.prod: windows-hardware
 ms.technology: windows-devices

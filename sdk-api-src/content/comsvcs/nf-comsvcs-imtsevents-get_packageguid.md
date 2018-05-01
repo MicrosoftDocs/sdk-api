@@ -7,7 +7,7 @@ old-location: cos\imtsevents_get_packageguid.htm
 old-project: cossdk
 ms.assetid: 7afd68f7-8aba-4c0f-a262-9a0ea861e063
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: IMtsEvents, IMtsEvents interface [COM+], get_PackageGuid method, IMtsEvents::get_PackageGuid, _dtc_IMtsEvents_PackageGuid, comsvcs/IMtsEvents::get_PackageGuid, cos.imtsevents_get_packageguid, get_PackageGuid method [COM+], get_PackageGuid method [COM+], IMtsEvents interface, get_PackageGuid,IMtsEvents.get_PackageGuid
 ms.prod: windows-hardware
 ms.technology: windows-devices

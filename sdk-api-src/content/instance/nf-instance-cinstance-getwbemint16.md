@@ -7,7 +7,7 @@ old-location: wmi\cinstance_getwbemint16.htm
 old-project: WmiSdk
 ms.assetid: 9f22a939-58a9-4444-8d17-04330cded7d1
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: "?GetWBEMINT16@CInstance@@QBE_NPBGAAF@Z, ?GetWBEMINT16@CInstance@@QEBA_NPEBGAEAF@Z, CInstance, CInstance interface [Windows Management Instrumentation], GetWBEMINT16 method, CInstance::GetWBEMINT16, GetWBEMINT16 method [Windows Management Instrumentation], GetWBEMINT16 method [Windows Management Instrumentation], CInstance interface, GetWBEMINT16,CInstance.GetWBEMINT16, _hmm_cinstance_getwbemint16, instance/CInstance::GetWBEMINT16, wmi.cinstance_getwbemint16"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: InputScope
+req.typenames: TrustLevel
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,7 +7,7 @@ old-location: wmi\wbemtime_getdmtf.htm
 old-project: WmiSdk
 ms.assetid: 3bfcf7f8-0b0c-4a3f-83c7-be4c37753a7a
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: "?GetDMTF@WBEMTime@@QBEPAGH@Z, ?GetDMTF@WBEMTime@@QEBAPEAGH@Z, GetDMTF method [Windows Management Instrumentation], GetDMTF method [Windows Management Instrumentation], WBEMTime interface, GetDMTF,WBEMTime.GetDMTF, WBEMTime, WBEMTime interface [Windows Management Instrumentation], GetDMTF method, WBEMTime::GetDMTF, _hmm_wbemtime_getdmtf, wbemtime/WBEMTime::GetDMTF, wmi.wbemtime_getdmtf"
 ms.prod: windows-hardware
 ms.technology: windows-devices

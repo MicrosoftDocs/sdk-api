@@ -7,7 +7,7 @@ old-location: tracelogging\traceloggingkeyword.htm
 old-project: tracelogging
 ms.assetid: 4837DCE3-929F-458B-95E1-8720FD3E9FFA
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: TraceLoggingKeyword, TraceLoggingKeyword macro, tracelogging.traceloggingkeyword, traceloggingprovider/TraceLoggingKeyword
 ms.prod: windows-hardware
 ms.technology: windows-devices

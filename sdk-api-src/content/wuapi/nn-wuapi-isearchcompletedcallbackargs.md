@@ -7,7 +7,7 @@ old-location: wua\isearchcompletedcallbackargs.htm
 old-project: Wua_Sdk
 ms.assetid: 809e4a09-3ad8-4e7f-8ace-ae613d05a7e1
 ms.author: windowsdriverdev
-ms.date: 3/15/2018
+ms.date: 4/18/2018
 ms.keywords: ISearchCompletedCallbackArgs, ISearchCompletedCallbackArgs interface [Windows Update Agent], ISearchCompletedCallbackArgs interface [Windows Update Agent], described, wua.isearchcompletedcallbackargs, wuapi/ISearchCompletedCallbackArgs
 ms.prod: windows-hardware
 ms.technology: windows-devices

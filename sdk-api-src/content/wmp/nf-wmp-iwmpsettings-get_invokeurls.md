@@ -7,7 +7,7 @@ old-location: wmp\iwmpsettings_get_invokeurls.htm
 old-project: WMP
 ms.assetid: a29ea1ba-8994-4d0f-8c53-8abba8fe997d
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPSettings, IWMPSettings interface [Windows Media Player], get_invokeURLs method, IWMPSettings::get_invokeURLs, IWMPSettingsget_invokeURLs, get_invokeURLs method [Windows Media Player], get_invokeURLs method [Windows Media Player], IWMPSettings interface, get_invokeURLs,IWMPSettings.get_invokeURLs, wmp.iwmpsettings_get_invokeurls, wmp/IWMPSettings::get_invokeURLs
 ms.prod: windows-hardware
 ms.technology: windows-devices

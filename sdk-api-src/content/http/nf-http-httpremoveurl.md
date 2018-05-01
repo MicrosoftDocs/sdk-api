@@ -7,7 +7,7 @@ old-location: http\httpremoveurl.htm
 old-project: Http
 ms.assetid: 21740d08-c280-44c1-8efb-1d21b4006039
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: HttpRemoveUrl, HttpRemoveUrl function [HTTP], _http_httpremoveurl, http.httpremoveurl, http/HttpRemoveUrl
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: multimedia\iavistream_write.htm
 old-project: Multimedia
 ms.assetid: 31252348-0830-4b1c-82a3-9f68818094da
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/25/2018
 ms.keywords: IAVIStream, IAVIStream interface [Windows Multimedia], Write method, IAVIStream::Write, Write method [Windows Multimedia], Write method [Windows Multimedia], IAVIStream interface, Write,IAVIStream.Write, _win32_IAVIStream_Write, multimedia.iavistream_write, vfw/IAVIStream::Write
 ms.prod: windows-hardware
 ms.technology: windows-devices

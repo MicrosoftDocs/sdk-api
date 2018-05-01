@@ -7,7 +7,7 @@ old-location: mstv\ienumcomponenttypes_reset.htm
 old-project: mstv
 ms.assetid: 7eead32c-a02c-41c1-8cfb-a52180219697
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IEnumComponentTypes, IEnumComponentTypes interface [Microsoft TV Technologies], Reset method, IEnumComponentTypes::Reset, IEnumComponentTypesReset, Reset method [Microsoft TV Technologies], Reset method [Microsoft TV Technologies], IEnumComponentTypes interface, Reset,IEnumComponentTypes.Reset, mstv.ienumcomponenttypes_reset, tuner/IEnumComponentTypes::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices

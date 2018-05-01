@@ -7,7 +7,7 @@ old-location: winsock\connectex_2.htm
 old-project: WinSock
 ms.assetid: a4552366-eafa-4f24-b6c2-e6a7edc4b021
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/24/2018
 ms.keywords: LPFN_CONNECTEX, LPFN_CONNECTEX callback function [Winsock], _win32_connectex_2, mswsock/LPFN_CONNECTEX, winsock.connectex_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # LPFN_CONNECTEX callback

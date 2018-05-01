@@ -7,7 +7,7 @@ old-location: com\ibindctx_getobjectparam.htm
 old-project: com
 ms.assetid: 8f423495-7a34-4901-968e-1fe204680d8a
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: GetObjectParam method [COM], GetObjectParam method [COM], IBindCtx interface, GetObjectParam,IBindCtx.GetObjectParam, IBindCtx, IBindCtx interface [COM], GetObjectParam method, IBindCtx::GetObjectParam, _com_ibindctx_getobjectparam, com.ibindctx_getobjectparam, objidl/IBindCtx::GetObjectParam
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IBindCtx::GetObjectParam method

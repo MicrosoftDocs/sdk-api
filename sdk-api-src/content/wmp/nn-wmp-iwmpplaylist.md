@@ -7,7 +7,7 @@ old-location: wmp\iwmpplaylist.htm
 old-project: WMP
 ms.assetid: 04b6d6bc-a3fe-4b3f-b348-0f6b9f6e77a9
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPPlaylist, IWMPPlaylist interface [Windows Media Player], IWMPPlaylist interface [Windows Media Player], described, IWMPPlaylistInterface, wmp.iwmpplaylist, wmp/IWMPPlaylist
 ms.prod: windows-hardware
 ms.technology: windows-devices

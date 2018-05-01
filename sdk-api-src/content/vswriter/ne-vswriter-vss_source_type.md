@@ -7,7 +7,7 @@ old-location: base\vss_source_type.htm
 old-project: VSS
 ms.assetid: cb89c3cc-5a8e-419e-839c-f72a1886eadf
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: VSS_SOURCE_TYPE, VSS_SOURCE_TYPE enumeration [VSS], VSS_ST_NONTRANSACTEDDB, VSS_ST_OTHER, VSS_ST_TRANSACTEDDB, VSS_ST_UNDEFINED, _win32_vss_source_type, base.vss_source_type, enumeration [VSS], vswriter/VSS_SOURCE_TYPE, vswriter/VSS_ST_NONTRANSACTEDDB, vswriter/VSS_ST_OTHER, vswriter/VSS_ST_TRANSACTEDDB, vswriter/VSS_ST_UNDEFINED
 ms.prod: windows-hardware
 ms.technology: windows-devices

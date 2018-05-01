@@ -7,7 +7,7 @@ old-location: shell\ULongPtrToUIntPtr.htm
 old-project: shell
 ms.assetid: 512f7db7-af3b-4cf8-aad5-138c5da344da
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ULongPtrToUIntPtr, ULongPtrToUIntPtr function [Windows Shell], _shell_ULongPtrToUIntPtr, intsafe/ULongPtrToUIntPtr, shell.ULongPtrToUIntPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices

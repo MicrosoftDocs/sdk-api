@@ -7,7 +7,7 @@ old-location: base\createsemaphore.htm
 old-project: Sync
 ms.assetid: 2e55d67b-99de-4f10-8637-00d9d62e4460
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: CreateSemaphore, CreateSemaphore function, CreateSemaphoreA, CreateSemaphoreW, _win32_createsemaphore, base.createsemaphore, winbase/CreateSemaphore, winbase/CreateSemaphoreA, winbase/CreateSemaphoreW
 ms.prod: windows-hardware
 ms.technology: windows-devices

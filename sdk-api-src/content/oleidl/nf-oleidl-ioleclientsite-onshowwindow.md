@@ -7,7 +7,7 @@ old-location: com\ioleclientsite_onshowwindow.htm
 old-project: com
 ms.assetid: 9185add8-02d1-4bf3-99ff-82f64ba12ef4
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IOleClientSite, IOleClientSite interface [COM], OnShowWindow method, IOleClientSite::OnShowWindow, OnShowWindow method [COM], OnShowWindow method [COM], IOleClientSite interface, OnShowWindow,IOleClientSite.OnShowWindow, _ole_ioleclientsite_onshowwindow, com.ioleclientsite_onshowwindow, oleidl/IOleClientSite::OnShowWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IOleClientSite::OnShowWindow method

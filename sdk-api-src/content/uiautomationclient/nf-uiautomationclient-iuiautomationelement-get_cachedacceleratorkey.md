@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement_CachedAcceleratorKey.htm
 old-project: WinAuto
 ms.assetid: 52767d3d-7cda-4973-894b-d5e5996c7439
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: CachedAcceleratorKey property [Windows Accessibility], CachedAcceleratorKey property [Windows Accessibility], IUIAutomationElement interface, IUIAutomationElement, IUIAutomationElement interface [Windows Accessibility], CachedAcceleratorKey property, IUIAutomationElement.CachedAcceleratorKey, IUIAutomationElement::get_CachedAcceleratorKey, get_CachedAcceleratorKey,IUIAutomationElement.get_CachedAcceleratorKey, uiauto.uiauto_IUIAutomationElement_CachedAcceleratorKey, uiauto_IUIAutomationElement_CachedAcceleratorKey, uiautomationclient/IUIAutomationElement::CachedAcceleratorKey, uiautomationclient/IUIAutomationElement::get_CachedAcceleratorKey, winauto.uiauto_IUIAutomationElement_CachedAcceleratorKey
 ms.prod: windows-hardware
 ms.technology: windows-devices

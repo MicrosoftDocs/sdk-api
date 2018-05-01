@@ -7,7 +7,7 @@ old-location: wmp\iwmpcdromburn_get_burnprogress.htm
 old-project: WMP
 ms.assetid: 4941e1be-1ed2-4d8e-ad16-79ddbdcd71bf
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPCdromBurn, IWMPCdromBurn interface [Windows Media Player], get_burnProgress method, IWMPCdromBurn::get_burnProgress, IWMPCdromBurnget_burnProgress, get_burnProgress method [Windows Media Player], get_burnProgress method [Windows Media Player], IWMPCdromBurn interface, get_burnProgress,IWMPCdromBurn.get_burnProgress, wmp.iwmpcdromburn_get_burnprogress, wmp/IWMPCdromBurn::get_burnProgress
 ms.prod: windows-hardware
 ms.technology: windows-devices

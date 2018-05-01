@@ -7,7 +7,7 @@ old-location: base\interlockedxor.htm
 old-project: Sync
 ms.assetid: c4815bf2-e06d-4dcf-a460-a88c4c9a3c27
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: InterlockedXor, InterlockedXor function, base.interlockedxor, winbase/InterlockedXor
 ms.prod: windows-hardware
 ms.technology: windows-devices

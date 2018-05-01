@@ -7,7 +7,7 @@ old-location: com\irpcstubbuffer_disconnect.htm
 old-project: com
 ms.assetid: da0ecd2b-a445-4ecb-a003-ef07fa1d0458
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: Disconnect method [COM], Disconnect method [COM], IRpcStubBuffer interface, Disconnect,IRpcStubBuffer.Disconnect, IRpcStubBuffer, IRpcStubBuffer interface [COM], Disconnect method, IRpcStubBuffer::Disconnect, _com_irpcstubbuffer_disconnect, com.irpcstubbuffer_disconnect, objidlbase/IRpcStubBuffer::Disconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IRpcStubBuffer::Disconnect method

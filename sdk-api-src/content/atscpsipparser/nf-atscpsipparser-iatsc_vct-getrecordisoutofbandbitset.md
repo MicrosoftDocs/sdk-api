@@ -7,7 +7,7 @@ old-location: mstv\iatsc_vct_getrecordisoutofbandbitset.htm
 old-project: mstv
 ms.assetid: cb4dc4f0-2bbb-44f6-b45e-347cce890b75
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetRecordIsOutOfBandBitSet method [Microsoft TV Technologies], GetRecordIsOutOfBandBitSet method [Microsoft TV Technologies], IATSC_VCT interface, GetRecordIsOutOfBandBitSet,IATSC_VCT.GetRecordIsOutOfBandBitSet, IATSC_VCT, IATSC_VCT interface [Microsoft TV Technologies], GetRecordIsOutOfBandBitSet method, IATSC_VCT::GetRecordIsOutOfBandBitSet, IATSC_VCTGetRecordIsOutOfBandBitSet, atscpsipparser/IATSC_VCT::GetRecordIsOutOfBandBitSet, mstv.iatsc_vct_getrecordisoutofbandbitset
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_WRITER_PAYLOAD_STREAM
+req.typenames: AsyncStatus
 topic_type:
 -	APIRef
 -	kbSyntax

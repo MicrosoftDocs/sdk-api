@@ -7,7 +7,7 @@ old-location: mf\imfcaptureengine_startrecord.htm
 old-project: medfound
 ms.assetid: 22084409-B2E6-47EF-A59B-A762E9A9191D
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFCaptureEngine, IMFCaptureEngine interface [Media Foundation], StartRecord method, IMFCaptureEngine::StartRecord, StartRecord method [Media Foundation], StartRecord method [Media Foundation], IMFCaptureEngine interface, StartRecord,IMFCaptureEngine.StartRecord, mf.imfcaptureengine_startrecord, mfcaptureengine/IMFCaptureEngine::StartRecord
 ms.prod: windows-hardware
 ms.technology: windows-devices

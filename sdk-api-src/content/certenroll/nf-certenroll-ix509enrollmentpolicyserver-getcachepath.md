@@ -7,7 +7,7 @@ old-location: security\ix509enrollmentpolicyserver_getcachepath.htm
 old-project: SecCertEnroll
 ms.assetid: c71c9f97-a312-4260-995b-454de6a38cce
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: GetCachePath method [Security], GetCachePath method [Security], IX509EnrollmentPolicyServer interface, GetCachePath,IX509EnrollmentPolicyServer.GetCachePath, IX509EnrollmentPolicyServer, IX509EnrollmentPolicyServer interface [Security], GetCachePath method, IX509EnrollmentPolicyServer::GetCachePath, certenroll/IX509EnrollmentPolicyServer::GetCachePath, security.ix509enrollmentpolicyserver_getcachepath
 ms.prod: windows-hardware
 ms.technology: windows-devices

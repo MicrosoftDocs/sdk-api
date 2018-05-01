@@ -7,7 +7,7 @@ old-location: winauto\uiauto_idragprovider_getgrabbeditems.htm
 old-project: WinAuto
 ms.assetid: B56F5975-279C-48C7-84C9-35BBBE222F6A
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: GetGrabbedItems method [Windows Accessibility], GetGrabbedItems method [Windows Accessibility], IDragProvider interface, GetGrabbedItems,IDragProvider.GetGrabbedItems, IDragProvider, IDragProvider interface [Windows Accessibility], GetGrabbedItems method, IDragProvider::GetGrabbedItems, uiautomationcore/IDragProvider::GetGrabbedItems, winauto.uiauto_idragprovider_getgrabbeditems
 ms.prod: windows-hardware
 ms.technology: windows-devices

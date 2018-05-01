@@ -7,7 +7,7 @@ old-location: wmp\iwmpsettings_put_enableerrordialogs.htm
 old-project: WMP
 ms.assetid: c2a0e2bf-d0e4-4b2c-a8d4-15bae4214393
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPSettings, IWMPSettings interface [Windows Media Player], put_enableErrorDialogs method, IWMPSettings::put_enableErrorDialogs, IWMPSettingsput_enableErrorDialogs, put_enableErrorDialogs method [Windows Media Player], put_enableErrorDialogs method [Windows Media Player], IWMPSettings interface, put_enableErrorDialogs,IWMPSettings.put_enableErrorDialogs, wmp.iwmpsettings_put_enableerrordialogs, wmp/IWMPSettings::put_enableErrorDialogs
 ms.prod: windows-hardware
 ms.technology: windows-devices

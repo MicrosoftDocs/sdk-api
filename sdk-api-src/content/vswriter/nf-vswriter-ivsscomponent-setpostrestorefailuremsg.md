@@ -7,7 +7,7 @@ old-location: base\ivsscomponent_setpostrestorefailuremsg.htm
 old-project: VSS
 ms.assetid: 1059a586-69e2-4a02-8f52-b8da3f04f51c
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: IVssComponent, IVssComponent interface [VSS], SetPostRestoreFailureMsg method, IVssComponent::SetPostRestoreFailureMsg, SetPostRestoreFailureMsg method [VSS], SetPostRestoreFailureMsg method [VSS], IVssComponent interface, SetPostRestoreFailureMsg,IVssComponent.SetPostRestoreFailureMsg, _win32_ivsscomponent_setpostrestorefailuremsg, base.ivsscomponent_setpostrestorefailuremsg, vswriter/IVssComponent::SetPostRestoreFailureMsg
 ms.prod: windows-hardware
 ms.technology: windows-devices

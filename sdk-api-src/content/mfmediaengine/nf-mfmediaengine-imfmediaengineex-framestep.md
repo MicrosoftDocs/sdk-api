@@ -7,7 +7,7 @@ old-location: mf\imfmediaengineex_framestep.htm
 old-project: medfound
 ms.assetid: 090B5B6F-E4D1-43D7-AD09-BA3008B48104
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: FrameStep method [Media Foundation], FrameStep method [Media Foundation], IMFMediaEngineEx interface, FrameStep,IMFMediaEngineEx.FrameStep, IMFMediaEngineEx, IMFMediaEngineEx interface [Media Foundation], FrameStep method, IMFMediaEngineEx::FrameStep, mf.imfmediaengineex_framestep, mfmediaengine/IMFMediaEngineEx::FrameStep
 ms.prod: windows-hardware
 ms.technology: windows-devices

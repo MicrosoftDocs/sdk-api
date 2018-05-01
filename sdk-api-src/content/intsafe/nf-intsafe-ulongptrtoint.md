@@ -2,13 +2,13 @@
 UID: NF:intsafe.ULongPtrToInt
 title: ULongPtrToInt function
 author: windows-driver-content
-description: Converts a value of type ULONG_PTR to a value of type INT.
-old-location: shell\ULongPtrToInt.htm
+description: Converts a value of type size_t to a value of type INT.
+old-location: shell\SizeTToInt.htm
 old-project: shell
-ms.assetid: 7aa1159e-af26-409f-b75e-c52f7e6b4ac3
+ms.assetid: 65f178c1-8029-40c5-af31-03f158d90582
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
-ms.keywords: ULongPtrToInt, ULongPtrToInt function [Windows Shell], _shell_ULongPtrToInt, intsafe/ULongPtrToInt, shell.ULongPtrToInt
+ms.date: 4/26/2018
+ms.keywords: SizeTToInt, SizeTToInt function [Windows Shell], ULongPtrToInt, _shell_SizeTToInt, intsafe/SizeTToInt, shell.SizeTToInt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	Intsafe.h
 api_name:
--	ULongPtrToInt
+-	SizeTToInt
 product: Windows
 targetos: Windows
 req.lib: 
@@ -50,7 +50,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Converts a value of type <b>ULONG_PTR</b> to a value of type <b>INT</b>.
+Converts a value of type <b>size_t</b> to a value of type <b>INT</b>.
 
 
 ## -parameters
@@ -58,11 +58,9 @@ Converts a value of type <b>ULONG_PTR</b> to a value of type <b>INT</b>.
 
 
 
-### -param ulOperand [in]
+### -param ulOperand
 
-Type: <b>ULONG_PTR</b>
-
-The value to be converted.
+TBD
 
 
 ### -param piResult [out]
@@ -70,6 +68,13 @@ The value to be converted.
 Type: <b>INT*</b>
 
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns INTSAFE_E_ARITHMETIC_OVERFLOW and this parameter is not valid.
+
+
+#### - cbOperand [in]
+
+Type: <b>size_t</b>
+
+The value to be converted.
 
 
 ## -returns

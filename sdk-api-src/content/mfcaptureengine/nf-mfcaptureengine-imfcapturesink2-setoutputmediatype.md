@@ -7,7 +7,7 @@ old-location: mf\imfcapturesink2_setoutputmediatype.htm
 old-project: medfound
 ms.assetid: e9a653c3-927b-4577-9a54-2d63f6b29c06
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFCaptureSink2, IMFCaptureSink2 interface [Media Foundation], SetOutputMediaType method, IMFCaptureSink2::SetOutputMediaType, SetOutputMediaType method [Media Foundation], SetOutputMediaType method [Media Foundation], IMFCaptureSink2 interface, SetOutputMediaType,IMFCaptureSink2.SetOutputMediaType, mf.imfcapturesink2_setoutputmediatype, mfcaptureengine/IMFCaptureSink2::SetOutputMediaType
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmlogger.htm
 old-project: WMDM
 ms.assetid: bededb91-f343-455b-a3ef-548e6f961933
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: IWMDMLogger, IWMDMLogger interface [windows Media Device Manager], IWMDMLogger interface [windows Media Device Manager], described, IWMDMLoggerInterface, wmdm.iwmdmlogger, wmdmlog/IWMDMLogger
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,7 @@ api_name:
 -	IWMDMLogger
 product: Windows
 targetos: Windows
-req.lib: 
+req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003

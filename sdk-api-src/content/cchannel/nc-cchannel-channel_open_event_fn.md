@@ -7,7 +7,7 @@ old-location: termserv\virtualchannelopenevent.htm
 old-project: TermServ
 ms.assetid: 7412d125-1a3c-4e9a-9804-b612030682da
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: CHANNEL_EVENT_DATA_RECEIVED, CHANNEL_EVENT_WRITE_CANCELLED, CHANNEL_EVENT_WRITE_COMPLETE, CHANNEL_FLAG_FIRST, CHANNEL_FLAG_LAST, CHANNEL_FLAG_MIDDLE, CHANNEL_FLAG_ONLY, CHANNEL_OPEN_EVENT_FN, CHANNEL_OPEN_EVENT_FN callback function [Remote Desktop Services], _win32_virtualchannelopenevent, cchannel/CHANNEL_OPEN_EVENT_FN, termserv.virtualchannelopenevent
 ms.prod: windows-hardware
 ms.technology: windows-devices

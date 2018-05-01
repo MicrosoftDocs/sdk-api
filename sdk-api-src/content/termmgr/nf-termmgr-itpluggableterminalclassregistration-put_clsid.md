@@ -7,7 +7,7 @@ old-location: tapi3\itpluggableterminalclassregistration_put_clsid.htm
 old-project: Tapi
 ms.assetid: 9688cdc7-f55d-41c6-8db7-689617a24239
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: ITPluggableTerminalClassRegistration, ITPluggableTerminalClassRegistration interface [TAPI 2.2], put_CLSID method, ITPluggableTerminalClassRegistration::put_CLSID, _tapi3_itpluggableterminalclassregistration_put_clsid, put_CLSID method [TAPI 2.2], put_CLSID method [TAPI 2.2], ITPluggableTerminalClassRegistration interface, put_CLSID,ITPluggableTerminalClassRegistration.put_CLSID, tapi3.itpluggableterminalclassregistration_put_clsid, termmgr/ITPluggableTerminalClassRegistration::put_CLSID
 ms.prod: windows-hardware
 ms.technology: windows-devices

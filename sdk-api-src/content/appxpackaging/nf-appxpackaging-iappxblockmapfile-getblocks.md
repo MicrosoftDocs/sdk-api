@@ -7,7 +7,7 @@ old-location: appxpkg\iappxblockmapfile_getblocks.htm
 old-project: appxpkg
 ms.assetid: CE8FB813-B125-4FD6-A7C3-CA3ECA72ECE7
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/26/2018
 ms.keywords: GetBlocks method [App packaging and management], GetBlocks method [App packaging and management], IAppxBlockMapFile interface, GetBlocks,IAppxBlockMapFile.GetBlocks, IAppxBlockMapFile, IAppxBlockMapFile interface [App packaging and management], GetBlocks method, IAppxBlockMapFile::GetBlocks, appxpackaging/IAppxBlockMapFile::GetBlocks, appxpkg.iappxblockmapfile_getblocks
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_ARCHITECTURE2
+req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,7 +7,7 @@ old-location: fs\closeandresetlogfile.htm
 old-project: Clfs
 ms.assetid: 333b2de0-f472-43f7-ae57-5cefa7ab6746
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/25/2018
 ms.keywords: CloseAndResetLogFile, CloseAndResetLogFile function [Files], clfsw32/CloseAndResetLogFile, fs.closeandresetlogfile
 ms.prod: windows-hardware
 ms.technology: windows-devices

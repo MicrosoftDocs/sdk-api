@@ -7,7 +7,7 @@ old-location: winsock\wsainstallserviceclass_2.htm
 old-project: WinSock
 ms.assetid: 06760319-aeeb-4ad7-b77a-01efea7ed904
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/24/2018
 ms.keywords: WSAInstallServiceClass, WSAInstallServiceClass function [Winsock], WSAInstallServiceClassA, WSAInstallServiceClassW, _win32_wsainstallserviceclass_2, winsock.wsainstallserviceclass_2, winsock2/WSAInstallServiceClass, winsock2/WSAInstallServiceClassA, winsock2/WSAInstallServiceClassW
 ms.prod: windows-hardware
 ms.technology: windows-devices

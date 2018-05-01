@@ -7,7 +7,7 @@ old-location: base\getmaximumprocessorgroupcount.htm
 old-project: ProcThread
 ms.assetid: 7762ec89-5892-4af3-9032-bf084aef9075
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: GetMaximumProcessorGroupCount, GetMaximumProcessorGroupCount function, base.getmaximumprocessorgroupcount, winbase/GetMaximumProcessorGroupCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

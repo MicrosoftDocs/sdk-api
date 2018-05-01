@@ -7,7 +7,7 @@ old-location: dshow\igraphconfig_getfilterflags.htm
 old-project: DirectShow
 ms.assetid: 747c3865-1969-45e8-a2c9-dbd72a9ea463
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetFilterFlags method [DirectShow], GetFilterFlags method [DirectShow], IGraphConfig interface, GetFilterFlags,IGraphConfig.GetFilterFlags, IGraphConfig, IGraphConfig interface [DirectShow], GetFilterFlags method, IGraphConfig::GetFilterFlags, IGraphConfigGetFilterFlags, dshow.igraphconfig_getfilterflags, strmif/IGraphConfig::GetFilterFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices

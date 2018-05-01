@@ -7,7 +7,7 @@ old-location: stg\istream.htm
 old-project: Stg
 ms.assetid: c6f60e37-eadc-46a1-94f6-cacc23613531
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/20/2018
 ms.keywords: IStream, IStream interface [Structured Storage], IStream interface [Structured Storage], described, _stg_istream, objidl/IStream, stg.istream
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IStream interface

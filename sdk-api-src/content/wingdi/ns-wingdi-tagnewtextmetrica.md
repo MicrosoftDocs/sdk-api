@@ -7,7 +7,7 @@ old-location: gdi\newtextmetric.htm
 old-project: gdi
 ms.assetid: 0dd7fee0-0771-4c72-9843-0fee308da5cc
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/17/2018
 ms.keywords: "*LPNEWTEXTMETRICA, *NPNEWTEXTMETRICA, *PNEWTEXTMETRICA, NEWTEXTMETRIC, NEWTEXTMETRIC structure [Windows GDI], NEWTEXTMETRICA, NEWTEXTMETRICW, PNEWTEXTMETRIC, PNEWTEXTMETRIC structure pointer [Windows GDI], _win32_NEWTEXTMETRIC_str, gdi.newtextmetric, tagNEWTEXTMETRICA, wingdi/NEWTEXTMETRIC, wingdi/NEWTEXTMETRICA, wingdi/NEWTEXTMETRICW, wingdi/PNEWTEXTMETRIC"
 ms.prod: windows-hardware
 ms.technology: windows-devices

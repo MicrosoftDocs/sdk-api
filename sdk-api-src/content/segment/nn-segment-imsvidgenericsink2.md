@@ -7,7 +7,7 @@ old-location: mstv\imsvidgenericsink2.htm
 old-project: mstv
 ms.assetid: 01acd28b-a17a-413a-ab43-9656e3ab7f60
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidGenericSink2, IMSVidGenericSink2 interface [Microsoft TV Technologies], IMSVidGenericSink2 interface [Microsoft TV Technologies], described, IMSVidGenericSink2Interface, mstv.imsvidgenericsink2, segment/IMSVidGenericSink2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidGenericSink2 interface

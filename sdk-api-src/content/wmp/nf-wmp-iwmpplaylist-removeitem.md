@@ -7,7 +7,7 @@ old-location: wmp\iwmpplaylist_removeitem.htm
 old-project: WMP
 ms.assetid: 7a17b0e0-2eaf-4570-a297-c2540ae4b6c5
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPPlaylist, IWMPPlaylist interface [Windows Media Player], removeItem method, IWMPPlaylist::removeItem, IWMPPlaylistremoveItem, removeItem method [Windows Media Player], removeItem method [Windows Media Player], IWMPPlaylist interface, removeItem,IWMPPlaylist.removeItem, wmp.iwmpplaylist_removeitem, wmp/IWMPPlaylist::removeItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

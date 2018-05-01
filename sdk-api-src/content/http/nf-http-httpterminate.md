@@ -7,7 +7,7 @@ old-location: http\httpterminate.htm
 old-project: Http
 ms.assetid: d1922375-3d59-45a7-9d1d-08dbce1111ff
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: HTTP_INITIALIZE_CONFIG, HTTP_INITIALIZE_SERVER, HttpTerminate, HttpTerminate function [HTTP], _http_httpterminate, http.httpterminate, http/HttpTerminate
 ms.prod: windows-hardware
 ms.technology: windows-devices

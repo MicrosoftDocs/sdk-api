@@ -7,7 +7,7 @@ old-location: dshow\iamnetshowconfig_put_enablehttp.htm
 old-project: DirectShow
 ms.assetid: 162a581d-9697-4a6e-aedc-ec1ebc28a867
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMNetShowConfig, IAMNetShowConfig interface [DirectShow], put_EnableHTTP method, IAMNetShowConfig::put_EnableHTTP, IAMNetShowConfigput_EnableHTTP, dshow.iamnetshowconfig_put_enablehttp, put_EnableHTTP method [DirectShow], put_EnableHTTP method [DirectShow], IAMNetShowConfig interface, put_EnableHTTP,IAMNetShowConfig.put_EnableHTTP, qnetwork/IAMNetShowConfig::put_EnableHTTP
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IAMNetShowConfig::put_EnableHTTP method

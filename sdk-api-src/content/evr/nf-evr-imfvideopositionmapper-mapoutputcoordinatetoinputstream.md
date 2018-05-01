@@ -7,7 +7,7 @@ old-location: mf\imfvideopositionmapper_mapoutputcoordinatetoinputstream.htm
 old-project: medfound
 ms.assetid: d57aed5f-90cb-47e7-af80-f3573a3b8256
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFVideoPositionMapper, IMFVideoPositionMapper interface [Media Foundation], MapOutputCoordinateToInputStream method, IMFVideoPositionMapper::MapOutputCoordinateToInputStream, MapOutputCoordinateToInputStream method [Media Foundation], MapOutputCoordinateToInputStream method [Media Foundation], IMFVideoPositionMapper interface, MapOutputCoordinateToInputStream,IMFVideoPositionMapper.MapOutputCoordinateToInputStream, d57aed5f-90cb-47e7-af80-f3573a3b8256, evr/IMFVideoPositionMapper::MapOutputCoordinateToInputStream, mf.imfvideopositionmapper_mapoutputcoordinatetoinputstream
 ms.prod: windows-hardware
 ms.technology: windows-devices

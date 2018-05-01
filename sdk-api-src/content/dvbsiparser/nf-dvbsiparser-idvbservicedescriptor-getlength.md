@@ -7,7 +7,7 @@ old-location: mstv\idvbservicedescriptor_getlength.htm
 old-project: mstv
 ms.assetid: e8c35777-0a54-4b26-b5a2-629ba3cb3928
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies], IDvbServiceDescriptor interface, GetLength,IDvbServiceDescriptor.GetLength, IDvbServiceDescriptor, IDvbServiceDescriptor interface [Microsoft TV Technologies], GetLength method, IDvbServiceDescriptor::GetLength, dvbsiparser/IDvbServiceDescriptor::GetLength, mstv.idvbservicedescriptor_getlength
 ms.prod: windows-hardware
 ms.technology: windows-devices

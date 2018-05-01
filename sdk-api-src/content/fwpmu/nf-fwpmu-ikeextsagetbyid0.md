@@ -7,7 +7,7 @@ old-location: fwp\ikeextsagetbyid0.htm
 old-project: FWP
 ms.assetid: c500f7d1-ce8f-4a4e-9f09-c37116ef9ab3
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: IkeextSaGetById0, IkeextSaGetById0 function [Filtering], fwp.ikeextsagetbyid0, fwpmu/IkeextSaGetById0
 ms.prod: windows-hardware
 ms.technology: windows-devices

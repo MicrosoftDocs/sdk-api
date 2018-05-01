@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmclassificationmanager_cancelclassification.htm
 old-project: Fsrm
 ms.assetid: ff26acfd-71ff-49f4-a7ea-60825ff42f3b
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: CancelClassification method [File Server Resource Manager], CancelClassification method [File Server Resource Manager], FsrmClassificationManager class, CancelClassification method [File Server Resource Manager], IFsrmClassificationManager interface, CancelClassification method [File Server Resource Manager], IFsrmClassificationManager2 interface, CancelClassification,IFsrmClassificationManager.CancelClassification, FsrmClassificationManager class [File Server Resource Manager], CancelClassification method, IFsrmClassificationManager, IFsrmClassificationManager interface [File Server Resource Manager], CancelClassification method, IFsrmClassificationManager2 interface [File Server Resource Manager], CancelClassification method, IFsrmClassificationManager2::CancelClassification, IFsrmClassificationManager::CancelClassification, fs.ifsrmclassificationmanager_cancelclassification, fsrm.ifsrmclassificationmanager_cancelclassification, fsrmpipeline/IFsrmClassificationManager2::CancelClassification, fsrmpipeline/IFsrmClassificationManager::CancelClassification
 ms.prod: windows-hardware
 ms.technology: windows-devices

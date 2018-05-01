@@ -7,7 +7,7 @@ old-location: mstv\idvbsiparser2.htm
 old-project: mstv
 ms.assetid: 085808e7-b067-470e-9edd-8795f4881485
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IDvbSiParser2, IDvbSiParser2 interface [Microsoft TV Technologies], IDvbSiParser2 interface [Microsoft TV Technologies], described, dvbsiparser/IDvbSiParser2, mstv.idvbsiparser2
 ms.prod: windows-hardware
 ms.technology: windows-devices

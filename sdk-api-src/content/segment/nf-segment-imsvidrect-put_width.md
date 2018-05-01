@@ -7,7 +7,7 @@ old-location: mstv\imsvidrect_put_width.htm
 old-project: mstv
 ms.assetid: 35eed36a-de3e-4bb6-8b1b-179ba72b568a
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidRect, IMSVidRect interface [Microsoft TV Technologies], put_Width method, IMSVidRect::put_Width, IMSVidRectput_Width, mstv.imsvidrect_put_width, put_Width method [Microsoft TV Technologies], put_Width method [Microsoft TV Technologies], IMSVidRect interface, put_Width,IMSVidRect.put_Width, segment/IMSVidRect::put_Width
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidRect::put_Width method

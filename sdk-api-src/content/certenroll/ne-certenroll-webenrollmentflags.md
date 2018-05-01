@@ -7,7 +7,7 @@ old-location: security\webenrollmentflags.htm
 old-project: SecCertEnroll
 ms.assetid: 3b5940c4-f262-498e-82ab-c56af13afd06
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: EnrollPrompt, WebEnrollmentFlags, WebEnrollmentFlags enumeration [Security], certenroll/EnrollPrompt, certenroll/WebEnrollmentFlags, security.webenrollmentflags
 ms.prod: windows-hardware
 ms.technology: windows-devices

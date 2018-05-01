@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Netsh.lib
 req.dll: Netsh.exe
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # PrintMessageFromModule function

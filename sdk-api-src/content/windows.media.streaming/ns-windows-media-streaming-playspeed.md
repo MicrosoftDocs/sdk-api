@@ -7,7 +7,7 @@ old-location: mediastreaming\playspeed.htm
 old-project: mediastreaming
 ms.assetid: 29b58229-8236-4c93-a6b4-ed09d1aca9db
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/10/2018
 ms.keywords: PlaySpeed, PlaySpeed structure [Media Streaming API], mediastreaming.playspeed, windows/PlaySpeed
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: upnp\iupnpdevicecontrol_getserviceobject.htm
 old-project: UPnP
 ms.assetid: 55b54edf-fd1d-45b8-95d4-a746a60e5310
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/25/2018
 ms.keywords: GetServiceObject method [UPnP APIs], GetServiceObject method [UPnP APIs], IUPnPDeviceControl interface, GetServiceObject,IUPnPDeviceControl.GetServiceObject, IUPnPDeviceControl, IUPnPDeviceControl interface [UPnP APIs], GetServiceObject method, IUPnPDeviceControl::GetServiceObject, _upnp_iupnpdevicecontrol_getserviceobject, upnp.iupnpdevicecontrol_getserviceobject, upnphost/IUPnPDeviceControl::GetServiceObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

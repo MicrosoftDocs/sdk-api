@@ -7,7 +7,7 @@ old-location: tablet\itextinputpaneleventsink_correctionmodechanged.htm
 old-project: tablet
 ms.assetid: 70c4dca4-274f-40ae-b71a-f86a2e8fbd3d
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: 70c4dca4-274f-40ae-b71a-f86a2e8fbd3d, CorrectionModeChanged method [Tablet PC], CorrectionModeChanged method [Tablet PC], ITextInputPanelEventSink interface, CorrectionModeChanged,ITextInputPanelEventSink.CorrectionModeChanged, ITextInputPanelEventSink, ITextInputPanelEventSink interface [Tablet PC], CorrectionModeChanged method, ITextInputPanelEventSink::CorrectionModeChanged, peninputpanel/ITextInputPanelEventSink::CorrectionModeChanged, tablet.itextinputpaneleventsink_correctionmodechanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Tiptsf.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITextInputPanelEventSink::CorrectionModeChanged method

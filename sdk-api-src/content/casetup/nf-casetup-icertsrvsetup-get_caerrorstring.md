@@ -7,7 +7,7 @@ old-location: security\icertsrvsetup_caerrorstring.htm
 old-project: SecCrypto
 ms.assetid: 154397f8-aa0e-4d74-b18e-b68b46fdfcdb
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: CAErrorString property [Security], CAErrorString property [Security], ICertSrvSetup interface, ICertSrvSetup, ICertSrvSetup interface [Security], CAErrorString property, ICertSrvSetup.CAErrorString, ICertSrvSetup::get_CAErrorString, casetup/ICertSrvSetup::CAErrorString, casetup/ICertSrvSetup::get_CAErrorString, get_CAErrorString,ICertSrvSetup.get_CAErrorString, security.icertsrvsetup_caerrorstring
 ms.prod: windows-hardware
 ms.technology: windows-devices

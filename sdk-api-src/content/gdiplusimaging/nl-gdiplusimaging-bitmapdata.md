@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_BitmapData_Class.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapdata.htm
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/5/2018
 ms.keywords: BitmapData, BitmapData class [GDI+], BitmapData class [GDI+], described, _gdiplus_CLASS_BitmapData_Class, gdiplus._gdiplus_CLASS_BitmapData_Class, gdiplusimaging/BitmapData
 ms.prod: windows-hardware
 ms.technology: windows-devices

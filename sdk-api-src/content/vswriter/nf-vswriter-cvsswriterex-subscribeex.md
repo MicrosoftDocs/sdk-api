@@ -7,7 +7,7 @@ old-location: base\cvsswriterex_subscribeex.htm
 old-project: VSS
 ms.assetid: b60ca619-c92b-4700-a048-7c74fad3d0e9
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: CVssWriterEx, CVssWriterEx interface, SubscribeEx method, CVssWriterEx::SubscribeEx, SubscribeEx method, SubscribeEx method, CVssWriterEx interface, SubscribeEx,CVssWriterEx.SubscribeEx, base.cvsswriterex_subscribeex, vswriter/CVssWriterEx::SubscribeEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

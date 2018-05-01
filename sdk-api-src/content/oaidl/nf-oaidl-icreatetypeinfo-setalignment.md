@@ -7,7 +7,7 @@ old-location: automat\icreatetypeinfo_setalignment.htm
 old-project: automat
 ms.assetid: db21ab80-ea2f-4f9e-a43c-0d202e235516
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: ICreateTypeInfo, ICreateTypeInfo interface [Automation], SetAlignment method, ICreateTypeInfo::SetAlignment, SetAlignment method [Automation], SetAlignment method [Automation], ICreateTypeInfo interface, SetAlignment,ICreateTypeInfo.SetAlignment, _oa96_ICreateTypeInfo_SetAlignment, automat.icreatetypeinfo_setalignment, oaidl/ICreateTypeInfo::SetAlignment
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ICreateTypeInfo::SetAlignment method

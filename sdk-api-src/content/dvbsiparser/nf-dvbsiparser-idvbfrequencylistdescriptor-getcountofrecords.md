@@ -7,7 +7,7 @@ old-location: mstv\idvbfrequencylistdescriptor_getcountofrecords.htm
 old-project: mstv
 ms.assetid: 9bce2abf-2673-49c6-8b87-7c8825544156
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies], IDvbFrequencyListDescriptor interface, GetCountOfRecords,IDvbFrequencyListDescriptor.GetCountOfRecords, IDvbFrequencyListDescriptor, IDvbFrequencyListDescriptor interface [Microsoft TV Technologies], GetCountOfRecords method, IDvbFrequencyListDescriptor::GetCountOfRecords, IDvbFrequencyListDescriptorGetCountOfRecords, dvbsiparser/IDvbFrequencyListDescriptor::GetCountOfRecords, mstv.idvbfrequencylistdescriptor_getcountofrecords
 ms.prod: windows-hardware
 ms.technology: windows-devices

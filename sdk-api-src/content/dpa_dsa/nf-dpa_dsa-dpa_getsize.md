@@ -7,7 +7,7 @@ old-location: controls\DPA_GetSize.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_getsize.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: DPA_GetSize, DPA_GetSize function [Windows Controls], _shell_DPA_GetSize, _shell_DPA_GetSize_cpp, controls.DPA_GetSize, controls._shell_DPA_GetSize, dpa_dsa/DPA_GetSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

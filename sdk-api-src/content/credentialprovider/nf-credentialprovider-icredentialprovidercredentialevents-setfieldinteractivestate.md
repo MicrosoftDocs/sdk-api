@@ -7,7 +7,7 @@ old-location: shell\ICredentialProviderCredentialEvents_SetFieldInteractiveState
 old-project: shell
 ms.assetid: 649f0f65-78dd-4232-b471-9a18d1448f1d
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ICredentialProviderCredentialEvents, ICredentialProviderCredentialEvents interface [Windows Shell], SetFieldInteractiveState method, ICredentialProviderCredentialEvents::SetFieldInteractiveState, SetFieldInteractiveState method [Windows Shell], SetFieldInteractiveState method [Windows Shell], ICredentialProviderCredentialEvents interface, SetFieldInteractiveState,ICredentialProviderCredentialEvents.SetFieldInteractiveState, _shell_ICredentialProviderCredentialEvents_SetFieldInteractiveState, credentialprovider/ICredentialProviderCredentialEvents::SetFieldInteractiveState, shell.ICredentialProviderCredentialEvents_SetFieldInteractiveState
 ms.prod: windows-hardware
 ms.technology: windows-devices

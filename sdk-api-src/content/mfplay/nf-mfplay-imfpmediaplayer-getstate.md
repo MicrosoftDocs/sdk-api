@@ -7,7 +7,7 @@ old-location: mf\imfpmediaplayer_getstate.htm
 old-project: medfound
 ms.assetid: 072c5e93-b3ce-469c-8235-3e9c63bd77e3
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetState method [Media Foundation], GetState method [Media Foundation], IMFPMediaPlayer interface, GetState,IMFPMediaPlayer.GetState, IMFPMediaPlayer, IMFPMediaPlayer interface [Media Foundation], GetState method, IMFPMediaPlayer::GetState, mf.imfpmediaplayer_getstate, mfplay/IMFPMediaPlayer::GetState
 ms.prod: windows-hardware
 ms.technology: windows-devices

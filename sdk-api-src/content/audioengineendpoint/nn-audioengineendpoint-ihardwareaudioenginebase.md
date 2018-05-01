@@ -7,7 +7,7 @@ old-location: coreaudio\ihardwareaudioenginebase.htm
 old-project: CoreAudio
 ms.assetid: 6FB9BEDB-111B-4F0A-B8BB-B0BA2024EB24
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: IHardwareAudioEngineBase, IHardwareAudioEngineBase interface [Core Audio], IHardwareAudioEngineBase interface [Core Audio], described, audioengineendpoint/IHardwareAudioEngineBase, coreaudio.ihardwareaudioenginebase
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: controls\ITextFont_GetSubscript.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getsubscript.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: GetSubscript method [Windows Controls], GetSubscript method [Windows Controls], ITextFont interface, GetSubscript,ITextFont.GetSubscript, ITextFont, ITextFont interface [Windows Controls], GetSubscript method, ITextFont::GetSubscript, _win32_ITextFont_GetSubscript, _win32_ITextFont_GetSubscript_cpp, controls.ITextFont_GetSubscript, controls._win32_ITextFont_GetSubscript, tom/ITextFont::GetSubscript
 ms.prod: windows-hardware
 ms.technology: windows-devices

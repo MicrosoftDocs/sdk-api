@@ -7,7 +7,7 @@ old-location: mf\imfqualitymanager_shutdown.htm
 old-project: medfound
 ms.assetid: c71bec12-33aa-4156-a052-cf75c80df263
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFQualityManager, IMFQualityManager interface [Media Foundation], Shutdown method, IMFQualityManager::Shutdown, Shutdown method [Media Foundation], Shutdown method [Media Foundation], IMFQualityManager interface, Shutdown,IMFQualityManager.Shutdown, c71bec12-33aa-4156-a052-cf75c80df263, mf.imfqualitymanager_shutdown, mfidl/IMFQualityManager::Shutdown
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\idvbservicelistdescriptor_gettag.htm
 old-project: mstv
 ms.assetid: 5e16ab7f-25df-461e-b3aa-73de613e45b6
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies], IDvbServiceListDescriptor interface, GetTag,IDvbServiceListDescriptor.GetTag, IDvbServiceListDescriptor, IDvbServiceListDescriptor interface [Microsoft TV Technologies], GetTag method, IDvbServiceListDescriptor::GetTag, dvbsiparser/IDvbServiceListDescriptor::GetTag, mstv.idvbservicelistdescriptor_gettag
 ms.prod: windows-hardware
 ms.technology: windows-devices

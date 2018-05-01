@@ -7,7 +7,7 @@ old-location: cos\iobjectcontext_iscallerinrole.htm
 old-project: cossdk
 ms.assetid: 8e545cc5-ad4e-43b9-a834-c9d470df24dd
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: IObjectContext, IObjectContext interface [COM+], IsCallerInRole method, IObjectContext::IsCallerInRole, IsCallerInRole method [COM+], IsCallerInRole method [COM+], IObjectContext interface, IsCallerInRole,IObjectContext.IsCallerInRole, _cos_IObjectContext_IsCallerInRole, comsvcs/IObjectContext::IsCallerInRole, cos.iobjectcontext_iscallerinrole
 ms.prod: windows-hardware
 ms.technology: windows-devices

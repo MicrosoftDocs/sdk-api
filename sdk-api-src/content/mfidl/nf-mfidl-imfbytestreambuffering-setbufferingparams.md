@@ -7,7 +7,7 @@ old-location: mf\imfbytestreambuffering_setbufferingparams.htm
 old-project: medfound
 ms.assetid: 033ea7d4-d669-497b-be37-a8c9a6584209
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 033ea7d4-d669-497b-be37-a8c9a6584209, IMFByteStreamBuffering, IMFByteStreamBuffering interface [Media Foundation], SetBufferingParams method, IMFByteStreamBuffering::SetBufferingParams, SetBufferingParams method [Media Foundation], SetBufferingParams method [Media Foundation], IMFByteStreamBuffering interface, SetBufferingParams,IMFByteStreamBuffering.SetBufferingParams, mf.imfbytestreambuffering_setbufferingparams, mfidl/IMFByteStreamBuffering::SetBufferingParams
 ms.prod: windows-hardware
 ms.technology: windows-devices

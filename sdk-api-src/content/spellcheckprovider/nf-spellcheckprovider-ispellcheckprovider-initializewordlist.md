@@ -7,7 +7,7 @@ old-location: intl\ispellcheckprovider_initializewordlist.htm
 old-project: Intl
 ms.assetid: B1E3D0F9-8A6B-431F-A8AF-46D783E23FEF
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/25/2018
 ms.keywords: ISpellCheckProvider, ISpellCheckProvider interface [Internationalization for Windows Applications], InitializeWordlist method, ISpellCheckProvider::InitializeWordlist, InitializeWordlist method [Internationalization for Windows Applications], InitializeWordlist method [Internationalization for Windows Applications], ISpellCheckProvider interface, InitializeWordlist,ISpellCheckProvider.InitializeWordlist, intl.ispellcheckprovider_initializewordlist, spellcheckprovider/ISpellCheckProvider::InitializeWordlist
 ms.prod: windows-hardware
 ms.technology: windows-devices

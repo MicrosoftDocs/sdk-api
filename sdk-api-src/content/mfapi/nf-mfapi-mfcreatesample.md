@@ -7,7 +7,7 @@ old-location: mf\mfcreatesample.htm
 old-project: medfound
 ms.assetid: b8bc29a5-e872-4c7b-ad1d-6c6085aa1984
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: MFCreateSample, MFCreateSample function [Media Foundation], b8bc29a5-e872-4c7b-ad1d-6c6085aa1984, mf.mfcreatesample, mfapi/MFCreateSample
 ms.prod: windows-hardware
 ms.technology: windows-devices

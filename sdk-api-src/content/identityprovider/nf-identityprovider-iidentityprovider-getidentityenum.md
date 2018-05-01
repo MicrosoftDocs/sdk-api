@@ -7,7 +7,7 @@ old-location: security\iidentityprovider_getidentityenum.htm
 old-project: SecAuthN
 ms.assetid: 9e216959-7038-43cf-a57d-bee85d521f58
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/24/2018
 ms.keywords: GetIdentityEnum method [Security], GetIdentityEnum method [Security], IIdentityProvider interface, GetIdentityEnum,IIdentityProvider.GetIdentityEnum, IIdentityProvider, IIdentityProvider interface [Security], GetIdentityEnum method, IIdentityProvider::GetIdentityEnum, identityprovider/IIdentityProvider::GetIdentityEnum, security.iidentityprovider_getidentityenum
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: termserv\iwtsprotocolconnection_notifysessionid.htm
 old-project: TermServ
 ms.assetid: 5a545f66-7143-419d-9e0c-a96070472ce5
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: IWTSProtocolConnection, IWTSProtocolConnection interface [Remote Desktop Services], NotifySessionId method, IWTSProtocolConnection::NotifySessionId, NotifySessionId method [Remote Desktop Services], NotifySessionId method [Remote Desktop Services], IWTSProtocolConnection interface, NotifySessionId,IWTSProtocolConnection.NotifySessionId, termserv.iwtsprotocolconnection_notifysessionid, wtsprotocol/IWTSProtocolConnection::NotifySessionId
 ms.prod: windows-hardware
 ms.technology: windows-devices

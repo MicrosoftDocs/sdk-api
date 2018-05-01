@@ -2,13 +2,13 @@
 UID: NF:intsafe.ULongMult
 title: ULongMult function
 author: windows-driver-content
-description: Multiplies one value of type ULONG by another.
-old-location: shell\ULongMult.htm
+description: Multiplies one value of type DWORD by another.
+old-location: shell\DWordMult.htm
 old-project: shell
-ms.assetid: 79710ade-498d-4cd7-ae6e-552a8e787193
+ms.assetid: 80fd88c1-b05b-468f-9dc7-c6a432e49d6d
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
-ms.keywords: ULongMult, ULongMult function [Windows Shell], _shell_ULongMult, intsafe/ULongMult, shell.ULongMult
+ms.date: 4/26/2018
+ms.keywords: DWordMult, DWordMult function [Windows Shell], ULongMult, _shell_DWordMult, intsafe/DWordMult, shell.DWordMult
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -31,15 +31,15 @@ topic_type:
 -	APIRef
 -	kbSyntax
 api_type:
--	HeaderDef
+-	DllExport
 api_location:
--	Intsafe.h
+-	None
 api_name:
--	ULongMult
+-	DWordMult
 product: Windows
 targetos: Windows
 req.lib: 
-req.dll: 
+req.dll: None
 req.irql: 
 req.product: GDI+ 1.1
 ---
@@ -50,7 +50,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Multiplies one value of type <b>ULONG</b> by another.
+Multiplies one value of type <b>DWORD</b> by another.
 
 
 ## -parameters
@@ -58,23 +58,40 @@ Multiplies one value of type <b>ULONG</b> by another.
 
 
 
-### -param ulMultiplicand [in]
+### -param ulMultiplicand
 
-Type: <b>ULONG</b>
-
-The value to be multiplied by <i>ulMultiplier</i>.
+TBD
 
 
-### -param ulMultiplier [in]
+### -param ulMultiplier
 
-Type: <b>ULONG</b>
-
-The value by which to multiply <i>ulMultiplicand</i>.
+TBD
 
 
-### -param pulResult [out]
+### -param pulResult
 
-Type: <b>ULONG*</b>
+TBD
+
+
+
+
+#### - dwMultiplicand [in]
+
+Type: <b>DWORD</b>
+
+The value to be multiplied by <i>dwMultiplier</i>.
+
+
+#### - dwMultiplier [in]
+
+Type: <b>DWORD</b>
+
+The value by which to multiply <i>dwMultiplicand</i>.
+
+
+#### - pdwResult [out]
+
+Type: <b>DWORD*</b>
 
 A pointer to the result. If the operation results in a value that overflows or underflows the capacity of the type, the function returns INTSAFE_E_ARITHMETIC_OVERFLOW and this parameter is not valid.
 

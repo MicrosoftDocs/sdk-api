@@ -7,7 +7,7 @@ old-location: security\ismimecapabilities_count_property.htm
 old-project: SecCertEnroll
 ms.assetid: 5e0ee42f-10aa-45d8-b6c0-16ee0149dec6
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: Count property [Security], Count property [Security], ISmimeCapabilities interface, ISmimeCapabilities, ISmimeCapabilities interface [Security], Count property, ISmimeCapabilities.Count, ISmimeCapabilities::get_Count, certenroll/ISmimeCapabilities::Count, certenroll/ISmimeCapabilities::get_Count, get_Count,ISmimeCapabilities.get_Count, security.ismimecapabilities_count_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\iamwmbufferpasscallback_notify.htm
 old-project: DirectShow
 ms.assetid: 13778b61-0e75-412f-b1e4-eaaf5ec0c853
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMWMBufferPassCallback, IAMWMBufferPassCallback interface [DirectShow], Notify method, IAMWMBufferPassCallback::Notify, IAMWMBufferPassCallbackNotify, Notify method [DirectShow], Notify method [DirectShow], IAMWMBufferPassCallback interface, Notify,IAMWMBufferPassCallback.Notify, dshow.iamwmbufferpasscallback_notify, dshowasf/IAMWMBufferPassCallback::Notify
 ms.prod: windows-hardware
 ms.technology: windows-devices

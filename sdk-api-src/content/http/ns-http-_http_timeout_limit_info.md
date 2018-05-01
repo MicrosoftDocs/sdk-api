@@ -7,7 +7,7 @@ old-location: http\http_timeout_limit_info.htm
 old-project: Http
 ms.assetid: 900f4b4d-c34d-4994-b8eb-b3f15e54f29a
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: "*PHTTP_TIMEOUT_LIMIT_INFO, *PHTTP_TIMEOUT_LIMIT_INFO structure [HTTP], HTTP_TIMEOUT_LIMIT_INFO, HTTP_TIMEOUT_LIMIT_INFO structure [HTTP], _HTTP_TIMEOUT_LIMIT_INFO, http.http_timeout_limit_info, http/*PHTTP_TIMEOUT_LIMIT_INFO, http/HTTP_TIMEOUT_LIMIT_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

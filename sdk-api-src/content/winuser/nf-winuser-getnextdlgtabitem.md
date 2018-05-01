@@ -7,7 +7,7 @@ old-location: dlgbox\getnextdlgtabitem.htm
 old-project: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\getnextdlgtabitem.htm
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/10/2018
 ms.keywords: GetNextDlgTabItem, GetNextDlgTabItem function [Dialog Boxes], _win32_GetNextDlgTabItem, _win32_getnextdlgtabitem_cpp, dlgbox.getnextdlgtabitem, winui._win32_getnextdlgtabitem, winuser/GetNextDlgTabItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

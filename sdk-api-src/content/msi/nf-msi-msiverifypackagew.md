@@ -7,7 +7,7 @@ old-location: setup\msiverifypackage.htm
 old-project: Msi
 ms.assetid: f5b48e5e-cafb-4ab8-8c14-0af5784f2ca6
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/26/2018
 ms.keywords: MsiVerifyPackage, MsiVerifyPackage function, MsiVerifyPackageA, MsiVerifyPackageW, _msi_msiverifypackage, msi/MsiVerifyPackage, msi/MsiVerifyPackageA, msi/MsiVerifyPackageW, setup.msiverifypackage
 ms.prod: windows-hardware
 ms.technology: windows-devices

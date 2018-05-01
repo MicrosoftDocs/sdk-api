@@ -7,7 +7,7 @@ old-location: shell\IBrowserService2_v_CheckZoneCrossing.htm
 old-project: shell
 ms.assetid: cc682057-9a84-4b14-bfe3-32b6ada9304c
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IBrowserService2, IBrowserService2 interface [Windows Shell], v_CheckZoneCrossing method, IBrowserService2::v_CheckZoneCrossing, shdeprecated/IBrowserService2::v_CheckZoneCrossing, shell.IBrowserService2_v_CheckZoneCrossing, v_CheckZoneCrossing method [Windows Shell], v_CheckZoneCrossing method [Windows Shell], IBrowserService2 interface, v_CheckZoneCrossing,IBrowserService2.v_CheckZoneCrossing, zone_IBrowserService2_v_CheckZoneCrossing
 ms.prod: windows-hardware
 ms.technology: windows-devices

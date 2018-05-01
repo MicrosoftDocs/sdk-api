@@ -7,7 +7,7 @@ old-location: mf\idxvahd_device_getvideoprocessoroutputformats.htm
 old-project: medfound
 ms.assetid: e701014d-c112-42fa-9bf5-88cb31424006
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetVideoProcessorOutputFormats method [Media Foundation], GetVideoProcessorOutputFormats method [Media Foundation], IDXVAHD_Device interface, GetVideoProcessorOutputFormats,IDXVAHD_Device.GetVideoProcessorOutputFormats, IDXVAHD_Device, IDXVAHD_Device interface [Media Foundation], GetVideoProcessorOutputFormats method, IDXVAHD_Device::GetVideoProcessorOutputFormats, dxvahd/IDXVAHD_Device::GetVideoProcessorOutputFormats, mf.idxvahd_device_getvideoprocessoroutputformats
 ms.prod: windows-hardware
 ms.technology: windows-devices

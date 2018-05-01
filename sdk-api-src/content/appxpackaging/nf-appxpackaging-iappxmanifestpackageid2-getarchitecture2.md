@@ -7,7 +7,7 @@ old-location: appxpkg\iappxmanifestpackageid2_getarchitecture2.htm
 old-project: appxpkg
 ms.assetid: FBC34FBA-C6BB-45AD-8005-5C2B91A1369D
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/26/2018
 ms.keywords: GetArchitecture method [App packaging and management], GetArchitecture method [App packaging and management], IAppxManifestPackageId2 interface, GetArchitecture2,IAppxManifestPackageId2.GetArchitecture2, IAppxManifestPackageId2, IAppxManifestPackageId2 interface [App packaging and management], GetArchitecture method, IAppxManifestPackageId2::GetArchitecture, IAppxManifestPackageId2::GetArchitecture2, appxpackaging/IAppxManifestPackageId2::GetArchitecture, appxpkg.iappxmanifestpackageid2_getarchitecture2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_ARCHITECTURE2
+req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
 topic_type:
 -	APIRef
 -	kbSyntax

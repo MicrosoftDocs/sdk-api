@@ -7,7 +7,7 @@ old-location: base\escapecommfunction.htm
 old-project: DevIO
 ms.assetid: 27c4ebdf-1c06-4a60-8e49-dcccba10789c
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/3/2018
 ms.keywords: CLRBREAK, CLRDTR, CLRRTS, EscapeCommFunction, EscapeCommFunction function, SETBREAK, SETDTR, SETRTS, SETXOFF, SETXON, _win32_escapecommfunction, base.escapecommfunction, winbase/EscapeCommFunction
 ms.prod: windows-hardware
 ms.technology: windows-devices

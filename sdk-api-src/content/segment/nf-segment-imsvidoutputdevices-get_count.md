@@ -7,7 +7,7 @@ old-location: mstv\imsvidoutputdevices_get_count.htm
 old-project: mstv
 ms.assetid: c4da44cb-84cb-46ae-9898-993802c9bfac
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidOutputDevices, IMSVidOutputDevices interface [Microsoft TV Technologies], get_Count method, IMSVidOutputDevices::get_Count, IMSVidOutputDevicesget_Count, get_Count method [Microsoft TV Technologies], get_Count method [Microsoft TV Technologies], IMSVidOutputDevices interface, get_Count,IMSVidOutputDevices.get_Count, mstv.imsvidoutputdevices_get_count, segment/IMSVidOutputDevices::get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidOutputDevices::get_Count method

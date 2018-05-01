@@ -7,7 +7,7 @@ old-location: wmdm\imdspdevice_sendopaquecommand.htm
 old-project: WMDM
 ms.assetid: d7b60187-84d1-4ff3-ab58-e6b8ea75ee37
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: IMDSPDevice, IMDSPDevice interface [windows Media Device Manager], SendOpaqueCommand method, IMDSPDevice::SendOpaqueCommand, IMDSPDeviceSendOpaqueCommand, SendOpaqueCommand method [windows Media Device Manager], SendOpaqueCommand method [windows Media Device Manager], IMDSPDevice interface, SendOpaqueCommand,IMDSPDevice.SendOpaqueCommand, mswmdm/IMDSPDevice::SendOpaqueCommand, wmdm.imdspdevice_sendopaquecommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMDSPDevice::SendOpaqueCommand method

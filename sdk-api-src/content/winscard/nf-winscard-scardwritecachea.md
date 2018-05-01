@@ -7,7 +7,7 @@ old-location: security\scardwritecache.htm
 old-project: SecAuthN
 ms.assetid: e982e297-6a78-41f4-a81c-d207a96f1dab
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/24/2018
 ms.keywords: SCardWriteCache, SCardWriteCache function [Security], SCardWriteCacheA, SCardWriteCacheW, security.scardwritecache, winscard/SCardWriteCache, winscard/SCardWriteCacheA, winscard/SCardWriteCacheW
 ms.prod: windows-hardware
 ms.technology: windows-devices

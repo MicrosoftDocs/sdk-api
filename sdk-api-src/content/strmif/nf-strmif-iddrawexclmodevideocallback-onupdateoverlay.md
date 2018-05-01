@@ -7,7 +7,7 @@ old-location: dshow\iddrawexclmodevideocallback_onupdateoverlay.htm
 old-project: DirectShow
 ms.assetid: ede823ba-8340-4339-8e8a-e1d4f9ad1273
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IDDrawExclModeVideoCallback, IDDrawExclModeVideoCallback interface [DirectShow], OnUpdateOverlay method, IDDrawExclModeVideoCallback::OnUpdateOverlay, IDDrawExclModeVideoCallbackOnUpdateOverlay, OnUpdateOverlay method [DirectShow], OnUpdateOverlay method [DirectShow], IDDrawExclModeVideoCallback interface, OnUpdateOverlay,IDDrawExclModeVideoCallback.OnUpdateOverlay, dshow.iddrawexclmodevideocallback_onupdateoverlay, strmif/IDDrawExclModeVideoCallback::OnUpdateOverlay
 ms.prod: windows-hardware
 ms.technology: windows-devices

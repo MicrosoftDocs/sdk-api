@@ -7,7 +7,7 @@ old-location: com\ipointerinactive_oninactivemousemove.htm
 old-project: com
 ms.assetid: d026c570-b51b-456f-b121-eb2be08e2cac
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IPointerInactive, IPointerInactive interface [COM], OnInactiveMouseMove method, IPointerInactive::OnInactiveMouseMove, OnInactiveMouseMove method [COM], OnInactiveMouseMove method [COM], IPointerInactive interface, OnInactiveMouseMove,IPointerInactive.OnInactiveMouseMove, _ctrl_ipointerinactive_oninactivemousemove, com.ipointerinactive_oninactivemousemove, ocidl/IPointerInactive::OnInactiveMouseMove
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IPointerInactive::OnInactiveMouseMove method

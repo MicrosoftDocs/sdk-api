@@ -7,7 +7,7 @@ old-location: direct3d11\d3dx11createfft2dreal.htm
 old-project: direct3d11
 ms.assetid: 1bdf815e-3e7b-4025-8b31-6cd92a486b9f
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/6/2018
 ms.keywords: 09beb9c5-5f46-e308-4791-89dd9ac4022d, D3DX11CreateFFT2DReal, D3DX11CreateFFT2DReal function [Direct3D 11], d3dcsx/D3DX11CreateFFT2DReal, direct3d11.d3dx11createfft2dreal
 ms.prod: windows-hardware
 ms.technology: windows-devices

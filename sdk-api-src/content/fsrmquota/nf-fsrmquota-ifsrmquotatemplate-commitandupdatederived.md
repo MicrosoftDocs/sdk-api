@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmquotatemplate_commitandupdatederived.htm
 old-project: Fsrm
 ms.assetid: fecb034f-3f11-4d37-9468-56d4ea6268e7
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: CommitAndUpdateDerived method [File Server Resource Manager], CommitAndUpdateDerived method [File Server Resource Manager], IFsrmQuotaTemplate interface, CommitAndUpdateDerived,IFsrmQuotaTemplate.CommitAndUpdateDerived, IFsrmQuotaTemplate, IFsrmQuotaTemplate interface [File Server Resource Manager], CommitAndUpdateDerived method, IFsrmQuotaTemplate::CommitAndUpdateDerived, fs.ifsrmquotatemplate_commitandupdatederived, fsrm.ifsrmquotatemplate_commitandupdatederived, fsrmquota/IFsrmQuotaTemplate::CommitAndUpdateDerived
 ms.prod: windows-hardware
 ms.technology: windows-devices

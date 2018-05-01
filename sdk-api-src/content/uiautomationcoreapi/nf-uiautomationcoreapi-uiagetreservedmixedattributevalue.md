@@ -7,7 +7,7 @@ old-location: winauto\uiauto_UiaGetReservedMixedAttributeValueAutoMeth.htm
 old-project: WinAuto
 ms.assetid: 597ace91-197a-4cda-9386-78c6e429871b
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: UiaGetReservedMixedAttributeValue, UiaGetReservedMixedAttributeValue function [Windows Accessibility], uiauto.uiauto_UiaGetReservedMixedAttributeValueAutoMeth, uiauto_UiaGetReservedMixedAttributeValueAutoMeth, uiautomationcoreapi/UiaGetReservedMixedAttributeValue, winauto.uiauto_UiaGetReservedMixedAttributeValueAutoMeth
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: p2p\peerdistserverpublishcompletestream.htm
 old-project: P2PSdk
 ms.assetid: ad66025e-cc4f-49b7-9749-de97f4a55078
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/23/2018
 ms.keywords: PeerDistServerPublishCompleteStream, PeerDistServerPublishCompleteStream function [Peer Networking], p2p.peerdistserverpublishcompletestream, peerdist/PeerDistServerPublishCompleteStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: PeerDist.lib
 req.dll: PeerDist.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # PeerDistServerPublishCompleteStream function

@@ -7,7 +7,7 @@ old-location: security\tokenbindingdeletebinding.htm
 old-project: SecCNG
 ms.assetid: 4258CC92-580E-403C-9AE4-4BB726255464
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: TokenBindingDeleteBinding, TokenBindingDeleteBinding function [Security], security.tokenbindingdeletebinding, tokenbinding/TokenBindingDeleteBinding
 ms.prod: windows-hardware
 ms.technology: windows-devices

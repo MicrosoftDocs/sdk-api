@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IScrollProvider_Scroll.htm
 old-project: WinAuto
 ms.assetid: d1bd15d2-beaf-4838-970a-00cfa2a7cfd9
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: IScrollProvider, IScrollProvider interface [Windows Accessibility], Scroll method, IScrollProvider::Scroll, Scroll method [Windows Accessibility], Scroll method [Windows Accessibility], IScrollProvider interface, Scroll,IScrollProvider.Scroll, uiauto.uiauto_IScrollProvider_Scroll, uiauto_IScrollProvider_Scroll, uiautomationcore/IScrollProvider::Scroll, winauto.uiauto_IScrollProvider_Scroll
 ms.prod: windows-hardware
 ms.technology: windows-devices

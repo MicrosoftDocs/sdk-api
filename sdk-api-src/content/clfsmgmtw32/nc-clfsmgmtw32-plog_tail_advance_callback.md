@@ -1,0 +1,107 @@
+---
+UID: NC:clfsmgmtw32.PLOG_TAIL_ADVANCE_CALLBACK
+title: PLOG_TAIL_ADVANCE_CALLBACK
+author: windows-driver-content
+description: The LOG_TAIL_ADVANCE_CALLBACK function is an application-defined callback function that advances the log tail. The callback is invoked in the context of an asynchronous procedure call (APC) on the thread that registers for log management.
+old-location: fs\log_tail_advance_callback.htm
+old-project: Clfs
+ms.assetid: dfa64e5e-55ef-4102-90d5-104b1a624267
+ms.author: windowsdriverdev
+ms.date: 4/25/2018
+ms.keywords: LOG_TAIL_ADVANCE_CALLBACK, PLOG_TAIL_ADVANCE_CALLBACK, PLOG_TAIL_ADVANCE_CALLBACK function pointer [Files], clfsmgmtw32/PLOG_TAIL_ADVANCE_CALLBACK, fs.log_tail_advance_callback
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: callback
+req.header: clfsmgmtw32.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: CLFS_MGMT_POLICY, *PCLFS_MGMT_POLICY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Clfsmgmtw32.h
+api_name:
+-	PLOG_TAIL_ADVANCE_CALLBACK
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# PLOG_TAIL_ADVANCE_CALLBACK callback
+
+
+## -description
+
+
+The 
+<b>LOG_TAIL_ADVANCE_CALLBACK</b> function is an application-defined callback function that advances the log tail. The callback is invoked in the context of an asynchronous procedure call (APC) on the thread that registers for log management.
+
+
+## -parameters
+
+
+
+
+### -param hLogFile [in]
+
+The handle to the log.
+
+
+### -param lsnTarget [in]
+
+Specifies the log sequence number (LSN) to which the client is advised to advance to or beyond. The <i>lsnTarget</i> may not refer to an actual record in the log.
+
+
+### -param pvClientContext [in]
+
+A pointer to the client context.
+
+
+## -returns
+
+
+
+This function does not return a value.
+
+
+
+
+## -remarks
+
+
+
+This callback can be invoked at any time. This callback function should advance the base LSN of the log to greater than or equal to the value of <i>lsnTarget</i>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/aecdea3b-ac42-43d4-88b3-14cd810a4017">AdvanceLogBase</a>
+
+
+
+<a href="https://msdn.microsoft.com/deb5fd90-e987-4e5b-9740-6ecef8705557">WriteLogRestartArea</a>
+ 
+
+ 
+

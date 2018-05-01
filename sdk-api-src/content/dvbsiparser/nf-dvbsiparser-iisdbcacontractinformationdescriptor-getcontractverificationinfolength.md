@@ -7,7 +7,7 @@ old-location: mstv\iisdbcacontractinformationdescriptor_getcontractverificationi
 old-project: mstv
 ms.assetid: a7000edd-72a1-4979-b603-a42eecc691d7
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetContractVerificationInfoLength method [Microsoft TV Technologies], GetContractVerificationInfoLength method [Microsoft TV Technologies], IIsdbCAContractInformationDescriptor interface, GetContractVerificationInfoLength,IIsdbCAContractInformationDescriptor.GetContractVerificationInfoLength, IIsdbCAContractInformationDescriptor, IIsdbCAContractInformationDescriptor interface [Microsoft TV Technologies], GetContractVerificationInfoLength method, IIsdbCAContractInformationDescriptor::GetContractVerificationInfoLength, dvbsiparser/IIsdbCAContractInformationDescriptor::GetContractVerificationInfoLength, mstv.iisdbcacontractinformationdescriptor_getcontractverificationinfolength
 ms.prod: windows-hardware
 ms.technology: windows-devices

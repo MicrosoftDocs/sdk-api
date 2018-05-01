@@ -7,7 +7,7 @@ old-location: dshow\idvdinfo2_getstate.htm
 old-project: DirectShow
 ms.assetid: 403add2b-3dfd-436d-8184-7a14f30f6ea3
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetState method [DirectShow], GetState method [DirectShow], IDvdInfo2 interface, GetState,IDvdInfo2.GetState, IDvdInfo2, IDvdInfo2 interface [DirectShow], GetState method, IDvdInfo2::GetState, IDvdInfo2GetState, dshow.idvdinfo2_getstate, strmif/IDvdInfo2::GetState
 ms.prod: windows-hardware
 ms.technology: windows-devices

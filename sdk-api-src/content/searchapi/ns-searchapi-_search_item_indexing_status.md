@@ -7,7 +7,7 @@ old-location: search\_search_SEARCH_ITEM_INDEXING_STATUS.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\structures\search_item_indexing_status.htm
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/24/2018
 ms.keywords: SEARCH_ITEM_INDEXING_STATUS, SEARCH_ITEM_INDEXING_STATUS structure [search], _SEARCH_ITEM_INDEXING_STATUS, _search_SEARCH_ITEM_INDEXING_STATUS, search._search_SEARCH_ITEM_INDEXING_STATUS, searchapi/SEARCH_ITEM_INDEXING_STATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _SEARCH_ITEM_INDEXING_STATUS structure

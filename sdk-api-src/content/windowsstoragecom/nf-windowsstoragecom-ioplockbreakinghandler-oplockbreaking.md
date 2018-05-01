@@ -7,7 +7,7 @@ old-location: winrt\ioplockbreakinghandler_oplockbreaking.htm
 old-project: WinRT
 ms.assetid: 39E402AC-D159-4604-886E-454F36375CC5
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/24/2018
 ms.keywords: IOplockBreakingHandler, IOplockBreakingHandler interface [Windows Runtime], OplockBreaking method, IOplockBreakingHandler::OplockBreaking, OplockBreaking method [Windows Runtime], OplockBreaking method [Windows Runtime], IOplockBreakingHandler interface, OplockBreaking,IOplockBreakingHandler.OplockBreaking, windowsstoragecom/IOplockBreakingHandler::OplockBreaking, winrt.ioplockbreakinghandler_oplockbreaking
 ms.prod: windows-hardware
 ms.technology: windows-devices

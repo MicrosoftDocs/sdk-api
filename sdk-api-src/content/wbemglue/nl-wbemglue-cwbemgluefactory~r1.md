@@ -7,7 +7,7 @@ old-location: wmi\cwbemgluefactory.htm
 old-project: WmiSdk
 ms.assetid: 1287cb02-695a-47df-88f6-0d9dfd6b81af
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: "??1CWbemGlueFactory@@QAE@XZ, ??1CWbemGlueFactory@@QEAA@XZ, CWbemGlueFactory, CWbemGlueFactory class [Windows Management Instrumentation], CWbemGlueFactory class [Windows Management Instrumentation], described, wbemglue/CWbemGlueFactory, wmi.cwbemgluefactory"
 ms.prod: windows-hardware
 ms.technology: windows-devices

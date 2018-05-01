@@ -7,7 +7,7 @@ old-location: winauto\iaccpropservices_iaccpropservices__decomposehmenuidentitys
 old-project: WinAuto
 ms.assetid: b76c4ba8-fb9a-438b-8547-b73b3c459ec6
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: DecomposeHmenuIdentityString method [Windows Accessibility], DecomposeHmenuIdentityString method [Windows Accessibility], IAccPropServices interface, DecomposeHmenuIdentityString,IAccPropServices.DecomposeHmenuIdentityString, IAccPropServices, IAccPropServices interface [Windows Accessibility], DecomposeHmenuIdentityString method, IAccPropServices::DecomposeHmenuIdentityString, oleacc/IAccPropServices::DecomposeHmenuIdentityString, winauto.iaccpropservices_iaccpropservices__decomposehmenuidentitystring
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Oleacc.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IAccPropServices::DecomposeHmenuIdentityString method

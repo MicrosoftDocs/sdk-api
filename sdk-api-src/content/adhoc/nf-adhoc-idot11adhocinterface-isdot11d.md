@@ -7,7 +7,7 @@ old-location: nwifi\idot11adhocinterface_isdot11d.htm
 old-project: NativeWiFi
 ms.assetid: 3854b2e3-853d-44cd-9b43-6c583f0df08f
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/13/2018
 ms.keywords: IDot11AdHocInterface, IDot11AdHocInterface interface [NativeWIFI], IsDot11d method, IDot11AdHocInterface::IsDot11d, IsDot11d method [NativeWIFI], IsDot11d method [NativeWIFI], IDot11AdHocInterface interface, IsDot11d,IDot11AdHocInterface.IsDot11d, adhoc/IDot11AdHocInterface::IsDot11d, nwifi.idot11adhocinterface_isdot11d
 ms.prod: windows-hardware
 ms.technology: windows-devices

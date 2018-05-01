@@ -7,7 +7,7 @@ old-location: mf\id3d11videocontext_videoprocessorsetoutputbackgroundcolor.htm
 old-project: medfound
 ms.assetid: 6D6DAECC-8D20-4ABB-A20B-55EC4F68D8F1
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: ID3D11VideoContext, ID3D11VideoContext interface [Media Foundation], VideoProcessorSetOutputBackgroundColor method, ID3D11VideoContext::VideoProcessorSetOutputBackgroundColor, VideoProcessorSetOutputBackgroundColor method [Media Foundation], VideoProcessorSetOutputBackgroundColor method [Media Foundation], ID3D11VideoContext interface, VideoProcessorSetOutputBackgroundColor,ID3D11VideoContext.VideoProcessorSetOutputBackgroundColor, d3d11/ID3D11VideoContext::VideoProcessorSetOutputBackgroundColor, mf.id3d11videocontext_videoprocessorsetoutputbackgroundcolor
 ms.prod: windows-hardware
 ms.technology: windows-devices

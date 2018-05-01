@@ -7,7 +7,7 @@ old-location: mf\imfcapturephotosink_setoutputfilename.htm
 old-project: medfound
 ms.assetid: CAA9F7CF-A92F-4039-BEA5-07A730E82EE4
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFCapturePhotoSink, IMFCapturePhotoSink interface [Media Foundation], SetOutputFileName method, IMFCapturePhotoSink::SetOutputFileName, SetOutputFileName method [Media Foundation], SetOutputFileName method [Media Foundation], IMFCapturePhotoSink interface, SetOutputFileName,IMFCapturePhotoSink.SetOutputFileName, mf.imfcapturephotosink_setoutputfilename, mfcaptureengine/IMFCapturePhotoSink::SetOutputFileName
 ms.prod: windows-hardware
 ms.technology: windows-devices

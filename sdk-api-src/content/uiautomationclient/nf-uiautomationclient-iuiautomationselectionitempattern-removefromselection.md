@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationSelectionItemPattern_RemoveFromSelecti
 old-project: WinAuto
 ms.assetid: 25f9a8da-4bc9-496e-888c-a270a2bf8fb3
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: IUIAutomationSelectionItemPattern, IUIAutomationSelectionItemPattern interface [Windows Accessibility], RemoveFromSelection method, IUIAutomationSelectionItemPattern::RemoveFromSelection, RemoveFromSelection method [Windows Accessibility], RemoveFromSelection method [Windows Accessibility], IUIAutomationSelectionItemPattern interface, RemoveFromSelection,IUIAutomationSelectionItemPattern.RemoveFromSelection, uiauto.uiauto_IUIAutomationSelectionItemPattern_RemoveFromSelection, uiauto_IUIAutomationSelectionItemPattern_RemoveFromSelection, uiautomationclient/IUIAutomationSelectionItemPattern::RemoveFromSelection, winauto.uiauto_IUIAutomationSelectionItemPattern_RemoveFromSelection
 ms.prod: windows-hardware
 ms.technology: windows-devices

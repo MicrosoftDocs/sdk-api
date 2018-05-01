@@ -7,7 +7,7 @@ old-location: dshow\iqualprop_get_framesdroppedinrenderer.htm
 old-project: DirectShow
 ms.assetid: 342aff30-ed1c-406d-8fbe-0524acbcd2d7
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IQualProp, IQualProp interface [DirectShow], get_FramesDroppedInRenderer method, IQualProp::get_FramesDroppedInRenderer, IQualPropget_FramesDroppedInRenderer, amvideo/IQualProp::get_FramesDroppedInRenderer, dshow.iqualprop_get_framesdroppedinrenderer, get_FramesDroppedInRenderer method [DirectShow], get_FramesDroppedInRenderer method [DirectShow], IQualProp interface, get_FramesDroppedInRenderer,IQualProp.get_FramesDroppedInRenderer
 ms.prod: windows-hardware
 ms.technology: windows-devices

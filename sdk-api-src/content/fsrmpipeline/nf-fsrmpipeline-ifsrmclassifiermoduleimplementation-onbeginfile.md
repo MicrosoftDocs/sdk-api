@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmclassifiermoduleimplementation_onbeginfile.htm
 old-project: Fsrm
 ms.assetid: 799f26c7-925e-4669-9571-128e10c51e9c
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: IFsrmClassifierModuleImplementation, IFsrmClassifierModuleImplementation interface [File Server Resource Manager], OnBeginFile method, IFsrmClassifierModuleImplementation::OnBeginFile, OnBeginFile method [File Server Resource Manager], OnBeginFile method [File Server Resource Manager], IFsrmClassifierModuleImplementation interface, OnBeginFile,IFsrmClassifierModuleImplementation.OnBeginFile, fs.ifsrmclassifiermoduleimplementation_onbeginfile, fsrm.ifsrmclassifiermoduleimplementation_onbeginfile, fsrmpipeline/IFsrmClassifierModuleImplementation::OnBeginFile
 ms.prod: windows-hardware
 ms.technology: windows-devices

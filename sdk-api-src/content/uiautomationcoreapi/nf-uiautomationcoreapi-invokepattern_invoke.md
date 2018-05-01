@@ -7,7 +7,7 @@ old-location: winauto\uiauto_InvokePattern_InvokeConPat.htm
 old-project: WinAuto
 ms.assetid: 3677b34f-31fe-4e28-a768-a79082e63722
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: InvokePattern_Invoke, InvokePattern_Invoke function [Windows Accessibility], uiauto.uiauto_InvokePattern_InvokeConPat, uiauto_InvokePattern_InvokeConPat, uiautomationcoreapi/InvokePattern_Invoke, winauto.uiauto_InvokePattern_InvokeConPat
 ms.prod: windows-hardware
 ms.technology: windows-devices

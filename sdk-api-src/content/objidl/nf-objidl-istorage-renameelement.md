@@ -7,7 +7,7 @@ old-location: stg\istorage_renameelement.htm
 old-project: Stg
 ms.assetid: 9d88b2e0-8b68-4607-8f96-5e36e831c283
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/20/2018
 ms.keywords: IStorage, IStorage interface [Structured Storage], RenameElement method, IStorage::RenameElement, RenameElement method [Structured Storage], RenameElement method [Structured Storage], IStorage interface, RenameElement,IStorage.RenameElement, _stg_istorage_renameelement, objidl/IStorage::RenameElement, stg.istorage_renameelement
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IStorage::RenameElement method

@@ -7,7 +7,7 @@ old-location: security\iocspcaconfigurationcollection_createcaconfiguration_meth
 old-project: SecCrypto
 ms.assetid: d1c47402-77b1-4c43-8d57-20b9dd2682f7
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: CreateCAConfiguration method [Security], CreateCAConfiguration method [Security], IOCSPCAConfigurationCollection interface, CreateCAConfiguration,IOCSPCAConfigurationCollection.CreateCAConfiguration, IOCSPCAConfigurationCollection, IOCSPCAConfigurationCollection interface [Security], CreateCAConfiguration method, IOCSPCAConfigurationCollection::CreateCAConfiguration, certadm/IOCSPCAConfigurationCollection::CreateCAConfiguration, security.iocspcaconfigurationcollection_createcaconfiguration_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CHANNEL_ENTRY_POINTS, *PCHANNEL_ENTRY_POINTS
+req.typenames: 
 topic_type:
 -	APIRef
 -	kbSyntax

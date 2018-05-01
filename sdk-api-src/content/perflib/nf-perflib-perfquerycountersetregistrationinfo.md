@@ -7,7 +7,7 @@ old-location: perf\perfquerycountersetregistrationinfo.htm
 old-project: PerfCtrs
 ms.assetid: E8E83E47-2445-42AE-855F-6710FC8F789E
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/23/2018
 ms.keywords: PerfQueryCounterSetRegistrationInfo, PerfQueryCounterSetRegistrationInfo function [Perf], perf.perfquerycountersetregistrationinfo, perflib/PerfQueryCounterSetRegistrationInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: AdvAPI32.lib
 req.dll: AdvAPI32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # PerfQueryCounterSetRegistrationInfo function

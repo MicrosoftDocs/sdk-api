@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ITransformProvider_Move.htm
 old-project: WinAuto
 ms.assetid: 5abd6b54-a555-4e6f-9868-9c9b3e2f6e50
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: ITransformProvider, ITransformProvider interface [Windows Accessibility], Move method, ITransformProvider::Move, Move method [Windows Accessibility], Move method [Windows Accessibility], ITransformProvider interface, Move,ITransformProvider.Move, uiauto.uiauto_ITransformProvider_Move, uiauto_ITransformProvider_Move, uiautomationcore/ITransformProvider::Move, winauto.uiauto_ITransformProvider_Move
 ms.prod: windows-hardware
 ms.technology: windows-devices

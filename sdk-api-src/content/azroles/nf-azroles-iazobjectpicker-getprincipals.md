@@ -7,7 +7,7 @@ old-location: security\iazobjectpicker_getprincipals_method.htm
 old-project: SecAuthZ
 ms.assetid: e03a2160-42bc-44a9-a893-36d2d1de18d4
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: GetPrincipals method [Security], GetPrincipals method [Security], IAzObjectPicker interface, GetPrincipals,IAzObjectPicker.GetPrincipals, IAzObjectPicker, IAzObjectPicker interface [Security], GetPrincipals method, IAzObjectPicker::GetPrincipals, azroles/IAzObjectPicker::GetPrincipals, security.iazobjectpicker_getprincipals_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

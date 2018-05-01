@@ -7,7 +7,7 @@ old-location: wua\iinstallationbehavior_requiresnetworkconnectivity.htm
 old-project: Wua_Sdk
 ms.assetid: d74dd93a-17ba-4293-a146-19c86a8dfdf8
 ms.author: windowsdriverdev
-ms.date: 3/15/2018
+ms.date: 4/18/2018
 ms.keywords: IInstallationBehavior, IInstallationBehavior interface [Windows Update Agent], RequiresNetworkConnectivity property, IInstallationBehavior.RequiresNetworkConnectivity, IInstallationBehavior::get_RequiresNetworkConnectivity, RequiresNetworkConnectivity property [Windows Update Agent], RequiresNetworkConnectivity property [Windows Update Agent], IInstallationBehavior interface, get_RequiresNetworkConnectivity,IInstallationBehavior.get_RequiresNetworkConnectivity, wua.iinstallationbehavior_requiresnetworkconnectivity, wuapi/IInstallationBehavior::RequiresNetworkConnectivity, wuapi/IInstallationBehavior::get_RequiresNetworkConnectivity
 ms.prod: windows-hardware
 ms.technology: windows-devices

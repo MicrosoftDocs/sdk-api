@@ -7,7 +7,7 @@ old-location: com\cogetinterfaceandreleasestream.htm
 old-project: com
 ms.assetid: b529f65f-3208-4594-a772-d1cad3727dc1
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: CoGetInterfaceAndReleaseStream, CoGetInterfaceAndReleaseStream function [COM], _com_CoGetInterfaceAndReleaseStream, com.cogetinterfaceandreleasestream, combaseapi/CoGetInterfaceAndReleaseStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

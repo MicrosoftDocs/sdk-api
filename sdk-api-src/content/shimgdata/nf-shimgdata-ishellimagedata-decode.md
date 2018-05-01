@@ -7,7 +7,7 @@ old-location: shell\IShellImageData_Decode.htm
 old-project: shell
 ms.assetid: 954424d6-cb90-46c1-a850-4e1113dfe2e4
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: Decode method [Windows Shell], Decode method [Windows Shell], IShellImageData interface, Decode,IShellImageData.Decode, IShellImageData, IShellImageData interface [Windows Shell], Decode method, IShellImageData::Decode, SHIMGDEC_DEFAULT, SHIMGDEC_LOADFULL, SHIMGDEC_THUMBNAIL, _shell_IShellImageData_Decode, shell.IShellImageData_Decode, shimgdata/IShellImageData::Decode
 ms.prod: windows-hardware
 ms.technology: windows-devices

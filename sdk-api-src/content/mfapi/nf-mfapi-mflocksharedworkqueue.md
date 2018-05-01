@@ -7,7 +7,7 @@ old-location: mf\mflocksharedworkqueue.htm
 old-project: medfound
 ms.assetid: 1E3AA1EE-83A4-42DE-961E-D93A34CE80CF
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: MFLockSharedWorkQueue, MFLockSharedWorkQueue function [Media Foundation], mf.mflocksharedworkqueue, mfapi/MFLockSharedWorkQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices

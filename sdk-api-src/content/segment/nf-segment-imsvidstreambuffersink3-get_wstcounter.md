@@ -7,7 +7,7 @@ old-location: mstv\imsvidstreambuffersink3_get_wstcounter.htm
 old-project: mstv
 ms.assetid: 4698bcce-e3df-4631-a363-0b3d54f8e38a
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidStreamBufferSink3, IMSVidStreamBufferSink3 interface [Microsoft TV Technologies], get_WSTCounter method, IMSVidStreamBufferSink3::get_WSTCounter, IMSVidStreamBufferSink3get_WSTCounter, get_WSTCounter method [Microsoft TV Technologies], get_WSTCounter method [Microsoft TV Technologies], IMSVidStreamBufferSink3 interface, get_WSTCounter,IMSVidStreamBufferSink3.get_WSTCounter, mstv.imsvidstreambuffersink3_get_wstcounter, segment/IMSVidStreamBufferSink3::get_WSTCounter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidStreamBufferSink3::get_WSTCounter method

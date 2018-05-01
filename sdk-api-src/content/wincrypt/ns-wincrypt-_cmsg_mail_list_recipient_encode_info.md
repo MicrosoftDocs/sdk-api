@@ -7,7 +7,7 @@ old-location: security\cmsg_mail_list_recipient_encode_info.htm
 old-project: SecCrypto
 ms.assetid: 4303a7e7-cb93-4ed1-85e6-42359c2c687c
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: "*PCMSG_MAIL_LIST_RECIPIENT_ENCODE_INFO, CMSG_MAIL_LIST_RECIPIENT_ENCODE_INFO, CMSG_MAIL_LIST_RECIPIENT_ENCODE_INFO structure [Security], PCMSG_MAIL_LIST_RECIPIENT_ENCODE_INFO, PCMSG_MAIL_LIST_RECIPIENT_ENCODE_INFO structure pointer [Security], _CMSG_MAIL_LIST_RECIPIENT_ENCODE_INFO, _crypto2_cmsg_mail_list_recipient_encode_info, security.cmsg_mail_list_recipient_encode_info, wincrypt/CMSG_MAIL_LIST_RECIPIENT_ENCODE_INFO, wincrypt/PCMSG_MAIL_LIST_RECIPIENT_ENCODE_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,11 +58,6 @@ The <b>CMSG_MAIL_LIST_RECIPIENT_ENCODE_INFO</b> structure is used with previousl
 
 
 
-### -field DUMMYUNIONNAME
-
- 
-
-
 ### -field cbSize
 
 The size, in bytes, of this data structure.
@@ -88,6 +83,11 @@ The provider used to do the recipient key encryption and export. If <b>NULL</b>,
 ### -field dwKeyChoice
 
 Indicates which member of the following union will be used. Currently only CMSG_MAIL_LIST_HANDLE_KEY_CHOICE can be used.
+
+
+### -field DUMMYUNIONNAME
+
+ 
 
 
 ### -field KeyId

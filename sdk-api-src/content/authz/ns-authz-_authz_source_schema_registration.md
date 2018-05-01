@@ -7,7 +7,7 @@ old-location: security\authz_source_schema_registration.htm
 old-project: SecAuthZ
 ms.assetid: 8b4d6e14-fb9c-428a-bd94-34eba668edc6
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: "*PAUTHZ_SOURCE_SCHEMA_REGISTRATION, AUTHZ_ALLOW_MULTIPLE_SOURCE_INSTANCES, AUTHZ_MIGRATED_LEGACY_PUBLISHER, AUTHZ_SOURCE_SCHEMA_REGISTRATION, AUTHZ_SOURCE_SCHEMA_REGISTRATION structure [Security], PAUTHZ_SOURCE_SCHEMA_REGISTRATION, PAUTHZ_SOURCE_SCHEMA_REGISTRATION structure pointer [Security], _AUTHZ_SOURCE_SCHEMA_REGISTRATION, authz/AUTHZ_SOURCE_SCHEMA_REGISTRATION, authz/PAUTHZ_SOURCE_SCHEMA_REGISTRATION, security.authz_source_schema_registration"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -55,11 +55,6 @@ The <b>AUTHZ_SOURCE_SCHEMA_REGISTRATION</b> structure specifies information abou
 ## -struct-fields
 
 
-
-
-### -field DUMMYUNIONNAME
-
- 
 
 
 ### -field dwFlags
@@ -120,6 +115,11 @@ A pointer to a wide character string that represents the name of the resource th
 ### -field szExecutableImagePath
 
 This member is reserved and must be set to <b>NULL</b>.
+
+
+### -field DUMMYUNIONNAME
+
+ 
 
 
 ### -field dwObjectTypeNameCount

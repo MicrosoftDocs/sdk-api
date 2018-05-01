@@ -7,7 +7,7 @@ old-location: winauto\uiauto_itransformprovider2_zoomlevel.htm
 old-project: WinAuto
 ms.assetid: AFC38A55-C2E4-4E5A-AD52-AE0CE96F86AC
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: ITransformProvider2, ITransformProvider2 interface [Windows Accessibility], ZoomLevel property, ITransformProvider2.ZoomLevel, ITransformProvider2::get_ZoomLevel, ZoomLevel property [Windows Accessibility], ZoomLevel property [Windows Accessibility], ITransformProvider2 interface, get_ZoomLevel,ITransformProvider2.get_ZoomLevel, uiautomationcore/ITransformProvider2::ZoomLevel, uiautomationcore/ITransformProvider2::get_ZoomLevel, winauto.uiauto_itransformprovider2_zoomlevel
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\imfcontentprotectiondevice.htm
 old-project: medfound
 ms.assetid: A95F6526-60D2-4922-897E-6369EBB0DC79
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFContentProtectionDevice, IMFContentProtectionDevice interface [Media Foundation], IMFContentProtectionDevice interface [Media Foundation], described, mf.imfcontentprotectiondevice, mfidl/IMFContentProtectionDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices

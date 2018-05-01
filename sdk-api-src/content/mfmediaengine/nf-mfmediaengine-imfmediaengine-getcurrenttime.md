@@ -7,7 +7,7 @@ old-location: mf\imfmediaengine_getcurrenttime.htm
 old-project: medfound
 ms.assetid: 49FA2383-8AEC-4DDF-8998-25987EEC8223
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetCurrentTime method [Media Foundation], GetCurrentTime method [Media Foundation], IMFMediaEngine interface, GetCurrentTime,IMFMediaEngine.GetCurrentTime, IMFMediaEngine, IMFMediaEngine interface [Media Foundation], GetCurrentTime method, IMFMediaEngine::GetCurrentTime, mf.imfmediaengine_getcurrenttime, mfmediaengine/IMFMediaEngine::GetCurrentTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

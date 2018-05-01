@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationRangeValuePattern_CachedValue.htm
 old-project: WinAuto
 ms.assetid: 2a5ca86d-75d1-416e-9801-52d855c90c08
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: CachedValue property [Windows Accessibility], CachedValue property [Windows Accessibility], IUIAutomationRangeValuePattern interface, IUIAutomationRangeValuePattern, IUIAutomationRangeValuePattern interface [Windows Accessibility], CachedValue property, IUIAutomationRangeValuePattern.CachedValue, IUIAutomationRangeValuePattern::get_CachedValue, get_CachedValue,IUIAutomationRangeValuePattern.get_CachedValue, uiauto.uiauto_IUIAutomationRangeValuePattern_CachedValue, uiauto_IUIAutomationRangeValuePattern_CachedValue, uiautomationclient/IUIAutomationRangeValuePattern::CachedValue, uiautomationclient/IUIAutomationRangeValuePattern::get_CachedValue, winauto.uiauto_IUIAutomationRangeValuePattern_CachedValue
 ms.prod: windows-hardware
 ms.technology: windows-devices

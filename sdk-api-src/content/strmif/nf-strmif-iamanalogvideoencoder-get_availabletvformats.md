@@ -7,7 +7,7 @@ old-location: dshow\iamanalogvideoencoder_get_availabletvformats.htm
 old-project: DirectShow
 ms.assetid: 739a5f6f-2498-49f4-9c9d-008bd71d4855
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMAnalogVideoEncoder, IAMAnalogVideoEncoder interface [DirectShow], get_AvailableTVFormats method, IAMAnalogVideoEncoder::get_AvailableTVFormats, IAMAnalogVideoEncoderget_AvailableTVFormats, dshow.iamanalogvideoencoder_get_availabletvformats, get_AvailableTVFormats method [DirectShow], get_AvailableTVFormats method [DirectShow], IAMAnalogVideoEncoder interface, get_AvailableTVFormats,IAMAnalogVideoEncoder.get_AvailableTVFormats, strmif/IAMAnalogVideoEncoder::get_AvailableTVFormats
 ms.prod: windows-hardware
 ms.technology: windows-devices

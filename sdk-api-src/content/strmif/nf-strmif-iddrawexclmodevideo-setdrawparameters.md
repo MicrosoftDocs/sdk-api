@@ -7,7 +7,7 @@ old-location: dshow\iddrawexclmodevideo_setdrawparameters.htm
 old-project: DirectShow
 ms.assetid: e5c2eda5-4276-4906-8098-37bba3fd4e5a
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IDDrawExclModeVideo, IDDrawExclModeVideo interface [DirectShow], SetDrawParameters method, IDDrawExclModeVideo::SetDrawParameters, IDDrawExclModeVideoSetDrawParameters, SetDrawParameters method [DirectShow], SetDrawParameters method [DirectShow], IDDrawExclModeVideo interface, SetDrawParameters,IDDrawExclModeVideo.SetDrawParameters, dshow.iddrawexclmodevideo_setdrawparameters, strmif/IDDrawExclModeVideo::SetDrawParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices

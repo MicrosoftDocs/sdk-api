@@ -7,7 +7,7 @@ old-location: wmp\iwmpplayerapplication_switchtocontrol.htm
 old-project: WMP
 ms.assetid: 15be3a28-4e51-46bf-bb64-e45e20ae3524
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPPlayerApplication, IWMPPlayerApplication interface [Windows Media Player], switchToControl method, IWMPPlayerApplication::switchToControl, IWMPPlayerApplicationswitchToControl, switchToControl method [Windows Media Player], switchToControl method [Windows Media Player], IWMPPlayerApplication interface, switchToControl,IWMPPlayerApplication.switchToControl, wmp.iwmpplayerapplication_switchtocontrol, wmp/IWMPPlayerApplication::switchToControl
 ms.prod: windows-hardware
 ms.technology: windows-devices

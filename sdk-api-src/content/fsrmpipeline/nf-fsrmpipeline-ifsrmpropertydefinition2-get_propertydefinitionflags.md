@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmpropertydefinition2_propertydefinitionflags.htm
 old-project: Fsrm
 ms.assetid: 35eb6597-b358-4084-99dc-931bad8a4425
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: IFsrmPropertyDefinition2, IFsrmPropertyDefinition2 interface [File Server Resource Manager], PropertyDefinitionFlags property, IFsrmPropertyDefinition2.PropertyDefinitionFlags, IFsrmPropertyDefinition2::get_PropertyDefinitionFlags, PropertyDefinitionFlags property [File Server Resource Manager], PropertyDefinitionFlags property [File Server Resource Manager], IFsrmPropertyDefinition2 interface, fs.ifsrmpropertydefinition2_propertydefinitionflags, fsrm.ifsrmpropertydefinition2_propertydefinitionflags, fsrmpipeline/IFsrmPropertyDefinition2::PropertyDefinitionFlags, fsrmpipeline/IFsrmPropertyDefinition2::get_PropertyDefinitionFlags, get_PropertyDefinitionFlags,IFsrmPropertyDefinition2.get_PropertyDefinitionFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices

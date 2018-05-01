@@ -7,7 +7,7 @@ old-location: dshow\iamchannelinfo_get_channelurl.htm
 old-project: DirectShow
 ms.assetid: 27e1a315-db95-4f24-94b6-b10023e61e7a
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMChannelInfo, IAMChannelInfo interface [DirectShow], get_ChannelURL method, IAMChannelInfo::get_ChannelURL, IAMChannelInfoget_ChannelURL, dshow.iamchannelinfo_get_channelurl, get_ChannelURL method [DirectShow], get_ChannelURL method [DirectShow], IAMChannelInfo interface, get_ChannelURL,IAMChannelInfo.get_ChannelURL, qnetwork/IAMChannelInfo::get_ChannelURL
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IAMChannelInfo::get_ChannelURL method

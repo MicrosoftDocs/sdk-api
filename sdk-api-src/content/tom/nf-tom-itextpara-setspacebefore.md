@@ -7,7 +7,7 @@ old-location: controls\ITextPara_SetSpaceBefore.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setspacebefore.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextPara, ITextPara interface [Windows Controls], SetSpaceBefore method, ITextPara::SetSpaceBefore, SetSpaceBefore method [Windows Controls], SetSpaceBefore method [Windows Controls], ITextPara interface, SetSpaceBefore,ITextPara.SetSpaceBefore, _win32_ITextPara_SetSpaceBefore, _win32_ITextPara_SetSpaceBefore_cpp, controls.ITextPara_SetSpaceBefore, controls._win32_ITextPara_SetSpaceBefore, tom/ITextPara::SetSpaceBefore
 ms.prod: windows-hardware
 ms.technology: windows-devices

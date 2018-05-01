@@ -7,7 +7,7 @@ old-location: security\ocsp_basic_response_entry.htm
 old-project: SecCrypto
 ms.assetid: c22f25fd-bbee-45de-9ca0-064b159abb7c
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: "*POCSP_BASIC_RESPONSE_ENTRY, OCSP_BASIC_GOOD_CERT_STATUS, OCSP_BASIC_RESPONSE_ENTRY, OCSP_BASIC_RESPONSE_ENTRY structure [Security], OCSP_BASIC_REVOKED_CERT_STATUS, OCSP_BASIC_UNKNOWN_CERT_STATUS, POCSP_BASIC_RESPONSE_ENTRY, POCSP_BASIC_RESPONSE_ENTRY structure pointer [Security], _OCSP_BASIC_RESPONSE_ENTRY, security.ocsp_basic_response_entry, wincrypt/OCSP_BASIC_RESPONSE_ENTRY, wincrypt/POCSP_BASIC_RESPONSE_ENTRY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -56,11 +56,6 @@ The <b>OCSP_BASIC_RESPONSE_ENTRY</b> structure contains the current certificate 
 ## -struct-fields
 
 
-
-
-### -field DUMMYUNIONNAME
-
- 
 
 
 ### -field CertId
@@ -117,6 +112,11 @@ The responder has no information for the target certificate.
 </tr>
 </table>
  
+
+
+### -field DUMMYUNIONNAME
+
+ 
 
 
 ### -field ThisUpdate

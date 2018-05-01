@@ -7,7 +7,7 @@ old-location: bits\ienumbitspeers_getcount.htm
 old-project: Bits
 ms.assetid: b4e52429-cd41-483a-b168-b5d7a1f77d74
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/10/2018
 ms.keywords: GetCount method [BITS], GetCount method [BITS], IEnumBitsPeers interface, GetCount,IEnumBitsPeers.GetCount, IEnumBitsPeers, IEnumBitsPeers interface [BITS], GetCount method, IEnumBitsPeers::GetCount, bits.ienumbitspeers_getcount, bits3_0/IEnumBitsPeers::GetCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

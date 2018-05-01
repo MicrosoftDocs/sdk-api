@@ -7,7 +7,7 @@ old-location: wmi\iwbemcontext_deleteall.htm
 old-project: WmiSdk
 ms.assetid: 980a5906-dc00-42fe-83f0-9fb476e766d7
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: DeleteAll method [Windows Management Instrumentation], DeleteAll method [Windows Management Instrumentation], IWbemContext interface, DeleteAll,IWbemContext.DeleteAll, IWbemContext, IWbemContext interface [Windows Management Instrumentation], DeleteAll method, IWbemContext::DeleteAll, _hmm_iwbemcontext_deleteall, wbemcli/IWbemContext::DeleteAll, wmi.iwbemcontext_deleteall
 ms.prod: windows-hardware
 ms.technology: windows-devices

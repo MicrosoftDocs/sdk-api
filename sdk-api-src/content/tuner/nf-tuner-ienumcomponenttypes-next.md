@@ -7,7 +7,7 @@ old-location: mstv\ienumcomponenttypes_next.htm
 old-project: mstv
 ms.assetid: 491e9237-38cd-4c12-b93b-eb398a49d742
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IEnumComponentTypes, IEnumComponentTypes interface [Microsoft TV Technologies], Next method, IEnumComponentTypes::Next, IEnumComponentTypesNext, Next method [Microsoft TV Technologies], Next method [Microsoft TV Technologies], IEnumComponentTypes interface, Next,IEnumComponentTypes.Next, mstv.ienumcomponenttypes_next, tuner/IEnumComponentTypes::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\ix509privatekey_cspinformations.htm
 old-project: SecCertEnroll
 ms.assetid: 81cf4689-0cd6-4185-9242-ef26de9161a1
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: CspInformations property [Security], CspInformations property [Security], IX509PrivateKey interface, IX509PrivateKey, IX509PrivateKey interface [Security], CspInformations property, IX509PrivateKey.CspInformations, IX509PrivateKey::get_CspInformations, IX509PrivateKey::put_CspInformations, certenroll/IX509PrivateKey::CspInformations, certenroll/IX509PrivateKey::get_CspInformations, certenroll/IX509PrivateKey::put_CspInformations, get_CspInformations,IX509PrivateKey.get_CspInformations, security.ix509privatekey_cspinformations
 ms.prod: windows-hardware
 ms.technology: windows-devices

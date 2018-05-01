@@ -7,7 +7,7 @@ old-location: wmp\iwmpplugin_init.htm
 old-project: WMP
 ms.assetid: 812752d5-4d4b-4d8d-86a7-c7a9daa092e5
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPPlugin, IWMPPlugin interface [Windows Media Player], Init method, IWMPPlugin::Init, IWMPPluginInitDSP, Init method [Windows Media Player], Init method [Windows Media Player], IWMPPlugin interface, Init,IWMPPlugin.Init, wmp.iwmpplugin_init, wmpservices/IWMPPlugin::Init
 ms.prod: windows-hardware
 ms.technology: windows-devices

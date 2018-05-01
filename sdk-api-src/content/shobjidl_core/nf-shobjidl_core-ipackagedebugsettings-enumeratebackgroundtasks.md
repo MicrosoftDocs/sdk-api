@@ -7,7 +7,7 @@ old-location: winrt\ipackagedebugsettings_enumeratebackgroundtasks.htm
 old-project: WinRT
 ms.assetid: C86103F6-6893-483C-8237-CBBA71C784D2
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/24/2018
 ms.keywords: EnumerateBackgroundTasks method [Windows Runtime], EnumerateBackgroundTasks method [Windows Runtime], IPackageDebugSettings interface, EnumerateBackgroundTasks,IPackageDebugSettings.EnumerateBackgroundTasks, IPackageDebugSettings, IPackageDebugSettings interface [Windows Runtime], EnumerateBackgroundTasks method, IPackageDebugSettings::EnumerateBackgroundTasks, shobjidl_core/IPackageDebugSettings::EnumerateBackgroundTasks, winrt.ipackagedebugsettings_enumeratebackgroundtasks
 ms.prod: windows-hardware
 ms.technology: windows-devices

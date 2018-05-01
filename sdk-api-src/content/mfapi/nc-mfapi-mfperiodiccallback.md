@@ -7,7 +7,7 @@ old-location: mf\mfperiodiccallback_callback.htm
 old-project: medfound
 ms.assetid: 9449fa04-867c-4f27-a05c-ff0d6e912c53
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 9449fa04-867c-4f27-a05c-ff0d6e912c53, MFPERIODICCALLBACK, MFPERIODICCALLBACK function pointer [Media Foundation], mf.mfperiodiccallback_callback, mfapi/MFPERIODICCALLBACK
 ms.prod: windows-hardware
 ms.technology: windows-devices

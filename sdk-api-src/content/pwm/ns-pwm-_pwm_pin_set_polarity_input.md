@@ -7,7 +7,7 @@ old-location: base\pwm_pin_set_polarity_input.htm
 old-project: DevIO
 ms.assetid: 346F981E-DAE1-4CEE-86A6-4416E3C293DE
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/3/2018
 ms.keywords: PWM_PIN_SET_POLARITY_INPUT, PWM_PIN_SET_POLARITY_INPUT structure, _PWM_PIN_SET_POLARITY_INPUT, base.pwm_pin_set_polarity_input, pwm/PWM_PIN_SET_POLARITY_INPUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _PWM_PIN_SET_POLARITY_INPUT structure

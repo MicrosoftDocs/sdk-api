@@ -7,7 +7,7 @@ old-location: dshow\ibasicvideo_get_avgtimeperframe.htm
 old-project: DirectShow
 ms.assetid: a32a1a46-cde3-401a-b933-c72e399e9ea1
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IBasicVideo, IBasicVideo interface [DirectShow], get_AvgTimePerFrame method, IBasicVideo::get_AvgTimePerFrame, IBasicVideoget_AvgTimePerFrame, control/IBasicVideo::get_AvgTimePerFrame, dshow.ibasicvideo_get_avgtimeperframe, get_AvgTimePerFrame method [DirectShow], get_AvgTimePerFrame method [DirectShow], IBasicVideo interface, get_AvgTimePerFrame,IBasicVideo.get_AvgTimePerFrame
 ms.prod: windows-hardware
 ms.technology: windows-devices

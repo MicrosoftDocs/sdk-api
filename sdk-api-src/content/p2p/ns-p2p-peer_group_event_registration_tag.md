@@ -7,7 +7,7 @@ old-location: p2p\peer_group_event_registration.htm
 old-project: P2PSdk
 ms.assetid: 9c9c82c3-b02a-49c2-9a8f-eb355ded8480
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/23/2018
 ms.keywords: "*PPEER_GROUP_EVENT_REGISTRATION, PEER_GROUP_EVENT_REGISTRATION, PEER_GROUP_EVENT_REGISTRATION structure [Peer Networking], PPEER_GROUP_EVENT_REGISTRATION, PPEER_GROUP_EVENT_REGISTRATION structure pointer [Peer Networking], p2p.peer_group_event_registration, p2p/PPEER_GROUP_EVENT_REGISTRATION, p2p/peer_group_event_registration_tag, peer_group_event_registration_tag"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # peer_group_event_registration_tag structure

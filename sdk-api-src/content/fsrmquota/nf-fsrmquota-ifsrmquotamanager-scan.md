@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmquotamanager_scan.htm
 old-project: Fsrm
 ms.assetid: 1581f4c7-a912-4214-9ad9-181ad5ebba7e
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: FsrmQuotaManager class [File Server Resource Manager], Scan method, IFsrmQuotaManager, IFsrmQuotaManager interface [File Server Resource Manager], Scan method, IFsrmQuotaManager::Scan, IFsrmQuotaManagerEx interface [File Server Resource Manager], Scan method, IFsrmQuotaManagerEx::Scan, Scan method [File Server Resource Manager], Scan method [File Server Resource Manager], FsrmQuotaManager class, Scan method [File Server Resource Manager], IFsrmQuotaManager interface, Scan method [File Server Resource Manager], IFsrmQuotaManagerEx interface, Scan,IFsrmQuotaManager.Scan, fs.ifsrmquotamanager_scan, fsrm.ifsrmquotamanager_scan, fsrmquota/IFsrmQuotaManager::Scan, fsrmquota/IFsrmQuotaManagerEx::Scan
 ms.prod: windows-hardware
 ms.technology: windows-devices

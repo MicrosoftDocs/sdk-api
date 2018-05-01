@@ -7,7 +7,7 @@ old-location: ics\inetfwopenports_add.htm
 old-project: ICS
 ms.assetid: fd97333d-9bd5-4ab2-9189-75a7f7f52622
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: Add method [ICS/ICF], Add method [ICS/ICF], INetFwOpenPorts interface, Add,INetFwOpenPorts.Add, INetFwOpenPorts, INetFwOpenPorts interface [ICS/ICF], Add method, INetFwOpenPorts::Add, ics.inetfwopenports_add, netfw/INetFwOpenPorts::Add
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # INetFwOpenPorts::Add method

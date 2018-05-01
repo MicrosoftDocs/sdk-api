@@ -7,7 +7,7 @@ old-location: base\createprivatenamespace.htm
 old-project: Sync
 ms.assetid: bb6331b0-88cb-4695-b159-6e8750440a69
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: CreatePrivateNamespace, CreatePrivateNamespace function, CreatePrivateNamespaceA, CreatePrivateNamespaceW, base.createprivatenamespace, winbase/CreatePrivateNamespace, winbase/CreatePrivateNamespaceA, winbase/CreatePrivateNamespaceW
 ms.prod: windows-hardware
 ms.technology: windows-devices

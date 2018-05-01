@@ -7,7 +7,7 @@ old-location: dshow\icameracontrol_getrange_focus.htm
 old-project: DirectShow
 ms.assetid: f2da5473-82c3-4719-bba6-04a1793a98eb
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ICameraControl, ICameraControl interface [DirectShow], getRange_Focus method, ICameraControl::getRange_Focus, ICameraControlgetRange_Focus, dshow.icameracontrol_getrange_focus, getRange_Focus method [DirectShow], getRange_Focus method [DirectShow], ICameraControl interface, getRange_Focus,ICameraControl.getRange_Focus, vidcap/ICameraControl::getRange_Focus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: VIDEOHDR, *PVIDEOHDR, *LPVIDEOHDR
+req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3ddevice9__processvertices.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__processvertices.htm
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/10/2018
 ms.keywords: IDirect3DDevice9, IDirect3DDevice9 interface [Direct3D 9], ProcessVertices method, IDirect3DDevice9::ProcessVertices, ProcessVertices method [Direct3D 9], ProcessVertices method [Direct3D 9], IDirect3DDevice9 interface, ProcessVertices,IDirect3DDevice9.ProcessVertices, cf036375-2448-6e34-11ef-e3e3b96c951f, d3d9helper/IDirect3DDevice9::ProcessVertices, direct3d9.idirect3ddevice9__processvertices
 ms.prod: windows-hardware
 ms.technology: windows-devices

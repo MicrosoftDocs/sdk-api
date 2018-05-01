@@ -7,7 +7,7 @@ old-location: mediastreaming\idevicecontroller.htm
 old-project: mediastreaming
 ms.assetid: 18989598-86C5-4BD7-B8F4-27496897DFBA
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/10/2018
 ms.keywords: IDeviceController, IDeviceController interface [Media Streaming API], IDeviceController interface [Media Streaming API], described, mediastreaming.idevicecontroller, windows/IDeviceController
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: PDF_RENDER_PARAMS
+req.typenames: TimeSpan
 topic_type:
 -	APIRef
 -	kbSyntax

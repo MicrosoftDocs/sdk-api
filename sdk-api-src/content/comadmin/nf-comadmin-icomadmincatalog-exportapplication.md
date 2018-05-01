@@ -7,7 +7,7 @@ old-location: cos\icomadmincatalog_exportapplication.htm
 old-project: cossdk
 ms.assetid: 431c0299-56c2-4ec3-8ecc-ee1cbec3eff6
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: COMAdminExportApplicationProxy, COMAdminExportForceOverwriteOfFile, COMAdminExportIn10Format, COMAdminExportNoUsers, COMAdminExportUsers, ExportApplication method [COM+], ExportApplication method [COM+], ICOMAdminCatalog interface, ExportApplication,ICOMAdminCatalog.ExportApplication, ICOMAdminCatalog, ICOMAdminCatalog interface [COM+], ExportApplication method, ICOMAdminCatalog::ExportApplication, _cos_ICOMAdminCatalog_ExportApplication, comadmin/ICOMAdminCatalog::ExportApplication, cos.icomadmincatalog_exportapplication
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffectinputconnector_connectto.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectinputconnector\connectto.htm
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: ConnectTo method [WPF Bitmap Effects], ConnectTo method [WPF Bitmap Effects], IMILBitmapEffectInputConnector interface, ConnectTo,IMILBitmapEffectInputConnector.ConnectTo, IMILBitmapEffectInputConnector, IMILBitmapEffectInputConnector interface [WPF Bitmap Effects], ConnectTo method, IMILBitmapEffectInputConnector::ConnectTo, _wibe_imilbitmapeffectinputconnector_connectto, mileffects/IMILBitmapEffectInputConnector::ConnectTo, wibe._wibe_imilbitmapeffectinputconnector_connectto
 ms.prod: windows-hardware
 ms.technology: windows-devices

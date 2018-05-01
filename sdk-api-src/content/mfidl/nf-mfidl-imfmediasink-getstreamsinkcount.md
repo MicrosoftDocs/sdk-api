@@ -7,7 +7,7 @@ old-location: mf\imfmediasink_getstreamsinkcount.htm
 old-project: medfound
 ms.assetid: bf4b5713-586c-4b12-80a1-4452eec63e32
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetStreamSinkCount method [Media Foundation], GetStreamSinkCount method [Media Foundation], IMFMediaSink interface, GetStreamSinkCount,IMFMediaSink.GetStreamSinkCount, IMFMediaSink, IMFMediaSink interface [Media Foundation], GetStreamSinkCount method, IMFMediaSink::GetStreamSinkCount, bf4b5713-586c-4b12-80a1-4452eec63e32, mf.imfmediasink_getstreamsinkcount, mfidl/IMFMediaSink::GetStreamSinkCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

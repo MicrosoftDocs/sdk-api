@@ -7,7 +7,7 @@ old-location: mstv\iesisdbcasresponseevent_getdatalength.htm
 old-project: mstv
 ms.assetid: dc625c6f-84e8-4a82-b53c-717b33c10d04
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetDataLength method [DirectShow], GetDataLength method [DirectShow], IESIsdbCasResponseEvent interface, GetDataLength,IESIsdbCasResponseEvent.GetDataLength, IESIsdbCasResponseEvent, IESIsdbCasResponseEvent interface [DirectShow], GetDataLength method, IESIsdbCasResponseEvent::GetDataLength, mstv.iesisdbcasresponseevent_getdatalength, tuner/IESIsdbCasResponseEvent::GetDataLength
 ms.prod: windows-hardware
 ms.technology: windows-devices

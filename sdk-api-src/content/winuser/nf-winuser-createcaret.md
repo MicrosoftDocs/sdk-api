@@ -146,7 +146,7 @@ This API does not participate in DPI virtualization. The width and height parame
 
 
 
-<a href="https://msdn.microsoft.com/d063857b-6036-4e68-80af-9c70d12ae29e">GetSystemMetrics</a>
+<a href="base.getsystemmetrics">GetSystemMetrics</a>
 
 
 

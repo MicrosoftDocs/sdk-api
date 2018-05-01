@@ -7,7 +7,7 @@ old-location: shell\citemidfactory_createitemid.htm
 old-project: shell
 ms.assetid: 2129F4F3-A989-4CE2-ABFF-FE83DD78D4CE
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: CItemIDFactory, CItemIDFactory interface [Windows Shell], CreateItemID method, CItemIDFactory::CreateItemID, CreateItemID method [Windows Shell], CreateItemID method [Windows Shell], CItemIDFactory interface, CreateItemID,CItemIDFactory.CreateItemID, shell.citemidfactory_createitemid, shidfact/CItemIDFactory::CreateItemID
 ms.prod: windows-hardware
 ms.technology: windows-devices

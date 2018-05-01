@@ -7,7 +7,7 @@ old-location: wua\iinstallationcompletedcallback_invoke.htm
 old-project: Wua_Sdk
 ms.assetid: b7c413b2-b485-41a5-b2c9-5c3e9c10427c
 ms.author: windowsdriverdev
-ms.date: 3/15/2018
+ms.date: 4/18/2018
 ms.keywords: IInstallationCompletedCallback, IInstallationCompletedCallback interface [Windows Update Agent], Invoke method, IInstallationCompletedCallback::Invoke, Invoke method [Windows Update Agent], Invoke method [Windows Update Agent], IInstallationCompletedCallback interface, Invoke,IInstallationCompletedCallback.Invoke, wua.iinstallationcompletedcallback_invoke, wuapi/IInstallationCompletedCallback::Invoke
 ms.prod: windows-hardware
 ms.technology: windows-devices

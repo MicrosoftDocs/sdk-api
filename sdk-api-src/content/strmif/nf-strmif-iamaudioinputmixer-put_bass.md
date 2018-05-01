@@ -7,7 +7,7 @@ old-location: dshow\iamaudioinputmixer_put_bass.htm
 old-project: DirectShow
 ms.assetid: cf752767-826d-487d-ae05-9737765975c8
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMAudioInputMixer, IAMAudioInputMixer interface [DirectShow], put_Bass method, IAMAudioInputMixer::put_Bass, IAMAudioInputMixerput_Bass, dshow.iamaudioinputmixer_put_bass, put_Bass method [DirectShow], put_Bass method [DirectShow], IAMAudioInputMixer interface, put_Bass,IAMAudioInputMixer.put_Bass, strmif/IAMAudioInputMixer::put_Bass
 ms.prod: windows-hardware
 ms.technology: windows-devices

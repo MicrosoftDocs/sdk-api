@@ -7,7 +7,7 @@ old-location: iphlp\ip_adapter_addresses.htm
 old-project: IpHlp
 ms.assetid: a2df3749-6c75-40c0-8952-1656bbe639a6
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 4/13/2018
 ms.keywords: "*PIP_ADAPTER_ADDRESSES, *PIP_ADAPTER_ADDRESSES_LH, IF_TYPE_ATM, IF_TYPE_ETHERNET_CSMACD, IF_TYPE_IEEE1394, IF_TYPE_IEEE80211, IF_TYPE_ISO88025_TOKENRING, IF_TYPE_OTHER, IF_TYPE_PPP, IF_TYPE_SOFTWARE_LOOPBACK, IF_TYPE_TUNNEL, IP_ADAPTER_ADDRESSES, IP_ADAPTER_ADDRESSES structure [IP Helper], IP_ADAPTER_ADDRESSES_LH, IP_ADAPTER_ADDRESSES_XP, IP_ADAPTER_DDNS_ENABLED, IP_ADAPTER_DHCP_ENABLED, IP_ADAPTER_IPV4_ENABLED, IP_ADAPTER_IPV6_ENABLED, IP_ADAPTER_IPV6_MANAGE_ADDRESS_CONFIG, IP_ADAPTER_IPV6_OTHER_STATEFUL_CONFIG, IP_ADAPTER_NETBIOS_OVER_TCPIP_ENABLED, IP_ADAPTER_NO_MULTICAST, IP_ADAPTER_RECEIVE_ONLY, IP_ADAPTER_REGISTER_ADAPTER_SUFFIX, IfOperStatusDormant, IfOperStatusDown, IfOperStatusLowerLayerDown, IfOperStatusNotPresent, IfOperStatusTesting, IfOperStatusUnknown, IfOperStatusUp, NET_IF_CONNECTION_DEDICATED, NET_IF_CONNECTION_DEMAND, NET_IF_CONNECTION_MAXIMUM, NET_IF_CONNECTION_PASSIVE, PIP_ADAPTER_ADDRESSES, PIP_ADAPTER_ADDRESSES structure pointer [IP Helper], TUNNEL_TYPE_6TO4, TUNNEL_TYPE_DIRECT, TUNNEL_TYPE_IPHTTPS, TUNNEL_TYPE_ISATAP, TUNNEL_TYPE_NONE, TUNNEL_TYPE_OTHER, TUNNEL_TYPE_TEREDO, _IP_ADAPTER_ADDRESSES_LH, _iphlp_ip_adapter_addresses, iphlp.ip_adapter_addresses, iptypes/IP_ADAPTER_ADDRESSES, iptypes/PIP_ADAPTER_ADDRESSES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,13 +61,6 @@ The <b>IP_ADAPTER_ADDRESSES</b> structure is the
 
 
 
-### -field Next
-
-Type: <b>struct _IP_ADAPTER_ADDRESSES*</b>
-
-A pointer to the next adapter addresses structure in the list.
-
-
 ### -field Length
 
 Type: <b>ULONG</b>
@@ -85,54 +78,11 @@ The index of the IPv4 interface with which these addresses are associated. On Wi
         not available on the interface.
 
 
-### -field DdnsEnabled
+### -field Next
 
- 
+Type: <b>struct _IP_ADAPTER_ADDRESSES*</b>
 
-
-### -field RegisterAdapterSuffix
-
- 
-
-
-### -field Dhcpv4Enabled
-
- 
-
-
-### -field ReceiveOnly
-
- 
-
-
-### -field NoMulticast
-
- 
-
-
-### -field Ipv6OtherStatefulConfig
-
- 
-
-
-### -field NetbiosOverTcpipEnabled
-
- 
-
-
-### -field Ipv4Enabled
-
- 
-
-
-### -field Ipv6Enabled
-
- 
-
-
-### -field Ipv6ManagedAddressConfigurationSupported
-
- 
+A pointer to the next adapter addresses structure in the list.
 
 
 ### -field AdapterName
@@ -223,6 +173,56 @@ Type: <b>DWORD</b>
 
 The length, in bytes, of the address specified in the <b>PhysicalAddress</b> member. 
       For interfaces that do not have a data-link layer, this value is zero.
+
+
+### -field DdnsEnabled
+
+ 
+
+
+### -field RegisterAdapterSuffix
+
+ 
+
+
+### -field Dhcpv4Enabled
+
+ 
+
+
+### -field ReceiveOnly
+
+ 
+
+
+### -field NoMulticast
+
+ 
+
+
+### -field Ipv6OtherStatefulConfig
+
+ 
+
+
+### -field NetbiosOverTcpipEnabled
+
+ 
+
+
+### -field Ipv4Enabled
+
+ 
+
+
+### -field Ipv6Enabled
+
+ 
+
+
+### -field Ipv6ManagedAddressConfigurationSupported
+
+ 
 
 
 ### -field Mtu

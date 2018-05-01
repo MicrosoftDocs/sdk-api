@@ -7,7 +7,7 @@ old-location: mf\imfmediasourceextension_getactivesourcebuffers.htm
 old-project: medfound
 ms.assetid: 9d4a70cf-7436-4f4a-9a7c-9127e3829ba8
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetActiveSourceBuffers method [Media Foundation], GetActiveSourceBuffers method [Media Foundation], IMFMediaSourceExtension interface, GetActiveSourceBuffers,IMFMediaSourceExtension.GetActiveSourceBuffers, IMFMediaSourceExtension, IMFMediaSourceExtension interface [Media Foundation], GetActiveSourceBuffers method, IMFMediaSourceExtension::GetActiveSourceBuffers, mf.imfmediasourceextension_getactivesourcebuffers, mfmediaengine/IMFMediaSourceExtension::GetActiveSourceBuffers
 ms.prod: windows-hardware
 ms.technology: windows-devices

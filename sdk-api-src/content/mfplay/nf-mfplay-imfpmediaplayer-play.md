@@ -7,7 +7,7 @@ old-location: mf\imfpmediaplayer_play.htm
 old-project: medfound
 ms.assetid: 24d6e8a0-d910-46f9-8172-dfcb68c4f364
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFPMediaPlayer, IMFPMediaPlayer interface [Media Foundation], Play method, IMFPMediaPlayer::Play, Play method [Media Foundation], Play method [Media Foundation], IMFPMediaPlayer interface, Play,IMFPMediaPlayer.Play, mf.imfpmediaplayer_play, mfplay/IMFPMediaPlayer::Play
 ms.prod: windows-hardware
 ms.technology: windows-devices

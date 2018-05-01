@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol2_stop.htm
 old-project: DirectShow
 ms.assetid: 9c1ebe2b-c40a-410f-a4a5-ad79350a27dd
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IDvdControl2, IDvdControl2 interface [DirectShow], Stop method, IDvdControl2::Stop, IDvdControl2Stop, Stop method [DirectShow], Stop method [DirectShow], IDvdControl2 interface, Stop,IDvdControl2.Stop, dshow.idvdcontrol2_stop, strmif/IDvdControl2::Stop
 ms.prod: windows-hardware
 ms.technology: windows-devices

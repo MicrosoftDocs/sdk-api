@@ -7,7 +7,7 @@ old-location: appxpkg\iappxfactory2_createcontentgroupmapwriter.htm
 old-project: appxpkg
 ms.assetid: 4BFF656D-4B89-4D05-9A41-44400F75E8BC
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/26/2018
 ms.keywords: CreateContentGroupMapWriter method [App packaging and management], CreateContentGroupMapWriter method [App packaging and management], IAppxFactory2 interface, CreateContentGroupMapWriter,IAppxFactory2.CreateContentGroupMapWriter, IAppxFactory2, IAppxFactory2 interface [App packaging and management], CreateContentGroupMapWriter method, IAppxFactory2::CreateContentGroupMapWriter, appxpackaging/IAppxFactory2::CreateContentGroupMapWriter, appxpkg.iappxfactory2_createcontentgroupmapwriter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_ARCHITECTURE2
+req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
 topic_type:
 -	APIRef
 -	kbSyntax

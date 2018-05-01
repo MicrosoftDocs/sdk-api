@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol2_selectdefaultsubpicturelanguage.htm
 old-project: DirectShow
 ms.assetid: f49698cd-cc83-4f05-991d-2b3bba77c33a
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IDvdControl2, IDvdControl2 interface [DirectShow], SelectDefaultSubpictureLanguage method, IDvdControl2::SelectDefaultSubpictureLanguage, IDvdControl2SelectDefaultSubpictureLanguage, SelectDefaultSubpictureLanguage method [DirectShow], SelectDefaultSubpictureLanguage method [DirectShow], IDvdControl2 interface, SelectDefaultSubpictureLanguage,IDvdControl2.SelectDefaultSubpictureLanguage, dshow.idvdcontrol2_selectdefaultsubpicturelanguage, strmif/IDvdControl2::SelectDefaultSubpictureLanguage
 ms.prod: windows-hardware
 ms.technology: windows-devices

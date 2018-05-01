@@ -7,7 +7,7 @@ old-location: automat\irecordinfo_gettypeinfo.htm
 old-project: automat
 ms.assetid: c8c05c4a-000a-4e48-aace-ff9f9292e3ea
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: GetTypeInfo method [Automation], GetTypeInfo method [Automation], IRecordInfo interface, GetTypeInfo,IRecordInfo.GetTypeInfo, IRecordInfo, IRecordInfo interface [Automation], GetTypeInfo method, IRecordInfo::GetTypeInfo, _oa96_IRecordInfo_GetTypeInfo, automat.irecordinfo_gettypeinfo, oaidl/IRecordInfo::GetTypeInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IRecordInfo::GetTypeInfo method

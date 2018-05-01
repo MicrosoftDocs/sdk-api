@@ -7,7 +7,7 @@ old-location: winrt\ireferencetrackertarget_unpeg.htm
 old-project: WinRT
 ms.assetid: c070957f-3bf8-4e72-ad56-e9cb023692c6
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/24/2018
 ms.keywords: IReferenceTrackerTarget, IReferenceTrackerTarget interface [Windows Runtime], Unpeg method, IReferenceTrackerTarget::Unpeg, Unpeg method [Windows Runtime], Unpeg method [Windows Runtime], IReferenceTrackerTarget interface, Unpeg,IReferenceTrackerTarget.Unpeg, windows/IReferenceTrackerTarget::Unpeg, winrt.ireferencetrackertarget_unpeg
 ms.prod: windows-hardware
 ms.technology: windows-devices

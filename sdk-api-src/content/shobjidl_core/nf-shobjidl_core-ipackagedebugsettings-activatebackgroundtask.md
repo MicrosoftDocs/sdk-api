@@ -7,7 +7,7 @@ old-location: winrt\ipackagedebugsettings_activatebackgroundtask.htm
 old-project: WinRT
 ms.assetid: 5ACDAB41-5904-409B-86B2-96865B761868
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/24/2018
 ms.keywords: ActivateBackgroundTask method [Windows Runtime], ActivateBackgroundTask method [Windows Runtime], IPackageDebugSettings interface, ActivateBackgroundTask,IPackageDebugSettings.ActivateBackgroundTask, IPackageDebugSettings, IPackageDebugSettings interface [Windows Runtime], ActivateBackgroundTask method, IPackageDebugSettings::ActivateBackgroundTask, shobjidl_core/IPackageDebugSettings::ActivateBackgroundTask, winrt.ipackagedebugsettings_activatebackgroundtask
 ms.prod: windows-hardware
 ms.technology: windows-devices

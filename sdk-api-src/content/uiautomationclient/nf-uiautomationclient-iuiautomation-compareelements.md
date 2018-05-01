@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomation_CompareElements.htm
 old-project: WinAuto
 ms.assetid: e4daa3c3-24fb-41df-a1b1-bd6545a47e51
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: CompareElements method [Windows Accessibility], CompareElements method [Windows Accessibility], IUIAutomation interface, CompareElements,IUIAutomation.CompareElements, IUIAutomation, IUIAutomation interface [Windows Accessibility], CompareElements method, IUIAutomation::CompareElements, uiauto.uiauto_IUIAutomation_CompareElements, uiauto_IUIAutomation_CompareElements, uiautomationclient/IUIAutomation::CompareElements, winauto.uiauto_IUIAutomation_CompareElements
 ms.prod: windows-hardware
 ms.technology: windows-devices

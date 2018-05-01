@@ -7,7 +7,7 @@ old-location: security\cryptcatadminenumcatalogfromhash.htm
 old-project: SecCrypto
 ms.assetid: 33ab2d01-94ab-4d23-a054-9da0731485d6
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: CryptCATAdminEnumCatalogFromHash, CryptCATAdminEnumCatalogFromHash function [Security], mscat/CryptCATAdminEnumCatalogFromHash, security.cryptcatadminenumcatalogfromhash
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: ACMSTREAMHEADER, *PACMSTREAMHEADER, *LPACMSTREAMHEADER
+req.typenames: KSP_PINMODE, *PKSP_PINMODE
 topic_type:
 -	APIRef
 -	kbSyntax

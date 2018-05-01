@@ -7,7 +7,7 @@ old-location: mstv\iscte_eas_gettabledescriptorbytag.htm
 old-project: mstv
 ms.assetid: 91e0aad8-31d9-44d1-9bda-7f0134f5457b
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetTableDescriptorByTag method [Microsoft TV Technologies], GetTableDescriptorByTag method [Microsoft TV Technologies], ISCTE_EAS interface, GetTableDescriptorByTag,ISCTE_EAS.GetTableDescriptorByTag, ISCTE_EAS, ISCTE_EAS interface [Microsoft TV Technologies], GetTableDescriptorByTag method, ISCTE_EAS::GetTableDescriptorByTag, ISCTE_EASGetTableDescriptorByTag, atscpsipparser/ISCTE_EAS::GetTableDescriptorByTag, mstv.iscte_eas_gettabledescriptorbytag
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_WRITER_PAYLOAD_STREAM
+req.typenames: AsyncStatus
 topic_type:
 -	APIRef
 -	kbSyntax

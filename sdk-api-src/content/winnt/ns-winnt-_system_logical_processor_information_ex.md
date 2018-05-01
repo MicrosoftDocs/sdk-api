@@ -7,7 +7,7 @@ old-location: base\system_logical_processor_information_ex.htm
 old-project: ProcThread
 ms.assetid: 6ff16cda-c1dc-4d5c-ac60-756653cd6b07
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: "*PSYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX, PSYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX, PSYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX structure pointer, RelationCache, RelationGroup, RelationNumaNode, RelationProcessorCore, RelationProcessorPackage, SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX, SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX structure, _SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX, base.system_logical_processor_information_ex, winnt/PSYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX, winnt/SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -56,11 +56,6 @@ Contains information about the relationships of logical processors and related h
 ## -struct-fields
 
 
-
-
-### -field DUMMYUNIONNAME
-
- 
 
 
 ### -field Relationship
@@ -134,6 +129,13 @@ The specified logical processors share a physical package. The <b>Processor</b> 
 ### -field Size
 
 The size of the structure.
+
+
+### -field DUMMYUNIONNAME
+
+ 
+
+
 
 
 #### - Cache

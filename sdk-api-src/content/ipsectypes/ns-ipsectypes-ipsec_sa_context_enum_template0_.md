@@ -7,7 +7,7 @@ old-location: fwp\ipsec_sa_context_enum_template0.htm
 old-project: FWP
 ms.assetid: 2e099545-4075-4ea0-9035-53ce334decc4
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: IPSEC_SA_CONTEXT_ENUM_TEMPLATE0, IPSEC_SA_CONTEXT_ENUM_TEMPLATE0 structure [Filtering], IPSEC_SA_CONTEXT_ENUM_TEMPLATE0_, fwp.ipsec_sa_context_enum_template0, ipsectypes/IPSEC_SA_CONTEXT_ENUM_TEMPLATE0
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tapi3\qos_event.htm
 old-project: Tapi
 ms.assetid: 8bf4bfdc-6327-497d-9d19-4771d47982bb
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: QE_ADMISSIONFAILURE, QE_GENERICERROR, QE_NOQOS, QE_POLICYFAILURE, QOS_EVENT, QOS_EVENT enumeration [TAPI 2.2], _tapi3_qos_event, tapi3.qos_event, tapi3if/QE_ADMISSIONFAILURE, tapi3if/QE_GENERICERROR, tapi3if/QE_NOQOS, tapi3if/QE_POLICYFAILURE, tapi3if/QOS_EVENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,8 +38,8 @@ api_name:
 -	QOS_EVENT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
 req.irql: 
 req.product: Windows XP with SP1 and later
 ---

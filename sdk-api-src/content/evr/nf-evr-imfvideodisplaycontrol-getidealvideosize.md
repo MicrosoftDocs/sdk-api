@@ -7,7 +7,7 @@ old-location: mf\imfvideodisplaycontrol_getidealvideosize.htm
 old-project: medfound
 ms.assetid: c580778b-fe7c-4c62-9bcd-8a5fde370b9d
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetIdealVideoSize method [Media Foundation], GetIdealVideoSize method [Media Foundation], IMFVideoDisplayControl interface, GetIdealVideoSize,IMFVideoDisplayControl.GetIdealVideoSize, IMFVideoDisplayControl, IMFVideoDisplayControl interface [Media Foundation], GetIdealVideoSize method, IMFVideoDisplayControl::GetIdealVideoSize, c580778b-fe7c-4c62-9bcd-8a5fde370b9d, evr/IMFVideoDisplayControl::GetIdealVideoSize, mf.imfvideodisplaycontrol_getidealvideosize
 ms.prod: windows-hardware
 ms.technology: windows-devices

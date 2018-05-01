@@ -7,7 +7,7 @@ old-location: mf\pdxvahdsw_getvideoprocessorcustomrates.htm
 old-project: medfound
 ms.assetid: 0b633dcc-c6eb-47e5-b43b-b2a6cb66abf6
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: PDXVAHDSW_GetVideoProcessorCustomRates, PDXVAHDSW_GetVideoProcessorCustomRates function pointer [Media Foundation], dxvahd/PDXVAHDSW_GetVideoProcessorCustomRates, mf.pdxvahdsw_getvideoprocessorcustomrates
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: DXVA2_VideoSample
+req.typenames: DXVA_COPPStatusSignalingCmdData
 topic_type:
 -	APIRef
 -	kbSyntax

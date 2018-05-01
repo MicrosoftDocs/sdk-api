@@ -7,7 +7,7 @@ old-location: security\ienroll4_getprovidertypewstr.htm
 old-project: SecCrypto
 ms.assetid: 64d0d96a-b9d4-4b66-8329-2dfc03ba9ce5
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: IEnroll4, IEnroll4 interface [Security], getProviderTypeWStr method, IEnroll4::getProviderTypeWStr, getProviderTypeWStr method [Security], getProviderTypeWStr method [Security], IEnroll4 interface, getProviderTypeWStr,IEnroll4.getProviderTypeWStr, security.ienroll4_getprovidertypewstr, xenroll/IEnroll4::getProviderTypeWStr
 ms.prod: windows-hardware
 ms.technology: windows-devices

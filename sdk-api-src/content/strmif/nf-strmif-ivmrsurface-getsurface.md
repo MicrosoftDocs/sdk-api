@@ -7,7 +7,7 @@ old-location: dshow\ivmrsurface_getsurface.htm
 old-project: DirectShow
 ms.assetid: 2fba7818-6395-47d3-98b3-347f1d4a7c6f
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetSurface method [DirectShow], GetSurface method [DirectShow], IVMRSurface interface, GetSurface,IVMRSurface.GetSurface, IVMRSurface, IVMRSurface interface [DirectShow], GetSurface method, IVMRSurface::GetSurface, IVMRSurfaceGetSurface, dshow.ivmrsurface_getsurface, strmif/IVMRSurface::GetSurface
 ms.prod: windows-hardware
 ms.technology: windows-devices

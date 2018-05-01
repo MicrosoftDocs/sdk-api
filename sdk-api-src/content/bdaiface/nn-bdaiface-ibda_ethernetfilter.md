@@ -7,7 +7,7 @@ old-location: mstv\ibda_ethernetfilter.htm
 old-project: mstv
 ms.assetid: f4f9d6c0-0acf-416b-adb3-643ac0167d0a
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IBDA_EthernetFilter, IBDA_EthernetFilter interface [Microsoft TV Technologies], IBDA_EthernetFilter interface [Microsoft TV Technologies], described, IBDA_EthernetFilterInterface, bdaiface/IBDA_EthernetFilter, mstv.ibda_ethernetfilter
 ms.prod: windows-hardware
 ms.technology: windows-devices

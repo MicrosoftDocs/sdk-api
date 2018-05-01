@@ -7,7 +7,7 @@ old-location: cos\applicationsummary.htm
 old-project: cossdk
 ms.assetid: 3291eede-5318-4d97-a969-ce54381f30af
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: ApplicationSummary, ApplicationSummary structure [COM+], _ApplicationSummary, comsvcs/ApplicationSummary, cos.applicationsummary
 ms.prod: windows-hardware
 ms.technology: windows-devices

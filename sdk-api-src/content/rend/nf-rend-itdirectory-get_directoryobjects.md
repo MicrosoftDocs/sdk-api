@@ -7,7 +7,7 @@ old-location: tapi3\itdirectory_get_directoryobjects.htm
 old-project: Tapi
 ms.assetid: dd768103-4dfc-4be2-accf-38e33959102d
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: ITDirectory, ITDirectory interface [TAPI 2.2], get_DirectoryObjects method, ITDirectory::get_DirectoryObjects, _tapi3_itdirectory_get_directoryobjects, get_DirectoryObjects method [TAPI 2.2], get_DirectoryObjects method [TAPI 2.2], ITDirectory interface, get_DirectoryObjects,ITDirectory.get_DirectoryObjects, rend/ITDirectory::get_DirectoryObjects, tapi3.itdirectory_get_directoryobjects
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Rend.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITDirectory::get_DirectoryObjects method

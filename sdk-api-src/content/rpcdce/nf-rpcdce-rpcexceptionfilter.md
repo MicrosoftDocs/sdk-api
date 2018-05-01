@@ -7,7 +7,7 @@ old-location: rpc\rpcexceptionfilter.htm
 old-project: Rpc
 ms.assetid: AB1AE035-5874-4415-8B85-BDC0E2139416
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: RpcExceptionFilter, RpcExceptionFilter function [RPC], STATUS_ACCESS_VIOLATION, STATUS_ASSERTION_FAILURE, STATUS_BREAKPOINT, STATUS_DATATYPE_MISALIGNMENT, STATUS_GUARD_PAGE_VIOLATION, STATUS_HANDLE_NOT_CLOSABLE, STATUS_ILLEGAL_INSTRUCTION, STATUS_INSTRUCTION_MISALIGNMENT, STATUS_IN_PAGE_ERROR, STATUS_POSSIBLE_DEADLOCK, STATUS_PRIVILEGED_INSTRUCTION, STATUS_REG_NAT_CONSUMPTION, STATUS_STACK_BUFFER_OVERRUN, STATUS_STACK_OVERFLOW, rpc.rpcexceptionfilter, rpcdce/RpcExceptionFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # RpcExceptionFilter function

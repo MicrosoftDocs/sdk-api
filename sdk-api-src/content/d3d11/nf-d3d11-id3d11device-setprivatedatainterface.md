@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11device_setprivatedatainterface.htm
 old-project: direct3d11
 ms.assetid: 65b4461d-bfbb-4de1-84f8-6294fde12980
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/6/2018
 ms.keywords: ID3D11Device, ID3D11Device interface [Direct3D 11], SetPrivateDataInterface method, ID3D11Device::SetPrivateDataInterface, SetPrivateDataInterface method [Direct3D 11], SetPrivateDataInterface method [Direct3D 11], ID3D11Device interface, SetPrivateDataInterface,ID3D11Device.SetPrivateDataInterface, c27aaa23-b80d-2dcf-0f00-1b62c5fb3acb, d3d11/ID3D11Device::SetPrivateDataInterface, direct3d11.id3d11device_setprivatedatainterface
 ms.prod: windows-hardware
 ms.technology: windows-devices

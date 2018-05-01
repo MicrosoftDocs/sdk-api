@@ -7,7 +7,7 @@ old-location: mstv\idvbdatabroadcastiddescriptor_gettag.htm
 old-project: mstv
 ms.assetid: 7c3c13f0-03b0-47fe-bd87-5bb6d32ef838
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies], IDvbDataBroadcastIDDescriptor interface, GetTag,IDvbDataBroadcastIDDescriptor.GetTag, IDvbDataBroadcastIDDescriptor, IDvbDataBroadcastIDDescriptor interface [Microsoft TV Technologies], GetTag method, IDvbDataBroadcastIDDescriptor::GetTag, dvbsiparser/IDvbDataBroadcastIDDescriptor::GetTag, mstv.idvbdatabroadcastiddescriptor_gettag
 ms.prod: windows-hardware
 ms.technology: windows-devices

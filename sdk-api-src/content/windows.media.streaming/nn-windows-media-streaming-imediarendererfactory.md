@@ -7,7 +7,7 @@ old-location: mediastreaming\imediarendererfactory.htm
 old-project: mediastreaming
 ms.assetid: E07EC208-CF00-46D0-B00D-AA8E59F12A0A
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/10/2018
 ms.keywords: IMediaRendererFactory, IMediaRendererFactory interface [Media Streaming API], IMediaRendererFactory interface [Media Streaming API], described, mediastreaming.imediarendererfactory, windows/IMediaRendererFactory
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: PDF_RENDER_PARAMS
+req.typenames: TimeSpan
 topic_type:
 -	APIRef
 -	kbSyntax

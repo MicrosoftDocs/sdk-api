@@ -7,7 +7,7 @@ old-location: upnp\iupnpservice_querystatevariable.htm
 old-project: UPnP
 ms.assetid: d92785a2-e04c-4968-b515-019205180915
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/25/2018
 ms.keywords: IUPnPService, IUPnPService interface [UPnP APIs], QueryStateVariable method, IUPnPService::QueryStateVariable, QueryStateVariable method [UPnP APIs], QueryStateVariable method [UPnP APIs], IUPnPService interface, QueryStateVariable,IUPnPService.QueryStateVariable, _upnp_iupnpservice_querystatevariable, upnp.iupnpservice_querystatevariable, upnp/IUPnPService::QueryStateVariable
 ms.prod: windows-hardware
 ms.technology: windows-devices

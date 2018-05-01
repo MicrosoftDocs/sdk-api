@@ -7,7 +7,7 @@ old-location: shell\Int8ToULong.htm
 old-project: shell
 ms.assetid: ce862097-24e5-403f-adef-6ec2816ee3db
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: Int8ToULong, Int8ToULong function [Windows Shell], intsafe/Int8ToULong, shell.Int8ToULong
 ms.prod: windows-hardware
 ms.technology: windows-devices

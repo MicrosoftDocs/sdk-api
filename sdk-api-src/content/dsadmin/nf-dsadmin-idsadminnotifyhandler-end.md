@@ -7,7 +7,7 @@ old-location: ad\idsadminnotifyhandler_end.htm
 old-project: AD
 ms.assetid: 6ff92b54-fa2c-4f45-8f40-e9c884e9cf7e
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/20/2018
 ms.keywords: End method [Active Directory], End method [Active Directory], IDsAdminNotifyHandler interface, End,IDsAdminNotifyHandler.End, IDsAdminNotifyHandler, IDsAdminNotifyHandler interface [Active Directory], End method, IDsAdminNotifyHandler::End, _glines_idsadminnotifyhandler_end, ad.idsadminnotifyhandler__end, ad.idsadminnotifyhandler_end, dsadmin/IDsAdminNotifyHandler::End
 ms.prod: windows-hardware
 ms.technology: windows-devices

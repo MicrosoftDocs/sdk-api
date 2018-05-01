@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmfilemanagementjob_createnotificationaction.htm
 old-project: Fsrm
 ms.assetid: d0cb2ac1-842c-4ebb-adac-8298a0e0beed
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: CreateNotificationAction method [File Server Resource Manager], CreateNotificationAction method [File Server Resource Manager], IFsrmFileManagementJob interface, CreateNotificationAction,IFsrmFileManagementJob.CreateNotificationAction, FsrmActionType_Command, FsrmActionType_Email, FsrmActionType_EventLog, IFsrmFileManagementJob, IFsrmFileManagementJob interface [File Server Resource Manager], CreateNotificationAction method, IFsrmFileManagementJob::CreateNotificationAction, fs.ifsrmfilemanagementjob_createnotificationaction, fsrm.ifsrmfilemanagementjob_createnotificationaction, fsrmreports/IFsrmFileManagementJob::CreateNotificationAction
 ms.prod: windows-hardware
 ms.technology: windows-devices

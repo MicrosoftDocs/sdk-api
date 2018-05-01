@@ -7,7 +7,7 @@ old-location: wmformat\iwmcredentialcallback_acquirecredentials.htm
 old-project: wmformat
 ms.assetid: 5dce8281-b5d3-42cd-93f6-d76af0050a89
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: AcquireCredentials method [windows Media Format], AcquireCredentials method [windows Media Format], IWMCredentialCallback interface, AcquireCredentials,IWMCredentialCallback.AcquireCredentials, IWMCredentialCallback, IWMCredentialCallback interface [windows Media Format], AcquireCredentials method, IWMCredentialCallback::AcquireCredentials, IWMCredentialCallbackAcquireCredentials, wmformat.iwmcredentialcallback_acquirecredentials, wmsdkidl/IWMCredentialCallback::AcquireCredentials
 ms.prod: windows-hardware
 ms.technology: windows-devices

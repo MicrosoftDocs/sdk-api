@@ -7,7 +7,7 @@ old-location: secbiomet\winbiocancel.htm
 old-project: SecBioMet
 ms.assetid: 62176608-1545-47d2-b4be-37bb2a4a064b
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: WinBioCancel, WinBioCancel function [Windows Biometric Framework API], secbiomet.winbiocancel, winbio/WinBioCancel
 ms.prod: windows-hardware
 ms.technology: windows-devices

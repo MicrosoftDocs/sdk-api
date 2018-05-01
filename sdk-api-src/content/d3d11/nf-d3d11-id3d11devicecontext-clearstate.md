@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext_clearstate.htm
 old-project: direct3d11
 ms.assetid: dabf52f5-0f69-4017-863c-9e3ecef4d5dc
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/6/2018
 ms.keywords: ClearState method [Direct3D 11], ClearState method [Direct3D 11], ID3D11DeviceContext interface, ClearState,ID3D11DeviceContext.ClearState, ID3D11DeviceContext, ID3D11DeviceContext interface [Direct3D 11], ClearState method, ID3D11DeviceContext::ClearState, b3d84ab3-64bc-1c6c-0a7d-5e4409b47dec, d3d11/ID3D11DeviceContext::ClearState, direct3d11.id3d11devicecontext_clearstate
 ms.prod: windows-hardware
 ms.technology: windows-devices

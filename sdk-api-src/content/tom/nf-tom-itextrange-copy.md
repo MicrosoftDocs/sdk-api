@@ -7,7 +7,7 @@ old-location: controls\ITextRange_Copy.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\copy.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: Copy method [Windows Controls], Copy method [Windows Controls], ITextRange interface, Copy,ITextRange.Copy, ITextRange, ITextRange interface [Windows Controls], Copy method, ITextRange::Copy, _win32_ITextRange_Copy, _win32_ITextRange_Copy_cpp, controls.ITextRange_Copy, controls._win32_ITextRange_Copy, tom/ITextRange::Copy
 ms.prod: windows-hardware
 ms.technology: windows-devices

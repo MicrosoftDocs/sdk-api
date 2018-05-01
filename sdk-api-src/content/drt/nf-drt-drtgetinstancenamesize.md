@@ -7,7 +7,7 @@ old-location: p2p\drtgetinstancenamesize.htm
 old-project: P2PSdk
 ms.assetid: b600ee27-bcea-4496-888f-1300f74d41e4
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/23/2018
 ms.keywords: DrtGetInstanceNameSize, DrtGetInstanceNameSize function [Peer Networking], drt/DrtGetInstanceNameSize, p2p.drtgetinstancenamesize
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\ums_system_thread_information.htm
 old-project: ProcThread
 ms.assetid: eecdc592-5046-47c3-a4c6-ecb10899db3c
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: "*PUMS_SYSTEM_THREAD_INFORMATION, PUMS_SYSTEM_THREAD_INFORMATION, PUMS_SYSTEM_THREAD_INFORMATION structure pointer, UMS_SYSTEM_THREAD_INFORMATION, UMS_SYSTEM_THREAD_INFORMATION structure, _UMS_SYSTEM_THREAD_INFORMATION, base.ums_system_thread_information, winbase/PUMS_SYSTEM_THREAD_INFORMATION, winbase/UMS_SYSTEM_THREAD_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,6 +58,11 @@ Specifies a UMS scheduler thread, UMS worker thread, or non-UMS thread. The <a h
 
 
 
+### -field UmsVersion
+
+The UMS version. This member must be UMS_VERSION.
+
+
 ### -field DUMMYUNIONNAME
 
  
@@ -76,11 +81,6 @@ A bitfield that specifies a UMS scheduler thread. If <b>IsUmsSchedulerThread</b>
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.IsUmsWorkerThread
 
 A bitfield that specifies a UMS worker thread. If <b>IsUmsWorkerThread</b>  is set, <b>IsUmsSchedulerThread</b> must be clear. 
-
-
-### -field UmsVersion
-
-The UMS version. This member must be UMS_VERSION.
 
 
 ## -remarks

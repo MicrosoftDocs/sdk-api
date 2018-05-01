@@ -7,7 +7,7 @@ old-location: wmi\cinstance_setcharsplat.htm
 old-project: WmiSdk
 ms.assetid: 7f59a2ea-3513-4a14-ac1a-62ed833d7192
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: CInstance, CInstance::SetCharSplat, CInstance::SetCharSplat methods [Windows Management Instrumentation], SetCharSplat,CInstance.SetCharSplat, instance/CInstance::SetCharSplat, wmi.cinstance_setcharsplat
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: InputScope
+req.typenames: TrustLevel
 topic_type:
 -	APIRef
 -	kbSyntax

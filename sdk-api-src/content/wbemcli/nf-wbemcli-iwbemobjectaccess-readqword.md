@@ -7,7 +7,7 @@ old-location: wmi\iwbemobjectaccess_readqword.htm
 old-project: WmiSdk
 ms.assetid: cb76eb26-e407-411a-9ccb-a03eaa8bf22e
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: IWbemObjectAccess, IWbemObjectAccess interface [Windows Management Instrumentation], ReadQWORD method, IWbemObjectAccess::ReadQWORD, ReadQWORD method [Windows Management Instrumentation], ReadQWORD method [Windows Management Instrumentation], IWbemObjectAccess interface, ReadQWORD,IWbemObjectAccess.ReadQWORD, _hmm_iwbemobjectaccess_readqword, wbemcli/IWbemObjectAccess::ReadQWORD, wmi.iwbemobjectaccess_readqword
 ms.prod: windows-hardware
 ms.technology: windows-devices

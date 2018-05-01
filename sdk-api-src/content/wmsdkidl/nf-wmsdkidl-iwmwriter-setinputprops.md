@@ -7,7 +7,7 @@ old-location: wmformat\iwmwriter_setinputprops.htm
 old-project: wmformat
 ms.assetid: 15084a4d-06e8-4f74-9697-ced794d2cdae
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMWriter, IWMWriter interface [windows Media Format], SetInputProps method, IWMWriter::SetInputProps, IWMWriterSetInputProps, SetInputProps method [windows Media Format], SetInputProps method [windows Media Format], IWMWriter interface, SetInputProps,IWMWriter.SetInputProps, wmformat.iwmwriter_setinputprops, wmsdkidl/IWMWriter::SetInputProps
 ms.prod: windows-hardware
 ms.technology: windows-devices

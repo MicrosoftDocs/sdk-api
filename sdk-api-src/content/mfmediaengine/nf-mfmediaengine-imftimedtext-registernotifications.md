@@ -7,7 +7,7 @@ old-location: mf\imftimedtext_registernotifications.htm
 old-project: medfound
 ms.assetid: 0C43CD34-22A2-440A-97D5-682D979B52A9
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFTimedText, IMFTimedText interface [Media Foundation], RegisterNotifications method, IMFTimedText::RegisterNotifications, RegisterNotifications method [Media Foundation], RegisterNotifications method [Media Foundation], IMFTimedText interface, RegisterNotifications,IMFTimedText.RegisterNotifications, mf.imftimedtext_registernotifications, mfmediaengine/IMFTimedText::RegisterNotifications
 ms.prod: windows-hardware
 ms.technology: windows-devices

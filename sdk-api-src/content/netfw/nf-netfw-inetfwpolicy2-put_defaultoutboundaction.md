@@ -7,7 +7,7 @@ old-location: ics\inetfwpolicy2_defaultoutboundaction.htm
 old-project: ICS
 ms.assetid: 428f8f74-b2b3-4441-accf-be0b877e7c8b
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: DefaultOutboundAction property [ICS/ICF], DefaultOutboundAction property [ICS/ICF], INetFwPolicy2 interface, INetFwPolicy2, INetFwPolicy2 interface [ICS/ICF], DefaultOutboundAction property, INetFwPolicy2.DefaultOutboundAction, INetFwPolicy2::get_DefaultOutboundAction, INetFwPolicy2::put_DefaultOutboundAction, ics.inetfwpolicy2_defaultoutboundaction, netfw/INetFwPolicy2::DefaultOutboundAction, netfw/INetFwPolicy2::get_DefaultOutboundAction, netfw/INetFwPolicy2::put_DefaultOutboundAction, put_DefaultOutboundAction,INetFwPolicy2.put_DefaultOutboundAction
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: 
 req.dll: FirewallAPI.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # INetFwPolicy2::put_DefaultOutboundAction method

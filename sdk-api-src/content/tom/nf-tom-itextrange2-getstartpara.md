@@ -7,7 +7,7 @@ old-location: controls\itextrange2_getstartpara.htm
 old-project: Controls
 ms.assetid: c6a59ffd-0271-4c2a-9a9e-f31287b47ce9
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: GetStartPara method [Windows Controls], GetStartPara method [Windows Controls], ITextRange2 interface, GetStartPara,ITextRange2.GetStartPara, ITextRange2, ITextRange2 interface [Windows Controls], GetStartPara method, ITextRange2::GetStartPara, controls.itextrange2_getstartpara, tom/ITextRange2::GetStartPara
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tablet\iinkcustomstrokes_add.htm
 old-project: tablet
 ms.assetid: 482906b2-131e-4baa-8ed7-c11f79f05e4b
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: 482906b2-131e-4baa-8ed7-c11f79f05e4b, Add method [Tablet PC], Add method [Tablet PC], IInkCustomStrokes interface, Add,IInkCustomStrokes.Add, IInkCustomStrokes, IInkCustomStrokes interface [Tablet PC], Add method, IInkCustomStrokes::Add, msinkaut/IInkCustomStrokes::Add, tablet.iinkcustomstrokes_add
 ms.prod: windows-hardware
 ms.technology: windows-devices

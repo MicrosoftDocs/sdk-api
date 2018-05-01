@@ -7,7 +7,7 @@ old-location: shell\DiskQuotaControl_InvalidateSidNameCache.htm
 old-project: shell
 ms.assetid: 52f4a051-0caf-43c1-b190-c83c20e9fcf8
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: DiskQuotaControl object [Windows Shell], InvalidateSidNameCache method, InvalidateSidNameCache, InvalidateSidNameCache method [Windows Shell], InvalidateSidNameCache method [Windows Shell], DiskQuotaControl object, _win32_DiskQuotaControl_InvalidateSidNameCache, shell.DiskQuotaControl_InvalidateSidNameCache
 ms.prod: windows-hardware
 ms.technology: windows-devices

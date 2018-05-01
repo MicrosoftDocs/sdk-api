@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffectimpl_setparenteffect.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectimpl\setparenteffect.htm
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IMILBitmapEffectImpl, IMILBitmapEffectImpl interface [WPF Bitmap Effects], SetParentEffect method, IMILBitmapEffectImpl::SetParentEffect, SetParentEffect method [WPF Bitmap Effects], SetParentEffect method [WPF Bitmap Effects], IMILBitmapEffectImpl interface, SetParentEffect,IMILBitmapEffectImpl.SetParentEffect, _wibe_imilbitmapeffectimpl_setparenteffect, mileffects/IMILBitmapEffectImpl::SetParentEffect, wibe._wibe_imilbitmapeffectimpl_setparenteffect
 ms.prod: windows-hardware
 ms.technology: windows-devices

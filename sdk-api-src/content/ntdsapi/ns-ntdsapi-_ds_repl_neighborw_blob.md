@@ -7,7 +7,7 @@ old-location: ad\ds_repl_neighborw_blob.htm
 old-project: AD
 ms.assetid: 1a56968a-29ed-4c94-80ee-02bdd279f5c2
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/20/2018
 ms.keywords: DS_REPL_NBR_COMPRESS_CHANGES, DS_REPL_NBR_DO_SCHEDULED_SYNCS, DS_REPL_NBR_FULL_SYNC_IN_PROGRESS, DS_REPL_NBR_FULL_SYNC_NEXT_PACKET, DS_REPL_NBR_NEVER_SYNCED, DS_REPL_NBR_NO_CHANGE_NOTIFICATIONS, DS_REPL_NBR_SYNC_ON_STARTUP, DS_REPL_NBR_TWO_WAY_SYNC, DS_REPL_NBR_USE_ASYNC_INTERSITE_TRANSPORT, DS_REPL_NBR_WRITEABLE, DS_REPL_NEIGHBORW_BLOB, DS_REPL_NEIGHBORW_BLOB structure [Active Directory], _DS_REPL_NEIGHBORW_BLOB, ad.ds_repl_neighborw_blob, ntdsapi/DS_REPL_NEIGHBORW_BLOB
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _DS_REPL_NEIGHBORW_BLOB structure

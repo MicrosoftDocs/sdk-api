@@ -7,7 +7,7 @@ old-location: stg\istorage_copyto.htm
 old-project: Stg
 ms.assetid: 8b25b32b-f739-406a-96e8-dba687c7f055
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/20/2018
 ms.keywords: CopyTo method [Structured Storage], CopyTo method [Structured Storage], IStorage interface, CopyTo,IStorage.CopyTo, IStorage, IStorage interface [Structured Storage], CopyTo method, IStorage::CopyTo, _stg_istorage_copyto, objidl/IStorage::CopyTo, stg.istorage_copyto
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IStorage::CopyTo method

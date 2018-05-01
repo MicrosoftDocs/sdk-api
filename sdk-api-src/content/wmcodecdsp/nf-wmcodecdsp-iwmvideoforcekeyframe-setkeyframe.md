@@ -7,7 +7,7 @@ old-location: mf\iwmvideoforcekeyframesetkeyframe.htm
 old-project: medfound
 ms.assetid: 5cfebe9f-45b1-4cba-8813-6c9405657323
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IWMVideoForceKeyFrame, IWMVideoForceKeyFrame interface [Media Foundation], SetKeyFrame method, IWMVideoForceKeyFrame::SetKeyFrame, SetKeyFrame method [Media Foundation], SetKeyFrame method [Media Foundation], IWMVideoForceKeyFrame interface, SetKeyFrame,IWMVideoForceKeyFrame.SetKeyFrame, codecapi.iwmvideoforcekeyframe_setkeyframe, codecapi.iwmvideoforcekeyframesetkeyframe, mf.iwmvideoforcekeyframesetkeyframe, wmcodecdsp/IWMVideoForceKeyFrame::SetKeyFrame
 ms.prod: windows-hardware
 ms.technology: windows-devices

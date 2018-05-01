@@ -7,7 +7,7 @@ old-location: dshow\icameracontrol_getrange_zoomrelative.htm
 old-project: DirectShow
 ms.assetid: ea3460b8-b956-4dc9-bed7-f28714e1df11
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ICameraControl, ICameraControl interface [DirectShow], getRange_ZoomRelative method, ICameraControl::getRange_ZoomRelative, ICameraControlgetRange_ZoomRelative, dshow.icameracontrol_getrange_zoomrelative, getRange_ZoomRelative method [DirectShow], getRange_ZoomRelative method [DirectShow], ICameraControl interface, getRange_ZoomRelative,ICameraControl.getRange_ZoomRelative, vidcap/ICameraControl::getRange_ZoomRelative
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: VIDEOHDR, *PVIDEOHDR, *LPVIDEOHDR
+req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
 topic_type:
 -	APIRef
 -	kbSyntax

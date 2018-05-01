@@ -7,7 +7,7 @@ old-location: dshow\ifilesourcefilter_load.htm
 old-project: DirectShow
 ms.assetid: a44b8153-19d5-43ad-936c-214c694eeeb6
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IFileSourceFilter, IFileSourceFilter interface [DirectShow], Load method, IFileSourceFilter::Load, IFileSourceFilterLoad, Load method [DirectShow], Load method [DirectShow], IFileSourceFilter interface, Load,IFileSourceFilter.Load, dshow.ifilesourcefilter_load, strmif/IFileSourceFilter::Load
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmformat\iwmmetadataeditor2_openex.htm
 old-project: wmformat
 ms.assetid: e35f5f85-659e-4a1f-8bfd-4ad3e946d733
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMMetadataEditor2, IWMMetadataEditor2 interface [windows Media Format], OpenEx method, IWMMetadataEditor2::OpenEx, IWMMetadataEditor2OpenEx, OpenEx method [windows Media Format], OpenEx method [windows Media Format], IWMMetadataEditor2 interface, OpenEx,IWMMetadataEditor2.OpenEx, wmformat.iwmmetadataeditor2_openex, wmsdkidl/IWMMetadataEditor2::OpenEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

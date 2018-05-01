@@ -7,7 +7,7 @@ old-location: direct2d\matrix4x4f_rotationz.htm
 old-project: Direct2D
 ms.assetid: 4E17EE04-C4B9-49AC-819A-9518937B78F9
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: Matrix4x4F, Matrix4x4F interface [Direct2D], RotationZ method, Matrix4x4F::RotationZ, RotationZ method [Direct2D], RotationZ method [Direct2D], Matrix4x4F interface, RotationZ,Matrix4x4F.RotationZ, d2d1_1helper/Matrix4x4F::RotationZ, direct2d.matrix4x4f_rotationz
 ms.prod: windows-hardware
 ms.technology: windows-devices

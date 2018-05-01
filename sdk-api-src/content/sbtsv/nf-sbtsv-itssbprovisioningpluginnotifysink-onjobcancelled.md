@@ -7,7 +7,7 @@ old-location: termserv\itssbprovisioningpluginnotifysink_onjobcancelled.htm
 old-project: TermServ
 ms.assetid: c4e65194-47c1-43d9-93b3-fbbb57d7f34a
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: ITsSbProvisioningPluginNotifySink, ITsSbProvisioningPluginNotifySink interface [Remote Desktop Services], OnJobCancelled method, ITsSbProvisioningPluginNotifySink::OnJobCancelled, OnJobCancelled method [Remote Desktop Services], OnJobCancelled method [Remote Desktop Services], ITsSbProvisioningPluginNotifySink interface, OnJobCancelled,ITsSbProvisioningPluginNotifySink.OnJobCancelled, sbtsv/ITsSbProvisioningPluginNotifySink::OnJobCancelled, termserv.itssbprovisioningpluginnotifysink_onjobcancelled
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITsSbProvisioningPluginNotifySink::OnJobCancelled method

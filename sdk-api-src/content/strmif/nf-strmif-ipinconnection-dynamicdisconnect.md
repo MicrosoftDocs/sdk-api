@@ -7,7 +7,7 @@ old-location: dshow\ipinconnection_dynamicdisconnect.htm
 old-project: DirectShow
 ms.assetid: 44a5a219-fd42-4fe1-a767-f74d01d86012
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: DynamicDisconnect method [DirectShow], DynamicDisconnect method [DirectShow], IPinConnection interface, DynamicDisconnect,IPinConnection.DynamicDisconnect, IPinConnection, IPinConnection interface [DirectShow], DynamicDisconnect method, IPinConnection::DynamicDisconnect, IPinConnectionDynamicDisconnect, dshow.ipinconnection_dynamicdisconnect, strmif/IPinConnection::DynamicDisconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices

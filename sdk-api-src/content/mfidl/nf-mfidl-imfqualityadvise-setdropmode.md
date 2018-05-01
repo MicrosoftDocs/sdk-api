@@ -7,7 +7,7 @@ old-location: mf\imfqualityadvise_setdropmode.htm
 old-project: medfound
 ms.assetid: 190de66a-6c47-49d5-a8f6-c2fb57a7aee2
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 190de66a-6c47-49d5-a8f6-c2fb57a7aee2, IMFQualityAdvise, IMFQualityAdvise interface [Media Foundation], SetDropMode method, IMFQualityAdvise::SetDropMode, SetDropMode method [Media Foundation], SetDropMode method [Media Foundation], IMFQualityAdvise interface, SetDropMode,IMFQualityAdvise.SetDropMode, mf.imfqualityadvise_setdropmode, mfidl/IMFQualityAdvise::SetDropMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

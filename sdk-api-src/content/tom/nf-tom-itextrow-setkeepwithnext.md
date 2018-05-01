@@ -7,7 +7,7 @@ old-location: controls\itextrow_setkeepwithnext.htm
 old-project: Controls
 ms.assetid: 9b73ca91-39a1-4dee-8414-57ee45653c07
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextRow, ITextRow interface [Windows Controls], SetKeepWithNext method, ITextRow::SetKeepWithNext, SetKeepWithNext method [Windows Controls], SetKeepWithNext method [Windows Controls], ITextRow interface, SetKeepWithNext,ITextRow.SetKeepWithNext, controls.itextrow_setkeepwithnext, tom/ITextRow::SetKeepWithNext
 ms.prod: windows-hardware
 ms.technology: windows-devices

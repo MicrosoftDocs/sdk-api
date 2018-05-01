@@ -7,7 +7,7 @@ old-location: tapi2\linegatherdigits.htm
 old-project: Tapi
 ms.assetid: 87d5f777-e536-46be-8ad4-437386f04c9b
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: "_tapi2_linegatherdigits, lineGatherDigits, lineGatherDigits function [TAPI 2.2], lineGatherDigitsA, lineGatherDigitsW, tapi/lineGatherDigits, tapi/lineGatherDigitsA, tapi/lineGatherDigitsW, tapi2.linegatherdigits"
 ms.prod: windows-hardware
 ms.technology: windows-devices

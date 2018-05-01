@@ -7,7 +7,7 @@ old-location: rras\rtmgetnexthopinfo.htm
 old-project: RRAS
 ms.assetid: 45f18cfe-b863-4b78-90e4-c7b25c949834
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: RtmGetNextHopInfo, RtmGetNextHopInfo function [RAS], _rtmv2ref_rtmgetnexthopinfo, rras.rtmgetnexthopinfo, rtmv2/RtmGetNextHopInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Rtm.lib
 req.dll: Rtm.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # RtmGetNextHopInfo function

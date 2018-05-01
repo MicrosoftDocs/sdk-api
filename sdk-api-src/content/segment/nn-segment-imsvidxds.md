@@ -7,7 +7,7 @@ old-location: mstv\imsvidxds.htm
 old-project: mstv
 ms.assetid: ddd172fe-2f93-4b1b-b325-81be024bf74c
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidXDS, IMSVidXDS interface [Microsoft TV Technologies], IMSVidXDS interface [Microsoft TV Technologies], described, IMSVidXDSInterface, mstv.imsvidxds, segment/IMSVidXDS
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidXDS interface

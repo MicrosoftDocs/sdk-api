@@ -7,7 +7,7 @@ old-location: controls\itexthost2_txgethorzextent.htm
 old-project: Controls
 ms.assetid: 86D53FEF-DB50-41F6-AC99-106FC01BCD61
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextHost2, ITextHost2 interface [Windows Controls], TxGetHorzExtent method, ITextHost2::TxGetHorzExtent, TxGetHorzExtent method [Windows Controls], TxGetHorzExtent method [Windows Controls], ITextHost2 interface, TxGetHorzExtent,ITextHost2.TxGetHorzExtent, controls.itexthost2_txgethorzextent, textserv/ITextHost2::TxGetHorzExtent
 ms.prod: windows-hardware
 ms.technology: windows-devices

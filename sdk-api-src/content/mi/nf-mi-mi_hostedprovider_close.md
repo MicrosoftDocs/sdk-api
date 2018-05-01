@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_hostedprovider_close.htm
 old-project: wmi_v2
 ms.assetid: b0cae173-a552-4c5a-8181-ba20143d846b
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/18/2018
 ms.keywords: MI_HostedProvider_Close, MI_HostedProvider_Close function [Windows Management Infrastructure (MI)], mi/MI_HostedProvider_Close, wmi_v2.mi_hostedprovider_close
 ms.prod: windows-hardware
 ms.technology: windows-devices

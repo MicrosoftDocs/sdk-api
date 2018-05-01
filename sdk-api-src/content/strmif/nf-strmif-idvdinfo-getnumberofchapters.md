@@ -7,7 +7,7 @@ old-location: dshow\idvdinfo_getnumberofchapters.htm
 old-project: DirectShow
 ms.assetid: 65d36d1c-956f-480f-adbb-1682eafc9c93
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetNumberOfChapters method [DirectShow], GetNumberOfChapters method [DirectShow], IDvdInfo interface, GetNumberOfChapters,IDvdInfo.GetNumberOfChapters, IDvdInfo, IDvdInfo interface [DirectShow], GetNumberOfChapters method, IDvdInfo::GetNumberOfChapters, IDvdInfoGetNumberOfChapters, dshow.idvdinfo_getnumberofchapters, strmif/IDvdInfo::GetNumberOfChapters
 ms.prod: windows-hardware
 ms.technology: windows-devices

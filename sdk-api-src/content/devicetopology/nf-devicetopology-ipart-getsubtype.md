@@ -7,7 +7,7 @@ old-location: coreaudio\ipart_getsubtype.htm
 old-project: CoreAudio
 ms.assetid: 456aaafb-1e68-4a3a-b27b-c6f6f89dc17b
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: GetSubType method [Core Audio], GetSubType method [Core Audio], IPart interface, GetSubType,IPart.GetSubType, IPart, IPart interface [Core Audio], GetSubType method, IPart::GetSubType, IPartGetSubType, coreaudio.ipart_getsubtype, devicetopology/IPart::GetSubType
 ms.prod: windows-hardware
 ms.technology: windows-devices

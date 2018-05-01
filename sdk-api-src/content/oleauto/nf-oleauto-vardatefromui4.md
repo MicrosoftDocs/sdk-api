@@ -7,7 +7,7 @@ old-location: automat\vardatefromui4.htm
 old-project: automat
 ms.assetid: 680c30b1-9b24-437d-8833-a915355af714
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: VarDateFromUI4, VarDateFromUI4 function [Automation], _oa96_VarDateFromUI4, automat.vardatefromui4, oleauto/VarDateFromUI4
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # VarDateFromUI4 function

@@ -7,7 +7,7 @@ old-location: dshow\iamnetshowexprops_getcodecinstalled.htm
 old-project: DirectShow
 ms.assetid: 597178a5-8ead-4562-adbe-e6cd2b352d25
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetCodecInstalled method [DirectShow], GetCodecInstalled method [DirectShow], IAMNetShowExProps interface, GetCodecInstalled,IAMNetShowExProps.GetCodecInstalled, IAMNetShowExProps, IAMNetShowExProps interface [DirectShow], GetCodecInstalled method, IAMNetShowExProps::GetCodecInstalled, IAMNetShowExPropsGetCodecInstalled, dshow.iamnetshowexprops_getcodecinstalled, qnetwork/IAMNetShowExProps::GetCodecInstalled
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IAMNetShowExProps::GetCodecInstalled method

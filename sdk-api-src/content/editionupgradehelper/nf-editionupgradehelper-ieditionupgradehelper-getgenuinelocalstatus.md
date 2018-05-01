@@ -7,7 +7,7 @@ old-location: winprog\ieditionupgradehelper_getgenuinelocalstatus.htm
 old-project: DevNotes
 ms.assetid: 061AECF0-AC7A-480F-B532-F5D8AC078168
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/13/2018
 ms.keywords: GetGenuineLocalStatus method [Windows API], GetGenuineLocalStatus method [Windows API], IEditionUpgradeHelper interface, GetGenuineLocalStatus,IEditionUpgradeHelper.GetGenuineLocalStatus, IEditionUpgradeHelper, IEditionUpgradeHelper interface [Windows API], GetGenuineLocalStatus method, IEditionUpgradeHelper::GetGenuineLocalStatus, editionupgradehelper/IEditionUpgradeHelper::GetGenuineLocalStatus, winprog.ieditionupgradehelper_getgenuinelocalstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

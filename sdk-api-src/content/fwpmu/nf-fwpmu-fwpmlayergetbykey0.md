@@ -7,7 +7,7 @@ old-location: fwp\fwpmlayergetbykey0_func.htm
 old-project: FWP
 ms.assetid: b276449e-890c-482d-9bc2-47d44a5ea32b
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: FwpmLayerGetByKey0, FwpmLayerGetByKey0 function [Filtering], fwp.fwpmlayergetbykey0_func, fwpmu/FwpmLayerGetByKey0
 ms.prod: windows-hardware
 ms.technology: windows-devices

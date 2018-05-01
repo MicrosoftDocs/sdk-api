@@ -7,7 +7,7 @@ old-location: ad\ds_repl_attr_meta_data_blob.htm
 old-project: AD
 ms.assetid: eee12de1-287a-4e76-9a9c-37e6b967971f
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/20/2018
 ms.keywords: DS_REPL_ATTR_META_DATA_BLOB, DS_REPL_ATTR_META_DATA_BLOB structure [Active Directory], _DS_REPL_ATTR_META_DATA_BLOB, ad.ds_repl_attr_meta_data_blob, ntdsapi/DS_REPL_ATTR_META_DATA_BLOB
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _DS_REPL_ATTR_META_DATA_BLOB structure

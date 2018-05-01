@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledeviceservice_advise.htm
 old-project: wpd_sdk
 ms.assetid: 128b1ee9-fd1f-4480-ae9a-b1d0bc86cf1b
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/11/2018
 ms.keywords: Advise method [Windows Portable Devices SDK], Advise method [Windows Portable Devices SDK], IPortableDeviceService interface, Advise,IPortableDeviceService.Advise, IPortableDeviceService, IPortableDeviceService interface [Windows Portable Devices SDK], Advise method, IPortableDeviceService::Advise, portabledeviceapi/IPortableDeviceService::Advise, wpdsdk.iportabledeviceservice_advise
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: WPD_WHITE_BALANCE_SETTINGS
+req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IPortableDeviceService::Advise method

@@ -7,7 +7,7 @@ old-location: security\pfn_cmsg_gen_content_encrypt_key.htm
 old-project: SecCrypto
 ms.assetid: f06d0efb-44e1-40ed-9480-35dbdfce934c
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: PFN_CMSG_GEN_CONTENT_ENCRYPT_KEY, PFN_CMSG_GEN_CONTENT_ENCRYPT_KEY function pointer [Security], security.pfn_cmsg_gen_content_encrypt_key, wincrypt/PFN_CMSG_GEN_CONTENT_ENCRYPT_KEY
 ms.prod: windows-hardware
 ms.technology: windows-devices

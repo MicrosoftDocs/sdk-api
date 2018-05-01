@@ -7,7 +7,7 @@ old-location: dshow\ibasicvideo_put_sourcewidth.htm
 old-project: DirectShow
 ms.assetid: 0747a1fb-42b6-452f-8a92-eb87931c004c
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IBasicVideo, IBasicVideo interface [DirectShow], put_SourceWidth method, IBasicVideo::put_SourceWidth, IBasicVideoput_SourceWidth, control/IBasicVideo::put_SourceWidth, dshow.ibasicvideo_put_sourcewidth, put_SourceWidth method [DirectShow], put_SourceWidth method [DirectShow], IBasicVideo interface, put_SourceWidth,IBasicVideo.put_SourceWidth
 ms.prod: windows-hardware
 ms.technology: windows-devices

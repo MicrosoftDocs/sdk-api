@@ -7,7 +7,7 @@ old-location: wmp\iwmpgraphcreation_graphcreationprerender.htm
 old-project: WMP
 ms.assetid: d3375fa9-2ab0-4e82-9196-0b3971a00185
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: GraphCreationPreRender method [Windows Media Player], GraphCreationPreRender method [Windows Media Player], IWMPGraphCreation interface, GraphCreationPreRender,IWMPGraphCreation.GraphCreationPreRender, IWMPGraphCreation, IWMPGraphCreation interface [Windows Media Player], GraphCreationPreRender method, IWMPGraphCreation::GraphCreationPreRender, IWMPGraphCreationGraphCreationPreRenderdeprecated, wmp.iwmpgraphcreation_graphcreationprerender, wmpservices/IWMPGraphCreation::GraphCreationPreRender
 ms.prod: windows-hardware
 ms.technology: windows-devices

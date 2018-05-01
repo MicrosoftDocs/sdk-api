@@ -7,7 +7,7 @@ old-location: mstv\iscte_eas_getrawalerttext.htm
 old-project: mstv
 ms.assetid: e5ed18e8-e83e-4708-995b-99acd12427a7
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetRawAlertText method [Microsoft TV Technologies], GetRawAlertText method [Microsoft TV Technologies], ISCTE_EAS interface, GetRawAlertText,ISCTE_EAS.GetRawAlertText, ISCTE_EAS, ISCTE_EAS interface [Microsoft TV Technologies], GetRawAlertText method, ISCTE_EAS::GetRawAlertText, atscpsipparser/ISCTE_EAS::GetRawAlertText, mstv.iscte_eas_getrawalerttext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_WRITER_PAYLOAD_STREAM
+req.typenames: AsyncStatus
 topic_type:
 -	APIRef
 -	kbSyntax

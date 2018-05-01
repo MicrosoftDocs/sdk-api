@@ -7,7 +7,7 @@ old-location: wmp\iwmperroritem_get_errorcontext.htm
 old-project: WMP
 ms.assetid: 575f14e7-7a5b-4000-9957-253c40b1ef62
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPErrorItem, IWMPErrorItem interface [Windows Media Player], get_errorContext method, IWMPErrorItem::get_errorContext, IWMPErrorItemget_errorContext, get_errorContext method [Windows Media Player], get_errorContext method [Windows Media Player], IWMPErrorItem interface, get_errorContext,IWMPErrorItem.get_errorContext, wmp.iwmperroritem_get_errorcontext, wmp/IWMPErrorItem::get_errorContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

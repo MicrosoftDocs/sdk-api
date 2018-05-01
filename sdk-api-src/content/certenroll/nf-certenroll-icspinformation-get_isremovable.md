@@ -7,7 +7,7 @@ old-location: security\icspinformation_isremovable_property.htm
 old-project: SecCertEnroll
 ms.assetid: ee67670b-80a9-4637-a5ed-84d3430853ea
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: ICspInformation, ICspInformation interface [Security], IsRemovable property, ICspInformation.IsRemovable, ICspInformation::get_IsRemovable, IsRemovable property [Security], IsRemovable property [Security], ICspInformation interface, certenroll/ICspInformation::IsRemovable, certenroll/ICspInformation::get_IsRemovable, get_IsRemovable,ICspInformation.get_IsRemovable, security.icspinformation_isremovable_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

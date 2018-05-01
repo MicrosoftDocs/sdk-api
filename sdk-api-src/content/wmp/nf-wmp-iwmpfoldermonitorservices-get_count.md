@@ -7,7 +7,7 @@ old-location: wmp\iwmpfoldermonitorservices_get_count.htm
 old-project: WMP
 ms.assetid: cf80820a-d126-4af6-ba5e-c1188c5c00a4
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPFolderMonitorServices, IWMPFolderMonitorServices interface [Windows Media Player], get_count method, IWMPFolderMonitorServices::get_count, IWMPFolderMonitorServicesget_count, get_count method [Windows Media Player], get_count method [Windows Media Player], IWMPFolderMonitorServices interface, get_count,IWMPFolderMonitorServices.get_count, wmp.iwmpfoldermonitorservices_get_count, wmp/IWMPFolderMonitorServices::get_count
 ms.prod: windows-hardware
 ms.technology: windows-devices

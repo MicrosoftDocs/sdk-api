@@ -7,7 +7,7 @@ old-location: p2p\peer_invitation_info.htm
 old-project: P2PSdk
 ms.assetid: 215df4ed-83e3-40c3-a38e-89d92ce38707
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/23/2018
 ms.keywords: "*PPEER_INVITATION_INFO, PEER_GROUP_ROLE_ADMIN, PEER_GROUP_ROLE_MEMBER, PEER_INVITATION_INFO, PEER_INVITATION_INFO structure [Peer Networking], PNRP_CLOUD_NAME_LOCAL, PNRP_CLOUD_NO_FLAGS, PNRP_GLOBAL_SCOPE, PNRP_LINK_LOCAL_SCOPE, PNRP_LOCAL_SCOPE, PPEER_INVITATION_INFO, PPEER_INVITATION_INFO structure pointer [Peer Networking], p2p.peer_invitation_info, p2p/PPEER_INVITATION_INFO, p2p/peer_invitation_info_tag, peer_invitation_info_tag"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # peer_invitation_info_tag structure

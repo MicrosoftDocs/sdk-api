@@ -7,7 +7,7 @@ old-location: wmdm\iwmdevicemanager2__getdevicefromcanonicalname.htm
 old-project: WMDM
 ms.assetid: cfa0fe8d-668a-443b-be50-cf1f83362a14
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: GetDeviceFromCanonicalName method [windows Media Device Manager], GetDeviceFromCanonicalName method [windows Media Device Manager], IWMDeviceManager2 interface, GetDeviceFromCanonicalName,IWMDeviceManager2.GetDeviceFromCanonicalName, IWMDeviceManager2, IWMDeviceManager2 interface [windows Media Device Manager], GetDeviceFromCanonicalName method, IWMDeviceManager2::GetDeviceFromCanonicalName, IWMDeviceManager2GetDevicesFromCanonicalName, mswmdm/IWMDeviceManager2::GetDeviceFromCanonicalName, wmdm.iwmdevicemanager2__getdevicefromcanonicalname
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IWMDeviceManager2::GetDeviceFromCanonicalName method

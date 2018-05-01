@@ -7,7 +7,7 @@ old-location: mf\d3d11_authenticated_configure_crypto_session_input.htm
 old-project: medfound
 ms.assetid: 62DCE279-B0B6-4536-A14E-71F5B1BAA9ED
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: D3D11_AUTHENTICATED_CONFIGURE_CRYPTO_SESSION_INPUT, D3D11_AUTHENTICATED_CONFIGURE_CRYPTO_SESSION_INPUT structure [Media Foundation], d3d11/D3D11_AUTHENTICATED_CONFIGURE_CRYPTO_SESSION_INPUT, mf.d3d11_authenticated_configure_crypto_session_input
 ms.prod: windows-hardware
 ms.technology: windows-devices

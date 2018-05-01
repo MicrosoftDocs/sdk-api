@@ -7,7 +7,7 @@ old-location: mstv\idvblogicalchanneldescriptor_getlength.htm
 old-project: mstv
 ms.assetid: 20c0f2a8-e4f5-4516-8c19-30cd19f0816e
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetLength method [DirectShow], GetLength method [DirectShow], IDvbLogicalChannelDescriptor interface, GetLength,IDvbLogicalChannelDescriptor.GetLength, IDvbLogicalChannelDescriptor, IDvbLogicalChannelDescriptor interface [DirectShow], GetLength method, IDvbLogicalChannelDescriptor::GetLength, IDvbLogicalChannelDescriptorGetLength, dvbsiparser/IDvbLogicalChannelDescriptor::GetLength, mstv.idvblogicalchanneldescriptor_getlength
 ms.prod: windows-hardware
 ms.technology: windows-devices

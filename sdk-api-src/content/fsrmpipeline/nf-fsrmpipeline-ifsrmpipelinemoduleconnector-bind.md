@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmpipelinemoduleconnector_bind.htm
 old-project: Fsrm
 ms.assetid: 4ac8ecc7-a02e-46ce-ac95-35a7dd38e631
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: Bind method [File Server Resource Manager], Bind method [File Server Resource Manager], FsrmPipelineModuleConnector class, Bind method [File Server Resource Manager], IFsrmPipelineModuleConnector interface, Bind,IFsrmPipelineModuleConnector.Bind, FsrmPipelineModuleConnector class [File Server Resource Manager], Bind method, IFsrmPipelineModuleConnector, IFsrmPipelineModuleConnector interface [File Server Resource Manager], Bind method, IFsrmPipelineModuleConnector::Bind, fs.ifsrmpipelinemoduleconnector_bind, fsrm.ifsrmpipelinemoduleconnector_bind, fsrmpipeline/IFsrmPipelineModuleConnector::Bind
 ms.prod: windows-hardware
 ms.technology: windows-devices

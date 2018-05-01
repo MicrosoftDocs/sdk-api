@@ -7,7 +7,7 @@ old-location: tmg\http_filter_auth_complete_info.htm
 old-project: TMG
 ms.assetid: 1e4010a3-60a8-4af0-b6c8-4889e65f4276
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/3/2018
 ms.keywords: "*PHTTP_FILTER_AUTH_COMPLETE_INFO, HTTP_FILTER_AUTH_COMPLETE_INFO, HTTP_FILTER_AUTH_COMPLETE_INFO structure [Forefront TMG], PHTTP_FILTER_AUTH_COMPLETE_INFO, PHTTP_FILTER_AUTH_COMPLETE_INFO structure pointer [Forefront TMG], _HTTP_FILTER_AUTH_COMPLETE_INFO, httpfilt/HTTP_FILTER_AUTH_COMPLETE_INFO, httpfilt/PHTTP_FILTER_AUTH_COMPLETE_INFO, tmg.http_filter_auth_complete_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices

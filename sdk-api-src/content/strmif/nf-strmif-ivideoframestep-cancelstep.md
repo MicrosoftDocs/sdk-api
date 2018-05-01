@@ -7,7 +7,7 @@ old-location: dshow\ivideoframestep_cancelstep.htm
 old-project: DirectShow
 ms.assetid: 1310d4d8-a1a3-493c-baee-f7c0ec5790e1
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: CancelStep method [DirectShow], CancelStep method [DirectShow], IVideoFrameStep interface, CancelStep,IVideoFrameStep.CancelStep, IVideoFrameStep, IVideoFrameStep interface [DirectShow], CancelStep method, IVideoFrameStep::CancelStep, IVideoFrameStepCancelStep, dshow.ivideoframestep_cancelstep, strmif/IVideoFrameStep::CancelStep
 ms.prod: windows-hardware
 ms.technology: windows-devices

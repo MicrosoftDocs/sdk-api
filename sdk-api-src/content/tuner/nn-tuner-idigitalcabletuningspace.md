@@ -7,7 +7,7 @@ old-location: mstv\idigitalcabletuningspace.htm
 old-project: mstv
 ms.assetid: a0788405-5502-4d6a-8f94-9957859ac1af
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IDigitalCableTuningSpace, IDigitalCableTuningSpace interface [Microsoft TV Technologies], IDigitalCableTuningSpace interface [Microsoft TV Technologies], described, IDigitalCableTuningSpaceInterface, mstv.idigitalcabletuningspace, tuner/IDigitalCableTuningSpace
 ms.prod: windows-hardware
 ms.technology: windows-devices

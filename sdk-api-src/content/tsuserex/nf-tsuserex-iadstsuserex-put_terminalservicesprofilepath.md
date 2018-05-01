@@ -7,7 +7,7 @@ old-location: termserv\iadstsuserex_terminalservicesprofilepath.htm
 old-project: TermServ
 ms.assetid: 282c20ab-378d-4205-90d3-6d28b0770adc
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: IADsTSUserEx, IADsTSUserEx interface [Remote Desktop Services], TerminalServicesProfilePath property, IADsTSUserEx.TerminalServicesProfilePath, IADsTSUserEx::get_TerminalServicesProfilePath, IADsTSUserEx::put_TerminalServicesProfilePath, TerminalServicesProfilePath property [Remote Desktop Services], TerminalServicesProfilePath property [Remote Desktop Services], IADsTSUserEx interface, put_TerminalServicesProfilePath,IADsTSUserEx.put_TerminalServicesProfilePath, termserv.iadstsuserex_terminalservicesprofilepath, tsuserex/IADsTSUserEx::TerminalServicesProfilePath, tsuserex/IADsTSUserEx::get_TerminalServicesProfilePath, tsuserex/IADsTSUserEx::put_TerminalServicesProfilePath
 ms.prod: windows-hardware
 ms.technology: windows-devices

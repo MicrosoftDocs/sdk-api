@@ -7,7 +7,7 @@ old-location: com\ioleuiobjinfo_getviewinfo.htm
 old-project: com
 ms.assetid: 8e9774b6-1264-48d4-b5fb-c43b67e29f6e
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: GetViewInfo method [COM], GetViewInfo method [COM], IOleUIObjInfo interface, GetViewInfo method [COM], IOleUIObjInfoA interface, GetViewInfo method [COM], IOleUIObjInfoW interface, GetViewInfo,IOleUIObjInfoW.GetViewInfo, IOleUIObjInfo interface [COM], GetViewInfo method, IOleUIObjInfo::GetViewInfo, IOleUIObjInfoA interface [COM], GetViewInfo method, IOleUIObjInfoA::GetViewInfo, IOleUIObjInfoW, IOleUIObjInfoW interface [COM], GetViewInfo method, IOleUIObjInfoW::GetViewInfo, _ole_IOleUIObjInfo_GetViewInfo, com.ioleuiobjinfo_getviewinfo, oledlg/IOleUIObjInfo::GetViewInfo, oledlg/IOleUIObjInfoA::GetViewInfo, oledlg/IOleUIObjInfoW::GetViewInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IOleUIObjInfoW::GetViewInfo method

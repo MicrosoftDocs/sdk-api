@@ -7,7 +7,7 @@ old-location: tablet\istylusplugin_stylusinrange.htm
 old-project: tablet
 ms.assetid: 586e7fee-6340-46b6-941f-1316b2925e1c
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: 586e7fee-6340-46b6-941f-1316b2925e1c, IStylusPlugin, IStylusPlugin interface [Tablet PC], StylusInRange method, IStylusPlugin::StylusInRange, StylusInRange method [Tablet PC], StylusInRange method [Tablet PC], IStylusPlugin interface, StylusInRange,IStylusPlugin.StylusInRange, rtscom/IStylusPlugin::StylusInRange, tablet.istylusplugin_stylusinrange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: RTSCom.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IStylusPlugin::StylusInRange method

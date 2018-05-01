@@ -7,7 +7,7 @@ old-location: com\ioleinplacesitewindowless_invalidatergn.htm
 old-project: com
 ms.assetid: bbe86f4f-d023-4285-a6c1-c42fdc566f2f
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IOleInPlaceSiteWindowless, IOleInPlaceSiteWindowless interface [COM], InvalidateRgn method, IOleInPlaceSiteWindowless::InvalidateRgn, InvalidateRgn method [COM], InvalidateRgn method [COM], IOleInPlaceSiteWindowless interface, InvalidateRgn,IOleInPlaceSiteWindowless.InvalidateRgn, _ole_ioleinplacesitewindowless_invalidatergn, com.ioleinplacesitewindowless_invalidatergn, ocidl/IOleInPlaceSiteWindowless::InvalidateRgn
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IOleInPlaceSiteWindowless::InvalidateRgn method

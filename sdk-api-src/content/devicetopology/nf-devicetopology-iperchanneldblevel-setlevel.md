@@ -7,7 +7,7 @@ old-location: coreaudio\iperchanneldblevel_setlevel.htm
 old-project: CoreAudio
 ms.assetid: 103efe46-bca5-40a7-815b-d2a1f6e29cbc
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: IPerChannelDbLevel, IPerChannelDbLevel interface [Core Audio], SetLevel method, IPerChannelDbLevel::SetLevel, IPerChannelDbLevelSetLevel, SetLevel method [Core Audio], SetLevel method [Core Audio], IPerChannelDbLevel interface, SetLevel,IPerChannelDbLevel.SetLevel, coreaudio.iperchanneldblevel_setlevel, devicetopology/IPerChannelDbLevel::SetLevel
 ms.prod: windows-hardware
 ms.technology: windows-devices

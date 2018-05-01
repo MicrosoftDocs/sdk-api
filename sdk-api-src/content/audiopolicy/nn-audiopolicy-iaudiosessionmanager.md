@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiosessionmanager.htm
 old-project: CoreAudio
 ms.assetid: 606b0a42-d1d1-4196-911f-5b095bf56c4e
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: IAudioSessionManager, IAudioSessionManager interface [Core Audio], IAudioSessionManager interface [Core Audio], described, audiopolicy/IAudioSessionManager, coreaudio.iaudiosessionmanager
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: AE_CURRENT_POSITION, *PAE_CURRENT_POSITION
+req.typenames: UNCOMPRESSEDAUDIOFORMAT
 topic_type:
 -	APIRef
 -	kbSyntax

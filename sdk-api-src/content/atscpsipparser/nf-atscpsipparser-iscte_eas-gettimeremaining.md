@@ -7,7 +7,7 @@ old-location: mstv\iscte_eas_gettimeremaining.htm
 old-project: mstv
 ms.assetid: 4d04408f-a1ff-41cf-8ab0-1f30e700b07b
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetTimeRemaining method [Microsoft TV Technologies], GetTimeRemaining method [Microsoft TV Technologies], ISCTE_EAS interface, GetTimeRemaining,ISCTE_EAS.GetTimeRemaining, ISCTE_EAS, ISCTE_EAS interface [Microsoft TV Technologies], GetTimeRemaining method, ISCTE_EAS::GetTimeRemaining, ISCTE_EASGetTimeRemaining, atscpsipparser/ISCTE_EAS::GetTimeRemaining, mstv.iscte_eas_gettimeremaining
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_WRITER_PAYLOAD_STREAM
+req.typenames: AsyncStatus
 topic_type:
 -	APIRef
 -	kbSyntax

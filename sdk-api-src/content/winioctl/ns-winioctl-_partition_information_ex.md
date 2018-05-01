@@ -58,11 +58,6 @@ Contains partition information for standard <i>AT-style</i> master boot record (
 
 
 
-### -field DUMMYUNIONNAME
-
- 
-
-
 ### -field PartitionStyle
 
 The format of the partition. For a list of values, see 
@@ -87,6 +82,18 @@ The number of the partition (1-based).
 ### -field RewritePartition
 
 If this member is <b>TRUE</b>, the partition is rewritable. The value of this parameter should be set to <b>TRUE</b>.
+
+
+### -field IsServicePartition
+
+ 
+
+
+### -field DUMMYUNIONNAME
+
+ 
+
+
 
 
 #### - Gpt

@@ -7,7 +7,7 @@ old-location: ics\inetconnection_disconnect.htm
 old-project: ICS
 ms.assetid: 023abd16-7a07-4247-96cc-607a5e313bad
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: Disconnect method [ICS/ICF], Disconnect method [ICS/ICF], INetConnection interface, Disconnect,INetConnection.Disconnect, INetConnection, INetConnection interface [ICS/ICF], Disconnect method, INetConnection::Disconnect, _ics_inetconnection_disconnect, ics.inetconnection_disconnect, netcon/INetConnection::Disconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # INetConnection::Disconnect method

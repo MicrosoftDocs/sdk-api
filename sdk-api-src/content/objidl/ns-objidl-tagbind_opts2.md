@@ -7,7 +7,7 @@ old-location: com\bind_opts2.htm
 old-project: com
 ms.assetid: fb2aa8c1-dddc-480e-b544-61a1074125ef
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*LPBIND_OPTS2, BIND_OPTS2, BIND_OPTS2 structure [COM], LPBIND_OPTS2, LPBIND_OPTS2 structure pointer [COM], _com_BIND_OPTS2, com.bind_opts2, objidl/BIND_OPTS2, objidl/LPBIND_OPTS2, tagBIND_OPTS2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # tagBIND_OPTS2 structure

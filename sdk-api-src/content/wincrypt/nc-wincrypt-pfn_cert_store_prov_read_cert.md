@@ -7,7 +7,7 @@ old-location: security\certstoreprovreadcertcallback.htm
 old-project: SecCrypto
 ms.assetid: 9073f41e-19cd-46af-9e05-3f55607802c3
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: CertStoreProvReadCertCallback, CertStoreProvReadCertCallback callback function [Security], PFN_CERT_STORE_PROV_READ_CERT, PFN_CERT_STORE_PROV_READ_CERT callback function [Security], _crypto2_certstoreprovreadcertcallback, security.certstoreprovreadcertcallback, wincrypt/CertStoreProvReadCertCallback, wincrypt/PFN_CERT_STORE_PROV_READ_CERT
 ms.prod: windows-hardware
 ms.technology: windows-devices

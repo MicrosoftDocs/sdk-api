@@ -7,7 +7,7 @@ old-location: base\releasesrwlockexclusive.htm
 old-project: Sync
 ms.assetid: 77f9b8ee-f922-4bd1-b715-ccb1ca891dcc
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: ReleaseSRWLockExclusive, ReleaseSRWLockExclusive function, base.releasesrwlockexclusive, synchapi/ReleaseSRWLockExclusive, winbase/ReleaseSRWLockExclusive
 ms.prod: windows-hardware
 ms.technology: windows-devices

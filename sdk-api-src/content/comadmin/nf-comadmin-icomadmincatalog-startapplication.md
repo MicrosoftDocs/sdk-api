@@ -7,7 +7,7 @@ old-location: cos\icomadmincatalog_startapplication.htm
 old-project: cossdk
 ms.assetid: 89423f39-7cbd-42dd-8d4a-6f312884e0bf
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: ICOMAdminCatalog, ICOMAdminCatalog interface [COM+], StartApplication method, ICOMAdminCatalog::StartApplication, StartApplication method [COM+], StartApplication method [COM+], ICOMAdminCatalog interface, StartApplication,ICOMAdminCatalog.StartApplication, _cos_ICOMAdminCatalog_StartApplication, comadmin/ICOMAdminCatalog::StartApplication, cos.icomadmincatalog_startapplication
 ms.prod: windows-hardware
 ms.technology: windows-devices

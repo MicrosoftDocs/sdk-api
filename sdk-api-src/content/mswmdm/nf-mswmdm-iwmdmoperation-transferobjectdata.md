@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmoperation_transferobjectdata.htm
 old-project: WMDM
 ms.assetid: ba3f29d9-88cd-4050-aa9f-f9317745a16b
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: IWMDMOperation, IWMDMOperation interface [windows Media Device Manager], TransferObjectData method, IWMDMOperation::TransferObjectData, IWMDMOperationTransferObjectData, TransferObjectData method [windows Media Device Manager], TransferObjectData method [windows Media Device Manager], IWMDMOperation interface, TransferObjectData,IWMDMOperation.TransferObjectData, mswmdm/IWMDMOperation::TransferObjectData, wmdm.iwmdmoperation_transferobjectdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IWMDMOperation::TransferObjectData method

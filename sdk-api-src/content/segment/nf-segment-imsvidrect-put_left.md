@@ -7,7 +7,7 @@ old-location: mstv\imsvidrect_put_left.htm
 old-project: mstv
 ms.assetid: 8e61fd8a-9ea0-48c1-8749-780b0363c12d
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidRect, IMSVidRect interface [Microsoft TV Technologies], put_Left method, IMSVidRect::put_Left, IMSVidRectput_Left, mstv.imsvidrect_put_left, put_Left method [Microsoft TV Technologies], put_Left method [Microsoft TV Technologies], IMSVidRect interface, put_Left,IMSVidRect.put_Left, segment/IMSVidRect::put_Left
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidRect::put_Left method

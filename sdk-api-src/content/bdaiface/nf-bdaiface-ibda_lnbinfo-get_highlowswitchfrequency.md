@@ -7,7 +7,7 @@ old-location: mstv\ibda_lnbinfo_get_highlowswitchfrequency.htm
 old-project: mstv
 ms.assetid: f6a851fc-6911-41fb-951c-c9fcf04b2355
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IBDA_LNBInfo, IBDA_LNBInfo interface [Microsoft TV Technologies], get_HighLowSwitchFrequency method, IBDA_LNBInfo::get_HighLowSwitchFrequency, IBDA_LNBInfoget_HighLowSwitchFrequency, bdaiface/IBDA_LNBInfo::get_HighLowSwitchFrequency, get_HighLowSwitchFrequency method [Microsoft TV Technologies], get_HighLowSwitchFrequency method [Microsoft TV Technologies], IBDA_LNBInfo interface, get_HighLowSwitchFrequency,IBDA_LNBInfo.get_HighLowSwitchFrequency, mstv.ibda_lnbinfo_get_highlowswitchfrequency
 ms.prod: windows-hardware
 ms.technology: windows-devices

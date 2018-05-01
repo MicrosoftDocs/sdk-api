@@ -7,7 +7,7 @@ old-location: mf\_mft_input_data_buffer_flags.htm
 old-project: medfound
 ms.assetid: 17405ee2-6513-4308-b29f-060211301918
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 17405ee2-6513-4308-b29f-060211301918, MFT_INPUT_DATA_BUFFER_PLACEHOLDER, _MFT_INPUT_DATA_BUFFER_FLAGS, _MFT_INPUT_DATA_BUFFER_FLAGS enumeration [Media Foundation], mf._mft_input_data_buffer_flags, mftransform/MFT_INPUT_DATA_BUFFER_PLACEHOLDER, mftransform/_MFT_INPUT_DATA_BUFFER_FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,7 @@ api_name:
 -	_MFT_INPUT_DATA_BUFFER_FLAGS
 product: Windows
 targetos: Windows
-req.lib: 
+req.lib: Mfobjects.lib
 req.dll: 
 req.irql: 
 req.product: GDI+ 1.1

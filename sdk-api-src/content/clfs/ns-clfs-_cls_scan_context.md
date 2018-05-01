@@ -7,7 +7,7 @@ old-location: fs\clfs_scan_context.htm
 old-project: Clfs
 ms.assetid: 716fa005-c801-4a5d-99f1-0babe64dc4a8
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/25/2018
 ms.keywords: "*PCLFS_SCAN_CONTEXT, *PCLS_SCAN_CONTEXT, CLFS_SCAN_BACKWARD, CLFS_SCAN_CLOSE, CLFS_SCAN_CONTEXT, CLFS_SCAN_CONTEXT structure [Files], CLFS_SCAN_FORWARD, CLFS_SCAN_INIT, CLS_SCAN_CONTEXT, PCLFS_SCAN_CONTEXT, PCLFS_SCAN_CONTEXT structure pointer [Files], PPCLS_SCAN_CONTEXT, _CLS_SCAN_CONTEXT, clfs/PCLFS_SCAN_CONTEXT, clfs/_CLFS_SCAN_CONTEXT, fs.clfs_scan_context"
 ms.prod: windows-hardware
 ms.technology: windows-devices

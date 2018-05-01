@@ -7,7 +7,7 @@ old-location: security\kerb_add_credentials_request_ex.htm
 old-project: SecAuthN
 ms.assetid: 9e806fce-9b3e-4bc9-bd75-a692f0ca5680
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/24/2018
 ms.keywords: "*PKERB_ADD_CREDENTIALS_REQUEST_EX, KERB_ADD_CREDENTIALS_REQUEST_EX, KERB_ADD_CREDENTIALS_REQUEST_EX structure [Security], PKERB_ADD_CREDENTIALS_REQUEST_EX, PKERB_ADD_CREDENTIALS_REQUEST_EX structure pointer [Security], _KERB_ADD_CREDENTIALS_REQUEST_EX, ntsecapi/KERB_ADD_CREDENTIALS_REQUEST_EX, ntsecapi/PKERB_ADD_CREDENTIALS_REQUEST_EX, security.kerb_add_credentials_request_ex"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _KERB_ADD_CREDENTIALS_REQUEST_EX structure

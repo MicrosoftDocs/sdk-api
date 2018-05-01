@@ -7,7 +7,7 @@ old-location: ics\inetfwauthorizedapplication_enabled.htm
 old-project: ICS
 ms.assetid: 03a1503e-aee5-484f-8a4c-a7e10dffe401
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: Enabled property [ICS/ICF], Enabled property [ICS/ICF], INetFwAuthorizedApplication interface, INetFwAuthorizedApplication, INetFwAuthorizedApplication interface [ICS/ICF], Enabled property, INetFwAuthorizedApplication.Enabled, INetFwAuthorizedApplication::get_Enabled, INetFwAuthorizedApplication::put_Enabled, get_Enabled,INetFwAuthorizedApplication.get_Enabled, ics.inetfwauthorizedapplication_enabled, netfw/INetFwAuthorizedApplication::Enabled, netfw/INetFwAuthorizedApplication::get_Enabled, netfw/INetFwAuthorizedApplication::put_Enabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: 
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # INetFwAuthorizedApplication::get_Enabled method

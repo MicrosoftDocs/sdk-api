@@ -7,7 +7,7 @@ old-location: wab\_wab_SRowSet.htm
 old-project: wab
 ms.assetid: VS|wab|~\wab\reference\structures\srowset.htm
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 4/3/2018
 ms.keywords: "*LPSRowSet, SRowSet, SRowSet structure [Windows Address Book], _SRowSet, _wab_SRowSet, wab._wab_SRowSet, wabdefs/SRowSet"
 ms.prod: windows-hardware
 ms.technology: windows-devices

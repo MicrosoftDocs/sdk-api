@@ -119,7 +119,7 @@ If the <i>nIconIndex</i> parameter is -1, the <i>phiconLarge</i> parameter is <b
 
 You must destroy all icons extracted by <b>ExtractIconEx</b> by calling the <a href="https://msdn.microsoft.com/ffe21e34-ebe0-4ec8-830f-64c733ef9097">DestroyIcon</a> function. 
 
-To retrieve the dimensions of the large and small icons, use the <a href="https://msdn.microsoft.com/d063857b-6036-4e68-80af-9c70d12ae29e">GetSystemMetrics</a> function with the <b>SM_CXICON</b>, <b>SM_CYICON</b>, <b>SM_CXSMICON</b>, and <b>SM_CYSMICON</b> flags.
+To retrieve the dimensions of the large and small icons, use the <a href="base.getsystemmetrics">GetSystemMetrics</a> function with the <b>SM_CXICON</b>, <b>SM_CYICON</b>, <b>SM_CXSMICON</b>, and <b>SM_CYSMICON</b> flags.
 
 
 

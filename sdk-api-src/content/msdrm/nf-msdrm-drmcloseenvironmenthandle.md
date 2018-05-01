@@ -7,7 +7,7 @@ old-location: rm\drmcloseenvironmenthandle.htm
 old-project: AdRms_Sdk
 ms.assetid: 3edde872-a863-4c7f-92f0-f7e324aff651
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/11/2018
 ms.keywords: DRMCloseEnvironmentHandle, DRMCloseEnvironmentHandle function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMCloseEnvironmentHandle, rm.drmcloseenvironmenthandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

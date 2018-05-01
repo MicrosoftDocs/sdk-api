@@ -7,7 +7,7 @@ old-location: search\_search_IConditionFactory2_CreateTrueFalse.htm
 old-project: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\iconditionfactory2\createtruefalse.htm
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/24/2018
 ms.keywords: CreateTrueFalse method [search], CreateTrueFalse method [search], IConditionFactory2 interface, CreateTrueFalse,IConditionFactory2.CreateTrueFalse, IConditionFactory2, IConditionFactory2 interface [search], CreateTrueFalse method, IConditionFactory2::CreateTrueFalse, _search_IConditionFactory2_CreateTrueFalse, search._search_IConditionFactory2_CreateTrueFalse, structuredquery/IConditionFactory2::CreateTrueFalse
 ms.prod: windows-hardware
 ms.technology: windows-devices

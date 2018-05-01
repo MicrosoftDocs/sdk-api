@@ -7,7 +7,7 @@ old-location: wmformat\iwmreaderadvanced_setclientinfo.htm
 old-project: wmformat
 ms.assetid: dec93690-8285-4672-bf70-63f3c10294bf
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMReaderAdvanced, IWMReaderAdvanced interface [windows Media Format], SetClientInfo method, IWMReaderAdvanced::SetClientInfo, IWMReaderAdvancedSetClientInfo, SetClientInfo method [windows Media Format], SetClientInfo method [windows Media Format], IWMReaderAdvanced interface, SetClientInfo,IWMReaderAdvanced.SetClientInfo, wmformat.iwmreaderadvanced_setclientinfo, wmsdkidl/IWMReaderAdvanced::SetClientInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

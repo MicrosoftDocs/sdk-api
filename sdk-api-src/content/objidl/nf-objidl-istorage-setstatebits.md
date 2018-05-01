@@ -7,7 +7,7 @@ old-location: stg\istorage_setstatebits.htm
 old-project: Stg
 ms.assetid: 52606df8-10ea-40e7-bb61-c86c7b7262d2
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/20/2018
 ms.keywords: IStorage, IStorage interface [Structured Storage], SetStateBits method, IStorage::SetStateBits, SetStateBits method [Structured Storage], SetStateBits method [Structured Storage], IStorage interface, SetStateBits,IStorage.SetStateBits, _stg_istorage_setstatebits, objidl/IStorage::SetStateBits, stg.istorage_setstatebits
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IStorage::SetStateBits method

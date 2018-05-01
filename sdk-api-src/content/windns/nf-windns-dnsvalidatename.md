@@ -7,7 +7,7 @@ old-location: dns\dnsvalidatename.htm
 old-project: DNS
 ms.assetid: efdbd217-6936-42c1-a1eb-8655a62513ee
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: DnsValidateName, DnsValidateName function [DNS], DnsValidateName_A, DnsValidateName_UTF8, DnsValidateName_W, _dns_dnsvalidatename, dns.dnsvalidatename, windns/DnsValidateName, windns/DnsValidateName_A, windns/DnsValidateName_UTF8, windns/DnsValidateName_W
 ms.prod: windows-hardware
 ms.technology: windows-devices

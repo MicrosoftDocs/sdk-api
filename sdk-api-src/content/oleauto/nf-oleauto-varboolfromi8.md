@@ -7,7 +7,7 @@ old-location: automat\varboolfromi8.htm
 old-project: automat
 ms.assetid: 143cd441-af97-44da-a772-936f57f1df97
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: VarBoolFromI8, VarBoolFromI8 function [Automation], _oa96_VarBoolFromI8, automat.varboolfromi8, oleauto/VarBoolFromI8
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # VarBoolFromI8 function

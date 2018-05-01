@@ -7,7 +7,7 @@ old-location: ics\net_fw_profile_type2.htm
 old-project: ICS
 ms.assetid: cb8328ec-a2eb-4d6f-b6af-214a31a037e9
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: NET_FW_PROFILE2_ALL, NET_FW_PROFILE2_DOMAIN, NET_FW_PROFILE2_PRIVATE, NET_FW_PROFILE2_PUBLIC, NET_FW_PROFILE_TYPE2, NET_FW_PROFILE_TYPE2 enumeration [ICS/ICF], NET_FW_PROFILE_TYPE2_, icftypes/NET_FW_PROFILE2_ALL, icftypes/NET_FW_PROFILE2_DOMAIN, icftypes/NET_FW_PROFILE2_PRIVATE, icftypes/NET_FW_PROFILE2_PUBLIC, icftypes/NET_FW_PROFILE_TYPE2, ics.net_fw_profile_type2
 ms.prod: windows-hardware
 ms.technology: windows-devices

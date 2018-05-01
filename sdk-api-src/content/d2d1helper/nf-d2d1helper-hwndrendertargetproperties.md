@@ -7,7 +7,7 @@ old-location: direct2d\hwndrendertargetproperties.htm
 old-project: Direct2D
 ms.assetid: 41d4c58d-6840-48b6-8e31-1a0c412156cb
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: HwndRenderTargetProperties, HwndRenderTargetProperties function [Direct2D], d2d1helper/HwndRenderTargetProperties, direct2d.hwndrendertargetproperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\iatsctuningspace_put_minminorchannel.htm
 old-project: mstv
 ms.assetid: 71ae8be2-8e80-49ff-9d1b-be42a620c20c
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IATSCTuningSpace, IATSCTuningSpace interface [Microsoft TV Technologies], put_MinMinorChannel method, IATSCTuningSpace::put_MinMinorChannel, IATSCTuningSpaceput_MinMinorChannel, mstv.iatsctuningspace_put_minminorchannel, put_MinMinorChannel method [Microsoft TV Technologies], put_MinMinorChannel method [Microsoft TV Technologies], IATSCTuningSpace interface, put_MinMinorChannel,IATSCTuningSpace.put_MinMinorChannel, tuner/IATSCTuningSpace::put_MinMinorChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices

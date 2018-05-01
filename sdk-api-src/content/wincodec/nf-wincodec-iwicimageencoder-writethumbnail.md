@@ -7,7 +7,7 @@ old-location: wic\iwicimageencoder_writethumbnail.htm
 old-project: wic
 ms.assetid: 322AD13D-E755-45BD-A31D-D603DBD7FA81
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: IWICImageEncoder, IWICImageEncoder interface [Windows Imaging Component], WriteThumbnail method, IWICImageEncoder::WriteThumbnail, WriteThumbnail method [Windows Imaging Component], WriteThumbnail method [Windows Imaging Component], IWICImageEncoder interface, WriteThumbnail,IWICImageEncoder.WriteThumbnail, wic.iwicimageencoder_writethumbnail, wincodec/IWICImageEncoder::WriteThumbnail
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\ikstopologyinfo_get_nodename.htm
 old-project: DirectShow
 ms.assetid: 3e24ef6f-e49d-4397-a9b8-a46fcf576a01
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IKsTopologyInfo, IKsTopologyInfo interface [DirectShow], get_NodeName method, IKsTopologyInfo::get_NodeName, IKsTopologyInfoget_NodeName, dshow.ikstopologyinfo_get_nodename, get_NodeName method [DirectShow], get_NodeName method [DirectShow], IKsTopologyInfo interface, get_NodeName,IKsTopologyInfo.get_NodeName, vidcap/IKsTopologyInfo::get_NodeName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: VIDEOHDR, *PVIDEOHDR, *LPVIDEOHDR
+req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
 topic_type:
 -	APIRef
 -	kbSyntax

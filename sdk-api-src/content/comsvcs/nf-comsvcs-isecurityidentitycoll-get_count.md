@@ -7,7 +7,7 @@ old-location: cos\isecurityidentitycoll_get_count.htm
 old-project: cossdk
 ms.assetid: 43363504-ee5e-4d1c-a7eb-c4f003d84d57
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: ISecurityIdentityColl, ISecurityIdentityColl interface [COM+], get_Count method, ISecurityIdentityColl::get_Count, _cos_ISecurityIdentityColl_get_Count, comsvcs/ISecurityIdentityColl::get_Count, cos.isecurityidentitycoll_get_count, get_Count method [COM+], get_Count method [COM+], ISecurityIdentityColl interface, get_Count,ISecurityIdentityColl.get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices

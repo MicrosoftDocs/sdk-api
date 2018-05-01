@@ -7,7 +7,7 @@ old-location: automat\irecordinfo_getfield.htm
 old-project: automat
 ms.assetid: 6765371c-209a-4794-bff8-83560171affb
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: GetField method [Automation], GetField method [Automation], IRecordInfo interface, GetField,IRecordInfo.GetField, IRecordInfo, IRecordInfo interface [Automation], GetField method, IRecordInfo::GetField, _oa96_IRecordInfo_GetField, automat.irecordinfo_getfield, oaidl/IRecordInfo::GetField
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IRecordInfo::GetField method

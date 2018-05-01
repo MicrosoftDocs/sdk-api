@@ -7,7 +7,7 @@ old-location: dshow\iamvideoaccelerator_getuncompformatssupported.htm
 old-project: DirectShow
 ms.assetid: 33f9a4ee-4de9-4853-9581-808d7a07bfc4
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetUncompFormatsSupported method [DirectShow], GetUncompFormatsSupported method [DirectShow], IAMVideoAccelerator interface, GetUncompFormatsSupported,IAMVideoAccelerator.GetUncompFormatsSupported, IAMVideoAccelerator, IAMVideoAccelerator interface [DirectShow], GetUncompFormatsSupported method, IAMVideoAccelerator::GetUncompFormatsSupported, IAMVideoAcceleratorGetUncompFormatsSupported, dshow.iamvideoaccelerator_getuncompformatssupported, videoacc/IAMVideoAccelerator::GetUncompFormatsSupported
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: VIDEOHDR, *PVIDEOHDR, *LPVIDEOHDR
+req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,7 +7,7 @@ old-location: security\wintrust_sgnr_info.htm
 old-project: SecCrypto
 ms.assetid: 04e62bfa-efe4-428a-ae6b-58c2377fd5ba
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: "*PWINTRUST_SGNR_INFO, PWINTRUST_SGNR_INFO, PWINTRUST_SGNR_INFO structure pointer [Security], WINTRUST_SGNR_INFO, WINTRUST_SGNR_INFO structure [Security], WINTRUST_SGNR_INFO_, _win32_wintrust_sgnr_info, security.wintrust_sgnr_info, wintrust/PWINTRUST_SGNR_INFO, wintrust/WINTRUST_SGNR_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

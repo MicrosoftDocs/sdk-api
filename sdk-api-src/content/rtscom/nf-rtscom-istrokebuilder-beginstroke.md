@@ -7,7 +7,7 @@ old-location: tablet\istrokebuilder_beginstroke.htm
 old-project: tablet
 ms.assetid: 40b8ce05-0272-4505-8361-13bb6ca701ea
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: 40b8ce05-0272-4505-8361-13bb6ca701ea, BeginStroke method [Tablet PC], BeginStroke method [Tablet PC], IStrokeBuilder interface, BeginStroke,IStrokeBuilder.BeginStroke, IStrokeBuilder, IStrokeBuilder interface [Tablet PC], BeginStroke method, IStrokeBuilder::BeginStroke, rtscom/IStrokeBuilder::BeginStroke, tablet.istrokebuilder_beginstroke
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: RTSCom.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IStrokeBuilder::BeginStroke method

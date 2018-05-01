@@ -7,7 +7,7 @@ old-location: coreaudio\ipart_registercontrolchangecallback.htm
 old-project: CoreAudio
 ms.assetid: 58cf52c9-20ee-46c4-926e-c374a4f42240
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: IPart, IPart interface [Core Audio], RegisterControlChangeCallback method, IPart::RegisterControlChangeCallback, IPartRegisterControlChangeCallback, RegisterControlChangeCallback method [Core Audio], RegisterControlChangeCallback method [Core Audio], IPart interface, RegisterControlChangeCallback,IPart.RegisterControlChangeCallback, coreaudio.ipart_registercontrolchangecallback, devicetopology/IPart::RegisterControlChangeCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

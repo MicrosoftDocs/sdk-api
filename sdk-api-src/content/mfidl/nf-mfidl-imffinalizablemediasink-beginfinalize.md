@@ -7,7 +7,7 @@ old-location: mf\imffinalizablemediasink_beginfinalize.htm
 old-project: medfound
 ms.assetid: fbcb7722-ba64-40a6-9c43-26a6b8dce7f6
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: BeginFinalize method [Media Foundation], BeginFinalize method [Media Foundation], IMFFinalizableMediaSink interface, BeginFinalize,IMFFinalizableMediaSink.BeginFinalize, IMFFinalizableMediaSink, IMFFinalizableMediaSink interface [Media Foundation], BeginFinalize method, IMFFinalizableMediaSink::BeginFinalize, fbcb7722-ba64-40a6-9c43-26a6b8dce7f6, mf.imffinalizablemediasink_beginfinalize, mfidl/IMFFinalizableMediaSink::BeginFinalize
 ms.prod: windows-hardware
 ms.technology: windows-devices

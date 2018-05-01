@@ -7,7 +7,7 @@ old-location: tablet\iinkcustomstrokes_count.htm
 old-project: tablet
 ms.assetid: f1b6772e-9b6a-41e2-b6c2-b1707f59768a
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: Count property [Tablet PC], Count property [Tablet PC], IInkCustomStrokes interface, IInkCustomStrokes, IInkCustomStrokes interface [Tablet PC], Count property, IInkCustomStrokes.Count, IInkCustomStrokes.get_Count, IInkCustomStrokes::get_Count, get_Count,IInkCustomStrokes.get_Count, msinkaut/IInkCustomStrokes::Count, msinkaut/IInkCustomStrokes::get_Count, tablet.iinkcustomstrokes_count
 ms.prod: windows-hardware
 ms.technology: windows-devices

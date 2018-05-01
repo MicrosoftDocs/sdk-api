@@ -7,7 +7,7 @@ old-location: cos\iholder_freeresource.htm
 old-project: cossdk
 ms.assetid: 1d110bf6-7204-4fbb-abb7-ced7cf885e5b
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: FreeResource method [COM+], FreeResource method [COM+], IHolder interface, FreeResource,IHolder.FreeResource, IHolder, IHolder interface [COM+], FreeResource method, IHolder::FreeResource, _dtc_IHolder_FreeResource, comsvcs/IHolder::FreeResource, cos.iholder_freeresource
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: termserv\iwrdsprotocolshadowcallback_stopshadow.htm
 old-project: TermServ
 ms.assetid: 09911813-554d-4ce1-b34e-5a6f57ec286d
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: IWRdsProtocolShadowCallback, IWRdsProtocolShadowCallback interface [Remote Desktop Services], StopShadow method, IWRdsProtocolShadowCallback::StopShadow, StopShadow method [Remote Desktop Services], StopShadow method [Remote Desktop Services], IWRdsProtocolShadowCallback interface, StopShadow,IWRdsProtocolShadowCallback.StopShadow, termserv.iwrdsprotocolshadowcallback_stopshadow, wtsprotocol/IWRdsProtocolShadowCallback::StopShadow
 ms.prod: windows-hardware
 ms.technology: windows-devices

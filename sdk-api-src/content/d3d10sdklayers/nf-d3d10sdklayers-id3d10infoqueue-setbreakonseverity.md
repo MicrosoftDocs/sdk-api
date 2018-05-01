@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10infoqueue_setbreakonseverity.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10infoqueue_setbreakonseverity.htm
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: ID3D10InfoQueue, ID3D10InfoQueue interface [Direct3D 10], SetBreakOnSeverity method, ID3D10InfoQueue::SetBreakOnSeverity, SetBreakOnSeverity method [Direct3D 10], SetBreakOnSeverity method [Direct3D 10], ID3D10InfoQueue interface, SetBreakOnSeverity,ID3D10InfoQueue.SetBreakOnSeverity, a333f38c-3dea-80fe-c7bb-b11dfec7e140, d3d10sdklayers/ID3D10InfoQueue::SetBreakOnSeverity, direct3d10.id3d10infoqueue_setbreakonseverity
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mscs\witnesstaghelper.htm
 old-project: MsCS
 ms.assetid: FFE7EF63-4025-4CC5-B3F8-FF07FA67AFD1
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: PWitnessTagHelper, PWitnessTagHelper structure pointer [Failover Cluster], WitnessTagHelper, WitnessTagHelper structure [Failover Cluster], _WitnessTagHelper, mscs.witnesstaghelper, resapi/PWitnessTagHelper, resapi/WitnessTagHelper
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _WitnessTagHelper structure

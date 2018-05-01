@@ -7,7 +7,7 @@ old-location: shell\IPersistSerializedPropStorage_SetPropertyStorage.htm
 old-project: shell
 ms.assetid: 5b6d14ba-3de3-493e-8551-0f3caa02f339
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IPersistSerializedPropStorage, IPersistSerializedPropStorage interface [Windows Shell], SetPropertyStorage method, IPersistSerializedPropStorage::SetPropertyStorage, SetPropertyStorage method [Windows Shell], SetPropertyStorage method [Windows Shell], IPersistSerializedPropStorage interface, SetPropertyStorage,IPersistSerializedPropStorage.SetPropertyStorage, _shell_IPersistSerializedPropStorage_SetPropertyStorage, propsys/IPersistSerializedPropStorage::SetPropertyStorage, shell.IPersistSerializedPropStorage_SetPropertyStorage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IPersistSerializedPropStorage::SetPropertyStorage method

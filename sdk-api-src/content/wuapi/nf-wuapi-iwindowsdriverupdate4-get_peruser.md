@@ -7,7 +7,7 @@ old-location: wua\iwindowsdriverupdate4_peruser.htm
 old-project: Wua_Sdk
 ms.assetid: 97e1ede2-9b7d-46af-b3a5-d0860eaa9dce
 ms.author: windowsdriverdev
-ms.date: 3/15/2018
+ms.date: 4/18/2018
 ms.keywords: IWindowsDriverUpdate4, IWindowsDriverUpdate4 interface [Windows Update Agent], PerUser property, IWindowsDriverUpdate4.PerUser, IWindowsDriverUpdate4::get_PerUser, PerUser property [Windows Update Agent], PerUser property [Windows Update Agent], IWindowsDriverUpdate4 interface, get_PerUser,IWindowsDriverUpdate4.get_PerUser, wua.iwindowsdriverupdate4_peruser, wuapi/IWindowsDriverUpdate4::PerUser, wuapi/IWindowsDriverUpdate4::get_PerUser
 ms.prod: windows-hardware
 ms.technology: windows-devices

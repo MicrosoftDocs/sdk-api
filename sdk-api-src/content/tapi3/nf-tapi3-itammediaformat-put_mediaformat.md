@@ -7,7 +7,7 @@ old-location: tapi3\itammediaformat_put_mediaformat.htm
 old-project: Tapi
 ms.assetid: 692df069-3016-46a2-9f33-4c709e85be1b
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: ITAMMediaFormat, ITAMMediaFormat interface [TAPI 2.2], put_MediaFormat method, ITAMMediaFormat::put_MediaFormat, _tapi3_itammediaformat_put_mediaformat, put_MediaFormat method [TAPI 2.2], put_MediaFormat method [TAPI 2.2], ITAMMediaFormat interface, put_MediaFormat,ITAMMediaFormat.put_MediaFormat, tapi3.itammediaformat_put_mediaformat, tapi3ds/ITAMMediaFormat::put_MediaFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices

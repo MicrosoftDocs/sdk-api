@@ -7,7 +7,7 @@ old-location: nwifi\idot11adhocsecuritysettings_getdot11cipheralgorithm.htm
 old-project: NativeWiFi
 ms.assetid: 46bf39e3-351f-41c2-8f68-886fce8a83bd
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/13/2018
 ms.keywords: GetDot11CipherAlgorithm method [NativeWIFI], GetDot11CipherAlgorithm method [NativeWIFI], IDot11AdHocSecuritySettings interface, GetDot11CipherAlgorithm,IDot11AdHocSecuritySettings.GetDot11CipherAlgorithm, IDot11AdHocSecuritySettings, IDot11AdHocSecuritySettings interface [NativeWIFI], GetDot11CipherAlgorithm method, IDot11AdHocSecuritySettings::GetDot11CipherAlgorithm, adhoc/IDot11AdHocSecuritySettings::GetDot11CipherAlgorithm, nwifi.idot11adhocsecuritysettings_getdot11cipheralgorithm
 ms.prod: windows-hardware
 ms.technology: windows-devices

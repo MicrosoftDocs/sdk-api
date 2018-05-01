@@ -7,7 +7,7 @@ old-location: ics\inetsharingportmappingprops_get_internalport.htm
 old-project: ICS
 ms.assetid: 53f19eee-98da-4b90-99cd-b0bed4ec6d6f
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: INetSharingPortMappingProps, INetSharingPortMappingProps interface [ICS/ICF], get_InternalPort method, INetSharingPortMappingProps::get_InternalPort, _ics_inetsharingportmappingprops_get_port, get_InternalPort method [ICS/ICF], get_InternalPort method [ICS/ICF], INetSharingPortMappingProps interface, get_InternalPort,INetSharingPortMappingProps.get_InternalPort, ics.inetsharingportmappingprops_get_internalport, ics.inetsharingportmappingprops_get_port, netcon/INetSharingPortMappingProps::get_InternalPort
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # INetSharingPortMappingProps::get_InternalPort method

@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Powrprof.lib
 req.dll: Powrprof.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # PowerSettingAccessCheckEx function

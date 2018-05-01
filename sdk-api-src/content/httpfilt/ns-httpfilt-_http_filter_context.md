@@ -7,7 +7,7 @@ old-location: tmg\http_filter_context.htm
 old-project: TMG
 ms.assetid: 00b9f42c-46e1-4ef3-a7f3-73ac31cef2dd
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/3/2018
 ms.keywords: "*PHTTP_FILTER_CONTEXT, HTTP_FILTER_CONTEXT, HTTP_FILTER_CONTEXT structure [Forefront TMG], PHTTP_FILTER_CONTEXT, PHTTP_FILTER_CONTEXT structure pointer [Forefront TMG], _HTTP_FILTER_CONTEXT, httpfilt/HTTP_FILTER_CONTEXT, httpfilt/PHTTP_FILTER_CONTEXT, tmg.http_filter_context"
 ms.prod: windows-hardware
 ms.technology: windows-devices

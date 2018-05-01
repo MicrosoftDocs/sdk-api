@@ -7,7 +7,7 @@ old-location: winrt\ipackagedebugsettings.htm
 old-project: WinRT
 ms.assetid: cae72152-c9d2-4791-b3f8-1187fb2a4d6c
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/24/2018
 ms.keywords: IPackageDebugSettings, IPackageDebugSettings interface [Windows Runtime], IPackageDebugSettings interface [Windows Runtime], described, shobjidl_core/IPackageDebugSettings, winrt.ipackagedebugsettings
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\icameracontrol_get_iris.htm
 old-project: DirectShow
 ms.assetid: 710a29f1-f5ab-42cf-b912-dd9b4546757e
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ICameraControl, ICameraControl interface [DirectShow], get_Iris method, ICameraControl::get_Iris, ICameraControlget_Iris, dshow.icameracontrol_get_iris, get_Iris method [DirectShow], get_Iris method [DirectShow], ICameraControl interface, get_Iris,ICameraControl.get_Iris, vidcap/ICameraControl::get_Iris
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: VIDEOHDR, *PVIDEOHDR, *LPVIDEOHDR
+req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
 topic_type:
 -	APIRef
 -	kbSyntax

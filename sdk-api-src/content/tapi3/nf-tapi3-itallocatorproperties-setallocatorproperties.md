@@ -7,7 +7,7 @@ old-location: tapi3\itallocatorproperties_setallocatorproperties.htm
 old-project: Tapi
 ms.assetid: 3ab13fac-2667-44ce-aa1a-72cd18d37b0a
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: ITAllocatorProperties, ITAllocatorProperties interface [TAPI 2.2], SetAllocatorProperties method, ITAllocatorProperties::SetAllocatorProperties, SetAllocatorProperties method [TAPI 2.2], SetAllocatorProperties method [TAPI 2.2], ITAllocatorProperties interface, SetAllocatorProperties,ITAllocatorProperties.SetAllocatorProperties, _tapi3_itallocatorproperties_setallocatorproperties, tapi3.itallocatorproperties_setallocatorproperties, tapi3ds/ITAllocatorProperties::SetAllocatorProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11createdeviceandswapchain.htm
 old-project: direct3d11
 ms.assetid: 84d73e8c-f13c-4343-91de-57f9f8a0ad96
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/6/2018
 ms.keywords: 7e7df363-d5a2-5b79-817f-3e1d6053d170, D3D11CreateDeviceAndSwapChain, D3D11CreateDeviceAndSwapChain function [Direct3D 11], d3d11/D3D11CreateDeviceAndSwapChain, direct3d11.d3d11createdeviceandswapchain
 ms.prod: windows-hardware
 ms.technology: windows-devices

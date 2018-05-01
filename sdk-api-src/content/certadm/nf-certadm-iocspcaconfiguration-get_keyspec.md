@@ -7,7 +7,7 @@ old-location: security\iocspcaconfiguration_keyspec_method.htm
 old-project: SecCrypto
 ms.assetid: 86f1e52f-bce2-497c-98e7-848ffc3243a0
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: IOCSPCAConfiguration, IOCSPCAConfiguration interface [Security], KeySpec property, IOCSPCAConfiguration.KeySpec, IOCSPCAConfiguration::get_KeySpec, KeySpec property [Security], KeySpec property [Security], IOCSPCAConfiguration interface, certadm/IOCSPCAConfiguration::KeySpec, certadm/IOCSPCAConfiguration::get_KeySpec, get_KeySpec,IOCSPCAConfiguration.get_KeySpec, security.iocspcaconfiguration_keyspec_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CHANNEL_ENTRY_POINTS, *PCHANNEL_ENTRY_POINTS
+req.typenames: 
 topic_type:
 -	APIRef
 -	kbSyntax

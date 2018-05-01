@@ -7,7 +7,7 @@ old-location: tapi3\imcastaddressallocation_releaseaddress.htm
 old-project: Tapi
 ms.assetid: 6b5fd18b-1b13-4e2a-9ff9-4a66212213a7
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: IMcastAddressAllocation, IMcastAddressAllocation interface [TAPI 2.2], ReleaseAddress method, IMcastAddressAllocation::ReleaseAddress, ReleaseAddress method [TAPI 2.2], ReleaseAddress method [TAPI 2.2], IMcastAddressAllocation interface, ReleaseAddress,IMcastAddressAllocation.ReleaseAddress, _tapi3_imcastaddressallocation_releaseaddress, mdhcp/IMcastAddressAllocation::ReleaseAddress, tapi3.imcastaddressallocation_releaseaddress
 ms.prod: windows-hardware
 ms.technology: windows-devices

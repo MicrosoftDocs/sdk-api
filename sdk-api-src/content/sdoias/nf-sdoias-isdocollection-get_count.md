@@ -7,7 +7,7 @@ old-location: nps\SDO_isdocollection_get_count.htm
 old-project: Nps
 ms.assetid: 57f83f72-327b-4018-be1b-3527820f88d5
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/24/2018
 ms.keywords: ISdoCollection, ISdoCollection interface [Network Policy Server], get_Count method, ISdoCollection::get_Count, _sdo_isdocollection_get_count, get_Count method [Network Policy Server], get_Count method [Network Policy Server], ISdoCollection interface, get_Count,ISdoCollection.get_Count, nps.SDO_isdocollection_get_count, sdo.isdocollection_get_count, sdoias/ISdoCollection::get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Iassdo.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ISdoCollection::get_Count method

@@ -7,7 +7,7 @@ old-location: sidebar\System_Time_getLocalTime.htm
 old-project: sidebar
 ms.assetid: VS|sidebar|~\sidebar\reference\objects\systemtime\getlocaltime.htm
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/17/2018
 ms.keywords: GetLocalTime, System.Time object [Windows Sidebar], getLocalTime method, System.Time.getLocalTime, getLocalTime method [Windows Sidebar], getLocalTime method [Windows Sidebar], System.Time object, sidebar.System_Time_getLocalTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

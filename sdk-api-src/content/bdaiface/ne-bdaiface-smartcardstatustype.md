@@ -7,7 +7,7 @@ old-location: mstv\smartcardstatustype.htm
 old-project: mstv
 ms.assetid: c699c6a9-f554-4e2d-ac7f-9b5ff954fa6b
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: CardDataChanged, CardError, CardFirmwareUpgrade, CardInserted, CardRemoved, SmartCardStatusType, SmartCardStatusType enumeration [Microsoft TV Technologies], bdaiface/CardDataChanged, bdaiface/CardError, bdaiface/CardFirmwareUpgrade, bdaiface/CardInserted, bdaiface/CardRemoved, bdaiface/SmartCardStatusType, mstv.smartcardstatustype
 ms.prod: windows-hardware
 ms.technology: windows-devices

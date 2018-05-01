@@ -7,7 +7,7 @@ old-location: mf\imfasynccallbacklogging_getobjectpointer.htm
 old-project: medfound
 ms.assetid: a2628b3f-37b7-4317-960e-cbd2339aade6
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetObjectPointer method [Media Foundation], GetObjectPointer method [Media Foundation], IMFAsyncCallbackLogging interface, GetObjectPointer,IMFAsyncCallbackLogging.GetObjectPointer, IMFAsyncCallbackLogging, IMFAsyncCallbackLogging interface [Media Foundation], GetObjectPointer method, IMFAsyncCallbackLogging::GetObjectPointer, mf.imfasynccallbacklogging_getobjectpointer, mfobjects/IMFAsyncCallbackLogging::GetObjectPointer
 ms.prod: windows-hardware
 ms.technology: windows-devices

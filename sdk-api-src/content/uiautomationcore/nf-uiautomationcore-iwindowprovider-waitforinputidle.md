@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IWindowProvider_WaitForInputIdle.htm
 old-project: WinAuto
 ms.assetid: 787f8309-09aa-4e6a-bfbc-fc03b917ead4
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: IWindowProvider, IWindowProvider interface [Windows Accessibility], WaitForInputIdle method, IWindowProvider::WaitForInputIdle, WaitForInputIdle method [Windows Accessibility], WaitForInputIdle method [Windows Accessibility], IWindowProvider interface, WaitForInputIdle,IWindowProvider.WaitForInputIdle, uiauto.uiauto_IWindowProvider_WaitForInputIdle, uiauto_IWindowProvider_WaitForInputIdle, uiautomationcore/IWindowProvider::WaitForInputIdle, winauto.uiauto_IWindowProvider_WaitForInputIdle
 ms.prod: windows-hardware
 ms.technology: windows-devices

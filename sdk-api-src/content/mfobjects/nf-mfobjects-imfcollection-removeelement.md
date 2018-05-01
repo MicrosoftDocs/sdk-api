@@ -7,7 +7,7 @@ old-location: mf\imfcollection_removeelement.htm
 old-project: medfound
 ms.assetid: 47f33235-6bb5-4103-82b4-87210b0e695c
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 47f33235-6bb5-4103-82b4-87210b0e695c, IMFCollection, IMFCollection interface [Media Foundation], RemoveElement method, IMFCollection::RemoveElement, RemoveElement method [Media Foundation], RemoveElement method [Media Foundation], IMFCollection interface, RemoveElement,IMFCollection.RemoveElement, mf.imfcollection_removeelement, mfobjects/IMFCollection::RemoveElement
 ms.prod: windows-hardware
 ms.technology: windows-devices

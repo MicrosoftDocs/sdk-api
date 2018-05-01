@@ -7,7 +7,7 @@ old-location: mf\imfcapturesource_addeffect.htm
 old-project: medfound
 ms.assetid: C108360D-0B8C-4539-9D78-A5559100086E
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: AddEffect method [Media Foundation], AddEffect method [Media Foundation], IMFCaptureSource interface, AddEffect,IMFCaptureSource.AddEffect, IMFCaptureSource, IMFCaptureSource interface [Media Foundation], AddEffect method, IMFCaptureSource::AddEffect, MF_CAPTURE_ENGINE_FIRST_SOURCE_AUDIO_STREAM, MF_CAPTURE_ENGINE_FIRST_SOURCE_PHOTO_STREAM, MF_CAPTURE_ENGINE_FIRST_SOURCE_VIDEO_STREAM, mf.imfcapturesource_addeffect, mfcaptureengine/IMFCaptureSource::AddEffect
 ms.prod: windows-hardware
 ms.technology: windows-devices

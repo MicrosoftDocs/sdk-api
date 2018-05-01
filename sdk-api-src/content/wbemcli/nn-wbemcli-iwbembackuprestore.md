@@ -7,7 +7,7 @@ old-location: wmi\iwbembackuprestore.htm
 old-project: WmiSdk
 ms.assetid: 27599145-417b-4ca8-8e25-5fffb2e7008c
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: IWbemBackupRestore, IWbemBackupRestore interface [Windows Management Instrumentation], IWbemBackupRestore interface [Windows Management Instrumentation], described, WbemBackupRestore, _hmm_iwbembackuprestore, wbemcli/IWbemBackupRestore, wmi.iwbembackuprestore
 ms.prod: windows-hardware
 ms.technology: windows-devices

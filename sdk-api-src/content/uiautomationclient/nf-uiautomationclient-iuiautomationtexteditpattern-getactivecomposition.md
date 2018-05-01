@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationTextEditPattern_GetActiveComposition.h
 old-project: WinAuto
 ms.assetid: F6503B77-19FB-6D00-D20C-E3D3F0EC28DA
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: GetActiveComposition method [Windows Accessibility], GetActiveComposition method [Windows Accessibility], IUIAutomationTextEditPattern interface, GetActiveComposition,IUIAutomationTextEditPattern.GetActiveComposition, IUIAutomationTextEditPattern, IUIAutomationTextEditPattern interface [Windows Accessibility], GetActiveComposition method, IUIAutomationTextEditPattern::GetActiveComposition, uiautomationclient/IUIAutomationTextEditPattern::GetActiveComposition, winauto.uiauto_IUIAutomationTextEditPattern_GetActiveComposition
 ms.prod: windows-hardware
 ms.technology: windows-devices

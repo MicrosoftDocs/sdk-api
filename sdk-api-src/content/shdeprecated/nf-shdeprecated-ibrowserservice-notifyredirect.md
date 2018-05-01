@@ -7,7 +7,7 @@ old-location: shell\IBrowserService_NotifyRedirect.htm
 old-project: shell
 ms.assetid: a37c20b9-e2c6-438b-9fd5-749c680d5ee0
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IBrowserService, IBrowserService interface [Windows Shell], NotifyRedirect method, IBrowserService::NotifyRedirect, NotifyRedirect method [Windows Shell], NotifyRedirect method [Windows Shell], IBrowserService interface, NotifyRedirect,IBrowserService.NotifyRedirect, shdeprecated/IBrowserService::NotifyRedirect, shell.IBrowserService_NotifyRedirect, zone_IBrowserService_NotifyRedirect
 ms.prod: windows-hardware
 ms.technology: windows-devices

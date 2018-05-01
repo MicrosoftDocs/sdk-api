@@ -7,7 +7,7 @@ old-location: mstv\idvb_rst_getrecordoriginalnetworkid.htm
 old-project: mstv
 ms.assetid: 949dafeb-f59d-4507-a3eb-4a381f4108ff
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetRecordOriginalNetworkId method [Microsoft TV Technologies], GetRecordOriginalNetworkId method [Microsoft TV Technologies], IDVB_RST interface, GetRecordOriginalNetworkId,IDVB_RST.GetRecordOriginalNetworkId, IDVB_RST, IDVB_RST interface [Microsoft TV Technologies], GetRecordOriginalNetworkId method, IDVB_RST::GetRecordOriginalNetworkId, IDVB_RSTGetRecordOriginalNetworkId, dvbsiparser/IDVB_RST::GetRecordOriginalNetworkId, mstv.idvb_rst_getrecordoriginalnetworkid
 ms.prod: windows-hardware
 ms.technology: windows-devices

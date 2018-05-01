@@ -7,7 +7,7 @@ old-location: p2p\peercollabquerycontactdata.htm
 old-project: P2PSdk
 ms.assetid: 278c7622-988e-441d-a6b9-f62947f881e8
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/23/2018
 ms.keywords: PeerCollabQueryContactData, PeerCollabQueryContactData function [Peer Networking], p2p.peercollabquerycontactdata, p2p/PeerCollabQueryContactData
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # PeerCollabQueryContactData function

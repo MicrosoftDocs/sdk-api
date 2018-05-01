@@ -7,7 +7,7 @@ old-location: automat\funcflags.htm
 old-project: automat
 ms.assetid: 290f8769-dde4-47b9-b3bb-680efc95f532
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: FUNCFLAGS, FUNCFLAGS enumeration [Automation], FUNCFLAG_FBINDABLE, FUNCFLAG_FDEFAULTBIND, FUNCFLAG_FDEFAULTCOLLELEM, FUNCFLAG_FDISPLAYBIND, FUNCFLAG_FHIDDEN, FUNCFLAG_FIMMEDIATEBIND, FUNCFLAG_FNONBROWSABLE, FUNCFLAG_FREPLACEABLE, FUNCFLAG_FREQUESTEDIT, FUNCFLAG_FRESTRICTED, FUNCFLAG_FSOURCE, FUNCFLAG_FUIDEFAULT, FUNCFLAG_FUSESGETLASTERROR, _oa96_FUNCFLAGS, automat.funcflags, oaidl/FUNCFLAGS, oaidl/FUNCFLAG_FBINDABLE, oaidl/FUNCFLAG_FDEFAULTBIND, oaidl/FUNCFLAG_FDEFAULTCOLLELEM, oaidl/FUNCFLAG_FDISPLAYBIND, oaidl/FUNCFLAG_FHIDDEN, oaidl/FUNCFLAG_FIMMEDIATEBIND, oaidl/FUNCFLAG_FNONBROWSABLE, oaidl/FUNCFLAG_FREPLACEABLE, oaidl/FUNCFLAG_FREQUESTEDIT, oaidl/FUNCFLAG_FRESTRICTED, oaidl/FUNCFLAG_FSOURCE, oaidl/FUNCFLAG_FUIDEFAULT, oaidl/FUNCFLAG_FUSESGETLASTERROR, tagFUNCFLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # tagFUNCFLAGS enumeration

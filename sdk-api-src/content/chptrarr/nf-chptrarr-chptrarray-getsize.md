@@ -7,7 +7,7 @@ old-location: wmi\chptrarray_getsize.htm
 old-project: WmiSdk
 ms.assetid: 9b9bcd3f-06d9-47f1-aecb-1c611c9866bd
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: "?GetSize@CHPtrArray@@QBEHXZ, CHPtrArray, CHPtrArray interface [Windows Management Instrumentation], GetSize method, CHPtrArray::GetSize, GetSize method [Windows Management Instrumentation], GetSize method [Windows Management Instrumentation], CHPtrArray interface, GetSize,CHPtrArray.GetSize, chptrarr/CHPtrArray::GetSize, wmi.chptrarray_getsize"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CF_SYNC_ROOT_STANDARD_INFO
+req.typenames: CF_SYNC_STATUS
 topic_type:
 -	APIRef
 -	kbSyntax

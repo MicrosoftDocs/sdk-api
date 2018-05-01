@@ -7,7 +7,7 @@ old-location: mstv\ipat_getrecordprogrammappid.htm
 old-project: mstv
 ms.assetid: 0b1ca2c0-52c4-447a-8191-8f9b69aecd25
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetRecordProgramMapPid method [Microsoft TV Technologies], GetRecordProgramMapPid method [Microsoft TV Technologies], IPAT interface, GetRecordProgramMapPid,IPAT.GetRecordProgramMapPid, IPAT, IPAT interface [Microsoft TV Technologies], GetRecordProgramMapPid method, IPAT::GetRecordProgramMapPid, IPATGetRecordProgramMapPid, mpeg2psiparser/IPAT::GetRecordProgramMapPid, mstv.ipat_getrecordprogrammappid
 ms.prod: windows-hardware
 ms.technology: windows-devices

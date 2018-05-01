@@ -7,7 +7,7 @@ old-location: mf\imfmediakeysessionnotify_keymessage.htm
 old-project: medfound
 ms.assetid: 50b0eb38-a212-4c89-80e8-83472b3d45ee
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFMediaKeySessionNotify, IMFMediaKeySessionNotify interface [Media Foundation], KeyMessage method, IMFMediaKeySessionNotify::KeyMessage, KeyMessage method [Media Foundation], KeyMessage method [Media Foundation], IMFMediaKeySessionNotify interface, KeyMessage,IMFMediaKeySessionNotify.KeyMessage, mf.imfmediakeysessionnotify_keymessage, mfmediaengine/IMFMediaKeySessionNotify::KeyMessage
 ms.prod: windows-hardware
 ms.technology: windows-devices

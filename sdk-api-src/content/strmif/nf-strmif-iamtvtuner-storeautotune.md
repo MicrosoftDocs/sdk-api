@@ -7,7 +7,7 @@ old-location: dshow\iamtvtuner_storeautotune.htm
 old-project: DirectShow
 ms.assetid: 6e39d757-d8bd-4011-9a67-6bf57b5d820b
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMTVTuner, IAMTVTuner interface [DirectShow], StoreAutoTune method, IAMTVTuner::StoreAutoTune, IAMTVTunerStoreAutoTune, StoreAutoTune method [DirectShow], StoreAutoTune method [DirectShow], IAMTVTuner interface, StoreAutoTune,IAMTVTuner.StoreAutoTune, dshow.iamtvtuner_storeautotune, strmif/IAMTVTuner::StoreAutoTune
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\imfmuxstreamsamplemanager_getstreamcount.htm
 old-project: medfound
 ms.assetid: 7DB1AEAD-591F-4FA0-9DF0-9774C76A4B91
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetStreamCount method [Media Foundation], GetStreamCount method [Media Foundation], IMFMuxStreamSampleManager interface, GetStreamCount,IMFMuxStreamSampleManager.GetStreamCount, IMFMuxStreamSampleManager, IMFMuxStreamSampleManager interface [Media Foundation], GetStreamCount method, IMFMuxStreamSampleManager::GetStreamCount, mf.imfmuxstreamsamplemanager_getstreamcount, mfobjects/IMFMuxStreamSampleManager::GetStreamCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

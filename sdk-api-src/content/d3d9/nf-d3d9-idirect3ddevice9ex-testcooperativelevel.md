@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3ddevice9ex_testcooperativelevel.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9ex_testcooperativelevel.htm
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/10/2018
 ms.keywords: 6f94d11f-1a89-26b6-63ad-498e9b13565c, IDirect3DDevice9Ex, IDirect3DDevice9Ex interface [Direct3D 9], TestCooperativeLevel method, IDirect3DDevice9Ex::TestCooperativeLevel, TestCooperativeLevel method [Direct3D 9], TestCooperativeLevel method [Direct3D 9], IDirect3DDevice9Ex interface, TestCooperativeLevel,IDirect3DDevice9Ex.TestCooperativeLevel, d3d9/IDirect3DDevice9Ex::TestCooperativeLevel, direct3d9.idirect3ddevice9ex_testcooperativelevel
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: upnp\iupnpdevicefinder_startasyncfind.htm
 old-project: UPnP
 ms.assetid: 3189ea47-8cb3-4b95-b88d-7ff72b776e56
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/25/2018
 ms.keywords: IUPnPDeviceFinder, IUPnPDeviceFinder interface [UPnP APIs], StartAsyncFind method, IUPnPDeviceFinder::StartAsyncFind, StartAsyncFind method [UPnP APIs], StartAsyncFind method [UPnP APIs], IUPnPDeviceFinder interface, StartAsyncFind,IUPnPDeviceFinder.StartAsyncFind, _upnp_iupnpdevicefinder_startasyncfind, upnp.iupnpdevicefinder_startasyncfind, upnp/IUPnPDeviceFinder::StartAsyncFind
 ms.prod: windows-hardware
 ms.technology: windows-devices

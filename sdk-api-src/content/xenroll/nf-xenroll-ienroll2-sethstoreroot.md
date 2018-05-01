@@ -1,0 +1,87 @@
+---
+UID: NF:xenroll.IEnroll2.SetHStoreROOT
+title: IEnroll2::SetHStoreROOT method
+author: windows-driver-content
+description: The SetHStoreROOT method specifies the handle to use for the Root store. This method was first defined in the IEnroll2 interface.
+old-location: security\ienroll4_sethstoreroot.htm
+old-project: SecCrypto
+ms.assetid: d41fabce-e0f8-4e82-b177-59a10af376ab
+ms.author: windowsdriverdev
+ms.date: 4/18/2018
+ms.keywords: IEnroll2, IEnroll2 interface [Security], SetHStoreROOT method, IEnroll2::SetHStoreROOT, SetHStoreROOT method [Security], SetHStoreROOT method [Security], IEnroll2 interface, SetHStoreROOT,IEnroll2.SetHStoreROOT, security.ienroll4_sethstoreroot, xenroll/IEnroll2::SetHStoreROOT
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: xenroll.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: XBL_IDP_AUTH_TOKEN_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Xenroll.dll
+api_name:
+-	IEnroll2.SetHStoreROOT
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Xenroll.dll
+req.irql: 
+req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+---
+
+# IEnroll2::SetHStoreROOT method
+
+
+## -description
+
+
+<p class="CCE_Message">[This method is no longer available for use as of Windows Server 2008 and Windows Vista.]
+
+The <b>SetHStoreROOT</b> method specifies the handle to use for the Root store. This method was first defined in the <a href="https://msdn.microsoft.com/60a28944-35de-4ea2-8523-5634685ac224">IEnroll2</a> interface.
+
+
+## -parameters
+
+
+
+
+### -param hStore [in]
+
+Certificate store handle to use for the Root store.
+
+
+## -returns
+
+
+
+
+						The return value is an <b>HRESULT</b>. A value of S_OK indicates success.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/133529fb-e02a-41a2-83df-646cbc01dbe9">IEnroll2</a>
+ 
+
+ 
+

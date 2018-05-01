@@ -7,7 +7,7 @@ old-location: shell\SHFree.htm
 old-project: shell
 ms.assetid: c9a532ad-ae24-4505-9e7b-577b90365441
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: SHFree, SHFree function [Windows Shell], _win32_SHFree, shell.SHFree, shlobj_core/SHFree
 ms.prod: windows-hardware
 ms.technology: windows-devices

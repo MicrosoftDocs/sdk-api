@@ -7,7 +7,7 @@ old-location: mstv\iatsc_ett_initialize.htm
 old-project: mstv
 ms.assetid: 2278b4e0-f30d-4405-a05b-8cd93b1de185
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IATSC_ETT, IATSC_ETT interface [Microsoft TV Technologies], Initialize method, IATSC_ETT::Initialize, IATSC_ETTInitialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies], IATSC_ETT interface, Initialize,IATSC_ETT.Initialize, atscpsipparser/IATSC_ETT::Initialize, mstv.iatsc_ett_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_WRITER_PAYLOAD_STREAM
+req.typenames: AsyncStatus
 topic_type:
 -	APIRef
 -	kbSyntax

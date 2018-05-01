@@ -59,6 +59,11 @@ The
 
 
 
+### -field sess_header
+
+RSVP Object Header, in the form of an <a href="https://msdn.microsoft.com/90a237c0-0e62-4f27-927a-e3f3c1ac629e">RsvpObjHdr</a> structure.
+
+
 ### -field sess_u
 
 
@@ -66,11 +71,6 @@ The
 #### sess_ipv4
 
 Session information, in the form of a <a href="https://msdn.microsoft.com/8fbe41f2-c7c7-4476-b5e6-f3306ce74cf6">Session_IPv4</a> structure.
-
-
-### -field sess_header
-
-RSVP Object Header, in the form of an <a href="https://msdn.microsoft.com/90a237c0-0e62-4f27-927a-e3f3c1ac629e">RsvpObjHdr</a> structure.
 
 
 ## -see-also

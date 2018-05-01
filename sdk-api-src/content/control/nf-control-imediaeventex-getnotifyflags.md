@@ -7,7 +7,7 @@ old-location: dshow\imediaeventex_getnotifyflags.htm
 old-project: DirectShow
 ms.assetid: 797c5ee2-5a3c-4e95-b4b8-e29b39460ee0
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetNotifyFlags method [DirectShow], GetNotifyFlags method [DirectShow], IMediaEventEx interface, GetNotifyFlags,IMediaEventEx.GetNotifyFlags, IMediaEventEx, IMediaEventEx interface [DirectShow], GetNotifyFlags method, IMediaEventEx::GetNotifyFlags, IMediaEventExGetNotifyFlags, control/IMediaEventEx::GetNotifyFlags, dshow.imediaeventex_getnotifyflags
 ms.prod: windows-hardware
 ms.technology: windows-devices

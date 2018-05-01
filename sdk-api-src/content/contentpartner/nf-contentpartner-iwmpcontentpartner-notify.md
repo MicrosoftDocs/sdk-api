@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontentpartner_notify.htm
 old-project: WMP
 ms.assetid: 9464ce82-cd84-4a35-83d2-e46198c0c1e7
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPContentPartner, IWMPContentPartner interface [Windows Media Player], Notify method, IWMPContentPartner::Notify, IWMPContentPartnerNotify, Notify method [Windows Media Player], Notify method [Windows Media Player], IWMPContentPartner interface, Notify,IWMPContentPartner.Notify, contentpartner/IWMPContentPartner::Notify, wmp.iwmpcontentpartner_notify
 ms.prod: windows-hardware
 ms.technology: windows-devices

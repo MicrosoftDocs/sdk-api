@@ -7,7 +7,7 @@ old-location: wmp\iwmpremotemediaservices_getapplicationname.htm
 old-project: WMP
 ms.assetid: b3a210f9-90ea-4a6e-8aab-9e8cd7e21ab6
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: GetApplicationName method [Windows Media Player], GetApplicationName method [Windows Media Player], IWMPRemoteMediaServices interface, GetApplicationName,IWMPRemoteMediaServices.GetApplicationName, IWMPRemoteMediaServices, IWMPRemoteMediaServices interface [Windows Media Player], GetApplicationName method, IWMPRemoteMediaServices::GetApplicationName, IWMPRemoteMediaServicesGetApplicationName, wmp.iwmpremotemediaservices_getapplicationname, wmp/IWMPRemoteMediaServices::GetApplicationName
 ms.prod: windows-hardware
 ms.technology: windows-devices

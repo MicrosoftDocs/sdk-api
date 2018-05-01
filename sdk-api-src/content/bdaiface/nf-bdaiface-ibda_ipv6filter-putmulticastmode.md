@@ -7,7 +7,7 @@ old-location: mstv\ibda_ipv6filter_putmulticastmode.htm
 old-project: mstv
 ms.assetid: 2c8dc746-3610-4d54-b4d3-ca21f8674c57
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IBDA_IPV6Filter, IBDA_IPV6Filter interface [Microsoft TV Technologies], PutMulticastMode method, IBDA_IPV6Filter::PutMulticastMode, IBDA_IPV6FilterPutMulticastMode, PutMulticastMode method [Microsoft TV Technologies], PutMulticastMode method [Microsoft TV Technologies], IBDA_IPV6Filter interface, PutMulticastMode,IBDA_IPV6Filter.PutMulticastMode, bdaiface/IBDA_IPV6Filter::PutMulticastMode, mstv.ibda_ipv6filter_putmulticastmode
 ms.prod: windows-hardware
 ms.technology: windows-devices

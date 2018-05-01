@@ -7,7 +7,7 @@ old-location: appxpkg\iappxbundlereader_getfootprintfile.htm
 old-project: appxpkg
 ms.assetid: BD60CD3E-2C08-4B97-B311-00C0EEBEF752
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/26/2018
 ms.keywords: GetFootprintFile method [App packaging and management], GetFootprintFile method [App packaging and management], IAppxBundleReader interface, GetFootprintFile,IAppxBundleReader.GetFootprintFile, IAppxBundleReader, IAppxBundleReader interface [App packaging and management], GetFootprintFile method, IAppxBundleReader::GetFootprintFile, appxpackaging/IAppxBundleReader::GetFootprintFile, appxpkg.iappxbundlereader_getfootprintfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_ARCHITECTURE2
+req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
 topic_type:
 -	APIRef
 -	kbSyntax

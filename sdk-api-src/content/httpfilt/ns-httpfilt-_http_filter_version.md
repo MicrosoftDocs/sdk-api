@@ -7,7 +7,7 @@ old-location: tmg\http_filter_version.htm
 old-project: TMG
 ms.assetid: 070456a6-fbee-4660-bd8e-05ff54e04ba7
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/3/2018
 ms.keywords: "*PHTTP_FILTER_VERSION, HTTP_FILTER_VERSION, HTTP_FILTER_VERSION structure [Forefront TMG], PHTTP_FILTER_VERSION, PHTTP_FILTER_VERSION structure pointer [Forefront TMG], _HTTP_FILTER_VERSION, httpfilt/HTTP_FILTER_VERSION, httpfilt/PHTTP_FILTER_VERSION, tmg.http_filter_version"
 ms.prod: windows-hardware
 ms.technology: windows-devices

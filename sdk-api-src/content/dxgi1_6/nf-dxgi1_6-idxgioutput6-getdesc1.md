@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: DXGI_ADAPTER_FLAG3
+req.typenames: DXGI_GPU_PREFERENCE
 topic_type:
 -	APIRef
 -	kbSyntax

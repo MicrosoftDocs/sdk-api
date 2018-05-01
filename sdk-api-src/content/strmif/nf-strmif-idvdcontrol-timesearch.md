@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol_timesearch.htm
 old-project: DirectShow
 ms.assetid: c2e6848e-569e-44f0-b676-e22e4df07d8d
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IDvdControl, IDvdControl interface [DirectShow], TimeSearch method, IDvdControl::TimeSearch, IDvdControlTimeSearch, TimeSearch method [DirectShow], TimeSearch method [DirectShow], IDvdControl interface, TimeSearch,IDvdControl.TimeSearch, dshow.idvdcontrol_timesearch, strmif/IDvdControl::TimeSearch
 ms.prod: windows-hardware
 ms.technology: windows-devices

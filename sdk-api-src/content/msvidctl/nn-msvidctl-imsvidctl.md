@@ -7,7 +7,7 @@ old-location: mstv\imsvidctl.htm
 old-project: mstv
 ms.assetid: e3ea10ea-bfb4-4c35-9933-5ad0367fd9ee
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidCtl, IMSVidCtl interface [Microsoft TV Technologies], IMSVidCtl interface [Microsoft TV Technologies], described, IMSVidCtlInterface, mstv.imsvidctl, msvidctl/IMSVidCtl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidCtl interface

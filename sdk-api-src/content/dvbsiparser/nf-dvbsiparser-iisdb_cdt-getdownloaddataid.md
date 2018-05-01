@@ -7,7 +7,7 @@ old-location: mstv\iisdb_cdt_getdownloaddataid.htm
 old-project: mstv
 ms.assetid: 87cd757e-ed10-4ad2-a9d5-4a92b8d48cd2
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetDownloadDataId method [Microsoft TV Technologies], GetDownloadDataId method [Microsoft TV Technologies], IISDB_CDT interface, GetDownloadDataId,IISDB_CDT.GetDownloadDataId, IISDB_CDT, IISDB_CDT interface [Microsoft TV Technologies], GetDownloadDataId method, IISDB_CDT::GetDownloadDataId, dvbsiparser/IISDB_CDT::GetDownloadDataId, mstv.iisdb_cdt_getdownloaddataid
 ms.prod: windows-hardware
 ms.technology: windows-devices

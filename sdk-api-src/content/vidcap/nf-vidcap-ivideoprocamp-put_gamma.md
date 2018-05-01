@@ -7,7 +7,7 @@ old-location: dshow\ivideoprocamp_put_gamma.htm
 old-project: DirectShow
 ms.assetid: f4efe538-75c5-4c52-9ad2-dc6badee74f2
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IVideoProcAmp, IVideoProcAmp interface [DirectShow], put_Gamma method, IVideoProcAmp::put_Gamma, IVideoProcAmpput_Gamma, dshow.ivideoprocamp_put_gamma, put_Gamma method [DirectShow], put_Gamma method [DirectShow], IVideoProcAmp interface, put_Gamma,IVideoProcAmp.put_Gamma, vidcap/IVideoProcAmp::put_Gamma
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: VIDEOHDR, *PVIDEOHDR, *LPVIDEOHDR
+req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
 topic_type:
 -	APIRef
 -	kbSyntax

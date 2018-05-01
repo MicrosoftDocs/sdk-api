@@ -7,7 +7,7 @@ old-location: wua\iupdateservice_issuedate.htm
 old-project: Wua_Sdk
 ms.assetid: b60627ec-2f7c-4845-97ab-74514cb82de5
 ms.author: windowsdriverdev
-ms.date: 3/15/2018
+ms.date: 4/18/2018
 ms.keywords: IUpdateService, IUpdateService interface [Windows Update Agent], IssueDate property, IUpdateService.IssueDate, IUpdateService::get_IssueDate, IssueDate property [Windows Update Agent], IssueDate property [Windows Update Agent], IUpdateService interface, get_IssueDate,IUpdateService.get_IssueDate, wua.iupdateservice_issuedate, wuapi/IUpdateService::IssueDate, wuapi/IUpdateService::get_IssueDate
 ms.prod: windows-hardware
 ms.technology: windows-devices

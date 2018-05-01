@@ -7,7 +7,7 @@ old-location: ad\idsadminnewobj.htm
 old-project: AD
 ms.assetid: b38016a2-bbb7-4715-81cc-bd9911fb5a3b
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/20/2018
 ms.keywords: IDsAdminNewObj, IDsAdminNewObj interface [Active Directory], IDsAdminNewObj interface [Active Directory], described, _glines_idsadminnewobj, ad.idsadminnewobj, dsadmin/IDsAdminNewObj
 ms.prod: windows-hardware
 ms.technology: windows-devices

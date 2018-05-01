@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrSyncItemInfo.htm
 old-project: shell
 ms.assetid: b98d216e-f23f-45f3-b42d-e5aa2e540265
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ISyncMgrSyncItemInfo, ISyncMgrSyncItemInfo interface [Windows Shell], ISyncMgrSyncItemInfo interface [Windows Shell], described, _shell_ISyncMgrSyncItemInfo, shell.ISyncMgrSyncItemInfo, syncmgr/ISyncMgrSyncItemInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

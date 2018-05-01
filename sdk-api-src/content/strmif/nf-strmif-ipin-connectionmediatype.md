@@ -7,7 +7,7 @@ old-location: dshow\ipin_connectionmediatype.htm
 old-project: DirectShow
 ms.assetid: f372bfa7-b0ba-43f9-ba86-cbca5d1de515
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ConnectionMediaType method [DirectShow], ConnectionMediaType method [DirectShow], IPin interface, ConnectionMediaType,IPin.ConnectionMediaType, IPin, IPin interface [DirectShow], ConnectionMediaType method, IPin::ConnectionMediaType, IPinConnectionMediaType, dshow.ipin_connectionmediatype, strmif/IPin::ConnectionMediaType
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmp\iwmppluginui_displaypropertypage.htm
 old-project: WMP
 ms.assetid: 29d1438a-164a-460b-9c3e-804417ce362a
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: DisplayPropertyPage method [Windows Media Player], DisplayPropertyPage method [Windows Media Player], IWMPPluginUI interface, DisplayPropertyPage,IWMPPluginUI.DisplayPropertyPage, IWMPPluginUI, IWMPPluginUI interface [Windows Media Player], DisplayPropertyPage method, IWMPPluginUI::DisplayPropertyPage, IWMPPluginUIDisplayPropertyPage, wmp.iwmppluginui_displaypropertypage, wmpplug/IWMPPluginUI::DisplayPropertyPage
 ms.prod: windows-hardware
 ms.technology: windows-devices

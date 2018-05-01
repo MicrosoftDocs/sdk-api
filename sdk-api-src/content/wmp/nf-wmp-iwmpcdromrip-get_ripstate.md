@@ -7,7 +7,7 @@ old-location: wmp\iwmpcdromrip_get_ripstate.htm
 old-project: WMP
 ms.assetid: 81c7ba1d-81d7-4f64-9f7d-c88d6959bee0
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPCdromRip, IWMPCdromRip interface [Windows Media Player], get_ripState method, IWMPCdromRip::get_ripState, IWMPCdromRipget_ripState, get_ripState method [Windows Media Player], get_ripState method [Windows Media Player], IWMPCdromRip interface, get_ripState,IWMPCdromRip.get_ripState, wmp.iwmpcdromrip_get_ripstate, wmp/IWMPCdromRip::get_ripState
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\imfpmediaplayer_getidealvideosize.htm
 old-project: medfound
 ms.assetid: e6835852-10f0-4453-a22a-a567457bd7c5
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetIdealVideoSize method [Media Foundation], GetIdealVideoSize method [Media Foundation], IMFPMediaPlayer interface, GetIdealVideoSize,IMFPMediaPlayer.GetIdealVideoSize, IMFPMediaPlayer, IMFPMediaPlayer interface [Media Foundation], GetIdealVideoSize method, IMFPMediaPlayer::GetIdealVideoSize, mf.imfpmediaplayer_getidealvideosize, mfplay/IMFPMediaPlayer::GetIdealVideoSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

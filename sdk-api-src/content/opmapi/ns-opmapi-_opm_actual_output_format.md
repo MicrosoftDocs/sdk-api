@@ -7,7 +7,7 @@ old-location: mf\opm_actual_output_format.htm
 old-project: medfound
 ms.assetid: 0b20cdcd-3d03-4da3-b81c-b5025dcb04c3
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: OPM_ACTUAL_OUTPUT_FORMAT, OPM_ACTUAL_OUTPUT_FORMAT structure [Media Foundation], _OPM_ACTUAL_OUTPUT_FORMAT, mf.opm_actual_output_format, opmapi/OPM_ACTUAL_OUTPUT_FORMAT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _OPM_ACTUAL_OUTPUT_FORMAT structure

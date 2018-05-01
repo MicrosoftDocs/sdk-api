@@ -1,0 +1,84 @@
+---
+UID: NF:winddi.PATHOBJ_bCloseFigure
+title: PATHOBJ_bCloseFigure function
+author: windows-driver-content
+description: The PATHOBJ_bCloseFigure function closes an open figure in a path by drawing a line from the current position to the first point of the figure.
+old-location: display\pathobj_bclosefigure.htm
+old-project: display
+ms.assetid: e44fb1e3-3d6f-4ff4-83a7-b539d2b570aa
+ms.author: windowsdriverdev
+ms.date: 4/16/2018
+ms.keywords: PATHOBJ_bCloseFigure, PATHOBJ_bCloseFigure function [Display Devices], display.pathobj_bclosefigure, gdifncs_49059159-bb68-43f7-acd1-2ea665e0db93.xml, winddi/PATHOBJ_bCloseFigure
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: winddi.h
+req.include-header: Winddi.h
+req.target-type: Universal
+req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Win32k.sys
+api_name:
+-	PATHOBJ_bCloseFigure
+product: Windows
+targetos: Windows
+req.lib: Win32k.lib
+req.dll: Win32k.sys
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# PATHOBJ_bCloseFigure function
+
+
+## -description
+
+
+The <b>PATHOBJ_bCloseFigure</b> function closes an open figure in a path by drawing a line from the current position to the first point of the figure.
+
+
+## -parameters
+
+
+
+
+### -param ppo
+
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff568849">PATHOBJ</a> structure that identifies the path to be closed.
+
+
+## -returns
+
+
+
+The return value is <b>TRUE</b> if the function is successful.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568849">PATHOBJ</a>
+ 
+
+ 
+

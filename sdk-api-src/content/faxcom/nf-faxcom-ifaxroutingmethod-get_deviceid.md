@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxroutingmethod_get_deviceid_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_44h0.htm
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/18/2018
 ms.keywords: DeviceId property [Fax Service], DeviceId property [Fax Service], FaxRoutingMethod object, FaxRoutingMethod object [Fax Service], DeviceId property, IFaxRoutingMethod, IFaxRoutingMethod::get_DeviceId, _mfax_ifaxroutingmethod_get_deviceid, fax._mfax_ifaxroutingmethod_get_deviceid, fax._mfax_ifaxroutingmethod_get_deviceid_vb, get_DeviceId,IFaxRoutingMethod.get_DeviceId
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: rras\mpradminreleaseipv6addressforuser.htm
 old-project: RRAS
 ms.assetid: c06433b3-d1b0-42d0-993d-5c1cde4cbc0f
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: MprAdminReleaseIpv6AddressForUser, MprAdminReleaseIpv6AddressForUser callback function [RAS], mprapi/MprAdminReleaseIpv6AddressForUser, rras.mpradminreleaseipv6addressforuser
 ms.prod: windows-hardware
 ms.technology: windows-devices

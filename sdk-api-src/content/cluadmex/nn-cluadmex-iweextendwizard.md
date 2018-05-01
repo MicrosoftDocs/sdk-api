@@ -7,7 +7,7 @@ old-location: mscs\iweextendwizard.htm
 old-project: MsCS
 ms.assetid: 6407163e-a8ca-4601-88a0-ecf87e29b9ab
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: IWEExtendWizard, IWEExtendWizard interface [Failover Cluster], IWEExtendWizard interface [Failover Cluster], described, _wolf_iweextendwizard, cluadmex/IWEExtendWizard, mscs.iweextendwizard
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: LOG_MANAGEMENT_CALLBACKS, *PLOG_MANAGEMENT_CALLBACKS
+req.typenames: Sources
 topic_type:
 -	APIRef
 -	kbSyntax

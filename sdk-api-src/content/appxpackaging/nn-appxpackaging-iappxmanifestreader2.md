@@ -7,7 +7,7 @@ old-location: appxpkg\iappxmanifestreader2.htm
 old-project: appxpkg
 ms.assetid: B10A1ACB-12F4-4338-A6D6-6D2B829F9D62
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/26/2018
 ms.keywords: IAppxManifestReader2, IAppxManifestReader2 interface [App packaging and management], IAppxManifestReader2 interface [App packaging and management], described, appxpackaging/IAppxManifestReader2, appxpkg.iappxmanifestreader2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_ARCHITECTURE2
+req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
 topic_type:
 -	APIRef
 -	kbSyntax

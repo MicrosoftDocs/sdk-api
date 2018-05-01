@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxextunregisterforevents.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxextconfigref_7soj.htm
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/18/2018
 ms.keywords: FaxExtUnregisterForEvents, FaxExtUnregisterForEvents function [Fax Service], _mfax_faxextunregisterforevents, fax._mfax_faxextunregisterforevents, faxext/FaxExtUnregisterForEvents
 ms.prod: windows-hardware
 ms.technology: windows-devices

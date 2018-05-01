@@ -7,7 +7,7 @@ old-location: dxmath\xmloadcolor.htm
 old-project: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadColor(const XMCOLOR)
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/23/2018
 ms.keywords: DirectX::PackedVector.XMLoadColor, XMLoadColor, XMLoadColor method [DirectX Math Support APIs], dxmath.xmloadcolor
 ms.prod: windows-hardware
 ms.technology: windows-devices

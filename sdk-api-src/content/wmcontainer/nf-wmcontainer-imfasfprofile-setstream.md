@@ -7,7 +7,7 @@ old-location: mf\imfasfprofile_setstream.htm
 old-project: medfound
 ms.assetid: c2272260-74ab-42ff-bff3-d6c6d5b322f3
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFASFProfile, IMFASFProfile interface [Media Foundation], SetStream method, IMFASFProfile::SetStream, SetStream method [Media Foundation], SetStream method [Media Foundation], IMFASFProfile interface, SetStream,IMFASFProfile.SetStream, c2272260-74ab-42ff-bff3-d6c6d5b322f3, mf.imfasfprofile_setstream, wmcontainer/IMFASFProfile::SetStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

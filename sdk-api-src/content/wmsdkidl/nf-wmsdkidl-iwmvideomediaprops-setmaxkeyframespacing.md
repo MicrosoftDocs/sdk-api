@@ -7,7 +7,7 @@ old-location: wmformat\iwmvideomediaprops_setmaxkeyframespacing.htm
 old-project: wmformat
 ms.assetid: 1d1a9090-2658-45bd-8893-30e063d10aa8
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMVideoMediaProps, IWMVideoMediaProps interface [windows Media Format], SetMaxKeyFrameSpacing method, IWMVideoMediaProps::SetMaxKeyFrameSpacing, IWMVideoMediaPropsSetMaxKeyFrameSpacing, SetMaxKeyFrameSpacing method [windows Media Format], SetMaxKeyFrameSpacing method [windows Media Format], IWMVideoMediaProps interface, SetMaxKeyFrameSpacing,IWMVideoMediaProps.SetMaxKeyFrameSpacing, wmformat.iwmvideomediaprops_setmaxkeyframespacing, wmsdkidl/IWMVideoMediaProps::SetMaxKeyFrameSpacing
 ms.prod: windows-hardware
 ms.technology: windows-devices

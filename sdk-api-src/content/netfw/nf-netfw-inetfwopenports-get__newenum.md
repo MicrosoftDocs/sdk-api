@@ -7,7 +7,7 @@ old-location: ics\inetfwopenports_newenum.htm
 old-project: ICS
 ms.assetid: a7de2fef-7966-4742-a821-7fce0bf3bba2
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: INetFwOpenPorts, INetFwOpenPorts interface [ICS/ICF], _NewEnum property, INetFwOpenPorts._NewEnum, INetFwOpenPorts::get__NewEnum, _NewEnum property [ICS/ICF], _NewEnum property [ICS/ICF], INetFwOpenPorts interface, get__NewEnum,INetFwOpenPorts.get__NewEnum, ics.inetfwopenports_newenum, netfw/INetFwOpenPorts::_NewEnum, netfw/INetFwOpenPorts::get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: 
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # INetFwOpenPorts::get__NewEnum method

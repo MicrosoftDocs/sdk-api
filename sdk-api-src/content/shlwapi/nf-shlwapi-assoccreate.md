@@ -7,7 +7,7 @@ old-location: shell\AssocCreate.htm
 old-project: shell
 ms.assetid: 33099e0e-73e3-4047-804f-765a59e42e3f
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: AssocCreate, AssocCreate function [Windows Shell], _win32_AssocCreate, shell.AssocCreate, shlwapi/AssocCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices

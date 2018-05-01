@@ -7,7 +7,7 @@ old-location: security\iocspcaconfiguration_hashalgorithm_method.htm
 old-project: SecCrypto
 ms.assetid: 71725dc1-7663-4ddd-afde-1e2792fce4f3
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: HashAlgorithm property [Security], HashAlgorithm property [Security], IOCSPCAConfiguration interface, IOCSPCAConfiguration, IOCSPCAConfiguration interface [Security], HashAlgorithm property, IOCSPCAConfiguration.HashAlgorithm, IOCSPCAConfiguration::get_HashAlgorithm, IOCSPCAConfiguration::put_HashAlgorithm, certadm/IOCSPCAConfiguration::HashAlgorithm, certadm/IOCSPCAConfiguration::get_HashAlgorithm, certadm/IOCSPCAConfiguration::put_HashAlgorithm, put_HashAlgorithm,IOCSPCAConfiguration.put_HashAlgorithm, security.iocspcaconfiguration_hashalgorithm_method, security.iocspcaconfiguration_hashalgorithmid_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CHANNEL_ENTRY_POINTS, *PCHANNEL_ENTRY_POINTS
+req.typenames: 
 topic_type:
 -	APIRef
 -	kbSyntax

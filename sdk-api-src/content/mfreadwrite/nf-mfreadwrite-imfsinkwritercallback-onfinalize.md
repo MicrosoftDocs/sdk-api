@@ -7,7 +7,7 @@ old-location: mf\imfsinkwritercallback_onfinalize.htm
 old-project: medfound
 ms.assetid: 9da7bb55-bf9f-4579-ae8e-b33ce5461950
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFSinkWriterCallback, IMFSinkWriterCallback interface [Media Foundation], OnFinalize method, IMFSinkWriterCallback::OnFinalize, OnFinalize method [Media Foundation], OnFinalize method [Media Foundation], IMFSinkWriterCallback interface, OnFinalize,IMFSinkWriterCallback.OnFinalize, mf.imfsinkwritercallback_onfinalize, mfreadwrite/IMFSinkWriterCallback::OnFinalize
 ms.prod: windows-hardware
 ms.technology: windows-devices

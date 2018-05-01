@@ -7,7 +7,7 @@ old-location: mf\d3d11_authenticated_query_device_handle_output.htm
 old-project: medfound
 ms.assetid: 3553ACE5-FB28-4046-8E66-720A5447E05C
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: D3D11_AUTHENTICATED_QUERY_DEVICE_HANDLE_OUTPUT, D3D11_AUTHENTICATED_QUERY_DEVICE_HANDLE_OUTPUT structure [Media Foundation], d3d11/D3D11_AUTHENTICATED_QUERY_DEVICE_HANDLE_OUTPUT, mf.d3d11_authenticated_query_device_handle_output
 ms.prod: windows-hardware
 ms.technology: windows-devices

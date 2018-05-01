@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationTextRange_GetBoundingRectangles.htm
 old-project: WinAuto
 ms.assetid: a155d143-c5ec-4669-9635-fb8f8012a684
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: GetBoundingRectangles method [Windows Accessibility], GetBoundingRectangles method [Windows Accessibility], IUIAutomationTextRange interface, GetBoundingRectangles,IUIAutomationTextRange.GetBoundingRectangles, IUIAutomationTextRange, IUIAutomationTextRange interface [Windows Accessibility], GetBoundingRectangles method, IUIAutomationTextRange::GetBoundingRectangles, uiauto.uiauto_IUIAutomationTextRange_GetBoundingRectangles, uiauto_IUIAutomationTextRange_GetBoundingRectangles, uiautomationclient/IUIAutomationTextRange::GetBoundingRectangles, winauto.uiauto_IUIAutomationTextRange_GetBoundingRectangles
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11texture2d1.htm
 old-project: direct3d11
 ms.assetid: 0BEBF03C-CBE5-4988-AC98-76D90363A0B7
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/6/2018
 ms.keywords: ID3D11Texture2D1, ID3D11Texture2D1 interface [Direct3D 11], ID3D11Texture2D1 interface [Direct3D 11], described, d3d11_3/ID3D11Texture2D1, direct3d11.id3d11texture2d1
 ms.prod: windows-hardware
 ms.technology: windows-devices

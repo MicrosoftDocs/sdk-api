@@ -7,7 +7,7 @@ old-location: multimedia\icdrawwindow.htm
 old-project: Multimedia
 ms.assetid: 35f799f6-99ce-41a4-9165-3bb614ea01d5
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/25/2018
 ms.keywords: ICDrawWindow, ICDrawWindow macro [Windows Multimedia], _win32_ICDrawWindow, multimedia.icdrawwindow, vfw/ICDrawWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: fwp\fwpmfilterunsubscribechanges0_func.htm
 old-project: FWP
 ms.assetid: a7e78b38-9d24-4883-83a7-f4ecdf7ffb4c
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: FwpmFilterUnsubscribeChanges0, FwpmFilterUnsubscribeChanges0 function [Filtering], fwp.fwpmfilterunsubscribechanges0_func, fwpmu/FwpmFilterUnsubscribeChanges0
 ms.prod: windows-hardware
 ms.technology: windows-devices

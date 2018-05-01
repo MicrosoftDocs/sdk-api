@@ -7,7 +7,7 @@ old-location: com\iolelink_unbindsource.htm
 old-project: com
 ms.assetid: 3a678944-b4ba-47d8-9a89-470762efc6f9
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IOleLink, IOleLink interface [COM], UnbindSource method, IOleLink::UnbindSource, UnbindSource method [COM], UnbindSource method [COM], IOleLink interface, UnbindSource,IOleLink.UnbindSource, _ole_iolelink_unbindsource, com.iolelink_unbindsource, oleidl/IOleLink::UnbindSource
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IOleLink::UnbindSource method

@@ -7,7 +7,7 @@ old-location: intl\ienumspellingerror_next.htm
 old-project: Intl
 ms.assetid: c0fba585-2511-4162-8232-4e0510dc9261
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/25/2018
 ms.keywords: IEnumSpellingError, IEnumSpellingError interface [Internationalization for Windows Applications], Next method, IEnumSpellingError::Next, Next method [Internationalization for Windows Applications], Next method [Internationalization for Windows Applications], IEnumSpellingError interface, Next,IEnumSpellingError.Next, intl.ienumspellingerror_next, spellcheck/IEnumSpellingError::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices

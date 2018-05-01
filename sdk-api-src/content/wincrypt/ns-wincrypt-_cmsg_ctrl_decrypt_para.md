@@ -7,7 +7,7 @@ old-location: security\cmsg_ctrl_decrypt_para.htm
 old-project: SecCrypto
 ms.assetid: eb9b1daa-b04f-419a-88e3-7c772f9e62eb
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: "*PCMSG_CTRL_DECRYPT_PARA, AT_KEYEXCHANGE, AT_SIGNATURE, CMSG_CTRL_DECRYPT_PARA, CMSG_CTRL_DECRYPT_PARA structure [Security], PCMSG_CTRL_DECRYPT_PARA, PCMSG_CTRL_DECRYPT_PARA structure pointer [Security], _CMSG_CTRL_DECRYPT_PARA, _crypto2_cmsg_ctrl_decrypt_para, security.cmsg_ctrl_decrypt_para, wincrypt/CMSG_CTRL_DECRYPT_PARA, wincrypt/PCMSG_CTRL_DECRYPT_PARA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,14 +62,14 @@ For information about how CryptoAPI supports <a href="https://msdn.microsoft.com
 
 
 
-### -field DUMMYUNIONNAME
-
- 
-
-
 ### -field cbSize
 
 The size, in bytes, of this structure.
+
+
+### -field DUMMYUNIONNAME
+
+ 
 
 
 ### -field dwKeySpec

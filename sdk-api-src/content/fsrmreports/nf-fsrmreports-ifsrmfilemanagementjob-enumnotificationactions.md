@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmfilemanagementjob_enumnotificationactions.htm
 old-project: Fsrm
 ms.assetid: cfb58db2-39af-434e-95e2-abbd21f4487a
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: EnumNotificationActions method [File Server Resource Manager], EnumNotificationActions method [File Server Resource Manager], IFsrmFileManagementJob interface, EnumNotificationActions,IFsrmFileManagementJob.EnumNotificationActions, IFsrmFileManagementJob, IFsrmFileManagementJob interface [File Server Resource Manager], EnumNotificationActions method, IFsrmFileManagementJob::EnumNotificationActions, fs.ifsrmfilemanagementjob_enumnotificationactions, fsrm.ifsrmfilemanagementjob_enumnotificationactions, fsrmreports/IFsrmFileManagementJob::EnumNotificationActions
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\ibda_conditionalaccess_removeprogram.htm
 old-project: mstv
 ms.assetid: bc0d14e8-f4bc-49fe-b63c-0521f5bb3dbb
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IBDA_ConditionalAccess, IBDA_ConditionalAccess interface [Microsoft TV Technologies], RemoveProgram method, IBDA_ConditionalAccess::RemoveProgram, IBDA_ConditionalAccessRemoveProgram, RemoveProgram method [Microsoft TV Technologies], RemoveProgram method [Microsoft TV Technologies], IBDA_ConditionalAccess interface, RemoveProgram,IBDA_ConditionalAccess.RemoveProgram, bdaiface/IBDA_ConditionalAccess::RemoveProgram, mstv.ibda_conditionalaccess_removeprogram
 ms.prod: windows-hardware
 ms.technology: windows-devices

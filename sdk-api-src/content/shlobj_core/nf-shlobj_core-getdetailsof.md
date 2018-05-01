@@ -7,7 +7,7 @@ old-location: shell\Folder_GetDetailsOf.htm
 old-project: shell
 ms.assetid: d2fe4550-f171-40d9-8bce-065b61826997
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: Folder object [Windows Shell], GetDetailsOf method, GetDetailsOf, GetDetailsOf method [Windows Shell], GetDetailsOf method [Windows Shell], Folder object, _win32_Folder_GetDetailsOf, shell.Folder_GetDetailsOf
 ms.prod: windows-hardware
 ms.technology: windows-devices

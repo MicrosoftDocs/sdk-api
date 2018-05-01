@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyjob_geterror.htm
 old-project: Bits
 ms.assetid: 2ad4c913-2d1e-4490-968c-960178a57e3b
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/10/2018
 ms.keywords: GetError method [BITS], GetError method [BITS], IBackgroundCopyJob interface, GetError,IBackgroundCopyJob.GetError, IBackgroundCopyJob, IBackgroundCopyJob interface [BITS], GetError method, IBackgroundCopyJob::GetError, _drz_ibackgroundcopyjob_geterror, bits.ibackgroundcopyjob_geterror, bits/IBackgroundCopyJob::GetError
 ms.prod: windows-hardware
 ms.technology: windows-devices

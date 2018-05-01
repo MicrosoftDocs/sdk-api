@@ -7,7 +7,7 @@ old-location: com\iinitializespy_preinitialize.htm
 old-project: com
 ms.assetid: f5b345d1-ab37-401a-9cb4-b01ef7254fc8
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IInitializeSpy, IInitializeSpy interface [COM], PreInitialize method, IInitializeSpy::PreInitialize, PreInitialize method [COM], PreInitialize method [COM], IInitializeSpy interface, PreInitialize,IInitializeSpy.PreInitialize, _com_iinitializespy_preinitialize, com.iinitializespy_preinitialize, objidl/IInitializeSpy::PreInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IInitializeSpy::PreInitialize method

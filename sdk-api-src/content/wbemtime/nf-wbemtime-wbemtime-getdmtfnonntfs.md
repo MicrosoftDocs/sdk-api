@@ -7,7 +7,7 @@ old-location: wmi\wbemtime_getdmtfnonntfs.htm
 old-project: WmiSdk
 ms.assetid: 40353352-da1f-44d8-a2c3-e6fd4639bd98
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: "?GetDMTFNonNtfs@WBEMTime@@QBEPAGXZ, ?GetDMTFNonNtfs@WBEMTime@@QEBAPEAGXZ, GetDMTFNonNtfs method [Windows Management Instrumentation], GetDMTFNonNtfs method [Windows Management Instrumentation], WBEMTime interface, GetDMTFNonNtfs,WBEMTime.GetDMTFNonNtfs, WBEMTime, WBEMTime interface [Windows Management Instrumentation], GetDMTFNonNtfs method, WBEMTime::GetDMTFNonNtfs, _hmm_wbemtime_getdmtfnonntfs, wbemtime/WBEMTime::GetDMTFNonNtfs, wmi.wbemtime_getdmtfnonntfs"
 ms.prod: windows-hardware
 ms.technology: windows-devices

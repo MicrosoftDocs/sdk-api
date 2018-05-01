@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_input_layout_desc.htm
 old-project: direct3d12
 ms.assetid: 44C53830-AE80-402A-808C-2063011711A2
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: D3D12_INPUT_LAYOUT_DESC, D3D12_INPUT_LAYOUT_DESC structure, d3d12/D3D12_INPUT_LAYOUT_DESC, direct3d12.d3d12_input_layout_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices

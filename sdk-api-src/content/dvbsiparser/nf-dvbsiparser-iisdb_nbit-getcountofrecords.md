@@ -7,7 +7,7 @@ old-location: mstv\iisdb_nbit_getcountofrecords.htm
 old-project: mstv
 ms.assetid: c747278a-dea7-4772-b37d-89c1deaaf91f
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies], IISDB_NBIT interface, GetCountOfRecords,IISDB_NBIT.GetCountOfRecords, IISDB_NBIT, IISDB_NBIT interface [Microsoft TV Technologies], GetCountOfRecords method, IISDB_NBIT::GetCountOfRecords, dvbsiparser/IISDB_NBIT::GetCountOfRecords, mstv.iisdb_nbit_getcountofrecords
 ms.prod: windows-hardware
 ms.technology: windows-devices

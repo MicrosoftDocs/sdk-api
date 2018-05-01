@@ -7,7 +7,7 @@ old-location: mf\imfmediaengine_setplaybackrate.htm
 old-project: medfound
 ms.assetid: 648BF1CC-BFAC-4874-808B-F8B46E3E9989
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFMediaEngine, IMFMediaEngine interface [Media Foundation], SetPlaybackRate method, IMFMediaEngine::SetPlaybackRate, SetPlaybackRate method [Media Foundation], SetPlaybackRate method [Media Foundation], IMFMediaEngine interface, SetPlaybackRate,IMFMediaEngine.SetPlaybackRate, mf.imfmediaengine_setplaybackrate, mfmediaengine/IMFMediaEngine::SetPlaybackRate
 ms.prod: windows-hardware
 ms.technology: windows-devices

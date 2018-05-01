@@ -7,7 +7,7 @@ old-location: mf\imfsecurechannel_getcertificate.htm
 old-project: medfound
 ms.assetid: d5465070-1706-4420-8351-fab5e8e8cd08
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetCertificate method [Media Foundation], GetCertificate method [Media Foundation], IMFSecureChannel interface, GetCertificate,IMFSecureChannel.GetCertificate, IMFSecureChannel, IMFSecureChannel interface [Media Foundation], GetCertificate method, IMFSecureChannel::GetCertificate, d5465070-1706-4420-8351-fab5e8e8cd08, mf.imfsecurechannel_getcertificate, mfidl/IMFSecureChannel::GetCertificate
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\iamvideocompression_get_quality.htm
 old-project: DirectShow
 ms.assetid: a34b6d15-3c84-476e-bd2f-ee10b59ded82
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMVideoCompression, IAMVideoCompression interface [DirectShow], get_Quality method, IAMVideoCompression::get_Quality, IAMVideoCompressionget_Quality, dshow.iamvideocompression_get_quality, get_Quality method [DirectShow], get_Quality method [DirectShow], IAMVideoCompression interface, get_Quality,IAMVideoCompression.get_Quality, strmif/IAMVideoCompression::get_Quality
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: automat\icreatetypeinfo2_deletefuncdesc.htm
 old-project: automat
 ms.assetid: 5e157287-e4f3-49c4-9c18-a7b3ba1a965d
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: DeleteFuncDesc method [Automation], DeleteFuncDesc method [Automation], ICreateTypeInfo2 interface, DeleteFuncDesc,ICreateTypeInfo2.DeleteFuncDesc, ICreateTypeInfo2, ICreateTypeInfo2 interface [Automation], DeleteFuncDesc method, ICreateTypeInfo2::DeleteFuncDesc, _oa96_ICreateTypeInfo2_DeleteFuncDesc, automat.icreatetypeinfo2_deletefuncdesc, oaidl/ICreateTypeInfo2::DeleteFuncDesc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ICreateTypeInfo2::DeleteFuncDesc method

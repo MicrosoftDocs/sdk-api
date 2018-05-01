@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiostreamvolume_getallvolumes.htm
 old-project: CoreAudio
 ms.assetid: 6469ae01-d84d-4711-9b1e-cd8e685fcdd8
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: GetAllVolumes method [Core Audio], GetAllVolumes method [Core Audio], IAudioStreamVolume interface, GetAllVolumes,IAudioStreamVolume.GetAllVolumes, IAudioStreamVolume, IAudioStreamVolume interface [Core Audio], GetAllVolumes method, IAudioStreamVolume::GetAllVolumes, IAudioStreamVolumeGetAllVolumes, audioclient/IAudioStreamVolume::GetAllVolumes, coreaudio.iaudiostreamvolume_getallvolumes
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\ix509endorsementkey_removecertificate.htm
 old-project: SecCertEnroll
 ms.assetid: 40c5d77c-9b0d-4ee4-a02e-cec9b2f1b392
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: IX509EndorsementKey, IX509EndorsementKey interface [Security], RemoveCertificate method, IX509EndorsementKey::RemoveCertificate, RemoveCertificate method [Security], RemoveCertificate method [Security], IX509EndorsementKey interface, RemoveCertificate,IX509EndorsementKey.RemoveCertificate, certenroll/IX509EndorsementKey::RemoveCertificate, security.ix509endorsementkey_removecertificate
 ms.prod: windows-hardware
 ms.technology: windows-devices

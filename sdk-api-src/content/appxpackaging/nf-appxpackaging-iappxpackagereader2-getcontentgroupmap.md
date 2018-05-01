@@ -7,7 +7,7 @@ old-location: appxpkg\iappxpackagereader2_getcontentgroupmap.htm
 old-project: appxpkg
 ms.assetid: 992DE709-F4E6-475D-A533-AFFB7FE7A53C
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/26/2018
 ms.keywords: GetContentGroupMap method [App packaging and management], GetContentGroupMap method [App packaging and management], IAppxPackageReader2 interface, GetContentGroupMap,IAppxPackageReader2.GetContentGroupMap, IAppxPackageReader2, IAppxPackageReader2 interface [App packaging and management], GetContentGroupMap method, IAppxPackageReader2::GetContentGroupMap, appxpackaging/IAppxPackageReader2::GetContentGroupMap, appxpkg.iappxpackagereader2_getcontentgroupmap
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_ARCHITECTURE2
+req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
 topic_type:
 -	APIRef
 -	kbSyntax

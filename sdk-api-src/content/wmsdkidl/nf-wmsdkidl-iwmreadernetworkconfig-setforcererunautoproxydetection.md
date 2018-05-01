@@ -7,7 +7,7 @@ old-location: wmformat\iwmreadernetworkconfig_setforcererunautoproxydetection.ht
 old-project: wmformat
 ms.assetid: 3c84fc2a-5933-45da-a7a3-728a8837d851
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMReaderNetworkConfig, IWMReaderNetworkConfig interface [windows Media Format], SetForceRerunAutoProxyDetection method, IWMReaderNetworkConfig::SetForceRerunAutoProxyDetection, IWMReaderNetworkConfigSetForceRerunAutoProxyDetection, SetForceRerunAutoProxyDetection method [windows Media Format], SetForceRerunAutoProxyDetection method [windows Media Format], IWMReaderNetworkConfig interface, SetForceRerunAutoProxyDetection,IWMReaderNetworkConfig.SetForceRerunAutoProxyDetection, wmformat.iwmreadernetworkconfig_setforcererunautoproxydetection, wmsdkidl/IWMReaderNetworkConfig::SetForceRerunAutoProxyDetection
 ms.prod: windows-hardware
 ms.technology: windows-devices

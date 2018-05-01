@@ -7,7 +7,7 @@ old-location: mf\imftransform_setinputtype.htm
 old-project: medfound
 ms.assetid: 822a83d1-177a-4a8d-842e-eb76f8253283
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 822a83d1-177a-4a8d-842e-eb76f8253283, IMFTransform, IMFTransform interface [Media Foundation], SetInputType method, IMFTransform::SetInputType, SetInputType method [Media Foundation], SetInputType method [Media Foundation], IMFTransform interface, SetInputType,IMFTransform.SetInputType, mf.imftransform_setinputtype, mftransform/IMFTransform::SetInputType
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\imsvidinputdeviceevent.htm
 old-project: mstv
 ms.assetid: 9f35953a-3fea-4187-ad14-28f2c8dc2716
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidInputDeviceEvent, IMSVidInputDeviceEvent interface [Microsoft TV Technologies], IMSVidInputDeviceEvent interface [Microsoft TV Technologies], described, IMSVidInputDeviceEventInterface, mstv.imsvidinputdeviceevent, segment/IMSVidInputDeviceEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidInputDeviceEvent interface

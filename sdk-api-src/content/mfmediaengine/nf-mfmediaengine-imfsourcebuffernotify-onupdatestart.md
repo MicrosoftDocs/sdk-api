@@ -7,7 +7,7 @@ old-location: mf\imfsourcebuffernotify_onupdatestart.htm
 old-project: medfound
 ms.assetid: 513ef55d-756e-4ae3-b312-6a4178bc2f42
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFSourceBufferNotify, IMFSourceBufferNotify interface [Media Foundation], OnUpdateStart method, IMFSourceBufferNotify::OnUpdateStart, OnUpdateStart method [Media Foundation], OnUpdateStart method [Media Foundation], IMFSourceBufferNotify interface, OnUpdateStart,IMFSourceBufferNotify.OnUpdateStart, mf.imfsourcebuffernotify_onupdatestart, mfmediaengine/IMFSourceBufferNotify::OnUpdateStart
 ms.prod: windows-hardware
 ms.technology: windows-devices

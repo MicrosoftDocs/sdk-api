@@ -7,7 +7,7 @@ old-location: wmp\wmptransactiontype.htm
 old-project: WMP
 ms.assetid: b3dc35d8-098a-464d-957e-3746447156d0
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: WMPTransactionType, WMPTransactionType enumeration [Windows Media Player], contentpartner/WMPTransactionType, contentpartner/wmpttBuy, contentpartner/wmpttDownload, contentpartner/wmpttNoTransaction, enumeration [Windows Media Player], wmp.wmptransactiontype, wmpttBuy, wmpttDownload, wmpttNoTransaction
 ms.prod: windows-hardware
 ms.technology: windows-devices

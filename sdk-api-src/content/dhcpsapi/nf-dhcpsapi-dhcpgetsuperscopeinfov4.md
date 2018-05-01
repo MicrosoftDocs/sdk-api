@@ -7,7 +7,7 @@ old-location: dhcp\dhcpgetsuperscopeinfov4.htm
 old-project: DHCP
 ms.assetid: f40c77b8-c8ad-432d-8a9e-6719630826ef
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/7/2018
 ms.keywords: DhcpGetSuperScopeInfoV4, DhcpGetSuperScopeInfoV4 function [DHCP], dhcp.dhcpgetsuperscopeinfov4, dhcpsapi/DhcpGetSuperScopeInfoV4
 ms.prod: windows-hardware
 ms.technology: windows-devices

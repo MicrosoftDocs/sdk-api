@@ -7,7 +7,7 @@ old-location: wmi\iwbemobjectaccess_writepropertyvalue.htm
 old-project: WmiSdk
 ms.assetid: 2ac2b8b0-8b69-4f01-8017-ace82a382f40
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: IWbemObjectAccess, IWbemObjectAccess interface [Windows Management Instrumentation], WritePropertyValue method, IWbemObjectAccess::WritePropertyValue, WritePropertyValue method [Windows Management Instrumentation], WritePropertyValue method [Windows Management Instrumentation], IWbemObjectAccess interface, WritePropertyValue,IWbemObjectAccess.WritePropertyValue, _hmm_iwbemobjectaccess_writepropertyvalue, wbemcli/IWbemObjectAccess::WritePropertyValue, wmi.iwbemobjectaccess_writepropertyvalue
 ms.prod: windows-hardware
 ms.technology: windows-devices

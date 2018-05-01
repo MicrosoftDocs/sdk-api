@@ -7,7 +7,7 @@ old-location: com\ifont_put_strikethrough.htm
 old-project: com
 ms.assetid: 32b9c3aa-4c89-441e-9b41-0ac6d8a52bba
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IFont, IFont interface [COM], put_Strikethrough method, IFont::put_Strikethrough, _ctrl_ifont_put_strikethrough, com.ifont_put_strikethrough, ocidl/IFont::put_Strikethrough, put_Strikethrough method [COM], put_Strikethrough method [COM], IFont interface, put_Strikethrough,IFont.put_Strikethrough
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IFont::put_Strikethrough method

@@ -7,7 +7,7 @@ old-location: mf\imfimagesharingengineclassfactory_createinstancefromudn.htm
 old-project: medfound
 ms.assetid: 343E9CB5-12CA-4AC9-857F-D8324D035F07
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: CreateInstanceFromUDN method [Media Foundation], CreateInstanceFromUDN method [Media Foundation], IMFImageSharingEngineClassFactory interface, CreateInstanceFromUDN,IMFImageSharingEngineClassFactory.CreateInstanceFromUDN, IMFImageSharingEngineClassFactory, IMFImageSharingEngineClassFactory interface [Media Foundation], CreateInstanceFromUDN method, IMFImageSharingEngineClassFactory::CreateInstanceFromUDN, mf.imfimagesharingengineclassfactory_createinstancefromudn, mfsharingengine/IMFImageSharingEngineClassFactory::CreateInstanceFromUDN
 ms.prod: windows-hardware
 ms.technology: windows-devices

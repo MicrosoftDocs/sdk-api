@@ -7,7 +7,7 @@ old-location: wmi\cinstance_getembeddedobject.htm
 old-project: WmiSdk
 ms.assetid: e7daf313-d454-4e2c-8a8b-4f1bd9e19c58
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: "?GetEmbeddedObject@CInstance@@QBE_NPBGPAPAV1@PAVMethodContext@@@Z, CInstance, CInstance interface [Windows Management Instrumentation], GetEmbeddedObject method, CInstance::GetEmbeddedObject, GetEmbeddedObject method [Windows Management Instrumentation], GetEmbeddedObject method [Windows Management Instrumentation], CInstance interface, GetEmbeddedObject,CInstance.GetEmbeddedObject, _hmm_cinstance_getembeddedobject, instance/CInstance::GetEmbeddedObject, wmi.cinstance_getembeddedobject"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: InputScope
+req.typenames: TrustLevel
 topic_type:
 -	APIRef
 -	kbSyntax

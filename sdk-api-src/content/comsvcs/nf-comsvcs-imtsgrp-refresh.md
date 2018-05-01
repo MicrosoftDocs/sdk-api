@@ -7,7 +7,7 @@ old-location: cos\imtsgrp_refresh.htm
 old-project: cossdk
 ms.assetid: 752bda5e-d3e1-4566-90c3-aaa336479670
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: IMtsGrp, IMtsGrp interface [COM+], Refresh method, IMtsGrp::Refresh, Refresh method [COM+], Refresh method [COM+], IMtsGrp interface, Refresh,IMtsGrp.Refresh, _dtc_IMtsGrp_Refresh, comsvcs/IMtsGrp::Refresh, cos.imtsgrp_refresh
 ms.prod: windows-hardware
 ms.technology: windows-devices

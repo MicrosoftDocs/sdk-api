@@ -7,7 +7,7 @@ old-location: nwifi\onex_eap_method_backend_support.htm
 old-project: NativeWiFi
 ms.assetid: ae0c30c3-331e-4b57-aa5f-f6b1f73dc69d
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/13/2018
 ms.keywords: ONEX_EAP_METHOD_BACKEND_SUPPORT, ONEX_EAP_METHOD_BACKEND_SUPPORT enumeration [NativeWIFI], OneXEapMethodBackendSupportUnknown, OneXEapMethodBackendSupported, OneXEapMethodBackendUnsupported, _ONEX_EAP_METHOD_BACKEND_SUPPORT, dot1x/ONEX_EAP_METHOD_BACKEND_SUPPORT, dot1x/OneXEapMethodBackendSupportUnknown, dot1x/OneXEapMethodBackendSupported, dot1x/OneXEapMethodBackendUnsupported, nwifi.onex_eap_method_backend_support
 ms.prod: windows-hardware
 ms.technology: windows-devices

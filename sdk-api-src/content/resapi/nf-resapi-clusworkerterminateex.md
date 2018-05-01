@@ -7,7 +7,7 @@ old-location: mscs\clusworkerterminateex.htm
 old-project: MsCS
 ms.assetid: e2dda7c0-01d4-49e5-bc57-3fa07495d536
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: ClusWorkerTerminateEx, ClusWorkerTerminateEx function [Failover Cluster], mscs.clusworkerterminateex, resapi/ClusWorkerTerminateEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ClusWorkerTerminateEx function

@@ -7,7 +7,7 @@ old-location: shell\Folder.htm
 old-project: shell
 ms.assetid: f1e82c61-205e-47c8-bc7c-6a52410a672e
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: Folder, Folder object [Windows Shell], Folder object [Windows Shell], described, _win32_Folder, shell.Folder, shldisp/Folder
 ms.prod: windows-hardware
 ms.technology: windows-devices

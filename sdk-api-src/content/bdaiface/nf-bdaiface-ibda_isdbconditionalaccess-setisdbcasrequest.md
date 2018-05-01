@@ -7,7 +7,7 @@ old-location: mstv\ibda_isdbconditionalaccess_setisdbcasrequest.htm
 old-project: mstv
 ms.assetid: c93351f5-1829-4405-b665-00f2e78391e0
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IBDA_ISDBConditionalAccess, IBDA_ISDBConditionalAccess interface [Microsoft TV Technologies], SetIsdbCasRequest method, IBDA_ISDBConditionalAccess::SetIsdbCasRequest, SetIsdbCasRequest method [Microsoft TV Technologies], SetIsdbCasRequest method [Microsoft TV Technologies], IBDA_ISDBConditionalAccess interface, SetIsdbCasRequest,IBDA_ISDBConditionalAccess.SetIsdbCasRequest, bdaiface/IBDA_ISDBConditionalAccess::SetIsdbCasRequest, mstv.ibda_isdbconditionalaccess_setisdbcasrequest
 ms.prod: windows-hardware
 ms.technology: windows-devices

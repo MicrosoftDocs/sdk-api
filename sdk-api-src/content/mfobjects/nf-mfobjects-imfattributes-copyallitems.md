@@ -7,7 +7,7 @@ old-location: mf\imfattributes_copyallitems.htm
 old-project: medfound
 ms.assetid: 111b55bc-fb8e-45b5-a709-703acd23c4be
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 111b55bc-fb8e-45b5-a709-703acd23c4be, CopyAllItems method [Media Foundation], CopyAllItems method [Media Foundation], IMFAttributes interface, CopyAllItems,IMFAttributes.CopyAllItems, IMFAttributes, IMFAttributes interface [Media Foundation], CopyAllItems method, IMFAttributes::CopyAllItems, mf.imfattributes_copyallitems, mfobjects/IMFAttributes::CopyAllItems
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winrt\iswapchainpanelnative2.htm
 old-project: WinRT
 ms.assetid: 49d8defd-99c3-f611-ad71-3f78d4efe0d3
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/24/2018
 ms.keywords: ISwapChainPanelNative2, ISwapChainPanelNative2 interface [Windows Runtime], ISwapChainPanelNative2 interface [Windows Runtime], described, windows/ISwapChainPanelNative2, winrt.iswapchainpanelnative2
 ms.prod: windows-hardware
 ms.technology: windows-devices

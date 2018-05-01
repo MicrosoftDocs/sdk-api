@@ -7,7 +7,7 @@ old-location: search\_search_ISearchQueryHelper_put_QueryMaxResults.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\isearchqueryhelper\put_querymaxresults.htm
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/24/2018
 ms.keywords: ISearchQueryHelper, ISearchQueryHelper interface [search], put_QueryMaxResults method, ISearchQueryHelper::put_QueryMaxResults, _search_ISearchQueryHelper_put_QueryMaxResults, put_QueryMaxResults method [search], put_QueryMaxResults method [search], ISearchQueryHelper interface, put_QueryMaxResults,ISearchQueryHelper.put_QueryMaxResults, search._search_ISearchQueryHelper_put_QueryMaxResults, searchapi/ISearchQueryHelper::put_QueryMaxResults
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ISearchQueryHelper::put_QueryMaxResults method

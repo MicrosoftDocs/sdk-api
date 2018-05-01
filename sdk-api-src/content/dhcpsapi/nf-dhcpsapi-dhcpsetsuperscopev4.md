@@ -7,7 +7,7 @@ old-location: dhcp\dhcpsetsuperscopev4.htm
 old-project: DHCP
 ms.assetid: 70da0113-0c4a-4c4e-80ae-1e55773f9904
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/7/2018
 ms.keywords: DhcpSetSuperScopeV4, DhcpSetSuperScopeV4 function [DHCP], dhcp.dhcpsetsuperscopev4, dhcpsapi/DhcpSetSuperScopeV4
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\imfasfstreamconfig_setstreamnumber.htm
 old-project: medfound
 ms.assetid: 5b22d857-fced-4094-a0ad-891f3ccf8b18
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 5b22d857-fced-4094-a0ad-891f3ccf8b18, IMFASFStreamConfig, IMFASFStreamConfig interface [Media Foundation], SetStreamNumber method, IMFASFStreamConfig::SetStreamNumber, SetStreamNumber method [Media Foundation], SetStreamNumber method [Media Foundation], IMFASFStreamConfig interface, SetStreamNumber,IMFASFStreamConfig.SetStreamNumber, mf.imfasfstreamconfig_setstreamnumber, wmcontainer/IMFASFStreamConfig::SetStreamNumber
 ms.prod: windows-hardware
 ms.technology: windows-devices

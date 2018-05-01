@@ -7,7 +7,7 @@ old-location: dshow\ibasicvideo_put_destinationwidth.htm
 old-project: DirectShow
 ms.assetid: 4ae22194-19ca-4a20-9b4f-d9f39e346606
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IBasicVideo, IBasicVideo interface [DirectShow], put_DestinationWidth method, IBasicVideo::put_DestinationWidth, IBasicVideoput_DestinationWidth, control/IBasicVideo::put_DestinationWidth, dshow.ibasicvideo_put_destinationwidth, put_DestinationWidth method [DirectShow], put_DestinationWidth method [DirectShow], IBasicVideo interface, put_DestinationWidth,IBasicVideo.put_DestinationWidth
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: ics\inetfwservice_name.htm
 old-project: ICS
 ms.assetid: 3b6179d0-c16d-43f7-8575-b173841cffe9
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: INetFwService, INetFwService interface [ICS/ICF], Name property, INetFwService.Name, INetFwService::get_Name, Name property [ICS/ICF], Name property [ICS/ICF], INetFwService interface, get_Name,INetFwService.get_Name, ics.inetfwservice_name, netfw/INetFwService::Name, netfw/INetFwService::get_Name
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: 
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # INetFwService::get_Name method

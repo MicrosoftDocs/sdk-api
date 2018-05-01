@@ -7,7 +7,7 @@ old-location: controls\itextstrings_encodefunction.htm
 old-project: Controls
 ms.assetid: f22bb343-4fcc-4473-84cc-807011b5a7b0
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: EncodeFunction method [Windows Controls], EncodeFunction method [Windows Controls], ITextStrings interface, EncodeFunction,ITextStrings.EncodeFunction, ITextStrings, ITextStrings interface [Windows Controls], EncodeFunction method, ITextStrings::EncodeFunction, controls.itextstrings_encodefunction, tom/ITextStrings::EncodeFunction
 ms.prod: windows-hardware
 ms.technology: windows-devices

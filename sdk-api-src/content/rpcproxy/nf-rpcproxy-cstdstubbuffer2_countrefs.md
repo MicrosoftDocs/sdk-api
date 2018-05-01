@@ -7,7 +7,7 @@ old-location: rpc\cstdstubbuffer2_countrefs.htm
 old-project: Rpc
 ms.assetid: 871484FD-D51C-4F6E-8A44-5ABDD86E7BB6
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: CStdStubBuffer2_CountRefs, CStdStubBuffer2_CountRefs function [RPC], rpc.cstdstubbuffer2_countrefs, rpcproxy/CStdStubBuffer2_CountRefs
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # CStdStubBuffer2_CountRefs function

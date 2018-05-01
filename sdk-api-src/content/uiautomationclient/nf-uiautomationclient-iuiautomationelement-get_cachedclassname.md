@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement_CachedClassName.htm
 old-project: WinAuto
 ms.assetid: 7b5e9c75-5190-4cdd-9774-0c883747018c
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: CachedClassName property [Windows Accessibility], CachedClassName property [Windows Accessibility], IUIAutomationElement interface, IUIAutomationElement, IUIAutomationElement interface [Windows Accessibility], CachedClassName property, IUIAutomationElement.CachedClassName, IUIAutomationElement::get_CachedClassName, get_CachedClassName,IUIAutomationElement.get_CachedClassName, uiauto.uiauto_IUIAutomationElement_CachedClassName, uiauto_IUIAutomationElement_CachedClassName, uiautomationclient/IUIAutomationElement::CachedClassName, uiautomationclient/IUIAutomationElement::get_CachedClassName, winauto.uiauto_IUIAutomationElement_CachedClassName
 ms.prod: windows-hardware
 ms.technology: windows-devices

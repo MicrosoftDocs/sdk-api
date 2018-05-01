@@ -7,7 +7,7 @@ old-location: automat\icreatetypelib2_sethelpstringdll.htm
 old-project: automat
 ms.assetid: f00a3dbf-7205-48fd-abeb-1d2d80be7743
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: ICreateTypeLib2, ICreateTypeLib2 interface [Automation], SetHelpStringDll method, ICreateTypeLib2::SetHelpStringDll, SetHelpStringDll method [Automation], SetHelpStringDll method [Automation], ICreateTypeLib2 interface, SetHelpStringDll,ICreateTypeLib2.SetHelpStringDll, _oa96_ICreateTypeLib2_SetHelpStringDll, automat.icreatetypelib2_sethelpstringdll, oaidl/ICreateTypeLib2::SetHelpStringDll
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ICreateTypeLib2::SetHelpStringDll method

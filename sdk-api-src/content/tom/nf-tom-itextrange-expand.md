@@ -7,7 +7,7 @@ old-location: controls\ITextRange_Expand.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\expand.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: Expand method [Windows Controls], Expand method [Windows Controls], ITextRange interface, Expand,ITextRange.Expand, ITextRange, ITextRange interface [Windows Controls], Expand method, ITextRange::Expand, _win32_ITextRange_Expand, _win32_ITextRange_Expand_cpp, controls.ITextRange_Expand, controls._win32_ITextRange_Expand, tom/ITextRange::Expand
 ms.prod: windows-hardware
 ms.technology: windows-devices

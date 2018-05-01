@@ -7,7 +7,7 @@ old-location: controls\ITextRange_GetDuplicate.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextrange\itextrangegetduplicate.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: GetDuplicate method [Windows Controls], GetDuplicate method [Windows Controls], ITextRange interface, GetDuplicate,ITextRange.GetDuplicate, ITextRange, ITextRange interface [Windows Controls], GetDuplicate method, ITextRange::GetDuplicate, _win32_ITextRange_GetDuplicate, _win32_ITextRange_GetDuplicate_cpp, controls.ITextRange_GetDuplicate, controls._win32_ITextRange_GetDuplicate, tom/ITextRange::GetDuplicate
 ms.prod: windows-hardware
 ms.technology: windows-devices

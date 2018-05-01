@@ -7,7 +7,7 @@ old-location: com\isurrogateservice_catalogrefresh.htm
 old-project: com
 ms.assetid: 4e7b765b-0ba3-48db-afe2-2cb6257775fa
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: CatalogRefresh method [COM], CatalogRefresh method [COM], ISurrogateService interface, CatalogRefresh,ISurrogateService.CatalogRefresh, ISurrogateService, ISurrogateService interface [COM], CatalogRefresh method, ISurrogateService::CatalogRefresh, _com_isurrogateservice_catalogrefresh, com.isurrogateservice_catalogrefresh, objidl/ISurrogateService::CatalogRefresh
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ISurrogateService::CatalogRefresh method

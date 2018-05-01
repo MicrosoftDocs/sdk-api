@@ -7,7 +7,7 @@ old-location: wua\iupdatehistoryentry_operation.htm
 old-project: Wua_Sdk
 ms.assetid: 4dfad46b-ee42-41d6-be25-69aaf12fd53c
 ms.author: windowsdriverdev
-ms.date: 3/15/2018
+ms.date: 4/18/2018
 ms.keywords: IUpdateHistoryEntry, IUpdateHistoryEntry interface [Windows Update Agent], Operation property, IUpdateHistoryEntry.Operation, IUpdateHistoryEntry::get_Operation, Operation property [Windows Update Agent], Operation property [Windows Update Agent], IUpdateHistoryEntry interface, get_Operation,IUpdateHistoryEntry.get_Operation, wua.iupdatehistoryentry_operation, wuapi/IUpdateHistoryEntry::Operation, wuapi/IUpdateHistoryEntry::get_Operation
 ms.prod: windows-hardware
 ms.technology: windows-devices

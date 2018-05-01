@@ -7,7 +7,7 @@ old-location: controls\IImageList_GetOverlayImage.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\getoverlayimage.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: GetOverlayImage method [Windows Controls], GetOverlayImage method [Windows Controls], IImageList interface, GetOverlayImage,IImageList.GetOverlayImage, IImageList, IImageList interface [Windows Controls], GetOverlayImage method, IImageList::GetOverlayImage, comctl_IImageList_GetOverlayImage, comctl_IImageList_GetOverlayImage_cpp, commoncontrols/IImageList::GetOverlayImage, controls.IImageList_GetOverlayImage, controls.comctl_IImageList_GetOverlayImage
 ms.prod: windows-hardware
 ms.technology: windows-devices

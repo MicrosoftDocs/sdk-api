@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyjob4_getownerintegritylevel.htm
 old-project: Bits
 ms.assetid: 1f5d9576-0948-429b-b136-1b02d7197fcc
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/10/2018
 ms.keywords: GetOwnerIntegrityLevel method [BITS], GetOwnerIntegrityLevel method [BITS], IBackgroundCopyJob4 interface, GetOwnerIntegrityLevel,IBackgroundCopyJob4.GetOwnerIntegrityLevel, IBackgroundCopyJob4, IBackgroundCopyJob4 interface [BITS], GetOwnerIntegrityLevel method, IBackgroundCopyJob4::GetOwnerIntegrityLevel, bits.ibackgroundcopyjob4_getownerintegritylevel, bits3_0/IBackgroundCopyJob4::GetOwnerIntegrityLevel
 ms.prod: windows-hardware
 ms.technology: windows-devices

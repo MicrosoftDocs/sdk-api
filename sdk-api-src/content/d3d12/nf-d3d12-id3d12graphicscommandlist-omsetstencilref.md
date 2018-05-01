@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist_omsetstencilref.htm
 old-project: direct3d12
 ms.assetid: 96C5C209-71A2-4096-A86C-D376AC1AB46C
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: ID3D12GraphicsCommandList, ID3D12GraphicsCommandList interface, OMSetStencilRef method, ID3D12GraphicsCommandList::OMSetStencilRef, OMSetStencilRef method, OMSetStencilRef method, ID3D12GraphicsCommandList interface, OMSetStencilRef,ID3D12GraphicsCommandList.OMSetStencilRef, d3d12/ID3D12GraphicsCommandList::OMSetStencilRef, direct3d12.id3d12graphicscommandlist_omsetstencilref
 ms.prod: windows-hardware
 ms.technology: windows-devices

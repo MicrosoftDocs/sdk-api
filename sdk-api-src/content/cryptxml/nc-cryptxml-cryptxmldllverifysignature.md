@@ -7,7 +7,7 @@ old-location: security\cryptxmldllverifysignature.htm
 old-project: SecCrypto
 ms.assetid: 6e864156-37bd-4f2a-b2e9-f7269aa70241
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: CryptXmlDllVerifySignature, CryptXmlDllVerifySignature function pointer [Security], cryptxml/CryptXmlDllVerifySignature, security.cryptxmldllverifysignature
 ms.prod: windows-hardware
 ms.technology: windows-devices

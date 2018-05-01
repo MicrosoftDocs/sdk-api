@@ -7,7 +7,7 @@ old-location: mstv\iguidedataproperty_get_name.htm
 old-project: mstv
 ms.assetid: 63606e76-fd4a-4954-93bd-1085d32dd2da
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IGuideDataProperty, IGuideDataProperty interface [Microsoft TV Technologies], get_Name method, IGuideDataProperty::get_Name, IGuideDataPropertyget_Name, bdatif/IGuideDataProperty::get_Name, get_Name method [Microsoft TV Technologies], get_Name method [Microsoft TV Technologies], IGuideDataProperty interface, get_Name,IGuideDataProperty.get_Name, mstv.iguidedataproperty_get_name
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: SpanningEventEmmMessage
+req.typenames: SmartCardApplication
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,7 +7,7 @@ old-location: wmformat\iwmaddressaccess.htm
 old-project: wmformat
 ms.assetid: 7251c600-90a2-4903-b26a-643b4d10b0ce
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMAddressAccess, IWMAddressAccess interface [windows Media Format], IWMAddressAccess interface [windows Media Format], described, IWMAddressAccessInterface, wmformat.iwmaddressaccess, wmsdkidl/IWMAddressAccess
 ms.prod: windows-hardware
 ms.technology: windows-devices

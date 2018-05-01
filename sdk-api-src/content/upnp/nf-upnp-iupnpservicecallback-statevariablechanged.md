@@ -7,7 +7,7 @@ old-location: upnp\iupnpservicecallback_statevariablechanged.htm
 old-project: UPnP
 ms.assetid: 68dac38e-535b-491e-a9a5-0f6bccb7fcc1
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/25/2018
 ms.keywords: IUPnPServiceCallback, IUPnPServiceCallback interface [UPnP APIs], StateVariableChanged method, IUPnPServiceCallback::StateVariableChanged, StateVariableChanged method [UPnP APIs], StateVariableChanged method [UPnP APIs], IUPnPServiceCallback interface, StateVariableChanged,IUPnPServiceCallback.StateVariableChanged, _upnp_iupnpservicecallback_statevariablechanged, upnp.iupnpservicecallback_statevariablechanged, upnp/IUPnPServiceCallback::StateVariableChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\ivideowindow_put_windowstate.htm
 old-project: DirectShow
 ms.assetid: 75189754-61c4-4196-9cfb-3f8c8e33efbc
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IVideoWindow, IVideoWindow interface [DirectShow], put_WindowState method, IVideoWindow::put_WindowState, IVideoWindowput_WindowState, control/IVideoWindow::put_WindowState, dshow.ivideowindow_put_windowstate, put_WindowState method [DirectShow], put_WindowState method [DirectShow], IVideoWindow interface, put_WindowState,IVideoWindow.put_WindowState
 ms.prod: windows-hardware
 ms.technology: windows-devices

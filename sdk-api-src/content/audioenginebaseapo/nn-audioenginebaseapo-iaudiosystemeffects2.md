@@ -2,31 +2,31 @@
 UID: NN:audioenginebaseapo.IAudioSystemEffects2
 title: IAudioSystemEffects2
 author: windows-driver-content
-description: Provides functionality for discovering the effects applied to an APO.
-old-location: coreaudio\iaudiosystemeffects2.htm
-old-project: CoreAudio
-ms.assetid: 7BE71C16-CA10-4B7A-9F58-2DD75C55E8A8
+description: The IAudioSystemEffects2 interface was introduced with Windows 8.1 for retrieving information about the processing objects in a given mode.
+old-location: audio\iaudiosystemeffects2.htm
+old-project: audio
+ms.assetid: 5989BAFB-6B2D-4186-9A8D-96C8974E0D18
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
-ms.keywords: IAudioSystemEffects2, IAudioSystemEffects2 interface [Core Audio], IAudioSystemEffects2 interface [Core Audio], described, audioenginebaseapo/IAudioSystemEffects2, coreaudio.iaudiosystemeffects2
+ms.date: 4/16/2018
+ms.keywords: IAudioSystemEffects2, IAudioSystemEffects2 interface [Audio Devices], IAudioSystemEffects2 interface [Audio Devices], described, audio.iaudiosystemeffects2, audioenginebaseapo/IAudioSystemEffects2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
 req.header: audioenginebaseapo.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8.1 [desktop apps only]
-req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Audioenginebaseapo.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: AudioClientProperties, AudioClientProperties
+req.typenames: APO_FLAG
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -40,7 +40,7 @@ product: Windows
 targetos: Windows
 req.lib: 
 req.dll: 
-req.irql: 
+req.irql: All levels.
 ---
 
 # IAudioSystemEffects2 interface
@@ -49,12 +49,12 @@ req.irql:
 ## -description
 
 
-Provides functionality for  discovering the effects applied to an APO. 
+The <b>IAudioSystemEffects2</b> interface was introduced with  Windows 8.1 for retrieving information about the processing objects in a given mode.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioSystemEffects2</b> interface inherits from IAudioSystemEffect. <b>IAudioSystemEffects2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioSystemEffects2</b> interface inherits from <a href="https://msdn.microsoft.com/library/windows/hardware/ff536514">IAudioSystemEffects</a>. <b>IAudioSystemEffects2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,22 +72,11 @@ The <b>IAudioSystemEffects2</b> interface has these methods.
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn659349">GetEffectsList</a>
 </td>
 <td align="left" width="63%">
-Gets the list of signal processing effects currently active and stores an event to be signaled if the list changes.
+The GetEffectsList method is used for retrieving the list of audio processing effects that are currently active, and stores an event to be signaled if the list changes.
 
 </td>
 </tr>
 </table> 
-
-
-## -remarks
-
-
-
-APOs support <b>IAudioSystemEffects2</b> if they support signal processing modes and effects discovery. 
-
-When an APO supports this interface, it must accept the <a href="https://msdn.microsoft.com/library/windows/hardware/dn659347">APOInitSystemEffects2</a> structure in its implementation of <a href="https://msdn.microsoft.com/library/windows/hardware/ff536510">IAudioProcessingObject::Initialize</a>.
-
-
 
 
 ## -see-also
@@ -95,7 +84,7 @@ When an APO supports this interface, it must accept the <a href="https://msdn.mi
 
 
 
-<a href="https://msdn.microsoft.com/b18e2094-e974-4c23-b70b-ace5a168132d">Core Audio Interfaces</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536514">IAudioSystemEffects</a>
  
 
  

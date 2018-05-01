@@ -7,7 +7,7 @@ old-location: wmdm\imdspdevice3_findstorage.htm
 old-project: WMDM
 ms.assetid: d80812fc-750a-41f3-ba00-695e168259c0
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: FindStorage method [windows Media Device Manager], FindStorage method [windows Media Device Manager], IMDSPDevice3 interface, FindStorage,IMDSPDevice3.FindStorage, IMDSPDevice3, IMDSPDevice3 interface [windows Media Device Manager], FindStorage method, IMDSPDevice3::FindStorage, IMDSPDevice3FindStorage, mswmdm/IMDSPDevice3::FindStorage, wmdm.imdspdevice3_findstorage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMDSPDevice3::FindStorage method

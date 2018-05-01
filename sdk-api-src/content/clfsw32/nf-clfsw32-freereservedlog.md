@@ -7,7 +7,7 @@ old-location: fs\freereservedlog.htm
 old-project: Clfs
 ms.assetid: a5e71e4c-5871-4bea-a4a5-a56c7e70276b
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/25/2018
 ms.keywords: FreeReservedLog, FreeReservedLog function [Files], clfsw32/FreeReservedLog, fs.freereservedlog
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmdm\imdspdevice_getpowersource.htm
 old-project: WMDM
 ms.assetid: 476e25cf-de18-4039-994c-570fa423821f
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: GetPowerSource method [windows Media Device Manager], GetPowerSource method [windows Media Device Manager], IMDSPDevice interface, GetPowerSource,IMDSPDevice.GetPowerSource, IMDSPDevice, IMDSPDevice interface [windows Media Device Manager], GetPowerSource method, IMDSPDevice::GetPowerSource, IMDSPDeviceGetPowerSource, mswmdm/IMDSPDevice::GetPowerSource, wmdm.imdspdevice_getpowersource
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMDSPDevice::GetPowerSource method

@@ -7,7 +7,7 @@ old-location: controls\itextrow_setcellindex.htm
 old-project: Controls
 ms.assetid: 4b31ed10-f153-4614-ba96-95271fe4b218
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextRow, ITextRow interface [Windows Controls], SetCellIndex method, ITextRow::SetCellIndex, SetCellIndex method [Windows Controls], SetCellIndex method [Windows Controls], ITextRow interface, SetCellIndex,ITextRow.SetCellIndex, controls.itextrow_setcellindex, tom/ITextRow::SetCellIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices

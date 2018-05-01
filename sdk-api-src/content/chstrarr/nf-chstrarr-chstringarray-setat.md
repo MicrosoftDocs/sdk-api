@@ -7,7 +7,7 @@ old-location: wmi\chstringarray_setat.htm
 old-project: WmiSdk
 ms.assetid: 709bed59-c154-4103-9d38-398945657ec6
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: CHStringArray, CHStringArray interface [Windows Management Instrumentation], SetAt method, CHStringArray::SetAt, SetAt method [Windows Management Instrumentation], SetAt method [Windows Management Instrumentation], CHStringArray interface, SetAt,CHStringArray.SetAt, _hmm_chstringarray_setat, chstrarr/CHStringArray::SetAt, wmi.chstringarray_setat
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CF_SYNC_ROOT_STANDARD_INFO
+req.typenames: CF_SYNC_STATUS
 topic_type:
 -	APIRef
 -	kbSyntax

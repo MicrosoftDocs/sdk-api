@@ -7,7 +7,7 @@ old-location: perf\perf_provider_context.htm
 old-project: PerfCtrs
 ms.assetid: 9bfab8aa-f44b-4515-8a2a-764583080f57
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/23/2018
 ms.keywords: "*PPERF_PROVIDER_CONTEXT, PERF_PROVIDER_CONTEXT, PERF_PROVIDER_CONTEXT structure [Perf], PPERF_PROVIDER_CONTEXT, PPERF_PROVIDER_CONTEXT structure pointer [Perf], _PROVIDER_CONTEXT, perf.perf_provider_context, perflib/PERF_PROVIDER_CONTEXT, perflib/PPERF_PROVIDER_CONTEXT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _PROVIDER_CONTEXT structure

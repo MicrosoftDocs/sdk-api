@@ -7,7 +7,7 @@ old-location: wmp\iwmplibrarysharingservices_islibraryshared.htm
 old-project: WMP
 ms.assetid: fc0a1396-5b43-43dd-9e0d-b5b3a8cf5cdd
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPLibrarySharingServices, IWMPLibrarySharingServices interface [Windows Media Player], isLibraryShared method, IWMPLibrarySharingServices::isLibraryShared, IWMPLibrarySharingServicesisLibraryShared, isLibraryShared method [Windows Media Player], isLibraryShared method [Windows Media Player], IWMPLibrarySharingServices interface, isLibraryShared,IWMPLibrarySharingServices.isLibraryShared, wmp.iwmplibrarysharingservices_islibraryshared, wmp/IWMPLibrarySharingServices::isLibraryShared
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: coreaudio\isubunit.htm
 old-project: CoreAudio
 ms.assetid: 9ec630bc-bba1-4a44-b66d-404a5221abbf
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: ISubunit, ISubunit interface [Core Audio], ISubunit interface [Core Audio], described, coreaudio.isubunit, devicetopology/ISubunit
 ms.prod: windows-hardware
 ms.technology: windows-devices

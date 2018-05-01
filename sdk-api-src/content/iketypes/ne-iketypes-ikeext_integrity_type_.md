@@ -7,7 +7,7 @@ old-location: fwp\ikeext_integrity_type.htm
 old-project: FWP
 ms.assetid: f4a5b6b9-5cf1-48a4-811c-9150550688d8
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: IKEEXT_INTEGRITY_MD5, IKEEXT_INTEGRITY_SHA1, IKEEXT_INTEGRITY_SHA_256, IKEEXT_INTEGRITY_SHA_384, IKEEXT_INTEGRITY_TYPE, IKEEXT_INTEGRITY_TYPE enumeration [Filtering], IKEEXT_INTEGRITY_TYPE_, IKEEXT_INTEGRITY_TYPE_MAX, fwp.ikeext_integrity_type, iketypes/IKEEXT_INTEGRITY_MD5, iketypes/IKEEXT_INTEGRITY_SHA1, iketypes/IKEEXT_INTEGRITY_SHA_256, iketypes/IKEEXT_INTEGRITY_SHA_384, iketypes/IKEEXT_INTEGRITY_TYPE, iketypes/IKEEXT_INTEGRITY_TYPE_MAX
 ms.prod: windows-hardware
 ms.technology: windows-devices

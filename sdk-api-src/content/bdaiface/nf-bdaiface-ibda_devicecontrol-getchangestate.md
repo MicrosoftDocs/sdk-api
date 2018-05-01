@@ -7,7 +7,7 @@ old-location: mstv\ibda_devicecontrol_getchangestate.htm
 old-project: mstv
 ms.assetid: 17a36763-552a-44dc-8068-90f1b8fe09e5
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetChangeState method [Microsoft TV Technologies], GetChangeState method [Microsoft TV Technologies], IBDA_DeviceControl interface, GetChangeState,IBDA_DeviceControl.GetChangeState, IBDA_DeviceControl, IBDA_DeviceControl interface [Microsoft TV Technologies], GetChangeState method, IBDA_DeviceControl::GetChangeState, IBDA_DeviceControlGetChangeState, bdaiface/IBDA_DeviceControl::GetChangeState, mstv.ibda_devicecontrol_getchangestate
 ms.prod: windows-hardware
 ms.technology: windows-devices

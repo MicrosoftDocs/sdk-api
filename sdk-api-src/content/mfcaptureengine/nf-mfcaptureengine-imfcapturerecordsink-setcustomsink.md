@@ -7,7 +7,7 @@ old-location: mf\imfcapturerecordsink_setcustomsink.htm
 old-project: medfound
 ms.assetid: 76140ECF-E7A2-4C41-A710-813B2DF8F52C
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFCaptureRecordSink, IMFCaptureRecordSink interface [Media Foundation], SetCustomSink method, IMFCaptureRecordSink::SetCustomSink, SetCustomSink method [Media Foundation], SetCustomSink method [Media Foundation], IMFCaptureRecordSink interface, SetCustomSink,IMFCaptureRecordSink.SetCustomSink, mf.imfcapturerecordsink_setcustomsink, mfcaptureengine/IMFCaptureRecordSink::SetCustomSink
 ms.prod: windows-hardware
 ms.technology: windows-devices

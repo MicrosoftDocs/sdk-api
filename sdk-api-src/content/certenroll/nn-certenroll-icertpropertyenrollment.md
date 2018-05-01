@@ -7,7 +7,7 @@ old-location: security\icertpropertyenrollment.htm
 old-project: SecCertEnroll
 ms.assetid: 7530998b-b59c-426b-a74a-ead4bca55c3b
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: ICertPropertyEnrollment, ICertPropertyEnrollment interface [Security], ICertPropertyEnrollment interface [Security], described, certenroll/ICertPropertyEnrollment, security.icertpropertyenrollment
 ms.prod: windows-hardware
 ms.technology: windows-devices

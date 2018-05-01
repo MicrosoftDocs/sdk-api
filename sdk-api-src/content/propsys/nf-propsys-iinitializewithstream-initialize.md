@@ -7,7 +7,7 @@ old-location: shell\IInitializeWithStream_Initialize.htm
 old-project: shell
 ms.assetid: 1e04c0a4-aa9b-4e2c-8307-525809ca903f
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IInitializeWithStream, IInitializeWithStream interface [Windows Shell], Initialize method, IInitializeWithStream::Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell], IInitializeWithStream interface, Initialize,IInitializeWithStream.Initialize, STGM_READ, STGM_READWRITE, propsys/IInitializeWithStream::Initialize, shell.IInitializeWithStream_Initialize, shell_IInitializeWithStream_Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IInitializeWithStream::Initialize method

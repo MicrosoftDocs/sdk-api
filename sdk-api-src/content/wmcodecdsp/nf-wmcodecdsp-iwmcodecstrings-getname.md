@@ -7,7 +7,7 @@ old-location: mf\iwmcodecstringsgetname.htm
 old-project: medfound
 ms.assetid: 12422e46-dfde-4a0f-8988-567a42f5a212
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetName method [Media Foundation], GetName method [Media Foundation], IWMCodecStrings interface, GetName,IWMCodecStrings.GetName, IWMCodecStrings, IWMCodecStrings interface [Media Foundation], GetName method, IWMCodecStrings::GetName, codecapi.iwmcodecstringsgetname, mf.iwmcodecstringsgetname, wmcodecdsp/ IWMCodecStrings::GetName
 ms.prod: windows-hardware
 ms.technology: windows-devices

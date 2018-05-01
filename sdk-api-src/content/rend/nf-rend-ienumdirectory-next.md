@@ -7,7 +7,7 @@ old-location: tapi3\ienumdirectory_next.htm
 old-project: Tapi
 ms.assetid: db164275-92dc-4a25-ba19-fd26415624f1
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: IEnumDirectory, IEnumDirectory interface [TAPI 2.2], Next method, IEnumDirectory::Next, Next method [TAPI 2.2], Next method [TAPI 2.2], IEnumDirectory interface, Next,IEnumDirectory.Next, _tapi3_ienumdirectory_next, rend/IEnumDirectory::Next, tapi3.ienumdirectory_next
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Rend.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IEnumDirectory::Next method

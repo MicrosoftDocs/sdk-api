@@ -7,7 +7,7 @@ old-location: base\ivsscomponent_setrestoremetadata.htm
 old-project: VSS
 ms.assetid: 2b329fa8-21ad-4de9-9857-52e14d51d429
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: IVssComponent, IVssComponent interface [VSS], SetRestoreMetadata method, IVssComponent::SetRestoreMetadata, SetRestoreMetadata method [VSS], SetRestoreMetadata method [VSS], IVssComponent interface, SetRestoreMetadata,IVssComponent.SetRestoreMetadata, _win32_ivsscomponent_setrestoremetadata, base.ivsscomponent_setrestoremetadata, vswriter/IVssComponent::SetRestoreMetadata
 ms.prod: windows-hardware
 ms.technology: windows-devices

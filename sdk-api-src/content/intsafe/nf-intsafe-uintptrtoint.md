@@ -2,13 +2,13 @@
 UID: NF:intsafe.UIntPtrToInt
 title: UIntPtrToInt function
 author: windows-driver-content
-description: Converts a value of type UINT_PTR to a value of type INT.
-old-location: shell\UIntPtrToInt.htm
+description: Converts a value of type SIZE_T to a value of type INT.
+old-location: shell\SIZETToInt_1.htm
 old-project: shell
-ms.assetid: ce0bfbf9-76b1-4db0-9b0a-0c1b328000d4
+ms.assetid: 00a1229b-28cf-4d8e-a59a-0c91872b2e06
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
-ms.keywords: UIntPtrToInt, UIntPtrToInt function [Windows Shell], _shell_UIntPtrToInt, intsafe/UIntPtrToInt, shell.UIntPtrToInt
+ms.date: 4/26/2018
+ms.keywords: SIZETToInt, SIZETToInt function [Windows Shell], UIntPtrToInt, _shell_SIZETToInt, intsafe/SIZETToInt, shell.SIZETToInt, shell.SIZETToInt_1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	Intsafe.h
 api_name:
--	UIntPtrToInt
+-	SIZETToInt
 product: Windows
 targetos: Windows
 req.lib: 
@@ -50,7 +50,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Converts a value of type <b>UINT_PTR</b> to a value of type <b>INT</b>.
+Converts a value of type <b>SIZE_T</b> to a value of type <b>INT</b>.
 
 
 ## -parameters
@@ -58,11 +58,9 @@ Converts a value of type <b>UINT_PTR</b> to a value of type <b>INT</b>.
 
 
 
-### -param uOperand [in]
+### -param uOperand
 
-Type: <b>UINT_PTR</b>
-
-The value to be converted.
+TBD
 
 
 ### -param piResult [out]
@@ -70,6 +68,13 @@ The value to be converted.
 Type: <b>INT*</b>
 
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns INTSAFE_E_ARITHMETIC_OVERFLOW and this parameter is not valid.
+
+
+#### - cbOperand [in]
+
+Type: <b>SIZE_T</b>
+
+The value to be converted.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: mstv\imsvidevr_get_suppresseffects.htm
 old-project: mstv
 ms.assetid: a3aaf310-6c42-4013-a3bf-25f9c42cdf81
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidEVR, IMSVidEVR interface [Microsoft TV Technologies], get_SuppressEffects method, IMSVidEVR::get_SuppressEffects, IMSVidEVRget_SuppressEffects, get_SuppressEffects method [Microsoft TV Technologies], get_SuppressEffects method [Microsoft TV Technologies], IMSVidEVR interface, get_SuppressEffects,IMSVidEVR.get_SuppressEffects, mstv.imsvidevr_get_suppresseffects, segment/IMSVidEVR::get_SuppressEffects
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidEVR::get_SuppressEffects method

@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmclassificationmanager_logging.htm
 old-project: Fsrm
 ms.assetid: c22f646b-36dc-45b8-a9ad-81ce6adab5bf
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: FsrmClassificationManager class [File Server Resource Manager], Logging property, IFsrmClassificationManager, IFsrmClassificationManager interface [File Server Resource Manager], Logging property, IFsrmClassificationManager.Logging, IFsrmClassificationManager2 interface [File Server Resource Manager], Logging property, IFsrmClassificationManager2.Logging, IFsrmClassificationManager2::get_Logging, IFsrmClassificationManager2::put_Logging, IFsrmClassificationManager::get_Logging, IFsrmClassificationManager::put_Logging, Logging property [File Server Resource Manager], Logging property [File Server Resource Manager], FsrmClassificationManager class, Logging property [File Server Resource Manager], IFsrmClassificationManager interface, Logging property [File Server Resource Manager], IFsrmClassificationManager2 interface, fs.ifsrmclassificationmanager_logging, fsrm.ifsrmclassificationmanager_logging, fsrmpipeline/IFsrmClassificationManager2::Logging, fsrmpipeline/IFsrmClassificationManager2::get_Logging, fsrmpipeline/IFsrmClassificationManager2::put_Logging, fsrmpipeline/IFsrmClassificationManager::Logging, fsrmpipeline/IFsrmClassificationManager::get_Logging, fsrmpipeline/IFsrmClassificationManager::put_Logging, get_Logging,IFsrmClassificationManager.get_Logging
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: properties\IPropertyEnumType_GetDisplayText.htm
 old-project: properties
 ms.assetid: d5168ca2-107f-45c2-80fa-21a2379776ed
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/5/2018
 ms.keywords: GetDisplayText method [Windows Properties], GetDisplayText method [Windows Properties], IPropertyEnumType interface, GetDisplayText,IPropertyEnumType.GetDisplayText, IPropertyEnumType, IPropertyEnumType interface [Windows Properties], GetDisplayText method, IPropertyEnumType::GetDisplayText, _shell_IPropertyEnumType_GetDisplayText, properties.IPropertyEnumType_GetDisplayText, propsys/IPropertyEnumType::GetDisplayText, shell.IPropertyEnumType_GetDisplayText
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IPropertyEnumType::GetDisplayText method

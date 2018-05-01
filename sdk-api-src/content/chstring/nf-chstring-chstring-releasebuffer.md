@@ -7,7 +7,7 @@ old-location: wmi\chstring_releasebuffer.htm
 old-project: WmiSdk
 ms.assetid: 55de2960-8a71-48cc-862b-7cf9a4edf8ea
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: "?ReleaseBuffer@CHString@@QAEXH@Z, ?ReleaseBuffer@CHString@@QEAAXH@Z, CHString, CHString interface [Windows Management Instrumentation], ReleaseBuffer method, CHString::ReleaseBuffer, ReleaseBuffer method [Windows Management Instrumentation], ReleaseBuffer method [Windows Management Instrumentation], CHString interface, ReleaseBuffer,CHString.ReleaseBuffer, _hmm_chstring_releasebuffer, chstring/CHString::ReleaseBuffer, wmi.chstring_releasebuffer"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CF_SYNC_ROOT_STANDARD_INFO
+req.typenames: CF_SYNC_STATUS
 topic_type:
 -	APIRef
 -	kbSyntax

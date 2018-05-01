@@ -7,7 +7,7 @@ old-location: tapi3\itterminalmanager_createdynamicterminal.htm
 old-project: Tapi
 ms.assetid: a6590503-8c95-496d-a35a-1bbb34c728e1
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: CreateDynamicTerminal method [TAPI 2.2], CreateDynamicTerminal method [TAPI 2.2], ITTerminalManager interface, CreateDynamicTerminal,ITTerminalManager.CreateDynamicTerminal, ITTerminalManager, ITTerminalManager interface [TAPI 2.2], CreateDynamicTerminal method, ITTerminalManager::CreateDynamicTerminal, _tapi3_itterminalmanager_createdynamicterminal, tapi3.itterminalmanager_createdynamicterminal, termmgr/ITTerminalManager::CreateDynamicTerminal
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\ienumregfilters_reset.htm
 old-project: DirectShow
 ms.assetid: 095d0102-c845-48ba-a1f5-e0262a924b50
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IEnumRegFilters, IEnumRegFilters interface [DirectShow], Reset method, IEnumRegFilters::Reset, IEnumRegFiltersReset, Reset method [DirectShow], Reset method [DirectShow], IEnumRegFilters interface, Reset,IEnumRegFilters.Reset, dshow.ienumregfilters_reset, strmif/IEnumRegFilters::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices

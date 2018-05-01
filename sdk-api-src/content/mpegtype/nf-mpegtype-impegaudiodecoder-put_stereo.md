@@ -7,7 +7,7 @@ old-location: dshow\impegaudiodecoder_put_stereo.htm
 old-project: DirectShow
 ms.assetid: 238e33ba-f35c-423c-be5f-73d1ca14cebd
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IMpegAudioDecoder, IMpegAudioDecoder interface [DirectShow], put_Stereo method, IMpegAudioDecoder::put_Stereo, IMpegAudioDecoderputStereo, dshow.impegaudiodecoder_put_stereo, mpegtype/IMpegAudioDecoder::put_Stereo, put_Stereo method [DirectShow], put_Stereo method [DirectShow], IMpegAudioDecoder interface, put_Stereo,IMpegAudioDecoder.put_Stereo
 ms.prod: windows-hardware
 ms.technology: windows-devices

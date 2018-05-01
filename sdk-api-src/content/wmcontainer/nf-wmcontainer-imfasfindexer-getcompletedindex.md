@@ -7,7 +7,7 @@ old-location: mf\imfasfindexer_getcompletedindex.htm
 old-project: medfound
 ms.assetid: aca721e8-e610-4022-a3da-8ff5a5943e3e
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetCompletedIndex method [Media Foundation], GetCompletedIndex method [Media Foundation], IMFASFIndexer interface, GetCompletedIndex,IMFASFIndexer.GetCompletedIndex, IMFASFIndexer, IMFASFIndexer interface [Media Foundation], GetCompletedIndex method, IMFASFIndexer::GetCompletedIndex, aca721e8-e610-4022-a3da-8ff5a5943e3e, mf.imfasfindexer_getcompletedindex, wmcontainer/IMFASFIndexer::GetCompletedIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices

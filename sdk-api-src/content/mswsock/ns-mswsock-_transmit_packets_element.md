@@ -7,7 +7,7 @@ old-location: winsock\transmit_packets_element_2.htm
 old-project: WinSock
 ms.assetid: cf9f8cd1-284d-4aed-bb43-af02bd012f01
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/24/2018
 ms.keywords: "*LPTRANSMIT_PACKETS_ELEMENT, *PTRANSMIT_PACKETS_ELEMENT, TP_ELEMENT_EOP, TP_ELEMENT_FILE, TP_ELEMENT_MEMORY, TRANSMIT_PACKETS_ELEMENT, TRANSMIT_PACKETS_ELEMENT structure [Winsock], _TRANSMIT_PACKETS_ELEMENT, _win32_transmit_packets_element_2, mswsock/TRANSMIT_PACKETS_ELEMENT, winsock.transmit_packets_element_2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _TRANSMIT_PACKETS_ELEMENT structure
@@ -58,20 +58,6 @@ The
 ## -struct-fields
 
 
-
-
-### -field nFileOffset
-
-Type: <b>LARGE_INTEGER</b>
-
-The file offset, in bytes, at which to begin the transfer. Valid only if TP_ELEMENT_FILE is specified in <b>dwEIFlags</b>. When set to –1, transmission begins at the current byte offset.
-
-
-### -field hFile
-
-Type: <b>HANDLE</b>
-
-A handle to an open file to be transmitted. Valid only if TP_ELEMENT_FILE is specified in <b>dwEIFlags</b>. Windows reads the file sequentially; caching performance is improved by opening this handle with FILE_FLAG_SEQUENTIAL_SCAN.
 
 
 ### -field dwElFlags
@@ -126,6 +112,20 @@ Specifies that this element should not be combined with the next element in a si
 Type: <b>ULONG</b>
 
 The number of bytes to transmit. If zero, the entire file is transmitted.
+
+
+### -field nFileOffset
+
+Type: <b>LARGE_INTEGER</b>
+
+The file offset, in bytes, at which to begin the transfer. Valid only if TP_ELEMENT_FILE is specified in <b>dwEIFlags</b>. When set to –1, transmission begins at the current byte offset.
+
+
+### -field hFile
+
+Type: <b>HANDLE</b>
+
+A handle to an open file to be transmitted. Valid only if TP_ELEMENT_FILE is specified in <b>dwEIFlags</b>. Windows reads the file sequentially; caching performance is improved by opening this handle with FILE_FLAG_SEQUENTIAL_SCAN.
 
 
 #### - pBuffer

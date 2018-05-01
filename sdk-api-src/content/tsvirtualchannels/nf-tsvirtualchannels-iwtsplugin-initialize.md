@@ -7,7 +7,7 @@ old-location: termserv\iwtsplugin_initialize.htm
 old-project: TermServ
 ms.assetid: 9216a069-4fd0-4e88-9cfa-050460b49906
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: IWTSPlugin, IWTSPlugin interface [Remote Desktop Services], Initialize method, IWTSPlugin::Initialize, Initialize method [Remote Desktop Services], Initialize method [Remote Desktop Services], IWTSPlugin interface, Initialize,IWTSPlugin.Initialize, termserv.iwtsplugin_initialize, tsvirtualchannels/IWTSPlugin::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

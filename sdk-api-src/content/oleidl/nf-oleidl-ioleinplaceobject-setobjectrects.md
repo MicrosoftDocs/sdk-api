@@ -7,7 +7,7 @@ old-location: com\ioleinplaceobject_setobjectrects.htm
 old-project: com
 ms.assetid: 5ae2e44b-d2e2-4351-b4fa-8c37419a2bcb
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IOleInPlaceObject, IOleInPlaceObject interface [COM], SetObjectRects method, IOleInPlaceObject::SetObjectRects, SetObjectRects method [COM], SetObjectRects method [COM], IOleInPlaceObject interface, SetObjectRects,IOleInPlaceObject.SetObjectRects, _ole_ioleinplaceobject_setobjectrects, com.ioleinplaceobject_setobjectrects, oleidl/IOleInPlaceObject::SetObjectRects
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IOleInPlaceObject::SetObjectRects method

@@ -7,13 +7,13 @@ old-location: automat\typekind.htm
 old-project: automat
 ms.assetid: ea7ae5cf-9572-4174-bfcb-63aabba26ed8
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
-ms.keywords: TKIND_ALIAS, TKIND_COCLASS, TKIND_DISPATCH, TKIND_ENUM, TKIND_INTERFACE, TKIND_MAX, TKIND_MODULE, TKIND_RECORD, TKIND_UNION, TYPEKIND, TYPEKIND enumeration [Automation], _oa96_TYPEKIND, automat.typekind, dbgmodel/TKIND_ALIAS, dbgmodel/TKIND_COCLASS, dbgmodel/TKIND_DISPATCH, dbgmodel/TKIND_ENUM, dbgmodel/TKIND_INTERFACE, dbgmodel/TKIND_MAX, dbgmodel/TKIND_MODULE, dbgmodel/TKIND_RECORD, dbgmodel/TKIND_UNION, dbgmodel/TYPEKIND, tagTYPEKIND
+ms.date: 4/20/2018
+ms.keywords: TKIND_ALIAS, TKIND_COCLASS, TKIND_DISPATCH, TKIND_ENUM, TKIND_INTERFACE, TKIND_MAX, TKIND_MODULE, TKIND_RECORD, TKIND_UNION, TYPEKIND, TYPEKIND enumeration [Automation], _oa96_TYPEKIND, automat.typekind, oaidl/TKIND_ALIAS, oaidl/TKIND_COCLASS, oaidl/TKIND_DISPATCH, oaidl/TKIND_ENUM, oaidl/TKIND_INTERFACE, oaidl/TKIND_MAX, oaidl/TKIND_MODULE, oaidl/TKIND_RECORD, oaidl/TKIND_UNION, oaidl/TYPEKIND, tagTYPEKIND
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: oaidl.h
-req.include-header: OaIdl.h
+req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -33,7 +33,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	dbgmodel.h
+-	OaIdl.h
 api_name:
 -	TYPEKIND
 product: Windows
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # tagTYPEKIND enumeration

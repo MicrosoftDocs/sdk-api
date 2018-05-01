@@ -7,7 +7,7 @@ old-location: dshow\iamexttransport_get_localcontrol.htm
 old-project: DirectShow
 ms.assetid: 793078a2-bddd-469b-9043-f07830499353
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMExtTransport, IAMExtTransport interface [DirectShow], get_LocalControl method, IAMExtTransport::get_LocalControl, IAMExtTransportget_LocalControl, dshow.iamexttransport_get_localcontrol, get_LocalControl method [DirectShow], get_LocalControl method [DirectShow], IAMExtTransport interface, get_LocalControl,IAMExtTransport.get_LocalControl, strmif/IAMExtTransport::get_LocalControl
 ms.prod: windows-hardware
 ms.technology: windows-devices

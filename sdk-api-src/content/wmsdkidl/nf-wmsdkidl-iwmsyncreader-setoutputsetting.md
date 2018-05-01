@@ -7,7 +7,7 @@ old-location: wmformat\iwmsyncreader_setoutputsetting.htm
 old-project: wmformat
 ms.assetid: 8deb322f-8b52-46cf-9b5c-76fa34b6bde2
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMSyncReader, IWMSyncReader interface [windows Media Format], SetOutputSetting method, IWMSyncReader::SetOutputSetting, IWMSyncReaderSetOutputSetting, SetOutputSetting method [windows Media Format], SetOutputSetting method [windows Media Format], IWMSyncReader interface, SetOutputSetting,IWMSyncReader.SetOutputSetting, wmformat.iwmsyncreader_setoutputsetting, wmsdkidl/IWMSyncReader::SetOutputSetting
 ms.prod: windows-hardware
 ms.technology: windows-devices

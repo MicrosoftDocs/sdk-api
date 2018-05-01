@@ -7,7 +7,7 @@ old-location: multimedia\icinfo_struct.htm
 old-project: Multimedia
 ms.assetid: 5faf7022-6dc8-475c-8f5a-721bc5b6afee
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/25/2018
 ms.keywords: ICINFO, ICINFO structure [Windows Multimedia], VIDCF_COMPRESSFRAMES, VIDCF_CRUNCH, VIDCF_DRAW, VIDCF_FASTTEMPORALC, VIDCF_FASTTEMPORALD, VIDCF_QUALITY, VIDCF_TEMPORAL, multimedia.icinfo_COLLISION204, multimedia.icinfo_struct, vfw/ICINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices

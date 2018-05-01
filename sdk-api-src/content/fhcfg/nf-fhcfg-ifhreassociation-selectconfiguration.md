@@ -7,7 +7,7 @@ old-location: winprog\ifhreassociation_selectconfiguration.htm
 old-project: DevNotes
 ms.assetid: 5501F87D-2998-4CB7-B9C8-9EC04F42B22D
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/13/2018
 ms.keywords: FhReassociation class [Windows API], SelectConfiguration method, IFhReassociation, IFhReassociation interface [Windows API], SelectConfiguration method, IFhReassociation::SelectConfiguration, SelectConfiguration method [Windows API], SelectConfiguration method [Windows API], FhReassociation class, SelectConfiguration method [Windows API], IFhReassociation interface, SelectConfiguration,IFhReassociation.SelectConfiguration, fhcfg/IFhReassociation::SelectConfiguration, winprog.ifhreassociation_selectconfiguration
 ms.prod: windows-hardware
 ms.technology: windows-devices

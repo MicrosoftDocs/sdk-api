@@ -7,7 +7,7 @@ old-location: wmformat\iwmregistereddevice_close.htm
 old-project: wmformat
 ms.assetid: 5d30eb82-1d5c-4d40-9dc9-7360e64cd55e
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: Close method [windows Media Format], Close method [windows Media Format], IWMRegisteredDevice interface, Close,IWMRegisteredDevice.Close, IWMRegisteredDevice, IWMRegisteredDevice interface [windows Media Format], Close method, IWMRegisteredDevice::Close, IWMRegisteredDeviceClose, wmformat.iwmregistereddevice_close, wmsdkidl/IWMRegisteredDevice::Close
 ms.prod: windows-hardware
 ms.technology: windows-devices

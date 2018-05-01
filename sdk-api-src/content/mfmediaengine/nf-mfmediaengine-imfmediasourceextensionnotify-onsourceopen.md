@@ -7,7 +7,7 @@ old-location: mf\imfmediasourceextensionnotify_onsourceopen.htm
 old-project: medfound
 ms.assetid: 45120acf-48e1-4b4a-af50-f6052acdb533
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFMediaSourceExtensionNotify, IMFMediaSourceExtensionNotify interface [Media Foundation], OnSourceOpen method, IMFMediaSourceExtensionNotify::OnSourceOpen, OnSourceOpen method [Media Foundation], OnSourceOpen method [Media Foundation], IMFMediaSourceExtensionNotify interface, OnSourceOpen,IMFMediaSourceExtensionNotify.OnSourceOpen, mf.imfmediasourceextensionnotify_onsourceopen, mfmediaengine/IMFMediaSourceExtensionNotify::OnSourceOpen
 ms.prod: windows-hardware
 ms.technology: windows-devices

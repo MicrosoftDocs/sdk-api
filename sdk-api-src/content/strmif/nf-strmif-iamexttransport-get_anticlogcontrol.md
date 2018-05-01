@@ -7,7 +7,7 @@ old-location: dshow\iamexttransport_get_anticlogcontrol.htm
 old-project: DirectShow
 ms.assetid: e0175b44-d1e6-4f3a-8aa7-893b41d0c487
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMExtTransport, IAMExtTransport interface [DirectShow], get_AntiClogControl method, IAMExtTransport::get_AntiClogControl, IAMExtTransportget_AntiClogControl, dshow.iamexttransport_get_anticlogcontrol, get_AntiClogControl method [DirectShow], get_AntiClogControl method [DirectShow], IAMExtTransport interface, get_AntiClogControl,IAMExtTransport.get_AntiClogControl, strmif/IAMExtTransport::get_AntiClogControl
 ms.prod: windows-hardware
 ms.technology: windows-devices

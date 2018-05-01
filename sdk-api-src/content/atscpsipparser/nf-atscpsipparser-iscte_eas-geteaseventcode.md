@@ -7,7 +7,7 @@ old-location: mstv\iscte_eas_geteaseventcode.htm
 old-project: mstv
 ms.assetid: 9618fb6f-61f3-44cf-9605-b47a6a1e9be6
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetEASEventCode method [Microsoft TV Technologies], GetEASEventCode method [Microsoft TV Technologies], ISCTE_EAS interface, GetEASEventCode,ISCTE_EAS.GetEASEventCode, ISCTE_EAS, ISCTE_EAS interface [Microsoft TV Technologies], GetEASEventCode method, ISCTE_EAS::GetEASEventCode, ISCTE_EASGetEASEventCode, atscpsipparser/ISCTE_EAS::GetEASEventCode, mstv.iscte_eas_geteaseventcode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_WRITER_PAYLOAD_STREAM
+req.typenames: AsyncStatus
 topic_type:
 -	APIRef
 -	kbSyntax

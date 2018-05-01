@@ -7,7 +7,7 @@ old-location: wmformat\iwmindexer_startindexing.htm
 old-project: wmformat
 ms.assetid: 67dfb0df-4883-49e1-a085-0b78db3967d0
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMIndexer, IWMIndexer interface [windows Media Format], StartIndexing method, IWMIndexer::StartIndexing, IWMIndexerStartIndexing, StartIndexing method [windows Media Format], StartIndexing method [windows Media Format], IWMIndexer interface, StartIndexing,IWMIndexer.StartIndexing, wmformat.iwmindexer_startindexing, wmsdkidl/IWMIndexer::StartIndexing
 ms.prod: windows-hardware
 ms.technology: windows-devices

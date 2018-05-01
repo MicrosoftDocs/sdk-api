@@ -7,7 +7,7 @@ old-location: iphlp\gettcpstatisticsex.htm
 old-project: IpHlp
 ms.assetid: 78cfc69d-eae8-49c1-a460-6527a61f773d
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 4/13/2018
 ms.keywords: AF_INET, AF_INET6, GetTcpStatisticsEx, GetTcpStatisticsEx function [IP Helper], _iphlp_gettcpstatisticsex, iphlp.gettcpstatisticsex, iphlpapi/GetTcpStatisticsEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

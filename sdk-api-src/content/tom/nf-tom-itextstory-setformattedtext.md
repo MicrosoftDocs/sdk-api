@@ -7,7 +7,7 @@ old-location: controls\itextstory_setformattedtext.htm
 old-project: Controls
 ms.assetid: ddc77bfe-06de-43e6-9d74-f1b3531c9416
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextStory, ITextStory interface [Windows Controls], SetFormattedText method, ITextStory::SetFormattedText, SetFormattedText method [Windows Controls], SetFormattedText method [Windows Controls], ITextStory interface, SetFormattedText,ITextStory.SetFormattedText, controls.itextstory_setformattedtext, tom/ITextStory::SetFormattedText
 ms.prod: windows-hardware
 ms.technology: windows-devices

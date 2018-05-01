@@ -7,7 +7,7 @@ old-location: controls\DSA_Destroy.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dsa_destroy.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: DSA_Destroy, DSA_Destroy function [Windows Controls], _win32_DSA_Destroy, _win32_DSA_Destroy_cpp, controls.DSA_Destroy, controls._win32_DSA_Destroy, dpa_dsa/DSA_Destroy
 ms.prod: windows-hardware
 ms.technology: windows-devices

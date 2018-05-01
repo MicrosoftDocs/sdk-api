@@ -7,7 +7,7 @@ old-location: termserv\iwrdsprotocolconnection_close.htm
 old-project: TermServ
 ms.assetid: 8d159e3f-b429-4522-b608-0068b1f7fa4e
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: Close method [Remote Desktop Services], Close method [Remote Desktop Services], IWRdsProtocolConnection interface, Close,IWRdsProtocolConnection.Close, IWRdsProtocolConnection, IWRdsProtocolConnection interface [Remote Desktop Services], Close method, IWRdsProtocolConnection::Close, termserv.iwrdsprotocolconnection_close, wtsprotocol/IWRdsProtocolConnection::Close
 ms.prod: windows-hardware
 ms.technology: windows-devices

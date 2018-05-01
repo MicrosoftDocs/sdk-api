@@ -7,7 +7,7 @@ old-location: wmi\cinstance_setwbemint64_lpcwstr__const_longlong_.htm
 old-project: WmiSdk
 ms.assetid: dd06ecb9-0a7f-4487-8143-80418d28f3bb
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: CInstance, CInstance interface [Windows Management Instrumentation], SetWBEMINT64 method, CInstance::SetWBEMINT64, SetWBEMINT64 method [Windows Management Instrumentation], SetWBEMINT64 method [Windows Management Instrumentation], CInstance interface, SetWBEMINT64,CInstance.SetWBEMINT64, instance/CInstance::SetWBEMINT64, wmi.cinstance_setwbemint64_lpcwstr__const_longlong_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: InputScope
+req.typenames: TrustLevel
 topic_type:
 -	APIRef
 -	kbSyntax

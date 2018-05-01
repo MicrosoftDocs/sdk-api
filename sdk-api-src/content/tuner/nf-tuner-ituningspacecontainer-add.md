@@ -7,7 +7,7 @@ old-location: mstv\ituningspacecontainer_add.htm
 old-project: mstv
 ms.assetid: 9c7faab5-48d4-47fa-be8a-7dafce8504a6
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: Add method [Microsoft TV Technologies], Add method [Microsoft TV Technologies], ITuningSpaceContainer interface, Add,ITuningSpaceContainer.Add, ITuningSpaceContainer, ITuningSpaceContainer interface [Microsoft TV Technologies], Add method, ITuningSpaceContainer::Add, ITuningSpaceContainerAdd, mstv.ituningspacecontainer_add, tuner/ITuningSpaceContainer::Add
 ms.prod: windows-hardware
 ms.technology: windows-devices

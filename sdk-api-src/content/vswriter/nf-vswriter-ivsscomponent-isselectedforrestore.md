@@ -7,7 +7,7 @@ old-location: base\ivsscomponent_isselectedforrestore.htm
 old-project: VSS
 ms.assetid: 76d0461d-a0ac-49c7-84b1-16f21114b72d
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: IVssComponent, IVssComponent interface [VSS], IsSelectedForRestore method, IVssComponent::IsSelectedForRestore, IsSelectedForRestore method [VSS], IsSelectedForRestore method [VSS], IVssComponent interface, IsSelectedForRestore,IVssComponent.IsSelectedForRestore, _win32_ivsscomponent_isselectedforrestore, base.ivsscomponent_isselectedforrestore, vswriter/IVssComponent::IsSelectedForRestore
 ms.prod: windows-hardware
 ms.technology: windows-devices

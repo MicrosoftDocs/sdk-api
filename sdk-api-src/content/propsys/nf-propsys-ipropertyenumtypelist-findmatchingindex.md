@@ -7,7 +7,7 @@ old-location: properties\IPropertyEnumTypeList_FindMatchingIndex.htm
 old-project: properties
 ms.assetid: 48f2d55e-d801-4518-b587-7818cd6afcc9
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/5/2018
 ms.keywords: FindMatchingIndex method [Windows Properties], FindMatchingIndex method [Windows Properties], IPropertyEnumTypeList interface, FindMatchingIndex,IPropertyEnumTypeList.FindMatchingIndex, IPropertyEnumTypeList, IPropertyEnumTypeList interface [Windows Properties], FindMatchingIndex method, IPropertyEnumTypeList::FindMatchingIndex, _shell_IPropertyEnumTypeList_FindMatchingIndex, properties.IPropertyEnumTypeList_FindMatchingIndex, propsys/IPropertyEnumTypeList::FindMatchingIndex, shell.IPropertyEnumTypeList_FindMatchingIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IPropertyEnumTypeList::FindMatchingIndex method

@@ -7,7 +7,7 @@ old-location: cos\isecurityproperty_getdirectcreatorsid.htm
 old-project: cossdk
 ms.assetid: cd06e71b-563a-45d2-91fb-f57375016dc3
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: GetDirectCreatorSID method [COM+], GetDirectCreatorSID method [COM+], ISecurityProperty interface, GetDirectCreatorSID,ISecurityProperty.GetDirectCreatorSID, ISecurityProperty, ISecurityProperty interface [COM+], GetDirectCreatorSID method, ISecurityProperty::GetDirectCreatorSID, _cos_ISecurityProperty_GetDirectCreatorSID, comsvcs/ISecurityProperty::GetDirectCreatorSID, cos.isecurityproperty_getdirectcreatorsid
 ms.prod: windows-hardware
 ms.technology: windows-devices

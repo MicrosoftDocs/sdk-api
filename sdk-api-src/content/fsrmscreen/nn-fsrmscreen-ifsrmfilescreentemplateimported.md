@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmfilescreentemplateimported.htm
 old-project: Fsrm
 ms.assetid: 9e3c3d05-298d-4373-abd2-21de9770e85c
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: IFsrmFileScreenTemplateImported, IFsrmFileScreenTemplateImported interface [File Server Resource Manager], IFsrmFileScreenTemplateImported interface [File Server Resource Manager], described, fs.ifsrmfilescreentemplateimported, fsrm.ifsrmfilescreentemplateimported, fsrm/IFsrmFileScreenTemplateImported
 ms.prod: windows-hardware
 ms.technology: windows-devices

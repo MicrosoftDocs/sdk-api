@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_subnet_element_data_v5.htm
 old-project: DHCP
 ms.assetid: ea6df1bc-2d15-4a09-8100-ee17d3de34d9
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/7/2018
 ms.keywords: "*LPDHCP_SUBNET_ELEMENT_DATA_V5, DHCP_SUBNET_ELEMENT_DATA_V5, DHCP_SUBNET_ELEMENT_DATA_V5 structure [DHCP], LPDHCP_SUBNET_ELEMENT_DATA_V5, LPDHCP_SUBNET_ELEMENT_DATA_V5 structure pointer [DHCP], _DHCP_SUBNET_ELEMENT_DATA_V5, dhcp.dhcp_subnet_element_data_v5, dhcpsapi/LPDHCP_SUBNET_ELEMENT_DATA_V5, dhcpsapi/_DHCP_SUBNET_ELEMENT_DATA_V5"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -57,6 +57,12 @@ The <b>DHCP_SUBNET_ELEMENT_DATA_V5</b> structure defines an element that describ
 
 
 
+### -field ElementType
+
+
+<a href="https://msdn.microsoft.com/291be329-0588-4b67-835f-4f2b2369772a">DHCP_SUBNET_ELEMENT_TYPE</a> enumeration value describing the type of element in the subsequent field.
+
+
 ### -field Element
 
 
@@ -93,8 +99,4 @@ The <b>DHCP_SUBNET_ELEMENT_DATA_V5</b> structure defines an element that describ
  
 
 
-### -field ElementType
-
-
-<a href="https://msdn.microsoft.com/291be329-0588-4b67-835f-4f2b2369772a">DHCP_SUBNET_ELEMENT_TYPE</a> enumeration value describing the type of element in the subsequent field.
 

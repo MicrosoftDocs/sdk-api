@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxaccountset_addaccount_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountset\addaccount.htm
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/18/2018
 ms.keywords: AddAccount method [Fax Service], AddAccount method [Fax Service], FaxAccountSet object, AddAccount,IFaxAccountSet.AddAccount, FaxAccountSet object [Fax Service], AddAccount method, IFaxAccountSet, IFaxAccountSet::AddAccount, _mfax_faxaccountset.addaccount, fax._mfax_faxaccountset_addaccount, fax._mfax_faxaccountset_addaccount_vb
 ms.prod: windows-hardware
 ms.technology: windows-devices

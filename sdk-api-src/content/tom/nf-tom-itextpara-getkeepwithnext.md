@@ -7,7 +7,7 @@ old-location: controls\ITextPara_GetKeepWithNext.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getkeepwithnext.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: GetKeepWithNext method [Windows Controls], GetKeepWithNext method [Windows Controls], ITextPara interface, GetKeepWithNext,ITextPara.GetKeepWithNext, ITextPara, ITextPara interface [Windows Controls], GetKeepWithNext method, ITextPara::GetKeepWithNext, _win32_ITextPara_GetKeepWithNext, _win32_ITextPara_GetKeepWithNext_cpp, controls.ITextPara_GetKeepWithNext, controls._win32_ITextPara_GetKeepWithNext, tom/ITextPara::GetKeepWithNext, tomFalse, tomTrue, tomUndefined
 ms.prod: windows-hardware
 ms.technology: windows-devices

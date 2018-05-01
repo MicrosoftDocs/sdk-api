@@ -7,7 +7,7 @@ old-location: mf\imfmediaerror_setextendederrorcode.htm
 old-project: medfound
 ms.assetid: F3B52C1A-E235-492D-93C2-393FF2321B7E
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFMediaError, IMFMediaError interface [Media Foundation], SetExtendedErrorCode method, IMFMediaError::SetExtendedErrorCode, SetExtendedErrorCode method [Media Foundation], SetExtendedErrorCode method [Media Foundation], IMFMediaError interface, SetExtendedErrorCode,IMFMediaError.SetExtendedErrorCode, mf.imfmediaerror_setextendederrorcode, mfmediaengine/IMFMediaError::SetExtendedErrorCode
 ms.prod: windows-hardware
 ms.technology: windows-devices

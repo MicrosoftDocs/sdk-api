@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiosessionevents_oniconpathchanged.htm
 old-project: CoreAudio
 ms.assetid: 32669e52-28bf-4739-9f39-6e0175ca779c
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: IAudioSessionEvents, IAudioSessionEvents interface [Core Audio], OnIconPathChanged method, IAudioSessionEvents::OnIconPathChanged, IAudioSessionEventsOnIconPathChanged, OnIconPathChanged method [Core Audio], OnIconPathChanged method [Core Audio], IAudioSessionEvents interface, OnIconPathChanged,IAudioSessionEvents.OnIconPathChanged, audiopolicy/IAudioSessionEvents::OnIconPathChanged, coreaudio.iaudiosessionevents_oniconpathchanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: AE_CURRENT_POSITION, *PAE_CURRENT_POSITION
+req.typenames: UNCOMPRESSEDAUDIOFORMAT
 topic_type:
 -	APIRef
 -	kbSyntax

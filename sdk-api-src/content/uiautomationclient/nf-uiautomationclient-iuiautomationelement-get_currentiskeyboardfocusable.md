@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement_CurrentIsKeyboardFocusable.htm
 old-project: WinAuto
 ms.assetid: 44c4d5a6-2f31-4707-bcd5-bb1c06d2e3ce
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: CurrentIsKeyboardFocusable property [Windows Accessibility], CurrentIsKeyboardFocusable property [Windows Accessibility], IUIAutomationElement interface, IUIAutomationElement, IUIAutomationElement interface [Windows Accessibility], CurrentIsKeyboardFocusable property, IUIAutomationElement.CurrentIsKeyboardFocusable, IUIAutomationElement::get_CurrentIsKeyboardFocusable, get_CurrentIsKeyboardFocusable,IUIAutomationElement.get_CurrentIsKeyboardFocusable, uiauto.uiauto_IUIAutomationElement_CurrentIsKeyboardFocusable, uiauto_IUIAutomationElement_CurrentIsKeyboardFocusable, uiautomationclient/IUIAutomationElement::CurrentIsKeyboardFocusable, uiautomationclient/IUIAutomationElement::get_CurrentIsKeyboardFocusable, winauto.uiauto_IUIAutomationElement_CurrentIsKeyboardFocusable
 ms.prod: windows-hardware
 ms.technology: windows-devices

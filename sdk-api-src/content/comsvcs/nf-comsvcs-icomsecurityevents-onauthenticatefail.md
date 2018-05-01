@@ -7,7 +7,7 @@ old-location: cos\icomsecurityevents_onauthenticatefail.htm
 old-project: cossdk
 ms.assetid: 3ead4865-924c-40fb-9ed8-5b98c603c5cf
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: IComSecurityEvents, IComSecurityEvents interface [COM+], OnAuthenticateFail method, IComSecurityEvents::OnAuthenticateFail, OnAuthenticateFail method [COM+], OnAuthenticateFail method [COM+], IComSecurityEvents interface, OnAuthenticateFail,IComSecurityEvents.OnAuthenticateFail, _dtc_IComSecurityEvents_OnAuthenticateFail, comsvcs/IComSecurityEvents::OnAuthenticateFail, cos.icomsecurityevents_onauthenticatefail
 ms.prod: windows-hardware
 ms.technology: windows-devices

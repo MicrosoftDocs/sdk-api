@@ -7,7 +7,7 @@ old-location: cos\iservicesystxnconfig_configurebyotsystxn.htm
 old-project: cossdk
 ms.assetid: 6023e756-7797-489b-96fd-9cf2d9f2cb2b
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: ConfigureBYOTSysTxn method [COM+], ConfigureBYOTSysTxn method [COM+], IServiceSysTxnConfig interface, ConfigureBYOTSysTxn,IServiceSysTxnConfig.ConfigureBYOTSysTxn, IServiceSysTxnConfig, IServiceSysTxnConfig interface [COM+], ConfigureBYOTSysTxn method, IServiceSysTxnConfig::ConfigureBYOTSysTxn, comsvcs/IServiceSysTxnConfig::ConfigureBYOTSysTxn, cos.iservicesystxnconfig_configurebyotsystxn
 ms.prod: windows-hardware
 ms.technology: windows-devices

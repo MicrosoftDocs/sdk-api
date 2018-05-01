@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicbitmapframeencode_setresolution.htm
 old-project: wic
 ms.assetid: 0b9e564a-5278-41d7-84ab-8b7594e776c7
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: IWICBitmapFrameEncode, IWICBitmapFrameEncode interface [Windows Imaging Component], SetResolution method, IWICBitmapFrameEncode::SetResolution, SetResolution method [Windows Imaging Component], SetResolution method [Windows Imaging Component], IWICBitmapFrameEncode interface, SetResolution,IWICBitmapFrameEncode.SetResolution, _wic_codec_iwicbitmapframeencode_setresolution, wic._wic_codec_iwicbitmapframeencode_setresolution, wincodec/IWICBitmapFrameEncode::SetResolution
 ms.prod: windows-hardware
 ms.technology: windows-devices

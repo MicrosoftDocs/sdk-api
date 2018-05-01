@@ -7,7 +7,7 @@ old-location: controls\itextfont2_setunderlinepositionmode.htm
 old-project: Controls
 ms.assetid: 31dff2d0-7165-42f0-b3d0-9cb679c738c3
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextFont2, ITextFont2 interface [Windows Controls], SetUnderlinePositionMode method, ITextFont2::SetUnderlinePositionMode, SetUnderlinePositionMode method [Windows Controls], SetUnderlinePositionMode method [Windows Controls], ITextFont2 interface, SetUnderlinePositionMode,ITextFont2.SetUnderlinePositionMode, controls.itextfont2_setunderlinepositionmode, tom/ITextFont2::SetUnderlinePositionMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

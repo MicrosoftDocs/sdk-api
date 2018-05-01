@@ -7,7 +7,7 @@ old-location: mediastreaming\ideviceicon.htm
 old-project: mediastreaming
 ms.assetid: F86C9107-447D-47F7-A711-0687A30EF58E
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/10/2018
 ms.keywords: IDeviceIcon, IDeviceIcon interface [Media Streaming API], IDeviceIcon interface [Media Streaming API], described, mediastreaming.ideviceicon, windows/IDeviceIcon
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: PDF_RENDER_PARAMS
+req.typenames: TimeSpan
 topic_type:
 -	APIRef
 -	kbSyntax

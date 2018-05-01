@@ -7,7 +7,7 @@ old-location: dshow\iconfiginterleaving_put_interleaving.htm
 old-project: DirectShow
 ms.assetid: 4b1363c4-9cdd-4b28-a5ea-e5e554597be2
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IConfigInterleaving, IConfigInterleaving interface [DirectShow], put_Interleaving method, IConfigInterleaving::put_Interleaving, IConfigInterleavingput_Interleaving, dshow.iconfiginterleaving_put_interleaving, put_Interleaving method [DirectShow], put_Interleaving method [DirectShow], IConfigInterleaving interface, put_Interleaving,IConfigInterleaving.put_Interleaving, strmif/IConfigInterleaving::put_Interleaving
 ms.prod: windows-hardware
 ms.technology: windows-devices

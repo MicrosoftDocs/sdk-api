@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmquotatemplate_copytemplate.htm
 old-project: Fsrm
 ms.assetid: 00aa7693-3c6e-4688-915e-59c31e5b8e6e
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: CopyTemplate method [File Server Resource Manager], CopyTemplate method [File Server Resource Manager], IFsrmQuotaTemplate interface, CopyTemplate,IFsrmQuotaTemplate.CopyTemplate, IFsrmQuotaTemplate, IFsrmQuotaTemplate interface [File Server Resource Manager], CopyTemplate method, IFsrmQuotaTemplate::CopyTemplate, fs.ifsrmquotatemplate_copytemplate, fsrm.ifsrmquotatemplate_copytemplate, fsrmquota/IFsrmQuotaTemplate::CopyTemplate
 ms.prod: windows-hardware
 ms.technology: windows-devices

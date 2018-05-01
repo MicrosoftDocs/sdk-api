@@ -7,7 +7,7 @@ old-location: mstv\imsvidfeatures_add.htm
 old-project: mstv
 ms.assetid: 1bdb5e4a-4dd7-49dc-bb9c-b6a9e435219b
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: Add method [Microsoft TV Technologies], Add method [Microsoft TV Technologies], IMSVidFeatures interface, Add,IMSVidFeatures.Add, IMSVidFeatures, IMSVidFeatures interface [Microsoft TV Technologies], Add method, IMSVidFeatures::Add, IMSVidFeaturesAdd, mstv.imsvidfeatures_add, segment/IMSVidFeatures::Add
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidFeatures::Add method

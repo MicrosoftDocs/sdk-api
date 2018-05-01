@@ -7,7 +7,7 @@ old-location: base\ivsscomponent_getalternatelocationmapping.htm
 old-project: VSS
 ms.assetid: 8c6537eb-67ba-4d6a-ac86-44da176ef5c5
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: GetAlternateLocationMapping method [VSS], GetAlternateLocationMapping method [VSS], IVssComponent interface, GetAlternateLocationMapping,IVssComponent.GetAlternateLocationMapping, IVssComponent, IVssComponent interface [VSS], GetAlternateLocationMapping method, IVssComponent::GetAlternateLocationMapping, _win32_ivsscomponent_getalternatelocationmapping, base.ivsscomponent_getalternatelocationmapping, vswriter/IVssComponent::GetAlternateLocationMapping
 ms.prod: windows-hardware
 ms.technology: windows-devices

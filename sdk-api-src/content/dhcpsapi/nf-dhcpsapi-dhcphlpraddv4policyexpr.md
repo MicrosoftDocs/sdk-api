@@ -7,7 +7,7 @@ old-location: dhcp\dhcphlpraddv4policyexpr.htm
 old-project: DHCP
 ms.assetid: 549d86ed-81c1-4126-9f43-f7e5340990d3
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/7/2018
 ms.keywords: DhcpHlprAddV4PolicyExpr, DhcpHlprAddV4PolicyExpr function [DHCP], dhcp.dhcphlpraddv4policyexpr, dhcpsapi/DhcpHlprAddV4PolicyExpr
 ms.prod: windows-hardware
 ms.technology: windows-devices

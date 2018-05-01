@@ -7,7 +7,7 @@ old-location: wmformat\iwmheaderinfo_getattributebyname.htm
 old-project: wmformat
 ms.assetid: 8941b989-f052-4e61-a64a-06748947fcf4
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: GetAttributeByName method [windows Media Format], GetAttributeByName method [windows Media Format], IWMHeaderInfo interface, GetAttributeByName method [windows Media Format], IWMHeaderInfo2 interface, GetAttributeByName method [windows Media Format], IWMHeaderInfo3 interface, GetAttributeByName,IWMHeaderInfo.GetAttributeByName, IWMHeaderInfo, IWMHeaderInfo interface [windows Media Format], GetAttributeByName method, IWMHeaderInfo2 interface [windows Media Format], GetAttributeByName method, IWMHeaderInfo2::GetAttributeByName, IWMHeaderInfo3 interface [windows Media Format], GetAttributeByName method, IWMHeaderInfo3::GetAttributeByName, IWMHeaderInfo::GetAttributeByName, IWMHeaderInfoGetAttributeByName, wmformat.iwmheaderinfo_getattributebyname, wmsdkidl/IWMHeaderInfo2::GetAttributeByName, wmsdkidl/IWMHeaderInfo3::GetAttributeByName, wmsdkidl/IWMHeaderInfo::GetAttributeByName
 ms.prod: windows-hardware
 ms.technology: windows-devices

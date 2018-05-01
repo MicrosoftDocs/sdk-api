@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol2_playchaptersautostop.htm
 old-project: DirectShow
 ms.assetid: fdf9642b-ac90-4ffc-a813-4a5b22a973dd
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IDvdControl2, IDvdControl2 interface [DirectShow], PlayChaptersAutoStop method, IDvdControl2::PlayChaptersAutoStop, IDvdControl2PlayChaptersAutoStop, PlayChaptersAutoStop method [DirectShow], PlayChaptersAutoStop method [DirectShow], IDvdControl2 interface, PlayChaptersAutoStop,IDvdControl2.PlayChaptersAutoStop, dshow.idvdcontrol2_playchaptersautostop, strmif/IDvdControl2::PlayChaptersAutoStop
 ms.prod: windows-hardware
 ms.technology: windows-devices

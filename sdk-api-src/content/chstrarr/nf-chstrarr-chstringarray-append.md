@@ -7,7 +7,7 @@ old-location: wmi\chstringarray_append.htm
 old-project: WmiSdk
 ms.assetid: c37df3d4-9b0b-4ed3-ab51-407f26203578
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: Append method [Windows Management Instrumentation], Append method [Windows Management Instrumentation], CHStringArray interface, Append,CHStringArray.Append, CHStringArray, CHStringArray interface [Windows Management Instrumentation], Append method, CHStringArray::Append, _hmm_chstringarray_append, chstrarr/CHStringArray::Append, wmi.chstringarray_append
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CF_SYNC_ROOT_STANDARD_INFO
+req.typenames: CF_SYNC_STATUS
 topic_type:
 -	APIRef
 -	kbSyntax

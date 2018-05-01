@@ -7,7 +7,7 @@ old-location: rpc\rpcnsmgmtbindingunexport.htm
 old-project: Rpc
 ms.assetid: e15b9e45-ac9f-4f90-9323-8b16066290d2
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: RPC_C_VERS_ALL, RPC_C_VERS_EXACT, RPC_C_VERS_IF_ID, RPC_C_VERS_MAJOR_ONLY, RPC_C_VERS_UPTO, RpcNsMgmtBindingUnexport, RpcNsMgmtBindingUnexport function [RPC], RpcNsMgmtBindingUnexportA, RpcNsMgmtBindingUnexportW, _rpc_rpcnsmgmtbindingunexport, rpc.rpcnsmgmtbindingunexport, rpcnsi/RpcNsMgmtBindingUnexport, rpcnsi/RpcNsMgmtBindingUnexportA, rpcnsi/RpcNsMgmtBindingUnexportW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: Rpcns4.lib
 req.dll: Rpcns4.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # RpcNsMgmtBindingUnexportA function

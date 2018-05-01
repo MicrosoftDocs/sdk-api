@@ -7,7 +7,7 @@ old-location: shell\ICredentialProviderFilter_UpdateRemoteCredential.htm
 old-project: shell
 ms.assetid: d0730f67-e4f1-42b2-823a-75b08a5c952e
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ICredentialProviderFilter, ICredentialProviderFilter interface [Windows Shell], UpdateRemoteCredential method, ICredentialProviderFilter::UpdateRemoteCredential, UpdateRemoteCredential method [Windows Shell], UpdateRemoteCredential method [Windows Shell], ICredentialProviderFilter interface, UpdateRemoteCredential,ICredentialProviderFilter.UpdateRemoteCredential, _shell_ICredentialProviderFilter_UpdateRemoteCredential, credentialprovider/ICredentialProviderFilter::UpdateRemoteCredential, shell.ICredentialProviderFilter_UpdateRemoteCredential
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\imediasample_getmediatype.htm
 old-project: DirectShow
 ms.assetid: abccec09-c5a0-4192-9bdf-9240d1b73357
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetMediaType method [DirectShow], GetMediaType method [DirectShow], IMediaSample interface, GetMediaType,IMediaSample.GetMediaType, IMediaSample, IMediaSample interface [DirectShow], GetMediaType method, IMediaSample::GetMediaType, IMediaSampleGetMediaType, dshow.imediasample_getmediatype, strmif/IMediaSample::GetMediaType
 ms.prod: windows-hardware
 ms.technology: windows-devices

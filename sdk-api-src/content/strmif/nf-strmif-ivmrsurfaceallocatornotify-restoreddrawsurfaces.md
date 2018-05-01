@@ -7,7 +7,7 @@ old-location: dshow\ivmrsurfaceallocatornotify_restoreddrawsurfaces.htm
 old-project: DirectShow
 ms.assetid: b62df5fb-6759-4869-a6b3-f78978e1f5e2
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IVMRSurfaceAllocatorNotify, IVMRSurfaceAllocatorNotify interface [DirectShow], RestoreDDrawSurfaces method, IVMRSurfaceAllocatorNotify::RestoreDDrawSurfaces, IVMRSurfaceAllocatorNotifyRestoreDDrawSurfaces, RestoreDDrawSurfaces method [DirectShow], RestoreDDrawSurfaces method [DirectShow], IVMRSurfaceAllocatorNotify interface, RestoreDDrawSurfaces,IVMRSurfaceAllocatorNotify.RestoreDDrawSurfaces, dshow.ivmrsurfaceallocatornotify_restoreddrawsurfaces, strmif/IVMRSurfaceAllocatorNotify::RestoreDDrawSurfaces
 ms.prod: windows-hardware
 ms.technology: windows-devices

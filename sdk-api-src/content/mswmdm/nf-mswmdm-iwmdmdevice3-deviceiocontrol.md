@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmdevice3_deviceiocontrol.htm
 old-project: WMDM
 ms.assetid: 3ef6a95d-d4e2-4608-9a02-98b497e1fdbb
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: DeviceIoControl method [windows Media Device Manager], DeviceIoControl method [windows Media Device Manager], IWMDMDevice3 interface, DeviceIoControl,IWMDMDevice3.DeviceIoControl, IWMDMDevice3, IWMDMDevice3 interface [windows Media Device Manager], DeviceIoControl method, IWMDMDevice3::DeviceIoControl, IWMDMDevice3DeviceToControl, mswmdm/IWMDMDevice3::DeviceIoControl, wmdm.iwmdmdevice3_deviceiocontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IWMDMDevice3::DeviceIoControl method

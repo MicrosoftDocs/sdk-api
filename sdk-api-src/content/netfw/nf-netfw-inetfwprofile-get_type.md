@@ -7,7 +7,7 @@ old-location: ics\inetfwprofile_type.htm
 old-project: ICS
 ms.assetid: aa3be066-e1f7-47a1-bdde-4bbd79067b1e
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: INetFwProfile, INetFwProfile interface [ICS/ICF], Type property, INetFwProfile.Type, INetFwProfile::get_Type, Type property [ICS/ICF], Type property [ICS/ICF], INetFwProfile interface, get_Type,INetFwProfile.get_Type, ics.inetfwprofile_type, netfw/INetFwProfile::Type, netfw/INetFwProfile::get_Type
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: 
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # INetFwProfile::get_Type method

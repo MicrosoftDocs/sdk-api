@@ -7,7 +7,7 @@ old-location: com\iolecontrolsite_showpropertyframe.htm
 old-project: com
 ms.assetid: 88421303-8f90-4ff3-90e4-74cb6d64a541
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IOleControlSite, IOleControlSite interface [COM], ShowPropertyFrame method, IOleControlSite::ShowPropertyFrame, ShowPropertyFrame method [COM], ShowPropertyFrame method [COM], IOleControlSite interface, ShowPropertyFrame,IOleControlSite.ShowPropertyFrame, _ctrl_iolecontrolsite_showpropertyframe, com.iolecontrolsite_showpropertyframe, ocidl/IOleControlSite::ShowPropertyFrame
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IOleControlSite::ShowPropertyFrame method

@@ -7,7 +7,7 @@ old-location: ics\net_fw_scope.htm
 old-project: ICS
 ms.assetid: 71f52d88-efd3-4037-86bc-7ec1cfa9642f
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: NET_FW_SCOPE, NET_FW_SCOPE enumeration [ICS/ICF], NET_FW_SCOPE_, NET_FW_SCOPE_ALL, NET_FW_SCOPE_CUSTOM, NET_FW_SCOPE_LOCAL_SUBNET, NET_FW_SCOPE_MAX, icftypes/NET_FW_SCOPE, icftypes/NET_FW_SCOPE_ALL, icftypes/NET_FW_SCOPE_CUSTOM, icftypes/NET_FW_SCOPE_LOCAL_SUBNET, icftypes/NET_FW_SCOPE_MAX, ics.net_fw_scope
 ms.prod: windows-hardware
 ms.technology: windows-devices

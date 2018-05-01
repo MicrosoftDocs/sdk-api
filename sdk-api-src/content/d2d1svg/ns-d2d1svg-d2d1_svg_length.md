@@ -7,7 +7,7 @@ old-location: direct2d\d2d1_svg_length.htm
 old-project: Direct2D
 ms.assetid: 6DD79037-0BF2-4C1B-A2E3-85EB77682FB6
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: D2D1_SVG_LENGTH, D2D1_SVG_LENGTH structure [Direct2D], d2d1svg/D2D1_SVG_LENGTH, direct2d.d2d1_svg_length
 ms.prod: windows-hardware
 ms.technology: windows-devices

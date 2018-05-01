@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_rt_format_array.htm
 old-project: direct3d12
 ms.assetid: 2C99BE03-868F-42F0-B631-6D5A9CEB1CB5
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: D3D12_RT_FORMAT_ARRAY, D3D12_RT_FORMAT_ARRAY structure, d3d12/D3D12_RT_FORMAT_ARRAY, direct3d12.d3d12_rt_format_array
 ms.prod: windows-hardware
 ms.technology: windows-devices

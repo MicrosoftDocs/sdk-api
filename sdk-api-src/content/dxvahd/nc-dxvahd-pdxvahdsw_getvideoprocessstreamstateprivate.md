@@ -7,7 +7,7 @@ old-location: mf\pdxvahdsw_getvideoprocessstreamstateprivate.htm
 old-project: medfound
 ms.assetid: db751314-8c3c-4969-87c4-0b2b2201ce20
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: PDXVAHDSW_GetVideoProcessStreamStatePrivate, PDXVAHDSW_GetVideoProcessStreamStatePrivate function pointer [Media Foundation], dxvahd/PDXVAHDSW_GetVideoProcessStreamStatePrivate, mf.pdxvahdsw_getvideoprocessstreamstateprivate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: DXVA2_VideoSample
+req.typenames: DXVA_COPPStatusSignalingCmdData
 topic_type:
 -	APIRef
 -	kbSyntax

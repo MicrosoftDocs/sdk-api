@@ -7,7 +7,7 @@ old-location: mf\imfmediaengine_getnativevideosize.htm
 old-project: medfound
 ms.assetid: 843F09F7-2E8B-4DF7-AF0C-136BB8626779
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetNativeVideoSize method [Media Foundation], GetNativeVideoSize method [Media Foundation], IMFMediaEngine interface, GetNativeVideoSize,IMFMediaEngine.GetNativeVideoSize, IMFMediaEngine, IMFMediaEngine interface [Media Foundation], GetNativeVideoSize method, IMFMediaEngine::GetNativeVideoSize, mf.imfmediaengine_getnativevideosize, mfmediaengine/IMFMediaEngine::GetNativeVideoSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

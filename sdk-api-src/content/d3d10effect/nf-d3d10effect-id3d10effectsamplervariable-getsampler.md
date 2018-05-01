@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effectsamplervariable_getsampler.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectsamplervariable_getsampler.htm
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: GetSampler method [Direct3D 10], GetSampler method [Direct3D 10], ID3D10EffectSamplerVariable interface, GetSampler,ID3D10EffectSamplerVariable.GetSampler, ID3D10EffectSamplerVariable, ID3D10EffectSamplerVariable interface [Direct3D 10], GetSampler method, ID3D10EffectSamplerVariable::GetSampler, cd07e1d0-28d4-ba10-87d9-3768dd4f0157, d3d10effect/ID3D10EffectSamplerVariable::GetSampler, direct3d10.id3d10effectsamplervariable_getsampler
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: netbios\session_buffer.htm
 old-project: NetBIOS
 ms.assetid: 29352074-3dff-430f-82fb-6f7fd0b2966a
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: "*PSESSION_BUFFER, CALL_PENDING, HANGUP_COMPLETE, HANGUP_PENDING, LISTEN_OUTSTANDING, PSESSION_HEADER, PSESSION_HEADER structure pointer [NetBIOS], SESSION_ABORTED, SESSION_BUFFER, SESSION_BUFFER structure [NetBIOS], SESSION_ESTABLISHED, SESSION_HEADER, SESSION_HEADER structure [NetBIOS], _SESSION_BUFFER, nb30/PSESSION_HEADER, nb30/SESSION_HEADER, netbios.session_buffer"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _SESSION_BUFFER structure

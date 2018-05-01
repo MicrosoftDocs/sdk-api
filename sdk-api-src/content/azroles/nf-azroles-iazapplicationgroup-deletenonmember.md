@@ -7,7 +7,7 @@ old-location: security\iazapplicationgroup_deletenonmember.htm
 old-project: SecAuthZ
 ms.assetid: 05d58f62-fa34-4829-a535-65ea0f5144ab
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: AzApplicationGroup object [Security], DeleteNonMember method, DeleteNonMember method [Security], DeleteNonMember method [Security], AzApplicationGroup object, DeleteNonMember method [Security], IAzApplicationGroup interface, DeleteNonMember,IAzApplicationGroup.DeleteNonMember, IAzApplicationGroup, IAzApplicationGroup interface [Security], DeleteNonMember method, IAzApplicationGroup::DeleteNonMember, azroles/IAzApplicationGroup::DeleteNonMember, security.iazapplicationgroup_deletenonmember
 ms.prod: windows-hardware
 ms.technology: windows-devices

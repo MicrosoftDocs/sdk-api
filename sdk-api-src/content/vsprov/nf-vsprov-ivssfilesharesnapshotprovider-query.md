@@ -7,7 +7,7 @@ old-location: base\ivssfilesharesnapshotprovider_query.htm
 old-project: VSS
 ms.assetid: 686d2104-f657-4c3b-967b-d6fb9137be17
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: IVssFileShareSnapshotProvider, IVssFileShareSnapshotProvider interface [VSS], Query method, IVssFileShareSnapshotProvider::Query, Query method [VSS], Query method [VSS], IVssFileShareSnapshotProvider interface, Query,IVssFileShareSnapshotProvider.Query, base.ivssfilesharesnapshotprovider_query, vsprov/IVssFileShareSnapshotProvider::Query
 ms.prod: windows-hardware
 ms.technology: windows-devices

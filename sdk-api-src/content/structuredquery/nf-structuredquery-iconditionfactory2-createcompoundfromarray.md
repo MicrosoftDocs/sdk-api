@@ -7,7 +7,7 @@ old-location: search\_search_IConditionFactory2_CreateCompoundFromArray.htm
 old-project: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\iconditionfactory\createcompoundfromarray.htm
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/24/2018
 ms.keywords: CreateCompoundFromArray method [search], CreateCompoundFromArray method [search], IConditionFactory2 interface, CreateCompoundFromArray,IConditionFactory2.CreateCompoundFromArray, IConditionFactory2, IConditionFactory2 interface [search], CreateCompoundFromArray method, IConditionFactory2::CreateCompoundFromArray, _search_IConditionFactory2_CreateCompoundFromArray, search._search_IConditionFactory2_CreateCompoundFromArray, structuredquery/IConditionFactory2::CreateCompoundFromArray
 ms.prod: windows-hardware
 ms.technology: windows-devices

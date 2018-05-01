@@ -7,7 +7,7 @@ old-location: mstv\itunerequestinfo_getpreviousprogram.htm
 old-project: mstv
 ms.assetid: 9c03a5c9-9dc1-4163-bbc8-8dae2037eb24
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetPreviousProgram method [Microsoft TV Technologies], GetPreviousProgram method [Microsoft TV Technologies], ITuneRequestInfo interface, GetPreviousProgram,ITuneRequestInfo.GetPreviousProgram, ITuneRequestInfo, ITuneRequestInfo interface [Microsoft TV Technologies], GetPreviousProgram method, ITuneRequestInfo::GetPreviousProgram, ITuneRequestInfoGetPreviousProgram, bdatif/ITuneRequestInfo::GetPreviousProgram, mstv.itunerequestinfo_getpreviousprogram
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: SpanningEventEmmMessage
+req.typenames: SmartCardApplication
 topic_type:
 -	APIRef
 -	kbSyntax

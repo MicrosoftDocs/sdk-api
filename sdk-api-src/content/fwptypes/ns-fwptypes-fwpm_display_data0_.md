@@ -7,7 +7,7 @@ old-location: fwp\fwpm_display_data0_struct.htm
 old-project: FWP
 ms.assetid: b86ca572-b4f4-4d40-adfd-fb0e9d32fcd5
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: FWPM_DISPLAY_DATA0, FWPM_DISPLAY_DATA0 structure [Filtering], FWPM_DISPLAY_DATA0_, fwp.fwpm_display_data0_struct, fwptypes/FWPM_DISPLAY_DATA0
 ms.prod: windows-hardware
 ms.technology: windows-devices

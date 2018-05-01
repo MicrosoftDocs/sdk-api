@@ -7,7 +7,7 @@ old-location: com\ienumoleverb_reset.htm
 old-project: com
 ms.assetid: 612a364a-e7c2-4efd-b55c-1050891f5e22
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IEnumOLEVERB, IEnumOLEVERB interface [COM], Reset method, IEnumOLEVERB::Reset, Reset method [COM], Reset method [COM], IEnumOLEVERB interface, Reset,IEnumOLEVERB.Reset, _ole_ienumoleverb_reset, com.ienumoleverb_reset, oleidl/IEnumOLEVERB::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IEnumOLEVERB::Reset method

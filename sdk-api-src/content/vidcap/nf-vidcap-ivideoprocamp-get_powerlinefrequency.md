@@ -7,7 +7,7 @@ old-location: dshow\ivideoprocamp_get_powerlinefrequency.htm
 old-project: DirectShow
 ms.assetid: 8c7bfc4a-895f-45a6-9619-868d1e7bc674
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IVideoProcAmp, IVideoProcAmp interface [DirectShow], get_PowerlineFrequency method, IVideoProcAmp::get_PowerlineFrequency, IVideoProcAmpget_PowerlineFrequency, dshow.ivideoprocamp_get_powerlinefrequency, get_PowerlineFrequency method [DirectShow], get_PowerlineFrequency method [DirectShow], IVideoProcAmp interface, get_PowerlineFrequency,IVideoProcAmp.get_PowerlineFrequency, vidcap/IVideoProcAmp::get_PowerlineFrequency
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: VIDEOHDR, *PVIDEOHDR, *LPVIDEOHDR
+req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
 topic_type:
 -	APIRef
 -	kbSyntax

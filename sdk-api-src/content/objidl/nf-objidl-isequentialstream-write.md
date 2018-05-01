@@ -7,7 +7,7 @@ old-location: stg\isequentialstream_write.htm
 old-project: Stg
 ms.assetid: f0323dda-6c31-4411-bf20-9650162109c0
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/20/2018
 ms.keywords: ISequentialStream, ISequentialStream interface [Structured Storage], Write method, ISequentialStream::Write, Write method [Structured Storage], Write method [Structured Storage], ISequentialStream interface, Write,ISequentialStream.Write, _stg_isequentialstream_write, objidl/ISequentialStream::Write, stg.isequentialstream_write
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ISequentialStream::Write method

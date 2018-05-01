@@ -7,7 +7,7 @@ old-location: winprog\ifhconfigmgr_saveconfiguration.htm
 old-project: DevNotes
 ms.assetid: 71D6E732-927B-4AA4-9947-6E52B09FF5B8
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/13/2018
 ms.keywords: FhConfigMgr class [Windows API], SaveConfiguration method, IFhConfigMgr, IFhConfigMgr interface [Windows API], SaveConfiguration method, IFhConfigMgr::SaveConfiguration, SaveConfiguration method [Windows API], SaveConfiguration method [Windows API], FhConfigMgr class, SaveConfiguration method [Windows API], IFhConfigMgr interface, SaveConfiguration,IFhConfigMgr.SaveConfiguration, fhcfg/IFhConfigMgr::SaveConfiguration, winprog.ifhconfigmgr_saveconfiguration
 ms.prod: windows-hardware
 ms.technology: windows-devices

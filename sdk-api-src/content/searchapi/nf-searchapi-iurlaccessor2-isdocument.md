@@ -7,7 +7,7 @@ old-location: search\_search_IUrlAccessor2_IsDocument.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor2\isdocument.htm
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/24/2018
 ms.keywords: IUrlAccessor2, IUrlAccessor2 interface [search], IsDocument method, IUrlAccessor2::IsDocument, IUrlAccessor4 interface [search], IsDocument method, IUrlAccessor4::IsDocument, IsDocument method [search], IsDocument method [search], IUrlAccessor2 interface, IsDocument method [search], IUrlAccessor4 interface, IsDocument,IUrlAccessor2.IsDocument, _search_IUrlAccessor2_IsDocument, search._search_IUrlAccessor2_IsDocument, searchapi/IUrlAccessor2::IsDocument, searchapi/IUrlAccessor4::IsDocument
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IUrlAccessor2::IsDocument method

@@ -7,7 +7,7 @@ old-location: shell\IThumbnailCache_GetThumbnail.htm
 old-project: shell
 ms.assetid: 0fcfe68b-5d36-4be1-a468-b5c2d7af0651
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetThumbnail method [Windows Shell], GetThumbnail method [Windows Shell], IThumbnailCache interface, GetThumbnail,IThumbnailCache.GetThumbnail, IThumbnailCache, IThumbnailCache interface [Windows Shell], GetThumbnail method, IThumbnailCache::GetThumbnail, WTS_CACHED, WTS_DEFAULT, WTS_LOWQUALITY, _shell__GetThumbnail, shell.IThumbnailCache_GetThumbnail, thumbcache/IThumbnailCache::GetThumbnail
 ms.prod: windows-hardware
 ms.technology: windows-devices

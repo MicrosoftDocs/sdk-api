@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmoperation_getobjecttotalsize.htm
 old-project: WMDM
 ms.assetid: 50ab01f9-0f38-485e-b7d9-98bc95948427
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: GetObjectTotalSize method [windows Media Device Manager], GetObjectTotalSize method [windows Media Device Manager], IWMDMOperation interface, GetObjectTotalSize,IWMDMOperation.GetObjectTotalSize, IWMDMOperation, IWMDMOperation interface [windows Media Device Manager], GetObjectTotalSize method, IWMDMOperation::GetObjectTotalSize, IWMDMOperationGetObjectTotalSize, mswmdm/IWMDMOperation::GetObjectTotalSize, wmdm.iwmdmoperation_getobjecttotalsize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IWMDMOperation::GetObjectTotalSize method

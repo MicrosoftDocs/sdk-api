@@ -7,7 +7,7 @@ old-location: mstv\imsvidtuner_put_tuningspace.htm
 old-project: mstv
 ms.assetid: b1da0078-0c5e-439e-9419-670e9e0f812c
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidTuner, IMSVidTuner interface [Microsoft TV Technologies], put_TuningSpace method, IMSVidTuner::put_TuningSpace, IMSVidTunerput_TuningSpace, mstv.imsvidtuner_put_tuningspace, put_TuningSpace method [Microsoft TV Technologies], put_TuningSpace method [Microsoft TV Technologies], IMSVidTuner interface, put_TuningSpace,IMSVidTuner.put_TuningSpace, segment/IMSVidTuner::put_TuningSpace
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidTuner::put_TuningSpace method

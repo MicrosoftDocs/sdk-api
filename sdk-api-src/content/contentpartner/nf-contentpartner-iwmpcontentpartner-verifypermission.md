@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontentpartner_verifypermission.htm
 old-project: WMP
 ms.assetid: 7ff45264-6e49-4953-bc0a-b3652aee965d
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPContentPartner, IWMPContentPartner interface [Windows Media Player], VerifyPermission method, IWMPContentPartner::VerifyPermission, IWMPContentPartnerVerifyPermission, VerifyPermission method [Windows Media Player], VerifyPermission method [Windows Media Player], IWMPContentPartner interface, VerifyPermission,IWMPContentPartner.VerifyPermission, contentpartner/IWMPContentPartner::VerifyPermission, wmp.iwmpcontentpartner_verifypermission
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\ix509privatekey_securitydescriptor_property.htm
 old-project: SecCertEnroll
 ms.assetid: 5fa1e5d8-b745-494c-a727-426084fce2a1
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: IX509PrivateKey, IX509PrivateKey interface [Security], SecurityDescriptor property, IX509PrivateKey.SecurityDescriptor, IX509PrivateKey::get_SecurityDescriptor, IX509PrivateKey::put_SecurityDescriptor, SecurityDescriptor property [Security], SecurityDescriptor property [Security], IX509PrivateKey interface, certenroll/IX509PrivateKey::SecurityDescriptor, certenroll/IX509PrivateKey::get_SecurityDescriptor, certenroll/IX509PrivateKey::put_SecurityDescriptor, put_SecurityDescriptor,IX509PrivateKey.put_SecurityDescriptor, security.ix509privatekey_securitydescriptor_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

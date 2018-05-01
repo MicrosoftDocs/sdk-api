@@ -7,7 +7,7 @@ old-location: security\icertadmin2_isvalidcertificate.htm
 old-project: SecCrypto
 ms.assetid: cd133c57-a62e-4083-b4fd-7eaf0c9e7606
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: CCertAdmin object [Security], IsValidCertificate method, ICertAdmin, ICertAdmin interface [Security], IsValidCertificate method, ICertAdmin2 interface [Security], IsValidCertificate method, ICertAdmin2::IsValidCertificate, ICertAdmin::IsValidCertificate, IsValidCertificate method [Security], IsValidCertificate method [Security], CCertAdmin object, IsValidCertificate method [Security], ICertAdmin interface, IsValidCertificate method [Security], ICertAdmin2 interface, IsValidCertificate,ICertAdmin.IsValidCertificate, certadm/ICertAdmin2::IsValidCertificate, certadm/ICertAdmin::IsValidCertificate, security.icertadmin2_isvalidcertificate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CHANNEL_ENTRY_POINTS, *PCHANNEL_ENTRY_POINTS
+req.typenames: 
 topic_type:
 -	APIRef
 -	kbSyntax

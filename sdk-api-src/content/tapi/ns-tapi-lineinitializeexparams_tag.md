@@ -7,7 +7,7 @@ old-location: tapi2\lineinitializeexparams_str.htm
 old-project: Tapi
 ms.assetid: 17fed282-6d08-4702-9ceb-9cbcc3737395
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: "*LPLINEINITIALIZEEXPARAMS, LINEINITIALIZEEXPARAMS, LINEINITIALIZEEXPARAMS structure [TAPI 2.2], LPLINEINITIALIZEEXPARAMS, LPLINEINITIALIZEEXPARAMS structure pointer [TAPI 2.2], _tapi2_lineinitializeexparams_str, lineinitializeexparams_tag, tapi/LINEINITIALIZEEXPARAMS, tapi/LPLINEINITIALIZEEXPARAMS, tapi2.lineinitializeexparams_str"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,22 +59,6 @@ The <b>LINEINITIZALIZEEXPARAMS</b> structure describes parameters supplied when 
 
 
 
-### -field Handles
-
-
-
-#### hEvent
-
-If <b>dwOptions</b> specifies LINEINITIALIZEEXOPTION_USEEVENT, TAPI returns the event handle in this field.
-
-
-
-#### hCompletionPort
-
-If <b>dwOptions</b> specifies LINEINITIALIZEEXOPTION_USECOMPLETIONPORT, the application must specify in this field the handle of an existing completion port opened using 
-<a href="https://msdn.microsoft.com/40cb47fc-7b15-47f6-bee2-2611d4686053">CreateIoCompletionPort</a>.
-
-
 ### -field dwTotalSize
 
 Total size, in bytes, allocated to this data structure.
@@ -94,6 +78,22 @@ Size of the portion of this data structure that contains useful information, in 
 
 One of the 
 <a href="https://msdn.microsoft.com/77674a45-7133-4518-af47-a9d58392b80b">LINEINITIALIZEEXOPTION_ Constants</a>. Specifies the event notification mechanism the application desires to use.
+
+
+### -field Handles
+
+
+
+#### hEvent
+
+If <b>dwOptions</b> specifies LINEINITIALIZEEXOPTION_USEEVENT, TAPI returns the event handle in this field.
+
+
+
+#### hCompletionPort
+
+If <b>dwOptions</b> specifies LINEINITIALIZEEXOPTION_USECOMPLETIONPORT, the application must specify in this field the handle of an existing completion port opened using 
+<a href="https://msdn.microsoft.com/40cb47fc-7b15-47f6-bee2-2611d4686053">CreateIoCompletionPort</a>.
 
 
 ### -field dwCompletionKey

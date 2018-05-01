@@ -7,7 +7,7 @@ old-location: shell\syncmgr_isyncmgrregister_registersyncmgrhandler.htm
 old-project: shell
 ms.assetid: 8c980c57-90a1-4f97-8d0c-22a3abdefabb
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ISyncMgrRegister, ISyncMgrRegister interface [Windows Shell], RegisterSyncMgrHandler method, ISyncMgrRegister::RegisterSyncMgrHandler, RegisterSyncMgrHandler method [Windows Shell], RegisterSyncMgrHandler method [Windows Shell], ISyncMgrRegister interface, RegisterSyncMgrHandler,ISyncMgrRegister.RegisterSyncMgrHandler, mobsync/ISyncMgrRegister::RegisterSyncMgrHandler, shell.syncmgr_isyncmgrregister_registersyncmgrhandler, syncmgr.isyncmgrregister_registersyncmgrhandler
 ms.prod: windows-hardware
 ms.technology: windows-devices

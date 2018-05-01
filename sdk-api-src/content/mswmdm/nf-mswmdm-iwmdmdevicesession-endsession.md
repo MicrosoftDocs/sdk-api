@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmdevicesession_endsession.htm
 old-project: WMDM
 ms.assetid: f587a20a-936f-49a4-8e56-2e05b3d295f6
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: EndSession method [windows Media Device Manager], EndSession method [windows Media Device Manager], IWMDMDeviceSession interface, EndSession,IWMDMDeviceSession.EndSession, IWMDMDeviceSession, IWMDMDeviceSession interface [windows Media Device Manager], EndSession method, IWMDMDeviceSession::EndSession, IWMDMDeviceSessionEndSession, mswmdm/IWMDMDeviceSession::EndSession, wmdm.iwmdmdevicesession_endsession
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IWMDMDeviceSession::EndSession method

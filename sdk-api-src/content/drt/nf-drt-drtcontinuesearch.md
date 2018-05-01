@@ -7,7 +7,7 @@ old-location: p2p\drtcontinuesearch.htm
 old-project: P2PSdk
 ms.assetid: 04bdeb53-4901-41d4-835e-da665095edc5
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/23/2018
 ms.keywords: DrtContinueSearch, DrtContinueSearch function [Peer Networking], drt/DrtContinueSearch, p2p.drtcontinuesearch
 ms.prod: windows-hardware
 ms.technology: windows-devices

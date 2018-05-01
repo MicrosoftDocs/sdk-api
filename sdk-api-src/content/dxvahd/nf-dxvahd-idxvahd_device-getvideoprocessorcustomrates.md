@@ -7,7 +7,7 @@ old-location: mf\idxvahd_device_getvideoprocessorcustomrates.htm
 old-project: medfound
 ms.assetid: 63e835bb-dda2-4449-8474-219a373da82d
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetVideoProcessorCustomRates method [Media Foundation], GetVideoProcessorCustomRates method [Media Foundation], IDXVAHD_Device interface, GetVideoProcessorCustomRates,IDXVAHD_Device.GetVideoProcessorCustomRates, IDXVAHD_Device, IDXVAHD_Device interface [Media Foundation], GetVideoProcessorCustomRates method, IDXVAHD_Device::GetVideoProcessorCustomRates, dxvahd/IDXVAHD_Device::GetVideoProcessorCustomRates, mf.idxvahd_device_getvideoprocessorcustomrates
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxjob.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_75sy.htm
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/18/2018
 ms.keywords: IFaxJob, IFaxJob interface [Fax Service], IFaxJob interface [Fax Service], described, _mfax_ifaxjob, fax._mfax_ifaxjob, faxcom/IFaxJob
 ms.prod: windows-hardware
 ms.technology: windows-devices

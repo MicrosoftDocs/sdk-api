@@ -7,7 +7,7 @@ old-location: dshow\iamexttransport_put_editstart.htm
 old-project: DirectShow
 ms.assetid: 1fd9c788-2ccb-47e5-bed8-fece9cfdf2a6
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMExtTransport, IAMExtTransport interface [DirectShow], put_EditStart method, IAMExtTransport::put_EditStart, IAMExtTransportput_EditStart, dshow.iamexttransport_put_editstart, put_EditStart method [DirectShow], put_EditStart method [DirectShow], IAMExtTransport interface, put_EditStart,IAMExtTransport.put_EditStart, strmif/IAMExtTransport::put_EditStart
 ms.prod: windows-hardware
 ms.technology: windows-devices

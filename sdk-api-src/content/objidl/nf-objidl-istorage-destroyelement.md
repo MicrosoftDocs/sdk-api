@@ -7,7 +7,7 @@ old-location: stg\istorage_destroyelement.htm
 old-project: Stg
 ms.assetid: 70ad7f8c-15ea-42f1-ac18-006bc6ad5e81
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/20/2018
 ms.keywords: DestroyElement method [Structured Storage], DestroyElement method [Structured Storage], IStorage interface, DestroyElement,IStorage.DestroyElement, IStorage, IStorage interface [Structured Storage], DestroyElement method, IStorage::DestroyElement, _stg_istorage_destroyelement, objidl/IStorage::DestroyElement, stg.istorage_destroyelement
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IStorage::DestroyElement method

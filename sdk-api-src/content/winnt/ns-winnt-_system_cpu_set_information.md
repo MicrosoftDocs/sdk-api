@@ -7,7 +7,7 @@ old-location: base\system_cpu_set_information.htm
 old-project: ProcThread
 ms.assetid: 48C38098-C42E-46D0-B938-CBD0BA7F8586
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: "*PSYSTEM_CPU_SET_INFORMATION, PSYSTEM_CPU_SET_INFORMATION, PSYSTEM_CPU_SET_INFORMATION structure pointer, SYSTEM_CPU_SET_INFORMATION, SYSTEM_CPU_SET_INFORMATION structure, _SYSTEM_CPU_SET_INFORMATION, base.system_cpu_set_information, winnt/PSYSTEM_CPU_SET_INFORMATION, winnt/SYSTEM_CPU_SET_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,47 +60,22 @@ This structure is returned by <a href="https://msdn.microsoft.com/168B00AB-1B11-
 
 
 
+### -field Size
+
+This is the size, in bytes, of this information structure.
+
+
+### -field Type
+
+This is the type of information in the structure. Applications should skip any structures with unrecognized types.
+
+
 ### -field DUMMYUNIONNAME
 
  
 
 
 ### -field DUMMYUNIONNAME.CpuSet
-
-
-### -field DUMMYUNIONNAME.CpuSet.DUMMYUNIONNAME2
-
- 
-
-
-### -field DUMMYUNIONNAME.CpuSet.DUMMYUNIONNAME2.DUMMYSTRUCTNAME
-
- 
-
-
-### -field DUMMYUNIONNAME.CpuSet.DUMMYUNIONNAME2.DUMMYSTRUCTNAME.Parked
-
- 
-
-
-### -field DUMMYUNIONNAME.CpuSet.DUMMYUNIONNAME2.DUMMYSTRUCTNAME.Allocated
-
- 
-
-
-### -field DUMMYUNIONNAME.CpuSet.DUMMYUNIONNAME2.DUMMYSTRUCTNAME.AllocatedToTargetProcess
-
- 
-
-
-### -field DUMMYUNIONNAME.CpuSet.DUMMYUNIONNAME2.DUMMYSTRUCTNAME.RealTime
-
- 
-
-
-### -field DUMMYUNIONNAME.CpuSet.DUMMYUNIONNAME2.DUMMYSTRUCTNAME.ReservedFlags
-
- 
 
 
 ### -field DUMMYUNIONNAME.CpuSet.Id
@@ -138,24 +113,44 @@ A group-relative value indicating which NUMA node a CPU Set is on. All CPU Sets 
  A value indicating the intrinsic energy efficiency of a processor for systems that support heterogeneous processors (such as ARM big.LITTLE systems). CPU Sets with higher numerical values of this field have home processors that are faster but less power-efficient than ones with lower values.
 
 
-### -field DUMMYUNIONNAME.CpuSet.Reserved
+### -field DUMMYUNIONNAME.CpuSet.DUMMYUNIONNAME2
 
-Reserved.
+ 
+
+
+### -field DUMMYUNIONNAME.CpuSet.DUMMYUNIONNAME2.DUMMYSTRUCTNAME
+
+ 
+
+
+### -field DUMMYUNIONNAME.CpuSet.DUMMYUNIONNAME2.DUMMYSTRUCTNAME.Parked
+
+ 
+
+
+### -field DUMMYUNIONNAME.CpuSet.DUMMYUNIONNAME2.DUMMYSTRUCTNAME.Allocated
+
+ 
+
+
+### -field DUMMYUNIONNAME.CpuSet.DUMMYUNIONNAME2.DUMMYSTRUCTNAME.AllocatedToTargetProcess
+
+ 
+
+
+### -field DUMMYUNIONNAME.CpuSet.DUMMYUNIONNAME2.DUMMYSTRUCTNAME.RealTime
+
+ 
+
+
+### -field DUMMYUNIONNAME.CpuSet.DUMMYUNIONNAME2.DUMMYSTRUCTNAME.ReservedFlags
+
+ 
 
 
 ### -field DUMMYUNIONNAME.CpuSet.AllocationTag
 
 Specifies a tag used by Core Allocation to communicate a given allocated CPU Set between threads in different components.
-
-
-### -field Size
-
-This is the size, in bytes, of this information structure.
-
-
-### -field Type
-
-This is the type of information in the structure. Applications should skip any structures with unrecognized types.
 
 
 ##### - CpuSet.Allocated : 1
@@ -176,6 +171,11 @@ If set, the home processor of this CPU Set is parked. If the CPU Set is on a par
 ##### - CpuSet.RealTime : 1
 
 This is set of the CPU Set is on a processor that is suitable for low-latency realtime processing.  The system takes steps to ensure that RealTime CPU Sets are unlikely to be running non-preemptible code, by moving other work like Interrupts and other application threads off of those processors.
+
+
+##### - CpuSet.Reserved
+
+Reserved.
 
 
 ##### - CpuSet.ReservedFlags : 4

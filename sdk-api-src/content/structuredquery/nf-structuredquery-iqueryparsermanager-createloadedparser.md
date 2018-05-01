@@ -7,7 +7,7 @@ old-location: search\_search_IQueryParserManager_CreateLoadedParser.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iqueryparsermanager\createloadedparser.htm
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/24/2018
 ms.keywords: CreateLoadedParser method [search], CreateLoadedParser method [search], IQueryParserManager interface, CreateLoadedParser,IQueryParserManager.CreateLoadedParser, IQueryParserManager, IQueryParserManager interface [search], CreateLoadedParser method, IQueryParserManager::CreateLoadedParser, _search_IQueryParserManager_CreateLoadedParser, search._search_IQueryParserManager_CreateLoadedParser, structuredquery/IQueryParserManager::CreateLoadedParser
 ms.prod: windows-hardware
 ms.technology: windows-devices

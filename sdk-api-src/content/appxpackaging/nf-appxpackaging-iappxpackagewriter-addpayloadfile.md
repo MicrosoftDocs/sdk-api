@@ -7,7 +7,7 @@ old-location: appxpkg\iappxpackagewriter_addpayloadfile.htm
 old-project: appxpkg
 ms.assetid: 2BFC725A-CD56-46CA-983A-FD1BFB6CB474
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/26/2018
 ms.keywords: AddPayloadFile method [App packaging and management], AddPayloadFile method [App packaging and management], IAppxPackageWriter interface, AddPayloadFile,IAppxPackageWriter.AddPayloadFile, IAppxPackageWriter, IAppxPackageWriter interface [App packaging and management], AddPayloadFile method, IAppxPackageWriter::AddPayloadFile, appxpackaging/IAppxPackageWriter::AddPayloadFile, appxpkg.iappxpackagewriter_addpayloadfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_ARCHITECTURE2
+req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
 topic_type:
 -	APIRef
 -	kbSyntax

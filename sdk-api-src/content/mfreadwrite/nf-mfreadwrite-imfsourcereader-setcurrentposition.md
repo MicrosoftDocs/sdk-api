@@ -7,7 +7,7 @@ old-location: mf\imfsourcereader_setcurrentposition.htm
 old-project: medfound
 ms.assetid: fb9412f5-4f2f-463d-9988-80e706afd9c4
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GUID_NULL, IMFSourceReader, IMFSourceReader interface [Media Foundation], SetCurrentPosition method, IMFSourceReader::SetCurrentPosition, SetCurrentPosition method [Media Foundation], SetCurrentPosition method [Media Foundation], IMFSourceReader interface, SetCurrentPosition,IMFSourceReader.SetCurrentPosition, mf.imfsourcereader_setcurrentposition, mfreadwrite/IMFSourceReader::SetCurrentPosition
 ms.prod: windows-hardware
 ms.technology: windows-devices

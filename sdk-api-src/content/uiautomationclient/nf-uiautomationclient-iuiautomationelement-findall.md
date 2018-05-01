@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement_FindAll.htm
 old-project: WinAuto
 ms.assetid: ead73c6d-7fb8-4e00-b027-5d747268af08
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: FindAll method [Windows Accessibility], FindAll method [Windows Accessibility], IUIAutomationElement interface, FindAll,IUIAutomationElement.FindAll, IUIAutomationElement, IUIAutomationElement interface [Windows Accessibility], FindAll method, IUIAutomationElement::FindAll, uiauto.uiauto_IUIAutomationElement_FindAll, uiauto_IUIAutomationElement_FindAll, uiautomationclient/IUIAutomationElement::FindAll, winauto.uiauto_IUIAutomationElement_FindAll
 ms.prod: windows-hardware
 ms.technology: windows-devices

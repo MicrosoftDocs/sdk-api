@@ -7,7 +7,7 @@ old-location: tapi3\itpluggableterminalinitialization_initializedynamic.htm
 old-project: Tapi
 ms.assetid: 4cda6540-0c27-4234-8b7e-ffff117903b8
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: ITPluggableTerminalInitialization, ITPluggableTerminalInitialization interface [TAPI 2.2], InitializeDynamic method, ITPluggableTerminalInitialization::InitializeDynamic, InitializeDynamic method [TAPI 2.2], InitializeDynamic method [TAPI 2.2], ITPluggableTerminalInitialization interface, InitializeDynamic,ITPluggableTerminalInitialization.InitializeDynamic, _tapi3_itpluggableterminalinitialization_initializedynamic, tapi3.itpluggableterminalinitialization_initializedynamic, termmgr/ITPluggableTerminalInitialization::InitializeDynamic
 ms.prod: windows-hardware
 ms.technology: windows-devices

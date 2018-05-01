@@ -7,7 +7,7 @@ old-location: termserv\itssbloadbalancingnotifysink_ongetmostsuitabletarget.htm
 old-project: TermServ
 ms.assetid: 44e44c05-6bdf-4f02-acdb-b03a136d9a3a
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: ITsSbLoadBalancingNotifySink, ITsSbLoadBalancingNotifySink interface [Remote Desktop Services], OnGetMostSuitableTarget method, ITsSbLoadBalancingNotifySink::OnGetMostSuitableTarget, OnGetMostSuitableTarget method [Remote Desktop Services], OnGetMostSuitableTarget method [Remote Desktop Services], ITsSbLoadBalancingNotifySink interface, OnGetMostSuitableTarget,ITsSbLoadBalancingNotifySink.OnGetMostSuitableTarget, sbtsv/ITsSbLoadBalancingNotifySink::OnGetMostSuitableTarget, termserv.itssbloadbalancingnotifysink_ongetmostsuitabletarget
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITsSbLoadBalancingNotifySink::OnGetMostSuitableTarget method

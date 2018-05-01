@@ -7,7 +7,7 @@ old-location: dshow\imediaeventex_setnotifywindow.htm
 old-project: DirectShow
 ms.assetid: 3e582c79-b8c7-40be-97fd-75d5b7965570
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IMediaEventEx, IMediaEventEx interface [DirectShow], SetNotifyWindow method, IMediaEventEx::SetNotifyWindow, IMediaEventExSetNotifyWindow, SetNotifyWindow method [DirectShow], SetNotifyWindow method [DirectShow], IMediaEventEx interface, SetNotifyWindow,IMediaEventEx.SetNotifyWindow, control/IMediaEventEx::SetNotifyWindow, dshow.imediaeventex_setnotifywindow
 ms.prod: windows-hardware
 ms.technology: windows-devices

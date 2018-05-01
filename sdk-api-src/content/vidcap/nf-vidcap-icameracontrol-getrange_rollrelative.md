@@ -7,7 +7,7 @@ old-location: dshow\icameracontrol_getrange_rollrelative.htm
 old-project: DirectShow
 ms.assetid: c0208111-8648-4511-99f6-20489a026c91
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ICameraControl, ICameraControl interface [DirectShow], getRange_RollRelative method, ICameraControl::getRange_RollRelative, ICameraControlgetRange_RollRelative, dshow.icameracontrol_getrange_rollrelative, getRange_RollRelative method [DirectShow], getRange_RollRelative method [DirectShow], ICameraControl interface, getRange_RollRelative,ICameraControl.getRange_RollRelative, vidcap/ICameraControl::getRange_RollRelative
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: VIDEOHDR, *PVIDEOHDR, *LPVIDEOHDR
+req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
 topic_type:
 -	APIRef
 -	kbSyntax

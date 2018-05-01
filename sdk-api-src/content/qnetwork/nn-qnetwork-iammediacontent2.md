@@ -7,7 +7,7 @@ old-location: dshow\iammediacontent2.htm
 old-project: DirectShow
 ms.assetid: cf8381f2-2ef0-4169-8029-bce36bf3d6a9
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMMediaContent2, IAMMediaContent2 interface [DirectShow], IAMMediaContent2 interface [DirectShow], described, IAMMediaContent2Interface, dshow.iammediacontent2, qnetwork/IAMMediaContent2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IAMMediaContent2 interface

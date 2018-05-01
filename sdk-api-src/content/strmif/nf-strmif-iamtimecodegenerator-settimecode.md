@@ -7,7 +7,7 @@ old-location: dshow\iamtimecodegenerator_settimecode.htm
 old-project: DirectShow
 ms.assetid: 6da4b7e0-e6cd-4555-b5a3-e5f0f20ff070
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMTimecodeGenerator, IAMTimecodeGenerator interface [DirectShow], SetTimecode method, IAMTimecodeGenerator::SetTimecode, IAMTimecodeGeneratorSetTimecode, SetTimecode method [DirectShow], SetTimecode method [DirectShow], IAMTimecodeGenerator interface, SetTimecode,IAMTimecodeGenerator.SetTimecode, dshow.iamtimecodegenerator_settimecode, strmif/IAMTimecodeGenerator::SetTimecode
 ms.prod: windows-hardware
 ms.technology: windows-devices

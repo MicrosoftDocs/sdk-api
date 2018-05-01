@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12shaderreflectionvariable_getbuffer.htm
 old-project: direct3d12
 ms.assetid: 433FABE2-D0BB-4E97-84BB-D20566D32571
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: GetBuffer method, GetBuffer method, ID3D12ShaderReflectionVariable interface, GetBuffer,ID3D12ShaderReflectionVariable.GetBuffer, ID3D12ShaderReflectionVariable, ID3D12ShaderReflectionVariable interface, GetBuffer method, ID3D12ShaderReflectionVariable::GetBuffer, d3d12shader/ID3D12ShaderReflectionVariable::GetBuffer, direct3d12.id3d12shaderreflectionvariable_getbuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

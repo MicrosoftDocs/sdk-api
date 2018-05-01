@@ -7,7 +7,7 @@ old-location: security\cmsg_ctrl_key_trans_decrypt_para.htm
 old-project: SecCrypto
 ms.assetid: 5f3387c9-4ff0-42a0-8fc7-67d3bb8b6bef
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: "*PCMSG_CTRL_KEY_TRANS_DECRYPT_PARA, CMSG_CTRL_KEY_TRANS_DECRYPT_PARA, CMSG_CTRL_KEY_TRANS_DECRYPT_PARA structure [Security], PCMSG_CTRL_KEY_TRANS_DECRYPT_PARA, PCMSG_CTRL_KEY_TRANS_DECRYPT_PARA structure pointer [Security], _CMSG_CTRL_KEY_TRANS_DECRYPT_PARA, _crypto2_cmsg_ctrl_key_trans_decrypt_para, security.cmsg_ctrl_key_trans_decrypt_para, wincrypt/CMSG_CTRL_KEY_TRANS_DECRYPT_PARA, wincrypt/PCMSG_CTRL_KEY_TRANS_DECRYPT_PARA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,14 +58,14 @@ The <b>CMSG_CTRL_KEY_TRANS_DECRYPT_PARA</b> structure contains information about
 
 
 
-### -field DUMMYUNIONNAME
-
- 
-
-
 ### -field cbSize
 
 The size, in bytes, of this data structure.
+
+
+### -field DUMMYUNIONNAME
+
+ 
 
 
 ### -field dwKeySpec

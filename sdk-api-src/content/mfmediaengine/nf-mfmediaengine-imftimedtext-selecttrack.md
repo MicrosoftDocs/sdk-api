@@ -7,7 +7,7 @@ old-location: mf\imftimedtext_selecttrack.htm
 old-project: medfound
 ms.assetid: 868FE620-6FF3-4623-BB61-B47D0290D005
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFTimedText, IMFTimedText interface [Media Foundation], SelectTrack method, IMFTimedText::SelectTrack, SelectTrack method [Media Foundation], SelectTrack method [Media Foundation], IMFTimedText interface, SelectTrack,IMFTimedText.SelectTrack, mf.imftimedtext_selecttrack, mfmediaengine/IMFTimedText::SelectTrack
 ms.prod: windows-hardware
 ms.technology: windows-devices

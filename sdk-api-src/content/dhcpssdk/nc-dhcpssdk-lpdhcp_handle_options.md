@@ -7,7 +7,7 @@ old-location: dhcp\dhcphandleoptionshook.htm
 old-project: DHCP
 ms.assetid: 51bb3d2c-953d-446a-ad70-eb6cc8d4dbca
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/7/2018
 ms.keywords: DhcpHandleOptionsHook, DhcpHandleOptionsHook callback function [DHCP], LPDHCP_HANDLE_OPTIONS, _dhcp_dhcphandleoptionshook, dhcp.dhcphandleoptionshook, dhcpssdk/DhcpHandleOptionsHook
 ms.prod: windows-hardware
 ms.technology: windows-devices

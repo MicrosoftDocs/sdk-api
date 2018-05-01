@@ -7,7 +7,7 @@ old-location: intl\getlocaleinfo.htm
 old-project: Intl
 ms.assetid: 091b3f17-ccf7-493c-8992-00425f37d0ec
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/25/2018
 ms.keywords: GetLocaleInfo, GetLocaleInfo function [Internationalization for Windows Applications], GetLocaleInfoA, GetLocaleInfoW, _win32_GetLocaleInfo, intl.getlocaleinfo, winnls/GetLocaleInfo, winnls/GetLocaleInfoA, winnls/GetLocaleInfoW
 ms.prod: windows-hardware
 ms.technology: windows-devices

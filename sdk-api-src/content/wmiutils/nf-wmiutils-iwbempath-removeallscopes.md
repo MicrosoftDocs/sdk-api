@@ -7,7 +7,7 @@ old-location: wmi\iwbempath_removeallscopes.htm
 old-project: WmiSdk
 ms.assetid: 46c3215f-d038-4d0b-a9ce-b58e9381059e
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: IWbemPath, IWbemPath interface [Windows Management Instrumentation], RemoveAllScopes method, IWbemPath::RemoveAllScopes, RemoveAllScopes method [Windows Management Instrumentation], RemoveAllScopes method [Windows Management Instrumentation], IWbemPath interface, RemoveAllScopes,IWbemPath.RemoveAllScopes, _hmm_iwbempath_removeallscopes, wmi.iwbempath_removeallscopes, wmiutils/IWbemPath::RemoveAllScopes
 ms.prod: windows-hardware
 ms.technology: windows-devices

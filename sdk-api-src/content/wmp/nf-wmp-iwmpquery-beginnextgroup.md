@@ -7,7 +7,7 @@ old-location: wmp\iwmpquery_beginnextgroup.htm
 old-project: WMP
 ms.assetid: c81a8125-2cfa-40e2-afc5-672c2866b880
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPQuery, IWMPQuery interface [Windows Media Player], beginNextGroup method, IWMPQuery::beginNextGroup, IWMPQuerybeginNextGroup, beginNextGroup method [Windows Media Player], beginNextGroup method [Windows Media Player], IWMPQuery interface, beginNextGroup,IWMPQuery.beginNextGroup, wmp.iwmpquery_beginnextgroup, wmp/IWMPQuery::beginNextGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices

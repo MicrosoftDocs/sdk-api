@@ -7,7 +7,7 @@ old-location: com\icontext.htm
 old-project: com
 ms.assetid: 89c41d9c-186c-4927-990d-92aa501f7d35
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IContext, IContext interface [COM], IContext interface [COM], described, _com_icontext, com.icontext, objidlbase/IContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IContext interface

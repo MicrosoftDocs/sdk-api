@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledeviceconnector_getproperty.htm
 old-project: wpd_sdk
 ms.assetid: 7503df7a-826c-4e77-b51a-6b3d618732ca
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/11/2018
 ms.keywords: GetProperty method [Windows Portable Devices SDK], GetProperty method [Windows Portable Devices SDK], IPortableDeviceConnector interface, GetProperty,IPortableDeviceConnector.GetProperty, IPortableDeviceConnector, IPortableDeviceConnector interface [Windows Portable Devices SDK], GetProperty method, IPortableDeviceConnector::GetProperty, devpkey/IPortableDeviceConnector::GetProperty, portabledeviceconnectapi/IPortableDeviceConnector::GetProperty, wpdsdk.iportabledeviceconnector_getproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: WPD_WHITE_BALANCE_SETTINGS
+req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: PortableDeviceGuids.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IPortableDeviceConnector::GetProperty method

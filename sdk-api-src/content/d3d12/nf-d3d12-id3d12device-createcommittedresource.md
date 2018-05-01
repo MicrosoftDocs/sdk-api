@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device_createcommittedresource.htm
 old-project: direct3d12
 ms.assetid: FF9E8F11-F2C5-4A96-8E25-140870D15DA9
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: CreateCommittedResource method, CreateCommittedResource method, ID3D12Device interface, CreateCommittedResource,ID3D12Device.CreateCommittedResource, ID3D12Device, ID3D12Device interface, CreateCommittedResource method, ID3D12Device::CreateCommittedResource, d3d12/ID3D12Device::CreateCommittedResource, direct3d12.id3d12device_createcommittedresource
 ms.prod: windows-hardware
 ms.technology: windows-devices

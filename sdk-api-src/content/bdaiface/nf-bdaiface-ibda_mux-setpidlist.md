@@ -7,7 +7,7 @@ old-location: mstv\ibda_mux_setpidlist.htm
 old-project: mstv
 ms.assetid: 2d77086c-2321-434d-bf24-b4eac395825b
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IBDA_MUX, IBDA_MUX interface [Microsoft TV Technologies], SetPidList method, IBDA_MUX::SetPidList, SetPidList method [Microsoft TV Technologies], SetPidList method [Microsoft TV Technologies], IBDA_MUX interface, SetPidList,IBDA_MUX.SetPidList, bdaiface/IBDA_MUX::SetPidList, mstv.ibda_mux_setpidlist
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmp\iwmpnetwork_get_encodedframerate.htm
 old-project: WMP
 ms.assetid: d42133cf-3b81-4d22-b83d-d8a5756d9d9c
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPNetwork, IWMPNetwork interface [Windows Media Player], get_encodedFrameRate method, IWMPNetwork::get_encodedFrameRate, IWMPNetworkget_encodedFrameRate, get_encodedFrameRate method [Windows Media Player], get_encodedFrameRate method [Windows Media Player], IWMPNetwork interface, get_encodedFrameRate,IWMPNetwork.get_encodedFrameRate, wmp.iwmpnetwork_get_encodedframerate, wmp/IWMPNetwork::get_encodedFrameRate
 ms.prod: windows-hardware
 ms.technology: windows-devices

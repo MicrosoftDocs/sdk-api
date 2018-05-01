@@ -7,7 +7,7 @@ old-location: mstv\imsvidctl_run.htm
 old-project: mstv
 ms.assetid: 37ed6d7b-2e44-4bce-b476-8e8b28635346
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidCtl, IMSVidCtl interface [Microsoft TV Technologies], Run method, IMSVidCtl::Run, IMSVidCtlRun, Run method [Microsoft TV Technologies], Run method [Microsoft TV Technologies], IMSVidCtl interface, Run,IMSVidCtl.Run, mstv.imsvidctl_run, msvidctl/IMSVidCtl::Run
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidCtl::Run method

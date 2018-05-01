@@ -7,7 +7,7 @@ old-location: ics\ienumnetsharingeveryconnection_clone.htm
 old-project: ICS
 ms.assetid: 7adeec50-23a7-4a20-94a8-adc7767368ed
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: Clone method [ICS/ICF], Clone method [ICS/ICF], IEnumNetSharingEveryConnection interface, Clone,IEnumNetSharingEveryConnection.Clone, IEnumNetSharingEveryConnection, IEnumNetSharingEveryConnection interface [ICS/ICF], Clone method, IEnumNetSharingEveryConnection::Clone, _ics_ienumnetsharingeveryconnection_clone, ics.ienumnetsharingeveryconnection_clone, netcon/IEnumNetSharingEveryConnection::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IEnumNetSharingEveryConnection::Clone method

@@ -7,7 +7,7 @@ old-location: appxpkg\iappxsourcecontentgroupmapreader.htm
 old-project: appxpkg
 ms.assetid: EA0DF7E6-C4EF-4A58-A13F-EB3789239084
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/26/2018
 ms.keywords: IAppxSourceContentGroupMapReader, IAppxSourceContentGroupMapReader interface [App packaging and management], IAppxSourceContentGroupMapReader interface [App packaging and management], described, appxpackaging/IAppxSourceContentGroupMapReader, appxpkg.iappxsourcecontentgroupmapreader
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_ARCHITECTURE2
+req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
 topic_type:
 -	APIRef
 -	kbSyntax

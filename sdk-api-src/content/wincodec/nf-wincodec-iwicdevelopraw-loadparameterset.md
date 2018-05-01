@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicdevelopraw_loadparameterset.htm
 old-project: wic
 ms.assetid: c3882d90-5772-4b10-8fcc-8d16f5004a05
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: IWICDevelopRaw, IWICDevelopRaw interface [Windows Imaging Component], LoadParameterSet method, IWICDevelopRaw::LoadParameterSet, LoadParameterSet method [Windows Imaging Component], LoadParameterSet method [Windows Imaging Component], IWICDevelopRaw interface, LoadParameterSet,IWICDevelopRaw.LoadParameterSet, _wic_codec_iwicdevelopraw_loadparameterset, wic._wic_codec_iwicdevelopraw_loadparameterset, wincodec/IWICDevelopRaw::LoadParameterSet
 ms.prod: windows-hardware
 ms.technology: windows-devices

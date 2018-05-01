@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext_csgetunorderedaccessviews.htm
 old-project: direct3d11
 ms.assetid: ae572062-0034-48c2-a3ce-abe40b50248b
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/6/2018
 ms.keywords: CSGetUnorderedAccessViews method [Direct3D 11], CSGetUnorderedAccessViews method [Direct3D 11], ID3D11DeviceContext interface, CSGetUnorderedAccessViews,ID3D11DeviceContext.CSGetUnorderedAccessViews, ID3D11DeviceContext, ID3D11DeviceContext interface [Direct3D 11], CSGetUnorderedAccessViews method, ID3D11DeviceContext::CSGetUnorderedAccessViews, afdfe129-87c0-6deb-9357-e78983622e7d, d3d11/ID3D11DeviceContext::CSGetUnorderedAccessViews, direct3d11.id3d11devicecontext_csgetunorderedaccessviews
 ms.prod: windows-hardware
 ms.technology: windows-devices

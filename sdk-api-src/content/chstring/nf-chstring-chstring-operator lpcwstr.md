@@ -7,7 +7,7 @@ old-location: wmi\chstring_operator_lpcwstr.htm
 old-project: WmiSdk
 ms.assetid: f7b7575e-e442-487f-9123-c82c471fecdf
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: "??BCHString@@QBEPBGXZ, ??BCHString@@QEBAPEBGXZ, CHString, CHString interface [Windows Management Instrumentation], operator LPCWSTR method, CHString::operator LPCWSTR, chstring/CHString::operator LPCWSTR, operator LPCWSTR method [Windows Management Instrumentation], operator LPCWSTR method [Windows Management Instrumentation], CHString interface, operator LPCWSTR,CHString.operator LPCWSTR, wmi.chstring_operator_lpcwstr"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CF_SYNC_ROOT_STANDARD_INFO
+req.typenames: CF_SYNC_STATUS
 topic_type:
 -	APIRef
 -	kbSyntax

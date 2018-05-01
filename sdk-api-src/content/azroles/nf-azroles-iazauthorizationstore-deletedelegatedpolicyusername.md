@@ -7,7 +7,7 @@ old-location: security\azauthorizationstore_deletedelegatedpolicyusername.htm
 old-project: SecAuthZ
 ms.assetid: a2e7523a-41d3-4fb5-b455-588e0618f51f
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: AzAuthorizationStore object [Security], DeleteDelegatedPolicyUserName method, DeleteDelegatedPolicyUserName method [Security], DeleteDelegatedPolicyUserName method [Security], AzAuthorizationStore object, DeleteDelegatedPolicyUserName method [Security], IAzAuthorizationStore interface, DeleteDelegatedPolicyUserName,IAzAuthorizationStore.DeleteDelegatedPolicyUserName, IAzAuthorizationStore, IAzAuthorizationStore interface [Security], DeleteDelegatedPolicyUserName method, IAzAuthorizationStore::DeleteDelegatedPolicyUserName, azroles/IAzAuthorizationStore::DeleteDelegatedPolicyUserName, security.azauthorizationstore_deletedelegatedpolicyusername
 ms.prod: windows-hardware
 ms.technology: windows-devices

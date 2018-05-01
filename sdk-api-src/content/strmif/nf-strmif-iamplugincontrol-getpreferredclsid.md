@@ -7,7 +7,7 @@ old-location: dshow\iamplugincontrol_getpreferredclsid.htm
 old-project: DirectShow
 ms.assetid: 69f55810-9a3a-48cd-8fd2-d091a906d229
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetPreferredClsid method [DirectShow], GetPreferredClsid method [DirectShow], IAMPluginControl interface, GetPreferredClsid,IAMPluginControl.GetPreferredClsid, IAMPluginControl, IAMPluginControl interface [DirectShow], GetPreferredClsid method, IAMPluginControl::GetPreferredClsid, dshow.iamplugincontrol_getpreferredclsid, strmif/IAMPluginControl::GetPreferredClsid
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: nwifi\notif_callback.htm
 old-project: NativeWiFi
 ms.assetid: df721e77-3285-442b-aabd-2dccae85fda5
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/13/2018
 ms.keywords: WLAN_NOTIFICATION_CALLBACK, WLAN_NOTIFICATION_CALLBACK function pointer [NativeWIFI], nwifi.notif_callback, wlanapi/WLAN_NOTIFICATION_CALLBACK
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: com\ipicture_get_hpal.htm
 old-project: com
 ms.assetid: 84887cb7-05b0-44cc-9772-117a598c1b94
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IPicture, IPicture interface [COM], get_hPal method, IPicture::get_hPal, _ctrl_ipicture_get_hpal, com.ipicture_get_hpal, get_hPal method [COM], get_hPal method [COM], IPicture interface, get_hPal,IPicture.get_hPal, ocidl/IPicture::get_hPal
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IPicture::get_hPal method

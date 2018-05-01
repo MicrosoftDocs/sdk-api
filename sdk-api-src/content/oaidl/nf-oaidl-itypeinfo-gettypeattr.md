@@ -7,7 +7,7 @@ old-location: automat\itypeinfo_gettypeattr.htm
 old-project: automat
 ms.assetid: 62be8a38-1d51-4b54-b224-7d9cdbb1be59
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: GetTypeAttr method [Automation], GetTypeAttr method [Automation], ITypeInfo interface, GetTypeAttr,ITypeInfo.GetTypeAttr, ITypeInfo, ITypeInfo interface [Automation], GetTypeAttr method, ITypeInfo::GetTypeAttr, _oa96_ITypeInfo_GetTypeAttr, automat.itypeinfo_gettypeattr, oaidl/ITypeInfo::GetTypeAttr
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITypeInfo::GetTypeAttr method

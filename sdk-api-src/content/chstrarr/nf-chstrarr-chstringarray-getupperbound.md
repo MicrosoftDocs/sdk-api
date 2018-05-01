@@ -7,7 +7,7 @@ old-location: wmi\chstringarray_getupperbound.htm
 old-project: WmiSdk
 ms.assetid: 77c200f9-c63b-4842-881f-5c077e4618b8
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: "?GetUpperBound@CHStringArray@@QBEHXZ, ?GetUpperBound@CHStringArray@@QEBAHXZ, CHStringArray, CHStringArray interface [Windows Management Instrumentation], GetUpperBound method, CHStringArray::GetUpperBound, GetUpperBound method [Windows Management Instrumentation], GetUpperBound method [Windows Management Instrumentation], CHStringArray interface, GetUpperBound,CHStringArray.GetUpperBound, _hmm_chstringarray_getupperbound, chstrarr/CHStringArray::GetUpperBound, wmi.chstringarray_getupperbound"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CF_SYNC_ROOT_STANDARD_INFO
+req.typenames: CF_SYNC_STATUS
 topic_type:
 -	APIRef
 -	kbSyntax

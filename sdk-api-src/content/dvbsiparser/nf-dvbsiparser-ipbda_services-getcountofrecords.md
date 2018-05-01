@@ -7,7 +7,7 @@ old-location: mstv\ipbda_services_getcountofrecords.htm
 old-project: mstv
 ms.assetid: a39a0ec2-aabc-4609-91cc-667c14773515
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies], IPBDA_Services interface, GetCountOfRecords,IPBDA_Services.GetCountOfRecords, IPBDA_Services, IPBDA_Services interface [Microsoft TV Technologies], GetCountOfRecords method, IPBDA_Services::GetCountOfRecords, dvbsiparser/IPBDA_Services::GetCountOfRecords, mstv.ipbda_services_getcountofrecords
 ms.prod: windows-hardware
 ms.technology: windows-devices

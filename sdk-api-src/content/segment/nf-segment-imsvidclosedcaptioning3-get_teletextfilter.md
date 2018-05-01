@@ -7,7 +7,7 @@ old-location: mstv\imsvidclosedcaptioning3_get_teletextfilter.htm
 old-project: mstv
 ms.assetid: 95376533-e684-4a8e-ac60-6c52bf0f82ae
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidClosedCaptioning3, IMSVidClosedCaptioning3 interface [Microsoft TV Technologies], get_TeleTextFilter method, IMSVidClosedCaptioning3::get_TeleTextFilter, IMSVidClosedCaptioning3getTeleTextFilter, get_TeleTextFilter method [Microsoft TV Technologies], get_TeleTextFilter method [Microsoft TV Technologies], IMSVidClosedCaptioning3 interface, get_TeleTextFilter,IMSVidClosedCaptioning3.get_TeleTextFilter, mstv.imsvidclosedcaptioning3_get_teletextfilter, segment/IMSVidClosedCaptioning3::get_TeleTextFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidClosedCaptioning3::get_TeleTextFilter method

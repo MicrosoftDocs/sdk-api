@@ -7,7 +7,7 @@ old-location: ad\idsadminnotifyhandler_notify.htm
 old-project: AD
 ms.assetid: ac0b9da5-b0e3-4280-ae9c-602e28c907b1
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/20/2018
 ms.keywords: IDsAdminNotifyHandler, IDsAdminNotifyHandler interface [Active Directory], Notify method, IDsAdminNotifyHandler::Notify, Notify method [Active Directory], Notify method [Active Directory], IDsAdminNotifyHandler interface, Notify,IDsAdminNotifyHandler.Notify, _glines_idsadminnotifyhandler_notify, ad.idsadminnotifyhandler__notify, ad.idsadminnotifyhandler_notify, dsadmin/IDsAdminNotifyHandler::Notify
 ms.prod: windows-hardware
 ms.technology: windows-devices

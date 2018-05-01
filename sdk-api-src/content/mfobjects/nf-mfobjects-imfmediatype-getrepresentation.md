@@ -7,7 +7,7 @@ old-location: mf\imfmediatype_getrepresentation.htm
 old-project: medfound
 ms.assetid: 2135ff86-a3b6-4e1c-a9de-867f4828f008
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 2135ff86-a3b6-4e1c-a9de-867f4828f008, AM_MEDIA_TYPE_REPRESENTATION, FORMAT_MFVideoFormat, FORMAT_VideoInfo, FORMAT_VideoInfo2, GetRepresentation method [Media Foundation], GetRepresentation method [Media Foundation], IMFMediaType interface, GetRepresentation,IMFMediaType.GetRepresentation, IMFMediaType, IMFMediaType interface [Media Foundation], GetRepresentation method, IMFMediaType::GetRepresentation, mf.imfmediatype_getrepresentation, mfobjects/IMFMediaType::GetRepresentation
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\icameracontrol_put_tilt.htm
 old-project: DirectShow
 ms.assetid: e75adedb-5cf2-4b2c-bb57-1bfedfc81979
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ICameraControl, ICameraControl interface [DirectShow], put_Tilt method, ICameraControl::put_Tilt, ICameraControlput_Tilt, dshow.icameracontrol_put_tilt, put_Tilt method [DirectShow], put_Tilt method [DirectShow], ICameraControl interface, put_Tilt,ICameraControl.put_Tilt, vidcap/ICameraControl::put_Tilt
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: VIDEOHDR, *PVIDEOHDR, *LPVIDEOHDR
+req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
 topic_type:
 -	APIRef
 -	kbSyntax

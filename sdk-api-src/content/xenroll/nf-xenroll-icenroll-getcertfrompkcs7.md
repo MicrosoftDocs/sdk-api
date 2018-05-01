@@ -7,7 +7,7 @@ old-location: security\icenroll4_getcertfrompkcs7.htm
 old-project: SecCrypto
 ms.assetid: 3094cd58-d123-40f1-ac81-dffdfb56d47d
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: CEnroll object [Security], getCertFromPKCS7 method, ICEnroll, ICEnroll interface [Security], getCertFromPKCS7 method, ICEnroll2 interface [Security], getCertFromPKCS7 method, ICEnroll2::getCertFromPKCS7, ICEnroll3 interface [Security], getCertFromPKCS7 method, ICEnroll3::getCertFromPKCS7, ICEnroll4 interface [Security], getCertFromPKCS7 method, ICEnroll4::getCertFromPKCS7, ICEnroll::getCertFromPKCS7, getCertFromPKCS7 method [Security], getCertFromPKCS7 method [Security], CEnroll object, getCertFromPKCS7 method [Security], ICEnroll interface, getCertFromPKCS7 method [Security], ICEnroll2 interface, getCertFromPKCS7 method [Security], ICEnroll3 interface, getCertFromPKCS7 method [Security], ICEnroll4 interface, getCertFromPKCS7,ICEnroll.getCertFromPKCS7, security.icenroll4_getcertfrompkcs7, xenroll/ICEnroll2::getCertFromPKCS7, xenroll/ICEnroll3::getCertFromPKCS7, xenroll/ICEnroll4::getCertFromPKCS7, xenroll/ICEnroll::getCertFromPKCS7
 ms.prod: windows-hardware
 ms.technology: windows-devices

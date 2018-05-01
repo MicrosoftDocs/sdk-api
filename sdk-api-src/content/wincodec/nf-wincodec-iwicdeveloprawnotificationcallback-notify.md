@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicdeveloprawnotificationcallback_notify.htm
 old-project: wic
 ms.assetid: a91fb8e8-a4f4-4a6d-87d0-00bf2ef205e6
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: IWICDevelopRawNotificationCallback, IWICDevelopRawNotificationCallback interface [Windows Imaging Component], Notify method, IWICDevelopRawNotificationCallback::Notify, Notify method [Windows Imaging Component], Notify method [Windows Imaging Component], IWICDevelopRawNotificationCallback interface, Notify,IWICDevelopRawNotificationCallback.Notify, _wic_codec_iwicdeveloprawnotificationcallback_notify, wic._wic_codec_iwicdeveloprawnotificationcallback_notify, wincodec/IWICDevelopRawNotificationCallback::Notify
 ms.prod: windows-hardware
 ms.technology: windows-devices

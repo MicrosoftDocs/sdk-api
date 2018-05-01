@@ -7,7 +7,7 @@ old-location: mf\imfsensoractivityreport_getfriendlyname.htm
 old-project: medfound
 ms.assetid: D31EBB3D-53BC-4D11-98ED-B68A04693C68
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetFriendlyName method [Media Foundation], GetFriendlyName method [Media Foundation], IMFSensorActivityReport interface, GetFriendlyName,IMFSensorActivityReport.GetFriendlyName, IMFSensorActivityReport, IMFSensorActivityReport interface [Media Foundation], GetFriendlyName method, IMFSensorActivityReport::GetFriendlyName, mf.imfsensoractivityreport_getfriendlyname, mfidl/IMFSensorActivityReport::GetFriendlyName
 ms.prod: windows-hardware
 ms.technology: windows-devices

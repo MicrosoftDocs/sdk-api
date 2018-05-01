@@ -7,7 +7,7 @@ old-location: security\buildtrusteewithobjectsandsid.htm
 old-project: SecAuthZ
 ms.assetid: e940a87f-013e-458c-bdc1-9e81c7d905e0
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: BuildTrusteeWithObjectsAndSid, BuildTrusteeWithObjectsAndSid function [Security], BuildTrusteeWithObjectsAndSidA, BuildTrusteeWithObjectsAndSidW, _win32_buildtrusteewithobjectsandsid, aclapi/BuildTrusteeWithObjectsAndSid, aclapi/BuildTrusteeWithObjectsAndSidA, aclapi/BuildTrusteeWithObjectsAndSidW, security.buildtrusteewithobjectsandsid
 ms.prod: windows-hardware
 ms.technology: windows-devices

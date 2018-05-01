@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IRawElementProviderFragment_GetRuntimeId.htm
 old-project: WinAuto
 ms.assetid: e1252353-235e-489e-8eb9-be80d4850ca4
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: GetRuntimeId method [Windows Accessibility], GetRuntimeId method [Windows Accessibility], IRawElementProviderFragment interface, GetRuntimeId,IRawElementProviderFragment.GetRuntimeId, IRawElementProviderFragment, IRawElementProviderFragment interface [Windows Accessibility], GetRuntimeId method, IRawElementProviderFragment::GetRuntimeId, uiauto.uiauto_IRawElementProviderFragment_GetRuntimeId, uiauto_IRawElementProviderFragment_GetRuntimeId, uiautomationcore/IRawElementProviderFragment::GetRuntimeId, winauto.uiauto_IRawElementProviderFragment_GetRuntimeId
 ms.prod: windows-hardware
 ms.technology: windows-devices

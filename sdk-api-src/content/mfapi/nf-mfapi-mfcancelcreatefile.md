@@ -7,7 +7,7 @@ old-location: mf\mfcancelcreatefile.htm
 old-project: medfound
 ms.assetid: b3c0cad8-d578-4752-a2ea-0aa5c35a181a
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: MFCancelCreateFile, MFCancelCreateFile function [Media Foundation], b3c0cad8-d578-4752-a2ea-0aa5c35a181a, mf.mfcancelcreatefile, mfapi/MFCancelCreateFile
 ms.prod: windows-hardware
 ms.technology: windows-devices

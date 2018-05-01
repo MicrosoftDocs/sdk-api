@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyjob4_getpeercachingflags.htm
 old-project: Bits
 ms.assetid: 1b9cdd81-91e8-4d24-a451-61bed51289d4
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/10/2018
 ms.keywords: BG_JOB_ENABLE_PEERCACHING_CLIENT, BG_JOB_ENABLE_PEERCACHING_SERVER, GetPeerCachingFlags method [BITS], GetPeerCachingFlags method [BITS], IBackgroundCopyJob4 interface, GetPeerCachingFlags,IBackgroundCopyJob4.GetPeerCachingFlags, IBackgroundCopyJob4, IBackgroundCopyJob4 interface [BITS], GetPeerCachingFlags method, IBackgroundCopyJob4::GetPeerCachingFlags, bits.ibackgroundcopyjob4_getpeercachingflags, bits3_0/IBackgroundCopyJob4::GetPeerCachingFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices

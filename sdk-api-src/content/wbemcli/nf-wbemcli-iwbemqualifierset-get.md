@@ -7,7 +7,7 @@ old-location: wmi\iwbemqualifierset_get.htm
 old-project: WmiSdk
 ms.assetid: f4663cd1-0dc9-4021-918e-d5eda1648429
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: Get method [Windows Management Instrumentation], Get method [Windows Management Instrumentation], IWbemQualifierSet interface, Get,IWbemQualifierSet.Get, IWbemQualifierSet, IWbemQualifierSet interface [Windows Management Instrumentation], Get method, IWbemQualifierSet::Get, _hmm_iwbemqualifierset_get, wbemcli/IWbemQualifierSet::Get, wmi.iwbemqualifierset_get
 ms.prod: windows-hardware
 ms.technology: windows-devices

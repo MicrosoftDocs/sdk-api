@@ -7,7 +7,7 @@ old-location: p2p\peer_group_properties.htm
 old-project: P2PSdk
 ms.assetid: a1501343-bd84-4dbe-91d0-c64c59e34abc
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/23/2018
 ms.keywords: "*PPEER_GROUP_PROPERTIES, PEER_GROUP_PROPERTIES, PEER_GROUP_PROPERTIES structure [Peer Networking], PPEER_GROUP_PROPERTIES, PPEER_GROUP_PROPERTIES structure pointer [Peer Networking], p2p.peer_group_properties, p2p/PPEER_GROUP_PROPERTIES, p2p/peer_group_properties_tag, peer_group_properties_tag"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # peer_group_properties_tag structure

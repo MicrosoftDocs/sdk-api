@@ -7,7 +7,7 @@ old-location: appxpkg\iappxmanifestoptionalpackageinfo_getmainpackagename.htm
 old-project: appxpkg
 ms.assetid: 95CD6739-06B2-4862-8313-4133AFBFD583
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/26/2018
 ms.keywords: GetMainPackageName method [App packaging and management], GetMainPackageName method [App packaging and management], IAppxManifestOptionalPackageInfo interface, GetMainPackageName,IAppxManifestOptionalPackageInfo.GetMainPackageName, IAppxManifestOptionalPackageInfo, IAppxManifestOptionalPackageInfo interface [App packaging and management], GetMainPackageName method, IAppxManifestOptionalPackageInfo::GetMainPackageName, appxpackaging/IAppxManifestOptionalPackageInfo::GetMainPackageName, appxpkg.iappxmanifestoptionalpackageinfo_getmainpackagename
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_ARCHITECTURE2
+req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
 topic_type:
 -	APIRef
 -	kbSyntax

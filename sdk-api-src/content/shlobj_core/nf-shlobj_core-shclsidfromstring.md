@@ -7,7 +7,7 @@ old-location: shell\SHCLSIDFromString.htm
 old-project: shell
 ms.assetid: b09950fb-0a72-4829-aedd-cf01a3f98074
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: SHCLSIDFromString, SHCLSIDFromString function [Windows Shell], _win32_SHCLSIDFromString, shell.SHCLSIDFromString, shlobj_core/SHCLSIDFromString
 ms.prod: windows-hardware
 ms.technology: windows-devices

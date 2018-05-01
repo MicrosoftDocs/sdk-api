@@ -7,7 +7,7 @@ old-location: mf\imfasfmultiplexer_setflags.htm
 old-project: medfound
 ms.assetid: dac4f9b0-e83a-4e99-9a4a-ec1154c929a7
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFASFMultiplexer, IMFASFMultiplexer interface [Media Foundation], SetFlags method, IMFASFMultiplexer::SetFlags, SetFlags method [Media Foundation], SetFlags method [Media Foundation], IMFASFMultiplexer interface, SetFlags,IMFASFMultiplexer.SetFlags, dac4f9b0-e83a-4e99-9a4a-ec1154c929a7, mf.imfasfmultiplexer_setflags, wmcontainer/IMFASFMultiplexer::SetFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices

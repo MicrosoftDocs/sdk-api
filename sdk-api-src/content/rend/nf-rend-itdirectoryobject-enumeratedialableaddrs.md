@@ -7,7 +7,7 @@ old-location: tapi3\itdirectoryobject_enumeratedialableaddrs.htm
 old-project: Tapi
 ms.assetid: cee7a00e-e601-47bf-b64b-61085511da97
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: EnumerateDialableAddrs method [TAPI 2.2], EnumerateDialableAddrs method [TAPI 2.2], ITDirectoryObject interface, EnumerateDialableAddrs,ITDirectoryObject.EnumerateDialableAddrs, ITDirectoryObject, ITDirectoryObject interface [TAPI 2.2], EnumerateDialableAddrs method, ITDirectoryObject::EnumerateDialableAddrs, _tapi3_itdirectoryobject_enumeratedialableaddrs, rend/ITDirectoryObject::EnumerateDialableAddrs, tapi3.itdirectoryobject_enumeratedialableaddrs
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Rend.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITDirectoryObject::EnumerateDialableAddrs method

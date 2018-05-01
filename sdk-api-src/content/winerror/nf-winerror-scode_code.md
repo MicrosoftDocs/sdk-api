@@ -7,7 +7,7 @@ old-location: com\scode_code_macro.htm
 old-project: com
 ms.assetid: 878456dc-3da4-470a-b9cc-16018f540c17
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: SCODE_CODE, SCODE_CODE macro [COM], _com_SCODE_CODE, com.scode_code, com.scode_code_macro, winerror/SCODE_CODE
 ms.prod: windows-hardware
 ms.technology: windows-devices

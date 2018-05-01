@@ -7,7 +7,7 @@ old-location: wmp\iwmpmediacollection_getbyname.htm
 old-project: WMP
 ms.assetid: 114b0449-a45e-42e5-9e68-428c40a388cf
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPMediaCollection, IWMPMediaCollection interface [Windows Media Player], getByName method, IWMPMediaCollection::getByName, IWMPMediaCollectiongetByName, getByName method [Windows Media Player], getByName method [Windows Media Player], IWMPMediaCollection interface, getByName,IWMPMediaCollection.getByName, wmp.iwmpmediacollection_getbyname, wmp/IWMPMediaCollection::getByName
 ms.prod: windows-hardware
 ms.technology: windows-devices

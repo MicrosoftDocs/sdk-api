@@ -7,7 +7,7 @@ old-location: security\cryptxmldllsigndata.htm
 old-project: SecCrypto
 ms.assetid: 6a159fd7-6bf2-43b7-ae7f-b4e4eb02615f
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: CryptXmlDllSignData, CryptXmlDllSignData function pointer [Security], cryptxml/CryptXmlDllSignData, security.cryptxmldllsigndata
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: automat\arraydesc.htm
 old-project: automat
 ms.assetid: 5d48c9b7-a718-46bd-b8ba-5c92847c9a12
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: ARRAYDESC, ARRAYDESC structure [Automation], _oa96_ARRAYDESC, automat.arraydesc, oaidl/ARRAYDESC, tagARRAYDESC
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # tagARRAYDESC structure

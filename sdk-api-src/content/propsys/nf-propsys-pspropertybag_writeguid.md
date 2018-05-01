@@ -7,7 +7,7 @@ old-location: properties\PSPropertyBag_WriteGUID.htm
 old-project: properties
 ms.assetid: F50CF010-3A4E-4723-BA9F-CE1B48CA4AA4
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/5/2018
 ms.keywords: PSPropertyBag_WriteGUID, PSPropertyBag_WriteGUID function [Windows Properties], properties.PSPropertyBag_WriteGUID, propsys/PSPropertyBag_WriteGUID, shell.PSPropertyBag_WriteGUID, shell_PSPropertyBag_WriteGUID
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # PSPropertyBag_WriteGUID function

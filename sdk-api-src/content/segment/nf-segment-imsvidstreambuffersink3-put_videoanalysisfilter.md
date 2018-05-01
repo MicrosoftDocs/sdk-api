@@ -7,7 +7,7 @@ old-location: mstv\imsvidstreambuffersink3_put_videoanalysisfilter.htm
 old-project: mstv
 ms.assetid: b1ac3517-2f83-409c-b393-5bcbfff685c3
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidStreamBufferSink3, IMSVidStreamBufferSink3 interface [Microsoft TV Technologies], put_VideoAnalysisFilter method, IMSVidStreamBufferSink3::put_VideoAnalysisFilter, IMSVidStreamBufferSink3put_VideoAnalysisFilter, mstv.imsvidstreambuffersink3_put_videoanalysisfilter, put_VideoAnalysisFilter method [Microsoft TV Technologies], put_VideoAnalysisFilter method [Microsoft TV Technologies], IMSVidStreamBufferSink3 interface, put_VideoAnalysisFilter,IMSVidStreamBufferSink3.put_VideoAnalysisFilter, segment/IMSVidStreamBufferSink3::put_VideoAnalysisFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidStreamBufferSink3::put_VideoAnalysisFilter method

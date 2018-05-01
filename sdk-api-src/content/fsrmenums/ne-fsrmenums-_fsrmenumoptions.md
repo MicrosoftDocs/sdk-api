@@ -7,7 +7,7 @@ old-location: fsrm\fsrmenumoptions.htm
 old-project: Fsrm
 ms.assetid: 9c613d0c-c49a-4010-b66f-a63c57d693f7
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: FsrmEnumOptions, FsrmEnumOptions enumeration [File Server Resource Manager], FsrmEnumOptions_Asynchronous, FsrmEnumOptions_CheckRecycleBin, FsrmEnumOptions_IncludeClusterNodes, FsrmEnumOptions_IncludeDeprecatedObjects, FsrmEnumOptions_None, _FsrmEnumOptions, fs.fsrmenumoptions, fsrm.fsrmenumoptions, fsrmenums/FsrmEnumOptions, fsrmenums/FsrmEnumOptions_Asynchronous, fsrmenums/FsrmEnumOptions_CheckRecycleBin, fsrmenums/FsrmEnumOptions_IncludeClusterNodes, fsrmenums/FsrmEnumOptions_IncludeDeprecatedObjects, fsrmenums/FsrmEnumOptions_None
 ms.prod: windows-hardware
 ms.technology: windows-devices

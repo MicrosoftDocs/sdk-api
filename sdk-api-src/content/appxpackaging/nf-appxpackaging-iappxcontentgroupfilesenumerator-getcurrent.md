@@ -7,7 +7,7 @@ old-location: appxpkg\iappxcontentgroupfilesenumerator__getcurrent.htm
 old-project: appxpkg
 ms.assetid: B8BD3A9A-5330-4328-9FFD-69BF07CA93C7
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/26/2018
 ms.keywords: GetCurrent method [App packaging and management], GetCurrent method [App packaging and management], IAppxContentGroupFilesEnumerator interface, GetCurrent,IAppxContentGroupFilesEnumerator.GetCurrent, IAppxContentGroupFilesEnumerator, IAppxContentGroupFilesEnumerator interface [App packaging and management], GetCurrent method, IAppxContentGroupFilesEnumerator::GetCurrent, appxpackaging/IAppxContentGroupFilesEnumerator::GetCurrent, appxpkg.iappxcontentgroupfilesenumerator__getcurrent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_ARCHITECTURE2
+req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
 topic_type:
 -	APIRef
 -	kbSyntax

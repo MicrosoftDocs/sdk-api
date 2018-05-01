@@ -7,7 +7,7 @@ old-location: termserv\itssbprovider_createsessionobject.htm
 old-project: TermServ
 ms.assetid: 14c800f8-a3d6-4d12-b568-94ef2d8e0aaf
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: CreateSessionObject method [Remote Desktop Services], CreateSessionObject method [Remote Desktop Services], ITsSbProvider interface, CreateSessionObject,ITsSbProvider.CreateSessionObject, ITsSbProvider, ITsSbProvider interface [Remote Desktop Services], CreateSessionObject method, ITsSbProvider::CreateSessionObject, sbtsv/ITsSbProvider::CreateSessionObject, termserv.itssbprovider_createsessionobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITsSbProvider::CreateSessionObject method

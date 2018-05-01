@@ -7,7 +7,7 @@ old-location: dshow\iamnetshowconfig_get_enablehttp.htm
 old-project: DirectShow
 ms.assetid: 29495a89-644f-4c55-a740-efb0cbf6d581
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMNetShowConfig, IAMNetShowConfig interface [DirectShow], get_EnableHTTP method, IAMNetShowConfig::get_EnableHTTP, IAMNetShowConfigget_EnableHTTP, dshow.iamnetshowconfig_get_enablehttp, get_EnableHTTP method [DirectShow], get_EnableHTTP method [DirectShow], IAMNetShowConfig interface, get_EnableHTTP,IAMNetShowConfig.get_EnableHTTP, qnetwork/IAMNetShowConfig::get_EnableHTTP
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IAMNetShowConfig::get_EnableHTTP method

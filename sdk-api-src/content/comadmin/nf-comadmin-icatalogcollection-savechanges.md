@@ -7,7 +7,7 @@ old-location: cos\icatalogcollection_savechanges.htm
 old-project: cossdk
 ms.assetid: ae984eee-4a8d-48e5-839c-fa115fd4aeea
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: ICatalogCollection, ICatalogCollection interface [COM+], SaveChanges method, ICatalogCollection::SaveChanges, SaveChanges method [COM+], SaveChanges method [COM+], ICatalogCollection interface, SaveChanges,ICatalogCollection.SaveChanges, _cos_ICatalogCollection_SaveChanges, comadmin/ICatalogCollection::SaveChanges, cos.icatalogcollection_savechanges
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\SHLoadOLE.htm
 old-project: shell
 ms.assetid: 1c1306bc-443c-4486-b2bc-9bd869b833c3
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: SHLoadOLE, SHLoadOLE function [Windows Shell], _win32_SHLoadOLE, shell.SHLoadOLE, shlobj/SHLoadOLE
 ms.prod: windows-hardware
 ms.technology: windows-devices

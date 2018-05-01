@@ -7,7 +7,7 @@ old-location: direct2d\d2d1_tile_prop.htm
 old-project: Direct2D
 ms.assetid: F5A1A309-1844-4C8A-8F6F-0E2D82CB4AFD
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: D2D1_TILE_PROP, D2D1_TILE_PROP enumeration [Direct2D], D2D1_TILE_PROP_RECT, d2d1effects/D2D1_TILE_PROP, d2d1effects/D2D1_TILE_PROP_RECT, direct2d.d2d1_tile_prop
 ms.prod: windows-hardware
 ms.technology: windows-devices

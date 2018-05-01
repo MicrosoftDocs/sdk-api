@@ -7,7 +7,7 @@ old-location: security\icertserverexit_enumerateextensionsclose.htm
 old-project: SecCrypto
 ms.assetid: 769235cd-d5ef-458b-a04b-88f9f831ce3f
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: CCertServerExit object [Security], EnumerateExtensionsClose method, EnumerateExtensionsClose method [Security], EnumerateExtensionsClose method [Security], CCertServerExit object, EnumerateExtensionsClose method [Security], ICertServerExit interface, EnumerateExtensionsClose,ICertServerExit.EnumerateExtensionsClose, ICertServerExit, ICertServerExit interface [Security], EnumerateExtensionsClose method, ICertServerExit::EnumerateExtensionsClose, _certsrv_icertserverexit_enumerateextensionsclose, certif/ICertServerExit::EnumerateExtensionsClose, security.icertserverexit_enumerateextensionsclose
 ms.prod: windows-hardware
 ms.technology: windows-devices

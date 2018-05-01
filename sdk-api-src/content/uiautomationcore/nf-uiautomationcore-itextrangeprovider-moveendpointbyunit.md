@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ITextRangeProvider_MoveEndpointByUnit.htm
 old-project: WinAuto
 ms.assetid: 3c0b9357-0f51-4044-8a5a-1f68af7a9762
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: ITextRangeProvider, ITextRangeProvider interface [Windows Accessibility], MoveEndpointByUnit method, ITextRangeProvider::MoveEndpointByUnit, MoveEndpointByUnit method [Windows Accessibility], MoveEndpointByUnit method [Windows Accessibility], ITextRangeProvider interface, MoveEndpointByUnit,ITextRangeProvider.MoveEndpointByUnit, uiauto.uiauto_ITextRangeProvider_MoveEndpointByUnit, uiauto_ITextRangeProvider_MoveEndpointByUnit, uiautomationcore/ITextRangeProvider::MoveEndpointByUnit, winauto.uiauto_ITextRangeProvider_MoveEndpointByUnit
 ms.prod: windows-hardware
 ms.technology: windows-devices

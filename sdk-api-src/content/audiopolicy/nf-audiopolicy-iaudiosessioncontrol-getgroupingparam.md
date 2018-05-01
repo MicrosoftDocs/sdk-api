@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiosessioncontrol_getgroupingparam.htm
 old-project: CoreAudio
 ms.assetid: d636aad7-c8b3-4179-ac32-5cb283611499
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: GetGroupingParam method [Core Audio], GetGroupingParam method [Core Audio], IAudioSessionControl interface, GetGroupingParam,IAudioSessionControl.GetGroupingParam, IAudioSessionControl, IAudioSessionControl interface [Core Audio], GetGroupingParam method, IAudioSessionControl::GetGroupingParam, IAudioSessionControlGetGroupingParam, audiopolicy/IAudioSessionControl::GetGroupingParam, coreaudio.iaudiosessioncontrol_getgroupingparam
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: AE_CURRENT_POSITION, *PAE_CURRENT_POSITION
+req.typenames: UNCOMPRESSEDAUDIOFORMAT
 topic_type:
 -	APIRef
 -	kbSyntax

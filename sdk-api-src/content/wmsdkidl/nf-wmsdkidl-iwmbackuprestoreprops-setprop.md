@@ -7,7 +7,7 @@ old-location: wmformat\iwmbackuprestoreprops_setprop.htm
 old-project: wmformat
 ms.assetid: 582c1590-8855-409c-9964-a0fb7baa05bd
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMBackupRestoreProps, IWMBackupRestoreProps interface [windows Media Format], SetProp method, IWMBackupRestoreProps::SetProp, IWMBackupRestorePropsSetProp, SetProp method [windows Media Format], SetProp method [windows Media Format], IWMBackupRestoreProps interface, SetProp,IWMBackupRestoreProps.SetProp, wmformat.iwmbackuprestoreprops_setprop, wmsdkidl/IWMBackupRestoreProps::SetProp
 ms.prod: windows-hardware
 ms.technology: windows-devices

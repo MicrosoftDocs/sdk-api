@@ -7,7 +7,7 @@ old-location: nps\SDO_radiusproperties.htm
 old-project: Nps
 ms.assetid: adf73b6d-963d-4a06-b958-8301e4fdf292
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/24/2018
 ms.keywords: PROPERTY_RADIUS_ACCOUNTING_PORT, PROPERTY_RADIUS_AUTHENTICATION_PORT, PROPERTY_RADIUS_CLIENTS_COLLECTION, PROPERTY_RADIUS_VENDORS_COLLECTION, RADIUSPROPERTIES, RADIUSPROPERTIES enumeration [Network Policy Server], _RADIUSPROPERTIES, _sdo_radiusproperties, nps.SDO_radiusproperties, sdo.radiusproperties, sdoias/PROPERTY_RADIUS_ACCOUNTING_PORT, sdoias/PROPERTY_RADIUS_AUTHENTICATION_PORT, sdoias/PROPERTY_RADIUS_CLIENTS_COLLECTION, sdoias/PROPERTY_RADIUS_VENDORS_COLLECTION, sdoias/RADIUSPROPERTIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _RADIUSPROPERTIES enumeration

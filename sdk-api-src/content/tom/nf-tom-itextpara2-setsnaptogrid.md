@@ -7,7 +7,7 @@ old-location: controls\itextpara2_setsnaptogrid.htm
 old-project: Controls
 ms.assetid: 93116780-03e2-406b-8923-b9f02f53892d
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextPara2, ITextPara2 interface [Windows Controls], SetSnapToGrid method, ITextPara2::SetSnapToGrid, SetSnapToGrid method [Windows Controls], SetSnapToGrid method [Windows Controls], ITextPara2 interface, SetSnapToGrid,ITextPara2.SetSnapToGrid, controls.itextpara2_setsnaptogrid, tom/ITextPara2::SetSnapToGrid
 ms.prod: windows-hardware
 ms.technology: windows-devices

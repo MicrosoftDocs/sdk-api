@@ -7,7 +7,7 @@ old-location: direct2d\id2d1svgstrokedasharray_getdashes_overload.htm
 old-project: Direct2D
 ms.assetid: d244b59c-2681-1da9-9b89-534b4f3be543
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: GetDashes, GetDashes methods [Direct2D], d2d1svg/GetDashes, direct2d.id2d1svgstrokedasharray_getdashes_overload
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\ifullscreenvideoex_setmonitor.htm
 old-project: DirectShow
 ms.assetid: f2db1009-ce5b-4ebe-becb-bed3d1187335
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IFullScreenVideoEx, IFullScreenVideoEx interface [DirectShow], SetMonitor method, IFullScreenVideoEx::SetMonitor, IFullScreenVideoSetMonitor, SetMonitor method [DirectShow], SetMonitor method [DirectShow], IFullScreenVideoEx interface, SetMonitor,IFullScreenVideoEx.SetMonitor, amvideo/IFullScreenVideoEx::SetMonitor, dshow.ifullscreenvideoex_setmonitor
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\idvb_bat_getrecordcountofdescriptors.htm
 old-project: mstv
 ms.assetid: d3ef02f2-a593-4439-a460-e2b5fcd0ef70
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetRecordCountOfDescriptors method [Microsoft TV Technologies], GetRecordCountOfDescriptors method [Microsoft TV Technologies], IDVB_BAT interface, GetRecordCountOfDescriptors,IDVB_BAT.GetRecordCountOfDescriptors, IDVB_BAT, IDVB_BAT interface [Microsoft TV Technologies], GetRecordCountOfDescriptors method, IDVB_BAT::GetRecordCountOfDescriptors, IDVB_BATGetRecordCountOfDescriptors, dvbsiparser/IDVB_BAT::GetRecordCountOfDescriptors, mstv.idvb_bat_getrecordcountofdescriptors
 ms.prod: windows-hardware
 ms.technology: windows-devices

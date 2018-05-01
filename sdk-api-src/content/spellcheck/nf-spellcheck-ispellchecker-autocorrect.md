@@ -7,7 +7,7 @@ old-location: intl\ispellchecker_autocorrect.htm
 old-project: Intl
 ms.assetid: 7c0d24dc-cec2-4304-bfbc-096fa4d0e8d0
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/25/2018
 ms.keywords: AutoCorrect method [Internationalization for Windows Applications], AutoCorrect method [Internationalization for Windows Applications], ISpellChecker interface, AutoCorrect,ISpellChecker.AutoCorrect, ISpellChecker, ISpellChecker interface [Internationalization for Windows Applications], AutoCorrect method, ISpellChecker::AutoCorrect, intl.ispellchecker_autocorrect, spellcheck/ISpellChecker::AutoCorrect
 ms.prod: windows-hardware
 ms.technology: windows-devices

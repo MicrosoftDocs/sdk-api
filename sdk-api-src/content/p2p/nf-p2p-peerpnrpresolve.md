@@ -7,7 +7,7 @@ old-location: p2p\peerpnrpresolve.htm
 old-project: P2PSdk
 ms.assetid: dd66ab38-bb3e-46f5-943a-bcdae90acae0
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/23/2018
 ms.keywords: PeerPnrpResolve, PeerPnrpResolve function [Peer Networking], p2p.peerpnrpresolve, p2p/PeerPnrpResolve
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # PeerPnrpResolve function

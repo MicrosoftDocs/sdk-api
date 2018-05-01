@@ -7,7 +7,7 @@ old-location: wmi\iwbemhiperfenum_removeall.htm
 old-project: WmiSdk
 ms.assetid: 51692902-0b92-4a25-b42b-3802be19eba5
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: IWbemHiPerfEnum, IWbemHiPerfEnum interface [Windows Management Instrumentation], RemoveAll method, IWbemHiPerfEnum::RemoveAll, RemoveAll method [Windows Management Instrumentation], RemoveAll method [Windows Management Instrumentation], IWbemHiPerfEnum interface, RemoveAll,IWbemHiPerfEnum.RemoveAll, _hmm_iwbemhiperfenum_removeall, wbemcli/IWbemHiPerfEnum::RemoveAll, wmi.iwbemhiperfenum_removeall
 ms.prod: windows-hardware
 ms.technology: windows-devices

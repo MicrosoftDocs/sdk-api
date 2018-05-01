@@ -7,7 +7,7 @@ old-location: winauto\uiauto_UiaFindAutoMeth.htm
 old-project: WinAuto
 ms.assetid: fe86b393-9c8d-46f1-85dc-5ac37f423ce0
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: UiaFind, UiaFind function [Windows Accessibility], uiauto.uiauto_UiaFindAutoMeth, uiauto_UiaFindAutoMeth, uiautomationcoreapi/UiaFind, winauto.uiauto_UiaFindAutoMeth
 ms.prod: windows-hardware
 ms.technology: windows-devices

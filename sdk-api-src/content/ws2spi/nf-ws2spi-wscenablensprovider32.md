@@ -7,7 +7,7 @@ old-location: winsock\wscenablensprovider32.htm
 old-project: WinSock
 ms.assetid: 5ab4f8bd-d32d-4962-aac7-2d92847d0e03
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/24/2018
 ms.keywords: WSCEnableNSProvider32, WSCEnableNSProvider32 function [Winsock], winsock.wscenablensprovider32, ws2spi/WSCEnableNSProvider32
 ms.prod: windows-hardware
 ms.technology: windows-devices

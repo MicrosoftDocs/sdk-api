@@ -7,7 +7,7 @@ old-location: security\icertificatepolicies_remove_method.htm
 old-project: SecCertEnroll
 ms.assetid: 5cd010bb-50ee-4251-815e-1fb4de1f2a81
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: ICertificatePolicies, ICertificatePolicies interface [Security], Remove method, ICertificatePolicies::Remove, Remove method [Security], Remove method [Security], ICertificatePolicies interface, Remove,ICertificatePolicies.Remove, certenroll/ICertificatePolicies::Remove, security.icertificatepolicies_remove_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

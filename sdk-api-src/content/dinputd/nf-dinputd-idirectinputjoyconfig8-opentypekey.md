@@ -1,0 +1,139 @@
+---
+UID: NF:dinputd.IDirectInputJoyConfig8.OpenTypeKey
+title: IDirectInputJoyConfig8::OpenTypeKey method
+author: windows-driver-content
+description: The IDirectInputJoyConfig8::OpenTypeKey method opens the registry key associated with a joystick type.
+old-location: hid\idirectinputjoyconfig8_opentypekey.htm
+old-project: hid
+ms.assetid: d747625b-a9e3-41cb-894a-1f62599c62a9
+ms.author: windowsdriverdev
+ms.date: 2/24/2018
+ms.keywords: IDirectInputJoyConfig8, IDirectInputJoyConfig8 interface [Human Input Devices], OpenTypeKey method, IDirectInputJoyConfig8::OpenTypeKey, OpenTypeKey method [Human Input Devices], OpenTypeKey method [Human Input Devices], IDirectInputJoyConfig8 interface, OpenTypeKey,IDirectInputJoyConfig8.OpenTypeKey, di_ref_073c7914-daaf-4db5-95bc-2fd2aef897b5.xml, dinputd/IDirectInputJoyConfig8::OpenTypeKey, hid.idirectinputjoyconfig8_opentypekey
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: dinputd.h
+req.include-header: Dinputd.h
+req.target-type: Desktop
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: DIEFFESCAPE, *LPDIEFFESCAPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	dinputd.h
+api_name:
+-	IDirectInputJoyConfig8.OpenTypeKey
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# IDirectInputJoyConfig8::OpenTypeKey method
+
+
+## -description
+
+
+The <b>IDirectInputJoyConfig8::OpenTypeKey </b>method opens the registry key associated with a joystick type. 
+
+
+## -parameters
+
+
+
+
+### -param
+
+
+
+
+
+
+#### - phk
+
+Points to the opened registry key, on success. 
+
+
+#### - pwszType
+
+Points to the name of the type. The name of the type cannot exceed MAX_PATH characters, including the terminating null character. The name cannot begin with a "#" character. Types beginning with "#" are reserved by DirectInput. 
+
+
+#### - regsam
+
+Specifies a registry security access mask. This can be any of the values permitted by the <b>RegOpenKeyEx</b> function. If write access is requested, then joystick configuration must first have been acquired. If only read access is requested, then acquisition is not required. 
+
+
+## -returns
+
+
+
+Returns DI_OK if successful; otherwise, returns one of the following COM error values:
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>DIERR_NOTACQUIRED </b></dt>
+</dl>
+</td>
+<td width="60%">
+Joystick configuration has not been acquired. You must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff540978">IDirectInputJoyConfig8::Acquire</a> before you can open a joystick type configuration key for writing. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>DIERR_INVALIDPARAM </b></dt>
+</dl>
+</td>
+<td width="60%">
+One or more parameters was invalid. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>MAKE_HRESULT(SEVERITY_ERROR, FACILITY_WIN32, ErrorCode) </b></dt>
+</dl>
+</td>
+<td width="60%">
+A Win32 error code if access to the key is denied by registry permissions or some other external factor. 
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+Control panel applications can use the registry key opened by this method to store per-type persistent information, such as global configuration parameters. Such private information should be kept in a subkey named <b>OEM</b>; do not store private information in the main type key. Control panel applications can also use this key to read configuration information, such as the strings to use for device calibration prompts. The application should use <b>RegCloseKey</b> to close the registry key. 
+
+
+

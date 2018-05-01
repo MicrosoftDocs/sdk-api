@@ -7,7 +7,7 @@ old-location: ics\istaticportmappingcollection_get__newenum.htm
 old-project: ICS
 ms.assetid: d1a2fa98-d1f2-404c-84fb-b3dccc60031f
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: IStaticPortMappingCollection, IStaticPortMappingCollection interface [ICS/ICF], get__NewEnum method, IStaticPortMappingCollection::get__NewEnum, _ics_istaticportmappingcollection_get__newenum, get__NewEnum method [ICS/ICF], get__NewEnum method [ICS/ICF], IStaticPortMappingCollection interface, get__NewEnum,IStaticPortMappingCollection.get__NewEnum, ics.istaticportmappingcollection_get__newenum, natupnp/IStaticPortMappingCollection::get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IStaticPortMappingCollection::get__NewEnum method

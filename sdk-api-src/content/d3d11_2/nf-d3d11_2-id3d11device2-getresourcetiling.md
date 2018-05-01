@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11device2_getresourcetiling.htm
 old-project: direct3d11
 ms.assetid: 51E7C948-5B14-4389-94BA-DB0DA7DFFC14
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/6/2018
 ms.keywords: GetResourceTiling method [Direct3D 11], GetResourceTiling method [Direct3D 11], ID3D11Device2 interface, GetResourceTiling,ID3D11Device2.GetResourceTiling, ID3D11Device2, ID3D11Device2 interface [Direct3D 11], GetResourceTiling method, ID3D11Device2::GetResourceTiling, d3d11_2/ID3D11Device2::GetResourceTiling, direct3d11.id3d11device2_getresourcetiling
 ms.prod: windows-hardware
 ms.technology: windows-devices

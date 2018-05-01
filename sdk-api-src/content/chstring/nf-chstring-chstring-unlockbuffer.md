@@ -7,7 +7,7 @@ old-location: wmi\chstring_unlockbuffer.htm
 old-project: WmiSdk
 ms.assetid: cde732ea-b2de-4eb7-bef6-bed01137d76a
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: CHString, CHString interface [Windows Management Instrumentation], UnlockBuffer method, CHString::UnlockBuffer, UnlockBuffer method [Windows Management Instrumentation], UnlockBuffer method [Windows Management Instrumentation], CHString interface, UnlockBuffer,CHString.UnlockBuffer, _hmm_chstring_unlockbuffer, chstring/CHString::UnlockBuffer, wmi.chstring_unlockbuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CF_SYNC_ROOT_STANDARD_INFO
+req.typenames: CF_SYNC_STATUS
 topic_type:
 -	APIRef
 -	kbSyntax

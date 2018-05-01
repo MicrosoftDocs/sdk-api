@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicbitmapsourcetransform_getclosestsize.htm
 old-project: wic
 ms.assetid: 0eae79dc-d636-4449-ba90-0f296b71573a
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: GetClosestSize method [Windows Imaging Component], GetClosestSize method [Windows Imaging Component], IWICBitmapSourceTransform interface, GetClosestSize,IWICBitmapSourceTransform.GetClosestSize, IWICBitmapSourceTransform, IWICBitmapSourceTransform interface [Windows Imaging Component], GetClosestSize method, IWICBitmapSourceTransform::GetClosestSize, _wic_codec_iwicbitmapsourcetransform_getclosestsize, wic._wic_codec_iwicbitmapsourcetransform_getclosestsize, wincodec/IWICBitmapSourceTransform::GetClosestSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

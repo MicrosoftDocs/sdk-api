@@ -7,7 +7,7 @@ old-location: security\icertencodedatearray_getvalue.htm
 old-project: SecCrypto
 ms.assetid: db108b2a-c3ee-4ef8-be5c-74dc739dacee
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: CCertEncodeDateArray object [Security], GetValue method, GetValue method [Security], GetValue method [Security], CCertEncodeDateArray object, GetValue method [Security], ICertEncodeDateArray interface, GetValue,ICertEncodeDateArray.GetValue, ICertEncodeDateArray, ICertEncodeDateArray interface [Security], GetValue method, ICertEncodeDateArray::GetValue, _certsrv_icertencodedatearray_getvalue, certenc/ICertEncodeDateArray::GetValue, security.icertencodedatearray_getvalue
 ms.prod: windows-hardware
 ms.technology: windows-devices

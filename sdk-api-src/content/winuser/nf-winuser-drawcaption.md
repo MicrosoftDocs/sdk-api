@@ -7,7 +7,7 @@ old-location: gdi\drawcaption.htm
 old-project: gdi
 ms.assetid: 9348e29f-ce56-4664-8862-f5810c797622
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/17/2018
 ms.keywords: DC_ACTIVE, DC_BUTTONS, DC_GRADIENT, DC_ICON, DC_INBUTTON, DC_SMALLCAP, DC_TEXT, DrawCaption, DrawCaption function [Windows GDI], _win32_DrawCaption, gdi.drawcaption, winuser/DrawCaption
 ms.prod: windows-hardware
 ms.technology: windows-devices

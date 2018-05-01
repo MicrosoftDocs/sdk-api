@@ -7,7 +7,7 @@ old-location: iscsidisc\removeiscsiconnection.htm
 old-project: iSCSIDisc
 ms.assetid: 1d34348a-b16a-4420-88e1-092e3f521ea5
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: RemoveIScsiConnection, RemoveIscsiConnection, RemoveIscsiConnection function [iSCSI Discovery Library API], iscsidisc.removeiscsiconnection, iscsidsc/RemoveIscsiConnection
 ms.prod: windows-hardware
 ms.technology: windows-devices

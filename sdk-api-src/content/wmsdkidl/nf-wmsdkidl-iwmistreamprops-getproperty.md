@@ -7,7 +7,7 @@ old-location: wmformat\iwmistreamprops_getproperty.htm
 old-project: wmformat
 ms.assetid: 1873e20f-376a-45fe-ad02-0c28c894af18
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: GetProperty method [windows Media Format], GetProperty method [windows Media Format], IWMIStreamProps interface, GetProperty,IWMIStreamProps.GetProperty, IWMIStreamProps, IWMIStreamProps interface [windows Media Format], GetProperty method, IWMIStreamProps::GetProperty, IWMIStreamPropsGetProperty, wmformat.iwmistreamprops_getproperty, wmsdkidl/IWMIStreamProps::GetProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

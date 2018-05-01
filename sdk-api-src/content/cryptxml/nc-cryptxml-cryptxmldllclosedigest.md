@@ -7,7 +7,7 @@ old-location: security\cryptxmldllclosedigest.htm
 old-project: SecCrypto
 ms.assetid: 97f720b9-f937-4469-abe9-62bf35ebdd7a
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: CryptXmlDllCloseDigest, CryptXmlDllCloseDigest function pointer [Security], cryptxml/CryptXmlDllCloseDigest, security.cryptxmldllclosedigest
 ms.prod: windows-hardware
 ms.technology: windows-devices

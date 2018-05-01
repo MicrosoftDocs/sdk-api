@@ -7,7 +7,7 @@ old-location: dshow\idistributornotify_setsyncsource.htm
 old-project: DirectShow
 ms.assetid: 671af56f-a333-441e-9a97-04226b1c3225
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IDistributorNotify, IDistributorNotify interface [DirectShow], SetSyncSource method, IDistributorNotify::SetSyncSource, IDistributorNotifySetSyncSource, SetSyncSource method [DirectShow], SetSyncSource method [DirectShow], IDistributorNotify interface, SetSyncSource,IDistributorNotify.SetSyncSource, dshow.idistributornotify_setsyncsource, strmif/IDistributorNotify::SetSyncSource
 ms.prod: windows-hardware
 ms.technology: windows-devices

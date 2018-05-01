@@ -7,7 +7,7 @@ old-location: upnp\iupnpdevicefindercallback_searchcomplete.htm
 old-project: UPnP
 ms.assetid: 6fcce487-1cfb-47ec-9ea1-7df04985d506
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/25/2018
 ms.keywords: IUPnPDeviceFinderCallback, IUPnPDeviceFinderCallback interface [UPnP APIs], SearchComplete method, IUPnPDeviceFinderCallback::SearchComplete, SearchComplete method [UPnP APIs], SearchComplete method [UPnP APIs], IUPnPDeviceFinderCallback interface, SearchComplete,IUPnPDeviceFinderCallback.SearchComplete, _upnp_iupnpdevicefindercallback_searchcomplete, upnp.iupnpdevicefindercallback_searchcomplete, upnp/IUPnPDeviceFinderCallback::SearchComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices

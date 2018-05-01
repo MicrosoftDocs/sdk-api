@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: WinSpool.lib
 req.dll: Spoolss.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # tagEDefaultDevmodeType enumeration

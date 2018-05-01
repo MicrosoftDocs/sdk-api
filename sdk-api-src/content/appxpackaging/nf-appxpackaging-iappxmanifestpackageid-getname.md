@@ -7,7 +7,7 @@ old-location: appxpkg\iappxmanifestpackageid_getname.htm
 old-project: appxpkg
 ms.assetid: F59FDC61-BA78-4204-AAD3-C34B7F1EB37B
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/26/2018
 ms.keywords: GetName method [App packaging and management], GetName method [App packaging and management], IAppxManifestPackageId interface, GetName,IAppxManifestPackageId.GetName, IAppxManifestPackageId, IAppxManifestPackageId interface [App packaging and management], GetName method, IAppxManifestPackageId::GetName, appxpackaging/IAppxManifestPackageId::GetName, appxpkg.iappxmanifestpackageid_getname
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_ARCHITECTURE2
+req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,7 +7,7 @@ old-location: tapi3\itdirectory_connect.htm
 old-project: Tapi
 ms.assetid: b781008b-430a-444e-a700-8cde09e721b4
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: Connect method [TAPI 2.2], Connect method [TAPI 2.2], ITDirectory interface, Connect,ITDirectory.Connect, ITDirectory, ITDirectory interface [TAPI 2.2], Connect method, ITDirectory::Connect, _tapi3_itdirectory_connect, rend/ITDirectory::Connect, tapi3.itdirectory_connect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Rend.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITDirectory::Connect method

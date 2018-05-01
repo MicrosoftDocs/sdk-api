@@ -7,7 +7,7 @@ old-location: mf\mfcreatetrackedsample.htm
 old-project: medfound
 ms.assetid: 05FB8F94-94B2-46A5-A890-E37E501233E2
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: MFCreateTrackedSample, MFCreateTrackedSample function [Media Foundation], mf.mfcreatetrackedsample, mfidl/MFCreateTrackedSample
 ms.prod: windows-hardware
 ms.technology: windows-devices

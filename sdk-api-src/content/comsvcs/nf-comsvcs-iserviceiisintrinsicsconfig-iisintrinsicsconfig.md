@@ -7,7 +7,7 @@ old-location: cos\iserviceiisintrinsicsconfig_iisintrinsicsconfig.htm
 old-project: cossdk
 ms.assetid: 458bd0d6-ed4f-45c2-8a96-1a4a08aad509
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: IISIntrinsicsConfig method [COM+], IISIntrinsicsConfig method [COM+], IServiceIISIntrinsicsConfig interface, IISIntrinsicsConfig,IServiceIISIntrinsicsConfig.IISIntrinsicsConfig, IServiceIISIntrinsicsConfig, IServiceIISIntrinsicsConfig interface [COM+], IISIntrinsicsConfig method, IServiceIISIntrinsicsConfig::IISIntrinsicsConfig, _cos_IServiceIISIntrinsicsConfig_IISIntrinsicsConfig, comsvcs/IServiceIISIntrinsicsConfig::IISIntrinsicsConfig, cos.iserviceiisintrinsicsconfig_iisintrinsicsconfig
 ms.prod: windows-hardware
 ms.technology: windows-devices

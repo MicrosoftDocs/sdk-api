@@ -7,7 +7,7 @@ old-location: shell\ICredentialProvider_SetSerialization.htm
 old-project: shell
 ms.assetid: eeeaa3b8-ad0f-4d31-bdd1-646b0e33b7cd
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ICredentialProvider, ICredentialProvider interface [Windows Shell], SetSerialization method, ICredentialProvider::SetSerialization, SetSerialization method [Windows Shell], SetSerialization method [Windows Shell], ICredentialProvider interface, SetSerialization,ICredentialProvider.SetSerialization, _shell_ICredentialProvider_SetSerialization, credentialprovider/ICredentialProvider::SetSerialization, shell.ICredentialProvider_SetSerialization
 ms.prod: windows-hardware
 ms.technology: windows-devices

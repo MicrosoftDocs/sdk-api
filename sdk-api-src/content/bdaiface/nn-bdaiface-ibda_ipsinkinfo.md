@@ -7,7 +7,7 @@ old-location: mstv\ibda_ipsinkinfo.htm
 old-project: mstv
 ms.assetid: fbbe12ea-964a-4a83-ac0a-ac8808bd9a63
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IBDA_IPSinkInfo, IBDA_IPSinkInfo interface [Microsoft TV Technologies], IBDA_IPSinkInfo interface [Microsoft TV Technologies], described, IBDA_IPSinkInfoInterface, bdaiface/IBDA_IPSinkInfo, mstv.ibda_ipsinkinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

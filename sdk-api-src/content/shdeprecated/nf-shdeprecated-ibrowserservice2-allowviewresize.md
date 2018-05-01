@@ -7,7 +7,7 @@ old-location: shell\IBrowserService2_AllowViewResize.htm
 old-project: shell
 ms.assetid: 005d1c7a-00cc-4083-bde6-d3fa947de28e
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: AllowViewResize method [Windows Shell], AllowViewResize method [Windows Shell], IBrowserService2 interface, AllowViewResize,IBrowserService2.AllowViewResize, IBrowserService2, IBrowserService2 interface [Windows Shell], AllowViewResize method, IBrowserService2::AllowViewResize, shdeprecated/IBrowserService2::AllowViewResize, shell.IBrowserService2_AllowViewResize, zone_IBrowserService2_AllowViewResize
 ms.prod: windows-hardware
 ms.technology: windows-devices

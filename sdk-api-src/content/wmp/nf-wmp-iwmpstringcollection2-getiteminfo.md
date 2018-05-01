@@ -7,7 +7,7 @@ old-location: wmp\iwmpstringcollection2_getiteminfo.htm
 old-project: WMP
 ms.assetid: 1915d71f-aca3-4943-a4da-ed8f2fa3f46d
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPStringCollection2, IWMPStringCollection2 interface [Windows Media Player], getItemInfo method, IWMPStringCollection2::getItemInfo, IWMPStringCollection2getItemInfo, getItemInfo method [Windows Media Player], getItemInfo method [Windows Media Player], IWMPStringCollection2 interface, getItemInfo,IWMPStringCollection2.getItemInfo, wmp.iwmpstringcollection2_getiteminfo, wmp/IWMPStringCollection2::getItemInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

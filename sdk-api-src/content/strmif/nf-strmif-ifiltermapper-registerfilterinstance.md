@@ -7,7 +7,7 @@ old-location: dshow\ifiltermapper_registerfilterinstance.htm
 old-project: DirectShow
 ms.assetid: ce42047c-0b74-4ad4-b5a1-ea66fc6bffc3
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IFilterMapper, IFilterMapper interface [DirectShow], RegisterFilterInstance method, IFilterMapper::RegisterFilterInstance, IFilterMapperRegisterFilterInstance, RegisterFilterInstance method [DirectShow], RegisterFilterInstance method [DirectShow], IFilterMapper interface, RegisterFilterInstance,IFilterMapper.RegisterFilterInstance, dshow.ifiltermapper_registerfilterinstance, strmif/IFilterMapper::RegisterFilterInstance
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tapi3\itpluggableterminalclassregistration_add.htm
 old-project: Tapi
 ms.assetid: 2e5104e1-5276-4c5b-9a1a-404904432982
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: Add method [TAPI 2.2], Add method [TAPI 2.2], ITPluggableTerminalClassRegistration interface, Add,ITPluggableTerminalClassRegistration.Add, ITPluggableTerminalClassRegistration, ITPluggableTerminalClassRegistration interface [TAPI 2.2], Add method, ITPluggableTerminalClassRegistration::Add, _tapi3_itpluggableterminalclassregistration_add, tapi3.itpluggableterminalclassregistration_add, termmgr/ITPluggableTerminalClassRegistration::Add
 ms.prod: windows-hardware
 ms.technology: windows-devices

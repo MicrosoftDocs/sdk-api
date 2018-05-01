@@ -7,7 +7,7 @@ old-location: security\cert_logotype_info.htm
 old-project: SecCrypto
 ms.assetid: 7ce801bf-38fd-4490-8465-40ed5078bbff
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: "*PCERT_LOGOTYPE_INFO, CERT_LOGOTYPE_DIRECT_INFO_CHOICE, CERT_LOGOTYPE_INDIRECT_INFO_CHOICE, CERT_LOGOTYPE_INFO, CERT_LOGOTYPE_INFO structure [Security], PCERT_LOGOTYPE_INFO, PCERT_LOGOTYPE_INFO structure pointer [Security], _CERT_LOGOTYPE_INFO, security.cert_logotype_info, wincrypt/CERT_LOGOTYPE_INFO, wincrypt/PCERT_LOGOTYPE_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,11 +58,6 @@ The <b>CERT_LOGOTYPE_INFO</b> structure contains information about logotype data
 
 
 
-### -field DUMMYUNIONNAME
-
- 
-
-
 ### -field dwLogotypeInfoChoice
 
 Specifies the type of logotype data. This can be one of the following values.
@@ -94,6 +89,13 @@ The logotype data is available through a reference. The <b>pLogotypeIndirectInfo
 </tr>
 </table>
  
+
+
+### -field DUMMYUNIONNAME
+
+ 
+
+
 
 
 #### - pLogotypeDirectInfo

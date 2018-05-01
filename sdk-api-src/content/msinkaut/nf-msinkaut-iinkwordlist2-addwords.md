@@ -7,7 +7,7 @@ old-location: tablet\iinkwordlist2_addwords.htm
 old-project: tablet
 ms.assetid: 65afd260-f2ef-4744-a623-bcec4c742d61
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: 65afd260-f2ef-4744-a623-bcec4c742d61, AddWords method [Tablet PC], AddWords method [Tablet PC], IInkWordList2 interface, AddWords,IInkWordList2.AddWords, IInkWordList2, IInkWordList2 interface [Tablet PC], AddWords method, IInkWordList2::AddWords, msinkaut/IInkWordList2::AddWords, tablet.iinkwordlist2_addwords
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\imftimedtextcue_getid.htm
 old-project: medfound
 ms.assetid: D096B1FA-E92F-4B09-9177-13203FF1704D
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetId method [Media Foundation], GetId method [Media Foundation], IMFTimedTextCue interface, GetId,IMFTimedTextCue.GetId, IMFTimedTextCue, IMFTimedTextCue interface [Media Foundation], GetId method, IMFTimedTextCue::GetId, mf.imftimedtextcue_getid, mfmediaengine/IMFTimedTextCue::GetId
 ms.prod: windows-hardware
 ms.technology: windows-devices

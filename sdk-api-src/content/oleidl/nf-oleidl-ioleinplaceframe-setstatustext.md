@@ -7,7 +7,7 @@ old-location: com\ioleinplaceframe_setstatustext.htm
 old-project: com
 ms.assetid: e857bdbe-5510-4e35-ba73-d52b239e5b77
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IOleInPlaceFrame, IOleInPlaceFrame interface [COM], SetStatusText method, IOleInPlaceFrame::SetStatusText, SetStatusText method [COM], SetStatusText method [COM], IOleInPlaceFrame interface, SetStatusText,IOleInPlaceFrame.SetStatusText, _ole_ioleinplaceframe_setstatustext, com.ioleinplaceframe_setstatustext, oleidl/IOleInPlaceFrame::SetStatusText
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IOleInPlaceFrame::SetStatusText method

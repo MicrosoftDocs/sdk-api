@@ -417,7 +417,7 @@ For an example, see <a href="https://msdn.microsoft.com/ea9e36c9-b10d-441e-b1b5-
 
 
 
-<a href="https://msdn.microsoft.com/d063857b-6036-4e68-80af-9c70d12ae29e">GetSystemMetrics</a>
+<a href="base.getsystemmetrics">GetSystemMetrics</a>
 
 
 

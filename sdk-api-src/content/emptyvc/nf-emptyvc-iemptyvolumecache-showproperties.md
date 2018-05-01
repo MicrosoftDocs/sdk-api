@@ -7,7 +7,7 @@ old-location: lwef\iemptyvolumecache_showproperties.htm
 old-project: lwef
 ms.assetid: 3bce6251-b209-405a-8ac2-fd385f1c69ee
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/10/2018
 ms.keywords: IEmptyVolumeCache, IEmptyVolumeCache interface [Legacy Windows Environment Features], ShowProperties method, IEmptyVolumeCache::ShowProperties, ShowProperties method [Legacy Windows Environment Features], ShowProperties method [Legacy Windows Environment Features], IEmptyVolumeCache interface, ShowProperties,IEmptyVolumeCache.ShowProperties, _win32_IEmptyVolumeCache_ShowProperties, emptyvc/IEmptyVolumeCache::ShowProperties, lwef.iemptyvolumecache_showproperties, shell.iemptyvolumecache_showproperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MAPPING_SERVICE_INFO, *PMAPPING_SERVICE_INFO
+req.typenames: EMI_VERSION
 topic_type:
 -	APIRef
 -	kbSyntax

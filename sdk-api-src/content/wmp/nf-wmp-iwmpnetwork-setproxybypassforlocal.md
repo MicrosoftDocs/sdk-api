@@ -7,7 +7,7 @@ old-location: wmp\iwmpnetwork_setproxybypassforlocal.htm
 old-project: WMP
 ms.assetid: 4477bc81-e52b-4924-a31b-6f005a5bd158
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPNetwork, IWMPNetwork interface [Windows Media Player], setProxyBypassForLocal method, IWMPNetwork::setProxyBypassForLocal, IWMPNetworksetProxyBypassForLocal, setProxyBypassForLocal method [Windows Media Player], setProxyBypassForLocal method [Windows Media Player], IWMPNetwork interface, setProxyBypassForLocal,IWMPNetwork.setProxyBypassForLocal, wmp.iwmpnetwork_setproxybypassforlocal, wmp/IWMPNetwork::setProxyBypassForLocal
 ms.prod: windows-hardware
 ms.technology: windows-devices

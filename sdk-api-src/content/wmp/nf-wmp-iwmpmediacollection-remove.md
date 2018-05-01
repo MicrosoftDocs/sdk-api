@@ -7,7 +7,7 @@ old-location: wmp\iwmpmediacollection_remove.htm
 old-project: WMP
 ms.assetid: 646d2e3c-623b-4040-af82-1cefac6fc1ae
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPMediaCollection, IWMPMediaCollection interface [Windows Media Player], remove method, IWMPMediaCollection::remove, IWMPMediaCollectionremove, remove method [Windows Media Player], remove method [Windows Media Player], IWMPMediaCollection interface, remove,IWMPMediaCollection.remove, wmp.iwmpmediacollection_remove, wmp/IWMPMediaCollection::remove
 ms.prod: windows-hardware
 ms.technology: windows-devices

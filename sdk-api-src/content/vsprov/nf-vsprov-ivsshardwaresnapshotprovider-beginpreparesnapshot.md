@@ -7,7 +7,7 @@ old-location: base\ivsshardwaresnapshotprovider_beginpreparesnapshot.htm
 old-project: VSS
 ms.assetid: 4a8bdffa-bb6e-425d-a708-1f31af302da9
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: BeginPrepareSnapshot method [VSS], BeginPrepareSnapshot method [VSS], IVssHardwareSnapshotProvider interface, BeginPrepareSnapshot,IVssHardwareSnapshotProvider.BeginPrepareSnapshot, IVssHardwareSnapshotProvider, IVssHardwareSnapshotProvider interface [VSS], BeginPrepareSnapshot method, IVssHardwareSnapshotProvider::BeginPrepareSnapshot, base.ivsshardwaresnapshotprovider_beginpreparesnapshot, vsprov/IVssHardwareSnapshotProvider::BeginPrepareSnapshot
 ms.prod: windows-hardware
 ms.technology: windows-devices

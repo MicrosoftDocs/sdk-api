@@ -7,7 +7,7 @@ old-location: winsock\addrinfoex3.htm
 old-project: WinSock
 ms.assetid: E7722B36-0284-4800-8F73-D4C13B29F9CE
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/24/2018
 ms.keywords: "*LPADDRINFOEX3, *PADDRINFOEX3, ADDRINFOEX3, AF_BTH, AF_INET, AF_INET6, AF_IRDA, AF_NETBIOS, AF_UNSPEC, AI_ADDRCONFIG, AI_ALL, AI_CANONNAME, AI_DISABLE_IDN_ENCODING, AI_EXTENDED, AI_FILESERVER, AI_FQDN, AI_NON_AUTHORITATIVE, AI_NUMERICHOST, AI_PASSIVE, AI_RETURN_PREFERRED_NAMES, AI_SECURE, AI_V4MAPPED, IPPROTO_RM, IPPROTO_TCP, IPPROTO_UDP, LPaddrinfoex3, LPaddrinfoex3 structure pointer [Winsock], Paddrinfoex3, Paddrinfoex3 structure pointer [Winsock], SOCK_DGRAM, SOCK_RAW, SOCK_RDM, SOCK_SEQPACKET, SOCK_STREAM, addrinfoex3, addrinfoex3 structure [Winsock], addrinfoex3A, addrinfoex3W, winsock.addrinfoex3, ws2def/LPaddrinfoex3, ws2def/Paddrinfoex3, ws2def/addrinfoex3, ws2def/addrinfoex3A, ws2def/addrinfoex3W"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,18 +60,6 @@ The
 ## -struct-fields
 
 
-
-
-### -field ai_addr
-
-A pointer to a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a> structure. The <b>ai_addr</b> member in each returned <b>addrinfoex3</b> structure points to a filled-in socket address structure. The length, in bytes, of each returned <b>addrinfoex3</b> structure is specified in the <b>ai_addrlen</b> member.
-
-
-### -field ai_next
-
-A pointer to the next structure in a linked list. This parameter is set to <b>NULL</b> in the last 
-<b>addrinfoex3</b> structure of a linked list.
 
 
 ### -field ai_flags
@@ -496,6 +484,12 @@ The length, in bytes, of the  buffer pointed to by the <b>ai_addr</b> member.
 The canonical name for the host.
 
 
+### -field ai_addr
+
+A pointer to a 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a> structure. The <b>ai_addr</b> member in each returned <b>addrinfoex3</b> structure points to a filled-in socket address structure. The length, in bytes, of each returned <b>addrinfoex3</b> structure is specified in the <b>ai_addrlen</b> member.
+
+
 ### -field ai_blob
 
 A pointer to data that is used to return provider-specific namespace information that is associated with the name beyond a list of addresses. The length, in bytes, of the buffer pointed to by <b>ai_blob</b> must be specified in the <b>ai_bloblen</b> member.
@@ -509,6 +503,12 @@ The length, in bytes, of the <b>ai_blob</b> member.
 ### -field ai_provider
 
 A pointer to the GUID of a specific namespace provider.
+
+
+### -field ai_next
+
+A pointer to the next structure in a linked list. This parameter is set to <b>NULL</b> in the last 
+<b>addrinfoex3</b> structure of a linked list.
 
 
 ### -field ai_version

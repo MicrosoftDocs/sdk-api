@@ -1,0 +1,99 @@
+---
+UID: NF:winddi.STROBJ_fxCharacterExtra
+title: STROBJ_fxCharacterExtra function
+author: windows-driver-content
+description: The STROBJ_fxCharacterExtra function retrieves the amount of extra space with which to augment each character's width in a string when displaying and/or printing it.
+old-location: display\strobj_fxcharacterextra.htm
+old-project: display
+ms.assetid: 92989c16-5e82-4df2-9298-28b78757bd54
+ms.author: windowsdriverdev
+ms.date: 4/16/2018
+ms.keywords: STROBJ_fxCharacterExtra, STROBJ_fxCharacterExtra function [Display Devices], display.strobj_fxcharacterextra, gdifncs_4f8ab918-f3b4-47d8-9297-ae9e658f2bad.xml, winddi/STROBJ_fxCharacterExtra
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: winddi.h
+req.include-header: Winddi.h
+req.target-type: Universal
+req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Win32k.sys
+api_name:
+-	STROBJ_fxCharacterExtra
+product: Windows
+targetos: Windows
+req.lib: Win32k.lib
+req.dll: Win32k.sys
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# STROBJ_fxCharacterExtra function
+
+
+## -description
+
+
+The <b>STROBJ_fxCharacterExtra</b> function retrieves the amount of extra space with which to augment each character's width in a string when displaying and/or printing it.
+
+
+## -parameters
+
+
+
+
+### -param pstro
+
+Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569738">STROBJ</a> structure of the string to be displayed.
+
+
+## -returns
+
+
+
+<b>STROBJ_fxCharacterExtra</b> returns the amount of extra space to add to every character in the string. A return value of zero indicates that the string should be laid out using the characters' unaugmented widths.
+
+
+
+
+## -remarks
+
+
+
+The extra space value is specified in pixel coordinates.
+
+<b>STROBJ_fxCharacterExtra</b> never fails.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569738">STROBJ</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569743">STROBJ_fxBreakExtra</a>
+ 
+
+ 
+

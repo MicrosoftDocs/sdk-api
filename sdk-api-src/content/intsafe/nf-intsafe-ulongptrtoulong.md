@@ -2,13 +2,13 @@
 UID: NF:intsafe.ULongPtrToULong
 title: ULongPtrToULong function
 author: windows-driver-content
-description: Converts a value of type ULONG_PTR to a value of type ULONG.
-old-location: shell\ULongPtrToULong.htm
+description: Converts a value of type DWORD_PTR to a value of type DWORD.
+old-location: shell\DWordPtrToDWord.htm
 old-project: shell
-ms.assetid: 7cae7414-055c-4362-8023-71ff9db20cbb
+ms.assetid: da5b5af9-d28a-46ad-9f52-25372ad6c40a
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
-ms.keywords: ULongPtrToULong, ULongPtrToULong function [Windows Shell], _shell_ULongPtrToULong, intsafe/ULongPtrToULong, shell.ULongPtrToULong
+ms.date: 4/26/2018
+ms.keywords: DWordPtrToDWord, DWordPtrToDWord function [Windows Shell], ULongPtrToULong, _shell_DWordPtrToDWord, intsafe/DWordPtrToDWord, shell.DWordPtrToDWord
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -31,15 +31,15 @@ topic_type:
 -	APIRef
 -	kbSyntax
 api_type:
--	HeaderDef
+-	DllExport
 api_location:
--	Intsafe.h
+-	None
 api_name:
--	ULongPtrToULong
+-	DWordPtrToDWord
 product: Windows
 targetos: Windows
 req.lib: 
-req.dll: 
+req.dll: None
 req.irql: 
 req.product: GDI+ 1.1
 ---
@@ -50,7 +50,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Converts a value of type <b>ULONG_PTR</b> to a value of type <b>ULONG</b>.
+Converts a value of type <b>DWORD_PTR</b> to a value of type <b>DWORD</b>.
 
 
 ## -parameters
@@ -58,16 +58,28 @@ Converts a value of type <b>ULONG_PTR</b> to a value of type <b>ULONG</b>.
 
 
 
-### -param ulOperand [in]
+### -param ulOperand
 
-Type: <b>ULONG_PTR</b>
+TBD
+
+
+### -param pulResult
+
+TBD
+
+
+
+
+#### - dwOperand [in]
+
+Type: <b>DWORD_PTR</b>
 
 The value to be converted.
 
 
-### -param pulResult [out]
+#### - pdwResult [out]
 
-Type: <b>ULONG*</b>
+Type: <b>DWORD*</b>
 
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns INTSAFE_E_ARITHMETIC_OVERFLOW and this parameter is not valid.
 

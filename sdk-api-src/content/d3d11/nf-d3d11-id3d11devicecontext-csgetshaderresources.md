@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext_csgetshaderresources.htm
 old-project: direct3d11
 ms.assetid: 872dac3b-8461-4150-b51f-ce02f7356754
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/6/2018
 ms.keywords: 8504e79a-bae1-cad5-dbaa-31ce196070b2, CSGetShaderResources method [Direct3D 11], CSGetShaderResources method [Direct3D 11], ID3D11DeviceContext interface, CSGetShaderResources,ID3D11DeviceContext.CSGetShaderResources, ID3D11DeviceContext, ID3D11DeviceContext interface [Direct3D 11], CSGetShaderResources method, ID3D11DeviceContext::CSGetShaderResources, d3d11/ID3D11DeviceContext::CSGetShaderResources, direct3d11.id3d11devicecontext_csgetshaderresources
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontrols_playitem.htm
 old-project: WMP
 ms.assetid: 8d4282b0-08a9-4c66-ab8b-93429e77e05d
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPControls, IWMPControls interface [Windows Media Player], playItem method, IWMPControls::playItem, IWMPControlsplayItem, playItem method [Windows Media Player], playItem method [Windows Media Player], IWMPControls interface, playItem,IWMPControls.playItem, wmp.iwmpcontrols_playitem, wmp/IWMPControls::playItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

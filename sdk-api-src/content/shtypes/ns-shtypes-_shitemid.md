@@ -7,7 +7,7 @@ old-location: shell\SHITEMID.htm
 old-project: shell
 ms.assetid: 794c8425-2319-4339-881c-c5083ab05638
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: "*LPSHITEMID, SHITEMID, SHITEMID structure [Windows Shell], _SHITEMID, _win32_SHITEMID, shell.SHITEMID, shtypes/SHITEMID"
 ms.prod: windows-hardware
 ms.technology: windows-devices

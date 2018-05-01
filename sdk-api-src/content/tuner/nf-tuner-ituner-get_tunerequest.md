@@ -7,7 +7,7 @@ old-location: mstv\ituner_get_tunerequest.htm
 old-project: mstv
 ms.assetid: 45967073-2e09-4490-967f-4ed3c9ed1d7e
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: ITuner, ITuner interface [Microsoft TV Technologies], get_TuneRequest method, ITuner::get_TuneRequest, ITunerget_TuneRequest, get_TuneRequest method [Microsoft TV Technologies], get_TuneRequest method [Microsoft TV Technologies], ITuner interface, get_TuneRequest,ITuner.get_TuneRequest, mstv.ituner_get_tunerequest, tuner/ITuner::get_TuneRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices

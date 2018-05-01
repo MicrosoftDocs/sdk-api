@@ -7,7 +7,7 @@ old-location: security\icertificationauthorities_add.htm
 old-project: SecCertEnroll
 ms.assetid: 8a618b8b-9089-4f35-afd4-b11255a26ac9
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: Add method [Security], Add method [Security], ICertificationAuthorities interface, Add,ICertificationAuthorities.Add, ICertificationAuthorities, ICertificationAuthorities interface [Security], Add method, ICertificationAuthorities::Add, certenroll/ICertificationAuthorities::Add, security.icertificationauthorities_add
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_descriptor_heap_flags.htm
 old-project: direct3d12
 ms.assetid: 727178D9-D26C-48AF-86B0-E2E171940A11
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: D3D12_DESCRIPTOR_HEAP_FLAGS, D3D12_DESCRIPTOR_HEAP_FLAGS enumeration, D3D12_DESCRIPTOR_HEAP_FLAG_NONE, D3D12_DESCRIPTOR_HEAP_FLAG_SHADER_VISIBLE, d3d12/D3D12_DESCRIPTOR_HEAP_FLAGS, d3d12/D3D12_DESCRIPTOR_HEAP_FLAG_NONE, d3d12/D3D12_DESCRIPTOR_HEAP_FLAG_SHADER_VISIBLE, direct3d12.d3d12_descriptor_heap_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: indexsrv\setcatalogstate.htm
 old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_809x.htm
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/11/2018
 ms.keywords: SetCatalogState, SetCatalogState function [Indexing Service], _idxs_SetCatalogState, indexsrv.setcatalogstate, ntquery/SetCatalogState
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Ntquery.lib
 req.dll: Ntquery.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # SetCatalogState function

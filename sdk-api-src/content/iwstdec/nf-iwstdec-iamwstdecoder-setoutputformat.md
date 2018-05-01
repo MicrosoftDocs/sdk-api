@@ -7,7 +7,7 @@ old-location: dshow\iamwstdecoder_setoutputformat.htm
 old-project: DirectShow
 ms.assetid: 92d19d2b-dce5-4dd6-ac96-a39fa48fa1aa
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMWstDecoder, IAMWstDecoder interface [DirectShow], SetOutputFormat method, IAMWstDecoder::SetOutputFormat, IAMWstDecoderSetOutputFormat, SetOutputFormat method [DirectShow], SetOutputFormat method [DirectShow], IAMWstDecoder interface, SetOutputFormat,IAMWstDecoder.SetOutputFormat, dshow.iamwstdecoder_setoutputformat, iwstdec/IAMWstDecoder::SetOutputFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices

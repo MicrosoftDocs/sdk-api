@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmpropertybag2.htm
 old-project: Fsrm
 ms.assetid: 8f69556f-b96e-49b5-bc40-242768ebe767
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: IFsrmPropertyBag2, IFsrmPropertyBag2 interface [File Server Resource Manager], IFsrmPropertyBag2 interface [File Server Resource Manager], described, fs.ifsrmpropertybag2, fsrm.ifsrmpropertybag2, fsrmpipeline/IFsrmPropertyBag2
 ms.prod: windows-hardware
 ms.technology: windows-devices

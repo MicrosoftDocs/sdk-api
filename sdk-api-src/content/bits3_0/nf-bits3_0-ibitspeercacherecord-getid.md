@@ -7,7 +7,7 @@ old-location: bits\ibitspeercacherecord_getid.htm
 old-project: Bits
 ms.assetid: a1894ab3-0b3f-492b-8ed7-51f3b4ee1eaa
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/10/2018
 ms.keywords: GetId method [BITS], GetId method [BITS], IBitsPeerCacheRecord interface, GetId,IBitsPeerCacheRecord.GetId, IBitsPeerCacheRecord, IBitsPeerCacheRecord interface [BITS], GetId method, IBitsPeerCacheRecord::GetId, bits.ibitspeercacherecord_getid, bits3_0/IBitsPeerCacheRecord::GetId
 ms.prod: windows-hardware
 ms.technology: windows-devices

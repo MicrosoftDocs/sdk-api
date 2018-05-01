@@ -7,7 +7,7 @@ old-location: security\icertpropertyautoenroll_templatename_property.htm
 old-project: SecCertEnroll
 ms.assetid: bec4be81-ff39-4517-be17-e5ca6f0b08e9
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: ICertPropertyAutoEnroll, ICertPropertyAutoEnroll interface [Security], TemplateName property, ICertPropertyAutoEnroll.TemplateName, ICertPropertyAutoEnroll::get_TemplateName, TemplateName property [Security], TemplateName property [Security], ICertPropertyAutoEnroll interface, certenroll/ICertPropertyAutoEnroll::TemplateName, certenroll/ICertPropertyAutoEnroll::get_TemplateName, get_TemplateName,ICertPropertyAutoEnroll.get_TemplateName, security.icertpropertyautoenroll_templatename_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

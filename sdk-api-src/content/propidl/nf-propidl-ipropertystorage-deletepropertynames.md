@@ -7,7 +7,7 @@ old-location: stg\ipropertystorage_deletepropertynames.htm
 old-project: Stg
 ms.assetid: fedeb7fb-b84a-44a4-82d8-3a365296af69
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/20/2018
 ms.keywords: DeletePropertyNames method [Structured Storage], DeletePropertyNames method [Structured Storage], IPropertyStorage interface, DeletePropertyNames,IPropertyStorage.DeletePropertyNames, IPropertyStorage, IPropertyStorage interface [Structured Storage], DeletePropertyNames method, IPropertyStorage::DeletePropertyNames, _stg_ipropertystorage_deletepropertynames, propidl/IPropertyStorage::DeletePropertyNames, stg.ipropertystorage_deletepropertynames
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IPropertyStorage::DeletePropertyNames method

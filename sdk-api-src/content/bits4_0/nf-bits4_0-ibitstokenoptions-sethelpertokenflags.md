@@ -7,7 +7,7 @@ old-location: bits\ibitstokenoptions_sethelpertokenflags.htm
 old-project: Bits
 ms.assetid: bee8fda2-ec11-4969-be81-57a8b4177a1c
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/10/2018
 ms.keywords: BG_TOKEN_LOCAL_FILE, BG_TOKEN_NETWORK, IBitsTokenOptions, IBitsTokenOptions interface [BITS], SetHelperTokenFlags method, IBitsTokenOptions::SetHelperTokenFlags, SetHelperTokenFlags method [BITS], SetHelperTokenFlags method [BITS], IBitsTokenOptions interface, SetHelperTokenFlags,IBitsTokenOptions.SetHelperTokenFlags, bits.ibitstokenoptions_sethelpertokenflags, bits4_0/IBitsTokenOptions::SetHelperTokenFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices

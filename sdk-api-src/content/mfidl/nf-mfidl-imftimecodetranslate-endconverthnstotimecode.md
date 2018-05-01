@@ -7,7 +7,7 @@ old-location: mf\imftimecodetranslate_endconverthnstotimecode.htm
 old-project: medfound
 ms.assetid: 9386748c-e551-49b8-89c3-65d721820736
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: EndConvertHNSToTimecode method [Media Foundation], EndConvertHNSToTimecode method [Media Foundation], IMFTimecodeTranslate interface, EndConvertHNSToTimecode,IMFTimecodeTranslate.EndConvertHNSToTimecode, IMFTimecodeTranslate, IMFTimecodeTranslate interface [Media Foundation], EndConvertHNSToTimecode method, IMFTimecodeTranslate::EndConvertHNSToTimecode, mf.imftimecodetranslate_endconverthnstotimecode, mfidl/IMFTimecodeTranslate::EndConvertHNSToTimecode
 ms.prod: windows-hardware
 ms.technology: windows-devices

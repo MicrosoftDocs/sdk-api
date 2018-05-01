@@ -7,7 +7,7 @@ old-location: security\icenroll4_getalgname.htm
 old-project: SecCrypto
 ms.assetid: 9c5fa25c-7fab-4fb5-9ff6-bc7379260926
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: CEnroll object [Security], GetAlgName method, GetAlgName method [Security], GetAlgName method [Security], CEnroll object, GetAlgName method [Security], ICEnroll3 interface, GetAlgName method [Security], ICEnroll4 interface, GetAlgName,ICEnroll3.GetAlgName, ICEnroll3, ICEnroll3 interface [Security], GetAlgName method, ICEnroll3::GetAlgName, ICEnroll4 interface [Security], GetAlgName method, ICEnroll4::GetAlgName, security.icenroll4_getalgname, xenroll/ICEnroll3::GetAlgName, xenroll/ICEnroll4::GetAlgName
 ms.prod: windows-hardware
 ms.technology: windows-devices

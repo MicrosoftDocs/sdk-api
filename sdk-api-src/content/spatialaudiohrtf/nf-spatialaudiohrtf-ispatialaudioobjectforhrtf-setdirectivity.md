@@ -7,7 +7,7 @@ old-location: coreaudio\ispatialaudioobjectforhrtf_setdirectivity.htm
 old-project: CoreAudio
 ms.assetid: 20934FA5-2B4E-4FC4-B5B5-AFC4024ED2F8
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: ISpatialAudioObjectForHrtf, ISpatialAudioObjectForHrtf interface [Core Audio], SetDirectivity method, ISpatialAudioObjectForHrtf::SetDirectivity, SetDirectivity method [Core Audio], SetDirectivity method [Core Audio], ISpatialAudioObjectForHrtf interface, SetDirectivity,ISpatialAudioObjectForHrtf.SetDirectivity, coreaudio.ispatialaudioobjectforhrtf_setdirectivity, spatialaudiohrtf/ISpatialAudioObjectForHrtf::SetDirectivity
 ms.prod: windows-hardware
 ms.technology: windows-devices

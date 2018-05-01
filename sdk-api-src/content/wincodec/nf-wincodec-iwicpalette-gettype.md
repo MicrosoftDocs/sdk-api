@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicpalette_gettype.htm
 old-project: wic
 ms.assetid: 62b15cbb-60fd-496f-8dc6-2f5292fe4e76
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: GetType method [Windows Imaging Component], GetType method [Windows Imaging Component], IWICPalette interface, GetType,IWICPalette.GetType, IWICPalette, IWICPalette interface [Windows Imaging Component], GetType method, IWICPalette::GetType, _wic_codec_iwicpalette_gettype, wic._wic_codec_iwicpalette_gettype, wincodec/IWICPalette::GetType
 ms.prod: windows-hardware
 ms.technology: windows-devices

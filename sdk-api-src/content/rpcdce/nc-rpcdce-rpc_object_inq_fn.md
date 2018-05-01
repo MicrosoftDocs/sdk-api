@@ -7,7 +7,7 @@ old-location: rpc\rpc_object_inq_fn.htm
 old-project: Rpc
 ms.assetid: 163a5160-1b47-4b65-8f6c-8b009f548ed9
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: RpcObjectInqFn, RpcObjectInqFn callback function [RPC], _rpc_rpc_object_inq_fn, rpc.rpc_object_inq_fn, rpcdce/RpcObjectInqFn
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # RPC_OBJECT_INQ_FN callback

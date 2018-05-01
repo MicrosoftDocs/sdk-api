@@ -7,7 +7,7 @@ old-location: wmp\iwmpcdromburn_put_burnformat.htm
 old-project: WMP
 ms.assetid: 1352e2f6-cad8-4d86-b973-b7d4d8f0c448
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPCdromBurn, IWMPCdromBurn interface [Windows Media Player], put_burnFormat method, IWMPCdromBurn::put_burnFormat, IWMPCdromBurnput_burnFormat, put_burnFormat method [Windows Media Player], put_burnFormat method [Windows Media Player], IWMPCdromBurn interface, put_burnFormat,IWMPCdromBurn.put_burnFormat, wmp.iwmpcdromburn_put_burnformat, wmp/IWMPCdromBurn::put_burnFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices

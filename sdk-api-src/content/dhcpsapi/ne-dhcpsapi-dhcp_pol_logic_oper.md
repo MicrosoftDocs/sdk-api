@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_pol_logic_oper.htm
 old-project: DHCP
 ms.assetid: e8faffdc-2fd4-4d7a-ae9f-fd93932b8c10
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/7/2018
 ms.keywords: DHCP_POL_LOGIC_OPER, DHCP_POL_LOGIC_OPER enumeration [DHCP], DhcpLogicalAnd, DhcpLogicalOr, dhcp.dhcp_pol_logic_oper, dhcpsapi/DHCP_POL_LOGIC_OPER, dhcpsapi/DhcpLogicalAnd, dhcpsapi/DhcpLogicalOr
 ms.prod: windows-hardware
 ms.technology: windows-devices

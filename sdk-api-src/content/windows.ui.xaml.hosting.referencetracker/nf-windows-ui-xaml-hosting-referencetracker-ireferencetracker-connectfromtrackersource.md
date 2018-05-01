@@ -7,7 +7,7 @@ old-location: winrt\ireferencetracker_connectfromtrackersource.htm
 old-project: WinRT
 ms.assetid: 7c5a0eaf-01a9-476c-8c71-1c817aa41fae
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/24/2018
 ms.keywords: ConnectFromTrackerSource method [Windows Runtime], ConnectFromTrackerSource method [Windows Runtime], IReferenceTracker interface, ConnectFromTrackerSource,IReferenceTracker.ConnectFromTrackerSource, IReferenceTracker, IReferenceTracker interface [Windows Runtime], ConnectFromTrackerSource method, IReferenceTracker::ConnectFromTrackerSource, windows/IReferenceTracker::ConnectFromTrackerSource, winrt.ireferencetracker_connectfromtrackersource
 ms.prod: windows-hardware
 ms.technology: windows-devices

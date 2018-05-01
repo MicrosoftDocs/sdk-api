@@ -7,7 +7,7 @@ old-location: properties\SHGetPropertyStoreForWindow.htm
 old-project: properties
 ms.assetid: 772aa2c8-6dd1-480c-a008-58f30902cb80
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/5/2018
 ms.keywords: SHGetPropertyStoreForWindow, SHGetPropertyStoreForWindow function [Windows Properties], _shell_SHGetPropertyStoreForWindow, properties.SHGetPropertyStoreForWindow, shell.SHGetPropertyStoreForWindow, shellapi/SHGetPropertyStoreForWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices

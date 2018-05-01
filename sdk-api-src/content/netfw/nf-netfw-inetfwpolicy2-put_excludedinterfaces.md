@@ -7,7 +7,7 @@ old-location: ics\inetfwpolicy2_excludedinterfaces.htm
 old-project: ICS
 ms.assetid: 0e8cbb09-c146-42e9-9b7c-002e6775bf19
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: ExcludedInterfaces property [ICS/ICF], ExcludedInterfaces property [ICS/ICF], INetFwPolicy2 interface, INetFwPolicy2, INetFwPolicy2 interface [ICS/ICF], ExcludedInterfaces property, INetFwPolicy2.ExcludedInterfaces, INetFwPolicy2::get_ExcludedInterfaces, INetFwPolicy2::put_ExcludedInterfaces, ics.inetfwpolicy2_excludedinterfaces, netfw/INetFwPolicy2::ExcludedInterfaces, netfw/INetFwPolicy2::get_ExcludedInterfaces, netfw/INetFwPolicy2::put_ExcludedInterfaces, put_ExcludedInterfaces,INetFwPolicy2.put_ExcludedInterfaces
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: 
 req.dll: FirewallAPI.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # INetFwPolicy2::put_ExcludedInterfaces method

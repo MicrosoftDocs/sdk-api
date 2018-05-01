@@ -7,7 +7,7 @@ old-location: security\ix509certificatetemplates_add.htm
 old-project: SecCertEnroll
 ms.assetid: c52186bc-af51-4369-8ff5-6122d2e80450
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: Add method [Security], Add method [Security], IX509CertificateTemplates interface, Add,IX509CertificateTemplates.Add, IX509CertificateTemplates, IX509CertificateTemplates interface [Security], Add method, IX509CertificateTemplates::Add, certenroll/IX509CertificateTemplates::Add, security.ix509certificatetemplates_add
 ms.prod: windows-hardware
 ms.technology: windows-devices

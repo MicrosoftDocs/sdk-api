@@ -7,7 +7,7 @@ old-location: dshow\imediaposition_get_duration.htm
 old-project: DirectShow
 ms.assetid: 9971ca0e-a16d-4227-9efa-c965d501e6ef
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IMediaPosition, IMediaPosition interface [DirectShow], get_Duration method, IMediaPosition::get_Duration, IMediaPositionget_Duration, control/IMediaPosition::get_Duration, dshow.imediaposition_get_duration, get_Duration method [DirectShow], get_Duration method [DirectShow], IMediaPosition interface, get_Duration,IMediaPosition.get_Duration
 ms.prod: windows-hardware
 ms.technology: windows-devices

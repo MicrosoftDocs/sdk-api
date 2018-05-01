@@ -7,7 +7,7 @@ old-location: wmp\iwmperror_clearerrorqueue.htm
 old-project: WMP
 ms.assetid: 8c965b48-d178-4b41-add7-0b7d208380a3
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPError, IWMPError interface [Windows Media Player], clearErrorQueue method, IWMPError::clearErrorQueue, IWMPErrorclearErrorQueue, clearErrorQueue method [Windows Media Player], clearErrorQueue method [Windows Media Player], IWMPError interface, clearErrorQueue,IWMPError.clearErrorQueue, wmp.iwmperror_clearerrorqueue, wmp/IWMPError::clearErrorQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices

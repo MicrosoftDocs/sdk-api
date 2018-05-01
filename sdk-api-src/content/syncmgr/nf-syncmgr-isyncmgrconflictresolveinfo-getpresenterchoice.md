@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrConflictResolveInfo_GetPresenterChoice.htm
 old-project: shell
 ms.assetid: 277eee0e-3f75-4ed1-8df2-75289838d3e5
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetPresenterChoice method [Windows Shell], GetPresenterChoice method [Windows Shell], ISyncMgrConflictResolveInfo interface, GetPresenterChoice,ISyncMgrConflictResolveInfo.GetPresenterChoice, ISyncMgrConflictResolveInfo, ISyncMgrConflictResolveInfo interface [Windows Shell], GetPresenterChoice method, ISyncMgrConflictResolveInfo::GetPresenterChoice, _shell_ISyncMgrConflictResolveInfo_GetPresenterChoice, shell.ISyncMgrConflictResolveInfo_GetPresenterChoice, syncmgr/ISyncMgrConflictResolveInfo::GetPresenterChoice
 ms.prod: windows-hardware
 ms.technology: windows-devices

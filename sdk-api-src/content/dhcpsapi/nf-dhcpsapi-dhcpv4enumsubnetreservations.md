@@ -7,7 +7,7 @@ old-location: dhcp\dhcpv4enumsubnetreservations.htm
 old-project: DHCP
 ms.assetid: 6eebc858-7ffe-4bf3-b318-3a5ad16c9827
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/7/2018
 ms.keywords: DhcpV4EnumSubnetReservations, DhcpV4EnumSubnetReservations function [DHCP], dhcp.dhcpv4enumsubnetreservations, dhcpsapi/DhcpV4EnumSubnetReservations
 ms.prod: windows-hardware
 ms.technology: windows-devices

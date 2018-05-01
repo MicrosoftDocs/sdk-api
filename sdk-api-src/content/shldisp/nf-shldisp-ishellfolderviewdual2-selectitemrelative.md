@@ -7,7 +7,7 @@ old-location: shell\IShellFolderViewDual2_SelectItemRelative.htm
 old-project: shell
 ms.assetid: 421a039e-49d6-4a93-958a-48c7e847fa6b
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IShellFolderViewDual2, IShellFolderViewDual2 interface [Windows Shell], SelectItemRelative method, IShellFolderViewDual2::SelectItemRelative, SelectItemRelative method [Windows Shell], SelectItemRelative method [Windows Shell], IShellFolderViewDual2 interface, SelectItemRelative,IShellFolderViewDual2.SelectItemRelative, _shell_IShellFolderViewDual2_SelectItemRelative, shell.IShellFolderViewDual2_SelectItemRelative, shldisp/IShellFolderViewDual2::SelectItemRelative
 ms.prod: windows-hardware
 ms.technology: windows-devices

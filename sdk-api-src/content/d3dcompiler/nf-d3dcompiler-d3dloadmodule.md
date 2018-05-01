@@ -7,7 +7,7 @@ old-location: direct3dhlsl\d3dloadmodule.htm
 old-project: direct3dhlsl
 ms.assetid: 698AADA6-0A88-44AD-9F15-F085BFE52CA1
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/12/2018
 ms.keywords: D3DLoadModule, D3DLoadModule function [HLSL], d3dcompiler/D3DLoadModule, direct3dhlsl.d3dloadmodule
 ms.prod: windows-hardware
 ms.technology: windows-devices

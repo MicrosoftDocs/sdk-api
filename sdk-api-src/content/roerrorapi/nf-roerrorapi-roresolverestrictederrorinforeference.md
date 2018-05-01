@@ -1,0 +1,187 @@
+---
+UID: NF:roerrorapi.RoResolveRestrictedErrorInfoReference
+title: RoResolveRestrictedErrorInfoReference function
+author: windows-driver-content
+description: Returns the IRestrictedErrorInfo interface pointer based on the given reference.
+old-location: winrt\roresolverestrictederrorinforeference.htm
+old-project: WinRT
+ms.assetid: 2F5C5A84-502C-4BD1-A01F-8F0E9B5857AD
+ms.author: windowsdriverdev
+ms.date: 4/24/2018
+ms.keywords: RoResolveRestrictedErrorInfoReference, RoResolveRestrictedErrorInfoReference function [Windows Runtime], roerrorapi/RoResolveRestrictedErrorInfoReference, winrt.roresolverestrictederrorinforeference
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: roerrorapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: RO_ERROR_REPORTING_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	runtimeobject.lib
+-	runtimeobject.dll
+-	API-MS-Win-Core-WinRT-error-l1-1-0.dll
+-	ComBase.dll
+-	API-MS-Win-Core-WinRT-error-l1-1-1.dll
+api_name:
+-	RoResolveRestrictedErrorInfoReference
+product: Windows
+targetos: Windows
+req.lib: Runtimeobject.lib
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 SP2 or later
+---
+
+# RoResolveRestrictedErrorInfoReference function
+
+
+## -description
+
+
+Returns the <a href="https://msdn.microsoft.com/1af8d4bf-1217-44ca-b0dd-9a6feda16100">IRestrictedErrorInfo</a> interface pointer based on the given reference.
+
+
+## -parameters
+
+
+
+
+### -param reference [in]
+
+Type: <b>PCWSTR</b>
+
+Identifies an error object which contains relevant information for the specific error.
+
+
+### -param ppRestrictedErrorInfo [out]
+
+Type: <b><a href="https://msdn.microsoft.com/1af8d4bf-1217-44ca-b0dd-9a6feda16100">IRestrictedErrorInfo</a>**</b>
+
+The output parameter for the object associated with the given reference.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+This function can return one of these values.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The operation succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>CLASS_E_NOAGGREGATION</b></dt>
+</dl>
+</td>
+<td width="60%">
+object does not support aggregation.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+The reference is invalid.
+
+
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+The <b>RoResolveRestrictedErrorInfoReference</b> function is useful primarily for debugger development. A debugger receives the reference  string and uses the reference to identify the associated <a href="https://msdn.microsoft.com/1af8d4bf-1217-44ca-b0dd-9a6feda16100">IRestrictedErrorInfo</a> object, which allows the debugger to retrieve the detailed error message by calling the <a href="https://msdn.microsoft.com/ecfd97cf-9f8f-4940-9499-a894e0883f04">GetErrorDetails</a> method.
+
+
+
+
+#### Examples
+
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT DebuggerIntegration(PCWST   referenceName)
+{
+    HRESULT hr = S_OK;
+    IRestrictedErrorInfo *pRORestrictedErrorInfo = nullptr;
+
+    // Resove the IRestrictedErrorInfo
+    hr = RoResolveRestrictedErrorInfoReference(referenceName,  
+                      reinterpret_cast&lt;void**&gt;(&amp;pRORestrictedErrorInfo));
+    if (FAILED(hr))
+    {
+        hr = E_FAIL;    
+    }
+
+
+    HRESULT hrError = S_OK;
+    BSTR bstrDescription = nullptr;
+    BSTR bstrRestrictedDescription = nullptr;
+
+    // Get the error details out of the interface
+    if (SUCCEEDED(hr))
+    {
+        hr = spRestrictedErrorInfo-&gt;GetErrorDetails(&amp;bstrDescription, 
+                                      &amp;hrError, &amp;bstrRestrictedDescription);
+        if (FAILED(hr))
+        {
+            hr = E_FAIL;    
+        }
+    }
+
+   return hr;
+
+}
+</pre>
+</td>
+</tr>
+</table></span></div>
+
+

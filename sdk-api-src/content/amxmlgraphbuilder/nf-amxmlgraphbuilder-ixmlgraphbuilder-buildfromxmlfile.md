@@ -7,7 +7,7 @@ old-location: dshow\ixmlgraphbuilder_buildfromxmlfile.htm
 old-project: DirectShow
 ms.assetid: 238a3077-0f04-44bb-a6ac-b532ef97c315
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: BuildFromXMLFile method [DirectShow], BuildFromXMLFile method [DirectShow], IXMLGraphBuilder interface, BuildFromXMLFile,IXMLGraphBuilder.BuildFromXMLFile, IXMLGraphBuilder, IXMLGraphBuilder interface [DirectShow], BuildFromXMLFile method, IXMLGraphBuilder::BuildFromXMLFile, IXMLGraphBuilderBuildFromXMLFile, amxmlgraphbuilder/IXMLGraphBuilder::BuildFromXMLFile, dshow.ixmlgraphbuilder_buildfromxmlfile
 ms.prod: windows-hardware
 ms.technology: windows-devices

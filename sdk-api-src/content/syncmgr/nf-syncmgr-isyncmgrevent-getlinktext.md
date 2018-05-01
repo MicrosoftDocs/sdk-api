@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrEvent_GetLinkText.htm
 old-project: shell
 ms.assetid: f8a7226b-270e-495e-a43f-8e6a9c7a77df
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetLinkText method [Windows Shell], GetLinkText method [Windows Shell], ISyncMgrEvent interface, GetLinkText,ISyncMgrEvent.GetLinkText, ISyncMgrEvent, ISyncMgrEvent interface [Windows Shell], GetLinkText method, ISyncMgrEvent::GetLinkText, _shell_ISyncMgrEvent_GetLinkText, shell.ISyncMgrEvent_GetLinkText, syncmgr/ISyncMgrEvent::GetLinkText
 ms.prod: windows-hardware
 ms.technology: windows-devices

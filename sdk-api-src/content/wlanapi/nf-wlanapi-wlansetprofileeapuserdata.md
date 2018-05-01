@@ -7,7 +7,7 @@ old-location: nwifi\wlansetprofileeapuserdata.htm
 old-project: NativeWiFi
 ms.assetid: 2bef0f2f-165d-446a-afa8-735658048152
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/13/2018
 ms.keywords: WLAN_SET_EAPHOST_DATA_ALL_USERS, WlanSetProfileEapUserData, WlanSetProfileEapUserData function [NativeWIFI], nwifi.wlansetprofileeapuserdata, wlanapi/WlanSetProfileEapUserData
 ms.prod: windows-hardware
 ms.technology: windows-devices

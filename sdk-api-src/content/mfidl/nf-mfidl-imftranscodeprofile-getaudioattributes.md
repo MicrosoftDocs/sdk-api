@@ -7,7 +7,7 @@ old-location: mf\imftranscodeprofile_getaudioattributes.htm
 old-project: medfound
 ms.assetid: c02dabfe-33ef-4835-a707-d1350b18629f
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetAudioAttributes method [Media Foundation], GetAudioAttributes method [Media Foundation], IMFTranscodeProfile interface, GetAudioAttributes,IMFTranscodeProfile.GetAudioAttributes, IMFTranscodeProfile, IMFTranscodeProfile interface [Media Foundation], GetAudioAttributes method, IMFTranscodeProfile::GetAudioAttributes, mf.imftranscodeprofile_getaudioattributes, mfidl/IMFTranscodeProfile::GetAudioAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices

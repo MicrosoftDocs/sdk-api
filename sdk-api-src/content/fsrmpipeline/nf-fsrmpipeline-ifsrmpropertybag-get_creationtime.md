@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmpropertybag_creationtime.htm
 old-project: Fsrm
 ms.assetid: 85953042-eeb6-49bd-bde0-f18d4edf108a
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: CreationTime property [File Server Resource Manager], CreationTime property [File Server Resource Manager], IFsrmPropertyBag interface, IFsrmPropertyBag, IFsrmPropertyBag interface [File Server Resource Manager], CreationTime property, IFsrmPropertyBag.CreationTime, IFsrmPropertyBag::get_CreationTime, fs.ifsrmpropertybag_creationtime, fsrm.ifsrmpropertybag_creationtime, fsrmpipeline/IFsrmPropertyBag::CreationTime, fsrmpipeline/IFsrmPropertyBag::get_CreationTime, get_CreationTime,IFsrmPropertyBag.get_CreationTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

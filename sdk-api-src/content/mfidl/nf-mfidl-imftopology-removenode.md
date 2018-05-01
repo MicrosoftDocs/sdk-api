@@ -7,7 +7,7 @@ old-location: mf\imftopology_removenode.htm
 old-project: medfound
 ms.assetid: 0dbafd3f-315b-4135-aecd-ad46f2c19886
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 0dbafd3f-315b-4135-aecd-ad46f2c19886, IMFTopology, IMFTopology interface [Media Foundation], RemoveNode method, IMFTopology::RemoveNode, RemoveNode method [Media Foundation], RemoveNode method [Media Foundation], IMFTopology interface, RemoveNode,IMFTopology.RemoveNode, mf.imftopology_removenode, mfidl/IMFTopology::RemoveNode
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\imfpmediaitem_setstreamselection.htm
 old-project: medfound
 ms.assetid: 739190a5-60a7-4b50-9919-f68d2cd6da8d
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: FALSE, IMFPMediaItem, IMFPMediaItem interface [Media Foundation], SetStreamSelection method, IMFPMediaItem::SetStreamSelection, SetStreamSelection method [Media Foundation], SetStreamSelection method [Media Foundation], IMFPMediaItem interface, SetStreamSelection,IMFPMediaItem.SetStreamSelection, TRUE, mf.imfpmediaitem_setstreamselection, mfplay/IMFPMediaItem::SetStreamSelection
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: controls\ITextRange_ChangeCase.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\changecase.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ChangeCase method [Windows Controls], ChangeCase method [Windows Controls], ITextRange interface, ChangeCase,ITextRange.ChangeCase, ITextRange, ITextRange interface [Windows Controls], ChangeCase method, ITextRange::ChangeCase, _win32_ITextRange_ChangeCase, _win32_ITextRange_ChangeCase_cpp, controls.ITextRange_ChangeCase, controls._win32_ITextRange_ChangeCase, tom/ITextRange::ChangeCase, tomLowerCase, tomSentenceCase, tomTitleCase, tomToggleCase, tomUpperCase
 ms.prod: windows-hardware
 ms.technology: windows-devices

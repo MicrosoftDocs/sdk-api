@@ -7,7 +7,7 @@ old-location: tablet\istylusplugin_customstylusdataadded.htm
 old-project: tablet
 ms.assetid: 0d3f556c-b0a8-4346-b7da-82f1a3c2603c
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: 0d3f556c-b0a8-4346-b7da-82f1a3c2603c, CustomStylusDataAdded method [Tablet PC], CustomStylusDataAdded method [Tablet PC], IStylusPlugin interface, CustomStylusDataAdded,IStylusPlugin.CustomStylusDataAdded, IStylusPlugin, IStylusPlugin interface [Tablet PC], CustomStylusDataAdded method, IStylusPlugin::CustomStylusDataAdded, rtscom/IStylusPlugin::CustomStylusDataAdded, tablet.istylusplugin_customstylusdataadded
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: RTSCom.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IStylusPlugin::CustomStylusDataAdded method

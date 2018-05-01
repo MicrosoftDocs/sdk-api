@@ -7,7 +7,7 @@ old-location: dshow\ireferenceclocktimercontrol.htm
 old-project: DirectShow
 ms.assetid: 08638917-88b1-42f0-8324-ae6fb9afe5bd
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IReferenceClockTimerControl, IReferenceClockTimerControl interface [DirectShow], IReferenceClockTimerControl interface [DirectShow], described, IReferenceClockTimerControlInterface, dshow.ireferenceclocktimercontrol, strmif/IReferenceClockTimerControl
 ms.prod: windows-hardware
 ms.technology: windows-devices

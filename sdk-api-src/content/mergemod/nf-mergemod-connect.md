@@ -7,7 +7,7 @@ old-location: setup\merge_connect.htm
 old-project: Msi
 ms.assetid: 1c1ef664-792c-4cdc-b468-1ffe0b7810a5
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/26/2018
 ms.keywords: Connect, Connect method, Connect method, Merge object, Merge object, Connect method, _msi_connect_method, setup.merge_connect
 ms.prod: windows-hardware
 ms.technology: windows-devices

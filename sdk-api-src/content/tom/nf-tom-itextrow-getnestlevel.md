@@ -7,7 +7,7 @@ old-location: controls\itextrow_getnestlevel.htm
 old-project: Controls
 ms.assetid: 6b689344-6748-49d7-aa98-a87435b7cb0b
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: GetNestLevel method [Windows Controls], GetNestLevel method [Windows Controls], ITextRow interface, GetNestLevel,ITextRow.GetNestLevel, ITextRow, ITextRow interface [Windows Controls], GetNestLevel method, ITextRow::GetNestLevel, controls.itextrow_getnestlevel, tom/ITextRow::GetNestLevel
 ms.prod: windows-hardware
 ms.technology: windows-devices

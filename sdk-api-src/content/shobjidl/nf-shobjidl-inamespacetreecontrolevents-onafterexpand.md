@@ -7,7 +7,7 @@ old-location: shell\INameSpaceTreeControlEvents_OnAfterExpand.htm
 old-project: shell
 ms.assetid: cdc43044-9d0a-4def-956a-f1031314d4cb
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: INameSpaceTreeControlEvents, INameSpaceTreeControlEvents interface [Windows Shell], OnAfterExpand method, INameSpaceTreeControlEvents::OnAfterExpand, OnAfterExpand method [Windows Shell], OnAfterExpand method [Windows Shell], INameSpaceTreeControlEvents interface, OnAfterExpand,INameSpaceTreeControlEvents.OnAfterExpand, _shell_INameSpaceTreeControlEvents_OnAfterExpand, shell.INameSpaceTreeControlEvents_OnAfterExpand, shobjidl/INameSpaceTreeControlEvents::OnAfterExpand
 ms.prod: windows-hardware
 ms.technology: windows-devices

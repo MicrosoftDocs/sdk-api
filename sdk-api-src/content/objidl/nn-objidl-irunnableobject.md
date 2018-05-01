@@ -7,7 +7,7 @@ old-location: com\irunnableobject.htm
 old-project: com
 ms.assetid: c682447b-5b12-41d5-a81d-fe94a117f740
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IRunnableObject, IRunnableObject interface [COM], IRunnableObject interface [COM], described, _com_irunnableobject, com.irunnableobject, objidl/IRunnableObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IRunnableObject interface

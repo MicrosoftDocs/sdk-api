@@ -7,7 +7,7 @@ old-location: security\ix509enrollment_initializefromtemplatename_method.htm
 old-project: SecCertEnroll
 ms.assetid: 44a934f4-9ae9-4f52-9d44-f5fcf30f3837
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: IX509Enrollment, IX509Enrollment interface [Security], InitializeFromTemplateName method, IX509Enrollment::InitializeFromTemplateName, InitializeFromTemplateName method [Security], InitializeFromTemplateName method [Security], IX509Enrollment interface, InitializeFromTemplateName,IX509Enrollment.InitializeFromTemplateName, certenroll/IX509Enrollment::InitializeFromTemplateName, security.ix509enrollment_initializefromtemplatename_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

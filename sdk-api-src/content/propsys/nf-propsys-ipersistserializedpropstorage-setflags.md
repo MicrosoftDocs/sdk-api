@@ -7,7 +7,7 @@ old-location: shell\IPersistSerializedPropStorage_SetFlags.htm
 old-project: shell
 ms.assetid: df7a817e-de81-4e27-ab37-192e668bf7fa
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: FPSPS_DEFAULT, FPSPS_READONLY, FPSPS_TREAT_NEW_VALUES_AS_DIRTY, IPersistSerializedPropStorage, IPersistSerializedPropStorage interface [Windows Shell], SetFlags method, IPersistSerializedPropStorage::SetFlags, SetFlags method [Windows Shell], SetFlags method [Windows Shell], IPersistSerializedPropStorage interface, SetFlags,IPersistSerializedPropStorage.SetFlags, _shell_IPersistSerializedPropStorage_SetFlags, propsys/IPersistSerializedPropStorage::SetFlags, shell.IPersistSerializedPropStorage_SetFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IPersistSerializedPropStorage::SetFlags method

@@ -7,7 +7,7 @@ old-location: mf\dxva2_videodesc.htm
 old-project: medfound
 ms.assetid: 0e500a08-a3b5-475c-8bbc-e4b30cce247d
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 0e500a08-a3b5-475c-8bbc-e4b30cce247d, DXVA2_VideoDesc, DXVA2_VideoDesc structure [Media Foundation], _DXVA2_VideoDesc, dxva2api/DXVA2_VideoDesc, mf.dxva2_videodesc
 ms.prod: windows-hardware
 ms.technology: windows-devices

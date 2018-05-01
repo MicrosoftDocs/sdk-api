@@ -7,7 +7,7 @@ old-location: base\rtlinitializeslisthead.htm
 old-project: Sync
 ms.assetid: 0f5467e0-6fba-418d-8f00-cb4fa475f7e2
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: RtlInitializeSListHead, RtlInitializeSListHead function, base.rtlinitializeslisthead, winnt/RtlInitializeSListHead
 ms.prod: windows-hardware
 ms.technology: windows-devices

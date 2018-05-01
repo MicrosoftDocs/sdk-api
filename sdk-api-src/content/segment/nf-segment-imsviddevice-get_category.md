@@ -7,7 +7,7 @@ old-location: mstv\imsviddevice_get_category.htm
 old-project: mstv
 ms.assetid: 369080c6-b707-494e-a663-e78e7d8d3eaf
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidDevice, IMSVidDevice interface [Microsoft TV Technologies], get_Category method, IMSVidDevice::get_Category, IMSVidDeviceget_Category, get_Category method [Microsoft TV Technologies], get_Category method [Microsoft TV Technologies], IMSVidDevice interface, get_Category,IMSVidDevice.get_Category, mstv.imsviddevice_get_category, segment/IMSVidDevice::get_Category
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidDevice::get_Category method

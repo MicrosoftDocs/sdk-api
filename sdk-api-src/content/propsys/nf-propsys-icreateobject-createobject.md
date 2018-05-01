@@ -7,7 +7,7 @@ old-location: shell\ICreateObject_CreateObject.htm
 old-project: shell
 ms.assetid: 72c56de7-4c04-4bcf-b6bb-6e41d12b68a3
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: CreateObject method [Windows Shell], CreateObject method [Windows Shell], ICreateObject interface, CreateObject,ICreateObject.CreateObject, ICreateObject, ICreateObject interface [Windows Shell], CreateObject method, ICreateObject::CreateObject, _shell_ICreateObject_CreateObject, propsys/ICreateObject::CreateObject, shell.ICreateObject_CreateObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ICreateObject::CreateObject method

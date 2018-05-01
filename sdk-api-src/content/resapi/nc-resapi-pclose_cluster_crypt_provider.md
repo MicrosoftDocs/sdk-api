@@ -7,7 +7,7 @@ old-location: mscs\closeclustercryptprovider.htm
 old-project: MsCS
 ms.assetid: 844D991A-6B29-4ADE-8CFE-114FD4AF7C9B
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: PCLOSE_CLUSTER_CRYPT_PROVIDER, PCLOSE_CLUSTER_CRYPT_PROVIDER callback function [Failover Cluster], mscs.closeclustercryptprovider, resapi/PCLOSE_CLUSTER_CRYPT_PROVIDER
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # PCLOSE_CLUSTER_CRYPT_PROVIDER callback

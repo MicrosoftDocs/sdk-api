@@ -7,7 +7,7 @@ old-location: cos\icontextproperties_setproperty.htm
 old-project: cossdk
 ms.assetid: 4f6a27a2-37e9-4d4b-9d7e-916d791f03a5
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: IContextProperties, IContextProperties interface [COM+], SetProperty method, IContextProperties::SetProperty, SetProperty method [COM+], SetProperty method [COM+], IContextProperties interface, SetProperty,IContextProperties.SetProperty, _cos_IContextProperties_SetProperty, comsvcs/IContextProperties::SetProperty, cos.icontextproperties_setproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

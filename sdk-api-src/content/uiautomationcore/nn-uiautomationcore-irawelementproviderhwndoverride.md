@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IRawElementProviderHwndOverride.htm
 old-project: WinAuto
 ms.assetid: c2aa8f29-afec-474f-8ee5-55285f06ddff
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: IRawElementProviderHwndOverride, IRawElementProviderHwndOverride interface [Windows Accessibility], IRawElementProviderHwndOverride interface [Windows Accessibility], described, uiauto.uiauto_IRawElementProviderHwndOverride, uiauto_IRawElementProviderHwndOverride, uiautomationcore/IRawElementProviderHwndOverride, winauto.uiauto_IRawElementProviderHwndOverride
 ms.prod: windows-hardware
 ms.technology: windows-devices

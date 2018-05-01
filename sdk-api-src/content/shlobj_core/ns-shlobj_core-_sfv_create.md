@@ -7,7 +7,7 @@ old-location: shell\SFV_CREATE.htm
 old-project: shell
 ms.assetid: c6f3d9a6-5f39-4124-9340-78352f6be117
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: SFV_CREATE, SFV_CREATE structure [Windows Shell], _SFV_CREATE, _win32_SFV_CREATE, shell.SFV_CREATE, shlobj_core/SFV_CREATE
 ms.prod: windows-hardware
 ms.technology: windows-devices

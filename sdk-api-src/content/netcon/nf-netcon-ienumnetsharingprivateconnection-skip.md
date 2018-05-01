@@ -7,7 +7,7 @@ old-location: ics\ienumnetsharingprivateconnection_skip.htm
 old-project: ICS
 ms.assetid: 2157ab88-02ed-4c04-be07-7bebe3cd85b8
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: IEnumNetSharingPrivateConnection, IEnumNetSharingPrivateConnection interface [ICS/ICF], Skip method, IEnumNetSharingPrivateConnection::Skip, Skip method [ICS/ICF], Skip method [ICS/ICF], IEnumNetSharingPrivateConnection interface, Skip,IEnumNetSharingPrivateConnection.Skip, _ics_ienumnetsharingprivateconnection_skip, ics.ienumnetsharingprivateconnection_skip, netcon/IEnumNetSharingPrivateConnection::Skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IEnumNetSharingPrivateConnection::Skip method

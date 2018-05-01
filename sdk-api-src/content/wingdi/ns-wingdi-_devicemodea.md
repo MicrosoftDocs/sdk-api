@@ -65,6 +65,171 @@ req.product: Windows Address Book 5.0
 
 
 
+### -field dmDeviceName
+
+
+            A zero-terminated character array that specifies the "friendly" name of the printer or display; for example, "PCL/HP LaserJet" in the case of PCL/HP LaserJet. This string is unique among device drivers. Note that this name may be truncated to fit in the <b>dmDeviceName</b> array.
+          
+
+
+### -field dmSpecVersion
+
+The version number of the initialization data specification on which the structure is based. To ensure the correct version is used for any operating system, use DM_SPECVERSION.
+
+
+### -field dmDriverVersion
+
+The driver version number assigned by the driver developer.
+
+
+### -field dmSize
+
+
+            Specifies the size, in bytes, of the <b>DEVMODE</b> structure, not including any private driver-specific data that might follow the structure's public members. Set this member to <code>sizeof (DEVMODE)</code> to indicate the version of the <b>DEVMODE</b> structure being used.
+          
+
+
+### -field dmDriverExtra
+
+Contains the number of bytes of private driver-data that follow this structure. If a device driver does not use device-specific information, set this member to zero.
+
+
+### -field dmFields
+
+
+            Specifies whether certain members of the <b>DEVMODE</b> structure have been initialized. If a member is initialized, its corresponding bit is set, otherwise the bit is clear. A driver supports only those <b>DEVMODE</b> members that are appropriate for the printer or display technology.
+
+The following values are defined, and are listed here with the corresponding structure members.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Structure member</th>
+</tr>
+<tr>
+<td>DM_ORIENTATION</td>
+<td><b>dmOrientation</b></td>
+</tr>
+<tr>
+<td>DM_PAPERSIZE</td>
+<td><b>dmPaperSize</b></td>
+</tr>
+<tr>
+<td>DM_PAPERLENGTH</td>
+<td><b>dmPaperLength</b></td>
+</tr>
+<tr>
+<td>DM_PAPERWIDTH</td>
+<td><b>dmPaperWidth</b></td>
+</tr>
+<tr>
+<td>DM_SCALE</td>
+<td><b>dmScale</b></td>
+</tr>
+<tr>
+<td>DM_COPIES</td>
+<td><b>dmCopies</b></td>
+</tr>
+<tr>
+<td>DM_DEFAULTSOURCE</td>
+<td><b>dmDefaultSource</b></td>
+</tr>
+<tr>
+<td>DM_PRINTQUALITY</td>
+<td><b>dmPrintQuality</b></td>
+</tr>
+<tr>
+<td>DM_POSITION</td>
+<td><b>dmPosition</b></td>
+</tr>
+<tr>
+<td>DM_DISPLAYORIENTATION</td>
+<td><b>dmDisplayOrientation</b></td>
+</tr>
+<tr>
+<td>DM_DISPLAYFIXEDOUTPUT</td>
+<td><b>dmDisplayFixedOutput</b></td>
+</tr>
+<tr>
+<td>DM_COLOR</td>
+<td><b>dmColor</b></td>
+</tr>
+<tr>
+<td>DM_DUPLEX</td>
+<td><b>dmDuplex</b></td>
+</tr>
+<tr>
+<td>DM_YRESOLUTION</td>
+<td><b>dmYResolution</b></td>
+</tr>
+<tr>
+<td>DM_TTOPTION</td>
+<td><b>dmTTOption</b></td>
+</tr>
+<tr>
+<td>DM_COLLATE</td>
+<td><b>dmCollate</b></td>
+</tr>
+<tr>
+<td>DM_FORMNAME</td>
+<td><b>dmFormName</b></td>
+</tr>
+<tr>
+<td>DM_LOGPIXELS</td>
+<td><b>dmLogPixels</b></td>
+</tr>
+<tr>
+<td>DM_BITSPERPEL</td>
+<td><b>dmBitsPerPel</b></td>
+</tr>
+<tr>
+<td>DM_PELSWIDTH</td>
+<td><b>dmPelsWidth</b></td>
+</tr>
+<tr>
+<td>DM_PELSHEIGHT</td>
+<td><b>dmPelsHeight</b></td>
+</tr>
+<tr>
+<td>DM_DISPLAYFLAGS</td>
+<td><b>dmDisplayFlags</b></td>
+</tr>
+<tr>
+<td>DM_NUP</td>
+<td><b>dmNup</b></td>
+</tr>
+<tr>
+<td>DM_DISPLAYFREQUENCY</td>
+<td><b>dmDisplayFrequency</b></td>
+</tr>
+<tr>
+<td>DM_ICMMETHOD</td>
+<td><b>dmICMMethod</b></td>
+</tr>
+<tr>
+<td>DM_ICMINTENT</td>
+<td><b>dmICMIntent</b></td>
+</tr>
+<tr>
+<td>DM_MEDIATYPE</td>
+<td><b>dmMediaType</b></td>
+</tr>
+<tr>
+<td>DM_DITHERTYPE</td>
+<td><b>dmDitherType</b></td>
+</tr>
+<tr>
+<td>DM_PANNINGWIDTH</td>
+<td><b>dmPanningWidth</b></td>
+</tr>
+<tr>
+<td>DM_PANNINGHEIGHT</td>
+<td><b>dmPanningHeight</b></td>
+</tr>
+</table>
+ 
+
+
 ### -field DUMMYUNIONNAME
 
  
@@ -726,176 +891,6 @@ If a positive value is specified, it specifies the number of dots per inch (DPI)
 <b>Windows 2000:  </b>Not supported.
 
 
-### -field DUMMYUNIONNAME2
-
- 
-
-
-### -field dmDeviceName
-
-
-            A zero-terminated character array that specifies the "friendly" name of the printer or display; for example, "PCL/HP LaserJet" in the case of PCL/HP LaserJet. This string is unique among device drivers. Note that this name may be truncated to fit in the <b>dmDeviceName</b> array.
-          
-
-
-### -field dmSpecVersion
-
-The version number of the initialization data specification on which the structure is based. To ensure the correct version is used for any operating system, use DM_SPECVERSION.
-
-
-### -field dmDriverVersion
-
-The driver version number assigned by the driver developer.
-
-
-### -field dmSize
-
-
-            Specifies the size, in bytes, of the <b>DEVMODE</b> structure, not including any private driver-specific data that might follow the structure's public members. Set this member to <code>sizeof (DEVMODE)</code> to indicate the version of the <b>DEVMODE</b> structure being used.
-          
-
-
-### -field dmDriverExtra
-
-Contains the number of bytes of private driver-data that follow this structure. If a device driver does not use device-specific information, set this member to zero.
-
-
-### -field dmFields
-
-
-            Specifies whether certain members of the <b>DEVMODE</b> structure have been initialized. If a member is initialized, its corresponding bit is set, otherwise the bit is clear. A driver supports only those <b>DEVMODE</b> members that are appropriate for the printer or display technology.
-
-The following values are defined, and are listed here with the corresponding structure members.
-
-<table>
-<tr>
-<th>Value</th>
-<th>Structure member</th>
-</tr>
-<tr>
-<td>DM_ORIENTATION</td>
-<td><b>dmOrientation</b></td>
-</tr>
-<tr>
-<td>DM_PAPERSIZE</td>
-<td><b>dmPaperSize</b></td>
-</tr>
-<tr>
-<td>DM_PAPERLENGTH</td>
-<td><b>dmPaperLength</b></td>
-</tr>
-<tr>
-<td>DM_PAPERWIDTH</td>
-<td><b>dmPaperWidth</b></td>
-</tr>
-<tr>
-<td>DM_SCALE</td>
-<td><b>dmScale</b></td>
-</tr>
-<tr>
-<td>DM_COPIES</td>
-<td><b>dmCopies</b></td>
-</tr>
-<tr>
-<td>DM_DEFAULTSOURCE</td>
-<td><b>dmDefaultSource</b></td>
-</tr>
-<tr>
-<td>DM_PRINTQUALITY</td>
-<td><b>dmPrintQuality</b></td>
-</tr>
-<tr>
-<td>DM_POSITION</td>
-<td><b>dmPosition</b></td>
-</tr>
-<tr>
-<td>DM_DISPLAYORIENTATION</td>
-<td><b>dmDisplayOrientation</b></td>
-</tr>
-<tr>
-<td>DM_DISPLAYFIXEDOUTPUT</td>
-<td><b>dmDisplayFixedOutput</b></td>
-</tr>
-<tr>
-<td>DM_COLOR</td>
-<td><b>dmColor</b></td>
-</tr>
-<tr>
-<td>DM_DUPLEX</td>
-<td><b>dmDuplex</b></td>
-</tr>
-<tr>
-<td>DM_YRESOLUTION</td>
-<td><b>dmYResolution</b></td>
-</tr>
-<tr>
-<td>DM_TTOPTION</td>
-<td><b>dmTTOption</b></td>
-</tr>
-<tr>
-<td>DM_COLLATE</td>
-<td><b>dmCollate</b></td>
-</tr>
-<tr>
-<td>DM_FORMNAME</td>
-<td><b>dmFormName</b></td>
-</tr>
-<tr>
-<td>DM_LOGPIXELS</td>
-<td><b>dmLogPixels</b></td>
-</tr>
-<tr>
-<td>DM_BITSPERPEL</td>
-<td><b>dmBitsPerPel</b></td>
-</tr>
-<tr>
-<td>DM_PELSWIDTH</td>
-<td><b>dmPelsWidth</b></td>
-</tr>
-<tr>
-<td>DM_PELSHEIGHT</td>
-<td><b>dmPelsHeight</b></td>
-</tr>
-<tr>
-<td>DM_DISPLAYFLAGS</td>
-<td><b>dmDisplayFlags</b></td>
-</tr>
-<tr>
-<td>DM_NUP</td>
-<td><b>dmNup</b></td>
-</tr>
-<tr>
-<td>DM_DISPLAYFREQUENCY</td>
-<td><b>dmDisplayFrequency</b></td>
-</tr>
-<tr>
-<td>DM_ICMMETHOD</td>
-<td><b>dmICMMethod</b></td>
-</tr>
-<tr>
-<td>DM_ICMINTENT</td>
-<td><b>dmICMIntent</b></td>
-</tr>
-<tr>
-<td>DM_MEDIATYPE</td>
-<td><b>dmMediaType</b></td>
-</tr>
-<tr>
-<td>DM_DITHERTYPE</td>
-<td><b>dmDitherType</b></td>
-</tr>
-<tr>
-<td>DM_PANNINGWIDTH</td>
-<td><b>dmPanningWidth</b></td>
-</tr>
-<tr>
-<td>DM_PANNINGHEIGHT</td>
-<td><b>dmPanningHeight</b></td>
-</tr>
-</table>
- 
-
-
 ### -field dmColor
 
 
@@ -1022,6 +1017,11 @@ The number of pixels per logical inch. Printer drivers do not use this member.
 
             Specifies the height, in pixels, of the visible device surface. Display drivers use this member, for example, in the <a href="https://msdn.microsoft.com/208bf1cc-c03c-4d03-92e4-32fcf856b4d8">ChangeDisplaySettings</a> function. Printer drivers do not use this member.
           
+
+
+### -field DUMMYUNIONNAME2
+
+ 
 
 
 ### -field dmDisplayFrequency

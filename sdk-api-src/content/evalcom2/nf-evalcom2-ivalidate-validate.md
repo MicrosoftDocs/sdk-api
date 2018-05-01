@@ -7,7 +7,7 @@ old-location: setup\ivalidate_validate.htm
 old-project: Msi
 ms.assetid: f7a50031-52ac-4ea2-847c-6212706a9cbd
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/26/2018
 ms.keywords: IValidate, IValidate interface, Validate method, IValidate::Validate, Validate method, Validate method, IValidate interface, Validate,IValidate.Validate, evalcom2/IValidate::Validate, setup.ivalidate_validate
 ms.prod: windows-hardware
 ms.technology: windows-devices

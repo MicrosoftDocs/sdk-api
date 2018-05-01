@@ -7,7 +7,7 @@ old-location: termserv\itssbresourcepluginstore_setenvironmentproperty.htm
 old-project: TermServ
 ms.assetid: a120ff15-2d78-4bca-b470-0eb03933a4d9
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: ITsSbResourcePluginStore, ITsSbResourcePluginStore interface [Remote Desktop Services], SetEnvironmentProperty method, ITsSbResourcePluginStore::SetEnvironmentProperty, ITsSbResourcePluginStoreEx interface [Remote Desktop Services], SetEnvironmentProperty method, ITsSbResourcePluginStoreEx::SetEnvironmentProperty, SetEnvironmentProperty method [Remote Desktop Services], SetEnvironmentProperty method [Remote Desktop Services], ITsSbResourcePluginStore interface, SetEnvironmentProperty method [Remote Desktop Services], ITsSbResourcePluginStoreEx interface, SetEnvironmentProperty,ITsSbResourcePluginStore.SetEnvironmentProperty, sbtsv/ITsSbResourcePluginStore::SetEnvironmentProperty, sbtsv/ITsSbResourcePluginStoreEx::SetEnvironmentProperty, termserv.itssbresourcepluginstore_setenvironmentproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITsSbResourcePluginStore::SetEnvironmentProperty method

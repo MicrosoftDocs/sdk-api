@@ -7,7 +7,7 @@ old-location: automat\idispatch_gettypeinfo.htm
 old-project: automat
 ms.assetid: cc1ec9aa-6c40-4e70-819c-a7c6dd6b8c99
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: GetTypeInfo method [Automation], GetTypeInfo method [Automation], IDispatch interface, GetTypeInfo method [Automation], IWebBrowser2 interface, GetTypeInfo,IDispatch.GetTypeInfo, IDispatch, IDispatch interface [Automation], GetTypeInfo method, IDispatch::GetTypeInfo, IWebBrowser2 interface [Automation], GetTypeInfo method, IWebBrowser2::GetTypeInfo, _oa96_IDispatch::GetTypeInfo, automat.idispatch_gettypeinfo, oaidl/IDispatch::GetTypeInfo, oaidl/IWebBrowser2::GetTypeInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IDispatch::GetTypeInfo method

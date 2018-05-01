@@ -59,6 +59,11 @@ The
 
 
 
+### -field spec_mh
+
+General information and length information for the  flowspec object (this structure), expressed as an <a href="https://msdn.microsoft.com/b67fdf53-322b-4a70-ae83-63d4365e9b57">IntServMainHdr</a> structure.
+
+
 ### -field spec_u
 
 Union containing flowspec information.
@@ -80,11 +85,6 @@ Guaranteed service flowspec information, expressed as a <a href="https://msdn.mi
 #### Q_spec
 
 Qualitative application flowspec information, expressed as a <a href="https://msdn.microsoft.com/4e15b094-4250-4699-b66e-6734cf37cbb6">QualAppFlowSpec</a> structure.
-
-
-### -field spec_mh
-
-General information and length information for the  flowspec object (this structure), expressed as an <a href="https://msdn.microsoft.com/b67fdf53-322b-4a70-ae83-63d4365e9b57">IntServMainHdr</a> structure.
 
 
 ## -see-also

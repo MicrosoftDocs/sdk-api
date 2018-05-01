@@ -7,7 +7,7 @@ old-location: rm\drmgetrightinfo.htm
 old-project: AdRms_Sdk
 ms.assetid: 54581da2-d3d1-44ee-936a-568b7d66143b
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/11/2018
 ms.keywords: DRMGetRightInfo, DRMGetRightInfo function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetRightInfo, rm.drmgetrightinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

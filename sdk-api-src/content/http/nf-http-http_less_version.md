@@ -7,7 +7,7 @@ old-location: http\http_less_version.htm
 old-project: Http
 ms.assetid: 3a6486ad-04cb-416f-be5e-bd8f401b0836
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: HTTP_LESS_VERSION, HTTP_LESS_VERSION macro [HTTP], _http_http_less_version, http.http_less_version, http/HTTP_LESS_VERSION
 ms.prod: windows-hardware
 ms.technology: windows-devices

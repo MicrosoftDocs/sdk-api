@@ -7,7 +7,7 @@ old-location: controls\ITextFont_SetBackColor.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setbackcolor.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextFont, ITextFont interface [Windows Controls], SetBackColor method, ITextFont::SetBackColor, SetBackColor method [Windows Controls], SetBackColor method [Windows Controls], ITextFont interface, SetBackColor,ITextFont.SetBackColor, _win32_ITextFont_SetBackColor, _win32_ITextFont_SetBackColor_cpp, controls.ITextFont_SetBackColor, controls._win32_ITextFont_SetBackColor, tom/ITextFont::SetBackColor
 ms.prod: windows-hardware
 ms.technology: windows-devices

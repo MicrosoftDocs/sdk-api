@@ -7,7 +7,7 @@ old-location: wmp\iwmplibrarysharingservices_showlibrarysharing.htm
 old-project: WMP
 ms.assetid: 87c335ee-c9af-4182-a460-118c53308dad
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPLibrarySharingServices, IWMPLibrarySharingServices interface [Windows Media Player], showLibrarySharing method, IWMPLibrarySharingServices::showLibrarySharing, IWMPLibrarySharingServicesshowLibrarySharing, showLibrarySharing method [Windows Media Player], showLibrarySharing method [Windows Media Player], IWMPLibrarySharingServices interface, showLibrarySharing,IWMPLibrarySharingServices.showLibrarySharing, wmp.iwmplibrarysharingservices_showlibrarysharing, wmp/IWMPLibrarySharingServices::showLibrarySharing
 ms.prod: windows-hardware
 ms.technology: windows-devices

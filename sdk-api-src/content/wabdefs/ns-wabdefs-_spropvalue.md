@@ -7,7 +7,7 @@ old-location: wab\_wab_SPropValue.htm
 old-project: wab
 ms.assetid: VS|wab|~\wab\reference\structures\spropvalue.htm
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 4/3/2018
 ms.keywords: "*LPSPropValue, SPropProblem, SPropProblem structure [Windows Address Book], SPropValue, SPropValue structure [Windows Address Book], _SPropValue, _wab_SPropValue, wab._wab_SPropValue, wabdefs/SPropValue"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -56,6 +56,18 @@ Do not use. Contains the property tag values.
 ## -struct-fields
 
 
+
+
+### -field ulPropTag
+
+Type: <b>ULONG</b>
+
+Variable of type <b>ULONG</b> that specifies the property tag for the property. Property tags are 32-bit unsigned integers consisting of the property's unique identifier in the high-order 16 bits and the property's type in the low-order 16 bits.
+
+
+### -field dwAlignPad
+
+Type: <b>ULONG</b>
 
 
 ### -field Value
@@ -292,14 +304,4 @@ PT_NULL, PT_OBJECT (no usable value)
  
 
 
-### -field ulPropTag
-
-Type: <b>ULONG</b>
-
-Variable of type <b>ULONG</b> that specifies the property tag for the property. Property tags are 32-bit unsigned integers consisting of the property's unique identifier in the high-order 16 bits and the property's type in the low-order 16 bits.
-
-
-### -field dwAlignPad
-
-Type: <b>ULONG</b>
 

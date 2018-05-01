@@ -7,7 +7,7 @@ old-location: search\_search_IQuerySolution_GetLexicalData.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iquerysolution\getlexicaldata.htm
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/24/2018
 ms.keywords: GetLexicalData method [search], GetLexicalData method [search], IQuerySolution interface, GetLexicalData,IQuerySolution.GetLexicalData, IQuerySolution, IQuerySolution interface [search], GetLexicalData method, IQuerySolution::GetLexicalData, _search_IQuerySolution_GetLexicalData, search._search_IQuerySolution_GetLexicalData, structuredquery/IQuerySolution::GetLexicalData
 ms.prod: windows-hardware
 ms.technology: windows-devices

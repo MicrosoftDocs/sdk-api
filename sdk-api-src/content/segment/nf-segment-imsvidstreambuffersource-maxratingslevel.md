@@ -7,7 +7,7 @@ old-location: mstv\imsvidstreambuffersource_maxratingslevel.htm
 old-project: mstv
 ms.assetid: 74dbb008-21c9-4651-8386-761626b7bf19
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidStreamBufferSource, IMSVidStreamBufferSource interface [Microsoft TV Technologies], MaxRatingsLevel method, IMSVidStreamBufferSource::MaxRatingsLevel, IMSVidStreamBufferSourceMaxRatingsLevel, MaxRatingsLevel method [Microsoft TV Technologies], MaxRatingsLevel method [Microsoft TV Technologies], IMSVidStreamBufferSource interface, MaxRatingsLevel,IMSVidStreamBufferSource.MaxRatingsLevel, mstv.imsvidstreambuffersource_maxratingslevel, segment/IMSVidStreamBufferSource::MaxRatingsLevel
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidStreamBufferSource::MaxRatingsLevel method

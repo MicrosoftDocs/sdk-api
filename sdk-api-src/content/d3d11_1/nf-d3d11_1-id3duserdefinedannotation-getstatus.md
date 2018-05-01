@@ -7,7 +7,7 @@ old-location: direct3d11\id3duserdefinedannotation_getstatus.htm
 old-project: direct3d11
 ms.assetid: 67C95617-3454-4457-AB3B-FD79C176E314
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/6/2018
 ms.keywords: GetStatus method [Direct3D 11], GetStatus method [Direct3D 11], ID3DUserDefinedAnnotation interface, GetStatus,ID3DUserDefinedAnnotation.GetStatus, ID3DUserDefinedAnnotation, ID3DUserDefinedAnnotation interface [Direct3D 11], GetStatus method, ID3DUserDefinedAnnotation::GetStatus, d3d11_1/ID3DUserDefinedAnnotation::GetStatus, direct3d11.id3duserdefinedannotation_getstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

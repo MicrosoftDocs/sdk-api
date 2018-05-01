@@ -7,7 +7,7 @@ old-location: security\icspstatus_cspinformation.htm
 old-project: SecCertEnroll
 ms.assetid: 9e9202ad-086e-493b-8830-0a0f8980cec5
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: CspInformation property [Security], CspInformation property [Security], ICspStatus interface, ICspStatus, ICspStatus interface [Security], CspInformation property, ICspStatus.CspInformation, ICspStatus::get_CspInformation, certenroll/ICspStatus::CspInformation, certenroll/ICspStatus::get_CspInformation, get_CspInformation,ICspStatus.get_CspInformation, security.icspstatus_cspinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

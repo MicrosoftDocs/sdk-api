@@ -7,7 +7,7 @@ old-location: shell\IBrowserService2_ReleaseShellView.htm
 old-project: shell
 ms.assetid: 722aee91-6a30-4818-95aa-ecb88b5ef215
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IBrowserService2, IBrowserService2 interface [Windows Shell], ReleaseShellView method, IBrowserService2::ReleaseShellView, ReleaseShellView method [Windows Shell], ReleaseShellView method [Windows Shell], IBrowserService2 interface, ReleaseShellView,IBrowserService2.ReleaseShellView, shdeprecated/IBrowserService2::ReleaseShellView, shell.IBrowserService2_ReleaseShellView, zone_IBrowserService2_ReleaseShellView
 ms.prod: windows-hardware
 ms.technology: windows-devices

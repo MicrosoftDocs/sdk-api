@@ -7,7 +7,7 @@ old-location: search\_search_IEntity_Base.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ientity\base.htm
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/24/2018
 ms.keywords: Base method [search], Base method [search], IEntity interface, Base,IEntity.Base, IEntity, IEntity interface [search], Base method, IEntity::Base, _search_IEntity_Base, search._search_IEntity_Base, structuredquery/IEntity::Base
 ms.prod: windows-hardware
 ms.technology: windows-devices

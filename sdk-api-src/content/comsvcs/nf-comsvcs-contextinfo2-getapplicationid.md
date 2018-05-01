@@ -7,7 +7,7 @@ old-location: cos\contextinfo2_getapplicationid.htm
 old-project: cossdk
 ms.assetid: 9fc5cffe-a532-4084-8b6c-9812a5b117b2
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: ContextInfo2, ContextInfo2 interface [COM+], GetApplicationId method, ContextInfo2::GetApplicationId, GetApplicationId method [COM+], GetApplicationId method [COM+], ContextInfo2 interface, GetApplicationId,ContextInfo2.GetApplicationId, _cos_ContextInfo2_GetApplicationId, comsvcs/ContextInfo2::GetApplicationId, cos.contextinfo2_getapplicationid
 ms.prod: windows-hardware
 ms.technology: windows-devices

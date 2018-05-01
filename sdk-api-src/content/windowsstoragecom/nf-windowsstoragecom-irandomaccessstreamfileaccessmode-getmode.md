@@ -7,7 +7,7 @@ old-location: winrt\irandomaccessstreamfileaccessmode_getmode.htm
 old-project: WinRT
 ms.assetid: F542C4E4-5B65-4909-AF08-C129297A1085
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/24/2018
 ms.keywords: GetMode method [Windows Runtime], GetMode method [Windows Runtime], IRandomAccessStreamFileAccessMode interface, GetMode,IRandomAccessStreamFileAccessMode.GetMode, IRandomAccessStreamFileAccessMode, IRandomAccessStreamFileAccessMode interface [Windows Runtime], GetMode method, IRandomAccessStreamFileAccessMode::GetMode, windowsstoragecom/IRandomAccessStreamFileAccessMode::GetMode, winrt.irandomaccessstreamfileaccessmode_getmode
 ms.prod: windows-hardware
 ms.technology: windows-devices

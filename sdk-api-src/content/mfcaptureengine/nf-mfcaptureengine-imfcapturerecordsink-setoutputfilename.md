@@ -7,7 +7,7 @@ old-location: mf\imfcapturerecordsink_setoutputfilename.htm
 old-project: medfound
 ms.assetid: 96BEE09C-1B17-4857-B0DC-553D14B908E7
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFCaptureRecordSink, IMFCaptureRecordSink interface [Media Foundation], SetOutputFileName method, IMFCaptureRecordSink::SetOutputFileName, SetOutputFileName method [Media Foundation], SetOutputFileName method [Media Foundation], IMFCaptureRecordSink interface, SetOutputFileName,IMFCaptureRecordSink.SetOutputFileName, mf.imfcapturerecordsink_setoutputfilename, mfcaptureengine/IMFCaptureRecordSink::SetOutputFileName
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\isignercertificates_count_property.htm
 old-project: SecCertEnroll
 ms.assetid: 4cd4c71a-2fb3-4a47-bd86-e69a08890a09
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: Count property [Security], Count property [Security], ISignerCertificates interface, ISignerCertificates, ISignerCertificates interface [Security], Count property, ISignerCertificates.Count, ISignerCertificates::get_Count, certenroll/ISignerCertificates::Count, certenroll/ISignerCertificates::get_Count, get_Count,ISignerCertificates.get_Count, security.isignercertificates_count_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

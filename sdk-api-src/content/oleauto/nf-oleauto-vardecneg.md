@@ -7,7 +7,7 @@ old-location: automat\vardecneg.htm
 old-project: automat
 ms.assetid: c2c43a6c-6c9d-4d97-a003-96e3fea46e5e
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: VarDecNeg, VarDecNeg function [Automation], _oa96_VarDecNeg, automat.vardecneg, oleauto/VarDecNeg
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # VarDecNeg function

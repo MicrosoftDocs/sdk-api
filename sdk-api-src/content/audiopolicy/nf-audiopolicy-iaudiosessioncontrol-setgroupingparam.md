@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiosessioncontrol_setgroupingparam.htm
 old-project: CoreAudio
 ms.assetid: 990bebd9-c37d-4f72-b349-a43a074d8992
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: IAudioSessionControl, IAudioSessionControl interface [Core Audio], SetGroupingParam method, IAudioSessionControl::SetGroupingParam, IAudioSessionControlSetGroupingParam, SetGroupingParam method [Core Audio], SetGroupingParam method [Core Audio], IAudioSessionControl interface, SetGroupingParam,IAudioSessionControl.SetGroupingParam, audiopolicy/IAudioSessionControl::SetGroupingParam, coreaudio.iaudiosessioncontrol_setgroupingparam
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: AE_CURRENT_POSITION, *PAE_CURRENT_POSITION
+req.typenames: UNCOMPRESSEDAUDIOFORMAT
 topic_type:
 -	APIRef
 -	kbSyntax

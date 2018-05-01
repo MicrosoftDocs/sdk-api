@@ -7,7 +7,7 @@ old-location: dshow\iamnetshowpreroll_put_preroll.htm
 old-project: DirectShow
 ms.assetid: 3296f0ab-2be8-4693-99bd-5dae0672df26
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMNetShowPreroll, IAMNetShowPreroll interface [DirectShow], put_Preroll method, IAMNetShowPreroll::put_Preroll, IAMNetShowPrerollput_Preroll, dshow.iamnetshowpreroll_put_preroll, put_Preroll method [DirectShow], put_Preroll method [DirectShow], IAMNetShowPreroll interface, put_Preroll,IAMNetShowPreroll.put_Preroll, qnetwork/IAMNetShowPreroll::put_Preroll
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IAMNetShowPreroll::put_Preroll method

@@ -7,7 +7,7 @@ old-location: appxpkg\iappxfactory_createpackagereader.htm
 old-project: appxpkg
 ms.assetid: 60C9781F-A1EE-4EAA-9CD5-32692F3E063D
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/26/2018
 ms.keywords: CreatePackageReader method [App packaging and management], CreatePackageReader method [App packaging and management], IAppxFactory interface, CreatePackageReader,IAppxFactory.CreatePackageReader, IAppxFactory, IAppxFactory interface [App packaging and management], CreatePackageReader method, IAppxFactory::CreatePackageReader, appxpackaging/IAppxFactory::CreatePackageReader, appxpkg.iappxfactory_createpackagereader
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_ARCHITECTURE2
+req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
 topic_type:
 -	APIRef
 -	kbSyntax

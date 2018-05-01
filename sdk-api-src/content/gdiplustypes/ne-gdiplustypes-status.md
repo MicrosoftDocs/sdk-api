@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_ENUM_Status.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\status.htm
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/5/2018
 ms.keywords: Aborted, AccessDenied, FileNotFound, FontFamilyNotFound, FontStyleNotFound, GdiplusNotInitialized, GenericError, InsufficientBuffer, InvalidParameter, NotImplemented, NotTrueTypeFont, ObjectBusy, Ok, OutOfMemory, ProfileNotFound, PropertyNotFound, PropertyNotSupported, Status, Status enumeration [GDI+], UnknownImageFormat, UnsupportedGdiplusVersion, ValueOverflow, Win32Error, WrongState, _gdiplus_ENUM_Status, gdiplus._gdiplus_ENUM_Status, gdiplustypes/Aborted, gdiplustypes/AccessDenied, gdiplustypes/FileNotFound, gdiplustypes/FontFamilyNotFound, gdiplustypes/FontStyleNotFound, gdiplustypes/GdiplusNotInitialized, gdiplustypes/GenericError, gdiplustypes/InsufficientBuffer, gdiplustypes/InvalidParameter, gdiplustypes/NotImplemented, gdiplustypes/NotTrueTypeFont, gdiplustypes/ObjectBusy, gdiplustypes/Ok, gdiplustypes/OutOfMemory, gdiplustypes/ProfileNotFound, gdiplustypes/PropertyNotFound, gdiplustypes/PropertyNotSupported, gdiplustypes/Status, gdiplustypes/UnknownImageFormat, gdiplustypes/UnsupportedGdiplusVersion, gdiplustypes/ValueOverflow, gdiplustypes/Win32Error, gdiplustypes/WrongState
 ms.prod: windows-hardware
 ms.technology: windows-devices

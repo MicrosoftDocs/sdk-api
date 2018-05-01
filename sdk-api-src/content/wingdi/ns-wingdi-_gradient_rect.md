@@ -7,7 +7,7 @@ old-location: gdi\gradient_rect.htm
 old-project: gdi
 ms.assetid: 8660114a-423f-40a8-b113-e0304bb0f383
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/17/2018
 ms.keywords: "*LPGRADIENT_RECT, *PGRADIENT_RECT, GRADIENT_RECT, GRADIENT_RECT structure [Windows GDI], PGRADIENT_RECT, PGRADIENT_RECT structure pointer [Windows GDI], _GRADIENT_RECT, _win32_GRADIENT_RECT_str, gdi.gradient_rect, wingdi/GRADIENT_RECT, wingdi/PGRADIENT_RECT"
 ms.prod: windows-hardware
 ms.technology: windows-devices

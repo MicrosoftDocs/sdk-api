@@ -7,7 +7,7 @@ old-location: winrt\ipdfrenderernative.htm
 old-project: WinRT
 ms.assetid: 96a00afb-e957-4e49-8f30-d6a3d639680f
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/24/2018
 ms.keywords: IPdfRendererNative, IPdfRendererNative interface [Windows Runtime], IPdfRendererNative interface [Windows Runtime], described, windows/IPdfRendererNative, winrt.ipdfrenderernative
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: DOT11_BSSID_LIST, *PDOT11_BSSID_LIST
+req.typenames: IP6_ADDRESS, *PIP6_ADDRESS
 topic_type:
 -	APIRef
 -	kbSyntax

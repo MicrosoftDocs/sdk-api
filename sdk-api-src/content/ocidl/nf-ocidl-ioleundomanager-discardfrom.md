@@ -7,7 +7,7 @@ old-location: com\ioleundomanager_discardfrom.htm
 old-project: com
 ms.assetid: eb742d04-63cb-4505-bc91-8d87267a3a4a
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: DiscardFrom method [COM], DiscardFrom method [COM], IOleUndoManager interface, DiscardFrom,IOleUndoManager.DiscardFrom, IOleUndoManager, IOleUndoManager interface [COM], DiscardFrom method, IOleUndoManager::DiscardFrom, _ole_ioleundomanager_discardfrom, com.ioleundomanager_discardfrom, ocidl/IOleUndoManager::DiscardFrom
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IOleUndoManager::DiscardFrom method

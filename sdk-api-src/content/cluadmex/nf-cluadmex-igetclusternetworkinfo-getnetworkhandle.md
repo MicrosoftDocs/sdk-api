@@ -7,7 +7,7 @@ old-location: mscs\igetclusternetworkinfo_getnetworkhandle.htm
 old-project: MsCS
 ms.assetid: 596ebdb3-c4c1-4186-ac6b-e6a7d4a61688
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: GetNetworkHandle method [Failover Cluster], GetNetworkHandle method [Failover Cluster], IGetClusterNetworkInfo interface, GetNetworkHandle,IGetClusterNetworkInfo.GetNetworkHandle, IGetClusterNetworkInfo, IGetClusterNetworkInfo interface [Failover Cluster], GetNetworkHandle method, IGetClusterNetworkInfo::GetNetworkHandle, _wolf_igetclusternetworkinfo_getnetworkhandle, cluadmex/IGetClusterNetworkInfo::GetNetworkHandle, mscs.igetclusternetworkinfo_getnetworkhandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: LOG_MANAGEMENT_CALLBACKS, *PLOG_MANAGEMENT_CALLBACKS
+req.typenames: Sources
 topic_type:
 -	APIRef
 -	kbSyntax

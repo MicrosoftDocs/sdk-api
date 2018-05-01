@@ -7,7 +7,7 @@ old-location: ics\inetfwrule_action.htm
 old-project: ICS
 ms.assetid: 95c30965-7394-42d8-9e9b-2adb4e5e2986
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: Action property [ICS/ICF], Action property [ICS/ICF], INetFwRule interface, INetFwRule, INetFwRule interface [ICS/ICF], Action property, INetFwRule.Action, INetFwRule::get_Action, INetFwRule::put_Action, ics.inetfwrule_action, netfw/INetFwRule::Action, netfw/INetFwRule::get_Action, netfw/INetFwRule::put_Action, put_Action,INetFwRule.put_Action
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: 
 req.dll: FirewallAPI.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # INetFwRule::put_Action method

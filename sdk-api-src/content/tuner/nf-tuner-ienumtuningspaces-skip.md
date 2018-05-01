@@ -7,7 +7,7 @@ old-location: mstv\ienumtuningspaces_skip.htm
 old-project: mstv
 ms.assetid: 5449fca0-4b8d-402e-b444-e7bc314e47b3
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IEnumTuningSpaces, IEnumTuningSpaces interface [Microsoft TV Technologies], Skip method, IEnumTuningSpaces::Skip, IEnumTuningSpacesSkip, Skip method [Microsoft TV Technologies], Skip method [Microsoft TV Technologies], IEnumTuningSpaces interface, Skip,IEnumTuningSpaces.Skip, mstv.ienumtuningspaces_skip, tuner/IEnumTuningSpaces::Skip
 ms.prod: windows-hardware
 ms.technology: windows-devices

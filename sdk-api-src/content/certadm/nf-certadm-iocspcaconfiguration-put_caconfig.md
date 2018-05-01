@@ -7,7 +7,7 @@ old-location: security\iocspcaconfiguration_caconfig.htm
 old-project: SecCrypto
 ms.assetid: 642f8d0b-8dae-41a7-a87c-2b55d1034328
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: CAConfig property [Security], CAConfig property [Security], IOCSPCAConfiguration interface, IOCSPCAConfiguration, IOCSPCAConfiguration interface [Security], CAConfig property, IOCSPCAConfiguration.CAConfig, IOCSPCAConfiguration::get_CAConfig, IOCSPCAConfiguration::put_CAConfig, certadm/IOCSPCAConfiguration::CAConfig, certadm/IOCSPCAConfiguration::get_CAConfig, certadm/IOCSPCAConfiguration::put_CAConfig, put_CAConfig,IOCSPCAConfiguration.put_CAConfig, security.iocspcaconfiguration_caconfig
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CHANNEL_ENTRY_POINTS, *PCHANNEL_ENTRY_POINTS
+req.typenames: 
 topic_type:
 -	APIRef
 -	kbSyntax

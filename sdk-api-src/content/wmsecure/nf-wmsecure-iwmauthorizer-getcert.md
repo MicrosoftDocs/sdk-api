@@ -7,7 +7,7 @@ old-location: wmformat\iwmauthorizer_getcert.htm
 old-project: wmformat
 ms.assetid: e165356c-b14b-47dc-b046-a74499251cab
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: GetCert method [windows Media Format], GetCert method [windows Media Format], IWMAuthorizer interface, GetCert,IWMAuthorizer.GetCert, IWMAuthorizer, IWMAuthorizer interface [windows Media Format], GetCert method, IWMAuthorizer::GetCert, wmformat.iwmauthorizer_getcert, wmsecure/IWMAuthorizer::GetCert
 ms.prod: windows-hardware
 ms.technology: windows-devices

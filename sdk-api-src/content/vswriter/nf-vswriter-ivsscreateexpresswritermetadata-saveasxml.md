@@ -7,7 +7,7 @@ old-location: base\ivsscreateexpresswritermetadata_saveasxml.htm
 old-project: VSS
 ms.assetid: c2a1ba98-74a1-4944-ac31-fec364060a75
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: IVssCreateExpressWriterMetadata, IVssCreateExpressWriterMetadata interface, SaveAsXML method, IVssCreateExpressWriterMetadata::SaveAsXML, SaveAsXML method, SaveAsXML method, IVssCreateExpressWriterMetadata interface, SaveAsXML,IVssCreateExpressWriterMetadata.SaveAsXML, base.ivsscreateexpresswritermetadata_saveasxml, vswriter/IVssCreateExpressWriterMetadata::SaveAsXML
 ms.prod: windows-hardware
 ms.technology: windows-devices

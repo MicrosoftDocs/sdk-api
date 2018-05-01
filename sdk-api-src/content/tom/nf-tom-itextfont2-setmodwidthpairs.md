@@ -7,7 +7,7 @@ old-location: controls\itextfont2_setmodwidthpairs.htm
 old-project: Controls
 ms.assetid: 60117c84-18f9-49db-8d13-b55576874d2b
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextFont2, ITextFont2 interface [Windows Controls], SetModWidthPairs method, ITextFont2::SetModWidthPairs, SetModWidthPairs method [Windows Controls], SetModWidthPairs method [Windows Controls], ITextFont2 interface, SetModWidthPairs,ITextFont2.SetModWidthPairs, controls.itextfont2_setmodwidthpairs, tom/ITextFont2::SetModWidthPairs
 ms.prod: windows-hardware
 ms.technology: windows-devices

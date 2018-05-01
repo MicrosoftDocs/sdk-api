@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IRawElementProviderSimple_GetPropertyValue.htm
 old-project: WinAuto
 ms.assetid: 029ea063-009d-4b54-978a-4183454b2d66
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: GetPropertyValue method [Windows Accessibility], GetPropertyValue method [Windows Accessibility], IRawElementProviderSimple interface, GetPropertyValue,IRawElementProviderSimple.GetPropertyValue, IRawElementProviderSimple, IRawElementProviderSimple interface [Windows Accessibility], GetPropertyValue method, IRawElementProviderSimple::GetPropertyValue, uiauto.uiauto_IRawElementProviderSimple_GetPropertyValue, uiauto_IRawElementProviderSimple_GetPropertyValue, uiautomationcore/IRawElementProviderSimple::GetPropertyValue, winauto.uiauto_IRawElementProviderSimple_GetPropertyValue
 ms.prod: windows-hardware
 ms.technology: windows-devices

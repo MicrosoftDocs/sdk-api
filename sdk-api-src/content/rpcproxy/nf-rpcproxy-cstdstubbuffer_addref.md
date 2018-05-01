@@ -7,7 +7,7 @@ old-location: rpc\cstdstubbuffer_addref.htm
 old-project: Rpc
 ms.assetid: 4dbef7a0-6332-4307-8d22-40414a1df4f5
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: CStdStubBuffer_AddRef, CStdStubBuffer_AddRef function [RPC], rpc.cstdstubbuffer_addref, rpcproxy/CStdStubBuffer_AddRef
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: RpcRT4.lib
 req.dll: RpcRT4.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # CStdStubBuffer_AddRef function

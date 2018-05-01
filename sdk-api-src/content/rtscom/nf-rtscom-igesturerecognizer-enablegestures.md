@@ -7,7 +7,7 @@ old-location: tablet\igesturerecognizer_enablegestures.htm
 old-project: tablet
 ms.assetid: 59d39c2c-1c92-4325-b534-36b97a7df20f
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: 59d39c2c-1c92-4325-b534-36b97a7df20f, EnableGestures method [Tablet PC], EnableGestures method [Tablet PC], IGestureRecognizer interface, EnableGestures,IGestureRecognizer.EnableGestures, IGestureRecognizer, IGestureRecognizer interface [Tablet PC], EnableGestures method, IGestureRecognizer::EnableGestures, rtscom/IGestureRecognizer::EnableGestures, tablet.igesturerecognizer_enablegestures
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: RTSCom.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IGestureRecognizer::EnableGestures method

@@ -7,7 +7,7 @@ old-location: termserv\itssbresourcepluginstore_testandsetserverstate.htm
 old-project: TermServ
 ms.assetid: 5b209587-090e-4338-95b3-542e50412587
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: ITsSbResourcePluginStore, ITsSbResourcePluginStore interface [Remote Desktop Services], TestAndSetServerState method, ITsSbResourcePluginStore::TestAndSetServerState, TestAndSetServerState method [Remote Desktop Services], TestAndSetServerState method [Remote Desktop Services], ITsSbResourcePluginStore interface, TestAndSetServerState,ITsSbResourcePluginStore.TestAndSetServerState, sbtsv/ITsSbResourcePluginStore::TestAndSetServerState, termserv.itssbresourcepluginstore_testandsetserverstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITsSbResourcePluginStore::TestAndSetServerState method

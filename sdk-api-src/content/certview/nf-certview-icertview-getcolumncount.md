@@ -7,7 +7,7 @@ old-location: security\icertview2_getcolumncount.htm
 old-project: SecCrypto
 ms.assetid: 0297d8e3-5077-40da-88b7-adac252e0f1b
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: CCertView object [Security], GetColumnCount method, CVRC_COLUMN_MASK, CVRC_COLUMN_RESULT, CVRC_COLUMN_SCHEMA, CVRC_COLUMN_VALUE, GetColumnCount method [Security], GetColumnCount method [Security], CCertView object, GetColumnCount method [Security], ICertView interface, GetColumnCount method [Security], ICertView2 interface, GetColumnCount,ICertView.GetColumnCount, ICertView, ICertView interface [Security], GetColumnCount method, ICertView2 interface [Security], GetColumnCount method, ICertView2::GetColumnCount, ICertView::GetColumnCount, certview/ICertView2::GetColumnCount, certview/ICertView::GetColumnCount, security.icertview2_getcolumncount
 ms.prod: windows-hardware
 ms.technology: windows-devices

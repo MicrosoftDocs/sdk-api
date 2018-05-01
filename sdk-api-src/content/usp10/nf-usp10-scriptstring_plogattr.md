@@ -7,7 +7,7 @@ old-location: intl\scriptstring_plogattr.htm
 old-project: Intl
 ms.assetid: ff898c79-2d37-4c0b-af83-2322ab7cf656
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/25/2018
 ms.keywords: ScriptString_pLogAttr, ScriptString_pLogAttr function [Internationalization for Windows Applications], _win32_ScriptString_pLogAttr, intl.scriptstring_plogattr, usp10/ScriptString_pLogAttr
 ms.prod: windows-hardware
 ms.technology: windows-devices

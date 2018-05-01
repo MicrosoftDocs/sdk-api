@@ -7,7 +7,7 @@ old-location: base\pwm_pin_is_started_output.htm
 old-project: DevIO
 ms.assetid: 07D76F8D-C5B5-4500-BFA2-452989868027
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/3/2018
 ms.keywords: PWM_PIN_IS_STARTED_OUTPUT, PWM_PIN_IS_STARTED_OUTPUT structure, _PWM_PIN_IS_STARTED_OUTPUT, base.pwm_pin_is_started_output, pwm/PWM_PIN_IS_STARTED_OUTPUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _PWM_PIN_IS_STARTED_OUTPUT structure

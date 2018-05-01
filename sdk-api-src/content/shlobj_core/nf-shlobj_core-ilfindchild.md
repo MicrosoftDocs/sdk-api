@@ -7,7 +7,7 @@ old-location: shell\ILFindChild.htm
 old-project: shell
 ms.assetid: 4f07e989-ae74-4cf4-b3d9-0f59f2653095
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ILFindChild, ILFindChild function [Windows Shell], _win32_ILFindChild, shell.ILFindChild, shlobj_core/ILFindChild
 ms.prod: windows-hardware
 ms.technology: windows-devices

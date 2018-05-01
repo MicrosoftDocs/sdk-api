@@ -7,7 +7,7 @@ old-location: automat\itypelib_releasetlibattr.htm
 old-project: automat
 ms.assetid: a5b9ee66-ab66-4ad9-a6bf-93bd98e3905c
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: ITypeLib, ITypeLib interface [Automation], ReleaseTLibAttr method, ITypeLib::ReleaseTLibAttr, ReleaseTLibAttr method [Automation], ReleaseTLibAttr method [Automation], ITypeLib interface, ReleaseTLibAttr,ITypeLib.ReleaseTLibAttr, _oa96_ITypeLib_ReleaseTLibAttr, automat.itypelib_releasetlibattr, oaidl/ITypeLib::ReleaseTLibAttr
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITypeLib::ReleaseTLibAttr method

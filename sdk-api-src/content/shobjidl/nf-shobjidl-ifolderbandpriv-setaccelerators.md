@@ -7,7 +7,7 @@ old-location: shell\IFolderBandPriv_SetAccelerators.htm
 old-project: shell
 ms.assetid: c8461870-2fe7-49ae-8a8e-c5d929d963e5
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IFolderBandPriv, IFolderBandPriv interface [Windows Shell], SetAccelerators method, IFolderBandPriv::SetAccelerators, SetAccelerators method [Windows Shell], SetAccelerators method [Windows Shell], IFolderBandPriv interface, SetAccelerators,IFolderBandPriv.SetAccelerators, _win32_IFolderBandPriv_SetAccelerators, shell.IFolderBandPriv_SetAccelerators, shobjidl/IFolderBandPriv::SetAccelerators
 ms.prod: windows-hardware
 ms.technology: windows-devices

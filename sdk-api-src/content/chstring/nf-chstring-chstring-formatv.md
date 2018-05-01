@@ -7,7 +7,7 @@ old-location: wmi\chstring_formatv.htm
 old-project: WmiSdk
 ms.assetid: 55488cf0-0098-4d5b-b451-a5d56f30ed65
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: "?FormatV@CHString@@QAEXPBGPAD@Z, ?FormatV@CHString@@QEAAXPEBGPEAD@Z, CHString, CHString interface [Windows Management Instrumentation], FormatV method, CHString::FormatV, FormatV method [Windows Management Instrumentation], FormatV method [Windows Management Instrumentation], CHString interface, FormatV,CHString.FormatV, _hmm_chstring_formatv, chstring/CHString::FormatV, wmi.chstring_formatv"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CF_SYNC_ROOT_STANDARD_INFO
+req.typenames: CF_SYNC_STATUS
 topic_type:
 -	APIRef
 -	kbSyntax

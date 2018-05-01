@@ -7,7 +7,7 @@ old-location: automat\varr8fromdisp.htm
 old-project: automat
 ms.assetid: d342ef5a-eb5f-431a-9ea2-f6361836c92e
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: VarR8FromDisp, VarR8FromDisp function [Automation], _oa96_VarR8FromDisp, automat.varr8fromdisp, oleauto/VarR8FromDisp
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # VarR8FromDisp function

@@ -7,7 +7,7 @@ old-location: mscs\clusterregbatchaddcommand.htm
 old-project: MsCS
 ms.assetid: 3d59e68a-deb3-443f-9d8f-281cdb15e8b6
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: CLUSREG_CREATE_KEY, CLUSREG_DELETE_KEY, CLUSREG_DELETE_VALUE, CLUSREG_SET_VALUE, PCLUSTER_REG_BATCH_ADD_COMMAND, PCLUSTER_REG_BATCH_ADD_COMMAND callback function [Failover Cluster], clusapi/PCLUSTER_REG_BATCH_ADD_COMMAND, mscs.clusterregbatchaddcommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: LOG_MANAGEMENT_CALLBACKS, *PLOG_MANAGEMENT_CALLBACKS
+req.typenames: Sources
 topic_type:
 -	APIRef
 -	kbSyntax

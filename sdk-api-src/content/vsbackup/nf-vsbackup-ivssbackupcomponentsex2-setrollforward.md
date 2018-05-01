@@ -7,7 +7,7 @@ old-location: base\ivssbackupcomponentsex2_setrollforward.htm
 old-project: VSS
 ms.assetid: 9529284f-2150-4d32-af6c-178ba8681945
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: IVssBackupComponentsEx2, IVssBackupComponentsEx2 interface, SetRollForward method, IVssBackupComponentsEx2::SetRollForward, SetRollForward method, SetRollForward method, IVssBackupComponentsEx2 interface, SetRollForward,IVssBackupComponentsEx2.SetRollForward, base.ivssbackupcomponentsex2_setrollforward, vsbackup/IVssBackupComponentsEx2::SetRollForward
 ms.prod: windows-hardware
 ms.technology: windows-devices

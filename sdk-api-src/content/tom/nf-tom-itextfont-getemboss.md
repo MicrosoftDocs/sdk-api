@@ -7,7 +7,7 @@ old-location: controls\ITextFont_GetEmboss.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getemboss.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: GetEmboss method [Windows Controls], GetEmboss method [Windows Controls], ITextFont interface, GetEmboss,ITextFont.GetEmboss, ITextFont, ITextFont interface [Windows Controls], GetEmboss method, ITextFont::GetEmboss, _win32_ITextFont_GetEmboss, _win32_ITextFont_GetEmboss_cpp, controls.ITextFont_GetEmboss, controls._win32_ITextFont_GetEmboss, tom/ITextFont::GetEmboss
 ms.prod: windows-hardware
 ms.technology: windows-devices

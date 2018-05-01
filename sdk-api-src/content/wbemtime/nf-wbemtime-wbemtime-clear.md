@@ -7,7 +7,7 @@ old-location: wmi\wbemtime_clear.htm
 old-project: WmiSdk
 ms.assetid: a6b3db6c-1cc8-4058-8d8b-c8126a373130
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: Clear method [Windows Management Instrumentation], Clear method [Windows Management Instrumentation], WBEMTime interface, Clear,WBEMTime.Clear, WBEMTime, WBEMTime interface [Windows Management Instrumentation], Clear method, WBEMTime::Clear, _hmm_wbemtime_clear, wbemtime/WBEMTime::Clear, wmi.wbemtime_clear
 ms.prod: windows-hardware
 ms.technology: windows-devices

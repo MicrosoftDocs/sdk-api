@@ -7,7 +7,7 @@ old-location: mstv\idvbcontentidentifierdescriptor_getrecordcrid.htm
 old-project: mstv
 ms.assetid: de3593a6-f39c-4c4a-9ddf-1343186d98e3
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetRecordCrid method [Microsoft TV Technologies], GetRecordCrid method [Microsoft TV Technologies], IDvbContentIdentifierDescriptor interface, GetRecordCrid,IDvbContentIdentifierDescriptor.GetRecordCrid, IDvbContentIdentifierDescriptor, IDvbContentIdentifierDescriptor interface [Microsoft TV Technologies], GetRecordCrid method, IDvbContentIdentifierDescriptor::GetRecordCrid, dvbsiparser/IDvbContentIdentifierDescriptor::GetRecordCrid, mstv.idvbcontentidentifierdescriptor_getrecordcrid
 ms.prod: windows-hardware
 ms.technology: windows-devices

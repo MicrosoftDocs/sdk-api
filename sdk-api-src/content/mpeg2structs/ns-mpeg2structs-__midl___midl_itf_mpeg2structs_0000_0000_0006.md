@@ -7,7 +7,7 @@ old-location: mstv\section.htm
 old-project: mstv
 ms.assetid: 6ee07b84-ae97-413f-a3b4-0078ad740194
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: "*PSECTION, PSECTION, PSECTION structure pointer [Microsoft TV Technologies], SECTION, SECTION structure [Microsoft TV Technologies], __MIDL___MIDL_itf_mpeg2structs_0000_0000_0006, mpeg2structs/PSECTION, mpeg2structs/SECTION, mstv.section"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,6 +61,11 @@ The <b>SECTION</b> structure represents a short header from an MPEG-2 table sect
 
 
 
+### -field TableId
+
+Specifies the table identifier (TID) of the section.
+
+
 ### -field Header
 
 A union that contains the following members.
@@ -76,11 +81,6 @@ Contains header bits, as an <b>MPEG_HEADER_BITS_MIDL</b> structure. Applications
 #### W
 
 Contains the header bits as a <b>WORD</b> type. To get the individual bit fields, coerce this member to an <a href="https://msdn.microsoft.com/e25d36af-ee72-4986-8d96-2bce8b19ac80">MPEG_HEADER_BITS</a> structure.
-
-
-### -field TableId
-
-Specifies the table identifier (TID) of the section.
 
 
 ### -field SectionData

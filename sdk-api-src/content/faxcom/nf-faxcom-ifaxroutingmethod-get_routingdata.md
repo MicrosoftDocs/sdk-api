@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxroutingmethod_get_routingdata_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_700x.htm
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/18/2018
 ms.keywords: FaxRoutingMethod object [Fax Service], RoutingData property, IFaxRoutingMethod, IFaxRoutingMethod::get_RoutingData, RoutingData property [Fax Service], RoutingData property [Fax Service], FaxRoutingMethod object, _mfax_ifaxroutingmethod_get_routingdata, fax._mfax_ifaxroutingmethod_get_routingdata, fax._mfax_ifaxroutingmethod_get_routingdata_vb, get_RoutingData,IFaxRoutingMethod.get_RoutingData
 ms.prod: windows-hardware
 ms.technology: windows-devices

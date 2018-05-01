@@ -7,7 +7,7 @@ old-location: rras\mprconfigserverdisconnect.htm
 old-project: RRAS
 ms.assetid: 71cdb26b-e9d0-414c-aff9-0eed187d08ba
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: MprConfigServerDisconnect, MprConfigServerDisconnect function [RAS], _mpr_mprconfigserverdisconnect, mprapi/MprConfigServerDisconnect, rras.mprconfigserverdisconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices

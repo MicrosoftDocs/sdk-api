@@ -7,7 +7,7 @@ old-location: wmformat\iwmpropertyvault_clear.htm
 old-project: wmformat
 ms.assetid: 567d69f3-cebf-4bb7-84df-c843cfc928a5
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: Clear method [windows Media Format], Clear method [windows Media Format], IWMPropertyVault interface, Clear,IWMPropertyVault.Clear, IWMPropertyVault, IWMPropertyVault interface [windows Media Format], Clear method, IWMPropertyVault::Clear, IWMPropertyVaultClear, wmformat.iwmpropertyvault_clear, wmsdkidl/IWMPropertyVault::Clear
 ms.prod: windows-hardware
 ms.technology: windows-devices

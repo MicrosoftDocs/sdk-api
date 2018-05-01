@@ -7,7 +7,7 @@ old-location: tapi3\ienummcastscope_reset.htm
 old-project: Tapi
 ms.assetid: 799ebbdb-b285-40a6-9fd8-39341d39bbf9
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: IEnumMcastScope, IEnumMcastScope interface [TAPI 2.2], Reset method, IEnumMcastScope::Reset, Reset method [TAPI 2.2], Reset method [TAPI 2.2], IEnumMcastScope interface, Reset,IEnumMcastScope.Reset, _tapi3_ienummcastscope_reset, mdhcp/IEnumMcastScope::Reset, tapi3.ienummcastscope_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices

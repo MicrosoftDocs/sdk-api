@@ -7,7 +7,7 @@ old-location: mf\imfpmediaplayer_clearmediaitem.htm
 old-project: medfound
 ms.assetid: 2c2b23ab-b282-445f-a5a0-4291ee6f22ba
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: ClearMediaItem method [Media Foundation], ClearMediaItem method [Media Foundation], IMFPMediaPlayer interface, ClearMediaItem,IMFPMediaPlayer.ClearMediaItem, IMFPMediaPlayer, IMFPMediaPlayer interface [Media Foundation], ClearMediaItem method, IMFPMediaPlayer::ClearMediaItem, mf.imfpmediaplayer_clearmediaitem, mfplay/IMFPMediaPlayer::ClearMediaItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

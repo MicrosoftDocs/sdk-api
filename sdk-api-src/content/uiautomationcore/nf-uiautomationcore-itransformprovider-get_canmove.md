@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ITransformProvider_CanMove.htm
 old-project: WinAuto
 ms.assetid: 82392d66-2a9d-4951-a687-833737d424ec
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: CanMove property [Windows Accessibility], CanMove property [Windows Accessibility], ITransformProvider interface, ITransformProvider, ITransformProvider interface [Windows Accessibility], CanMove property, ITransformProvider.CanMove, ITransformProvider::get_CanMove, get_CanMove,ITransformProvider.get_CanMove, uiauto.uiauto_ITransformProvider_CanMove, uiauto_ITransformProvider_CanMove, uiautomationcore/ITransformProvider::CanMove, uiautomationcore/ITransformProvider::get_CanMove, winauto.uiauto_ITransformProvider_CanMove
 ms.prod: windows-hardware
 ms.technology: windows-devices

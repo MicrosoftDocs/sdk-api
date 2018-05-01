@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyjob1_addfiles.htm
 old-project: Bits
 ms.assetid: 4a9860da-3977-4b97-957f-dd4de1e775cb
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/10/2018
 ms.keywords: AddFiles method [BITS], AddFiles method [BITS], IBackgroundCopyJob1 interface, AddFiles,IBackgroundCopyJob1.AddFiles, IBackgroundCopyJob1, IBackgroundCopyJob1 interface [BITS], AddFiles method, IBackgroundCopyJob1::AddFiles, bits.ibackgroundcopyjob1_addfiles, qmgr/IBackgroundCopyJob1::AddFiles
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: QmgrPrxy.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IBackgroundCopyJob1::AddFiles method

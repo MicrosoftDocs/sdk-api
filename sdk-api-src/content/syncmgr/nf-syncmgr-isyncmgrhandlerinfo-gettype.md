@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrHandlerInfo_GetType.htm
 old-project: shell
 ms.assetid: 466c5bd5-0166-4c0d-801d-a155f20140ce
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetType method [Windows Shell], GetType method [Windows Shell], ISyncMgrHandlerInfo interface, GetType,ISyncMgrHandlerInfo.GetType, ISyncMgrHandlerInfo, ISyncMgrHandlerInfo interface [Windows Shell], GetType method, ISyncMgrHandlerInfo::GetType, _shell_ISyncMgrHandlerInfo_GetType, shell.ISyncMgrHandlerInfo_GetType, syncmgr/ISyncMgrHandlerInfo::GetType
 ms.prod: windows-hardware
 ms.technology: windows-devices

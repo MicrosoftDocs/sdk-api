@@ -7,7 +7,7 @@ old-location: dshow\ivmrmixercontrol_setzorder.htm
 old-project: DirectShow
 ms.assetid: f1ef562e-049c-4edf-a83c-76675e2113c6
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IVMRMixerControl, IVMRMixerControl interface [DirectShow], SetZOrder method, IVMRMixerControl::SetZOrder, IVMRMixerControlSetZOrder, SetZOrder method [DirectShow], SetZOrder method [DirectShow], IVMRMixerControl interface, SetZOrder,IVMRMixerControl.SetZOrder, dshow.ivmrmixercontrol_setzorder, strmif/IVMRMixerControl::SetZOrder
 ms.prod: windows-hardware
 ms.technology: windows-devices

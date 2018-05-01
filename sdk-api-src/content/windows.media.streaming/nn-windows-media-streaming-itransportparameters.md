@@ -7,7 +7,7 @@ old-location: mediastreaming\itransportparameters.htm
 old-project: mediastreaming
 ms.assetid: 4D104C4E-18EE-418F-8D99-3E766A5478F6
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/10/2018
 ms.keywords: ITransportParameters, ITransportParameters interface [Media Streaming API], ITransportParameters interface [Media Streaming API], described, mediastreaming.itransportparameters, windows/ITransportParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: PDF_RENDER_PARAMS
+req.typenames: TimeSpan
 topic_type:
 -	APIRef
 -	kbSyntax

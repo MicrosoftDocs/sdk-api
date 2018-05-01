@@ -7,7 +7,7 @@ old-location: controls\NMTOOLBAR.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\toolbar\structures\nmtoolbar.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: "*LPNMTOOLBARW, LPNMTOOLBAR, LPNMTOOLBAR structure pointer [Windows Controls], NMTOOLBAR, NMTOOLBAR structure [Windows Controls], NMTOOLBARA, NMTOOLBARW, _win32_NMTOOLBAR, _win32_NMTOOLBAR_cpp, commctrl/LPNMTOOLBAR, commctrl/NMTOOLBAR, commctrl/NMTOOLBARA, commctrl/NMTOOLBARW, controls.NMTOOLBAR, controls._win32_NMTOOLBAR, tagNMTOOLBARW"
 ms.prod: windows-hardware
 ms.technology: windows-devices

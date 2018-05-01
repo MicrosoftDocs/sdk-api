@@ -7,7 +7,7 @@ old-location: ics\ienumnetsharingprivateconnection_reset.htm
 old-project: ICS
 ms.assetid: 9d68eccf-eb96-47f9-8ca3-97b7918a52fe
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: IEnumNetSharingPrivateConnection, IEnumNetSharingPrivateConnection interface [ICS/ICF], Reset method, IEnumNetSharingPrivateConnection::Reset, Reset method [ICS/ICF], Reset method [ICS/ICF], IEnumNetSharingPrivateConnection interface, Reset,IEnumNetSharingPrivateConnection.Reset, _ics_ienumnetsharingprivateconnection_reset, ics.ienumnetsharingprivateconnection_reset, netcon/IEnumNetSharingPrivateConnection::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IEnumNetSharingPrivateConnection::Reset method

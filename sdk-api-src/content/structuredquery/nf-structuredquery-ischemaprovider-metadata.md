@@ -7,7 +7,7 @@ old-location: search\_search_ISchemaProvider_MetaData.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ischemaprovider\metadata.htm
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/24/2018
 ms.keywords: ISchemaProvider, ISchemaProvider interface [search], MetaData method, ISchemaProvider::MetaData, MetaData method [search], MetaData method [search], ISchemaProvider interface, MetaData,ISchemaProvider.MetaData, _search_ISchemaProvider_MetaData, search._search_ISchemaProvider_MetaData, structuredquery/ISchemaProvider::MetaData
 ms.prod: windows-hardware
 ms.technology: windows-devices

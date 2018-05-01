@@ -7,7 +7,7 @@ old-location: nwifi\idot11adhocnetworknotificationsink_onconnectfail.htm
 old-project: NativeWiFi
 ms.assetid: b38143c8-4e90-4f5d-b9f5-15bd1fd7e1c5
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/13/2018
 ms.keywords: IDot11AdHocNetworkNotificationSink, IDot11AdHocNetworkNotificationSink interface [NativeWIFI], OnConnectFail method, IDot11AdHocNetworkNotificationSink::OnConnectFail, OnConnectFail method [NativeWIFI], OnConnectFail method [NativeWIFI], IDot11AdHocNetworkNotificationSink interface, OnConnectFail,IDot11AdHocNetworkNotificationSink.OnConnectFail, adhoc/IDot11AdHocNetworkNotificationSink::OnConnectFail, nwifi.idot11adhocnetworknotificationsink_onconnectfail
 ms.prod: windows-hardware
 ms.technology: windows-devices

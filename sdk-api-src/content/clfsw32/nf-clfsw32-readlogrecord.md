@@ -7,7 +7,7 @@ old-location: fs\readlogrecord.htm
 old-project: Clfs
 ms.assetid: 1c56c47b-d898-4c70-ba70-8978057c66b9
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/25/2018
 ms.keywords: ClfsContextForward, ClfsContextPrevious, ClfsContextUndoNext, ReadLogRecord, ReadLogRecord function [Files], clfsw32/ReadLogRecord, fs.readlogrecord
 ms.prod: windows-hardware
 ms.technology: windows-devices

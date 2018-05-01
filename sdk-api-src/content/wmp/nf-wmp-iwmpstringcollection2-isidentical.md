@@ -7,7 +7,7 @@ old-location: wmp\iwmpstringcollection2_isidentical.htm
 old-project: WMP
 ms.assetid: 549fdee8-7cd4-4ceb-8ed1-0de467d6c348
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPStringCollection2, IWMPStringCollection2 interface [Windows Media Player], isIdentical method, IWMPStringCollection2::isIdentical, IWMPStringCollection2isIdentical, isIdentical method [Windows Media Player], isIdentical method [Windows Media Player], IWMPStringCollection2 interface, isIdentical,IWMPStringCollection2.isIdentical, wmp.iwmpstringcollection2_isidentical, wmp/IWMPStringCollection2::isIdentical
 ms.prod: windows-hardware
 ms.technology: windows-devices

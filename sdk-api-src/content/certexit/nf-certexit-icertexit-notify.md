@@ -7,7 +7,7 @@ old-location: security\icertexit2_notify.htm
 old-project: SecCrypto
 ms.assetid: ebe4ef0c-5778-4a62-b112-9b16b250814f
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: CCertExit object [Security], Notify method, EXITEVENT_CERTDENIED, EXITEVENT_CERTISSUED, EXITEVENT_CERTPENDING, EXITEVENT_CERTRETRIEVEPENDING, EXITEVENT_CERTREVOKED, EXITEVENT_CRLISSUED, EXITEVENT_SHUTDOWN, ICertExit, ICertExit interface [Security], Notify method, ICertExit2 interface [Security], Notify method, ICertExit2::Notify, ICertExit::Notify, Notify method [Security], Notify method [Security], CCertExit object, Notify method [Security], ICertExit interface, Notify method [Security], ICertExit2 interface, Notify,ICertExit.Notify, _certsrv_icertexit_notify, certexit/ICertExit2::Notify, certexit/ICertExit::Notify, security.icertexit2_notify
 ms.prod: windows-hardware
 ms.technology: windows-devices

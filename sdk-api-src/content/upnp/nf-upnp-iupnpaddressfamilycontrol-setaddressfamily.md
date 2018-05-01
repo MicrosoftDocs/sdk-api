@@ -7,7 +7,7 @@ old-location: upnp\iupnpaddressfamilycontrol_setaddressfamily.htm
 old-project: UPnP
 ms.assetid: 2b3e5dae-68c0-431b-bef0-fa2bb5f53bdc
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/25/2018
 ms.keywords: IUPnPAddressFamilyControl, IUPnPAddressFamilyControl interface [UPnP APIs], SetAddressFamily method, IUPnPAddressFamilyControl::SetAddressFamily, SetAddressFamily method [UPnP APIs], SetAddressFamily method [UPnP APIs], IUPnPAddressFamilyControl interface, SetAddressFamily,IUPnPAddressFamilyControl.SetAddressFamily, UPNP_ADDRESSFAMILY_BOTH, UPNP_ADDRESSFAMILY_IPv4, UPNP_ADDRESSFAMILY_IPv6, upnp.iupnpaddressfamilycontrol_setaddressfamily, upnp/IUPnPAddressFamilyControl::SetAddressFamily
 ms.prod: windows-hardware
 ms.technology: windows-devices

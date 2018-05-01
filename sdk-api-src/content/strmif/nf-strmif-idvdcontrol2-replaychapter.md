@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol2_replaychapter.htm
 old-project: DirectShow
 ms.assetid: ea1567fc-708f-4dcd-abc2-b5bdc9f6a62c
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IDvdControl2, IDvdControl2 interface [DirectShow], ReplayChapter method, IDvdControl2::ReplayChapter, IDvdControl2ReplayChapter, ReplayChapter method [DirectShow], ReplayChapter method [DirectShow], IDvdControl2 interface, ReplayChapter,IDvdControl2.ReplayChapter, dshow.idvdcontrol2_replaychapter, strmif/IDvdControl2::ReplayChapter
 ms.prod: windows-hardware
 ms.technology: windows-devices

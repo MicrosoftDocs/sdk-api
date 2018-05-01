@@ -7,7 +7,7 @@ old-location: appxpkg\iappxmanifestreader_getdevicecapabilities.htm
 old-project: appxpkg
 ms.assetid: 06257DB1-992E-4A8D-8221-76DA3DF0FA1F
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/26/2018
 ms.keywords: GetDeviceCapabilities method [App packaging and management], GetDeviceCapabilities method [App packaging and management], IAppxManifestReader interface, GetDeviceCapabilities,IAppxManifestReader.GetDeviceCapabilities, IAppxManifestReader, IAppxManifestReader interface [App packaging and management], GetDeviceCapabilities method, IAppxManifestReader::GetDeviceCapabilities, appxpackaging/IAppxManifestReader::GetDeviceCapabilities, appxpkg.iappxmanifestreader_getdevicecapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_ARCHITECTURE2
+req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
 topic_type:
 -	APIRef
 -	kbSyntax

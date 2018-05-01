@@ -7,7 +7,7 @@ old-location: mf\imftimedtextcue_gettrackid.htm
 old-project: medfound
 ms.assetid: 967CA2AC-A36A-4875-9882-6EF4748EC92C
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetTrackId method [Media Foundation], GetTrackId method [Media Foundation], IMFTimedTextCue interface, GetTrackId,IMFTimedTextCue.GetTrackId, IMFTimedTextCue, IMFTimedTextCue interface [Media Foundation], GetTrackId method, IMFTimedTextCue::GetTrackId, mf.imftimedtextcue_gettrackid, mfmediaengine/IMFTimedTextCue::GetTrackId
 ms.prod: windows-hardware
 ms.technology: windows-devices

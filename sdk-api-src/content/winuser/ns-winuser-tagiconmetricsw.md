@@ -52,7 +52,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-Contains the scalable metrics associated with icons. This structure is used with the  <a href="https://msdn.microsoft.com/9b99465c-e12d-413c-8e69-b46b52f2f11f">SystemParametersInfo</a> function when the <b>SPI_GETICONMETRICS</b>  or <b>SPI_SETICONMETRICS</b> action is specified.
+Contains the scalable metrics associated with icons. This structure is used with the  <a href="base.systemparametersinfo">SystemParametersInfo</a> function when the <b>SPI_GETICONMETRICS</b>  or <b>SPI_SETICONMETRICS</b> action is specified.
 
 
 ## -struct-fields
@@ -112,7 +112,7 @@ The font to use for icon titles.
 
 
 
-<a href="https://msdn.microsoft.com/9b99465c-e12d-413c-8e69-b46b52f2f11f">SystemParametersInfo</a>
+<a href="base.systemparametersinfo">SystemParametersInfo</a>
  
 
  

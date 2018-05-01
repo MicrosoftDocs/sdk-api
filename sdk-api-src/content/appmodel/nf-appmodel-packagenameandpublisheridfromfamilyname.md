@@ -7,7 +7,7 @@ old-location: appxpkg\packagenameandpublisheridfromfamilyname.htm
 old-project: appxpkg
 ms.assetid: 4AA5BD75-F865-40D6-9C10-E54C197D47C4
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/26/2018
 ms.keywords: PackageNameAndPublisherIdFromFamilyName, PackageNameAndPublisherIdFromFamilyName function [App packaging and management], appmodel/PackageNameAndPublisherIdFromFamilyName, appxpkg.packagenameandpublisheridfromfamilyname
 ms.prod: windows-hardware
 ms.technology: windows-devices

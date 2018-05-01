@@ -7,7 +7,7 @@ old-location: base\attachthreadinput.htm
 old-project: ProcThread
 ms.assetid: 0c343fab-56ae-4c70-a79e-0c5f827158a3
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: AttachThreadInput, AttachThreadInput function, _win32_attachthreadinput, base.attachthreadinput, winuser/AttachThreadInput
 ms.prod: windows-hardware
 ms.technology: windows-devices

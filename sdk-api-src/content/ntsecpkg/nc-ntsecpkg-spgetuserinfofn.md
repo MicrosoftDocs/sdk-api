@@ -7,7 +7,7 @@ old-location: security\spgetuserinfo.htm
 old-project: SecAuthN
 ms.assetid: ee37fab0-5ee5-4cc5-9fcc-5c74cb0b2b26
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/24/2018
 ms.keywords: NO_LONG_NAMES, SpGetUserInfo, SpGetUserInfo function [Security], SpGetUserInfoFn, UNDERSTANDS_LONG_NAMES, _ssp_spgetuserinfo, ntsecpkg/SpGetUserInfo, security.spgetuserinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # SpGetUserInfoFn callback

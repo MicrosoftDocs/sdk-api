@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationScrollPattern_CurrentVerticalScrollPer
 old-project: WinAuto
 ms.assetid: 45b45faa-a147-4c05-82ca-878d46c71af0
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: CurrentVerticalScrollPercent property [Windows Accessibility], CurrentVerticalScrollPercent property [Windows Accessibility], IUIAutomationScrollPattern interface, IUIAutomationScrollPattern, IUIAutomationScrollPattern interface [Windows Accessibility], CurrentVerticalScrollPercent property, IUIAutomationScrollPattern.CurrentVerticalScrollPercent, IUIAutomationScrollPattern::get_CurrentVerticalScrollPercent, get_CurrentVerticalScrollPercent,IUIAutomationScrollPattern.get_CurrentVerticalScrollPercent, uiauto.uiauto_IUIAutomationScrollPattern_CurrentVerticalScrollPercent, uiauto_IUIAutomationScrollPattern_CurrentVerticalScrollPercent, uiautomationclient/IUIAutomationScrollPattern::CurrentVerticalScrollPercent, uiautomationclient/IUIAutomationScrollPattern::get_CurrentVerticalScrollPercent, winauto.uiauto_IUIAutomationScrollPattern_CurrentVerticalScrollPercent
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicbitmapframeencode_writesource.htm
 old-project: wic
 ms.assetid: bc748982-6dc8-41cc-a23b-9d127dc22a1f
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: IWICBitmapFrameEncode, IWICBitmapFrameEncode interface [Windows Imaging Component], WriteSource method, IWICBitmapFrameEncode::WriteSource, WriteSource method [Windows Imaging Component], WriteSource method [Windows Imaging Component], IWICBitmapFrameEncode interface, WriteSource,IWICBitmapFrameEncode.WriteSource, _wic_codec_iwicbitmapframeencode_writesource, wic._wic_codec_iwicbitmapframeencode_writesource, wincodec/IWICBitmapFrameEncode::WriteSource
 ms.prod: windows-hardware
 ms.technology: windows-devices

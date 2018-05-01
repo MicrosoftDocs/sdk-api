@@ -7,7 +7,7 @@ old-location: p2p\peer_invitation_response_type.htm
 old-project: P2PSdk
 ms.assetid: ad456eb5-a28c-4826-976f-e38e2f269ff0
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/23/2018
 ms.keywords: PEER_INVITATION_RESPONSE_ACCEPTED, PEER_INVITATION_RESPONSE_DECLINED, PEER_INVITATION_RESPONSE_ERROR, PEER_INVITATION_RESPONSE_EXPIRED, PEER_INVITATION_RESPONSE_TYPE, PEER_INVITATION_RESPONSE_TYPE enumeration [Peer Networking], p2p.peer_invitation_response_type, p2p/PEER_INVITATION_RESPONSE_ACCEPTED, p2p/PEER_INVITATION_RESPONSE_DECLINED, p2p/PEER_INVITATION_RESPONSE_ERROR, p2p/PEER_INVITATION_RESPONSE_EXPIRED, p2p/PEER_INVITATION_RESPONSE_TYPE, peer_invitation_response_type_tag
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # peer_invitation_response_type_tag enumeration

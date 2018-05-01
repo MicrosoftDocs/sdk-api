@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3d9ex_createdeviceex.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3d9ex_createdeviceex.htm
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/10/2018
 ms.keywords: CreateDeviceEx method [Direct3D 9], CreateDeviceEx method [Direct3D 9], IDirect3D9Ex interface, CreateDeviceEx,IDirect3D9Ex.CreateDeviceEx, IDirect3D9Ex, IDirect3D9Ex interface [Direct3D 9], CreateDeviceEx method, IDirect3D9Ex::CreateDeviceEx, bf3a239e-48e9-f485-78d3-f075bed4ac3a, d3d9/IDirect3D9Ex::CreateDeviceEx, direct3d9.idirect3d9ex_createdeviceex
 ms.prod: windows-hardware
 ms.technology: windows-devices

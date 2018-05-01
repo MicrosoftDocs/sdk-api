@@ -7,7 +7,7 @@ old-location: secbiomet\winbio_storage_interface.htm
 old-project: SecBioMet
 ms.assetid: 1cc7ce07-66df-43d9-9db2-50558a0f5f47
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: "*PWINBIO_STORAGE_INTERFACE, PWINBIO_STORAGE_INTERFACE, PWINBIO_STORAGE_INTERFACE structure pointer [Windows Biometric Framework API], WINBIO_STORAGE_INTERFACE, WINBIO_STORAGE_INTERFACE structure [Windows Biometric Framework API], _WINBIO_STORAGE_INTERFACE, secbiomet.winbio_storage_interface, winbio_adapter/PWINBIO_STORAGE_INTERFACE, winbio_adapter/WINBIO_STORAGE_INTERFACE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -214,12 +214,12 @@ A pointer to your implementation of the <a href="https://msdn.microsoft.com/BCA5
  
 
 
-### -field GetUserState
+### -field Reserved1
 
  
 
 
-### -field IncrementUserState
+### -field Reserved2
 
  
 

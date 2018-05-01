@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol2_selectangle.htm
 old-project: DirectShow
 ms.assetid: 4acc06bc-efc3-46eb-bb71-4eb981048b36
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IDvdControl2, IDvdControl2 interface [DirectShow], SelectAngle method, IDvdControl2::SelectAngle, IDvdControl2SelectAngle, SelectAngle method [DirectShow], SelectAngle method [DirectShow], IDvdControl2 interface, SelectAngle,IDvdControl2.SelectAngle, dshow.idvdcontrol2_selectangle, strmif/IDvdControl2::SelectAngle
 ms.prod: windows-hardware
 ms.technology: windows-devices

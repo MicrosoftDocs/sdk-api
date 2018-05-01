@@ -7,7 +7,7 @@ old-location: security\icspalgorithm_maxlength_property.htm
 old-project: SecCertEnroll
 ms.assetid: 516afaa4-0317-4f05-87e7-bd614b428ccb
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: ICspAlgorithm, ICspAlgorithm interface [Security], MaxLength property, ICspAlgorithm.MaxLength, ICspAlgorithm::get_MaxLength, MaxLength property [Security], MaxLength property [Security], ICspAlgorithm interface, certenroll/ICspAlgorithm::MaxLength, certenroll/ICspAlgorithm::get_MaxLength, get_MaxLength,ICspAlgorithm.get_MaxLength, security.icspalgorithm_maxlength_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: p2p\peergraphunregisterevent.htm
 old-project: P2PSdk
 ms.assetid: de37bb9a-e1b2-4448-9610-566f77acf542
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/23/2018
 ms.keywords: PeerGraphUnregisterEvent, PeerGraphUnregisterEvent function [Peer Networking], p2p.peergraphunregisterevent, p2p/PeerGraphUnregisterEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: P2PGraph.lib
 req.dll: P2PGraph.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # PeerGraphUnregisterEvent function

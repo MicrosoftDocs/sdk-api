@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopygroup_switchtoforeground.htm
 old-project: Bits
 ms.assetid: 19619a97-b4f2-4609-9b06-bb188e00860c
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/10/2018
 ms.keywords: IBackgroundCopyGroup, IBackgroundCopyGroup interface [BITS], SwitchToForeground method, IBackgroundCopyGroup::SwitchToForeground, SwitchToForeground method [BITS], SwitchToForeground method [BITS], IBackgroundCopyGroup interface, SwitchToForeground,IBackgroundCopyGroup.SwitchToForeground, bits.ibackgroundcopygroup_switchtoforeground, qmgr/IBackgroundCopyGroup::SwitchToForeground
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: QmgrPrxy.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IBackgroundCopyGroup::SwitchToForeground method

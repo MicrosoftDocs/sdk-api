@@ -7,7 +7,7 @@ old-location: wmi\cwbemproviderglue_getinstancebypath.htm
 old-project: WmiSdk
 ms.assetid: 788b5f5f-b300-4c86-afbd-416b938f21c1
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: "?GetInstanceByPath@CWbemProviderGlue@@SAJPEBGPEAPEAVCInstance@@PEAVMethodContext@@@Z, ?GetInstanceByPath@CWbemProviderGlue@@SGJPBGPAPAVCInstance@@PAVMethodContext@@@Z, CWbemProviderGlue, CWbemProviderGlue interface [Windows Management Instrumentation], GetInstanceByPath method, CWbemProviderGlue::GetInstanceByPath, GetInstanceByPath method [Windows Management Instrumentation], GetInstanceByPath method [Windows Management Instrumentation], CWbemProviderGlue interface, GetInstanceByPath,CWbemProviderGlue.GetInstanceByPath, _hmm_cwbemproviderglue_getinstancebypath, wbemglue/CWbemProviderGlue::GetInstanceByPath, wmi.cwbemproviderglue_getinstancebypath"
 ms.prod: windows-hardware
 ms.technology: windows-devices

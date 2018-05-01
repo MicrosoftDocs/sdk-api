@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmcollection_state.htm
 old-project: Fsrm
 ms.assetid: c12c55c1-baff-4810-ad2a-453abb6af5b5
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: IFsrmCollection, IFsrmCollection interface [File Server Resource Manager], State property, IFsrmCollection.State, IFsrmCollection::get_State, State property [File Server Resource Manager], State property [File Server Resource Manager], IFsrmCollection interface, fs.ifsrmcollection_state, fsrm.ifsrmcollection_state, fsrm/IFsrmCollection::State, fsrm/IFsrmCollection::get_State, get_State,IFsrmCollection.get_State
 ms.prod: windows-hardware
 ms.technology: windows-devices

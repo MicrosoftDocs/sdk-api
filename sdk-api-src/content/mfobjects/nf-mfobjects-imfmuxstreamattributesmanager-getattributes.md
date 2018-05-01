@@ -7,7 +7,7 @@ old-location: mf\imfmuxstreamattributesmanager_getattributes.htm
 old-project: medfound
 ms.assetid: 1C00900F-BD8B-4AF7-82E0-37AC370A90E3
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetAttributes method [Media Foundation], GetAttributes method [Media Foundation], IMFMuxStreamAttributesManager interface, GetAttributes,IMFMuxStreamAttributesManager.GetAttributes, IMFMuxStreamAttributesManager, IMFMuxStreamAttributesManager interface [Media Foundation], GetAttributes method, IMFMuxStreamAttributesManager::GetAttributes, mf.imfmuxstreamattributesmanager_getattributes, mfobjects/IMFMuxStreamAttributesManager::GetAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices

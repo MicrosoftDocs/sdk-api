@@ -7,7 +7,7 @@ old-location: tablet\imathinputcontrol_setownerwindow.htm
 old-project: tablet
 ms.assetid: 2f92f731-3297-4da3-a2b9-18e1583c8b1d
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: IMathInputControl, IMathInputControl interface [Tablet PC], SetOwnerWindow method, IMathInputControl::SetOwnerWindow, SetOwnerWindow method [Tablet PC], SetOwnerWindow method [Tablet PC], IMathInputControl interface, SetOwnerWindow,IMathInputControl.SetOwnerWindow, micaut/IMathInputControl::SetOwnerWindow, tablet.imathinputcontrol_setownerwindow
 ms.prod: windows-hardware
 ms.technology: windows-devices

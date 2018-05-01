@@ -7,7 +7,7 @@ old-location: automat\numparse.htm
 old-project: automat
 ms.assetid: d55034ff-4407-40ba-bee3-8e82cd5c497e
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: NUMPARSE, NUMPARSE structure [Automation], NUMPRS_CURRENCY, NUMPRS_DECIMAL, NUMPRS_EXPONENT, NUMPRS_HEX_OCT, NUMPRS_INEXACT, NUMPRS_LEADING_MINUS, NUMPRS_LEADING_PLUS, NUMPRS_LEADING_WHITE, NUMPRS_NEG, NUMPRS_PARENS, NUMPRS_STD, NUMPRS_THOUSANDS, NUMPRS_TRAILING_MINUS, NUMPRS_TRAILING_PLUS, NUMPRS_TRAILING_WHITE, NUMPRS_USE_ALL, _oa96_NUMPARSE, automat.numparse, oleauto/NUMPARSE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # NUMPARSE structure

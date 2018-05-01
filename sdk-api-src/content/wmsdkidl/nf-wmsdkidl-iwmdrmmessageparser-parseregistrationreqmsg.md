@@ -7,7 +7,7 @@ old-location: wmformat\iwmdrmmessageparser_parseregistrationreqmsg.htm
 old-project: wmformat
 ms.assetid: d2d142bf-0fed-42c8-a2f1-b539a40ac074
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMDRMMessageParser, IWMDRMMessageParser interface [windows Media Format], ParseRegistrationReqMsg method, IWMDRMMessageParser::ParseRegistrationReqMsg, IWMDRMMessageParserParseRegistrationReqMsg, ParseRegistrationReqMsg method [windows Media Format], ParseRegistrationReqMsg method [windows Media Format], IWMDRMMessageParser interface, ParseRegistrationReqMsg,IWMDRMMessageParser.ParseRegistrationReqMsg, wmformat.iwmdrmmessageparser_parseregistrationreqmsg, wmsdkidl/IWMDRMMessageParser::ParseRegistrationReqMsg
 ms.prod: windows-hardware
 ms.technology: windows-devices

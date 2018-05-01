@@ -7,7 +7,7 @@ old-location: stg\propspec.htm
 old-project: Stg
 ms.assetid: 5bb3b9c6-ab82-498c-94f9-13a9ffa7452b
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/20/2018
 ms.keywords: PROPSPEC, PROPSPEC [Strctd Stg], PROPSPEC structure [Structured Storage], PRSPEC_LPWSTR, PRSPEC_PROPID, _stg_propspec, propidlbase/PROPSPEC, stg.propspec, tagPROPSPEC
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # tagPROPSPEC structure
@@ -59,11 +59,6 @@ req.product: Compute Cluster Pack Client Utilities
 ## -struct-fields
 
 
-
-
-### -field DUMMYUNIONNAME
-
- 
 
 
 ### -field ulKind
@@ -99,6 +94,13 @@ The <b>propid</b> member is used and set to a property ID value.
 </tr>
 </table>
  
+
+
+### -field DUMMYUNIONNAME
+
+ 
+
+
 
 
 #### - lpwstr

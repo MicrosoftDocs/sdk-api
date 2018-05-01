@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxinboundroutingmethods_count_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_956c.htm
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/18/2018
 ms.keywords: Count property [Fax Service], Count property [Fax Service], FaxInboundRoutingMethods object, FaxInboundRoutingMethods object [Fax Service], Count property, IFaxInboundRoutingMethods, IFaxInboundRoutingMethods::get_Count, _mfax_faxinboundroutingmethods.count, fax._mfax_faxinboundroutingmethods_count, fax._mfax_faxinboundroutingmethods_count_vb, get_Count,IFaxInboundRoutingMethods.get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\imfasfmultiplexer_flush.htm
 old-project: medfound
 ms.assetid: 44a66374-ad9d-4c76-8c95-21a15e071c6d
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 44a66374-ad9d-4c76-8c95-21a15e071c6d, Flush method [Media Foundation], Flush method [Media Foundation], IMFASFMultiplexer interface, Flush,IMFASFMultiplexer.Flush, IMFASFMultiplexer, IMFASFMultiplexer interface [Media Foundation], Flush method, IMFASFMultiplexer::Flush, mf.imfasfmultiplexer_flush, wmcontainer/IMFASFMultiplexer::Flush
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\ix509namevaluepair_value_property.htm
 old-project: SecCertEnroll
 ms.assetid: 769eb16b-68c7-4540-bd1d-d04585ba0dfd
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: IX509NameValuePair, IX509NameValuePair interface [Security], Value property, IX509NameValuePair.Value, IX509NameValuePair::get_Value, Value property [Security], Value property [Security], IX509NameValuePair interface, certenroll/IX509NameValuePair::Value, certenroll/IX509NameValuePair::get_Value, get_Value,IX509NameValuePair.get_Value, security.ix509namevaluepair_value_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

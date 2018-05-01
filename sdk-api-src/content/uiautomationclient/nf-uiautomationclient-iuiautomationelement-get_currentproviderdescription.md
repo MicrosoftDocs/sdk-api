@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement_CurrentProviderDescription.htm
 old-project: WinAuto
 ms.assetid: d6a303b4-5540-45d3-b3c2-9b98b58a90bb
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: CurrentProviderDescription property [Windows Accessibility], CurrentProviderDescription property [Windows Accessibility], IUIAutomationElement interface, IUIAutomationElement, IUIAutomationElement interface [Windows Accessibility], CurrentProviderDescription property, IUIAutomationElement.CurrentProviderDescription, IUIAutomationElement::get_CurrentProviderDescription, get_CurrentProviderDescription,IUIAutomationElement.get_CurrentProviderDescription, uiauto.uiauto_IUIAutomationElement_CurrentProviderDescription, uiauto_IUIAutomationElement_CurrentProviderDescription, uiautomationclient/IUIAutomationElement::CurrentProviderDescription, uiautomationclient/IUIAutomationElement::get_CurrentProviderDescription, winauto.uiauto_IUIAutomationElement_CurrentProviderDescription
 ms.prod: windows-hardware
 ms.technology: windows-devices

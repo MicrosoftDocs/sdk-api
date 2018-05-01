@@ -7,7 +7,7 @@ old-location: coreaudio\immdevice_openpropertystore.htm
 old-project: CoreAudio
 ms.assetid: d13a5743-8b07-4876-ab9d-7a6bd60e7add
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: IMMDevice, IMMDevice interface [Core Audio], OpenPropertyStore method, IMMDevice::OpenPropertyStore, IMMDeviceOpenPropertyStore, OpenPropertyStore method [Core Audio], OpenPropertyStore method [Core Audio], IMMDevice interface, OpenPropertyStore,IMMDevice.OpenPropertyStore, coreaudio.immdevice_openpropertystore, mmdeviceapi/IMMDevice::OpenPropertyStore
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\imfcollection_getelement.htm
 old-project: medfound
 ms.assetid: a45983a8-4061-40e1-a11a-67de0867e553
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetElement method [Media Foundation], GetElement method [Media Foundation], IMFCollection interface, GetElement,IMFCollection.GetElement, IMFCollection, IMFCollection interface [Media Foundation], GetElement method, IMFCollection::GetElement, a45983a8-4061-40e1-a11a-67de0867e553, mf.imfcollection_getelement, mfobjects/IMFCollection::GetElement
 ms.prod: windows-hardware
 ms.technology: windows-devices

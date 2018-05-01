@@ -7,7 +7,7 @@ old-location: mstv\idigitalcabletuningspace_get_minsourceid.htm
 old-project: mstv
 ms.assetid: 54123d08-e01c-466e-833f-8412e06ac139
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IDigitalCableTuningSpace, IDigitalCableTuningSpace interface [Microsoft TV Technologies], get_MinSourceID method, IDigitalCableTuningSpace::get_MinSourceID, IDigitalCableTuningSpaceget_MinSourceID, get_MinSourceID method [Microsoft TV Technologies], get_MinSourceID method [Microsoft TV Technologies], IDigitalCableTuningSpace interface, get_MinSourceID,IDigitalCableTuningSpace.get_MinSourceID, mstv.idigitalcabletuningspace_get_minsourceid, tuner/IDigitalCableTuningSpace::get_MinSourceID
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\ivmrsurfaceallocatornotify9_notifyevent.htm
 old-project: DirectShow
 ms.assetid: 04c92e0f-9f6e-484c-96cd-3567c09a2ff6
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IVMRSurfaceAllocatorNotify9, IVMRSurfaceAllocatorNotify9 interface [DirectShow], NotifyEvent method, IVMRSurfaceAllocatorNotify9::NotifyEvent, IVMRSurfaceAllocatorNotify9NotifyEvent, NotifyEvent method [DirectShow], NotifyEvent method [DirectShow], IVMRSurfaceAllocatorNotify9 interface, NotifyEvent,IVMRSurfaceAllocatorNotify9.NotifyEvent, dshow.ivmrsurfaceallocatornotify9_notifyevent, vmr9/IVMRSurfaceAllocatorNotify9::NotifyEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

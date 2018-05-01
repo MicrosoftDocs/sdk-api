@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_instance_clone.htm
 old-project: wmi_v2
 ms.assetid: 9c7a4659-5bc4-4d24-89bc-9da4f2bdf107
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/18/2018
 ms.keywords: MI_Instance_Clone, MI_Instance_Clone function [Windows Management Infrastructure (MI)], mi/MI_Instance_Clone, wmi_v2.mi_instance_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

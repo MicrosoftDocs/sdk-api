@@ -7,7 +7,7 @@ old-location: mf\imfmuxstreammediatypemanager.htm
 old-project: medfound
 ms.assetid: BBDAEF1C-DFEC-4647-8B74-E2ABB25F87CC
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFMuxStreamMediaTypeManager, IMFMuxStreamMediaTypeManager interface [Media Foundation], IMFMuxStreamMediaTypeManager interface [Media Foundation], described, mf.imfmuxstreammediatypemanager, mfobjects/IMFMuxStreamMediaTypeManager
 ms.prod: windows-hardware
 ms.technology: windows-devices

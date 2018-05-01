@@ -7,7 +7,7 @@ old-location: mstv\iisdbdownloadcontentdescriptor_getflags.htm
 old-project: mstv
 ms.assetid: df104d6d-1436-4c7d-b250-b740e1f70c07
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetFlags method [Microsoft TV Technologies], GetFlags method [Microsoft TV Technologies], IIsdbDownloadContentDescriptor interface, GetFlags,IIsdbDownloadContentDescriptor.GetFlags, IIsdbDownloadContentDescriptor, IIsdbDownloadContentDescriptor interface [Microsoft TV Technologies], GetFlags method, IIsdbDownloadContentDescriptor::GetFlags, dvbsiparser/IIsdbDownloadContentDescriptor::GetFlags, mstv.iisdbdownloadcontentdescriptor_getflags
 ms.prod: windows-hardware
 ms.technology: windows-devices

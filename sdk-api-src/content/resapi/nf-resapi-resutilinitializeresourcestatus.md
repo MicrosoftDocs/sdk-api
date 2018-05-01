@@ -7,7 +7,7 @@ old-location: mscs\resutilinitializeresourcestatus.htm
 old-project: MsCS
 ms.assetid: e4a887b0-619d-42e0-a828-6a8c8d8c6f47
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: ResUtilInitializeResourceStatus, ResUtilInitializeResourceStatus macro [Failover Cluster], _wolf_resutilinitializeresourcestatus, mscs.resutilinitializeresourcestatus, resapi/ResUtilInitializeResourceStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ResUtilInitializeResourceStatus macro

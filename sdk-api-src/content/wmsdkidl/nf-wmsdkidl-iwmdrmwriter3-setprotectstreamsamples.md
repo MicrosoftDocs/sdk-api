@@ -7,7 +7,7 @@ old-location: wmformat\iwmdrmwriter3_setprotectstreamsamples.htm
 old-project: wmformat
 ms.assetid: 42208d02-8384-494d-b7ae-53072b795723
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMDRMWriter3, IWMDRMWriter3 interface [windows Media Format], SetProtectStreamSamples method, IWMDRMWriter3::SetProtectStreamSamples, IWMDRMWriter3SetProtectedStreamSamples, SetProtectStreamSamples method [windows Media Format], SetProtectStreamSamples method [windows Media Format], IWMDRMWriter3 interface, SetProtectStreamSamples,IWMDRMWriter3.SetProtectStreamSamples, wmformat.iwmdrmwriter3_setprotectedstreamsamples, wmformat.iwmdrmwriter3_setprotectstreamsamples, wmsdkidl/IWMDRMWriter3::SetProtectStreamSamples
 ms.prod: windows-hardware
 ms.technology: windows-devices

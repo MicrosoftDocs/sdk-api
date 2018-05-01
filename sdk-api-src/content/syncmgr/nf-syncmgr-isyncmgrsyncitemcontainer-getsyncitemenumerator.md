@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrSyncItemContainer_GetSyncItemEnumerator.htm
 old-project: shell
 ms.assetid: 761698b8-9531-440e-90f3-41b86f1cc674
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetSyncItemEnumerator method [Windows Shell], GetSyncItemEnumerator method [Windows Shell], ISyncMgrSyncItemContainer interface, GetSyncItemEnumerator,ISyncMgrSyncItemContainer.GetSyncItemEnumerator, ISyncMgrSyncItemContainer, ISyncMgrSyncItemContainer interface [Windows Shell], GetSyncItemEnumerator method, ISyncMgrSyncItemContainer::GetSyncItemEnumerator, _shell_ISyncMgrSyncItemContainer_GetSyncItemEnumerator, shell.ISyncMgrSyncItemContainer_GetSyncItemEnumerator, syncmgr/ISyncMgrSyncItemContainer::GetSyncItemEnumerator
 ms.prod: windows-hardware
 ms.technology: windows-devices

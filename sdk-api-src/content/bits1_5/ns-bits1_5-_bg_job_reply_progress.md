@@ -7,7 +7,7 @@ old-location: bits\bg_job_reply_progress.htm
 old-project: Bits
 ms.assetid: ea78ee22-87b2-4859-bd49-dd309c8aa234
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/10/2018
 ms.keywords: BG_JOB_REPLY_PROGRESS, BG_JOB_REPLY_PROGRESS structure [BITS], _BG_JOB_REPLY_PROGRESS, _drz_bg_job_reply_progress, bits.bg_job_reply_progress, bits1_5/BG_JOB_REPLY_PROGRESS
 ms.prod: windows-hardware
 ms.technology: windows-devices

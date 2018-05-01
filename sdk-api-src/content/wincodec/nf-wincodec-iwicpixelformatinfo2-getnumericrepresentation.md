@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicpixelformatinfo2_getnumericrepresentation.htm
 old-project: wic
 ms.assetid: b987e5b9-33a4-485f-9c7a-1fcb907b5424
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: GetNumericRepresentation method [Windows Imaging Component], GetNumericRepresentation method [Windows Imaging Component], IWICPixelFormatInfo2 interface, GetNumericRepresentation,IWICPixelFormatInfo2.GetNumericRepresentation, IWICPixelFormatInfo2, IWICPixelFormatInfo2 interface [Windows Imaging Component], GetNumericRepresentation method, IWICPixelFormatInfo2::GetNumericRepresentation, _wic_codec_iwicpixelformatinfo2_getnumericrepresentation, wic._wic_codec_iwicpixelformatinfo2_getnumericrepresentation, wincodec/IWICPixelFormatInfo2::GetNumericRepresentation
 ms.prod: windows-hardware
 ms.technology: windows-devices

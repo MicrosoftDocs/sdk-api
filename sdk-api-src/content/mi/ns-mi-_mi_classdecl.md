@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_classdecl.htm
 old-project: wmi_v2
 ms.assetid: 8e2e2838-5d08-4e51-be96-0928042ccb9f
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/18/2018
 ms.keywords: MI_ClassDecl, MI_ClassDecl structure [Windows Management Infrastructure (MI)], MI_FLAG_ABSTRACT, MI_FLAG_ASSOCIATION, MI_FLAG_CLASS, MI_FLAG_INDICATION, MI_FLAG_TERMINAL, _MI_ClassDecl, mi/MI_ClassDecl, wmi_v2.mi_classdecl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,46 +58,6 @@ This structure outlines the class declaration.  It contains class name and hiera
 
 
 
-### -field _MI_Qualifier
-
- 
-
-
-### -field qualifiers
-
-Describes extra metadata for classes, properties, methods, and parameters.
-
-
-### -field _MI_PropertyDecl
-
- 
-
-
-### -field properties
-
-The properties of this object.
-
-
-### -field _MI_MethodDecl
-
- 
-
-
-### -field methods
-
-The methods of this class.
-
-
-### -field _MI_SchemaDecl
-
- 
-
-
-### -field schema
-
-Pointer to schema this class belongs to.
-
-
 ### -field flags
 
 Flags can consist of values from following list.
@@ -143,9 +103,29 @@ Hash code: (name[0] &lt;&lt; 16) | (name[len-1] &lt;&lt; 8) | len
 Name of this feature.
 
 
+### -field qualifiers
+
+Describes extra metadata for classes, properties, methods, and parameters.
+
+
+### -field _MI_Qualifier
+
+ 
+
+
 ### -field numQualifiers
 
 Length of <b>qualifiers</b> array.
+
+
+### -field properties
+
+The properties of this object.
+
+
+### -field _MI_PropertyDecl
+
+ 
 
 
 ### -field numProperties
@@ -168,9 +148,29 @@ Parent class name.
 The classDecl for the parent class <b>superClass</b>.
 
 
+### -field methods
+
+The methods of this class.
+
+
+### -field _MI_MethodDecl
+
+ 
+
+
 ### -field numMethods
 
 Number of  methods in this class.
+
+
+### -field schema
+
+Pointer to schema this class belongs to.
+
+
+### -field _MI_SchemaDecl
+
+ 
 
 
 ### -field providerFT

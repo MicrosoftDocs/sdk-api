@@ -7,7 +7,7 @@ old-location: ad\idsadminnewobj_getpagecounts.htm
 old-project: AD
 ms.assetid: babc5baf-33d6-47e9-a99e-81ed339f71d6
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/20/2018
 ms.keywords: GetPageCounts method [Active Directory], GetPageCounts method [Active Directory], IDsAdminNewObj interface, GetPageCounts,IDsAdminNewObj.GetPageCounts, IDsAdminNewObj, IDsAdminNewObj interface [Active Directory], GetPageCounts method, IDsAdminNewObj::GetPageCounts, _glines_idsadminnewobj_getpagecounts, ad.idsadminnewobj__getpagecounts, ad.idsadminnewobj_getpagecounts, dsadmin/IDsAdminNewObj::GetPageCounts
 ms.prod: windows-hardware
 ms.technology: windows-devices

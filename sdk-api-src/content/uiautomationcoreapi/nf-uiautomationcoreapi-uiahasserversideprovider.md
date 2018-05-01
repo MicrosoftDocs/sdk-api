@@ -7,7 +7,7 @@ old-location: winauto\uiauto_UiaHasServerSideProviderAutoMeth.htm
 old-project: WinAuto
 ms.assetid: 0d19fccf-ebb7-469e-bb91-06c4a8803922
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: UiaHasServerSideProvider, UiaHasServerSideProvider function [Windows Accessibility], uiauto.uiauto_UiaHasServerSideProviderAutoMeth, uiauto_UiaHasServerSideProviderAutoMeth, uiautomationcoreapi/UiaHasServerSideProvider, winauto.uiauto_UiaHasServerSideProviderAutoMeth
 ms.prod: windows-hardware
 ms.technology: windows-devices

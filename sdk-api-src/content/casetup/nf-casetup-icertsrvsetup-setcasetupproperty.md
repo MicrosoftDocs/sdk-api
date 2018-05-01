@@ -7,7 +7,7 @@ old-location: security\icertsrvsetup_setcasetupproperty.htm
 old-project: SecCrypto
 ms.assetid: 91df1926-a4b6-4ba2-ab59-0258293fc1c0
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: ICertSrvSetup, ICertSrvSetup interface [Security], SetCASetupProperty method, ICertSrvSetup::SetCASetupProperty, SetCASetupProperty method [Security], SetCASetupProperty method [Security], ICertSrvSetup interface, SetCASetupProperty,ICertSrvSetup.SetCASetupProperty, casetup/ICertSrvSetup::SetCASetupProperty, security.icertsrvsetup_setcasetupproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

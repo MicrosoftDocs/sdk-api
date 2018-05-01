@@ -7,7 +7,7 @@ old-location: fs\dumplogrecords.htm
 old-project: Clfs
 ms.assetid: 221b701b-93d5-4ff3-ae6d-c1b980064629
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/25/2018
 ms.keywords: ClfsClientRecord, ClfsDataRecord, ClfsNullRecord, ClfsRestartRecord, DumpLogRecords, DumpLogRecords function [Files], clfsw32/DumpLogRecords, fs.dumplogrecords
 ms.prod: windows-hardware
 ms.technology: windows-devices

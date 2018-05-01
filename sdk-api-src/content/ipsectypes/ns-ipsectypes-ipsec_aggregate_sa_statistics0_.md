@@ -7,7 +7,7 @@ old-location: fwp\ipsec_aggregate_sa_statistics0_struct.htm
 old-project: FWP
 ms.assetid: f0318061-40f9-4380-9681-34db70659c49
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: IPSEC_AGGREGATE_SA_STATISTICS0, IPSEC_AGGREGATE_SA_STATISTICS0 structure [Filtering], IPSEC_AGGREGATE_SA_STATISTICS0_, fwp.ipsec_aggregate_sa_statistics0_struct, ipsectypes/IPSEC_AGGREGATE_SA_STATISTICS0
 ms.prod: windows-hardware
 ms.technology: windows-devices

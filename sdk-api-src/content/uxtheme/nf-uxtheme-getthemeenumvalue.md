@@ -7,7 +7,7 @@ old-location: controls\GetThemeEnumValue.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemeenumvalue.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: GetThemeEnumValue, GetThemeEnumValue function [Windows Controls], controls.GetThemeEnumValue, controls.inet_GetThemeEnumValue, inet_GetThemeEnumValue, inet_GetThemeEnumValue_cpp, uxtheme/GetThemeEnumValue
 ms.prod: windows-hardware
 ms.technology: windows-devices

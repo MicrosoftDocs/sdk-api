@@ -7,7 +7,7 @@ old-location: cos\iservicetransactionconfigbase_configuretransaction.htm
 old-project: cossdk
 ms.assetid: 8277b133-2c0c-4a21-b441-457efb285178
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: ConfigureTransaction method [COM+], ConfigureTransaction method [COM+], IServiceTransactionConfigBase interface, ConfigureTransaction,IServiceTransactionConfigBase.ConfigureTransaction, IServiceTransactionConfigBase, IServiceTransactionConfigBase interface [COM+], ConfigureTransaction method, IServiceTransactionConfigBase::ConfigureTransaction, _cos_IServiceTransactionConfigBase_ConfigureTransaction, comsvcs/IServiceTransactionConfigBase::ConfigureTransaction, cos.iservicetransactionconfigbase_configuretransaction
 ms.prod: windows-hardware
 ms.technology: windows-devices

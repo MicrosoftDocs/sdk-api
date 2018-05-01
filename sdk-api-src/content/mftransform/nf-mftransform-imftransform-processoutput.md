@@ -7,7 +7,7 @@ old-location: mf\imftransform_processoutput.htm
 old-project: medfound
 ms.assetid: dc58cc75-7e01-4f47-a572-8e3ca1bc43b4
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFTransform, IMFTransform interface [Media Foundation], ProcessOutput method, IMFTransform::ProcessOutput, ProcessOutput method [Media Foundation], ProcessOutput method [Media Foundation], IMFTransform interface, ProcessOutput,IMFTransform.ProcessOutput, dc58cc75-7e01-4f47-a572-8e3ca1bc43b4, mf.imftransform_processoutput, mftransform/IMFTransform::ProcessOutput
 ms.prod: windows-hardware
 ms.technology: windows-devices

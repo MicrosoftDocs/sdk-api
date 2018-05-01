@@ -59,11 +59,6 @@ The <b>DDSCAPS2</b> structure defines the capabilities of a DirectDrawSurface ob
 
 
 
-### -field DUMMYUNIONNAMEN
-
- 
-
-
 ### -field dwCaps
 
 One or more of the following flag values that represent the capabilities of the surface. (The flags in this member are identical to those in the corresponding member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550286">DDSCAPS</a> structure.)
@@ -356,6 +351,13 @@ The client would like this texture surface to be managed by the driver if the dr
 ### -field dwCaps3
 
 Not used.
+
+
+### -field DUMMYUNIONNAMEN
+
+ 
+
+
 
 
 #### - DUMMYUNIONNAMEN(1)

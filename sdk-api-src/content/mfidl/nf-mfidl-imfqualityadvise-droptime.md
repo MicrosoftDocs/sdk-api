@@ -7,7 +7,7 @@ old-location: mf\imfqualityadvise_droptime.htm
 old-project: medfound
 ms.assetid: 60d27190-7bed-427c-9018-2926c85815fe
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 60d27190-7bed-427c-9018-2926c85815fe, DropTime method [Media Foundation], DropTime method [Media Foundation], IMFQualityAdvise interface, DropTime,IMFQualityAdvise.DropTime, IMFQualityAdvise, IMFQualityAdvise interface [Media Foundation], DropTime method, IMFQualityAdvise::DropTime, mf.imfqualityadvise_droptime, mfidl/IMFQualityAdvise::DropTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

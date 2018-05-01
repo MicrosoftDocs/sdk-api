@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ILegacyIAccessibleProvider_GetIAccessible.htm
 old-project: WinAuto
 ms.assetid: 1d156866-d19a-4fd2-8664-d22e8b5434be
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: GetIAccessible method [Windows Accessibility], GetIAccessible method [Windows Accessibility], ILegacyIAccessibleProvider interface, GetIAccessible,ILegacyIAccessibleProvider.GetIAccessible, ILegacyIAccessibleProvider, ILegacyIAccessibleProvider interface [Windows Accessibility], GetIAccessible method, ILegacyIAccessibleProvider::GetIAccessible, uiauto.uiauto_ILegacyIAccessibleProvider_GetIAccessible, uiauto_ILegacyIAccessibleProvider_GetIAccessible, uiautomationcore/ILegacyIAccessibleProvider::GetIAccessible, winauto.uiauto_ILegacyIAccessibleProvider_GetIAccessible
 ms.prod: windows-hardware
 ms.technology: windows-devices

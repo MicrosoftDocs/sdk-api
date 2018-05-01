@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontentpartnercallback_listcontentscomplete.htm
 old-project: WMP
 ms.assetid: e46a3378-a8e3-40c1-9cca-b6444286b3b5
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPContentPartnerCallback, IWMPContentPartnerCallback interface [Windows Media Player], ListContentsComplete method, IWMPContentPartnerCallback::ListContentsComplete, IWMPContentPartnerCallbackListContentsComplete, ListContentsComplete method [Windows Media Player], ListContentsComplete method [Windows Media Player], IWMPContentPartnerCallback interface, ListContentsComplete,IWMPContentPartnerCallback.ListContentsComplete, contentpartner/IWMPContentPartnerCallback::ListContentsComplete, wmp.iwmpcontentpartnercallback_listcontentscomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices

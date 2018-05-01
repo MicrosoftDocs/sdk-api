@@ -7,7 +7,7 @@ old-location: upnp\iupnpserviceasync_begininvokeaction.htm
 old-project: UPnP
 ms.assetid: 40900CE1-03EE-451A-84DE-5C496EB2D7E5
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/25/2018
 ms.keywords: BeginInvokeAction method [UPnP APIs], BeginInvokeAction method [UPnP APIs], IUPnPServiceAsync interface, BeginInvokeAction,IUPnPServiceAsync.BeginInvokeAction, IUPnPServiceAsync, IUPnPServiceAsync interface [UPnP APIs], BeginInvokeAction method, IUPnPServiceAsync::BeginInvokeAction, upnp.iupnpserviceasync_begininvokeaction, upnp/IUPnPServiceAsync::BeginInvokeAction
 ms.prod: windows-hardware
 ms.technology: windows-devices

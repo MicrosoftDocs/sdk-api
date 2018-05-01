@@ -7,7 +7,7 @@ old-location: mf\imfvideoprocessor_getvideoprocessormode.htm
 old-project: medfound
 ms.assetid: df45c379-f525-4018-b2c2-88a52b13dff5
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetVideoProcessorMode method [Media Foundation], GetVideoProcessorMode method [Media Foundation], IMFVideoProcessor interface, GetVideoProcessorMode,IMFVideoProcessor.GetVideoProcessorMode, IMFVideoProcessor, IMFVideoProcessor interface [Media Foundation], GetVideoProcessorMode method, IMFVideoProcessor::GetVideoProcessorMode, df45c379-f525-4018-b2c2-88a52b13dff5, evr9/IMFVideoProcessor::GetVideoProcessorMode, mf.imfvideoprocessor_getvideoprocessormode
 ms.prod: windows-hardware
 ms.technology: windows-devices

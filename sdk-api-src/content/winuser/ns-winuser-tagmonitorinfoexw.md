@@ -7,7 +7,7 @@ old-location: gdi\monitorinfoex.htm
 old-project: gdi
 ms.assetid: f296ce29-3fc8-41c9-a201-56e222aa2219
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/17/2018
 ms.keywords: "*LPMONITORINFOEXW, LPMONITORINFOEX, LPMONITORINFOEX structure pointer [Windows GDI], MONITORINFOEX, MONITORINFOEX structure [Windows GDI], MONITORINFOEXW, _win32_MONITORINFOEX_str, gdi.monitorinfoex, tagMONITORINFOEXA, tagMONITORINFOEXW, winuser/LPMONITORINFOEX, winuser/MONITORINFOEX"
 ms.prod: windows-hardware
 ms.technology: windows-devices

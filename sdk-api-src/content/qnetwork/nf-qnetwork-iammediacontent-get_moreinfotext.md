@@ -7,7 +7,7 @@ old-location: dshow\iammediacontent_get_moreinfotext.htm
 old-project: DirectShow
 ms.assetid: 4a511c86-0a3a-48d3-8a3a-2ab52ff7dcea
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMMediaContent, IAMMediaContent interface [DirectShow], get_MoreInfoText method, IAMMediaContent::get_MoreInfoText, IAMMediaContentget_MoreInfoText, dshow.iammediacontent_get_moreinfotext, get_MoreInfoText method [DirectShow], get_MoreInfoText method [DirectShow], IAMMediaContent interface, get_MoreInfoText,IAMMediaContent.get_MoreInfoText, qnetwork/IAMMediaContent::get_MoreInfoText
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IAMMediaContent::get_MoreInfoText method

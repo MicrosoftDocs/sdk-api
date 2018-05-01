@@ -7,7 +7,7 @@ old-location: mf\imfasfstreamconfig.htm
 old-project: medfound
 ms.assetid: 7bb63396-21c2-400d-b9de-c00b90f46d62
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 7bb63396-21c2-400d-b9de-c00b90f46d62, IMFASFStreamConfig, IMFASFStreamConfig interface [Media Foundation], IMFASFStreamConfig interface [Media Foundation], described, mf.imfasfstreamconfig, wmcontainer/IMFASFStreamConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices

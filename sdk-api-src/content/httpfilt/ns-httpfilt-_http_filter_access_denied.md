@@ -7,7 +7,7 @@ old-location: tmg\http_filter_access_denied.htm
 old-project: TMG
 ms.assetid: e8309e1b-1717-48df-9c1e-6ed96785ca55
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/3/2018
 ms.keywords: "*PHTTP_FILTER_ACCESS_DENIED, HTTP_FILTER_ACCESS_DENIED, HTTP_FILTER_ACCESS_DENIED structure [Forefront TMG], PHTTP_FILTER_ACCESS_DENIED, PHTTP_FILTER_ACCESS_DENIED structure pointer [Forefront TMG], SF_DENIED_BY_CONFIG, SF_DENIED_FILTER, SF_DENIED_LOGON, SF_DENIED_RESOURCE, _HTTP_FILTER_ACCESS_DENIED, httpfilt/HTTP_FILTER_ACCESS_DENIED, httpfilt/PHTTP_FILTER_ACCESS_DENIED, tmg.http_filter_access_denied"
 ms.prod: windows-hardware
 ms.technology: windows-devices

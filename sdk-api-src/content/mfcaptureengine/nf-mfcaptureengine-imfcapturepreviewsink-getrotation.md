@@ -7,7 +7,7 @@ old-location: mf\imfcapturepreviewsink_getrotation.htm
 old-project: medfound
 ms.assetid: 5C750060-762B-42EE-92AD-8497B83E5D51
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetRotation method [Media Foundation], GetRotation method [Media Foundation], IMFCapturePreviewSink interface, GetRotation,IMFCapturePreviewSink.GetRotation, IMFCapturePreviewSink, IMFCapturePreviewSink interface [Media Foundation], GetRotation method, IMFCapturePreviewSink::GetRotation, mf.imfcapturepreviewsink_getrotation, mfcaptureengine/IMFCapturePreviewSink::GetRotation
 ms.prod: windows-hardware
 ms.technology: windows-devices

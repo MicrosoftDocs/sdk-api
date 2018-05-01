@@ -7,7 +7,7 @@ old-location: nps\SDO_conditionproperties.htm
 old-project: Nps
 ms.assetid: 09cb8457-9baf-4139-ba80-6eb608db6a65
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/24/2018
 ms.keywords: CONDITIONPROPERTIES, CONDITIONPROPERTIES enumeration [Network Policy Server], PROPERTY_CONDITION_TEXT, _CONDITIONPROPERTIES, _sdo_conditionproperties, nps.SDO_conditionproperties, sdo.conditionproperties, sdoias/CONDITIONPROPERTIES, sdoias/PROPERTY_CONDITION_TEXT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _CONDITIONPROPERTIES enumeration

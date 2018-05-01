@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ITextRangeProvider_GetChildren.htm
 old-project: WinAuto
 ms.assetid: 2b68a7eb-8ff5-4e8c-830b-e180b2c08be4
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: GetChildren method [Windows Accessibility], GetChildren method [Windows Accessibility], ITextRangeProvider interface, GetChildren,ITextRangeProvider.GetChildren, ITextRangeProvider, ITextRangeProvider interface [Windows Accessibility], GetChildren method, ITextRangeProvider::GetChildren, uiauto.uiauto_ITextRangeProvider_GetChildren, uiauto_ITextRangeProvider_GetChildren, uiautomationcore/ITextRangeProvider::GetChildren, winauto.uiauto_ITextRangeProvider_GetChildren
 ms.prod: windows-hardware
 ms.technology: windows-devices

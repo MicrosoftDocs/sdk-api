@@ -7,7 +7,7 @@ old-location: security\getauthdataforuser.htm
 old-project: SecAuthN
 ms.assetid: 1cc02c6b-2628-441d-97ae-ed83a4f6bfd0
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/24/2018
 ms.keywords: GetAuthDataForUser, GetAuthDataForUser function [Security], LSA_GET_AUTH_DATA_FOR_USER, SecNameAlternateId, SecNameDN, SecNameFlat, SecNameSamCompatible, _ssp_getauthdataforuser, ntsecpkg/GetAuthDataForUser, security.getauthdataforuser
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # LSA_GET_AUTH_DATA_FOR_USER callback

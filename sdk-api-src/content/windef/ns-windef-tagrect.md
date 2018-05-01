@@ -2,21 +2,21 @@
 UID: NS:windef.tagRECT
 title: tagRECT
 author: windows-driver-content
-description: The RECT structure defines the coordinates of the upper-left and lower-right corners of a rectangle.
-old-location: gdi\rect.htm
-old-project: gdi
-ms.assetid: 9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8
+description: The RECT structure defines a rectangle by the coordinates of its upper-left and lower-right corners.
+old-location: display\rect.htm
+old-project: display
+ms.assetid: a44f33f4-49b2-4a36-a7bd-fc4a9d3a3943
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
-ms.keywords: "*LPRECT, *NPRECT, *PRECT, PRECT, PRECT structure pointer [Windows GDI], RECT, RECT structure [Windows GDI], _win32_RECT_str, gdi.rect, tagRECT, windef/PRECT, windef/RECT"
+ms.date: 4/16/2018
+ms.keywords: "*LPRECT, *NPRECT, *PRECT, FAR *LPRECT, FAR *LPRECT structure [Display Devices], NEAR *NPRECT, NEAR *NPRECT structure [Display Devices], PRECT, PRECT structure pointer [Display Devices], RECT, RECT structure [Display Devices], display.rect, grstrcts_9bf844e0-1ec8-4bc0-a0ce-0790a4cfc93e.xml, tagRECT, windef/FAR *LPRECT, windef/NEAR *NPRECT, windef/PRECT, windef/RECT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: windef.h
 req.include-header: Windows.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
-req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -33,7 +33,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	Windef.h
+-	windef.h
 api_name:
 -	RECT
 product: Windows
@@ -50,10 +50,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-The <b>RECT</b> structure defines the coordinates of the upper-left and lower-right corners of a rectangle.
-
-
+The RECT structure defines a rectangle by the coordinates of its upper-left and lower-right corners.
 
 
 ## -struct-fields
@@ -63,29 +60,29 @@ The <b>RECT</b> structure defines the coordinates of the upper-left and lower-ri
 
 ### -field left
 
-The x-coordinate of the upper-left corner of the rectangle.
+Specifies the <i>x</i>-coordinate of the upper-left corner of the rectangle. 
 
 
 ### -field top
 
-The y-coordinate of the upper-left corner of the rectangle.
+Specifies the <i>y</i>-coordinate of the upper-left corner of the rectangle. 
 
 
 ### -field right
 
-The x-coordinate of the lower-right corner of the rectangle.
+Specifies the <i>x</i>-coordinate of the lower-right corner of the rectangle. 
 
 
 ### -field bottom
 
-The y-coordinate of the lower-right corner of the rectangle.
+Specifies the <i>y</i>-coordinate of the lower-right corner of the rectangle. 
 
 
 ## -remarks
 
 
 
-By convention, the right and bottom edges of the rectangle are normally considered exclusive. In other words, the pixel whose coordinates are ( <b>right</b>, <b>bottom</b> ) lies immediately outside of the rectangle. For example, when <b>RECT</b> is passed to the <a href="https://msdn.microsoft.com/98ab34da-ea07-4446-a62e-509c849d95f9">FillRect</a> function, the rectangle is filled up to, but not including, the right column and bottom row of pixels. This structure is identical to the  <a href="https://msdn.microsoft.com/library/windows/hardware/ff569236">RECTL</a> structure.
+The RECT structure is identical to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569236">RECTL</a> structure.
 
 
 
@@ -95,23 +92,7 @@ By convention, the right and bottom edges of the rectangle are normally consider
 
 
 
-<a href="https://msdn.microsoft.com/98ab34da-ea07-4446-a62e-509c849d95f9">FillRect</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569236">RECTL</a>
-
-
-
-<a href="https://msdn.microsoft.com/88700dde-2559-4916-9445-0fdd73da7501">Rectangle Structures</a>
-
-
-
-<a href="https://msdn.microsoft.com/23c251d1-b8c5-425f-b2b3-44954cf653e9">Rectangles Overview</a>
-
-
-
-<a href="https://msdn.microsoft.com/62639815-c7e9-4ae2-b152-61290f78422b">SMALL_RECT</a>
  
 
  

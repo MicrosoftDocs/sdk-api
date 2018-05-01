@@ -7,7 +7,7 @@ old-location: wmi\wbem_text_flag_type.htm
 old-project: WmiSdk
 ms.assetid: 6E4F87D1-9952-4D85-9A32-3D7068831087
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: WBEM_FLAG_NO_FLAVORS, WBEM_TEXT_FLAG_TYPE, WBEM_TEXT_FLAG_TYPE enumeration [Windows Management Instrumentation], tag_WBEM_TEXT_FLAG_TYPE, wbemcli/WBEM_FLAG_NO_FLAVORS, wbemcli/WBEM_TEXT_FLAG_TYPE, wmi.wbem_text_flag_type
 ms.prod: windows-hardware
 ms.technology: windows-devices

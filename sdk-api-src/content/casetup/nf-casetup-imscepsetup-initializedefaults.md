@@ -7,7 +7,7 @@ old-location: security\imscepsetup_initializedefaults.htm
 old-project: SecCrypto
 ms.assetid: 25b1fd48-7b2c-4687-af7e-09efd99038b3
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: IMSCEPSetup, IMSCEPSetup interface [Security], InitializeDefaults method, IMSCEPSetup::InitializeDefaults, InitializeDefaults method [Security], InitializeDefaults method [Security], IMSCEPSetup interface, InitializeDefaults,IMSCEPSetup.InitializeDefaults, casetup/IMSCEPSetup::InitializeDefaults, security.imscepsetup_initializedefaults
 ms.prod: windows-hardware
 ms.technology: windows-devices

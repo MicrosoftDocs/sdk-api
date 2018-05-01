@@ -7,7 +7,7 @@ old-location: shell\syncmgr_isyncmgrsynchronizecallback_deletelogerror.htm
 old-project: shell
 ms.assetid: 06e90b81-14cc-4b3e-9d2d-30e60eeb8eb2
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: DeleteLogError method [Windows Shell], DeleteLogError method [Windows Shell], ISyncMgrSynchronizeCallback interface, DeleteLogError,ISyncMgrSynchronizeCallback.DeleteLogError, ISyncMgrSynchronizeCallback, ISyncMgrSynchronizeCallback interface [Windows Shell], DeleteLogError method, ISyncMgrSynchronizeCallback::DeleteLogError, mobsync/ISyncMgrSynchronizeCallback::DeleteLogError, shell.syncmgr_isyncmgrsynchronizecallback_deletelogerror, syncmgr.isyncmgrsynchronizecallback_deletelogerror
 ms.prod: windows-hardware
 ms.technology: windows-devices

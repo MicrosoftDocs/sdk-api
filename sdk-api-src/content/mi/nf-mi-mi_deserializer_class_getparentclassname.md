@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_deserializer_class_getparentclassname.htm
 old-project: wmi_v2
 ms.assetid: 35e1d864-cc81-466e-bc5b-006c0aaf56fc
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/18/2018
 ms.keywords: MI_Deserializer_Class_GetParentClassName, MI_Deserializer_Class_GetParentClassName function [Windows Management Infrastructure (MI)], mi/MI_Deserializer_Class_GetParentClassName, wmi_v2.mi_deserializer_class_getparentclassname
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\ibda_autodemodulate_put_autodemodulate.htm
 old-project: mstv
 ms.assetid: e0d2356d-3954-44e9-af55-664764076f4d
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IBDA_AutoDemodulate, IBDA_AutoDemodulate interface [Microsoft TV Technologies], put_AutoDemodulate method, IBDA_AutoDemodulate::put_AutoDemodulate, IBDA_AutoDemodulateput_AutoDemodulate, bdaiface/IBDA_AutoDemodulate::put_AutoDemodulate, mstv.ibda_autodemodulate_put_autodemodulate, put_AutoDemodulate method [Microsoft TV Technologies], put_AutoDemodulate method [Microsoft TV Technologies], IBDA_AutoDemodulate interface, put_AutoDemodulate,IBDA_AutoDemodulate.put_AutoDemodulate
 ms.prod: windows-hardware
 ms.technology: windows-devices

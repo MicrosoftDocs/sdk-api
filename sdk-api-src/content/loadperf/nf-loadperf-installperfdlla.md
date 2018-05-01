@@ -1,0 +1,108 @@
+---
+UID: NF:loadperf.InstallPerfDllA
+title: InstallPerfDllA function
+author: windows-driver-content
+description: Installs performance counter strings, as defined in an input .ini file, into the system registry.
+old-location: winprog\installperfdll.htm
+old-project: DevNotes
+ms.assetid: d674f023-27e5-4ca2-926d-4fa02292ffbb
+ms.author: windowsdriverdev
+ms.date: 4/13/2018
+ms.keywords: InstallPerfDll, InstallPerfDll function [Windows API], InstallPerfDllA, InstallPerfDllW, loadperf/InstallPerfDll, winprog.installperfdll
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: loadperf.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WKSTA_USER_INFO_1101, *PWKSTA_USER_INFO_1101, *LPWKSTA_USER_INFO_1101
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Loadperf.dll
+api_name:
+-	InstallPerfDll
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Loadperf.dll
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# InstallPerfDllA function
+
+
+## -description
+
+
+Installs performance counter strings, as defined in an input .ini file, into the system registry.
+<div class="alert"><b>Note</b>  Microsoft recommends that developers use <a href="https://msdn.microsoft.com/19f6989a-708a-485d-94c0-ab617707ced4">LoadPerfCounterTextStrings</a> instead of <b>InstallPerfDll</b>. <b>LoadPerfCounterTextStrings</b> calls <b>InstallPerfDll</b> internally. </div><div> </div>
+
+## -parameters
+
+
+
+
+### -param szComputerName [in]
+
+The name of the system. This should be <b>NULL</b> because this function cannot be used to install remotely.
+
+
+### -param lpIniFile
+
+TBD
+
+
+### -param dwFlags [in]
+
+This parameter can be <b>LOADPERF_FLAGS_DISPLAY_USER_MSGS</b> (<code>(ULONG_PTR) 8</code>).
+
+
+#### - szIniFile [in]
+
+The name of the initialization file that contains definitions to  add to the registry.
+
+
+## -returns
+
+
+
+If the function is successful, it returns <b>TRUE</b> and posts additional information in  an application event log. Otherwise, it returns an error code that represents the condition that caused the failure.
+
+
+
+
+## -remarks
+
+
+
+This function has no associated import library; you must call it using the <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a> and <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a> functions.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/19f6989a-708a-485d-94c0-ab617707ced4">LoadPerfCounterTextStrings</a>
+ 
+
+ 
+

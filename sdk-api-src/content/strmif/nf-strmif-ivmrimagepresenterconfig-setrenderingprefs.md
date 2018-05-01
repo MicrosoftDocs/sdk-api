@@ -7,7 +7,7 @@ old-location: dshow\ivmrimagepresenterconfig_setrenderingprefs.htm
 old-project: DirectShow
 ms.assetid: 22bb6d52-2201-429d-bd1a-d031c9b017ae
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IVMRImagePresenterConfig, IVMRImagePresenterConfig interface [DirectShow], SetRenderingPrefs method, IVMRImagePresenterConfig::SetRenderingPrefs, IVMRImagePresenterConfigSetRenderingPrefs, SetRenderingPrefs method [DirectShow], SetRenderingPrefs method [DirectShow], IVMRImagePresenterConfig interface, SetRenderingPrefs,IVMRImagePresenterConfig.SetRenderingPrefs, dshow.ivmrimagepresenterconfig_setrenderingprefs, strmif/IVMRImagePresenterConfig::SetRenderingPrefs
 ms.prod: windows-hardware
 ms.technology: windows-devices

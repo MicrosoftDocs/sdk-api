@@ -7,7 +7,7 @@ old-location: com\ienumguid_clone.htm
 old-project: com
 ms.assetid: 5b12adf2-c2fe-4499-ab2a-94af6337e4a2
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: Clone method [COM], Clone method [COM], IEnumGUID interface, Clone,IEnumGUID.Clone, IEnumGUID, IEnumGUID interface [COM], Clone method, IEnumGUID::Clone, _com_ienumguid_clone, com.ienumguid_clone, comcat/IEnumGUID::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

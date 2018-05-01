@@ -7,7 +7,7 @@ old-location: winprog\cache_destroy_callback.htm
 old-project: DevNotes
 ms.assetid: daf85def-20ed-4162-b133-f730c50bf98a
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/13/2018
 ms.keywords: CACHE_DESTROY_CALLBACK, CACHE_DESTROY_CALLBACK function pointer [Windows API], filehc/CACHE_DESTROY_CALLBACK, winprog.cache_destroy_callback
 ms.prod: windows-hardware
 ms.technology: windows-devices

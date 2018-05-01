@@ -7,7 +7,7 @@ old-location: tapi3\call_state.htm
 old-project: Tapi
 ms.assetid: d4ed5e99-3abe-4434-9f99-5e98d8c6f3f1
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: CALL_STATE, CALL_STATE enumeration [TAPI 2.2], CS_CONNECTED, CS_DISCONNECTED, CS_HOLD, CS_IDLE, CS_INPROGRESS, CS_OFFERING, CS_QUEUED, _tapi3_call_state, tapi3.call_state, tapi3if/CALL_STATE, tapi3if/CS_CONNECTED, tapi3if/CS_DISCONNECTED, tapi3if/CS_HOLD, tapi3if/CS_IDLE, tapi3if/CS_INPROGRESS, tapi3if/CS_OFFERING, tapi3if/CS_QUEUED
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,8 +38,8 @@ api_name:
 -	CALL_STATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
 req.irql: 
 req.product: Windows XP with SP1 and later
 ---

@@ -7,7 +7,7 @@ old-location: mf\imfvideosampleallocatornotify_notifyrelease.htm
 old-project: medfound
 ms.assetid: 0467ebbe-b00d-41c1-8f50-77ca09337b15
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFVideoSampleAllocatorNotify, IMFVideoSampleAllocatorNotify interface [Media Foundation], NotifyRelease method, IMFVideoSampleAllocatorNotify::NotifyRelease, IMFVideoSampleAllocatorNotifyEx interface [Media Foundation], NotifyRelease method, IMFVideoSampleAllocatorNotifyEx::NotifyRelease, NotifyRelease method [Media Foundation], NotifyRelease method [Media Foundation], IMFVideoSampleAllocatorNotify interface, NotifyRelease method [Media Foundation], IMFVideoSampleAllocatorNotifyEx interface, NotifyRelease,IMFVideoSampleAllocatorNotify.NotifyRelease, mf.imfvideosampleallocatornotify_notifyrelease, mfidl/IMFVideoSampleAllocatorNotify::NotifyRelease, mfidl/IMFVideoSampleAllocatorNotifyEx::NotifyRelease
 ms.prod: windows-hardware
 ms.technology: windows-devices

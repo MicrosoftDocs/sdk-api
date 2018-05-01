@@ -7,7 +7,7 @@ old-location: mf\iwmresizerpropsgetfullcropregion.htm
 old-project: medfound
 ms.assetid: 91c37040-a698-489b-95fd-f3088f62e4c9
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetFullCropRegion method [Media Foundation], GetFullCropRegion method [Media Foundation], IWMResizerProps interface, GetFullCropRegion,IWMResizerProps.GetFullCropRegion, IWMResizerProps, IWMResizerProps interface [Media Foundation], GetFullCropRegion method, IWMResizerProps::GetFullCropRegion, codecapi.iwmresizerpropsgetfullcropregion, mf.iwmresizerpropsgetfullcropregion, wmcodecdsp/ IWMResizerProps::GetFullCropRegion
 ms.prod: windows-hardware
 ms.technology: windows-devices

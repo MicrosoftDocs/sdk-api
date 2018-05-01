@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ITextRangeProvider_ExpandToEnclosingUnit.htm
 old-project: WinAuto
 ms.assetid: 6128b0ef-e78d-4f87-bc70-ab5ac0d055cf
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: ExpandToEnclosingUnit method [Windows Accessibility], ExpandToEnclosingUnit method [Windows Accessibility], ITextRangeProvider interface, ExpandToEnclosingUnit,ITextRangeProvider.ExpandToEnclosingUnit, ITextRangeProvider, ITextRangeProvider interface [Windows Accessibility], ExpandToEnclosingUnit method, ITextRangeProvider::ExpandToEnclosingUnit, uiauto.uiauto_ITextRangeProvider_ExpandToEnclosingUnit, uiauto_ITextRangeProvider_ExpandToEnclosingUnit, uiautomationcore/ITextRangeProvider::ExpandToEnclosingUnit, winauto.uiauto_ITextRangeProvider_ExpandToEnclosingUnit
 ms.prod: windows-hardware
 ms.technology: windows-devices

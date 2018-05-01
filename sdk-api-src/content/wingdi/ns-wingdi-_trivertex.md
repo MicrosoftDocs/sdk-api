@@ -7,7 +7,7 @@ old-location: gdi\trivertex.htm
 old-project: gdi
 ms.assetid: 47b700aa-3410-4610-ba06-dab2b2662f5e
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/17/2018
 ms.keywords: "*LPTRIVERTEX, *PTRIVERTEX, PTRIVERTEX, PTRIVERTEX structure pointer [Windows GDI], TRIVERTEX, TRIVERTEX structure [Windows GDI], _TRIVERTEX, _win32_TRIVERTEX_str, gdi.trivertex, wingdi/PTRIVERTEX, wingdi/TRIVERTEX"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\imsvidctl_disableaudio.htm
 old-project: mstv
 ms.assetid: 0166cdc3-de1c-4505-855e-f69144cc71aa
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: DisableAudio method [Microsoft TV Technologies], DisableAudio method [Microsoft TV Technologies], IMSVidCtl interface, DisableAudio,IMSVidCtl.DisableAudio, IMSVidCtl, IMSVidCtl interface [Microsoft TV Technologies], DisableAudio method, IMSVidCtl::DisableAudio, IMSVidCtlDisableAudio, mstv.imsvidctl_disableaudio, msvidctl/IMSVidCtl::DisableAudio
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidCtl::DisableAudio method

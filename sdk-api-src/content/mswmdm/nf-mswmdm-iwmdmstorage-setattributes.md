@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmstorage_setattributes.htm
 old-project: WMDM
 ms.assetid: 7484e29a-5faf-4a11-9fc1-75aa5c9d72ef
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: IWMDMStorage, IWMDMStorage interface [windows Media Device Manager], SetAttributes method, IWMDMStorage::SetAttributes, IWMDMStorageSetAttributes, SetAttributes method [windows Media Device Manager], SetAttributes method [windows Media Device Manager], IWMDMStorage interface, SetAttributes,IWMDMStorage.SetAttributes, mswmdm/IWMDMStorage::SetAttributes, wmdm.iwmdmstorage_setattributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IWMDMStorage::SetAttributes method

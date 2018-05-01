@@ -7,7 +7,7 @@ old-location: ics\inetfwproducts_register.htm
 old-project: ICS
 ms.assetid: eea30680-f1c7-454d-896c-5116209fdc2c
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: INetFwProducts, INetFwProducts interface [ICS/ICF], Register method, INetFwProducts::Register, Register method [ICS/ICF], Register method [ICS/ICF], INetFwProducts interface, Register,INetFwProducts.Register, ics.inetfwproducts_register, netfw/INetFwProducts::Register
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: FirewallAPI.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # INetFwProducts::Register method

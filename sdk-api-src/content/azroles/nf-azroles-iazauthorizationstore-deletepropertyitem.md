@@ -7,7 +7,7 @@ old-location: security\azauthorizationstore_deletepropertyitem.htm
 old-project: SecAuthZ
 ms.assetid: 7c204a3c-2c5b-44d3-bbab-2765e66da925
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: AZ_PROP_DELEGATED_POLICY_USERS, AZ_PROP_DELEGATED_POLICY_USERS_NAME, AZ_PROP_POLICY_ADMINS, AZ_PROP_POLICY_ADMINS_NAME, AZ_PROP_POLICY_READERS, AZ_PROP_POLICY_READERS_NAME, AzAuthorizationStore object [Security], DeletePropertyItem method, DeletePropertyItem method [Security], DeletePropertyItem method [Security], AzAuthorizationStore object, DeletePropertyItem method [Security], IAzAuthorizationStore interface, DeletePropertyItem,IAzAuthorizationStore.DeletePropertyItem, IAzAuthorizationStore, IAzAuthorizationStore interface [Security], DeletePropertyItem method, IAzAuthorizationStore::DeletePropertyItem, azroles/IAzAuthorizationStore::DeletePropertyItem, security.azauthorizationstore_deletepropertyitem
 ms.prod: windows-hardware
 ms.technology: windows-devices

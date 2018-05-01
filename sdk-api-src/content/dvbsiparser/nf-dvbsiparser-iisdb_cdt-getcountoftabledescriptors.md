@@ -7,7 +7,7 @@ old-location: mstv\iisdb_cdt_getcountoftabledescriptors.htm
 old-project: mstv
 ms.assetid: ea01a53f-8d0b-4594-87b4-d293901fca19
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetCountOfTableDescriptors method [Microsoft TV Technologies], GetCountOfTableDescriptors method [Microsoft TV Technologies], IISDB_CDT interface, GetCountOfTableDescriptors,IISDB_CDT.GetCountOfTableDescriptors, IISDB_CDT, IISDB_CDT interface [Microsoft TV Technologies], GetCountOfTableDescriptors method, IISDB_CDT::GetCountOfTableDescriptors, dvbsiparser/IISDB_CDT::GetCountOfTableDescriptors, mstv.iisdb_cdt_getcountoftabledescriptors
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: COLORMATCHSETUPW, *PCOLORMATCHSETUPW, *LPCOLORMATCHSETUPW
+req.typenames: NET_FW_SERVICE_TYPE
 topic_type:
 -	APIRef
 -	kbSyntax

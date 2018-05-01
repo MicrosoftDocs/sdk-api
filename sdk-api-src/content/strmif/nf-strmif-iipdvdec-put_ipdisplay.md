@@ -7,7 +7,7 @@ old-location: dshow\iipdvdec_put_ipdisplay.htm
 old-project: DirectShow
 ms.assetid: c89970f8-b515-409b-af75-b1af65a8f94e
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IIPDVDec, IIPDVDec interface [DirectShow], put_IPDisplay method, IIPDVDec::put_IPDisplay, IIPDVDecput_IPDisplay, dshow.iipdvdec_put_ipdisplay, put_IPDisplay method [DirectShow], put_IPDisplay method [DirectShow], IIPDVDec interface, put_IPDisplay,IIPDVDec.put_IPDisplay, strmif/IIPDVDec::put_IPDisplay
 ms.prod: windows-hardware
 ms.technology: windows-devices

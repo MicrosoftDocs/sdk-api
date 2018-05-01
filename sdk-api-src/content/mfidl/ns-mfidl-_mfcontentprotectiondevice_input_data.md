@@ -7,7 +7,7 @@ old-location: mf\mfcontentprotectiondevice_input_data.htm
 old-project: medfound
 ms.assetid: 8D27592C-56EA-4E69-A1DC-2FAD56193CE2
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: MFCONTENTPROTECTIONDEVICE_INPUT_DATA, MFCONTENTPROTECTIONDEVICE_INPUT_DATA structure [Media Foundation], _MFCONTENTPROTECTIONDEVICE_INPUT_DATA, mf.mfcontentprotectiondevice_input_data, mfidl/MFCONTENTPROTECTIONDEVICE_INPUT_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices

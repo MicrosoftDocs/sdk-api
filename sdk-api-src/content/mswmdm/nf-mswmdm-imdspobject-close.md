@@ -7,7 +7,7 @@ old-location: wmdm\imdspobject_close.htm
 old-project: WMDM
 ms.assetid: 453dbf9e-4b71-4ceb-80e2-eaa0cf4cd29d
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: Close method [windows Media Device Manager], Close method [windows Media Device Manager], IMDSPObject interface, Close,IMDSPObject.Close, IMDSPObject, IMDSPObject interface [windows Media Device Manager], Close method, IMDSPObject::Close, IMDSPObjectClose, mswmdm/IMDSPObject::Close, wmdm.imdspobject_close
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMDSPObject::Close method

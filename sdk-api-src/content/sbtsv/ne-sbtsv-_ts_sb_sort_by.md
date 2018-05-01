@@ -7,7 +7,7 @@ old-location: termserv\ts_sb_sort_by.htm
 old-project: TermServ
 ms.assetid: 50945048-5E79-4423-8983-543085E3D953
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: TS_SB_SORT_BY, TS_SB_SORT_BY enumeration [Remote Desktop Services], TS_SB_SORT_BY_NAME, TS_SB_SORT_BY_NONE, TS_SB_SORT_BY_PROP, _TS_SB_SORT_BY, sbtsv/TS_SB_SORT_BY, sbtsv/TS_SB_SORT_BY_NAME, sbtsv/TS_SB_SORT_BY_NONE, sbtsv/TS_SB_SORT_BY_PROP, termserv.ts_sb_sort_by
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _TS_SB_SORT_BY enumeration

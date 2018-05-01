@@ -7,7 +7,7 @@ old-location: com\ipropertypage_setobjects.htm
 old-project: com
 ms.assetid: 0d7a73ce-8e3c-40c5-9040-6370df5edc2b
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IPropertyPage, IPropertyPage interface [COM], SetObjects method, IPropertyPage::SetObjects, SetObjects method [COM], SetObjects method [COM], IPropertyPage interface, SetObjects,IPropertyPage.SetObjects, _ctrl_ipropertypage_setobjects, com.ipropertypage_setobjects, ocidl/IPropertyPage::SetObjects
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IPropertyPage::SetObjects method

@@ -7,7 +7,7 @@ old-location: controls\ITextRange_CanPaste.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\canpaste.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: CanPaste method [Windows Controls], CanPaste method [Windows Controls], ITextRange interface, CanPaste,ITextRange.CanPaste, ITextRange, ITextRange interface [Windows Controls], CanPaste method, ITextRange::CanPaste, _win32_ITextRange_CanPaste, _win32_ITextRange_CanPaste_cpp, controls.ITextRange_CanPaste, controls._win32_ITextRange_CanPaste, tom/ITextRange::CanPaste
 ms.prod: windows-hardware
 ms.technology: windows-devices

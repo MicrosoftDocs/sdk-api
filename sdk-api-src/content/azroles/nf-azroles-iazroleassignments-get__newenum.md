@@ -7,7 +7,7 @@ old-location: security\iazroleassignments__newenum.htm
 old-project: SecAuthZ
 ms.assetid: 84f19d93-5e89-47f9-ade1-afb243c93ce0
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: IAzRoleAssignments, IAzRoleAssignments interface [Security], _NewEnum property, IAzRoleAssignments._NewEnum, IAzRoleAssignments::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security], IAzRoleAssignments interface, azroles/IAzRoleAssignments::_NewEnum, azroles/IAzRoleAssignments::get__NewEnum, get__NewEnum,IAzRoleAssignments.get__NewEnum, security.iazroleassignments__newenum
 ms.prod: windows-hardware
 ms.technology: windows-devices

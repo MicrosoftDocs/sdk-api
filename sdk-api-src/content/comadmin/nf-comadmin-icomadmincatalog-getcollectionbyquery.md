@@ -7,7 +7,7 @@ old-location: cos\icomadmincatalog_getcollectionbyquery.htm
 old-project: cossdk
 ms.assetid: 6ec65e7c-fb67-4435-90cd-d17b8fbcbc84
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: GetCollectionByQuery method [COM+], GetCollectionByQuery method [COM+], ICOMAdminCatalog interface, GetCollectionByQuery,ICOMAdminCatalog.GetCollectionByQuery, ICOMAdminCatalog, ICOMAdminCatalog interface [COM+], GetCollectionByQuery method, ICOMAdminCatalog::GetCollectionByQuery, _cos_ICOMAdminCatalog_GetCollectionByQuery, comadmin/ICOMAdminCatalog::GetCollectionByQuery, cos.icomadmincatalog_getcollectionbyquery
 ms.prod: windows-hardware
 ms.technology: windows-devices

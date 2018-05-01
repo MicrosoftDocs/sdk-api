@@ -7,7 +7,7 @@ old-location: mstv\iisdbcaservicedescriptor_gettag.htm
 old-project: mstv
 ms.assetid: 55f7b955-03f6-4c40-bd73-175bf3453ed0
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies], IIsdbCAServiceDescriptor interface, GetTag,IIsdbCAServiceDescriptor.GetTag, IIsdbCAServiceDescriptor, IIsdbCAServiceDescriptor interface [Microsoft TV Technologies], GetTag method, IIsdbCAServiceDescriptor::GetTag, dvbsiparser/IIsdbCAServiceDescriptor::GetTag, mstv.iisdbcaservicedescriptor_gettag
 ms.prod: windows-hardware
 ms.technology: windows-devices

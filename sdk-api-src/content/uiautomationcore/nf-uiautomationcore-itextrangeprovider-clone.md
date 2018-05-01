@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ITextRangeProvider_Clone.htm
 old-project: WinAuto
 ms.assetid: fe55f57b-a803-4008-adfb-b1900550d4cb
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: Clone method [Windows Accessibility], Clone method [Windows Accessibility], ITextRangeProvider interface, Clone,ITextRangeProvider.Clone, ITextRangeProvider, ITextRangeProvider interface [Windows Accessibility], Clone method, ITextRangeProvider::Clone, uiauto.uiauto_ITextRangeProvider_Clone, uiauto_ITextRangeProvider_Clone, uiautomationcore/ITextRangeProvider::Clone, winauto.uiauto_ITextRangeProvider_Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

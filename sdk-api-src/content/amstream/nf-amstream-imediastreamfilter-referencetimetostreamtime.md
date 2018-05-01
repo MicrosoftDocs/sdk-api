@@ -7,7 +7,7 @@ old-location: dshow\imediastreamfilter_referencetimetostreamtime.htm
 old-project: DirectShow
 ms.assetid: 71ddbf0b-17aa-4481-81a7-6d4a12275c31
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IMediaStreamFilter, IMediaStreamFilter interface [DirectShow], ReferenceTimeToStreamTime method, IMediaStreamFilter::ReferenceTimeToStreamTime, IMediaStreamFilterReferenceTimeToStreamTime, ReferenceTimeToStreamTime method [DirectShow], ReferenceTimeToStreamTime method [DirectShow], IMediaStreamFilter interface, ReferenceTimeToStreamTime,IMediaStreamFilter.ReferenceTimeToStreamTime, amstream/IMediaStreamFilter::ReferenceTimeToStreamTime, dshow.imediastreamfilter_referencetimetostreamtime
 ms.prod: windows-hardware
 ms.technology: windows-devices

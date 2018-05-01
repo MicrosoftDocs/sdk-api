@@ -7,7 +7,7 @@ old-location: dshow\iamexttransport_get_mediastate.htm
 old-project: DirectShow
 ms.assetid: 806356c7-796e-459f-8d5f-82c6b744bf07
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMExtTransport, IAMExtTransport interface [DirectShow], get_MediaState method, IAMExtTransport::get_MediaState, IAMExtTransportget_MediaState, dshow.iamexttransport_get_mediastate, get_MediaState method [DirectShow], get_MediaState method [DirectShow], IAMExtTransport interface, get_MediaState,IAMExtTransport.get_MediaState, strmif/IAMExtTransport::get_MediaState
 ms.prod: windows-hardware
 ms.technology: windows-devices

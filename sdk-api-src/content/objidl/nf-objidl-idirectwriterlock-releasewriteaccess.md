@@ -7,7 +7,7 @@ old-location: stg\idirectwriterlock_releasewriteaccess.htm
 old-project: Stg
 ms.assetid: 849eeb79-60fd-4345-9e04-2ed7a7ede5ca
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/20/2018
 ms.keywords: IDirectWriterLock, IDirectWriterLock interface [Structured Storage], ReleaseWriteAccess method, IDirectWriterLock::ReleaseWriteAccess, ReleaseWriteAccess method [Structured Storage], ReleaseWriteAccess method [Structured Storage], IDirectWriterLock interface, ReleaseWriteAccess,IDirectWriterLock.ReleaseWriteAccess, _stg_idirectwriterlock_releasewriteaccess, objidl/IDirectWriterLock::ReleaseWriteAccess, stg.idirectwriterlock_releasewriteaccess
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IDirectWriterLock::ReleaseWriteAccess method

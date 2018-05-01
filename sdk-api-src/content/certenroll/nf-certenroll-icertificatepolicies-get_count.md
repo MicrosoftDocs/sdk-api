@@ -7,7 +7,7 @@ old-location: security\icertificatepolicies_count_property.htm
 old-project: SecCertEnroll
 ms.assetid: 292c37c1-8b85-4fa3-8ed8-1728ebe3d177
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: Count property [Security], Count property [Security], ICertificatePolicies interface, ICertificatePolicies, ICertificatePolicies interface [Security], Count property, ICertificatePolicies.Count, ICertificatePolicies::get_Count, certenroll/ICertificatePolicies::Count, certenroll/ICertificatePolicies::get_Count, get_Count,ICertificatePolicies.get_Count, security.icertificatepolicies_count_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

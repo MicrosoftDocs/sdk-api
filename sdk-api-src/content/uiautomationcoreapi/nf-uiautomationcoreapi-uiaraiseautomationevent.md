@@ -7,7 +7,7 @@ old-location: winauto\uiauto_UiaRaiseAutomationEventFunction.htm
 old-project: WinAuto
 ms.assetid: a91ce84c-faae-4b8b-9547-9e9d8edbde6e
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: UiaRaiseAutomationEvent, UiaRaiseAutomationEvent function [Windows Accessibility], uiauto.uiauto_UiaRaiseAutomationEventFunction, uiauto_UiaRaiseAutomationEventFunction, uiautomationcoreapi/UiaRaiseAutomationEvent, winauto.uiauto_UiaRaiseAutomationEventFunction
 ms.prod: windows-hardware
 ms.technology: windows-devices

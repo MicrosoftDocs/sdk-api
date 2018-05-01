@@ -7,7 +7,7 @@ old-location: com\iolelink_setupdateoptions.htm
 old-project: com
 ms.assetid: 310c25b5-a2f6-4ed7-8673-c53809fad32f
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IOleLink, IOleLink interface [COM], SetUpdateOptions method, IOleLink::SetUpdateOptions, SetUpdateOptions method [COM], SetUpdateOptions method [COM], IOleLink interface, SetUpdateOptions,IOleLink.SetUpdateOptions, _ole_iolelink_setupdateoptions, com.iolelink_setupdateoptions, oleidl/IOleLink::SetUpdateOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IOleLink::SetUpdateOptions method

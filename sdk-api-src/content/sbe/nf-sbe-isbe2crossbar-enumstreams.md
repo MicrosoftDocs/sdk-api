@@ -7,7 +7,7 @@ old-location: mstv\isbe2crossbar_enumstreams.htm
 old-project: mstv
 ms.assetid: 891dc676-8930-41bc-a0ae-4a080c6d4cd6
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: EnumStreams method [Microsoft TV Technologies], EnumStreams method [Microsoft TV Technologies], ISBE2Crossbar interface, EnumStreams,ISBE2Crossbar.EnumStreams, ISBE2Crossbar, ISBE2Crossbar interface [Microsoft TV Technologies], EnumStreams method, ISBE2Crossbar::EnumStreams, mstv.isbe2crossbar_enumstreams, sbe/ISBE2Crossbar::EnumStreams
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ISBE2Crossbar::EnumStreams method

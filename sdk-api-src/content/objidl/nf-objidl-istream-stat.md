@@ -7,7 +7,7 @@ old-location: stg\istream_stat.htm
 old-project: Stg
 ms.assetid: c22ab396-dbc5-43a0-8448-35a2c094464f
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/20/2018
 ms.keywords: IStream, IStream interface [Structured Storage], Stat method, IStream::Stat, Stat method [Structured Storage], Stat method [Structured Storage], IStream interface, Stat,IStream.Stat, _stg_istream_stat, objidl/IStream::Stat, stg.istream_stat
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IStream::Stat method

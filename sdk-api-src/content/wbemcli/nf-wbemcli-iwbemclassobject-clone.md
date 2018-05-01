@@ -7,7 +7,7 @@ old-location: wmi\iwbemclassobject_clone.htm
 old-project: WmiSdk
 ms.assetid: 4a708963-f677-4419-800d-02a01908e7cb
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: Clone method [Windows Management Instrumentation], Clone method [Windows Management Instrumentation], IWbemClassObject interface, Clone,IWbemClassObject.Clone, IWbemClassObject, IWbemClassObject interface [Windows Management Instrumentation], Clone method, IWbemClassObject::Clone, _hmm_iwbemclassobject_clone, wbemcli/IWbemClassObject::Clone, wmi.iwbemclassobject_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

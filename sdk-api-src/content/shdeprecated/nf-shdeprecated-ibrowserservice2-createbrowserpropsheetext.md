@@ -7,7 +7,7 @@ old-location: shell\IBrowserService2_CreateBrowserPropSheetExt.htm
 old-project: shell
 ms.assetid: 2738e62b-5577-416b-952e-18a189fc717f
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: CreateBrowserPropSheetExt method [Windows Shell], CreateBrowserPropSheetExt method [Windows Shell], IBrowserService2 interface, CreateBrowserPropSheetExt,IBrowserService2.CreateBrowserPropSheetExt, IBrowserService2, IBrowserService2 interface [Windows Shell], CreateBrowserPropSheetExt method, IBrowserService2::CreateBrowserPropSheetExt, shdeprecated/IBrowserService2::CreateBrowserPropSheetExt, shell.IBrowserService2_CreateBrowserPropSheetExt, zone_IBrowserService2_CreateBrowserPropSheetExt
 ms.prod: windows-hardware
 ms.technology: windows-devices

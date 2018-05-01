@@ -7,7 +7,7 @@ old-location: upnp\iupnpremoteendpointinfo.htm
 old-project: UPnP
 ms.assetid: 32e246cd-50eb-4221-8166-a7cd8ed42d69
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/25/2018
 ms.keywords: IUPnPRemoteEndpointInfo, IUPnPRemoteEndpointInfo interface [UPnP APIs], IUPnPRemoteEndpointInfo interface [UPnP APIs], described, upnp.iupnpremoteendpointinfo, upnphost/IUPnPRemoteEndpointInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

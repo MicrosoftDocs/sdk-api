@@ -7,7 +7,7 @@ old-location: automat\itypechangeevents.htm
 old-project: automat
 ms.assetid: 5e286a4b-b36b-40d6-9a39-d572086e5a2d
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: ITypeChangeEvents, ITypeChangeEvents interface [Automation], ITypeChangeEvents interface [Automation], described, automat.itypechangeevents, oaidl/ITypeChangeEvents
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITypeChangeEvents interface

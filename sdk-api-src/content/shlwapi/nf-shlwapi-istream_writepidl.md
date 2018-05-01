@@ -7,7 +7,7 @@ old-location: shell\IStream_WritePidl.htm
 old-project: shell
 ms.assetid: 29b6a42b-08bd-4b5f-92ad-a6456e7a6f98
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IStream_WritePidl, IStream_WritePidl function [Windows Shell], _shell_IStream_WritePidl, shell.IStream_WritePidl, shlwapi/IStream_WritePidl
 ms.prod: windows-hardware
 ms.technology: windows-devices

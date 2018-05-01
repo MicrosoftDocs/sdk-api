@@ -7,7 +7,7 @@ old-location: intl\ifecommon_invokewordregdialog.htm
 old-project: Intl
 ms.assetid: FBD09E98-9C89-4CE4-9D17-A13E2BE0AB91
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/25/2018
 ms.keywords: IFECommon, IFECommon interface [Internationalization for Windows Applications], InvokeWordRegDialog method, IFECommon::InvokeWordRegDialog, InvokeWordRegDialog method [Internationalization for Windows Applications], InvokeWordRegDialog method [Internationalization for Windows Applications], IFECommon interface, InvokeWordRegDialog,IFECommon.InvokeWordRegDialog, intl.ifecommon_invokewordregdialog, msime/IFECommon::InvokeWordRegDialog
 ms.prod: windows-hardware
 ms.technology: windows-devices

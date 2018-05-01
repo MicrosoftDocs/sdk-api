@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxincomingjobs_get__newenum.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_1zfx.htm
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/18/2018
 ms.keywords: IFaxIncomingJobs, IFaxIncomingJobs interface [Fax Service], get__NewEnum method, IFaxIncomingJobs::get__NewEnum, _mfax_ifaxincomingjobs_get__newenum, fax._mfax_ifaxincomingjobs_get__newenum, faxcomex/IFaxIncomingJobs::get__NewEnum, get__NewEnum method [Fax Service], get__NewEnum method [Fax Service], IFaxIncomingJobs interface, get__NewEnum,IFaxIncomingJobs.get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices

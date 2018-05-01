@@ -7,7 +7,7 @@ old-location: mf\imfvideoprocessorcontrol_setrotation.htm
 old-project: medfound
 ms.assetid: 452FE057-EC1A-430E-A5C8-C9B84A4B1B17
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFVideoProcessorControl, IMFVideoProcessorControl interface [Media Foundation], SetRotation method, IMFVideoProcessorControl::SetRotation, SetRotation method [Media Foundation], SetRotation method [Media Foundation], IMFVideoProcessorControl interface, SetRotation,IMFVideoProcessorControl.SetRotation, mf.imfvideoprocessorcontrol_setrotation, mfidl/IMFVideoProcessorControl::SetRotation
 ms.prod: windows-hardware
 ms.technology: windows-devices

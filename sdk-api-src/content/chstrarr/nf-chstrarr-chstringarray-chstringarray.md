@@ -7,7 +7,7 @@ old-location: wmi\chstringarray_chstringarray.htm
 old-project: WmiSdk
 ms.assetid: b20e3476-7caa-4fcf-98cc-44ffafafe94a
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: "??0CHStringArray@@QAE@XZ, ??0CHStringArray@@QEAA@XZ, CHStringArray, CHStringArray interface [Windows Management Instrumentation], CHStringArray method, CHStringArray method [Windows Management Instrumentation], CHStringArray method [Windows Management Instrumentation], CHStringArray interface, CHStringArray,CHStringArray.CHStringArray, CHStringArray::CHStringArray, _hmm_chstringarray_chstringarray, chstrarr/CHStringArray::CHStringArray, wmi.chstringarray_chstringarray"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CF_SYNC_ROOT_STANDARD_INFO
+req.typenames: CF_SYNC_STATUS
 topic_type:
 -	APIRef
 -	kbSyntax

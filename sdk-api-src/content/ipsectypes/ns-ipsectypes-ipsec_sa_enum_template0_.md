@@ -7,7 +7,7 @@ old-location: fwp\ipsec_sa_enum_template0_struct.htm
 old-project: FWP
 ms.assetid: 6a00af2b-0b39-4d9f-9335-4817df693b52
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: IPSEC_SA_ENUM_TEMPLATE0, IPSEC_SA_ENUM_TEMPLATE0 structure [Filtering], IPSEC_SA_ENUM_TEMPLATE0_, fwp.ipsec_sa_enum_template0_struct, ipsectypes/IPSEC_SA_ENUM_TEMPLATE0
 ms.prod: windows-hardware
 ms.technology: windows-devices

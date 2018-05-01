@@ -7,7 +7,7 @@ old-location: winrt\irestrictederrorinfo_geterrordetails.htm
 old-project: WinRT
 ms.assetid: ecfd97cf-9f8f-4940-9499-a894e0883f04
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/24/2018
 ms.keywords: GetErrorDetails method [Windows Runtime], GetErrorDetails method [Windows Runtime], IRestrictedErrorInfo interface, GetErrorDetails,IRestrictedErrorInfo.GetErrorDetails, IRestrictedErrorInfo, IRestrictedErrorInfo interface [Windows Runtime], GetErrorDetails method, IRestrictedErrorInfo::GetErrorDetails, restrictederrorinfo/IRestrictedErrorInfo::GetErrorDetails, winrt.irestrictederrorinfo_geterrordetails
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IRestrictedErrorInfo::GetErrorDetails method

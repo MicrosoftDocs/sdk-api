@@ -7,7 +7,7 @@ old-location: wmp\iwmpplugin_unadvisewmpservices.htm
 old-project: WMP
 ms.assetid: 377a6853-94fb-4467-a893-508b56637a16
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPPlugin, IWMPPlugin interface [Windows Media Player], UnAdviseWMPServices method, IWMPPlugin::UnAdviseWMPServices, IWMPPluginUnAdviseWMPServicesDSP, UnAdviseWMPServices method [Windows Media Player], UnAdviseWMPServices method [Windows Media Player], IWMPPlugin interface, UnAdviseWMPServices,IWMPPlugin.UnAdviseWMPServices, wmp.iwmpplugin_unadvisewmpservices, wmpservices/IWMPPlugin::UnAdviseWMPServices
 ms.prod: windows-hardware
 ms.technology: windows-devices

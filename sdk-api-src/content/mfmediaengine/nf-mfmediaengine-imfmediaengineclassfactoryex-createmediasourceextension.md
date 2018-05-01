@@ -7,7 +7,7 @@ old-location: mf\imfmediaengineclassfactoryex_createmediasourceextension.htm
 old-project: medfound
 ms.assetid: 2a76bae3-0b7e-49fe-ab5d-bfb32d029d60
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: CreateMediaSourceExtension method [Media Foundation], CreateMediaSourceExtension method [Media Foundation], IMFMediaEngineClassFactoryEx interface, CreateMediaSourceExtension,IMFMediaEngineClassFactoryEx.CreateMediaSourceExtension, IMFMediaEngineClassFactoryEx, IMFMediaEngineClassFactoryEx interface [Media Foundation], CreateMediaSourceExtension method, IMFMediaEngineClassFactoryEx::CreateMediaSourceExtension, mf.imfmediaengineclassfactoryex_createmediasourceextension, mfmediaengine/IMFMediaEngineClassFactoryEx::CreateMediaSourceExtension
 ms.prod: windows-hardware
 ms.technology: windows-devices

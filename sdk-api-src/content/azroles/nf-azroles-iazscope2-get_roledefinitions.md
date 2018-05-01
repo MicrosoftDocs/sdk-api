@@ -7,7 +7,7 @@ old-location: security\iazscope2_roledefinitions.htm
 old-project: SecAuthZ
 ms.assetid: cff40ce8-fa5f-4673-9338-58cff2c941aa
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: IAzScope2, IAzScope2 interface [Security], RoleDefinitions property, IAzScope2.RoleDefinitions, IAzScope2::get_RoleDefinitions, RoleDefinitions property [Security], RoleDefinitions property [Security], IAzScope2 interface, azroles/IAzScope2::RoleDefinitions, azroles/IAzScope2::get_RoleDefinitions, get_RoleDefinitions,IAzScope2.get_RoleDefinitions, security.iazscope2_roledefinitions
 ms.prod: windows-hardware
 ms.technology: windows-devices

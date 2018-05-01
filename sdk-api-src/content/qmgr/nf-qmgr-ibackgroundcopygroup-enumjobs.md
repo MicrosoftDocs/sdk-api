@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopygroup_enumjobs.htm
 old-project: Bits
 ms.assetid: 40e4412e-60d5-4e08-85b9-1e92f5222e71
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/10/2018
 ms.keywords: EnumJobs method [BITS], EnumJobs method [BITS], IBackgroundCopyGroup interface, EnumJobs,IBackgroundCopyGroup.EnumJobs, IBackgroundCopyGroup, IBackgroundCopyGroup interface [BITS], EnumJobs method, IBackgroundCopyGroup::EnumJobs, bits.ibackgroundcopygroup_enumjobs, qmgr/IBackgroundCopyGroup::EnumJobs
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: QmgrPrxy.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IBackgroundCopyGroup::EnumJobs method

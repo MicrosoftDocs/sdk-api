@@ -7,7 +7,7 @@ old-location: dshow\iconfigasfwriter2_setparam.htm
 old-project: DirectShow
 ms.assetid: 0294837c-0cf2-4a05-bef4-16d13864f759
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IConfigAsfWriter2, IConfigAsfWriter2 interface [DirectShow], SetParam method, IConfigAsfWriter2::SetParam, IConfigAsfWriter2SetParam, SetParam method [DirectShow], SetParam method [DirectShow], IConfigAsfWriter2 interface, SetParam,IConfigAsfWriter2.SetParam, dshow.iconfigasfwriter2_setparam, dshowasf/IConfigAsfWriter2::SetParam
 ms.prod: windows-hardware
 ms.technology: windows-devices

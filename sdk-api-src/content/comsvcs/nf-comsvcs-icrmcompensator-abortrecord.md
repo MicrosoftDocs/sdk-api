@@ -7,7 +7,7 @@ old-location: cos\icrmcompensator_abortrecord.htm
 old-project: cossdk
 ms.assetid: 79dcf391-7ec9-4c9c-9f91-0e806d7c278c
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: AbortRecord method [COM+], AbortRecord method [COM+], ICrmCompensator interface, AbortRecord,ICrmCompensator.AbortRecord, ICrmCompensator, ICrmCompensator interface [COM+], AbortRecord method, ICrmCompensator::AbortRecord, _dtc_ICrmCompensator_AbortRecord, comsvcs/ICrmCompensator::AbortRecord, cos.icrmcompensator_abortrecord
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmdm\imdspstorage4_createstoragewithmetadata.htm
 old-project: WMDM
 ms.assetid: 493eb6f1-fc06-4b37-803f-a81219e9f819
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: CreateStorageWithMetadata method [windows Media Device Manager], CreateStorageWithMetadata method [windows Media Device Manager], IMDSPStorage4 interface, CreateStorageWithMetadata,IMDSPStorage4.CreateStorageWithMetadata, IMDSPStorage4, IMDSPStorage4 interface [windows Media Device Manager], CreateStorageWithMetadata method, IMDSPStorage4::CreateStorageWithMetadata, IMDSPStorage4CreateStorageWithMetadata, mswmdm/IMDSPStorage4::CreateStorageWithMetadata, wmdm.imdspstorage4_createstoragewithmetadata
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMDSPStorage4::CreateStorageWithMetadata method

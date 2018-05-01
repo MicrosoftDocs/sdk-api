@@ -7,7 +7,7 @@ old-location: rpc\rpc_http_transport_credentials_v3.htm
 old-project: Rpc
 ms.assetid: 1d9d53bc-f1e2-4a8d-a9c1-5b2192ceec56
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: "*PRPC_HTTP_TRANSPORT_CREDENTIALS_V3_A, PRPC_HTTP_TRANSPORT_CREDENTIALS_V3, PRPC_HTTP_TRANSPORT_CREDENTIALS_V3 structure pointer [RPC], RPC_C_HTTP_AUTHN_SCHEME_BASIC, RPC_C_HTTP_AUTHN_SCHEME_DIGEST, RPC_C_HTTP_AUTHN_SCHEME_NEGOTIATE, RPC_C_HTTP_AUTHN_SCHEME_NTLM, RPC_C_HTTP_AUTHN_SCHEME_PASSPORT, RPC_C_HTTP_AUTHN_TARGET_PROXY, RPC_C_HTTP_AUTHN_TARGET_SERVER, RPC_C_HTTP_FLAG_USE_FIRST_AUTH_SCHEME, RPC_C_HTTP_FLAG_USE_SSL, RPC_HTTP_TRANSPORT_CREDENTIALS_V3, RPC_HTTP_TRANSPORT_CREDENTIALS_V3 structure [RPC], RPC_HTTP_TRANSPORT_CREDENTIALS_V3_A, _RPC_HTTP_TRANSPORT_CREDENTIALS_V3_A, _RPC_HTTP_TRANSPORT_CREDENTIALS_V3_W, rpc.rpc_http_transport_credentials_v3, rpcdce/PRPC_HTTP_TRANSPORT_CREDENTIALS_V3, rpcdce/RPC_HTTP_TRANSPORT_CREDENTIALS_V3"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _RPC_HTTP_TRANSPORT_CREDENTIALS_V3_A structure

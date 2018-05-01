@@ -7,7 +7,7 @@ old-location: dshow\ibasicvideo_put_destinationheight.htm
 old-project: DirectShow
 ms.assetid: e530bf39-d352-4808-9ac6-5e3d322e1905
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IBasicVideo, IBasicVideo interface [DirectShow], put_DestinationHeight method, IBasicVideo::put_DestinationHeight, IBasicVideoput_DestinationHeight, control/IBasicVideo::put_DestinationHeight, dshow.ibasicvideo_put_destinationheight, put_DestinationHeight method [DirectShow], put_DestinationHeight method [DirectShow], IBasicVideo interface, put_DestinationHeight,IBasicVideo.put_DestinationHeight
 ms.prod: windows-hardware
 ms.technology: windows-devices

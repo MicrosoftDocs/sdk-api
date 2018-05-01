@@ -7,7 +7,7 @@ old-location: mstv\idvb_nit_getversionnumber.htm
 old-project: mstv
 ms.assetid: 75f7dc3b-8631-4a33-90f2-ace95e4112a7
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetVersionNumber method [Microsoft TV Technologies], GetVersionNumber method [Microsoft TV Technologies], IDVB_NIT interface, GetVersionNumber,IDVB_NIT.GetVersionNumber, IDVB_NIT, IDVB_NIT interface [Microsoft TV Technologies], GetVersionNumber method, IDVB_NIT::GetVersionNumber, IDVB_NITGetVersionNumber, dvbsiparser/IDVB_NIT::GetVersionNumber, mstv.idvb_nit_getversionnumber
 ms.prod: windows-hardware
 ms.technology: windows-devices

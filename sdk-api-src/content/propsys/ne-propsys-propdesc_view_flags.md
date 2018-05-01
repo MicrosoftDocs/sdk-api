@@ -7,7 +7,7 @@ old-location: properties\PROPDESC_VIEW_FLAGS.htm
 old-project: properties
 ms.assetid: 8b38d085-180b-47c1-b703-8c4feaaa9ccb
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/5/2018
 ms.keywords: PDVF_BEGINNEWGROUP, PDVF_CANWRAP, PDVF_CENTERALIGN, PDVF_DEFAULT, PDVF_FILLAREA, PDVF_HIDDEN, PDVF_HIDELABEL, PDVF_MASK_ALL, PDVF_RIGHTALIGN, PDVF_SHOWBYDEFAULT, PDVF_SHOWINPRIMARYLIST, PDVF_SHOWINSECONDARYLIST, PDVF_SHOWONLYIFPRESENT, PDVF_SORTDESCENDING, PROPDESC_VIEW_FLAGS, PROPDESC_VIEW_FLAGS enumeration [Windows Properties], properties.PROPDESC_VIEW_FLAGS, propsys/PDVF_BEGINNEWGROUP, propsys/PDVF_CANWRAP, propsys/PDVF_CENTERALIGN, propsys/PDVF_DEFAULT, propsys/PDVF_FILLAREA, propsys/PDVF_HIDDEN, propsys/PDVF_HIDELABEL, propsys/PDVF_MASK_ALL, propsys/PDVF_RIGHTALIGN, propsys/PDVF_SHOWBYDEFAULT, propsys/PDVF_SHOWINPRIMARYLIST, propsys/PDVF_SHOWINSECONDARYLIST, propsys/PDVF_SHOWONLYIFPRESENT, propsys/PDVF_SORTDESCENDING, propsys/PROPDESC_VIEW_FLAGS, shell.PROPDESC_VIEW_FLAGS, shell_PROPDESC_VIEW_FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # PROPDESC_VIEW_FLAGS enumeration

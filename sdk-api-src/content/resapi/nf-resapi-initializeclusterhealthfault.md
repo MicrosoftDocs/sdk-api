@@ -7,7 +7,7 @@ old-location: mscs\initializeclusterhealthfault.htm
 old-project: MsCS
 ms.assetid: 4631df2f-8fde-446c-9fbc-f7e88bc6d4e6
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: InitializeClusterHealthFault, InitializeClusterHealthFault function [Failover Cluster], mscs.initializeclusterhealthfault, resapi/InitializeClusterHealthFault
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ targetos: Windows
 req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # InitializeClusterHealthFault function

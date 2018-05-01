@@ -7,7 +7,7 @@ old-location: wmformat\iwmdrmreader2_trynextlicense.htm
 old-project: wmformat
 ms.assetid: 2658abd7-61ca-452f-92ad-93ee5050603d
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMDRMReader2, IWMDRMReader2 interface [windows Media Format], TryNextLicense method, IWMDRMReader2::TryNextLicense, IWMDRMReader2TryNextLicense, TryNextLicense method [windows Media Format], TryNextLicense method [windows Media Format], IWMDRMReader2 interface, TryNextLicense,IWMDRMReader2.TryNextLicense, wmformat.iwmdrmreader2_trynextlicense, wmsdkidl/IWMDRMReader2::TryNextLicense
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tapi3\itallocatorproperties_setbuffersize.htm
 old-project: Tapi
 ms.assetid: 5aea70fd-2078-4f51-909f-c51cb997f5ea
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: ITAllocatorProperties, ITAllocatorProperties interface [TAPI 2.2], SetBufferSize method, ITAllocatorProperties::SetBufferSize, SetBufferSize method [TAPI 2.2], SetBufferSize method [TAPI 2.2], ITAllocatorProperties interface, SetBufferSize,ITAllocatorProperties.SetBufferSize, _tapi3_itallocatorproperties_setbuffersize, tapi3.itallocatorproperties_setbuffersize, tapi3ds/ITAllocatorProperties::SetBufferSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

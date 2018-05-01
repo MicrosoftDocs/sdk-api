@@ -7,7 +7,7 @@ old-location: base\ivssdifferentialsoftwaresnapshotmgmt_adddiffarea.htm
 old-project: VSS
 ms.assetid: 7b58331c-b8a2-4333-a05d-563395d5f0c2
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: AddDiffArea method [VSS], AddDiffArea method [VSS], IVssDifferentialSoftwareSnapshotMgmt interface, AddDiffArea,IVssDifferentialSoftwareSnapshotMgmt.AddDiffArea, IVssDifferentialSoftwareSnapshotMgmt, IVssDifferentialSoftwareSnapshotMgmt interface [VSS], AddDiffArea method, IVssDifferentialSoftwareSnapshotMgmt::AddDiffArea, base.ivssdifferentialsoftwaresnapshotmgmt_adddiffarea, vsmgmt/IVssDifferentialSoftwareSnapshotMgmt::AddDiffArea
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: gdi\emrglsrecord.htm
 old-project: gdi
 ms.assetid: 58e31199-80e2-4077-a6f6-1787c5228f77
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/17/2018
 ms.keywords: "*PEMRGLSRECORD, EMRGLSRECORD, EMRGLSRECORD structure [Windows GDI], PEMRGLSRECORD, PEMRGLSRECORD structure pointer [Windows GDI], _win32_EMRGLSRECORD_str, gdi.emrglsrecord, tagEMRGLSRECORD, wingdi/EMRGLSRECORD, wingdi/PEMRGLSRECORD"
 ms.prod: windows-hardware
 ms.technology: windows-devices

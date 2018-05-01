@@ -7,7 +7,7 @@ old-location: tracelogging\traceloggingvalue.htm
 old-project: tracelogging
 ms.assetid: F4013632-3DC8-413C-B25F-64DE070FA4A8
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: TraceLoggingValue, TraceLoggingValue macro, tracelogging.traceloggingvalue, traceloggingprovider/TraceLoggingValue
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\iisdbdownloadcontentdescriptor_getcompatiblitydescriptorlengt
 old-project: mstv
 ms.assetid: b8fc770c-aa37-4f97-beb5-6e5747904a6c
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetCompatiblityDescriptorLength method [Microsoft TV Technologies], GetCompatiblityDescriptorLength method [Microsoft TV Technologies], IIsdbDownloadContentDescriptor interface, GetCompatiblityDescriptorLength,IIsdbDownloadContentDescriptor.GetCompatiblityDescriptorLength, IIsdbDownloadContentDescriptor, IIsdbDownloadContentDescriptor interface [Microsoft TV Technologies], GetCompatiblityDescriptorLength method, IIsdbDownloadContentDescriptor::GetCompatiblityDescriptorLength, dvbsiparser/IIsdbDownloadContentDescriptor::GetCompatiblityDescriptorLength, mstv.iisdbdownloadcontentdescriptor_getcompatiblitydescriptorlength
 ms.prod: windows-hardware
 ms.technology: windows-devices

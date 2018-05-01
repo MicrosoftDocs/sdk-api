@@ -7,7 +7,7 @@ old-location: automat\icreateerrorinfo_setsource.htm
 old-project: automat
 ms.assetid: 7f0e6349-9d31-4ab6-9a91-3822e81188e5
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: ICreateErrorInfo, ICreateErrorInfo interface [Automation], SetSource method, ICreateErrorInfo::SetSource, SetSource method [Automation], SetSource method [Automation], ICreateErrorInfo interface, SetSource,ICreateErrorInfo.SetSource, _oa96_ICreateErrorInfo_SetSource, automat.icreateerrorinfo_setsource, oaidl/ICreateErrorInfo::SetSource
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ICreateErrorInfo::SetSource method

@@ -7,7 +7,7 @@ old-location: tracelogging\traceloggingfunction.htm
 old-project: tracelogging
 ms.assetid: 70382367-E0A0-4E5B-A14F-863BEC0615C5
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: TraceLoggingFunction, TraceLoggingFunction macro, tracelogging.traceloggingfunction, traceloggingactivity/TraceLoggingFunction
 ms.prod: windows-hardware
 ms.technology: windows-devices

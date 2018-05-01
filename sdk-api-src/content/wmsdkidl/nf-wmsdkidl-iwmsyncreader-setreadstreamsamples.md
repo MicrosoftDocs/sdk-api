@@ -7,7 +7,7 @@ old-location: wmformat\iwmsyncreader_setreadstreamsamples.htm
 old-project: wmformat
 ms.assetid: cf998ecc-e80e-4eb3-9cba-61bd0b665d51
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMSyncReader, IWMSyncReader interface [windows Media Format], SetReadStreamSamples method, IWMSyncReader::SetReadStreamSamples, IWMSyncReaderSetReadStreamSamples, SetReadStreamSamples method [windows Media Format], SetReadStreamSamples method [windows Media Format], IWMSyncReader interface, SetReadStreamSamples,IWMSyncReader.SetReadStreamSamples, wmformat.iwmsyncreader_setreadstreamsamples, wmsdkidl/IWMSyncReader::SetReadStreamSamples
 ms.prod: windows-hardware
 ms.technology: windows-devices

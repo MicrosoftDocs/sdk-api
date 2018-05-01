@@ -7,7 +7,7 @@ old-location: ics\inetsharingconfiguration_addportmapping.htm
 old-project: ICS
 ms.assetid: 0d9e1520-6018-425c-a2f9-c408fa3025cf
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: AddPortMapping method [ICS/ICF], AddPortMapping method [ICS/ICF], INetSharingConfiguration interface, AddPortMapping,INetSharingConfiguration.AddPortMapping, INetSharingConfiguration, INetSharingConfiguration interface [ICS/ICF], AddPortMapping method, INetSharingConfiguration::AddPortMapping, _ics_inetsharingconfiguration_addportmapping, ics.inetsharingconfiguration_addportmapping, netcon/INetSharingConfiguration::AddPortMapping
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # INetSharingConfiguration::AddPortMapping method

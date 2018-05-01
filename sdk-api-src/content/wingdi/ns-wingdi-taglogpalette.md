@@ -7,7 +7,7 @@ old-location: gdi\logpalette.htm
 old-project: gdi
 ms.assetid: 99d70a0e-ac61-4a88-a500-66443e7882ad
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/17/2018
 ms.keywords: "*LPLOGPALETTE, *NPLOGPALETTE, *PLOGPALETTE, LOGPALETTE, LOGPALETTE structure [Windows GDI], _win32_LOGPALETTE_str, gdi.logpalette, tagLOGPALETTE, wingdi/LOGPALETTE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

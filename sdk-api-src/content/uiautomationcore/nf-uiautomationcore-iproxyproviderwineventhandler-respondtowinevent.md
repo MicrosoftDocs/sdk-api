@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IProxyProviderWinEventHandler_RespondToWinEvent.htm
 old-project: WinAuto
 ms.assetid: b3a63cb9-3eae-43ec-aba1-2f038ca0896f
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: IProxyProviderWinEventHandler, IProxyProviderWinEventHandler interface [Windows Accessibility], RespondToWinEvent method, IProxyProviderWinEventHandler::RespondToWinEvent, RespondToWinEvent method [Windows Accessibility], RespondToWinEvent method [Windows Accessibility], IProxyProviderWinEventHandler interface, RespondToWinEvent,IProxyProviderWinEventHandler.RespondToWinEvent, uiauto.uiauto_IProxyProviderWinEventHandler_RespondToWinEvent, uiauto_IProxyProviderWinEventHandler_RespondToWinEvent, uiautomationcore/IProxyProviderWinEventHandler::RespondToWinEvent, winauto.uiauto_IProxyProviderWinEventHandler_RespondToWinEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmp\iwmpevents3_iwmpevents3__folderscanstatechange.htm
 old-project: WMP
 ms.assetid: 07e9a49b-19a6-4ed2-b037-fe44ada920a1
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: FolderScanStateChange method [Windows Media Player], FolderScanStateChange method [Windows Media Player], IWMPEvents3 interface, FolderScanStateChange,IWMPEvents3.FolderScanStateChange, IWMPEvents3, IWMPEvents3 interface [Windows Media Player], FolderScanStateChange method, IWMPEvents3::FolderScanStateChange, IWMPEvents3FolderScanStateChange, wmp.iwmpevents3_iwmpevents3__folderscanstatechange, wmp/IWMPEvents3::FolderScanStateChange
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\ibdacreatetunerequestex_createtunerequestex.htm
 old-project: mstv
 ms.assetid: bf378da2-be79-484e-84c6-bf1669b50218
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: CreateTuneRequestEx method [Microsoft TV Technologies], CreateTuneRequestEx method [Microsoft TV Technologies], IBDACreateTuneRequestEx interface, CreateTuneRequestEx,IBDACreateTuneRequestEx.CreateTuneRequestEx, IBDACreateTuneRequestEx, IBDACreateTuneRequestEx interface [Microsoft TV Technologies], CreateTuneRequestEx method, IBDACreateTuneRequestEx::CreateTuneRequestEx, mstv.ibdacreatetunerequestex_createtunerequestex, tuner/IBDACreateTuneRequestEx::CreateTuneRequestEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

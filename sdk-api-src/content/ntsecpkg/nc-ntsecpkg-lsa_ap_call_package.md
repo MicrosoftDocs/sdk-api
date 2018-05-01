@@ -7,7 +7,7 @@ old-location: security\lsaapcallpackage.htm
 old-project: SecAuthN
 ms.assetid: be0f9886-c0f6-4361-96c7-d16da8713fc7
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/24/2018
 ms.keywords: LSA_AP_CALL_PACKAGE, LsaApCallPackage, LsaApCallPackage function [Security], _lsa_lsaapcallpackage, ntsecpkg/LsaApCallPackage, security.lsaapcallpackage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # LSA_AP_CALL_PACKAGE callback

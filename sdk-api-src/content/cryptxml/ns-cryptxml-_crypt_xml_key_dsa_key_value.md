@@ -7,7 +7,7 @@ old-location: security\crypt_xml_key_dsa_key_value.htm
 old-project: SecCrypto
 ms.assetid: 634c47c2-28ba-40ea-975d-95f5663eb0b0
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: CRYPT_XML_KEY_DSA_KEY_VALUE, CRYPT_XML_KEY_DSA_KEY_VALUE structure [Security], _CRYPT_XML_KEY_DSA_KEY_VALUE, cryptxml/CRYPT_XML_KEY_DSA_KEY_VALUE, security.crypt_xml_key_dsa_key_value
 ms.prod: windows-hardware
 ms.technology: windows-devices

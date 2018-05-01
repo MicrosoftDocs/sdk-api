@@ -7,7 +7,7 @@ old-location: cos\csc_binding.htm
 old-project: cossdk
 ms.assetid: 9267b4f1-96d1-4367-8114-3db43755ffed
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: CSC_BindToPoolThread, CSC_Binding, CSC_Binding enumeration [COM+], CSC_NoBinding, _cos_CSC_Binding, comsvcs/CSC_BindToPoolThread, comsvcs/CSC_Binding, comsvcs/CSC_NoBinding, cos.csc_binding, tagCSC_Binding
 ms.prod: windows-hardware
 ms.technology: windows-devices

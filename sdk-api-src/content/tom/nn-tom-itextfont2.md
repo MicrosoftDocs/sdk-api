@@ -7,7 +7,7 @@ old-location: controls\itextfont2.htm
 old-project: Controls
 ms.assetid: d2d43bfd-7cdf-458a-822d-e3965bfe2284
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextFont2, ITextFont2 interface [Windows Controls], ITextFont2 interface [Windows Controls], described, controls.itextfont2, tom/ITextFont2
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmp\iwmpplayer4_openplayer.htm
 old-project: WMP
 ms.assetid: e2f08758-cd72-4b6b-bc9c-86f93d1d76c2
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPPlayer4, IWMPPlayer4 interface [Windows Media Player], openPlayer method, IWMPPlayer4::openPlayer, IWMPPlayer4openPlayer, openPlayer method [Windows Media Player], openPlayer method [Windows Media Player], IWMPPlayer4 interface, openPlayer,IWMPPlayer4.openPlayer, wmp.iwmpplayer4_openplayer, wmp/IWMPPlayer4::openPlayer
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmi\chstringarray_setsize.htm
 old-project: WmiSdk
 ms.assetid: 9320b6b6-5253-419e-a293-3b9d030f5963
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: CHStringArray, CHStringArray interface [Windows Management Instrumentation], SetSize method, CHStringArray::SetSize, SetSize method [Windows Management Instrumentation], SetSize method [Windows Management Instrumentation], CHStringArray interface, SetSize,CHStringArray.SetSize, _hmm_chstringarray_setsize, chstrarr/CHStringArray::SetSize, wmi.chstringarray_setsize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CF_SYNC_ROOT_STANDARD_INFO
+req.typenames: CF_SYNC_STATUS
 topic_type:
 -	APIRef
 -	kbSyntax

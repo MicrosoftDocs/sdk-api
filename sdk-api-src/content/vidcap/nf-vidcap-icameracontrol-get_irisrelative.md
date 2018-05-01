@@ -7,7 +7,7 @@ old-location: dshow\icameracontrol_get_irisrelative.htm
 old-project: DirectShow
 ms.assetid: 15f01c00-ff18-4d58-a03b-9293a8a6a68c
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ICameraControl, ICameraControl interface [DirectShow], get_IrisRelative method, ICameraControl::get_IrisRelative, ICameraControlget_IrisRelative, dshow.icameracontrol_get_irisrelative, get_IrisRelative method [DirectShow], get_IrisRelative method [DirectShow], ICameraControl interface, get_IrisRelative,ICameraControl.get_IrisRelative, vidcap/ICameraControl::get_IrisRelative
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: VIDEOHDR, *PVIDEOHDR, *LPVIDEOHDR
+req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
 topic_type:
 -	APIRef
 -	kbSyntax

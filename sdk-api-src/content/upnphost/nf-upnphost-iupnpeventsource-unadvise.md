@@ -7,7 +7,7 @@ old-location: upnp\iupnpeventsource_unadvise.htm
 old-project: UPnP
 ms.assetid: 6ae9c53f-eb82-4396-ba85-c95e252911c8
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/25/2018
 ms.keywords: IUPnPEventSource, IUPnPEventSource interface [UPnP APIs], Unadvise method, IUPnPEventSource::Unadvise, Unadvise method [UPnP APIs], Unadvise method [UPnP APIs], IUPnPEventSource interface, Unadvise,IUPnPEventSource.Unadvise, _upnp_iupnpeventsource_unadvise, upnp.iupnpeventsource_unadvise, upnphost/IUPnPEventSource::Unadvise
 ms.prod: windows-hardware
 ms.technology: windows-devices

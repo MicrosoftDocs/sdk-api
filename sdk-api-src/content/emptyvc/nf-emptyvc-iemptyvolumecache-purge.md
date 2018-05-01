@@ -7,7 +7,7 @@ old-location: lwef\iemptyvolumecache_purge.htm
 old-project: lwef
 ms.assetid: c42430da-9d6a-42e9-bc4f-325d986c7c48
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/10/2018
 ms.keywords: IEmptyVolumeCache, IEmptyVolumeCache interface [Legacy Windows Environment Features], Purge method, IEmptyVolumeCache::Purge, Purge method [Legacy Windows Environment Features], Purge method [Legacy Windows Environment Features], IEmptyVolumeCache interface, Purge,IEmptyVolumeCache.Purge, _win32_IEmptyVolumeCache_Purge, emptyvc/IEmptyVolumeCache::Purge, lwef.iemptyvolumecache_purge, shell.iemptyvolumecache_purge
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MAPPING_SERVICE_INFO, *PMAPPING_SERVICE_INFO
+req.typenames: EMI_VERSION
 topic_type:
 -	APIRef
 -	kbSyntax

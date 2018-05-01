@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmreportscheduler_verifynamespaces.htm
 old-project: Fsrm
 ms.assetid: bb5139c8-e01f-48cf-a8a9-d3a3e5b86238
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: FsrmReportScheduler class [File Server Resource Manager], VerifyNamespaces method, IFsrmReportScheduler, IFsrmReportScheduler interface [File Server Resource Manager], VerifyNamespaces method, IFsrmReportScheduler::VerifyNamespaces, VerifyNamespaces method [File Server Resource Manager], VerifyNamespaces method [File Server Resource Manager], FsrmReportScheduler class, VerifyNamespaces method [File Server Resource Manager], IFsrmReportScheduler interface, VerifyNamespaces,IFsrmReportScheduler.VerifyNamespaces, fs.ifsrmreportscheduler_verifynamespaces, fsrm.ifsrmreportscheduler_verifynamespaces, fsrmreports/IFsrmReportScheduler::VerifyNamespaces
 ms.prod: windows-hardware
 ms.technology: windows-devices

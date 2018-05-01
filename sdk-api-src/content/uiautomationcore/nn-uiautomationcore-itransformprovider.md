@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ITransformProvider.htm
 old-project: WinAuto
 ms.assetid: cdc2f81b-cf69-469f-9139-e9a73cf8c730
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: ITransformProvider, ITransformProvider interface [Windows Accessibility], ITransformProvider interface [Windows Accessibility], described, uiauto.uiauto_ITransformProvider, uiauto_ITransformProvider, uiautomationcore/ITransformProvider, winauto.uiauto_ITransformProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices

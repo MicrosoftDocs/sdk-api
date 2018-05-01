@@ -7,7 +7,7 @@ old-location: tapi3\itmspaddress.htm
 old-project: Tapi
 ms.assetid: 246a0bcd-0dbb-4b77-a1cd-e6378eaff889
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: ITMSPAddress, ITMSPAddress interface [TAPI 2.2], ITMSPAddress interface [TAPI 2.2], described, _tapi3_itmspaddress, msp/ITMSPAddress, tapi3.itmspaddress
 ms.prod: windows-hardware
 ms.technology: windows-devices

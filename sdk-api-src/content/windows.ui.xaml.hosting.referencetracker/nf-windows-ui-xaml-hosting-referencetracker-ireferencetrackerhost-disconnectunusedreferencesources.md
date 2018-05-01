@@ -7,7 +7,7 @@ old-location: winrt\ireferencetrackerhost_disconnectunusedreferencesources.htm
 old-project: WinRT
 ms.assetid: c962299e-f813-45b8-a83b-1c1887e8c0f9
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/24/2018
 ms.keywords: DisconnectUnusedReferenceSources method [Windows Runtime], DisconnectUnusedReferenceSources method [Windows Runtime], IReferenceTrackerHost interface, DisconnectUnusedReferenceSources,IReferenceTrackerHost.DisconnectUnusedReferenceSources, IReferenceTrackerHost, IReferenceTrackerHost interface [Windows Runtime], DisconnectUnusedReferenceSources method, IReferenceTrackerHost::DisconnectUnusedReferenceSources, windows/IReferenceTrackerHost::DisconnectUnusedReferenceSources, winrt.ireferencetrackerhost_disconnectunusedreferencesources
 ms.prod: windows-hardware
 ms.technology: windows-devices

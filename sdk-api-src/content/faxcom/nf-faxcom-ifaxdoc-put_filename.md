@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxdoc_get_filename_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_7rqd.htm
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/18/2018
 ms.keywords: FaxDoc object [Fax Service], FileName property, FileName property [Fax Service], FileName property [Fax Service], FaxDoc object, IFaxDoc, IFaxDoc::put_FileName, _mfax_ifaxdoc_get_filename, fax._mfax_ifaxdoc_get_filename, fax._mfax_ifaxdoc_get_filename_vb, put_FileName,IFaxDoc.put_FileName
 ms.prod: windows-hardware
 ms.technology: windows-devices

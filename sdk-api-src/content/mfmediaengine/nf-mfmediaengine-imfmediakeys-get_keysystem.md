@@ -7,7 +7,7 @@ old-location: mf\imfmediakeys_get_keysystem.htm
 old-project: medfound
 ms.assetid: d60ee85b-b5fc-4d06-a3a2-f61ff3635d99
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFMediaKeys, IMFMediaKeys interface [Media Foundation], get_KeySystem method, IMFMediaKeys::get_KeySystem, get_KeySystem method [Media Foundation], get_KeySystem method [Media Foundation], IMFMediaKeys interface, get_KeySystem,IMFMediaKeys.get_KeySystem, mf.imfmediakeys_get_keysystem, mfmediaengine/IMFMediaKeys::get_KeySystem
 ms.prod: windows-hardware
 ms.technology: windows-devices

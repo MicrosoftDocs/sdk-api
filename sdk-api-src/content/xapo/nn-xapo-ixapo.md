@@ -7,7 +7,7 @@ old-location: xaudio2\ixapo.htm
 old-project: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.ixapo.IXAPO
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/20/2018
 ms.keywords: IXAPO, IXAPO interface [XAudio2 Audio Mixing APIs], IXAPO interface [XAudio2 Audio Mixing APIs], described, xapo/IXAPO, xaudio2.ixapo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,15 +67,6 @@ The <b>IXAPO</b> interface has these methods.
 <tr>
 <th align="left" width="37%">Method</th>
 <th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/F90FD741-7DBE-4010-BC95-1EED3089EDE5">AddRef</a>
-</td>
-<td align="left" width="63%">
-Increments the XAPO object's reference count.
-
-</td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
@@ -146,24 +137,6 @@ Called by XAudio2 to lock the input and output configurations of an XAPO allowin
 </td>
 <td align="left" width="63%">
 Runs the XAPO's digital signal processing (DSP) code on the given input and output buffers.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/730A07AF-FCD9-4BF3-BFD1-28DA8D91876F">QueryInterface</a>
-</td>
-<td align="left" width="63%">
-Retrieves the requested interface pointer if the XAPO supports it.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6A4218E5-A88A-48F1-BFF8-50F741397C7D">Release</a>
-</td>
-<td align="left" width="63%">
-Decrements the XAPO object's reference count and deletes the object if the reference count falls to zero.
 
 </td>
 </tr>

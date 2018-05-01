@@ -7,7 +7,7 @@ old-location: dshow\impegaudiodecoder_get_decoderwordsize.htm
 old-project: DirectShow
 ms.assetid: 92528359-cdbf-4490-badd-1ad20643ec1a
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IMpegAudioDecoder, IMpegAudioDecoder interface [DirectShow], get_DecoderWordSize method, IMpegAudioDecoder::get_DecoderWordSize, IMpegAudioDecodergetDecoderWordSize, dshow.impegaudiodecoder_get_decoderwordsize, get_DecoderWordSize method [DirectShow], get_DecoderWordSize method [DirectShow], IMpegAudioDecoder interface, get_DecoderWordSize,IMpegAudioDecoder.get_DecoderWordSize, mpegtype/IMpegAudioDecoder::get_DecoderWordSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

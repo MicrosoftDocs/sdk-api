@@ -7,7 +7,7 @@ old-location: controls\IRichEditOle_SaveCompleted.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditole\iricheditolesavecompleted.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: IRichEditOle, IRichEditOle interface [Windows Controls], SaveCompleted method, IRichEditOle::SaveCompleted, SaveCompleted method [Windows Controls], SaveCompleted method [Windows Controls], IRichEditOle interface, SaveCompleted,IRichEditOle.SaveCompleted, _win32_IRichEditOle_SaveCompleted, _win32_IRichEditOle_SaveCompleted_cpp, controls.IRichEditOle_SaveCompleted, controls._win32_IRichEditOle_SaveCompleted, richole/IRichEditOle::SaveCompleted
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IRichEditOle::SaveCompleted method

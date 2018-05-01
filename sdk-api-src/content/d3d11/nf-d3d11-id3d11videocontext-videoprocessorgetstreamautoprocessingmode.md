@@ -7,7 +7,7 @@ old-location: mf\id3d11videocontext_videoprocessorgetstreamautoprocessingmode.ht
 old-project: medfound
 ms.assetid: FD7B20C2-5418-4CA5-A64E-FA84D4070A10
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: ID3D11VideoContext, ID3D11VideoContext interface [Media Foundation], VideoProcessorGetStreamAutoProcessingMode method, ID3D11VideoContext::VideoProcessorGetStreamAutoProcessingMode, VideoProcessorGetStreamAutoProcessingMode method [Media Foundation], VideoProcessorGetStreamAutoProcessingMode method [Media Foundation], ID3D11VideoContext interface, VideoProcessorGetStreamAutoProcessingMode,ID3D11VideoContext.VideoProcessorGetStreamAutoProcessingMode, d3d11/ID3D11VideoContext::VideoProcessorGetStreamAutoProcessingMode, mf.id3d11videocontext_videoprocessorgetstreamautoprocessingmode
 ms.prod: windows-hardware
 ms.technology: windows-devices

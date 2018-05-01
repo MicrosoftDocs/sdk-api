@@ -7,7 +7,7 @@ old-location: p2p\peer_member_change_type.htm
 old-project: P2PSdk
 ms.assetid: ecebec4f-1dc6-481c-a2d4-cf0043729a8c
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/23/2018
 ms.keywords: PEER_MEMBER_CHANGE_TYPE, PEER_MEMBER_CHANGE_TYPE enumeration [Peer Networking], PEER_MEMBER_CONNECTED, PEER_MEMBER_DISCONNECTED, PEER_MEMBER_JOINED, PEER_MEMBER_LEFT, PEER_MEMBER_UPDATED, p2p.peer_member_change_type, p2p/ PEER_MEMBER_CHANGE_TYPE, p2p/PEER_MEMBER_CONNECTED, p2p/PEER_MEMBER_DISCONNECTED, p2p/PEER_MEMBER_JOINED, p2p/PEER_MEMBER_LEFT, p2p/PEER_MEMBER_UPDATED, peer_member_change_type_tag
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # peer_member_change_type_tag enumeration

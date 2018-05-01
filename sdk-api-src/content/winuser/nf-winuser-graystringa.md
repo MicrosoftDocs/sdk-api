@@ -7,7 +7,7 @@ old-location: gdi\graystring.htm
 old-project: gdi
 ms.assetid: b14b8c40-f97f-4e41-8d8d-687692acfda9
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/17/2018
 ms.keywords: GrayString, GrayString function [Windows GDI], GrayStringA, GrayStringW, _win32_GrayString, gdi.graystring, winuser/GrayString, winuser/GrayStringA, winuser/GrayStringW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -122,7 +122,7 @@ If either the <a href="https://msdn.microsoft.com/0c437ff8-3893-4dc3-827b-fa9ce4
 
 
 
-Without calling <b>GrayString</b>, an application can draw grayed strings on devices that support a solid gray color. The system color COLOR_GRAYTEXT is the solid-gray system color used to draw disabled text. The application can call the <a href="https://msdn.microsoft.com/165c1781-161e-4ab2-98c9-eec4e9098d09">GetSysColor</a> function to retrieve the color value of COLOR_GRAYTEXT. If the color is other than zero (black), the application can call the <a href="https://msdn.microsoft.com/3875a247-7c32-4917-bf6d-50b2a49848a6">SetTextColor</a> function to set the text color to the color value and then draw the string directly. If the retrieved color is black, the application must call <b>GrayString</b> to gray the text.
+Without calling <b>GrayString</b>, an application can draw grayed strings on devices that support a solid gray color. The system color COLOR_GRAYTEXT is the solid-gray system color used to draw disabled text. The application can call the <a href="base.getsyscolor">GetSysColor</a> function to retrieve the color value of COLOR_GRAYTEXT. If the color is other than zero (black), the application can call the <a href="https://msdn.microsoft.com/3875a247-7c32-4917-bf6d-50b2a49848a6">SetTextColor</a> function to set the text color to the color value and then draw the string directly. If the retrieved color is black, the application must call <b>GrayString</b> to gray the text.
 
 
 
@@ -136,7 +136,7 @@ Without calling <b>GrayString</b>, an application can draw grayed strings on dev
 
 
 
-<a href="https://msdn.microsoft.com/165c1781-161e-4ab2-98c9-eec4e9098d09">GetSysColor</a>
+<a href="base.getsyscolor">GetSysColor</a>
 
 
 

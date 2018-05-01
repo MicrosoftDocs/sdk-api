@@ -7,7 +7,7 @@ old-location: mstv\isbe2filescan_repairfile.htm
 old-project: mstv
 ms.assetid: 318eb0e5-2492-4ed4-8a14-764c12024f97
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: ISBE2FileScan, ISBE2FileScan interface [Microsoft TV Technologies], RepairFile method, ISBE2FileScan::RepairFile, RepairFile method [Microsoft TV Technologies], RepairFile method [Microsoft TV Technologies], ISBE2FileScan interface, RepairFile,ISBE2FileScan.RepairFile, mstv.isbe2filescan_repairfile, sbe/ISBE2FileScan::RepairFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Sbe.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ISBE2FileScan::RepairFile method

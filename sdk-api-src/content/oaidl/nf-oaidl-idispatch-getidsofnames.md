@@ -7,7 +7,7 @@ old-location: automat\idispatch_getidsofnames.htm
 old-project: automat
 ms.assetid: 6f6cf233-3481-436e-8d6a-51f93bf91619
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: GetIDsOfNames method [Automation], GetIDsOfNames method [Automation], IDispatch interface, GetIDsOfNames,IDispatch.GetIDsOfNames, IDispatch, IDispatch interface [Automation], GetIDsOfNames method, IDispatch::GetIDsOfNames, _oa96_IDispatch::GetIDsOfNames, automat.idispatch_getidsofnames, oaidl/IDispatch::GetIDsOfNames
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IDispatch::GetIDsOfNames method

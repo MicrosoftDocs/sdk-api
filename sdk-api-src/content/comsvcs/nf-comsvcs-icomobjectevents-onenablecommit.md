@@ -7,7 +7,7 @@ old-location: cos\icomobjectevents_onenablecommit.htm
 old-project: cossdk
 ms.assetid: 88fdf857-1dbd-4a6b-87c6-0d72eeeab9b4
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: IComObjectEvents, IComObjectEvents interface [COM+], OnEnableCommit method, IComObjectEvents::OnEnableCommit, OnEnableCommit method [COM+], OnEnableCommit method [COM+], IComObjectEvents interface, OnEnableCommit,IComObjectEvents.OnEnableCommit, _dtc_IComObjectEvents_OnEnableCommit, comsvcs/IComObjectEvents::OnEnableCommit, cos.icomobjectevents_onenablecommit
 ms.prod: windows-hardware
 ms.technology: windows-devices

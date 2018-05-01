@@ -7,7 +7,7 @@ old-location: properties\IPropertyChangeArray_RemoveAt.htm
 old-project: properties
 ms.assetid: 59d98675-c934-4f2d-8018-f581017d5441
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/5/2018
 ms.keywords: IPropertyChangeArray, IPropertyChangeArray interface [Windows Properties], RemoveAt method, IPropertyChangeArray::RemoveAt, RemoveAt method [Windows Properties], RemoveAt method [Windows Properties], IPropertyChangeArray interface, RemoveAt,IPropertyChangeArray.RemoveAt, _shell_IPropertyChangeArray_RemoveAt, properties.IPropertyChangeArray_RemoveAt, propsys/IPropertyChangeArray::RemoveAt, shell.IPropertyChangeArray_RemoveAt
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IPropertyChangeArray::RemoveAt method

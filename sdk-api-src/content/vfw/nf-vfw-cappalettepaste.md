@@ -7,7 +7,7 @@ old-location: multimedia\cappalettepaste.htm
 old-project: Multimedia
 ms.assetid: ccdaf58d-3d06-46c5-a812-322364a7f851
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/25/2018
 ms.keywords: "_win32_capPalettePaste, capPalettePaste, capPalettePaste macro [Windows Multimedia], multimedia.cappalettepaste, vfw/capPalettePaste"
 ms.prod: windows-hardware
 ms.technology: windows-devices

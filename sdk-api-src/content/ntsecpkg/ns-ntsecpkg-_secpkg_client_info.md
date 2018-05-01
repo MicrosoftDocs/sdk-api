@@ -7,7 +7,7 @@ old-location: security\secpkg_client_info.htm
 old-project: SecAuthN
 ms.assetid: c9c58a50-7fc2-44a7-9551-a2675410b2b5
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/24/2018
 ms.keywords: "*PSECPKG_CLIENT_INFO, PSECPKG_CLIENT_INFO, PSECPKG_CLIENT_INFO structure pointer [Security], SECPKG_CLIENT_INFO, SECPKG_CLIENT_INFO structure [Security], _SECPKG_CLIENT_INFO, _ssp_secpkg_client_info, ntsecpkg/PSECPKG_CLIENT_INFO, ntsecpkg/SECPKG_CLIENT_INFO, security.secpkg_client_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _SECPKG_CLIENT_INFO structure

@@ -7,7 +7,7 @@ old-location: mf\imfattributes_deleteallitems.htm
 old-project: medfound
 ms.assetid: 8d7ef03b-bb96-42bc-a1c3-49f8b0e499b8
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 8d7ef03b-bb96-42bc-a1c3-49f8b0e499b8, DeleteAllItems method [Media Foundation], DeleteAllItems method [Media Foundation], IMFAttributes interface, DeleteAllItems,IMFAttributes.DeleteAllItems, IMFAttributes, IMFAttributes interface [Media Foundation], DeleteAllItems method, IMFAttributes::DeleteAllItems, mf.imfattributes_deleteallitems, mfobjects/IMFAttributes::DeleteAllItems
 ms.prod: windows-hardware
 ms.technology: windows-devices

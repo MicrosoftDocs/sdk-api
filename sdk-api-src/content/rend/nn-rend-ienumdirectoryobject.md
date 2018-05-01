@@ -7,7 +7,7 @@ old-location: tapi3\ienumdirectoryobject.htm
 old-project: Tapi
 ms.assetid: 328183cd-a80b-4f1f-9e5e-9f466a4e4b43
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: IEnumDirectoryObject, IEnumDirectoryObject interface [TAPI 2.2], IEnumDirectoryObject interface [TAPI 2.2], described, _tapi3_ienumdirectoryobject, rend/IEnumDirectoryObject, tapi3.ienumdirectoryobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Rend.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IEnumDirectoryObject interface

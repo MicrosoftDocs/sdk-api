@@ -7,7 +7,7 @@ old-location: security\icertproperty_initializedecode_method.htm
 old-project: SecCertEnroll
 ms.assetid: 38b51242-cd4a-402e-b7ff-286f7bf66953
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: ICertProperty, ICertProperty interface [Security], InitializeDecode method, ICertProperty::InitializeDecode, InitializeDecode method [Security], InitializeDecode method [Security], ICertProperty interface, InitializeDecode,ICertProperty.InitializeDecode, certenroll/ICertProperty::InitializeDecode, security.icertproperty_initializedecode_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

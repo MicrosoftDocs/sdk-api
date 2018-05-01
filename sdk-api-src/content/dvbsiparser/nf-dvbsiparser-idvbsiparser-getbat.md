@@ -7,7 +7,7 @@ old-location: mstv\idvbsiparser_getbat.htm
 old-project: mstv
 ms.assetid: dc9cd50f-a9cc-436c-a416-9fc4de506a9e
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetBAT method [Microsoft TV Technologies], GetBAT method [Microsoft TV Technologies], IDvbSiParser interface, GetBAT,IDvbSiParser.GetBAT, IDvbSiParser, IDvbSiParser interface [Microsoft TV Technologies], GetBAT method, IDvbSiParser::GetBAT, IDvbSiParserGetBAT, dvbsiparser/IDvbSiParser::GetBAT, mstv.idvbsiparser_getbat
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: fwp\ikeext_integrity_algorithm0.htm
 old-project: FWP
 ms.assetid: 231d6ed9-ad41-488c-ad8b-ba64ae73f5b9
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: IKEEXT_INTEGRITY_ALGORITHM0, IKEEXT_INTEGRITY_ALGORITHM0 structure [Filtering], IKEEXT_INTEGRITY_ALGORITHM0_, fwp.ikeext_integrity_algorithm0, iketypes/IKEEXT_INTEGRITY_ALGORITHM0
 ms.prod: windows-hardware
 ms.technology: windows-devices

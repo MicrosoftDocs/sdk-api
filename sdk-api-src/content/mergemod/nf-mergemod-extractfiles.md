@@ -7,7 +7,7 @@ old-location: setup\merge_extractfiles.htm
 old-project: Msi
 ms.assetid: 846355d6-32f2-4b04-91dc-acd60445fbd9
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/26/2018
 ms.keywords: ExtractFiles, ExtractFiles method, ExtractFiles method, Merge class, Merge class, ExtractFiles method, _msi_extractfiles_method, setup.merge_extractfiles
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,7 +60,7 @@ The
 
 
 
-### -param Path
+#### - Path
 
 The fully qualified destination directory.
 

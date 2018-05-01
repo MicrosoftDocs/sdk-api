@@ -7,7 +7,7 @@ old-location: cos\icomqcevents_onqcmovetodeadqueue.htm
 old-project: cossdk
 ms.assetid: 54117583-4e8d-4ae9-8262-781f5f81636d
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: IComQCEvents, IComQCEvents interface [COM+], OnQCMoveToDeadQueue method, IComQCEvents::OnQCMoveToDeadQueue, OnQCMoveToDeadQueue method [COM+], OnQCMoveToDeadQueue method [COM+], IComQCEvents interface, OnQCMoveToDeadQueue,IComQCEvents.OnQCMoveToDeadQueue, _dtc_IComQCEvents_OnQCMoveToDeadQueue, comsvcs/IComQCEvents::OnQCMoveToDeadQueue, cos.icomqcevents_onqcmovetodeadqueue
 ms.prod: windows-hardware
 ms.technology: windows-devices

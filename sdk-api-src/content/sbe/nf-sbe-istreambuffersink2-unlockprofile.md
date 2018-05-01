@@ -7,7 +7,7 @@ old-location: mstv\istreambuffersink2_unlockprofile.htm
 old-project: mstv
 ms.assetid: 71214ca2-2613-4dbe-a72b-37d4f768ab6b
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IStreamBufferSink2, IStreamBufferSink2 interface [Microsoft TV Technologies], UnlockProfile method, IStreamBufferSink2::UnlockProfile, IStreamBufferSink2UnlockProfile, UnlockProfile method [Microsoft TV Technologies], UnlockProfile method [Microsoft TV Technologies], IStreamBufferSink2 interface, UnlockProfile,IStreamBufferSink2.UnlockProfile, mstv.istreambuffersink2_unlockprofile, sbe/IStreamBufferSink2::UnlockProfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IStreamBufferSink2::UnlockProfile method

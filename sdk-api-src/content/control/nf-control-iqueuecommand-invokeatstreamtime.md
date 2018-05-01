@@ -7,7 +7,7 @@ old-location: dshow\iqueuecommand_invokeatstreamtime.htm
 old-project: DirectShow
 ms.assetid: 350b6842-207c-47db-a3f8-9e2784d9da67
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IQueueCommand, IQueueCommand interface [DirectShow], InvokeAtStreamTime method, IQueueCommand::InvokeAtStreamTime, IQueueCommandInvokeAtStreamTime, InvokeAtStreamTime method [DirectShow], InvokeAtStreamTime method [DirectShow], IQueueCommand interface, InvokeAtStreamTime,IQueueCommand.InvokeAtStreamTime, control/IQueueCommand::InvokeAtStreamTime, dshow.iqueuecommand_invokeatstreamtime
 ms.prod: windows-hardware
 ms.technology: windows-devices

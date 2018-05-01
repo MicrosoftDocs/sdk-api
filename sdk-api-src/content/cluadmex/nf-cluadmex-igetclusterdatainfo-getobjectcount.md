@@ -7,7 +7,7 @@ old-location: mscs\igetclusterdatainfo_getobjectcount.htm
 old-project: MsCS
 ms.assetid: 20ef63e2-bcec-48bc-86e8-ab746fb72cc5
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: GetObjectCount method [Failover Cluster], GetObjectCount method [Failover Cluster], IGetClusterDataInfo interface, GetObjectCount,IGetClusterDataInfo.GetObjectCount, IGetClusterDataInfo, IGetClusterDataInfo interface [Failover Cluster], GetObjectCount method, IGetClusterDataInfo::GetObjectCount, _wolf_igetclusterdatainfo_getobjectcount, cluadmex/IGetClusterDataInfo::GetObjectCount, mscs.igetclusterdatainfo_getobjectcount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: LOG_MANAGEMENT_CALLBACKS, *PLOG_MANAGEMENT_CALLBACKS
+req.typenames: Sources
 topic_type:
 -	APIRef
 -	kbSyntax

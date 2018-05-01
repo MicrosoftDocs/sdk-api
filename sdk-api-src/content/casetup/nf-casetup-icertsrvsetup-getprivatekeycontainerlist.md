@@ -7,7 +7,7 @@ old-location: security\icertsrvsetup_getprivatekeycontainerlist.htm
 old-project: SecCrypto
 ms.assetid: a57590d3-0882-4407-b920-964c0e489f80
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: GetPrivateKeyContainerList method [Security], GetPrivateKeyContainerList method [Security], ICertSrvSetup interface, GetPrivateKeyContainerList,ICertSrvSetup.GetPrivateKeyContainerList, ICertSrvSetup, ICertSrvSetup interface [Security], GetPrivateKeyContainerList method, ICertSrvSetup::GetPrivateKeyContainerList, casetup/ICertSrvSetup::GetPrivateKeyContainerList, security.icertsrvsetup_getprivatekeycontainerlist
 ms.prod: windows-hardware
 ms.technology: windows-devices

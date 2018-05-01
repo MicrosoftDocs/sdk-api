@@ -7,7 +7,7 @@ old-location: dshow\iamextendedseeking_get_exseekcapabilities.htm
 old-project: DirectShow
 ms.assetid: caae9e8c-6d42-4bbc-a66a-bdde1009469d
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMExtendedSeeking, IAMExtendedSeeking interface [DirectShow], get_ExSeekCapabilities method, IAMExtendedSeeking::get_ExSeekCapabilities, IAMExtendedSeekingget_ExSeekCapabilities, dshow.iamextendedseeking_get_exseekcapabilities, get_ExSeekCapabilities method [DirectShow], get_ExSeekCapabilities method [DirectShow], IAMExtendedSeeking interface, get_ExSeekCapabilities,IAMExtendedSeeking.get_ExSeekCapabilities, qnetwork/IAMExtendedSeeking::get_ExSeekCapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IAMExtendedSeeking::get_ExSeekCapabilities method

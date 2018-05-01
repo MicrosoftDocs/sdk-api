@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationSpreadsheetPattern_GetItemByName.htm
 old-project: WinAuto
 ms.assetid: 4CDE57FA-1B94-408E-B1E6-3CD3CFC5AB82
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: GetItemByName method [Windows Accessibility], GetItemByName method [Windows Accessibility], IUIAutomationSpreadsheetPattern interface, GetItemByName,IUIAutomationSpreadsheetPattern.GetItemByName, IUIAutomationSpreadsheetPattern, IUIAutomationSpreadsheetPattern interface [Windows Accessibility], GetItemByName method, IUIAutomationSpreadsheetPattern::GetItemByName, uiautomationclient/IUIAutomationSpreadsheetPattern::GetItemByName, winauto.uiauto_IUIAutomationSpreadsheetPattern_GetItemByName
 ms.prod: windows-hardware
 ms.technology: windows-devices

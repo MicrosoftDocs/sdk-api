@@ -7,7 +7,7 @@ old-location: mstv\isbe2crossbar_setoutputprofile.htm
 old-project: mstv
 ms.assetid: 34067ca5-ead0-44ac-b274-dc9e3f2fb2fd
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: ISBE2Crossbar, ISBE2Crossbar interface [Microsoft TV Technologies], SetOutputProfile method, ISBE2Crossbar::SetOutputProfile, SetOutputProfile method [Microsoft TV Technologies], SetOutputProfile method [Microsoft TV Technologies], ISBE2Crossbar interface, SetOutputProfile,ISBE2Crossbar.SetOutputProfile, mstv.isbe2crossbar_setoutputprofile, sbe/ISBE2Crossbar::SetOutputProfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ISBE2Crossbar::SetOutputProfile method

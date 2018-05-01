@@ -7,7 +7,7 @@ old-location: dshow\ideferredcommand_cancel.htm
 old-project: DirectShow
 ms.assetid: 56618860-3655-42a2-ad74-ef43da08d001
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: Cancel method [DirectShow], Cancel method [DirectShow], IDeferredCommand interface, Cancel,IDeferredCommand.Cancel, IDeferredCommand, IDeferredCommand interface [DirectShow], Cancel method, IDeferredCommand::Cancel, IDeferredCommandCancel, control/IDeferredCommand::Cancel, dshow.ideferredcommand_cancel
 ms.prod: windows-hardware
 ms.technology: windows-devices

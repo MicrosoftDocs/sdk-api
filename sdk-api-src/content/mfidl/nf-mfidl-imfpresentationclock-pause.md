@@ -7,7 +7,7 @@ old-location: mf\imfpresentationclock_pause.htm
 old-project: medfound
 ms.assetid: 2eddc9a9-e3a6-46c4-83c6-446b6a7a64b0
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 2eddc9a9-e3a6-46c4-83c6-446b6a7a64b0, IMFPresentationClock, IMFPresentationClock interface [Media Foundation], Pause method, IMFPresentationClock::Pause, Pause method [Media Foundation], Pause method [Media Foundation], IMFPresentationClock interface, Pause,IMFPresentationClock.Pause, mf.imfpresentationclock_pause, mfidl/IMFPresentationClock::Pause
 ms.prod: windows-hardware
 ms.technology: windows-devices

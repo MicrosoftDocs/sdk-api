@@ -7,7 +7,7 @@ old-location: shell\IEnumSyncMgrEvents_Skip.htm
 old-project: shell
 ms.assetid: 6e8257e8-fab3-407c-a6d0-26a7a9ca0961
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IEnumSyncMgrEvents, IEnumSyncMgrEvents interface [Windows Shell], Skip method, IEnumSyncMgrEvents::Skip, Skip method [Windows Shell], Skip method [Windows Shell], IEnumSyncMgrEvents interface, Skip,IEnumSyncMgrEvents.Skip, _shell_IEnumSyncMgrEvents_Skip, shell.IEnumSyncMgrEvents_Skip, syncmgr/IEnumSyncMgrEvents::Skip
 ms.prod: windows-hardware
 ms.technology: windows-devices

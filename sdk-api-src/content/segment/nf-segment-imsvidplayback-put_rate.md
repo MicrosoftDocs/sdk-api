@@ -7,7 +7,7 @@ old-location: mstv\imsvidplayback_put_rate.htm
 old-project: mstv
 ms.assetid: a3542d7c-6333-4832-a24a-0b778ea83a4c
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidPlayback, IMSVidPlayback interface [Microsoft TV Technologies], put_Rate method, IMSVidPlayback::put_Rate, IMSVidPlaybackput_Rate, mstv.imsvidplayback_put_rate, put_Rate method [Microsoft TV Technologies], put_Rate method [Microsoft TV Technologies], IMSVidPlayback interface, put_Rate,IMSVidPlayback.put_Rate, segment/IMSVidPlayback::put_Rate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidPlayback::put_Rate method

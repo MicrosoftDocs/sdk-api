@@ -7,7 +7,7 @@ old-location: dshow\ipin_queryid.htm
 old-project: DirectShow
 ms.assetid: d4fb2713-549d-4c0d-9768-386bcffd696f
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IPin, IPin interface [DirectShow], QueryId method, IPin::QueryId, IPinQueryId, QueryId method [DirectShow], QueryId method [DirectShow], IPin interface, QueryId,IPin.QueryId, dshow.ipin_queryid, strmif/IPin::QueryId
 ms.prod: windows-hardware
 ms.technology: windows-devices

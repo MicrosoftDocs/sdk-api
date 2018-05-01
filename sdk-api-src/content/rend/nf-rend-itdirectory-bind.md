@@ -7,7 +7,7 @@ old-location: tapi3\itdirectory_bind.htm
 old-project: Tapi
 ms.assetid: 4bcf994c-3091-445e-ad79-91958e48960a
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: Bind method [TAPI 2.2], Bind method [TAPI 2.2], ITDirectory interface, Bind,ITDirectory.Bind, ITDirectory, ITDirectory interface [TAPI 2.2], Bind method, ITDirectory::Bind, _tapi3_itdirectory_bind, rend/ITDirectory::Bind, tapi3.itdirectory_bind
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Rend.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITDirectory::Bind method

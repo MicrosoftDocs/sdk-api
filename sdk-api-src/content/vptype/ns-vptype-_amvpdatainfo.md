@@ -7,7 +7,7 @@ old-location: dshow\amvpdatainfo.htm
 old-project: DirectShow
 ms.assetid: b71fc468-b0ba-4c75-b1db-b7802e598e96
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: "*LPAMVPDATAINFO, AMVPDATAINFO, AMVPDATAINFO structure [DirectShow], AMVPDATAINFOStructure, LPAMVPDATAINFO, LPAMVPDATAINFO structure pointer [DirectShow], _AMVPDATAINFO, dshow.amvpdatainfo, vptype/AMVPDATAINFO, vptype/LPAMVPDATAINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

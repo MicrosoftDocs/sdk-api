@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontrols_pause.htm
 old-project: WMP
 ms.assetid: ef8a3f0e-b424-43ab-bb42-83e9f80f5d19
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPControls, IWMPControls interface [Windows Media Player], pause method, IWMPControls::pause, IWMPControlspause, pause method [Windows Media Player], pause method [Windows Media Player], IWMPControls interface, pause,IWMPControls.pause, wmp.iwmpcontrols_pause, wmp/IWMPControls::pause
 ms.prod: windows-hardware
 ms.technology: windows-devices

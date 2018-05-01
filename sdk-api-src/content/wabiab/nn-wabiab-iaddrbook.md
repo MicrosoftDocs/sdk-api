@@ -7,7 +7,7 @@ old-location: wab\_wab_IAddrBook.htm
 old-project: wab
 ms.assetid: VS|wab|~\wab\reference\ifaces\iaddrbook\iaddrbook.htm
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 4/3/2018
 ms.keywords: IAddrBook, IAddrBook interface [Windows Address Book], IAddrBook interface [Windows Address Book], described, _wab_IAddrBook, wab._wab_IAddrBook, wabiab/IAddrBook
 ms.prod: windows-hardware
 ms.technology: windows-devices

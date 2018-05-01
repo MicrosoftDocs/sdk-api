@@ -7,7 +7,7 @@ old-location: nwifi\idot11adhocnetwork_connect.htm
 old-project: NativeWiFi
 ms.assetid: 3272e0fe-0844-4e02-bd5f-a1e1c656074d
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/13/2018
 ms.keywords: Connect method [NativeWIFI], Connect method [NativeWIFI], IDot11AdHocNetwork interface, Connect,IDot11AdHocNetwork.Connect, IDot11AdHocNetwork, IDot11AdHocNetwork interface [NativeWIFI], Connect method, IDot11AdHocNetwork::Connect, adhoc/IDot11AdHocNetwork::Connect, nwifi.idot11adhocnetwork_connect
 ms.prod: windows-hardware
 ms.technology: windows-devices

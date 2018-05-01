@@ -7,7 +7,7 @@ old-location: mstv\iservicelocationdescriptor_getnumberofelements.htm
 old-project: mstv
 ms.assetid: 134e4051-6a73-4420-b12d-3171738bd8ad
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetNumberOfElements method [Microsoft TV Technologies], GetNumberOfElements method [Microsoft TV Technologies], IServiceLocationDescriptor interface, GetNumberOfElements,IServiceLocationDescriptor.GetNumberOfElements, IServiceLocationDescriptor, IServiceLocationDescriptor interface [Microsoft TV Technologies], GetNumberOfElements method, IServiceLocationDescriptor::GetNumberOfElements, atscpsipparser/IServiceLocationDescriptor::GetNumberOfElements, mstv.iservicelocationdescriptor_getnumberofelements
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_WRITER_PAYLOAD_STREAM
+req.typenames: AsyncStatus
 topic_type:
 -	APIRef
 -	kbSyntax

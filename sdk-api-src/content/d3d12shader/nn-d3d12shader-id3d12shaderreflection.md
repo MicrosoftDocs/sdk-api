@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12shaderreflection.htm
 old-project: direct3d12
 ms.assetid: 145F2CCB-C076-42BE-8AF4-74349CDF6B02
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: ID3D12ShaderReflection, ID3D12ShaderReflection interface, ID3D12ShaderReflection interface, described, d3d12shader/ID3D12ShaderReflection, direct3d12.id3d12shaderreflection
 ms.prod: windows-hardware
 ms.technology: windows-devices

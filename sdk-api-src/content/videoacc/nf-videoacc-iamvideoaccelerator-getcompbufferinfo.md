@@ -7,7 +7,7 @@ old-location: dshow\iamvideoaccelerator_getcompbufferinfo.htm
 old-project: DirectShow
 ms.assetid: c32fb94d-396f-460a-9e69-1baaf14eff6e
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetCompBufferInfo method [DirectShow], GetCompBufferInfo method [DirectShow], IAMVideoAccelerator interface, GetCompBufferInfo,IAMVideoAccelerator.GetCompBufferInfo, IAMVideoAccelerator, IAMVideoAccelerator interface [DirectShow], GetCompBufferInfo method, IAMVideoAccelerator::GetCompBufferInfo, IAMVideoAcceleratorGetCompBufferInfo, dshow.iamvideoaccelerator_getcompbufferinfo, videoacc/IAMVideoAccelerator::GetCompBufferInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: VIDEOHDR, *PVIDEOHDR, *LPVIDEOHDR
+req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
 topic_type:
 -	APIRef
 -	kbSyntax

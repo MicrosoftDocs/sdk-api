@@ -7,7 +7,7 @@ old-location: winauto\uiauto_UiaNodeFromProviderFunction.htm
 old-project: WinAuto
 ms.assetid: 9f280fbb-ad14-43ea-bc1e-a281987c5898
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: UiaNodeFromProvider, UiaNodeFromProvider function [Windows Accessibility], uiauto.uiauto_UiaNodeFromProviderFunction, uiauto_UiaNodeFromProviderFunction, uiautomationcoreapi/UiaNodeFromProvider, winauto.uiauto_UiaNodeFromProviderFunction
 ms.prod: windows-hardware
 ms.technology: windows-devices

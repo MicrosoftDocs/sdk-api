@@ -7,7 +7,7 @@ old-location: dshow\icameracontrol_put_irisrelative.htm
 old-project: DirectShow
 ms.assetid: 76cd3b1d-a6ce-4981-b82f-7ee83e118c33
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ICameraControl, ICameraControl interface [DirectShow], put_IrisRelative method, ICameraControl::put_IrisRelative, ICameraControlput_IrisRelative, dshow.icameracontrol_put_irisrelative, put_IrisRelative method [DirectShow], put_IrisRelative method [DirectShow], ICameraControl interface, put_IrisRelative,ICameraControl.put_IrisRelative, vidcap/ICameraControl::put_IrisRelative
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: VIDEOHDR, *PVIDEOHDR, *LPVIDEOHDR
+req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
 topic_type:
 -	APIRef
 -	kbSyntax

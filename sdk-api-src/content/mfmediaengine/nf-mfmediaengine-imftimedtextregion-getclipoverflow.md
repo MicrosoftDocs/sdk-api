@@ -7,7 +7,7 @@ old-location: mf\imftimedtextregion_getclipoverflow.htm
 old-project: medfound
 ms.assetid: F48D4F1C-E00C-40BE-B292-B92C5B214F56
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetClipOverflow method [Media Foundation], GetClipOverflow method [Media Foundation], IMFTimedTextRegion interface, GetClipOverflow,IMFTimedTextRegion.GetClipOverflow, IMFTimedTextRegion, IMFTimedTextRegion interface [Media Foundation], GetClipOverflow method, IMFTimedTextRegion::GetClipOverflow, mf.imftimedtextregion_getclipoverflow, mfmediaengine/IMFTimedTextRegion::GetClipOverflow
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wua\iupdatedownloadcontentcollection__newenum.htm
 old-project: Wua_Sdk
 ms.assetid: 8f53d81b-aa86-4a35-9d69-a97e19513ce3
 ms.author: windowsdriverdev
-ms.date: 3/15/2018
+ms.date: 4/18/2018
 ms.keywords: IUpdateDownloadContentCollection, IUpdateDownloadContentCollection interface [Windows Update Agent], _NewEnum property, IUpdateDownloadContentCollection._NewEnum, IUpdateDownloadContentCollection::get__NewEnum, _NewEnum property [Windows Update Agent], _NewEnum property [Windows Update Agent], IUpdateDownloadContentCollection interface, get__NewEnum,IUpdateDownloadContentCollection.get__NewEnum, wua.iupdatedownloadcontentcollection__newenum, wuapi/IUpdateDownloadContentCollection::_NewEnum, wuapi/IUpdateDownloadContentCollection::get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices

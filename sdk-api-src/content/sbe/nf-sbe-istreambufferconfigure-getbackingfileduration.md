@@ -7,7 +7,7 @@ old-location: mstv\istreambufferconfigure_getbackingfileduration.htm
 old-project: mstv
 ms.assetid: 3d02d87f-b617-4d46-82b2-41eb4b160d0f
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetBackingFileDuration method [Microsoft TV Technologies], GetBackingFileDuration method [Microsoft TV Technologies], IStreamBufferConfigure interface, GetBackingFileDuration,IStreamBufferConfigure.GetBackingFileDuration, IStreamBufferConfigure, IStreamBufferConfigure interface [Microsoft TV Technologies], GetBackingFileDuration method, IStreamBufferConfigure::GetBackingFileDuration, IStreamBufferConfigureGetBackingFileDuration, mstv.istreambufferconfigure_getbackingfileduration, sbe/IStreamBufferConfigure::GetBackingFileDuration
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IStreamBufferConfigure::GetBackingFileDuration method

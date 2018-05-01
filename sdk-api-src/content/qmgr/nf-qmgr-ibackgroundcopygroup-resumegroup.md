@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopygroup_resumegroup.htm
 old-project: Bits
 ms.assetid: a9b0b7df-9149-4d09-a37c-c0a4f5dc6e45
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/10/2018
 ms.keywords: IBackgroundCopyGroup, IBackgroundCopyGroup interface [BITS], ResumeGroup method, IBackgroundCopyGroup::ResumeGroup, ResumeGroup method [BITS], ResumeGroup method [BITS], IBackgroundCopyGroup interface, ResumeGroup,IBackgroundCopyGroup.ResumeGroup, bits.ibackgroundcopygroup_resumegroup, qmgr/IBackgroundCopyGroup::ResumeGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: QmgrPrxy.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IBackgroundCopyGroup::ResumeGroup method

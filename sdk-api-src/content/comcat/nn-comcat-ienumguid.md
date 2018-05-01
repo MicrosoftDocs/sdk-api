@@ -7,7 +7,7 @@ old-location: com\ienumguid.htm
 old-project: com
 ms.assetid: 4f2e0f96-a471-4883-be41-d93806461020
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IEnumGUID, IEnumGUID interface [COM], IEnumGUID interface [COM], described, _com_ienumguid, com.ienumguid, comcat/IEnumGUID
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -105,4 +105,13 @@ Skips over the specified number of items in the enumeration sequence.
 </td>
 </tr>
 </table> 
+
+
+## -remarks
+
+
+
+Alternate names for this interface are <a href="https://msdn.microsoft.com/0b2a39e4-105e-4ba7-bfa4-3ecd75dae4b3">IEnumCLSID</a> and <a href="https://msdn.microsoft.com/5255b8a8-6e90-4af0-a086-37b474c644ad">IEnumCATID</a>.
+
+
 

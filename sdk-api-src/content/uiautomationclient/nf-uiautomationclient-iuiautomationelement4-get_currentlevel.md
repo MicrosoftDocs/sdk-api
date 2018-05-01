@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement4_CurrentLevel.htm
 old-project: WinAuto
 ms.assetid: 8CC086B2-F245-4BCA-BEF7-D8808040CE0D
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: CurrentLevel property [Windows Accessibility], CurrentLevel property [Windows Accessibility], IUIAutomationElement4 interface, IUIAutomationElement4, IUIAutomationElement4 interface [Windows Accessibility], CurrentLevel property, IUIAutomationElement4.CurrentLevel, IUIAutomationElement4::get_CurrentLevel, get_CurrentLevel,IUIAutomationElement4.get_CurrentLevel, uiautomationclient/IUIAutomationElement4::CurrentLevel, uiautomationclient/IUIAutomationElement4::get_CurrentLevel, winauto.uiauto_IUIAutomationElement4_CurrentLevel
 ms.prod: windows-hardware
 ms.technology: windows-devices

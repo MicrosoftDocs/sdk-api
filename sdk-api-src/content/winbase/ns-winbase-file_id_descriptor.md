@@ -59,30 +59,6 @@ Specifies the type of ID that is being used.
 
 
 
-### -field DUMMYUNIONNAME
-
-
-
-#### FileId
-
-The ID of the file to open.
-
-
-
-#### ObjectId
-
-The ID of the object to open.
-
-
-
-#### ExtendedFileId
-
-A <a href="https://msdn.microsoft.com/254ea6a9-e1dd-4b97-91f7-2693065c4bb8">FILE_ID_128</a> structure containing the 128-bit file ID of the file. This is used on ReFS file systems.
-       
-
-<b>Windows XP, Windows Server 2003, Windows Vista, Windows Server 2008, Windows 7 and Windows Server 2008 R2:  </b>This member is not supported before Windows 8 and Windows Server 2012.
-
-
 ### -field dwSize
 
 The size of this <b>FILE_ID_DESCRIPTOR</b> 
@@ -136,6 +112,30 @@ Use the <b>ExtendedFileId</b> member of the union.
 </tr>
 </table>
  
+
+
+### -field DUMMYUNIONNAME
+
+
+
+#### FileId
+
+The ID of the file to open.
+
+
+
+#### ObjectId
+
+The ID of the object to open.
+
+
+
+#### ExtendedFileId
+
+A <a href="https://msdn.microsoft.com/254ea6a9-e1dd-4b97-91f7-2693065c4bb8">FILE_ID_128</a> structure containing the 128-bit file ID of the file. This is used on ReFS file systems.
+       
+
+<b>Windows XP, Windows Server 2003, Windows Vista, Windows Server 2008, Windows 7 and Windows Server 2008 R2:  </b>This member is not supported before Windows 8 and Windows Server 2012.
 
 
 ## -see-also

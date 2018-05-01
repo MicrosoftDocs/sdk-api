@@ -7,7 +7,7 @@ old-location: termserv\wts_cache_stats.htm
 old-project: TermServ
 ms.assetid: 3c29596f-77c6-415b-bf97-529f70b9d9fe
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: "*PWTS_CACHE_STATS, 1, 2, 3, PWRDS_CACHE_STATS, PWRDS_CACHE_STATS structure pointer [Remote Desktop Services], PWTS_CACHE_STATS, PWTS_CACHE_STATS structure pointer [Remote Desktop Services], WRDS_CACHE_STATS, WRDS_CACHE_STATS structure [Remote Desktop Services], WTS_CACHE_STATS, WTS_CACHE_STATS structure [Remote Desktop Services], _WTS_CACHE_STATS, termserv.wts_cache_stats, wtsdefs/PWRDS_CACHE_STATS, wtsdefs/PWTS_CACHE_STATS, wtsdefs/WRDS_CACHE_STATS, wtsdefs/WTS_CACHE_STATS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

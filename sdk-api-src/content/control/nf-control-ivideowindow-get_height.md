@@ -7,7 +7,7 @@ old-location: dshow\ivideowindow_get_height.htm
 old-project: DirectShow
 ms.assetid: c1d29cd5-1e82-4406-b007-aa7b581d158e
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IVideoWindow, IVideoWindow interface [DirectShow], get_Height method, IVideoWindow::get_Height, IVideoWindowget_Height, control/IVideoWindow::get_Height, dshow.ivideowindow_get_height, get_Height method [DirectShow], get_Height method [DirectShow], IVideoWindow interface, get_Height,IVideoWindow.get_Height
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\opensemaphore.htm
 old-project: Sync
 ms.assetid: 2ea525b9-f33d-4b72-85e1-6d2cfdc64f5f
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: OpenSemaphore, OpenSemaphore function, OpenSemaphoreA, OpenSemaphoreW, _win32_opensemaphore, base.opensemaphore, winbase/OpenSemaphore, winbase/OpenSemaphoreA, winbase/OpenSemaphoreW
 ms.prod: windows-hardware
 ms.technology: windows-devices

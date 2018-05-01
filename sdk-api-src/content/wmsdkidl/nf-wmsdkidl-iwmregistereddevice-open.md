@@ -7,7 +7,7 @@ old-location: wmformat\iwmregistereddevice_open.htm
 old-project: wmformat
 ms.assetid: 277f2724-5d82-4db7-96d9-af392b39fccf
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMRegisteredDevice, IWMRegisteredDevice interface [windows Media Format], Open method, IWMRegisteredDevice::Open, IWMRegisteredDeviceOpen, Open method [windows Media Format], Open method [windows Media Format], IWMRegisteredDevice interface, Open,IWMRegisteredDevice.Open, wmformat.iwmregistereddevice_open, wmsdkidl/IWMRegisteredDevice::Open
 ms.prod: windows-hardware
 ms.technology: windows-devices

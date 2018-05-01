@@ -7,7 +7,7 @@ old-location: nwifi\wlansetsecuritysettings.htm
 old-project: NativeWiFi
 ms.assetid: 6038e4bc-7f07-4148-ac34-e290c8c40e99
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/13/2018
 ms.keywords: WlanSetSecuritySettings, WlanSetSecuritySettings function [NativeWIFI], nwifi.wlansetsecuritysettings, wlanapi/WlanSetSecuritySettings
 ms.prod: windows-hardware
 ms.technology: windows-devices

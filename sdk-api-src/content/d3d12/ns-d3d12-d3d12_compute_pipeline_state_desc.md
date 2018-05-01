@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_compute_pipeline_state_desc.htm
 old-project: direct3d12
 ms.assetid: 46C785C6-8294-410F-A8D5-7E5F85FA5C75
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: D3D12_COMPUTE_PIPELINE_STATE_DESC, D3D12_COMPUTE_PIPELINE_STATE_DESC structure, d3d12/D3D12_COMPUTE_PIPELINE_STATE_DESC, direct3d12.d3d12_compute_pipeline_state_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices

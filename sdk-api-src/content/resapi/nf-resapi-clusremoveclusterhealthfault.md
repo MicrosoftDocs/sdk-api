@@ -7,7 +7,7 @@ old-location: mscs\clusremoveclusterhealthfault.htm
 old-project: MsCS
 ms.assetid: ff20511b-beb0-4fa4-a8f3-cc2772cdc503
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: ClusRemoveClusterHealthFault, ClusRemoveClusterHealthFault function [Failover Cluster], mscs.clusremoveclusterhealthfault, resapi/ClusRemoveClusterHealthFault
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ targetos: Windows
 req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ClusRemoveClusterHealthFault function

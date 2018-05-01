@@ -7,7 +7,7 @@ old-location: dshow\amcoppsignature.htm
 old-project: DirectShow
 ms.assetid: eaf220cf-111f-42fa-80db-1c69cd863258
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: AMCOPPSignature, AMCOPPSignature structure [DirectShow], AMCOPPSignatureStructure, _AMCOPPSignature, dshow.amcoppsignature, strmif/AMCOPPSignature
 ms.prod: windows-hardware
 ms.technology: windows-devices

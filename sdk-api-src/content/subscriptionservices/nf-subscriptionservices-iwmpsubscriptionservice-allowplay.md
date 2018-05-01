@@ -7,7 +7,7 @@ old-location: wmp\iwmpsubscriptionservice_allowplay.htm
 old-project: WMP
 ms.assetid: 6350bf9d-f046-494f-8052-2a6f5339b4bd
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPSubscriptionService, IWMPSubscriptionService interface [Windows Media Player], allowPlay method, IWMPSubscriptionService::allowPlay, IWMPSubscriptionServiceallowPlay, allowPlay method [Windows Media Player], allowPlay method [Windows Media Player], IWMPSubscriptionService interface, allowPlay,IWMPSubscriptionService.allowPlay, subscriptionservices/IWMPSubscriptionService::allowPlay, wmp.iwmpsubscriptionservice_allowplay
 ms.prod: windows-hardware
 ms.technology: windows-devices

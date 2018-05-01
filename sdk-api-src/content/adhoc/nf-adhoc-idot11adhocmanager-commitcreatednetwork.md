@@ -7,7 +7,7 @@ old-location: nwifi\idot11adhocmanager_commitcreatednetwork.htm
 old-project: NativeWiFi
 ms.assetid: 45beb340-1c19-4b91-8e5c-8849e690e988
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/13/2018
 ms.keywords: CommitCreatedNetwork method [NativeWIFI], CommitCreatedNetwork method [NativeWIFI], IDot11AdHocManager interface, CommitCreatedNetwork,IDot11AdHocManager.CommitCreatedNetwork, IDot11AdHocManager, IDot11AdHocManager interface [NativeWIFI], CommitCreatedNetwork method, IDot11AdHocManager::CommitCreatedNetwork, adhoc/IDot11AdHocManager::CommitCreatedNetwork, nwifi.idot11adhocmanager_commitcreatednetwork
 ms.prod: windows-hardware
 ms.technology: windows-devices

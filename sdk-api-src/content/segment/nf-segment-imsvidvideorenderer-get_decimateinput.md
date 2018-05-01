@@ -7,7 +7,7 @@ old-location: mstv\imsvidvideorenderer_get_decimateinput.htm
 old-project: mstv
 ms.assetid: 1f533b85-175b-4381-b7a9-eac0d8e313ed
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidVideoRenderer, IMSVidVideoRenderer interface [Microsoft TV Technologies], get_DecimateInput method, IMSVidVideoRenderer::get_DecimateInput, IMSVidVideoRendererget_DecimateInput, get_DecimateInput method [Microsoft TV Technologies], get_DecimateInput method [Microsoft TV Technologies], IMSVidVideoRenderer interface, get_DecimateInput,IMSVidVideoRenderer.get_DecimateInput, mstv.imsvidvideorenderer_get_decimateinput, segment/IMSVidVideoRenderer::get_DecimateInput
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidVideoRenderer::get_DecimateInput method

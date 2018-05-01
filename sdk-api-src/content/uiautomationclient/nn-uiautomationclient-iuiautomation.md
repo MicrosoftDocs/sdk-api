@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomation.htm
 old-project: WinAuto
 ms.assetid: 46b31ab6-39aa-4df8-a421-6369c32a9605
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: IUIAutomation, IUIAutomation interface [Windows Accessibility], IUIAutomation interface [Windows Accessibility], described, uiauto.uiauto_IUIAutomation, uiauto_IUIAutomation, uiautomationclient/IUIAutomation, winauto.uiauto_IUIAutomation
 ms.prod: windows-hardware
 ms.technology: windows-devices

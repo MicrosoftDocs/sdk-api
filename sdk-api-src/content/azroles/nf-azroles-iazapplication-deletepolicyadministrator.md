@@ -7,7 +7,7 @@ old-location: security\iazapplication_deletepolicyadministrator.htm
 old-project: SecAuthZ
 ms.assetid: 240dbfbc-ae0f-4a8e-9cbc-b58efb258ad5
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: AzApplication object [Security], DeletePolicyAdministrator method, DeletePolicyAdministrator method [Security], DeletePolicyAdministrator method [Security], AzApplication object, DeletePolicyAdministrator method [Security], IAzApplication interface, DeletePolicyAdministrator,IAzApplication.DeletePolicyAdministrator, IAzApplication, IAzApplication interface [Security], DeletePolicyAdministrator method, IAzApplication::DeletePolicyAdministrator, azroles/IAzApplication::DeletePolicyAdministrator, security.iazapplication_deletepolicyadministrator
 ms.prod: windows-hardware
 ms.technology: windows-devices

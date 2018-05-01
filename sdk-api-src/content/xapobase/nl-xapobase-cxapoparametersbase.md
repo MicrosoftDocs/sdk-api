@@ -7,7 +7,7 @@ old-location: xaudio2\cxapoparametersbase.htm
 old-project: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.cxapoparameterbase.CXAPOParametersBase
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/20/2018
 ms.keywords: CXAPOParametersBase, CXAPOParametersBase class [XAudio2 Audio Mixing APIs], CXAPOParametersBase class [XAudio2 Audio Mixing APIs], described, xapobase/CXAPOParametersBase, xaudio2.cxapoparametersbase
 ms.prod: windows-hardware
 ms.technology: windows-devices

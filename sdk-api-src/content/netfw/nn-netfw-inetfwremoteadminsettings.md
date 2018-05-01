@@ -7,7 +7,7 @@ old-location: ics\inetfwremoteadminsettings.htm
 old-project: ICS
 ms.assetid: 35f34a53-e73b-48be-ac79-9b7ab825c6ad
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: INetFwRemoteAdminSettings, INetFwRemoteAdminSettings interface [ICS/ICF], INetFwRemoteAdminSettings interface [ICS/ICF], described, ics.inetfwremoteadminsettings, netfw/INetFwRemoteAdminSettings
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # INetFwRemoteAdminSettings interface

@@ -7,7 +7,7 @@ old-location: dhcp\dhcpsetoptioninfo.htm
 old-project: DHCP
 ms.assetid: 97cfe347-f4ca-4512-a33a-4da4532c4290
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/7/2018
 ms.keywords: DhcpSetOptionInfo, DhcpSetOptionInfo function [DHCP], dhcp.dhcpsetoptioninfo, dhcpsapi/DhcpSetOptionInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

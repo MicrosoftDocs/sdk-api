@@ -7,7 +7,7 @@ old-location: wpdauto\iportabledevicewebcontrol_getdevicefromid.htm
 old-project: wpdauto
 ms.assetid: ba375082-3f4f-44d7-96d3-bf8151408b9e
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/5/2018
 ms.keywords: GetDeviceFromId method [WPD Automation], GetDeviceFromId method [WPD Automation], IPortableDeviceWebControl interface, GetDeviceFromId,IPortableDeviceWebControl.GetDeviceFromId, IPortableDeviceWebControl, IPortableDeviceWebControl interface [WPD Automation], GetDeviceFromId method, IPortableDeviceWebControl::GetDeviceFromId, portabledeviceapi/IPortableDeviceWebControl::GetDeviceFromId, wpdauto.iportabledevicewebcontrol_getdevicefromid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: WPD_WHITE_BALANCE_SETTINGS
+req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IPortableDeviceWebControl::GetDeviceFromId method

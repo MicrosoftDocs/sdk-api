@@ -7,7 +7,7 @@ old-location: shell\IUserAccountChangeCallback_OnPictureChange.htm
 old-project: shell
 ms.assetid: 9e524edc-3921-4fec-9999-4fd9f51f347b
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IUserAccountChangeCallback, IUserAccountChangeCallback interface [Windows Shell], OnPictureChange method, IUserAccountChangeCallback::OnPictureChange, OnPictureChange method [Windows Shell], OnPictureChange method [Windows Shell], IUserAccountChangeCallback interface, OnPictureChange,IUserAccountChangeCallback.OnPictureChange, _shell_IUserAccountChangeCallback_OnPictureChange, shell.IUserAccountChangeCallback_OnPictureChange, shobjidl/IUserAccountChangeCallback::OnPictureChange
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\imftimedtextstyle_getfontsize.htm
 old-project: medfound
 ms.assetid: A640F042-80BE-4454-B974-F7D076E72737
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetFontSize method [Media Foundation], GetFontSize method [Media Foundation], IMFTimedTextStyle interface, GetFontSize,IMFTimedTextStyle.GetFontSize, IMFTimedTextStyle, IMFTimedTextStyle interface [Media Foundation], GetFontSize method, IMFTimedTextStyle::GetFontSize, mf.imftimedtextstyle_getfontsize, mfmediaengine/IMFTimedTextStyle::GetFontSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

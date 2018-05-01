@@ -7,7 +7,7 @@ old-location: termserv\iwrdsprotocollogonerrorredirector_onbeginpainting.htm
 old-project: TermServ
 ms.assetid: cc044746-1127-44a3-993d-ca2445c99ff6
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: IWRdsProtocolLogonErrorRedirector, IWRdsProtocolLogonErrorRedirector interface [Remote Desktop Services], OnBeginPainting method, IWRdsProtocolLogonErrorRedirector::OnBeginPainting, OnBeginPainting method [Remote Desktop Services], OnBeginPainting method [Remote Desktop Services], IWRdsProtocolLogonErrorRedirector interface, OnBeginPainting,IWRdsProtocolLogonErrorRedirector.OnBeginPainting, termserv.iwrdsprotocollogonerrorredirector_onbeginpainting, wtsprotocol/IWRdsProtocolLogonErrorRedirector::OnBeginPainting
 ms.prod: windows-hardware
 ms.technology: windows-devices

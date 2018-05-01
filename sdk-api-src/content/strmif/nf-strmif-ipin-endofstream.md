@@ -7,7 +7,7 @@ old-location: dshow\ipin_endofstream.htm
 old-project: DirectShow
 ms.assetid: b0cca250-9603-4d58-8af5-5b272730e5fa
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: EndOfStream method [DirectShow], EndOfStream method [DirectShow], IPin interface, EndOfStream,IPin.EndOfStream, IPin, IPin interface [DirectShow], EndOfStream method, IPin::EndOfStream, IPinEndOfStream, dshow.ipin_endofstream, strmif/IPin::EndOfStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

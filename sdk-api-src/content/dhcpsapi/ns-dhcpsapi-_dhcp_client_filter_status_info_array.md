@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_client_filter_status_info_array.htm
 old-project: DHCP
 ms.assetid: 3145befc-9274-4719-9cd7-1f6426a86fba
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/7/2018
 ms.keywords: "*LPDHCP_CLIENT_FILTER_STATUS_INFO_ARRAY, DHCP_CLIENT_FILTER_STATUS_INFO_ARRAY, DHCP_CLIENT_FILTER_STATUS_INFO_ARRAY structure [DHCP], PDHCP_CLIENT_FILTER_STATUS_INFO_ARRAY, PDHCP_CLIENT_FILTER_STATUS_INFO_ARRAY structure pointer [DHCP], _DHCP_CLIENT_FILTER_STATUS_INFO_ARRAY, dhcp.dhcp_client_filter_status_info_array, dhcpsapi/DHCP_CLIENT_FILTER_STATUS_INFO_ARRAY, dhcpsapi/PDHCP_CLIENT_FILTER_STATUS_INFO_ARRAY"
 ms.prod: windows-hardware
 ms.technology: windows-devices

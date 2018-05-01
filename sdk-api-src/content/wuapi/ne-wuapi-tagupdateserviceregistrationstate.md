@@ -7,7 +7,7 @@ old-location: wua\updateserviceregistrationstate.htm
 old-project: Wua_Sdk
 ms.assetid: 798d1392-a8dc-4063-b33d-159a507161f1
 ms.author: windowsdriverdev
-ms.date: 3/15/2018
+ms.date: 4/18/2018
 ms.keywords: UpdateServiceRegistrationState, UpdateServiceRegistrationState enumeration [Windows Update Agent], tagUpdateServiceRegistrationState, usrsNotRegistered, usrsRegistered, usrsRegistrationPending, wua.updateserviceregistrationstate, wuapi/UpdateServiceRegistrationState, wuapi/usrsNotRegistered, wuapi/usrsRegistered, wuapi/usrsRegistrationPending
 ms.prod: windows-hardware
 ms.technology: windows-devices

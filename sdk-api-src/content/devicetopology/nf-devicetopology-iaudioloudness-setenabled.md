@@ -7,7 +7,7 @@ old-location: coreaudio\iaudioloudness_setenabled.htm
 old-project: CoreAudio
 ms.assetid: a9102346-e853-40ae-ae10-a3e864ec5f17
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: IAudioLoudness, IAudioLoudness interface [Core Audio], SetEnabled method, IAudioLoudness::SetEnabled, IAudioLoudnessSetEnabled, SetEnabled method [Core Audio], SetEnabled method [Core Audio], IAudioLoudness interface, SetEnabled,IAudioLoudness.SetEnabled, coreaudio.iaudioloudness_setenabled, devicetopology/IAudioLoudness::SetEnabled
 ms.prod: windows-hardware
 ms.technology: windows-devices

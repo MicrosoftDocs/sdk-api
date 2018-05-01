@@ -7,7 +7,7 @@ old-location: wmp\iwmpnoderealestatehost_ondesiredsizechange.htm
 old-project: WMP
 ms.assetid: 339bfed3-8688-4474-a280-f1b0a5a5c597
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPNodeRealEstateHost, IWMPNodeRealEstateHost interface [Windows Media Player], OnDesiredSizeChange method, IWMPNodeRealEstateHost::OnDesiredSizeChange, IWMPNodeRealEstateHostOnDesiredSizeChangeRendering, OnDesiredSizeChange method [Windows Media Player], OnDesiredSizeChange method [Windows Media Player], IWMPNodeRealEstateHost interface, OnDesiredSizeChange,IWMPNodeRealEstateHost.OnDesiredSizeChange, wmp.iwmpnoderealestatehost_ondesiredsizechange, wmprealestate/IWMPNodeRealEstateHost::OnDesiredSizeChange
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mscs\iwcwizardcallback_addwizardpage.htm
 old-project: MsCS
 ms.assetid: e5ce7798-c1e6-47b6-a1bf-1262b3511b22
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: AddWizardPage method [Failover Cluster], AddWizardPage method [Failover Cluster], IWCWizardCallback interface, AddWizardPage,IWCWizardCallback.AddWizardPage, IWCWizardCallback, IWCWizardCallback interface [Failover Cluster], AddWizardPage method, IWCWizardCallback::AddWizardPage, _wolf_iwcwizardcallback_addwizardpage, cluadmex/IWCWizardCallback::AddWizardPage, mscs.iwcwizardcallback_addwizardpage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: LOG_MANAGEMENT_CALLBACKS, *PLOG_MANAGEMENT_CALLBACKS
+req.typenames: Sources
 topic_type:
 -	APIRef
 -	kbSyntax

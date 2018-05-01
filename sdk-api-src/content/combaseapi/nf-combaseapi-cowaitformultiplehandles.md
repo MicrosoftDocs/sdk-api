@@ -7,7 +7,7 @@ old-location: com\cowaitformultiplehandles.htm
 old-project: com
 ms.assetid: 3eeecd34-aa94-4a48-8b41-167a71b52860
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: CoWaitForMultipleHandles, CoWaitForMultipleHandles function [COM], _com_CoWaitForMultipleHandles, com.cowaitformultiplehandles, combaseapi/CoWaitForMultipleHandles
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\bcryptquerycontextconfiguration.htm
 old-project: SecCNG
 ms.assetid: 3e2ae471-cad6-4bfe-9e30-7b2a7014bc08
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: BCryptQueryContextConfiguration, BCryptQueryContextConfiguration function [Security], CRYPT_DOMAIN, CRYPT_LOCAL, bcrypt/BCryptQueryContextConfiguration, security.bcryptquerycontextconfiguration
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: coreaudio\ispatialaudioclient_getmaxframecount.htm
 old-project: CoreAudio
 ms.assetid: CA28103B-6C9C-46C8-9C21-73573B42DDC4
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: GetMaxFrameCount method [Core Audio], GetMaxFrameCount method [Core Audio], ISpatialAudioClient interface, GetMaxFrameCount,ISpatialAudioClient.GetMaxFrameCount, ISpatialAudioClient, ISpatialAudioClient interface [Core Audio], GetMaxFrameCount method, ISpatialAudioClient::GetMaxFrameCount, coreaudio.ispatialaudioclient_getmaxframecount, spatialaudioclient/ISpatialAudioClient::GetMaxFrameCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

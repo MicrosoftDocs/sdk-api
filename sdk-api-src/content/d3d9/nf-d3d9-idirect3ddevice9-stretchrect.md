@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3ddevice9__stretchrect.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__stretchrect.htm
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/10/2018
 ms.keywords: IDirect3DDevice9, IDirect3DDevice9 interface [Direct3D 9], StretchRect method, IDirect3DDevice9::StretchRect, StretchRect method [Direct3D 9], StretchRect method [Direct3D 9], IDirect3DDevice9 interface, StretchRect,IDirect3DDevice9.StretchRect, d3d9helper/IDirect3DDevice9::StretchRect, direct3d9.idirect3ddevice9__stretchrect, fef1baf8-c226-1e9b-4d7e-3fad08fc1652
 ms.prod: windows-hardware
 ms.technology: windows-devices

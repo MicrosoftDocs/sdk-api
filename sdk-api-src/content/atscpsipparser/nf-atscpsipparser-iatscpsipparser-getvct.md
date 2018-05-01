@@ -7,7 +7,7 @@ old-location: mstv\iatscpsipparser_getvct.htm
 old-project: mstv
 ms.assetid: d3df008e-020f-4ed3-9422-2d5f0f0b865f
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetVCT method [Microsoft TV Technologies], GetVCT method [Microsoft TV Technologies], IAtscPsipParser interface, GetVCT,IAtscPsipParser.GetVCT, IAtscPsipParser, IAtscPsipParser interface [Microsoft TV Technologies], GetVCT method, IAtscPsipParser::GetVCT, IAtscPsipParserGetVCT, atscpsipparser/IAtscPsipParser::GetVCT, mstv.iatscpsipparser_getvct
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_WRITER_PAYLOAD_STREAM
+req.typenames: AsyncStatus
 topic_type:
 -	APIRef
 -	kbSyntax

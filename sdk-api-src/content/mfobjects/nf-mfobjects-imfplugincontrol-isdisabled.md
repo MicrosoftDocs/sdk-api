@@ -7,7 +7,7 @@ old-location: mf\imfplugincontrol_imfplugincontrol__isdisabled.htm
 old-project: medfound
 ms.assetid: 75f4f3a2-198d-41c0-b0fa-4a1fbefad7b6
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFPluginControl, IMFPluginControl interface [Media Foundation], IsDisabled method, IMFPluginControl::IsDisabled, IsDisabled method [Media Foundation], IsDisabled method [Media Foundation], IMFPluginControl interface, IsDisabled,IMFPluginControl.IsDisabled, mf.imfplugincontrol_imfplugincontrol__isdisabled, mfobjects/IMFPluginControl::IsDisabled
 ms.prod: windows-hardware
 ms.technology: windows-devices

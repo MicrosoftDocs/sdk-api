@@ -7,7 +7,7 @@ old-location: mstv\imsvidrect_get_height.htm
 old-project: mstv
 ms.assetid: 83925bca-8cb2-4f79-9aca-1bee0fb4a96a
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidRect, IMSVidRect interface [Microsoft TV Technologies], get_Height method, IMSVidRect::get_Height, IMSVidRectget_Height, get_Height method [Microsoft TV Technologies], get_Height method [Microsoft TV Technologies], IMSVidRect interface, get_Height,IMSVidRect.get_Height, mstv.imsvidrect_get_height, segment/IMSVidRect::get_Height
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidRect::get_Height method

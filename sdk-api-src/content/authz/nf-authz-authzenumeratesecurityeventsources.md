@@ -7,7 +7,7 @@ old-location: security\authzenumeratesecurityeventsources.htm
 old-project: SecAuthZ
 ms.assetid: 2a20ccc9-f2ac-41e4-9d86-745004775e67
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: AuthzEnumerateSecurityEventSources, AuthzEnumerateSecurityEventSources function [Security], authz/AuthzEnumerateSecurityEventSources, security.authzenumeratesecurityeventsources
 ms.prod: windows-hardware
 ms.technology: windows-devices

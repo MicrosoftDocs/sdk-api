@@ -7,7 +7,7 @@ old-location: security\azauthorizationstore_domaintimeout.htm
 old-project: SecAuthZ
 ms.assetid: e512641d-a282-41f6-a7d8-5383ad43cd5b
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: AzAuthorizationStore object [Security], DomainTimeout property, DomainTimeout property [Security], DomainTimeout property [Security], AzAuthorizationStore object, DomainTimeout property [Security], IAzAuthorizationStore interface, IAzAuthorizationStore, IAzAuthorizationStore interface [Security], DomainTimeout property, IAzAuthorizationStore.DomainTimeout, IAzAuthorizationStore::get_DomainTimeout, IAzAuthorizationStore::put_DomainTimeout, azroles/IAzAuthorizationStore::DomainTimeout, azroles/IAzAuthorizationStore::get_DomainTimeout, azroles/IAzAuthorizationStore::put_DomainTimeout, get_DomainTimeout,IAzAuthorizationStore.get_DomainTimeout, security.azauthorizationstore_domaintimeout
 ms.prod: windows-hardware
 ms.technology: windows-devices

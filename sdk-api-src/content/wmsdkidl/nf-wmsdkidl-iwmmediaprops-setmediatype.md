@@ -7,7 +7,7 @@ old-location: wmformat\iwmmediaprops_setmediatype.htm
 old-project: wmformat
 ms.assetid: 7a89bf24-6b76-4645-8f39-f1979029d67e
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMMediaProps, IWMMediaProps interface [windows Media Format], SetMediaType method, IWMMediaProps::SetMediaType, IWMMediaPropsSetMediaType, SetMediaType method [windows Media Format], SetMediaType method [windows Media Format], IWMMediaProps interface, SetMediaType,IWMMediaProps.SetMediaType, wmformat.iwmmediaprops_setmediatype, wmsdkidl/IWMMediaProps::SetMediaType
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmformat\iwmheaderinfo_getscriptcount.htm
 old-project: wmformat
 ms.assetid: c1a0b35c-db05-402a-9bde-684bead1eedf
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: GetScriptCount method [windows Media Format], GetScriptCount method [windows Media Format], IWMHeaderInfo interface, GetScriptCount method [windows Media Format], IWMHeaderInfo2 interface, GetScriptCount method [windows Media Format], IWMHeaderInfo3 interface, GetScriptCount,IWMHeaderInfo.GetScriptCount, IWMHeaderInfo, IWMHeaderInfo interface [windows Media Format], GetScriptCount method, IWMHeaderInfo2 interface [windows Media Format], GetScriptCount method, IWMHeaderInfo2::GetScriptCount, IWMHeaderInfo3 interface [windows Media Format], GetScriptCount method, IWMHeaderInfo3::GetScriptCount, IWMHeaderInfo::GetScriptCount, IWMHeaderInfoGetScriptCount, wmformat.iwmheaderinfo_getscriptcount, wmsdkidl/IWMHeaderInfo2::GetScriptCount, wmsdkidl/IWMHeaderInfo3::GetScriptCount, wmsdkidl/IWMHeaderInfo::GetScriptCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

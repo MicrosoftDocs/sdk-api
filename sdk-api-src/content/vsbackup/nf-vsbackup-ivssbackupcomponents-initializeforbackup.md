@@ -7,7 +7,7 @@ old-location: base\ivssbackupcomponents_initializeforbackup.htm
 old-project: VSS
 ms.assetid: df469964-c954-4f79-b88f-a521157a0c66
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: IVssBackupComponents, IVssBackupComponents interface [VSS], InitializeForBackup method, IVssBackupComponents::InitializeForBackup, InitializeForBackup method [VSS], InitializeForBackup method [VSS], IVssBackupComponents interface, InitializeForBackup,IVssBackupComponents.InitializeForBackup, _win32_ivssbackupcomponents_initializeforbackup, base.ivssbackupcomponents_initializeforbackup, vsbackup/IVssBackupComponents::InitializeForBackup
 ms.prod: windows-hardware
 ms.technology: windows-devices

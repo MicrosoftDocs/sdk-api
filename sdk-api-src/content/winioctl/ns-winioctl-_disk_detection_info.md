@@ -58,28 +58,6 @@ Contains detected drive parameters.
 
 
 
-### -field DUMMYUNIONNAME
-
- 
-
-
-### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME
-
- 
-
-
-### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.Int13
-
-If <b>DetectionType</b> is DetectInt13, the union is a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552624">DISK_INT13_INFO</a> structure.
-
-
-### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.ExInt13
-
-If <b>DetectionType</b> is DetectExInt13, the union is a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552610">DISK_EX_INT13_INFO</a> structure.
-
-
 ### -field SizeOfDetectInfo
 
 The size of the structure, in bytes.
@@ -131,6 +109,28 @@ The disk does not have an Int13 or an extended Int13 partition.
 </tr>
 </table>
  
+
+
+### -field DUMMYUNIONNAME
+
+ 
+
+
+### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME
+
+ 
+
+
+### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.Int13
+
+If <b>DetectionType</b> is DetectInt13, the union is a 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552624">DISK_INT13_INFO</a> structure.
+
+
+### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.ExInt13
+
+If <b>DetectionType</b> is DetectExInt13, the union is a 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552610">DISK_EX_INT13_INFO</a> structure.
 
 
 ## -see-also

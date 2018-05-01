@@ -7,7 +7,7 @@ old-location: winprog\fcache_read_callback.htm
 old-project: DevNotes
 ms.assetid: 9fcdbca6-95db-4ec1-b81c-3681e9e2bffb
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/13/2018
 ms.keywords: CACHE_READ_CALLBACK, CACHE_READ_CALLBACK function pointer [Windows API], filehc/CACHE_READ_CALLBACK, winprog.fcache_read_callback
 ms.prod: windows-hardware
 ms.technology: windows-devices

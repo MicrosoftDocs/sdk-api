@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxstatus_get_sendername_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_54x1.htm
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/18/2018
 ms.keywords: FaxStatus object [Fax Service], SenderName property, IFaxStatus, IFaxStatus::get_SenderName, SenderName property [Fax Service], SenderName property [Fax Service], FaxStatus object, _mfax_ifaxstatus_get_sendername, fax._mfax_ifaxstatus_get_sendername, fax._mfax_ifaxstatus_get_sendername_vb, get_SenderName,IFaxStatus.get_SenderName
 ms.prod: windows-hardware
 ms.technology: windows-devices

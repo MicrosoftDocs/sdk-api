@@ -7,7 +7,7 @@ old-location: fwp\dl_address_type.htm
 old-project: FWP
 ms.assetid: 1ef0195a-af46-4eb3-8cc0-0408b644a7e9
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: "*PDL_ADDRESS_TYPE, DL_ADDRESS_TYPE, DL_ADDRESS_TYPE enumeration [Filtering], DlBroadcast, DlMulticast, DlUnicast, PDL_ADDRESS_TYPE, PDL_ADDRESS_TYPE enumeration pointer [Filtering], __MIDL___MIDL_itf_fwpmtypes_0000_0000_0001, fwp.dl_address_type, netiodef/DL_ADDRESS_TYPE, netiodef/DlBroadcast, netiodef/DlMulticast, netiodef/DlUnicast, netiodef/PDL_ADDRESS_TYPE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

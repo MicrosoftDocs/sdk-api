@@ -7,7 +7,7 @@ old-location: mf\imfsensordevice_getstreamattributescount.htm
 old-project: medfound
 ms.assetid: C6A0C4E6-7939-42C1-A499-7C92D83CB418
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetStreamAttributesCount method [Media Foundation], GetStreamAttributesCount method [Media Foundation], IMFSensorDevice interface, GetStreamAttributesCount,IMFSensorDevice.GetStreamAttributesCount, IMFSensorDevice, IMFSensorDevice interface [Media Foundation], GetStreamAttributesCount method, IMFSensorDevice::GetStreamAttributesCount, mf.imfsensordevice_getstreamattributescount, mfidl/IMFSensorDevice::GetStreamAttributesCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

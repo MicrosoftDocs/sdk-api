@@ -7,7 +7,7 @@ old-location: wmp\iwmpmediacollection_getbyauthor.htm
 old-project: WMP
 ms.assetid: 415dfbe5-c709-4674-bcdd-38742150d11f
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPMediaCollection, IWMPMediaCollection interface [Windows Media Player], getByAuthor method, IWMPMediaCollection::getByAuthor, IWMPMediaCollectiongetByAuthor, getByAuthor method [Windows Media Player], getByAuthor method [Windows Media Player], IWMPMediaCollection interface, getByAuthor,IWMPMediaCollection.getByAuthor, wmp.iwmpmediacollection_getbyauthor, wmp/IWMPMediaCollection::getByAuthor
 ms.prod: windows-hardware
 ms.technology: windows-devices

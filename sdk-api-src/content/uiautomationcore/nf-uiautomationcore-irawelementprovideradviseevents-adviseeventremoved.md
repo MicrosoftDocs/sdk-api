@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IRawElementProviderAdviseEvents_AdviseEventRemoved.
 old-project: WinAuto
 ms.assetid: 42c9aeeb-dc08-4c13-ae86-2c0fb93e5c17
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: AdviseEventRemoved method [Windows Accessibility], AdviseEventRemoved method [Windows Accessibility], IRawElementProviderAdviseEvents interface, AdviseEventRemoved,IRawElementProviderAdviseEvents.AdviseEventRemoved, IRawElementProviderAdviseEvents, IRawElementProviderAdviseEvents interface [Windows Accessibility], AdviseEventRemoved method, IRawElementProviderAdviseEvents::AdviseEventRemoved, uiauto.uiauto_IRawElementProviderAdviseEvents_AdviseEventRemoved, uiauto_IRawElementProviderAdviseEvents_AdviseEventRemoved, uiautomationcore/IRawElementProviderAdviseEvents::AdviseEventRemoved, winauto.uiauto_IRawElementProviderAdviseEvents_AdviseEventRemoved
 ms.prod: windows-hardware
 ms.technology: windows-devices

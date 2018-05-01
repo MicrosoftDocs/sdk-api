@@ -7,7 +7,7 @@ old-location: p2p\drtcreateipv6udptransport.htm
 old-project: P2PSdk
 ms.assetid: def3120b-98b6-4e31-8166-822cea7fea69
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/23/2018
 ms.keywords: DrtCreateIpv6UdpTransport, DrtCreateIpv6UdpTransport function [Peer Networking], drt/DrtCreateIpv6UdpTransport, p2p.drtcreateipv6udptransport
 ms.prod: windows-hardware
 ms.technology: windows-devices

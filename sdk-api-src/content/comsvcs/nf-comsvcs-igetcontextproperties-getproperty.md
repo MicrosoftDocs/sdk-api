@@ -7,7 +7,7 @@ old-location: cos\igetcontextproperties_getproperty.htm
 old-project: cossdk
 ms.assetid: 920938a9-44b1-4473-8204-1129b9599a72
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: GetProperty method [COM+], GetProperty method [COM+], IGetContextProperties interface, GetProperty,IGetContextProperties.GetProperty, IGetContextProperties, IGetContextProperties interface [COM+], GetProperty method, IGetContextProperties::GetProperty, _cos_IGetContextProperties_GetProperty, comsvcs/IGetContextProperties::GetProperty, cos.igetcontextproperties_getproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

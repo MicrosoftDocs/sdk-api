@@ -7,7 +7,7 @@ old-location: base\device_media_info_str.htm
 old-project: DevIO
 ms.assetid: 90367411-3008-4e37-9884-e586fc5162d9
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/3/2018
 ms.keywords: "*PDEVICE_MEDIA_INFO, DEVICE_MEDIA_INFO, DEVICE_MEDIA_INFO structure, MEDIA_CURRENTLY_MOUNTED, MEDIA_ERASEABLE, MEDIA_READ_ONLY, MEDIA_READ_WRITE, MEDIA_WRITE_ONCE, MEDIA_WRITE_PROTECTED, PDEVICE_MEDIA_INFO, PDEVICE_MEDIA_INFO structure pointer, _DEVICE_MEDIA_INFO, _win32_device_media_info_str, base.device_media_info_str, winioctl/DEVICE_MEDIA_INFO, winioctl/PDEVICE_MEDIA_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -203,26 +203,6 @@ A structure that contains the following members.
       
 
 
-### -field DeviceSpecific.TapeInfo.BusSpecificData
-
-A union that contains the following members.
-
-
-### -field DeviceSpecific.TapeInfo.BusSpecificData.ScsiInformation
-
-A structure that contains the following members.
-
-
-### -field DeviceSpecific.TapeInfo.BusSpecificData.ScsiInformation.MediumType
-
-The SCSI-specific medium type.
-
-
-### -field DeviceSpecific.TapeInfo.BusSpecificData.ScsiInformation.DensityCode
-
-The SCSI-specific current operating density for read/write operations.
-
-
 ### -field DeviceSpecific.TapeInfo.MediaType
 
 The media type. This member can be one of the values from the 
@@ -268,6 +248,26 @@ The current block size, in bytes.
 
 The type of bus to which the tape drive is connected. This members can be one of the 
         <a href="https://msdn.microsoft.com/library/windows/hardware/ff566356">STORAGE_BUS_TYPE</a> enumeration values.
+
+
+### -field DeviceSpecific.TapeInfo.BusSpecificData
+
+A union that contains the following members.
+
+
+### -field DeviceSpecific.TapeInfo.BusSpecificData.ScsiInformation
+
+A structure that contains the following members.
+
+
+### -field DeviceSpecific.TapeInfo.BusSpecificData.ScsiInformation.MediumType
+
+The SCSI-specific medium type.
+
+
+### -field DeviceSpecific.TapeInfo.BusSpecificData.ScsiInformation.DensityCode
+
+The SCSI-specific current operating density for read/write operations.
 
 
 ## -see-also

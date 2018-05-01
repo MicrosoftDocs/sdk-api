@@ -7,7 +7,7 @@ old-location: dshow\ivideoframestep_step.htm
 old-project: DirectShow
 ms.assetid: 1366b8b4-ea7a-4528-8a5a-03a3de265d89
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IVideoFrameStep, IVideoFrameStep interface [DirectShow], Step method, IVideoFrameStep::Step, IVideoFrameStepStep, Step method [DirectShow], Step method [DirectShow], IVideoFrameStep interface, Step,IVideoFrameStep.Step, dshow.ivideoframestep_step, strmif/IVideoFrameStep::Step
 ms.prod: windows-hardware
 ms.technology: windows-devices

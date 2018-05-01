@@ -7,7 +7,7 @@ old-location: wmi\iwbempath_getclassname.htm
 old-project: WmiSdk
 ms.assetid: d7555d66-38d6-4d87-a241-6cce8674fa44
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: GetClassName method [Windows Management Instrumentation], GetClassName method [Windows Management Instrumentation], IWbemPath interface, GetClassName,IWbemPath.GetClassName, IWbemPath, IWbemPath interface [Windows Management Instrumentation], GetClassName method, IWbemPath::GetClassName, _hmm_iwbempath_getclassname, wmi.iwbempath_getclassname, wmiutils/IWbemPath::GetClassName
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmsetting_getactionrunlimitinterval.htm
 old-project: Fsrm
 ms.assetid: cbcd5532-4077-4a5c-94d4-e1fb636e6dda
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: FsrmSetting class [File Server Resource Manager], GetActionRunLimitInterval method, GetActionRunLimitInterval method [File Server Resource Manager], GetActionRunLimitInterval method [File Server Resource Manager], FsrmSetting class, GetActionRunLimitInterval method [File Server Resource Manager], IFsrmSetting interface, GetActionRunLimitInterval,IFsrmSetting.GetActionRunLimitInterval, IFsrmSetting, IFsrmSetting interface [File Server Resource Manager], GetActionRunLimitInterval method, IFsrmSetting::GetActionRunLimitInterval, fs.ifsrmsetting_getactionrunlimitinterval, fsrm.ifsrmsetting_getactionrunlimitinterval, fsrm/IFsrmSetting::GetActionRunLimitInterval
 ms.prod: windows-hardware
 ms.technology: windows-devices

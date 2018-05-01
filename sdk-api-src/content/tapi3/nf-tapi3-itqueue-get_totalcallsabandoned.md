@@ -7,7 +7,7 @@ old-location: tapi3\itqueue_get_totalcallsabandoned.htm
 old-project: Tapi
 ms.assetid: 2db1309e-f6df-47f8-a695-7bf05d360d99
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: ITQueue, ITQueue interface [TAPI 2.2], get_TotalCallsAbandoned method, ITQueue::get_TotalCallsAbandoned, _tapi3_itqueue_get_totalcallsabandoned, get_TotalCallsAbandoned method [TAPI 2.2], get_TotalCallsAbandoned method [TAPI 2.2], ITQueue interface, get_TotalCallsAbandoned,ITQueue.get_TotalCallsAbandoned, tapi3.itqueue_get_totalcallsabandoned, tapi3cc/ITQueue::get_TotalCallsAbandoned
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: controls\ITextPara_SetListStart.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setliststart.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextPara, ITextPara interface [Windows Controls], SetListStart method, ITextPara::SetListStart, SetListStart method [Windows Controls], SetListStart method [Windows Controls], ITextPara interface, SetListStart,ITextPara.SetListStart, _win32_ITextPara_SetListStart, _win32_ITextPara_SetListStart_cpp, controls.ITextPara_SetListStart, controls._win32_ITextPara_SetListStart, tom/ITextPara::SetListStart
 ms.prod: windows-hardware
 ms.technology: windows-devices

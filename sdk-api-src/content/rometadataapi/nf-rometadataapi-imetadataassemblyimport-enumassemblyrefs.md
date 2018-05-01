@@ -1,0 +1,118 @@
+---
+UID: NF:rometadataapi.IMetaDataAssemblyImport.EnumAssemblyRefs
+title: IMetaDataAssemblyImport::EnumAssemblyRefs method
+author: windows-driver-content
+description: Enumerates the mdAssemblyRef instances that are defined in the assembly manifest.
+old-location: winrt\imetadataassemblyimport_enumassemblyrefs.htm
+old-project: WinRT
+ms.assetid: 2b5768ef-47fc-4052-bb68-e279a027c887
+ms.author: windowsdriverdev
+ms.date: 4/24/2018
+ms.keywords: EnumAssemblyRefs method [Windows Runtime], EnumAssemblyRefs method [Windows Runtime], IMetaDataAssemblyImport interface, EnumAssemblyRefs,IMetaDataAssemblyImport.EnumAssemblyRefs, IMetaDataAssemblyImport, IMetaDataAssemblyImport interface [Windows Runtime], EnumAssemblyRefs method, IMetaDataAssemblyImport::EnumAssemblyRefs, rometadataapi/IMetaDataAssemblyImport::EnumAssemblyRefs, winrt.imetadataassemblyimport_enumassemblyrefs
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: rometadataapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Rometadataapi.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: RO_ERROR_REPORTING_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	rometadataapi.h
+api_name:
+-	IMetaDataAssemblyImport.EnumAssemblyRefs
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 SP2 or later
+---
+
+# IMetaDataAssemblyImport::EnumAssemblyRefs method
+
+
+## -description
+
+
+Enumerates the mdAssemblyRef instances that are defined in the assembly manifest.
+
+
+## -parameters
+
+
+
+
+### -param phEnum [in, out]
+
+A pointer to the enumerator. This must be a null value when the <b>EnumAssemblyRefs</b> method is called for the first time.
+
+
+### -param rAssemblyRefs [out]
+
+The enumeration of <b>mdAssemblyRef</b> metadata tokens.
+
+
+### -param cMax [in]
+
+The maximum number of tokens that can be placed in the rAssemblyRefs array.
+
+
+### -param pcTokens [out]
+
+The number of tokens actually placed in <i>rAssemblyRefs</i>.
+
+
+
+
+## -returns
+
+
+
+<table>
+<tr>
+<th>HRESULT</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><b>S_OK</b></td>
+<td><b>EnumAssemblyRefs</b> returned successfully.</td>
+</tr>
+<tr>
+<td><b>S_FALSE</b></td>
+<td>There are no tokens to enumerate. In this case, <i>pcTokens</i> is set to zero.
+ 
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/c4ae6028-87ac-4bb9-8eda-c6a48e5ecd3c">IMetaDataAssemblyImport</a>
+ 
+
+ 
+

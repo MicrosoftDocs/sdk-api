@@ -7,7 +7,7 @@ old-location: wmformat\iwmreaderadvanced_getmaxstreamsamplesize.htm
 old-project: wmformat
 ms.assetid: 9511c269-0f88-4fdd-8d4b-c52bace14791
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: GetMaxStreamSampleSize method [windows Media Format], GetMaxStreamSampleSize method [windows Media Format], IWMReaderAdvanced interface, GetMaxStreamSampleSize,IWMReaderAdvanced.GetMaxStreamSampleSize, IWMReaderAdvanced, IWMReaderAdvanced interface [windows Media Format], GetMaxStreamSampleSize method, IWMReaderAdvanced::GetMaxStreamSampleSize, IWMReaderAdvancedGetMaxStreamSampleSize, wmformat.iwmreaderadvanced_getmaxstreamsamplesize, wmsdkidl/IWMReaderAdvanced::GetMaxStreamSampleSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

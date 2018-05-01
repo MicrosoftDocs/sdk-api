@@ -7,7 +7,7 @@ old-location: http\http_known_header.htm
 old-project: Http
 ms.assetid: 3f6c295c-f2c1-4070-a79e-9bb1e684ef92
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: "*PHTTP_KNOWN_HEADER, HTTP_KNOWN_HEADER, HTTP_KNOWN_HEADER structure [HTTP], PHTTP_KNOWN_HEADER, PHTTP_KNOWN_HEADER structure pointer [HTTP], _HTTP_KNOWN_HEADER, _http_http_known_header, http.http_known_header, http/HTTP_KNOWN_HEADER, http/PHTTP_KNOWN_HEADER"
 ms.prod: windows-hardware
 ms.technology: windows-devices

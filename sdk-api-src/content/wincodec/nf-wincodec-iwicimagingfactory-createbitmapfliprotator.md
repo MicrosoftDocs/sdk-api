@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicimagingfactory_createbitmapfliprotator.htm
 old-project: wic
 ms.assetid: ec044a38-b39d-4421-8e56-a8be0586cc49
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: CreateBitmapFlipRotator method [Windows Imaging Component], CreateBitmapFlipRotator method [Windows Imaging Component], IWICImagingFactory interface, CreateBitmapFlipRotator,IWICImagingFactory.CreateBitmapFlipRotator, IWICImagingFactory, IWICImagingFactory interface [Windows Imaging Component], CreateBitmapFlipRotator method, IWICImagingFactory::CreateBitmapFlipRotator, _wic_codec_iwicimagingfactory_createbitmapfliprotator, wic._wic_codec_iwicimagingfactory_createbitmapfliprotator, wincodec/IWICImagingFactory::CreateBitmapFlipRotator
 ms.prod: windows-hardware
 ms.technology: windows-devices

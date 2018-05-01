@@ -7,7 +7,7 @@ old-location: com\ienumconnections_next.htm
 old-project: com
 ms.assetid: af58f961-1182-43fc-95ce-4afb251b9b08
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IEnumConnections, IEnumConnections interface [COM], Next method, IEnumConnections::Next, Next method [COM], Next method [COM], IEnumConnections interface, Next,IEnumConnections.Next, _com_ienumconnections_next, com.ienumconnections_next, ocidl/IEnumConnections::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IEnumConnections::Next method

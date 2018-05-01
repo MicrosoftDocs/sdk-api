@@ -7,7 +7,7 @@ old-location: automat\itypechangeevents_aftertypechange.htm
 old-project: automat
 ms.assetid: 902663be-4cdb-47e5-916a-004483d6758e
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: AfterTypeChange method [Automation], AfterTypeChange method [Automation], ITypeChangeEvents interface, AfterTypeChange,ITypeChangeEvents.AfterTypeChange, CHANGEKIND_ADDMEMBER, CHANGEKIND_CHANGEFAILED, CHANGEKIND_DELETEMEMBER, CHANGEKIND_GENERAL, CHANGEKIND_INVALIDATE, CHANGEKIND_SETDOCUMENTATION, CHANGEKIND_SETNAMES, ITypeChangeEvents, ITypeChangeEvents interface [Automation], AfterTypeChange method, ITypeChangeEvents::AfterTypeChange, _oa96_ITypeChangeEvents_AfterTypeChange, automat.itypechangeevents_aftertypechange, oaidl/ITypeChangeEvents::AfterTypeChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITypeChangeEvents::AfterTypeChange method

@@ -7,7 +7,7 @@ old-location: shell\ICredentialProviderCredentialEvents2_EndFieldUpdates.htm
 old-project: shell
 ms.assetid: D05A558E-79D9-4063-A714-F54D8EB8BBF8
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: EndFieldUpdates method [Windows Shell], EndFieldUpdates method [Windows Shell], ICredentialProviderCredentialEvents2 interface, EndFieldUpdates,ICredentialProviderCredentialEvents2.EndFieldUpdates, ICredentialProviderCredentialEvents2, ICredentialProviderCredentialEvents2 interface [Windows Shell], EndFieldUpdates method, ICredentialProviderCredentialEvents2::EndFieldUpdates, credentialprovider/ICredentialProviderCredentialEvents2::EndFieldUpdates, shell.ICredentialProviderCredentialEvents2_EndFieldUpdates
 ms.prod: windows-hardware
 ms.technology: windows-devices

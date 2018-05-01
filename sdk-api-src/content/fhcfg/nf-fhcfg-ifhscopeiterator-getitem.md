@@ -7,7 +7,7 @@ old-location: winprog\ifhscopeiterator_getitem.htm
 old-project: DevNotes
 ms.assetid: EB732725-497C-4D58-A05C-373732054BE5
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/13/2018
 ms.keywords: GetItem method [Windows API], GetItem method [Windows API], IFhScopeIterator interface, GetItem,IFhScopeIterator.GetItem, IFhScopeIterator, IFhScopeIterator interface [Windows API], GetItem method, IFhScopeIterator::GetItem, fhcfg/IFhScopeIterator::GetItem, winprog.ifhscopeiterator_getitem
 ms.prod: windows-hardware
 ms.technology: windows-devices

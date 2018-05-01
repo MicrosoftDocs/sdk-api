@@ -7,7 +7,7 @@ old-location: security\iocspadmin_ping.htm
 old-project: SecCrypto
 ms.assetid: 55d224c7-f309-471a-b2e5-38b8e2b8e00c
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: IOCSPAdmin, IOCSPAdmin interface [Security], Ping method, IOCSPAdmin::Ping, Ping method [Security], Ping method [Security], IOCSPAdmin interface, Ping,IOCSPAdmin.Ping, certadm/IOCSPAdmin::Ping, security.iocspadmin_ping
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CHANNEL_ENTRY_POINTS, *PCHANNEL_ENTRY_POINTS
+req.typenames: 
 topic_type:
 -	APIRef
 -	kbSyntax

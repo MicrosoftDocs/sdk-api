@@ -7,7 +7,7 @@ old-location: base\getactiveprocessorgroupcount.htm
 old-project: ProcThread
 ms.assetid: 566c6abe-9269-4e0e-9c98-e4607c808452
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: GetActiveProcessorGroupCount, GetActiveProcessorGroupCount function, base.getactiveprocessorgroupcount, winbase/GetActiveProcessorGroupCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

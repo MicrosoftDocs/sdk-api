@@ -7,7 +7,7 @@ old-location: ics\inetfwprofile_remoteadminsettings.htm
 old-project: ICS
 ms.assetid: 1e05e464-093d-4c25-850a-60e9fad64876
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: INetFwProfile, INetFwProfile interface [ICS/ICF], RemoteAdminSettings property, INetFwProfile.RemoteAdminSettings, INetFwProfile::get_RemoteAdminSettings, RemoteAdminSettings property [ICS/ICF], RemoteAdminSettings property [ICS/ICF], INetFwProfile interface, get_RemoteAdminSettings,INetFwProfile.get_RemoteAdminSettings, ics.inetfwprofile_remoteadminpermission, ics.inetfwprofile_remoteadminsettings, netfw/INetFwProfile::RemoteAdminSettings, netfw/INetFwProfile::get_RemoteAdminSettings
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: 
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # INetFwProfile::get_RemoteAdminSettings method

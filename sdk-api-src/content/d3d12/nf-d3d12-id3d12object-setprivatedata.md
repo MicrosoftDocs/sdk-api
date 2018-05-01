@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12object_setprivatedata.htm
 old-project: direct3d12
 ms.assetid: 1B3E8202-7CB3-4D9F-A1AE-70E66652773C
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: ID3D12Object, ID3D12Object interface, SetPrivateData method, ID3D12Object::SetPrivateData, SetPrivateData method, SetPrivateData method, ID3D12Object interface, SetPrivateData,ID3D12Object.SetPrivateData, d3d12/ID3D12Object::SetPrivateData, direct3d12.id3d12object_setprivatedata
 ms.prod: windows-hardware
 ms.technology: windows-devices

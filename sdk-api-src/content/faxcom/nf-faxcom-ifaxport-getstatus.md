@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxport_getstatus_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_8lo3.htm
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/18/2018
 ms.keywords: FaxPort object [Fax Service], GetStatus method, GetStatus method [Fax Service], GetStatus method [Fax Service], FaxPort object, GetStatus,IFaxPort.GetStatus, IFaxPort, IFaxPort::GetStatus, _mfax_ifaxport_getstatus, fax._mfax_ifaxport_getstatus, fax._mfax_ifaxport_getstatus_vb
 ms.prod: windows-hardware
 ms.technology: windows-devices

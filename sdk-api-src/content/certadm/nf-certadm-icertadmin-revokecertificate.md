@@ -7,7 +7,7 @@ old-location: security\icertadmin2_revokecertificate.htm
 old-project: SecCrypto
 ms.assetid: d44ff8c1-a248-4e2a-a73f-55fbea9fce03
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: CCertAdmin interface [Security], RevokeCertificate method, CRL_REASON_AFFILIATION_CHANGED, CRL_REASON_CA_COMPROMISE, CRL_REASON_CERTIFICATE_HOLD, CRL_REASON_CESSATION_OF_OPERATION, CRL_REASON_KEY_COMPROMISE, CRL_REASON_SUPERSEDED, CRL_REASON_UNSPECIFIED, ICertAdmin, ICertAdmin interface [Security], RevokeCertificate method, ICertAdmin2 interface [Security], RevokeCertificate method, ICertAdmin2::RevokeCertificate, ICertAdmin::RevokeCertificate, RevokeCertificate method [Security], RevokeCertificate method [Security], CCertAdmin interface, RevokeCertificate method [Security], ICertAdmin interface, RevokeCertificate method [Security], ICertAdmin2 interface, RevokeCertificate,ICertAdmin.RevokeCertificate, certadm/ICertAdmin2::RevokeCertificate, certadm/ICertAdmin::RevokeCertificate, security.icertadmin2_revokecertificate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CHANNEL_ENTRY_POINTS, *PCHANNEL_ENTRY_POINTS
+req.typenames: 
 topic_type:
 -	APIRef
 -	kbSyntax

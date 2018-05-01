@@ -7,7 +7,7 @@ old-location: winrt\ilanguageexceptionerrorinfo_getlanguageexception.htm
 old-project: WinRT
 ms.assetid: 94B34741-88AA-4AD4-B1F4-30A7AE5AFCC8
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/24/2018
 ms.keywords: GetLanguageException method [Windows Runtime], GetLanguageException method [Windows Runtime], ILanguageExceptionErrorInfo interface, GetLanguageException,ILanguageExceptionErrorInfo.GetLanguageException, ILanguageExceptionErrorInfo, ILanguageExceptionErrorInfo interface [Windows Runtime], GetLanguageException method, ILanguageExceptionErrorInfo::GetLanguageException, restrictederrorinfo/ILanguageExceptionErrorInfo::GetLanguageException, winrt.ilanguageexceptionerrorinfo_getlanguageexception
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ILanguageExceptionErrorInfo::GetLanguageException method

@@ -7,7 +7,7 @@ old-location: wmformat\iwmreadernetworkconfig_getloggingurlcount.htm
 old-project: wmformat
 ms.assetid: 869e093f-8936-4b60-8818-ee2c57924d11
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: GetLoggingUrlCount method [windows Media Format], GetLoggingUrlCount method [windows Media Format], IWMReaderNetworkConfig interface, GetLoggingUrlCount,IWMReaderNetworkConfig.GetLoggingUrlCount, IWMReaderNetworkConfig, IWMReaderNetworkConfig interface [windows Media Format], GetLoggingUrlCount method, IWMReaderNetworkConfig::GetLoggingUrlCount, IWMReaderNetworkConfigGetLoggingUrlCount, wmformat.iwmreadernetworkconfig_getloggingurlcount, wmsdkidl/IWMReaderNetworkConfig::GetLoggingUrlCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

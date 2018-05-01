@@ -7,7 +7,7 @@ old-location: dshow\iamdirectsound_setfocuswindow.htm
 old-project: DirectShow
 ms.assetid: 3fc9dbb3-83bb-4c46-8ada-a7b7b8a784fe
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMDirectSound, IAMDirectSound interface [DirectShow], SetFocusWindow method, IAMDirectSound::SetFocusWindow, IAMDirectSoundSetWindowFocus, SetFocusWindow method [DirectShow], SetFocusWindow method [DirectShow], IAMDirectSound interface, SetFocusWindow,IAMDirectSound.SetFocusWindow, amaudio/IAMDirectSound::SetFocusWindow, dshow.iamdirectsound_setfocuswindow
 ms.prod: windows-hardware
 ms.technology: windows-devices

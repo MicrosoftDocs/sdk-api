@@ -7,7 +7,7 @@ old-location: mediastreaming\imediarenderer_add_renderingparametersupdate.htm
 old-project: mediastreaming
 ms.assetid: 3CEED740-19EA-4CC6-B3F8-F9DE9C6DCC58
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/10/2018
 ms.keywords: IMediaRenderer, IMediaRenderer interface [Media Streaming API], add_RenderingParametersUpdate method, IMediaRenderer::add_RenderingParametersUpdate, add_RenderingParametersUpdate method [Media Streaming API], add_RenderingParametersUpdate method [Media Streaming API], IMediaRenderer interface, add_RenderingParametersUpdate,IMediaRenderer.add_RenderingParametersUpdate, mediastreaming.imediarenderer_add_renderingparametersupdate, windows/IMediaRenderer::add_RenderingParametersUpdate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: PDF_RENDER_PARAMS
+req.typenames: TimeSpan
 topic_type:
 -	APIRef
 -	kbSyntax

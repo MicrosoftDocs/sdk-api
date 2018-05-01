@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxdoc_get_coverpagenote_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_4t7p.htm
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/18/2018
 ms.keywords: CoverpageNote property [Fax Service], CoverpageNote property [Fax Service], FaxDoc object, FaxDoc object [Fax Service], CoverpageNote property, IFaxDoc, IFaxDoc::put_CoverpageNote, _mfax_ifaxdoc_get_coverpagenote, fax._mfax_ifaxdoc_get_coverpagenote, fax._mfax_ifaxdoc_get_coverpagenote_vb, put_CoverpageNote,IFaxDoc.put_CoverpageNote
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: fsrm\difsrmclassificationevents.htm
 old-project: Fsrm
 ms.assetid: 3054c0ce-e29f-4a68-bf8d-499308f495b3
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: DIFsrmClassificationEvents, DIFsrmClassificationEvents interface [File Server Resource Manager], DIFsrmClassificationEvents interface [File Server Resource Manager], described, fs.difsrmclassificationevents, fsrm.difsrmclassificationevents, fsrmtlb/DIFsrmClassificationEvents
 ms.prod: windows-hardware
 ms.technology: windows-devices

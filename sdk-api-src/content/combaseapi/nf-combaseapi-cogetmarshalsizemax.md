@@ -7,7 +7,7 @@ old-location: com\cogetmarshalsizemax.htm
 old-project: com
 ms.assetid: c04c736c-8efe-438b-9d21-8b6ad53d36e7
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: CoGetMarshalSizeMax, CoGetMarshalSizeMax function [COM], _com_CoGetMarshalSizeMax, com.cogetmarshalsizemax, combaseapi/CoGetMarshalSizeMax
 ms.prod: windows-hardware
 ms.technology: windows-devices

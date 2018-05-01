@@ -7,7 +7,7 @@ old-location: mstv\ienumtunerequests_next.htm
 old-project: mstv
 ms.assetid: fb846bdb-f0ce-44f7-8d15-608c21e095c1
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IEnumTuneRequests, IEnumTuneRequests interface [Microsoft TV Technologies], Next method, IEnumTuneRequests::Next, IEnumTuneRequestsNext, Next method [Microsoft TV Technologies], Next method [Microsoft TV Technologies], IEnumTuneRequests interface, Next,IEnumTuneRequests.Next, bdatif/IEnumTuneRequests::Next, mstv.ienumtunerequests_next
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: SpanningEventEmmMessage
+req.typenames: SmartCardApplication
 topic_type:
 -	APIRef
 -	kbSyntax

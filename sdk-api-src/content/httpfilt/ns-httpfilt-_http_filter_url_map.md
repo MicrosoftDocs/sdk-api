@@ -7,7 +7,7 @@ old-location: tmg\http_filter_url_map.htm
 old-project: TMG
 ms.assetid: 9cdd97f5-3361-4b5f-91fe-3996c37ff0f1
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/3/2018
 ms.keywords: "*PHTTP_FILTER_URL_MAP, HTTP_FILTER_URL_MAP, HTTP_FILTER_URL_MAP structure [Forefront TMG], _HTTP_FILTER_URL_MAP, httpfilt/, tmg.http_filter_url_map"
 ms.prod: windows-hardware
 ms.technology: windows-devices

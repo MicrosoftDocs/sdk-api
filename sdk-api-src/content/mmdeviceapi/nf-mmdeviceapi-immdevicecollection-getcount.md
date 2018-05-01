@@ -7,7 +7,7 @@ old-location: coreaudio\immdevicecollection_getcount.htm
 old-project: CoreAudio
 ms.assetid: 236a611b-98ab-437c-9e36-8c8a7c32ffbc
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: GetCount method [Core Audio], GetCount method [Core Audio], IMMDeviceCollection interface, GetCount,IMMDeviceCollection.GetCount, IMMDeviceCollection, IMMDeviceCollection interface [Core Audio], GetCount method, IMMDeviceCollection::GetCount, IMMDeviceCollectionGetCount, coreaudio.immdevicecollection_getcount, mmdeviceapi/IMMDeviceCollection::GetCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

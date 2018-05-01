@@ -7,7 +7,7 @@ old-location: tablet\istylusplugin_stylusoutofrange.htm
 old-project: tablet
 ms.assetid: fd662c32-c226-4dbb-807a-3e560452ef15
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: IStylusPlugin, IStylusPlugin interface [Tablet PC], StylusOutOfRange method, IStylusPlugin::StylusOutOfRange, StylusOutOfRange method [Tablet PC], StylusOutOfRange method [Tablet PC], IStylusPlugin interface, StylusOutOfRange,IStylusPlugin.StylusOutOfRange, fd662c32-c226-4dbb-807a-3e560452ef15, rtscom/IStylusPlugin::StylusOutOfRange, tablet.istylusplugin_stylusoutofrange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: RTSCom.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IStylusPlugin::StylusOutOfRange method

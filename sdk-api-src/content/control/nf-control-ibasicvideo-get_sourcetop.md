@@ -7,7 +7,7 @@ old-location: dshow\ibasicvideo_get_sourcetop.htm
 old-project: DirectShow
 ms.assetid: 87ad3699-5a1b-4fa0-b7bd-5ec87758e9fa
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IBasicVideo, IBasicVideo interface [DirectShow], get_SourceTop method, IBasicVideo::get_SourceTop, IBasicVideoget_SourceTop, control/IBasicVideo::get_SourceTop, dshow.ibasicvideo_get_sourcetop, get_SourceTop method [DirectShow], get_SourceTop method [DirectShow], IBasicVideo interface, get_SourceTop,IBasicVideo.get_SourceTop
 ms.prod: windows-hardware
 ms.technology: windows-devices

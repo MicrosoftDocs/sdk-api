@@ -7,7 +7,7 @@ old-location: mstv\isbe2streammap.htm
 old-project: mstv
 ms.assetid: d63691ca-2420-4c54-b343-be85d634488c
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: ISBE2StreamMap, ISBE2StreamMap interface [Microsoft TV Technologies], ISBE2StreamMap interface [Microsoft TV Technologies], described, mstv.isbe2streammap, sbe/ISBE2StreamMap
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Sbe.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ISBE2StreamMap interface

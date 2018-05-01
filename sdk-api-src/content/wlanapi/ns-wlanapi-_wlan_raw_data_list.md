@@ -7,7 +7,7 @@ old-location: nwifi\dot11_psd_ie_data_list.htm
 old-project: NativeWiFi
 ms.assetid: e0e59abf-1a78-4c7f-b044-2d4c75328329
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/13/2018
 ms.keywords: "*PWLAN_RAW_DATA_LIST, PWLAN_RAW_DATA_LIST, PWLAN_RAW_DATA_LIST structure pointer [NativeWIFI], WLAN_RAW_DATA_LIST, WLAN_RAW_DATA_LIST structure [NativeWIFI], _WLAN_RAW_DATA_LIST, nwifi.dot11_psd_ie_data_list, wlanapi/PWLAN_RAW_DATA_LIST, wlanapi/WLAN_RAW_DATA_LIST"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,6 +58,16 @@ The <b>WLAN_RAW_DATA_LIST</b> structure contains raw data in the form of an arra
 
 
 
+### -field dwTotalSize
+
+The total size, in bytes, of the <b>WLAN_RAW_DATA_LIST</b> structure.
+
+
+### -field dwNumberOfItems
+
+The number of raw data entries or blobs in the <b>WLAN_RAW_DATA_LIST</b> structure. The maximum value of the <b>dwNumberOfItems</b> may be restricted by the type of data that is stored in the <b>WLAN_RAW_DATA_LIST</b> structure.
+
+
 ### -field DataList
 
 An array of raw data entries or blobs that make up the data list.
@@ -73,16 +83,6 @@ The offset, in bytes, of the data blob from the beginning of current blob descri
 #### dwDataSize
 
 The size, in bytes, of the data blob. 
-
-
-### -field dwTotalSize
-
-The total size, in bytes, of the <b>WLAN_RAW_DATA_LIST</b> structure.
-
-
-### -field dwNumberOfItems
-
-The number of raw data entries or blobs in the <b>WLAN_RAW_DATA_LIST</b> structure. The maximum value of the <b>dwNumberOfItems</b> may be restricted by the type of data that is stored in the <b>WLAN_RAW_DATA_LIST</b> structure.
 
 
 ## -remarks

@@ -7,7 +7,7 @@ old-location: dshow\iampushsource_getmaxstreamoffset.htm
 old-project: DirectShow
 ms.assetid: 503ec642-0a86-47b9-b453-08ab90346630
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetMaxStreamOffset method [DirectShow], GetMaxStreamOffset method [DirectShow], IAMPushSource interface, GetMaxStreamOffset,IAMPushSource.GetMaxStreamOffset, IAMPushSource, IAMPushSource interface [DirectShow], GetMaxStreamOffset method, IAMPushSource::GetMaxStreamOffset, IAMPushSourceGetMaxStreamOffset, dshow.iampushsource_getmaxstreamoffset, strmif/IAMPushSource::GetMaxStreamOffset
 ms.prod: windows-hardware
 ms.technology: windows-devices

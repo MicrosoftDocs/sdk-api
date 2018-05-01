@@ -7,7 +7,7 @@ old-location: mf\ievrtrustedvideoplugin_disableimageexport.htm
 old-project: medfound
 ms.assetid: dd9811f7-7a9f-4b7e-8425-cb25efe0a71d
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: DisableImageExport method [Media Foundation], DisableImageExport method [Media Foundation], IEVRTrustedVideoPlugin interface, DisableImageExport,IEVRTrustedVideoPlugin.DisableImageExport, IEVRTrustedVideoPlugin, IEVRTrustedVideoPlugin interface [Media Foundation], DisableImageExport method, IEVRTrustedVideoPlugin::DisableImageExport, dd9811f7-7a9f-4b7e-8425-cb25efe0a71d, evr/IEVRTrustedVideoPlugin::DisableImageExport, mf.ievrtrustedvideoplugin_disableimageexport
 ms.prod: windows-hardware
 ms.technology: windows-devices

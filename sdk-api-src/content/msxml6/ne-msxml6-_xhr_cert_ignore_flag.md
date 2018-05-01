@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Msxml.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _XHR_CERT_IGNORE_FLAG enumeration

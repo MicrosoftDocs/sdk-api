@@ -7,7 +7,7 @@ old-location: security\ix509extensions_remove_method.htm
 old-project: SecCertEnroll
 ms.assetid: da1fcad3-7351-4d26-b483-a6548c3bdbec
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: IX509Extensions, IX509Extensions interface [Security], Remove method, IX509Extensions::Remove, Remove method [Security], Remove method [Security], IX509Extensions interface, Remove,IX509Extensions.Remove, certenroll/IX509Extensions::Remove, security.ix509extensions_remove_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

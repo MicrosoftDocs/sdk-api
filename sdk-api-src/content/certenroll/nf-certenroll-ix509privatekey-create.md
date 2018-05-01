@@ -7,7 +7,7 @@ old-location: security\ix509privatekey_create_method.htm
 old-project: SecCertEnroll
 ms.assetid: e8c6564a-6009-437e-9b83-3711e43a7374
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: Create method [Security], Create method [Security], IX509PrivateKey interface, Create,IX509PrivateKey.Create, IX509PrivateKey, IX509PrivateKey interface [Security], Create method, IX509PrivateKey::Create, certenroll/IX509PrivateKey::Create, security.ix509privatekey_create_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

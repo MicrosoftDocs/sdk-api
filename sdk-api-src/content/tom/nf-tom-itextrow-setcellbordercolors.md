@@ -7,7 +7,7 @@ old-location: controls\itextrow_setcellbordercolors.htm
 old-project: Controls
 ms.assetid: 2a8762ba-a92b-46aa-99bc-57406a872174
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextRow, ITextRow interface [Windows Controls], SetCellBorderColors method, ITextRow::SetCellBorderColors, SetCellBorderColors method [Windows Controls], SetCellBorderColors method [Windows Controls], ITextRow interface, SetCellBorderColors,ITextRow.SetCellBorderColors, controls.itextrow_setcellbordercolors, tom/ITextRow::SetCellBorderColors
 ms.prod: windows-hardware
 ms.technology: windows-devices

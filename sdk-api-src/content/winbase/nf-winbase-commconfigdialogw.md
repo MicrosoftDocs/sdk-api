@@ -7,7 +7,7 @@ old-location: base\commconfigdialog.htm
 old-project: DevIO
 ms.assetid: 6c7a3833-1d40-40c5-bfa7-14523bc73ab0
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/3/2018
 ms.keywords: CommConfigDialog, CommConfigDialog function, CommConfigDialogA, CommConfigDialogW, _win32_commconfigdialog, base.commconfigdialog, winbase/CommConfigDialog, winbase/CommConfigDialogA, winbase/CommConfigDialogW
 ms.prod: windows-hardware
 ms.technology: windows-devices

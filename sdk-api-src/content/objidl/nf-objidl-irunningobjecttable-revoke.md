@@ -7,7 +7,7 @@ old-location: com\irunningobjecttable_revoke.htm
 old-project: com
 ms.assetid: d3d83966-035d-4077-a770-cb62c8011132
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IRunningObjectTable, IRunningObjectTable interface [COM], Revoke method, IRunningObjectTable::Revoke, Revoke method [COM], Revoke method [COM], IRunningObjectTable interface, Revoke,IRunningObjectTable.Revoke, _com_irunningobjecttable_revoke, com.irunningobjecttable_revoke, objidl/IRunningObjectTable::Revoke
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IRunningObjectTable::Revoke method

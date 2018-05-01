@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11device1_createdevicecontextstate.htm
 old-project: direct3d11
 ms.assetid: 8887C3F1-3EA3-4948-A019-E3CB3F3D46C6
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/6/2018
 ms.keywords: CreateDeviceContextState method [Direct3D 11], CreateDeviceContextState method [Direct3D 11], ID3D11Device1 interface, CreateDeviceContextState,ID3D11Device1.CreateDeviceContextState, ID3D11Device1, ID3D11Device1 interface [Direct3D 11], CreateDeviceContextState method, ID3D11Device1::CreateDeviceContextState, d3d11_1/ID3D11Device1::CreateDeviceContextState, direct3d11.id3d11device1_createdevicecontextstate
 ms.prod: windows-hardware
 ms.technology: windows-devices

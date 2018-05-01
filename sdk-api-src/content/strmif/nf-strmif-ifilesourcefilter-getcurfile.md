@@ -7,7 +7,7 @@ old-location: dshow\ifilesourcefilter_getcurfile.htm
 old-project: DirectShow
 ms.assetid: 67373df9-06a3-4678-b661-29580df4f359
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetCurFile method [DirectShow], GetCurFile method [DirectShow], IFileSourceFilter interface, GetCurFile,IFileSourceFilter.GetCurFile, IFileSourceFilter, IFileSourceFilter interface [DirectShow], GetCurFile method, IFileSourceFilter::GetCurFile, IFileSourceFilterGetCurfile, dshow.ifilesourcefilter_getcurfile, strmif/IFileSourceFilter::GetCurFile
 ms.prod: windows-hardware
 ms.technology: windows-devices

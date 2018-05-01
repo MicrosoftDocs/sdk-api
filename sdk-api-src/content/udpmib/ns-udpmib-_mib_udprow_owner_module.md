@@ -59,13 +59,6 @@ The <b>MIB_UDPROW_OWNER_MODULE</b> structure contains an entry from the IPv4 Use
 
 
 
-### -field SpecificPortBind
-
-Type: <b>int</b>
-
-A value that indicates if a specific port was specified in the last context bind operation.
-
-
 ### -field dwLocalAddr
 
 Type: <b>DWORD</b>
@@ -95,6 +88,13 @@ The PID of the process that issued the call to the <a href="https://msdn.microso
 Type: <b>LARGE_INTEGER</b>
 
 A <a href="https://msdn.microsoft.com/f77cdf86-0f97-4a89-b565-95b46fa7d65b">SYSTEMTIME</a> structure that  indicates when the call to the <a href="https://msdn.microsoft.com/3a651daa-7404-4ef7-8cff-0d3dff41a8e8">bind</a> function for the UDP endpoint occurred.
+
+
+### -field SpecificPortBind
+
+Type: <b>int</b>
+
+A value that indicates if a specific port was specified in the last context bind operation.
 
 
 ### -field OwningModuleInfo

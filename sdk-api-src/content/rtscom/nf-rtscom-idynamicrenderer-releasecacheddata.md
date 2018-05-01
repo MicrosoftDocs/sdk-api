@@ -7,7 +7,7 @@ old-location: tablet\idynamicrenderer_releasecacheddata.htm
 old-project: tablet
 ms.assetid: 691de815-a5be-4982-a59a-b904c070ede8
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: 691de815-a5be-4982-a59a-b904c070ede8, IDynamicRenderer, IDynamicRenderer interface [Tablet PC], ReleaseCachedData method, IDynamicRenderer::ReleaseCachedData, ReleaseCachedData method [Tablet PC], ReleaseCachedData method [Tablet PC], IDynamicRenderer interface, ReleaseCachedData,IDynamicRenderer.ReleaseCachedData, rtscom/IDynamicRenderer::ReleaseCachedData, tablet.idynamicrenderer_releasecacheddata
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: RTSCom.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IDynamicRenderer::ReleaseCachedData method

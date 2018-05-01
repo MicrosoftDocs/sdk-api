@@ -7,7 +7,7 @@ old-location: mf\imfmediasink_setpresentationclock.htm
 old-project: medfound
 ms.assetid: 844fc3b3-b56e-4048-b589-e24457bcc419
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 844fc3b3-b56e-4048-b589-e24457bcc419, IMFMediaSink, IMFMediaSink interface [Media Foundation], SetPresentationClock method, IMFMediaSink::SetPresentationClock, SetPresentationClock method [Media Foundation], SetPresentationClock method [Media Foundation], IMFMediaSink interface, SetPresentationClock,IMFMediaSink.SetPresentationClock, mf.imfmediasink_setpresentationclock, mfidl/IMFMediaSink::SetPresentationClock
 ms.prod: windows-hardware
 ms.technology: windows-devices

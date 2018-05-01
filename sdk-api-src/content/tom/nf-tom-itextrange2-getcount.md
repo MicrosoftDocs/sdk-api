@@ -7,7 +7,7 @@ old-location: controls\itextrange2_getcount.htm
 old-project: Controls
 ms.assetid: a1744e60-74b0-44a0-b470-6e89d328fa11
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: GetCount method [Windows Controls], GetCount method [Windows Controls], ITextRange2 interface, GetCount,ITextRange2.GetCount, ITextRange2, ITextRange2 interface [Windows Controls], GetCount method, ITextRange2::GetCount, controls.itextrange2_getcount, tom/ITextRange2::GetCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

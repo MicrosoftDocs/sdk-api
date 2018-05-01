@@ -7,7 +7,7 @@ old-location: com\oleuiviewprops_struct.htm
 old-project: com
 ms.assetid: e45565c5-185e-4143-a5c2-d0b273b5086e
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*LPOLEUIVIEWPROPSW, *POLEUIVIEWPROPSW, LPOLEUIVIEWPROPS, LPOLEUIVIEWPROPS structure pointer [COM], OLEUIVIEWPROPS, OLEUIVIEWPROPS structure [COM], OLEUIVIEWPROPSA, OLEUIVIEWPROPSW, POLEUIVIEWPROPS, POLEUIVIEWPROPS structure pointer [COM], VPF_DISABLERELATIVE, VPF_DISABLESCALE, VPF_SELECTRELATIVE, _ole_OLEUIVIEWPROPS, com.oleuiviewprops_struct, oledlg/LPOLEUIVIEWPROPS, oledlg/OLEUIVIEWPROPS, oledlg/OLEUIVIEWPROPSA, oledlg/OLEUIVIEWPROPSW, oledlg/POLEUIVIEWPROPS, tagOLEUIVIEWPROPSW"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # tagOLEUIVIEWPROPSW structure
@@ -58,11 +58,6 @@ Contains information that is used to initialize the <b>View</b> tab of the <b>Ob
 ## -struct-fields
 
 
-
-
-### -field lpOP
-
-Used internally.
 
 
 ### -field cbStruct
@@ -132,6 +127,11 @@ Custom data to pass to the hook (not used in this dialog box).
 ### -field dwReserved2
 
 This member is reserved.
+
+
+### -field lpOP
+
+Used internally.
 
 
 ### -field nScaleMin

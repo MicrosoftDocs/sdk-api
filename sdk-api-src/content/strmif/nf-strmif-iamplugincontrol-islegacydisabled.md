@@ -7,7 +7,7 @@ old-location: dshow\iamplugincontrol_islegacydisabled.htm
 old-project: DirectShow
 ms.assetid: f67c7a78-1e4f-469a-9cbb-80c37bba80b7
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMPluginControl, IAMPluginControl interface [DirectShow], IsLegacyDisabled method, IAMPluginControl::IsLegacyDisabled, IsLegacyDisabled method [DirectShow], IsLegacyDisabled method [DirectShow], IAMPluginControl interface, IsLegacyDisabled,IAMPluginControl.IsLegacyDisabled, dshow.iamplugincontrol_islegacydisabled, strmif/IAMPluginControl::IsLegacyDisabled
 ms.prod: windows-hardware
 ms.technology: windows-devices

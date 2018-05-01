@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_option_scope_info.htm
 old-project: DHCP
 ms.assetid: 91d4d678-f0c5-4081-9302-0d08c8994692
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/7/2018
 ms.keywords: "*LPDHCP_OPTION_SCOPE_INFO, DHCP_OPTION_SCOPE_INFO, DHCP_OPTION_SCOPE_INFO structure [DHCP], LPDHCP_OPTION_SCOPE_INFO, LPDHCP_OPTION_SCOPE_INFO structure pointer [DHCP], _DHCP_OPTION_SCOPE_INFO, dhcp.dhcp_option_scope_info, dhcpsapi/LPDHCP_OPTION_SCOPE_INFO, dhcpsapi/_DHCP_OPTION_SCOPE_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -57,6 +57,12 @@ The <b>DHCP_OPTION_SCOPE_INFO</b> structure defines information about the option
 
 
 
+### -field ScopeType
+
+
+<a href="https://msdn.microsoft.com/3e49bbe4-a8d2-4e1a-b66d-a7d4b45dd670">DHCP_OPTION_SCOPE_TYPE</a> enumeration value that defines the scope type of the associated DHCP options, and indicates which of the following fields in the union will be populated.
+
+
 ### -field ScopeInfo
 
 
@@ -97,10 +103,6 @@ Pointer to a <a href="https://msdn.microsoft.com/15b9bab5-8211-47c8-bc93-96c922c
  
 
 
-### -field ScopeType
-
-
-<a href="https://msdn.microsoft.com/3e49bbe4-a8d2-4e1a-b66d-a7d4b45dd670">DHCP_OPTION_SCOPE_TYPE</a> enumeration value that defines the scope type of the associated DHCP options, and indicates which of the following fields in the union will be populated.
 
 
 ## -see-also

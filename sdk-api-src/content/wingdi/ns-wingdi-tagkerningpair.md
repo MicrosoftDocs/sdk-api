@@ -7,7 +7,7 @@ old-location: gdi\kerningpair.htm
 old-project: gdi
 ms.assetid: af7bfcf7-467b-4ea9-87c5-3622303b1d8b
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/17/2018
 ms.keywords: "*LPKERNINGPAIR, KERNINGPAIR, KERNINGPAIR structure [Windows GDI], LPKERNINGPAIR, LPKERNINGPAIR structure pointer [Windows GDI], _win32_KERNINGPAIR_str, gdi.kerningpair, tagKERNINGPAIR, wingdi/KERNINGPAIR, wingdi/LPKERNINGPAIR"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: automat\custdata.htm
 old-project: automat
 ms.assetid: 992199f2-1bac-428e-9699-0740654e1922
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: "*LPCUSTDATA, CUSTDATA, CUSTDATA structure [Automation], LPCUSTDATA, LPCUSTDATA structure pointer [Automation], _oa96_CUSTDATA, automat.custdata, oaidl/CUSTDATA, oaidl/LPCUSTDATA, tagCUSTDATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # tagCUSTDATA structure

@@ -7,7 +7,7 @@ old-location: appxpkg\iappxencryptionfactory_decryptbundle.htm
 old-project: appxpkg
 ms.assetid: ED10EBD7-F942-4F1D-B2DC-0895022771BE
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/26/2018
 ms.keywords: DecryptBundle method [App packaging and management], DecryptBundle method [App packaging and management], IAppxEncryptionFactory interface, DecryptBundle,IAppxEncryptionFactory.DecryptBundle, IAppxEncryptionFactory, IAppxEncryptionFactory interface [App packaging and management], DecryptBundle method, IAppxEncryptionFactory::DecryptBundle, appxpackaging/IAppxEncryptionFactory::DecryptBundle, appxpkg.iappxencryptionfactory_decryptbundle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_ARCHITECTURE2
+req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
 topic_type:
 -	APIRef
 -	kbSyntax

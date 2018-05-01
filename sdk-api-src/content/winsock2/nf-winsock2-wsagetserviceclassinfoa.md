@@ -7,7 +7,7 @@ old-location: winsock\wsagetserviceclassinfo_2.htm
 old-project: WinSock
 ms.assetid: e177bb7d-c7d3-43a4-a809-ab8212feea2e
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/24/2018
 ms.keywords: WSAGetServiceClassInfo, WSAGetServiceClassInfo function [Winsock], WSAGetServiceClassInfoA, WSAGetServiceClassInfoW, _win32_wsagetserviceclassinfo_2, winsock.wsagetserviceclassinfo_2, winsock2/WSAGetServiceClassInfo, winsock2/WSAGetServiceClassInfoA, winsock2/WSAGetServiceClassInfoW
 ms.prod: windows-hardware
 ms.technology: windows-devices

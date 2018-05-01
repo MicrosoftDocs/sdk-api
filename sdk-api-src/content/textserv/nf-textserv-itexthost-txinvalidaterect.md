@@ -7,7 +7,7 @@ old-location: controls\ITextHost_TxInvalidateRect.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\itexthost\itexthosttxinvalidaterect.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextHost, ITextHost interface [Windows Controls], TxInvalidateRect method, ITextHost::TxInvalidateRect, TxInvalidateRect method [Windows Controls], TxInvalidateRect method [Windows Controls], ITextHost interface, TxInvalidateRect,ITextHost.TxInvalidateRect, _win32_ITextHost_TxInvalidateRect, _win32_ITextHost_TxInvalidateRect_cpp, controls.ITextHost_TxInvalidateRect, controls._win32_ITextHost_TxInvalidateRect, textserv/ITextHost::TxInvalidateRect
 ms.prod: windows-hardware
 ms.technology: windows-devices

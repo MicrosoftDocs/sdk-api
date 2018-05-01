@@ -7,7 +7,7 @@ old-location: ics\istaticportmapping_get_externalport.htm
 old-project: ICS
 ms.assetid: 2a63d036-37d5-4686-a19e-11fd5dab6f64
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: IStaticPortMapping, IStaticPortMapping interface [ICS/ICF], get_ExternalPort method, IStaticPortMapping::get_ExternalPort, _ics_istaticportmapping_get_externalport, get_ExternalPort method [ICS/ICF], get_ExternalPort method [ICS/ICF], IStaticPortMapping interface, get_ExternalPort,IStaticPortMapping.get_ExternalPort, ics.istaticportmapping_get_externalport, natupnp/IStaticPortMapping::get_ExternalPort
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IStaticPortMapping::get_ExternalPort method

@@ -7,7 +7,7 @@ old-location: wmformat\iwmreadertypenegotiation_tryoutputprops.htm
 old-project: wmformat
 ms.assetid: 87d16641-3d28-4bad-962b-8ec808cd7877
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMReaderTypeNegotiation, IWMReaderTypeNegotiation interface [windows Media Format], TryOutputProps method, IWMReaderTypeNegotiation::TryOutputProps, IWMReaderTypeNegotiationTryOutputProps, TryOutputProps method [windows Media Format], TryOutputProps method [windows Media Format], IWMReaderTypeNegotiation interface, TryOutputProps,IWMReaderTypeNegotiation.TryOutputProps, wmformat.iwmreadertypenegotiation_tryoutputprops, wmsdkidl/IWMReaderTypeNegotiation::TryOutputProps
 ms.prod: windows-hardware
 ms.technology: windows-devices

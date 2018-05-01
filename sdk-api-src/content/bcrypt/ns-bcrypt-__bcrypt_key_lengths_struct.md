@@ -7,7 +7,7 @@ old-location: security\bcrypt_key_lengths_struct.htm
 old-project: SecCNG
 ms.assetid: 0ce50187-6376-4e14-aaa8-ecc401c7a973
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: BCRYPT_AUTH_TAG_LENGTHS_STRUCT, BCRYPT_AUTH_TAG_LENGTHS_STRUCT structure [Security], BCRYPT_KEY_LENGTHS_STRUCT, BCRYPT_KEY_LENGTHS_STRUCT structure [Security], __BCRYPT_KEY_LENGTHS_STRUCT, bcrypt/BCRYPT_AUTH_TAG_LENGTHS_STRUCT, bcrypt/BCRYPT_KEY_LENGTHS_STRUCT, security.bcrypt_key_lengths_struct
 ms.prod: windows-hardware
 ms.technology: windows-devices

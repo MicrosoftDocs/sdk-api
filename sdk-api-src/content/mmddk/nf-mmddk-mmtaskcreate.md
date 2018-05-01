@@ -7,7 +7,7 @@ old-location: multimedia\mmtaskcreate.htm
 old-project: Multimedia
 ms.assetid: 9e5cad11-ed26-4c19-89e0-dbf6be9af78c
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/25/2018
 ms.keywords: mmTaskCreate, mmTaskCreate function [Windows Multimedia], mmddk/mmTaskCreate, multimedia.mmtaskcreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: WIN32_FIND_DATAW, *PWIN32_FIND_DATAW, *LPWIN32_FIND_DATAW
+req.typenames: "_ColumnSortOrder, COLUMNSORTORDER"
 topic_type:
 -	APIRef
 -	kbSyntax

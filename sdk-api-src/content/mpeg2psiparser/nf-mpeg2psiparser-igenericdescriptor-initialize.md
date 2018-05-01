@@ -7,7 +7,7 @@ old-location: mstv\igenericdescriptor_initialize.htm
 old-project: mstv
 ms.assetid: 0dfe1f52-60ac-46b6-9f55-9764b47479e8
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IGenericDescriptor, IGenericDescriptor interface [Microsoft TV Technologies], Initialize method, IGenericDescriptor::Initialize, IGenericDescriptorInitialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies], IGenericDescriptor interface, Initialize,IGenericDescriptor.Initialize, mpeg2psiparser/IGenericDescriptor::Initialize, mstv.igenericdescriptor_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

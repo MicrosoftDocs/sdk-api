@@ -7,7 +7,7 @@ old-location: automat\vari2frombool.htm
 old-project: automat
 ms.assetid: 34d95e98-ea21-411b-bd68-ad7be135778f
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: VarI2FromBool, VarI2FromBool function [Automation], _oa96_VarI2FromBool, automat.vari2frombool, oleauto/VarI2FromBool
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # VarI2FromBool function

@@ -7,7 +7,7 @@ old-location: com\icallframe_getnames.htm
 old-project: com
 ms.assetid: 3efb0819-51db-419b-a9f1-710bb3abae2d
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: GetNames method [COM], GetNames method [COM], ICallFrame interface, GetNames,ICallFrame.GetNames, ICallFrame, ICallFrame interface [COM], GetNames method, ICallFrame::GetNames, _com_icallframe_getnames, callobj/ICallFrame::GetNames, com.icallframe_getnames
 ms.prod: windows-hardware
 ms.technology: windows-devices

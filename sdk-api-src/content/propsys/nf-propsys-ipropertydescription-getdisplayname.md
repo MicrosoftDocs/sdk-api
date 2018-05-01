@@ -7,7 +7,7 @@ old-location: properties\IPropertyDescription_GetDisplayName.htm
 old-project: properties
 ms.assetid: 54ee12a4-15fe-454b-8233-297e98bc8a22
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/5/2018
 ms.keywords: GetDisplayName method [Windows Properties], GetDisplayName method [Windows Properties], IPropertyDescription interface, GetDisplayName,IPropertyDescription.GetDisplayName, IPropertyDescription, IPropertyDescription interface [Windows Properties], GetDisplayName method, IPropertyDescription::GetDisplayName, properties.IPropertyDescription_GetDisplayName, propsys/IPropertyDescription::GetDisplayName, shell.IPropertyDescription_GetDisplayName, shell_IPropertyDescription_GetDisplayName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IPropertyDescription::GetDisplayName method

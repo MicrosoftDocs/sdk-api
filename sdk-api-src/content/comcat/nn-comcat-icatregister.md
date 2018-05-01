@@ -7,7 +7,7 @@ old-location: com\icatregister.htm
 old-project: com
 ms.assetid: 3f4f9beb-51db-407f-91ea-6e32ff5796ce
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: ICatRegister, ICatRegister interface [COM], ICatRegister interface [COM], described, _com_icatregister, com.icatregister, comcat/ICatRegister
 ms.prod: windows-hardware
 ms.technology: windows-devices

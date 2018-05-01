@@ -7,7 +7,7 @@ old-location: mf\imfasfmutualexclusion_clone.htm
 old-project: medfound
 ms.assetid: 32bd09d7-9d85-4692-8b2f-6afab3234fa9
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 32bd09d7-9d85-4692-8b2f-6afab3234fa9, Clone method [Media Foundation], Clone method [Media Foundation], IMFASFMutualExclusion interface, Clone,IMFASFMutualExclusion.Clone, IMFASFMutualExclusion, IMFASFMutualExclusion interface [Media Foundation], Clone method, IMFASFMutualExclusion::Clone, mf.imfasfmutualexclusion_clone, wmcontainer/IMFASFMutualExclusion::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

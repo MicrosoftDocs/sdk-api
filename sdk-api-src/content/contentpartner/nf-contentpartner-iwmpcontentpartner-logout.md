@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontentpartner_logout.htm
 old-project: WMP
 ms.assetid: 8919dd66-1ec0-4551-8132-7067957bb545
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPContentPartner, IWMPContentPartner interface [Windows Media Player], Logout method, IWMPContentPartner::Logout, IWMPContentPartnerLogout, Logout method [Windows Media Player], Logout method [Windows Media Player], IWMPContentPartner interface, Logout,IWMPContentPartner.Logout, contentpartner/IWMPContentPartner::Logout, wmp.iwmpcontentpartner_logout
 ms.prod: windows-hardware
 ms.technology: windows-devices

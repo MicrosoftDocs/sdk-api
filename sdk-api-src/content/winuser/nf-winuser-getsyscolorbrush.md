@@ -7,7 +7,7 @@ old-location: gdi\getsyscolorbrush.htm
 old-project: gdi
 ms.assetid: 07a1d8e3-eae8-40ab-9d0f-4efa9fac0117
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/17/2018
 ms.keywords: GetSysColorBrush, GetSysColorBrush function [Windows GDI], _win32_GetSysColorBrush, gdi.getsyscolorbrush, winuser/GetSysColorBrush
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -64,7 +64,7 @@ The <b>GetSysColorBrush</b> function retrieves a handle identifying a logical br
 
 ### -param nIndex [in]
 
-A color index. This value corresponds to the color used to paint one of the window elements. See <a href="https://msdn.microsoft.com/165c1781-161e-4ab2-98c9-eec4e9098d09">GetSysColor</a> for system color index values.
+A color index. This value corresponds to the color used to paint one of the window elements. See <a href="base.getsyscolor">GetSysColor</a> for system color index values.
 
 
 ## -returns
@@ -80,13 +80,13 @@ The return value identifies a logical brush if the <i>nIndex</i> parameter is su
 
 
 
-A brush is a bitmap that the system uses to paint the interiors of filled shapes. An application can retrieve the current system colors by calling the <a href="https://msdn.microsoft.com/165c1781-161e-4ab2-98c9-eec4e9098d09">GetSysColor</a> function. An application can set the current system colors by calling the <a href="https://msdn.microsoft.com/41a7a96c-f9d1-44e3-a7e1-fd7d155c4ed0">SetSysColors</a> function.
+A brush is a bitmap that the system uses to paint the interiors of filled shapes. An application can retrieve the current system colors by calling the <a href="base.getsyscolor">GetSysColor</a> function. An application can set the current system colors by calling the <a href="base.setsyscolors">SetSysColors</a> function.
 
 An application must not register a window class for a window using a system brush. To register a window class with a system color, see the documentation of the <b>hbrBackground</b> member of the <a href="_win32_WNDCLASS_str_cpp">WNDCLASS</a> or <a href="_win32_WNDCLASSEX_str_cpp">WNDCLASSEX</a> structures.
 
 System color brushes track changes in system colors. In other words, when the user changes a system color, the associated system color brush automatically changes to the new color.
 
-To paint with a system color brush, an application should use <b>GetSysColorBrush</b> (nIndex) instead of <a href="https://msdn.microsoft.com/e39b5f77-97d8-4ea6-8277-7da12b3367f3">CreateSolidBrush</a> ( <a href="https://msdn.microsoft.com/165c1781-161e-4ab2-98c9-eec4e9098d09">GetSysColor</a> (nIndex)), because <b>GetSysColorBrush</b> returns a cached brush instead of allocating a new one.
+To paint with a system color brush, an application should use <b>GetSysColorBrush</b> (nIndex) instead of <a href="https://msdn.microsoft.com/e39b5f77-97d8-4ea6-8277-7da12b3367f3">CreateSolidBrush</a> ( <a href="base.getsyscolor">GetSysColor</a> (nIndex)), because <b>GetSysColorBrush</b> returns a cached brush instead of allocating a new one.
 
 System color brushes are owned by the system so you don't need to destroy them. Although you don't need to delete the logical brush that <b>GetSysColorBrush</b> returns, no harm occurs by calling <a href="https://msdn.microsoft.com/cc679af0-6839-4c83-9c42-39d7ededda40">DeleteObject</a>.
 
@@ -110,11 +110,11 @@ System color brushes are owned by the system so you don't need to destroy them. 
 
 
 
-<a href="https://msdn.microsoft.com/165c1781-161e-4ab2-98c9-eec4e9098d09">GetSysColor</a>
+<a href="base.getsyscolor">GetSysColor</a>
 
 
 
-<a href="https://msdn.microsoft.com/41a7a96c-f9d1-44e3-a7e1-fd7d155c4ed0">SetSysColors</a>
+<a href="base.setsyscolors">SetSysColors</a>
 
 
 

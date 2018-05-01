@@ -7,7 +7,7 @@ old-location: wab\_wab_SPropProblem.htm
 old-project: wab
 ms.assetid: VS|wab|~\wab\reference\structures\spropproblem.htm
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 4/3/2018
 ms.keywords: "*LPSPropProblem, SPropProblem, SPropProblem structure [Windows Address Book], _SPropProblem, _wab_SPropProblem, wab._wab_SPropProblem, wabdefs/SPropProblem"
 ms.prod: windows-hardware
 ms.technology: windows-devices

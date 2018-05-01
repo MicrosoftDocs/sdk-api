@@ -7,7 +7,7 @@ old-location: controls\ITextPara_GetStyle.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextpara\itextparagetstyle.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: GetStyle method [Windows Controls], GetStyle method [Windows Controls], ITextPara interface, GetStyle,ITextPara.GetStyle, ITextPara, ITextPara interface [Windows Controls], GetStyle method, ITextPara::GetStyle, _win32_ITextPara_GetStyle, _win32_ITextPara_GetStyle_cpp, controls.ITextPara_GetStyle, controls._win32_ITextPara_GetStyle, tom/ITextPara::GetStyle
 ms.prod: windows-hardware
 ms.technology: windows-devices

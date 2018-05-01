@@ -7,7 +7,7 @@ old-location: wmi\iwbemservices_deleteinstance.htm
 old-project: WmiSdk
 ms.assetid: f6dfeb1d-1730-4df4-adf7-f27dd9edc54d
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: DeleteInstance method [Windows Management Instrumentation], DeleteInstance method [Windows Management Instrumentation], IWbemServices interface, DeleteInstance,IWbemServices.DeleteInstance, IWbemServices, IWbemServices interface [Windows Management Instrumentation], DeleteInstance method, IWbemServices::DeleteInstance, WBEM_FLAG_RETURN_IMMEDIATELY, _hmm_iwbemservices_deleteinstance, wbemcli/IWbemServices::DeleteInstance, wmi.iwbemservices_deleteinstance
 ms.prod: windows-hardware
 ms.technology: windows-devices

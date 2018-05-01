@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement_CurrentIsControlElement.htm
 old-project: WinAuto
 ms.assetid: 9205db9b-becd-4485-8cba-516b6842b44f
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: CurrentIsControlElement property [Windows Accessibility], CurrentIsControlElement property [Windows Accessibility], IUIAutomationElement interface, IUIAutomationElement, IUIAutomationElement interface [Windows Accessibility], CurrentIsControlElement property, IUIAutomationElement.CurrentIsControlElement, IUIAutomationElement::get_CurrentIsControlElement, get_CurrentIsControlElement,IUIAutomationElement.get_CurrentIsControlElement, uiauto.uiauto_IUIAutomationElement_CurrentIsControlElement, uiauto_IUIAutomationElement_CurrentIsControlElement, uiautomationclient/IUIAutomationElement::CurrentIsControlElement, uiautomationclient/IUIAutomationElement::get_CurrentIsControlElement, winauto.uiauto_IUIAutomationElement_CurrentIsControlElement
 ms.prod: windows-hardware
 ms.technology: windows-devices

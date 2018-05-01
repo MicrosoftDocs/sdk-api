@@ -7,7 +7,7 @@ old-location: tapi3\itdirectory_enableautorefresh.htm
 old-project: Tapi
 ms.assetid: f4d55d7c-54b4-44ee-b8f2-f4dd51bf823d
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: EnableAutoRefresh method [TAPI 2.2], EnableAutoRefresh method [TAPI 2.2], ITDirectory interface, EnableAutoRefresh,ITDirectory.EnableAutoRefresh, ITDirectory, ITDirectory interface [TAPI 2.2], EnableAutoRefresh method, ITDirectory::EnableAutoRefresh, _tapi3_itdirectory_enableautorefresh, rend/ITDirectory::EnableAutoRefresh, tapi3.itdirectory_enableautorefresh
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Rend.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITDirectory::EnableAutoRefresh method

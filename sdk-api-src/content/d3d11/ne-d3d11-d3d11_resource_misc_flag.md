@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_resource_misc_flag.htm
 old-project: direct3d11
 ms.assetid: 2a324055-21b0-4dad-a8e0-781905329dc2
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/6/2018
 ms.keywords: 47ca3aa9-52f4-d1e0-6da2-56bc4682c9ee, D3D11_RESOURCE_MISC_BUFFER_ALLOW_RAW_VIEWS, D3D11_RESOURCE_MISC_BUFFER_STRUCTURED, D3D11_RESOURCE_MISC_DRAWINDIRECT_ARGS, D3D11_RESOURCE_MISC_FLAG, D3D11_RESOURCE_MISC_FLAG enumeration [Direct3D 11], D3D11_RESOURCE_MISC_GDI_COMPATIBLE, D3D11_RESOURCE_MISC_GENERATE_MIPS, D3D11_RESOURCE_MISC_GUARDED, D3D11_RESOURCE_MISC_HW_PROTECTED, D3D11_RESOURCE_MISC_RESOURCE_CLAMP, D3D11_RESOURCE_MISC_RESTRICTED_CONTENT, D3D11_RESOURCE_MISC_RESTRICT_SHARED_RESOURCE, D3D11_RESOURCE_MISC_RESTRICT_SHARED_RESOURCE_DRIVER, D3D11_RESOURCE_MISC_SHARED, D3D11_RESOURCE_MISC_SHARED_KEYEDMUTEX, D3D11_RESOURCE_MISC_SHARED_NTHANDLE, D3D11_RESOURCE_MISC_TEXTURECUBE, D3D11_RESOURCE_MISC_TILED, D3D11_RESOURCE_MISC_TILE_POOL, d3d11/D3D11_RESOURCE_MISC_BUFFER_ALLOW_RAW_VIEWS, d3d11/D3D11_RESOURCE_MISC_BUFFER_STRUCTURED, d3d11/D3D11_RESOURCE_MISC_DRAWINDIRECT_ARGS, d3d11/D3D11_RESOURCE_MISC_FLAG, d3d11/D3D11_RESOURCE_MISC_GDI_COMPATIBLE, d3d11/D3D11_RESOURCE_MISC_GENERATE_MIPS, d3d11/D3D11_RESOURCE_MISC_GUARDED, d3d11/D3D11_RESOURCE_MISC_HW_PROTECTED, d3d11/D3D11_RESOURCE_MISC_RESOURCE_CLAMP, d3d11/D3D11_RESOURCE_MISC_RESTRICTED_CONTENT, d3d11/D3D11_RESOURCE_MISC_RESTRICT_SHARED_RESOURCE, d3d11/D3D11_RESOURCE_MISC_RESTRICT_SHARED_RESOURCE_DRIVER, d3d11/D3D11_RESOURCE_MISC_SHARED, d3d11/D3D11_RESOURCE_MISC_SHARED_KEYEDMUTEX, d3d11/D3D11_RESOURCE_MISC_SHARED_NTHANDLE, d3d11/D3D11_RESOURCE_MISC_TEXTURECUBE, d3d11/D3D11_RESOURCE_MISC_TILED, d3d11/D3D11_RESOURCE_MISC_TILE_POOL, direct3d11.d3d11_resource_misc_flag
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -194,7 +194,7 @@ You must set the texture format to one of the following types.
 Set this flag to enable the use of NT HANDLE values when you create a shared resource.  By enabling this flag, you deprecate the use of existing HANDLE values.
 
 
-              When you use this flag, you must combine it with the <a href="d3d11_resource_misc_flag.htm">D3D11_RESOURCE_MISC_SHARED_KEYEDMUTEX</a> flag by using a bitwise OR operation. The resulting value specifies a new shared resource type that directs the runtime to use NT HANDLE values for the shared resource. The runtime then must confirm that the shared resource  works on all hardware at the specified <a href="https://msdn.microsoft.com/5ad0525c-249f-452d-950b-df8fa2addde2">feature level</a>.
+              The value specifies a new shared resource type that directs the runtime to use NT HANDLE values for the shared resource. The runtime then must confirm that the shared resource  works on all hardware at the specified <a href="https://msdn.microsoft.com/5ad0525c-249f-452d-950b-df8fa2addde2">feature level</a>.
             
 
 Without this flag set, the runtime does not strictly validate shared resource parameters (that is, formats, flags, usage, and so on). When the runtime does not validate shared resource parameters, behavior of much of the Direct3D   API might be undefined and might vary from driver to driver.  

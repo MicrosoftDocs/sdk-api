@@ -7,7 +7,7 @@ old-location: security\pfncryptstreamoutputcallback.htm
 old-project: SecCNG
 ms.assetid: D07B2B63-306B-4C41-AA14-320EFEFFB939
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: PFNCryptStreamOutputCallback, PFNCryptStreamOutputCallback function pointer [Security], ncryptprotect/PFNCryptStreamOutputCallback, security.pfncryptstreamoutputcallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # PFNCryptStreamOutputCallback callback

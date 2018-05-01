@@ -7,7 +7,7 @@ old-location: base\ivsshardwaresnapshotprovider_arelunssupported.htm
 old-project: VSS
 ms.assetid: f3615770-63a1-49eb-a3b9-b4d349fc33df
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: AreLunsSupported method [VSS], AreLunsSupported method [VSS], IVssHardwareSnapshotProvider interface, AreLunsSupported,IVssHardwareSnapshotProvider.AreLunsSupported, IVssHardwareSnapshotProvider, IVssHardwareSnapshotProvider interface [VSS], AreLunsSupported method, IVssHardwareSnapshotProvider::AreLunsSupported, base.ivsshardwaresnapshotprovider_arelunssupported, vsprov/IVssHardwareSnapshotProvider::AreLunsSupported
 ms.prod: windows-hardware
 ms.technology: windows-devices

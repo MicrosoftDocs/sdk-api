@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicimagingfactory_createquerywriterfromreader.htm
 old-project: wic
 ms.assetid: 71c278f8-546f-4351-9e2c-b9cd9806ccfc
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: CreateQueryWriterFromReader method [Windows Imaging Component], CreateQueryWriterFromReader method [Windows Imaging Component], IWICImagingFactory interface, CreateQueryWriterFromReader,IWICImagingFactory.CreateQueryWriterFromReader, IWICImagingFactory, IWICImagingFactory interface [Windows Imaging Component], CreateQueryWriterFromReader method, IWICImagingFactory::CreateQueryWriterFromReader, _wic_codec_iwicimagingfactory_createquerywriterfromreader, wic._wic_codec_iwicimagingfactory_createquerywriterfromreader, wincodec/IWICImagingFactory::CreateQueryWriterFromReader
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\ipbda_eit_getrecorddescriptorbyindex.htm
 old-project: mstv
 ms.assetid: 96ca5a6b-c515-4854-8e95-9cb155879b3b
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetRecordDescriptorByIndex method [Microsoft TV Technologies], GetRecordDescriptorByIndex method [Microsoft TV Technologies], IPBDA_EIT interface, GetRecordDescriptorByIndex,IPBDA_EIT.GetRecordDescriptorByIndex, IPBDA_EIT, IPBDA_EIT interface [Microsoft TV Technologies], GetRecordDescriptorByIndex method, IPBDA_EIT::GetRecordDescriptorByIndex, dvbsiparser/IPBDA_EIT::GetRecordDescriptorByIndex, mstv.ipbda_eit_getrecorddescriptorbyindex
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\idvbsiparser2_geteit2.htm
 old-project: mstv
 ms.assetid: 47ccce59-d67e-4994-b69d-8dac425b375a
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: DVB_EIT_ACTUAL_TID, DVB_EIT_OTHER_TID, GetEIT2 method [Microsoft TV Technologies], GetEIT2 method [Microsoft TV Technologies], IDvbSiParser2 interface, GetEIT2,IDvbSiParser2.GetEIT2, IDvbSiParser2, IDvbSiParser2 interface [Microsoft TV Technologies], GetEIT2 method, IDvbSiParser2::GetEIT2, dvbsiparser/IDvbSiParser2::GetEIT2, mstv.idvbsiparser2_geteit2
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmp\iwmpstringcollection2.htm
 old-project: WMP
 ms.assetid: 7aeaf549-3c60-4dd8-9e46-6bab357f4960
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPStringCollection2, IWMPStringCollection2 interface [Windows Media Player], IWMPStringCollection2 interface [Windows Media Player], described, IWMPStringCollection2Interface, wmp.iwmpstringcollection2, wmp/IWMPStringCollection2
 ms.prod: windows-hardware
 ms.technology: windows-devices

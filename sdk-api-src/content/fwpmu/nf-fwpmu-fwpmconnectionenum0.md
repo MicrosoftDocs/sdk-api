@@ -7,7 +7,7 @@ old-location: fwp\fwpmconnectionenum0.htm
 old-project: FWP
 ms.assetid: ad4c8759-f1f8-460f-b1e1-78149ce3b386
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: FwpmConnectionEnum0, FwpmConnectionEnum0 function [Filtering], fwp.fwpmconnectionenum0, fwpmu/FwpmConnectionEnum0
 ms.prod: windows-hardware
 ms.technology: windows-devices

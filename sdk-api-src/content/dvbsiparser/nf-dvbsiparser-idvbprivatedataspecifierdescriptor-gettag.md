@@ -7,7 +7,7 @@ old-location: mstv\idvbprivatedataspecifierdescriptor_gettag.htm
 old-project: mstv
 ms.assetid: bccca68c-d480-47d0-a0db-7a7d3f8376c2
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies], IDvbPrivateDataSpecifierDescriptor interface, GetTag,IDvbPrivateDataSpecifierDescriptor.GetTag, IDvbPrivateDataSpecifierDescriptor, IDvbPrivateDataSpecifierDescriptor interface [Microsoft TV Technologies], GetTag method, IDvbPrivateDataSpecifierDescriptor::GetTag, dvbsiparser/IDvbPrivateDataSpecifierDescriptor::GetTag, mstv.idvbprivatedataspecifierdescriptor_gettag
 ms.prod: windows-hardware
 ms.technology: windows-devices

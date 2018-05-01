@@ -7,7 +7,7 @@ old-location: controls\itextpara2_getsnaptogrid.htm
 old-project: Controls
 ms.assetid: ee5fd1d8-cd2d-4674-bb0f-6021a3115aac
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: GetSnapToGrid method [Windows Controls], GetSnapToGrid method [Windows Controls], ITextPara2 interface, GetSnapToGrid,ITextPara2.GetSnapToGrid, ITextPara2, ITextPara2 interface [Windows Controls], GetSnapToGrid method, ITextPara2::GetSnapToGrid, controls.itextpara2_getsnaptogrid, tom/ITextPara2::GetSnapToGrid
 ms.prod: windows-hardware
 ms.technology: windows-devices

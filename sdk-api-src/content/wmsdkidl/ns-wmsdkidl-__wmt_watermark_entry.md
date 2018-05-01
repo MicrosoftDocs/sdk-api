@@ -7,7 +7,7 @@ old-location: wmformat\wmt_watermark_entry.htm
 old-project: wmformat
 ms.assetid: 9b7b78e1-cf28-4b7a-8a12-e9d19cec17c4
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: WMT_WATERMARK_ENTRY, WMT_WATERMARK_ENTRY structure [windows Media Format], __WMT_WATERMARK_ENTRY, structure [windows Media Format], wmformat.wmt_watermark_entry, wmsdkidl/WMT_WATERMARK_ENTRY
 ms.prod: windows-hardware
 ms.technology: windows-devices

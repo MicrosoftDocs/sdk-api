@@ -7,7 +7,7 @@ old-location: controls\ITextPara_GetKeepTogether.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getkeeptogether.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: GetKeepTogether method [Windows Controls], GetKeepTogether method [Windows Controls], ITextPara interface, GetKeepTogether,ITextPara.GetKeepTogether, ITextPara, ITextPara interface [Windows Controls], GetKeepTogether method, ITextPara::GetKeepTogether, _win32_ITextPara_GetKeepTogether, _win32_ITextPara_GetKeepTogether_cpp, controls.ITextPara_GetKeepTogether, controls._win32_ITextPara_GetKeepTogether, tom/ITextPara::GetKeepTogether, tomFalse, tomTrue, tomUndefined
 ms.prod: windows-hardware
 ms.technology: windows-devices

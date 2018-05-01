@@ -7,7 +7,7 @@ old-location: dshow\ivideoprocamp_get_whitebalance.htm
 old-project: DirectShow
 ms.assetid: 53743bff-4257-4abf-b41a-aa5586ab37b5
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IVideoProcAmp, IVideoProcAmp interface [DirectShow], get_WhiteBalance method, IVideoProcAmp::get_WhiteBalance, IVideoProcAmpget_WhiteBalance, dshow.ivideoprocamp_get_whitebalance, get_WhiteBalance method [DirectShow], get_WhiteBalance method [DirectShow], IVideoProcAmp interface, get_WhiteBalance,IVideoProcAmp.get_WhiteBalance, vidcap/IVideoProcAmp::get_WhiteBalance
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: VIDEOHDR, *PVIDEOHDR, *LPVIDEOHDR
+req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
 topic_type:
 -	APIRef
 -	kbSyntax

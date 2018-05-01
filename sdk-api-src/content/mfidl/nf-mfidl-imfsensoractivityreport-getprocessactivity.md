@@ -7,7 +7,7 @@ old-location: mf\imfsensoractivityreport_getprocessactivity.htm
 old-project: medfound
 ms.assetid: A9E18EC3-83E4-430B-B7A4-49FC9736A94E
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetProcessActivity method [Media Foundation], GetProcessActivity method [Media Foundation], IMFSensorActivityReport interface, GetProcessActivity,IMFSensorActivityReport.GetProcessActivity, IMFSensorActivityReport, IMFSensorActivityReport interface [Media Foundation], GetProcessActivity method, IMFSensorActivityReport::GetProcessActivity, mf.imfsensoractivityreport_getprocessactivity, mfidl/IMFSensorActivityReport::GetProcessActivity
 ms.prod: windows-hardware
 ms.technology: windows-devices

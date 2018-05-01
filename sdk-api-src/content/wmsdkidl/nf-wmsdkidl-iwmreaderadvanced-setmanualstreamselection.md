@@ -7,7 +7,7 @@ old-location: wmformat\iwmreaderadvanced_setmanualstreamselection.htm
 old-project: wmformat
 ms.assetid: 6950b26c-1763-4578-ab5c-0ea29d3d77f1
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMReaderAdvanced, IWMReaderAdvanced interface [windows Media Format], SetManualStreamSelection method, IWMReaderAdvanced::SetManualStreamSelection, IWMReaderAdvancedSetManualStreamSelection, SetManualStreamSelection method [windows Media Format], SetManualStreamSelection method [windows Media Format], IWMReaderAdvanced interface, SetManualStreamSelection,IWMReaderAdvanced.SetManualStreamSelection, wmformat.iwmreaderadvanced_setmanualstreamselection, wmsdkidl/IWMReaderAdvanced::SetManualStreamSelection
 ms.prod: windows-hardware
 ms.technology: windows-devices

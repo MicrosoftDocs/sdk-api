@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmdevice3.htm
 old-project: WMDM
 ms.assetid: 29e0ec95-c1ea-4157-b5aa-39d80fff407d
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: IWMDMDevice3, IWMDMDevice3 interface [windows Media Device Manager], IWMDMDevice3 interface [windows Media Device Manager], described, IWMDMDevice3Interface, mswmdm/IWMDMDevice3, wmdm.iwmdmdevice3
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IWMDMDevice3 interface

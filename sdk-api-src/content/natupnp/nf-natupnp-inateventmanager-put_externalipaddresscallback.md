@@ -7,7 +7,7 @@ old-location: ics\inateventmanager_put_externalipaddresscallback.htm
 old-project: ICS
 ms.assetid: 5bc3e19c-3015-44fb-87a9-645e11283643
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: INATEventManager, INATEventManager interface [ICS/ICF], put_ExternalIPAddressCallback method, INATEventManager::put_ExternalIPAddressCallback, _ics_inateventmanager_put_externalipaddresscallback, ics.inateventmanager_put_externalipaddresscallback, natupnp/INATEventManager::put_ExternalIPAddressCallback, put_ExternalIPAddressCallback method [ICS/ICF], put_ExternalIPAddressCallback method [ICS/ICF], INATEventManager interface, put_ExternalIPAddressCallback,INATEventManager.put_ExternalIPAddressCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # INATEventManager::put_ExternalIPAddressCallback method

@@ -7,7 +7,7 @@ old-location: winsock\hostent_2.htm
 old-project: WinSock
 ms.assetid: f194b9d5-dfaf-4a02-95c6-6d06015aad1d
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/24/2018
 ms.keywords: "*LPHOSTENT, *PHOSTENT, FAR *LPHOSTENT, FAR *LPHOSTENT structure [Winsock], HOSTENT, HOSTENT structure [Winsock], PHOSTENT, PHOSTENT structure pointer [Winsock], _win32_hostent_2, hostent, hostent structure [Winsock], winsock.hostent_2, winsock/FAR *LPHOSTENT, winsock/PHOSTENT, winsock/hostent"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,27 +60,27 @@ The
 
 
 
-#### - h_name
+### -field h_name
 
 The official name of the host (PC). If using the DNS or similar resolution system, it is the Fully Qualified Domain Name (FQDN) that caused the server to return a reply. If using a local hosts file, it is the first entry after the IPv4 address.
 
 
-#### - h_aliases
+### -field h_aliases
 
 A <b>NULL</b>-terminated array of alternate names.
 
 
-#### - h_addrtype
+### -field h_addrtype
 
 The type of address being returned.
 
 
-#### - h_length
+### -field h_length
 
 The length, in bytes, of each address.
 
 
-#### - h_addr_list
+### -field h_addr_list
 
 A <b>NULL</b>-terminated list of addresses for the host. Addresses are returned in network byte order. The macro <b>h_addr</b> is defined to be <code>h_addr_list[0]</code> for compatibility with older software.
 

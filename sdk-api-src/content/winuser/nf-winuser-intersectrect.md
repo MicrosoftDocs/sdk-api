@@ -7,7 +7,7 @@ old-location: gdi\intersectrect.htm
 old-project: gdi
 ms.assetid: da686f78-e557-4ff2-9f24-b229f0c01563
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/17/2018
 ms.keywords: IntersectRect, IntersectRect function [Windows GDI], _win32_IntersectRect, gdi.intersectrect, winuser/IntersectRect
 ms.prod: windows-hardware
 ms.technology: windows-devices

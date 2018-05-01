@@ -7,7 +7,7 @@ old-location: com\istdmarshalinfo_getclassforhandler.htm
 old-project: com
 ms.assetid: ab68f292-851d-4908-b545-4df2931fceae
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: GetClassForHandler method [COM], GetClassForHandler method [COM], IStdMarshalInfo interface, GetClassForHandler,IStdMarshalInfo.GetClassForHandler, IStdMarshalInfo, IStdMarshalInfo interface [COM], GetClassForHandler method, IStdMarshalInfo::GetClassForHandler, _com_istdmarshalinfo_getclassforhandler, com.istdmarshalinfo_getclassforhandler, objidlbase/IStdMarshalInfo::GetClassForHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IStdMarshalInfo::GetClassForHandler method

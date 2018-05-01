@@ -7,7 +7,7 @@ old-location: search\_search_IConditionFactory_MakeAndOr.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iconditionfactory\makeandor.htm
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/24/2018
 ms.keywords: IConditionFactory, IConditionFactory interface [search], MakeAndOr method, IConditionFactory::MakeAndOr, MakeAndOr method [search], MakeAndOr method [search], IConditionFactory interface, MakeAndOr,IConditionFactory.MakeAndOr, _search_IConditionFactory_MakeAndOr, search._search_IConditionFactory_MakeAndOr, structuredquery/IConditionFactory::MakeAndOr
 ms.prod: windows-hardware
 ms.technology: windows-devices

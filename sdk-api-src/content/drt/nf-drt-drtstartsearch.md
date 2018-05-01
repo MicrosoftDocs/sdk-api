@@ -7,7 +7,7 @@ old-location: p2p\drtstartsearch.htm
 old-project: P2PSdk
 ms.assetid: d43634d5-eb0a-4f84-9248-977c544db984
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/23/2018
 ms.keywords: DrtStartSearch, DrtStartSearch function [Peer Networking], drt/DrtStartSearch, p2p.drtstartsearch
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winrt\ipackagedebugsettings_disabledebugging.htm
 old-project: WinRT
 ms.assetid: ad7efefb-aacd-48fa-bfe6-26271bd03b86
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/24/2018
 ms.keywords: DisableDebugging method [Windows Runtime], DisableDebugging method [Windows Runtime], IPackageDebugSettings interface, DisableDebugging,IPackageDebugSettings.DisableDebugging, IPackageDebugSettings, IPackageDebugSettings interface [Windows Runtime], DisableDebugging method, IPackageDebugSettings::DisableDebugging, shobjidl_core/IPackageDebugSettings::DisableDebugging, winrt.ipackagedebugsettings_disabledebugging
 ms.prod: windows-hardware
 ms.technology: windows-devices

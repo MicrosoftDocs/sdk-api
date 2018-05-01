@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist_resourcebarrier.htm
 old-project: direct3d12
 ms.assetid: AA788F94-122B-4132-BED5-162EAC683676
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: ID3D12GraphicsCommandList, ID3D12GraphicsCommandList interface, ResourceBarrier method, ID3D12GraphicsCommandList::ResourceBarrier, ResourceBarrier method, ResourceBarrier method, ID3D12GraphicsCommandList interface, ResourceBarrier,ID3D12GraphicsCommandList.ResourceBarrier, d3d12/ID3D12GraphicsCommandList::ResourceBarrier, direct3d12.id3d12graphicscommandlist_resourcebarrier
 ms.prod: windows-hardware
 ms.technology: windows-devices

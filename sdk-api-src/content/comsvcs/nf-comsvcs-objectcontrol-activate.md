@@ -7,7 +7,7 @@ old-location: cos\objectcontrol_activate.htm
 old-project: cossdk
 ms.assetid: 70b260e7-a51d-4ddc-b395-5478e368e776
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: Activate method [COM+], Activate method [COM+], ObjectControl interface, Activate,ObjectControl.Activate, ObjectControl, ObjectControl interface [COM+], Activate method, ObjectControl::Activate, _cos_ObjectControl_Activate, comsvcs/ObjectControl::Activate, cos.objectcontrol_activate
 ms.prod: windows-hardware
 ms.technology: windows-devices

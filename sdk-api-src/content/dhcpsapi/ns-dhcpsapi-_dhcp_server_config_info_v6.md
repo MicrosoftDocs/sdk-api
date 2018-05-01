@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_server_config_info_v6.htm
 old-project: DHCP
 ms.assetid: 9862f0c1-3c42-4ad7-af3c-15868e4a9314
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/7/2018
 ms.keywords: "*LPDHCP_SERVER_CONFIG_INFO_V6, DHCP_SERVER_CONFIG_INFO_V6, DHCP_SERVER_CONFIG_INFO_V6 structure [DHCP], PDHCP_SERVER_CONFIG_INFO_V6, PDHCP_SERVER_CONFIG_INFO_V6 structure pointer [DHCP], _DHCP_SERVER_CONFIG_INFO_V6, dhcp.dhcp_server_config_info_v6, dhcpsapi/DHCP_SERVER_CONFIG_INFO_V6, dhcpsapi/PDHCP_SERVER_CONFIG_INFO_V6"
 ms.prod: windows-hardware
 ms.technology: windows-devices

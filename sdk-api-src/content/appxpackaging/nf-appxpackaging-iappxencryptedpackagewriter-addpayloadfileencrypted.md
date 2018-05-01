@@ -7,7 +7,7 @@ old-location: appxpkg\iappxencryptedpackagewriter_addpayloadfileencrypted.htm
 old-project: appxpkg
 ms.assetid: 4F5823D3-7039-4CA1-BEEA-DF2A13BC54BD
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/26/2018
 ms.keywords: AddPayloadFileEncrypted method [App packaging and management], AddPayloadFileEncrypted method [App packaging and management], IAppxEncryptedPackageWriter interface, AddPayloadFileEncrypted,IAppxEncryptedPackageWriter.AddPayloadFileEncrypted, IAppxEncryptedPackageWriter, IAppxEncryptedPackageWriter interface [App packaging and management], AddPayloadFileEncrypted method, IAppxEncryptedPackageWriter::AddPayloadFileEncrypted, appxpackaging/IAppxEncryptedPackageWriter::AddPayloadFileEncrypted, appxpkg.iappxencryptedpackagewriter_addpayloadfileencrypted
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_ARCHITECTURE2
+req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
 topic_type:
 -	APIRef
 -	kbSyntax

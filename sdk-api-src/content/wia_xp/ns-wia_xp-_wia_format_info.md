@@ -1,0 +1,73 @@
+---
+UID: NS:wia_xp._WIA_FORMAT_INFO
+title: "_WIA_FORMAT_INFO"
+author: windows-driver-content
+description: The WIA_FORMAT_INFO structure specifies valid format and media type pairs for a device.
+old-location: wia\_wia_WIA_FORMAT_INFO.htm
+old-project: wia
+ms.assetid: VS|wia|~\wia\refwia\structs\wia_format_info.htm
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: "*PWIA_FORMAT_INFO, PWIA_FORMAT_INFO, PWIA_FORMAT_INFO structure pointer [WIA], WIA_FORMAT_INFO, WIA_FORMAT_INFO structure [WIA], _WIA_FORMAT_INFO, _wia_WIA_FORMAT_INFO, wia._wia_WIA_FORMAT_INFO, wia_xp/PWIA_FORMAT_INFO, wia_xp/WIA_FORMAT_INFO"
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: struct
+req.header: wia_xp.h
+req.include-header: Wia.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WIA_FORMAT_INFO, *PWIA_FORMAT_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	wia_xp.h
+api_name:
+-	WIA_FORMAT_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# _WIA_FORMAT_INFO structure
+
+
+## -description
+
+
+The <b>WIA_FORMAT_INFO</b> structure specifies valid format and media type pairs for a device.
+
+
+## -struct-fields
+
+
+
+
+### -field guidFormatID
+
+Type: <b>GUID</b>
+
+GUID that identifies the format.
+
+
+### -field lTymed
+
+Type: <b>LONG</b>
+
+The media type that corresponds to the <b>guidFormatID</b> member.
+

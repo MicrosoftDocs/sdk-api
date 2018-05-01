@@ -7,7 +7,7 @@ old-location: ad\dsmergeforesttrustinformationw.htm
 old-project: AD
 ms.assetid: f42e16d0-62b2-49c4-b182-d1e744afe58c
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/20/2018
 ms.keywords: DsMergeForestTrustInformationW, DsMergeForestTrustInformationW function [Active Directory], ad.dsmergeforesttrustinformationw, dsgetdc/DsMergeForestTrustInformationW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tapi3\itdirectoryobject.htm
 old-project: Tapi
 ms.assetid: a48644a4-43e2-4c52-84be-0cb5c49e6436
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: ITDirectoryObject, ITDirectoryObject interface [TAPI 2.2], ITDirectoryObject interface [TAPI 2.2], described, _tapi3_itdirectoryobject, rend/ITDirectoryObject, tapi3.itdirectoryobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Rend.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITDirectoryObject interface

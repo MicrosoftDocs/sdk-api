@@ -7,7 +7,7 @@ old-location: com\ienumformatetc_next.htm
 old-project: com
 ms.assetid: 041c3f20-bd8c-482d-9716-99f49a6bc902
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IEnumFORMATETC, IEnumFORMATETC interface [COM], Next method, IEnumFORMATETC::Next, Next method [COM], Next method [COM], IEnumFORMATETC interface, Next,IEnumFORMATETC.Next, _ole_ienumformatetc_next, com.ienumformatetc_next, objidl/IEnumFORMATETC::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IEnumFORMATETC::Next method

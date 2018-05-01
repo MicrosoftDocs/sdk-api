@@ -7,7 +7,7 @@ old-location: dshow\ienumpins_clone.htm
 old-project: DirectShow
 ms.assetid: 946bb08e-6866-46b3-b2d7-de2ab6c5e608
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: Clone method [DirectShow], Clone method [DirectShow], IEnumPins interface, Clone,IEnumPins.Clone, IEnumPins, IEnumPins interface [DirectShow], Clone method, IEnumPins::Clone, IEnumPinsClone, dshow.ienumpins_clone, strmif/IEnumPins::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

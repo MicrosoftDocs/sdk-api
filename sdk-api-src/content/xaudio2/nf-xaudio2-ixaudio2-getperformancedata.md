@@ -7,7 +7,7 @@ old-location: xaudio2\ixaudio2_interface_getperformancedata.htm
 old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2.IXAudio2.GetPerformanceData(XAUDIO2_PERFORMANCE_DATA@)
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/20/2018
 ms.keywords: GetPerformanceData method [XAudio2 Audio Mixing APIs], GetPerformanceData method [XAudio2 Audio Mixing APIs], IXAudio2 interface, GetPerformanceData,IXAudio2.GetPerformanceData, IXAudio2, IXAudio2 interface [XAudio2 Audio Mixing APIs], GetPerformanceData method, IXAudio2::GetPerformanceData, xaudio2.ixaudio2_interface_getperformancedata, xaudio2/IXAudio2::GetPerformanceData
 ms.prod: windows-hardware
 ms.technology: windows-devices

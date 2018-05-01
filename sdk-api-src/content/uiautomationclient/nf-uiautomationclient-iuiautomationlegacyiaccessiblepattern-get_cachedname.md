@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_CachedName.ht
 old-project: WinAuto
 ms.assetid: eda01409-fdb7-4dc8-844a-699120db8771
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: CachedName property [Windows Accessibility], CachedName property [Windows Accessibility], IUIAutomationLegacyIAccessiblePattern interface, IUIAutomationLegacyIAccessiblePattern, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility], CachedName property, IUIAutomationLegacyIAccessiblePattern.CachedName, IUIAutomationLegacyIAccessiblePattern::get_CachedName, get_CachedName,IUIAutomationLegacyIAccessiblePattern.get_CachedName, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CachedName, uiauto_IUIAutomationLegacyIAccessiblePattern_CachedName, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::CachedName, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::get_CachedName, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CachedName
 ms.prod: windows-hardware
 ms.technology: windows-devices

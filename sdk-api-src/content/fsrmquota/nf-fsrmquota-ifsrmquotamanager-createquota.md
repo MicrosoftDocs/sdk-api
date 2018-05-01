@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmquotamanager_createquota.htm
 old-project: Fsrm
 ms.assetid: 09f0b952-e24f-4388-8e82-6b34145f9ad4
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: CreateQuota method [File Server Resource Manager], CreateQuota method [File Server Resource Manager], FsrmQuotaManager class, CreateQuota method [File Server Resource Manager], IFsrmQuotaManager interface, CreateQuota method [File Server Resource Manager], IFsrmQuotaManagerEx interface, CreateQuota,IFsrmQuotaManager.CreateQuota, FsrmQuotaManager class [File Server Resource Manager], CreateQuota method, IFsrmQuotaManager, IFsrmQuotaManager interface [File Server Resource Manager], CreateQuota method, IFsrmQuotaManager::CreateQuota, IFsrmQuotaManagerEx interface [File Server Resource Manager], CreateQuota method, IFsrmQuotaManagerEx::CreateQuota, fs.ifsrmquotamanager_createquota, fsrm.ifsrmquotamanager_createquota, fsrmquota/IFsrmQuotaManager::CreateQuota, fsrmquota/IFsrmQuotaManagerEx::CreateQuota
 ms.prod: windows-hardware
 ms.technology: windows-devices

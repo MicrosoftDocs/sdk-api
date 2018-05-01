@@ -7,7 +7,7 @@ old-location: base\system_logical_processor_information.htm
 old-project: ProcThread
 ms.assetid: 32ef5dd8-c00d-44ee-a291-a18653beb1b9
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: "*PSYSTEM_LOGICAL_PROCESSOR_INFORMATION, PSYSTEM_LOGICAL_PROCESSOR_INFORMATION, PSYSTEM_LOGICAL_PROCESSOR_INFORMATION structure pointer, RelationCache, RelationNumaNode, RelationProcessorCore, RelationProcessorPackage, SYSTEM_LOGICAL_PROCESSOR_INFORMATION, SYSTEM_LOGICAL_PROCESSOR_INFORMATION structure, _SYSTEM_LOGICAL_PROCESSOR_INFORMATION, base.system_logical_processor_information, winnt/PSYSTEM_LOGICAL_PROCESSOR_INFORMATION, winnt/SYSTEM_LOGICAL_PROCESSOR_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -56,34 +56,6 @@ Describes the relationship between the specified processor set. This structure i
 ## -struct-fields
 
 
-
-
-### -field DUMMYUNIONNAME
-
- 
-
-
-### -field DUMMYUNIONNAME.ProcessorCore
-
-This structure contains valid data only if the <b>Relationship</b> member is RelationProcessorCore.
-
-
-### -field DUMMYUNIONNAME.ProcessorCore.Flags
-
- 
-							If the value of this member is 1, the logical processors identified by the value of the <b>ProcessorMask</b> member share functional units, as in Hyperthreading or SMT. Otherwise, the identified logical processors do not share functional units.
-
-<b>Windows Server 2003 and Windows XP Professional x64 Edition:  </b>This member is also 1 for cores that share a physical package. Therefore, to determine whether the processor supports multiple cores or hyperthreading on systems prior to Windows Vista, use the CPUID instruction.
-
-
-### -field DUMMYUNIONNAME.NumaNode
-
-This structure contains valid data only if the <b>Relationship</b> member is RelationNumaNode.
-
-
-### -field DUMMYUNIONNAME.NumaNode.NodeNumber
-
-Identifies the <a href="https://msdn.microsoft.com/a1263968-2b26-45cc-bdd7-6aa354821a5a">NUMA</a> node. The valid values of this  parameter are 0 to the highest NUMA node number inclusive. A non-NUMA multiprocessor system will report that all processors belong to one NUMA node.
 
 
 ### -field ProcessorMask
@@ -154,6 +126,34 @@ The specified logical processors share a physical package. There is no additiona
  
 
 Future versions of Windows may support additional values for the <b>Relationship</b> member.
+
+
+### -field DUMMYUNIONNAME
+
+ 
+
+
+### -field DUMMYUNIONNAME.ProcessorCore
+
+This structure contains valid data only if the <b>Relationship</b> member is RelationProcessorCore.
+
+
+### -field DUMMYUNIONNAME.ProcessorCore.Flags
+
+ 
+							If the value of this member is 1, the logical processors identified by the value of the <b>ProcessorMask</b> member share functional units, as in Hyperthreading or SMT. Otherwise, the identified logical processors do not share functional units.
+
+<b>Windows Server 2003 and Windows XP Professional x64 Edition:  </b>This member is also 1 for cores that share a physical package. Therefore, to determine whether the processor supports multiple cores or hyperthreading on systems prior to Windows Vista, use the CPUID instruction.
+
+
+### -field DUMMYUNIONNAME.NumaNode
+
+This structure contains valid data only if the <b>Relationship</b> member is RelationNumaNode.
+
+
+### -field DUMMYUNIONNAME.NumaNode.NodeNumber
+
+Identifies the <a href="https://msdn.microsoft.com/a1263968-2b26-45cc-bdd7-6aa354821a5a">NUMA</a> node. The valid values of this  parameter are 0 to the highest NUMA node number inclusive. A non-NUMA multiprocessor system will report that all processors belong to one NUMA node.
 
 
 #### - Cache

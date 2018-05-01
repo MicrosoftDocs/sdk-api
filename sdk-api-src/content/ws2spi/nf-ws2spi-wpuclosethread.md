@@ -7,7 +7,7 @@ old-location: winsock\wpuclosethread_2.htm
 old-project: WinSock
 ms.assetid: 1a5e7a99-484f-4862-bd28-edf85debc8e5
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/24/2018
 ms.keywords: WPUCloseThread, WPUCloseThread function [Winsock], _win32_wpuclosethread_2, winsock.wpuclosethread_2, ws2spi/WPUCloseThread
 ms.prod: windows-hardware
 ms.technology: windows-devices

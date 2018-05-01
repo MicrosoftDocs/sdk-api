@@ -7,7 +7,7 @@ old-location: tapi3\itcustomtone_put_volume.htm
 old-project: Tapi
 ms.assetid: 2de6dbc3-9a3d-48e7-b9e1-56b3e25d1b60
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: ITCustomTone, ITCustomTone interface [TAPI 2.2], put_Volume method, ITCustomTone::put_Volume, _tapi3_itcustomtone_put_volume, put_Volume method [TAPI 2.2], put_Volume method [TAPI 2.2], ITCustomTone interface, put_Volume,ITCustomTone.put_Volume, tapi3.itcustomtone_put_volume, tapi3if/ITCustomTone::put_Volume
 ms.prod: windows-hardware
 ms.technology: windows-devices

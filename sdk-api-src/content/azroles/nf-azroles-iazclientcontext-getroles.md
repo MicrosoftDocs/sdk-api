@@ -7,7 +7,7 @@ old-location: security\iazclientcontext_getroles.htm
 old-project: SecAuthZ
 ms.assetid: 753506cc-ed44-4795-90e5-c76010181d8a
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: AzClientContext object [Security], GetRoles method, GetRoles method [Security], GetRoles method [Security], AzClientContext object, GetRoles method [Security], IAzClientContext interface, GetRoles,IAzClientContext.GetRoles, IAzClientContext, IAzClientContext interface [Security], GetRoles method, IAzClientContext::GetRoles, azroles/IAzClientContext::GetRoles, security.iazclientcontext_getroles
 ms.prod: windows-hardware
 ms.technology: windows-devices

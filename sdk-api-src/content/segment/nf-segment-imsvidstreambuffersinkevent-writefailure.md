@@ -7,7 +7,7 @@ old-location: mstv\imsvidstreambuffersinkevent_writefailure.htm
 old-project: mstv
 ms.assetid: 6aec07e1-57b9-4350-a48f-762fcf370d6a
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidStreamBufferSinkEvent, IMSVidStreamBufferSinkEvent interface [Microsoft TV Technologies], WriteFailure method, IMSVidStreamBufferSinkEvent::WriteFailure, IMSVidStreamBufferSinkEventWriteFailure, WriteFailure method [Microsoft TV Technologies], WriteFailure method [Microsoft TV Technologies], IMSVidStreamBufferSinkEvent interface, WriteFailure,IMSVidStreamBufferSinkEvent.WriteFailure, mstv.imsvidstreambuffersinkevent_writefailure, segment/IMSVidStreamBufferSinkEvent::WriteFailure
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidStreamBufferSinkEvent::WriteFailure method

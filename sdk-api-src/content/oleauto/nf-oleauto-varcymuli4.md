@@ -7,7 +7,7 @@ old-location: automat\varcymuli4.htm
 old-project: automat
 ms.assetid: 2adfa078-c00c-48df-bd31-e36bcab64cbf
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: VarCyMulI4, VarCyMulI4 function [Automation], _oa96_VarCyMulI4, automat.varcymuli4, oleauto/VarCyMulI4
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # VarCyMulI4 function

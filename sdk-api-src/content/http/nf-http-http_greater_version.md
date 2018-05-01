@@ -7,7 +7,7 @@ old-location: http\http_greater_version.htm
 old-project: Http
 ms.assetid: 741b6f26-4c87-459e-a672-daf098f0c9e6
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: HTTP_GREATER_VERSION, HTTP_GREATER_VERSION macro [HTTP], _http_http_greater_version, http.http_greater_version, http/HTTP_GREATER_VERSION
 ms.prod: windows-hardware
 ms.technology: windows-devices

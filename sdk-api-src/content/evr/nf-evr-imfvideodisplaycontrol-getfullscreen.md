@@ -7,7 +7,7 @@ old-location: mf\imfvideodisplaycontrol_getfullscreen.htm
 old-project: medfound
 ms.assetid: ee564655-be8a-46f7-9682-acf3b38d056a
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetFullscreen method [Media Foundation], GetFullscreen method [Media Foundation], IMFVideoDisplayControl interface, GetFullscreen,IMFVideoDisplayControl.GetFullscreen, IMFVideoDisplayControl, IMFVideoDisplayControl interface [Media Foundation], GetFullscreen method, IMFVideoDisplayControl::GetFullscreen, ee564655-be8a-46f7-9682-acf3b38d056a, evr/IMFVideoDisplayControl::GetFullscreen, mf.imfvideodisplaycontrol_getfullscreen
 ms.prod: windows-hardware
 ms.technology: windows-devices

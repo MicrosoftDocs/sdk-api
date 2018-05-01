@@ -7,7 +7,7 @@ old-location: com\idataobject_getdatahere.htm
 old-project: com
 ms.assetid: 802fc49a-21c2-4490-9b00-1359ce9c325f
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: GetDataHere method [COM], GetDataHere method [COM], IDataObject interface, GetDataHere,IDataObject.GetDataHere, IDataObject, IDataObject interface [COM], GetDataHere method, IDataObject::GetDataHere, _ole_idataobject_getdatahere, com.idataobject_getdatahere, objidl/IDataObject::GetDataHere
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IDataObject::GetDataHere method

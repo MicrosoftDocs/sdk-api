@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement_CurrentOrientation.htm
 old-project: WinAuto
 ms.assetid: 9afe358e-b80c-40f8-be0a-1f07346bb583
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: CurrentOrientation property [Windows Accessibility], CurrentOrientation property [Windows Accessibility], IUIAutomationElement interface, IUIAutomationElement, IUIAutomationElement interface [Windows Accessibility], CurrentOrientation property, IUIAutomationElement.CurrentOrientation, IUIAutomationElement::get_CurrentOrientation, get_CurrentOrientation,IUIAutomationElement.get_CurrentOrientation, uiauto.uiauto_IUIAutomationElement_CurrentOrientation, uiauto_IUIAutomationElement_CurrentOrientation, uiautomationclient/IUIAutomationElement::CurrentOrientation, uiautomationclient/IUIAutomationElement::get_CurrentOrientation, winauto.uiauto_IUIAutomationElement_CurrentOrientation
 ms.prod: windows-hardware
 ms.technology: windows-devices

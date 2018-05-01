@@ -7,7 +7,7 @@ old-location: coreaudio\iconnector_disconnect.htm
 old-project: CoreAudio
 ms.assetid: f1ca8863-4756-4d08-97b3-959a76d6f991
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: Disconnect method [Core Audio], Disconnect method [Core Audio], IConnector interface, Disconnect,IConnector.Disconnect, IConnector, IConnector interface [Core Audio], Disconnect method, IConnector::Disconnect, IConnectorDisconnect, coreaudio.iconnector_disconnect, devicetopology/IConnector::Disconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices

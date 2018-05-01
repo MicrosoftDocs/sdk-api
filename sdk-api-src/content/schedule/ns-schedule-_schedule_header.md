@@ -7,7 +7,7 @@ old-location: ad\schedule_header.htm
 old-project: AD
 ms.assetid: 5453927e-306e-4442-a855-916005dc8e3b
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/20/2018
 ms.keywords: "*PSCHEDULE_HEADER, PSCHEDULE_HEADER, PSCHEDULE_HEADER structure pointer [Active Directory], SCHEDULE_BANDWIDTH, SCHEDULE_HEADER, SCHEDULE_HEADER structure [Active Directory], SCHEDULE_INTERVAL, SCHEDULE_PRIORITY, _SCHEDULE_HEADER, ad.schedule_header, schedule/PSCHEDULE_HEADER, schedule/SCHEDULE_HEADER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _SCHEDULE_HEADER structure

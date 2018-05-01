@@ -7,7 +7,7 @@ old-location: mstv\imsvidstreambuffersourceevent3_coppunblocked.htm
 old-project: mstv
 ms.assetid: e206253e-40af-4b61-8dcb-465a05cfa8f9
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: COPPUnblocked method [Microsoft TV Technologies], COPPUnblocked method [Microsoft TV Technologies], IMSVidStreamBufferSourceEvent3 interface, COPPUnblocked,IMSVidStreamBufferSourceEvent3.COPPUnblocked, IMSVidStreamBufferSourceEvent3, IMSVidStreamBufferSourceEvent3 interface [Microsoft TV Technologies], COPPUnblocked method, IMSVidStreamBufferSourceEvent3::COPPUnblocked, IMSVidStreamBufferSourceEvent3COPPUnblocked, mstv.imsvidstreambuffersourceevent3_coppunblocked, segment/IMSVidStreamBufferSourceEvent3::COPPUnblocked
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidStreamBufferSourceEvent3::COPPUnblocked method

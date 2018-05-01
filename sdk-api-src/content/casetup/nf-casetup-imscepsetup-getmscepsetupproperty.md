@@ -7,7 +7,7 @@ old-location: security\imscepsetup_getmscepsetupproperty.htm
 old-project: SecCrypto
 ms.assetid: b598331d-b54b-4e12-bea4-99cf1e6a5872
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: GetMSCEPSetupProperty method [Security], GetMSCEPSetupProperty method [Security], IMSCEPSetup interface, GetMSCEPSetupProperty,IMSCEPSetup.GetMSCEPSetupProperty, IMSCEPSetup, IMSCEPSetup interface [Security], GetMSCEPSetupProperty method, IMSCEPSetup::GetMSCEPSetupProperty, casetup/IMSCEPSetup::GetMSCEPSetupProperty, security.imscepsetup_getmscepsetupproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

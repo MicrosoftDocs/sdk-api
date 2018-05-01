@@ -7,7 +7,7 @@ old-location: mstv\imsvidencoder_get_audioencoderinterface.htm
 old-project: mstv
 ms.assetid: 5b22a062-7da5-411e-ac85-fb9c7b3650a7
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidEncoder, IMSVidEncoder interface [Microsoft TV Technologies], get_AudioEncoderInterface method, IMSVidEncoder::get_AudioEncoderInterface, IMSVidEncoderget_AudioEncoderInterface, get_AudioEncoderInterface method [Microsoft TV Technologies], get_AudioEncoderInterface method [Microsoft TV Technologies], IMSVidEncoder interface, get_AudioEncoderInterface,IMSVidEncoder.get_AudioEncoderInterface, mstv.imsvidencoder_get_audioencoderinterface, segment/IMSVidEncoder::get_AudioEncoderInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidEncoder::get_AudioEncoderInterface method

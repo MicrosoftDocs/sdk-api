@@ -7,7 +7,7 @@ old-location: mstv\iisdbcomponentgroupdescriptor_getrecordtextw.htm
 old-project: mstv
 ms.assetid: 0aea8704-cda0-44d5-b06d-79db6ce0114e
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetRecordTextW method [Microsoft TV Technologies], GetRecordTextW method [Microsoft TV Technologies], IIsdbComponentGroupDescriptor interface, GetRecordTextW,IIsdbComponentGroupDescriptor.GetRecordTextW, IIsdbComponentGroupDescriptor, IIsdbComponentGroupDescriptor interface [Microsoft TV Technologies], GetRecordTextW method, IIsdbComponentGroupDescriptor::GetRecordTextW, dvbsiparser/IIsdbComponentGroupDescriptor::GetRecordTextW, mstv.iisdbcomponentgroupdescriptor_getrecordtextw
 ms.prod: windows-hardware
 ms.technology: windows-devices

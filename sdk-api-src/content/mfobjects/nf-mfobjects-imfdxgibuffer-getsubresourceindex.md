@@ -7,7 +7,7 @@ old-location: mf\imfdxgibuffer_getsubresourceindex.htm
 old-project: medfound
 ms.assetid: 71FA2B1C-2F11-45E7-8211-92A129F8C991
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetSubresourceIndex method [Media Foundation], GetSubresourceIndex method [Media Foundation], IMFDXGIBuffer interface, GetSubresourceIndex,IMFDXGIBuffer.GetSubresourceIndex, IMFDXGIBuffer, IMFDXGIBuffer interface [Media Foundation], GetSubresourceIndex method, IMFDXGIBuffer::GetSubresourceIndex, mf.imfdxgibuffer_getsubresourceindex, mfobjects/IMFDXGIBuffer::GetSubresourceIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices

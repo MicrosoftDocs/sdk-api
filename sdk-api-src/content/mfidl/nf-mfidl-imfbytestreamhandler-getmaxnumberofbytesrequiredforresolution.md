@@ -7,7 +7,7 @@ old-location: mf\imfbytestreamhandler_getmaxnumberofbytesrequiredforresolution.h
 old-project: medfound
 ms.assetid: e90c5bc6-fc0a-4478-aa65-9dc6618f46f0
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetMaxNumberOfBytesRequiredForResolution method [Media Foundation], GetMaxNumberOfBytesRequiredForResolution method [Media Foundation], IMFByteStreamHandler interface, GetMaxNumberOfBytesRequiredForResolution,IMFByteStreamHandler.GetMaxNumberOfBytesRequiredForResolution, IMFByteStreamHandler, IMFByteStreamHandler interface [Media Foundation], GetMaxNumberOfBytesRequiredForResolution method, IMFByteStreamHandler::GetMaxNumberOfBytesRequiredForResolution, e90c5bc6-fc0a-4478-aa65-9dc6618f46f0, mf.imfbytestreamhandler_getmaxnumberofbytesrequiredforresolution, mfidl/IMFByteStreamHandler::GetMaxNumberOfBytesRequiredForResolution
 ms.prod: windows-hardware
 ms.technology: windows-devices

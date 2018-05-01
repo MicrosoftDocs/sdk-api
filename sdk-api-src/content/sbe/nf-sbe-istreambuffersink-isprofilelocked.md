@@ -7,7 +7,7 @@ old-location: mstv\istreambuffersink_isprofilelocked.htm
 old-project: mstv
 ms.assetid: 941c1702-2ef2-4afe-933c-78ed9ee8690b
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IStreamBufferSink, IStreamBufferSink interface [Microsoft TV Technologies], IsProfileLocked method, IStreamBufferSink::IsProfileLocked, IStreamBufferSinkIsProfileLocked, IsProfileLocked method [Microsoft TV Technologies], IsProfileLocked method [Microsoft TV Technologies], IStreamBufferSink interface, IsProfileLocked,IStreamBufferSink.IsProfileLocked, mstv.istreambuffersink_isprofilelocked, sbe/IStreamBufferSink::IsProfileLocked
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IStreamBufferSink::IsProfileLocked method

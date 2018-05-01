@@ -7,7 +7,7 @@ old-location: shell\IExpDispSupportXP_FindCIE4ConnectionPoint.htm
 old-project: shell
 ms.assetid: 2fca737b-d381-4feb-9c5d-c038eecdadb7
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: FindCIE4ConnectionPoint method [Windows Shell], FindCIE4ConnectionPoint method [Windows Shell], IExpDispSupportXP interface, FindCIE4ConnectionPoint,IExpDispSupportXP.FindCIE4ConnectionPoint, IExpDispSupportXP, IExpDispSupportXP interface [Windows Shell], FindCIE4ConnectionPoint method, IExpDispSupportXP::FindCIE4ConnectionPoint, _shell_IExpDispSupportXP_FindCIE4ConnectionPoint, shdeprecated/IExpDispSupportXP::FindCIE4ConnectionPoint, shell.IExpDispSupportXP_FindCIE4ConnectionPoint
 ms.prod: windows-hardware
 ms.technology: windows-devices

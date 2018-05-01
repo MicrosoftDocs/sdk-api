@@ -7,7 +7,7 @@ old-location: base\ivssbackupcomponents_breaksnapshotset.htm
 old-project: VSS
 ms.assetid: 8c366f19-b10f-46cd-b5dc-cc3c77c5a008
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: BreakSnapshotSet method [VSS], BreakSnapshotSet method [VSS], IVssBackupComponents interface, BreakSnapshotSet,IVssBackupComponents.BreakSnapshotSet, IVssBackupComponents, IVssBackupComponents interface [VSS], BreakSnapshotSet method, IVssBackupComponents::BreakSnapshotSet, _win32_ivssbackupcomponents_breaksnapshotset, base.ivssbackupcomponents_breaksnapshotset, vsbackup/IVssBackupComponents::BreakSnapshotSet
 ms.prod: windows-hardware
 ms.technology: windows-devices

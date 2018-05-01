@@ -2,21 +2,21 @@
 UID: NS:windef._POINTL
 title: "_POINTL"
 author: windows-driver-content
-description: The POINTL structure contains the coordinates of a point.
-old-location: gdi\pointl.htm
-old-project: gdi
-ms.assetid: 587d36c8-e81c-4256-af25-af2a82727e8d
+description: The POINTL structure defines the x- and y-coordinates of a point.
+old-location: display\pointl.htm
+old-project: display
+ms.assetid: 68cd23d7-7898-4132-abfe-4dda527889b9
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
-ms.keywords: "*PPOINTL, POINTL, POINTL structure [Windows GDI], PPOINTL, PPOINTL structure pointer [Windows GDI], _POINTL, _win32_POINTL_str, gdi.pointl, windef/POINTL, windef/PPOINTL"
+ms.date: 4/16/2018
+ms.keywords: "*PPOINTL, POINTL, POINTL structure [Display Devices], PPOINTL, PPOINTL structure pointer [Display Devices], _POINTL, display.pointl, grstrcts_bb79820f-05c8-42bf-a7a9-923b6fbc206e.xml, windef/POINTL, windef/PPOINTL"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: windef.h
 req.include-header: Windows.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
-req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -33,7 +33,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	Windef.h
+-	windef.h
 api_name:
 -	POINTL
 product: Windows
@@ -50,10 +50,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-The <b>POINTL</b> structure contains the coordinates of a point.
-
-
+The POINTL structure defines the x- and y-coordinates of a point.
 
 
 ## -struct-fields
@@ -63,12 +60,21 @@ The <b>POINTL</b> structure contains the coordinates of a point.
 
 ### -field x
 
-The horizontal (x) coordinate of the point.
+Specifies the <i>x</i>-coordinate of the point. 
 
 
 ### -field y
 
-The vertical (y) coordinate of the point.
+Specifies the <i>y</i>-coordinate of the point. 
+
+
+## -remarks
+
+
+
+The POINTL structure is identical to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a> structure.
+
+
 
 
 ## -see-also
@@ -76,11 +82,11 @@ The vertical (y) coordinate of the point.
 
 
 
-<a href="https://msdn.microsoft.com/6a509ed5-cea3-4318-ad17-9d20425a6e80">Metafile Structures</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a>
 
 
 
-<a href="https://msdn.microsoft.com/309ee4cf-111b-4f09-a722-4823cb3d26b0">Metafiles Overview</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569167">POINTS</a>
  
 
  

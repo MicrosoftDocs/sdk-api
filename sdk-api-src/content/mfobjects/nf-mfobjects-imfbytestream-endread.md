@@ -7,7 +7,7 @@ old-location: mf\imfbytestream_endread.htm
 old-project: medfound
 ms.assetid: dd62f644-fb97-474b-8303-3086a7b51c4d
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: EndRead method [Media Foundation], EndRead method [Media Foundation], IMFByteStream interface, EndRead,IMFByteStream.EndRead, IMFByteStream, IMFByteStream interface [Media Foundation], EndRead method, IMFByteStream::EndRead, dd62f644-fb97-474b-8303-3086a7b51c4d, mf.imfbytestream_endread, mfobjects/IMFByteStream::EndRead
 ms.prod: windows-hardware
 ms.technology: windows-devices

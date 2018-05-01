@@ -7,7 +7,7 @@ old-location: fs\addlogcontainer.htm
 old-project: Clfs
 ms.assetid: 5e886b96-9431-43f6-b888-e0f47c432371
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/25/2018
 ms.keywords: AddLogContainer, AddLogContainer function [Files], clfsw32/AddLogContainer, fs.addlogcontainer
 ms.prod: windows-hardware
 ms.technology: windows-devices

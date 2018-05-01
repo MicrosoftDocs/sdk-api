@@ -7,7 +7,7 @@ old-location: dshow\ivideoprocamp_getrange_whitebalancecomponent.htm
 old-project: DirectShow
 ms.assetid: dec23c5a-3999-4f9b-81f3-2718b38d5835
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IVideoProcAmp, IVideoProcAmp interface [DirectShow], getRange_WhiteBalanceComponent method, IVideoProcAmp::getRange_WhiteBalanceComponent, IVideoProcAmpgetRange_WhiteBalanceComponent, dshow.ivideoprocamp_getrange_whitebalancecomponent, getRange_WhiteBalanceComponent method [DirectShow], getRange_WhiteBalanceComponent method [DirectShow], IVideoProcAmp interface, getRange_WhiteBalanceComponent,IVideoProcAmp.getRange_WhiteBalanceComponent, vidcap/IVideoProcAmp::getRange_WhiteBalanceComponent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: VIDEOHDR, *PVIDEOHDR, *LPVIDEOHDR
+req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
 topic_type:
 -	APIRef
 -	kbSyntax

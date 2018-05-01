@@ -7,7 +7,7 @@ old-location: base\getactiveprocessorcount.htm
 old-project: ProcThread
 ms.assetid: f4ebb0a7-1c05-4478-85e3-80e6327ef8a4
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: GetActiveProcessorCount, GetActiveProcessorCount function, base.getactiveprocessorcount, winbase/GetActiveProcessorCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

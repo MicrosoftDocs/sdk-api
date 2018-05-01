@@ -7,7 +7,7 @@ old-location: mstv\iisdbdatacontentdescriptor_gettag.htm
 old-project: mstv
 ms.assetid: 308f44d6-0aae-418e-8aad-cc812c0cdb8a
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies], IIsdbDataContentDescriptor interface, GetTag,IIsdbDataContentDescriptor.GetTag, IIsdbDataContentDescriptor, IIsdbDataContentDescriptor interface [Microsoft TV Technologies], GetTag method, IIsdbDataContentDescriptor::GetTag, dvbsiparser/IIsdbDataContentDescriptor::GetTag, mstv.iisdbdatacontentdescriptor_gettag
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: controls\itextselection2.htm
 old-project: Controls
 ms.assetid: 75a4e233-6672-4407-bd68-ba8a7072b7b1
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextSelection2, ITextSelection2 interface [Windows Controls], ITextSelection2 interface [Windows Controls], described, controls.itextselection2, tom/ITextSelection2
 ms.prod: windows-hardware
 ms.technology: windows-devices

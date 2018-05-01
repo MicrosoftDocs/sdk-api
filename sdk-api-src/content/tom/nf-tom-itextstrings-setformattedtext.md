@@ -7,7 +7,7 @@ old-location: controls\itextstrings_setformattedtext.htm
 old-project: Controls
 ms.assetid: 4ebf7b46-8398-4751-b8b3-19e94fdbce87
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextStrings, ITextStrings interface [Windows Controls], SetFormattedText method, ITextStrings::SetFormattedText, SetFormattedText method [Windows Controls], SetFormattedText method [Windows Controls], ITextStrings interface, SetFormattedText,ITextStrings.SetFormattedText, controls.itextstrings_setformattedtext, tom/ITextStrings::SetFormattedText
 ms.prod: windows-hardware
 ms.technology: windows-devices

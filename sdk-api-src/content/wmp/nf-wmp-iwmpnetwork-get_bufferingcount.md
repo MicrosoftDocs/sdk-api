@@ -7,7 +7,7 @@ old-location: wmp\iwmpnetwork_get_bufferingcount.htm
 old-project: WMP
 ms.assetid: 9ba9be8d-9b2b-4620-8572-317555d51bdf
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPNetwork, IWMPNetwork interface [Windows Media Player], get_bufferingCount method, IWMPNetwork::get_bufferingCount, IWMPNetworkget_bufferingCount, get_bufferingCount method [Windows Media Player], get_bufferingCount method [Windows Media Player], IWMPNetwork interface, get_bufferingCount,IWMPNetwork.get_bufferingCount, wmp.iwmpnetwork_get_bufferingcount, wmp/IWMPNetwork::get_bufferingCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

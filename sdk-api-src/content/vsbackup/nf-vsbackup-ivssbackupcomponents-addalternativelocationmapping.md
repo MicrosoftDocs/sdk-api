@@ -7,7 +7,7 @@ old-location: base\ivssbackupcomponents_addalternativelocationmapping.htm
 old-project: VSS
 ms.assetid: 349ec124-f3f5-4142-8600-8d9f508c9bb2
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: AddAlternativeLocationMapping method [VSS], AddAlternativeLocationMapping method [VSS], IVssBackupComponents interface, AddAlternativeLocationMapping,IVssBackupComponents.AddAlternativeLocationMapping, IVssBackupComponents, IVssBackupComponents interface [VSS], AddAlternativeLocationMapping method, IVssBackupComponents::AddAlternativeLocationMapping, _win32_ivssbackupcomponents_addalternativelocationmapping, base.ivssbackupcomponents_addalternativelocationmapping, vsbackup/IVssBackupComponents::AddAlternativeLocationMapping
 ms.prod: windows-hardware
 ms.technology: windows-devices

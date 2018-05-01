@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationAndCondition_GetChildrenAsNativeArray.
 old-project: WinAuto
 ms.assetid: 2543dd60-88cb-4477-9008-4ec8f9d8f287
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: GetChildrenAsNativeArray method [Windows Accessibility], GetChildrenAsNativeArray method [Windows Accessibility], IUIAutomationAndCondition interface, GetChildrenAsNativeArray,IUIAutomationAndCondition.GetChildrenAsNativeArray, IUIAutomationAndCondition, IUIAutomationAndCondition interface [Windows Accessibility], GetChildrenAsNativeArray method, IUIAutomationAndCondition::GetChildrenAsNativeArray, uiauto.uiauto_IUIAutomationAndCondition_GetChildrenAsNativeArray, uiauto_IUIAutomationAndCondition_GetChildrenAsNativeArray, uiautomationclient/IUIAutomationAndCondition::GetChildrenAsNativeArray, winauto.uiauto_IUIAutomationAndCondition_GetChildrenAsNativeArray
 ms.prod: windows-hardware
 ms.technology: windows-devices

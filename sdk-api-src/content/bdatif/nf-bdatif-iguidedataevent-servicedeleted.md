@@ -7,7 +7,7 @@ old-location: mstv\iguidedataevent_servicedeleted.htm
 old-project: mstv
 ms.assetid: bba15ebe-d1c5-4c71-b052-6b75a7825613
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IGuideDataEvent, IGuideDataEvent interface [Microsoft TV Technologies], ServiceDeleted method, IGuideDataEvent::ServiceDeleted, IGuideDataEventServiceDeleted, ServiceDeleted method [Microsoft TV Technologies], ServiceDeleted method [Microsoft TV Technologies], IGuideDataEvent interface, ServiceDeleted,IGuideDataEvent.ServiceDeleted, bdatif/IGuideDataEvent::ServiceDeleted, mstv.iguidedataevent_servicedeleted
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: SpanningEventEmmMessage
+req.typenames: SmartCardApplication
 topic_type:
 -	APIRef
 -	kbSyntax

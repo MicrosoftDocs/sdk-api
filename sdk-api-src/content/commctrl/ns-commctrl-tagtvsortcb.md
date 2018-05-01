@@ -7,7 +7,7 @@ old-location: controls\TVSORTCB.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\treeview\structures\tvsortcb.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: "*LPTVSORTCB, LPTVSORTCB, LPTVSORTCB structure pointer [Windows Controls], TVSORTCB, TVSORTCB structure [Windows Controls], _win32_TVSORTCB, _win32_TVSORTCB_cpp, commctrl/LPTVSORTCB, commctrl/TVSORTCB, controls.TVSORTCB, controls._win32_TVSORTCB, tagTVSORTCB"
 ms.prod: windows-hardware
 ms.technology: windows-devices

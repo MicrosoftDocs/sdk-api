@@ -7,7 +7,7 @@ old-location: mscs\clusworkercreate.htm
 old-project: MsCS
 ms.assetid: a7e8f8ad-c9de-4c6b-8926-b9a46d85924d
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: PCLUSAPI_CLUS_WORKER_CREATE, PCLUSAPI_CLUS_WORKER_CREATE callback function [Failover Cluster], _wolf_clusworkercreate, mscs.clusworkercreate, resapi/PCLUSAPI_CLUS_WORKER_CREATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # PCLUSAPI_CLUS_WORKER_CREATE callback

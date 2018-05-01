@@ -7,7 +7,7 @@ old-location: wmformat\iwmwriteradvanced_setlivesource.htm
 old-project: wmformat
 ms.assetid: ab015f92-498e-44c7-95c9-869dfdfccc09
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMWriterAdvanced, IWMWriterAdvanced interface [windows Media Format], SetLiveSource method, IWMWriterAdvanced::SetLiveSource, IWMWriterAdvancedSetLiveSource, SetLiveSource method [windows Media Format], SetLiveSource method [windows Media Format], IWMWriterAdvanced interface, SetLiveSource,IWMWriterAdvanced.SetLiveSource, wmformat.iwmwriteradvanced_setlivesource, wmsdkidl/IWMWriterAdvanced::SetLiveSource
 ms.prod: windows-hardware
 ms.technology: windows-devices

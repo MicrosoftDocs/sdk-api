@@ -7,7 +7,7 @@ old-location: dshow\iddrawexclmodevideocallback_onupdatesize.htm
 old-project: DirectShow
 ms.assetid: 00ddf110-8efc-414f-abfa-d6c7a22751a8
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IDDrawExclModeVideoCallback, IDDrawExclModeVideoCallback interface [DirectShow], OnUpdateSize method, IDDrawExclModeVideoCallback::OnUpdateSize, IDDrawExclModeVideoCallbackOnUpdateSize, OnUpdateSize method [DirectShow], OnUpdateSize method [DirectShow], IDDrawExclModeVideoCallback interface, OnUpdateSize,IDDrawExclModeVideoCallback.OnUpdateSize, dshow.iddrawexclmodevideocallback_onupdatesize, strmif/IDDrawExclModeVideoCallback::OnUpdateSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: cos\icomthreadevents_onthreadunbind.htm
 old-project: cossdk
 ms.assetid: 21ce95a4-0e87-4e2d-a3fa-b21a079058e2
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: IComThreadEvents, IComThreadEvents interface [COM+], OnThreadUnBind method, IComThreadEvents::OnThreadUnBind, OnThreadUnBind method [COM+], OnThreadUnBind method [COM+], IComThreadEvents interface, OnThreadUnBind,IComThreadEvents.OnThreadUnBind, _dtc_IComThreadEvents_OnThreadUnBind, comsvcs/IComThreadEvents::OnThreadUnBind, cos.icomthreadevents_onthreadunbind
 ms.prod: windows-hardware
 ms.technology: windows-devices

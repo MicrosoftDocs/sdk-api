@@ -7,7 +7,7 @@ old-location: winrt\ireferencetrackerhost_removememorypressure.htm
 old-project: WinRT
 ms.assetid: 686a8a17-d6a6-4062-9f14-add132685b66
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/24/2018
 ms.keywords: IReferenceTrackerHost, IReferenceTrackerHost interface [Windows Runtime], RemoveMemoryPressure method, IReferenceTrackerHost::RemoveMemoryPressure, RemoveMemoryPressure method [Windows Runtime], RemoveMemoryPressure method [Windows Runtime], IReferenceTrackerHost interface, RemoveMemoryPressure,IReferenceTrackerHost.RemoveMemoryPressure, windows/IReferenceTrackerHost::RemoveMemoryPressure, winrt.ireferencetrackerhost_removememorypressure
 ms.prod: windows-hardware
 ms.technology: windows-devices

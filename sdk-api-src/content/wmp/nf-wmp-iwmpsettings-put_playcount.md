@@ -7,7 +7,7 @@ old-location: wmp\iwmpsettings_put_playcount.htm
 old-project: WMP
 ms.assetid: b9fdd596-8ca3-497e-8d40-6dd5ddbf0a1e
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPSettings, IWMPSettings interface [Windows Media Player], put_playCount method, IWMPSettings::put_playCount, IWMPSettingsput_playCount, put_playCount method [Windows Media Player], put_playCount method [Windows Media Player], IWMPSettings interface, put_playCount,IWMPSettings.put_playCount, wmp.iwmpsettings_put_playcount, wmp/IWMPSettings::put_playCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

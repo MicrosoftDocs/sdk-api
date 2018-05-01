@@ -7,7 +7,7 @@ old-location: security\iocspcaconfiguration_reminderduration_method.htm
 old-project: SecCrypto
 ms.assetid: 861289e7-b2f1-433f-a896-47f4b161712e
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: IOCSPCAConfiguration, IOCSPCAConfiguration interface [Security], ReminderDuration property, IOCSPCAConfiguration.ReminderDuration, IOCSPCAConfiguration::get_ReminderDuration, IOCSPCAConfiguration::put_ReminderDuration, ReminderDuration property [Security], ReminderDuration property [Security], IOCSPCAConfiguration interface, certadm/IOCSPCAConfiguration::ReminderDuration, certadm/IOCSPCAConfiguration::get_ReminderDuration, certadm/IOCSPCAConfiguration::put_ReminderDuration, put_ReminderDuration,IOCSPCAConfiguration.put_ReminderDuration, security.iocspcaconfiguration_reminderduration_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CHANNEL_ENTRY_POINTS, *PCHANNEL_ENTRY_POINTS
+req.typenames: 
 topic_type:
 -	APIRef
 -	kbSyntax

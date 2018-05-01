@@ -7,7 +7,7 @@ old-location: fax\_mfax_FaxConfiguration_Refresh_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\refresh.htm
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/18/2018
 ms.keywords: FaxConfiguration object [Fax Service], Refresh method, IFaxConfiguration, IFaxConfiguration::Refresh, Refresh method [Fax Service], Refresh method [Fax Service], FaxConfiguration object, Refresh,IFaxConfiguration.Refresh, _mfax_IFaxConfiguration_Refresh, fax._mfax_FaxConfiguration_Refresh_vb
 ms.prod: windows-hardware
 ms.technology: windows-devices

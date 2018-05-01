@@ -7,7 +7,7 @@ old-location: fwp\fwpmsublayersetsecurityinfobykey0_func.htm
 old-project: FWP
 ms.assetid: 47f1aa71-017d-4de2-8428-d666afa67b71
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: FwpmCalloutSetSecurityInfoByKey0, FwpmCalloutSetSecurityInfoByKey0 function [Filtering], FwpmSubLayerSetSecurityInfoByKey0, fwp.fwpmsublayersetsecurityinfobykey0_func, fwpmu/FwpmCalloutSetSecurityInfoByKey0
 ms.prod: windows-hardware
 ms.technology: windows-devices

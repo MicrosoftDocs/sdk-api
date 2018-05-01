@@ -7,7 +7,7 @@ old-location: security\objectcloseauditalarm.htm
 old-project: SecAuthZ
 ms.assetid: 274f3a62-1833-402b-b362-f526b2bee14b
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: ObjectCloseAuditAlarm, ObjectCloseAuditAlarm function [Security], ObjectCloseAuditAlarmA, ObjectCloseAuditAlarmW, _win32_objectcloseauditalarm, security.objectcloseauditalarm, winbase/ObjectCloseAuditAlarm, winbase/ObjectCloseAuditAlarmA, winbase/ObjectCloseAuditAlarmW
 ms.prod: windows-hardware
 ms.technology: windows-devices

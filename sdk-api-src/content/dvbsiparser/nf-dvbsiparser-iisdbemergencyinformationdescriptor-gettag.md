@@ -7,7 +7,7 @@ old-location: mstv\iisdbemergencyinformationdescriptor_gettag.htm
 old-project: mstv
 ms.assetid: d0751a09-0336-48d7-a5f0-1182354774a4
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies], IIsdbEmergencyInformationDescriptor interface, GetTag,IIsdbEmergencyInformationDescriptor.GetTag, IIsdbEmergencyInformationDescriptor, IIsdbEmergencyInformationDescriptor interface [Microsoft TV Technologies], GetTag method, IIsdbEmergencyInformationDescriptor::GetTag, dvbsiparser/IIsdbEmergencyInformationDescriptor::GetTag, mstv.iisdbemergencyinformationdescriptor_gettag
 ms.prod: windows-hardware
 ms.technology: windows-devices

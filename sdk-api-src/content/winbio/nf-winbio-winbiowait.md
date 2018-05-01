@@ -7,7 +7,7 @@ old-location: secbiomet\winbiowait.htm
 old-project: SecBioMet
 ms.assetid: 3cf8b02b-5009-4244-b954-e82d47ed4735
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: WinBioWait, WinBioWait function [Windows Biometric Framework API], secbiomet.winbiowait, winbio/WinBioWait
 ms.prod: windows-hardware
 ms.technology: windows-devices

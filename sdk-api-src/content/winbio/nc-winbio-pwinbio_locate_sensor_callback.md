@@ -7,7 +7,7 @@ old-location: secbiomet\pwinbio_locate_sensor_callback.htm
 old-project: SecBioMet
 ms.assetid: 2959B5C0-A513-4124-8391-E05E9F43CD53
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: PWINBIO_LOCATE_SENSOR_CALLBACK, PWINBIO_LOCATE_SENSOR_CALLBACK callback function [Windows Biometric Framework API], secbiomet.pwinbio_locate_sensor_callback, winbio/PWINBIO_LOCATE_SENSOR_CALLBACK
 ms.prod: windows-hardware
 ms.technology: windows-devices

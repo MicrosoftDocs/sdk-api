@@ -7,7 +7,7 @@ old-location: com\progidfromclsid.htm
 old-project: com
 ms.assetid: a863cbc2-f8ab-468a-8254-b273077a6a2b
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: ProgIDFromCLSID, ProgIDFromCLSID function [COM], _com_ProgIDFromCLSID, com.progidfromclsid, combaseapi/ProgIDFromCLSID
 ms.prod: windows-hardware
 ms.technology: windows-devices

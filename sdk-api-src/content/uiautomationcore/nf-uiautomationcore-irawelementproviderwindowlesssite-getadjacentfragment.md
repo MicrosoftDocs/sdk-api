@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IRawElementProviderWindowlessSite_GetAdjacentFragme
 old-project: WinAuto
 ms.assetid: 2C43EA00-5C8E-4301-9BFF-9A5D1C585824
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: GetAdjacentFragment method [Windows Accessibility], GetAdjacentFragment method [Windows Accessibility], IRawElementProviderWindowlessSite interface, GetAdjacentFragment,IRawElementProviderWindowlessSite.GetAdjacentFragment, IRawElementProviderWindowlessSite, IRawElementProviderWindowlessSite interface [Windows Accessibility], GetAdjacentFragment method, IRawElementProviderWindowlessSite::GetAdjacentFragment, uiautomationcore/IRawElementProviderWindowlessSite::GetAdjacentFragment, winauto.uiauto_IRawElementProviderWindowlessSite_GetAdjacentFragment
 ms.prod: windows-hardware
 ms.technology: windows-devices

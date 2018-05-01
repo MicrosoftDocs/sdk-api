@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol2_activatebutton.htm
 old-project: DirectShow
 ms.assetid: 20213874-ed28-4e0a-83af-044570b2c7e3
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ActivateButton method [DirectShow], ActivateButton method [DirectShow], IDvdControl2 interface, ActivateButton,IDvdControl2.ActivateButton, IDvdControl2, IDvdControl2 interface [DirectShow], ActivateButton method, IDvdControl2::ActivateButton, IDvdControl2ActivateButton, dshow.idvdcontrol2_activatebutton, strmif/IDvdControl2::ActivateButton
 ms.prod: windows-hardware
 ms.technology: windows-devices

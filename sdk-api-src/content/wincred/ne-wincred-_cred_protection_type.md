@@ -7,7 +7,7 @@ old-location: security\cred_protection_type.htm
 old-project: SecAuthN
 ms.assetid: 6d8d8ad6-1b44-4482-a9a2-9c50d522b8d9
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/24/2018
 ms.keywords: "*PCRED_PROTECTION_TYPE, CRED_PROTECTION_TYPE, CRED_PROTECTION_TYPE enumeration [Security], CredTrustedProtection, CredUnprotected, CredUserProtection, PCRED_PROTECTION_TYPE, PCRED_PROTECTION_TYPE enumeration pointer [Security], _CRED_PROTECTION_TYPE, security.cred_protection_type, wincred/CRED_PROTECTION_TYPE, wincred/CredTrustedProtection, wincred/CredUnprotected, wincred/CredUserProtection, wincred/PCRED_PROTECTION_TYPE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Wincodecsdk.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 

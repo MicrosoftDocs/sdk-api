@@ -7,7 +7,7 @@ old-location: automat\irecordinfo.htm
 old-project: automat
 ms.assetid: 065ebfa8-bfac-4c75-a3f9-9dc0409ea454
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: IRecordInfo, IRecordInfo interface [Automation], IRecordInfo interface [Automation], described, _oa96_IRecordInfo_Interface, automat.irecordinfo, oaidl/IRecordInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IRecordInfo interface

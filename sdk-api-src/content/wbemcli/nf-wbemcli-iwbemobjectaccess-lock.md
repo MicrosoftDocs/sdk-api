@@ -7,7 +7,7 @@ old-location: wmi\iwbemobjectaccess_lock.htm
 old-project: WmiSdk
 ms.assetid: c2d4f821-aa6f-48d7-8645-192afe48c30c
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: IWbemObjectAccess, IWbemObjectAccess interface [Windows Management Instrumentation], Lock method, IWbemObjectAccess::Lock, Lock method [Windows Management Instrumentation], Lock method [Windows Management Instrumentation], IWbemObjectAccess interface, Lock,IWbemObjectAccess.Lock, _hmm_iwbemobjectaccess_lock, wbemcli/IWbemObjectAccess::Lock, wmi.iwbemobjectaccess_lock
 ms.prod: windows-hardware
 ms.technology: windows-devices

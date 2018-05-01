@@ -7,7 +7,7 @@ old-location: com\irunnableobject_isrunning.htm
 old-project: com
 ms.assetid: 0a4cdd21-8256-4533-9cad-d9e8450a17e9
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IRunnableObject, IRunnableObject interface [COM], IsRunning method, IRunnableObject::IsRunning, IsRunning method [COM], IsRunning method [COM], IRunnableObject interface, IsRunning,IRunnableObject.IsRunning, _com_irunnableobject_isrunning, com.irunnableobject_isrunning, objidl/IRunnableObject::IsRunning
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IRunnableObject::IsRunning method

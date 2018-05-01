@@ -7,7 +7,7 @@ old-location: dshow\icameracontrol_put_pantiltrelative.htm
 old-project: DirectShow
 ms.assetid: 69d8303c-2ff2-416d-909c-e9f352e53cf1
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ICameraControl, ICameraControl interface [DirectShow], put_PanTiltRelative method, ICameraControl::put_PanTiltRelative, ICameraControlput_PanTiltRelative, dshow.icameracontrol_put_pantiltrelative, put_PanTiltRelative method [DirectShow], put_PanTiltRelative method [DirectShow], ICameraControl interface, put_PanTiltRelative,ICameraControl.put_PanTiltRelative, vidcap/ICameraControl::put_PanTiltRelative
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: VIDEOHDR, *PVIDEOHDR, *LPVIDEOHDR
+req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
 topic_type:
 -	APIRef
 -	kbSyntax

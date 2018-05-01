@@ -7,7 +7,7 @@ old-location: controls\IImageList_DragEnter.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\dragenter.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: DragEnter method [Windows Controls], DragEnter method [Windows Controls], IImageList interface, DragEnter,IImageList.DragEnter, IImageList, IImageList interface [Windows Controls], DragEnter method, IImageList::DragEnter, comctl_IImageList_DragEnter, comctl_IImageList_DragEnter_cpp, commoncontrols/IImageList::DragEnter, controls.IImageList_DragEnter, controls.comctl_IImageList_DragEnter
 ms.prod: windows-hardware
 ms.technology: windows-devices

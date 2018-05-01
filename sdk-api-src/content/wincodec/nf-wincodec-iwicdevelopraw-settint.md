@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicdevelopraw_settint.htm
 old-project: wic
 ms.assetid: a5c6a15b-19d3-4b6f-a00e-842ec8614ce5
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: IWICDevelopRaw, IWICDevelopRaw interface [Windows Imaging Component], SetTint method, IWICDevelopRaw::SetTint, SetTint method [Windows Imaging Component], SetTint method [Windows Imaging Component], IWICDevelopRaw interface, SetTint,IWICDevelopRaw.SetTint, _wic_codec_iwicdevelopraw_settint, wic._wic_codec_iwicdevelopraw_settint, wincodec/IWICDevelopRaw::SetTint
 ms.prod: windows-hardware
 ms.technology: windows-devices

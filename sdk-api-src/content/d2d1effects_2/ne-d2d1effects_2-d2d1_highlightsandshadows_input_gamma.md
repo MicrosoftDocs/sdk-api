@@ -7,7 +7,7 @@ old-location: direct2d\d2d1_highlightsandshadows_input_gamma.htm
 old-project: Direct2D
 ms.assetid: F56C9933-B340-4E8B-85BE-CE04E90C9ADC
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: D2D1_HIGHLIGHTSANDSHADOWS_INPUT_GAMMA, D2D1_HIGHLIGHTSANDSHADOWS_INPUT_GAMMA enumeration [Direct2D], D2D1_HIGHLIGHTSANDSHADOWS_INPUT_GAMMA_LINEAR, D2D1_HIGHLIGHTSANDSHADOWS_INPUT_GAMMA_SRGB, d2d1effects_2/D2D1_HIGHLIGHTSANDSHADOWS_INPUT_GAMMA, d2d1effects_2/D2D1_HIGHLIGHTSANDSHADOWS_INPUT_GAMMA_LINEAR, d2d1effects_2/D2D1_HIGHLIGHTSANDSHADOWS_INPUT_GAMMA_SRGB, direct2d.d2d1_highlightsandshadows_input_gamma
 ms.prod: windows-hardware
 ms.technology: windows-devices

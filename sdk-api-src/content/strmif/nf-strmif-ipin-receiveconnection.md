@@ -7,7 +7,7 @@ old-location: dshow\ipin_receiveconnection.htm
 old-project: DirectShow
 ms.assetid: b2013e95-88bc-4f4a-87af-2b13c120ec46
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IPin, IPin interface [DirectShow], ReceiveConnection method, IPin::ReceiveConnection, IPinReceiveConnection, ReceiveConnection method [DirectShow], ReceiveConnection method [DirectShow], IPin interface, ReceiveConnection,IPin.ReceiveConnection, dshow.ipin_receiveconnection, strmif/IPin::ReceiveConnection
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: coreaudio\iaudioclock_getcharacteristics.htm
 old-project: CoreAudio
 ms.assetid: a5439a03-9f51-4e51-ab2e-0263de8a3468
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: GetCharacteristics method [Core Audio], GetCharacteristics method [Core Audio], IAudioClock interface, GetCharacteristics,IAudioClock.GetCharacteristics, IAudioClock, IAudioClock interface [Core Audio], GetCharacteristics method, IAudioClock::GetCharacteristics, IAudioClockGetCharacteristics, audioclient/IAudioClock::GetCharacteristics, coreaudio.iaudioclock_getcharacteristics
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\idvdinfo_getcurrentlocation.htm
 old-project: DirectShow
 ms.assetid: 27913630-d0c2-4bc1-9d6a-623f7aa631ec
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetCurrentLocation method [DirectShow], GetCurrentLocation method [DirectShow], IDvdInfo interface, GetCurrentLocation,IDvdInfo.GetCurrentLocation, IDvdInfo, IDvdInfo interface [DirectShow], GetCurrentLocation method, IDvdInfo::GetCurrentLocation, IDvdInfoGetCurrentLocation, dshow.idvdinfo_getcurrentlocation, strmif/IDvdInfo::GetCurrentLocation
 ms.prod: windows-hardware
 ms.technology: windows-devices

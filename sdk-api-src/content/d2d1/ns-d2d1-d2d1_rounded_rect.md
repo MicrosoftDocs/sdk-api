@@ -7,7 +7,7 @@ old-location: direct2d\D2D1_ROUNDED_RECT.htm
 old-project: Direct2D
 ms.assetid: 7069ca65-170e-42fc-8c1a-849a2f25c36f
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: D2D1_ROUNDED_RECT, D2D1_ROUNDED_RECT structure [Direct2D], d2d1/D2D1_ROUNDED_RECT, direct2d.D2D1_ROUNDED_RECT
 ms.prod: windows-hardware
 ms.technology: windows-devices

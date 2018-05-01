@@ -7,7 +7,7 @@ old-location: security\ix509certificaterequest_encode_method.htm
 old-project: SecCertEnroll
 ms.assetid: 098788f4-539f-420b-a4e1-65625dd56ca1
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: Encode method [Security], Encode method [Security], IX509CertificateRequest interface, Encode,IX509CertificateRequest.Encode, IX509CertificateRequest, IX509CertificateRequest interface [Security], Encode method, IX509CertificateRequest::Encode, certenroll/IX509CertificateRequest::Encode, security.ix509certificaterequest_encode_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_SetValue.htm
 old-project: WinAuto
 ms.assetid: c5891bb3-e727-430c-a4d4-5c59750b01ce
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: IUIAutomationLegacyIAccessiblePattern, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility], SetValue method, IUIAutomationLegacyIAccessiblePattern::SetValue, SetValue method [Windows Accessibility], SetValue method [Windows Accessibility], IUIAutomationLegacyIAccessiblePattern interface, SetValue,IUIAutomationLegacyIAccessiblePattern.SetValue, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_SetValue, uiauto_IUIAutomationLegacyIAccessiblePattern_SetValue, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::SetValue, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_SetValue
 ms.prod: windows-hardware
 ms.technology: windows-devices

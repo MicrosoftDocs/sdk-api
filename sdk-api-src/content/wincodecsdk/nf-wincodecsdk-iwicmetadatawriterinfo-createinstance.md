@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicmetadatawriterinfo_createinstance.htm
 old-project: wic
 ms.assetid: d4c701f7-7f79-41d8-864e-41e044b0ea09
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: CreateInstance method [Windows Imaging Component], CreateInstance method [Windows Imaging Component], IWICMetadataWriterInfo interface, CreateInstance,IWICMetadataWriterInfo.CreateInstance, IWICMetadataWriterInfo, IWICMetadataWriterInfo interface [Windows Imaging Component], CreateInstance method, IWICMetadataWriterInfo::CreateInstance, _wic_codec_iwicmetadatawriterinfo_createinstance, wic._wic_codec_iwicmetadatawriterinfo_createinstance, wincodecsdk/IWICMetadataWriterInfo::CreateInstance
 ms.prod: windows-hardware
 ms.technology: windows-devices

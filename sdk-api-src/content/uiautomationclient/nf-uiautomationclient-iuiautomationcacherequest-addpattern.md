@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationCacheRequest_AddPattern.htm
 old-project: WinAuto
 ms.assetid: f081d4da-2fba-4846-813c-33e11c09315b
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: AddPattern method [Windows Accessibility], AddPattern method [Windows Accessibility], IUIAutomationCacheRequest interface, AddPattern,IUIAutomationCacheRequest.AddPattern, IUIAutomationCacheRequest, IUIAutomationCacheRequest interface [Windows Accessibility], AddPattern method, IUIAutomationCacheRequest::AddPattern, uiauto.uiauto_IUIAutomationCacheRequest_AddPattern, uiauto_IUIAutomationCacheRequest_AddPattern, uiautomationclient/IUIAutomationCacheRequest::AddPattern, winauto.uiauto_IUIAutomationCacheRequest_AddPattern
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\imsviddevice2.htm
 old-project: mstv
 ms.assetid: cd0955cb-602f-4a47-a6f8-6fb2f0c9cb31
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidDevice2, IMSVidDevice2 interface [Microsoft TV Technologies], IMSVidDevice2 interface [Microsoft TV Technologies], described, IMSVidDevice2Interface, mstv.imsviddevice2, segment/IMSVidDevice2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidDevice2 interface

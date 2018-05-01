@@ -1,0 +1,103 @@
+---
+UID: NF:rometadataapi.IMetaDataTables.GetRow
+title: IMetaDataTables::GetRow method
+author: windows-driver-content
+description: Gets the row at the specified row index, in the table at the specified table index.
+old-location: winrt\imetadatatables_getrow.htm
+old-project: WinRT
+ms.assetid: d56bc0c8-0a63-48c8-bc2c-e3b4c2f313b8
+ms.author: windowsdriverdev
+ms.date: 4/24/2018
+ms.keywords: GetRow method [Windows Runtime], GetRow method [Windows Runtime], IMetaDataTables interface, GetRow,IMetaDataTables.GetRow, IMetaDataTables, IMetaDataTables interface [Windows Runtime], GetRow method, IMetaDataTables::GetRow, rometadataapi/IMetaDataTables::GetRow, winrt.imetadatatables_getrow
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: rometadataapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Rometadataapi.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: RO_ERROR_REPORTING_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	rometadataapi.h
+api_name:
+-	IMetaDataTables.GetRow
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 SP2 or later
+---
+
+# IMetaDataTables::GetRow method
+
+
+## -description
+
+
+Gets the row at the specified row index, in the table at the specified table index.
+
+
+## -parameters
+
+
+
+
+### -param ixTbl [in]
+
+The index of the table from which the row will be retrieved.
+
+
+### -param rid [in]
+
+The index of the row to get.
+
+
+### -param ppRow [out]
+
+A pointer to a pointer to the row.
+
+
+## -returns
+
+
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+We do not recommend the use of this method, because it does not return consistent results. For information about the GUID table, see the Common Language Infrastructure (CLI) documentation, especially "Partition II: Metadata Definition and Semantics". The documentation is available online; see <a href="http://go.microsoft.com/fwlink/p/?linkid=199862">ECMA C# and Common Language Infrastructure Standards</a> on MSDN and <a href="http://go.microsoft.com/fwlink/p/?linkid=65552">Standard ECMA-335 - Common Language Infrastructure (CLI)</a> on the Ecma International Web site.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/30d06e87-93a2-4a9c-8843-4c42d7d9e3c8">IMetaDataTables</a>
+ 
+
+ 
+

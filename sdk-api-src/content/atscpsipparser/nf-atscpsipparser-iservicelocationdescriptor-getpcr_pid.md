@@ -7,7 +7,7 @@ old-location: mstv\iservicelocationdescriptor_getpcr_pid.htm
 old-project: mstv
 ms.assetid: a81a2218-3c44-4b17-a5cb-bb68d10da977
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetPCR_PID method [Microsoft TV Technologies], GetPCR_PID method [Microsoft TV Technologies], IServiceLocationDescriptor interface, GetPCR_PID,IServiceLocationDescriptor.GetPCR_PID, IServiceLocationDescriptor, IServiceLocationDescriptor interface [Microsoft TV Technologies], GetPCR_PID method, IServiceLocationDescriptor::GetPCR_PID, atscpsipparser/IServiceLocationDescriptor::GetPCR_PID, mstv.iservicelocationdescriptor_getpcr_pid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_WRITER_PAYLOAD_STREAM
+req.typenames: AsyncStatus
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,7 +7,7 @@ old-location: setup\msidatabasecommit.htm
 old-project: Msi
 ms.assetid: bc42b90b-51db-4e13-af2f-4942923badf6
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/26/2018
 ms.keywords: MsiDatabaseCommit, MsiDatabaseCommit function, _msi_msidatabasecommit, msiquery/MsiDatabaseCommit, setup.msidatabasecommit
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\ILIsChild.htm
 old-project: shell
 ms.assetid: e799fbcf-8254-457a-9d1b-6202dea190c1
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ILIsChild, ILIsChild function [Windows Shell], _shell_ILIsChild, shell.ILIsChild, shlobj_core/ILIsChild
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\iasyncreader_waitfornext.htm
 old-project: DirectShow
 ms.assetid: fc54f917-3b86-4c0b-b356-217bc9793504
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAsyncReader, IAsyncReader interface [DirectShow], WaitForNext method, IAsyncReader::WaitForNext, IAsyncReaderWaitForNext, WaitForNext method [DirectShow], WaitForNext method [DirectShow], IAsyncReader interface, WaitForNext,IAsyncReader.WaitForNext, dshow.iasyncreader_waitfornext, strmif/IAsyncReader::WaitForNext
 ms.prod: windows-hardware
 ms.technology: windows-devices

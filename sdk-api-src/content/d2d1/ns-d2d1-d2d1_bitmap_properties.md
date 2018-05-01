@@ -7,7 +7,7 @@ old-location: direct2d\D2D1_BITMAP_PROPERTIES.htm
 old-project: Direct2D
 ms.assetid: 050246fd-f91a-4a2a-858a-5f0447e3ecbf
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: D2D1_BITMAP_PROPERTIES, D2D1_BITMAP_PROPERTIES structure [Direct2D], d2d1/D2D1_BITMAP_PROPERTIES, direct2d.D2D1_BITMAP_PROPERTIES
 ms.prod: windows-hardware
 ms.technology: windows-devices

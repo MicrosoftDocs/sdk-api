@@ -7,7 +7,7 @@ old-location: mstv\idvblogicalchannel2descriptor_getlistrecordlogicalchannelandv
 old-project: mstv
 ms.assetid: 1e9d5d7f-4816-4eb8-894a-85dd7977c62e
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetListRecordLogicalChannelAndVisibility method [Microsoft TV Technologies], GetListRecordLogicalChannelAndVisibility method [Microsoft TV Technologies], IDvbLogicalChannel2Descriptor interface, GetListRecordLogicalChannelAndVisibility,IDvbLogicalChannel2Descriptor.GetListRecordLogicalChannelAndVisibility, IDvbLogicalChannel2Descriptor, IDvbLogicalChannel2Descriptor interface [Microsoft TV Technologies], GetListRecordLogicalChannelAndVisibility method, IDvbLogicalChannel2Descriptor::GetListRecordLogicalChannelAndVisibility, dvbsiparser/IDvbLogicalChannel2Descriptor::GetListRecordLogicalChannelAndVisibility, mstv.idvblogicalchannel2descriptor_getlistrecordlogicalchannelandvisibility, mstv.idvblogicalchanneldescriptor2_getlistrecordlogicalchannelandvisibility
 ms.prod: windows-hardware
 ms.technology: windows-devices

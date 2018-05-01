@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch2_Object.htm
 old-project: shell
 ms.assetid: 74687929-0777-479b-9853-2b0cf4b6adc9
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IShellDispatch2, IShellDispatch2 object [Windows Shell], IShellDispatch2 object [Windows Shell], described, _win32_IShellDispatch2_Object, shell.IShellDispatch2_Object, shldisp/IShellDispatch2
 ms.prod: windows-hardware
 ms.technology: windows-devices

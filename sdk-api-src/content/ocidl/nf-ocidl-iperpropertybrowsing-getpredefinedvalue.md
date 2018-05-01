@@ -7,7 +7,7 @@ old-location: com\iperpropertybrowsing_getpredefinedvalue.htm
 old-project: com
 ms.assetid: a532ebed-3ed8-4b49-a17f-f542fdbd74ff
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: GetPredefinedValue method [COM], GetPredefinedValue method [COM], IPerPropertyBrowsing interface, GetPredefinedValue,IPerPropertyBrowsing.GetPredefinedValue, IPerPropertyBrowsing, IPerPropertyBrowsing interface [COM], GetPredefinedValue method, IPerPropertyBrowsing::GetPredefinedValue, _ctrl_iperpropertybrowsing_getpredefinedvalue, com.iperpropertybrowsing_getpredefinedvalue, ocidl/IPerPropertyBrowsing::GetPredefinedValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IPerPropertyBrowsing::GetPredefinedValue method

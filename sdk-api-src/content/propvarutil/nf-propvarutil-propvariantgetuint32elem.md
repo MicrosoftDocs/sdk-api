@@ -7,7 +7,7 @@ old-location: properties\PropVariantGetUInt32Elem.htm
 old-project: properties
 ms.assetid: b31975b6-d717-4e8d-bf5a-2ade96034031
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/5/2018
 ms.keywords: PropVariantGetUInt32Elem, PropVariantGetUInt32Elem function [Windows Properties], _shell_PropVariantGetUInt32Elem, properties.PropVariantGetUInt32Elem, propvarutil/PropVariantGetUInt32Elem, shell.PropVariantGetUInt32Elem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # PropVariantGetUInt32Elem function

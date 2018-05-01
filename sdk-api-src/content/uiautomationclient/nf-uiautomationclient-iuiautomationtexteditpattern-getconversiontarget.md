@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationTextEditPattern_GetConversionTarget.ht
 old-project: WinAuto
 ms.assetid: C7471306-9D7F-5FE8-9A57-7A3ABB45B59F
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: GetConversionTarget method [Windows Accessibility], GetConversionTarget method [Windows Accessibility], IUIAutomationTextEditPattern interface, GetConversionTarget,IUIAutomationTextEditPattern.GetConversionTarget, IUIAutomationTextEditPattern, IUIAutomationTextEditPattern interface [Windows Accessibility], GetConversionTarget method, IUIAutomationTextEditPattern::GetConversionTarget, uiautomationclient/IUIAutomationTextEditPattern::GetConversionTarget, winauto.uiauto_IUIAutomationTextEditPattern_GetConversionTarget
 ms.prod: windows-hardware
 ms.technology: windows-devices

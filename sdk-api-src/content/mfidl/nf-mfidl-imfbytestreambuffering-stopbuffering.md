@@ -7,7 +7,7 @@ old-location: mf\imfbytestreambuffering_stopbuffering.htm
 old-project: medfound
 ms.assetid: da342ac4-bb61-40d6-9b67-0480ac2a780f
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFByteStreamBuffering, IMFByteStreamBuffering interface [Media Foundation], StopBuffering method, IMFByteStreamBuffering::StopBuffering, StopBuffering method [Media Foundation], StopBuffering method [Media Foundation], IMFByteStreamBuffering interface, StopBuffering,IMFByteStreamBuffering.StopBuffering, da342ac4-bb61-40d6-9b67-0480ac2a780f, mf.imfbytestreambuffering_stopbuffering, mfidl/IMFByteStreamBuffering::StopBuffering
 ms.prod: windows-hardware
 ms.technology: windows-devices

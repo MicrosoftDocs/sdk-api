@@ -7,7 +7,7 @@ old-location: wmp\iwmpclosedcaption_get_samilang.htm
 old-project: WMP
 ms.assetid: bcb72cf3-dad2-46b4-9652-349b804cda22
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPClosedCaption, IWMPClosedCaption interface [Windows Media Player], get_SAMILang method, IWMPClosedCaption::get_SAMILang, IWMPClosedCaptionget_SAMILang, get_SAMILang method [Windows Media Player], get_SAMILang method [Windows Media Player], IWMPClosedCaption interface, get_SAMILang,IWMPClosedCaption.get_SAMILang, wmp.iwmpclosedcaption_get_samilang, wmp/IWMPClosedCaption::get_SAMILang
 ms.prod: windows-hardware
 ms.technology: windows-devices

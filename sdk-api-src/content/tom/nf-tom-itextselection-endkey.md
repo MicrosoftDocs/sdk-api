@@ -7,7 +7,7 @@ old-location: controls\ITextSelection_EndKey.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\endkey.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: EndKey method [Windows Controls], EndKey method [Windows Controls], ITextSelection interface, EndKey,ITextSelection.EndKey, ITextSelection, ITextSelection interface [Windows Controls], EndKey method, ITextSelection::EndKey, _win32_ITextSelection_EndKey, _win32_ITextSelection_EndKey_cpp, controls.ITextSelection_EndKey, controls._win32_ITextSelection_EndKey, tom/ITextSelection::EndKey, tomColumn, tomLine, tomRow, tomStory
 ms.prod: windows-hardware
 ms.technology: windows-devices

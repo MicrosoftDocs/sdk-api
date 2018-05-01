@@ -7,7 +7,7 @@ old-location: dshow\imediabuffer.htm
 old-project: DirectShow
 ms.assetid: 74d72ca6-f899-43fc-bdea-5208d920f314
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IMediaBuffer, IMediaBuffer interface [DirectShow], IMediaBuffer interface [DirectShow], described, IMediaBufferInterface, dshow.imediabuffer, mediaobj/IMediaBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

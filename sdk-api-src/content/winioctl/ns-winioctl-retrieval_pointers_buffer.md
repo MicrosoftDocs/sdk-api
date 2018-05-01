@@ -59,6 +59,16 @@ Contains the output for the
 
 
 
+### -field ExtentCount
+
+The count of elements in the <b>Extents</b> array.
+
+
+### -field StartingVcn
+
+The starting VCN returned by the function call. This is not necessarily the VCN requested by the function call, as the file system driver may round down to the first VCN of the extent in which the requested starting VCN is found.
+
+
 ### -field Extents
 
 Array of <b>Extents</b> structures. For the number of members in the array, see <b>ExtentCount</b>. Each member of the array has the following members.
@@ -74,16 +84,6 @@ The VCN at which the next extent begins. This value minus either <b>StartingVcn<
 #### Lcn
 
 The LCN at which the current extent begins on the volume. This value is an input to the <a href="https://msdn.microsoft.com/ab7f81ac-a962-4e86-b426-b0082d251645">FSCTL_MOVE_FILE</a> operation. On the NTFS file system, the value (LONGLONG) –1 indicates either a compression unit that is partially allocated, or an unallocated region of a sparse file.
-
-
-### -field ExtentCount
-
-The count of elements in the <b>Extents</b> array.
-
-
-### -field StartingVcn
-
-The starting VCN returned by the function call. This is not necessarily the VCN requested by the function call, as the file system driver may round down to the first VCN of the extent in which the requested starting VCN is found.
 
 
 ## -see-also

@@ -7,7 +7,7 @@ old-location: security\access_allowed_callback_object_ace.htm
 old-project: SecAuthZ
 ms.assetid: 83b00ef3-f7b2-455e-8f3f-01b1da6024b7
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: "*PACCESS_ALLOWED_CALLBACK_OBJECT_ACE, 0, ACCESS_ALLOWED_CALLBACK_OBJECT_ACE, ACCESS_ALLOWED_CALLBACK_OBJECT_ACE structure [Security], ACE_INHERITED_OBJECT_TYPE_PRESENT, ACE_OBJECT_TYPE_PRESENT, ADS_RIGHT_DS_CONTROL_ACCESS, ADS_RIGHT_DS_CREATE_CHILD, ADS_RIGHT_DS_READ_PROP, ADS_RIGHT_DS_SELF, ADS_RIGHT_DS_WRITE_PROP, PACCESS_ALLOWED_CALLBACK_OBJECT_ACE, PACCESS_ALLOWED_CALLBACK_OBJECT_ACE structure pointer [Security], _ACCESS_ALLOWED_CALLBACK_OBJECT_ACE, security.access_allowed_callback_object_ace, winnt/ACCESS_ALLOWED_CALLBACK_OBJECT_ACE, winnt/PACCESS_ALLOWED_CALLBACK_OBJECT_ACE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

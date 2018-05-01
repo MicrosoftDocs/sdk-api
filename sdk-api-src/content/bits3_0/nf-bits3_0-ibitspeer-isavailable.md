@@ -7,7 +7,7 @@ old-location: bits\ibitspeer_isavailable.htm
 old-project: Bits
 ms.assetid: e38166da-2139-4108-bb8a-74bb7a7997c1
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/10/2018
 ms.keywords: IBitsPeer, IBitsPeer interface [BITS], IsAvailable method, IBitsPeer::IsAvailable, IsAvailable method [BITS], IsAvailable method [BITS], IBitsPeer interface, IsAvailable,IBitsPeer.IsAvailable, bits.ibitspeer_isavailable, bits3_0/IBitsPeer::IsAvailable
 ms.prod: windows-hardware
 ms.technology: windows-devices

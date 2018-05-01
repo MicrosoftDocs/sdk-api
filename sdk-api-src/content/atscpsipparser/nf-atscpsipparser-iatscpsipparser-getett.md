@@ -7,7 +7,7 @@ old-location: mstv\iatscpsipparser_getett.htm
 old-project: mstv
 ms.assetid: 6838620a-3dee-468e-bfc8-00757c06263e
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetETT method [Microsoft TV Technologies], GetETT method [Microsoft TV Technologies], IAtscPsipParser interface, GetETT,IAtscPsipParser.GetETT, IAtscPsipParser, IAtscPsipParser interface [Microsoft TV Technologies], GetETT method, IAtscPsipParser::GetETT, IAtscPsipParserGetETT, atscpsipparser/IAtscPsipParser::GetETT, mstv.iatscpsipparser_getett
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_WRITER_PAYLOAD_STREAM
+req.typenames: AsyncStatus
 topic_type:
 -	APIRef
 -	kbSyntax

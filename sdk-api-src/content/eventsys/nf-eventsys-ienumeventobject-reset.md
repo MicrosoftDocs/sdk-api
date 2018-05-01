@@ -7,7 +7,7 @@ old-location: cos\ienumeventobject_reset.htm
 old-project: cossdk
 ms.assetid: 9a92c9de-e259-4b62-8f74-dff3f9947d1a
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: IEnumEventObject, IEnumEventObject interface [COM+], Reset method, IEnumEventObject::Reset, Reset method [COM+], Reset method [COM+], IEnumEventObject interface, Reset,IEnumEventObject.Reset, _cos_ienumeventobject_reset, cos.ienumeventobject_reset, eventsys/IEnumEventObject::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices

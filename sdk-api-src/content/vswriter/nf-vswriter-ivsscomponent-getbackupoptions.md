@@ -7,7 +7,7 @@ old-location: base\ivsscomponent_getbackupoptions.htm
 old-project: VSS
 ms.assetid: 54182058-5dbb-4eda-959a-fa1921a27302
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: GetBackupOptions method [VSS], GetBackupOptions method [VSS], IVssComponent interface, GetBackupOptions,IVssComponent.GetBackupOptions, IVssComponent, IVssComponent interface [VSS], GetBackupOptions method, IVssComponent::GetBackupOptions, _win32_ivsscomponent_getbackupoptions, base.ivsscomponent_getbackupoptions, vswriter/IVssComponent::GetBackupOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices

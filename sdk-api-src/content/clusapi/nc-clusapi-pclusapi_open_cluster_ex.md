@@ -7,7 +7,7 @@ old-location: mscs\openclusterex.htm
 old-project: MsCS
 ms.assetid: 688702b7-7525-48d6-9e44-d7c4969565f8
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: PCLUSAPI_OPEN_CLUSTER_EX, PCLUSAPI_OPEN_CLUSTER_EX callback function [Failover Cluster], clusapi/PCLUSAPI_OPEN_CLUSTER_EX, mscs.openclusterex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: LOG_MANAGEMENT_CALLBACKS, *PLOG_MANAGEMENT_CALLBACKS
+req.typenames: Sources
 topic_type:
 -	APIRef
 -	kbSyntax

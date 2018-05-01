@@ -7,7 +7,7 @@ old-location: security\isignercertificate.htm
 old-project: SecCertEnroll
 ms.assetid: 146a1925-4de6-492c-8014-612c65bd7270
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: ISignerCertificate, ISignerCertificate interface [Security], ISignerCertificate interface [Security], described, certenroll/ISignerCertificate, security.isignercertificate
 ms.prod: windows-hardware
 ms.technology: windows-devices

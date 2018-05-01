@@ -7,7 +7,7 @@ old-location: shell\IEnumSyncMgrEvents_Clone.htm
 old-project: shell
 ms.assetid: 55be3dd4-993e-4f8f-a9d3-be5b7e4f6ddb
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: Clone method [Windows Shell], Clone method [Windows Shell], IEnumSyncMgrEvents interface, Clone,IEnumSyncMgrEvents.Clone, IEnumSyncMgrEvents, IEnumSyncMgrEvents interface [Windows Shell], Clone method, IEnumSyncMgrEvents::Clone, _shell_IEnumSyncMgrEvents_Clone, shell.IEnumSyncMgrEvents_Clone, syncmgr/IEnumSyncMgrEvents::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

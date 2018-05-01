@@ -7,7 +7,7 @@ old-location: mf\imfsequencersource_appendtopology.htm
 old-project: medfound
 ms.assetid: 4ff20d56-6095-495d-89ee-9086c61da8ac
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 4ff20d56-6095-495d-89ee-9086c61da8ac, AppendTopology method [Media Foundation], AppendTopology method [Media Foundation], IMFSequencerSource interface, AppendTopology,IMFSequencerSource.AppendTopology, IMFSequencerSource, IMFSequencerSource interface [Media Foundation], AppendTopology method, IMFSequencerSource::AppendTopology, mf.imfsequencersource_appendtopology, mfidl/IMFSequencerSource::AppendTopology
 ms.prod: windows-hardware
 ms.technology: windows-devices

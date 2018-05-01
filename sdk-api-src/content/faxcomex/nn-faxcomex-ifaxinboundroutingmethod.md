@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxinboundroutingmethod_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_95t0_cpp.htm
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/18/2018
 ms.keywords: IFaxInboundRoutingMethod, IFaxInboundRoutingMethod interface [Fax Service], IFaxInboundRoutingMethod interface [Fax Service], described, _mfax_faxinboundroutingmethod_cpp, fax._mfax_faxinboundroutingmethod_cpp, faxcomex/IFaxInboundRoutingMethod
 ms.prod: windows-hardware
 ms.technology: windows-devices

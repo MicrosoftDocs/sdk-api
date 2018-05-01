@@ -7,7 +7,7 @@ old-location: mf\imfmediabuffer_getmaxlength.htm
 old-project: medfound
 ms.assetid: f0697f1d-18d6-4406-9f19-8cbaac08ad47
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetMaxLength method [Media Foundation], GetMaxLength method [Media Foundation], IMFMediaBuffer interface, GetMaxLength,IMFMediaBuffer.GetMaxLength, IMFMediaBuffer, IMFMediaBuffer interface [Media Foundation], GetMaxLength method, IMFMediaBuffer::GetMaxLength, f0697f1d-18d6-4406-9f19-8cbaac08ad47, mf.imfmediabuffer_getmaxlength, mfobjects/IMFMediaBuffer::GetMaxLength
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -57,6 +57,11 @@ Parameters of an operation on a placeholder file or folder.
 
 
 
+### -field ParamSize
+
+ 
+
+
 ### -field DUMMYUNIONNAME
 
 
@@ -244,11 +249,4 @@ Acknowledge delete flags.
 ### -field DUMMYUNIONNAME.AckDelete.CompletionStatus
 
 The completion status of the operation.
-
-
-### -field ParamSize
-
- 
-
-
 

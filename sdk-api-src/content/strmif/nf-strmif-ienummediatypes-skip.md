@@ -7,7 +7,7 @@ old-location: dshow\ienummediatypes_skip.htm
 old-project: DirectShow
 ms.assetid: 313628d0-256c-4142-bba5-7cd0c910610c
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IEnumMediaTypes, IEnumMediaTypes interface [DirectShow], Skip method, IEnumMediaTypes::Skip, IEnumMediaTypesSkip, Skip method [DirectShow], Skip method [DirectShow], IEnumMediaTypes interface, Skip,IEnumMediaTypes.Skip, dshow.ienummediatypes_skip, strmif/IEnumMediaTypes::Skip
 ms.prod: windows-hardware
 ms.technology: windows-devices

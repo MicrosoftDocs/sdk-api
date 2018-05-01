@@ -58,27 +58,6 @@ Defines the output of the  <a href="https://msdn.microsoft.com/60BFDCD7-D277-4B4
 
 
 
-### -field arguments
-
-
-
-#### manipulation
-
-The state of the manipulation.
-
-
-
-#### tap
-
-The state of the tap gesture.
-
-
-
-#### crossSlide
-
-The state of the cross-slide interaction.
-
-
 ### -field interactionId
 
 ID of the  <a href="https://msdn.microsoft.com/60BFDCD7-D277-4B4A-94DA-7ADB1412252A">Interaction Context</a> object.
@@ -102,6 +81,27 @@ The x-coordinate of the input pointer, in HIMETRIC units.
 ### -field y
 
 The y-coordinate of the input pointer, in HIMETRIC units.
+
+
+### -field arguments
+
+
+
+#### manipulation
+
+The state of the manipulation.
+
+
+
+#### tap
+
+The state of the tap gesture.
+
+
+
+#### crossSlide
+
+The state of the cross-slide interaction.
 
 
 ## -see-also

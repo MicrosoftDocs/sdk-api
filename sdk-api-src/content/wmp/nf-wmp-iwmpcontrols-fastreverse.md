@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontrols_fastreverse.htm
 old-project: WMP
 ms.assetid: 2adec4c7-7aca-4191-8c6f-61e137188ad9
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPControls, IWMPControls interface [Windows Media Player], fastReverse method, IWMPControls::fastReverse, IWMPControlsfastReverse, fastReverse method [Windows Media Player], fastReverse method [Windows Media Player], IWMPControls interface, fastReverse,IWMPControls.fastReverse, wmp.iwmpcontrols_fastreverse, wmp/IWMPControls::fastReverse
 ms.prod: windows-hardware
 ms.technology: windows-devices

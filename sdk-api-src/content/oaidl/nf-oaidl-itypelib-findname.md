@@ -7,7 +7,7 @@ old-location: automat\itypelib_findname.htm
 old-project: automat
 ms.assetid: 932014a8-3a35-487a-b035-788fc28dacc2
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: FindName method [Automation], FindName method [Automation], ITypeLib interface, FindName,ITypeLib.FindName, ITypeLib, ITypeLib interface [Automation], FindName method, ITypeLib::FindName, _oa96_ITypeLib_FindName, automat.itypelib_findname, oaidl/ITypeLib::FindName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITypeLib::FindName method

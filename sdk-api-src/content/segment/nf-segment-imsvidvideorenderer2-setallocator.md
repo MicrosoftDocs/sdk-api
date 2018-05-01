@@ -7,7 +7,7 @@ old-location: mstv\imsvidvideorenderer2_setallocator.htm
 old-project: mstv
 ms.assetid: c73edfea-bafd-4640-9be6-45e5a2bb81ef
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidVideoRenderer2, IMSVidVideoRenderer2 interface [Microsoft TV Technologies], SetAllocator method, IMSVidVideoRenderer2::SetAllocator, SetAllocator method [Microsoft TV Technologies], SetAllocator method [Microsoft TV Technologies], IMSVidVideoRenderer2 interface, SetAllocator,IMSVidVideoRenderer2.SetAllocator, mstv.imsvidvideorenderer2_setallocator, segment/IMSVidVideoRenderer2::SetAllocator
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidVideoRenderer2::SetAllocator method

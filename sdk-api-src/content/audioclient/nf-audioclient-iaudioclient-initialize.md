@@ -7,7 +7,7 @@ old-location: coreaudio\iaudioclient_initialize.htm
 old-project: CoreAudio
 ms.assetid: eb778503-06f8-4705-9f8d-9a4fd886ae27
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: IAudioClient, IAudioClient interface [Core Audio], Initialize method, IAudioClient::Initialize, IAudioClientInitialize, Initialize method [Core Audio], Initialize method [Core Audio], IAudioClient interface, Initialize,IAudioClient.Initialize, audioclient/IAudioClient::Initialize, coreaudio.iaudioclient_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: TEXT_SOURCE
+req.typenames: POLICY_ELEMENT, *PPOLICY_ELEMENT
 topic_type:
 -	APIRef
 -	kbSyntax

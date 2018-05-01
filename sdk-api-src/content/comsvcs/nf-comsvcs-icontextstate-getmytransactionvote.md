@@ -7,7 +7,7 @@ old-location: cos\icontextstate_getmytransactionvote.htm
 old-project: cossdk
 ms.assetid: 72384c53-ce4a-413e-8ff6-33925c8cd0df
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: GetMyTransactionVote method [COM+], GetMyTransactionVote method [COM+], IContextState interface, GetMyTransactionVote,IContextState.GetMyTransactionVote, IContextState, IContextState interface [COM+], GetMyTransactionVote method, IContextState::GetMyTransactionVote, _cos_IContextState_GetMyTransactionVote, comsvcs/IContextState::GetMyTransactionVote, cos.icontextstate_getmytransactionvote
 ms.prod: windows-hardware
 ms.technology: windows-devices

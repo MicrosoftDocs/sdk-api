@@ -7,7 +7,7 @@ old-location: dshow\iamextendedseeking_getmarkername.htm
 old-project: DirectShow
 ms.assetid: 899cc32e-3a9f-4be0-97a9-2ddd323bf9ce
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetMarkerName method [DirectShow], GetMarkerName method [DirectShow], IAMExtendedSeeking interface, GetMarkerName,IAMExtendedSeeking.GetMarkerName, IAMExtendedSeeking, IAMExtendedSeeking interface [DirectShow], GetMarkerName method, IAMExtendedSeeking::GetMarkerName, IAMExtendedSeekingGetMarkerName, dshow.iamextendedseeking_getmarkername, qnetwork/IAMExtendedSeeking::GetMarkerName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IAMExtendedSeeking::GetMarkerName method

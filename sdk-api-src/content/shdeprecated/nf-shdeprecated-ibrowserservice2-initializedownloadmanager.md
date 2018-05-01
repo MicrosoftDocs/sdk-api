@@ -7,7 +7,7 @@ old-location: shell\IBrowserService2_InitializeDownloadManager.htm
 old-project: shell
 ms.assetid: b217d5cd-c9db-4d35-96de-25e1ec22670a
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IBrowserService2, IBrowserService2 interface [Windows Shell], InitializeDownloadManager method, IBrowserService2::InitializeDownloadManager, InitializeDownloadManager method [Windows Shell], InitializeDownloadManager method [Windows Shell], IBrowserService2 interface, InitializeDownloadManager,IBrowserService2.InitializeDownloadManager, shdeprecated/IBrowserService2::InitializeDownloadManager, shell.IBrowserService2_InitializeDownloadManager, zone_IBrowserService2_InitializeDownloadManager
 ms.prod: windows-hardware
 ms.technology: windows-devices

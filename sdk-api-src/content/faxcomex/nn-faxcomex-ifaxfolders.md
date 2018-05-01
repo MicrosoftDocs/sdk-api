@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxfolders_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_1gfn_cpp.htm
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/18/2018
 ms.keywords: IFaxFolders, IFaxFolders interface [Fax Service], IFaxFolders interface [Fax Service], described, _mfax_faxfolders_cpp, fax._mfax_faxfolders_cpp, faxcomex/IFaxFolders
 ms.prod: windows-hardware
 ms.technology: windows-devices

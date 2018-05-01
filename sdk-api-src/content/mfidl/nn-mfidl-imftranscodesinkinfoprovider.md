@@ -7,7 +7,7 @@ old-location: mf\imftranscodesinkinfoprovider.htm
 old-project: medfound
 ms.assetid: c5eb0c30-559a-44dd-80d4-4b11933dc7ce
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFTranscodeSinkInfoProvider, IMFTranscodeSinkInfoProvider interface [Media Foundation], IMFTranscodeSinkInfoProvider interface [Media Foundation], described, mf.imftranscodesinkinfoprovider, mfidl/IMFTranscodeSinkInfoProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,7 @@ api_name:
 product: Windows
 targetos: Windows
 req.lib: Mfuuid.lib
-req.dll: Mfplat.dll
+req.dll: Mfsensorgroup.dll
 req.irql: 
 req.product: GDI+ 1.1
 ---

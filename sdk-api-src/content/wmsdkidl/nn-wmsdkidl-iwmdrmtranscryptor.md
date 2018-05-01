@@ -7,7 +7,7 @@ old-location: wmformat\iwmdrmtranscryptor.htm
 old-project: wmformat
 ms.assetid: cd154077-eebe-4a0f-ae70-5268d5af4898
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMDRMTranscryptor, IWMDRMTranscryptor interface [windows Media Format], IWMDRMTranscryptor interface [windows Media Format], described, IWMDRMTranscryptorInterface, wmformat.iwmdrmtranscryptor, wmsdkidl/IWMDRMTranscryptor
 ms.prod: windows-hardware
 ms.technology: windows-devices

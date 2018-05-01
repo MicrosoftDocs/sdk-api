@@ -7,7 +7,7 @@ old-location: dshow\ioverlay_getdefaultcolorkey.htm
 old-project: DirectShow
 ms.assetid: d3aec72f-472e-44fa-bbd8-81e64732e5bc
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetDefaultColorKey method [DirectShow], GetDefaultColorKey method [DirectShow], IOverlay interface, GetDefaultColorKey,IOverlay.GetDefaultColorKey, IOverlay, IOverlay interface [DirectShow], GetDefaultColorKey method, IOverlay::GetDefaultColorKey, IOverlayGetDefaultColorKey, dshow.ioverlay_getdefaultcolorkey, strmif/IOverlay::GetDefaultColorKey
 ms.prod: windows-hardware
 ms.technology: windows-devices

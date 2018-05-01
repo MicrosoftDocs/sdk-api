@@ -7,7 +7,7 @@ old-location: com\icatinformation_enumclassesofcategories.htm
 old-project: com
 ms.assetid: 13d470ff-77e6-4a17-b2c9-c53676e21fba
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: EnumClassesOfCategories method [COM], EnumClassesOfCategories method [COM], ICatInformation interface, EnumClassesOfCategories,ICatInformation.EnumClassesOfCategories, ICatInformation, ICatInformation interface [COM], EnumClassesOfCategories method, ICatInformation::EnumClassesOfCategories, _com_icatinformation_enumclassesofcategories, com.icatinformation_enumclassesofcategories, comcat/ICatInformation::EnumClassesOfCategories
 ms.prod: windows-hardware
 ms.technology: windows-devices

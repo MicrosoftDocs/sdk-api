@@ -7,7 +7,7 @@ old-location: tablet\imathinputcontrol_clear.htm
 old-project: tablet
 ms.assetid: e9482f82-a08a-498d-bad0-3a1438231b23
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: Clear method [Tablet PC], Clear method [Tablet PC], IMathInputControl interface, Clear,IMathInputControl.Clear, IMathInputControl, IMathInputControl interface [Tablet PC], Clear method, IMathInputControl::Clear, micaut/IMathInputControl::Clear, tablet.imathinputcontrol_clear
 ms.prod: windows-hardware
 ms.technology: windows-devices

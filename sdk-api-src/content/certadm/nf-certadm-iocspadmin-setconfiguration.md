@@ -7,7 +7,7 @@ old-location: security\iocspadmin_setconfiguration_method.htm
 old-project: SecCrypto
 ms.assetid: 973c69c3-282b-4e17-bb44-119965a4b443
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: IOCSPAdmin, IOCSPAdmin interface [Security], SetConfiguration method, IOCSPAdmin::SetConfiguration, SetConfiguration method [Security], SetConfiguration method [Security], IOCSPAdmin interface, SetConfiguration,IOCSPAdmin.SetConfiguration, certadm/IOCSPAdmin::SetConfiguration, security.iocspadmin_setconfiguration_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CHANNEL_ENTRY_POINTS, *PCHANNEL_ENTRY_POINTS
+req.typenames: 
 topic_type:
 -	APIRef
 -	kbSyntax

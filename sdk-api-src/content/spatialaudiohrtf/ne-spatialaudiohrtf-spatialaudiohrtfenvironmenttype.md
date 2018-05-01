@@ -7,7 +7,7 @@ old-location: coreaudio\spatialaudiohrtfenvironmenttype.htm
 old-project: CoreAudio
 ms.assetid: 017FC8D4-2B74-4B13-AF5B-D7FFF97A7E45
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: SpatialAudioHrtfEnvironmentType, SpatialAudioHrtfEnvironmentType enumeration [Core Audio], SpatialAudioHrtfEnvironment_Average, SpatialAudioHrtfEnvironment_Large, SpatialAudioHrtfEnvironment_Medium, SpatialAudioHrtfEnvironment_Outdoors, SpatialAudioHrtfEnvironment_Small, coreaudio.spatialaudiohrtfenvironmenttype, spatialaudiohrtf/SpatialAudioHrtfEnvironmentType, spatialaudiohrtf/SpatialAudioHrtfEnvironment_Average, spatialaudiohrtf/SpatialAudioHrtfEnvironment_Large, spatialaudiohrtf/SpatialAudioHrtfEnvironment_Medium, spatialaudiohrtf/SpatialAudioHrtfEnvironment_Outdoors, spatialaudiohrtf/SpatialAudioHrtfEnvironment_Small
 ms.prod: windows-hardware
 ms.technology: windows-devices

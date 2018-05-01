@@ -7,7 +7,7 @@ old-location: mf\imfcollection_removeallelements.htm
 old-project: medfound
 ms.assetid: 8c82d287-b73e-46dd-a319-70c5d0f536c6
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 8c82d287-b73e-46dd-a319-70c5d0f536c6, IMFCollection, IMFCollection interface [Media Foundation], RemoveAllElements method, IMFCollection::RemoveAllElements, RemoveAllElements method [Media Foundation], RemoveAllElements method [Media Foundation], IMFCollection interface, RemoveAllElements,IMFCollection.RemoveAllElements, mf.imfcollection_removeallelements, mfobjects/IMFCollection::RemoveAllElements
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,0 +1,101 @@
+---
+UID: NS:wia_xp._WIA_DITHER_PATTERN_DATA
+title: "_WIA_DITHER_PATTERN_DATA"
+author: windows-driver-content
+description: The WIA_DITHER_PATTERN_DATA structure specifies a dither pattern for scanners. It is used in conjunction with the scanner device property constant WIA_DPS_DITHER_PATTERN_DATA.
+old-location: wia\_wia_WIA_DITHER_PATTERN_DATA.htm
+old-project: wia
+ms.assetid: VS|wia|~\wia\refwia\structs\wia_dither_pattern_data.htm
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: "*PWIA_DITHER_PATTERN_DATA, PWIA_DITHER_PATTERN_DATA, PWIA_DITHER_PATTERN_DATA structure pointer [WIA], WIA_DITHER_PATTERN_DATA, WIA_DITHER_PATTERN_DATA structure [WIA], _WIA_DITHER_PATTERN_DATA, _wia_WIA_DITHER_PATTERN_DATA, wia._wia_WIA_DITHER_PATTERN_DATA, wia_xp/PWIA_DITHER_PATTERN_DATA, wia_xp/WIA_DITHER_PATTERN_DATA"
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: struct
+req.header: wia_xp.h
+req.include-header: Wia.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WIA_DITHER_PATTERN_DATA, *PWIA_DITHER_PATTERN_DATA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	wia_xp.h
+api_name:
+-	WIA_DITHER_PATTERN_DATA
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# _WIA_DITHER_PATTERN_DATA structure
+
+
+## -description
+
+
+The <b>WIA_DITHER_PATTERN_DATA</b> structure specifies a dither pattern for scanners. It is used in conjunction with the <a href="https://msdn.microsoft.com/78caa3af-927b-4143-9e88-4b5c918d00a4">scanner device property constant</a> WIA_DPS_DITHER_PATTERN_DATA.
+
+
+## -struct-fields
+
+
+
+
+### -field lSize
+
+Type: <b>LONG</b>
+
+Specifies the size of this structure in bytes. Should be set to <b>sizeof(WIA_DITHER_PATTERN_DATA)</b>.
+
+
+### -field bstrPatternName
+
+Type: <b>BSTR</b>
+
+Specifies a string that contains the name of this dither pattern.
+
+
+### -field lPatternWidth
+
+Type: <b>LONG</b>
+
+Indicates the width of the dither pattern in bytes.
+
+
+### -field lPatternLength
+
+Type: <b>LONG</b>
+
+Indicates the length of the dither pattern in bytes.
+
+
+### -field cbPattern
+
+Type: <b>LONG</b>
+
+Specifies the total number of bytes in the array pointed to by the <b>pbPattern</b> member.
+
+
+### -field pbPattern
+
+Type: <b>BYTE*</b>
+
+Specifies a pointer to a buffer that contains the dither pattern.
+

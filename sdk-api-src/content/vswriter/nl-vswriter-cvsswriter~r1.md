@@ -7,7 +7,7 @@ old-location: base\cvsswriter.htm
 old-project: VSS
 ms.assetid: 5d54c966-86ad-41af-82be-8a182b3d203a
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: CVssWriter, CVssWriter class [VSS], CVssWriter class [VSS], described, _win32_cvsswriter, base.cvsswriter, vswriter/CVssWriter
 ms.prod: windows-hardware
 ms.technology: windows-devices

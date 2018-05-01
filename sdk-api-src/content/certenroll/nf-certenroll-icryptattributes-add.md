@@ -7,7 +7,7 @@ old-location: security\icryptattributes_add_method.htm
 old-project: SecCertEnroll
 ms.assetid: a9288c74-3d7f-4293-b666-45c90a859166
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: Add method [Security], Add method [Security], ICryptAttributes interface, Add,ICryptAttributes.Add, ICryptAttributes, ICryptAttributes interface [Security], Add method, ICryptAttributes::Add, certenroll/ICryptAttributes::Add, security.icryptattributes_add_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

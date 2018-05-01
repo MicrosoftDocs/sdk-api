@@ -7,7 +7,7 @@ old-location: dshow\ivmrwindowlesscontrol9_setbordercolor.htm
 old-project: DirectShow
 ms.assetid: 462b264d-1b4c-482a-b154-382748abaf92
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IVMRWindowlessControl9, IVMRWindowlessControl9 interface [DirectShow], SetBorderColor method, IVMRWindowlessControl9::SetBorderColor, IVMRWindowlessControl9SetBorderColor, SetBorderColor method [DirectShow], SetBorderColor method [DirectShow], IVMRWindowlessControl9 interface, SetBorderColor,IVMRWindowlessControl9.SetBorderColor, dshow.ivmrwindowlesscontrol9_setbordercolor, vmr9/IVMRWindowlessControl9::SetBorderColor
 ms.prod: windows-hardware
 ms.technology: windows-devices

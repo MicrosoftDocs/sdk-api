@@ -7,7 +7,7 @@ old-location: winauto\iaccpropservices_iaccpropservices__setpropserver.htm
 old-project: WinAuto
 ms.assetid: 15e43a38-4cb3-43ca-a0fc-28faf49057dc
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: IAccPropServices, IAccPropServices interface [Windows Accessibility], SetPropServer method, IAccPropServices::SetPropServer, SetPropServer method [Windows Accessibility], SetPropServer method [Windows Accessibility], IAccPropServices interface, SetPropServer,IAccPropServices.SetPropServer, _msaa_IAccPropServices_SetPropServer, msaa.iaccpropservices_iaccpropservices__setpropserver, oleacc/IAccPropServices::SetPropServer, winauto.iaccpropservices_iaccpropservices__setpropserver
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Oleacc.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IAccPropServices::SetPropServer method

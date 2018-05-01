@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_resource_uav_barrier.htm
 old-project: direct3d12
 ms.assetid: 683F645F-9A90-4648-99EF-2F7444254B41
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: D3D12_RESOURCE_UAV_BARRIER, D3D12_RESOURCE_UAV_BARRIER structure, d3d12/D3D12_RESOURCE_UAV_BARRIER, direct3d12.d3d12_resource_uav_barrier
 ms.prod: windows-hardware
 ms.technology: windows-devices

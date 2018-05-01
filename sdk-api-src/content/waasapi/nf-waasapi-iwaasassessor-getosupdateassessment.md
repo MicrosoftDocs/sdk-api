@@ -7,7 +7,7 @@ old-location: base\iwaasassessor_getosupdateassessment.htm
 old-project: SysInfo
 ms.assetid: 3123362E-6A1C-49BD-BE9C-0B8506EA944B
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: GetOSUpdateAssessment method, GetOSUpdateAssessment method, IWaaSAssessor interface, GetOSUpdateAssessment,IWaaSAssessor.GetOSUpdateAssessment, IWaaSAssessor, IWaaSAssessor interface, GetOSUpdateAssessment method, IWaaSAssessor::GetOSUpdateAssessment, base.iwaasassessor_getosupdateassessment, waasapi/IWaaSAssessor::GetOSUpdateAssessment
 ms.prod: windows-hardware
 ms.technology: windows-devices

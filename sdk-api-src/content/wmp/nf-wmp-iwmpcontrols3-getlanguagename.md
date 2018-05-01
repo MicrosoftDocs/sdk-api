@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontrols3_getlanguagename.htm
 old-project: WMP
 ms.assetid: cbae09f6-be4d-4736-9e02-d5b85b82ae77
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPControls3, IWMPControls3 interface [Windows Media Player], getLanguageName method, IWMPControls3::getLanguageName, IWMPControls3getLanguageName, getLanguageName method [Windows Media Player], getLanguageName method [Windows Media Player], IWMPControls3 interface, getLanguageName,IWMPControls3.getLanguageName, wmp.iwmpcontrols3_getlanguagename, wmp/IWMPControls3::getLanguageName
 ms.prod: windows-hardware
 ms.technology: windows-devices

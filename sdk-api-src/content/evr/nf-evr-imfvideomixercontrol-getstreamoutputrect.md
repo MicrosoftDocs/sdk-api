@@ -7,7 +7,7 @@ old-location: mf\imfvideomixercontrol_getstreamoutputrect.htm
 old-project: medfound
 ms.assetid: 6de631cd-f85e-4f53-b14c-8ca3cd65b719
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 6de631cd-f85e-4f53-b14c-8ca3cd65b719, GetStreamOutputRect method [Media Foundation], GetStreamOutputRect method [Media Foundation], IMFVideoMixerControl interface, GetStreamOutputRect,IMFVideoMixerControl.GetStreamOutputRect, IMFVideoMixerControl, IMFVideoMixerControl interface [Media Foundation], GetStreamOutputRect method, IMFVideoMixerControl::GetStreamOutputRect, evr/IMFVideoMixerControl::GetStreamOutputRect, mf.imfvideomixercontrol_getstreamoutputrect
 ms.prod: windows-hardware
 ms.technology: windows-devices

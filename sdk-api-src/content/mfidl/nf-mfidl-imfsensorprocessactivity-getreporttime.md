@@ -7,7 +7,7 @@ old-location: mf\imfsensorprocessactivity_getreporttime.htm
 old-project: medfound
 ms.assetid: 5C13F0ED-B2A6-43AC-92AA-87BF995DEFD7
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetReportTime method [Media Foundation], GetReportTime method [Media Foundation], IMFSensorProcessActivity interface, GetReportTime,IMFSensorProcessActivity.GetReportTime, IMFSensorProcessActivity, IMFSensorProcessActivity interface [Media Foundation], GetReportTime method, IMFSensorProcessActivity::GetReportTime, mf.imfsensorprocessactivity_getreporttime, mfidl/IMFSensorProcessActivity::GetReportTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

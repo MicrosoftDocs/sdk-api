@@ -7,7 +7,7 @@ old-location: base\ivsssoftwaresnapshotprovider_query.htm
 old-project: VSS
 ms.assetid: bb238acc-7af0-43cf-bc2e-70e255978fb1
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: IVssSoftwareSnapshotProvider, IVssSoftwareSnapshotProvider interface, Query method, IVssSoftwareSnapshotProvider::Query, Query method, Query method, IVssSoftwareSnapshotProvider interface, Query,IVssSoftwareSnapshotProvider.Query, base.ivsssoftwaresnapshotprovider_query, vsprov/IVssSoftwareSnapshotProvider::Query
 ms.prod: windows-hardware
 ms.technology: windows-devices

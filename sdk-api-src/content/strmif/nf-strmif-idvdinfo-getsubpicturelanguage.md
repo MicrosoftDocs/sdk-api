@@ -7,7 +7,7 @@ old-location: dshow\idvdinfo_getsubpicturelanguage.htm
 old-project: DirectShow
 ms.assetid: f75ef36d-8556-4ca0-9f7f-6c09b86da24e
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetSubpictureLanguage method [DirectShow], GetSubpictureLanguage method [DirectShow], IDvdInfo interface, GetSubpictureLanguage,IDvdInfo.GetSubpictureLanguage, IDvdInfo, IDvdInfo interface [DirectShow], GetSubpictureLanguage method, IDvdInfo::GetSubpictureLanguage, IDvdInfoGetSubpictureLanguage, dshow.idvdinfo_getsubpicturelanguage, strmif/IDvdInfo::GetSubpictureLanguage
 ms.prod: windows-hardware
 ms.technology: windows-devices

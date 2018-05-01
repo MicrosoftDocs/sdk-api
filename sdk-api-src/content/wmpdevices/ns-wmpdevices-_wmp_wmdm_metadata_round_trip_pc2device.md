@@ -7,7 +7,7 @@ old-location: wmp\wmp_wmdm_metadata_round_trip_pc2device.htm
 old-project: WMP
 ms.assetid: 825d4080-45de-452e-b0eb-33e7bd1d2f22
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: WMP_WMDM_METADATA_ROUND_TRIP_PC2DEVICE, WMP_WMDM_METADATA_ROUND_TRIP_PC2DEVICE structure [Windows Media Player], WMP_WMDM_PC2DEVICE, _WMP_WMDM_METADATA_ROUND_TRIP_PC2DEVICE, wmp.wmp_wmdm_metadata_round_trip_pc2device, wmpdevices/WMP_WMDM_METADATA_ROUND_TRIP_PC2DEVICE
 ms.prod: windows-hardware
 ms.technology: windows-devices

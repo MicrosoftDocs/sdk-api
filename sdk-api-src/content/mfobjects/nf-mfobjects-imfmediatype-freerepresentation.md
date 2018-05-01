@@ -7,7 +7,7 @@ old-location: mf\imfmediatype_freerepresentation.htm
 old-project: medfound
 ms.assetid: d2007f16-543f-4f05-a44d-b4b4ae8019fb
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: FreeRepresentation method [Media Foundation], FreeRepresentation method [Media Foundation], IMFMediaType interface, FreeRepresentation,IMFMediaType.FreeRepresentation, IMFMediaType, IMFMediaType interface [Media Foundation], FreeRepresentation method, IMFMediaType::FreeRepresentation, d2007f16-543f-4f05-a44d-b4b4ae8019fb, mf.imfmediatype_freerepresentation, mfobjects/IMFMediaType::FreeRepresentation
 ms.prod: windows-hardware
 ms.technology: windows-devices

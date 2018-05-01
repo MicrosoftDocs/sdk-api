@@ -7,7 +7,7 @@ old-location: mf\imfsecurechannel.htm
 old-project: medfound
 ms.assetid: 063170b8-9483-4acd-9b42-a226e9c38f0e
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 063170b8-9483-4acd-9b42-a226e9c38f0e, IMFSecureChannel, IMFSecureChannel interface [Media Foundation], IMFSecureChannel interface [Media Foundation], described, mf.imfsecurechannel, mfidl/IMFSecureChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices

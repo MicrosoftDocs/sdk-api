@@ -7,7 +7,7 @@ old-location: controls\itextrow_setindent.htm
 old-project: Controls
 ms.assetid: 9846fbd5-c210-49c4-8abe-dfb9cb85f7ae
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextRow, ITextRow interface [Windows Controls], SetIndent method, ITextRow::SetIndent, SetIndent method [Windows Controls], SetIndent method [Windows Controls], ITextRow interface, SetIndent,ITextRow.SetIndent, controls.itextrow_setindent, tom/ITextRow::SetIndent
 ms.prod: windows-hardware
 ms.technology: windows-devices

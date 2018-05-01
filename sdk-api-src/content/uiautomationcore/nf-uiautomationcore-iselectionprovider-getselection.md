@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ISelectionProvider_GetSelection.htm
 old-project: WinAuto
 ms.assetid: f97481b9-f227-47fb-9163-a65a259c9d78
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: GetSelection method [Windows Accessibility], GetSelection method [Windows Accessibility], ISelectionProvider interface, GetSelection,ISelectionProvider.GetSelection, ISelectionProvider, ISelectionProvider interface [Windows Accessibility], GetSelection method, ISelectionProvider::GetSelection, uiauto.uiauto_ISelectionProvider_GetSelection, uiauto_ISelectionProvider_GetSelection, uiautomationcore/ISelectionProvider::GetSelection, winauto.uiauto_ISelectionProvider_GetSelection
 ms.prod: windows-hardware
 ms.technology: windows-devices

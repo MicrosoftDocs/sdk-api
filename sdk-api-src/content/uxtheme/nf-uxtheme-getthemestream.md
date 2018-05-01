@@ -7,7 +7,7 @@ old-location: controls\GetThemeStream.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemestream.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: GetThemeStream, GetThemeStream function [Windows Controls], controls.GetThemeStream, controls.inet_GetThemeStream, inet_GetThemeStream, inet_GetThemeStream_cpp, uxtheme/GetThemeStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

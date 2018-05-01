@@ -7,7 +7,7 @@ old-location: mstv\idvbservicedescriptor_getprocessedservicename.htm
 old-project: mstv
 ms.assetid: c0441e70-270e-4685-9107-865c2b6398e9
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetProcessedServiceName method [Microsoft TV Technologies], GetProcessedServiceName method [Microsoft TV Technologies], IDvbServiceDescriptor interface, GetProcessedServiceName,IDvbServiceDescriptor.GetProcessedServiceName, IDvbServiceDescriptor, IDvbServiceDescriptor interface [Microsoft TV Technologies], GetProcessedServiceName method, IDvbServiceDescriptor::GetProcessedServiceName, dvbsiparser/IDvbServiceDescriptor::GetProcessedServiceName, mstv.idvbservicedescriptor_getprocessedservicename
 ms.prod: windows-hardware
 ms.technology: windows-devices

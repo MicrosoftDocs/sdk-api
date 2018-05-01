@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrSyncCallback_ProposeItem.htm
 old-project: shell
 ms.assetid: d0c73950-f80e-4831-9c56-4316561a269b
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ISyncMgrSyncCallback, ISyncMgrSyncCallback interface [Windows Shell], ProposeItem method, ISyncMgrSyncCallback::ProposeItem, ProposeItem method [Windows Shell], ProposeItem method [Windows Shell], ISyncMgrSyncCallback interface, ProposeItem,ISyncMgrSyncCallback.ProposeItem, _shell_ISyncMgrSyncCallback_ProposeItem, shell.ISyncMgrSyncCallback_ProposeItem, syncmgr/ISyncMgrSyncCallback::ProposeItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

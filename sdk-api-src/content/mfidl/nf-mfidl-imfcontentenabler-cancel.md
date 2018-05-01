@@ -7,7 +7,7 @@ old-location: mf\imfcontentenabler_cancel.htm
 old-project: medfound
 ms.assetid: e273b702-1f42-4aeb-9259-778d3f206682
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: Cancel method [Media Foundation], Cancel method [Media Foundation], IMFContentEnabler interface, Cancel,IMFContentEnabler.Cancel, IMFContentEnabler, IMFContentEnabler interface [Media Foundation], Cancel method, IMFContentEnabler::Cancel, e273b702-1f42-4aeb-9259-778d3f206682, mf.imfcontentenabler_cancel, mfidl/IMFContentEnabler::Cancel
 ms.prod: windows-hardware
 ms.technology: windows-devices

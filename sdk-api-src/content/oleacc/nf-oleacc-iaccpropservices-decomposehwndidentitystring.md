@@ -7,7 +7,7 @@ old-location: winauto\iaccpropservices_iaccpropservices__decomposehwndidentityst
 old-project: WinAuto
 ms.assetid: b14932a1-7585-49e4-80eb-498cf48796ee
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: DecomposeHwndIdentityString method [Windows Accessibility], DecomposeHwndIdentityString method [Windows Accessibility], IAccPropServices interface, DecomposeHwndIdentityString,IAccPropServices.DecomposeHwndIdentityString, IAccPropServices, IAccPropServices interface [Windows Accessibility], DecomposeHwndIdentityString method, IAccPropServices::DecomposeHwndIdentityString, _msaa_IAccPropServices_DecomposeHwndIdentityString, msaa.iaccpropservices_iaccpropservices__decomposehwndidentitystring, oleacc/IAccPropServices::DecomposeHwndIdentityString, winauto.iaccpropservices_iaccpropservices__decomposehwndidentitystring
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Oleacc.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IAccPropServices::DecomposeHwndIdentityString method

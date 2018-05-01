@@ -7,7 +7,7 @@ old-location: dshow\igraphconfigcallback_reconfigure.htm
 old-project: DirectShow
 ms.assetid: b4f44639-b3b0-412e-8b71-e1f994dee0e6
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IGraphConfigCallback, IGraphConfigCallback interface [DirectShow], Reconfigure method, IGraphConfigCallback::Reconfigure, IGraphConfigCallbackReconfigure, Reconfigure method [DirectShow], Reconfigure method [DirectShow], IGraphConfigCallback interface, Reconfigure,IGraphConfigCallback.Reconfigure, dshow.igraphconfigcallback_reconfigure, strmif/IGraphConfigCallback::Reconfigure
 ms.prod: windows-hardware
 ms.technology: windows-devices

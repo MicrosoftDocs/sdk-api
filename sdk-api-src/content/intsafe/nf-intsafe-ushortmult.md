@@ -7,7 +7,7 @@ old-location: shell\UShortMult.htm
 old-project: shell
 ms.assetid: ecade442-3272-4886-87e1-057f82f465cf
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: UShortMult, UShortMult function [Windows Shell], _shell_UShortMult, intsafe/UShortMult, shell.UShortMult
 ms.prod: windows-hardware
 ms.technology: windows-devices

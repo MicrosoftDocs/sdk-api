@@ -7,7 +7,7 @@ old-location: base\rtltimetosecondssince1970.htm
 old-project: SysInfo
 ms.assetid: cb2e041a-cbbb-4572-85da-b282fa692261
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: RtlTimeToSecondsSince1970, RtlTimeToSecondsSince1970 function, base.rtltimetosecondssince1970, winternl/RtlTimeToSecondsSince1970
 ms.prod: windows-hardware
 ms.technology: windows-devices

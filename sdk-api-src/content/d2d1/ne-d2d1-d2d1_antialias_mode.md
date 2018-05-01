@@ -7,7 +7,7 @@ old-location: direct2d\D2D1_ANTIALIAS_MODE.htm
 old-project: Direct2D
 ms.assetid: 3ca12155-6dd0-41bb-8778-3387422c4ffe
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: D2D1_ANTIALIAS_MODE, D2D1_ANTIALIAS_MODE enumeration [Direct2D], D2D1_ANTIALIAS_MODE_ALIASED, D2D1_ANTIALIAS_MODE_PER_PRIMITIVE, d2d1/D2D1_ANTIALIAS_MODE, d2d1/D2D1_ANTIALIAS_MODE_ALIASED, d2d1/D2D1_ANTIALIAS_MODE_PER_PRIMITIVE, direct2d.D2D1_ANTIALIAS_MODE
 ms.prod: windows-hardware
 ms.technology: windows-devices

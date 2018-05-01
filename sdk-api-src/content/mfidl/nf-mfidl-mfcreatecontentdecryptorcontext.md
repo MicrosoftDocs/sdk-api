@@ -7,7 +7,7 @@ old-location: mf\mfcreatecontentdecryptorcontext.htm
 old-project: medfound
 ms.assetid: 9CD2AEAE-E960-450F-824B-ED9FD32FB210
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: MFCreateContentDecryptorContext, MFCreateContentDecryptorContext function [Media Foundation], mf.mfcreatecontentdecryptorcontext, mfidl/MFCreateContentDecryptorContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: appxpkg\iappxmanifestreader2_getqualifiedresources.htm
 old-project: appxpkg
 ms.assetid: C712DA82-CA4F-4C5B-A391-3B40D5EE61C4
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/26/2018
 ms.keywords: GetQualifiedResources method [App packaging and management], GetQualifiedResources method [App packaging and management], IAppxManifestReader2 interface, GetQualifiedResources,IAppxManifestReader2.GetQualifiedResources, IAppxManifestReader2, IAppxManifestReader2 interface [App packaging and management], GetQualifiedResources method, IAppxManifestReader2::GetQualifiedResources, appxpackaging/IAppxManifestReader2::GetQualifiedResources, appxpkg.iappxmanifestreader2_getqualifiedresources
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_ARCHITECTURE2
+req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
 topic_type:
 -	APIRef
 -	kbSyntax

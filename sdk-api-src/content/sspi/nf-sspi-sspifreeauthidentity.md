@@ -7,7 +7,7 @@ old-location: security\sspifreeauthidentity.htm
 old-project: SecAuthN
 ms.assetid: 6199f66e-7adb-4bb9-8e77-a735e31dd5f6
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/24/2018
 ms.keywords: SspiFreeAuthIdentity, SspiFreeAuthIdentity function [Security], security.sspifreeauthidentity, sspi/SspiFreeAuthIdentity
 ms.prod: windows-hardware
 ms.technology: windows-devices

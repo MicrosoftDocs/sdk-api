@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmpropertydefinitionvalue_displayname.htm
 old-project: Fsrm
 ms.assetid: a115b33f-874a-49ed-ad0d-bfbee1edcc95
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: DisplayName property [File Server Resource Manager], DisplayName property [File Server Resource Manager], IFsrmPropertyDefinitionValue interface, IFsrmPropertyDefinitionValue, IFsrmPropertyDefinitionValue interface [File Server Resource Manager], DisplayName property, IFsrmPropertyDefinitionValue.DisplayName, IFsrmPropertyDefinitionValue::get_DisplayName, fs.ifsrmpropertydefinitionvalue_displayname, fsrm.ifsrmpropertydefinitionvalue_displayname, fsrmpipeline/IFsrmPropertyDefinitionValue::DisplayName, fsrmpipeline/IFsrmPropertyDefinitionValue::get_DisplayName, get_DisplayName,IFsrmPropertyDefinitionValue.get_DisplayName
 ms.prod: windows-hardware
 ms.technology: windows-devices

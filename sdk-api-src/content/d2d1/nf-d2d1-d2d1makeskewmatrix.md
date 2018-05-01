@@ -7,7 +7,7 @@ old-location: direct2d\d2d1makeskewmatrix.htm
 old-project: Direct2D
 ms.assetid: 9f29488c-37f0-4d53-9e3b-3b27e841c8b4
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: D2D1MakeSkewMatrix, D2D1MakeSkewMatrix function [Direct2D], d2d1/D2D1MakeSkewMatrix, direct2d.d2d1makeskewmatrix
 ms.prod: windows-hardware
 ms.technology: windows-devices

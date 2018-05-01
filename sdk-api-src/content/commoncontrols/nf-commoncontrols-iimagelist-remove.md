@@ -7,7 +7,7 @@ old-location: controls\IImageList_Remove.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\remove.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: IImageList, IImageList interface [Windows Controls], Remove method, IImageList::Remove, Remove method [Windows Controls], Remove method [Windows Controls], IImageList interface, Remove,IImageList.Remove, comctl_IImageList_Remove, comctl_IImageList_Remove_cpp, commoncontrols/IImageList::Remove, controls.IImageList_Remove, controls.comctl_IImageList_Remove
 ms.prod: windows-hardware
 ms.technology: windows-devices

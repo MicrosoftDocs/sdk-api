@@ -7,7 +7,7 @@ old-location: dshow\imediasample2config_getsurface.htm
 old-project: DirectShow
 ms.assetid: c53306ec-cb5c-4f55-afb0-de72386a166d
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetSurface method [DirectShow], GetSurface method [DirectShow], IMediaSample2Config interface, GetSurface,IMediaSample2Config.GetSurface, IMediaSample2Config, IMediaSample2Config interface [DirectShow], GetSurface method, IMediaSample2Config::GetSurface, IMediaSample2ConfigGetSurface, dshow.imediasample2config_getsurface, strmif/IMediaSample2Config::GetSurface
 ms.prod: windows-hardware
 ms.technology: windows-devices

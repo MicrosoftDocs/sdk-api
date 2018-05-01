@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffectconnectorinfo_getformat.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectconnectorinfo\getformat.htm
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: GetFormat method [WPF Bitmap Effects], GetFormat method [WPF Bitmap Effects], IMILBitmapEffectConnectorInfo interface, GetFormat,IMILBitmapEffectConnectorInfo.GetFormat, IMILBitmapEffectConnectorInfo, IMILBitmapEffectConnectorInfo interface [WPF Bitmap Effects], GetFormat method, IMILBitmapEffectConnectorInfo::GetFormat, _wibe_imilbitmapeffectconnectorinfo_getformat, mileffects/IMILBitmapEffectConnectorInfo::GetFormat, wibe._wibe_imilbitmapeffectconnectorinfo_getformat
 ms.prod: windows-hardware
 ms.technology: windows-devices

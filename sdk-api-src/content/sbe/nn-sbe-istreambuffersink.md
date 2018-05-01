@@ -7,7 +7,7 @@ old-location: mstv\istreambuffersink.htm
 old-project: mstv
 ms.assetid: 4ae5a9e9-da51-4034-9a2c-22b57374deac
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IStreamBufferSink, IStreamBufferSink interface [Microsoft TV Technologies], IStreamBufferSink interface [Microsoft TV Technologies], described, IStreamBufferSinkInterface, mstv.istreambuffersink, sbe/IStreamBufferSink
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Sbe.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IStreamBufferSink interface

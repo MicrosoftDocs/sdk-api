@@ -7,7 +7,7 @@ old-location: winprog\_invalidatename.htm
 old-project: DevNotes
 ms.assetid: 86c6eccf-5c4a-421b-b8e2-762ea5b77bf3
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/13/2018
 ms.keywords: InvalidateName, InvalidateName function [Windows API], filehc/InvalidateName, winprog._invalidatename
 ms.prod: windows-hardware
 ms.technology: windows-devices

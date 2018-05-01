@@ -7,7 +7,7 @@ old-location: intl\loadstringbyreference.htm
 old-project: Intl
 ms.assetid: 4E0470ED-512F-4B76-A3E4-31C8B269CD5C
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/25/2018
 ms.keywords: LoadStringByReference, LoadStringByReference function [Internationalization for Windows Applications], intl.loadstringbyreference, winnls/LoadStringByReference
 ms.prod: windows-hardware
 ms.technology: windows-devices

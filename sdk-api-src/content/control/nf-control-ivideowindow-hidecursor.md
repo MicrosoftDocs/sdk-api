@@ -7,7 +7,7 @@ old-location: dshow\ivideowindow_hidecursor.htm
 old-project: DirectShow
 ms.assetid: c45da114-6711-427b-8533-4ed339a42ff4
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: HideCursor method [DirectShow], HideCursor method [DirectShow], IVideoWindow interface, HideCursor,IVideoWindow.HideCursor, IVideoWindow, IVideoWindow interface [DirectShow], HideCursor method, IVideoWindow::HideCursor, IVideoWindowHideCursor, OAFALSE, OATRUE, control/IVideoWindow::HideCursor, dshow.ivideowindow_hidecursor
 ms.prod: windows-hardware
 ms.technology: windows-devices

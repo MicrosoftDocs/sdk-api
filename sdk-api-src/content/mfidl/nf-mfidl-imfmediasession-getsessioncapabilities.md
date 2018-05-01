@@ -7,7 +7,7 @@ old-location: mf\imfmediasession_getsessioncapabilities.htm
 old-project: medfound
 ms.assetid: 3534cfb9-23ff-42a6-a3db-b5032d427cf2
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 3534cfb9-23ff-42a6-a3db-b5032d427cf2, GetSessionCapabilities method [Media Foundation], GetSessionCapabilities method [Media Foundation], IMFMediaSession interface, GetSessionCapabilities,IMFMediaSession.GetSessionCapabilities, IMFMediaSession, IMFMediaSession interface [Media Foundation], GetSessionCapabilities method, IMFMediaSession::GetSessionCapabilities, MFSESSIONCAP_PAUSE, MFSESSIONCAP_RATE_FORWARD, MFSESSIONCAP_RATE_REVERSE, MFSESSIONCAP_SEEK, MFSESSIONCAP_START, mf.imfmediasession_getsessioncapabilities, mfidl/IMFMediaSession::GetSessionCapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices

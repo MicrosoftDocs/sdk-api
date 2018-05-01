@@ -7,7 +7,7 @@ old-location: cos\icatalogcollection_name.htm
 old-project: cossdk
 ms.assetid: 0a90538b-a562-40f7-b7d6-16e786db0e1e
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: ICatalogCollection, ICatalogCollection interface [COM+], Name property, ICatalogCollection.Name, ICatalogCollection::get_Name, Name property [COM+], Name property [COM+], ICatalogCollection interface, _cos_ICatalogCollection_get_Name, comadmin/ICatalogCollection::Name, comadmin/ICatalogCollection::get_Name, cos.icatalogcollection_name, get_Name,ICatalogCollection.get_Name
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: com\ipropertypage_ispagedirty.htm
 old-project: com
 ms.assetid: 6a19a659-8fab-4218-bc5a-c53860f578f6
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IPropertyPage, IPropertyPage interface [COM], IsPageDirty method, IPropertyPage::IsPageDirty, IsPageDirty method [COM], IsPageDirty method [COM], IPropertyPage interface, IsPageDirty,IPropertyPage.IsPageDirty, _ctrl_ipropertypage_ispagedirty, com.ipropertypage_ispagedirty, ocidl/IPropertyPage::IsPageDirty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IPropertyPage::IsPageDirty method

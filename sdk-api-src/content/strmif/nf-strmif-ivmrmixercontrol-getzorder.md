@@ -7,7 +7,7 @@ old-location: dshow\ivmrmixercontrol_getzorder.htm
 old-project: DirectShow
 ms.assetid: 76f84c77-e528-4059-8f40-5e49db9ec567
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetZOrder method [DirectShow], GetZOrder method [DirectShow], IVMRMixerControl interface, GetZOrder,IVMRMixerControl.GetZOrder, IVMRMixerControl, IVMRMixerControl interface [DirectShow], GetZOrder method, IVMRMixerControl::GetZOrder, IVMRMixerControlGetZOrder, dshow.ivmrmixercontrol_getzorder, strmif/IVMRMixerControl::GetZOrder
 ms.prod: windows-hardware
 ms.technology: windows-devices

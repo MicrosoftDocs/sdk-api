@@ -7,7 +7,7 @@ old-location: mf\imfnetcredential_setuser.htm
 old-project: medfound
 ms.assetid: 026a822a-4e48-4fc8-9781-5e427528a4d2
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 026a822a-4e48-4fc8-9781-5e427528a4d2, IMFNetCredential, IMFNetCredential interface [Media Foundation], SetUser method, IMFNetCredential::SetUser, SetUser method [Media Foundation], SetUser method [Media Foundation], IMFNetCredential interface, SetUser,IMFNetCredential.SetUser, mf.imfnetcredential_setuser, mfidl/IMFNetCredential::SetUser
 ms.prod: windows-hardware
 ms.technology: windows-devices

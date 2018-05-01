@@ -7,7 +7,7 @@ old-location: wmp\iwmpevents_iwmpevents__mouseup.htm
 old-project: WMP
 ms.assetid: 314d633f-e2f4-43ff-951f-1403c1ccd571
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPEvents, IWMPEvents interface [Windows Media Player], MouseUp method, IWMPEvents::MouseUp, IWMPEventsMouseUp, MouseUp method [Windows Media Player], MouseUp method [Windows Media Player], IWMPEvents interface, MouseUp,IWMPEvents.MouseUp, wmp.iwmpevents_iwmpevents__mouseup, wmp/IWMPEvents::MouseUp
 ms.prod: windows-hardware
 ms.technology: windows-devices

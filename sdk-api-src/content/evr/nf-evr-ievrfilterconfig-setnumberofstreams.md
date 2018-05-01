@@ -7,7 +7,7 @@ old-location: mf\ievrfilterconfig_setnumberofstreams.htm
 old-project: medfound
 ms.assetid: 72777c3d-b098-43b9-80ea-ef180b7f1a4a
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 72777c3d-b098-43b9-80ea-ef180b7f1a4a, IEVRFilterConfig, IEVRFilterConfig interface [Media Foundation], SetNumberOfStreams method, IEVRFilterConfig::SetNumberOfStreams, SetNumberOfStreams method [Media Foundation], SetNumberOfStreams method [Media Foundation], IEVRFilterConfig interface, SetNumberOfStreams,IEVRFilterConfig.SetNumberOfStreams, evr/IEVRFilterConfig::SetNumberOfStreams, mf.ievrfilterconfig_setnumberofstreams
 ms.prod: windows-hardware
 ms.technology: windows-devices

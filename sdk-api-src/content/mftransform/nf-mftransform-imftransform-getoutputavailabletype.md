@@ -7,7 +7,7 @@ old-location: mf\imftransform_getoutputavailabletype.htm
 old-project: medfound
 ms.assetid: d0f75414-18cf-4e76-b875-5f373510c87b
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetOutputAvailableType method [Media Foundation], GetOutputAvailableType method [Media Foundation], IMFTransform interface, GetOutputAvailableType,IMFTransform.GetOutputAvailableType, IMFTransform, IMFTransform interface [Media Foundation], GetOutputAvailableType method, IMFTransform::GetOutputAvailableType, d0f75414-18cf-4e76-b875-5f373510c87b, mf.imftransform_getoutputavailabletype, mftransform/IMFTransform::GetOutputAvailableType
 ms.prod: windows-hardware
 ms.technology: windows-devices

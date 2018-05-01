@@ -58,26 +58,6 @@ Defines information about the event.
 
 
 
-### -field DUMMYUNIONNAME
-
- 
-
-
-### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME
-
- 
-
-
-### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.KernelTime
-
-Elapsed execution time for kernel-mode instructions, in CPU time units. If you are using a private session, use the value in the <b>ProcessorTime</b> member instead.  For more information, see Remarks.
-
-
-### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.UserTime
-
-Elapsed execution time for user-mode instructions, in CPU time units. If you are using a private session, use the value in the <b>ProcessorTime</b> member instead. For more information, see Remarks.
-
-
 ### -field Size
 
 Size of the event record, in bytes.
@@ -247,6 +227,26 @@ GUID that uniquely identifies the provider that logged the event.
 ### -field EventDescriptor
 
 Defines the information about the event such as the event identifier and severity level. For details, see <a href="https://msdn.microsoft.com/907e6c38-5eaa-49da-9dc0-d055dcc69d1a">EVENT_DESCRIPTOR</a>.
+
+
+### -field DUMMYUNIONNAME
+
+ 
+
+
+### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME
+
+ 
+
+
+### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.KernelTime
+
+Elapsed execution time for kernel-mode instructions, in CPU time units. If you are using a private session, use the value in the <b>ProcessorTime</b> member instead.  For more information, see Remarks.
+
+
+### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.UserTime
+
+Elapsed execution time for user-mode instructions, in CPU time units. If you are using a private session, use the value in the <b>ProcessorTime</b> member instead. For more information, see Remarks.
 
 
 ### -field ActivityId

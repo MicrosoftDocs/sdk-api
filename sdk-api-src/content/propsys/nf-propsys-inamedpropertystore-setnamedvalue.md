@@ -7,7 +7,7 @@ old-location: shell\INamedPropertyStore_SetNamedValue.htm
 old-project: shell
 ms.assetid: e1ccf53f-3117-45c2-a0ff-94f1bb084414
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: INamedPropertyStore, INamedPropertyStore interface [Windows Shell], SetNamedValue method, INamedPropertyStore::SetNamedValue, SetNamedValue method [Windows Shell], SetNamedValue method [Windows Shell], INamedPropertyStore interface, SetNamedValue,INamedPropertyStore.SetNamedValue, _shell_INamedPropertyStore_SetNamedValue, propsys/INamedPropertyStore::SetNamedValue, shell.INamedPropertyStore_SetNamedValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # INamedPropertyStore::SetNamedValue method

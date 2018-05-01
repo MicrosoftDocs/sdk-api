@@ -7,7 +7,7 @@ old-location: dshow\icameracontrol_get_roll.htm
 old-project: DirectShow
 ms.assetid: cebe99e1-9bcc-4826-8b15-b4d6757ec5b4
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ICameraControl, ICameraControl interface [DirectShow], get_Roll method, ICameraControl::get_Roll, ICameraControlget_Roll, dshow.icameracontrol_get_roll, get_Roll method [DirectShow], get_Roll method [DirectShow], ICameraControl interface, get_Roll,ICameraControl.get_Roll, vidcap/ICameraControl::get_Roll
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: VIDEOHDR, *PVIDEOHDR, *LPVIDEOHDR
+req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
 topic_type:
 -	APIRef
 -	kbSyntax

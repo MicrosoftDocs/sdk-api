@@ -7,7 +7,7 @@ old-location: mf\imfvideoprocessor_getvideoprocessorcaps.htm
 old-project: medfound
 ms.assetid: 9a02aed2-8225-4416-ae54-7ed51c67a149
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 9a02aed2-8225-4416-ae54-7ed51c67a149, GetVideoProcessorCaps method [Media Foundation], GetVideoProcessorCaps method [Media Foundation], IMFVideoProcessor interface, GetVideoProcessorCaps,IMFVideoProcessor.GetVideoProcessorCaps, IMFVideoProcessor, IMFVideoProcessor interface [Media Foundation], GetVideoProcessorCaps method, IMFVideoProcessor::GetVideoProcessorCaps, evr9/IMFVideoProcessor::GetVideoProcessorCaps, mf.imfvideoprocessor_getvideoprocessorcaps
 ms.prod: windows-hardware
 ms.technology: windows-devices

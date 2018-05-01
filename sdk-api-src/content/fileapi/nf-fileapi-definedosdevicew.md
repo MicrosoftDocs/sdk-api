@@ -99,7 +99,7 @@ If this value is specified along with <b>DDD_REMOVE_DEFINITION</b>, the function
 </dl>
 </td>
 <td width="60%">
-Do not broadcast the <a href="https://msdn.microsoft.com/77174e06-a25b-440a-9e9c-4fd5979c433c">WM_SETTINGCHANGE</a> message. 
+Do not broadcast the <a href="base.wm_settingchange">WM_SETTINGCHANGE</a> message. 
         By default, this message is broadcast to notify the shell and applications of the change.
 
 </td>

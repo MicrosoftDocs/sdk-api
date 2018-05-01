@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmdevicecontrol_seek.htm
 old-project: WMDM
 ms.assetid: f416a520-197c-4607-979e-8f43951f2076
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: IWMDMDeviceControl, IWMDMDeviceControl interface [windows Media Device Manager], Seek method, IWMDMDeviceControl::Seek, IWMDMDeviceControlSeek, Seek method [windows Media Device Manager], Seek method [windows Media Device Manager], IWMDMDeviceControl interface, Seek,IWMDMDeviceControl.Seek, mswmdm/IWMDMDeviceControl::Seek, wmdm.iwmdmdevicecontrol_seek
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IWMDMDeviceControl::Seek method

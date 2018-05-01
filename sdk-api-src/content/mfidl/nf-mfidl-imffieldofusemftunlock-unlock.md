@@ -7,7 +7,7 @@ old-location: mf\imffieldofusemftunlock_unlock.htm
 old-project: medfound
 ms.assetid: 54b15e72-6551-4162-90ca-a9bed68ca62f
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFFieldOfUseMFTUnlock, IMFFieldOfUseMFTUnlock interface [Media Foundation], Unlock method, IMFFieldOfUseMFTUnlock::Unlock, Unlock method [Media Foundation], Unlock method [Media Foundation], IMFFieldOfUseMFTUnlock interface, Unlock,IMFFieldOfUseMFTUnlock.Unlock, mf.imffieldofusemftunlock_unlock, mfidl/IMFFieldOfUseMFTUnlock::Unlock
 ms.prod: windows-hardware
 ms.technology: windows-devices

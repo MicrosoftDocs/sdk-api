@@ -7,7 +7,7 @@ old-location: base\createumscompletionlist.htm
 old-project: ProcThread
 ms.assetid: 6e77b793-a82e-4e23-8c8b-7aff79d69346
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: CreateUmsCompletionList, CreateUmsCompletionList function, base.createumscompletionlist, winbase/CreateUmsCompletionList
 ms.prod: windows-hardware
 ms.technology: windows-devices

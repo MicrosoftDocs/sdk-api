@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiorenderclient_releasebuffer.htm
 old-project: CoreAudio
 ms.assetid: 19d89b5e-2e73-4693-b970-7ebf452ef9a1
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: IAudioRenderClient, IAudioRenderClient interface [Core Audio], ReleaseBuffer method, IAudioRenderClient::ReleaseBuffer, IAudioRenderClientReleaseBuffer, ReleaseBuffer method [Core Audio], ReleaseBuffer method [Core Audio], IAudioRenderClient interface, ReleaseBuffer,IAudioRenderClient.ReleaseBuffer, audioclient/IAudioRenderClient::ReleaseBuffer, coreaudio.iaudiorenderclient_releasebuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: ics\inetfwrule_grouping.htm
 old-project: ICS
 ms.assetid: 325b0c1d-3988-44ed-931c-6eed835f8c50
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: Grouping property [ICS/ICF], Grouping property [ICS/ICF], INetFwRule interface, INetFwRule, INetFwRule interface [ICS/ICF], Grouping property, INetFwRule.Grouping, INetFwRule::get_Grouping, INetFwRule::put_Grouping, ics.inetfwrule_grouping, netfw/INetFwRule::Grouping, netfw/INetFwRule::get_Grouping, netfw/INetFwRule::put_Grouping, put_Grouping,INetFwRule.put_Grouping
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: 
 req.dll: FirewallAPI.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # INetFwRule::put_Grouping method

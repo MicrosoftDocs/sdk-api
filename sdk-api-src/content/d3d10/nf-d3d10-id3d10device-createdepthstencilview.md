@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_createdepthstencilview.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_createdepthstencilview.htm
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: CreateDepthStencilView method [Direct3D 10], CreateDepthStencilView method [Direct3D 10], ID3D10Device interface, CreateDepthStencilView,ID3D10Device.CreateDepthStencilView, ID3D10Device, ID3D10Device interface [Direct3D 10], CreateDepthStencilView method, ID3D10Device::CreateDepthStencilView, d3d10/ID3D10Device::CreateDepthStencilView, direct3d10.id3d10device_createdepthstencilview, f7b0585b-710f-b4d1-e65f-c30b57116c09
 ms.prod: windows-hardware
 ms.technology: windows-devices

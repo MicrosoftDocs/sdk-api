@@ -7,7 +7,7 @@ old-location: dshow\imediacontrol_getstate.htm
 old-project: DirectShow
 ms.assetid: 653a94ff-6929-41b1-9b94-dccaff0f7ec7
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetState method [DirectShow], GetState method [DirectShow], IMediaControl interface, GetState,IMediaControl.GetState, IMediaControl, IMediaControl interface [DirectShow], GetState method, IMediaControl::GetState, IMediaControlGetState, control/IMediaControl::GetState, dshow.imediacontrol_getstate
 ms.prod: windows-hardware
 ms.technology: windows-devices

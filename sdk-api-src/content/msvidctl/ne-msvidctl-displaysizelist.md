@@ -7,7 +7,7 @@ old-location: mstv\displaysizelist.htm
 old-project: mstv
 ms.assetid: 2e939cbc-fc75-41d7-9fcb-32da5173f9bc
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: DisplaySizeList, DisplaySizeList enumeration [Microsoft TV Technologies], MSVidCtlDisplaySizeListEnumeration, dslDefaultSize, dslDoubleSourceSize, dslFullScreen, dslHalfScreen, dslHalfSourceSize, dslQuarterScreen, dslSixteenthScreen, dslSourceSize, enumeration [Microsoft TV Technologies], mstv.displaysizelist, msvidctl/DisplaySizeList, msvidctl/dslDefaultSize, msvidctl/dslDoubleSourceSize, msvidctl/dslFullScreen, msvidctl/dslHalfScreen, msvidctl/dslHalfSourceSize, msvidctl/dslQuarterScreen, msvidctl/dslSixteenthScreen, msvidctl/dslSourceSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # DisplaySizeList enumeration

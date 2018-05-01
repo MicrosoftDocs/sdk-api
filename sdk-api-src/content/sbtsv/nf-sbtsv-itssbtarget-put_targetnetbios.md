@@ -7,7 +7,7 @@ old-location: termserv\itssbtarget_targetnetbios.htm
 old-project: TermServ
 ms.assetid: c1c91d9c-10ae-4fe3-8742-c0fbe68b7020
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: ITsSbTarget, ITsSbTarget interface [Remote Desktop Services], TargetNetbios property, ITsSbTarget.TargetNetbios, ITsSbTarget::get_TargetNetbios, ITsSbTarget::put_TargetNetbios, ITsSbTargetEx interface [Remote Desktop Services], TargetNetbios property, ITsSbTargetEx.TargetNetbios, ITsSbTargetEx::get_TargetNetbios, ITsSbTargetEx::put_TargetNetbios, TargetNetbios property [Remote Desktop Services], TargetNetbios property [Remote Desktop Services], ITsSbTarget interface, TargetNetbios property [Remote Desktop Services], ITsSbTargetEx interface, put_TargetNetbios,ITsSbTarget.put_TargetNetbios, sbtsv/ITsSbTarget::TargetNetbios, sbtsv/ITsSbTarget::get_TargetNetbios, sbtsv/ITsSbTarget::put_TargetNetbios, sbtsv/ITsSbTargetEx::TargetNetbios, sbtsv/ITsSbTargetEx::get_TargetNetbios, sbtsv/ITsSbTargetEx::put_TargetNetbios, termserv.itssbtarget_targetnetbios
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,7 +46,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITsSbTarget::put_TargetNetbios method

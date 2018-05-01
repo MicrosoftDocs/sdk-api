@@ -7,7 +7,7 @@ old-location: com\ienumoleundounits_clone.htm
 old-project: com
 ms.assetid: 0aed7771-0e9c-49b1-8c45-4dcf637cb04c
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: Clone method [COM], Clone method [COM], IEnumOleUndoUnits interface, Clone,IEnumOleUndoUnits.Clone, IEnumOleUndoUnits, IEnumOleUndoUnits interface [COM], Clone method, IEnumOleUndoUnits::Clone, _ole_ienumoleundounits_clone, com.ienumoleundounits_clone, ocidl/IEnumOleUndoUnits::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IEnumOleUndoUnits::Clone method

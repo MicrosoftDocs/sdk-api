@@ -7,7 +7,7 @@ old-location: wmi\iwbemclassobject_get.htm
 old-project: WmiSdk
 ms.assetid: e4f6c28b-42d7-4109-803e-d3aac4d8509e
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: Get method [Windows Management Instrumentation], Get method [Windows Management Instrumentation], IWbemClassObject interface, Get,IWbemClassObject.Get, IWbemClassObject, IWbemClassObject interface [Windows Management Instrumentation], Get method, IWbemClassObject::Get, WBEM_FLAVOR_ORIGIN_LOCAL, WBEM_FLAVOR_ORIGIN_PROPAGATED, WBEM_FLAVOR_ORIGIN_SYSTEM, _hmm_iwbemclassobject_get, wbemcli/IWbemClassObject::Get, wmi.iwbemclassobject_get
 ms.prod: windows-hardware
 ms.technology: windows-devices

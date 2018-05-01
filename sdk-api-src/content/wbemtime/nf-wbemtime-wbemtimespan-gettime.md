@@ -7,7 +7,7 @@ old-location: wmi\wbemtimespan_gettime.htm
 old-project: WmiSdk
 ms.assetid: 58ea0741-1927-4cbf-abfb-059e4490accc
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: GetTime method [Windows Management Instrumentation], GetTime method [Windows Management Instrumentation], WBEMTimeSpan interface, GetTime,WBEMTimeSpan.GetTime, WBEMTimeSpan, WBEMTimeSpan interface [Windows Management Instrumentation], GetTime method, WBEMTimeSpan::GetTime, _hmm_wbemtimespan_gettime, wbemtime/WBEMTimeSpan::GetTime, wmi.wbemtimespan_gettime
 ms.prod: windows-hardware
 ms.technology: windows-devices

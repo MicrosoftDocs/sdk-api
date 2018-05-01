@@ -7,7 +7,7 @@ old-location: wmi\iwbemservices_execquery.htm
 old-project: WmiSdk
 ms.assetid: 8cb4a42b-f8ae-4a6f-884c-fa808b11dc8a
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: ExecQuery method [Windows Management Instrumentation], ExecQuery method [Windows Management Instrumentation], IWbemServices interface, ExecQuery,IWbemServices.ExecQuery, IWbemServices, IWbemServices interface [Windows Management Instrumentation], ExecQuery method, IWbemServices::ExecQuery, WBEM_FLAG_BIDIRECTIONAL, WBEM_FLAG_DIRECT_READ, WBEM_FLAG_ENSURE_LOCATABLE, WBEM_FLAG_FORWARD_ONLY, WBEM_FLAG_PROTOTYPE, WBEM_FLAG_RETURN_IMMEDIATELY, WBEM_FLAG_USE_AMENDED_QUALIFIERS, _hmm_iwbemservices_execquery, wbemcli/IWbemServices::ExecQuery, wmi.iwbemservices_execquery
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: automat\itypeinfo2_getcustdata.htm
 old-project: automat
 ms.assetid: 0c80a357-0967-413f-a211-c3bae8700b36
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: GetCustData method [Automation], GetCustData method [Automation], ITypeInfo2 interface, GetCustData,ITypeInfo2.GetCustData, ITypeInfo2, ITypeInfo2 interface [Automation], GetCustData method, ITypeInfo2::GetCustData, _oa96_ITypeInfo2_GetCustData, automat.itypeinfo2_getcustdata, oaidl/ITypeInfo2::GetCustData
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITypeInfo2::GetCustData method

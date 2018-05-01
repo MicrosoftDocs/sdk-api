@@ -7,7 +7,7 @@ old-location: com\imalloc_realloc.htm
 old-project: com
 ms.assetid: 37de166a-04a5-4a10-83b3-dd19d0bb48a4
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IMalloc, IMalloc interface [COM], Realloc method, IMalloc::Realloc, Realloc method [COM], Realloc method [COM], IMalloc interface, Realloc,IMalloc.Realloc, _com_imalloc_realloc, com.imalloc_realloc, objidlbase/IMalloc::Realloc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMalloc::Realloc method

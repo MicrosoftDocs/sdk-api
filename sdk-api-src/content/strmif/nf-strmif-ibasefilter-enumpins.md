@@ -7,7 +7,7 @@ old-location: dshow\ibasefilter_enumpins.htm
 old-project: DirectShow
 ms.assetid: 02675c93-7901-40f6-a9fc-f6f13f56acca
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: EnumPins method [DirectShow], EnumPins method [DirectShow], IBaseFilter interface, EnumPins,IBaseFilter.EnumPins, IBaseFilter, IBaseFilter interface [DirectShow], EnumPins method, IBaseFilter::EnumPins, IBaseFilterEnumPins, dshow.ibasefilter_enumpins, strmif/IBaseFilter::EnumPins
 ms.prod: windows-hardware
 ms.technology: windows-devices

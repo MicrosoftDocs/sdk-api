@@ -7,7 +7,7 @@ old-location: cos\icrmmonitorclerks_activityid.htm
 old-project: cossdk
 ms.assetid: 19a242a6-ce21-4ce5-984e-cc2220476e2b
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: ActivityId method [COM+], ActivityId method [COM+], ICrmMonitorClerks interface, ActivityId,ICrmMonitorClerks.ActivityId, ICrmMonitorClerks, ICrmMonitorClerks interface [COM+], ActivityId method, ICrmMonitorClerks::ActivityId, _dtc_ICrmMonitorClerks_ActivityId, comsvcs/ICrmMonitorClerks::ActivityId, cos.icrmmonitorclerks_activityid
 ms.prod: windows-hardware
 ms.technology: windows-devices

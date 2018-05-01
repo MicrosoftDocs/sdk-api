@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiomidrange.htm
 old-project: CoreAudio
 ms.assetid: d2d93dba-1867-4c3a-9cd1-60842bf8311d
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: IAudioMidrange, IAudioMidrange interface [Core Audio], IAudioMidrange interface [Core Audio], described, coreaudio.iaudiomidrange, devicetopology/IAudioMidrange
 ms.prod: windows-hardware
 ms.technology: windows-devices

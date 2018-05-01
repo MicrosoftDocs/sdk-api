@@ -7,7 +7,7 @@ old-location: wmp\iwmpmediacollection_getattributestringcollection.htm
 old-project: WMP
 ms.assetid: c3699acb-58a1-4efa-a42c-c84534abca96
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPMediaCollection, IWMPMediaCollection interface [Windows Media Player], getAttributeStringCollection method, IWMPMediaCollection::getAttributeStringCollection, IWMPMediaCollectiongetAttributeStringCollection, getAttributeStringCollection method [Windows Media Player], getAttributeStringCollection method [Windows Media Player], IWMPMediaCollection interface, getAttributeStringCollection,IWMPMediaCollection.getAttributeStringCollection, wmp.iwmpmediacollection_getattributestringcollection, wmp/IWMPMediaCollection::getAttributeStringCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices

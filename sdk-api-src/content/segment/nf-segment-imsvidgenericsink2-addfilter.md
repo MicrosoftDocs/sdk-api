@@ -7,7 +7,7 @@ old-location: mstv\imsvidgenericsink2_addfilter.htm
 old-project: mstv
 ms.assetid: b0044995-5bca-4f49-a22b-00df8f73b47f
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: AddFilter method [Microsoft TV Technologies], AddFilter method [Microsoft TV Technologies], IMSVidGenericSink2 interface, AddFilter,IMSVidGenericSink2.AddFilter, IMSVidGenericSink2, IMSVidGenericSink2 interface [Microsoft TV Technologies], AddFilter method, IMSVidGenericSink2::AddFilter, IMSVidGenericSink2AddFilter, mstv.imsvidgenericsink2_addfilter, segment/IMSVidGenericSink2::AddFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidGenericSink2::AddFilter method

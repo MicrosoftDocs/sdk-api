@@ -7,7 +7,7 @@ old-location: shell\IUserNotificationCallback_OnContextMenu.htm
 old-project: shell
 ms.assetid: eb0b1de0-a42c-4789-aac0-885a574f89f6
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IUserNotificationCallback, IUserNotificationCallback interface [Windows Shell], OnContextMenu method, IUserNotificationCallback::OnContextMenu, OnContextMenu method [Windows Shell], OnContextMenu method [Windows Shell], IUserNotificationCallback interface, OnContextMenu,IUserNotificationCallback.OnContextMenu, _shell_IUserNotificationCallback_OnContextMenu, shell.IUserNotificationCallback_OnContextMenu, shobjidl/IUserNotificationCallback::OnContextMenu
 ms.prod: windows-hardware
 ms.technology: windows-devices

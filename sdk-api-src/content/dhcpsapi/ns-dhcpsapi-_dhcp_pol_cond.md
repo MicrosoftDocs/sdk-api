@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_pol_cond.htm
 old-project: DHCP
 ms.assetid: 99A36029-1CBD-4A93-B25A-A0239D1C08D7
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/7/2018
 ms.keywords: "*LPDHCP_POL_COND, *PDHCP_POL_COND, DHCP_POL_COND, DHCP_POL_COND structure [DHCP], LPDHCP_POL_COND, LPDHCP_POL_COND structure pointer [DHCP], PDHCP_POL_COND, PDHCP_POL_COND structure pointer [DHCP], _DHCP_POL_COND, dhcp.dhcp_pol_cond, dhcpsapi/DHCP_POL_COND, dhcpsapi/LPDHCP_POL_COND, dhcpsapi/PDHCP_POL_COND"
 ms.prod: windows-hardware
 ms.technology: windows-devices

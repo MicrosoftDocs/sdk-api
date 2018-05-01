@@ -7,7 +7,7 @@ old-location: security\certgetsubjectcertificatefromstore.htm
 old-project: SecCrypto
 ms.assetid: 61d73501-91b1-4498-b1a3-17392360c700
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: CertGetSubjectCertificateFromStore, CertGetSubjectCertificateFromStore function [Security], _crypto2_certgetsubjectcertificatefromstore, security.certgetsubjectcertificatefromstore, wincrypt/CertGetSubjectCertificateFromStore
 ms.prod: windows-hardware
 ms.technology: windows-devices

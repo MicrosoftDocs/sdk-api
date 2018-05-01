@@ -7,7 +7,7 @@ old-location: fwp\fwpmprovidercontextenum1_func.htm
 old-project: FWP
 ms.assetid: 97a6e562-0423-438d-ab21-48c0f0830610
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: FwpmProviderContextEnum1, FwpmProviderContextEnum1 function [Filtering], fwp.fwpmprovidercontextenum1_func, fwpmu/FwpmProviderContextEnum1
 ms.prod: windows-hardware
 ms.technology: windows-devices

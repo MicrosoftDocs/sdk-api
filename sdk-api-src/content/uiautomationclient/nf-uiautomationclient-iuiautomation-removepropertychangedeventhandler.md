@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomation_RemovePropertyChangedEventHandler.htm
 old-project: WinAuto
 ms.assetid: d8f7600f-a33e-4f30-ae8e-423f9c71edbe
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: IUIAutomation, IUIAutomation interface [Windows Accessibility], RemovePropertyChangedEventHandler method, IUIAutomation::RemovePropertyChangedEventHandler, RemovePropertyChangedEventHandler method [Windows Accessibility], RemovePropertyChangedEventHandler method [Windows Accessibility], IUIAutomation interface, RemovePropertyChangedEventHandler,IUIAutomation.RemovePropertyChangedEventHandler, uiauto.uiauto_IUIAutomation_RemovePropertyChangedEventHandler, uiauto_IUIAutomation_RemovePropertyChangedEventHandler, uiautomationclient/IUIAutomation::RemovePropertyChangedEventHandler, winauto.uiauto_IUIAutomation_RemovePropertyChangedEventHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices

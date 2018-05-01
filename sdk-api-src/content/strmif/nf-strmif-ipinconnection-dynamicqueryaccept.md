@@ -7,7 +7,7 @@ old-location: dshow\ipinconnection_dynamicqueryaccept.htm
 old-project: DirectShow
 ms.assetid: 86a4f18c-4bd0-45d2-bb5a-b0f41cd0ab43
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: DynamicQueryAccept method [DirectShow], DynamicQueryAccept method [DirectShow], IPinConnection interface, DynamicQueryAccept,IPinConnection.DynamicQueryAccept, IPinConnection, IPinConnection interface [DirectShow], DynamicQueryAccept method, IPinConnection::DynamicQueryAccept, IPinConnectionDynamicQueryAccept, dshow.ipinconnection_dynamicqueryaccept, strmif/IPinConnection::DynamicQueryAccept
 ms.prod: windows-hardware
 ms.technology: windows-devices

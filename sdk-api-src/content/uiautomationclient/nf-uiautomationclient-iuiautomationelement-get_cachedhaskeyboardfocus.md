@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement_CachedHasKeyboardFocus.htm
 old-project: WinAuto
 ms.assetid: 89c69ac7-4b2e-44a4-a516-0403448c61b4
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: CachedHasKeyboardFocus property [Windows Accessibility], CachedHasKeyboardFocus property [Windows Accessibility], IUIAutomationElement interface, IUIAutomationElement, IUIAutomationElement interface [Windows Accessibility], CachedHasKeyboardFocus property, IUIAutomationElement.CachedHasKeyboardFocus, IUIAutomationElement::get_CachedHasKeyboardFocus, get_CachedHasKeyboardFocus,IUIAutomationElement.get_CachedHasKeyboardFocus, uiauto.uiauto_IUIAutomationElement_CachedHasKeyboardFocus, uiauto_IUIAutomationElement_CachedHasKeyboardFocus, uiautomationclient/IUIAutomationElement::CachedHasKeyboardFocus, uiautomationclient/IUIAutomationElement::get_CachedHasKeyboardFocus, winauto.uiauto_IUIAutomationElement_CachedHasKeyboardFocus
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: com\idataobject_setdata.htm
 old-project: com
 ms.assetid: 7430d12c-ab07-4a9c-a845-4743818afbc7
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IDataObject, IDataObject interface [COM], SetData method, IDataObject::SetData, SetData method [COM], SetData method [COM], IDataObject interface, SetData,IDataObject.SetData, _ole_idataobject_setdata, com.idataobject_setdata, objidl/IDataObject::SetData
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IDataObject::SetData method

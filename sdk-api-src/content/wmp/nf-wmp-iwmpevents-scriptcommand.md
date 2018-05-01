@@ -7,7 +7,7 @@ old-location: wmp\iwmpevents_iwmpevents__scriptcommand.htm
 old-project: WMP
 ms.assetid: 1010961f-6d06-455a-9c14-bc06702e9e89
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPEvents, IWMPEvents interface [Windows Media Player], ScriptCommand method, IWMPEvents::ScriptCommand, IWMPEventsScriptCommand, ScriptCommand method [Windows Media Player], ScriptCommand method [Windows Media Player], IWMPEvents interface, ScriptCommand,IWMPEvents.ScriptCommand, wmp.iwmpevents_iwmpevents__scriptcommand, wmp/IWMPEvents::ScriptCommand
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tapi2\linegetqueuelist.htm
 old-project: Tapi
 ms.assetid: 3921ab24-c9c8-4068-a885-e55759f04076
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: "_tapi2_linegetqueuelist, lineGetQueueList, lineGetQueueList function [TAPI 2.2], lineGetQueueListA, lineGetQueueListW, tapi/lineGetQueueList, tapi/lineGetQueueListA, tapi/lineGetQueueListW, tapi2.linegetqueuelist"
 ms.prod: windows-hardware
 ms.technology: windows-devices

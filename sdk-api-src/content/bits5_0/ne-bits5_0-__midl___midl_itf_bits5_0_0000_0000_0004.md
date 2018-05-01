@@ -7,7 +7,7 @@ old-location: bits\bits_file_property_id.htm
 old-project: Bits
 ms.assetid: A14E301E-029E-43C8-B012-8FFFA652EA40
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/10/2018
 ms.keywords: BITS_FILE_PROPERTY_ID, BITS_FILE_PROPERTY_ID enumeration [BITS], BITS_FILE_PROPERTY_ID_HTTP_RESPONSE_HEADERS, __MIDL___MIDL_itf_bits5_0_0000_0000_0004, bits.bits_file_property_id, bits5_0/BITS_FILE_PROPERTY_ID, bits5_0/BITS_FILE_PROPERTY_ID_HTTP_RESPONSE_HEADERS
 ms.prod: windows-hardware
 ms.technology: windows-devices

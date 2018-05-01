@@ -7,7 +7,7 @@ old-location: tapi3\ienumdialableaddrs_next.htm
 old-project: Tapi
 ms.assetid: 78ebe1d3-3c40-4ba4-97f0-8612775c80f0
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: IEnumDialableAddrs, IEnumDialableAddrs interface [TAPI 2.2], Next method, IEnumDialableAddrs::Next, Next method [TAPI 2.2], Next method [TAPI 2.2], IEnumDialableAddrs interface, Next,IEnumDialableAddrs.Next, _tapi3_ienumdialableaddrs_next, rend/IEnumDialableAddrs::Next, tapi3.ienumdialableaddrs_next
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Rend.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IEnumDialableAddrs::Next method

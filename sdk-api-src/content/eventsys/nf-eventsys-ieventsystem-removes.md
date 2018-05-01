@@ -7,7 +7,7 @@ old-location: cos\ieventsystem_removes.htm
 old-project: cossdk
 ms.assetid: 6c3d2972-bfc4-43f2-a131-f3b3010a3c91
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: IEventSystem, IEventSystem interface [COM+], RemoveS method, IEventSystem::RemoveS, RemoveS method [COM+], RemoveS method [COM+], IEventSystem interface, RemoveS,IEventSystem.RemoveS, _cos_IEventSystem_RemoveS, cos.ieventsystem_removes, eventsys/IEventSystem::RemoveS
 ms.prod: windows-hardware
 ms.technology: windows-devices

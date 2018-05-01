@@ -7,7 +7,7 @@ old-location: mf\imfworkqueueservices_beginunregisterplatformworkqueuewithmmcss.
 old-project: medfound
 ms.assetid: e15c6ff9-b72e-4e5d-a738-6bef08782e1b
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: BeginUnregisterPlatformWorkQueueWithMMCSS method [Media Foundation], BeginUnregisterPlatformWorkQueueWithMMCSS method [Media Foundation], IMFWorkQueueServices interface, BeginUnregisterPlatformWorkQueueWithMMCSS,IMFWorkQueueServices.BeginUnregisterPlatformWorkQueueWithMMCSS, IMFWorkQueueServices, IMFWorkQueueServices interface [Media Foundation], BeginUnregisterPlatformWorkQueueWithMMCSS method, IMFWorkQueueServices::BeginUnregisterPlatformWorkQueueWithMMCSS, e15c6ff9-b72e-4e5d-a738-6bef08782e1b, mf.imfworkqueueservices_beginunregisterplatformworkqueuewithmmcss, mfidl/IMFWorkQueueServices::BeginUnregisterPlatformWorkQueueWithMMCSS
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: rpc\cstdstubbuffer_debugserverqueryinterface.htm
 old-project: Rpc
 ms.assetid: 25c7f71a-7d47-4ea1-9bd0-001a1a01529d
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: CStdStubBuffer_DebugServerQueryInterface, CStdStubBuffer_DebugServerQueryInterface function [RPC], rpc.cstdstubbuffer_debugserverqueryinterface, rpcproxy/CStdStubBuffer_DebugServerQueryInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: RpcRT4.lib
 req.dll: RpcRT4.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # CStdStubBuffer_DebugServerQueryInterface function

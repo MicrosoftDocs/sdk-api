@@ -7,7 +7,7 @@ old-location: mf\imftopologyservicelookup_lookupservice.htm
 old-project: medfound
 ms.assetid: ba0dbfdf-1bab-42ba-910f-04a3f37be955
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFTopologyServiceLookup, IMFTopologyServiceLookup interface [Media Foundation], LookupService method, IMFTopologyServiceLookup::LookupService, LookupService method [Media Foundation], LookupService method [Media Foundation], IMFTopologyServiceLookup interface, LookupService,IMFTopologyServiceLookup.LookupService, ba0dbfdf-1bab-42ba-910f-04a3f37be955, evr/IMFTopologyServiceLookup::LookupService, mf.imftopologyservicelookup_lookupservice
 ms.prod: windows-hardware
 ms.technology: windows-devices

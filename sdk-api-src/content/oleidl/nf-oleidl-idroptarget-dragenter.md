@@ -7,7 +7,7 @@ old-location: com\idroptarget_dragenter.htm
 old-project: com
 ms.assetid: 2e4d7013-910c-4a6e-8eee-818e1f2302ac
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: DragEnter method [COM], DragEnter method [COM], IDropTarget interface, DragEnter,IDropTarget.DragEnter, IDropTarget, IDropTarget interface [COM], DragEnter method, IDropTarget::DragEnter, _ole_idroptarget_dragenter, com.idroptarget_dragenter, oleidl/IDropTarget::DragEnter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IDropTarget::DragEnter method

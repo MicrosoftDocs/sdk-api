@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext_gssetsamplers.htm
 old-project: direct3d11
 ms.assetid: 8e624e36-692e-4710-a267-05b73a089cd9
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/6/2018
 ms.keywords: 87e3b7dd-7f6c-9d28-cac9-47363e4c5207, GSSetSamplers method [Direct3D 11], GSSetSamplers method [Direct3D 11], ID3D11DeviceContext interface, GSSetSamplers,ID3D11DeviceContext.GSSetSamplers, ID3D11DeviceContext, ID3D11DeviceContext interface [Direct3D 11], GSSetSamplers method, ID3D11DeviceContext::GSSetSamplers, d3d11/ID3D11DeviceContext::GSSetSamplers, direct3d11.id3d11devicecontext_gssetsamplers
 ms.prod: windows-hardware
 ms.technology: windows-devices

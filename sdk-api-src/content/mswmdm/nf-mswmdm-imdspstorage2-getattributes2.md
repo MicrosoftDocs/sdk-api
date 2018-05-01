@@ -7,7 +7,7 @@ old-location: wmdm\imdspstorage2_getattributes2.htm
 old-project: WMDM
 ms.assetid: 2db30715-cd49-4e55-b0d0-73ac531f8661
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: GetAttributes2 method [windows Media Device Manager], GetAttributes2 method [windows Media Device Manager], IMDSPStorage2 interface, GetAttributes2,IMDSPStorage2.GetAttributes2, IMDSPStorage2, IMDSPStorage2 interface [windows Media Device Manager], GetAttributes2 method, IMDSPStorage2::GetAttributes2, IMDSPStorage2GetAttributes2, mswmdm/IMDSPStorage2::GetAttributes2, wmdm.imdspstorage2_getattributes2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMDSPStorage2::GetAttributes2 method

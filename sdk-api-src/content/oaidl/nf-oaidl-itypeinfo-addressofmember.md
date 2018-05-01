@@ -7,7 +7,7 @@ old-location: automat\itypeinfo_addressofmember.htm
 old-project: automat
 ms.assetid: cf351457-13ff-4e40-9d92-89c6db42627c
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: AddressOfMember method [Automation], AddressOfMember method [Automation], ITypeInfo interface, AddressOfMember,ITypeInfo.AddressOfMember, ITypeInfo, ITypeInfo interface [Automation], AddressOfMember method, ITypeInfo::AddressOfMember, _oa96_ITypeInfo_AddressOfMember, automat.itypeinfo_addressofmember, oaidl/ITypeInfo::AddressOfMember
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITypeInfo::AddressOfMember method

@@ -60,31 +60,6 @@ Contains the value of an option.
 
 
 
-### -field Value
-
-Union that contains the value for the option. It can be any one of the following types depending on the value of 
-<b>dwOption</b>:
-
-
-
-#### dwValue
-
-Unsigned long integer value.
-
-
-
-#### pszValue
-
-Pointer to a string value.
-
-
-
-#### ftValue
-
-A 
-<a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure.
-
-
 ### -field dwOption
 
 Option to be queried or set. This member can be one of the following values. 
@@ -300,6 +275,31 @@ The connection automatically detects settings.
 </tr>
 </table>
  
+
+
+### -field Value
+
+Union that contains the value for the option. It can be any one of the following types depending on the value of 
+<b>dwOption</b>:
+
+
+
+#### dwValue
+
+Unsigned long integer value.
+
+
+
+#### pszValue
+
+Pointer to a string value.
+
+
+
+#### ftValue
+
+A 
+<a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure.
 
 
 ## -remarks

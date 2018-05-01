@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_wicpngbkgdproperties.htm
 old-project: wic
 ms.assetid: 979f6a91-79a2-4eba-8957-e2908636cdc5
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: WICPngBkgdBackgroundColor, WICPngBkgdProperties, WICPngBkgdProperties enumeration [Windows Imaging Component], _wic_codec_wicpngbkgdproperties, wic._wic_codec_wicpngbkgdproperties, wincodec/WICPngBkgdBackgroundColor, wincodec/WICPngBkgdProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

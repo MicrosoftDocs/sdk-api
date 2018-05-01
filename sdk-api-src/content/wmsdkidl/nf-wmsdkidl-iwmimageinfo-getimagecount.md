@@ -7,7 +7,7 @@ old-location: wmformat\iwmimageinfo_getimagecount.htm
 old-project: wmformat
 ms.assetid: 95cf5906-9cbc-4bba-8892-236672cf4068
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: GetImageCount method [windows Media Format], GetImageCount method [windows Media Format], IWMImageInfo interface, GetImageCount,IWMImageInfo.GetImageCount, IWMImageInfo, IWMImageInfo interface [windows Media Format], GetImageCount method, IWMImageInfo::GetImageCount, IWMImageInfoGetImageCount, wmformat.iwmimageinfo_getimagecount, wmsdkidl/IWMImageInfo::GetImageCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

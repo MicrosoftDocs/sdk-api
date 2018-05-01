@@ -7,7 +7,7 @@ old-location: base\commconfig_str.htm
 old-project: DevIO
 ms.assetid: 9fd66f39-06a2-4159-9d1e-4ba84570c510
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/3/2018
 ms.keywords: "*LPCOMMCONFIG, COMMCONFIG, COMMCONFIG structure, LPCOMMCONFIG, LPCOMMCONFIG structure pointer, _COMMCONFIG, _win32_commconfig_str, base.commconfig_str, winbase/COMMCONFIG, winbase/LPCOMMCONFIG"
 ms.prod: windows-hardware
 ms.technology: windows-devices

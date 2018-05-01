@@ -7,7 +7,7 @@ old-location: com\ipipebyte_pull.htm
 old-project: com
 ms.assetid: 07d4d4cd-de41-41bc-af71-ff12affcbbbe
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IPipeByte, IPipeByte interface [COM], Pull method, IPipeByte::Pull, Pull method [COM], Pull method [COM], IPipeByte interface, Pull,IPipeByte.Pull, _com_ipipebyte_pull, com.ipipebyte_pull, objidlbase/IPipeByte::Pull
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IPipeByte::Pull method

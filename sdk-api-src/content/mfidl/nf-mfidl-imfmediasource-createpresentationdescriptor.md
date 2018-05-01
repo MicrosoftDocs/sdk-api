@@ -7,7 +7,7 @@ old-location: mf\imfmediasource_createpresentationdescriptor.htm
 old-project: medfound
 ms.assetid: b6ac50b7-3ef1-43cf-8126-d9a003ebd825
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: CreatePresentationDescriptor method [Media Foundation], CreatePresentationDescriptor method [Media Foundation], IMFMediaSource interface, CreatePresentationDescriptor,IMFMediaSource.CreatePresentationDescriptor, IMFMediaSource, IMFMediaSource interface [Media Foundation], CreatePresentationDescriptor method, IMFMediaSource::CreatePresentationDescriptor, b6ac50b7-3ef1-43cf-8126-d9a003ebd825, mf.imfmediasource_createpresentationdescriptor, mfidl/IMFMediaSource::CreatePresentationDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices

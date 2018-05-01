@@ -7,7 +7,7 @@ old-location: tapi3\itdetecttone_put_duration.htm
 old-project: Tapi
 ms.assetid: a64181ca-e8d6-48fc-89ef-b91268b709aa
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: ITDetectTone, ITDetectTone interface [TAPI 2.2], put_Duration method, ITDetectTone::put_Duration, _tapi3_itdetecttone_put_duration, put_Duration method [TAPI 2.2], put_Duration method [TAPI 2.2], ITDetectTone interface, put_Duration,ITDetectTone.put_Duration, tapi3.itdetecttone_put_duration, tapi3if/ITDetectTone::put_Duration
 ms.prod: windows-hardware
 ms.technology: windows-devices

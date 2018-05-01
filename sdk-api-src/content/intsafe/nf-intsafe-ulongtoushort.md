@@ -2,13 +2,13 @@
 UID: NF:intsafe.ULongToUShort
 title: ULongToUShort function
 author: windows-driver-content
-description: Converts a value of type ULONG to a value of type USHORT.
-old-location: shell\ULongToUShort.htm
+description: Converts a value of type DWORD to a value of type WORD.
+old-location: shell\DWordToWord.htm
 old-project: shell
-ms.assetid: 83fea16a-f9af-4c39-87b2-4f2eb69130d9
+ms.assetid: 677ecdbc-197e-461e-aeab-5c73662fbf16
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
-ms.keywords: ULongToUShort, ULongToUShort function [Windows Shell], _shell_ULongToUShort, intsafe/ULongToUShort, shell.ULongToUShort
+ms.date: 4/26/2018
+ms.keywords: DWordToWord, DWordToWord function [Windows Shell], ULongToUShort, _shell_DWordToWord, intsafe/DWordToWord, shell.DWordToWord
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -31,15 +31,15 @@ topic_type:
 -	APIRef
 -	kbSyntax
 api_type:
--	HeaderDef
+-	DllExport
 api_location:
--	Intsafe.h
+-	None
 api_name:
--	ULongToUShort
+-	DWordToWord
 product: Windows
 targetos: Windows
 req.lib: 
-req.dll: 
+req.dll: None
 req.irql: 
 req.product: GDI+ 1.1
 ---
@@ -50,7 +50,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Converts a value of type <b>ULONG</b> to a value of type <b>USHORT</b>.
+Converts a value of type <b>DWORD</b> to a value of type <b>WORD</b>.
 
 
 ## -parameters
@@ -58,16 +58,28 @@ Converts a value of type <b>ULONG</b> to a value of type <b>USHORT</b>.
 
 
 
-### -param ulOperand [in]
+### -param ulOperand
 
-Type: <b>ULONG</b>
+TBD
+
+
+### -param pusResult
+
+TBD
+
+
+
+
+#### - dwOperand [in]
+
+Type: <b>DWORD</b>
 
 The value to be converted.
 
 
-### -param pusResult [out]
+#### - pwResult [out]
 
-Type: <b>USHORT*</b>
+Type: <b>WORD*</b>
 
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns INTSAFE_E_ARITHMETIC_OVERFLOW and this parameter is not valid.
 

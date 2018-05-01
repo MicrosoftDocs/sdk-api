@@ -7,7 +7,7 @@ old-location: shell\INameSpaceTreeControlDropHandler_OnDragEnter.htm
 old-project: shell
 ms.assetid: b9a87024-d62e-4006-a716-c1461d9c9ffe
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: INameSpaceTreeControlDropHandler, INameSpaceTreeControlDropHandler interface [Windows Shell], OnDragEnter method, INameSpaceTreeControlDropHandler::OnDragEnter, OnDragEnter method [Windows Shell], OnDragEnter method [Windows Shell], INameSpaceTreeControlDropHandler interface, OnDragEnter,INameSpaceTreeControlDropHandler.OnDragEnter, _shell_INameSpaceTreeControlDropHandler_OnDragEnter, shell.INameSpaceTreeControlDropHandler_OnDragEnter, shobjidl/INameSpaceTreeControlDropHandler::OnDragEnter
 ms.prod: windows-hardware
 ms.technology: windows-devices

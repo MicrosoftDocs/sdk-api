@@ -7,7 +7,7 @@ old-location: base\jobobject_limit_violation_information_2.htm
 old-project: ProcThread
 ms.assetid: B474F74E-B64B-4681-A235-C2DE317BFE0E
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: JOBOBJECT_LIMIT_VIOLATION_INFORMATION_2, JOBOBJECT_LIMIT_VIOLATION_INFORMATION_2 structure, JOB_OBJECT_LIMIT_CPU_RATE_CONTROL, JOB_OBJECT_LIMIT_IO_RATE_CONTROL, JOB_OBJECT_LIMIT_JOB_MEMORY_HIGH, JOB_OBJECT_LIMIT_JOB_MEMORY_LOW, JOB_OBJECT_LIMIT_JOB_READ_BYTES, JOB_OBJECT_LIMIT_JOB_TIME, JOB_OBJECT_LIMIT_JOB_WRITE_BYTES, JOB_OBJECT_LIMIT_NET_RATE_CONTROL, JOB_OBJECT_LIMIT_RATE_CONTROL, JOB_OBJECT_LIMIT_READ_BYTES, JOB_OBJECT_LIMIT_WRITE_BYTES, ToleranceHigh, ToleranceLow, ToleranceMedium, base.jobobject_limit_violation_information_2, winnt/JOBOBJECT_LIMIT_VIOLATION_INFORMATION_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -56,21 +56,6 @@ Contains extended information about resource notification limits that have been 
 ## -struct-fields
 
 
-
-
-### -field DUMMYUNIONNAME
-
- 
-
-
-### -field DUMMYUNIONNAME2
-
- 
-
-
-### -field DUMMYUNIONNAME3
-
- 
 
 
 ### -field LimitFlags
@@ -330,6 +315,21 @@ If the <b>LimitFlags</b> member specifies <b>JOB_OBJECT_LIMIT_JOB_TIME</b>, this
 ### -field JobMemory
 
 If the <b>ViolationLimitFlags</b> member specifies <b>JOB_OBJECT_LIMIT_JOB_MEMORY_HIGH</b> or <b>JOB_OBJECT_LIMIT_JOB_MEMORY_LOW</b>, this member contains the committed memory for all processes in the job at the time the notification was sent.
+
+
+### -field DUMMYUNIONNAME
+
+ 
+
+
+### -field DUMMYUNIONNAME2
+
+ 
+
+
+### -field DUMMYUNIONNAME3
+
+ 
 
 
 ### -field JobLowMemoryLimit

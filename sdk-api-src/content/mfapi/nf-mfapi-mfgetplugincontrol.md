@@ -7,7 +7,7 @@ old-location: mf\mfgetplugincontrol.htm
 old-project: medfound
 ms.assetid: 68b25c68-806d-46c3-98f8-8f29d7c21471
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: MFGetPluginControl, MFGetPluginControl function [Media Foundation], mf.mfgetplugincontrol, mfapi/MFGetPluginControl
 ms.prod: windows-hardware
 ms.technology: windows-devices

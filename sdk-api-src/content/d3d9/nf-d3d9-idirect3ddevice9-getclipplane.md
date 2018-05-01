@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3ddevice9__getclipplane.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__getclipplane.htm
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/10/2018
 ms.keywords: 4ee4abff-6964-013c-ead5-e1d4da1fe84b, GetClipPlane method [Direct3D 9], GetClipPlane method [Direct3D 9], IDirect3DDevice9 interface, GetClipPlane,IDirect3DDevice9.GetClipPlane, IDirect3DDevice9, IDirect3DDevice9 interface [Direct3D 9], GetClipPlane method, IDirect3DDevice9::GetClipPlane, d3d9helper/IDirect3DDevice9::GetClipPlane, direct3d9.idirect3ddevice9__getclipplane
 ms.prod: windows-hardware
 ms.technology: windows-devices

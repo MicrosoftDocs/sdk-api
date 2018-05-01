@@ -7,7 +7,7 @@ old-location: controls\ITextServices_TxGetDropTarget.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txgetdroptarget.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextServices, ITextServices interface [Windows Controls], TxGetDropTarget method, ITextServices::TxGetDropTarget, TxGetDropTarget method [Windows Controls], TxGetDropTarget method [Windows Controls], ITextServices interface, TxGetDropTarget,ITextServices.TxGetDropTarget, _win32_ITextServices_TxGetDropTarget, _win32_ITextServices_TxGetDropTarget_cpp, controls.ITextServices_TxGetDropTarget, controls._win32_ITextServices_TxGetDropTarget, textserv/ITextServices::TxGetDropTarget
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: properties\IPropertyDescription_GetAggregationType.htm
 old-project: properties
 ms.assetid: d8507f19-1778-42b1-bd40-12fec45cd03e
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/5/2018
 ms.keywords: GetAggregationType method [Windows Properties], GetAggregationType method [Windows Properties], IPropertyDescription interface, GetAggregationType,IPropertyDescription.GetAggregationType, IPropertyDescription, IPropertyDescription interface [Windows Properties], GetAggregationType method, IPropertyDescription::GetAggregationType, properties.IPropertyDescription_GetAggregationType, propsys/IPropertyDescription::GetAggregationType, shell.IPropertyDescription_GetAggregationType, shell_IPropertyDescription_GetAggregationType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IPropertyDescription::GetAggregationType method

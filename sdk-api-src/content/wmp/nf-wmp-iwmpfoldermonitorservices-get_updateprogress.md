@@ -7,7 +7,7 @@ old-location: wmp\iwmpfoldermonitorservices_get_updateprogress.htm
 old-project: WMP
 ms.assetid: 60a612d2-8675-456f-b428-ddfd0b73fd83
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPFolderMonitorServices, IWMPFolderMonitorServices interface [Windows Media Player], get_updateProgress method, IWMPFolderMonitorServices::get_updateProgress, IWMPFolderMonitorServicesget_updateProgress, get_updateProgress method [Windows Media Player], get_updateProgress method [Windows Media Player], IWMPFolderMonitorServices interface, get_updateProgress,IWMPFolderMonitorServices.get_updateProgress, wmp.iwmpfoldermonitorservices_get_updateprogress, wmp/IWMPFolderMonitorServices::get_updateProgress
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tablet\iinkdivisionunits_item.htm
 old-project: tablet
 ms.assetid: 332a9365-526e-43df-841f-20eed07762e7
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: 332a9365-526e-43df-841f-20eed07762e7, IInkDivisionUnits, IInkDivisionUnits interface [Tablet PC], Item method, IInkDivisionUnits::Item, Item method [Tablet PC], Item method [Tablet PC], IInkDivisionUnits interface, Item,IInkDivisionUnits.Item, msinkaut15/IInkDivisionUnits::Item, tablet.iinkdivisionunits_item
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\algorithmflags_enum.htm
 old-project: SecCertEnroll
 ms.assetid: 0f067687-ae92-4500-af19-80f537620bb9
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: AlgorithmFlags, AlgorithmFlags enumeration [Security], AlgorithmFlagsNone, AlgorithmFlagsWrap, certenroll/AlgorithmFlags, certenroll/AlgorithmFlagsNone, certenroll/AlgorithmFlagsWrap, security.algorithmflags_enum
 ms.prod: windows-hardware
 ms.technology: windows-devices

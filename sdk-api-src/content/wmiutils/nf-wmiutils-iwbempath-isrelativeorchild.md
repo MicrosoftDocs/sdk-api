@@ -7,7 +7,7 @@ old-location: wmi\iwbempath_isrelativeorchild.htm
 old-project: WmiSdk
 ms.assetid: 95ba21af-3a43-4aa9-ab5b-90712e9cbed1
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: IWbemPath, IWbemPath interface [Windows Management Instrumentation], IsRelativeOrChild method, IWbemPath::IsRelativeOrChild, IsRelativeOrChild method [Windows Management Instrumentation], IsRelativeOrChild method [Windows Management Instrumentation], IWbemPath interface, IsRelativeOrChild,IWbemPath.IsRelativeOrChild, _hmm_iwbempath_isrelativeorchild, wmi.iwbempath_isrelativeorchild, wmiutils/IWbemPath::IsRelativeOrChild
 ms.prod: windows-hardware
 ms.technology: windows-devices

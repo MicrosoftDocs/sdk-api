@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrSyncItemInfo_GetComment.htm
 old-project: shell
 ms.assetid: 3959784b-2926-43fd-b8e5-bb1884e5d321
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetComment method [Windows Shell], GetComment method [Windows Shell], ISyncMgrSyncItemInfo interface, GetComment,ISyncMgrSyncItemInfo.GetComment, ISyncMgrSyncItemInfo, ISyncMgrSyncItemInfo interface [Windows Shell], GetComment method, ISyncMgrSyncItemInfo::GetComment, _shell_ISyncMgrSyncItemInfo_GetComment, shell.ISyncMgrSyncItemInfo_GetComment, syncmgr/ISyncMgrSyncItemInfo::GetComment
 ms.prod: windows-hardware
 ms.technology: windows-devices

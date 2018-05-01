@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationOrCondition_ChildCount.htm
 old-project: WinAuto
 ms.assetid: 2dce4d7d-73c4-4882-953e-c7bbf1c1c0e7
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: ChildCount property [Windows Accessibility], ChildCount property [Windows Accessibility], IUIAutomationOrCondition interface, IUIAutomationOrCondition, IUIAutomationOrCondition interface [Windows Accessibility], ChildCount property, IUIAutomationOrCondition.ChildCount, IUIAutomationOrCondition::get_ChildCount, get_ChildCount,IUIAutomationOrCondition.get_ChildCount, uiauto.uiauto_IUIAutomationOrCondition_ChildCount, uiauto_IUIAutomationOrCondition_ChildCount, uiautomationclient/IUIAutomationOrCondition::ChildCount, uiautomationclient/IUIAutomationOrCondition::get_ChildCount, winauto.uiauto_IUIAutomationOrCondition_ChildCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

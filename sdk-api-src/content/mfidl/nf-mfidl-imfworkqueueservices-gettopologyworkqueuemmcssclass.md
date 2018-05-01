@@ -7,7 +7,7 @@ old-location: mf\imfworkqueueservices_gettopologyworkqueuemmcssclass.htm
 old-project: medfound
 ms.assetid: e815bde7-e17e-4616-8a3f-688f357e8009
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetTopologyWorkQueueMMCSSClass method [Media Foundation], GetTopologyWorkQueueMMCSSClass method [Media Foundation], IMFWorkQueueServices interface, GetTopologyWorkQueueMMCSSClass,IMFWorkQueueServices.GetTopologyWorkQueueMMCSSClass, IMFWorkQueueServices, IMFWorkQueueServices interface [Media Foundation], GetTopologyWorkQueueMMCSSClass method, IMFWorkQueueServices::GetTopologyWorkQueueMMCSSClass, e815bde7-e17e-4616-8a3f-688f357e8009, mf.imfworkqueueservices_gettopologyworkqueuemmcssclass, mfidl/IMFWorkQueueServices::GetTopologyWorkQueueMMCSSClass
 ms.prod: windows-hardware
 ms.technology: windows-devices

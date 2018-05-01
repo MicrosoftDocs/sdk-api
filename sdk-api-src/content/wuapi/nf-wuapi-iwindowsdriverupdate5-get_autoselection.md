@@ -7,7 +7,7 @@ old-location: wua\iwindowsdriverupdate5_autoselection.htm
 old-project: Wua_Sdk
 ms.assetid: 23b7c124-5cb9-4a2d-9f85-d015cfa980ad
 ms.author: windowsdriverdev
-ms.date: 3/15/2018
+ms.date: 4/18/2018
 ms.keywords: AutoSelection property [Windows Update Agent], AutoSelection property [Windows Update Agent], IWindowsDriverUpdate5 interface, IWindowsDriverUpdate5, IWindowsDriverUpdate5 interface [Windows Update Agent], AutoSelection property, IWindowsDriverUpdate5.AutoSelection, IWindowsDriverUpdate5::get_AutoSelection, get_AutoSelection,IWindowsDriverUpdate5.get_AutoSelection, wua.iwindowsdriverupdate5_autoselection, wuapi/IWindowsDriverUpdate5::AutoSelection, wuapi/IWindowsDriverUpdate5::get_AutoSelection
 ms.prod: windows-hardware
 ms.technology: windows-devices

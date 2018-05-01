@@ -7,7 +7,7 @@ old-location: mf\id3d11videoprocessorinputview.htm
 old-project: medfound
 ms.assetid: E76B9CBE-2584-4DBC-8EF4-E9DA105226B9
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: ID3D11VideoProcessorInputView, ID3D11VideoProcessorInputView interface [Media Foundation], ID3D11VideoProcessorInputView interface [Media Foundation], described, d3d11/ID3D11VideoProcessorInputView, mf.id3d11videoprocessorinputview
 ms.prod: windows-hardware
 ms.technology: windows-devices

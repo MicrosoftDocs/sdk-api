@@ -7,7 +7,7 @@ old-location: shell\citemidfactory_setitemalloc.htm
 old-project: shell
 ms.assetid: 3E2BAAD9-5C16-4ECF-BADB-16B355439BA5
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: CItemIDFactory, CItemIDFactory interface [Windows Shell], SetItemAlloc method, CItemIDFactory::SetItemAlloc, SetItemAlloc method [Windows Shell], SetItemAlloc method [Windows Shell], CItemIDFactory interface, SetItemAlloc,CItemIDFactory.SetItemAlloc, shell.citemidfactory_setitemalloc, shidfact/CItemIDFactory::SetItemAlloc
 ms.prod: windows-hardware
 ms.technology: windows-devices

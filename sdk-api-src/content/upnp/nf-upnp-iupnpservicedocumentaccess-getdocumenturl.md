@@ -7,7 +7,7 @@ old-location: upnp\iupnpservicedocumentaccess_getdocumenturl.htm
 old-project: UPnP
 ms.assetid: 57AF4510-89D6-4DD5-B164-1478A5C27E20
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/25/2018
 ms.keywords: GetDocumentURL method [UPnP APIs], GetDocumentURL method [UPnP APIs], IUPnPServiceDocumentAccess interface, GetDocumentURL,IUPnPServiceDocumentAccess.GetDocumentURL, IUPnPServiceDocumentAccess, IUPnPServiceDocumentAccess interface [UPnP APIs], GetDocumentURL method, IUPnPServiceDocumentAccess::GetDocumentURL, upnp.iupnpservicedocumentaccess_getdocumenturl, upnp/IUPnPServiceDocumentAccess::GetDocumentURL
 ms.prod: windows-hardware
 ms.technology: windows-devices

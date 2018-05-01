@@ -7,7 +7,7 @@ old-location: security\iocspcaconfiguration_signingcertificate_method.htm
 old-project: SecCrypto
 ms.assetid: 8635c9f0-3c70-4037-8633-7a3440aff6c8
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: IOCSPCAConfiguration, IOCSPCAConfiguration interface [Security], SigningCertificate property, IOCSPCAConfiguration.SigningCertificate, IOCSPCAConfiguration::get_SigningCertificate, IOCSPCAConfiguration::put_SigningCertificate, SigningCertificate property [Security], SigningCertificate property [Security], IOCSPCAConfiguration interface, certadm/IOCSPCAConfiguration::SigningCertificate, certadm/IOCSPCAConfiguration::get_SigningCertificate, certadm/IOCSPCAConfiguration::put_SigningCertificate, get_SigningCertificate,IOCSPCAConfiguration.get_SigningCertificate, security.iocspcaconfiguration_signingcertificate_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CHANNEL_ENTRY_POINTS, *PCHANNEL_ENTRY_POINTS
+req.typenames: 
 topic_type:
 -	APIRef
 -	kbSyntax

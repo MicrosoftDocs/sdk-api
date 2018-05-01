@@ -7,7 +7,7 @@ old-location: security\crypt_provider_functions.htm
 old-project: SecCrypto
 ms.assetid: 2c00f8ec-e262-4df8-8984-a2702a4162bf
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: "*PCRYPT_PROVIDER_FUNCTIONS, CRYPT_PROVIDER_FUNCTIONS, CRYPT_PROVIDER_FUNCTIONS structure [Security], PCRYPT_PROVIDER_FUNCTIONS, PCRYPT_PROVIDER_FUNCTIONS structure pointer [Security], _CRYPT_PROVIDER_FUNCTIONS, security.crypt_provider_functions, wintrust/CRYPT_PROVIDER_FUNCTIONS, wintrust/PCRYPT_PROVIDER_FUNCTIONS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,11 +58,6 @@ The <b>CRYPT_PROVIDER_FUNCTIONS</b> structure defines the functions  used by 	a 
 ## -struct-fields
 
 
-
-
-### -field psUIpfns
-
-A pointer to a <a href="https://msdn.microsoft.com/7cdc32ea-b28a-400f-ad8a-984f86bb95fd">CRYPT_PROVUI_FUNCS</a> structure.
 
 
 ### -field cbStruct
@@ -133,6 +128,11 @@ A pointer to the function that checks each certificate while building a chain.
 ### -field pfnTestFinalPolicy
 
 A pointer to the function that allows structures to be dumped to a file.
+
+
+### -field psUIpfns
+
+A pointer to a <a href="https://msdn.microsoft.com/7cdc32ea-b28a-400f-ad8a-984f86bb95fd">CRYPT_PROVUI_FUNCS</a> structure.
 
 
 ### -field pfnCleanupPolicy

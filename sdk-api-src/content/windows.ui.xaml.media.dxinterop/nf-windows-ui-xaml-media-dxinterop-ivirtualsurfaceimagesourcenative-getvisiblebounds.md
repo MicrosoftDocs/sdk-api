@@ -7,7 +7,7 @@ old-location: winrt\ivirtualsurfaceimagesourcenative_getvisiblebounds.htm
 old-project: WinRT
 ms.assetid: C296DD29-97C8-4C4E-A424-33DDC37538A9
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/24/2018
 ms.keywords: GetVisibleBounds method [Windows Runtime], GetVisibleBounds method [Windows Runtime], IVirtualSurfaceImageSourceNative interface, GetVisibleBounds,IVirtualSurfaceImageSourceNative.GetVisibleBounds, IVirtualSurfaceImageSourceNative, IVirtualSurfaceImageSourceNative interface [Windows Runtime], GetVisibleBounds method, IVirtualSurfaceImageSourceNative::GetVisibleBounds, windows/IVirtualSurfaceImageSourceNative::GetVisibleBounds, winrt.ivirtualsurfaceimagesourcenative_getvisiblebounds
 ms.prod: windows-hardware
 ms.technology: windows-devices

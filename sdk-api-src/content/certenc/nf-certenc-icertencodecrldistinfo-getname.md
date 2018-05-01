@@ -7,7 +7,7 @@ old-location: security\icertencodecrldistinfo_getname.htm
 old-project: SecCrypto
 ms.assetid: a564af61-fb5e-46b7-a818-333b4d5e2f25
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: CCertEncodeCRLDistInfo object [Security], GetName method, GetName method [Security], GetName method [Security], CCertEncodeCRLDistInfo object, GetName method [Security], ICertEncodeCRLDistInfo interface, GetName,ICertEncodeCRLDistInfo.GetName, ICertEncodeCRLDistInfo, ICertEncodeCRLDistInfo interface [Security], GetName method, ICertEncodeCRLDistInfo::GetName, _certsrv_icertencodecrldistinfo_getname, certenc/ICertEncodeCRLDistInfo::GetName, security.icertencodecrldistinfo_getname
 ms.prod: windows-hardware
 ms.technology: windows-devices

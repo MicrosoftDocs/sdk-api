@@ -7,7 +7,7 @@ old-location: mstv\ieslicenserenewalresultevent_getexpirydate.htm
 old-project: mstv
 ms.assetid: b237eeb3-d04f-432a-8c7a-538882b5ad02
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetExpiryDate method [DirectShow], GetExpiryDate method [DirectShow], IESLicenseRenewalResultEvent interface, GetExpiryDate,IESLicenseRenewalResultEvent.GetExpiryDate, IESLicenseRenewalResultEvent, IESLicenseRenewalResultEvent interface [DirectShow], GetExpiryDate method, IESLicenseRenewalResultEvent::GetExpiryDate, mstv.ieslicenserenewalresultevent_getexpirydate, tuner/IESLicenseRenewalResultEvent::GetExpiryDate
 ms.prod: windows-hardware
 ms.technology: windows-devices

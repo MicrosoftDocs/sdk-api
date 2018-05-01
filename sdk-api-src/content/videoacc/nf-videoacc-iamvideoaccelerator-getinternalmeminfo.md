@@ -7,7 +7,7 @@ old-location: dshow\iamvideoaccelerator_getinternalmeminfo.htm
 old-project: DirectShow
 ms.assetid: 64b6371c-4baf-4ec1-bd0d-6413f053e2fa
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetInternalMemInfo method [DirectShow], GetInternalMemInfo method [DirectShow], IAMVideoAccelerator interface, GetInternalMemInfo,IAMVideoAccelerator.GetInternalMemInfo, IAMVideoAccelerator, IAMVideoAccelerator interface [DirectShow], GetInternalMemInfo method, IAMVideoAccelerator::GetInternalMemInfo, IAMVideoAcceleratorGetInternalMemInfo, dshow.iamvideoaccelerator_getinternalmeminfo, videoacc/IAMVideoAccelerator::GetInternalMemInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: VIDEOHDR, *PVIDEOHDR, *LPVIDEOHDR
+req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,7 +7,7 @@ old-location: tablet\iinkrecognitionresult_modifytopalternate.htm
 old-project: tablet
 ms.assetid: 98edc5e9-2388-4f4e-a67f-029ee83be4cb
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: 98edc5e9-2388-4f4e-a67f-029ee83be4cb, IInkRecognitionResult, IInkRecognitionResult interface [Tablet PC], ModifyTopAlternate method, IInkRecognitionResult::ModifyTopAlternate, ModifyTopAlternate method [Tablet PC], ModifyTopAlternate method [Tablet PC], IInkRecognitionResult interface, ModifyTopAlternate,IInkRecognitionResult.ModifyTopAlternate, msinkaut/IInkRecognitionResult::ModifyTopAlternate, tablet.iinkrecognitionresult_modifytopalternate
 ms.prod: windows-hardware
 ms.technology: windows-devices

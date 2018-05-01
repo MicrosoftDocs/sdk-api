@@ -7,7 +7,7 @@ old-location: com\irpcstubbuffer_debugserverrelease.htm
 old-project: com
 ms.assetid: 511f6e55-fb1d-4500-80fd-83e3fe2779d1
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: DebugServerRelease method [COM], DebugServerRelease method [COM], IRpcStubBuffer interface, DebugServerRelease,IRpcStubBuffer.DebugServerRelease, IRpcStubBuffer, IRpcStubBuffer interface [COM], DebugServerRelease method, IRpcStubBuffer::DebugServerRelease, _com_irpcstubbuffer_debugserverrelease, com.irpcstubbuffer_debugserverrelease, objidlbase/IRpcStubBuffer::DebugServerRelease
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IRpcStubBuffer::DebugServerRelease method

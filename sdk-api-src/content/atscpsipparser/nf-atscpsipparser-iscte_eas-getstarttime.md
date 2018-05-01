@@ -7,7 +7,7 @@ old-location: mstv\iscte_eas_getstarttime.htm
 old-project: mstv
 ms.assetid: 70847a50-67a1-49f1-a24f-ca5bb0309481
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetStartTime method [Microsoft TV Technologies], GetStartTime method [Microsoft TV Technologies], ISCTE_EAS interface, GetStartTime,ISCTE_EAS.GetStartTime, ISCTE_EAS, ISCTE_EAS interface [Microsoft TV Technologies], GetStartTime method, ISCTE_EAS::GetStartTime, ISCTE_EASGetStartTime, atscpsipparser/ISCTE_EAS::GetStartTime, mstv.iscte_eas_getstarttime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_WRITER_PAYLOAD_STREAM
+req.typenames: AsyncStatus
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontentpartner_invokecommand.htm
 old-project: WMP
 ms.assetid: ee46a7c2-2d5b-4c7f-954e-cad6011afc78
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPContentPartner, IWMPContentPartner interface [Windows Media Player], InvokeCommand method, IWMPContentPartner::InvokeCommand, IWMPContentPartnerInvokeCommand, InvokeCommand method [Windows Media Player], InvokeCommand method [Windows Media Player], IWMPContentPartner interface, InvokeCommand,IWMPContentPartner.InvokeCommand, contentpartner/IWMPContentPartner::InvokeCommand, wmp.iwmpcontentpartner_invokecommand
 ms.prod: windows-hardware
 ms.technology: windows-devices

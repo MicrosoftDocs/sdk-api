@@ -7,7 +7,7 @@ old-location: stg\ifilllockbytes_fillappend.htm
 old-project: Stg
 ms.assetid: 3f25c48f-85a4-4778-b262-ad0c52cb1ac9
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/20/2018
 ms.keywords: FillAppend method [Structured Storage], FillAppend method [Structured Storage], IFillLockBytes interface, FillAppend,IFillLockBytes.FillAppend, IFillLockBytes, IFillLockBytes interface [Structured Storage], FillAppend method, IFillLockBytes::FillAppend, _stg_ifilllockbytes_fillappend, objidl/IFillLockBytes::FillAppend, stg.ifilllockbytes_fillappend
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IFillLockBytes::FillAppend method

@@ -7,7 +7,7 @@ old-location: wmformat\iwmwriteradvanced_getstatistics.htm
 old-project: wmformat
 ms.assetid: 005c2039-e821-42ab-bead-1bf40f2ab171
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: GetStatistics method [windows Media Format], GetStatistics method [windows Media Format], IWMWriterAdvanced interface, GetStatistics,IWMWriterAdvanced.GetStatistics, IWMWriterAdvanced, IWMWriterAdvanced interface [windows Media Format], GetStatistics method, IWMWriterAdvanced::GetStatistics, IWMWriterAdvancedGetStatistics, wmformat.iwmwriteradvanced_getstatistics, wmsdkidl/IWMWriterAdvanced::GetStatistics
 ms.prod: windows-hardware
 ms.technology: windows-devices

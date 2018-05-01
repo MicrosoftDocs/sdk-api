@@ -7,7 +7,7 @@ old-location: wmi\wbem_refresher_flags.htm
 old-project: WmiSdk
 ms.assetid: F855478C-BF26-46B1-B3F8-9DD5E8F05862
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: WBEM_FLAG_REFRESH_AUTO_RECONNECT, WBEM_FLAG_REFRESH_NO_AUTO_RECONNECT, WBEM_REFRESHER_FLAGS, WBEM_REFRESHER_FLAGS enumeration [Windows Management Instrumentation], tag_WBEM_REFRESHER_FLAGS, wbemcli/WBEM_FLAG_REFRESH_AUTO_RECONNECT, wbemcli/WBEM_FLAG_REFRESH_NO_AUTO_RECONNECT, wbemcli/WBEM_REFRESHER_FLAGS, wmi.wbem_refresher_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices

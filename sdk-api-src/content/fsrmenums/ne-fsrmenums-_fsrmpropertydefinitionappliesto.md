@@ -7,7 +7,7 @@ old-location: fsrm\fsrmpropertydefinitionappliesto.htm
 old-project: Fsrm
 ms.assetid: deca10b5-fd5f-446f-ab88-1731402a550c
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: FsrmPropertyDefinitionAppliesTo, FsrmPropertyDefinitionAppliesTo enumeration [File Server Resource Manager], FsrmPropertyDefinitionAppliesTo_Files, FsrmPropertyDefinitionAppliesTo_Folders, _FsrmPropertyDefinitionAppliesTo, fs.fsrmpropertydefinitionappliesto, fsrm.fsrmpropertydefinitionappliesto, fsrmenums/FsrmPropertyDefinitionAppliesTo, fsrmenums/FsrmPropertyDefinitionAppliesTo_Files, fsrmenums/FsrmPropertyDefinitionAppliesTo_Folders
 ms.prod: windows-hardware
 ms.technology: windows-devices

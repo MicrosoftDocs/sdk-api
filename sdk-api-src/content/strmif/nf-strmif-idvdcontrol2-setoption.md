@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol2_setoption.htm
 old-project: DirectShow
 ms.assetid: b3b28da8-b0cb-4d76-8184-93572e4b6d06
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IDvdControl2, IDvdControl2 interface [DirectShow], SetOption method, IDvdControl2::SetOption, IDvdControl2SetOption, SetOption method [DirectShow], SetOption method [DirectShow], IDvdControl2 interface, SetOption,IDvdControl2.SetOption, dshow.idvdcontrol2_setoption, strmif/IDvdControl2::SetOption
 ms.prod: windows-hardware
 ms.technology: windows-devices

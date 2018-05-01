@@ -7,7 +7,7 @@ old-location: secbiomet\winbiofree.htm
 old-project: SecBioMet
 ms.assetid: b570fc6c-a08e-4485-a621-20f59bd63d40
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: WinBioFree, WinBioFree function [Windows Biometric Framework API], secbiomet.winbiofree, winbio/WinBioFree
 ms.prod: windows-hardware
 ms.technology: windows-devices

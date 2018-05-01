@@ -7,7 +7,7 @@ old-location: security\icertencodebitstring_decode.htm
 old-project: SecCrypto
 ms.assetid: 65856db4-97db-4c9b-ac12-1a9262c7b4e9
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: CCertEncodeBitString object [Security], Decode method, Decode method [Security], Decode method [Security], CCertEncodeBitString object, Decode method [Security], ICertEncodeBitString interface, Decode,ICertEncodeBitString.Decode, ICertEncodeBitString, ICertEncodeBitString interface [Security], Decode method, ICertEncodeBitString::Decode, _certsrv_icertencodebitstring_decode, certenc/ICertEncodeBitString::Decode, security.icertencodebitstring_decode
 ms.prod: windows-hardware
 ms.technology: windows-devices

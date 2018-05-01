@@ -7,7 +7,7 @@ old-location: winauto\uiauto_iuiautomationdragpattern_getcachedgrabbeditems.htm
 old-project: WinAuto
 ms.assetid: A3CB19E9-634D-4023-926E-BAA717DE4528
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: GetCachedGrabbedItems method [Windows Accessibility], GetCachedGrabbedItems method [Windows Accessibility], IUIAutomationDragPattern interface, GetCachedGrabbedItems,IUIAutomationDragPattern.GetCachedGrabbedItems, IUIAutomationDragPattern, IUIAutomationDragPattern interface [Windows Accessibility], GetCachedGrabbedItems method, IUIAutomationDragPattern::GetCachedGrabbedItems, uiautomationclient/IUIAutomationDragPattern::GetCachedGrabbedItems, winauto.uiauto_iuiautomationdragpattern_getcachedgrabbeditems
 ms.prod: windows-hardware
 ms.technology: windows-devices

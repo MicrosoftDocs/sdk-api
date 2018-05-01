@@ -7,7 +7,7 @@ old-location: wmi\chstring_reversefind.htm
 old-project: WmiSdk
 ms.assetid: 941c9eb3-a5b8-42b7-bb9f-732eaf1faa24
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: CHString, CHString interface [Windows Management Instrumentation], ReverseFind method, CHString::ReverseFind, ReverseFind method [Windows Management Instrumentation], ReverseFind method [Windows Management Instrumentation], CHString interface, ReverseFind,CHString.ReverseFind, _hmm_chstring_reversefind, chstring/CHString::ReverseFind, wmi.chstring_reversefind
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CF_SYNC_ROOT_STANDARD_INFO
+req.typenames: CF_SYNC_STATUS
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,7 +7,7 @@ old-location: direct2d\d2d1_svg_preserve_aspect_ratio.htm
 old-project: Direct2D
 ms.assetid: 3DA4DEBF-ACCE-4F43-9C75-DF32A2F88ACD
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: D2D1_SVG_PRESERVE_ASPECT_RATIO, D2D1_SVG_PRESERVE_ASPECT_RATIO structure [Direct2D], d2d1svg/D2D1_SVG_PRESERVE_ASPECT_RATIO, direct2d.d2d1_svg_preserve_aspect_ratio
 ms.prod: windows-hardware
 ms.technology: windows-devices

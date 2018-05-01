@@ -7,7 +7,7 @@ old-location: base\jobobject_notification_limit_information_2.htm
 old-project: ProcThread
 ms.assetid: AFF8986F-6BC7-4683-99AC-EC82FFA27339
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: JOBOBJECT_NOTIFICATION_LIMIT_INFORMATION_2, JOBOBJECT_NOTIFICATION_LIMIT_INFORMATION_2 structure, JOB_OBJECT_LIMIT_CPU_RATE_CONTROL, JOB_OBJECT_LIMIT_IO_RATE_CONTROL, JOB_OBJECT_LIMIT_JOB_MEMORY_HIGH, JOB_OBJECT_LIMIT_JOB_MEMORY_LOW, JOB_OBJECT_LIMIT_JOB_READ_BYTES, JOB_OBJECT_LIMIT_JOB_TIME, JOB_OBJECT_LIMIT_JOB_WRITE_BYTES, JOB_OBJECT_LIMIT_NET_RATE_CONTROL, JOB_OBJECT_LIMIT_RATE_CONTROL, ToleranceHigh, ToleranceIntervalLong, ToleranceIntervalMedium, ToleranceIntervalShort, ToleranceLow, ToleranceMedium, base.jobobject_notification_limit_information_2, winnt/JOBOBJECT_NOTIFICATION_LIMIT_INFORMATION_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,21 +58,6 @@ Contains extended information about notification limits for a job object. This s
 
 
 
-### -field DUMMYUNIONNAME
-
- 
-
-
-### -field DUMMYUNIONNAME2
-
- 
-
-
-### -field DUMMYUNIONNAME3
-
- 
-
-
 ### -field IoReadBytesLimit
 
 If the <i>LimitFlags</i> member specifies <b>JOB_OBJECT_LIMIT_JOB_READ_BYTES</b>, this member is the notification limit for the total I/O bytes read by all processes in the job. Otherwise, this member is ignored.
@@ -90,6 +75,21 @@ If the <i>LimitFlags</i> parameter specifies <b>JOB_OBJECT_LIMIT_JOB_TIME</b>, t
 The system adds the accumulated execution time of processes associated with the job to this limit when the limit is set. For example, if a process associated with the job has already accumulated 5 minutes of user-mode execution time and the limit is set to 1 minute, the limit actually enforced is 6 minutes.
 
 To specify <b>PerJobUserTimeLimit</b> as an enforceable limit and terminate processes in jobs that exceed the limit, see the <a href="https://msdn.microsoft.com/83b940a7-05a0-4f5e-bfe3-3f2ac17e2d67">JOBOBJECT_BASIC_LIMIT_INFORMATION</a> structure.
+
+
+### -field DUMMYUNIONNAME
+
+ 
+
+
+### -field DUMMYUNIONNAME2
+
+ 
+
+
+### -field DUMMYUNIONNAME3
+
+ 
 
 
 ### -field LimitFlags

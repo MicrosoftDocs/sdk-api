@@ -7,7 +7,7 @@ old-location: shell\ICDBurn_GetRecorderDriveLetter.htm
 old-project: shell
 ms.assetid: 5ee10152-6823-49bb-836d-3e0cf6c2bb0b
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetRecorderDriveLetter method [Windows Shell], GetRecorderDriveLetter method [Windows Shell], ICDBurn interface, GetRecorderDriveLetter,ICDBurn.GetRecorderDriveLetter, ICDBurn, ICDBurn interface [Windows Shell], GetRecorderDriveLetter method, ICDBurn::GetRecorderDriveLetter, _shell_ICDBurn_GetRecorderDriveLetter, shell.ICDBurn_GetRecorderDriveLetter, shobjidl/ICDBurn::GetRecorderDriveLetter
 ms.prod: windows-hardware
 ms.technology: windows-devices

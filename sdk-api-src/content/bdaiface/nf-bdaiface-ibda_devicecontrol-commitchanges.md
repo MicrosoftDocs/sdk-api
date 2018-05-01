@@ -7,7 +7,7 @@ old-location: mstv\ibda_devicecontrol_commitchanges.htm
 old-project: mstv
 ms.assetid: 1f55346b-1d32-4eb9-84ef-4671cdd2bc61
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: CommitChanges method [Microsoft TV Technologies], CommitChanges method [Microsoft TV Technologies], IBDA_DeviceControl interface, CommitChanges,IBDA_DeviceControl.CommitChanges, IBDA_DeviceControl, IBDA_DeviceControl interface [Microsoft TV Technologies], CommitChanges method, IBDA_DeviceControl::CommitChanges, IBDA_DeviceControlCommitChanges, bdaiface/IBDA_DeviceControl::CommitChanges, mstv.ibda_devicecontrol_commitchanges
 ms.prod: windows-hardware
 ms.technology: windows-devices

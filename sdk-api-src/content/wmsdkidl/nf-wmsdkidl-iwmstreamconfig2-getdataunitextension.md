@@ -7,7 +7,7 @@ old-location: wmformat\iwmstreamconfig2_getdataunitextension.htm
 old-project: wmformat
 ms.assetid: 766124f6-b376-421b-b2ee-2c280af3bd16
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: GetDataUnitExtension method [windows Media Format], GetDataUnitExtension method [windows Media Format], IWMStreamConfig2 interface, GetDataUnitExtension,IWMStreamConfig2.GetDataUnitExtension, IWMStreamConfig2, IWMStreamConfig2 interface [windows Media Format], GetDataUnitExtension method, IWMStreamConfig2::GetDataUnitExtension, IWMStreamConfig2GetDataUnitExtension, wmformat.iwmstreamconfig2_getdataunitextension, wmsdkidl/IWMStreamConfig2::GetDataUnitExtension
 ms.prod: windows-hardware
 ms.technology: windows-devices

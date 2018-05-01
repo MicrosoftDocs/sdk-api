@@ -7,7 +7,7 @@ old-location: mf\imfmediasink_getpresentationclock.htm
 old-project: medfound
 ms.assetid: ffa6a7b5-cd79-4c45-a5e3-9d133ffc89a6
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetPresentationClock method [Media Foundation], GetPresentationClock method [Media Foundation], IMFMediaSink interface, GetPresentationClock,IMFMediaSink.GetPresentationClock, IMFMediaSink, IMFMediaSink interface [Media Foundation], GetPresentationClock method, IMFMediaSink::GetPresentationClock, ffa6a7b5-cd79-4c45-a5e3-9d133ffc89a6, mf.imfmediasink_getpresentationclock, mfidl/IMFMediaSink::GetPresentationClock
 ms.prod: windows-hardware
 ms.technology: windows-devices

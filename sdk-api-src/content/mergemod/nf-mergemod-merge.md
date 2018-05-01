@@ -7,7 +7,7 @@ old-location: setup\merge_merge.htm
 old-project: Msi
 ms.assetid: 4b580b1f-5071-42f1-8022-a152817f9fdc
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/26/2018
 ms.keywords: Merge, Merge class, Merge method, Merge method, Merge method, Merge class, _msi_merge_method_merge_object_, setup.merge_merge
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: controls\itextfont2_setautospacealpha.htm
 old-project: Controls
 ms.assetid: 8a01677d-74c6-437b-8ee9-350c891c6c3f
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextFont2, ITextFont2 interface [Windows Controls], SetAutospaceAlpha method, ITextFont2::SetAutospaceAlpha, SetAutospaceAlpha method [Windows Controls], SetAutospaceAlpha method [Windows Controls], ITextFont2 interface, SetAutospaceAlpha,ITextFont2.SetAutospaceAlpha, controls.itextfont2_setautospacealpha, tom/ITextFont2::SetAutospaceAlpha
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyjob_gettype.htm
 old-project: Bits
 ms.assetid: b84c45c2-379a-40d0-91ab-0124f0ef6b00
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/10/2018
 ms.keywords: GetType method [BITS], GetType method [BITS], IBackgroundCopyJob interface, GetType,IBackgroundCopyJob.GetType, IBackgroundCopyJob, IBackgroundCopyJob interface [BITS], GetType method, IBackgroundCopyJob::GetType, _drz_ibackgroundcopyjob_gettype, bits.ibackgroundcopyjob_gettype, bits/IBackgroundCopyJob::GetType
 ms.prod: windows-hardware
 ms.technology: windows-devices

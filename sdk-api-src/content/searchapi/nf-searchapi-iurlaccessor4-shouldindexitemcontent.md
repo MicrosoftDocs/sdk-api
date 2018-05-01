@@ -7,7 +7,7 @@ old-location: search\_search_IUrlAccessor4_ShouldIndexItemContent.htm
 old-project: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor4\shouldindexitemcontent.htm
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/24/2018
 ms.keywords: IUrlAccessor4, IUrlAccessor4 interface [search], ShouldIndexItemContent method, IUrlAccessor4::ShouldIndexItemContent, ShouldIndexItemContent method [search], ShouldIndexItemContent method [search], IUrlAccessor4 interface, ShouldIndexItemContent,IUrlAccessor4.ShouldIndexItemContent, _search_IUrlAccessor4_ShouldIndexItemContent, search._search_IUrlAccessor4_ShouldIndexItemContent, searchapi/IUrlAccessor4::ShouldIndexItemContent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IUrlAccessor4::ShouldIndexItemContent method

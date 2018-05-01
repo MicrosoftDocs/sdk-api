@@ -7,7 +7,7 @@ old-location: wmformat\iwmheaderinfo2.htm
 old-project: wmformat
 ms.assetid: af670b54-f695-4b6f-8190-c25ea409b53a
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMHeaderInfo2, IWMHeaderInfo2 interface [windows Media Format], IWMHeaderInfo2 interface [windows Media Format], described, IWMHeaderInfo2Interface, wmformat.iwmheaderinfo2, wmsdkidl/IWMHeaderInfo2
 ms.prod: windows-hardware
 ms.technology: windows-devices

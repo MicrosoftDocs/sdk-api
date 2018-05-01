@@ -1,0 +1,89 @@
+---
+UID: NF:rometadataapi.IMetaDataImport.GetNestedClassProps
+title: IMetaDataImport::GetNestedClassProps method
+author: windows-driver-content
+description: Gets the TypeDef token for the parent Type of the specified nested type.
+old-location: winrt\imetadataimport_getnestedclassprops.htm
+old-project: WinRT
+ms.assetid: 5633d226-8f02-4527-b435-b75b1e1d5064
+ms.author: windowsdriverdev
+ms.date: 4/24/2018
+ms.keywords: GetNestedClassProps method [Windows Runtime], GetNestedClassProps method [Windows Runtime], IMetaDataImport interface, GetNestedClassProps,IMetaDataImport.GetNestedClassProps, IMetaDataImport, IMetaDataImport interface [Windows Runtime], GetNestedClassProps method, IMetaDataImport::GetNestedClassProps, rometadataapi/IMetaDataImport::GetNestedClassProps, winrt.imetadataimport_getnestedclassprops
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: rometadataapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Rometadataapi.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: RO_ERROR_REPORTING_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	rometadataapi.h
+api_name:
+-	IMetaDataImport.GetNestedClassProps
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 SP2 or later
+---
+
+# IMetaDataImport::GetNestedClassProps method
+
+
+## -description
+
+
+Gets the TypeDef token for the parent Type of the specified nested type.
+
+
+## -parameters
+
+
+
+
+### -param tdNestedClass [in]
+
+A TypeDef token representing the Type to return the parent class token for.
+
+
+### -param ptdEnclosingClass [out]
+
+A pointer to the TypeDef token for the Type that <i>tdNestedClass</i> is nested in.
+
+
+## -returns
+
+
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/5457d9d3-9a43-4e89-a52f-1254662ed92a">IMetaDataImport</a>
+ 
+
+ 
+

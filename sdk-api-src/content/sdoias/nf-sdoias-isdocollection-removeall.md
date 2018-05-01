@@ -7,7 +7,7 @@ old-location: nps\SDO_isdocollection_removeall.htm
 old-project: Nps
 ms.assetid: 82654df4-9a85-4687-86dd-04ea5a916fdc
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/24/2018
 ms.keywords: ISdoCollection, ISdoCollection interface [Network Policy Server], RemoveAll method, ISdoCollection::RemoveAll, RemoveAll method [Network Policy Server], RemoveAll method [Network Policy Server], ISdoCollection interface, RemoveAll,ISdoCollection.RemoveAll, _sdo_isdocollection_removeall, nps.SDO_isdocollection_removeall, sdo.isdocollection_removeall, sdoias/ISdoCollection::RemoveAll
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Iassdo.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ISdoCollection::RemoveAll method

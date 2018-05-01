@@ -7,7 +7,7 @@ old-location: wmformat\iwmplayertimestamphook_maptimestamp.htm
 old-project: wmformat
 ms.assetid: 67da583f-85da-4a09-be2c-44cf96bf51e7
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMPlayerTimestampHook, IWMPlayerTimestampHook interface [windows Media Format], MapTimestamp method, IWMPlayerTimestampHook::MapTimestamp, IWMPlayerTimestampHookMapTimestamp, MapTimestamp method [windows Media Format], MapTimestamp method [windows Media Format], IWMPlayerTimestampHook interface, MapTimestamp,IWMPlayerTimestampHook.MapTimestamp, wmdxva/IWMPlayerTimestampHook::MapTimestamp, wmformat.iwmplayertimestamphook_maptimestamp
 ms.prod: windows-hardware
 ms.technology: windows-devices

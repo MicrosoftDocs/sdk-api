@@ -7,7 +7,7 @@ old-location: wmi\iwbemobjectaccess_unlock.htm
 old-project: WmiSdk
 ms.assetid: a1b841b2-684e-4697-b802-b0534f752a13
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: IWbemObjectAccess, IWbemObjectAccess interface [Windows Management Instrumentation], Unlock method, IWbemObjectAccess::Unlock, Unlock method [Windows Management Instrumentation], Unlock method [Windows Management Instrumentation], IWbemObjectAccess interface, Unlock,IWbemObjectAccess.Unlock, _hmm_iwbemobjectaccess_unlock, wbemcli/IWbemObjectAccess::Unlock, wmi.iwbemobjectaccess_unlock
 ms.prod: windows-hardware
 ms.technology: windows-devices

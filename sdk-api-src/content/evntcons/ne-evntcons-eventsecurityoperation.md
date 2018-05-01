@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: EventSys.idl
+req.idl: Eventtoken.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 

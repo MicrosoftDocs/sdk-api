@@ -7,7 +7,7 @@ old-location: indexsrv\iwordsink_endaltphrase.htm
 old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefobj_5j51.htm
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/11/2018
 ms.keywords: EndAltPhrase method [Indexing Service], EndAltPhrase method [Indexing Service], IWordSink interface, EndAltPhrase,IWordSink.EndAltPhrase, IWordSink, IWordSink interface [Indexing Service], EndAltPhrase method, IWordSink::EndAltPhrase, _idxs_WordSink_EndAltPhrase, indexsrv.iwordsink_endaltphrase, indexsrv/IWordSink::EndAltPhrase
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: hyperv\vm_gencounter.htm
 old-project: HyperV_v2
 ms.assetid: F1F2C867-2607-40AD-92B7-E7C07304D885
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/24/2018
 ms.keywords: "*PVM_GENCOUNTER, PVM_GENCOUNTER, PVM_GENCOUNTER structure pointer, VM_GENCOUNTER, VM_GENCOUNTER structure, _VM_GENCOUNTER, hyperv.vm_gencounter, vmgenerationcounter/PVM_GENCOUNTER, vmgenerationcounter/VM_GENCOUNTER"
 ms.prod: windows-hardware
 ms.technology: windows-devices

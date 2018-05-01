@@ -7,7 +7,7 @@ old-location: tablet\itextinputpaneleventsink_inplacesizechanging.htm
 old-project: tablet
 ms.assetid: af9998a0-42ab-410d-980e-59a765d44667
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: ITextInputPanelEventSink, ITextInputPanelEventSink interface [Tablet PC], InPlaceSizeChanging method, ITextInputPanelEventSink::InPlaceSizeChanging, InPlaceSizeChanging method [Tablet PC], InPlaceSizeChanging method [Tablet PC], ITextInputPanelEventSink interface, InPlaceSizeChanging,ITextInputPanelEventSink.InPlaceSizeChanging, af9998a0-42ab-410d-980e-59a765d44667, peninputpanel/ITextInputPanelEventSink::InPlaceSizeChanging, tablet.itextinputpaneleventsink_inplacesizechanging
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Tiptsf.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITextInputPanelEventSink::InPlaceSizeChanging method

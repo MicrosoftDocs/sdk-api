@@ -7,7 +7,7 @@ old-location: com\irpcchannelbuffer_sendreceive.htm
 old-project: com
 ms.assetid: 8a42fd06-252f-4c1b-bbdb-abc2e3887c46
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IRpcChannelBuffer, IRpcChannelBuffer interface [COM], SendReceive method, IRpcChannelBuffer::SendReceive, SendReceive method [COM], SendReceive method [COM], IRpcChannelBuffer interface, SendReceive,IRpcChannelBuffer.SendReceive, _com_irpcchannelbuffer_sendreceive, com.irpcchannelbuffer_sendreceive, objidlbase/IRpcChannelBuffer::SendReceive
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IRpcChannelBuffer::SendReceive method

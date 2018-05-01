@@ -7,7 +7,7 @@ old-location: winauto\uiauto__ITextChildProvider.htm
 old-project: WinAuto
 ms.assetid: 370A772A-0AD9-4183-B316-CADC4FE117AE
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: ITextChildProvider, ITextChildProvider interface [Windows Accessibility], ITextChildProvider interface [Windows Accessibility], described, uiautomationcore/ITextChildProvider, winauto.uiauto__ITextChildProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices

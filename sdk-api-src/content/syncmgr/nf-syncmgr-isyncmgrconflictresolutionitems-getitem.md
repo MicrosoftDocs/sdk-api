@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrConflictResolutionItems_GetItem.htm
 old-project: shell
 ms.assetid: c98ec4fa-bbca-4213-95c3-b50ccafbbfdb
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetItem method [Windows Shell], GetItem method [Windows Shell], ISyncMgrConflictResolutionItems interface, GetItem,ISyncMgrConflictResolutionItems.GetItem, ISyncMgrConflictResolutionItems, ISyncMgrConflictResolutionItems interface [Windows Shell], GetItem method, ISyncMgrConflictResolutionItems::GetItem, _shell_ISyncMgrConflictResolutionItems_GetItem, shell.ISyncMgrConflictResolutionItems_GetItem, syncmgr/ISyncMgrConflictResolutionItems::GetItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

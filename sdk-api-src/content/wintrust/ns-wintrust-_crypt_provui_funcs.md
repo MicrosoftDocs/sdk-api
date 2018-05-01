@@ -7,7 +7,7 @@ old-location: security\crypt_provui_funcs.htm
 old-project: SecCrypto
 ms.assetid: 7cdc32ea-b28a-400f-ad8a-984f86bb95fd
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: "*PCRYPT_PROVUI_FUNCS, CRYPT_PROVUI_FUNCS, CRYPT_PROVUI_FUNCS structure [Security], PCRYPT_PROVUI_FUNCS, PCRYPT_PROVUI_FUNCS structure pointer [Security], _CRYPT_PROVUI_FUNCS, security.crypt_provui_funcs, wintrust/CRYPT_PROVUI_FUNCS, wintrust/PCRYPT_PROVUI_FUNCS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,14 +60,14 @@ The <b>CRYPT_PROVUI_FUNCS</b> structure provides information about the user inte
 
 
 
-### -field psUIData
-
-A pointer to a <a href="https://msdn.microsoft.com/86f819f0-c243-45ba-8b7b-97ed906e6e8a">CRYPT_PROVUI_DATA</a> structure.  
-
-
 ### -field cbStruct
 
 The size, in bytes, of this structure.
+
+
+### -field psUIData
+
+A pointer to a <a href="https://msdn.microsoft.com/86f819f0-c243-45ba-8b7b-97ed906e6e8a">CRYPT_PROVUI_DATA</a> structure.  
 
 
 ### -field pfnOnMoreInfoClick

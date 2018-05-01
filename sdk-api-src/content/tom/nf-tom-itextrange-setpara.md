@@ -7,7 +7,7 @@ old-location: controls\ITextRange_SetPara.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setpara.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextRange, ITextRange interface [Windows Controls], SetPara method, ITextRange::SetPara, SetPara method [Windows Controls], SetPara method [Windows Controls], ITextRange interface, SetPara,ITextRange.SetPara, _win32_ITextRange_SetPara, _win32_ITextRange_SetPara_cpp, controls.ITextRange_SetPara, controls._win32_ITextRange_SetPara, tom/ITextRange::SetPara
 ms.prod: windows-hardware
 ms.technology: windows-devices

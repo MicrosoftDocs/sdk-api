@@ -7,7 +7,7 @@ old-location: shell\ISearchBoxInfo.htm
 old-project: shell
 ms.assetid: 7b2082e9-b075-488a-a6c1-f9dc99409474
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ISearchBoxInfo, ISearchBoxInfo interface [Windows Shell], ISearchBoxInfo interface [Windows Shell], described, _shell_ISearchBoxInfo, shell.ISearchBoxInfo, shobjidl/ISearchBoxInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

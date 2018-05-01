@@ -7,7 +7,7 @@ old-location: dshow\ibasicvideo2_getpreferredaspectratio.htm
 old-project: DirectShow
 ms.assetid: eabfb5a3-201c-483c-81d6-efd19a4b5cef
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetPreferredAspectRatio method [DirectShow], GetPreferredAspectRatio method [DirectShow], IBasicVideo2 interface, GetPreferredAspectRatio,IBasicVideo2.GetPreferredAspectRatio, IBasicVideo2, IBasicVideo2 interface [DirectShow], GetPreferredAspectRatio method, IBasicVideo2::GetPreferredAspectRatio, IBasicVideo2GetPreferredAspectRatio, control/IBasicVideo2::GetPreferredAspectRatio, dshow.ibasicvideo2_getpreferredaspectratio
 ms.prod: windows-hardware
 ms.technology: windows-devices

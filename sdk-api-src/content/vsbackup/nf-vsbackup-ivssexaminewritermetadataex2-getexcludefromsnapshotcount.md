@@ -7,7 +7,7 @@ old-location: base\ivssexaminewritermetadataex2_getexcludefromsnapshotcount.htm
 old-project: VSS
 ms.assetid: 77f21feb-bd7c-4fd0-820b-9dabb1bcbc89
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: GetExcludeFromSnapshotCount method, GetExcludeFromSnapshotCount method, IVssExamineWriterMetadataEx2 interface, GetExcludeFromSnapshotCount,IVssExamineWriterMetadataEx2.GetExcludeFromSnapshotCount, IVssExamineWriterMetadataEx2, IVssExamineWriterMetadataEx2 interface, GetExcludeFromSnapshotCount method, IVssExamineWriterMetadataEx2::GetExcludeFromSnapshotCount, base.ivssexaminewritermetadataex2_getexcludefromsnapshotcount, vsbackup/IVssExamineWriterMetadataEx2::GetExcludeFromSnapshotCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -60,6 +60,11 @@ Contains snapshot deletion parameters, designating which snapshot to delete from
 
 
 
+### -field Version
+
+A value from the <a href="https://msdn.microsoft.com/D92039E2-775F-4A77-83AA-5681A1A67835">DELETE_SNAPSHOT_VHDSET_VERSION</a> enumeration that is the discriminant for the union.
+
+
 ### -field Version1
 
 A structure with the following member.
@@ -69,9 +74,4 @@ A structure with the following member.
 
 The Snapshot Id in GUID format indicating which snapshot is to be deleted from the VHD Set. 
 
-
-
-### -field Version
-
-A value from the <a href="https://msdn.microsoft.com/D92039E2-775F-4A77-83AA-5681A1A67835">DELETE_SNAPSHOT_VHDSET_VERSION</a> enumeration that is the discriminant for the union.
 

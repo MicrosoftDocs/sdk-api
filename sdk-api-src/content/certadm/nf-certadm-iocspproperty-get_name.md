@@ -7,7 +7,7 @@ old-location: security\iocspproperty_name_method.htm
 old-project: SecCrypto
 ms.assetid: 33980a7c-0ae5-470b-a55a-f3e19c8846a6
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: IOCSPProperty, IOCSPProperty interface [Security], Name property, IOCSPProperty.Name, IOCSPProperty::get_Name, Name property [Security], Name property [Security], IOCSPProperty interface, certadm/IOCSPProperty::Name, certadm/IOCSPProperty::get_Name, get_Name,IOCSPProperty.get_Name, security.iocspproperty_name_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CHANNEL_ENTRY_POINTS, *PCHANNEL_ENTRY_POINTS
+req.typenames: 
 topic_type:
 -	APIRef
 -	kbSyntax

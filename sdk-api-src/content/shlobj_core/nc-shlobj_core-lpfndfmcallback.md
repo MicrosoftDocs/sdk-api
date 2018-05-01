@@ -7,7 +7,7 @@ old-location: shell\LPFNDFMCALLBACK.htm
 old-project: shell
 ms.assetid: a5635196-80de-4db9-9c3a-65f2b241b4a0
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: LPFNDFMCALLBACK, LPFNDFMCALLBACK function pointer [Windows Shell], _win32_LPFNDFMCALLBACK, shell.LPFNDFMCALLBACK, shlobj_core/LPFNDFMCALLBACK
 ms.prod: windows-hardware
 ms.technology: windows-devices

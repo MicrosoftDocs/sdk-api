@@ -7,7 +7,7 @@ old-location: security\cert_strong_sign_para.htm
 old-project: SecCrypto
 ms.assetid: 12D9F82C-F484-43B0-BD55-F07321058671
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: "*PCERT_STRONG_SIGN_PARA, CERT_STRONG_SIGN_PARA, CERT_STRONG_SIGN_PARA structure [Security], PCCERT_STRONG_SIGN_PARA, PCCERT_STRONG_SIGN_PARA structure pointer [Security], PCERT_STRONG_SIGN_PARA, PCERT_STRONG_SIGN_PARA structure pointer [Security], _CERT_STRONG_SIGN_PARA, security.cert_strong_sign_para, szOID_CERT_STRONG_KEY_OS_1, szOID_CERT_STRONG_SIGN_OS_1, wincrypt/CERT_STRONG_SIGN_PARA, wincrypt/PCCERT_STRONG_SIGN_PARA, wincrypt/PCERT_STRONG_SIGN_PARA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -56,6 +56,38 @@ Contains parameters used to check for strong signatures on <a href="https://msdn
 ## -struct-fields
 
 
+
+
+### -field cbSize
+
+Size, in bytes, of this structure.
+
+
+### -field dwInfoChoice
+
+Indicates which nested union member points to the strong signature information. This can be one of the following values:
+
+<table>
+<tr>
+<th>Value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><b>CERT_STRONG_SIGN_SERIALIZED_INFO_CHOICE</b></td>
+<td>
+Specifies the <b>pSerializedInfo</b> member.
+
+</td>
+</tr>
+<tr>
+<td><b>CERT_STRONG_SIGN_OID_INFO_CHOICE</b></td>
+<td>
+Specifies the <b>pszOID</b> member.
+
+</td>
+</tr>
+</table>
+ 
 
 
 ### -field DUMMYUNIONNAME
@@ -112,38 +144,6 @@ SHA1 and SHA2 hashes are supported. MD2, MD4, and MD5 are not.
 The signing and public key algorithms can be RSA or ECDSA. The DSA algorithm is not supported. The key size for the RSA algorithm must equal or be greater than 2047 bits. The key size for the ECDSA algorithm must equal or be greater than 256 bits. 
 
 Strong signing of CRLs and OCSP responses are enabled.
-
-</td>
-</tr>
-</table>
- 
-
-
-### -field cbSize
-
-Size, in bytes, of this structure.
-
-
-### -field dwInfoChoice
-
-Indicates which nested union member points to the strong signature information. This can be one of the following values:
-
-<table>
-<tr>
-<th>Value</th>
-<th>Description</th>
-</tr>
-<tr>
-<td><b>CERT_STRONG_SIGN_SERIALIZED_INFO_CHOICE</b></td>
-<td>
-Specifies the <b>pSerializedInfo</b> member.
-
-</td>
-</tr>
-<tr>
-<td><b>CERT_STRONG_SIGN_OID_INFO_CHOICE</b></td>
-<td>
-Specifies the <b>pszOID</b> member.
 
 </td>
 </tr>

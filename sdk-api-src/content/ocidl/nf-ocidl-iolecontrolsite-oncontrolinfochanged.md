@@ -7,7 +7,7 @@ old-location: com\iolecontrolsite_oncontrolinfochanged.htm
 old-project: com
 ms.assetid: d9e915c0-3443-4464-9e3e-e1fbfe37e838
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IOleControlSite, IOleControlSite interface [COM], OnControlInfoChanged method, IOleControlSite::OnControlInfoChanged, OnControlInfoChanged method [COM], OnControlInfoChanged method [COM], IOleControlSite interface, OnControlInfoChanged,IOleControlSite.OnControlInfoChanged, _ctrl_iolecontrolsite_oncontrolinfochanged, com.iolecontrolsite_oncontrolinfochanged, ocidl/IOleControlSite::OnControlInfoChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IOleControlSite::OnControlInfoChanged method

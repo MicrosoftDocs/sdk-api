@@ -7,7 +7,7 @@ old-location: termserv\itssborchestrationnotifysink_onreadytoconnect.htm
 old-project: TermServ
 ms.assetid: 781cb67c-75bb-4d3c-8b86-fddbe9511255
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: ITsSbOrchestrationNotifySink, ITsSbOrchestrationNotifySink interface [Remote Desktop Services], OnReadyToConnect method, ITsSbOrchestrationNotifySink::OnReadyToConnect, OnReadyToConnect method [Remote Desktop Services], OnReadyToConnect method [Remote Desktop Services], ITsSbOrchestrationNotifySink interface, OnReadyToConnect,ITsSbOrchestrationNotifySink.OnReadyToConnect, sbtsv/ITsSbOrchestrationNotifySink::OnReadyToConnect, termserv.itssborchestrationnotifysink_onreadytoconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITsSbOrchestrationNotifySink::OnReadyToConnect method

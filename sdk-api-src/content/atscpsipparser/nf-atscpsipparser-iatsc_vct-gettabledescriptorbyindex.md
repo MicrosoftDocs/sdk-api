@@ -7,7 +7,7 @@ old-location: mstv\iatsc_vct_gettabledescriptorbyindex.htm
 old-project: mstv
 ms.assetid: 964ae371-e7a5-4278-8408-b39ae4371135
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetTableDescriptorByIndex method [Microsoft TV Technologies], GetTableDescriptorByIndex method [Microsoft TV Technologies], IATSC_VCT interface, GetTableDescriptorByIndex,IATSC_VCT.GetTableDescriptorByIndex, IATSC_VCT, IATSC_VCT interface [Microsoft TV Technologies], GetTableDescriptorByIndex method, IATSC_VCT::GetTableDescriptorByIndex, IATSC_VCTGetTableDescriptorByIndex, atscpsipparser/IATSC_VCT::GetTableDescriptorByIndex, mstv.iatsc_vct_gettabledescriptorbyindex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_WRITER_PAYLOAD_STREAM
+req.typenames: AsyncStatus
 topic_type:
 -	APIRef
 -	kbSyntax

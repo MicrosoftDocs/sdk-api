@@ -7,7 +7,7 @@ old-location: wmi\iwbemclassobject_next.htm
 old-project: WmiSdk
 ms.assetid: 6d0e8aa3-ae64-4934-9000-2c526ceb7fb6
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: IWbemClassObject, IWbemClassObject interface [Windows Management Instrumentation], Next method, IWbemClassObject::Next, Next method [Windows Management Instrumentation], Next method [Windows Management Instrumentation], IWbemClassObject interface, Next,IWbemClassObject.Next, WBEM_FLAVOR_ORIGIN_LOCAL, WBEM_FLAVOR_ORIGIN_PROPAGATED, WBEM_FLAVOR_ORIGIN_SYSTEM, _hmm_iwbemclassobject_next, wbemcli/IWbemClassObject::Next, wmi.iwbemclassobject_next
 ms.prod: windows-hardware
 ms.technology: windows-devices

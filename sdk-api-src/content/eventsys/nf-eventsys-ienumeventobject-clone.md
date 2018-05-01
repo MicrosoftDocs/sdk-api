@@ -7,7 +7,7 @@ old-location: cos\ienumeventobject_clone.htm
 old-project: cossdk
 ms.assetid: 25bd3f8f-ba99-42e6-b7af-6b237343a17c
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: Clone method [COM+], Clone method [COM+], IEnumEventObject interface, Clone,IEnumEventObject.Clone, IEnumEventObject, IEnumEventObject interface [COM+], Clone method, IEnumEventObject::Clone, _cos_ienumeventobject_clone, cos.ienumeventobject_clone, eventsys/IEnumEventObject::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

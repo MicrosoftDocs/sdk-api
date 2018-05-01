@@ -7,7 +7,7 @@ old-location: wmp\iwmpnodewindowed__deprecated.htm
 old-project: WMP
 ms.assetid: ef99ff7c-d4b0-448e-8057-037535aaf847
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPNodeWindowed, IWMPNodeWindowed (deprecated), IWMPNodeWindowed (deprecated) interface [Windows Media Player], IWMPNodeWindowed (deprecated) interface [Windows Media Player], described, IWMPNodeWindowedInterfaceRendering, wmp.iwmpnodewindowed__deprecated, wmprealestate/IWMPNodeWindowed (deprecated)
 ms.prod: windows-hardware
 ms.technology: windows-devices

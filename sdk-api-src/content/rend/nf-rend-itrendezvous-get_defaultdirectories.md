@@ -7,7 +7,7 @@ old-location: tapi3\itrendezvous_get_defaultdirectories.htm
 old-project: Tapi
 ms.assetid: 3db02f17-6fb5-467b-91f6-dc501b5472cf
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: ITRendezvous, ITRendezvous interface [TAPI 2.2], get_DefaultDirectories method, ITRendezvous::get_DefaultDirectories, _tapi3_itrendezvous_get_defaultdirectories, get_DefaultDirectories method [TAPI 2.2], get_DefaultDirectories method [TAPI 2.2], ITRendezvous interface, get_DefaultDirectories,ITRendezvous.get_DefaultDirectories, rend/ITRendezvous::get_DefaultDirectories, tapi3.itrendezvous_get_defaultdirectories
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Rend.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITRendezvous::get_DefaultDirectories method

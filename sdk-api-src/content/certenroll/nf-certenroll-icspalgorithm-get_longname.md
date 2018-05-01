@@ -7,7 +7,7 @@ old-location: security\icspalgorithm_longname_property.htm
 old-project: SecCertEnroll
 ms.assetid: aaa5175f-c110-4e76-9145-1c667ea169a1
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: ICspAlgorithm, ICspAlgorithm interface [Security], LongName property, ICspAlgorithm.LongName, ICspAlgorithm::get_LongName, LongName property [Security], LongName property [Security], ICspAlgorithm interface, certenroll/ICspAlgorithm::LongName, certenroll/ICspAlgorithm::get_LongName, get_LongName,ICspAlgorithm.get_LongName, security.icspalgorithm_longname_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

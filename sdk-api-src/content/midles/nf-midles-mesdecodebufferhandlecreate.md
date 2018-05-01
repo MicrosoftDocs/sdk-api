@@ -7,7 +7,7 @@ old-location: rpc\mesdecodebufferhandlecreate.htm
 old-project: Rpc
 ms.assetid: 10a2312d-5969-4dde-bf62-308ad425569b
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: MesDecodeBufferHandleCreate, MesDecodeBufferHandleCreate function [RPC], _rpc_mesdecodebufferhandlecreate, midles/MesDecodeBufferHandleCreate, rpc.mesdecodebufferhandlecreate
 ms.prod: windows-hardware
 ms.technology: windows-devices

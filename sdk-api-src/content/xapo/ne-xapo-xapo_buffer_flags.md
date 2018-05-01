@@ -7,7 +7,7 @@ old-location: xaudio2\xapo_buffer_flags.htm
 old-project: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xapo.XAPO_BUFFER_FLAGS
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/20/2018
 ms.keywords: XAPO_BUFFER_FLAGS, XAPO_BUFFER_FLAGS enumeration [XAudio2 Audio Mixing APIs], XAPO_BUFFER_SILENT, XAPO_BUFFER_VALID, xapo/XAPO_BUFFER_FLAGS, xapo/XAPO_BUFFER_SILENT, xapo/XAPO_BUFFER_VALID, xaudio2.xapo_buffer_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices

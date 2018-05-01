@@ -7,7 +7,7 @@ old-location: secbiomet\winbioenumdatabases.htm
 old-project: SecBioMet
 ms.assetid: 163c669d-765f-4f8d-83c4-ff8bd064e44d
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: WinBioEnumDatabases, WinBioEnumDatabases function [Windows Biometric Framework API], secbiomet.winbioenumdatabases, winbio/WinBioEnumDatabases
 ms.prod: windows-hardware
 ms.technology: windows-devices

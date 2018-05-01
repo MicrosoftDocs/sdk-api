@@ -7,7 +7,7 @@ old-location: dshow\iamextdevice_get_devicepower.htm
 old-project: DirectShow
 ms.assetid: 7f25aac8-13ad-4ea2-96df-351da4729666
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMExtDevice, IAMExtDevice interface [DirectShow], get_DevicePower method, IAMExtDevice::get_DevicePower, IAMExtDeviceget_DevicePower, dshow.iamextdevice_get_devicepower, get_DevicePower method [DirectShow], get_DevicePower method [DirectShow], IAMExtDevice interface, get_DevicePower,IAMExtDevice.get_DevicePower, strmif/IAMExtDevice::get_DevicePower
 ms.prod: windows-hardware
 ms.technology: windows-devices

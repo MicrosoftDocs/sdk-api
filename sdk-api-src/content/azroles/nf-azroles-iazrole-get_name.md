@@ -7,7 +7,7 @@ old-location: security\iazrole_name.htm
 old-project: SecAuthZ
 ms.assetid: fecd1cb8-55b8-4c7c-ba49-a633f9c8710c
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: AzRole object [Security], Name property, IAzRole, IAzRole interface [Security], Name property, IAzRole.Name, IAzRole::get_Name, IAzRole::put_Name, Name property [Security], Name property [Security], AzRole object, Name property [Security], IAzRole interface, azroles/IAzRole::Name, azroles/IAzRole::get_Name, azroles/IAzRole::put_Name, get_Name,IAzRole.get_Name, security.iazrole_name
 ms.prod: windows-hardware
 ms.technology: windows-devices

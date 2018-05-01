@@ -7,7 +7,7 @@ old-location: mf\imfmediasourcetopologyprovider.htm
 old-project: medfound
 ms.assetid: 7c08fb54-6a78-4b6d-aae7-4b3a823eb880
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 7c08fb54-6a78-4b6d-aae7-4b3a823eb880, IMFMediaSourceTopologyProvider, IMFMediaSourceTopologyProvider interface [Media Foundation], IMFMediaSourceTopologyProvider interface [Media Foundation], described, mf.imfmediasourcetopologyprovider, mfidl/IMFMediaSourceTopologyProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices

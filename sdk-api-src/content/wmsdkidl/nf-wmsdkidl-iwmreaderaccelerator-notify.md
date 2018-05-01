@@ -7,7 +7,7 @@ old-location: wmformat\iwmreaderaccelerator_notify.htm
 old-project: wmformat
 ms.assetid: b5381f3a-e120-4db3-8463-5286e4318b13
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMReaderAccelerator, IWMReaderAccelerator interface [windows Media Format], Notify method, IWMReaderAccelerator::Notify, IWMReaderAcceleratorNotify, Notify method [windows Media Format], Notify method [windows Media Format], IWMReaderAccelerator interface, Notify,IWMReaderAccelerator.Notify, wmformat.iwmreaderaccelerator_notify, wmsdkidl/IWMReaderAccelerator::Notify
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mscs\igetclusterresourceinfo_getresourcetypename.htm
 old-project: MsCS
 ms.assetid: c7154163-0ab9-4766-99be-31457a0efc17
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: GetResourceTypeName method [Failover Cluster], GetResourceTypeName method [Failover Cluster], IGetClusterResourceInfo interface, GetResourceTypeName,IGetClusterResourceInfo.GetResourceTypeName, IGetClusterResourceInfo, IGetClusterResourceInfo interface [Failover Cluster], GetResourceTypeName method, IGetClusterResourceInfo::GetResourceTypeName, _wolf_igetclusterresourceinfo_getresourcetypename, cluadmex/IGetClusterResourceInfo::GetResourceTypeName, mscs.igetclusterresourceinfo_getresourcetypename
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: LOG_MANAGEMENT_CALLBACKS, *PLOG_MANAGEMENT_CALLBACKS
+req.typenames: Sources
 topic_type:
 -	APIRef
 -	kbSyntax

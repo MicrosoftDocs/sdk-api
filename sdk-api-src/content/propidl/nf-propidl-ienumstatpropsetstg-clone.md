@@ -7,7 +7,7 @@ old-location: stg\ienumstatpropsetstg_clone.htm
 old-project: Stg
 ms.assetid: f875d5e9-fac0-4961-9570-342f55cf307e
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/20/2018
 ms.keywords: Clone method [Structured Storage], Clone method [Structured Storage], IEnumSTATPROPSETSTG interface, Clone,IEnumSTATPROPSETSTG.Clone, IEnumSTATPROPSETSTG, IEnumSTATPROPSETSTG interface [Structured Storage], Clone method, IEnumSTATPROPSETSTG::Clone, propidlbase/IEnumSTATPROPSETSTG::Clone, stg.ienumstatpropsetstg_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IEnumSTATPROPSETSTG::Clone method

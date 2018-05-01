@@ -7,7 +7,7 @@ old-location: mf\imfmediaengineex_getbalance.htm
 old-project: medfound
 ms.assetid: 57935B52-27BE-47AF-8702-9DF91E1B515D
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetBalance method [Media Foundation], GetBalance method [Media Foundation], IMFMediaEngineEx interface, GetBalance,IMFMediaEngineEx.GetBalance, IMFMediaEngineEx, IMFMediaEngineEx interface [Media Foundation], GetBalance method, IMFMediaEngineEx::GetBalance, mf.imfmediaengineex_getbalance, mfmediaengine/IMFMediaEngineEx::GetBalance
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: com\iperpropertybrowsing_mappropertytopage.htm
 old-project: com
 ms.assetid: f8cf86eb-23d1-4aa6-859a-055df99b064c
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IPerPropertyBrowsing, IPerPropertyBrowsing interface [COM], MapPropertyToPage method, IPerPropertyBrowsing::MapPropertyToPage, MapPropertyToPage method [COM], MapPropertyToPage method [COM], IPerPropertyBrowsing interface, MapPropertyToPage,IPerPropertyBrowsing.MapPropertyToPage, _ctrl_iperpropertybrowsing_mappropertytopage, com.iperpropertybrowsing_mappropertytopage, ocidl/IPerPropertyBrowsing::MapPropertyToPage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IPerPropertyBrowsing::MapPropertyToPage method

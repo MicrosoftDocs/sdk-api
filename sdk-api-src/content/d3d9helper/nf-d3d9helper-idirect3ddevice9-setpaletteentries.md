@@ -1,0 +1,122 @@
+---
+UID: NF:d3d9helper.IDirect3DDevice9.SetPaletteEntries
+title: IDirect3DDevice9::SetPaletteEntries method
+author: windows-driver-content
+description: Sets palette entries.
+old-location: direct3d9\idirect3ddevice9__setpaletteentries.htm
+old-project: direct3d9
+ms.assetid: VS|directx_sdk|~\idirect3ddevice9__setpaletteentries.htm
+ms.author: windowsdriverdev
+ms.date: 4/10/2018
+ms.keywords: IDirect3DDevice9, IDirect3DDevice9 interface [Direct3D 9], SetPaletteEntries method, IDirect3DDevice9::SetPaletteEntries, SetPaletteEntries method [Direct3D 9], SetPaletteEntries method [Direct3D 9], IDirect3DDevice9 interface, SetPaletteEntries,IDirect3DDevice9.SetPaletteEntries, bc7747ff-8f30-7495-fd87-8a6cb44c173c, d3d9helper/IDirect3DDevice9::SetPaletteEntries, direct3d9.idirect3ddevice9__setpaletteentries
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: d3d9helper.h
+req.include-header: D3D9.h
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: D3DVSHADERCAPS2_0
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	D3D9.lib
+-	D3D9.dll
+api_name:
+-	IDirect3DDevice9.SetPaletteEntries
+product: Windows
+targetos: Windows
+req.lib: D3D9.lib
+req.dll: 
+req.irql: 
+---
+
+# IDirect3DDevice9::SetPaletteEntries method
+
+
+## -description
+
+
+Sets palette entries.
+
+
+## -parameters
+
+
+
+
+### -param PaletteNumber [in]
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+
+An ordinal value identifying the particular palette upon which the operation is to be performed. 
+
+
+### -param pEntries [in]
+
+Type: <b>const <a href="https://msdn.microsoft.com/8ee46b54-e076-4b85-a55e-a7974a4c58b6">PALETTEENTRY</a>*</b>
+
+Pointer to a <a href="https://msdn.microsoft.com/8ee46b54-e076-4b85-a55e-a7974a4c58b6">PALETTEENTRY</a> structure, representing the palette entries to set. The number of <b>PALETTEENTRY</b> structures pointed to by pEntries is assumed to be 256. See Remarks. 
+
+
+## -returns
+
+
+
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+
+If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be D3DERR_INVALIDCALL.
+
+
+
+
+## -remarks
+
+
+
+For Direct3D 9 applications, any palette sent to this method must conform to the D3DPTEXTURECAPS_ALPHAPALETTE capability bit of the <a href="https://msdn.microsoft.com/44457b7b-a1f7-4019-b971-8ec2334d3313">D3DCAPS9</a> structure. If D3DPTEXTURECAPS_ALPHAPALETTE is not set, every entry in the palette must have alpha set to 1.0 or this method will fail with D3DERR_INVALIDCALL. If D3DPTEXTURECAPS_ALPHAPALETTE is set, then any set of alpha values are allowed. Note that the debug runtime will print a warning message if all palette entries have alpha set to 0. 
+
+A single logical palette is associated with the device, and is shared by all texture stages.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/cf951e8e-7adb-417a-bda0-9b3cde4912a7">IDirect3DDevice9</a>
+
+
+
+<a href="https://msdn.microsoft.com/e72ec7a1-9904-4a07-a662-24c6532cfdc8">IDirect3DDevice9::GetCurrentTexturePalette</a>
+
+
+
+<a href="https://msdn.microsoft.com/f89396a5-57bf-4e3c-b5e8-044f58201156">IDirect3DDevice9::GetPaletteEntries</a>
+
+
+
+<a href="https://msdn.microsoft.com/5d97ccf4-20cd-4773-905a-e12b279e4f0b">IDirect3DDevice9::SetCurrentTexturePalette</a>
+
+
+
+<a href="https://msdn.microsoft.com/dea4b4bc-7eba-40fa-9c2c-0851fe7e231b">Texture Palettes (Direct3D 9)</a>
+ 
+
+ 
+

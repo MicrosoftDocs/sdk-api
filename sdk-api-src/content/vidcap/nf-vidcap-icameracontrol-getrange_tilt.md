@@ -7,7 +7,7 @@ old-location: dshow\icameracontrol_getrange_tilt.htm
 old-project: DirectShow
 ms.assetid: d48920cf-677e-4014-a998-426bb45d1b46
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ICameraControl, ICameraControl interface [DirectShow], getRange_Tilt method, ICameraControl::getRange_Tilt, ICameraControlgetRange_Tilt, dshow.icameracontrol_getrange_tilt, getRange_Tilt method [DirectShow], getRange_Tilt method [DirectShow], ICameraControl interface, getRange_Tilt,ICameraControl.getRange_Tilt, vidcap/ICameraControl::getRange_Tilt
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: VIDEOHDR, *PVIDEOHDR, *LPVIDEOHDR
+req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
 topic_type:
 -	APIRef
 -	kbSyntax

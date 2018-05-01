@@ -7,7 +7,7 @@ old-location: wmi\ienumwbemclassobject_skip.htm
 old-project: WmiSdk
 ms.assetid: 9579086c-cd45-4b3c-bd43-de0b89745b02
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: IEnumWbemClassObject, IEnumWbemClassObject interface [Windows Management Instrumentation], Skip method, IEnumWbemClassObject::Skip, Skip method [Windows Management Instrumentation], Skip method [Windows Management Instrumentation], IEnumWbemClassObject interface, Skip,IEnumWbemClassObject.Skip, _hmm_ienumwbemclassobject_skip, wbemcli/IEnumWbemClassObject::Skip, wmi.ienumwbemclassobject_skip
 ms.prod: windows-hardware
 ms.technology: windows-devices

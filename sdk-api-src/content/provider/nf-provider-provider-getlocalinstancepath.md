@@ -7,7 +7,7 @@ old-location: wmi\provider_getlocalinstancepath.htm
 old-project: WmiSdk
 ms.assetid: c419205f-d07d-4887-8e36-ccde37c2351f
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: GetLocalInstancePath method [Windows Management Instrumentation], GetLocalInstancePath method [Windows Management Instrumentation], Provider interface, GetLocalInstancePath,Provider.GetLocalInstancePath, Provider, Provider interface [Windows Management Instrumentation], GetLocalInstancePath method, Provider::GetLocalInstancePath, _hmm_provider_getlocalinstancepath, provider/Provider::GetLocalInstancePath, wmi.provider_getlocalinstancepath
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # Provider::GetLocalInstancePath method

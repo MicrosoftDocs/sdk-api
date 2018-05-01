@@ -7,7 +7,7 @@ old-location: termserv\itssbglobalstore_enumeratetargets.htm
 old-project: TermServ
 ms.assetid: 939d967f-6846-4ef2-9943-a171eac6cb21
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: EnumerateTargets method [Remote Desktop Services], EnumerateTargets method [Remote Desktop Services], ITsSbGlobalStore interface, EnumerateTargets,ITsSbGlobalStore.EnumerateTargets, ITsSbGlobalStore, ITsSbGlobalStore interface [Remote Desktop Services], EnumerateTargets method, ITsSbGlobalStore::EnumerateTargets, sbtsv/ITsSbGlobalStore::EnumerateTargets, termserv.itssbglobalstore_enumeratetargets
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITsSbGlobalStore::EnumerateTargets method

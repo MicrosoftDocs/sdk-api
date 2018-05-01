@@ -7,7 +7,7 @@ old-location: appxpkg\iappxmanifestapplication_getappusermodelid.htm
 old-project: appxpkg
 ms.assetid: A1CD62B4-A314-43B3-AD80-3EB3EDF63B3D
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/26/2018
 ms.keywords: GetAppUserModelId method [App packaging and management], GetAppUserModelId method [App packaging and management], IAppxManifestApplication interface, GetAppUserModelId,IAppxManifestApplication.GetAppUserModelId, IAppxManifestApplication, IAppxManifestApplication interface [App packaging and management], GetAppUserModelId method, IAppxManifestApplication::GetAppUserModelId, appxpackaging/IAppxManifestApplication::GetAppUserModelId, appxpkg.iappxmanifestapplication_getappusermodelid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_ARCHITECTURE2
+req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,7 +7,7 @@ old-location: dshow\iamvideodecimationproperties_querydecimationusage.htm
 old-project: DirectShow
 ms.assetid: 3addb9be-61df-4310-9066-85f75c64aae4
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMVideoDecimationProperties, IAMVideoDecimationProperties interface [DirectShow], QueryDecimationUsage method, IAMVideoDecimationProperties::QueryDecimationUsage, IAMVideoDecimationPropertiesQueryDecimationUsage, QueryDecimationUsage method [DirectShow], QueryDecimationUsage method [DirectShow], IAMVideoDecimationProperties interface, QueryDecimationUsage,IAMVideoDecimationProperties.QueryDecimationUsage, dshow.iamvideodecimationproperties_querydecimationusage, strmif/IAMVideoDecimationProperties::QueryDecimationUsage
 ms.prod: windows-hardware
 ms.technology: windows-devices

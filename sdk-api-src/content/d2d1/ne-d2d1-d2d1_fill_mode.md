@@ -7,7 +7,7 @@ old-location: direct2d\D2D1_FILL_MODE.htm
 old-project: Direct2D
 ms.assetid: f1a14447-39fa-4a48-9516-ff5b03abc3a6
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: D2D1_FILL_MODE, D2D1_FILL_MODE enumeration [Direct2D], D2D1_FILL_MODE_ALTERNATE, D2D1_FILL_MODE_WINDING, d2d1/D2D1_FILL_MODE, d2d1/D2D1_FILL_MODE_ALTERNATE, d2d1/D2D1_FILL_MODE_WINDING, direct2d.D2D1_FILL_MODE
 ms.prod: windows-hardware
 ms.technology: windows-devices

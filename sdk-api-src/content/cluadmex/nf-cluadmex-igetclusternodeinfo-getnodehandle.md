@@ -7,7 +7,7 @@ old-location: mscs\igetclusternodeinfo_getnodehandle.htm
 old-project: MsCS
 ms.assetid: d1932844-9900-4a16-8c9a-39f89bddfdb0
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: GetNodeHandle method [Failover Cluster], GetNodeHandle method [Failover Cluster], IGetClusterNodeInfo interface, GetNodeHandle,IGetClusterNodeInfo.GetNodeHandle, IGetClusterNodeInfo, IGetClusterNodeInfo interface [Failover Cluster], GetNodeHandle method, IGetClusterNodeInfo::GetNodeHandle, _wolf_igetclusternodeinfo_getnodehandle, cluadmex/IGetClusterNodeInfo::GetNodeHandle, mscs.igetclusternodeinfo_getnodehandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: LOG_MANAGEMENT_CALLBACKS, *PLOG_MANAGEMENT_CALLBACKS
+req.typenames: Sources
 topic_type:
 -	APIRef
 -	kbSyntax

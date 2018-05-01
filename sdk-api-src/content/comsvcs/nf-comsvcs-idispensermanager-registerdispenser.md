@@ -7,7 +7,7 @@ old-location: cos\idispensermanager_registerdispenser.htm
 old-project: cossdk
 ms.assetid: 18633c7f-d589-4e38-82e7-7cdae3fbf1ba
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: IDispenserManager, IDispenserManager interface [COM+], RegisterDispenser method, IDispenserManager::RegisterDispenser, RegisterDispenser method [COM+], RegisterDispenser method [COM+], IDispenserManager interface, RegisterDispenser,IDispenserManager.RegisterDispenser, _dtc_IDispenserManager_RegisterDispenser, comsvcs/IDispenserManager::RegisterDispenser, cos.idispensermanager_registerdispenser
 ms.prod: windows-hardware
 ms.technology: windows-devices

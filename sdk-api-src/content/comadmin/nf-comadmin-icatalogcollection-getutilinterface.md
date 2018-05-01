@@ -7,7 +7,7 @@ old-location: cos\icatalogcollection_getutilinterface.htm
 old-project: cossdk
 ms.assetid: bac2153d-253b-4be1-be14-2c1207799ada
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: GetUtilInterface method [COM+], GetUtilInterface method [COM+], ICatalogCollection interface, GetUtilInterface,ICatalogCollection.GetUtilInterface, ICatalogCollection, ICatalogCollection interface [COM+], GetUtilInterface method, ICatalogCollection::GetUtilInterface, _cos_ICatalogCollection_GetUtilInterface, comadmin/ICatalogCollection::GetUtilInterface, cos.icatalogcollection_getutilinterface
 ms.prod: windows-hardware
 ms.technology: windows-devices

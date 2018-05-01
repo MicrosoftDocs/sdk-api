@@ -7,7 +7,7 @@ old-location: termserv\itssbsession_clientdisplay.htm
 old-project: TermServ
 ms.assetid: cde688e4-b477-4e55-aa99-14d3f03de204
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: ClientDisplay property [Remote Desktop Services], ClientDisplay property [Remote Desktop Services], ITsSbSession interface, ITsSbSession, ITsSbSession interface [Remote Desktop Services], ClientDisplay property, ITsSbSession.ClientDisplay, ITsSbSession::get_ClientDisplay, ITsSbSession::put_ClientDisplay, put_ClientDisplay,ITsSbSession.put_ClientDisplay, sbtsv/ITsSbSession::ClientDisplay, sbtsv/ITsSbSession::get_ClientDisplay, sbtsv/ITsSbSession::put_ClientDisplay, termserv.itssbsession_clientdisplay
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITsSbSession::put_ClientDisplay method

@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrSyncItem_GetItemInfo.htm
 old-project: shell
 ms.assetid: b6257d66-36c8-41d6-88f0-99417755582b
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetItemInfo method [Windows Shell], GetItemInfo method [Windows Shell], ISyncMgrSyncItem interface, GetItemInfo,ISyncMgrSyncItem.GetItemInfo, ISyncMgrSyncItem, ISyncMgrSyncItem interface [Windows Shell], GetItemInfo method, ISyncMgrSyncItem::GetItemInfo, _shell_ISyncMgrSyncItem_GetItemInfo, shell.ISyncMgrSyncItem_GetItemInfo, syncmgr/ISyncMgrSyncItem::GetItemInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\cameracontrolflags.htm
 old-project: DirectShow
 ms.assetid: 806322e7-9a70-4dc1-8b10-2479fb3ec935
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: CameraControlFlags, CameraControlFlags enumeration [DirectShow], CameraControlFlagsEnumeration, CameraControl_Flags_Auto, CameraControl_Flags_Manual, dshow.cameracontrolflags, strmif/CameraControlFlags, strmif/CameraControl_Flags_Auto, strmif/CameraControl_Flags_Manual, tagCameraControlFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices

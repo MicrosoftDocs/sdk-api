@@ -7,7 +7,7 @@ old-location: controls\ITextFont_GetEngrave.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getengrave.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: GetEngrave method [Windows Controls], GetEngrave method [Windows Controls], ITextFont interface, GetEngrave,ITextFont.GetEngrave, ITextFont, ITextFont interface [Windows Controls], GetEngrave method, ITextFont::GetEngrave, _win32_ITextFont_GetEngrave, _win32_ITextFont_GetEngrave_cpp, controls.ITextFont_GetEngrave, controls._win32_ITextFont_GetEngrave, tom/ITextFont::GetEngrave
 ms.prod: windows-hardware
 ms.technology: windows-devices

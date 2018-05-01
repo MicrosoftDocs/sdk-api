@@ -7,7 +7,7 @@ old-location: mstv\idvb_eit2_getsegmentinfo.htm
 old-project: mstv
 ms.assetid: acc83c4e-7ec5-43f3-8d29-5c974fea91b8
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetSegmentInfo method [Microsoft TV Technologies], GetSegmentInfo method [Microsoft TV Technologies], IDVB_EIT2 interface, GetSegmentInfo,IDVB_EIT2.GetSegmentInfo, IDVB_EIT2, IDVB_EIT2 interface [Microsoft TV Technologies], GetSegmentInfo method, IDVB_EIT2::GetSegmentInfo, dvbsiparser/IDVB_EIT2::GetSegmentInfo, mstv.idvb_eit2_getsegmentinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

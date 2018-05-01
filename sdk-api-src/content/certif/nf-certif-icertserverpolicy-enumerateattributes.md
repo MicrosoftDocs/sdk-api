@@ -7,7 +7,7 @@ old-location: security\icertserverpolicy_enumerateattributes.htm
 old-project: SecCrypto
 ms.assetid: 5db05ed9-ab17-462b-9a76-34458489771a
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: CCertServerPolicy object [Security], EnumerateAttributes method, EnumerateAttributes method [Security], EnumerateAttributes method [Security], CCertServerPolicy object, EnumerateAttributes method [Security], ICertServerPolicy interface, EnumerateAttributes,ICertServerPolicy.EnumerateAttributes, ICertServerPolicy, ICertServerPolicy interface [Security], EnumerateAttributes method, ICertServerPolicy::EnumerateAttributes, _certsrv_icertserverpolicy_enumerateattributes, certif/ICertServerPolicy::EnumerateAttributes, security.icertserverpolicy_enumerateattributes
 ms.prod: windows-hardware
 ms.technology: windows-devices

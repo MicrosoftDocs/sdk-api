@@ -7,7 +7,7 @@ old-location: security\iazapplication3_createroleassignment.htm
 old-project: SecAuthZ
 ms.assetid: 0646601d-97e6-437a-abfe-99fdb5bb1354
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: CreateRoleAssignment method [Security], CreateRoleAssignment method [Security], IAzApplication3 interface, CreateRoleAssignment,IAzApplication3.CreateRoleAssignment, IAzApplication3, IAzApplication3 interface [Security], CreateRoleAssignment method, IAzApplication3::CreateRoleAssignment, azroles/IAzApplication3::CreateRoleAssignment, security.iazapplication3_createroleassignment
 ms.prod: windows-hardware
 ms.technology: windows-devices

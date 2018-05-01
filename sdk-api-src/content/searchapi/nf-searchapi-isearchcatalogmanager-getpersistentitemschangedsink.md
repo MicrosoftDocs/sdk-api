@@ -7,7 +7,7 @@ old-location: search\_search_ISearchCatalogManager_GetPersistentItemsChangedSink
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\getpersistentitemschangedsink.htm
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/24/2018
 ms.keywords: GetPersistentItemsChangedSink method [search], GetPersistentItemsChangedSink method [search], ISearchCatalogManager interface, GetPersistentItemsChangedSink,ISearchCatalogManager.GetPersistentItemsChangedSink, ISearchCatalogManager, ISearchCatalogManager interface [search], GetPersistentItemsChangedSink method, ISearchCatalogManager::GetPersistentItemsChangedSink, _search_ISearchCatalogManager_GetPersistentItemsChangedSink, search._search_ISearchCatalogManager_GetPersistentItemsChangedSink, searchapi/ISearchCatalogManager::GetPersistentItemsChangedSink
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ISearchCatalogManager::GetPersistentItemsChangedSink method

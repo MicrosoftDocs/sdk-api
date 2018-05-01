@@ -7,7 +7,7 @@ old-location: com\imarshal_disconnectobject.htm
 old-project: com
 ms.assetid: 1a087fe2-d1ad-4ed9-b6f2-12389656e384
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: DisconnectObject method [COM], DisconnectObject method [COM], IMarshal interface, DisconnectObject,IMarshal.DisconnectObject, IMarshal, IMarshal interface [COM], DisconnectObject method, IMarshal::DisconnectObject, _com_imarshal_disconnectobject, com.imarshal_disconnectobject, objidlbase/IMarshal::DisconnectObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMarshal::DisconnectObject method

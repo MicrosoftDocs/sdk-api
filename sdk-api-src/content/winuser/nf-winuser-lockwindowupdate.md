@@ -7,7 +7,7 @@ old-location: gdi\lockwindowupdate.htm
 old-project: gdi
 ms.assetid: 00ec40c7-8ab2-40db-a9bb-48e18d66bf1a
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/17/2018
 ms.keywords: LockWindowUpdate, LockWindowUpdate function [Windows GDI], _win32_LockWindowUpdate, gdi.lockwindowupdate, winuser/LockWindowUpdate
 ms.prod: windows-hardware
 ms.technology: windows-devices

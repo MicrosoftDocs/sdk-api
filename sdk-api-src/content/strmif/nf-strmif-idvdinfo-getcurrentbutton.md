@@ -7,7 +7,7 @@ old-location: dshow\idvdinfo_getcurrentbutton.htm
 old-project: DirectShow
 ms.assetid: 13df79ea-81c9-4060-8e11-ad7a24a7b5fa
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetCurrentButton method [DirectShow], GetCurrentButton method [DirectShow], IDvdInfo interface, GetCurrentButton,IDvdInfo.GetCurrentButton, IDvdInfo, IDvdInfo interface [DirectShow], GetCurrentButton method, IDvdInfo::GetCurrentButton, IDvdInfoGetCurrentButton, dshow.idvdinfo_getcurrentbutton, strmif/IDvdInfo::GetCurrentButton
 ms.prod: windows-hardware
 ms.technology: windows-devices

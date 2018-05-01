@@ -7,7 +7,7 @@ old-location: search\_search_IRelationship_Name.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\irelationship\name.htm
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/24/2018
 ms.keywords: IRelationship, IRelationship interface [search], Name method, IRelationship::Name, Name method [search], Name method [search], IRelationship interface, Name,IRelationship.Name, _search_IRelationship_Name, search._search_IRelationship_Name, structuredquery/IRelationship::Name
 ms.prod: windows-hardware
 ms.technology: windows-devices

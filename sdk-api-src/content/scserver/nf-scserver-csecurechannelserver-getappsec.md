@@ -7,7 +7,7 @@ old-location: wmdm\csecurechannelserver_getappsec.htm
 old-project: WMDM
 ms.assetid: 60659c36-ef9a-46fd-9a61-4a5a5210fd1f
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: CSecureChannelServer, CSecureChannelServer interface [windows Media Device Manager], GetAppSec method, CSecureChannelServer::GetAppSec, CSecureChannelServerGetAppSec, GetAppSec method [windows Media Device Manager], GetAppSec method [windows Media Device Manager], CSecureChannelServer interface, GetAppSec,CSecureChannelServer.GetAppSec, scserver/CSecureChannelServer::GetAppSec, wmdm.csecurechannelserver_getappsec
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # CSecureChannelServer::GetAppSec method

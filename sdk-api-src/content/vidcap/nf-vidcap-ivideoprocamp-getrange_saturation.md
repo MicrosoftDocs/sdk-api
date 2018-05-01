@@ -7,7 +7,7 @@ old-location: dshow\ivideoprocamp_getrange_saturation.htm
 old-project: DirectShow
 ms.assetid: 7c3d99a4-fc23-4d5e-907e-72272599a684
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IVideoProcAmp, IVideoProcAmp interface [DirectShow], getRange_Saturation method, IVideoProcAmp::getRange_Saturation, IVideoProcAmpgetRange_Saturation, dshow.ivideoprocamp_getrange_saturation, getRange_Saturation method [DirectShow], getRange_Saturation method [DirectShow], IVideoProcAmp interface, getRange_Saturation,IVideoProcAmp.getRange_Saturation, vidcap/IVideoProcAmp::getRange_Saturation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: VIDEOHDR, *PVIDEOHDR, *LPVIDEOHDR
+req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,7 +7,7 @@ old-location: wmi\chstringarray_removeall.htm
 old-project: WmiSdk
 ms.assetid: be9df3fd-afa5-4f07-99cd-ddccdeaa3fd3
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: CHStringArray, CHStringArray interface [Windows Management Instrumentation], RemoveAll method, CHStringArray::RemoveAll, RemoveAll method [Windows Management Instrumentation], RemoveAll method [Windows Management Instrumentation], CHStringArray interface, RemoveAll,CHStringArray.RemoveAll, _hmm_chstringarray_removeall, chstrarr/CHStringArray::RemoveAll, wmi.chstringarray_removeall
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CF_SYNC_ROOT_STANDARD_INFO
+req.typenames: CF_SYNC_STATUS
 topic_type:
 -	APIRef
 -	kbSyntax

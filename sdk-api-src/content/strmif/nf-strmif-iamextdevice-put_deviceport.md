@@ -7,7 +7,7 @@ old-location: dshow\iamextdevice_put_deviceport.htm
 old-project: DirectShow
 ms.assetid: bb83ae40-875b-47c4-8e8e-944392ad0782
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMExtDevice, IAMExtDevice interface [DirectShow], put_DevicePort method, IAMExtDevice::put_DevicePort, IAMExtDeviceput_DevicePort, dshow.iamextdevice_put_deviceport, put_DevicePort method [DirectShow], put_DevicePort method [DirectShow], IAMExtDevice interface, put_DevicePort,IAMExtDevice.put_DevicePort, strmif/IAMExtDevice::put_DevicePort
 ms.prod: windows-hardware
 ms.technology: windows-devices

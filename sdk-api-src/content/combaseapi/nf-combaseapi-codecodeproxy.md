@@ -7,7 +7,7 @@ old-location: winrt\codecodeproxy.htm
 old-project: WinRT
 ms.assetid: C61C68B1-78CA-4052-9E24-629AB4083B86
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/24/2018
 ms.keywords: CoDecodeProxy, CoDecodeProxy function [Windows Runtime], combaseapi/CoDecodeProxy, winrt.codecodeproxy
 ms.prod: windows-hardware
 ms.technology: windows-devices

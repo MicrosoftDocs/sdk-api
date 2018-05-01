@@ -7,7 +7,7 @@ old-location: mf\imfcontentprotectiondevice_invokefunction.htm
 old-project: medfound
 ms.assetid: 1BEC7122-1DFB-49D7-BE60-7CE9D83A64F5
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFContentProtectionDevice, IMFContentProtectionDevice interface [Media Foundation], InvokeFunction method, IMFContentProtectionDevice::InvokeFunction, InvokeFunction method [Media Foundation], InvokeFunction method [Media Foundation], IMFContentProtectionDevice interface, InvokeFunction,IMFContentProtectionDevice.InvokeFunction, mf.imfcontentprotectiondevice_invokefunction, mfidl/IMFContentProtectionDevice::InvokeFunction
 ms.prod: windows-hardware
 ms.technology: windows-devices

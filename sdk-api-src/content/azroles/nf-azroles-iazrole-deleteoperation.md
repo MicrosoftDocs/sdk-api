@@ -7,7 +7,7 @@ old-location: security\iazrole_deleteoperation.htm
 old-project: SecAuthZ
 ms.assetid: d3486a12-7059-47b8-9f06-a025d5756b70
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: AzRole object [Security], DeleteOperation method, DeleteOperation method [Security], DeleteOperation method [Security], AzRole object, DeleteOperation method [Security], IAzRole interface, DeleteOperation,IAzRole.DeleteOperation, IAzRole, IAzRole interface [Security], DeleteOperation method, IAzRole::DeleteOperation, azroles/IAzRole::DeleteOperation, security.iazrole_deleteoperation
 ms.prod: windows-hardware
 ms.technology: windows-devices

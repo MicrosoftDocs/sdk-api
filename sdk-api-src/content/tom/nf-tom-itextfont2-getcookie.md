@@ -7,7 +7,7 @@ old-location: controls\itextfont2_getcookie.htm
 old-project: Controls
 ms.assetid: f3e36338-8c88-4aaf-bbd0-c07a2228cb23
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: GetCookie method [Windows Controls], GetCookie method [Windows Controls], ITextFont2 interface, GetCookie,ITextFont2.GetCookie, ITextFont2, ITextFont2 interface [Windows Controls], GetCookie method, ITextFont2::GetCookie, controls.itextfont2_getcookie, tom/ITextFont2::GetCookie
 ms.prod: windows-hardware
 ms.technology: windows-devices

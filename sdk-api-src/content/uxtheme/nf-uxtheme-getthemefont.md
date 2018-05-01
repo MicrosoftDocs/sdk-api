@@ -7,7 +7,7 @@ old-location: controls\GetThemeFont.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemefont.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: GetThemeFont, GetThemeFont function [Windows Controls], controls.GetThemeFont, controls.inet_GetThemeFont, inet_GetThemeFont, inet_GetThemeFont_cpp, uxtheme/GetThemeFont
 ms.prod: windows-hardware
 ms.technology: windows-devices

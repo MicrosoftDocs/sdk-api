@@ -7,7 +7,7 @@ old-location: dshow\ivmrvideostreamcontrol9_setstreamactivestate.htm
 old-project: DirectShow
 ms.assetid: 2c17a006-f086-49cd-a237-3713fb9bd3f9
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IVMRVideoStreamControl9, IVMRVideoStreamControl9 interface [DirectShow], SetStreamActiveState method, IVMRVideoStreamControl9::SetStreamActiveState, IVMRVideoStreamControl9SetStreamActiveState, SetStreamActiveState method [DirectShow], SetStreamActiveState method [DirectShow], IVMRVideoStreamControl9 interface, SetStreamActiveState,IVMRVideoStreamControl9.SetStreamActiveState, dshow.ivmrvideostreamcontrol9_setstreamactivestate, vmr9/IVMRVideoStreamControl9::SetStreamActiveState
 ms.prod: windows-hardware
 ms.technology: windows-devices

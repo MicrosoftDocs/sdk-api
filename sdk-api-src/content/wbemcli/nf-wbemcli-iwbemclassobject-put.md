@@ -7,7 +7,7 @@ old-location: wmi\iwbemclassobject_put.htm
 old-project: WmiSdk
 ms.assetid: 7b67739f-5c67-447a-a1a5-fad9ce3e857a
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: IWbemClassObject, IWbemClassObject interface [Windows Management Instrumentation], Put method, IWbemClassObject::Put, Put method [Windows Management Instrumentation], Put method [Windows Management Instrumentation], IWbemClassObject interface, Put,IWbemClassObject.Put, _hmm_iwbemclassobject_put, wbemcli/IWbemClassObject::Put, wmi.iwbemclassobject_put
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\ioctl_pwm_pin_start.htm
 old-project: DevIO
 ms.assetid: 2256B46F-2E81-4A28-8F48-C870E4B8D906
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/3/2018
 ms.keywords: IOCTL_PWM_PIN_START, IOCTL_PWM_PIN_START control code, base.ioctl_pwm_pin_start, pwm/IOCTL_PWM_PIN_START
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IOCTL_PWM_PIN_START IOCTL

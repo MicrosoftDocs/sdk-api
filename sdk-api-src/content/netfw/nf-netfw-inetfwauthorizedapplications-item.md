@@ -7,7 +7,7 @@ old-location: ics\inetfwauthorizedapplications_item.htm
 old-project: ICS
 ms.assetid: 3c9eac16-9ba5-43f6-b52e-4340598745d8
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: INetFwAuthorizedApplications, INetFwAuthorizedApplications interface [ICS/ICF], Item method, INetFwAuthorizedApplications::Item, Item method [ICS/ICF], Item method [ICS/ICF], INetFwAuthorizedApplications interface, Item,INetFwAuthorizedApplications.Item, ics.inetfwauthorizedapplications_item, netfw/INetFwAuthorizedApplications::Item
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # INetFwAuthorizedApplications::Item method

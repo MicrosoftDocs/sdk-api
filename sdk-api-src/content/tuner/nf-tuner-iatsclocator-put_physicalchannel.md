@@ -7,7 +7,7 @@ old-location: mstv\iatsclocator_put_physicalchannel.htm
 old-project: mstv
 ms.assetid: 0699e4ef-7ebb-4515-9894-1592f07607ed
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IATSCLocator, IATSCLocator interface [Microsoft TV Technologies], put_PhysicalChannel method, IATSCLocator::put_PhysicalChannel, IATSCLocatorput_PhysicalChannel, mstv.iatsclocator_put_physicalchannel, put_PhysicalChannel method [Microsoft TV Technologies], put_PhysicalChannel method [Microsoft TV Technologies], IATSCLocator interface, put_PhysicalChannel,IATSCLocator.put_PhysicalChannel, tuner/IATSCLocator::put_PhysicalChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices

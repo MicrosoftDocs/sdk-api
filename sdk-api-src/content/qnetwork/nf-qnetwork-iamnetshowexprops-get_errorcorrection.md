@@ -7,7 +7,7 @@ old-location: dshow\iamnetshowexprops_get_errorcorrection.htm
 old-project: DirectShow
 ms.assetid: ab731d68-969b-425d-978a-879b15c06a88
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMNetShowExProps, IAMNetShowExProps interface [DirectShow], get_ErrorCorrection method, IAMNetShowExProps::get_ErrorCorrection, IAMNetShowExPropsget_ErrorCorrection, dshow.iamnetshowexprops_get_errorcorrection, get_ErrorCorrection method [DirectShow], get_ErrorCorrection method [DirectShow], IAMNetShowExProps interface, get_ErrorCorrection,IAMNetShowExProps.get_ErrorCorrection, qnetwork/IAMNetShowExProps::get_ErrorCorrection
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IAMNetShowExProps::get_ErrorCorrection method

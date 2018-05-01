@@ -7,7 +7,7 @@ old-location: search\_search_IUrlAccessor_AddRequestParameter.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor\addrequestparameter.htm
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/24/2018
 ms.keywords: AddRequestParameter method [search], AddRequestParameter method [search], IUrlAccessor interface, AddRequestParameter,IUrlAccessor.AddRequestParameter, IUrlAccessor, IUrlAccessor interface [search], AddRequestParameter method, IUrlAccessor::AddRequestParameter, _search_IUrlAccessor_AddRequestParameter, search._search_IUrlAccessor_AddRequestParameter, searchapi/IUrlAccessor::AddRequestParameter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IUrlAccessor::AddRequestParameter method

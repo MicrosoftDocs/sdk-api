@@ -7,7 +7,7 @@ old-location: security\pfn_crypt_verify_encoded_signature_func.htm
 old-project: SecCrypto
 ms.assetid: 0093ce11-8b72-403d-a3fd-3eaf2dc29d71
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: PFN_CRYPT_VERIFY_ENCODED_SIGNATURE_FUNC, PFN_CRYPT_VERIFY_ENCODED_SIGNATURE_FUNC function pointer [Security], security.pfn_crypt_verify_encoded_signature_func, wincrypt/PFN_CRYPT_VERIFY_ENCODED_SIGNATURE_FUNC
 ms.prod: windows-hardware
 ms.technology: windows-devices

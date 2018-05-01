@@ -7,7 +7,7 @@ old-location: mf\imfasfcontentinfo_setprofile.htm
 old-project: medfound
 ms.assetid: 7e7e062d-9507-400a-8cc2-5355c12017f5
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 7e7e062d-9507-400a-8cc2-5355c12017f5, IMFASFContentInfo, IMFASFContentInfo interface [Media Foundation], SetProfile method, IMFASFContentInfo::SetProfile, SetProfile method [Media Foundation], SetProfile method [Media Foundation], IMFASFContentInfo interface, SetProfile,IMFASFContentInfo.SetProfile, mf.imfasfcontentinfo_setprofile, wmcontainer/IMFASFContentInfo::SetProfile
 ms.prod: windows-hardware
 ms.technology: windows-devices

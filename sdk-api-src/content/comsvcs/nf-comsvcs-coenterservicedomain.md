@@ -7,7 +7,7 @@ old-location: cos\coenterservicedomain.htm
 old-project: cossdk
 ms.assetid: 84640b3b-1f43-4bec-abf6-c295cfb3da8b
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: CoEnterServiceDomain, CoEnterServiceDomain function [COM+], _cos_CoEnterServiceDomain, comsvcs/CoEnterServiceDomain, cos.coenterservicedomain
 ms.prod: windows-hardware
 ms.technology: windows-devices

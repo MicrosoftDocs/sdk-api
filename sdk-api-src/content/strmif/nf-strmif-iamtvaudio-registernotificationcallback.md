@@ -7,7 +7,7 @@ old-location: dshow\iamtvaudio_registernotificationcallback.htm
 old-project: DirectShow
 ms.assetid: dfd8d0b3-e90f-4f77-9a26-0a4db03041ee
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMTVAudio, IAMTVAudio interface [DirectShow], RegisterNotificationCallBack method, IAMTVAudio::RegisterNotificationCallBack, IAMTVAudioRegisterNotificationCallBack, RegisterNotificationCallBack method [DirectShow], RegisterNotificationCallBack method [DirectShow], IAMTVAudio interface, RegisterNotificationCallBack,IAMTVAudio.RegisterNotificationCallBack, dshow.iamtvaudio_registernotificationcallback, strmif/IAMTVAudio::RegisterNotificationCallBack
 ms.prod: windows-hardware
 ms.technology: windows-devices

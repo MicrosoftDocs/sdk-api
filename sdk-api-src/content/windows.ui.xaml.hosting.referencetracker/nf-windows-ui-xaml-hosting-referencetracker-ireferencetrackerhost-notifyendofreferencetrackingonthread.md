@@ -7,7 +7,7 @@ old-location: winrt\ireferencetrackerhost_notifyendofreferencetrackingonthread.h
 old-project: WinRT
 ms.assetid: 14391c59-832c-441a-956a-090888d35c81
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/24/2018
 ms.keywords: IReferenceTrackerHost, IReferenceTrackerHost interface [Windows Runtime], NotifyEndOfReferenceTrackingOnThread method, IReferenceTrackerHost::NotifyEndOfReferenceTrackingOnThread, NotifyEndOfReferenceTrackingOnThread method [Windows Runtime], NotifyEndOfReferenceTrackingOnThread method [Windows Runtime], IReferenceTrackerHost interface, NotifyEndOfReferenceTrackingOnThread,IReferenceTrackerHost.NotifyEndOfReferenceTrackingOnThread, windows/IReferenceTrackerHost::NotifyEndOfReferenceTrackingOnThread, winrt.ireferencetrackerhost_notifyendofreferencetrackingonthread
 ms.prod: windows-hardware
 ms.technology: windows-devices

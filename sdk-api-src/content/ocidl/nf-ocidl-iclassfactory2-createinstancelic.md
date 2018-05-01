@@ -7,7 +7,7 @@ old-location: com\iclassfactory2_createinstancelic.htm
 old-project: com
 ms.assetid: f33c7223-da7d-4582-9a23-7dc34be97a9f
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: CreateInstanceLic method [COM], CreateInstanceLic method [COM], IClassFactory2 interface, CreateInstanceLic,IClassFactory2.CreateInstanceLic, IClassFactory2, IClassFactory2 interface [COM], CreateInstanceLic method, IClassFactory2::CreateInstanceLic, _com_iclassfactory2_createinstancelic, com.iclassfactory2_createinstancelic, ocidl/IClassFactory2::CreateInstanceLic
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IClassFactory2::CreateInstanceLic method

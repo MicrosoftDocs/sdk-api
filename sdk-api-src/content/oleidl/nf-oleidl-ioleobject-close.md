@@ -7,7 +7,7 @@ old-location: com\ioleobject_close.htm
 old-project: com
 ms.assetid: 61ecd153-ed6b-4a2c-a862-54742c5769ee
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: Close method [COM], Close method [COM], IOleObject interface, Close,IOleObject.Close, IOleObject, IOleObject interface [COM], Close method, IOleObject::Close, _ole_ioleobject_close, com.ioleobject_close, oleidl/IOleObject::Close
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IOleObject::Close method

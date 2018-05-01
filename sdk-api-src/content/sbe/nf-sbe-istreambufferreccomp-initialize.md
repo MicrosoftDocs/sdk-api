@@ -7,7 +7,7 @@ old-location: mstv\istreambufferreccomp_initialize.htm
 old-project: mstv
 ms.assetid: 97a8519f-2377-43e9-b1ba-7d407caa44a9
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IStreamBufferRecComp, IStreamBufferRecComp interface [Microsoft TV Technologies], Initialize method, IStreamBufferRecComp::Initialize, IStreamBufferRecCompInitialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies], IStreamBufferRecComp interface, Initialize,IStreamBufferRecComp.Initialize, mstv.istreambufferreccomp_initialize, sbe/IStreamBufferRecComp::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IStreamBufferRecComp::Initialize method

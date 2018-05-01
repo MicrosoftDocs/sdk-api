@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_wicrawcapabilitiesinfo.htm
 old-project: wic
 ms.assetid: 1466cd90-8eab-4c5c-bb77-c75d35fe586b
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: WICRawCapabilitiesInfo, WICRawCapabilitiesInfo structure [Windows Imaging Component], _wic_codec_wicrawcapabilitiesinfo, wic._wic_codec_wicrawcapabilitiesinfo, wincodec/WICRawCapabilitiesInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

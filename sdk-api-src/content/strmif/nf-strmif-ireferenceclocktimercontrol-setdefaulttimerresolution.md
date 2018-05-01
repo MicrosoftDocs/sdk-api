@@ -7,7 +7,7 @@ old-location: dshow\ireferenceclocktimercontrol_setdefaulttimerresolution.htm
 old-project: DirectShow
 ms.assetid: d13d14a7-39dd-4281-9926-4af97cc5d450
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IReferenceClockTimerControl, IReferenceClockTimerControl interface [DirectShow], SetDefaultTimerResolution method, IReferenceClockTimerControl::SetDefaultTimerResolution, IReferenceClockTimerControlSetDefaultTimerResoluti, SetDefaultTimerResolution method [DirectShow], SetDefaultTimerResolution method [DirectShow], IReferenceClockTimerControl interface, SetDefaultTimerResolution,IReferenceClockTimerControl.SetDefaultTimerResolution, dshow.ireferenceclocktimercontrol_setdefaulttimerresolution, strmif/IReferenceClockTimerControl::SetDefaultTimerResolution
 ms.prod: windows-hardware
 ms.technology: windows-devices

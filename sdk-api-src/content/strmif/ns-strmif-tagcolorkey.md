@@ -7,7 +7,7 @@ old-location: dshow\colorkey.htm
 old-project: DirectShow
 ms.assetid: 1563488a-e4e5-472d-b665-5bbcb13fad1a
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: COLORKEY, COLORKEY structure [DirectShow], COLORKEYStructure, dshow.colorkey, strmif/COLORKEY, tagCOLORKEY
 ms.prod: windows-hardware
 ms.technology: windows-devices

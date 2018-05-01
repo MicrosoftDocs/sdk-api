@@ -7,7 +7,7 @@ old-location: xaudio2\ixaudio2_interface_release.htm
 old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2.IXAudio2.Release
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/20/2018
 ms.keywords: IXAudio2, IXAudio2 interface [XAudio2 Audio Mixing APIs], Release method, IXAudio2::Release, Release method [XAudio2 Audio Mixing APIs], Release method [XAudio2 Audio Mixing APIs], IXAudio2 interface, Release,IXAudio2.Release, xaudio2.ixaudio2_interface_release, xaudio2/IXAudio2::Release
 ms.prod: windows-hardware
 ms.technology: windows-devices

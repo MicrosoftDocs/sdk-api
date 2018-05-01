@@ -7,7 +7,7 @@ old-location: tablet\iinkstrokedisp_getrectangleintersections.htm
 old-project: tablet
 ms.assetid: fe042e12-21fa-4dae-988c-d082aa867520
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: GetRectangleIntersections method [Tablet PC], GetRectangleIntersections method [Tablet PC], IInkStrokeDisp interface, GetRectangleIntersections,IInkStrokeDisp.GetRectangleIntersections, IInkStrokeDisp, IInkStrokeDisp interface [Tablet PC], GetRectangleIntersections method, IInkStrokeDisp::GetRectangleIntersections, fe042e12-21fa-4dae-988c-d082aa867520, msinkaut/IInkStrokeDisp::GetRectangleIntersections, tablet.iinkstrokedisp_getrectangleintersections
 ms.prod: windows-hardware
 ms.technology: windows-devices

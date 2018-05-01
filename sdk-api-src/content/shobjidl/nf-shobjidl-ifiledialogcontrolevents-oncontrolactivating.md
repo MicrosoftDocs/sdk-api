@@ -7,7 +7,7 @@ old-location: shell\IFileDialogControlEvents_OnControlActivating.htm
 old-project: shell
 ms.assetid: 12efb183-65b9-4095-be57-7c7802bda2ce
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IFileDialogControlEvents, IFileDialogControlEvents interface [Windows Shell], OnControlActivating method, IFileDialogControlEvents::OnControlActivating, OnControlActivating method [Windows Shell], OnControlActivating method [Windows Shell], IFileDialogControlEvents interface, OnControlActivating,IFileDialogControlEvents.OnControlActivating, shell.IFileDialogControlEvents_OnControlActivating, shell_IFileDialogControlEvents_OnControlActivating, shobjidl/IFileDialogControlEvents::OnControlActivating
 ms.prod: windows-hardware
 ms.technology: windows-devices

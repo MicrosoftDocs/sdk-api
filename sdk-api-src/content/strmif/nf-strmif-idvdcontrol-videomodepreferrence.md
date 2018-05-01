@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol_videomodepreferrence.htm
 old-project: DirectShow
 ms.assetid: 9e68b09c-534c-46d2-bda0-72f3d1d86b66
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IDvdControl, IDvdControl interface [DirectShow], VideoModePreferrence method, IDvdControl::VideoModePreferrence, IDvdControlVideoModePreferrence, VideoModePreferrence method [DirectShow], VideoModePreferrence method [DirectShow], IDvdControl interface, VideoModePreferrence,IDvdControl.VideoModePreferrence, dshow.idvdcontrol_videomodepreferrence, strmif/IDvdControl::VideoModePreferrence
 ms.prod: windows-hardware
 ms.technology: windows-devices

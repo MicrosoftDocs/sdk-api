@@ -7,7 +7,7 @@ old-location: dshow\iamnetworkstatus_get_receivedpackets.htm
 old-project: DirectShow
 ms.assetid: 9437489d-87bf-45d4-82f3-22e8adb4df54
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMNetworkStatus, IAMNetworkStatus interface [DirectShow], get_ReceivedPackets method, IAMNetworkStatus::get_ReceivedPackets, IAMNetworkStatusget_ReceivedPackets, dshow.iamnetworkstatus_get_receivedpackets, get_ReceivedPackets method [DirectShow], get_ReceivedPackets method [DirectShow], IAMNetworkStatus interface, get_ReceivedPackets,IAMNetworkStatus.get_ReceivedPackets, qnetwork/IAMNetworkStatus::get_ReceivedPackets
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IAMNetworkStatus::get_ReceivedPackets method

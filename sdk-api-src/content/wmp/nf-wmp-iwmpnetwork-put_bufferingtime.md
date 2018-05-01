@@ -7,7 +7,7 @@ old-location: wmp\iwmpnetwork_put_bufferingtime.htm
 old-project: WMP
 ms.assetid: 9f25992f-e3a0-477b-b445-1f3fb7d9eae1
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPNetwork, IWMPNetwork interface [Windows Media Player], put_bufferingTime method, IWMPNetwork::put_bufferingTime, IWMPNetworkput_bufferingTime, put_bufferingTime method [Windows Media Player], put_bufferingTime method [Windows Media Player], IWMPNetwork interface, put_bufferingTime,IWMPNetwork.put_bufferingTime, wmp.iwmpnetwork_put_bufferingtime, wmp/IWMPNetwork::put_bufferingTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

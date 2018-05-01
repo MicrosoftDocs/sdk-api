@@ -7,7 +7,7 @@ old-location: direct3d11\d3d_shader_variable_flags.htm
 old-project: direct3d11
 ms.assetid: b89dc001-c335-4994-a644-88bfbeb7d663
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/6/2018
 ms.keywords: D3D10_SVF_USED, D3D10_SVF_USERPACKED, D3D11_SVF_INTERFACE_PARAMETER, D3D11_SVF_INTERFACE_POINTER, D3D_SHADER_VARIABLE_FLAGS, D3D_SHADER_VARIABLE_FLAGS enumeration [Direct3D 11], D3D_SVF_FORCE_DWORD, D3D_SVF_INTERFACE_PARAMETER, D3D_SVF_INTERFACE_POINTER, D3D_SVF_USED, D3D_SVF_USERPACKED, _D3D_SHADER_VARIABLE_FLAGS, d3dcommon/D3D10_SVF_USED, d3dcommon/D3D10_SVF_USERPACKED, d3dcommon/D3D11_SVF_INTERFACE_PARAMETER, d3dcommon/D3D11_SVF_INTERFACE_POINTER, d3dcommon/D3D_SHADER_VARIABLE_FLAGS, d3dcommon/D3D_SVF_FORCE_DWORD, d3dcommon/D3D_SVF_INTERFACE_PARAMETER, d3dcommon/D3D_SVF_INTERFACE_POINTER, d3dcommon/D3D_SVF_USED, d3dcommon/D3D_SVF_USERPACKED, direct3d11.d3d_shader_variable_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,7 @@ api_name:
 -	D3D_SHADER_VARIABLE_FLAGS
 product: Windows
 targetos: Windows
-req.lib: 
+req.lib: D3d9.lib
 req.dll: 
 req.irql: 
 ---

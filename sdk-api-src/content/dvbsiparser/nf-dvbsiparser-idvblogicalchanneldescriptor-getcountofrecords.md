@@ -7,7 +7,7 @@ old-location: mstv\idvblogicalchanneldescriptor_getcountofrecords.htm
 old-project: mstv
 ms.assetid: 97cadf6c-2549-4a7f-9ecb-c16298769a21
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetCountOfRecords method [DirectShow], GetCountOfRecords method [DirectShow], IDvbLogicalChannelDescriptor interface, GetCountOfRecords,IDvbLogicalChannelDescriptor.GetCountOfRecords, IDvbLogicalChannelDescriptor, IDvbLogicalChannelDescriptor interface [DirectShow], GetCountOfRecords method, IDvbLogicalChannelDescriptor::GetCountOfRecords, IDvbLogicalChannelDescriptorGetCountOfRecords, dvbsiparser/IDvbLogicalChannelDescriptor::GetCountOfRecords, mstv.idvblogicalchanneldescriptor_getcountofrecords
 ms.prod: windows-hardware
 ms.technology: windows-devices

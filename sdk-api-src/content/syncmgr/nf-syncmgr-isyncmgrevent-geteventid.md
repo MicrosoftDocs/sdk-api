@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrEvent_GetEventID.htm
 old-project: shell
 ms.assetid: 2951a015-b365-468b-a143-1b807885a99a
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetEventID method [Windows Shell], GetEventID method [Windows Shell], ISyncMgrEvent interface, GetEventID,ISyncMgrEvent.GetEventID, ISyncMgrEvent, ISyncMgrEvent interface [Windows Shell], GetEventID method, ISyncMgrEvent::GetEventID, _shell_ISyncMgrEvent_GetEventID, shell.ISyncMgrEvent_GetEventID, syncmgr/ISyncMgrEvent::GetEventID
 ms.prod: windows-hardware
 ms.technology: windows-devices

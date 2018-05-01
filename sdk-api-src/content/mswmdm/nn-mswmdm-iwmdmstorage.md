@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmstorage.htm
 old-project: WMDM
 ms.assetid: 1ede7c68-0169-4375-9b45-b0995ad14e44
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: IWMDMStorage, IWMDMStorage interface [windows Media Device Manager], IWMDMStorage interface [windows Media Device Manager], described, IWMDMStorageInterface, mswmdm/IWMDMStorage, wmdm.iwmdmstorage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IWMDMStorage interface

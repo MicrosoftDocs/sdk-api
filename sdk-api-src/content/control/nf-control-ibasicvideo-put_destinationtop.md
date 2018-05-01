@@ -7,7 +7,7 @@ old-location: dshow\ibasicvideo_put_destinationtop.htm
 old-project: DirectShow
 ms.assetid: 254fb104-c080-411d-9795-edcd4da41bdc
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IBasicVideo, IBasicVideo interface [DirectShow], put_DestinationTop method, IBasicVideo::put_DestinationTop, IBasicVideoput_DestinationTop, control/IBasicVideo::put_DestinationTop, dshow.ibasicvideo_put_destinationtop, put_DestinationTop method [DirectShow], put_DestinationTop method [DirectShow], IBasicVideo interface, put_DestinationTop,IBasicVideo.put_DestinationTop
 ms.prod: windows-hardware
 ms.technology: windows-devices

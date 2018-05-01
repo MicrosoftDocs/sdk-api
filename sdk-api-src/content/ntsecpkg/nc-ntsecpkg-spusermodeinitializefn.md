@@ -7,7 +7,7 @@ old-location: security\spusermodeinitialize.htm
 old-project: SecAuthN
 ms.assetid: e260db29-995b-4f32-b389-4ef62b3b29bc
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/24/2018
 ms.keywords: SpUserModeInitialize, SpUserModeInitialize function [Security], SpUserModeInitializeFn, _ssp_spusermodeinitialize, ntsecpkg/SpUserModeInitialize, security.spusermodeinitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # SpUserModeInitializeFn callback

@@ -7,7 +7,7 @@ old-location: security\icspinformation_valid_property.htm
 old-project: SecCertEnroll
 ms.assetid: 507896b0-598c-4a2d-854e-d4d266fdfaf7
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: ICspInformation, ICspInformation interface [Security], Valid property, ICspInformation.Valid, ICspInformation::get_Valid, Valid property [Security], Valid property [Security], ICspInformation interface, certenroll/ICspInformation::Valid, certenroll/ICspInformation::get_Valid, get_Valid,ICspInformation.get_Valid, security.icspinformation_valid_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

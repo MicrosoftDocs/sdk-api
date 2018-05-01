@@ -7,7 +7,7 @@ old-location: mf\imfvideoprocessor_getfilteringrange.htm
 old-project: medfound
 ms.assetid: 1e5f1635-51fe-4394-8a25-dcee3f55c711
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 1e5f1635-51fe-4394-8a25-dcee3f55c711, GetFilteringRange method [Media Foundation], GetFilteringRange method [Media Foundation], IMFVideoProcessor interface, GetFilteringRange,IMFVideoProcessor.GetFilteringRange, IMFVideoProcessor, IMFVideoProcessor interface [Media Foundation], GetFilteringRange method, IMFVideoProcessor::GetFilteringRange, evr9/IMFVideoProcessor::GetFilteringRange, mf.imfvideoprocessor_getfilteringrange
 ms.prod: windows-hardware
 ms.technology: windows-devices

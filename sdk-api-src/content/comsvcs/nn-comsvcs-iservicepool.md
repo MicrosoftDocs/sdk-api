@@ -7,7 +7,7 @@ old-location: cos\iservicepool.htm
 old-project: cossdk
 ms.assetid: fb86ffa5-b4cd-48bc-a99e-245e75ddb9c2
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: IServicePool, IServicePool interface [COM+], IServicePool interface [COM+], described, _cos_IServicePool, comsvcs/IServicePool, cos.iservicepool
 ms.prod: windows-hardware
 ms.technology: windows-devices

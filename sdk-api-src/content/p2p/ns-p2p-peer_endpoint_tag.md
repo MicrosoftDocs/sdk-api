@@ -7,7 +7,7 @@ old-location: p2p\peer_endpoint.htm
 old-project: P2PSdk
 ms.assetid: 9687b332-14ed-4023-b8c2-437d75fd0298
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/23/2018
 ms.keywords: "*PPEER_ENDPOINT, PCPEER_ENDPOINT, PCPEER_ENDPOINT structure pointer [Peer Networking], PEER_ENDPOINT, PEER_ENDPOINT structure [Peer Networking], PPEER_ENDPOINT, PPEER_ENDPOINT structure pointer [Peer Networking], p2p.peer_endpoint, p2p/PCPEER_ENDPOINT, p2p/PEER_ENDPOINT, p2p/PPEER_ENDPOINT, peer_endpoint_tag"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # peer_endpoint_tag structure

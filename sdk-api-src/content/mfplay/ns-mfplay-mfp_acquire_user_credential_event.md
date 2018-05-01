@@ -7,7 +7,7 @@ old-location: mf\mfp_acquire_user_credential_event.htm
 old-project: medfound
 ms.assetid: 61767b81-8641-43d5-b272-148d52517727
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: MFP_ACQUIRE_USER_CREDENTIAL_EVENT, MFP_ACQUIRE_USER_CREDENTIAL_EVENT structure [Media Foundation], mf.mfp_acquire_user_credential_event, mfplay/MFP_ACQUIRE_USER_CREDENTIAL_EVENT
 ms.prod: windows-hardware
 ms.technology: windows-devices

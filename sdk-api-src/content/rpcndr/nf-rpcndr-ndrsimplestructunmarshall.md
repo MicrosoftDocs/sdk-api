@@ -7,7 +7,7 @@ old-location: winprog\ndrsimplestructunmarshall.htm
 old-project: DevNotes
 ms.assetid: 6b4a28a3-3d0f-43c5-b59a-58c14435e28f
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/13/2018
 ms.keywords: NdrSimpleStructUnmarshall, NdrSimpleStructUnmarshall function [Windows API], rpcndr/NdrSimpleStructUnmarshall, winprog.ndrsimplestructunmarshall
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # NdrSimpleStructUnmarshall function

@@ -7,7 +7,7 @@ old-location: dshow\imediastreamfilter_waituntil.htm
 old-project: DirectShow
 ms.assetid: 5669a3c6-b060-49e8-b8e6-2e3617b44d62
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IMediaStreamFilter, IMediaStreamFilter interface [DirectShow], WaitUntil method, IMediaStreamFilter::WaitUntil, IMediaStreamFilterWaitUntil, WaitUntil method [DirectShow], WaitUntil method [DirectShow], IMediaStreamFilter interface, WaitUntil,IMediaStreamFilter.WaitUntil, amstream/IMediaStreamFilter::WaitUntil, dshow.imediastreamfilter_waituntil
 ms.prod: windows-hardware
 ms.technology: windows-devices

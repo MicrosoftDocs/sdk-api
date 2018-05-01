@@ -7,7 +7,7 @@ old-location: com\irpcstubbuffer_invoke.htm
 old-project: com
 ms.assetid: 78d20830-78d7-4395-aaec-8a86b7c41cc7
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IRpcStubBuffer, IRpcStubBuffer interface [COM], Invoke method, IRpcStubBuffer::Invoke, Invoke method [COM], Invoke method [COM], IRpcStubBuffer interface, Invoke,IRpcStubBuffer.Invoke, _com_irpcstubbuffer_invoke, com.irpcstubbuffer_invoke, objidlbase/IRpcStubBuffer::Invoke
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IRpcStubBuffer::Invoke method

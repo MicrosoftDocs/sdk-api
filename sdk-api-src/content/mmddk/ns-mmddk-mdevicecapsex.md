@@ -1,0 +1,69 @@
+---
+UID: NS:mmddk.MDEVICECAPSEX
+title: MDEVICECAPSEX
+author: windows-driver-content
+description: The MDEVICECAPSEX structure contains device capability information for Plug and Play (PnP) device drivers.
+old-location: audio\mdevicecapsex.htm
+old-project: audio
+ms.assetid: d2da18d2-4ff3-47a8-9cd9-f8df03eed0a5
+ms.author: windowsdriverdev
+ms.date: 4/16/2018
+ms.keywords: MDEVICECAPSEX, MDEVICECAPSEX structure [Audio Devices], aud-prop_12e0eeb8-beac-4b01-8a5c-6e78f58f703b.xml, audio.mdevicecapsex, mmddk/MDEVICECAPSEX
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: struct
+req.header: mmddk.h
+req.include-header: Mmddk.h, Mmsystem.h, Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Available in Windows XP and later Windows operating systems.
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: MDEVICECAPSEX
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mmddk.h
+api_name:
+-	MDEVICECAPSEX
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# MDEVICECAPSEX structure
+
+
+## -description
+
+
+The <code>MDEVICECAPSEX</code> structure contains device capability information for Plug and Play (PnP) device drivers.
+
+
+## -struct-fields
+
+
+
+
+### -field cbSize
+
+Specifies the size of the structure, in bytes.
+
+
+### -field pCaps
+
+Specifies the capabilities of the device. The format of this data is device specific.
+

@@ -7,7 +7,7 @@ old-location: direct2d\D2D1_FACTORY_TYPE.htm
 old-project: Direct2D
 ms.assetid: 428053d3-7ea0-4b01-9924-4a31d8e018fb
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: D2D1_FACTORY_TYPE, D2D1_FACTORY_TYPE enumeration [Direct2D], D2D1_FACTORY_TYPE_MULTI_THREADED, D2D1_FACTORY_TYPE_SINGLE_THREADED, d2d1/D2D1_FACTORY_TYPE, d2d1/D2D1_FACTORY_TYPE_MULTI_THREADED, d2d1/D2D1_FACTORY_TYPE_SINGLE_THREADED, direct2d.D2D1_FACTORY_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices

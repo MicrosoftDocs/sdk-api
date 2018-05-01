@@ -7,7 +7,7 @@ old-location: automat\itypeinfo_createinstance.htm
 old-project: automat
 ms.assetid: b11c51e6-8ae7-482d-87eb-8175ca98eb63
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: CreateInstance method [Automation], CreateInstance method [Automation], ITypeInfo interface, CreateInstance,ITypeInfo.CreateInstance, ITypeInfo, ITypeInfo interface [Automation], CreateInstance method, ITypeInfo::CreateInstance, _oa96_ITypeInfo_CreateInstance, automat.itypeinfo_createinstance, oaidl/ITypeInfo::CreateInstance
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITypeInfo::CreateInstance method

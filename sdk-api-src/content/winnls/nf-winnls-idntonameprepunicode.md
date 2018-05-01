@@ -7,7 +7,7 @@ old-location: intl\idntonameprepunicode.htm
 old-project: Intl
 ms.assetid: 25790685-9797-4cde-a530-94793b1245a0
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/25/2018
 ms.keywords: IdnToNameprepUnicode, IdnToNameprepUnicode function [Internationalization for Windows Applications], _win32_IdnToNameprepUnicode, intl.idntonameprepunicode, winnls/IdnToNameprepUnicode
 ms.prod: windows-hardware
 ms.technology: windows-devices

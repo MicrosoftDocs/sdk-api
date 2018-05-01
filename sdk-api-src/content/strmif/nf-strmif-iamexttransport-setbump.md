@@ -7,7 +7,7 @@ old-location: dshow\iamexttransport_setbump.htm
 old-project: DirectShow
 ms.assetid: c2f2b59f-2522-4f13-8861-fb4e2d9d406c
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMExtTransport, IAMExtTransport interface [DirectShow], SetBump method, IAMExtTransport::SetBump, IAMExtTransportSetBump, SetBump method [DirectShow], SetBump method [DirectShow], IAMExtTransport interface, SetBump,IAMExtTransport.SetBump, dshow.iamexttransport_setbump, strmif/IAMExtTransport::SetBump
 ms.prod: windows-hardware
 ms.technology: windows-devices

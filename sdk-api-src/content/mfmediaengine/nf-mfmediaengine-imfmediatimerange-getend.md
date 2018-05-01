@@ -7,7 +7,7 @@ old-location: mf\imfmediatimerange_getend.htm
 old-project: medfound
 ms.assetid: 864C0DEE-A1F7-488C-9A9D-366602667DE9
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetEnd method [Media Foundation], GetEnd method [Media Foundation], IMFMediaTimeRange interface, GetEnd,IMFMediaTimeRange.GetEnd, IMFMediaTimeRange, IMFMediaTimeRange interface [Media Foundation], GetEnd method, IMFMediaTimeRange::GetEnd, mf.imfmediatimerange_getend, mfmediaengine/IMFMediaTimeRange::GetEnd
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12rootsignature.htm
 old-project: direct3d12
 ms.assetid: BEE01381-12C2-4DD9-9121-22BB5840ECD5
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: ID3D12RootSignature, ID3D12RootSignature interface, ID3D12RootSignature interface, described, d3d12/ID3D12RootSignature, direct3d12.id3d12rootsignature
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\ix509extension.htm
 old-project: SecCertEnroll
 ms.assetid: f04e3f63-c826-4401-a1c8-b2614e0dc374
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: IX509Extension, IX509Extension interface [Security], IX509Extension interface [Security], described, certenroll/IX509Extension, security.ix509extension
 ms.prod: windows-hardware
 ms.technology: windows-devices

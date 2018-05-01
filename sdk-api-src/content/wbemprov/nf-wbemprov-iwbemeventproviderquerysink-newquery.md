@@ -7,7 +7,7 @@ old-location: wmi\iwbemeventproviderquerysink_newquery.htm
 old-project: WmiSdk
 ms.assetid: 82f76b19-2035-4567-b619-31ce8a35e422
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: IWbemEventProviderQuerySink, IWbemEventProviderQuerySink interface [Windows Management Instrumentation], NewQuery method, IWbemEventProviderQuerySink::NewQuery, NewQuery method [Windows Management Instrumentation], NewQuery method [Windows Management Instrumentation], IWbemEventProviderQuerySink interface, NewQuery,IWbemEventProviderQuerySink.NewQuery, _hmm_iwbemeventproviderquerysink_newquery, wbemprov/IWbemEventProviderQuerySink::NewQuery, wmi.iwbemeventproviderquerysink_newquery
 ms.prod: windows-hardware
 ms.technology: windows-devices

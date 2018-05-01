@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffectprimitive_getaffinematrix.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectprimitive\getaffinematrix.htm
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: GetAffineMatrix method [WPF Bitmap Effects], GetAffineMatrix method [WPF Bitmap Effects], IMILBitmapEffectPrimitive interface, GetAffineMatrix,IMILBitmapEffectPrimitive.GetAffineMatrix, IMILBitmapEffectPrimitive, IMILBitmapEffectPrimitive interface [WPF Bitmap Effects], GetAffineMatrix method, IMILBitmapEffectPrimitive::GetAffineMatrix, _wibe_imilbitmapeffectprimitive_getaffinematrix, mileffects/IMILBitmapEffectPrimitive::GetAffineMatrix, wibe._wibe_imilbitmapeffectprimitive_getaffinematrix
 ms.prod: windows-hardware
 ms.technology: windows-devices

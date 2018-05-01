@@ -7,7 +7,7 @@ old-location: mf\imfmediaengineextension_begincreateobject.htm
 old-project: medfound
 ms.assetid: 804E9F16-E4C9-41F6-8913-950A569FB835
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: BeginCreateObject method [Media Foundation], BeginCreateObject method [Media Foundation], IMFMediaEngineExtension interface, BeginCreateObject,IMFMediaEngineExtension.BeginCreateObject, IMFMediaEngineExtension, IMFMediaEngineExtension interface [Media Foundation], BeginCreateObject method, IMFMediaEngineExtension::BeginCreateObject, MF_OBJECT_BYTESTREAM, MF_OBJECT_MEDIASOURCE, mf.imfmediaengineextension_begincreateobject, mfmediaengine/IMFMediaEngineExtension::BeginCreateObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

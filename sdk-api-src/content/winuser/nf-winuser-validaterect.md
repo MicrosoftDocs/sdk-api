@@ -7,7 +7,7 @@ old-location: gdi\validaterect.htm
 old-project: gdi
 ms.assetid: 961dd768-1849-44df-bc7f-480881ed6477
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/17/2018
 ms.keywords: ValidateRect, ValidateRect function [Windows GDI], _win32_ValidateRect, gdi.validaterect, winuser/ValidateRect
 ms.prod: windows-hardware
 ms.technology: windows-devices

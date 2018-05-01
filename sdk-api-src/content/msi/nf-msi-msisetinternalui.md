@@ -7,7 +7,7 @@ old-location: setup\msisetinternalui.htm
 old-project: Msi
 ms.assetid: 303c2ea9-4c8f-46d3-b587-7c50e2810c28
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/26/2018
 ms.keywords: INSTALLUILEVEL_BASIC, INSTALLUILEVEL_DEFAULT, INSTALLUILEVEL_ENDDIALOG, INSTALLUILEVEL_FULL, INSTALLUILEVEL_HIDECANCEL, INSTALLUILEVEL_NOCHANGE, INSTALLUILEVEL_NONE, INSTALLUILEVEL_PROGRESSONLY, INSTALLUILEVEL_REDUCED, INSTALLUILEVEL_SOURCERESONLY, MsiSetInternalUI, MsiSetInternalUI function, _msi_msisetinternalui, msi/MsiSetInternalUI, setup.msisetinternalui
 ms.prod: windows-hardware
 ms.technology: windows-devices

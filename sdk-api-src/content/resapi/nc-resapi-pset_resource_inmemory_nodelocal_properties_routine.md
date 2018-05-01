@@ -7,7 +7,7 @@ old-location: mscs\setresourceinmemorynodelocalproperties.htm
 old-project: MsCS
 ms.assetid: 9263E130-49DE-465C-A852-34E2D93A4211
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: PSET_RESOURCE_INMEMORY_NODELOCAL_PROPERTIES_ROUTINE, PSET_RESOURCE_INMEMORY_NODELOCAL_PROPERTIES_ROUTINE callback function [Failover Cluster], SetResourceInMemoryNodeLocalProperties, SetResourceInMemoryNodeLocalProperties callback function [Failover Cluster], mscs.setresourceinmemorynodelocalproperties, resapi/PSET_RESOURCE_INMEMORY_NODELOCAL_PROPERTIES_ROUTINE, resapi/SetResourceInMemoryNodeLocalProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # PSET_RESOURCE_INMEMORY_NODELOCAL_PROPERTIES_ROUTINE callback

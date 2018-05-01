@@ -7,7 +7,7 @@ old-location: mf\itocentry_getdescriptiondata.htm
 old-project: medfound
 ms.assetid: 4000b67c-e34e-4bce-9a0d-c56c9fc0f41e
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetDescriptionData method [Media Foundation], GetDescriptionData method [Media Foundation], ITocEntry interface, GetDescriptionData,ITocEntry.GetDescriptionData, ITocEntry, ITocEntry interface [Media Foundation], GetDescriptionData method, ITocEntry::GetDescriptionData, codecapi.itocentry_getdescriptiondata, mf.itocentry_getdescriptiondata, wmcodecdsp/ITocEntry::GetDescriptionData
 ms.prod: windows-hardware
 ms.technology: windows-devices

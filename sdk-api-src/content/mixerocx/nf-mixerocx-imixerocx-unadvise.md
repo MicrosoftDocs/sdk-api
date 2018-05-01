@@ -7,7 +7,7 @@ old-location: dshow\imixerocx_unadvise.htm
 old-project: DirectShow
 ms.assetid: 9c2837c6-ee0f-45f4-b98a-9b8957e75b48
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IMixerOCX, IMixerOCX interface [DirectShow], UnAdvise method, IMixerOCX::UnAdvise, IMixerOCXUnAdvise, UnAdvise method [DirectShow], UnAdvise method [DirectShow], IMixerOCX interface, UnAdvise,IMixerOCX.UnAdvise, dshow.imixerocx_unadvise, mixerocx/IMixerOCX::UnAdvise
 ms.prod: windows-hardware
 ms.technology: windows-devices

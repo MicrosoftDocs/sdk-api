@@ -7,7 +7,7 @@ old-location: mf\imfmediasession_settopology.htm
 old-project: medfound
 ms.assetid: ea5313f0-b0fd-4945-97a2-b3f17937294f
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFMediaSession, IMFMediaSession interface [Media Foundation], SetTopology method, IMFMediaSession::SetTopology, SetTopology method [Media Foundation], SetTopology method [Media Foundation], IMFMediaSession interface, SetTopology,IMFMediaSession.SetTopology, ea5313f0-b0fd-4945-97a2-b3f17937294f, mf.imfmediasession_settopology, mfidl/IMFMediaSession::SetTopology
 ms.prod: windows-hardware
 ms.technology: windows-devices

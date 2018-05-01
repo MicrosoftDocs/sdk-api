@@ -7,7 +7,7 @@ old-location: tablet\iinkextendedproperties_item.htm
 old-project: tablet
 ms.assetid: 0355d9db-4456-4051-b611-dcb63657a0c7
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: 0355d9db-4456-4051-b611-dcb63657a0c7, IInkExtendedProperties, IInkExtendedProperties interface [Tablet PC], Item method, IInkExtendedProperties::Item, Item method [Tablet PC], Item method [Tablet PC], IInkExtendedProperties interface, Item,IInkExtendedProperties.Item, msinkaut/IInkExtendedProperties::Item, tablet.iinkextendedproperties_item
 ms.prod: windows-hardware
 ms.technology: windows-devices

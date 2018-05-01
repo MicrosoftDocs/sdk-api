@@ -7,7 +7,7 @@ old-location: wmformat\iwmreaderadvanced4_geturl.htm
 old-project: wmformat
 ms.assetid: 1c17be57-da35-40f2-a216-97d6953c7311
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: GetURL method [windows Media Format], GetURL method [windows Media Format], IWMReaderAdvanced4 interface, GetURL,IWMReaderAdvanced4.GetURL, IWMReaderAdvanced4, IWMReaderAdvanced4 interface [windows Media Format], GetURL method, IWMReaderAdvanced4::GetURL, IWMReaderAdvanced4GetURL, wmformat.iwmreaderadvanced4_geturl, wmsdkidl/IWMReaderAdvanced4::GetURL
 ms.prod: windows-hardware
 ms.technology: windows-devices

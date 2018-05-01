@@ -7,7 +7,7 @@ old-location: controls\EndBufferedPaint.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\endbufferedpaint.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: EndBufferedPaint, EndBufferedPaint function [Windows Controls], _shell_EndBufferedPaint, _shell_EndBufferedPaint_cpp, controls.EndBufferedPaint, controls._shell_EndBufferedPaint, uxtheme/EndBufferedPaint
 ms.prod: windows-hardware
 ms.technology: windows-devices

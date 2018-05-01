@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmpropertycondition_delete.htm
 old-project: Fsrm
 ms.assetid: 1d177c1c-e36e-4e69-868b-ade55e2378aa
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: Delete method [File Server Resource Manager], Delete method [File Server Resource Manager], IFsrmPropertyCondition interface, Delete,IFsrmPropertyCondition.Delete, IFsrmPropertyCondition, IFsrmPropertyCondition interface [File Server Resource Manager], Delete method, IFsrmPropertyCondition::Delete, fs.ifsrmpropertycondition_delete, fsrm.ifsrmpropertycondition_delete, fsrmreports/IFsrmPropertyCondition::Delete
 ms.prod: windows-hardware
 ms.technology: windows-devices

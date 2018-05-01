@@ -7,7 +7,7 @@ old-location: winauto\uiauto_UiaStructureChangedEventArgsStruct.htm
 old-project: WinAuto
 ms.assetid: 3bd47116-e6e7-4535-a939-460d460a3eb5
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: UiaStructureChangedEventArgs, UiaStructureChangedEventArgs structure [Windows Accessibility], uiauto.uiauto_UiaStructureChangedEventArgsStruct, uiauto_UiaStructureChangedEventArgsStruct, uiautomationcoreapi/UiaStructureChangedEventArgs, winauto.uiauto_UiaStructureChangedEventArgsStruct
 ms.prod: windows-hardware
 ms.technology: windows-devices

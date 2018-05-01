@@ -7,7 +7,7 @@ old-location: com\ifont_isequal.htm
 old-project: com
 ms.assetid: becef75d-8342-4b4f-82e2-f1cca4eb619e
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IFont, IFont interface [COM], IsEqual method, IFont::IsEqual, IsEqual method [COM], IsEqual method [COM], IFont interface, IsEqual,IFont.IsEqual, _ctrl_ifont_isequal, com.ifont_isequal, ocidl/IFont::IsEqual
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IFont::IsEqual method

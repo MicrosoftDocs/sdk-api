@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11fence_createsharedhandle.htm
 old-project: direct3d11
 ms.assetid: 07447C9A-8F69-4FCA-B75C-D7015292F25D
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/6/2018
 ms.keywords: CreateSharedHandle method [Direct3D 11], CreateSharedHandle method [Direct3D 11], ID3D11Fence interface, CreateSharedHandle,ID3D11Fence.CreateSharedHandle, ID3D11Fence, ID3D11Fence interface [Direct3D 11], CreateSharedHandle method, ID3D11Fence::CreateSharedHandle, d3d11_3/ID3D11Fence::CreateSharedHandle, direct3d11.id3d11fence_createsharedhandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

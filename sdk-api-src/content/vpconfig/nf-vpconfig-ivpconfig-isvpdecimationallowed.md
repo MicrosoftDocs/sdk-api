@@ -7,7 +7,7 @@ old-location: dshow\ivpconfig_isvpdecimationallowed.htm
 old-project: DirectShow
 ms.assetid: 2362e321-cbdd-41ee-97ff-e6ff9cd672b0
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IVPConfig, IVPConfig interface [DirectShow], IsVPDecimationAllowed method, IVPConfig::IsVPDecimationAllowed, IVPConfigIsVPDecimationAllowed, IsVPDecimationAllowed method [DirectShow], IsVPDecimationAllowed method [DirectShow], IVPConfig interface, IsVPDecimationAllowed,IVPConfig.IsVPDecimationAllowed, dshow.ivpconfig_isvpdecimationallowed, vpconfig/IVPConfig::IsVPDecimationAllowed
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tmg\getfilterversion.htm
 old-project: TMG
 ms.assetid: 9dcca0b7-e19e-4e8e-974f-fa70f1fd0b97
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/3/2018
 ms.keywords: GetFilterVersion, GetFilterVersion callback function [Forefront TMG], httpfilt/GetFilterVersion, tmg.getfilterversion
 ms.prod: windows-hardware
 ms.technology: windows-devices

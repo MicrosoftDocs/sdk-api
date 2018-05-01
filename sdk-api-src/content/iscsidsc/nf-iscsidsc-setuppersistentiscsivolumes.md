@@ -7,7 +7,7 @@ old-location: iscsidisc\setuppersistentiscsivolumes_msiscsiinitiator_methodclass
 old-project: iSCSIDisc
 ms.assetid: b1e48e98-3f11-4a2d-a99a-01db1cc8f9b1
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: MSIscsiInitiator_MethodClass class [iSCSI Discovery Library API], SetupPersistentIScsiVolumes method, MSIscsiInitiator_MethodClass.SetupPersistentIScsiVolumes, SetupPersistentIScsiVolumes, SetupPersistentIScsiVolumes method [iSCSI Discovery Library API], SetupPersistentIScsiVolumes method [iSCSI Discovery Library API], MSIscsiInitiator_MethodClass class, iscsidisc.setuppersistentiscsivolumes_msiscsiinitiator_methodclass
 ms.prod: windows-hardware
 ms.technology: windows-devices

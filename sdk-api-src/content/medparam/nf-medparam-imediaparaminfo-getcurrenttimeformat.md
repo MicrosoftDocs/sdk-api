@@ -7,7 +7,7 @@ old-location: dshow\imediaparaminfo_getcurrenttimeformat.htm
 old-project: DirectShow
 ms.assetid: b93b929c-c1a7-4e8e-93cf-118fcd6a3de9
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetCurrentTimeFormat method [DirectShow], GetCurrentTimeFormat method [DirectShow], IMediaParamInfo interface, GetCurrentTimeFormat,IMediaParamInfo.GetCurrentTimeFormat, IMediaParamInfo, IMediaParamInfo interface [DirectShow], GetCurrentTimeFormat method, IMediaParamInfo::GetCurrentTimeFormat, IMediaParamInfoGetCurrentTimeFormat, dshow.imediaparaminfo_getcurrenttimeformat, medparam/IMediaParamInfo::GetCurrentTimeFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices

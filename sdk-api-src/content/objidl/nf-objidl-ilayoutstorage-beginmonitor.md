@@ -7,7 +7,7 @@ old-location: stg\ilayoutstorage_beginmonitor.htm
 old-project: Stg
 ms.assetid: 16371d6c-adb9-43c2-80a4-377e94854bbb
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/20/2018
 ms.keywords: BeginMonitor method [Structured Storage], BeginMonitor method [Structured Storage], ILayoutStorage interface, BeginMonitor,ILayoutStorage.BeginMonitor, ILayoutStorage, ILayoutStorage interface [Structured Storage], BeginMonitor method, ILayoutStorage::BeginMonitor, _stg_ilayoutstorage_beginmonitor, objidl/ILayoutStorage::BeginMonitor, stg.ilayoutstorage_beginmonitor
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ILayoutStorage::BeginMonitor method

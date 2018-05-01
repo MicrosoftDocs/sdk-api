@@ -7,7 +7,7 @@ old-location: wmdm\csecurechannelserver_macfinal.htm
 old-project: WMDM
 ms.assetid: 047340a5-5382-443e-a6d5-ecbcdfe9a210
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: CSecureChannelServer, CSecureChannelServer interface [windows Media Device Manager], MACFinal method, CSecureChannelServer::MACFinal, CSecureChannelServerMACFinal, MACFinal method [windows Media Device Manager], MACFinal method [windows Media Device Manager], CSecureChannelServer interface, MACFinal,CSecureChannelServer.MACFinal, scserver/CSecureChannelServer::MACFinal, wmdm.csecurechannelserver_macfinal
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # CSecureChannelServer::MACFinal method

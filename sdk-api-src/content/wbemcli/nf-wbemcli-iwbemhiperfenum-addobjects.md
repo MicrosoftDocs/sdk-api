@@ -7,7 +7,7 @@ old-location: wmi\iwbemhiperfenum_addobjects.htm
 old-project: WmiSdk
 ms.assetid: 6a6cd0f9-c6ed-4c9c-aa0f-7af2ac0fe73a
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: AddObjects method [Windows Management Instrumentation], AddObjects method [Windows Management Instrumentation], IWbemHiPerfEnum interface, AddObjects,IWbemHiPerfEnum.AddObjects, IWbemHiPerfEnum, IWbemHiPerfEnum interface [Windows Management Instrumentation], AddObjects method, IWbemHiPerfEnum::AddObjects, _hmm_iwbemhiperfenum_addobjects, wbemcli/IWbemHiPerfEnum::AddObjects, wmi.iwbemhiperfenum_addobjects
 ms.prod: windows-hardware
 ms.technology: windows-devices

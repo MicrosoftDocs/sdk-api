@@ -7,7 +7,7 @@ old-location: tapi3\cmspstream_shutdown.htm
 old-project: Tapi
 ms.assetid: 5434c9ea-f045-4293-802d-35fb59123922
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: CMSPStream, CMSPStream interface [TAPI 2.2], ShutDown method, CMSPStream::ShutDown, ShutDown method [TAPI 2.2], ShutDown method [TAPI 2.2], CMSPStream interface, ShutDown,CMSPStream.ShutDown, _tapi3_cmspstream_shutdown, mspstrm/CMSPStream::ShutDown, tapi3.cmspstream_shutdown
 ms.prod: windows-hardware
 ms.technology: windows-devices

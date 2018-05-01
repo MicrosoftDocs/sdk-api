@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _PSAPI_WORKING_SET_EX_BLOCK structure
@@ -56,6 +56,12 @@ Contains extended working set information for a page.
 ## -struct-fields
 
 
+
+
+### -field Flags
+
+The working set information. See the description of the structure  members for information about the layout 
+      of this variable.
 
 
 ### -field Valid
@@ -148,12 +154,6 @@ If this bit is 1, the page is has been reported as bad.
 ### -field Invalid.ReservedUlong
 
 Reserved. This member is only available on 64-bit code running on 64-bit editions of Windows.
-
-
-### -field Flags
-
-The working set information. See the description of the structure  members for information about the layout 
-      of this variable.
 
 
 ## -see-also

@@ -7,7 +7,7 @@ old-location: shell\IBrowserService3__PositionViewWindow.htm
 old-project: shell
 ms.assetid: 310885e5-b08d-4699-9dee-244efa49dfd1
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IBrowserService3, IBrowserService3 interface [Windows Shell], _PositionViewWindow method, IBrowserService3::_PositionViewWindow, _PositionViewWindow method [Windows Shell], _PositionViewWindow method [Windows Shell], IBrowserService3 interface, _PositionViewWindow,IBrowserService3._PositionViewWindow, shdeprecated/IBrowserService3::_PositionViewWindow, shell.IBrowserService3__PositionViewWindow, zone_IBrowserService3__PositionViewWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices

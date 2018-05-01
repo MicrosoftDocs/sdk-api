@@ -7,7 +7,7 @@ old-location: wmformat\iwmprofilemanager.htm
 old-project: wmformat
 ms.assetid: e5ec945c-4513-48ad-8bef-e0fb54826991
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMProfileManager, IWMProfileManager interface [windows Media Format], IWMProfileManager interface [windows Media Format], described, IWMProfileManagerInterface, wmformat.iwmprofilemanager, wmsdkidl/IWMProfileManager
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: lwef\iemptyvolumecache2_initializeex.htm
 old-project: lwef
 ms.assetid: 42f39dcd-0292-4121-89e9-80145b1c1c7d
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/10/2018
 ms.keywords: EVCF_DONTSHOWIFZERO, EVCF_ENABLEBYDEFAULT, EVCF_ENABLEBYDEFAULT_AUTO, EVCF_HASSETTINGS, EVCF_OUTOFDISKSPACE, EVCF_REMOVEFROMLIST, EVCF_SETTINGSMODE, IEmptyVolumeCache2, IEmptyVolumeCache2 interface [Legacy Windows Environment Features], InitializeEx method, IEmptyVolumeCache2::InitializeEx, InitializeEx method [Legacy Windows Environment Features], InitializeEx method [Legacy Windows Environment Features], IEmptyVolumeCache2 interface, InitializeEx,IEmptyVolumeCache2.InitializeEx, These flags can be passed by the handler back to the disk cleanup manager:, These flags can be passed in to the object:, _win32_IEmptyVolumeCache2_InitializeEx, emptyvc/IEmptyVolumeCache2::InitializeEx, lwef.iemptyvolumecache2_initializeex, shell.iemptyvolumecache2_initializeex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MAPPING_SERVICE_INFO, *PMAPPING_SERVICE_INFO
+req.typenames: EMI_VERSION
 topic_type:
 -	APIRef
 -	kbSyntax

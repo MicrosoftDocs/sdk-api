@@ -7,7 +7,7 @@ old-location: dshow\ivideoprocamp_put_hue.htm
 old-project: DirectShow
 ms.assetid: 7b0926c3-4167-423d-ac5c-ac4df06948aa
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IVideoProcAmp, IVideoProcAmp interface [DirectShow], put_Hue method, IVideoProcAmp::put_Hue, IVideoProcAmpput_Hue, dshow.ivideoprocamp_put_hue, put_Hue method [DirectShow], put_Hue method [DirectShow], IVideoProcAmp interface, put_Hue,IVideoProcAmp.put_Hue, vidcap/IVideoProcAmp::put_Hue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: VIDEOHDR, *PVIDEOHDR, *LPVIDEOHDR
+req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
 topic_type:
 -	APIRef
 -	kbSyntax

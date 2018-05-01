@@ -7,7 +7,7 @@ old-location: dshow\ivideoprocamp_get_saturation.htm
 old-project: DirectShow
 ms.assetid: 977e71a4-8118-4fc2-9f76-ec30293b33d0
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IVideoProcAmp, IVideoProcAmp interface [DirectShow], get_Saturation method, IVideoProcAmp::get_Saturation, IVideoProcAmpget_Saturation, dshow.ivideoprocamp_get_saturation, get_Saturation method [DirectShow], get_Saturation method [DirectShow], IVideoProcAmp interface, get_Saturation,IVideoProcAmp.get_Saturation, vidcap/IVideoProcAmp::get_Saturation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: VIDEOHDR, *PVIDEOHDR, *LPVIDEOHDR
+req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
 topic_type:
 -	APIRef
 -	kbSyntax

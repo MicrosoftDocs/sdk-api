@@ -7,7 +7,7 @@ old-location: iphlp\net_luid.htm
 old-project: IpHlp
 ms.assetid: c4956c5a-3c6c-4f1c-b9d7-2e377b66f197
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 4/13/2018
 ms.keywords: "*PIF_LUID, *PNET_LUID, *PNET_LUID_LH, IF_LUID, IF_TYPE_ATM, IF_TYPE_ETHERNET_CSMACD, IF_TYPE_IEEE1394, IF_TYPE_IEEE80211, IF_TYPE_ISO88025_TOKENRING, IF_TYPE_OTHER, IF_TYPE_PPP, IF_TYPE_SOFTWARE_LOOPBACK, IF_TYPE_TUNNEL, NET_LUID, NET_LUID union [IP Helper], NET_LUID_LH, PNET_LUID, PNET_LUID union pointer [IP Helper], _NET_LUID_LH, ifdef/NET_LUID, ifdef/PNET_LUID, iphlp.net_luid"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -56,6 +56,13 @@ The <b>NET_LUID</b> union is the locally unique identifier (LUID) for a network 
 ## -struct-fields
 
 
+
+
+### -field Value
+
+Type: <b>ULONG64</b>
+
+A 64-bit value that represents the LUID.
 
 
 ### -field Info
@@ -194,13 +201,6 @@ An IEEE 1394 (Firewire) high performance serial bus network interface.
 </tr>
 </table>
  
-
-
-### -field Value
-
-Type: <b>ULONG64</b>
-
-A 64-bit value that represents the LUID.
 
 
 ## -remarks

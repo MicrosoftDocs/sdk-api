@@ -7,7 +7,7 @@ old-location: direct2d\D2D1_LAYER_OPTIONS.htm
 old-project: Direct2D
 ms.assetid: d278211a-e99c-429d-9752-45c305f52ed8
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: D2D1_LAYER_OPTIONS, D2D1_LAYER_OPTIONS enumeration [Direct2D], D2D1_LAYER_OPTIONS_INITIALIZE_FOR_CLEARTYPE, D2D1_LAYER_OPTIONS_NONE, d2d1/D2D1_LAYER_OPTIONS, d2d1/D2D1_LAYER_OPTIONS_INITIALIZE_FOR_CLEARTYPE, d2d1/D2D1_LAYER_OPTIONS_NONE, direct2d.D2D1_LAYER_OPTIONS
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: upnp\iupnpdevicefindercallback_deviceremoved.htm
 old-project: UPnP
 ms.assetid: d6ff7bdd-3fdf-4ee4-84c9-e3527988fea2
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/25/2018
 ms.keywords: DeviceRemoved method [UPnP APIs], DeviceRemoved method [UPnP APIs], IUPnPDeviceFinderCallback interface, DeviceRemoved,IUPnPDeviceFinderCallback.DeviceRemoved, IUPnPDeviceFinderCallback, IUPnPDeviceFinderCallback interface [UPnP APIs], DeviceRemoved method, IUPnPDeviceFinderCallback::DeviceRemoved, _upnp_iupnpdevicefindercallback_deviceremoved, upnp.iupnpdevicefindercallback_deviceremoved, upnp/IUPnPDeviceFinderCallback::DeviceRemoved
 ms.prod: windows-hardware
 ms.technology: windows-devices

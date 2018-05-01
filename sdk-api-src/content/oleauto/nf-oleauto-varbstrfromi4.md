@@ -7,7 +7,7 @@ old-location: automat\varbstrfromi4.htm
 old-project: automat
 ms.assetid: ae4cc116-29b2-40cd-8990-531837c3fcb3
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: VarBstrFromI4, VarBstrFromI4 function [Automation], _oa96_VarBstrFromI4, automat.varbstrfromi4, oleauto/VarBstrFromI4
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # VarBstrFromI4 function

@@ -7,7 +7,7 @@ old-location: dhcp\dhcpgetalloptionsv6.htm
 old-project: DHCP
 ms.assetid: 66a49f05-66ab-489d-abd7-b9f0bbe5a7cc
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/7/2018
 ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpGetAllOptionsV6, DhcpGetAllOptionsV6 function [DHCP], dhcp.dhcpgetalloptionsv6, dhcpsapi/DhcpGetAllOptionsV6
 ms.prod: windows-hardware
 ms.technology: windows-devices

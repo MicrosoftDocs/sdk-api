@@ -7,7 +7,7 @@ old-location: wmp\iwmpevents_iwmpevents__mediaerror.htm
 old-project: WMP
 ms.assetid: 3c48ff94-01d6-492c-912c-ee74b619730b
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPEvents, IWMPEvents interface [Windows Media Player], MediaError method, IWMPEvents::MediaError, IWMPEventsMediaError, MediaError method [Windows Media Player], MediaError method [Windows Media Player], IWMPEvents interface, MediaError,IWMPEvents.MediaError, wmp.iwmpevents_iwmpevents__mediaerror, wmp/IWMPEvents::MediaError
 ms.prod: windows-hardware
 ms.technology: windows-devices

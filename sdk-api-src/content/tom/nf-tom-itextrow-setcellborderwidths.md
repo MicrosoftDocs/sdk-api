@@ -7,7 +7,7 @@ old-location: controls\itextrow_setcellborderwidths.htm
 old-project: Controls
 ms.assetid: 343270e6-8f92-4429-9350-4031ae8bb0e0
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextRow, ITextRow interface [Windows Controls], SetCellBorderWidths method, ITextRow::SetCellBorderWidths, SetCellBorderWidths method [Windows Controls], SetCellBorderWidths method [Windows Controls], ITextRow interface, SetCellBorderWidths,ITextRow.SetCellBorderWidths, controls.itextrow_setcellborderwidths, tom/ITextRow::SetCellBorderWidths
 ms.prod: windows-hardware
 ms.technology: windows-devices

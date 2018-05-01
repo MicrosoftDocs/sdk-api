@@ -7,7 +7,7 @@ old-location: mf\id3d11videodevice_createvideodecoderoutputview.htm
 old-project: medfound
 ms.assetid: 8A3D72CF-B641-4219-8C88-FCE5231CF2F6
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: CreateVideoDecoderOutputView method [Media Foundation], CreateVideoDecoderOutputView method [Media Foundation], ID3D11VideoDevice interface, CreateVideoDecoderOutputView,ID3D11VideoDevice.CreateVideoDecoderOutputView, ID3D11VideoDevice, ID3D11VideoDevice interface [Media Foundation], CreateVideoDecoderOutputView method, ID3D11VideoDevice::CreateVideoDecoderOutputView, d3d11/ID3D11VideoDevice::CreateVideoDecoderOutputView, mf.id3d11videodevice_createvideodecoderoutputview
 ms.prod: windows-hardware
 ms.technology: windows-devices

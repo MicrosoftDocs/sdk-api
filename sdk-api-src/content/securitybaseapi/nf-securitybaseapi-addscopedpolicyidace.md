@@ -7,7 +7,7 @@ old-location: security\addscopedpolicyidace.htm
 old-project: SecAuthZ
 ms.assetid: 30AA5730-566C-4B02-A904-5A38237EE8E3
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: AddScopedPolicyIDAce, AddScopedPolicyIDAce function [Security], CONTAINER_INHERIT_ACE, INHERITED_ACE, INHERIT_ONLY_ACE, NO_PROPAGATE_INHERIT_ACE, OBJECT_INHERIT_ACE, security.addscopedpolicyidace, securitybaseapi/AddScopedPolicyIDAce
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,7 +45,7 @@ targetos: Windows
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # AddScopedPolicyIDAce function

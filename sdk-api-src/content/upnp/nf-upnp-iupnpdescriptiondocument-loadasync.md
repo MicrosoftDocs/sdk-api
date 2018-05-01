@@ -7,7 +7,7 @@ old-location: upnp\iupnpdescriptiondocument_loadasync.htm
 old-project: UPnP
 ms.assetid: bfb1d833-13e8-4ffe-832d-f6640a42055a
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/25/2018
 ms.keywords: IUPnPDescriptionDocument, IUPnPDescriptionDocument interface [UPnP APIs], LoadAsync method, IUPnPDescriptionDocument::LoadAsync, LoadAsync method [UPnP APIs], LoadAsync method [UPnP APIs], IUPnPDescriptionDocument interface, LoadAsync,IUPnPDescriptionDocument.LoadAsync, _upnp_iupnpdescriptiondocument_loadasync, upnp.iupnpdescriptiondocument_loadasync, upnp/IUPnPDescriptionDocument::LoadAsync
 ms.prod: windows-hardware
 ms.technology: windows-devices

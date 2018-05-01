@@ -7,7 +7,7 @@ old-location: tapi2\phonesetbuttoninfo.htm
 old-project: Tapi
 ms.assetid: f51581a9-7b2a-4ba0-83fa-f464c8202648
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: "_tapi2_phonesetbuttoninfo, phoneSetButtonInfo, phoneSetButtonInfo function [TAPI 2.2], phoneSetButtonInfoA, phoneSetButtonInfoW, tapi/phoneSetButtonInfo, tapi/phoneSetButtonInfoA, tapi/phoneSetButtonInfoW, tapi2.phonesetbuttoninfo"
 ms.prod: windows-hardware
 ms.technology: windows-devices

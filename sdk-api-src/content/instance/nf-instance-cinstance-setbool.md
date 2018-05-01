@@ -7,7 +7,7 @@ old-location: wmi\cinstance_setbool.htm
 old-project: WmiSdk
 ms.assetid: d4ca045d-a018-48a0-a4ea-94d0c8f094a6
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: "?Setbool@CInstance@@QAE_NPBG_N@Z, ?Setbool@CInstance@@QEAA_NPEBG_N@Z, CInstance, CInstance interface [Windows Management Instrumentation], Setbool method, CInstance::Setbool, Setbool method [Windows Management Instrumentation], Setbool method [Windows Management Instrumentation], CInstance interface, Setbool,CInstance.Setbool, _hmm_cinstance_setbool, instance/CInstance::Setbool, wmi.cinstance_setbool"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: InputScope
+req.typenames: TrustLevel
 topic_type:
 -	APIRef
 -	kbSyntax

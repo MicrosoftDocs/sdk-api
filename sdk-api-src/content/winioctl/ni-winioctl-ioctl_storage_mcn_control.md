@@ -7,7 +7,7 @@ old-location: base\ioctl_storage_mcn_control.htm
 old-project: DevIO
 ms.assetid: 1122f27f-c1a6-49a9-b09a-5b33c451e1cc
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/3/2018
 ms.keywords: IOCTL_STORAGE_MCN_CONTROL, IOCTL_STORAGE_MCN_CONTROL control code, _win32_ioctl_storage_mcn_control, base.ioctl_storage_mcn_control, winioctl/IOCTL_STORAGE_MCN_CONTROL
 ms.prod: windows-hardware
 ms.technology: windows-devices

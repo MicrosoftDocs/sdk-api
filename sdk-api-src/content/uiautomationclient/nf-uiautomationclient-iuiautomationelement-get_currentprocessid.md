@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement_CurrentProcessId.htm
 old-project: WinAuto
 ms.assetid: c230cd82-99f9-4922-9626-cb67fa2942c1
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: CurrentProcessId property [Windows Accessibility], CurrentProcessId property [Windows Accessibility], IUIAutomationElement interface, IUIAutomationElement, IUIAutomationElement interface [Windows Accessibility], CurrentProcessId property, IUIAutomationElement.CurrentProcessId, IUIAutomationElement::get_CurrentProcessId, get_CurrentProcessId,IUIAutomationElement.get_CurrentProcessId, uiauto.uiauto_IUIAutomationElement_CurrentProcessId, uiauto_IUIAutomationElement_CurrentProcessId, uiautomationclient/IUIAutomationElement::CurrentProcessId, uiautomationclient/IUIAutomationElement::get_CurrentProcessId, winauto.uiauto_IUIAutomationElement_CurrentProcessId
 ms.prod: windows-hardware
 ms.technology: windows-devices

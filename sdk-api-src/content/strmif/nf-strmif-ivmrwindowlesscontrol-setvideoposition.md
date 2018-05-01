@@ -7,7 +7,7 @@ old-location: dshow\ivmrwindowlesscontrol_setvideoposition.htm
 old-project: DirectShow
 ms.assetid: 3cf75b8e-850d-4514-9502-a71c801e0d92
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IVMRWindowlessControl, IVMRWindowlessControl interface [DirectShow], SetVideoPosition method, IVMRWindowlessControl::SetVideoPosition, IVMRWindowlessControlSetVideoPosition, SetVideoPosition method [DirectShow], SetVideoPosition method [DirectShow], IVMRWindowlessControl interface, SetVideoPosition,IVMRWindowlessControl.SetVideoPosition, dshow.ivmrwindowlesscontrol_setvideoposition, strmif/IVMRWindowlessControl::SetVideoPosition
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: HrtfPosition
+req.typenames: HSTRING_HEADER
 topic_type:
 -	APIRef
 -	kbSyntax

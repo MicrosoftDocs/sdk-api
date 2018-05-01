@@ -7,7 +7,7 @@ old-location: wmp\iwmpcdromrip_stoprip.htm
 old-project: WMP
 ms.assetid: 2a6c5a25-f69c-4258-a92f-7f693b201a01
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPCdromRip, IWMPCdromRip interface [Windows Media Player], stopRip method, IWMPCdromRip::stopRip, IWMPCdromRipstopRip, stopRip method [Windows Media Player], stopRip method [Windows Media Player], IWMPCdromRip interface, stopRip,IWMPCdromRip.stopRip, wmp.iwmpcdromrip_stoprip, wmp/IWMPCdromRip::stopRip
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\IDataObjectAsyncCapability_EndOperation.htm
 old-project: shell
 ms.assetid: CF9D2A95-12AF-4538-882D-B391F2E087ED
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: EndOperation method [Windows Shell], EndOperation method [Windows Shell], IDataObjectAsyncCapability interface, EndOperation,IDataObjectAsyncCapability.EndOperation, IDataObjectAsyncCapability, IDataObjectAsyncCapability interface [Windows Shell], EndOperation method, IDataObjectAsyncCapability::EndOperation, shell.IDataObjectAsyncCapability_EndOperation, shldisp/IDataObjectAsyncCapability::EndOperation
 ms.prod: windows-hardware
 ms.technology: windows-devices

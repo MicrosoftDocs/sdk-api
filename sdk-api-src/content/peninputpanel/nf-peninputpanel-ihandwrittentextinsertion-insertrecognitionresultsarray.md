@@ -7,7 +7,7 @@ old-location: tablet\ihandwrittentextinsertion_insertrecognitionresultsarray.htm
 old-project: tablet
 ms.assetid: c3566d1c-e4fb-4f0d-9beb-0b5e5db66985
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: IHandWrittenTextInsertion interface [Tablet PC], InsertRecognitionResultsArray method, IHandWrittenTextInsertion::InsertRecognitionResultsArray, IHandwrittenTextInsertion, IHandwrittenTextInsertion::InsertRecognitionResultsArray, InsertRecognitionResultsArray method [Tablet PC], InsertRecognitionResultsArray method [Tablet PC], IHandWrittenTextInsertion interface, InsertRecognitionResultsArray,IHandwrittenTextInsertion.InsertRecognitionResultsArray, c3566d1c-e4fb-4f0d-9beb-0b5e5db66985, peninputpanel/IHandWrittenTextInsertion::InsertRecognitionResultsArray, tablet.ihandwrittentextinsertion_insertrecognitionresultsarray
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Tiptsf.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IHandwrittenTextInsertion::InsertRecognitionResultsArray method

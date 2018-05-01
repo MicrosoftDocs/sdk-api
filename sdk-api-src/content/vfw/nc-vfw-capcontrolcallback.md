@@ -7,7 +7,7 @@ old-location: multimedia\capcontrolcallback.htm
 old-project: Multimedia
 ms.assetid: 8e63be06-d311-4968-b436-262d9c3e9f10
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/25/2018
 ms.keywords: "_win32_capControlCallback, capControlCallback, capControlCallback callback function [Windows Multimedia], multimedia.capcontrolcallback, vfw/capControlCallback"
 ms.prod: windows-hardware
 ms.technology: windows-devices

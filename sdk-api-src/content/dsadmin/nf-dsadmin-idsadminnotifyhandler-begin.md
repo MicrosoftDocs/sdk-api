@@ -7,7 +7,7 @@ old-location: ad\idsadminnotifyhandler_begin.htm
 old-project: AD
 ms.assetid: 443fe344-6545-45bd-8e2f-85347505d407
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/20/2018
 ms.keywords: Begin method [Active Directory], Begin method [Active Directory], IDsAdminNotifyHandler interface, Begin,IDsAdminNotifyHandler.Begin, DSA_NOTIFY_DEL, DSA_NOTIFY_FLAG_ADDITIONAL_DATA, DSA_NOTIFY_FLAG_FORCE_ADDITIONAL_DATA, DSA_NOTIFY_MOV, DSA_NOTIFY_PROP, DSA_NOTIFY_REN, IDsAdminNotifyHandler, IDsAdminNotifyHandler interface [Active Directory], Begin method, IDsAdminNotifyHandler::Begin, _glines_idsadminnotifyhandler_begin, ad.idsadminnotifyhandler__begin, ad.idsadminnotifyhandler_begin, dsadmin/IDsAdminNotifyHandler::Begin
 ms.prod: windows-hardware
 ms.technology: windows-devices

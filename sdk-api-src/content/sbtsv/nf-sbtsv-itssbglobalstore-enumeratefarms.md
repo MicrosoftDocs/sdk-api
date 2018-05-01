@@ -7,7 +7,7 @@ old-location: termserv\itssbglobalstore_enumeratefarms.htm
 old-project: TermServ
 ms.assetid: 51c59f35-667c-4723-aa7b-e8250bbdabe9
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: EnumerateFarms method [Remote Desktop Services], EnumerateFarms method [Remote Desktop Services], ITsSbGlobalStore interface, EnumerateFarms,ITsSbGlobalStore.EnumerateFarms, ITsSbGlobalStore, ITsSbGlobalStore interface [Remote Desktop Services], EnumerateFarms method, ITsSbGlobalStore::EnumerateFarms, sbtsv/ITsSbGlobalStore::EnumerateFarms, termserv.itssbglobalstore_enumeratefarms
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITsSbGlobalStore::EnumerateFarms method

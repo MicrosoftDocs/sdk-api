@@ -7,7 +7,7 @@ old-location: mstv\ilocator.htm
 old-project: mstv
 ms.assetid: 1d6c18f0-e7f1-4a1c-9edb-e4b66297becf
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: ILocator, ILocator interface [Microsoft TV Technologies], ILocator interface [Microsoft TV Technologies], described, ILocatorInterface, mstv.ilocator, tuner/ILocator
 ms.prod: windows-hardware
 ms.technology: windows-devices

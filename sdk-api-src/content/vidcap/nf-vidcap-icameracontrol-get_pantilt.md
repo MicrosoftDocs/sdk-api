@@ -7,7 +7,7 @@ old-location: dshow\icameracontrol_get_pantilt.htm
 old-project: DirectShow
 ms.assetid: 88f67970-2946-49f9-9c90-e562f37edd83
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ICameraControl, ICameraControl interface [DirectShow], get_PanTilt method, ICameraControl::get_PanTilt, ICameraControlget_PanTilt, dshow.icameracontrol_get_pantilt, get_PanTilt method [DirectShow], get_PanTilt method [DirectShow], ICameraControl interface, get_PanTilt,ICameraControl.get_PanTilt, vidcap/ICameraControl::get_PanTilt
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: VIDEOHDR, *PVIDEOHDR, *LPVIDEOHDR
+req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
 topic_type:
 -	APIRef
 -	kbSyntax

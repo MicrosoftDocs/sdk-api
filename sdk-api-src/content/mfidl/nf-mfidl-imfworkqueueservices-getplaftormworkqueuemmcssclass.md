@@ -7,7 +7,7 @@ old-location: mf\imfworkqueueservices_getplaftormworkqueuemmcssclass.htm
 old-project: medfound
 ms.assetid: f953a54b-2bc0-4ddc-9837-57f72e564c02
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetPlaftormWorkQueueMMCSSClass method [Media Foundation], GetPlaftormWorkQueueMMCSSClass method [Media Foundation], IMFWorkQueueServices interface, GetPlaftormWorkQueueMMCSSClass,IMFWorkQueueServices.GetPlaftormWorkQueueMMCSSClass, IMFWorkQueueServices, IMFWorkQueueServices interface [Media Foundation], GetPlaftormWorkQueueMMCSSClass method, IMFWorkQueueServices::GetPlaftormWorkQueueMMCSSClass, f953a54b-2bc0-4ddc-9837-57f72e564c02, mf.imfworkqueueservices_getplaftormworkqueuemmcssclass, mfidl/IMFWorkQueueServices::GetPlaftormWorkQueueMMCSSClass
 ms.prod: windows-hardware
 ms.technology: windows-devices

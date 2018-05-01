@@ -7,7 +7,7 @@ old-location: ics\inetconnection.htm
 old-project: ICS
 ms.assetid: 7dd55645-c8e6-4ebd-9bf6-3bc3b3f5166f
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: INetConnection, INetConnection interface [ICS/ICF], INetConnection interface [ICS/ICF], described, _ics_inetconnection, ics.inetconnection, netcon/INetConnection
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # INetConnection interface

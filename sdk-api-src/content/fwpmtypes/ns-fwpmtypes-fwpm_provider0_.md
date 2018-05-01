@@ -7,7 +7,7 @@ old-location: fwp\fwpm_provider0_struct.htm
 old-project: FWP
 ms.assetid: 692714fd-14f1-4f8b-a033-1f30b6d0b95a
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: FWPM_PROVIDER0, FWPM_PROVIDER0 structure [Filtering], FWPM_PROVIDER0_, FWPM_PROVIDER_FLAG_DISABLED, FWPM_PROVIDER_FLAG_PERSISTENT, fwp.fwpm_provider0_struct, fwpmtypes/FWPM_PROVIDER0
 ms.prod: windows-hardware
 ms.technology: windows-devices

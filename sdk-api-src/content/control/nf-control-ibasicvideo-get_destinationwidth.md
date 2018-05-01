@@ -7,7 +7,7 @@ old-location: dshow\ibasicvideo_get_destinationwidth.htm
 old-project: DirectShow
 ms.assetid: 6e27bb57-ca88-4478-86b8-250a69f5fc78
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IBasicVideo, IBasicVideo interface [DirectShow], get_DestinationWidth method, IBasicVideo::get_DestinationWidth, IBasicVideoget_DestinationWidth, control/IBasicVideo::get_DestinationWidth, dshow.ibasicvideo_get_destinationwidth, get_DestinationWidth method [DirectShow], get_DestinationWidth method [DirectShow], IBasicVideo interface, get_DestinationWidth,IBasicVideo.get_DestinationWidth
 ms.prod: windows-hardware
 ms.technology: windows-devices

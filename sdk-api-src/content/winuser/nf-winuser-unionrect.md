@@ -7,7 +7,7 @@ old-location: gdi\unionrect.htm
 old-project: gdi
 ms.assetid: f2da2df4-3f09-4c54-afd1-c728805f0f64
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/17/2018
 ms.keywords: UnionRect, UnionRect function [Windows GDI], _win32_UnionRect, gdi.unionrect, winuser/UnionRect
 ms.prod: windows-hardware
 ms.technology: windows-devices

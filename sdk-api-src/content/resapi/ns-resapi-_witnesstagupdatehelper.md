@@ -7,7 +7,7 @@ old-location: mscs\witnesstagupdatehelper.htm
 old-project: MsCS
 ms.assetid: 4737A2B0-E295-49B6-8A84-D38BC317011B
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: WitnessTagUpdateHelper, WitnessTagUpdateHelper structure [Failover Cluster], _WitnessTagUpdateHelper, mscs.witnesstagupdatehelper, resapi/WitnessTagUpdateHelper
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _WitnessTagUpdateHelper structure

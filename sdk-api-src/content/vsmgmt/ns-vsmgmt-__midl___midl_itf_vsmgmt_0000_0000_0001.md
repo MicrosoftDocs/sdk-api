@@ -7,7 +7,7 @@ old-location: base\vss_mgmt_object_union.htm
 old-project: VSS
 ms.assetid: 4d787229-671a-422c-a935-39ae11073a5e
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: "*PVSS_MGMT_OBJECT_UNION, PVSS_MGMT_OBJECT_UNION, PVSS_MGMT_OBJECT_UNION union pointer [VSS], VSS_MGMT_OBJECT_UNION, VSS_MGMT_OBJECT_UNION union [VSS], __MIDL___MIDL_itf_vsmgmt_0000_0000_0001, base.vss_mgmt_object, base.vss_mgmt_object_union, vsmgmt/PVSS_MGMT_OBJECT_UNION, vsmgmt/VSS_MGMT_OBJECT_UNION"
 ms.prod: windows-hardware
 ms.technology: windows-devices

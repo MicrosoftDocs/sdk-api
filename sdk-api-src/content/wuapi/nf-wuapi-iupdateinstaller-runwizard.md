@@ -7,7 +7,7 @@ old-location: wua\iupdateinstaller_runwizard.htm
 old-project: Wua_Sdk
 ms.assetid: 006d95ab-45bc-4110-abd9-e39de58b8a4c
 ms.author: windowsdriverdev
-ms.date: 3/15/2018
+ms.date: 4/18/2018
 ms.keywords: IUpdateInstaller, IUpdateInstaller interface [Windows Update Agent], RunWizard method, IUpdateInstaller::RunWizard, RunWizard method [Windows Update Agent], RunWizard method [Windows Update Agent], IUpdateInstaller interface, RunWizard,IUpdateInstaller.RunWizard, wua.iupdateinstaller_runwizard, wuapi/IUpdateInstaller::RunWizard
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\ivsssoftwaresnapshotprovider_isvolumesnapshotted.htm
 old-project: VSS
 ms.assetid: 0dd8cbe4-a8f8-479c-b8f7-ccdd255e978a
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: IVssSoftwareSnapshotProvider, IVssSoftwareSnapshotProvider interface, IsVolumeSnapshotted method, IVssSoftwareSnapshotProvider::IsVolumeSnapshotted, IsVolumeSnapshotted method, IsVolumeSnapshotted method, IVssSoftwareSnapshotProvider interface, IsVolumeSnapshotted,IVssSoftwareSnapshotProvider.IsVolumeSnapshotted, base.ivsssoftwaresnapshotprovider_isvolumesnapshotted, vsprov/IVssSoftwareSnapshotProvider::IsVolumeSnapshotted
 ms.prod: windows-hardware
 ms.technology: windows-devices

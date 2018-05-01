@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3dresource9__preload.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dresource9__preload.htm
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/10/2018
 ms.keywords: IDirect3DResource9, IDirect3DResource9 interface [Direct3D 9], PreLoad method, IDirect3DResource9::PreLoad, PreLoad method [Direct3D 9], PreLoad method [Direct3D 9], IDirect3DResource9 interface, PreLoad,IDirect3DResource9.PreLoad, d3d9helper/IDirect3DResource9::PreLoad, direct3d9.idirect3dresource9__preload, eae2783a-4a7c-f994-50b0-b5b5c735921f
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\IVisualProperties_GetItemHeight.htm
 old-project: shell
 ms.assetid: 18a42f90-48de-4ac3-8904-4b56d559377e
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetItemHeight method [Windows Shell], GetItemHeight method [Windows Shell], IVisualProperties interface, GetItemHeight,IVisualProperties.GetItemHeight, IVisualProperties, IVisualProperties interface [Windows Shell], GetItemHeight method, IVisualProperties::GetItemHeight, _shell_IVisualProperties_GetItemHeight, shell.IVisualProperties_GetItemHeight, shobjidl/IVisualProperties::GetItemHeight
 ms.prod: windows-hardware
 ms.technology: windows-devices

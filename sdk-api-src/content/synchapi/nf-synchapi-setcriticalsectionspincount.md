@@ -7,7 +7,7 @@ old-location: base\setcriticalsectionspincount.htm
 old-project: Sync
 ms.assetid: 4d435c70-2e9b-4923-8726-9c8143dceb15
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: SetCriticalSectionSpinCount, SetCriticalSectionSpinCount function, _win32_setcriticalsectionspincount, base.setcriticalsectionspincount, synchapi/SetCriticalSectionSpinCount, winbase/SetCriticalSectionSpinCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

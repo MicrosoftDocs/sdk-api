@@ -7,7 +7,7 @@ old-location: security\iocsppropertycollection_item_method.htm
 old-project: SecCrypto
 ms.assetid: 33fce781-f65d-433a-b2ba-0f694cee1220
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: IOCSPPropertyCollection, IOCSPPropertyCollection interface [Security], Item property, IOCSPPropertyCollection.Item, IOCSPPropertyCollection::get_Item, Item property [Security], Item property [Security], IOCSPPropertyCollection interface, certadm/IOCSPPropertyCollection::Item, certadm/IOCSPPropertyCollection::get_Item, get_Item,IOCSPPropertyCollection.get_Item, security.iocsppropertycollection_item_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CHANNEL_ENTRY_POINTS, *PCHANNEL_ENTRY_POINTS
+req.typenames: 
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,7 +7,7 @@ old-location: mstv\impeg2tunerequestfactory.htm
 old-project: mstv
 ms.assetid: 0fbeab7d-0c54-45e3-a73c-755df28a16d5
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMPEG2TuneRequestFactory, IMPEG2TuneRequestFactory interface [Microsoft TV Technologies], IMPEG2TuneRequestFactory interface [Microsoft TV Technologies], described, IMPEG2TuneRequestFactoryInterface, mstv.impeg2tunerequestfactory, tuner/IMPEG2TuneRequestFactory
 ms.prod: windows-hardware
 ms.technology: windows-devices

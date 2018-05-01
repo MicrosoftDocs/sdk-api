@@ -7,7 +7,7 @@ old-location: dshow\impegaudiodecoder_get_audioformat.htm
 old-project: DirectShow
 ms.assetid: f7634504-d3f5-46a9-be25-08293190c27b
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IMpegAudioDecoder, IMpegAudioDecoder interface [DirectShow], get_AudioFormat method, IMpegAudioDecoder::get_AudioFormat, IMpegAudioDecodergetAudioFormat, dshow.impegaudiodecoder_get_audioformat, get_AudioFormat method [DirectShow], get_AudioFormat method [DirectShow], IMpegAudioDecoder interface, get_AudioFormat,IMpegAudioDecoder.get_AudioFormat, mpegtype/IMpegAudioDecoder::get_AudioFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices

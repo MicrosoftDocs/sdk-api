@@ -7,7 +7,7 @@ old-location: security\setsecurityinfo.htm
 old-project: SecAuthZ
 ms.assetid: f1781ba9-81eb-46f9-b530-c390b67d65de
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: SetSecurityInfo, SetSecurityInfo function [Security], _win32_setsecurityinfo, aclapi/SetSecurityInfo, security.setsecurityinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

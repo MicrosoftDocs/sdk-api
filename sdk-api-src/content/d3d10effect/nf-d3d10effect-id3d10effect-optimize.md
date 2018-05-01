@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effect_optimize.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effect_optimize.htm
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: ID3D10Effect, ID3D10Effect interface [Direct3D 10], Optimize method, ID3D10Effect::Optimize, Optimize method [Direct3D 10], Optimize method [Direct3D 10], ID3D10Effect interface, Optimize,ID3D10Effect.Optimize, d3d10effect/ID3D10Effect::Optimize, direct3d10.id3d10effect_optimize, fbbf4573-f405-bce6-e72a-a861f2d82e60
 ms.prod: windows-hardware
 ms.technology: windows-devices

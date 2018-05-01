@@ -7,7 +7,7 @@ old-location: security\ix509certificaterequest_uicontextmessage_property.htm
 old-project: SecCertEnroll
 ms.assetid: 0eedb520-06c3-4106-8593-1c5fb0829d5e
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: IX509CertificateRequest, IX509CertificateRequest interface [Security], UIContextMessage property, IX509CertificateRequest.UIContextMessage, IX509CertificateRequest::get_UIContextMessage, IX509CertificateRequest::put_UIContextMessage, UIContextMessage property [Security], UIContextMessage property [Security], IX509CertificateRequest interface, certenroll/IX509CertificateRequest::UIContextMessage, certenroll/IX509CertificateRequest::get_UIContextMessage, certenroll/IX509CertificateRequest::put_UIContextMessage, put_UIContextMessage,IX509CertificateRequest.put_UIContextMessage, security.ix509certificaterequest_uicontextmessage_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

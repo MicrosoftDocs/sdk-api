@@ -7,7 +7,7 @@ old-location: tablet\inkoverlayeditingmode.htm
 old-project: tablet
 ms.assetid: de25636c-b8ca-47e4-ae16-182b98ede8f6
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: IOEM_Delete, IOEM_Ink, IOEM_Select, InkOverlayEditingMode, InkOverlayEditingMode enumeration [Tablet PC], de25636c-b8ca-47e4-ae16-182b98ede8f6, msinkaut/IOEM_Delete, msinkaut/IOEM_Ink, msinkaut/IOEM_Select, msinkaut/InkOverlayEditingMode, tablet.inkoverlayeditingmode
 ms.prod: windows-hardware
 ms.technology: windows-devices

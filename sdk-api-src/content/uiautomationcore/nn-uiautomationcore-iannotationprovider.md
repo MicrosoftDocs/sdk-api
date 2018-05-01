@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IAnnotationProvider.htm
 old-project: WinAuto
 ms.assetid: EDD711F1-9D1B-4B6B-8052-E9258759F46E
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: IAnnotationProvider, IAnnotationProvider interface [Windows Accessibility], IAnnotationProvider interface [Windows Accessibility], described, uiautomationcore/IAnnotationProvider, winauto.uiauto_IAnnotationProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices

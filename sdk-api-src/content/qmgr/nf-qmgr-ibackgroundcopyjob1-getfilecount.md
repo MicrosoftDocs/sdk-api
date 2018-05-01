@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyjob1_getfilecount.htm
 old-project: Bits
 ms.assetid: 6aec5e9c-2950-4039-99a4-b1884a9a4673
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/10/2018
 ms.keywords: GetFileCount method [BITS], GetFileCount method [BITS], IBackgroundCopyJob1 interface, GetFileCount,IBackgroundCopyJob1.GetFileCount, IBackgroundCopyJob1, IBackgroundCopyJob1 interface [BITS], GetFileCount method, IBackgroundCopyJob1::GetFileCount, bits.ibackgroundcopyjob1_getfilecount, qmgr/IBackgroundCopyJob1::GetFileCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: QmgrPrxy.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IBackgroundCopyJob1::GetFileCount method

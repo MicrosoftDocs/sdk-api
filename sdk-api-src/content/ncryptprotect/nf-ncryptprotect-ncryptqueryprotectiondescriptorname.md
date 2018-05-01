@@ -7,7 +7,7 @@ old-location: security\ncryptqueryprotectiondescriptorname.htm
 old-project: SecCNG
 ms.assetid: 32953AEC-01EE-4ED1-80F3-29963F43004F
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: NCryptQueryProtectionDescriptorName, NCryptQueryProtectionDescriptorName function [Security], ncryptprotect/NCryptQueryProtectionDescriptorName, security.ncryptqueryprotectiondescriptorname
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: NCrypt.lib
 req.dll: NCrypt.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # NCryptQueryProtectionDescriptorName function

@@ -7,7 +7,7 @@ old-location: security\iazoperation_writable.htm
 old-project: SecAuthZ
 ms.assetid: 16745237-23d9-4818-b8f8-de93405ae9ac
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: AzOperation object [Security], Writable property, IAzOperation, IAzOperation interface [Security], Writable property, IAzOperation.Writable, IAzOperation::get_Writable, Writable property [Security], Writable property [Security], AzOperation object, Writable property [Security], IAzOperation interface, azroles/IAzOperation::Writable, azroles/IAzOperation::get_Writable, get_Writable,IAzOperation.get_Writable, security.iazoperation_writable
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: com\iaccesscontrol_grantaccessrights.htm
 old-project: com
 ms.assetid: f8ec6743-633b-4c79-afac-68eb20e07b2a
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: GrantAccessRights method [COM], GrantAccessRights method [COM], IAccessControl interface, GrantAccessRights,IAccessControl.GrantAccessRights, IAccessControl, IAccessControl interface [COM], GrantAccessRights method, IAccessControl::GrantAccessRights, _com_iaccesscontrol_grantaccessrights, com.iaccesscontrol_grantaccessrights, iaccess/IAccessControl::GrantAccessRights
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: HTTP_FILTER_VERSION, *PHTTP_FILTER_VERSION
+req.typenames: HTTP_VERSION, *PHTTP_VERSION
 topic_type:
 -	APIRef
 -	kbSyntax

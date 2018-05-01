@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontentpartner_download.htm
 old-project: WMP
 ms.assetid: 0fa3ed40-e155-4e42-b031-d6cb8f8b4ac4
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: Download method [Windows Media Player], Download method [Windows Media Player], IWMPContentPartner interface, Download,IWMPContentPartner.Download, IWMPContentPartner, IWMPContentPartner interface [Windows Media Player], Download method, IWMPContentPartner::Download, IWMPContentPartnerDownload, contentpartner/IWMPContentPartner::Download, wmp.iwmpcontentpartner_download
 ms.prod: windows-hardware
 ms.technology: windows-devices

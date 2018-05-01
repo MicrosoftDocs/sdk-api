@@ -7,7 +7,7 @@ old-location: wmformat\iwmdrmtranscryptionmanager_createtranscryptor.htm
 old-project: wmformat
 ms.assetid: e4dfa908-9fd2-4968-b4a0-c7b69064d46e
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: CreateTranscryptor method [windows Media Format], CreateTranscryptor method [windows Media Format], IWMDRMTranscryptionManager interface, CreateTranscryptor,IWMDRMTranscryptionManager.CreateTranscryptor, IWMDRMTranscryptionManager, IWMDRMTranscryptionManager interface [windows Media Format], CreateTranscryptor method, IWMDRMTranscryptionManager::CreateTranscryptor, wmformat.iwmdrmtranscryptionmanager_createtranscryptor, wmsdkidl/IWMDRMTranscryptionManager::CreateTranscryptor
 ms.prod: windows-hardware
 ms.technology: windows-devices

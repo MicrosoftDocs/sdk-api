@@ -7,7 +7,7 @@ old-location: automat\sysreleasestring.htm
 old-project: automat
 ms.assetid: D4905794-A4EA-4925-A4B2-92C8BF6EDFD0
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: SysReleaseString, SysReleaseString function [Automation], automat.sysreleasestring, oleauto/SysReleaseString
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Mincore.lib
 req.dll: Oleaut32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # SysReleaseString function

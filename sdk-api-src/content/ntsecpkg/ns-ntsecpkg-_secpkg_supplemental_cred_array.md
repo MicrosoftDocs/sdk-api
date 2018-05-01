@@ -7,7 +7,7 @@ old-location: security\secpkg_supplemental_cred_array.htm
 old-project: SecAuthN
 ms.assetid: b9514e26-29a5-4ba8-a375-1723c0a1ce39
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/24/2018
 ms.keywords: "*PSECPKG_SUPPLEMENTAL_CRED_ARRAY, PSECPKG_SUPPLEMENTAL_CRED_ARRAY, PSECPKG_SUPPLEMENTAL_CRED_ARRAY structure pointer [Security], SECPKG_SUPPLEMENTAL_CRED_ARRAY, SECPKG_SUPPLEMENTAL_CRED_ARRAY structure [Security], _SECPKG_SUPPLEMENTAL_CRED_ARRAY, _ssp_secpkg_supplemental_cred_array, ntsecpkg/PSECPKG_SUPPLEMENTAL_CRED_ARRAY, ntsecpkg/SECPKG_SUPPLEMENTAL_CRED_ARRAY, security.secpkg_supplemental_cred_array"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _SECPKG_SUPPLEMENTAL_CRED_ARRAY structure

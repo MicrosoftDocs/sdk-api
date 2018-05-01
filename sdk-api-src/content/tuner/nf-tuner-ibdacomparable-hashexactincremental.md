@@ -7,7 +7,7 @@ old-location: mstv\ibdacomparable_hashexactincremental.htm
 old-project: mstv
 ms.assetid: 4ddf2545-83a6-4b5d-94ba-7034aed61f08
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: HashExactIncremental method [Microsoft TV Technologies], HashExactIncremental method [Microsoft TV Technologies], IBDAComparable interface, HashExactIncremental,IBDAComparable.HashExactIncremental, IBDAComparable, IBDAComparable interface [Microsoft TV Technologies], HashExactIncremental method, IBDAComparable::HashExactIncremental, IBDAComparableHashExactIncremental, mstv.ibdacomparable_hashexactincremental, tuner/IBDAComparable::HashExactIncremental
 ms.prod: windows-hardware
 ms.technology: windows-devices

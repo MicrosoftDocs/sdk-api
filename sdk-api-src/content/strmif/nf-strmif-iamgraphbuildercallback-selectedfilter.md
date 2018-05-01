@@ -7,7 +7,7 @@ old-location: dshow\iamgraphbuildercallback_selectedfilter.htm
 old-project: DirectShow
 ms.assetid: a1768857-eb55-4b01-87af-921337a418c3
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMGraphBuilderCallback, IAMGraphBuilderCallback interface [DirectShow], SelectedFilter method, IAMGraphBuilderCallback::SelectedFilter, IAMGraphBuilderCallbackSelectedFilter, SelectedFilter method [DirectShow], SelectedFilter method [DirectShow], IAMGraphBuilderCallback interface, SelectedFilter,IAMGraphBuilderCallback.SelectedFilter, dshow.iamgraphbuildercallback_selectedfilter, strmif/IAMGraphBuilderCallback::SelectedFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices

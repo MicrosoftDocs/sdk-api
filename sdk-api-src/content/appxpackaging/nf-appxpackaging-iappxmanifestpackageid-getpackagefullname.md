@@ -7,7 +7,7 @@ old-location: appxpkg\iappxmanifestpackageid_getpackagefullname.htm
 old-project: appxpkg
 ms.assetid: 514D2E04-5CA5-4F45-A6D8-96866588EECF
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/26/2018
 ms.keywords: GetPackageFullName method [App packaging and management], GetPackageFullName method [App packaging and management], IAppxManifestPackageId interface, GetPackageFullName,IAppxManifestPackageId.GetPackageFullName, IAppxManifestPackageId, IAppxManifestPackageId interface [App packaging and management], GetPackageFullName method, IAppxManifestPackageId::GetPackageFullName, appxpackaging/IAppxManifestPackageId::GetPackageFullName, appxpkg.iappxmanifestpackageid_getpackagefullname
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_ARCHITECTURE2
+req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
 topic_type:
 -	APIRef
 -	kbSyntax

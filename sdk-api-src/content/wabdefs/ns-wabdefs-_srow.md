@@ -7,7 +7,7 @@ old-location: wab\_wab_SRow.htm
 old-project: wab
 ms.assetid: VS|wab|~\wab\reference\structures\srow.htm
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 4/3/2018
 ms.keywords: "*LPSRow, LPSRow, LPSRow structure pointer [Windows Address Book], SRow, SRow structure [Windows Address Book], _SRow, _wab_SRow, wab._wab_SRow, wabdefs/LPSRow, wabdefs/SRow"
 ms.prod: windows-hardware
 ms.technology: windows-devices

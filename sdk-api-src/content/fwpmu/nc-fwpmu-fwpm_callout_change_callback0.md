@@ -7,7 +7,7 @@ old-location: fwp\fwpm_callout_change_callback0_func.htm
 old-project: FWP
 ms.assetid: 82c678a5-adba-42ea-b85c-4bbdcec78673
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: FWPM_CALLOUT_CHANGE_CALLBACK0, FWPM_CALLOUT_CHANGE_CALLBACK0 function pointer [Filtering], fwp.fwpm_callout_change_callback0_func, fwpmu/FWPM_CALLOUT_CHANGE_CALLBACK0
 ms.prod: windows-hardware
 ms.technology: windows-devices

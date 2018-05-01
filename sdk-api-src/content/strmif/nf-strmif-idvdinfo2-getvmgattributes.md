@@ -7,7 +7,7 @@ old-location: dshow\idvdinfo2_getvmgattributes.htm
 old-project: DirectShow
 ms.assetid: ddb1059a-e1c5-4506-b565-fd871ad8385f
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetVMGAttributes method [DirectShow], GetVMGAttributes method [DirectShow], IDvdInfo2 interface, GetVMGAttributes,IDvdInfo2.GetVMGAttributes, IDvdInfo2, IDvdInfo2 interface [DirectShow], GetVMGAttributes method, IDvdInfo2::GetVMGAttributes, IDvdInfo2GetVMGAttributes, dshow.idvdinfo2_getvmgattributes, strmif/IDvdInfo2::GetVMGAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices

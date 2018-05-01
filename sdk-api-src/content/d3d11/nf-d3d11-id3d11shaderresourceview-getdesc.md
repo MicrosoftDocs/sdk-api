@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11shaderresourceview_getdesc.htm
 old-project: direct3d11
 ms.assetid: 223bcf9c-a873-498c-af58-d93fe0a7f52c
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/6/2018
 ms.keywords: 079df25a-69e1-b3d9-2c55-6e1eee17b40f, GetDesc method [Direct3D 11], GetDesc method [Direct3D 11], ID3D11ShaderResourceView interface, GetDesc,ID3D11ShaderResourceView.GetDesc, ID3D11ShaderResourceView, ID3D11ShaderResourceView interface [Direct3D 11], GetDesc method, ID3D11ShaderResourceView::GetDesc, d3d11/ID3D11ShaderResourceView::GetDesc, direct3d11.id3d11shaderresourceview_getdesc
 ms.prod: windows-hardware
 ms.technology: windows-devices

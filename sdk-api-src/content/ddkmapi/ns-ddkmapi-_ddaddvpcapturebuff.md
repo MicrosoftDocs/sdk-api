@@ -1,0 +1,140 @@
+---
+UID: NS:ddkmapi._DDADDVPCAPTUREBUFF
+title: "_DDADDVPCAPTUREBUFF"
+author: windows-driver-content
+description: The DDADDVPCAPTUREBUFF structure contains the information required to add a new buffer to the internal capture queue.
+old-location: display\ddaddvpcapturebuff.htm
+old-project: display
+ms.assetid: 7ee3f5ce-987a-42c9-8681-5bcb9028178a
+ms.author: windowsdriverdev
+ms.date: 4/16/2018
+ms.keywords: "*LPDDADDVPCAPTUREBUFF, DDADDVPCAPTUREBUFF, DDADDVPCAPTUREBUFF structure [Display Devices], LPDDADDVPCAPTUREBUFF, LPDDADDVPCAPTUREBUFF structure pointer [Display Devices], _DDADDVPCAPTUREBUFF, ddkmapi/DDADDVPCAPTUREBUFF, ddkmapi/LPDDADDVPCAPTUREBUFF, ddstrcts_8aed47e9-8635-4a52-aba6-7768f11f9177.xml, display.ddaddvpcapturebuff"
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: struct
+req.header: ddkmapi.h
+req.include-header: Ddkmapi.h
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: DDADDVPCAPTUREBUFF, *LPDDADDVPCAPTUREBUFF
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ddkmapi.h
+api_name:
+-	DDADDVPCAPTUREBUFF
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# _DDADDVPCAPTUREBUFF structure
+
+
+## -description
+
+
+The DDADDVPCAPTUREBUFF structure contains the information required to add a new buffer to the internal capture queue. 
+
+
+## -struct-fields
+
+
+
+
+### -field hCapture
+
+Handle to the <a href="https://msdn.microsoft.com/a1de1905-09f3-4689-ace9-06690a1f930a">video port extensions (VPE)</a> object.
+
+
+### -field dwFlags
+
+Indicates whether the destination buffer exists in regular system memory or nonlocal display memory (AGP). This member can be one of the following values:
+
+<table>
+<tr>
+<th>Flag</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td>
+DDADDBUFF_INVERT
+
+</td>
+<td>
+The buffer is to be inverted during capture.
+
+</td>
+</tr>
+<tr>
+<td>
+DDADDBUFF_NONLOCALVIDMEM
+
+</td>
+<td>
+The destination buffer exists in nonlocal display memory.
+
+</td>
+</tr>
+<tr>
+<td>
+DDADDBUFF_SYSTEMMEMORY
+
+</td>
+<td>
+The destination buffer exists in system memory.
+
+</td>
+</tr>
+</table>
+ 
+
+
+### -field pMDL
+
+Points to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff554414">MDL</a> (defined in <i>wdm.h</i>) that describes the physical pages of the destination buffer.
+
+
+### -field pKEvent
+
+Points to a KEVENT that the kernel-mode video transport sets when the destination has been filled.
+
+
+### -field lpBuffInfo
+
+Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff549216">DDCAPBUFFINFO</a> structure that the kernel-mode video transport fills in before setting the KEVENT.
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549216">DDCAPBUFFINFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550599">DD_DXAPI_ADDVPCAPTUREBUFFER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557364">DxApi</a>
+ 
+
+ 
+

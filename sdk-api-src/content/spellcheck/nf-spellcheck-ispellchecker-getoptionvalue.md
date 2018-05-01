@@ -7,7 +7,7 @@ old-location: intl\ispellchecker_getoptionvalue.htm
 old-project: Intl
 ms.assetid: bdbf4fa6-9827-40d5-81c0-008e166c9390
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/25/2018
 ms.keywords: GetOptionValue method [Internationalization for Windows Applications], GetOptionValue method [Internationalization for Windows Applications], ISpellChecker interface, GetOptionValue,ISpellChecker.GetOptionValue, ISpellChecker, ISpellChecker interface [Internationalization for Windows Applications], GetOptionValue method, ISpellChecker::GetOptionValue, intl.ispellchecker_getoptionvalue, spellcheck/ISpellChecker::GetOptionValue
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\ix509policyserverurl_removefromregistry.htm
 old-project: SecCertEnroll
 ms.assetid: 18f9a445-99db-43b1-bee0-35bfbd1de0a5
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509PolicyServerUrl, IX509PolicyServerUrl interface [Security], RemoveFromRegistry method, IX509PolicyServerUrl::RemoveFromRegistry, RemoveFromRegistry method [Security], RemoveFromRegistry method [Security], IX509PolicyServerUrl interface, RemoveFromRegistry,IX509PolicyServerUrl.RemoveFromRegistry, certenroll/IX509PolicyServerUrl::RemoveFromRegistry, security.ix509policyserverurl_removefromregistry
 ms.prod: windows-hardware
 ms.technology: windows-devices

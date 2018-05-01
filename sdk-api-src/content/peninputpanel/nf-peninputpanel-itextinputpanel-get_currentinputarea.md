@@ -7,7 +7,7 @@ old-location: tablet\itextinputpanel_currentinputarea.htm
 old-project: tablet
 ms.assetid: 47ffdda4-bfe2-4ee0-bfda-cad73a346b1e
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: 47ffdda4-bfe2-4ee0-bfda-cad73a346b1e, CurrentInputArea property [Tablet PC], CurrentInputArea property [Tablet PC], ITextInputPanel interface, ITextInputPanel, ITextInputPanel interface [Tablet PC], CurrentInputArea property, ITextInputPanel.CurrentInputArea, ITextInputPanel.get_CurrentInputArea, ITextInputPanel::get_CurrentInputArea, get_CurrentInputArea,ITextInputPanel.get_CurrentInputArea, peninputpanel/ITextInputPanel::CurrentInputArea, peninputpanel/ITextInputPanel::get_CurrentInputArea, tablet.itextinputpanel_currentinputarea
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: 
 req.dll: Tiptsf.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITextInputPanel::get_CurrentInputArea method

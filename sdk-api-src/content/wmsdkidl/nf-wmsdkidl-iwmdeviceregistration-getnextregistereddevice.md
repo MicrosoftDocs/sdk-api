@@ -7,7 +7,7 @@ old-location: wmformat\iwmdeviceregistration_getnextregistereddevice.htm
 old-project: wmformat
 ms.assetid: 396e60a8-5845-45fa-8393-6f0defbd38bb
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: GetNextRegisteredDevice method [windows Media Format], GetNextRegisteredDevice method [windows Media Format], IWMDeviceRegistration interface, GetNextRegisteredDevice,IWMDeviceRegistration.GetNextRegisteredDevice, IWMDeviceRegistration, IWMDeviceRegistration interface [windows Media Format], GetNextRegisteredDevice method, IWMDeviceRegistration::GetNextRegisteredDevice, IWMDeviceRegistrationGetNextRegisteredDevice, wmformat.iwmdeviceregistration_getnextregistereddevice, wmsdkidl/IWMDeviceRegistration::GetNextRegisteredDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices

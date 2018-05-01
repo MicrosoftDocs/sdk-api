@@ -7,7 +7,7 @@ old-location: controls\ITextRange_FindText.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\findtext.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: FindText method [Windows Controls], FindText method [Windows Controls], ITextRange interface, FindText,ITextRange.FindText, ITextRange, ITextRange interface [Windows Controls], FindText method, ITextRange::FindText, _win32_ITextRange_FindText, _win32_ITextRange_FindText_cpp, controls.ITextRange_FindText, controls._win32_ITextRange_FindText, tom/ITextRange::FindText
 ms.prod: windows-hardware
 ms.technology: windows-devices

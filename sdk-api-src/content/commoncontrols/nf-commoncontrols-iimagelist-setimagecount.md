@@ -7,7 +7,7 @@ old-location: controls\IImageList_SetImageCount.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\setimagecount.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: IImageList, IImageList interface [Windows Controls], SetImageCount method, IImageList::SetImageCount, SetImageCount method [Windows Controls], SetImageCount method [Windows Controls], IImageList interface, SetImageCount,IImageList.SetImageCount, comctl_IImageList_SetImageCount, comctl_IImageList_SetImageCount_cpp, commoncontrols/IImageList::SetImageCount, controls.IImageList_SetImageCount, controls.comctl_IImageList_SetImageCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

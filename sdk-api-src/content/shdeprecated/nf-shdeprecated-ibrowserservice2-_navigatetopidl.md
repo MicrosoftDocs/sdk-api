@@ -7,7 +7,7 @@ old-location: shell\IBrowserService2__NavigateToPidl.htm
 old-project: shell
 ms.assetid: 71f99bc7-0601-4dc4-90df-c9f9a0ab51a5
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: HLNF_ALLOW_AUTONAVIGATE, HLNF_CALLERUNTRUSTED, HLNF_DISABLEWINDOWRESTRICTIONS, HLNF_EXTERNALNAVIGATE, HLNF_NEWWINDOWSMANAGED, HLNF_TRUSTEDFORACTIVEX, HLNF_TRUSTFIRSTDOWNLOAD, HLNF_UNTRUSTEDFORDOWNLOAD, IBrowserService2, IBrowserService2 interface [Windows Shell], _NavigateToPidl method, IBrowserService2::_NavigateToPidl, SHHLNF_NOAUTOSELECT, SHHLNF_WRITENOHISTORY, _NavigateToPidl method [Windows Shell], _NavigateToPidl method [Windows Shell], IBrowserService2 interface, _NavigateToPidl,IBrowserService2._NavigateToPidl, shdeprecated/IBrowserService2::_NavigateToPidl, shell.IBrowserService2__NavigateToPidl, zone_IBrowserService2__NavigateToPidl
 ms.prod: windows-hardware
 ms.technology: windows-devices

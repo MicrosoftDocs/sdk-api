@@ -7,7 +7,7 @@ old-location: base\cvsswriter_getcurrentvolumearray.htm
 old-project: VSS
 ms.assetid: 75f72b51-e940-4b1d-88a1-7c35de5a3d87
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: CVssWriter, CVssWriter interface [VSS], GetCurrentVolumeArray method, CVssWriter::GetCurrentVolumeArray, GetCurrentVolumeArray method [VSS], GetCurrentVolumeArray method [VSS], CVssWriter interface, GetCurrentVolumeArray,CVssWriter.GetCurrentVolumeArray, _win32_cvsswriter_getcurrentvolumearray, base.cvsswriter_getcurrentvolumearray, vswriter/CVssWriter::GetCurrentVolumeArray
 ms.prod: windows-hardware
 ms.technology: windows-devices

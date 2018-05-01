@@ -7,7 +7,7 @@ old-location: mstv\istreambufferrecordcontrol_stop.htm
 old-project: mstv
 ms.assetid: 1b6a3ac4-076a-4fca-909c-6063637248a8
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IStreamBufferRecordControl, IStreamBufferRecordControl interface [Microsoft TV Technologies], Stop method, IStreamBufferRecordControl::Stop, IStreamBufferRecordControlStop, Stop method [Microsoft TV Technologies], Stop method [Microsoft TV Technologies], IStreamBufferRecordControl interface, Stop,IStreamBufferRecordControl.Stop, mstv.istreambufferrecordcontrol_stop, sbe/IStreamBufferRecordControl::Stop
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IStreamBufferRecordControl::Stop method

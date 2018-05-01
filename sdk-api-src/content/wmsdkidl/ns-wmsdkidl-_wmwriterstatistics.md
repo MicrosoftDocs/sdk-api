@@ -7,7 +7,7 @@ old-location: wmformat\wm_writer_statistics.htm
 old-project: wmformat
 ms.assetid: 907711c9-2ae1-4049-afd8-768912778e37
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: WM_WRITER_STATISTICS, WM_WRITER_STATISTICS structure [windows Media Format], _WMWriterStatistics, wmformat.wm_writer_statistics, wmsdkidl/WM_WRITER_STATISTICS
 ms.prod: windows-hardware
 ms.technology: windows-devices

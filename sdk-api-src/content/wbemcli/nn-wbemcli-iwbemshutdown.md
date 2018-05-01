@@ -7,7 +7,7 @@ old-location: wmi\iwbemshutdown.htm
 old-project: WmiSdk
 ms.assetid: a228ed61-1f16-45f4-85f2-85661ce06b72
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: IWbemShutdown, IWbemShutdown interface [Windows Management Instrumentation], IWbemShutdown interface [Windows Management Instrumentation], described, wbemcli/ IWbemShutdown, wmi.iwbemshutdown
 ms.prod: windows-hardware
 ms.technology: windows-devices

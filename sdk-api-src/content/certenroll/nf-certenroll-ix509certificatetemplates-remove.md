@@ -7,7 +7,7 @@ old-location: security\ix509certificatetemplates_remove.htm
 old-project: SecCertEnroll
 ms.assetid: e30aaeab-4130-40ab-9b50-32a119fdb794
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: IX509CertificateTemplates, IX509CertificateTemplates interface [Security], Remove method, IX509CertificateTemplates::Remove, Remove method [Security], Remove method [Security], IX509CertificateTemplates interface, Remove,IX509CertificateTemplates.Remove, certenroll/IX509CertificateTemplates::Remove, security.ix509certificatetemplates_remove
 ms.prod: windows-hardware
 ms.technology: windows-devices

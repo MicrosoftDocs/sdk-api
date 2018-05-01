@@ -7,7 +7,7 @@ old-location: dshow\iammediacontent_get_moreinfobannerimage.htm
 old-project: DirectShow
 ms.assetid: ae456ce2-4df8-4a36-88f5-526acb722bda
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMMediaContent, IAMMediaContent interface [DirectShow], get_MoreInfoBannerImage method, IAMMediaContent::get_MoreInfoBannerImage, IAMMediaContentget_MoreInfoBannerImage, dshow.iammediacontent_get_moreinfobannerimage, get_MoreInfoBannerImage method [DirectShow], get_MoreInfoBannerImage method [DirectShow], IAMMediaContent interface, get_MoreInfoBannerImage,IAMMediaContent.get_MoreInfoBannerImage, qnetwork/IAMMediaContent::get_MoreInfoBannerImage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IAMMediaContent::get_MoreInfoBannerImage method

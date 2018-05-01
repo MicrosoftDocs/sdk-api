@@ -7,7 +7,7 @@ old-location: controls\ITextHost_TxEnableScrollBar.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txenablescrollbar.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ESB_DISABLE_BOTH, ESB_DISABLE_DOWN, ESB_DISABLE_LEFT, ESB_DISABLE_LTUP, ESB_DISABLE_RIGHT, ESB_DISABLE_RTDN, ESB_DISABLE_UP, ESB_ENABLE_BOTH, ITextHost, ITextHost interface [Windows Controls], TxEnableScrollBar method, ITextHost::TxEnableScrollBar, SB_BOTH, SB_HORZ, SB_VERT, TxEnableScrollBar method [Windows Controls], TxEnableScrollBar method [Windows Controls], ITextHost interface, TxEnableScrollBar,ITextHost.TxEnableScrollBar, _win32_ITextHost_TxEnableScrollBar, _win32_ITextHost_TxEnableScrollBar_cpp, controls.ITextHost_TxEnableScrollBar, controls._win32_ITextHost_TxEnableScrollBar, textserv/ITextHost::TxEnableScrollBar
 ms.prod: windows-hardware
 ms.technology: windows-devices

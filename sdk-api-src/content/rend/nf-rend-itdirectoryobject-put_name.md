@@ -7,7 +7,7 @@ old-location: tapi3\itdirectoryobject_put_name.htm
 old-project: Tapi
 ms.assetid: 398ba207-bdd7-4090-ac8b-72badbb401e3
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: ITDirectoryObject, ITDirectoryObject interface [TAPI 2.2], put_Name method, ITDirectoryObject::put_Name, _tapi3_itdirectoryobject_put_name, put_Name method [TAPI 2.2], put_Name method [TAPI 2.2], ITDirectoryObject interface, put_Name,ITDirectoryObject.put_Name, rend/ITDirectoryObject::put_Name, tapi3.itdirectoryobject_put_name
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Rend.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITDirectoryObject::put_Name method

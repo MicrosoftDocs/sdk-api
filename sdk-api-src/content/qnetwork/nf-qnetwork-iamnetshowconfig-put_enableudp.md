@@ -7,7 +7,7 @@ old-location: dshow\iamnetshowconfig_put_enableudp.htm
 old-project: DirectShow
 ms.assetid: 2573573e-97e0-4ed4-b702-8c54ef47c5f4
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMNetShowConfig, IAMNetShowConfig interface [DirectShow], put_EnableUDP method, IAMNetShowConfig::put_EnableUDP, IAMNetShowConfigput_EnableUDP, dshow.iamnetshowconfig_put_enableudp, put_EnableUDP method [DirectShow], put_EnableUDP method [DirectShow], IAMNetShowConfig interface, put_EnableUDP,IAMNetShowConfig.put_EnableUDP, qnetwork/IAMNetShowConfig::put_EnableUDP
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IAMNetShowConfig::put_EnableUDP method

@@ -7,7 +7,7 @@ old-location: base\jobobject_cpu_rate_control_information.htm
 old-project: ProcThread
 ms.assetid: eaa5bda2-a37e-441b-a0e4-e00dff6425b2
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: "*PJOBOBJECT_CPU_RATE_CONTROL_INFORMATION, JOBOBJECT_CPU_RATE_CONTROL_INFORMATION, JOBOBJECT_CPU_RATE_CONTROL_INFORMATION structure, JOB_OBJECT_ CPU_RATE_CONTROL_MIN_MAX_RATE, JOB_OBJECT_CPU_RATE_CONTROL_ENABLE, JOB_OBJECT_CPU_RATE_CONTROL_HARD_CAP, JOB_OBJECT_CPU_RATE_CONTROL_NOTIFY, JOB_OBJECT_CPU_RATE_CONTROL_WEIGHT_BASED, PJOBOBJECT_CPU_RATE_CONTROL_INFORMATION, PJOBOBJECT_CPU_RATE_CONTROL_INFORMATION structure pointer, _JOBOBJECT_CPU_RATE_CONTROL_INFORMATION, base.jobobject_cpu_rate_control_information, winnt/JOBOBJECT_CPU_RATE_CONTROL_INFORMATION, winnt/PJOBOBJECT_CPU_RATE_CONTROL_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -56,30 +56,6 @@ Contains CPU rate control information for a job object. This structure is used b
 ## -struct-fields
 
 
-
-
-### -field DUMMYUNIONNAME
-
- 
-
-
-### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME
-
- 
-
-
-### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.MinRate
-
-Specifies the minimum portion of the processor cycles that the threads in a job object can reserve during each scheduling interval. Specify this rate as a percentage times 100.  For example, to set a minimum rate of 50%, specify 50 times 100, or  5,000.
-
-For the minimum rates to work correctly, the sum of the minimum rates for all of the job objects in the system cannot exceed 10,000, which is the equivalent of 100%.
-
-
-### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.MaxRate
-
-Specifies the maximum portion of processor cycles that the threads in a job object can use during each scheduling interval. Specify this rate as a percentage times 100.  For example, to set  a maximum rate of 50%, specify 50 times 100, or  5,000.
-
-After the job reaches this limit for a scheduling interval, no threads associated with the job can run until the next scheduling interval.
 
 
 ### -field ControlFlags
@@ -154,6 +130,30 @@ If you set <b>JOB_OBJECT_CPU_RATE_CONTROL_MIN_MAX_RATE</b>, you can set neither 
 </tr>
 </table>
  
+
+
+### -field DUMMYUNIONNAME
+
+ 
+
+
+### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME
+
+ 
+
+
+### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.MinRate
+
+Specifies the minimum portion of the processor cycles that the threads in a job object can reserve during each scheduling interval. Specify this rate as a percentage times 100.  For example, to set a minimum rate of 50%, specify 50 times 100, or  5,000.
+
+For the minimum rates to work correctly, the sum of the minimum rates for all of the job objects in the system cannot exceed 10,000, which is the equivalent of 100%.
+
+
+### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.MaxRate
+
+Specifies the maximum portion of processor cycles that the threads in a job object can use during each scheduling interval. Specify this rate as a percentage times 100.  For example, to set  a maximum rate of 50%, specify 50 times 100, or  5,000.
+
+After the job reaches this limit for a scheduling interval, no threads associated with the job can run until the next scheduling interval.
 
 
 #### - CpuRate

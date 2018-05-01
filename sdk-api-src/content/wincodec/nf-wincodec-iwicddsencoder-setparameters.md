@@ -7,7 +7,7 @@ old-location: wic\iwicddsencoder_setparameters.htm
 old-project: wic
 ms.assetid: 9DF51D95-97B0-4EC9-8F77-E49B16D76D77
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: IWICDdsEncoder, IWICDdsEncoder interface [Windows Imaging Component], SetParameters method, IWICDdsEncoder::SetParameters, SetParameters method [Windows Imaging Component], SetParameters method [Windows Imaging Component], IWICDdsEncoder interface, SetParameters,IWICDdsEncoder.SetParameters, wic.iwicddsencoder_setparameters, wincodec/IWICDdsEncoder::SetParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices

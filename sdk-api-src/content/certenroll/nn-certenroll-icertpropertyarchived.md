@@ -7,7 +7,7 @@ old-location: security\icertpropertyarchived.htm
 old-project: SecCertEnroll
 ms.assetid: 81219ad9-4717-40e5-9ecd-d3df980e23c6
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: ICertPropertyArchived, ICertPropertyArchived interface [Security], ICertPropertyArchived interface [Security], described, certenroll/ICertPropertyArchived, security.icertpropertyarchived
 ms.prod: windows-hardware
 ms.technology: windows-devices

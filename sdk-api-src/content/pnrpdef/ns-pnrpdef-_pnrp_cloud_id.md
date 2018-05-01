@@ -7,7 +7,7 @@ old-location: p2p\pnrp_cloud_id.htm
 old-project: P2PSdk
 ms.assetid: 8187ce9e-e1a9-4dce-902e-8a1c43b4b047
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/23/2018
 ms.keywords: "*PPNRP_CLOUD_ID, PNRP_CLOUD_ID, PNRP_CLOUD_ID structure [Peer Networking], PPNRP_CLOUD_ID, PPNRP_CLOUD_ID structure pointer [Peer Networking], _PNRP_CLOUD_ID, p2p.pnrp_cloud_id, pnrpdef/PNRP_CLOUD_ID, pnrpdef/PPNRP_CLOUD_ID"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _PNRP_CLOUD_ID structure

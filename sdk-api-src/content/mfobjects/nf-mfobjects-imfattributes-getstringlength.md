@@ -7,7 +7,7 @@ old-location: mf\imfattributes_getstringlength.htm
 old-project: medfound
 ms.assetid: 6ccc753f-e147-47f4-ab95-17687729404a
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 6ccc753f-e147-47f4-ab95-17687729404a, GetStringLength method [Media Foundation], GetStringLength method [Media Foundation], IMFAttributes interface, GetStringLength,IMFAttributes.GetStringLength, IMFAttributes, IMFAttributes interface [Media Foundation], GetStringLength method, IMFAttributes::GetStringLength, mf.imfattributes_getstringlength, mfobjects/IMFAttributes::GetStringLength
 ms.prod: windows-hardware
 ms.technology: windows-devices

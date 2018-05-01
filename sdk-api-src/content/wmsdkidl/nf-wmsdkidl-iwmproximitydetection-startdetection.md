@@ -7,7 +7,7 @@ old-location: wmformat\iwmproximitydetection_startdetection.htm
 old-project: wmformat
 ms.assetid: 90db4712-cf3e-4526-b07b-ea74c521dbc3
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMProximityDetection, IWMProximityDetection interface [windows Media Format], StartDetection method, IWMProximityDetection::StartDetection, IWMProximityDetectionStartDetection, StartDetection method [windows Media Format], StartDetection method [windows Media Format], IWMProximityDetection interface, StartDetection,IWMProximityDetection.StartDetection, wmformat.iwmproximitydetection_startdetection, wmsdkidl/IWMProximityDetection::StartDetection
 ms.prod: windows-hardware
 ms.technology: windows-devices

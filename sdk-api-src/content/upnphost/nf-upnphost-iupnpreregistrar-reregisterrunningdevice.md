@@ -7,7 +7,7 @@ old-location: upnp\iupnpreregistrar_reregisterrunningdevice.htm
 old-project: UPnP
 ms.assetid: e5e9257e-1143-416c-8862-a69b726f5e23
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/25/2018
 ms.keywords: IUPnPReregistrar, IUPnPReregistrar interface [UPnP APIs], ReregisterRunningDevice method, IUPnPReregistrar::ReregisterRunningDevice, ReregisterRunningDevice method [UPnP APIs], ReregisterRunningDevice method [UPnP APIs], IUPnPReregistrar interface, ReregisterRunningDevice,IUPnPReregistrar.ReregisterRunningDevice, _upnp_iupnpreregistrar_reregisterrunningdevice, upnp.iupnpreregistrar_reregisterrunningdevice, upnphost/IUPnPReregistrar::ReregisterRunningDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices

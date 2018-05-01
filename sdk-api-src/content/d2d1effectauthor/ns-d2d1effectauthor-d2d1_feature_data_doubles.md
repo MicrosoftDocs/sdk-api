@@ -7,7 +7,7 @@ old-location: direct2d\d2d1_feature_data_doubles.htm
 old-project: Direct2D
 ms.assetid: 29EDAD15-FFFF-4F0D-BB0D-B4BF37AC609F
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: D2D1_FEATURE_DATA_DOUBLES, D2D1_FEATURE_DATA_DOUBLES structure [Direct2D], d2d1effectauthor/D2D1_FEATURE_DATA_DOUBLES, direct2d.d2d1_feature_data_doubles
 ms.prod: windows-hardware
 ms.technology: windows-devices

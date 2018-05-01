@@ -7,7 +7,7 @@ old-location: appxpkg\iappxencryptionfactory_decryptpackage.htm
 old-project: appxpkg
 ms.assetid: FB3BC989-F165-417A-963A-7B78B65930FA
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/26/2018
 ms.keywords: DecryptPackage method [App packaging and management], DecryptPackage method [App packaging and management], IAppxEncryptionFactory interface, DecryptPackage,IAppxEncryptionFactory.DecryptPackage, IAppxEncryptionFactory, IAppxEncryptionFactory interface [App packaging and management], DecryptPackage method, IAppxEncryptionFactory::DecryptPackage, appxpackaging/IAppxEncryptionFactory::DecryptPackage, appxpkg.iappxencryptionfactory_decryptpackage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_ARCHITECTURE2
+req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
 topic_type:
 -	APIRef
 -	kbSyntax

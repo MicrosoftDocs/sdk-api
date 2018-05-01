@@ -7,7 +7,7 @@ old-location: security\bcryptenumcontexts.htm
 old-project: SecCNG
 ms.assetid: 02646a80-6e93-4169-83da-0488ff3da56f
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: BCryptEnumContexts, BCryptEnumContexts function [Security], CRYPT_DOMAIN, CRYPT_LOCAL, bcrypt/BCryptEnumContexts, security.bcryptenumcontexts
 ms.prod: windows-hardware
 ms.technology: windows-devices

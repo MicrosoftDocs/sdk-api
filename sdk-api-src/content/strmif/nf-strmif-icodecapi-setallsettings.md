@@ -7,7 +7,7 @@ old-location: dshow\icodecapi_setallsettings.htm
 old-project: DirectShow
 ms.assetid: 1148e380-a4fc-4392-861e-8ea695060032
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ICodecAPI, ICodecAPI interface [DirectShow], SetAllSettings method, ICodecAPI::SetAllSettings, ICodecAPISetAllSettings, SetAllSettings method [DirectShow], SetAllSettings method [DirectShow], ICodecAPI interface, SetAllSettings,ICodecAPI.SetAllSettings, dshow.icodecapi_setallsettings, strmif/ICodecAPI::SetAllSettings
 ms.prod: windows-hardware
 ms.technology: windows-devices

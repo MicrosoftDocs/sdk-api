@@ -335,7 +335,7 @@ Animates the menu from top to bottom.
 </table>
  
 
-For any animation to occur, the <a href="https://msdn.microsoft.com/9b99465c-e12d-413c-8e69-b46b52f2f11f">SystemParametersInfo</a> function must set <b>SPI_SETMENUANIMATION</b>. Also, all the <b>TPM_*ANIMATION</b> flags, except <b>TPM_NOANIMATION</b>, are ignored if menu fade animation is on. For more information, see the <b>SPI_GETMENUFADE</b> flag in <b>SystemParametersInfo</b>. 
+For any animation to occur, the <a href="base.systemparametersinfo">SystemParametersInfo</a> function must set <b>SPI_SETMENUANIMATION</b>. Also, all the <b>TPM_*ANIMATION</b> flags, except <b>TPM_NOANIMATION</b>, are ignored if menu fade animation is on. For more information, see the <b>SPI_GETMENUFADE</b> flag in <b>SystemParametersInfo</b>. 
 
  Use the <b>TPM_RECURSE</b> flag to display a menu when another menu is already displayed. This is intended to support context menus within a menu. 
 
@@ -400,7 +400,7 @@ If you do not specify <b>TPM_RETURNCMD</b> in the <i>fuFlags</i> parameter, the 
 
 
 
-Call <a href="https://msdn.microsoft.com/d063857b-6036-4e68-80af-9c70d12ae29e">GetSystemMetrics</a> with <b>SM_MENUDROPALIGNMENT</b> to determine the correct horizontal alignment flag (<b>TPM_LEFTALIGN</b> or <b>TPM_RIGHTALIGN</b>) and/or horizontal animation direction flag (<b>TPM_HORPOSANIMATION</b> or <b>TPM_HORNEGANIMATION</b>) to pass to <a href="https://msdn.microsoft.com/2e1e4648-e3fd-4d9a-a558-de7b030e3d75">TrackPopupMenu</a> or <b>TrackPopupMenuEx</b>. This is essential for creating an optimal user experience, especially when developing Microsoft Tablet PC applications.
+Call <a href="base.getsystemmetrics">GetSystemMetrics</a> with <b>SM_MENUDROPALIGNMENT</b> to determine the correct horizontal alignment flag (<b>TPM_LEFTALIGN</b> or <b>TPM_RIGHTALIGN</b>) and/or horizontal animation direction flag (<b>TPM_HORPOSANIMATION</b> or <b>TPM_HORNEGANIMATION</b>) to pass to <a href="https://msdn.microsoft.com/2e1e4648-e3fd-4d9a-a558-de7b030e3d75">TrackPopupMenu</a> or <b>TrackPopupMenuEx</b>. This is essential for creating an optimal user experience, especially when developing Microsoft Tablet PC applications.
 
 To display a context menu for a notification icon, the current window must be the foreground window before the application calls <a href="https://msdn.microsoft.com/2e1e4648-e3fd-4d9a-a558-de7b030e3d75">TrackPopupMenu</a> or <b>TrackPopupMenuEx</b>. Otherwise, the menu will not disappear when the user clicks outside of the menu or the window that created the menu (if it is visible). If the current window is a child window, you must set the (top-level) parent window as the foreground window.
 

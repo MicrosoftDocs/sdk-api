@@ -7,7 +7,7 @@ old-location: com\ioleundomanager_add.htm
 old-project: com
 ms.assetid: 3288e0c6-e345-4c4d-a7bf-0c5f45c19732
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: Add method [COM], Add method [COM], IOleUndoManager interface, Add,IOleUndoManager.Add, IOleUndoManager, IOleUndoManager interface [COM], Add method, IOleUndoManager::Add, _ole_ioleundomanager_add, com.ioleundomanager_add, ocidl/IOleUndoManager::Add
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IOleUndoManager::Add method

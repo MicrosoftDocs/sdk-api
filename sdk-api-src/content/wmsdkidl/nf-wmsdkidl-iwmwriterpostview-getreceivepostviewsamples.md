@@ -7,7 +7,7 @@ old-location: wmformat\iwmwriterpostview_getreceivepostviewsamples.htm
 old-project: wmformat
 ms.assetid: 93120e68-2d1c-4628-8e2e-d22a56fa98a3
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: GetReceivePostViewSamples method [windows Media Format], GetReceivePostViewSamples method [windows Media Format], IWMWriterPostView interface, GetReceivePostViewSamples,IWMWriterPostView.GetReceivePostViewSamples, IWMWriterPostView, IWMWriterPostView interface [windows Media Format], GetReceivePostViewSamples method, IWMWriterPostView::GetReceivePostViewSamples, IWMWriterPostViewGetReceivePostViewSamples, wmformat.iwmwriterpostview_getreceivepostviewsamples, wmsdkidl/IWMWriterPostView::GetReceivePostViewSamples
 ms.prod: windows-hardware
 ms.technology: windows-devices

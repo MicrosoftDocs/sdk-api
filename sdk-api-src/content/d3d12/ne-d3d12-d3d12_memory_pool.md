@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_memory_pool.htm
 old-project: direct3d12
 ms.assetid: EFA3FF00-F121-4ED8-AF83-1952C73AE06D
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: D3D12_MEMORY_POOL, D3D12_MEMORY_POOL enumeration, D3D12_MEMORY_POOL_L0, D3D12_MEMORY_POOL_L1, D3D12_MEMORY_POOL_UNKNOWN, d3d12/D3D12_MEMORY_POOL, d3d12/D3D12_MEMORY_POOL_L0, d3d12/D3D12_MEMORY_POOL_L1, d3d12/D3D12_MEMORY_POOL_UNKNOWN, direct3d12.d3d12_memory_pool
 ms.prod: windows-hardware
 ms.technology: windows-devices

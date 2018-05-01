@@ -7,7 +7,7 @@ old-location: mf\imfsensorstream_getmediatype.htm
 old-project: medfound
 ms.assetid: 510AD624-F212-4FD7-BF30-A5C90CFA23C5
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetMediaType method [Media Foundation], GetMediaType method [Media Foundation], IMFSensorStream interface, GetMediaType,IMFSensorStream.GetMediaType, IMFSensorStream, IMFSensorStream interface [Media Foundation], GetMediaType method, IMFSensorStream::GetMediaType, mf.imfsensorstream_getmediatype, mfidl/IMFSensorStream::GetMediaType
 ms.prod: windows-hardware
 ms.technology: windows-devices

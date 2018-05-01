@@ -7,7 +7,7 @@ old-location: mstv\iservicelocationdescriptor_getelementstreamtype.htm
 old-project: mstv
 ms.assetid: d95a9af9-2e09-4a94-ac13-1b17698cfff3
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetElementStreamType method [Microsoft TV Technologies], GetElementStreamType method [Microsoft TV Technologies], IServiceLocationDescriptor interface, GetElementStreamType,IServiceLocationDescriptor.GetElementStreamType, IServiceLocationDescriptor, IServiceLocationDescriptor interface [Microsoft TV Technologies], GetElementStreamType method, IServiceLocationDescriptor::GetElementStreamType, atscpsipparser/IServiceLocationDescriptor::GetElementStreamType, mstv.iservicelocationdescriptor_getelementstreamtype
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_WRITER_PAYLOAD_STREAM
+req.typenames: AsyncStatus
 topic_type:
 -	APIRef
 -	kbSyntax

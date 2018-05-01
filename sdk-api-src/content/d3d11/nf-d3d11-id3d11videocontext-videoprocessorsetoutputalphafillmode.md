@@ -7,7 +7,7 @@ old-location: mf\id3d11videocontext_videoprocessorsetoutputalphafillmode.htm
 old-project: medfound
 ms.assetid: 898604FA-B857-4D84-AA0D-3BC517F75A36
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: ID3D11VideoContext, ID3D11VideoContext interface [Media Foundation], VideoProcessorSetOutputAlphaFillMode method, ID3D11VideoContext::VideoProcessorSetOutputAlphaFillMode, VideoProcessorSetOutputAlphaFillMode method [Media Foundation], VideoProcessorSetOutputAlphaFillMode method [Media Foundation], ID3D11VideoContext interface, VideoProcessorSetOutputAlphaFillMode,ID3D11VideoContext.VideoProcessorSetOutputAlphaFillMode, d3d11/ID3D11VideoContext::VideoProcessorSetOutputAlphaFillMode, mf.id3d11videocontext_videoprocessorsetoutputalphafillmode
 ms.prod: windows-hardware
 ms.technology: windows-devices

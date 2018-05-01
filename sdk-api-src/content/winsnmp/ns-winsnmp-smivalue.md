@@ -64,61 +64,6 @@ The <b>syntax</b> member of the
 
 
 
-### -field value
-
-Specifies the union of all possible WinSNMP syntax data types, including the 
-<a href="https://msdn.microsoft.com/0bdf900e-6e67-4461-97bc-4c9650d888bf">smiOID</a> or 
-<a href="https://msdn.microsoft.com/d53da0e8-ce7d-4923-90c3-2469cbd9d9b1">smiOCTETS</a> descriptor types.
-
-
-
-#### sNumber
-
-<b>Type: <b>smiINT</b>
-</b>
-Specifies a signed long integer value.
-
-
-
-#### uNumber
-
-<b>Type: <b>smiUINT32</b>
-</b>
-Specifies a 32-bit unsigned long integer value.
-
-
-
-#### hNumber
-
-<b>Type: <b>smiCNTR64</b>
-</b>
-Specifies a 64-bit unsigned integer value
-
-
-
-#### string
-
-<b>Type: <b>smiOCTETS</b>
-</b>
-Specifies a string.
-
-
-
-#### oid
-
-<b>Type: <b>smiOID</b>
-</b>
-Specifies an object identifier (OID).
-
-
-
-#### empty
-
-<b>Type: <b>smiBYTE</b>
-</b>
-Specifies an empty member.
-
-
 ### -field syntax
 
 Type: <b>smiUINT32</b>
@@ -285,6 +230,61 @@ Indicates the WinSNMP application is attempting to reference an object identifie
  
 
 The last three syntax types describe exception conditions under the SNMP version 2C (SNMPv2C) framework.
+
+
+### -field value
+
+Specifies the union of all possible WinSNMP syntax data types, including the 
+<a href="https://msdn.microsoft.com/0bdf900e-6e67-4461-97bc-4c9650d888bf">smiOID</a> or 
+<a href="https://msdn.microsoft.com/d53da0e8-ce7d-4923-90c3-2469cbd9d9b1">smiOCTETS</a> descriptor types.
+
+
+
+#### sNumber
+
+<b>Type: <b>smiINT</b>
+</b>
+Specifies a signed long integer value.
+
+
+
+#### uNumber
+
+<b>Type: <b>smiUINT32</b>
+</b>
+Specifies a 32-bit unsigned long integer value.
+
+
+
+#### hNumber
+
+<b>Type: <b>smiCNTR64</b>
+</b>
+Specifies a 64-bit unsigned integer value
+
+
+
+#### string
+
+<b>Type: <b>smiOCTETS</b>
+</b>
+Specifies a string.
+
+
+
+#### oid
+
+<b>Type: <b>smiOID</b>
+</b>
+Specifies an object identifier (OID).
+
+
+
+#### empty
+
+<b>Type: <b>smiBYTE</b>
+</b>
+Specifies an empty member.
 
 
 ## -remarks

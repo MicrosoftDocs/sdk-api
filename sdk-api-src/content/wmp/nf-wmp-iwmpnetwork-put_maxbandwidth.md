@@ -7,7 +7,7 @@ old-location: wmp\iwmpnetwork_put_maxbandwidth.htm
 old-project: WMP
 ms.assetid: 7259a5e2-dbc6-4ac0-946e-e79d542edb06
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPNetwork, IWMPNetwork interface [Windows Media Player], put_maxBandwidth method, IWMPNetwork::put_maxBandwidth, IWMPNetworkput_maxBandwidth, put_maxBandwidth method [Windows Media Player], put_maxBandwidth method [Windows Media Player], IWMPNetwork interface, put_maxBandwidth,IWMPNetwork.put_maxBandwidth, wmp.iwmpnetwork_put_maxbandwidth, wmp/IWMPNetwork::put_maxBandwidth
 ms.prod: windows-hardware
 ms.technology: windows-devices

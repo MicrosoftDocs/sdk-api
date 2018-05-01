@@ -7,7 +7,7 @@ old-location: coreaudio\iaudioendpointvolume_getvolumerange.htm
 old-project: CoreAudio
 ms.assetid: a0e98ed8-36e2-4abc-aa83-008cc89e3a56
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: GetVolumeRange method [Core Audio], GetVolumeRange method [Core Audio], IAudioEndpointVolume interface, GetVolumeRange,IAudioEndpointVolume.GetVolumeRange, IAudioEndpointVolume, IAudioEndpointVolume interface [Core Audio], GetVolumeRange method, IAudioEndpointVolume::GetVolumeRange, IAudioEndpointVolumeGetVolumeRange, coreaudio.iaudioendpointvolume_getvolumerange, endpointvolume/IAudioEndpointVolume::GetVolumeRange
 ms.prod: windows-hardware
 ms.technology: windows-devices

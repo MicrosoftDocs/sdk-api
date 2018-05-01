@@ -7,7 +7,7 @@ old-location: shell\CPlApplet.htm
 old-project: shell
 ms.assetid: 23063e34-9d77-4167-83cd-8561accf0a8d
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: APPLET_PROC, CPlApplet, CPlApplet entry point [Windows Shell], _win32_CPlApplet, cpl/CPlApplet, shell.CPlApplet
 ms.prod: windows-hardware
 ms.technology: windows-devices

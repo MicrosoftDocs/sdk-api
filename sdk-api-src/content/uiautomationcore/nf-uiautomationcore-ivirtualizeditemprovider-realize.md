@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IVirtualizedItemProvider_Realize.htm
 old-project: WinAuto
 ms.assetid: ec69f0d2-a643-4f1b-892a-0d90f79afe72
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: IVirtualizedItemProvider, IVirtualizedItemProvider interface [Windows Accessibility], Realize method, IVirtualizedItemProvider::Realize, Realize method [Windows Accessibility], Realize method [Windows Accessibility], IVirtualizedItemProvider interface, Realize,IVirtualizedItemProvider.Realize, uiauto.uiauto_IVirtualizedItemProvider_Realize, uiauto_IVirtualizedItemProvider_Realize, uiautomationcore/IVirtualizedItemProvider::Realize, winauto.uiauto_IVirtualizedItemProvider_Realize
 ms.prod: windows-hardware
 ms.technology: windows-devices

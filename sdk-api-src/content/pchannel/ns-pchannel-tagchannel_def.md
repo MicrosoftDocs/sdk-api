@@ -7,7 +7,7 @@ old-location: termserv\channel_def_str.htm
 old-project: TermServ
 ms.assetid: 05fb703f-b43c-420f-aab5-b2d6533a6cab
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: CHANNEL_DEF, CHANNEL_DEF structure [Remote Desktop Services], CHANNEL_OPTION_COMPRESS, CHANNEL_OPTION_COMPRESS_RDP, CHANNEL_OPTION_ENCRYPT_CS, CHANNEL_OPTION_ENCRYPT_RDP, CHANNEL_OPTION_ENCRYPT_SC, CHANNEL_OPTION_INITIALIZED, CHANNEL_OPTION_PRI_HIGH, CHANNEL_OPTION_PRI_LOW, CHANNEL_OPTION_PRI_MED, CHANNEL_OPTION_REMOTE_CONTROL_PERSISTENT, CHANNEL_OPTION_SHOW_PROTOCOL, PAL_PACKED_STRUCT, PCHANNEL_DEF, PCHANNEL_DEF structure pointer [Remote Desktop Services], PPCHANNEL_DEF, PPCHANNEL_DEF structure pointer [Remote Desktop Services], _win32_channel_def_str, pchannel/CHANNEL_DEF, pchannel/PCHANNEL_DEF, pchannel/PPCHANNEL_DEF, tagCHANNEL_DEF, termserv.channel_def_str
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # tagCHANNEL_DEF structure

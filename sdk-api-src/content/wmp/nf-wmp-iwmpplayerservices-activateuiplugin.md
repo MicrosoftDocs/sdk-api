@@ -7,7 +7,7 @@ old-location: wmp\iwmpplayerservices_activateuiplugin.htm
 old-project: WMP
 ms.assetid: 73274f71-ba34-479c-a23c-38a564e950fa
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPPlayerServices, IWMPPlayerServices interface [Windows Media Player], activateUIPlugin method, IWMPPlayerServices::activateUIPlugin, IWMPPlayerServicesactivateUIPlugin, activateUIPlugin method [Windows Media Player], activateUIPlugin method [Windows Media Player], IWMPPlayerServices interface, activateUIPlugin,IWMPPlayerServices.activateUIPlugin, wmp.iwmpplayerservices_activateuiplugin, wmp/IWMPPlayerServices::activateUIPlugin
 ms.prod: windows-hardware
 ms.technology: windows-devices

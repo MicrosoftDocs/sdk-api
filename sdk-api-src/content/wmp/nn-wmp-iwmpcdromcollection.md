@@ -7,7 +7,7 @@ old-location: wmp\iwmpcdromcollection.htm
 old-project: WMP
 ms.assetid: ba55ac32-149d-4f7b-a2bb-1fdb0be806cd
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPCdromCollection, IWMPCdromCollection interface [Windows Media Player], IWMPCdromCollection interface [Windows Media Player], described, IWMPCdromCollectionInterface, wmp.iwmpcdromcollection, wmp/IWMPCdromCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices

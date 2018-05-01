@@ -7,7 +7,7 @@ old-location: controls\ITextPara_CanChange.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextpara\itextparacanchange.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: CanChange method [Windows Controls], CanChange method [Windows Controls], ITextPara interface, CanChange,ITextPara.CanChange, ITextPara, ITextPara interface [Windows Controls], CanChange method, ITextPara::CanChange, _win32_ITextPara_CanChange, _win32_ITextPara_CanChange_cpp, controls.ITextPara_CanChange, controls._win32_ITextPara_CanChange, tom/ITextPara::CanChange
 ms.prod: windows-hardware
 ms.technology: windows-devices

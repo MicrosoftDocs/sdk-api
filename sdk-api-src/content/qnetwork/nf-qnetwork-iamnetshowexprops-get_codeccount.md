@@ -7,7 +7,7 @@ old-location: dshow\iamnetshowexprops_get_codeccount.htm
 old-project: DirectShow
 ms.assetid: 7b16727d-565a-431e-8124-124d72816d65
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMNetShowExProps, IAMNetShowExProps interface [DirectShow], get_CodecCount method, IAMNetShowExProps::get_CodecCount, IAMNetShowExPropsget_CodecCount, dshow.iamnetshowexprops_get_codeccount, get_CodecCount method [DirectShow], get_CodecCount method [DirectShow], IAMNetShowExProps interface, get_CodecCount,IAMNetShowExProps.get_CodecCount, qnetwork/IAMNetShowExProps::get_CodecCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IAMNetShowExProps::get_CodecCount method

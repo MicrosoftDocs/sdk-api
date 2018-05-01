@@ -7,7 +7,7 @@ old-location: security\ix509certificaterequestpkcs10_rawdatatobesigned_property.
 old-project: SecCertEnroll
 ms.assetid: 43e7e3e2-d94d-46b4-b76b-cd54f9d618ec
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: IX509CertificateRequestPkcs10, IX509CertificateRequestPkcs10 interface [Security], RawDataToBeSigned property, IX509CertificateRequestPkcs10.RawDataToBeSigned, IX509CertificateRequestPkcs10::get_RawDataToBeSigned, RawDataToBeSigned property [Security], RawDataToBeSigned property [Security], IX509CertificateRequestPkcs10 interface, certenroll/IX509CertificateRequestPkcs10::RawDataToBeSigned, certenroll/IX509CertificateRequestPkcs10::get_RawDataToBeSigned, get_RawDataToBeSigned,IX509CertificateRequestPkcs10.get_RawDataToBeSigned, security.ix509certificaterequestpkcs10_rawdatatobesigned_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

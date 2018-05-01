@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationTreeWalker_GetParentBuildCache.htm
 old-project: WinAuto
 ms.assetid: 1a1d9805-bcd7-4c5d-ac61-138ac75a523e
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: GetParentElementBuildCache method [Windows Accessibility], GetParentElementBuildCache method [Windows Accessibility], IUIAutomationTreeWalker interface, GetParentElementBuildCache,IUIAutomationTreeWalker.GetParentElementBuildCache, IUIAutomationTreeWalker, IUIAutomationTreeWalker interface [Windows Accessibility], GetParentElementBuildCache method, IUIAutomationTreeWalker::GetParentElementBuildCache, uiauto.uiauto_IUIAutomationTreeWalker_GetParentBuildCache, uiauto_IUIAutomationTreeWalker_GetParentBuildCache, uiautomationclient/IUIAutomationTreeWalker::GetParentElementBuildCache, winauto.uiauto_IUIAutomationTreeWalker_GetParentBuildCache
 ms.prod: windows-hardware
 ms.technology: windows-devices

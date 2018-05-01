@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxport_get_canmodify_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_920p.htm
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/18/2018
 ms.keywords: CanModify property [Fax Service], CanModify property [Fax Service], FaxPort object, FaxPort object [Fax Service], CanModify property, IFaxPort, IFaxPort::get_CanModify, _mfax_ifaxport_get_canmodify, fax._mfax_ifaxport_get_canmodify, fax._mfax_ifaxport_get_canmodify_vb, get_CanModify,IFaxPort.get_CanModify
 ms.prod: windows-hardware
 ms.technology: windows-devices

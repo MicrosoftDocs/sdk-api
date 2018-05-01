@@ -7,7 +7,7 @@ old-location: mstv\iisdbcaservicedescriptor_getlength.htm
 old-project: mstv
 ms.assetid: dfa6a372-8e9f-4f38-80ea-ad27c9423cc5
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies], IIsdbCAServiceDescriptor interface, GetLength,IIsdbCAServiceDescriptor.GetLength, IIsdbCAServiceDescriptor, IIsdbCAServiceDescriptor interface [Microsoft TV Technologies], GetLength method, IIsdbCAServiceDescriptor::GetLength, dvbsiparser/IIsdbCAServiceDescriptor::GetLength, mstv.iisdbcaservicedescriptor_getlength
 ms.prod: windows-hardware
 ms.technology: windows-devices

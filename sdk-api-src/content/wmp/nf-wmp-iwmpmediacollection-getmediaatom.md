@@ -7,7 +7,7 @@ old-location: wmp\iwmpmediacollection_getmediaatom.htm
 old-project: WMP
 ms.assetid: 22024108-398e-4a05-b5ed-311583c69497
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPMediaCollection, IWMPMediaCollection interface [Windows Media Player], getMediaAtom method, IWMPMediaCollection::getMediaAtom, IWMPMediaCollectiongetMediaAtom, getMediaAtom method [Windows Media Player], getMediaAtom method [Windows Media Player], IWMPMediaCollection interface, getMediaAtom,IWMPMediaCollection.getMediaAtom, wmp.iwmpmediacollection_getmediaatom, wmp/IWMPMediaCollection::getMediaAtom
 ms.prod: windows-hardware
 ms.technology: windows-devices

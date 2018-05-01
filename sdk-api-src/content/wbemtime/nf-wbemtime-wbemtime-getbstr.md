@@ -7,7 +7,7 @@ old-location: wmi\wbemtime_getbstr.htm
 old-project: WmiSdk
 ms.assetid: f1fe92cc-1d51-4bd7-950b-84c76b001163
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: "?GetBSTR@WBEMTime@@QBEPAGXZ, ?GetBSTR@WBEMTime@@QEBAPEAGXZ, GetBSTR method [Windows Management Instrumentation], GetBSTR method [Windows Management Instrumentation], WBEMTime interface, GetBSTR,WBEMTime.GetBSTR, WBEMTime, WBEMTime interface [Windows Management Instrumentation], GetBSTR method, WBEMTime::GetBSTR, _hmm_wbemtime_getbstr, wbemtime/WBEMTime::GetBSTR, wmi.wbemtime_getbstr"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\icertproperties_initializefromcertificate_method.htm
 old-project: SecCertEnroll
 ms.assetid: 74de47cb-44fd-45d7-ba32-03824fc0995d
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: ICertProperties, ICertProperties interface [Security], InitializeFromCertificate method, ICertProperties::InitializeFromCertificate, InitializeFromCertificate method [Security], InitializeFromCertificate method [Security], ICertProperties interface, InitializeFromCertificate,ICertProperties.InitializeFromCertificate, certenroll/ICertProperties::InitializeFromCertificate, security.icertproperties_initializefromcertificate_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmp\wmpnotifypluginaddremove.htm
 old-project: WMP
 ms.assetid: e367011a-2151-4324-90da-304dd7f989ab
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: WMPNotifyPluginAddRemove, WMPNotifyPluginAddRemove function [Windows Media Player], wmp.wmpnotifypluginaddremove, wmpplug/WMPNotifyPluginAddRemove
 ms.prod: windows-hardware
 ms.technology: windows-devices

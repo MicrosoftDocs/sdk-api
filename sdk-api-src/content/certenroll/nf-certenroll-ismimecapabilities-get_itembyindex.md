@@ -7,7 +7,7 @@ old-location: security\ismimecapabilities_itembyindex_property.htm
 old-project: SecCertEnroll
 ms.assetid: fbb51882-4b56-4648-a0ca-0c93311cebbd
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: ISmimeCapabilities, ISmimeCapabilities interface [Security], ItemByIndex property, ISmimeCapabilities.ItemByIndex, ISmimeCapabilities::get_ItemByIndex, ItemByIndex property [Security], ItemByIndex property [Security], ISmimeCapabilities interface, certenroll/ISmimeCapabilities::ItemByIndex, certenroll/ISmimeCapabilities::get_ItemByIndex, get_ItemByIndex,ISmimeCapabilities.get_ItemByIndex, security.ismimecapabilities_itembyindex_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

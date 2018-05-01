@@ -7,7 +7,7 @@ old-location: automat\icreatetypelib2_deletetypeinfo.htm
 old-project: automat
 ms.assetid: 0a233830-631b-4a6d-8fce-eb8f47714e9c
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: DeleteTypeInfo method [Automation], DeleteTypeInfo method [Automation], ICreateTypeLib2 interface, DeleteTypeInfo,ICreateTypeLib2.DeleteTypeInfo, ICreateTypeLib2, ICreateTypeLib2 interface [Automation], DeleteTypeInfo method, ICreateTypeLib2::DeleteTypeInfo, _oa96_ICreateTypeLib2_DeleteTypeInfo, automat.icreatetypelib2_deletetypeinfo, oaidl/ICreateTypeLib2::DeleteTypeInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ICreateTypeLib2::DeleteTypeInfo method

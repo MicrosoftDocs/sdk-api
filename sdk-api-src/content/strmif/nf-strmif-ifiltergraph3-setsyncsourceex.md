@@ -7,7 +7,7 @@ old-location: dshow\ifiltergraph3_setsyncsourceex.htm
 old-project: DirectShow
 ms.assetid: 153a0584-d613-499d-8dbb-c4207c7f60b3
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IFilterGraph3, IFilterGraph3 interface [DirectShow], SetSyncSourceEx method, IFilterGraph3::SetSyncSourceEx, IFilterGraph3SetSyncSourceEx, SetSyncSourceEx method [DirectShow], SetSyncSourceEx method [DirectShow], IFilterGraph3 interface, SetSyncSourceEx,IFilterGraph3.SetSyncSourceEx, dshow.ifiltergraph3_setsyncsourceex, strmif/IFilterGraph3::SetSyncSourceEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

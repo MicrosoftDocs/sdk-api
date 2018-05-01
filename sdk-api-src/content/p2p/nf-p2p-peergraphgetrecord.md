@@ -7,7 +7,7 @@ old-location: p2p\peergraphgetrecord.htm
 old-project: P2PSdk
 ms.assetid: 5e777c02-980c-42f9-add7-9568c86c2efe
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/23/2018
 ms.keywords: PeerGraphGetRecord, PeerGraphGetRecord function [Peer Networking], p2p.peergraphgetrecord, p2p/PeerGraphGetRecord
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: P2PGraph.lib
 req.dll: P2PGraph.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # PeerGraphGetRecord function

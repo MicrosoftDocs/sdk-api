@@ -58,11 +58,6 @@ Represents an entry in the function table.
 
 
 
-### -field DUMMYUNIONNAME
-
- 
-
-
 ### -field StartingAddress
 
 The image address of the start of the function.
@@ -71,6 +66,13 @@ The image address of the start of the function.
 ### -field EndingAddress
 
 The image address of the end of the function.
+
+
+### -field DUMMYUNIONNAME
+
+ 
+
+
 
 
 #### - EndOfPrologue

@@ -7,7 +7,7 @@ old-location: dshow\iamtuner_registernotificationcallback.htm
 old-project: DirectShow
 ms.assetid: e169039f-bce7-495a-a40f-385fa3d3d2ab
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMTuner, IAMTuner interface [DirectShow], RegisterNotificationCallBack method, IAMTuner::RegisterNotificationCallBack, IAMTunerRegisterNotificationCallBack, RegisterNotificationCallBack method [DirectShow], RegisterNotificationCallBack method [DirectShow], IAMTuner interface, RegisterNotificationCallBack,IAMTuner.RegisterNotificationCallBack, dshow.iamtuner_registernotificationcallback, strmif/IAMTuner::RegisterNotificationCallBack
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: appxpkg\iappxbundlewriter_addpayloadpackage.htm
 old-project: appxpkg
 ms.assetid: 4772621D-2A8E-439B-8AD7-01A5BD31002B
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/26/2018
 ms.keywords: AddPayloadPackage method [App packaging and management], AddPayloadPackage method [App packaging and management], IAppxBundleWriter interface, AddPayloadPackage,IAppxBundleWriter.AddPayloadPackage, IAppxBundleWriter, IAppxBundleWriter interface [App packaging and management], AddPayloadPackage method, IAppxBundleWriter::AddPayloadPackage, appxpackaging/IAppxBundleWriter::AddPayloadPackage, appxpkg.iappxbundlewriter_addpayloadpackage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_ARCHITECTURE2
+req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
 topic_type:
 -	APIRef
 -	kbSyntax

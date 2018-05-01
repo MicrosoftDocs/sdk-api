@@ -7,7 +7,7 @@ old-location: tablet\irealtimestylussynchronization_releaselock.htm
 old-project: tablet
 ms.assetid: 13970fda-7b2a-4fb7-9403-8d9aad39d83a
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: 13970fda-7b2a-4fb7-9403-8d9aad39d83a, IRealTimeStylusSynchronization, IRealTimeStylusSynchronization interface [Tablet PC], ReleaseLock method, IRealTimeStylusSynchronization::ReleaseLock, ReleaseLock method [Tablet PC], ReleaseLock method [Tablet PC], IRealTimeStylusSynchronization interface, ReleaseLock,IRealTimeStylusSynchronization.ReleaseLock, rtscom/IRealTimeStylusSynchronization::ReleaseLock, tablet.irealtimestylussynchronization_releaselock
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: RTSCom.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IRealTimeStylusSynchronization::ReleaseLock method

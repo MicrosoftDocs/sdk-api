@@ -7,7 +7,7 @@ old-location: nwifi\ienumdot11adhocnetworks_next.htm
 old-project: NativeWiFi
 ms.assetid: a695c8dd-5bde-41ff-8214-046e0a8cc26f
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/13/2018
 ms.keywords: IEnumDot11AdHocNetworks, IEnumDot11AdHocNetworks interface [NativeWIFI], Next method, IEnumDot11AdHocNetworks::Next, Next method [NativeWIFI], Next method [NativeWIFI], IEnumDot11AdHocNetworks interface, Next,IEnumDot11AdHocNetworks.Next, adhoc/IEnumDot11AdHocNetworks::Next, nwifi.ienumdot11adhocnetworks_next
 ms.prod: windows-hardware
 ms.technology: windows-devices

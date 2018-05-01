@@ -7,7 +7,7 @@ old-location: rras\rtm_entity_id.htm
 old-project: RRAS
 ms.assetid: 6c75fb17-60b9-44cb-a934-430a6de74ee7
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: "*PRTM_ENTITY_ID, PRTM_ENTITY_ID, PRTM_ENTITY_ID structure pointer [RAS], RTM_ENTITY_ID, RTM_ENTITY_ID structure [RAS], _RTM_ENTITY_ID, _rtmv2ref_rtm_entity_id, rras.rtm_entity_id, rtmv2/PRTM_ENTITY_ID, rtmv2/RTM_ENTITY_ID"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _RTM_ENTITY_ID structure

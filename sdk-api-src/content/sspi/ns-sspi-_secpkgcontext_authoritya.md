@@ -7,7 +7,7 @@ old-location: security\secpkgcontext_authority.htm
 old-project: SecAuthN
 ms.assetid: 619bf16b-c439-48e7-b013-3622e2f3bbc4
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/24/2018
 ms.keywords: "*PSecPkgContext_AuthorityA, PSecPkgContext_Authority, PSecPkgContext_Authority structure pointer [Security], SecPkgContext_Authority, SecPkgContext_Authority structure [Security], SecPkgContext_AuthorityA, SecPkgContext_AuthorityW, _SecPkgContext_AuthorityA, _ssp_secpkgcontext_authority, security.secpkgcontext_authority, sspi/PSecPkgContext_Authority, sspi/SecPkgContext_Authority, sspi/SecPkgContext_AuthorityA, sspi/SecPkgContext_AuthorityW"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: nwifi\wlan_connection_mode.htm
 old-project: NativeWiFi
 ms.assetid: d62e863f-2aa8-49b1-9e27-8d9d053026f0
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/13/2018
 ms.keywords: "*PWLAN_CONNECTION_MODE, PWLAN_CONNECTION_MODE, PWLAN_CONNECTION_MODE enumeration pointer [NativeWIFI], WLAN_CONNECTION_MODE, WLAN_CONNECTION_MODE enumeration [NativeWIFI], _WLAN_CONNECTION_MODE, nwifi.wlan_connection_mode, wlan_connection_mode_auto, wlan_connection_mode_discovery_secure, wlan_connection_mode_discovery_unsecure, wlan_connection_mode_invalid, wlan_connection_mode_profile, wlan_connection_mode_temporary_profile, wlanapi/PWLAN_CONNECTION_MODE, wlanapi/WLAN_CONNECTION_MODE, wlanapi/wlan_connection_mode_auto, wlanapi/wlan_connection_mode_discovery_secure, wlanapi/wlan_connection_mode_discovery_unsecure, wlanapi/wlan_connection_mode_invalid, wlanapi/wlan_connection_mode_profile, wlanapi/wlan_connection_mode_temporary_profile"
 ms.prod: windows-hardware
 ms.technology: windows-devices

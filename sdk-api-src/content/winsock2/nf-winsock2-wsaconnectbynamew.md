@@ -7,7 +7,7 @@ old-location: winsock\wsaconnectbyname_2.htm
 old-project: WinSock
 ms.assetid: 6d87699f-03bd-4579-9907-ae3c29b7332b
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/24/2018
 ms.keywords: WSAConnectByName, WSAConnectByName function [Winsock], WSAConnectByNameA, WSAConnectByNameW, winsock.wsaconnectbyname_2, winsock2/WSAConnectByName, winsock2/WSAConnectByNameA, winsock2/WSAConnectByNameW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\getcommproperties.htm
 old-project: DevIO
 ms.assetid: dbbf55d6-d369-4b28-bdc7-1fd9a736e658
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/3/2018
 ms.keywords: GetCommProperties, GetCommProperties function, _win32_getcommproperties, base.getcommproperties, winbase/GetCommProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

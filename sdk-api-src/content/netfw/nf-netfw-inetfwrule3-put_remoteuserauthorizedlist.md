@@ -7,7 +7,7 @@ old-location: ics\inetfwrule3_remoteuserauthorizedlist.htm
 old-project: ICS
 ms.assetid: 9364d317-b32a-4b8d-b67a-32a34b64a5ac
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: INetFwRule3, INetFwRule3 interface [ICS/ICF], RemoteUserAuthorizedList property, INetFwRule3.RemoteUserAuthorizedList, INetFwRule3::get_RemoteUserAuthorizedList, INetFwRule3::put_RemoteUserAuthorizedList, RemoteUserAuthorizedList property [ICS/ICF], RemoteUserAuthorizedList property [ICS/ICF], INetFwRule3 interface, ics.inetfwrule3_remoteuserauthorizedlist, netfw/INetFwRule3::RemoteUserAuthorizedList, netfw/INetFwRule3::get_RemoteUserAuthorizedList, netfw/INetFwRule3::put_RemoteUserAuthorizedList, put_RemoteUserAuthorizedList,INetFwRule3.put_RemoteUserAuthorizedList
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: 
 req.dll: FirewallAPI.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # INetFwRule3::put_RemoteUserAuthorizedList method

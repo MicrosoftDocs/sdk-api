@@ -7,7 +7,7 @@ old-location: wmformat\iwmvideomediaprops_getquality.htm
 old-project: wmformat
 ms.assetid: 9edfe229-ffc5-4266-93af-1938bbd577c2
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: GetQuality method [windows Media Format], GetQuality method [windows Media Format], IWMVideoMediaProps interface, GetQuality,IWMVideoMediaProps.GetQuality, IWMVideoMediaProps, IWMVideoMediaProps interface [windows Media Format], GetQuality method, IWMVideoMediaProps::GetQuality, IWMVideoMediaPropsGetQuality, wmformat.iwmvideomediaprops_getquality, wmsdkidl/IWMVideoMediaProps::GetQuality
 ms.prod: windows-hardware
 ms.technology: windows-devices

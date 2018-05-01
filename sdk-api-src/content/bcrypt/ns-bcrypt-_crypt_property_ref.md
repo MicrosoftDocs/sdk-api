@@ -7,7 +7,7 @@ old-location: security\crypt_property_ref.htm
 old-project: SecCNG
 ms.assetid: 450225b8-87f2-4ce2-853d-e78cf64bd13d
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: "*PCRYPT_PROPERTY_REF, CRYPT_PROPERTY_REF, CRYPT_PROPERTY_REF structure [Security], PCRYPT_PROPERTY_REF, PCRYPT_PROPERTY_REF structure pointer [Security], _CRYPT_PROPERTY_REF, bcrypt/CRYPT_PROPERTY_REF, bcrypt/PCRYPT_PROPERTY_REF, security.crypt_property_ref"
 ms.prod: windows-hardware
 ms.technology: windows-devices

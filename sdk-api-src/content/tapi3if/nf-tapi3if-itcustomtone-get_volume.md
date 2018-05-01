@@ -7,7 +7,7 @@ old-location: tapi3\itcustomtone_get_volume.htm
 old-project: Tapi
 ms.assetid: 28eead55-915a-4bb6-9915-ebd56c9d123d
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: ITCustomTone, ITCustomTone interface [TAPI 2.2], get_Volume method, ITCustomTone::get_Volume, _tapi3_itcustomtone_get_volume, get_Volume method [TAPI 2.2], get_Volume method [TAPI 2.2], ITCustomTone interface, get_Volume,ITCustomTone.get_Volume, tapi3.itcustomtone_get_volume, tapi3if/ITCustomTone::get_Volume
 ms.prod: windows-hardware
 ms.technology: windows-devices

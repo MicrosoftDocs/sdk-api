@@ -7,7 +7,7 @@ old-location: winauto\uiauto_TextRange_CompareConPat.htm
 old-project: WinAuto
 ms.assetid: 891166a2-dee6-44c9-b26c-8d1d39de72ef
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: TextRange_Compare, TextRange_Compare function [Windows Accessibility], uiauto.uiauto_TextRange_CompareConPat, uiauto_TextRange_CompareConPat, uiautomationcoreapi/TextRange_Compare, winauto.uiauto_TextRange_CompareConPat
 ms.prod: windows-hardware
 ms.technology: windows-devices

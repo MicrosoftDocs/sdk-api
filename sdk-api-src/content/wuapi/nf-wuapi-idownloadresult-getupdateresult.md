@@ -7,7 +7,7 @@ old-location: wua\idownloadresult_getupdateresult.htm
 old-project: Wua_Sdk
 ms.assetid: d95ce8ad-74d7-4144-9a4b-75d69d5a9442
 ms.author: windowsdriverdev
-ms.date: 3/15/2018
+ms.date: 4/18/2018
 ms.keywords: GetUpdateResult method [Windows Update Agent], GetUpdateResult method [Windows Update Agent], IDownloadResult interface, GetUpdateResult,IDownloadResult.GetUpdateResult, IDownloadResult, IDownloadResult interface [Windows Update Agent], GetUpdateResult method, IDownloadResult::GetUpdateResult, wua.idownloadresult_getupdateresult, wuapi/IDownloadResult::GetUpdateResult
 ms.prod: windows-hardware
 ms.technology: windows-devices

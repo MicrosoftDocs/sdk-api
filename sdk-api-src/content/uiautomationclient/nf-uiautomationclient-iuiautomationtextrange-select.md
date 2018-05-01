@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationTextRange_Select.htm
 old-project: WinAuto
 ms.assetid: 19e8dfe2-bf58-4ea1-8274-4e914f86ba07
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: IUIAutomationTextRange, IUIAutomationTextRange interface [Windows Accessibility], Select method, IUIAutomationTextRange::Select, Select method [Windows Accessibility], Select method [Windows Accessibility], IUIAutomationTextRange interface, Select,IUIAutomationTextRange.Select, uiauto.uiauto_IUIAutomationTextRange_Select, uiauto_IUIAutomationTextRange_Select, uiautomationclient/IUIAutomationTextRange::Select, winauto.uiauto_IUIAutomationTextRange_Select
 ms.prod: windows-hardware
 ms.technology: windows-devices

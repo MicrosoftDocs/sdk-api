@@ -7,7 +7,7 @@ old-location: tapi3\cmspaddress_getcallmediatypes.htm
 old-project: Tapi
 ms.assetid: 7331afda-d021-428e-aa09-eecc96709744
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: CMSPAddress, CMSPAddress interface [TAPI 2.2], GetCallMediaTypes method, CMSPAddress::GetCallMediaTypes, GetCallMediaTypes method [TAPI 2.2], GetCallMediaTypes method [TAPI 2.2], CMSPAddress interface, GetCallMediaTypes,CMSPAddress.GetCallMediaTypes, _tapi3_cmspaddress_getcallmediatypes, mspaddr/CMSPAddress::GetCallMediaTypes, tapi3.cmspaddress_getcallmediatypes
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: OPC_SIGNATURE_TIME_FORMAT
+req.typenames: MSP_EVENT_INFO
 topic_type:
 -	APIRef
 -	kbSyntax

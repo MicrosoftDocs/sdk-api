@@ -7,7 +7,7 @@ old-location: controls\itextstory_settype.htm
 old-project: Controls
 ms.assetid: b1fda663-cbfa-4972-bc40-004b82631f92
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextStory, ITextStory interface [Windows Controls], SetType method, ITextStory::SetType, SetType method [Windows Controls], SetType method [Windows Controls], ITextStory interface, SetType,ITextStory.SetType, controls.itextstory_settype, tom/ITextStory::SetType
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationTextRange_Move.htm
 old-project: WinAuto
 ms.assetid: b59ffdb5-6c05-4139-84ae-10ca5c543c3c
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: IUIAutomationTextRange, IUIAutomationTextRange interface [Windows Accessibility], Move method, IUIAutomationTextRange::Move, Move method [Windows Accessibility], Move method [Windows Accessibility], IUIAutomationTextRange interface, Move,IUIAutomationTextRange.Move, uiauto.uiauto_IUIAutomationTextRange_Move, uiauto_IUIAutomationTextRange_Move, uiautomationclient/IUIAutomationTextRange::Move, winauto.uiauto_IUIAutomationTextRange_Move
 ms.prod: windows-hardware
 ms.technology: windows-devices

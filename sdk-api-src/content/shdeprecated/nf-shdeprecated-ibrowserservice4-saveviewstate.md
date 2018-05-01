@@ -7,7 +7,7 @@ old-location: shell\IBrowserService4_SaveViewState.htm
 old-project: shell
 ms.assetid: 8f43aa2b-9bae-4eda-823b-0dc036185ca8
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IBrowserService4, IBrowserService4 interface [Windows Shell], SaveViewState method, IBrowserService4::SaveViewState, SaveViewState method [Windows Shell], SaveViewState method [Windows Shell], IBrowserService4 interface, SaveViewState,IBrowserService4.SaveViewState, _shell_IBrowserService4_SaveViewState, shdeprecated/IBrowserService4::SaveViewState, shell.IBrowserService4_SaveViewState
 ms.prod: windows-hardware
 ms.technology: windows-devices

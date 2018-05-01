@@ -7,7 +7,7 @@ old-location: wmi\iwbemdecoupledregistrar_unregister.htm
 old-project: WmiSdk
 ms.assetid: 24e9cc0c-20c4-464b-a215-4d0344bc4565
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: IWbemDecoupledRegistrar, IWbemDecoupledRegistrar interface [Windows Management Instrumentation], UnRegister method, IWbemDecoupledRegistrar::UnRegister, UnRegister method [Windows Management Instrumentation], UnRegister method [Windows Management Instrumentation], IWbemDecoupledRegistrar interface, UnRegister method [Windows Management Instrumentation], WbemDecoupledRegistrar object, UnRegister,IWbemDecoupledRegistrar.UnRegister, WbemDecoupledRegistrar object [Windows Management Instrumentation], UnRegister method, _hmm_iwbemdecoupledregistrar_unregister, wbemprov/IWbemDecoupledRegistrar::UnRegister, wmi.iwbemdecoupledregistrar_unregister
 ms.prod: windows-hardware
 ms.technology: windows-devices

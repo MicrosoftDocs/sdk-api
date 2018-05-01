@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxconfiguration_archivesizelow.htm
 old-project: Fax
 ms.assetid: e10cde26-deec-47b8-bc69-0b785087ab74
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/18/2018
 ms.keywords: ArchiveSizeLow property [Fax Service], ArchiveSizeLow property [Fax Service], IFaxConfiguration interface, IFaxConfiguration, IFaxConfiguration interface [Fax Service], ArchiveSizeLow property, IFaxConfiguration.ArchiveSizeLow, IFaxConfiguration::get_ArchiveSizeLow, fax._mfax_ifaxconfiguration_archivesizelow, faxcomex/IFaxConfiguration::ArchiveSizeLow, faxcomex/IFaxConfiguration::get_ArchiveSizeLow, get_ArchiveSizeLow,IFaxConfiguration.get_ArchiveSizeLow
 ms.prod: windows-hardware
 ms.technology: windows-devices

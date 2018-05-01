@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: PRINT_EXECUTION_DATA
+req.typenames: WSAVERSION, *PWSAVERSION, *LPWSAVERSION
 topic_type:
 -	APIRef
 -	kbSyntax

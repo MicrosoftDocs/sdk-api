@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3ddevice9__settransform.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__settransform.htm
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/10/2018
 ms.keywords: 25042e52-3212-5250-0bac-ab23f76aaeb1, IDirect3DDevice9, IDirect3DDevice9 interface [Direct3D 9], SetTransform method, IDirect3DDevice9::SetTransform, SetTransform method [Direct3D 9], SetTransform method [Direct3D 9], IDirect3DDevice9 interface, SetTransform,IDirect3DDevice9.SetTransform, d3d9helper/IDirect3DDevice9::SetTransform, direct3d9.idirect3ddevice9__settransform
 ms.prod: windows-hardware
 ms.technology: windows-devices

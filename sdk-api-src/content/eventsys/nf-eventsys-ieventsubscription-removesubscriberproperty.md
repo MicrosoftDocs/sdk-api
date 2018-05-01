@@ -7,7 +7,7 @@ old-location: cos\ieventsubscription_removesubscriberproperty.htm
 old-project: cossdk
 ms.assetid: 3c0cd763-8528-4f8b-8a09-c36860cad9b7
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: IEventSubscription, IEventSubscription interface [COM+], RemoveSubscriberProperty method, IEventSubscription::RemoveSubscriberProperty, RemoveSubscriberProperty method [COM+], RemoveSubscriberProperty method [COM+], IEventSubscription interface, RemoveSubscriberProperty,IEventSubscription.RemoveSubscriberProperty, _cos_IEventSubscription_RemoveSubscriberProperty, cos.ieventsubscription_removesubscriberproperty, eventsys/IEventSubscription::RemoveSubscriberProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

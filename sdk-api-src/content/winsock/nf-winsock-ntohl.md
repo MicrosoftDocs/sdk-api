@@ -7,7 +7,7 @@ old-location: winsock\ntohl_2.htm
 old-project: WinSock
 ms.assetid: 04673bef-22c6-424f-a5ae-689fb648b54e
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/24/2018
 ms.keywords: "_win32_ntohl_2, ntohl, ntohl function [Winsock], winsock.ntohl_2, winsock/ntohl"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\IDataObjectAsyncCapability_StartOperation.htm
 old-project: shell
 ms.assetid: 84C1E709-ADFD-4c00-B767-C0DB4C30578A
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IDataObjectAsyncCapability, IDataObjectAsyncCapability interface [Windows Shell], StartOperation method, IDataObjectAsyncCapability::StartOperation, StartOperation method [Windows Shell], StartOperation method [Windows Shell], IDataObjectAsyncCapability interface, StartOperation,IDataObjectAsyncCapability.StartOperation, shell.IDataObjectAsyncCapability_StartOperation, shldisp/IDataObjectAsyncCapability::StartOperation
 ms.prod: windows-hardware
 ms.technology: windows-devices

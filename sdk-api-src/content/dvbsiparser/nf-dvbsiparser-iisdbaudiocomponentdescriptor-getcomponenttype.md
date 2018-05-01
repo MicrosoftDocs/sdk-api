@@ -7,7 +7,7 @@ old-location: mstv\iisdbaudiocomponentdescriptor_getcomponenttype.htm
 old-project: mstv
 ms.assetid: 417deb6e-863e-4d62-8d58-685972f96f0c
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetComponentType method [Microsoft TV Technologies], GetComponentType method [Microsoft TV Technologies], IIsdbAudioComponentDescriptor interface, GetComponentType,IIsdbAudioComponentDescriptor.GetComponentType, IIsdbAudioComponentDescriptor, IIsdbAudioComponentDescriptor interface [Microsoft TV Technologies], GetComponentType method, IIsdbAudioComponentDescriptor::GetComponentType, dvbsiparser/IIsdbAudioComponentDescriptor::GetComponentType, mstv.iisdbaudiocomponentdescriptor_getcomponenttype
 ms.prod: windows-hardware
 ms.technology: windows-devices

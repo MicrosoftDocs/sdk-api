@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyjobhttpoptions_setcustomheaders.htm
 old-project: Bits
 ms.assetid: 422a331d-5b6b-48ec-b040-43a88be43ac3
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/10/2018
 ms.keywords: IBackgroundCopyJobHttpOptions, IBackgroundCopyJobHttpOptions interface [BITS], SetCustomHeaders method, IBackgroundCopyJobHttpOptions::SetCustomHeaders, SetCustomHeaders method [BITS], SetCustomHeaders method [BITS], IBackgroundCopyJobHttpOptions interface, SetCustomHeaders,IBackgroundCopyJobHttpOptions.SetCustomHeaders, bits.ibackgroundcopyjobhttpoptions_setcustomheaders, bits2_5/IBackgroundCopyJobHttpOptions::SetCustomHeaders
 ms.prod: windows-hardware
 ms.technology: windows-devices

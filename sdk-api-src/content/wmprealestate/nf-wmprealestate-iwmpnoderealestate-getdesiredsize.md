@@ -7,7 +7,7 @@ old-location: wmp\iwmpnoderealestate_getdesiredsize.htm
 old-project: WMP
 ms.assetid: 41a7edf3-10a3-41ac-8f79-6dc0e7f854ee
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: GetDesiredSize method [Windows Media Player], GetDesiredSize method [Windows Media Player], IWMPNodeRealEstate interface, GetDesiredSize,IWMPNodeRealEstate.GetDesiredSize, IWMPNodeRealEstate, IWMPNodeRealEstate interface [Windows Media Player], GetDesiredSize method, IWMPNodeRealEstate::GetDesiredSize, IWMPNodeRealEstateGetDesiredSizeRendering, wmp.iwmpnoderealestate_getdesiredsize, wmprealestate/IWMPNodeRealEstate::GetDesiredSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

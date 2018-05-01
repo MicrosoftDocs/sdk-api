@@ -7,7 +7,7 @@ old-location: dshow\ivmrsurfaceallocatorex9_getsurfaceex.htm
 old-project: DirectShow
 ms.assetid: 828f1ea6-4093-4a33-bc41-0f6fff752bcf
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetSurfaceEx method [DirectShow], GetSurfaceEx method [DirectShow], IVMRSurfaceAllocatorEx9 interface, GetSurfaceEx,IVMRSurfaceAllocatorEx9.GetSurfaceEx, IVMRSurfaceAllocatorEx9, IVMRSurfaceAllocatorEx9 interface [DirectShow], GetSurfaceEx method, IVMRSurfaceAllocatorEx9::GetSurfaceEx, IVMRSurfaceAllocatorEx9GetSurfaceEx, dshow.ivmrsurfaceallocatorex9_getsurfaceex, vmr9/IVMRSurfaceAllocatorEx9::GetSurfaceEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

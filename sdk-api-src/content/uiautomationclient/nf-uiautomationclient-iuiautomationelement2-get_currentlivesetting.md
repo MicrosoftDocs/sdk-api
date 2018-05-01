@@ -7,7 +7,7 @@ old-location: winauto\uiauto_iuiautomationelement2_currentlivesetting.htm
 old-project: WinAuto
 ms.assetid: 3510E0AD-FB79-4636-B6EF-AE0FB62AD55C
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: CurrentLiveSetting property [Windows Accessibility], CurrentLiveSetting property [Windows Accessibility], IUIAutomationElement2 interface, IUIAutomationElement2, IUIAutomationElement2 interface [Windows Accessibility], CurrentLiveSetting property, IUIAutomationElement2.CurrentLiveSetting, IUIAutomationElement2::get_CurrentLiveSetting, get_CurrentLiveSetting,IUIAutomationElement2.get_CurrentLiveSetting, uiautomationclient/IUIAutomationElement2::CurrentLiveSetting, uiautomationclient/IUIAutomationElement2::get_CurrentLiveSetting, winauto.uiauto_iuiautomationelement2_currentlivesetting
 ms.prod: windows-hardware
 ms.technology: windows-devices

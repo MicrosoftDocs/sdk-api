@@ -7,7 +7,7 @@ old-location: automat\varui4fromi2.htm
 old-project: automat
 ms.assetid: ad06458a-9d41-4ce9-bec6-c6d991640b94
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: VarUI4FromI2, VarUI4FromI2 function [Automation], _oa96_VarUI4FromI2, automat.varui4fromi2, oleauto/VarUI4FromI2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # VarUI4FromI2 function

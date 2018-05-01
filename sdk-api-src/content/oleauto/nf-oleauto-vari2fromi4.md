@@ -7,7 +7,7 @@ old-location: automat\vari2fromi4.htm
 old-project: automat
 ms.assetid: f3b8ff7f-9531-4403-9532-7c165eb0dd09
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: VarI2FromI4, VarI2FromI4 function [Automation], _oa96_VarI2FromI4, automat.vari2fromi4, oleauto/VarI2FromI4
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # VarI2FromI4 function

@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrSyncItem_GetItemID.htm
 old-project: shell
 ms.assetid: 2add1902-1258-49ed-ad44-35d28d0776c1
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetItemID method [Windows Shell], GetItemID method [Windows Shell], ISyncMgrSyncItem interface, GetItemID,ISyncMgrSyncItem.GetItemID, ISyncMgrSyncItem, ISyncMgrSyncItem interface [Windows Shell], GetItemID method, ISyncMgrSyncItem::GetItemID, _shell_ISyncMgrSyncItem_GetItemID, shell.ISyncMgrSyncItem_GetItemID, syncmgr/ISyncMgrSyncItem::GetItemID
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol_stopforresume.htm
 old-project: DirectShow
 ms.assetid: 61c5b863-038b-4c4a-a7a4-d1fd1801f843
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IDvdControl, IDvdControl interface [DirectShow], StopForResume method, IDvdControl::StopForResume, IDvdControlStopForResume, StopForResume method [DirectShow], StopForResume method [DirectShow], IDvdControl interface, StopForResume,IDvdControl.StopForResume, dshow.idvdcontrol_stopforresume, strmif/IDvdControl::StopForResume
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmi\cwbemproviderglue_isderivedfrom.htm
 old-project: WmiSdk
 ms.assetid: e8245511-d192-4489-b907-45de1d354c49
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: CWbemProviderGlue, CWbemProviderGlue interface [Windows Management Instrumentation], IsDerivedFrom method, CWbemProviderGlue::IsDerivedFrom, IsDerivedFrom method [Windows Management Instrumentation], IsDerivedFrom method [Windows Management Instrumentation], CWbemProviderGlue interface, IsDerivedFrom,CWbemProviderGlue.IsDerivedFrom, _hmm_cwbemproviderglue_isderivedfrom, wbemglue/CWbemProviderGlue::IsDerivedFrom, wmi.cwbemproviderglue_isderivedfrom
 ms.prod: windows-hardware
 ms.technology: windows-devices

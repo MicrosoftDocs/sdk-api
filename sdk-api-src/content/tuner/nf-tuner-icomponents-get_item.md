@@ -7,7 +7,7 @@ old-location: mstv\icomponents_get_item.htm
 old-project: mstv
 ms.assetid: 12716c7c-3156-401e-8f1c-be3100afb912
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IComponents, IComponents interface [Microsoft TV Technologies], get_Item method, IComponents::get_Item, IComponentsget_Item, get_Item method [Microsoft TV Technologies], get_Item method [Microsoft TV Technologies], IComponents interface, get_Item,IComponents.get_Item, mstv.icomponents_get_item, tuner/IComponents::get_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices

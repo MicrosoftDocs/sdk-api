@@ -7,7 +7,7 @@ old-location: security\icspinformation_hashardwarerandomnumbergenerator_property
 old-project: SecCertEnroll
 ms.assetid: 49d79310-90d2-4874-beaf-284abefd950f
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: HasHardwareRandomNumberGenerator property [Security], HasHardwareRandomNumberGenerator property [Security], ICspInformation interface, ICspInformation, ICspInformation interface [Security], HasHardwareRandomNumberGenerator property, ICspInformation.HasHardwareRandomNumberGenerator, ICspInformation::get_HasHardwareRandomNumberGenerator, certenroll/ICspInformation::HasHardwareRandomNumberGenerator, certenroll/ICspInformation::get_HasHardwareRandomNumberGenerator, get_HasHardwareRandomNumberGenerator,ICspInformation.get_HasHardwareRandomNumberGenerator, security.icspinformation_hashardwarerandomnumbergenerator_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

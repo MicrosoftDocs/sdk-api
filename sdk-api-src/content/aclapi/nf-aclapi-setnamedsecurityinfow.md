@@ -7,7 +7,7 @@ old-location: security\setnamedsecurityinfo.htm
 old-project: SecAuthZ
 ms.assetid: 70fbba50-2576-4857-a955-119fb12bf7b6
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: SetNamedSecurityInfo, SetNamedSecurityInfo function [Security], SetNamedSecurityInfoA, SetNamedSecurityInfoW, _win32_setnamedsecurityinfo, aclapi/SetNamedSecurityInfo, aclapi/SetNamedSecurityInfoA, aclapi/SetNamedSecurityInfoW, security.setnamedsecurityinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

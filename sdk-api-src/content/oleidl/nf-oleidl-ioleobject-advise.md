@@ -7,7 +7,7 @@ old-location: com\ioleobject_advise.htm
 old-project: com
 ms.assetid: 6a68c9e9-6e06-4def-89a5-18e184e76a26
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: Advise method [COM], Advise method [COM], IOleObject interface, Advise,IOleObject.Advise, IOleObject, IOleObject interface [COM], Advise method, IOleObject::Advise, _ole_ioleobject_advise, com.ioleobject_advise, oleidl/IOleObject::Advise
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IOleObject::Advise method

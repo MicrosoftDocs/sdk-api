@@ -7,7 +7,7 @@ old-location: com\iparsedisplayname.htm
 old-project: com
 ms.assetid: 37844d9b-35ce-4d30-8a58-dac4c671896f
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IParseDisplayName, IParseDisplayName interface [COM], IParseDisplayName interface [COM], described, _com_iparsedisplayname, com.iparsedisplayname, oleidl/IParseDisplayName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Adhocreportingexcelclient.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IParseDisplayName interface

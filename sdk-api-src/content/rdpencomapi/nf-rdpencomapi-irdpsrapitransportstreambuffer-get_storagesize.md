@@ -40,7 +40,7 @@ targetos: Windows
 req.lib: 
 req.dll: RdpEncom.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IRDPSRAPITransportStreamBuffer::get_StorageSize method

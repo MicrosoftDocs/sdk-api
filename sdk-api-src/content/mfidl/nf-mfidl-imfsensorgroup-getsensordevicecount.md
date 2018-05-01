@@ -7,7 +7,7 @@ old-location: mf\imfsensorgroup_getsensordevicecount.htm
 old-project: medfound
 ms.assetid: 687A4275-5963-486E-8D59-B1858D7E388D
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetSensorDeviceCount method [Media Foundation], GetSensorDeviceCount method [Media Foundation], IMFSensorGroup interface, GetSensorDeviceCount,IMFSensorGroup.GetSensorDeviceCount, IMFSensorGroup, IMFSensorGroup interface [Media Foundation], GetSensorDeviceCount method, IMFSensorGroup::GetSensorDeviceCount, mf.imfsensorgroup_getsensordevicecount, mfidl/IMFSensorGroup::GetSensorDeviceCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

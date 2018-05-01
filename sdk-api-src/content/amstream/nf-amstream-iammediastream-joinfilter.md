@@ -7,7 +7,7 @@ old-location: dshow\iammediastream_joinfilter.htm
 old-project: DirectShow
 ms.assetid: 638ab6e1-7663-4f15-a487-e22496672ddb
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMMediaStream, IAMMediaStream interface [DirectShow], JoinFilter method, IAMMediaStream::JoinFilter, IAMMediaStreamJoinFilter, JoinFilter method [DirectShow], JoinFilter method [DirectShow], IAMMediaStream interface, JoinFilter,IAMMediaStream.JoinFilter, amstream/IAMMediaStream::JoinFilter, dshow.iammediastream_joinfilter
 ms.prod: windows-hardware
 ms.technology: windows-devices

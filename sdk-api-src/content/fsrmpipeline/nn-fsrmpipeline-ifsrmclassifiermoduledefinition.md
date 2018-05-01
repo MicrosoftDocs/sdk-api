@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmclassifiermoduledefinition.htm
 old-project: Fsrm
 ms.assetid: 6e691670-d7d7-48cb-8a81-ee8828b39b30
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: IFsrmClassifierModuleDefinition, IFsrmClassifierModuleDefinition interface [File Server Resource Manager], IFsrmClassifierModuleDefinition interface [File Server Resource Manager], described, fs.ifsrmclassifiermoduledefinition, fsrm.ifsrmclassifiermoduledefinition, fsrm/IFsrmClassifierModuleDefinition
 ms.prod: windows-hardware
 ms.technology: windows-devices

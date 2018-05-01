@@ -7,7 +7,7 @@ old-location: gdi\emrsetdibitstodevice.htm
 old-project: gdi
 ms.assetid: a87546e4-32ce-438d-9997-6d329f43303e
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/17/2018
 ms.keywords: "*PEMRSETDIBITSTODEVICE, EMRSETDIBITSTODEVICE, EMRSETDIBITSTODEVICE structure [Windows GDI], PEMRSETDIBITSTODEVICE, PEMRSETDIBITSTODEVICE structure pointer [Windows GDI], _win32_EMRSETDIBITSTODEVICE_str, gdi.emrsetdibitstodevice, tagEMRSETDIBITSTODEVICE, wingdi/EMRSETDIBITSTODEVICE, wingdi/PEMRSETDIBITSTODEVICE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

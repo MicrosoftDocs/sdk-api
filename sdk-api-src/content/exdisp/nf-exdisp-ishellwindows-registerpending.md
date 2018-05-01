@@ -7,7 +7,7 @@ old-location: shell\IShellWindows_RegisterPending.htm
 old-project: shell
 ms.assetid: 75e8b82c-a94e-4aad-a224-f12b22b8a4b2
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IShellWindows, IShellWindows interface [Windows Shell], RegisterPending method, IShellWindows::RegisterPending, RegisterPending method [Windows Shell], RegisterPending method [Windows Shell], IShellWindows interface, RegisterPending,IShellWindows.RegisterPending, _win32_IShellWindows_RegisterPending, exdisp/IShellWindows::RegisterPending, shell.IShellWindows_RegisterPending
 ms.prod: windows-hardware
 ms.technology: windows-devices

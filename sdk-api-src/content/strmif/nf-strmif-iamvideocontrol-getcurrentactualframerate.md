@@ -7,7 +7,7 @@ old-location: dshow\iamvideocontrol_getcurrentactualframerate.htm
 old-project: DirectShow
 ms.assetid: 373cabed-af09-4d54-b4e1-0ef87727430a
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetCurrentActualFrameRate method [DirectShow], GetCurrentActualFrameRate method [DirectShow], IAMVideoControl interface, GetCurrentActualFrameRate,IAMVideoControl.GetCurrentActualFrameRate, IAMVideoControl, IAMVideoControl interface [DirectShow], GetCurrentActualFrameRate method, IAMVideoControl::GetCurrentActualFrameRate, IAMVideoControlGetCurrentActualFrameRate, dshow.iamvideocontrol_getcurrentactualframerate, strmif/IAMVideoControl::GetCurrentActualFrameRate
 ms.prod: windows-hardware
 ms.technology: windows-devices

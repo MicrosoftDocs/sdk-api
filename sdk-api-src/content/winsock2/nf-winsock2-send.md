@@ -7,7 +7,7 @@ old-location: winsock\send_2.htm
 old-project: WinSock
 ms.assetid: 902bb9cf-d847-43fc-8282-394d619b8f1b
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/24/2018
 ms.keywords: MSG_DONTROUTE, MSG_OOB, _win32_send_2, send, send function [Winsock], winsock.send_2, winsock2/send
 ms.prod: windows-hardware
 ms.technology: windows-devices

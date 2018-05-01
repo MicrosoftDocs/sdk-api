@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _NS_CONTEXT_ATTRIBUTES structure
@@ -57,26 +57,6 @@ The
 ## -struct-fields
 
 
-
-
-### -field _CMD_ENTRY
-
- 
-
-
-### -field pTopCmds
-
- 
-
-
-### -field _CMD_GROUP_ENTRY
-
- 
-
-
-### -field pCmdGroups
-
- 
 
 
 ### -field dwVersion
@@ -166,9 +146,29 @@ A priority value used when ordering dump and commit commands. Used only when the
 The number of entries in the <b>pTopCmds</b> member.
 
 
+### -field pTopCmds
+
+ 
+
+
+### -field _CMD_ENTRY
+
+ 
+
+
 ### -field ulNumGroups
 
 A number of entries in the <b>pCmdGroups</b> member.
+
+
+### -field pCmdGroups
+
+ 
+
+
+### -field _CMD_GROUP_ENTRY
+
+ 
 
 
 ### -field pfnCommitFn

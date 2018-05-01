@@ -7,7 +7,7 @@ old-location: mstv\itunerequest_get_components.htm
 old-project: mstv
 ms.assetid: f15ef4f6-ca36-4d46-93c7-26f1fbcb21cd
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: ITuneRequest, ITuneRequest interface [Microsoft TV Technologies], get_Components method, ITuneRequest::get_Components, ITuneRequestget_Components, get_Components method [Microsoft TV Technologies], get_Components method [Microsoft TV Technologies], ITuneRequest interface, get_Components,ITuneRequest.get_Components, mstv.itunerequest_get_components, tuner/ITuneRequest::get_Components
 ms.prod: windows-hardware
 ms.technology: windows-devices

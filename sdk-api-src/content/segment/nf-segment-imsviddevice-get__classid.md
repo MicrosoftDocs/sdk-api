@@ -7,7 +7,7 @@ old-location: mstv\imsviddevice_get__classid.htm
 old-project: mstv
 ms.assetid: 80890372-2d92-4a3a-963f-2a6ca6632c52
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidDevice, IMSVidDevice interface [Microsoft TV Technologies], get__ClassID method, IMSVidDevice::get__ClassID, IMSVidDeviceget__ClassID, get__ClassID method [Microsoft TV Technologies], get__ClassID method [Microsoft TV Technologies], IMSVidDevice interface, get__ClassID,IMSVidDevice.get__ClassID, mstv.imsviddevice_get__classid, segment/IMSVidDevice::get__ClassID
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidDevice::get__ClassID method

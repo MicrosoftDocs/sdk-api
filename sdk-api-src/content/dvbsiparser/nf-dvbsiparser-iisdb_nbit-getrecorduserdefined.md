@@ -7,7 +7,7 @@ old-location: mstv\iisdb_nbit_getrecorduserdefined.htm
 old-project: mstv
 ms.assetid: 36786614-7b7e-4d76-9610-c969ad68f9d8
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetRecordUserDefined method [Microsoft TV Technologies], GetRecordUserDefined method [Microsoft TV Technologies], IISDB_NBIT interface, GetRecordUserDefined,IISDB_NBIT.GetRecordUserDefined, IISDB_NBIT, IISDB_NBIT interface [Microsoft TV Technologies], GetRecordUserDefined method, IISDB_NBIT::GetRecordUserDefined, dvbsiparser/IISDB_NBIT::GetRecordUserDefined, mstv.iisdb_nbit_getrecorduserdefined
 ms.prod: windows-hardware
 ms.technology: windows-devices

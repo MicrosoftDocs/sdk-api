@@ -7,7 +7,7 @@ old-location: security\ncrypt_ui_policy.htm
 old-project: SecCNG
 ms.assetid: 49443042-40bd-4876-8547-e5eb4de503f6
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: NCRYPT_UI_APPCONTAINER_ACCESS_MEDIUM_FLAG, NCRYPT_UI_FORCE_HIGH_PROTECTION_FLAG, NCRYPT_UI_POLICY, NCRYPT_UI_POLICY structure [Security], NCRYPT_UI_PROTECT_KEY_FLAG, __NCRYPT_UI_POLICY, ncrypt/NCRYPT_UI_POLICY, security.ncrypt_ui_policy
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # __NCRYPT_UI_POLICY structure

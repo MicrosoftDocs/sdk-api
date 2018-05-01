@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxdevstartjob.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxfspapiref_5ode.htm
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/18/2018
 ms.keywords: FaxDevStartJob, FaxDevStartJob function [Fax Service], _mfax_faxdevstartjob, fax._mfax_faxdevstartjob, faxdev/FaxDevStartJob
 ms.prod: windows-hardware
 ms.technology: windows-devices

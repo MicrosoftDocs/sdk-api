@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11functionreflection_getconstantbufferbyindex.htm
 old-project: direct3d11
 ms.assetid: AFA54153-E205-4E6F-B328-9EC0262F2A5C
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/6/2018
 ms.keywords: GetConstantBufferByIndex method [Direct3D 11], GetConstantBufferByIndex method [Direct3D 11], ID3D11FunctionReflection interface, GetConstantBufferByIndex,ID3D11FunctionReflection.GetConstantBufferByIndex, ID3D11FunctionReflection, ID3D11FunctionReflection interface [Direct3D 11], GetConstantBufferByIndex method, ID3D11FunctionReflection::GetConstantBufferByIndex, d3d11shader/ID3D11FunctionReflection::GetConstantBufferByIndex, direct3d11.id3d11functionreflection_getconstantbufferbyindex
 ms.prod: windows-hardware
 ms.technology: windows-devices

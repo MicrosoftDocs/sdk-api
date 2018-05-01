@@ -7,7 +7,7 @@ old-location: controls\itextrange2_getsubrange.htm
 old-project: Controls
 ms.assetid: 64b031cf-9d32-4e36-8e13-f32a53f00abf
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: GetSubrange method [Windows Controls], GetSubrange method [Windows Controls], ITextRange2 interface, GetSubrange,ITextRange2.GetSubrange, ITextRange2, ITextRange2 interface [Windows Controls], GetSubrange method, ITextRange2::GetSubrange, controls.itextrange2_getsubrange, tom/ITextRange2::GetSubrange
 ms.prod: windows-hardware
 ms.technology: windows-devices

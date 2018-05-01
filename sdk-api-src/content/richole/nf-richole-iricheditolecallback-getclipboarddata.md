@@ -7,7 +7,7 @@ old-location: controls\IRichEditOleCallback_GetClipboardData.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditolecallback\iricheditolecallbackgetclipboarddata.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: GetClipboardData method [Windows Controls], GetClipboardData method [Windows Controls], IRichEditOleCallback interface, GetClipboardData,IRichEditOleCallback.GetClipboardData, IRichEditOleCallback, IRichEditOleCallback interface [Windows Controls], GetClipboardData method, IRichEditOleCallback::GetClipboardData, RECO_COPY, RECO_CUT, _win32_IRichEditOleCallback_GetClipboardData, _win32_IRichEditOleCallback_GetClipboardData_cpp, controls.IRichEditOleCallback_GetClipboardData, controls._win32_IRichEditOleCallback_GetClipboardData, richole/IRichEditOleCallback::GetClipboardData
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IRichEditOleCallback::GetClipboardData method

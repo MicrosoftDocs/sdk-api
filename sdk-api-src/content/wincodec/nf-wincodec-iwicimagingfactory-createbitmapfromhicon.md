@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicimagingfactory_createbitmapfromhicon.htm
 old-project: wic
 ms.assetid: a67695a1-30ac-4e28-a9a9-582601139e17
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: CreateBitmapFromHICON method [Windows Imaging Component], CreateBitmapFromHICON method [Windows Imaging Component], IWICImagingFactory interface, CreateBitmapFromHICON,IWICImagingFactory.CreateBitmapFromHICON, IWICImagingFactory, IWICImagingFactory interface [Windows Imaging Component], CreateBitmapFromHICON method, IWICImagingFactory::CreateBitmapFromHICON, _wic_codec_iwicimagingfactory_createbitmapfromhicon, wic._wic_codec_iwicimagingfactory_createbitmapfromhicon, wincodec/IWICImagingFactory::CreateBitmapFromHICON
 ms.prod: windows-hardware
 ms.technology: windows-devices

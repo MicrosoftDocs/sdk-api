@@ -7,7 +7,7 @@ old-location: dshow\iamline21decoder_setbackgroundcolor.htm
 old-project: DirectShow
 ms.assetid: a69bb0d0-5afb-420f-a97c-071dc472e1d2
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMLine21Decoder, IAMLine21Decoder interface [DirectShow], SetBackgroundColor method, IAMLine21Decoder::SetBackgroundColor, IAMLine21DecoderSetBackgroundColor, SetBackgroundColor method [DirectShow], SetBackgroundColor method [DirectShow], IAMLine21Decoder interface, SetBackgroundColor,IAMLine21Decoder.SetBackgroundColor, dshow.iamline21decoder_setbackgroundcolor, il21dec/IAMLine21Decoder::SetBackgroundColor
 ms.prod: windows-hardware
 ms.technology: windows-devices

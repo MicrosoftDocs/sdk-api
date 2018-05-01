@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmderivedobjectsresult_derivedobjects.htm
 old-project: Fsrm
 ms.assetid: 9859a7e1-ebfe-4b6c-bd89-93757e1b4684
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: DerivedObjects property [File Server Resource Manager], DerivedObjects property [File Server Resource Manager], IFsrmDerivedObjectsResult interface, IFsrmDerivedObjectsResult, IFsrmDerivedObjectsResult interface [File Server Resource Manager], DerivedObjects property, IFsrmDerivedObjectsResult.DerivedObjects, IFsrmDerivedObjectsResult::get_DerivedObjects, fs.ifsrmderivedobjectsresult_derivedobjects, fsrm.ifsrmderivedobjectsresult_derivedobjects, fsrm/IFsrmDerivedObjectsResult::DerivedObjects, fsrm/IFsrmDerivedObjectsResult::get_DerivedObjects, get_DerivedObjects,IFsrmDerivedObjectsResult.get_DerivedObjects
 ms.prod: windows-hardware
 ms.technology: windows-devices

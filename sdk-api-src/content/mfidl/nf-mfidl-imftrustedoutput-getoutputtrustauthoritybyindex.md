@@ -7,7 +7,7 @@ old-location: mf\imftrustedoutput_getoutputtrustauthoritybyindex.htm
 old-project: medfound
 ms.assetid: 4dd570e7-c6fb-4ffb-8ef5-b88a6638dbbf
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 4dd570e7-c6fb-4ffb-8ef5-b88a6638dbbf, GetOutputTrustAuthorityByIndex method [Media Foundation], GetOutputTrustAuthorityByIndex method [Media Foundation], IMFTrustedOutput interface, GetOutputTrustAuthorityByIndex,IMFTrustedOutput.GetOutputTrustAuthorityByIndex, IMFTrustedOutput, IMFTrustedOutput interface [Media Foundation], GetOutputTrustAuthorityByIndex method, IMFTrustedOutput::GetOutputTrustAuthorityByIndex, mf.imftrustedoutput_getoutputtrustauthoritybyindex, mfidl/IMFTrustedOutput::GetOutputTrustAuthorityByIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: automat\itypeinfo_getcontainingtypelib.htm
 old-project: automat
 ms.assetid: 9ca58285-4778-4c2a-b800-dcda9b62e328
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: GetContainingTypeLib method [Automation], GetContainingTypeLib method [Automation], ITypeInfo interface, GetContainingTypeLib,ITypeInfo.GetContainingTypeLib, ITypeInfo, ITypeInfo interface [Automation], GetContainingTypeLib method, ITypeInfo::GetContainingTypeLib, _oa96_ITypeInfo_GetContainingTypeLib, automat.itypeinfo_getcontainingtypelib, oaidl/ITypeInfo::GetContainingTypeLib
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITypeInfo::GetContainingTypeLib method

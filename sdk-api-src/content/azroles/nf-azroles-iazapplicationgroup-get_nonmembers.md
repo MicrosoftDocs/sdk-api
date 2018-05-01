@@ -7,7 +7,7 @@ old-location: security\iazapplicationgroup_nonmembers.htm
 old-project: SecAuthZ
 ms.assetid: 43bdd205-4750-4ff6-8063-8de2c5962b09
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: AzApplicationGroup object [Security], NonMembers property, IAzApplicationGroup, IAzApplicationGroup interface [Security], NonMembers property, IAzApplicationGroup.NonMembers, IAzApplicationGroup::get_NonMembers, NonMembers property [Security], NonMembers property [Security], AzApplicationGroup object, NonMembers property [Security], IAzApplicationGroup interface, azroles/IAzApplicationGroup::NonMembers, azroles/IAzApplicationGroup::get_NonMembers, get_NonMembers,IAzApplicationGroup.get_NonMembers, security.iazapplicationgroup_nonmembers
 ms.prod: windows-hardware
 ms.technology: windows-devices

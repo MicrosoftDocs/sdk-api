@@ -7,7 +7,7 @@ old-location: mstv\imsvidstreambuffersink_put_sinkname.htm
 old-project: mstv
 ms.assetid: 5269ab81-0963-4a86-9592-d670cca6016f
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidStreamBufferSink, IMSVidStreamBufferSink interface [Microsoft TV Technologies], put_SinkName method, IMSVidStreamBufferSink::put_SinkName, IMSVidStreamBufferSinkput_SinkName, mstv.imsvidstreambuffersink_put_sinkname, put_SinkName method [Microsoft TV Technologies], put_SinkName method [Microsoft TV Technologies], IMSVidStreamBufferSink interface, put_SinkName,IMSVidStreamBufferSink.put_SinkName, segment/IMSVidStreamBufferSink::put_SinkName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidStreamBufferSink::put_SinkName method

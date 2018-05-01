@@ -7,7 +7,7 @@ old-location: nwifi\dot11_network_list.htm
 old-project: NativeWiFi
 ms.assetid: 607c5795-8168-4c6b-a2f3-65f31aea5cf5
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/13/2018
 ms.keywords: "*PDOT11_NETWORK_LIST, DOT11_NETWORK_LIST, DOT11_NETWORK_LIST structure [NativeWIFI], PDOT11_NETWORK_LIST, PDOT11_NETWORK_LIST structure pointer [NativeWIFI], _DOT11_NETWORK_LIST, nwifi.dot11_network_list, wlanapi/DOT11_NETWORK_LIST, wlanapi/PDOT11_NETWORK_LIST"
 ms.prod: windows-hardware
 ms.technology: windows-devices

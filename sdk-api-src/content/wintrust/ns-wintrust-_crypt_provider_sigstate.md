@@ -7,7 +7,7 @@ old-location: security\crypt_provider_sigstate.htm
 old-project: SecCrypto
 ms.assetid: B362A161-6B92-41B0-AE81-337EB42502D8
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: "*PCRYPT_PROVIDER_SIGSTATE, CRYPT_PROVIDER_SIGSTATE, CRYPT_PROVIDER_SIGSTATE structure [Security], PCRYPT_PROVIDER_SIGSTATE, PCRYPT_PROVIDER_SIGSTATE structure pointer [Security], _CRYPT_PROVIDER_SIGSTATE, security.crypt_provider_sigstate, wintrust/CRYPT_PROVIDER_SIGSTATE, wintrust/PCRYPT_PROVIDER_SIGSTATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -56,11 +56,6 @@ The <b>CRYPT_PROVIDER_SIGSTATE</b> structure is used to communicate between poli
 ## -struct-fields
 
 
-
-
-### -field pSealingSignature
-
- 
 
 
 ### -field cbStruct
@@ -119,6 +114,11 @@ Identifies the portion of the policy provider that  supports cryptographic polic
 
 
 ### -field fCheckedSealing
+
+ 
+
+
+### -field pSealingSignature
 
  
 

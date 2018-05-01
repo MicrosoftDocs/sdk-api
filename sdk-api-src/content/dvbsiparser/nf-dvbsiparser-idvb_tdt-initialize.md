@@ -7,7 +7,7 @@ old-location: mstv\idvb_tdt_initialize.htm
 old-project: mstv
 ms.assetid: 265a171b-57be-40dd-9891-e8a3b64af574
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IDVB_TDT, IDVB_TDT interface [Microsoft TV Technologies], Initialize method, IDVB_TDT::Initialize, IDVB_TDTInitialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies], IDVB_TDT interface, Initialize,IDVB_TDT.Initialize, dvbsiparser/IDVB_TDT::Initialize, mstv.idvb_tdt_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

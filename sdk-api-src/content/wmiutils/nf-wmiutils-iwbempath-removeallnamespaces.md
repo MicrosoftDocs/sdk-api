@@ -7,7 +7,7 @@ old-location: wmi\iwbempath_removeallnamespaces.htm
 old-project: WmiSdk
 ms.assetid: c42bdca5-fdc9-476a-9a32-1ac08e6dd6d0
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: IWbemPath, IWbemPath interface [Windows Management Instrumentation], RemoveAllNamespaces method, IWbemPath::RemoveAllNamespaces, RemoveAllNamespaces method [Windows Management Instrumentation], RemoveAllNamespaces method [Windows Management Instrumentation], IWbemPath interface, RemoveAllNamespaces,IWbemPath.RemoveAllNamespaces, _hmm_iwbempath_removeallnamespaces, wmi.iwbempath_removeallnamespaces, wmiutils/IWbemPath::RemoveAllNamespaces
 ms.prod: windows-hardware
 ms.technology: windows-devices

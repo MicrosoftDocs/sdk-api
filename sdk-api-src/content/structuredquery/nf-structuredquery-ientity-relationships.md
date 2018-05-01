@@ -7,7 +7,7 @@ old-location: search\_search_IEntity_Relationships.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ientity\relationships.htm
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/24/2018
 ms.keywords: IEntity, IEntity interface [search], Relationships method, IEntity::Relationships, Relationships method [search], Relationships method [search], IEntity interface, Relationships,IEntity.Relationships, _search_IEntity_Relationships, search._search_IEntity_Relationships, structuredquery/IEntity::Relationships
 ms.prod: windows-hardware
 ms.technology: windows-devices

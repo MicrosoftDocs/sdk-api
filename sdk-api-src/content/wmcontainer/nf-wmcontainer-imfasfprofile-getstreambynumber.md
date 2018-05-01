@@ -7,7 +7,7 @@ old-location: mf\imfasfprofile_getstreambynumber.htm
 old-project: medfound
 ms.assetid: 1e3fadf0-1549-4d51-b263-727b15c55023
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 1e3fadf0-1549-4d51-b263-727b15c55023, GetStreamByNumber method [Media Foundation], GetStreamByNumber method [Media Foundation], IMFASFProfile interface, GetStreamByNumber,IMFASFProfile.GetStreamByNumber, IMFASFProfile, IMFASFProfile interface [Media Foundation], GetStreamByNumber method, IMFASFProfile::GetStreamByNumber, mf.imfasfprofile_getstreambynumber, wmcontainer/IMFASFProfile::GetStreamByNumber
 ms.prod: windows-hardware
 ms.technology: windows-devices

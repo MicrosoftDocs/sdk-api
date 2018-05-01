@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrResolutionHandler_RemoveFromSyncSet.htm
 old-project: shell
 ms.assetid: 3f65f844-efa2-43b9-91f2-c9c0ed4e3a9e
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ISyncMgrResolutionHandler, ISyncMgrResolutionHandler interface [Windows Shell], RemoveFromSyncSet method, ISyncMgrResolutionHandler::RemoveFromSyncSet, RemoveFromSyncSet method [Windows Shell], RemoveFromSyncSet method [Windows Shell], ISyncMgrResolutionHandler interface, RemoveFromSyncSet,ISyncMgrResolutionHandler.RemoveFromSyncSet, _shell_ISyncMgrResolutionHandler_RemoveFromSyncSet, shell.ISyncMgrResolutionHandler_RemoveFromSyncSet, syncmgr/ISyncMgrResolutionHandler::RemoveFromSyncSet
 ms.prod: windows-hardware
 ms.technology: windows-devices

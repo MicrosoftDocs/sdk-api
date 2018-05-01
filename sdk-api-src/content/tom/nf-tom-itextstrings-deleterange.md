@@ -7,7 +7,7 @@ old-location: controls\itextstrings_deleterange.htm
 old-project: Controls
 ms.assetid: 2dd6312a-77ab-4538-a51b-7de49a5457ff
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: DeleteRange method [Windows Controls], DeleteRange method [Windows Controls], ITextStrings interface, DeleteRange,ITextStrings.DeleteRange, ITextStrings, ITextStrings interface [Windows Controls], DeleteRange method, ITextStrings::DeleteRange, controls.itextstrings_deleterange, tom/ITextStrings::DeleteRange
 ms.prod: windows-hardware
 ms.technology: windows-devices

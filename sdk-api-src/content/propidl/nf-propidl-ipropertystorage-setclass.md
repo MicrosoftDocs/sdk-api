@@ -7,7 +7,7 @@ old-location: stg\ipropertystorage_setclass.htm
 old-project: Stg
 ms.assetid: 88c916e5-b7f0-4f4d-b049-df2b0e1c2423
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/20/2018
 ms.keywords: IPropertyStorage, IPropertyStorage interface [Structured Storage], SetClass method, IPropertyStorage::SetClass, SetClass method [Structured Storage], SetClass method [Structured Storage], IPropertyStorage interface, SetClass,IPropertyStorage.SetClass, _stg_ipropertystorage_setclass, propidl/IPropertyStorage::SetClass, stg.ipropertystorage_setclass
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IPropertyStorage::SetClass method

@@ -7,7 +7,7 @@ old-location: secbiomet\winbio_engine_interface.htm
 old-project: SecBioMet
 ms.assetid: 04429f64-ae41-4c26-a777-bdb7aa92b685
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: "*PWINBIO_ENGINE_INTERFACE, PWINBIO_ENGINE_INTERFACE, PWINBIO_ENGINE_INTERFACE structure pointer [Windows Biometric Framework API], WINBIO_ENGINE_INTERFACE, WINBIO_ENGINE_INTERFACE structure [Windows Biometric Framework API], _WINBIO_ENGINE_INTERFACE, secbiomet.winbio_engine_interface, winbio_adapter/PWINBIO_ENGINE_INTERFACE, winbio_adapter/WINBIO_ENGINE_INTERFACE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -276,6 +276,16 @@ A pointer to your implementation of the <a href="https://msdn.microsoft.com/56BD
 
 
 ### -field AcceptPrivateSensorTypeInfo
+
+ 
+
+
+### -field CreateEnrollmentAuthenticated
+
+ 
+
+
+### -field IdentifyFeatureSetAuthenticated
 
  
 

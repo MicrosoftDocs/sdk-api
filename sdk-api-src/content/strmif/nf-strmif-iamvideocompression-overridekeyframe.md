@@ -7,7 +7,7 @@ old-location: dshow\iamvideocompression_overridekeyframe.htm
 old-project: DirectShow
 ms.assetid: 2e8e52b9-cc66-42f5-a0ea-110188bfcf8b
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMVideoCompression, IAMVideoCompression interface [DirectShow], OverrideKeyFrame method, IAMVideoCompression::OverrideKeyFrame, IAMVideoCompressionOverrideKeyFrame, OverrideKeyFrame method [DirectShow], OverrideKeyFrame method [DirectShow], IAMVideoCompression interface, OverrideKeyFrame,IAMVideoCompression.OverrideKeyFrame, dshow.iamvideocompression_overridekeyframe, strmif/IAMVideoCompression::OverrideKeyFrame
 ms.prod: windows-hardware
 ms.technology: windows-devices

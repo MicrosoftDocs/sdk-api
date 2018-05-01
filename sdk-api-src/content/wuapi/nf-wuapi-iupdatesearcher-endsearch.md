@@ -7,7 +7,7 @@ old-location: wua\iupdatesearcherendsearch.htm
 old-project: Wua_Sdk
 ms.assetid: 4a0532ec-3613-4aa1-96d7-7291b9ca7a94
 ms.author: windowsdriverdev
-ms.date: 3/15/2018
+ms.date: 4/18/2018
 ms.keywords: EndSearch method [Windows Update Agent], EndSearch method [Windows Update Agent], IUpdateSearcher interface, EndSearch,IUpdateSearcher.EndSearch, IUpdateSearcher, IUpdateSearcher interface [Windows Update Agent], EndSearch method, IUpdateSearcher::EndSearch, wua.iupdatesearcherendsearch, wuapi/IUpdateSearcher::EndSearch
 ms.prod: windows-hardware
 ms.technology: windows-devices

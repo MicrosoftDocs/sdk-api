@@ -7,7 +7,7 @@ old-location: wmp\iwmpnetwork_getproxysettings.htm
 old-project: WMP
 ms.assetid: 103e0d53-943d-4aba-9db1-20cdc1d75d52
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPNetwork, IWMPNetwork interface [Windows Media Player], getProxySettings method, IWMPNetwork::getProxySettings, IWMPNetworkgetProxySettings, getProxySettings method [Windows Media Player], getProxySettings method [Windows Media Player], IWMPNetwork interface, getProxySettings,IWMPNetwork.getProxySettings, wmp.iwmpnetwork_getproxysettings, wmp/IWMPNetwork::getProxySettings
 ms.prod: windows-hardware
 ms.technology: windows-devices

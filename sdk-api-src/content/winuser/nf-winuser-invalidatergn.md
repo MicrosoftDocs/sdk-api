@@ -7,7 +7,7 @@ old-location: gdi\invalidatergn.htm
 old-project: gdi
 ms.assetid: b5b44efe-8045-4e54-89f9-1766689a053d
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/17/2018
 ms.keywords: InvalidateRgn, InvalidateRgn function [Windows GDI], _win32_InvalidateRgn, gdi.invalidatergn, winuser/InvalidateRgn
 ms.prod: windows-hardware
 ms.technology: windows-devices

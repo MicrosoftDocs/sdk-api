@@ -7,7 +7,7 @@ old-location: wmdm\imdspdevice_enumstorage.htm
 old-project: WMDM
 ms.assetid: bbf19979-8e09-476e-9401-443ab5e84866
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: EnumStorage method [windows Media Device Manager], EnumStorage method [windows Media Device Manager], IMDSPDevice interface, EnumStorage,IMDSPDevice.EnumStorage, IMDSPDevice, IMDSPDevice interface [windows Media Device Manager], EnumStorage method, IMDSPDevice::EnumStorage, IMDSPDeviceEnumStorage, mswmdm/IMDSPDevice::EnumStorage, wmdm.imdspdevice_enumstorage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMDSPDevice::EnumStorage method

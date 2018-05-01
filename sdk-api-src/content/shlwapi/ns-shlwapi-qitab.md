@@ -7,7 +7,7 @@ old-location: shell\QITAB.htm
 old-project: shell
 ms.assetid: 3a055773-6e53-45e1-8936-011a8b2b8b16
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: "*LPQITAB, LPQITAB, LPQITAB structure pointer [Windows Shell], QITAB, QITAB structure [Windows Shell], _win32_QITAB, shell.QITAB, shlwapi/LPQITAB, shlwapi/QITAB"
 ms.prod: windows-hardware
 ms.technology: windows-devices

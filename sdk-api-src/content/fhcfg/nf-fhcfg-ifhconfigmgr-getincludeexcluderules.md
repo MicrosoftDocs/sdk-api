@@ -7,7 +7,7 @@ old-location: winprog\ifhconfigmgr_getincludeexcluderules.htm
 old-project: DevNotes
 ms.assetid: DE137C08-923D-4ADC-8EBC-2F277F72CAE4
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/13/2018
 ms.keywords: FhConfigMgr class [Windows API], GetIncludeExcludeRules method, GetIncludeExcludeRules method [Windows API], GetIncludeExcludeRules method [Windows API], FhConfigMgr class, GetIncludeExcludeRules method [Windows API], IFhConfigMgr interface, GetIncludeExcludeRules,IFhConfigMgr.GetIncludeExcludeRules, IFhConfigMgr, IFhConfigMgr interface [Windows API], GetIncludeExcludeRules method, IFhConfigMgr::GetIncludeExcludeRules, fhcfg/IFhConfigMgr::GetIncludeExcludeRules, winprog.ifhconfigmgr_getincludeexcluderules
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicbitmapcodecinfo_getdevicemanufacturer.htm
 old-project: wic
 ms.assetid: a69e8195-5dc1-4a25-ab3c-9ea0cb3de074
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: GetDeviceManufacturer method [Windows Imaging Component], GetDeviceManufacturer method [Windows Imaging Component], IWICBitmapCodecInfo interface, GetDeviceManufacturer,IWICBitmapCodecInfo.GetDeviceManufacturer, IWICBitmapCodecInfo, IWICBitmapCodecInfo interface [Windows Imaging Component], GetDeviceManufacturer method, IWICBitmapCodecInfo::GetDeviceManufacturer, _wic_codec_iwicbitmapcodecinfo_getdevicemanufacturer, wic._wic_codec_iwicbitmapcodecinfo_getdevicemanufacturer, wincodec/IWICBitmapCodecInfo::GetDeviceManufacturer
 ms.prod: windows-hardware
 ms.technology: windows-devices

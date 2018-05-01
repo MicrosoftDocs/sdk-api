@@ -7,7 +7,7 @@ old-location: mf\imfasfstreamprioritization_removestream.htm
 old-project: medfound
 ms.assetid: a6139042-9c78-4fe7-8549-655e35be2862
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFASFStreamPrioritization, IMFASFStreamPrioritization interface [Media Foundation], RemoveStream method, IMFASFStreamPrioritization::RemoveStream, RemoveStream method [Media Foundation], RemoveStream method [Media Foundation], IMFASFStreamPrioritization interface, RemoveStream,IMFASFStreamPrioritization.RemoveStream, a6139042-9c78-4fe7-8549-655e35be2862, mf.imfasfstreamprioritization_removestream, wmcontainer/IMFASFStreamPrioritization::RemoveStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

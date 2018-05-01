@@ -7,7 +7,7 @@ old-location: mf\_mft_process_output_flags.htm
 old-project: medfound
 ms.assetid: 846e91a5-7cd8-4b58-9484-b9cb9af0bebf
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 846e91a5-7cd8-4b58-9484-b9cb9af0bebf, MFT_PROCESS_OUTPUT_DISCARD_WHEN_NO_BUFFER, MFT_PROCESS_OUTPUT_REGENERATE_LAST_OUTPUT, _MFT_PROCESS_OUTPUT_FLAGS, _MFT_PROCESS_OUTPUT_FLAGS enumeration [Media Foundation], mf._mft_process_output_flags, mftransform/MFT_PROCESS_OUTPUT_DISCARD_WHEN_NO_BUFFER, mftransform/MFT_PROCESS_OUTPUT_REGENERATE_LAST_OUTPUT, mftransform/_MFT_PROCESS_OUTPUT_FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,7 @@ api_name:
 -	_MFT_PROCESS_OUTPUT_FLAGS
 product: Windows
 targetos: Windows
-req.lib: 
+req.lib: Mfobjects.lib
 req.dll: 
 req.irql: 
 req.product: GDI+ 1.1

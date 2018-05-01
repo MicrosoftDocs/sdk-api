@@ -7,7 +7,7 @@ old-location: com\ioleobject_getusertype.htm
 old-project: com
 ms.assetid: 8ffffa01-d118-4955-84d1-a4659ba9ddc9
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: GetUserType method [COM], GetUserType method [COM], IOleObject interface, GetUserType,IOleObject.GetUserType, IOleObject, IOleObject interface [COM], GetUserType method, IOleObject::GetUserType, _ole_ioleobject_getusertype, com.ioleobject_getusertype, oleidl/IOleObject::GetUserType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IOleObject::GetUserType method

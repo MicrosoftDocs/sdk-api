@@ -7,7 +7,7 @@ old-location: wmi\iwbemconfigurerefresher_remove.htm
 old-project: WmiSdk
 ms.assetid: f6e68b95-e9d1-473e-add4-823b6db51709
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: IWbemConfigureRefresher, IWbemConfigureRefresher interface [Windows Management Instrumentation], Remove method, IWbemConfigureRefresher::Remove, Remove method [Windows Management Instrumentation], Remove method [Windows Management Instrumentation], IWbemConfigureRefresher interface, Remove,IWbemConfigureRefresher.Remove, _hmm_iwbemconfigurerefresher_remove, wbemcli/IWbemConfigureRefresher::Remove, wmi.iwbemconfigurerefresher_remove
 ms.prod: windows-hardware
 ms.technology: windows-devices

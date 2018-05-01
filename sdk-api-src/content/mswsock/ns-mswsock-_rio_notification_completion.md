@@ -7,7 +7,7 @@ old-location: winsock\rio_notification_completion.htm
 old-project: WinSock
 ms.assetid: 85D3D68F-A914-4126-8D3D-4A6E3F970A4B
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/24/2018
 ms.keywords: "*PRIO_NOTIFICATION_COMPLETION, PRIO_NOTIFICATION_COMPLETION, PRIO_NOTIFICATION_COMPLETION structure pointer [Winsock], RIO_NOTIFICATION_COMPLETION, RIO_NOTIFICATION_COMPLETION structure [Winsock], _RIO_NOTIFICATION_COMPLETION, mswsock/PRIO_NOTIFICATION_COMPLETION, mswsock/RIO_NOTIFICATION_COMPLETION, winsock.rio_notification_completion"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _RIO_NOTIFICATION_COMPLETION structure
@@ -57,6 +57,11 @@ req.product: Compute Cluster Pack Client Utilities
 ## -struct-fields
 
 
+
+
+### -field Type
+
+The type of completion to use with the <a href="https://msdn.microsoft.com/02264DAC-A3A1-4F7D-9728-17BE7F10E859">RIONotify</a> function when sending or receiving data.
 
 
 ### -field Event
@@ -98,11 +103,6 @@ This value is valid when the <b>Type </b> member is set to <b>RIO_IOCP_COMPLETIO
 A pointer to the <a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structure to use when queuing a <a href="https://msdn.microsoft.com/02264DAC-A3A1-4F7D-9728-17BE7F10E859">RIONotify</a> request completion.  This member must point to a valid <b>OVERLAPPED</b> structure.  
 
 This value is valid when the <b>Type </b> member is set to <b>RIO_IOCP_COMPLETION</b>.  
-
-
-### -field Type
-
-The type of completion to use with the <a href="https://msdn.microsoft.com/02264DAC-A3A1-4F7D-9728-17BE7F10E859">RIONotify</a> function when sending or receiving data.
 
 
 ## -remarks

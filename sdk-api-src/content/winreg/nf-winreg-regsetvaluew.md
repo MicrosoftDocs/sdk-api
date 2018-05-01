@@ -7,7 +7,7 @@ old-location: base\regsetvalue.htm
 old-project: SysInfo
 ms.assetid: f99774d4-575b-43a3-8887-e15acb0477fd
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: RegSetValue, RegSetValue function, RegSetValueA, RegSetValueW, _win32_regsetvalue, base.regsetvalue, winreg/RegSetValue, winreg/RegSetValueA, winreg/RegSetValueW
 ms.prod: windows-hardware
 ms.technology: windows-devices

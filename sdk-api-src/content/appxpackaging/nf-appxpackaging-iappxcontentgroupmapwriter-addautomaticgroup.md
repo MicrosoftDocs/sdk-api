@@ -7,7 +7,7 @@ old-location: appxpkg\iappxcontentgroupmapwriter_addautomaticgroup.htm
 old-project: appxpkg
 ms.assetid: 7CF0A38A-D557-417B-A863-0E5AA346B55C
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/26/2018
 ms.keywords: AddAutomaticGroup method [App packaging and management], AddAutomaticGroup method [App packaging and management], IAppxContentGroupMapWriter interface, AddAutomaticGroup,IAppxContentGroupMapWriter.AddAutomaticGroup, IAppxContentGroupMapWriter, IAppxContentGroupMapWriter interface [App packaging and management], AddAutomaticGroup method, IAppxContentGroupMapWriter::AddAutomaticGroup, appxpackaging/IAppxContentGroupMapWriter::AddAutomaticGroup, appxpkg.iappxcontentgroupmapwriter_addautomaticgroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_ARCHITECTURE2
+req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,7 +7,7 @@ old-location: security\icertadmin2_publishcrl.htm
 old-project: SecCrypto
 ms.assetid: a42cab2d-2309-43f1-8d67-adbc5923ec45
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: CCertAdmin object [Security], PublishCRL method, ICertAdmin, ICertAdmin interface [Security], PublishCRL method, ICertAdmin2 interface [Security], PublishCRL method, ICertAdmin2::PublishCRL, ICertAdmin::PublishCRL, PublishCRL method [Security], PublishCRL method [Security], CCertAdmin object, PublishCRL method [Security], ICertAdmin interface, PublishCRL method [Security], ICertAdmin2 interface, PublishCRL,ICertAdmin.PublishCRL, certadm/ICertAdmin2::PublishCRL, certadm/ICertAdmin::PublishCRL, security.icertadmin2_publishcrl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CHANNEL_ENTRY_POINTS, *PCHANNEL_ENTRY_POINTS
+req.typenames: 
 topic_type:
 -	APIRef
 -	kbSyntax

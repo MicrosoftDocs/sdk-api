@@ -7,7 +7,7 @@ old-location: iphlp\createanycastipaddressentry.htm
 old-project: IpHlp
 ms.assetid: 30393132-0fad-4687-b9e3-7b5cf47fbb96
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 4/13/2018
 ms.keywords: CreateAnycastIpAddressEntry, CreateAnycastIpAddressEntry function [IP Helper], iphlp.createanycastipaddressentry, netioapi/CreateAnycastIpAddressEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # CreateAnycastIpAddressEntry function

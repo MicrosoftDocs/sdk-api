@@ -7,7 +7,7 @@ old-location: mf\imftimedtextformattedtext_getsubformattingcount.htm
 old-project: medfound
 ms.assetid: 27F3172E-3D6A-4BF6-9610-CB517ECD202F
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetSubformattingCount method [Media Foundation], GetSubformattingCount method [Media Foundation], IMFTimedTextFormattedText interface, GetSubformattingCount,IMFTimedTextFormattedText.GetSubformattingCount, IMFTimedTextFormattedText, IMFTimedTextFormattedText interface [Media Foundation], GetSubformattingCount method, IMFTimedTextFormattedText::GetSubformattingCount, mf.imftimedtextformattedtext_getsubformattingcount, mfmediaengine/IMFTimedTextFormattedText::GetSubformattingCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

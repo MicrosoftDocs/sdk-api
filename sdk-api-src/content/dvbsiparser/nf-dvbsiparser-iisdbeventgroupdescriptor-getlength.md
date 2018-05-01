@@ -7,7 +7,7 @@ old-location: mstv\iisdbeventgroupdescriptor_getlength.htm
 old-project: mstv
 ms.assetid: 08e61ddb-15d5-40e3-9e37-7c45d1f18b4a
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies], IIsdbEventGroupDescriptor interface, GetLength,IIsdbEventGroupDescriptor.GetLength, IIsdbEventGroupDescriptor, IIsdbEventGroupDescriptor interface [Microsoft TV Technologies], GetLength method, IIsdbEventGroupDescriptor::GetLength, dvbsiparser/IIsdbEventGroupDescriptor::GetLength, mstv.iisdbeventgroupdescriptor_getlength
 ms.prod: windows-hardware
 ms.technology: windows-devices

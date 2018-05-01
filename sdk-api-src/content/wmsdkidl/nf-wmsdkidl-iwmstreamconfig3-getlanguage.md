@@ -7,7 +7,7 @@ old-location: wmformat\iwmstreamconfig3_getlanguage.htm
 old-project: wmformat
 ms.assetid: 407607c8-c6ab-4400-b86c-9972d95f90c2
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: GetLanguage method [windows Media Format], GetLanguage method [windows Media Format], IWMStreamConfig3 interface, GetLanguage,IWMStreamConfig3.GetLanguage, IWMStreamConfig3, IWMStreamConfig3 interface [windows Media Format], GetLanguage method, IWMStreamConfig3::GetLanguage, IWMStreamConfig3GetLanguage, wmformat.iwmstreamconfig3_getlanguage, wmsdkidl/IWMStreamConfig3::GetLanguage
 ms.prod: windows-hardware
 ms.technology: windows-devices

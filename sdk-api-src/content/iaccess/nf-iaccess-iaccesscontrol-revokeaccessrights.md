@@ -7,7 +7,7 @@ old-location: com\iaccesscontrol_revokeaccessrights.htm
 old-project: com
 ms.assetid: 09b37002-0ad3-43c2-8a39-b440158310bb
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IAccessControl, IAccessControl interface [COM], RevokeAccessRights method, IAccessControl::RevokeAccessRights, RevokeAccessRights method [COM], RevokeAccessRights method [COM], IAccessControl interface, RevokeAccessRights,IAccessControl.RevokeAccessRights, _com_iaccesscontrol_revokeaccessrights, com.iaccesscontrol_revokeaccessrights, iaccess/IAccessControl::RevokeAccessRights
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: HTTP_FILTER_VERSION, *PHTTP_FILTER_VERSION
+req.typenames: HTTP_VERSION, *PHTTP_VERSION
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,7 +7,7 @@ old-location: base\ivsswritercomponents_getcomponent.htm
 old-project: VSS
 ms.assetid: ee816d83-31f3-47ff-b581-cc4dcd878f22
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: GetComponent method [VSS], GetComponent method [VSS], IVssWriterComponents interface, GetComponent,IVssWriterComponents.GetComponent, IVssWriterComponents, IVssWriterComponents interface [VSS], GetComponent method, IVssWriterComponents::GetComponent, _win32_ivsswritercomponents_getcomponent, base.ivsswritercomponents_getcomponent, vswriter/IVssWriterComponents::GetComponent
 ms.prod: windows-hardware
 ms.technology: windows-devices

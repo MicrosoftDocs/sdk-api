@@ -7,7 +7,7 @@ old-location: ics\inetfwauthorizedapplications_remove.htm
 old-project: ICS
 ms.assetid: 7c4e7d3f-6ab2-46f9-a5a0-f2901a8b5734
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: INetFwAuthorizedApplications, INetFwAuthorizedApplications interface [ICS/ICF], Remove method, INetFwAuthorizedApplications::Remove, Remove method [ICS/ICF], Remove method [ICS/ICF], INetFwAuthorizedApplications interface, Remove,INetFwAuthorizedApplications.Remove, ics.inetfwauthorizedapplications_remove, netfw/INetFwAuthorizedApplications::Remove
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # INetFwAuthorizedApplications::Remove method

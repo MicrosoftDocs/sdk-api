@@ -7,7 +7,7 @@ old-location: shell\ITrayDeskBand_IsDeskBandShown.htm
 old-project: shell
 ms.assetid: 969b8a91-6685-4fd8-95a1-bb9f0bfc88b5
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ITrayDeskBand, ITrayDeskBand interface [Windows Shell], IsDeskBandShown method, ITrayDeskBand::IsDeskBandShown, IsDeskBandShown method [Windows Shell], IsDeskBandShown method [Windows Shell], ITrayDeskBand interface, IsDeskBandShown,ITrayDeskBand.IsDeskBandShown, _shell_ITrayDeskBand_IsDeskBandShown, shell.ITrayDeskBand_IsDeskBandShown, shobjidl/ITrayDeskBand::IsDeskBandShown
 ms.prod: windows-hardware
 ms.technology: windows-devices

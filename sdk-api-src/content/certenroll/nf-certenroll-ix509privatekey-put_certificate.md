@@ -7,7 +7,7 @@ old-location: security\ix509privatekey_certificate_property.htm
 old-project: SecCertEnroll
 ms.assetid: 035615f1-2dc7-47d7-98e4-7b5b0924030f
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: Certificate property [Security], Certificate property [Security], IX509PrivateKey interface, IX509PrivateKey, IX509PrivateKey interface [Security], Certificate property, IX509PrivateKey.Certificate, IX509PrivateKey::get_Certificate, IX509PrivateKey::put_Certificate, certenroll/IX509PrivateKey::Certificate, certenroll/IX509PrivateKey::get_Certificate, certenroll/IX509PrivateKey::put_Certificate, put_Certificate,IX509PrivateKey.put_Certificate, security.ix509privatekey_certificate_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

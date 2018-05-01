@@ -7,7 +7,7 @@ old-location: base\ceipisoptedin.htm
 old-project: SysInfo
 ms.assetid: 4CDB5B09-B172-4E99-AB46-A08E32346266
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: CeipIsOptedIn, CeipIsOptedIn function, base.ceipisoptedin, windowsceip/ CeipIsOptedIn
 ms.prod: windows-hardware
 ms.technology: windows-devices

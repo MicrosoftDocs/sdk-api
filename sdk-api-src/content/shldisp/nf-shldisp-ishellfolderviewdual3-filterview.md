@@ -7,7 +7,7 @@ old-location: shell\IShellFolderViewDual3_FilterView.htm
 old-project: shell
 ms.assetid: 60808015-317e-469f-aa28-a2c2bfdb16a8
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: FilterView method [Windows Shell], FilterView method [Windows Shell], IShellFolderViewDual3 interface, FilterView,IShellFolderViewDual3.FilterView, IShellFolderViewDual3, IShellFolderViewDual3 interface [Windows Shell], FilterView method, IShellFolderViewDual3::FilterView, _shell_IShellFolderViewDual3_FilterView, shell.IShellFolderViewDual3_FilterView, shldisp/IShellFolderViewDual3::FilterView
 ms.prod: windows-hardware
 ms.technology: windows-devices

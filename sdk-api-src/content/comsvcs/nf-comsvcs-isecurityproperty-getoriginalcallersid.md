@@ -7,7 +7,7 @@ old-location: cos\isecurityproperty_getoriginalcallersid.htm
 old-project: cossdk
 ms.assetid: e8700635-94cb-4d1a-9325-f93d00c5181f
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: GetOriginalCallerSID method [COM+], GetOriginalCallerSID method [COM+], ISecurityProperty interface, GetOriginalCallerSID,ISecurityProperty.GetOriginalCallerSID, ISecurityProperty, ISecurityProperty interface [COM+], GetOriginalCallerSID method, ISecurityProperty::GetOriginalCallerSID, _cos_ISecurityProperty_GetOriginalCallerSID, comsvcs/ISecurityProperty::GetOriginalCallerSID, cos.isecurityproperty_getoriginalcallersid
 ms.prod: windows-hardware
 ms.technology: windows-devices

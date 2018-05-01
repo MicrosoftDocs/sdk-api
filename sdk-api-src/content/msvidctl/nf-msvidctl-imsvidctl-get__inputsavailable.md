@@ -7,7 +7,7 @@ old-location: mstv\imsvidctl_get__inputsavailable.htm
 old-project: mstv
 ms.assetid: 2d77eca3-aec9-423d-8d02-92e6f9ab5167
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidCtl, IMSVidCtl interface [Microsoft TV Technologies], get__InputsAvailable method, IMSVidCtl::get__InputsAvailable, IMSVidCtlget__InputsAvailable, get__InputsAvailable method [Microsoft TV Technologies], get__InputsAvailable method [Microsoft TV Technologies], IMSVidCtl interface, get__InputsAvailable,IMSVidCtl.get__InputsAvailable, mstv.imsvidctl_get__inputsavailable, msvidctl/IMSVidCtl::get__InputsAvailable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidCtl::get__InputsAvailable method

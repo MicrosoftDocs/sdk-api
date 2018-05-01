@@ -7,7 +7,7 @@ old-location: shell\IStreamAsync_WriteAsync.htm
 old-project: shell
 ms.assetid: c5004923-191b-4ec1-83af-f066209c786a
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IStreamAsync, IStreamAsync interface [Windows Shell], WriteAsync method, IStreamAsync::WriteAsync, WriteAsync method [Windows Shell], WriteAsync method [Windows Shell], IStreamAsync interface, WriteAsync,IStreamAsync.WriteAsync, _shell_IStreamAsync_WriteAsync, shell.IStreamAsync_WriteAsync, shobjidl/IStreamAsync::WriteAsync
 ms.prod: windows-hardware
 ms.technology: windows-devices

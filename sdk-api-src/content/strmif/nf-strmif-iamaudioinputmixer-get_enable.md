@@ -7,7 +7,7 @@ old-location: dshow\iamaudioinputmixer_get_enable.htm
 old-project: DirectShow
 ms.assetid: d3ec509c-9990-4803-a4e3-abc88fc8c522
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMAudioInputMixer, IAMAudioInputMixer interface [DirectShow], get_Enable method, IAMAudioInputMixer::get_Enable, IAMAudioInputMixerget_Enable, dshow.iamaudioinputmixer_get_enable, get_Enable method [DirectShow], get_Enable method [DirectShow], IAMAudioInputMixer interface, get_Enable,IAMAudioInputMixer.get_Enable, strmif/IAMAudioInputMixer::get_Enable
 ms.prod: windows-hardware
 ms.technology: windows-devices

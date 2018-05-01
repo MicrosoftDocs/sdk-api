@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3dresource9__gettype.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dresource9__gettype.htm
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/10/2018
 ms.keywords: GetType method [Direct3D 9], GetType method [Direct3D 9], IDirect3DResource9 interface, GetType,IDirect3DResource9.GetType, IDirect3DResource9, IDirect3DResource9 interface [Direct3D 9], GetType method, IDirect3DResource9::GetType, d3d9helper/IDirect3DResource9::GetType, direct3d9.idirect3dresource9__gettype, fedd6b5b-487e-c6e4-6122-21f132ce241b
 ms.prod: windows-hardware
 ms.technology: windows-devices

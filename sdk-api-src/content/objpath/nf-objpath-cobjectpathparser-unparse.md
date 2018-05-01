@@ -7,7 +7,7 @@ old-location: wmi\cobjectpathparser_unparse.htm
 old-project: WmiSdk
 ms.assetid: 6135b808-b9eb-4ba0-9eb8-e7a59993ae34
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: CObjectPathParser, CObjectPathParser interface [Windows Management Instrumentation], UnParse method, CObjectPathParser::UnParse, CObjectPathParser::Unparse, UnParse method [Windows Management Instrumentation], UnParse method [Windows Management Instrumentation], CObjectPathParser interface, Unparse,CObjectPathParser.Unparse, objpath/CObjectPathParser::UnParse, wmi.cobjectpathparser_unparse
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # CObjectPathParser::Unparse method

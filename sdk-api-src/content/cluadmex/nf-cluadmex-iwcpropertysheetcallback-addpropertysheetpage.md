@@ -7,7 +7,7 @@ old-location: mscs\iwcpropertysheetcallback_addpropertysheetpage.htm
 old-project: MsCS
 ms.assetid: ccd87d3a-c9da-4d61-9e9b-f25a52724166
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: AddPropertySheetPage method [Failover Cluster], AddPropertySheetPage method [Failover Cluster], IWCPropertySheetCallback interface, AddPropertySheetPage,IWCPropertySheetCallback.AddPropertySheetPage, IWCPropertySheetCallback, IWCPropertySheetCallback interface [Failover Cluster], AddPropertySheetPage method, IWCPropertySheetCallback::AddPropertySheetPage, _wolf_iwcpropertysheetcallback_addpropertysheetpage, cluadmex/IWCPropertySheetCallback::AddPropertySheetPage, mscs.iwcpropertysheetcallback_addpropertysheetpage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: LOG_MANAGEMENT_CALLBACKS, *PLOG_MANAGEMENT_CALLBACKS
+req.typenames: Sources
 topic_type:
 -	APIRef
 -	kbSyntax

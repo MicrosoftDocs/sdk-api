@@ -7,7 +7,7 @@ old-location: cos\igetsecuritycallcontext_getsecuritycallcontext.htm
 old-project: cossdk
 ms.assetid: 6a386cf6-1f75-4915-8c89-e453c4ebdab8
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: GetSecurityCallContext method [COM+], GetSecurityCallContext method [COM+], IGetSecurityCallContext interface, GetSecurityCallContext,IGetSecurityCallContext.GetSecurityCallContext, IGetSecurityCallContext, IGetSecurityCallContext interface [COM+], GetSecurityCallContext method, IGetSecurityCallContext::GetSecurityCallContext, _cos_IGetSecurityCallContext_GetSecurityCallContext, comsvcs/IGetSecurityCallContext::GetSecurityCallContext, cos.igetsecuritycallcontext_getsecuritycallcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices

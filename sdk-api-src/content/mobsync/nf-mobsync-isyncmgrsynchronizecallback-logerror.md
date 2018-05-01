@@ -7,7 +7,7 @@ old-location: shell\syncmgr_isyncmgrsynchronizecallback_logerror.htm
 old-project: shell
 ms.assetid: 7c25ef21-9815-41ad-bcc0-b41a62dc0fe5
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ISyncMgrSynchronizeCallback, ISyncMgrSynchronizeCallback interface [Windows Shell], LogError method, ISyncMgrSynchronizeCallback::LogError, LogError method [Windows Shell], LogError method [Windows Shell], ISyncMgrSynchronizeCallback interface, LogError,ISyncMgrSynchronizeCallback.LogError, mobsync/ISyncMgrSynchronizeCallback::LogError, shell.syncmgr_isyncmgrsynchronizecallback_logerror, syncmgr.isyncmgrsynchronizecallback_logerror
 ms.prod: windows-hardware
 ms.technology: windows-devices

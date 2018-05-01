@@ -7,7 +7,7 @@ old-location: mf\imfdxgidevicemanager_getvideoservice.htm
 old-project: medfound
 ms.assetid: B0C7C31B-39AF-48B6-8D86-F4DFCC546CDE
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetVideoService method [Media Foundation], GetVideoService method [Media Foundation], IMFDXGIDeviceManager interface, GetVideoService,IMFDXGIDeviceManager.GetVideoService, IMFDXGIDeviceManager, IMFDXGIDeviceManager interface [Media Foundation], GetVideoService method, IMFDXGIDeviceManager::GetVideoService, mf.imfdxgidevicemanager_getvideoservice, mfobjects/IMFDXGIDeviceManager::GetVideoService
 ms.prod: windows-hardware
 ms.technology: windows-devices

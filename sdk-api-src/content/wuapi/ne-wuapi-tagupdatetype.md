@@ -7,7 +7,7 @@ old-location: wua\updatetype.htm
 old-project: Wua_Sdk
 ms.assetid: 2845075f-f27a-44f5-8dc3-bdf67ce15c79
 ms.author: windowsdriverdev
-ms.date: 3/15/2018
+ms.date: 4/18/2018
 ms.keywords: UpdateType, UpdateType enumeration [Windows Update Agent], tagUpdateType, utDriver, utSoftware, wua.updatetype, wuapi/UpdateType, wuapi/utDriver, wuapi/utSoftware
 ms.prod: windows-hardware
 ms.technology: windows-devices

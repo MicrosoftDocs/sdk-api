@@ -1,14 +1,14 @@
 ---
 UID: NS:windns.__unnamed_struct_19
-title: DNS_NSEC_DATAW
+title: DNS_DHCID_DATA
 author: windows-driver-content
-description: Represents an NSEC resource record (RR) as specified in section 4 of RFC 4034.
-old-location: dns\dns_nsec_data.htm
+description: Represents a DNS Dynamic Host Configuration Protocol Information (DHCID) resource record (RR) as specified in section 3 of RFC 4701.
+old-location: dns\dns_dhcid_data.htm
 old-project: DNS
-ms.assetid: ea446732-bc6a-4597-b164-11bfd77c07f2
+ms.assetid: 868846bc-9f63-4bb3-ac8d-cea34232bb41
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
-ms.keywords: "*PDNS_NSEC_DATA, *PDNS_NSEC_DATAW, DNS_NSEC_DATA, DNS_NSEC_DATA structure [DNS], DNS_NSEC_DATAW, PDNS_NSEC_DATA, PDNS_NSEC_DATA structure pointer [DNS], dns.dns_nsec_data, windns/DNS_NSEC_DATA, windns/PDNS_NSEC_DATA"
+ms.date: 4/18/2018
+ms.keywords: "*PDNS_DHCID_DATA, DNS_DHCID_DATA, DNS_DHCID_DATA structure [DNS], PDNS_DHCID_DATA, PDNS_DHCID_DATA structure pointer [DNS], dns.dns_dhcid_data, windns/DNS_DHCID_DATA, windns/PDNS_DHCID_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: DNS_NSEC_DATAW, *PDNS_NSEC_DATAW
+req.typenames: DNS_DHCID_DATA, *PDNS_DHCID_DATA
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	Windns.h
 api_name:
--	DNS_NSEC_DATA
+-	DNS_DHCID_DATA
 product: Windows
 targetos: Windows
 req.lib: 
@@ -44,13 +44,13 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# DNS_NSEC_DATAW structure
+# DNS_DHCID_DATA structure
 
 
 ## -description
 
 
-The <b>DNS_NSEC_DATA</b> structure represents an NSEC resource record (RR) as specified in section 4 of <a href="http://go.microsoft.com/fwlink/p/?linkid=107052">RFC 4034</a>.
+The <b>DNS_DHCID_DATA</b> structure represents a DNS Dynamic Host Configuration Protocol Information (DHCID) resource record (RR) as specified in section 3 of <a href="http://go.microsoft.com/fwlink/p/?linkid=125431">RFC 4701</a>.
 
 
 ## -struct-fields
@@ -58,24 +58,14 @@ The <b>DNS_NSEC_DATA</b> structure represents an NSEC resource record (RR) as sp
 
 
 
-### -field pNextDomainName
+### -field dwByteCount
 
-A pointer to a string that represents the authoritative owner name of the next domain in the canonical ordering of the zone as specified in section 4.1.1 of <a href="http://go.microsoft.com/fwlink/p/?linkid=107052">RFC 4034</a>.
-
-
-### -field wTypeBitMapsLength
-
-The length, in bytes, of <b>TypeBitMaps</b>.
+The length, in bytes, of <b>DHCID</b>.
 
 
-### -field wPad
+### -field DHCID
 
-Reserved. Do not use.
-
-
-### -field TypeBitMaps
-
-A <b>BYTE</b> array that contains a bitmap that specifies which RR types are supported by the NSEC RR owner. Each bit in the array corresponds to a <a href="https://msdn.microsoft.com/95bc9193-7962-498a-9abd-c4718ac35f0f">DNS Record Type</a> as defined in section in section 4.1.2 of <a href="http://go.microsoft.com/fwlink/p/?linkid=107052">RFC 4034</a>.
+A <b>BYTE</b> array that contains the DHCID client, domain, and SHA-256 digest information as specified in section 4 of <a href="http://go.microsoft.com/fwlink/p/?linkid=134711">RFC 2671</a>.
 
 
 ## -remarks
@@ -83,7 +73,7 @@ A <b>BYTE</b> array that contains a bitmap that specifies which RR types are sup
 
 
 The 
-<b>DNS_NSEC_DATA</b> structure is used in conjunction with the 
+<b>DNS_DHCID_DATA</b> structure is used in conjunction with the 
 <a href="https://msdn.microsoft.com/ab7b96a5-346f-4e01-bb2a-885f44764590">DNS_RECORD</a> structure to programmatically manage DNS entries.
 
 

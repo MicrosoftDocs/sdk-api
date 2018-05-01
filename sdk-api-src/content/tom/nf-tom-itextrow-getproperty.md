@@ -7,7 +7,7 @@ old-location: controls\itextrow_getproperty.htm
 old-project: Controls
 ms.assetid: ed47033f-14b2-4ca1-89be-f2eab3d148ef
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: GetProperty method [Windows Controls], GetProperty method [Windows Controls], ITextRow interface, GetProperty,ITextRow.GetProperty, ITextRow, ITextRow interface [Windows Controls], GetProperty method, ITextRow::GetProperty, controls.itextrow_getproperty, tom/ITextRow::GetProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

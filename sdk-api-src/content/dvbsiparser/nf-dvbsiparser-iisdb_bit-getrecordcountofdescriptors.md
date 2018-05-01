@@ -7,7 +7,7 @@ old-location: mstv\iisdb_bit_getrecordcountofdescriptors.htm
 old-project: mstv
 ms.assetid: 08df6f74-dbeb-4d32-8b0f-4ec88d35ff36
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetRecordCountOfDescriptors method [Microsoft TV Technologies], GetRecordCountOfDescriptors method [Microsoft TV Technologies], IISDB_BIT interface, GetRecordCountOfDescriptors,IISDB_BIT.GetRecordCountOfDescriptors, IISDB_BIT, IISDB_BIT interface [Microsoft TV Technologies], GetRecordCountOfDescriptors method, IISDB_BIT::GetRecordCountOfDescriptors, dvbsiparser/IISDB_BIT::GetRecordCountOfDescriptors, mstv.iisdb_bit_getrecordcountofdescriptors
 ms.prod: windows-hardware
 ms.technology: windows-devices

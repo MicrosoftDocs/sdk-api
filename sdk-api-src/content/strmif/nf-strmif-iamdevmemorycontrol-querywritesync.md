@@ -7,7 +7,7 @@ old-location: dshow\iamdevmemorycontrol_querywritesync.htm
 old-project: DirectShow
 ms.assetid: ec6dd7e2-b1f2-48fa-bf79-2688e286425e
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMDevMemoryControl, IAMDevMemoryControl interface [DirectShow], QueryWriteSync method, IAMDevMemoryControl::QueryWriteSync, IAMDevMemoryControlQueryWriteSync, QueryWriteSync method [DirectShow], QueryWriteSync method [DirectShow], IAMDevMemoryControl interface, QueryWriteSync,IAMDevMemoryControl.QueryWriteSync, dshow.iamdevmemorycontrol_querywritesync, strmif/IAMDevMemoryControl::QueryWriteSync
 ms.prod: windows-hardware
 ms.technology: windows-devices

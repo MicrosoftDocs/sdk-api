@@ -7,7 +7,7 @@ old-location: wmp\iwmpcore3_newplaylist.htm
 old-project: WMP
 ms.assetid: 61af7ce9-7fc6-4907-b423-3e6d2d8f39ac
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPCore3, IWMPCore3 interface [Windows Media Player], newPlaylist method, IWMPCore3::newPlaylist, IWMPCore3newPlaylist, newPlaylist method [Windows Media Player], newPlaylist method [Windows Media Player], IWMPCore3 interface, newPlaylist,IWMPCore3.newPlaylist, wmp.iwmpcore3_newplaylist, wmp/IWMPCore3::newPlaylist
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\createmutexex.htm
 old-project: Sync
 ms.assetid: c22ec98a-29c0-444e-afa4-fa2ad131a086
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: CREATE_MUTEX_INITIAL_OWNER, CreateMutexEx, CreateMutexEx function, CreateMutexExA, CreateMutexExW, base.createmutexex, synchapi/CreateMutexEx, synchapi/CreateMutexExA, synchapi/CreateMutexExW, winbase/CreateMutexEx, winbase/CreateMutexExA, winbase/CreateMutexExW
 ms.prod: windows-hardware
 ms.technology: windows-devices

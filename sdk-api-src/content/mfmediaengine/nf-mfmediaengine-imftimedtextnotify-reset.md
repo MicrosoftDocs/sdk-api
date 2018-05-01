@@ -7,7 +7,7 @@ old-location: mf\imftimedtextnotify_reset.htm
 old-project: medfound
 ms.assetid: 2743B39A-7C57-418C-897F-5B4952840135
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFTimedTextNotify, IMFTimedTextNotify interface [Media Foundation], Reset method, IMFTimedTextNotify::Reset, Reset method [Media Foundation], Reset method [Media Foundation], IMFTimedTextNotify interface, Reset,IMFTimedTextNotify.Reset, mf.imftimedtextnotify_reset, mfmediaengine/IMFTimedTextNotify::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices

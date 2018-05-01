@@ -7,7 +7,7 @@ old-location: tablet\istylusplugin_inairpackets.htm
 old-project: tablet
 ms.assetid: 9ff5f784-33f0-45b8-bccd-3e90a9afd67f
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: 9ff5f784-33f0-45b8-bccd-3e90a9afd67f, IStylusPlugin, IStylusPlugin interface [Tablet PC], InAirPackets method, IStylusPlugin::InAirPackets, InAirPackets method [Tablet PC], InAirPackets method [Tablet PC], IStylusPlugin interface, InAirPackets,IStylusPlugin.InAirPackets, rtscom/IStylusPlugin::InAirPackets, tablet.istylusplugin_inairpackets
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: RTSCom.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IStylusPlugin::InAirPackets method

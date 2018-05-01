@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmpropertybag_getfileproperty.htm
 old-project: Fsrm
 ms.assetid: 09fc3287-f2a2-4ba7-9626-65c6634b7f2d
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: GetFileProperty method [File Server Resource Manager], GetFileProperty method [File Server Resource Manager], IFsrmPropertyBag interface, GetFileProperty,IFsrmPropertyBag.GetFileProperty, IFsrmPropertyBag, IFsrmPropertyBag interface [File Server Resource Manager], GetFileProperty method, IFsrmPropertyBag::GetFileProperty, fs.ifsrmpropertybag_getfileproperty, fsrm.ifsrmpropertybag_getfileproperty, fsrmpipeline/IFsrmPropertyBag::GetFileProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

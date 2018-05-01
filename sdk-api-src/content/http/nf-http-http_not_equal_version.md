@@ -7,7 +7,7 @@ old-location: http\http_not_equal_version.htm
 old-project: Http
 ms.assetid: 5ce37dd4-dc40-4e24-b6e3-bc9dccf4140b
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: HTTP_NOT_EQUAL_VERSION, HTTP_NOT_EQUAL_VERSION macro [HTTP], _http_http_not_equal_version, http.http_not_equal_version, http/HTTP_NOT_EQUAL_VERSION
 ms.prod: windows-hardware
 ms.technology: windows-devices

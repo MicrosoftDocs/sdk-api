@@ -7,7 +7,7 @@ old-location: controls\ITextRange_GetChar.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getchar.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: GetChar method [Windows Controls], GetChar method [Windows Controls], ITextRange interface, GetChar,ITextRange.GetChar, ITextRange, ITextRange interface [Windows Controls], GetChar method, ITextRange::GetChar, _win32_ITextRange_GetChar, _win32_ITextRange_GetChar_cpp, controls.ITextRange_GetChar, controls._win32_ITextRange_GetChar, tom/ITextRange::GetChar
 ms.prod: windows-hardware
 ms.technology: windows-devices

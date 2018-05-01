@@ -7,7 +7,7 @@ old-location: ics\istaticportmapping_enable.htm
 old-project: ICS
 ms.assetid: 66aa27b4-83a5-4c20-b964-084dd0e48a54
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: Enable method [ICS/ICF], Enable method [ICS/ICF], IStaticPortMapping interface, Enable,IStaticPortMapping.Enable, IStaticPortMapping, IStaticPortMapping interface [ICS/ICF], Enable method, IStaticPortMapping::Enable, _ics_istaticportmapping_enable, ics.istaticportmapping_enable, natupnp/IStaticPortMapping::Enable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IStaticPortMapping::Enable method

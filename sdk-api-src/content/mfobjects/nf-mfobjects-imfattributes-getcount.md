@@ -7,7 +7,7 @@ old-location: mf\imfattributes_getcount.htm
 old-project: medfound
 ms.assetid: 5f511d5c-249c-4311-8380-a932a755eaaf
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 5f511d5c-249c-4311-8380-a932a755eaaf, GetCount method [Media Foundation], GetCount method [Media Foundation], IMFAttributes interface, GetCount,IMFAttributes.GetCount, IMFAttributes, IMFAttributes interface [Media Foundation], GetCount method, IMFAttributes::GetCount, mf.imfattributes_getcount, mfobjects/IMFAttributes::GetCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

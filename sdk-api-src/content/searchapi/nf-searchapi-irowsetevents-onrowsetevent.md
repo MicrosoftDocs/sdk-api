@@ -7,7 +7,7 @@ old-location: search\_search_IRowsetEvents_OnRowsetEvent.htm
 old-project: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\irowsetevents\onrowsetevent.htm
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/24/2018
 ms.keywords: IRowsetEvents, IRowsetEvents interface [search], OnRowsetEvent method, IRowsetEvents::OnRowsetEvent, OnRowsetEvent method [search], OnRowsetEvent method [search], IRowsetEvents interface, OnRowsetEvent,IRowsetEvents.OnRowsetEvent, _search_IRowsetEvents_OnRowsetEvent, search._search_IRowsetEvents_OnRowsetEvent, searchapi/IRowsetEvents::OnRowsetEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IRowsetEvents::OnRowsetEvent method

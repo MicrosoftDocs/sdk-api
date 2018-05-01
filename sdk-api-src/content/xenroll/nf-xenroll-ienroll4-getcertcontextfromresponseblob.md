@@ -7,7 +7,7 @@ old-location: security\ienroll4_getcertcontextfromresponseblob.htm
 old-project: SecCrypto
 ms.assetid: 824626bf-a20d-4d34-a061-9f54b142e0fc
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: IEnroll4, IEnroll4 interface [Security], getCertContextFromResponseBlob method, IEnroll4::getCertContextFromResponseBlob, getCertContextFromResponseBlob method [Security], getCertContextFromResponseBlob method [Security], IEnroll4 interface, getCertContextFromResponseBlob,IEnroll4.getCertContextFromResponseBlob, security.ienroll4_getcertcontextfromresponseblob, xenroll/IEnroll4::getCertContextFromResponseBlob
 ms.prod: windows-hardware
 ms.technology: windows-devices

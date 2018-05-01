@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationSelectionPattern_CachedIsSelectionRequ
 old-project: WinAuto
 ms.assetid: 74846653-bf18-4289-9ad8-aedc20a56f29
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: CachedIsSelectionRequired property [Windows Accessibility], CachedIsSelectionRequired property [Windows Accessibility], IUIAutomationSelectionPattern interface, IUIAutomationSelectionPattern, IUIAutomationSelectionPattern interface [Windows Accessibility], CachedIsSelectionRequired property, IUIAutomationSelectionPattern.CachedIsSelectionRequired, IUIAutomationSelectionPattern::get_CachedIsSelectionRequired, get_CachedIsSelectionRequired,IUIAutomationSelectionPattern.get_CachedIsSelectionRequired, uiauto.uiauto_IUIAutomationSelectionPattern_CachedIsSelectionRequired, uiauto_IUIAutomationSelectionPattern_CachedIsSelectionRequired, uiautomationclient/IUIAutomationSelectionPattern::CachedIsSelectionRequired, uiautomationclient/IUIAutomationSelectionPattern::get_CachedIsSelectionRequired, winauto.uiauto_IUIAutomationSelectionPattern_CachedIsSelectionRequired
 ms.prod: windows-hardware
 ms.technology: windows-devices

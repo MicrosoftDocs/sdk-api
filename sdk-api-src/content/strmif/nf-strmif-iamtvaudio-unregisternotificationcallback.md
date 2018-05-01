@@ -7,7 +7,7 @@ old-location: dshow\iamtvaudio_unregisternotificationcallback.htm
 old-project: DirectShow
 ms.assetid: 17a2f882-f6a8-467d-a6f9-eb8e6309e878
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMTVAudio, IAMTVAudio interface [DirectShow], UnRegisterNotificationCallBack method, IAMTVAudio::UnRegisterNotificationCallBack, IAMTVAudioUnRegisterNotificationCallBack, UnRegisterNotificationCallBack method [DirectShow], UnRegisterNotificationCallBack method [DirectShow], IAMTVAudio interface, UnRegisterNotificationCallBack,IAMTVAudio.UnRegisterNotificationCallBack, dshow.iamtvaudio_unregisternotificationcallback, strmif/IAMTVAudio::UnRegisterNotificationCallBack
 ms.prod: windows-hardware
 ms.technology: windows-devices

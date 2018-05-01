@@ -7,7 +7,7 @@ old-location: wmformat\iwmreadernetworkconfig_resetloggingurllist.htm
 old-project: wmformat
 ms.assetid: 0fe71d73-a827-4aed-a37b-db7701cc1180
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMReaderNetworkConfig, IWMReaderNetworkConfig interface [windows Media Format], ResetLoggingUrlList method, IWMReaderNetworkConfig::ResetLoggingUrlList, IWMReaderNetworkConfigResetLoggingUrlList, ResetLoggingUrlList method [windows Media Format], ResetLoggingUrlList method [windows Media Format], IWMReaderNetworkConfig interface, ResetLoggingUrlList,IWMReaderNetworkConfig.ResetLoggingUrlList, wmformat.iwmreadernetworkconfig_resetloggingurllist, wmsdkidl/IWMReaderNetworkConfig::ResetLoggingUrlList
 ms.prod: windows-hardware
 ms.technology: windows-devices

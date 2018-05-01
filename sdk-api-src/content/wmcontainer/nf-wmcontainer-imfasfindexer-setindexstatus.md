@@ -7,7 +7,7 @@ old-location: mf\imfasfindexer_setindexstatus.htm
 old-project: medfound
 ms.assetid: bad10893-07af-4b46-bab1-2878553813b5
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFASFIndexer, IMFASFIndexer interface [Media Foundation], SetIndexStatus method, IMFASFIndexer::SetIndexStatus, SetIndexStatus method [Media Foundation], SetIndexStatus method [Media Foundation], IMFASFIndexer interface, SetIndexStatus,IMFASFIndexer.SetIndexStatus, bad10893-07af-4b46-bab1-2878553813b5, mf.imfasfindexer_setindexstatus, wmcontainer/IMFASFIndexer::SetIndexStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

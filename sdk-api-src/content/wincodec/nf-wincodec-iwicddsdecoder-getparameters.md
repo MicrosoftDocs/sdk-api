@@ -7,7 +7,7 @@ old-location: wic\iwicddsdecoder_getparameters.htm
 old-project: wic
 ms.assetid: D4EE39D6-54DC-450D-A430-2996D349BEC6
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: GetParameters method [Windows Imaging Component], GetParameters method [Windows Imaging Component], IWICDdsDecoder interface, GetParameters,IWICDdsDecoder.GetParameters, IWICDdsDecoder, IWICDdsDecoder interface [Windows Imaging Component], GetParameters method, IWICDdsDecoder::GetParameters, wic.iwicddsdecoder_getparameters, wincodec/IWICDdsDecoder::GetParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices

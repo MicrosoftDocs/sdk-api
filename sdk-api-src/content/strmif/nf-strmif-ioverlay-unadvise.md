@@ -7,7 +7,7 @@ old-location: dshow\ioverlay_unadvise.htm
 old-project: DirectShow
 ms.assetid: da987152-d5cd-42c5-848a-6d70ad25ca33
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IOverlay, IOverlay interface [DirectShow], Unadvise method, IOverlay::Unadvise, IOverlayUnadvise, Unadvise method [DirectShow], Unadvise method [DirectShow], IOverlay interface, Unadvise,IOverlay.Unadvise, dshow.ioverlay_unadvise, strmif/IOverlay::Unadvise
 ms.prod: windows-hardware
 ms.technology: windows-devices

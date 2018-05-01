@@ -7,7 +7,7 @@ old-location: base\regdeletekeyex.htm
 old-project: SysInfo
 ms.assetid: 41fde6a5-647c-4293-92b8-74be54fa4136
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: KEY_WOW64_32KEY, KEY_WOW64_64KEY, RegDeleteKeyEx, RegDeleteKeyEx function, RegDeleteKeyExA, RegDeleteKeyExW, base.regdeletekeyex, winreg/RegDeleteKeyEx, winreg/RegDeleteKeyExA, winreg/RegDeleteKeyExW
 ms.prod: windows-hardware
 ms.technology: windows-devices

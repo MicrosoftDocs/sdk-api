@@ -7,7 +7,7 @@ old-location: gdi\emrresizepalette.htm
 old-project: gdi
 ms.assetid: b9c31591-bf9f-44d9-8c9a-9682d29fc541
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/17/2018
 ms.keywords: "*PEMRRESIZEPALETTE, EMRRESIZEPALETTE, EMRRESIZEPALETTE structure [Windows GDI], PEMRRESIZEPALETTE, PEMRRESIZEPALETTE structure pointer [Windows GDI], _win32_EMRRESIZEPALETTE_str, gdi.emrresizepalette, tagEMRRESIZEPALETTE, wingdi/EMRRESIZEPALETTE, wingdi/PEMRRESIZEPALETTE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

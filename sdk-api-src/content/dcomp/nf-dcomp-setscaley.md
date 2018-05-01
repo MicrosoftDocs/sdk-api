@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: DEV_BROADCAST_VOLUME
+req.typenames: D2D_VECTOR_4F
 topic_type:
 -	APIRef
 -	kbSyntax

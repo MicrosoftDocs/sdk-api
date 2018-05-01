@@ -7,7 +7,7 @@ old-location: wua\icategory_children.htm
 old-project: Wua_Sdk
 ms.assetid: 98c49741-cd7b-43fd-bc9c-f70899506ef2
 ms.author: windowsdriverdev
-ms.date: 3/15/2018
+ms.date: 4/18/2018
 ms.keywords: Children property [Windows Update Agent], Children property [Windows Update Agent], ICategory interface, ICategory, ICategory interface [Windows Update Agent], Children property, ICategory.Children, ICategory::get_Children, get_Children,ICategory.get_Children, wua.icategory_children, wuapi/ICategory::Children, wuapi/ICategory::get_Children
 ms.prod: windows-hardware
 ms.technology: windows-devices

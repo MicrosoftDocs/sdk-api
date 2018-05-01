@@ -7,7 +7,7 @@ old-location: mf\imfworkqueueservices_endunregistertopologyworkqueueswithmmcss.h
 old-project: medfound
 ms.assetid: 6b767e34-172c-4845-91f9-0af92a3347ab
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 6b767e34-172c-4845-91f9-0af92a3347ab, EndUnregisterTopologyWorkQueuesWithMMCSS method [Media Foundation], EndUnregisterTopologyWorkQueuesWithMMCSS method [Media Foundation], IMFWorkQueueServices interface, EndUnregisterTopologyWorkQueuesWithMMCSS,IMFWorkQueueServices.EndUnregisterTopologyWorkQueuesWithMMCSS, IMFWorkQueueServices, IMFWorkQueueServices interface [Media Foundation], EndUnregisterTopologyWorkQueuesWithMMCSS method, IMFWorkQueueServices::EndUnregisterTopologyWorkQueuesWithMMCSS, mf.imfworkqueueservices_endunregistertopologyworkqueueswithmmcss, mfidl/IMFWorkQueueServices::EndUnregisterTopologyWorkQueuesWithMMCSS
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: com\ipropertypage_show.htm
 old-project: com
 ms.assetid: f89aa820-a3d3-4a41-b2b2-9ee48354fbeb
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IPropertyPage, IPropertyPage interface [COM], Show method, IPropertyPage::Show, Show method [COM], Show method [COM], IPropertyPage interface, Show,IPropertyPage.Show, _ctrl_ipropertypage_show, com.ipropertypage_show, ocidl/IPropertyPage::Show
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IPropertyPage::Show method

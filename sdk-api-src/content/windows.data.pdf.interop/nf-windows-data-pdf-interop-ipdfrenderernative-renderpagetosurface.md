@@ -7,7 +7,7 @@ old-location: winrt\ipdfrenderernative_renderpagetosurface.htm
 old-project: WinRT
 ms.assetid: d4688c23-0122-40a7-908e-793c3f03fb37
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/24/2018
 ms.keywords: IPdfRendererNative, IPdfRendererNative interface [Windows Runtime], RenderPageToSurface method, IPdfRendererNative::RenderPageToSurface, RenderPageToSurface method [Windows Runtime], RenderPageToSurface method [Windows Runtime], IPdfRendererNative interface, RenderPageToSurface,IPdfRendererNative.RenderPageToSurface, windows/IPdfRendererNative::RenderPageToSurface, winrt.ipdfrenderernative_renderpagetosurface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: DOT11_BSSID_LIST, *PDOT11_BSSID_LIST
+req.typenames: IP6_ADDRESS, *PIP6_ADDRESS
 topic_type:
 -	APIRef
 -	kbSyntax

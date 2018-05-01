@@ -7,7 +7,7 @@ old-location: mstv\iatscpsipparser_geteas.htm
 old-project: mstv
 ms.assetid: e53b93e3-7269-45aa-8b19-75f78fb44c41
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetEAS method [Microsoft TV Technologies], GetEAS method [Microsoft TV Technologies], IAtscPsipParser interface, GetEAS,IAtscPsipParser.GetEAS, IAtscPsipParser, IAtscPsipParser interface [Microsoft TV Technologies], GetEAS method, IAtscPsipParser::GetEAS, IAtscPsipParserGetEAS, atscpsipparser/IAtscPsipParser::GetEAS, mstv.iatscpsipparser_geteas
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_WRITER_PAYLOAD_STREAM
+req.typenames: AsyncStatus
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicbitmapdecoder_getframecount.htm
 old-project: wic
 ms.assetid: 16eb613d-f649-436d-a121-e6468cd2581a
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: GetFrameCount method [Windows Imaging Component], GetFrameCount method [Windows Imaging Component], IWICBitmapDecoder interface, GetFrameCount,IWICBitmapDecoder.GetFrameCount, IWICBitmapDecoder, IWICBitmapDecoder interface [Windows Imaging Component], GetFrameCount method, IWICBitmapDecoder::GetFrameCount, _wic_codec_iwicbitmapdecoder_getframecount, wic._wic_codec_iwicbitmapdecoder_getframecount, wincodec/IWICBitmapDecoder::GetFrameCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

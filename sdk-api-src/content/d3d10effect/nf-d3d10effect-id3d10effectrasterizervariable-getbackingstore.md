@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effectrasterizervariable_getbackingstore.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectrasterizervariable_getbackingstore.htm
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: GetBackingStore method [Direct3D 10], GetBackingStore method [Direct3D 10], ID3D10EffectRasterizerVariable interface, GetBackingStore,ID3D10EffectRasterizerVariable.GetBackingStore, ID3D10EffectRasterizerVariable, ID3D10EffectRasterizerVariable interface [Direct3D 10], GetBackingStore method, ID3D10EffectRasterizerVariable::GetBackingStore, cf2a79ce-7906-f134-2fb4-112e8a4d0de6, d3d10effect/ID3D10EffectRasterizerVariable::GetBackingStore, direct3d10.id3d10effectrasterizervariable_getbackingstore
 ms.prod: windows-hardware
 ms.technology: windows-devices

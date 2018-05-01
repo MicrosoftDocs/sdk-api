@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ILegacyIAccessibleProvider_State.htm
 old-project: WinAuto
 ms.assetid: fe1a3ffe-b532-4bb4-850f-032fa32e4c56
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: ILegacyIAccessibleProvider, ILegacyIAccessibleProvider interface [Windows Accessibility], State property, ILegacyIAccessibleProvider.State, ILegacyIAccessibleProvider::get_State, State property [Windows Accessibility], State property [Windows Accessibility], ILegacyIAccessibleProvider interface, get_State,ILegacyIAccessibleProvider.get_State, uiauto.uiauto_ILegacyIAccessibleProvider_State, uiauto_ILegacyIAccessibleProvider_State, uiautomationcore/ILegacyIAccessibleProvider::State, uiautomationcore/ILegacyIAccessibleProvider::get_State, winauto.uiauto_ILegacyIAccessibleProvider_State
 ms.prod: windows-hardware
 ms.technology: windows-devices

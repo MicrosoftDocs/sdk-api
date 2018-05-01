@@ -7,7 +7,7 @@ old-location: rpc\ndrstubcall3.htm
 old-project: Rpc
 ms.assetid: 2EBEAD72-DEBE-44D6-9CC1-A9264D8B88C4
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: NdrStubCall3, NdrStubCall3 function [RPC], rpc.ndrstubcall3, rpcndr/NdrStubCall3
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: RpcRT4.lib
 req.dll: RpcRT4.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # NdrStubCall3 function

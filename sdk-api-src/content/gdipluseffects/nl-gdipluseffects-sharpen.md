@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Sharpen_Class.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\sharpen.htm
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/5/2018
 ms.keywords: Sharpen, Sharpen class [GDI+], Sharpen class [GDI+], described, _gdiplus_CLASS_Sharpen_Class, gdiplus._gdiplus_CLASS_Sharpen_Class, gdipluseffects/Sharpen
 ms.prod: windows-hardware
 ms.technology: windows-devices

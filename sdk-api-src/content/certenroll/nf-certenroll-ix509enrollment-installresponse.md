@@ -7,7 +7,7 @@ old-location: security\ix509enrollment_installresponse_method.htm
 old-project: SecCertEnroll
 ms.assetid: 4ad33092-71c4-4ae1-a3a6-cef376d04c2d
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: AllowNoOutstandingRequest, AllowNone, AllowUntrustedCertificate, AllowUntrustedRoot, IX509Enrollment, IX509Enrollment interface [Security], InstallResponse method, IX509Enrollment::InstallResponse, InstallResponse method [Security], InstallResponse method [Security], IX509Enrollment interface, InstallResponse,IX509Enrollment.InstallResponse, certenroll/IX509Enrollment::InstallResponse, security.ix509enrollment_installresponse_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

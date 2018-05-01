@@ -7,7 +7,7 @@ old-location: mstv\ibda_ipsinkinfo_get_adapterdescription.htm
 old-project: mstv
 ms.assetid: 68b41304-2043-4cbf-8872-7f3d9f3b7a83
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IBDA_IPSinkInfo, IBDA_IPSinkInfo interface [Microsoft TV Technologies], get_AdapterDescription method, IBDA_IPSinkInfo::get_AdapterDescription, IBDA_IPSinkInfoget_AdapterDescription, bdaiface/IBDA_IPSinkInfo::get_AdapterDescription, get_AdapterDescription method [Microsoft TV Technologies], get_AdapterDescription method [Microsoft TV Technologies], IBDA_IPSinkInfo interface, get_AdapterDescription,IBDA_IPSinkInfo.get_AdapterDescription, mstv.ibda_ipsinkinfo_get_adapterdescription
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_bootp_ip_range.htm
 old-project: DHCP
 ms.assetid: 23268029-0b49-4fd4-8410-4bac6c8ad151
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/7/2018
 ms.keywords: "*LPDHCP_BOOT_IP_RANGE, DHCP_BOOTP_IP_RANGE, DHCP_BOOTP_IP_RANGE structure [DHCP], LPDHCP_BOOT_IP_RANGE, LPDHCP_BOOT_IP_RANGE structure pointer [DHCP], _DHCP_BOOTP_IP_RANGE, dhcp.dhcp_bootp_ip_range, dhcpsapi/LPDHCP_BOOT_IP_RANGE, dhcpsapi/_DHCP_BOOTP_IP_RANGE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

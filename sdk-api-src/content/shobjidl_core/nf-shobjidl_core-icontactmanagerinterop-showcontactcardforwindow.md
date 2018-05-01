@@ -7,7 +7,7 @@ old-location: winrt\icontactmanagerinterop_showcontactcardforwindow.htm
 old-project: WinRT
 ms.assetid: 4BF4A5A4-9BF0-4BF0-BC2B-04C4C0C25C36
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/24/2018
 ms.keywords: FP_ABOVE, FP_BELOW, FP_DEFAULT, FP_LEFT, FP_RIGHT, IContactManagerInterop, IContactManagerInterop interface [Windows Runtime], ShowContactCardForWindow method, IContactManagerInterop::ShowContactCardForWindow, ShowContactCardForWindow method [Windows Runtime], ShowContactCardForWindow method [Windows Runtime], IContactManagerInterop interface, ShowContactCardForWindow,IContactManagerInterop.ShowContactCardForWindow, shobjidl_core/IContactManagerInterop::ShowContactCardForWindow, winrt.icontactmanagerinterop_showcontactcardforwindow
 ms.prod: windows-hardware
 ms.technology: windows-devices

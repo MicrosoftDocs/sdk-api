@@ -7,7 +7,7 @@ old-location: shell\INameSpaceTreeControlEvents_OnBeforeExpand.htm
 old-project: shell
 ms.assetid: b3cf5edf-061a-434a-b273-dc33fcdd8448
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: INameSpaceTreeControlEvents, INameSpaceTreeControlEvents interface [Windows Shell], OnBeforeExpand method, INameSpaceTreeControlEvents::OnBeforeExpand, OnBeforeExpand method [Windows Shell], OnBeforeExpand method [Windows Shell], INameSpaceTreeControlEvents interface, OnBeforeExpand,INameSpaceTreeControlEvents.OnBeforeExpand, _shell_INameSpaceTreeControlEvents_OnBeforeExpand, shell.INameSpaceTreeControlEvents_OnBeforeExpand, shobjidl/INameSpaceTreeControlEvents::OnBeforeExpand
 ms.prod: windows-hardware
 ms.technology: windows-devices

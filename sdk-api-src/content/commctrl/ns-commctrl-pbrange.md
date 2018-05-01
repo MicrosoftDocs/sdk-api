@@ -7,7 +7,7 @@ old-location: controls\PBRANGE.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\progbar\structures\pbrange.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: "*PPBRANGE, PBRANGE, PBRANGE structure [Windows Controls], PPBRANGE, PPBRANGE structure pointer [Windows Controls], _win32_PBRANGE, _win32_PBRANGE_cpp, commctrl/PBRANGE, commctrl/PPBRANGE, controls.PBRANGE, controls._win32_PBRANGE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

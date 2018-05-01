@@ -7,7 +7,7 @@ old-location: wmi\chstring_setat.htm
 old-project: WmiSdk
 ms.assetid: ccac0f07-a272-41b0-950c-7e5d97d9f1d7
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: CHString, CHString interface [Windows Management Instrumentation], SetAt method, CHString::SetAt, SetAt method [Windows Management Instrumentation], SetAt method [Windows Management Instrumentation], CHString interface, SetAt,CHString.SetAt, _hmm_chstring_setat, chstring/CHString::SetAt, wmi.chstring_setat
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CF_SYNC_ROOT_STANDARD_INFO
+req.typenames: CF_SYNC_STATUS
 topic_type:
 -	APIRef
 -	kbSyntax

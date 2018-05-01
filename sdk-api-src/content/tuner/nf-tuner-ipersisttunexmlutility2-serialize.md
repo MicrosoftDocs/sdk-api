@@ -7,7 +7,7 @@ old-location: mstv\ipersisttunexmlutility2_serialize.htm
 old-project: mstv
 ms.assetid: 463ddd94-5eb1-4553-a31d-0a06326eceec
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IPersistTuneXmlUtility2, IPersistTuneXmlUtility2 interface [Microsoft TV Technologies], Serialize method, IPersistTuneXmlUtility2::Serialize, Serialize method [Microsoft TV Technologies], Serialize method [Microsoft TV Technologies], IPersistTuneXmlUtility2 interface, Serialize,IPersistTuneXmlUtility2.Serialize, mstv.ipersisttunexmlutility2_serialize, tuner/IPersistTuneXmlUtility2::Serialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: com\ioledocumentview_setrect.htm
 old-project: com
 ms.assetid: 994eddef-65e6-4ccd-92e7-1e76a7c11681
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IOleDocumentView, IOleDocumentView interface [COM], SetRect method, IOleDocumentView::SetRect, SetRect method [COM], SetRect method [COM], IOleDocumentView interface, SetRect,IOleDocumentView.SetRect, _ole_ioledocumentview_setrect, com.ioledocumentview_setrect, docobj/IOleDocumentView::SetRect
 ms.prod: windows-hardware
 ms.technology: windows-devices

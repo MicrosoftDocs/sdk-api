@@ -7,7 +7,7 @@ old-location: automat\isupporterrorinfo_interfacesupportserrorinfo.htm
 old-project: automat
 ms.assetid: a54ef18d-ee3f-4483-ac4a-99d758f0960a
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: ISupportErrorInfo, ISupportErrorInfo interface [Automation], InterfaceSupportsErrorInfo method, ISupportErrorInfo::InterfaceSupportsErrorInfo, InterfaceSupportsErrorInfo method [Automation], InterfaceSupportsErrorInfo method [Automation], ISupportErrorInfo interface, InterfaceSupportsErrorInfo,ISupportErrorInfo.InterfaceSupportsErrorInfo, _oa96_ISupportErrorInfo_InterfaceSupportsErrorInfo, automat.isupporterrorinfo_interfacesupportserrorinfo, oaidl/ISupportErrorInfo::InterfaceSupportsErrorInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ISupportErrorInfo::InterfaceSupportsErrorInfo method

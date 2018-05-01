@@ -7,7 +7,7 @@ old-location: security\ix509signatureinformation_setdefaultvalues_method.htm
 old-project: SecCertEnroll
 ms.assetid: 123e65e8-62bb-4bc7-9e15-113780be81e3
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: IX509SignatureInformation, IX509SignatureInformation interface [Security], SetDefaultValues method, IX509SignatureInformation::SetDefaultValues, SetDefaultValues method [Security], SetDefaultValues method [Security], IX509SignatureInformation interface, SetDefaultValues,IX509SignatureInformation.SetDefaultValues, certenroll/IX509SignatureInformation::SetDefaultValues, security.ix509signatureinformation_setdefaultvalues_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

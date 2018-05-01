@@ -7,7 +7,7 @@ old-location: com\isynchronize_wait.htm
 old-project: com
 ms.assetid: 1abed0be-b4e3-41f4-af6c-e327ce934b59
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: ISynchronize, ISynchronize interface [COM], Wait method, ISynchronize::Wait, Wait method [COM], Wait method [COM], ISynchronize interface, Wait,ISynchronize.Wait, _com_isynchronize_wait, com.isynchronize_wait, objidlbase/ISynchronize::Wait
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ISynchronize::Wait method

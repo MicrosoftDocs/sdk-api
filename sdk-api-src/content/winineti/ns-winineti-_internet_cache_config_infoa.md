@@ -58,16 +58,6 @@ Contains information about the configuration of the Internet cache.
 
 
 
-### -field CachePath
-
-The cache path for the container in <b>dwContainer</b>.
-
-
-### -field dwCacheSize
-
-Reserved.
-
-
 ### -field dwStructSize
 
 Size of this structure, in bytes. This value can be used to help determine the version of the cache system.
@@ -99,6 +89,16 @@ Reserved.
 
 
 ### -field dwNumCachePaths
+
+Reserved.
+
+
+### -field CachePath
+
+The cache path for the container in <b>dwContainer</b>.
+
+
+### -field dwCacheSize
 
 Reserved.
 

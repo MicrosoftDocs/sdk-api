@@ -2,13 +2,13 @@
 UID: NF:intsafe.ULongSub
 title: ULongSub function
 author: windows-driver-content
-description: Subtracts one value of type ULONG from another.
-old-location: shell\ULongSub.htm
+description: Subtracts one value of type DWORD from another.
+old-location: shell\DWordSub.htm
 old-project: shell
-ms.assetid: 5d2335a4-2b2e-4820-ae82-ba94d6e4cc9a
+ms.assetid: 327bd93f-be3c-4a3c-8aca-4250cf9c88c3
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
-ms.keywords: ULongSub, ULongSub function [Windows Shell], _shell_ULongSub, intsafe/ULongSub, shell.ULongSub
+ms.date: 4/26/2018
+ms.keywords: DWordSub, DWordSub function [Windows Shell], ULongSub, _shell_DWordSub, intsafe/DWordSub, shell.DWordSub
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -31,15 +31,15 @@ topic_type:
 -	APIRef
 -	kbSyntax
 api_type:
--	HeaderDef
+-	DllExport
 api_location:
--	Intsafe.h
+-	None
 api_name:
--	ULongSub
+-	DWordSub
 product: Windows
 targetos: Windows
 req.lib: 
-req.dll: 
+req.dll: None
 req.irql: 
 req.product: GDI+ 1.1
 ---
@@ -50,7 +50,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Subtracts one value of type <b>ULONG</b> from another.
+Subtracts one value of type <b>DWORD</b> from another.
 
 
 ## -parameters
@@ -58,23 +58,40 @@ Subtracts one value of type <b>ULONG</b> from another.
 
 
 
-### -param ulMinuend [in]
+### -param ulMinuend
 
-Type: <b>ULONG</b>
-
-The value from which <i>ulSubtrahend</i> is subtracted.
+TBD
 
 
-### -param ulSubtrahend [in]
+### -param ulSubtrahend
 
-Type: <b>ULONG</b>
-
-The value to subtract from <i>ulMinuend</i>.
+TBD
 
 
-### -param pulResult [out]
+### -param pulResult
 
-Type: <b>ULONG*</b>
+TBD
+
+
+
+
+#### - dwMinuend [in]
+
+Type: <b>DWORD</b>
+
+The value from which <i>dwSubtrahend</i> is subtracted.
+
+
+#### - dwSubtrahend [in]
+
+Type: <b>DWORD</b>
+
+The value to subtract from <i>dwMinuend</i>.
+
+
+#### - pdwResult [out]
+
+Type: <b>DWORD*</b>
 
 A pointer to the result. If the operation results in a value that overflows or underflows the capacity of the type, the function returns INTSAFE_E_ARITHMETIC_OVERFLOW and this parameter is not valid.
 

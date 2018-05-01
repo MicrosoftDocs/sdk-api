@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomation_ElementFromHandleBuildCache.htm
 old-project: WinAuto
 ms.assetid: b6c1e03b-7c0e-4dee-b276-bfc7d6247d4e
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: ElementFromHandleBuildCache method [Windows Accessibility], ElementFromHandleBuildCache method [Windows Accessibility], IUIAutomation interface, ElementFromHandleBuildCache,IUIAutomation.ElementFromHandleBuildCache, IUIAutomation, IUIAutomation interface [Windows Accessibility], ElementFromHandleBuildCache method, IUIAutomation::ElementFromHandleBuildCache, uiauto.uiauto_IUIAutomation_ElementFromHandleBuildCache, uiauto_IUIAutomation_ElementFromHandleBuildCache, uiautomationclient/IUIAutomation::ElementFromHandleBuildCache, winauto.uiauto_IUIAutomation_ElementFromHandleBuildCache
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\ivsscreateexpresswritermetadata_addcomponent.htm
 old-project: VSS
 ms.assetid: e17ed040-7fe2-4605-b1b5-295abbf14289
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: AddComponent method, AddComponent method, IVssCreateExpressWriterMetadata interface, AddComponent,IVssCreateExpressWriterMetadata.AddComponent, IVssCreateExpressWriterMetadata, IVssCreateExpressWriterMetadata interface, AddComponent method, IVssCreateExpressWriterMetadata::AddComponent, base.ivsscreateexpresswritermetadata_addcomponent, vswriter/IVssCreateExpressWriterMetadata::AddComponent
 ms.prod: windows-hardware
 ms.technology: windows-devices

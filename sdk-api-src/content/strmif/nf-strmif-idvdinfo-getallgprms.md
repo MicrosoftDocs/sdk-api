@@ -7,7 +7,7 @@ old-location: dshow\idvdinfo_getallgprms.htm
 old-project: DirectShow
 ms.assetid: 87d82404-cd43-4499-abc2-6c043c43bf4e
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetAllGPRMs method [DirectShow], GetAllGPRMs method [DirectShow], IDvdInfo interface, GetAllGPRMs,IDvdInfo.GetAllGPRMs, IDvdInfo, IDvdInfo interface [DirectShow], GetAllGPRMs method, IDvdInfo::GetAllGPRMs, IDvdInfoGetAllGPRMs, dshow.idvdinfo_getallgprms, strmif/IDvdInfo::GetAllGPRMs
 ms.prod: windows-hardware
 ms.technology: windows-devices

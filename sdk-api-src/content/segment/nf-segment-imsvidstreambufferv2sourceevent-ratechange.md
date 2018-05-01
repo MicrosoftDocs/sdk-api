@@ -7,7 +7,7 @@ old-location: mstv\imsvidstreambufferv2sourceevent_ratechange.htm
 old-project: mstv
 ms.assetid: 32af2323-0018-4e77-bf2e-9ff95e59f91e
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidStreamBufferV2SourceEvent, IMSVidStreamBufferV2SourceEvent interface [Microsoft TV Technologies], RateChange method, IMSVidStreamBufferV2SourceEvent::RateChange, RateChange method [Microsoft TV Technologies], RateChange method [Microsoft TV Technologies], IMSVidStreamBufferV2SourceEvent interface, RateChange,IMSVidStreamBufferV2SourceEvent.RateChange, mstv.imsvidstreambufferv2sourceevent_ratechange, segment/IMSVidStreamBufferV2SourceEvent::RateChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidStreamBufferV2SourceEvent::RateChange method

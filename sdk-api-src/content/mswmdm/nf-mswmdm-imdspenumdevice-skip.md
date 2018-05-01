@@ -7,7 +7,7 @@ old-location: wmdm\imdspenumdevice_skip.htm
 old-project: WMDM
 ms.assetid: 17b4e680-7f55-4f96-a0ca-acfda9f17784
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: IMDSPEnumDevice, IMDSPEnumDevice interface [windows Media Device Manager], Skip method, IMDSPEnumDevice::Skip, IMDSPEnumDeviceSkip, Skip method [windows Media Device Manager], Skip method [windows Media Device Manager], IMDSPEnumDevice interface, Skip,IMDSPEnumDevice.Skip, mswmdm/IMDSPEnumDevice::Skip, wmdm.imdspenumdevice_skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMDSPEnumDevice::Skip method

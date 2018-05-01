@@ -7,7 +7,7 @@ old-location: security\saslidentifypackage.htm
 old-project: SecAuthN
 ms.assetid: df6f4749-8f28-4ee5-8165-f7aeb3bea7ab
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/24/2018
 ms.keywords: SaslIdentifyPackage, SaslIdentifyPackage function [Security], SaslIdentifyPackageA, SaslIdentifyPackageW, security.saslidentifypackage, sspi/SaslIdentifyPackage, sspi/SaslIdentifyPackageA, sspi/SaslIdentifyPackageW
 ms.prod: windows-hardware
 ms.technology: windows-devices

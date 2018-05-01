@@ -7,7 +7,7 @@ old-location: wmformat\iwmdrmreader_individualize.htm
 old-project: wmformat
 ms.assetid: 51bf9aa0-4c96-4c0b-8e5e-b63fd20dcc4d
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMDRMReader, IWMDRMReader interface [windows Media Format], Individualize method, IWMDRMReader::Individualize, IWMDRMReaderIndividualize, Individualize method [windows Media Format], Individualize method [windows Media Format], IWMDRMReader interface, Individualize,IWMDRMReader.Individualize, wmformat.iwmdrmreader_individualize, wmsdkidl/IWMDRMReader::Individualize
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\IDragSourceHelper2_SetFlags.htm
 old-project: shell
 ms.assetid: 1fe9b753-5ac1-4b6f-9538-5259870404ec
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: DSH_ALLOWDROPDESCRIPTIONTEXT, IDragSourceHelper2, IDragSourceHelper2 interface [Windows Shell], SetFlags method, IDragSourceHelper2::SetFlags, SetFlags method [Windows Shell], SetFlags method [Windows Shell], IDragSourceHelper2 interface, SetFlags,IDragSourceHelper2.SetFlags, _shell_IDragSourceHelper2_SetFlags, shell.IDragSourceHelper2_SetFlags, shobjidl/IDragSourceHelper2::SetFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices

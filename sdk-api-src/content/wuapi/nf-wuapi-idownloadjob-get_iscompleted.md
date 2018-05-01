@@ -7,7 +7,7 @@ old-location: wua\idownloadjob_iscompleted.htm
 old-project: Wua_Sdk
 ms.assetid: d63f1bfc-589c-4cd2-95dd-e8c88e7f593c
 ms.author: windowsdriverdev
-ms.date: 3/15/2018
+ms.date: 4/18/2018
 ms.keywords: IDownloadJob, IDownloadJob interface [Windows Update Agent], IsCompleted property, IDownloadJob.IsCompleted, IDownloadJob::get_IsCompleted, IsCompleted property [Windows Update Agent], IsCompleted property [Windows Update Agent], IDownloadJob interface, get_IsCompleted,IDownloadJob.get_IsCompleted, wua.idownloadjob_iscompleted, wuapi/IDownloadJob::IsCompleted, wuapi/IDownloadJob::get_IsCompleted
 ms.prod: windows-hardware
 ms.technology: windows-devices

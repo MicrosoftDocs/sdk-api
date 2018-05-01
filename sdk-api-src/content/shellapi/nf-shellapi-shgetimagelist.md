@@ -7,7 +7,7 @@ old-location: shell\SHGetImageList.htm
 old-project: shell
 ms.assetid: 6ae80c1f-f2b7-4da9-b588-30391c8aef0e
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: SHGetImageList, SHGetImageList function [Windows Shell], SHIL_EXTRALARGE, SHIL_JUMBO, SHIL_LARGE, SHIL_LAST, SHIL_SMALL, SHIL_SYSSMALL, _shell_SHGetImageList, shell.SHGetImageList, shellapi/SHGetImageList
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -86,7 +86,7 @@ The image type contained in the list. One of the following values:
 
 #### SHIL_SYSSMALL (0x3)
 
-0x3. These images are the size specified by <a href="https://msdn.microsoft.com/d063857b-6036-4e68-80af-9c70d12ae29e">GetSystemMetrics</a> called with <b>SM_CXSMICON</b> and <b>GetSystemMetrics</b> called with <b>SM_CYSMICON</b>.
+0x3. These images are the size specified by <a href="base.getsystemmetrics">GetSystemMetrics</a> called with <b>SM_CXSMICON</b> and <b>GetSystemMetrics</b> called with <b>SM_CYSMICON</b>.
 
 
 

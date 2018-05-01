@@ -7,7 +7,7 @@ old-location: base\regreplacekey.htm
 old-project: SysInfo
 ms.assetid: f968fa71-edc8-4f49-b9fa-1e89224df33b
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: RegReplaceKey, RegReplaceKey function, RegReplaceKeyA, RegReplaceKeyW, _win32_regreplacekey, base.regreplacekey, winreg/RegReplaceKey, winreg/RegReplaceKeyA, winreg/RegReplaceKeyW
 ms.prod: windows-hardware
 ms.technology: windows-devices

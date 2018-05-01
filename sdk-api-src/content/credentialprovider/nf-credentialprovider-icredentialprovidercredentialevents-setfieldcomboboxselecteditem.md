@@ -7,7 +7,7 @@ old-location: shell\ICredentialProviderCredentialEvents_SetFieldComboBoxSelected
 old-project: shell
 ms.assetid: 79d66546-8553-4b70-9fe6-aa1b95c1cf25
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ICredentialProviderCredentialEvents, ICredentialProviderCredentialEvents interface [Windows Shell], SetFieldComboBoxSelectedItem method, ICredentialProviderCredentialEvents::SetFieldComboBoxSelectedItem, SetFieldComboBoxSelectedItem method [Windows Shell], SetFieldComboBoxSelectedItem method [Windows Shell], ICredentialProviderCredentialEvents interface, SetFieldComboBoxSelectedItem,ICredentialProviderCredentialEvents.SetFieldComboBoxSelectedItem, _shell_ICredentialProviderCredentialEvents_SetFieldComboBoxSelectedItem, credentialprovider/ICredentialProviderCredentialEvents::SetFieldComboBoxSelectedItem, shell.ICredentialProviderCredentialEvents_SetFieldComboBoxSelectedItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\iservicelocationdescriptor_getelementpid.htm
 old-project: mstv
 ms.assetid: 97b6091b-cacb-4e69-8ca4-c9f4b70f6304
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetElementPID method [Microsoft TV Technologies], GetElementPID method [Microsoft TV Technologies], IServiceLocationDescriptor interface, GetElementPID,IServiceLocationDescriptor.GetElementPID, IServiceLocationDescriptor, IServiceLocationDescriptor interface [Microsoft TV Technologies], GetElementPID method, IServiceLocationDescriptor::GetElementPID, atscpsipparser/IServiceLocationDescriptor::GetElementPID, mstv.iservicelocationdescriptor_getelementpid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_WRITER_PAYLOAD_STREAM
+req.typenames: AsyncStatus
 topic_type:
 -	APIRef
 -	kbSyntax

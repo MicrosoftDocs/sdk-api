@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement_GetCachedParent.htm
 old-project: WinAuto
 ms.assetid: 10ca955b-416a-47c0-9970-940d98132b38
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: GetCachedParent method [Windows Accessibility], GetCachedParent method [Windows Accessibility], IUIAutomationElement interface, GetCachedParent,IUIAutomationElement.GetCachedParent, IUIAutomationElement, IUIAutomationElement interface [Windows Accessibility], GetCachedParent method, IUIAutomationElement::GetCachedParent, uiauto.uiauto_IUIAutomationElement_GetCachedParent, uiauto_IUIAutomationElement_GetCachedParent, uiautomationclient/IUIAutomationElement::GetCachedParent, winauto.uiauto_IUIAutomationElement_GetCachedParent
 ms.prod: windows-hardware
 ms.technology: windows-devices

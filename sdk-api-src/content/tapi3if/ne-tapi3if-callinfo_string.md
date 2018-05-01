@@ -7,7 +7,7 @@ old-location: tapi3\callinfo_string.htm
 old-project: Tapi
 ms.assetid: 28482ba8-c536-48ef-bca6-eba5b801c06e
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: CALLINFO_STRING, CALLINFO_STRING enumeration [TAPI 2.2], CIS_CALLEDIDNAME, CIS_CALLEDIDNUMBER, CIS_CALLEDPARTYFRIENDLYNAME, CIS_CALLERIDNAME, CIS_CALLERIDNUMBER, CIS_CALLINGPARTYID, CIS_COMMENT, CIS_CONNECTEDIDNAME, CIS_CONNECTEDIDNUMBER, CIS_DISPLAYABLEADDRESS, CIS_REDIRECTINGIDNAME, CIS_REDIRECTINGIDNUMBER, CIS_REDIRECTIONIDNAME, CIS_REDIRECTIONIDNUMBER, _tapi3_callinfo_string, tapi3.callinfo_string, tapi3if/CALLINFO_STRING, tapi3if/CIS_CALLEDIDNAME, tapi3if/CIS_CALLEDIDNUMBER, tapi3if/CIS_CALLEDPARTYFRIENDLYNAME, tapi3if/CIS_CALLERIDNAME, tapi3if/CIS_CALLERIDNUMBER, tapi3if/CIS_CALLINGPARTYID, tapi3if/CIS_COMMENT, tapi3if/CIS_CONNECTEDIDNAME, tapi3if/CIS_CONNECTEDIDNUMBER, tapi3if/CIS_DISPLAYABLEADDRESS, tapi3if/CIS_REDIRECTINGIDNAME, tapi3if/CIS_REDIRECTINGIDNUMBER, tapi3if/CIS_REDIRECTIONIDNAME, tapi3if/CIS_REDIRECTIONIDNUMBER
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,8 +38,8 @@ api_name:
 -	CALLINFO_STRING
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
 req.irql: 
 req.product: Windows XP with SP1 and later
 ---

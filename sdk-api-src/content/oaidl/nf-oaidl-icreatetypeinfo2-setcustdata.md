@@ -7,7 +7,7 @@ old-location: automat\icreatetypeinfo2_setcustdata.htm
 old-project: automat
 ms.assetid: 52a947c8-2860-4803-9df2-7b71b8b8ef87
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: ICreateTypeInfo2, ICreateTypeInfo2 interface [Automation], SetCustData method, ICreateTypeInfo2::SetCustData, SetCustData method [Automation], SetCustData method [Automation], ICreateTypeInfo2 interface, SetCustData,ICreateTypeInfo2.SetCustData, _oa96_ICreateTypeInfo2_SetCustData, automat.icreatetypeinfo2_setcustdata, oaidl/ICreateTypeInfo2::SetCustData
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ICreateTypeInfo2::SetCustData method

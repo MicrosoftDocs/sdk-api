@@ -7,7 +7,7 @@ old-location: wmi\methodcontext.htm
 old-project: WmiSdk
 ms.assetid: aea20c9d-4042-426a-abdf-51ebddf017aa
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: MethodContext, MethodContext class [Windows Management Instrumentation], MethodContext class [Windows Management Instrumentation], described, methodco/MethodContext, wmi.methodcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices

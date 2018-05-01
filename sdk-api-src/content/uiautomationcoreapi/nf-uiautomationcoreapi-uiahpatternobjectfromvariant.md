@@ -7,7 +7,7 @@ old-location: winauto\uiauto_UiaHPatternObjectFromVariantFunction.htm
 old-project: WinAuto
 ms.assetid: dd5d0d4b-75fa-4215-bd48-79d58a9a4862
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: UiaHPatternObjectFromVariant, UiaHPatternObjectFromVariant function [Windows Accessibility], uiauto.uiauto_UiaHPatternObjectFromVariantFunction, uiauto_UiaHPatternObjectFromVariantFunction, uiautomationcoreapi/UiaHPatternObjectFromVariant, winauto.uiauto_UiaHPatternObjectFromVariantFunction
 ms.prod: windows-hardware
 ms.technology: windows-devices

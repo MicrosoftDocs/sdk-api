@@ -7,7 +7,7 @@ old-location: winauto\uiauto_iuiautomationelement2_cachedflowsfrom.htm
 old-project: WinAuto
 ms.assetid: CC53C7CE-79D9-4158-8BE2-01B8268CB6C3
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: CachedFlowsFrom property [Windows Accessibility], CachedFlowsFrom property [Windows Accessibility], IUIAutomationElement2 interface, IUIAutomationElement2, IUIAutomationElement2 interface [Windows Accessibility], CachedFlowsFrom property, IUIAutomationElement2.CachedFlowsFrom, IUIAutomationElement2::get_CachedFlowsFrom, IUIAutomationElement2::put_CachedFlowsFrom, get_CachedFlowsFrom,IUIAutomationElement2.get_CachedFlowsFrom, uiautomationclient/IUIAutomationElement2::CachedFlowsFrom, uiautomationclient/IUIAutomationElement2::get_CachedFlowsFrom, uiautomationclient/IUIAutomationElement2::put_CachedFlowsFrom, winauto.uiauto_iuiautomationelement2_cachedflowsfrom
 ms.prod: windows-hardware
 ms.technology: windows-devices

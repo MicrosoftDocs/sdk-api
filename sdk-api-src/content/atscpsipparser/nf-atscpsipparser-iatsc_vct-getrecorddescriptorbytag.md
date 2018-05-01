@@ -7,7 +7,7 @@ old-location: mstv\iatsc_vct_getrecorddescriptorbytag.htm
 old-project: mstv
 ms.assetid: b8c975fe-6bf9-443d-b069-cb8e5e01affc
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetRecordDescriptorByTag method [Microsoft TV Technologies], GetRecordDescriptorByTag method [Microsoft TV Technologies], IATSC_VCT interface, GetRecordDescriptorByTag,IATSC_VCT.GetRecordDescriptorByTag, IATSC_VCT, IATSC_VCT interface [Microsoft TV Technologies], GetRecordDescriptorByTag method, IATSC_VCT::GetRecordDescriptorByTag, IATSC_VCTGetRecordDescriptorByTag, atscpsipparser/IATSC_VCT::GetRecordDescriptorByTag, mstv.iatsc_vct_getrecorddescriptorbytag
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_WRITER_PAYLOAD_STREAM
+req.typenames: AsyncStatus
 topic_type:
 -	APIRef
 -	kbSyntax

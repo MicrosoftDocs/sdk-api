@@ -7,7 +7,7 @@ old-location: direct2d\D2D1_RADIAL_GRADIENT_BRUSH_PROPERTIES.htm
 old-project: Direct2D
 ms.assetid: 194f7624-ac3b-4054-8d6f-5b4c99ef6546
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: D2D1_RADIAL_GRADIENT_BRUSH_PROPERTIES, D2D1_RADIAL_GRADIENT_BRUSH_PROPERTIES structure [Direct2D], d2d1/D2D1_RADIAL_GRADIENT_BRUSH_PROPERTIES, direct2d.D2D1_RADIAL_GRADIENT_BRUSH_PROPERTIES
 ms.prod: windows-hardware
 ms.technology: windows-devices

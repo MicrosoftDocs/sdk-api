@@ -7,7 +7,7 @@ old-location: mstv\ibda_conditionalaccess_get_smartcardstatus.htm
 old-project: mstv
 ms.assetid: 940247b0-c002-414f-9d01-9f4acfe90a35
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IBDA_ConditionalAccess, IBDA_ConditionalAccess interface [Microsoft TV Technologies], get_SmartCardStatus method, IBDA_ConditionalAccess::get_SmartCardStatus, IBDA_ConditionalAccessget_SmartCardStatus, bdaiface/IBDA_ConditionalAccess::get_SmartCardStatus, get_SmartCardStatus method [Microsoft TV Technologies], get_SmartCardStatus method [Microsoft TV Technologies], IBDA_ConditionalAccess interface, get_SmartCardStatus,IBDA_ConditionalAccess.get_SmartCardStatus, mstv.ibda_conditionalaccess_get_smartcardstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

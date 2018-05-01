@@ -7,7 +7,7 @@ old-location: security\rtlconvertsidtounicodestring.htm
 old-project: SecAuthZ
 ms.assetid: 4b2584ad-6752-46d4-83fb-3de0b783e229
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: RtlConvertSidToUnicodeString, RtlConvertSidToUnicodeString function [Security], security.rtlconvertsidtounicodestring, winternl/RtlConvertSidToUnicodeString
 ms.prod: windows-hardware
 ms.technology: windows-devices

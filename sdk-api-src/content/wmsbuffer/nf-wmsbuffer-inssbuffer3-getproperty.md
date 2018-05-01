@@ -7,7 +7,7 @@ old-location: wmformat\inssbuffer3_getproperty.htm
 old-project: wmformat
 ms.assetid: b7733df5-f764-4996-b324-fa050b1db0af
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: GetProperty method [windows Media Format], GetProperty method [windows Media Format], INSSBuffer3 interface, GetProperty,INSSBuffer3.GetProperty, INSSBuffer3, INSSBuffer3 interface [windows Media Format], GetProperty method, INSSBuffer3::GetProperty, INSSBuffer3GetProperty, wmformat.inssbuffer3_getproperty, wmsbuffer/INSSBuffer3::GetProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

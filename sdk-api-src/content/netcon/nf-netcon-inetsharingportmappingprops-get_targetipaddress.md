@@ -7,7 +7,7 @@ old-location: ics\inetsharingportmappingprops_get_targetipaddress.htm
 old-project: ICS
 ms.assetid: af794535-8b36-4306-a220-f4938f0e6ee9
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: INetSharingPortMappingProps, INetSharingPortMappingProps interface [ICS/ICF], get_TargetIPAddress method, INetSharingPortMappingProps::get_TargetIPAddress, _ics_inetsharingportmappingprops_get_targetipaddress, get_TargetIPAddress method [ICS/ICF], get_TargetIPAddress method [ICS/ICF], INetSharingPortMappingProps interface, get_TargetIPAddress,INetSharingPortMappingProps.get_TargetIPAddress, ics.inetsharingportmappingprops_get_targetipaddress, netcon/INetSharingPortMappingProps::get_TargetIPAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # INetSharingPortMappingProps::get_TargetIPAddress method

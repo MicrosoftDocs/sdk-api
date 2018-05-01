@@ -7,7 +7,7 @@ old-location: mf\mfgetsupportedschemes.htm
 old-project: medfound
 ms.assetid: b40315fc-7e2b-4573-a98f-840b6ce31dd3
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: MFGetSupportedSchemes, MFGetSupportedSchemes function [Media Foundation], b40315fc-7e2b-4573-a98f-840b6ce31dd3, mf.mfgetsupportedschemes, mfidl/MFGetSupportedSchemes
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11infoqueue_clearstoragefilter.htm
 old-project: direct3d11
 ms.assetid: 26723bcf-d4c9-4c99-9e8b-fb81df18ea87
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/6/2018
 ms.keywords: 097621da-c273-d44e-6290-2a460f910e16, ClearStorageFilter method [Direct3D 11], ClearStorageFilter method [Direct3D 11], ID3D11InfoQueue interface, ClearStorageFilter,ID3D11InfoQueue.ClearStorageFilter, ID3D11InfoQueue, ID3D11InfoQueue interface [Direct3D 11], ClearStorageFilter method, ID3D11InfoQueue::ClearStorageFilter, d3d11sdklayers/ID3D11InfoQueue::ClearStorageFilter, direct3d11.id3d11infoqueue_clearstoragefilter
 ms.prod: windows-hardware
 ms.technology: windows-devices

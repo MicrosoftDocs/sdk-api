@@ -7,7 +7,7 @@ old-location: dshow\ivideowindow_put_windowstyleex.htm
 old-project: DirectShow
 ms.assetid: 19d56e9d-6f6d-46aa-b46f-a62302b41d2f
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IVideoWindow, IVideoWindow interface [DirectShow], put_WindowStyleEx method, IVideoWindow::put_WindowStyleEx, IVideoWindowput_WindowStyleEx, control/IVideoWindow::put_WindowStyleEx, dshow.ivideowindow_put_windowstyleex, put_WindowStyleEx method [DirectShow], put_WindowStyleEx method [DirectShow], IVideoWindow interface, put_WindowStyleEx,IVideoWindow.put_WindowStyleEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

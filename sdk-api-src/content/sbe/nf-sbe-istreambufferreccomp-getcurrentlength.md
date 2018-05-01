@@ -7,7 +7,7 @@ old-location: mstv\istreambufferreccomp_getcurrentlength.htm
 old-project: mstv
 ms.assetid: d482bddc-3754-4d3c-8a9b-c0dc0afb00bb
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetCurrentLength method [Microsoft TV Technologies], GetCurrentLength method [Microsoft TV Technologies], IStreamBufferRecComp interface, GetCurrentLength,IStreamBufferRecComp.GetCurrentLength, IStreamBufferRecComp, IStreamBufferRecComp interface [Microsoft TV Technologies], GetCurrentLength method, IStreamBufferRecComp::GetCurrentLength, IStreamBufferRecCompGetCurrentLength, mstv.istreambufferreccomp_getcurrentlength, sbe/IStreamBufferRecComp::GetCurrentLength
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IStreamBufferRecComp::GetCurrentLength method

@@ -7,7 +7,7 @@ old-location: dshow\impeg2pidmap_mappid.htm
 old-project: DirectShow
 ms.assetid: 22784e4a-2b02-4fc9-ba55-8c918ea38892
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IMPEG2PIDMap, IMPEG2PIDMap interface [DirectShow], MapPID method, IMPEG2PIDMap::MapPID, IMPEG2PIDMapMapPID, MapPID method [DirectShow], MapPID method [DirectShow], IMPEG2PIDMap interface, MapPID,IMPEG2PIDMap.MapPID, bdaiface/IMPEG2PIDMap::MapPID, dshow.impeg2pidmap_mappid
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: automat\irecordinfo_getfieldnames.htm
 old-project: automat
 ms.assetid: 1cf4f149-1cdc-4884-887a-0eb44eeab8ff
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: GetFieldNames method [Automation], GetFieldNames method [Automation], IRecordInfo interface, GetFieldNames,IRecordInfo.GetFieldNames, IRecordInfo, IRecordInfo interface [Automation], GetFieldNames method, IRecordInfo::GetFieldNames, _oa96_IRecordInfo_GetFieldNames, automat.irecordinfo_getfieldnames, oaidl/IRecordInfo::GetFieldNames
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IRecordInfo::GetFieldNames method

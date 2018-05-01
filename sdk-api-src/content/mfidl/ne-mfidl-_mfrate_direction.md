@@ -7,7 +7,7 @@ old-location: mf\mfrate_direction.htm
 old-project: medfound
 ms.assetid: 34cc861c-ab15-48f4-bb6e-736b70383546
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 34cc861c-ab15-48f4-bb6e-736b70383546, MFRATE_DIRECTION, MFRATE_DIRECTION enumeration [Media Foundation], MFRATE_FORWARD, MFRATE_REVERSE, _MFRATE_DIRECTION, mf.mfrate_direction, mfidl/MFRATE_DIRECTION, mfidl/MFRATE_FORWARD, mfidl/MFRATE_REVERSE
 ms.prod: windows-hardware
 ms.technology: windows-devices

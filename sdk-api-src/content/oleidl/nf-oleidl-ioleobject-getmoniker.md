@@ -7,7 +7,7 @@ old-location: com\ioleobject_getmoniker.htm
 old-project: com
 ms.assetid: 6b81ca75-31d8-45d6-8b36-663c5f19341c
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: GetMoniker method [COM], GetMoniker method [COM], IOleObject interface, GetMoniker,IOleObject.GetMoniker, IOleObject, IOleObject interface [COM], GetMoniker method, IOleObject::GetMoniker, _ole_ioleobject_getmoniker, com.ioleobject_getmoniker, oleidl/IOleObject::GetMoniker
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IOleObject::GetMoniker method

@@ -1,0 +1,104 @@
+---
+UID: NF:winddi.BRUSHOBJ_pvAllocRbrush
+title: BRUSHOBJ_pvAllocRbrush function
+author: windows-driver-content
+description: The BRUSHOBJ_pvAllocRbrush function allocates memory for the driver's realization of a specified brush.
+old-location: display\brushobj_pvallocrbrush.htm
+old-project: display
+ms.assetid: 10900536-6c48-4a96-92d2-025660ccff7e
+ms.author: windowsdriverdev
+ms.date: 4/16/2018
+ms.keywords: BRUSHOBJ_pvAllocRbrush, BRUSHOBJ_pvAllocRbrush function [Display Devices], display.brushobj_pvallocrbrush, gdifncs_1858340b-edd3-4fbb-b214-6863301a93fa.xml, winddi/BRUSHOBJ_pvAllocRbrush
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: winddi.h
+req.include-header: Winddi.h
+req.target-type: Universal
+req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Win32k.sys
+api_name:
+-	BRUSHOBJ_pvAllocRbrush
+product: Windows
+targetos: Windows
+req.lib: Win32k.lib
+req.dll: Win32k.sys
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# BRUSHOBJ_pvAllocRbrush function
+
+
+## -description
+
+
+The <b>BRUSHOBJ_pvAllocRbrush</b> function allocates memory for the driver's realization of a specified brush.
+
+
+## -parameters
+
+
+
+
+### -param pbo
+
+Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff538261">BRUSHOBJ</a> structure for which the realization is to be allocated.
+
+
+### -param cj
+
+Specifies the size, in bytes, required for the realization.
+
+
+## -returns
+
+
+
+The return value is a pointer to the allocated memory if the function is successful. Otherwise, it is null, and an error code is logged.
+
+
+
+
+## -remarks
+
+
+
+<b>BRUSHOBJ_pvAllocRbrush</b> allocates memory for the brush realization. GDI manages the memory and discards it when the brush is no longer needed.
+
+This function should be called only by an implementation of a brush realization following a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff556273">DrvRealizeBrush</a>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538261">BRUSHOBJ</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556273">DrvRealizeBrush</a>
+ 
+
+ 
+

@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmquota_quotapeakusage.htm
 old-project: Fsrm
 ms.assetid: 86e2f8a1-766e-494d-9b99-c55e51d8509c
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: IFsrmQuota, IFsrmQuota interface [File Server Resource Manager], QuotaPeakUsage property, IFsrmQuota.QuotaPeakUsage, IFsrmQuota::get_QuotaPeakUsage, QuotaPeakUsage property [File Server Resource Manager], QuotaPeakUsage property [File Server Resource Manager], IFsrmQuota interface, fs.ifsrmquota_quotapeakusage, fsrm.ifsrmquota_quotapeakusage, fsrmquota/IFsrmQuota::QuotaPeakUsage, fsrmquota/IFsrmQuota::get_QuotaPeakUsage, get_QuotaPeakUsage,IFsrmQuota.get_QuotaPeakUsage
 ms.prod: windows-hardware
 ms.technology: windows-devices

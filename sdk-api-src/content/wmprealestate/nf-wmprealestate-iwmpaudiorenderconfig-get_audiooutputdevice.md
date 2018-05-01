@@ -7,7 +7,7 @@ old-location: wmp\iwmpaudiorenderconfig_get_audiooutputdevice.htm
 old-project: WMP
 ms.assetid: a6ad388e-0fb8-4188-853c-9eba67e0848e
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPAudioRenderConfig, IWMPAudioRenderConfig interface [Windows Media Player], get_audioOutputDevice method, IWMPAudioRenderConfig::get_audioOutputDevice, get_audioOutputDevice method [Windows Media Player], get_audioOutputDevice method [Windows Media Player], IWMPAudioRenderConfig interface, get_audioOutputDevice,IWMPAudioRenderConfig.get_audioOutputDevice, wmp.iwmpaudiorenderconfig_get_audiooutputdevice, wmprealestate/IWMPAudioRenderConfig::get_audioOutputDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices

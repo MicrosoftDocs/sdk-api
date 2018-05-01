@@ -7,7 +7,7 @@ old-location: winprog\fnwrite.htm
 old-project: DevNotes
 ms.assetid: e15d4293-2955-48cd-b8c9-77669a1e6436
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/13/2018
 ms.keywords: FNWRITE, FNWRITE macro [Windows API], fdi/FNWRITE, winprog.fnwrite
 ms.prod: windows-hardware
 ms.technology: windows-devices

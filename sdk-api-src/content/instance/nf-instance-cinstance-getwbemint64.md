@@ -7,7 +7,7 @@ old-location: wmi\cinstance_getwbemint64.htm
 old-project: WmiSdk
 ms.assetid: b51d0c51-3b72-4358-8fc3-d1dbc298b4d9
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: CInstance, CInstance::GetWBEMINT64, CInstance::GetWBEMINT64 methods [Windows Management Instrumentation], GetWBEMINT64,CInstance.GetWBEMINT64, instance/CInstance::GetWBEMINT64, wmi.cinstance_getwbemint64
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: InputScope
+req.typenames: TrustLevel
 topic_type:
 -	APIRef
 -	kbSyntax

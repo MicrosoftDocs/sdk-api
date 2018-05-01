@@ -7,7 +7,7 @@ old-location: automat\icreatetypeinfo_layout.htm
 old-project: automat
 ms.assetid: 3880aad3-8a6f-43e6-8420-25c4d1b9a71a
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: ICreateTypeInfo, ICreateTypeInfo interface [Automation], LayOut method, ICreateTypeInfo::LayOut, LayOut method [Automation], LayOut method [Automation], ICreateTypeInfo interface, LayOut,ICreateTypeInfo.LayOut, _oa96_ICreateTypeInfo_LayOut, automat.icreatetypeinfo_layout, oaidl/ICreateTypeInfo::LayOut
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ICreateTypeInfo::LayOut method

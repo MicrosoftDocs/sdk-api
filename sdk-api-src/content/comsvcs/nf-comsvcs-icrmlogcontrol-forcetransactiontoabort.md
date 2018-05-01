@@ -7,7 +7,7 @@ old-location: cos\icrmlogcontrol_forcetransactiontoabort.htm
 old-project: cossdk
 ms.assetid: 5a0289c6-d177-40a3-968d-96ae3179e78d
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: ForceTransactionToAbort method [COM+], ForceTransactionToAbort method [COM+], ICrmLogControl interface, ForceTransactionToAbort,ICrmLogControl.ForceTransactionToAbort, ICrmLogControl, ICrmLogControl interface [COM+], ForceTransactionToAbort method, ICrmLogControl::ForceTransactionToAbort, _dtc_ICrmLogControl_ForceTransactionToAbort, comsvcs/ICrmLogControl::ForceTransactionToAbort, cos.icrmlogcontrol_forcetransactiontoabort
 ms.prod: windows-hardware
 ms.technology: windows-devices

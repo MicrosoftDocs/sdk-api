@@ -7,7 +7,7 @@ old-location: fwp\ikeext_credentials0.htm
 old-project: FWP
 ms.assetid: 048d0a56-5d9b-4a85-b42f-8505eb6a97a9
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: IKEEXT_CREDENTIALS0, IKEEXT_CREDENTIALS0 structure [Filtering], IKEEXT_CREDENTIALS0_, fwp.ikeext_credentials0, iketypes/IKEEXT_CREDENTIALS0
 ms.prod: windows-hardware
 ms.technology: windows-devices

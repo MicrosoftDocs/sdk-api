@@ -7,7 +7,7 @@ old-location: fwp\fwpm_provider_context0_struct.htm
 old-project: FWP
 ms.assetid: 99105044-f4fa-42f2-8393-f0ee8948e9ff
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: FWPM_PROVIDER_CONTEXT0, FWPM_PROVIDER_CONTEXT0 structure [Filtering], FWPM_PROVIDER_CONTEXT0_, FWPM_PROVIDER_CONTEXT_FLAG_PERSISTENT, fwp.fwpm_provider_context0_struct, fwpmtypes/FWPM_PROVIDER_CONTEXT0
 ms.prod: windows-hardware
 ms.technology: windows-devices

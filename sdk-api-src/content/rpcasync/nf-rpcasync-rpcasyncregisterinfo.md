@@ -7,7 +7,7 @@ old-location: rpc\rpcasyncregisterinfo.htm
 old-project: Rpc
 ms.assetid: 57bb4579-caae-4ec5-8666-c5e2e98ae632
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: RpcAsyncRegisterInfo, RpcAsyncRegisterInfo function [RPC], _rpc_rpcasyncregisterinfo, rpc.rpcasyncregisterinfo, rpcasync/RpcAsyncRegisterInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # RpcAsyncRegisterInfo function

@@ -7,7 +7,7 @@ old-location: nwifi\wlan_rate_set.htm
 old-project: NativeWiFi
 ms.assetid: e07a9249-9571-4747-b913-05d319202f8f
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/13/2018
 ms.keywords: "*PWLAN_RATE_SET, PWLAN_RATE_SET, PWLAN_RATE_SET structure pointer [NativeWIFI], WLAN_RATE_SET, WLAN_RATE_SET structure [NativeWIFI], _WLAN_RATE_SET, nwifi.wlan_rate_set, wlanapi/PWLAN_RATE_SET, wlanapi/WLAN_RATE_SET"
 ms.prod: windows-hardware
 ms.technology: windows-devices

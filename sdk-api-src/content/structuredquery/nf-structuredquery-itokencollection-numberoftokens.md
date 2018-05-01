@@ -7,7 +7,7 @@ old-location: search\_search_ITokenCollection_NumberOfTokens.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\itokencollection\numberoftokens.htm
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/24/2018
 ms.keywords: ITokenCollection, ITokenCollection interface [search], NumberOfTokens method, ITokenCollection::NumberOfTokens, NumberOfTokens method [search], NumberOfTokens method [search], ITokenCollection interface, NumberOfTokens,ITokenCollection.NumberOfTokens, _search_ITokenCollection_NumberOfTokens, search._search_ITokenCollection_NumberOfTokens, structuredquery/ITokenCollection::NumberOfTokens
 ms.prod: windows-hardware
 ms.technology: windows-devices

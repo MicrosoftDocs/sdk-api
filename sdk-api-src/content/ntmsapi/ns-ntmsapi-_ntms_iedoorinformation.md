@@ -7,7 +7,7 @@ old-location: fs\ntms_iedoorinformation.htm
 old-project: Rsm
 ms.assetid: a0619420-f391-4695-a87e-8cbf8d3a3742
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/5/2018
 ms.keywords: NTMS_DOORSTATE_CLOSED, NTMS_DOORSTATE_OPEN, NTMS_DOORSTATE_UNKNOWN, NTMS_IEDOORINFORMATION, NTMS_IEDOORINFORMATION structure [Files], _NTMS_IEDOORINFORMATION, _zaw_ntms_iedoorinformation, base.ntms_iedoorinformation, fs.ntms_iedoorinformation, ntmsapi/NTMS_IEDOORINFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _NTMS_IEDOORINFORMATION structure

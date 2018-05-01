@@ -7,7 +7,7 @@ old-location: security\callpackageex.htm
 old-project: SecAuthN
 ms.assetid: b26eb42d-9692-4df7-bbde-f7bce0924221
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/24/2018
 ms.keywords: CallPackageEx, CallPackageEx function [Security], LSA_CALL_PACKAGEEX, _ssp_callpackageex, ntsecpkg/CallPackageEx, security.callpackageex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # LSA_CALL_PACKAGEEX callback

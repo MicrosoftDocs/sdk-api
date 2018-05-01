@@ -7,7 +7,7 @@ old-location: dshow\ifullscreenvideoex_setcaption.htm
 old-project: DirectShow
 ms.assetid: 6f520ab4-867f-4001-8f2f-25f0d8efe454
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IFullScreenVideoEx, IFullScreenVideoEx interface [DirectShow], SetCaption method, IFullScreenVideoEx::SetCaption, IFullScreenVideoSetCaption, SetCaption method [DirectShow], SetCaption method [DirectShow], IFullScreenVideoEx interface, SetCaption,IFullScreenVideoEx.SetCaption, amvideo/IFullScreenVideoEx::SetCaption, dshow.ifullscreenvideoex_setcaption
 ms.prod: windows-hardware
 ms.technology: windows-devices

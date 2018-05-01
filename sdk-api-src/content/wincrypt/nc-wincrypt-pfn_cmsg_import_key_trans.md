@@ -7,7 +7,7 @@ old-location: security\pfn_cmsg_import_key_trans.htm
 old-project: SecCrypto
 ms.assetid: ad8051a9-a8ca-47fc-8b4c-d6c085ff1db8
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: PFN_CMSG_IMPORT_KEY_TRANS, PFN_CMSG_IMPORT_KEY_TRANS function pointer [Security], security.pfn_cmsg_import_key_trans, wincrypt/PFN_CMSG_IMPORT_KEY_TRANS
 ms.prod: windows-hardware
 ms.technology: windows-devices

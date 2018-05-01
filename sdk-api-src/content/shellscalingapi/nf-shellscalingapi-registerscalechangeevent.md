@@ -7,7 +7,7 @@ old-location: shell\RegisterScaleChangeEvent.htm
 old-project: shell
 ms.assetid: 05FAFC9B-DCB7-464A-9933-7166C7E53D40
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: RegisterScaleChangeEvent, RegisterScaleChangeEvent function [Windows Shell], shell.RegisterScaleChangeEvent, shellscalingapi/RegisterScaleChangeEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

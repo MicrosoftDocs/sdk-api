@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_wiccreatebitmapfromsection.htm
 old-project: wic
 ms.assetid: a14022a0-7af6-4c06-9afa-4709b81efc96
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: WICCreateBitmapFromSection, WICCreateBitmapFromSection function [Windows Imaging Component], _wic_codec_wiccreatebitmapfromsection, wic._wic_codec_wiccreatebitmapfromsection, wincodec/WICCreateBitmapFromSection
 ms.prod: windows-hardware
 ms.technology: windows-devices

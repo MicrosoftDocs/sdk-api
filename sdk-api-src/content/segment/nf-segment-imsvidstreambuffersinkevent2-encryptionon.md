@@ -7,7 +7,7 @@ old-location: mstv\imsvidstreambuffersinkevent2_encryptionon.htm
 old-project: mstv
 ms.assetid: 753f33bc-2430-4c76-bf9b-ccd5aeaf6676
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: EncryptionOn method [Microsoft TV Technologies], EncryptionOn method [Microsoft TV Technologies], IMSVidStreamBufferSinkEvent2 interface, EncryptionOn,IMSVidStreamBufferSinkEvent2.EncryptionOn, IMSVidStreamBufferSinkEvent2, IMSVidStreamBufferSinkEvent2 interface [Microsoft TV Technologies], EncryptionOn method, IMSVidStreamBufferSinkEvent2::EncryptionOn, IMSVidStreamBufferSinkEvent2EncryptionOn, mstv.imsvidstreambuffersinkevent2_encryptionon, segment/IMSVidStreamBufferSinkEvent2::EncryptionOn
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidStreamBufferSinkEvent2::EncryptionOn method

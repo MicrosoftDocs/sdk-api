@@ -7,7 +7,7 @@ old-location: wmp\iwmplibrary_get_type.htm
 old-project: WMP
 ms.assetid: 95f36972-2227-4fe8-88d7-41f7aebbf67a
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPLibrary, IWMPLibrary interface [Windows Media Player], get_type method, IWMPLibrary::get_type, IWMPLibraryget_type, get_type method [Windows Media Player], get_type method [Windows Media Player], IWMPLibrary interface, get_type,IWMPLibrary.get_type, wmp.iwmplibrary_get_type, wmp/IWMPLibrary::get_type
 ms.prod: windows-hardware
 ms.technology: windows-devices

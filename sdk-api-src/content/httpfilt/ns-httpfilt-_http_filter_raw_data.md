@@ -7,7 +7,7 @@ old-location: tmg\http_filter_raw_data.htm
 old-project: TMG
 ms.assetid: 06fa039c-8007-4782-9cdc-197a52af7163
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/3/2018
 ms.keywords: "*PHTTP_FILTER_RAW_DATA, HTTP_FILTER_RAW_DATA, HTTP_FILTER_RAW_DATA structure [Forefront TMG], PHTTP_FILTER_RAW_DATA, PHTTP_FILTER_RAW_DATA structure pointer [Forefront TMG], _HTTP_FILTER_RAW_DATA, httpfilt/HTTP_FILTER_RAW_DATA, httpfilt/PHTTP_FILTER_RAW_DATA, tmg.http_filter_raw_data"
 ms.prod: windows-hardware
 ms.technology: windows-devices

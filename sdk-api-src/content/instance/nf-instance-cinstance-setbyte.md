@@ -7,7 +7,7 @@ old-location: wmi\cinstance_setbyte.htm
 old-project: WmiSdk
 ms.assetid: d6ecbada-4eb6-40ad-9e59-ba77fd3b883a
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: CInstance, CInstance interface [Windows Management Instrumentation], SetByte method, CInstance::SetByte, SetByte method [Windows Management Instrumentation], SetByte method [Windows Management Instrumentation], CInstance interface, SetByte,CInstance.SetByte, _hmm_cinstance_setbyte, instance/CInstance::SetByte, wmi.cinstance_setbyte
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: InputScope
+req.typenames: TrustLevel
 topic_type:
 -	APIRef
 -	kbSyntax

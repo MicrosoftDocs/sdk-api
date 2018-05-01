@@ -7,7 +7,7 @@ old-location: security\icertpropertyenrollmentpolicyserver_initialize.htm
 old-project: SecCertEnroll
 ms.assetid: 5d54ffb2-4a81-4d52-80db-b8526a52bb53
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: DefaultNone, DefaultPolicyServer, ICertPropertyEnrollmentPolicyServer, ICertPropertyEnrollmentPolicyServer interface [Security], Initialize method, ICertPropertyEnrollmentPolicyServer::Initialize, Initialize method [Security], Initialize method [Security], ICertPropertyEnrollmentPolicyServer interface, Initialize,ICertPropertyEnrollmentPolicyServer.Initialize, PsfAllowUnTrustedCA, PsfAutoEnrollmentEnabled, PsfLocationGroupPolicy, PsfLocationRegistry, PsfNone, PsfUseClientId, X509AuthAnonymous, X509AuthCertificate, X509AuthKerberos, X509AuthUsername, certenroll/ICertPropertyEnrollmentPolicyServer::Initialize, security.icertpropertyenrollmentpolicyserver_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

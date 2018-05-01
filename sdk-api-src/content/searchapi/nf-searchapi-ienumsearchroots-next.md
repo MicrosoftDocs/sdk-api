@@ -7,7 +7,7 @@ old-location: search\_search_IEnumSearchRoots_Next.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\ienumsearchroots\next.htm
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/24/2018
 ms.keywords: IEnumSearchRoots, IEnumSearchRoots interface [search], Next method, IEnumSearchRoots::Next, Next method [search], Next method [search], IEnumSearchRoots interface, Next,IEnumSearchRoots.Next, _search_IEnumSearchRoots_Next, search._search_IEnumSearchRoots_Next, searchapi/IEnumSearchRoots::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IEnumSearchRoots::Next method

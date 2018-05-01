@@ -7,7 +7,7 @@ old-location: tablet\iinkrecognizercontext2_enabledunicoderanges.htm
 old-project: tablet
 ms.assetid: d976eed0-32d0-47ab-931e-177635f95875
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: EnabledUnicodeRanges property [Tablet PC], EnabledUnicodeRanges property [Tablet PC], IInkRecognizerContext2 interface, IInkRecognizerContext2, IInkRecognizerContext2 interface [Tablet PC], EnabledUnicodeRanges property, IInkRecognizerContext2.EnabledUnicodeRanges, IInkRecognizerContext2.get_EnabledUnicodeRanges, IInkRecognizerContext2.put_EnabledUnicodeRanges, IInkRecognizerContext2::get_EnabledUnicodeRanges, IInkRecognizerContext2::put_EnabledUnicodeRanges, get_EnabledUnicodeRanges,IInkRecognizerContext2.get_EnabledUnicodeRanges, msinkaut/IInkRecognizerContext2::EnabledUnicodeRanges, msinkaut/IInkRecognizerContext2::get_EnabledUnicodeRanges, msinkaut/IInkRecognizerContext2::put_EnabledUnicodeRanges, tablet.iinkrecognizercontext2_enabledunicoderanges
 ms.prod: windows-hardware
 ms.technology: windows-devices

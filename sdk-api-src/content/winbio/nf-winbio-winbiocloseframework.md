@@ -7,7 +7,7 @@ old-location: secbiomet\winbiocloseframework.htm
 old-project: SecBioMet
 ms.assetid: AE13FB2F-0B6B-4D98-A75A-E8A2EA525136
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: WinBioCloseFramework, WinBioCloseFramework function [Windows Biometric Framework API], secbiomet.winbiocloseframework, winbio/WinBioCloseFramework
 ms.prod: windows-hardware
 ms.technology: windows-devices

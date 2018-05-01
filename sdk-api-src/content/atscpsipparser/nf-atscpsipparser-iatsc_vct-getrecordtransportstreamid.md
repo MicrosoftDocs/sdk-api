@@ -7,7 +7,7 @@ old-location: mstv\iatsc_vct_getrecordtransportstreamid.htm
 old-project: mstv
 ms.assetid: f0ecd931-d789-41cd-8056-675e6162a5f1
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetRecordTransportStreamId method [Microsoft TV Technologies], GetRecordTransportStreamId method [Microsoft TV Technologies], IATSC_VCT interface, GetRecordTransportStreamId,IATSC_VCT.GetRecordTransportStreamId, IATSC_VCT, IATSC_VCT interface [Microsoft TV Technologies], GetRecordTransportStreamId method, IATSC_VCT::GetRecordTransportStreamId, IATSC_VCTGetRecordTransportStreamId, atscpsipparser/IATSC_VCT::GetRecordTransportStreamId, mstv.iatsc_vct_getrecordtransportstreamid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_WRITER_PAYLOAD_STREAM
+req.typenames: AsyncStatus
 topic_type:
 -	APIRef
 -	kbSyntax

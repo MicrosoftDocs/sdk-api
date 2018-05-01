@@ -7,7 +7,7 @@ old-location: automat\icreatetypeinfo_setvarname.htm
 old-project: automat
 ms.assetid: 9f51fc2a-74cc-4aab-89b7-0237c14ff7f5
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: ICreateTypeInfo, ICreateTypeInfo interface [Automation], SetVarName method, ICreateTypeInfo::SetVarName, SetVarName method [Automation], SetVarName method [Automation], ICreateTypeInfo interface, SetVarName,ICreateTypeInfo.SetVarName, _oa96_ICreateTypeInfo_SetVarName, automat.icreatetypeinfo_setvarname, oaidl/ICreateTypeInfo::SetVarName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ICreateTypeInfo::SetVarName method

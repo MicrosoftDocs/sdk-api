@@ -7,7 +7,7 @@ old-location: dshow\iconfigasfwriter_getcurrentprofileguid.htm
 old-project: DirectShow
 ms.assetid: 8958f8d3-40ff-44b1-a817-5dca30636306
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetCurrentProfileGuid method [DirectShow], GetCurrentProfileGuid method [DirectShow], IConfigAsfWriter interface, GetCurrentProfileGuid,IConfigAsfWriter.GetCurrentProfileGuid, IConfigAsfWriter, IConfigAsfWriter interface [DirectShow], GetCurrentProfileGuid method, IConfigAsfWriter::GetCurrentProfileGuid, IConfigAsfWriterGetCurrentProfileGuid, dshow.iconfigasfwriter_getcurrentprofileguid, dshowasf/IConfigAsfWriter::GetCurrentProfileGuid
 ms.prod: windows-hardware
 ms.technology: windows-devices

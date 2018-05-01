@@ -7,7 +7,7 @@ old-location: winrt\ireferencetracker.htm
 old-project: WinRT
 ms.assetid: 2267d29f-c3b2-4bc8-b4cb-6272a7ebae1a
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/24/2018
 ms.keywords: IReferenceTracker, IReferenceTracker interface [Windows Runtime], IReferenceTracker interface [Windows Runtime], described, windows/IReferenceTracker, winrt.ireferencetracker
 ms.prod: windows-hardware
 ms.technology: windows-devices

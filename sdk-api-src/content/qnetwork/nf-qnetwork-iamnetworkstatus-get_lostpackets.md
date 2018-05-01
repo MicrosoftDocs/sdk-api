@@ -7,7 +7,7 @@ old-location: dshow\iamnetworkstatus_get_lostpackets.htm
 old-project: DirectShow
 ms.assetid: 814a2ffa-c7f3-47e6-8956-4a705b394469
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMNetworkStatus, IAMNetworkStatus interface [DirectShow], get_LostPackets method, IAMNetworkStatus::get_LostPackets, IAMNetworkStatusget_LostPackets, dshow.iamnetworkstatus_get_lostpackets, get_LostPackets method [DirectShow], get_LostPackets method [DirectShow], IAMNetworkStatus interface, get_LostPackets,IAMNetworkStatus.get_LostPackets, qnetwork/IAMNetworkStatus::get_LostPackets
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IAMNetworkStatus::get_LostPackets method

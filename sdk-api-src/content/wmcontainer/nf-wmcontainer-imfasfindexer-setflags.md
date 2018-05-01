@@ -7,7 +7,7 @@ old-location: mf\imfasfindexer_setflags.htm
 old-project: medfound
 ms.assetid: 7df6aba2-d63f-4a1a-b6e8-6894f92993b1
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 7df6aba2-d63f-4a1a-b6e8-6894f92993b1, IMFASFIndexer, IMFASFIndexer interface [Media Foundation], SetFlags method, IMFASFIndexer::SetFlags, SetFlags method [Media Foundation], SetFlags method [Media Foundation], IMFASFIndexer interface, SetFlags,IMFASFIndexer.SetFlags, mf.imfasfindexer_setflags, wmcontainer/IMFASFIndexer::SetFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wic\iwicjpegframedecode_doessupportindexing.htm
 old-project: wic
 ms.assetid: 99486168-6BF9-40C2-B9D8-903A73AAD125
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: DoesSupportIndexing method [Windows Imaging Component], DoesSupportIndexing method [Windows Imaging Component], IWICJpegFrameDecode interface, DoesSupportIndexing,IWICJpegFrameDecode.DoesSupportIndexing, IWICJpegFrameDecode, IWICJpegFrameDecode interface [Windows Imaging Component], DoesSupportIndexing method, IWICJpegFrameDecode::DoesSupportIndexing, wic.iwicjpegframedecode_doessupportindexing, wincodec/IWICJpegFrameDecode::DoesSupportIndexing
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\imfcapturephotosink_setsamplecallback.htm
 old-project: medfound
 ms.assetid: 595716F6-8059-4B56-9FB3-906846BA3CBB
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFCapturePhotoSink, IMFCapturePhotoSink interface [Media Foundation], SetSampleCallback method, IMFCapturePhotoSink::SetSampleCallback, SetSampleCallback method [Media Foundation], SetSampleCallback method [Media Foundation], IMFCapturePhotoSink interface, SetSampleCallback,IMFCapturePhotoSink.SetSampleCallback, mf.imfcapturephotosink_setsamplecallback, mfcaptureengine/IMFCapturePhotoSink::SetSampleCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

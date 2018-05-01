@@ -7,7 +7,7 @@ old-location: base\deleteumsthreadcontext.htm
 old-project: ProcThread
 ms.assetid: cdd118fc-f664-44ce-958d-857216ceb9a7
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: DeleteUmsThreadContext, DeleteUmsThreadContext function, base.deleteumsthreadcontext, winbase/DeleteUmsThreadContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

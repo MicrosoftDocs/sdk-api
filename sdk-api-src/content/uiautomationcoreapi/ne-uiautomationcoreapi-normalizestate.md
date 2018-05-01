@@ -7,7 +7,7 @@ old-location: winauto\uiauto_NormalizeStateEnum.htm
 old-project: WinAuto
 ms.assetid: 242b3770-1082-4df9-b21b-cc78e587a2b5
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: NormalizeState, NormalizeState enumeration [Windows Accessibility], NormalizeState_Custom, NormalizeState_None, NormalizeState_View, uiauto.uiauto_NormalizeStateEnum, uiauto_NormalizeStateEnum, uiautomationcoreapi/NormalizeState, uiautomationcoreapi/NormalizeState_Custom, uiautomationcoreapi/NormalizeState_None, uiautomationcoreapi/NormalizeState_View, winauto.uiauto_NormalizeStateEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices

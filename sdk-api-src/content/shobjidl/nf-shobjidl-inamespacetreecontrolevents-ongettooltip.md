@@ -7,7 +7,7 @@ old-location: shell\INameSpaceTreeControlEvents_OnGetToolTip.htm
 old-project: shell
 ms.assetid: 57970b8d-2461-43af-8959-c51f27679407
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: INameSpaceTreeControlEvents, INameSpaceTreeControlEvents interface [Windows Shell], OnGetToolTip method, INameSpaceTreeControlEvents::OnGetToolTip, OnGetToolTip method [Windows Shell], OnGetToolTip method [Windows Shell], INameSpaceTreeControlEvents interface, OnGetToolTip,INameSpaceTreeControlEvents.OnGetToolTip, _shell_INameSpaceTreeControlEvents_OnGetToolTip, shell.INameSpaceTreeControlEvents_OnGetToolTip, shobjidl/INameSpaceTreeControlEvents::OnGetToolTip
 ms.prod: windows-hardware
 ms.technology: windows-devices

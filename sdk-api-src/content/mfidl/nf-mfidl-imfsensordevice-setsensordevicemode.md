@@ -7,7 +7,7 @@ old-location: mf\imfsensordevice_setsensordevicemode.htm
 old-project: medfound
 ms.assetid: 2B0DC098-EA3B-4061-8191-C67BA54663A3
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFSensorDevice, IMFSensorDevice interface [Media Foundation], SetSensorDeviceMode method, IMFSensorDevice::SetSensorDeviceMode, SetSensorDeviceMode method [Media Foundation], SetSensorDeviceMode method [Media Foundation], IMFSensorDevice interface, SetSensorDeviceMode,IMFSensorDevice.SetSensorDeviceMode, mf.imfsensordevice_setsensordevicemode, mfidl/IMFSensorDevice::SetSensorDeviceMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

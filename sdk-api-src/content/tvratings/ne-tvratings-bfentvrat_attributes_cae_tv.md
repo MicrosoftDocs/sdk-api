@@ -7,7 +7,7 @@ old-location: mstv\bfentvrat_attributes_cae_tv.htm
 old-project: mstv
 ms.assetid: 8b66aa93-edd4-4955-a8f2-576e8a1544b9
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: BfEnTvRat_Attributes_CAE_TV, BfEnTvRat_Attributes_CAE_TV enumeration [Microsoft TV Technologies], CAE_IsBlocked, CAE_ValidAttrSubmask, mstv.bfentvrat_attributes_cae_tv, tvratings/BfEnTvRat_Attributes_CAE_TV, tvratings/CAE_IsBlocked, tvratings/CAE_ValidAttrSubmask
 ms.prod: windows-hardware
 ms.technology: windows-devices

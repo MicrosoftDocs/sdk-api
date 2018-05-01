@@ -7,7 +7,7 @@ old-location: security\bcrypt_oid.htm
 old-project: SecCNG
 ms.assetid: 00143883-88f7-4b15-bdba-128ee255abf6
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: BCRYPT_OID, BCRYPT_OID structure [Security], _BCRYPT_OID, bcrypt/BCRYPT_OID, security.bcrypt_oid
 ms.prod: windows-hardware
 ms.technology: windows-devices

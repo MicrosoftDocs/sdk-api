@@ -7,7 +7,7 @@ old-location: intl\immcreatecontext.htm
 old-project: Intl
 ms.assetid: 2207927a-0edb-4d3a-a1b7-75b94d1616d5
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/25/2018
 ms.keywords: ImmCreateContext, ImmCreateContext function [Internationalization for Windows Applications], _win32_ImmCreateContext, imm/ImmCreateContext, intl.immcreatecontext
 ms.prod: windows-hardware
 ms.technology: windows-devices

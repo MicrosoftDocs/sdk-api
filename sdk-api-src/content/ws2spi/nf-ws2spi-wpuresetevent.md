@@ -7,7 +7,7 @@ old-location: winsock\wpuresetevent_2.htm
 old-project: WinSock
 ms.assetid: a3385c77-899c-4772-88b9-fb3e0fab54e0
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/24/2018
 ms.keywords: WPUResetEvent, WPUResetEvent function [Winsock], _win32_wpuresetevent_2, winsock.wpuresetevent_2, ws2spi/WPUResetEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmformat\iwmpropertyvault_getpropertycount.htm
 old-project: wmformat
 ms.assetid: 2045183d-8683-416f-bda0-87c5fecf8c11
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: GetPropertyCount method [windows Media Format], GetPropertyCount method [windows Media Format], IWMPropertyVault interface, GetPropertyCount,IWMPropertyVault.GetPropertyCount, IWMPropertyVault, IWMPropertyVault interface [windows Media Format], GetPropertyCount method, IWMPropertyVault::GetPropertyCount, IWMPropertyVaultGetPropertyCount, wmformat.iwmpropertyvault_getpropertycount, wmsdkidl/IWMPropertyVault::GetPropertyCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

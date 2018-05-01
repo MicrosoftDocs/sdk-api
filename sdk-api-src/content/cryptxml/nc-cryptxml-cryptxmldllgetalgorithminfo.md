@@ -7,7 +7,7 @@ old-location: security\cryptxmldllgetalgorithminfo.htm
 old-project: SecCrypto
 ms.assetid: 36af2809-0dbb-4024-926c-7054b734e97c
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: CryptXmlDllGetAlgorithmInfo, CryptXmlDllGetAlgorithmInfo function pointer [Security], cryptxml/CryptXmlDllGetAlgorithmInfo, security.cryptxmldllgetalgorithminfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmformat\iwmreadernetworkconfig2_setacceleratedstreamingduration.h
 old-project: wmformat
 ms.assetid: c9ad5064-7742-4145-b560-f3e867da609a
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMReaderNetworkConfig2, IWMReaderNetworkConfig2 interface [windows Media Format], SetAcceleratedStreamingDuration method, IWMReaderNetworkConfig2::SetAcceleratedStreamingDuration, IWMReaderNetworkConfig2SetAcceleratedStreamingDuration, SetAcceleratedStreamingDuration method [windows Media Format], SetAcceleratedStreamingDuration method [windows Media Format], IWMReaderNetworkConfig2 interface, SetAcceleratedStreamingDuration,IWMReaderNetworkConfig2.SetAcceleratedStreamingDuration, wmformat.iwmreadernetworkconfig2_setacceleratedstreamingduration, wmsdkidl/IWMReaderNetworkConfig2::SetAcceleratedStreamingDuration
 ms.prod: windows-hardware
 ms.technology: windows-devices

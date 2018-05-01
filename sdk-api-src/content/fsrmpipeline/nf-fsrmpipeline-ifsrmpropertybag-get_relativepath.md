@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmpropertybag_relativepath.htm
 old-project: Fsrm
 ms.assetid: 4304228a-5e8e-4e2d-9fc9-48777cb23251
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: IFsrmPropertyBag, IFsrmPropertyBag interface [File Server Resource Manager], RelativePath property, IFsrmPropertyBag.RelativePath, IFsrmPropertyBag::get_RelativePath, RelativePath property [File Server Resource Manager], RelativePath property [File Server Resource Manager], IFsrmPropertyBag interface, fs.ifsrmpropertybag_relativepath, fsrm.ifsrmpropertybag_relativepath, fsrmpipeline/IFsrmPropertyBag::RelativePath, fsrmpipeline/IFsrmPropertyBag::get_RelativePath, get_RelativePath,IFsrmPropertyBag.get_RelativePath
 ms.prod: windows-hardware
 ms.technology: windows-devices

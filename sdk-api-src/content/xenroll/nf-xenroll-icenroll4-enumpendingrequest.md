@@ -7,7 +7,7 @@ old-location: security\icenroll4_enumpendingrequest.htm
 old-project: SecCrypto
 ms.assetid: 566974d1-79ec-4cbd-ae84-85e0a78edf58
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: CEnroll object [Security], enumPendingRequest method, ICEnroll4, ICEnroll4 interface [Security], enumPendingRequest method, ICEnroll4::enumPendingRequest, XEPR_CADNS, XEPR_CAFRIENDLYNAME, XEPR_CANAME, XEPR_HASH, XEPR_REQUESTID, _xen_icenroll4_enumpendingrequest, enumPendingRequest method [Security], enumPendingRequest method [Security], CEnroll object, enumPendingRequest method [Security], ICEnroll4 interface, enumPendingRequest,ICEnroll4.enumPendingRequest, security.icenroll4_enumpendingrequest, xenroll/ICEnroll4::enumPendingRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices

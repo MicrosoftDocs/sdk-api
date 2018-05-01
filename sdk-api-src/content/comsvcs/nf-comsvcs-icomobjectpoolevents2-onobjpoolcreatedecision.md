@@ -7,7 +7,7 @@ old-location: cos\icomobjectpoolevents2_onobjpoolcreatedecision.htm
 old-project: cossdk
 ms.assetid: a66c00ac-b9b9-431e-b1c8-6642cb35ec3c
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: IComObjectPoolEvents2, IComObjectPoolEvents2 interface [COM+], OnObjPoolCreateDecision method, IComObjectPoolEvents2::OnObjPoolCreateDecision, OnObjPoolCreateDecision method [COM+], OnObjPoolCreateDecision method [COM+], IComObjectPoolEvents2 interface, OnObjPoolCreateDecision,IComObjectPoolEvents2.OnObjPoolCreateDecision, _dtc_IComObjectPoolEvents2_OnObjPoolCreateDecision, comsvcs/IComObjectPoolEvents2::OnObjPoolCreateDecision, cos.icomobjectpoolevents2_onobjpoolcreatedecision
 ms.prod: windows-hardware
 ms.technology: windows-devices

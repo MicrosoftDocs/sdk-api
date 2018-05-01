@@ -7,7 +7,7 @@ old-location: termserv\itssbresourcepluginstore_addtargettostore.htm
 old-project: TermServ
 ms.assetid: 207761eb-b87a-44e5-9101-84d77f95fc23
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: AddTargetToStore method [Remote Desktop Services], AddTargetToStore method [Remote Desktop Services], ITsSbResourcePluginStore interface, AddTargetToStore method [Remote Desktop Services], ITsSbResourcePluginStoreEx interface, AddTargetToStore,ITsSbResourcePluginStore.AddTargetToStore, ITsSbResourcePluginStore, ITsSbResourcePluginStore interface [Remote Desktop Services], AddTargetToStore method, ITsSbResourcePluginStore::AddTargetToStore, ITsSbResourcePluginStoreEx interface [Remote Desktop Services], AddTargetToStore method, ITsSbResourcePluginStoreEx::AddTargetToStore, sbtsv/ITsSbResourcePluginStore::AddTargetToStore, sbtsv/ITsSbResourcePluginStoreEx::AddTargetToStore, termserv.itssbresourcepluginstore_addtargettostore
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITsSbResourcePluginStore::AddTargetToStore method

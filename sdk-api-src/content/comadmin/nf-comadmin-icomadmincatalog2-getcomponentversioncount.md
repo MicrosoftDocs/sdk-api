@@ -7,7 +7,7 @@ old-location: cos\icomadmincatalog2_getcomponentversioncount.htm
 old-project: cossdk
 ms.assetid: 5bbae408-3dbe-4f8f-92db-9ea1b8abd9ce
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: GetComponentVersionCount method [COM+], GetComponentVersionCount method [COM+], ICOMAdminCatalog2 interface, GetComponentVersionCount,ICOMAdminCatalog2.GetComponentVersionCount, ICOMAdminCatalog2, ICOMAdminCatalog2 interface [COM+], GetComponentVersionCount method, ICOMAdminCatalog2::GetComponentVersionCount, _cos_icomadmincatalog2_GetComponentVersionCount, comadmin/ICOMAdminCatalog2::GetComponentVersionCount, cos.icomadmincatalog2_getcomponentversioncount
 ms.prod: windows-hardware
 ms.technology: windows-devices

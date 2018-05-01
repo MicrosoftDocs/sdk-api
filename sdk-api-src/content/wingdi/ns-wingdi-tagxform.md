@@ -7,7 +7,7 @@ old-location: gdi\xform.htm
 old-project: gdi
 ms.assetid: 49f0d7ee-77fa-415e-af00-b8930253a3a9
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/17/2018
 ms.keywords: "*LPXFORM, *PXFORM, PXFORM, PXFORM structure pointer [Windows GDI], XFORM, XFORM structure [Windows GDI], _win32_XFORM_str, gdi.xform, tagXFORM, wingdi/PXFORM, wingdi/XFORM"
 ms.prod: windows-hardware
 ms.technology: windows-devices

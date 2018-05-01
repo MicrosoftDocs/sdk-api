@@ -7,7 +7,7 @@ old-location: security\ix509enrollmentwebclassfactory.htm
 old-project: SecCertEnroll
 ms.assetid: f779c197-8467-481a-abf5-d3fd3ac90ba7
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: IX509EnrollmentWebClassFactory, IX509EnrollmentWebClassFactory interface [Security], IX509EnrollmentWebClassFactory interface [Security], described, certenroll/IX509EnrollmentWebClassFactory, security.ix509enrollmentwebclassfactory
 ms.prod: windows-hardware
 ms.technology: windows-devices

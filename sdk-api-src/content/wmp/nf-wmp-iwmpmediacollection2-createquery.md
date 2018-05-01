@@ -7,7 +7,7 @@ old-location: wmp\iwmpmediacollection2_createquery.htm
 old-project: WMP
 ms.assetid: b1e6bf08-3b81-4c04-92ff-73eac5f7495a
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPMediaCollection2, IWMPMediaCollection2 interface [Windows Media Player], createQuery method, IWMPMediaCollection2::createQuery, IWMPMediaCollection2createQuery, createQuery method [Windows Media Player], createQuery method [Windows Media Player], IWMPMediaCollection2 interface, createQuery,IWMPMediaCollection2.createQuery, wmp.iwmpmediacollection2_createquery, wmp/IWMPMediaCollection2::createQuery
 ms.prod: windows-hardware
 ms.technology: windows-devices

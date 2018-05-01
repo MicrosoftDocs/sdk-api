@@ -7,7 +7,7 @@ old-location: mf\imfmediaengineex_setrealtimemode.htm
 old-project: medfound
 ms.assetid: 31534f69-33ec-41d3-93aa-f4c457649e48
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFMediaEngineEx, IMFMediaEngineEx interface [Media Foundation], SetRealTimeMode method, IMFMediaEngineEx::SetRealTimeMode, SetRealTimeMode method [Media Foundation], SetRealTimeMode method [Media Foundation], IMFMediaEngineEx interface, SetRealTimeMode,IMFMediaEngineEx.SetRealTimeMode, mf.imfmediaengineex_setrealtimemode, mfmediaengine/IMFMediaEngineEx::SetRealTimeMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

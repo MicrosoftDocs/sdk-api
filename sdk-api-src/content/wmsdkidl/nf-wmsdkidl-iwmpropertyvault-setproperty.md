@@ -7,7 +7,7 @@ old-location: wmformat\iwmpropertyvault_setproperty.htm
 old-project: wmformat
 ms.assetid: 0fae0ecf-efa9-46d0-8324-4065f351291e
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMPropertyVault, IWMPropertyVault interface [windows Media Format], SetProperty method, IWMPropertyVault::SetProperty, IWMPropertyVaultSetProperty, SetProperty method [windows Media Format], SetProperty method [windows Media Format], IWMPropertyVault interface, SetProperty,IWMPropertyVault.SetProperty, wmformat.iwmpropertyvault_setproperty, wmsdkidl/IWMPropertyVault::SetProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

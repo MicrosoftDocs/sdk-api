@@ -7,7 +7,7 @@ old-location: mstv\iatscpsipparser_geteit.htm
 old-project: mstv
 ms.assetid: b88a6728-d772-48b8-aebc-7d4cc133320a
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetEIT method [Microsoft TV Technologies], GetEIT method [Microsoft TV Technologies], IAtscPsipParser interface, GetEIT,IAtscPsipParser.GetEIT, IAtscPsipParser, IAtscPsipParser interface [Microsoft TV Technologies], GetEIT method, IAtscPsipParser::GetEIT, IAtscPsipParserGetEIT, atscpsipparser/IAtscPsipParser::GetEIT, mstv.iatscpsipparser_geteit
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_WRITER_PAYLOAD_STREAM
+req.typenames: AsyncStatus
 topic_type:
 -	APIRef
 -	kbSyntax

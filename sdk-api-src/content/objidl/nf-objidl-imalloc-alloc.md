@@ -7,7 +7,7 @@ old-location: com\imalloc_alloc.htm
 old-project: com
 ms.assetid: c9c9bdac-965f-4b18-9338-28a025930480
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: Alloc method [COM], Alloc method [COM], IMalloc interface, Alloc,IMalloc.Alloc, IMalloc, IMalloc interface [COM], Alloc method, IMalloc::Alloc, _com_imalloc_alloc, com.imalloc_alloc, objidl/IMalloc::Alloc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMalloc::Alloc method

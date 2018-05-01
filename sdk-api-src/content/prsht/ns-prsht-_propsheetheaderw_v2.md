@@ -7,7 +7,7 @@ old-location: controls\PROPSHEETHEADER.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\structures\propsheetheader.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: "*LPPROPSHEETHEADERW_V2, LPPROPSHEETHEADER, LPPROPSHEETHEADER structure pointer [Windows Controls], PROPSHEETHEADER, PROPSHEETHEADER structure [Windows Controls], PROPSHEETHEADERA, PROPSHEETHEADERW, PROPSHEETHEADERW_V2, PSH_AEROWIZARD, PSH_DEFAULT, PSH_HASHELP, PSH_HEADER, PSH_HEADERBITMAP, PSH_MODELESS, PSH_NOAPPLYNOW, PSH_NOCONTEXTHELP, PSH_NOMARGIN, PSH_PROPSHEETPAGE, PSH_PROPTITLE, PSH_RESIZABLE, PSH_RTLREADING, PSH_STRETCHWATERMARK, PSH_USECALLBACK, PSH_USEHBMHEADER, PSH_USEHBMWATERMARK, PSH_USEHICON, PSH_USEHPLWATERMARK, PSH_USEICONID, PSH_USEPAGELANG, PSH_USEPSTARTPAGE, PSH_WATERMARK, PSH_WIZARD, PSH_WIZARD97, PSH_WIZARDCONTEXTHELP, PSH_WIZARDHASFINISH, PSH_WIZARD_LITE, _PROPSHEETHEADERW_V2, _win32_PROPSHEETHEADER, _win32_PROPSHEETHEADER_cpp, controls.PROPSHEETHEADER, controls._win32_PROPSHEETHEADER, prsht/LPPROPSHEETHEADER, prsht/PROPSHEETHEADER, prsht/PROPSHEETHEADERA, prsht/PROPSHEETHEADERW"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _PROPSHEETHEADERW_V2 structure
@@ -65,17 +65,19 @@ Defines the frame and pages of a property sheet.
  
 
 
-### -field DUMMYUNIONNAME5
-
- 
-
-
 ### -field hplWatermark
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HPALETTE</a></b>
 
 
 <a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 5.80</a> or later. <b>HPALETTE</b> structure used for drawing the watermark bitmap and/or header bitmap. If the <b>dwFlags</b> member does not include PSH_USEHPLWATERMARK, this member is ignored.
+
+
+### -field DUMMYUNIONNAME5
+
+ 
+
+
 
 
 #### - dwFlags

@@ -7,7 +7,7 @@ old-location: mf\imfcapturepreviewsink_setmirrorstate.htm
 old-project: medfound
 ms.assetid: F7F04E29-E7AD-46BD-AAF9-5B7BA68822EE
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFCapturePreviewSink, IMFCapturePreviewSink interface [Media Foundation], SetMirrorState method, IMFCapturePreviewSink::SetMirrorState, SetMirrorState method [Media Foundation], SetMirrorState method [Media Foundation], IMFCapturePreviewSink interface, SetMirrorState,IMFCapturePreviewSink.SetMirrorState, mf.imfcapturepreviewsink_setmirrorstate, mfcaptureengine/IMFCapturePreviewSink::SetMirrorState
 ms.prod: windows-hardware
 ms.technology: windows-devices

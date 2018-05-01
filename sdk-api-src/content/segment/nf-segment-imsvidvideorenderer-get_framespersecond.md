@@ -7,7 +7,7 @@ old-location: mstv\imsvidvideorenderer_get_framespersecond.htm
 old-project: mstv
 ms.assetid: 94634499-748d-42d1-8d06-fb52d10d4656
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidVideoRenderer, IMSVidVideoRenderer interface [Microsoft TV Technologies], get_FramesPerSecond method, IMSVidVideoRenderer::get_FramesPerSecond, IMSVidVideoRendererget_FramesPerSecond, get_FramesPerSecond method [Microsoft TV Technologies], get_FramesPerSecond method [Microsoft TV Technologies], IMSVidVideoRenderer interface, get_FramesPerSecond,IMSVidVideoRenderer.get_FramesPerSecond, mstv.imsvidvideorenderer_get_framespersecond, segment/IMSVidVideoRenderer::get_FramesPerSecond
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidVideoRenderer::get_FramesPerSecond method

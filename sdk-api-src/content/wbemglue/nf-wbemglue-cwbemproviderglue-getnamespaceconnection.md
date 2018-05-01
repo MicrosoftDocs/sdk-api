@@ -7,7 +7,7 @@ old-location: wmi\cwbemproviderglue_getnamespaceconnection.htm
 old-project: WmiSdk
 ms.assetid: abbc7099-400d-47a0-9673-3d102effa897
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: "?GetNamespaceConnection@CWbemProviderGlue@@SAPEAUIWbemServices@@PEBG@Z, ?GetNamespaceConnection@CWbemProviderGlue@@SGPAUIWbemServices@@PBG@Z, CWbemProviderGlue, CWbemProviderGlue interface [Windows Management Instrumentation], GetNameSpaceConnection method, CWbemProviderGlue::GetNameSpaceConnection, CWbemProviderGlue::GetNamespaceConnection, GetNameSpaceConnection method [Windows Management Instrumentation], GetNameSpaceConnection method [Windows Management Instrumentation], CWbemProviderGlue interface, GetNamespaceConnection,CWbemProviderGlue.GetNamespaceConnection, _hmm_cwbemproviderglue_getnamespaceconnection, wbemglue/CWbemProviderGlue::GetNameSpaceConnection, wmi.cwbemproviderglue_getnamespaceconnection"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmp\iwmpsyncdevice_get_friendlyname.htm
 old-project: WMP
 ms.assetid: f72eaa17-fd7a-4844-8380-1a2547644dee
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPSyncDevice, IWMPSyncDevice interface [Windows Media Player], get_friendlyName method, IWMPSyncDevice::get_friendlyName, IWMPSyncDeviceget_friendlyName, get_friendlyName method [Windows Media Player], get_friendlyName method [Windows Media Player], IWMPSyncDevice interface, get_friendlyName,IWMPSyncDevice.get_friendlyName, wmp.iwmpsyncdevice_get_friendlyname, wmp/IWMPSyncDevice::get_friendlyName
 ms.prod: windows-hardware
 ms.technology: windows-devices

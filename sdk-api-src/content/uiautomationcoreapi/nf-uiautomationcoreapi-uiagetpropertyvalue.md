@@ -7,7 +7,7 @@ old-location: winauto\uiauto_UiaGetPropertyValueAutoMeth.htm
 old-project: WinAuto
 ms.assetid: 17d5450c-0894-412f-a8d1-44ea0364a606
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: UiaGetPropertyValue, UiaGetPropertyValue function [Windows Accessibility], uiauto.uiauto_UiaGetPropertyValueAutoMeth, uiauto_UiaGetPropertyValueAutoMeth, uiautomationcoreapi/UiaGetPropertyValue, winauto.uiauto_UiaGetPropertyValueAutoMeth
 ms.prod: windows-hardware
 ms.technology: windows-devices

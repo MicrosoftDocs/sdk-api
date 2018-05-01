@@ -7,7 +7,7 @@ old-location: wmi\provider_execmethod.htm
 old-project: WmiSdk
 ms.assetid: 590f59ad-ea93-42f0-8b0d-c05a49272b1b
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: ExecMethod method [Windows Management Instrumentation], ExecMethod method [Windows Management Instrumentation], Provider interface, ExecMethod,Provider.ExecMethod, Provider, Provider interface [Windows Management Instrumentation], ExecMethod method, Provider::ExecMethod, _hmm_provider_execmethod, provider/Provider::ExecMethod, wmi.provider_execmethod
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # Provider::ExecMethod method

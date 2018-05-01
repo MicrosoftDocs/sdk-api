@@ -7,7 +7,7 @@ old-location: winsock\wsacompletion.htm
 old-project: WinSock
 ms.assetid: 5af4b4d1-6dcb-4fc8-a730-53a8cb92fee4
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/24/2018
 ms.keywords: "*LPWSACOMPLETION, *PWSACOMPLETION, WSACOMPLETION, WSACOMPLETION structure [Winsock], _WSACOMPLETION, winsock.wsacompletion, winsock2/WSACOMPLETION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -56,6 +56,13 @@ The <b>WSACOMPLETION</b> structure specifies completion notification settings fo
 ## -struct-fields
 
 
+
+
+### -field Type
+
+Type: <b>WSACOMPLETIONTYPE</b>
+
+The type of completion notification required. See Remarks.
 
 
 ### -field Parameters
@@ -136,13 +143,6 @@ A handle to the port.
 <b>Type: <b>ULONG_PTR</b>
 </b>
 A pointer to the key.
-
-
-### -field Type
-
-Type: <b>WSACOMPLETIONTYPE</b>
-
-The type of completion notification required. See Remarks.
 
 
 ## -remarks

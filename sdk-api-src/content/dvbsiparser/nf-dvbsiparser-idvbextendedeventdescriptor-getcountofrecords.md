@@ -7,7 +7,7 @@ old-location: mstv\idvbextendedeventdescriptor_getcountofrecords.htm
 old-project: mstv
 ms.assetid: db065f1a-8354-4207-b7f7-d67adf094c70
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies], IDvbExtendedEventDescriptor interface, GetCountOfRecords,IDvbExtendedEventDescriptor.GetCountOfRecords, IDvbExtendedEventDescriptor, IDvbExtendedEventDescriptor interface [Microsoft TV Technologies], GetCountOfRecords method, IDvbExtendedEventDescriptor::GetCountOfRecords, dvbsiparser/IDvbExtendedEventDescriptor::GetCountOfRecords, mstv.idvbextendedeventdescriptor_getcountofrecords
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: rras\mprconfiginterfacetransportgetinfo.htm
 old-project: RRAS
 ms.assetid: 2b0bb412-a480-43ff-b29a-cf4e7674d2c4
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: MprConfigInterfaceTransportGetInfo, MprConfigInterfaceTransportGetInfo function [RAS], _mpr_mprconfiginterfacetransportgetinfo, mprapi/MprConfigInterfaceTransportGetInfo, rras.mprconfiginterfacetransportgetinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

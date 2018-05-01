@@ -7,7 +7,7 @@ old-location: direct2d\identitymatrix.htm
 old-project: Direct2D
 ms.assetid: 09c2ed59-db4a-4753-a98a-bef7748d3803
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: IdentityMatrix, IdentityMatrix function [Direct2D], d2d1helper/IdentityMatrix, direct2d.identitymatrix
 ms.prod: windows-hardware
 ms.technology: windows-devices

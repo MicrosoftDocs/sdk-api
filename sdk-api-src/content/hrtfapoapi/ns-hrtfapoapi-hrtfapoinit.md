@@ -7,7 +7,7 @@ old-location: xaudio2\hrtfapoinit.htm
 old-project: xaudio2
 ms.assetid: 686A2203-A991-427F-9D41-F3C679070127
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/20/2018
 ms.keywords: HrtfApoInit, HrtfApoInit structure [XAudio2 Audio Mixing APIs], PHrtfApoInit, PHrtfApoInit structure pointer [XAudio2 Audio Mixing APIs], hrtfapoapi/HrtfApoInit, hrtfapoapi/PHrtfApoInit, xaudio2.hrtfapoinit
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\ienumstreambufferrecordingattrib_next.htm
 old-project: mstv
 ms.assetid: 760b2e2c-799d-45e5-9dbd-2407e7431918
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IEnumStreamBufferRecordingAttrib, IEnumStreamBufferRecordingAttrib interface [Microsoft TV Technologies], Next method, IEnumStreamBufferRecordingAttrib::Next, IEnumStreamBufferRecordingAttribNext, Next method [Microsoft TV Technologies], Next method [Microsoft TV Technologies], IEnumStreamBufferRecordingAttrib interface, Next,IEnumStreamBufferRecordingAttrib.Next, mstv.ienumstreambufferrecordingattrib_next, sbe/IEnumStreamBufferRecordingAttrib::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IEnumStreamBufferRecordingAttrib::Next method

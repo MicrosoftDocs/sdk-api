@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationProxyFactoryMapping_ClearTable.htm
 old-project: WinAuto
 ms.assetid: 00f16e39-557c-4e55-bfbf-49dc0d97ab37
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: ClearTable method [Windows Accessibility], ClearTable method [Windows Accessibility], IUIAutomationProxyFactoryMapping interface, ClearTable,IUIAutomationProxyFactoryMapping.ClearTable, IUIAutomationProxyFactoryMapping, IUIAutomationProxyFactoryMapping interface [Windows Accessibility], ClearTable method, IUIAutomationProxyFactoryMapping::ClearTable, uiauto.uiauto_IUIAutomationProxyFactoryMapping_ClearTable, uiauto_IUIAutomationProxyFactoryMapping_ClearTable, uiautomationclient/IUIAutomationProxyFactoryMapping::ClearTable, winauto.uiauto_IUIAutomationProxyFactoryMapping_ClearTable
 ms.prod: windows-hardware
 ms.technology: windows-devices

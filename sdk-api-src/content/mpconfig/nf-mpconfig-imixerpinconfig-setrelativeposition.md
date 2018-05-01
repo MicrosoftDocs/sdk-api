@@ -7,7 +7,7 @@ old-location: dshow\imixerpinconfig_setrelativeposition.htm
 old-project: DirectShow
 ms.assetid: 2b8ff58b-04df-4a6a-b501-f5c138b8abbf
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IMixerPinConfig, IMixerPinConfig interface [DirectShow], SetRelativePosition method, IMixerPinConfig::SetRelativePosition, IMixerPinConfigSetRelativePosition, SetRelativePosition method [DirectShow], SetRelativePosition method [DirectShow], IMixerPinConfig interface, SetRelativePosition,IMixerPinConfig.SetRelativePosition, dshow.imixerpinconfig_setrelativeposition, mpconfig/IMixerPinConfig::SetRelativePosition
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\IThumbnailSettings.htm
 old-project: shell
 ms.assetid: 502537E5-1D72-44f0-BC75-DBED61F174FC
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IThumbnailSettings, IThumbnailSettings interface [Windows Shell], IThumbnailSettings interface [Windows Shell], described, shell.IThumbnailSettings, thumbcache/IThumbnailSettings
 ms.prod: windows-hardware
 ms.technology: windows-devices

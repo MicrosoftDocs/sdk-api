@@ -7,7 +7,7 @@ old-location: shell\istorageproviderhandler_getpropertyhandlerfromfileid.htm
 old-project: shell
 ms.assetid: 6EBC5567-E64E-47FC-A5A9-C482714401D8
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetPropertyHandlerFromFileId method [Windows Shell], GetPropertyHandlerFromFileId method [Windows Shell], IStorageProviderHandler interface, GetPropertyHandlerFromFileId,IStorageProviderHandler.GetPropertyHandlerFromFileId, IStorageProviderHandler, IStorageProviderHandler interface [Windows Shell], GetPropertyHandlerFromFileId method, IStorageProviderHandler::GetPropertyHandlerFromFileId, shell.istorageproviderhandler_getpropertyhandlerfromfileid, storageprovider/IStorageProviderHandler::GetPropertyHandlerFromFileId
 ms.prod: windows-hardware
 ms.technology: windows-devices

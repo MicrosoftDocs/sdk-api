@@ -7,7 +7,7 @@ old-location: dns\dnsrecordcompare.htm
 old-project: DNS
 ms.assetid: c4449a23-d6d3-4f27-a963-a84144983e5e
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: DnsRecordCompare, DnsRecordCompare function [DNS], _dns_dnsrecordcompare, dns.dnsrecordcompare, windns/DnsRecordCompare
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: com\iprovideclassinfo2.htm
 old-project: com
 ms.assetid: e62785e4-994c-48cc-b5b9-7ec2b07c9d63
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IProvideClassInfo2, IProvideClassInfo2 interface [COM], IProvideClassInfo2 interface [COM], described, _com_iprovideclassinfo2, com.iprovideclassinfo2, ocidl/IProvideClassInfo2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IProvideClassInfo2 interface

@@ -7,7 +7,7 @@ old-location: secbiomet\winbiogetcredentialstate.htm
 old-project: SecBioMet
 ms.assetid: 738b7efb-c796-4f64-95e3-feaaa50ac673
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: WINBIO_CREDENTIAL_NOT_SET, WINBIO_CREDENTIAL_PASSWORD, WINBIO_CREDENTIAL_SET, WinBioGetCredentialState, WinBioGetCredentialState function [Windows Biometric Framework API], secbiomet.winbiogetcredentialstate, winbio/WinBioGetCredentialState
 ms.prod: windows-hardware
 ms.technology: windows-devices

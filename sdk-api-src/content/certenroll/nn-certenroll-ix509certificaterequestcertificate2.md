@@ -7,7 +7,7 @@ old-location: security\ix509certificaterequestcertificate2.htm
 old-project: SecCertEnroll
 ms.assetid: 4f4b5c95-3213-4ccb-9bdd-05cb221f54bd
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: IX509CertificateRequestCertificate2, IX509CertificateRequestCertificate2 interface [Security], IX509CertificateRequestCertificate2 interface [Security], described, certenroll/IX509CertificateRequestCertificate2, security.ix509certificaterequestcertificate2
 ms.prod: windows-hardware
 ms.technology: windows-devices

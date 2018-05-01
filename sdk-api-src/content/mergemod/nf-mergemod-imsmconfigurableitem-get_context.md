@@ -7,7 +7,7 @@ old-location: setup\imsmconfigurableitem_get_context.htm
 old-project: Msi
 ms.assetid: 90aa0ee2-a7eb-464c-8a8f-ed4bdf46990e
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/26/2018
 ms.keywords: IMsmConfigurableItem, IMsmConfigurableItem interface, get_Context method, IMsmConfigurableItem::get_Context, _msi_get_context_function, get_Context method, get_Context method, IMsmConfigurableItem interface, get_Context,IMsmConfigurableItem.get_Context, mergemod/IMsmConfigurableItem::get_Context, setup.imsmconfigurableitem_get_context
 ms.prod: windows-hardware
 ms.technology: windows-devices

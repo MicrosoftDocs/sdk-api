@@ -7,7 +7,7 @@ old-location: mf\imfasyncresult_getstatus.htm
 old-project: medfound
 ms.assetid: ad99f3dd-4885-42e8-8f4e-060d522dde7b
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetStatus method [Media Foundation], GetStatus method [Media Foundation], IMFAsyncResult interface, GetStatus,IMFAsyncResult.GetStatus, IMFAsyncResult, IMFAsyncResult interface [Media Foundation], GetStatus method, IMFAsyncResult::GetStatus, ad99f3dd-4885-42e8-8f4e-060d522dde7b, mf.imfasyncresult_getstatus, mfobjects/IMFAsyncResult::GetStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

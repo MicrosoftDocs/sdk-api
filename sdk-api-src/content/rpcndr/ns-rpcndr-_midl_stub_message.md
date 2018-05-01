@@ -7,7 +7,7 @@ old-location: rpc\midl_stub_message.htm
 old-project: Rpc
 ms.assetid: 9bd021f6-10c9-4e77-be75-9a89a3a016e0
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: "*PMIDL_STUB_MESSAGE, MIDL_STUB_MESSAGE, MIDL_STUB_MESSAGE structure [RPC], PMIDL_STUB_MESSAGE, PMIDL_STUB_MESSAGE structure pointer [RPC], _MIDL_STUB_MESSAGE, rpc.midl_stub_message, rpcndr/MIDL_STUB_MESSAGE, rpcndr/PMIDL_STUB_MESSAGE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _MIDL_STUB_MESSAGE structure
@@ -57,41 +57,6 @@ req.product: Compute Cluster Pack Client Utilities
 ## -struct-fields
 
 
-
-
-### -field pAllocAllNodesContext
-
-Reserved.
-
-
-### -field pPointerQueueState
-
-Reserved.
-
-
-### -field _MIDL_STUB_DESC
-
- 
-
-
-### -field StubDesc
-
-Reserved.
-
-
-### -field FullPtrXlatTables
-
-Reserved.
-
-
-### -field pRpcChannelBuffer
-
-Reserved.
-
-
-### -field pContext
-
-Reserved.
 
 
 ### -field RpcMsg
@@ -150,6 +115,16 @@ Reserved.
 
 
 ### -field ReuseBuffer
+
+Reserved.
+
+
+### -field pAllocAllNodesContext
+
+Reserved.
+
+
+### -field pPointerQueueState
 
 Reserved.
 
@@ -220,6 +195,21 @@ Reserved.
 
 
 ### -field SavedHandle
+
+Reserved.
+
+
+### -field StubDesc
+
+Reserved.
+
+
+### -field _MIDL_STUB_DESC
+
+ 
+
+
+### -field FullPtrXlatTables
 
 Reserved.
 
@@ -329,6 +319,11 @@ Reserved.
 Reserved.
 
 
+### -field pRpcChannelBuffer
+
+Reserved.
+
+
 ### -field pArrayInfo
 
 Reserved.
@@ -400,6 +395,11 @@ Reserved.
 
 
 ### -field Unused
+
+Reserved.
+
+
+### -field pContext
 
 Reserved.
 

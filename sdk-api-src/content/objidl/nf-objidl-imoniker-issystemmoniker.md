@@ -7,7 +7,7 @@ old-location: com\imoniker_issystemmoniker.htm
 old-project: com
 ms.assetid: a61c0df9-786e-45e7-8b3d-f950decc596d
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IMoniker, IMoniker interface [COM], IsSystemMoniker method, IMoniker::IsSystemMoniker, IsSystemMoniker method [COM], IsSystemMoniker method [COM], IMoniker interface, IsSystemMoniker,IMoniker.IsSystemMoniker, _com_imoniker_issystemmoniker, com.imoniker_issystemmoniker, objidl/IMoniker::IsSystemMoniker
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMoniker::IsSystemMoniker method

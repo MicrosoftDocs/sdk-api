@@ -7,7 +7,7 @@ old-location: security\ienroll4_createfilepfxwstr.htm
 old-project: SecCrypto
 ms.assetid: 1df364e7-35ab-4c16-ac13-2f0be36fe0f9
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: IEnroll4, IEnroll4 interface [Security], createFilePFXWStr method, IEnroll4::createFilePFXWStr, createFilePFXWStr method [Security], createFilePFXWStr method [Security], IEnroll4 interface, createFilePFXWStr,IEnroll4.createFilePFXWStr, security.ienroll4_createfilepfxwstr, xenroll/IEnroll4::createFilePFXWStr
 ms.prod: windows-hardware
 ms.technology: windows-devices

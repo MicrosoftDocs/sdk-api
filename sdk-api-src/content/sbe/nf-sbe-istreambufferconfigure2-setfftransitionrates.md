@@ -7,7 +7,7 @@ old-location: mstv\istreambufferconfigure2_setfftransitionrates.htm
 old-project: mstv
 ms.assetid: c6e7b27a-b217-4430-adf7-c7ebc7e17bf6
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IStreamBufferConfigure2, IStreamBufferConfigure2 interface [Microsoft TV Technologies], SetFFTransitionRates method, IStreamBufferConfigure2::SetFFTransitionRates, IStreamBufferConfigure2SetFFTransitionRates, SetFFTransitionRates method [Microsoft TV Technologies], SetFFTransitionRates method [Microsoft TV Technologies], IStreamBufferConfigure2 interface, SetFFTransitionRates,IStreamBufferConfigure2.SetFFTransitionRates, mstv.istreambufferconfigure2_setfftransitionrates, sbe/IStreamBufferConfigure2::SetFFTransitionRates
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IStreamBufferConfigure2::SetFFTransitionRates method

@@ -7,7 +7,7 @@ old-location: termserv\iworkspacereportmessage_registererrorlogmessage.htm
 old-project: TermServ
 ms.assetid: 3aca491f-2cbd-4f04-a06c-986c37e6ce5a
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: IWorkspaceReportMessage, IWorkspaceReportMessage interface [Remote Desktop Services], RegisterErrorLogMessage method, IWorkspaceReportMessage::RegisterErrorLogMessage, RegisterErrorLogMessage method [Remote Desktop Services], RegisterErrorLogMessage method [Remote Desktop Services], IWorkspaceReportMessage interface, RegisterErrorLogMessage method [Remote Desktop Services], Workspace object, RegisterErrorLogMessage,IWorkspaceReportMessage.RegisterErrorLogMessage, Workspace object [Remote Desktop Services], RegisterErrorLogMessage method, termserv.iworkspacereportmessage_registererrorlogmessage, workspaceruntime/IWorkspaceReportMessage::RegisterErrorLogMessage
 ms.prod: windows-hardware
 ms.technology: windows-devices

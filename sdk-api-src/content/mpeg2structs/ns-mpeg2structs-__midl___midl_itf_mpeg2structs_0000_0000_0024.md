@@ -7,7 +7,7 @@ old-location: mstv\mpeg_duration.htm
 old-project: mstv
 ms.assetid: 476b7fe1-2186-4242-9a0b-65ae4e18511e
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: MPEG_DURATION, MPEG_DURATION structure [Microsoft TV Technologies], MPEG_TIME, __MIDL___MIDL_itf_mpeg2structs_0000_0000_0024, mpeg2structs/MPEG_DURATION, mstv.mpeg_duration, structure [Microsoft TV Technologies]
 ms.prod: windows-hardware
 ms.technology: windows-devices

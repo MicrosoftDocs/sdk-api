@@ -7,7 +7,7 @@ old-location: fwp\fwpmtransactioncommit0_func.htm
 old-project: FWP
 ms.assetid: 3bde803c-f416-4096-98c5-1c56e4a86b94
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: FwpmTransactionCommit0, FwpmTransactionCommit0 function [Filtering], fwp.fwpmtransactioncommit0_func, fwpmu/FwpmTransactionCommit0
 ms.prod: windows-hardware
 ms.technology: windows-devices

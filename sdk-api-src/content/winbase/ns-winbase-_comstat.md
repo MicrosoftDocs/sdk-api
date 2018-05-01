@@ -7,7 +7,7 @@ old-location: base\comstat_str.htm
 old-project: DevIO
 ms.assetid: dd54d040-1244-425f-a43e-9071d679c4ec
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/3/2018
 ms.keywords: "*LPCOMSTAT, COMSTAT, COMSTAT structure, LPCOMSTAT, LPCOMSTAT structure pointer, _COMSTAT, _win32_comstat_str, base.comstat_str, winbase/COMSTAT, winbase/LPCOMSTAT"
 ms.prod: windows-hardware
 ms.technology: windows-devices

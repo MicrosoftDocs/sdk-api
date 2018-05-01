@@ -7,7 +7,7 @@ old-location: mstv\idvbsubtitlingdescriptor_getrecordcompositionpageid.htm
 old-project: mstv
 ms.assetid: 108f431a-e3c3-42d5-ad27-b7a54029051f
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetRecordCompositionPageID method [Microsoft TV Technologies], GetRecordCompositionPageID method [Microsoft TV Technologies], IDvbSubtitlingDescriptor interface, GetRecordCompositionPageID,IDvbSubtitlingDescriptor.GetRecordCompositionPageID, IDvbSubtitlingDescriptor, IDvbSubtitlingDescriptor interface [Microsoft TV Technologies], GetRecordCompositionPageID method, IDvbSubtitlingDescriptor::GetRecordCompositionPageID, dvbsiparser/IDvbSubtitlingDescriptor::GetRecordCompositionPageID, mstv.idvbsubtitlingdescriptor_getrecordcompositionpageid
 ms.prod: windows-hardware
 ms.technology: windows-devices

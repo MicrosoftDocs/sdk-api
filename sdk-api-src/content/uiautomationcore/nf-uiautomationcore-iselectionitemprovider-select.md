@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ISelectionItemProvider_Select.htm
 old-project: WinAuto
 ms.assetid: b11e3472-e7dc-462d-93f4-e02f07ebd45f
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: ISelectionItemProvider, ISelectionItemProvider interface [Windows Accessibility], Select method, ISelectionItemProvider::Select, Select method [Windows Accessibility], Select method [Windows Accessibility], ISelectionItemProvider interface, Select,ISelectionItemProvider.Select, uiauto.uiauto_ISelectionItemProvider_Select, uiauto_ISelectionItemProvider_Select, uiautomationcore/ISelectionItemProvider::Select, winauto.uiauto_ISelectionItemProvider_Select
 ms.prod: windows-hardware
 ms.technology: windows-devices

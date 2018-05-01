@@ -7,7 +7,7 @@ old-location: mf\imfmediaengineprotectedcontent_setapplicationcertificate.htm
 old-project: medfound
 ms.assetid: 2D1F31B1-9A4E-4B94-93FF-255B3006C904
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFMediaEngineProtectedContent, IMFMediaEngineProtectedContent interface [Media Foundation], SetApplicationCertificate method, IMFMediaEngineProtectedContent::SetApplicationCertificate, SetApplicationCertificate method [Media Foundation], SetApplicationCertificate method [Media Foundation], IMFMediaEngineProtectedContent interface, SetApplicationCertificate,IMFMediaEngineProtectedContent.SetApplicationCertificate, mf.imfmediaengineprotectedcontent_setapplicationcertificate, mfmediaengine/IMFMediaEngineProtectedContent::SetApplicationCertificate
 ms.prod: windows-hardware
 ms.technology: windows-devices

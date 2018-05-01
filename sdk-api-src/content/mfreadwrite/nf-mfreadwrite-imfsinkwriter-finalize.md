@@ -7,7 +7,7 @@ old-location: mf\imfsinkwriter_finalize.htm
 old-project: medfound
 ms.assetid: 352e6679-0710-429a-a659-47044ab60773
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: Finalize method [Media Foundation], Finalize method [Media Foundation], IMFSinkWriter interface, Finalize,IMFSinkWriter.Finalize, IMFSinkWriter, IMFSinkWriter interface [Media Foundation], Finalize method, IMFSinkWriter::Finalize, mf.imfsinkwriter_finalize, mfreadwrite/IMFSinkWriter::Finalize
 ms.prod: windows-hardware
 ms.technology: windows-devices

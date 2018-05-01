@@ -7,7 +7,7 @@ old-location: shell\PathAppend.htm
 old-project: shell
 ms.assetid: 896737ef-a05c-4f0f-b8b0-56355ae9c2d9
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: PathAppend, PathAppend function [Windows Shell], PathAppendA, PathAppendW, _win32_PathAppend, shell.PathAppend, shlwapi/PathAppend, shlwapi/PathAppendA, shlwapi/PathAppendW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomation_RemoveFocusChangedEventHandler.htm
 old-project: WinAuto
 ms.assetid: 96913631-76e0-405a-888d-ac7f6485a18e
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: IUIAutomation, IUIAutomation interface [Windows Accessibility], RemoveFocusChangedEventHandler method, IUIAutomation::RemoveFocusChangedEventHandler, RemoveFocusChangedEventHandler method [Windows Accessibility], RemoveFocusChangedEventHandler method [Windows Accessibility], IUIAutomation interface, RemoveFocusChangedEventHandler,IUIAutomation.RemoveFocusChangedEventHandler, uiauto.uiauto_IUIAutomation_RemoveFocusChangedEventHandler, uiauto_IUIAutomation_RemoveFocusChangedEventHandler, uiautomationclient/IUIAutomation::RemoveFocusChangedEventHandler, winauto.uiauto_IUIAutomation_RemoveFocusChangedEventHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices

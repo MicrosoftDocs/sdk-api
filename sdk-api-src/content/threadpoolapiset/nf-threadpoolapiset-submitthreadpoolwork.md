@@ -7,7 +7,7 @@ old-location: base\submitthreadpoolwork.htm
 old-project: ProcThread
 ms.assetid: 28df173d-b78c-4158-97d5-63117a2d3967
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: SubmitThreadpoolWork, SubmitThreadpoolWork function, base.submitthreadpoolwork, threadpoolapiset/SubmitThreadpoolWork, winbase/SubmitThreadpoolWork
 ms.prod: windows-hardware
 ms.technology: windows-devices

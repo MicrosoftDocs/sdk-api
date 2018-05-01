@@ -7,7 +7,7 @@ old-location: controls\TCITEM.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\tab\structures\tcitem.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: "*LPTCITEMW, LPTCITEM, LPTCITEM structure pointer [Windows Controls], TCIF_IMAGE, TCIF_PARAM, TCIF_RTLREADING, TCIF_STATE, TCIF_TEXT, TCITEM, TCITEM structure [Windows Controls], TCITEMA, TCITEMW, _win32_TCITEM, _win32_TCITEM_cpp, commctrl/LPTCITEM, commctrl/TCITEM, commctrl/TCITEMA, commctrl/TCITEMW, controls.TCITEM, controls._win32_TCITEM, tagTCITEMW"
 ms.prod: windows-hardware
 ms.technology: windows-devices

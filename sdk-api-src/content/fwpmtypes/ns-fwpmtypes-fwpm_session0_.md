@@ -7,7 +7,7 @@ old-location: fwp\fwpm_session0_struct.htm
 old-project: FWP
 ms.assetid: 9f259ab7-cec9-44c1-8914-2850235470b3
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: FWPM_SESSION0, FWPM_SESSION0 structure [Filtering], FWPM_SESSION0_, FWPM_SESSION_FLAG_DYNAMIC, FWPM_SESSION_FLAG_RESERVED, fwp.fwpm_session0_struct, fwpmtypes/FWPM_SESSION0
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: com\ipicture_render.htm
 old-project: com
 ms.assetid: 45164225-2e0f-4415-a99c-dc0257d606d3
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IPicture, IPicture interface [COM], Render method, IPicture::Render, Render method [COM], Render method [COM], IPicture interface, Render,IPicture.Render, _ctrl_ipicture_render, com.ipicture_render, ocidl/IPicture::Render
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IPicture::Render method

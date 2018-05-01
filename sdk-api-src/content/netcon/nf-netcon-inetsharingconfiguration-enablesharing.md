@@ -7,7 +7,7 @@ old-location: ics\inetsharingconfiguration_enablesharing.htm
 old-project: ICS
 ms.assetid: 40b2a2ff-50f4-484c-bf79-ae99a348644f
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: EnableSharing method [ICS/ICF], EnableSharing method [ICS/ICF], INetSharingConfiguration interface, EnableSharing,INetSharingConfiguration.EnableSharing, INetSharingConfiguration, INetSharingConfiguration interface [ICS/ICF], EnableSharing method, INetSharingConfiguration::EnableSharing, _ics_inetsharingconfiguration_enablesharing, ics.inetsharingconfiguration_enablesharing, netcon/INetSharingConfiguration::EnableSharing
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # INetSharingConfiguration::EnableSharing method

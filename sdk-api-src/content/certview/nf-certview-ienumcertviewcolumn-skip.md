@@ -7,7 +7,7 @@ old-location: security\ienumcertviewattribute_skip.htm
 old-project: SecCrypto
 ms.assetid: 546e7ad7-73f2-4f6e-8d02-a9ca5401ecce
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: IEnumCERTVIEWCOLUMN, IEnumCERTVIEWCOLUMN interface [Security], Skip method, IEnumCERTVIEWCOLUMN object [Security], Skip method, IEnumCERTVIEWCOLUMN::Skip, Skip method [Security], Skip method [Security], IEnumCERTVIEWCOLUMN interface, Skip method [Security], IEnumCERTVIEWCOLUMN object, Skip,IEnumCERTVIEWCOLUMN.Skip, _certsrv_ienumcertviewattribute_skip, certview/IEnumCERTVIEWCOLUMN::Skip, security.ienumcertviewattribute_skip
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wua\iupdateinstaller_enduninstall.htm
 old-project: Wua_Sdk
 ms.assetid: a035f566-7ec6-41d5-b5b4-69c2acaa8aae
 ms.author: windowsdriverdev
-ms.date: 3/15/2018
+ms.date: 4/18/2018
 ms.keywords: EndUninstall method [Windows Update Agent], EndUninstall method [Windows Update Agent], IUpdateInstaller interface, EndUninstall,IUpdateInstaller.EndUninstall, IUpdateInstaller, IUpdateInstaller interface [Windows Update Agent], EndUninstall method, IUpdateInstaller::EndUninstall, wua.iupdateinstaller_enduninstall, wuapi/IUpdateInstaller::EndUninstall
 ms.prod: windows-hardware
 ms.technology: windows-devices

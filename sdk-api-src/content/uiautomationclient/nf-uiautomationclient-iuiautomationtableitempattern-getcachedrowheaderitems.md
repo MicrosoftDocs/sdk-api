@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationTableItemPattern_GetCachedRowHeaderIte
 old-project: WinAuto
 ms.assetid: 69d4a632-8e35-4569-8c14-f56e9fd84c34
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: GetCachedRowHeaderItems method [Windows Accessibility], GetCachedRowHeaderItems method [Windows Accessibility], IUIAutomationTableItemPattern interface, GetCachedRowHeaderItems,IUIAutomationTableItemPattern.GetCachedRowHeaderItems, IUIAutomationTableItemPattern, IUIAutomationTableItemPattern interface [Windows Accessibility], GetCachedRowHeaderItems method, IUIAutomationTableItemPattern::GetCachedRowHeaderItems, uiauto.uiauto_IUIAutomationTableItemPattern_GetCachedRowHeaderItems, uiauto_IUIAutomationTableItemPattern_GetCachedRowHeaderItems, uiautomationclient/IUIAutomationTableItemPattern::GetCachedRowHeaderItems, winauto.uiauto_IUIAutomationTableItemPattern_GetCachedRowHeaderItems
 ms.prod: windows-hardware
 ms.technology: windows-devices

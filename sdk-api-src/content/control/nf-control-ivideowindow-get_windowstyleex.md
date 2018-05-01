@@ -7,7 +7,7 @@ old-location: dshow\ivideowindow_get_windowstyleex.htm
 old-project: DirectShow
 ms.assetid: cdffe918-5802-406e-86b1-d1e9ebb6dbf7
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IVideoWindow, IVideoWindow interface [DirectShow], get_WindowStyleEx method, IVideoWindow::get_WindowStyleEx, IVideoWindowget_WindowStyleEx, control/IVideoWindow::get_WindowStyleEx, dshow.ivideowindow_get_windowstyleex, get_WindowStyleEx method [DirectShow], get_WindowStyleEx method [DirectShow], IVideoWindow interface, get_WindowStyleEx,IVideoWindow.get_WindowStyleEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

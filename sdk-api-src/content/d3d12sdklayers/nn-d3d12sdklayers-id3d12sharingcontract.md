@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12sharingcontract.htm
 old-project: direct3d12
 ms.assetid: 10E61C88-0CDC-42E6-AB70-4911D254C40A
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: ID3D12SharingContract, ID3D12SharingContract interface, ID3D12SharingContract interface, described, d3d12sdklayers/ID3D12SharingContract, direct3d12.id3d12sharingcontract
 ms.prod: windows-hardware
 ms.technology: windows-devices

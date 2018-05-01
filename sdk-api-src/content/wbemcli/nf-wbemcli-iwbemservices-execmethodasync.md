@@ -7,7 +7,7 @@ old-location: wmi\iwbemservices_execmethodasync.htm
 old-project: WmiSdk
 ms.assetid: 61966c03-80dc-4556-b2fc-97e879cf458c
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: ExecMethodAsync method [Windows Management Instrumentation], ExecMethodAsync method [Windows Management Instrumentation], IWbemServices interface, ExecMethodAsync,IWbemServices.ExecMethodAsync, IWbemServices, IWbemServices interface [Windows Management Instrumentation], ExecMethodAsync method, IWbemServices::ExecMethodAsync, _hmm_iwbemservices_execmethodasync, wbemcli/IWbemServices::ExecMethodAsync, wmi.iwbemservices_execmethodasync
 ms.prod: windows-hardware
 ms.technology: windows-devices

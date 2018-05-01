@@ -58,11 +58,6 @@ req.product: Windows Media Format 9 Series or later
 
 
 
-### -field pInnerMethodInfoArray
-
-Pointer to an <a href="https://msdn.microsoft.com/3deb04da-3071-4ddd-a7cb-82a1c47c3677">EAP_METHOD_INFO_ARRAY_EX</a> structure that contains information about all of the EAP methods installed on the client computer.
-
-
 ### -field eaptype
 
  
@@ -81,6 +76,11 @@ Pointer to a zero-terminated Unicode string that contains the display name of th
 ### -field eapProperties
 
 Set of flags that describe specific properties of the EAP methods. For flag descriptions, see <a href="https://msdn.microsoft.com/10407b85-5d2c-4c75-9b65-a0d65d4cc7ab">EAP Method Properties</a>.
+
+
+### -field pInnerMethodInfoArray
+
+Pointer to an <a href="https://msdn.microsoft.com/3deb04da-3071-4ddd-a7cb-82a1c47c3677">EAP_METHOD_INFO_ARRAY_EX</a> structure that contains information about all of the EAP methods installed on the client computer.
 
 
 #### - eapType

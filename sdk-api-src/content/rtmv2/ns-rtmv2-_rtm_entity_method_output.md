@@ -7,7 +7,7 @@ old-location: rras\rtm_entity_method_output.htm
 old-project: RRAS
 ms.assetid: 9ec05355-a912-4ed0-ace9-8823d333bab5
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: "*PRTM_ENTITY_METHOD_OUTPUT, PRTM_ENTITY_METHOD_OUTPUT, PRTM_ENTITY_METHOD_OUTPUT structure pointer [RAS], RTM_ENTITY_METHOD_OUTPUT, RTM_ENTITY_METHOD_OUTPUT structure [RAS], _RTM_ENTITY_METHOD_OUTPUT, _rtmv2ref_rtm_entity_method_output, rras.rtm_entity_method_output, rtmv2/PRTM_ENTITY_METHOD_OUTPUT, rtmv2/RTM_ENTITY_METHOD_OUTPUT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _RTM_ENTITY_METHOD_OUTPUT structure

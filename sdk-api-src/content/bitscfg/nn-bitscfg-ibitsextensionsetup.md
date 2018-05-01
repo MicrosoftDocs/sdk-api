@@ -7,7 +7,7 @@ old-location: bits\ibitsextensionsetup.htm
 old-project: Bits
 ms.assetid: 840608ef-9c07-43f7-9cfd-20996a18bb50
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/10/2018
 ms.keywords: IBITSExtensionSetup, IBITSExtensionSetup interface [BITS], IBITSExtensionSetup interface [BITS], described, _drz_ibitsextensionsetup, bits.ibitsextensionsetup, bitscfg/IBITSExtensionSetup
 ms.prod: windows-hardware
 ms.technology: windows-devices

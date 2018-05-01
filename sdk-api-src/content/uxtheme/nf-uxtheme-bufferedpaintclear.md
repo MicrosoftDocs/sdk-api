@@ -7,7 +7,7 @@ old-location: controls\BufferedPaintClear.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\bufferedpaintclear.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: BufferedPaintClear, BufferedPaintClear function [Windows Controls], _shell_BufferedPaintClear, _shell_BufferedPaintClear_cpp, controls.BufferedPaintClear, controls._shell_BufferedPaintClear, uxtheme/BufferedPaintClear
 ms.prod: windows-hardware
 ms.technology: windows-devices

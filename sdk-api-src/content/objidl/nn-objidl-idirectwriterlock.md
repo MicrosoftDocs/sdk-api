@@ -7,7 +7,7 @@ old-location: stg\idirectwriterlock.htm
 old-project: Stg
 ms.assetid: cff56e4f-b8c5-4d87-9289-f8f2212d7c42
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/20/2018
 ms.keywords: IDirectWriterLock, IDirectWriterLock interface [Structured Storage], IDirectWriterLock interface [Structured Storage], described, _stg_idirectwriterlock, objidl/IDirectWriterLock, stg.idirectwriterlock
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IDirectWriterLock interface

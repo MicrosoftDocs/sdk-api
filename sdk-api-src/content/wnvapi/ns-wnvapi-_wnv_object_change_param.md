@@ -58,6 +58,13 @@ Specifies the parameters of an event  that causes the Windows Network Virtualiza
 
 
 
+### -field ObjectType
+
+Type: <b><a href="https://msdn.microsoft.com/817C86BB-1267-4174-93C2-515288A33055">WNV_OBJECT_TYPE</a></b>
+
+The object type that causes the change notification.
+
+
 ### -field ObjectParam
 
 The parameters for the corresponding object type. If the object type is <b>WnvProviderAddressType</b>, this field points to the <a href="https://msdn.microsoft.com/9FC20DFE-663C-47ED-8183-76C10D4E7615">WNV_PROVIDER_ADDRESS_CHANGE_PARAM</a> structure that describes the provider address object that generated an object change event.
@@ -69,13 +76,6 @@ The parameters for the corresponding object type. If the object type is <b>WnvPr
 <b>Type: <b><a href="https://msdn.microsoft.com/9FC20DFE-663C-47ED-8183-76C10D4E7615">WNV_PROVIDER_ADDRESS_CHANGE_PARAM</a></b>
 </b>
 The provider address change parameters for this object change event.
-
-
-### -field ObjectType
-
-Type: <b><a href="https://msdn.microsoft.com/817C86BB-1267-4174-93C2-515288A33055">WNV_OBJECT_TYPE</a></b>
-
-The object type that causes the change notification.
 
 
 ## -remarks

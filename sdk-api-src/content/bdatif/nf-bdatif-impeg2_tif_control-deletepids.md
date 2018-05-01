@@ -7,7 +7,7 @@ old-location: mstv\impeg2_tif_control_deletepids.htm
 old-project: mstv
 ms.assetid: d5188e30-6980-482f-a690-494855d6aeea
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: DeletePIDs method [Microsoft TV Technologies], DeletePIDs method [Microsoft TV Technologies], IMPEG2_TIF_CONTROL interface, DeletePIDs,IMPEG2_TIF_CONTROL.DeletePIDs, IMPEG2_TIF_CONTROL, IMPEG2_TIF_CONTROL interface [Microsoft TV Technologies], DeletePIDs method, IMPEG2_TIF_CONTROL::DeletePIDs, IMPEG2_TIF_CONTROLDeletePIDs, bdatif/IMPEG2_TIF_CONTROL::DeletePIDs, mstv.impeg2_tif_control_deletepids
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: SpanningEventEmmMessage
+req.typenames: SmartCardApplication
 topic_type:
 -	APIRef
 -	kbSyntax

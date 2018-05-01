@@ -7,7 +7,7 @@ old-location: winsock\getacceptexsockaddrs_2.htm
 old-project: WinSock
 ms.assetid: 381ba8ab-3c99-45c8-8895-4c87949f5238
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/24/2018
 ms.keywords: GetAcceptExSockaddrs, GetAcceptExSockaddrs function [Winsock], _win32_getacceptexsockaddrs_2, winsock.getacceptexsockaddrs_2, winsock/GetAcceptExSockaddrs
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Mswsock.lib
 req.dll: Mswsock.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # GetAcceptExSockaddrs function

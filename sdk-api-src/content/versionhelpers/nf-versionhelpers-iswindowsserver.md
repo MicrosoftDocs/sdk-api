@@ -7,7 +7,7 @@ old-location: base\iswindowsserver.htm
 old-project: SysInfo
 ms.assetid: 7CC1DD25-762B-489F-AC20-1B57764923A2
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: IsWindowsServer, IsWindowsServer function, base.iswindowsserver, versionhelpers/IsWindowsServer
 ms.prod: windows-hardware
 ms.technology: windows-devices

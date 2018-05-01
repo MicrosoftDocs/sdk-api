@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicbitmapsource_copypalette.htm
 old-project: wic
 ms.assetid: 5e45ca4a-2d14-4829-9542-9cfc3e4b0d73
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: CopyPalette method [Windows Imaging Component], CopyPalette method [Windows Imaging Component], IWICBitmapSource interface, CopyPalette,IWICBitmapSource.CopyPalette, IWICBitmapSource, IWICBitmapSource interface [Windows Imaging Component], CopyPalette method, IWICBitmapSource::CopyPalette, _wic_codec_iwicbitmapsource_copypalette, wic._wic_codec_iwicbitmapsource_copypalette, wincodec/IWICBitmapSource::CopyPalette
 ms.prod: windows-hardware
 ms.technology: windows-devices

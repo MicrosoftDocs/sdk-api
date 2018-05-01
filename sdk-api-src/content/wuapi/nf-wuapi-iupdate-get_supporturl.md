@@ -7,7 +7,7 @@ old-location: wua\iupdate_supporturl.htm
 old-project: Wua_Sdk
 ms.assetid: c4734e71-a64d-4231-80ed-1ee2bcc98ce1
 ms.author: windowsdriverdev
-ms.date: 3/15/2018
+ms.date: 4/18/2018
 ms.keywords: IUpdate, IUpdate interface [Windows Update Agent], SupportUrl property, IUpdate.SupportUrl, IUpdate::get_SupportUrl, SupportUrl property [Windows Update Agent], SupportUrl property [Windows Update Agent], IUpdate interface, get_SupportUrl,IUpdate.get_SupportUrl, wua.iupdate_supporturl, wuapi/IUpdate::SupportUrl, wuapi/IUpdate::get_SupportUrl
 ms.prod: windows-hardware
 ms.technology: windows-devices

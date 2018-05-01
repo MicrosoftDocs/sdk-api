@@ -7,7 +7,7 @@ old-location: winauto\uiauto_iuiautomationdroptargetpattern_currentdroptargeteff
 old-project: WinAuto
 ms.assetid: C7A2C62B-D61B-4884-BEF0-E4EB1088D1AB
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: CurrentDropTargetEffect property [Windows Accessibility], CurrentDropTargetEffect property [Windows Accessibility], IUIAutomationDropTargetPattern interface, IUIAutomationDropTargetPattern, IUIAutomationDropTargetPattern interface [Windows Accessibility], CurrentDropTargetEffect property, IUIAutomationDropTargetPattern.CurrentDropTargetEffect, IUIAutomationDropTargetPattern::get_CurrentDropTargetEffect, get_CurrentDropTargetEffect,IUIAutomationDropTargetPattern.get_CurrentDropTargetEffect, uiautomationclient/IUIAutomationDropTargetPattern::CurrentDropTargetEffect, uiautomationclient/IUIAutomationDropTargetPattern::get_CurrentDropTargetEffect, winauto.uiauto_iuiautomationdroptargetpattern_currentdroptargeteffect
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: appxpkg\iappxmanifesttargetdevicefamily_getminversion.htm
 old-project: appxpkg
 ms.assetid: 8CE408D3-0DD7-4482-8F7E-FE731ACE58C6
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/26/2018
 ms.keywords: GetMinVersion method [App packaging and management], GetMinVersion method [App packaging and management], IAppxManifestTargetDeviceFamily interface, GetMinVersion,IAppxManifestTargetDeviceFamily.GetMinVersion, IAppxManifestTargetDeviceFamily, IAppxManifestTargetDeviceFamily interface [App packaging and management], GetMinVersion method, IAppxManifestTargetDeviceFamily::GetMinVersion, appxpackaging/IAppxManifestTargetDeviceFamily::GetMinVersion, appxpkg.iappxmanifesttargetdevicefamily_getminversion
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_ARCHITECTURE2
+req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
 topic_type:
 -	APIRef
 -	kbSyntax

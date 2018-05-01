@@ -7,7 +7,7 @@ old-location: dshow\ioverlaynotify2_ondisplaychange.htm
 old-project: DirectShow
 ms.assetid: 8f32a373-5d98-4491-8bfb-9445cb15ff10
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IOverlayNotify2, IOverlayNotify2 interface [DirectShow], OnDisplayChange method, IOverlayNotify2::OnDisplayChange, IOverlayNotify2OnDisplayChange, OnDisplayChange method [DirectShow], OnDisplayChange method [DirectShow], IOverlayNotify2 interface, OnDisplayChange,IOverlayNotify2.OnDisplayChange, dshow.ioverlaynotify2_ondisplaychange, strmif/IOverlayNotify2::OnDisplayChange
 ms.prod: windows-hardware
 ms.technology: windows-devices

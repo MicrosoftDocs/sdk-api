@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11classinstance_getclasslinkage.htm
 old-project: direct3d11
 ms.assetid: 06e5b132-5f20-41e1-827a-26df989cd4f0
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/6/2018
 ms.keywords: 73308fe8-c231-b1ce-ee64-f916ed993a53, GetClassLinkage method [Direct3D 11], GetClassLinkage method [Direct3D 11], ID3D11ClassInstance interface, GetClassLinkage,ID3D11ClassInstance.GetClassLinkage, ID3D11ClassInstance, ID3D11ClassInstance interface [Direct3D 11], GetClassLinkage method, ID3D11ClassInstance::GetClassLinkage, d3d11/ID3D11ClassInstance::GetClassLinkage, direct3d11.id3d11classinstance_getclasslinkage
 ms.prod: windows-hardware
 ms.technology: windows-devices

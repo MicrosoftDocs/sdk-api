@@ -7,7 +7,7 @@ old-location: wmp\iwmppluginui_getproperty.htm
 old-project: WMP
 ms.assetid: f01d0700-2399-4e33-8a0c-59bb1f0f2495
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: GetProperty method [Windows Media Player], GetProperty method [Windows Media Player], IWMPPluginUI interface, GetProperty,IWMPPluginUI.GetProperty, IWMPPluginUI, IWMPPluginUI interface [Windows Media Player], GetProperty method, IWMPPluginUI::GetProperty, IWMPPluginUIGetProperty, wmp.iwmppluginui_getproperty, wmpplug/IWMPPluginUI::GetProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmp\iwmperror.htm
 old-project: WMP
 ms.assetid: f22759cd-0ca7-4992-bb17-0272b35d6d75
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPError, IWMPError interface [Windows Media Player], IWMPError interface [Windows Media Player], described, IWMPErrorInterface, wmp.iwmperror, wmp/IWMPError
 ms.prod: windows-hardware
 ms.technology: windows-devices

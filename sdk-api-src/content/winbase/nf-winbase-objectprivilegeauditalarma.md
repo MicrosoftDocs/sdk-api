@@ -7,7 +7,7 @@ old-location: security\objectprivilegeauditalarm.htm
 old-project: SecAuthZ
 ms.assetid: 76714ffe-be7c-4928-b7c9-e72441ada4c7
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: ObjectPrivilegeAuditAlarm, ObjectPrivilegeAuditAlarm function [Security], ObjectPrivilegeAuditAlarmA, ObjectPrivilegeAuditAlarmW, _win32_objectprivilegeauditalarm, security.objectprivilegeauditalarm, winbase/ObjectPrivilegeAuditAlarm, winbase/ObjectPrivilegeAuditAlarmA, winbase/ObjectPrivilegeAuditAlarmW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -2,18 +2,18 @@
 UID: NS:mmreg.tWAVEFORMATEX
 title: tWAVEFORMATEX
 author: windows-driver-content
-description: The WAVEFORMATEX structure defines the format of waveform-audio data.
-old-location: dshow\waveformatex.htm
-old-project: DirectShow
-ms.assetid: 4f3bf6fb-b15f-43b3-82f1-e7a8a3007057
+description: The WAVEFORMATEX structure specifies the data format of a wave audio stream.
+old-location: audio\waveformatex.htm
+old-project: audio
+ms.assetid: f2f050d6-afe2-4647-932b-1287f4538702
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
-ms.keywords: "*LPWAVEFORMATEX, *NPWAVEFORMATEX, *PWAVEFORMATEX, WAVEFORMATEX, WAVEFORMATEX structure [DirectShow], WAVEFORMATEXStructure, dshow.waveformatex, mmreg/WAVEFORMATEX, tWAVEFORMATEX"
+ms.date: 4/16/2018
+ms.keywords: "*LPWAVEFORMATEX, *NPWAVEFORMATEX, *PWAVEFORMATEX, WAVEFORMATEX, WAVEFORMATEX structure [Audio Devices], aud-prop_f0d9c096-fa87-43d5-812b-de4d08358342.xml, audio.waveformatex, mmreg/WAVEFORMATEX, tWAVEFORMATEX"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: mmreg.h
-req.include-header: 
+req.include-header: Mmsystem.h, Mmreg.h, Mmsystem.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -50,10 +50,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-The <b>WAVEFORMATEX</b> structure defines the format of waveform-audio data. Only format information common to all waveform-audio data formats is included in this structure. For formats that require additional information, this structure is included as the first member in another structure, along with the additional information.
-
-
+The WAVEFORMATEX structure specifies the data format of a wave audio stream.
 
 
 ## -struct-fields
@@ -63,50 +60,172 @@ The <b>WAVEFORMATEX</b> structure defines the format of waveform-audio data. Onl
 
 ### -field wFormatTag
 
-Waveform-audio format type. Format tags are registered with Microsoft Corporation for many compression algorithms. A complete list of format tags can be found in the Mmreg.h header file. For one- or two-channel Pulse Code Modulation (PCM) data, this value should be WAVE_FORMAT_PCM.
-
-<ul>
-<li>If <b>wFormatTag</b> equals WAVE_FORMAT_EXTENSIBLE, the structure is interpreted as a <a href="https://msdn.microsoft.com/library/windows/hardware/ff538802">WAVEFORMATEXTENSIBLE</a> structure.</li>
-<li>If <b>wFormatTag</b> equals WAVE_FORMAT_MPEG, the structure is interpreted as an <a href="https://msdn.microsoft.com/c9357f72-f101-434a-b7ae-183e78239e9c">MPEG1WAVEFORMAT</a> structure.</li>
-<li>If <b>wFormatTag</b> equals WAVE_FORMAT_MPEGLAYER3, the structure is interpreted as an <a href="https://msdn.microsoft.com/eca403a0-01a2-4290-951f-a7d516a58b9e">MPEGLAYER3WAVEFORMAT</a> structure.</li>
-</ul>
-Before reinterpreting a <b>WAVEFORMATEX</b> structure as one of these extended structures, verify that the actual structure size is sufficiently large and that the <b>cbSize</b> member indicates a valid size.
+Specifies the waveform audio format type. For more information, see the following Remarks section.
 
 
 ### -field nChannels
 
-Number of channels in the waveform-audio data. Monaural data uses one channel and stereo data uses two channels.
+Specifies the number of channels of audio data. For monophonic audio, set this member to 1. For stereo, set this member to 2.
 
 
 ### -field nSamplesPerSec
 
-Sample rate, in samples per second (hertz). If <b>wFormatTag</b> is WAVE_FORMAT_PCM, then common values for <b>nSamplesPerSec</b> are 8.0 kHz, 11.025 kHz, 22.05 kHz, and 44.1 kHz. For non-PCM formats, this member must be computed according to the manufacturer's specification of the format tag.
+Specifies the sample frequency at which each channel should be played or recorded. If <b>wFormatTag</b> = WAVE_FORMAT_PCM, then common values for <b>nSamplesPerSec</b> are 8.0 kHz, 11.025 kHz, 22.05 kHz, and 44.1 kHz. For example, to specify a sample frequency of 11.025 kHz, set <b>nSamplesPerSec</b> to 11025. For non-PCM formats, this member should be computed according to the manufacturer's specification of the format tag.
 
 
 ### -field nAvgBytesPerSec
 
-Required average data-transfer rate, in bytes per second, for the format tag. If <b>wFormatTag</b> is WAVE_FORMAT_PCM, <b>nAvgBytesPerSec</b> must equal <b>nSamplesPerSec</b> × <b>nBlockAlign</b>. For non-PCM formats, this member must be computed according to the manufacturer's specification of the format tag.
+Specifies the required average data transfer rate in bytes per second. This value is useful for estimating buffer size.
 
 
 ### -field nBlockAlign
 
-Block alignment, in bytes. The block alignment is the minimum atomic unit of data for the <b>wFormatTag</b> format type. If <b>wFormatTag</b> is WAVE_FORMAT_PCM, <b>nBlockAlign</b> must equal (<b>nChannels</b> × <b>wBitsPerSample</b>) / 8. For non-PCM formats, this member must be computed according to the manufacturer's specification of the format tag.
+Specifies the block alignment in bytes. The block alignment is the size of the minimum atomic unit of data for the <b>wFormatTag</b> format type. If <b>wFormatTag</b> = WAVE_FORMAT_PCM or <b>wFormatTag</b> = WAVE_FORMAT_IEEE_FLOAT, set <b>nBlockAlign</b> to <code>(nChannels*wBitsPerSample)/8</code>, which is the size of a single audio frame. For non-PCM formats, this member should be computed according to the manufacturer's specification for the format tag.
 
-Software must process a multiple of <b>nBlockAlign</b> bytes of data at a time. Data written to and read from a device must always start at the beginning of a block. For example, it is illegal to start playback of PCM data in the middle of a sample (that is, on a non-block-aligned boundary). 
+Playback and record software should process a multiple of <b>nBlockAlign</b> bytes of data at a time. Data written to and read from a device should always start at the beginning of a block.
 
 
 ### -field wBitsPerSample
 
-Bits per sample for the <b>wFormatTag</b> format type. If <b>wFormatTag</b> is <b>WAVE_FORMAT_PCM</b>, then <b>wBitsPerSample</b> should be equal to 8 or 16. For non-PCM formats, this member must be set according to the manufacturer's specification of the format tag. If <b>wFormatTag</b> is <b>WAVE_FORMAT_EXTENSIBLE</b>, this value can be any integer multiple of 8. 
-
-Some compression schemes do not define a value for <b>wBitsPerSample</b>, so this member can be zero.
+Specifies the number of bits per sample for the format type specified by <b>wFormatTag</b>. If <b>wFormatTag</b> = WAVE_FORMAT_PCM, then <b>wBitsPerSample</b> should be set to either 8 or 16. If <b>wFormatTag</b> = WAVE_FORMAT_IEEE_FLOAT, <b>wBitsPerSample</b> should be set to 32. For non-PCM formats, set the value of this member according to the manufacturer's specification for the format tag. Some compression schemes cannot define a value for <b>wBitsPerSample</b>. In this case, set <b>wBitsPerSample</b> to zero.
 
 
 ### -field cbSize
 
+Specifies the size, in bytes, of extra format information appended to the end of the WAVEFORMATEX structure. This information can be used by non-PCM formats to store extra attributes for the <b>wFormatTag</b>. If no extra information is required by the <b>wFormatTag</b>, set this member to zero. For WAVE_FORMAT_PCM formats, clients should ignore this member (its value is implicitly zero). Because all clients might not follow this rule, we recommend that you initialize <b>cbSize</b> to zero for WAVE_FORMAT_PCM formats.
 
-            Size, in bytes, of extra format information appended to the end of the <b>WAVEFORMATEX</b> structure. This information can be used by non-PCM formats to store extra attributes for the <b>wFormatTag</b>. If no extra information is required by the <b>wFormatTag</b>, this member must be set to zero. For <b>WAVE_FORMAT_PCM</b> formats (and only <b>WAVE_FORMAT_PCM</b> formats), this member is ignored. However it is still recommended to set the value.
-          
+
+## -remarks
+
+
+
+The WAVEFORMATEX structure can describe only a subset of the formats that can be described by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff538802">WAVEFORMATEXTENSIBLE</a> structure. For example, WAVEFORMATEX can describe mono or (two-channel) stereo pulse-code modulated (PCM) streams with 8-bit or 16-bit integer sample values, or with 32-bit floating-point sample values. In addition, WAVEFORMATEX can describe popular non-PCM formats such as AC-3 and WMA Pro.
+
+WAVEFORMATEX can unambiguously describe mono or stereo PCM formats for which the number of valid bits per sample is the same as the sample container size. To describe a PCM format with more than two channels requires WAVEFORMATEXTENSIBLE, which has a channel mask to specify the speaker configuration (that is, the mapping of channels to physical speaker positions). To describe a PCM format for which the number of valid bits per sample is less than the sample container size (for example, a 20-bit sample stored in a three-byte container) requires WAVEFORMATEXTENSIBLE, which specifies both the number of valid sample bits and the sample container size.
+
+WAVEFORMATEX can describe non-PCM formats for which 16-bit format tags are defined in header file Mmreg.h (for example, WAVE_FORMAT_MPEG). The <b>wFormatTag</b> member of WAVEFORMATEX contains the format tag. Specify a non-PCM format for which a format tag is not defined in Mmreg.h  by a WAVEFORMATEXTENSIBLE structure, which contains a GUID that identifies the format. If necessary, a hardware vendor can independently generate a GUID value to identify a new format. Registering the GUID with Microsoft is unnecessary.
+
+For more information about the differences between WAVEFORMATEX and WAVEFORMATEXTENSIBLE, see <a href="https://msdn.microsoft.com/b80e651b-fb97-4502-8526-e844425805dc">Extensible Wave-Format Descriptors</a>.
+
+The <b>wFormatTag</b> member is set to one of the wave format tags that are defined in Mmreg.h. Tags for some of the more common nonproprietary formats are listed in the following table.
+
+<table>
+<tr>
+<th>wFormatTag Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td>
+WAVE_FORMAT_PCM
+
+</td>
+<td>
+PCM (pulse-code modulated) data in integer format.
+
+</td>
+</tr>
+<tr>
+<td>
+WAVE_FORMAT_IEEE_FLOAT
+
+</td>
+<td>
+PCM data in IEEE floating-point format.
+
+</td>
+</tr>
+<tr>
+<td>
+WAVE_FORMAT_DRM
+
+</td>
+<td>
+DRM-encoded format (for digital-audio content protected by Microsoft <a href="https://msdn.microsoft.com/7ce19196-5180-421f-b6be-ac4a235a8c16">Digital Rights Management</a>).
+
+</td>
+</tr>
+<tr>
+<td>
+WAVE_FORMAT_EXTENSIBLE
+
+</td>
+<td>
+Extensible WAVEFORMATEX structure (see <a href="https://msdn.microsoft.com/library/windows/hardware/ff538802">WAVEFORMATEXTENSIBLE</a>).
+
+</td>
+</tr>
+<tr>
+<td>
+WAVE_FORMAT_ALAW
+
+</td>
+<td>
+A-law-encoded format.
+
+</td>
+</tr>
+<tr>
+<td>
+WAVE_FORMAT_MULAW
+
+</td>
+<td>
+Mu-law-encoded format.
+
+</td>
+</tr>
+<tr>
+<td>
+WAVE_FORMAT_ADPCM
+
+</td>
+<td>
+ADPCM (adaptive differential pulse-code modulated) data.
+
+</td>
+</tr>
+<tr>
+<td>
+WAVE_FORMAT_MPEG
+
+</td>
+<td>
+MPEG-1 data format (stream conforms to ISO 11172-3 Audio specification).
+
+</td>
+</tr>
+<tr>
+<td>
+WAVE_FORMAT_DOLBY_AC3_SPDIF
+
+</td>
+<td>
+AC-3 (aka Dolby Digital) over S/PDIF.
+
+</td>
+</tr>
+<tr>
+<td>
+WAVE_FORMAT_WMASPDIF
+
+</td>
+<td>
+Windows Media Audio (WMA) Pro over S/PDIF.
+
+</td>
+</tr>
+</table>
+ 
+
+See Mmreg.h for the complete list of WAVE_FORMAT_<i>Xxx</i> formats.
+
+WAVEFORMATEX is nearly identical to the PCMWAVEFORMAT structure, which is an obsolete structure used to specify PCM formats. The only difference is that WAVEFORMATEX contains a <b>cbSize</b> member and PCMWAVEFORMAT does not. By convention, <b>cbSize</b> should be ignored when <b>wFormatTag</b> = WAVE_FORMAT_PCM (because <b>cbSize</b> is implicitly zero). This convention allows driver software to treat the WAVEFORMATEX and PCMWAVEFORMAT structures identically in the case of a PCM format. For more information about PCMWAVEFORMAT, see the Microsoft Windows SDK documentation.
+
+If <b>wFormatTag</b> = WAVE_FORMAT_PCM or <b>wFormatTag</b> = WAVE_FORMAT_IEEE_FLOAT, set <b>cbSize</b> to zero. For all other values of <b>wFormatTag</b>, <b>cbSize</b> specifies how many bytes of additional format data are appended to the WAVEFORMATEX structure.
+
+If <b>wFormatTag</b> = WAVE_FORMAT_EXTENSIBLE, set <b>cbSize</b> to <code>sizeof(WAVEFORMATEXTENSIBLE)-sizeof(WAVEFORMATEX)</code> plus the size of any format-specific data that is appended to the WAVEFORMATEXTENSIBLE structure.
+
+
 
 
 ## -see-also
@@ -114,11 +233,7 @@ Some compression schemes do not define a value for <b>wBitsPerSample</b>, so thi
 
 
 
-<a href="https://msdn.microsoft.com/378f6f43-5c05-4ae4-be24-956f9fc0cacf">DirectShow Structures</a>
-
-
-
-<a href="https://msdn.microsoft.com/b16cdcab-fa4f-4c9a-b1f3-af459bd33245">WAVEFORMATEXTENSIBLE Structure</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538802">WAVEFORMATEXTENSIBLE</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: controls\ImageList_Remove.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_remove.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ImageList_Remove, ImageList_Remove function [Windows Controls], _win32_ImageList_Remove, _win32_ImageList_Remove_cpp, commctrl/ImageList_Remove, controls.ImageList_Remove, controls._win32_ImageList_Remove
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CATEGORYINFO, *LPCATEGORYINFO
+req.typenames: STGOPTIONS
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,7 +7,7 @@ old-location: base\ivsscomponent_setbackupmetadata.htm
 old-project: VSS
 ms.assetid: 96d0a581-87a5-4f97-b23f-08e90a805de1
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: IVssComponent, IVssComponent interface [VSS], SetBackupMetadata method, IVssComponent::SetBackupMetadata, SetBackupMetadata method [VSS], SetBackupMetadata method [VSS], IVssComponent interface, SetBackupMetadata,IVssComponent.SetBackupMetadata, _win32_ivsscomponent_setbackupmetadata, base.ivsscomponent_setbackupmetadata, vswriter/IVssComponent::SetBackupMetadata
 ms.prod: windows-hardware
 ms.technology: windows-devices

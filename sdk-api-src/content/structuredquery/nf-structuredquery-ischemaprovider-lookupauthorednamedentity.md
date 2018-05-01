@@ -7,7 +7,7 @@ old-location: search\_search_ISchemaProvider_LookupAuthoredNamedEntity.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ischemaprovider\lookupauthorednamedentity.htm
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/24/2018
 ms.keywords: ISchemaProvider, ISchemaProvider interface [search], LookupAuthoredNamedEntity method, ISchemaProvider::LookupAuthoredNamedEntity, LookupAuthoredNamedEntity method [search], LookupAuthoredNamedEntity method [search], ISchemaProvider interface, LookupAuthoredNamedEntity,ISchemaProvider.LookupAuthoredNamedEntity, _search_ISchemaProvider_LookupAuthoredNamedEntity, search._search_ISchemaProvider_LookupAuthoredNamedEntity, structuredquery/ISchemaProvider::LookupAuthoredNamedEntity
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: controls\ITextFont_SetSubscript.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setsubscript.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextFont, ITextFont interface [Windows Controls], SetSubscript method, ITextFont::SetSubscript, SetSubscript method [Windows Controls], SetSubscript method [Windows Controls], ITextFont interface, SetSubscript,ITextFont.SetSubscript, _win32_ITextFont_SetSubscript, _win32_ITextFont_SetSubscript_cpp, controls.ITextFont_SetSubscript, controls._win32_ITextFont_SetSubscript, tom/ITextFont::SetSubscript
 ms.prod: windows-hardware
 ms.technology: windows-devices

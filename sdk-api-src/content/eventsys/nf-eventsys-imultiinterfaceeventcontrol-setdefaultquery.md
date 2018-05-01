@@ -7,7 +7,7 @@ old-location: cos\imultiinterfaceeventcontrol_setdefaultquery.htm
 old-project: cossdk
 ms.assetid: 31d544d4-8cac-46ae-9db7-c5b366ac6b2f
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: IMultiInterfaceEventControl, IMultiInterfaceEventControl interface [COM+], SetDefaultQuery method, IMultiInterfaceEventControl::SetDefaultQuery, SetDefaultQuery method [COM+], SetDefaultQuery method [COM+], IMultiInterfaceEventControl interface, SetDefaultQuery,IMultiInterfaceEventControl.SetDefaultQuery, _cos_IMultiInterfaceEventControl_SetDefaultQuery, cos.imultiinterfaceeventcontrol_setdefaultquery, eventsys/IMultiInterfaceEventControl::SetDefaultQuery
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\LongPtrToUChar.htm
 old-project: shell
 ms.assetid: f509120e-3cb4-4696-b68b-4304155eff3b
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: LongPtrToUChar, LongPtrToUChar function [Windows Shell], intsafe/LongPtrToUChar, shell.LongPtrToUChar
 ms.prod: windows-hardware
 ms.technology: windows-devices

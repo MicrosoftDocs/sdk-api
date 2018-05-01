@@ -7,7 +7,7 @@ old-location: cos\isecuritycallcontext_issecurityenabled.htm
 old-project: cossdk
 ms.assetid: b247d430-56b1-40be-a85a-5ed141d90c85
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: ISecurityCallContext, ISecurityCallContext interface [COM+], IsSecurityEnabled method, ISecurityCallContext::IsSecurityEnabled, IsSecurityEnabled method [COM+], IsSecurityEnabled method [COM+], ISecurityCallContext interface, IsSecurityEnabled,ISecurityCallContext.IsSecurityEnabled, _cos_ISecurityCallContext_IsSecurityEnabled, comsvcs/ISecurityCallContext::IsSecurityEnabled, cos.isecuritycallcontext_issecurityenabled
 ms.prod: windows-hardware
 ms.technology: windows-devices

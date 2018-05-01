@@ -7,7 +7,7 @@ old-location: dhcp\dhcpaddsubnetelementv4.htm
 old-project: DHCP
 ms.assetid: 97ffcafd-a74e-49ed-9e68-043b62a9017a
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/7/2018
 ms.keywords: DhcpAddSubnetElementV4, DhcpAddSubnetElementV4 function [DHCP], dhcp.dhcpaddsubnetelementv4, dhcpsapi/DhcpAddSubnetElementV4
 ms.prod: windows-hardware
 ms.technology: windows-devices

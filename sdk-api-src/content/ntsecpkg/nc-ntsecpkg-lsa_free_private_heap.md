@@ -7,7 +7,7 @@ old-location: security\freeprivateheap.htm
 old-project: SecAuthN
 ms.assetid: f1ca1450-c59c-4c0f-b68b-373f1a7c70da
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/24/2018
 ms.keywords: FreePrivateHeap, FreePrivateHeap function [Security], LSA_FREE_PRIVATE_HEAP, ntsecpkg/FreePrivateHeap, security.freeprivateheap
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # LSA_FREE_PRIVATE_HEAP callback

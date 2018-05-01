@@ -7,7 +7,7 @@ old-location: security\icertencodecrldistinfo_getdistpointcount.htm
 old-project: SecCrypto
 ms.assetid: 8c7d0d14-e755-4223-8cd5-0ebc784960cf
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: CCertEncodeCRLDistInfo object [Security], GetDistPointCount method, GetDistPointCount method [Security], GetDistPointCount method [Security], CCertEncodeCRLDistInfo object, GetDistPointCount method [Security], ICertEncodeCRLDistInfo interface, GetDistPointCount,ICertEncodeCRLDistInfo.GetDistPointCount, ICertEncodeCRLDistInfo, ICertEncodeCRLDistInfo interface [Security], GetDistPointCount method, ICertEncodeCRLDistInfo::GetDistPointCount, _certsrv_icertencodecrldistinfo_getdistpointcount, certenc/ICertEncodeCRLDistInfo::GetDistPointCount, security.icertencodecrldistinfo_getdistpointcount
 ms.prod: windows-hardware
 ms.technology: windows-devices

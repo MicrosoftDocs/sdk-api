@@ -7,7 +7,7 @@ old-location: termserv\wrds_listener_setting_level.htm
 old-project: TermServ
 ms.assetid: 09FF31B5-7566-440D-98BB-96C7A4192C30
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: "*PWRDS_LISTENER_SETTING_LEVEL, PWRDS_LISTENER_SETTING_LEVEL, PWRDS_LISTENER_SETTING_LEVEL enumeration pointer [Remote Desktop Services], WRDS_LISTENER_SETTING_LEVEL, WRDS_LISTENER_SETTING_LEVEL enumeration [Remote Desktop Services], WRDS_LISTENER_SETTING_LEVEL_1, WRDS_LISTENER_SETTING_LEVEL_INVALID, _WRDS_LISTENER_SETTING_LEVEL, termserv.wrds_listener_setting_level, wtsdefs/PWRDS_LISTENER_SETTING_LEVEL, wtsdefs/WRDS_LISTENER_SETTING_LEVEL, wtsdefs/WRDS_LISTENER_SETTING_LEVEL_1, wtsdefs/WRDS_LISTENER_SETTING_LEVEL_INVALID"
 ms.prod: windows-hardware
 ms.technology: windows-devices

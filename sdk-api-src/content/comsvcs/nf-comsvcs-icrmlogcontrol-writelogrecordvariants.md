@@ -7,7 +7,7 @@ old-location: cos\icrmlogcontrol_writelogrecordvariants.htm
 old-project: cossdk
 ms.assetid: ebd3943d-0c77-49fe-a53e-bc0c45e13a54
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: ICrmLogControl, ICrmLogControl interface [COM+], WriteLogRecordVariants method, ICrmLogControl::WriteLogRecordVariants, WriteLogRecordVariants method [COM+], WriteLogRecordVariants method [COM+], ICrmLogControl interface, WriteLogRecordVariants,ICrmLogControl.WriteLogRecordVariants, _dtc_ICrmLogControl_WriteLogRecordVariants, comsvcs/ICrmLogControl::WriteLogRecordVariants, cos.icrmlogcontrol_writelogrecordvariants
 ms.prod: windows-hardware
 ms.technology: windows-devices

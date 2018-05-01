@@ -7,7 +7,7 @@ old-location: automat\icreatetypeinfo_definefuncasdllentry.htm
 old-project: automat
 ms.assetid: 47ec09af-0642-4645-b946-acabbb7c028a
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: DefineFuncAsDllEntry method [Automation], DefineFuncAsDllEntry method [Automation], ICreateTypeInfo interface, DefineFuncAsDllEntry,ICreateTypeInfo.DefineFuncAsDllEntry, ICreateTypeInfo, ICreateTypeInfo interface [Automation], DefineFuncAsDllEntry method, ICreateTypeInfo::DefineFuncAsDllEntry, _oa96_ICreateTypeInfo_DefineFuncAsDllEntry, automat.icreatetypeinfo_definefuncasdllentry, oaidl/ICreateTypeInfo::DefineFuncAsDllEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ICreateTypeInfo::DefineFuncAsDllEntry method

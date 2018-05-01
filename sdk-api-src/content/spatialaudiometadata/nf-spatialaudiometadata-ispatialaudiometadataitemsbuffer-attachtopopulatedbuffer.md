@@ -7,7 +7,7 @@ old-location: coreaudio\ispatialaudiometadataitemsbuffer_attachtopopulatedbuffer
 old-project: CoreAudio
 ms.assetid: 7C17F504-6EB7-4A8D-B3E1-203D5D9B7E3C
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: AttachToBuffer method [Core Audio], AttachToBuffer method [Core Audio], ISpatialAudioMetadataItemsBuffer interface, AttachToPopulatedBuffer,ISpatialAudioMetadataItemsBuffer.AttachToPopulatedBuffer, ISpatialAudioMetadataItemsBuffer, ISpatialAudioMetadataItemsBuffer interface [Core Audio], AttachToBuffer method, ISpatialAudioMetadataItemsBuffer::AttachToBuffer, ISpatialAudioMetadataItemsBuffer::AttachToPopulatedBuffer, coreaudio.ispatialaudiometadataitemsbuffer_attachtopopulatedbuffer, spatialaudiometadata/ISpatialAudioMetadataItemsBuffer::AttachToBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

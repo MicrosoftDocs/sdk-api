@@ -7,7 +7,7 @@ old-location: shell\INameSpaceTreeControlEvents_OnBeforeStateImageChange.htm
 old-project: shell
 ms.assetid: c26296ae-f11c-4fe9-a74c-c97472dbcb1e
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: INameSpaceTreeControlEvents, INameSpaceTreeControlEvents interface [Windows Shell], OnBeforeStateImageChange method, INameSpaceTreeControlEvents::OnBeforeStateImageChange, OnBeforeStateImageChange method [Windows Shell], OnBeforeStateImageChange method [Windows Shell], INameSpaceTreeControlEvents interface, OnBeforeStateImageChange,INameSpaceTreeControlEvents.OnBeforeStateImageChange, _shell_INameSpaceTreeControlEvents_OnBeforeStateImageChange, shell.INameSpaceTreeControlEvents_OnBeforeStateImageChange, shobjidl/INameSpaceTreeControlEvents::OnBeforeStateImageChange
 ms.prod: windows-hardware
 ms.technology: windows-devices

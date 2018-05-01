@@ -7,7 +7,7 @@ old-location: base\timeprovopen.htm
 old-project: SysInfo
 ms.assetid: cf4f8d00-4c6f-4036-a179-444ff7505ab4
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: TimeProvOpen, TimeProvOpen callback function, _win32_timeprovopen, base.timeprovopen, timeprov/TimeProvOpen
 ms.prod: windows-hardware
 ms.technology: windows-devices

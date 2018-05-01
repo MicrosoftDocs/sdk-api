@@ -7,7 +7,7 @@ old-location: controls\ITextRange_GetText.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\gettext.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: GetText method [Windows Controls], GetText method [Windows Controls], ITextRange interface, GetText,ITextRange.GetText, ITextRange, ITextRange interface [Windows Controls], GetText method, ITextRange::GetText, _win32_ITextRange_GetText, _win32_ITextRange_GetText_cpp, controls.ITextRange_GetText, controls._win32_ITextRange_GetText, tom/ITextRange::GetText
 ms.prod: windows-hardware
 ms.technology: windows-devices

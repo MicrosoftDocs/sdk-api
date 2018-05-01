@@ -7,7 +7,7 @@ old-location: mstv\itunerequest_get_tuningspace.htm
 old-project: mstv
 ms.assetid: 6952df72-30f3-4c33-a0bf-d2ad8022042c
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: ITuneRequest, ITuneRequest interface [Microsoft TV Technologies], get_TuningSpace method, ITuneRequest::get_TuningSpace, ITuneRequestget_TuningSpace, get_TuningSpace method [Microsoft TV Technologies], get_TuningSpace method [Microsoft TV Technologies], ITuneRequest interface, get_TuningSpace,ITuneRequest.get_TuningSpace, mstv.itunerequest_get_tuningspace, tuner/ITuneRequest::get_TuningSpace
 ms.prod: windows-hardware
 ms.technology: windows-devices

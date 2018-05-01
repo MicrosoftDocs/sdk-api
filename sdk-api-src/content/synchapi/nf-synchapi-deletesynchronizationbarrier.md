@@ -7,7 +7,7 @@ old-location: base\deletesynchronizationbarrier.htm
 old-project: Sync
 ms.assetid: 04626b6f-f5f7-4042-9786-7cabd68636ac
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: DeleteSynchronizationBarrier, DeleteSynchronizationBarrier function, base.deletesynchronizationbarrier, synchapi/DeleteSynchronizationBarrier
 ms.prod: windows-hardware
 ms.technology: windows-devices

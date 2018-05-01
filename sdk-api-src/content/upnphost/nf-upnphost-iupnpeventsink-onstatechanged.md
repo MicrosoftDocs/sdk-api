@@ -7,7 +7,7 @@ old-location: upnp\iupnpeventsink_onstatechanged.htm
 old-project: UPnP
 ms.assetid: bb87345e-6a61-48fd-94dc-9a90f756a586
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/25/2018
 ms.keywords: IUPnPEventSink, IUPnPEventSink interface [UPnP APIs], OnStateChanged method, IUPnPEventSink::OnStateChanged, OnStateChanged method [UPnP APIs], OnStateChanged method [UPnP APIs], IUPnPEventSink interface, OnStateChanged,IUPnPEventSink.OnStateChanged, _upnp_iupnpeventsink_onstatechanged, upnp.iupnpeventsink_onstatechanged, upnphost/IUPnPEventSink::OnStateChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\icenroll4_installpkcs7ex.htm
 old-project: SecCrypto
 ms.assetid: 886fd5f0-d91f-439f-b259-dfb0206d3078
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: CEnroll object [Security], InstallPKCS7Ex method, ICEnroll4, ICEnroll4 interface [Security], InstallPKCS7Ex method, ICEnroll4::InstallPKCS7Ex, InstallPKCS7Ex method [Security], InstallPKCS7Ex method [Security], CEnroll object, InstallPKCS7Ex method [Security], ICEnroll4 interface, InstallPKCS7Ex,ICEnroll4.InstallPKCS7Ex, _xen_icenroll4_installpkcs7ex, security.icenroll4_installpkcs7ex, xenroll/ICEnroll4::InstallPKCS7Ex
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: rras\rassendbuffer.htm
 old-project: RRAS
 ms.assetid: 157a2bc7-351f-4170-b85b-ed789b4997ab
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: PFNRASSENDBUFFER, RasSendBuffer, RasSendBuffer callback function [RAS], _ras_rassendbuffer, ras/RasSendBuffer, rras.rassendbuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # PFNRASSENDBUFFER callback

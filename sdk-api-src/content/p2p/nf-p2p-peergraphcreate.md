@@ -7,7 +7,7 @@ old-location: p2p\peergraphcreate.htm
 old-project: P2PSdk
 ms.assetid: 62e3ec57-378c-4322-9ad4-a40d98e03dab
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/23/2018
 ms.keywords: PeerGraphCreate, PeerGraphCreate function [Peer Networking], p2p.peergraphcreate, p2p/PeerGraphCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: P2PGraph.lib
 req.dll: P2PGraph.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # PeerGraphCreate function

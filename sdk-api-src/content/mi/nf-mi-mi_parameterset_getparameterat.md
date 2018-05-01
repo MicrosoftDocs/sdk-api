@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_parameterset_getparameterat.htm
 old-project: wmi_v2
 ms.assetid: fcfd7104-dd63-4a48-9a20-dcec0dc33242
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/18/2018
 ms.keywords: MI_ParameterSet_GetParameterAt, MI_ParameterSet_GetParameterAt function [Windows Management Infrastructure (MI)], mi/MI_ParameterSet_GetParameterAt, wmi_v2.mi_parameterset_getparameterat
 ms.prod: windows-hardware
 ms.technology: windows-devices

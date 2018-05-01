@@ -7,7 +7,7 @@ old-location: wmp\iwmpnodewindowedhost_onwindowmessagefromrenderer.htm
 old-project: WMP
 ms.assetid: 44b334af-503d-4a67-88be-9c97910c315a
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPNodeWindowedHost, IWMPNodeWindowedHost interface [Windows Media Player], OnWindowMessageFromRenderer method, IWMPNodeWindowedHost::OnWindowMessageFromRenderer, IWMPNodeWindowedHostOnWindowMessageFromRendererRendering, OnWindowMessageFromRenderer method [Windows Media Player], OnWindowMessageFromRenderer method [Windows Media Player], IWMPNodeWindowedHost interface, OnWindowMessageFromRenderer,IWMPNodeWindowedHost.OnWindowMessageFromRenderer, wmp.iwmpnodewindowedhost_onwindowmessagefromrenderer, wmprealestate/IWMPNodeWindowedHost::OnWindowMessageFromRenderer
 ms.prod: windows-hardware
 ms.technology: windows-devices

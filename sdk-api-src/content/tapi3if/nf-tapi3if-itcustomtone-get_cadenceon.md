@@ -7,7 +7,7 @@ old-location: tapi3\itcustomtone_get_cadenceon.htm
 old-project: Tapi
 ms.assetid: 2f3da359-69e1-40a3-bfd6-42ade8de2379
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: ITCustomTone, ITCustomTone interface [TAPI 2.2], get_CadenceOn method, ITCustomTone::get_CadenceOn, _tapi3_itcustomtone_get_cadenceon, get_CadenceOn method [TAPI 2.2], get_CadenceOn method [TAPI 2.2], ITCustomTone interface, get_CadenceOn,ITCustomTone.get_CadenceOn, tapi3.itcustomtone_get_cadenceon, tapi3if/ITCustomTone::get_CadenceOn
 ms.prod: windows-hardware
 ms.technology: windows-devices

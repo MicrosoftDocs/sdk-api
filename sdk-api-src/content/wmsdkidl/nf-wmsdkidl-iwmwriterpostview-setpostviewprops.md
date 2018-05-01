@@ -7,7 +7,7 @@ old-location: wmformat\iwmwriterpostview_setpostviewprops.htm
 old-project: wmformat
 ms.assetid: e5b92065-fff3-41d2-b263-375ae14869e5
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMWriterPostView, IWMWriterPostView interface [windows Media Format], SetPostViewProps method, IWMWriterPostView::SetPostViewProps, IWMWriterPostViewSetPostViewProps, SetPostViewProps method [windows Media Format], SetPostViewProps method [windows Media Format], IWMWriterPostView interface, SetPostViewProps,IWMWriterPostView.SetPostViewProps, wmformat.iwmwriterpostview_setpostviewprops, wmsdkidl/IWMWriterPostView::SetPostViewProps
 ms.prod: windows-hardware
 ms.technology: windows-devices

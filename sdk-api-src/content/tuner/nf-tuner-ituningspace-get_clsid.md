@@ -7,7 +7,7 @@ old-location: mstv\ituningspace_get_clsid.htm
 old-project: mstv
 ms.assetid: def4aac2-3d0b-4ce6-9f6b-d13e7c3cc86d
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: ITuningSpace, ITuningSpace interface [Microsoft TV Technologies], get_CLSID method, ITuningSpace::get_CLSID, ITuningSpaceget_CLSID, get_CLSID method [Microsoft TV Technologies], get_CLSID method [Microsoft TV Technologies], ITuningSpace interface, get_CLSID,ITuningSpace.get_CLSID, mstv.ituningspace_get_clsid, tuner/ITuningSpace::get_CLSID
 ms.prod: windows-hardware
 ms.technology: windows-devices

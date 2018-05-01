@@ -7,7 +7,7 @@ old-location: dshow\iamcertifiedoutputprotection_keyexchange.htm
 old-project: DirectShow
 ms.assetid: 163164a2-e2a2-447d-b443-f92972197aff
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMCertifiedOutputProtection, IAMCertifiedOutputProtection interface [DirectShow], KeyExchange method, IAMCertifiedOutputProtection::KeyExchange, IAMCertifiedOutputProtectionKeyExchange, KeyExchange method [DirectShow], KeyExchange method [DirectShow], IAMCertifiedOutputProtection interface, KeyExchange,IAMCertifiedOutputProtection.KeyExchange, dshow.iamcertifiedoutputprotection_keyexchange, strmif/IAMCertifiedOutputProtection::KeyExchange
 ms.prod: windows-hardware
 ms.technology: windows-devices

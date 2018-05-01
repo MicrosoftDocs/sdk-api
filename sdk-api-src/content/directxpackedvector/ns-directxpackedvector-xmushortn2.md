@@ -7,7 +7,7 @@ old-location: dxmath\xmushortn2.htm
 old-project: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMUSHORTN2
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/23/2018
 ms.keywords: XMUSHORTN2, XMUSHORTN2 structure [DirectX Math Support APIs], directxpackedvector/XMUSHORTN2, dxmath.xmushortn2
 ms.prod: windows-hardware
 ms.technology: windows-devices

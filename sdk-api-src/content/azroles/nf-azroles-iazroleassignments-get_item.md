@@ -7,7 +7,7 @@ old-location: security\iazroleassignments_item.htm
 old-project: SecAuthZ
 ms.assetid: 68685b4e-6451-4243-990d-5302d478210f
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: IAzRoleAssignments, IAzRoleAssignments interface [Security], Item property, IAzRoleAssignments.Item, IAzRoleAssignments::get_Item, Item property [Security], Item property [Security], IAzRoleAssignments interface, azroles/IAzRoleAssignments::Item, azroles/IAzRoleAssignments::get_Item, get_Item,IAzRoleAssignments.get_Item, security.iazroleassignments_item
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: controls\itextdocument2_releaseimmcontext.htm
 old-project: Controls
 ms.assetid: 2172e20b-2343-4a65-a08e-0d8b8c101860
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextDocument2, ITextDocument2 interface [Windows Controls], ReleaseImmContext method, ITextDocument2::ReleaseImmContext, ReleaseImmContext method [Windows Controls], ReleaseImmContext method [Windows Controls], ITextDocument2 interface, ReleaseImmContext,ITextDocument2.ReleaseImmContext, controls.itextdocument2_releaseimmcontext, tom/ITextDocument2::ReleaseImmContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: controls\ITextRange_SetPoint.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setpoint.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextRange, ITextRange interface [Windows Controls], SetPoint method, ITextRange::SetPoint, SetPoint method [Windows Controls], SetPoint method [Windows Controls], ITextRange interface, SetPoint,ITextRange.SetPoint, _win32_ITextRange_SetPoint, _win32_ITextRange_SetPoint_cpp, controls.ITextRange_SetPoint, controls._win32_ITextRange_SetPoint, tom/ITextRange::SetPoint
 ms.prod: windows-hardware
 ms.technology: windows-devices

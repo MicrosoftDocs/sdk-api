@@ -7,7 +7,7 @@ old-location: wmp\iwmpevents_iwmpevents__markerhit.htm
 old-project: WMP
 ms.assetid: 5caf2982-d562-4306-b211-58741622c94c
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPEvents, IWMPEvents interface [Windows Media Player], MarkerHit method, IWMPEvents::MarkerHit, IWMPEventsMarkerHit, MarkerHit method [Windows Media Player], MarkerHit method [Windows Media Player], IWMPEvents interface, MarkerHit,IWMPEvents.MarkerHit, wmp.iwmpevents_iwmpevents__markerhit, wmp/IWMPEvents::MarkerHit
 ms.prod: windows-hardware
 ms.technology: windows-devices

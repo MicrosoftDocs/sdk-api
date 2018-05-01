@@ -7,7 +7,7 @@ old-location: dshow\ivmrvideostreamcontrol_setcolorkey.htm
 old-project: DirectShow
 ms.assetid: 30a4009c-5da0-4a07-9d4b-7c9047fb6dd8
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IVMRVideoStreamControl, IVMRVideoStreamControl interface [DirectShow], SetColorKey method, IVMRVideoStreamControl::SetColorKey, IVMRVideoStreamControlSetColorKey, SetColorKey method [DirectShow], SetColorKey method [DirectShow], IVMRVideoStreamControl interface, SetColorKey,IVMRVideoStreamControl.SetColorKey, dshow.ivmrvideostreamcontrol_setcolorkey, strmif/IVMRVideoStreamControl::SetColorKey
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\iazscope_createtask.htm
 old-project: SecAuthZ
 ms.assetid: 2be1afd7-8d10-4783-a5ea-3e8c0b103ceb
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: AzScope object [Security], CreateTask method, CreateTask method [Security], CreateTask method [Security], AzScope object, CreateTask method [Security], IAzScope interface, CreateTask,IAzScope.CreateTask, IAzScope, IAzScope interface [Security], CreateTask method, IAzScope::CreateTask, azroles/IAzScope::CreateTask, security.iazscope_createtask
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\IBrowserService2_OnFrameWindowActivateBS.htm
 old-project: shell
 ms.assetid: 02134f59-c162-4247-9508-7ba40eec388b
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: FALSE, IBrowserService2, IBrowserService2 interface [Windows Shell], OnFrameWindowActivateBS method, IBrowserService2::OnFrameWindowActivateBS, OnFrameWindowActivateBS method [Windows Shell], OnFrameWindowActivateBS method [Windows Shell], IBrowserService2 interface, OnFrameWindowActivateBS,IBrowserService2.OnFrameWindowActivateBS, TRUE, shdeprecated/IBrowserService2::OnFrameWindowActivateBS, shell.IBrowserService2_OnFrameWindowActivateBS, zone_IBrowserService2_OnFrameWindowActivateBS
 ms.prod: windows-hardware
 ms.technology: windows-devices

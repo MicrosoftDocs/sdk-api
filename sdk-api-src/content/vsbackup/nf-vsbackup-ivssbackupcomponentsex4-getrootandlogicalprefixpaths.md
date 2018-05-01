@@ -7,7 +7,7 @@ old-location: base\ivssbackupcomponentsex4_getrootandlogicalprefixpaths.htm
 old-project: VSS
 ms.assetid: 94F942A9-909D-4A9F-9DEA-CFFCFD00C1BF
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: GetRootAndLogicalPrefixPaths method, GetRootAndLogicalPrefixPaths method, IVssBackupComponentsEx4 interface, GetRootAndLogicalPrefixPaths,IVssBackupComponentsEx4.GetRootAndLogicalPrefixPaths, IVssBackupComponentsEx4, IVssBackupComponentsEx4 interface, GetRootAndLogicalPrefixPaths method, IVssBackupComponentsEx4::GetRootAndLogicalPrefixPaths, base.ivssbackupcomponentsex4_getrootandlogicalprefixpaths, vsbackup/IVssBackupComponentsEx4::GetRootAndLogicalPrefixPaths
 ms.prod: windows-hardware
 ms.technology: windows-devices

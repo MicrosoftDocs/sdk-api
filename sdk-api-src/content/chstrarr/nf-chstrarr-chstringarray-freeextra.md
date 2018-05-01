@@ -7,7 +7,7 @@ old-location: wmi\chstringarray_freeextra.htm
 old-project: WmiSdk
 ms.assetid: 5ed54cc4-284b-4cd7-80c1-e9c5ff27c4bf
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: CHStringArray, CHStringArray interface [Windows Management Instrumentation], FreeExtra method, CHStringArray::FreeExtra, FreeExtra method [Windows Management Instrumentation], FreeExtra method [Windows Management Instrumentation], CHStringArray interface, FreeExtra,CHStringArray.FreeExtra, _hmm_chstringarray_freeextra, chstrarr/CHStringArray::FreeExtra, wmi.chstringarray_freeextra
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CF_SYNC_ROOT_STANDARD_INFO
+req.typenames: CF_SYNC_STATUS
 topic_type:
 -	APIRef
 -	kbSyntax

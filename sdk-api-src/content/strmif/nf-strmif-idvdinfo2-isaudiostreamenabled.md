@@ -7,7 +7,7 @@ old-location: dshow\idvdinfo2_isaudiostreamenabled.htm
 old-project: DirectShow
 ms.assetid: 34938f9b-d3d8-4f38-95b4-bd65a5e88458
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IDvdInfo2, IDvdInfo2 interface [DirectShow], IsAudioStreamEnabled method, IDvdInfo2::IsAudioStreamEnabled, IDvdInfo2IsAudioStreamEnabled, IsAudioStreamEnabled method [DirectShow], IsAudioStreamEnabled method [DirectShow], IDvdInfo2 interface, IsAudioStreamEnabled,IDvdInfo2.IsAudioStreamEnabled, dshow.idvdinfo2_isaudiostreamenabled, strmif/IDvdInfo2::IsAudioStreamEnabled
 ms.prod: windows-hardware
 ms.technology: windows-devices

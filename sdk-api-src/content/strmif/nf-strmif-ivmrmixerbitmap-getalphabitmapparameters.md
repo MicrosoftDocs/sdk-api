@@ -7,7 +7,7 @@ old-location: dshow\ivmrmixerbitmap_getalphabitmapparameters.htm
 old-project: DirectShow
 ms.assetid: d03cc6ad-e09b-4af7-93b7-51880465c0b6
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetAlphaBitmapParameters method [DirectShow], GetAlphaBitmapParameters method [DirectShow], IVMRMixerBitmap interface, GetAlphaBitmapParameters,IVMRMixerBitmap.GetAlphaBitmapParameters, IVMRMixerBitmap, IVMRMixerBitmap interface [DirectShow], GetAlphaBitmapParameters method, IVMRMixerBitmap::GetAlphaBitmapParameters, IVMRMixerBitmapGetAlphaBitmapParameters, dshow.ivmrmixerbitmap_getalphabitmapparameters, strmif/IVMRMixerBitmap::GetAlphaBitmapParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices

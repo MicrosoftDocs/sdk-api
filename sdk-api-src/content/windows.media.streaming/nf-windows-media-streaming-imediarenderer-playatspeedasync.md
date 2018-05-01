@@ -7,7 +7,7 @@ old-location: mediastreaming\imediarenderer_playatspeedasync.htm
 old-project: mediastreaming
 ms.assetid: 368510CF-FC36-4D92-AE92-024D53EE3BAD
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/10/2018
 ms.keywords: IMediaRenderer, IMediaRenderer interface [Media Streaming API], PlayAtSpeedAsync method, IMediaRenderer::PlayAtSpeedAsync, PlayAtSpeedAsync method [Media Streaming API], PlayAtSpeedAsync method [Media Streaming API], IMediaRenderer interface, PlayAtSpeedAsync,IMediaRenderer.PlayAtSpeedAsync, mediastreaming.imediarenderer_playatspeedasync, windows/IMediaRenderer::PlayAtSpeedAsync
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: PDF_RENDER_PARAMS
+req.typenames: TimeSpan
 topic_type:
 -	APIRef
 -	kbSyntax

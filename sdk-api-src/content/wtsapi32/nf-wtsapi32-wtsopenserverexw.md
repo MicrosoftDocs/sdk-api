@@ -7,7 +7,7 @@ old-location: termserv\wtsopenserverex.htm
 old-project: TermServ
 ms.assetid: 8122de66-c096-4bd8-95ff-ed64b88afcae
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: WTSOpenServerEx, WTSOpenServerEx function [Remote Desktop Services], WTSOpenServerExA, WTSOpenServerExW, termserv.wtsopenserverex, wtsapi32/WTSOpenServerEx, wtsapi32/WTSOpenServerExA, wtsapi32/WTSOpenServerExW
 ms.prod: windows-hardware
 ms.technology: windows-devices

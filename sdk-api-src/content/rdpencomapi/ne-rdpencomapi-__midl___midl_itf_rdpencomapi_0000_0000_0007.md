@@ -25,7 +25,7 @@ req.idl: Rdpencomapi.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: 
+req.type-library: MsTscAx.dll
 req.typenames: RDPSRAPI_WND_FLAGS
 topic_type:
 -	APIRef
@@ -39,9 +39,9 @@ api_name:
 product: Windows
 targetos: Windows
 req.lib: 
-req.dll: 
+req.dll: MsTscAx.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # __MIDL___MIDL_itf_rdpencomapi_0000_0000_0007 enumeration

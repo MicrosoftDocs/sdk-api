@@ -7,7 +7,7 @@ old-location: security\iazapplication_createtask.htm
 old-project: SecAuthZ
 ms.assetid: 9c15f1aa-f0d7-4c6b-8c3c-b6537f7dac90
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: AzApplication object [Security], CreateTask method, CreateTask method [Security], CreateTask method [Security], AzApplication object, CreateTask method [Security], IAzApplication interface, CreateTask,IAzApplication.CreateTask, IAzApplication, IAzApplication interface [Security], CreateTask method, IAzApplication::CreateTask, azroles/IAzApplication::CreateTask, security.iazapplication_createtask
 ms.prod: windows-hardware
 ms.technology: windows-devices

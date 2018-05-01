@@ -7,7 +7,7 @@ old-location: lwef\iemptyvolumecachecallback_scanprogress.htm
 old-project: lwef
 ms.assetid: 41ebc9db-d402-47d7-b303-f87357ae820d
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/10/2018
 ms.keywords: EVCCBF_LASTNOTIFICATION, IEmptyVolumeCacheCallBack, IEmptyVolumeCacheCallBack interface [Legacy Windows Environment Features], ScanProgress method, IEmptyVolumeCacheCallBack::ScanProgress, ScanProgress method [Legacy Windows Environment Features], ScanProgress method [Legacy Windows Environment Features], IEmptyVolumeCacheCallBack interface, ScanProgress,IEmptyVolumeCacheCallBack.ScanProgress, _win32_IEmptyVolumeCacheCallBack_ScanProgress, emptyvc/IEmptyVolumeCacheCallBack::ScanProgress, lwef.iemptyvolumecachecallback_scanprogress, shell.iemptyvolumecachecallback_scanprogress
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MAPPING_SERVICE_INFO, *PMAPPING_SERVICE_INFO
+req.typenames: EMI_VERSION
 topic_type:
 -	APIRef
 -	kbSyntax

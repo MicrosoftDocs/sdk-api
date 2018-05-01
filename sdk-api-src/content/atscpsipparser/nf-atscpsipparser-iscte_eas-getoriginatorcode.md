@@ -7,7 +7,7 @@ old-location: mstv\iscte_eas_getoriginatorcode.htm
 old-project: mstv
 ms.assetid: a46f0922-9733-411a-8a03-59e1c98dbdd8
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetOriginatorCode method [Microsoft TV Technologies], GetOriginatorCode method [Microsoft TV Technologies], ISCTE_EAS interface, GetOriginatorCode,ISCTE_EAS.GetOriginatorCode, ISCTE_EAS, ISCTE_EAS interface [Microsoft TV Technologies], GetOriginatorCode method, ISCTE_EAS::GetOriginatorCode, ISCTE_EASGetOriginatorCode, atscpsipparser/ISCTE_EAS::GetOriginatorCode, mstv.iscte_eas_getoriginatorcode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_WRITER_PAYLOAD_STREAM
+req.typenames: AsyncStatus
 topic_type:
 -	APIRef
 -	kbSyntax

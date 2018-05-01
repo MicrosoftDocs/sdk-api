@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_class_getservername.htm
 old-project: wmi_v2
 ms.assetid: bb7312a0-f851-44a4-8467-31bbe1a9ac41
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/18/2018
 ms.keywords: MI_Class_GetServerName, MI_Class_GetServerName function [Windows Management Infrastructure (MI)], mi/MI_Class_GetServerName, wmi_v2.mi_class_getservername
 ms.prod: windows-hardware
 ms.technology: windows-devices

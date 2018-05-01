@@ -7,7 +7,7 @@ old-location: winrt\ivirtualsurfaceupdatescallbacknative_updatesneeded.htm
 old-project: WinRT
 ms.assetid: D689C977-3182-41FE-A789-8A349AC2FB10
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/24/2018
 ms.keywords: IVirtualSurfaceUpdatesCallbackNative, IVirtualSurfaceUpdatesCallbackNative interface [Windows Runtime], UpdatesNeeded method, IVirtualSurfaceUpdatesCallbackNative::UpdatesNeeded, UpdatesNeeded method [Windows Runtime], UpdatesNeeded method [Windows Runtime], IVirtualSurfaceUpdatesCallbackNative interface, UpdatesNeeded,IVirtualSurfaceUpdatesCallbackNative.UpdatesNeeded, windows/IVirtualSurfaceUpdatesCallbackNative::UpdatesNeeded, winrt.ivirtualsurfaceupdatescallbacknative_updatesneeded
 ms.prod: windows-hardware
 ms.technology: windows-devices

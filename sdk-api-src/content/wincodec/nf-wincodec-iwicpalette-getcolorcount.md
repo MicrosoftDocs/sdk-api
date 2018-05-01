@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicpalette_getcolorcount.htm
 old-project: wic
 ms.assetid: 133ee983-8df2-4053-aa8a-471aa679b412
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: GetColorCount method [Windows Imaging Component], GetColorCount method [Windows Imaging Component], IWICPalette interface, GetColorCount,IWICPalette.GetColorCount, IWICPalette, IWICPalette interface [Windows Imaging Component], GetColorCount method, IWICPalette::GetColorCount, _wic_codec_iwicpalette_getcolorcount, wic._wic_codec_iwicpalette_getcolorcount, wincodec/IWICPalette::GetColorCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -63,14 +63,6 @@ req.product: Windows Address Book 5.0
 
 
 
-### -field out
-
-
-                    When <a href="https://msdn.microsoft.com/6e5f352b-5422-4bba-9525-7850bdddf0a5">WsMatchPolicyAlternative</a> returns NOERROR, the
-                    entire contents of this structure will be filled out.
-                
-
-
 ### -field id
 
 
@@ -117,5 +109,13 @@ req.product: Windows Address Book 5.0
                     The total size of the allowedValues array, in bytes.  This
                     size must be a multiple of the size of the type of the value
                     of the property.
+                
+
+
+### -field out
+
+
+                    When <a href="https://msdn.microsoft.com/6e5f352b-5422-4bba-9525-7850bdddf0a5">WsMatchPolicyAlternative</a> returns NOERROR, the
+                    entire contents of this structure will be filled out.
                 
 

@@ -7,7 +7,7 @@ old-location: security\iocspadmin_ocspcaconfigurationcollection_method.htm
 old-project: SecCrypto
 ms.assetid: 77be6c77-f693-448b-ad2d-f148b2b3dc78
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: IOCSPAdmin, IOCSPAdmin interface [Security], OCSPCAConfigurationCollection property, IOCSPAdmin.OCSPCAConfigurationCollection, IOCSPAdmin::get_OCSPCAConfigurationCollection, OCSPCAConfigurationCollection property [Security], OCSPCAConfigurationCollection property [Security], IOCSPAdmin interface, certadm/IOCSPAdmin::OCSPCAConfigurationCollection, certadm/IOCSPAdmin::get_OCSPCAConfigurationCollection, get_OCSPCAConfigurationCollection,IOCSPAdmin.get_OCSPCAConfigurationCollection, security.iocspadmin_ocspcaconfigurationcollection_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CHANNEL_ENTRY_POINTS, *PCHANNEL_ENTRY_POINTS
+req.typenames: 
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_client_info_array_vq.htm
 old-project: DHCP
 ms.assetid: 80474274-4ef8-4e53-85b4-78cb953e9831
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/7/2018
 ms.keywords: "*LPDHCP_CLIENT_INFO_ARRAY_VQ, DHCP_CLIENT_INFO_ARRAY_VQ, DHCP_CLIENT_INFO_ARRAY_VQ structure [DHCP], PDHCP_CLIENT_INFO_ARRAY_VQ, PDHCP_CLIENT_INFO_ARRAY_VQ structure pointer [DHCP], _DHCP_CLIENT_INFO_ARRAY_VQ, dhcp.dhcp_client_info_array_vq, dhcpsapi/DHCP_CLIENT_INFO_ARRAY_VQ, dhcpsapi/PDHCP_CLIENT_INFO_ARRAY_VQ"
 ms.prod: windows-hardware
 ms.technology: windows-devices

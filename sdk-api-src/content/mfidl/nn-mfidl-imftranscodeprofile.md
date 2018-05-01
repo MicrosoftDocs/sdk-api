@@ -7,7 +7,7 @@ old-location: mf\imftranscodeprofile.htm
 old-project: medfound
 ms.assetid: 82e012e0-84d8-4791-8b6f-bda58b498a90
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFTranscodeProfile, IMFTranscodeProfile interface [Media Foundation], IMFTranscodeProfile interface [Media Foundation], described, mf.imftranscodeprofile, mfidl/IMFTranscodeProfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,7 @@ api_name:
 product: Windows
 targetos: Windows
 req.lib: Mfuuid.lib
-req.dll: Mfplat.dll
+req.dll: Mfsensorgroup.dll
 req.irql: 
 req.product: GDI+ 1.1
 ---

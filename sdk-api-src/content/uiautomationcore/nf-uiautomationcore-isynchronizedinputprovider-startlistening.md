@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ISynchronizedInputProvider_StartListening.htm
 old-project: WinAuto
 ms.assetid: ad9e6ca3-b38c-41f8-9c61-ce51786672eb
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: ISynchronizedInputProvider, ISynchronizedInputProvider interface [Windows Accessibility], StartListening method, ISynchronizedInputProvider::StartListening, StartListening method [Windows Accessibility], StartListening method [Windows Accessibility], ISynchronizedInputProvider interface, StartListening,ISynchronizedInputProvider.StartListening, uiauto.uiauto_ISynchronizedInputProvider_StartListening, uiauto_ISynchronizedInputProvider_StartListening, uiautomationcore/ISynchronizedInputProvider::StartListening, winauto.uiauto_ISynchronizedInputProvider_StartListening
 ms.prod: windows-hardware
 ms.technology: windows-devices

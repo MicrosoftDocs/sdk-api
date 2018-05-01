@@ -7,7 +7,7 @@ old-location: dshow\iamstats_get_count.htm
 old-project: DirectShow
 ms.assetid: 48f2543a-7c93-4d4f-a568-b8066e9545fd
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMStats, IAMStats interface [DirectShow], get_Count method, IAMStats::get_Count, IAMStatsget_Count, control/IAMStats::get_Count, dshow.iamstats_get_count, get_Count method [DirectShow], get_Count method [DirectShow], IAMStats interface, get_Count,IAMStats.get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices

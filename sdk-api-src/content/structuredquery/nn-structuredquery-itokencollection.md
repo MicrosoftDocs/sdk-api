@@ -7,7 +7,7 @@ old-location: search\_search_ITokenCollection.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\itokencollection\itokencollection.htm
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/24/2018
 ms.keywords: ITokenCollection, ITokenCollection interface [search], ITokenCollection interface [search], described, _search_ITokenCollection, search._search_ITokenCollection, structuredquery/ITokenCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices

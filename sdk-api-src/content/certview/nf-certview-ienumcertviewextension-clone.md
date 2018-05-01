@@ -7,7 +7,7 @@ old-location: security\ienumcertviewextension_clone.htm
 old-project: SecCrypto
 ms.assetid: 2b8e19e4-459f-45f0-abb6-e1e0e115e0f5
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: Clone method [Security], Clone method [Security], IEnumCERTVIEWEXTENSION interface, Clone,IEnumCERTVIEWEXTENSION.Clone, IEnumCERTVIEWEXTENSION, IEnumCERTVIEWEXTENSION interface [Security], Clone method, IEnumCERTVIEWEXTENSION::Clone, _certsrv_ienumcertviewextension_clone, certview/IEnumCERTVIEWEXTENSION::Clone, security.ienumcertviewextension_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

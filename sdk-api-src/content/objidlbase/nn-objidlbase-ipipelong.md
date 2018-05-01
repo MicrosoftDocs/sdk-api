@@ -7,7 +7,7 @@ old-location: com\ipipelong.htm
 old-project: com
 ms.assetid: c1b4d3b3-e1bf-4441-8cea-b667b82c4c27
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IPipeLong, IPipeLong interface [COM], IPipeLong interface [COM], described, _com_ipipelong, com.ipipelong, objidlbase/IPipeLong
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IPipeLong interface

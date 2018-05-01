@@ -7,7 +7,7 @@ old-location: tablet\irealtimestylus_getstylusasyncplugincount.htm
 old-project: tablet
 ms.assetid: 45861b92-0a2c-42ec-96e5-c3afd45e0e85
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: 45861b92-0a2c-42ec-96e5-c3afd45e0e85, GetStylusAsyncPluginCount method [Tablet PC], GetStylusAsyncPluginCount method [Tablet PC], IRealTimeStylus interface, GetStylusAsyncPluginCount,IRealTimeStylus.GetStylusAsyncPluginCount, IRealTimeStylus, IRealTimeStylus interface [Tablet PC], GetStylusAsyncPluginCount method, IRealTimeStylus::GetStylusAsyncPluginCount, rtscom/IRealTimeStylus::GetStylusAsyncPluginCount, tablet.irealtimestylus_getstylusasyncplugincount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: RTSCom.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IRealTimeStylus::GetStylusAsyncPluginCount method

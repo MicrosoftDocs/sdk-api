@@ -7,7 +7,7 @@ old-location: secbiomet\winbioremovecredential.htm
 old-project: SecBioMet
 ms.assetid: 56a5d510-f2cb-457b-884a-ad08ea21ce01
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: WINBIO_CREDENTIAL_ALL, WINBIO_CREDENTIAL_PASSWORD, WinBioRemoveCredential, WinBioRemoveCredential function [Windows Biometric Framework API], secbiomet.winbioremovecredential, winbio/WinBioRemoveCredential
 ms.prod: windows-hardware
 ms.technology: windows-devices

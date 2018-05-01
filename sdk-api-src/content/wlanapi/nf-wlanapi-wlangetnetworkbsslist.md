@@ -7,7 +7,7 @@ old-location: nwifi\wlangetnetworkbsslist.htm
 old-project: NativeWiFi
 ms.assetid: 62f51b6e-3db1-48cd-8853-0dbe522c5e82
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/13/2018
 ms.keywords: WlanGetNetworkBssList, WlanGetNetworkBssList function [NativeWIFI], dot11_BSS_type_any, dot11_BSS_type_independent, dot11_BSS_type_infrastructure, nwifi.wlangetnetworkbsslist, wlanapi/WlanGetNetworkBssList
 ms.prod: windows-hardware
 ms.technology: windows-devices

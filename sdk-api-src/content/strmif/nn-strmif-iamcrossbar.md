@@ -7,7 +7,7 @@ old-location: dshow\iamcrossbar.htm
 old-project: DirectShow
 ms.assetid: 9eef4923-62e7-475e-85e6-de8c1eefe483
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMCrossbar, IAMCrossbar interface [DirectShow], IAMCrossbar interface [DirectShow], described, IAMCrossbarInterface, dshow.iamcrossbar, strmif/IAMCrossbar
 ms.prod: windows-hardware
 ms.technology: windows-devices

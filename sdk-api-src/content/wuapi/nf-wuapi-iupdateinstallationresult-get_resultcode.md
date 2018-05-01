@@ -7,7 +7,7 @@ old-location: wua\iupdateinstallationresult_resultcode.htm
 old-project: Wua_Sdk
 ms.assetid: d254b49e-fef2-4f46-a013-df736cd94cb3
 ms.author: windowsdriverdev
-ms.date: 3/15/2018
+ms.date: 4/18/2018
 ms.keywords: IUpdateInstallationResult, IUpdateInstallationResult interface [Windows Update Agent], ResultCode property, IUpdateInstallationResult.ResultCode, IUpdateInstallationResult::get_ResultCode, ResultCode property [Windows Update Agent], ResultCode property [Windows Update Agent], IUpdateInstallationResult interface, get_ResultCode,IUpdateInstallationResult.get_ResultCode, wua.iupdateinstallationresult_resultcode, wuapi/IUpdateInstallationResult::ResultCode, wuapi/IUpdateInstallationResult::get_ResultCode
 ms.prod: windows-hardware
 ms.technology: windows-devices

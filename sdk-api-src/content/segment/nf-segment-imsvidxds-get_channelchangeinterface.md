@@ -7,7 +7,7 @@ old-location: mstv\imsvidxds_get_channelchangeinterface.htm
 old-project: mstv
 ms.assetid: 078bd274-b8dc-425b-b14f-3dacff6744bb
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidXDS, IMSVidXDS interface [Microsoft TV Technologies], get_ChannelChangeInterface method, IMSVidXDS::get_ChannelChangeInterface, IMSVidXDSgetChannelChangeInterface, get_ChannelChangeInterface method [Microsoft TV Technologies], get_ChannelChangeInterface method [Microsoft TV Technologies], IMSVidXDS interface, get_ChannelChangeInterface,IMSVidXDS.get_ChannelChangeInterface, mstv.imsvidxds_get_channelchangeinterface, segment/IMSVidXDS::get_ChannelChangeInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidXDS::get_ChannelChangeInterface method

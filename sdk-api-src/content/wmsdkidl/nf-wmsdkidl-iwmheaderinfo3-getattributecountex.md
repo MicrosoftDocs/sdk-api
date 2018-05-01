@@ -7,7 +7,7 @@ old-location: wmformat\iwmheaderinfo3_getattributecountex.htm
 old-project: wmformat
 ms.assetid: 8c56d7b6-4f59-450e-938c-b7d0bd37ea08
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: GetAttributeCountEx method [windows Media Format], GetAttributeCountEx method [windows Media Format], IWMHeaderInfo3 interface, GetAttributeCountEx,IWMHeaderInfo3.GetAttributeCountEx, IWMHeaderInfo3, IWMHeaderInfo3 interface [windows Media Format], GetAttributeCountEx method, IWMHeaderInfo3::GetAttributeCountEx, IWMHeaderInfo3GetAttributeCountEx, wmformat.iwmheaderinfo3_getattributecountex, wmsdkidl/IWMHeaderInfo3::GetAttributeCountEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

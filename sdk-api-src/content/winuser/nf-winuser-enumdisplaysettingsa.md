@@ -7,7 +7,7 @@ old-location: gdi\enumdisplaysettings.htm
 old-project: gdi
 ms.assetid: af73610b-bcd8-4660-800e-84fa0cc5b4eb
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/17/2018
 ms.keywords: ENUM_CURRENT_SETTINGS, ENUM_REGISTRY_SETTINGS, EnumDisplaySettings, EnumDisplaySettings function [Windows GDI], EnumDisplaySettingsA, EnumDisplaySettingsW, _win32_EnumDisplaySettings, gdi.enumdisplaysettings, winuser/EnumDisplaySettings, winuser/EnumDisplaySettingsA, winuser/EnumDisplaySettingsW
 ms.prod: windows-hardware
 ms.technology: windows-devices

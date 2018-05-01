@@ -7,7 +7,7 @@ old-location: security\iocsppropertycollection_initializefromproperties_method.h
 old-project: SecCrypto
 ms.assetid: e944af4e-80e4-470e-be04-770cf0f89871
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: IOCSPPropertyCollection, IOCSPPropertyCollection interface [Security], InitializeFromProperties method, IOCSPPropertyCollection::InitializeFromProperties, InitializeFromProperties method [Security], InitializeFromProperties method [Security], IOCSPPropertyCollection interface, InitializeFromProperties,IOCSPPropertyCollection.InitializeFromProperties, certadm/IOCSPPropertyCollection::InitializeFromProperties, security.iocsppropertycollection_initializefromproperties_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CHANNEL_ENTRY_POINTS, *PCHANNEL_ENTRY_POINTS
+req.typenames: 
 topic_type:
 -	APIRef
 -	kbSyntax

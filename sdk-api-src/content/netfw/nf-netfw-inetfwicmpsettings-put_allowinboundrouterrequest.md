@@ -7,7 +7,7 @@ old-location: ics\inetfwicmpsettings_allowinboundrouterrequest.htm
 old-project: ICS
 ms.assetid: 26d9b17c-808d-4d01-921a-9ac435f327db
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: AllowInboundRouterRequest property [ICS/ICF], AllowInboundRouterRequest property [ICS/ICF], INetFwIcmpSettings interface, INetFwIcmpSettings, INetFwIcmpSettings interface [ICS/ICF], AllowInboundRouterRequest property, INetFwIcmpSettings.AllowInboundRouterRequest, INetFwIcmpSettings::get_AllowInboundRouterRequest, INetFwIcmpSettings::put_AllowInboundRouterRequest, ics.inetfwicmpsettings_allowinboundrouterrequest, netfw/INetFwIcmpSettings::AllowInboundRouterRequest, netfw/INetFwIcmpSettings::get_AllowInboundRouterRequest, netfw/INetFwIcmpSettings::put_AllowInboundRouterRequest, put_AllowInboundRouterRequest,INetFwIcmpSettings.put_AllowInboundRouterRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: 
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # INetFwIcmpSettings::put_AllowInboundRouterRequest method

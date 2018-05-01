@@ -7,7 +7,7 @@ old-location: http\httpcloseserversession.htm
 old-project: Http
 ms.assetid: d1ceb491-c726-4aa0-b17e-f98f34279e32
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: HttpCloseServerSession, HttpCloseServerSession function [HTTP], http.httpcloseserversession, http/HttpCloseServerSession
 ms.prod: windows-hardware
 ms.technology: windows-devices

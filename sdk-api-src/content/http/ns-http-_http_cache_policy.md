@@ -7,7 +7,7 @@ old-location: http\http_cache_policy.htm
 old-project: Http
 ms.assetid: 91fcbf35-ef8b-4f70-9c31-3f741c0e2f6e
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: "*PHTTP_CACHE_POLICY, HTTP_CACHE_POLICY, HTTP_CACHE_POLICY structure [HTTP], HttpCachePolicyNocache, HttpCachePolicyTimeToLive, HttpCachePolicyUserInvalidates, PHTTP_CACHE_POLICY, PHTTP_CACHE_POLICY structure pointer [HTTP], _HTTP_CACHE_POLICY, _http_http_cache_policy, http.http_cache_policy, http/HTTP_CACHE_POLICY, http/PHTTP_CACHE_POLICY"
 ms.prod: windows-hardware
 ms.technology: windows-devices

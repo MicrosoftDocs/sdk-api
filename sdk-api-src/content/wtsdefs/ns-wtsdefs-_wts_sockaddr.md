@@ -7,7 +7,7 @@ old-location: termserv\wts_sockaddr.htm
 old-project: TermServ
 ms.assetid: 03fb0225-20d1-491a-a052-0a23fa09d01a
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: "*PWTS_SOCKADDR, PWRDS_SOCKADDR, PWRDS_SOCKADDR structure pointer [Remote Desktop Services], PWTS_SOCKADDR, PWTS_SOCKADDR structure pointer [Remote Desktop Services], WRDS_SOCKADDR, WRDS_SOCKADDR structure [Remote Desktop Services], WTS_SOCKADDR, WTS_SOCKADDR structure [Remote Desktop Services], _WTS_SOCKADDR, termserv.wts_sockaddr, wtsdefs/PWRDS_SOCKADDR, wtsdefs/PWTS_SOCKADDR, wtsdefs/WRDS_SOCKADDR, wtsdefs/WTS_SOCKADDR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,6 +58,11 @@ Contains a socket address.
 
 
 
+### -field sin_family
+
+An integer index into the following structure members.
+
+
 ### -field u
 
 
@@ -104,9 +109,4 @@ Specifies the IP address.
 ### -field u.ipv6.sin6_scope_id
 
 Contains a scope ID
-
-
-### -field sin_family
-
-An integer index into the following structure members.
 

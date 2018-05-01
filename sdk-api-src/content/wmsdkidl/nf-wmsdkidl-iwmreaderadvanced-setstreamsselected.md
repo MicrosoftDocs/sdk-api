@@ -7,7 +7,7 @@ old-location: wmformat\iwmreaderadvanced_setstreamsselected.htm
 old-project: wmformat
 ms.assetid: 921ab9fe-757f-4856-9fbc-b615bf92d90f
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMReaderAdvanced, IWMReaderAdvanced interface [windows Media Format], SetStreamsSelected method, IWMReaderAdvanced::SetStreamsSelected, IWMReaderAdvancedSetStreamsSelected, SetStreamsSelected method [windows Media Format], SetStreamsSelected method [windows Media Format], IWMReaderAdvanced interface, SetStreamsSelected,IWMReaderAdvanced.SetStreamsSelected, wmformat.iwmreaderadvanced_setstreamsselected, wmsdkidl/IWMReaderAdvanced::SetStreamsSelected
 ms.prod: windows-hardware
 ms.technology: windows-devices

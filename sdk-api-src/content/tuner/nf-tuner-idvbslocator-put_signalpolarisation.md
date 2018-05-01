@@ -7,7 +7,7 @@ old-location: mstv\idvbslocator_put_signalpolarisation.htm
 old-project: mstv
 ms.assetid: cc94c956-6895-451a-8d1c-2001a6fbec63
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IDVBSLocator, IDVBSLocator interface [Microsoft TV Technologies], put_SignalPolarisation method, IDVBSLocator::put_SignalPolarisation, IDVBSLocatorput_SignalPolarisation, mstv.idvbslocator_put_signalpolarisation, put_SignalPolarisation method [Microsoft TV Technologies], put_SignalPolarisation method [Microsoft TV Technologies], IDVBSLocator interface, put_SignalPolarisation,IDVBSLocator.put_SignalPolarisation, tuner/IDVBSLocator::put_SignalPolarisation
 ms.prod: windows-hardware
 ms.technology: windows-devices

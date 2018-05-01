@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement_BuildUpdatedCache.htm
 old-project: WinAuto
 ms.assetid: b2499b3c-433f-4e2f-937c-78da66c16203
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: BuildUpdatedCache method [Windows Accessibility], BuildUpdatedCache method [Windows Accessibility], IUIAutomationElement interface, BuildUpdatedCache,IUIAutomationElement.BuildUpdatedCache, IUIAutomationElement, IUIAutomationElement interface [Windows Accessibility], BuildUpdatedCache method, IUIAutomationElement::BuildUpdatedCache, uiauto.uiauto_IUIAutomationElement_BuildUpdatedCache, uiauto_IUIAutomationElement_BuildUpdatedCache, uiautomationclient/IUIAutomationElement::BuildUpdatedCache, winauto.uiauto_IUIAutomationElement_BuildUpdatedCache
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\setcommtimeouts.htm
 old-project: DevIO
 ms.assetid: 71aa6ab3-d56c-43bc-9932-5b4e61fc4b30
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/3/2018
 ms.keywords: SetCommTimeouts, SetCommTimeouts function, _win32_setcommtimeouts, base.setcommtimeouts, winbase/SetCommTimeouts
 ms.prod: windows-hardware
 ms.technology: windows-devices

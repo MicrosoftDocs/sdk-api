@@ -7,7 +7,7 @@ old-location: security\deletesharedmemory.htm
 old-project: SecAuthN
 ms.assetid: 8059ff30-6301-4cf6-9620-2ba765303bb4
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/24/2018
 ms.keywords: DeleteSharedMemory, DeleteSharedMemory function [Security], LSA_DELETE_SHARED_MEMORY, _ssp_deletesharedmemory, ntsecpkg/DeleteSharedMemory, security.deletesharedmemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # LSA_DELETE_SHARED_MEMORY callback

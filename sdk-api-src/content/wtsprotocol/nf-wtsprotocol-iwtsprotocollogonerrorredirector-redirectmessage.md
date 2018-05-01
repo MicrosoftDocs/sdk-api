@@ -7,7 +7,7 @@ old-location: termserv\iwtsprotocollogonerrorredirector_redirectmessage.htm
 old-project: TermServ
 ms.assetid: 8db3657c-f64f-4e38-832e-5808557f479d
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: IWTSProtocolLogonErrorRedirector, IWTSProtocolLogonErrorRedirector interface [Remote Desktop Services], RedirectMessage method, IWTSProtocolLogonErrorRedirector::RedirectMessage, RedirectMessage method [Remote Desktop Services], RedirectMessage method [Remote Desktop Services], IWTSProtocolLogonErrorRedirector interface, RedirectMessage,IWTSProtocolLogonErrorRedirector.RedirectMessage, termserv.iwtsprotocollogonerrorredirector_redirectmessage, wtsprotocol/IWTSProtocolLogonErrorRedirector::RedirectMessage
 ms.prod: windows-hardware
 ms.technology: windows-devices

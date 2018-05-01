@@ -7,7 +7,7 @@ old-location: automat\ienumvariant_skip.htm
 old-project: automat
 ms.assetid: 5fe6951f-1e21-4a3d-8694-96efb15e6d11
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: IEnumVARIANT, IEnumVARIANT interface [Automation], Skip method, IEnumVARIANT::Skip, Skip method [Automation], Skip method [Automation], IEnumVARIANT interface, Skip,IEnumVARIANT.Skip, _oa96_IEnumVARIANT::Skip, automat.ienumvariant_skip, oaidl/IEnumVARIANT::Skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IEnumVARIANT::Skip method

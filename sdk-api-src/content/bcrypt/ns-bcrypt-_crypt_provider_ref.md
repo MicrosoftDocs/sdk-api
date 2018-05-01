@@ -7,7 +7,7 @@ old-location: security\crypt_provider_ref.htm
 old-project: SecCNG
 ms.assetid: 3bd4a07c-8b80-4bbc-9922-88ea007f6ccd
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: "*PCRYPT_PROVIDER_REF, CRYPT_PROVIDER_REF, CRYPT_PROVIDER_REF structure [Security], PCRYPT_PROVIDER_REF, PCRYPT_PROVIDER_REF structure pointer [Security], _CRYPT_PROVIDER_REF, bcrypt/CRYPT_PROVIDER_REF, bcrypt/PCRYPT_PROVIDER_REF, security.crypt_provider_ref"
 ms.prod: windows-hardware
 ms.technology: windows-devices

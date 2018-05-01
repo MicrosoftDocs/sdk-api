@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiometerinformation_queryhardwaresupport.htm
 old-project: CoreAudio
 ms.assetid: 3f68a459-8c10-46f5-be5c-67b693d65b8b
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: IAudioMeterInformation, IAudioMeterInformation interface [Core Audio], QueryHardwareSupport method, IAudioMeterInformation::QueryHardwareSupport, IAudioMeterInformationQueryHardwareSupport, QueryHardwareSupport method [Core Audio], QueryHardwareSupport method [Core Audio], IAudioMeterInformation interface, QueryHardwareSupport,IAudioMeterInformation.QueryHardwareSupport, coreaudio.iaudiometerinformation_queryhardwaresupport, endpointvolume/IAudioMeterInformation::QueryHardwareSupport
 ms.prod: windows-hardware
 ms.technology: windows-devices

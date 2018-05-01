@@ -7,7 +7,7 @@ old-location: com\ipersiststreaminit_initnew.htm
 old-project: com
 ms.assetid: 9e318698-0c3c-41c2-bb9e-04e8c9746c4d
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IPersistStreamInit, IPersistStreamInit interface [COM], InitNew method, IPersistStreamInit::InitNew, InitNew method [COM], InitNew method [COM], IPersistStreamInit interface, InitNew,IPersistStreamInit.InitNew, _com_ipersiststreaminit_initnew, com.ipersiststreaminit_initnew, ocidl/IPersistStreamInit::InitNew
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IPersistStreamInit::InitNew method

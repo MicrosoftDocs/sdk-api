@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmenumstorage_next.htm
 old-project: WMDM
 ms.assetid: aec244c3-93e4-4093-b49c-9c74ec93ce0f
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: IWMDMEnumStorage, IWMDMEnumStorage interface [windows Media Device Manager], Next method, IWMDMEnumStorage::Next, IWMDMEnumStorageNext, Next method [windows Media Device Manager], Next method [windows Media Device Manager], IWMDMEnumStorage interface, Next,IWMDMEnumStorage.Next, mswmdm/IWMDMEnumStorage::Next, wmdm.iwmdmenumstorage_next
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IWMDMEnumStorage::Next method

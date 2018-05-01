@@ -7,7 +7,7 @@ old-location: xaudio2\ixaudio2voicecallback_interface_onvoiceprocessingpassstart
 old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2voicecallback.IXAudio2VoiceCallback.OnVoiceProcessingPassStart(UINT32)
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/20/2018
 ms.keywords: IXAudio2VoiceCallback, IXAudio2VoiceCallback interface [XAudio2 Audio Mixing APIs], OnVoiceProcessingPassStart method, IXAudio2VoiceCallback::OnVoiceProcessingPassStart, OnVoiceProcessingPassStart method [XAudio2 Audio Mixing APIs], OnVoiceProcessingPassStart method [XAudio2 Audio Mixing APIs], IXAudio2VoiceCallback interface, OnVoiceProcessingPassStart,IXAudio2VoiceCallback.OnVoiceProcessingPassStart, xaudio2.ixaudio2voicecallback_interface_onvoiceprocessingpassstart, xaudio2/IXAudio2VoiceCallback::OnVoiceProcessingPassStart
 ms.prod: windows-hardware
 ms.technology: windows-devices

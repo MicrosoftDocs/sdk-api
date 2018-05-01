@@ -7,7 +7,7 @@ old-location: mstv\iisdb_ldt_getversionhash.htm
 old-project: mstv
 ms.assetid: ea7f027c-60c3-4dcd-963b-37ae6b088c81
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetVersionHash method [Microsoft TV Technologies], GetVersionHash method [Microsoft TV Technologies], IISDB_LDT interface, GetVersionHash,IISDB_LDT.GetVersionHash, IISDB_LDT, IISDB_LDT interface [Microsoft TV Technologies], GetVersionHash method, IISDB_LDT::GetVersionHash, dvbsiparser/IISDB_LDT::GetVersionHash, mstv.iisdb_ldt_getversionhash
 ms.prod: windows-hardware
 ms.technology: windows-devices

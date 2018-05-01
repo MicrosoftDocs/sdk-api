@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ITableProvider_GetRowHeaders.htm
 old-project: WinAuto
 ms.assetid: 586870cc-509f-4d5b-a3f6-0f85c86895cb
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: GetRowHeaders method [Windows Accessibility], GetRowHeaders method [Windows Accessibility], ITableProvider interface, GetRowHeaders,ITableProvider.GetRowHeaders, ITableProvider, ITableProvider interface [Windows Accessibility], GetRowHeaders method, ITableProvider::GetRowHeaders, uiauto.uiauto_ITableProvider_GetRowHeaders, uiauto_ITableProvider_GetRowHeaders, uiautomationcore/ITableProvider::GetRowHeaders, winauto.uiauto_ITableProvider_GetRowHeaders
 ms.prod: windows-hardware
 ms.technology: windows-devices

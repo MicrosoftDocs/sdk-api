@@ -7,7 +7,7 @@ old-location: shell\ITrackShellMenu_SetObscured.htm
 old-project: shell
 ms.assetid: a8b73bdb-95dd-4ca7-8dc9-3318faf37338
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ITrackShellMenu, ITrackShellMenu interface [Windows Shell], SetObscured method, ITrackShellMenu::SetObscured, SMSET_BOTTOM, SMSET_DONTOWN, SMSET_TOP, SetObscured method [Windows Shell], SetObscured method [Windows Shell], ITrackShellMenu interface, SetObscured,ITrackShellMenu.SetObscured, _shell_ITrackShellMenu_SetObscured, shdeprecated/ITrackShellMenu::SetObscured, shell.ITrackShellMenu_SetObscured
 ms.prod: windows-hardware
 ms.technology: windows-devices

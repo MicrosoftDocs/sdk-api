@@ -7,7 +7,7 @@ old-location: dshow\iksnodecontrol_put_kscontrol.htm
 old-project: DirectShow
 ms.assetid: 145967fc-3124-4e3b-b1ce-a381ea97cb89
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IKsNodeControl, IKsNodeControl interface [DirectShow], put_KsControl method, IKsNodeControl::put_KsControl, IKsNodeControlput_KsControl, dshow.iksnodecontrol_put_kscontrol, put_KsControl method [DirectShow], put_KsControl method [DirectShow], IKsNodeControl interface, put_KsControl,IKsNodeControl.put_KsControl, vidcap/IKsNodeControl::put_KsControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: VIDEOHDR, *PVIDEOHDR, *LPVIDEOHDR
+req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicdevelopraw_setsharpness.htm
 old-project: wic
 ms.assetid: 0c989362-0c76-4028-ac27-c49e3ec1c6fd
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: IWICDevelopRaw, IWICDevelopRaw interface [Windows Imaging Component], SetSharpness method, IWICDevelopRaw::SetSharpness, SetSharpness method [Windows Imaging Component], SetSharpness method [Windows Imaging Component], IWICDevelopRaw interface, SetSharpness,IWICDevelopRaw.SetSharpness, _wic_codec_iwicdevelopraw_setsharpness, wic._wic_codec_iwicdevelopraw_setsharpness, wincodec/IWICDevelopRaw::SetSharpness
 ms.prod: windows-hardware
 ms.technology: windows-devices

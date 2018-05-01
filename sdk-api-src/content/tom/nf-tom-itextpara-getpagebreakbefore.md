@@ -7,7 +7,7 @@ old-location: controls\ITextPara_GetPageBreakBefore.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getpagebreakbefore.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: GetPageBreakBefore method [Windows Controls], GetPageBreakBefore method [Windows Controls], ITextPara interface, GetPageBreakBefore,ITextPara.GetPageBreakBefore, ITextPara, ITextPara interface [Windows Controls], GetPageBreakBefore method, ITextPara::GetPageBreakBefore, _win32_ITextPara_GetPageBreakBefore, _win32_ITextPara_GetPageBreakBefore_cpp, controls.ITextPara_GetPageBreakBefore, controls._win32_ITextPara_GetPageBreakBefore, tom/ITextPara::GetPageBreakBefore
 ms.prod: windows-hardware
 ms.technology: windows-devices

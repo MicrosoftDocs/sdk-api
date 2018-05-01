@@ -7,7 +7,7 @@ old-location: coreaudio\iaudioendpointoffloadstreammeter_getmeterchannelcount.ht
 old-project: CoreAudio
 ms.assetid: 52C34D08-8ACD-4E3A-80F4-4FA823E11D9C
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: GetMeterChannelCount method [Core Audio], GetMeterChannelCount method [Core Audio], IAudioEndpointOffloadStreamMeter interface, GetMeterChannelCount,IAudioEndpointOffloadStreamMeter.GetMeterChannelCount, IAudioEndpointOffloadStreamMeter, IAudioEndpointOffloadStreamMeter interface [Core Audio], GetMeterChannelCount method, IAudioEndpointOffloadStreamMeter::GetMeterChannelCount, audioengineendpoint/IAudioEndpointOffloadStreamMeter::GetMeterChannelCount, coreaudio.iaudioendpointoffloadstreammeter_getmeterchannelcount
 ms.prod: windows-hardware
 ms.technology: windows-devices

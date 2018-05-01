@@ -7,7 +7,7 @@ old-location: dshow\ienumfilters_clone.htm
 old-project: DirectShow
 ms.assetid: ed8380af-8467-447a-a595-38fe29f9f9e6
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: Clone method [DirectShow], Clone method [DirectShow], IEnumFilters interface, Clone,IEnumFilters.Clone, IEnumFilters, IEnumFilters interface [DirectShow], Clone method, IEnumFilters::Clone, IEnumFiltersClone, dshow.ienumfilters_clone, strmif/IEnumFilters::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

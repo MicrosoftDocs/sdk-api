@@ -7,7 +7,7 @@ old-location: search\_search_IEntity_GetRelationship.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ientity\getrelationship.htm
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/24/2018
 ms.keywords: GetRelationship method [search], GetRelationship method [search], IEntity interface, GetRelationship,IEntity.GetRelationship, IEntity, IEntity interface [search], GetRelationship method, IEntity::GetRelationship, _search_IEntity_GetRelationship, search._search_IEntity_GetRelationship, structuredquery/IEntity::GetRelationship
 ms.prod: windows-hardware
 ms.technology: windows-devices

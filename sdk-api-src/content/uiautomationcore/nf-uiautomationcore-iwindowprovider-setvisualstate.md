@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IWindowProvider_SetVisualState.htm
 old-project: WinAuto
 ms.assetid: 89239900-5ee4-4f3a-a398-6ceb4846caf9
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: IWindowProvider, IWindowProvider interface [Windows Accessibility], SetVisualState method, IWindowProvider::SetVisualState, SetVisualState method [Windows Accessibility], SetVisualState method [Windows Accessibility], IWindowProvider interface, SetVisualState,IWindowProvider.SetVisualState, uiauto.uiauto_IWindowProvider_SetVisualState, uiauto_IWindowProvider_SetVisualState, uiautomationcore/IWindowProvider::SetVisualState, winauto.uiauto_IWindowProvider_SetVisualState
 ms.prod: windows-hardware
 ms.technology: windows-devices

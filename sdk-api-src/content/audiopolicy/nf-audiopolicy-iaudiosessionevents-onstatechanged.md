@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiosessionevents_onstatechanged.htm
 old-project: CoreAudio
 ms.assetid: 4ec3e676-cf08-4041-b5bf-5cb429569e03
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: IAudioSessionEvents, IAudioSessionEvents interface [Core Audio], OnStateChanged method, IAudioSessionEvents::OnStateChanged, IAudioSessionEventsOnStateChanged, OnStateChanged method [Core Audio], OnStateChanged method [Core Audio], IAudioSessionEvents interface, OnStateChanged,IAudioSessionEvents.OnStateChanged, audiopolicy/IAudioSessionEvents::OnStateChanged, coreaudio.iaudiosessionevents_onstatechanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: AE_CURRENT_POSITION, *PAE_CURRENT_POSITION
+req.typenames: UNCOMPRESSEDAUDIOFORMAT
 topic_type:
 -	APIRef
 -	kbSyntax

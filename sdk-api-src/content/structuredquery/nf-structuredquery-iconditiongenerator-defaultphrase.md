@@ -7,7 +7,7 @@ old-location: search\_search_IConditionGenerator_DefaultPhrase.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iconditiongenerator\defaultphrase.htm
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/24/2018
 ms.keywords: DefaultPhrase method [search], DefaultPhrase method [search], IConditionGenerator interface, DefaultPhrase,IConditionGenerator.DefaultPhrase, IConditionGenerator, IConditionGenerator interface [search], DefaultPhrase method, IConditionGenerator::DefaultPhrase, _search_IConditionGenerator_DefaultPhrase, search._search_IConditionGenerator_DefaultPhrase, structuredquery/IConditionGenerator::DefaultPhrase
 ms.prod: windows-hardware
 ms.technology: windows-devices

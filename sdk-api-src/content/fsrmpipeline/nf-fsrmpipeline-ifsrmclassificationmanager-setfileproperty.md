@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmclassificationmanager_setfileproperty.htm
 old-project: Fsrm
 ms.assetid: 0f13f00e-6ca2-4436-822e-01eff638c446
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: FsrmClassificationManager class [File Server Resource Manager], SetFileProperty method, IFsrmClassificationManager, IFsrmClassificationManager interface [File Server Resource Manager], SetFileProperty method, IFsrmClassificationManager2 interface [File Server Resource Manager], SetFileProperty method, IFsrmClassificationManager2::SetFileProperty, IFsrmClassificationManager::SetFileProperty, SetFileProperty method [File Server Resource Manager], SetFileProperty method [File Server Resource Manager], FsrmClassificationManager class, SetFileProperty method [File Server Resource Manager], IFsrmClassificationManager interface, SetFileProperty method [File Server Resource Manager], IFsrmClassificationManager2 interface, SetFileProperty,IFsrmClassificationManager.SetFileProperty, fs.ifsrmclassificationmanager_setfileproperty, fsrm.ifsrmclassificationmanager_setfileproperty, fsrmpipeline/IFsrmClassificationManager2::SetFileProperty, fsrmpipeline/IFsrmClassificationManager::SetFileProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: com\ifilebasedloginit_initnew.htm
 old-project: com
 ms.assetid: 729c0cfc-4246-4185-af06-ed90a1955b03
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IFileBasedLogInit, IFileBasedLogInit interface [COM], InitNew method, IFileBasedLogInit::InitNew, InitNew method [COM], InitNew method [COM], IFileBasedLogInit interface, InitNew,IFileBasedLogInit.InitNew, _com_ifilebasedloginit_initnew, com.ifilebasedloginit_initnew, txlogpub/IFileBasedLogInit::InitNew
 ms.prod: windows-hardware
 ms.technology: windows-devices

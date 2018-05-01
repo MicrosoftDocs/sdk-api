@@ -7,7 +7,7 @@ old-location: mstv\iisdbterrestrialdeliverysystemdescriptor_getrecordfrequency.h
 old-project: mstv
 ms.assetid: 9040dcc9-49c8-4c3b-ad86-7dc38d1722b9
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetRecordFrequency method [Microsoft TV Technologies], GetRecordFrequency method [Microsoft TV Technologies], IIsdbTerrestrialDeliverySystemDescriptor interface, GetRecordFrequency,IIsdbTerrestrialDeliverySystemDescriptor.GetRecordFrequency, IIsdbTerrestrialDeliverySystemDescriptor, IIsdbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies], GetRecordFrequency method, IIsdbTerrestrialDeliverySystemDescriptor::GetRecordFrequency, dvbsiparser/IIsdbTerrestrialDeliverySystemDescriptor::GetRecordFrequency, mstv.iisdbterrestrialdeliverysystemdescriptor_getrecordfrequency
 ms.prod: windows-hardware
 ms.technology: windows-devices

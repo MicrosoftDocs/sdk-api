@@ -7,7 +7,7 @@ old-location: search\_search_IQueryParser_SetMultiOption.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iqueryparser\setmultioption.htm
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/24/2018
 ms.keywords: IQueryParser, IQueryParser interface [search], SetMultiOption method, IQueryParser::SetMultiOption, SetMultiOption method [search], SetMultiOption method [search], IQueryParser interface, SetMultiOption,IQueryParser.SetMultiOption, _search_IQueryParser_SetMultiOption, search._search_IQueryParser_SetMultiOption, structuredquery/IQueryParser::SetMultiOption
 ms.prod: windows-hardware
 ms.technology: windows-devices

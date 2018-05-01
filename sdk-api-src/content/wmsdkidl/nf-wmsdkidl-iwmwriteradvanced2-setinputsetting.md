@@ -7,7 +7,7 @@ old-location: wmformat\iwmwriteradvanced2_setinputsetting.htm
 old-project: wmformat
 ms.assetid: a920bfe8-1f95-4957-b6c4-9749d5e10ee3
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMWriterAdvanced2, IWMWriterAdvanced2 interface [windows Media Format], SetInputSetting method, IWMWriterAdvanced2::SetInputSetting, IWMWriterAdvanced2SetInputSetting, SetInputSetting method [windows Media Format], SetInputSetting method [windows Media Format], IWMWriterAdvanced2 interface, SetInputSetting,IWMWriterAdvanced2.SetInputSetting, wmformat.iwmwriteradvanced2_setinputsetting, wmsdkidl/IWMWriterAdvanced2::SetInputSetting
 ms.prod: windows-hardware
 ms.technology: windows-devices

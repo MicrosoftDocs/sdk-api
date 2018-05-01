@@ -7,7 +7,7 @@ old-location: base\cvsswriterex_getidentifyinformation.htm
 old-project: VSS
 ms.assetid: 995f353b-d0dc-425a-861d-46b7ee6062da
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: CVssWriterEx, CVssWriterEx interface, GetIdentifyInformation method, CVssWriterEx::GetIdentifyInformation, GetIdentifyInformation method, GetIdentifyInformation method, CVssWriterEx interface, GetIdentifyInformation,CVssWriterEx.GetIdentifyInformation, base.cvsswriterex_getidentifyinformation, vswriter/CVssWriterEx::GetIdentifyInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

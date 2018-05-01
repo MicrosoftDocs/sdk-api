@@ -7,7 +7,7 @@ old-location: mstv\imsvidplayback_get_enableresetonstop.htm
 old-project: mstv
 ms.assetid: 0ea9ad29-9903-41ac-9be8-acb41cec10d1
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidPlayback, IMSVidPlayback interface [Microsoft TV Technologies], get_EnableResetOnStop method, IMSVidPlayback::get_EnableResetOnStop, IMSVidPlaybackget_EnableResetOnStop, get_EnableResetOnStop method [Microsoft TV Technologies], get_EnableResetOnStop method [Microsoft TV Technologies], IMSVidPlayback interface, get_EnableResetOnStop,IMSVidPlayback.get_EnableResetOnStop, mstv.imsvidplayback_get_enableresetonstop, segment/IMSVidPlayback::get_EnableResetOnStop
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidPlayback::get_EnableResetOnStop method

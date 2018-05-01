@@ -7,7 +7,7 @@ old-location: base\cvsswriter_ispathaffected.htm
 old-project: VSS
 ms.assetid: 576e2e25-82dd-4b72-b777-0abc22a06386
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: CVssWriter, CVssWriter class [VSS], IsPathAffected method, CVssWriter::IsPathAffected, IsPathAffected method [VSS], IsPathAffected method [VSS], CVssWriter class, IsPathAffected,CVssWriter.IsPathAffected, _win32_cvsswriter_ispathaffected, base.cvsswriter_ispathaffected, vswriter/CVssWriter::IsPathAffected
 ms.prod: windows-hardware
 ms.technology: windows-devices

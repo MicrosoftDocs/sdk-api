@@ -7,7 +7,7 @@ old-location: dshow\mp_paraminfo.htm
 old-project: DirectShow
 ms.assetid: 91d2d08b-a55e-492f-a509-9c080cc438df
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: MP_PARAMINFO, MP_PARAMINFO structure [DirectShow], MP_PARAMINFOStructure, _MP_PARAMINFO, dshow.mp_paraminfo, medparam/MP_PARAMINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices

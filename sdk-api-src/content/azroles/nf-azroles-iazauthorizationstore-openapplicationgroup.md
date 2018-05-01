@@ -7,7 +7,7 @@ old-location: security\azauthorizationstore_openapplicationgroup.htm
 old-project: SecAuthZ
 ms.assetid: 30860261-c792-4610-b217-7c4d58554778
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: AzAuthorizationStore object [Security], OpenApplicationGroup method, IAzAuthorizationStore, IAzAuthorizationStore interface [Security], OpenApplicationGroup method, IAzAuthorizationStore::OpenApplicationGroup, OpenApplicationGroup method [Security], OpenApplicationGroup method [Security], AzAuthorizationStore object, OpenApplicationGroup method [Security], IAzAuthorizationStore interface, OpenApplicationGroup,IAzAuthorizationStore.OpenApplicationGroup, azroles/IAzAuthorizationStore::OpenApplicationGroup, security.azauthorizationstore_openapplicationgroup
 ms.prod: windows-hardware
 ms.technology: windows-devices

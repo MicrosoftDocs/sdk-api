@@ -7,7 +7,7 @@ old-location: base\regconnectregistry.htm
 old-project: SysInfo
 ms.assetid: d7fb41cc-4855-4ad7-879c-b1ac85ac5803
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: RegConnectRegistry, RegConnectRegistry function, RegConnectRegistryA, RegConnectRegistryW, _win32_regconnectregistry, base.regconnectregistry, winreg/RegConnectRegistry, winreg/RegConnectRegistryA, winreg/RegConnectRegistryW
 ms.prod: windows-hardware
 ms.technology: windows-devices

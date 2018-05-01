@@ -7,7 +7,7 @@ old-location: nwifi\dot11_radio_state.htm
 old-project: NativeWiFi
 ms.assetid: dd44f256-9423-4f29-aba3-6b0554349864
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/13/2018
 ms.keywords: "*PDOT11_RADIO_STATE, DOT11_RADIO_STATE, DOT11_RADIO_STATE enumeration [NativeWIFI], PDOT11_RADIO_STATE, PDOT11_RADIO_STATE enumeration pointer [NativeWIFI], _DOT11_RADIO_STATE, dot11_radio_state_off, dot11_radio_state_on, dot11_radio_state_unknown, nwifi.dot11_radio_state, wlanapi/DOT11_RADIO_STATE, wlanapi/PDOT11_RADIO_STATE, wlanapi/dot11_radio_state_off, wlanapi/dot11_radio_state_on, wlanapi/dot11_radio_state_unknown"
 ms.prod: windows-hardware
 ms.technology: windows-devices

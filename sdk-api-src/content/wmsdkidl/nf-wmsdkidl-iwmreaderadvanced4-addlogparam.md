@@ -7,7 +7,7 @@ old-location: wmformat\iwmreaderadvanced4_addlogparam.htm
 old-project: wmformat
 ms.assetid: 7d117895-b61f-4890-8cb6-3e4ecf49ca99
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: AddLogParam method [windows Media Format], AddLogParam method [windows Media Format], IWMReaderAdvanced4 interface, AddLogParam,IWMReaderAdvanced4.AddLogParam, IWMReaderAdvanced4, IWMReaderAdvanced4 interface [windows Media Format], AddLogParam method, IWMReaderAdvanced4::AddLogParam, IWMReaderAdvanced4AddLogParam, wmformat.iwmreaderadvanced4_addlogparam, wmsdkidl/IWMReaderAdvanced4::AddLogParam
 ms.prod: windows-hardware
 ms.technology: windows-devices

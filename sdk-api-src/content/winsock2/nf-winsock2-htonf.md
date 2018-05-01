@@ -7,7 +7,7 @@ old-location: winsock\htonf.htm
 old-project: WinSock
 ms.assetid: 93011B2E-2B3C-4EDD-90F7-82A11542A154
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/24/2018
 ms.keywords: htonf, htonf function [Winsock], winsock.htonf, winsock2/htonf
 ms.prod: windows-hardware
 ms.technology: windows-devices

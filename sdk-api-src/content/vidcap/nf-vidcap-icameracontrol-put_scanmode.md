@@ -7,7 +7,7 @@ old-location: dshow\icameracontrol_put_scanmode.htm
 old-project: DirectShow
 ms.assetid: 74d5d2bd-4aa4-49f6-a02f-c53af1333a1b
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ICameraControl, ICameraControl interface [DirectShow], put_ScanMode method, ICameraControl::put_ScanMode, ICameraControlput_ScanMode, dshow.icameracontrol_put_scanmode, put_ScanMode method [DirectShow], put_ScanMode method [DirectShow], ICameraControl interface, put_ScanMode,ICameraControl.put_ScanMode, vidcap/ICameraControl::put_ScanMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: VIDEOHDR, *PVIDEOHDR, *LPVIDEOHDR
+req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
 topic_type:
 -	APIRef
 -	kbSyntax

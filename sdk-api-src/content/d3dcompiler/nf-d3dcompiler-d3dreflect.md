@@ -7,7 +7,7 @@ old-location: direct3dhlsl\d3dreflect.htm
 old-project: direct3dhlsl
 ms.assetid: VS|directx_sdk|~\d3dreflect.htm
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/12/2018
 ms.keywords: 3df99cee-b0b6-2f29-2bd1-7eb53e907191, D3DReflect, D3DReflect function [HLSL], d3dcompiler/D3DReflect, direct3dhlsl.d3dreflect
 ms.prod: windows-hardware
 ms.technology: windows-devices

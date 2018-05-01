@@ -7,7 +7,7 @@ old-location: mf\imfdxgibuffer_setunknown.htm
 old-project: medfound
 ms.assetid: 94BA5E48-FF89-48FA-BE0D-C158A5B4D4CF
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFDXGIBuffer, IMFDXGIBuffer interface [Media Foundation], SetUnknown method, IMFDXGIBuffer::SetUnknown, SetUnknown method [Media Foundation], SetUnknown method [Media Foundation], IMFDXGIBuffer interface, SetUnknown,IMFDXGIBuffer.SetUnknown, mf.imfdxgibuffer_setunknown, mfobjects/IMFDXGIBuffer::SetUnknown
 ms.prod: windows-hardware
 ms.technology: windows-devices

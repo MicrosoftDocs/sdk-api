@@ -7,7 +7,7 @@ old-location: tracelogging\traceloggingcustom.htm
 old-project: tracelogging
 ms.assetid: 617B5EFF-DB4F-493E-841B-14BBA312E26B
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: TraceLoggingCustom, TraceLoggingCustom macro, tracelogging.traceloggingcustom, traceloggingprovider/TraceLoggingCustom
 ms.prod: windows-hardware
 ms.technology: windows-devices

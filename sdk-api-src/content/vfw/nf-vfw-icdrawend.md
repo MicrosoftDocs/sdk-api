@@ -7,7 +7,7 @@ old-location: multimedia\icdrawend.htm
 old-project: Multimedia
 ms.assetid: efcb1913-edaf-454c-a317-c14349805a81
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/25/2018
 ms.keywords: ICDrawEnd, ICDrawEnd macro [Windows Multimedia], _win32_ICDrawEnd, multimedia.icdrawend, vfw/ICDrawEnd
 ms.prod: windows-hardware
 ms.technology: windows-devices

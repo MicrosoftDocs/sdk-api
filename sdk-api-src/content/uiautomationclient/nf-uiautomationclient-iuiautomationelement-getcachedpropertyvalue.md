@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement_GetCachedPropertyValue.htm
 old-project: WinAuto
 ms.assetid: 3cd093fe-04ee-4b09-b5e7-28dad984951e
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: GetCachedPropertyValue method [Windows Accessibility], GetCachedPropertyValue method [Windows Accessibility], IUIAutomationElement interface, GetCachedPropertyValue,IUIAutomationElement.GetCachedPropertyValue, IUIAutomationElement, IUIAutomationElement interface [Windows Accessibility], GetCachedPropertyValue method, IUIAutomationElement::GetCachedPropertyValue, uiauto.uiauto_IUIAutomationElement_GetCachedPropertyValue, uiauto_IUIAutomationElement_GetCachedPropertyValue, uiautomationclient/IUIAutomationElement::GetCachedPropertyValue, winauto.uiauto_IUIAutomationElement_GetCachedPropertyValue
 ms.prod: windows-hardware
 ms.technology: windows-devices

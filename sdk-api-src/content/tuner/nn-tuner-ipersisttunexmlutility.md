@@ -7,7 +7,7 @@ old-location: mstv\ipersisttunexmlutility.htm
 old-project: mstv
 ms.assetid: aa03015f-094f-499f-99fb-2e15ead74f15
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IPersistTuneXmlUtility, IPersistTuneXmlUtility interface [Microsoft TV Technologies], IPersistTuneXmlUtility interface [Microsoft TV Technologies], described, mstv.ipersisttunexmlutility, tuner/IPersistTuneXmlUtility
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\ipmt_getrecorddescriptorbytag.htm
 old-project: mstv
 ms.assetid: 7ed3dd22-331a-419a-ab30-5645e259e36a
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetRecordDescriptorByTag method [Microsoft TV Technologies], GetRecordDescriptorByTag method [Microsoft TV Technologies], IPMT interface, GetRecordDescriptorByTag,IPMT.GetRecordDescriptorByTag, IPMT, IPMT interface [Microsoft TV Technologies], GetRecordDescriptorByTag method, IPMT::GetRecordDescriptorByTag, IPMTGetRecordDescriptorByTag, mpeg2psiparser/IPMT::GetRecordDescriptorByTag, mstv.ipmt_getrecorddescriptorbytag
 ms.prod: windows-hardware
 ms.technology: windows-devices

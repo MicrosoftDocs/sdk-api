@@ -7,7 +7,7 @@ old-location: dshow\ifilesinkfilter2_setmode.htm
 old-project: DirectShow
 ms.assetid: a32ae597-1468-4ac8-ae7b-8831d2a9ad6e
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IFileSinkFilter2, IFileSinkFilter2 interface [DirectShow], SetMode method, IFileSinkFilter2::SetMode, IFileSinkFilter2SetMode, SetMode method [DirectShow], SetMode method [DirectShow], IFileSinkFilter2 interface, SetMode,IFileSinkFilter2.SetMode, dshow.ifilesinkfilter2_setmode, strmif/IFileSinkFilter2::SetMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\itoccollection.htm
 old-project: medfound
 ms.assetid: 10d6fc04-4444-4a47-911f-3d5bec548e28
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: ITocCollection, ITocCollection interface [Media Foundation], ITocCollection interface [Media Foundation], described, codecapi.itoccollection, mf.itoccollection, wmcodecdsp/ITocCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices

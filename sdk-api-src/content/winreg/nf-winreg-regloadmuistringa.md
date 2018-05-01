@@ -7,7 +7,7 @@ old-location: base\regloadmuistring.htm
 old-project: SysInfo
 ms.assetid: 76ffc77f-a1bc-4e01-858f-4a76563a2bbc
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: REG_MUI_STRING_TRUNCATE, RegLoadMUIString, RegLoadMUIString function, RegLoadMUIStringA, RegLoadMUIStringW, base.regloadmuistring, winreg/RegLoadMUIString, winreg/RegLoadMUIStringA, winreg/RegLoadMUIStringW
 ms.prod: windows-hardware
 ms.technology: windows-devices

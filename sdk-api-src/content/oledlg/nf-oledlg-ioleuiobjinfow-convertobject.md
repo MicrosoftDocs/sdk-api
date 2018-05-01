@@ -7,7 +7,7 @@ old-location: com\ioleuiobjinfo_convertobject.htm
 old-project: com
 ms.assetid: 44611ed3-35de-4b20-adae-d3a28aa11944
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: ConvertObject method [COM], ConvertObject method [COM], IOleUIObjInfo interface, ConvertObject method [COM], IOleUIObjInfoA interface, ConvertObject method [COM], IOleUIObjInfoW interface, ConvertObject,IOleUIObjInfoW.ConvertObject, IOleUIObjInfo interface [COM], ConvertObject method, IOleUIObjInfo::ConvertObject, IOleUIObjInfoA interface [COM], ConvertObject method, IOleUIObjInfoA::ConvertObject, IOleUIObjInfoW, IOleUIObjInfoW interface [COM], ConvertObject method, IOleUIObjInfoW::ConvertObject, _ole_IOleUIObjInfo_ConvertObject, com.ioleuiobjinfo_convertobject, oledlg/IOleUIObjInfo::ConvertObject, oledlg/IOleUIObjInfoA::ConvertObject, oledlg/IOleUIObjInfoW::ConvertObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IOleUIObjInfoW::ConvertObject method

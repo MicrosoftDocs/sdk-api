@@ -7,7 +7,7 @@ old-location: com\ioleobject_getmiscstatus.htm
 old-project: com
 ms.assetid: 0c5e9f73-8eec-48e0-a172-4d3d49e56071
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: GetMiscStatus method [COM], GetMiscStatus method [COM], IOleObject interface, GetMiscStatus,IOleObject.GetMiscStatus, IOleObject, IOleObject interface [COM], GetMiscStatus method, IOleObject::GetMiscStatus, _ole_ioleobject_getmiscstatus, com.ioleobject_getmiscstatus, oleidl/IOleObject::GetMiscStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IOleObject::GetMiscStatus method

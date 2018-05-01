@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicmetadatawriter_setvalue.htm
 old-project: wic
 ms.assetid: bda3f959-40d1-45df-a82c-3eba2be33859
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: IWICMetadataWriter, IWICMetadataWriter interface [Windows Imaging Component], SetValue method, IWICMetadataWriter::SetValue, SetValue method [Windows Imaging Component], SetValue method [Windows Imaging Component], IWICMetadataWriter interface, SetValue,IWICMetadataWriter.SetValue, _wic_codec_iwicmetadatawriter_setvalue, wic._wic_codec_iwicmetadatawriter_setvalue, wincodecsdk/IWICMetadataWriter::SetValue
 ms.prod: windows-hardware
 ms.technology: windows-devices

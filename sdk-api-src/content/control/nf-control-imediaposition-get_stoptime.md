@@ -7,7 +7,7 @@ old-location: dshow\imediaposition_get_stoptime.htm
 old-project: DirectShow
 ms.assetid: 6139ebb2-fad8-4394-9a5f-4753ca9fb143
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IMediaPosition, IMediaPosition interface [DirectShow], get_StopTime method, IMediaPosition::get_StopTime, IMediaPositionget_StopTime, control/IMediaPosition::get_StopTime, dshow.imediaposition_get_stoptime, get_StopTime method [DirectShow], get_StopTime method [DirectShow], IMediaPosition interface, get_StopTime,IMediaPosition.get_StopTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

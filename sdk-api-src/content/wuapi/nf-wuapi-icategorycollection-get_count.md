@@ -7,7 +7,7 @@ old-location: wua\icategorycollection_count.htm
 old-project: Wua_Sdk
 ms.assetid: 4e13069d-c1e2-4826-abab-5e015c4beb33
 ms.author: windowsdriverdev
-ms.date: 3/15/2018
+ms.date: 4/18/2018
 ms.keywords: Count property [Windows Update Agent], Count property [Windows Update Agent], ICategoryCollection interface, ICategoryCollection, ICategoryCollection interface [Windows Update Agent], Count property, ICategoryCollection.Count, ICategoryCollection::get_Count, get_Count,ICategoryCollection.get_Count, wua.icategorycollection_count, wuapi/ICategoryCollection::Count, wuapi/ICategoryCollection::get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\igraphconfig_setfilterflags.htm
 old-project: DirectShow
 ms.assetid: 1f2ed50e-8bb9-4076-ad0e-a7311acb8285
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IGraphConfig, IGraphConfig interface [DirectShow], SetFilterFlags method, IGraphConfig::SetFilterFlags, IGraphConfigSetFilterFlags, SetFilterFlags method [DirectShow], SetFilterFlags method [DirectShow], IGraphConfig interface, SetFilterFlags,IGraphConfig.SetFilterFlags, dshow.igraphconfig_setfilterflags, strmif/IGraphConfig::SetFilterFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices

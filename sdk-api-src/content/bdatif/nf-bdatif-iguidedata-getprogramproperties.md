@@ -7,7 +7,7 @@ old-location: mstv\iguidedata_getprogramproperties.htm
 old-project: mstv
 ms.assetid: 57eb55bf-49d9-471e-b59c-0d87aa3c3e3c
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetProgramProperties method [Microsoft TV Technologies], GetProgramProperties method [Microsoft TV Technologies], IGuideData interface, GetProgramProperties,IGuideData.GetProgramProperties, IGuideData, IGuideData interface [Microsoft TV Technologies], GetProgramProperties method, IGuideData::GetProgramProperties, IGuideDataGetProgramProperties, bdatif/IGuideData::GetProgramProperties, mstv.iguidedata_getprogramproperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: SpanningEventEmmMessage
+req.typenames: SmartCardApplication
 topic_type:
 -	APIRef
 -	kbSyntax

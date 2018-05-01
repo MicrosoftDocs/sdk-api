@@ -7,7 +7,7 @@ old-location: coreaudio\isimpleaudiovolume_setmastervolume.htm
 old-project: CoreAudio
 ms.assetid: 895a8564-5f06-4e20-abcc-d960d4002eb0
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: ISimpleAudioVolume, ISimpleAudioVolume interface [Core Audio], SetMasterVolume method, ISimpleAudioVolume::SetMasterVolume, ISimpleAudioVolumeSetMasterVolume, SetMasterVolume method [Core Audio], SetMasterVolume method [Core Audio], ISimpleAudioVolume interface, SetMasterVolume,ISimpleAudioVolume.SetMasterVolume, audioclient/ISimpleAudioVolume::SetMasterVolume, coreaudio.isimpleaudiovolume_setmastervolume
 ms.prod: windows-hardware
 ms.technology: windows-devices

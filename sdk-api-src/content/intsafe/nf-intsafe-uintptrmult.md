@@ -7,7 +7,7 @@ old-location: shell\UIntPtrMult.htm
 old-project: shell
 ms.assetid: c34708d1-50e8-47dd-ac79-cfef24ce6060
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: UIntPtrMult, UIntPtrMult function [Windows Shell], _shell_UIntPtrMult, intsafe/UIntPtrMult, shell.UIntPtrMult
 ms.prod: windows-hardware
 ms.technology: windows-devices

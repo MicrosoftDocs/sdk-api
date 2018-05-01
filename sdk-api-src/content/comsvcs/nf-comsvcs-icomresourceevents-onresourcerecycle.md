@@ -7,7 +7,7 @@ old-location: cos\icomresourceevents_onresourcerecycle.htm
 old-project: cossdk
 ms.assetid: 615e0f73-2935-4ef3-94c9-5c74b5c82db4
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: IComResourceEvents, IComResourceEvents interface [COM+], OnResourceRecycle method, IComResourceEvents::OnResourceRecycle, OnResourceRecycle method [COM+], OnResourceRecycle method [COM+], IComResourceEvents interface, OnResourceRecycle,IComResourceEvents.OnResourceRecycle, _dtc_IComResourceEvents_OnResourceRecycle, comsvcs/IComResourceEvents::OnResourceRecycle, cos.icomresourceevents_onresourcerecycle
 ms.prod: windows-hardware
 ms.technology: windows-devices

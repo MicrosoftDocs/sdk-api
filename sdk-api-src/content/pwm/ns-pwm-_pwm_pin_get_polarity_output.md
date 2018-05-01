@@ -7,7 +7,7 @@ old-location: base\pwm_pin_get_polarity_output.htm
 old-project: DevIO
 ms.assetid: 432C10EF-AC08-4781-9BCA-A31E0DF12704
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/3/2018
 ms.keywords: PWM_PIN_GET_POLARITY_OUTPUT, PWM_PIN_GET_POLARITY_OUTPUT structure, _PWM_PIN_GET_POLARITY_OUTPUT, base.pwm_pin_get_polarity_output, pwm/PWM_PIN_GET_POLARITY_OUTPUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _PWM_PIN_GET_POLARITY_OUTPUT structure

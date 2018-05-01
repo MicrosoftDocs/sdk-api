@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10devicechild_setprivatedata.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10devicechild_setprivatedata.htm
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: ID3D10DeviceChild, ID3D10DeviceChild interface [Direct3D 10], SetPrivateData method, ID3D10DeviceChild::SetPrivateData, SetPrivateData method [Direct3D 10], SetPrivateData method [Direct3D 10], ID3D10DeviceChild interface, SetPrivateData,ID3D10DeviceChild.SetPrivateData, b8fdde8d-dc47-4ec2-997e-b42841dc5441, d3d10/ID3D10DeviceChild::SetPrivateData, direct3d10.id3d10devicechild_setprivatedata
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: setup\msienumcomponentqualifiers.htm
 old-project: Msi
 ms.assetid: f499cca3-ef24-4419-92b8-7794b3a6816b
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/26/2018
 ms.keywords: MsiEnumComponentQualifiers, MsiEnumComponentQualifiers function, MsiEnumComponentQualifiersA, MsiEnumComponentQualifiersW, _msi_msienumcomponentqualifiers, msi/MsiEnumComponentQualifiers, msi/MsiEnumComponentQualifiersA, msi/MsiEnumComponentQualifiersW, setup.msienumcomponentqualifiers
 ms.prod: windows-hardware
 ms.technology: windows-devices

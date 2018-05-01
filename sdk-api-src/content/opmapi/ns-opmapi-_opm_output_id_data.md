@@ -7,7 +7,7 @@ old-location: mf\opm_output_id_data.htm
 old-project: medfound
 ms.assetid: 3fb56b5d-470c-4ca2-bf8b-5c3761c7cf06
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: OPM_OUTPUT_ID_DATA, OPM_OUTPUT_ID_DATA structure [Media Foundation], _OPM_OUTPUT_ID_DATA, mf.opm_output_id_data, opmapi/OPM_OUTPUT_ID_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _OPM_OUTPUT_ID_DATA structure

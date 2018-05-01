@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IAccessibleEx_GetIAccessiblePair.htm
 old-project: WinAuto
 ms.assetid: 282de8b1-67ce-42e3-9f17-dbd29374d910
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: GetIAccessiblePair method [Windows Accessibility], GetIAccessiblePair method [Windows Accessibility], IAccessibleEx interface, GetIAccessiblePair,IAccessibleEx.GetIAccessiblePair, IAccessibleEx, IAccessibleEx interface [Windows Accessibility], GetIAccessiblePair method, IAccessibleEx::GetIAccessiblePair, uiauto.uiauto_IAccessibleEx_GetIAccessiblePair, uiauto_IAccessibleEx_GetIAccessiblePair, uiautomationcore/IAccessibleEx::GetIAccessiblePair, winauto.uiauto_IAccessibleEx_GetIAccessiblePair
 ms.prod: windows-hardware
 ms.technology: windows-devices

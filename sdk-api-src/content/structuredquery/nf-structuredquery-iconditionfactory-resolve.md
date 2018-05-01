@@ -7,7 +7,7 @@ old-location: search\_search_IConditionFactory_Resolve.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iconditionfactory\resolve.htm
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/24/2018
 ms.keywords: IConditionFactory, IConditionFactory interface [search], Resolve method, IConditionFactory::Resolve, Resolve method [search], Resolve method [search], IConditionFactory interface, Resolve,IConditionFactory.Resolve, _search_IConditionFactory_Resolve, search._search_IConditionFactory_Resolve, structuredquery/IConditionFactory::Resolve
 ms.prod: windows-hardware
 ms.technology: windows-devices

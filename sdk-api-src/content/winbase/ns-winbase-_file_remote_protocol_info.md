@@ -61,40 +61,6 @@ Contains file remote protocol information. This structure is returned from the
 
 
 
-### -field GenericReserved
-
-Protocol-generic information structure.
-
-
-
-#### Reserved
-
-Should be set to zero. Do not use this member.
-
-
-### -field ProtocolSpecificReserved
-
-Protocol-specific information structure.
-
-
-
-#### Reserved
-
-Should be set to zero. Do not use this member.
-
-
-### -field ProtocolSpecific
-
-
-### -field ProtocolSpecific.Smb2
-
-
-### -field ProtocolSpecific.Smb2.Server
-
-
-### -field ProtocolSpecific.Smb2.Share
-
-
 ### -field StructureVersion
 
 Version of this structure. This member should be set to 2 if the communication is between 
@@ -493,6 +459,40 @@ The remote protocol is using mutual authentication using Kerberos. This is only 
 </tr>
 </table>
  
+
+
+### -field GenericReserved
+
+Protocol-generic information structure.
+
+
+
+#### Reserved
+
+Should be set to zero. Do not use this member.
+
+
+### -field ProtocolSpecificReserved
+
+Protocol-specific information structure.
+
+
+
+#### Reserved
+
+Should be set to zero. Do not use this member.
+
+
+### -field ProtocolSpecific
+
+
+### -field ProtocolSpecific.Smb2
+
+
+### -field ProtocolSpecific.Smb2.Server
+
+
+### -field ProtocolSpecific.Smb2.Share
 
 
 ## -remarks

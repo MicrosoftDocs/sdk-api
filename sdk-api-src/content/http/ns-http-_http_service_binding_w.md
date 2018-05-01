@@ -7,7 +7,7 @@ old-location: http\http_service_binding_w.htm
 old-project: Http
 ms.assetid: 0d840097-82d3-4ee3-b0d9-bcac4cf3e935
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: "*PHTTP_SERVICE_BINDING_W, HTTP_SERVICE_BINDING_W, HTTP_SERVICE_BINDING_W structure [HTTP], PHTTP_SERVICE_BINDING_W, PHTTP_SERVICE_BINDING_W structure pointer [HTTP], _HTTP_SERVICE_BINDING_W, http.http_service_binding_w, http/HTTP_SERVICE_BINDING_W, http/PHTTP_SERVICE_BINDING_W"
 ms.prod: windows-hardware
 ms.technology: windows-devices

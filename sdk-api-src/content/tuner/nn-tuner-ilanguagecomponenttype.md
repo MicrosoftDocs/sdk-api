@@ -7,7 +7,7 @@ old-location: mstv\ilanguagecomponenttype.htm
 old-project: mstv
 ms.assetid: 775b5e8d-d9ed-4371-a651-bfeed6fa0ad5
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: ILanguageComponentType, ILanguageComponentType interface [Microsoft TV Technologies], ILanguageComponentType interface [Microsoft TV Technologies], described, ILanguageComponentTypeInterface, mstv.ilanguagecomponenttype, tuner/ILanguageComponentType
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winrt\isoftwarebitmapnativefactory_createfrommf2dbuffer2.htm
 old-project: WinRT
 ms.assetid: F6B9E8B2-19CF-4921-9E9E-E387084E5F8B
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/24/2018
 ms.keywords: CreateFromMF2DBuffer2 method [Windows Runtime], CreateFromMF2DBuffer2 method [Windows Runtime], ISoftwareBitmapNativeFactory interface, CreateFromMF2DBuffer2,ISoftwareBitmapNativeFactory.CreateFromMF2DBuffer2, ISoftwareBitmapNativeFactory, ISoftwareBitmapNativeFactory interface [Windows Runtime], CreateFromMF2DBuffer2 method, ISoftwareBitmapNativeFactory::CreateFromMF2DBuffer2, windows/ISoftwareBitmapNativeFactory::CreateFromMF2DBuffer2, winrt.isoftwarebitmapnativefactory_createfrommf2dbuffer2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: PDF_RENDER_PARAMS
+req.typenames: TimeSpan
 topic_type:
 -	APIRef
 -	kbSyntax

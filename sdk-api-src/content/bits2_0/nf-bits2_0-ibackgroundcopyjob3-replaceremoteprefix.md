@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyjob3_replaceremoteprefix.htm
 old-project: Bits
 ms.assetid: 5ea62d29-c40e-4bd2-b22a-fce2d9f4eecf
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/10/2018
 ms.keywords: IBackgroundCopyJob3, IBackgroundCopyJob3 interface [BITS], ReplaceRemotePrefix method, IBackgroundCopyJob3::ReplaceRemotePrefix, ReplaceRemotePrefix method [BITS], ReplaceRemotePrefix method [BITS], IBackgroundCopyJob3 interface, ReplaceRemotePrefix,IBackgroundCopyJob3.ReplaceRemotePrefix, bits.ibackgroundcopyjob3_replaceremoteprefix, bits2_0/IBackgroundCopyJob3::ReplaceRemotePrefix
 ms.prod: windows-hardware
 ms.technology: windows-devices

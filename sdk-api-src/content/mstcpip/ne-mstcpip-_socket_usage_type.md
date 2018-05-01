@@ -7,7 +7,7 @@ old-location: winsock\socket_usage_type.htm
 old-project: WinSock
 ms.assetid: 27142160-7381-47d0-8664-4064be801a06
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/24/2018
 ms.keywords: SOCKET_USAGE_TYPE, SOCKET_USAGE_TYPE enumeration [Winsock], SYSTEM_CRITICAL_SOCKET, _SOCKET_USAGE_TYPE, mstcpip/SOCKET_USAGE_TYPE, mstcpip/SYSTEM_CRITICAL_SOCKET, winsock.socket_usage_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -25,7 +25,7 @@ req.idl:
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: Ccpapi.tlb
+req.type-library: 
 req.typenames: SOCKET_USAGE_TYPE
 topic_type:
 -	APIRef
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _SOCKET_USAGE_TYPE enumeration

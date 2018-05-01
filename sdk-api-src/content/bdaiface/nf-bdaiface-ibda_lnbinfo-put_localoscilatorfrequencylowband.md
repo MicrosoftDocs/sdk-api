@@ -7,7 +7,7 @@ old-location: mstv\ibda_lnbinfo_put_localoscilatorfrequencylowband.htm
 old-project: mstv
 ms.assetid: e1ba4cf7-f9d4-4cac-921f-19f34fd968fe
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IBDA_LNBInfo, IBDA_LNBInfo interface [Microsoft TV Technologies], put_LocalOscilatorFrequencyLowBand method, IBDA_LNBInfo::put_LocalOscilatorFrequencyLowBand, IBDA_LNBInfoput_LocalOscilatorFrequencyLowBand, bdaiface/IBDA_LNBInfo::put_LocalOscilatorFrequencyLowBand, mstv.ibda_lnbinfo_put_localoscilatorfrequencylowband, put_LocalOscilatorFrequencyLowBand method [Microsoft TV Technologies], put_LocalOscilatorFrequencyLowBand method [Microsoft TV Technologies], IBDA_LNBInfo interface, put_LocalOscilatorFrequencyLowBand,IBDA_LNBInfo.put_LocalOscilatorFrequencyLowBand
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: stg\ipropertysetstorage.htm
 old-project: Stg
 ms.assetid: 0ea3e1e0-c135-4138-81e4-f72412fc3128
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/20/2018
 ms.keywords: IPropertySetStorage, IPropertySetStorage interface [Structured Storage], IPropertySetStorage interface [Structured Storage], described, _stg_ipropertysetstorage, propidl/IPropertySetStorage, stg.ipropertysetstorage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IPropertySetStorage interface

@@ -7,7 +7,7 @@ old-location: wmp\iwmpmedia_getiteminfo.htm
 old-project: WMP
 ms.assetid: ee964f68-d44c-4e66-908b-09070a96d96f
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPMedia, IWMPMedia interface [Windows Media Player], getItemInfo method, IWMPMedia2 interface [Windows Media Player], getItemInfo method, IWMPMedia2::getItemInfo, IWMPMedia3 interface [Windows Media Player], getItemInfo method, IWMPMedia3::getItemInfo, IWMPMedia::getItemInfo, IWMPMediagetItemInfo, getItemInfo method [Windows Media Player], getItemInfo method [Windows Media Player], IWMPMedia interface, getItemInfo method [Windows Media Player], IWMPMedia2 interface, getItemInfo method [Windows Media Player], IWMPMedia3 interface, getItemInfo,IWMPMedia.getItemInfo, wmp.iwmpmedia_getiteminfo, wmp/IWMPMedia2::getItemInfo, wmp/IWMPMedia3::getItemInfo, wmp/IWMPMedia::getItemInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

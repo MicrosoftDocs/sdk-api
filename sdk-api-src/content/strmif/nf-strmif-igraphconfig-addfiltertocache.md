@@ -7,7 +7,7 @@ old-location: dshow\igraphconfig_addfiltertocache.htm
 old-project: DirectShow
 ms.assetid: 8d5c6d55-1628-462b-828a-50541b6da3e7
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: AddFilterToCache method [DirectShow], AddFilterToCache method [DirectShow], IGraphConfig interface, AddFilterToCache,IGraphConfig.AddFilterToCache, IGraphConfig, IGraphConfig interface [DirectShow], AddFilterToCache method, IGraphConfig::AddFilterToCache, IGraphConfigAddFilterToCache, dshow.igraphconfig_addfiltertocache, strmif/IGraphConfig::AddFilterToCache
 ms.prod: windows-hardware
 ms.technology: windows-devices

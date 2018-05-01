@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiosessioncontrol2_getsessionidentifier.htm
 old-project: CoreAudio
 ms.assetid: 1854e7fe-9d5f-42f3-9c4c-f2a27f26ac17
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: GetSessionIdentifier method [Core Audio], GetSessionIdentifier method [Core Audio], IAudioSessionControl2 interface, GetSessionIdentifier,IAudioSessionControl2.GetSessionIdentifier, IAudioSessionControl2, IAudioSessionControl2 interface [Core Audio], GetSessionIdentifier method, IAudioSessionControl2::GetSessionIdentifier, audiopolicy/IAudioSessionControl2::GetSessionIdentifier, coreaudio.iaudiosessioncontrol2_getsessionidentifier
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: AE_CURRENT_POSITION, *PAE_CURRENT_POSITION
+req.typenames: UNCOMPRESSEDAUDIOFORMAT
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicbitmapencoder_getmetadataquerywriter.htm
 old-project: wic
 ms.assetid: 11160c48-dbbe-45b6-864c-6a6713ec9ab5
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: GetMetadataQueryWriter method [Windows Imaging Component], GetMetadataQueryWriter method [Windows Imaging Component], IWICBitmapEncoder interface, GetMetadataQueryWriter,IWICBitmapEncoder.GetMetadataQueryWriter, IWICBitmapEncoder, IWICBitmapEncoder interface [Windows Imaging Component], GetMetadataQueryWriter method, IWICBitmapEncoder::GetMetadataQueryWriter, _wic_codec_iwicbitmapencoder_getmetadataquerywriter, wic._wic_codec_iwicbitmapencoder_getmetadataquerywriter, wincodec/IWICBitmapEncoder::GetMetadataQueryWriter
 ms.prod: windows-hardware
 ms.technology: windows-devices

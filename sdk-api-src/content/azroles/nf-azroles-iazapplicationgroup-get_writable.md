@@ -7,7 +7,7 @@ old-location: security\iazapplicationgroup_writable.htm
 old-project: SecAuthZ
 ms.assetid: c0d88a7c-2df7-4f8e-94c2-75690d9758e7
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: AzApplicationGroup object [Security], Writable property, IAzApplicationGroup, IAzApplicationGroup interface [Security], Writable property, IAzApplicationGroup.Writable, IAzApplicationGroup::get_Writable, Writable property [Security], Writable property [Security], AzApplicationGroup object, Writable property [Security], IAzApplicationGroup interface, azroles/IAzApplicationGroup::Writable, azroles/IAzApplicationGroup::get_Writable, get_Writable,IAzApplicationGroup.get_Writable, security.iazapplicationgroup_writable
 ms.prod: windows-hardware
 ms.technology: windows-devices

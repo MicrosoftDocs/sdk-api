@@ -7,7 +7,7 @@ old-location: winprog\symbolservercallback.htm
 old-project: DevNotes
 ms.assetid: 11c833ee-a9f3-4d08-a6cd-0da62844c589
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/13/2018
 ms.keywords: PSYMBOLSERVERCALLBACKPROC, SSRVACTION_EVENT, SSRVACTION_QUERYCANCEL, SSRVACTION_SIZE, SSRVACTION_TRACE, SymbolServerCallback, SymbolServerCallback callback function [Windows API], _win32_symbolservercallback, base.symbolservercallback, dbghelp/SymbolServerCallback, winprog.symbolservercallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

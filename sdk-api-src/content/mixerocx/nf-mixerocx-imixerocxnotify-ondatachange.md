@@ -7,7 +7,7 @@ old-location: dshow\imixerocxnotify_ondatachange.htm
 old-project: DirectShow
 ms.assetid: d8080e5f-99e7-47eb-96ff-53c4ed8d2ff1
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IMixerOCXNotify, IMixerOCXNotify interface [DirectShow], OnDataChange method, IMixerOCXNotify::OnDataChange, IMixerOCXNotifyOnDataChange, OnDataChange method [DirectShow], OnDataChange method [DirectShow], IMixerOCXNotify interface, OnDataChange,IMixerOCXNotify.OnDataChange, dshow.imixerocxnotify_ondatachange, mixerocx/IMixerOCXNotify::OnDataChange
 ms.prod: windows-hardware
 ms.technology: windows-devices

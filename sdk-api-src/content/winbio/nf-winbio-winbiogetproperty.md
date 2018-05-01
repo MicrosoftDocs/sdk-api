@@ -7,7 +7,7 @@ old-location: secbiomet\winbiogetproperty.htm
 old-project: SecBioMet
 ms.assetid: 63e38e74-3d46-4474-a31c-eaf724156bc6
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: WINBIO_PROPERTY_ANTI_SPOOF_POLICY, WINBIO_PROPERTY_EXTENDED_ENGINE_INFO, WINBIO_PROPERTY_EXTENDED_ENROLLMENT_STATUS, WINBIO_PROPERTY_EXTENDED_SENSOR_INFO, WINBIO_PROPERTY_EXTENDED_STORAGE_INFO, WINBIO_PROPERTY_SAMPLE_HINT, WinBioGetProperty, WinBioGetProperty function [Windows Biometric Framework API], secbiomet.winbiogetproperty, winbio/WinBioGetProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

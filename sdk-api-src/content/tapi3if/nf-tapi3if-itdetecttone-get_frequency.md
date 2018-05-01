@@ -7,7 +7,7 @@ old-location: tapi3\itdetecttone_get_frequency.htm
 old-project: Tapi
 ms.assetid: a7137eba-c863-4125-9602-14bfba814b2a
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: ITDetectTone, ITDetectTone interface [TAPI 2.2], get_Frequency method, ITDetectTone::get_Frequency, _tapi3_itdetecttone_get_frequency, get_Frequency method [TAPI 2.2], get_Frequency method [TAPI 2.2], ITDetectTone interface, get_Frequency,ITDetectTone.get_Frequency, tapi3.itdetecttone_get_frequency, tapi3if/ITDetectTone::get_Frequency
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: cos\ieventsubscription_getsubscriberpropertycollection.htm
 old-project: cossdk
 ms.assetid: 33d00424-a285-4953-aa96-be30d3e7da17
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: GetSubscriberPropertyCollection method [COM+], GetSubscriberPropertyCollection method [COM+], IEventSubscription interface, GetSubscriberPropertyCollection,IEventSubscription.GetSubscriberPropertyCollection, IEventSubscription, IEventSubscription interface [COM+], GetSubscriberPropertyCollection method, IEventSubscription::GetSubscriberPropertyCollection, _cos_IEventSubscription_GetSubscriberPropertyCollection, cos.ieventsubscription_getsubscriberpropertycollection, eventsys/IEventSubscription::GetSubscriberPropertyCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices

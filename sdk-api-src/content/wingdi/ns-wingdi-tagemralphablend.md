@@ -7,7 +7,7 @@ old-location: gdi\emralphablend.htm
 old-project: gdi
 ms.assetid: 3270d8ed-a174-4d77-a9a7-3e3f0cab2a23
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/17/2018
 ms.keywords: "*PEMRALPHABLEND, EMRALPHABLEND, EMRALPHABLEND structure [Windows GDI], PEMRALPHABLEND, PEMRALPHABLEND structure pointer [Windows GDI], _win32_EMRALPHABLEND_str, gdi.emralphablend, tagEMRALPHABLEND, wingdi/EMRALPHABLEND, wingdi/PEMRALPHABLEND"
 ms.prod: windows-hardware
 ms.technology: windows-devices

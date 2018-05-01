@@ -7,7 +7,7 @@ old-location: dshow\iampushsource_getstreamoffset.htm
 old-project: DirectShow
 ms.assetid: 249d5262-e02d-4df7-a968-0680b64ab7d4
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetStreamOffset method [DirectShow], GetStreamOffset method [DirectShow], IAMPushSource interface, GetStreamOffset,IAMPushSource.GetStreamOffset, IAMPushSource, IAMPushSource interface [DirectShow], GetStreamOffset method, IAMPushSource::GetStreamOffset, IAMPushSourceGetStreamOffset, dshow.iampushsource_getstreamoffset, strmif/IAMPushSource::GetStreamOffset
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10resource_setevictionpriority.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10resource_setevictionpriority.htm
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: 8ad141ef-5f50-f2f6-d2db-3f0b076d0dda, ID3D10Resource, ID3D10Resource interface [Direct3D 10], SetEvictionPriority method, ID3D10Resource::SetEvictionPriority, SetEvictionPriority method [Direct3D 10], SetEvictionPriority method [Direct3D 10], ID3D10Resource interface, SetEvictionPriority,ID3D10Resource.SetEvictionPriority, d3d10/ID3D10Resource::SetEvictionPriority, direct3d10.id3d10resource_setevictionpriority
 ms.prod: windows-hardware
 ms.technology: windows-devices

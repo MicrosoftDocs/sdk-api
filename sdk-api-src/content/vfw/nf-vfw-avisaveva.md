@@ -7,7 +7,7 @@ old-location: multimedia\avisavev.htm
 old-project: Multimedia
 ms.assetid: e3810588-1be7-4e66-9b25-78aaa24b96c7
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/25/2018
 ms.keywords: AVISaveV, AVISaveV function [Windows Multimedia], AVISaveVA, AVISaveVW, _win32_AVISaveV, multimedia.avisavev, vfw/AVISaveV, vfw/AVISaveVA, vfw/AVISaveVW
 ms.prod: windows-hardware
 ms.technology: windows-devices

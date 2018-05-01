@@ -7,7 +7,7 @@ old-location: winsock\wsantohs_2.htm
 old-project: WinSock
 ms.assetid: 0a4bc3a9-9919-4dcb-8a37-af37e0243c8f
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/24/2018
 ms.keywords: WSANtohs, WSANtohs function [Winsock], _win32_wsantohs_2, winsock.wsantohs_2, winsock2/WSANtohs
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: cos\icomobjectpoolevents_onobjpoolrecycletotx.htm
 old-project: cossdk
 ms.assetid: 6acae10b-9fda-4c73-b781-62a480271fd1
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: IComObjectPoolEvents, IComObjectPoolEvents interface [COM+], OnObjPoolRecycleToTx method, IComObjectPoolEvents::OnObjPoolRecycleToTx, OnObjPoolRecycleToTx method [COM+], OnObjPoolRecycleToTx method [COM+], IComObjectPoolEvents interface, OnObjPoolRecycleToTx,IComObjectPoolEvents.OnObjPoolRecycleToTx, _dtc_icomobjectpoolevents_onobjpoolrecycletotx, comsvcs/IComObjectPoolEvents::OnObjPoolRecycleToTx, cos.icomobjectpoolevents_onobjpoolrecycletotx
 ms.prod: windows-hardware
 ms.technology: windows-devices

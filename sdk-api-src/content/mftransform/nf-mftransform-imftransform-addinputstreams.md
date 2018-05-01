@@ -7,7 +7,7 @@ old-location: mf\imftransform_addinputstreams.htm
 old-project: medfound
 ms.assetid: 311ab66e-5dbd-452a-bad4-99a6293cbc60
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 311ab66e-5dbd-452a-bad4-99a6293cbc60, AddInputStreams method [Media Foundation], AddInputStreams method [Media Foundation], IMFTransform interface, AddInputStreams,IMFTransform.AddInputStreams, IMFTransform, IMFTransform interface [Media Foundation], AddInputStreams method, IMFTransform::AddInputStreams, mf.imftransform_addinputstreams, mftransform/IMFTransform::AddInputStreams
 ms.prod: windows-hardware
 ms.technology: windows-devices

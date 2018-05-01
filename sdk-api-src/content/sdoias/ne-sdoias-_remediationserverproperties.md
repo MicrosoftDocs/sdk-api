@@ -7,7 +7,7 @@ old-location: nps\SDO_remediationserverproperties.htm
 old-project: Nps
 ms.assetid: 46f3b67d-8060-44d5-b04b-b1655ac22c3d
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/24/2018
 ms.keywords: PROPERTY_REMEDIATIONSERVER_ADDRESS, PROPERTY_REMEDIATIONSERVER_FRIENDLY_NAME, REMEDIATIONSERVERPROPERTIES, REMEDIATIONSERVERPROPERTIES enumeration [Network Policy Server], _REMEDIATIONSERVERPROPERTIES, nps.SDO_remediationserverproperties, sdo.remediationserverproperties, sdoias/PROPERTY_REMEDIATIONSERVER_ADDRESS, sdoias/PROPERTY_REMEDIATIONSERVER_FRIENDLY_NAME, sdoias/REMEDIATIONSERVERPROPERTIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _REMEDIATIONSERVERPROPERTIES enumeration

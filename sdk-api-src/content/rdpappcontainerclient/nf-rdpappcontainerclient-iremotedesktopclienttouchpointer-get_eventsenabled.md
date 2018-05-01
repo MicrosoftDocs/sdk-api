@@ -1,0 +1,72 @@
+---
+UID: NF:rdpappcontainerclient.IRemoteDesktopClientTouchPointer.get_EventsEnabled
+title: IRemoteDesktopClientTouchPointer::get_EventsEnabled method
+author: windows-driver-content
+description: Whether touch pointer event notifications are enabled for the RDP app container client control.
+old-location: termserv\iremotedesktopclienttouchpointer_eventsenabled.htm
+old-project: TermServ
+ms.assetid: 972e0f05-74fb-4997-a1c2-90ecfa4870a3
+ms.author: windowsdriverdev
+ms.date: 4/24/2018
+ms.keywords: EventsEnabled property [Remote Desktop Services], EventsEnabled property [Remote Desktop Services], IRemoteDesktopClientTouchPointer interface, IRemoteDesktopClientTouchPointer, IRemoteDesktopClientTouchPointer interface [Remote Desktop Services], EventsEnabled property, IRemoteDesktopClientTouchPointer.EventsEnabled, IRemoteDesktopClientTouchPointer::get_EventsEnabled, IRemoteDesktopClientTouchPointer::put_EventsEnabled, get_EventsEnabled,IRemoteDesktopClientTouchPointer.get_EventsEnabled, rdpappcontainerclient/IRemoteDesktopClientTouchPointer::EventsEnabled, rdpappcontainerclient/IRemoteDesktopClientTouchPointer::get_EventsEnabled, rdpappcontainerclient/IRemoteDesktopClientTouchPointer::put_EventsEnabled, termserv.iremotedesktopclienttouchpointer_eventsenabled
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: rdpappcontainerclient.h
+req.include-header: Rdpappcontainerclient.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: MsTscAx.dll
+req.typenames: SnapshotFormatType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	MsTscAx.dll
+api_name:
+-	IRemoteDesktopClientTouchPointer.EventsEnabled
+-	IRemoteDesktopClientTouchPointer.get_EventsEnabled
+-	IRemoteDesktopClientTouchPointer.put_EventsEnabled
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: MsTscAx.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 SP2 or later
+---
+
+# IRemoteDesktopClientTouchPointer::get_EventsEnabled method
+
+
+## -description
+
+
+Whether touch pointer event notifications are enabled for the RDP app container client control. If this property is enabled, the <a href="https://msdn.microsoft.com/55A6AC99-0723-4215-9428-D2DAAC77A74A">OnTouchPointerCursorMoved</a> method will handle events when the touch pointer cursor is moved.
+
+This property is read/write.
+
+
+## -parameters
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/98c47e41-ecda-45cb-94e9-de51edc7af08">IRemoteDesktopClientTouchPointer</a>
+ 
+
+ 
+

@@ -7,7 +7,7 @@ old-location: mstv\ibda_dridrmservice_getpairingstatus.htm
 old-project: mstv
 ms.assetid: 01918e99-17e6-4c24-bb85-ba71cf68cf09
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: ""Green", "Orange", "Red", GetPairingStatus method [DirectShow], GetPairingStatus method [DirectShow], IBDA_DRIDRMService interface, GetPairingStatus,IBDA_DRIDRMService.GetPairingStatus, IBDA_DRIDRMService, IBDA_DRIDRMService interface [DirectShow], GetPairingStatus method, IBDA_DRIDRMService::GetPairingStatus, bdaiface/IBDA_DRIDRMService::GetPairingStatus, mstv.ibda_dridrmservice_getpairingstatus"
 ms.prod: windows-hardware
 ms.technology: windows-devices

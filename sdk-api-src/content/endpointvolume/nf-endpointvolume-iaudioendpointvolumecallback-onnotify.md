@@ -7,7 +7,7 @@ old-location: coreaudio\iaudioendpointvolumecallback_onnotify.htm
 old-project: CoreAudio
 ms.assetid: a8ffad44-c621-4335-a312-16e7d6af2c18
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: IAudioEndpointVolumeCallback, IAudioEndpointVolumeCallback interface [Core Audio], OnNotify method, IAudioEndpointVolumeCallback::OnNotify, IAudioEndpointVolumeCallbackOnNotify, OnNotify method [Core Audio], OnNotify method [Core Audio], IAudioEndpointVolumeCallback interface, OnNotify,IAudioEndpointVolumeCallback.OnNotify, coreaudio.iaudioendpointvolumecallback_onnotify, endpointvolume/IAudioEndpointVolumeCallback::OnNotify
 ms.prod: windows-hardware
 ms.technology: windows-devices

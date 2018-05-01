@@ -7,7 +7,7 @@ old-location: search\_search_ISchemaProvider_RootEntity.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ischemaprovider\rootentity.htm
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/24/2018
 ms.keywords: ISchemaProvider, ISchemaProvider interface [search], RootEntity method, ISchemaProvider::RootEntity, RootEntity method [search], RootEntity method [search], ISchemaProvider interface, RootEntity,ISchemaProvider.RootEntity, _search_ISchemaProvider_RootEntity, search._search_ISchemaProvider_RootEntity, structuredquery/ISchemaProvider::RootEntity
 ms.prod: windows-hardware
 ms.technology: windows-devices

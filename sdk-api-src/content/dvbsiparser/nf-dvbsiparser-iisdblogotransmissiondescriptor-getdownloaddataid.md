@@ -7,7 +7,7 @@ old-location: mstv\iisdblogotransmissiondescriptor_getdownloaddataid.htm
 old-project: mstv
 ms.assetid: 3672458d-0f7d-4264-8362-2ddad3afecab
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetDownloadDataId method [Microsoft TV Technologies], GetDownloadDataId method [Microsoft TV Technologies], IIsdbLogoTransmissionDescriptor interface, GetDownloadDataId,IIsdbLogoTransmissionDescriptor.GetDownloadDataId, IIsdbLogoTransmissionDescriptor, IIsdbLogoTransmissionDescriptor interface [Microsoft TV Technologies], GetDownloadDataId method, IIsdbLogoTransmissionDescriptor::GetDownloadDataId, dvbsiparser/IIsdbLogoTransmissionDescriptor::GetDownloadDataId, mstv.iisdblogotransmissiondescriptor_getdownloaddataid
 ms.prod: windows-hardware
 ms.technology: windows-devices

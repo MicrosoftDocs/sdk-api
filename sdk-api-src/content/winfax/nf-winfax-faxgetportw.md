@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxgetport.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_3910.htm
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/18/2018
 ms.keywords: FaxGetPort, FaxGetPort function [Fax Service], FaxGetPortA, FaxGetPortW, _mfax_faxgetport, fax._mfax_faxgetport, winfax/FaxGetPort, winfax/FaxGetPortA, winfax/FaxGetPortW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmp\iwmpsubscriptionservice2_deviceavailable.htm
 old-project: WMP
 ms.assetid: f3450e57-5e25-411c-8b21-b687021a6500
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPSubscriptionService2, IWMPSubscriptionService2 interface [Windows Media Player], deviceAvailable method, IWMPSubscriptionService2::deviceAvailable, IWMPSubscriptionService2doMetering, deviceAvailable method [Windows Media Player], deviceAvailable method [Windows Media Player], IWMPSubscriptionService2 interface, deviceAvailable,IWMPSubscriptionService2.deviceAvailable, subscriptionservices/IWMPSubscriptionService2::deviceAvailable, wmp.iwmpsubscriptionservice2_deviceavailable
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\ixdscodecconfig_getsecurechannelobject.htm
 old-project: mstv
 ms.assetid: c7bf4efe-110a-4bcc-927c-f5e4798211df
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetSecureChannelObject method [Microsoft TV Technologies], GetSecureChannelObject method [Microsoft TV Technologies], IXDSCodecConfig interface, GetSecureChannelObject,IXDSCodecConfig.GetSecureChannelObject, IXDSCodecConfig, IXDSCodecConfig interface [Microsoft TV Technologies], GetSecureChannelObject method, IXDSCodecConfig::GetSecureChannelObject, IXDSCodecConfigGetSecureChannelObject, encdec/IXDSCodecConfig::GetSecureChannelObject, mstv.ixdscodecconfig_getsecurechannelobject
 ms.prod: windows-hardware
 ms.technology: windows-devices

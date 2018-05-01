@@ -7,7 +7,7 @@ old-location: automat\vari1fromr8.htm
 old-project: automat
 ms.assetid: 60809691-64f0-480a-9c0d-a1906ccdc1c0
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: VarI1FromR8, VarI1FromR8 function [Automation], _oa96_VarI1FromR8, automat.vari1fromr8, oleauto/VarI1FromR8
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # VarI1FromR8 function

@@ -7,7 +7,7 @@ old-location: tmg\http_filter_authent.htm
 old-project: TMG
 ms.assetid: 947b1449-96e6-4cf4-9403-eca09b2340bf
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/3/2018
 ms.keywords: "*PHTTP_FILTER_AUTHENT, HTTP_FILTER_AUTHENT, HTTP_FILTER_AUTHENT structure [Forefront TMG], PHTTP_FILTER_AUTHENT, PHTTP_FILTER_AUTHENT structure pointer [Forefront TMG], _HTTP_FILTER_AUTHENT, httpfilt/HTTP_FILTER_AUTHENT, httpfilt/PHTTP_FILTER_AUTHENT, tmg.http_filter_authent"
 ms.prod: windows-hardware
 ms.technology: windows-devices

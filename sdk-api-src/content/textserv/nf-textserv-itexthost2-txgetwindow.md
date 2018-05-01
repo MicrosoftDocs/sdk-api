@@ -7,7 +7,7 @@ old-location: controls\itexthost2_txgetwindow.htm
 old-project: Controls
 ms.assetid: 42594B92-298B-4659-87EC-D10C6996CECF
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextHost2, ITextHost2 interface [Windows Controls], TxGetWindow method, ITextHost2::TxGetWindow, TxGetWindow method [Windows Controls], TxGetWindow method [Windows Controls], ITextHost2 interface, TxGetWindow,ITextHost2.TxGetWindow, controls.itexthost2_txgetwindow, textserv/ITextHost2::TxGetWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices

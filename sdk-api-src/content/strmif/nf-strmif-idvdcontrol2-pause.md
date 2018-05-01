@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol2_pause.htm
 old-project: DirectShow
 ms.assetid: 32ef572a-56f5-4aa4-b994-08f86a1f17ec
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IDvdControl2, IDvdControl2 interface [DirectShow], Pause method, IDvdControl2::Pause, IDvdControl2Pause, Pause method [DirectShow], Pause method [DirectShow], IDvdControl2 interface, Pause,IDvdControl2.Pause, dshow.idvdcontrol2_pause, strmif/IDvdControl2::Pause
 ms.prod: windows-hardware
 ms.technology: windows-devices

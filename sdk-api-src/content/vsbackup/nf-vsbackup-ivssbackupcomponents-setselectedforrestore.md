@@ -7,7 +7,7 @@ old-location: base\ivssbackupcomponents_setselectedforrestore.htm
 old-project: VSS
 ms.assetid: 8f8051d3-b1b6-418b-8a53-0ddc82a20bb3
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: IVssBackupComponents, IVssBackupComponents interface [VSS], SetSelectedForRestore method, IVssBackupComponents::SetSelectedForRestore, SetSelectedForRestore method [VSS], SetSelectedForRestore method [VSS], IVssBackupComponents interface, SetSelectedForRestore,IVssBackupComponents.SetSelectedForRestore, _win32_ivssbackupcomponents_setselectedforrestore, base.ivssbackupcomponents_setselectedforrestore, vsbackup/IVssBackupComponents::SetSelectedForRestore
 ms.prod: windows-hardware
 ms.technology: windows-devices

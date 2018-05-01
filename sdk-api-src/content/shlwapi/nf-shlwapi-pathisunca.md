@@ -7,7 +7,7 @@ old-location: shell\PathIsUNC.htm
 old-project: shell
 ms.assetid: 53da5ba7-a2a4-45b2-90e0-ae006415933e
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: PathIsUNC, PathIsUNC function [Windows Shell], PathIsUNCA, PathIsUNCW, _win32_PathIsUNC, shell.PathIsUNC, shlwapi/PathIsUNC, shlwapi/PathIsUNCA, shlwapi/PathIsUNCW
 ms.prod: windows-hardware
 ms.technology: windows-devices

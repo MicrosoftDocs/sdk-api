@@ -7,7 +7,7 @@ old-location: wmdm\imdspdevicecontrol_record.htm
 old-project: WMDM
 ms.assetid: 6cd99cfc-1961-4369-9ce9-2cdd0136d181
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: IMDSPDeviceControl, IMDSPDeviceControl interface [windows Media Device Manager], Record method, IMDSPDeviceControl::Record, IMDSPDeviceControlRecord, Record method [windows Media Device Manager], Record method [windows Media Device Manager], IMDSPDeviceControl interface, Record,IMDSPDeviceControl.Record, mswmdm/IMDSPDeviceControl::Record, wmdm.imdspdevicecontrol_record
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMDSPDeviceControl::Record method

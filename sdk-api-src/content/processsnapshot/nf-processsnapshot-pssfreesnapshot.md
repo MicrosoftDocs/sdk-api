@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: 
 req.dll: Kernel32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # PssFreeSnapshot function

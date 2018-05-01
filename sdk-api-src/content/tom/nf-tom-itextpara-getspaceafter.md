@@ -7,7 +7,7 @@ old-location: controls\ITextPara_GetSpaceAfter.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getspaceafter.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: GetSpaceAfter method [Windows Controls], GetSpaceAfter method [Windows Controls], ITextPara interface, GetSpaceAfter,ITextPara.GetSpaceAfter, ITextPara, ITextPara interface [Windows Controls], GetSpaceAfter method, ITextPara::GetSpaceAfter, _win32_ITextPara_GetSpaceAfter, _win32_ITextPara_GetSpaceAfter_cpp, controls.ITextPara_GetSpaceAfter, controls._win32_ITextPara_GetSpaceAfter, tom/ITextPara::GetSpaceAfter
 ms.prod: windows-hardware
 ms.technology: windows-devices

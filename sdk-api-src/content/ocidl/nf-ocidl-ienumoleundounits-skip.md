@@ -7,7 +7,7 @@ old-location: com\ienumoleundounits_skip.htm
 old-project: com
 ms.assetid: 53c5356d-525a-485f-9618-37efe21be687
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IEnumOleUndoUnits, IEnumOleUndoUnits interface [COM], Skip method, IEnumOleUndoUnits::Skip, Skip method [COM], Skip method [COM], IEnumOleUndoUnits interface, Skip,IEnumOleUndoUnits.Skip, _ole_ienumoleundounits_skip, com.ienumoleundounits_skip, ocidl/IEnumOleUndoUnits::Skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IEnumOleUndoUnits::Skip method

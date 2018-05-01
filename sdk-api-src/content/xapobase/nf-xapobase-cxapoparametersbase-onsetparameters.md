@@ -7,7 +7,7 @@ old-location: xaudio2\cxapoparametersbase_onsetparameters.htm
 old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.cxapoparameterbase.CXAPOParametersBase.OnSetParameters(const void,UINT32)
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/20/2018
 ms.keywords: CXAPOParametersBase, CXAPOParametersBase interface [XAudio2 Audio Mixing APIs], OnSetParameters method, CXAPOParametersBase::OnSetParameters, OnSetParameters method [XAudio2 Audio Mixing APIs], OnSetParameters method [XAudio2 Audio Mixing APIs], CXAPOParametersBase interface, OnSetParameters,CXAPOParametersBase.OnSetParameters, xapobase/CXAPOParametersBase::OnSetParameters, xaudio2.cxapoparametersbase_onsetparameters
 ms.prod: windows-hardware
 ms.technology: windows-devices

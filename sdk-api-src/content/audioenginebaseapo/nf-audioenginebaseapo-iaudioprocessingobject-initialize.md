@@ -1,0 +1,165 @@
+---
+UID: NF:audioenginebaseapo.IAudioProcessingObject.Initialize
+title: IAudioProcessingObject::Initialize method
+author: windows-driver-content
+description: The Initialize method initializes the APO and supports data of variable length.
+old-location: audio\iaudioprocessingobject_initialize.htm
+old-project: audio
+ms.assetid: b73c2e18-ab7b-4e34-9440-f38891f99bf7
+ms.author: windowsdriverdev
+ms.date: 4/16/2018
+ms.keywords: IAudioProcessingObject, IAudioProcessingObject interface [Audio Devices], Initialize method, IAudioProcessingObject::Initialize, Initialize method [Audio Devices], Initialize method [Audio Devices], IAudioProcessingObject interface, Initialize,IAudioProcessingObject.Initialize, audio.iaudioprocessingobject_initialize, audio_syseffects_r_00c2b464-0c56-4357-ab5f-fdcdfb6a2414.xml, audioenginebaseapo/IAudioProcessingObject::Initialize
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: audioenginebaseapo.h
+req.include-header: 
+req.target-type: Universal
+req.target-min-winverclnt: Available with Windows Vista and later Windows operating systems.
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: APO_FLAG
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Audioenginebaseapo.idl
+-	Audioenginebaseapo.idl.dll
+api_name:
+-	IAudioProcessingObject.Initialize
+product: Windows
+targetos: Windows
+req.lib: Audioenginebaseapo.idl
+req.dll: 
+req.irql: Any level
+---
+
+# IAudioProcessingObject::Initialize method
+
+
+## -description
+
+
+The Initialize method initializes the APO and supports data of variable length.
+
+
+## -parameters
+
+
+
+
+### -param cbDataSize [in]
+
+This is the size, in bytes, of the initialization data.
+
+
+### -param pbyData [in]
+
+This is initialization data that is specific to this APO.
+
+
+## -returns
+
+
+
+The <code>Initialize</code> method returns a value of S_OK if the call was successful. Otherwise, this method returns one of the following error codes:
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_POINTER</b></dt>
+</dl>
+</td>
+<td width="60%">
+Invalid pointer passed to the function.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+Invalid argument.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>APOERR_ALREADY_INITIALIZED</b></dt>
+</dl>
+</td>
+<td width="60%">
+APO already initialized.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>Other HRESULTS</b></dt>
+</dl>
+</td>
+<td width="60%">
+These additional error conditions are tracked by the audio engine.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+If this method is used to initialize an APO without the need to initialize any data, it is acceptable to supply a <b>NULL</b> as the value of the pbyData parameter and a 0 (zero) as the value of the cbDataSize parameter. The data that is supplied is of variable length and must have the following format:
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>Struct MyAPOInitializationData
+{
+APOInitBaseStruct APOInit;
+// list additional struct members here
+// ...
+};</pre>
+</td>
+</tr>
+</table></span></div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj151545">APOInitBaseStruct</a>
+ 
+
+ 
+

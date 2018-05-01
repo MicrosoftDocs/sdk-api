@@ -7,7 +7,7 @@ old-location: com\comarshalinterthreadinterfaceinstream.htm
 old-project: com
 ms.assetid: c9ab8713-8604-4f0b-a11b-bdfb7d595d95
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: CoMarshalInterThreadInterfaceInStream, CoMarshalInterThreadInterfaceInStream function [COM], _com_CoMarshalInterThreadInterfaceInStream, com.comarshalinterthreadinterfaceinstream, combaseapi/CoMarshalInterThreadInterfaceInStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

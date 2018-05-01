@@ -7,7 +7,7 @@ old-location: com\icatinformation_isclassofcategories.htm
 old-project: com
 ms.assetid: 772d4d75-2076-4922-bf47-2e6e41a5687d
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: ICatInformation, ICatInformation interface [COM], IsClassOfCategories method, ICatInformation::IsClassOfCategories, IsClassOfCategories method [COM], IsClassOfCategories method [COM], ICatInformation interface, IsClassOfCategories,ICatInformation.IsClassOfCategories, _com_icatinformation_isclassofcategories, com.icatinformation_isclassofcategories, comcat/ICatInformation::IsClassOfCategories
 ms.prod: windows-hardware
 ms.technology: windows-devices

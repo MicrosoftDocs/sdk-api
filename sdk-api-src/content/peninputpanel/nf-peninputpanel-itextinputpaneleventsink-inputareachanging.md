@@ -7,7 +7,7 @@ old-location: tablet\itextinputpaneleventsink_inputareachanging.htm
 old-project: tablet
 ms.assetid: e5f96798-2428-4acd-9d9a-addfdf14bb84
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: ITextInputPanelEventSink, ITextInputPanelEventSink interface [Tablet PC], InputAreaChanging method, ITextInputPanelEventSink::InputAreaChanging, InputAreaChanging method [Tablet PC], InputAreaChanging method [Tablet PC], ITextInputPanelEventSink interface, InputAreaChanging,ITextInputPanelEventSink.InputAreaChanging, e5f96798-2428-4acd-9d9a-addfdf14bb84, peninputpanel/ITextInputPanelEventSink::InputAreaChanging, tablet.itextinputpaneleventsink_inputareachanging
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Tiptsf.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITextInputPanelEventSink::InputAreaChanging method

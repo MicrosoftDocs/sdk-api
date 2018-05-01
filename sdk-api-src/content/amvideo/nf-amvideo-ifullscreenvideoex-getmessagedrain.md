@@ -7,7 +7,7 @@ old-location: dshow\ifullscreenvideoex_getmessagedrain.htm
 old-project: DirectShow
 ms.assetid: c1a83ad9-be4b-4adf-a316-d5dfb3df05ef
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetMessageDrain method [DirectShow], GetMessageDrain method [DirectShow], IFullScreenVideoEx interface, GetMessageDrain,IFullScreenVideoEx.GetMessageDrain, IFullScreenVideoEx, IFullScreenVideoEx interface [DirectShow], GetMessageDrain method, IFullScreenVideoEx::GetMessageDrain, IFullScreenVideoGetMessageDrain, amvideo/IFullScreenVideoEx::GetMessageDrain, dshow.ifullscreenvideoex_getmessagedrain
 ms.prod: windows-hardware
 ms.technology: windows-devices

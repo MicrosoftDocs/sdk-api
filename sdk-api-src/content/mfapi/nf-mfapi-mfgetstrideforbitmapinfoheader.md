@@ -7,7 +7,7 @@ old-location: mf\mfgetstrideforbitmapinfoheader.htm
 old-project: medfound
 ms.assetid: 09612b83-8b14-4286-9562-9e3d00fe2c2b
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 09612b83-8b14-4286-9562-9e3d00fe2c2b, MFGetStrideForBitmapInfoHeader, MFGetStrideForBitmapInfoHeader function [Media Foundation], mf.mfgetstrideforbitmapinfoheader, mfapi/MFGetStrideForBitmapInfoHeader
 ms.prod: windows-hardware
 ms.technology: windows-devices

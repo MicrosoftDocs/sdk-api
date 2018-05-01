@@ -7,7 +7,7 @@ old-location: intl\ifedictionary_nextwords.htm
 old-project: Intl
 ms.assetid: 551925ED-B05C-433F-91A9-D2BAC795E783
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/25/2018
 ms.keywords: IFEDictionary, IFEDictionary interface [Internationalization for Windows Applications], NextWords method, IFEDictionary::NextWords, NextWords method [Internationalization for Windows Applications], NextWords method [Internationalization for Windows Applications], IFEDictionary interface, NextWords,IFEDictionary.NextWords, intl.ifedictionary_nextwords, msime/IFEDictionary::NextWords
 ms.prod: windows-hardware
 ms.technology: windows-devices

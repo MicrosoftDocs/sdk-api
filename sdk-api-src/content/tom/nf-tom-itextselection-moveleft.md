@@ -7,7 +7,7 @@ old-location: controls\ITextSelection_MoveLeft.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\moveleft.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextSelection, ITextSelection interface [Windows Controls], MoveLeft method, ITextSelection::MoveLeft, MoveLeft method [Windows Controls], MoveLeft method [Windows Controls], ITextSelection interface, MoveLeft,ITextSelection.MoveLeft, _win32_ITextSelection_MoveLeft, _win32_ITextSelection_MoveLeft_cpp, controls.ITextSelection_MoveLeft, controls._win32_ITextSelection_MoveLeft, tom/ITextSelection::MoveLeft
 ms.prod: windows-hardware
 ms.technology: windows-devices

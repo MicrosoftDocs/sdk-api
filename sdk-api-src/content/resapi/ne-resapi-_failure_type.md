@@ -7,7 +7,7 @@ old-location: mscs\failure_type.htm
 old-project: MsCS
 ms.assetid: C838BE66-5CAB-4884-AC64-EC5EC3A87679
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: "*PFAILURE_TYPE, FAILURE_TYPE, FAILURE_TYPE enumeration [Failover Cluster], FAILURE_TYPE_EMBEDDED, FAILURE_TYPE_GENERAL, FAILURE_TYPE_NETWORK_LOSS, PFAILURE_TYPE, PFAILURE_TYPE enumeration pointer [Failover Cluster], _FAILURE_TYPE, mscs.failure_type, resapi/FAILURE_TYPE, resapi/FAILURE_TYPE_EMBEDDED, resapi/FAILURE_TYPE_GENERAL, resapi/FAILURE_TYPE_NETWORK_LOSS, resapi/PFAILURE_TYPE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _FAILURE_TYPE enumeration

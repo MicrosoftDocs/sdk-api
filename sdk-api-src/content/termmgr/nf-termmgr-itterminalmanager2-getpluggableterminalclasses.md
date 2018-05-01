@@ -7,7 +7,7 @@ old-location: tapi3\itterminalmanager2_getpluggableterminalclasses.htm
 old-project: Tapi
 ms.assetid: 7f967958-fc32-4336-aae5-bea180ba86d1
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: GetPluggableTerminalClasses method [TAPI 2.2], GetPluggableTerminalClasses method [TAPI 2.2], ITTerminalManager2 interface, GetPluggableTerminalClasses,ITTerminalManager2.GetPluggableTerminalClasses, ITTerminalManager2, ITTerminalManager2 interface [TAPI 2.2], GetPluggableTerminalClasses method, ITTerminalManager2::GetPluggableTerminalClasses, _tapi3_itterminalmanager2_getpluggableterminalclasses, tapi3.itterminalmanager2_getpluggableterminalclasses, termmgr/ITTerminalManager2::GetPluggableTerminalClasses
 ms.prod: windows-hardware
 ms.technology: windows-devices

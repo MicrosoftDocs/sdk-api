@@ -7,7 +7,7 @@ old-location: com\icatregister_registercategories.htm
 old-project: com
 ms.assetid: c84a4b00-c43d-488a-b406-3bac2d25dcb8
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: ICatRegister, ICatRegister interface [COM], RegisterCategories method, ICatRegister::RegisterCategories, RegisterCategories method [COM], RegisterCategories method [COM], ICatRegister interface, RegisterCategories,ICatRegister.RegisterCategories, _com_icatregister_registercategories, com.icatregister_registercategories, comcat/ICatRegister::RegisterCategories
 ms.prod: windows-hardware
 ms.technology: windows-devices

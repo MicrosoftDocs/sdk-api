@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ILegacyIAccessibleProvider_Help.htm
 old-project: WinAuto
 ms.assetid: 7b92f95b-9a75-4f24-b6ed-34ababfbbaa9
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: Help property [Windows Accessibility], Help property [Windows Accessibility], ILegacyIAccessibleProvider interface, ILegacyIAccessibleProvider, ILegacyIAccessibleProvider interface [Windows Accessibility], Help property, ILegacyIAccessibleProvider.Help, ILegacyIAccessibleProvider::get_Help, get_Help,ILegacyIAccessibleProvider.get_Help, uiauto.uiauto_ILegacyIAccessibleProvider_Help, uiauto_ILegacyIAccessibleProvider_Help, uiautomationcore/ILegacyIAccessibleProvider::Help, uiautomationcore/ILegacyIAccessibleProvider::get_Help, winauto.uiauto_ILegacyIAccessibleProvider_Help
 ms.prod: windows-hardware
 ms.technology: windows-devices

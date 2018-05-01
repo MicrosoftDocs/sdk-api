@@ -7,7 +7,7 @@ old-location: mstv\icaptionservicedescriptor_getwideaspectratio.htm
 old-project: mstv
 ms.assetid: 921d919a-5e23-4c09-abff-3ed1e7dbec01
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetWideAspectRatio method [Microsoft TV Technologies], GetWideAspectRatio method [Microsoft TV Technologies], ICaptionServiceDescriptor interface, GetWideAspectRatio,ICaptionServiceDescriptor.GetWideAspectRatio, ICaptionServiceDescriptor, ICaptionServiceDescriptor interface [Microsoft TV Technologies], GetWideAspectRatio method, ICaptionServiceDescriptor::GetWideAspectRatio, ICaptionServiceDescriptorGetWideAspectRatio, atscpsipparser/ICaptionServiceDescriptor::GetWideAspectRatio, mstv.icaptionservicedescriptor_getwideaspectratio
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_WRITER_PAYLOAD_STREAM
+req.typenames: AsyncStatus
 topic_type:
 -	APIRef
 -	kbSyntax

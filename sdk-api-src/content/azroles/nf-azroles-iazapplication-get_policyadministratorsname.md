@@ -7,7 +7,7 @@ old-location: security\iazapplication_policyadministratorsname.htm
 old-project: SecAuthZ
 ms.assetid: fdabb04b-deb4-494a-bdde-264a301388b3
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: AzApplication object [Security], PolicyAdministratorsName property, IAzApplication, IAzApplication interface [Security], PolicyAdministratorsName property, IAzApplication.PolicyAdministratorsName, IAzApplication::get_PolicyAdministratorsName, PolicyAdministratorsName property [Security], PolicyAdministratorsName property [Security], AzApplication object, PolicyAdministratorsName property [Security], IAzApplication interface, azroles/IAzApplication::PolicyAdministratorsName, azroles/IAzApplication::get_PolicyAdministratorsName, get_PolicyAdministratorsName,IAzApplication.get_PolicyAdministratorsName, security.iazapplication_policyadministratorsname
 ms.prod: windows-hardware
 ms.technology: windows-devices

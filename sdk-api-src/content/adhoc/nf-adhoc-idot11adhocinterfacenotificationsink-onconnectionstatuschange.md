@@ -7,7 +7,7 @@ old-location: nwifi\idot11adhocinterfacenotificationsink_onconnectionstatuschang
 old-project: NativeWiFi
 ms.assetid: a2116e44-e29b-4110-8794-ed161fdb534d
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/13/2018
 ms.keywords: IDot11AdHocInterfaceNotificationSink, IDot11AdHocInterfaceNotificationSink interface [NativeWIFI], OnConnectionStatusChange method, IDot11AdHocInterfaceNotificationSink::OnConnectionStatusChange, OnConnectionStatusChange method [NativeWIFI], OnConnectionStatusChange method [NativeWIFI], IDot11AdHocInterfaceNotificationSink interface, OnConnectionStatusChange,IDot11AdHocInterfaceNotificationSink.OnConnectionStatusChange, adhoc/IDot11AdHocInterfaceNotificationSink::OnConnectionStatusChange, nwifi.idot11adhocinterfacenotificationsink_onconnectionstatuschange
 ms.prod: windows-hardware
 ms.technology: windows-devices

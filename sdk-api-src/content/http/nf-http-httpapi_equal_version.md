@@ -7,7 +7,7 @@ old-location: http\httpapi_equal_version.htm
 old-project: Http
 ms.assetid: e6af7b3a-2e2f-4a50-bef6-9e5b6503cd71
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: HTTPAPI_EQUAL_VERSION, HTTPAPI_EQUAL_VERSION macro [HTTP], http.httpapi_equal_version, http/HTTPAPI_EQUAL_VERSION
 ms.prod: windows-hardware
 ms.technology: windows-devices

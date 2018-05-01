@@ -7,7 +7,7 @@ old-location: intl\isvalidcodepage.htm
 old-project: Intl
 ms.assetid: 7bd16f61-a534-4ada-ae27-d5deb47870a9
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/25/2018
 ms.keywords: IsValidCodePage, IsValidCodePage function [Internationalization for Windows Applications], _win32_IsValidCodePage, intl.isvalidcodepage, winnls/IsValidCodePage
 ms.prod: windows-hardware
 ms.technology: windows-devices

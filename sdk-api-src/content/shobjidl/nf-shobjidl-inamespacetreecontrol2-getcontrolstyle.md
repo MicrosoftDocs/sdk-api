@@ -7,7 +7,7 @@ old-location: shell\INameSpaceTreeControl2_GetControlStyle.htm
 old-project: shell
 ms.assetid: 5305d7ba-e37f-4f95-8ae2-e0532012cb1e
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetControlStyle method [Windows Shell], GetControlStyle method [Windows Shell], INameSpaceTreeControl2 interface, GetControlStyle,INameSpaceTreeControl2.GetControlStyle, INameSpaceTreeControl2, INameSpaceTreeControl2 interface [Windows Shell], GetControlStyle method, INameSpaceTreeControl2::GetControlStyle, _shell_INameSpaceTreeControl2_GetControlStyle, shell.INameSpaceTreeControl2_GetControlStyle, shobjidl/INameSpaceTreeControl2::GetControlStyle
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: com\idataobject_dadvise.htm
 old-project: com
 ms.assetid: be9891d4-aad3-42a0-8c8e-4b86091ff03b
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: DAdvise method [COM], DAdvise method [COM], IDataObject interface, DAdvise,IDataObject.DAdvise, IDataObject, IDataObject interface [COM], DAdvise method, IDataObject::DAdvise, _ole_idataobject_dadvise, com.idataobject_dadvise, objidl/IDataObject::DAdvise
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IDataObject::DAdvise method

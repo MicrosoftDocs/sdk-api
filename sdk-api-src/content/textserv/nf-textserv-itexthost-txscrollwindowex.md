@@ -7,7 +7,7 @@ old-location: controls\ITextHost_TxScrollWindowEx.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\itexthost\itexthosttxscrollwindowex.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextHost, ITextHost interface [Windows Controls], TxScrollWindowEx method, ITextHost::TxScrollWindowEx, SW_ERASE, SW_INVALIDATE, SW_SCROLLCHILDREN, SW_SMOOTHSCROLL, TxScrollWindowEx method [Windows Controls], TxScrollWindowEx method [Windows Controls], ITextHost interface, TxScrollWindowEx,ITextHost.TxScrollWindowEx, _win32_ITextHost_TxScrollWindowEx, _win32_ITextHost_TxScrollWindowEx_cpp, controls.ITextHost_TxScrollWindowEx, controls._win32_ITextHost_TxScrollWindowEx, textserv/ITextHost::TxScrollWindowEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

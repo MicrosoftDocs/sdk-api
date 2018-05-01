@@ -7,7 +7,7 @@ old-location: wmformat\inssbuffer_getbuffer.htm
 old-project: wmformat
 ms.assetid: 3f9e8408-52ce-48aa-ba85-51bdbbfd8b51
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: GetBuffer method [windows Media Format], GetBuffer method [windows Media Format], INSSBuffer interface, GetBuffer,INSSBuffer.GetBuffer, INSSBuffer, INSSBuffer interface [windows Media Format], GetBuffer method, INSSBuffer::GetBuffer, INSSBufferGetBuffer, wmformat.inssbuffer_getbuffer, wmsbuffer/INSSBuffer::GetBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

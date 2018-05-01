@@ -7,7 +7,7 @@ old-location: mscs\clus_csv_volume_info.htm
 old-project: MsCS
 ms.assetid: C672B42B-0DB9-4E70-8157-15C3189102EF
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: "*PCLUS_CSV_VOLUME_INFO, CLUS_CSV_VOLUME_INFO, CLUS_CSV_VOLUME_INFO structure [Failover Cluster], PCLUS_CSV_VOLUME_INFO, PCLUS_CSV_VOLUME_INFO structure pointer [Failover Cluster], _CLUS_CSV_VOLUME_INFO, clusapi/CLUS_CSV_VOLUME_INFO, clusapi/PCLUS_CSV_VOLUME_INFO, mscs.clus_csv_volume_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices

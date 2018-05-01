@@ -7,7 +7,7 @@ old-location: fax\_mfax_FaxConfiguration_BlockIncomingQueue_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\blockincomingqueue.htm
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/18/2018
 ms.keywords: FaxConfiguration object [Fax Service], IncomingQueueBlocked property, IFaxConfiguration, IFaxConfiguration::get_IncomingQueueBlocked, IncomingQueueBlocked property [Fax Service], IncomingQueueBlocked property [Fax Service], FaxConfiguration object, _mfax_IFaxConfiguration_BlockIncomingQueue, fax._mfax_FaxConfiguration_BlockIncomingQueue_vb, get_IncomingQueueBlocked,IFaxConfiguration.get_IncomingQueueBlocked
 ms.prod: windows-hardware
 ms.technology: windows-devices

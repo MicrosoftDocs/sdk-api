@@ -7,7 +7,7 @@ old-location: security\azauthorizationstore_addpolicyreadername.htm
 old-project: SecAuthZ
 ms.assetid: 3b111542-61d6-4e5d-abf8-0af61161c885
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: AddPolicyReaderName method [Security], AddPolicyReaderName method [Security], AzAuthorizationStore object, AddPolicyReaderName method [Security], IAzAuthorizationStore interface, AddPolicyReaderName,IAzAuthorizationStore.AddPolicyReaderName, AzAuthorizationStore object [Security], AddPolicyReaderName method, IAzAuthorizationStore, IAzAuthorizationStore interface [Security], AddPolicyReaderName method, IAzAuthorizationStore::AddPolicyReaderName, azroles/IAzAuthorizationStore::AddPolicyReaderName, security.azauthorizationstore_addpolicyreadername
 ms.prod: windows-hardware
 ms.technology: windows-devices

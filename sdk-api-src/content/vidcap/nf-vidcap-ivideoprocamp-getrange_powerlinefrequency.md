@@ -7,7 +7,7 @@ old-location: dshow\ivideoprocamp_getrange_powerlinefrequency.htm
 old-project: DirectShow
 ms.assetid: f6bb1df3-d033-4627-b5ea-574a2ebf43aa
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IVideoProcAmp, IVideoProcAmp interface [DirectShow], getRange_PowerlineFrequency method, IVideoProcAmp::getRange_PowerlineFrequency, IVideoProcAmpgetRange_PowerlineFrequency, dshow.ivideoprocamp_getrange_powerlinefrequency, getRange_PowerlineFrequency method [DirectShow], getRange_PowerlineFrequency method [DirectShow], IVideoProcAmp interface, getRange_PowerlineFrequency,IVideoProcAmp.getRange_PowerlineFrequency, vidcap/IVideoProcAmp::getRange_PowerlineFrequency
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: VIDEOHDR, *PVIDEOHDR, *LPVIDEOHDR
+req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
 topic_type:
 -	APIRef
 -	kbSyntax

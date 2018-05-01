@@ -7,7 +7,7 @@ old-location: tapi2\linegetcallinfo.htm
 old-project: Tapi
 ms.assetid: e69722cb-9c45-4f1a-a855-64afa3c33276
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: "_tapi2_linegetcallinfo, lineGetCallInfo, lineGetCallInfo function [TAPI 2.2], lineGetCallInfoA, lineGetCallInfoW, tapi/lineGetCallInfo, tapi/lineGetCallInfoA, tapi/lineGetCallInfoW, tapi2.linegetcallinfo"
 ms.prod: windows-hardware
 ms.technology: windows-devices

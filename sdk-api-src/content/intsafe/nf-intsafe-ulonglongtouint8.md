@@ -7,7 +7,7 @@ old-location: shell\ULongLongToUInt8.htm
 old-project: shell
 ms.assetid: 7aec4c8f-c2fc-4e57-bc27-b5b853fbd2ab
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ULongLongToUInt8, ULongLongToUInt8 function [Windows Shell], intsafe/ULongLongToUInt8, shell.ULongLongToUInt8
 ms.prod: windows-hardware
 ms.technology: windows-devices

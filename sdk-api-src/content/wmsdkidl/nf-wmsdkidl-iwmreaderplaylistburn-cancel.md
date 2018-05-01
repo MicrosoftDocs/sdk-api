@@ -7,7 +7,7 @@ old-location: wmformat\iwmreaderplaylistburn_cancel.htm
 old-project: wmformat
 ms.assetid: d126f13b-90ac-489e-8dd0-e507f4003a7a
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: Cancel method [windows Media Format], Cancel method [windows Media Format], IWMReaderPlaylistBurn interface, Cancel,IWMReaderPlaylistBurn.Cancel, IWMReaderPlaylistBurn, IWMReaderPlaylistBurn interface [windows Media Format], Cancel method, IWMReaderPlaylistBurn::Cancel, IWMReaderPlaylistBurnCancel, wmformat.iwmreaderplaylistburn_cancel, wmsdkidl/IWMReaderPlaylistBurn::Cancel
 ms.prod: windows-hardware
 ms.technology: windows-devices

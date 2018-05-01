@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11rasterizerstate2.htm
 old-project: direct3d11
 ms.assetid: 335D976C-9E7F-4EAE-B671-F99D1B31669B
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/6/2018
 ms.keywords: ID3D11RasterizerState2, ID3D11RasterizerState2 interface [Direct3D 11], ID3D11RasterizerState2 interface [Direct3D 11], described, d3d11_3/ID3D11RasterizerState2, direct3d11.id3d11rasterizerstate2
 ms.prod: windows-hardware
 ms.technology: windows-devices

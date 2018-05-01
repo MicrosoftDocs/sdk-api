@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationTablePattern_GetCurrentRowHeaders.htm
 old-project: WinAuto
 ms.assetid: 5669bdc7-a240-4c05-acf1-b1ff5e5b09fc
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: GetCurrentRowHeaders method [Windows Accessibility], GetCurrentRowHeaders method [Windows Accessibility], IUIAutomationTablePattern interface, GetCurrentRowHeaders,IUIAutomationTablePattern.GetCurrentRowHeaders, IUIAutomationTablePattern, IUIAutomationTablePattern interface [Windows Accessibility], GetCurrentRowHeaders method, IUIAutomationTablePattern::GetCurrentRowHeaders, uiauto.uiauto_IUIAutomationTablePattern_GetCurrentRowHeaders, uiauto_IUIAutomationTablePattern_GetCurrentRowHeaders, uiautomationclient/IUIAutomationTablePattern::GetCurrentRowHeaders, winauto.uiauto_IUIAutomationTablePattern_GetCurrentRowHeaders
 ms.prod: windows-hardware
 ms.technology: windows-devices

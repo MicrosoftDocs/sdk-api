@@ -7,7 +7,7 @@ old-location: dshow\istreamsample_setsampletimes.htm
 old-project: DirectShow
 ms.assetid: c8d21ea2-0104-44e1-9f5b-5c0c23593e43
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IStreamSample, IStreamSample interface [DirectShow], SetSampleTimes method, IStreamSample::SetSampleTimes, IStreamSampleSetSampleTimes, SetSampleTimes method [DirectShow], SetSampleTimes method [DirectShow], IStreamSample interface, SetSampleTimes,IStreamSample.SetSampleTimes, dshow.istreamsample_setsampletimes, mmstream/IStreamSample::SetSampleTimes
 ms.prod: windows-hardware
 ms.technology: windows-devices

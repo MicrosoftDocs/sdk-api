@@ -7,7 +7,7 @@ old-location: wua\iupdatesession_createupdateinstaller.htm
 old-project: Wua_Sdk
 ms.assetid: e5b5f760-0d25-4506-95d3-63ff4a0b9188
 ms.author: windowsdriverdev
-ms.date: 3/15/2018
+ms.date: 4/18/2018
 ms.keywords: CreateUpdateInstaller method [Windows Update Agent], CreateUpdateInstaller method [Windows Update Agent], IUpdateSession interface, CreateUpdateInstaller,IUpdateSession.CreateUpdateInstaller, IUpdateSession, IUpdateSession interface [Windows Update Agent], CreateUpdateInstaller method, IUpdateSession::CreateUpdateInstaller, wua.iupdatesession_createupdateinstaller, wuapi/IUpdateSession::CreateUpdateInstaller
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\ibasicvideo_getdestinationposition.htm
 old-project: DirectShow
 ms.assetid: ee2abf52-edc2-471e-bf9b-eda04f2eabe4
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetDestinationPosition method [DirectShow], GetDestinationPosition method [DirectShow], IBasicVideo interface, GetDestinationPosition,IBasicVideo.GetDestinationPosition, IBasicVideo, IBasicVideo interface [DirectShow], GetDestinationPosition method, IBasicVideo::GetDestinationPosition, IBasicVideoGetDestinationPosition, control/IBasicVideo::GetDestinationPosition, dshow.ibasicvideo_getdestinationposition
 ms.prod: windows-hardware
 ms.technology: windows-devices

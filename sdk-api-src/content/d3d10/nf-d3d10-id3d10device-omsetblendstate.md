@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_omsetblendstate.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_omsetblendstate.htm
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: 9b71ab4c-dc5e-607f-4d02-0f408a6d4f30, ID3D10Device, ID3D10Device interface [Direct3D 10], OMSetBlendState method, ID3D10Device::OMSetBlendState, OMSetBlendState method [Direct3D 10], OMSetBlendState method [Direct3D 10], ID3D10Device interface, OMSetBlendState,ID3D10Device.OMSetBlendState, d3d10/ID3D10Device::OMSetBlendState, direct3d10.id3d10device_omsetblendstate
 ms.prod: windows-hardware
 ms.technology: windows-devices

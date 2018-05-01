@@ -7,7 +7,7 @@ old-location: mf\itocentrylist_getentrycount.htm
 old-project: medfound
 ms.assetid: 74c45032-578d-4ee1-a13d-f95646f27ce9
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetEntryCount method [Media Foundation], GetEntryCount method [Media Foundation], ITocEntryList interface, GetEntryCount,ITocEntryList.GetEntryCount, ITocEntryList, ITocEntryList interface [Media Foundation], GetEntryCount method, ITocEntryList::GetEntryCount, codecapi.itocentrylist_getentrycount, mf.itocentrylist_getentrycount, wmcodecdsp/ITocEntryList::GetEntryCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

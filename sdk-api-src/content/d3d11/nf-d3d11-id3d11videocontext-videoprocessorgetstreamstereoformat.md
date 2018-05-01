@@ -7,7 +7,7 @@ old-location: mf\id3d11videocontext_videoprocessorgetstreamstereoformat.htm
 old-project: medfound
 ms.assetid: FCEE6C95-C631-4268-9B06-686B8AC7D80C
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: FALSE, ID3D11VideoContext, ID3D11VideoContext interface [Media Foundation], VideoProcessorGetStreamStereoFormat method, ID3D11VideoContext::VideoProcessorGetStreamStereoFormat, TRUE, VideoProcessorGetStreamStereoFormat method [Media Foundation], VideoProcessorGetStreamStereoFormat method [Media Foundation], ID3D11VideoContext interface, VideoProcessorGetStreamStereoFormat,ID3D11VideoContext.VideoProcessorGetStreamStereoFormat, d3d11/ID3D11VideoContext::VideoProcessorGetStreamStereoFormat, mf.id3d11videocontext_videoprocessorgetstreamstereoformat
 ms.prod: windows-hardware
 ms.technology: windows-devices

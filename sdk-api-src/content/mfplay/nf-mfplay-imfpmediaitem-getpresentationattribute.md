@@ -7,7 +7,7 @@ old-location: mf\imfpmediaitem_getpresentationattribute.htm
 old-project: medfound
 ms.assetid: d6600009-a8da-4464-9df7-08f20a1a6b15
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetPresentationAttribute method [Media Foundation], GetPresentationAttribute method [Media Foundation], IMFPMediaItem interface, GetPresentationAttribute,IMFPMediaItem.GetPresentationAttribute, IMFPMediaItem, IMFPMediaItem interface [Media Foundation], GetPresentationAttribute method, IMFPMediaItem::GetPresentationAttribute, mf.imfpmediaitem_getpresentationattribute, mfplay/IMFPMediaItem::GetPresentationAttribute
 ms.prod: windows-hardware
 ms.technology: windows-devices

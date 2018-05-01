@@ -7,7 +7,7 @@ old-location: mf\imfasfprofile_getstream.htm
 old-project: medfound
 ms.assetid: 918f6534-811e-42f6-9836-1c77816007fa
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 918f6534-811e-42f6-9836-1c77816007fa, GetStream method [Media Foundation], GetStream method [Media Foundation], IMFASFProfile interface, GetStream,IMFASFProfile.GetStream, IMFASFProfile, IMFASFProfile interface [Media Foundation], GetStream method, IMFASFProfile::GetStream, mf.imfasfprofile_getstream, wmcontainer/IMFASFProfile::GetStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

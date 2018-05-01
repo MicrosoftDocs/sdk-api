@@ -7,7 +7,7 @@ old-location: rm\drmclosequeryhandle.htm
 old-project: AdRms_Sdk
 ms.assetid: 4902a6e2-e3b2-4f05-970c-aa4f80895762
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/11/2018
 ms.keywords: DRMCloseQueryHandle, DRMCloseQueryHandle function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMCloseQueryHandle, rm.drmclosequeryhandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

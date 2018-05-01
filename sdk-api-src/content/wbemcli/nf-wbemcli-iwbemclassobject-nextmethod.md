@@ -7,7 +7,7 @@ old-location: wmi\iwbemclassobject_nextmethod.htm
 old-project: WmiSdk
 ms.assetid: 4c11e043-518b-46f6-bb39-e80354ef2c8a
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: IWbemClassObject, IWbemClassObject interface [Windows Management Instrumentation], NextMethod method, IWbemClassObject::NextMethod, NextMethod method [Windows Management Instrumentation], NextMethod method [Windows Management Instrumentation], IWbemClassObject interface, NextMethod,IWbemClassObject.NextMethod, _hmm_iwbemclassobject_nextmethod, wbemcli/IWbemClassObject::NextMethod, wmi.iwbemclassobject_nextmethod
 ms.prod: windows-hardware
 ms.technology: windows-devices

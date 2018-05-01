@@ -7,7 +7,7 @@ old-location: appxpkg\iappxmanifestpackagedependency.htm
 old-project: appxpkg
 ms.assetid: 1A5515DA-4A9E-40EE-9AAC-F267DAE9DDBA
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/26/2018
 ms.keywords: IAppxManifestPackageDependency, IAppxManifestPackageDependency interface [App packaging and management], IAppxManifestPackageDependency interface [App packaging and management], described, appxpackaging/IAppxManifestPackageDependency, appxpkg.iappxmanifestpackagedependency
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_ARCHITECTURE2
+req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
 topic_type:
 -	APIRef
 -	kbSyntax

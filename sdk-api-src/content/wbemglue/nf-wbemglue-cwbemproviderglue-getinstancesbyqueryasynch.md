@@ -7,7 +7,7 @@ old-location: wmi\cwbemproviderglue_getinstancesbyqueryasynch.htm
 old-project: WmiSdk
 ms.assetid: 51eccecb-5b92-4e06-89eb-552d97074629
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: CWbemProviderGlue, CWbemProviderGlue interface [Windows Management Instrumentation], GetInstancesByQueryAsynch method, CWbemProviderGlue::GetInstancesByQueryAsynch, GetInstancesByQueryAsynch method [Windows Management Instrumentation], GetInstancesByQueryAsynch method [Windows Management Instrumentation], CWbemProviderGlue interface, GetInstancesByQueryAsynch,CWbemProviderGlue.GetInstancesByQueryAsynch, _hmm_cwbemproviderglue_getinstancesbyqueryasynch, wbemglue/CWbemProviderGlue::GetInstancesByQueryAsynch, wmi.cwbemproviderglue_getinstancesbyqueryasynch
 ms.prod: windows-hardware
 ms.technology: windows-devices

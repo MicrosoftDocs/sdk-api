@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxinboundroutingmethods_item_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_6m5p_cpp.htm
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/18/2018
 ms.keywords: IFaxInboundRoutingMethods, IFaxInboundRoutingMethods interface [Fax Service], get_Item method, IFaxInboundRoutingMethods::get_Item, _mfax_faxinboundroutingmethods.item_cpp, fax._mfax_faxinboundroutingmethods_item_cpp, faxcomex/IFaxInboundRoutingMethods::get_Item, get_Item method [Fax Service], get_Item method [Fax Service], IFaxInboundRoutingMethods interface, get_Item,IFaxInboundRoutingMethods.get_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices

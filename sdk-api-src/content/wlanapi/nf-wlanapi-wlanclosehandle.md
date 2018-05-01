@@ -7,7 +7,7 @@ old-location: nwifi\wlanclosehandle.htm
 old-project: NativeWiFi
 ms.assetid: 8e944133-2616-4e17-ac38-c17e8d25ccec
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/13/2018
 ms.keywords: WlanCloseHandle, WlanCloseHandle function [NativeWIFI], nwifi.wlanclosehandle, wlanapi/WlanCloseHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

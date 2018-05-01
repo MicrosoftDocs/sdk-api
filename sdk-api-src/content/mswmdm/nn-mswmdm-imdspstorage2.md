@@ -7,7 +7,7 @@ old-location: wmdm\imdspstorage2.htm
 old-project: WMDM
 ms.assetid: 39afb282-7141-4eb5-93e9-a69bef495d80
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: IMDSPStorage2, IMDSPStorage2 interface [windows Media Device Manager], IMDSPStorage2 interface [windows Media Device Manager], described, IMDSPStorage2Interface, mswmdm/IMDSPStorage2, wmdm.imdspstorage2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMDSPStorage2 interface

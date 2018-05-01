@@ -7,7 +7,7 @@ old-location: base\ivssbackupcomponents_dosnapshotset.htm
 old-project: VSS
 ms.assetid: 3cc6c375-8a24-4af3-b4ad-5a695cc2645c
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: DoSnapshotSet method [VSS], DoSnapshotSet method [VSS], IVssBackupComponents interface, DoSnapshotSet,IVssBackupComponents.DoSnapshotSet, IVssBackupComponents, IVssBackupComponents interface [VSS], DoSnapshotSet method, IVssBackupComponents::DoSnapshotSet, _win32_ivssbackupcomponents_dosnapshotset, base.ivssbackupcomponents_dosnapshotset, vsbackup/IVssBackupComponents::DoSnapshotSet
 ms.prod: windows-hardware
 ms.technology: windows-devices

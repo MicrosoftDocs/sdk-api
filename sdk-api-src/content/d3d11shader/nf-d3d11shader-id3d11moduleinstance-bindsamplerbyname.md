@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11moduleinstance_bindsamplerbyname.htm
 old-project: direct3d11
 ms.assetid: 3AB143F9-6AF7-4C1A-8330-AAA4A7723327
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/6/2018
 ms.keywords: BindSamplerByName method [Direct3D 11], BindSamplerByName method [Direct3D 11], ID3D11ModuleInstance interface, BindSamplerByName,ID3D11ModuleInstance.BindSamplerByName, ID3D11ModuleInstance, ID3D11ModuleInstance interface [Direct3D 11], BindSamplerByName method, ID3D11ModuleInstance::BindSamplerByName, d3d11shader/ID3D11ModuleInstance::BindSamplerByName, direct3d11.id3d11moduleinstance_bindsamplerbyname
 ms.prod: windows-hardware
 ms.technology: windows-devices

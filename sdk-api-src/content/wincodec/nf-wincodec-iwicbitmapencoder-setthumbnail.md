@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicbitmapencoder_setthumbnail.htm
 old-project: wic
 ms.assetid: ecabfde8-0079-4059-8691-bbe3f0baa934
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: IWICBitmapEncoder, IWICBitmapEncoder interface [Windows Imaging Component], SetThumbnail method, IWICBitmapEncoder::SetThumbnail, SetThumbnail method [Windows Imaging Component], SetThumbnail method [Windows Imaging Component], IWICBitmapEncoder interface, SetThumbnail,IWICBitmapEncoder.SetThumbnail, _wic_codec_iwicbitmapencoder_setthumbnail, wic._wic_codec_iwicbitmapencoder_setthumbnail, wincodec/IWICBitmapEncoder::SetThumbnail
 ms.prod: windows-hardware
 ms.technology: windows-devices

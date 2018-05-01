@@ -60,108 +60,6 @@ Contains the relevant information of a single Gopher attribute for an object.
 
 
 
-### -field AttributeType
-
- Data for the Gopher attribute. The specific structure depends on the 
-<b>AttributeId</b> member. The definitions of these data structures are available in Wininet.h. 
-
-
-
-#### Admin
-
-A <b>GOPHER_ADMIN_ATTRIBUTE</b> structure.
-
-
-
-#### ModDate
-
-A <b>GOPHER_MOD_DATE_ATTRIBUTE</b> structure.
-
-
-
-#### Score
-
-A <b>GOPHER_SCORE_ATTRIBUTE</b> structure.
-
-
-
-#### ScoreRange
-
-A <b>GOPHER_SCORE_RANGE_ATTRIBUTE</b> structure.
-
-
-
-#### Site
-
-A <b>GOPHER_SITE_ATTRIBUTE</b> structure.
-
-
-
-#### Organization
-
-A <b>GOPHER_ORGANIZATION_ATTRIBUTE</b> structure.
-
-
-
-#### Location
-
-A <b>GOPHER_LOCATION_ATTRIBUTE</b> structure.
-
-
-
-#### GeographicalLocation
-
-A <b>GOPHER_GEOGRAPHICAL_LOCATION_ATTRIBUTE</b> structure.
-
-
-
-#### TimeZone
-
-A <b>GOPHER_TIMEZONE_ATTRIBUTE</b> structure.
-
-
-
-#### Provider
-
-A <b>GOPHER_PROVIDER_ATTRIBUTE</b> structure.
-
-
-
-#### Version
-
-A <b>GOPHER_VERSION_ATTRIBUTE</b> structure.
-
-
-
-#### Abstract
-
-A <b>GOPHER_ABSTRACT_ATTRIBUTE</b> structure.
-
-
-
-#### View
-
-A <b>GOPHER_VIEW_ATTRIBUTE</b> structure.
-
-
-
-#### Veronica
-
-A <b>GOPHER_VERONICA_ATTRIBUTE</b> structure.
-
-
-
-#### Ask
-
-A <b>GOPHER_ASK_ATTRIBUTE_TYPE</b> structure.
-
-
-
-#### Unknown
-
-A <b>GOPHER_UNKNOWN_ATTRIBUTE</b> structure.
-
-
 ### -field CategoryId
 
 Name of the Gopher category for the attribute. The possible values include: 
@@ -308,6 +206,108 @@ Attribute type. The possible values include:
 
 
 #### GOPHER_ATTRIBUTE_ID_VIEW
+
+
+### -field AttributeType
+
+ Data for the Gopher attribute. The specific structure depends on the 
+<b>AttributeId</b> member. The definitions of these data structures are available in Wininet.h. 
+
+
+
+#### Admin
+
+A <b>GOPHER_ADMIN_ATTRIBUTE</b> structure.
+
+
+
+#### ModDate
+
+A <b>GOPHER_MOD_DATE_ATTRIBUTE</b> structure.
+
+
+
+#### Score
+
+A <b>GOPHER_SCORE_ATTRIBUTE</b> structure.
+
+
+
+#### ScoreRange
+
+A <b>GOPHER_SCORE_RANGE_ATTRIBUTE</b> structure.
+
+
+
+#### Site
+
+A <b>GOPHER_SITE_ATTRIBUTE</b> structure.
+
+
+
+#### Organization
+
+A <b>GOPHER_ORGANIZATION_ATTRIBUTE</b> structure.
+
+
+
+#### Location
+
+A <b>GOPHER_LOCATION_ATTRIBUTE</b> structure.
+
+
+
+#### GeographicalLocation
+
+A <b>GOPHER_GEOGRAPHICAL_LOCATION_ATTRIBUTE</b> structure.
+
+
+
+#### TimeZone
+
+A <b>GOPHER_TIMEZONE_ATTRIBUTE</b> structure.
+
+
+
+#### Provider
+
+A <b>GOPHER_PROVIDER_ATTRIBUTE</b> structure.
+
+
+
+#### Version
+
+A <b>GOPHER_VERSION_ATTRIBUTE</b> structure.
+
+
+
+#### Abstract
+
+A <b>GOPHER_ABSTRACT_ATTRIBUTE</b> structure.
+
+
+
+#### View
+
+A <b>GOPHER_VIEW_ATTRIBUTE</b> structure.
+
+
+
+#### Veronica
+
+A <b>GOPHER_VERONICA_ATTRIBUTE</b> structure.
+
+
+
+#### Ask
+
+A <b>GOPHER_ASK_ATTRIBUTE_TYPE</b> structure.
+
+
+
+#### Unknown
+
+A <b>GOPHER_UNKNOWN_ATTRIBUTE</b> structure.
 
 
 ## -remarks

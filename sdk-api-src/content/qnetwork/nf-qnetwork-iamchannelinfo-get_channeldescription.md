@@ -7,7 +7,7 @@ old-location: dshow\iamchannelinfo_get_channeldescription.htm
 old-project: DirectShow
 ms.assetid: c39b15af-0766-4512-9720-4cdaef6120ba
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMChannelInfo, IAMChannelInfo interface [DirectShow], get_ChannelDescription method, IAMChannelInfo::get_ChannelDescription, IAMChannelInfoget_ChannelDescription, dshow.iamchannelinfo_get_channeldescription, get_ChannelDescription method [DirectShow], get_ChannelDescription method [DirectShow], IAMChannelInfo interface, get_ChannelDescription,IAMChannelInfo.get_ChannelDescription, qnetwork/IAMChannelInfo::get_ChannelDescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IAMChannelInfo::get_ChannelDescription method

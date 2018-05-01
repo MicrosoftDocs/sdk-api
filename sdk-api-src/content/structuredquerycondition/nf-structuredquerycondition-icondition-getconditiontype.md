@@ -7,7 +7,7 @@ old-location: search\_search_ICondition_GetConditionType.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\icondition\getconditiontype.htm
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/24/2018
 ms.keywords: GetConditionType method [search], GetConditionType method [search], ICondition interface, GetConditionType,ICondition.GetConditionType, ICondition, ICondition interface [search], GetConditionType method, ICondition::GetConditionType, _search_ICondition_GetConditionType, search._search_ICondition_GetConditionType, structuredquerycondition/ICondition::GetConditionType
 ms.prod: windows-hardware
 ms.technology: windows-devices

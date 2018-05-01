@@ -7,7 +7,7 @@ old-location: com\imarshal_unmarshalinterface.htm
 old-project: com
 ms.assetid: 5b496028-57db-447e-8c5c-76b7ea0fa4ee
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IMarshal, IMarshal interface [COM], UnmarshalInterface method, IMarshal::UnmarshalInterface, UnmarshalInterface method [COM], UnmarshalInterface method [COM], IMarshal interface, UnmarshalInterface,IMarshal.UnmarshalInterface, _com_imarshal_unmarshalinterface, com.imarshal_unmarshalinterface, objidlbase/IMarshal::UnmarshalInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMarshal::UnmarshalInterface method

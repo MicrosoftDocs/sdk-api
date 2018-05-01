@@ -7,7 +7,7 @@ old-location: gdi\display_device.htm
 old-project: gdi
 ms.assetid: 9a7813fe-358a-44eb-99da-c63f98d055c3
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/17/2018
 ms.keywords: "*LPDISPLAY_DEVICEW, *PDISPLAY_DEVICEW, DISPLAY_DEVICE, DISPLAY_DEVICE structure [Windows GDI], DISPLAY_DEVICEA, DISPLAY_DEVICEW, PDISPLAY_DEVICE, PDISPLAY_DEVICE structure pointer [Windows GDI], _DISPLAY_DEVICEA, _DISPLAY_DEVICEW, _win32_DISPLAY_DEVICE_str, gdi.display_device, wingdi/DISPLAY_DEVICE, wingdi/DISPLAY_DEVICEA, wingdi/DISPLAY_DEVICEW, wingdi/PDISPLAY_DEVICE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -95,7 +95,7 @@ Device state flags. It can be any reasonable combination of the following.
 </tr>
 <tr>
 <td>DISPLAY_DEVICE_MIRRORING_DRIVER</td>
-<td>Represents a pseudo device used to mirror application drawing for remoting or other purposes. An invisible pseudo monitor is associated with this device. For example, NetMeeting uses it. Note that <a href="https://msdn.microsoft.com/d063857b-6036-4e68-80af-9c70d12ae29e">GetSystemMetrics</a> (SM_MONITORS) only accounts for visible display monitors.</td>
+<td>Represents a pseudo device used to mirror application drawing for remoting or other purposes. An invisible pseudo monitor is associated with this device. For example, NetMeeting uses it. Note that <a href="base.getsystemmetrics">GetSystemMetrics</a> (SM_MONITORS) only accounts for visible display monitors.</td>
 </tr>
 <tr>
 <td>DISPLAY_DEVICE_MODESPRUNED</td>
@@ -156,7 +156,7 @@ The four string members are set based on the parameters passed to <a href="https
 
 
 
-<a href="https://msdn.microsoft.com/d063857b-6036-4e68-80af-9c70d12ae29e">GetSystemMetrics</a>
+<a href="base.getsystemmetrics">GetSystemMetrics</a>
  
 
  

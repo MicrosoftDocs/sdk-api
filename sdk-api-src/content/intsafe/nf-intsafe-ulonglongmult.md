@@ -2,13 +2,13 @@
 UID: NF:intsafe.ULongLongMult
 title: ULongLongMult function
 author: windows-driver-content
-description: Multiplies one value of type ULONGLONG by another.
-old-location: shell\ULongLongMult.htm
+description: Multiplies one value of type size_t by another.
+old-location: shell\SizeTMult.htm
 old-project: shell
-ms.assetid: 69033eba-a0ad-4c76-b1c5-2cbd412e9f9c
+ms.assetid: 078bc77b-6af3-4d13-8f98-5f52605fdf8d
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
-ms.keywords: ULongLongMult, ULongLongMult function [Windows Shell], _shell_ULongLongMult, intsafe/ULongLongMult, shell.ULongLongMult
+ms.date: 4/26/2018
+ms.keywords: SizeTMult, SizeTMult function [Windows Shell], ULongLongMult, _shell_SizeTMult, intsafe/SizeTMult, shell.SizeTMult
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	Intsafe.h
 api_name:
--	ULongLongMult
+-	SizeTMult
 product: Windows
 targetos: Windows
 req.lib: 
@@ -50,7 +50,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Multiplies one value of type <b>ULONGLONG</b> by another.
+Multiplies one value of type <b>size_t</b> by another.
 
 
 ## -parameters
@@ -58,23 +58,40 @@ Multiplies one value of type <b>ULONGLONG</b> by another.
 
 
 
-### -param ullMultiplicand [in]
+### -param ullMultiplicand
 
-Type: <b>ULONGLONG</b>
-
-The value to be multiplied by <i>ullMultiplier</i>.
+TBD
 
 
-### -param ullMultiplier [in]
+### -param ullMultiplier
 
-Type: <b>ULONGLONG</b>
-
-The value by which to multiply <i>ullMultiplicand</i>.
+TBD
 
 
-### -param pullResult [out]
+### -param pullResult
 
-Type: <b>ULONGLONG*</b>
+TBD
+
+
+
+
+#### - cbMultiplicand [in]
+
+Type: <b>size_t</b>
+
+The value to be multiplied by <i>cbMultiplier</i>.
+
+
+#### - cbMultiplier [in]
+
+Type: <b>size_t</b>
+
+The value by which to multiply <i>cbMultiplicand</i>.
+
+
+#### - pcbResult [out]
+
+Type: <b>size_t*</b>
 
 A pointer to the result. If the operation results in a value that overflows or underflows the capacity of the type, the function returns INTSAFE_E_ARITHMETIC_OVERFLOW and this parameter is not valid.
 

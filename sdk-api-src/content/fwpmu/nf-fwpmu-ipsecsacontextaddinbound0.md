@@ -7,7 +7,7 @@ old-location: fwp\ipsecsacontextaddinbound0.htm
 old-project: FWP
 ms.assetid: e0798bcb-847d-481e-b9f0-b18c0bbad22c
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: IPsecSaContextAddInbound0, IPsecSaContextAddInbound0 function [Filtering], fwp.ipsecsacontextaddinbound0, fwpmu/IPsecSaContextAddInbound0
 ms.prod: windows-hardware
 ms.technology: windows-devices

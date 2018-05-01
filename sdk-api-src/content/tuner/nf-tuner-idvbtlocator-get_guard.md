@@ -7,7 +7,7 @@ old-location: mstv\idvbtlocator_get_guard.htm
 old-project: mstv
 ms.assetid: 74b56292-eb9e-4c66-9345-f348b3d21c19
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IDVBTLocator, IDVBTLocator interface [Microsoft TV Technologies], get_Guard method, IDVBTLocator::get_Guard, IDVBTLocatorget_Guard, get_Guard method [Microsoft TV Technologies], get_Guard method [Microsoft TV Technologies], IDVBTLocator interface, get_Guard,IDVBTLocator.get_Guard, mstv.idvbtlocator_get_guard, tuner/IDVBTLocator::get_Guard
 ms.prod: windows-hardware
 ms.technology: windows-devices

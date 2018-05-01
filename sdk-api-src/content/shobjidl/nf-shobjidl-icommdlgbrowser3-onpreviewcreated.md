@@ -7,7 +7,7 @@ old-location: shell\ICommDlgBrowser3_OnPreViewCreated.htm
 old-project: shell
 ms.assetid: 1506f553-e0b0-4d6b-9d63-15f3a2d38112
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ICommDlgBrowser3, ICommDlgBrowser3 interface [Windows Shell], OnPreViewCreated method, ICommDlgBrowser3::OnPreViewCreated, OnPreViewCreated method [Windows Shell], OnPreViewCreated method [Windows Shell], ICommDlgBrowser3 interface, OnPreViewCreated,ICommDlgBrowser3.OnPreViewCreated, _shell_ICommDlgBrowser3_OnPreViewCreated, shell.ICommDlgBrowser3_OnPreViewCreated, shobjidl/ICommDlgBrowser3::OnPreViewCreated
 ms.prod: windows-hardware
 ms.technology: windows-devices

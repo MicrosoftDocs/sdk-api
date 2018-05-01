@@ -7,7 +7,7 @@ old-location: security\msv1_0_profile_buffer_type.htm
 old-project: SecAuthN
 ms.assetid: c8fe967a-e172-4200-ab15-daebf441c689
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/24/2018
 ms.keywords: "*PMSV1_0_PROFILE_BUFFER_TYPE, MSV1_0_PROFILE_BUFFER_TYPE, MSV1_0_PROFILE_BUFFER_TYPE enumeration [Security], MSV1_0_PROFILE_TYPE, MSV1_0_PROFILE_TYPE enumeration [Security], MsV1_0InteractiveProfile, MsV1_0Lm20LogonProfile, MsV1_0SmartCardProfile, PMSV1_0_PROFILE_BUFFER_TYPE, PMSV1_0_PROFILE_BUFFER_TYPE enumeration pointer [Security], _MSV1_0_PROFILE_BUFFER_TYPE, _lsa_msv1_0_profile_buffer_type, ntsecapi/MSV1_0_PROFILE_BUFFER_TYPE, ntsecapi/MsV1_0InteractiveProfile, ntsecapi/MsV1_0Lm20LogonProfile, ntsecapi/MsV1_0SmartCardProfile, ntsecapi/PMSV1_0_PROFILE_BUFFER_TYPE, security.msv1_0_profile_buffer_type"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _MSV1_0_PROFILE_BUFFER_TYPE enumeration

@@ -7,7 +7,7 @@ old-location: multimedia\waveformat.htm
 old-project: Multimedia
 ms.assetid: 48871868-792a-4479-9e92-95306c25673a
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/25/2018
 ms.keywords: "*LPWAVEFORMAT, *NPWAVEFORMAT, *PWAVEFORMAT, WAVEFORMAT, WAVEFORMAT structure [Windows Multimedia], WAVE_FORMAT_PCM, _win32_WAVEFORMAT_str, mmeapi/WAVEFORMAT, multimedia.waveformat, tWAVEFORMATEX, waveformat_tag"
 ms.prod: windows-hardware
 ms.technology: windows-devices

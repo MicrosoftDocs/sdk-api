@@ -7,7 +7,7 @@ old-location: winprog\apphelpcheckshellobject.htm
 old-project: DevNotes
 ms.assetid: e1e44cb1-ecfe-4a58-a29c-4a401f064a04
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/13/2018
 ms.keywords: ApphelpCheckShellObject, ApphelpCheckShellObject function [Windows API], appcompatapi/ApphelpCheckShellObject, winprog.apphelpcheckshellobject
 ms.prod: windows-hardware
 ms.technology: windows-devices

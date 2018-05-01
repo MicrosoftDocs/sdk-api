@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationWindowPattern_CachedWindowVisualState.
 old-project: WinAuto
 ms.assetid: 49e1a441-0ba8-4b76-afe8-6b81a489ff92
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: CachedWindowVisualState property [Windows Accessibility], CachedWindowVisualState property [Windows Accessibility], IUIAutomationWindowPattern interface, IUIAutomationWindowPattern, IUIAutomationWindowPattern interface [Windows Accessibility], CachedWindowVisualState property, IUIAutomationWindowPattern.CachedWindowVisualState, IUIAutomationWindowPattern::get_CachedWindowVisualState, get_CachedWindowVisualState,IUIAutomationWindowPattern.get_CachedWindowVisualState, uiauto.uiauto_IUIAutomationWindowPattern_CachedWindowVisualState, uiauto_IUIAutomationWindowPattern_CachedWindowVisualState, uiautomationclient/IUIAutomationWindowPattern::CachedWindowVisualState, uiautomationclient/IUIAutomationWindowPattern::get_CachedWindowVisualState, winauto.uiauto_IUIAutomationWindowPattern_CachedWindowVisualState
 ms.prod: windows-hardware
 ms.technology: windows-devices

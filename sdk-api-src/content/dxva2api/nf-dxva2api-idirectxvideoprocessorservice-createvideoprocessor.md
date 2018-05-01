@@ -7,7 +7,7 @@ old-location: mf\idirectxvideoprocessorservice_createvideoprocessor.htm
 old-project: medfound
 ms.assetid: 18178a10-f902-4d25-992e-a27145204321
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 18178a10-f902-4d25-992e-a27145204321, CreateVideoProcessor method [Media Foundation], CreateVideoProcessor method [Media Foundation], IDirectXVideoProcessorService interface, CreateVideoProcessor,IDirectXVideoProcessorService.CreateVideoProcessor, IDirectXVideoProcessorService, IDirectXVideoProcessorService interface [Media Foundation], CreateVideoProcessor method, IDirectXVideoProcessorService::CreateVideoProcessor, dxva2api/IDirectXVideoProcessorService::CreateVideoProcessor, mf.idirectxvideoprocessorservice_createvideoprocessor
 ms.prod: windows-hardware
 ms.technology: windows-devices

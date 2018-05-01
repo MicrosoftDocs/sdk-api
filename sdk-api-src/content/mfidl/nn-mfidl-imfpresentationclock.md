@@ -7,7 +7,7 @@ old-location: mf\imfpresentationclock.htm
 old-project: medfound
 ms.assetid: 979c4f77-cbee-468c-8f6b-e68442d89025
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 979c4f77-cbee-468c-8f6b-e68442d89025, IMFPresentationClock, IMFPresentationClock interface [Media Foundation], IMFPresentationClock interface [Media Foundation], described, mf.imfpresentationclock, mfidl/IMFPresentationClock
 ms.prod: windows-hardware
 ms.technology: windows-devices

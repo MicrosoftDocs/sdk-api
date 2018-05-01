@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12infoqueue_getstoragefilterstacksize.htm
 old-project: direct3d12
 ms.assetid: A2E1B587-8FB2-44E8-9F6D-1BDB3C1EDE77
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: GetStorageFilterStackSize method, GetStorageFilterStackSize method, ID3D12InfoQueue interface, GetStorageFilterStackSize,ID3D12InfoQueue.GetStorageFilterStackSize, ID3D12InfoQueue, ID3D12InfoQueue interface, GetStorageFilterStackSize method, ID3D12InfoQueue::GetStorageFilterStackSize, d3d12sdklayers/ID3D12InfoQueue::GetStorageFilterStackSize, direct3d12.id3d12infoqueue_getstoragefilterstacksize
 ms.prod: windows-hardware
 ms.technology: windows-devices

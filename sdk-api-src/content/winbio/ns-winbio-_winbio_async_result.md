@@ -7,7 +7,7 @@ old-location: secbiomet\winbio_async_result.htm
 old-project: SecBioMet
 ms.assetid: 1C8A4557-3851-4AB2-BB9B-AE199EB9D024
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: "*PWINBIO_ASYNC_RESULT, PWINBIO_ASYNC_RESULT, PWINBIO_ASYNC_RESULT structure pointer [Windows Biometric Framework API], WINBIO_ASYNC_RESULT, WINBIO_ASYNC_RESULT structure [Windows Biometric Framework API], _WINBIO_ASYNC_RESULT, secbiomet.winbio_async_result, winbio/PWINBIO_ASYNC_RESULT, winbio/WINBIO_ASYNC_RESULT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -56,6 +56,41 @@ The <b>WINBIO_ASYNC_RESULT</b> structure contains the results of an asynchronous
 ## -struct-fields
 
 
+
+
+### -field SessionHandle
+
+Handle of an asynchronous session started by calling the <a href="https://msdn.microsoft.com/711EDE14-A2EE-415D-8FB6-562D71D68146">WinBioAsyncOpenSession</a> function or the <a href="https://msdn.microsoft.com/D9557A6F-32C4-464F-8800-6E546808F100">WinBioAsyncOpenFramework</a> function.
+
+
+### -field Operation
+
+Type of the asynchronous operation. For more information, see <a href="https://msdn.microsoft.com/D4ECEF91-BEC7-4A42-8808-F09F5C141180">WINBIO_OPERATION_TYPE Constants</a>.
+
+
+### -field SequenceNumber
+
+Sequence number of the asynchronous operation. The integers are assigned sequentially for each operation in a biometric session, starting at one (1). For any session, the open operation is always assigned the first sequence number and the close operation is assigned the last sequence number. If your application queues multiple operations, you can use sequence numbers to perform error handling. For example, you can ignore operation results until a specific sequence number is sent to the application.
+
+
+### -field TimeStamp
+
+System date and time at which the biometric operation began. For more information, see the <b>GetSystemTimeAsFileTime</b> function.
+
+
+### -field ApiStatus
+
+Error code returned by the operation.
+
+
+### -field UnitId
+
+The numeric unit identifier of the biometric unit that performed the operation.
+
+
+### -field UserData
+
+Address of an optional buffer supplied by the caller. The buffer is not modified by the framework or the biometric unit. Your application can use the data to help it determine what actions to perform upon receipt of the completion notice or to maintain additional information about the requested operation.
 
 
 ### -field Parameters
@@ -464,39 +499,6 @@ Address of the array of <a href="https://msdn.microsoft.com/810D452E-DDFA-4AB2-A
  
 
 
-### -field SessionHandle
-
-Handle of an asynchronous session started by calling the <a href="https://msdn.microsoft.com/711EDE14-A2EE-415D-8FB6-562D71D68146">WinBioAsyncOpenSession</a> function or the <a href="https://msdn.microsoft.com/D9557A6F-32C4-464F-8800-6E546808F100">WinBioAsyncOpenFramework</a> function.
-
-
-### -field Operation
-
-Type of the asynchronous operation. For more information, see <a href="https://msdn.microsoft.com/D4ECEF91-BEC7-4A42-8808-F09F5C141180">WINBIO_OPERATION_TYPE Constants</a>.
-
-
-### -field SequenceNumber
-
-Sequence number of the asynchronous operation. The integers are assigned sequentially for each operation in a biometric session, starting at one (1). For any session, the open operation is always assigned the first sequence number and the close operation is assigned the last sequence number. If your application queues multiple operations, you can use sequence numbers to perform error handling. For example, you can ignore operation results until a specific sequence number is sent to the application.
-
-
-### -field TimeStamp
-
-System date and time at which the biometric operation began. For more information, see the <b>GetSystemTimeAsFileTime</b> function.
-
-
-### -field ApiStatus
-
-Error code returned by the operation.
-
-
-### -field UnitId
-
-The numeric unit identifier of the biometric unit that performed the operation.
-
-
-### -field UserData
-
-Address of an optional buffer supplied by the caller. The buffer is not modified by the framework or the biometric unit. Your application can use the data to help it determine what actions to perform upon receipt of the completion notice or to maintain additional information about the requested operation.
 
 
 ## -remarks

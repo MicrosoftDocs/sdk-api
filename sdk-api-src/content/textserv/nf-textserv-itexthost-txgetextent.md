@@ -7,7 +7,7 @@ old-location: controls\ITextHost_TxGetExtent.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txgetextent.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextHost, ITextHost interface [Windows Controls], TxGetExtent method, ITextHost::TxGetExtent, TxGetExtent method [Windows Controls], TxGetExtent method [Windows Controls], ITextHost interface, TxGetExtent,ITextHost.TxGetExtent, _win32_ITextHost_TxGetExtent, _win32_ITextHost_TxGetExtent_cpp, controls.ITextHost_TxGetExtent, controls._win32_ITextHost_TxGetExtent, textserv/ITextHost::TxGetExtent
 ms.prod: windows-hardware
 ms.technology: windows-devices

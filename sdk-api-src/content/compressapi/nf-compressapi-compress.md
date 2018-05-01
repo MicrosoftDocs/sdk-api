@@ -7,13 +7,13 @@ old-location: cmpapi\compress.htm
 old-project: cmpapi
 ms.assetid: 0e32501c-5213-43e6-88ca-1e424181d7a2
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
-ms.keywords: Compress, Compress function [Compression API], cmpapi.compress, httpcompression/Compress
+ms.date: 4/10/2018
+ms.keywords: Compress, Compress function [Compression API], cmpapi.compress, compressapi/Compress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
 req.header: compressapi.h
-req.include-header: Compressapi.h
+req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 

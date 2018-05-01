@@ -7,7 +7,7 @@ old-location: mstv\iscte_eas_getexceptioncount.htm
 old-project: mstv
 ms.assetid: da98cf2f-a302-41d0-8226-18d6bb89be82
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetExceptionCount method [Microsoft TV Technologies], GetExceptionCount method [Microsoft TV Technologies], ISCTE_EAS interface, GetExceptionCount,ISCTE_EAS.GetExceptionCount, ISCTE_EAS, ISCTE_EAS interface [Microsoft TV Technologies], GetExceptionCount method, ISCTE_EAS::GetExceptionCount, ISCTE_EASGetExceptionCount, atscpsipparser/ISCTE_EAS::GetExceptionCount, mstv.iscte_eas_getexceptioncount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_WRITER_PAYLOAD_STREAM
+req.typenames: AsyncStatus
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,7 +7,7 @@ old-location: dhcp\dhcpcreateclass.htm
 old-project: DHCP
 ms.assetid: ae30baba-a2cd-4662-a62a-58b59d119dc4
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/7/2018
 ms.keywords: DhcpCreateClass, DhcpCreateClass function [DHCP], dhcp.dhcpcreateclass, dhcpsapi/DhcpCreateClass
 ms.prod: windows-hardware
 ms.technology: windows-devices

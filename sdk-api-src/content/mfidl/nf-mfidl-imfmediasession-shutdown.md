@@ -7,7 +7,7 @@ old-location: mf\imfmediasession_shutdown.htm
 old-project: medfound
 ms.assetid: 5b9663c2-e32e-4075-b397-59ae01558e15
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 5b9663c2-e32e-4075-b397-59ae01558e15, IMFMediaSession, IMFMediaSession interface [Media Foundation], Shutdown method, IMFMediaSession::Shutdown, Shutdown method [Media Foundation], Shutdown method [Media Foundation], IMFMediaSession interface, Shutdown,IMFMediaSession.Shutdown, mf.imfmediasession_shutdown, mfidl/IMFMediaSession::Shutdown
 ms.prod: windows-hardware
 ms.technology: windows-devices

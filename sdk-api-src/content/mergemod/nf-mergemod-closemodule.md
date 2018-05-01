@@ -7,7 +7,7 @@ old-location: setup\merge_closemodule.htm
 old-project: Msi
 ms.assetid: a11f72cf-4c4e-4650-95f9-549169452622
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/26/2018
 ms.keywords: CloseModule, CloseModule method, CloseModule method, Merge class, Merge class, CloseModule method, _msi_closemodule_method, setup.merge_closemodule
 ms.prod: windows-hardware
 ms.technology: windows-devices

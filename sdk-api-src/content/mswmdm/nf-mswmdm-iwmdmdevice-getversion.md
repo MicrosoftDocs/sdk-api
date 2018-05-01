@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmdevice_getversion.htm
 old-project: WMDM
 ms.assetid: ae0253f2-30cd-46d0-b9e9-f2cb878c1ff3
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: GetVersion method [windows Media Device Manager], GetVersion method [windows Media Device Manager], IWMDMDevice interface, GetVersion,IWMDMDevice.GetVersion, IWMDMDevice, IWMDMDevice interface [windows Media Device Manager], GetVersion method, IWMDMDevice::GetVersion, IWMDMDeviceGetVersion, mswmdm/IWMDMDevice::GetVersion, wmdm.iwmdmdevice_getversion
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IWMDMDevice::GetVersion method

@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmcollection__newenum.htm
 old-project: Fsrm
 ms.assetid: 0973b046-e350-44df-a02d-40b0ba272638
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: IFsrmCollection, IFsrmCollection interface [File Server Resource Manager], _NewEnum property, IFsrmCollection._NewEnum, IFsrmCollection::get__NewEnum, _NewEnum property [File Server Resource Manager], _NewEnum property [File Server Resource Manager], IFsrmCollection interface, fs.ifsrmcollection__newenum, fsrm.ifsrmcollection__newenum, fsrm/IFsrmCollection::_NewEnum, fsrm/IFsrmCollection::get__NewEnum, get__NewEnum,IFsrmCollection.get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices

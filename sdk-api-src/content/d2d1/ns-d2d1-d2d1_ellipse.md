@@ -7,7 +7,7 @@ old-location: direct2d\D2D1_ELLIPSE.htm
 old-project: Direct2D
 ms.assetid: 6fed6c49-ba83-4c2b-af8a-04156ee317f0
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: D2D1_ELLIPSE, D2D1_ELLIPSE structure [Direct2D], d2d1/D2D1_ELLIPSE, direct2d.D2D1_ELLIPSE
 ms.prod: windows-hardware
 ms.technology: windows-devices

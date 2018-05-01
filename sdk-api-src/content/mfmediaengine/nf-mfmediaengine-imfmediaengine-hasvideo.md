@@ -7,7 +7,7 @@ old-location: mf\imfmediaengine_hasvideo.htm
 old-project: medfound
 ms.assetid: 30B7F4DC-B3EB-421B-998B-E098F04D4B33
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: HasVideo method [Media Foundation], HasVideo method [Media Foundation], IMFMediaEngine interface, HasVideo,IMFMediaEngine.HasVideo, IMFMediaEngine, IMFMediaEngine interface [Media Foundation], HasVideo method, IMFMediaEngine::HasVideo, mf.imfmediaengine_hasvideo, mfmediaengine/IMFMediaEngine::HasVideo
 ms.prod: windows-hardware
 ms.technology: windows-devices

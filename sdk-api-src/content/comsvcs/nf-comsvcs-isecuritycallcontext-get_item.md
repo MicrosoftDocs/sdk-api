@@ -7,7 +7,7 @@ old-location: cos\isecuritycallcontext_get_item.htm
 old-project: cossdk
 ms.assetid: e6561b89-8af6-46cc-aeab-2b007d48fe26
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: ISecurityCallContext, ISecurityCallContext interface [COM+], get_Item method, ISecurityCallContext::get_Item, _cos_ISecurityCallContext_get_Item, comsvcs/ISecurityCallContext::get_Item, cos.isecuritycallcontext_get_item, get_Item method [COM+], get_Item method [COM+], ISecurityCallContext interface, get_Item,ISecurityCallContext.get_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices

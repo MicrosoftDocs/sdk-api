@@ -7,7 +7,7 @@ old-location: security\decryptmessage__digest_.htm
 old-project: SecAuthN
 ms.assetid: 46d45f59-33fa-434a-b329-20b6257c9a19
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/24/2018
 ms.keywords: DecryptMessage, DecryptMessage function [Security], SECQOP_WRAP_NO_ENCRYPT, SIGN_ONLY, UnsealMessage [Security], security.decryptmessage__digest_, sspi/DecryptMessage
 ms.prod: windows-hardware
 ms.technology: windows-devices

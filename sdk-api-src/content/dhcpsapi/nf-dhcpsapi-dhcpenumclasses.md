@@ -7,7 +7,7 @@ old-location: dhcp\dhcpenumclasses.htm
 old-project: DHCP
 ms.assetid: 93f37424-1a81-477e-85da-359885e94349
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/7/2018
 ms.keywords: DhcpEnumClasses, DhcpEnumClasses function [DHCP], dhcp.dhcpenumclasses, dhcpsapi/DhcpEnumClasses
 ms.prod: windows-hardware
 ms.technology: windows-devices

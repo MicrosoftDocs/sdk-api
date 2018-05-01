@@ -7,7 +7,7 @@ old-location: wmformat\iwmregistereddevice_isopened.htm
 old-project: wmformat
 ms.assetid: 5a8a6b2a-6a04-4505-b4be-ec10e1e5effe
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMRegisteredDevice, IWMRegisteredDevice interface [windows Media Format], IsOpened method, IWMRegisteredDevice::IsOpened, IWMRegisteredDeviceIsOpened, IsOpened method [windows Media Format], IsOpened method [windows Media Format], IWMRegisteredDevice interface, IsOpened,IWMRegisteredDevice.IsOpened, wmformat.iwmregistereddevice_isopened, wmsdkidl/IWMRegisteredDevice::IsOpened
 ms.prod: windows-hardware
 ms.technology: windows-devices

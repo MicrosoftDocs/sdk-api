@@ -7,7 +7,7 @@ old-location: wmp\wmpburnformat.htm
 old-project: WMP
 ms.assetid: 5761dbfb-4e7d-4063-bde7-2aa9d7869d7c
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: WMPBurnFormat, WMPBurnFormat enumeration [Windows Media Player], wmp.wmpburnformat, wmp/WMPBurnFormat, wmp/wmpbfAudioCD, wmp/wmpbfDataCD, wmpbfAudioCD, wmpbfDataCD
 ms.prod: windows-hardware
 ms.technology: windows-devices

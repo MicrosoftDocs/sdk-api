@@ -7,7 +7,7 @@ old-location: security\secpkgcontext_passwordexpiry.htm
 old-project: SecAuthN
 ms.assetid: f45dde88-1520-4e65-8fae-8407dfaa0850
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/24/2018
 ms.keywords: "*PSecPkgContext_PasswordExpiry, PSecPkgContext_PasswordExpiry, PSecPkgContext_PasswordExpiry structure pointer [Security], SecPkgContext_PasswordExpiry, SecPkgContext_PasswordExpiry structure [Security], _SecPkgContext_PasswordExpiry, security.secpkgcontext_passwordexpiry, sspi/PSecPkgContext_PasswordExpiry, sspi/SecPkgContext_PasswordExpiry"
 ms.prod: windows-hardware
 ms.technology: windows-devices

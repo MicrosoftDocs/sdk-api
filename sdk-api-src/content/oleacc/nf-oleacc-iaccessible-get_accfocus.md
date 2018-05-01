@@ -7,7 +7,7 @@ old-location: winauto\iaccessible_iaccessible__get_accfocus.htm
 old-project: WinAuto
 ms.assetid: 42114c5d-8f28-458a-8d22-ac1531cd50d2
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: IAccessible, IAccessible interface [Windows Accessibility], get_accFocus method, IAccessible::get_accFocus, VT_DISPATCH, VT_EMPTY, VT_I4, _msaa_IAccessible_get_accFocus, get_accFocus method [Windows Accessibility], get_accFocus method [Windows Accessibility], IAccessible interface, get_accFocus,IAccessible.get_accFocus, msaa.iaccessible_iaccessible__get_accfocus, oleacc/IAccessible::get_accFocus, winauto.iaccessible_iaccessible__get_accfocus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Oleacc.lib
 req.dll: Oleacc.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IAccessible::get_accFocus method

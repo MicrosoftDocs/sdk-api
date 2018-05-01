@@ -7,7 +7,7 @@ old-location: stg\istream_unlockregion.htm
 old-project: Stg
 ms.assetid: e34c8d94-b24b-4041-b5dd-2a4ed74b01ec
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/20/2018
 ms.keywords: IStream, IStream interface [Structured Storage], UnlockRegion method, IStream::UnlockRegion, UnlockRegion method [Structured Storage], UnlockRegion method [Structured Storage], IStream interface, UnlockRegion,IStream.UnlockRegion, _stg_istream_unlockregion, objidl/IStream::UnlockRegion, stg.istream_unlockregion
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IStream::UnlockRegion method

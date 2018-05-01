@@ -7,7 +7,7 @@ old-location: dshow\ibasicaudio_put_balance.htm
 old-project: DirectShow
 ms.assetid: 88cf4639-8f32-424f-a097-272c44592f6f
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IBasicAudio, IBasicAudio interface [DirectShow], put_Balance method, IBasicAudio::put_Balance, IBasicAudioput_Balance, control/IBasicAudio::put_Balance, dshow.ibasicaudio_put_balance, put_Balance method [DirectShow], put_Balance method [DirectShow], IBasicAudio interface, put_Balance,IBasicAudio.put_Balance
 ms.prod: windows-hardware
 ms.technology: windows-devices

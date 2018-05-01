@@ -7,7 +7,7 @@ old-location: com\idataobject_enumformatetc.htm
 old-project: com
 ms.assetid: 657a7394-4481-4e0c-912d-40a9348caf16
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: EnumFormatEtc method [COM], EnumFormatEtc method [COM], IDataObject interface, EnumFormatEtc,IDataObject.EnumFormatEtc, IDataObject, IDataObject interface [COM], EnumFormatEtc method, IDataObject::EnumFormatEtc, _ole_idataobject_enumformatetc, com.idataobject_enumformatetc, objidl/IDataObject::EnumFormatEtc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IDataObject::EnumFormatEtc method

@@ -7,7 +7,7 @@ old-location: mf\imfvideodisplaycontrol_getnativevideosize.htm
 old-project: medfound
 ms.assetid: 12630035-dd07-44bd-98f7-79974c9cc58b
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 12630035-dd07-44bd-98f7-79974c9cc58b, GetNativeVideoSize method [Media Foundation], GetNativeVideoSize method [Media Foundation], IMFVideoDisplayControl interface, GetNativeVideoSize,IMFVideoDisplayControl.GetNativeVideoSize, IMFVideoDisplayControl, IMFVideoDisplayControl interface [Media Foundation], GetNativeVideoSize method, IMFVideoDisplayControl::GetNativeVideoSize, evr/IMFVideoDisplayControl::GetNativeVideoSize, mf.imfvideodisplaycontrol_getnativevideosize
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\ibasicvideo_isusingdefaultdestination.htm
 old-project: DirectShow
 ms.assetid: eceec24b-7743-4989-b112-e6a70283d397
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IBasicVideo, IBasicVideo interface [DirectShow], IsUsingDefaultDestination method, IBasicVideo::IsUsingDefaultDestination, IBasicVideoIsUsingDefaultDestination, IsUsingDefaultDestination method [DirectShow], IsUsingDefaultDestination method [DirectShow], IBasicVideo interface, IsUsingDefaultDestination,IBasicVideo.IsUsingDefaultDestination, control/IBasicVideo::IsUsingDefaultDestination, dshow.ibasicvideo_isusingdefaultdestination
 ms.prod: windows-hardware
 ms.technology: windows-devices

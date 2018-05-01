@@ -7,7 +7,7 @@ old-location: winauto\uiauto_iuiautomationtransformpattern2_zoombyunit.htm
 old-project: WinAuto
 ms.assetid: F46358F0-991B-45E1-AEEF-F6EB43B50202
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: IUIAutomationTransformPattern2, IUIAutomationTransformPattern2 interface [Windows Accessibility], ZoomByUnit method, IUIAutomationTransformPattern2::ZoomByUnit, ZoomByUnit method [Windows Accessibility], ZoomByUnit method [Windows Accessibility], IUIAutomationTransformPattern2 interface, ZoomByUnit,IUIAutomationTransformPattern2.ZoomByUnit, uiautomationclient/IUIAutomationTransformPattern2::ZoomByUnit, winauto.uiauto_iuiautomationtransformpattern2_zoombyunit
 ms.prod: windows-hardware
 ms.technology: windows-devices

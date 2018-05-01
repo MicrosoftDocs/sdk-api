@@ -7,7 +7,7 @@ old-location: wmformat\iwmwriterfilesink2_stop.htm
 old-project: wmformat
 ms.assetid: 47377c77-f534-4bb0-be57-49bdb109c309
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMWriterFileSink2, IWMWriterFileSink2 interface [windows Media Format], Stop method, IWMWriterFileSink2::Stop, IWMWriterFileSink2Stop, Stop method [windows Media Format], Stop method [windows Media Format], IWMWriterFileSink2 interface, Stop,IWMWriterFileSink2.Stop, wmformat.iwmwriterfilesink2_stop, wmsdkidl/IWMWriterFileSink2::Stop
 ms.prod: windows-hardware
 ms.technology: windows-devices

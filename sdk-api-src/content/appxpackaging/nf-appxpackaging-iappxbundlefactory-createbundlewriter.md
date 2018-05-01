@@ -7,7 +7,7 @@ old-location: appxpkg\iappxbundlefactory_createbundlewriter.htm
 old-project: appxpkg
 ms.assetid: E77392FB-69A1-41B0-8B44-F05F126214E0
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/26/2018
 ms.keywords: CreateBundleWriter method [App packaging and management], CreateBundleWriter method [App packaging and management], IAppxBundleFactory interface, CreateBundleWriter,IAppxBundleFactory.CreateBundleWriter, IAppxBundleFactory, IAppxBundleFactory interface [App packaging and management], CreateBundleWriter method, IAppxBundleFactory::CreateBundleWriter, appxpackaging/IAppxBundleFactory::CreateBundleWriter, appxpkg.iappxbundlefactory_createbundlewriter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_ARCHITECTURE2
+req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
 topic_type:
 -	APIRef
 -	kbSyntax

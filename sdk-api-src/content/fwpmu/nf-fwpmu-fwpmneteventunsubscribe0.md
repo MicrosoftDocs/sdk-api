@@ -7,7 +7,7 @@ old-location: fwp\fwpmneteventunsubscribe0.htm
 old-project: FWP
 ms.assetid: e7d6faba-c280-4867-a9d9-d1bf28e831ef
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: FwpmNetEventUnsubscribe0, FwpmNetEventUnsubscribe0 function [Filtering], fwp.fwpmneteventunsubscribe0, fwpmu/FwpmNetEventUnsubscribe0
 ms.prod: windows-hardware
 ms.technology: windows-devices

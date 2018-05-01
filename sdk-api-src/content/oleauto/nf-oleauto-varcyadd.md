@@ -7,7 +7,7 @@ old-location: automat\varcyadd.htm
 old-project: automat
 ms.assetid: ef0402aa-7263-4a4b-9204-a35d8da154c5
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: VarCyAdd, VarCyAdd function [Automation], _oa96_VarCyAdd, automat.varcyadd, oleauto/VarCyAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # VarCyAdd function

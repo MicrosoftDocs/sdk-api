@@ -7,7 +7,7 @@ old-location: wmp\iwmpevents_iwmpevents__mediacollectionattributestringadded.htm
 old-project: WMP
 ms.assetid: c18aa7d1-2788-473d-8ade-5e897b83a4d6
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPEvents, IWMPEvents interface [Windows Media Player], MediaCollectionAttributeStringAdded method, IWMPEvents::MediaCollectionAttributeStringAdded, IWMPEventsMediaCollectionAttributeStringAdded, MediaCollectionAttributeStringAdded method [Windows Media Player], MediaCollectionAttributeStringAdded method [Windows Media Player], IWMPEvents interface, MediaCollectionAttributeStringAdded,IWMPEvents.MediaCollectionAttributeStringAdded, wmp.iwmpevents_iwmpevents__mediacollectionattributestringadded, wmp/IWMPEvents::MediaCollectionAttributeStringAdded
 ms.prod: windows-hardware
 ms.technology: windows-devices

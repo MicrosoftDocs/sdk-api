@@ -7,7 +7,7 @@ old-location: dshow\imediaparams_getparam.htm
 old-project: DirectShow
 ms.assetid: 4fcae36a-c659-4565-9169-66d97beb26a4
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetParam method [DirectShow], GetParam method [DirectShow], IMediaParams interface, GetParam,IMediaParams.GetParam, IMediaParams, IMediaParams interface [DirectShow], GetParam method, IMediaParams::GetParam, IMediaParamsGetParam, dshow.imediaparams_getparam, medparam/IMediaParams::GetParam
 ms.prod: windows-hardware
 ms.technology: windows-devices

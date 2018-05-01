@@ -7,7 +7,7 @@ old-location: tablet\itextinputpaneleventsink_inplacestatechanging.htm
 old-project: tablet
 ms.assetid: 866fcd8d-775c-4dc0-824f-6817767247d9
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: 866fcd8d-775c-4dc0-824f-6817767247d9, ITextInputPanelEventSink, ITextInputPanelEventSink interface [Tablet PC], InPlaceStateChanging method, ITextInputPanelEventSink::InPlaceStateChanging, InPlaceStateChanging method [Tablet PC], InPlaceStateChanging method [Tablet PC], ITextInputPanelEventSink interface, InPlaceStateChanging,ITextInputPanelEventSink.InPlaceStateChanging, peninputpanel/ITextInputPanelEventSink::InPlaceStateChanging, tablet.itextinputpaneleventsink_inplacestatechanging
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Tiptsf.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITextInputPanelEventSink::InPlaceStateChanging method

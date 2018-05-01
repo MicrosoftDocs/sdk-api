@@ -7,7 +7,7 @@ old-location: shell\ITravelLog_GetToolTipText.htm
 old-project: shell
 ms.assetid: a085fe2e-9658-448c-b659-4ef08896ec77
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetToolTipText method [Windows Shell], GetToolTipText method [Windows Shell], ITravelLog interface, GetToolTipText,ITravelLog.GetToolTipText, ITravelLog, ITravelLog interface [Windows Shell], GetToolTipText method, ITravelLog::GetToolTipText, shdeprecated/ITravelLog::GetToolTipText, shell.ITravelLog_GetToolTipText, zone_ITravelLog_GetToolTipText
 ms.prod: windows-hardware
 ms.technology: windows-devices

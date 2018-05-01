@@ -7,7 +7,7 @@ old-location: security\icertsrvsetup_getexistingcacertificates.htm
 old-project: SecCrypto
 ms.assetid: fd8c7bac-b6db-41f2-a648-e01ebd09c41c
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: GetExistingCACertificates method [Security], GetExistingCACertificates method [Security], ICertSrvSetup interface, GetExistingCACertificates,ICertSrvSetup.GetExistingCACertificates, ICertSrvSetup, ICertSrvSetup interface [Security], GetExistingCACertificates method, ICertSrvSetup::GetExistingCACertificates, casetup/ICertSrvSetup::GetExistingCACertificates, security.icertsrvsetup_getexistingcacertificates
 ms.prod: windows-hardware
 ms.technology: windows-devices

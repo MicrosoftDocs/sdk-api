@@ -7,7 +7,7 @@ old-location: dshow\iamtuner_get_tuningspace.htm
 old-project: DirectShow
 ms.assetid: 838451c2-2e0b-4a41-a512-f44283573ee6
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMTuner, IAMTuner interface [DirectShow], get_TuningSpace method, IAMTuner::get_TuningSpace, IAMTunerget_TuningSpace, dshow.iamtuner_get_tuningspace, get_TuningSpace method [DirectShow], get_TuningSpace method [DirectShow], IAMTuner interface, get_TuningSpace,IAMTuner.get_TuningSpace, strmif/IAMTuner::get_TuningSpace
 ms.prod: windows-hardware
 ms.technology: windows-devices

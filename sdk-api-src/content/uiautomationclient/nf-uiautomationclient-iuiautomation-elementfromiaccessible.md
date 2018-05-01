@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomation_ElementFromIAccessible.htm
 old-project: WinAuto
 ms.assetid: b3dcc31c-e111-4841-82a8-a6329020b595
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: ElementFromIAccessible method [Windows Accessibility], ElementFromIAccessible method [Windows Accessibility], IUIAutomation interface, ElementFromIAccessible,IUIAutomation.ElementFromIAccessible, IUIAutomation, IUIAutomation interface [Windows Accessibility], ElementFromIAccessible method, IUIAutomation::ElementFromIAccessible, uiauto.uiauto_IUIAutomation_ElementFromIAccessible, uiauto_IUIAutomation_ElementFromIAccessible, uiautomationclient/IUIAutomation::ElementFromIAccessible, winauto.uiauto_IUIAutomation_ElementFromIAccessible
 ms.prod: windows-hardware
 ms.technology: windows-devices

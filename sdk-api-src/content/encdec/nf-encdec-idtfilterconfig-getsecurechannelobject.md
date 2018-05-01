@@ -7,7 +7,7 @@ old-location: mstv\idtfilterconfig_getsecurechannelobject.htm
 old-project: mstv
 ms.assetid: 84057a08-b15f-4738-814d-c016507ac590
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetSecureChannelObject method [Microsoft TV Technologies], GetSecureChannelObject method [Microsoft TV Technologies], IDTFilterConfig interface, GetSecureChannelObject,IDTFilterConfig.GetSecureChannelObject, IDTFilterConfig, IDTFilterConfig interface [Microsoft TV Technologies], GetSecureChannelObject method, IDTFilterConfig::GetSecureChannelObject, IDTFilterConfigGetSecureChannelObject, encdec/IDTFilterConfig::GetSecureChannelObject, mstv.idtfilterconfig_getsecurechannelobject
 ms.prod: windows-hardware
 ms.technology: windows-devices

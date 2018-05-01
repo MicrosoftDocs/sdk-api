@@ -7,7 +7,7 @@ old-location: wmp\iwmpevents_iwmpevents__playlistcollectionchange.htm
 old-project: WMP
 ms.assetid: dcef72f0-3b56-466b-9431-17a7b8130292
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPEvents, IWMPEvents interface [Windows Media Player], PlaylistCollectionChange method, IWMPEvents::PlaylistCollectionChange, IWMPEventsPlaylistCollectionChange, PlaylistCollectionChange method [Windows Media Player], PlaylistCollectionChange method [Windows Media Player], IWMPEvents interface, PlaylistCollectionChange,IWMPEvents.PlaylistCollectionChange, wmp.iwmpevents_iwmpevents__playlistcollectionchange, wmp/IWMPEvents::PlaylistCollectionChange
 ms.prod: windows-hardware
 ms.technology: windows-devices

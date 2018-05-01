@@ -7,7 +7,7 @@ old-location: shell\IBrowserService2_UpdateSecureLockIcon.htm
 old-project: shell
 ms.assetid: 4a24244d-197e-4df4-bcd9-546c999b2534
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IBrowserService2, IBrowserService2 interface [Windows Shell], UpdateSecureLockIcon method, IBrowserService2::UpdateSecureLockIcon, SECURELOCK_FIRSTSUGGEST, SECURELOCK_NOCHANGE, SECURELOCK_SET_FORTEZZA, SECURELOCK_SET_MIXED, SECURELOCK_SET_SECURE128BIT, SECURELOCK_SET_SECURE40BIT, SECURELOCK_SET_SECURE56BIT, SECURELOCK_SET_SECUREUNKNOWNBIT, SECURELOCK_SET_UNSECURE, SECURELOCK_SUGGEST_FORTEZZA, SECURELOCK_SUGGEST_MIXED, SECURELOCK_SUGGEST_SECURE128BIT, SECURELOCK_SUGGEST_SECURE40BIT, SECURELOCK_SUGGEST_SECURE56BIT, SECURELOCK_SUGGEST_SECUREUNKNOWNBIT, SECURELOCK_SUGGEST_UNSECURE, UpdateSecureLockIcon method [Windows Shell], UpdateSecureLockIcon method [Windows Shell], IBrowserService2 interface, UpdateSecureLockIcon,IBrowserService2.UpdateSecureLockIcon, shdeprecated/IBrowserService2::UpdateSecureLockIcon, shell.IBrowserService2_UpdateSecureLockIcon, zone_IBrowserService2_UpdateSecureLockIcon
 ms.prod: windows-hardware
 ms.technology: windows-devices

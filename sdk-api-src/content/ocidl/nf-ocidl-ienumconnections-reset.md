@@ -7,7 +7,7 @@ old-location: com\ienumconnections_reset.htm
 old-project: com
 ms.assetid: 444c9398-199f-4d87-9b1e-075d5af0b649
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IEnumConnections, IEnumConnections interface [COM], Reset method, IEnumConnections::Reset, Reset method [COM], Reset method [COM], IEnumConnections interface, Reset,IEnumConnections.Reset, _com_ienumconnections_reset, com.ienumconnections_reset, ocidl/IEnumConnections::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IEnumConnections::Reset method

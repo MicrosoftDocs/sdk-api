@@ -62,6 +62,97 @@ Defines the
 
 
 
+### -field type
+
+Discriminant for the union enumerated by 
+      <a href="https://msdn.microsoft.com/c2c0403a-30b9-4619-8bcb-3b73b637509e">VDS_ASYNC_OUTPUT_TYPE</a>.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="VDS_ASYNCOUT_CREATEPARTITION"></a><a id="vds_asyncout_createpartition"></a><dl>
+<dt><b><b>VDS_ASYNCOUT_CREATEPARTITION</b></b></dt>
+<dt>10</dt>
+</dl>
+</td>
+<td width="60%">
+See the following description of the <b>cp</b> structure.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="VDS_ASYNCOUT_CREATEVOLUME"></a><a id="vds_asyncout_createvolume"></a><dl>
+<dt><b><b>VDS_ASYNCOUT_CREATEVOLUME</b></b></dt>
+<dt>1</dt>
+</dl>
+</td>
+<td width="60%">
+See the following description of the <b>cv</b> structure.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="VDS_ASYNCOUT_BREAKVOLUMEPLEX"></a><a id="vds_asyncout_breakvolumeplex"></a><dl>
+<dt><b><b>VDS_ASYNCOUT_BREAKVOLUMEPLEX</b></b></dt>
+<dt>5</dt>
+</dl>
+</td>
+<td width="60%">
+See the following description of the <b>bvp</b> structure.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="VDS_ASYNCOUT_CREATELUN"></a><a id="vds_asyncout_createlun"></a><dl>
+<dt><b><b>VDS_ASYNCOUT_CREATELUN</b></b></dt>
+<dt>50</dt>
+</dl>
+</td>
+<td width="60%">
+See the following description of the <b>cl</b> structure.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="VDS_ASYNCOUT_CREATETARGET"></a><a id="vds_asyncout_createtarget"></a><dl>
+<dt><b><b>VDS_ASYNCOUT_CREATETARGET</b></b></dt>
+<dt>62</dt>
+</dl>
+</td>
+<td width="60%">
+See the following description of the <b>ct</b> structure.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="VDS_ASYNCOUT_CREATEPORTALGROUP"></a><a id="vds_asyncout_createportalgroup"></a><dl>
+<dt><b><b>VDS_ASYNCOUT_CREATEPORTALGROUP</b></b></dt>
+<dt>63</dt>
+</dl>
+</td>
+<td width="60%">
+See the following description of the <b>cpg</b> structure.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="VDS_ASYNCOUT_CREATE_VDISK"></a><a id="vds_asyncout_create_vdisk"></a><dl>
+<dt><b><b>VDS_ASYNCOUT_CREATE_VDISK</b></b></dt>
+<dt>200</dt>
+</dl>
+</td>
+<td width="60%">
+See the following description of the <b>cvd</b> structure.
+
+</td>
+</tr>
+</table>
+ 
+
+
 ### -field cp
 
 Structure used for the 
@@ -177,97 +268,6 @@ Structure used for the
 
 
 <a href="_com_iunknown">IUnknown</a> for the virtual disk object.
-
-
-### -field type
-
-Discriminant for the union enumerated by 
-      <a href="https://msdn.microsoft.com/c2c0403a-30b9-4619-8bcb-3b73b637509e">VDS_ASYNC_OUTPUT_TYPE</a>.
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="VDS_ASYNCOUT_CREATEPARTITION"></a><a id="vds_asyncout_createpartition"></a><dl>
-<dt><b><b>VDS_ASYNCOUT_CREATEPARTITION</b></b></dt>
-<dt>10</dt>
-</dl>
-</td>
-<td width="60%">
-See the following description of the <b>cp</b> structure.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="VDS_ASYNCOUT_CREATEVOLUME"></a><a id="vds_asyncout_createvolume"></a><dl>
-<dt><b><b>VDS_ASYNCOUT_CREATEVOLUME</b></b></dt>
-<dt>1</dt>
-</dl>
-</td>
-<td width="60%">
-See the following description of the <b>cv</b> structure.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="VDS_ASYNCOUT_BREAKVOLUMEPLEX"></a><a id="vds_asyncout_breakvolumeplex"></a><dl>
-<dt><b><b>VDS_ASYNCOUT_BREAKVOLUMEPLEX</b></b></dt>
-<dt>5</dt>
-</dl>
-</td>
-<td width="60%">
-See the following description of the <b>bvp</b> structure.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="VDS_ASYNCOUT_CREATELUN"></a><a id="vds_asyncout_createlun"></a><dl>
-<dt><b><b>VDS_ASYNCOUT_CREATELUN</b></b></dt>
-<dt>50</dt>
-</dl>
-</td>
-<td width="60%">
-See the following description of the <b>cl</b> structure.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="VDS_ASYNCOUT_CREATETARGET"></a><a id="vds_asyncout_createtarget"></a><dl>
-<dt><b><b>VDS_ASYNCOUT_CREATETARGET</b></b></dt>
-<dt>62</dt>
-</dl>
-</td>
-<td width="60%">
-See the following description of the <b>ct</b> structure.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="VDS_ASYNCOUT_CREATEPORTALGROUP"></a><a id="vds_asyncout_createportalgroup"></a><dl>
-<dt><b><b>VDS_ASYNCOUT_CREATEPORTALGROUP</b></b></dt>
-<dt>63</dt>
-</dl>
-</td>
-<td width="60%">
-See the following description of the <b>cpg</b> structure.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="VDS_ASYNCOUT_CREATE_VDISK"></a><a id="vds_asyncout_create_vdisk"></a><dl>
-<dt><b><b>VDS_ASYNCOUT_CREATE_VDISK</b></b></dt>
-<dt>200</dt>
-</dl>
-</td>
-<td width="60%">
-See the following description of the <b>cvd</b> structure.
-
-</td>
-</tr>
-</table>
- 
 
 
 ## -remarks

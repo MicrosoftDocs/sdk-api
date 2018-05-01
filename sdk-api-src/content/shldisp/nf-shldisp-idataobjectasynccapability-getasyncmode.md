@@ -7,7 +7,7 @@ old-location: shell\IDataObjectAsyncCapability_GetAsyncMode.htm
 old-project: shell
 ms.assetid: 0B7A4299-4D19-4c5a-99A5-9568F4D58061
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetAsyncMode method [Windows Shell], GetAsyncMode method [Windows Shell], IDataObjectAsyncCapability interface, GetAsyncMode,IDataObjectAsyncCapability.GetAsyncMode, IDataObjectAsyncCapability, IDataObjectAsyncCapability interface [Windows Shell], GetAsyncMode method, IDataObjectAsyncCapability::GetAsyncMode, shell.IDataObjectAsyncCapability_GetAsyncMode, shldisp/IDataObjectAsyncCapability::GetAsyncMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

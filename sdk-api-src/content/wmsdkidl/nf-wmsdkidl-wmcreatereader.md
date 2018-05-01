@@ -7,7 +7,7 @@ old-location: wmformat\wmcreatereader.htm
 old-project: wmformat
 ms.assetid: f40d4b43-529d-4a78-80ec-4c339a91b28c
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: WMCreateReader, WMCreateReader function [windows Media Format], wmformat.wmcreatereader, wmsdkidl/WMCreateReader
 ms.prod: windows-hardware
 ms.technology: windows-devices

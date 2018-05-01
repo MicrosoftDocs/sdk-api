@@ -7,7 +7,7 @@ old-location: controls\ITextServices_TxGetVScroll.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txgetvscroll.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextServices, ITextServices interface [Windows Controls], TxGetVScroll method, ITextServices::TxGetVScroll, TxGetVScroll method [Windows Controls], TxGetVScroll method [Windows Controls], ITextServices interface, TxGetVScroll,ITextServices.TxGetVScroll, _win32_ITextServices_TxGetVScroll, _win32_ITextServices_TxGetVScroll_cpp, controls.ITextServices_TxGetVScroll, controls._win32_ITextServices_TxGetVScroll, textserv/ITextServices::TxGetVScroll
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: com\ioleinplaceactiveobject_resizeborder.htm
 old-project: com
 ms.assetid: 240d2ae5-abce-4bea-969e-f47780908bbb
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IOleInPlaceActiveObject, IOleInPlaceActiveObject interface [COM], ResizeBorder method, IOleInPlaceActiveObject::ResizeBorder, ResizeBorder method [COM], ResizeBorder method [COM], IOleInPlaceActiveObject interface, ResizeBorder,IOleInPlaceActiveObject.ResizeBorder, _ole_ioleinplaceactiveobject_resizeborder, com.ioleinplaceactiveobject_resizeborder, oleidl/IOleInPlaceActiveObject::ResizeBorder
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IOleInPlaceActiveObject::ResizeBorder method

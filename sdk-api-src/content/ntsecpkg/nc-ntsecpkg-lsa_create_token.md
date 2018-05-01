@@ -7,7 +7,7 @@ old-location: security\createtoken.htm
 old-project: SecAuthN
 ms.assetid: 2355cf1d-9f95-40be-aed4-8c2796137960
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/24/2018
 ms.keywords: CreateToken, CreateToken function [Security], LSA_CREATE_TOKEN, LsaTokenInformationNull, LsaTokenInformationV1, _ssp_createtoken, ntsecpkg/CreateToken, security.createtoken
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # LSA_CREATE_TOKEN callback

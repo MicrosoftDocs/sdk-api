@@ -7,7 +7,7 @@ old-location: direct2d\D2D1_FEATURE_LEVEL.htm
 old-project: Direct2D
 ms.assetid: d9604c37-7345-40e3-850c-2e2c99353ba5
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: D2D1_FEATURE_LEVEL, D2D1_FEATURE_LEVEL enumeration [Direct2D], D2D1_FEATURE_LEVEL_10, D2D1_FEATURE_LEVEL_9, D2D1_FEATURE_LEVEL_DEFAULT, d2d1/D2D1_FEATURE_LEVEL, d2d1/D2D1_FEATURE_LEVEL_10, d2d1/D2D1_FEATURE_LEVEL_9, d2d1/D2D1_FEATURE_LEVEL_DEFAULT, direct2d.D2D1_FEATURE_LEVEL
 ms.prod: windows-hardware
 ms.technology: windows-devices

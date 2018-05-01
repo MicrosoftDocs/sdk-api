@@ -7,7 +7,7 @@ old-location: dshow\iamtimecodedisplay_settcdisplay.htm
 old-project: DirectShow
 ms.assetid: 34d55c5a-d213-4fb2-b81c-b117d025f3ec
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMTimecodeDisplay, IAMTimecodeDisplay interface [DirectShow], SetTCDisplay method, IAMTimecodeDisplay::SetTCDisplay, IAMTimecodeDisplaySetTCDisplay, SetTCDisplay method [DirectShow], SetTCDisplay method [DirectShow], IAMTimecodeDisplay interface, SetTCDisplay,IAMTimecodeDisplay.SetTCDisplay, dshow.iamtimecodedisplay_settcdisplay, strmif/IAMTimecodeDisplay::SetTCDisplay
 ms.prod: windows-hardware
 ms.technology: windows-devices

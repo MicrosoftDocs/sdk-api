@@ -7,7 +7,7 @@ old-location: automat\itypeinfo_releasevardesc.htm
 old-project: automat
 ms.assetid: a0f734d8-9b14-474a-b701-df8ba7641501
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: ITypeInfo, ITypeInfo interface [Automation], ReleaseVarDesc method, ITypeInfo::ReleaseVarDesc, ReleaseVarDesc method [Automation], ReleaseVarDesc method [Automation], ITypeInfo interface, ReleaseVarDesc,ITypeInfo.ReleaseVarDesc, _oa96_ITypeInfo_ReleaseVarDesc, automat.itypeinfo_releasevardesc, oaidl/ITypeInfo::ReleaseVarDesc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITypeInfo::ReleaseVarDesc method

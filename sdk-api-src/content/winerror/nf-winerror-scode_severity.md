@@ -7,7 +7,7 @@ old-location: com\scode_severity_macro.htm
 old-project: com
 ms.assetid: a1193f0c-e53e-4e63-b801-f1237bee29a1
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: SCODE_SEVERITY, SCODE_SEVERITY macro [COM], _com_SCODE_SEVERITY, com.scode_severity, com.scode_severity_macro, winerror/SCODE_SEVERITY
 ms.prod: windows-hardware
 ms.technology: windows-devices

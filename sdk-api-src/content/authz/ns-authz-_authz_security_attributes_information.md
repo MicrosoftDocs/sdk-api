@@ -7,7 +7,7 @@ old-location: security\authz_security_attributes_information.htm
 old-project: SecAuthZ
 ms.assetid: 1db95ab0-951f-488c-b522-b3f38fc74c7c
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: "*PAUTHZ_SECURITY_ATTRIBUTES_INFORMATION, AUTHZ_SECURITY_ATTRIBUTES_INFORMATION, AUTHZ_SECURITY_ATTRIBUTES_INFORMATION structure [Security], PAUTHZ_SECURITY_ATTRIBUTES_INFORMATION, PAUTHZ_SECURITY_ATTRIBUTES_INFORMATION structure pointer [Security], _AUTHZ_SECURITY_ATTRIBUTES_INFORMATION, authz/AUTHZ_SECURITY_ATTRIBUTES_INFORMATION, authz/PAUTHZ_SECURITY_ATTRIBUTES_INFORMATION, security.authz_security_attributes_information"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -57,15 +57,6 @@ The <b>AUTHZ_SECURITY_ATTRIBUTES_INFORMATION</b> structure specifies one or more
 
 
 
-### -field Attribute
-
-
-
-#### pAttributeV1
-
-An array of <a href="https://msdn.microsoft.com/0c4778bb-1b5d-4422-b066-d2a6aaa1f351">AUTHZ_SECURITY_ATTRIBUTE_V1</a> structures of the length of the <b>AttributeCount</b> member.
-
-
 ### -field Version
 
 The  version of this structure. Currently the only value supported is 1.
@@ -79,6 +70,15 @@ Reserved. Do not use.
 ### -field AttributeCount
 
 The number of attributes specified by the <b>Attribute</b> member.
+
+
+### -field Attribute
+
+
+
+#### pAttributeV1
+
+An array of <a href="https://msdn.microsoft.com/0c4778bb-1b5d-4422-b066-d2a6aaa1f351">AUTHZ_SECURITY_ATTRIBUTE_V1</a> structures of the length of the <b>AttributeCount</b> member.
 
 
 ## -see-also

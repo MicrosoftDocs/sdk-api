@@ -7,7 +7,7 @@ old-location: security\icertificateenrollmentserversetup_uninstall.htm
 old-project: SecCrypto
 ms.assetid: 5C979627-7544-4466-9F92-224D48904DD3
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: ICertificateEnrollmentServerSetup, ICertificateEnrollmentServerSetup interface [Security], UnInstall method, ICertificateEnrollmentServerSetup::UnInstall, UnInstall method [Security], UnInstall method [Security], ICertificateEnrollmentServerSetup interface, UnInstall,ICertificateEnrollmentServerSetup.UnInstall, casetup/ICertificateEnrollmentServerSetup::UnInstall, security.icertificateenrollmentserversetup_uninstall
 ms.prod: windows-hardware
 ms.technology: windows-devices

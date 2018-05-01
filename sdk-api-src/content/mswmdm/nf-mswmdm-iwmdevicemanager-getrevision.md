@@ -7,7 +7,7 @@ old-location: wmdm\iwmdevicemanager_getrevision.htm
 old-project: WMDM
 ms.assetid: 3ecb84cc-eaa5-436c-b5f1-50705462b88b
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: GetRevision method [windows Media Device Manager], GetRevision method [windows Media Device Manager], IWMDeviceManager interface, GetRevision,IWMDeviceManager.GetRevision, IWMDeviceManager, IWMDeviceManager interface [windows Media Device Manager], GetRevision method, IWMDeviceManager::GetRevision, IWMDeviceManagerGetRevision, mswmdm/IWMDeviceManager::GetRevision, wmdm.iwmdevicemanager_getrevision
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IWMDeviceManager::GetRevision method

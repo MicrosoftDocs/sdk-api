@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: PRINT_EXECUTION_DATA
+req.typenames: WSAVERSION, *PWSAVERSION, *LPWSAVERSION
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -522,7 +522,7 @@ Be sure to handle Plug and Play device events as quickly as possible; otherwise,
     to start another thread to perform the operation asynchronously.
 
 Services can also use the 
-    <a href="https://msdn.microsoft.com/6fc64265-1403-45ea-925c-c5eb31d56734">SetConsoleCtrlHandler</a> function to receive 
+    <a href="base.setconsolectrlhandler">SetConsoleCtrlHandler</a> function to receive 
     shutdown notification. This notification is received when the running applications are shutting down, which occurs 
     before services are shut down.
 

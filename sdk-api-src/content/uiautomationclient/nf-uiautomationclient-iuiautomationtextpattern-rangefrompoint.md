@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationTextPattern_RangeFromPoint.htm
 old-project: WinAuto
 ms.assetid: aa80b1d8-c50e-45be-8769-8b937c8e714a
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: IUIAutomationTextPattern, IUIAutomationTextPattern interface [Windows Accessibility], RangeFromPoint method, IUIAutomationTextPattern::RangeFromPoint, RangeFromPoint method [Windows Accessibility], RangeFromPoint method [Windows Accessibility], IUIAutomationTextPattern interface, RangeFromPoint,IUIAutomationTextPattern.RangeFromPoint, uiauto.uiauto_IUIAutomationTextPattern_RangeFromPoint, uiauto_IUIAutomationTextPattern_RangeFromPoint, uiautomationclient/IUIAutomationTextPattern::RangeFromPoint, winauto.uiauto_IUIAutomationTextPattern_RangeFromPoint
 ms.prod: windows-hardware
 ms.technology: windows-devices

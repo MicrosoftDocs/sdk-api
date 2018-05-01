@@ -7,7 +7,7 @@ old-location: mstv\iatsctuningspace_get_minphysicalchannel.htm
 old-project: mstv
 ms.assetid: 1b85331a-d99f-4cb6-8440-1b51fa697ade
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IATSCTuningSpace, IATSCTuningSpace interface [Microsoft TV Technologies], get_MinPhysicalChannel method, IATSCTuningSpace::get_MinPhysicalChannel, IATSCTuningSpaceget_MinPhysicalChannel, get_MinPhysicalChannel method [Microsoft TV Technologies], get_MinPhysicalChannel method [Microsoft TV Technologies], IATSCTuningSpace interface, get_MinPhysicalChannel,IATSCTuningSpace.get_MinPhysicalChannel, mstv.iatsctuningspace_get_minphysicalchannel, tuner/IATSCTuningSpace::get_MinPhysicalChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices

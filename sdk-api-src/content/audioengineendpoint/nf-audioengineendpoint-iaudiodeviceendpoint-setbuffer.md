@@ -7,7 +7,7 @@ old-location: termserv\iaudiodeviceendpoint_setbuffer.htm
 old-project: TermServ
 ms.assetid: 345a172b-11af-4c98-9f9c-54bfa38c5077
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: IAudioDeviceEndpoint, IAudioDeviceEndpoint interface [Remote Desktop Services], SetBuffer method, IAudioDeviceEndpoint::SetBuffer, SetBuffer method [Remote Desktop Services], SetBuffer method [Remote Desktop Services], IAudioDeviceEndpoint interface, SetBuffer,IAudioDeviceEndpoint.SetBuffer, audioengineendpoint/IAudioDeviceEndpoint::SetBuffer, termserv.iaudiodeviceendpoint_setbuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

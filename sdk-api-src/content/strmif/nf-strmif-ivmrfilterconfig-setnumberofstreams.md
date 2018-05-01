@@ -7,7 +7,7 @@ old-location: dshow\ivmrfilterconfig_setnumberofstreams.htm
 old-project: DirectShow
 ms.assetid: cd200b33-bb74-474a-9047-d81cb470af23
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IVMRFilterConfig, IVMRFilterConfig interface [DirectShow], SetNumberOfStreams method, IVMRFilterConfig::SetNumberOfStreams, IVMRFilterConfigSetNumberOfStreams, SetNumberOfStreams method [DirectShow], SetNumberOfStreams method [DirectShow], IVMRFilterConfig interface, SetNumberOfStreams,IVMRFilterConfig.SetNumberOfStreams, dshow.ivmrfilterconfig_setnumberofstreams, strmif/IVMRFilterConfig::SetNumberOfStreams
 ms.prod: windows-hardware
 ms.technology: windows-devices

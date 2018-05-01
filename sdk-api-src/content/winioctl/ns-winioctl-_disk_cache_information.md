@@ -59,43 +59,6 @@ Provides information about the disk cache.
 
 
 
-### -field DUMMYUNIONNAME
-
- 
-
-
-### -field DUMMYUNIONNAME.ScalarPrefetch
-
-
-### -field DUMMYUNIONNAME.ScalarPrefetch.Minimum
-
-The scalar multiplier of the transfer length of the request. This member is valid  only when <b>PrefetchScalar</b> is <b>TRUE</b>. When <b>PrefetchScalar</b> is <b>TRUE</b>, this value  is multiplied by the transfer length to obtain the minimum amount of data that can be prefetched into the cache on a disk operation. 
-
-
-
-### -field DUMMYUNIONNAME.ScalarPrefetch.Maximum
-
-The scalar multiplier of the transfer length of the request. This member is valid only when <b>PrefetchScalar</b> is <b>TRUE</b>. When <b>PrefetchScalar</b> is <b>TRUE</b>, this value  is multiplied by the transfer length to obtain the maximum amount of data that can be prefetched into the cache on a disk operation. 
-
-
-### -field DUMMYUNIONNAME.ScalarPrefetch.MaximumBlocks
-
-The maximum number of blocks which can be prefetched.
-
-
-### -field DUMMYUNIONNAME.BlockPrefetch
-
-
-### -field DUMMYUNIONNAME.BlockPrefetch.Minimum
-
-The minimum amount of data that can be prefetched into the cache on a disk operation, as an absolute number of disk blocks. This member is valid only when <b>PrefetchScalar</b> is <b>FALSE</b>. 
-
-
-### -field DUMMYUNIONNAME.BlockPrefetch.Maximum
-
-The maximum amount of data  that can be prefetched into the cache on a disk operation, as an absolute number of disk blocks. This member is valid only when <b>PrefetchScalar</b> is <b>FALSE</b>. 
-
-
 ### -field ParametersSavable
 
 Indicates whether the device is capable of saving any parameters in nonvolatile storage.
@@ -173,6 +136,43 @@ Disables prefetching. Prefetching might be disabled whenever the number of block
 
 If this member is  <b>TRUE</b>,  the union is a <b>ScalarPrefetch</b> structure. Otherwise, the union is a <b>BlockPrefetch</b> structure. 
 
+
+
+### -field DUMMYUNIONNAME
+
+ 
+
+
+### -field DUMMYUNIONNAME.ScalarPrefetch
+
+
+### -field DUMMYUNIONNAME.ScalarPrefetch.Minimum
+
+The scalar multiplier of the transfer length of the request. This member is valid  only when <b>PrefetchScalar</b> is <b>TRUE</b>. When <b>PrefetchScalar</b> is <b>TRUE</b>, this value  is multiplied by the transfer length to obtain the minimum amount of data that can be prefetched into the cache on a disk operation. 
+
+
+
+### -field DUMMYUNIONNAME.ScalarPrefetch.Maximum
+
+The scalar multiplier of the transfer length of the request. This member is valid only when <b>PrefetchScalar</b> is <b>TRUE</b>. When <b>PrefetchScalar</b> is <b>TRUE</b>, this value  is multiplied by the transfer length to obtain the maximum amount of data that can be prefetched into the cache on a disk operation. 
+
+
+### -field DUMMYUNIONNAME.ScalarPrefetch.MaximumBlocks
+
+The maximum number of blocks which can be prefetched.
+
+
+### -field DUMMYUNIONNAME.BlockPrefetch
+
+
+### -field DUMMYUNIONNAME.BlockPrefetch.Minimum
+
+The minimum amount of data that can be prefetched into the cache on a disk operation, as an absolute number of disk blocks. This member is valid only when <b>PrefetchScalar</b> is <b>FALSE</b>. 
+
+
+### -field DUMMYUNIONNAME.BlockPrefetch.Maximum
+
+The maximum amount of data  that can be prefetched into the cache on a disk operation, as an absolute number of disk blocks. This member is valid only when <b>PrefetchScalar</b> is <b>FALSE</b>. 
 
 
 ## -see-also

@@ -7,7 +7,7 @@ old-location: shell\IDataObjectAsyncCapability_SetAsyncMode.htm
 old-project: shell
 ms.assetid: 97DCCA78-F25E-47de-8292-F0C6ED9DFD35
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IDataObjectAsyncCapability, IDataObjectAsyncCapability interface [Windows Shell], SetAsyncMode method, IDataObjectAsyncCapability::SetAsyncMode, SetAsyncMode method [Windows Shell], SetAsyncMode method [Windows Shell], IDataObjectAsyncCapability interface, SetAsyncMode,IDataObjectAsyncCapability.SetAsyncMode, shell.IDataObjectAsyncCapability_SetAsyncMode, shldisp/IDataObjectAsyncCapability::SetAsyncMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

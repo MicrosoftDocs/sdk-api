@@ -7,7 +7,7 @@ old-location: bits\ibitspeercacheadministration_clearrecords.htm
 old-project: Bits
 ms.assetid: 96e18c5d-6c76-4953-8e8e-3e98943478d8
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/10/2018
 ms.keywords: ClearRecords method [BITS], ClearRecords method [BITS], IBitsPeerCacheAdministration interface, ClearRecords,IBitsPeerCacheAdministration.ClearRecords, IBitsPeerCacheAdministration, IBitsPeerCacheAdministration interface [BITS], ClearRecords method, IBitsPeerCacheAdministration::ClearRecords, bits.ibitspeercacheadministration_clearrecords, bits3_0/IBitsPeerCacheAdministration::ClearRecords
 ms.prod: windows-hardware
 ms.technology: windows-devices

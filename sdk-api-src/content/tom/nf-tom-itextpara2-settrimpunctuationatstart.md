@@ -7,7 +7,7 @@ old-location: controls\itextpara2_settrimpunctuationatstart.htm
 old-project: Controls
 ms.assetid: f08f67ca-5767-4986-8af1-b3a11a1065aa
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextPara2, ITextPara2 interface [Windows Controls], SetTrimPunctuationAtStart method, ITextPara2::SetTrimPunctuationAtStart, SetTrimPunctuationAtStart method [Windows Controls], SetTrimPunctuationAtStart method [Windows Controls], ITextPara2 interface, SetTrimPunctuationAtStart,ITextPara2.SetTrimPunctuationAtStart, controls.itextpara2_settrimpunctuationatstart, tom/ITextPara2::SetTrimPunctuationAtStart
 ms.prod: windows-hardware
 ms.technology: windows-devices

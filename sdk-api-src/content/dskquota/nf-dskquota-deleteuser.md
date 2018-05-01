@@ -7,7 +7,7 @@ old-location: shell\DiskQuotaControl_DeleteUser.htm
 old-project: shell
 ms.assetid: 56a07388-b7d8-41a4-b29a-8a57fe0b9d19
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: DeleteUser, DeleteUser method [Windows Shell], DeleteUser method [Windows Shell], DiskQuotaControl object, DiskQuotaControl object [Windows Shell], DeleteUser method, _win32_DiskQuotaControl_DeleteUser, shell.DiskQuotaControl_DeleteUser
 ms.prod: windows-hardware
 ms.technology: windows-devices

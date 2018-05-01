@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol_timeplay.htm
 old-project: DirectShow
 ms.assetid: 56b4b086-e315-486c-8dbd-97960f5b76d1
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IDvdControl, IDvdControl interface [DirectShow], TimePlay method, IDvdControl::TimePlay, IDvdControlTimePlay, TimePlay method [DirectShow], TimePlay method [DirectShow], IDvdControl interface, TimePlay,IDvdControl.TimePlay, dshow.idvdcontrol_timeplay, strmif/IDvdControl::TimePlay
 ms.prod: windows-hardware
 ms.technology: windows-devices

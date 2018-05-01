@@ -7,7 +7,7 @@ old-location: security\icertpropertybackedup.htm
 old-project: SecCertEnroll
 ms.assetid: 9c694991-6f2d-420e-9f9f-5a36b10c39aa
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: ICertPropertyBackedUp, ICertPropertyBackedUp interface [Security], ICertPropertyBackedUp interface [Security], described, certenroll/ICertPropertyBackedUp, security.icertpropertybackedup
 ms.prod: windows-hardware
 ms.technology: windows-devices

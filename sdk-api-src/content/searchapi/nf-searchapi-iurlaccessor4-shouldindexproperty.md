@@ -7,7 +7,7 @@ old-location: search\iurlaccessor4_shouldindexproperty.htm
 old-project: search
 ms.assetid: 44F10BD2-0CE5-4462-A50B-CBD63EE3B802
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/24/2018
 ms.keywords: IUrlAccessor4, IUrlAccessor4 interface [search], ShouldIndexProperty method, IUrlAccessor4::ShouldIndexProperty, ShouldIndexProperty method [search], ShouldIndexProperty method [search], IUrlAccessor4 interface, ShouldIndexProperty,IUrlAccessor4.ShouldIndexProperty, search.iurlaccessor4_shouldindexproperty, searchapi/IUrlAccessor4::ShouldIndexProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IUrlAccessor4::ShouldIndexProperty method

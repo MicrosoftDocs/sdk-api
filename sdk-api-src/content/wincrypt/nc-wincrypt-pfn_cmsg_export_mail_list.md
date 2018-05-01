@@ -7,7 +7,7 @@ old-location: security\pfn_cmsg_export_mail_list.htm
 old-project: SecCrypto
 ms.assetid: 68a75714-cf47-40f9-95ab-e1ffc8936390
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: PFN_CMSG_EXPORT_MAIL_LIST, PFN_CMSG_EXPORT_MAIL_LIST function pointer [Security], security.pfn_cmsg_export_mail_list, wincrypt/PFN_CMSG_EXPORT_MAIL_LIST
 ms.prod: windows-hardware
 ms.technology: windows-devices

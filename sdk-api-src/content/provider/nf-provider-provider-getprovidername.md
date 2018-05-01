@@ -7,7 +7,7 @@ old-location: wmi\provider_getprovidername.htm
 old-project: WmiSdk
 ms.assetid: 9ea7558d-11bd-4f19-b4d3-a711eca632a8
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: GetProviderName method [Windows Management Instrumentation], GetProviderName method [Windows Management Instrumentation], Provider interface, GetProviderName,Provider.GetProviderName, Provider, Provider interface [Windows Management Instrumentation], GetProviderName method, Provider::GetProviderName, _hmm_provider_getprovidername, provider/Provider::GetProviderName, wmi.provider_getprovidername
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # Provider::GetProviderName method

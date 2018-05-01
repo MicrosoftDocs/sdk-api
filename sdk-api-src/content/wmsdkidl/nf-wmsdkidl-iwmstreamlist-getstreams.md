@@ -7,7 +7,7 @@ old-location: wmformat\iwmstreamlist_getstreams.htm
 old-project: wmformat
 ms.assetid: ef7e1141-284f-4570-8891-9f53b2da7229
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: GetStreams method [windows Media Format], GetStreams method [windows Media Format], IWMStreamList interface, GetStreams,IWMStreamList.GetStreams, IWMStreamList, IWMStreamList interface [windows Media Format], GetStreams method, IWMStreamList::GetStreams, IWMStreamListGetStreams, wmformat.iwmstreamlist_getstreams, wmsdkidl/IWMStreamList::GetStreams
 ms.prod: windows-hardware
 ms.technology: windows-devices

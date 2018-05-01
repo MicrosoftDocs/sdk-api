@@ -7,7 +7,7 @@ old-location: ics\inetconnection_getuiobjectclassid.htm
 old-project: ICS
 ms.assetid: 33d69dff-8137-4901-9529-31130803b19f
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: GetUiObjectClassId method [ICS/ICF], GetUiObjectClassId method [ICS/ICF], INetConnection interface, GetUiObjectClassId,INetConnection.GetUiObjectClassId, INetConnection, INetConnection interface [ICS/ICF], GetUiObjectClassId method, INetConnection::GetUiObjectClassId, _ics_inetconnection_getuiobjectclassid, ics.inetconnection_getuiobjectclassid, netcon/INetConnection::GetUiObjectClassId
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # INetConnection::GetUiObjectClassId method

@@ -7,7 +7,7 @@ old-location: secbiomet\winbioenumserviceproviders.htm
 old-project: SecBioMet
 ms.assetid: 2424eae8-4fc6-43f4-97a1-3340870396cc
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: WinBioEnumServiceProviders, WinBioEnumServiceProviders function [Windows Biometric Framework API], secbiomet.winbioenumserviceproviders, winbio/WinBioEnumServiceProviders
 ms.prod: windows-hardware
 ms.technology: windows-devices

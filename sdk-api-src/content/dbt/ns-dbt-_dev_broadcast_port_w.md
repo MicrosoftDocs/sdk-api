@@ -7,7 +7,7 @@ old-location: base\dev_broadcast_port_str.htm
 old-project: DevIO
 ms.assetid: b8789f1c-7d82-4637-bdb0-016a22b3bc8a
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/3/2018
 ms.keywords: "*PDEV_BROADCAST_PORT_W, DEV_BROADCAST_PORT, DEV_BROADCAST_PORT structure, DEV_BROADCAST_PORT_W, PDEV_BROADCAST_PORT, PDEV_BROADCAST_PORT structure pointer, _DEV_BROADCAST_PORT_W, _win32_dev_broadcast_port_str, base.dev_broadcast_port_str, dbt/DEV_BROADCAST_PORT, dbt/PDEV_BROADCAST_PORT"
 ms.prod: windows-hardware
 ms.technology: windows-devices

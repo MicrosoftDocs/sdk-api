@@ -7,7 +7,7 @@ old-location: dshow\iconfigasfwriter2_streamnumfrompin.htm
 old-project: DirectShow
 ms.assetid: 374331ec-6665-4ed9-b4ee-6d33b1e2ef2c
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IConfigAsfWriter2, IConfigAsfWriter2 interface [DirectShow], StreamNumFromPin method, IConfigAsfWriter2::StreamNumFromPin, IConfigAsfWriter2StreamNumFromPin, StreamNumFromPin method [DirectShow], StreamNumFromPin method [DirectShow], IConfigAsfWriter2 interface, StreamNumFromPin,IConfigAsfWriter2.StreamNumFromPin, dshow.iconfigasfwriter2_streamnumfrompin, dshowasf/IConfigAsfWriter2::StreamNumFromPin
 ms.prod: windows-hardware
 ms.technology: windows-devices

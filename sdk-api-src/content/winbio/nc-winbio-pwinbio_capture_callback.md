@@ -7,7 +7,7 @@ old-location: secbiomet\pwinbio_capture_callback.htm
 old-project: SecBioMet
 ms.assetid: 7B517246-410C-49B6-9DEE-30E066D8F5C6
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: PWINBIO_CAPTURE_CALLBACK, PWINBIO_CAPTURE_CALLBACK function pointer [Windows Biometric Framework API], secbiomet.pwinbio_capture_callback, winbio/PWINBIO_CAPTURE_CALLBACK
 ms.prod: windows-hardware
 ms.technology: windows-devices

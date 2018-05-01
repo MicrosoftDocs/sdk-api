@@ -7,7 +7,7 @@ old-location: shell\ILSkip_PCUIDLIST_RELATIVE_UINT.htm
 old-project: shell
 ms.assetid: 0ed0409a-eab3-49b6-bd8d-06ad38ac2f8c
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ILSkip, ILSkip function [Windows Shell], _shell_ILSkip_PCUIDLIST_RELATIVE_UINT, shell.ILSkip_PCUIDLIST_RELATIVE_UINT, shlobj_core/ILSkip
 ms.prod: windows-hardware
 ms.technology: windows-devices

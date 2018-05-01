@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement_GetCachedPattern.htm
 old-project: WinAuto
 ms.assetid: c71cab11-24c7-4e66-bcf2-f1abb1f37abb
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: GetCachedPattern method [Windows Accessibility], GetCachedPattern method [Windows Accessibility], IUIAutomationElement interface, GetCachedPattern,IUIAutomationElement.GetCachedPattern, IUIAutomationElement, IUIAutomationElement interface [Windows Accessibility], GetCachedPattern method, IUIAutomationElement::GetCachedPattern, uiauto.uiauto_IUIAutomationElement_GetCachedPattern, uiauto_IUIAutomationElement_GetCachedPattern, uiautomationclient/IUIAutomationElement::GetCachedPattern, winauto.uiauto_IUIAutomationElement_GetCachedPattern
 ms.prod: windows-hardware
 ms.technology: windows-devices

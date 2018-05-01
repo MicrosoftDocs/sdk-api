@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrHandler_Enable.htm
 old-project: shell
 ms.assetid: ea3efba1-9b7c-4f93-aca5-08475a6005a8
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: Enable method [Windows Shell], Enable method [Windows Shell], ISyncMgrHandler interface, Enable,ISyncMgrHandler.Enable, ISyncMgrHandler, ISyncMgrHandler interface [Windows Shell], Enable method, ISyncMgrHandler::Enable, _shell_ISyncMgrHandler_Enable, shell.ISyncMgrHandler_Enable, syncmgr/ISyncMgrHandler::Enable
 ms.prod: windows-hardware
 ms.technology: windows-devices

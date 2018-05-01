@@ -7,7 +7,7 @@ old-location: mstv\ibda_conditionalaccessex_closemmidialog.htm
 old-project: mstv
 ms.assetid: 30cba76b-ae52-4c87-a88e-faa9ad3f12f9
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: CloseMmiDialog method [Microsoft TV Technologies], CloseMmiDialog method [Microsoft TV Technologies], IBDA_ConditionalAccessEx interface, CloseMmiDialog,IBDA_ConditionalAccessEx.CloseMmiDialog, IBDA_ConditionalAccessEx, IBDA_ConditionalAccessEx interface [Microsoft TV Technologies], CloseMmiDialog method, IBDA_ConditionalAccessEx::CloseMmiDialog, bdaiface/IBDA_ConditionalAccessEx::CloseMmiDialog, mstv.ibda_conditionalaccessex_closemmidialog
 ms.prod: windows-hardware
 ms.technology: windows-devices

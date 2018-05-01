@@ -7,7 +7,7 @@ old-location: security\iocspadmin_getconfiguration_method.htm
 old-project: SecCrypto
 ms.assetid: bf3c5757-0e97-46d2-89c2-f62a5e367fbb
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: GetConfiguration method [Security], GetConfiguration method [Security], IOCSPAdmin interface, GetConfiguration,IOCSPAdmin.GetConfiguration, IOCSPAdmin, IOCSPAdmin interface [Security], GetConfiguration method, IOCSPAdmin::GetConfiguration, certadm/IOCSPAdmin::GetConfiguration, security.iocspadmin_getconfiguration_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CHANNEL_ENTRY_POINTS, *PCHANNEL_ENTRY_POINTS
+req.typenames: 
 topic_type:
 -	APIRef
 -	kbSyntax

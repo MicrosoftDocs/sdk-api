@@ -7,7 +7,7 @@ old-location: winauto\uiauto_UIAutomationPropertyInfoStruct.htm
 old-project: WinAuto
 ms.assetid: ea5b4cbe-5a39-407c-9c61-8e9ac4f3398f
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: UIAutomationPropertyInfo, UIAutomationPropertyInfo structure [Windows Accessibility], uiauto.uiauto_UIAutomationPropertyInfoStruct, uiauto_UIAutomationPropertyInfoStruct, uiautomationcore/UIAutomationPropertyInfo, winauto.uiauto_UIAutomationPropertyInfoStruct
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,11 +58,6 @@ Contains information about a custom property.
 
 
 
-### -field UIAutomationType
-
- 
-
-
 ### -field guid
 
 Type: <b>GUID</b>
@@ -77,7 +72,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 The programmatic name of the property (a non-localizable string).
 
 
-#### - type
+### -field type
 
 Type: <b><a href="https://msdn.microsoft.com/6090d5b5-2376-43ce-bef2-49bb3515107a">UIAutomationType</a></b>
 

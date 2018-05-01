@@ -7,7 +7,7 @@ old-location: base\shouldblockrevert.htm
 old-project: VSS
 ms.assetid: ec5d62f0-e1af-44e4-a8ca-4c98c1be1dc7
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: ShouldBlockRevert, ShouldBlockRevert function, base.shouldblockrevert, vsbackup/ShouldBlockRevert
 ms.prod: windows-hardware
 ms.technology: windows-devices

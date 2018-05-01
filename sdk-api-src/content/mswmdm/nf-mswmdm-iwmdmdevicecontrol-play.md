@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmdevicecontrol_play.htm
 old-project: WMDM
 ms.assetid: e8d717e6-365c-44ad-b24e-daa3c35664de
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: IWMDMDeviceControl, IWMDMDeviceControl interface [windows Media Device Manager], Play method, IWMDMDeviceControl::Play, IWMDMDeviceControlPlay, Play method [windows Media Device Manager], Play method [windows Media Device Manager], IWMDMDeviceControl interface, Play,IWMDMDeviceControl.Play, mswmdm/IWMDMDeviceControl::Play, wmdm.iwmdmdevicecontrol_play
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IWMDMDeviceControl::Play method

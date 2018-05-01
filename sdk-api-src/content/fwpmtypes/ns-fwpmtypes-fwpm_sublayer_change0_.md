@@ -7,7 +7,7 @@ old-location: fwp\fwpm_sublayer_change0_struct.htm
 old-project: FWP
 ms.assetid: f01593aa-e7b1-42f1-b523-2f9e6d6b631b
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: FWPM_SUBLAYER_CHANGE0, FWPM_SUBLAYER_CHANGE0 structure [Filtering], FWPM_SUBLAYER_CHANGE0_, fwp.fwpm_sublayer_change0_struct, fwpmtypes/FWPM_SUBLAYER_CHANGE0
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist_setcomputerootconstantbufferv
 old-project: direct3d12
 ms.assetid: AEAB392F-365F-4EDB-AC57-FFAC40C800C0
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: ID3D12GraphicsCommandList, ID3D12GraphicsCommandList interface, SetComputeRootConstantBufferView method, ID3D12GraphicsCommandList::SetComputeRootConstantBufferView, SetComputeRootConstantBufferView method, SetComputeRootConstantBufferView method, ID3D12GraphicsCommandList interface, SetComputeRootConstantBufferView,ID3D12GraphicsCommandList.SetComputeRootConstantBufferView, d3d12/ID3D12GraphicsCommandList::SetComputeRootConstantBufferView, direct3d12.id3d12graphicscommandlist_setcomputerootconstantbufferview
 ms.prod: windows-hardware
 ms.technology: windows-devices

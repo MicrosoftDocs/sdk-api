@@ -7,7 +7,7 @@ old-location: mstv\ienumtunerequests_clone.htm
 old-project: mstv
 ms.assetid: 9910d646-c98e-479a-8abd-5d5427ef11b5
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: Clone method [Microsoft TV Technologies], Clone method [Microsoft TV Technologies], IEnumTuneRequests interface, Clone,IEnumTuneRequests.Clone, IEnumTuneRequests, IEnumTuneRequests interface [Microsoft TV Technologies], Clone method, IEnumTuneRequests::Clone, IEnumTuneRequestsClone, bdatif/IEnumTuneRequests::Clone, mstv.ienumtunerequests_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: SpanningEventEmmMessage
+req.typenames: SmartCardApplication
 topic_type:
 -	APIRef
 -	kbSyntax

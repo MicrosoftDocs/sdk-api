@@ -7,7 +7,7 @@ old-location: mf\idirect3d9exoverlayextension_checkdeviceoverlaytype.htm
 old-project: medfound
 ms.assetid: 83880b6f-f8a0-4be4-a400-ea86ca41f9e7
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: CheckDeviceOverlayType method [Media Foundation], CheckDeviceOverlayType method [Media Foundation], IDirect3D9ExOverlayExtension interface, CheckDeviceOverlayType,IDirect3D9ExOverlayExtension.CheckDeviceOverlayType, IDirect3D9ExOverlayExtension, IDirect3D9ExOverlayExtension interface [Media Foundation], CheckDeviceOverlayType method, IDirect3D9ExOverlayExtension::CheckDeviceOverlayType, d3d9/IDirect3D9ExOverlayExtension::CheckDeviceOverlayType, mf.idirect3d9exoverlayextension_checkdeviceoverlaytype
 ms.prod: windows-hardware
 ms.technology: windows-devices

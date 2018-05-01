@@ -7,7 +7,7 @@ old-location: security\crl_dist_point_name.htm
 old-project: SecCrypto
 ms.assetid: f47283c3-34f5-4611-b041-456d28d85dbe
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: "*PCRL_DIST_POINT_NAME, CRL_DIST_POINT_FULL_NAME, CRL_DIST_POINT_ISSUER_RDN_NAME, CRL_DIST_POINT_NAME, CRL_DIST_POINT_NAME structure [Security], CRL_DIST_POINT_NO_NAME, PCRL_DIST_POINT_NAME, PCRL_DIST_POINT_NAME structure pointer [Security], _CRL_DIST_POINT_NAME, _crypto2_crl_dist_point_name, security.crl_dist_point_name, wincrypt/CRL_DIST_POINT_NAME, wincrypt/PCRL_DIST_POINT_NAME"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,11 +60,6 @@ If no name forms for a distribution point can be processed, an application can s
 
 
 
-### -field DUMMYUNIONNAME
-
- 
-
-
 ### -field dwDistPointNameChoice
 
 Indicates the variant used for the name data contained in the union. The following values are defined: 
@@ -111,6 +106,13 @@ Currently not implemented.
 </tr>
 </table>
  
+
+
+### -field DUMMYUNIONNAME
+
+ 
+
+
 
 
 #### - FullName

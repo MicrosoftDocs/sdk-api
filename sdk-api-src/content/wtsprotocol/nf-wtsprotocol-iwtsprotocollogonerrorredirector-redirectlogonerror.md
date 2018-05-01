@@ -7,7 +7,7 @@ old-location: termserv\iwtsprotocollogonerrorredirector_redirectlogonerror.htm
 old-project: TermServ
 ms.assetid: 10cd07c3-9617-4ef8-9b30-541a3206e7e4
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: IWTSProtocolLogonErrorRedirector, IWTSProtocolLogonErrorRedirector interface [Remote Desktop Services], RedirectLogonError method, IWTSProtocolLogonErrorRedirector::RedirectLogonError, RedirectLogonError method [Remote Desktop Services], RedirectLogonError method [Remote Desktop Services], IWTSProtocolLogonErrorRedirector interface, RedirectLogonError,IWTSProtocolLogonErrorRedirector.RedirectLogonError, STATUS_ACCOUNT_DISABLED, STATUS_ACCOUNT_RESTRICTION, STATUS_BAD_VALIDATION_CLASS, STATUS_INVALID_LOGON_HOURS, STATUS_INVALID_WORKSTATION, STATUS_LOGON_FAILURE, STATUS_NO_LOGON_SERVERS, STATUS_NO_SUCH_PACKAGE, STATUS_PASSWORD_EXPIRED, STATUS_QUOTA_EXCEEDED, termserv.iwtsprotocollogonerrorredirector_redirectlogonerror, wtsprotocol/IWTSProtocolLogonErrorRedirector::RedirectLogonError
 ms.prod: windows-hardware
 ms.technology: windows-devices

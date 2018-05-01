@@ -7,7 +7,7 @@ old-location: tapi3\itlegacycallmediacontrol2_detecttones.htm
 old-project: Tapi
 ms.assetid: e059bfc0-3701-4e07-8c30-0a2512731080
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: DetectTones method [TAPI 2.2], DetectTones method [TAPI 2.2], ITLegacyCallMediaControl2 interface, DetectTones,ITLegacyCallMediaControl2.DetectTones, ITLegacyCallMediaControl2, ITLegacyCallMediaControl2 interface [TAPI 2.2], DetectTones method, ITLegacyCallMediaControl2::DetectTones, _tapi3_itlegacycallmediacontrol2_detecttones, tapi3.itlegacycallmediacontrol2_detecttones, tapi3if/ITLegacyCallMediaControl2::DetectTones
 ms.prod: windows-hardware
 ms.technology: windows-devices

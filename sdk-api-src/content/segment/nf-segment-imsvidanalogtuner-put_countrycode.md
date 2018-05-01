@@ -7,7 +7,7 @@ old-location: mstv\imsvidanalogtuner_put_countrycode.htm
 old-project: mstv
 ms.assetid: e6ec6975-8953-45df-9d86-cf8b8888bba6
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidAnalogTuner, IMSVidAnalogTuner interface [Microsoft TV Technologies], put_CountryCode method, IMSVidAnalogTuner::put_CountryCode, IMSVidAnalogTunerput_CountryCode, mstv.imsvidanalogtuner_put_countrycode, put_CountryCode method [Microsoft TV Technologies], put_CountryCode method [Microsoft TV Technologies], IMSVidAnalogTuner interface, put_CountryCode,IMSVidAnalogTuner.put_CountryCode, segment/IMSVidAnalogTuner::put_CountryCode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidAnalogTuner::put_CountryCode method

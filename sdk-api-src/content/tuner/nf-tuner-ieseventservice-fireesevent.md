@@ -7,7 +7,7 @@ old-location: mstv\ieseventservice_fireesevent.htm
 old-project: mstv
 ms.assetid: 3781e50c-ab19-4bfa-86d6-af12223019ca
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: FireESEvent method [Microsoft TV Technologies], FireESEvent method [Microsoft TV Technologies], IESEventService interface, FireESEvent,IESEventService.FireESEvent, IESEventService, IESEventService interface [Microsoft TV Technologies], FireESEvent method, IESEventService::FireESEvent, mstv.ieseventservice_fireesevent, tuner/IESEventService::FireESEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

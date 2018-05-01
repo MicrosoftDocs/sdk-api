@@ -7,7 +7,7 @@ old-location: security\icspstatus_initialize.htm
 old-project: SecCertEnroll
 ms.assetid: dc5f92e8-29fe-474c-bf1d-c6d7716abce1
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: ICspStatus, ICspStatus interface [Security], Initialize method, ICspStatus::Initialize, Initialize method [Security], Initialize method [Security], ICspStatus interface, Initialize,ICspStatus.Initialize, certenroll/ICspStatus::Initialize, security.icspstatus_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

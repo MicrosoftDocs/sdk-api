@@ -7,7 +7,7 @@ old-location: dshow\am_dvdkaraokedata.htm
 old-project: DirectShow
 ms.assetid: 9fef2dd9-0a56-4e51-a64b-7f12c8f9a966
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: AM_DvdKaraokeData, AM_DvdKaraokeData structure [DirectShow], dshow.am_dvdkaraokedata, dvdmedia/AM_DvdKaraokeData, tagAM_DvdKaraokeData
 ms.prod: windows-hardware
 ms.technology: windows-devices

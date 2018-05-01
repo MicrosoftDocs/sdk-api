@@ -7,7 +7,7 @@ old-location: tablet\iinkgesture.htm
 old-project: tablet
 ms.assetid: 87a1db34-371e-4c02-a470-55f35dfbf4ab
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: 87a1db34-371e-4c02-a470-55f35dfbf4ab, IInkGesture, IInkGesture interface [Tablet PC], IInkGesture interface [Tablet PC], described, msinkaut/IInkGesture, tablet.iinkgesture
 ms.prod: windows-hardware
 ms.technology: windows-devices

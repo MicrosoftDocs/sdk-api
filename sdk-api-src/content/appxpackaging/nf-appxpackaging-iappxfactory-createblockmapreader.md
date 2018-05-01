@@ -7,7 +7,7 @@ old-location: appxpkg\iappxfactory_createblockmapreader.htm
 old-project: appxpkg
 ms.assetid: B4A310F0-4276-49AA-9ABF-A98F41E8F87F
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/26/2018
 ms.keywords: CreateBlockMapReader method [App packaging and management], CreateBlockMapReader method [App packaging and management], IAppxFactory interface, CreateBlockMapReader,IAppxFactory.CreateBlockMapReader, IAppxFactory, IAppxFactory interface [App packaging and management], CreateBlockMapReader method, IAppxFactory::CreateBlockMapReader, appxpackaging/IAppxFactory::CreateBlockMapReader, appxpkg.iappxfactory_createblockmapreader
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_ARCHITECTURE2
+req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
 topic_type:
 -	APIRef
 -	kbSyntax

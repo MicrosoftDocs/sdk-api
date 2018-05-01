@@ -7,7 +7,7 @@ old-location: coreaudio\audioextensionparams.htm
 old-project: CoreAudio
 ms.assetid: 02A38355-104D-46C0-A34E-C0BB482323A9
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: AudioExtensionParams, AudioExtensionParams structure [Core Audio], PAudioExtensionParams, PAudioExtensionParams structure pointer [Core Audio], __MIDL___MIDL_itf_mmdeviceapi_0000_0008_0001, coreaudio.audioextensionparams, mmdeviceapi/AudioExtensionParams, mmdeviceapi/PAudioExtensionParams
 ms.prod: windows-hardware
 ms.technology: windows-devices

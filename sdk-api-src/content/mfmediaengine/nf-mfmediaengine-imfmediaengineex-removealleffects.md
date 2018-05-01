@@ -7,7 +7,7 @@ old-location: mf\imfmediaengineex_removealleffects.htm
 old-project: medfound
 ms.assetid: B9EF1440-27DA-48C6-B840-FF61DBF19E63
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFMediaEngineEx, IMFMediaEngineEx interface [Media Foundation], RemoveAllEffects method, IMFMediaEngineEx::RemoveAllEffects, RemoveAllEffects method [Media Foundation], RemoveAllEffects method [Media Foundation], IMFMediaEngineEx interface, RemoveAllEffects,IMFMediaEngineEx.RemoveAllEffects, mf.imfmediaengineex_removealleffects, mfmediaengine/IMFMediaEngineEx::RemoveAllEffects
 ms.prod: windows-hardware
 ms.technology: windows-devices

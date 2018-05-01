@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontentcontainer_getcontentid.htm
 old-project: WMP
 ms.assetid: 95519f7e-aa78-4d66-87ba-71978d404412
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: GetContentID method [Windows Media Player], GetContentID method [Windows Media Player], IWMPContentContainer interface, GetContentID,IWMPContentContainer.GetContentID, IWMPContentContainer, IWMPContentContainer interface [Windows Media Player], GetContentID method, IWMPContentContainer::GetContentID, IWMPContentContainerGetContentID, contentpartner/IWMPContentContainer::GetContentID, wmp.iwmpcontentcontainer_getcontentid
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\imfmediasink_getstreamsinkbyid.htm
 old-project: medfound
 ms.assetid: 267a8efc-6743-48ca-a1c4-da82f3770419
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 267a8efc-6743-48ca-a1c4-da82f3770419, GetStreamSinkById method [Media Foundation], GetStreamSinkById method [Media Foundation], IMFMediaSink interface, GetStreamSinkById,IMFMediaSink.GetStreamSinkById, IMFMediaSink, IMFMediaSink interface [Media Foundation], GetStreamSinkById method, IMFMediaSink::GetStreamSinkById, mf.imfmediasink_getstreamsinkbyid, mfidl/IMFMediaSink::GetStreamSinkById
 ms.prod: windows-hardware
 ms.technology: windows-devices

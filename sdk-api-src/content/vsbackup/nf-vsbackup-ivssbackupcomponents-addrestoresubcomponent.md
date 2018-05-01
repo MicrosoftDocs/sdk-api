@@ -7,7 +7,7 @@ old-location: base\ivssbackupcomponents_addrestoresubcomponent.htm
 old-project: VSS
 ms.assetid: 8eea27d7-6780-49cf-97ea-8876a9a2c8f8
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: AddRestoreSubcomponent method [VSS], AddRestoreSubcomponent method [VSS], IVssBackupComponents interface, AddRestoreSubcomponent,IVssBackupComponents.AddRestoreSubcomponent, IVssBackupComponents, IVssBackupComponents interface [VSS], AddRestoreSubcomponent method, IVssBackupComponents::AddRestoreSubcomponent, _win32_ivssbackupcomponents_addrestoresubcomponent, base.ivssbackupcomponents_addrestoresubcomponent, vsbackup/IVssBackupComponents::AddRestoreSubcomponent
 ms.prod: windows-hardware
 ms.technology: windows-devices

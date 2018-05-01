@@ -7,7 +7,7 @@ old-location: dshow\iammediacontent_get_watermarkurl.htm
 old-project: DirectShow
 ms.assetid: e632f99e-7e08-4dfa-9f4e-5f09d9d77eb8
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMMediaContent, IAMMediaContent interface [DirectShow], get_WatermarkURL method, IAMMediaContent::get_WatermarkURL, IAMMediaContentget_WatermarkURL, dshow.iammediacontent_get_watermarkurl, get_WatermarkURL method [DirectShow], get_WatermarkURL method [DirectShow], IAMMediaContent interface, get_WatermarkURL,IAMMediaContent.get_WatermarkURL, qnetwork/IAMMediaContent::get_WatermarkURL
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IAMMediaContent::get_WatermarkURL method

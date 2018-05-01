@@ -7,7 +7,7 @@ old-location: dshow\avisuperindex.htm
 old-project: DirectShow
 ms.assetid: 57c855ef-d4ea-4e11-a37b-941335ccf657
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: AVISUPERINDEX, AVISUPERINDEX structure [DirectShow], _avisuperindex, aviriff/AVISUPERINDEX, dshow.avisuperindex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -57,36 +57,6 @@ Contains an AVI 2.0 super index (index of indexes).
 
 
 
-### -field _avisuperindex_entry
-
- 
-
-
-### -field aIndex
-
-An array of structures that contain the following members. The number of elements in the array is calculated from the value of <b>cb</b>.
-
-
-
-#### qwOffset
-
-The offset, in bytes, from the start of the file to the sub-index that this entry points to.
-
-
-
-#### dwSize
-
-The size of the sub-index, in bytes.
-
-
-
-#### dwDuration
-
-
-              
-            The duration of the file that is covered by the sub-index, in stream ticks.
-
-
 ### -field fcc
 
 A <b>FOURCC</b> code. The value must be 'indx'.
@@ -125,6 +95,36 @@ A <b>FOURCC</b> that identifies the object that is indexed.
 ### -field dwReserved
 
 Reserved. Set the array elements to zero.
+
+
+### -field _avisuperindex_entry
+
+ 
+
+
+### -field aIndex
+
+An array of structures that contain the following members. The number of elements in the array is calculated from the value of <b>cb</b>.
+
+
+
+#### qwOffset
+
+The offset, in bytes, from the start of the file to the sub-index that this entry points to.
+
+
+
+#### dwSize
+
+The size of the sub-index, in bytes.
+
+
+
+#### dwDuration
+
+
+              
+            The duration of the file that is covered by the sub-index, in stream ticks.
 
 
 ## -remarks

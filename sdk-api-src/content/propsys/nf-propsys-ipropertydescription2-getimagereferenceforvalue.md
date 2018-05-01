@@ -7,7 +7,7 @@ old-location: properties\IPropertyDescription2_GetImageReferenceForValue.htm
 old-project: properties
 ms.assetid: d5831e8c-0b98-4cdc-946e-3c359a04caed
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/5/2018
 ms.keywords: GetImageReferenceForValue method [Windows Properties], GetImageReferenceForValue method [Windows Properties], IPropertyDescription2 interface, GetImageReferenceForValue,IPropertyDescription2.GetImageReferenceForValue, IPropertyDescription2, IPropertyDescription2 interface [Windows Properties], GetImageReferenceForValue method, IPropertyDescription2::GetImageReferenceForValue, properties.IPropertyDescription2_GetImageReferenceForValue, propsys/IPropertyDescription2::GetImageReferenceForValue, shell.IPropertyDescription2_GetImageReferenceForValue, shell_IPropertyDescription2_GetImageReferenceForValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IPropertyDescription2::GetImageReferenceForValue method

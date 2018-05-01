@@ -7,7 +7,7 @@ old-location: dhcp\dhcpdeleteclienthook.htm
 old-project: DHCP
 ms.assetid: ae92436c-0774-4664-86ac-c7df65ef40b5
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/7/2018
 ms.keywords: DhcpDeleteClientHook, DhcpDeleteClientHook callback function [DHCP], LPDHCP_DELETE_CLIENT, _dhcp_dhcpdeleteclienthook, dhcp.dhcpdeleteclienthook, dhcpssdk/DhcpDeleteClientHook
 ms.prod: windows-hardware
 ms.technology: windows-devices

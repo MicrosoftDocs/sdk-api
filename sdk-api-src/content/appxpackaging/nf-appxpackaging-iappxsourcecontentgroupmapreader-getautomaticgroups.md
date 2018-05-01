@@ -7,7 +7,7 @@ old-location: appxpkg\iappxsourcecontentgroupmapreader_getautomaticgroups.htm
 old-project: appxpkg
 ms.assetid: DA6D0BEB-75ED-49B8-82A8-0B7C53E5C3C9
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/26/2018
 ms.keywords: GetAutomaticGroups method [App packaging and management], GetAutomaticGroups method [App packaging and management], IAppxSourceContentGroupMapReader interface, GetAutomaticGroups,IAppxSourceContentGroupMapReader.GetAutomaticGroups, IAppxSourceContentGroupMapReader, IAppxSourceContentGroupMapReader interface [App packaging and management], GetAutomaticGroups method, IAppxSourceContentGroupMapReader::GetAutomaticGroups, appxpackaging/IAppxSourceContentGroupMapReader::GetAutomaticGroups, appxpkg.iappxsourcecontentgroupmapreader_getautomaticgroups
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_ARCHITECTURE2
+req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
 topic_type:
 -	APIRef
 -	kbSyntax

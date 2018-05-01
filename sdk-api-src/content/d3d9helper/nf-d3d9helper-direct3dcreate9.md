@@ -1,0 +1,120 @@
+---
+UID: NF:d3d9helper.Direct3DCreate9
+title: Direct3DCreate9 function
+author: windows-driver-content
+description: Create an IDirect3D9 object and return an interface to it.
+old-location: direct3d9\direct3dcreate9.htm
+old-project: direct3d9
+ms.assetid: VS|directx_sdk|~\direct3d_tutorials.htm
+ms.author: windowsdriverdev
+ms.date: 4/10/2018
+ms.keywords: 911c767b-a75f-146e-b3ba-02c1df537127, Direct3DCreate9, Direct3DCreate9 function [Direct3D 9], d3d9helper/Direct3DCreate9, direct3d9.direct3dcreate9
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: d3d9helper.h
+req.include-header: D3D9.h
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: D3DVSHADERCAPS2_0
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	d3d9.dll
+-	Ext-MS-Win-dx-d3d9-l1-1-0.dll
+api_name:
+-	Direct3DCreate9
+product: Windows
+targetos: Windows
+req.lib: D3d9.lib
+req.dll: D3d9.dll
+req.irql: 
+---
+
+# Direct3DCreate9 function
+
+
+## -description
+
+
+Create an IDirect3D9 object and return an interface to it.
+
+
+## -parameters
+
+
+
+
+### -param SDKVersion
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+
+The value of this parameter should be D3D_SDK_VERSION. See Remarks.
+
+
+## -returns
+
+
+
+Type: <b><a href="https://msdn.microsoft.com/af321e4f-aaff-4285-bdac-9aab5c1dc5d8">IDirect3D9</a>*</b>
+
+If successful, this function returns a pointer to an <a href="https://msdn.microsoft.com/af321e4f-aaff-4285-bdac-9aab5c1dc5d8">IDirect3D9</a> interface; otherwise, a <b>NULL</b> pointer is returned.
+
+
+
+
+## -remarks
+
+
+
+The Direct3D object is the first Direct3D COM object that your graphical application needs to create and the last object that your application needs to release. Functions for enumerating and retrieving capabilities of a device are accessible through the Direct3D object. This enables applications to select devices without creating them.
+
+Create an IDirect3D9 object as shown here:
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
+LPDIRECT3D9 g_pD3D = NULL;
+    
+if( NULL == (g_pD3D = Direct3DCreate9(D3D_SDK_VERSION)))
+    return E_FAIL;
+</pre>
+</td>
+</tr>
+</table></span></div>
+The IDirect3D9 interface supports enumeration of active display adapters and allows the creation of <a href="https://msdn.microsoft.com/cf951e8e-7adb-417a-bda0-9b3cde4912a7">IDirect3DDevice9</a> objects. If the user dynamically adds adapters (either by adding devices to the desktop, or by hot-docking a laptop), those devices will not be included in the enumeration. Creating a new IDirect3D9 interface will expose the new devices.
+
+D3D_SDK_VERSION is passed to this function to ensure that the header files against which an application is compiled match the version of the runtime DLL's that are installed on the machine. D3D_SDK_VERSION is only changed in the runtime when a header change (or other code change) would require an application to be rebuilt. If this function fails, it indicates that the header file version does not match the runtime DLL version.
+
+For an example, see <a href="https://msdn.microsoft.com/06810f31-fa6c-416e-bd7b-65cfb3e6d7f2">Creating a Device (Direct3D 9)</a>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/258a76f2-2dd6-49cb-bf8c-f437792bba27">Direct3D Functions</a>
+ 
+
+ 
+

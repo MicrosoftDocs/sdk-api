@@ -7,7 +7,7 @@ old-location: wmformat\iwmmetadataeditor_open.htm
 old-project: wmformat
 ms.assetid: 01dd09ff-35d2-4e00-9eab-5110a426449f
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMMetadataEditor, IWMMetadataEditor interface [windows Media Format], Open method, IWMMetadataEditor::Open, IWMMetadataEditorOpen, Open method [windows Media Format], Open method [windows Media Format], IWMMetadataEditor interface, Open,IWMMetadataEditor.Open, wmformat.iwmmetadataeditor_open, wmsdkidl/IWMMetadataEditor::Open
 ms.prod: windows-hardware
 ms.technology: windows-devices

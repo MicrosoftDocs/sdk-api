@@ -7,7 +7,7 @@ old-location: mstv\imsvidctl_decompose.htm
 old-project: mstv
 ms.assetid: e67bf380-dc2c-42c9-a995-17951c65fbda
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: Decompose method [Microsoft TV Technologies], Decompose method [Microsoft TV Technologies], IMSVidCtl interface, Decompose,IMSVidCtl.Decompose, IMSVidCtl, IMSVidCtl interface [Microsoft TV Technologies], Decompose method, IMSVidCtl::Decompose, IMSVidCtlDecompose, mstv.imsvidctl_decompose, msvidctl/IMSVidCtl::Decompose
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidCtl::Decompose method

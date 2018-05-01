@@ -7,7 +7,7 @@ old-location: security\ialternativenames__newenum_property.htm
 old-project: SecCertEnroll
 ms.assetid: 66656bf5-3258-4888-8c1d-0fde33275504
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: IAlternativeNames, IAlternativeNames interface [Security], _NewEnum property, IAlternativeNames._NewEnum, IAlternativeNames::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security], IAlternativeNames interface, certenroll/IAlternativeNames::_NewEnum, certenroll/IAlternativeNames::get__NewEnum, get__NewEnum,IAlternativeNames.get__NewEnum, security.ialternativenames__newenum_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

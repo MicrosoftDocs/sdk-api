@@ -7,7 +7,7 @@ old-location: shell\DiskQuotaControl_ShutdownNameResolution.htm
 old-project: shell
 ms.assetid: 6c4544b9-81e7-4a72-aa00-70011e5cd85a
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: DiskQuotaControl object [Windows Shell], ShutdownNameResolution method, ShutdownNameResolution, ShutdownNameResolution method [Windows Shell], ShutdownNameResolution method [Windows Shell], DiskQuotaControl object, _win32_DiskQuotaControl_ShutdownNameResolution, shell.DiskQuotaControl_ShutdownNameResolution
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: search\_search_IMetaData.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\imetadata\imetadata.htm
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/24/2018
 ms.keywords: IMetaData, IMetaData interface [search], IMetaData interface [search], described, _search_IMetaData, search._search_IMetaData, structuredquery/IMetaData
 ms.prod: windows-hardware
 ms.technology: windows-devices

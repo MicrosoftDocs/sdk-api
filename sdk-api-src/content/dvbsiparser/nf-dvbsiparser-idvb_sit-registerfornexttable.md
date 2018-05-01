@@ -7,7 +7,7 @@ old-location: mstv\idvb_sit_registerfornexttable.htm
 old-project: mstv
 ms.assetid: 794c2fb0-ff8d-47b0-9a74-ccdb257a12c7
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IDVB_SIT, IDVB_SIT interface [Microsoft TV Technologies], RegisterForNextTable method, IDVB_SIT::RegisterForNextTable, IDVB_SITRegisterForNextTable, RegisterForNextTable method [Microsoft TV Technologies], RegisterForNextTable method [Microsoft TV Technologies], IDVB_SIT interface, RegisterForNextTable,IDVB_SIT.RegisterForNextTable, dvbsiparser/IDVB_SIT::RegisterForNextTable, mstv.idvb_sit_registerfornexttable
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: cos\icomadmincatalog_queryapplicationfile.htm
 old-project: cossdk
 ms.assetid: 5f90da9d-06eb-4ec0-8ea1-d040c8e084b7
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: ICOMAdminCatalog, ICOMAdminCatalog interface [COM+], QueryApplicationFile method, ICOMAdminCatalog::QueryApplicationFile, QueryApplicationFile method [COM+], QueryApplicationFile method [COM+], ICOMAdminCatalog interface, QueryApplicationFile,ICOMAdminCatalog.QueryApplicationFile, _cos_ICOMAdminCatalog_QueryApplicationFile, comadmin/ICOMAdminCatalog::QueryApplicationFile, cos.icomadmincatalog_queryapplicationfile
 ms.prod: windows-hardware
 ms.technology: windows-devices

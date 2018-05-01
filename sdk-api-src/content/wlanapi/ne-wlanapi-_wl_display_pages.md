@@ -7,7 +7,7 @@ old-location: nwifi\wl_display_pages.htm
 old-project: NativeWiFi
 ms.assetid: 040433b7-9204-4462-a8fd-7b65bcd1880b
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/13/2018
 ms.keywords: "*PWL_DISPLAY_PAGES, PWL_DISPLAY_PAGES, PWL_DISPLAY_PAGES enumeration pointer [NativeWIFI], WLConnectionPage, WLSecurityPage, WL_DISPLAY_PAGES, WL_DISPLAY_PAGES enumeration [NativeWIFI], _WL_DISPLAY_PAGES, nwifi.wl_display_pages, wlanapi/PWL_DISPLAY_PAGES, wlanapi/WLConnectionPage, wlanapi/WLSecurityPage, wlanapi/WL_DISPLAY_PAGES"
 ms.prod: windows-hardware
 ms.technology: windows-devices

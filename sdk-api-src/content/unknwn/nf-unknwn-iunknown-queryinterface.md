@@ -7,7 +7,7 @@ old-location: com\iunknown_queryinterface.htm
 old-project: com
 ms.assetid: 54d5ff80-18db-43f2-b636-f93ac053146d
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IUnknown, IUnknown interface [COM], QueryInterface method, IUnknown::QueryInterface, QueryInterface method [COM], QueryInterface method [COM], IUnknown interface, QueryInterface,IUnknown.QueryInterface, _com_iunknown_queryinterface, com.iunknown_queryinterface, unknwn/IUnknown::QueryInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices

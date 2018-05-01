@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontrols_get_isavailable.htm
 old-project: WMP
 ms.assetid: 702e09f2-e086-45e3-9ae1-b62ec3e9561f
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPControls, IWMPControls interface [Windows Media Player], get_isAvailable method, IWMPControls::get_isAvailable, IWMPControlsget_isAvailable, get_isAvailable method [Windows Media Player], get_isAvailable method [Windows Media Player], IWMPControls interface, get_isAvailable,IWMPControls.get_isAvailable, wmp.iwmpcontrols_get_isavailable, wmp/IWMPControls::get_isAvailable
 ms.prod: windows-hardware
 ms.technology: windows-devices

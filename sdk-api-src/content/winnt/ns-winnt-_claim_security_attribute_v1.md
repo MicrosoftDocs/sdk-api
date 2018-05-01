@@ -7,7 +7,7 @@ old-location: security\claim_security_attribute_v1.htm
 old-project: SecAuthZ
 ms.assetid: FDBB9B00-01C3-474A-81FF-97C5CBA3261B
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: "*PCLAIM_SECURITY_ATTRIBUTE_V1, CLAIM_SECURITY_ATTRIBUTE_DISABLED, CLAIM_SECURITY_ATTRIBUTE_DISABLED_BY_DEFAULT, CLAIM_SECURITY_ATTRIBUTE_MANDATORY, CLAIM_SECURITY_ATTRIBUTE_NON_INHERITABLE, CLAIM_SECURITY_ATTRIBUTE_TYPE_BOOLEAN, CLAIM_SECURITY_ATTRIBUTE_TYPE_FQBN, CLAIM_SECURITY_ATTRIBUTE_TYPE_INT64, CLAIM_SECURITY_ATTRIBUTE_TYPE_OCTET_STRING, CLAIM_SECURITY_ATTRIBUTE_TYPE_SID, CLAIM_SECURITY_ATTRIBUTE_TYPE_STRING, CLAIM_SECURITY_ATTRIBUTE_TYPE_UINT64, CLAIM_SECURITY_ATTRIBUTE_USE_FOR_DENY_ONLY, CLAIM_SECURITY_ATTRIBUTE_V1, CLAIM_SECURITY_ATTRIBUTE_V1 structure [Security], CLAIM_SECURITY_ATTRIBUTE_VALUE_CASE_SENSITIVE, PCLAIM_SECURITY_ATTRIBUTE_V1, PCLAIM_SECURITY_ATTRIBUTE_V1 structure pointer [Security], _CLAIM_SECURITY_ATTRIBUTE_V1, security.claim_security_attribute_v1, winnt/CLAIM_SECURITY_ATTRIBUTE_V1, winnt/PCLAIM_SECURITY_ATTRIBUTE_V1"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -56,41 +56,6 @@ The <b>CLAIM_SECURITY_ATTRIBUTE_V1</b> structure defines a security attribute th
 ## -struct-fields
 
 
-
-
-### -field Values
-
-An array of security attribute values of the type specified in the <b>ValueType</b> member.
-
-
-
-#### pInt64
-
-Pointer to an array of <b>ValueCount</b> members where each member is  a <b>LONG64</b> of type CLAIM_SECURITY_ATTRIBUTE_TYPE_INT64.
-
-
-
-#### pUint64
-
-Pointer to an array of <b>ValueCount</b> members where each member is  a <b>ULONG64</b>  of type CLAIM_SECURITY_ATTRIBUTE_TYPE_UINT64.
-
-
-
-#### ppString
-
-Pointer to an array of <b>ValueCount</b> members where each member is  a <b>PWSTR</b>  of type CLAIM_SECURITY_ATTRIBUTE_TYPE_STRING.
-
-
-
-#### pFqbn
-
-Pointer to an array of <b>ValueCount</b> members where each member is a fully qualified binary name value of type <a href="https://msdn.microsoft.com/1FD9A519-40EA-4780-90F5-C9DF4ADAE72C">CLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE</a>.
-
-
-
-#### pOctetString
-
-Pointer to an array of <b>ValueCount</b> members where each member is  an octet string of type <a href="https://msdn.microsoft.com/6647CC4F-1A84-43B2-A80E-7B6BF3A2D7AD">CLAIM_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE</a>.
 
 
 ### -field Name
@@ -275,6 +240,41 @@ The claim security attribute is mandatory.
 ### -field ValueCount
 
 The number of values specified in the <b>Values</b> member.
+
+
+### -field Values
+
+An array of security attribute values of the type specified in the <b>ValueType</b> member.
+
+
+
+#### pInt64
+
+Pointer to an array of <b>ValueCount</b> members where each member is  a <b>LONG64</b> of type CLAIM_SECURITY_ATTRIBUTE_TYPE_INT64.
+
+
+
+#### pUint64
+
+Pointer to an array of <b>ValueCount</b> members where each member is  a <b>ULONG64</b>  of type CLAIM_SECURITY_ATTRIBUTE_TYPE_UINT64.
+
+
+
+#### ppString
+
+Pointer to an array of <b>ValueCount</b> members where each member is  a <b>PWSTR</b>  of type CLAIM_SECURITY_ATTRIBUTE_TYPE_STRING.
+
+
+
+#### pFqbn
+
+Pointer to an array of <b>ValueCount</b> members where each member is a fully qualified binary name value of type <a href="https://msdn.microsoft.com/1FD9A519-40EA-4780-90F5-C9DF4ADAE72C">CLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE</a>.
+
+
+
+#### pOctetString
+
+Pointer to an array of <b>ValueCount</b> members where each member is  an octet string of type <a href="https://msdn.microsoft.com/6647CC4F-1A84-43B2-A80E-7B6BF3A2D7AD">CLAIM_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE</a>.
 
 
 ## -see-also

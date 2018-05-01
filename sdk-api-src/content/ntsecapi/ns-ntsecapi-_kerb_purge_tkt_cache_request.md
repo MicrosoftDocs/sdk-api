@@ -7,7 +7,7 @@ old-location: security\kerb_purge_tkt_cache_request.htm
 old-project: SecAuthN
 ms.assetid: 4e5e944a-8163-42de-b534-3b0478d9f334
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/24/2018
 ms.keywords: "*PKERB_PURGE_TKT_CACHE_REQUEST, KERB_PURGE_TKT_CACHE_REQUEST, KERB_PURGE_TKT_CACHE_REQUEST structure [Security], PKERB_PURGE_TKT_CACHE_REQUEST, PKERB_PURGE_TKT_CACHE_REQUEST structure pointer [Security], _KERB_PURGE_TKT_CACHE_REQUEST, _lsa_kerb_purge_tkt_cache_request, ntsecapi/KERB_PURGE_TKT_CACHE_REQUEST, ntsecapi/PKERB_PURGE_TKT_CACHE_REQUEST, security.kerb_purge_tkt_cache_request"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _KERB_PURGE_TKT_CACHE_REQUEST structure

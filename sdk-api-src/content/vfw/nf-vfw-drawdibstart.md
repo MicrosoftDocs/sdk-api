@@ -7,7 +7,7 @@ old-location: multimedia\drawdibstart.htm
 old-project: Multimedia
 ms.assetid: 2c992a4f-3308-4f0a-a1cf-40515e28ae33
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/25/2018
 ms.keywords: DrawDibStart, DrawDibStart function [Windows Multimedia], _win32_DrawDibStart, multimedia.drawdibstart, vfw/DrawDibStart
 ms.prod: windows-hardware
 ms.technology: windows-devices

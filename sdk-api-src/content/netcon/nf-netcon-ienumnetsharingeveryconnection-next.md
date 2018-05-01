@@ -7,7 +7,7 @@ old-location: ics\ienumnetsharingeveryconnection_next.htm
 old-project: ICS
 ms.assetid: 05c1ec04-81bc-4d38-aab5-843ea54dda1d
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: IEnumNetSharingEveryConnection, IEnumNetSharingEveryConnection interface [ICS/ICF], Next method, IEnumNetSharingEveryConnection::Next, Next method [ICS/ICF], Next method [ICS/ICF], IEnumNetSharingEveryConnection interface, Next,IEnumNetSharingEveryConnection.Next, _ics_ienumnetsharingeveryconnection_next, ics.ienumnetsharingeveryconnection_next, netcon/IEnumNetSharingEveryConnection::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IEnumNetSharingEveryConnection::Next method

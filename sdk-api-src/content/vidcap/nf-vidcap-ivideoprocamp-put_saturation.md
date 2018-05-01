@@ -7,7 +7,7 @@ old-location: dshow\ivideoprocamp_put_saturation.htm
 old-project: DirectShow
 ms.assetid: 7167fcac-b0c8-444e-a6a9-7ff9a603cc58
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IVideoProcAmp, IVideoProcAmp interface [DirectShow], put_Saturation method, IVideoProcAmp::put_Saturation, IVideoProcAmpput_Saturation, dshow.ivideoprocamp_put_saturation, put_Saturation method [DirectShow], put_Saturation method [DirectShow], IVideoProcAmp interface, put_Saturation,IVideoProcAmp.put_Saturation, vidcap/IVideoProcAmp::put_Saturation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: VIDEOHDR, *PVIDEOHDR, *LPVIDEOHDR
+req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
 topic_type:
 -	APIRef
 -	kbSyntax

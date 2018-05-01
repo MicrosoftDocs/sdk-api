@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IProxyProviderWinEventSink_AddAutomationEvent.htm
 old-project: WinAuto
 ms.assetid: c1730b6b-f399-4e1f-91d4-5d5e40835a74
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: AddAutomationEvent method [Windows Accessibility], AddAutomationEvent method [Windows Accessibility], IProxyProviderWinEventSink interface, AddAutomationEvent,IProxyProviderWinEventSink.AddAutomationEvent, IProxyProviderWinEventSink, IProxyProviderWinEventSink interface [Windows Accessibility], AddAutomationEvent method, IProxyProviderWinEventSink::AddAutomationEvent, uiauto.uiauto_IProxyProviderWinEventSink_AddAutomationEvent, uiauto_IProxyProviderWinEventSink_AddAutomationEvent, uiautomationcore/IProxyProviderWinEventSink::AddAutomationEvent, winauto.uiauto_IProxyProviderWinEventSink_AddAutomationEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: search\_search_ISearchCrawlScopeManager_AddRoot.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager\addroot.htm
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/24/2018
 ms.keywords: AddRoot method [search], AddRoot method [search], ISearchCrawlScopeManager interface, AddRoot,ISearchCrawlScopeManager.AddRoot, ISearchCrawlScopeManager, ISearchCrawlScopeManager interface [search], AddRoot method, ISearchCrawlScopeManager::AddRoot, _search_ISearchCrawlScopeManager_AddRoot, search._search_ISearchCrawlScopeManager_AddRoot, searchapi/ISearchCrawlScopeManager::AddRoot
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ISearchCrawlScopeManager::AddRoot method

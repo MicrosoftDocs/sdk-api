@@ -7,7 +7,7 @@ old-location: mf\imfcapturesource_getcapturedeviceactivate.htm
 old-project: medfound
 ms.assetid: 5f69321f-67df-4d6c-a98a-51a9859f8a22
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetCaptureDeviceActivate method [Media Foundation], GetCaptureDeviceActivate method [Media Foundation], IMFCaptureSource interface, GetCaptureDeviceActivate,IMFCaptureSource.GetCaptureDeviceActivate, IMFCaptureSource, IMFCaptureSource interface [Media Foundation], GetCaptureDeviceActivate method, IMFCaptureSource::GetCaptureDeviceActivate, mf.imfcapturesource_getcapturedeviceactivate, mfcaptureengine/IMFCaptureSource::GetCaptureDeviceActivate
 ms.prod: windows-hardware
 ms.technology: windows-devices

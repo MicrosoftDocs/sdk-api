@@ -7,7 +7,7 @@ old-location: security\ipolicyqualifiers__newenum_property.htm
 old-project: SecCertEnroll
 ms.assetid: deba8da7-8df7-4f7e-8e6a-0094b071ff72
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: IPolicyQualifiers, IPolicyQualifiers interface [Security], _NewEnum property, IPolicyQualifiers._NewEnum, IPolicyQualifiers::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security], IPolicyQualifiers interface, certenroll/IPolicyQualifiers::_NewEnum, certenroll/IPolicyQualifiers::get__NewEnum, get__NewEnum,IPolicyQualifiers.get__NewEnum, security.ipolicyqualifiers__newenum_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

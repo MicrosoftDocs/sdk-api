@@ -7,7 +7,7 @@ old-location: mf\imfmediatimerange_getstart.htm
 old-project: medfound
 ms.assetid: E02CFE99-78B8-4923-8922-467A55442802
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetStart method [Media Foundation], GetStart method [Media Foundation], IMFMediaTimeRange interface, GetStart,IMFMediaTimeRange.GetStart, IMFMediaTimeRange, IMFMediaTimeRange interface [Media Foundation], GetStart method, IMFMediaTimeRange::GetStart, mf.imfmediatimerange_getstart, mfmediaengine/IMFMediaTimeRange::GetStart
 ms.prod: windows-hardware
 ms.technology: windows-devices

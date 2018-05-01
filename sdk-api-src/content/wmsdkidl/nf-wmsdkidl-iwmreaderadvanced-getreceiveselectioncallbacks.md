@@ -7,7 +7,7 @@ old-location: wmformat\iwmreaderadvanced_getreceiveselectioncallbacks.htm
 old-project: wmformat
 ms.assetid: 7923564d-23d5-4163-9316-347c466c7dc0
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: GetReceiveSelectionCallbacks method [windows Media Format], GetReceiveSelectionCallbacks method [windows Media Format], IWMReaderAdvanced interface, GetReceiveSelectionCallbacks,IWMReaderAdvanced.GetReceiveSelectionCallbacks, IWMReaderAdvanced, IWMReaderAdvanced interface [windows Media Format], GetReceiveSelectionCallbacks method, IWMReaderAdvanced::GetReceiveSelectionCallbacks, IWMReaderAdvancedGetReceiveSelectionCallbacks, wmformat.iwmreaderadvanced_getreceiveselectioncallbacks, wmsdkidl/IWMReaderAdvanced::GetReceiveSelectionCallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices

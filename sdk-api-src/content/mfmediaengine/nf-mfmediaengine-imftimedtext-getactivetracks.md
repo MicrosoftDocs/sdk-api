@@ -7,7 +7,7 @@ old-location: mf\imftimedtext_getactivetracks.htm
 old-project: medfound
 ms.assetid: DF9EEFD2-E699-4251-9769-D1F940938D45
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetActiveTracks method [Media Foundation], GetActiveTracks method [Media Foundation], IMFTimedText interface, GetActiveTracks,IMFTimedText.GetActiveTracks, IMFTimedText, IMFTimedText interface [Media Foundation], GetActiveTracks method, IMFTimedText::GetActiveTracks, mf.imftimedtext_getactivetracks, mfmediaengine/IMFTimedText::GetActiveTracks
 ms.prod: windows-hardware
 ms.technology: windows-devices

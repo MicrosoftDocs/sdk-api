@@ -7,7 +7,7 @@ old-location: wmdm\imdspdevicecontrol_getcapabilities.htm
 old-project: WMDM
 ms.assetid: 5d4e433a-fb2a-43c4-ab7f-fb7168636455
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: GetCapabilities method [windows Media Device Manager], GetCapabilities method [windows Media Device Manager], IMDSPDeviceControl interface, GetCapabilities,IMDSPDeviceControl.GetCapabilities, IMDSPDeviceControl, IMDSPDeviceControl interface [windows Media Device Manager], GetCapabilities method, IMDSPDeviceControl::GetCapabilities, IMDSPDeviceControlGetCapabilities, mswmdm/IMDSPDeviceControl::GetCapabilities, wmdm.imdspdevicecontrol_getcapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMDSPDeviceControl::GetCapabilities method

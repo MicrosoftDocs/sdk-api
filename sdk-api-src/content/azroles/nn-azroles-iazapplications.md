@@ -7,7 +7,7 @@ old-location: security\iazapplications.htm
 old-project: SecAuthZ
 ms.assetid: 04cee21c-253a-463a-9231-592ddad88188
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: IAzApplications, IAzApplications interface [Security], IAzApplications interface [Security], described, azroles/IAzApplications, security.iazapplications
 ms.prod: windows-hardware
 ms.technology: windows-devices

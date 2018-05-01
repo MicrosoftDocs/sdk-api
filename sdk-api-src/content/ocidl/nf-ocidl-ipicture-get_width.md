@@ -7,7 +7,7 @@ old-location: com\ipicture_get_width.htm
 old-project: com
 ms.assetid: d69443ed-143c-4477-8602-50f919119b0f
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IPicture, IPicture interface [COM], get_Width method, IPicture::get_Width, _ctrl_ipicture_get_width, com.ipicture_get_width, get_Width method [COM], get_Width method [COM], IPicture interface, get_Width,IPicture.get_Width, ocidl/IPicture::get_Width
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IPicture::get_Width method

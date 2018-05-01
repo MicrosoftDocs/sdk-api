@@ -7,7 +7,7 @@ old-location: wmp\iwmpplayer_get_uimode.htm
 old-project: WMP
 ms.assetid: 8e05342f-812a-4dca-a491-b237f9a9f1bd
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPPlayer, IWMPPlayer interface [Windows Media Player], get_uiMode method, IWMPPlayer::get_uiMode, IWMPPlayerget_uiMode, get_uiMode method [Windows Media Player], get_uiMode method [Windows Media Player], IWMPPlayer interface, get_uiMode,IWMPPlayer.get_uiMode, wmp.iwmpplayer_get_uimode, wmp/IWMPPlayer::get_uiMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -60,6 +60,103 @@ Passed to the
 
 
 
+### -field Type
+
+Value from the <a href="https://msdn.microsoft.com/3a16ca3b-79af-4064-82d5-c073d2aa531c">COPYFILE2_MESSAGE_TYPE</a> 
+      enumeration used as a discriminant for the <b>Info</b> union within this structure.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="COPYFILE2_CALLBACK_CHUNK_STARTED"></a><a id="copyfile2_callback_chunk_started"></a><dl>
+<dt><b>COPYFILE2_CALLBACK_CHUNK_STARTED</b></dt>
+<dt>1</dt>
+</dl>
+</td>
+<td width="60%">
+Indicates a single chunk of a stream has started to be copied. Information is in the 
+        <b>ChunkStarted</b> structure within the <b>Info</b> 
+        union.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="COPYFILE2_CALLBACK_CHUNK_FINISHED"></a><a id="copyfile2_callback_chunk_finished"></a><dl>
+<dt><b>COPYFILE2_CALLBACK_CHUNK_FINISHED</b></dt>
+<dt>2</dt>
+</dl>
+</td>
+<td width="60%">
+Indicates the copy of a single chunk of a stream has completed. Information is in the 
+        <b>ChunkFinished</b> structure within the <b>Info</b> 
+        union.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="COPYFILE2_CALLBACK_STREAM_STARTED"></a><a id="copyfile2_callback_stream_started"></a><dl>
+<dt><b>COPYFILE2_CALLBACK_STREAM_STARTED</b></dt>
+<dt>3</dt>
+</dl>
+</td>
+<td width="60%">
+Indicates both source and destination handles for a stream have been opened and the  copy of the stream 
+        is about to be started. Information is in the <b>StreamStarted</b> structure within 
+        the <b>Info</b> union. This does not indicate that the copy has started for that stream.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="COPYFILE2_CALLBACK_STREAM_FINISHED"></a><a id="copyfile2_callback_stream_finished"></a><dl>
+<dt><b>COPYFILE2_CALLBACK_STREAM_FINISHED</b></dt>
+<dt>4</dt>
+</dl>
+</td>
+<td width="60%">
+Indicates the copy operation for a stream have started to be completed, either successfully or due to a 
+        <b>COPYFILE2_PROGRESS_STOP</b> return from 
+        <a href="https://msdn.microsoft.com/d14b5f5b-c353-49e8-82bb-a695a3ec76fd">CopyFile2ProgressRoutine</a>.  Information is 
+        in the <b>StreamFinished</b> structure within the <b>Info</b> 
+        union.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="COPYFILE2_CALLBACK_POLL_CONTINUE"></a><a id="copyfile2_callback_poll_continue"></a><dl>
+<dt><b>COPYFILE2_CALLBACK_POLL_CONTINUE</b></dt>
+<dt>5</dt>
+</dl>
+</td>
+<td width="60%">
+May be sent periodically.  Information is in the 
+        <b>PollContinue</b> structure within the <b>Info</b> 
+        union.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="COPYFILE2_CALLBACK_ERROR"></a><a id="copyfile2_callback_error"></a><dl>
+<dt><b>COPYFILE2_CALLBACK_ERROR</b></dt>
+<dt>6</dt>
+</dl>
+</td>
+<td width="60%">
+An error was encountered during the copy operation.  Information is in the 
+        <b>Error</b> structure within the <b>Info</b> 
+        union.
+
+</td>
+</tr>
+</table>
+ 
+
+
+### -field dwPadding
+
+
 ### -field Info
 
 
@@ -322,103 +419,6 @@ Size, in bytes, of the total file being processed.
 ### -field Info.Error.uliTotalBytesTransferred
 
 Number of bytes that had been successfully transferred for the entire copy operation.
-
-
-### -field Type
-
-Value from the <a href="https://msdn.microsoft.com/3a16ca3b-79af-4064-82d5-c073d2aa531c">COPYFILE2_MESSAGE_TYPE</a> 
-      enumeration used as a discriminant for the <b>Info</b> union within this structure.
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="COPYFILE2_CALLBACK_CHUNK_STARTED"></a><a id="copyfile2_callback_chunk_started"></a><dl>
-<dt><b>COPYFILE2_CALLBACK_CHUNK_STARTED</b></dt>
-<dt>1</dt>
-</dl>
-</td>
-<td width="60%">
-Indicates a single chunk of a stream has started to be copied. Information is in the 
-        <b>ChunkStarted</b> structure within the <b>Info</b> 
-        union.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="COPYFILE2_CALLBACK_CHUNK_FINISHED"></a><a id="copyfile2_callback_chunk_finished"></a><dl>
-<dt><b>COPYFILE2_CALLBACK_CHUNK_FINISHED</b></dt>
-<dt>2</dt>
-</dl>
-</td>
-<td width="60%">
-Indicates the copy of a single chunk of a stream has completed. Information is in the 
-        <b>ChunkFinished</b> structure within the <b>Info</b> 
-        union.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="COPYFILE2_CALLBACK_STREAM_STARTED"></a><a id="copyfile2_callback_stream_started"></a><dl>
-<dt><b>COPYFILE2_CALLBACK_STREAM_STARTED</b></dt>
-<dt>3</dt>
-</dl>
-</td>
-<td width="60%">
-Indicates both source and destination handles for a stream have been opened and the  copy of the stream 
-        is about to be started. Information is in the <b>StreamStarted</b> structure within 
-        the <b>Info</b> union. This does not indicate that the copy has started for that stream.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="COPYFILE2_CALLBACK_STREAM_FINISHED"></a><a id="copyfile2_callback_stream_finished"></a><dl>
-<dt><b>COPYFILE2_CALLBACK_STREAM_FINISHED</b></dt>
-<dt>4</dt>
-</dl>
-</td>
-<td width="60%">
-Indicates the copy operation for a stream have started to be completed, either successfully or due to a 
-        <b>COPYFILE2_PROGRESS_STOP</b> return from 
-        <a href="https://msdn.microsoft.com/d14b5f5b-c353-49e8-82bb-a695a3ec76fd">CopyFile2ProgressRoutine</a>.  Information is 
-        in the <b>StreamFinished</b> structure within the <b>Info</b> 
-        union.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="COPYFILE2_CALLBACK_POLL_CONTINUE"></a><a id="copyfile2_callback_poll_continue"></a><dl>
-<dt><b>COPYFILE2_CALLBACK_POLL_CONTINUE</b></dt>
-<dt>5</dt>
-</dl>
-</td>
-<td width="60%">
-May be sent periodically.  Information is in the 
-        <b>PollContinue</b> structure within the <b>Info</b> 
-        union.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="COPYFILE2_CALLBACK_ERROR"></a><a id="copyfile2_callback_error"></a><dl>
-<dt><b>COPYFILE2_CALLBACK_ERROR</b></dt>
-<dt>6</dt>
-</dl>
-</td>
-<td width="60%">
-An error was encountered during the copy operation.  Information is in the 
-        <b>Error</b> structure within the <b>Info</b> 
-        union.
-
-</td>
-</tr>
-</table>
- 
-
-
-### -field dwPadding
 
 
 ## -remarks

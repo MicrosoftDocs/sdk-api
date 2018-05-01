@@ -7,7 +7,7 @@ old-location: security\secpkg_parameters.htm
 old-project: SecAuthN
 ms.assetid: 2e3b7961-e2c4-4011-91b1-0ba9d35e9188
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/24/2018
 ms.keywords: "*PSECPKG_EVENT_DOMAIN_CHANGE, *PSECPKG_PARAMETERS, PSECPKG_EVENT_DOMAIN_CHANGE, PSECPKG_EVENT_DOMAIN_CHANGE structure pointer [Security], PSECPKG_PARAMETERS, PSECPKG_PARAMETERS structure pointer [Security], SECPKG_EVENT_DOMAIN_CHANGE, SECPKG_EVENT_DOMAIN_CHANGE structure [Security], SECPKG_PARAMETERS, SECPKG_PARAMETERS structure [Security], SECPKG_STATE_DOMAIN_CONTROLLER, SECPKG_STATE_ENCRYPTION_PERMITTED, SECPKG_STATE_STANDALONE, SECPKG_STATE_STRONG_ENCRYPTION_PERMITTED, SECPKG_STATE_WORKSTATION, _SECPKG_PARAMETERS, _ssp_secpkg_parameters, ntsecpkg/PSECPKG_EVENT_DOMAIN_CHANGE, ntsecpkg/PSECPKG_PARAMETERS, ntsecpkg/SECPKG_EVENT_DOMAIN_CHANGE, ntsecpkg/SECPKG_PARAMETERS, security.secpkg_parameters"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _SECPKG_PARAMETERS structure

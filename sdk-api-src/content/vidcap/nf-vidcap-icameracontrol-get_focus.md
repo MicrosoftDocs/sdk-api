@@ -7,7 +7,7 @@ old-location: dshow\icameracontrol_get_focus.htm
 old-project: DirectShow
 ms.assetid: 59ab6306-539f-4be4-8e69-348eab6220ea
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ICameraControl, ICameraControl interface [DirectShow], get_Focus method, ICameraControl::get_Focus, ICameraControlget_Focus, dshow.icameracontrol_get_focus, get_Focus method [DirectShow], get_Focus method [DirectShow], ICameraControl interface, get_Focus,ICameraControl.get_Focus, vidcap/ICameraControl::get_Focus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: VIDEOHDR, *PVIDEOHDR, *LPVIDEOHDR
+req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,7 +7,7 @@ old-location: security\icertadmin2_deleterow.htm
 old-project: SecCrypto
 ms.assetid: ee64740a-850b-4af5-a7cd-75eaa1687f8d
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: CCertAdmin object [Security], DeleteRow method, CDR_EXPIRED, CDR_REQUEST_LAST_CHANGED, CVRC_TABLE_ATTRIBUTES, CVRC_TABLE_CRL, CVRC_TABLE_EXTENSIONS, CVRC_TABLE_REQCERT, DeleteRow method [Security], DeleteRow method [Security], CCertAdmin object, DeleteRow method [Security], ICertAdmin interface, DeleteRow method [Security], ICertAdmin2 interface, DeleteRow,ICertAdmin2.DeleteRow, ICertAdmin interface [Security], DeleteRow method, ICertAdmin2, ICertAdmin2 interface [Security], DeleteRow method, ICertAdmin2::DeleteRow, ICertAdmin::DeleteRow, certadm/ICertAdmin2::DeleteRow, certadm/ICertAdmin::DeleteRow, security.icertadmin2_deleterow
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CHANNEL_ENTRY_POINTS, *PCHANNEL_ENTRY_POINTS
+req.typenames: 
 topic_type:
 -	APIRef
 -	kbSyntax

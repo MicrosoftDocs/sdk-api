@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_createinputlayout.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_createinputlayout.htm
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: 1535092d-4b37-123e-52db-51ce771e66b9, CreateInputLayout method [Direct3D 10], CreateInputLayout method [Direct3D 10], ID3D10Device interface, CreateInputLayout,ID3D10Device.CreateInputLayout, ID3D10Device, ID3D10Device interface [Direct3D 10], CreateInputLayout method, ID3D10Device::CreateInputLayout, d3d10/ID3D10Device::CreateInputLayout, direct3d10.id3d10device_createinputlayout
 ms.prod: windows-hardware
 ms.technology: windows-devices

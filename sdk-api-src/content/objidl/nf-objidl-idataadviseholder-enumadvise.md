@@ -7,7 +7,7 @@ old-location: com\idataadviseholder_enumadvise.htm
 old-project: com
 ms.assetid: 0863d013-6f55-40ce-92d2-68bb0455a911
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: EnumAdvise method [COM], EnumAdvise method [COM], IDataAdviseHolder interface, EnumAdvise,IDataAdviseHolder.EnumAdvise, IDataAdviseHolder, IDataAdviseHolder interface [COM], EnumAdvise method, IDataAdviseHolder::EnumAdvise, _ole_idataadviseholder_enumadvise, com.idataadviseholder_enumadvise, objidl/IDataAdviseHolder::EnumAdvise
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IDataAdviseHolder::EnumAdvise method

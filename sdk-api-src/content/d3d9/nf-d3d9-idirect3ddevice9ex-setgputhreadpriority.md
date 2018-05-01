@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3ddevice9ex_setgputhreadpriority.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9ex_setgputhreadpriority.htm
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/10/2018
 ms.keywords: IDirect3DDevice9Ex, IDirect3DDevice9Ex interface [Direct3D 9], SetGPUThreadPriority method, IDirect3DDevice9Ex::SetGPUThreadPriority, SetGPUThreadPriority method [Direct3D 9], SetGPUThreadPriority method [Direct3D 9], IDirect3DDevice9Ex interface, SetGPUThreadPriority,IDirect3DDevice9Ex.SetGPUThreadPriority, ac16f6ba-fdcc-9d18-4ea1-2b6b2313ab4a, d3d9/IDirect3DDevice9Ex::SetGPUThreadPriority, direct3d9.idirect3ddevice9ex_setgputhreadpriority
 ms.prod: windows-hardware
 ms.technology: windows-devices

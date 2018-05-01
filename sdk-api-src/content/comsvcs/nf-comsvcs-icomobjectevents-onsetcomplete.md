@@ -7,7 +7,7 @@ old-location: cos\icomobjectevents_onsetcomplete.htm
 old-project: cossdk
 ms.assetid: 3bda05b7-3306-428c-b920-d87eee0b35d7
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: IComObjectEvents, IComObjectEvents interface [COM+], OnSetComplete method, IComObjectEvents::OnSetComplete, OnSetComplete method [COM+], OnSetComplete method [COM+], IComObjectEvents interface, OnSetComplete,IComObjectEvents.OnSetComplete, _dtc_IComObjectEvents_OnSetComplete, comsvcs/IComObjectEvents::OnSetComplete, cos.icomobjectevents_onsetcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices

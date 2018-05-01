@@ -7,7 +7,7 @@ old-location: mstv\iisdb_emm_getversionhash.htm
 old-project: mstv
 ms.assetid: f0d97b49-8ab3-4632-9055-e2208b3121e4
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetVersionHash method [Microsoft TV Technologies], GetVersionHash method [Microsoft TV Technologies], IISDB_EMM interface, GetVersionHash,IISDB_EMM.GetVersionHash, IISDB_EMM, IISDB_EMM interface [Microsoft TV Technologies], GetVersionHash method, IISDB_EMM::GetVersionHash, dvbsiparser/IISDB_EMM::GetVersionHash, mstv.iisdb_emm_getversionhash
 ms.prod: windows-hardware
 ms.technology: windows-devices

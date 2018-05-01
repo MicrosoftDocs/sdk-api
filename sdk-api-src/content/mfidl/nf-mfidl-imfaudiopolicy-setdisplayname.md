@@ -7,7 +7,7 @@ old-location: mf\imfaudiopolicy_setdisplayname.htm
 old-project: medfound
 ms.assetid: 4cd48400-8d12-4a6b-95fd-bf6ae7700cb8
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 4cd48400-8d12-4a6b-95fd-bf6ae7700cb8, IMFAudioPolicy, IMFAudioPolicy interface [Media Foundation], SetDisplayName method, IMFAudioPolicy::SetDisplayName, SetDisplayName method [Media Foundation], SetDisplayName method [Media Foundation], IMFAudioPolicy interface, SetDisplayName,IMFAudioPolicy.SetDisplayName, mf.imfaudiopolicy_setdisplayname, mfidl/IMFAudioPolicy::SetDisplayName
 ms.prod: windows-hardware
 ms.technology: windows-devices

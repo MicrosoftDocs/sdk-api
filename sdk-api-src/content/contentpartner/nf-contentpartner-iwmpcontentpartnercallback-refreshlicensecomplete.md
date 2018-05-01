@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontentpartnercallback_refreshlicensecomplete.htm
 old-project: WMP
 ms.assetid: 426941d9-8d10-4c30-bf2d-cae3f48b51c6
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPContentPartnerCallback, IWMPContentPartnerCallback interface [Windows Media Player], RefreshLicenseComplete method, IWMPContentPartnerCallback::RefreshLicenseComplete, IWMPContentPartnerCallbackRefreshLicenseComplete, RefreshLicenseComplete method [Windows Media Player], RefreshLicenseComplete method [Windows Media Player], IWMPContentPartnerCallback interface, RefreshLicenseComplete,IWMPContentPartnerCallback.RefreshLicenseComplete, contentpartner/IWMPContentPartnerCallback::RefreshLicenseComplete, wmp.iwmpcontentpartnercallback_refreshlicensecomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmformat\iwmreadernetworkconfig_resetprotocolrollover.htm
 old-project: wmformat
 ms.assetid: 10a11131-48bd-49bd-a767-1c6148f84b95
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMReaderNetworkConfig, IWMReaderNetworkConfig interface [windows Media Format], ResetProtocolRollover method, IWMReaderNetworkConfig::ResetProtocolRollover, IWMReaderNetworkConfigResetProtocolRollover, ResetProtocolRollover method [windows Media Format], ResetProtocolRollover method [windows Media Format], IWMReaderNetworkConfig interface, ResetProtocolRollover,IWMReaderNetworkConfig.ResetProtocolRollover, wmformat.iwmreadernetworkconfig_resetprotocolrollover, wmsdkidl/IWMReaderNetworkConfig::ResetProtocolRollover
 ms.prod: windows-hardware
 ms.technology: windows-devices

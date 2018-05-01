@@ -7,7 +7,7 @@ old-location: wmp\iwmperror_get_errorcount.htm
 old-project: WMP
 ms.assetid: 0ad21e08-4566-4f3a-8506-308432996481
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPError, IWMPError interface [Windows Media Player], get_errorCount method, IWMPError::get_errorCount, IWMPErrorget_errorCount, get_errorCount method [Windows Media Player], get_errorCount method [Windows Media Player], IWMPError interface, get_errorCount,IWMPError.get_errorCount, wmp.iwmperror_get_errorcount, wmp/IWMPError::get_errorCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

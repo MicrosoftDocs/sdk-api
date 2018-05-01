@@ -7,7 +7,7 @@ old-location: mf\imfcontentdecryptorcontext_initializehardwarekey.htm
 old-project: medfound
 ms.assetid: E1F12329-9BA5-4765-8C4A-1678C5F9E5F8
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFContentDecryptorContext, IMFContentDecryptorContext interface [Media Foundation], InitializeHardwareKey method, IMFContentDecryptorContext::InitializeHardwareKey, InitializeHardwareKey method [Media Foundation], InitializeHardwareKey method [Media Foundation], IMFContentDecryptorContext interface, InitializeHardwareKey,IMFContentDecryptorContext.InitializeHardwareKey, mf.imfcontentdecryptorcontext_initializehardwarekey, mfidl/IMFContentDecryptorContext::InitializeHardwareKey
 ms.prod: windows-hardware
 ms.technology: windows-devices

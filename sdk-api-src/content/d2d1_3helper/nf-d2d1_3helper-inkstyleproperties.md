@@ -7,7 +7,7 @@ old-location: direct2d\inkstyleproperties.htm
 old-project: Direct2D
 ms.assetid: a923ce8e-71a0-6332-13e1-a4d58750d1ff
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: InkStyleProperties, InkStyleProperties function [Direct2D], d2d1_3helper/InkStyleProperties, direct2d.inkstyleproperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\idvb_nit_gettabledescriptorbyindex.htm
 old-project: mstv
 ms.assetid: fa9d16c3-da30-44ab-9c40-7bc24b54eaaf
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetTableDescriptorByIndex method [Microsoft TV Technologies], GetTableDescriptorByIndex method [Microsoft TV Technologies], IDVB_NIT interface, GetTableDescriptorByIndex,IDVB_NIT.GetTableDescriptorByIndex, IDVB_NIT, IDVB_NIT interface [Microsoft TV Technologies], GetTableDescriptorByIndex method, IDVB_NIT::GetTableDescriptorByIndex, IDVB_NITGetTableDescriptorByIndex, dvbsiparser/IDVB_NIT::GetTableDescriptorByIndex, mstv.idvb_nit_gettabledescriptorbyindex
 ms.prod: windows-hardware
 ms.technology: windows-devices

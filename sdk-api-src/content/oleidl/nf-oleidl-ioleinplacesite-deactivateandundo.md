@@ -7,7 +7,7 @@ old-location: com\ioleinplacesite_deactivateandundo.htm
 old-project: com
 ms.assetid: 59229720-cd3b-45d5-90c4-391acb124f4d
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: DeactivateAndUndo method [COM], DeactivateAndUndo method [COM], IOleInPlaceSite interface, DeactivateAndUndo,IOleInPlaceSite.DeactivateAndUndo, IOleInPlaceSite, IOleInPlaceSite interface [COM], DeactivateAndUndo method, IOleInPlaceSite::DeactivateAndUndo, IOleInPlaceSiteWindowless.DeactivateAndUndo, _ole_ioleinplacesite_deactivateandundo, com.ioleinplacesite_deactivateandundo, oleidl/IOleInPlaceSite::DeactivateAndUndo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IOleInPlaceSite::DeactivateAndUndo method

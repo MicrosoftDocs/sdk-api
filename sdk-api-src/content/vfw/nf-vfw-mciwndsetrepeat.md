@@ -7,7 +7,7 @@ old-location: multimedia\mciwndsetrepeat.htm
 old-project: Multimedia
 ms.assetid: e9c64f01-dd51-4f45-bf58-e930d5d23461
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/25/2018
 ms.keywords: MCIWndSetRepeat, MCIWndSetRepeat macro [Windows Multimedia], _win32_MCIWndSetRepeat, multimedia.mciwndsetrepeat, vfw/MCIWndSetRepeat
 ms.prod: windows-hardware
 ms.technology: windows-devices

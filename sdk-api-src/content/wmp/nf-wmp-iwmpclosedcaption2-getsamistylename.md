@@ -7,7 +7,7 @@ old-location: wmp\iwmpclosedcaption2_getsamistylename.htm
 old-project: WMP
 ms.assetid: 0dfdbe70-2aa8-4cae-8886-6b770707652e
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPClosedCaption2, IWMPClosedCaption2 interface [Windows Media Player], getSAMIStyleName method, IWMPClosedCaption2::getSAMIStyleName, IWMPClosedCaption2getSAMIStyleName, getSAMIStyleName method [Windows Media Player], getSAMIStyleName method [Windows Media Player], IWMPClosedCaption2 interface, getSAMIStyleName,IWMPClosedCaption2.getSAMIStyleName, wmp.iwmpclosedcaption2_getsamistylename, wmp/IWMPClosedCaption2::getSAMIStyleName
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\icertpropertyenrollmentpolicyserver_geturlflags.htm
 old-project: SecCertEnroll
 ms.assetid: eafd4290-5eef-432f-908c-0640a4ac667f
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: GetUrlFlags method [Security], GetUrlFlags method [Security], ICertPropertyEnrollmentPolicyServer interface, GetUrlFlags,ICertPropertyEnrollmentPolicyServer.GetUrlFlags, ICertPropertyEnrollmentPolicyServer, ICertPropertyEnrollmentPolicyServer interface [Security], GetUrlFlags method, ICertPropertyEnrollmentPolicyServer::GetUrlFlags, PsfAllowUnTrustedCA, PsfAutoEnrollmentEnabled, PsfLocationGroupPolicy, PsfLocationRegistry, PsfNone, PsfUseClientId, certenroll/ICertPropertyEnrollmentPolicyServer::GetUrlFlags, security.icertpropertyenrollmentpolicyserver_geturlflags
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\ivsswmfiledesc_getbackuptypemask.htm
 old-project: VSS
 ms.assetid: 9d5f3a16-2053-42dd-867d-740c4a34bdb6
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: GetBackupTypeMask method [VSS], GetBackupTypeMask method [VSS], IVssWMFiledesc interface, GetBackupTypeMask,IVssWMFiledesc.GetBackupTypeMask, IVssWMFiledesc, IVssWMFiledesc interface [VSS], GetBackupTypeMask method, IVssWMFiledesc::GetBackupTypeMask, base.ivsswmfiledesc_getbackuptypemask, vswriter/IVssWMFiledesc::GetBackupTypeMask
 ms.prod: windows-hardware
 ms.technology: windows-devices

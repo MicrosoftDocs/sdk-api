@@ -7,7 +7,7 @@ old-location: wmp\iwmpremotemediaservices_getcustomuimode.htm
 old-project: WMP
 ms.assetid: 892c2513-9ca2-48fe-b745-0fdc0f445871
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: GetCustomUIMode method [Windows Media Player], GetCustomUIMode method [Windows Media Player], IWMPRemoteMediaServices interface, GetCustomUIMode,IWMPRemoteMediaServices.GetCustomUIMode, IWMPRemoteMediaServices, IWMPRemoteMediaServices interface [Windows Media Player], GetCustomUIMode method, IWMPRemoteMediaServices::GetCustomUIMode, IWMPRemoteMediaServicesGetCustomUIMode, wmp.iwmpremotemediaservices_getcustomuimode, wmp/IWMPRemoteMediaServices::GetCustomUIMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

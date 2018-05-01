@@ -7,7 +7,7 @@ old-location: com\ibindctx_registerobjectbound.htm
 old-project: com
 ms.assetid: 84d49231-5fdd-4a89-8e76-1f0e56bc553f
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IBindCtx, IBindCtx interface [COM], RegisterObjectBound method, IBindCtx::RegisterObjectBound, RegisterObjectBound method [COM], RegisterObjectBound method [COM], IBindCtx interface, RegisterObjectBound,IBindCtx.RegisterObjectBound, _com_ibindctx_registerobjectbound, com.ibindctx_registerobjectbound, objidl/IBindCtx::RegisterObjectBound
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IBindCtx::RegisterObjectBound method

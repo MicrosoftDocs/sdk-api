@@ -7,7 +7,7 @@ old-location: controls\itextfont2_geteffects.htm
 old-project: Controls
 ms.assetid: a182df7e-2024-48fc-9767-7110ffff0b4c
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: GetEffects method [Windows Controls], GetEffects method [Windows Controls], ITextFont2 interface, GetEffects,ITextFont2.GetEffects, ITextFont2, ITextFont2 interface [Windows Controls], GetEffects method, ITextFont2::GetEffects, controls.itextfont2_geteffects, tom/ITextFont2::GetEffects, tomAllCaps, tomBold, tomDisabled, tomEmboss, tomHidden, tomImprint, tomInlineObjectStart, tomItalic, tomLink, tomLinkProtected, tomMathZone, tomMathZoneDisplay, tomMathZoneNoBuildUp, tomMathZoneOrdinary, tomOutline, tomProtected, tomRevised, tomShadow, tomSmallCaps, tomStrikeout, tomUnderline
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct2d\d2d1_gamma1.htm
 old-project: Direct2D
 ms.assetid: DEB1A17C-FD71-43C9-A3D4-B3D4F4B9A2A5
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: D2D1_GAMMA1, D2D1_GAMMA1 enumeration [Direct2D], D2D1_GAMMA1_FORCE_DWORD, D2D1_GAMMA1_G10, D2D1_GAMMA1_G2084, D2D1_GAMMA1_G22, d2d1_3/D2D1_GAMMA1, d2d1_3/D2D1_GAMMA1_FORCE_DWORD, d2d1_3/D2D1_GAMMA1_G10, d2d1_3/D2D1_GAMMA1_G2084, d2d1_3/D2D1_GAMMA1_G22, direct2d.d2d1_gamma1
 ms.prod: windows-hardware
 ms.technology: windows-devices

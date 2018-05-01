@@ -7,7 +7,7 @@ old-location: wmp\iwmpevents_iwmpevents__switchedtocontrol.htm
 old-project: WMP
 ms.assetid: 3f6d6a77-8d8a-4ed8-8222-95086c08037c
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPEvents, IWMPEvents interface [Windows Media Player], SwitchedToControl method, IWMPEvents::SwitchedToControl, IWMPEventsSwitchedToControl, SwitchedToControl method [Windows Media Player], SwitchedToControl method [Windows Media Player], IWMPEvents interface, SwitchedToControl,IWMPEvents.SwitchedToControl, wmp.iwmpevents_iwmpevents__switchedtocontrol, wmp/IWMPEvents::SwitchedToControl
 ms.prod: windows-hardware
 ms.technology: windows-devices

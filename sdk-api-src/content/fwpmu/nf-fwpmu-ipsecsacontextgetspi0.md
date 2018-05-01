@@ -7,7 +7,7 @@ old-location: fwp\ipsecsacontextgetspi0.htm
 old-project: FWP
 ms.assetid: dac82051-db36-450a-a59a-61df6bad6694
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: IPsecSaContextGetSpi0, IPsecSaContextGetSpi0 function [Filtering], fwp.ipsecsacontextgetspi0, fwpmu/IPsecSaContextGetSpi0
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct2d\id2d1factory_createhwndrendertarget.htm
 old-project: Direct2D
 ms.assetid: 3b55b1b0-a423-40dc-9581-c1fbe8134ca5
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: CreateHwndRenderTarget, CreateHwndRenderTarget methods [Direct2D], d2d1/CreateHwndRenderTarget, direct2d.id2d1factory_createhwndrendertarget
 ms.prod: windows-hardware
 ms.technology: windows-devices

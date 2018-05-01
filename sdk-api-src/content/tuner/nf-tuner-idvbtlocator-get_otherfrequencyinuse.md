@@ -7,7 +7,7 @@ old-location: mstv\idvbtlocator_get_otherfrequencyinuse.htm
 old-project: mstv
 ms.assetid: fcb39760-901f-4c62-a517-bee7ea96f8d9
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IDVBTLocator, IDVBTLocator interface [Microsoft TV Technologies], get_OtherFrequencyInUse method, IDVBTLocator::get_OtherFrequencyInUse, IDVBTLocatorget_OtherFrequencyInUse, get_OtherFrequencyInUse method [Microsoft TV Technologies], get_OtherFrequencyInUse method [Microsoft TV Technologies], IDVBTLocator interface, get_OtherFrequencyInUse,IDVBTLocator.get_OtherFrequencyInUse, mstv.idvbtlocator_get_otherfrequencyinuse, tuner/IDVBTLocator::get_OtherFrequencyInUse
 ms.prod: windows-hardware
 ms.technology: windows-devices

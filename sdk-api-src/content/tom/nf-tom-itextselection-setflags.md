@@ -7,7 +7,7 @@ old-location: controls\ITextSelection_SetFlags.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setflags.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextSelection, ITextSelection interface [Windows Controls], SetFlags method, ITextSelection::SetFlags, SetFlags method [Windows Controls], SetFlags method [Windows Controls], ITextSelection interface, SetFlags,ITextSelection.SetFlags, _win32_ITextSelection_SetFlags, _win32_ITextSelection_SetFlags_cpp, controls.ITextSelection_SetFlags, controls._win32_ITextSelection_SetFlags, tom/ITextSelection::SetFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: coreaudio\iksformatsupport_getdevicepreferredformat.htm
 old-project: CoreAudio
 ms.assetid: a550ed25-020f-4d09-bfb4-76680539c50a
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: GetDevicePreferredFormat method [Core Audio], GetDevicePreferredFormat method [Core Audio], IKsFormatSupport interface, GetDevicePreferredFormat,IKsFormatSupport.GetDevicePreferredFormat, IKsFormatSupport, IKsFormatSupport interface [Core Audio], GetDevicePreferredFormat method, IKsFormatSupport::GetDevicePreferredFormat, IKsFormatSupportGetDevicePreferredFormat, coreaudio.iksformatsupport_getdevicepreferredformat, devicetopology/IKsFormatSupport::GetDevicePreferredFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices

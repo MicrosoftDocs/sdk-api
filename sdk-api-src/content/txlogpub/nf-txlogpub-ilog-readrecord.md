@@ -7,7 +7,7 @@ old-location: com\ilog_readrecord.htm
 old-project: com
 ms.assetid: 756d56a4-083f-45cd-bcdc-7c8a15dabae6
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: ILog, ILog interface [COM], ReadRecord method, ILog::ReadRecord, ReadRecord method [COM], ReadRecord method [COM], ILog interface, ReadRecord,ILog.ReadRecord, _com_ilog_readrecord, com.ilog_readrecord, txlogpub/ILog::ReadRecord
 ms.prod: windows-hardware
 ms.technology: windows-devices

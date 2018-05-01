@@ -7,7 +7,7 @@ old-location: termserv\iadstsuserex_allowlogon.htm
 old-project: TermServ
 ms.assetid: 60271637-b25a-4857-896d-109737d2f046
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: AllowLogon property [Remote Desktop Services], AllowLogon property [Remote Desktop Services], IADsTSUserEx interface, IADsTSUserEx, IADsTSUserEx interface [Remote Desktop Services], AllowLogon property, IADsTSUserEx.AllowLogon, IADsTSUserEx::get_AllowLogon, IADsTSUserEx::put_AllowLogon, put_AllowLogon,IADsTSUserEx.put_AllowLogon, termserv.iadstsuserex_allowlogon, tsuserex/IADsTSUserEx::AllowLogon, tsuserex/IADsTSUserEx::get_AllowLogon, tsuserex/IADsTSUserEx::put_AllowLogon
 ms.prod: windows-hardware
 ms.technology: windows-devices

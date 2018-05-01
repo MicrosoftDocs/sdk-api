@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontentpartner_comparecontainerlistprices.htm
 old-project: WMP
 ms.assetid: 4febe7ce-1aa1-4738-a4cc-353f81ca649e
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: CompareContainerListPrices method [Windows Media Player], CompareContainerListPrices method [Windows Media Player], IWMPContentPartner interface, CompareContainerListPrices,IWMPContentPartner.CompareContainerListPrices, IWMPContentPartner, IWMPContentPartner interface [Windows Media Player], CompareContainerListPrices method, IWMPContentPartner::CompareContainerListPrices, IWMPContentPartnerCompareContainerListPrices, contentpartner/IWMPContentPartner::CompareContainerListPrices, wmp.iwmpcontentpartner_comparecontainerlistprices
 ms.prod: windows-hardware
 ms.technology: windows-devices

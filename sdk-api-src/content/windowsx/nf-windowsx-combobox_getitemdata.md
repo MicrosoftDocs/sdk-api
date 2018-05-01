@@ -7,7 +7,7 @@ old-location: controls\ComboBox_GetItemData.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_getitemdata.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ComboBox_GetItemData, ComboBox_GetItemData macro [Windows Controls], _win32_ComboBox_GetItemData, _win32_ComboBox_GetItemData_cpp, controls.ComboBox_GetItemData, controls._win32_ComboBox_GetItemData, windowsx/ComboBox_GetItemData
 ms.prod: windows-hardware
 ms.technology: windows-devices

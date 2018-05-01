@@ -7,7 +7,7 @@ old-location: mf\imfasfstreamselector_setoutputmutexselection.htm
 old-project: medfound
 ms.assetid: eebaf4a4-fcd5-4438-82ec-e9da2de6b0fd
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFASFStreamSelector, IMFASFStreamSelector interface [Media Foundation], SetOutputMutexSelection method, IMFASFStreamSelector::SetOutputMutexSelection, SetOutputMutexSelection method [Media Foundation], SetOutputMutexSelection method [Media Foundation], IMFASFStreamSelector interface, SetOutputMutexSelection,IMFASFStreamSelector.SetOutputMutexSelection, eebaf4a4-fcd5-4438-82ec-e9da2de6b0fd, mf.imfasfstreamselector_setoutputmutexselection, wmcontainer/IMFASFStreamSelector::SetOutputMutexSelection
 ms.prod: windows-hardware
 ms.technology: windows-devices

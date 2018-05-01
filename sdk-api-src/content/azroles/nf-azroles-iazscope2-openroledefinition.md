@@ -7,7 +7,7 @@ old-location: security\iazscope2_openroledefinition.htm
 old-project: SecAuthZ
 ms.assetid: 58b792aa-1432-4b23-8d7a-33606741bf27
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: IAzScope2, IAzScope2 interface [Security], OpenRoleDefinition method, IAzScope2::OpenRoleDefinition, OpenRoleDefinition method [Security], OpenRoleDefinition method [Security], IAzScope2 interface, OpenRoleDefinition,IAzScope2.OpenRoleDefinition, azroles/IAzScope2::OpenRoleDefinition, security.iazscope2_openroledefinition
 ms.prod: windows-hardware
 ms.technology: windows-devices

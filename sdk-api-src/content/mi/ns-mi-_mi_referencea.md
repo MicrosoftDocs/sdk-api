@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_referencea.htm
 old-project: wmi_v2
 ms.assetid: a0fde623-a9f0-4b7d-8c7d-2a88745fc8b2
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/18/2018
 ms.keywords: MI_ReferenceA, MI_ReferenceA structure [Windows Management Infrastructure (MI)], _MI_ReferenceA, mi/MI_ReferenceA, wmi._mi_referencea, wmi_v2.mi_referencea
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,14 +58,14 @@ Represents an array of pointers to <a href="https://msdn.microsoft.com/3dce1817-
 
 
 
-### -field _MI_Instance
-
- 
-
-
 ### -field data
 
 Pointer to an array of <a href="https://msdn.microsoft.com/3dce1817-7995-49e5-8cc0-ee9496665e5c">MI_Instance</a> structures.
+
+
+### -field _MI_Instance
+
+ 
 
 
 ### -field size

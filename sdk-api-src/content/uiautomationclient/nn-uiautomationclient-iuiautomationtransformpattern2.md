@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationTransformPattern2.htm
 old-project: WinAuto
 ms.assetid: 01585BBF-B8D7-4A69-BBB9-1B02E0864224
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: IUIAutomationTransformPattern2, IUIAutomationTransformPattern2 interface [Windows Accessibility], IUIAutomationTransformPattern2 interface [Windows Accessibility], described, uiautomationclient/IUIAutomationTransformPattern2, winauto.uiauto_IUIAutomationTransformPattern2
 ms.prod: windows-hardware
 ms.technology: windows-devices

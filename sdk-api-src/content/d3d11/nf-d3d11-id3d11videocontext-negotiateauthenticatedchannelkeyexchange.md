@@ -7,7 +7,7 @@ old-location: mf\id3d11videocontext_negotiateauthenticatedchannelkeyexchange.htm
 old-project: medfound
 ms.assetid: FF546AE5-D062-41A9-B143-8B25466BF6E3
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: ID3D11VideoContext, ID3D11VideoContext interface [Media Foundation], NegotiateAuthenticatedChannelKeyExchange method, ID3D11VideoContext::NegotiateAuthenticatedChannelKeyExchange, NegotiateAuthenticatedChannelKeyExchange method [Media Foundation], NegotiateAuthenticatedChannelKeyExchange method [Media Foundation], ID3D11VideoContext interface, NegotiateAuthenticatedChannelKeyExchange,ID3D11VideoContext.NegotiateAuthenticatedChannelKeyExchange, d3d11/ID3D11VideoContext::NegotiateAuthenticatedChannelKeyExchange, mf.id3d11videocontext_negotiateauthenticatedchannelkeyexchange
 ms.prod: windows-hardware
 ms.technology: windows-devices

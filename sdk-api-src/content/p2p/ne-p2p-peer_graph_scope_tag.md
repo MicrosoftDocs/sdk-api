@@ -7,7 +7,7 @@ old-location: p2p\peer_graph_scope.htm
 old-project: P2PSdk
 ms.assetid: 103f0493-05b9-46a6-8304-0c38ec7dc674
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/23/2018
 ms.keywords: PEER_GRAPH_SCOPE, PEER_GRAPH_SCOPE enumeration [Peer Networking], PEER_GRAPH_SCOPE_ANY, PEER_GRAPH_SCOPE_GLOBAL, PEER_GRAPH_SCOPE_LINKLOCAL, PEER_GRAPH_SCOPE_LOOPBACK, PEER_GRAPH_SCOPE_SITELOCAL, p2p.peer_graph_scope, p2p/PEER_GRAPH_SCOPE, p2p/PEER_GRAPH_SCOPE_ANY, p2p/PEER_GRAPH_SCOPE_GLOBAL, p2p/PEER_GRAPH_SCOPE_LINKLOCAL, p2p/PEER_GRAPH_SCOPE_LOOPBACK, p2p/PEER_GRAPH_SCOPE_SITELOCAL, peer_graph_scope_tag
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # peer_graph_scope_tag enumeration

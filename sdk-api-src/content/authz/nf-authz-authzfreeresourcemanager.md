@@ -7,7 +7,7 @@ old-location: security\authzfreeresourcemanager.htm
 old-project: SecAuthZ
 ms.assetid: 8b716368-8d81-4c62-9086-0976b39bbcf8
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: AuthzFreeResourceManager, AuthzFreeResourceManager function [Security], _win32_authzfreeresourcemanager, authz/AuthzFreeResourceManager, security.authzfreeresourcemanager
 ms.prod: windows-hardware
 ms.technology: windows-devices

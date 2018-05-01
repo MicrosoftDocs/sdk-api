@@ -7,7 +7,7 @@ old-location: mstv\iguidedata_getscheduleentryids.htm
 old-project: mstv
 ms.assetid: d44abd0d-bcfc-418f-b541-c085032fb933
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetScheduleEntryIDs method [Microsoft TV Technologies], GetScheduleEntryIDs method [Microsoft TV Technologies], IGuideData interface, GetScheduleEntryIDs,IGuideData.GetScheduleEntryIDs, IGuideData, IGuideData interface [Microsoft TV Technologies], GetScheduleEntryIDs method, IGuideData::GetScheduleEntryIDs, IGuideDataGetScheduleEntryIDs, bdatif/IGuideData::GetScheduleEntryIDs, mstv.iguidedata_getscheduleentryids
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: SpanningEventEmmMessage
+req.typenames: SmartCardApplication
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,7 +7,7 @@ old-location: termserv\itssbresourcepluginstore_setenvironmentpropertywithversio
 old-project: TermServ
 ms.assetid: 9c4caee8-85fb-4d8f-9c5a-b82eea02a1d0
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: ITsSbResourcePluginStore, ITsSbResourcePluginStore interface [Remote Desktop Services], SetEnvironmentPropertyWithVersionCheck method, ITsSbResourcePluginStore::SetEnvironmentPropertyWithVersionCheck, SetEnvironmentPropertyWithVersionCheck method [Remote Desktop Services], SetEnvironmentPropertyWithVersionCheck method [Remote Desktop Services], ITsSbResourcePluginStore interface, SetEnvironmentPropertyWithVersionCheck,ITsSbResourcePluginStore.SetEnvironmentPropertyWithVersionCheck, sbtsv/ITsSbResourcePluginStore::SetEnvironmentPropertyWithVersionCheck, termserv.itssbresourcepluginstore_setenvironmentpropertywithversioncheck
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITsSbResourcePluginStore::SetEnvironmentPropertyWithVersionCheck method

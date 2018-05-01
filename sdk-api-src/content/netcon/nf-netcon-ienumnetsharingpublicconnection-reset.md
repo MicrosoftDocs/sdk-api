@@ -7,7 +7,7 @@ old-location: ics\ienumnetsharingpublicconnection_reset.htm
 old-project: ICS
 ms.assetid: f58a9efb-bb0d-477c-946f-5bef6c5635d8
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: IEnumNetSharingPublicConnection, IEnumNetSharingPublicConnection interface [ICS/ICF], Reset method, IEnumNetSharingPublicConnection::Reset, Reset method [ICS/ICF], Reset method [ICS/ICF], IEnumNetSharingPublicConnection interface, Reset,IEnumNetSharingPublicConnection.Reset, _ics_ienumnetsharingpublicconnection_reset, ics.ienumnetsharingpublicconnection_reset, netcon/IEnumNetSharingPublicConnection::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IEnumNetSharingPublicConnection::Reset method

@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxdoc_get_displayname_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_4s6d.htm
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/18/2018
 ms.keywords: DisplayName property [Fax Service], DisplayName property [Fax Service], FaxDoc object, FaxDoc object [Fax Service], DisplayName property, IFaxDoc, IFaxDoc::get_DisplayName, _mfax_ifaxdoc_get_displayname, fax._mfax_ifaxdoc_get_displayname, fax._mfax_ifaxdoc_get_displayname_vb, get_DisplayName,IFaxDoc.get_DisplayName
 ms.prod: windows-hardware
 ms.technology: windows-devices

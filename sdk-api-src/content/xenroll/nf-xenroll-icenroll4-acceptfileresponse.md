@@ -7,7 +7,7 @@ old-location: security\icenroll4_acceptfileresponse.htm
 old-project: SecCrypto
 ms.assetid: 127863ca-843b-46c5-b375-fb0400e8b49b
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: CEnroll object [Security], acceptFileResponse method, ICEnroll4, ICEnroll4 interface [Security], acceptFileResponse method, ICEnroll4::acceptFileResponse, _xen_icenroll4_acceptfileresponse, acceptFileResponse method [Security], acceptFileResponse method [Security], CEnroll object, acceptFileResponse method [Security], ICEnroll4 interface, acceptFileResponse,ICEnroll4.acceptFileResponse, security.icenroll4_acceptfileresponse, xenroll/ICEnroll4::acceptFileResponse
 ms.prod: windows-hardware
 ms.technology: windows-devices

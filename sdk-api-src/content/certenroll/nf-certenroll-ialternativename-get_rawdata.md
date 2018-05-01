@@ -7,7 +7,7 @@ old-location: security\ialternativename_rawdata_property.htm
 old-project: SecCertEnroll
 ms.assetid: 7385654d-03f8-4796-a95c-000fa8ab65a3
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: IAlternativeName, IAlternativeName interface [Security], RawData property, IAlternativeName.RawData, IAlternativeName::get_RawData, RawData property [Security], RawData property [Security], IAlternativeName interface, certenroll/IAlternativeName::RawData, certenroll/IAlternativeName::get_RawData, get_RawData,IAlternativeName.get_RawData, security.ialternativename_rawdata_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

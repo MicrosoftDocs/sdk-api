@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontentpartnercallback_getcatalogversion.htm
 old-project: WMP
 ms.assetid: e77785d1-71e3-474d-bad1-4b1145a06d01
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: GetCatalogVersion method [Windows Media Player], GetCatalogVersion method [Windows Media Player], IWMPContentPartnerCallback interface, GetCatalogVersion,IWMPContentPartnerCallback.GetCatalogVersion, IWMPContentPartnerCallback, IWMPContentPartnerCallback interface [Windows Media Player], GetCatalogVersion method, IWMPContentPartnerCallback::GetCatalogVersion, IWMPContentPartnerCallbackGetCatalogVersion, contentpartner/IWMPContentPartnerCallback::GetCatalogVersion, wmp.iwmpcontentpartnercallback_getcatalogversion
 ms.prod: windows-hardware
 ms.technology: windows-devices

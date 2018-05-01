@@ -7,7 +7,7 @@ old-location: stg\ienumstatstg.htm
 old-project: Stg
 ms.assetid: 93b8b14e-94e4-460b-9846-413affad8e4f
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/20/2018
 ms.keywords: IEnumSTATSTG, IEnumSTATSTG interface [Structured Storage], IEnumSTATSTG interface [Structured Storage], described, _stg_ienumstatstg, objidl/IEnumSTATSTG, stg.ienumstatstg
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IEnumSTATSTG interface

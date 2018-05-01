@@ -7,7 +7,7 @@ old-location: mf\imfpresentationclock_stop.htm
 old-project: medfound
 ms.assetid: 54377d65-2af7-410d-b8cf-45f467527a45
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 54377d65-2af7-410d-b8cf-45f467527a45, IMFPresentationClock, IMFPresentationClock interface [Media Foundation], Stop method, IMFPresentationClock::Stop, Stop method [Media Foundation], Stop method [Media Foundation], IMFPresentationClock interface, Stop,IMFPresentationClock.Stop, mf.imfpresentationclock_stop, mfidl/IMFPresentationClock::Stop
 ms.prod: windows-hardware
 ms.technology: windows-devices

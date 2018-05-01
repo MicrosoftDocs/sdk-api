@@ -7,7 +7,7 @@ old-location: security\cryptxmldllencodekeyvalue.htm
 old-project: SecCrypto
 ms.assetid: a0737139-a820-455d-85f4-c56b63a1a8e0
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: CryptXmlDllEncodeKeyValue, CryptXmlDllEncodeKeyValue function pointer [Security], cryptxml/CryptXmlDllEncodeKeyValue, security.cryptxmldllencodekeyvalue
 ms.prod: windows-hardware
 ms.technology: windows-devices

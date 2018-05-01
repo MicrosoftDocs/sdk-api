@@ -7,7 +7,7 @@ old-location: wab\_wab_IWABExtInit.htm
 old-project: wab
 ms.assetid: VS|wab|~\wab\reference\ifaces\iwabextinit\iwabextinit.htm
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 4/3/2018
 ms.keywords: IWABExtInit, IWABExtInit interface [Windows Address Book], IWABExtInit interface [Windows Address Book], described, _wab_IWABExtInit, wab._wab_IWABExtInit, wabapi/IWABExtInit
 ms.prod: windows-hardware
 ms.technology: windows-devices

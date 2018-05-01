@@ -7,7 +7,7 @@ old-location: cos\securityproperty_getoriginalcreatorname.htm
 old-project: cossdk
 ms.assetid: 403f0f36-f386-4eeb-905a-e04c5699db9b
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: GetOriginalCreatorName method [COM+], GetOriginalCreatorName method [COM+], SecurityProperty interface, GetOriginalCreatorName,SecurityProperty.GetOriginalCreatorName, SecurityProperty, SecurityProperty interface [COM+], GetOriginalCreatorName method, SecurityProperty::GetOriginalCreatorName, _cos_SecurityProperty_GetOriginalCreatorName, comsvcs/SecurityProperty::GetOriginalCreatorName, cos.securityproperty_getoriginalcreatorname
 ms.prod: windows-hardware
 ms.technology: windows-devices

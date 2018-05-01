@@ -7,7 +7,7 @@ old-location: nwifi\wlan_ihv_control_type.htm
 old-project: NativeWiFi
 ms.assetid: a2f147e7-3008-448a-8f79-bb4428b6a678
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/13/2018
 ms.keywords: "*PWLAN_IHV_CONTROL_TYPE, PWLAN_IHV_CONTROL_TYPE, PWLAN_IHV_CONTROL_TYPE enumeration pointer [NativeWIFI], WLAN_IHV_CONTROL_TYPE, WLAN_IHV_CONTROL_TYPE enumeration [NativeWIFI], _WLAN_IHV_CONTROL_TYPE, nwifi.wlan_ihv_control_type, wlan_ihv_control_type_driver, wlan_ihv_control_type_service, wlanapi/PWLAN_IHV_CONTROL_TYPE, wlanapi/WLAN_IHV_CONTROL_TYPE, wlanapi/wlan_ihv_control_type_driver, wlanapi/wlan_ihv_control_type_service"
 ms.prod: windows-hardware
 ms.technology: windows-devices

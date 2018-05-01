@@ -7,7 +7,7 @@ old-location: com\ipersiststorage_save.htm
 old-project: com
 ms.assetid: 3a200812-48d9-4202-987a-1400aa66191c
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IPersistStorage, IPersistStorage interface [COM], Save method, IPersistStorage::Save, Save method [COM], Save method [COM], IPersistStorage interface, Save,IPersistStorage.Save, _com_ipersiststorage_save, com.ipersiststorage_save, objidl/IPersistStorage::Save
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IPersistStorage::Save method

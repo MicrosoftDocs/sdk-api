@@ -7,7 +7,7 @@ old-location: shell\GetProfileType.htm
 old-project: shell
 ms.assetid: 55ee76c8-1735-43eb-a98e-9e6c87ee1ba7
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetProfileType, GetProfileType function [Windows Shell], PT_MANDATORY, PT_ROAMING, PT_ROAMING_PREEXISTING, PT_TEMPORARY, _shell_GetProfileType, shell.GetProfileType, userenv/GetProfileType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: SOFTDISTINFO, *LPSOFTDISTINFO
+req.typenames: USB_UNICODE_NAME, *PUSB_UNICODE_NAME
 topic_type:
 -	APIRef
 -	kbSyntax

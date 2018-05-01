@@ -7,7 +7,7 @@ old-location: com\ioleundomanager_redoto.htm
 old-project: com
 ms.assetid: 1d5d0cb6-2c1b-49c8-8923-59845fa6231c
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IOleUndoManager, IOleUndoManager interface [COM], RedoTo method, IOleUndoManager::RedoTo, RedoTo method [COM], RedoTo method [COM], IOleUndoManager interface, RedoTo,IOleUndoManager.RedoTo, _ole_ioleundomanager_redoto, com.ioleundomanager_redoto, ocidl/IOleUndoManager::RedoTo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IOleUndoManager::RedoTo method

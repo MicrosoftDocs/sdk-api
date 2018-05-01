@@ -7,7 +7,7 @@ old-location: security\iaztask_addpropertyitem.htm
 old-project: SecAuthZ
 ms.assetid: 50d8c1f2-11c3-41d8-b935-a8f296d2c18f
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: AZ_PROP_TASK_OPERATIONS, AZ_PROP_TASK_TASKS, AddPropertyItem method [Security], AddPropertyItem method [Security], AzTask object, AddPropertyItem method [Security], IAzTask interface, AddPropertyItem,IAzTask.AddPropertyItem, AzTask object [Security], AddPropertyItem method, IAzTask, IAzTask interface [Security], AddPropertyItem method, IAzTask::AddPropertyItem, azroles/IAzTask::AddPropertyItem, security.iaztask_addpropertyitem
 ms.prod: windows-hardware
 ms.technology: windows-devices

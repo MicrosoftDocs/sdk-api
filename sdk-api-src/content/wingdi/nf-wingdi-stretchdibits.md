@@ -7,7 +7,7 @@ old-location: gdi\stretchdibits.htm
 old-project: gdi
 ms.assetid: 3d57a79a-338d-48ab-8161-3ce17739bf20
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/17/2018
 ms.keywords: DIB_PAL_COLORS, DIB_RGB_COLORS, StretchDIBits, StretchDIBits function [Windows GDI], _win32_StretchDIBits, gdi.stretchdibits, wingdi/StretchDIBits
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: FAX_TIME, *PFAX_TIME
+req.typenames: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
 topic_type:
 -	APIRef
 -	kbSyntax

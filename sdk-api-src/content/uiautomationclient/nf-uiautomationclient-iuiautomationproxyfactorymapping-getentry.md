@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationProxyFactoryMapping_GetEntry.htm
 old-project: WinAuto
 ms.assetid: 1500c5e5-5161-4753-ab3a-7e5b62246411
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: GetEntry method [Windows Accessibility], GetEntry method [Windows Accessibility], IUIAutomationProxyFactoryMapping interface, GetEntry,IUIAutomationProxyFactoryMapping.GetEntry, IUIAutomationProxyFactoryMapping, IUIAutomationProxyFactoryMapping interface [Windows Accessibility], GetEntry method, IUIAutomationProxyFactoryMapping::GetEntry, uiauto.uiauto_IUIAutomationProxyFactoryMapping_GetEntry, uiauto_IUIAutomationProxyFactoryMapping_GetEntry, uiautomationclient/IUIAutomationProxyFactoryMapping::GetEntry, winauto.uiauto_IUIAutomationProxyFactoryMapping_GetEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices

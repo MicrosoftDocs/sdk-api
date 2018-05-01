@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationProxyFactoryEntry_CanCheckBaseClass.ht
 old-project: WinAuto
 ms.assetid: c5a09754-4974-4742-ace8-55a2f290af83
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: CanCheckBaseClass property [Windows Accessibility], CanCheckBaseClass property [Windows Accessibility], IUIAutomationProxyFactoryEntry interface, IUIAutomationProxyFactoryEntry, IUIAutomationProxyFactoryEntry interface [Windows Accessibility], CanCheckBaseClass property, IUIAutomationProxyFactoryEntry.CanCheckBaseClass, IUIAutomationProxyFactoryEntry::get_CanCheckBaseClass, IUIAutomationProxyFactoryEntry::put_CanCheckBaseClass, get_CanCheckBaseClass,IUIAutomationProxyFactoryEntry.get_CanCheckBaseClass, uiauto.uiauto_IUIAutomationProxyFactoryEntry_CanCheckBaseClass, uiauto_IUIAutomationProxyFactoryEntry_CanCheckBaseClass, uiautomationclient/IUIAutomationProxyFactoryEntry::CanCheckBaseClass, uiautomationclient/IUIAutomationProxyFactoryEntry::get_CanCheckBaseClass, uiautomationclient/IUIAutomationProxyFactoryEntry::put_CanCheckBaseClass, winauto.uiauto_IUIAutomationProxyFactoryEntry_CanCheckBaseClass
 ms.prod: windows-hardware
 ms.technology: windows-devices

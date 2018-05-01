@@ -7,7 +7,7 @@ old-location: gdi\emrgdicomment.htm
 old-project: gdi
 ms.assetid: aac18154-bd50-45a4-a1ba-390b59525fa9
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/17/2018
 ms.keywords: "*PEMRGDICOMMENT, EMRGDICOMMENT, EMRGDICOMMENT structure [Windows GDI], PEMRGDICOMMENT, PEMRGDICOMMENT structure pointer [Windows GDI], _win32_EMRGDICOMMENT_str, gdi.emrgdicomment, tagEMRGDICOMMENT, wingdi/EMRGDICOMMENT, wingdi/PEMRGDICOMMENT"
 ms.prod: windows-hardware
 ms.technology: windows-devices

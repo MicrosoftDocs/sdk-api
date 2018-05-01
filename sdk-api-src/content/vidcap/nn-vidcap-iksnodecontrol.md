@@ -7,7 +7,7 @@ old-location: dshow\iksnodecontrol.htm
 old-project: DirectShow
 ms.assetid: c38ce847-726a-4c1a-9276-810385af6c9f
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IKsNodeControl, IKsNodeControl interface [DirectShow], IKsNodeControl interface [DirectShow], described, IKsNodeControlInterface, dshow.iksnodecontrol, vidcap/IKsNodeControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: VIDEOHDR, *PVIDEOHDR, *LPVIDEOHDR
+req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
 topic_type:
 -	APIRef
 -	kbSyntax

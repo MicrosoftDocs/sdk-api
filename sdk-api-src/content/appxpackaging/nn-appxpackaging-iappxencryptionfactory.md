@@ -7,7 +7,7 @@ old-location: appxpkg\iappxencryptionfactory.htm
 old-project: appxpkg
 ms.assetid: F07138FE-340F-4493-A3A9-AED075B2CEEA
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/26/2018
 ms.keywords: IAppxEncryptionFactory, IAppxEncryptionFactory interface [App packaging and management], IAppxEncryptionFactory interface [App packaging and management], described, appxpackaging/IAppxEncryptionFactory, appxpkg.iappxencryptionfactory
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_ARCHITECTURE2
+req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
 topic_type:
 -	APIRef
 -	kbSyntax

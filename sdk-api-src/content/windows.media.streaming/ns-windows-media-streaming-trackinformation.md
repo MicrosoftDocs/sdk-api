@@ -7,7 +7,7 @@ old-location: mediastreaming\trackinformation.htm
 old-project: mediastreaming
 ms.assetid: 47398d9f-9462-49c1-a02c-985212a07363
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/10/2018
 ms.keywords: TrackInformation, TrackInformation structure [Media Streaming API], mediastreaming.trackinformation, windows/TrackInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

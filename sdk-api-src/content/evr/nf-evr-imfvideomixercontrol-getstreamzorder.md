@@ -7,7 +7,7 @@ old-location: mf\imfvideomixercontrol_getstreamzorder.htm
 old-project: medfound
 ms.assetid: 9e0ba97c-c960-4e26-a89c-ea1a4e91e907
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 9e0ba97c-c960-4e26-a89c-ea1a4e91e907, GetStreamZOrder method [Media Foundation], GetStreamZOrder method [Media Foundation], IMFVideoMixerControl interface, GetStreamZOrder,IMFVideoMixerControl.GetStreamZOrder, IMFVideoMixerControl, IMFVideoMixerControl interface [Media Foundation], GetStreamZOrder method, IMFVideoMixerControl::GetStreamZOrder, evr/IMFVideoMixerControl::GetStreamZOrder, mf.imfvideomixercontrol_getstreamzorder
 ms.prod: windows-hardware
 ms.technology: windows-devices

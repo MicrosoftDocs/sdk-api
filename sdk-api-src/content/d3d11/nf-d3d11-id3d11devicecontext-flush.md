@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext_flush.htm
 old-project: direct3d11
 ms.assetid: e204c585-4996-4274-a654-b9912e957fe6
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/6/2018
 ms.keywords: Flush method [Direct3D 11], Flush method [Direct3D 11], ID3D11DeviceContext interface, Flush,ID3D11DeviceContext.Flush, ID3D11DeviceContext, ID3D11DeviceContext interface [Direct3D 11], Flush method, ID3D11DeviceContext::Flush, b14698ec-f6ed-febc-05d4-5a02d568e816, d3d11/ID3D11DeviceContext::Flush, direct3d11.id3d11devicecontext_flush
 ms.prod: windows-hardware
 ms.technology: windows-devices

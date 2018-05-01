@@ -7,7 +7,7 @@ old-location: ics\inetsharingeveryconnectioncollection_get_count.htm
 old-project: ICS
 ms.assetid: c387ab2c-7edd-4975-a735-d555dd7191cf
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: INetSharingEveryConnectionCollection, INetSharingEveryConnectionCollection interface [ICS/ICF], get_Count method, INetSharingEveryConnectionCollection::get_Count, _ics_inetsharingeveryconnectioncollection_get_count, get_Count method [ICS/ICF], get_Count method [ICS/ICF], INetSharingEveryConnectionCollection interface, get_Count,INetSharingEveryConnectionCollection.get_Count, ics.inetsharingeveryconnectioncollection_get_count, netcon/INetSharingEveryConnectionCollection::get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # INetSharingEveryConnectionCollection::get_Count method

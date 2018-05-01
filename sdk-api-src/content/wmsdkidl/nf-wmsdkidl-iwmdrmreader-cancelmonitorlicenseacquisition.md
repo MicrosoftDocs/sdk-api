@@ -7,7 +7,7 @@ old-location: wmformat\iwmdrmreader_cancelmonitorlicenseacquisition.htm
 old-project: wmformat
 ms.assetid: 9d33f727-9213-4744-bf65-42b971e3f7da
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: CancelMonitorLicenseAcquisition method [windows Media Format], CancelMonitorLicenseAcquisition method [windows Media Format], IWMDRMReader interface, CancelMonitorLicenseAcquisition,IWMDRMReader.CancelMonitorLicenseAcquisition, IWMDRMReader, IWMDRMReader interface [windows Media Format], CancelMonitorLicenseAcquisition method, IWMDRMReader::CancelMonitorLicenseAcquisition, IWMDRMReaderCancelMonitorLicenseAcquisition, wmformat.iwmdrmreader_cancelmonitorlicenseacquisition, wmsdkidl/IWMDRMReader::CancelMonitorLicenseAcquisition
 ms.prod: windows-hardware
 ms.technology: windows-devices

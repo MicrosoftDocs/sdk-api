@@ -7,7 +7,7 @@ old-location: automat\ierrorinfo_gethelpfile.htm
 old-project: automat
 ms.assetid: f8458382-0af7-4a9b-add3-9c99af070be4
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: GetHelpFile method [Automation], GetHelpFile method [Automation], IErrorInfo interface, GetHelpFile,IErrorInfo.GetHelpFile, IErrorInfo, IErrorInfo interface [Automation], GetHelpFile method, IErrorInfo::GetHelpFile, _oa96_IErrorInfo_GetHelpFile, automat.ierrorinfo_gethelpfile, oaidl/IErrorInfo::GetHelpFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IErrorInfo::GetHelpFile method

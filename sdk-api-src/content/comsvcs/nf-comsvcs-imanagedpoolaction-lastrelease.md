@@ -7,7 +7,7 @@ old-location: cos\imanagedpoolaction_lastrelease.htm
 old-project: cossdk
 ms.assetid: 6685da39-17bb-4c4e-b47a-888511f605ad
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: IManagedPoolAction, IManagedPoolAction interface [COM+], LastRelease method, IManagedPoolAction::LastRelease, LastRelease method [COM+], LastRelease method [COM+], IManagedPoolAction interface, LastRelease,IManagedPoolAction.LastRelease, _cos_IManagedPoolAction_LastRelease, comsvcs/IManagedPoolAction::LastRelease, cos.imanagedpoolaction_lastrelease
 ms.prod: windows-hardware
 ms.technology: windows-devices

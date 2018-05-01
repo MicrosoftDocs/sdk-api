@@ -7,7 +7,7 @@ old-location: mf\imfcaptureengine_initialize.htm
 old-project: medfound
 ms.assetid: 23EC8B49-2F67-4FB8-AFFA-409823ACCF59
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFCaptureEngine, IMFCaptureEngine interface [Media Foundation], Initialize method, IMFCaptureEngine::Initialize, Initialize method [Media Foundation], Initialize method [Media Foundation], IMFCaptureEngine interface, Initialize,IMFCaptureEngine.Initialize, mf.imfcaptureengine_initialize, mfcaptureengine/IMFCaptureEngine::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

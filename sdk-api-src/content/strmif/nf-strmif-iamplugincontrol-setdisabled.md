@@ -7,7 +7,7 @@ old-location: dshow\iamplugincontrol_setdisabled.htm
 old-project: DirectShow
 ms.assetid: 3ac4b3b5-0882-4e30-b3fa-1dcee33a74d3
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMPluginControl, IAMPluginControl interface [DirectShow], SetDisabled method, IAMPluginControl::SetDisabled, SetDisabled method [DirectShow], SetDisabled method [DirectShow], IAMPluginControl interface, SetDisabled,IAMPluginControl.SetDisabled, dshow.iamplugincontrol_setdisabled, strmif/IAMPluginControl::SetDisabled
 ms.prod: windows-hardware
 ms.technology: windows-devices

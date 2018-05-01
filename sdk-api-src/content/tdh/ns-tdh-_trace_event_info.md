@@ -59,16 +59,6 @@ req.product: Windows XP with SP1 and later
 
 
 
-### -field Reserved
-
- 
-
-
-### -field Tags
-
-A 28-bit value associated with the event metadata. This value can be used by the event provider to associate additional semantic data with an event for use by an event processing tool. For example, a tag value of 5 might indicate that the event contains debugging information. The semantics of any values in this field are defined by the event provider.
-
-
 ### -field ProviderGuid
 
 A GUID that identifies the provider.
@@ -149,6 +139,16 @@ The number of elements in the <b>EventPropertyInfoArray</b> array.
 ### -field TopLevelPropertyCount
 
 The number of properties in the <b>EventPropertyInfoArray</b> array that are top-level properties. This number does not include members of structures. Top-level properties come before all member properties in the array.
+
+
+### -field Reserved
+
+ 
+
+
+### -field Tags
+
+A 28-bit value associated with the event metadata. This value can be used by the event provider to associate additional semantic data with an event for use by an event processing tool. For example, a tag value of 5 might indicate that the event contains debugging information. The semantics of any values in this field are defined by the event provider.
 
 
 ### -field EventPropertyInfoArray

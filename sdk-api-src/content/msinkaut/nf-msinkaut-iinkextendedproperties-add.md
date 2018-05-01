@@ -7,7 +7,7 @@ old-location: tablet\iinkextendedproperties_add.htm
 old-project: tablet
 ms.assetid: 4fff6945-b46e-4e72-af45-ca066e73338e
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: 4fff6945-b46e-4e72-af45-ca066e73338e, Add method [Tablet PC], Add method [Tablet PC], IInkExtendedProperties interface, Add,IInkExtendedProperties.Add, IInkExtendedProperties, IInkExtendedProperties interface [Tablet PC], Add method, IInkExtendedProperties::Add, msinkaut/IInkExtendedProperties::Add, tablet.iinkextendedproperties_add
 ms.prod: windows-hardware
 ms.technology: windows-devices

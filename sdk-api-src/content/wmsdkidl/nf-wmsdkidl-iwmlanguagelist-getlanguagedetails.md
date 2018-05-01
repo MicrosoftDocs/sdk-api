@@ -7,7 +7,7 @@ old-location: wmformat\iwmlanguagelist_getlanguagedetails.htm
 old-project: wmformat
 ms.assetid: beb9f4fb-0acf-4693-b98e-2c197b330de5
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: GetLanguageDetails method [windows Media Format], GetLanguageDetails method [windows Media Format], IWMLanguageList interface, GetLanguageDetails,IWMLanguageList.GetLanguageDetails, IWMLanguageList, IWMLanguageList interface [windows Media Format], GetLanguageDetails method, IWMLanguageList::GetLanguageDetails, IWMLanguageListGetLanguageDetails, wmformat.iwmlanguagelist_getlanguagedetails, wmsdkidl/IWMLanguageList::GetLanguageDetails
 ms.prod: windows-hardware
 ms.technology: windows-devices

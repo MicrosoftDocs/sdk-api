@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicbitmapsource_getpixelformat.htm
 old-project: wic
 ms.assetid: 6fd30a38-a447-4e4e-93ea-e31c5ba1271e
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: GetPixelFormat method [Windows Imaging Component], GetPixelFormat method [Windows Imaging Component], IWICBitmapSource interface, GetPixelFormat,IWICBitmapSource.GetPixelFormat, IWICBitmapSource, IWICBitmapSource interface [Windows Imaging Component], GetPixelFormat method, IWICBitmapSource::GetPixelFormat, _wic_codec_iwicbitmapsource_getpixelformat, wic._wic_codec_iwicbitmapsource_getpixelformat, wincodec/IWICBitmapSource::GetPixelFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices

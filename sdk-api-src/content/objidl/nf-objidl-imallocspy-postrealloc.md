@@ -7,7 +7,7 @@ old-location: com\imallocspy_postrealloc.htm
 old-project: com
 ms.assetid: 77f86494-f7b3-4c12-bb42-ad74161a1dff
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IMallocSpy, IMallocSpy interface [COM], PostRealloc method, IMallocSpy::PostRealloc, PostRealloc method [COM], PostRealloc method [COM], IMallocSpy interface, PostRealloc,IMallocSpy.PostRealloc, _com_imallocspy_postrealloc, com.imallocspy_postrealloc, objidl/IMallocSpy::PostRealloc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMallocSpy::PostRealloc method

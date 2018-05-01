@@ -7,7 +7,7 @@ old-location: cos\igetapptrackerdata_getsuggestedpollinginterval.htm
 old-project: cossdk
 ms.assetid: fcc65fd3-debf-4b5c-aaf2-3e7234510d35
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: GetSuggestedPollingInterval method [COM+], GetSuggestedPollingInterval method [COM+], IGetAppTrackerData interface, GetSuggestedPollingInterval,IGetAppTrackerData.GetSuggestedPollingInterval, IGetAppTrackerData, IGetAppTrackerData interface [COM+], GetSuggestedPollingInterval method, IGetAppTrackerData::GetSuggestedPollingInterval, comsvcs/IGetAppTrackerData::GetSuggestedPollingInterval, cos.igetapptrackerdata_getsuggestedpollinginterval
 ms.prod: windows-hardware
 ms.technology: windows-devices

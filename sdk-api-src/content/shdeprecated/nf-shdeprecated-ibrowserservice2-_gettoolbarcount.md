@@ -7,7 +7,7 @@ old-location: shell\IBrowserService2__GetToolbarCount.htm
 old-project: shell
 ms.assetid: 7884c80d-dc15-42a7-80e3-566eed819275
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IBrowserService2, IBrowserService2 interface [Windows Shell], _GetToolbarCount method, IBrowserService2::_GetToolbarCount, _GetToolbarCount method [Windows Shell], _GetToolbarCount method [Windows Shell], IBrowserService2 interface, _GetToolbarCount,IBrowserService2._GetToolbarCount, shdeprecated/IBrowserService2::_GetToolbarCount, shell.IBrowserService2__GetToolbarCount, zone_IBrowserService2__GetToolbarCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

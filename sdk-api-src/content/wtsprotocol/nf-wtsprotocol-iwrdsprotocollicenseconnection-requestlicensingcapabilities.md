@@ -7,7 +7,7 @@ old-location: termserv\iwrdsprotocollicenseconnection_requestlicensingcapabiliti
 old-project: TermServ
 ms.assetid: a5814a01-9e4b-4510-b6a5-fa6edc6a15ed
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: IWRdsProtocolLicenseConnection, IWRdsProtocolLicenseConnection interface [Remote Desktop Services], RequestLicensingCapabilities method, IWRdsProtocolLicenseConnection::RequestLicensingCapabilities, RequestLicensingCapabilities method [Remote Desktop Services], RequestLicensingCapabilities method [Remote Desktop Services], IWRdsProtocolLicenseConnection interface, RequestLicensingCapabilities,IWRdsProtocolLicenseConnection.RequestLicensingCapabilities, termserv.iwrdsprotocollicenseconnection_requestlicensingcapabilities, wtsprotocol/IWRdsProtocolLicenseConnection::RequestLicensingCapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices

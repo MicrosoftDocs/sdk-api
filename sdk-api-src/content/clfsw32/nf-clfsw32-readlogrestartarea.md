@@ -7,7 +7,7 @@ old-location: fs\readlogrestartarea.htm
 old-project: Clfs
 ms.assetid: ab59d2fe-d951-42f3-b270-844eaeb6ff90
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/25/2018
 ms.keywords: ReadLogRestartArea, ReadLogRestartArea function [Files], clfsw32/ReadLogRestartArea, fs.readlogrestartarea
 ms.prod: windows-hardware
 ms.technology: windows-devices

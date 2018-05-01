@@ -7,7 +7,7 @@ old-location: shell\syncmgr_isyncmgrregister.htm
 old-project: shell
 ms.assetid: 1feed230-5a50-4ff5-a8a9-e0ce15ba8f1c
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ISyncMgrRegister, ISyncMgrRegister interface [Windows Shell], ISyncMgrRegister interface [Windows Shell], described, mobsync/ISyncMgrRegister, shell.syncmgr_isyncmgrregister, syncmgr.isyncmgrregister
 ms.prod: windows-hardware
 ms.technology: windows-devices

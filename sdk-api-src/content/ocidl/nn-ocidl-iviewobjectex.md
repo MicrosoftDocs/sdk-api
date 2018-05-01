@@ -7,7 +7,7 @@ old-location: com\iviewobjectex.htm
 old-project: com
 ms.assetid: 4e677ec6-9c9e-4ee7-bb7f-1df6e590319b
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IViewObjectEx, IViewObjectEx interface [COM], IViewObjectEx interface [COM], described, _ole_iviewobjectex, com.iviewobjectex, ocidl/IViewObjectEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IViewObjectEx interface

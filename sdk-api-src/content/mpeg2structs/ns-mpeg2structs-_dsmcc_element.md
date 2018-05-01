@@ -7,7 +7,7 @@ old-location: mstv\dsmcc_element.htm
 old-project: mstv
 ms.assetid: 4d556cd8-cac5-4d79-a440-e2b5deddcdf8
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: "*PDSMCC_ELEMENT, DSMCC_ELEMENT, DSMCC_ELEMENT structure [Microsoft TV Technologies], PDSMCC_ELEMENT, PDSMCC_ELEMENT structure pointer [Microsoft TV Technologies], _DSMCC_ELEMENT, mpeg2structs/DSMCC_ELEMENT, mpeg2structs/PDSMCC_ELEMENT, mstv.dsmcc_element"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,11 +61,6 @@ The <b>DSMCC_ELEMENT</b> structure contains information from a DSM-CC element.
 
 
 
-### -field pNext
-
-Pointer to the next <b>DSMCC_ELEMENT</b> structure in the list, or <b>NULL</b> if this element is the end of the list.
-
-
 ### -field pid
 
 Packet identifier (PID).
@@ -84,6 +79,11 @@ Carousel identifier.
 ### -field dwTransactionId
 
 Transaction identifier.
+
+
+### -field pNext
+
+Pointer to the next <b>DSMCC_ELEMENT</b> structure in the list, or <b>NULL</b> if this element is the end of the list.
 
 
 ## -see-also

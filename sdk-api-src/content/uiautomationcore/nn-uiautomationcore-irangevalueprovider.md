@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IRangeValueProvider.htm
 old-project: WinAuto
 ms.assetid: 1e9e39f9-e728-4ed6-bc62-80d3bbe6302d
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: IRangeValueProvider, IRangeValueProvider interface [Windows Accessibility], IRangeValueProvider interface [Windows Accessibility], described, uiauto.uiauto_IRangeValueProvider, uiauto_IRangeValueProvider, uiautomationcore/IRangeValueProvider, winauto.uiauto_IRangeValueProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices

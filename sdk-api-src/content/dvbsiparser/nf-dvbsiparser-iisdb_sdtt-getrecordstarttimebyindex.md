@@ -7,7 +7,7 @@ old-location: mstv\iisdb_sdtt_getrecordstarttimebyindex.htm
 old-project: mstv
 ms.assetid: ccbeb664-6c84-4f50-9376-dfa0492aa9e1
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetRecordStartTimeByIndex method [Microsoft TV Technologies], GetRecordStartTimeByIndex method [Microsoft TV Technologies], IISDB_SDTT interface, GetRecordStartTimeByIndex,IISDB_SDTT.GetRecordStartTimeByIndex, IISDB_SDTT, IISDB_SDTT interface [Microsoft TV Technologies], GetRecordStartTimeByIndex method, IISDB_SDTT::GetRecordStartTimeByIndex, dvbsiparser/IISDB_SDTT::GetRecordStartTimeByIndex, mstv.iisdb_sdtt_getrecordstarttimebyindex
 ms.prod: windows-hardware
 ms.technology: windows-devices

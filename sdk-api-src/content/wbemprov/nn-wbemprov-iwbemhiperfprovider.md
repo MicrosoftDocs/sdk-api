@@ -7,7 +7,7 @@ old-location: wmi\iwbemhiperfprovider.htm
 old-project: WmiSdk
 ms.assetid: eb0d12c0-d746-4bae-b47d-50350d33447a
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: IWbemHiPerfProvider, IWbemHiPerfProvider interface [Windows Management Instrumentation], IWbemHiPerfProvider interface [Windows Management Instrumentation], described, _hmm_iwbemhiperfprovider, wbemprov/IWbemHiPerfProvider, wmi.iwbemhiperfprovider
 ms.prod: windows-hardware
 ms.technology: windows-devices

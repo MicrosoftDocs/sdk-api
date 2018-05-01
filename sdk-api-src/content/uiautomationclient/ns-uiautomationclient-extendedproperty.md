@@ -7,7 +7,7 @@ old-location: winauto\uiauto_extendedproperty.htm
 old-project: WinAuto
 ms.assetid: 3d0037f5-cff7-4502-b648-a2a60127eaff
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: ExtendedProperty, ExtendedProperty structure [Windows Accessibility], uiautomationclient/ExtendedProperty, winauto.uiauto_extendedproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

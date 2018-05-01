@@ -7,7 +7,7 @@ old-location: tracelogging\traceloggingsetinformation.htm
 old-project: tracelogging
 ms.assetid: 7676DB80-6C4B-41EC-8FB5-8FD330D8ED49
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: TraceLoggingSetInformation, TraceLoggingSetInformation function, tracelogging.traceloggingsetinformation, traceloggingprovider/TraceLoggingSetInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

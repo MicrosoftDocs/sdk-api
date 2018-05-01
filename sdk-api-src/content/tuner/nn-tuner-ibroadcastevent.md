@@ -7,7 +7,7 @@ old-location: mstv\ibroadcastevent.htm
 old-project: mstv
 ms.assetid: 90d4fbc7-d552-460b-96b2-77e2347af716
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IBroadcastEvent, IBroadcastEvent interface [Microsoft TV Technologies], IBroadcastEvent interface [Microsoft TV Technologies], described, IBroadcastEventInterface, mstv.ibroadcastevent, tuner/IBroadcastEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

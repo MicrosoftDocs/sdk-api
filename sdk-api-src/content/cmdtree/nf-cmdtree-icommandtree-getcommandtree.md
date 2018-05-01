@@ -7,7 +7,7 @@ old-location: indexsrv\icommandtree_getcommandtree.htm
 old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_2811.htm
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/11/2018
 ms.keywords: GetCommandTree method [Indexing Service], GetCommandTree method [Indexing Service], ICommandTree interface, GetCommandTree,ICommandTree.GetCommandTree, ICommandTree, ICommandTree interface [Indexing Service], GetCommandTree method, ICommandTree::GetCommandTree, _idxs_ICommandTree_GetCommandTree, cmdtree/ICommandTree::GetCommandTree, indexsrv.icommandtree_getcommandtree
 ms.prod: windows-hardware
 ms.technology: windows-devices

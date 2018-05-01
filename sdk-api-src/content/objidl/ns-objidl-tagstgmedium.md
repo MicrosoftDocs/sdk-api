@@ -7,7 +7,7 @@ old-location: com\stgmedium.htm
 old-project: com
 ms.assetid: 5d05819a-10db-4d8e-91e4-8a7c05885cde
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*LPSTGMEDIUM, ASYNC_STGMEDIUM, LPSTGMEDIUM, LPSTGMEDIUM structure pointer [COM], STGMEDIUM, STGMEDIUM structure [COM], _ole_STGMEDIUM, com.stgmedium, objidl/LPSTGMEDIUM, objidl/STGMEDIUM, tagSTGMEDIUM, uSTGMEDIUM"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # tagSTGMEDIUM structure
@@ -58,14 +58,14 @@ Represents a generalized global memory handle used for data transfer operations 
 
 
 
-### -field u
-
- 
-
-
 ### -field tymed
 
 The ype of storage medium. The marshaling and unmarshaling routines use this value to determine which union member was used. This value must be one of the elements of the <a href="https://msdn.microsoft.com/ac41286f-7c67-444a-81b7-21b61079bbf5">TYMED</a> enumeration.
+
+
+### -field u
+
+ 
 
 
 ### -field pUnkForRelease

@@ -7,7 +7,7 @@ old-location: winrt\ipackagedebugsettings_registerforpackagestatechanges.htm
 old-project: WinRT
 ms.assetid: B53CF95C-FD40-45E2-869B-32F089986D13
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/24/2018
 ms.keywords: IPackageDebugSettings, IPackageDebugSettings interface [Windows Runtime], RegisterForPackageStateChanges method, IPackageDebugSettings::RegisterForPackageStateChanges, RegisterForPackageStateChanges method [Windows Runtime], RegisterForPackageStateChanges method [Windows Runtime], IPackageDebugSettings interface, RegisterForPackageStateChanges,IPackageDebugSettings.RegisterForPackageStateChanges, shobjidl_core/IPackageDebugSettings::RegisterForPackageStateChanges, winrt.ipackagedebugsettings_registerforpackagestatechanges
 ms.prod: windows-hardware
 ms.technology: windows-devices

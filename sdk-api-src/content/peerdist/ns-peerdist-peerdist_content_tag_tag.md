@@ -7,7 +7,7 @@ old-location: p2p\peerdist_content_tag.htm
 old-project: P2PSdk
 ms.assetid: 09eab22b-0534-44db-9954-ff5a9c5667f9
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/23/2018
 ms.keywords: "*PPEERDIST_CONTENT_TAG, PEERDIST_CONTENT_TAG, PEERDIST_CONTENT_TAG structure [Peer Networking], PPEERDIST_CONTENT_TAG, PPEERDIST_CONTENT_TAG structure pointer [Peer Networking], p2p.peerdist_content_tag, peerdist/PEERDIST_CONTENT_TAG, peerdist/PPEERDIST_CONTENT_TAG, peerdist_content_tag_tag"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # peerdist_content_tag_tag structure

@@ -7,7 +7,7 @@ old-location: ics\inetfwpolicy2_enablerulegroup.htm
 old-project: ICS
 ms.assetid: fceb9562-b8de-4ccd-9d3e-4a4a4784a35f
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: EnableRuleGroup method [ICS/ICF], EnableRuleGroup method [ICS/ICF], INetFwPolicy2 interface, EnableRuleGroup,INetFwPolicy2.EnableRuleGroup, INetFwPolicy2, INetFwPolicy2 interface [ICS/ICF], EnableRuleGroup method, INetFwPolicy2::EnableRuleGroup, ics.inetfwpolicy2_enablerulegroup, netfw/INetFwPolicy2::EnableRuleGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: FirewallAPI.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # INetFwPolicy2::EnableRuleGroup method

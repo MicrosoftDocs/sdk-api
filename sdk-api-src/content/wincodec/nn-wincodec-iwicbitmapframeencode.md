@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicbitmapframeencode.htm
 old-project: wic
 ms.assetid: a8de774b-3783-46be-9a21-c9fec2f10ffd
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: IWICBitmapFrameEncode, IWICBitmapFrameEncode interface [Windows Imaging Component], IWICBitmapFrameEncode interface [Windows Imaging Component], described, _wic_codec_iwicbitmapframeencode, wic._wic_codec_iwicbitmapframeencode, wincodec/IWICBitmapFrameEncode
 ms.prod: windows-hardware
 ms.technology: windows-devices

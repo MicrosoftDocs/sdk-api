@@ -38,7 +38,7 @@ api_name:
 -	WIAVIDEO_STATE
 product: Windows
 targetos: Windows
-req.lib: Wiaguid.lib
+req.lib: 
 req.dll: 
 req.irql: 
 req.product: Windows Address Book 5.0

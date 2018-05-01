@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationTextEditTextChangedEventHandler_Handle
 old-project: WinAuto
 ms.assetid: FA63086A-40C5-BE7B-DC4E-2C8547636AE8
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: HandleTextEditTextChangedEvent method [Windows Accessibility], HandleTextEditTextChangedEvent method [Windows Accessibility], IUIAutomationTextEditTextChangedEventHandler interface, HandleTextEditTextChangedEvent,IUIAutomationTextEditTextChangedEventHandler.HandleTextEditTextChangedEvent, IUIAutomationTextEditTextChangedEventHandler, IUIAutomationTextEditTextChangedEventHandler interface [Windows Accessibility], HandleTextEditTextChangedEvent method, IUIAutomationTextEditTextChangedEventHandler::HandleTextEditTextChangedEvent, uiautomationclient/IUIAutomationTextEditTextChangedEventHandler::HandleTextEditTextChangedEvent, winauto.uiauto_IUIAutomationTextEditTextChangedEventHandler_HandleTextEditTextChangedEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

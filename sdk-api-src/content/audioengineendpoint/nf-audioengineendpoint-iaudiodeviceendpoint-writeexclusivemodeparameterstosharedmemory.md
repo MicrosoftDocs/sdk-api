@@ -7,7 +7,7 @@ old-location: termserv\iaudiodeviceendpoint_writeexclusivemodeparameterstoshared
 old-project: TermServ
 ms.assetid: 0484432a-4bbe-4892-8888-f11d6384d387
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: IAudioDeviceEndpoint, IAudioDeviceEndpoint interface [Remote Desktop Services], WriteExclusiveModeParametersToSharedMemory method, IAudioDeviceEndpoint::WriteExclusiveModeParametersToSharedMemory, WriteExclusiveModeParametersToSharedMemory method [Remote Desktop Services], WriteExclusiveModeParametersToSharedMemory method [Remote Desktop Services], IAudioDeviceEndpoint interface, WriteExclusiveModeParametersToSharedMemory,IAudioDeviceEndpoint.WriteExclusiveModeParametersToSharedMemory, audioengineendpoint/IAudioDeviceEndpoint::WriteExclusiveModeParametersToSharedMemory, termserv.iaudiodeviceendpoint_writeexclusivemodeparameterstosharedmemory
 ms.prod: windows-hardware
 ms.technology: windows-devices

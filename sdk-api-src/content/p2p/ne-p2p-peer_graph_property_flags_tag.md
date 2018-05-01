@@ -7,7 +7,7 @@ old-location: p2p\peer_graph_property_flags.htm
 old-project: P2PSdk
 ms.assetid: 0e4f273f-7b6f-4aac-8fee-c0295479ee78
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/23/2018
 ms.keywords: PEER_GRAPH_PROPERTY_DEFER_EXPIRATION, PEER_GRAPH_PROPERTY_FLAGS, PEER_GRAPH_PROPERTY_FLAGS enumeration [Peer Networking], PEER_GRAPH_PROPERTY_HEARTBEATS, p2p.peer_graph_property_flags, p2p/PEER_GRAPH_PROPERTY_DEFER_EXPIRATION, p2p/PEER_GRAPH_PROPERTY_FLAGS, p2p/PEER_GRAPH_PROPERTY_HEARTBEATS, peer_graph_property_flags_tag
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # peer_graph_property_flags_tag enumeration

@@ -7,7 +7,7 @@ old-location: termserv\iwtsprotocolconnection_sendbeep.htm
 old-project: TermServ
 ms.assetid: 4665917d-4bc3-4017-9b69-3eb95e70337f
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: IWTSProtocolConnection, IWTSProtocolConnection interface [Remote Desktop Services], SendBeep method, IWTSProtocolConnection::SendBeep, SendBeep method [Remote Desktop Services], SendBeep method [Remote Desktop Services], IWTSProtocolConnection interface, SendBeep,IWTSProtocolConnection.SendBeep, termserv.iwtsprotocolconnection_sendbeep, wtsprotocol/IWTSProtocolConnection::SendBeep
 ms.prod: windows-hardware
 ms.technology: windows-devices

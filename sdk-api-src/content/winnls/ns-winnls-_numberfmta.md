@@ -7,7 +7,7 @@ old-location: intl\numberfmt.htm
 old-project: Intl
 ms.assetid: cb8a7714-3777-41b4-894b-bb0c0797d51e
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/25/2018
 ms.keywords: "*LPNUMBERFMTA, LPNUMBERFMT, LPNUMBERFMT structure pointer [Internationalization for Windows Applications], NUMBERFMT, NUMBERFMT structure [Internationalization for Windows Applications], NUMBERFMTA, _numberfmtA, _win32_NUMBERFMT_str, intl.numberfmt, winnls/LPNUMBERFMT, winnls/NUMBERFMT"
 ms.prod: windows-hardware
 ms.technology: windows-devices

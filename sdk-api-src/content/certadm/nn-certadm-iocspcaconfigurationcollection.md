@@ -7,7 +7,7 @@ old-location: security\iocspcaconfigurationcollection.htm
 old-project: SecCrypto
 ms.assetid: 4e232c34-b5ab-4269-903b-189aac5a8ddc
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: IOCSPCAConfigurationCollection, IOCSPCAConfigurationCollection interface [Security], IOCSPCAConfigurationCollection interface [Security], described, certadm/IOCSPCAConfigurationCollection, security.iocspcaconfigurationcollection
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CHANNEL_ENTRY_POINTS, *PCHANNEL_ENTRY_POINTS
+req.typenames: 
 topic_type:
 -	APIRef
 -	kbSyntax

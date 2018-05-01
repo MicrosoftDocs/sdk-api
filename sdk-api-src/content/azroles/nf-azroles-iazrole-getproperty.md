@@ -7,7 +7,7 @@ old-location: security\iazrole_getproperty.htm
 old-project: SecAuthZ
 ms.assetid: f65058ce-962d-4cad-9f55-c8b983ffaa05
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: AZ_PROP_APPLICATION_DATA, AZ_PROP_CHILD_CREATE, AZ_PROP_DESCRIPTION, AZ_PROP_NAME, AZ_PROP_ROLE_APP_MEMBERS, AZ_PROP_ROLE_MEMBERS, AZ_PROP_ROLE_MEMBERS_NAME, AZ_PROP_ROLE_OPERATIONS, AZ_PROP_ROLE_TASKS, AZ_PROP_WRITABLE, AzRole object [Security], GetProperty method, GetProperty method [Security], GetProperty method [Security], AzRole object, GetProperty method [Security], IAzRole interface, GetProperty,IAzRole.GetProperty, IAzRole, IAzRole interface [Security], GetProperty method, IAzRole::GetProperty, azroles/IAzRole::GetProperty, security.iazrole_getproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

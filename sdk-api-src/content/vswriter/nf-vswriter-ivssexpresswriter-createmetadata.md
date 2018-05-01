@@ -7,7 +7,7 @@ old-location: base\ivssexpresswriter_createwritermetadata.htm
 old-project: VSS
 ms.assetid: 254f4a32-cb33-494e-8fb4-06ab1cc2b184
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: CreateMetadata method, CreateMetadata method, IVssExpressWriter interface, CreateMetadata,IVssExpressWriter.CreateMetadata, IVssExpressWriter, IVssExpressWriter interface, CreateMetadata method, IVssExpressWriter::CreateMetadata, base.ivssexpresswriter_createwritermetadata, vswriter/IVssExpressWriter::CreateMetadata
 ms.prod: windows-hardware
 ms.technology: windows-devices

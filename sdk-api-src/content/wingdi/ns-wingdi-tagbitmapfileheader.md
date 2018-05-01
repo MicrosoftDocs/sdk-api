@@ -7,7 +7,7 @@ old-location: gdi\bitmapfileheader.htm
 old-project: gdi
 ms.assetid: ae24c4db-fc29-4c97-bf78-069794c8d844
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/17/2018
 ms.keywords: "*LPBITMAPFILEHEADER, *PBITMAPFILEHEADER, BITMAPFILEHEADER, BITMAPFILEHEADER structure [Windows GDI], PBITMAPFILEHEADER, PBITMAPFILEHEADER structure pointer [Windows GDI], _win32_BITMAPFILEHEADER_str, gdi.bitmapfileheader, tagBITMAPFILEHEADER, wingdi/BITMAPFILEHEADER, wingdi/PBITMAPFILEHEADER"
 ms.prod: windows-hardware
 ms.technology: windows-devices

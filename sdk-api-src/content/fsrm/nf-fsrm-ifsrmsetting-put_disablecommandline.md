@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmsetting_disablecommandline.htm
 old-project: Fsrm
 ms.assetid: 2c919dfd-86ba-4069-b8c9-caac27123429
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: DisableCommandLine property [File Server Resource Manager], DisableCommandLine property [File Server Resource Manager], FsrmSetting class, DisableCommandLine property [File Server Resource Manager], IFsrmSetting interface, FsrmSetting class [File Server Resource Manager], DisableCommandLine property, IFsrmSetting, IFsrmSetting interface [File Server Resource Manager], DisableCommandLine property, IFsrmSetting.DisableCommandLine, IFsrmSetting::get_DisableCommandLine, IFsrmSetting::put_DisableCommandLine, fs.ifsrmsetting_disablecommandline, fsrm.ifsrmsetting_disablecommandline, fsrm/IFsrmSetting::DisableCommandLine, fsrm/IFsrmSetting::get_DisableCommandLine, fsrm/IFsrmSetting::put_DisableCommandLine, put_DisableCommandLine,IFsrmSetting.put_DisableCommandLine
 ms.prod: windows-hardware
 ms.technology: windows-devices

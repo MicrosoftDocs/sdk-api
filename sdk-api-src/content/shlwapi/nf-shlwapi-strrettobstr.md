@@ -7,7 +7,7 @@ old-location: shell\StrRetToBSTR.htm
 old-project: shell
 ms.assetid: 2a5a9a2b-74df-4521-a5b2-8fc91c3559eb
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: StrRetToBSTR, StrRetToBSTR function [Windows Shell], _shell_StrRetToBSTR, shell.StrRetToBSTR, shlwapi/StrRetToBSTR
 ms.prod: windows-hardware
 ms.technology: windows-devices

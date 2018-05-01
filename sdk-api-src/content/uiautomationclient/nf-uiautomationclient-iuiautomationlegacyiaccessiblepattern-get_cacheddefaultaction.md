@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_CachedDefault
 old-project: WinAuto
 ms.assetid: acd43075-4f53-48d3-a039-0882a4833d9e
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: CachedDefaultAction property [Windows Accessibility], CachedDefaultAction property [Windows Accessibility], IUIAutomationLegacyIAccessiblePattern interface, IUIAutomationLegacyIAccessiblePattern, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility], CachedDefaultAction property, IUIAutomationLegacyIAccessiblePattern.CachedDefaultAction, IUIAutomationLegacyIAccessiblePattern::get_CachedDefaultAction, get_CachedDefaultAction,IUIAutomationLegacyIAccessiblePattern.get_CachedDefaultAction, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CachedDefaultAction, uiauto_IUIAutomationLegacyIAccessiblePattern_CachedDefaultAction, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::CachedDefaultAction, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::get_CachedDefaultAction, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CachedDefaultAction
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_destinationoptions_getcertcacheck.htm
 old-project: wmi_v2
 ms.assetid: 9b1b5bca-4e1f-4c37-9df4-9101f40f1b97
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/18/2018
 ms.keywords: MI_DestinationOptions_GetCertCACheck, MI_DestinationOptions_GetCertCACheck function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_GetCertCACheck, wmi_v2.mi_destinationoptions_getcertcacheck
 ms.prod: windows-hardware
 ms.technology: windows-devices

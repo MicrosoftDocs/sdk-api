@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement2.htm
 old-project: WinAuto
 ms.assetid: 4D9A4E94-BAE9-4E85-8F21-7CABFBE64C6D
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: IUIAutomationElement2, IUIAutomationElement2 interface [Windows Accessibility], IUIAutomationElement2 interface [Windows Accessibility], described, uiautomationclient/IUIAutomationElement2, winauto.uiauto_IUIAutomationElement2
 ms.prod: windows-hardware
 ms.technology: windows-devices

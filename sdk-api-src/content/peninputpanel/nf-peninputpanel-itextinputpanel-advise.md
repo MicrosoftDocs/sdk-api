@@ -7,7 +7,7 @@ old-location: tablet\itextinputpanel_advise.htm
 old-project: tablet
 ms.assetid: 4ea32572-84e6-4230-a634-fc83cb86601f
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: 4ea32572-84e6-4230-a634-fc83cb86601f, Advise method [Tablet PC], Advise method [Tablet PC], ITextInputPanel interface, Advise,ITextInputPanel.Advise, ITextInputPanel, ITextInputPanel interface [Tablet PC], Advise method, ITextInputPanel::Advise, peninputpanel/ITextInputPanel::Advise, tablet.itextinputpanel_advise
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Tiptsf.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITextInputPanel::Advise method

@@ -7,7 +7,7 @@ old-location: appxpkg\getcurrentapplicationusermodelid.htm
 old-project: appxpkg
 ms.assetid: 562BB225-0922-4FE7-92C0-573A2CCE3195
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/26/2018
 ms.keywords: GetCurrentApplicationUserModelId, GetCurrentApplicationUserModelId function [App packaging and management], appmodel/GetCurrentApplicationUserModelId, appxpkg.getcurrentapplicationusermodelid
 ms.prod: windows-hardware
 ms.technology: windows-devices

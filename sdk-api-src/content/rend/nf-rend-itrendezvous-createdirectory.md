@@ -7,7 +7,7 @@ old-location: tapi3\itrendezvous_createdirectory.htm
 old-project: Tapi
 ms.assetid: b285f852-a017-4dcd-b32e-afb2296487a5
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: CreateDirectory method [TAPI 2.2], CreateDirectory method [TAPI 2.2], ITRendezvous interface, CreateDirectory,ITRendezvous.CreateDirectory, ITRendezvous, ITRendezvous interface [TAPI 2.2], CreateDirectory method, ITRendezvous::CreateDirectory, _tapi3_itrendezvous_createdirectory, rend/ITRendezvous::CreateDirectory, tapi3.itrendezvous_createdirectory
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Rend.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITRendezvous::CreateDirectory method

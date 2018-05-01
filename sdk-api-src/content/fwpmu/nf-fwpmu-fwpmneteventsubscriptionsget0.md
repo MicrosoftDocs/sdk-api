@@ -7,7 +7,7 @@ old-location: fwp\fwpmneteventsubscriptionsget0.htm
 old-project: FWP
 ms.assetid: 08a5378d-b9f7-45d9-b63c-fabcd94b717c
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: FwpmNetEventSubscriptionsGet0, FwpmNetEventSubscriptionsGet0 function [Filtering], fwp.fwpmneteventsubscriptionsget0, fwpmu/FwpmNetEventSubscriptionsGet0
 ms.prod: windows-hardware
 ms.technology: windows-devices

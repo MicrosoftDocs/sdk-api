@@ -7,7 +7,7 @@ old-location: security\iazbizruleinterfaces_count_method.htm
 old-project: SecAuthZ
 ms.assetid: f6838790-2223-4ae8-9cee-9d881d071ba0
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: Count property [Security], Count property [Security], IAzBizRuleInterfaces interface, IAzBizRuleInterfaces, IAzBizRuleInterfaces interface [Security], Count property, IAzBizRuleInterfaces.Count, IAzBizRuleInterfaces::get_Count, azroles/IAzBizRuleInterfaces::Count, azroles/IAzBizRuleInterfaces::get_Count, get_Count,IAzBizRuleInterfaces.get_Count, security.iazbizruleinterfaces_count_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

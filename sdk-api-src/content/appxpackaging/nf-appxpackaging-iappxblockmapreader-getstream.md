@@ -7,7 +7,7 @@ old-location: appxpkg\iappxblockmapreader_getstream.htm
 old-project: appxpkg
 ms.assetid: 95EBABDA-45D5-436C-B627-51C14D9091EA
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/26/2018
 ms.keywords: GetStream method [App packaging and management], GetStream method [App packaging and management], IAppxBlockMapReader interface, GetStream,IAppxBlockMapReader.GetStream, IAppxBlockMapReader, IAppxBlockMapReader interface [App packaging and management], GetStream method, IAppxBlockMapReader::GetStream, appxpackaging/IAppxBlockMapReader::GetStream, appxpkg.iappxblockmapreader_getstream
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_ARCHITECTURE2
+req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
 topic_type:
 -	APIRef
 -	kbSyntax

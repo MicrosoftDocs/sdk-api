@@ -7,7 +7,7 @@ old-location: com\iviewobjectex_getviewstatus.htm
 old-project: com
 ms.assetid: cf8ec90c-07bb-4f60-93c9-4cee3fb5a056
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: GetViewStatus method [COM], GetViewStatus method [COM], IViewObjectEx interface, GetViewStatus,IViewObjectEx.GetViewStatus, IViewObjectEx, IViewObjectEx interface [COM], GetViewStatus method, IViewObjectEx::GetViewStatus, _ole_iviewobjectex_getviewstatus, com.iviewobjectex_getviewstatus, ocidl/IViewObjectEx::GetViewStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IViewObjectEx::GetViewStatus method

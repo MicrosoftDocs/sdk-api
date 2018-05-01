@@ -7,7 +7,7 @@ old-location: dshow\imixerpinconfig2_setoverlaysurfacecolorcontrols.htm
 old-project: DirectShow
 ms.assetid: c23c12c9-5621-4b1e-997a-51303f239175
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IMixerPinConfig2, IMixerPinConfig2 interface [DirectShow], SetOverlaySurfaceColorControls method, IMixerPinConfig2::SetOverlaySurfaceColorControls, IMixerPinConfig2SetOverlaySurfaceColorControls, SetOverlaySurfaceColorControls method [DirectShow], SetOverlaySurfaceColorControls method [DirectShow], IMixerPinConfig2 interface, SetOverlaySurfaceColorControls,IMixerPinConfig2.SetOverlaySurfaceColorControls, dshow.imixerpinconfig2_setoverlaysurfacecolorcontrols, mpconfig/IMixerPinConfig2::SetOverlaySurfaceColorControls
 ms.prod: windows-hardware
 ms.technology: windows-devices

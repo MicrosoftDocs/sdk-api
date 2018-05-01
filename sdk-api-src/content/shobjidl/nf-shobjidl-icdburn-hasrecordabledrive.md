@@ -7,7 +7,7 @@ old-location: shell\ICDBurn_HasRecordableDrive.htm
 old-project: shell
 ms.assetid: b20b5242-2d38-4f86-9267-a2211ef07a00
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: HasRecordableDrive method [Windows Shell], HasRecordableDrive method [Windows Shell], ICDBurn interface, HasRecordableDrive,ICDBurn.HasRecordableDrive, ICDBurn, ICDBurn interface [Windows Shell], HasRecordableDrive method, ICDBurn::HasRecordableDrive, _shell_ICDBurn_HasRecordableDrive, shell.ICDBurn_HasRecordableDrive, shobjidl/ICDBurn::HasRecordableDrive
 ms.prod: windows-hardware
 ms.technology: windows-devices

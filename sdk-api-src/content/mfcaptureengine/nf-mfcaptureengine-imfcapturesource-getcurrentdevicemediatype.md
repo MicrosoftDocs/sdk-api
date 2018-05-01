@@ -7,7 +7,7 @@ old-location: mf\imfcapturesource_getcurrentdevicemediatype.htm
 old-project: medfound
 ms.assetid: 8F263F5C-D1B4-4DF7-AFCB-E27575FBAAA2
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetCurrentDeviceMediaType method [Media Foundation], GetCurrentDeviceMediaType method [Media Foundation], IMFCaptureSource interface, GetCurrentDeviceMediaType,IMFCaptureSource.GetCurrentDeviceMediaType, IMFCaptureSource, IMFCaptureSource interface [Media Foundation], GetCurrentDeviceMediaType method, IMFCaptureSource::GetCurrentDeviceMediaType, MF_CAPTURE_ENGINE_FIRST_SOURCE_AUDIO_STREAM, MF_CAPTURE_ENGINE_FIRST_SOURCE_PHOTO_STREAM, MF_CAPTURE_ENGINE_FIRST_SOURCE_VIDEO_STREAM, mf.imfcapturesource_getcurrentdevicemediatype, mfcaptureengine/IMFCaptureSource::GetCurrentDeviceMediaType
 ms.prod: windows-hardware
 ms.technology: windows-devices

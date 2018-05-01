@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxroutingmethod_get_imagename_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_1qud.htm
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/18/2018
 ms.keywords: FaxRoutingMethod object [Fax Service], ImageName property, IFaxRoutingMethod, IFaxRoutingMethod::get_ImageName, ImageName property [Fax Service], ImageName property [Fax Service], FaxRoutingMethod object, _mfax_ifaxroutingmethod_get_imagename, fax._mfax_ifaxroutingmethod_get_imagename, fax._mfax_ifaxroutingmethod_get_imagename_vb, get_ImageName,IFaxRoutingMethod.get_ImageName
 ms.prod: windows-hardware
 ms.technology: windows-devices

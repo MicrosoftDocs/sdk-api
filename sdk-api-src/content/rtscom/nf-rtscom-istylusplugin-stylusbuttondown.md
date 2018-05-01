@@ -7,7 +7,7 @@ old-location: tablet\istylusplugin_stylusbuttondown.htm
 old-project: tablet
 ms.assetid: 60cd2b46-14f7-4a06-a1e7-5b2aa9a1f05c
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: 60cd2b46-14f7-4a06-a1e7-5b2aa9a1f05c, IStylusPlugin, IStylusPlugin interface [Tablet PC], StylusButtonDown method, IStylusPlugin::StylusButtonDown, StylusButtonDown method [Tablet PC], StylusButtonDown method [Tablet PC], IStylusPlugin interface, StylusButtonDown,IStylusPlugin.StylusButtonDown, rtscom/IStylusPlugin::StylusButtonDown, tablet.istylusplugin_stylusbuttondown
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: RTSCom.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IStylusPlugin::StylusButtonDown method

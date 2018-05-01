@@ -7,7 +7,7 @@ old-location: automat\icreatetypeinfo_addvardesc.htm
 old-project: automat
 ms.assetid: db576528-fefc-4a22-bc24-d5ea037eae26
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: AddVarDesc method [Automation], AddVarDesc method [Automation], ICreateTypeInfo interface, AddVarDesc,ICreateTypeInfo.AddVarDesc, ICreateTypeInfo, ICreateTypeInfo interface [Automation], AddVarDesc method, ICreateTypeInfo::AddVarDesc, _oa96_ICreateTypeInfo_AddVarDesc, automat.icreatetypeinfo_addvardesc, oaidl/ICreateTypeInfo::AddVarDesc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ICreateTypeInfo::AddVarDesc method

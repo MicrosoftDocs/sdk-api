@@ -7,7 +7,7 @@ old-location: dshow\ivideowindow_getwindowposition.htm
 old-project: DirectShow
 ms.assetid: df55c10d-aec1-42f3-8bfb-207ae8804e72
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetWindowPosition method [DirectShow], GetWindowPosition method [DirectShow], IVideoWindow interface, GetWindowPosition,IVideoWindow.GetWindowPosition, IVideoWindow, IVideoWindow interface [DirectShow], GetWindowPosition method, IVideoWindow::GetWindowPosition, IVideoWindowGetWindowPosition, control/IVideoWindow::GetWindowPosition, dshow.ivideowindow_getwindowposition
 ms.prod: windows-hardware
 ms.technology: windows-devices

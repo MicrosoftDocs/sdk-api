@@ -7,7 +7,7 @@ old-location: iphlp\ip_adapter_prefix.htm
 old-project: IpHlp
 ms.assetid: 680b412d-2352-421d-ae58-dcf34ee6cf31
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 4/13/2018
 ms.keywords: "*PIP_ADAPTER_PREFIX, *PIP_ADAPTER_PREFIX_XP, IP_ADAPTER_PREFIX, IP_ADAPTER_PREFIX structure [IP Helper], IP_ADAPTER_PREFIX_XP, PIP_ADAPTER_PREFIX, PIP_ADAPTER_PREFIX structure pointer [IP Helper], _IP_ADAPTER_PREFIX_XP, iphlp.ip_adapter_prefix, iptypes/IP_ADAPTER_PREFIX, iptypes/PIP_ADAPTER_PREFIX"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,11 +58,6 @@ The <b>IP_ADAPTER_PREFIX</b> structure stores an IP address prefix.
 
 
 
-### -field Next
-
-A pointer to the next adapter prefix structure in the list.
-
-
 ### -field Length
 
 The length, in bytes, of this structure.
@@ -72,6 +67,11 @@ The length, in bytes, of this structure.
 ### -field Flags
 
 This member is reserved and should be set to zero.
+
+
+### -field Next
+
+A pointer to the next adapter prefix structure in the list.
 
 
 ### -field Address

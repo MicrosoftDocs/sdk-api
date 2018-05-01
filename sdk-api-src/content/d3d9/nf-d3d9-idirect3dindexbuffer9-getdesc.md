@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3dindexbuffer9__getdesc.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dindexbuffer9__getdesc.htm
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/10/2018
 ms.keywords: GetDesc method [Direct3D 9], GetDesc method [Direct3D 9], IDirect3DIndexBuffer9 interface, GetDesc,IDirect3DIndexBuffer9.GetDesc, IDirect3DIndexBuffer9, IDirect3DIndexBuffer9 interface [Direct3D 9], GetDesc method, IDirect3DIndexBuffer9::GetDesc, d3d9helper/IDirect3DIndexBuffer9::GetDesc, direct3d9.idirect3dindexbuffer9__getdesc, f6d3661c-7957-0918-0367-c148e854bf9f
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: xaudio2\ixaudio2sourcevoice_interface_setfrequencyratio.htm
 old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2sourcevoice.IXAudio2SourceVoice.SetFrequencyRatio(float,UINT32)
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/20/2018
 ms.keywords: IXAudio2SourceVoice, IXAudio2SourceVoice interface [XAudio2 Audio Mixing APIs], SetFrequencyRatio method, IXAudio2SourceVoice::SetFrequencyRatio, SetFrequencyRatio method [XAudio2 Audio Mixing APIs], SetFrequencyRatio method [XAudio2 Audio Mixing APIs], IXAudio2SourceVoice interface, SetFrequencyRatio,IXAudio2SourceVoice.SetFrequencyRatio, xaudio2.ixaudio2sourcevoice_interface_setfrequencyratio, xaudio2/IXAudio2SourceVoice::SetFrequencyRatio
 ms.prod: windows-hardware
 ms.technology: windows-devices

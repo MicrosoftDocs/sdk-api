@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3dindexbuffer9__lock.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dindexbuffer9__lock.htm
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/10/2018
 ms.keywords: IDirect3DIndexBuffer9, IDirect3DIndexBuffer9 interface [Direct3D 9], Lock method, IDirect3DIndexBuffer9::Lock, Lock method [Direct3D 9], Lock method [Direct3D 9], IDirect3DIndexBuffer9 interface, Lock,IDirect3DIndexBuffer9.Lock, a727fd78-b27c-1dcd-d6ca-d3bf644edaa8, d3d9helper/IDirect3DIndexBuffer9::Lock, direct3d9.idirect3dindexbuffer9__lock
 ms.prod: windows-hardware
 ms.technology: windows-devices

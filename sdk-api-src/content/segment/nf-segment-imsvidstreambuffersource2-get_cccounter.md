@@ -7,7 +7,7 @@ old-location: mstv\imsvidstreambuffersource2_get_cccounter.htm
 old-project: mstv
 ms.assetid: 58aa567a-6ef3-4e8b-9155-f262ac1a7557
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidStreamBufferSource2, IMSVidStreamBufferSource2 interface [Microsoft TV Technologies], get_CCCounter method, IMSVidStreamBufferSource2::get_CCCounter, IMSVidStreamBufferSource2get_CCCounter, get_CCCounter method [Microsoft TV Technologies], get_CCCounter method [Microsoft TV Technologies], IMSVidStreamBufferSource2 interface, get_CCCounter,IMSVidStreamBufferSource2.get_CCCounter, mstv.imsvidstreambuffersource2_get_cccounter, segment/IMSVidStreamBufferSource2::get_CCCounter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidStreamBufferSource2::get_CCCounter method

@@ -7,7 +7,7 @@ old-location: security\ienroll4_getkeylenex.htm
 old-project: SecCrypto
 ms.assetid: 377fed60-7c04-41c1-bc3d-6567d7d8c389
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: GetKeyLenEx method [Security], GetKeyLenEx method [Security], IEnroll4 interface, GetKeyLenEx,IEnroll4.GetKeyLenEx, IEnroll4, IEnroll4 interface [Security], GetKeyLenEx method, IEnroll4::GetKeyLenEx, XEKL_KEYSIZE_INC, XEKL_KEYSIZE_MAX, XEKL_KEYSIZE_MIN, XEKL_KEYSPEC_KEYX, XEKL_KEYSPEC_SIG, security.ienroll4_getkeylenex, xenroll/IEnroll4::GetKeyLenEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: com\iviewobject.htm
 old-project: com
 ms.assetid: 4310c987-3542-4a59-a6fb-951143001741
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IViewObject, IViewObject interface [COM], IViewObject interface [COM], described, _ole_iviewobject, com.iviewobject, oleidl/IViewObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Adhocreportingexcelclient.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IViewObject interface

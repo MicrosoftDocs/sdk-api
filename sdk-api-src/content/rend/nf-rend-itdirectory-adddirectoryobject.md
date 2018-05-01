@@ -7,7 +7,7 @@ old-location: tapi3\itdirectory_adddirectoryobject.htm
 old-project: Tapi
 ms.assetid: 7a379bdc-50e3-4034-ac16-d20d1b03cd35
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: AddDirectoryObject method [TAPI 2.2], AddDirectoryObject method [TAPI 2.2], ITDirectory interface, AddDirectoryObject,ITDirectory.AddDirectoryObject, ITDirectory, ITDirectory interface [TAPI 2.2], AddDirectoryObject method, ITDirectory::AddDirectoryObject, _tapi3_itdirectory_adddirectoryobject, rend/ITDirectory::AddDirectoryObject, tapi3.itdirectory_adddirectoryobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Rend.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITDirectory::AddDirectoryObject method

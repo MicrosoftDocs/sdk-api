@@ -7,7 +7,7 @@ old-location: security\cryptxmldllcreatekey.htm
 old-project: SecCrypto
 ms.assetid: a2c4b4b5-ccfc-4fb9-ad03-942906cf73d7
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: CryptXmlDllCreateKey, CryptXmlDllCreateKey function pointer [Security], cryptxml/CryptXmlDllCreateKey, security.cryptxmldllcreatekey
 ms.prod: windows-hardware
 ms.technology: windows-devices

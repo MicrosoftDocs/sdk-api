@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationPatternInstance_CallMethod.htm
 old-project: WinAuto
 ms.assetid: a3c1aa20-c512-4752-8da6-c8e86bd56beb
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: CallMethod method [Windows Accessibility], CallMethod method [Windows Accessibility], IUIAutomationPatternInstance interface, CallMethod,IUIAutomationPatternInstance.CallMethod, IUIAutomationPatternInstance, IUIAutomationPatternInstance interface [Windows Accessibility], CallMethod method, IUIAutomationPatternInstance::CallMethod, uiauto.uiauto_IUIAutomationPatternInstance_CallMethod, uiauto_IUIAutomationPatternInstance_CallMethod, uiautomationcore/IUIAutomationPatternInstance::CallMethod, winauto.uiauto_IUIAutomationPatternInstance_CallMethod
 ms.prod: windows-hardware
 ms.technology: windows-devices

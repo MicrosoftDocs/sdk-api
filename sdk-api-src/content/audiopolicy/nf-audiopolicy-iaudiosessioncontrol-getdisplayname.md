@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiosessioncontrol_getdisplayname.htm
 old-project: CoreAudio
 ms.assetid: 28493e3a-ee5a-4331-b5b5-ba0bf2ee3370
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: GetDisplayName method [Core Audio], GetDisplayName method [Core Audio], IAudioSessionControl interface, GetDisplayName,IAudioSessionControl.GetDisplayName, IAudioSessionControl, IAudioSessionControl interface [Core Audio], GetDisplayName method, IAudioSessionControl::GetDisplayName, IAudioSessionControlGetDisplayName, audiopolicy/IAudioSessionControl::GetDisplayName, coreaudio.iaudiosessioncontrol_getdisplayname
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: AE_CURRENT_POSITION, *PAE_CURRENT_POSITION
+req.typenames: UNCOMPRESSEDAUDIOFORMAT
 topic_type:
 -	APIRef
 -	kbSyntax

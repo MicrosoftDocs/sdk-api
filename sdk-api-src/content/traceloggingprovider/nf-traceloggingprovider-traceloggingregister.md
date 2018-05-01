@@ -7,7 +7,7 @@ old-location: tracelogging\traceloggingregister.htm
 old-project: tracelogging
 ms.assetid: 621A7DA3-8E75-431C-B747-FFCE72EB2110
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: TraceLoggingRegister, TraceLoggingRegister function, tracelogging.traceloggingregister, traceloggingprovider/TraceLoggingRegister
 ms.prod: windows-hardware
 ms.technology: windows-devices

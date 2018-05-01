@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicdevelopraw_setnamedwhitepoint.htm
 old-project: wic
 ms.assetid: eb83233d-7967-4160-bebf-2b06378f77ab
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: IWICDevelopRaw, IWICDevelopRaw interface [Windows Imaging Component], SetNamedWhitePoint method, IWICDevelopRaw::SetNamedWhitePoint, SetNamedWhitePoint method [Windows Imaging Component], SetNamedWhitePoint method [Windows Imaging Component], IWICDevelopRaw interface, SetNamedWhitePoint,IWICDevelopRaw.SetNamedWhitePoint, _wic_codec_iwicdevelopraw_setnamedwhitepoint, wic._wic_codec_iwicdevelopraw_setnamedwhitepoint, wincodec/IWICDevelopRaw::SetNamedWhitePoint
 ms.prod: windows-hardware
 ms.technology: windows-devices

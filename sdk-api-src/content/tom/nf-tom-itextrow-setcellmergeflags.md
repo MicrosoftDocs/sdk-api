@@ -7,7 +7,7 @@ old-location: controls\itextrow_setcellmergeflags.htm
 old-project: Controls
 ms.assetid: a60966cc-03c6-4cb9-b424-eb59f68d1fd1
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextRow, ITextRow interface [Windows Controls], SetCellMergeFlags method, ITextRow::SetCellMergeFlags, SetCellMergeFlags method [Windows Controls], SetCellMergeFlags method [Windows Controls], ITextRow interface, SetCellMergeFlags,ITextRow.SetCellMergeFlags, controls.itextrow_setcellmergeflags, tom/ITextRow::SetCellMergeFlags, tomHContCell, tomHStartCell, tomVLowCell, tomVTopCell
 ms.prod: windows-hardware
 ms.technology: windows-devices

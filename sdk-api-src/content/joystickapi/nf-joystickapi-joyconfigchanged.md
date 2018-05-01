@@ -1,0 +1,114 @@
+---
+UID: NF:joystickapi.joyConfigChanged
+title: joyConfigChanged function
+author: windows-driver-content
+description: The joyConfigChanged function informs the joystick driver that the configuration has changed and should be reloaded from the registry.
+old-location: multimedia\joyconfigchanged.htm
+old-project: Multimedia
+ms.assetid: 3cdc7888-2d66-4fb9-abad-86e891f4ebe4
+ms.author: windowsdriverdev
+ms.date: 4/25/2018
+ms.keywords: "_win32_joyConfigChanged, joyConfigChanged, joyConfigChanged function [Windows Multimedia], joystickapi/joyConfigChanged, multimedia.joyconfigchanged"
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: joystickapi.h
+req.include-header: Dinput.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: JOBOBJECT_IO_RATE_CONTROL_INFORMATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Winmm.dll
+-	API-MS-Win-mm-joystick-l1-1-0.dll
+-	winmmbase.dll
+api_name:
+-	joyConfigChanged
+product: Windows
+targetos: Windows
+req.lib: Winmm.lib
+req.dll: Winmm.dll
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# joyConfigChanged function
+
+
+## -description
+
+
+
+The <b>joyConfigChanged</b> function informs the joystick driver that the configuration has changed and should be reloaded from the registry.
+
+
+
+
+## -parameters
+
+
+
+
+### -param dwFlags
+
+Reserved for future use. Must equal zero.
+
+
+## -returns
+
+
+
+Returns JOYERR_NOERROR if successful. Returns JOYERR_PARMS if the parameter is non-zero.
+
+
+
+
+## -remarks
+
+
+
+This function causes a window message to be sent to all top-level windows. This message may be defined by applications that need to respond to changes in joystick calibration by using <b>RegisterWindowMessage</b> with the following message ID:
+
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
+#define JOY_CONFIGCHANGED_MSGSTRING     "MSJSTICK_VJOYD_MSGSTR"
+</pre>
+</td>
+</tr>
+</table></span></div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/29fe25c8-51ea-4dc1-9f98-1c10d23b7b2a">Joysticks</a>
+
+
+
+<a href="https://msdn.microsoft.com/84e47ac3-b40f-48bc-8f59-cc678d7d521e">Multimedia Joystick Functions</a>
+ 
+
+ 
+

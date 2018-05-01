@@ -7,7 +7,7 @@ old-location: mf\mfcreatemuxstreamsample.htm
 old-project: medfound
 ms.assetid: D7E7B260-54E0-47F4-9762-ADB06103CDF3
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: MFCreateMuxStreamSample, MFCreateMuxStreamSample function [Media Foundation], mf.mfcreatemuxstreamsample, mfapi/MFCreateMuxStreamSample
 ms.prod: windows-hardware
 ms.technology: windows-devices

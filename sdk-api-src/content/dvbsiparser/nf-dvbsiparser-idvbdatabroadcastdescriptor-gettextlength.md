@@ -7,7 +7,7 @@ old-location: mstv\idvbdatabroadcastdescriptor_gettextlength.htm
 old-project: mstv
 ms.assetid: a5ae91ff-d984-4955-aa1c-d166fb491d79
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetTextLength method [Microsoft TV Technologies], GetTextLength method [Microsoft TV Technologies], IDvbDataBroadcastDescriptor interface, GetTextLength,IDvbDataBroadcastDescriptor.GetTextLength, IDvbDataBroadcastDescriptor, IDvbDataBroadcastDescriptor interface [Microsoft TV Technologies], GetTextLength method, IDvbDataBroadcastDescriptor::GetTextLength, dvbsiparser/IDvbDataBroadcastDescriptor::GetTextLength, mstv.idvbdatabroadcastdescriptor_gettextlength
 ms.prod: windows-hardware
 ms.technology: windows-devices

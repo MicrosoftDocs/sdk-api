@@ -7,7 +7,7 @@ old-location: wmi\iwbemquery_empty.htm
 old-project: WmiSdk
 ms.assetid: 42f6542e-2aab-40c1-81d5-d08b54b8aa40
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: Empty method [Windows Management Instrumentation], Empty method [Windows Management Instrumentation], IWbemQuery interface, Empty,IWbemQuery.Empty, IWbemQuery, IWbemQuery interface [Windows Management Instrumentation], Empty method, IWbemQuery::Empty, _hmm_iwbemquery_empty, wmi.iwbemquery_empty, wmiutils/IWbemQuery::Empty
 ms.prod: windows-hardware
 ms.technology: windows-devices

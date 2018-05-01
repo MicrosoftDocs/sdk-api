@@ -7,7 +7,7 @@ old-location: com\icallframe_setstacklocation.htm
 old-project: com
 ms.assetid: 689f3819-488b-4679-a401-f1500db22461
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: ICallFrame, ICallFrame interface [COM], SetStackLocation method, ICallFrame::SetStackLocation, SetStackLocation method [COM], SetStackLocation method [COM], ICallFrame interface, SetStackLocation,ICallFrame.SetStackLocation, _com_icallframe_setstacklocation, callobj/ICallFrame::SetStackLocation, com.icallframe_setstacklocation
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\icspalgorithm_operations.htm
 old-project: SecCertEnroll
 ms.assetid: 46e6bf91-a50a-4360-9bfe-e41e8bcc1112
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: ICspAlgorithm, ICspAlgorithm interface [Security], Operations property, ICspAlgorithm.Operations, ICspAlgorithm::get_Operations, Operations property [Security], Operations property [Security], ICspAlgorithm interface, XCN_NCRYPT_ANY_ASYMMETRIC_OPERATION, XCN_NCRYPT_ASYMMETRIC_ENCRYPTION_OPERATION, XCN_NCRYPT_CIPHER_OPERATION, XCN_NCRYPT_HASH_OPERATION, XCN_NCRYPT_RNG_OPERATION, XCN_NCRYPT_SECRET_AGREEMENT_OPERATION, XCN_NCRYPT_SIGNATURE_OPERATION, certenroll/ICspAlgorithm::Operations, certenroll/ICspAlgorithm::get_Operations, get_Operations,ICspAlgorithm.get_Operations, security.icspalgorithm_operations
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmobjectinfo_getplaylength.htm
 old-project: WMDM
 ms.assetid: 7f553513-0928-41b8-858f-c06ec57660d1
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: GetPlayLength method [windows Media Device Manager], GetPlayLength method [windows Media Device Manager], IWMDMObjectInfo interface, GetPlayLength,IWMDMObjectInfo.GetPlayLength, IWMDMObjectInfo, IWMDMObjectInfo interface [windows Media Device Manager], GetPlayLength method, IWMDMObjectInfo::GetPlayLength, IWMDMObjectInfoGetPlayLength, mswmdm/IWMDMObjectInfo::GetPlayLength, wmdm.iwmdmobjectinfo_getplaylength
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IWMDMObjectInfo::GetPlayLength method

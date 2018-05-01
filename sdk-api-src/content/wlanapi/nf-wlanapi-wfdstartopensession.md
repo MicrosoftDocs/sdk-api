@@ -7,7 +7,7 @@ old-location: nwifi\wfdstartopensession.htm
 old-project: NativeWiFi
 ms.assetid: CF1FF7C2-31CD-4FAB-9891-0A72BEA3E9F1
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/13/2018
 ms.keywords: WFDStartOpenSession, WFDStartOpenSession function [NativeWIFI], nwifi.wfdstartopensession, wlanapi/WFDStartOpenSession
 ms.prod: windows-hardware
 ms.technology: windows-devices

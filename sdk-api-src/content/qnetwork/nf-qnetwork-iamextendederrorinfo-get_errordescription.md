@@ -7,7 +7,7 @@ old-location: dshow\iamextendederrorinfo_get_errordescription.htm
 old-project: DirectShow
 ms.assetid: d417855e-7df6-4978-b971-a91b79c5fa2c
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMExtendedErrorInfo, IAMExtendedErrorInfo interface [DirectShow], get_ErrorDescription method, IAMExtendedErrorInfo::get_ErrorDescription, IAMExtendedErrorInfoget_ErrorDescription, dshow.iamextendederrorinfo_get_errordescription, get_ErrorDescription method [DirectShow], get_ErrorDescription method [DirectShow], IAMExtendedErrorInfo interface, get_ErrorDescription,IAMExtendedErrorInfo.get_ErrorDescription, qnetwork/IAMExtendedErrorInfo::get_ErrorDescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IAMExtendedErrorInfo::get_ErrorDescription method

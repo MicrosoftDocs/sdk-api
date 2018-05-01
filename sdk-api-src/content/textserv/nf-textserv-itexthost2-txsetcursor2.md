@@ -7,7 +7,7 @@ old-location: controls\itexthost2_txsetcursor2.htm
 old-project: Controls
 ms.assetid: 9671AEEC-CA31-4CE7-8B40-57859E36EF23
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextHost2, ITextHost2 interface [Windows Controls], TxSetCursor2 method, ITextHost2::TxSetCursor2, TxSetCursor2 method [Windows Controls], TxSetCursor2 method [Windows Controls], ITextHost2 interface, TxSetCursor2,ITextHost2.TxSetCursor2, controls.itexthost2_txsetcursor2, textserv/ITextHost2::TxSetCursor2
 ms.prod: windows-hardware
 ms.technology: windows-devices

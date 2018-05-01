@@ -7,7 +7,7 @@ old-location: wmp\iwmpsyncdevice_stop.htm
 old-project: WMP
 ms.assetid: 30e6787e-851b-420c-934c-5f8e5e4d83df
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPSyncDevice, IWMPSyncDevice interface [Windows Media Player], stop method, IWMPSyncDevice::stop, IWMPSyncDevicestop, stop method [Windows Media Player], stop method [Windows Media Player], IWMPSyncDevice interface, stop,IWMPSyncDevice.stop, wmp.iwmpsyncdevice_stop, wmp/IWMPSyncDevice::stop
 ms.prod: windows-hardware
 ms.technology: windows-devices

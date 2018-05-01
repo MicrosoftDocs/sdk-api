@@ -7,7 +7,7 @@ old-location: termserv\itssbplugin_terminate.htm
 old-project: TermServ
 ms.assetid: c47c6231-f967-4239-afd4-a87e9d8f49c2
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: ITsSbLoadBalancing interface [Remote Desktop Services], Terminate method, ITsSbLoadBalancing::Terminate, ITsSbOrchestration interface [Remote Desktop Services], Terminate method, ITsSbOrchestration::Terminate, ITsSbPlacement interface [Remote Desktop Services], Terminate method, ITsSbPlacement::Terminate, ITsSbPlugin, ITsSbPlugin interface [Remote Desktop Services], Terminate method, ITsSbPlugin::Terminate, ITsSbProvisioning interface [Remote Desktop Services], Terminate method, ITsSbProvisioning::Terminate, ITsSbResourcePlugin interface [Remote Desktop Services], Terminate method, ITsSbResourcePlugin::Terminate, ITsSbTaskPlugin interface [Remote Desktop Services], Terminate method, ITsSbTaskPlugin::Terminate, Terminate method [Remote Desktop Services], Terminate method [Remote Desktop Services], ITsSbLoadBalancing interface, Terminate method [Remote Desktop Services], ITsSbOrchestration interface, Terminate method [Remote Desktop Services], ITsSbPlacement interface, Terminate method [Remote Desktop Services], ITsSbPlugin interface, Terminate method [Remote Desktop Services], ITsSbProvisioning interface, Terminate method [Remote Desktop Services], ITsSbResourcePlugin interface, Terminate method [Remote Desktop Services], ITsSbTaskPlugin interface, Terminate,ITsSbPlugin.Terminate, sbtsv/ITsSbLoadBalancing::Terminate, sbtsv/ITsSbOrchestration::Terminate, sbtsv/ITsSbPlacement::Terminate, sbtsv/ITsSbPlugin::Terminate, sbtsv/ITsSbProvisioning::Terminate, sbtsv/ITsSbResourcePlugin::Terminate, sbtsv/ITsSbTaskPlugin::Terminate, termserv.itssbplugin_terminate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,7 +47,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITsSbPlugin::Terminate method

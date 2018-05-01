@@ -7,7 +7,7 @@ old-location: mf\imfpmediaplayer_inserteffect.htm
 old-project: medfound
 ms.assetid: 2689ee46-5cfe-4616-850c-eb5aef340daa
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: FALSE, IMFPMediaPlayer, IMFPMediaPlayer interface [Media Foundation], InsertEffect method, IMFPMediaPlayer::InsertEffect, InsertEffect method [Media Foundation], InsertEffect method [Media Foundation], IMFPMediaPlayer interface, InsertEffect,IMFPMediaPlayer.InsertEffect, TRUE, mf.imfpmediaplayer_inserteffect, mfplay/IMFPMediaPlayer::InsertEffect
 ms.prod: windows-hardware
 ms.technology: windows-devices

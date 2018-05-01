@@ -7,7 +7,7 @@ old-location: base\changer_product_data_str.htm
 old-project: DevIO
 ms.assetid: b6756994-2c6f-4797-8fad-823d63632372
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/3/2018
 ms.keywords: "*PCHANGER_PRODUCT_DATA, CHANGER_PRODUCT_DATA, CHANGER_PRODUCT_DATA structure, PCHANGER_PRODUCT_DATA, PCHANGER_PRODUCT_DATA structure pointer, _CHANGER_PRODUCT_DATA, _win32_changer_product_data_str, base.changer_product_data_str, winioctl/CHANGER_PRODUCT_DATA, winioctl/PCHANGER_PRODUCT_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices

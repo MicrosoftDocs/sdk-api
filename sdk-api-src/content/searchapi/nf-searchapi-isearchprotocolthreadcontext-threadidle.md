@@ -7,7 +7,7 @@ old-location: search\_search_ISearchProtocolThreadContext_ThreadIdle.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\isearchprotocolthreadcontext\threadidle.htm
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/24/2018
 ms.keywords: ISearchProtocolThreadContext, ISearchProtocolThreadContext interface [search], ThreadIdle method, ISearchProtocolThreadContext::ThreadIdle, ThreadIdle method [search], ThreadIdle method [search], ISearchProtocolThreadContext interface, ThreadIdle,ISearchProtocolThreadContext.ThreadIdle, _search_ISearchProtocolThreadContext_ThreadIdle, search._search_ISearchProtocolThreadContext_ThreadIdle, searchapi/ISearchProtocolThreadContext::ThreadIdle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ISearchProtocolThreadContext::ThreadIdle method

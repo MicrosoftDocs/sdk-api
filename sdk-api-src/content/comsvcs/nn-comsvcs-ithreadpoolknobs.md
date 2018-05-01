@@ -7,7 +7,7 @@ old-location: cos\ithreadpoolknobs.htm
 old-project: cossdk
 ms.assetid: 3d36e4ec-f4d4-407b-b671-4134886b7a2c
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: IThreadPoolKnobs, IThreadPoolKnobs interface [COM+], IThreadPoolKnobs interface [COM+], described, _cos_IThreadPoolKnobs, comsvcs/IThreadPoolKnobs, cos.ithreadpoolknobs
 ms.prod: windows-hardware
 ms.technology: windows-devices

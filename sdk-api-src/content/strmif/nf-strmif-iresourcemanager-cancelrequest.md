@@ -7,7 +7,7 @@ old-location: dshow\iresourcemanager_cancelrequest.htm
 old-project: DirectShow
 ms.assetid: 49372654-8e69-4a7a-915e-16e791c63fb2
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: CancelRequest method [DirectShow], CancelRequest method [DirectShow], IResourceManager interface, CancelRequest,IResourceManager.CancelRequest, IResourceManager, IResourceManager interface [DirectShow], CancelRequest method, IResourceManager::CancelRequest, IResourceManagerCancelRequest, dshow.iresourcemanager_cancelrequest, strmif/IResourceManager::CancelRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices

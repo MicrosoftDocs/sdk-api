@@ -7,7 +7,7 @@ old-location: shell\ICredentialProviderCredential_GetComboBoxValueCount.htm
 old-project: shell
 ms.assetid: 50d28ad6-ab18-4648-8e3d-1759ce6b5aeb
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetComboBoxValueCount method [Windows Shell], GetComboBoxValueCount method [Windows Shell], ICredentialProviderCredential interface, GetComboBoxValueCount,ICredentialProviderCredential.GetComboBoxValueCount, ICredentialProviderCredential, ICredentialProviderCredential interface [Windows Shell], GetComboBoxValueCount method, ICredentialProviderCredential::GetComboBoxValueCount, _shell_ICredentialProviderCredential_GetComboBoxValueCount, credentialprovider/ICredentialProviderCredential::GetComboBoxValueCount, shell.ICredentialProviderCredential_GetComboBoxValueCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

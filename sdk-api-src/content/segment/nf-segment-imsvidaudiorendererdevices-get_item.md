@@ -7,7 +7,7 @@ old-location: mstv\imsvidaudiorendererdevices_get_item.htm
 old-project: mstv
 ms.assetid: ba6e9161-0881-4f95-9507-acf2a01e05e6
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidAudioRendererDevices, IMSVidAudioRendererDevices interface [Microsoft TV Technologies], get_Item method, IMSVidAudioRendererDevices::get_Item, IMSVidAudioRendererDevicesget_Item, get_Item method [Microsoft TV Technologies], get_Item method [Microsoft TV Technologies], IMSVidAudioRendererDevices interface, get_Item,IMSVidAudioRendererDevices.get_Item, mstv.imsvidaudiorendererdevices_get_item, segment/IMSVidAudioRendererDevices::get_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidAudioRendererDevices::get_Item method

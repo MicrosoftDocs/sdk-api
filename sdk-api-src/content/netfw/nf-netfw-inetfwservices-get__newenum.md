@@ -7,7 +7,7 @@ old-location: ics\inetfwservices_newenum.htm
 old-project: ICS
 ms.assetid: 2da6560f-2eca-4391-88c1-a86948d19d58
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: INetFwServices, INetFwServices interface [ICS/ICF], _NewEnum property, INetFwServices._NewEnum, INetFwServices::get__NewEnum, _NewEnum property [ICS/ICF], _NewEnum property [ICS/ICF], INetFwServices interface, get__NewEnum,INetFwServices.get__NewEnum, ics.inetfwservices_newenum, netfw/INetFwServices::_NewEnum, netfw/INetFwServices::get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: 
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # INetFwServices::get__NewEnum method

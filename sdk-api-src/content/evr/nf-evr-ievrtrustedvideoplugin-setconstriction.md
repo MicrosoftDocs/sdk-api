@@ -7,7 +7,7 @@ old-location: mf\ievrtrustedvideoplugin_setconstriction.htm
 old-project: medfound
 ms.assetid: f2e9b199-969f-453c-8714-fa85c89a191a
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IEVRTrustedVideoPlugin, IEVRTrustedVideoPlugin interface [Media Foundation], SetConstriction method, IEVRTrustedVideoPlugin::SetConstriction, SetConstriction method [Media Foundation], SetConstriction method [Media Foundation], IEVRTrustedVideoPlugin interface, SetConstriction,IEVRTrustedVideoPlugin.SetConstriction, evr/IEVRTrustedVideoPlugin::SetConstriction, f2e9b199-969f-453c-8714-fa85c89a191a, mf.ievrtrustedvideoplugin_setconstriction
 ms.prod: windows-hardware
 ms.technology: windows-devices

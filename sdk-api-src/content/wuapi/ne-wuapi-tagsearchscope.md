@@ -7,7 +7,7 @@ old-location: wua\searchscope.htm
 old-project: Wua_Sdk
 ms.assetid: a7b6a930-7b79-42dc-a4b0-da2eca0dff5c
 ms.author: windowsdriverdev
-ms.date: 3/15/2018
+ms.date: 4/18/2018
 ms.keywords: SearchScope, SearchScope enumeration [Windows Update Agent], searchScopeAllUsers, searchScopeCurrentUserOnly, searchScopeDefault, searchScopeMachineAndAllUsers, searchScopeMachineAndCurrentUser, searchScopeMachineOnly, tagSearchScope, wua.searchscope, wuapi/SearchScope, wuapi/searchScopeAllUsers, wuapi/searchScopeCurrentUserOnly, wuapi/searchScopeDefault, wuapi/searchScopeMachineAndAllUsers, wuapi/searchScopeMachineAndCurrentUser, wuapi/searchScopeMachineOnly
 ms.prod: windows-hardware
 ms.technology: windows-devices

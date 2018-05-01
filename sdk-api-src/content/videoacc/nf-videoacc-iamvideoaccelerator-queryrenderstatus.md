@@ -7,7 +7,7 @@ old-location: dshow\iamvideoaccelerator_queryrenderstatus.htm
 old-project: DirectShow
 ms.assetid: 29d77bd5-2823-4e67-a69f-2898ad4c467c
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: AMVA_QUERYRENDERSTATUSF_READ, IAMVideoAccelerator, IAMVideoAccelerator interface [DirectShow], QueryRenderStatus method, IAMVideoAccelerator::QueryRenderStatus, IAMVideoAcceleratorQueryRenderStatus, QueryRenderStatus method [DirectShow], QueryRenderStatus method [DirectShow], IAMVideoAccelerator interface, QueryRenderStatus,IAMVideoAccelerator.QueryRenderStatus, Zero, dshow.iamvideoaccelerator_queryrenderstatus, videoacc/IAMVideoAccelerator::QueryRenderStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: VIDEOHDR, *PVIDEOHDR, *LPVIDEOHDR
+req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
 topic_type:
 -	APIRef
 -	kbSyntax

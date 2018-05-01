@@ -7,7 +7,7 @@ old-location: com\cosuspendclassobjects.htm
 old-project: com
 ms.assetid: a9e526f8-b7c1-47ec-a6ab-91690d93119e
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: CoSuspendClassObjects, CoSuspendClassObjects function [COM], _com_CoSuspendClassObjects, com.cosuspendclassobjects, combaseapi/CoSuspendClassObjects
 ms.prod: windows-hardware
 ms.technology: windows-devices

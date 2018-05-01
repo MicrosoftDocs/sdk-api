@@ -7,7 +7,7 @@ old-location: security\cert_alt_name_entry.htm
 old-project: SecCrypto
 ms.assetid: 1353ef56-cae7-43f2-a31f-2bb3b502450e
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: "*PCERT_ALT_NAME_ENTRY, CERT_ALT_NAME_ENTRY, CERT_ALT_NAME_ENTRY structure [Security], PCERT_ALT_NAME_ENTRY, PCERT_ALT_NAME_ENTRY structure pointer [Security], _CERT_ALT_NAME_ENTRY, _crypto2_cert_alt_name_entry, security.cert_alt_name_entry, wincrypt/CERT_ALT_NAME_ENTRY, wincrypt/PCERT_ALT_NAME_ENTRY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,11 +61,6 @@ A  structure can be <b>CERT_ALT_NAME_ENTRY</b> member of a
 
 
 
-### -field DUMMYUNIONNAME
-
- 
-
-
 ### -field dwAltNameChoice
 
 Indicates the <b>union</b> variant used for the alternative name.
@@ -81,6 +76,13 @@ This can be one of the following values:
 <li>CERT_ALT_NAME_IP_ADDRESS</li>
 <li>CERT_ALT_NAME_REGISTERED_ID</li>
 </ul>
+
+### -field DUMMYUNIONNAME
+
+ 
+
+
+
 
 #### - DirectoryName
 

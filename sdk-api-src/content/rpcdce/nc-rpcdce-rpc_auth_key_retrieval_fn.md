@@ -7,7 +7,7 @@ old-location: rpc\rpc_auth_key_retrieval_fn.htm
 old-project: Rpc
 ms.assetid: 643ce467-5df9-4b1a-a149-cf301865d47a
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: RpcAuthKeyRetrievalFn, RpcAuthKeyRetrievalFn callback function [RPC], _rpc_rpc_auth_key_retrieval_fn, rpc.rpc_auth_key_retrieval_fn, rpcdce/RpcAuthKeyRetrievalFn
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # RPC_AUTH_KEY_RETRIEVAL_FN callback

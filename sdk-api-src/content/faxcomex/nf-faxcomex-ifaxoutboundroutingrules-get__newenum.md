@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxoutboundroutingrules_get__newenum.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_2a7h.htm
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/18/2018
 ms.keywords: IFaxOutboundRoutingRules, IFaxOutboundRoutingRules interface [Fax Service], get__NewEnum method, IFaxOutboundRoutingRules::get__NewEnum, _mfax_ifaxoutboundroutingrules_get__newenum, fax._mfax_ifaxoutboundroutingrules_get__newenum, faxcomex/IFaxOutboundRoutingRules::get__NewEnum, get__NewEnum method [Fax Service], get__NewEnum method [Fax Service], IFaxOutboundRoutingRules interface, get__NewEnum,IFaxOutboundRoutingRules.get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices

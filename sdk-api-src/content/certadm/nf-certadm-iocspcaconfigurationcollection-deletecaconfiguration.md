@@ -7,7 +7,7 @@ old-location: security\iocspcaconfigurationcollection_deletecaconfiguration_meth
 old-project: SecCrypto
 ms.assetid: 3733d98c-d262-4083-bac9-109720059f0b
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: DeleteCAConfiguration method [Security], DeleteCAConfiguration method [Security], IOCSPCAConfigurationCollection interface, DeleteCAConfiguration,IOCSPCAConfigurationCollection.DeleteCAConfiguration, IOCSPCAConfigurationCollection, IOCSPCAConfigurationCollection interface [Security], DeleteCAConfiguration method, IOCSPCAConfigurationCollection::DeleteCAConfiguration, certadm/IOCSPCAConfigurationCollection::DeleteCAConfiguration, security.iocspcaconfigurationcollection_deletecaconfiguration_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CHANNEL_ENTRY_POINTS, *PCHANNEL_ENTRY_POINTS
+req.typenames: 
 topic_type:
 -	APIRef
 -	kbSyntax

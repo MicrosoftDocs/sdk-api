@@ -7,7 +7,7 @@ old-location: winrt\iplaytomanagerinterop_showplaytouiforwindow.htm
 old-project: WinRT
 ms.assetid: 106ddd95-06dd-479a-8350-39d791add469
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/24/2018
 ms.keywords: IPlayToManagerInterop, IPlayToManagerInterop interface [Windows Runtime], ShowPlayToUIForWindow method, IPlayToManagerInterop::ShowPlayToUIForWindow, ShowPlayToUIForWindow method [Windows Runtime], ShowPlayToUIForWindow method [Windows Runtime], IPlayToManagerInterop interface, ShowPlayToUIForWindow,IPlayToManagerInterop.ShowPlayToUIForWindow, playtomanagerinterop/IPlayToManagerInterop::ShowPlayToUIForWindow, winrt.iplaytomanagerinterop_showplaytouiforwindow
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IPlayToManagerInterop::ShowPlayToUIForWindow method

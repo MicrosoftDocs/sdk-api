@@ -7,7 +7,7 @@ old-location: mstv\iatsclocator_get_tsid.htm
 old-project: mstv
 ms.assetid: e7cde550-742c-426c-a350-1d05b74f824d
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IATSCLocator, IATSCLocator interface [Microsoft TV Technologies], get_TSID method, IATSCLocator::get_TSID, IATSCLocatorget_TSID, get_TSID method [Microsoft TV Technologies], get_TSID method [Microsoft TV Technologies], IATSCLocator interface, get_TSID,IATSCLocator.get_TSID, mstv.iatsclocator_get_tsid, tuner/IATSCLocator::get_TSID
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopygroup_createjob.htm
 old-project: Bits
 ms.assetid: 2453996e-f994-43b9-901b-680a55095268
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/10/2018
 ms.keywords: CreateJob method [BITS], CreateJob method [BITS], IBackgroundCopyGroup interface, CreateJob,IBackgroundCopyGroup.CreateJob, IBackgroundCopyGroup, IBackgroundCopyGroup interface [BITS], CreateJob method, IBackgroundCopyGroup::CreateJob, bits.ibackgroundcopygroup_createjob, qmgr/IBackgroundCopyGroup::CreateJob
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: QmgrPrxy.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IBackgroundCopyGroup::CreateJob method

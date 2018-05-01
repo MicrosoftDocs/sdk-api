@@ -7,7 +7,7 @@ old-location: search\_search_IConditionFactory_MakeNot.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iconditionfactory\makenot.htm
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/24/2018
 ms.keywords: IConditionFactory, IConditionFactory interface [search], MakeNot method, IConditionFactory::MakeNot, MakeNot method [search], MakeNot method [search], IConditionFactory interface, MakeNot,IConditionFactory.MakeNot, _search_IConditionFactory_MakeNot, search._search_IConditionFactory_MakeNot, structuredquery/IConditionFactory::MakeNot
 ms.prod: windows-hardware
 ms.technology: windows-devices

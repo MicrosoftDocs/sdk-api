@@ -7,7 +7,7 @@ old-location: controls\ITextRange_GetEmbeddedObject.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getembeddedobject.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: GetEmbeddedObject method [Windows Controls], GetEmbeddedObject method [Windows Controls], ITextRange interface, GetEmbeddedObject,ITextRange.GetEmbeddedObject, ITextRange, ITextRange interface [Windows Controls], GetEmbeddedObject method, ITextRange::GetEmbeddedObject, _win32_ITextRange_GetEmbeddedObject, _win32_ITextRange_GetEmbeddedObject_cpp, controls.ITextRange_GetEmbeddedObject, controls._win32_ITextRange_GetEmbeddedObject, tom/ITextRange::GetEmbeddedObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

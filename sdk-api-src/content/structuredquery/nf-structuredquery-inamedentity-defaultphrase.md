@@ -7,7 +7,7 @@ old-location: search\_search_INamedEntity_DefaultPhrase.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\inamedentity\defaultphrase.htm
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/24/2018
 ms.keywords: DefaultPhrase method [search], DefaultPhrase method [search], INamedEntity interface, DefaultPhrase,INamedEntity.DefaultPhrase, INamedEntity, INamedEntity interface [search], DefaultPhrase method, INamedEntity::DefaultPhrase, _search_INamedEntity_DefaultPhrase, search._search_INamedEntity_DefaultPhrase, structuredquery/INamedEntity::DefaultPhrase
 ms.prod: windows-hardware
 ms.technology: windows-devices

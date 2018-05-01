@@ -7,7 +7,7 @@ old-location: mstv\imsvidrect.htm
 old-project: mstv
 ms.assetid: 0b3cf31b-e0cc-4208-a128-b77460fc0f1b
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidRect, IMSVidRect interface [Microsoft TV Technologies], IMSVidRect interface [Microsoft TV Technologies], described, IMSVidRectInterface, mstv.imsvidrect, segment/IMSVidRect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidRect interface

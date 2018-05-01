@@ -7,7 +7,7 @@ old-location: mf\imftransform_getstreamcount.htm
 old-project: medfound
 ms.assetid: 491f7f44-fcac-4236-ba5c-e5705267c6c2
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 491f7f44-fcac-4236-ba5c-e5705267c6c2, GetStreamCount method [Media Foundation], GetStreamCount method [Media Foundation], IMFTransform interface, GetStreamCount,IMFTransform.GetStreamCount, IMFTransform, IMFTransform interface [Media Foundation], GetStreamCount method, IMFTransform::GetStreamCount, mf.imftransform_getstreamcount, mftransform/IMFTransform::GetStreamCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

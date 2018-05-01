@@ -7,7 +7,7 @@ old-location: mstv\imsvidvideorenderer_capture.htm
 old-project: mstv
 ms.assetid: 05287e53-a988-43cc-ac41-5024a217621a
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: Capture method [Microsoft TV Technologies], Capture method [Microsoft TV Technologies], IMSVidVideoRenderer interface, Capture,IMSVidVideoRenderer.Capture, IMSVidVideoRenderer, IMSVidVideoRenderer interface [Microsoft TV Technologies], Capture method, IMSVidVideoRenderer::Capture, IMSVidVideoRendererCapture, mstv.imsvidvideorenderer_capture, segment/IMSVidVideoRenderer::Capture
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidVideoRenderer::Capture method

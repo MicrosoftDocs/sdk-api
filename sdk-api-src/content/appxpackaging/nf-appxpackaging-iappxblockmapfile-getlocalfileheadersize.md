@@ -7,7 +7,7 @@ old-location: appxpkg\iappxblockmapfile_getlocalfileheadersize.htm
 old-project: appxpkg
 ms.assetid: 2BBABACF-089B-4711-B384-627E921B044A
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/26/2018
 ms.keywords: GetLocalFileHeaderSize method [App packaging and management], GetLocalFileHeaderSize method [App packaging and management], IAppxBlockMapFile interface, GetLocalFileHeaderSize,IAppxBlockMapFile.GetLocalFileHeaderSize, IAppxBlockMapFile, IAppxBlockMapFile interface [App packaging and management], GetLocalFileHeaderSize method, IAppxBlockMapFile::GetLocalFileHeaderSize, appxpackaging/IAppxBlockMapFile::GetLocalFileHeaderSize, appxpkg.iappxblockmapfile_getlocalfileheadersize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_ARCHITECTURE2
+req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
 topic_type:
 -	APIRef
 -	kbSyntax

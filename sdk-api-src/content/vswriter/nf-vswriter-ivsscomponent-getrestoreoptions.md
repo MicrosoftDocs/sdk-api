@@ -7,7 +7,7 @@ old-location: base\ivsscomponent_getrestoreoptions.htm
 old-project: VSS
 ms.assetid: 818fd713-1b41-4abd-aca4-c74383fa3594
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: GetRestoreOptions method [VSS], GetRestoreOptions method [VSS], IVssComponent interface, GetRestoreOptions,IVssComponent.GetRestoreOptions, IVssComponent, IVssComponent interface [VSS], GetRestoreOptions method, IVssComponent::GetRestoreOptions, _win32_ivsscomponent_getrestoreoptions, base.ivsscomponent_getrestoreoptions, vswriter/IVssComponent::GetRestoreOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _MIB_IPNET_ROW2 structure
@@ -57,45 +57,6 @@ The
 ## -struct-fields
 
 
-
-
-### -field IsRouter
-
-Type: <b>BOOLEAN</b>
-
-A value that indicates if this IP address is a router.
-
-
-### -field IsUnreachable
-
-Type: <b>BOOLEAN</b>
-
-A value that indicates if this IP address is unreachable.
-
-
-### -field ReachabilityTime
-
-
-
-#### LastReachable
-
-<b>Type: <b>ULONG</b>
-</b>
-The time, in
-                     milliseconds, that a node assumes a neighbor is
-                     reachable after having received a reachability
-                     confirmation. 
-
-
-
-#### LastUnreachable
-
-<b>Type: <b>ULONG</b>
-</b>
-The time, in
-                     milliseconds, that a node assumes a neighbor is
-                     unreachable after not having received a reachability
-                     confirmation. 
 
 
 ### -field Address
@@ -245,6 +206,45 @@ The maximum possible value for the <b>NL_NEIGHBOR_STATE</b> enumeration type. Th
 </tr>
 </table>
  
+
+
+### -field IsRouter
+
+Type: <b>BOOLEAN</b>
+
+A value that indicates if this IP address is a router.
+
+
+### -field IsUnreachable
+
+Type: <b>BOOLEAN</b>
+
+A value that indicates if this IP address is unreachable.
+
+
+### -field ReachabilityTime
+
+
+
+#### LastReachable
+
+<b>Type: <b>ULONG</b>
+</b>
+The time, in
+                     milliseconds, that a node assumes a neighbor is
+                     reachable after having received a reachability
+                     confirmation. 
+
+
+
+#### LastUnreachable
+
+<b>Type: <b>ULONG</b>
+</b>
+The time, in
+                     milliseconds, that a node assumes a neighbor is
+                     unreachable after not having received a reachability
+                     confirmation. 
 
 
 #### - Flags

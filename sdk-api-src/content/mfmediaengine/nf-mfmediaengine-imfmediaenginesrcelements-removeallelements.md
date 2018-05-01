@@ -7,7 +7,7 @@ old-location: mf\imfmediaenginesrcelements_removeallelements.htm
 old-project: medfound
 ms.assetid: 4E867439-CBBA-4D36-9E0F-9034D3803688
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFMediaEngineSrcElements, IMFMediaEngineSrcElements interface [Media Foundation], RemoveAllElements method, IMFMediaEngineSrcElements::RemoveAllElements, RemoveAllElements method [Media Foundation], RemoveAllElements method [Media Foundation], IMFMediaEngineSrcElements interface, RemoveAllElements,IMFMediaEngineSrcElements.RemoveAllElements, mf.imfmediaenginesrcelements_removeallelements, mfmediaengine/IMFMediaEngineSrcElements::RemoveAllElements
 ms.prod: windows-hardware
 ms.technology: windows-devices

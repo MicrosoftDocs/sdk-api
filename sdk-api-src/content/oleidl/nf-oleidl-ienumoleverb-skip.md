@@ -7,7 +7,7 @@ old-location: com\ienumoleverb_skip.htm
 old-project: com
 ms.assetid: f949f993-1c4c-4d42-ba23-93330f0e9967
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IEnumOLEVERB, IEnumOLEVERB interface [COM], Skip method, IEnumOLEVERB::Skip, Skip method [COM], Skip method [COM], IEnumOLEVERB interface, Skip,IEnumOLEVERB.Skip, _ole_ienumoleverb_skip, com.ienumoleverb_skip, oleidl/IEnumOLEVERB::Skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IEnumOLEVERB::Skip method

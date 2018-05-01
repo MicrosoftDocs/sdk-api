@@ -7,7 +7,7 @@ old-location: mstv\ixdscodec_put_ccsubstreamservice.htm
 old-project: mstv
 ms.assetid: e8e4a43a-3e9f-468a-8df3-7ff05d23b20b
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IXDSCodec, IXDSCodec interface [Microsoft TV Technologies], put_CCSubstreamService method, IXDSCodec::put_CCSubstreamService, IXDSCodecput_CCSubstreamService, encdec/IXDSCodec::put_CCSubstreamService, mstv.ixdscodec_put_ccsubstreamservice, put_CCSubstreamService method [Microsoft TV Technologies], put_CCSubstreamService method [Microsoft TV Technologies], IXDSCodec interface, put_CCSubstreamService,IXDSCodec.put_CCSubstreamService
 ms.prod: windows-hardware
 ms.technology: windows-devices

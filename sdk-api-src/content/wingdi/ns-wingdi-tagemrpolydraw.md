@@ -7,7 +7,7 @@ old-location: gdi\emrpolydraw.htm
 old-project: gdi
 ms.assetid: c75d19bf-a7e3-45db-9534-f089d4cec3eb
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/17/2018
 ms.keywords: "*PEMRPOLYDRAW, EMRPOLYDRAW, EMRPOLYDRAW structure [Windows GDI], PEMRPOLYDRAW, PEMRPOLYDRAW structure pointer [Windows GDI], _win32_EMRPOLYDRAW_str, gdi.emrpolydraw, tagEMRPOLYDRAW, wingdi/EMRPOLYDRAW, wingdi/PEMRPOLYDRAW"
 ms.prod: windows-hardware
 ms.technology: windows-devices

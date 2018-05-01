@@ -7,7 +7,7 @@ old-location: shell\ITravelLog_InsertMenuEntries.htm
 old-project: shell
 ms.assetid: 5e75c524-5fa6-4d76-8fe9-a69ee1b509e8
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ITravelLog, ITravelLog interface [Windows Shell], InsertMenuEntries method, ITravelLog::InsertMenuEntries, InsertMenuEntries method [Windows Shell], InsertMenuEntries method [Windows Shell], ITravelLog interface, InsertMenuEntries,ITravelLog.InsertMenuEntries, TLMENUF_BACK, TLMENUF_BACKANDFORTH, TLMENUF_CHECKCURRENT, TLMENUF_FORE, TLMENUF_INCLUDECURRENT, shdeprecated/ITravelLog::InsertMenuEntries, shell.ITravelLog_InsertMenuEntries, zone_ITravelLog_InsertMenuEntries
 ms.prod: windows-hardware
 ms.technology: windows-devices

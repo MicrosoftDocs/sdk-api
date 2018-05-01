@@ -7,7 +7,7 @@ old-location: mstv\idvbprivatedataspecifierdescriptor_getlength.htm
 old-project: mstv
 ms.assetid: 9a3b550c-3082-4ac8-9568-6ccdec26d193
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies], IDvbPrivateDataSpecifierDescriptor interface, GetLength,IDvbPrivateDataSpecifierDescriptor.GetLength, IDvbPrivateDataSpecifierDescriptor, IDvbPrivateDataSpecifierDescriptor interface [Microsoft TV Technologies], GetLength method, IDvbPrivateDataSpecifierDescriptor::GetLength, dvbsiparser/IDvbPrivateDataSpecifierDescriptor::GetLength, mstv.idvbprivatedataspecifierdescriptor_getlength
 ms.prod: windows-hardware
 ms.technology: windows-devices

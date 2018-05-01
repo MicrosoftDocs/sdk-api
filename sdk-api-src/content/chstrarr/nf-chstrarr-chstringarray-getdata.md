@@ -7,7 +7,7 @@ old-location: wmi\chstringarray_getdata.htm
 old-project: WmiSdk
 ms.assetid: b59a0c42-e753-43ff-bf39-279f0a8b9d2b
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: CHStringArray, CHStringArray interface [Windows Management Instrumentation], GetData method, CHStringArray::GetData, GetData method [Windows Management Instrumentation], GetData method [Windows Management Instrumentation], CHStringArray interface, GetData,CHStringArray.GetData, _hmm_chstringarray_getdata, chstrarr/CHStringArray::GetData, wmi.chstringarray_getdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CF_SYNC_ROOT_STANDARD_INFO
+req.typenames: CF_SYNC_STATUS
 topic_type:
 -	APIRef
 -	kbSyntax

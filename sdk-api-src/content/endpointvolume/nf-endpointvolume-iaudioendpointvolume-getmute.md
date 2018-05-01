@@ -7,7 +7,7 @@ old-location: coreaudio\iaudioendpointvolume_getmute.htm
 old-project: CoreAudio
 ms.assetid: bb7cbb42-74cd-4951-92b1-a76ca42e5d3a
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: GetMute method [Core Audio], GetMute method [Core Audio], IAudioEndpointVolume interface, GetMute,IAudioEndpointVolume.GetMute, IAudioEndpointVolume, IAudioEndpointVolume interface [Core Audio], GetMute method, IAudioEndpointVolume::GetMute, IAudioEndpointVolumeGetMute, coreaudio.iaudioendpointvolume_getmute, endpointvolume/IAudioEndpointVolume::GetMute
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\imftimer_canceltimer.htm
 old-project: medfound
 ms.assetid: 3fa65809-1652-4903-92ad-1034bcdf0743
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 3fa65809-1652-4903-92ad-1034bcdf0743, CancelTimer method [Media Foundation], CancelTimer method [Media Foundation], IMFTimer interface, CancelTimer,IMFTimer.CancelTimer, IMFTimer, IMFTimer interface [Media Foundation], CancelTimer method, IMFTimer::CancelTimer, mf.imftimer_canceltimer, mfidl/IMFTimer::CancelTimer
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -58,6 +58,13 @@ Contains snapshot parameters, indicating information about the new snapshot to b
 
 
 
+### -field Version
+
+An <a href="https://msdn.microsoft.com/3146B123-5118-495E-A640-11026DAD84C4">APPLY_SNAPSHOT_VHDSET_VERSION</a> 
+     enumeration that specifies the version of the 
+     <b>APPLY_SNAPSHOT_VHDSET_PARAMETERS</b> structure being passed to or from the VHD functions.
+
+
 ### -field Version1
 
 A structure with the following member.
@@ -72,11 +79,4 @@ The ID of the new snapshot to be applied to the VHD set.
 
 Indicates whether the current default leaf data should be retained as part of the apply operation. When a zero GUID is specified, the apply operation will discard the current default leaf data. When a non-zero GUID is specified, the apply operation will convert the default leaf data into a writeable snapshot with the specified ID. 
 
-
-
-### -field Version
-
-An <a href="https://msdn.microsoft.com/3146B123-5118-495E-A640-11026DAD84C4">APPLY_SNAPSHOT_VHDSET_VERSION</a> 
-     enumeration that specifies the version of the 
-     <b>APPLY_SNAPSHOT_VHDSET_PARAMETERS</b> structure being passed to or from the VHD functions.
 

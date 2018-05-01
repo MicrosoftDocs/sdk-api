@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_subscriptiondeliveryoptions_getdeliveryretryinterval.htm
 old-project: wmi_v2
 ms.assetid: 74ece97b-edf9-43f9-9afb-bb946ce13e89
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/18/2018
 ms.keywords: MI_SubscriptionDeliveryOptions_GetDeliveryRetryInterval, MI_SubscriptionDeliveryOptions_GetDeliveryRetryInterval function [Windows Management Infrastructure (MI)], mi/MI_SubscriptionDeliveryOptions_GetDeliveryRetryInterval, wmi_v2.mi_subscriptiondeliveryoptions_getdeliveryretryinterval
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3dcubetexture9__lockrect.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dcubetexture9__lockrect.htm
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/10/2018
 ms.keywords: 1f5618d3-63b7-c0fc-9b6e-44b99c39650c, IDirect3DCubeTexture9, IDirect3DCubeTexture9 interface [Direct3D 9], LockRect method, IDirect3DCubeTexture9::LockRect, LockRect method [Direct3D 9], LockRect method [Direct3D 9], IDirect3DCubeTexture9 interface, LockRect,IDirect3DCubeTexture9.LockRect, d3d9helper/IDirect3DCubeTexture9::LockRect, direct3d9.idirect3dcubetexture9__lockrect
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiosessioncontrol_getstate.htm
 old-project: CoreAudio
 ms.assetid: 9c0188a1-7982-40f0-9040-bda00473160c
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: GetState method [Core Audio], GetState method [Core Audio], IAudioSessionControl interface, GetState,IAudioSessionControl.GetState, IAudioSessionControl, IAudioSessionControl interface [Core Audio], GetState method, IAudioSessionControl::GetState, IAudioSessionControlGetState, audiopolicy/IAudioSessionControl::GetState, coreaudio.iaudiosessioncontrol_getstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: AE_CURRENT_POSITION, *PAE_CURRENT_POSITION
+req.typenames: UNCOMPRESSEDAUDIOFORMAT
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,7 +7,7 @@ old-location: controls\ITextPara_SetDuplicate.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextpara\itextparasetduplicate.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextPara, ITextPara interface [Windows Controls], SetDuplicate method, ITextPara::SetDuplicate, SetDuplicate method [Windows Controls], SetDuplicate method [Windows Controls], ITextPara interface, SetDuplicate,ITextPara.SetDuplicate, _win32_ITextPara_SetDuplicate, _win32_ITextPara_SetDuplicate_cpp, controls.ITextPara_SetDuplicate, controls._win32_ITextPara_SetDuplicate, tom/ITextPara::SetDuplicate
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\getthreadpriorityboost.htm
 old-project: ProcThread
 ms.assetid: 44edf5e3-7543-482f-89ff-ae9daf495ff3
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: GetThreadPriorityBoost, GetThreadPriorityBoost function, _win32_getthreadpriorityboost, base.getthreadpriorityboost, processthreadsapi/GetThreadPriorityBoost, winbase/GetThreadPriorityBoost
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -48,7 +48,7 @@ targetos: Windows
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # GetThreadPriorityBoost function

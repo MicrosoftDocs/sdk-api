@@ -7,7 +7,7 @@ old-location: tapi3\itpluggableterminalsuperclassregistration_enumerateterminalc
 old-project: Tapi
 ms.assetid: dc75972d-7917-406d-8ed8-e05679ab86eb
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: EnumerateTerminalClasses method [TAPI 2.2], EnumerateTerminalClasses method [TAPI 2.2], ITPluggableTerminalSuperclassRegistration interface, EnumerateTerminalClasses,ITPluggableTerminalSuperclassRegistration.EnumerateTerminalClasses, ITPluggableTerminalSuperclassRegistration, ITPluggableTerminalSuperclassRegistration interface [TAPI 2.2], EnumerateTerminalClasses method, ITPluggableTerminalSuperclassRegistration::EnumerateTerminalClasses, _tapi3_itpluggableterminalsuperclassregistration_enumerateterminalclasses, tapi3.itpluggableterminalsuperclassregistration_enumerateterminalclasses, termmgr/ITPluggableTerminalSuperclassRegistration::EnumerateTerminalClasses
 ms.prod: windows-hardware
 ms.technology: windows-devices

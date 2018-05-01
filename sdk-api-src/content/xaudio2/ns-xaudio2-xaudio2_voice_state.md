@@ -7,7 +7,7 @@ old-location: xaudio2\xaudio2_voice_state.htm
 old-project: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xaudio2.XAUDIO2_VOICE_STATE
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/20/2018
 ms.keywords: XAUDIO2_VOICE_STATE, XAUDIO2_VOICE_STATE structure [XAudio2 Audio Mixing APIs], xaudio2.xaudio2_voice_state, xaudio2/XAUDIO2_VOICE_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices

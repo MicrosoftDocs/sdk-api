@@ -7,7 +7,7 @@ old-location: stg\istorage_setclass.htm
 old-project: Stg
 ms.assetid: 02ab2708-fc8b-4941-939a-a819cf823108
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/20/2018
 ms.keywords: IStorage, IStorage interface [Structured Storage], SetClass method, IStorage::SetClass, SetClass method [Structured Storage], SetClass method [Structured Storage], IStorage interface, SetClass,IStorage.SetClass, _stg_istorage_setclass, objidl/IStorage::SetClass, stg.istorage_setclass
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IStorage::SetClass method

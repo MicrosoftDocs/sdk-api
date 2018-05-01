@@ -7,7 +7,7 @@ old-location: direct3dhlsl\d3dstripshader.htm
 old-project: direct3dhlsl
 ms.assetid: VS|directx_sdk|~\d3dstripshader.htm
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/12/2018
 ms.keywords: 3320d273-7542-f3d8-0828-2c357608a8c8, D3DStripShader, D3DStripShader function [HLSL], d3dcompiler/D3DStripShader, direct3dhlsl.d3dstripshader
 ms.prod: windows-hardware
 ms.technology: windows-devices

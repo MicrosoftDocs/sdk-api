@@ -7,7 +7,7 @@ old-location: fwp\ipsec_statistics1_struct.htm
 old-project: FWP
 ms.assetid: d61d8eb5-1b0b-419e-a248-58541db8906b
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: IPSEC_STATISTICS1, IPSEC_STATISTICS1 structure [Filtering], IPSEC_STATISTICS1_, fwp.ipsec_statistics1_struct, ipsectypes/IPSEC_STATISTICS1
 ms.prod: windows-hardware
 ms.technology: windows-devices

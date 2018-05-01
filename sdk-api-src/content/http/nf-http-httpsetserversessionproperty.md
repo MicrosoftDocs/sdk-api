@@ -7,7 +7,7 @@ old-location: http\httpsetserversessionproperty.htm
 old-project: Http
 ms.assetid: d655832c-68a1-42d1-ac91-964884bf2dac
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: HttpServerAuthenticationProperty, HttpServerChannelBindProperty, HttpServerExtendedAuthenticationProperty, HttpServerLoggingProperty, HttpServerQosProperty, HttpServerStateProperty, HttpServerTimeoutsProperty, HttpSetServerSessionProperty, HttpSetServerSessionProperty function [HTTP], http.httpsetserversessionproperty, http/HttpSetServerSessionProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

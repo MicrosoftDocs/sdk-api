@@ -7,7 +7,7 @@ old-location: intl\goffset.htm
 old-project: Intl
 ms.assetid: 63fa8741-c8c8-480d-9702-2f4eb13bc01c
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/25/2018
 ms.keywords: GOFFSET, GOFFSET structure [Internationalization for Windows Applications], _win32_GOFFSET_str, intl.goffset, tagGOFFSET, usp10/GOFFSET
 ms.prod: windows-hardware
 ms.technology: windows-devices

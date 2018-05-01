@@ -7,7 +7,7 @@ old-location: termserv\iwrdsremotefxgraphicsconnection_enableremotefxgraphics.ht
 old-project: TermServ
 ms.assetid: 3ad667ed-bbb5-44e2-992a-df90bbab7b79
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: EnableRemoteFXGraphics method [Remote Desktop Services], EnableRemoteFXGraphics method [Remote Desktop Services], IWRdsRemoteFXGraphicsConnection interface, EnableRemoteFXGraphics,IWRdsRemoteFXGraphicsConnection.EnableRemoteFXGraphics, IWRdsRemoteFXGraphicsConnection, IWRdsRemoteFXGraphicsConnection interface [Remote Desktop Services], EnableRemoteFXGraphics method, IWRdsRemoteFXGraphicsConnection::EnableRemoteFXGraphics, termserv.iwrdsremotefxgraphicsconnection_enableremotefxgraphics, wtsprotocol/IWRdsRemoteFXGraphicsConnection::EnableRemoteFXGraphics
 ms.prod: windows-hardware
 ms.technology: windows-devices

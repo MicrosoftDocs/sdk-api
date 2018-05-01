@@ -7,7 +7,7 @@ old-location: dshow\rem_filter_flags.htm
 old-project: DirectShow
 ms.assetid: 0bc91914-fa43-4ab7-a85e-30590a717c47
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: REMFILTERF_LEAVECONNECTED, REM_FILTER_FLAGSEnumeration, _REM_FILTER_FLAGS, _REM_FILTER_FLAGS enumeration [DirectShow], dshow.rem_filter_flags, strmif/REMFILTERF_LEAVECONNECTED, strmif/_REM_FILTER_FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices

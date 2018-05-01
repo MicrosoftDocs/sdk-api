@@ -7,7 +7,7 @@ old-location: ad\adspropsenderrormessage.htm
 old-project: AD
 ms.assetid: a1ca8440-0b18-4439-9143-bd8119f4f6ae
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/20/2018
 ms.keywords: ADsPropSendErrorMessage, ADsPropSendErrorMessage function [Active Directory], ad.adspropsenderrormessage, adsprop/ADsPropSendErrorMessage
 ms.prod: windows-hardware
 ms.technology: windows-devices

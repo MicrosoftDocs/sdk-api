@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyjobhttpoptions_setclientcertificatebyid.htm
 old-project: Bits
 ms.assetid: 60839bac-7f5f-4c43-84d4-26f1b21f974d
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/10/2018
 ms.keywords: CA, IBackgroundCopyJobHttpOptions, IBackgroundCopyJobHttpOptions interface [BITS], SetClientCertificateByID method, IBackgroundCopyJobHttpOptions::SetClientCertificateByID, MY, ROOT, SPC, SetClientCertificateByID method [BITS], SetClientCertificateByID method [BITS], IBackgroundCopyJobHttpOptions interface, SetClientCertificateByID,IBackgroundCopyJobHttpOptions.SetClientCertificateByID, bits.ibackgroundcopyjobhttpoptions_setclientcertificatebyid, bits2_5/IBackgroundCopyJobHttpOptions::SetClientCertificateByID
 ms.prod: windows-hardware
 ms.technology: windows-devices

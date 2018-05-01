@@ -7,7 +7,7 @@ old-location: mf\imftransform_getinputcurrenttype.htm
 old-project: medfound
 ms.assetid: f3603586-41fd-4eed-9942-28925ed29690
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetInputCurrentType method [Media Foundation], GetInputCurrentType method [Media Foundation], IMFTransform interface, GetInputCurrentType,IMFTransform.GetInputCurrentType, IMFTransform, IMFTransform interface [Media Foundation], GetInputCurrentType method, IMFTransform::GetInputCurrentType, f3603586-41fd-4eed-9942-28925ed29690, mf.imftransform_getinputcurrenttype, mftransform/IMFTransform::GetInputCurrentType
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyerror_getprotocol.htm
 old-project: Bits
 ms.assetid: 94c1fcc8-7132-41db-9a1c-cbe105e3b0bb
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/10/2018
 ms.keywords: GetProtocol method [BITS], GetProtocol method [BITS], IBackgroundCopyError interface, GetProtocol,IBackgroundCopyError.GetProtocol, IBackgroundCopyError, IBackgroundCopyError interface [BITS], GetProtocol method, IBackgroundCopyError::GetProtocol, _drz_ibackgroundcopyerror_getprotocol, bits.ibackgroundcopyerror_getprotocol, bits/IBackgroundCopyError::GetProtocol
 ms.prod: windows-hardware
 ms.technology: windows-devices

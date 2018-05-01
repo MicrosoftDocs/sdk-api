@@ -63,6 +63,16 @@ req.product: Windows XP with SP1 and later
 
 
 
+### -field Flags
+
+Flags that indicate if the property is contained in a structure or array. For possible values, see the <a href="https://msdn.microsoft.com/517c1662-4230-44dc-94f0-a1996291bbee">PROPERTY_FLAGS</a> enumeration.
+
+
+### -field NameOffset
+
+Offset to a null-terminated Unicode string that contains the name of the property. If this an event property, the offset is from the beginning of the <a href="https://msdn.microsoft.com/ecf57a23-0dd2-4954-82ac-e92f651c226f">TRACE_EVENT_INFO</a> structure. If this is a filter property, the offset is from the beginning of the <a href="https://msdn.microsoft.com/0541b24a-8531-4828-8c3b-d889e58b0b38">PROVIDER_FILTER_INFO</a> structure.
+
+
 ### -field nonStructType
 
 Use these members if the <a href="https://msdn.microsoft.com/517c1662-4230-44dc-94f0-a1996291bbee">PropertyStruct</a> flag in <b>Flags</b> is not set; otherwise, use the <b>structType</b> member.
@@ -134,16 +144,6 @@ Offset (in bytes) from the beginning of the TRACE_EVENT_INFO structure to the cu
 ### -field Tags
 
 A 28-bit value associated with the field metadata. This value is valid only if the <i>PropertyHasTags</i> flag is set. This value can be used by the event provider to associate additional semantic data with a field for use by an event processing tool. For example, a tag value of 1 might indicate that the field contains a username. The semantics of any values in this field are defined by the event provider.
-
-
-### -field Flags
-
-Flags that indicate if the property is contained in a structure or array. For possible values, see the <a href="https://msdn.microsoft.com/517c1662-4230-44dc-94f0-a1996291bbee">PROPERTY_FLAGS</a> enumeration.
-
-
-### -field NameOffset
-
-Offset to a null-terminated Unicode string that contains the name of the property. If this an event property, the offset is from the beginning of the <a href="https://msdn.microsoft.com/ecf57a23-0dd2-4954-82ac-e92f651c226f">TRACE_EVENT_INFO</a> structure. If this is a filter property, the offset is from the beginning of the <a href="https://msdn.microsoft.com/0541b24a-8531-4828-8c3b-d889e58b0b38">PROVIDER_FILTER_INFO</a> structure.
 
 
 #### - Reserved

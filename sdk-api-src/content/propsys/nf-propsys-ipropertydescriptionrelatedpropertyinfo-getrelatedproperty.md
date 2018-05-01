@@ -7,7 +7,7 @@ old-location: properties\IPropertyDescriptionRelatedPropertyInfo_GetRelatedPrope
 old-project: properties
 ms.assetid: 735880dc-4cf2-4f4a-b9fc-f4dddd19415d
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/5/2018
 ms.keywords: GetRelatedProperty method [Windows Properties], GetRelatedProperty method [Windows Properties], IPropertyDescriptionRelatedPropertyInfo interface, GetRelatedProperty,IPropertyDescriptionRelatedPropertyInfo.GetRelatedProperty, IPropertyDescriptionRelatedPropertyInfo, IPropertyDescriptionRelatedPropertyInfo interface [Windows Properties], GetRelatedProperty method, IPropertyDescriptionRelatedPropertyInfo::GetRelatedProperty, _shell_IPropertyDescriptionRelatedPropertyInfo_GetRelatedProperty, properties.IPropertyDescriptionRelatedPropertyInfo_GetRelatedProperty, propsys/IPropertyDescriptionRelatedPropertyInfo::GetRelatedProperty, shell.IPropertyDescriptionRelatedPropertyInfo_GetRelatedProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IPropertyDescriptionRelatedPropertyInfo::GetRelatedProperty method

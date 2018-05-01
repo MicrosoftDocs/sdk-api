@@ -74,11 +74,6 @@ The user-friendly name of the application as it appears in <b>Add or Remove Prog
 The <b>GUID</b> for the group policy object in which the application exists. You can obtain the group policy object <b>GUID</b> by calling <a href="https://msdn.microsoft.com/62e32f36-cbb2-4557-9773-8bd454870d55">GetManagedApplications</a>.
 
 
-### -field COMClass
-
- 
-
-
 ### -field FileExt
 
 The file name extension, such as .jpg,  of the application to be installed.
@@ -87,6 +82,11 @@ The file name extension, such as .jpg,  of the application to be installed.
 <div> </div>
 
 ### -field ProgId
+
+ 
+
+
+### -field COMClass
 
  
 

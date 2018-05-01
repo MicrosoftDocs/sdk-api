@@ -7,7 +7,7 @@ old-location: security\sspiunmarshalauthidentity.htm
 old-project: SecAuthN
 ms.assetid: 89798b37-808a-4174-8362-a2dc4ee1b460
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/24/2018
 ms.keywords: SspiUnmarshalAuthIdentity, SspiUnmarshalAuthIdentity function [Security], security.sspiunmarshalauthidentity, sspi/SspiUnmarshalAuthIdentity
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: cos\iobjpool_putendtx.htm
 old-project: cossdk
 ms.assetid: 24a80209-6ed8-426e-a645-463393a3a37e
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: IObjPool, IObjPool interface [COM+], PutEndTx method, IObjPool::PutEndTx, PutEndTx method [COM+], PutEndTx method [COM+], IObjPool interface, PutEndTx,IObjPool.PutEndTx, _cos_IObjPool_PutEndTx, comsvcs/IObjPool::PutEndTx, cos.iobjpool_putendtx
 ms.prod: windows-hardware
 ms.technology: windows-devices

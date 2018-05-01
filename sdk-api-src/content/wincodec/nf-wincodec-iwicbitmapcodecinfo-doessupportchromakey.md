@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicbitmapcodecinfo_doessupportchromakey.htm
 old-project: wic
 ms.assetid: 662e213e-1ed2-445c-a7be-ff8a137fba2e
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: DoesSupportChromakey method [Windows Imaging Component], DoesSupportChromakey method [Windows Imaging Component], IWICBitmapCodecInfo interface, DoesSupportChromakey,IWICBitmapCodecInfo.DoesSupportChromakey, IWICBitmapCodecInfo, IWICBitmapCodecInfo interface [Windows Imaging Component], DoesSupportChromakey method, IWICBitmapCodecInfo::DoesSupportChromakey, _wic_codec_iwicbitmapcodecinfo_doessupportchromakey, wic._wic_codec_iwicbitmapcodecinfo_doessupportchromakey, wincodec/IWICBitmapCodecInfo::DoesSupportChromakey
 ms.prod: windows-hardware
 ms.technology: windows-devices

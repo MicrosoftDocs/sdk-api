@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ITextRangeProvider_RemoveFromSelection.htm
 old-project: WinAuto
 ms.assetid: 057d784e-906a-4de8-bdd8-b58a2e26f37c
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: ITextRangeProvider, ITextRangeProvider interface [Windows Accessibility], RemoveFromSelection method, ITextRangeProvider::RemoveFromSelection, RemoveFromSelection method [Windows Accessibility], RemoveFromSelection method [Windows Accessibility], ITextRangeProvider interface, RemoveFromSelection,ITextRangeProvider.RemoveFromSelection, uiauto.uiauto_ITextRangeProvider_RemoveFromSelection, uiauto_ITextRangeProvider_RemoveFromSelection, uiautomationcore/ITextRangeProvider::RemoveFromSelection, winauto.uiauto_ITextRangeProvider_RemoveFromSelection
 ms.prod: windows-hardware
 ms.technology: windows-devices

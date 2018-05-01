@@ -7,7 +7,7 @@ old-location: properties\IPropertyChangeArray_GetCount.htm
 old-project: properties
 ms.assetid: b87db827-2eb1-4463-aa6a-10591b200adf
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/5/2018
 ms.keywords: GetCount method [Windows Properties], GetCount method [Windows Properties], IPropertyChangeArray interface, GetCount,IPropertyChangeArray.GetCount, IPropertyChangeArray, IPropertyChangeArray interface [Windows Properties], GetCount method, IPropertyChangeArray::GetCount, _shell_IPropertyChangeArray_GetCount, properties.IPropertyChangeArray_GetCount, propsys/IPropertyChangeArray::GetCount, shell.IPropertyChangeArray_GetCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IPropertyChangeArray::GetCount method

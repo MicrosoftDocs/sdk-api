@@ -7,7 +7,7 @@ old-location: security\scardcontrol.htm
 old-project: SecAuthN
 ms.assetid: e8c69e61-4e5e-4385-a0f1-9b594c479984
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/24/2018
 ms.keywords: SCardControl, SCardControl function [Security], _smart_scardcontrol, security.scardcontrol, winscard/SCardControl
 ms.prod: windows-hardware
 ms.technology: windows-devices

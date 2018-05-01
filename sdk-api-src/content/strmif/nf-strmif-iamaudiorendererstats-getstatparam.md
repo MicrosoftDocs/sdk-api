@@ -7,7 +7,7 @@ old-location: dshow\iamaudiorendererstats_getstatparam.htm
 old-project: DirectShow
 ms.assetid: bc01cac7-316f-4d18-ae68-c3db4dbf03fa
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetStatParam method [DirectShow], GetStatParam method [DirectShow], IAMAudioRendererStats interface, GetStatParam,IAMAudioRendererStats.GetStatParam, IAMAudioRendererStats, IAMAudioRendererStats interface [DirectShow], GetStatParam method, IAMAudioRendererStats::GetStatParam, IAMAudioRendererStatsGetStatParam, dshow.iamaudiorendererstats_getstatparam, strmif/IAMAudioRendererStats::GetStatParam
 ms.prod: windows-hardware
 ms.technology: windows-devices

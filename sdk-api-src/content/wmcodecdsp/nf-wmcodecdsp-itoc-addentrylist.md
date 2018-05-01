@@ -7,7 +7,7 @@ old-location: mf\itoc_addentrylist.htm
 old-project: medfound
 ms.assetid: 8d04d6b8-d110-45a3-b3bb-5a7b680ddabe
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: AddEntryList method [Media Foundation], AddEntryList method [Media Foundation], IToc interface, AddEntryList,IToc.AddEntryList, IToc, IToc interface [Media Foundation], AddEntryList method, IToc::AddEntryList, codecapi.itoc_addentrylist, mf.itoc_addentrylist, wmcodecdsp/IToc::AddEntryList
 ms.prod: windows-hardware
 ms.technology: windows-devices

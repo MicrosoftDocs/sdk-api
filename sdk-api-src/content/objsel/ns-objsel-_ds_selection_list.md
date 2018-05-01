@@ -7,7 +7,7 @@ old-location: ad\ds_selection_list.htm
 old-project: AD
 ms.assetid: 15493b8c-014e-4e69-9e67-40b24d44606d
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/20/2018
 ms.keywords: "*PDS_SELECTION_LIST, DS_SELECTION_LIST, DS_SELECTION_LIST structure [Active Directory], PDS_SELECTION_LIST, PDS_SELECTION_LIST structure pointer [Active Directory], _DS_SELECTION_LIST, _glines_ds_selection_list, ad.ds__selection__list, ad.ds_selection_list, objsel/DS_SELECTION_LIST, objsel/PDS_SELECTION_LIST"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _DS_SELECTION_LIST structure

@@ -7,7 +7,7 @@ old-location: security\ix509attributearchivekeyhash_initializeencodefromencrypte
 old-project: SecCertEnroll
 ms.assetid: 2101f15f-b71b-4dea-8ec8-2d3c1926ae15
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: IX509AttributeArchiveKeyHash, IX509AttributeArchiveKeyHash interface [Security], InitializeEncodeFromEncryptedKeyBlob method, IX509AttributeArchiveKeyHash::InitializeEncodeFromEncryptedKeyBlob, InitializeEncodeFromEncryptedKeyBlob method [Security], InitializeEncodeFromEncryptedKeyBlob method [Security], IX509AttributeArchiveKeyHash interface, InitializeEncodeFromEncryptedKeyBlob,IX509AttributeArchiveKeyHash.InitializeEncodeFromEncryptedKeyBlob, certenroll/IX509AttributeArchiveKeyHash::InitializeEncodeFromEncryptedKeyBlob, security.ix509attributearchivekeyhash_initializeencodefromencryptedkeyblob_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

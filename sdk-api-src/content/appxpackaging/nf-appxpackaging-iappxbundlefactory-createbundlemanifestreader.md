@@ -7,7 +7,7 @@ old-location: appxpkg\iappxbundlefactory_createbundlemanifestreader.htm
 old-project: appxpkg
 ms.assetid: 8D537830-A8AA-4652-B6F2-F7A545B8877E
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/26/2018
 ms.keywords: CreateBundleManifestReader method [App packaging and management], CreateBundleManifestReader method [App packaging and management], IAppxBundleFactory interface, CreateBundleManifestReader,IAppxBundleFactory.CreateBundleManifestReader, IAppxBundleFactory, IAppxBundleFactory interface [App packaging and management], CreateBundleManifestReader method, IAppxBundleFactory::CreateBundleManifestReader, appxpackaging/IAppxBundleFactory::CreateBundleManifestReader, appxpkg.iappxbundlefactory_createbundlemanifestreader
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_ARCHITECTURE2
+req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
 topic_type:
 -	APIRef
 -	kbSyntax

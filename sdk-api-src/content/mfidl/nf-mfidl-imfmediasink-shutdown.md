@@ -7,7 +7,7 @@ old-location: mf\imfmediasink_shutdown.htm
 old-project: medfound
 ms.assetid: acda4e37-2dd0-4322-90fc-8f48d6842054
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFMediaSink, IMFMediaSink interface [Media Foundation], Shutdown method, IMFMediaSink::Shutdown, Shutdown method [Media Foundation], Shutdown method [Media Foundation], IMFMediaSink interface, Shutdown,IMFMediaSink.Shutdown, acda4e37-2dd0-4322-90fc-8f48d6842054, mf.imfmediasink_shutdown, mfidl/IMFMediaSink::Shutdown
 ms.prod: windows-hardware
 ms.technology: windows-devices

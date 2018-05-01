@@ -7,7 +7,7 @@ old-location: com\ioleinplacesite_onposrectchange.htm
 old-project: com
 ms.assetid: a12d6a2a-6581-41e3-b33d-74af5d772e71
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IOleInPlaceSite, IOleInPlaceSite interface [COM], OnPosRectChange method, IOleInPlaceSite::OnPosRectChange, IOleInPlaceSiteWindowless.OnPosRectChange, OnPosRectChange method [COM], OnPosRectChange method [COM], IOleInPlaceSite interface, OnPosRectChange,IOleInPlaceSite.OnPosRectChange, _ole_ioleinplacesite_onposrectchange, com.ioleinplacesite_onposrectchange, oleidl/IOleInPlaceSite::OnPosRectChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IOleInPlaceSite::OnPosRectChange method

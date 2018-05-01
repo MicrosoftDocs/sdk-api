@@ -2,13 +2,13 @@
 UID: NF:intsafe.IntToULongLong
 title: IntToULongLong function
 author: windows-driver-content
-description: Converts a value of type INT to a value of type ULONGLONG.
-old-location: shell\IntToULongLong.htm
+description: Converts a value of type INT to a value of type UINT_PTR.
+old-location: shell\IntToUIntPtr.htm
 old-project: shell
-ms.assetid: 92f5d8de-3c4c-4ebc-b1a6-979d8fa58cf4
+ms.assetid: 479958f6-e38c-404c-b4bd-2991be568a2b
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
-ms.keywords: IntToULongLong, IntToULongLong function [Windows Shell], _shell_IntToULongLong, intsafe/IntToULongLong, shell.IntToULongLong
+ms.date: 4/26/2018
+ms.keywords: IntToUIntPtr, IntToUIntPtr function [Windows Shell], IntToULongLong, _shell_IntToUIntPtr, intsafe/IntToUIntPtr, shell.IntToUIntPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	Intsafe.h
 api_name:
--	IntToULongLong
+-	IntToUIntPtr
 product: Windows
 targetos: Windows
 req.lib: 
@@ -50,7 +50,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Converts a value of type <b>INT</b> to a value of type <b>ULONGLONG</b>.
+Converts a value of type <b>INT</b> to a value of type <b>UINT_PTR</b>.
 
 
 ## -parameters
@@ -65,11 +65,18 @@ Type: <b>INT</b>
 The value to be converted.
 
 
-### -param pullResult [out]
+### -param pullResult
 
-Type: <b>ULONGLONG*</b>
+TBD
 
-A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns INTSAFE_E_ARITHMETIC_OVERFLOW and this parameter is not valid.
+
+
+
+#### - puResult [out]
+
+Type: <b>UINT_PTR*</b>
+
+A pointer to the address of the converted value. In the case where the conversion causes a truncation of the original value, the function returns INTSAFE_E_ARITHMETIC_OVERFLOW and this parameter is not valid.
 
 
 ## -returns

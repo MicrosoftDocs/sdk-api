@@ -7,7 +7,7 @@ old-location: rpc\ndr_user_marshal_info.htm
 old-project: Rpc
 ms.assetid: 3c7b4cd4-fb72-40a6-9450-4edf82cade2c
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: NDR_USER_MARSHAL_INFO, NDR_USER_MARSHAL_INFO structure [RPC], _NDR_USER_MARSHAL_INFO, _rpc_ndr_user_marshal_info, rpc.ndr_user_marshal_info, rpcndr/NDR_USER_MARSHAL_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _NDR_USER_MARSHAL_INFO structure
@@ -61,14 +61,16 @@ The
 
 
 
+### -field InformationLevel
+
+The information level of the returned data. Currently only a value of 1 is defined.
+
+
 ### -field DUMMYUNIONNAME
 
  
 
 
-### -field InformationLevel
-
-The information level of the returned data. Currently only a value of 1 is defined.
 
 
 #### - Level1

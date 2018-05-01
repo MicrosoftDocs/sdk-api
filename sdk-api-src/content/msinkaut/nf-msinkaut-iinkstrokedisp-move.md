@@ -7,7 +7,7 @@ old-location: tablet\iinkstrokedisp_move.htm
 old-project: tablet
 ms.assetid: 2d3425c0-6000-4478-9c67-5fdb8e2316e5
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: 2d3425c0-6000-4478-9c67-5fdb8e2316e5, IInkStrokeDisp, IInkStrokeDisp interface [Tablet PC], Move method, IInkStrokeDisp::Move, Move method [Tablet PC], Move method [Tablet PC], IInkStrokeDisp interface, Move,IInkStrokeDisp.Move, msinkaut/IInkStrokeDisp::Move, tablet.iinkstrokedisp_move
 ms.prod: windows-hardware
 ms.technology: windows-devices

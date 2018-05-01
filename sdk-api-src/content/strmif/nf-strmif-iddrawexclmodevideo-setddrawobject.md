@@ -7,7 +7,7 @@ old-location: dshow\iddrawexclmodevideo_setddrawobject.htm
 old-project: DirectShow
 ms.assetid: fce1b5df-c3df-475c-adde-392c25d05e4c
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IDDrawExclModeVideo, IDDrawExclModeVideo interface [DirectShow], SetDDrawObject method, IDDrawExclModeVideo::SetDDrawObject, IDDrawExclModeVideoSetDDrawObject, SetDDrawObject method [DirectShow], SetDDrawObject method [DirectShow], IDDrawExclModeVideo interface, SetDDrawObject,IDDrawExclModeVideo.SetDDrawObject, dshow.iddrawexclmodevideo_setddrawobject, strmif/IDDrawExclModeVideo::SetDDrawObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

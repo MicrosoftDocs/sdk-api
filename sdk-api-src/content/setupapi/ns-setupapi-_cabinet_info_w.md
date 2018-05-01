@@ -7,7 +7,7 @@ old-location: setup\cabinet_info_str.htm
 old-project: SetupApi
 ms.assetid: 205bff19-d9ac-4dc0-ab11-92cf70a3bd49
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/10/2018
 ms.keywords: "*PCABINET_INFO_W, CABINET_INFO, CABINET_INFO structure [Setup API], CABINET_INFO_W, PCABINET_INFO, PCABINET_INFO structure pointer [Setup API], _CABINET_INFO_W, _setupapi_cabinet_info_str, setup.cabinet_info_str, setupapi/CABINET_INFO, setupapi/PCABINET_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _CABINET_INFO_W structure

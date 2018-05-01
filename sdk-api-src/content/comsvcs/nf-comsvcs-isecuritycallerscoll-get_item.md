@@ -7,7 +7,7 @@ old-location: cos\isecuritycallerscoll_get_item.htm
 old-project: cossdk
 ms.assetid: 24473ebe-8d29-46cd-817d-48f24b03c405
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: ISecurityCallersColl, ISecurityCallersColl interface [COM+], get_Item method, ISecurityCallersColl::get_Item, _cos_ISecurityCallersColl_get_Item, comsvcs/ISecurityCallersColl::get_Item, cos.isecuritycallerscoll_get_item, get_Item method [COM+], get_Item method [COM+], ISecurityCallersColl interface, get_Item,ISecurityCallersColl.get_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices

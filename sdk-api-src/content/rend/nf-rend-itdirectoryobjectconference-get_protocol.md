@@ -7,7 +7,7 @@ old-location: tapi3\itdirectoryobjectconference_get_protocol.htm
 old-project: Tapi
 ms.assetid: 2a9d1b8e-1ebc-4a67-87cf-f88aaf25c309
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: ITDirectoryObjectConference, ITDirectoryObjectConference interface [TAPI 2.2], get_Protocol method, ITDirectoryObjectConference::get_Protocol, _tapi3_itdirectoryobjectconference_get_protocol, get_Protocol method [TAPI 2.2], get_Protocol method [TAPI 2.2], ITDirectoryObjectConference interface, get_Protocol,ITDirectoryObjectConference.get_Protocol, rend/ITDirectoryObjectConference::get_Protocol, tapi3.itdirectoryobjectconference_get_protocol
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Rend.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITDirectoryObjectConference::get_Protocol method

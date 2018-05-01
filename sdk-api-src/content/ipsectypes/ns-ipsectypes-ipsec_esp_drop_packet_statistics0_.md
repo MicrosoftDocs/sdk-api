@@ -7,7 +7,7 @@ old-location: fwp\ipsec_esp_drop_packet_statistics0_struct.htm
 old-project: FWP
 ms.assetid: d31ac463-8265-40c6-bd68-9f3ade35eb34
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: IPSEC_ESP_DROP_PACKET_STATISTICS0, IPSEC_ESP_DROP_PACKET_STATISTICS0 structure [Filtering], IPSEC_ESP_DROP_PACKET_STATISTICS0_, fwp.ipsec_esp_drop_packet_statistics0_struct, ipsectypes/IPSEC_ESP_DROP_PACKET_STATISTICS0
 ms.prod: windows-hardware
 ms.technology: windows-devices

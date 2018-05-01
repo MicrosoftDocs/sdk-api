@@ -7,7 +7,7 @@ old-location: tapi3\itdirectoryobject_get_dialableaddrs.htm
 old-project: Tapi
 ms.assetid: b72e9c49-4d5a-432a-b21b-ec444912ea61
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: ITDirectoryObject, ITDirectoryObject interface [TAPI 2.2], get_DialableAddrs method, ITDirectoryObject::get_DialableAddrs, _tapi3_itdirectoryobject_get_dialableaddrs, get_DialableAddrs method [TAPI 2.2], get_DialableAddrs method [TAPI 2.2], ITDirectoryObject interface, get_DialableAddrs,ITDirectoryObject.get_DialableAddrs, rend/ITDirectoryObject::get_DialableAddrs, tapi3.itdirectoryobject_get_dialableaddrs
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Rend.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITDirectoryObject::get_DialableAddrs method

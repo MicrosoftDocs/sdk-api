@@ -7,7 +7,7 @@ old-location: dshow\imediaevent_geteventhandle.htm
 old-project: DirectShow
 ms.assetid: 83db8d24-d872-4a90-a896-1cc51273b551
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetEventHandle method [DirectShow], GetEventHandle method [DirectShow], IMediaEvent interface, GetEventHandle,IMediaEvent.GetEventHandle, IMediaEvent, IMediaEvent interface [DirectShow], GetEventHandle method, IMediaEvent::GetEventHandle, IMediaEventGetEventHandle, control/IMediaEvent::GetEventHandle, dshow.imediaevent_geteventhandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

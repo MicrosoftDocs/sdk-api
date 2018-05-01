@@ -7,7 +7,7 @@ old-location: automat\safearrayreleasedata.htm
 old-project: automat
 ms.assetid: AF3C36A3-2B3A-4159-8183-DB082FBFD215
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: SafeArrayReleaseData, SafeArrayReleaseData function [Automation], automat.safearrayreleasedata, oleauto/SafeArrayReleaseData
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Mincore.lib
 req.dll: Oleaut32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # SafeArrayReleaseData function

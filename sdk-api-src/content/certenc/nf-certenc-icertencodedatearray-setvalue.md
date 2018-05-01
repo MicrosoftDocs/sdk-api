@@ -7,7 +7,7 @@ old-location: security\icertencodedatearray_setvalue.htm
 old-project: SecCrypto
 ms.assetid: e05a7aa1-81ad-4564-a6a5-65b8ac816598
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: CCertEncodeDateArray object [Security], SetValue method, ICertEncodeDateArray, ICertEncodeDateArray interface [Security], SetValue method, ICertEncodeDateArray::SetValue, SetValue method [Security], SetValue method [Security], CCertEncodeDateArray object, SetValue method [Security], ICertEncodeDateArray interface, SetValue,ICertEncodeDateArray.SetValue, _certsrv_icertencodedatearray_setvalue, certenc/ICertEncodeDateArray::SetValue, security.icertencodedatearray_setvalue
 ms.prod: windows-hardware
 ms.technology: windows-devices

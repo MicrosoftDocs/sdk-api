@@ -7,7 +7,7 @@ old-location: setup\imsmmerge2_interface.htm
 old-project: Msi
 ms.assetid: cda5698d-4aee-4771-9989-628162b433ef
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/26/2018
 ms.keywords: IMsmMerge2, IMsmMerge2 interface, IMsmMerge2 interface, described, _msi_imsmmerge2_interface, mergemod/IMsmMerge2, setup.imsmmerge2_interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

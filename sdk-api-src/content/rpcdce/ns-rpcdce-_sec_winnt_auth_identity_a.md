@@ -7,7 +7,7 @@ old-location: rpc\sec_winnt_auth_identity.htm
 old-project: Rpc
 ms.assetid: 829dee24-aeeb-4191-b5fc-85970725f064
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: "*PSEC_WINNT_AUTH_IDENTITY, *PSEC_WINNT_AUTH_IDENTITY structure [RPC], *PSEC_WINNT_AUTH_IDENTITY_A, SEC_WINNT_AUTH_IDENTITY, SEC_WINNT_AUTH_IDENTITY structure [RPC], SEC_WINNT_AUTH_IDENTITY_A, SEC_WINNT_AUTH_IDENTITY_ANSI, SEC_WINNT_AUTH_IDENTITY_UNICODE, _SEC_WINNT_AUTH_IDENTITY_A, _SEC_WINNT_AUTH_IDENTITY_W, _rpc_sec_winnt_auth_identity, rpc.sec_winnt_auth_identity, rpcdce/*PSEC_WINNT_AUTH_IDENTITY, rpcdce/SEC_WINNT_AUTH_IDENTITY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _SEC_WINNT_AUTH_IDENTITY_A structure

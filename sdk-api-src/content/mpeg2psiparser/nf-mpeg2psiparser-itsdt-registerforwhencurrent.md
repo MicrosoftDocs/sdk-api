@@ -7,7 +7,7 @@ old-location: mstv\itsdt_registerforwhencurrent.htm
 old-project: mstv
 ms.assetid: f2ce7908-3650-4ecf-8014-6bae377dcb5c
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: ITSDT, ITSDT interface [Microsoft TV Technologies], RegisterForWhenCurrent method, ITSDT::RegisterForWhenCurrent, ITSDTRegisterForWhenCurrent, RegisterForWhenCurrent method [Microsoft TV Technologies], RegisterForWhenCurrent method [Microsoft TV Technologies], ITSDT interface, RegisterForWhenCurrent,ITSDT.RegisterForWhenCurrent, mpeg2psiparser/ITSDT::RegisterForWhenCurrent, mstv.itsdt_registerforwhencurrent
 ms.prod: windows-hardware
 ms.technology: windows-devices

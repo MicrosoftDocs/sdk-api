@@ -7,7 +7,7 @@ old-location: controls\itextrow_getcellverticaltext.htm
 old-project: Controls
 ms.assetid: 3c94a4af-0212-4422-bee2-7a9148a40b28
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: GetCellVerticalText method [Windows Controls], GetCellVerticalText method [Windows Controls], ITextRow interface, GetCellVerticalText,ITextRow.GetCellVerticalText, ITextRow, ITextRow interface [Windows Controls], GetCellVerticalText method, ITextRow::GetCellVerticalText, controls.itextrow_getcellverticaltext, tom/ITextRow::GetCellVerticalText
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -62,6 +62,11 @@ Applications interacting with both TPM 1.2 and TPM 2.0 should pass a pointer to 
 
 
 
+### -field version
+
+The version of the TBS context implementation. This must be set to 	TPM_VERSION_20.
+
+
 ### -field requestRaw
 
  
@@ -77,9 +82,6 @@ Applications interacting with both TPM 1.2 and TPM 2.0 should pass a pointer to 
  
 
 
-### -field version
-
-The version of the TBS context implementation. This must be set to 	TPM_VERSION_20.
 
 
 #### - asUINT32

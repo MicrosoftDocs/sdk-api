@@ -7,7 +7,7 @@ old-location: http\http_property_flags.htm
 old-project: Http
 ms.assetid: cafa3b04-ac8b-4269-bfa9-fe8e9ab65936
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: "*PHTTP_PROPERTY_FLAGS, *PHTTP_PROPERTY_FLAGS structure [HTTP], HTTP_PROPERTY_FLAGS, HTTP_PROPERTY_FLAGS structure [HTTP], _HTTP_PROPERTY_FLAGS, http.http_property_flags, http/*PHTTP_PROPERTY_FLAGS, http/HTTP_PROPERTY_FLAGS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

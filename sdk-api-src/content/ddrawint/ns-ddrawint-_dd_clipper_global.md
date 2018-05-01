@@ -1,0 +1,63 @@
+---
+UID: NS:ddrawint._DD_CLIPPER_GLOBAL
+title: "_DD_CLIPPER_GLOBAL"
+author: windows-driver-content
+description: The DD_CLIPPER_GLOBAL structure contains the global DirectDrawClipper data that can be shared between object instances.
+old-location: display\dd_clipper_global.htm
+old-project: display
+ms.assetid: 14dffd72-748c-4087-81ef-215eb009bdea
+ms.author: windowsdriverdev
+ms.date: 4/16/2018
+ms.keywords: "*PDD_CLIPPER_GLOBAL, DD_CLIPPER_GLOBAL, DD_CLIPPER_GLOBAL structure [Display Devices], _DD_CLIPPER_GLOBAL, ddrawint/DD_CLIPPER_GLOBAL, ddstrcts_62e4fd83-7d6b-488e-aa96-ac6ad24ae4c0.xml, display.dd_clipper_global"
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: struct
+req.header: ddrawint.h
+req.include-header: Winddi.h
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: "*PDD_CLIPPER_GLOBAL, DD_CLIPPER_GLOBAL"
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ddrawint.h
+api_name:
+-	DD_CLIPPER_GLOBAL
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# _DD_CLIPPER_GLOBAL structure
+
+
+## -description
+
+
+The DD_CLIPPER_GLOBAL structure contains the global DirectDrawClipper data that can be shared between object instances. 
+
+
+## -struct-fields
+
+
+
+
+### -field dwReserved1
+
+Reserved for use by the display driver. 
+

@@ -7,7 +7,7 @@ old-location: ics\inatnumberofentriescallback_newnumberofentries.htm
 old-project: ICS
 ms.assetid: 55998538-ddce-4a83-8d21-387f3c1f3b6a
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: INATNumberOfEntriesCallback, INATNumberOfEntriesCallback interface [ICS/ICF], NewNumberOfEntries method, INATNumberOfEntriesCallback::NewNumberOfEntries, NewNumberOfEntries method [ICS/ICF], NewNumberOfEntries method [ICS/ICF], INATNumberOfEntriesCallback interface, NewNumberOfEntries,INATNumberOfEntriesCallback.NewNumberOfEntries, _ics_inatnumberofentriescallback_newnumberofentries, ics.inatnumberofentriescallback_newnumberofentries, natupnp/INATNumberOfEntriesCallback::NewNumberOfEntries
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # INATNumberOfEntriesCallback::NewNumberOfEntries method

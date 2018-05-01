@@ -7,7 +7,7 @@ old-location: termserv\iworkspace_startremoteapplication.htm
 old-project: TermServ
 ms.assetid: a1d7e0c2-90bc-49c9-b7d5-380e13af4bba
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: IWorkspace, IWorkspace interface [Remote Desktop Services], StartRemoteApplication method, IWorkspace2 interface [Remote Desktop Services], StartRemoteApplication method, IWorkspace2::StartRemoteApplication, IWorkspace3 interface [Remote Desktop Services], StartRemoteApplication method, IWorkspace3::StartRemoteApplication, IWorkspace::StartRemoteApplication, StartRemoteApplication method [Remote Desktop Services], StartRemoteApplication method [Remote Desktop Services], IWorkspace interface, StartRemoteApplication method [Remote Desktop Services], IWorkspace2 interface, StartRemoteApplication method [Remote Desktop Services], IWorkspace3 interface, StartRemoteApplication method [Remote Desktop Services], Workspace object, StartRemoteApplication,IWorkspace.StartRemoteApplication, Workspace object [Remote Desktop Services], StartRemoteApplication method, termserv.iworkspace_startremoteapplication, workspaceruntime/IWorkspace2::StartRemoteApplication, workspaceruntime/IWorkspace3::StartRemoteApplication, workspaceruntime/IWorkspace::StartRemoteApplication
 ms.prod: windows-hardware
 ms.technology: windows-devices

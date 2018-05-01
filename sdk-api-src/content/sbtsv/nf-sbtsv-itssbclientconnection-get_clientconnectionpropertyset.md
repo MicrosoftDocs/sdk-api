@@ -7,7 +7,7 @@ old-location: termserv\itssbclientconnection_clientconnectionpropertyset.htm
 old-project: TermServ
 ms.assetid: 488c5b71-7139-4744-93bf-484d05457d0f
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: ClientConnectionPropertySet property [Remote Desktop Services], ClientConnectionPropertySet property [Remote Desktop Services], ITsSbClientConnection interface, ITsSbClientConnection, ITsSbClientConnection interface [Remote Desktop Services], ClientConnectionPropertySet property, ITsSbClientConnection.ClientConnectionPropertySet, ITsSbClientConnection::get_ClientConnectionPropertySet, get_ClientConnectionPropertySet,ITsSbClientConnection.get_ClientConnectionPropertySet, sbtsv/ITsSbClientConnection::ClientConnectionPropertySet, sbtsv/ITsSbClientConnection::get_ClientConnectionPropertySet, termserv.itssbclientconnection_clientconnectionpropertyset
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITsSbClientConnection::get_ClientConnectionPropertySet method

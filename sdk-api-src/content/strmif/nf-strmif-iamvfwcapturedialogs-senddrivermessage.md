@@ -7,7 +7,7 @@ old-location: dshow\iamvfwcapturedialogs_senddrivermessage.htm
 old-project: DirectShow
 ms.assetid: 0a8ba932-0f31-4768-b5e3-15ec8533a574
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMVfwCaptureDialogs, IAMVfwCaptureDialogs interface [DirectShow], SendDriverMessage method, IAMVfwCaptureDialogs::SendDriverMessage, IAMVfwCaptureDialogsSendDriverMessage, SendDriverMessage method [DirectShow], SendDriverMessage method [DirectShow], IAMVfwCaptureDialogs interface, SendDriverMessage,IAMVfwCaptureDialogs.SendDriverMessage, dshow.iamvfwcapturedialogs_senddrivermessage, strmif/IAMVfwCaptureDialogs::SendDriverMessage
 ms.prod: windows-hardware
 ms.technology: windows-devices

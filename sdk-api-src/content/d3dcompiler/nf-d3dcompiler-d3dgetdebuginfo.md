@@ -7,7 +7,7 @@ old-location: direct3dhlsl\d3dgetdebuginfo.htm
 old-project: direct3dhlsl
 ms.assetid: VS|directx_sdk|~\d3dgetdebuginfo.htm
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/12/2018
 ms.keywords: D3DGetDebugInfo, D3DGetDebugInfo function [HLSL], d3dcompiler/D3DGetDebugInfo, direct3dhlsl.d3dgetdebuginfo, f21b6ffa-9910-4ce4-b2dc-07e7ad540fac
 ms.prod: windows-hardware
 ms.technology: windows-devices

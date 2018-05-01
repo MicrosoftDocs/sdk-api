@@ -7,7 +7,7 @@ old-location: dshow\iamextendedseeking_put_playbackspeed.htm
 old-project: DirectShow
 ms.assetid: c4f958eb-b573-44e4-94e1-5ac422dd1a99
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMExtendedSeeking, IAMExtendedSeeking interface [DirectShow], put_PlaybackSpeed method, IAMExtendedSeeking::put_PlaybackSpeed, IAMExtendedSeekingput_PlaybackSpeed, dshow.iamextendedseeking_put_playbackspeed, put_PlaybackSpeed method [DirectShow], put_PlaybackSpeed method [DirectShow], IAMExtendedSeeking interface, put_PlaybackSpeed,IAMExtendedSeeking.put_PlaybackSpeed, qnetwork/IAMExtendedSeeking::put_PlaybackSpeed
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IAMExtendedSeeking::put_PlaybackSpeed method

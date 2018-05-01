@@ -7,7 +7,7 @@ old-location: shell\istorageproviderhandler_getpropertyhandlerfromuri.htm
 old-project: shell
 ms.assetid: C02A9690-1E98-4960-B5E7-E75BDAAF9A62
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetPropertyHandlerFromUri method [Windows Shell], GetPropertyHandlerFromUri method [Windows Shell], IStorageProviderHandler interface, GetPropertyHandlerFromUri,IStorageProviderHandler.GetPropertyHandlerFromUri, IStorageProviderHandler, IStorageProviderHandler interface [Windows Shell], GetPropertyHandlerFromUri method, IStorageProviderHandler::GetPropertyHandlerFromUri, shell.istorageproviderhandler_getpropertyhandlerfromuri, storageprovider/IStorageProviderHandler::GetPropertyHandlerFromUri
 ms.prod: windows-hardware
 ms.technology: windows-devices

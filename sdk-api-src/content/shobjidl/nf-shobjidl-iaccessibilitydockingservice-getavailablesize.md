@@ -7,7 +7,7 @@ old-location: shell\IAccessibilityDockingService_GetAvailableSize.htm
 old-project: shell
 ms.assetid: B447D464-EFAF-4743-900F-E77A2FE140DD
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetAvailableSize method [Windows Shell], GetAvailableSize method [Windows Shell], IAccessibilityDockingService interface, GetAvailableSize,IAccessibilityDockingService.GetAvailableSize, IAccessibilityDockingService, IAccessibilityDockingService interface [Windows Shell], GetAvailableSize method, IAccessibilityDockingService::GetAvailableSize, shell.IAccessibilityDockingService_GetAvailableSize, shobjidl/IAccessibilityDockingService::GetAvailableSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

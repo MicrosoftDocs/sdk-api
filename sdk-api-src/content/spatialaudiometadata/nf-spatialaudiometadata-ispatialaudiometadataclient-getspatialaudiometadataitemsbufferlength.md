@@ -7,7 +7,7 @@ old-location: coreaudio\ispatialaudiometadataclient_getspatialaudiometadataitems
 old-project: CoreAudio
 ms.assetid: 63D23390-222C-4F7E-AF8A-B49C85DFB222
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: GetSpatialAudioMetadataItemsBufferLength method [Core Audio], GetSpatialAudioMetadataItemsBufferLength method [Core Audio], ISpatialAudioMetadataClient interface, GetSpatialAudioMetadataItemsBufferLength,ISpatialAudioMetadataClient.GetSpatialAudioMetadataItemsBufferLength, ISpatialAudioMetadataClient, ISpatialAudioMetadataClient interface [Core Audio], GetSpatialAudioMetadataItemsBufferLength method, ISpatialAudioMetadataClient::GetSpatialAudioMetadataItemsBufferLength, coreaudio.ispatialaudiometadataclient_getspatialaudiometadataitemsbufferlength, spatialaudiometadata/ISpatialAudioMetadataClient::GetSpatialAudioMetadataItemsBufferLength
 ms.prod: windows-hardware
 ms.technology: windows-devices

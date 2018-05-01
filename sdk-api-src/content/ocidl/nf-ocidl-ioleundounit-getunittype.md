@@ -7,7 +7,7 @@ old-location: com\ioleundounit_getunittype.htm
 old-project: com
 ms.assetid: 1f0c719e-75cd-48dd-8bd8-78eb63cc141a
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: GetUnitType method [COM], GetUnitType method [COM], IOleUndoUnit interface, GetUnitType,IOleUndoUnit.GetUnitType, IOleUndoUnit, IOleUndoUnit interface [COM], GetUnitType method, IOleUndoUnit::GetUnitType, _ole_ioleundounit_getunittype, com.ioleundounit_getunittype, ocidl/IOleUndoUnit::GetUnitType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IOleUndoUnit::GetUnitType method

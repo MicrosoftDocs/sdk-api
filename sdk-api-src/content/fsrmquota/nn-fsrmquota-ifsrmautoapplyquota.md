@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmautoapplyquota.htm
 old-project: Fsrm
 ms.assetid: 3eb30caa-ce29-4898-b1a7-bd905031ca98
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: IFsrmAutoApplyQuota, IFsrmAutoApplyQuota interface [File Server Resource Manager], IFsrmAutoApplyQuota interface [File Server Resource Manager], described, fs.ifsrmautoapplyquota, fsrm.ifsrmautoapplyquota, fsrm/IFsrmAutoApplyQuota
 ms.prod: windows-hardware
 ms.technology: windows-devices

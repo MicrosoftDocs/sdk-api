@@ -7,7 +7,7 @@ old-location: com\imallocspy_prefree.htm
 old-project: com
 ms.assetid: 528eedac-e8cc-4dc7-8287-c023ebefb72c
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IMallocSpy, IMallocSpy interface [COM], PreFree method, IMallocSpy::PreFree, PreFree method [COM], PreFree method [COM], IMallocSpy interface, PreFree,IMallocSpy.PreFree, _com_imallocspy_prefree, com.imallocspy_prefree, objidl/IMallocSpy::PreFree
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMallocSpy::PreFree method

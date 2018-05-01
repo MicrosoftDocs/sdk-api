@@ -7,7 +7,7 @@ old-location: mf\imfcontentenabler_getenabledata.htm
 old-project: medfound
 ms.assetid: d1859037-7a33-4943-8ca9-6782fc8b0b92
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetEnableData method [Media Foundation], GetEnableData method [Media Foundation], IMFContentEnabler interface, GetEnableData,IMFContentEnabler.GetEnableData, IMFContentEnabler, IMFContentEnabler interface [Media Foundation], GetEnableData method, IMFContentEnabler::GetEnableData, d1859037-7a33-4943-8ca9-6782fc8b0b92, mf.imfcontentenabler_getenabledata, mfidl/IMFContentEnabler::GetEnableData
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: PowrProf.lib
 req.dll: PowrProf.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # PowerWriteValueMin function

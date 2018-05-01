@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopycallback_jobtransferred.htm
 old-project: Bits
 ms.assetid: 04ff96c4-5b22-4935-bce8-5b9d3196cbe5
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/10/2018
 ms.keywords: IBackgroundCopyCallback, IBackgroundCopyCallback interface [BITS], JobTransferred method, IBackgroundCopyCallback::JobTransferred, JobTransferred method [BITS], JobTransferred method [BITS], IBackgroundCopyCallback interface, JobTransferred,IBackgroundCopyCallback.JobTransferred, _drz_ibackgroundcopycallback_jobtransferred, bits.ibackgroundcopycallback_jobtransferred, bits/IBackgroundCopyCallback::JobTransferred
 ms.prod: windows-hardware
 ms.technology: windows-devices

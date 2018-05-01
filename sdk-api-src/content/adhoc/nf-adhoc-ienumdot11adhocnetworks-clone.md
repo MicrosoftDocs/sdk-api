@@ -7,7 +7,7 @@ old-location: nwifi\ienumdot11adhocnetworks_clone.htm
 old-project: NativeWiFi
 ms.assetid: 595829c6-ca87-4a69-8d09-a398b5cd9f34
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/13/2018
 ms.keywords: Clone method [NativeWIFI], Clone method [NativeWIFI], IEnumDot11AdHocNetworks interface, Clone,IEnumDot11AdHocNetworks.Clone, IEnumDot11AdHocNetworks, IEnumDot11AdHocNetworks interface [NativeWIFI], Clone method, IEnumDot11AdHocNetworks::Clone, adhoc/IEnumDot11AdHocNetworks::Clone, nwifi.ienumdot11adhocnetworks_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

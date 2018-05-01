@@ -7,7 +7,7 @@ old-location: dshow\iamtunernotification_onevent.htm
 old-project: DirectShow
 ms.assetid: ac28a445-dfa0-4e88-861d-3364106c2b20
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMTunerNotification, IAMTunerNotification interface [DirectShow], OnEvent method, IAMTunerNotification::OnEvent, IAMTunerNotificationOnEvent, OnEvent method [DirectShow], OnEvent method [DirectShow], IAMTunerNotification interface, OnEvent,IAMTunerNotification.OnEvent, dshow.iamtunernotification_onevent, strmif/IAMTunerNotification::OnEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

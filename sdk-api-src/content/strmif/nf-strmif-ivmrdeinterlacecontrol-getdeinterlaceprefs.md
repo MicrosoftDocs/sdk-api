@@ -7,7 +7,7 @@ old-location: dshow\ivmrdeinterlacecontrol_getdeinterlaceprefs.htm
 old-project: DirectShow
 ms.assetid: bb9de83c-087e-4d6e-861a-7db388d59a7c
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetDeinterlacePrefs method [DirectShow], GetDeinterlacePrefs method [DirectShow], IVMRDeinterlaceControl interface, GetDeinterlacePrefs,IVMRDeinterlaceControl.GetDeinterlacePrefs, IVMRDeinterlaceControl, IVMRDeinterlaceControl interface [DirectShow], GetDeinterlacePrefs method, IVMRDeinterlaceControl::GetDeinterlacePrefs, IVMRDeinterlaceControlGetDeinterlacePrefs, dshow.ivmrdeinterlacecontrol_getdeinterlaceprefs, strmif/IVMRDeinterlaceControl::GetDeinterlacePrefs
 ms.prod: windows-hardware
 ms.technology: windows-devices

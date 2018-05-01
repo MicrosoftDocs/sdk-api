@@ -7,7 +7,7 @@ old-location: cos\iplaybackcontrol_finalserverretry.htm
 old-project: cossdk
 ms.assetid: 03f0bd46-004d-4ed6-b00b-de765d339ba0
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: FinalServerRetry method [COM+], FinalServerRetry method [COM+], IPlaybackControl interface, FinalServerRetry,IPlaybackControl.FinalServerRetry, IPlaybackControl, IPlaybackControl interface [COM+], FinalServerRetry method, IPlaybackControl::FinalServerRetry, _cos_IPlaybackControl_FinalServerRetry, comsvcs/IPlaybackControl::FinalServerRetry, cos.iplaybackcontrol_finalserverretry
 ms.prod: windows-hardware
 ms.technology: windows-devices

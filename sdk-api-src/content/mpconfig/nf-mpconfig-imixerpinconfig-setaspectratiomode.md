@@ -7,7 +7,7 @@ old-location: dshow\imixerpinconfig_setaspectratiomode.htm
 old-project: DirectShow
 ms.assetid: 907ab0cf-c0a4-4e81-8fb4-90914427d9c0
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IMixerPinConfig, IMixerPinConfig interface [DirectShow], SetAspectRatioMode method, IMixerPinConfig::SetAspectRatioMode, IMixerPinConfigSetAspectRatioMode, SetAspectRatioMode method [DirectShow], SetAspectRatioMode method [DirectShow], IMixerPinConfig interface, SetAspectRatioMode,IMixerPinConfig.SetAspectRatioMode, dshow.imixerpinconfig_setaspectratiomode, mpconfig/IMixerPinConfig::SetAspectRatioMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

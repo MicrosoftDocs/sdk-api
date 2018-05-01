@@ -7,7 +7,7 @@ old-location: shell\UShortToUInt8.htm
 old-project: shell
 ms.assetid: 86e8a064-ce83-4224-81d3-84db39905f34
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: UShortToUInt8, UShortToUInt8 function [Windows Shell], intsafe/UShortToUInt8, shell.UShortToUInt8
 ms.prod: windows-hardware
 ms.technology: windows-devices

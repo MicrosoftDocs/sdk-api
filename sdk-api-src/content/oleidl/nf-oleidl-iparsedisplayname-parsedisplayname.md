@@ -7,7 +7,7 @@ old-location: com\iparsedisplayname_parsedisplayname.htm
 old-project: com
 ms.assetid: bf18320c-1ff3-4280-bd67-70f6c2998285
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IParseDisplayName, IParseDisplayName interface [COM], ParseDisplayName method, IParseDisplayName::ParseDisplayName, ParseDisplayName method [COM], ParseDisplayName method [COM], IParseDisplayName interface, ParseDisplayName,IParseDisplayName.ParseDisplayName, _com_iparsedisplayname_parsedisplayname, com.iparsedisplayname_parsedisplayname, oleidl/IParseDisplayName::ParseDisplayName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IParseDisplayName::ParseDisplayName method

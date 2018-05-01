@@ -7,7 +7,7 @@ old-location: security\spcompleteauthtoken.htm
 old-project: SecAuthN
 ms.assetid: 2e20620a-457d-424c-a6b9-64b571174c98
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/24/2018
 ms.keywords: SpCompleteAuthToken, SpCompleteAuthToken function [Security], SpCompleteAuthTokenFn, _ssp_spcompleteauthtoken, ntsecpkg/SpCompleteAuthToken, security.spcompleteauthtoken
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # SpCompleteAuthTokenFn callback

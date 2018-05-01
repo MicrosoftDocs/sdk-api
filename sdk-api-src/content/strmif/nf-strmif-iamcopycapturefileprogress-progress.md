@@ -7,7 +7,7 @@ old-location: dshow\iamcopycapturefileprogress_progress.htm
 old-project: DirectShow
 ms.assetid: 6908627e-51de-4206-bdb2-b3aaedf9478f
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMCopyCaptureFileProgress, IAMCopyCaptureFileProgress interface [DirectShow], Progress method, IAMCopyCaptureFileProgress::Progress, IAMCopyCaptureFileProgressProgress, Progress method [DirectShow], Progress method [DirectShow], IAMCopyCaptureFileProgress interface, Progress,IAMCopyCaptureFileProgress.Progress, dshow.iamcopycapturefileprogress_progress, strmif/IAMCopyCaptureFileProgress::Progress
 ms.prod: windows-hardware
 ms.technology: windows-devices

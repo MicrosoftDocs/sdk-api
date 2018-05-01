@@ -7,7 +7,7 @@ old-location: mstv\uiclosereasontype.htm
 old-project: mstv
 ms.assetid: ed609bf8-9675-40bc-a789-c98cbc96e45f
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: DeviceClosed, ErrorClosed, NotReady, SystemClosed, UICloseReasonType, UICloseReasonType enumeration [Microsoft TV Technologies], UserClosed, bdaiface/DeviceClosed, bdaiface/ErrorClosed, bdaiface/NotReady, bdaiface/SystemClosed, bdaiface/UICloseReasonType, bdaiface/UserClosed, mstv.uiclosereasontype
 ms.prod: windows-hardware
 ms.technology: windows-devices

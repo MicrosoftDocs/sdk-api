@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IItemContainerProvider.htm
 old-project: WinAuto
 ms.assetid: 403436f5-7540-455b-965e-e2e3b64ef7e0
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: IItemContainerProvider, IItemContainerProvider interface [Windows Accessibility], IItemContainerProvider interface [Windows Accessibility], described, uiauto.uiauto_IItemContainerProvider, uiauto_IItemContainerProvider, uiautomationcore/IItemContainerProvider, winauto.uiauto_IItemContainerProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices

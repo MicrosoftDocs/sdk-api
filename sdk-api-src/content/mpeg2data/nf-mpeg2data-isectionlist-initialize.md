@@ -7,7 +7,7 @@ old-location: mstv\isectionlist_initialize.htm
 old-project: mstv
 ms.assetid: 196abb62-97f6-4961-b843-895ae35fedc4
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: ISectionList, ISectionList interface [Microsoft TV Technologies], Initialize method, ISectionList::Initialize, ISectionListInitialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies], ISectionList interface, Initialize,ISectionList.Initialize, mpeg2data/ISectionList::Initialize, mstv.isectionlist_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\icameracontrol_put_pantilt.htm
 old-project: DirectShow
 ms.assetid: d9aa052a-72f9-4a17-bebe-809f43264481
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ICameraControl, ICameraControl interface [DirectShow], put_PanTilt method, ICameraControl::put_PanTilt, ICameraControlput_PanTilt, dshow.icameracontrol_put_pantilt, put_PanTilt method [DirectShow], put_PanTilt method [DirectShow], ICameraControl interface, put_PanTilt,ICameraControl.put_PanTilt, vidcap/ICameraControl::put_PanTilt
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: VIDEOHDR, *PVIDEOHDR, *LPVIDEOHDR
+req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
 topic_type:
 -	APIRef
 -	kbSyntax

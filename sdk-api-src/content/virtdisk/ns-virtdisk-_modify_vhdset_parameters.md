@@ -61,6 +61,12 @@ Contains VHD Set modification parameters, indicating how the VHD Set should be a
 
 
 
+### -field Version
+
+A value from the MODIFY_VHDSET_VERSION enumeration that determines that is the discriminant for the union. 
+
+
+
 ### -field SnapshotPath
 
 A structure with the following members.
@@ -75,12 +81,6 @@ The Snapshot Id in GUID format indicating which snapshot is to have its path alt
 ### -field SnapshotPath.SnapshotFilePath
 
 The new file path for the Snapshot indicated by the SnapshotId field. 
-
-
-
-### -field Version
-
-A value from the MODIFY_VHDSET_VERSION enumeration that determines that is the discriminant for the union. 
 
 
 

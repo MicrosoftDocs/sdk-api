@@ -7,7 +7,7 @@ old-location: winauto\uiauto_UIAutomationParameterStruct.htm
 old-project: WinAuto
 ms.assetid: 8287867d-5aaf-4c52-8a8b-d98de6a2ad4b
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: UIAutomationParameter, UIAutomationParameter structure [Windows Accessibility], uiauto.uiauto_UIAutomationParameterStruct, uiauto_UIAutomationParameterStruct, uiautomationcore/UIAutomationParameter, winauto.uiauto_UIAutomationParameterStruct
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,9 +58,11 @@ Contains information about a parameter of a custom control pattern.
 
 
 
-### -field UIAutomationType
+### -field type
 
- 
+Type: <b><a href="https://msdn.microsoft.com/6090d5b5-2376-43ce-bef2-49bb3515107a">UIAutomationType</a></b>
+
+A value indicating the type of the parameter.
 
 
 ### -field pData
@@ -68,13 +70,6 @@ Contains information about a parameter of a custom control pattern.
 Type: <b>void*</b>
 
 A pointer to the parameter data.
-
-
-#### - type
-
-Type: <b><a href="https://msdn.microsoft.com/6090d5b5-2376-43ce-bef2-49bb3515107a">UIAutomationType</a></b>
-
-A value indicating the type of the parameter.
 
 
 ## -see-also

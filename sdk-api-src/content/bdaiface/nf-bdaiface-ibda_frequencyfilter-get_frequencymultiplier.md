@@ -7,7 +7,7 @@ old-location: mstv\ibda_frequencyfilter_get_frequencymultiplier.htm
 old-project: mstv
 ms.assetid: 463a58f7-a10c-40b5-8183-3e16bcc7c6b2
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IBDA_FrequencyFilter, IBDA_FrequencyFilter interface [Microsoft TV Technologies], get_FrequencyMultiplier method, IBDA_FrequencyFilter::get_FrequencyMultiplier, IBDA_FrequencyFilterget_FrequencyMultiplier, bdaiface/IBDA_FrequencyFilter::get_FrequencyMultiplier, get_FrequencyMultiplier method [Microsoft TV Technologies], get_FrequencyMultiplier method [Microsoft TV Technologies], IBDA_FrequencyFilter interface, get_FrequencyMultiplier,IBDA_FrequencyFilter.get_FrequencyMultiplier, mstv.ibda_frequencyfilter_get_frequencymultiplier
 ms.prod: windows-hardware
 ms.technology: windows-devices

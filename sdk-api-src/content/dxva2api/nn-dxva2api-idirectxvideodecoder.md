@@ -7,7 +7,7 @@ old-location: mf\idirectxvideodecoder.htm
 old-project: medfound
 ms.assetid: 116c19a3-39be-4f96-969f-f3d62ed33a70
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 116c19a3-39be-4f96-969f-f3d62ed33a70, IDirectXVideoDecoder, IDirectXVideoDecoder interface [Media Foundation], IDirectXVideoDecoder interface [Media Foundation], described, dxva2api/IDirectXVideoDecoder, mf.idirectxvideodecoder
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\iazbizruleparameters_remove_method.htm
 old-project: SecAuthZ
 ms.assetid: 1874ac48-0a06-4387-89c2-c194b60bb8f2
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: IAzBizRuleParameters, IAzBizRuleParameters interface [Security], Remove method, IAzBizRuleParameters::Remove, Remove method [Security], Remove method [Security], IAzBizRuleParameters interface, Remove,IAzBizRuleParameters.Remove, azroles/IAzBizRuleParameters::Remove, security.iazbizruleparameters_remove_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

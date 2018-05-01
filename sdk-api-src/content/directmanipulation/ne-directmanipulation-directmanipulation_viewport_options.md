@@ -38,8 +38,8 @@ api_name:
 -	DIRECTMANIPULATION_VIEWPORT_OPTIONS
 product: Windows
 targetos: Windows
-req.lib: Winmm.lib
-req.dll: Winmm.dll
+req.lib: 
+req.dll: 
 req.irql: 
 ---
 

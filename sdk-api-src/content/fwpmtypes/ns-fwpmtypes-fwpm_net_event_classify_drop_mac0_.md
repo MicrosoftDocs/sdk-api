@@ -7,7 +7,7 @@ old-location: fwp\fwpm_net_event_classify_drop_mac0.htm
 old-project: FWP
 ms.assetid: 750c2cfa-6799-492d-9e10-b4260541ada7
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: FWPM_NET_EVENT_CLASSIFY_DROP_MAC0, FWPM_NET_EVENT_CLASSIFY_DROP_MAC0 structure [Filtering], FWPM_NET_EVENT_CLASSIFY_DROP_MAC0_, FWP_DIRECTION_FORWARD, FWP_DIRECTION_IN, FWP_DIRECTION_OUT, fwp.fwpm_net_event_classify_drop_mac0, fwpmtypes/FWPM_NET_EVENT_CLASSIFY_DROP_MAC0
 ms.prod: windows-hardware
 ms.technology: windows-devices

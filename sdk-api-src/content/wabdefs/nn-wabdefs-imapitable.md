@@ -7,7 +7,7 @@ old-location: wab\_wab_IMAPITable.htm
 old-project: wab
 ms.assetid: VS|wab|~\wab\reference\ifaces\imapitable\imapitable.htm
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 4/3/2018
 ms.keywords: IMAPITable, IMAPITable interface [Windows Address Book], IMAPITable interface [Windows Address Book], described, _wab_IMAPITable, wab._wab_IMAPITable, wabdefs/IMAPITable
 ms.prod: windows-hardware
 ms.technology: windows-devices

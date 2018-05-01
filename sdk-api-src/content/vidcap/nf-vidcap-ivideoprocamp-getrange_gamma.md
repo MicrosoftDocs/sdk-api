@@ -7,7 +7,7 @@ old-location: dshow\ivideoprocamp_getrange_gamma.htm
 old-project: DirectShow
 ms.assetid: 36914aed-d11c-42c0-a0e5-ba1d3ba6dd22
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IVideoProcAmp, IVideoProcAmp interface [DirectShow], getRange_Gamma method, IVideoProcAmp::getRange_Gamma, IVideoProcAmpgetRange_Gamma, dshow.ivideoprocamp_getrange_gamma, getRange_Gamma method [DirectShow], getRange_Gamma method [DirectShow], IVideoProcAmp interface, getRange_Gamma,IVideoProcAmp.getRange_Gamma, vidcap/IVideoProcAmp::getRange_Gamma
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: VIDEOHDR, *PVIDEOHDR, *LPVIDEOHDR
+req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
 topic_type:
 -	APIRef
 -	kbSyntax

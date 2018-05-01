@@ -7,7 +7,7 @@ old-location: security\ialternativenames_clear_method.htm
 old-project: SecCertEnroll
 ms.assetid: babeb53a-b2db-420c-85fe-dacb9176ec70
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: Clear method [Security], Clear method [Security], IAlternativeNames interface, Clear,IAlternativeNames.Clear, IAlternativeNames, IAlternativeNames interface [Security], Clear method, IAlternativeNames::Clear, certenroll/IAlternativeNames::Clear, security.ialternativenames_clear_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmformat\iwmreaderadvanced_setallocateforstream.htm
 old-project: wmformat
 ms.assetid: 58c396a9-5d1e-4a13-a877-5289649a6375
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMReaderAdvanced, IWMReaderAdvanced interface [windows Media Format], SetAllocateForStream method, IWMReaderAdvanced::SetAllocateForStream, IWMReaderAdvancedSetAllocateForStream, SetAllocateForStream method [windows Media Format], SetAllocateForStream method [windows Media Format], IWMReaderAdvanced interface, SetAllocateForStream,IWMReaderAdvanced.SetAllocateForStream, wmformat.iwmreaderadvanced_setallocateforstream, wmsdkidl/IWMReaderAdvanced::SetAllocateForStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

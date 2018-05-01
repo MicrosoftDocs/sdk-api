@@ -7,7 +7,7 @@ old-location: dshow\waveformatextensible.htm
 old-project: DirectShow
 ms.assetid: b16cdcab-fa4f-4c9a-b1f3-af459bd33245
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: "*LPWAVEFORMATIEEEFLOATEX, *LPWAVEFORMATPCMEX, *NPWAVEFORMATIEEEFLOATEX, *NPWAVEFORMATPCMEX, *PWAVEFORMATEXTENSIBLE, *PWAVEFORMATIEEEFLOATEX, *PWAVEFORMATPCMEX, KSDATAFORMAT_SUBTYPE_ADPCM, KSDATAFORMAT_SUBTYPE_ALAW, KSDATAFORMAT_SUBTYPE_DRM, KSDATAFORMAT_SUBTYPE_IEC61937_DOLBY_DIGITAL, KSDATAFORMAT_SUBTYPE_IEC61937_DOLBY_DIGITAL_PLUS, KSDATAFORMAT_SUBTYPE_IEEE_FLOAT, KSDATAFORMAT_SUBTYPE_MPEG, KSDATAFORMAT_SUBTYPE_MULAW, KSDATAFORMAT_SUBTYPE_PCM, PWAVEFORMATEXTENSIBLE, PWAVEFORMATEXTENSIBLE structure pointer [DirectShow], WAVEFORMATEXTENSIBLE, WAVEFORMATEXTENSIBLE structure [DirectShow], WAVEFORMATEXTENSIBLEStructure, WAVEFORMATIEEEFLOATEX, WAVEFORMATPCMEX, dshow.waveformatextensible, ksmedia/PWAVEFORMATEXTENSIBLE, ksmedia/WAVEFORMATEXTENSIBLE, mmreg/PWAVEFORMATEXTENSIBLE, mmreg/WAVEFORMATEXTENSIBLE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,6 +62,12 @@ The <b>WAVEFORMATEXTENSIBLE</b> structure defines the format of waveform-audio d
 
 
 
+### -field Format
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538799">WAVEFORMATEX</a> structure that specifies the basic format. The <b>wFormatTag</b> member must be WAVE_FORMAT_EXTENSIBLE, defined in Mmreg.h. The <b>cbSize</b> member must be at least 22.
+
+
 ### -field Samples
 
 A union that contains the following members.
@@ -85,12 +91,6 @@ Number of samples contained in one compressed block of audio data. This value is
 
               Reserved. Set to zero.
             
-
-
-### -field Format
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538799">WAVEFORMATEX</a> structure that specifies the basic format. The <b>wFormatTag</b> member must be WAVE_FORMAT_EXTENSIBLE, defined in Mmreg.h. The <b>cbSize</b> member must be at least 22.
 
 
 ### -field dwChannelMask
@@ -204,23 +204,6 @@ PCM audio.
 </tr>
 </table>
  
-
-
-##### - Samples.wReserved
-
-
-              Reserved. Set to zero.
-            
-
-
-##### - Samples.wSamplesPerBlock
-
-Number of samples contained in one compressed block of audio data. This value is used in buffer estimation. This value is used with compressed formats that have a fixed number of samples within each block. This value can be set to zero if a variable number of samples is contained in each block of compressed audio data. In this case, buffer estimation and position information needs to be obtained in other ways.
-
-
-##### - Samples.wValidBitsPerSample
-
-Number of bits of precision in the signal. Usually equal to <b>WAVEFORMATEX.wBitsPerSample</b>. However, <b>wBitsPerSample</b> is the container size and must be a multiple of 8, whereas <b>wValidBitsPerSample</b> can be any value not exceeding the container size. For example, if the format uses 20-bit samples, <b>wBitsPerSample</b> must be at least 24, but <b>wValidBitsPerSample</b> is 20.
 
 
 ## -remarks

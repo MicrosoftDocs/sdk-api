@@ -7,7 +7,7 @@ old-location: mf\imftimedtextstyle_getfontstyle.htm
 old-project: medfound
 ms.assetid: 4089F237-BDA6-49AF-967F-089D641D4B09
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetFontStyle method [Media Foundation], GetFontStyle method [Media Foundation], IMFTimedTextStyle interface, GetFontStyle,IMFTimedTextStyle.GetFontStyle, IMFTimedTextStyle, IMFTimedTextStyle interface [Media Foundation], GetFontStyle method, IMFTimedTextStyle::GetFontStyle, mf.imftimedtextstyle_getfontstyle, mfmediaengine/IMFTimedTextStyle::GetFontStyle
 ms.prod: windows-hardware
 ms.technology: windows-devices

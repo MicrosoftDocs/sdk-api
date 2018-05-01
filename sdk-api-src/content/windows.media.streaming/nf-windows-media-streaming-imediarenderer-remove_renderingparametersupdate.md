@@ -7,7 +7,7 @@ old-location: mediastreaming\imediarenderer_remove_renderingparametersupdate.htm
 old-project: mediastreaming
 ms.assetid: 5642D180-7FE8-4058-B346-109D5C5817F6
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/10/2018
 ms.keywords: IMediaRenderer, IMediaRenderer interface [Media Streaming API], remove_RenderingParametersUpdate method, IMediaRenderer::remove_RenderingParametersUpdate, mediastreaming.imediarenderer_remove_renderingparametersupdate, remove_RenderingParametersUpdate method [Media Streaming API], remove_RenderingParametersUpdate method [Media Streaming API], IMediaRenderer interface, remove_RenderingParametersUpdate,IMediaRenderer.remove_RenderingParametersUpdate, windows/IMediaRenderer::remove_RenderingParametersUpdate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: PDF_RENDER_PARAMS
+req.typenames: TimeSpan
 topic_type:
 -	APIRef
 -	kbSyntax

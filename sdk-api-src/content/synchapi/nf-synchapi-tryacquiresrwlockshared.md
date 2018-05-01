@@ -7,7 +7,7 @@ old-location: base\tryacquiresrwlockshared.htm
 old-project: Sync
 ms.assetid: e7b0c273-c1d4-4a1c-a824-f519fb52ad8f
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: TryAcquireSRWLockShared, TryAcquireSRWLockShared function, base.tryacquiresrwlockshared, synchapi/TryAcquireSRWLockShared, winbase/TryAcquireSRWLockShared
 ms.prod: windows-hardware
 ms.technology: windows-devices

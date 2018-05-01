@@ -7,7 +7,7 @@ old-location: wmi\chstring_mid.htm
 old-project: WmiSdk
 ms.assetid: 2036813b-f991-4ca3-95d3-8bbe858aae09
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: CHString, CHString::Mid, CHString::Mid methods [Windows Management Instrumentation], Mid,CHString.Mid, chstring/CHString::Mid, wmi.chstring_mid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CF_SYNC_ROOT_STANDARD_INFO
+req.typenames: CF_SYNC_STATUS
 topic_type:
 -	APIRef
 -	kbSyntax

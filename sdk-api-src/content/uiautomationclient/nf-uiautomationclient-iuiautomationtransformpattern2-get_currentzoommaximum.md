@@ -7,7 +7,7 @@ old-location: winauto\uiauto_iuiautomationtransformpattern2_currentzoommaximum.h
 old-project: WinAuto
 ms.assetid: 600A6FCC-7B67-435A-B162-BC0EC8D609B0
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: CurrentZoomMaximum property [Windows Accessibility], CurrentZoomMaximum property [Windows Accessibility], IUIAutomationTransformPattern2 interface, IUIAutomationTransformPattern2, IUIAutomationTransformPattern2 interface [Windows Accessibility], CurrentZoomMaximum property, IUIAutomationTransformPattern2.CurrentZoomMaximum, IUIAutomationTransformPattern2::get_CurrentZoomMaximum, get_CurrentZoomMaximum,IUIAutomationTransformPattern2.get_CurrentZoomMaximum, uiautomationclient/IUIAutomationTransformPattern2::CurrentZoomMaximum, uiautomationclient/IUIAutomationTransformPattern2::get_CurrentZoomMaximum, winauto.uiauto_iuiautomationtransformpattern2_currentzoommaximum
 ms.prod: windows-hardware
 ms.technology: windows-devices

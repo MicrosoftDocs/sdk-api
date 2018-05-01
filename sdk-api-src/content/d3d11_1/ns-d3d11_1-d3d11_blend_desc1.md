@@ -7,8 +7,8 @@ old-location: direct3d11\d3d11_blend_desc1.htm
 old-project: direct3d11
 ms.assetid: BBBECB86-B33D-4AA3-8D0A-45AEC3BBC4AB
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
-ms.keywords: D3D11_BLEND_DESC1, D3D11_BLEND_DESC1 structure [Direct3D 11], d3d11_1/D3D11_BLEND_DESC1, direct3d11.d3d11_blend_desc1
+ms.date: 4/6/2018
+ms.keywords: CD3D11_BLEND_DESC1, D3D11_BLEND_DESC1, D3D11_BLEND_DESC1 structure [Direct3D 11], d3d11_1/D3D11_BLEND_DESC1, direct3d11.d3d11_blend_desc1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -61,7 +61,7 @@ req.irql:
 
 
 
-### -field AlphaToCoverageEnable
+#### - AlphaToCoverageEnable
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
 
@@ -71,7 +71,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
           
 
 
-### -field IndependentBlendEnable
+#### - IndependentBlendEnable
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
 
@@ -80,7 +80,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
           
 
 
-### -field RenderTarget
+#### - RenderTarget
 
 Type: <b><a href="https://msdn.microsoft.com/A8323E69-F385-4E91-8B1F-A7CD3D508A09">D3D11_RENDER_TARGET_BLEND_DESC1</a>[8]</b>
 

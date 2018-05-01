@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmreportscheduler_modifyscheduletask.htm
 old-project: Fsrm
 ms.assetid: ca950e00-d391-4a03-8ff9-2ddef3a17038
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: FsrmReportScheduler class [File Server Resource Manager], ModifyScheduleTask method, IFsrmReportScheduler, IFsrmReportScheduler interface [File Server Resource Manager], ModifyScheduleTask method, IFsrmReportScheduler::ModifyScheduleTask, ModifyScheduleTask method [File Server Resource Manager], ModifyScheduleTask method [File Server Resource Manager], FsrmReportScheduler class, ModifyScheduleTask method [File Server Resource Manager], IFsrmReportScheduler interface, ModifyScheduleTask,IFsrmReportScheduler.ModifyScheduleTask, fs.ifsrmreportscheduler_modifyscheduletask, fsrm.ifsrmreportscheduler_modifyscheduletask, fsrmreports/IFsrmReportScheduler::ModifyScheduleTask
 ms.prod: windows-hardware
 ms.technology: windows-devices

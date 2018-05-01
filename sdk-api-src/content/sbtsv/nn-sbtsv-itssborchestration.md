@@ -7,7 +7,7 @@ old-location: termserv\itssborchestration.htm
 old-project: TermServ
 ms.assetid: fae858ae-19e5-453d-b9ef-1da7ea706e49
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: ITsSbOrchestration, ITsSbOrchestration interface [Remote Desktop Services], ITsSbOrchestration interface [Remote Desktop Services], described, sbtsv/ITsSbOrchestration, termserv.itssborchestration
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITsSbOrchestration interface

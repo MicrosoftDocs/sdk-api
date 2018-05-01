@@ -7,7 +7,7 @@ old-location: wmp\iwmpcdromburn_isavailable.htm
 old-project: WMP
 ms.assetid: 11876b73-10a1-49e2-ad45-33d9641c3647
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPCdromBurn, IWMPCdromBurn interface [Windows Media Player], isAvailable method, IWMPCdromBurn::isAvailable, IWMPCdromBurnisAvailable, isAvailable method [Windows Media Player], isAvailable method [Windows Media Player], IWMPCdromBurn interface, isAvailable,IWMPCdromBurn.isAvailable, wmp.iwmpcdromburn_isavailable, wmp/IWMPCdromBurn::isAvailable
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\iaznameresolver_namefromsid_method.htm
 old-project: SecAuthZ
 ms.assetid: 3518e620-85cf-4bae-8366-d43564535774
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: IAzNameResolver, IAzNameResolver interface [Security], NameFromSid method, IAzNameResolver::NameFromSid, NameFromSid method [Security], NameFromSid method [Security], IAzNameResolver interface, NameFromSid,IAzNameResolver.NameFromSid, azroles/IAzNameResolver::NameFromSid, security.iaznameresolver_namefromsid_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

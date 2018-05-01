@@ -7,7 +7,7 @@ old-location: ad\idsadminnewobjext_initialize.htm
 old-project: AD
 ms.assetid: 38dd4f43-6f8f-460a-9c5d-0a506d993101
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/20/2018
 ms.keywords: IDsAdminNewObjExt, IDsAdminNewObjExt interface [Active Directory], Initialize method, IDsAdminNewObjExt::Initialize, Initialize method [Active Directory], Initialize method [Active Directory], IDsAdminNewObjExt interface, Initialize,IDsAdminNewObjExt.Initialize, _glines_idsadminnewobjext_initialize, ad.idsadminnewobjext__initialize, ad.idsadminnewobjext_initialize, dsadmin/IDsAdminNewObjExt::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

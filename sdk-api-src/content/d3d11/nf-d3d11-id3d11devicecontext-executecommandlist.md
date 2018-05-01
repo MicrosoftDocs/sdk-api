@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext_executecommandlist.htm
 old-project: direct3d11
 ms.assetid: 54e74f7d-b8a4-458d-bb39-3d8a824f06ef
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/6/2018
 ms.keywords: 451c8cc4-04fc-6682-9b16-549845617e3e, ExecuteCommandList method [Direct3D 11], ExecuteCommandList method [Direct3D 11], ID3D11DeviceContext interface, ExecuteCommandList,ID3D11DeviceContext.ExecuteCommandList, ID3D11DeviceContext, ID3D11DeviceContext interface [Direct3D 11], ExecuteCommandList method, ID3D11DeviceContext::ExecuteCommandList, d3d11/ID3D11DeviceContext::ExecuteCommandList, direct3d11.id3d11devicecontext_executecommandlist
 ms.prod: windows-hardware
 ms.technology: windows-devices

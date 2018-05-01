@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12tools.htm
 old-project: direct3d12
 ms.assetid: F192AC22-1FD9-496D-9943-99FB424DD214
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: ID3D12Tools, ID3D12Tools interface, ID3D12Tools interface, described, d3d12/ID3D12Tools, direct3d12.id3d12tools
 ms.prod: windows-hardware
 ms.technology: windows-devices

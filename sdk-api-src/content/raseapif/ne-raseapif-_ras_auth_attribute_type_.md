@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Rasdlg.lib
 req.dll: Rasdlg.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _RAS_AUTH_ATTRIBUTE_TYPE_ enumeration
@@ -751,6 +751,9 @@ Indicates and EAP-TLV attribute.
 
 
 ### -field raatCredentialsChanged
+
+
+### -field raatCertificateThumbprint
 
 
 ### -field raatPeerId

@@ -7,7 +7,7 @@ old-location: security\ix500distinguishedname_name_property.htm
 old-project: SecCertEnroll
 ms.assetid: 1335c726-c16a-4a15-b231-8a3bd212f4ec
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: IX500DistinguishedName, IX500DistinguishedName interface [Security], Name property, IX500DistinguishedName.Name, IX500DistinguishedName::get_Name, Name property [Security], Name property [Security], IX500DistinguishedName interface, certenroll/IX500DistinguishedName::Name, certenroll/IX500DistinguishedName::get_Name, get_Name,IX500DistinguishedName.get_Name, security.ix500distinguishedname_name_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

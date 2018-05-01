@@ -7,7 +7,7 @@ old-location: ad\idsobjectpickercredentials.htm
 old-project: AD
 ms.assetid: 336e7e68-0903-42f7-9810-53ccceed32de
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/20/2018
 ms.keywords: IDsObjectPickerCredentials, IDsObjectPickerCredentials object [Active Directory], IDsObjectPickerCredentials object [Active Directory], described, ad.idsobjectpickercredentials, objsel/IDsObjectPickerCredentials
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Objsel.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IDsObjectPickerCredentials interface

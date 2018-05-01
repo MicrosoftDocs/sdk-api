@@ -7,7 +7,7 @@ old-location: winrt\ireferencetracker_disconnectfromtrackersource.htm
 old-project: WinRT
 ms.assetid: b4be9e74-6469-4f82-9748-036f08cec97f
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/24/2018
 ms.keywords: DisconnectFromTrackerSource method [Windows Runtime], DisconnectFromTrackerSource method [Windows Runtime], IReferenceTracker interface, DisconnectFromTrackerSource,IReferenceTracker.DisconnectFromTrackerSource, IReferenceTracker, IReferenceTracker interface [Windows Runtime], DisconnectFromTrackerSource method, IReferenceTracker::DisconnectFromTrackerSource, windows/IReferenceTracker::DisconnectFromTrackerSource, winrt.ireferencetracker_disconnectfromtrackersource
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmformat\iwmstreamconfig_setstreamnumber.htm
 old-project: wmformat
 ms.assetid: aea8b219-5b47-4176-ad96-d52646d96578
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMStreamConfig, IWMStreamConfig interface [windows Media Format], SetStreamNumber method, IWMStreamConfig::SetStreamNumber, IWMStreamConfigSetStreamNumber, SetStreamNumber method [windows Media Format], SetStreamNumber method [windows Media Format], IWMStreamConfig interface, SetStreamNumber,IWMStreamConfig.SetStreamNumber, wmformat.iwmstreamconfig_setstreamnumber, wmsdkidl/IWMStreamConfig::SetStreamNumber
 ms.prod: windows-hardware
 ms.technology: windows-devices

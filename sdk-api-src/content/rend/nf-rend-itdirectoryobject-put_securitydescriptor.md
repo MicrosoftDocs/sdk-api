@@ -7,7 +7,7 @@ old-location: tapi3\itdirectoryobject_put_securitydescriptor.htm
 old-project: Tapi
 ms.assetid: 1a6fe823-c794-4b6c-af51-ef03efe62606
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: ITDirectoryObject, ITDirectoryObject interface [TAPI 2.2], put_SecurityDescriptor method, ITDirectoryObject::put_SecurityDescriptor, _tapi3_itdirectoryobject_put_securitydescriptor, put_SecurityDescriptor method [TAPI 2.2], put_SecurityDescriptor method [TAPI 2.2], ITDirectoryObject interface, put_SecurityDescriptor,ITDirectoryObject.put_SecurityDescriptor, rend/ITDirectoryObject::put_SecurityDescriptor, tapi3.itdirectoryobject_put_securitydescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Rend.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITDirectoryObject::put_SecurityDescriptor method

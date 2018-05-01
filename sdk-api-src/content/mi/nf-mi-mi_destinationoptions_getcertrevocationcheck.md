@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_destinationoptions_getcertrevocationcheck.htm
 old-project: wmi_v2
 ms.assetid: 85af8514-a448-44c4-b1ad-f0a6b5c4a8a4
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/18/2018
 ms.keywords: MI_DestinationOptions_GetCertRevocationCheck, MI_DestinationOptions_GetCertRevocationCheck function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_GetCertRevocationCheck, wmi_v2.mi_destinationoptions_getcertrevocationcheck
 ms.prod: windows-hardware
 ms.technology: windows-devices

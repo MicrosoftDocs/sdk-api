@@ -7,7 +7,7 @@ old-location: com\icallframe_marshal.htm
 old-project: com
 ms.assetid: cab40c31-1f89-4da9-a1e0-ef946b34665c
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: ICallFrame, ICallFrame interface [COM], Marshal method, ICallFrame::Marshal, Marshal method [COM], Marshal method [COM], ICallFrame interface, Marshal,ICallFrame.Marshal, _com_icallframe_marshal, callobj/ICallFrame::Marshal, com.icallframe_marshal
 ms.prod: windows-hardware
 ms.technology: windows-devices

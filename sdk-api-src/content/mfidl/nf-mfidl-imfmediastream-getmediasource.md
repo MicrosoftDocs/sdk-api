@@ -7,7 +7,7 @@ old-location: mf\imfmediastream_getmediasource.htm
 old-project: medfound
 ms.assetid: ffca44ca-14ae-4f93-a719-9012a8151a7a
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetMediaSource method [Media Foundation], GetMediaSource method [Media Foundation], IMFMediaStream interface, GetMediaSource,IMFMediaStream.GetMediaSource, IMFMediaStream, IMFMediaStream interface [Media Foundation], GetMediaSource method, IMFMediaStream::GetMediaSource, ffca44ca-14ae-4f93-a719-9012a8151a7a, mf.imfmediastream_getmediasource, mfidl/IMFMediaStream::GetMediaSource
 ms.prod: windows-hardware
 ms.technology: windows-devices

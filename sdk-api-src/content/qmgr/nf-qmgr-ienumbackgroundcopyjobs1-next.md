@@ -7,7 +7,7 @@ old-location: bits\ienumbackgroundcopyjobs1_next.htm
 old-project: Bits
 ms.assetid: 15dcc2e1-7fdf-4c4a-a24b-2cad49bda7fc
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/10/2018
 ms.keywords: IEnumBackgroundCopyJobs1, IEnumBackgroundCopyJobs1 interface [BITS], Next method, IEnumBackgroundCopyJobs1::Next, Next method [BITS], Next method [BITS], IEnumBackgroundCopyJobs1 interface, Next,IEnumBackgroundCopyJobs1.Next, bits.ienumbackgroundcopyjobs1_next, qmgr/IEnumBackgroundCopyJobs1::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: QmgrPrxy.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IEnumBackgroundCopyJobs1::Next method

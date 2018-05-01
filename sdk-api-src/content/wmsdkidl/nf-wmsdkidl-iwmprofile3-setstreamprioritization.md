@@ -7,7 +7,7 @@ old-location: wmformat\iwmprofile3_setstreamprioritization.htm
 old-project: wmformat
 ms.assetid: 16dfb205-2a0b-4dc8-a8f2-8981534018f1
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMProfile3, IWMProfile3 interface [windows Media Format], SetStreamPrioritization method, IWMProfile3::SetStreamPrioritization, IWMProfile3SetStreamPrioritization, SetStreamPrioritization method [windows Media Format], SetStreamPrioritization method [windows Media Format], IWMProfile3 interface, SetStreamPrioritization,IWMProfile3.SetStreamPrioritization, wmformat.iwmprofile3_setstreamprioritization, wmsdkidl/IWMProfile3::SetStreamPrioritization
 ms.prod: windows-hardware
 ms.technology: windows-devices

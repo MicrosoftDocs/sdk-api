@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11device3_createrasterizerstate2.htm
 old-project: direct3d11
 ms.assetid: 42BA8F50-7D86-4411-AE05-74F492761DBD
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/6/2018
 ms.keywords: CreateRasterizerState2 method [Direct3D 11], CreateRasterizerState2 method [Direct3D 11], ID3D11Device3 interface, CreateRasterizerState2,ID3D11Device3.CreateRasterizerState2, ID3D11Device3, ID3D11Device3 interface [Direct3D 11], CreateRasterizerState2 method, ID3D11Device3::CreateRasterizerState2, d3d11_3/ID3D11Device3::CreateRasterizerState2, direct3d11.id3d11device3_createrasterizerstate2
 ms.prod: windows-hardware
 ms.technology: windows-devices

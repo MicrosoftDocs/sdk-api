@@ -7,7 +7,7 @@ old-location: shell\IShellImageData_GetDelay.htm
 old-project: shell
 ms.assetid: b5815771-7c96-4431-bc43-a5e620bd1d2f
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetDelay method [Windows Shell], GetDelay method [Windows Shell], IShellImageData interface, GetDelay,IShellImageData.GetDelay, IShellImageData, IShellImageData interface [Windows Shell], GetDelay method, IShellImageData::GetDelay, _shell_IShellImageData_GetDelay, shell.IShellImageData_GetDelay, shimgdata/IShellImageData::GetDelay
 ms.prod: windows-hardware
 ms.technology: windows-devices

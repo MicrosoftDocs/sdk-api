@@ -1,14 +1,14 @@
 ---
 UID: NS:windns.__unnamed_struct_40
-title: DNS_WINSR_DATAW
+title: DNS_WINS_DATA
 author: windows-driver-content
-description: The DNS_WINSR_DATA structure represents a DNS Windows Internet Name Service reverse-lookup (WINSR) record.
-old-location: dns\dns_winsr_data.htm
+description: The DNS_WINS_DATA structure represents a DNS Windows Internet Name Service (WINS) record.
+old-location: dns\dns_wins_data.htm
 old-project: DNS
-ms.assetid: a7e79e30-905f-42a5-a4de-02d71adfe95e
+ms.assetid: df41c397-e662-42b4-9193-6776f9071898
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
-ms.keywords: "*PDNS_WINSR_DATA, *PDNS_WINSR_DATAW, DNS_WINSR_DATA, DNS_WINSR_DATA structure [DNS], DNS_WINSR_DATAW, DNS_WINS_FLAG_LOCAL, DNS_WINS_FLAG_SCOPE, PDNS_WINSR_DATA, PDNS_WINSR_DATA structure pointer [DNS], _dns_dns_winsr_data, dns.dns_winsr_data, windns/DNS_WINSR_DATA, windns/PDNS_WINSR_DATA"
+ms.date: 4/18/2018
+ms.keywords: "*PDNS_WINS_DATA, DNS_WINS_DATA, DNS_WINS_DATA structure [DNS], DNS_WINS_FLAG_LOCAL, DNS_WINS_FLAG_SCOPE, PDNS_WINS_DATA, PDNS_WINS_DATA structure pointer [DNS], _dns_dns_wins_data, dns.dns_wins_data, windns/DNS_WINS_DATA, windns/PDNS_WINS_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: DNS_WINSR_DATAW, *PDNS_WINSR_DATAW
+req.typenames: DNS_WINS_DATA, *PDNS_WINS_DATA
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	Windns.h
 api_name:
--	DNS_WINSR_DATA
+-	DNS_WINS_DATA
 product: Windows
 targetos: Windows
 req.lib: 
@@ -44,14 +44,14 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# DNS_WINSR_DATAW structure
+# DNS_WINS_DATA structure
 
 
 ## -description
 
 
 The 
-<b>DNS_WINSR_DATA</b> structure represents a DNS Windows Internet Name Service reverse-lookup (WINSR) record.
+<b>DNS_WINS_DATA</b> structure represents a DNS Windows Internet Name Service (WINS) record.
 
 
 ## -struct-fields
@@ -61,7 +61,7 @@ The
 
 ### -field dwMappingFlag
 
-The WINS mapping flag that specifies whether the record must be included into the zone replication. <b>dwMappingFlag</b> must be one of these mutually exclusive values:
+The WINS mapping flag that specifies whether the record must be included in zone replication. <b>dwMappingFlag</b> must be one of these mutually exclusive values:
 
 <table>
 <tr>
@@ -102,9 +102,14 @@ The time, in seconds, that a DNS Server attempts resolution using WINS lookup.
 The time, in seconds, that a DNS Server using WINS lookup may cache the WINS Server's response.
 
 
-### -field pNameResultDomain
+### -field cWinsServerCount
 
-A pointer to a string that represents the domain name to append to the name returned by a WINS reverse-lookup.
+The number of WINS Servers listed in <b>WinsServers</b>.
+
+
+### -field WinsServers
+
+An array of <a href="https://msdn.microsoft.com/4273a739-129c-4951-b6df-aef4332ce0cb">IP4_ARRAY</a> structures that contain the IPv4 address of the WINS lookup Servers.
 
 
 ## -remarks
@@ -112,7 +117,7 @@ A pointer to a string that represents the domain name to append to the name retu
 
 
 The 
-<b>DNS_WINSR_DATA</b> structure is used in conjunction with the 
+<b>DNS_WINS_DATA</b> structure is used in conjunction with the 
 <a href="https://msdn.microsoft.com/ab7b96a5-346f-4e01-bb2a-885f44764590">DNS_RECORD</a> structure to programmatically manage DNS entries.
 
 

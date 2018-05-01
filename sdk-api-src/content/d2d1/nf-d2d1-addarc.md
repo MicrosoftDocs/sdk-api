@@ -7,7 +7,7 @@ old-location: direct2d\id2d1geometrysink_addarc.htm
 old-project: Direct2D
 ms.assetid: 845fed36-8425-45fd-a12e-7537e5ba3c4f
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: AddArc, AddArc methods [Direct2D], d2d1/AddArc, direct2d.id2d1geometrysink_addarc
 ms.prod: windows-hardware
 ms.technology: windows-devices

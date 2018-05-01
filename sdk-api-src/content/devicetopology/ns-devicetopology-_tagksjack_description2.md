@@ -7,7 +7,7 @@ old-location: coreaudio\ksjack_description2.htm
 old-project: CoreAudio
 ms.assetid: 67714767-24b8-4838-953a-d6aca0c55bbb
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: "*PKSJACK_DESCRIPTION2, KSJACK_DESCRIPTION2, KSJACK_DESCRIPTION2 structure [Core Audio], PKSJACK_DESCRIPTION2, PKSJACK_DESCRIPTION2 structure pointer [Core Audio], _tagKSJACK_DESCRIPTION2, coreaudio.ksjack_description2, devicetopology/KSJACK_DESCRIPTION2, devicetopology/PKSJACK_DESCRIPTION2"
 ms.prod: windows-hardware
 ms.technology: windows-devices

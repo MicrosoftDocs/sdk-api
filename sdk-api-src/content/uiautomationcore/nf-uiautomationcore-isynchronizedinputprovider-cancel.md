@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ISynchronizedInputProvider_Cancel.htm
 old-project: WinAuto
 ms.assetid: 388fd113-ec66-4152-a42a-a485edcb9b80
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: Cancel method [Windows Accessibility], Cancel method [Windows Accessibility], ISynchronizedInputProvider interface, Cancel,ISynchronizedInputProvider.Cancel, ISynchronizedInputProvider, ISynchronizedInputProvider interface [Windows Accessibility], Cancel method, ISynchronizedInputProvider::Cancel, uiauto.uiauto_ISynchronizedInputProvider_Cancel, uiauto_ISynchronizedInputProvider_Cancel, uiautomationcore/ISynchronizedInputProvider::Cancel, winauto.uiauto_ISynchronizedInputProvider_Cancel
 ms.prod: windows-hardware
 ms.technology: windows-devices

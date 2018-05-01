@@ -7,7 +7,7 @@ old-location: cos\icomadmincatalog2_isapplicationinstancedumpsupported.htm
 old-project: cossdk
 ms.assetid: d290ec47-a2df-4de3-8719-cceeb893557d
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: ICOMAdminCatalog2, ICOMAdminCatalog2 interface [COM+], IsApplicationInstanceDumpSupported property, ICOMAdminCatalog2.IsApplicationInstanceDumpSupported, ICOMAdminCatalog2::get_IsApplicationInstanceDumpSupported, IsApplicationInstanceDumpSupported property [COM+], IsApplicationInstanceDumpSupported property [COM+], ICOMAdminCatalog2 interface, _cos_IComAdminCatalog2_get_IsApplicationInstanceDumpSupported, comadmin/ICOMAdminCatalog2::IsApplicationInstanceDumpSupported, comadmin/ICOMAdminCatalog2::get_IsApplicationInstanceDumpSupported, cos.icomadmincatalog2_isapplicationinstancedumpsupported, get_IsApplicationInstanceDumpSupported,ICOMAdminCatalog2.get_IsApplicationInstanceDumpSupported
 ms.prod: windows-hardware
 ms.technology: windows-devices

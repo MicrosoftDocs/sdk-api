@@ -7,7 +7,7 @@ old-location: mstv\ipat_gettransportstreamid.htm
 old-project: mstv
 ms.assetid: 3a13bb01-47d6-4737-9e66-169def727b5e
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetTransportStreamId method [Microsoft TV Technologies], GetTransportStreamId method [Microsoft TV Technologies], IPAT interface, GetTransportStreamId,IPAT.GetTransportStreamId, IPAT, IPAT interface [Microsoft TV Technologies], GetTransportStreamId method, IPAT::GetTransportStreamId, IPATGetTransportStreamId, mpeg2psiparser/IPAT::GetTransportStreamId, mstv.ipat_gettransportstreamid
 ms.prod: windows-hardware
 ms.technology: windows-devices

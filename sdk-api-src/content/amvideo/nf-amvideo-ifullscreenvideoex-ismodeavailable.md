@@ -7,7 +7,7 @@ old-location: dshow\ifullscreenvideoex_ismodeavailable.htm
 old-project: DirectShow
 ms.assetid: 9b05d6c6-522c-46b8-90b5-c4650cee5f6b
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IFullScreenVideoEx, IFullScreenVideoEx interface [DirectShow], IsModeAvailable method, IFullScreenVideoEx::IsModeAvailable, IFullScreenVideoIsModeAvailable, IsModeAvailable method [DirectShow], IsModeAvailable method [DirectShow], IFullScreenVideoEx interface, IsModeAvailable,IFullScreenVideoEx.IsModeAvailable, amvideo/IFullScreenVideoEx::IsModeAvailable, dshow.ifullscreenvideoex_ismodeavailable
 ms.prod: windows-hardware
 ms.technology: windows-devices

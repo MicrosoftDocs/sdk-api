@@ -7,7 +7,7 @@ old-location: security\allocatesharedmemory.htm
 old-project: SecAuthN
 ms.assetid: 77fdedaf-8931-4412-ab35-bd3de8e78b9a
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/24/2018
 ms.keywords: AllocateSharedMemory, AllocateSharedMemory function [Security], LSA_ALLOCATE_SHARED_MEMORY, _ssp_allocatesharedmemory, ntsecpkg/AllocateSharedMemory, security.allocatesharedmemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # LSA_ALLOCATE_SHARED_MEMORY callback

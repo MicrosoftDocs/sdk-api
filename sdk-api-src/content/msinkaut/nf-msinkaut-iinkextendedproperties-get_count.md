@@ -7,7 +7,7 @@ old-location: tablet\iinkextendedproperties_count.htm
 old-project: tablet
 ms.assetid: 8b75ba1a-ab31-4d54-b997-86dd3445fd79
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: Count property [Tablet PC], Count property [Tablet PC], IInkExtendedProperties interface, IInkExtendedProperties, IInkExtendedProperties interface [Tablet PC], Count property, IInkExtendedProperties.Count, IInkExtendedProperties.get_Count, IInkExtendedProperties::get_Count, get_Count,IInkExtendedProperties.get_Count, msinkaut/IInkExtendedProperties::Count, msinkaut/IInkExtendedProperties::get_Count, tablet.iinkextendedproperties_count
 ms.prod: windows-hardware
 ms.technology: windows-devices

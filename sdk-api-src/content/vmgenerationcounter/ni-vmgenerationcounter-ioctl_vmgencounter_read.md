@@ -7,7 +7,7 @@ old-location: hyperv\ioctl_vmgencounter_read.htm
 old-project: HyperV_v2
 ms.assetid: D8945F17-8982-4694-BDD9-DD67963626D1
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/24/2018
 ms.keywords: IOCTL_VMGENCOUNTER_READ, IOCTL_VMGENCOUNTER_READ control code, hyperv.ioctl_vmgencounter_read, vmgenerationcounter/IOCTL_VMGENCOUNTER_READ
 ms.prod: windows-hardware
 ms.technology: windows-devices

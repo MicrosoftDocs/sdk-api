@@ -7,7 +7,7 @@ old-location: com\ioleobject_setcolorscheme.htm
 old-project: com
 ms.assetid: 655ba4ea-941d-4389-9ee8-756dfa3c5448
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IOleObject, IOleObject interface [COM], SetColorScheme method, IOleObject::SetColorScheme, SetColorScheme method [COM], SetColorScheme method [COM], IOleObject interface, SetColorScheme,IOleObject.SetColorScheme, _ole_ioleobject_setcolorscheme, com.ioleobject_setcolorscheme, oleidl/IOleObject::SetColorScheme
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IOleObject::SetColorScheme method

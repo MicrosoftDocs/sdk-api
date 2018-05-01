@@ -7,7 +7,7 @@ old-location: cos\idispenserdriver_enlistresource.htm
 old-project: cossdk
 ms.assetid: 87a8b7f4-edf3-4ab5-b75a-f8fda1f4975a
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: EnlistResource method [COM+], EnlistResource method [COM+], IDispenserDriver interface, EnlistResource,IDispenserDriver.EnlistResource, IDispenserDriver, IDispenserDriver interface [COM+], EnlistResource method, IDispenserDriver::EnlistResource, _dtc_IDispenserDriver_EnlistResource, comsvcs/IDispenserDriver::EnlistResource, cos.idispenserdriver_enlistresource
 ms.prod: windows-hardware
 ms.technology: windows-devices

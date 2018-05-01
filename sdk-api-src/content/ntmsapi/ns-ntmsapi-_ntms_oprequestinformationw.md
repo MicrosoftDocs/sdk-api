@@ -7,7 +7,7 @@ old-location: fs\ntms_oprequestinformation.htm
 old-project: Rsm
 ms.assetid: d6ff9240-8f58-4f2e-9298-ff2f0193eeba
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/5/2018
 ms.keywords: NTMS_CHANGER, NTMS_DRIVE, NTMS_IEDOOR, NTMS_IEPORT., NTMS_LIBRARY, NTMS_OPREQUESTINFORMATION, NTMS_OPREQUESTINFORMATION structure [Files], NTMS_OPREQUESTINFORMATIONW, NTMS_OPREQ_CLEANER, NTMS_OPREQ_DEVICESERVICE, NTMS_OPREQ_MESSAGE, NTMS_OPREQ_MOVEMEDIA, NTMS_OPREQ_NEWMEDIA, NTMS_OPSTATE_ACTIVE, NTMS_OPSTATE_COMPLETE, NTMS_OPSTATE_INPROGRESS, NTMS_OPSTATE_REFUSED, NTMS_OPSTATE_SUBMITTED, NTMS_PARTITION, NTMS_PHYSICAL_MEDIA, NTMS_STORAGESLOT, NTMS_UNKNOWN, _NTMS_OPREQUESTINFORMATIONA, _NTMS_OPREQUESTINFORMATIONW, _zaw_ntms_oprequestinformation, base.ntms_oprequestinformation, fs.ntms_oprequestinformation, ntmsapi/NTMS_OPREQUESTINFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _NTMS_OPREQUESTINFORMATIONW structure

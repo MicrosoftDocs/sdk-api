@@ -7,7 +7,7 @@ old-location: shell\IFileDialog2_SetNavigationRoot.htm
 old-project: shell
 ms.assetid: 2ca6b5e7-5867-40f7-a949-e76815407005
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IFileDialog2, IFileDialog2 interface [Windows Shell], SetNavigationRoot method, IFileDialog2::SetNavigationRoot, SetNavigationRoot method [Windows Shell], SetNavigationRoot method [Windows Shell], IFileDialog2 interface, SetNavigationRoot,IFileDialog2.SetNavigationRoot, _shell_IFileDialog2_SetNavigationRoot, shell.IFileDialog2_SetNavigationRoot, shobjidl/IFileDialog2::SetNavigationRoot
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\IPersistSerializedPropStorage2_GetPropertyStorageBuffer.htm
 old-project: shell
 ms.assetid: a5f349e4-227e-4023-ab80-e8f9fb94dabf
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetPropertyStorageBuffer method [Windows Shell], GetPropertyStorageBuffer method [Windows Shell], IPersistSerializedPropStorage2 interface, GetPropertyStorageBuffer,IPersistSerializedPropStorage2.GetPropertyStorageBuffer, IPersistSerializedPropStorage2, IPersistSerializedPropStorage2 interface [Windows Shell], GetPropertyStorageBuffer method, IPersistSerializedPropStorage2::GetPropertyStorageBuffer, _shell_IPersistSerializedPropStorage2_GetPropertyStorageBuffer, propsys/IPersistSerializedPropStorage2::GetPropertyStorageBuffer, shell.IPersistSerializedPropStorage2_GetPropertyStorageBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IPersistSerializedPropStorage2::GetPropertyStorageBuffer method

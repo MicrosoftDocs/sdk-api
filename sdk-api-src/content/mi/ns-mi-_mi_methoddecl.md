@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_methoddecl.htm
 old-project: wmi_v2
 ms.assetid: 50087394-44C2-4CE5-8952-9795FE9B236A
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/18/2018
 ms.keywords: MI_FLAG_METHOD, MI_FLAG_STATIC, MI_MethodDecl, MI_MethodDecl structure [Windows Management Infrastructure (MI)], _MI_MethodDecl, mi/MI_MethodDecl, wmi_v2.mi_methoddecl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,36 +58,6 @@ Represents a CIM method.
 
 
 
-### -field _MI_Qualifier
-
- 
-
-
-### -field qualifiers
-
-The qualifiers of the method.
-
-
-### -field _MI_ParameterDecl
-
- 
-
-
-### -field parameters
-
-The parameters of the method.
-
-
-### -field _MI_SchemaDecl
-
- 
-
-
-### -field schema
-
-The schema this class belongs to.
-
-
 ### -field flags
 
 Flags:
@@ -115,9 +85,29 @@ Hash code: <code>(name[0] &lt;&lt; 16) | (name[len-1] &lt;&lt; 8) | len</code>
 The method name.
 
 
+### -field qualifiers
+
+The qualifiers of the method.
+
+
+### -field _MI_Qualifier
+
+ 
+
+
 ### -field numQualifiers
 
 The number of qualifiers.
+
+
+### -field parameters
+
+The parameters of the method.
+
+
+### -field _MI_ParameterDecl
+
+ 
 
 
 ### -field numParameters
@@ -143,6 +133,16 @@ The ancestor class that first defined a method with this name.
 ### -field propagator
 
 The ancestor class that last defined a method with this name.
+
+
+### -field schema
+
+The schema this class belongs to.
+
+
+### -field _MI_SchemaDecl
+
+ 
 
 
 ### -field function

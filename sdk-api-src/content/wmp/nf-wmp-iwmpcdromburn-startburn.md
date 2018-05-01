@@ -7,7 +7,7 @@ old-location: wmp\iwmpcdromburn_startburn.htm
 old-project: WMP
 ms.assetid: 35357dca-4093-4c83-9cc9-f0dee1241e76
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPCdromBurn, IWMPCdromBurn interface [Windows Media Player], startBurn method, IWMPCdromBurn::startBurn, IWMPCdromBurnstartBurn, startBurn method [Windows Media Player], startBurn method [Windows Media Player], IWMPCdromBurn interface, startBurn,IWMPCdromBurn.startBurn, wmp.iwmpcdromburn_startburn, wmp/IWMPCdromBurn::startBurn
 ms.prod: windows-hardware
 ms.technology: windows-devices

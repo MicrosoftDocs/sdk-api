@@ -7,7 +7,7 @@ old-location: security\iazscope_deletepolicyadministratorname.htm
 old-project: SecAuthZ
 ms.assetid: 6314e1d5-e5ea-42c4-9457-dad5d6f57897
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: AzScope object [Security], DeletePolicyAdministratorName method, DeletePolicyAdministratorName method [Security], DeletePolicyAdministratorName method [Security], AzScope object, DeletePolicyAdministratorName method [Security], IAzScope interface, DeletePolicyAdministratorName,IAzScope.DeletePolicyAdministratorName, IAzScope, IAzScope interface [Security], DeletePolicyAdministratorName method, IAzScope::DeletePolicyAdministratorName, azroles/IAzScope::DeletePolicyAdministratorName, security.iazscope_deletepolicyadministratorname
 ms.prod: windows-hardware
 ms.technology: windows-devices

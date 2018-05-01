@@ -7,7 +7,7 @@ old-location: security\itpmvirtualsmartcardmanagerstatuscallback_reportprogress.
 old-project: SecAuthN
 ms.assetid: E20CF68F-0DFB-48E4-9B68-83A8E8763424
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/24/2018
 ms.keywords: ITpmVirtualSmartCardManagerStatusCallback, ITpmVirtualSmartCardManagerStatusCallback interface [Security], ReportProgress method, ITpmVirtualSmartCardManagerStatusCallback::ReportProgress, ReportProgress method [Security], ReportProgress method [Security], ITpmVirtualSmartCardManagerStatusCallback interface, ReportProgress,ITpmVirtualSmartCardManagerStatusCallback.ReportProgress, security.itpmvirtualsmartcardmanagerstatuscallback_reportprogress, tpmvscmgr/ITpmVirtualSmartCardManagerStatusCallback::ReportProgress
 ms.prod: windows-hardware
 ms.technology: windows-devices

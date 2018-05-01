@@ -7,7 +7,7 @@ old-location: wmp\iwmpcore_get_status.htm
 old-project: WMP
 ms.assetid: ee11cb36-4dd2-4fe4-84fd-b3fc11b13ae0
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPCore, IWMPCore interface [Windows Media Player], get_status method, IWMPCore::get_status, IWMPCoreget_status, get_status method [Windows Media Player], get_status method [Windows Media Player], IWMPCore interface, get_status,IWMPCore.get_status, wmp.iwmpcore_get_status, wmp/IWMPCore::get_status
 ms.prod: windows-hardware
 ms.technology: windows-devices

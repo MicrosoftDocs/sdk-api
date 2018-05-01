@@ -7,7 +7,7 @@ old-location: mf\imfmediaengine_getstarttime.htm
 old-project: medfound
 ms.assetid: 18793EC9-D04A-443F-8469-44CC00C4EE27
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetStartTime method [Media Foundation], GetStartTime method [Media Foundation], IMFMediaEngine interface, GetStartTime,IMFMediaEngine.GetStartTime, IMFMediaEngine, IMFMediaEngine interface [Media Foundation], GetStartTime method, IMFMediaEngine::GetStartTime, mf.imfmediaengine_getstarttime, mfmediaengine/IMFMediaEngine::GetStartTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

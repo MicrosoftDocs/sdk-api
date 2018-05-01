@@ -7,7 +7,7 @@ old-location: cos\iholder_trackresources.htm
 old-project: cossdk
 ms.assetid: 1971820f-49aa-455d-a533-1a88fd8c28b8
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: IHolder, IHolder interface [COM+], TrackResourceS method, IHolder::TrackResourceS, TrackResourceS method [COM+], TrackResourceS method [COM+], IHolder interface, TrackResourceS,IHolder.TrackResourceS, _dtc_IHolder_TrackResourceS, comsvcs/IHolder::TrackResourceS, cos.iholder_trackresources
 ms.prod: windows-hardware
 ms.technology: windows-devices

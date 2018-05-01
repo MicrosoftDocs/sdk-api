@@ -7,7 +7,7 @@ old-location: dshow\iamextdevice_get_externaldeviceid.htm
 old-project: DirectShow
 ms.assetid: 2217b0b1-3663-438b-8951-d2d1d8404e9c
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMExtDevice, IAMExtDevice interface [DirectShow], get_ExternalDeviceID method, IAMExtDevice::get_ExternalDeviceID, IAMExtDeviceget_ExternalDeviceID, dshow.iamextdevice_get_externaldeviceid, get_ExternalDeviceID method [DirectShow], get_ExternalDeviceID method [DirectShow], IAMExtDevice interface, get_ExternalDeviceID,IAMExtDevice.get_ExternalDeviceID, strmif/IAMExtDevice::get_ExternalDeviceID
 ms.prod: windows-hardware
 ms.technology: windows-devices

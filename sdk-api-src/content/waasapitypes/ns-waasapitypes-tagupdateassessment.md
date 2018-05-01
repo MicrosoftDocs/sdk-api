@@ -7,7 +7,7 @@ old-location: base\updateassessment.htm
 old-project: SysInfo
 ms.assetid: BD456DF6-4A29-41B4-8EB4-8F29910981E7
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: UpdateAssessment, UpdateAssessment structure, base.updateassessment, tagUpdateAssessment, waasapitypes/UpdateAssessment
 ms.prod: windows-hardware
 ms.technology: windows-devices

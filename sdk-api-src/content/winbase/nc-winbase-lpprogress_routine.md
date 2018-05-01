@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: WIAVIDEO_STATE
+req.typenames: WIA_PROPID_TO_NAME, *PWIA_PROPID_TO_NAME
 topic_type:
 -	APIRef
 -	kbSyntax

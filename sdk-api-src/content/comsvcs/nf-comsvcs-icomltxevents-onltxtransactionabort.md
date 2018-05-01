@@ -7,7 +7,7 @@ old-location: cos\icomltxevents_onltxtransactionabort.htm
 old-project: cossdk
 ms.assetid: 49117b74-e84b-497c-ae13-6037e8243e79
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: IComLTxEvents, IComLTxEvents interface [COM+], OnLtxTransactionAbort method, IComLTxEvents::OnLtxTransactionAbort, OnLtxTransactionAbort method [COM+], OnLtxTransactionAbort method [COM+], IComLTxEvents interface, OnLtxTransactionAbort,IComLTxEvents.OnLtxTransactionAbort, comsvcs/IComLTxEvents::OnLtxTransactionAbort, cos.icomltxevents_onltxtransactionabort
 ms.prod: windows-hardware
 ms.technology: windows-devices

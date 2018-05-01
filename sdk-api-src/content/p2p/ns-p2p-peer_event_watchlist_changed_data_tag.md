@@ -7,7 +7,7 @@ old-location: p2p\peer_event_watchlist_changed_data.htm
 old-project: P2PSdk
 ms.assetid: 9d4af44c-c03f-4d9f-9b36-c04513a18133
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/23/2018
 ms.keywords: "*PPEER_EVENT_WATCHLIST_CHANGED_DATA, PEER_EVENT_WATCHLIST_CHANGED_DATA, PEER_EVENT_WATCHLIST_CHANGED_DATA structure [Peer Networking], PPEER_EVENT_WATCHLIST_CHANGED_DATA, PPEER_EVENT_WATCHLIST_CHANGED_DATA structure pointer [Peer Networking], p2p.peer_event_watchlist_changed_data, p2p/PEER_EVENT_WATCHLIST_CHANGED_DATA, p2p/PPEER_EVENT_WATCHLIST_CHANGED_DATA, peer_event_watchlist_changed_data_tag"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # peer_event_watchlist_changed_data_tag structure

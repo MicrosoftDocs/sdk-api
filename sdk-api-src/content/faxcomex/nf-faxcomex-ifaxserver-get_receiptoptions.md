@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxserver_receiptoptions_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_9gxf_cpp.htm
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/18/2018
 ms.keywords: IFaxServer, IFaxServer interface [Fax Service], ReceiptOptions property, IFaxServer.ReceiptOptions, IFaxServer::get_ReceiptOptions, ReceiptOptions property [Fax Service], ReceiptOptions property [Fax Service], IFaxServer interface, _mfax_faxserver.receiptoptions_cpp, fax._mfax_faxserver_receiptoptions_cpp, faxcomex/IFaxServer::ReceiptOptions, faxcomex/IFaxServer::get_ReceiptOptions, get_ReceiptOptions,IFaxServer.get_ReceiptOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices

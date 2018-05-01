@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: TRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT, *PTRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT
+req.typenames: L2_NOTIFICATION_DATA, *PL2_NOTIFICATION_DATA
 topic_type:
 -	APIRef
 -	kbSyntax

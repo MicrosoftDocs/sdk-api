@@ -7,7 +7,7 @@ old-location: properties\IPropertyStoreFactory_GetPropertyStoreForKeys.htm
 old-project: properties
 ms.assetid: ce17a245-46ff-412a-a807-6bc67b826c2f
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/5/2018
 ms.keywords: GetPropertyStoreForKeys method [Windows Properties], GetPropertyStoreForKeys method [Windows Properties], IPropertyStoreFactory interface, GetPropertyStoreForKeys,IPropertyStoreFactory.GetPropertyStoreForKeys, IPropertyStoreFactory, IPropertyStoreFactory interface [Windows Properties], GetPropertyStoreForKeys method, IPropertyStoreFactory::GetPropertyStoreForKeys, _shell_IPropertyStoreFactory_GetPropertyStoreForKeys, properties.IPropertyStoreFactory_GetPropertyStoreForKeys, propsys/IPropertyStoreFactory::GetPropertyStoreForKeys, shell.IPropertyStoreFactory_GetPropertyStoreForKeys
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IPropertyStoreFactory::GetPropertyStoreForKeys method

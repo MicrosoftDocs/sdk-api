@@ -7,7 +7,7 @@ old-location: tablet\irealtimestylus_getstyluses.htm
 old-project: tablet
 ms.assetid: 1e838591-ce9e-4f3f-9b5e-b8414faac6ba
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: 1e838591-ce9e-4f3f-9b5e-b8414faac6ba, GetStyluses method [Tablet PC], GetStyluses method [Tablet PC], IRealTimeStylus interface, GetStyluses,IRealTimeStylus.GetStyluses, IRealTimeStylus, IRealTimeStylus interface [Tablet PC], GetStyluses method, IRealTimeStylus::GetStyluses, rtscom/IRealTimeStylus::GetStyluses, tablet.irealtimestylus_getstyluses
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: RTSCom.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IRealTimeStylus::GetStyluses method

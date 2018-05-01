@@ -7,7 +7,7 @@ old-location: mstv\imsvidplayback_get_canstep.htm
 old-project: mstv
 ms.assetid: 41aad247-1f04-4245-89df-8ac527926307
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidPlayback, IMSVidPlayback interface [Microsoft TV Technologies], get_CanStep method, IMSVidPlayback::get_CanStep, IMSVidPlaybackget_CanStep, get_CanStep method [Microsoft TV Technologies], get_CanStep method [Microsoft TV Technologies], IMSVidPlayback interface, get_CanStep,IMSVidPlayback.get_CanStep, mstv.imsvidplayback_get_canstep, segment/IMSVidPlayback::get_CanStep
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidPlayback::get_CanStep method

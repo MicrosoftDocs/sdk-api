@@ -7,7 +7,7 @@ old-location: fwp\fwpm_net_event1.htm
 old-project: FWP
 ms.assetid: 0f989f66-8373-4546-ade3-8b337c4507e2
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: FWPM_NET_EVENT1, FWPM_NET_EVENT1 structure [Filtering], FWPM_NET_EVENT1_, fwp.fwpm_net_event1, fwpmtypes/FWPM_NET_EVENT1
 ms.prod: windows-hardware
 ms.technology: windows-devices

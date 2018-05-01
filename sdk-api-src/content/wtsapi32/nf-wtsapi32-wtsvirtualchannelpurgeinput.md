@@ -7,7 +7,7 @@ old-location: termserv\wtsvirtualchannelpurgeinput.htm
 old-project: TermServ
 ms.assetid: ec8ee90d-0871-466c-8da3-04813319216a
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: WTSVirtualChannelPurgeInput, WTSVirtualChannelPurgeInput function [Remote Desktop Services], _win32_wtsvirtualchannelpurgeinput, termserv.wtsvirtualchannelpurgeinput, wtsapi32/WTSVirtualChannelPurgeInput
 ms.prod: windows-hardware
 ms.technology: windows-devices

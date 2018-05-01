@@ -7,7 +7,7 @@ old-location: shell\IShellImageData_IsVector.htm
 old-project: shell
 ms.assetid: a4099bc4-c831-4a4e-a3f6-932570dc8029
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IShellImageData, IShellImageData interface [Windows Shell], IsVector method, IShellImageData::IsVector, IsVector method [Windows Shell], IsVector method [Windows Shell], IShellImageData interface, IsVector,IShellImageData.IsVector, _shell_IShellImageData_IsVector, shell.IShellImageData_IsVector, shimgdata/IShellImageData::IsVector
 ms.prod: windows-hardware
 ms.technology: windows-devices

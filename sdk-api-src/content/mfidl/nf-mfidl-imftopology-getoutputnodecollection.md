@@ -7,7 +7,7 @@ old-location: mf\imftopology_getoutputnodecollection.htm
 old-project: medfound
 ms.assetid: 0862cd4a-4d22-4d8d-a754-0cd376d44b22
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 0862cd4a-4d22-4d8d-a754-0cd376d44b22, GetOutputNodeCollection method [Media Foundation], GetOutputNodeCollection method [Media Foundation], IMFTopology interface, GetOutputNodeCollection,IMFTopology.GetOutputNodeCollection, IMFTopology, IMFTopology interface [Media Foundation], GetOutputNodeCollection method, IMFTopology::GetOutputNodeCollection, mf.imftopology_getoutputnodecollection, mfidl/IMFTopology::GetOutputNodeCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices

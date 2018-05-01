@@ -7,7 +7,7 @@ old-location: fsrm\fsrmpropertydefinitiontype.htm
 old-project: Fsrm
 ms.assetid: 618335a2-2b37-43e2-adaa-2a6d06464627
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: FsrmPropertyDefinitionType, FsrmPropertyDefinitionType enumeration [File Server Resource Manager], FsrmPropertyDefinitionType_Bool, FsrmPropertyDefinitionType_Date, FsrmPropertyDefinitionType_Int, FsrmPropertyDefinitionType_MultiChoiceList, FsrmPropertyDefinitionType_MultiString, FsrmPropertyDefinitionType_OrderedList, FsrmPropertyDefinitionType_SingleChoiceList, FsrmPropertyDefinitionType_String, FsrmPropertyDefinitionType_Unknown, _FsrmPropertyDefinitionType, fs.fsrmpropertydefinitiontype, fsrm.fsrmpropertydefinitiontype, fsrmenums/FsrmPropertyDefinitionType, fsrmenums/FsrmPropertyDefinitionType_Bool, fsrmenums/FsrmPropertyDefinitionType_Date, fsrmenums/FsrmPropertyDefinitionType_Int, fsrmenums/FsrmPropertyDefinitionType_MultiChoiceList, fsrmenums/FsrmPropertyDefinitionType_MultiString, fsrmenums/FsrmPropertyDefinitionType_OrderedList, fsrmenums/FsrmPropertyDefinitionType_SingleChoiceList, fsrmenums/FsrmPropertyDefinitionType_String, fsrmenums/FsrmPropertyDefinitionType_Unknown
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,14 +1,14 @@
 ---
 UID: NS:windns.__unnamed_struct_28
-title: DNS_NXT_DATAA
+title: DNS_NXT_DATAW
 author: windows-driver-content
 description: The DNS_NXT_DATA structure represents a DNS next (NXT) resource record (RR) as specified in section 5 of RFC 2535.
 old-location: dns\dns_nxt_data.htm
 old-project: DNS
 ms.assetid: 0e5370c2-30d3-4bb7-85a0-f4412f5572fd
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
-ms.keywords: "*PDNS_NXT_DATA, *PDNS_NXT_DATAA, DNS_NXT_DATA, DNS_NXT_DATA structure [DNS], DNS_NXT_DATAA, PDNS_NXT_DATA, PDNS_NXT_DATA structure pointer [DNS], _dns_dns_nxt_data, dns.dns_nxt_data, windns/DNS_NXT_DATA, windns/PDNS_NXT_DATA"
+ms.date: 4/18/2018
+ms.keywords: "*PDNS_NXT_DATA, *PDNS_NXT_DATAW, DNS_NXT_DATA, DNS_NXT_DATA structure [DNS], DNS_NXT_DATAW, PDNS_NXT_DATA, PDNS_NXT_DATA structure pointer [DNS], _dns_dns_nxt_data, dns.dns_nxt_data, windns/DNS_NXT_DATA, windns/PDNS_NXT_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: DNS_NXT_DATAA, *PDNS_NXT_DATAA
+req.typenames: DNS_NXT_DATAW, *PDNS_NXT_DATAW
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# DNS_NXT_DATAA structure
+# DNS_NXT_DATAW structure
 
 
 ## -description

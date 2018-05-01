@@ -7,7 +7,7 @@ old-location: netbios\find_name_header.htm
 old-project: NetBIOS
 ms.assetid: 66b0cf77-3c25-4b00-9e9b-abc0442e3831
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: "*PFIND_NAME_HEADER, FIND_NAME_HEADER, FIND_NAME_HEADER structure [NetBIOS], PFIND_NAME_HEADER, PFIND_NAME_HEADER structure pointer [NetBIOS], _FIND_NAME_HEADER, nb30/FIND_NAME_HEADER, nb30/PFIND_NAME_HEADER, netbios.find_name_header"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _FIND_NAME_HEADER structure

@@ -7,7 +7,7 @@ old-location: mstv\impeg2componenttype_put_streamtype.htm
 old-project: mstv
 ms.assetid: 5dbfacf3-87e2-48d4-add9-6da68c56af82
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMPEG2ComponentType, IMPEG2ComponentType interface [Microsoft TV Technologies], put_StreamType method, IMPEG2ComponentType::put_StreamType, IMPEG2ComponentTypeput_StreamType, mstv.impeg2componenttype_put_streamtype, put_StreamType method [Microsoft TV Technologies], put_StreamType method [Microsoft TV Technologies], IMPEG2ComponentType interface, put_StreamType,IMPEG2ComponentType.put_StreamType, tuner/IMPEG2ComponentType::put_StreamType
 ms.prod: windows-hardware
 ms.technology: windows-devices

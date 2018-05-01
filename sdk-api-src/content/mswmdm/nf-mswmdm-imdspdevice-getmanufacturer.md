@@ -7,7 +7,7 @@ old-location: wmdm\imdspdevice_getmanufacturer.htm
 old-project: WMDM
 ms.assetid: 5dc5abe8-f43b-4cff-baa1-cef9e2c1a7a4
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: GetManufacturer method [windows Media Device Manager], GetManufacturer method [windows Media Device Manager], IMDSPDevice interface, GetManufacturer,IMDSPDevice.GetManufacturer, IMDSPDevice, IMDSPDevice interface [windows Media Device Manager], GetManufacturer method, IMDSPDevice::GetManufacturer, IMDSPDeviceGetManufacturer, mswmdm/IMDSPDevice::GetManufacturer, wmdm.imdspdevice_getmanufacturer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMDSPDevice::GetManufacturer method

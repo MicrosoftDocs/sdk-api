@@ -7,7 +7,7 @@ old-location: direct2d\id2d1rendertarget_createlineargradientbrush.htm
 old-project: Direct2D
 ms.assetid: dc07113f-ff93-4b0f-8328-02dd481dccb0
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: CreateLinearGradientBrush, CreateLinearGradientBrush methods [Direct2D], d2d1/CreateLinearGradientBrush, direct2d.id2d1rendertarget_createlineargradientbrush
 ms.prod: windows-hardware
 ms.technology: windows-devices

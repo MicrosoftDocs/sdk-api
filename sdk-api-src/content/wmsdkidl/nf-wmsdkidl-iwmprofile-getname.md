@@ -7,7 +7,7 @@ old-location: wmformat\iwmprofile_getname.htm
 old-project: wmformat
 ms.assetid: c5993e47-842d-4392-9b54-2bf6f09c377c
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: GetName method [windows Media Format], GetName method [windows Media Format], IWMProfile interface, GetName method [windows Media Format], IWMProfile2 interface, GetName method [windows Media Format], IWMProfile3 interface, GetName,IWMProfile.GetName, IWMProfile, IWMProfile interface [windows Media Format], GetName method, IWMProfile2 interface [windows Media Format], GetName method, IWMProfile2::GetName, IWMProfile3 interface [windows Media Format], GetName method, IWMProfile3::GetName, IWMProfile::GetName, IWMProfileGetName, wmformat.iwmprofile_getname, wmsdkidl/IWMProfile2::GetName, wmsdkidl/IWMProfile3::GetName, wmsdkidl/IWMProfile::GetName
 ms.prod: windows-hardware
 ms.technology: windows-devices

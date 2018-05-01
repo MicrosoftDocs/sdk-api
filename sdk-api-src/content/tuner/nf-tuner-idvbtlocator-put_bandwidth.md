@@ -7,7 +7,7 @@ old-location: mstv\idvbtlocator_put_bandwidth.htm
 old-project: mstv
 ms.assetid: a842e905-cd4a-4d62-a9da-153832e44382
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IDVBTLocator, IDVBTLocator interface [Microsoft TV Technologies], put_Bandwidth method, IDVBTLocator::put_Bandwidth, IDVBTLocatorput_Bandwidth, mstv.idvbtlocator_put_bandwidth, put_Bandwidth method [Microsoft TV Technologies], put_Bandwidth method [Microsoft TV Technologies], IDVBTLocator interface, put_Bandwidth,IDVBTLocator.put_Bandwidth, tuner/IDVBTLocator::put_Bandwidth
 ms.prod: windows-hardware
 ms.technology: windows-devices

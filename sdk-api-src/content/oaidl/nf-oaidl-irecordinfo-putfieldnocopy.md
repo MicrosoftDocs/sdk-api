@@ -7,7 +7,7 @@ old-location: automat\irecordinfo_putfieldnocopy.htm
 old-project: automat
 ms.assetid: 9e3c4189-46fa-4c21-abbd-35fdd5df058d
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: IRecordInfo, IRecordInfo interface [Automation], PutFieldNoCopy method, IRecordInfo::PutFieldNoCopy, PutFieldNoCopy method [Automation], PutFieldNoCopy method [Automation], IRecordInfo interface, PutFieldNoCopy,IRecordInfo.PutFieldNoCopy, _oa96_IRecordInfo_PutFieldNoCopy, automat.irecordinfo_putfieldnocopy, oaidl/IRecordInfo::PutFieldNoCopy
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IRecordInfo::PutFieldNoCopy method

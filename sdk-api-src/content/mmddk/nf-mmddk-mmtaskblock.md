@@ -7,7 +7,7 @@ old-location: multimedia\mmtaskblock.htm
 old-project: Multimedia
 ms.assetid: eaa3fcb3-85ee-4ae7-98c6-7873ef587241
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/25/2018
 ms.keywords: mmTaskBlock, mmTaskBlock function [Windows Multimedia], mmddk/mmTaskBlock, multimedia.mmtaskblock
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: WIN32_FIND_DATAW, *PWIN32_FIND_DATAW, *LPWIN32_FIND_DATAW
+req.typenames: "_ColumnSortOrder, COLUMNSORTORDER"
 topic_type:
 -	APIRef
 -	kbSyntax

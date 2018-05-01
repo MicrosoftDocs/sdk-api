@@ -7,7 +7,7 @@ old-location: tapi3\itdirectoryobjectconference_get_advertisingscope.htm
 old-project: Tapi
 ms.assetid: 25e155ad-c809-4ff4-85cb-ca43cb203368
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: ITDirectoryObjectConference, ITDirectoryObjectConference interface [TAPI 2.2], get_AdvertisingScope method, ITDirectoryObjectConference::get_AdvertisingScope, _tapi3_itdirectoryobjectconference_get_advertisingscope, get_AdvertisingScope method [TAPI 2.2], get_AdvertisingScope method [TAPI 2.2], ITDirectoryObjectConference interface, get_AdvertisingScope,ITDirectoryObjectConference.get_AdvertisingScope, rend/ITDirectoryObjectConference::get_AdvertisingScope, tapi3.itdirectoryobjectconference_get_advertisingscope
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Rend.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITDirectoryObjectConference::get_AdvertisingScope method

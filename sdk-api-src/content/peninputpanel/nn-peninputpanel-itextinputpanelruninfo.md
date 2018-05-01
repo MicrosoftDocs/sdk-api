@@ -7,7 +7,7 @@ old-location: tablet\itextinputpanelruninfo.htm
 old-project: tablet
 ms.assetid: 9269a94f-c33f-4e25-bab8-be68e6ead63f
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: 9269a94f-c33f-4e25-bab8-be68e6ead63f, ITextInputPanelRunInfo, ITextInputPanelRunInfo interface [Tablet PC], ITextInputPanelRunInfo interface [Tablet PC], described, peninputpanel/ITextInputPanelRunInfo, tablet.itextinputpanelruninfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Tiptsf.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITextInputPanelRunInfo interface

@@ -1,0 +1,118 @@
+---
+UID: NF:winddi.EngQueryDeviceAttribute
+title: EngQueryDeviceAttribute function
+author: windows-driver-content
+description: The EngQueryDeviceAttribute function allows the driver to query the system about particular attributes of the device.
+old-location: display\engquerydeviceattribute.htm
+old-project: display
+ms.assetid: 767d0d78-c17f-461b-8ca6-04a00dc456de
+ms.author: windowsdriverdev
+ms.date: 4/16/2018
+ms.keywords: EngQueryDeviceAttribute, EngQueryDeviceAttribute function [Display Devices], display.engquerydeviceattribute, gdifncs_1f76b3e8-f265-4959-a7f0-4bc433936be7.xml, winddi/EngQueryDeviceAttribute
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: winddi.h
+req.include-header: Winddi.h
+req.target-type: Universal
+req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Win32k.sys
+api_name:
+-	EngQueryDeviceAttribute
+product: Windows
+targetos: Windows
+req.lib: Win32k.lib
+req.dll: Win32k.sys
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# EngQueryDeviceAttribute function
+
+
+## -description
+
+
+The <b>EngQueryDeviceAttribute</b> function allows the driver to query the system about particular attributes of the device.
+
+
+## -parameters
+
+
+
+
+### -param hdev [in]
+
+Handle to the device. This parameter is the GDI handle received by the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff556181">DrvCompletePDEV</a> function.
+
+
+### -param devAttr [in]
+
+Specifies the attribute for which GDI should return information. This parameter must be QDA_ACCELERATION_LEVEL, which queries the driver accelerations that GDI currently allows.
+
+
+### -param pvIn [in]
+
+Reserved for system use. This parameter is currently ignored by GDI.
+
+
+### -param ulInSize [in]
+
+Reserved for system use. This parameter is currently ignored by GDI.
+
+
+### -param pvOut [out]
+
+Pointer to a buffer of <i>ulOutSize</i> bytes in which GDI writes information about the attribute being queried. When <i>devAttr</i> is QDA_ACCELERATION_LEVEL, GDI writes in the buffer a DWORD value from 0 through 5 that indicates the current acceleration level. See <a href="https://msdn.microsoft.com/b351540d-3459-4ef7-8ab9-8aaebc0c15a9">Display Driver Testing Tools</a> for a description of the acceleration levels.
+
+
+### -param ulOutSize [out]
+
+Specifies the size, in bytes, of the buffer to which <i>pvOut</i> points.
+
+
+## -returns
+
+
+
+<b>EngQueryDeviceAttribute</b> returns <b>TRUE</b> upon success; otherwise, it returns <b>FALSE</b>.
+
+
+
+
+## -remarks
+
+
+
+The video card's acceleration level can be dynamically set through the Display program in Control Panel. <b>EngQueryDeviceAttribute</b> allows the driver to determine the acceleration level currently set.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556252">DrvNotify</a>
+ 
+
+ 
+

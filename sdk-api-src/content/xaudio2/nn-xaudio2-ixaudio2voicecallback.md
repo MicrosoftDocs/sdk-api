@@ -7,7 +7,7 @@ old-location: xaudio2\ixaudio2voicecallback.htm
 old-project: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.ixaudio2voicecallback.IXAudio2VoiceCallback
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/20/2018
 ms.keywords: IXAudio2VoiceCallback, IXAudio2VoiceCallback interface [XAudio2 Audio Mixing APIs], IXAudio2VoiceCallback interface [XAudio2 Audio Mixing APIs], described, xaudio2.ixaudio2voicecallback, xaudio2/IXAudio2VoiceCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

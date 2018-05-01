@@ -7,7 +7,7 @@ old-location: com\connectdata.htm
 old-project: com
 ms.assetid: 23312f89-2985-402d-aae4-cd7388137153
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*LPCONNECTDATA, *PCONNECTDATA, CONNECTDATA, CONNECTDATA structure [COM], LPCONNECTDATA, LPCONNECTDATA structure pointer [COM], PCONNECTDATA, PCONNECTDATA structure pointer [COM], _com_CONNECTDATA, com.connectdata, ocidl/CONNECTDATA, ocidl/LPCONNECTDATA, ocidl/PCONNECTDATA, tagCONNECTDATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # tagCONNECTDATA structure

@@ -7,7 +7,7 @@ old-location: nwifi\wlanopenhandle.htm
 old-project: NativeWiFi
 ms.assetid: 27bfa0c1-4443-47a4-a374-326f553fa3bb
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/13/2018
 ms.keywords: WlanOpenHandle, WlanOpenHandle function [NativeWIFI], nwifi.wlanopenhandle, wlanapi/WlanOpenHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

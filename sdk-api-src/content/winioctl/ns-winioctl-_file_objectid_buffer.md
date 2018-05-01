@@ -58,6 +58,12 @@ Contains an object identifier and user-defined metadata associated with the obje
 
 
 
+### -field ObjectId
+
+The identifier that uniquely identifies the file or directory within the volume on which it resides.
+					
+
+
 ### -field DUMMYUNIONNAME
 
  
@@ -81,12 +87,6 @@ The object identifier of the object at the time it was created. After copy opera
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.DomainId
 
 Reserved; must be zero.
-
-
-### -field ObjectId
-
-The identifier that uniquely identifies the file or directory within the volume on which it resides.
-					
 
 
 #### - ExtendedInfo

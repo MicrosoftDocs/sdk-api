@@ -7,7 +7,7 @@ old-location: base\getdefaultcommconfig.htm
 old-project: DevIO
 ms.assetid: 04bf5033-17c3-4403-8386-f3144e11423f
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/3/2018
 ms.keywords: GetDefaultCommConfig, GetDefaultCommConfig function, GetDefaultCommConfigA, GetDefaultCommConfigW, _win32_getdefaultcommconfig, base.getdefaultcommconfig, winbase/GetDefaultCommConfig, winbase/GetDefaultCommConfigA, winbase/GetDefaultCommConfigW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: iphlp\deleteanycastipaddressentry.htm
 old-project: IpHlp
 ms.assetid: 3d6b7c5c-97a8-4a1d-a4cd-7ccf1f585305
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 4/13/2018
 ms.keywords: DeleteAnycastIpAddressEntry, DeleteAnycastIpAddressEntry function [IP Helper], iphlp.deleteanycastipaddressentry, netioapi/DeleteAnycastIpAddressEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # DeleteAnycastIpAddressEntry function

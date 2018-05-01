@@ -7,7 +7,7 @@ old-location: wua\idownloadjob_requestabort.htm
 old-project: Wua_Sdk
 ms.assetid: 01f403c5-b73d-4366-8e9e-132f373a354f
 ms.author: windowsdriverdev
-ms.date: 3/15/2018
+ms.date: 4/18/2018
 ms.keywords: IDownloadJob, IDownloadJob interface [Windows Update Agent], RequestAbort method, IDownloadJob::RequestAbort, RequestAbort method [Windows Update Agent], RequestAbort method [Windows Update Agent], IDownloadJob interface, RequestAbort,IDownloadJob.RequestAbort, wua.idownloadjob_requestabort, wuapi/IDownloadJob::RequestAbort
 ms.prod: windows-hardware
 ms.technology: windows-devices

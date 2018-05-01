@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxserver_activity_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_2i9l_cpp.htm
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/18/2018
 ms.keywords: Activity property [Fax Service], Activity property [Fax Service], IFaxServer interface, IFaxServer, IFaxServer interface [Fax Service], Activity property, IFaxServer.Activity, IFaxServer::get_Activity, _mfax_faxserver.activity_cpp, fax._mfax_faxserver_activity_cpp, faxcomex/IFaxServer::Activity, faxcomex/IFaxServer::get_Activity, get_Activity,IFaxServer.get_Activity
 ms.prod: windows-hardware
 ms.technology: windows-devices

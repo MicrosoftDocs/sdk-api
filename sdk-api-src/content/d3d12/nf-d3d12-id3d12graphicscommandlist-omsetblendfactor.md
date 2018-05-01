@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist_omsetblendfactor.htm
 old-project: direct3d12
 ms.assetid: 344FD8B5-7225-4BEC-9D1F-C9CEDFE8C60F
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: ID3D12GraphicsCommandList, ID3D12GraphicsCommandList interface, OMSetBlendFactor method, ID3D12GraphicsCommandList::OMSetBlendFactor, OMSetBlendFactor method, OMSetBlendFactor method, ID3D12GraphicsCommandList interface, OMSetBlendFactor,ID3D12GraphicsCommandList.OMSetBlendFactor, d3d12/ID3D12GraphicsCommandList::OMSetBlendFactor, direct3d12.id3d12graphicscommandlist_omsetblendfactor
 ms.prod: windows-hardware
 ms.technology: windows-devices

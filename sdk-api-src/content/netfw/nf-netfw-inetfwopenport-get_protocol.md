@@ -7,7 +7,7 @@ old-location: ics\inetfwopenport_protocol.htm
 old-project: ICS
 ms.assetid: 775c3d29-89c7-4768-9476-2e56555fd82b
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: INetFwOpenPort, INetFwOpenPort interface [ICS/ICF], Protocol property, INetFwOpenPort.Protocol, INetFwOpenPort::get_Protocol, INetFwOpenPort::put_Protocol, Protocol property [ICS/ICF], Protocol property [ICS/ICF], INetFwOpenPort interface, get_Protocol,INetFwOpenPort.get_Protocol, ics.inetfwopenport_protocol, netfw/INetFwOpenPort::Protocol, netfw/INetFwOpenPort::get_Protocol, netfw/INetFwOpenPort::put_Protocol
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: 
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # INetFwOpenPort::get_Protocol method

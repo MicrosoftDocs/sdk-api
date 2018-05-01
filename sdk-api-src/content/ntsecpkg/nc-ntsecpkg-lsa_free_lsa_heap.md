@@ -7,7 +7,7 @@ old-location: security\freelsaheap.htm
 old-project: SecAuthN
 ms.assetid: bd461a23-2501-48c5-8f2f-c6c98383157f
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/24/2018
 ms.keywords: FreeLsaHeap, FreeLsaHeap function [Security], LSA_FREE_LSA_HEAP, _lsa_freelsaheap, ntsecpkg/FreeLsaHeap, security.freelsaheap
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # LSA_FREE_LSA_HEAP callback

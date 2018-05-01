@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxserver_getdeviceproviders_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_6xv7_cpp.htm
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/18/2018
 ms.keywords: GetDeviceProviders method [Fax Service], GetDeviceProviders method [Fax Service], IFaxServer interface, GetDeviceProviders,IFaxServer.GetDeviceProviders, IFaxServer, IFaxServer interface [Fax Service], GetDeviceProviders method, IFaxServer::GetDeviceProviders, _mfax_faxserver.getdeviceproviders_cpp, fax._mfax_faxserver_getdeviceproviders_cpp, faxcomex/IFaxServer::GetDeviceProviders
 ms.prod: windows-hardware
 ms.technology: windows-devices

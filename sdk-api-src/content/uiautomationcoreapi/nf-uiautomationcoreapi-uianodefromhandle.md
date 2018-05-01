@@ -7,7 +7,7 @@ old-location: winauto\uiauto_UiaNodeFromHandleFunction.htm
 old-project: WinAuto
 ms.assetid: 0a8c79e6-b825-40a1-b174-5428ab643514
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: UiaNodeFromHandle, UiaNodeFromHandle function [Windows Accessibility], uiauto.uiauto_UiaNodeFromHandleFunction, uiauto_UiaNodeFromHandleFunction, uiautomationcoreapi/UiaNodeFromHandle, winauto.uiauto_UiaNodeFromHandleFunction
 ms.prod: windows-hardware
 ms.technology: windows-devices

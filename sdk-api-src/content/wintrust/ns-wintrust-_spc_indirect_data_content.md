@@ -7,7 +7,7 @@ old-location: security\spc_indirect_data_content.htm
 old-project: SecCrypto
 ms.assetid: BD790CA5-9C51-4483-93C1-5492154BF913
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: "*PSPC_INDIRECT_DATA_CONTENT, PSPC_INDIRECT_DATA_CONTENT, PSPC_INDIRECT_DATA_CONTENT structure pointer [Security], SPC_INDIRECT_DATA_CONTENT, SPC_INDIRECT_DATA_CONTENT structure [Security], _SPC_INDIRECT_DATA_CONTENT, security.spc_indirect_data_content, wintrust/PSPC_INDIRECT_DATA_CONTENT, wintrust/SPC_INDIRECT_DATA_CONTENT"
 ms.prod: windows-hardware
 ms.technology: windows-devices

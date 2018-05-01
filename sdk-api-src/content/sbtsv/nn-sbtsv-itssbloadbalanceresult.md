@@ -7,7 +7,7 @@ old-location: termserv\itssbloadbalanceresult.htm
 old-project: TermServ
 ms.assetid: f19f006c-e74a-4f44-8be8-f71852d4c305
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: ITsSbLoadBalanceResult, ITsSbLoadBalanceResult interface [Remote Desktop Services], ITsSbLoadBalanceResult interface [Remote Desktop Services], described, sbtsv/ITsSbLoadBalanceResult, termserv.itssbloadbalanceresult
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITsSbLoadBalanceResult interface

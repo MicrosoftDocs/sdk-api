@@ -7,7 +7,7 @@ old-location: winauto\iaccpropservices_iaccpropservices__sethmenupropserver.htm
 old-project: WinAuto
 ms.assetid: 7bc91ee3-f0ea-43d5-a8b7-d1444c53cd14
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: IAccPropServices, IAccPropServices interface [Windows Accessibility], SetHmenuPropServer method, IAccPropServices::SetHmenuPropServer, SetHmenuPropServer method [Windows Accessibility], SetHmenuPropServer method [Windows Accessibility], IAccPropServices interface, SetHmenuPropServer,IAccPropServices.SetHmenuPropServer, oleacc/IAccPropServices::SetHmenuPropServer, winauto.iaccpropservices_iaccpropservices__sethmenupropserver
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Oleacc.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IAccPropServices::SetHmenuPropServer method

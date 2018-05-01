@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffectprimitive_transformrect.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectprimitive\transformrect.htm
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IMILBitmapEffectPrimitive, IMILBitmapEffectPrimitive interface [WPF Bitmap Effects], TransformRect method, IMILBitmapEffectPrimitive::TransformRect, TransformRect method [WPF Bitmap Effects], TransformRect method [WPF Bitmap Effects], IMILBitmapEffectPrimitive interface, TransformRect,IMILBitmapEffectPrimitive.TransformRect, _wibe_imilbitmapeffectprimitive_transformrect, mileffects/IMILBitmapEffectPrimitive::TransformRect, wibe._wibe_imilbitmapeffectprimitive_transformrect
 ms.prod: windows-hardware
 ms.technology: windows-devices

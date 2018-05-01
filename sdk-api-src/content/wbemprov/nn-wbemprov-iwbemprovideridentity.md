@@ -7,7 +7,7 @@ old-location: wmi\iwbemprovideridentity.htm
 old-project: WmiSdk
 ms.assetid: 872daa72-c6ff-4c6d-a870-c32e3688eb13
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: IWbemProviderIdentity, IWbemProviderIdentity interface [Windows Management Instrumentation], IWbemProviderIdentity interface [Windows Management Instrumentation], described, _hmm_iwbemprovideridentity, wbemprov/IWbemProviderIdentity, wmi.iwbemprovideridentity
 ms.prod: windows-hardware
 ms.technology: windows-devices

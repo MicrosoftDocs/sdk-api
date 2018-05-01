@@ -7,7 +7,7 @@ old-location: dshow\imediacontrol_run.htm
 old-project: DirectShow
 ms.assetid: b52a5fa7-96f8-4949-9cf0-2d526f23bee1
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IMediaControl, IMediaControl interface [DirectShow], Run method, IMediaControl::Run, IMediaControlRun, Run method [DirectShow], Run method [DirectShow], IMediaControl interface, Run,IMediaControl.Run, control/IMediaControl::Run, dshow.imediacontrol_run
 ms.prod: windows-hardware
 ms.technology: windows-devices

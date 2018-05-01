@@ -7,7 +7,7 @@ old-location: security\icenroll4_addattributetorequest.htm
 old-project: SecCrypto
 ms.assetid: a15fe06c-e2a5-4292-ad82-ea350e652a07
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: CEnroll object [Security], addAttributeToRequest method, ICEnroll4, ICEnroll4 interface [Security], addAttributeToRequest method, ICEnroll4::addAttributeToRequest, _xen_icenroll4_addattributetorequest, addAttributeToRequest method [Security], addAttributeToRequest method [Security], CEnroll object, addAttributeToRequest method [Security], ICEnroll4 interface, addAttributeToRequest,ICEnroll4.addAttributeToRequest, security.icenroll4_addattributetorequest, xenroll/ICEnroll4::addAttributeToRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices

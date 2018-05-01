@@ -7,7 +7,7 @@ old-location: winauto\uiauto_itexteditprovider.htm
 old-project: WinAuto
 ms.assetid: 6AA3F2A5-B34C-F7CB-13B3-6C62E2B67326
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: ITextEditProvider, ITextEditProvider interface [Windows Accessibility], ITextEditProvider interface [Windows Accessibility], described, uiautomationcore/ITextEditProvider, winauto.uiauto_itexteditprovider
 ms.prod: windows-hardware
 ms.technology: windows-devices

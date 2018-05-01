@@ -7,7 +7,7 @@ old-location: p2p\peer_connection_flags.htm
 old-project: P2PSdk
 ms.assetid: 24723421-18e4-4333-8c25-f5ee08182f7f
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/23/2018
 ms.keywords: PEER_CONNECTION_DIRECT, PEER_CONNECTION_FLAGS, PEER_CONNECTION_FLAGS enumeration [Peer Networking], PEER_CONNECTION_NEIGHBOR, p2p.peer_connection_flags, p2p/ PEER_CONNECTION_FLAGS, p2p/PEER_CONNECTION_DIRECT, p2p/PEER_CONNECTION_NEIGHBOR, peer_connection_flags_tag
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # peer_connection_flags_tag enumeration

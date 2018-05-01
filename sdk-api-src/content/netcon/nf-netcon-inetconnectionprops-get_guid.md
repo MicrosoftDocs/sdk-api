@@ -7,7 +7,7 @@ old-location: ics\inetconnectionprops_get_guid.htm
 old-project: ICS
 ms.assetid: df094bda-2e0f-4ff4-aff5-77d1703f8dee
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: INetConnectionProps, INetConnectionProps interface [ICS/ICF], get_Guid method, INetConnectionProps::get_Guid, _ics_inetconnectionprops_get_guid, get_Guid method [ICS/ICF], get_Guid method [ICS/ICF], INetConnectionProps interface, get_Guid,INetConnectionProps.get_Guid, ics.inetconnectionprops_get_guid, netcon/INetConnectionProps::get_Guid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # INetConnectionProps::get_Guid method

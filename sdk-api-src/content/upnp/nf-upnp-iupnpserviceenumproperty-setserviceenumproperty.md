@@ -7,7 +7,7 @@ old-location: upnp\iupnpserviceenumproperty_setserviceenumproperty.htm
 old-project: UPnP
 ms.assetid: B138A230-7523-4803-ACE8-4F636DD54D86
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/25/2018
 ms.keywords: IUPnPServiceEnumProperty, IUPnPServiceEnumProperty interface [UPnP APIs], SetServiceEnumProperty method, IUPnPServiceEnumProperty::SetServiceEnumProperty, SetServiceEnumProperty method [UPnP APIs], SetServiceEnumProperty method [UPnP APIs], IUPnPServiceEnumProperty interface, SetServiceEnumProperty,IUPnPServiceEnumProperty.SetServiceEnumProperty, upnp.iupnpserviceenumproperty_setserviceenumproperty, upnp/IUPnPServiceEnumProperty::SetServiceEnumProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

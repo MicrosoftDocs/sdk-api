@@ -7,7 +7,7 @@ old-location: wmi\iwbemunboundobjectsink_indicatetoconsumer.htm
 old-project: WmiSdk
 ms.assetid: 70fe9976-cfa9-442d-93a4-12293e80d1fa
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: IWbemUnboundObjectSink, IWbemUnboundObjectSink interface [Windows Management Instrumentation], IndicateToConsumer method, IWbemUnboundObjectSink::IndicateToConsumer, IndicateToConsumer method [Windows Management Instrumentation], IndicateToConsumer method [Windows Management Instrumentation], IWbemUnboundObjectSink interface, IndicateToConsumer,IWbemUnboundObjectSink.IndicateToConsumer, _hmm_iwbemunboundobjectsink_indicatetoconsumer, wbemprov/IWbemUnboundObjectSink::IndicateToConsumer, wmi.iwbemunboundobjectsink_indicatetoconsumer
 ms.prod: windows-hardware
 ms.technology: windows-devices

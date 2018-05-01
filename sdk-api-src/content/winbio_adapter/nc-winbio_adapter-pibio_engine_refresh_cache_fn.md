@@ -1,0 +1,134 @@
+---
+UID: NC:winbio_adapter.PIBIO_ENGINE_REFRESH_CACHE_FN
+title: PIBIO_ENGINE_REFRESH_CACHE_FN
+author: windows-driver-content
+description: Notifies the Engine Adapter that it should discard any cached templates that it may be keeping in memory.
+old-location: secbiomet\engineadapterrefreshcache.htm
+old-project: SecBioMet
+ms.assetid: AD0A3BBC-3948-402A-AC3A-96BAF00A164C
+ms.author: windowsdriverdev
+ms.date: 4/24/2018
+ms.keywords: EngineAdapterRefreshCache, EngineAdapterRefreshCache callback function [Windows Biometric Framework API], PIBIO_ENGINE_REFRESH_CACHE_FN, secbiomet.engineadapterrefreshcache, winbio_adapter/EngineAdapterRefreshCache
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: callback
+req.header: winbio_adapter.h
+req.include-header: Winbio_adapter.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WINBIO_ASYNC_RESULT, *PWINBIO_ASYNC_RESULT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Winbio_adapter.h
+api_name:
+-	EngineAdapterRefreshCache
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# PIBIO_ENGINE_REFRESH_CACHE_FN callback
+
+
+## -description
+
+
+Called by the Windows Biometric Framework to notify the Engine Adapter that it should discard any cached templates that it may be keeping in memory.
+
+
+## -parameters
+
+
+
+
+### -param Pipeline [in, out]
+
+Pointer to the <a href="https://msdn.microsoft.com/b5fc2b14-b0b6-4327-a42a-ecae41c3e12a">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
+
+
+## -returns
+
+
+
+The function will return one of the following <b>HRESULT</b> values. 
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_POINTER</b></dt>
+</dl>
+</td>
+<td width="60%">
+The <i>Pipeline</i> parameter cannot be <b>NULL</b>.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+This value is returned in all other cases.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+An Engine Adapter that maintains a private in-memory cache of templates (e.g., for performance reasons) should discard the contents of its cache when it receives this method call. The call indicates that the cache contents are no longer valid. Depending on the Engine Adapter’s cache policy, the adapter may also choose to reload its cache at this time from the template database.
+
+The biometric service calls this method in the following situations:<ul>
+<li>
+Once, when the <a href="https://msdn.microsoft.com/6abded6b-12e0-4cc6-a011-0b18e8ea747b">StorageAdapterAttach</a> routine has successfully opened its connection to the template database.
+
+</li>
+<li>
+Again, after performing any operation that changes the state of the template database. <ul>
+<li>
+Adding a new template to the database.
+
+</li>
+<li>
+Deleting one or more existing templates from the database.
+
+</li>
+</ul>
+
+
+</li>
+</ul>
+
+
+
+

@@ -7,7 +7,7 @@ old-location: wua\iwebproxy_address.htm
 old-project: Wua_Sdk
 ms.assetid: ed8c899f-5080-435a-8577-7e92a54738ad
 ms.author: windowsdriverdev
-ms.date: 3/15/2018
+ms.date: 4/18/2018
 ms.keywords: Address property [Windows Update Agent], Address property [Windows Update Agent], IWebProxy interface, IWebProxy, IWebProxy interface [Windows Update Agent], Address property, IWebProxy.Address, IWebProxy::get_Address, IWebProxy::put_Address, get_Address,IWebProxy.get_Address, wua.iwebproxy_address, wuapi/IWebProxy::Address, wuapi/IWebProxy::get_Address, wuapi/IWebProxy::put_Address
 ms.prod: windows-hardware
 ms.technology: windows-devices

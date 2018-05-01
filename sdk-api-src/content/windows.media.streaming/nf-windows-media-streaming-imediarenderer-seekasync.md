@@ -7,7 +7,7 @@ old-location: mediastreaming\imediarenderer_seekasync.htm
 old-project: mediastreaming
 ms.assetid: 3179A942-7756-4763-A2F8-629D89D39542
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/10/2018
 ms.keywords: IMediaRenderer, IMediaRenderer interface [Media Streaming API], SeekAsync method, IMediaRenderer::SeekAsync, SeekAsync method [Media Streaming API], SeekAsync method [Media Streaming API], IMediaRenderer interface, SeekAsync,IMediaRenderer.SeekAsync, mediastreaming.imediarenderer_seekasync, windows/IMediaRenderer::SeekAsync
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: PDF_RENDER_PARAMS
+req.typenames: TimeSpan
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,7 +7,7 @@ old-location: security\imscepsetup_msceperrorstring.htm
 old-project: SecCrypto
 ms.assetid: 5da4d9ac-ba59-499e-a062-381349b411a8
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: IMSCEPSetup, IMSCEPSetup interface [Security], MSCEPErrorString property, IMSCEPSetup.MSCEPErrorString, IMSCEPSetup::get_MSCEPErrorString, MSCEPErrorString property [Security], MSCEPErrorString property [Security], IMSCEPSetup interface, casetup/IMSCEPSetup::MSCEPErrorString, casetup/IMSCEPSetup::get_MSCEPErrorString, get_MSCEPErrorString,IMSCEPSetup.get_MSCEPErrorString, security.imscepsetup_msceperrorstring
 ms.prod: windows-hardware
 ms.technology: windows-devices

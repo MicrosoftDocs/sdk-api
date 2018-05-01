@@ -7,7 +7,7 @@ old-location: security\iocspproperty_value_method.htm
 old-project: SecCrypto
 ms.assetid: 6c0b37fb-381d-4224-9d4a-a22e9b2b4e6e
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: IOCSPProperty, IOCSPProperty interface [Security], Value property, IOCSPProperty.Value, IOCSPProperty::get_Value, IOCSPProperty::put_Value, Value property [Security], Value property [Security], IOCSPProperty interface, certadm/IOCSPProperty::Value, certadm/IOCSPProperty::get_Value, certadm/IOCSPProperty::put_Value, get_Value,IOCSPProperty.get_Value, security.iocspproperty_value_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CHANNEL_ENTRY_POINTS, *PCHANNEL_ENTRY_POINTS
+req.typenames: 
 topic_type:
 -	APIRef
 -	kbSyntax

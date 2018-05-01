@@ -7,7 +7,7 @@ old-location: direct2d\id2d1factory_createdxgisurfacerendertarget.htm
 old-project: Direct2D
 ms.assetid: 101744ea-97bc-4f92-88b0-fcdf0e4aaf4e
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: CreateDxgiSurfaceRenderTarget, CreateDxgiSurfaceRenderTarget methods [Direct2D], d2d1/CreateDxgiSurfaceRenderTarget, direct2d.id2d1factory_createdxgisurfacerendertarget
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\ivssbackupcomponents_disablewriterinstances.htm
 old-project: VSS
 ms.assetid: 746fb12d-83d7-463d-848d-36e095832d1a
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: DisableWriterInstances method [VSS], DisableWriterInstances method [VSS], IVssBackupComponents interface, DisableWriterInstances,IVssBackupComponents.DisableWriterInstances, IVssBackupComponents, IVssBackupComponents interface [VSS], DisableWriterInstances method, IVssBackupComponents::DisableWriterInstances, _win32_ivssbackupcomponents_disablewriterinstances, base.ivssbackupcomponents_disablewriterinstances, vsbackup/IVssBackupComponents::DisableWriterInstances
 ms.prod: windows-hardware
 ms.technology: windows-devices

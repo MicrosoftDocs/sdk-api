@@ -7,7 +7,7 @@ old-location: com\icontext_enumcontextprops.htm
 old-project: com
 ms.assetid: 7cae291e-dcf3-43b1-8306-9e5c7a5d3be0
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: EnumContextProps method [COM], EnumContextProps method [COM], IContext interface, EnumContextProps,IContext.EnumContextProps, IContext, IContext interface [COM], EnumContextProps method, IContext::EnumContextProps, _com_icontext_enumcontextprops, com.icontext_enumcontextprops, objidlbase/IContext::EnumContextProps
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IContext::EnumContextProps method

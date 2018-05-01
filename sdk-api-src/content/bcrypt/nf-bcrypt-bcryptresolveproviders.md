@@ -7,7 +7,7 @@ old-location: security\bcryptresolveproviders.htm
 old-project: SecCNG
 ms.assetid: cf30f635-4918-4911-9db0-df90d26a2f1a
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: BCryptResolveProviders, BCryptResolveProviders function [Security], CRYPT_ALL_FUNCTIONS, CRYPT_ALL_PROVIDERS, CRYPT_KM, CRYPT_MM, CRYPT_UM, bcrypt/BCryptResolveProviders, security.bcryptresolveproviders
 ms.prod: windows-hardware
 ms.technology: windows-devices

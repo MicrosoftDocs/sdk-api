@@ -7,7 +7,7 @@ old-location: controls\itextstrings_cat2.htm
 old-project: Controls
 ms.assetid: 9691d04f-5c87-42a3-81f2-efb051e2ed30
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: Cat2 method [Windows Controls], Cat2 method [Windows Controls], ITextStrings interface, Cat2,ITextStrings.Cat2, ITextStrings, ITextStrings interface [Windows Controls], Cat2 method, ITextStrings::Cat2, controls.itextstrings_cat2, tom/ITextStrings::Cat2
 ms.prod: windows-hardware
 ms.technology: windows-devices

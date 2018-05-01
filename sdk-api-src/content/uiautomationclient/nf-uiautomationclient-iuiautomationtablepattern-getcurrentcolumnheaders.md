@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationTablePattern_GetCurrentColumnHeaders.h
 old-project: WinAuto
 ms.assetid: 4f31bfa6-0a4a-4cd6-9f5d-2964696d4acd
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: GetCurrentColumnHeaders method [Windows Accessibility], GetCurrentColumnHeaders method [Windows Accessibility], IUIAutomationTablePattern interface, GetCurrentColumnHeaders,IUIAutomationTablePattern.GetCurrentColumnHeaders, IUIAutomationTablePattern, IUIAutomationTablePattern interface [Windows Accessibility], GetCurrentColumnHeaders method, IUIAutomationTablePattern::GetCurrentColumnHeaders, uiauto.uiauto_IUIAutomationTablePattern_GetCurrentColumnHeaders, uiauto_IUIAutomationTablePattern_GetCurrentColumnHeaders, uiautomationclient/IUIAutomationTablePattern::GetCurrentColumnHeaders, winauto.uiauto_IUIAutomationTablePattern_GetCurrentColumnHeaders
 ms.prod: windows-hardware
 ms.technology: windows-devices

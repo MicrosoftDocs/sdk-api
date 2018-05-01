@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingmessage_recipient_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_5vn8_cpp.htm
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/18/2018
 ms.keywords: IFaxOutgoingMessage, IFaxOutgoingMessage interface [Fax Service], Recipient property, IFaxOutgoingMessage.Recipient, IFaxOutgoingMessage::get_Recipient, Recipient property [Fax Service], Recipient property [Fax Service], IFaxOutgoingMessage interface, _mfax_faxoutgoingmessage.recipient_cpp, fax._mfax_faxoutgoingmessage_recipient_cpp, faxcomex/IFaxOutgoingMessage::Recipient, faxcomex/IFaxOutgoingMessage::get_Recipient, get_Recipient,IFaxOutgoingMessage.get_Recipient
 ms.prod: windows-hardware
 ms.technology: windows-devices

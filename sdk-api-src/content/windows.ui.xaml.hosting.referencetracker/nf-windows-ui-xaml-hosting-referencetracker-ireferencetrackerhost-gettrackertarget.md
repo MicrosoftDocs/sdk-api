@@ -7,7 +7,7 @@ old-location: winrt\ireferencetrackerhost_gettrackertarget.htm
 old-project: WinRT
 ms.assetid: 5dabc7ce-a6aa-4acd-b331-3f74b0f2d179
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/24/2018
 ms.keywords: GetTrackerTarget method [Windows Runtime], GetTrackerTarget method [Windows Runtime], IReferenceTrackerHost interface, GetTrackerTarget,IReferenceTrackerHost.GetTrackerTarget, IReferenceTrackerHost, IReferenceTrackerHost interface [Windows Runtime], GetTrackerTarget method, IReferenceTrackerHost::GetTrackerTarget, windows/IReferenceTrackerHost::GetTrackerTarget, winrt.ireferencetrackerhost_gettrackertarget
 ms.prod: windows-hardware
 ms.technology: windows-devices

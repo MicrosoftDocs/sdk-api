@@ -7,7 +7,7 @@ old-location: dshow\idirectdrawvideo_canusescanline.htm
 old-project: DirectShow
 ms.assetid: 2fa11ebb-0408-4ea7-9d18-c85860d6e2fc
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: CanUseScanLine method [DirectShow], CanUseScanLine method [DirectShow], IDirectDrawVideo interface, CanUseScanLine,IDirectDrawVideo.CanUseScanLine, IDirectDrawVideo, IDirectDrawVideo interface [DirectShow], CanUseScanLine method, IDirectDrawVideo::CanUseScanLine, IDirectDrawVideoCanUseScanLine, amvideo/IDirectDrawVideo::CanUseScanLine, dshow.idirectdrawvideo_canusescanline
 ms.prod: windows-hardware
 ms.technology: windows-devices

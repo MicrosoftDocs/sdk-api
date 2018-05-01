@@ -7,7 +7,7 @@ old-location: wmi\iwbempathkeylist_getkey.htm
 old-project: WmiSdk
 ms.assetid: 98b3a8e6-f2cf-4a39-91f9-eb20e397e54e
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: GetKey method [Windows Management Instrumentation], GetKey method [Windows Management Instrumentation], IWbemPathKeyList interface, GetKey,IWbemPathKeyList.GetKey, IWbemPathKeyList, IWbemPathKeyList interface [Windows Management Instrumentation], GetKey method, IWbemPathKeyList::GetKey, _hmm_iwbempathkeylist_getkey, wmi.iwbempathkeylist_getkey, wmiutils/IWbemPathKeyList::GetKey
 ms.prod: windows-hardware
 ms.technology: windows-devices

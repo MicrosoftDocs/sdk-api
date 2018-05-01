@@ -7,7 +7,7 @@ old-location: mf\imfsensorprocessactivity_getstreamingmode.htm
 old-project: medfound
 ms.assetid: 1881652A-005C-4EFB-B4ED-3BEAC35A460A
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetStreamingMode method [Media Foundation], GetStreamingMode method [Media Foundation], IMFSensorProcessActivity interface, GetStreamingMode,IMFSensorProcessActivity.GetStreamingMode, IMFSensorProcessActivity, IMFSensorProcessActivity interface [Media Foundation], GetStreamingMode method, IMFSensorProcessActivity::GetStreamingMode, mf.imfsensorprocessactivity_getstreamingmode, mfidl/IMFSensorProcessActivity::GetStreamingMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

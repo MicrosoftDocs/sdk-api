@@ -7,7 +7,7 @@ old-location: mf\imfvideosampleallocatorcallback_setcallback.htm
 old-project: medfound
 ms.assetid: edcf1ef2-d71f-4ca1-94db-ebf358e80e57
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFVideoSampleAllocatorCallback, IMFVideoSampleAllocatorCallback interface [Media Foundation], SetCallback method, IMFVideoSampleAllocatorCallback::SetCallback, SetCallback method [Media Foundation], SetCallback method [Media Foundation], IMFVideoSampleAllocatorCallback interface, SetCallback,IMFVideoSampleAllocatorCallback.SetCallback, mf.imfvideosampleallocatorcallback_setcallback, mfidl/IMFVideoSampleAllocatorCallback::SetCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

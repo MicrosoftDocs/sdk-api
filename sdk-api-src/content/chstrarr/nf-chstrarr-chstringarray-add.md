@@ -7,7 +7,7 @@ old-location: wmi\chstringarray_add.htm
 old-project: WmiSdk
 ms.assetid: f5a0b8e6-b40a-4dc7-bf36-ec629e2899db
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: "?Add@CHStringArray@@QAEHPBG@Z, ?Add@CHStringArray@@QEAAHPEBG@Z, Add method [Windows Management Instrumentation], Add method [Windows Management Instrumentation], CHStringArray interface, Add,CHStringArray.Add, CHStringArray, CHStringArray interface [Windows Management Instrumentation], Add method, CHStringArray::Add, _hmm_chstringarray_add, chstrarr/CHStringArray::Add, wmi.chstringarray_add"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CF_SYNC_ROOT_STANDARD_INFO
+req.typenames: CF_SYNC_STATUS
 topic_type:
 -	APIRef
 -	kbSyntax

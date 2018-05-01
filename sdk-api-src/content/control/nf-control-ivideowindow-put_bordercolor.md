@@ -7,7 +7,7 @@ old-location: dshow\ivideowindow_put_bordercolor.htm
 old-project: DirectShow
 ms.assetid: c0e249f4-4a17-4c5d-8f16-bb1aceef2064
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IVideoWindow, IVideoWindow interface [DirectShow], put_BorderColor method, IVideoWindow::put_BorderColor, IVideoWindowput_BorderColor, control/IVideoWindow::put_BorderColor, dshow.ivideowindow_put_bordercolor, put_BorderColor method [DirectShow], put_BorderColor method [DirectShow], IVideoWindow interface, put_BorderColor,IVideoWindow.put_BorderColor
 ms.prod: windows-hardware
 ms.technology: windows-devices

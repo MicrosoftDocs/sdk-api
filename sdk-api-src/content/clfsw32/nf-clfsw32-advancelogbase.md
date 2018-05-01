@@ -7,7 +7,7 @@ old-location: fs\advancelogbase.htm
 old-project: Clfs
 ms.assetid: aecdea3b-ac42-43d4-88b3-14cd810a4017
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/25/2018
 ms.keywords: AdvanceLogBase, AdvanceLogBase function [Files], clfsw32/AdvanceLogBase, fs.advancelogbase
 ms.prod: windows-hardware
 ms.technology: windows-devices

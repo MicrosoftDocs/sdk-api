@@ -7,7 +7,7 @@ old-location: dshow\iamclockslave_geterrortolerance.htm
 old-project: DirectShow
 ms.assetid: a22e17d8-eb96-4e67-bbd7-7c116694c891
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetErrorTolerance method [DirectShow], GetErrorTolerance method [DirectShow], IAMClockSlave interface, GetErrorTolerance,IAMClockSlave.GetErrorTolerance, IAMClockSlave, IAMClockSlave interface [DirectShow], GetErrorTolerance method, IAMClockSlave::GetErrorTolerance, IAMClockSlaveGetErrorTolerance, dshow.iamclockslave_geterrortolerance, strmif/IAMClockSlave::GetErrorTolerance
 ms.prod: windows-hardware
 ms.technology: windows-devices

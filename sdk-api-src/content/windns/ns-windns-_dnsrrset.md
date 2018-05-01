@@ -7,7 +7,7 @@ old-location: dns\dns_rrset.htm
 old-project: DNS
 ms.assetid: bd87a8db-ca27-490b-85f4-912297b77a2b
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: "*PDNS_RRSET, *PDNS_RRSET structure [DNS], DNS_RRSET, DNS_RRSET structure [DNS], _DnsRRSet, dns.dns_rrset, windns/*PDNS_RRSET, windns/DNS_RRSET"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tapi3\ienumagenthandler_reset.htm
 old-project: Tapi
 ms.assetid: cb113db5-718d-4c5e-92ad-4eb605911c71
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: IEnumAgentHandler, IEnumAgentHandler interface [TAPI 2.2], Reset method, IEnumAgentHandler::Reset, Reset method [TAPI 2.2], Reset method [TAPI 2.2], IEnumAgentHandler interface, Reset,IEnumAgentHandler.Reset, _tapi3_ienumagenthandler_reset, tapi3.ienumagenthandler_reset, tapi3cc/IEnumAgentHandler::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices

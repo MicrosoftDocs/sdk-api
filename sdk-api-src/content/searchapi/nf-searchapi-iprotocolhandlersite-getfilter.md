@@ -7,7 +7,7 @@ old-location: search\_search_IProtocolHandlerSite_search_IProtocolHandlerSite_Ge
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iprotocolhandlersite\getfilter.htm
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/24/2018
 ms.keywords: GetFilter method [search], GetFilter method [search], IProtocolHandlerSite interface, GetFilter,IProtocolHandlerSite.GetFilter, IProtocolHandlerSite, IProtocolHandlerSite interface [search], GetFilter method, IProtocolHandlerSite::GetFilter, _search_IProtocolHandlerSite_GetFilter, search._search_IProtocolHandlerSite_GetFilter, search._search_IProtocolHandlerSite_search_IProtocolHandlerSite_GetFilter_cpp, searchapi/IProtocolHandlerSite::GetFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IProtocolHandlerSite::GetFilter method

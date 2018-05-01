@@ -7,7 +7,7 @@ old-location: security\ix509attributes_count_property.htm
 old-project: SecCertEnroll
 ms.assetid: c2ba7a6e-b049-4251-af56-0ea0a18a96ae
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: Count property [Security], Count property [Security], IX509Attributes interface, IX509Attributes, IX509Attributes interface [Security], Count property, IX509Attributes.Count, IX509Attributes::get_Count, certenroll/IX509Attributes::Count, certenroll/IX509Attributes::get_Count, get_Count,IX509Attributes.get_Count, security.ix509attributes_count_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

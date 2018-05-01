@@ -7,7 +7,7 @@ old-location: wmdm\imdspdevice_getserialnumber.htm
 old-project: WMDM
 ms.assetid: dfff9660-fc74-421c-91d2-3d6be1c753da
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: GetSerialNumber method [windows Media Device Manager], GetSerialNumber method [windows Media Device Manager], IMDSPDevice interface, GetSerialNumber,IMDSPDevice.GetSerialNumber, IMDSPDevice, IMDSPDevice interface [windows Media Device Manager], GetSerialNumber method, IMDSPDevice::GetSerialNumber, IMDSPDeviceGetSerialNumber, mswmdm/IMDSPDevice::GetSerialNumber, wmdm.imdspdevice_getserialnumber
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMDSPDevice::GetSerialNumber method

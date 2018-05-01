@@ -7,7 +7,7 @@ old-location: controls\IImageList2_DiscardImages.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist2\discardimages.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: DiscardImages method [Windows Controls], DiscardImages method [Windows Controls], IImageList2 interface, DiscardImages,IImageList2.DiscardImages, IImageList2, IImageList2 interface [Windows Controls], DiscardImages method, IImageList2::DiscardImages, ILDI_PURGE, ILDI_QUERYACCESS, ILDI_RESETACCESS, ILDI_STANDBY, _shell_IImageList2_DiscardImages, _shell_IImageList2_DiscardImages_cpp, commoncontrols/IImageList2::DiscardImages, controls.IImageList2_DiscardImages, controls._shell_IImageList2_DiscardImages
 ms.prod: windows-hardware
 ms.technology: windows-devices

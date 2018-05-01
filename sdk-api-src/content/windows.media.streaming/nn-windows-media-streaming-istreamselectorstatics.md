@@ -7,7 +7,7 @@ old-location: mediastreaming\istreamselectorstatics.htm
 old-project: mediastreaming
 ms.assetid: 746BFF49-C75F-417B-A54A-841A4A0E84C5
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/10/2018
 ms.keywords: IStreamSelectorStatics, IStreamSelectorStatics interface [Media Streaming API], IStreamSelectorStatics interface [Media Streaming API], described, mediastreaming.istreamselectorstatics, windows/IStreamSelectorStatics
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: PDF_RENDER_PARAMS
+req.typenames: TimeSpan
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,7 +7,7 @@ old-location: mf\imfsourcereadercallback2_ontransformchange.htm
 old-project: medfound
 ms.assetid: 84A4154C-574C-4B78-A83B-2EE036C0A68D
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFSourceReaderCallback2, IMFSourceReaderCallback2 interface [Media Foundation], OnTransformChange method, IMFSourceReaderCallback2::OnTransformChange, OnTransformChange method [Media Foundation], OnTransformChange method [Media Foundation], IMFSourceReaderCallback2 interface, OnTransformChange,IMFSourceReaderCallback2.OnTransformChange, mf.imfsourcereadercallback2_ontransformchange, mfreadwrite/IMFSourceReaderCallback2::OnTransformChange
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\imfmediaengineex_setaudiostreamcategory.htm
 old-project: medfound
 ms.assetid: 55906e89-4064-4355-ad44-7d7d973ddb2c
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFMediaEngineEx, IMFMediaEngineEx interface [Media Foundation], SetAudioStreamCategory method, IMFMediaEngineEx::SetAudioStreamCategory, SetAudioStreamCategory method [Media Foundation], SetAudioStreamCategory method [Media Foundation], IMFMediaEngineEx interface, SetAudioStreamCategory,IMFMediaEngineEx.SetAudioStreamCategory, mf.imfmediaengineex_setaudiostreamcategory, mfmediaengine/IMFMediaEngineEx::SetAudioStreamCategory
 ms.prod: windows-hardware
 ms.technology: windows-devices

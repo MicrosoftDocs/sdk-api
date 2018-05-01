@@ -7,7 +7,7 @@ old-location: nwifi\wlansetprofile.htm
 old-project: NativeWiFi
 ms.assetid: 3f8dca2e-6fe5-4c7d-a135-a33c61ba3dd5
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/13/2018
 ms.keywords: WLAN_PROFILE_GROUP_POLICY, WLAN_PROFILE_USER, WlanSetProfile, WlanSetProfile function [NativeWIFI], nwifi.wlansetprofile, wlanapi/WlanSetProfile
 ms.prod: windows-hardware
 ms.technology: windows-devices

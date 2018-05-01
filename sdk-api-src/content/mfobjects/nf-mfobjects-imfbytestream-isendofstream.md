@@ -7,7 +7,7 @@ old-location: mf\imfbytestream_isendofstream.htm
 old-project: medfound
 ms.assetid: 5e5c02ea-d3fc-4d8d-aa8b-87aa033a3644
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 5e5c02ea-d3fc-4d8d-aa8b-87aa033a3644, IMFByteStream, IMFByteStream interface [Media Foundation], IsEndOfStream method, IMFByteStream::IsEndOfStream, IsEndOfStream method [Media Foundation], IsEndOfStream method [Media Foundation], IMFByteStream interface, IsEndOfStream,IMFByteStream.IsEndOfStream, mf.imfbytestream_isendofstream, mfobjects/IMFByteStream::IsEndOfStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

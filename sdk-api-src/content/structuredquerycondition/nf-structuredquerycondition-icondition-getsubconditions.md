@@ -7,7 +7,7 @@ old-location: search\_search_ICondition_GetSubConditions.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\icondition\getsubconditions.htm
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/24/2018
 ms.keywords: GetSubConditions method [search], GetSubConditions method [search], ICondition interface, GetSubConditions,ICondition.GetSubConditions, ICondition, ICondition interface [search], GetSubConditions method, ICondition::GetSubConditions, _search_ICondition_GetSubConditions, search._search_ICondition_GetSubConditions, structuredquerycondition/ICondition::GetSubConditions
 ms.prod: windows-hardware
 ms.technology: windows-devices

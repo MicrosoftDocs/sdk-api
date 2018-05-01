@@ -7,7 +7,7 @@ old-location: appxpkg\iappxcontentgroupsenumerator_movenext.htm
 old-project: appxpkg
 ms.assetid: 001F7B38-9588-4C87-9EC3-FB8D91959BB0
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/26/2018
 ms.keywords: IAppxContentGroupsEnumerator, IAppxContentGroupsEnumerator interface [App packaging and management], MoveNext method, IAppxContentGroupsEnumerator::MoveNext, MoveNext method [App packaging and management], MoveNext method [App packaging and management], IAppxContentGroupsEnumerator interface, MoveNext,IAppxContentGroupsEnumerator.MoveNext, appxpackaging/IAppxContentGroupsEnumerator::MoveNext, appxpkg.iappxcontentgroupsenumerator_movenext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_ARCHITECTURE2
+req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
 topic_type:
 -	APIRef
 -	kbSyntax

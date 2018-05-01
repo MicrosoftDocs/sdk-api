@@ -7,7 +7,7 @@ old-location: base\cdromdisabledigitalplayback.htm
 old-project: DevIO
 ms.assetid: 289812ac-cec1-4ccc-b4ef-146b19a26ebd
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/3/2018
 ms.keywords: CdromDisableDigitalPlayback, CdromDisableDigitalPlayback function, base.cdromdisabledigitalplayback, storprop/CdromDisableDigitalPlayback
 ms.prod: windows-hardware
 ms.technology: windows-devices

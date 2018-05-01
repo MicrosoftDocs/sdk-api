@@ -7,7 +7,7 @@ old-location: wmp\iwmpnetwork_getproxyport.htm
 old-project: WMP
 ms.assetid: 0d636e61-a5c1-495a-8d1d-ce2937dd3f18
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPNetwork, IWMPNetwork interface [Windows Media Player], getProxyPort method, IWMPNetwork::getProxyPort, IWMPNetworkgetProxyPort, getProxyPort method [Windows Media Player], getProxyPort method [Windows Media Player], IWMPNetwork interface, getProxyPort,IWMPNetwork.getProxyPort, wmp.iwmpnetwork_getproxyport, wmp/IWMPNetwork::getProxyPort
 ms.prod: windows-hardware
 ms.technology: windows-devices

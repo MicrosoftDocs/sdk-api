@@ -7,7 +7,7 @@ old-location: coreaudio\ksjack_sink_information.htm
 old-project: CoreAudio
 ms.assetid: ee7211d8-a34f-40c9-9925-7bb40792bae9
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: KSJACK_SINK_INFORMATION, KSJACK_SINK_INFORMATION structure [Core Audio], PKSJACK_SINK_INFORMATION, PKSJACK_SINK_INFORMATION structure pointer [Core Audio], _tagKSJACK_SINK_INFORMATION, coreaudio.ksjack_sink_information, devicetopology/KSJACK_SINK_INFORMATION, devicetopology/PKSJACK_SINK_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices

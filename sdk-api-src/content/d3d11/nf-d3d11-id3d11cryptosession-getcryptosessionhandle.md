@@ -7,7 +7,7 @@ old-location: mf\id3d11cryptosession_getcryptosessionhandle.htm
 old-project: medfound
 ms.assetid: AEF55A0B-7052-4264-BC82-DACE06D20A81
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetCryptoSessionHandle method [Media Foundation], GetCryptoSessionHandle method [Media Foundation], ID3D11CryptoSession interface, GetCryptoSessionHandle,ID3D11CryptoSession.GetCryptoSessionHandle, ID3D11CryptoSession, ID3D11CryptoSession interface [Media Foundation], GetCryptoSessionHandle method, ID3D11CryptoSession::GetCryptoSessionHandle, d3d11/ID3D11CryptoSession::GetCryptoSessionHandle, mf.id3d11cryptosession_getcryptosessionhandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

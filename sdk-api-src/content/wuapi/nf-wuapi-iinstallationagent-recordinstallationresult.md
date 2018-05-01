@@ -7,7 +7,7 @@ old-location: wua\iinstallationagent_recordinstallationresult.htm
 old-project: Wua_Sdk
 ms.assetid: E2DD54E3-741E-4647-9993-A9476279BD6C
 ms.author: windowsdriverdev
-ms.date: 3/15/2018
+ms.date: 4/18/2018
 ms.keywords: IInstallationAgent, IInstallationAgent interface [Windows Update Agent], RecordInstallationResult method, IInstallationAgent::RecordInstallationResult, RecordInstallationResult method [Windows Update Agent], RecordInstallationResult method [Windows Update Agent], IInstallationAgent interface, RecordInstallationResult,IInstallationAgent.RecordInstallationResult, wua.iinstallationagent_recordinstallationresult, wuapi/IInstallationAgent::RecordInstallationResult
 ms.prod: windows-hardware
 ms.technology: windows-devices

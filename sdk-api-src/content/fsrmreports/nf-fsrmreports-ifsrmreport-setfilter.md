@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmreport_setfilter.htm
 old-project: Fsrm
 ms.assetid: 6d36e3e2-7826-4bae-943c-3ab73404534c
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: IFsrmReport, IFsrmReport interface [File Server Resource Manager], SetFilter method, IFsrmReport::SetFilter, SetFilter method [File Server Resource Manager], SetFilter method [File Server Resource Manager], IFsrmReport interface, SetFilter,IFsrmReport.SetFilter, fs.ifsrmreport_setfilter, fsrm.ifsrmreport_setfilter, fsrmreports/IFsrmReport::SetFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices

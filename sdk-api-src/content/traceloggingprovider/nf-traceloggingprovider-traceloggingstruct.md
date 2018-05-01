@@ -7,7 +7,7 @@ old-location: tracelogging\traceloggingstruct.htm
 old-project: tracelogging
 ms.assetid: 9F681D04-98DF-4B27-9A40-740B2F0B287D
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: TraceLoggingStruct, TraceLoggingStruct macro, tracelogging.traceloggingstruct, traceloggingprovider/TraceLoggingStruct
 ms.prod: windows-hardware
 ms.technology: windows-devices

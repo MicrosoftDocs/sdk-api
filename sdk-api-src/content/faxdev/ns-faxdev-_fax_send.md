@@ -7,7 +7,7 @@ old-location: fax\_mfax_fax_send_str.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxfspapiref_8ueq.htm
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/18/2018
 ms.keywords: "*PFAX_SEND, FAX_SEND, FAX_SEND structure [Fax Service], PFAX_SEND, PFAX_SEND structure pointer [Fax Service], _FAX_SEND, _mfax_fax_send_str, fax._mfax_fax_send_str, faxdev/FAX_SEND, faxdev/PFAX_SEND"
 ms.prod: windows-hardware
 ms.technology: windows-devices

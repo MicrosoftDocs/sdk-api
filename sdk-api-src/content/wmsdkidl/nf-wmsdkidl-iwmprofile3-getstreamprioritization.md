@@ -7,7 +7,7 @@ old-location: wmformat\iwmprofile3_getstreamprioritization.htm
 old-project: wmformat
 ms.assetid: 09545c1e-8090-4526-9faf-6cb2cb369208
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: GetStreamPrioritization method [windows Media Format], GetStreamPrioritization method [windows Media Format], IWMProfile3 interface, GetStreamPrioritization,IWMProfile3.GetStreamPrioritization, IWMProfile3, IWMProfile3 interface [windows Media Format], GetStreamPrioritization method, IWMProfile3::GetStreamPrioritization, IWMProfile3GetStreamPrioritization, wmformat.iwmprofile3_getstreamprioritization, wmsdkidl/IWMProfile3::GetStreamPrioritization
 ms.prod: windows-hardware
 ms.technology: windows-devices

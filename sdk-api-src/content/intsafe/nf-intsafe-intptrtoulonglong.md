@@ -7,7 +7,7 @@ old-location: shell\IntPtrToULongLong.htm
 old-project: shell
 ms.assetid: 81358f7f-9e78-469a-889e-85fa93bd1eac
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IntPtrToULongLong, IntPtrToULongLong function [Windows Shell], _shell_IntPtrToULongLong, intsafe/IntPtrToULongLong, shell.IntPtrToULongLong
 ms.prod: windows-hardware
 ms.technology: windows-devices

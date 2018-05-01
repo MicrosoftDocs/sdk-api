@@ -7,7 +7,7 @@ old-location: dshow\ivmrfilterconfig9_setrenderingprefs.htm
 old-project: DirectShow
 ms.assetid: ce274528-c759-4b43-80c7-0ba1e1275b7d
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IVMRFilterConfig9, IVMRFilterConfig9 interface [DirectShow], SetRenderingPrefs method, IVMRFilterConfig9::SetRenderingPrefs, IVMRFilterConfig9SetRenderingPrefs, SetRenderingPrefs method [DirectShow], SetRenderingPrefs method [DirectShow], IVMRFilterConfig9 interface, SetRenderingPrefs,IVMRFilterConfig9.SetRenderingPrefs, dshow.ivmrfilterconfig9_setrenderingprefs, vmr9/IVMRFilterConfig9::SetRenderingPrefs
 ms.prod: windows-hardware
 ms.technology: windows-devices

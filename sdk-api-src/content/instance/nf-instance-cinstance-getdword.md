@@ -7,7 +7,7 @@ old-location: wmi\cinstance_getdword.htm
 old-project: WmiSdk
 ms.assetid: 02690232-a887-4de3-a850-84ad8ffa9ee0
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: "?GetDWORD@CInstance@@QBE_NPBGAAK@Z, ?GetDWORD@CInstance@@QEBA_NPEBGAEAK@Z, CInstance, CInstance interface [Windows Management Instrumentation], GetDWORD method, CInstance::GetDWORD, GetDWORD method [Windows Management Instrumentation], GetDWORD method [Windows Management Instrumentation], CInstance interface, GetDWORD,CInstance.GetDWORD, _hmm_cinstance_getdword, instance/CInstance::GetDWORD, wmi.cinstance_getdword"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: InputScope
+req.typenames: TrustLevel
 topic_type:
 -	APIRef
 -	kbSyntax

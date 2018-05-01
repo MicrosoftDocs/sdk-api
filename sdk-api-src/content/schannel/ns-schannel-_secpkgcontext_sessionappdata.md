@@ -7,7 +7,7 @@ old-location: security\secpkgcontext_sessionappdata.htm
 old-project: SecAuthN
 ms.assetid: 7bda791a-dd60-4651-bfe8-13333017d6a3
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/24/2018
 ms.keywords: "*PSecPkgContext_SessionAppData, SecPkgContext_SessionAppData, SecPkgContext_SessionAppData structure [Security], _SecPkgContext_SessionAppData, schannel/SecPkgContext_SessionAppData, security.secpkgcontext_sessionappdata"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _SecPkgContext_SessionAppData structure

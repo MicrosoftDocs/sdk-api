@@ -7,7 +7,7 @@ old-location: shell\IShellImageData_NextFrame.htm
 old-project: shell
 ms.assetid: b797539e-7766-4da7-864f-401c7c2ff082
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IShellImageData, IShellImageData interface [Windows Shell], NextFrame method, IShellImageData::NextFrame, NextFrame method [Windows Shell], NextFrame method [Windows Shell], IShellImageData interface, NextFrame,IShellImageData.NextFrame, _shell_IShellImageData_NextFrame, shell.IShellImageData_NextFrame, shimgdata/IShellImageData::NextFrame
 ms.prod: windows-hardware
 ms.technology: windows-devices

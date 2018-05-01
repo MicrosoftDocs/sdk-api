@@ -7,7 +7,7 @@ old-location: mf\idirectxvideoprocessorservice_getvideoprocessorcaps.htm
 old-project: medfound
 ms.assetid: bb94f221-cca7-48e1-96ef-b5a6f7c24a47
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetVideoProcessorCaps method [Media Foundation], GetVideoProcessorCaps method [Media Foundation], IDirectXVideoProcessorService interface, GetVideoProcessorCaps,IDirectXVideoProcessorService.GetVideoProcessorCaps, IDirectXVideoProcessorService, IDirectXVideoProcessorService interface [Media Foundation], GetVideoProcessorCaps method, IDirectXVideoProcessorService::GetVideoProcessorCaps, bb94f221-cca7-48e1-96ef-b5a6f7c24a47, dxva2api/IDirectXVideoProcessorService::GetVideoProcessorCaps, mf.idirectxvideoprocessorservice_getvideoprocessorcaps
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\iaztask_bizrulelanguage.htm
 old-project: SecAuthZ
 ms.assetid: 922f4fd8-f553-439c-b9ae-51a45a88adc7
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: ""JScript", "VBScript", AzTask object [Security], BizRuleLanguage property, BizRuleLanguage property [Security], BizRuleLanguage property [Security], AzTask object, BizRuleLanguage property [Security], IAzTask interface, IAzTask, IAzTask interface [Security], BizRuleLanguage property, IAzTask.BizRuleLanguage, IAzTask::get_BizRuleLanguage, IAzTask::put_BizRuleLanguage, azroles/IAzTask::BizRuleLanguage, azroles/IAzTask::get_BizRuleLanguage, azroles/IAzTask::put_BizRuleLanguage, get_BizRuleLanguage,IAzTask.get_BizRuleLanguage, security.iaztask_bizrulelanguage"
 ms.prod: windows-hardware
 ms.technology: windows-devices

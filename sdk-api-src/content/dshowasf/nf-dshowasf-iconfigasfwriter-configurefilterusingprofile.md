@@ -7,7 +7,7 @@ old-location: dshow\iconfigasfwriter_configurefilterusingprofile.htm
 old-project: DirectShow
 ms.assetid: 89156f64-7a20-4226-9f01-5b1bd4a1fe98
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ConfigureFilterUsingProfile method [DirectShow], ConfigureFilterUsingProfile method [DirectShow], IConfigAsfWriter interface, ConfigureFilterUsingProfile,IConfigAsfWriter.ConfigureFilterUsingProfile, IConfigAsfWriter, IConfigAsfWriter interface [DirectShow], ConfigureFilterUsingProfile method, IConfigAsfWriter::ConfigureFilterUsingProfile, IConfigAsfWriterConfigureFilterUsingProfile, dshow.iconfigasfwriter_configurefilterusingprofile, dshowasf/IConfigAsfWriter::ConfigureFilterUsingProfile
 ms.prod: windows-hardware
 ms.technology: windows-devices

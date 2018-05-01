@@ -7,7 +7,7 @@ old-location: cos\icommethodevents_onmethodreturn.htm
 old-project: cossdk
 ms.assetid: ade20bfc-0b50-4663-a1d3-14e2bd0c19a1
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: IComMethodEvents, IComMethodEvents interface [COM+], OnMethodReturn method, IComMethodEvents::OnMethodReturn, OnMethodReturn method [COM+], OnMethodReturn method [COM+], IComMethodEvents interface, OnMethodReturn,IComMethodEvents.OnMethodReturn, _dtc_icommethodevents_onmethodreturn, comsvcs/IComMethodEvents::OnMethodReturn, cos.icommethodevents_onmethodreturn
 ms.prod: windows-hardware
 ms.technology: windows-devices

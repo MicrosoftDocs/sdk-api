@@ -61,16 +61,6 @@ The
 
 
 
-### -field pNext
-
-Pointer to the next GPO in the list.
-
-
-### -field pPrev
-
-Pointer to the previous GPO in the list.
-
-
 ### -field dwOptions
 
 Specifies link options. This member can be one of the following values.
@@ -151,6 +141,16 @@ The GPO is linked to an organizational unit.
 ### -field lParam
 
 User-supplied data.
+
+
+### -field pNext
+
+Pointer to the next GPO in the list.
+
+
+### -field pPrev
+
+Pointer to the previous GPO in the list.
 
 
 ### -field lpExtensions

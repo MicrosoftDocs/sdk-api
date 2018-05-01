@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmstorage_sendopaquecommand.htm
 old-project: WMDM
 ms.assetid: a5e570ad-63d3-4c8f-8569-63aa3645f866
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: IWMDMStorage, IWMDMStorage interface [windows Media Device Manager], SendOpaqueCommand method, IWMDMStorage::SendOpaqueCommand, IWMDMStorageSendOpaqueCommand, SendOpaqueCommand method [windows Media Device Manager], SendOpaqueCommand method [windows Media Device Manager], IWMDMStorage interface, SendOpaqueCommand,IWMDMStorage.SendOpaqueCommand, mswmdm/IWMDMStorage::SendOpaqueCommand, wmdm.iwmdmstorage_sendopaquecommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IWMDMStorage::SendOpaqueCommand method

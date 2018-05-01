@@ -7,7 +7,7 @@ old-location: com\ioleobject_setextent.htm
 old-project: com
 ms.assetid: f1960095-7c9a-4058-aef1-f31e3d6e3509
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IOleObject, IOleObject interface [COM], SetExtent method, IOleObject::SetExtent, SetExtent method [COM], SetExtent method [COM], IOleObject interface, SetExtent,IOleObject.SetExtent, _ole_ioleobject_setextent, com.ioleobject_setextent, oleidl/IOleObject::SetExtent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IOleObject::SetExtent method

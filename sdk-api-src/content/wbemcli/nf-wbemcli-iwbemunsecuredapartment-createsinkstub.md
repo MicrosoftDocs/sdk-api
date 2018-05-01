@@ -7,7 +7,7 @@ old-location: wmi\iwbemunsecuredapartment_createsinkstub.htm
 old-project: WmiSdk
 ms.assetid: 546ae2f8-c208-4846-a3ba-e124aefe619d
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: CreateSinkStub method [Windows Management Instrumentation], CreateSinkStub method [Windows Management Instrumentation], IWbemUnsecuredApartment interface, CreateSinkStub,IWbemUnsecuredApartment.CreateSinkStub, IWbemUnsecuredApartment, IWbemUnsecuredApartment interface [Windows Management Instrumentation], CreateSinkStub method, IWbemUnsecuredApartment::CreateSinkStub, WBEM_FLAG_UNSECAPP_CHECK_ACCESS, WBEM_FLAG_UNSECAPP_DEFAULT_CHECK_ACCESS, WBEM_FLAG_UNSECAPP_DONT_CHECK_ACCESS, wbemcli/IWbemUnsecuredApartment::CreateSinkStub, wmi.iwbemunsecuredapartment_createsinkstub
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\ICredentialProvider_GetFieldDescriptorAt.htm
 old-project: shell
 ms.assetid: bb9f063d-afbc-4f6b-a4a5-19a9a644f029
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetFieldDescriptorAt method [Windows Shell], GetFieldDescriptorAt method [Windows Shell], ICredentialProvider interface, GetFieldDescriptorAt,ICredentialProvider.GetFieldDescriptorAt, ICredentialProvider, ICredentialProvider interface [Windows Shell], GetFieldDescriptorAt method, ICredentialProvider::GetFieldDescriptorAt, credentialprovider/ICredentialProvider::GetFieldDescriptorAt, shell.ICredentialProvider_GetFieldDescriptorAt, shell_ICredentialProvider_GetFieldDescriptorAt
 ms.prod: windows-hardware
 ms.technology: windows-devices

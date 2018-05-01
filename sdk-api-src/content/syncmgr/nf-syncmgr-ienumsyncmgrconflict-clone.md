@@ -7,7 +7,7 @@ old-location: shell\IEnumSyncMgrConflict_Clone.htm
 old-project: shell
 ms.assetid: 2eb0f1c1-71e2-45e6-bef7-1b480efb4ab7
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: Clone method [Windows Shell], Clone method [Windows Shell], IEnumSyncMgrConflict interface, Clone,IEnumSyncMgrConflict.Clone, IEnumSyncMgrConflict, IEnumSyncMgrConflict interface [Windows Shell], Clone method, IEnumSyncMgrConflict::Clone, _shell_IEnumSyncMgrConflict_Clone, shell.IEnumSyncMgrConflict_Clone, syncmgr/IEnumSyncMgrConflict::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

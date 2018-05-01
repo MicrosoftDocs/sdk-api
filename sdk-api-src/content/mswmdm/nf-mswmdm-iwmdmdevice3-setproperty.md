@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmdevice3_setproperty.htm
 old-project: WMDM
 ms.assetid: 39483d9a-0725-45fa-9d41-dbabd400b3bf
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: IWMDMDevice3, IWMDMDevice3 interface [windows Media Device Manager], SetProperty method, IWMDMDevice3::SetProperty, IWMDMDevice3SetProperty, SetProperty method [windows Media Device Manager], SetProperty method [windows Media Device Manager], IWMDMDevice3 interface, SetProperty,IWMDMDevice3.SetProperty, mswmdm/IWMDMDevice3::SetProperty, wmdm.iwmdmdevice3_setproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IWMDMDevice3::SetProperty method

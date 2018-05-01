@@ -7,7 +7,7 @@ old-location: http\http_enabled_state.htm
 old-project: Http
 ms.assetid: 15e27788-2d1a-4818-b31f-2faf649e15b2
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: "*PHTTP_ENABLED_STATE, *PHTTP_ENABLED_STATE enumeration [HTTP], HTTP_ENABLED_STATE, HTTP_ENABLED_STATE enumeration [HTTP], HttpEnabledStateActive, HttpEnabledStateInactive, _HTTP_ENABLED_STATE, http.http_enabled_state, http/*PHTTP_ENABLED_STATE, http/HTTP_ENABLED_STATE, http/HttpEnabledStateActive, http/HttpEnabledStateInactive"
 ms.prod: windows-hardware
 ms.technology: windows-devices

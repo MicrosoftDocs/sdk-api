@@ -7,7 +7,7 @@ old-location: security\iazroledefinition_roledefinitions.htm
 old-project: SecAuthZ
 ms.assetid: 362df9e2-af74-48b7-a6f4-aaa6ad1d8df5
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: IAzRoleDefinition, IAzRoleDefinition interface [Security], RoleDefinitions property, IAzRoleDefinition.RoleDefinitions, IAzRoleDefinition::get_RoleDefinitions, RoleDefinitions property [Security], RoleDefinitions property [Security], IAzRoleDefinition interface, azroles/IAzRoleDefinition::RoleDefinitions, azroles/IAzRoleDefinition::get_RoleDefinitions, get_RoleDefinitions,IAzRoleDefinition.get_RoleDefinitions, security.iazroledefinition_roledefinitions
 ms.prod: windows-hardware
 ms.technology: windows-devices

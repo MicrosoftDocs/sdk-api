@@ -7,7 +7,7 @@ old-location: dshow\impegaudiodecoder_put_dualmode.htm
 old-project: DirectShow
 ms.assetid: b183f669-14bf-44d4-a17d-09cbc593309d
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IMpegAudioDecoder, IMpegAudioDecoder interface [DirectShow], put_DualMode method, IMpegAudioDecoder::put_DualMode, IMpegAudioDecoderputDualMode, dshow.impegaudiodecoder_put_dualmode, mpegtype/IMpegAudioDecoder::put_DualMode, put_DualMode method [DirectShow], put_DualMode method [DirectShow], IMpegAudioDecoder interface, put_DualMode,IMpegAudioDecoder.put_DualMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

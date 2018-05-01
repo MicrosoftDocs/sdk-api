@@ -7,7 +7,7 @@ old-location: wmi\chstring_trimleft.htm
 old-project: WmiSdk
 ms.assetid: 7f64181b-eae9-4c65-8fa5-d9171a1e2de8
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: "?TrimLeft@CHString@@QAEXXZ, ?TrimLeft@CHString@@QEAAXXZ, CHString, CHString interface [Windows Management Instrumentation], TrimLeft method, CHString::TrimLeft, TrimLeft method [Windows Management Instrumentation], TrimLeft method [Windows Management Instrumentation], CHString interface, TrimLeft,CHString.TrimLeft, _hmm_chstring_trimleft, chstring/CHString::TrimLeft, wmi.chstring_trimleft"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CF_SYNC_ROOT_STANDARD_INFO
+req.typenames: CF_SYNC_STATUS
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,7 +7,7 @@ old-location: properties\SHAddDefaultPropertiesByExt.htm
 old-project: properties
 ms.assetid: ba0fec36-3983-4064-9202-6158af565d9b
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/5/2018
 ms.keywords: SHAddDefaultPropertiesByExt, SHAddDefaultPropertiesByExt function [Windows Properties], _shell_SHAddDefaultPropertiesByExt, properties.SHAddDefaultPropertiesByExt, shell.SHAddDefaultPropertiesByExt, shobjidl/SHAddDefaultPropertiesByExt
 ms.prod: windows-hardware
 ms.technology: windows-devices

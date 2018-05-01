@@ -7,7 +7,7 @@ old-location: cos\ieventobjectcollection_remove.htm
 old-project: cossdk
 ms.assetid: 5092b1e1-bbf2-493c-92be-41196b43d4f2
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: IEventObjectCollection, IEventObjectCollection interface [COM+], Remove method, IEventObjectCollection::Remove, Remove method [COM+], Remove method [COM+], IEventObjectCollection interface, Remove,IEventObjectCollection.Remove, _cos_IEventObjectCollection_Remove, cos.ieventobjectcollection_remove, eventsys/IEventObjectCollection::Remove
 ms.prod: windows-hardware
 ms.technology: windows-devices

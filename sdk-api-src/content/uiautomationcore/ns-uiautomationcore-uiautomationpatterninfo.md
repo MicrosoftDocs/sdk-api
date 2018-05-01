@@ -7,7 +7,7 @@ old-location: winauto\uiauto_UIAutomationPatternInfoStruct.htm
 old-project: WinAuto
 ms.assetid: f45c5736-75f3-4e44-b92a-3b0a51b41849
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: UIAutomationPatternInfo, UIAutomationPatternInfo structure [Windows Accessibility], uiauto.uiauto_UIAutomationPatternInfoStruct, uiauto_UIAutomationPatternInfoStruct, uiautomationcore/UIAutomationPatternInfo, winauto.uiauto_UIAutomationPatternInfoStruct
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,27 +58,6 @@ Contains information about a custom control pattern.
 
 
 
-### -field pProperties
-
-Type: <b><a href="https://msdn.microsoft.com/ea5b4cbe-5a39-407c-9c61-8e9ac4f3398f">UIAutomationPropertyInfo</a>*</b>
-
-A pointer to an array of structures describing properties available on the control pattern.
-
-
-### -field pMethods
-
-Type: <b><a href="https://msdn.microsoft.com/33a52126-8757-44d0-91e1-758f51e3d0f8">UIAutomationMethodInfo</a>*</b>
-
-A pointer to an array of structures describing methods available on the control pattern.
-
-
-### -field pEvents
-
-Type: <b><a href="https://msdn.microsoft.com/05dd033f-3bb2-4185-9cfc-c19927a82406">UIAutomationEventInfo</a>*</b>
-
-A pointer to an array of structures describing events available on the control pattern.
-
-
 ### -field guid
 
 Type: <b>GUID</b>
@@ -114,6 +93,13 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 The count of elements in <b>pProperties</b>.
 
 
+### -field pProperties
+
+Type: <b><a href="https://msdn.microsoft.com/ea5b4cbe-5a39-407c-9c61-8e9ac4f3398f">UIAutomationPropertyInfo</a>*</b>
+
+A pointer to an array of structures describing properties available on the control pattern.
+
+
 ### -field cMethods
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
@@ -121,11 +107,25 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 The count of elements in <b>pMethods</b>.
 
 
+### -field pMethods
+
+Type: <b><a href="https://msdn.microsoft.com/33a52126-8757-44d0-91e1-758f51e3d0f8">UIAutomationMethodInfo</a>*</b>
+
+A pointer to an array of structures describing methods available on the control pattern.
+
+
 ### -field cEvents
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 The count of elements in <b>pEvents</b>.
+
+
+### -field pEvents
+
+Type: <b><a href="https://msdn.microsoft.com/05dd033f-3bb2-4185-9cfc-c19927a82406">UIAutomationEventInfo</a>*</b>
+
+A pointer to an array of structures describing events available on the control pattern.
 
 
 ### -field pPatternHandler

@@ -7,7 +7,7 @@ old-location: com\iprovidemultipleclassinfo_getinfoofindex.htm
 old-project: com
 ms.assetid: 084dfb9d-5545-4845-9959-1b054566adca
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: GetInfoOfIndex method [COM], GetInfoOfIndex method [COM], IProvideMultipleClassInfo interface, GetInfoOfIndex,IProvideMultipleClassInfo.GetInfoOfIndex, IProvideMultipleClassInfo, IProvideMultipleClassInfo interface [COM], GetInfoOfIndex method, IProvideMultipleClassInfo::GetInfoOfIndex, MULTICLASSINFO_GETIIDPRIMARY, MULTICLASSINFO_GETIIDSOURCE, MULTICLASSINFO_GETNUMRESERVEDDISPIDS, MULTICLASSINFO_GETTYPEINFO, _com_iprovidemultipleclassinfo_getinfoofindex, com.iprovidemultipleclassinfo_getinfoofindex, ocidl/IProvideMultipleClassInfo::GetInfoOfIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IProvideMultipleClassInfo::GetInfoOfIndex method

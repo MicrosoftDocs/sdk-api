@@ -7,7 +7,7 @@ old-location: controls\IImageList_DragLeave.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\dragleave.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: DragLeave method [Windows Controls], DragLeave method [Windows Controls], IImageList interface, DragLeave,IImageList.DragLeave, IImageList, IImageList interface [Windows Controls], DragLeave method, IImageList::DragLeave, comctl_IImageList_DragLeave, comctl_IImageList_DragLeave_cpp, commoncontrols/IImageList::DragLeave, controls.IImageList_DragLeave, controls.comctl_IImageList_DragLeave
 ms.prod: windows-hardware
 ms.technology: windows-devices

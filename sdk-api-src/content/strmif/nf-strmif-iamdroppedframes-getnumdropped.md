@@ -7,7 +7,7 @@ old-location: dshow\iamdroppedframes_getnumdropped.htm
 old-project: DirectShow
 ms.assetid: d7e91efb-0755-4319-ac85-abc6ecdc3e2a
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetNumDropped method [DirectShow], GetNumDropped method [DirectShow], IAMDroppedFrames interface, GetNumDropped,IAMDroppedFrames.GetNumDropped, IAMDroppedFrames, IAMDroppedFrames interface [DirectShow], GetNumDropped method, IAMDroppedFrames::GetNumDropped, IAMDroppedFramesGetNumDropped, dshow.iamdroppedframes_getnumdropped, strmif/IAMDroppedFrames::GetNumDropped
 ms.prod: windows-hardware
 ms.technology: windows-devices

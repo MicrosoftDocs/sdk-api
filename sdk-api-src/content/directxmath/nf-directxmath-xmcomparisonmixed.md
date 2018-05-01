@@ -7,7 +7,7 @@ old-location: dxmath\xmcomparisonmixed.htm
 old-project: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMComparisonMixed(uint32_t)
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/23/2018
 ms.keywords: Use DirectX..XMComparisonMixed, XMComparisonMixed, XMComparisonMixed method [DirectX Math Support APIs], dxmath.xmcomparisonmixed
 ms.prod: windows-hardware
 ms.technology: windows-devices

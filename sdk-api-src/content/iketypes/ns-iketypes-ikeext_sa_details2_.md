@@ -7,7 +7,7 @@ old-location: fwp\ikeext_sa_details2.htm
 old-project: FWP
 ms.assetid: 51b8f3a8-bccc-4d1f-871f-9a319ed5c49c
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: IKEEXT_SA_DETAILS2, IKEEXT_SA_DETAILS2 structure [Filtering], IKEEXT_SA_DETAILS2_, fwp.ikeext_sa_details2, iketypes/IKEEXT_SA_DETAILS2
 ms.prod: windows-hardware
 ms.technology: windows-devices

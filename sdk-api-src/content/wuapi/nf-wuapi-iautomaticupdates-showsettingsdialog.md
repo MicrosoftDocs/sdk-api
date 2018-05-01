@@ -7,7 +7,7 @@ old-location: wua\iautomaticupdates_showsettingsdialog.htm
 old-project: Wua_Sdk
 ms.assetid: da153799-9414-4e8e-aed4-96e0fff9ca88
 ms.author: windowsdriverdev
-ms.date: 3/15/2018
+ms.date: 4/18/2018
 ms.keywords: IAutomaticUpdates, IAutomaticUpdates interface [Windows Update Agent], ShowSettingsDialog method, IAutomaticUpdates::ShowSettingsDialog, ShowSettingsDialog method [Windows Update Agent], ShowSettingsDialog method [Windows Update Agent], IAutomaticUpdates interface, ShowSettingsDialog,IAutomaticUpdates.ShowSettingsDialog, wua.iautomaticupdates_showsettingsdialog, wuapi/IAutomaticUpdates::ShowSettingsDialog
 ms.prod: windows-hardware
 ms.technology: windows-devices

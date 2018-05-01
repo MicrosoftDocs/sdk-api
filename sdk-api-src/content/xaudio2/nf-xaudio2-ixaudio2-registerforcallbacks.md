@@ -7,7 +7,7 @@ old-location: xaudio2\ixaudio2_interface_registerforcallbacks.htm
 old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2.IXAudio2.RegisterForCallbacks(IXAudio2EngineCallback)
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/20/2018
 ms.keywords: IXAudio2, IXAudio2 interface [XAudio2 Audio Mixing APIs], RegisterForCallbacks method, IXAudio2::RegisterForCallbacks, RegisterForCallbacks method [XAudio2 Audio Mixing APIs], RegisterForCallbacks method [XAudio2 Audio Mixing APIs], IXAudio2 interface, RegisterForCallbacks,IXAudio2.RegisterForCallbacks, xaudio2.ixaudio2_interface_registerforcallbacks, xaudio2/IXAudio2::RegisterForCallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices

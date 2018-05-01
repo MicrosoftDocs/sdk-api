@@ -7,7 +7,7 @@ old-location: wmp\iwmpeffects2_destroy.htm
 old-project: WMP
 ms.assetid: dad290e6-a3be-47f0-a893-7a60eebc2a64
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: Destroy method [Windows Media Player], Destroy method [Windows Media Player], IWMPEffects2 interface, Destroy,IWMPEffects2.Destroy, IWMPEffects2, IWMPEffects2 interface [Windows Media Player], Destroy method, IWMPEffects2::Destroy, IWMPEffectsDestroy, effects/IWMPEffects2::Destroy, wmp.iwmpeffects2_destroy
 ms.prod: windows-hardware
 ms.technology: windows-devices

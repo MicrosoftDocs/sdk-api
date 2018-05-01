@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmreportjob_enumreports.htm
 old-project: Fsrm
 ms.assetid: a1292084-f1b5-43eb-9b59-fa2f3f99557d
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: EnumReports method [File Server Resource Manager], EnumReports method [File Server Resource Manager], IFsrmReportJob interface, EnumReports,IFsrmReportJob.EnumReports, IFsrmReportJob, IFsrmReportJob interface [File Server Resource Manager], EnumReports method, IFsrmReportJob::EnumReports, fs.ifsrmreportjob_enumreports, fsrm.ifsrmreportjob_enumreports, fsrmreports/IFsrmReportJob::EnumReports
 ms.prod: windows-hardware
 ms.technology: windows-devices

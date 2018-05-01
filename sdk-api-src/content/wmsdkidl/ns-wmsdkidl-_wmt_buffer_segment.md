@@ -7,7 +7,7 @@ old-location: wmformat\wmt_buffer_segment.htm
 old-project: wmformat
 ms.assetid: 047e19da-c819-46e5-8a1c-09bc93a05259
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: WMT_BUFFER_SEGMENT, WMT_BUFFER_SEGMENT structure [windows Media Format], _WMT_BUFFER_SEGMENT, wmformat.wmt_buffer_segment, wmsdkidl/WMT_BUFFER_SEGMENT
 ms.prod: windows-hardware
 ms.technology: windows-devices

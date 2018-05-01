@@ -7,7 +7,7 @@ old-location: com\iadvisesink_onsave.htm
 old-project: com
 ms.assetid: 26da5e16-5790-49c0-ba63-5feee49cd4c6
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IAdviseSink, IAdviseSink interface [COM], OnSave method, IAdviseSink::OnSave, OnSave method [COM], OnSave method [COM], IAdviseSink interface, OnSave,IAdviseSink.OnSave, _ole_iadvisesink_onsave, com.iadvisesink_onsave, objidl/IAdviseSink::OnSave
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IAdviseSink::OnSave method

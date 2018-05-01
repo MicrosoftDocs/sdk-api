@@ -7,7 +7,7 @@ old-location: base\interlockedand.htm
 old-project: Sync
 ms.assetid: 463b579e-d1cd-4ad5-b2f2-bae599849401
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: InterlockedAnd, InterlockedAnd function, base.interlockedand, winbase/InterlockedAnd
 ms.prod: windows-hardware
 ms.technology: windows-devices

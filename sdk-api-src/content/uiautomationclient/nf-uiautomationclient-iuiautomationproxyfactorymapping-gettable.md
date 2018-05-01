@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationProxyFactoryMapping_GetTable.htm
 old-project: WinAuto
 ms.assetid: 6e84ec4d-9589-47b0-ae69-5d640141dd8b
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: GetTable method [Windows Accessibility], GetTable method [Windows Accessibility], IUIAutomationProxyFactoryMapping interface, GetTable,IUIAutomationProxyFactoryMapping.GetTable, IUIAutomationProxyFactoryMapping, IUIAutomationProxyFactoryMapping interface [Windows Accessibility], GetTable method, IUIAutomationProxyFactoryMapping::GetTable, uiauto.uiauto_IUIAutomationProxyFactoryMapping_GetTable, uiauto_IUIAutomationProxyFactoryMapping_GetTable, uiautomationclient/IUIAutomationProxyFactoryMapping::GetTable, winauto.uiauto_IUIAutomationProxyFactoryMapping_GetTable
 ms.prod: windows-hardware
 ms.technology: windows-devices

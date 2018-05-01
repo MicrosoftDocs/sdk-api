@@ -7,7 +7,7 @@ old-location: shell\ILAppendID.htm
 old-project: shell
 ms.assetid: d1bb5993-fe23-42d4-a2c5-8e54e6e37d09
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ILAppendID, ILAppendID function [Windows Shell], _win32_ILAppendID, shell.ILAppendID, shlobj_core/ILAppendID
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tablet\istylusplugin_stylusup.htm
 old-project: tablet
 ms.assetid: b0f9e49c-6a16-43c5-a653-d6142e58019a
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: IStylusPlugin, IStylusPlugin interface [Tablet PC], StylusUp method, IStylusPlugin::StylusUp, StylusUp method [Tablet PC], StylusUp method [Tablet PC], IStylusPlugin interface, StylusUp,IStylusPlugin.StylusUp, b0f9e49c-6a16-43c5-a653-d6142e58019a, rtscom/IStylusPlugin::StylusUp, tablet.istylusplugin_stylusup
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: RTSCom.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IStylusPlugin::StylusUp method

@@ -7,7 +7,7 @@ old-location: intl\ispellchecker_ignore.htm
 old-project: Intl
 ms.assetid: e82dd7a3-3ec4-4ef4-a19f-ad44866bbb1c
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/25/2018
 ms.keywords: ISpellChecker, ISpellChecker interface [Internationalization for Windows Applications], Ignore method, ISpellChecker::Ignore, Ignore method [Internationalization for Windows Applications], Ignore method [Internationalization for Windows Applications], ISpellChecker interface, Ignore,ISpellChecker.Ignore, intl.ispellchecker_ignore, spellcheck/ISpellChecker::Ignore
 ms.prod: windows-hardware
 ms.technology: windows-devices

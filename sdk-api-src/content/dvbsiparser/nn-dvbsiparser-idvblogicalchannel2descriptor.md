@@ -7,7 +7,7 @@ old-location: mstv\idvblogicalchannel2descriptor.htm
 old-project: mstv
 ms.assetid: dc60db7f-ae49-48dd-bd8a-62899e5ca7a3
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IDvbLogicalChannel2Descriptor, IDvbLogicalChannel2Descriptor interface [Microsoft TV Technologies], IDvbLogicalChannel2Descriptor interface [Microsoft TV Technologies], described, dvbsiparser/IDvbLogicalChannel2Descriptor, mstv.idvblogicalchannel2descriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices

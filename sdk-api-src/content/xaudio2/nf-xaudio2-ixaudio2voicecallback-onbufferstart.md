@@ -7,7 +7,7 @@ old-location: xaudio2\ixaudio2voicecallback_interface_onbufferstart.htm
 old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2voicecallback.IXAudio2VoiceCallback.OnBufferStart(void)
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/20/2018
 ms.keywords: IXAudio2VoiceCallback, IXAudio2VoiceCallback interface [XAudio2 Audio Mixing APIs], OnBufferStart method, IXAudio2VoiceCallback::OnBufferStart, OnBufferStart method [XAudio2 Audio Mixing APIs], OnBufferStart method [XAudio2 Audio Mixing APIs], IXAudio2VoiceCallback interface, OnBufferStart,IXAudio2VoiceCallback.OnBufferStart, xaudio2.ixaudio2voicecallback_interface_onbufferstart, xaudio2/IXAudio2VoiceCallback::OnBufferStart
 ms.prod: windows-hardware
 ms.technology: windows-devices

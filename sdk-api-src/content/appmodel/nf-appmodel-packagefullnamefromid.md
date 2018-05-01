@@ -7,7 +7,7 @@ old-location: appxpkg\packagefullnamefromid.htm
 old-project: appxpkg
 ms.assetid: 0024AF55-295E-49B1-90C2-9144D336529B
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/26/2018
 ms.keywords: PackageFullNameFromId, PackageFullNameFromId function [App packaging and management], appmodel/PackageFullNameFromId, appxpkg.packagefullnamefromid
 ms.prod: windows-hardware
 ms.technology: windows-devices

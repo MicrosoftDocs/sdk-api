@@ -7,7 +7,7 @@ old-location: shell\ITrayDeskBand_DeskBandRegistrationChanged.htm
 old-project: shell
 ms.assetid: 912ae157-984e-4255-ac1e-e1e7b0b92c15
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: DeskBandRegistrationChanged method [Windows Shell], DeskBandRegistrationChanged method [Windows Shell], ITrayDeskBand interface, DeskBandRegistrationChanged,ITrayDeskBand.DeskBandRegistrationChanged, ITrayDeskBand, ITrayDeskBand interface [Windows Shell], DeskBandRegistrationChanged method, ITrayDeskBand::DeskBandRegistrationChanged, _shell_ITrayDeskBand_DeskBandRegistrationChanged, shell.ITrayDeskBand_DeskBandRegistrationChanged, shobjidl/ITrayDeskBand::DeskBandRegistrationChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices

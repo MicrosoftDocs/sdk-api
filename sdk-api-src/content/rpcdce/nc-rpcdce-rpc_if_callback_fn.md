@@ -7,7 +7,7 @@ old-location: rpc\rpc_if_callback_fn.htm
 old-project: Rpc
 ms.assetid: 6c2239db-4a01-4ba1-b8ea-1c4b3467e326
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: RPC_IF_CALLBACK_FN, RPC_IF_CALLBACK_FN callback function [RPC], _rpc_rpc_if_callback_fn, rpc.rpc_if_callback_fn, rpcdce/RPC_IF_CALLBACK_FN
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # RPC_IF_CALLBACK_FN callback

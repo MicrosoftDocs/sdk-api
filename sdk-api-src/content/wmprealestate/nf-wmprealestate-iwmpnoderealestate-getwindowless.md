@@ -7,7 +7,7 @@ old-location: wmp\iwmpnoderealestate_getwindowless.htm
 old-project: WMP
 ms.assetid: 6a45969c-5eba-4493-a7a8-af69f5ad3dea
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: GetWindowless method [Windows Media Player], GetWindowless method [Windows Media Player], IWMPNodeRealEstate interface, GetWindowless,IWMPNodeRealEstate.GetWindowless, IWMPNodeRealEstate, IWMPNodeRealEstate interface [Windows Media Player], GetWindowless method, IWMPNodeRealEstate::GetWindowless, IWMPNodeRealEstateGetWindowlessRendering, wmp.iwmpnoderealestate_getwindowless, wmprealestate/IWMPNodeRealEstate::GetWindowless
 ms.prod: windows-hardware
 ms.technology: windows-devices

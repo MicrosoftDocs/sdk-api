@@ -58,6 +58,44 @@ Contains virtual disk open request parameters.
 
 
 
+### -field Version
+
+An <a href="https://msdn.microsoft.com/3f45324a-6e31-43d6-9fc9-65c85e6c3493">OPEN_VIRTUAL_DISK_VERSION</a> enumeration 
+      that specifies the version of the 
+      <b>OPEN_VIRTUAL_DISK_PARAMETERS</b> structure 
+      being passed to or from the VHD functions.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="OPEN_VIRTUAL_DISK_VERSION_1"></a><a id="open_virtual_disk_version_1"></a><dl>
+<dt><b>OPEN_VIRTUAL_DISK_VERSION_1</b></dt>
+<dt>1</dt>
+</dl>
+</td>
+<td width="60%">
+Use the <b>Version1</b> member of this structure.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="OPEN_VIRTUAL_DISK_VERSION_2"></a><a id="open_virtual_disk_version_2"></a><dl>
+<dt><b>OPEN_VIRTUAL_DISK_VERSION_2</b></dt>
+<dt>2</dt>
+</dl>
+</td>
+<td width="60%">
+Use the <b>Version2</b> member of this structure.
+
+</td>
+</tr>
+</table>
+ 
+
+
 ### -field Version1
 
 This structure is used if the <b>Version</b> member is 
@@ -161,42 +199,6 @@ Resiliency <b>GUID</b> to specify when opening files.
  
 
 
-### -field Version
-
-An <a href="https://msdn.microsoft.com/3f45324a-6e31-43d6-9fc9-65c85e6c3493">OPEN_VIRTUAL_DISK_VERSION</a> enumeration 
-      that specifies the version of the 
-      <b>OPEN_VIRTUAL_DISK_PARAMETERS</b> structure 
-      being passed to or from the VHD functions.
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="OPEN_VIRTUAL_DISK_VERSION_1"></a><a id="open_virtual_disk_version_1"></a><dl>
-<dt><b>OPEN_VIRTUAL_DISK_VERSION_1</b></dt>
-<dt>1</dt>
-</dl>
-</td>
-<td width="60%">
-Use the <b>Version1</b> member of this structure.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="OPEN_VIRTUAL_DISK_VERSION_2"></a><a id="open_virtual_disk_version_2"></a><dl>
-<dt><b>OPEN_VIRTUAL_DISK_VERSION_2</b></dt>
-<dt>2</dt>
-</dl>
-</td>
-<td width="60%">
-Use the <b>Version2</b> member of this structure.
-
-</td>
-</tr>
-</table>
- 
 
 
 ## -see-also

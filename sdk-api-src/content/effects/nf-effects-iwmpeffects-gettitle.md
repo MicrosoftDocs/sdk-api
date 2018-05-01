@@ -7,7 +7,7 @@ old-location: wmp\iwmpeffects_gettitle.htm
 old-project: WMP
 ms.assetid: 051a0d25-0773-4b9d-879e-5cc60633e406
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: EffectsGetTitle, GetTitle method [Windows Media Player], GetTitle method [Windows Media Player], IWMPEffects interface, GetTitle,IWMPEffects.GetTitle, IWMPEffects, IWMPEffects interface [Windows Media Player], GetTitle method, IWMPEffects::GetTitle, effects/IWMPEffects::GetTitle, wmp.iwmpeffects_gettitle
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: controls\GETTEXTEX.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\gettextex.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: GETTEXTEX, GETTEXTEX structure [Windows Controls], GT_DEFAULT, GT_NOHIDDENTEXT, GT_RAWTEXT, GT_SELECTION, GT_USECRLF, _gettextex, _win32_GETTEXTEX_str, _win32_GETTEXTEX_str_cpp, controls.GETTEXTEX, controls._win32_GETTEXTEX_str, richedit/GETTEXTEX
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _gettextex structure

@@ -7,7 +7,7 @@ old-location: mstv\imsvidrect_put_height.htm
 old-project: mstv
 ms.assetid: 410c5d1c-d4e6-460a-b17d-54bfcee10a66
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidRect, IMSVidRect interface [Microsoft TV Technologies], put_Height method, IMSVidRect::put_Height, IMSVidRectput_Height, mstv.imsvidrect_put_height, put_Height method [Microsoft TV Technologies], put_Height method [Microsoft TV Technologies], IMSVidRect interface, put_Height,IMSVidRect.put_Height, segment/IMSVidRect::put_Height
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidRect::put_Height method

@@ -7,7 +7,7 @@ old-location: security\convertstringsecuritydescriptortosecuritydescriptor.htm
 old-project: SecAuthZ
 ms.assetid: c5654148-fb4c-436d-9378-a1168fc82607
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: ConvertStringSecurityDescriptorToSecurityDescriptor, ConvertStringSecurityDescriptorToSecurityDescriptor function [Security], ConvertStringSecurityDescriptorToSecurityDescriptorA, ConvertStringSecurityDescriptorToSecurityDescriptorW, _win32_convertstringsecuritydescriptortosecuritydescriptor, sddl/ConvertStringSecurityDescriptorToSecurityDescriptor, sddl/ConvertStringSecurityDescriptorToSecurityDescriptorA, sddl/ConvertStringSecurityDescriptorToSecurityDescriptorW, security.convertstringsecuritydescriptortosecuritydescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: SENSE_DATA, *PSENSE_DATA, FIXED_SENSE_DATA, *PFIXED_SENSE_DATA
+req.typenames: SCHEDULE_HEADER, *PSCHEDULE_HEADER
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -47,7 +47,7 @@ targetos: Windows
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ConvertStringSecurityDescriptorToSecurityDescriptorW function

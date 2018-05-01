@@ -7,7 +7,7 @@ old-location: mf\mfinitmediatypefrommfvideoformat.htm
 old-project: medfound
 ms.assetid: 45400b67-df81-4fae-a24d-80020eb07151
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 45400b67-df81-4fae-a24d-80020eb07151, MFInitMediaTypeFromMFVideoFormat, MFInitMediaTypeFromMFVideoFormat function [Media Foundation], mf.mfinitmediatypefrommfvideoformat, mfapi/MFInitMediaTypeFromMFVideoFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\ix500distinguishedname.htm
 old-project: SecCertEnroll
 ms.assetid: 49f176d9-33f6-4bc1-992c-c613279b0969
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: IX500DistinguishedName, IX500DistinguishedName interface [Security], IX500DistinguishedName interface [Security], described, certenroll/IX500DistinguishedName, security.ix500distinguishedname
 ms.prod: windows-hardware
 ms.technology: windows-devices

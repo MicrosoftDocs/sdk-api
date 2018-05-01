@@ -7,7 +7,7 @@ old-location: p2p\peer_data.htm
 old-project: P2PSdk
 ms.assetid: d8a8b9e3-c455-4813-b812-263efe7f5e3e
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/23/2018
 ms.keywords: "*PPEER_DATA, PEER_DATA, PEER_DATA structure [Peer Networking], PPEER_DATA, PPEER_DATA structure pointer [Peer Networking], p2p.peer_data, p2p/PPEER_DATA, p2p/peer_data_tag, peer_data_tag"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # peer_data_tag structure

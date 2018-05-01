@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12infoqueue_pushemptystoragefilter.htm
 old-project: direct3d12
 ms.assetid: 27D7B243-934E-440F-8571-914D7EAF355E
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: ID3D12InfoQueue, ID3D12InfoQueue interface, PushEmptyStorageFilter method, ID3D12InfoQueue::PushEmptyStorageFilter, PushEmptyStorageFilter method, PushEmptyStorageFilter method, ID3D12InfoQueue interface, PushEmptyStorageFilter,ID3D12InfoQueue.PushEmptyStorageFilter, d3d12sdklayers/ID3D12InfoQueue::PushEmptyStorageFilter, direct3d12.id3d12infoqueue_pushemptystoragefilter
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: coreaudio\iactivateaudiointerfacecompletionhandler_activatecomplet
 old-project: CoreAudio
 ms.assetid: f434db12-ab8e-40ca-8a55-b02f28ea5575
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: ActivateCompleted method [Core Audio], ActivateCompleted method [Core Audio], IActivateAudioInterfaceCompletionHandler interface, ActivateCompleted,IActivateAudioInterfaceCompletionHandler.ActivateCompleted, IActivateAudioInterfaceCompletionHandler, IActivateAudioInterfaceCompletionHandler interface [Core Audio], ActivateCompleted method, IActivateAudioInterfaceCompletionHandler::ActivateCompleted, coreaudio.iactivateaudiointerfacecompletionhandler_activatecompleted, mmdeviceapi/IActivateAudioInterfaceCompletionHandler::ActivateCompleted
 ms.prod: windows-hardware
 ms.technology: windows-devices

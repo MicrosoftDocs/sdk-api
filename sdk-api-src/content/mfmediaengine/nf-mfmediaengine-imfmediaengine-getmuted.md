@@ -7,7 +7,7 @@ old-location: mf\imfmediaengine_getmuted.htm
 old-project: medfound
 ms.assetid: 6EDDE60A-1571-4021-B56F-4185694B0911
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetMuted method [Media Foundation], GetMuted method [Media Foundation], IMFMediaEngine interface, GetMuted,IMFMediaEngine.GetMuted, IMFMediaEngine, IMFMediaEngine interface [Media Foundation], GetMuted method, IMFMediaEngine::GetMuted, mf.imfmediaengine_getmuted, mfmediaengine/IMFMediaEngine::GetMuted
 ms.prod: windows-hardware
 ms.technology: windows-devices

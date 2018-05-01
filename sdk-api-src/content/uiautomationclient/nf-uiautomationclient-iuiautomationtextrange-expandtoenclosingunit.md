@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationTextRange_ExpandToEnclosingUnit.htm
 old-project: WinAuto
 ms.assetid: 09ec62c1-f738-43af-bd6c-b45fdfb32236
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: ExpandToEnclosingUnit method [Windows Accessibility], ExpandToEnclosingUnit method [Windows Accessibility], IUIAutomationTextRange interface, ExpandToEnclosingUnit,IUIAutomationTextRange.ExpandToEnclosingUnit, IUIAutomationTextRange, IUIAutomationTextRange interface [Windows Accessibility], ExpandToEnclosingUnit method, IUIAutomationTextRange::ExpandToEnclosingUnit, uiauto.uiauto_IUIAutomationTextRange_ExpandToEnclosingUnit, uiauto_IUIAutomationTextRange_ExpandToEnclosingUnit, uiautomationclient/IUIAutomationTextRange::ExpandToEnclosingUnit, winauto.uiauto_IUIAutomationTextRange_ExpandToEnclosingUnit
 ms.prod: windows-hardware
 ms.technology: windows-devices

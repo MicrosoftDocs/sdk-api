@@ -7,7 +7,7 @@ old-location: dshow\iamfiltergraphcallback.htm
 old-project: DirectShow
 ms.assetid: 064acc6a-ba2f-4394-a3bf-a9b70e30e07e
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMFilterGraphCallback, IAMFilterGraphCallback interface [DirectShow], IAMFilterGraphCallback interface [DirectShow], described, IAMFilterGraphCallbackInterface, dshow.iamfiltergraphcallback, strmif/IAMFilterGraphCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

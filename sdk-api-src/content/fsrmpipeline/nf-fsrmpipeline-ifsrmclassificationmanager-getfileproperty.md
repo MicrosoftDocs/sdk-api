@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmclassificationmanager_getfileproperty.htm
 old-project: Fsrm
 ms.assetid: c8a3c4cb-4753-495b-88f4-2d6cdfef7dc7
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: FsrmClassificationManager class [File Server Resource Manager], GetFileProperty method, GetFileProperty method [File Server Resource Manager], GetFileProperty method [File Server Resource Manager], FsrmClassificationManager class, GetFileProperty method [File Server Resource Manager], IFsrmClassificationManager interface, GetFileProperty method [File Server Resource Manager], IFsrmClassificationManager2 interface, GetFileProperty,IFsrmClassificationManager.GetFileProperty, IFsrmClassificationManager, IFsrmClassificationManager interface [File Server Resource Manager], GetFileProperty method, IFsrmClassificationManager2 interface [File Server Resource Manager], GetFileProperty method, IFsrmClassificationManager2::GetFileProperty, IFsrmClassificationManager::GetFileProperty, fs.ifsrmclassificationmanager_getfileproperty, fsrm.ifsrmclassificationmanager_getfileproperty, fsrmpipeline/IFsrmClassificationManager2::GetFileProperty, fsrmpipeline/IFsrmClassificationManager::GetFileProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

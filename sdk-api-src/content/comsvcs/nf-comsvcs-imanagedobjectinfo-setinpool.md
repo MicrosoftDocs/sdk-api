@@ -7,7 +7,7 @@ old-location: cos\imanagedobjectinfo_setinpool.htm
 old-project: cossdk
 ms.assetid: fef3842f-acf7-4aff-801d-17343633be8c
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: IManagedObjectInfo, IManagedObjectInfo interface [COM+], SetInPool method, IManagedObjectInfo::SetInPool, SetInPool method [COM+], SetInPool method [COM+], IManagedObjectInfo interface, SetInPool,IManagedObjectInfo.SetInPool, _cos_IManagedObjectInfo_SetInPool, comsvcs/IManagedObjectInfo::SetInPool, cos.imanagedobjectinfo_setinpool
 ms.prod: windows-hardware
 ms.technology: windows-devices

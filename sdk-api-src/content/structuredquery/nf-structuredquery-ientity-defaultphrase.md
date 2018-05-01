@@ -7,7 +7,7 @@ old-location: search\_search_IEntity_DefaultPhrase.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ientity\defaultphrase.htm
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/24/2018
 ms.keywords: DefaultPhrase method [search], DefaultPhrase method [search], IEntity interface, DefaultPhrase,IEntity.DefaultPhrase, IEntity, IEntity interface [search], DefaultPhrase method, IEntity::DefaultPhrase, _search_IEntity_DefaultPhrase, search._search_IEntity_DefaultPhrase, structuredquery/IEntity::DefaultPhrase
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationTextRange3_GetEnclosingElementBuildCac
 old-project: WinAuto
 ms.assetid: 6F5BC5DB-F9C0-40DF-8E29-FFACFBCAD80F
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: GetEnclosingElementBuildCache method [Windows Accessibility], GetEnclosingElementBuildCache method [Windows Accessibility], IUIAutomationTextRange3 interface, GetEnclosingElementBuildCache,IUIAutomationTextRange3.GetEnclosingElementBuildCache, IUIAutomationTextRange3, IUIAutomationTextRange3 interface [Windows Accessibility], GetEnclosingElementBuildCache method, IUIAutomationTextRange3::GetEnclosingElementBuildCache, uiautomationclient/IUIAutomationTextRange3::GetEnclosingElementBuildCache, winauto.uiauto_IUIAutomationTextRange3_GetEnclosingElementBuildCache
 ms.prod: windows-hardware
 ms.technology: windows-devices

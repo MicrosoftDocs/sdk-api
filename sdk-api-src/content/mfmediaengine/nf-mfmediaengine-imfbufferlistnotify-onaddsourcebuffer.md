@@ -7,7 +7,7 @@ old-location: mf\imfbufferlistnotify_onaddsourcebuffer.htm
 old-project: medfound
 ms.assetid: 94b943d7-b67a-4f35-b5a6-2e89b4018ff3
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFBufferListNotify, IMFBufferListNotify interface [Media Foundation], OnAddSourceBuffer method, IMFBufferListNotify::OnAddSourceBuffer, OnAddSourceBuffer method [Media Foundation], OnAddSourceBuffer method [Media Foundation], IMFBufferListNotify interface, OnAddSourceBuffer,IMFBufferListNotify.OnAddSourceBuffer, mf.imfbufferlistnotify_onaddsourcebuffer, mfmediaengine/IMFBufferListNotify::OnAddSourceBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

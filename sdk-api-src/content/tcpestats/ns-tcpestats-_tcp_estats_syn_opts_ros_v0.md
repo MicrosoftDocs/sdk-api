@@ -7,7 +7,7 @@ old-location: iphlp\tcp_estats_syn_opts_ros_v0.htm
 old-project: IpHlp
 ms.assetid: e183b23c-ce87-4818-b6d6-2305a3aa345d
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 4/13/2018
 ms.keywords: "*PTCP_ESTATS_SYN_OPTS_ROS_v0, PTCP_ESTATS_SYN_OPTS_ROS_v0, PTCP_ESTATS_SYN_OPTS_ROS_v0 structure pointer [IP Helper], TCP_ESTATS_SYN_OPTS_ROS_v0, TCP_ESTATS_SYN_OPTS_ROS_v0 structure [IP Helper], _TCP_ESTATS_SYN_OPTS_ROS_v0, iphlp.tcp_estats_syn_opts_ros_v0, tcpestats/PTCP_ESTATS_SYN_OPTS_ROS_v0, tcpestats/TCP_ESTATS_SYN_OPTS_ROS_v0"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist_executeindirect.htm
 old-project: direct3d12
 ms.assetid: 99FB088D-F3EB-4BAD-A945-51A1ED6F9288
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: ExecuteIndirect method, ExecuteIndirect method, ID3D12GraphicsCommandList interface, ExecuteIndirect,ID3D12GraphicsCommandList.ExecuteIndirect, ID3D12GraphicsCommandList, ID3D12GraphicsCommandList interface, ExecuteIndirect method, ID3D12GraphicsCommandList::ExecuteIndirect, d3d12/ID3D12GraphicsCommandList::ExecuteIndirect, direct3d12.id3d12graphicscommandlist_executeindirect
 ms.prod: windows-hardware
 ms.technology: windows-devices

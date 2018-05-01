@@ -7,7 +7,7 @@ old-location: direct2d\id2d1rendertarget_createlayer.htm
 old-project: Direct2D
 ms.assetid: 074e9ffb-c5f2-4e7b-94c7-d457bf07c0b7
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: CreateLayer, CreateLayer methods [Direct2D], d2d1/CreateLayer, direct2d.id2d1rendertarget_createlayer
 ms.prod: windows-hardware
 ms.technology: windows-devices

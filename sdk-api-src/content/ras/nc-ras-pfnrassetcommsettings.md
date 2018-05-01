@@ -7,7 +7,7 @@ old-location: rras\rassetcommsettings.htm
 old-project: RRAS
 ms.assetid: 1df305b8-39b0-4426-b20a-62aa79240f67
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: PFNRASSETCOMMSETTINGS, RasSetCommSettings, RasSetCommSettings callback function [RAS], _ras_rassetcommsettings, ras/RasSetCommSettings, rras.rassetcommsettings
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # PFNRASSETCOMMSETTINGS callback

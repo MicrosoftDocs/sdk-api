@@ -7,7 +7,7 @@ old-location: mf\mfcreatevideorendereractivate.htm
 old-project: medfound
 ms.assetid: 021887fc-36af-42d4-ae46-2edc1c700110
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 021887fc-36af-42d4-ae46-2edc1c700110, MFCreateVideoRendererActivate, MFCreateVideoRendererActivate function [Media Foundation], mf.mfcreatevideorendereractivate, mfidl/MFCreateVideoRendererActivate
 ms.prod: windows-hardware
 ms.technology: windows-devices

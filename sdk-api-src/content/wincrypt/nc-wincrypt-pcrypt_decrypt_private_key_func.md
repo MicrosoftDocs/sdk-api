@@ -7,7 +7,7 @@ old-location: security\pcrypt_decrypt_private_key_func.htm
 old-project: SecCrypto
 ms.assetid: f59fd46b-5430-4aa2-85ba-961b416dbaac
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: PCRYPT_DECRYPT_PRIVATE_KEY_FUNC, PCRYPT_DECRYPT_PRIVATE_KEY_FUNC function pointer [Security], security.pcrypt_decrypt_private_key_func, wincrypt/PCRYPT_DECRYPT_PRIVATE_KEY_FUNC
 ms.prod: windows-hardware
 ms.technology: windows-devices

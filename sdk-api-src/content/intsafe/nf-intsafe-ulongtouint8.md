@@ -2,21 +2,21 @@
 UID: NF:intsafe.ULongToUInt8
 title: ULongToUInt8 function
 author: windows-driver-content
-description: Converts a value of type ULONG to a value of type UINT8.
-old-location: shell\ULongToUInt8.htm
+description: Converts a value of type DWORD to a value of type BYTE.
+old-location: shell\DWordToByte.htm
 old-project: shell
-ms.assetid: 2d1db351-797f-4785-b67c-9ab6e661282a
+ms.assetid: 4c5a73e0-8b08-4c40-9ed9-f627d11f6e2e
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
-ms.keywords: ULongToUInt8, ULongToUInt8 function [Windows Shell], intsafe/ULongToUInt8, shell.ULongToUInt8
+ms.date: 4/26/2018
+ms.keywords: DWordToByte, DWordToByte function [Windows Shell], ULongToUInt8, _shell_DWordToByte, intsafe/DWordToByte, shell.DWordToByte
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 7 [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2008 R2 [desktop apps | UWP apps]
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -31,15 +31,15 @@ topic_type:
 -	APIRef
 -	kbSyntax
 api_type:
--	HeaderDef
+-	DllExport
 api_location:
--	intsafe.h
+-	None
 api_name:
--	ULongToUInt8
+-	DWordToByte
 product: Windows
 targetos: Windows
 req.lib: 
-req.dll: 
+req.dll: None
 req.irql: 
 req.product: GDI+ 1.1
 ---
@@ -50,7 +50,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Converts a value of type <b>ULONG</b> to a value of type <b>UINT8</b>.
+Converts a value of type <b>DWORD</b> to a value of type <b>BYTE</b>.
 
 
 ## -parameters
@@ -58,21 +58,48 @@ Converts a value of type <b>ULONG</b> to a value of type <b>UINT8</b>.
 
 
 
-### -param ulOperand [in]
+### -param ulOperand
 
-The value to convert.
+TBD
 
 
-### -param pui8Result [out]
+### -param pui8Result
 
-The converted value.
+TBD
+
+
+
+
+#### - dwOperand [in]
+
+Type: <b>DWORD</b>
+
+The value to be converted.
+
+
+#### - pbResult [out]
+
+Type: <b>BYTE*</b>
+
+A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns INTSAFE_E_ARITHMETIC_OVERFLOW and this parameter is not valid.
 
 
 ## -returns
 
 
 
+Type: <b>HRESULT</b>
+
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
 
 
 

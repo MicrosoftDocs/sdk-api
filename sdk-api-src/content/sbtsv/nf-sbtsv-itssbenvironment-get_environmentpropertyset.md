@@ -7,7 +7,7 @@ old-location: termserv\itssbenvironment_environmentpropertyset.htm
 old-project: TermServ
 ms.assetid: 1615cfbc-09f7-4304-9995-fc1a26b76ce6
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: EnvironmentPropertySet property [Remote Desktop Services], EnvironmentPropertySet property [Remote Desktop Services], ITsSbEnvironment interface, ITsSbEnvironment, ITsSbEnvironment interface [Remote Desktop Services], EnvironmentPropertySet property, ITsSbEnvironment.EnvironmentPropertySet, ITsSbEnvironment::get_EnvironmentPropertySet, ITsSbEnvironment::put_EnvironmentPropertySet, get_EnvironmentPropertySet,ITsSbEnvironment.get_EnvironmentPropertySet, sbtsv/ITsSbEnvironment::EnvironmentPropertySet, sbtsv/ITsSbEnvironment::get_EnvironmentPropertySet, sbtsv/ITsSbEnvironment::put_EnvironmentPropertySet, termserv.itssbenvironment_environmentpropertyset
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITsSbEnvironment::get_EnvironmentPropertySet method

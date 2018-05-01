@@ -7,7 +7,7 @@ old-location: dshow\iamextdevice_get_externaldeviceversion.htm
 old-project: DirectShow
 ms.assetid: 66a98ad3-850a-4b41-a169-f971fde83266
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMExtDevice, IAMExtDevice interface [DirectShow], get_ExternalDeviceVersion method, IAMExtDevice::get_ExternalDeviceVersion, IAMExtDeviceget_ExternalDeviceVersion, dshow.iamextdevice_get_externaldeviceversion, get_ExternalDeviceVersion method [DirectShow], get_ExternalDeviceVersion method [DirectShow], IAMExtDevice interface, get_ExternalDeviceVersion,IAMExtDevice.get_ExternalDeviceVersion, strmif/IAMExtDevice::get_ExternalDeviceVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: termserv\iaudiooutputendpointrt_getoutputdatapointer.htm
 old-project: TermServ
 ms.assetid: 14d69520-3d0c-42ee-8986-9d83b5cff62e
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: GetOutputDataPointer method [Remote Desktop Services], GetOutputDataPointer method [Remote Desktop Services], IAudioOutputEndpointRT interface, GetOutputDataPointer,IAudioOutputEndpointRT.GetOutputDataPointer, IAudioOutputEndpointRT, IAudioOutputEndpointRT interface [Remote Desktop Services], GetOutputDataPointer method, IAudioOutputEndpointRT::GetOutputDataPointer, audioengineendpoint/IAudioOutputEndpointRT::GetOutputDataPointer, termserv.iaudiooutputendpointrt_getoutputdatapointer
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: coreaudio\iaudioendpointvolume_getmastervolumelevelscalar.htm
 old-project: CoreAudio
 ms.assetid: 5a127507-99d2-48e8-b7e9-8bb51ff89f50
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: GetMasterVolumeLevelScalar method [Core Audio], GetMasterVolumeLevelScalar method [Core Audio], IAudioEndpointVolume interface, GetMasterVolumeLevelScalar,IAudioEndpointVolume.GetMasterVolumeLevelScalar, IAudioEndpointVolume, IAudioEndpointVolume interface [Core Audio], GetMasterVolumeLevelScalar method, IAudioEndpointVolume::GetMasterVolumeLevelScalar, IAudioEndpointVolumeGetMasterVolumeLevelScalar, coreaudio.iaudioendpointvolume_getmastervolumelevelscalar, endpointvolume/IAudioEndpointVolume::GetMasterVolumeLevelScalar
 ms.prod: windows-hardware
 ms.technology: windows-devices

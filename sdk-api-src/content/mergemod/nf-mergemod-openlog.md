@@ -7,7 +7,7 @@ old-location: setup\merge_openlog.htm
 old-project: Msi
 ms.assetid: 97d01ea3-43b6-4529-9706-97b3b0132d9c
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/26/2018
 ms.keywords: Merge class, OpenLog method, OpenLog, OpenLog method, OpenLog method, Merge class, _msi_openlog_method, setup.merge_openlog
 ms.prod: windows-hardware
 ms.technology: windows-devices

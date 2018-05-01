@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicimagingfactory_createbitmapclipper.htm
 old-project: wic
 ms.assetid: 0764fee2-0767-41a4-a681-b831abb04119
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: CreateBitmapClipper method [Windows Imaging Component], CreateBitmapClipper method [Windows Imaging Component], IWICImagingFactory interface, CreateBitmapClipper,IWICImagingFactory.CreateBitmapClipper, IWICImagingFactory, IWICImagingFactory interface [Windows Imaging Component], CreateBitmapClipper method, IWICImagingFactory::CreateBitmapClipper, _wic_codec_iwicimagingfactory_createbitmapclipper, wic._wic_codec_iwicimagingfactory_createbitmapclipper, wincodec/IWICImagingFactory::CreateBitmapClipper
 ms.prod: windows-hardware
 ms.technology: windows-devices

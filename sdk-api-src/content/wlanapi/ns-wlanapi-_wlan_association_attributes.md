@@ -7,7 +7,7 @@ old-location: nwifi\wlan_association_attributes.htm
 old-project: NativeWiFi
 ms.assetid: f7d3d106-54a9-4bdf-bccf-216cac938995
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/13/2018
 ms.keywords: "*PWLAN_ASSOCIATION_ATTRIBUTES, PWLAN_ASSOCIATION_ATTRIBUTES, PWLAN_ASSOCIATION_ATTRIBUTES structure pointer [NativeWIFI], WLAN_ASSOCIATION_ATTRIBUTES, WLAN_ASSOCIATION_ATTRIBUTES structure [NativeWIFI], _WLAN_ASSOCIATION_ATTRIBUTES, nwifi.wlan_association_attributes, wlanapi/PWLAN_ASSOCIATION_ATTRIBUTES, wlanapi/WLAN_ASSOCIATION_ATTRIBUTES"
 ms.prod: windows-hardware
 ms.technology: windows-devices

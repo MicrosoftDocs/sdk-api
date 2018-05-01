@@ -7,7 +7,7 @@ old-location: winsock\getaddrinfoexoverlappedresult.htm
 old-project: WinSock
 ms.assetid: BBA6E407-561C-4B3C-9218-0047477E82DE
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/24/2018
 ms.keywords: GetAddrInfoExOverlappedResult, GetAddrInfoExOverlappedResult function [Winsock], winsock.getaddrinfoexoverlappedresult, ws2tcpip/GetAddrInfoExOverlappedResult
 ms.prod: windows-hardware
 ms.technology: windows-devices

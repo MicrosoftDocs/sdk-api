@@ -7,7 +7,7 @@ old-location: security\iazapplication_openscope.htm
 old-project: SecAuthZ
 ms.assetid: c2959a6c-5c87-495b-8025-c6b9c330a0bc
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: AzApplication object [Security], OpenScope method, IAzApplication, IAzApplication interface [Security], OpenScope method, IAzApplication::OpenScope, OpenScope method [Security], OpenScope method [Security], AzApplication object, OpenScope method [Security], IAzApplication interface, OpenScope,IAzApplication.OpenScope, azroles/IAzApplication::OpenScope, security.iazapplication_openscope
 ms.prod: windows-hardware
 ms.technology: windows-devices

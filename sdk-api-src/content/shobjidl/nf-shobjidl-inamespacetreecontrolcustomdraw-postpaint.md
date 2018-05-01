@@ -7,7 +7,7 @@ old-location: shell\INameSpaceTreeControlCustomDraw_PostPaint.htm
 old-project: shell
 ms.assetid: fe8cedc8-166d-4802-9d01-7c3991181618
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: INameSpaceTreeControlCustomDraw, INameSpaceTreeControlCustomDraw interface [Windows Shell], PostPaint method, INameSpaceTreeControlCustomDraw::PostPaint, PostPaint method [Windows Shell], PostPaint method [Windows Shell], INameSpaceTreeControlCustomDraw interface, PostPaint,INameSpaceTreeControlCustomDraw.PostPaint, _shell_INameSpaceTreeControlCustomDraw_PostPaint, shell.INameSpaceTreeControlCustomDraw_PostPaint, shobjidl/INameSpaceTreeControlCustomDraw::PostPaint
 ms.prod: windows-hardware
 ms.technology: windows-devices

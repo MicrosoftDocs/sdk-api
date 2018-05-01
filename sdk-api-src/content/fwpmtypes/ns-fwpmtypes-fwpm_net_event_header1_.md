@@ -7,7 +7,7 @@ old-location: fwp\fwpm_net_event_header1.htm
 old-project: FWP
 ms.assetid: b5315a3b-07ae-4596-92f3-0ca72ca4dd49
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: FWPM_NET_EVENT_FLAG_APP_ID_SET, FWPM_NET_EVENT_FLAG_IP_PROTOCOL_SET, FWPM_NET_EVENT_FLAG_IP_VERSION_SET, FWPM_NET_EVENT_FLAG_LOCAL_ADDR_SET, FWPM_NET_EVENT_FLAG_LOCAL_PORT_SET, FWPM_NET_EVENT_FLAG_REMOTE_ADDR_SET, FWPM_NET_EVENT_FLAG_REMOTE_PORT_SET, FWPM_NET_EVENT_FLAG_SCOPE_ID_SET, FWPM_NET_EVENT_FLAG_USER_ID_SET, FWPM_NET_EVENT_HEADER1, FWPM_NET_EVENT_HEADER1 structure [Filtering], FWPM_NET_EVENT_HEADER1_, fwp.fwpm_net_event_header1, fwpmtypes/FWPM_NET_EVENT_HEADER1
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -56,58 +56,6 @@ The <b>FWPM_NET_EVENT_HEADER1</b> structure contains information common to all e
 ## -struct-fields
 
 
-
-
-### -field reserved2
-
- 
-
-
-### -field reserved3
-
- 
-
-
-### -field reserved4
-
- 
-
-
-### -field reserved5
-
- 
-
-
-### -field reserved6
-
- 
-
-
-### -field reserved7
-
- 
-
-
-### -field reserved8
-
- 
-
-
-### -field reserved9
-
- 
-
-
-### -field reserved10
-
- 
-
-
-### -field reserved1
-
-Specifies a superset of non-Internet protocols.
-
-Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_NONE</b>.
 
 
 ### -field timeStamp
@@ -255,6 +203,60 @@ An <a href="https://msdn.microsoft.com/library/windows/hardware/ff552427">FWP_BY
 ### -field userId
 
 Contains a user ID that corresponds to the traffic.
+
+
+### -field reserved1
+
+Specifies a superset of non-Internet protocols.
+
+Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_NONE</b>.
+
+
+### -field reserved2
+
+ 
+
+
+### -field reserved3
+
+ 
+
+
+### -field reserved4
+
+ 
+
+
+### -field reserved5
+
+ 
+
+
+### -field reserved6
+
+ 
+
+
+### -field reserved7
+
+ 
+
+
+### -field reserved8
+
+ 
+
+
+### -field reserved9
+
+ 
+
+
+### -field reserved10
+
+ 
+
+
 
 
 #### - ( unnamed struct )

@@ -12,7 +12,7 @@ old-location: upnp\iupnpdevicefinderaddcallbackwithinterface.htm
 old-project: UPnP
 ms.assetid: b0d78121-35d0-4f33-b1e9-19e0b2c5b78f
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/25/2018
 ms.keywords: IUPnPDeviceFinderAddCallbackWithInterface, IUPnPDeviceFinderAddCallbackWithInterface interface [UPnP APIs], IUPnPDeviceFinderAddCallbackWithInterface interface [UPnP APIs], described, upnp.iupnpdevicefinderaddcallbackwithinterface, upnp/IUPnPDeviceFinderAddCallbackWithInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices

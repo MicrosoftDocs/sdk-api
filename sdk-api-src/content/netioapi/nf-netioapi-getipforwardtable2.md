@@ -7,7 +7,7 @@ old-location: iphlp\getipforwardtable2.htm
 old-project: IpHlp
 ms.assetid: 14412ef1-d970-419d-abfa-389f6ceb638d
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 4/13/2018
 ms.keywords: AF_INET, AF_INET6, AF_UNSPEC, GetIpForwardTable2, GetIpForwardTable2 function [IP Helper], iphlp.getipforwardtable2, netioapi/GetIpForwardTable2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # GetIpForwardTable2 function

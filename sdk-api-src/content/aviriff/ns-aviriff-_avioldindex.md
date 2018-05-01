@@ -7,7 +7,7 @@ old-location: dshow\avioldindex.htm
 old-project: DirectShow
 ms.assetid: c36d5759-710e-4abe-85dc-13462013bb9f
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: AVIIF_KEYFRAME, AVIIF_LIST, AVIIF_NO_TIME, AVIOLDINDEX, AVIOLDINDEX structure [DirectShow], AVIOLDINDEXStructure, _avioldindex, aviriff/AVIOLDINDEX, db, dc, dshow.avioldindex, pc, wb
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,6 +58,16 @@ The <b>AVIOLDINDEX</b> structure describes an AVI 1.0 index ('idx1' format). New
 ## -struct-fields
 
 
+
+
+### -field fcc
+
+Specifies a FOURCC code. The value must be 'idx1'.
+
+
+### -field cb
+
+Specifies the size of the structure, not including the initial 8 bytes.
 
 
 ### -field _avioldindex_entry
@@ -146,16 +156,6 @@ Specifies the location of the data chunk in the file. The value should be specif
 #### dwSize
 
 Specifies the size of the data chunk, in bytes.
-
-
-### -field fcc
-
-Specifies a FOURCC code. The value must be 'idx1'.
-
-
-### -field cb
-
-Specifies the size of the structure, not including the initial 8 bytes.
 
 
 ## -remarks

@@ -7,7 +7,7 @@ old-location: mf\itocparser_gettocbytype.htm
 old-project: medfound
 ms.assetid: 97a3b835-5d99-4b37-8f1d-2469e85faf9b
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetTocByType method [Media Foundation], GetTocByType method [Media Foundation], ITocParser interface, GetTocByType,ITocParser.GetTocByType, ITocParser, ITocParser interface [Media Foundation], GetTocByType method, ITocParser::GetTocByType, codecapi.itocparser_gettocbytype, mf.itocparser_gettocbytype, wmcodecdsp/ITocParser::GetTocByType
 ms.prod: windows-hardware
 ms.technology: windows-devices

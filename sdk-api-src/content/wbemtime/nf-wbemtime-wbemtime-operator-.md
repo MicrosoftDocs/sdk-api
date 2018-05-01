@@ -7,7 +7,7 @@ old-location: wmi\wbemtime_operator_minus_const_wbemtimespan__.htm
 old-project: WmiSdk
 ms.assetid: d96efdf3-1020-4145-92ad-bbde5704639e
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: "??GWBEMTime@@QBE?AV0@ABVWBEMTimeSpan@@@Z, WBEMTime, WBEMTime interface [Windows Management Instrumentation], operator- method, WBEMTime::operator-, operator- method [Windows Management Instrumentation], operator- method [Windows Management Instrumentation], WBEMTime interface, operator-,WBEMTime.operator-, wbemtime/WBEMTime::operator-, wmi.wbemtime_operator_minus_const_wbemtimespan__"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tapi3\ft_state_event_cause.htm
 old-project: Tapi
 ms.assetid: dd81fe2d-07ab-404b-8510-52029d67ef9b
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: FTEC_END_OF_FILE, FTEC_MAX_DURATION_REACHED, FTEC_NORMAL, FTEC_PAUSE_ON_SILENCE_SIGNAL_DETECTED, FTEC_PAUSE_ON_SILENCE_THRESHOLD_TRIGGERED, FTEC_READ_ERROR, FTEC_STOP_ON_SILENCE_THRESHOLD_TRIGGERED, FTEC_WRITE_ERROR, FT_STATE_EVENT_CAUSE, FT_STATE_EVENT_CAUSE enumeration [TAPI 2.2], _tapi3_ft_state_event_cause, tapi3.ft_state_event_cause, tapi3if/FTEC_END_OF_FILE, tapi3if/FTEC_MAX_DURATION_REACHED, tapi3if/FTEC_NORMAL, tapi3if/FTEC_PAUSE_ON_SILENCE_SIGNAL_DETECTED, tapi3if/FTEC_PAUSE_ON_SILENCE_THRESHOLD_TRIGGERED, tapi3if/FTEC_READ_ERROR, tapi3if/FTEC_STOP_ON_SILENCE_THRESHOLD_TRIGGERED, tapi3if/FTEC_WRITE_ERROR, tapi3if/FT_STATE_EVENT_CAUSE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,8 +38,8 @@ api_name:
 -	FT_STATE_EVENT_CAUSE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
 req.irql: 
 req.product: Windows XP with SP1 and later
 ---

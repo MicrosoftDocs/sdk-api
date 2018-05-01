@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyjob1_get_jobid.htm
 old-project: Bits
 ms.assetid: 4f639576-33fd-413c-a163-764c0aa2ce81
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/10/2018
 ms.keywords: IBackgroundCopyJob1, IBackgroundCopyJob1 interface [BITS], get_JobID method, IBackgroundCopyJob1::get_JobID, bits.ibackgroundcopyjob1_get_jobid, get_JobID method [BITS], get_JobID method [BITS], IBackgroundCopyJob1 interface, get_JobID,IBackgroundCopyJob1.get_JobID, qmgr/IBackgroundCopyJob1::get_JobID
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: QmgrPrxy.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IBackgroundCopyJob1::get_JobID method

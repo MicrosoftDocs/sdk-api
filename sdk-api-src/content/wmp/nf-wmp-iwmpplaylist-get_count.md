@@ -7,7 +7,7 @@ old-location: wmp\iwmpplaylist_get_count.htm
 old-project: WMP
 ms.assetid: e37d1d96-27c3-415a-ac85-ab4b94dbc688
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPPlaylist, IWMPPlaylist interface [Windows Media Player], get_count method, IWMPPlaylist::get_count, IWMPPlaylistget_count, get_count method [Windows Media Player], get_count method [Windows Media Player], IWMPPlaylist interface, get_count,IWMPPlaylist.get_count, wmp.iwmpplaylist_get_count, wmp/IWMPPlaylist::get_count
 ms.prod: windows-hardware
 ms.technology: windows-devices

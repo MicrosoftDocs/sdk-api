@@ -7,7 +7,7 @@ old-location: nwifi\dot11_psd_ie_data_entry.htm
 old-project: NativeWiFi
 ms.assetid: 5f5ddecb-f841-436c-bf31-c70c95a5d39c
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/13/2018
 ms.keywords: "*PWLAN_RAW_DATA, PWLAN_RAW_DATA, PWLAN_RAW_DATA structure pointer [NativeWIFI], WLAN_RAW_DATA, WLAN_RAW_DATA structure [NativeWIFI], _WLAN_RAW_DATA, nwifi.dot11_psd_ie_data_entry, wlanapi/PWLAN_RAW_DATA, wlanapi/WLAN_RAW_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices

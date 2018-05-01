@@ -7,7 +7,7 @@ old-location: direct2d\d2d1_vignette_prop.htm
 old-project: Direct2D
 ms.assetid: B45EFED7-97CA-41AF-9C36-4ECDCC153183
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: D2D1_VIGNETTE_PROP, D2D1_VIGNETTE_PROP enumeration [Direct2D], D2D1_VIGNETTE_PROP_COLOR, D2D1_VIGNETTE_PROP_STRENGTH, D2D1_VIGNETTE_PROP_TRANSITION_SIZE, d2d1effects_2/D2D1_VIGNETTE_PROP, d2d1effects_2/D2D1_VIGNETTE_PROP_COLOR, d2d1effects_2/D2D1_VIGNETTE_PROP_STRENGTH, d2d1effects_2/D2D1_VIGNETTE_PROP_TRANSITION_SIZE, direct2d.d2d1_vignette_prop
 ms.prod: windows-hardware
 ms.technology: windows-devices

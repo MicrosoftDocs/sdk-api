@@ -7,7 +7,7 @@ old-location: shell\IBrowserService2_PutBaseBrowserData.htm
 old-project: shell
 ms.assetid: 960bcc2c-9c2c-47e7-ad32-27dcdc4ad783
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IBrowserService2, IBrowserService2 interface [Windows Shell], PutBaseBrowserData method, IBrowserService2::PutBaseBrowserData, PutBaseBrowserData method [Windows Shell], PutBaseBrowserData method [Windows Shell], IBrowserService2 interface, PutBaseBrowserData,IBrowserService2.PutBaseBrowserData, shdeprecated/IBrowserService2::PutBaseBrowserData, shell.IBrowserService2_PutBaseBrowserData, zone_IBrowserService2_PutBaseBrowserData
 ms.prod: windows-hardware
 ms.technology: windows-devices

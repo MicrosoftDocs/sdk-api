@@ -7,7 +7,7 @@ old-location: fwp\fwpm_provider_context_change_callback0_func.htm
 old-project: FWP
 ms.assetid: 21628bab-ee4d-40e8-8042-97d5462c1013
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: FWPM_PROVIDER_CONTEXT_CHANGE_CALLBACK0, FWPM_PROVIDER_CONTEXT_CHANGE_CALLBACK0 function pointer [Filtering], fwp.fwpm_provider_context_change_callback0_func, fwpmu/FWPM_PROVIDER_CONTEXT_CHANGE_CALLBACK0
 ms.prod: windows-hardware
 ms.technology: windows-devices

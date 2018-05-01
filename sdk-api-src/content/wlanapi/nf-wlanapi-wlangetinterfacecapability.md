@@ -7,7 +7,7 @@ old-location: nwifi\wlangetinterfacecapability.htm
 old-project: NativeWiFi
 ms.assetid: 09f8273a-5259-44fa-b55e-af3282735c0b
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/13/2018
 ms.keywords: WlanGetInterfaceCapability, WlanGetInterfaceCapability function [NativeWIFI], nwifi.wlangetinterfacecapability, wlanapi/WlanGetInterfaceCapability
 ms.prod: windows-hardware
 ms.technology: windows-devices

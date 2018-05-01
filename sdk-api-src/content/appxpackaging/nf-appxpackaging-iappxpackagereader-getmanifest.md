@@ -7,7 +7,7 @@ old-location: appxpkg\iappxpackagereader_getmanifest.htm
 old-project: appxpkg
 ms.assetid: 5EE69CCD-C941-4346-B539-C415CE9EA1FB
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/26/2018
 ms.keywords: GetManifest method [App packaging and management], GetManifest method [App packaging and management], IAppxPackageReader interface, GetManifest,IAppxPackageReader.GetManifest, IAppxPackageReader, IAppxPackageReader interface [App packaging and management], GetManifest method, IAppxPackageReader::GetManifest, appxpackaging/IAppxPackageReader::GetManifest, appxpkg.iappxpackagereader_getmanifest
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_ARCHITECTURE2
+req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
 topic_type:
 -	APIRef
 -	kbSyntax

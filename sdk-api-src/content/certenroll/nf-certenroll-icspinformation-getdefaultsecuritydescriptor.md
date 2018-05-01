@@ -7,7 +7,7 @@ old-location: security\icspinformation_getdefaultsecuritydescriptor.htm
 old-project: SecCertEnroll
 ms.assetid: b4594400-29f2-47e2-8b4f-87ee82ea5e82
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: GetDefaultSecurityDescriptor method [Security], GetDefaultSecurityDescriptor method [Security], ICspInformation interface, GetDefaultSecurityDescriptor,ICspInformation.GetDefaultSecurityDescriptor, ICspInformation, ICspInformation interface [Security], GetDefaultSecurityDescriptor method, ICspInformation::GetDefaultSecurityDescriptor, certenroll/ICspInformation::GetDefaultSecurityDescriptor, security.icspinformation_getdefaultsecuritydescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices

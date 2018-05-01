@@ -7,7 +7,7 @@ old-location: security\cert_revocation_chain_para.htm
 old-project: SecCrypto
 ms.assetid: 9cdcc81a-aef1-4a1e-94f8-7aa461225dae
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: "*PCERT_REVOCATION_CHAIN_PARA, CERT_CHAIN_REVOCATION_CHECK_OCSP_CERT, CERT_REVOCATION_CHAIN_PARA, CERT_REVOCATION_CHAIN_PARA structure [Security], PCERT_REVOCATION_CHAIN_PARA, PCERT_REVOCATION_CHAIN_PARA structure pointer [Security], _CERT_REVOCATION_CHAIN_PARA, security.cert_revocation_chain_para, wincrypt/CERT_REVOCATION_CHAIN_PARA, wincrypt/PCERT_REVOCATION_CHAIN_PARA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,21 +58,22 @@ The <b>CERT_REVOCATION_CHAIN_PARA</b> structure contains parameters used for bui
 
 
 
-
-
-#### - cbMaxUrlRetrievalByteCount
-
-A <b>DWORD</b> value that specifies the maximum number of bytes to download from the URL object. A value of 0 specifies no limit.
-
-<b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This member is not supported.
-
-
-#### - cbSize
+### -field cbSize
 
 The size, in bytes, of this structure.
 
 
-#### - dwChainFlags
+### -field hChainEngine
+
+A handle to the chain engine used by the caller.
+
+
+### -field hAdditionalStore
+
+A handle to a store that contains the certificates used to build the original chain. The handle can be <b>NULL</b>.
+
+
+### -field dwChainFlags
 
 A value for the <i>dwFlags</i> parameter passed to the <a href="https://msdn.microsoft.com/8c93036c-0b93-40d4-b0e3-ba1f2fc72db1">CertGetCertificateChain</a> function.
 
@@ -99,28 +100,25 @@ setting the pointer to the above <b>CERT_REVOCATION_CHAIN_PARA</b> data structur
  
 
 
-#### - dwUrlRetrievalTimeout
+### -field dwUrlRetrievalTimeout
 
 A value that contains the time-out limit, in milliseconds. If zero, the revocation handler's default time-out is used.
 
 
-#### - hAdditionalStore
+### -field pftCurrentTime
 
-A handle to a store that contains the certificates used to build the original chain. The handle can be <b>NULL</b>.
-
-
-#### - hChainEngine
-
-A handle to the chain engine used by the caller.
+A pointer to a <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure used in the freshness time check. If this pointer is <b>NULL</b>, the revocation handler uses the current time.
 
 
-#### - pftCacheResync
+### -field pftCacheResync
 
 A pointer to a <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure that governs the use of cached information. Any information cached  before this time is considered invalid and new information is retrieved. When set, this value overrides
     the registry configuration CacheResync time.
 
 
-#### - pftCurrentTime
+### -field cbMaxUrlRetrievalByteCount
 
-A pointer to a <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure used in the freshness time check. If this pointer is <b>NULL</b>, the revocation handler uses the current time.
+A <b>DWORD</b> value that specifies the maximum number of bytes to download from the URL object. A value of 0 specifies no limit.
+
+<b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This member is not supported.
 

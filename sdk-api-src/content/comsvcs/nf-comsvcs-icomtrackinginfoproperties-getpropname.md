@@ -7,7 +7,7 @@ old-location: cos\icomtrackinginfoproperties_getpropname.htm
 old-project: cossdk
 ms.assetid: 9a26bd3d-89e2-46fd-b9d1-b65ed12ae2ee
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: GetPropName method [COM+], GetPropName method [COM+], IComTrackingInfoProperties interface, GetPropName,IComTrackingInfoProperties.GetPropName, IComTrackingInfoProperties, IComTrackingInfoProperties interface [COM+], GetPropName method, IComTrackingInfoProperties::GetPropName, _dtc_IComTrackingInfoProperties_GetPropName, comsvcs/IComTrackingInfoProperties::GetPropName, cos.icomtrackinginfoproperties_getpropname
 ms.prod: windows-hardware
 ms.technology: windows-devices

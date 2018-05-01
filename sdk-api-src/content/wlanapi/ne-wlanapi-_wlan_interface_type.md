@@ -7,7 +7,7 @@ old-location: nwifi\wlan_interface_type.htm
 old-project: NativeWiFi
 ms.assetid: c7a3aa6c-2f66-4d45-a975-f6da433e368f
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/13/2018
 ms.keywords: "*PWLAN_INTERFACE_TYPE, PWLAN_INTERFACE_TYPE, PWLAN_INTERFACE_TYPE enumeration pointer [NativeWIFI], WLAN_INTERFACE_TYPE, WLAN_INTERFACE_TYPE enumeration [NativeWIFI], _WLAN_INTERFACE_TYPE, nwifi.wlan_interface_type, wlan_interface_type_emulated_802_11, wlan_interface_type_invalid, wlan_interface_type_native_802_11, wlanapi/PWLAN_INTERFACE_TYPE, wlanapi/WLAN_INTERFACE_TYPE, wlanapi/wlan_interface_type_emulated_802_11, wlanapi/wlan_interface_type_invalid, wlanapi/wlan_interface_type_native_802_11"
 ms.prod: windows-hardware
 ms.technology: windows-devices

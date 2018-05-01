@@ -7,7 +7,7 @@ old-location: xaudio2\fxeq_parameters.htm
 old-project: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xapofx.FXEQ_PARAMETERS
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/20/2018
 ms.keywords: FXEQ_PARAMETERS, FXEQ_PARAMETERS structure [XAudio2 Audio Mixing APIs], xapofx/FXEQ_PARAMETERS, xaudio2.fxeq_parameters
 ms.prod: windows-hardware
 ms.technology: windows-devices

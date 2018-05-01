@@ -7,7 +7,7 @@ old-location: properties\IPropertyDescription_GetViewFlags.htm
 old-project: properties
 ms.assetid: 73b60861-3d73-4bff-ae46-a7683d708c83
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/5/2018
 ms.keywords: GetViewFlags method [Windows Properties], GetViewFlags method [Windows Properties], IPropertyDescription interface, GetViewFlags,IPropertyDescription.GetViewFlags, IPropertyDescription, IPropertyDescription interface [Windows Properties], GetViewFlags method, IPropertyDescription::GetViewFlags, properties.IPropertyDescription_GetViewFlags, propsys/IPropertyDescription::GetViewFlags, shell.IPropertyDescription_GetViewFlags, shell_IPropertyDescription_GetViewFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IPropertyDescription::GetViewFlags method

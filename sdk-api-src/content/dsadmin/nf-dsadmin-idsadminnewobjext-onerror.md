@@ -7,7 +7,7 @@ old-location: ad\idsadminnewobjext_onerror.htm
 old-project: AD
 ms.assetid: d1bb1eb6-db96-4322-8beb-0b9a3c6b0318
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/20/2018
 ms.keywords: DSA_NEWOBJ_CTX_CLEANUP, DSA_NEWOBJ_CTX_COMMIT, DSA_NEWOBJ_CTX_POSTCOMMIT, DSA_NEWOBJ_CTX_PRECOMMIT, IDsAdminNewObjExt, IDsAdminNewObjExt interface [Active Directory], OnError method, IDsAdminNewObjExt::OnError, OnError method [Active Directory], OnError method [Active Directory], IDsAdminNewObjExt interface, OnError,IDsAdminNewObjExt.OnError, _glines_idsadminnewobjext_onerror, ad.idsadminnewobjext__onerror, ad.idsadminnewobjext_onerror, dsadmin/IDsAdminNewObjExt::OnError
 ms.prod: windows-hardware
 ms.technology: windows-devices

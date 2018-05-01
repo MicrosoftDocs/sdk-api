@@ -7,7 +7,7 @@ old-location: mf\imfshutdown.htm
 old-project: medfound
 ms.assetid: c3052658-51bb-401b-8db9-3428868899d6
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFShutdown, IMFShutdown interface [Media Foundation], IMFShutdown interface [Media Foundation], described, c3052658-51bb-401b-8db9-3428868899d6, mf.imfshutdown, mfidl/IMFShutdown
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ api_name:
 product: Windows
 targetos: Windows
 req.lib: Mfuuid.lib
-req.dll: Mfplat.dll
+req.dll: Mfsensorgroup.dll
 req.irql: 
 req.product: GDI+ 1.1
 ---

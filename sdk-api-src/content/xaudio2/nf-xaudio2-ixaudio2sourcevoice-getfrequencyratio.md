@@ -7,7 +7,7 @@ old-location: xaudio2\ixaudio2sourcevoice_interface_getfrequencyratio.htm
 old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2sourcevoice.IXAudio2SourceVoice.GetFrequencyRatio(float@)
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/20/2018
 ms.keywords: GetFrequencyRatio method [XAudio2 Audio Mixing APIs], GetFrequencyRatio method [XAudio2 Audio Mixing APIs], IXAudio2SourceVoice interface, GetFrequencyRatio,IXAudio2SourceVoice.GetFrequencyRatio, IXAudio2SourceVoice, IXAudio2SourceVoice interface [XAudio2 Audio Mixing APIs], GetFrequencyRatio method, IXAudio2SourceVoice::GetFrequencyRatio, xaudio2.ixaudio2sourcevoice_interface_getfrequencyratio, xaudio2/IXAudio2SourceVoice::GetFrequencyRatio
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopygroup.htm
 old-project: Bits
 ms.assetid: 51ddd89a-489a-4b83-ad45-838809a6d2e8
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/10/2018
 ms.keywords: IBackgroundCopyGroup, IBackgroundCopyGroup interface [BITS], IBackgroundCopyGroup interface [BITS], described, bits.ibackgroundcopygroup, qmgr/IBackgroundCopyGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: 
 req.dll: QmgrPrxy.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IBackgroundCopyGroup interface

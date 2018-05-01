@@ -7,7 +7,7 @@ old-location: wmi\cinstance_getchstring.htm
 old-project: WmiSdk
 ms.assetid: d9295ba1-19da-41a2-86d1-ec80e18e895b
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: "?GetCHString@CInstance@@QBE_NPBGAAVCHString@@@Z, ?GetCHString@CInstance@@QEBA_NPEBGAEAVCHString@@@Z, CInstance, CInstance interface [Windows Management Instrumentation], GetCHString method, CInstance::GetCHString, GetCHString method [Windows Management Instrumentation], GetCHString method [Windows Management Instrumentation], CInstance interface, GetCHString,CInstance.GetCHString, _hmm_cinstance_getchstring, instance/CInstance::GetCHString, wmi.cinstance_getchstring"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: InputScope
+req.typenames: TrustLevel
 topic_type:
 -	APIRef
 -	kbSyntax

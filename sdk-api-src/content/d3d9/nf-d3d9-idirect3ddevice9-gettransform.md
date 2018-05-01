@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3ddevice9__gettransform.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__gettransform.htm
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/10/2018
 ms.keywords: GetTransform method [Direct3D 9], GetTransform method [Direct3D 9], IDirect3DDevice9 interface, GetTransform,IDirect3DDevice9.GetTransform, IDirect3DDevice9, IDirect3DDevice9 interface [Direct3D 9], GetTransform method, IDirect3DDevice9::GetTransform, a6b5ae1d-9cec-460e-5acb-c2e1bd7566e6, d3d9helper/IDirect3DDevice9::GetTransform, direct3d9.idirect3ddevice9__gettransform
 ms.prod: windows-hardware
 ms.technology: windows-devices

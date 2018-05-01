@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiovolumeducknotification_onvolumeducknotification.ht
 old-project: CoreAudio
 ms.assetid: 1bc28f44-1595-4d45-872f-2473bffd33aa
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: IAudioVolumeDuckNotification, IAudioVolumeDuckNotification interface [Core Audio], OnVolumeDuckNotification method, IAudioVolumeDuckNotification::OnVolumeDuckNotification, OnVolumeDuckNotification method [Core Audio], OnVolumeDuckNotification method [Core Audio], IAudioVolumeDuckNotification interface, OnVolumeDuckNotification,IAudioVolumeDuckNotification.OnVolumeDuckNotification, audiopolicy/IAudioVolumeDuckNotification::OnVolumeDuckNotification, coreaudio.iaudiovolumeducknotification_onvolumeducknotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: AE_CURRENT_POSITION, *PAE_CURRENT_POSITION
+req.typenames: UNCOMPRESSEDAUDIOFORMAT
 topic_type:
 -	APIRef
 -	kbSyntax

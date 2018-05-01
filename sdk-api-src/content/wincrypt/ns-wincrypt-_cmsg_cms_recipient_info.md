@@ -7,7 +7,7 @@ old-location: security\cmsg_cms_recipient_info.htm
 old-project: SecCrypto
 ms.assetid: 27ce2430-d240-49f7-bff7-32be1695c8c0
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: "*PCMSG_CMS_RECIPIENT_INFO, CMSG_CMS_RECIPIENT_INFO, CMSG_CMS_RECIPIENT_INFO structure [Security], CMSG_KEY_AGREE_RECIPIENT, CMSG_KEY_TRANS_RECIPIENT, CMSG_MAIL_LIST_RECIPIENT, PCMSG_CMS_RECIPIENT_INFO, PCMSG_CMS_RECIPIENT_INFO structure pointer [Security], _CMSG_CMS_RECIPIENT_INFO, _crypto2_cmsg_cms_recipient_info, security.cmsg_cms_recipient_info, wincrypt/CMSG_CMS_RECIPIENT_INFO, wincrypt/PCMSG_CMS_RECIPIENT_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,11 +59,6 @@ The <b>CMSG_CMS_RECIPIENT_INFO</b> structure is used with the
 
 
 
-### -field DUMMYUNIONNAME
-
- 
-
-
 ### -field dwRecipientChoice
 
 Indicates the member of the union to be used. 
@@ -110,6 +105,13 @@ pMailList
 </tr>
 </table>
  
+
+
+### -field DUMMYUNIONNAME
+
+ 
+
+
 
 
 #### - pKeyAgree

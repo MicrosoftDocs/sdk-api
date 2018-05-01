@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12debugcommandlist1_assertresourcestate.htm
 old-project: direct3d12
 ms.assetid: DB036A55-D677-4288-B165-5441BA457492
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: AssertResourceState method, AssertResourceState method, ID3D12DebugCommandList1 interface, AssertResourceState,ID3D12DebugCommandList1.AssertResourceState, ID3D12DebugCommandList1, ID3D12DebugCommandList1 interface, AssertResourceState method, ID3D12DebugCommandList1::AssertResourceState, d3d12sdklayers/ID3D12DebugCommandList1::AssertResourceState, direct3d12.id3d12debugcommandlist1_assertresourcestate
 ms.prod: windows-hardware
 ms.technology: windows-devices

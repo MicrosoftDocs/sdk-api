@@ -7,7 +7,7 @@ old-location: shell\IAutoComplete2_SetOptions.htm
 old-project: shell
 ms.assetid: d3562845-fc28-4726-a520-29720f9924fc
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAutoComplete2, IAutoComplete2 interface [Windows Shell], SetOptions method, IAutoComplete2::SetOptions, SetOptions method [Windows Shell], SetOptions method [Windows Shell], IAutoComplete2 interface, SetOptions,IAutoComplete2.SetOptions, _win32_IAutoComplete2_SetOptions, shell.IAutoComplete2_SetOptions, shldisp/IAutoComplete2::SetOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices

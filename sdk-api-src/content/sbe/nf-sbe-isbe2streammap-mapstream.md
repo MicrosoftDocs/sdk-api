@@ -7,7 +7,7 @@ old-location: mstv\isbe2streammap_mapstream.htm
 old-project: mstv
 ms.assetid: efe3b21d-9664-4367-9bfe-4c02589370c4
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: ISBE2StreamMap, ISBE2StreamMap interface [Microsoft TV Technologies], MapStream method, ISBE2StreamMap::MapStream, MapStream method [Microsoft TV Technologies], MapStream method [Microsoft TV Technologies], ISBE2StreamMap interface, MapStream,ISBE2StreamMap.MapStream, mstv.isbe2streammap_mapstream, sbe/ISBE2StreamMap::MapStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ISBE2StreamMap::MapStream method

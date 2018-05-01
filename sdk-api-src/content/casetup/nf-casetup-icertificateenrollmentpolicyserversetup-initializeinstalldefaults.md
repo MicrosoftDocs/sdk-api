@@ -7,7 +7,7 @@ old-location: security\icertificateenrollmentpolicyserversetup_initializeinstall
 old-project: SecCrypto
 ms.assetid: C7E82D9B-DC1A-4268-8973-5D07D977451D
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: ICertificateEnrollmentPolicyServerSetup, ICertificateEnrollmentPolicyServerSetup interface [Security], InitializeInstallDefaults method, ICertificateEnrollmentPolicyServerSetup::InitializeInstallDefaults, InitializeInstallDefaults method [Security], InitializeInstallDefaults method [Security], ICertificateEnrollmentPolicyServerSetup interface, InitializeInstallDefaults,ICertificateEnrollmentPolicyServerSetup.InitializeInstallDefaults, casetup/ICertificateEnrollmentPolicyServerSetup::InitializeInstallDefaults, security.icertificateenrollmentpolicyserversetup_initializeinstalldefaults
 ms.prod: windows-hardware
 ms.technology: windows-devices

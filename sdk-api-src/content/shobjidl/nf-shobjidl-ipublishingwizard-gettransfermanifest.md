@@ -7,7 +7,7 @@ old-location: shell\IPublishingWizard_GetTransferManifest.htm
 old-project: shell
 ms.assetid: 1c595526-f810-4a33-82c3-785727153b16
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetTransferManifest method [Windows Shell], GetTransferManifest method [Windows Shell], IPublishingWizard interface, GetTransferManifest,IPublishingWizard.GetTransferManifest, IPublishingWizard, IPublishingWizard interface [Windows Shell], GetTransferManifest method, IPublishingWizard::GetTransferManifest, _shell_IPublishingWizard_GetTransferManifest, shell.IPublishingWizard_GetTransferManifest, shobjidl/IPublishingWizard::GetTransferManifest
 ms.prod: windows-hardware
 ms.technology: windows-devices

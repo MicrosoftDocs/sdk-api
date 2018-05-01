@@ -7,7 +7,7 @@ old-location: appxpkg\iappxmanifestresourcesenumerator_movenext.htm
 old-project: appxpkg
 ms.assetid: CD5A7FF9-A28E-4857-AE7B-92F8EEBA0235
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/26/2018
 ms.keywords: IAppxManifestResourcesEnumerator, IAppxManifestResourcesEnumerator interface [App packaging and management], MoveNext method, IAppxManifestResourcesEnumerator::MoveNext, MoveNext method [App packaging and management], MoveNext method [App packaging and management], IAppxManifestResourcesEnumerator interface, MoveNext,IAppxManifestResourcesEnumerator.MoveNext, appxpackaging/IAppxManifestResourcesEnumerator::MoveNext, appxpkg.iappxmanifestresourcesenumerator_movenext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_ARCHITECTURE2
+req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
 topic_type:
 -	APIRef
 -	kbSyntax

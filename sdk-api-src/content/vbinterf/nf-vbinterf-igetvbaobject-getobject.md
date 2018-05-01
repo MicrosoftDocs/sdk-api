@@ -7,7 +7,7 @@ old-location: com\igetvbaobject_getobject.htm
 old-project: com
 ms.assetid: 0701c4e7-9a35-42fe-893c-ca898b3716ea
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: GetObject method [COM], GetObject method [COM], IGetVBAObject interface, GetObject,IGetVBAObject.GetObject, IGetVBAObject, IGetVBAObject interface [COM], GetObject method, IGetVBAObject::GetObject, _com_IGetVBAObject_GetObject, com.igetvbaobject_getobject, vbinterf/IGetVBAObject::GetObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

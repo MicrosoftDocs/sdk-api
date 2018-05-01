@@ -7,7 +7,7 @@ old-location: multimedia\avifileinit.htm
 old-project: Multimedia
 ms.assetid: 3246a7d2-4b17-413d-b0d5-82146c993f26
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/25/2018
 ms.keywords: AVIFileInit, AVIFileInit function [Windows Multimedia], _win32_AVIFileInit, multimedia.avifileinit, vfw/AVIFileInit
 ms.prod: windows-hardware
 ms.technology: windows-devices

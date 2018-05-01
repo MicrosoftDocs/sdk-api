@@ -7,7 +7,7 @@ old-location: mstv\icaptionservicedescriptor_getlanguagecode.htm
 old-project: mstv
 ms.assetid: 4b3b31dd-83cc-4067-a46f-929e1a75087a
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetLanguageCode method [Microsoft TV Technologies], GetLanguageCode method [Microsoft TV Technologies], ICaptionServiceDescriptor interface, GetLanguageCode,ICaptionServiceDescriptor.GetLanguageCode, ICaptionServiceDescriptor, ICaptionServiceDescriptor interface [Microsoft TV Technologies], GetLanguageCode method, ICaptionServiceDescriptor::GetLanguageCode, ICaptionServiceDescriptorGetLanguageCode, atscpsipparser/ICaptionServiceDescriptor::GetLanguageCode, mstv.icaptionservicedescriptor_getlanguagecode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_WRITER_PAYLOAD_STREAM
+req.typenames: AsyncStatus
 topic_type:
 -	APIRef
 -	kbSyntax

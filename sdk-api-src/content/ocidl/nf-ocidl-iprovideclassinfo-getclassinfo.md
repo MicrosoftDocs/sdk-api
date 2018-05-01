@@ -7,7 +7,7 @@ old-location: com\iprovideclassinfo_getclassinfo.htm
 old-project: com
 ms.assetid: 9dac095d-4657-47ea-a673-4d8a96fc29bb
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: GetClassInfo method [COM], GetClassInfo method [COM], IProvideClassInfo interface, GetClassInfo,IProvideClassInfo.GetClassInfo, IProvideClassInfo, IProvideClassInfo interface [COM], GetClassInfo method, IProvideClassInfo::GetClassInfo, _com_iprovideclassinfo_getclassinfo, com.iprovideclassinfo_getclassinfo, ocidl/IProvideClassInfo::GetClassInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IProvideClassInfo::GetClassInfo method

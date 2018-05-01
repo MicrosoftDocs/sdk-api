@@ -7,7 +7,7 @@ old-location: mstv\iatsccontentadvisorydescriptor_getlength.htm
 old-project: mstv
 ms.assetid: 954d7dc4-43dd-4e33-a3cf-7584092cd0e7
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies], IAtscContentAdvisoryDescriptor interface, GetLength,IAtscContentAdvisoryDescriptor.GetLength, IAtscContentAdvisoryDescriptor, IAtscContentAdvisoryDescriptor interface [Microsoft TV Technologies], GetLength method, IAtscContentAdvisoryDescriptor::GetLength, IAtscContentAdvisoryDescriptorGetLength, atscpsipparser/IAtscContentAdvisoryDescriptor::GetLength, mstv.iatsccontentadvisorydescriptor_getlength
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_WRITER_PAYLOAD_STREAM
+req.typenames: AsyncStatus
 topic_type:
 -	APIRef
 -	kbSyntax

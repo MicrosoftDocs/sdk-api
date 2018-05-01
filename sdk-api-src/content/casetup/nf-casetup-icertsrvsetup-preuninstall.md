@@ -7,7 +7,7 @@ old-location: security\icertsrvsetup_preuninstall.htm
 old-project: SecCrypto
 ms.assetid: 2872a7fb-fe96-4ace-b5f4-af88350835ab
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: ICertSrvSetup, ICertSrvSetup interface [Security], PreUnInstall method, ICertSrvSetup::PreUnInstall, PreUnInstall method [Security], PreUnInstall method [Security], ICertSrvSetup interface, PreUnInstall,ICertSrvSetup.PreUnInstall, casetup/ICertSrvSetup::PreUnInstall, security.icertsrvsetup_preuninstall
 ms.prod: windows-hardware
 ms.technology: windows-devices

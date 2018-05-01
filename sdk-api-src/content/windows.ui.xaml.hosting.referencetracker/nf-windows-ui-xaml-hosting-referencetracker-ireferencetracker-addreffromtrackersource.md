@@ -7,7 +7,7 @@ old-location: winrt\ireferencetracker_addreffromtrackersource.htm
 old-project: WinRT
 ms.assetid: ce2100df-c0d9-4225-9053-ecba08533a04
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/24/2018
 ms.keywords: AddRefFromTrackerSource method [Windows Runtime], AddRefFromTrackerSource method [Windows Runtime], IReferenceTracker interface, AddRefFromTrackerSource,IReferenceTracker.AddRefFromTrackerSource, IReferenceTracker, IReferenceTracker interface [Windows Runtime], AddRefFromTrackerSource method, IReferenceTracker::AddRefFromTrackerSource, windows/IReferenceTracker::AddRefFromTrackerSource, winrt.ireferencetracker_addreffromtrackersource
 ms.prod: windows-hardware
 ms.technology: windows-devices

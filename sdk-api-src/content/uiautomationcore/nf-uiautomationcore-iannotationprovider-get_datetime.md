@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IAnnotationProvider_DateTime.htm
 old-project: WinAuto
 ms.assetid: DFEB22F2-5503-4B0D-AEB2-2F3FAF7D7D4E
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: DateTime property [Windows Accessibility], DateTime property [Windows Accessibility], IAnnotationProvider interface, IAnnotationProvider, IAnnotationProvider interface [Windows Accessibility], DateTime property, IAnnotationProvider.DateTime, IAnnotationProvider::get_DateTime, get_DateTime,IAnnotationProvider.get_DateTime, uiautomationcore/IAnnotationProvider::DateTime, uiautomationcore/IAnnotationProvider::get_DateTime, winauto.uiauto_IAnnotationProvider_DateTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

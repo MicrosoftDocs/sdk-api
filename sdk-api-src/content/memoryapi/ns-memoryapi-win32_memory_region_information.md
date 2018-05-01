@@ -58,6 +58,16 @@ Contains information about a memory region. A memory region is a single allocati
 
 
 
+### -field AllocationBase
+
+The base address of the allocation.
+
+
+### -field AllocationProtect
+
+The page protection value that was specified when the allocation was created. Protections of individual pages within the allocation can be different from this value. To query protection values of individual pages, use the <a href="https://msdn.microsoft.com/3b1f7d27-1f5d-452e-b58f-560cd9b9cbd3">VirtualQuery</a> function.
+
+
 ### -field DUMMYUNIONNAME
 
  
@@ -101,16 +111,6 @@ A value of 1 indicates that the allocation is a mapped view of a direct-mapped f
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.Reserved
 
 Reserved.
-
-
-### -field AllocationBase
-
-The base address of the allocation.
-
-
-### -field AllocationProtect
-
-The page protection value that was specified when the allocation was created. Protections of individual pages within the allocation can be different from this value. To query protection values of individual pages, use the <a href="https://msdn.microsoft.com/3b1f7d27-1f5d-452e-b58f-560cd9b9cbd3">VirtualQuery</a> function.
 
 
 ### -field RegionSize

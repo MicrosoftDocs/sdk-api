@@ -7,7 +7,7 @@ old-location: dshow\iamexttransport_settransportbasicparameters.htm
 old-project: DirectShow
 ms.assetid: 798fa8d0-3834-4168-86a6-069cae3c3e8e
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMExtTransport, IAMExtTransport interface [DirectShow], SetTransportBasicParameters method, IAMExtTransport::SetTransportBasicParameters, IAMExtTransportSetTransportBasicParameters, SetTransportBasicParameters method [DirectShow], SetTransportBasicParameters method [DirectShow], IAMExtTransport interface, SetTransportBasicParameters,IAMExtTransport.SetTransportBasicParameters, dshow.iamexttransport_settransportbasicparameters, strmif/IAMExtTransport::SetTransportBasicParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices

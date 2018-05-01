@@ -7,7 +7,7 @@ old-location: tablet\iinkcursorbuttons_item.htm
 old-project: tablet
 ms.assetid: 801cc3f5-3e30-48b9-bf1b-8dbfaff08dbf
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: 801cc3f5-3e30-48b9-bf1b-8dbfaff08dbf, IInkCursorButtons, IInkCursorButtons interface [Tablet PC], Item method, IInkCursorButtons::Item, Item method [Tablet PC], Item method [Tablet PC], IInkCursorButtons interface, Item,IInkCursorButtons.Item, msinkaut/IInkCursorButtons::Item, tablet.iinkcursorbuttons_item
 ms.prod: windows-hardware
 ms.technology: windows-devices

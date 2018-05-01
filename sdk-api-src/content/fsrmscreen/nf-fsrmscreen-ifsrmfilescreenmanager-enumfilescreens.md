@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmfilescreenmanager_enumfilescreens.htm
 old-project: Fsrm
 ms.assetid: 5826d5c3-885a-4001-aa89-0bc1c03b9338
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: EnumFileScreens method [File Server Resource Manager], EnumFileScreens method [File Server Resource Manager], FsrmFileScreenManager class, EnumFileScreens method [File Server Resource Manager], IFsrmFileScreenManager interface, EnumFileScreens,IFsrmFileScreenManager.EnumFileScreens, FsrmFileScreenManager class [File Server Resource Manager], EnumFileScreens method, IFsrmFileScreenManager, IFsrmFileScreenManager interface [File Server Resource Manager], EnumFileScreens method, IFsrmFileScreenManager::EnumFileScreens, fs.ifsrmfilescreenmanager_enumfilescreens, fsrm.ifsrmfilescreenmanager_enumfilescreens, fsrmscreen/IFsrmFileScreenManager::EnumFileScreens
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: com\ienumcategoryinfo_clone.htm
 old-project: com
 ms.assetid: 9179b417-7dcd-4bb4-832f-86830e4b77ad
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: Clone method [COM], Clone method [COM], IEnumCATEGORYINFO interface, Clone,IEnumCATEGORYINFO.Clone, IEnumCATEGORYINFO, IEnumCATEGORYINFO interface [COM], Clone method, IEnumCATEGORYINFO::Clone, _com_ienumcategoryinfo_clone, com.ienumcategoryinfo_clone, comcat/IEnumCATEGORYINFO::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

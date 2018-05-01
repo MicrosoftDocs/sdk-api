@@ -7,7 +7,7 @@ old-location: wmformat\iwmwriteradvanced3_setnonblocking.htm
 old-project: wmformat
 ms.assetid: 4bec5e6c-5f77-433c-95e0-e3df4dba905c
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMWriterAdvanced3, IWMWriterAdvanced3 interface [windows Media Format], SetNonBlocking method, IWMWriterAdvanced3::SetNonBlocking, IWMWriterAdvanced3SetNonBlocking, SetNonBlocking method [windows Media Format], SetNonBlocking method [windows Media Format], IWMWriterAdvanced3 interface, SetNonBlocking,IWMWriterAdvanced3.SetNonBlocking, wmformat.iwmwriteradvanced3_setnonblocking, wmsdkidl/IWMWriterAdvanced3::SetNonBlocking
 ms.prod: windows-hardware
 ms.technology: windows-devices

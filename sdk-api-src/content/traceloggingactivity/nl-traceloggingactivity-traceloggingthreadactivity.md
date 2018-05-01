@@ -7,7 +7,7 @@ old-location: tracelogging\traceloggingthreadactivity.htm
 old-project: tracelogging
 ms.assetid: 7666A28B-42B2-473F-852F-BD3F6CAA6AC7
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: TraceLoggingThreadActivity, TraceLoggingThreadActivity class, TraceLoggingThreadActivity class, described, tracelogging.traceloggingthreadactivity, traceloggingactivity/TraceLoggingThreadActivity
 ms.prod: windows-hardware
 ms.technology: windows-devices

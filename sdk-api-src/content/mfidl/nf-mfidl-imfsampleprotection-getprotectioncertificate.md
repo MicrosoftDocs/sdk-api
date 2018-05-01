@@ -7,7 +7,7 @@ old-location: mf\imfsampleprotection_getprotectioncertificate.htm
 old-project: medfound
 ms.assetid: b93ecc4e-40f6-4ae1-9a1a-9767e6c8c4af
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetProtectionCertificate method [Media Foundation], GetProtectionCertificate method [Media Foundation], IMFSampleProtection interface, GetProtectionCertificate,IMFSampleProtection.GetProtectionCertificate, IMFSampleProtection, IMFSampleProtection interface [Media Foundation], GetProtectionCertificate method, IMFSampleProtection::GetProtectionCertificate, b93ecc4e-40f6-4ae1-9a1a-9767e6c8c4af, mf.imfsampleprotection_getprotectioncertificate, mfidl/IMFSampleProtection::GetProtectionCertificate
 ms.prod: windows-hardware
 ms.technology: windows-devices

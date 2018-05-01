@@ -58,11 +58,6 @@ req.product: Windows Media Format 9 Series or later
 
 
 
-### -field pInnerMethodInfo
-
-Pointer to an <b>EAP_METHOD_INFO</b> structure that contains information about the inner method.
-
-
 ### -field eaptype
 
  
@@ -81,6 +76,11 @@ Pointer to a zero-terminated Unicode string that contains the display name of th
 ### -field eapProperties
 
 Set of flags that describe specific properties of the EAP method. For flag descriptions, see <a href="https://msdn.microsoft.com/10407b85-5d2c-4c75-9b65-a0d65d4cc7ab">EAP Method Properties</a>.
+
+
+### -field pInnerMethodInfo
+
+Pointer to an <b>EAP_METHOD_INFO</b> structure that contains information about the inner method.
 
 
 #### - eapType

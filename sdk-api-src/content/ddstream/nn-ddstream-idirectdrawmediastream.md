@@ -7,7 +7,7 @@ old-location: dshow\idirectdrawmediastream.htm
 old-project: DirectShow
 ms.assetid: 858af0c3-9e22-45d8-ab08-307eb39a8977
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IDirectDrawMediaStream, IDirectDrawMediaStream interface [DirectShow], IDirectDrawMediaStream interface [DirectShow], described, IDirectDrawMediaStreamInterface, ddstream/IDirectDrawMediaStream, dshow.idirectdrawmediastream
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: "*LPDDSURFACEDESC2, DDSURFACEDESC2"
+req.typenames: VIDEOMEMORYINFO
 topic_type:
 -	APIRef
 -	kbSyntax

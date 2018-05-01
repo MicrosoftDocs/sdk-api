@@ -7,7 +7,7 @@ old-location: mscs\clusterregbatchclosenotification.htm
 old-project: MsCS
 ms.assetid: d7a127ba-6e97-46ac-8510-2da355359c50
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: PCLUSTER_REG_BATCH_CLOSE_NOTIFICATION, PCLUSTER_REG_BATCH_CLOSE_NOTIFICATION callback function [Failover Cluster], clusapi/PCLUSTER_REG_BATCH_CLOSE_NOTIFICATION, mscs.clusterregbatchclosenotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: LOG_MANAGEMENT_CALLBACKS, *PLOG_MANAGEMENT_CALLBACKS
+req.typenames: Sources
 topic_type:
 -	APIRef
 -	kbSyntax

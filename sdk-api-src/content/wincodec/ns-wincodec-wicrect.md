@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_wicrect.htm
 old-project: wic
 ms.assetid: e07c26bf-b645-4382-bb93-8472ba397026
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: WICRect, WICRect structure [Windows Imaging Component], _wic_codec_wicrect, wic._wic_codec_wicrect, wincodec/WICRect
 ms.prod: windows-hardware
 ms.technology: windows-devices

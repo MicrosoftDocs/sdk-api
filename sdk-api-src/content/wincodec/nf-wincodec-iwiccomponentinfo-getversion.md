@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwiccomponentinfo_getversion.htm
 old-project: wic
 ms.assetid: f65d13ae-ccec-49a8-8818-225464b3a117
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: GetVersion method [Windows Imaging Component], GetVersion method [Windows Imaging Component], IWICComponentInfo interface, GetVersion,IWICComponentInfo.GetVersion, IWICComponentInfo, IWICComponentInfo interface [Windows Imaging Component], GetVersion method, IWICComponentInfo::GetVersion, _wic_codec_iwiccomponentinfo_getversion, wic._wic_codec_iwiccomponentinfo_getversion, wincodec/IWICComponentInfo::GetVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices

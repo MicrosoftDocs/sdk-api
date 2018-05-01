@@ -7,7 +7,7 @@ old-location: dhcp\dhcpserverredoauthorization.htm
 old-project: DHCP
 ms.assetid: c5bee9f1-7d4b-4dc2-a7c0-ebafd533ed50
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/7/2018
 ms.keywords: DhcpServerRedoAuthorization, DhcpServerRedoAuthorization function [DHCP], dhcp.dhcpserverredoauthorization, dhcpsapi/DhcpServerRedoAuthorization
 ms.prod: windows-hardware
 ms.technology: windows-devices

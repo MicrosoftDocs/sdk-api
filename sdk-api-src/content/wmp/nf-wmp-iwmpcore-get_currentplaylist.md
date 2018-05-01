@@ -7,7 +7,7 @@ old-location: wmp\iwmpcore_get_currentplaylist.htm
 old-project: WMP
 ms.assetid: bb923325-67d2-4d73-b7ec-49e9b52cabba
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPCore, IWMPCore interface [Windows Media Player], get_currentPlaylist method, IWMPCore::get_currentPlaylist, IWMPCoreget_currentPlaylist, IWMPPlayer4.get_currentPlaylist, get_currentPlaylist method [Windows Media Player], get_currentPlaylist method [Windows Media Player], IWMPCore interface, get_currentPlaylist,IWMPCore.get_currentPlaylist, wmp.iwmpcore_get_currentplaylist, wmp/IWMPCore::get_currentPlaylist
 ms.prod: windows-hardware
 ms.technology: windows-devices

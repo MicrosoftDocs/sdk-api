@@ -7,7 +7,7 @@ old-location: mstv\iatsc_vct_getrecordetmlocation.htm
 old-project: mstv
 ms.assetid: 9884a9bd-bd5c-4d6a-a8b0-5ba1406c0210
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetRecordEtmLocation method [Microsoft TV Technologies], GetRecordEtmLocation method [Microsoft TV Technologies], IATSC_VCT interface, GetRecordEtmLocation,IATSC_VCT.GetRecordEtmLocation, IATSC_VCT, IATSC_VCT interface [Microsoft TV Technologies], GetRecordEtmLocation method, IATSC_VCT::GetRecordEtmLocation, IATSC_VCTGetRecordEtmLocation, atscpsipparser/IATSC_VCT::GetRecordEtmLocation, mstv.iatsc_vct_getrecordetmlocation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_WRITER_PAYLOAD_STREAM
+req.typenames: AsyncStatus
 topic_type:
 -	APIRef
 -	kbSyntax

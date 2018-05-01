@@ -7,7 +7,7 @@ old-location: dshow\ivmrimagecompositor_compositeimage.htm
 old-project: DirectShow
 ms.assetid: 5af73543-d391-404a-9797-8fbb3f24879c
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: CompositeImage method [DirectShow], CompositeImage method [DirectShow], IVMRImageCompositor interface, CompositeImage,IVMRImageCompositor.CompositeImage, IVMRImageCompositor, IVMRImageCompositor interface [DirectShow], CompositeImage method, IVMRImageCompositor::CompositeImage, IVMRImageCompositorCompositeImage, dshow.ivmrimagecompositor_compositeimage, strmif/IVMRImageCompositor::CompositeImage
 ms.prod: windows-hardware
 ms.technology: windows-devices

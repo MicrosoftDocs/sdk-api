@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiosessioncontrol2_getprocessid.htm
 old-project: CoreAudio
 ms.assetid: 17ae85ad-e2ef-4a87-9d0f-58baa080ff98
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: GetProcessId method [Core Audio], GetProcessId method [Core Audio], IAudioSessionControl2 interface, GetProcessId,IAudioSessionControl2.GetProcessId, IAudioSessionControl2, IAudioSessionControl2 interface [Core Audio], GetProcessId method, IAudioSessionControl2::GetProcessId, audiopolicy/IAudioSessionControl2::GetProcessId, coreaudio.iaudiosessioncontrol2_getprocessid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: AE_CURRENT_POSITION, *PAE_CURRENT_POSITION
+req.typenames: UNCOMPRESSEDAUDIOFORMAT
 topic_type:
 -	APIRef
 -	kbSyntax

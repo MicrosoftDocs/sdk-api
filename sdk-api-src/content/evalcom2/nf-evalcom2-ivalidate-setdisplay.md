@@ -7,7 +7,7 @@ old-location: setup\ivalidate_setdisplay.htm
 old-project: Msi
 ms.assetid: e376740e-82fc-44da-b200-c74d73978c6e
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/26/2018
 ms.keywords: IValidate, IValidate interface, SetDisplay method, IValidate::SetDisplay, SetDisplay method, SetDisplay method, IValidate interface, SetDisplay,IValidate.SetDisplay, evalcom2/IValidate::SetDisplay, setup.ivalidate_setdisplay
 ms.prod: windows-hardware
 ms.technology: windows-devices

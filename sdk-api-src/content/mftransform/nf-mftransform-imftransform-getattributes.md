@@ -7,7 +7,7 @@ old-location: mf\imftransform_getattributes.htm
 old-project: medfound
 ms.assetid: cb3ba2bc-550c-43b4-a69c-b546f2b92acc
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetAttributes method [Media Foundation], GetAttributes method [Media Foundation], IMFTransform interface, GetAttributes,IMFTransform.GetAttributes, IMFTransform, IMFTransform interface [Media Foundation], GetAttributes method, IMFTransform::GetAttributes, cb3ba2bc-550c-43b4-a69c-b546f2b92acc, mf.imftransform_getattributes, mftransform/IMFTransform::GetAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices

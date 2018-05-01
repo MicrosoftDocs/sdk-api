@@ -7,7 +7,7 @@ old-location: tmg\httpfilterproc.htm
 old-project: TMG
 ms.assetid: 15a44eb7-641b-4115-992e-6d08cb09be54
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/3/2018
 ms.keywords: HttpFilterProc, HttpFilterProc callback function [Forefront TMG], httpfilt/HttpFilterProc, tmg.httpfilterproc
 ms.prod: windows-hardware
 ms.technology: windows-devices

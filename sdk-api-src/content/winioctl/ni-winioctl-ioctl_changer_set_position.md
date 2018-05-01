@@ -7,7 +7,7 @@ old-location: base\ioctl_changer_set_position.htm
 old-project: DevIO
 ms.assetid: 1c3348d5-6d22-40cb-bf4f-e843819884b9
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/3/2018
 ms.keywords: IOCTL_CHANGER_SET_POSITION, IOCTL_CHANGER_SET_POSITION control code, _win32_ioctl_changer_set_position, base.ioctl_changer_set_position, winioctl/IOCTL_CHANGER_SET_POSITION
 ms.prod: windows-hardware
 ms.technology: windows-devices

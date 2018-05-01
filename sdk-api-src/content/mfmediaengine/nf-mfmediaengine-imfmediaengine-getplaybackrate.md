@@ -7,7 +7,7 @@ old-location: mf\imfmediaengine_getplaybackrate.htm
 old-project: medfound
 ms.assetid: E270CB86-D90B-43FA-843B-F824970BD4F3
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetPlaybackRate method [Media Foundation], GetPlaybackRate method [Media Foundation], IMFMediaEngine interface, GetPlaybackRate,IMFMediaEngine.GetPlaybackRate, IMFMediaEngine, IMFMediaEngine interface [Media Foundation], GetPlaybackRate method, IMFMediaEngine::GetPlaybackRate, mf.imfmediaengine_getplaybackrate, mfmediaengine/IMFMediaEngine::GetPlaybackRate
 ms.prod: windows-hardware
 ms.technology: windows-devices

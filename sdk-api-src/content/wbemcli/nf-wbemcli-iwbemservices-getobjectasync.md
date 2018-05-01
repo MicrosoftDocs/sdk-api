@@ -7,7 +7,7 @@ old-location: wmi\iwbemservices_getobjectasync.htm
 old-project: WmiSdk
 ms.assetid: 6868a14d-3776-43a0-b241-b40d42a97afc
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: GetObjectAsync method [Windows Management Instrumentation], GetObjectAsync method [Windows Management Instrumentation], IWbemServices interface, GetObjectAsync,IWbemServices.GetObjectAsync, IWbemServices, IWbemServices interface [Windows Management Instrumentation], GetObjectAsync method, IWbemServices::GetObjectAsync, WBEM_FLAG_DIRECT_READ, WBEM_FLAG_SEND_STATUS, WBEM_FLAG_USE_AMENDED_QUALIFIERS, _hmm_iwbemservices_getobjectasync, wbemcli/IWbemServices::GetObjectAsync, wmi.iwbemservices_getobjectasync
 ms.prod: windows-hardware
 ms.technology: windows-devices

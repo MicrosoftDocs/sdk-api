@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxroutingmethod_get_functionname_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_1i5h.htm
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/18/2018
 ms.keywords: FaxRoutingMethod object [Fax Service], FunctionName property, FunctionName property [Fax Service], FunctionName property [Fax Service], FaxRoutingMethod object, IFaxRoutingMethod, IFaxRoutingMethod::get_FunctionName, _mfax_ifaxroutingmethod_get_functionname, fax._mfax_ifaxroutingmethod_get_functionname, fax._mfax_ifaxroutingmethod_get_functionname_vb, get_FunctionName,IFaxRoutingMethod.get_FunctionName
 ms.prod: windows-hardware
 ms.technology: windows-devices

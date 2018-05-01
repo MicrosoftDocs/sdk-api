@@ -7,7 +7,7 @@ old-location: mscs\clusterregclosereadbatchreply.htm
 old-project: MsCS
 ms.assetid: C8CC4292-A7CC-4613-B5A8-B504E804E00E
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: ClusterRegCloseReadBatchReply, ClusterRegCloseReadBatchReply function [Failover Cluster], clusapi/ClusterRegCloseReadBatchReply, mscs.clusterregclosereadbatchreply
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tablet\itextinputpaneleventsink_inplacevisibilitychanging.htm
 old-project: tablet
 ms.assetid: 957e1c24-3eee-4a6f-9157-961e3d6914b7
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: 957e1c24-3eee-4a6f-9157-961e3d6914b7, ITextInputPanelEventSink, ITextInputPanelEventSink interface [Tablet PC], InPlaceVisibilityChanging method, ITextInputPanelEventSink::InPlaceVisibilityChanging, InPlaceVisibilityChanging method [Tablet PC], InPlaceVisibilityChanging method [Tablet PC], ITextInputPanelEventSink interface, InPlaceVisibilityChanging,ITextInputPanelEventSink.InPlaceVisibilityChanging, peninputpanel/ITextInputPanelEventSink::InPlaceVisibilityChanging, tablet.itextinputpaneleventsink_inplacevisibilitychanging
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Tiptsf.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITextInputPanelEventSink::InPlaceVisibilityChanging method

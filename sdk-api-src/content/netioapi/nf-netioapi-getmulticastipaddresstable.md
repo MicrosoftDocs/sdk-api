@@ -7,7 +7,7 @@ old-location: iphlp\getmulticastipaddresstable.htm
 old-project: IpHlp
 ms.assetid: 0958e92e-12ed-42e0-aa04-b8c4544f6642
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 4/13/2018
 ms.keywords: AF_INET, AF_INET6, AF_UNSPEC, GetMulticastIpAddressTable, GetMulticastIpAddressTable function [IP Helper], iphlp.getmulticastipaddresstable, netioapi/GetMulticastIpAddressTable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # GetMulticastIpAddressTable function

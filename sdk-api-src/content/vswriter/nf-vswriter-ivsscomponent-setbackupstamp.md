@@ -7,7 +7,7 @@ old-location: base\ivsscomponent_setbackupstamp.htm
 old-project: VSS
 ms.assetid: 54995cc9-8988-4f26-9c60-5d809a93e4e1
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: IVssComponent, IVssComponent interface [VSS], SetBackupStamp method, IVssComponent::SetBackupStamp, SetBackupStamp method [VSS], SetBackupStamp method [VSS], IVssComponent interface, SetBackupStamp,IVssComponent.SetBackupStamp, _win32_ivsscomponent_setbackupstamp, base.ivsscomponent_setbackupstamp, vswriter/IVssComponent::SetBackupStamp
 ms.prod: windows-hardware
 ms.technology: windows-devices

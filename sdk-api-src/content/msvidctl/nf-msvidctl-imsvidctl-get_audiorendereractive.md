@@ -7,7 +7,7 @@ old-location: mstv\imsvidctl_get_audiorendereractive.htm
 old-project: mstv
 ms.assetid: 4ac78904-18ca-4bcb-9c0e-15595a756ecd
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidCtl, IMSVidCtl interface [Microsoft TV Technologies], get_AudioRendererActive method, IMSVidCtl::get_AudioRendererActive, IMSVidCtlget_AudioRendererActive, get_AudioRendererActive method [Microsoft TV Technologies], get_AudioRendererActive method [Microsoft TV Technologies], IMSVidCtl interface, get_AudioRendererActive,IMSVidCtl.get_AudioRendererActive, mstv.imsvidctl_get_audiorendereractive, msvidctl/IMSVidCtl::get_AudioRendererActive
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidCtl::get_AudioRendererActive method

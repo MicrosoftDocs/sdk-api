@@ -7,7 +7,7 @@ old-location: automat\itypeinfo_getvardesc.htm
 old-project: automat
 ms.assetid: c4226d33-37ec-4e9a-87ce-92c4ff0e6cb3
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: GetVarDesc method [Automation], GetVarDesc method [Automation], ITypeInfo interface, GetVarDesc,ITypeInfo.GetVarDesc, ITypeInfo, ITypeInfo interface [Automation], GetVarDesc method, ITypeInfo::GetVarDesc, _oa96_ITypeInfo_GetVarDesc, automat.itypeinfo_getvardesc, oaidl/ITypeInfo::GetVarDesc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITypeInfo::GetVarDesc method

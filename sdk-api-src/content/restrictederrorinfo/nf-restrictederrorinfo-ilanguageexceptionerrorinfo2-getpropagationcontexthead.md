@@ -7,7 +7,7 @@ old-location: winrt\ilanguageexceptionerrorinfo2_getpropagationcontexthead.htm
 old-project: WinRT
 ms.assetid: 1E5C74AE-C8C6-4D95-A836-DD47E50CF25D
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/24/2018
 ms.keywords: GetPropagationContextHead method [Windows Runtime], GetPropagationContextHead method [Windows Runtime], ILanguageExceptionErrorInfo2 interface, GetPropagationContextHead,ILanguageExceptionErrorInfo2.GetPropagationContextHead, ILanguageExceptionErrorInfo2, ILanguageExceptionErrorInfo2 interface [Windows Runtime], GetPropagationContextHead method, ILanguageExceptionErrorInfo2::GetPropagationContextHead, restrictederrorinfo/ILanguageExceptionErrorInfo2::GetPropagationContextHead, winrt.ilanguageexceptionerrorinfo2_getpropagationcontexthead
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ILanguageExceptionErrorInfo2::GetPropagationContextHead method

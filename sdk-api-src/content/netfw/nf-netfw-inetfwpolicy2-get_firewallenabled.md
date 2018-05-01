@@ -7,7 +7,7 @@ old-location: ics\inetfwpolicy2_firewallenabled.htm
 old-project: ICS
 ms.assetid: 6c3ca9dd-a562-454f-bb9a-856beba772f3
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: FirewallEnabled property [ICS/ICF], FirewallEnabled property [ICS/ICF], INetFwPolicy2 interface, INetFwPolicy2, INetFwPolicy2 interface [ICS/ICF], FirewallEnabled property, INetFwPolicy2.FirewallEnabled, INetFwPolicy2::get_FirewallEnabled, INetFwPolicy2::put_FirewallEnabled, get_FirewallEnabled,INetFwPolicy2.get_FirewallEnabled, ics.inetfwpolicy2_firewallenabled, netfw/INetFwPolicy2::FirewallEnabled, netfw/INetFwPolicy2::get_FirewallEnabled, netfw/INetFwPolicy2::put_FirewallEnabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: 
 req.dll: FirewallAPI.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # INetFwPolicy2::get_FirewallEnabled method

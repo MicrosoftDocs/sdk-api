@@ -7,7 +7,7 @@ old-location: wmi\wbemtime_operator_minus_equal.htm
 old-project: WmiSdk
 ms.assetid: 842cfddd-f137-46ba-9744-e3a71dd82f01
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: WBEMTime, WBEMTime interface [Windows Management Instrumentation], operator-= method, WBEMTime::operator-=, _hmm_wbemtime_operator_minus_equal, operator-= method [Windows Management Instrumentation], operator-= method [Windows Management Instrumentation], WBEMTime interface, operator-=,WBEMTime.operator-=, wbemtime/WBEMTime::operator-=, wmi.wbemtime_operator_minus_equal
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmp\iwmpevents2_iwmpevents2__devicestatuschange.htm
 old-project: WMP
 ms.assetid: f9781dde-e813-4e2d-820d-5a0803bfbe4e
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: DeviceStatusChange method [Windows Media Player], DeviceStatusChange method [Windows Media Player], IWMPEvents2 interface, DeviceStatusChange,IWMPEvents2.DeviceStatusChange, IWMPEvents2, IWMPEvents2 interface [Windows Media Player], DeviceStatusChange method, IWMPEvents2::DeviceStatusChange, IWMPEvents2DeviceStatusChange, wmp.iwmpevents2_iwmpevents2__devicestatuschange, wmp/IWMPEvents2::DeviceStatusChange
 ms.prod: windows-hardware
 ms.technology: windows-devices

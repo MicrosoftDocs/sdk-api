@@ -7,7 +7,7 @@ old-location: gdi\emreof.htm
 old-project: gdi
 ms.assetid: 99a3f97e-cb43-49b3-9972-23f9911b2cd0
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/17/2018
 ms.keywords: "*PEMREOF, EMREOF, EMREOF structure [Windows GDI], PEMREOF, PEMREOF structure pointer [Windows GDI], _win32_EMREOF_str, gdi.emreof, tagEMREOF, wingdi/EMREOF, wingdi/PEMREOF"
 ms.prod: windows-hardware
 ms.technology: windows-devices

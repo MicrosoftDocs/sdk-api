@@ -7,7 +7,7 @@ old-location: security\setserviceobjectsecurity.htm
 old-project: SecAuthZ
 ms.assetid: 39481d9a-79d5-4bbf-8480-4095a34dddb6
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: DACL_SECURITY_INFORMATION, GROUP_SECURITY_INFORMATION, OWNER_SECURITY_INFORMATION, SACL_SECURITY_INFORMATION, SetServiceObjectSecurity, SetServiceObjectSecurity function [Security], _win32_setserviceobjectsecurity, security.setserviceobjectsecurity, winsvc/SetServiceObjectSecurity
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: PRINT_EXECUTION_DATA
+req.typenames: WSAVERSION, *PWSAVERSION, *LPWSAVERSION
 topic_type:
 -	APIRef
 -	kbSyntax

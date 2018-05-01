@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicdevelopraw_setwhitepointkelvin.htm
 old-project: wic
 ms.assetid: 3a5235ed-b0c8-4090-9380-892e3e994d10
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: IWICDevelopRaw, IWICDevelopRaw interface [Windows Imaging Component], SetWhitePointKelvin method, IWICDevelopRaw::SetWhitePointKelvin, SetWhitePointKelvin method [Windows Imaging Component], SetWhitePointKelvin method [Windows Imaging Component], IWICDevelopRaw interface, SetWhitePointKelvin,IWICDevelopRaw.SetWhitePointKelvin, _wic_codec_iwicdevelopraw_setwhitepointkelvin, wic._wic_codec_iwicdevelopraw_setwhitepointkelvin, wincodec/IWICDevelopRaw::SetWhitePointKelvin
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tapi3\cmspcallmultigraph_removestream.htm
 old-project: Tapi
 ms.assetid: 03572d9a-f243-4423-b645-ef180704477f
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: CMSPCallMultiGraph, CMSPCallMultiGraph interface [TAPI 2.2], RemoveStream method, CMSPCallMultiGraph::RemoveStream, RemoveStream method [TAPI 2.2], RemoveStream method [TAPI 2.2], CMSPCallMultiGraph interface, RemoveStream,CMSPCallMultiGraph.RemoveStream, _tapi3_cmspcallmultigraph_removestream, mspcall/CMSPCallMultiGraph::RemoveStream, tapi3.cmspcallmultigraph_removestream
 ms.prod: windows-hardware
 ms.technology: windows-devices

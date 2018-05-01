@@ -7,7 +7,7 @@ old-location: com\imessagedispatcher_pumpmessages.htm
 old-project: com
 ms.assetid: CC34B3B0-C956-4B37-8DF7-CC90A0160835
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IMessageDispatcher, IMessageDispatcher interface [COM], PumpMessages method, IMessageDispatcher::PumpMessages, PumpMessages method [COM], PumpMessages method [COM], IMessageDispatcher interface, PumpMessages,IMessageDispatcher.PumpMessages, com.imessagedispatcher_pumpmessages, imessagedispatcher/IMessageDispatcher::PumpMessages
 ms.prod: windows-hardware
 ms.technology: windows-devices

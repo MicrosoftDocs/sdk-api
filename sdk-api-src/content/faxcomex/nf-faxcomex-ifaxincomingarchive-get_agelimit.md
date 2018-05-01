@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxincomingarchive_agelimit_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_6vjo.htm
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/18/2018
 ms.keywords: AgeLimit property [Fax Service], AgeLimit property [Fax Service], FaxIncomingArchive object, FaxIncomingArchive object [Fax Service], AgeLimit property, IFaxIncomingArchive, IFaxIncomingArchive::get_AgeLimit, _mfax_faxincomingarchive.agelimit, fax._mfax_faxincomingarchive_agelimit, fax._mfax_faxincomingarchive_agelimit_vb, get_AgeLimit,IFaxIncomingArchive.get_AgeLimit
 ms.prod: windows-hardware
 ms.technology: windows-devices

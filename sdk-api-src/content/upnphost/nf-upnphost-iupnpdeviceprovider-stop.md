@@ -7,7 +7,7 @@ old-location: upnp\iupnpdeviceprovider_stop.htm
 old-project: UPnP
 ms.assetid: c8e4cd95-a6dc-4bf9-921e-63fbac743028
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/25/2018
 ms.keywords: IUPnPDeviceProvider, IUPnPDeviceProvider interface [UPnP APIs], Stop method, IUPnPDeviceProvider::Stop, Stop method [UPnP APIs], Stop method [UPnP APIs], IUPnPDeviceProvider interface, Stop,IUPnPDeviceProvider.Stop, _upnp_iupnpdeviceprovider_stop, upnp.iupnpdeviceprovider_stop, upnphost/IUPnPDeviceProvider::Stop
 ms.prod: windows-hardware
 ms.technology: windows-devices

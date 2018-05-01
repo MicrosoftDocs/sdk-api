@@ -7,7 +7,7 @@ old-location: mstv\imsvidplayback_get_length.htm
 old-project: mstv
 ms.assetid: a559c0b4-ed63-47ef-b99a-866c87939d5b
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidPlayback, IMSVidPlayback interface [Microsoft TV Technologies], get_Length method, IMSVidPlayback::get_Length, IMSVidPlaybackget_Length, get_Length method [Microsoft TV Technologies], get_Length method [Microsoft TV Technologies], IMSVidPlayback interface, get_Length,IMSVidPlayback.get_Length, mstv.imsvidplayback_get_length, segment/IMSVidPlayback::get_Length
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidPlayback::get_Length method

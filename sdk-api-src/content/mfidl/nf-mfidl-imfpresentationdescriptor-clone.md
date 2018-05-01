@@ -7,7 +7,7 @@ old-location: mf\imfpresentationdescriptor_clone.htm
 old-project: medfound
 ms.assetid: 084b3adf-092a-4869-92e1-982db209bd5b
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 084b3adf-092a-4869-92e1-982db209bd5b, Clone method [Media Foundation], Clone method [Media Foundation], IMFPresentationDescriptor interface, Clone,IMFPresentationDescriptor.Clone, IMFPresentationDescriptor, IMFPresentationDescriptor interface [Media Foundation], Clone method, IMFPresentationDescriptor::Clone, mf.imfpresentationdescriptor_clone, mfidl/IMFPresentationDescriptor::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

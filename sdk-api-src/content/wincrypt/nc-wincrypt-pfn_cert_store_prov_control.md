@@ -7,7 +7,7 @@ old-location: security\certstoreprovcontrol.htm
 old-project: SecCrypto
 ms.assetid: 0725d562-d04c-4fde-97f4-a294290266ee
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: CertStoreProvControl, PFN_CERT_STORE_PROV_CONTROL, PFN_CERT_STORE_PROV_CONTROL function pointer [Security], _crypto2_certstoreprovcontrol, security.certstoreprovcontrol, wincrypt/PFN_CERT_STORE_PROV_CONTROL
 ms.prod: windows-hardware
 ms.technology: windows-devices

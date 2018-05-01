@@ -7,7 +7,7 @@ old-location: wmformat\iwmbackuprestoreprops_getpropbyindex.htm
 old-project: wmformat
 ms.assetid: 96376e63-3c36-4bea-8cd2-362bb1ba054f
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: GetPropByIndex method [windows Media Format], GetPropByIndex method [windows Media Format], IWMBackupRestoreProps interface, GetPropByIndex,IWMBackupRestoreProps.GetPropByIndex, IWMBackupRestoreProps, IWMBackupRestoreProps interface [windows Media Format], GetPropByIndex method, IWMBackupRestoreProps::GetPropByIndex, IWMBackupRestorePropsGetPropByIndex, wmformat.iwmbackuprestoreprops_getpropbyindex, wmsdkidl/IWMBackupRestoreProps::GetPropByIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\imsviddevice2_get_devicepath.htm
 old-project: mstv
 ms.assetid: 4a0191d7-2b10-4f7e-96e1-263ddd718229
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidDevice2, IMSVidDevice2 interface [Microsoft TV Technologies], get_DevicePath method, IMSVidDevice2::get_DevicePath, IMSVidDevice2get_DevicePath, get_DevicePath method [Microsoft TV Technologies], get_DevicePath method [Microsoft TV Technologies], IMSVidDevice2 interface, get_DevicePath,IMSVidDevice2.get_DevicePath, mstv.imsviddevice2_get_devicepath, segment/IMSVidDevice2::get_DevicePath
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidDevice2::get_DevicePath method

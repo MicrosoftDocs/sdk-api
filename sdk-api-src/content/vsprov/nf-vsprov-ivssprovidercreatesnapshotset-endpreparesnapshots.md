@@ -7,7 +7,7 @@ old-location: base\ivssprovidercreatesnapshotset_endpreparesnapshots.htm
 old-project: VSS
 ms.assetid: 230666c7-e7e4-4e75-a84d-1786e8cbbb6c
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: EndPrepareSnapshots method [VSS], EndPrepareSnapshots method [VSS], IVssProviderCreateSnapshotSet interface, EndPrepareSnapshots,IVssProviderCreateSnapshotSet.EndPrepareSnapshots, IVssProviderCreateSnapshotSet, IVssProviderCreateSnapshotSet interface [VSS], EndPrepareSnapshots method, IVssProviderCreateSnapshotSet::EndPrepareSnapshots, base.ivssprovidercreatesnapshotset_endpreparesnapshots, vsprov/IVssProviderCreateSnapshotSet::EndPrepareSnapshots
 ms.prod: windows-hardware
 ms.technology: windows-devices

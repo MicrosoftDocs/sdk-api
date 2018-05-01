@@ -7,7 +7,7 @@ old-location: base\buildcommdcbandtimeouts.htm
 old-project: DevIO
 ms.assetid: d7fbc6e4-f166-4341-8ce9-37c8baab1b00
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/3/2018
 ms.keywords: BuildCommDCBAndTimeouts, BuildCommDCBAndTimeouts function, BuildCommDCBAndTimeoutsA, BuildCommDCBAndTimeoutsW, _win32_buildcommdcbandtimeouts, base.buildcommdcbandtimeouts, winbase/BuildCommDCBAndTimeouts, winbase/BuildCommDCBAndTimeoutsA, winbase/BuildCommDCBAndTimeoutsW
 ms.prod: windows-hardware
 ms.technology: windows-devices

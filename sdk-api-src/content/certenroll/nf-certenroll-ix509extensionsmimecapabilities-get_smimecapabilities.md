@@ -7,7 +7,7 @@ old-location: security\ix509extensionsmimecapabilities_smimecapabilities.htm
 old-project: SecCertEnroll
 ms.assetid: 6e3ce718-16f9-47df-aff9-38e922fe505c
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: IX509ExtensionSmimeCapabilities, IX509ExtensionSmimeCapabilities interface [Security], SmimeCapabilities property, IX509ExtensionSmimeCapabilities.SmimeCapabilities, IX509ExtensionSmimeCapabilities::get_SmimeCapabilities, SmimeCapabilities property [Security], SmimeCapabilities property [Security], IX509ExtensionSmimeCapabilities interface, certenroll/IX509ExtensionSmimeCapabilities::SmimeCapabilities, certenroll/IX509ExtensionSmimeCapabilities::get_SmimeCapabilities, get_SmimeCapabilities,IX509ExtensionSmimeCapabilities.get_SmimeCapabilities, security.ix509extensionsmimecapabilities_smimecapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices

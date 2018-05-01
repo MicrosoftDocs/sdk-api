@@ -7,7 +7,7 @@ old-location: security\icspstatuses_itembyordinal_property.htm
 old-project: SecCertEnroll
 ms.assetid: 94b5f741-eceb-4ef9-8010-5033ce042018
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: ICspStatuses, ICspStatuses interface [Security], ItemByOrdinal property, ICspStatuses.ItemByOrdinal, ICspStatuses::get_ItemByOrdinal, ItemByOrdinal property [Security], ItemByOrdinal property [Security], ICspStatuses interface, certenroll/ICspStatuses::ItemByOrdinal, certenroll/ICspStatuses::get_ItemByOrdinal, get_ItemByOrdinal,ICspStatuses.get_ItemByOrdinal, security.icspstatuses_itembyordinal_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

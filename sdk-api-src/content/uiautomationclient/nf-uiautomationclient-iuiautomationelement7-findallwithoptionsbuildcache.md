@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement7_FindAllWithOptionsBuildCache.
 old-project: WinAuto
 ms.assetid: 92F9E34B-BFB9-48EA-A0EC-6E69EFB6307B
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: FindAllWithOptionsBuildCache method [Windows Accessibility], FindAllWithOptionsBuildCache method [Windows Accessibility], IUIAutomationElement7 interface, FindAllWithOptionsBuildCache,IUIAutomationElement7.FindAllWithOptionsBuildCache, IUIAutomationElement7, IUIAutomationElement7 interface [Windows Accessibility], FindAllWithOptionsBuildCache method, IUIAutomationElement7::FindAllWithOptionsBuildCache, uiautomationclient/IUIAutomationElement7::FindAllWithOptionsBuildCache, winauto.uiauto_IUIAutomationElement7_FindAllWithOptionsBuildCache, winauto.uiauto_iuiautomationelement_findallwithoptionsbuildcache
 ms.prod: windows-hardware
 ms.technology: windows-devices

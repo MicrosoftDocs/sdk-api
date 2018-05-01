@@ -7,7 +7,7 @@ old-location: winauto\iaccessible_iaccessible__get_accdescription.htm
 old-project: WinAuto
 ms.assetid: ca70c5bc-ac20-41fe-a9fe-f4a7209c5958
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: IAccessible, IAccessible interface [Windows Accessibility], get_accDescription method, IAccessible::get_accDescription, _msaa_IAccessible_get_accDescription, get_accDescription method [Windows Accessibility], get_accDescription method [Windows Accessibility], IAccessible interface, get_accDescription,IAccessible.get_accDescription, msaa.iaccessible_iaccessible__get_accdescription, oleacc/IAccessible::get_accDescription, winauto.iaccessible_iaccessible__get_accdescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Oleacc.lib
 req.dll: Oleacc.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IAccessible::get_accDescription method

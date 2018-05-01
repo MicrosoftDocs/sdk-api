@@ -7,7 +7,7 @@ old-location: tablet\idynamicrenderer_hwnd.htm
 old-project: tablet
 ms.assetid: 1795100f-d529-4513-8635-65d1d7285f72
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: 1795100f-d529-4513-8635-65d1d7285f72, HWND property [Tablet PC], HWND property [Tablet PC], IDynamicRenderer interface, IDynamicRenderer, IDynamicRenderer interface [Tablet PC], HWND property, IDynamicRenderer.HWND, IDynamicRenderer.get_HWND, IDynamicRenderer.put_HWND, IDynamicRenderer::get_HWND, IDynamicRenderer::put_HWND, get_HWND,IDynamicRenderer.get_HWND, rtscom/IDynamicRenderer::HWND, rtscom/IDynamicRenderer::get_HWND, rtscom/IDynamicRenderer::put_HWND, tablet.idynamicrenderer_hwnd
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,7 +45,7 @@ targetos: Windows
 req.lib: 
 req.dll: RTSCom.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IDynamicRenderer::get_HWND method

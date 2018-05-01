@@ -2,13 +2,13 @@
 UID: NF:intsafe.ULongToChar
 title: ULongToChar function
 author: windows-driver-content
-description: Converts a value of type ULONG to a value of type CHAR.
-old-location: shell\ULongToChar.htm
+description: Converts a value of type DWORD to a value of type CHAR.
+old-location: shell\DWordToChar.htm
 old-project: shell
-ms.assetid: 732521f0-4a8d-4308-9cb9-a52719e89e11
+ms.assetid: 2d3d4114-53ec-420b-93e3-cddb7ae14413
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
-ms.keywords: ULongToChar, ULongToChar function [Windows Shell], _shell_ULongToChar, intsafe/ULongToChar, shell.ULongToChar
+ms.date: 4/26/2018
+ms.keywords: DWordToChar, DWordToChar function [Windows Shell], ULongToChar, _shell_DWordToChar, intsafe/DWordToChar, shell.DWordToChar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -31,15 +31,15 @@ topic_type:
 -	APIRef
 -	kbSyntax
 api_type:
--	HeaderDef
+-	DllExport
 api_location:
--	Intsafe.h
+-	None
 api_name:
--	ULongToChar
+-	DWordToChar
 product: Windows
 targetos: Windows
 req.lib: 
-req.dll: 
+req.dll: None
 req.irql: 
 req.product: GDI+ 1.1
 ---
@@ -50,7 +50,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Converts a value of type <b>ULONG</b> to a value of type <b>CHAR</b>.
+Converts a value of type <b>DWORD</b> to a value of type <b>CHAR</b>.
 
 
 ## -parameters
@@ -58,11 +58,9 @@ Converts a value of type <b>ULONG</b> to a value of type <b>CHAR</b>.
 
 
 
-### -param ulOperand [in]
+### -param ulOperand
 
-Type: <b>ULONG</b>
-
-The value to be converted.
+TBD
 
 
 ### -param pch [out]
@@ -70,6 +68,13 @@ The value to be converted.
 Type: <b>__wchar_t*</b>
 
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns INTSAFE_E_ARITHMETIC_OVERFLOW and this parameter is not valid.
+
+
+#### - dwOperand [in]
+
+Type: <b>DWORD</b>
+
+The value to be converted.
 
 
 ## -returns

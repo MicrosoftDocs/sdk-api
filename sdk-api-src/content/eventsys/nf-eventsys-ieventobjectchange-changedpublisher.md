@@ -7,7 +7,7 @@ old-location: cos\ieventobjectchange_changedpublisher.htm
 old-project: cossdk
 ms.assetid: 13bd95e6-5fc2-41e2-9002-67a87f727528
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: ChangedPublisher method [COM+], ChangedPublisher method [COM+], IEventObjectChange interface, ChangedPublisher,IEventObjectChange.ChangedPublisher, IEventObjectChange, IEventObjectChange interface [COM+], ChangedPublisher method, IEventObjectChange::ChangedPublisher, _cos_ieventobjectchange_changedpublisher, cos.ieventobjectchange_changedpublisher, eventsys/IEventObjectChange::ChangedPublisher
 ms.prod: windows-hardware
 ms.technology: windows-devices

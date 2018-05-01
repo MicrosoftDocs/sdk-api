@@ -7,7 +7,7 @@ old-location: cos\icomqcevents.htm
 old-project: cossdk
 ms.assetid: d7c8220d-a302-4f95-b0b6-8d47f9f27da7
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: IComQCEvents, IComQCEvents interface [COM+], IComQCEvents interface [COM+], described, _dtc_IComQCEvents, comsvcs/IComQCEvents, cos.icomqcevents
 ms.prod: windows-hardware
 ms.technology: windows-devices

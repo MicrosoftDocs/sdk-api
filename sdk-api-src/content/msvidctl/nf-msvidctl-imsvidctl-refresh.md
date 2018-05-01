@@ -7,7 +7,7 @@ old-location: mstv\imsvidctl_refresh.htm
 old-project: mstv
 ms.assetid: 7413049e-3ce4-46e9-ab49-fbdb0455c6b6
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidCtl, IMSVidCtl interface [Microsoft TV Technologies], Refresh method, IMSVidCtl::Refresh, IMSVidCtlRefresh, Refresh method [Microsoft TV Technologies], Refresh method [Microsoft TV Technologies], IMSVidCtl interface, Refresh,IMSVidCtl.Refresh, mstv.imsvidctl_refresh, msvidctl/IMSVidCtl::Refresh
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidCtl::Refresh method

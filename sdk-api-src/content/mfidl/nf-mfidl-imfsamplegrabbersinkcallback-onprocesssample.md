@@ -7,7 +7,7 @@ old-location: mf\imfsamplegrabbersinkcallback_onprocesssample.htm
 old-project: medfound
 ms.assetid: 0a7bfee3-9d6f-4cdf-8c64-abfc6ab78e60
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 0a7bfee3-9d6f-4cdf-8c64-abfc6ab78e60, IMFSampleGrabberSinkCallback, IMFSampleGrabberSinkCallback interface [Media Foundation], OnProcessSample method, IMFSampleGrabberSinkCallback::OnProcessSample, OnProcessSample method [Media Foundation], OnProcessSample method [Media Foundation], IMFSampleGrabberSinkCallback interface, OnProcessSample,IMFSampleGrabberSinkCallback.OnProcessSample, mf.imfsamplegrabbersinkcallback_onprocesssample, mfidl/IMFSampleGrabberSinkCallback::OnProcessSample
 ms.prod: windows-hardware
 ms.technology: windows-devices

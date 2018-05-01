@@ -7,7 +7,7 @@ old-location: mstv\iisdb_sdtt_getrecordgroup.htm
 old-project: mstv
 ms.assetid: 6798e477-754d-49a3-84f1-04d1a60094a7
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetRecordGroup method [Microsoft TV Technologies], GetRecordGroup method [Microsoft TV Technologies], IISDB_SDTT interface, GetRecordGroup,IISDB_SDTT.GetRecordGroup, IISDB_SDTT, IISDB_SDTT interface [Microsoft TV Technologies], GetRecordGroup method, IISDB_SDTT::GetRecordGroup, dvbsiparser/IISDB_SDTT::GetRecordGroup, mstv.iisdb_sdtt_getrecordgroup
 ms.prod: windows-hardware
 ms.technology: windows-devices

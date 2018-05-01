@@ -7,7 +7,7 @@ old-location: gdi\updatewindow.htm
 old-project: gdi
 ms.assetid: 51a50f1f-7b4d-4acd-83a0-1877f5181766
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/17/2018
 ms.keywords: UpdateWindow, UpdateWindow function [Windows GDI], _win32_UpdateWindow, gdi.updatewindow, winuser/UpdateWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices

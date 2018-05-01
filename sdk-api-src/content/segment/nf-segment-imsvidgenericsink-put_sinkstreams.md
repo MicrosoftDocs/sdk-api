@@ -7,7 +7,7 @@ old-location: mstv\imsvidgenericsink_put_sinkstreams.htm
 old-project: mstv
 ms.assetid: a9bb76ad-6b10-4a48-9d94-64e6d28a3b9f
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidGenericSink, IMSVidGenericSink interface [Microsoft TV Technologies], put_SinkStreams method, IMSVidGenericSink::put_SinkStreams, IMSVidGenericSinkput_SinkStreams, mstv.imsvidgenericsink_put_sinkstreams, put_SinkStreams method [Microsoft TV Technologies], put_SinkStreams method [Microsoft TV Technologies], IMSVidGenericSink interface, put_SinkStreams,IMSVidGenericSink.put_SinkStreams, segment/IMSVidGenericSink::put_SinkStreams
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidGenericSink::put_SinkStreams method

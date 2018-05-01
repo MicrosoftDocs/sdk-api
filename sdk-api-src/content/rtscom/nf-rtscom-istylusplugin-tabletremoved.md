@@ -7,7 +7,7 @@ old-location: tablet\istylusplugin_tabletremoved.htm
 old-project: tablet
 ms.assetid: b953c2f8-3f49-4b7a-af4a-528c8815b066
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: IStylusPlugin, IStylusPlugin interface [Tablet PC], TabletRemoved method, IStylusPlugin::TabletRemoved, TabletRemoved method [Tablet PC], TabletRemoved method [Tablet PC], IStylusPlugin interface, TabletRemoved,IStylusPlugin.TabletRemoved, b953c2f8-3f49-4b7a-af4a-528c8815b066, rtscom/IStylusPlugin::TabletRemoved, tablet.istylusplugin_tabletremoved
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: RTSCom.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IStylusPlugin::TabletRemoved method

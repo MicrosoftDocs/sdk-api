@@ -7,7 +7,7 @@ old-location: base\ivssbackupcomponents_setadditionalrestores.htm
 old-project: VSS
 ms.assetid: b3a38348-ab89-40a5-bf77-612bcd99c31b
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: IVssBackupComponents, IVssBackupComponents interface [VSS], SetAdditionalRestores method, IVssBackupComponents::SetAdditionalRestores, SetAdditionalRestores method [VSS], SetAdditionalRestores method [VSS], IVssBackupComponents interface, SetAdditionalRestores,IVssBackupComponents.SetAdditionalRestores, _win32_ivssbackupcomponents_setadditionalrestores, base.ivssbackupcomponents_setadditionalrestores, vsbackup/IVssBackupComponents::SetAdditionalRestores
 ms.prod: windows-hardware
 ms.technology: windows-devices

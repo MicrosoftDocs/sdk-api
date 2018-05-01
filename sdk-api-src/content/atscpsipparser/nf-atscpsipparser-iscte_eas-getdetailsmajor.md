@@ -7,7 +7,7 @@ old-location: mstv\iscte_eas_getdetailsmajor.htm
 old-project: mstv
 ms.assetid: ecb6f06d-ccf5-44f3-ba36-b24176c3a20e
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetDetailsMajor method [Microsoft TV Technologies], GetDetailsMajor method [Microsoft TV Technologies], ISCTE_EAS interface, GetDetailsMajor,ISCTE_EAS.GetDetailsMajor, ISCTE_EAS, ISCTE_EAS interface [Microsoft TV Technologies], GetDetailsMajor method, ISCTE_EAS::GetDetailsMajor, ISCTE_EASGetDetailsMajor, atscpsipparser/ISCTE_EAS::GetDetailsMajor, mstv.iscte_eas_getdetailsmajor
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_WRITER_PAYLOAD_STREAM
+req.typenames: AsyncStatus
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,7 +7,7 @@ old-location: wmi\iwbemclassobject_getnames.htm
 old-project: WmiSdk
 ms.assetid: fc75fb17-52a2-40dd-b333-fcd01cae1430
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: GetNames method [Windows Management Instrumentation], GetNames method [Windows Management Instrumentation], IWbemClassObject interface, GetNames,IWbemClassObject.GetNames, IWbemClassObject, IWbemClassObject interface [Windows Management Instrumentation], GetNames method, IWbemClassObject::GetNames, _hmm_iwbemclassobject_getnames, wbemcli/IWbemClassObject::GetNames, wmi.iwbemclassobject_getnames
 ms.prod: windows-hardware
 ms.technology: windows-devices

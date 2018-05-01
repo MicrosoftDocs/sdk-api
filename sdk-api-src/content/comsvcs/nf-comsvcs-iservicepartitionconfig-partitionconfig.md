@@ -7,7 +7,7 @@ old-location: cos\iservicepartitionconfig_partitionconfig.htm
 old-project: cossdk
 ms.assetid: 0f8c5353-5740-4c7e-91be-f336424fb93a
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: IServicePartitionConfig, IServicePartitionConfig interface [COM+], PartitionConfig method, IServicePartitionConfig::PartitionConfig, PartitionConfig method [COM+], PartitionConfig method [COM+], IServicePartitionConfig interface, PartitionConfig,IServicePartitionConfig.PartitionConfig, _cos_IServicePartitionConfig_PartitionConfig, comsvcs/IServicePartitionConfig::PartitionConfig, cos.iservicepartitionconfig_partitionconfig
 ms.prod: windows-hardware
 ms.technology: windows-devices

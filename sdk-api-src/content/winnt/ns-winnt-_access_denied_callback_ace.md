@@ -7,7 +7,7 @@ old-location: security\access_denied_callback_ace.htm
 old-project: SecAuthZ
 ms.assetid: 6df77b27-7aa3-455f-bffe-eeb90ba1bc15
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: "*PACCESS_DENIED_CALLBACK_ACE, ACCESS_DENIED_CALLBACK_ACE, ACCESS_DENIED_CALLBACK_ACE structure [Security], PACCESS_DENIED_CALLBACK_ACE, PACCESS_DENIED_CALLBACK_ACE structure pointer [Security], _ACCESS_DENIED_CALLBACK_ACE, security.access_denied_callback_ace, winnt/ACCESS_DENIED_CALLBACK_ACE, winnt/PACCESS_DENIED_CALLBACK_ACE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

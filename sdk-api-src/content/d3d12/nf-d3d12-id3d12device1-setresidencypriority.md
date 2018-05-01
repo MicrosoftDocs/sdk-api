@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device1_setresidencypriority.htm
 old-project: direct3d12
 ms.assetid: C489AA41-B2FC-418D-8268-9C02E5E10E0D
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: ID3D12Device1, ID3D12Device1 interface, SetResidencyPriority method, ID3D12Device1::SetResidencyPriority, SetResidencyPriority method, SetResidencyPriority method, ID3D12Device1 interface, SetResidencyPriority,ID3D12Device1.SetResidencyPriority, d3d12/ID3D12Device1::SetResidencyPriority, direct3d12.id3d12device1_setresidencypriority
 ms.prod: windows-hardware
 ms.technology: windows-devices

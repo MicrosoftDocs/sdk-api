@@ -7,7 +7,7 @@ old-location: wmformat\iwmwriter_endwriting.htm
 old-project: wmformat
 ms.assetid: 020e2c9d-9581-48c9-bc7b-a0e9e5a60c63
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: EndWriting method [windows Media Format], EndWriting method [windows Media Format], IWMWriter interface, EndWriting,IWMWriter.EndWriting, IWMWriter, IWMWriter interface [windows Media Format], EndWriting method, IWMWriter::EndWriting, IWMWriterEndWriting, wmformat.iwmwriter_endwriting, wmsdkidl/IWMWriter::EndWriting
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\imeminputpin_getallocator.htm
 old-project: DirectShow
 ms.assetid: ab49028e-ae27-4d4e-a5f1-a086ade25c5e
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetAllocator method [DirectShow], GetAllocator method [DirectShow], IMemInputPin interface, GetAllocator,IMemInputPin.GetAllocator, IMemInputPin, IMemInputPin interface [DirectShow], GetAllocator method, IMemInputPin::GetAllocator, IMemInputPinGetAllocator, dshow.imeminputpin_getallocator, strmif/IMemInputPin::GetAllocator
 ms.prod: windows-hardware
 ms.technology: windows-devices

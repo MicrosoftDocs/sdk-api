@@ -7,7 +7,7 @@ old-location: wmdm\imdspstorageglobals_gettotalsize.htm
 old-project: WMDM
 ms.assetid: 6a4b4ac5-0b7e-4a22-9857-b251a6bf1dcf
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: GetTotalSize method [windows Media Device Manager], GetTotalSize method [windows Media Device Manager], IMDSPStorageGlobals interface, GetTotalSize,IMDSPStorageGlobals.GetTotalSize, IMDSPStorageGlobals, IMDSPStorageGlobals interface [windows Media Device Manager], GetTotalSize method, IMDSPStorageGlobals::GetTotalSize, IMDSPStorageGlobalsGetTotalSize, mswmdm/IMDSPStorageGlobals::GetTotalSize, wmdm.imdspstorageglobals_gettotalsize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMDSPStorageGlobals::GetTotalSize method

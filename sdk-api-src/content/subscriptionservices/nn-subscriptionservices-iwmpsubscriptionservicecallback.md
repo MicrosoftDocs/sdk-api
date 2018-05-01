@@ -7,7 +7,7 @@ old-location: wmp\iwmpsubscriptionservicecallback.htm
 old-project: WMP
 ms.assetid: c40d492e-030a-4e67-9199-09f44f39a507
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPSubscriptionServiceCallback, IWMPSubscriptionServiceCallback interface [Windows Media Player], IWMPSubscriptionServiceCallback interface [Windows Media Player], described, IWMPSubscriptionServiceCallbackInterface, subscriptionservices/IWMPSubscriptionServiceCallback, wmp.iwmpsubscriptionservicecallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\icertadmin2_getrevocationreason.htm
 old-project: SecCrypto
 ms.assetid: 244b121a-76ba-44fd-b15d-f076b722b030
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: CCertAdmin object [Security], GetRevocationReason method, GetRevocationReason method [Security], GetRevocationReason method [Security], CCertAdmin object, GetRevocationReason method [Security], ICertAdmin interface, GetRevocationReason method [Security], ICertAdmin2 interface, GetRevocationReason,ICertAdmin.GetRevocationReason, ICertAdmin, ICertAdmin interface [Security], GetRevocationReason method, ICertAdmin2 interface [Security], GetRevocationReason method, ICertAdmin2::GetRevocationReason, ICertAdmin::GetRevocationReason, certadm/ICertAdmin2::GetRevocationReason, certadm/ICertAdmin::GetRevocationReason, security.icertadmin2_getrevocationreason
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CHANNEL_ENTRY_POINTS, *PCHANNEL_ENTRY_POINTS
+req.typenames: 
 topic_type:
 -	APIRef
 -	kbSyntax

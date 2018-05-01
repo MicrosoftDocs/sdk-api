@@ -7,7 +7,7 @@ old-location: mstv\idtfilter_get_evalratobjok.htm
 old-project: mstv
 ms.assetid: 92bbe476-3aba-4a50-9cb3-500356228c4b
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IDTFilter, IDTFilter interface [Microsoft TV Technologies], get_EvalRatObjOK method, IDTFilter::get_EvalRatObjOK, IDTFilterget_EvalRatObjOK, encdec/IDTFilter::get_EvalRatObjOK, get_EvalRatObjOK method [Microsoft TV Technologies], get_EvalRatObjOK method [Microsoft TV Technologies], IDTFilter interface, get_EvalRatObjOK,IDTFilter.get_EvalRatObjOK, mstv.idtfilter_get_evalratobjok
 ms.prod: windows-hardware
 ms.technology: windows-devices

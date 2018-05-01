@@ -7,7 +7,7 @@ old-location: gdi\enhmetarecord.htm
 old-project: gdi
 ms.assetid: efe49094-fe61-40e1-873e-3302c595717e
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/17/2018
 ms.keywords: "*LPENHMETARECORD, *PENHMETARECORD, ENHMETARECORD, ENHMETARECORD structure [Windows GDI], PENHMETARECORD, PENHMETARECORD structure pointer [Windows GDI], _win32_ENHMETARECORD_str, gdi.enhmetarecord, tagENHMETARECORD, wingdi/ENHMETARECORD, wingdi/PENHMETARECORD"
 ms.prod: windows-hardware
 ms.technology: windows-devices

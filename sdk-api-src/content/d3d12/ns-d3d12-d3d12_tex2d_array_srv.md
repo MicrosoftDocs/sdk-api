@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_tex2d_array_srv.htm
 old-project: direct3d12
 ms.assetid: D3854008-0BB8-4284-A89F-A13DB85BB911
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: D3D12_TEX2D_ARRAY_SRV, D3D12_TEX2D_ARRAY_SRV structure, d3d12/D3D12_TEX2D_ARRAY_SRV, direct3d12.d3d12_tex2d_array_srv
 ms.prod: windows-hardware
 ms.technology: windows-devices

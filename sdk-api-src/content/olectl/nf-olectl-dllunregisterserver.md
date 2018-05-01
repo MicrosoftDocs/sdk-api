@@ -7,7 +7,7 @@ old-location: com\dllunregisterserver.htm
 old-project: com
 ms.assetid: b71137a7-284e-4521-a3b2-9dad9c9d3c54
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: DllUnregisterServer, DllUnregisterServer entry point [COM], _com_DllUnregisterServer, com.dllunregisterserver, olectl/DllUnregisterServer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # DllUnregisterServer function

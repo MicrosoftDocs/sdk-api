@@ -7,7 +7,7 @@ old-location: mf\imfmediaengineex_getstereo3dframepackingmode.htm
 old-project: medfound
 ms.assetid: 003204DB-DDAD-4F72-BA25-015B033BAC92
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetStereo3DFramePackingMode method [Media Foundation], GetStereo3DFramePackingMode method [Media Foundation], IMFMediaEngineEx interface, GetStereo3DFramePackingMode,IMFMediaEngineEx.GetStereo3DFramePackingMode, IMFMediaEngineEx, IMFMediaEngineEx interface [Media Foundation], GetStereo3DFramePackingMode method, IMFMediaEngineEx::GetStereo3DFramePackingMode, mf.imfmediaengineex_getstereo3dframepackingmode, mfmediaengine/IMFMediaEngineEx::GetStereo3DFramePackingMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

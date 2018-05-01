@@ -7,7 +7,7 @@ old-location: nps\SDO_isdoservicecontrol_stopservice.htm
 old-project: Nps
 ms.assetid: a90e4d12-589b-4d28-89e6-6c0ec6900b0a
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/24/2018
 ms.keywords: ISdoServiceControl, ISdoServiceControl interface [Network Policy Server], StopService method, ISdoServiceControl::StopService, StopService method [Network Policy Server], StopService method [Network Policy Server], ISdoServiceControl interface, StopService,ISdoServiceControl.StopService, _sdo_isdoservicecontrol_stopservice, nps.SDO_isdoservicecontrol_stopservice, sdo.isdoservicecontrol_stopservice, sdoias/ISdoServiceControl::StopService
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Iassdo.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ISdoServiceControl::StopService method

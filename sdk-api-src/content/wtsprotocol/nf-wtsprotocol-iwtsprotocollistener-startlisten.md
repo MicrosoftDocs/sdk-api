@@ -7,7 +7,7 @@ old-location: termserv\iwtsprotocollistener_startlisten.htm
 old-project: TermServ
 ms.assetid: d922ea90-a4eb-4495-947c-ef33bd81f40a
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: IWTSProtocolListener, IWTSProtocolListener interface [Remote Desktop Services], StartListen method, IWTSProtocolListener::StartListen, StartListen method [Remote Desktop Services], StartListen method [Remote Desktop Services], IWTSProtocolListener interface, StartListen,IWTSProtocolListener.StartListen, termserv.iwtsprotocollistener_startlisten, wtsprotocol/IWTSProtocolListener::StartListen
 ms.prod: windows-hardware
 ms.technology: windows-devices

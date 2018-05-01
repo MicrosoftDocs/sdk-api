@@ -7,7 +7,7 @@ old-location: cos\iobjectcontext_enablecommit.htm
 old-project: cossdk
 ms.assetid: 6571aadc-bf5a-48c3-817a-66ce444ef96a
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: EnableCommit method [COM+], EnableCommit method [COM+], IObjectContext interface, EnableCommit,IObjectContext.EnableCommit, IObjectContext, IObjectContext interface [COM+], EnableCommit method, IObjectContext::EnableCommit, _cos_IObjectContext_EnableCommit, comsvcs/IObjectContext::EnableCommit, cos.iobjectcontext_enablecommit
 ms.prod: windows-hardware
 ms.technology: windows-devices

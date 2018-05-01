@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationRangeValuePattern_CachedMaximum.htm
 old-project: WinAuto
 ms.assetid: e5bae825-8e42-4ecb-b891-b802ca8d3360
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: CachedMaximum property [Windows Accessibility], CachedMaximum property [Windows Accessibility], IUIAutomationRangeValuePattern interface, IUIAutomationRangeValuePattern, IUIAutomationRangeValuePattern interface [Windows Accessibility], CachedMaximum property, IUIAutomationRangeValuePattern.CachedMaximum, IUIAutomationRangeValuePattern::get_CachedMaximum, get_CachedMaximum,IUIAutomationRangeValuePattern.get_CachedMaximum, uiauto.uiauto_IUIAutomationRangeValuePattern_CachedMaximum, uiauto_IUIAutomationRangeValuePattern_CachedMaximum, uiautomationclient/IUIAutomationRangeValuePattern::CachedMaximum, uiautomationclient/IUIAutomationRangeValuePattern::get_CachedMaximum, winauto.uiauto_IUIAutomationRangeValuePattern_CachedMaximum
 ms.prod: windows-hardware
 ms.technology: windows-devices

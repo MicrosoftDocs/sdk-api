@@ -7,7 +7,7 @@ old-location: wmformat\iwmreadernetworkconfig_getenableudp.htm
 old-project: wmformat
 ms.assetid: 81c6536c-303c-4eac-a75a-54e9df29e299
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: GetEnableUDP method [windows Media Format], GetEnableUDP method [windows Media Format], IWMReaderNetworkConfig interface, GetEnableUDP,IWMReaderNetworkConfig.GetEnableUDP, IWMReaderNetworkConfig, IWMReaderNetworkConfig interface [windows Media Format], GetEnableUDP method, IWMReaderNetworkConfig::GetEnableUDP, IWMReaderNetworkConfigGetEnableUDP, wmformat.iwmreadernetworkconfig_getenableudp, wmsdkidl/IWMReaderNetworkConfig::GetEnableUDP
 ms.prod: windows-hardware
 ms.technology: windows-devices

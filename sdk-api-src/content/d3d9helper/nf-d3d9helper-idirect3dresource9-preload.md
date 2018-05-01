@@ -1,0 +1,92 @@
+---
+UID: NF:d3d9helper.IDirect3DResource9.PreLoad
+title: IDirect3DResource9::PreLoad method
+author: windows-driver-content
+description: Preloads a managed resource.
+old-location: direct3d9\idirect3dresource9__preload.htm
+old-project: direct3d9
+ms.assetid: VS|directx_sdk|~\idirect3dresource9__preload.htm
+ms.author: windowsdriverdev
+ms.date: 4/10/2018
+ms.keywords: IDirect3DResource9, IDirect3DResource9 interface [Direct3D 9], PreLoad method, IDirect3DResource9::PreLoad, PreLoad method [Direct3D 9], PreLoad method [Direct3D 9], IDirect3DResource9 interface, PreLoad,IDirect3DResource9.PreLoad, d3d9helper/IDirect3DResource9::PreLoad, direct3d9.idirect3dresource9__preload, eae2783a-4a7c-f994-50b0-b5b5c735921f
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: d3d9helper.h
+req.include-header: D3d9.h
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: D3DVSHADERCAPS2_0
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	D3D9.lib
+-	D3D9.dll
+api_name:
+-	IDirect3DResource9.PreLoad
+product: Windows
+targetos: Windows
+req.lib: D3D9.lib
+req.dll: 
+req.irql: 
+---
+
+# IDirect3DResource9::PreLoad method
+
+
+## -description
+
+
+Preloads a managed resource.
+
+
+## -parameters
+
+
+
+
+
+
+## -returns
+
+
+
+This method does not return a value.
+
+
+
+
+## -remarks
+
+
+
+Calling this method indicates that the application will need this managed resource shortly. This method has no effect on nonmanaged resources.
+
+<b>IDirect3DResource9::PreLoad</b> detects "thrashing" conditions where more resources are being used in each frame than can fit in video memory simultaneously. Under such circumstances <b>IDirect3DResource9::PreLoad</b> silently does nothing.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/1fdb0bfe-6e36-49ca-b119-a2b3266037d2">IDirect3DResource9</a>
+ 
+
+ 
+

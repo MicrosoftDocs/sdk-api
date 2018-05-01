@@ -7,7 +7,7 @@ old-location: rpc\midl_stub_desc.htm
 old-project: Rpc
 ms.assetid: e3178aaa-a30a-43ba-a78a-a28d6f20fa74
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: MIDL_STUB_DESC, MIDL_STUB_DESC structure [RPC], PMIDL_STUB_DESC, PMIDL_STUB_DESC structure pointer [RPC], RPCFLG_HAS_CALLBACK, RPCFLG_HAS_MULTI_SYNTAXES, RPC_INTERFACE_HAS_PIPES, _MIDL_STUB_DESC, rpc.midl_stub_desc, rpcndr/MIDL_STUB_DESC, rpcndr/PMIDL_STUB_DESC
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _MIDL_STUB_DESC structure
@@ -56,6 +56,21 @@ The <b>MIDL_STUB_DESC</b> structure is a MIDL-generated structure that contains 
 ## -struct-fields
 
 
+
+
+### -field RpcInterfaceInformation
+
+For a nonobject RPC interface on the server-side, it points to an RPC server interface structure. On the client-side, it points to an RPC client interface structure. It is null for an object interface. 
+
+
+### -field pfnAllocate
+
+Memory allocation function to be used by the stub. Set to <a href="midl.midl_user_allocate_1">midl_user_allocate</a> for nonobject interface and <a href="https://msdn.microsoft.com/87bfc8ae-62e6-477f-98a7-caf907589b89"> NdrOleAllocate</a> for object interface.  
+
+
+### -field pfnFree
+
+Memory-free function to be used by the stub. Set to <a href="https://msdn.microsoft.com/b5d8f133-ddd9-4b92-8540-611a03835be0">midl_user_free</a> for nonobject interface and <a href="https://msdn.microsoft.com/c4289448-11bb-40d1-ae63-68521b901796"> NdrOleFree</a> for object interface.  
 
 
 ### -field IMPLICIT_HANDLE_INFO
@@ -79,21 +94,6 @@ Pointer to the implicit primitive handle for the RPC call.
 #### pGenericBindingInfo
 
 Pointer to the information about the implicit generic handle.
-
-
-### -field RpcInterfaceInformation
-
-For a nonobject RPC interface on the server-side, it points to an RPC server interface structure. On the client-side, it points to an RPC client interface structure. It is null for an object interface. 
-
-
-### -field pfnAllocate
-
-Memory allocation function to be used by the stub. Set to <a href="midl.midl_user_allocate_1">midl_user_allocate</a> for nonobject interface and <a href="https://msdn.microsoft.com/87bfc8ae-62e6-477f-98a7-caf907589b89"> NdrOleAllocate</a> for object interface.  
-
-
-### -field pfnFree
-
-Memory-free function to be used by the stub. Set to <a href="https://msdn.microsoft.com/b5d8f133-ddd9-4b92-8540-611a03835be0">midl_user_free</a> for nonobject interface and <a href="https://msdn.microsoft.com/c4289448-11bb-40d1-ae63-68521b901796"> NdrOleFree</a> for object interface.  
 
 
 ### -field apfnNdrRundownRoutines

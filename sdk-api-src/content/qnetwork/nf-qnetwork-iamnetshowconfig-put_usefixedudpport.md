@@ -7,7 +7,7 @@ old-location: dshow\iamnetshowconfig_put_usefixedudpport.htm
 old-project: DirectShow
 ms.assetid: a7b0c118-0479-4f28-8e2f-6c143cde9ff0
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMNetShowConfig, IAMNetShowConfig interface [DirectShow], put_UseFixedUDPPort method, IAMNetShowConfig::put_UseFixedUDPPort, IAMNetShowConfigput_UseFixedUDPPort, dshow.iamnetshowconfig_put_usefixedudpport, put_UseFixedUDPPort method [DirectShow], put_UseFixedUDPPort method [DirectShow], IAMNetShowConfig interface, put_UseFixedUDPPort,IAMNetShowConfig.put_UseFixedUDPPort, qnetwork/IAMNetShowConfig::put_UseFixedUDPPort
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IAMNetShowConfig::put_UseFixedUDPPort method

@@ -7,7 +7,7 @@ old-location: dshow\ipinflowcontrol_block.htm
 old-project: DirectShow
 ms.assetid: 9bcd325d-41fc-4166-8fce-50fc921efdba
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: Block method [DirectShow], Block method [DirectShow], IPinFlowControl interface, Block,IPinFlowControl.Block, IPinFlowControl, IPinFlowControl interface [DirectShow], Block method, IPinFlowControl::Block, IPinFlowControlBlock, dshow.ipinflowcontrol_block, strmif/IPinFlowControl::Block
 ms.prod: windows-hardware
 ms.technology: windows-devices

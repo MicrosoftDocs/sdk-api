@@ -7,7 +7,7 @@ old-location: com\ipersiststorage_initnew.htm
 old-project: com
 ms.assetid: 79caf1f6-d974-4aee-8563-eda4876a0a90
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IPersistStorage, IPersistStorage interface [COM], InitNew method, IPersistStorage::InitNew, InitNew method [COM], InitNew method [COM], IPersistStorage interface, InitNew,IPersistStorage.InitNew, _com_ipersiststorage_initnew, com.ipersiststorage_initnew, objidl/IPersistStorage::InitNew
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IPersistStorage::InitNew method

@@ -7,7 +7,7 @@ old-location: com\ioleobject_enumverbs.htm
 old-project: com
 ms.assetid: c67770d0-e478-41dc-9028-1e0a6cb9e3c7
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: EnumVerbs method [COM], EnumVerbs method [COM], IOleObject interface, EnumVerbs,IOleObject.EnumVerbs, IOleObject, IOleObject interface [COM], EnumVerbs method, IOleObject::EnumVerbs, _ole_ioleobject_enumverbs, com.ioleobject_enumverbs, oleidl/IOleObject::EnumVerbs
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IOleObject::EnumVerbs method

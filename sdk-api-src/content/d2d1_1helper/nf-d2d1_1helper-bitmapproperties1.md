@@ -7,7 +7,7 @@ old-location: direct2d\bitmapproperties1.htm
 old-project: Direct2D
 ms.assetid: 68391380-4C53-41EA-8458-EFD4387396D3
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: BitmapProperties1, BitmapProperties1 function [Direct2D], d2d1_1helper/BitmapProperties1, direct2d.bitmapproperties1
 ms.prod: windows-hardware
 ms.technology: windows-devices

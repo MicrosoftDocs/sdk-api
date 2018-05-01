@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_creategeometryshader.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_creategeometryshader.htm
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: 95304c4b-5772-79d5-e004-826cea33692b, CreateGeometryShader method [Direct3D 10], CreateGeometryShader method [Direct3D 10], ID3D10Device interface, CreateGeometryShader,ID3D10Device.CreateGeometryShader, ID3D10Device, ID3D10Device interface [Direct3D 10], CreateGeometryShader method, ID3D10Device::CreateGeometryShader, d3d10/ID3D10Device::CreateGeometryShader, direct3d10.id3d10device_creategeometryshader
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: ics\inetfwproduct.htm
 old-project: ICS
 ms.assetid: e4cadbfd-d48d-4b38-a068-fc005d6f72af
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: INetFwProduct, INetFwProduct interface [ICS/ICF], INetFwProduct interface [ICS/ICF], described, ics.inetfwproduct, netfw/INetFwProduct
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: FirewallAPI.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # INetFwProduct interface

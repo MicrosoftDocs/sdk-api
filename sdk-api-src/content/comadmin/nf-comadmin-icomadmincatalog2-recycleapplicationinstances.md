@@ -7,7 +7,7 @@ old-location: cos\icomadmincatalog2_recycleapplicationinstances.htm
 old-project: cossdk
 ms.assetid: 0d2d6255-54c7-4110-9ee0-7019e9c7cb83
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: ICOMAdminCatalog2, ICOMAdminCatalog2 interface [COM+], RecycleApplicationInstances method, ICOMAdminCatalog2::RecycleApplicationInstances, RecycleApplicationInstances method [COM+], RecycleApplicationInstances method [COM+], ICOMAdminCatalog2 interface, RecycleApplicationInstances,ICOMAdminCatalog2.RecycleApplicationInstances, _cos_icomadmincatalog2_RecycleApplicationInstances, comadmin/ICOMAdminCatalog2::RecycleApplicationInstances, cos.icomadmincatalog2_recycleapplicationinstances
 ms.prod: windows-hardware
 ms.technology: windows-devices

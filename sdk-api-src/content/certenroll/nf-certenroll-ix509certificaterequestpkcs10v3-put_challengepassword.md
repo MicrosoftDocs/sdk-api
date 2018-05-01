@@ -7,7 +7,7 @@ old-location: security\ix509certificaterequestpkcs10v3_challengepassword.htm
 old-project: SecCertEnroll
 ms.assetid: 6eea0993-d5ba-4cc3-9757-4e57e088cdc7
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: ChallengePassword property [Security], ChallengePassword property [Security], IX509CertificateRequestPkcs10V3 interface, IX509CertificateRequestPkcs10V3, IX509CertificateRequestPkcs10V3 interface [Security], ChallengePassword property, IX509CertificateRequestPkcs10V3.ChallengePassword, IX509CertificateRequestPkcs10V3::get_ChallengePassword, IX509CertificateRequestPkcs10V3::put_ChallengePassword, certenroll/IX509CertificateRequestPkcs10V3::ChallengePassword, certenroll/IX509CertificateRequestPkcs10V3::get_ChallengePassword, certenroll/IX509CertificateRequestPkcs10V3::put_ChallengePassword, put_ChallengePassword,IX509CertificateRequestPkcs10V3.put_ChallengePassword, security.ix509certificaterequestpkcs10v3_challengepassword
 ms.prod: windows-hardware
 ms.technology: windows-devices

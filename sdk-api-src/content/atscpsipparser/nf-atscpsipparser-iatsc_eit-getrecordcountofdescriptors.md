@@ -7,7 +7,7 @@ old-location: mstv\iatsc_eit_getrecordcountofdescriptors.htm
 old-project: mstv
 ms.assetid: fd568711-c82c-4ffe-9333-2b729502fe79
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetRecordCountOfDescriptors method [Microsoft TV Technologies], GetRecordCountOfDescriptors method [Microsoft TV Technologies], IATSC_EIT interface, GetRecordCountOfDescriptors,IATSC_EIT.GetRecordCountOfDescriptors, IATSC_EIT, IATSC_EIT interface [Microsoft TV Technologies], GetRecordCountOfDescriptors method, IATSC_EIT::GetRecordCountOfDescriptors, IATSC_EITGetRecordCountOfDescriptors, atscpsipparser/IATSC_EIT::GetRecordCountOfDescriptors, mstv.iatsc_eit_getrecordcountofdescriptors
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_WRITER_PAYLOAD_STREAM
+req.typenames: AsyncStatus
 topic_type:
 -	APIRef
 -	kbSyntax

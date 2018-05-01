@@ -7,7 +7,7 @@ old-location: base\cvsswriter_onbackupshutdown.htm
 old-project: VSS
 ms.assetid: 4b6d5efe-703b-4245-81d8-e2fc7f650d4b
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: CVssWriter, CVssWriter interface [VSS], OnBackupShutdown method, CVssWriter::OnBackupShutdown, OnBackupShutdown method [VSS], OnBackupShutdown method [VSS], CVssWriter interface, OnBackupShutdown,CVssWriter.OnBackupShutdown, _win32_cvsswriter_onbackupshutdown, base.cvsswriter_onbackupshutdown, vswriter/CVssWriter::OnBackupShutdown
 ms.prod: windows-hardware
 ms.technology: windows-devices

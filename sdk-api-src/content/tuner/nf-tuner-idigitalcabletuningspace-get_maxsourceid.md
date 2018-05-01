@@ -7,7 +7,7 @@ old-location: mstv\idigitalcabletuningspace_get_maxsourceid.htm
 old-project: mstv
 ms.assetid: 4f408777-11a0-4c86-95e6-9bfe7c917bb3
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IDigitalCableTuningSpace, IDigitalCableTuningSpace interface [Microsoft TV Technologies], get_MaxSourceID method, IDigitalCableTuningSpace::get_MaxSourceID, IDigitalCableTuningSpaceget_MaxSourceID, get_MaxSourceID method [Microsoft TV Technologies], get_MaxSourceID method [Microsoft TV Technologies], IDigitalCableTuningSpace interface, get_MaxSourceID,IDigitalCableTuningSpace.get_MaxSourceID, mstv.idigitalcabletuningspace_get_maxsourceid, tuner/IDigitalCableTuningSpace::get_MaxSourceID
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11device3_createtexture3d1.htm
 old-project: direct3d11
 ms.assetid: EE72AEEF-DBAB-4838-AB91-138EB532BD81
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/6/2018
 ms.keywords: CreateTexture3D1 method [Direct3D 11], CreateTexture3D1 method [Direct3D 11], ID3D11Device3 interface, CreateTexture3D1,ID3D11Device3.CreateTexture3D1, ID3D11Device3, ID3D11Device3 interface [Direct3D 11], CreateTexture3D1 method, ID3D11Device3::CreateTexture3D1, d3d11_3/ID3D11Device3::CreateTexture3D1, direct3d11.id3d11device3_createtexture3d1
 ms.prod: windows-hardware
 ms.technology: windows-devices

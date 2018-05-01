@@ -7,7 +7,7 @@ old-location: wua\iupdatehistoryentrycollection__newenum.htm
 old-project: Wua_Sdk
 ms.assetid: ff34cf19-c189-41ce-a14e-c833e6366487
 ms.author: windowsdriverdev
-ms.date: 3/15/2018
+ms.date: 4/18/2018
 ms.keywords: IUpdateHistoryEntryCollection, IUpdateHistoryEntryCollection interface [Windows Update Agent], _NewEnum property, IUpdateHistoryEntryCollection._NewEnum, IUpdateHistoryEntryCollection::get__NewEnum, _NewEnum property [Windows Update Agent], _NewEnum property [Windows Update Agent], IUpdateHistoryEntryCollection interface, get__NewEnum,IUpdateHistoryEntryCollection.get__NewEnum, wua.iupdatehistoryentrycollection__newenum, wuapi/IUpdateHistoryEntryCollection::_NewEnum, wuapi/IUpdateHistoryEntryCollection::get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices

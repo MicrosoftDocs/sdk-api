@@ -7,7 +7,7 @@ old-location: security\ix509certificaterequestcmc2_initializefrominnerrequesttem
 old-project: SecCertEnroll
 ms.assetid: 12490859-bb4a-49ff-9d92-24bf04ab3999
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: IX509CertificateRequestCmc2, IX509CertificateRequestCmc2 interface [Security], InitializeFromInnerRequestTemplate method, IX509CertificateRequestCmc2::InitializeFromInnerRequestTemplate, InitializeFromInnerRequestTemplate method [Security], InitializeFromInnerRequestTemplate method [Security], IX509CertificateRequestCmc2 interface, InitializeFromInnerRequestTemplate,IX509CertificateRequestCmc2.InitializeFromInnerRequestTemplate, certenroll/IX509CertificateRequestCmc2::InitializeFromInnerRequestTemplate, security.ix509certificaterequestcmc2_initializefrominnerrequesttemplate
 ms.prod: windows-hardware
 ms.technology: windows-devices

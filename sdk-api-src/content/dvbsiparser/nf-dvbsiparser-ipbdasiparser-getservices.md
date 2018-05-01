@@ -7,7 +7,7 @@ old-location: mstv\ipbdasiparser_getservices.htm
 old-project: mstv
 ms.assetid: 0d6848f2-6fcd-4e7c-b1fc-b8f56e6c65b6
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetServices method [Microsoft TV Technologies], GetServices method [Microsoft TV Technologies], IPBDASiParser interface, GetServices,IPBDASiParser.GetServices, IPBDASiParser, IPBDASiParser interface [Microsoft TV Technologies], GetServices method, IPBDASiParser::GetServices, dshow.ipbdasiparser_getservices, dvbsiparser/IPBDASiParser::GetServices, mstv.ipbdasiparser_getservices
 ms.prod: windows-hardware
 ms.technology: windows-devices

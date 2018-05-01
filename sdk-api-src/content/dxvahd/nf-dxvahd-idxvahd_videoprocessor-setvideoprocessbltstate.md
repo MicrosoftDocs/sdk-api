@@ -7,7 +7,7 @@ old-location: mf\idxvahd_videoprocessor_setvideoprocessbltstate.htm
 old-project: medfound
 ms.assetid: adc08662-7977-402d-9eb1-505333550fc8
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IDXVAHD_VideoProcessor, IDXVAHD_VideoProcessor interface [Media Foundation], SetVideoProcessBltState method, IDXVAHD_VideoProcessor::SetVideoProcessBltState, SetVideoProcessBltState method [Media Foundation], SetVideoProcessBltState method [Media Foundation], IDXVAHD_VideoProcessor interface, SetVideoProcessBltState,IDXVAHD_VideoProcessor.SetVideoProcessBltState, dxvahd/IDXVAHD_VideoProcessor::SetVideoProcessBltState, mf.idxvahd_videoprocessor_setvideoprocessbltstate
 ms.prod: windows-hardware
 ms.technology: windows-devices

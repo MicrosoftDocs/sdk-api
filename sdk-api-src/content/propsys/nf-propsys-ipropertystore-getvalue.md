@@ -2,26 +2,26 @@
 UID: NF:propsys.IPropertyStore.GetValue
 title: IPropertyStore::GetValue method
 author: windows-driver-content
-description: Gets data for a specific property.
-old-location: properties\IPropertyStore_GetValue.htm
-old-project: properties
-ms.assetid: 1768b087-1a80-4331-93b0-14eaab651913
+description: This method retrieves the data for a specific property.
+old-location: audio\ipropertystore_getvalue.htm
+old-project: audio
+ms.assetid: 11204335-0f00-4af8-8787-93e91248e5bd
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
-ms.keywords: GetValue method [Windows Properties], GetValue method [Windows Properties], IPropertyStore interface, GetValue,IPropertyStore.GetValue, IPropertyStore, IPropertyStore interface [Windows Properties], GetValue method, IPropertyStore::GetValue, properties.IPropertyStore_GetValue, propsys/IPropertyStore::GetValue, shell.IPropertyStore_GetValue, shell_IPropertyStore_GetValue
+ms.date: 4/16/2018
+ms.keywords: GetValue method [Audio Devices], GetValue method [Audio Devices], IPropertyStore interface, GetValue,IPropertyStore.GetValue, IPropertyStore, IPropertyStore interface [Audio Devices], GetValue method, IPropertyStore::GetValue, audio.ipropertystore_getvalue, audio_syseffects_r_5540088b-f979-440e-93b8-feb9db17001c.xml, propsys/IPropertyStore::GetValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
 req.header: propsys.h
 req.include-header: 
-req.target-type: Windows
-req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
+req.target-type: Universal
+req.target-min-winverclnt: Available with Windows Vista and later versions of the Windows operating system.
+req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Propsys.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
@@ -33,15 +33,16 @@ topic_type:
 api_type:
 -	COM
 api_location:
--	Propsys.h
+-	Propsys.idl
+-	Propsys.idl.dll
 api_name:
 -	IPropertyStore.GetValue
 product: Windows
 targetos: Windows
-req.lib: 
+req.lib: Propsys.idl
 req.dll: 
-req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.irql: All levels
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IPropertyStore::GetValue method
@@ -50,7 +51,7 @@ req.product: Compute Cluster Pack Client Utilities
 ## -description
 
 
-Gets data for a specific property.
+This method retrieves the data for a specific property.
 
 
 ## -parameters
@@ -58,31 +59,28 @@ Gets data for a specific property.
 
 
 
-### -param key [in]
-
-Type: <b>REFPROPERTYKEY</b>
-
-A reference to the <a href="shell.PROPERTYKEY">PROPERTYKEY</a> structure retrieved through <a href="https://msdn.microsoft.com/library/windows/hardware/ff536959">IPropertyStore::GetAt</a>. This structure contains a unique identifier for the property in question.
+### -param key
 
 
-### -param pv [out]
 
-Type: <b><a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>*</b>
 
-When this method returns, contains a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> structure that contains the property data.
+### -param pv
+
+After the <code>IPropertyStore::GetValue</code> method returns successfully, this parameter points to a <a href="http://go.microsoft.com/fwlink/p/?linkid=106396">PROPVARIANT </a> structure that contains data about the property.
+
+
+#### - Key
+
+A reference to the PROPERTYKEY structure that is retrieved through <a href="https://msdn.microsoft.com/library/windows/hardware/ff536959">IPropertyStore::GetAt</a>. The PROPERTYKEY structure also contains a globally unique identifier (GUID) for the property.
 
 
 ## -returns
 
 
 
-Type: <b>HRESULT</b>
+Returns S_OK or INPLACE_S_TRUNCATED if successful, or an error value otherwise. 
 
-Returns <b>S_OK</b> or INPLACE_S_TRUNCATED if successful, or an error value otherwise.
-                
-                    
-
-INPLACE_S_TRUNCATED is returned to indicate that the returned PROPVARIANT was coerced to a more canonical form, for instance to trim leading or trailing spaces from a string value. Most code should use the SUCCEEDED macro to check the return value, which treats INPLACE_S_TRUNCATED as a success code.
+INPLACE_S_TRUNCATED is returned to indicate that the returned PROPVARIANT was converted into a more canonical form. For example, this would be done to trim leading or trailing spaces from a string value. You must use the SUCCEEDED macro to check the return value, which treats INPLACE_S_TRUNCATED as a success code. The SUCCEEDED macro is defined in the Winerror.h file.
 
 
 
@@ -91,10 +89,22 @@ INPLACE_S_TRUNCATED is returned to indicate that the returned PROPVARIANT was co
 
 
 
-If the <a href="shell.PROPERTYKEY">PROPERTYKEY</a> referenced in <i>key</i> is not present in the property store, this method returns <b>S_OK</b> and the <b>vt</b> member of the structure pointed to by <i>pv</i> is set to VT_EMPTY.
-
-File property handler implementers can use <a href="https://msdn.microsoft.com/library/windows/hardware/ff536962">IPropertyStore::GetValue</a> to retrieve the property value by using the filestream with which <a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a> initialized the property handler. The value can also be computed from an in-memory cache, or other means. However, most consumers of the property system obtain <a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">IPropertyStore</a> through <a href="https://msdn.microsoft.com/706b2551-a9b0-4368-babb-e54cea6d297e">GetPropertyStore</a> and are not—and have no need to be—aware of the method of initialization.
-            
+If the PROPERTYKEY referenced in key is not present in the property store, this method returns S_OK and the <a href="http://go.microsoft.com/fwlink/p/?linkid=106396">vt </a> member of the structure that is pointed to by pv is set to VT_EMPTY.
 
 
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">IPropertyStore</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536959">IPropertyStore::GetAt</a>
+ 
+
+ 
 

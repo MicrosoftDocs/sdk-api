@@ -7,7 +7,7 @@ old-location: cos\iservicepoolconfig_get_maxpoolsize.htm
 old-project: cossdk
 ms.assetid: b9fb76d4-d153-4968-ad1c-79036b4bb8a4
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: IServicePoolConfig, IServicePoolConfig interface [COM+], get_MaxPoolSize method, IServicePoolConfig::get_MaxPoolSize, comsvcs/IServicePoolConfig::get_MaxPoolSize, cos.iservicepoolconfig_get_maxpoolsize, get_MaxPoolSize method [COM+], get_MaxPoolSize method [COM+], IServicePoolConfig interface, get_MaxPoolSize,IServicePoolConfig.get_MaxPoolSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

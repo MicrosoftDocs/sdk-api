@@ -7,7 +7,7 @@ old-location: automat\invokekind.htm
 old-project: automat
 ms.assetid: df6d392e-88f9-4d22-b257-fb6de8abd289
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: INVOKEKIND, INVOKEKIND enumeration [Automation], INVOKE_FUNC, INVOKE_PROPERTYGET, INVOKE_PROPERTYPUT, INVOKE_PROPERTYPUTREF, _oa96_INVOKEKIND, automat.invokekind, oaidl/INVOKEKIND, oaidl/INVOKE_FUNC, oaidl/INVOKE_PROPERTYGET, oaidl/INVOKE_PROPERTYPUT, oaidl/INVOKE_PROPERTYPUTREF, tagINVOKEKIND
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # tagINVOKEKIND enumeration

@@ -7,7 +7,7 @@ old-location: security\icertsrvsetup_getkeylengthlist.htm
 old-project: SecCrypto
 ms.assetid: 9360522a-05fd-41ae-95b1-9270a9f4f728
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: GetKeyLengthList method [Security], GetKeyLengthList method [Security], ICertSrvSetup interface, GetKeyLengthList,ICertSrvSetup.GetKeyLengthList, ICertSrvSetup, ICertSrvSetup interface [Security], GetKeyLengthList method, ICertSrvSetup::GetKeyLengthList, casetup/ICertSrvSetup::GetKeyLengthList, security.icertsrvsetup_getkeylengthlist
 ms.prod: windows-hardware
 ms.technology: windows-devices

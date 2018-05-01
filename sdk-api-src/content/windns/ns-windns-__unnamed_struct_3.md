@@ -1,14 +1,14 @@
 ---
 UID: NS:windns.__unnamed_struct_3
-title: DNS_PTR_DATAA
+title: DNS_PTR_DATAW
 author: windows-driver-content
 description: The DNS_PTR_DATA structure represents a DNS pointer (PTR) record as specified in section 3.3.12 of RFC 1035.
 old-location: dns\dns_ptr_data.htm
 old-project: DNS
 ms.assetid: 8b7f8898-ac91-46da-876c-889c427068a3
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
-ms.keywords: "*PDNS_PTR_DATA, *PDNS_PTR_DATAA, DNS_PTR_DATA, DNS_PTR_DATA structure [DNS], DNS_PTR_DATAA, PDNS_PTR_DATA, PDNS_PTR_DATA structure pointer [DNS], _dns_dns_ptr_data, dns.dns_ptr_data, windns/DNS_PTR_DATA, windns/PDNS_PTR_DATA"
+ms.date: 4/18/2018
+ms.keywords: "*PDNS_PTR_DATA, *PDNS_PTR_DATAW, DNS_PTR_DATA, DNS_PTR_DATA structure [DNS], DNS_PTR_DATAW, PDNS_PTR_DATA, PDNS_PTR_DATA structure pointer [DNS], _dns_dns_ptr_data, dns.dns_ptr_data, windns/DNS_PTR_DATA, windns/PDNS_PTR_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: DNS_PTR_DATAA, *PDNS_PTR_DATAA
+req.typenames: DNS_PTR_DATAW, *PDNS_PTR_DATAW
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# DNS_PTR_DATAA structure
+# DNS_PTR_DATAW structure
 
 
 ## -description

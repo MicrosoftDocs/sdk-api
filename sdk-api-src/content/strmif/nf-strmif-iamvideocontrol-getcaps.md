@@ -7,7 +7,7 @@ old-location: dshow\iamvideocontrol_getcaps.htm
 old-project: DirectShow
 ms.assetid: 8e4b7b46-8179-410c-8369-652f9b65de8c
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetCaps method [DirectShow], GetCaps method [DirectShow], IAMVideoControl interface, GetCaps,IAMVideoControl.GetCaps, IAMVideoControl, IAMVideoControl interface [DirectShow], GetCaps method, IAMVideoControl::GetCaps, IAMVideoControlGetCaps, dshow.iamvideocontrol_getcaps, strmif/IAMVideoControl::GetCaps
 ms.prod: windows-hardware
 ms.technology: windows-devices

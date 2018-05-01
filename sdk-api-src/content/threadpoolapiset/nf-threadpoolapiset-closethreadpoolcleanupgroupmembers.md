@@ -7,7 +7,7 @@ old-location: base\closethreadpoolcleanupgroupmembers.htm
 old-project: ProcThread
 ms.assetid: 9c78db13-d8dd-4eda-83d9-c9dbbfc6e822
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: CloseThreadpoolCleanupGroupMembers, CloseThreadpoolCleanupGroupMembers function, base.closethreadpoolcleanupgroupmembers, threadpoolapiset/CloseThreadpoolCleanupGroupMembers, winbase/CloseThreadpoolCleanupGroupMembers
 ms.prod: windows-hardware
 ms.technology: windows-devices

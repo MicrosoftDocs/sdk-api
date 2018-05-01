@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_CachedValue.h
 old-project: WinAuto
 ms.assetid: 864c99b5-a5ab-486d-ac0d-1471698a8de4
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: CachedValue property [Windows Accessibility], CachedValue property [Windows Accessibility], IUIAutomationLegacyIAccessiblePattern interface, IUIAutomationLegacyIAccessiblePattern, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility], CachedValue property, IUIAutomationLegacyIAccessiblePattern.CachedValue, IUIAutomationLegacyIAccessiblePattern::get_CachedValue, get_CachedValue,IUIAutomationLegacyIAccessiblePattern.get_CachedValue, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CachedValue, uiauto_IUIAutomationLegacyIAccessiblePattern_CachedValue, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::CachedValue, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::get_CachedValue, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CachedValue
 ms.prod: windows-hardware
 ms.technology: windows-devices

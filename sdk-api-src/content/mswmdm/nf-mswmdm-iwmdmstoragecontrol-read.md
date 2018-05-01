@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmstoragecontrol_read.htm
 old-project: WMDM
 ms.assetid: 4b102666-b54b-4b60-b2e9-68def384268e
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: IWMDMStorageControl, IWMDMStorageControl interface [windows Media Device Manager], Read method, IWMDMStorageControl::Read, IWMDMStorageControlRead, Read method [windows Media Device Manager], Read method [windows Media Device Manager], IWMDMStorageControl interface, Read,IWMDMStorageControl.Read, mswmdm/IWMDMStorageControl::Read, wmdm.iwmdmstoragecontrol_read
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IWMDMStorageControl::Read method

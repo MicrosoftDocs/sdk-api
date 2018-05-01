@@ -7,7 +7,7 @@ old-location: tablet\iinkgesture_id.htm
 old-project: tablet
 ms.assetid: 9ed0fcb7-57f9-43f4-95d9-dd75e9e7bd3f
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: ID property [Tablet PC], ID property [Tablet PC], IInkGesture interface, IInkGesture, IInkGesture interface [Tablet PC], ID property, IInkGesture.ID, IInkGesture.get_Id, IInkGesture::get_ID, IInkGesture::get_Id, get_Id,IInkGesture.get_Id, msinkaut/IInkGesture::ID, msinkaut/IInkGesture::get_ID, tablet.iinkgesture_id
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\iocspcaconfiguration_errorcode_method.htm
 old-project: SecCrypto
 ms.assetid: ef41699e-761b-454e-a759-424bb5989459
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: ErrorCode property [Security], ErrorCode property [Security], IOCSPCAConfiguration interface, IOCSPCAConfiguration, IOCSPCAConfiguration interface [Security], ErrorCode property, IOCSPCAConfiguration.ErrorCode, IOCSPCAConfiguration::get_ErrorCode, certadm/IOCSPCAConfiguration::ErrorCode, certadm/IOCSPCAConfiguration::get_ErrorCode, get_ErrorCode,IOCSPCAConfiguration.get_ErrorCode, security.iocspcaconfiguration_errorcode_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CHANNEL_ENTRY_POINTS, *PCHANNEL_ENTRY_POINTS
+req.typenames: 
 topic_type:
 -	APIRef
 -	kbSyntax

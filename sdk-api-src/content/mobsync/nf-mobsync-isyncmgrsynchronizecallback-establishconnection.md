@@ -7,7 +7,7 @@ old-location: shell\syncmgr_isyncmgrsynchronizecallback_establishconnection.htm
 old-project: shell
 ms.assetid: f7d1aff8-a77e-4067-9fc9-4adc69bfc0d1
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: EstablishConnection method [Windows Shell], EstablishConnection method [Windows Shell], ISyncMgrSynchronizeCallback interface, EstablishConnection,ISyncMgrSynchronizeCallback.EstablishConnection, ISyncMgrSynchronizeCallback, ISyncMgrSynchronizeCallback interface [Windows Shell], EstablishConnection method, ISyncMgrSynchronizeCallback::EstablishConnection, mobsync/ISyncMgrSynchronizeCallback::EstablishConnection, shell.syncmgr_isyncmgrsynchronizecallback_establishconnection, syncmgr.isyncmgrsynchronizecallback_establishconnection
 ms.prod: windows-hardware
 ms.technology: windows-devices

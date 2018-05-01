@@ -7,7 +7,7 @@ old-location: winrt\ireferencetrackermanager_referencetrackingstarted.htm
 old-project: WinRT
 ms.assetid: 8d911bbb-aa5e-4906-86d6-caf6f3f84f6f
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/24/2018
 ms.keywords: IReferenceTrackerManager, IReferenceTrackerManager interface [Windows Runtime], ReferenceTrackingStarted method, IReferenceTrackerManager::ReferenceTrackingStarted, ReferenceTrackingStarted method [Windows Runtime], ReferenceTrackingStarted method [Windows Runtime], IReferenceTrackerManager interface, ReferenceTrackingStarted,IReferenceTrackerManager.ReferenceTrackingStarted, windows/IReferenceTrackerManager::ReferenceTrackingStarted, winrt.ireferencetrackermanager_referencetrackingstarted
 ms.prod: windows-hardware
 ms.technology: windows-devices

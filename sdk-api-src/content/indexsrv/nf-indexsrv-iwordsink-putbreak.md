@@ -7,7 +7,7 @@ old-location: indexsrv\iwordsink_putbreak.htm
 old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefobj_71kb.htm
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/11/2018
 ms.keywords: IWordSink, IWordSink interface [Indexing Service], PutBreak method, IWordSink::PutBreak, PutBreak method [Indexing Service], PutBreak method [Indexing Service], IWordSink interface, PutBreak,IWordSink.PutBreak, _idxs_WordSink_PutBreak, indexsrv.iwordsink_putbreak, indexsrv/IWordSink::PutBreak
 ms.prod: windows-hardware
 ms.technology: windows-devices

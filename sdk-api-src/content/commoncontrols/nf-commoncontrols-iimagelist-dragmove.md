@@ -7,7 +7,7 @@ old-location: controls\IImageList_DragMove.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\dragmove.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: DragMove method [Windows Controls], DragMove method [Windows Controls], IImageList interface, DragMove,IImageList.DragMove, IImageList, IImageList interface [Windows Controls], DragMove method, IImageList::DragMove, comctl_IImageList_DragMove, comctl_IImageList_DragMove_cpp, commoncontrols/IImageList::DragMove, controls.IImageList_DragMove, controls.comctl_IImageList_DragMove
 ms.prod: windows-hardware
 ms.technology: windows-devices

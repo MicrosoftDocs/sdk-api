@@ -7,7 +7,7 @@ old-location: base\ioctl_storage_get_media_types.htm
 old-project: DevIO
 ms.assetid: 67f65549-f24b-4ef2-a98f-1fc618a3bb77
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/3/2018
 ms.keywords: IOCTL_STORAGE_GET_MEDIA_TYPES, IOCTL_STORAGE_GET_MEDIA_TYPES control code, _win32_ioctl_storage_get_media_types, base.ioctl_storage_get_media_types, winioctl/IOCTL_STORAGE_GET_MEDIA_TYPES
 ms.prod: windows-hardware
 ms.technology: windows-devices

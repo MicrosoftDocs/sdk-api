@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrSyncItem_GetName.htm
 old-project: shell
 ms.assetid: 4a5f8430-7b5a-4184-acc9-ae4395acf2fa
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetName method [Windows Shell], GetName method [Windows Shell], ISyncMgrSyncItem interface, GetName,ISyncMgrSyncItem.GetName, ISyncMgrSyncItem, ISyncMgrSyncItem interface [Windows Shell], GetName method, ISyncMgrSyncItem::GetName, _shell_ISyncMgrSyncItem_GetName, shell.ISyncMgrSyncItem_GetName, syncmgr/ISyncMgrSyncItem::GetName
 ms.prod: windows-hardware
 ms.technology: windows-devices

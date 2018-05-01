@@ -7,7 +7,7 @@ old-location: shell\ICredentialProviderCredential_SetStringValue.htm
 old-project: shell
 ms.assetid: ea2007b9-fff1-4cd2-8656-61ec050a8e96
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ICredentialProviderCredential, ICredentialProviderCredential interface [Windows Shell], SetStringValue method, ICredentialProviderCredential::SetStringValue, SetStringValue method [Windows Shell], SetStringValue method [Windows Shell], ICredentialProviderCredential interface, SetStringValue,ICredentialProviderCredential.SetStringValue, credentialprovider/ICredentialProviderCredential::SetStringValue, shell.ICredentialProviderCredential_SetStringValue, shell_ICredentialProviderCredential_SetStringValue
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: cos\idispenserdriver_resetresource.htm
 old-project: cossdk
 ms.assetid: 59df0703-90ea-480c-8608-7d43039b48ba
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: IDispenserDriver, IDispenserDriver interface [COM+], ResetResource method, IDispenserDriver::ResetResource, ResetResource method [COM+], ResetResource method [COM+], IDispenserDriver interface, ResetResource,IDispenserDriver.ResetResource, _dtc_IDispenserDriver_ResetResource, comsvcs/IDispenserDriver::ResetResource, cos.idispenserdriver_resetresource
 ms.prod: windows-hardware
 ms.technology: windows-devices

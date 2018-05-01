@@ -7,7 +7,7 @@ old-location: dhcp\dhcpserverbackupdatabase.htm
 old-project: DHCP
 ms.assetid: 90e37a33-6d58-4bfc-99e7-e1c244f927ed
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/7/2018
 ms.keywords: DhcpServerBackupDatabase, DhcpServerBackupDatabase function [DHCP], dhcp.dhcpserverbackupdatabase, dhcpsapi/DhcpServerBackupDatabase
 ms.prod: windows-hardware
 ms.technology: windows-devices

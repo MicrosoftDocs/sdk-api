@@ -7,7 +7,7 @@ old-location: security\iocsppropertycollection_createproperty_method.htm
 old-project: SecCrypto
 ms.assetid: 72e23a11-0550-47ae-9c24-90c1d18024a6
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: CreateProperty method [Security], CreateProperty method [Security], IOCSPPropertyCollection interface, CreateProperty,IOCSPPropertyCollection.CreateProperty, IOCSPPropertyCollection, IOCSPPropertyCollection interface [Security], CreateProperty method, IOCSPPropertyCollection::CreateProperty, certadm/IOCSPPropertyCollection::CreateProperty, security.iocsppropertycollection_createproperty_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CHANNEL_ENTRY_POINTS, *PCHANNEL_ENTRY_POINTS
+req.typenames: 
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,7 +7,7 @@ old-location: direct2d\id2d1rendertarget_createcompatiblerendertarget.htm
 old-project: Direct2D
 ms.assetid: 4a799a7c-0d2f-460f-99f9-24c6cf7c4537
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: CreateCompatibleRenderTarget, CreateCompatibleRenderTarget methods [Direct2D], d2d1/CreateCompatibleRenderTarget, direct2d.id2d1rendertarget_createcompatiblerendertarget
 ms.prod: windows-hardware
 ms.technology: windows-devices

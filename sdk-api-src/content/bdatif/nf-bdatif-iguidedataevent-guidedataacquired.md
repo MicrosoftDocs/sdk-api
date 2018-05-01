@@ -7,7 +7,7 @@ old-location: mstv\iguidedataevent_guidedataacquired.htm
 old-project: mstv
 ms.assetid: 00f1aec7-4d26-4323-9d7e-c75d9a0c374c
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GuideDataAcquired method [Microsoft TV Technologies], GuideDataAcquired method [Microsoft TV Technologies], IGuideDataEvent interface, GuideDataAcquired,IGuideDataEvent.GuideDataAcquired, IGuideDataEvent, IGuideDataEvent interface [Microsoft TV Technologies], GuideDataAcquired method, IGuideDataEvent::GuideDataAcquired, IGuideDataEventGuideDataAcquired, bdatif/IGuideDataEvent::GuideDataAcquired, mstv.iguidedataevent_guidedataacquired
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: SpanningEventEmmMessage
+req.typenames: SmartCardApplication
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,7 +7,7 @@ old-location: appxpkg\iappxblockmapreader_gethashmethod.htm
 old-project: appxpkg
 ms.assetid: 661E4F12-E426-4811-81FA-4F065C6E488A
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/26/2018
 ms.keywords: GetHashMethod method [App packaging and management], GetHashMethod method [App packaging and management], IAppxBlockMapReader interface, GetHashMethod,IAppxBlockMapReader.GetHashMethod, IAppxBlockMapReader, IAppxBlockMapReader interface [App packaging and management], GetHashMethod method, IAppxBlockMapReader::GetHashMethod, appxpackaging/IAppxBlockMapReader::GetHashMethod, appxpkg.iappxblockmapreader_gethashmethod
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_ARCHITECTURE2
+req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
 topic_type:
 -	APIRef
 -	kbSyntax

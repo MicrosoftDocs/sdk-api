@@ -7,7 +7,7 @@ old-location: wmi\iwbemdecoupledregistrar_register.htm
 old-project: WmiSdk
 ms.assetid: 0592310c-dc1b-45df-bf60-613a58dd69ad
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: IWbemDecoupledRegistrar, IWbemDecoupledRegistrar interface [Windows Management Instrumentation], Register method, IWbemDecoupledRegistrar::Register, Register method [Windows Management Instrumentation], Register method [Windows Management Instrumentation], IWbemDecoupledRegistrar interface, Register method [Windows Management Instrumentation], WbemDecoupledRegistrar object, Register,IWbemDecoupledRegistrar.Register, WbemDecoupledRegistrar object [Windows Management Instrumentation], Register method, _hmm_iwbemdecoupledregistrar_register, wbemprov/IWbemDecoupledRegistrar::Register, wmi.iwbemdecoupledregistrar_register
 ms.prod: windows-hardware
 ms.technology: windows-devices

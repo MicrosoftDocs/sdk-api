@@ -7,7 +7,7 @@ old-location: security\spgetextendedinformation.htm
 old-project: SecAuthN
 ms.assetid: e3cb602a-2c98-4e9c-bfbc-f12f353ce3e3
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/24/2018
 ms.keywords: SpGetExtendedInformation, SpGetExtendedInformation function [Security], SpGetExtendedInformationFn, _ssp_spgetextendedinformation, ntsecpkg/SpGetExtendedInformation, security.spgetextendedinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # SpGetExtendedInformationFn callback

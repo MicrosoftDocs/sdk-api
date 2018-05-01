@@ -7,7 +7,7 @@ old-location: mstv\iisdbaudiocomponentdescriptor_getstreamtype.htm
 old-project: mstv
 ms.assetid: 73c7a8c8-7098-43e8-ac90-c29586e9856c
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetStreamType method [Microsoft TV Technologies], GetStreamType method [Microsoft TV Technologies], IIsdbAudioComponentDescriptor interface, GetStreamType,IIsdbAudioComponentDescriptor.GetStreamType, IIsdbAudioComponentDescriptor, IIsdbAudioComponentDescriptor interface [Microsoft TV Technologies], GetStreamType method, IIsdbAudioComponentDescriptor::GetStreamType, dvbsiparser/IIsdbAudioComponentDescriptor::GetStreamType, mstv.iisdbaudiocomponentdescriptor_getstreamtype
 ms.prod: windows-hardware
 ms.technology: windows-devices

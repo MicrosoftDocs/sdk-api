@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext1_pssetconstantbuffers1.htm
 old-project: direct3d11
 ms.assetid: 4B05144B-7766-4AE6-9B9F-C439B4BF0220
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/6/2018
 ms.keywords: ID3D11DeviceContext1, ID3D11DeviceContext1 interface [Direct3D 11], PSSetConstantBuffers1 method, ID3D11DeviceContext1::PSSetConstantBuffers1, PSSetConstantBuffers1 method [Direct3D 11], PSSetConstantBuffers1 method [Direct3D 11], ID3D11DeviceContext1 interface, PSSetConstantBuffers1,ID3D11DeviceContext1.PSSetConstantBuffers1, d3d11_1/ID3D11DeviceContext1::PSSetConstantBuffers1, direct3d11.id3d11devicecontext1_pssetconstantbuffers1
 ms.prod: windows-hardware
 ms.technology: windows-devices

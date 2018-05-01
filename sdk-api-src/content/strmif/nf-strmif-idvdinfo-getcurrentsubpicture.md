@@ -7,7 +7,7 @@ old-location: dshow\idvdinfo_getcurrentsubpicture.htm
 old-project: DirectShow
 ms.assetid: 92731904-2fb7-4dc2-b77f-1c40a002c469
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetCurrentSubpicture method [DirectShow], GetCurrentSubpicture method [DirectShow], IDvdInfo interface, GetCurrentSubpicture,IDvdInfo.GetCurrentSubpicture, IDvdInfo, IDvdInfo interface [DirectShow], GetCurrentSubpicture method, IDvdInfo::GetCurrentSubpicture, IDvdInfoGetCurrentSubpicture, dshow.idvdinfo_getcurrentsubpicture, strmif/IDvdInfo::GetCurrentSubpicture
 ms.prod: windows-hardware
 ms.technology: windows-devices

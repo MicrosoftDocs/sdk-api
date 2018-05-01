@@ -7,7 +7,7 @@ old-location: controls\itextfont2_getpropertyinfo.htm
 old-project: Controls
 ms.assetid: bea8f6da-f781-430f-b1cd-c28e11cc61bb
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: GetPropertyInfo method [Windows Controls], GetPropertyInfo method [Windows Controls], ITextFont2 interface, GetPropertyInfo,ITextFont2.GetPropertyInfo, ITextFont2, ITextFont2 interface [Windows Controls], GetPropertyInfo method, ITextFont2::GetPropertyInfo, controls.itextfont2_getpropertyinfo, tom/ITextFont2::GetPropertyInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

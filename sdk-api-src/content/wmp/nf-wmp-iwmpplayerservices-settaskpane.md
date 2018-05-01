@@ -7,7 +7,7 @@ old-location: wmp\iwmpplayerservices_settaskpane.htm
 old-project: WMP
 ms.assetid: 4b34ec95-d9a3-4135-b369-39955199ac00
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPPlayerServices, IWMPPlayerServices interface [Windows Media Player], setTaskPane method, IWMPPlayerServices::setTaskPane, IWMPPlayerServicessetTaskPane, setTaskPane method [Windows Media Player], setTaskPane method [Windows Media Player], IWMPPlayerServices interface, setTaskPane,IWMPPlayerServices.setTaskPane, wmp.iwmpplayerservices_settaskpane, wmp/IWMPPlayerServices::setTaskPane
 ms.prod: windows-hardware
 ms.technology: windows-devices

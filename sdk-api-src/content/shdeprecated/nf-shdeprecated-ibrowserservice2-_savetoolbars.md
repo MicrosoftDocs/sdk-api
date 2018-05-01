@@ -7,7 +7,7 @@ old-location: shell\IBrowserService2__SaveToolbars.htm
 old-project: shell
 ms.assetid: 8d05ed3d-13a3-49a2-8248-9976bc492b0f
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IBrowserService2, IBrowserService2 interface [Windows Shell], _SaveToolbars method, IBrowserService2::_SaveToolbars, _SaveToolbars method [Windows Shell], _SaveToolbars method [Windows Shell], IBrowserService2 interface, _SaveToolbars,IBrowserService2._SaveToolbars, shdeprecated/IBrowserService2::_SaveToolbars, shell.IBrowserService2__SaveToolbars, zone_IBrowserService2__SaveToolbars
 ms.prod: windows-hardware
 ms.technology: windows-devices

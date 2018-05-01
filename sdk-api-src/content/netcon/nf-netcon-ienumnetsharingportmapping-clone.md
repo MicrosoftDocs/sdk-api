@@ -7,7 +7,7 @@ old-location: ics\ienumnetsharingportmapping_clone.htm
 old-project: ICS
 ms.assetid: 7d8606ec-d8a2-40c5-9406-fcf16f30e999
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: Clone method [ICS/ICF], Clone method [ICS/ICF], IEnumNetSharingPortMapping interface, Clone,IEnumNetSharingPortMapping.Clone, IEnumNetSharingPortMapping, IEnumNetSharingPortMapping interface [ICS/ICF], Clone method, IEnumNetSharingPortMapping::Clone, _ics_ienumnetsharingportmapping_clone, ics.ienumnetsharingportmapping_clone, netcon/IEnumNetSharingPortMapping::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IEnumNetSharingPortMapping::Clone method

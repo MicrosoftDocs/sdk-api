@@ -7,7 +7,7 @@ old-location: wmp\iwmpsyncdevice_showsettings.htm
 old-project: WMP
 ms.assetid: 496bb3b6-d942-4d53-8e66-5aed5f574343
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPSyncDevice, IWMPSyncDevice interface [Windows Media Player], showSettings method, IWMPSyncDevice::showSettings, IWMPSyncDeviceshowSettings, showSettings method [Windows Media Player], showSettings method [Windows Media Player], IWMPSyncDevice interface, showSettings,IWMPSyncDevice.showSettings, wmp.iwmpsyncdevice_showsettings, wmp/IWMPSyncDevice::showSettings
 ms.prod: windows-hardware
 ms.technology: windows-devices

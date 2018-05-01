@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol2_playchapter.htm
 old-project: DirectShow
 ms.assetid: b624aa7e-ff88-417c-8536-4ac38e8ae1ca
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IDvdControl2, IDvdControl2 interface [DirectShow], PlayChapter method, IDvdControl2::PlayChapter, IDvdControl2PlayChapter, PlayChapter method [DirectShow], PlayChapter method [DirectShow], IDvdControl2 interface, PlayChapter,IDvdControl2.PlayChapter, dshow.idvdcontrol2_playchapter, strmif/IDvdControl2::PlayChapter
 ms.prod: windows-hardware
 ms.technology: windows-devices

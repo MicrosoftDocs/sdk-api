@@ -7,7 +7,7 @@ old-location: mf\imfpmediaitem_getobject.htm
 old-project: medfound
 ms.assetid: 6a6abc57-149d-4e4b-a29f-7b712d24e6df
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetObject method [Media Foundation], GetObject method [Media Foundation], IMFPMediaItem interface, GetObject,IMFPMediaItem.GetObject, IMFPMediaItem, IMFPMediaItem interface [Media Foundation], GetObject method, IMFPMediaItem::GetObject, mf.imfpmediaitem_getobject, mfplay/IMFPMediaItem::GetObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

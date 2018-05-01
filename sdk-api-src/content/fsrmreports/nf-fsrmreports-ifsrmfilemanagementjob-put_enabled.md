@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmfilemanagementjob_enabled.htm
 old-project: Fsrm
 ms.assetid: c52dab05-34fb-4d9d-ac12-cbcee7e1fb9b
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: Enabled property [File Server Resource Manager], Enabled property [File Server Resource Manager], IFsrmFileManagementJob interface, IFsrmFileManagementJob, IFsrmFileManagementJob interface [File Server Resource Manager], Enabled property, IFsrmFileManagementJob.Enabled, IFsrmFileManagementJob::get_Enabled, IFsrmFileManagementJob::put_Enabled, fs.ifsrmfilemanagementjob_enabled, fsrm.ifsrmfilemanagementjob_enabled, fsrmreports/IFsrmFileManagementJob::Enabled, fsrmreports/IFsrmFileManagementJob::get_Enabled, fsrmreports/IFsrmFileManagementJob::put_Enabled, put_Enabled,IFsrmFileManagementJob.put_Enabled
 ms.prod: windows-hardware
 ms.technology: windows-devices

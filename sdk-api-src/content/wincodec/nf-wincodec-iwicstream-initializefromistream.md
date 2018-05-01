@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicstream_initializefromistream.htm
 old-project: wic
 ms.assetid: bfe413e1-f579-4c9c-9e88-3b369235c529
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: IWICStream, IWICStream interface [Windows Imaging Component], InitializeFromIStream method, IWICStream::InitializeFromIStream, InitializeFromIStream method [Windows Imaging Component], InitializeFromIStream method [Windows Imaging Component], IWICStream interface, InitializeFromIStream,IWICStream.InitializeFromIStream, _wic_codec_iwicstream_initializefromistream, wic._wic_codec_iwicstream_initializefromistream, wincodec/IWICStream::InitializeFromIStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

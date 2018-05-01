@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol_forwardscan.htm
 old-project: DirectShow
 ms.assetid: dedeec1c-8565-491e-ab2c-4cdc17d988a9
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ForwardScan method [DirectShow], ForwardScan method [DirectShow], IDvdControl interface, ForwardScan,IDvdControl.ForwardScan, IDvdControl, IDvdControl interface [DirectShow], ForwardScan method, IDvdControl::ForwardScan, IDvdControlForwardScan, dshow.idvdcontrol_forwardscan, strmif/IDvdControl::ForwardScan
 ms.prod: windows-hardware
 ms.technology: windows-devices

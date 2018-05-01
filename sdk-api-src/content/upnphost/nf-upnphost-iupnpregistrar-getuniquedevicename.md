@@ -7,7 +7,7 @@ old-location: upnp\iupnpregistrar_getuniquedevicename.htm
 old-project: UPnP
 ms.assetid: dcffee59-8b2f-443c-915f-6d823018eadd
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/25/2018
 ms.keywords: GetUniqueDeviceName method [UPnP APIs], GetUniqueDeviceName method [UPnP APIs], IUPnPRegistrar interface, GetUniqueDeviceName,IUPnPRegistrar.GetUniqueDeviceName, IUPnPRegistrar, IUPnPRegistrar interface [UPnP APIs], GetUniqueDeviceName method, IUPnPRegistrar::GetUniqueDeviceName, _upnp_iupnpregistrar_getuniquedevicename, upnp.iupnpregistrar_getuniquedevicename, upnphost/IUPnPRegistrar::GetUniqueDeviceName
 ms.prod: windows-hardware
 ms.technology: windows-devices

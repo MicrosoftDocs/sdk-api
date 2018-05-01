@@ -7,7 +7,7 @@ old-location: security\icertpolicy2.htm
 old-project: SecCrypto
 ms.assetid: 2e48b096-e23a-4106-bfaf-f089d2291fba
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: ICertPolicy2, ICertPolicy2 interface [Security], ICertPolicy2 interface [Security], described, _certsrv_icertpolicy2, certpol/ICertPolicy2, security.icertpolicy2
 ms.prod: windows-hardware
 ms.technology: windows-devices

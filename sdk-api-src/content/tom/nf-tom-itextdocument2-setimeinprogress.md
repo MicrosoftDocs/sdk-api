@@ -7,7 +7,7 @@ old-location: controls\itextdocument2_setimeinprogress.htm
 old-project: Controls
 ms.assetid: 65db4e97-48c9-48e0-b436-2b2e6713bebd
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextDocument2, ITextDocument2 interface [Windows Controls], SetIMEInProgress method, ITextDocument2::SetIMEInProgress, SetIMEInProgress method [Windows Controls], SetIMEInProgress method [Windows Controls], ITextDocument2 interface, SetIMEInProgress,ITextDocument2.SetIMEInProgress, controls.itextdocument2_setimeinprogress, tom/ITextDocument2::SetIMEInProgress
 ms.prod: windows-hardware
 ms.technology: windows-devices

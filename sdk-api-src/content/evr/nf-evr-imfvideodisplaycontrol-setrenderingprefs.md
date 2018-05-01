@@ -7,7 +7,7 @@ old-location: mf\imfvideodisplaycontrol_setrenderingprefs.htm
 old-project: medfound
 ms.assetid: 7603aaf8-1671-4b35-bee5-335f656de3c5
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 7603aaf8-1671-4b35-bee5-335f656de3c5, IMFVideoDisplayControl, IMFVideoDisplayControl interface [Media Foundation], SetRenderingPrefs method, IMFVideoDisplayControl::SetRenderingPrefs, SetRenderingPrefs method [Media Foundation], SetRenderingPrefs method [Media Foundation], IMFVideoDisplayControl interface, SetRenderingPrefs,IMFVideoDisplayControl.SetRenderingPrefs, evr/IMFVideoDisplayControl::SetRenderingPrefs, mf.imfvideodisplaycontrol_setrenderingprefs
 ms.prod: windows-hardware
 ms.technology: windows-devices

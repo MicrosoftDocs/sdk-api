@@ -7,7 +7,7 @@ old-location: winrt\ipackagedebugsettings_terminateallprocesses.htm
 old-project: WinRT
 ms.assetid: 54be6d31-c9b9-41c6-a90f-31f6b9caef70
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/24/2018
 ms.keywords: IPackageDebugSettings, IPackageDebugSettings interface [Windows Runtime], TerminateAllProcesses method, IPackageDebugSettings::TerminateAllProcesses, TerminateAllProcesses method [Windows Runtime], TerminateAllProcesses method [Windows Runtime], IPackageDebugSettings interface, TerminateAllProcesses,IPackageDebugSettings.TerminateAllProcesses, shobjidl_core/IPackageDebugSettings::TerminateAllProcesses, winrt.ipackagedebugsettings_terminateallprocesses
 ms.prod: windows-hardware
 ms.technology: windows-devices

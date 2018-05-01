@@ -7,7 +7,7 @@ old-location: security\objects_and_name.htm
 old-project: SecAuthZ
 ms.assetid: ad91a302-f693-44e9-9655-ec4488ff78c4
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: "*POBJECTS_AND_NAME_W, ACE_INHERITED_OBJECT_TYPE_PRESENT, ACE_OBJECT_TYPE_PRESENT, OBJECTS_AND_NAME, OBJECTS_AND_NAME structure [Security], OBJECTS_AND_NAME_, OBJECTS_AND_NAME_A, OBJECTS_AND_NAME_W, POBJECTS_AND_NAME, POBJECTS_AND_NAME structure pointer [Security], _OBJECTS_AND_NAME_W, _win32_objects_and_name_str, accctrl/OBJECTS_AND_NAME, accctrl/OBJECTS_AND_NAME_A, accctrl/OBJECTS_AND_NAME_W, accctrl/POBJECTS_AND_NAME, security.objects_and_name"
 ms.prod: windows-hardware
 ms.technology: windows-devices

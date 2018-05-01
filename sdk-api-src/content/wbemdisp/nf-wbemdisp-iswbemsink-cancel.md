@@ -7,7 +7,7 @@ old-location: wmi\swbemsink_cancel.htm
 old-project: WmiSdk
 ms.assetid: dbe1eb24-5d9d-407a-b7c6-c58ec6891d7a
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: Cancel method [Windows Management Instrumentation], Cancel method [Windows Management Instrumentation], ISWbemSink interface, Cancel method [Windows Management Instrumentation], SWbemSink object, Cancel,ISWbemSink.Cancel, ISWbemSink, ISWbemSink interface [Windows Management Instrumentation], Cancel method, ISWbemSink::Cancel, SWbemSink object [Windows Management Instrumentation], Cancel method, _hmm_swbemsink.cancel, wmi.swbemsink_cancel
 ms.prod: windows-hardware
 ms.technology: windows-devices

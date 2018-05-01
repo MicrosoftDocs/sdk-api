@@ -7,7 +7,7 @@ old-location: mf\imfsensorgroup_getdefaultsensordeviceindex.htm
 old-project: medfound
 ms.assetid: E82A83F7-E984-4353-8CED-E3B5EE28EB3D
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetDefaultSensorDeviceIndex method [Media Foundation], GetDefaultSensorDeviceIndex method [Media Foundation], IMFSensorGroup interface, GetDefaultSensorDeviceIndex,IMFSensorGroup.GetDefaultSensorDeviceIndex, IMFSensorGroup, IMFSensorGroup interface [Media Foundation], GetDefaultSensorDeviceIndex method, IMFSensorGroup::GetDefaultSensorDeviceIndex, mf.imfsensorgroup_getdefaultsensordeviceindex, mfidl/IMFSensorGroup::GetDefaultSensorDeviceIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices

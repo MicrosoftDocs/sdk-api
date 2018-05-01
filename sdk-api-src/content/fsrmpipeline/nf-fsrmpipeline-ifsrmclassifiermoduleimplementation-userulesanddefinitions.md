@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmclassifiermoduleimplementation_userulesanddefinitions.ht
 old-project: Fsrm
 ms.assetid: 8fbca8c4-7021-4183-b8f7-a32082da17fc
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: IFsrmClassifierModuleImplementation, IFsrmClassifierModuleImplementation interface [File Server Resource Manager], UseRulesAndDefinitions method, IFsrmClassifierModuleImplementation::UseRulesAndDefinitions, UseRulesAndDefinitions method [File Server Resource Manager], UseRulesAndDefinitions method [File Server Resource Manager], IFsrmClassifierModuleImplementation interface, UseRulesAndDefinitions,IFsrmClassifierModuleImplementation.UseRulesAndDefinitions, fs.ifsrmclassifiermoduleimplementation_userulesanddefinitions, fsrm.ifsrmclassifiermoduleimplementation_userulesanddefinitions, fsrmpipeline/IFsrmClassifierModuleImplementation::UseRulesAndDefinitions
 ms.prod: windows-hardware
 ms.technology: windows-devices

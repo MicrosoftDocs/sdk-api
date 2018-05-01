@@ -7,7 +7,7 @@ old-location: direct2d\gradientmeshpatch.htm
 old-project: Direct2D
 ms.assetid: 78d2af9d-e158-29ce-ea6e-67b2d22925a1
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: GradientMeshPatch, GradientMeshPatch function [Direct2D], d2d1_3helper/GradientMeshPatch, direct2d.gradientmeshpatch
 ms.prod: windows-hardware
 ms.technology: windows-devices

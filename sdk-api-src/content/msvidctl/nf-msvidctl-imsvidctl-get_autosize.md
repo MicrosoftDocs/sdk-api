@@ -7,7 +7,7 @@ old-location: mstv\imsvidctl_get_autosize.htm
 old-project: mstv
 ms.assetid: 8adbc701-fd05-4520-8f06-95bd67a08d1e
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidCtl, IMSVidCtl interface [Microsoft TV Technologies], get_AutoSize method, IMSVidCtl::get_AutoSize, IMSVidCtlget_AutoSize, get_AutoSize method [Microsoft TV Technologies], get_AutoSize method [Microsoft TV Technologies], IMSVidCtl interface, get_AutoSize,IMSVidCtl.get_AutoSize, mstv.imsvidctl_get_autosize, msvidctl/IMSVidCtl::get_AutoSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidCtl::get_AutoSize method

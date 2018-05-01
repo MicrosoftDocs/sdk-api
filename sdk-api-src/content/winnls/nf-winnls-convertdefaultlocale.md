@@ -7,7 +7,7 @@ old-location: intl\convertdefaultlocale.htm
 old-project: Intl
 ms.assetid: e227bb9f-f072-4e44-bd55-24c98b990a36
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/25/2018
 ms.keywords: ConvertDefaultLocale, ConvertDefaultLocale function [Internationalization for Windows Applications], _win32_ConvertDefaultLocale, intl.convertdefaultlocale, winnls/ConvertDefaultLocale
 ms.prod: windows-hardware
 ms.technology: windows-devices

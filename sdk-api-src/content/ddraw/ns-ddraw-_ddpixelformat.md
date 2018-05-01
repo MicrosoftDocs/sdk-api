@@ -59,26 +59,6 @@ The <b>DDPIXELFORMAT</b> structure describes the pixel format of a DirectDrawSur
 
 
 
-### -field DUMMYUNIONNAMEN.MultiSampleCaps
-
- 
-
-
-### -field DUMMYUNIONNAMEN.MultiSampleCaps.wFlipMSTypes
-
- 
-
-
-### -field DUMMYUNIONNAMEN.MultiSampleCaps.wBltMSTypes
-
- 
-
-
-### -field DUMMYUNIONNAMEN
-
- 
-
-
 ### -field dwSize
 
 Size of the structure, in bytes. This member must be initialized before the structure is used.
@@ -212,6 +192,28 @@ The surface contains z information in the pixels.
 ### -field dwFourCC
 
 A FourCC code.
+
+
+### -field DUMMYUNIONNAMEN.MultiSampleCaps
+
+ 
+
+
+### -field DUMMYUNIONNAMEN.MultiSampleCaps.wFlipMSTypes
+
+ 
+
+
+### -field DUMMYUNIONNAMEN.MultiSampleCaps.wBltMSTypes
+
+ 
+
+
+### -field DUMMYUNIONNAMEN
+
+ 
+
+
 
 
 #### - DUMMYUNIONNAMEN(1)

@@ -7,7 +7,7 @@ old-location: fwp\fwpm_vswitch_event0.htm
 old-project: FWP
 ms.assetid: bd25f66a-511a-470d-a33a-5e73d8b802c2
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: FWPM_VSWITCH_EVENT0, FWPM_VSWITCH_EVENT0 structure [Filtering], FWPM_VSWITCH_EVENT0_, fwp.fwpm_vswitch_event0, fwpmtypes/FWPM_VSWITCH_EVENT0
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,6 +58,20 @@ The <b>FWPM_VSWITCH_EVENT0</b> structure contains information about a vSwitch ev
 
 
 
+### -field eventType
+
+Type: <b><a href="https://msdn.microsoft.com/1c421152-1085-4cf4-ab8c-631a2b800ec8">FWPM_VSWITCH_EVENT_TYPE</a></b>
+
+ The type of vSwitch event.
+
+
+### -field vSwitchId
+
+Type: <b>wchar_t*</b>
+
+ GUID which identifies a vSwitch.
+
+
 ### -field positionInfo
 
  
@@ -93,18 +107,6 @@ The <b>FWPM_VSWITCH_EVENT0</b> structure contains information about a vSwitch ev
  
 
 
-### -field eventType
-
-Type: <b><a href="https://msdn.microsoft.com/1c421152-1085-4cf4-ab8c-631a2b800ec8">FWPM_VSWITCH_EVENT_TYPE</a></b>
-
- The type of vSwitch event.
-
-
-### -field vSwitchId
-
-Type: <b>wchar_t*</b>
-
- GUID which identifies a vSwitch.
 
 
 #### - ( unnamed union )

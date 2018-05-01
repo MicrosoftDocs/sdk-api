@@ -7,7 +7,7 @@ old-location: mf\iopmvideooutput_iopmvideooutput__configure.htm
 old-project: medfound
 ms.assetid: b8eb3561-7e81-4f4c-bcb1-1657f8556aea
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: Configure method [Media Foundation], Configure method [Media Foundation], IOPMVideoOutput interface, Configure,IOPMVideoOutput.Configure, IOPMVideoOutput, IOPMVideoOutput interface [Media Foundation], Configure method, IOPMVideoOutput::Configure, mf.iopmvideooutput_iopmvideooutput__configure, opmapi/IOPMVideoOutput::Configure
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IOPMVideoOutput::Configure method

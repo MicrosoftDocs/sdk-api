@@ -7,7 +7,7 @@ old-location: mf\idirectxvideomemoryconfiguration_setsurfacetype.htm
 old-project: medfound
 ms.assetid: 06fe0072-1fe5-491f-b0b7-fc85ca731fe7
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 06fe0072-1fe5-491f-b0b7-fc85ca731fe7, IDirectXVideoMemoryConfiguration, IDirectXVideoMemoryConfiguration interface [Media Foundation], SetSurfaceType method, IDirectXVideoMemoryConfiguration::SetSurfaceType, SetSurfaceType method [Media Foundation], SetSurfaceType method [Media Foundation], IDirectXVideoMemoryConfiguration interface, SetSurfaceType,IDirectXVideoMemoryConfiguration.SetSurfaceType, dxva2api/IDirectXVideoMemoryConfiguration::SetSurfaceType, mf.idirectxvideomemoryconfiguration_setsurfacetype
 ms.prod: windows-hardware
 ms.technology: windows-devices

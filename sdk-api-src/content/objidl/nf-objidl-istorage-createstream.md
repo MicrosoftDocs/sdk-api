@@ -7,7 +7,7 @@ old-location: stg\istorage_createstream.htm
 old-project: Stg
 ms.assetid: 168f5ac9-8a72-4356-82a4-de3a7ec72c05
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/20/2018
 ms.keywords: CreateStream method [Structured Storage], CreateStream method [Structured Storage], IStorage interface, CreateStream,IStorage.CreateStream, IStorage, IStorage interface [Structured Storage], CreateStream method, IStorage::CreateStream, _stg_istorage_createstream, objidl/IStorage::CreateStream, stg.istorage_createstream
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IStorage::CreateStream method

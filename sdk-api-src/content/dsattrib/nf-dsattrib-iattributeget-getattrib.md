@@ -7,7 +7,7 @@ old-location: mstv\iattributeget_getattrib.htm
 old-project: mstv
 ms.assetid: df1aad0c-7e71-4110-8e05-0af33dd04859
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetAttrib method [Microsoft TV Technologies], GetAttrib method [Microsoft TV Technologies], IAttributeGet interface, GetAttrib,IAttributeGet.GetAttrib, IAttributeGet, IAttributeGet interface [Microsoft TV Technologies], GetAttrib method, IAttributeGet::GetAttrib, IAttributeGetGetAttrib, dsattrib/IAttributeGet::GetAttrib, mstv.iattributeget_getattrib
 ms.prod: windows-hardware
 ms.technology: windows-devices

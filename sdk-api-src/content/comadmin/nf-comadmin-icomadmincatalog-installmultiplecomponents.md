@@ -7,7 +7,7 @@ old-location: cos\icomadmincatalog_installmultiplecomponents.htm
 old-project: cossdk
 ms.assetid: 7206c93b-43ca-402f-9a55-930f872d4201
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: ICOMAdminCatalog, ICOMAdminCatalog interface [COM+], InstallMultipleComponents method, ICOMAdminCatalog::InstallMultipleComponents, InstallMultipleComponents method [COM+], InstallMultipleComponents method [COM+], ICOMAdminCatalog interface, InstallMultipleComponents,ICOMAdminCatalog.InstallMultipleComponents, _cos_ICOMAdminCatalog_InstallMultipleComponents, comadmin/ICOMAdminCatalog::InstallMultipleComponents, cos.icomadmincatalog_installmultiplecomponents
 ms.prod: windows-hardware
 ms.technology: windows-devices

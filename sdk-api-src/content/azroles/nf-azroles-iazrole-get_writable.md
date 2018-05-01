@@ -7,7 +7,7 @@ old-location: security\iazrole_writable.htm
 old-project: SecAuthZ
 ms.assetid: 053b0ec4-143b-449d-bbbd-8ec8f00b0f2e
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: AzRole object [Security], Writable property, IAzRole, IAzRole interface [Security], Writable property, IAzRole.Writable, IAzRole::get_Writable, Writable property [Security], Writable property [Security], AzRole object, Writable property [Security], IAzRole interface, azroles/IAzRole::Writable, azroles/IAzRole::get_Writable, get_Writable,IAzRole.get_Writable, security.iazrole_writable
 ms.prod: windows-hardware
 ms.technology: windows-devices

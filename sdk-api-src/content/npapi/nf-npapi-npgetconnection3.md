@@ -7,7 +7,7 @@ old-location: security\npgetconnection3.htm
 old-project: SecAuthN
 ms.assetid: 6beb0a9e-4f32-4e83-be78-858185b30521
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/24/2018
 ms.keywords: NPGetConnection3, NPGetConnection3 function [Security], WNGETCON_CONNECTED, WNGETCON_DISCONNECTED, _mnp_npgetconnection3, npapi/NPGetConnection3, security.npgetconnection3
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # NPGetConnection3 function

@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiosessioncontrol_setdisplayname.htm
 old-project: CoreAudio
 ms.assetid: d12c12ed-a556-4743-952e-2eb4f58ee0eb
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: IAudioSessionControl, IAudioSessionControl interface [Core Audio], SetDisplayName method, IAudioSessionControl::SetDisplayName, IAudioSessionControlSetDisplayName, SetDisplayName method [Core Audio], SetDisplayName method [Core Audio], IAudioSessionControl interface, SetDisplayName,IAudioSessionControl.SetDisplayName, audiopolicy/IAudioSessionControl::SetDisplayName, coreaudio.iaudiosessioncontrol_setdisplayname
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: AE_CURRENT_POSITION, *PAE_CURRENT_POSITION
+req.typenames: UNCOMPRESSEDAUDIOFORMAT
 topic_type:
 -	APIRef
 -	kbSyntax

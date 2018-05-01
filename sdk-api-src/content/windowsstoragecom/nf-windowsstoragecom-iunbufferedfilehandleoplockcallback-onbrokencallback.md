@@ -7,7 +7,7 @@ old-location: winrt\iunbufferedfilehandleoplockcallback_onbrokencallback.htm
 old-project: WinRT
 ms.assetid: F5B6B4F6-61F2-4C5A-9E63-E9DC876FEB60
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/24/2018
 ms.keywords: IUnbufferedFileHandleOplockCallback, IUnbufferedFileHandleOplockCallback interface [Windows Runtime], OnBrokenCallback method, IUnbufferedFileHandleOplockCallback::OnBrokenCallback, OnBrokenCallback method [Windows Runtime], OnBrokenCallback method [Windows Runtime], IUnbufferedFileHandleOplockCallback interface, OnBrokenCallback,IUnbufferedFileHandleOplockCallback.OnBrokenCallback, windowsstoragecom/IUnbufferedFileHandleOplockCallback::OnBrokenCallback, winrt.iunbufferedfilehandleoplockcallback_onbrokencallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

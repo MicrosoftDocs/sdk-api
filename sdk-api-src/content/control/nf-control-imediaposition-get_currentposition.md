@@ -7,7 +7,7 @@ old-location: dshow\imediaposition_get_currentposition.htm
 old-project: DirectShow
 ms.assetid: 96f4d621-c618-49fa-a0f6-bcc68a41467e
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IMediaPosition, IMediaPosition interface [DirectShow], get_CurrentPosition method, IMediaPosition::get_CurrentPosition, IMediaPositionget_CurrentPosition, control/IMediaPosition::get_CurrentPosition, dshow.imediaposition_get_currentposition, get_CurrentPosition method [DirectShow], get_CurrentPosition method [DirectShow], IMediaPosition interface, get_CurrentPosition,IMediaPosition.get_CurrentPosition
 ms.prod: windows-hardware
 ms.technology: windows-devices

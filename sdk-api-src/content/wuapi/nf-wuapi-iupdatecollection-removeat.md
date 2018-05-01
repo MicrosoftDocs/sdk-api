@@ -7,7 +7,7 @@ old-location: wua\iupdatecollection_removeat.htm
 old-project: Wua_Sdk
 ms.assetid: b6d32db8-c935-41f8-a8f3-0730719cac7e
 ms.author: windowsdriverdev
-ms.date: 3/15/2018
+ms.date: 4/18/2018
 ms.keywords: IUpdateCollection, IUpdateCollection interface [Windows Update Agent], RemoveAt method, IUpdateCollection::RemoveAt, RemoveAt method [Windows Update Agent], RemoveAt method [Windows Update Agent], IUpdateCollection interface, RemoveAt,IUpdateCollection.RemoveAt, wua.iupdatecollection_removeat, wuapi/IUpdateCollection::RemoveAt
 ms.prod: windows-hardware
 ms.technology: windows-devices

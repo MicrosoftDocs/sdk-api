@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_option_data_element.htm
 old-project: DHCP
 ms.assetid: 2ffc8968-f903-4d8e-8b34-c8031a56ebfc
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/7/2018
 ms.keywords: "*LPDHCP_OPTION_DATA_ELEMENT, DHCP_OPTION_DATA_ELEMENT, DHCP_OPTION_DATA_ELEMENT structure [DHCP], LPDHCP_OPTION_DATA_ELEMENT, LPDHCP_OPTION_DATA_ELEMENT structure pointer [DHCP], _DHCP_OPTION_DATA_ELEMENT, dhcp.dhcp_option_data_element, dhcpsapi/LPDHCP_OPTION_DATA_ELEMENT, dhcpsapi/_DHCP_OPTION_DATA_ELEMENT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -55,6 +55,11 @@ The <b>DHCP_OPTION_DATA_ELEMENT</b> structure defines a data element present (ei
 ## -struct-fields
 
 
+
+
+### -field OptionType
+
+A <a href="https://msdn.microsoft.com/1f215915-07f0-4327-bb42-d5af09cd07c5">DHCP_OPTION_DATA_TYPE</a> enumeration value that indicates the type of data that is present in the subsequent field, <b>Element</b>.
 
 
 ### -field Element
@@ -119,9 +124,6 @@ Specifies the data as a Unicode string value. This field will be present if the 
  
 
 
-### -field OptionType
-
-A <a href="https://msdn.microsoft.com/1f215915-07f0-4327-bb42-d5af09cd07c5">DHCP_OPTION_DATA_TYPE</a> enumeration value that indicates the type of data that is present in the subsequent field, <b>Element</b>.
 
 
 ## -see-also

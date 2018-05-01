@@ -7,7 +7,7 @@ old-location: dshow\iambuffernegotiation_suggestallocatorproperties.htm
 old-project: DirectShow
 ms.assetid: f6a7f2c4-be8b-4721-87f4-274ba365784f
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMBufferNegotiation, IAMBufferNegotiation interface [DirectShow], SuggestAllocatorProperties method, IAMBufferNegotiation::SuggestAllocatorProperties, IAMBufferNegotiationSuggestAllocatorProperties, SuggestAllocatorProperties method [DirectShow], SuggestAllocatorProperties method [DirectShow], IAMBufferNegotiation interface, SuggestAllocatorProperties,IAMBufferNegotiation.SuggestAllocatorProperties, dshow.iambuffernegotiation_suggestallocatorproperties, strmif/IAMBufferNegotiation::SuggestAllocatorProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

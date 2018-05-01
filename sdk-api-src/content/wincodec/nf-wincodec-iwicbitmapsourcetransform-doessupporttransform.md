@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicbitmapsourcetransform_doessupporttransform.htm
 old-project: wic
 ms.assetid: 73f27e20-3245-42b3-8b83-29c3c969624f
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: DoesSupportTransform method [Windows Imaging Component], DoesSupportTransform method [Windows Imaging Component], IWICBitmapSourceTransform interface, DoesSupportTransform,IWICBitmapSourceTransform.DoesSupportTransform, IWICBitmapSourceTransform, IWICBitmapSourceTransform interface [Windows Imaging Component], DoesSupportTransform method, IWICBitmapSourceTransform::DoesSupportTransform, _wic_codec_iwicbitmapsourcetransform_doessupporttransform, wic._wic_codec_iwicbitmapsourcetransform_doessupporttransform, wincodec/IWICBitmapSourceTransform::DoesSupportTransform
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmi\iwbembackuprestore_restore.htm
 old-project: WmiSdk
 ms.assetid: 73a61c69-0a78-4c38-aaec-a72b644f19b4
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: IWbemBackupRestore, IWbemBackupRestore interface [Windows Management Instrumentation], Restore method, IWbemBackupRestore::Restore, Restore method [Windows Management Instrumentation], Restore method [Windows Management Instrumentation], IWbemBackupRestore interface, Restore,IWbemBackupRestore.Restore, WBEM_FLAG_BACKUP_RESTORE_DEFAULT, WBEM_FLAG_BACKUP_RESTORE_FORCE_SHUTDOWN, _hmm_iwbembackuprestore_restore, wbemcli/IWbemBackupRestore::Restore, wmi.iwbembackuprestore_restore
 ms.prod: windows-hardware
 ms.technology: windows-devices

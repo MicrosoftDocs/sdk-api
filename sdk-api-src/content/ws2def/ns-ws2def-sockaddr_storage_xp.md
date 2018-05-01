@@ -2,21 +2,21 @@
 UID: NS:ws2def.sockaddr_storage_xp
 title: sockaddr_storage_xp
 author: windows-driver-content
-description: The SOCKADDR_STORAGE structure stores socket address information.
-old-location: winsock\sockaddr_storage_2.htm
-old-project: WinSock
-ms.assetid: dfd84b91-0a94-4fe6-b8d2-18562afb9c24
+description: The SOCKADDR_STORAGE structure is a generic structure that specifies a transport address.
+old-location: netvista\sockaddr_storage.htm
+old-project: netvista
+ms.assetid: 27e56c1a-ce11-4cdb-9be8-25ed2f94fb37
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
-ms.keywords: "*LPSOCKADDR_STORAGE_XP, *PSOCKADDR_STORAGE, *PSOCKADDR_STORAGE_XP, PSOCKADDR_STORAGE, PSOCKADDR_STORAGE structure pointer [Winsock], SOCKADDR_STORAGE, SOCKADDR_STORAGE structure [Winsock], SOCKADDR_STORAGE_LH, SOCKADDR_STORAGE_XP, _win32_sockaddr_storage_2, sockaddr_storage_xp, winsock.sockaddr_storage_2, winsock2/PSOCKADDR_STORAGE, winsock2/SOCKADDR_STORAGE, ws2def/PSOCKADDR_STORAGE, ws2def/SOCKADDR_STORAGE"
+ms.date: 4/25/2018
+ms.keywords: "*LPSOCKADDR_STORAGE_XP, *PSOCKADDR_STORAGE, *PSOCKADDR_STORAGE_XP, FAR *LPSOCKADDR_STORAGE_LH, FAR *LPSOCKADDR_STORAGE_LH structure [Network Drivers Starting with Windows Vista], PSOCKADDR_STORAGE_LH, PSOCKADDR_STORAGE_LH structure pointer [Network Drivers Starting with Windows Vista], SOCKADDR_STORAGE, SOCKADDR_STORAGE structure [Network Drivers Starting with Windows Vista], SOCKADDR_STORAGE_LH, SOCKADDR_STORAGE_LH structure [Network Drivers Starting with Windows Vista], SOCKADDR_STORAGE_XP, netvista.sockaddr_storage, sockaddr_storage_xp, ws2def/FAR *LPSOCKADDR_STORAGE_LH, ws2def/PSOCKADDR_STORAGE_LH, ws2def/SOCKADDR_STORAGE, wskref_6daf4329-4069-419a-add7-dada30940663.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: ws2def.h
-req.include-header: Winsock2.h
+req.include-header: Wsk.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP [desktop apps only]
-req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
+req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -33,10 +33,9 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	Ws2def.h
--	Winsock2.h
+-	ws2def.h
 api_name:
--	SOCKADDR_STORAGE
+-	SOCKADDR_STORAGE_LH
 product: Windows
 targetos: Windows
 req.lib: 
@@ -51,12 +50,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-
-			The 
-<b>SOCKADDR_STORAGE</b> structure stores socket address information. Since the 
-<b>SOCKADDR_STORAGE</b> structure is sufficiently large to store address information for IPv4, IPv6, or other  address families, its use promotes protocol-family and protocol-version independence and simplifies cross-platform development. Use the 
-<b>SOCKADDR_STORAGE</b> structure in place of the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a> structure.
+The SOCKADDR_STORAGE structure is a generic structure that specifies a transport address.
 
 
 ## -struct-fields
@@ -66,56 +60,36 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 ### -field ss_family
 
-Address family of the socket, such as AF_INET. 
-
-On Windows Vista
-  and later, the datatype for this member is defined as an <b>ADDRESS_FAMILY</b>.
+The address family for the transport address. For more information about supported address
+     families, see 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571151">WSK Address Families</a>.
 
 
 ### -field __ss_pad1
 
-Reserved. Defined as a 48-bit pad that ensures 
-<b>SOCKADDR_STORAGE</b> achieves 64-bit alignment.
+A padding of 6 bytes that puts the 
+     <b>__ss_align</b> member on an eight-byte boundary within the structure.
 
 
 ### -field __ss_align
 
-Reserved. Used by the compiler to align the structure.
+A 64-bit value that forces the structure to be 8-byte aligned.
 
 
 ### -field __ss_pad2
 
-Reserved. Used by the compiler to align the structure.
+A padding of an additional 112 bytes that brings the total size of the SOCKADDR_STORAGE structure
+     to 128 bytes.
 
 
 ## -remarks
 
 
 
-In the Microsoft Windows Software Development Kit (SDK), the version of this structure for use on Windows Vista
-  and later is defined as <b>SOCKADDR_STORAGE_LH</b>. In the Windows SDK, the version of this structure to be used on earlier systems including Windows XP and later is defined as <b>SOCKADDR_STORAGE_XP</b>. When compiling an application if the target platform is Windows Vista and later (<b>NTDDI_VERSION &gt;= NTDDI_LONGHORN, _WIN32_WINNT &gt;= 0x0600</b>, or <b>WINVER &gt;= 0x0600</b>), the <b>SOCKADDR_STORAGE_LH</b> structure is typedefed to the <b>SOCKADDR_STORAGE</b> structure. When compiling an application if the target platform is not Windows Vista and later, the <b>SOCKADDR_STORAGE_XP</b> structure is typedefed to the <b>SOCKADDR_STORAGE</b> structure. 
-
-
-
-The <b>SOCKADDR_STORAGE_LH</b> structure defines the data type of first member of the structure as an <b>ADDRESS_FAMILY</b>.
-
-Application developers normally use only the <b>ss_family</b> member of the 
-<b>SOCKADDR_STORAGE</b>. The remaining members ensure that the 
-<b>SOCKADDR_STORAGE</b> can contain either an IPv6 or IPv4 address and the structure is padded appropriately to achieve 64-bit alignment. Such alignment enables protocol-specific socket address data structures to access fields within a 
-<b>SOCKADDR_STORAGE</b> structure without alignment problems. With its padding, the 
-<b>SOCKADDR_STORAGE</b> structure is 128 bytes in length.
-
-The first member field of the 
-<b>SOCKADDR_STORAGE</b> structure is isomorphic with the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a> structure to enable a simplified transition from 
-the sockaddr structure to 
-the <b>SOCKADDR_STORAGE</b> structure.
-
-For more information about platform-independent 
-<b>SOCKADDR_STORAGE</b> implementation recommendations, refer to RFC 2553, available at 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84023">www.ietf.org</a>.
-
-On the Windows SDK released for Windows Vista and later, the organization of header files has changed and the <b>SOCKADDR_STORAGE</b> structure is defined in the <i>Ws2def.h</i> header file. Note that the <i>Ws2def.h</i> header file is automatically included in <i>Winsock2.h</i>, and should never be used directly.
+A WSK application typically does not directly access any of the members of the SOCKADDR_STORAGE
+    structure except for the 
+    <b>ss_family</b> member. Instead, a pointer to a SOCKADDR_STORAGE structure is normally cast to a pointer
+    to the specific SOCKADDR structure type that corresponds to a particular address family.
 
 
 
@@ -125,7 +99,7 @@ On the Windows SDK released for Windows Vista and later, the organization of he
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">SOCKADDR</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: wmformat\iwmpropertyvault_getpropertybyname.htm
 old-project: wmformat
 ms.assetid: 65740366-ac0a-4d18-9f61-a79670998e6a
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: GetPropertyByName method [windows Media Format], GetPropertyByName method [windows Media Format], IWMPropertyVault interface, GetPropertyByName,IWMPropertyVault.GetPropertyByName, IWMPropertyVault, IWMPropertyVault interface [windows Media Format], GetPropertyByName method, IWMPropertyVault::GetPropertyByName, IWMPropertyVaultGetPropertyByName, wmformat.iwmpropertyvault_getpropertybyname, wmsdkidl/IWMPropertyVault::GetPropertyByName
 ms.prod: windows-hardware
 ms.technology: windows-devices

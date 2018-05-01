@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3dtexture9__unlockrect.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dtexture9__unlockrect.htm
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/10/2018
 ms.keywords: IDirect3DTexture9, IDirect3DTexture9 interface [Direct3D 9], UnlockRect method, IDirect3DTexture9::UnlockRect, UnlockRect method [Direct3D 9], UnlockRect method [Direct3D 9], IDirect3DTexture9 interface, UnlockRect,IDirect3DTexture9.UnlockRect, d3d9helper/IDirect3DTexture9::UnlockRect, dc06fd43-b5ef-87a2-a68e-2779288b756b, direct3d9.idirect3dtexture9__unlockrect
 ms.prod: windows-hardware
 ms.technology: windows-devices

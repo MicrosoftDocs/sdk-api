@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist_resolvequerydata.htm
 old-project: direct3d12
 ms.assetid: E3154DB7-DDA9-4480-A918-19C3A62944F2
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: ID3D12GraphicsCommandList, ID3D12GraphicsCommandList interface, ResolveQueryData method, ID3D12GraphicsCommandList::ResolveQueryData, ResolveQueryData method, ResolveQueryData method, ID3D12GraphicsCommandList interface, ResolveQueryData,ID3D12GraphicsCommandList.ResolveQueryData, d3d12/ID3D12GraphicsCommandList::ResolveQueryData, direct3d12.id3d12graphicscommandlist_resolvequerydata
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: cos\iservicethreadpoolconfig.htm
 old-project: cossdk
 ms.assetid: 89c04fef-c6a0-4d73-a25a-a70b4b0f0bcf
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: IServiceThreadPoolConfig, IServiceThreadPoolConfig interface [COM+], IServiceThreadPoolConfig interface [COM+], described, _cos_IServiceThreadPoolConfig, comsvcs/IServiceThreadPoolConfig, cos.iservicethreadpoolconfig
 ms.prod: windows-hardware
 ms.technology: windows-devices

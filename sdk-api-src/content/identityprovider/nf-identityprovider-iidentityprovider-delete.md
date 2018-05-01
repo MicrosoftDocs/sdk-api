@@ -7,7 +7,7 @@ old-location: security\iidentityprovider_delete.htm
 old-project: SecAuthN
 ms.assetid: a21aa2eb-2551-4920-a312-34fa327572ca
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/24/2018
 ms.keywords: Delete method [Security], Delete method [Security], IIdentityProvider interface, Delete,IIdentityProvider.Delete, IIdentityProvider, IIdentityProvider interface [Security], Delete method, IIdentityProvider::Delete, identityprovider/IIdentityProvider::Delete, security.iidentityprovider_delete
 ms.prod: windows-hardware
 ms.technology: windows-devices

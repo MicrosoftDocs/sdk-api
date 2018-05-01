@@ -57,11 +57,6 @@ The <b>DDSURFACEDESC2</b> structure contains a description of a surface. This st
 
 
 
-### -field DUMMYUNIONNAMEN
-
- 
-
-
 ### -field dwSize
 
 Size of the structure, in bytes. This member must be initialized before the structure is used.
@@ -218,6 +213,11 @@ A <a href="https://msdn.microsoft.com/c520e649-86f9-4c4a-bb67-22d75aa3c8b0">DDCO
 ### -field ddckCKSrcBlt
 
 A <a href="https://msdn.microsoft.com/c520e649-86f9-4c4a-bb67-22d75aa3c8b0">DDCOLORKEY</a> structure that describes the source color key for bitblt operations.
+
+
+### -field DUMMYUNIONNAMEN
+
+ 
 
 
 ### -field ddsCaps

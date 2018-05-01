@@ -7,7 +7,7 @@ old-location: controls\itextstrings_moveboundary.htm
 old-project: Controls
 ms.assetid: db0eff33-f20a-481e-bcae-8a72674ab906
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextStrings, ITextStrings interface [Windows Controls], MoveBoundary method, ITextStrings::MoveBoundary, MoveBoundary method [Windows Controls], MoveBoundary method [Windows Controls], ITextStrings interface, MoveBoundary,ITextStrings.MoveBoundary, controls.itextstrings_moveboundary, tom/ITextStrings::MoveBoundary
 ms.prod: windows-hardware
 ms.technology: windows-devices

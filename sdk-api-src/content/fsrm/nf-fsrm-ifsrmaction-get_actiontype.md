@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmaction_actiontype.htm
 old-project: Fsrm
 ms.assetid: 7ce0bafb-8076-4a0d-bd59-9e2d436f74c1
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: ActionType property [File Server Resource Manager], ActionType property [File Server Resource Manager], IFsrmAction interface, IFsrmAction, IFsrmAction interface [File Server Resource Manager], ActionType property, IFsrmAction.ActionType, IFsrmAction::get_ActionType, fs.ifsrmaction_actiontype, fsrm.ifsrmaction_actiontype, fsrm/IFsrmAction::ActionType, fsrm/IFsrmAction::get_ActionType, get_ActionType,IFsrmAction.get_ActionType
 ms.prod: windows-hardware
 ms.technology: windows-devices

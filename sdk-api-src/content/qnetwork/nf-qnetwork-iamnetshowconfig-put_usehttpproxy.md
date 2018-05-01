@@ -7,7 +7,7 @@ old-location: dshow\iamnetshowconfig_put_usehttpproxy.htm
 old-project: DirectShow
 ms.assetid: 4be1ca01-49c6-4b1e-8fb6-41e598fd157f
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMNetShowConfig, IAMNetShowConfig interface [DirectShow], put_UseHTTPProxy method, IAMNetShowConfig::put_UseHTTPProxy, IAMNetShowConfigput_UseHTTPProxy, dshow.iamnetshowconfig_put_usehttpproxy, put_UseHTTPProxy method [DirectShow], put_UseHTTPProxy method [DirectShow], IAMNetShowConfig interface, put_UseHTTPProxy,IAMNetShowConfig.put_UseHTTPProxy, qnetwork/IAMNetShowConfig::put_UseHTTPProxy
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IAMNetShowConfig::put_UseHTTPProxy method

@@ -7,7 +7,7 @@ old-location: tapi3\itpluggableterminalclassregistration_get_mediatypes.htm
 old-project: Tapi
 ms.assetid: aa8c0da8-2953-483a-b3b9-7a6f3e35c893
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: ITPluggableTerminalClassRegistration, ITPluggableTerminalClassRegistration interface [TAPI 2.2], get_MediaTypes method, ITPluggableTerminalClassRegistration::get_MediaTypes, _tapi3_itpluggableterminalclassregistration_get_mediatypes, get_MediaTypes method [TAPI 2.2], get_MediaTypes method [TAPI 2.2], ITPluggableTerminalClassRegistration interface, get_MediaTypes,ITPluggableTerminalClassRegistration.get_MediaTypes, tapi3.itpluggableterminalclassregistration_get_mediatypes, termmgr/ITPluggableTerminalClassRegistration::get_MediaTypes
 ms.prod: windows-hardware
 ms.technology: windows-devices

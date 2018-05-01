@@ -7,7 +7,7 @@ old-location: com\iclassfactory.htm
 old-project: com
 ms.assetid: f624f833-2b69-43bc-92cd-c4ecbe6051c5
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IClassFactory, IClassFactory interface [COM], IClassFactory interface [COM], described, _com_iclassfactory, com.iclassfactory, unknwnbase/IClassFactory
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,8 +38,8 @@ api_name:
 -	IClassFactory
 product: Windows
 targetos: Windows
-req.lib: RpcRT4.lib
-req.dll: RpcRT4.dll
+req.lib: 
+req.dll: 
 req.irql: 
 req.product: Windows UI
 ---

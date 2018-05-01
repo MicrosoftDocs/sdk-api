@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11device_checkcounter.htm
 old-project: direct3d11
 ms.assetid: b09feac6-79c8-4f40-bfa1-028d4490b039
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/6/2018
 ms.keywords: 6fe48914-c164-b2f3-ada5-6ebc529a69a9, CheckCounter method [Direct3D 11], CheckCounter method [Direct3D 11], ID3D11Device interface, CheckCounter,ID3D11Device.CheckCounter, ID3D11Device, ID3D11Device interface [Direct3D 11], CheckCounter method, ID3D11Device::CheckCounter, d3d11/ID3D11Device::CheckCounter, direct3d11.id3d11device_checkcounter
 ms.prod: windows-hardware
 ms.technology: windows-devices

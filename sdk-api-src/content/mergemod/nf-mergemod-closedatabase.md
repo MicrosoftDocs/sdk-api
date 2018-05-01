@@ -7,7 +7,7 @@ old-location: setup\merge_closedatabase.htm
 old-project: Msi
 ms.assetid: a89fe77a-0099-4c49-b484-c05ee351a66a
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/26/2018
 ms.keywords: CloseDatabase, CloseDatabase method, CloseDatabase method, Merge class, Merge class, CloseDatabase method, _msi_closedatabase_method, setup.merge_closedatabase
 ms.prod: windows-hardware
 ms.technology: windows-devices

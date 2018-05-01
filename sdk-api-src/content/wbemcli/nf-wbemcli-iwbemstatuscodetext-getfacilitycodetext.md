@@ -7,7 +7,7 @@ old-location: wmi\iwbemstatuscodetext_getfacilitycodetext.htm
 old-project: WmiSdk
 ms.assetid: 831f8eb4-3dcd-42ec-aa43-309360e9a5ce
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: GetFacilityCodeText method [Windows Management Instrumentation], GetFacilityCodeText method [Windows Management Instrumentation], IWbemStatusCodeText interface, GetFacilityCodeText,IWbemStatusCodeText.GetFacilityCodeText, IWbemStatusCodeText, IWbemStatusCodeText interface [Windows Management Instrumentation], GetFacilityCodeText method, IWbemStatusCodeText::GetFacilityCodeText, _hmm_iwbemstatuscodetext_getfacilitycodetext, wbemcli/IWbemStatusCodeText::GetFacilityCodeText, wmi.iwbemstatuscodetext_getfacilitycodetext
 ms.prod: windows-hardware
 ms.technology: windows-devices

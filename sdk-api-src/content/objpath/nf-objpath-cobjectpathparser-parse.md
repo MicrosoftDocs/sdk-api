@@ -7,7 +7,7 @@ old-location: wmi\cobjectpathparser_parse.htm
 old-project: WmiSdk
 ms.assetid: c39dbef5-9050-487a-8e06-17087753330d
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: "?Parse@CObjectPathParser@@QAEHPBGPAPAUParsedObjectPath@@@Z, ?Parse@CObjectPathParser@@QEAAHPEBGPEAPEAUParsedObjectPath@@@Z, CObjectPathParser, CObjectPathParser interface [Windows Management Instrumentation], Parse method, CObjectPathParser::Parse, Parse method [Windows Management Instrumentation], Parse method [Windows Management Instrumentation], CObjectPathParser interface, Parse,CObjectPathParser.Parse, objpath/CObjectPathParser::Parse, wmi.cobjectpathparser_parse"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # CObjectPathParser::Parse method

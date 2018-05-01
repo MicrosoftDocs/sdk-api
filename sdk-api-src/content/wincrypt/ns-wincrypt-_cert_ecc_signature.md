@@ -7,7 +7,7 @@ old-location: security\cert_ecc_signature.htm
 old-project: SecCrypto
 ms.assetid: f341d839-c06d-40e9-a6ed-79a627918110
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: "*PCERT_ECC_SIGNATURE, CERT_ECC_SIGNATURE, CERT_ECC_SIGNATURE structure [Security], PCERT_ECC_SIGNATURE, PCERT_ECC_SIGNATURE structure pointer [Security], _CERT_ECC_SIGNATURE, security.cert_ecc_signature, wincrypt/CERT_ECC_SIGNATURE, wincrypt/PCERT_ECC_SIGNATURE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

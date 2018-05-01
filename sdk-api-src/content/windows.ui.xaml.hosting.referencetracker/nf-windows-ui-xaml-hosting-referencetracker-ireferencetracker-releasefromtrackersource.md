@@ -7,7 +7,7 @@ old-location: winrt\ireferencetracker_releasefromtrackersource.htm
 old-project: WinRT
 ms.assetid: 70ecc98e-30bd-48e6-966b-4b5955a58d8a
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/24/2018
 ms.keywords: IReferenceTracker, IReferenceTracker interface [Windows Runtime], ReleaseFromTrackerSource method, IReferenceTracker::ReleaseFromTrackerSource, ReleaseFromTrackerSource method [Windows Runtime], ReleaseFromTrackerSource method [Windows Runtime], IReferenceTracker interface, ReleaseFromTrackerSource,IReferenceTracker.ReleaseFromTrackerSource, windows/IReferenceTracker::ReleaseFromTrackerSource, winrt.ireferencetracker_releasefromtrackersource
 ms.prod: windows-hardware
 ms.technology: windows-devices

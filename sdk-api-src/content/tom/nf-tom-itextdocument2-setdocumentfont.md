@@ -7,7 +7,7 @@ old-location: controls\itextdocument2_setdocumentfont.htm
 old-project: Controls
 ms.assetid: 1fbc000a-76c2-4b80-856b-42f2e1829e93
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextDocument2, ITextDocument2 interface [Windows Controls], SetDocumentFont method, ITextDocument2::SetDocumentFont, SetDocumentFont method [Windows Controls], SetDocumentFont method [Windows Controls], ITextDocument2 interface, SetDocumentFont,ITextDocument2.SetDocumentFont, controls.itextdocument2_setdocumentfont, tom/ITextDocument2::SetDocumentFont
 ms.prod: windows-hardware
 ms.technology: windows-devices

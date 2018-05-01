@@ -7,7 +7,7 @@ old-location: security\kerb_certificate_info_type.htm
 old-project: SecAuthN
 ms.assetid: B6BAF09D-D284-4287-B760-32E4D5A9F091
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/24/2018
 ms.keywords: "*PKERB_CERTIFICATE_INFO_TYPE, CertHashInfo, KERB_CERTIFICATE_INFO_TYPE, KERB_CERTIFICATE_INFO_TYPE enumeration [Security], _KERB_CERTIFICATE_INFO_TYPE, ntsecapi/CertHashInfo, ntsecapi/KERB_CERTIFICATE_INFO_TYPE, security.kerb_certificate_info_type"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _KERB_CERTIFICATE_INFO_TYPE enumeration

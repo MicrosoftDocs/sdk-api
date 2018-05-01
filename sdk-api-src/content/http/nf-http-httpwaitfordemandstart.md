@@ -7,7 +7,7 @@ old-location: http\httpwaitfordemandstart.htm
 old-project: Http
 ms.assetid: e6bc4d24-5495-44cc-81ee-e5213095f3e4
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: HttpWaitForDemandStart, HttpWaitForDemandStart function [HTTP], http.httpwaitfordemandstart, http/HttpWaitForDemandStart
 ms.prod: windows-hardware
 ms.technology: windows-devices

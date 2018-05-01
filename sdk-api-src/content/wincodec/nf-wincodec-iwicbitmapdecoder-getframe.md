@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicbitmapdecoder_getframe.htm
 old-project: wic
 ms.assetid: 5e8c1cfd-50f3-431c-aedb-6e57d1368695
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: GetFrame method [Windows Imaging Component], GetFrame method [Windows Imaging Component], IWICBitmapDecoder interface, GetFrame,IWICBitmapDecoder.GetFrame, IWICBitmapDecoder, IWICBitmapDecoder interface [Windows Imaging Component], GetFrame method, IWICBitmapDecoder::GetFrame, _wic_codec_iwicbitmapdecoder_getframe, wic._wic_codec_iwicbitmapdecoder_getframe, wincodec/IWICBitmapDecoder::GetFrame
 ms.prod: windows-hardware
 ms.technology: windows-devices

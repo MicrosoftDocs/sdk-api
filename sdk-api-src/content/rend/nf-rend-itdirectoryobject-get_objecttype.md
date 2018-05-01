@@ -7,7 +7,7 @@ old-location: tapi3\itdirectoryobject_get_objecttype.htm
 old-project: Tapi
 ms.assetid: b71f5286-d97d-4129-942b-fa4d4ef0943e
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: ITDirectoryObject, ITDirectoryObject interface [TAPI 2.2], get_ObjectType method, ITDirectoryObject::get_ObjectType, _tapi3_itdirectoryobject_get_objecttype, get_ObjectType method [TAPI 2.2], get_ObjectType method [TAPI 2.2], ITDirectoryObject interface, get_ObjectType,ITDirectoryObject.get_ObjectType, rend/ITDirectoryObject::get_ObjectType, tapi3.itdirectoryobject_get_objecttype
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Rend.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITDirectoryObject::get_ObjectType method

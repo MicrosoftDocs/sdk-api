@@ -7,7 +7,7 @@ old-location: mstv\istreambuffersource_setstreamsink.htm
 old-project: mstv
 ms.assetid: 9cc53fb6-a652-43fa-a962-9bd3c67b5664
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IStreamBufferSource, IStreamBufferSource interface [Microsoft TV Technologies], SetStreamSink method, IStreamBufferSource::SetStreamSink, IStreamBufferSourceSetStreamSink, SetStreamSink method [Microsoft TV Technologies], SetStreamSink method [Microsoft TV Technologies], IStreamBufferSource interface, SetStreamSink,IStreamBufferSource.SetStreamSink, mstv.istreambuffersource_setstreamsink, sbe/IStreamBufferSource::SetStreamSink
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IStreamBufferSource::SetStreamSink method

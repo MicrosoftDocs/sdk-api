@@ -7,8 +7,8 @@ old-location: security\ix509certificaterequest_cspinformations_property.htm
 old-project: SecCertEnroll
 ms.assetid: 7be532ab-0ab0-4c22-b274-c925fd5827d5
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: CspInformations method [Security], CspInformations method [Security], IX509CertificateRequest interface, IX509CertificateRequest, IX509CertificateRequest interface [Security], CspInformations method, IX509CertificateRequest::CspInformations, IX509CertificateRequest::get_CspInformations, certenroll/IX509CertificateRequest::CspInformations, get_CspInformations, get_CspInformations,IX509CertificateRequest.get_CspInformations, security.ix509certificaterequest_cspinformations_property
+ms.date: 4/5/2018
+ms.keywords: CspInformations property [Security], CspInformations property [Security], IX509CertificateRequest interface, IX509CertificateRequest, IX509CertificateRequest interface [Security], CspInformations property, IX509CertificateRequest.CspInformations, IX509CertificateRequest::get_CspInformations, IX509CertificateRequest::put_CspInformations, certenroll/IX509CertificateRequest::CspInformations, certenroll/IX509CertificateRequest::get_CspInformations, certenroll/IX509CertificateRequest::put_CspInformations, get_CspInformations,IX509CertificateRequest.get_CspInformations, security.ix509certificaterequest_cspinformations_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -36,6 +36,8 @@ api_location:
 -	CertEnroll.dll
 api_name:
 -	IX509CertificateRequest.CspInformations
+-	IX509CertificateRequest.get_CspInformations
+-	IX509CertificateRequest.put_CspInformations
 product: Windows
 targetos: Windows
 req.lib: 
@@ -51,50 +53,10 @@ req.irql:
 
 The <b>CspInformations</b> property specifies and retrieves a collection of cryptographic providers available for use by the request object.
 
+This property is read/write.
+
 
 ## -parameters
-
-
-
-
-### -param ppValue [out]
-
-Address of a variable that receives a pointer to a collection of <a href="https://msdn.microsoft.com/e337ae2c-6f86-4025-8d31-47bc5d8a4ca8">ICspInformation</a> interfaces.
-
-
-#### - pValue [in]
-
-Pointer to an <a href="https://msdn.microsoft.com/8141023c-c162-46d6-9c37-e227ce1c8761">ICspInformations</a> interface that contains a collection of <a href="https://msdn.microsoft.com/e337ae2c-6f86-4025-8d31-47bc5d8a4ca8">ICspInformation</a> interfaces. 
-
-
-## -returns
-
-
-
-If the function succeeds, the function returns <b>S_OK</b>.
-
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
-
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>CERTSRV_E_PROPERTY_EMPTY</b></dt>
-</dl>
-</td>
-<td width="60%">
-The property value could not be found.
-
-</td>
-</tr>
-</table>
- 
-
-
 
 
 ## -remarks

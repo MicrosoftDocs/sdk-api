@@ -7,7 +7,7 @@ old-location: wpdauto\iportabledevicedispatchfactory_getdevicedispatch.htm
 old-project: wpdauto
 ms.assetid: 80aa36cd-3831-4eb5-a5bb-a8e48f20fc62
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/5/2018
 ms.keywords: GetDeviceDispatch method [WPD Automation], GetDeviceDispatch method [WPD Automation], IPortableDeviceDispatchFactory interface, GetDeviceDispatch,IPortableDeviceDispatchFactory.GetDeviceDispatch, IPortableDeviceDispatchFactory, IPortableDeviceDispatchFactory interface [WPD Automation], GetDeviceDispatch method, IPortableDeviceDispatchFactory::GetDeviceDispatch, portabledeviceapi/IPortableDeviceDispatchFactory::GetDeviceDispatch, wpdauto.iportabledevicedispatchfactory_getdevicedispatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: WPD_WHITE_BALANCE_SETTINGS
+req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: PortableDeviceGuids.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IPortableDeviceDispatchFactory::GetDeviceDispatch method

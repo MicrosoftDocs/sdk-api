@@ -7,7 +7,7 @@ old-location: wmformat\iwmsyncreader_getstreamnumberforoutput.htm
 old-project: wmformat
 ms.assetid: 85543b80-78dd-4dc6-8885-c6a53f910165
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: GetStreamNumberForOutput method [windows Media Format], GetStreamNumberForOutput method [windows Media Format], IWMSyncReader interface, GetStreamNumberForOutput,IWMSyncReader.GetStreamNumberForOutput, IWMSyncReader, IWMSyncReader interface [windows Media Format], GetStreamNumberForOutput method, IWMSyncReader::GetStreamNumberForOutput, IWMSyncReaderGetStreamNumberForOutput, wmformat.iwmsyncreader_getstreamnumberforoutput, wmsdkidl/IWMSyncReader::GetStreamNumberForOutput
 ms.prod: windows-hardware
 ms.technology: windows-devices

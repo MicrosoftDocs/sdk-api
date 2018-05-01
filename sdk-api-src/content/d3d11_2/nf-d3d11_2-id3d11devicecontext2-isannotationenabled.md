@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext2_isannotationenabled.htm
 old-project: direct3d11
 ms.assetid: 76096836-ab68-468e-a54a-a93ecb0bdb88
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/6/2018
 ms.keywords: ID3D11DeviceContext2, ID3D11DeviceContext2 interface [Direct3D 11], IsAnnotationEnabled method, ID3D11DeviceContext2::IsAnnotationEnabled, IsAnnotationEnabled method [Direct3D 11], IsAnnotationEnabled method [Direct3D 11], ID3D11DeviceContext2 interface, IsAnnotationEnabled,ID3D11DeviceContext2.IsAnnotationEnabled, d3d11_2/ID3D11DeviceContext2::IsAnnotationEnabled, direct3d11.id3d11devicecontext2_isannotationenabled
 ms.prod: windows-hardware
 ms.technology: windows-devices

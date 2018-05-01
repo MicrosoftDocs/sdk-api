@@ -68,6 +68,11 @@ Indicates there is no header metadata.
 Indicates the header metadata is held by a  <a href="https://msdn.microsoft.com/67A53A43-121F-4D83-AACC-D25D58123BE1">DXGI_HDR_METADATA_HDR10</a> structure.
 
 
+### -field DXGI_HDR_METADATA_TYPE_HDR10PLUS
+
+
+
+
 ## -remarks
 
 

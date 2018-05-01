@@ -7,7 +7,7 @@ old-location: security\ienumcertviewcolumn_getmaxlength.htm
 old-project: SecCrypto
 ms.assetid: 20cd5f5a-2e19-43ca-9b84-70e6dd1a4cad
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: GetMaxLength method [Security], GetMaxLength method [Security], IEnumCERTVIEWCOLUMN interface, GetMaxLength,IEnumCERTVIEWCOLUMN.GetMaxLength, IEnumCERTVIEWCOLUMN, IEnumCERTVIEWCOLUMN interface [Security], GetMaxLength method, IEnumCERTVIEWCOLUMN::GetMaxLength, _certsrv_ienumcertviewcolumn_getmaxlength, certview/IEnumCERTVIEWCOLUMN::GetMaxLength, security.ienumcertviewcolumn_getmaxlength
 ms.prod: windows-hardware
 ms.technology: windows-devices

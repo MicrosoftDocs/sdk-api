@@ -7,7 +7,7 @@ old-location: shell\UrlUnescapeInPlace.htm
 old-project: shell
 ms.assetid: 315215dc-c074-4abb-8bb2-006eff18b88d
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: URL_DONT_UNESCAPE_EXTRA_INFO, UrlUnescapeInPlace, UrlUnescapeInPlace function [Windows Shell], _win32_UrlUnescapeInPlace, shell.UrlUnescapeInPlace, shlwapi/UrlUnescapeInPlace
 ms.prod: windows-hardware
 ms.technology: windows-devices

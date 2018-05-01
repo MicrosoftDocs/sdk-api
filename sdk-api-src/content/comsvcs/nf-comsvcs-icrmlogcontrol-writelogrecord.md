@@ -7,7 +7,7 @@ old-location: cos\icrmlogcontrol_writelogrecord.htm
 old-project: cossdk
 ms.assetid: b2cbd9dc-5451-4aae-b2ce-28b2b93fd465
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: ICrmLogControl, ICrmLogControl interface [COM+], WriteLogRecord method, ICrmLogControl::WriteLogRecord, WriteLogRecord method [COM+], WriteLogRecord method [COM+], ICrmLogControl interface, WriteLogRecord,ICrmLogControl.WriteLogRecord, _dtc_ICrmLogControl_WriteLogRecord, comsvcs/ICrmLogControl::WriteLogRecord, cos.icrmlogcontrol_writelogrecord
 ms.prod: windows-hardware
 ms.technology: windows-devices

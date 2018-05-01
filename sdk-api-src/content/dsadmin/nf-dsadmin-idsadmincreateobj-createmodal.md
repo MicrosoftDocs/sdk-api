@@ -7,7 +7,7 @@ old-location: ad\idsadmincreateobj_createmodal.htm
 old-project: AD
 ms.assetid: 8c157dd8-b569-4171-bd23-b9bce80dbc21
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/20/2018
 ms.keywords: CreateModal method [Active Directory], CreateModal method [Active Directory], IDsAdminCreateObj interface, CreateModal,IDsAdminCreateObj.CreateModal, IDsAdminCreateObj, IDsAdminCreateObj interface [Active Directory], CreateModal method, IDsAdminCreateObj::CreateModal, _glines_idsadmincreateobj_createmodal, ad.idsadmincreateobj__createmodal, ad.idsadmincreateobj_createmodal, dsadmin/IDsAdminCreateObj::CreateModal
 ms.prod: windows-hardware
 ms.technology: windows-devices

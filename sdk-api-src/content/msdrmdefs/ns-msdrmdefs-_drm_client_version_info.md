@@ -7,7 +7,7 @@ old-location: rm\drm_client_version_info.htm
 old-project: AdRms_Sdk
 ms.assetid: 5f1fdd8a-dbe1-4b07-888b-b5af0f593fd3
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/11/2018
 ms.keywords: DRM_CLIENT_VERSION_INFO, DRM_CLIENT_VERSION_INFO structure [Active Directory Rights Management Services SDK 1.0], _DRM_CLIENT_VERSION_INFO, dwVersion, msdrmdefs/DRM_CLIENT_VERSION_INFO, rm.drm_client_version_info
 ms.prod: windows-hardware
 ms.technology: windows-devices

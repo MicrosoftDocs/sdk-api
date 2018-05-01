@@ -7,7 +7,7 @@ old-location: base\ivsscomponentex_getrestorename.htm
 old-project: VSS
 ms.assetid: a544bcc1-6a42-4cda-824c-2b027b8a4a6f
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: GetRestoreName method, GetRestoreName method, IVssComponentEx interface, GetRestoreName,IVssComponentEx.GetRestoreName, IVssComponentEx, IVssComponentEx interface, GetRestoreName method, IVssComponentEx::GetRestoreName, base.ivsscomponentex_getrestorename, vswriter/IVssComponentEx::GetRestoreName
 ms.prod: windows-hardware
 ms.technology: windows-devices

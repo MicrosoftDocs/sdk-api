@@ -7,7 +7,7 @@ old-location: tapi2\linesetcallprivilege.htm
 old-project: Tapi
 ms.assetid: a13d7cfd-3709-43fb-88b9-291928f2c0d8
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: "_tapi2_linesetcallprivilege, lineSetCallPrivilege, lineSetCallPrivilege function [TAPI 2.2], tapi/lineSetCallPrivilege, tapi2.linesetcallprivilege"
 ms.prod: windows-hardware
 ms.technology: windows-devices

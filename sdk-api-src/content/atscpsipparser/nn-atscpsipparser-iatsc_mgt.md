@@ -7,7 +7,7 @@ old-location: mstv\iatsc_mgt.htm
 old-project: mstv
 ms.assetid: 2d6cc17f-7288-468c-a028-31e6e284d8ca
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IATSC_MGT, IATSC_MGT interface [Microsoft TV Technologies], IATSC_MGT interface [Microsoft TV Technologies], described, IATSC_MGTInterface, atscpsipparser/IATSC_MGT, mstv.iatsc_mgt
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_WRITER_PAYLOAD_STREAM
+req.typenames: AsyncStatus
 topic_type:
 -	APIRef
 -	kbSyntax

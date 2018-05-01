@@ -7,7 +7,7 @@ old-location: dxmath\planeintersectiontype.htm
 old-project: dxmath
 ms.assetid: T:Microsoft.directx_sdk.directxcollision.PlaneIntersectionType
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/23/2018
 ms.keywords: BACK, FRONT, INTERSECTING, PlaneIntersectionType, PlaneIntersectionType enumeration [DirectX Math Support APIs], directxcollision/BACK, directxcollision/FRONT, directxcollision/INTERSECTING, directxcollision/PlaneIntersectionType, dxmath.planeintersectiontype
 ms.prod: windows-hardware
 ms.technology: windows-devices

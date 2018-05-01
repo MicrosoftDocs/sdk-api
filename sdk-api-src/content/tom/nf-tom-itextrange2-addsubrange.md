@@ -7,7 +7,7 @@ old-location: controls\itextrange2_addsubrange.htm
 old-project: Controls
 ms.assetid: ffd1f166-a37c-4b39-9878-a4008260f675
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: AddSubrange method [Windows Controls], AddSubrange method [Windows Controls], ITextRange2 interface, AddSubrange,ITextRange2.AddSubrange, ITextRange2, ITextRange2 interface [Windows Controls], AddSubrange method, ITextRange2::AddSubrange, controls.itextrange2_addsubrange, tom/ITextRange2::AddSubrange
 ms.prod: windows-hardware
 ms.technology: windows-devices

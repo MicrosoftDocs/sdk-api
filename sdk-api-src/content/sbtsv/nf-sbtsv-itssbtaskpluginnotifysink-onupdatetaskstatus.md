@@ -7,7 +7,7 @@ old-location: termserv\itssbtaskpluginnotifysink_onupdatetaskstatus.htm
 old-project: TermServ
 ms.assetid: 5fc22173-12b2-41a4-a487-8092088ecfe9
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: ITsSbTaskPluginNotifySink, ITsSbTaskPluginNotifySink interface [Remote Desktop Services], OnUpdateTaskStatus method, ITsSbTaskPluginNotifySink::OnUpdateTaskStatus, OnUpdateTaskStatus method [Remote Desktop Services], OnUpdateTaskStatus method [Remote Desktop Services], ITsSbTaskPluginNotifySink interface, OnUpdateTaskStatus,ITsSbTaskPluginNotifySink.OnUpdateTaskStatus, sbtsv/ITsSbTaskPluginNotifySink::OnUpdateTaskStatus, termserv.itssbtaskpluginnotifysink_onupdatetaskstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITsSbTaskPluginNotifySink::OnUpdateTaskStatus method

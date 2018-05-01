@@ -7,7 +7,7 @@ old-location: setup\merge_log.htm
 old-project: Msi
 ms.assetid: dbfc9be7-1b0b-417e-9e2b-bf191ea255b6
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/26/2018
 ms.keywords: Log, Log method, Log method, Merge class, Merge class, Log method, _msi_log_method, setup.merge_log
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: automat\safearraygetdim.htm
 old-project: automat
 ms.assetid: bc52b23b-d323-478c-881f-d2a31a3289c5
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: SafeArrayGetDim, SafeArrayGetDim function [Automation], _oa96_SafeArrayGetDim, automat.safearraygetdim, oleauto/SafeArrayGetDim
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # SafeArrayGetDim function

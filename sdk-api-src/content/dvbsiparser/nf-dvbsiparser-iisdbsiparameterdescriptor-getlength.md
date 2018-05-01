@@ -7,7 +7,7 @@ old-location: mstv\iisdbsiparameterdescriptor_getlength.htm
 old-project: mstv
 ms.assetid: 6e4ac80d-30a9-4879-9cd3-a3964c675b27
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies], IIsdbSIParameterDescriptor interface, GetLength,IIsdbSIParameterDescriptor.GetLength, IIsdbSIParameterDescriptor, IIsdbSIParameterDescriptor interface [Microsoft TV Technologies], GetLength method, IIsdbSIParameterDescriptor::GetLength, dvbsiparser/IIsdbSIParameterDescriptor::GetLength, mstv.iisdbsiparameterdescriptor_getlength
 ms.prod: windows-hardware
 ms.technology: windows-devices

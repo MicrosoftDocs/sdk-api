@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmaction_runlimitinterval.htm
 old-project: Fsrm
 ms.assetid: 3d5be77f-282f-479d-aa34-a8cb1c771951
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: IFsrmAction, IFsrmAction interface [File Server Resource Manager], RunLimitInterval property, IFsrmAction.RunLimitInterval, IFsrmAction::get_RunLimitInterval, IFsrmAction::put_RunLimitInterval, RunLimitInterval property [File Server Resource Manager], RunLimitInterval property [File Server Resource Manager], IFsrmAction interface, fs.ifsrmaction_runlimitinterval, fsrm.ifsrmaction_runlimitinterval, fsrm/IFsrmAction::RunLimitInterval, fsrm/IFsrmAction::get_RunLimitInterval, fsrm/IFsrmAction::put_RunLimitInterval, put_RunLimitInterval,IFsrmAction.put_RunLimitInterval
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dhcp\quarantinestatus.htm
 old-project: DHCP
 ms.assetid: 29C165D1-9870-4398-97F9-DA1586797FF0
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/7/2018
 ms.keywords: DEFAULTQUARSETTING, DROPPACKET, EXEMPT, NOQUARANTINE, NOQUARINFO, PROBATION, QuarantineStatus, QuarantineStatus enumeration [DHCP], RESTRICTEDACCESS, _QuarantineStatus, dhcp.quarantinestatus, dhcpsapi/DEFAULTQUARSETTING, dhcpsapi/DROPPACKET, dhcpsapi/EXEMPT, dhcpsapi/NOQUARANTINE, dhcpsapi/NOQUARINFO, dhcpsapi/PROBATION, dhcpsapi/QuarantineStatus, dhcpsapi/RESTRICTEDACCESS
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tapi3\itlegacycallmediacontrol2_getidasvariant.htm
 old-project: Tapi
 ms.assetid: 6c28889f-3768-4136-ac73-80c6c5ffeac3
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: GetIDAsVariant method [TAPI 2.2], GetIDAsVariant method [TAPI 2.2], ITLegacyCallMediaControl2 interface, GetIDAsVariant,ITLegacyCallMediaControl2.GetIDAsVariant, ITLegacyCallMediaControl2, ITLegacyCallMediaControl2 interface [TAPI 2.2], GetIDAsVariant method, ITLegacyCallMediaControl2::GetIDAsVariant, _tapi3_itlegacycallmediacontrol2_getidasvariant, tapi3.itlegacycallmediacontrol2_getidasvariant, tapi3if/ITLegacyCallMediaControl2::GetIDAsVariant
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: http\http_service_config_urlacl_set.htm
 old-project: Http
 ms.assetid: 92fc3f65-0153-4075-a61b-48a63c8e0ffe
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: "*PHTTP_SERVICE_CONFIG_URLACL_SET, HTTP_SERVICE_CONFIG_URLACL_SET, HTTP_SERVICE_CONFIG_URLACL_SET structure [HTTP], PHTTP_SERVICE_CONFIG_URLACL_SET, PHTTP_SERVICE_CONFIG_URLACL_SET structure pointer [HTTP], _HTTP_SERVICE_CONFIG_URLACL_SET, _http_http_service_config_urlacl_set, http.http_service_config_urlacl_set, http/HTTP_SERVICE_CONFIG_URLACL_SET, http/PHTTP_SERVICE_CONFIG_URLACL_SET"
 ms.prod: windows-hardware
 ms.technology: windows-devices

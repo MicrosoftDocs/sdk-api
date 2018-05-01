@@ -7,7 +7,7 @@ old-location: security\icspinformations_gethashalgorithms_method.htm
 old-project: SecCertEnroll
 ms.assetid: 647cad18-ed2e-4f3a-92d4-28fcfe60a800
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: GetHashAlgorithms method [Security], GetHashAlgorithms method [Security], ICspInformations interface, GetHashAlgorithms,ICspInformations.GetHashAlgorithms, ICspInformations, ICspInformations interface [Security], GetHashAlgorithms method, ICspInformations::GetHashAlgorithms, certenroll/ICspInformations::GetHashAlgorithms, security.icspinformations_gethashalgorithms_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

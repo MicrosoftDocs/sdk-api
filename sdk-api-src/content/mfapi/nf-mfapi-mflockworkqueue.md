@@ -7,7 +7,7 @@ old-location: mf\mflockworkqueue.htm
 old-project: medfound
 ms.assetid: 307a1ec5-e54a-47f6-8ace-3b935081faf8
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 307a1ec5-e54a-47f6-8ace-3b935081faf8, MFLockWorkQueue, MFLockWorkQueue function [Media Foundation], mf.mflockworkqueue, mfapi/MFLockWorkQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices

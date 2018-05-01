@@ -7,7 +7,7 @@ old-location: nps\SDO_isdodictionaryold_enumattributes.htm
 old-project: Nps
 ms.assetid: 45327428-1442-43f7-bf5b-0b6fcf06a246
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/24/2018
 ms.keywords: EnumAttributes method [Network Policy Server], EnumAttributes method [Network Policy Server], ISdoDictionaryOld interface, EnumAttributes,ISdoDictionaryOld.EnumAttributes, ISdoDictionaryOld, ISdoDictionaryOld interface [Network Policy Server], EnumAttributes method, ISdoDictionaryOld::EnumAttributes, _sdo_isdodictionaryold_enumattributes, nps.SDO_isdodictionaryold_enumattributes, sdo.isdodictionaryold_enumattributes, sdoias/ISdoDictionaryOld::EnumAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Iassdo.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ISdoDictionaryOld::EnumAttributes method

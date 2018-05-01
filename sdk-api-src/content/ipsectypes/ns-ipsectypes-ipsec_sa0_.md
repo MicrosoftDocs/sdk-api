@@ -7,7 +7,7 @@ old-location: fwp\ipsec_sa0_struct.htm
 old-project: FWP
 ms.assetid: 9d60f5d7-57af-4c33-90ed-b69a9671a9ce
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: IPSEC_SA0, IPSEC_SA0 structure [Filtering], IPSEC_SA0_, fwp.ipsec_sa0_struct, ipsectypes/IPSEC_SA0
 ms.prod: windows-hardware
 ms.technology: windows-devices

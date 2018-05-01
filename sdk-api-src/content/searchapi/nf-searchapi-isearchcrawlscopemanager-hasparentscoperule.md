@@ -7,7 +7,7 @@ old-location: search\_search_ISearchCrawlScopeManager_HasParentScopeRule.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager\hasparentscoperule.htm
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/24/2018
 ms.keywords: HasParentScopeRule method [search], HasParentScopeRule method [search], ISearchCrawlScopeManager interface, HasParentScopeRule,ISearchCrawlScopeManager.HasParentScopeRule, ISearchCrawlScopeManager, ISearchCrawlScopeManager interface [search], HasParentScopeRule method, ISearchCrawlScopeManager::HasParentScopeRule, _search_ISearchCrawlScopeManager_HasParentScopeRule, search._search_ISearchCrawlScopeManager_HasParentScopeRule, searchapi/ISearchCrawlScopeManager::HasParentScopeRule
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ISearchCrawlScopeManager::HasParentScopeRule method

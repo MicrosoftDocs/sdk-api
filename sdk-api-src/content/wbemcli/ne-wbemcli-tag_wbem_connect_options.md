@@ -7,7 +7,7 @@ old-location: wmi\wbem_connect_options.htm
 old-project: WmiSdk
 ms.assetid: 8D6FA5C1-B10B-48C6-A0E9-8F7D6C07B957
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: WBEM_CONNECT_OPTIONS, WBEM_CONNECT_OPTIONS enumeration [Windows Management Instrumentation], WBEM_FLAG_CONNECT_PROVIDERS, WBEM_FLAG_CONNECT_REPOSITORY_ONLY, WBEM_FLAG_CONNECT_USE_MAX_WAIT, tag_WBEM_CONNECT_OPTIONS, wbemcli/WBEM_CONNECT_OPTIONS, wbemcli/WBEM_FLAG_CONNECT_PROVIDERS, wbemcli/WBEM_FLAG_CONNECT_REPOSITORY_ONLY, wbemcli/WBEM_FLAG_CONNECT_USE_MAX_WAIT, wmi.wbem_connect_options
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,0 +1,96 @@
+---
+UID: NF:wmdmlog.IWMDMLogger.Reset
+title: IWMDMLogger::Reset method
+author: windows-driver-content
+description: The Reset method deletes the contents of the current log file.
+old-location: wmdm\iwmdmlogger_reset.htm
+old-project: WMDM
+ms.assetid: 1b26aede-0db4-4597-8494-7fd5e5cba857
+ms.author: windowsdriverdev
+ms.date: 4/17/2018
+ms.keywords: IWMDMLogger, IWMDMLogger interface [windows Media Device Manager], Reset method, IWMDMLogger::Reset, IWMDMLoggerReset, Reset method [windows Media Device Manager], Reset method [windows Media Device Manager], IWMDMLogger interface, Reset,IWMDMLogger.Reset, wmdm.iwmdmlogger_reset, wmdmlog/IWMDMLogger::Reset
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wmdmlog.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: ASF_INDEX_IDENTIFIER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mssachlp.lib
+-	mssachlp.dll
+api_name:
+-	IWMDMLogger.Reset
+product: Windows
+targetos: Windows
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IWMDMLogger::Reset method
+
+
+## -description
+
+
+
+The <b>Reset</b> method deletes the contents of the current log file.
+
+
+
+
+## -parameters
+
+
+
+
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. All the interface methods in Windows Media Device Manager can return any of the following classes of error codes:
+
+<ul>
+<li>Standard COM error codes </li>
+<li>Windows error codes converted to HRESULT values </li>
+<li>Windows Media Device Manager error codes </li>
+</ul>
+For an extensive list of possible error codes, see <a href="https://msdn.microsoft.com/library/windows/hardware/dn938542">Error Codes</a>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/50fc1d71-b650-4ba5-a6e1-631c0b9fe8ad">Enabling Logging</a>
+
+
+
+<a href="https://msdn.microsoft.com/bededb91-f343-455b-a3ef-548e6f961933">IWMDMLogger Interface</a>
+ 
+
+ 
+

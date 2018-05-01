@@ -7,7 +7,7 @@ old-location: dshow\ivpbaseconfig_setconnectinfo.htm
 old-project: DirectShow
 ms.assetid: e52bb213-e6e7-4bae-9e1e-6b34f34cf1d1
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IVPBaseConfig, IVPBaseConfig interface [DirectShow], SetConnectInfo method, IVPBaseConfig::SetConnectInfo, IVPBaseConfigSetConnectInfo, SetConnectInfo method [DirectShow], SetConnectInfo method [DirectShow], IVPBaseConfig interface, SetConnectInfo,IVPBaseConfig.SetConnectInfo, dshow.ivpbaseconfig_setconnectinfo, vpconfig/IVPBaseConfig::SetConnectInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

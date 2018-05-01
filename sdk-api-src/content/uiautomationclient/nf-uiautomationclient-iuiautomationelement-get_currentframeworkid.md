@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement_CurrentFrameworkId.htm
 old-project: WinAuto
 ms.assetid: b54af8d4-87b1-4fd3-bc25-1a7c038899ea
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: CurrentFrameworkId property [Windows Accessibility], CurrentFrameworkId property [Windows Accessibility], IUIAutomationElement interface, IUIAutomationElement, IUIAutomationElement interface [Windows Accessibility], CurrentFrameworkId property, IUIAutomationElement.CurrentFrameworkId, IUIAutomationElement::get_CurrentFrameworkId, get_CurrentFrameworkId,IUIAutomationElement.get_CurrentFrameworkId, uiauto.uiauto_IUIAutomationElement_CurrentFrameworkId, uiauto_IUIAutomationElement_CurrentFrameworkId, uiautomationclient/IUIAutomationElement::CurrentFrameworkId, uiautomationclient/IUIAutomationElement::get_CurrentFrameworkId, winauto.uiauto_IUIAutomationElement_CurrentFrameworkId
 ms.prod: windows-hardware
 ms.technology: windows-devices

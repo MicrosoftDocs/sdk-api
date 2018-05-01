@@ -7,7 +7,7 @@ old-location: appxpkg\iappxmanifestmainpackagedependency_getpublisher.htm
 old-project: appxpkg
 ms.assetid: 4E7AD93A-27B6-4FE0-8803-EF1ACCB82986
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/26/2018
 ms.keywords: GetPublisher method [App packaging and management], GetPublisher method [App packaging and management], IAppxManifestMainPackageDependency interface, GetPublisher,IAppxManifestMainPackageDependency.GetPublisher, IAppxManifestMainPackageDependency, IAppxManifestMainPackageDependency interface [App packaging and management], GetPublisher method, IAppxManifestMainPackageDependency::GetPublisher, appxpackaging/IAppxManifestMainPackageDependency::GetPublisher, appxpkg.iappxmanifestmainpackagedependency_getpublisher
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_ARCHITECTURE2
+req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
 topic_type:
 -	APIRef
 -	kbSyntax

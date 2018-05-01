@@ -7,7 +7,7 @@ old-location: dshow\iamaudioinputmixer_put_treble.htm
 old-project: DirectShow
 ms.assetid: 09030c17-14d0-4af2-9e9e-64a536133b64
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMAudioInputMixer, IAMAudioInputMixer interface [DirectShow], put_Treble method, IAMAudioInputMixer::put_Treble, IAMAudioInputMixerput_Treble, dshow.iamaudioinputmixer_put_treble, put_Treble method [DirectShow], put_Treble method [DirectShow], IAMAudioInputMixer interface, put_Treble,IAMAudioInputMixer.put_Treble, strmif/IAMAudioInputMixer::put_Treble
 ms.prod: windows-hardware
 ms.technology: windows-devices

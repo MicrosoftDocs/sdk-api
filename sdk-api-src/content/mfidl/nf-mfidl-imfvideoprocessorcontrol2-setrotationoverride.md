@@ -7,7 +7,7 @@ old-location: mf\imfvideoprocessorcontrol2_setrotationoverride.htm
 old-project: medfound
 ms.assetid: 408048CF-0443-4F09-8AB9-A9A2827EA749
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFVideoProcessorControl2, IMFVideoProcessorControl2 interface [Media Foundation], SetRotationOverride method, IMFVideoProcessorControl2::SetRotationOverride, SetRotationOverride method [Media Foundation], SetRotationOverride method [Media Foundation], IMFVideoProcessorControl2 interface, SetRotationOverride,IMFVideoProcessorControl2.SetRotationOverride, mf.imfvideoprocessorcontrol2_setrotationoverride, mfidl/IMFVideoProcessorControl2::SetRotationOverride
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: multimedia\icdrawstop.htm
 old-project: Multimedia
 ms.assetid: c8608410-da45-4953-b16a-050870f85af9
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/25/2018
 ms.keywords: ICDrawStop, ICDrawStop macro [Windows Multimedia], _win32_ICDrawStop, multimedia.icdrawstop, vfw/ICDrawStop
 ms.prod: windows-hardware
 ms.technology: windows-devices

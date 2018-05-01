@@ -7,7 +7,7 @@ old-location: security\ix509attributearchivekey_initializedecode_method.htm
 old-project: SecCertEnroll
 ms.assetid: d6c39eaa-53d1-4cc4-bed3-34c9ef62e9d0
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: IX509AttributeArchiveKey, IX509AttributeArchiveKey interface [Security], InitializeDecode method, IX509AttributeArchiveKey::InitializeDecode, InitializeDecode method [Security], InitializeDecode method [Security], IX509AttributeArchiveKey interface, InitializeDecode,IX509AttributeArchiveKey.InitializeDecode, certenroll/IX509AttributeArchiveKey::InitializeDecode, security.ix509attributearchivekey_initializedecode_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

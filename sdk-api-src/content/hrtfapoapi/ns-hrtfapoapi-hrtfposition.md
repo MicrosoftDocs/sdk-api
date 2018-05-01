@@ -7,7 +7,7 @@ old-location: xaudio2\hrtfposition.htm
 old-project: xaudio2
 ms.assetid: E6D84823-A7FA-4EB5-82E2-4F3D7B6C6174
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/20/2018
 ms.keywords: HrtfPosition, HrtfPosition structure [XAudio2 Audio Mixing APIs], PHrtfPosition, PHrtfPosition structure pointer [XAudio2 Audio Mixing APIs], hrtfapoapi/HrtfPosition, hrtfapoapi/PHrtfPosition, xaudio2.hrtfposition
 ms.prod: windows-hardware
 ms.technology: windows-devices

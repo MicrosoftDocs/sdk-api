@@ -7,7 +7,7 @@ old-location: mf\imftopologynode_getinputcount.htm
 old-project: medfound
 ms.assetid: 84c079da-5de6-4c33-b0c7-5ffd017d5513
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 84c079da-5de6-4c33-b0c7-5ffd017d5513, GetInputCount method [Media Foundation], GetInputCount method [Media Foundation], IMFTopologyNode interface, GetInputCount,IMFTopologyNode.GetInputCount, IMFTopologyNode, IMFTopologyNode interface [Media Foundation], GetInputCount method, IMFTopologyNode::GetInputCount, mf.imftopologynode_getinputcount, mfidl/IMFTopologyNode::GetInputCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: cos\ieventsubscription_putpublisherproperty.htm
 old-project: cossdk
 ms.assetid: af8ae243-d28b-4909-a4e8-98ffe336fc9a
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: IEventSubscription, IEventSubscription interface [COM+], PutPublisherProperty method, IEventSubscription::PutPublisherProperty, PutPublisherProperty method [COM+], PutPublisherProperty method [COM+], IEventSubscription interface, PutPublisherProperty,IEventSubscription.PutPublisherProperty, _cos_IEventSubscription_PutPublisherProperty, cos.ieventsubscription_putpublisherproperty, eventsys/IEventSubscription::PutPublisherProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

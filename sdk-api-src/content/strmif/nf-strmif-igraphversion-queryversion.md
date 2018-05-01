@@ -7,7 +7,7 @@ old-location: dshow\igraphversion_queryversion.htm
 old-project: DirectShow
 ms.assetid: 297e19fd-91b5-4756-9b33-6b301c74e470
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IGraphVersion, IGraphVersion interface [DirectShow], QueryVersion method, IGraphVersion::QueryVersion, IGraphVersionQueryVersion, QueryVersion method [DirectShow], QueryVersion method [DirectShow], IGraphVersion interface, QueryVersion,IGraphVersion.QueryVersion, dshow.igraphversion_queryversion, strmif/IGraphVersion::QueryVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices

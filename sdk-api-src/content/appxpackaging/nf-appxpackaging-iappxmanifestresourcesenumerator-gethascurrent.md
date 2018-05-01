@@ -7,7 +7,7 @@ old-location: appxpkg\iappxmanifestresourcesenumerator_gethascurrent.htm
 old-project: appxpkg
 ms.assetid: 72798FDF-3296-4AC7-9BA0-212457F9BEC7
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/26/2018
 ms.keywords: GetHasCurrent method [App packaging and management], GetHasCurrent method [App packaging and management], IAppxManifestResourcesEnumerator interface, GetHasCurrent,IAppxManifestResourcesEnumerator.GetHasCurrent, IAppxManifestResourcesEnumerator, IAppxManifestResourcesEnumerator interface [App packaging and management], GetHasCurrent method, IAppxManifestResourcesEnumerator::GetHasCurrent, appxpackaging/IAppxManifestResourcesEnumerator::GetHasCurrent, appxpkg.iappxmanifestresourcesenumerator_gethascurrent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_ARCHITECTURE2
+req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
 topic_type:
 -	APIRef
 -	kbSyntax

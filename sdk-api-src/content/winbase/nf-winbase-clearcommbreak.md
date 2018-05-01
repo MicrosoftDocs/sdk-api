@@ -7,7 +7,7 @@ old-location: base\clearcommbreak.htm
 old-project: DevIO
 ms.assetid: 9692242c-e209-4492-ab0b-333f09595597
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/3/2018
 ms.keywords: ClearCommBreak, ClearCommBreak function, _win32_clearcommbreak, base.clearcommbreak, winbase/ClearCommBreak
 ms.prod: windows-hardware
 ms.technology: windows-devices

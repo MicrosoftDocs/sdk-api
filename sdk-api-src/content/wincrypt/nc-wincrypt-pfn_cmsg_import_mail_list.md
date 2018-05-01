@@ -7,7 +7,7 @@ old-location: security\pfn_cmsg_import_mail_list.htm
 old-project: SecCrypto
 ms.assetid: 5d473c20-31b8-48e3-9e38-4b4c06a44402
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: PFN_CMSG_IMPORT_MAIL_LIST, PFN_CMSG_IMPORT_MAIL_LIST function pointer [Security], security.pfn_cmsg_import_mail_list, wincrypt/PFN_CMSG_IMPORT_MAIL_LIST
 ms.prod: windows-hardware
 ms.technology: windows-devices

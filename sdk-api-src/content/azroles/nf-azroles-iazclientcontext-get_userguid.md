@@ -7,7 +7,7 @@ old-location: security\iazclientcontext_userguid.htm
 old-project: SecAuthZ
 ms.assetid: fd60d1d0-67b9-457f-a01e-6ea470d9db6a
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: AzClientContext object [Security], UserGuid property, IAzClientContext, IAzClientContext interface [Security], UserGuid property, IAzClientContext.UserGuid, IAzClientContext::get_UserGuid, UserGuid property [Security], UserGuid property [Security], AzClientContext object, UserGuid property [Security], IAzClientContext interface, azroles/IAzClientContext::UserGuid, azroles/IAzClientContext::get_UserGuid, get_UserGuid,IAzClientContext.get_UserGuid, security.iazclientcontext_userguid
 ms.prod: windows-hardware
 ms.technology: windows-devices

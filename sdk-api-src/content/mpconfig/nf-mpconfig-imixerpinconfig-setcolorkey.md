@@ -7,7 +7,7 @@ old-location: dshow\imixerpinconfig_setcolorkey.htm
 old-project: DirectShow
 ms.assetid: b2d4ffa2-0b10-4bc5-9af1-83f4ee68b35f
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IMixerPinConfig, IMixerPinConfig interface [DirectShow], SetColorKey method, IMixerPinConfig::SetColorKey, IMixerPinConfigSetColorKey, SetColorKey method [DirectShow], SetColorKey method [DirectShow], IMixerPinConfig interface, SetColorKey,IMixerPinConfig.SetColorKey, dshow.imixerpinconfig_setcolorkey, mpconfig/IMixerPinConfig::SetColorKey
 ms.prod: windows-hardware
 ms.technology: windows-devices

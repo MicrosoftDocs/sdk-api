@@ -7,7 +7,7 @@ old-location: com\ienumoledocumentviews_reset.htm
 old-project: com
 ms.assetid: b9dbdf36-fff1-4cd5-a890-219c8311dadf
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IEnumOleDocumentViews, IEnumOleDocumentViews interface [COM], Reset method, IEnumOleDocumentViews::Reset, Reset method [COM], Reset method [COM], IEnumOleDocumentViews interface, Reset,IEnumOleDocumentViews.Reset, _ole_ienumoledocumentviews_reset, com.ienumoledocumentviews_reset, docobj/IEnumOleDocumentViews::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices

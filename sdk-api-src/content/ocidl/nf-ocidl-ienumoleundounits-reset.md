@@ -7,7 +7,7 @@ old-location: com\ienumoleundounits_reset.htm
 old-project: com
 ms.assetid: 14336909-539c-41ac-a3a6-73be04fa72d1
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IEnumOleUndoUnits, IEnumOleUndoUnits interface [COM], Reset method, IEnumOleUndoUnits::Reset, Reset method [COM], Reset method [COM], IEnumOleUndoUnits interface, Reset,IEnumOleUndoUnits.Reset, _ole_ienumoleundounits_reset, com.ienumoleundounits_reset, ocidl/IEnumOleUndoUnits::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IEnumOleUndoUnits::Reset method

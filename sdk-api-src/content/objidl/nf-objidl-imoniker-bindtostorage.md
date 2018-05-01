@@ -7,7 +7,7 @@ old-location: com\imoniker_bindtostorage.htm
 old-project: com
 ms.assetid: 94c8219f-8131-45dd-b350-878ffd6161ea
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: BindToStorage method [COM], BindToStorage method [COM], IMoniker interface, BindToStorage,IMoniker.BindToStorage, IMoniker, IMoniker interface [COM], BindToStorage method, IMoniker::BindToStorage, _com_imoniker_bindtostorage, com.imoniker_bindtostorage, objidl/IMoniker::BindToStorage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMoniker::BindToStorage method

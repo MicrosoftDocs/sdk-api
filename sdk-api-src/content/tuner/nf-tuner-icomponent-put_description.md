@@ -7,7 +7,7 @@ old-location: mstv\icomponent_put_description.htm
 old-project: mstv
 ms.assetid: e45ea3ea-e9e2-41f9-b171-bc95aa5cc590
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IComponent, IComponent interface [Microsoft TV Technologies], put_Description method, IComponent::put_Description, IComponentput_Description, mstv.icomponent_put_description, put_Description method [Microsoft TV Technologies], put_Description method [Microsoft TV Technologies], IComponent interface, put_Description,IComponent.put_Description, tuner/IComponent::put_Description
 ms.prod: windows-hardware
 ms.technology: windows-devices

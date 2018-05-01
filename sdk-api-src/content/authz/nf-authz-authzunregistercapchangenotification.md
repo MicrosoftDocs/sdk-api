@@ -7,7 +7,7 @@ old-location: security\authzunregistercapchangenotification.htm
 old-project: SecAuthZ
 ms.assetid: 79374C66-CD50-4351-A16B-AF79A579AF74
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: AuthzUnregisterCapChangeNotification, AuthzUnregisterCapChangeNotification function [Security], authz/AuthzUnregisterCapChangeNotification, security.authzunregistercapchangenotification
 ms.prod: windows-hardware
 ms.technology: windows-devices

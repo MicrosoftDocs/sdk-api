@@ -7,7 +7,7 @@ old-location: mstv\idvbdefaultauthoritydescriptor_getlength.htm
 old-project: mstv
 ms.assetid: 9eb76e79-d7a3-419b-9c3e-6d4e16486ff3
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies], IDvbDefaultAuthorityDescriptor interface, GetLength,IDvbDefaultAuthorityDescriptor.GetLength, IDvbDefaultAuthorityDescriptor, IDvbDefaultAuthorityDescriptor interface [Microsoft TV Technologies], GetLength method, IDvbDefaultAuthorityDescriptor::GetLength, dvbsiparser/IDvbDefaultAuthorityDescriptor::GetLength, mstv.idvbdefaultauthoritydescriptor_getlength
 ms.prod: windows-hardware
 ms.technology: windows-devices

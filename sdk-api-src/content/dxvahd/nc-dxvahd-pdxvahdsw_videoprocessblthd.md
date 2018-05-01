@@ -7,7 +7,7 @@ old-location: mf\pdxvahdsw_videoprocessblthd.htm
 old-project: medfound
 ms.assetid: 94e6b59f-dd00-4d32-b1ca-a592a67cd0ec
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: PDXVAHDSW_VideoProcessBltHD, PDXVAHDSW_VideoProcessBltHD function pointer [Media Foundation], dxvahd/PDXVAHDSW_VideoProcessBltHD, mf.pdxvahdsw_videoprocessblthd
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: DXVA2_VideoSample
+req.typenames: DXVA_COPPStatusSignalingCmdData
 topic_type:
 -	APIRef
 -	kbSyntax

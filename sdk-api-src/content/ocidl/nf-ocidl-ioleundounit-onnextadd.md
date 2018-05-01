@@ -7,7 +7,7 @@ old-location: com\ioleundounit_onnextadd.htm
 old-project: com
 ms.assetid: 79bbdb6c-cae3-4f9a-b335-565aacec6d3e
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IOleUndoUnit, IOleUndoUnit interface [COM], OnNextAdd method, IOleUndoUnit::OnNextAdd, OnNextAdd method [COM], OnNextAdd method [COM], IOleUndoUnit interface, OnNextAdd,IOleUndoUnit.OnNextAdd, _ole_ioleundounit_onnextadd, com.ioleundounit_onnextadd, ocidl/IOleUndoUnit::OnNextAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IOleUndoUnit::OnNextAdd method

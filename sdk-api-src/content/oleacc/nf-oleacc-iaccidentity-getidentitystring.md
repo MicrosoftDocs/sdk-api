@@ -7,7 +7,7 @@ old-location: winauto\iaccidentity_iaccidentity__getidentitystring.htm
 old-project: WinAuto
 ms.assetid: 38467491-c432-456a-9128-723fc7dde189
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: GetIdentityString method [Windows Accessibility], GetIdentityString method [Windows Accessibility], IAccIdentity interface, GetIdentityString,IAccIdentity.GetIdentityString, IAccIdentity, IAccIdentity interface [Windows Accessibility], GetIdentityString method, IAccIdentity::GetIdentityString, _msaa_IAccIdentity_GetIdentityString, msaa.iaccidentity_iaccidentity__getidentitystring, oleacc/IAccIdentity::GetIdentityString, winauto.iaccidentity_iaccidentity__getidentitystring
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Oleacc.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IAccIdentity::GetIdentityString method

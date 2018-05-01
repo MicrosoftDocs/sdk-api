@@ -7,7 +7,7 @@ old-location: winsock\wscremoveqostemplate.htm
 old-project: WinSock
 ms.assetid: e3cb8428-98d8-4bc3-926c-baa7cbf5d679
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/24/2018
 ms.keywords: WSCRemoveQOSTemplate, WSCRemoveQOSTemplate function [Winsock], winsock.wscremoveqostemplate, ws2spi/WSCRemoveQOSTemplate
 ms.prod: windows-hardware
 ms.technology: windows-devices

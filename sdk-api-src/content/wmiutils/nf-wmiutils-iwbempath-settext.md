@@ -7,7 +7,7 @@ old-location: wmi\iwbempath_settext.htm
 old-project: WmiSdk
 ms.assetid: a3ff2aa9-ffa8-4048-ac07-4b815b620d1f
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: IWbemPath, IWbemPath interface [Windows Management Instrumentation], SetText method, IWbemPath::SetText, SetText method [Windows Management Instrumentation], SetText method [Windows Management Instrumentation], IWbemPath interface, SetText,IWbemPath.SetText, WBEMPATH_CREATE_ACCEPT_ABSOLUTE, WBEMPATH_CREATE_ACCEPT_ALL, WBEMPATH_CREATE_ACCEPT_RELATIVE, WBEMPATH_TREAT_SINGLE_IDENT_AS_NS, _hmm_iwbempath_settext, wmi.iwbempath_settext, wmiutils/IWbemPath::SetText
 ms.prod: windows-hardware
 ms.technology: windows-devices

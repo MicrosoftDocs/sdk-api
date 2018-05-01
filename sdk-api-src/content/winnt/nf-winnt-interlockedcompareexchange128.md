@@ -7,7 +7,7 @@ old-location: base\interlockedcompareexchange128.htm
 old-project: Sync
 ms.assetid: 55a5ec1d-9c81-479e-a630-81756bf620d1
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: InterlockedCompareExchange128, InterlockedCompareExchange128 function, base.interlockedcompareexchange128, winnt/InterlockedCompareExchange128
 ms.prod: windows-hardware
 ms.technology: windows-devices

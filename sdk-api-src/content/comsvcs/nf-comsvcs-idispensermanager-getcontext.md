@@ -7,7 +7,7 @@ old-location: cos\idispensermanager_getcontext.htm
 old-project: cossdk
 ms.assetid: cc3095a3-df4c-4112-a3cb-308e8962b51f
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: GetContext method [COM+], GetContext method [COM+], IDispenserManager interface, GetContext,IDispenserManager.GetContext, IDispenserManager, IDispenserManager interface [COM+], GetContext method, IDispenserManager::GetContext, _dtc_IDispenserManager_GetContext, comsvcs/IDispenserManager::GetContext, cos.idispensermanager_getcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices

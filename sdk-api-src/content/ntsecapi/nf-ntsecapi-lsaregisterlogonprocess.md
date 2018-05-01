@@ -7,7 +7,7 @@ old-location: security\lsaregisterlogonprocess.htm
 old-project: SecAuthN
 ms.assetid: 1bef2949-b4c8-400e-8a2d-60aa88a4e238
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/24/2018
 ms.keywords: LsaRegisterLogonProcess, LsaRegisterLogonProcess function [Security], _lsa_lsaregisterlogonprocess, ntsecapi/LsaRegisterLogonProcess, security.lsaregisterlogonprocess
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # LsaRegisterLogonProcess function

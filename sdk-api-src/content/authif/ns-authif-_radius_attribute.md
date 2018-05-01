@@ -7,7 +7,7 @@ old-location: nps\IAS_radius_attribute.htm
 old-project: Nps
 ms.assetid: 7c6e1a41-9736-4bd3-b709-779d871ead57
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/24/2018
 ms.keywords: "*PRADIUS_ATTRIBUTE, PRADIUS_ATTRIBUTE, PRADIUS_ATTRIBUTE structure pointer [Network Policy Server], RADIUS_ATTRIBUTE, RADIUS_ATTRIBUTE structure [Network Policy Server], _RADIUS_ATTRIBUTE, _ias_radius_attribute, authif/PRADIUS_ATTRIBUTE, authif/RADIUS_ATTRIBUTE, ias.radius_attribute, nps.IAS_radius_attribute"
 ms.prod: windows-hardware
 ms.technology: windows-devices

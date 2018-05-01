@@ -7,7 +7,7 @@ old-location: mf\imftranscodesinkinfoprovider_setprofile.htm
 old-project: medfound
 ms.assetid: 81137d8c-70b2-4a0a-a1b4-16a2f50f134b
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFTranscodeSinkInfoProvider, IMFTranscodeSinkInfoProvider interface [Media Foundation], SetProfile method, IMFTranscodeSinkInfoProvider::SetProfile, SetProfile method [Media Foundation], SetProfile method [Media Foundation], IMFTranscodeSinkInfoProvider interface, SetProfile,IMFTranscodeSinkInfoProvider.SetProfile, mf.imftranscodesinkinfoprovider_setprofile, mfidl/IMFTranscodeSinkInfoProvider::SetProfile
 ms.prod: windows-hardware
 ms.technology: windows-devices

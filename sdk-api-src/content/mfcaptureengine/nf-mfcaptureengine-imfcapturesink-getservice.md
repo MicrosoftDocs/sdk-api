@@ -7,7 +7,7 @@ old-location: mf\imfcapturesink_getservice.htm
 old-project: medfound
 ms.assetid: 591F0E3D-01A8-420F-86C6-2C610643EB69
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetService method [Media Foundation], GetService method [Media Foundation], IMFCaptureSink interface, GetService,IMFCaptureSink.GetService, IMFCaptureSink, IMFCaptureSink interface [Media Foundation], GetService method, IMFCaptureSink::GetService, mf.imfcapturesink_getservice, mfcaptureengine/IMFCaptureSink::GetService
 ms.prod: windows-hardware
 ms.technology: windows-devices

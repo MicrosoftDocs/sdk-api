@@ -7,7 +7,7 @@ old-location: security\objectdeleteauditalarm.htm
 old-project: SecAuthZ
 ms.assetid: cb4c857c-5e63-41fe-8ae8-6762b0014a85
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: ObjectDeleteAuditAlarm, ObjectDeleteAuditAlarm function [Security], ObjectDeleteAuditAlarmA, ObjectDeleteAuditAlarmW, _win32_objectdeleteauditalarm, security.objectdeleteauditalarm, winbase/ObjectDeleteAuditAlarm, winbase/ObjectDeleteAuditAlarmA, winbase/ObjectDeleteAuditAlarmW
 ms.prod: windows-hardware
 ms.technology: windows-devices

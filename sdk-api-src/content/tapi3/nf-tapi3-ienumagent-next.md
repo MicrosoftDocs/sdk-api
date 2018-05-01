@@ -7,7 +7,7 @@ old-location: tapi3\ienumagent_next.htm
 old-project: Tapi
 ms.assetid: 68a7842c-557a-4da4-aa2b-e7c15a6d4f4a
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: IEnumAgent, IEnumAgent interface [TAPI 2.2], Next method, IEnumAgent::Next, Next method [TAPI 2.2], Next method [TAPI 2.2], IEnumAgent interface, Next,IEnumAgent.Next, _tapi3_ienumagent_next, tapi3.ienumagent_next, tapi3cc/IEnumAgent::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices

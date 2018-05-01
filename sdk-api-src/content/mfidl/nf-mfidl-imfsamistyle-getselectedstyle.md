@@ -7,7 +7,7 @@ old-location: mf\imfsamistyle_getselectedstyle.htm
 old-project: medfound
 ms.assetid: 7501a4d5-eb5f-4f62-ae55-96ee999e561c
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 7501a4d5-eb5f-4f62-ae55-96ee999e561c, GetSelectedStyle method [Media Foundation], GetSelectedStyle method [Media Foundation], IMFSAMIStyle interface, GetSelectedStyle,IMFSAMIStyle.GetSelectedStyle, IMFSAMIStyle, IMFSAMIStyle interface [Media Foundation], GetSelectedStyle method, IMFSAMIStyle::GetSelectedStyle, mf.imfsamistyle_getselectedstyle, mfidl/IMFSAMIStyle::GetSelectedStyle
 ms.prod: windows-hardware
 ms.technology: windows-devices

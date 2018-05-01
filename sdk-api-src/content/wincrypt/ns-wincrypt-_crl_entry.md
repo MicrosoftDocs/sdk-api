@@ -7,7 +7,7 @@ old-location: security\crl_entry.htm
 old-project: SecCrypto
 ms.assetid: 30e7952a-a408-404f-9058-8197539387f6
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: "*PCRL_ENTRY, CRL_ENTRY, CRL_ENTRY structure [Security], PCRL_ENTRY, PCRL_ENTRY structure pointer [Security], _CRL_ENTRY, _crypto2_crl_entry, security.crl_entry, wincrypt/CRL_ENTRY, wincrypt/PCRL_ENTRY"
 ms.prod: windows-hardware
 ms.technology: windows-devices

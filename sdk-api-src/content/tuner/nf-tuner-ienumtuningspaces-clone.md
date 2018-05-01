@@ -7,7 +7,7 @@ old-location: mstv\ienumtuningspaces_clone.htm
 old-project: mstv
 ms.assetid: 3f9ad46e-38a7-4f07-b04b-999c912f9965
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: Clone method [Microsoft TV Technologies], Clone method [Microsoft TV Technologies], IEnumTuningSpaces interface, Clone,IEnumTuningSpaces.Clone, IEnumTuningSpaces, IEnumTuningSpaces interface [Microsoft TV Technologies], Clone method, IEnumTuningSpaces::Clone, IEnumTuningSpacesClone, mstv.ienumtuningspaces_clone, tuner/IEnumTuningSpaces::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

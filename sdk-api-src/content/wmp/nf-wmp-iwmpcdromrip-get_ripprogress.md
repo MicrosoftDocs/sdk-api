@@ -7,7 +7,7 @@ old-location: wmp\iwmpcdromrip_get_ripprogress.htm
 old-project: WMP
 ms.assetid: d7140bc9-bf79-48f0-aaf0-155660c8b2c9
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPCdromRip, IWMPCdromRip interface [Windows Media Player], get_ripProgress method, IWMPCdromRip::get_ripProgress, IWMPCdromRipget_ripProgress, get_ripProgress method [Windows Media Player], get_ripProgress method [Windows Media Player], IWMPCdromRip interface, get_ripProgress,IWMPCdromRip.get_ripProgress, wmp.iwmpcdromrip_get_ripprogress, wmp/IWMPCdromRip::get_ripProgress
 ms.prod: windows-hardware
 ms.technology: windows-devices

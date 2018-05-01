@@ -7,7 +7,7 @@ old-location: wmi\cwbemproviderglue_getemptyinstance.htm
 old-project: WmiSdk
 ms.assetid: 2873b466-3782-4d63-a777-5b25e3fb7615
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: CWbemProviderGlue, CWbemProviderGlue::GetEmptyInstance, CWbemProviderGlue::GetEmptyInstance methods [Windows Management Instrumentation], GetEmptyInstance,CWbemProviderGlue.GetEmptyInstance, wbemglue/CWbemProviderGlue::GetEmptyInstance, wmi.cwbemproviderglue_getemptyinstance
 ms.prod: windows-hardware
 ms.technology: windows-devices

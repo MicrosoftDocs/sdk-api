@@ -7,7 +7,7 @@ old-location: base\ivsscomponent_getrestoresubcomponentcount.htm
 old-project: VSS
 ms.assetid: 04c1dcdc-7672-4b7c-a9db-eafca80ab257
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: GetRestoreSubcomponentCount method [VSS], GetRestoreSubcomponentCount method [VSS], IVssComponent interface, GetRestoreSubcomponentCount,IVssComponent.GetRestoreSubcomponentCount, IVssComponent, IVssComponent interface [VSS], GetRestoreSubcomponentCount method, IVssComponent::GetRestoreSubcomponentCount, _win32_ivsscomponent_getrestoresubcomponentcount, base.ivsscomponent_getrestoresubcomponentcount, vswriter/IVssComponent::GetRestoreSubcomponentCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

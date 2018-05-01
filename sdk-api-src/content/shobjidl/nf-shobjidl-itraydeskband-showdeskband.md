@@ -7,7 +7,7 @@ old-location: shell\ITrayDeskBand_ShowDeskBand.htm
 old-project: shell
 ms.assetid: 6fd46acd-47b3-46dd-955d-c036995dd01b
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ITrayDeskBand, ITrayDeskBand interface [Windows Shell], ShowDeskBand method, ITrayDeskBand::ShowDeskBand, ShowDeskBand method [Windows Shell], ShowDeskBand method [Windows Shell], ITrayDeskBand interface, ShowDeskBand,ITrayDeskBand.ShowDeskBand, _shell_ITrayDeskBand_ShowDeskBand, shell.ITrayDeskBand_ShowDeskBand, shobjidl/ITrayDeskBand::ShowDeskBand
 ms.prod: windows-hardware
 ms.technology: windows-devices

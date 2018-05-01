@@ -7,7 +7,7 @@ old-location: winsock\addrinfow.htm
 old-project: WinSock
 ms.assetid: a4896eac-68ae-4a08-8647-36be65fe4478
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/24/2018
 ms.keywords: "*PADDRINFOW, ADDRINFOW, ADDRINFOW structure [Winsock], AF_BTH, AF_INET, AF_INET6, AF_IRDA, AF_NETBIOS, AF_UNSPEC, AI_ADDRCONFIG, AI_ALL, AI_CANONNAME, AI_DISABLE_IDN_ENCODING, AI_FILESERVER, AI_FQDN, AI_NON_AUTHORITATIVE, AI_NUMERICHOST, AI_PASSIVE, AI_RETURN_PREFERRED_NAMES, AI_SECURE, AI_V4MAPPED, IPPROTO_RM, IPPROTO_TCP, IPPROTO_UDP, PADDRINFOW, PADDRINFOW structure pointer [Winsock], SOCK_DGRAM, SOCK_RAW, SOCK_RDM, SOCK_SEQPACKET, SOCK_STREAM, addrinfoW, addrinfoW structure [Winsock], winsock.addrinfow, ws2def/PADDRINFOW, ws2def/addrinfoW, ws2tcpip/PADDRINFOW, ws2tcpip/addrinfoW"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,22 +60,6 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -struct-fields
 
 
-
-
-### -field ai_addr
-
-Type: <b>struct sockaddr*</b>
-
-A pointer to a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a> structure. The <b>ai_addr</b> member in each returned <a href="https://msdn.microsoft.com/4df914ab-59b0-4110-bc81-59e5f6722b8d">ADDRINFOW</a> structure points to a filled-in socket address structure. The length, in bytes, of each returned <b>ADDRINFOW</b> structure is specified in the <b>ai_addrlen</b> member.
-
-
-### -field ai_next
-
-Type: <b>struct addrinfoW*</b>
-
-A pointer to the next structure in a linked list. This parameter is set to <b>NULL</b> in the last 
-<b>addrinfoW</b> structure of a linked list.
 
 
 ### -field ai_flags
@@ -488,6 +472,22 @@ The length, in bytes, of the buffer pointed to by the <b>ai_addr</b> member.
 Type: <b>PWSTR</b>
 
 The canonical name for the host.
+
+
+### -field ai_addr
+
+Type: <b>struct sockaddr*</b>
+
+A pointer to a 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a> structure. The <b>ai_addr</b> member in each returned <a href="https://msdn.microsoft.com/4df914ab-59b0-4110-bc81-59e5f6722b8d">ADDRINFOW</a> structure points to a filled-in socket address structure. The length, in bytes, of each returned <b>ADDRINFOW</b> structure is specified in the <b>ai_addrlen</b> member.
+
+
+### -field ai_next
+
+Type: <b>struct addrinfoW*</b>
+
+A pointer to the next structure in a linked list. This parameter is set to <b>NULL</b> in the last 
+<b>addrinfoW</b> structure of a linked list.
 
 
 ## -remarks

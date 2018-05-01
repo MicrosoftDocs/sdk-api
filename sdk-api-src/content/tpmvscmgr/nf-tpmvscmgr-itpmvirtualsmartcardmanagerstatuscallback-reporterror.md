@@ -7,7 +7,7 @@ old-location: security\itpmvirtualsmartcardmanagerstatuscallback_reporterror.htm
 old-project: SecAuthN
 ms.assetid: 936F22EA-1C9F-4328-B71F-FA7720396F6F
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/24/2018
 ms.keywords: ITpmVirtualSmartCardManagerStatusCallback, ITpmVirtualSmartCardManagerStatusCallback interface [Security], ReportError method, ITpmVirtualSmartCardManagerStatusCallback::ReportError, ReportError method [Security], ReportError method [Security], ITpmVirtualSmartCardManagerStatusCallback interface, ReportError,ITpmVirtualSmartCardManagerStatusCallback.ReportError, security.itpmvirtualsmartcardmanagerstatuscallback_reporterror, tpmvscmgr/ITpmVirtualSmartCardManagerStatusCallback::ReportError
 ms.prod: windows-hardware
 ms.technology: windows-devices

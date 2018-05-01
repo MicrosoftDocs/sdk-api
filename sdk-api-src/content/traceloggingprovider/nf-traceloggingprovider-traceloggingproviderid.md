@@ -7,7 +7,7 @@ old-location: tracelogging\traceloggingproviderid.htm
 old-project: tracelogging
 ms.assetid: 16C79B3D-ACFF-40E3-B418-2DC44F010A74
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: TraceLoggingProviderId, TraceLoggingProviderId function, tracelogging.traceloggingproviderid, traceloggingprovider/TraceLoggingProviderId
 ms.prod: windows-hardware
 ms.technology: windows-devices

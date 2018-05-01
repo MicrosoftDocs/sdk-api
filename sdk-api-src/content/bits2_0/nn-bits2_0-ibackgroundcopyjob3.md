@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyjob3.htm
 old-project: Bits
 ms.assetid: 46e115bb-2634-4b79-b307-45720d8cb2be
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/10/2018
 ms.keywords: IBackgroundCopyJob3, IBackgroundCopyJob3 interface [BITS], IBackgroundCopyJob3 interface [BITS], described, bits.ibackgroundcopyjob3, bits2_0/IBackgroundCopyJob3
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winsock\wsasendto_2.htm
 old-project: WinSock
 ms.assetid: e3a11522-871c-4d6b-a2e6-ca91ffc2b698
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/24/2018
 ms.keywords: WSASendTo, WSASendTo function [Winsock], _win32_wsasendto_2, winsock.wsasendto_2, winsock2/WSASendTo
 ms.prod: windows-hardware
 ms.technology: windows-devices

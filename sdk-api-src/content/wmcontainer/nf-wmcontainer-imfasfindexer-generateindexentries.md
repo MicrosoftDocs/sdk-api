@@ -7,7 +7,7 @@ old-location: mf\imfasfindexer_generateindexentries.htm
 old-project: medfound
 ms.assetid: febc5335-a8e8-4ae9-afb2-17f09b750477
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GenerateIndexEntries method [Media Foundation], GenerateIndexEntries method [Media Foundation], IMFASFIndexer interface, GenerateIndexEntries,IMFASFIndexer.GenerateIndexEntries, IMFASFIndexer, IMFASFIndexer interface [Media Foundation], GenerateIndexEntries method, IMFASFIndexer::GenerateIndexEntries, febc5335-a8e8-4ae9-afb2-17f09b750477, mf.imfasfindexer_generateindexentries, wmcontainer/IMFASFIndexer::GenerateIndexEntries
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\msv1_0_protocol_message_type.htm
 old-project: SecAuthN
 ms.assetid: 9498558c-8daf-4dfb-aa1c-0598154ca8c4
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/24/2018
 ms.keywords: "*PMSV1_0_PROTOCOL_MESSAGE_TYPE, MSV1_0_PROTOCOL_MESSAGE_TYPE, MSV1_0_PROTOCOL_MESSAGE_TYPE enumeration [Security], MsV1_0CacheLogon, MsV1_0CacheLookup, MsV1_0CacheLookupEx, MsV1_0ChangeCachedPassword, MsV1_0ChangePassword, MsV1_0ClearCachedCredentials, MsV1_0ConfigLocalAliases, MsV1_0DeriveCredential, MsV1_0EnumerateUsers, MsV1_0GenericPassthrough, MsV1_0GetCredentialKey, MsV1_0GetUserInfo, MsV1_0Lm20ChallengeRequest, MsV1_0Lm20GetChallengeResponse, MsV1_0LookupToken, MsV1_0ReLogonUsers, MsV1_0SetProcessOption, MsV1_0SetThreadOption, MsV1_0SubAuth, MsV1_0ValidateAuth, PMSV1_0_PROTOCOL_MESSAGE_TYPE, PMSV1_0_PROTOCOL_MESSAGE_TYPE enumeration pointer [Security], _MSV1_0_PROTOCOL_MESSAGE_TYPE, _lsa_msv1_0_protocol_message_type, ntsecapi/MSV1_0_PROTOCOL_MESSAGE_TYPE, ntsecapi/MsV1_0CacheLogon, ntsecapi/MsV1_0CacheLookup, ntsecapi/MsV1_0CacheLookupEx, ntsecapi/MsV1_0ChangeCachedPassword, ntsecapi/MsV1_0ChangePassword, ntsecapi/MsV1_0ClearCachedCredentials, ntsecapi/MsV1_0ConfigLocalAliases, ntsecapi/MsV1_0DeriveCredential, ntsecapi/MsV1_0EnumerateUsers, ntsecapi/MsV1_0GenericPassthrough, ntsecapi/MsV1_0GetCredentialKey, ntsecapi/MsV1_0GetUserInfo, ntsecapi/MsV1_0Lm20ChallengeRequest, ntsecapi/MsV1_0Lm20GetChallengeResponse, ntsecapi/MsV1_0LookupToken, ntsecapi/MsV1_0ReLogonUsers, ntsecapi/MsV1_0SetProcessOption, ntsecapi/MsV1_0SetThreadOption, ntsecapi/MsV1_0SubAuth, ntsecapi/MsV1_0ValidateAuth, ntsecapi/PMSV1_0_PROTOCOL_MESSAGE_TYPE, security.msv1_0_protocol_message_type"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _MSV1_0_PROTOCOL_MESSAGE_TYPE enumeration

@@ -7,7 +7,7 @@ old-location: wmi\chstring_trimright.htm
 old-project: WmiSdk
 ms.assetid: e87ad3c4-d27a-403c-b59e-391d8021e87b
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: "?TrimRight@CHString@@QAEXXZ, ?TrimRight@CHString@@QEAAXXZ, CHString, CHString interface [Windows Management Instrumentation], TrimRight method, CHString::TrimRight, TrimRight method [Windows Management Instrumentation], TrimRight method [Windows Management Instrumentation], CHString interface, TrimRight,CHString.TrimRight, _hmm_chstring_trimright, chstring/CHString::TrimRight, wmi.chstring_trimright"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CF_SYNC_ROOT_STANDARD_INFO
+req.typenames: CF_SYNC_STATUS
 topic_type:
 -	APIRef
 -	kbSyntax

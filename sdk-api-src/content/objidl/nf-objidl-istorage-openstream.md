@@ -7,7 +7,7 @@ old-location: stg\istorage_openstream.htm
 old-project: Stg
 ms.assetid: f7bd1f26-e9a3-415d-8cd3-dc34f7ad8feb
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/20/2018
 ms.keywords: IStorage, IStorage interface [Structured Storage], OpenStream method, IStorage::OpenStream, OpenStream method [Structured Storage], OpenStream method [Structured Storage], IStorage interface, OpenStream,IStorage.OpenStream, _stg_istorage_openstream, objidl/IStorage::OpenStream, stg.istorage_openstream
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IStorage::OpenStream method

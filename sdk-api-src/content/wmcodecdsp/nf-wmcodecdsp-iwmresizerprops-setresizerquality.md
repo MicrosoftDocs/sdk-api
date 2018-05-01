@@ -7,7 +7,7 @@ old-location: mf\iwmresizerpropssetresizerquality.htm
 old-project: medfound
 ms.assetid: 64a85094-4247-41d8-9bb6-bdaedba62c19
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IWMResizerProps, IWMResizerProps interface [Media Foundation], SetResizerQuality method, IWMResizerProps::SetResizerQuality, SetResizerQuality method [Media Foundation], SetResizerQuality method [Media Foundation], IWMResizerProps interface, SetResizerQuality,IWMResizerProps.SetResizerQuality, codecapi.iwmresizerpropssetresizerquality, mf.iwmresizerpropssetresizerquality, wmcodecdsp/ IWMResizerProps::SetResizerQuality
 ms.prod: windows-hardware
 ms.technology: windows-devices

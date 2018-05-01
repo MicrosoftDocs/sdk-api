@@ -7,7 +7,7 @@ old-location: security\ismimecapability_initialize_method.htm
 old-project: SecCertEnroll
 ms.assetid: d972121d-ecfa-4a79-9322-dd0d0b81ba68
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: ISmimeCapability, ISmimeCapability interface [Security], Initialize method, ISmimeCapability::Initialize, Initialize method [Security], Initialize method [Security], ISmimeCapability interface, Initialize,ISmimeCapability.Initialize, certenroll/ISmimeCapability::Initialize, security.ismimecapability_initialize_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

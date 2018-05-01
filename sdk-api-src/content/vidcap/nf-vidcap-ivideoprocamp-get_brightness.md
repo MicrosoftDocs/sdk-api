@@ -7,7 +7,7 @@ old-location: dshow\ivideoprocamp_get_brightness.htm
 old-project: DirectShow
 ms.assetid: b0e3b7cf-c133-4b47-8209-1014d1e3d671
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IVideoProcAmp, IVideoProcAmp interface [DirectShow], get_Brightness method, IVideoProcAmp::get_Brightness, IVideoProcAmpget_Brightness, dshow.ivideoprocamp_get_brightness, get_Brightness method [DirectShow], get_Brightness method [DirectShow], IVideoProcAmp interface, get_Brightness,IVideoProcAmp.get_Brightness, vidcap/IVideoProcAmp::get_Brightness
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: VIDEOHDR, *PVIDEOHDR, *LPVIDEOHDR
+req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
 topic_type:
 -	APIRef
 -	kbSyntax

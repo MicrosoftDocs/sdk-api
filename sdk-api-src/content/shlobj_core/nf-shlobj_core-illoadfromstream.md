@@ -7,7 +7,7 @@ old-location: shell\ILLoadFromStream.htm
 old-project: shell
 ms.assetid: 060cc008-eb6a-4359-b84b-05c26d69f793
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ILLoadFromStream, ILLoadFromStream function [Windows Shell], _win32_ILLoadFromStream, shell.ILLoadFromStream, shlobj_core/ILLoadFromStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: automat\icreatetypeinfo_setversion.htm
 old-project: automat
 ms.assetid: ffa4d287-44c4-40ec-984a-70cbc0928274
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: ICreateTypeInfo, ICreateTypeInfo interface [Automation], SetVersion method, ICreateTypeInfo::SetVersion, SetVersion method [Automation], SetVersion method [Automation], ICreateTypeInfo interface, SetVersion,ICreateTypeInfo.SetVersion, _oa96_ICreateTypeInfo_SetVersion, automat.icreatetypeinfo_setversion, oaidl/ICreateTypeInfo::SetVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ICreateTypeInfo::SetVersion method

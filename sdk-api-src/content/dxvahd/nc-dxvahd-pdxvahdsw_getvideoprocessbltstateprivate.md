@@ -7,7 +7,7 @@ old-location: mf\pdxvahdsw_getvideoprocessbltstateprivate.htm
 old-project: medfound
 ms.assetid: 32154457-5270-4e60-a16c-bca72c6a9673
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: PDXVAHDSW_GetVideoProcessBltStatePrivate, PDXVAHDSW_GetVideoProcessBltStatePrivate function pointer [Media Foundation], dxvahd/PDXVAHDSW_GetVideoProcessBltStatePrivate, mf.pdxvahdsw_getvideoprocessbltstateprivate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: DXVA2_VideoSample
+req.typenames: DXVA_COPPStatusSignalingCmdData
 topic_type:
 -	APIRef
 -	kbSyntax

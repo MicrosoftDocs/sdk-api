@@ -7,7 +7,7 @@ old-location: base\ivsscreateexpresswritermetadata_setrestoremethod.htm
 old-project: VSS
 ms.assetid: 220e399b-aafd-4b72-bef4-abc3f39f202f
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: IVssCreateExpressWriterMetadata, IVssCreateExpressWriterMetadata interface, SetRestoreMethod method, IVssCreateExpressWriterMetadata::SetRestoreMethod, SetRestoreMethod method, SetRestoreMethod method, IVssCreateExpressWriterMetadata interface, SetRestoreMethod,IVssCreateExpressWriterMetadata.SetRestoreMethod, base.ivsscreateexpresswritermetadata_setrestoremethod, vswriter/IVssCreateExpressWriterMetadata::SetRestoreMethod
 ms.prod: windows-hardware
 ms.technology: windows-devices

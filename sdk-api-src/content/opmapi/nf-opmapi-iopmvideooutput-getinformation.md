@@ -7,7 +7,7 @@ old-location: mf\iopmvideooutput_iopmvideooutput__getinformation.htm
 old-project: medfound
 ms.assetid: 47d724eb-07e9-4659-886a-4b492fbb2415
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetInformation method [Media Foundation], GetInformation method [Media Foundation], IOPMVideoOutput interface, GetInformation,IOPMVideoOutput.GetInformation, IOPMVideoOutput, IOPMVideoOutput interface [Media Foundation], GetInformation method, IOPMVideoOutput::GetInformation, mf.iopmvideooutput_iopmvideooutput__getinformation, opmapi/IOPMVideoOutput::GetInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IOPMVideoOutput::GetInformation method

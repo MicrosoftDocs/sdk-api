@@ -7,7 +7,7 @@ old-location: com\ioleinplacesite_onuideactivate.htm
 old-project: com
 ms.assetid: 926c02b4-0bfa-4509-b5bc-4e5007e4db1a
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IOleInPlaceSite, IOleInPlaceSite interface [COM], OnUIDeactivate method, IOleInPlaceSite::OnUIDeactivate, IOleInPlaceSiteWindowless.OnUIDeactivate, OnUIDeactivate method [COM], OnUIDeactivate method [COM], IOleInPlaceSite interface, OnUIDeactivate,IOleInPlaceSite.OnUIDeactivate, _ole_ioleinplacesite_onuideactivate, com.ioleinplacesite_onuideactivate, oleidl/IOleInPlaceSite::OnUIDeactivate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IOleInPlaceSite::OnUIDeactivate method

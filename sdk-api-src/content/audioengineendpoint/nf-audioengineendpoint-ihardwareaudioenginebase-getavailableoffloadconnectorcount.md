@@ -7,7 +7,7 @@ old-location: coreaudio\ihardwareaudioenginebase_getavailableoffloadconnectorcou
 old-project: CoreAudio
 ms.assetid: FCAFF20A-812A-4232-A86C-79D07D5AE26F
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: GetAvailableOffloadConnectorCount method [Core Audio], GetAvailableOffloadConnectorCount method [Core Audio], IHardwareAudioEngineBase interface, GetAvailableOffloadConnectorCount,IHardwareAudioEngineBase.GetAvailableOffloadConnectorCount, IHardwareAudioEngineBase, IHardwareAudioEngineBase interface [Core Audio], GetAvailableOffloadConnectorCount method, IHardwareAudioEngineBase::GetAvailableOffloadConnectorCount, audioengineendpoint/IHardwareAudioEngineBase::GetAvailableOffloadConnectorCount, coreaudio.ihardwareaudioenginebase_getavailableoffloadconnectorcount
 ms.prod: windows-hardware
 ms.technology: windows-devices

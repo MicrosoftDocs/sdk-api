@@ -7,7 +7,7 @@ old-location: mstv\iisdbdatacontentdescriptor_getdatacomponentid.htm
 old-project: mstv
 ms.assetid: d8a3e399-5004-41ee-a7eb-4c583a1fdd45
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetDataComponentId method [Microsoft TV Technologies], GetDataComponentId method [Microsoft TV Technologies], IIsdbDataContentDescriptor interface, GetDataComponentId,IIsdbDataContentDescriptor.GetDataComponentId, IIsdbDataContentDescriptor, IIsdbDataContentDescriptor interface [Microsoft TV Technologies], GetDataComponentId method, IIsdbDataContentDescriptor::GetDataComponentId, dvbsiparser/IIsdbDataContentDescriptor::GetDataComponentId, mstv.iisdbdatacontentdescriptor_getdatacomponentid
 ms.prod: windows-hardware
 ms.technology: windows-devices

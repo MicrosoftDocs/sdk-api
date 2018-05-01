@@ -7,7 +7,7 @@ old-location: shell\IShellImageData_SelectPage.htm
 old-project: shell
 ms.assetid: bc852087-59f7-4c84-861a-e270a6ecf840
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IShellImageData, IShellImageData interface [Windows Shell], SelectPage method, IShellImageData::SelectPage, SelectPage method [Windows Shell], SelectPage method [Windows Shell], IShellImageData interface, SelectPage,IShellImageData.SelectPage, _shell_IShellImageData_SelectPage, shell.IShellImageData_SelectPage, shimgdata/IShellImageData::SelectPage
 ms.prod: windows-hardware
 ms.technology: windows-devices

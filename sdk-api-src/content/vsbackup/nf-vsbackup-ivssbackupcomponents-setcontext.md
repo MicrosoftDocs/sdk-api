@@ -7,7 +7,7 @@ old-location: base\ivssbackupcomponents_setcontext.htm
 old-project: VSS
 ms.assetid: 0e466090-b551-44e8-a86d-75126352aa49
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: IVssBackupComponents, IVssBackupComponents interface [VSS], SetContext method, IVssBackupComponents::SetContext, SetContext method [VSS], SetContext method [VSS], IVssBackupComponents interface, SetContext,IVssBackupComponents.SetContext, _win32_ivssbackupcomponents_setcontext, base.ivssbackupcomponents_setcontext, vsbackup/IVssBackupComponents::SetContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

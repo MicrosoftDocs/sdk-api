@@ -7,7 +7,7 @@ old-location: wmformat\iwmwriterpreprocess_endpreprocessingpass.htm
 old-project: wmformat
 ms.assetid: 04ec12fb-946b-46cc-aa3f-515a86b9a217
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: EndPreprocessingPass method [windows Media Format], EndPreprocessingPass method [windows Media Format], IWMWriterPreprocess interface, EndPreprocessingPass,IWMWriterPreprocess.EndPreprocessingPass, IWMWriterPreprocess, IWMWriterPreprocess interface [windows Media Format], EndPreprocessingPass method, IWMWriterPreprocess::EndPreprocessingPass, IWMWriterPreprocessEndPreprocessingPass, wmformat.iwmwriterpreprocess_endpreprocessingpass, wmsdkidl/IWMWriterPreprocess::EndPreprocessingPass
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmi\iwbemconfigurerefresher.htm
 old-project: WmiSdk
 ms.assetid: 9dd56891-5f2f-4b0e-9f70-fd75cb9bbd43
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: IWbemConfigureRefresher, IWbemConfigureRefresher interface [Windows Management Instrumentation], IWbemConfigureRefresher interface [Windows Management Instrumentation], described, _hmm_iwbemconfigurerefresher, wbemcli/IWbemConfigureRefresher, wmi.iwbemconfigurerefresher
 ms.prod: windows-hardware
 ms.technology: windows-devices

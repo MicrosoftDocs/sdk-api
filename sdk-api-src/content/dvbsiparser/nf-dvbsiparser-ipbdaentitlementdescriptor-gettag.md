@@ -7,7 +7,7 @@ old-location: mstv\ipbdaentitlementdescriptor_gettag.htm
 old-project: mstv
 ms.assetid: 484de26a-24e5-431d-ba4d-f2f3005502a1
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies], IPBDAEntitlementDescriptor interface, GetTag,IPBDAEntitlementDescriptor.GetTag, IPBDAEntitlementDescriptor, IPBDAEntitlementDescriptor interface [Microsoft TV Technologies], GetTag method, IPBDAEntitlementDescriptor::GetTag, dvbsiparser/IPBDAEntitlementDescriptor::GetTag, mstv.ipbdaentitlementdescriptor_gettag
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmdm\imdspobject_seek.htm
 old-project: WMDM
 ms.assetid: 89494180-9dd7-41f3-b510-a59c38415d75
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: IMDSPObject, IMDSPObject interface [windows Media Device Manager], Seek method, IMDSPObject::Seek, IMDSPObjectSeek, Seek method [windows Media Device Manager], Seek method [windows Media Device Manager], IMDSPObject interface, Seek,IMDSPObject.Seek, mswmdm/IMDSPObject::Seek, wmdm.imdspobject_seek
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMDSPObject::Seek method

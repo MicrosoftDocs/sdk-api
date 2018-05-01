@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3ddevice9__setvertexdeclaration.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__setvertexdeclaration.htm
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/10/2018
 ms.keywords: 12796c02-d1b4-5f9d-8414-04b978887c2a, IDirect3DDevice9, IDirect3DDevice9 interface [Direct3D 9], SetVertexDeclaration method, IDirect3DDevice9::SetVertexDeclaration, SetVertexDeclaration method [Direct3D 9], SetVertexDeclaration method [Direct3D 9], IDirect3DDevice9 interface, SetVertexDeclaration,IDirect3DDevice9.SetVertexDeclaration, d3d9helper/IDirect3DDevice9::SetVertexDeclaration, direct3d9.idirect3ddevice9__setvertexdeclaration
 ms.prod: windows-hardware
 ms.technology: windows-devices

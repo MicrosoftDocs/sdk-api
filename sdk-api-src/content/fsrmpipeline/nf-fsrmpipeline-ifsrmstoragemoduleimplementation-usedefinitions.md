@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmstoragemoduleimplementation_usedefinitions.htm
 old-project: Fsrm
 ms.assetid: d5683668-18c2-405b-aa56-8e7a9a1d5a9e
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: IFsrmStorageModuleImplementation, IFsrmStorageModuleImplementation interface [File Server Resource Manager], UseDefinitions method, IFsrmStorageModuleImplementation::UseDefinitions, UseDefinitions method [File Server Resource Manager], UseDefinitions method [File Server Resource Manager], IFsrmStorageModuleImplementation interface, UseDefinitions,IFsrmStorageModuleImplementation.UseDefinitions, fs.ifsrmstoragemoduleimplementation_usedefinitions, fsrm.ifsrmstoragemoduleimplementation_usedefinitions, fsrmpipeline/IFsrmStorageModuleImplementation::UseDefinitions
 ms.prod: windows-hardware
 ms.technology: windows-devices

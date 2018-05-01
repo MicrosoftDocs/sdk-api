@@ -7,7 +7,7 @@ old-location: setup\msicollectuserinfo.htm
 old-project: Msi
 ms.assetid: a8be3c24-cd5a-4da9-abe7-b0e40a87a07f
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/26/2018
 ms.keywords: MsiCollectUserInfo, MsiCollectUserInfo function, MsiCollectUserInfoA, MsiCollectUserInfoW, _msi_msicollectuserinfo, msi/MsiCollectUserInfo, msi/MsiCollectUserInfoA, msi/MsiCollectUserInfoW, setup.msicollectuserinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

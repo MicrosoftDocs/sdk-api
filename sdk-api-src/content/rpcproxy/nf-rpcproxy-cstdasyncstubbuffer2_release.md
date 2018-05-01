@@ -7,7 +7,7 @@ old-location: rpc\cstdasyncstubbuffer2_release.htm
 old-project: Rpc
 ms.assetid: EFA170DE-1EE2-453D-BB0D-EEEEB7E1837B
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: CStdAsyncStubBuffer2_Release, CStdAsyncStubBuffer2_Release function [RPC], rpc.cstdasyncstubbuffer2_release, rpcproxy/CStdAsyncStubBuffer2_Release
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # CStdAsyncStubBuffer2_Release function

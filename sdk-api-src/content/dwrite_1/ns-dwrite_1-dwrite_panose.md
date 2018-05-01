@@ -58,6 +58,16 @@ The <b>DWRITE_PANOSE</b> union describes typeface classification values that you
 
 
 
+### -field values
+
+ 
+
+
+### -field familyKind
+
+A <a href="https://msdn.microsoft.com/8CC6E653-FF82-4BBA-9DDE-F3F4960C4BBB">DWRITE_PANOSE_FAMILY</a>-typed value that specifies the typeface classification values to get.
+
+
 ### -field text
 
 
@@ -386,16 +396,6 @@ A <a href="https://msdn.microsoft.com/A50F0296-D977-47C5-9E41-9567980B16A6">DWRI
 
 			
 		    A <a href="https://msdn.microsoft.com/C98F339D-0E45-4140-A44E-BFB0FA980251">DWRITE_PANOSE_SYMBOL_ASPECT_RATIO</a>-typed value that specifies the aspect ratio 211 of the symbol typeface.
-
-
-### -field values
-
- 
-
-
-### -field familyKind
-
-A <a href="https://msdn.microsoft.com/8CC6E653-FF82-4BBA-9DDE-F3F4960C4BBB">DWRITE_PANOSE_FAMILY</a>-typed value that specifies the typeface classification values to get.
 
 
 #### - values[10]

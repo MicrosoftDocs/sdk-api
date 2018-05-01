@@ -7,7 +7,7 @@ old-location: dshow\iamwstdecoder_getcurrentpage.htm
 old-project: DirectShow
 ms.assetid: e4e52723-27ad-487a-a547-7ad7ade6f099
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetCurrentPage method [DirectShow], GetCurrentPage method [DirectShow], IAMWstDecoder interface, GetCurrentPage,IAMWstDecoder.GetCurrentPage, IAMWstDecoder, IAMWstDecoder interface [DirectShow], GetCurrentPage method, IAMWstDecoder::GetCurrentPage, IAMWstDecoderGetCurrentPage, dshow.iamwstdecoder_getcurrentpage, iwstdec/IAMWstDecoder::GetCurrentPage
 ms.prod: windows-hardware
 ms.technology: windows-devices

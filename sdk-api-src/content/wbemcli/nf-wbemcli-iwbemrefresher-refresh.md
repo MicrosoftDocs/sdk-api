@@ -7,7 +7,7 @@ old-location: wmi\iwbemrefresher_refresh.htm
 old-project: WmiSdk
 ms.assetid: 6de85040-c938-41dc-8240-0e21e89c7716
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: IWbemRefresher, IWbemRefresher interface [Windows Management Instrumentation], Refresh method, IWbemRefresher::Refresh, Refresh method [Windows Management Instrumentation], Refresh method [Windows Management Instrumentation], IWbemRefresher interface, Refresh,IWbemRefresher.Refresh, _hmm_iwbemrefresher_refresh, wbemcli/IWbemRefresher::Refresh, wmi.iwbemrefresher_refresh
 ms.prod: windows-hardware
 ms.technology: windows-devices

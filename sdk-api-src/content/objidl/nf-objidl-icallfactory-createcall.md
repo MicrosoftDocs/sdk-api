@@ -7,7 +7,7 @@ old-location: com\icallfactory_createcall.htm
 old-project: com
 ms.assetid: 8df51aeb-4852-4dab-b1e9-e149ee115ea8
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: CreateCall method [COM], CreateCall method [COM], ICallFactory interface, CreateCall,ICallFactory.CreateCall, ICallFactory, ICallFactory interface [COM], CreateCall method, ICallFactory::CreateCall, _com_icallfactory_createcall, com.icallfactory_createcall, objidlbase/ICallFactory::CreateCall
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ICallFactory::CreateCall method

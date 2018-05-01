@@ -7,7 +7,7 @@ old-location: controls\itextdocument2_getgenerator.htm
 old-project: Controls
 ms.assetid: 22cfa44e-3603-458b-991e-6e536df63803
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: GetGenerator method [Windows Controls], GetGenerator method [Windows Controls], ITextDocument2 interface, GetGenerator,ITextDocument2.GetGenerator, ITextDocument2, ITextDocument2 interface [Windows Controls], GetGenerator method, ITextDocument2::GetGenerator, controls.itextdocument2_getgenerator, tom/ITextDocument2::GetGenerator
 ms.prod: windows-hardware
 ms.technology: windows-devices

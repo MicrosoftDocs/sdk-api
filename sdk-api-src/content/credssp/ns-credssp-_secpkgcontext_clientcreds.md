@@ -7,7 +7,7 @@ old-location: security\secpkgcontext_clientcreds.htm
 old-project: SecAuthN
 ms.assetid: 85ab1bf7-a4d9-4b0e-b1e3-cb938c3183d3
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/24/2018
 ms.keywords: "*PSecPkgContext_ClientCreds, PSecPkgContext_ClientCreds, PSecPkgContext_ClientCreds structure pointer [Security], SecPkgContext_ClientCreds, SecPkgContext_ClientCreds structure [Security], _SecPkgContext_ClientCreds, credssp/PSecPkgContext_ClientCreds, credssp/SecPkgContext_ClientCreds, security.secpkgcontext_clientcreds"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: controls\IImageList_GetImageRect.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\getimagerect.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: GetImageRect method [Windows Controls], GetImageRect method [Windows Controls], IImageList interface, GetImageRect,IImageList.GetImageRect, IImageList, IImageList interface [Windows Controls], GetImageRect method, IImageList::GetImageRect, comctl_IImageList_GetImageRect, comctl_IImageList_GetImageRect_cpp, commoncontrols/IImageList::GetImageRect, controls.IImageList_GetImageRect, controls.comctl_IImageList_GetImageRect
 ms.prod: windows-hardware
 ms.technology: windows-devices

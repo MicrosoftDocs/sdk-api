@@ -7,7 +7,7 @@ old-location: controls\itextpara2_getproperty.htm
 old-project: Controls
 ms.assetid: 628ec2d7-2553-4a76-a5e6-c3a5bef3f8d6
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: GetProperty method [Windows Controls], GetProperty method [Windows Controls], ITextPara2 interface, GetProperty,ITextPara2.GetProperty, ITextPara2, ITextPara2 interface [Windows Controls], GetProperty method, ITextPara2::GetProperty, controls.itextpara2_getproperty, tom/ITextPara2::GetProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

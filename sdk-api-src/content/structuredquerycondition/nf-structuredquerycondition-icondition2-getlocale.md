@@ -7,7 +7,7 @@ old-location: search\_search_ICondition2_GetLocale.htm
 old-project: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\icondition2\getlocale.htm
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/24/2018
 ms.keywords: GetLocale method [search], GetLocale method [search], ICondition2 interface, GetLocale,ICondition2.GetLocale, ICondition2, ICondition2 interface [search], GetLocale method, ICondition2::GetLocale, _search_ICondition2_GetLocale, search._search_ICondition2_GetLocale, structuredquerycondition/ICondition2::GetLocale
 ms.prod: windows-hardware
 ms.technology: windows-devices

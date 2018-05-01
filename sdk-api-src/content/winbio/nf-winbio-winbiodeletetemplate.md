@@ -7,7 +7,7 @@ old-location: secbiomet\winbiodeletetemplate.htm
 old-project: SecBioMet
 ms.assetid: aad22c42-d306-42b5-8415-0b561c8bcecf
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: WinBioDeleteTemplate, WinBioDeleteTemplate function [Windows Biometric Framework API], secbiomet.winbiodeletetemplate, winbio/WinBioDeleteTemplate
 ms.prod: windows-hardware
 ms.technology: windows-devices

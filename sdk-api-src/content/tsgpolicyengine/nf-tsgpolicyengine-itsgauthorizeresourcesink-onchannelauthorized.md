@@ -7,7 +7,7 @@ old-location: termserv\itsgauthorizeresourcesink_onchannelauthorized.htm
 old-project: TermServ
 ms.assetid: e09247af-54ea-4846-97d5-d503a811ab29
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: ITSGAuthorizeResourceSink, ITSGAuthorizeResourceSink interface [Remote Desktop Services], OnChannelAuthorized method, ITSGAuthorizeResourceSink::OnChannelAuthorized, OnChannelAuthorized method [Remote Desktop Services], OnChannelAuthorized method [Remote Desktop Services], ITSGAuthorizeResourceSink interface, OnChannelAuthorized,ITSGAuthorizeResourceSink.OnChannelAuthorized, termserv.itsgauthorizeresourcesink_onchannelauthorized, tsgpolicyengine/ITSGAuthorizeResourceSink::OnChannelAuthorized
 ms.prod: windows-hardware
 ms.technology: windows-devices

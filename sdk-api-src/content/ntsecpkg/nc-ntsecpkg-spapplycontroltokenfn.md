@@ -7,7 +7,7 @@ old-location: security\spapplycontroltoken.htm
 old-project: SecAuthN
 ms.assetid: 60c5e310-dd80-4bf7-9480-ac614c98d75f
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/24/2018
 ms.keywords: SpApplyControlToken, SpApplyControlToken function [Security], SpApplyControlTokenFn, _ssp_spapplycontroltoken, ntsecpkg/SpApplyControlToken, security.spapplycontroltoken
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # SpApplyControlTokenFn callback

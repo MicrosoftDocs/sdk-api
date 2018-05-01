@@ -7,7 +7,7 @@ old-location: wmi\iwbempath_setscope.htm
 old-project: WmiSdk
 ms.assetid: 0b4597ec-0d08-4929-9591-21588ded66bb
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: IWbemPath, IWbemPath interface [Windows Management Instrumentation], SetScope method, IWbemPath::SetScope, SetScope method [Windows Management Instrumentation], SetScope method [Windows Management Instrumentation], IWbemPath interface, SetScope,IWbemPath.SetScope, _hmm_iwbempath_setscope, wmi.iwbempath_setscope, wmiutils/IWbemPath::SetScope
 ms.prod: windows-hardware
 ms.technology: windows-devices

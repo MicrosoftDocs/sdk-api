@@ -7,7 +7,7 @@ old-location: security\iocsppropertycollection.htm
 old-project: SecCrypto
 ms.assetid: 8c700357-0cb4-4780-9ff1-ac57c46f9183
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: IOCSPPropertyCollection, IOCSPPropertyCollection interface [Security], IOCSPPropertyCollection interface [Security], described, certadm/IOCSPPropertyCollection, security.iocsppropertycollection
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CHANNEL_ENTRY_POINTS, *PCHANNEL_ENTRY_POINTS
+req.typenames: 
 topic_type:
 -	APIRef
 -	kbSyntax

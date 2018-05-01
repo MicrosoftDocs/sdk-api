@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ISelectionProvider2.htm
 old-project: WinAuto
 ms.assetid: 1FC0406D-6924-4C24-8491-E18BA33DAFEB
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: ISelectionProvider2, ISelectionProvider2 interface [Windows Accessibility], ISelectionProvider2 interface [Windows Accessibility], described, uiautomationcore/ISelectionProvider2, winauto.uiauto_ISelectionProvider2
 ms.prod: windows-hardware
 ms.technology: windows-devices

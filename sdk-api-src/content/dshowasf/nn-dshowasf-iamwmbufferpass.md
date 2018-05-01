@@ -7,7 +7,7 @@ old-location: dshow\iamwmbufferpass.htm
 old-project: DirectShow
 ms.assetid: c13fe4e0-0847-4799-92a6-da36375cfbf4
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMWMBufferPass, IAMWMBufferPass interface [DirectShow], IAMWMBufferPass interface [DirectShow], described, IAMWMBufferPassInterface, dshow.iamwmbufferpass, dshowasf/IAMWMBufferPass
 ms.prod: windows-hardware
 ms.technology: windows-devices

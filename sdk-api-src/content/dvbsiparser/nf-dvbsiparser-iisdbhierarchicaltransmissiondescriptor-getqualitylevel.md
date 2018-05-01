@@ -7,7 +7,7 @@ old-location: mstv\iisdbhierarchicaltransmissiondescriptor_getqualitylevel.htm
 old-project: mstv
 ms.assetid: 4890c3aa-487f-41c7-9202-636ded2ec46b
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetQualityLevel method [Microsoft TV Technologies], GetQualityLevel method [Microsoft TV Technologies], IIsdbHierarchicalTransmissionDescriptor interface, GetQualityLevel,IIsdbHierarchicalTransmissionDescriptor.GetQualityLevel, IIsdbHierarchicalTransmissionDescriptor, IIsdbHierarchicalTransmissionDescriptor interface [Microsoft TV Technologies], GetQualityLevel method, IIsdbHierarchicalTransmissionDescriptor::GetQualityLevel, dvbsiparser/IIsdbHierarchicalTransmissionDescriptor::GetQualityLevel, mstv.iisdbhierarchicaltransmissiondescriptor_getqualitylevel
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\lsa_forest_trust_collision_record_type.htm
 old-project: SecAuthN
 ms.assetid: 67c89d75-2c2d-4980-a1c9-32e7f64a7b49
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/24/2018
 ms.keywords: CollisionOther, CollisionTdo, CollisionXref, LSA_FOREST_TRUST_COLLISION_RECORD_TYPE, LSA_FOREST_TRUST_COLLISION_RECORD_TYPE enumeration [Security], ntsecapi/CollisionOther, ntsecapi/CollisionTdo, ntsecapi/CollisionXref, ntsecapi/LSA_FOREST_TRUST_COLLISION_RECORD_TYPE, security.lsa_forest_trust_collision_record_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # LSA_FOREST_TRUST_COLLISION_RECORD_TYPE enumeration

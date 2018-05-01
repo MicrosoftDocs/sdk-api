@@ -7,7 +7,7 @@ old-location: security\ix509publickey_encodedkey_property.htm
 old-project: SecCertEnroll
 ms.assetid: 3573f4b6-ecfd-4540-bc43-c88943992fe2
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: EncodedKey property [Security], EncodedKey property [Security], IX509PublicKey interface, IX509PublicKey, IX509PublicKey interface [Security], EncodedKey property, IX509PublicKey.EncodedKey, IX509PublicKey::get_EncodedKey, certenroll/IX509PublicKey::EncodedKey, certenroll/IX509PublicKey::get_EncodedKey, get_EncodedKey,IX509PublicKey.get_EncodedKey, security.ix509publickey_encodedkey_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

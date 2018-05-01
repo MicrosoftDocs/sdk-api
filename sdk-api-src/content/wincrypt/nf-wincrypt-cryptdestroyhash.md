@@ -7,7 +7,7 @@ old-location: security\cryptdestroyhash.htm
 old-project: SecCrypto
 ms.assetid: 0a4d6086-5c4c-4e1e-9ab9-b35ee49ffcae
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: CryptDestroyHash, CryptDestroyHash function [Security], _crypto2_cryptdestroyhash, security.cryptdestroyhash, wincrypt/CryptDestroyHash
 ms.prod: windows-hardware
 ms.technology: windows-devices

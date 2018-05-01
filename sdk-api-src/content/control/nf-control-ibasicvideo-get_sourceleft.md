@@ -7,7 +7,7 @@ old-location: dshow\ibasicvideo_get_sourceleft.htm
 old-project: DirectShow
 ms.assetid: 1ea64dae-d643-44c1-9026-f9b0dcd25ef1
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IBasicVideo, IBasicVideo interface [DirectShow], get_SourceLeft method, IBasicVideo::get_SourceLeft, IBasicVideoget_SourceLeft, control/IBasicVideo::get_SourceLeft, dshow.ibasicvideo_get_sourceleft, get_SourceLeft method [DirectShow], get_SourceLeft method [DirectShow], IBasicVideo interface, get_SourceLeft,IBasicVideo.get_SourceLeft
 ms.prod: windows-hardware
 ms.technology: windows-devices

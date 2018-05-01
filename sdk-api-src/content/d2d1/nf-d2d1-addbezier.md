@@ -7,7 +7,7 @@ old-location: direct2d\id2d1geometrysink_addbezier.htm
 old-project: Direct2D
 ms.assetid: d1e228eb-dac6-485d-b3c9-69b2bd45e531
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: AddBezier, AddBezier methods [Direct2D], d2d1/AddBezier, direct2d.id2d1geometrysink_addbezier
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\ioctl_changer_reinitialize_transport.htm
 old-project: DevIO
 ms.assetid: 0745ee19-34f3-44c8-a52d-fb47448f0084
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/3/2018
 ms.keywords: IOCTL_CHANGER_REINITIALIZE_TRANSPORT, IOCTL_CHANGER_REINITIALIZE_TRANSPORT control code, _win32_ioctl_changer_reinitialize_transport, base.ioctl_changer_reinitialize_transport, winioctl/IOCTL_CHANGER_REINITIALIZE_TRANSPORT
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: PRINT_EXECUTION_DATA
+req.typenames: WSAVERSION, *PWSAVERSION, *LPWSAVERSION
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -276,7 +276,7 @@ If the service requires more time to clean up, it should send <b>STOP_PENDING</b
 
 
 
-Services can also use the <a href="https://msdn.microsoft.com/6fc64265-1403-45ea-925c-c5eb31d56734">SetConsoleCtrlHandler</a> function to receive shutdown notification. This notification is received when the running applications are shutting down, which occurs before services are shut down.
+Services can also use the <a href="base.setconsolectrlhandler">SetConsoleCtrlHandler</a> function to receive shutdown notification. This notification is received when the running applications are shutting down, which occurs before services are shut down.
 
 
 #### Examples

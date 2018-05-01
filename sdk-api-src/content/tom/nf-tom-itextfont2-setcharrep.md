@@ -7,7 +7,7 @@ old-location: controls\itextfont2_setcharrep.htm
 old-project: Controls
 ms.assetid: 6c57b5e5-a5c7-416a-851c-fc8ef16b5a9a
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextFont2, ITextFont2 interface [Windows Controls], SetCharRep method, ITextFont2::SetCharRep, SetCharRep method [Windows Controls], SetCharRep method [Windows Controls], ITextFont2 interface, SetCharRep,ITextFont2.SetCharRep, controls.itextfont2_setcharrep, tom/ITextFont2::SetCharRep
 ms.prod: windows-hardware
 ms.technology: windows-devices

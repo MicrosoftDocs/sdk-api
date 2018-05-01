@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol_goup.htm
 old-project: DirectShow
 ms.assetid: 2a553a5f-f221-4161-95f1-cb1629abb87a
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GoUp method [DirectShow], GoUp method [DirectShow], IDvdControl interface, GoUp,IDvdControl.GoUp, IDvdControl, IDvdControl interface [DirectShow], GoUp method, IDvdControl::GoUp, IDvdControlGoUp, dshow.idvdcontrol_goup, strmif/IDvdControl::GoUp
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\imftimedtext_setcuetimeoffset.htm
 old-project: medfound
 ms.assetid: 42406E51-546F-4714-9179-E5D676805DDE
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFTimedText, IMFTimedText interface [Media Foundation], SetCueTimeOffset method, IMFTimedText::SetCueTimeOffset, SetCueTimeOffset method [Media Foundation], SetCueTimeOffset method [Media Foundation], IMFTimedText interface, SetCueTimeOffset,IMFTimedText.SetCueTimeOffset, mf.imftimedtext_setcuetimeoffset, mfmediaengine/IMFTimedText::SetCueTimeOffset
 ms.prod: windows-hardware
 ms.technology: windows-devices

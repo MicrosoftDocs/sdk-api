@@ -7,7 +7,7 @@ old-location: wmp\iwmpfoldermonitorservices_startscan.htm
 old-project: WMP
 ms.assetid: c54c5b7e-3abf-4006-a811-c80b06e6def9
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPFolderMonitorServices, IWMPFolderMonitorServices interface [Windows Media Player], startScan method, IWMPFolderMonitorServices::startScan, IWMPFolderMonitorServicesstartScan, startScan method [Windows Media Player], startScan method [Windows Media Player], IWMPFolderMonitorServices interface, startScan,IWMPFolderMonitorServices.startScan, wmp.iwmpfoldermonitorservices_startscan, wmp/IWMPFolderMonitorServices::startScan
 ms.prod: windows-hardware
 ms.technology: windows-devices

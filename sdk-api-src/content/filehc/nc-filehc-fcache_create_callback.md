@@ -7,7 +7,7 @@ old-location: winprog\fcache_create_callback.htm
 old-project: DevNotes
 ms.assetid: e6e20409-3cbc-4d04-b861-ebed7d15af6a
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/13/2018
 ms.keywords: FCACHE_CREATE_CALLBACK, FCACHE_CREATE_CALLBACK function pointer [Windows API], filehc/FCACHE_CREATE_CALLBACK, winprog.fcache_create_callback
 ms.prod: windows-hardware
 ms.technology: windows-devices

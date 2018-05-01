@@ -7,7 +7,7 @@ old-location: wmformat\iwmreadernetworkconfig_setenabletcp.htm
 old-project: wmformat
 ms.assetid: 8afc62b8-a2f6-4470-8005-804e0980b599
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMReaderNetworkConfig, IWMReaderNetworkConfig interface [windows Media Format], SetEnableTCP method, IWMReaderNetworkConfig::SetEnableTCP, IWMReaderNetworkConfigSetEnableTCP, SetEnableTCP method [windows Media Format], SetEnableTCP method [windows Media Format], IWMReaderNetworkConfig interface, SetEnableTCP,IWMReaderNetworkConfig.SetEnableTCP, wmformat.iwmreadernetworkconfig_setenabletcp, wmsdkidl/IWMReaderNetworkConfig::SetEnableTCP
 ms.prod: windows-hardware
 ms.technology: windows-devices

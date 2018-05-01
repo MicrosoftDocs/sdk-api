@@ -7,7 +7,7 @@ old-location: cos\icomltxevents_onltxtransactionstart.htm
 old-project: cossdk
 ms.assetid: 0d063e3f-d7f8-45b1-995f-29903c42ec37
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: IComLTxEvents, IComLTxEvents interface [COM+], OnLtxTransactionStart method, IComLTxEvents::OnLtxTransactionStart, OnLtxTransactionStart method [COM+], OnLtxTransactionStart method [COM+], IComLTxEvents interface, OnLtxTransactionStart,IComLTxEvents.OnLtxTransactionStart, comsvcs/IComLTxEvents::OnLtxTransactionStart, cos.icomltxevents_onltxtransactionstart
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\am_mpegstreamtype.htm
 old-project: DirectShow
 ms.assetid: 8622ffcb-be64-4a8f-8bc7-834b559b0f95
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: AM_MPEGSTREAMTYPE, AM_MPEGSTREAMTYPE structure [DirectShow], dshow.am_mpegstreamtype, mpegtype/AM_MPEGSTREAMTYPE, tagAM_MPEGSTREAMTYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices

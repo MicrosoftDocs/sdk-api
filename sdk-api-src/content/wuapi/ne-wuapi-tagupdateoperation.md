@@ -7,7 +7,7 @@ old-location: wua\updateoperation.htm
 old-project: Wua_Sdk
 ms.assetid: 93f38d77-fb8c-4d2e-acc2-f4c06cbc04f8
 ms.author: windowsdriverdev
-ms.date: 3/15/2018
+ms.date: 4/18/2018
 ms.keywords: UpdateOperation, UpdateOperation enumeration [Windows Update Agent], tagUpdateOperation, uoInstallation, uoUninstallation, wua.updateoperation, wuapi/UpdateOperation, wuapi/uoInstallation, wuapi/uoUninstallation
 ms.prod: windows-hardware
 ms.technology: windows-devices

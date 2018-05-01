@@ -7,7 +7,7 @@ old-location: mf\imfmediasession_getclock.htm
 old-project: medfound
 ms.assetid: 16444da2-68f2-4d94-8c6f-9e512d51e5e9
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 16444da2-68f2-4d94-8c6f-9e512d51e5e9, GetClock method [Media Foundation], GetClock method [Media Foundation], IMFMediaSession interface, GetClock,IMFMediaSession.GetClock, IMFMediaSession, IMFMediaSession interface [Media Foundation], GetClock method, IMFMediaSession::GetClock, mf.imfmediasession_getclock, mfidl/IMFMediaSession::GetClock
 ms.prod: windows-hardware
 ms.technology: windows-devices

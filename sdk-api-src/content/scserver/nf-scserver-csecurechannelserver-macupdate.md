@@ -7,7 +7,7 @@ old-location: wmdm\csecurechannelserver_macupdate.htm
 old-project: WMDM
 ms.assetid: f8b5548d-ffd5-4dc3-8d08-61a65841a997
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: CSecureChannelServer, CSecureChannelServer interface [windows Media Device Manager], MACUpdate method, CSecureChannelServer::MACUpdate, CSecureChannelServerMACUpdate, MACUpdate method [windows Media Device Manager], MACUpdate method [windows Media Device Manager], CSecureChannelServer interface, MACUpdate,CSecureChannelServer.MACUpdate, scserver/CSecureChannelServer::MACUpdate, wmdm.csecurechannelserver_macupdate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # CSecureChannelServer::MACUpdate method

@@ -7,7 +7,7 @@ old-location: tablet\inkcursor_tablet.htm
 old-project: tablet
 ms.assetid: 85bbf314-e1fe-43fb-b743-d648aa6a54cd
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: 85bbf314-e1fe-43fb-b743-d648aa6a54cd, IInkCursor, IInkCursor interface [Tablet PC], Tablet property, IInkCursor.Tablet, IInkCursor.get_Tablet, IInkCursor::get_Tablet, Tablet property [Tablet PC], Tablet property [Tablet PC], IInkCursor interface, get_Tablet,IInkCursor.get_Tablet, msinkaut/IInkCursor::Tablet, msinkaut/IInkCursor::get_Tablet, tablet.inkcursor_tablet
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\imfmediaengine_getplayed.htm
 old-project: medfound
 ms.assetid: E74D1785-E8BA-4B3A-9FF8-63FBDED5FA9E
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetPlayed method [Media Foundation], GetPlayed method [Media Foundation], IMFMediaEngine interface, GetPlayed,IMFMediaEngine.GetPlayed, IMFMediaEngine, IMFMediaEngine interface [Media Foundation], GetPlayed method, IMFMediaEngine::GetPlayed, mf.imfmediaengine_getplayed, mfmediaengine/IMFMediaEngine::GetPlayed
 ms.prod: windows-hardware
 ms.technology: windows-devices

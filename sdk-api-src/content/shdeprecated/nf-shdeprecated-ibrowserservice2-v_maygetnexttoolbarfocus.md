@@ -7,7 +7,7 @@ old-location: shell\IBrowserService2_v_MayGetNextToolbarFocus.htm
 old-project: shell
 ms.assetid: a1c271b2-d567-43b4-966e-0eea597f004b
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IBrowserService2, IBrowserService2 interface [Windows Shell], v_MayGetNextToolbarFocus method, IBrowserService2::v_MayGetNextToolbarFocus, shdeprecated/IBrowserService2::v_MayGetNextToolbarFocus, shell.IBrowserService2_v_MayGetNextToolbarFocus, v_MayGetNextToolbarFocus method [Windows Shell], v_MayGetNextToolbarFocus method [Windows Shell], IBrowserService2 interface, v_MayGetNextToolbarFocus,IBrowserService2.v_MayGetNextToolbarFocus, zone_IBrowserService2_v_MayGetNextToolbarFocus
 ms.prod: windows-hardware
 ms.technology: windows-devices

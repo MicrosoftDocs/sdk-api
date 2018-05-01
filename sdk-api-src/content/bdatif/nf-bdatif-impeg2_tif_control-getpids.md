@@ -7,7 +7,7 @@ old-location: mstv\impeg2_tif_control_getpids.htm
 old-project: mstv
 ms.assetid: c7ca141b-e471-47ce-96b5-b2c0cad89daf
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetPIDs method [Microsoft TV Technologies], GetPIDs method [Microsoft TV Technologies], IMPEG2_TIF_CONTROL interface, GetPIDs,IMPEG2_TIF_CONTROL.GetPIDs, IMPEG2_TIF_CONTROL, IMPEG2_TIF_CONTROL interface [Microsoft TV Technologies], GetPIDs method, IMPEG2_TIF_CONTROL::GetPIDs, IMPEG2_TIF_CONTROLGetPIDs, bdatif/IMPEG2_TIF_CONTROL::GetPIDs, mstv.impeg2_tif_control_getpids
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: SpanningEventEmmMessage
+req.typenames: SmartCardApplication
 topic_type:
 -	APIRef
 -	kbSyntax

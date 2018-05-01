@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicprogressivelevelcontrol_getcurrentlevel.htm
 old-project: wic
 ms.assetid: c6f848a0-e373-4344-8923-3ad77165ef71
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: GetCurrentLevel method [Windows Imaging Component], GetCurrentLevel method [Windows Imaging Component], IWICProgressiveLevelControl interface, GetCurrentLevel,IWICProgressiveLevelControl.GetCurrentLevel, IWICProgressiveLevelControl, IWICProgressiveLevelControl interface [Windows Imaging Component], GetCurrentLevel method, IWICProgressiveLevelControl::GetCurrentLevel, _wic_codec_iwicprogressivelevelcontrol_getcurrentlevel, wic._wic_codec_iwicprogressivelevelcontrol_getcurrentlevel, wincodec/IWICProgressiveLevelControl::GetCurrentLevel
 ms.prod: windows-hardware
 ms.technology: windows-devices

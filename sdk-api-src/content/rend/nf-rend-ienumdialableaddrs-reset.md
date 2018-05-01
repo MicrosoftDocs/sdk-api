@@ -7,7 +7,7 @@ old-location: tapi3\ienumdialableaddrs_reset.htm
 old-project: Tapi
 ms.assetid: c996ea76-bf72-40bd-996b-335448ceb93c
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: IEnumDialableAddrs, IEnumDialableAddrs interface [TAPI 2.2], Reset method, IEnumDialableAddrs::Reset, Reset method [TAPI 2.2], Reset method [TAPI 2.2], IEnumDialableAddrs interface, Reset,IEnumDialableAddrs.Reset, _tapi3_ienumdialableaddrs_reset, rend/IEnumDialableAddrs::Reset, tapi3.ienumdialableaddrs_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Rend.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IEnumDialableAddrs::Reset method

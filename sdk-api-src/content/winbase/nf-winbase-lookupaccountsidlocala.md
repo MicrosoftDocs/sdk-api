@@ -7,7 +7,7 @@ old-location: security\lookupaccountsidlocal.htm
 old-project: SecAuthZ
 ms.assetid: B039FFD7-B483-4CC0-B606-FAA5003DA238
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: LookupAccountSidLocal, LookupAccountSidLocal function [Security], LookupAccountSidLocalA, LookupAccountSidLocalW, security.lookupaccountsidlocal, winbase/LookupAccountSidLocal, winbase/LookupAccountSidLocalA, winbase/LookupAccountSidLocalW
 ms.prod: windows-hardware
 ms.technology: windows-devices

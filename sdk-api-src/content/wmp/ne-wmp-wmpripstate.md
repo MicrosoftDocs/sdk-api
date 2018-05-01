@@ -7,7 +7,7 @@ old-location: wmp\wmpripstate.htm
 old-project: WMP
 ms.assetid: bd62cae1-3f63-4355-afc7-e429a444189d
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: WMPRipState, WMPRipState enumeration [Windows Media Player], wmp.wmpripstate, wmp/WMPRipState, wmp/wmprsRipping, wmp/wmprsStopped, wmp/wmprsUnknown, wmprsRipping, wmprsStopped, wmprsUnknown
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11functionreflection_getresourcebindingdesc.htm
 old-project: direct3d11
 ms.assetid: A54B2CD4-BE4C-470C-BBE0-2678F659BEAF
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/6/2018
 ms.keywords: GetResourceBindingDesc method [Direct3D 11], GetResourceBindingDesc method [Direct3D 11], ID3D11FunctionReflection interface, GetResourceBindingDesc,ID3D11FunctionReflection.GetResourceBindingDesc, ID3D11FunctionReflection, ID3D11FunctionReflection interface [Direct3D 11], GetResourceBindingDesc method, ID3D11FunctionReflection::GetResourceBindingDesc, d3d11shader/ID3D11FunctionReflection::GetResourceBindingDesc, direct3d11.id3d11functionreflection_getresourcebindingdesc
 ms.prod: windows-hardware
 ms.technology: windows-devices

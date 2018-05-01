@@ -7,7 +7,7 @@ old-location: ics\istaticportmapping_get_internalclient.htm
 old-project: ICS
 ms.assetid: 91756e75-1915-4d61-841e-6a6cf1e849eb
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: IStaticPortMapping, IStaticPortMapping interface [ICS/ICF], get_InternalClient method, IStaticPortMapping::get_InternalClient, _ics_istaticportmapping_get_internalclient, get_InternalClient method [ICS/ICF], get_InternalClient method [ICS/ICF], IStaticPortMapping interface, get_InternalClient,IStaticPortMapping.get_InternalClient, ics.istaticportmapping_get_internalclient, natupnp/IStaticPortMapping::get_InternalClient
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IStaticPortMapping::get_InternalClient method

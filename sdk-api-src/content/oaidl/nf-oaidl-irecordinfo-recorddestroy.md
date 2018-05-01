@@ -7,7 +7,7 @@ old-location: automat\irecordinfo_recorddestroy.htm
 old-project: automat
 ms.assetid: 36faf2f6-ecb5-4d6f-a05d-a37ae21a8f07
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: IRecordInfo, IRecordInfo interface [Automation], RecordDestroy method, IRecordInfo::RecordDestroy, RecordDestroy method [Automation], RecordDestroy method [Automation], IRecordInfo interface, RecordDestroy,IRecordInfo.RecordDestroy, _oa96_IRecordInfo_RecordDestroy, automat.irecordinfo_recorddestroy, oaidl/IRecordInfo::RecordDestroy
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IRecordInfo::RecordDestroy method

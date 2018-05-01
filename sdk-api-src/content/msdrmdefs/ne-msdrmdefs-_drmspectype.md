@@ -7,7 +7,7 @@ old-location: rm\drmspectype.htm
 old-project: AdRms_Sdk
 ms.assetid: 40997883-2636-4dd1-adf4-deff997abcc8
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/11/2018
 ms.keywords: DRMSPECTYPE, DRMSPECTYPE enumeration [Active Directory Rights Management Services SDK 1.0], DRMSPECTYPE_FILENAME, DRMSPECTYPE_UNKNOWN, _DRMSPECTYPE, msdrmdefs/DRMSPECTYPE, msdrmdefs/DRMSPECTYPE_FILENAME, msdrmdefs/DRMSPECTYPE_UNKNOWN, rm.drmspectype
 ms.prod: windows-hardware
 ms.technology: windows-devices

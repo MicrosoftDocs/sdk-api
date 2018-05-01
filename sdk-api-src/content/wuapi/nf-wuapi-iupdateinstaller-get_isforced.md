@@ -7,7 +7,7 @@ old-location: wua\iupdateinstaller_isforced.htm
 old-project: Wua_Sdk
 ms.assetid: 80a30a21-9369-44bb-984a-2fdf2c1810e4
 ms.author: windowsdriverdev
-ms.date: 3/15/2018
+ms.date: 4/18/2018
 ms.keywords: IUpdateInstaller, IUpdateInstaller interface [Windows Update Agent], IsForced property, IUpdateInstaller.IsForced, IUpdateInstaller::get_IsForced, IUpdateInstaller::put_IsForced, IsForced property [Windows Update Agent], IsForced property [Windows Update Agent], IUpdateInstaller interface, get_IsForced,IUpdateInstaller.get_IsForced, wua.iupdateinstaller_isforced, wuapi/IUpdateInstaller::IsForced, wuapi/IUpdateInstaller::get_IsForced, wuapi/IUpdateInstaller::put_IsForced
 ms.prod: windows-hardware
 ms.technology: windows-devices

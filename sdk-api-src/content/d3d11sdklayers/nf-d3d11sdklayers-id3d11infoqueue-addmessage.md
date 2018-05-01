@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11infoqueue_addmessage.htm
 old-project: direct3d11
 ms.assetid: 7265a273-327a-482b-9d47-6931e031cff8
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/6/2018
 ms.keywords: 1ac22c4e-5bd3-bec5-0c6b-508a2b311005, AddMessage method [Direct3D 11], AddMessage method [Direct3D 11], ID3D11InfoQueue interface, AddMessage,ID3D11InfoQueue.AddMessage, ID3D11InfoQueue, ID3D11InfoQueue interface [Direct3D 11], AddMessage method, ID3D11InfoQueue::AddMessage, d3d11sdklayers/ID3D11InfoQueue::AddMessage, direct3d11.id3d11infoqueue_addmessage
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: com\irunningobjecttable_notechangetime.htm
 old-project: com
 ms.assetid: 7bc410f8-3a39-478d-bc4d-adcd976f305b
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IRunningObjectTable, IRunningObjectTable interface [COM], NoteChangeTime method, IRunningObjectTable::NoteChangeTime, NoteChangeTime method [COM], NoteChangeTime method [COM], IRunningObjectTable interface, NoteChangeTime,IRunningObjectTable.NoteChangeTime, _com_irunningobjecttable_notechangetime, com.irunningobjecttable_notechangetime, objidl/IRunningObjectTable::NoteChangeTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IRunningObjectTable::NoteChangeTime method

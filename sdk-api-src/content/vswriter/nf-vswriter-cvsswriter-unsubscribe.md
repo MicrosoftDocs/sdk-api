@@ -7,7 +7,7 @@ old-location: base\cvsswriter_unsubscribe.htm
 old-project: VSS
 ms.assetid: b2bb68d1-7beb-4ba1-b16d-6314ac3f4a3d
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: CVssWriter, CVssWriter interface [VSS], Unsubscribe method, CVssWriter::Unsubscribe, Unsubscribe method [VSS], Unsubscribe method [VSS], CVssWriter interface, Unsubscribe,CVssWriter.Unsubscribe, _win32_cvsswriter_unsubscribe, base.cvsswriter_unsubscribe, vswriter/CVssWriter::Unsubscribe
 ms.prod: windows-hardware
 ms.technology: windows-devices

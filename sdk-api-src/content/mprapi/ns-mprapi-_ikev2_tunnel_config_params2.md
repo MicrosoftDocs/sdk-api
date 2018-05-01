@@ -7,7 +7,7 @@ old-location: rras\ikev2_tunnel_config_params2.htm
 old-project: RRAS
 ms.assetid: 916e70d9-b103-4e72-a9b3-a34063b3641e
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: "*PIKEV2_TUNNEL_CONFIG_PARAMS2, IKEV2_TUNNEL_CONFIG_PARAMS2, IKEV2_TUNNEL_CONFIG_PARAMS2 structure [RAS], PIKEV2_TUNNEL_CONFIG_PARAMS2, PIKEV2_TUNNEL_CONFIG_PARAMS2 structure pointer [RAS], _IKEV2_TUNNEL_CONFIG_PARAMS2, mprapi/IKEV2_TUNNEL_CONFIG_PARAMS2, mprapi/PIKEV2_TUNNEL_CONFIG_PARAMS2, rras.ikev2_tunnel_config_params2"
 ms.prod: windows-hardware
 ms.technology: windows-devices

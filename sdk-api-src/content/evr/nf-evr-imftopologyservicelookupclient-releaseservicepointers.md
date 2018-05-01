@@ -7,7 +7,7 @@ old-location: mf\imftopologyservicelookupclient_releaseservicepointers.htm
 old-project: medfound
 ms.assetid: 03ed29b4-89c1-4702-a23f-d013eeef5d44
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 03ed29b4-89c1-4702-a23f-d013eeef5d44, IMFTopologyServiceLookupClient, IMFTopologyServiceLookupClient interface [Media Foundation], ReleaseServicePointers method, IMFTopologyServiceLookupClient::ReleaseServicePointers, ReleaseServicePointers method [Media Foundation], ReleaseServicePointers method [Media Foundation], IMFTopologyServiceLookupClient interface, ReleaseServicePointers,IMFTopologyServiceLookupClient.ReleaseServicePointers, evr/IMFTopologyServiceLookupClient::ReleaseServicePointers, mf.imftopologyservicelookupclient_releaseservicepointers
 ms.prod: windows-hardware
 ms.technology: windows-devices

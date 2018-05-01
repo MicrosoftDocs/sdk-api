@@ -7,7 +7,7 @@ old-location: coreaudio\ispatialaudioobjectforhrtf_setenvironment.htm
 old-project: CoreAudio
 ms.assetid: 6D96F854-0FAE-4B8B-9033-E2AEB471B38B
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: ISpatialAudioObjectForHrtf, ISpatialAudioObjectForHrtf interface [Core Audio], SetEnvironment method, ISpatialAudioObjectForHrtf::SetEnvironment, SetEnvironment method [Core Audio], SetEnvironment method [Core Audio], ISpatialAudioObjectForHrtf interface, SetEnvironment,ISpatialAudioObjectForHrtf.SetEnvironment, coreaudio.ispatialaudioobjectforhrtf_setenvironment, spatialaudiohrtf/ISpatialAudioObjectForHrtf::SetEnvironment
 ms.prod: windows-hardware
 ms.technology: windows-devices

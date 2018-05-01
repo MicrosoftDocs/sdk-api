@@ -7,7 +7,7 @@ old-location: appxpkg\getstagedpackagepathbyfullname.htm
 old-project: appxpkg
 ms.assetid: F0A37D77-6262-44B1-BEC5-083E41BDE139
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/26/2018
 ms.keywords: GetStagedPackagePathByFullName, GetStagedPackagePathByFullName function [App packaging and management], appmodel/GetStagedPackagePathByFullName, appxpkg.getstagedpackagepathbyfullname
 ms.prod: windows-hardware
 ms.technology: windows-devices

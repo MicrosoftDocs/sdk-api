@@ -7,7 +7,7 @@ old-location: dshow\idvdcmd_waitforend.htm
 old-project: DirectShow
 ms.assetid: e7dc3113-616a-49d5-bcab-7ed5aa520b18
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IDvdCmd, IDvdCmd interface [DirectShow], WaitForEnd method, IDvdCmd::WaitForEnd, IDvdCmdWaitForEnd, WaitForEnd method [DirectShow], WaitForEnd method [DirectShow], IDvdCmd interface, WaitForEnd,IDvdCmd.WaitForEnd, dshow.idvdcmd_waitforend, strmif/IDvdCmd::WaitForEnd
 ms.prod: windows-hardware
 ms.technology: windows-devices

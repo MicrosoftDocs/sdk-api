@@ -7,7 +7,7 @@ old-location: controls\itexthost2_txgetwindowstyles.htm
 old-project: Controls
 ms.assetid: 51885B3E-3DEE-461C-8625-3DE9D8C1F992
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextHost2, ITextHost2 interface [Windows Controls], TxGetWindowStyles method, ITextHost2::TxGetWindowStyles, TxGetWindowStyles method [Windows Controls], TxGetWindowStyles method [Windows Controls], ITextHost2 interface, TxGetWindowStyles,ITextHost2.TxGetWindowStyles, controls.itexthost2_txgetwindowstyles, textserv/ITextHost2::TxGetWindowStyles
 ms.prod: windows-hardware
 ms.technology: windows-devices

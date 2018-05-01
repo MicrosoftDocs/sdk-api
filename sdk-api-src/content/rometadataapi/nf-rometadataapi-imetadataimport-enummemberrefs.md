@@ -1,0 +1,121 @@
+---
+UID: NF:rometadataapi.IMetaDataImport.EnumMemberRefs
+title: IMetaDataImport::EnumMemberRefs method
+author: windows-driver-content
+description: Enumerates MemberRef tokens representing members of the specified type.
+old-location: winrt\imetadataimport_enummemberrefs.htm
+old-project: WinRT
+ms.assetid: 900777d4-14fc-4d64-a01c-395f5fafe5e4
+ms.author: windowsdriverdev
+ms.date: 4/24/2018
+ms.keywords: EnumMemberRefs method [Windows Runtime], EnumMemberRefs method [Windows Runtime], IMetaDataImport interface, EnumMemberRefs,IMetaDataImport.EnumMemberRefs, IMetaDataImport, IMetaDataImport interface [Windows Runtime], EnumMemberRefs method, IMetaDataImport::EnumMemberRefs, rometadataapi/IMetaDataImport::EnumMemberRefs, winrt.imetadataimport_enummemberrefs
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: rometadataapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Rometadataapi.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: RO_ERROR_REPORTING_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	rometadataapi.h
+api_name:
+-	IMetaDataImport.EnumMemberRefs
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 SP2 or later
+---
+
+# IMetaDataImport::EnumMemberRefs method
+
+
+## -description
+
+
+Enumerates MemberRef tokens representing members of the specified type.
+
+
+## -parameters
+
+
+
+
+### -param phEnum [in, out]
+
+A pointer to the enumerator.
+
+
+### -param tkParent [in]
+
+A TypeDef, TypeRef, MethodDef, or ModuleRef token for the type whose members are to be enumerated.
+
+
+### -param rgMemberRefs [out]
+
+The array used to store MemberRef tokens.
+
+
+### -param cMax [in]
+
+The maximum size of the <i>rgMemberRefs</i> array.
+
+
+### -param pcTokens [out]
+
+The actual number of MemberRef tokens returned in <i>rgMemberRefs</i>.
+
+
+## -returns
+
+
+
+<table>
+<tr>
+<th>HRESULT</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><b>S_OK</b></td>
+<td><b>EnumMemberRefs</b> returned successfully.</td>
+</tr>
+<tr>
+<td><b>S_FALSE</b></td>
+<td>There are no MemberRef tokens to enumerate. In this case, <i>pcTokens</i> is 0 (zero).
+ 
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/5457d9d3-9a43-4e89-a52f-1254662ed92a">IMetaDataImport</a>
+ 
+
+ 
+

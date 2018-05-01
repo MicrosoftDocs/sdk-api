@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device2.htm
 old-project: direct3d12
 ms.assetid: 86C46FD2-7B1D-4F66-97F7-45F9428C5E1E
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: ID3D12Device2, ID3D12Device2 interface, ID3D12Device2 interface, described, d3d12/ID3D12Device2, direct3d12.id3d12device2
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: intl\postbl.htm
 old-project: Intl
 ms.assetid: CA6A4E71-651A-44CA-B47D-79888A36BB12
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/25/2018
 ms.keywords: POSTBL, POSTBL structure [Internationalization for Windows Applications], PPOSTBL, PPOSTBL structure pointer [Internationalization for Windows Applications], _POSTBL, intl.postbl, msime/POSTBL, msime/PPOSTBL
 ms.prod: windows-hardware
 ms.technology: windows-devices

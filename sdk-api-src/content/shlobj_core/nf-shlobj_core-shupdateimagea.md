@@ -7,7 +7,7 @@ old-location: shell\SHUpdateImage.htm
 old-project: shell
 ms.assetid: 9df5860e-db65-4e43-aaf9-c1e0e33fc569
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: SHUpdateImage, SHUpdateImage function [Windows Shell], SHUpdateImageA, SHUpdateImageW, _win32_SHUpdateImage, shell.SHUpdateImage, shlobj_core/SHUpdateImage, shlobj_core/SHUpdateImageA, shlobj_core/SHUpdateImageW
 ms.prod: windows-hardware
 ms.technology: windows-devices

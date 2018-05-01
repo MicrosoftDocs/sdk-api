@@ -1,0 +1,92 @@
+---
+UID: NC:ddrawint.PDD_SURFCB_SETPALETTE
+title: PDD_SURFCB_SETPALETTE
+author: windows-driver-content
+description: The DdSetPalette callback function attaches a palette to the specified surface.
+old-location: display\ddsetpalette.htm
+old-project: display
+ms.assetid: 745b30f0-3d2f-4894-8991-6b7d511f8493
+ms.author: windowsdriverdev
+ms.date: 4/16/2018
+ms.keywords: DdSetPalette, DdSetPalette callback function [Display Devices], PDD_SURFCB_SETPALETTE, ddfncs_7d4146b2-d5f8-4a02-b24e-3dfa0a8d817a.xml, ddrawint/DdSetPalette, display.ddsetpalette
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: callback
+req.header: ddrawint.h
+req.include-header: Winddi.h
+req.target-type: Desktop
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: "*LPDDHAL_DESTROYDDLOCALDATA, DDHAL_DESTROYDDLOCALDATA"
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	ddrawint.h
+api_name:
+-	DdSetPalette
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# PDD_SURFCB_SETPALETTE callback
+
+
+## -description
+
+
+The <b>DdSetPalette</b> callback function attaches a palette to the specified surface.
+
+
+## -parameters
+
+
+
+
+### -param Arg1
+
+
+
+
+
+
+
+
+#### - lpSetPalette
+
+Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551711">DD_SETPALETTEDATA</a> structure that contains the information required to set a palette to the specified surface.
+
+
+## -returns
+
+
+
+<b>DdSetPalette</b> returns one of the following callback codes:
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551711">DD_SETPALETTEDATA</a>
+ 
+
+ 
+

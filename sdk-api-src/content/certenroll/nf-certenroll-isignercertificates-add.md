@@ -7,7 +7,7 @@ old-location: security\isignercertificates_add_method.htm
 old-project: SecCertEnroll
 ms.assetid: 985bda2c-caad-4910-9e9c-d673975953aa
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: Add method [Security], Add method [Security], ISignerCertificates interface, Add,ISignerCertificates.Add, ISignerCertificates, ISignerCertificates interface [Security], Add method, ISignerCertificates::Add, certenroll/ISignerCertificates::Add, security.isignercertificates_add_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

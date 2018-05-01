@@ -7,7 +7,7 @@ old-location: ics\inetfwrule3_localuserauthorizedlist.htm
 old-project: ICS
 ms.assetid: 5a44ce34-bf0b-4a8b-a8b3-bd5e4cc3bea8
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: INetFwRule3, INetFwRule3 interface [ICS/ICF], LocalUserAuthorizedList property, INetFwRule3.LocalUserAuthorizedList, INetFwRule3::get_LocalUserAuthorizedList, INetFwRule3::put_LocalUserAuthorizedList, LocalUserAuthorizedList property [ICS/ICF], LocalUserAuthorizedList property [ICS/ICF], INetFwRule3 interface, ics.inetfwrule3_localuserauthorizedlist, netfw/INetFwRule3::LocalUserAuthorizedList, netfw/INetFwRule3::get_LocalUserAuthorizedList, netfw/INetFwRule3::put_LocalUserAuthorizedList, put_LocalUserAuthorizedList,INetFwRule3.put_LocalUserAuthorizedList
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: 
 req.dll: FirewallAPI.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # INetFwRule3::put_LocalUserAuthorizedList method

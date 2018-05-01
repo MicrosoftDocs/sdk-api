@@ -7,7 +7,7 @@ old-location: tapi3\cmspcallmultigraph_internalcreatestream.htm
 old-project: Tapi
 ms.assetid: 62d098d5-b9cd-4e64-bec8-c4f736be22f9
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: CMSPCallMultiGraph, CMSPCallMultiGraph interface [TAPI 2.2], InternalCreateStream method, CMSPCallMultiGraph::InternalCreateStream, InternalCreateStream method [TAPI 2.2], InternalCreateStream method [TAPI 2.2], CMSPCallMultiGraph interface, InternalCreateStream,CMSPCallMultiGraph.InternalCreateStream, _tapi3_cmspcallmultigraph_internalcreatestream, mspcall/CMSPCallMultiGraph::InternalCreateStream, tapi3.cmspcallmultigraph_internalcreatestream
 ms.prod: windows-hardware
 ms.technology: windows-devices

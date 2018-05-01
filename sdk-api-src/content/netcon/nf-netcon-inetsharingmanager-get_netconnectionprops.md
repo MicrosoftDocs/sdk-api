@@ -7,7 +7,7 @@ old-location: ics\inetsharingmanager_get_netconnectionprops.htm
 old-project: ICS
 ms.assetid: bf2db553-f324-4f23-b96e-f8ae703aa3ea
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: INetSharingManager, INetSharingManager interface [ICS/ICF], get_NetConnectionProps method, INetSharingManager::get_NetConnectionProps, _ics_inetsharingmanager_get_netconnectionprops, get_NetConnectionProps method [ICS/ICF], get_NetConnectionProps method [ICS/ICF], INetSharingManager interface, get_NetConnectionProps,INetSharingManager.get_NetConnectionProps, ics.inetsharingmanager_get_netconnectionprops, netcon/INetSharingManager::get_NetConnectionProps
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # INetSharingManager::get_NetConnectionProps method

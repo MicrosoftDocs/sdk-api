@@ -7,7 +7,7 @@ old-location: intl\getnumberformatex.htm
 old-project: Intl
 ms.assetid: 7874bc6e-1db2-44be-aa7a-7c716d23f7a4
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/25/2018
 ms.keywords: GetNumberFormatEx, GetNumberFormatEx function [Internationalization for Windows Applications], _win32_GetNumberFormatEx, intl.getnumberformatex, winnls/GetNumberFormatEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

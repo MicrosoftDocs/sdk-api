@@ -7,7 +7,7 @@ old-location: mstv\iscte_eas_getdetailsoobsourceid.htm
 old-project: mstv
 ms.assetid: 50bf2acd-87e1-4b64-bf98-997603d56a0a
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetDetailsOOBSourceID method [Microsoft TV Technologies], GetDetailsOOBSourceID method [Microsoft TV Technologies], ISCTE_EAS interface, GetDetailsOOBSourceID,ISCTE_EAS.GetDetailsOOBSourceID, ISCTE_EAS, ISCTE_EAS interface [Microsoft TV Technologies], GetDetailsOOBSourceID method, ISCTE_EAS::GetDetailsOOBSourceID, ISCTE_EASGetDetailsOOBSourceID, atscpsipparser/ISCTE_EAS::GetDetailsOOBSourceID, mstv.iscte_eas_getdetailsoobsourceid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_WRITER_PAYLOAD_STREAM
+req.typenames: AsyncStatus
 topic_type:
 -	APIRef
 -	kbSyntax

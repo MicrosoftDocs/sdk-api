@@ -7,7 +7,7 @@ old-location: fwp\ipsec_sa_context_callback0.htm
 old-project: FWP
 ms.assetid: a4515d39-8566-4418-a6be-687f4f7d9969
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: IPSEC_SA_CONTEXT_CALLBACK0, IPSEC_SA_CONTEXT_CALLBACK0 function pointer [Filtering], fwp.ipsec_sa_context_callback0, fwpmu/IPSEC_SA_CONTEXT_CALLBACK0
 ms.prod: windows-hardware
 ms.technology: windows-devices

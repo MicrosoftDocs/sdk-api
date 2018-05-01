@@ -7,7 +7,7 @@ old-location: mf\idirect3dauthenticatedchannel9_negotiatekeyexchange.htm
 old-project: medfound
 ms.assetid: 35605d35-76c9-43d7-a022-6db6af179c41
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IDirect3DAuthenticatedChannel9, IDirect3DAuthenticatedChannel9 interface [Media Foundation], NegotiateKeyExchange method, IDirect3DAuthenticatedChannel9::NegotiateKeyExchange, NegotiateKeyExchange method [Media Foundation], NegotiateKeyExchange method [Media Foundation], IDirect3DAuthenticatedChannel9 interface, NegotiateKeyExchange,IDirect3DAuthenticatedChannel9.NegotiateKeyExchange, d3d9/IDirect3DAuthenticatedChannel9::NegotiateKeyExchange, mf.idirect3dauthenticatedchannel9_negotiatekeyexchange
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\imsvidvideorenderer_put_mixerbitmapopacity.htm
 old-project: mstv
 ms.assetid: 5dba67ab-9522-48a3-be09-8ed8c27bffee
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidVideoRenderer, IMSVidVideoRenderer interface [Microsoft TV Technologies], put_MixerBitmapOpacity method, IMSVidVideoRenderer::put_MixerBitmapOpacity, IMSVidVideoRendererput_MixerBitmapOpacity, mstv.imsvidvideorenderer_put_mixerbitmapopacity, put_MixerBitmapOpacity method [Microsoft TV Technologies], put_MixerBitmapOpacity method [Microsoft TV Technologies], IMSVidVideoRenderer interface, put_MixerBitmapOpacity,IMSVidVideoRenderer.put_MixerBitmapOpacity, segment/IMSVidVideoRenderer::put_MixerBitmapOpacity
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidVideoRenderer::put_MixerBitmapOpacity method

@@ -7,7 +7,7 @@ old-location: wmdm\imdspdevice2_getcanonicalname.htm
 old-project: WMDM
 ms.assetid: 0888c780-e358-45ae-809b-34a19d496059
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: GetCanonicalName method [windows Media Device Manager], GetCanonicalName method [windows Media Device Manager], IMDSPDevice2 interface, GetCanonicalName,IMDSPDevice2.GetCanonicalName, IMDSPDevice2, IMDSPDevice2 interface [windows Media Device Manager], GetCanonicalName method, IMDSPDevice2::GetCanonicalName, IMDSPDevice2GetPnPName, mswmdm/IMDSPDevice2::GetCanonicalName, wmdm.imdspdevice2_getcanonicalname
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMDSPDevice2::GetCanonicalName method

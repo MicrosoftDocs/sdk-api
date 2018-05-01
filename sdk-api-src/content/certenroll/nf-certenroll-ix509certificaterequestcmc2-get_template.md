@@ -7,7 +7,7 @@ old-location: security\ix509certificaterequestcmc2_template.htm
 old-project: SecCertEnroll
 ms.assetid: 50c1b376-60e4-4a77-8e12-01fd61805d92
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: IX509CertificateRequestCmc2, IX509CertificateRequestCmc2 interface [Security], Template property, IX509CertificateRequestCmc2.Template, IX509CertificateRequestCmc2::get_Template, Template property [Security], Template property [Security], IX509CertificateRequestCmc2 interface, certenroll/IX509CertificateRequestCmc2::Template, certenroll/IX509CertificateRequestCmc2::get_Template, get_Template,IX509CertificateRequestCmc2.get_Template, security.ix509certificaterequestcmc2_template
 ms.prod: windows-hardware
 ms.technology: windows-devices

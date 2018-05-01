@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12infoqueue_getretrievalfilterstacksize.htm
 old-project: direct3d12
 ms.assetid: 50F15152-865F-4B56-AFB8-E994C13CEF69
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: GetRetrievalFilterStackSize method, GetRetrievalFilterStackSize method, ID3D12InfoQueue interface, GetRetrievalFilterStackSize,ID3D12InfoQueue.GetRetrievalFilterStackSize, ID3D12InfoQueue, ID3D12InfoQueue interface, GetRetrievalFilterStackSize method, ID3D12InfoQueue::GetRetrievalFilterStackSize, d3d12sdklayers/ID3D12InfoQueue::GetRetrievalFilterStackSize, direct3d12.id3d12infoqueue_getretrievalfilterstacksize
 ms.prod: windows-hardware
 ms.technology: windows-devices

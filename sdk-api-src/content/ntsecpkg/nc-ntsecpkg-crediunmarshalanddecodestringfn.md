@@ -7,7 +7,7 @@ old-location: security\crediunmarshalanddecodestring.htm
 old-project: SecAuthN
 ms.assetid: 15423c8d-ea3b-4981-b059-5828555a9e89
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/24/2018
 ms.keywords: CrediUnmarshalandDecodeString, CrediUnmarshalandDecodeString function [Security], CrediUnmarshalandDecodeStringFn, ntsecpkg/CrediUnmarshalandDecodeString, security.crediunmarshalanddecodestring
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # CrediUnmarshalandDecodeStringFn callback

@@ -7,7 +7,7 @@ old-location: tapi3\itmspaddress_receivetspdata.htm
 old-project: Tapi
 ms.assetid: 80b8e0aa-3361-4593-bec0-cbe9186c6c41
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: ITMSPAddress, ITMSPAddress interface [TAPI 2.2], ReceiveTSPData method, ITMSPAddress::ReceiveTSPData, ReceiveTSPData method [TAPI 2.2], ReceiveTSPData method [TAPI 2.2], ITMSPAddress interface, ReceiveTSPData,ITMSPAddress.ReceiveTSPData, _tapi3_itmspaddress_receivetspdata, msp/ITMSPAddress::ReceiveTSPData, tapi3.itmspaddress_receivetspdata
 ms.prod: windows-hardware
 ms.technology: windows-devices

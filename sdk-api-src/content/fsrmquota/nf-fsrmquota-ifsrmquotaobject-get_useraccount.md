@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmquotaobject_useraccount.htm
 old-project: Fsrm
 ms.assetid: 02545dfb-6c71-4412-9376-81c9304efaa8
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: IFsrmQuotaObject, IFsrmQuotaObject interface [File Server Resource Manager], UserAccount property, IFsrmQuotaObject.UserAccount, IFsrmQuotaObject::get_UserAccount, UserAccount property [File Server Resource Manager], UserAccount property [File Server Resource Manager], IFsrmQuotaObject interface, fs.ifsrmquotaobject_useraccount, fsrm.ifsrmquotaobject_useraccount, fsrmquota/IFsrmQuotaObject::UserAccount, fsrmquota/IFsrmQuotaObject::get_UserAccount, get_UserAccount,IFsrmQuotaObject.get_UserAccount
 ms.prod: windows-hardware
 ms.technology: windows-devices

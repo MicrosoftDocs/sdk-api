@@ -7,7 +7,7 @@ old-location: xaudio2\cxapoparametersbase_parameterschanged.htm
 old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.cxapoparameterbase.CXAPOParametersBase.ParametersChanged
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/20/2018
 ms.keywords: CXAPOParametersBase, CXAPOParametersBase interface [XAudio2 Audio Mixing APIs], ParametersChanged method, CXAPOParametersBase::ParametersChanged, ParametersChanged method [XAudio2 Audio Mixing APIs], ParametersChanged method [XAudio2 Audio Mixing APIs], CXAPOParametersBase interface, ParametersChanged,CXAPOParametersBase.ParametersChanged, xapobase/CXAPOParametersBase::ParametersChanged, xaudio2.cxapoparametersbase_parameterschanged
 ms.prod: windows-hardware
 ms.technology: windows-devices

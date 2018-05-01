@@ -7,7 +7,7 @@ old-location: wmi\chstring__operator_brackets.htm
 old-project: WmiSdk
 ms.assetid: 9a0ba1f3-e862-4210-86a4-55a573e8bb4b
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: "??ACHString@@QBEGH@Z, ??ACHString@@QEBAGH@Z, CHString, CHString interface [Windows Management Instrumentation], operator [] method, CHString::operator [], CHString::operator[], chstring/CHString::operator [], operator [] method [Windows Management Instrumentation], operator [] method [Windows Management Instrumentation], CHString interface, operator[],CHString.operator[], wmi.chstring__operator_brackets"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CF_SYNC_ROOT_STANDARD_INFO
+req.typenames: CF_SYNC_STATUS
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,7 +7,7 @@ old-location: dshow\ivmrvideostreamcontrol_getstreamactivestate.htm
 old-project: DirectShow
 ms.assetid: 619ba669-c2a0-46fe-9c12-52105b107351
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetStreamActiveState method [DirectShow], GetStreamActiveState method [DirectShow], IVMRVideoStreamControl interface, GetStreamActiveState,IVMRVideoStreamControl.GetStreamActiveState, IVMRVideoStreamControl, IVMRVideoStreamControl interface [DirectShow], GetStreamActiveState method, IVMRVideoStreamControl::GetStreamActiveState, IVMRVideoStreamControlGetStreamActiveState, dshow.ivmrvideostreamcontrol_getstreamactivestate, strmif/IVMRVideoStreamControl::GetStreamActiveState
 ms.prod: windows-hardware
 ms.technology: windows-devices

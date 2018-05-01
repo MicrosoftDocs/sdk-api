@@ -7,7 +7,7 @@ old-location: termserv\iaudiooutputendpointrt_pulseendpoint.htm
 old-project: TermServ
 ms.assetid: 8ab117d6-5b13-4420-9cf2-865ff2011806
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: IAudioOutputEndpointRT, IAudioOutputEndpointRT interface [Remote Desktop Services], PulseEndpoint method, IAudioOutputEndpointRT::PulseEndpoint, PulseEndpoint method [Remote Desktop Services], PulseEndpoint method [Remote Desktop Services], IAudioOutputEndpointRT interface, PulseEndpoint,IAudioOutputEndpointRT.PulseEndpoint, audioengineendpoint/IAudioOutputEndpointRT::PulseEndpoint, termserv.iaudiooutputendpointrt_pulseendpoint
 ms.prod: windows-hardware
 ms.technology: windows-devices

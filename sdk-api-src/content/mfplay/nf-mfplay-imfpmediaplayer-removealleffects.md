@@ -7,7 +7,7 @@ old-location: mf\imfpmediaplayer_removealleffects.htm
 old-project: medfound
 ms.assetid: 8745714c-315c-4183-86a2-7c189328dfe6
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFPMediaPlayer, IMFPMediaPlayer interface [Media Foundation], RemoveAllEffects method, IMFPMediaPlayer::RemoveAllEffects, RemoveAllEffects method [Media Foundation], RemoveAllEffects method [Media Foundation], IMFPMediaPlayer interface, RemoveAllEffects,IMFPMediaPlayer.RemoveAllEffects, mf.imfpmediaplayer_removealleffects, mfplay/IMFPMediaPlayer::RemoveAllEffects
 ms.prod: windows-hardware
 ms.technology: windows-devices

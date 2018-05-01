@@ -7,7 +7,7 @@ old-location: automat\vardecfromui1.htm
 old-project: automat
 ms.assetid: dd326a61-42d1-4cf5-bd63-98a6ecdf6ce8
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: VarDecFromUI1, VarDecFromUI1 function [Automation], _oa96_VarDecFromUI1, automat.vardecfromui1, oleauto/VarDecFromUI1
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # VarDecFromUI1 function

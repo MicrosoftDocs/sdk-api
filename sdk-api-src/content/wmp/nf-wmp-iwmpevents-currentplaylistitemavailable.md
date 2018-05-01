@@ -7,7 +7,7 @@ old-location: wmp\iwmpevents_iwmpevents__currentplaylistitemavailable.htm
 old-project: WMP
 ms.assetid: 77209df0-3b3d-4fc8-b560-a2c02138e746
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: CurrentPlaylistItemAvailable method [Windows Media Player], CurrentPlaylistItemAvailable method [Windows Media Player], IWMPEvents interface, CurrentPlaylistItemAvailable,IWMPEvents.CurrentPlaylistItemAvailable, IWMPEvents, IWMPEvents interface [Windows Media Player], CurrentPlaylistItemAvailable method, IWMPEvents::CurrentPlaylistItemAvailable, IWMPEventsCurrentPlaylistItemAvailable, wmp.iwmpevents_iwmpevents__currentplaylistitemavailable, wmp/IWMPEvents::CurrentPlaylistItemAvailable
 ms.prod: windows-hardware
 ms.technology: windows-devices

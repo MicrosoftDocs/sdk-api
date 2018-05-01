@@ -7,7 +7,7 @@ old-location: winrt\ireferencetrackertarget_peg.htm
 old-project: WinRT
 ms.assetid: 2750e8b1-eeeb-411a-89a8-b63b26f731ac
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/24/2018
 ms.keywords: IReferenceTrackerTarget, IReferenceTrackerTarget interface [Windows Runtime], Peg method, IReferenceTrackerTarget::Peg, Peg method [Windows Runtime], Peg method [Windows Runtime], IReferenceTrackerTarget interface, Peg,IReferenceTrackerTarget.Peg, windows/IReferenceTrackerTarget::Peg, winrt.ireferencetrackertarget_peg
 ms.prod: windows-hardware
 ms.technology: windows-devices

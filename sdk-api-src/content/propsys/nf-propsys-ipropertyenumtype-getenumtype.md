@@ -7,7 +7,7 @@ old-location: properties\IPropertyEnumType_GetEnumType.htm
 old-project: properties
 ms.assetid: f73ad824-5605-4c3c-b623-debdebdf5780
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/5/2018
 ms.keywords: GetEnumType method [Windows Properties], GetEnumType method [Windows Properties], IPropertyEnumType interface, GetEnumType,IPropertyEnumType.GetEnumType, IPropertyEnumType, IPropertyEnumType interface [Windows Properties], GetEnumType method, IPropertyEnumType::GetEnumType, PET_DEFAULTVALUE, PET_DISCRETEVALUE, PET_ENDRANGE, PET_RANGEDVALUE, _shell_IPropertyEnumType_GetEnumType, properties.IPropertyEnumType_GetEnumType, propsys/IPropertyEnumType::GetEnumType, shell.IPropertyEnumType_GetEnumType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IPropertyEnumType::GetEnumType method

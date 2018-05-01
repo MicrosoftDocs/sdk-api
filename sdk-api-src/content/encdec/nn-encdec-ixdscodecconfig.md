@@ -7,7 +7,7 @@ old-location: mstv\ixdscodecconfig.htm
 old-project: mstv
 ms.assetid: 90f8ce9b-2a85-43d0-9f2a-a3d248414a2d
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IXDSCodecConfig, IXDSCodecConfig interface [Microsoft TV Technologies], IXDSCodecConfig interface [Microsoft TV Technologies], described, IXDSCodecConfigInterface, encdec/IXDSCodecConfig, mstv.ixdscodecconfig
 ms.prod: windows-hardware
 ms.technology: windows-devices

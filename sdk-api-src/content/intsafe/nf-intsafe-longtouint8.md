@@ -2,21 +2,21 @@
 UID: NF:intsafe.LongToUInt8
 title: LongToUInt8 function
 author: windows-driver-content
-description: Converts a value of type LONG to a value of type UINT8.
-old-location: shell\LongToUInt8.htm
+description: Converts a value of type LONG to a value of type BYTE.
+old-location: shell\LongToByte.htm
 old-project: shell
-ms.assetid: 46b20b7c-f822-4521-8598-73193da67d2c
+ms.assetid: f2851b5c-baf5-4e24-8cb0-c5beb11fd308
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
-ms.keywords: LongToUInt8, LongToUInt8 function [Windows Shell], intsafe/LongToUInt8, shell.LongToUInt8
+ms.date: 4/26/2018
+ms.keywords: LongToByte, LongToByte function [Windows Shell], LongToUInt8, _shell_LongToByte, intsafe/LongToByte, shell.LongToByte
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 7 [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2008 R2 [desktop apps | UWP apps]
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -33,9 +33,9 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	intsafe.h
+-	Intsafe.h
 api_name:
--	LongToUInt8
+-	LongToByte
 product: Windows
 targetos: Windows
 req.lib: 
@@ -50,7 +50,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Converts a value of type <b>LONG</b> to a value of type <b>UINT8</b>.
+Converts a value of type <b>LONG</b> to a value of type <b>BYTE</b>.
 
 
 ## -parameters
@@ -60,19 +60,41 @@ Converts a value of type <b>LONG</b> to a value of type <b>UINT8</b>.
 
 ### -param lOperand [in]
 
-The value to convert.
+Type: <b>LONG</b>
+
+The value to be converted.
 
 
-### -param pui8Result [out]
+### -param pui8Result
 
-The converted value.
+TBD
+
+
+
+
+#### - pb [out]
+
+Type: <b>BYTE*</b>
+
+A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns INTSAFE_E_ARITHMETIC_OVERFLOW and this parameter is not valid.
 
 
 ## -returns
 
 
 
+Type: <b>HRESULT</b>
+
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
 
 
 

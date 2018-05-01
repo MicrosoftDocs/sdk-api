@@ -7,7 +7,7 @@ old-location: mf\imfasfprofile_createstream.htm
 old-project: medfound
 ms.assetid: 3da52c1a-24c0-456b-a9e8-57b5467eda2a
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 3da52c1a-24c0-456b-a9e8-57b5467eda2a, CreateStream method [Media Foundation], CreateStream method [Media Foundation], IMFASFProfile interface, CreateStream,IMFASFProfile.CreateStream, IMFASFProfile, IMFASFProfile interface [Media Foundation], CreateStream method, IMFASFProfile::CreateStream, mf.imfasfprofile_createstream, wmcontainer/IMFASFProfile::CreateStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

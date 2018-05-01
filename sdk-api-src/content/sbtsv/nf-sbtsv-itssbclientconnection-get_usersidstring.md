@@ -7,7 +7,7 @@ old-location: termserv\itssbclientconnection_usersidstring.htm
 old-project: TermServ
 ms.assetid: b04eeeca-de53-4b29-a5e8-15018ac11dc5
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: ITsSbClientConnection, ITsSbClientConnection interface [Remote Desktop Services], UserSidString property, ITsSbClientConnection.UserSidString, ITsSbClientConnection::get_UserSidString, UserSidString property [Remote Desktop Services], UserSidString property [Remote Desktop Services], ITsSbClientConnection interface, get_UserSidString,ITsSbClientConnection.get_UserSidString, sbtsv/ITsSbClientConnection::UserSidString, sbtsv/ITsSbClientConnection::get_UserSidString, termserv.itssbclientconnection_usersidstring
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITsSbClientConnection::get_UserSidString method

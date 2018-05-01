@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmclassificationmanager_enumrules.htm
 old-project: Fsrm
 ms.assetid: 2f67527c-cde3-4907-9e61-4d9e18b18859
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: EnumRules method [File Server Resource Manager], EnumRules method [File Server Resource Manager], FsrmClassificationManager class, EnumRules method [File Server Resource Manager], IFsrmClassificationManager interface, EnumRules method [File Server Resource Manager], IFsrmClassificationManager2 interface, EnumRules,IFsrmClassificationManager.EnumRules, FsrmClassificationManager class [File Server Resource Manager], EnumRules method, IFsrmClassificationManager, IFsrmClassificationManager interface [File Server Resource Manager], EnumRules method, IFsrmClassificationManager2 interface [File Server Resource Manager], EnumRules method, IFsrmClassificationManager2::EnumRules, IFsrmClassificationManager::EnumRules, fs.ifsrmclassificationmanager_enumrules, fsrm.ifsrmclassificationmanager_enumrules, fsrmpipeline/IFsrmClassificationManager2::EnumRules, fsrmpipeline/IFsrmClassificationManager::EnumRules
 ms.prod: windows-hardware
 ms.technology: windows-devices

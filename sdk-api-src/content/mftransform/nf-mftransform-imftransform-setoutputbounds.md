@@ -7,7 +7,7 @@ old-location: mf\imftransform_setoutputbounds.htm
 old-project: medfound
 ms.assetid: 045f2f16-3f32-4cc4-9052-424f32274f34
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 045f2f16-3f32-4cc4-9052-424f32274f34, IMFTransform, IMFTransform interface [Media Foundation], SetOutputBounds method, IMFTransform::SetOutputBounds, SetOutputBounds method [Media Foundation], SetOutputBounds method [Media Foundation], IMFTransform interface, SetOutputBounds,IMFTransform.SetOutputBounds, mf.imftransform_setoutputbounds, mftransform/IMFTransform::SetOutputBounds
 ms.prod: windows-hardware
 ms.technology: windows-devices

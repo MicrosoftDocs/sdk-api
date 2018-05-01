@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicmetadatareader_getmetadatahandlerinfo.htm
 old-project: wic
 ms.assetid: f3843044-4963-4e9f-8b5d-69d0201c9ec9
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: GetMetadataHandlerInfo method [Windows Imaging Component], GetMetadataHandlerInfo method [Windows Imaging Component], IWICMetadataReader interface, GetMetadataHandlerInfo,IWICMetadataReader.GetMetadataHandlerInfo, IWICMetadataReader, IWICMetadataReader interface [Windows Imaging Component], GetMetadataHandlerInfo method, IWICMetadataReader::GetMetadataHandlerInfo, _wic_codec_iwicmetadatareader_getmetadatahandlerinfo, wic._wic_codec_iwicmetadatareader_getmetadatahandlerinfo, wincodecsdk/IWICMetadataReader::GetMetadataHandlerInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

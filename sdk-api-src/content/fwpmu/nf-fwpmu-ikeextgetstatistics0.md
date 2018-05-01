@@ -7,7 +7,7 @@ old-location: fwp\ikeextgetstatistics0.htm
 old-project: FWP
 ms.assetid: 1fbcd013-b556-41c0-bfbb-25e4ab2f6291
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: IkeextGetStatistics0, IkeextGetStatistics0 function [Filtering], fwp.ikeextgetstatistics0, fwpmu/IkeextGetStatistics0
 ms.prod: windows-hardware
 ms.technology: windows-devices

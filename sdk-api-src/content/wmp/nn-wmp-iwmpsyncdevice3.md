@@ -7,7 +7,7 @@ old-location: wmp\iwmpsyncdevice3.htm
 old-project: WMP
 ms.assetid: 4fc8d307-38d4-4f46-bd8c-b05d60d9d0fa
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPSyncDevice3, IWMPSyncDevice3 interface [Windows Media Player], IWMPSyncDevice3 interface [Windows Media Player], described, wmp.iwmpsyncdevice3, wmp/IWMPSyncDevice3
 ms.prod: windows-hardware
 ms.technology: windows-devices

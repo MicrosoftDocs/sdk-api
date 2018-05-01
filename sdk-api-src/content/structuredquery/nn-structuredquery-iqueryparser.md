@@ -7,7 +7,7 @@ old-location: search\_search_IQueryParser.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iqueryparser\iqueryparser.htm
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/24/2018
 ms.keywords: IQueryParser, IQueryParser interface [search], IQueryParser interface [search], described, _search_IQueryParser, search._search_IQueryParser, structuredquery/IQueryParser
 ms.prod: windows-hardware
 ms.technology: windows-devices

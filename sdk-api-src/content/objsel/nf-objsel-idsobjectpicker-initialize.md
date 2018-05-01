@@ -7,7 +7,7 @@ old-location: ad\idsobjectpicker_initialize.htm
 old-project: AD
 ms.assetid: bcf4d283-6709-4425-a122-8f0808502b58
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/20/2018
 ms.keywords: IDsObjectPicker, IDsObjectPicker interface [Active Directory], Initialize method, IDsObjectPicker::Initialize, Initialize method [Active Directory], Initialize method [Active Directory], IDsObjectPicker interface, Initialize,IDsObjectPicker.Initialize, _glines_idsobjectpicker_initialize, ad.idsobjectpicker__initialize, ad.idsobjectpicker_initialize, objsel/IDsObjectPicker::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Objsel.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IDsObjectPicker::Initialize method

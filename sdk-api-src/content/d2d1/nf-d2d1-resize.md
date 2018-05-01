@@ -7,7 +7,7 @@ old-location: direct2d\id2d1hwndrendertarget_resize.htm
 old-project: Direct2D
 ms.assetid: b8ea2e96-c69b-4018-9572-c9099bf6202d
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: Resize, Resize methods [Direct2D], d2d1/Resize, direct2d.id2d1hwndrendertarget_resize
 ms.prod: windows-hardware
 ms.technology: windows-devices

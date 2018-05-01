@@ -7,7 +7,7 @@ old-location: security\spaddcredentials.htm
 old-project: SecAuthN
 ms.assetid: 27377afa-4e54-4c6b-8e84-a8810bc01139
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/24/2018
 ms.keywords: SECPKG_CRED_INBOUND, SECPKG_CRED_OUTBOUND, SpAddCredentials, SpAddCredentials function [Security], SpAddCredentialsFn, _ssp_spaddcredentials, ntsecpkg/SpAddCredentials, security.spaddcredentials
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # SpAddCredentialsFn callback

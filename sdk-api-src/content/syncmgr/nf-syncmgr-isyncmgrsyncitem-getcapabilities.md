@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrSyncItem_GetCapabilities.htm
 old-project: shell
 ms.assetid: 6cb98b83-cf17-451c-ba29-700408f474c7
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetCapabilities method [Windows Shell], GetCapabilities method [Windows Shell], ISyncMgrSyncItem interface, GetCapabilities,ISyncMgrSyncItem.GetCapabilities, ISyncMgrSyncItem, ISyncMgrSyncItem interface [Windows Shell], GetCapabilities method, ISyncMgrSyncItem::GetCapabilities, _shell_ISyncMgrSyncItem_GetCapabilities, shell.ISyncMgrSyncItem_GetCapabilities, syncmgr/ISyncMgrSyncItem::GetCapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices

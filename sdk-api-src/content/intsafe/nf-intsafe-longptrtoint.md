@@ -7,7 +7,7 @@ old-location: shell\LongPtrToInt.htm
 old-project: shell
 ms.assetid: a9d16930-ac36-4781-99ee-e4da135b2e9c
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: LongPtrToInt, LongPtrToInt function [Windows Shell], _shell_LongPtrToInt, intsafe/LongPtrToInt, shell.LongPtrToInt
 ms.prod: windows-hardware
 ms.technology: windows-devices

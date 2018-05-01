@@ -7,7 +7,7 @@ old-location: tablet\itextinputpaneleventsink_textinserted.htm
 old-project: tablet
 ms.assetid: 61f3c21f-8658-421b-8494-d39a2faacc66
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: 61f3c21f-8658-421b-8494-d39a2faacc66, ITextInputPanelEventSink, ITextInputPanelEventSink interface [Tablet PC], TextInserted method, ITextInputPanelEventSink::TextInserted, TextInserted method [Tablet PC], TextInserted method [Tablet PC], ITextInputPanelEventSink interface, TextInserted,ITextInputPanelEventSink.TextInserted, peninputpanel/ITextInputPanelEventSink::TextInserted, tablet.itextinputpaneleventsink_textinserted
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Tiptsf.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITextInputPanelEventSink::TextInserted method

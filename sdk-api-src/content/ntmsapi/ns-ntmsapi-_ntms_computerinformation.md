@@ -7,7 +7,7 @@ old-location: fs\ntms_computerinformation.htm
 old-project: Rsm
 ms.assetid: 11dd71eb-7193-40d5-b193-4d529eec3ca7
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/5/2018
 ms.keywords: NTMS_COMPUTERINFO, NTMS_COMPUTERINFO structure [Files], NTMS_COMPUTERINFORMATION, NTMS_COMPUTERINFORMATION structure [Files], NTMS_LIBREQFLAGS_NOAUTOPURGE, NTMS_LIBREQFLAGS_NOFAILEDPURGE, NTMS_OPREQFLAGS_NOALERTS, NTMS_OPREQFLAGS_NOAUTOPURGE, NTMS_OPREQFLAGS_NOFAILEDPURGE, NTMS_OPREQFLAGS_NOTRAYICON, NTMS_POOLPOLICY_KEEPOFFLINEIMPORT, NTMS_POOLPOLICY_PURGEOFFLINESCRATCH, _NTMS_COMPUTERINFORMATION, _zaw_ntms_computerinformation, base.ntms_computerinformation, fs.ntms_computerinformation, ntmsapi/NTMS_COMPUTERINFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _NTMS_COMPUTERINFORMATION structure

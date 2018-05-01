@@ -7,7 +7,7 @@ old-location: wmi\iwbemeventsink_setsinksecurity.htm
 old-project: WmiSdk
 ms.assetid: 887b3c21-2ff6-4ae9-80bf-19f601da5e8b
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: IWbemEventSink, IWbemEventSink interface [Windows Management Instrumentation], SetSinkSecurity method, IWbemEventSink::SetSinkSecurity, SetSinkSecurity method [Windows Management Instrumentation], SetSinkSecurity method [Windows Management Instrumentation], IWbemEventSink interface, SetSinkSecurity,IWbemEventSink.SetSinkSecurity, _hmm_iwbemeventsink_setsinksecurity, wbemprov/IWbemEventSink::SetSinkSecurity, wmi.iwbemeventsink_setsinksecurity
 ms.prod: windows-hardware
 ms.technology: windows-devices

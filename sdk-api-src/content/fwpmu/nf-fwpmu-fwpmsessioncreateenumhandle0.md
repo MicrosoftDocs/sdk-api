@@ -7,7 +7,7 @@ old-location: fwp\fwpmsessioncreateenumhandle0_func.htm
 old-project: FWP
 ms.assetid: 018944eb-698b-4d3e-a9ba-253b8bbebea7
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: FwpmSessionCreateEnumHandle0, FwpmSessionCreateEnumHandle0 function [Filtering], fwp.fwpmsessioncreateenumhandle0_func, fwpmu/FwpmSessionCreateEnumHandle0
 ms.prod: windows-hardware
 ms.technology: windows-devices

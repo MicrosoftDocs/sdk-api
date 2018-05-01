@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutboundrouting_getgroups_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_8j1v_cpp.htm
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/18/2018
 ms.keywords: GetGroups method [Fax Service], GetGroups method [Fax Service], IFaxOutboundRouting interface, GetGroups,IFaxOutboundRouting.GetGroups, IFaxOutboundRouting, IFaxOutboundRouting interface [Fax Service], GetGroups method, IFaxOutboundRouting::GetGroups, _mfax_faxoutboundrouting.getgroups_cpp, fax._mfax_faxoutboundrouting_getgroups_cpp, faxcomex/IFaxOutboundRouting::GetGroups
 ms.prod: windows-hardware
 ms.technology: windows-devices

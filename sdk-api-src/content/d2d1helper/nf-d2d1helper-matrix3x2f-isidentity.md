@@ -7,7 +7,7 @@ old-location: direct2d\matrix3x2f_isidentity.htm
 old-project: Direct2D
 ms.assetid: e0af1a04-efcb-4613-9715-f3d6ab60afed
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: D2D1.Matrix3x2F.IsIdentity, D2D1::Matrix3x2F::IsIdentity, IsIdentity method [Direct2D], IsIdentity method [Direct2D], Matrix3x2F interface, IsIdentity,Matrix3x2F.IsIdentity, Matrix3x2F, Matrix3x2F interface [Direct2D], IsIdentity method, Matrix3x2F::IsIdentity, d2d1helper/Matrix3x2F::IsIdentity, direct2d.matrix3x2f_isidentity
 ms.prod: windows-hardware
 ms.technology: windows-devices

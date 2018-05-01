@@ -7,7 +7,7 @@ old-location: mstv\iencoderapi_getparametervalues.htm
 old-project: mstv
 ms.assetid: 406316b5-1de0-4a89-b1bc-2f3b63ab0739
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetParameterValues method [Microsoft TV Technologies], GetParameterValues method [Microsoft TV Technologies], IEncoderAPI interface, GetParameterValues,IEncoderAPI.GetParameterValues, IEncoderAPI, IEncoderAPI interface [Microsoft TV Technologies], GetParameterValues method, IEncoderAPI::GetParameterValues, IEncoderAPIGetParameterValues, mstv.iencoderapi_getparametervalues, strmif/IEncoderAPI::GetParameterValues
 ms.prod: windows-hardware
 ms.technology: windows-devices

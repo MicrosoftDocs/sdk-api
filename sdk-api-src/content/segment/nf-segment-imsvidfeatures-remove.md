@@ -7,7 +7,7 @@ old-location: mstv\imsvidfeatures_remove.htm
 old-project: mstv
 ms.assetid: 6a9e35e2-231e-4ad6-ac57-e6258df2777f
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidFeatures, IMSVidFeatures interface [Microsoft TV Technologies], Remove method, IMSVidFeatures::Remove, IMSVidFeaturesRemove, Remove method [Microsoft TV Technologies], Remove method [Microsoft TV Technologies], IMSVidFeatures interface, Remove,IMSVidFeatures.Remove, mstv.imsvidfeatures_remove, segment/IMSVidFeatures::Remove
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidFeatures::Remove method

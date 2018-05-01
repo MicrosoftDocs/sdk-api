@@ -7,7 +7,7 @@ old-location: setup\msirecordsetstream.htm
 old-project: Msi
 ms.assetid: ca62f6a6-2f39-4b4c-876f-4c74ecd28ee2
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/26/2018
 ms.keywords: MsiRecordSetStream, MsiRecordSetStream function, MsiRecordSetStreamA, MsiRecordSetStreamW, _msi_msirecordsetstream, msiquery/MsiRecordSetStream, msiquery/MsiRecordSetStreamA, msiquery/MsiRecordSetStreamW, setup.msirecordsetstream
 ms.prod: windows-hardware
 ms.technology: windows-devices

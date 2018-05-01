@@ -7,7 +7,7 @@ old-location: com\ifont_sethdc.htm
 old-project: com
 ms.assetid: daba0cfa-1628-415a-8161-75f7edfeeca8
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IFont, IFont interface [COM], SetHdc method, IFont::SetHdc, SetHdc method [COM], SetHdc method [COM], IFont interface, SetHdc,IFont.SetHdc, _ctrl_ifont_sethdc, com.ifont_sethdc, ocidl/IFont::SetHdc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IFont::SetHdc method

@@ -7,7 +7,7 @@ old-location: cos\componenthangmonitorinfo.htm
 old-project: cossdk
 ms.assetid: 062b7bcf-e9b2-4024-ba9c-700cc7d69963
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: ComponentHangMonitorInfo, ComponentHangMonitorInfo structure [COM+], _ComponentHangMonitorInfo, comsvcs/ComponentHangMonitorInfo, cos.componenthangmonitorinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

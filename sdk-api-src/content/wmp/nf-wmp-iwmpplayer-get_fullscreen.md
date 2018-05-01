@@ -7,7 +7,7 @@ old-location: wmp\iwmpplayer_get_fullscreen.htm
 old-project: WMP
 ms.assetid: 5a8bb0b5-76c6-424f-ba37-5e913b6ed542
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPPlayer, IWMPPlayer interface [Windows Media Player], get_fullScreen method, IWMPPlayer::get_fullScreen, IWMPPlayerget_fullScreen, get_fullScreen method [Windows Media Player], get_fullScreen method [Windows Media Player], IWMPPlayer interface, get_fullScreen,IWMPPlayer.get_fullScreen, wmp.iwmpplayer_get_fullscreen, wmp/IWMPPlayer::get_fullScreen
 ms.prod: windows-hardware
 ms.technology: windows-devices

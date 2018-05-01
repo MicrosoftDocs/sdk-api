@@ -7,7 +7,7 @@ old-location: com\iadvisesink_ondatachange.htm
 old-project: com
 ms.assetid: 834a5328-3a1f-4edb-aad0-be8ab87acb04
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IAdviseSink, IAdviseSink interface [COM], OnDataChange method, IAdviseSink::OnDataChange, OnDataChange method [COM], OnDataChange method [COM], IAdviseSink interface, OnDataChange,IAdviseSink.OnDataChange, _ole_iadvisesink_ondatachange, com.iadvisesink_ondatachange, objidl/IAdviseSink::OnDataChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IAdviseSink::OnDataChange method

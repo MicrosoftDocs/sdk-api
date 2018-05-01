@@ -7,7 +7,7 @@ old-location: fwp\fwpm_sublayer_change_callback0_func.htm
 old-project: FWP
 ms.assetid: b608d13f-bc76-478b-b18f-527f438a1222
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: FWPM_SUBLAYER_CHANGE_CALLBACK0, FWPM_SUBLAYER_CHANGE_CALLBACK0 function pointer [Filtering], fwp.fwpm_sublayer_change_callback0_func, fwpmu/FWPM_SUBLAYER_CHANGE_CALLBACK0
 ms.prod: windows-hardware
 ms.technology: windows-devices

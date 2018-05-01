@@ -7,7 +7,7 @@ old-location: wmi\iwbemclassobject_spawninstance.htm
 old-project: WmiSdk
 ms.assetid: 3f244c1b-60ed-41ff-8464-5ac66737a5da
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: IWbemClassObject, IWbemClassObject interface [Windows Management Instrumentation], SpawnInstance method, IWbemClassObject::SpawnInstance, SpawnInstance method [Windows Management Instrumentation], SpawnInstance method [Windows Management Instrumentation], IWbemClassObject interface, SpawnInstance,IWbemClassObject.SpawnInstance, _hmm_iwbemclassobject_spawninstance, wbemcli/IWbemClassObject::SpawnInstance, wmi.iwbemclassobject_spawninstance
 ms.prod: windows-hardware
 ms.technology: windows-devices

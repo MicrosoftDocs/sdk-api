@@ -7,7 +7,7 @@ old-location: wua\iupdate_isinstalled.htm
 old-project: Wua_Sdk
 ms.assetid: 2adebe8e-554e-4337-9bbf-1d8967fefef1
 ms.author: windowsdriverdev
-ms.date: 3/15/2018
+ms.date: 4/18/2018
 ms.keywords: IUpdate, IUpdate interface [Windows Update Agent], IsInstalled property, IUpdate.IsInstalled, IUpdate::get_IsInstalled, IsInstalled property [Windows Update Agent], IsInstalled property [Windows Update Agent], IUpdate interface, get_IsInstalled,IUpdate.get_IsInstalled, wua.iupdate_isinstalled, wuapi/IUpdate::IsInstalled, wuapi/IUpdate::get_IsInstalled
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wic\iwicddsframedecode_copyblocks.htm
 old-project: wic
 ms.assetid: D090AA8E-46F2-40C9-A156-12038053E040
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: CopyBlocks method [Windows Imaging Component], CopyBlocks method [Windows Imaging Component], IWICDdsFrameDecode interface, CopyBlocks,IWICDdsFrameDecode.CopyBlocks, IWICDdsFrameDecode, IWICDdsFrameDecode interface [Windows Imaging Component], CopyBlocks method, IWICDdsFrameDecode::CopyBlocks, wic.iwicddsframedecode_copyblocks, wincodec/IWICDdsFrameDecode::CopyBlocks
 ms.prod: windows-hardware
 ms.technology: windows-devices

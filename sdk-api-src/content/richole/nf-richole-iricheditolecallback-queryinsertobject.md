@@ -7,7 +7,7 @@ old-location: controls\IRichEditOleCallback_QueryInsertObject.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditolecallback\iricheditolecallbackqueryinsertobject.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: IRichEditOleCallback, IRichEditOleCallback interface [Windows Controls], QueryInsertObject method, IRichEditOleCallback::QueryInsertObject, QueryInsertObject method [Windows Controls], QueryInsertObject method [Windows Controls], IRichEditOleCallback interface, QueryInsertObject,IRichEditOleCallback.QueryInsertObject, _win32_IRichEditOleCallback_QueryInsertObject, _win32_IRichEditOleCallback_QueryInsertObject_cpp, controls.IRichEditOleCallback_QueryInsertObject, controls._win32_IRichEditOleCallback_QueryInsertObject, richole/IRichEditOleCallback::QueryInsertObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IRichEditOleCallback::QueryInsertObject method

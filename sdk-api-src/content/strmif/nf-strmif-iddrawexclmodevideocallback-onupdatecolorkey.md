@@ -7,7 +7,7 @@ old-location: dshow\iddrawexclmodevideocallback_onupdatecolorkey.htm
 old-project: DirectShow
 ms.assetid: 87d4a4b5-f67e-46f6-956a-1c9c309bfde7
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IDDrawExclModeVideoCallback, IDDrawExclModeVideoCallback interface [DirectShow], OnUpdateColorKey method, IDDrawExclModeVideoCallback::OnUpdateColorKey, IDDrawExclModeVideoCallbackOnUpdateColorKey, OnUpdateColorKey method [DirectShow], OnUpdateColorKey method [DirectShow], IDDrawExclModeVideoCallback interface, OnUpdateColorKey,IDDrawExclModeVideoCallback.OnUpdateColorKey, dshow.iddrawexclmodevideocallback_onupdatecolorkey, strmif/IDDrawExclModeVideoCallback::OnUpdateColorKey
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tapi3\cmspcallbase_handlestreamevent.htm
 old-project: Tapi
 ms.assetid: 196f6b18-0de7-463b-9b0f-7b4d666e7470
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: CMSPCallBase, CMSPCallBase interface [TAPI 2.2], HandleStreamEvent method, CMSPCallBase::HandleStreamEvent, HandleStreamEvent method [TAPI 2.2], HandleStreamEvent method [TAPI 2.2], CMSPCallBase interface, HandleStreamEvent,CMSPCallBase.HandleStreamEvent, _tapi3_cmspcallbase_handlestreamevent, mspcall/CMSPCallBase::HandleStreamEvent, tapi3.cmspcallbase_handlestreamevent
 ms.prod: windows-hardware
 ms.technology: windows-devices

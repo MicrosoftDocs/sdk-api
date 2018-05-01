@@ -7,7 +7,7 @@ old-location: wmformat\wmt_videoimage_sample.htm
 old-project: wmformat
 ms.assetid: 8572ca63-760e-4bb8-886e-8e46b8dce9e9
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: WMT_VIDEOIMAGE_SAMPLE, WMT_VIDEOIMAGE_SAMPLE structure [windows Media Format], __WMT_VIDEOIMAGE_SAMPLE, wmformat.wmt_videoimage_sample, wmsdkidl/WMT_VIDEOIMAGE_SAMPLE
 ms.prod: windows-hardware
 ms.technology: windows-devices

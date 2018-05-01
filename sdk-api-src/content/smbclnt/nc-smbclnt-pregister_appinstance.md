@@ -7,7 +7,7 @@ old-location: mscs\registerappinstance.htm
 old-project: MsCS
 ms.assetid: 43CAC59A-5773-44BD-8965-F9FB85B86926
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: PREGISTER_APPINSTANCE, PREGISTER_APPINSTANCE callback function [Failover Cluster], mscs.registerappinstance, smbclnt/PREGISTER_APPINSTANCE
 ms.prod: windows-hardware
 ms.technology: windows-devices

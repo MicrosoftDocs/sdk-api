@@ -7,7 +7,7 @@ old-location: controls\ITextRange_MoveWhile.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\movewhile.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextRange, ITextRange interface [Windows Controls], MoveWhile method, ITextRange::MoveWhile, MoveWhile method [Windows Controls], MoveWhile method [Windows Controls], ITextRange interface, MoveWhile,ITextRange.MoveWhile, _win32_ITextRange_MoveWhile, _win32_ITextRange_MoveWhile_cpp, controls.ITextRange_MoveWhile, controls._win32_ITextRange_MoveWhile, tom/ITextRange::MoveWhile
 ms.prod: windows-hardware
 ms.technology: windows-devices

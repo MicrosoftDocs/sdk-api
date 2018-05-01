@@ -7,7 +7,7 @@ old-location: security\expandauthdatafordomain.htm
 old-project: SecAuthN
 ms.assetid: 965d8575-a05b-45d8-8718-4004f1d22ca5
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/24/2018
 ms.keywords: ExpandAuthDataForDomain, ExpandAuthDataForDomain function [Security], LSA_EXPAND_AUTH_DATA_FOR_DOMAIN, ntsecpkg/ExpandAuthDataForDomain, security.expandauthdatafordomain
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # LSA_EXPAND_AUTH_DATA_FOR_DOMAIN callback

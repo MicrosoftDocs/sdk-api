@@ -7,7 +7,7 @@ old-location: security\certstoreprovwritecrlcallback.htm
 old-project: SecCrypto
 ms.assetid: ba259770-4462-4d1e-bd60-8572612fe032
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: CertStoreProvWriteCRLCallback, CertStoreProvWriteCRLCallback callback function [Security], PFN_CERT_STORE_PROV_WRITE_CRL, PFN_CERT_STORE_PROV_WRITE_CRL callback function [Security], _crypto2_certstoreprovwritecrlcallback, security.certstoreprovwritecrlcallback, wincrypt/CertStoreProvWriteCRLCallback, wincrypt/PFN_CERT_STORE_PROV_WRITE_CRL
 ms.prod: windows-hardware
 ms.technology: windows-devices

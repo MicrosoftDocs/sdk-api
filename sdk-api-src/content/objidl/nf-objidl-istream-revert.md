@@ -7,7 +7,7 @@ old-location: stg\istream_revert.htm
 old-project: Stg
 ms.assetid: 1a707b17-840f-4cd2-9e43-97a8c02120b8
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/20/2018
 ms.keywords: IStream, IStream interface [Structured Storage], Revert method, IStream::Revert, Revert method [Structured Storage], Revert method [Structured Storage], IStream interface, Revert,IStream.Revert, _stg_istream_revert, objidl/IStream::Revert, stg.istream_revert
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IStream::Revert method

@@ -7,7 +7,7 @@ old-location: mf\imfsensordevice_getdeviceid.htm
 old-project: medfound
 ms.assetid: 90598DC7-A4FB-4C3F-A671-1549703AC9DB
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetDeviceId method [Media Foundation], GetDeviceId method [Media Foundation], IMFSensorDevice interface, GetDeviceId,IMFSensorDevice.GetDeviceId, IMFSensorDevice, IMFSensorDevice interface [Media Foundation], GetDeviceId method, IMFSensorDevice::GetDeviceId, mf.imfsensordevice_getdeviceid, mfidl/IMFSensorDevice::GetDeviceId
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct3d11\id3dinclude_close.htm
 old-project: direct3d11
 ms.assetid: d4513e15-dfe7-4919-a278-d386f25e65e5
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/6/2018
 ms.keywords: Close method [Direct3D 11], Close method [Direct3D 11], ID3DInclude interface, Close,ID3DInclude.Close, ID3DInclude, ID3DInclude interface [Direct3D 11], Close method, ID3DInclude::Close, d3dcommon/ID3DInclude::Close, direct3d11.id3dinclude_close
 ms.prod: windows-hardware
 ms.technology: windows-devices

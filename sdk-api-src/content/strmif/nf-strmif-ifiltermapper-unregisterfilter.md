@@ -7,7 +7,7 @@ old-location: dshow\ifiltermapper_unregisterfilter.htm
 old-project: DirectShow
 ms.assetid: 9b5941d4-d0e7-4f4a-b273-e0fa4a1e1c2e
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IFilterMapper, IFilterMapper interface [DirectShow], UnregisterFilter method, IFilterMapper::UnregisterFilter, IFilterMapperUnregisterFilter, UnregisterFilter method [DirectShow], UnregisterFilter method [DirectShow], IFilterMapper interface, UnregisterFilter,IFilterMapper.UnregisterFilter, dshow.ifiltermapper_unregisterfilter, strmif/IFilterMapper::UnregisterFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wua\iupdate.htm
 old-project: Wua_Sdk
 ms.assetid: d0feee2a-96f6-4c86-aaf8-f49d05616fc9
 ms.author: windowsdriverdev
-ms.date: 3/15/2018
+ms.date: 4/18/2018
 ms.keywords: IUpdate, IUpdate interface [Windows Update Agent], IUpdate interface [Windows Update Agent], described, wua.iupdate, wuapi/IUpdate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-req.product: HPC Pack 2008 R2 Client Utilities, HPC Pack 2008 Client Utilities
+req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
 # IUpdate interface

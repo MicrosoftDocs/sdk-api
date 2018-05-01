@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12infoqueue_popretrievalfilter.htm
 old-project: direct3d12
 ms.assetid: 06C23F24-0FD0-4B48-8F21-1E68420B7E65
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: ID3D12InfoQueue, ID3D12InfoQueue interface, PopRetrievalFilter method, ID3D12InfoQueue::PopRetrievalFilter, PopRetrievalFilter method, PopRetrievalFilter method, ID3D12InfoQueue interface, PopRetrievalFilter,ID3D12InfoQueue.PopRetrievalFilter, d3d12sdklayers/ID3D12InfoQueue::PopRetrievalFilter, direct3d12.id3d12infoqueue_popretrievalfilter
 ms.prod: windows-hardware
 ms.technology: windows-devices

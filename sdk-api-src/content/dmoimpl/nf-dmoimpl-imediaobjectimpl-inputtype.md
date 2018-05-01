@@ -7,7 +7,7 @@ old-location: dshow\imediaobjectimpl_inputtype.htm
 old-project: DirectShow
 ms.assetid: e595ac21-14e0-45ae-a286-7938ad0e0a02
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IMediaObjectImpl, IMediaObjectImpl interface [DirectShow], InputType method, IMediaObjectImpl::InputType, IMediaObjectImplInputType, InputType method [DirectShow], InputType method [DirectShow], IMediaObjectImpl interface, InputType,IMediaObjectImpl.InputType, dmoimpl/IMediaObjectImpl::InputType, dshow.imediaobjectimpl_inputtype
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: 
+req.typenames: VMEMHEAP
 topic_type:
 -	APIRef
 -	kbSyntax

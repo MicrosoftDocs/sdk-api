@@ -7,7 +7,7 @@ old-location: mstv\istreambuffersink_lockprofile.htm
 old-project: mstv
 ms.assetid: 9e694cc2-090e-43b1-88c7-77175a930bf1
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IStreamBufferSink, IStreamBufferSink interface [Microsoft TV Technologies], LockProfile method, IStreamBufferSink::LockProfile, IStreamBufferSinkLockProfile, LockProfile method [Microsoft TV Technologies], LockProfile method [Microsoft TV Technologies], IStreamBufferSink interface, LockProfile,IStreamBufferSink.LockProfile, mstv.istreambuffersink_lockprofile, sbe/IStreamBufferSink::LockProfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IStreamBufferSink::LockProfile method

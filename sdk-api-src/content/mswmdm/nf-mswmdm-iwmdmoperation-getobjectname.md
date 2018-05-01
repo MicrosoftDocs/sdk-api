@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmoperation_getobjectname.htm
 old-project: WMDM
 ms.assetid: e66882ec-2fcf-44c7-b78a-a3b55d9e9ec4
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: GetObjectName method [windows Media Device Manager], GetObjectName method [windows Media Device Manager], IWMDMOperation interface, GetObjectName,IWMDMOperation.GetObjectName, IWMDMOperation, IWMDMOperation interface [windows Media Device Manager], GetObjectName method, IWMDMOperation::GetObjectName, IWMDMOperationGetObjectName, mswmdm/IWMDMOperation::GetObjectName, wmdm.iwmdmoperation_getobjectname
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IWMDMOperation::GetObjectName method

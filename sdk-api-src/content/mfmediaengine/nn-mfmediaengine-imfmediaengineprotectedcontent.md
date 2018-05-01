@@ -7,7 +7,7 @@ old-location: mf\imfmediaengineprotectedcontent.htm
 old-project: medfound
 ms.assetid: 85B37711-DB46-4BC7-A051-79E9507791FA
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFMediaEngineProtectedContent, IMFMediaEngineProtectedContent interface [Media Foundation], IMFMediaEngineProtectedContent interface [Media Foundation], described, mf.imfmediaengineprotectedcontent, mfmediaengine/IMFMediaEngineProtectedContent
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mschap\lm_owf_password.htm
 old-project: MsChap
 ms.assetid: db155f34-fa57-4449-9319-d46561fd18c0
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/16/2018
 ms.keywords: "*PLM_OWF_PASSWORD, *PNT_OWF_PASSWORD, LM_OWF_PASSWORD, LM_OWF_PASSWORD structure [MS-CHAP], NT_OWF_PASSWORD, PLM_OWF_PASSWORD, PLM_OWF_PASSWORD structure pointer [MS-CHAP], _LM_OWF_PASSWORD, mschap.lm_owf_password, mschapp/LM_OWF_PASSWORD, mschapp/PLM_OWF_PASSWORD"
 ms.prod: windows-hardware
 ms.technology: windows-devices

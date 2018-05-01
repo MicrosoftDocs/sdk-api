@@ -7,7 +7,7 @@ old-location: search\_search_ISearchPersistentItemsChangedSink_StartedMonitoring
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\notifications\isearchpersistentitemschangedsink\startedmonitoringscope.htm
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/24/2018
 ms.keywords: ISearchPersistentItemsChangedSink, ISearchPersistentItemsChangedSink interface [search], StartedMonitoringScope method, ISearchPersistentItemsChangedSink::StartedMonitoringScope, StartedMonitoringScope method [search], StartedMonitoringScope method [search], ISearchPersistentItemsChangedSink interface, StartedMonitoringScope,ISearchPersistentItemsChangedSink.StartedMonitoringScope, _search_ISearchPersistentItemsChangedSink_StartedMonitoringScope, search._search_ISearchPersistentItemsChangedSink_StartedMonitoringScope, searchapi/ISearchPersistentItemsChangedSink::StartedMonitoringScope
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ISearchPersistentItemsChangedSink::StartedMonitoringScope method

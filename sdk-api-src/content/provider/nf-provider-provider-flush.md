@@ -7,7 +7,7 @@ old-location: wmi\provider_flush.htm
 old-project: WmiSdk
 ms.assetid: c8be35ec-cd2e-45ec-b47f-48acf5e6f51a
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: "?Flush@Provider@@MAEXXZ, ?Flush@Provider@@MEAAXXZ, Flush method [Windows Management Instrumentation], Flush method [Windows Management Instrumentation], Provider interface, Flush,Provider.Flush, Provider, Provider interface [Windows Management Instrumentation], Flush method, Provider::Flush, _hmm_provider_flush, provider/Provider::Flush, wmi.provider_flush"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # Provider::Flush method

@@ -7,7 +7,7 @@ old-location: cos\icontextstate_getdeactivateonreturn.htm
 old-project: cossdk
 ms.assetid: 4e9623eb-1bf1-4649-9071-b731bf95a401
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: GetDeactivateOnReturn method [COM+], GetDeactivateOnReturn method [COM+], IContextState interface, GetDeactivateOnReturn,IContextState.GetDeactivateOnReturn, IContextState, IContextState interface [COM+], GetDeactivateOnReturn method, IContextState::GetDeactivateOnReturn, _cos_IContextState_GetDeactivateOnReturn, comsvcs/IContextState::GetDeactivateOnReturn, cos.icontextstate_getdeactivateonreturn
 ms.prod: windows-hardware
 ms.technology: windows-devices

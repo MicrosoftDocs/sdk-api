@@ -7,7 +7,7 @@ old-location: automat\itypeinfo_getdocumentation.htm
 old-project: automat
 ms.assetid: 64d2cb0c-d0ca-499b-b089-44525f7f9749
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: GetDocumentation method [Automation], GetDocumentation method [Automation], ITypeInfo interface, GetDocumentation,ITypeInfo.GetDocumentation, ITypeInfo, ITypeInfo interface [Automation], GetDocumentation method, ITypeInfo::GetDocumentation, _oa96_ITypeInfo_GetDocumentation, automat.itypeinfo_getdocumentation, oaidl/ITypeInfo::GetDocumentation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITypeInfo::GetDocumentation method

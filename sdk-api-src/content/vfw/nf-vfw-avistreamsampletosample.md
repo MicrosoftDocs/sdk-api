@@ -7,7 +7,7 @@ old-location: multimedia\avistreamsampletosample.htm
 old-project: Multimedia
 ms.assetid: ed726651-d8f3-4dba-b81d-e283733cabe2
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/25/2018
 ms.keywords: AVIStreamSampleToSample, AVIStreamSampleToSample macro [Windows Multimedia], _win32_AVIStreamSampleToSample, multimedia.avistreamsampletosample, vfw/AVIStreamSampleToSample
 ms.prod: windows-hardware
 ms.technology: windows-devices

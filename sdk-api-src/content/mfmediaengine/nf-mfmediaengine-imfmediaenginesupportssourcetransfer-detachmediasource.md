@@ -7,7 +7,7 @@ old-location: mf\imfmediaenginesupportssourcetransfer_detachmediasource.htm
 old-project: medfound
 ms.assetid: a085fc53-91a3-46bb-862c-dde16fb7fa42
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: DetachMediaSource method [Media Foundation], DetachMediaSource method [Media Foundation], IMFMediaEngineSupportsSourceTransfer interface, DetachMediaSource,IMFMediaEngineSupportsSourceTransfer.DetachMediaSource, IMFMediaEngineSupportsSourceTransfer, IMFMediaEngineSupportsSourceTransfer interface [Media Foundation], DetachMediaSource method, IMFMediaEngineSupportsSourceTransfer::DetachMediaSource, mf.imfmediaenginesupportssourcetransfer_detachmediasource, mfmediaengine/IMFMediaEngineSupportsSourceTransfer::DetachMediaSource
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: p2p\peer_event_synchronized_data.htm
 old-project: P2PSdk
 ms.assetid: ae7dc220-a827-4671-97b3-1ac039ab3e08
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/23/2018
 ms.keywords: "*PPEER_EVENT_SYNCHRONIZED_DATA, PEER_EVENT_SYNCHRONIZED_DATA, PEER_EVENT_SYNCHRONIZED_DATA structure [Peer Networking], PPEER_EVENT_SYNCHRONIZED_DATA, PPEER_EVENT_SYNCHRONIZED_DATA structure pointer [Peer Networking], p2p.peer_event_synchronized_data, p2p/PPEER_EVENT_SYNCHRONIZED_DATA, p2p/peer_event_synchronized_data_tag, peer_event_synchronized_data_tag"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # peer_event_synchronized_data_tag structure

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_itransformprovider2_zoomminimum.htm
 old-project: WinAuto
 ms.assetid: 823C5043-214F-455E-8F6F-172A097A169F
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: ITransformProvider2, ITransformProvider2 interface [Windows Accessibility], ZoomMinimum property, ITransformProvider2.ZoomMinimum, ITransformProvider2::get_ZoomMinimum, ZoomMinimum property [Windows Accessibility], ZoomMinimum property [Windows Accessibility], ITransformProvider2 interface, get_ZoomMinimum,ITransformProvider2.get_ZoomMinimum, uiautomationcore/ITransformProvider2::ZoomMinimum, uiautomationcore/ITransformProvider2::get_ZoomMinimum, winauto.uiauto_itransformprovider2_zoomminimum
 ms.prod: windows-hardware
 ms.technology: windows-devices

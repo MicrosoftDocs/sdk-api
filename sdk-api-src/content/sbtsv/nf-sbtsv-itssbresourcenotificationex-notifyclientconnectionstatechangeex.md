@@ -7,7 +7,7 @@ old-location: termserv\itssbresourcenotificationex_notifyclientconnectionstatech
 old-project: TermServ
 ms.assetid: 79f59e18-f9ca-4e64-b8a1-8b0dd2b2715e
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: CONNECTION_REQUEST_CANCELLED, CONNECTION_REQUEST_FAILED, CONNECTION_REQUEST_PENDING, CONNECTION_REQUEST_SUCCEEDED, CONNECTION_REQUEST_TIMEDOUT, ITsSbResourceNotificationEx, ITsSbResourceNotificationEx interface [Remote Desktop Services], NotifyClientConnectionStateChangeEx method, ITsSbResourceNotificationEx::NotifyClientConnectionStateChangeEx, NotifyClientConnectionStateChangeEx method [Remote Desktop Services], NotifyClientConnectionStateChangeEx method [Remote Desktop Services], ITsSbResourceNotificationEx interface, NotifyClientConnectionStateChangeEx,ITsSbResourceNotificationEx.NotifyClientConnectionStateChangeEx, sbtsv/ITsSbResourceNotificationEx::NotifyClientConnectionStateChangeEx, termserv.itssbresourcenotificationex_notifyclientconnectionstatechangeex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITsSbResourceNotificationEx::NotifyClientConnectionStateChangeEx method

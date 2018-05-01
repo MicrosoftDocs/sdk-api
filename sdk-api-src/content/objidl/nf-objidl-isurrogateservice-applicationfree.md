@@ -7,7 +7,7 @@ old-location: com\isurrogateservice_applicationfree.htm
 old-project: com
 ms.assetid: 703de030-ac99-4673-8399-695116bf07d5
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: ApplicationFree method [COM], ApplicationFree method [COM], ISurrogateService interface, ApplicationFree,ISurrogateService.ApplicationFree, ISurrogateService, ISurrogateService interface [COM], ApplicationFree method, ISurrogateService::ApplicationFree, _com_isurrogateservice_applicationfree, com.isurrogateservice_applicationfree, objidl/ISurrogateService::ApplicationFree
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ISurrogateService::ApplicationFree method

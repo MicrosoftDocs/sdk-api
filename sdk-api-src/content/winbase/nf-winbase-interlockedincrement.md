@@ -7,7 +7,7 @@ old-location: base\interlockedincrement.htm
 old-project: Sync
 ms.assetid: 87eda7fb-966d-4630-9da6-8933b53daadd
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: InterlockedIncrement, InterlockedIncrement function, _win32_interlockedincrement, base.interlockedincrement, winbase/InterlockedIncrement
 ms.prod: windows-hardware
 ms.technology: windows-devices

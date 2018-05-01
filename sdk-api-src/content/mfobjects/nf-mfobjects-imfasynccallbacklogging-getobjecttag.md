@@ -7,7 +7,7 @@ old-location: mf\imfasynccallbacklogging_getobjecttag.htm
 old-project: medfound
 ms.assetid: f556a163-54d1-4353-ab9e-e8aa6bf35958
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetObjectTag method [Media Foundation], GetObjectTag method [Media Foundation], IMFAsyncCallbackLogging interface, GetObjectTag,IMFAsyncCallbackLogging.GetObjectTag, IMFAsyncCallbackLogging, IMFAsyncCallbackLogging interface [Media Foundation], GetObjectTag method, IMFAsyncCallbackLogging::GetObjectTag, mf.imfasynccallbacklogging_getobjecttag, mfobjects/IMFAsyncCallbackLogging::GetObjectTag
 ms.prod: windows-hardware
 ms.technology: windows-devices

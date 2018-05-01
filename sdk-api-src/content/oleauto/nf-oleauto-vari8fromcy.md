@@ -7,7 +7,7 @@ old-location: automat\vari8fromcy.htm
 old-project: automat
 ms.assetid: b3a82903-eba7-44a7-9a63-0c008bdc618b
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: VarI8FromCy, VarI8FromCy function [Automation], _oa96_VarI8FromCy, automat.vari8fromcy, oleauto/VarI8FromCy
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # VarI8FromCy function

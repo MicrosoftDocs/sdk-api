@@ -7,7 +7,7 @@ old-location: security\tokenbinding_result_list.htm
 old-project: SecCNG
 ms.assetid: D14CBEA3-5F46-4C45-8C11-407D6E70FD56
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: TOKENBINDING_RESULT_LIST, TOKENBINDING_RESULT_LIST structure [Security], security.tokenbinding_result_list, tokenbinding/TOKENBINDING_RESULT_LIST
 ms.prod: windows-hardware
 ms.technology: windows-devices

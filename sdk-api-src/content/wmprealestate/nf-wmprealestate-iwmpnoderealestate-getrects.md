@@ -7,7 +7,7 @@ old-location: wmp\iwmpnoderealestate_getrects.htm
 old-project: WMP
 ms.assetid: 2bb07fe6-67cd-46da-a012-0276e31e48c9
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: GetRects method [Windows Media Player], GetRects method [Windows Media Player], IWMPNodeRealEstate interface, GetRects,IWMPNodeRealEstate.GetRects, IWMPNodeRealEstate, IWMPNodeRealEstate interface [Windows Media Player], GetRects method, IWMPNodeRealEstate::GetRects, IWMPNodeRealEstateGetRectsRendering, wmp.iwmpnoderealestate_getrects, wmprealestate/IWMPNodeRealEstate::GetRects
 ms.prod: windows-hardware
 ms.technology: windows-devices

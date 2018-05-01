@@ -7,7 +7,7 @@ old-location: winprog\ifhconfigmgr_setlocalpolicy.htm
 old-project: DevNotes
 ms.assetid: A1106349-6B14-4A44-B845-7853FA1919D6
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/13/2018
 ms.keywords: FhConfigMgr class [Windows API], SetLocalPolicy method, IFhConfigMgr, IFhConfigMgr interface [Windows API], SetLocalPolicy method, IFhConfigMgr::SetLocalPolicy, SetLocalPolicy method [Windows API], SetLocalPolicy method [Windows API], FhConfigMgr class, SetLocalPolicy method [Windows API], IFhConfigMgr interface, SetLocalPolicy,IFhConfigMgr.SetLocalPolicy, fhcfg/IFhConfigMgr::SetLocalPolicy, winprog.ifhconfigmgr_setlocalpolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices

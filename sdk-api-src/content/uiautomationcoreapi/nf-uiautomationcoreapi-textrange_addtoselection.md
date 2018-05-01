@@ -7,7 +7,7 @@ old-location: winauto\uiauto_TextRange_AddToSelectionConPat.htm
 old-project: WinAuto
 ms.assetid: a9e832ea-5761-4c5d-839e-9d4db2c551c2
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: TextRange_AddToSelection, TextRange_AddToSelection function [Windows Accessibility], uiauto.uiauto_TextRange_AddToSelectionConPat, uiauto_TextRange_AddToSelectionConPat, uiautomationcoreapi/TextRange_AddToSelection, winauto.uiauto_TextRange_AddToSelectionConPat
 ms.prod: windows-hardware
 ms.technology: windows-devices

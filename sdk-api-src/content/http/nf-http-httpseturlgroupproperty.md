@@ -7,7 +7,7 @@ old-location: http\httpseturlgroupproperty.htm
 old-project: Http
 ms.assetid: e0826a25-1c50-4757-9355-69eb4946e8dd
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: HttpServerAuthenticationProperty, HttpServerBindingProperty, HttpServerChannelBindProperty, HttpServerExtendedAuthenticationProperty, HttpServerLoggingProperty, HttpServerQosProperty, HttpServerStateProperty, HttpServerTimeoutsProperty, HttpSetUrlGroupProperty, HttpSetUrlGroupProperty function [HTTP], http.httpseturlgroupproperty, http/HttpSetUrlGroupProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

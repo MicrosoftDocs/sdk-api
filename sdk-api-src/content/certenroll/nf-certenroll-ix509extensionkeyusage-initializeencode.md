@@ -7,7 +7,7 @@ old-location: security\ix509extensionkeyusage_initializeencode_method.htm
 old-project: SecCertEnroll
 ms.assetid: a4496125-862c-4ef0-93f3-a513eedeacd1
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: IX509ExtensionKeyUsage, IX509ExtensionKeyUsage interface [Security], InitializeEncode method, IX509ExtensionKeyUsage::InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security], IX509ExtensionKeyUsage interface, InitializeEncode,IX509ExtensionKeyUsage.InitializeEncode, XCN_CERT_CRL_SIGN_KEY_USAGE, XCN_CERT_DATA_ENCIPHERMENT_KEY_USAGE, XCN_CERT_DECIPHER_ONLY_KEY_USAGE, XCN_CERT_DIGITAL_SIGNATURE_KEY_USAGE, XCN_CERT_ENCIPHER_ONLY_KEY_USAGE, XCN_CERT_KEY_AGREEMENT_KEY_USAGE, XCN_CERT_KEY_CERT_SIGN_KEY_USAGE, XCN_CERT_KEY_ENCIPHERMENT_KEY_USAGE, XCN_CERT_NON_REPUDIATION_KEY_USAGE, XCN_CERT_OFFLINE_CRL_SIGN_KEY_USAGE, certenroll/IX509ExtensionKeyUsage::InitializeEncode, security.ix509extensionkeyusage_initializeencode_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

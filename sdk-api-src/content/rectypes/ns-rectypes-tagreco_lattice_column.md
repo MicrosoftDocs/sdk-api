@@ -7,7 +7,7 @@ old-location: tablet\reco_lattice_column.htm
 old-project: tablet
 ms.assetid: 5695cae1-2bbf-48d4-a044-b2bd81c362d0
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: 5695cae1-2bbf-48d4-a044-b2bd81c362d0, RECO_LATTICE_COLUMN, RECO_LATTICE_COLUMN structure [Tablet PC], rectypes/RECO_LATTICE_COLUMN, tablet.reco_lattice_column, tagRECO_LATTICE_COLUMN
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # tagRECO_LATTICE_COLUMN structure

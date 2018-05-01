@@ -7,7 +7,7 @@ old-location: sidebar\fontsize_property_gText.htm
 old-project: sidebar
 ms.assetid: VS|sidebar|~\sidebar\reference\graphicsreference\gtext\fontsize_property_gtext.htm
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/17/2018
 ms.keywords: FONTSIZE, fontsize property [Windows Sidebar], fontsize property [Windows Sidebar], text object, fontsize_property_gText, sidebar.fontsize_property_gText, text object [Windows Sidebar], fontsize property
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Sidebar.Exe (version 1.00 or later)
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # FONTSIZE macro

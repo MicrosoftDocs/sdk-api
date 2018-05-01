@@ -7,7 +7,7 @@ old-location: wmi\wbem_timeout_type.htm
 old-project: WmiSdk
 ms.assetid: 5A4E800A-7CA2-42D0-AF40-DA18171B3DB8
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: WBEM_INFINITE, WBEM_NO_WAIT, WBEM_TIMEOUT_TYPE, WBEM_TIMEOUT_TYPE enumeration [Windows Management Instrumentation], tag_WBEM_TIMEOUT_TYPE, wbemcli/WBEM_INFINITE, wbemcli/WBEM_NO_WAIT, wbemcli/WBEM_TIMEOUT_TYPE, wmi.wbem_timeout_type
 ms.prod: windows-hardware
 ms.technology: windows-devices

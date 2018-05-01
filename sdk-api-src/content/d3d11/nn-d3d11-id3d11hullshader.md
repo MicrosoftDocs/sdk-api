@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11hullshader.htm
 old-project: direct3d11
 ms.assetid: 3459f533-e2ac-4b0e-bfdd-d9dae704f418
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/6/2018
 ms.keywords: 47a9bf26-6dd1-87f4-4259-36e6163908d8, ID3D11HullShader, ID3D11HullShader interface [Direct3D 11], ID3D11HullShader interface [Direct3D 11], described, d3d11/ID3D11HullShader, direct3d11.id3d11hullshader
 ms.prod: windows-hardware
 ms.technology: windows-devices

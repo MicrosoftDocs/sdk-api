@@ -7,7 +7,7 @@ old-location: shell\IsOS.htm
 old-project: shell
 ms.assetid: 827a76bc-3581-4f1c-8095-8e2fd30dfdbc
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IsOS, IsOS function [Windows Shell], _win32_IsOS, shell.IsOS, shlwapi/IsOS
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -152,7 +152,7 @@ Equivalent to <a href="https://msdn.microsoft.com/4ab07a72-404d-459b-b061-b3b06b
 <tr>
 <td>OS_TERMINALCLIENT</td>
 <td>14</td>
-<td>The program is running as a Terminal Server client. Equivalent to <a href="https://msdn.microsoft.com/d063857b-6036-4e68-80af-9c70d12ae29e">GetSystemMetrics</a>(SM_REMOTESESSION).</td>
+<td>The program is running as a Terminal Server client. Equivalent to <a href="base.getsystemmetrics">GetSystemMetrics</a>(SM_REMOTESESSION).</td>
 </tr>
 <tr>
 <td>OS_TERMINALREMOTEADMIN</td>
@@ -257,7 +257,7 @@ Equivalent to <a href="https://msdn.microsoft.com/4ab07a72-404d-459b-b061-b3b06b
 <tr>
 <td>OS_MEDIACENTER</td>
 <td>35</td>
-<td>The program is running on Windows XP Media Center Edition, or one of its successors. Equivalent to <a href="https://msdn.microsoft.com/d063857b-6036-4e68-80af-9c70d12ae29e">GetSystemMetrics</a>(SM_MEDIACENTER).</td>
+<td>The program is running on Windows XP Media Center Edition, or one of its successors. Equivalent to <a href="base.getsystemmetrics">GetSystemMetrics</a>(SM_MEDIACENTER).</td>
 </tr>
 <tr>
 <td>OS_APPLIANCE</td>
@@ -297,7 +297,7 @@ When referring to server products, "Windows Server" refers only to the Standard 
 
 
 
-<a href="https://msdn.microsoft.com/d063857b-6036-4e68-80af-9c70d12ae29e">GetSystemMetrics</a>
+<a href="base.getsystemmetrics">GetSystemMetrics</a>
 
 
 

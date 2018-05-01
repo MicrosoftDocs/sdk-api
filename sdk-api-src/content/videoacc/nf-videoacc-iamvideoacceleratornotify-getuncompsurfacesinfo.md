@@ -7,7 +7,7 @@ old-location: dshow\iamvideoacceleratornotify_getuncompsurfacesinfo.htm
 old-project: DirectShow
 ms.assetid: ee8cbe71-6ac3-4f41-a9af-f372f825485d
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetUncompSurfacesInfo method [DirectShow], GetUncompSurfacesInfo method [DirectShow], IAMVideoAcceleratorNotify interface, GetUncompSurfacesInfo,IAMVideoAcceleratorNotify.GetUncompSurfacesInfo, IAMVideoAcceleratorNotify, IAMVideoAcceleratorNotify interface [DirectShow], GetUncompSurfacesInfo method, IAMVideoAcceleratorNotify::GetUncompSurfacesInfo, IAMVideoAcceleratorNotifyGetUncompSurfacesInfo, dshow.iamvideoacceleratornotify_getuncompsurfacesinfo, videoacc/IAMVideoAcceleratorNotify::GetUncompSurfacesInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: VIDEOHDR, *PVIDEOHDR, *LPVIDEOHDR
+req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
 topic_type:
 -	APIRef
 -	kbSyntax

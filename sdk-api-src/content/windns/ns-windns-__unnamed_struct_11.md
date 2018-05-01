@@ -1,14 +1,14 @@
 ---
 UID: NS:windns.__unnamed_struct_11
-title: DNS_TXT_DATAA
+title: DNS_TXT_DATAW
 author: windows-driver-content
 description: The DNS_TXT_DATA structure represents a DNS text (TXT) record as specified in section 3.3.14 of RFC 1035.
 old-location: dns\dns_txt_data.htm
 old-project: DNS
 ms.assetid: 3ff643e2-d736-45d5-8cf8-ab5e63caf44b
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
-ms.keywords: "*PDNS_TXT_DATA, *PDNS_TXT_DATAA, DNS_TXT_DATA, DNS_TXT_DATA structure [DNS], DNS_TXT_DATAA, PDNS_TXT_DATA, PDNS_TXT_DATA structure pointer [DNS], _dns_dns_txt_data, dns.dns_txt_data, windns/DNS_TXT_DATA, windns/PDNS_TXT_DATA"
+ms.date: 4/18/2018
+ms.keywords: "*PDNS_TXT_DATA, *PDNS_TXT_DATAW, DNS_TXT_DATA, DNS_TXT_DATA structure [DNS], DNS_TXT_DATAW, PDNS_TXT_DATA, PDNS_TXT_DATA structure pointer [DNS], _dns_dns_txt_data, dns.dns_txt_data, windns/DNS_TXT_DATA, windns/PDNS_TXT_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: DNS_TXT_DATAA, *PDNS_TXT_DATAA
+req.typenames: DNS_TXT_DATAW, *PDNS_TXT_DATAW
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# DNS_TXT_DATAA structure
+# DNS_TXT_DATAW structure
 
 
 ## -description

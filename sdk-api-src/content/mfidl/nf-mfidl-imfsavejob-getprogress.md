@@ -7,7 +7,7 @@ old-location: mf\imfsavejob_getprogress.htm
 old-project: medfound
 ms.assetid: 8782333c-796c-4401-9575-c78e95887015
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 8782333c-796c-4401-9575-c78e95887015, GetProgress method [Media Foundation], GetProgress method [Media Foundation], IMFSaveJob interface, GetProgress,IMFSaveJob.GetProgress, IMFSaveJob, IMFSaveJob interface [Media Foundation], GetProgress method, IMFSaveJob::GetProgress, mf.imfsavejob_getprogress, mfidl/IMFSaveJob::GetProgress
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmp\iwmpcdromburn_get_burnplaylist.htm
 old-project: WMP
 ms.assetid: b31f4e87-2029-4001-94c7-268b14807cf0
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPCdromBurn, IWMPCdromBurn interface [Windows Media Player], get_burnPlaylist method, IWMPCdromBurn::get_burnPlaylist, IWMPCdromBurnget_burnPlaylist, get_burnPlaylist method [Windows Media Player], get_burnPlaylist method [Windows Media Player], IWMPCdromBurn interface, get_burnPlaylist,IWMPCdromBurn.get_burnPlaylist, wmp.iwmpcdromburn_get_burnplaylist, wmp/IWMPCdromBurn::get_burnPlaylist
 ms.prod: windows-hardware
 ms.technology: windows-devices

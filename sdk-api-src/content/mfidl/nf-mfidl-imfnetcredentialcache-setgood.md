@@ -7,7 +7,7 @@ old-location: mf\imfnetcredentialcache_setgood.htm
 old-project: medfound
 ms.assetid: e2e9d87a-6238-49a0-9a19-fe213749d627
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFNetCredentialCache, IMFNetCredentialCache interface [Media Foundation], SetGood method, IMFNetCredentialCache::SetGood, SetGood method [Media Foundation], SetGood method [Media Foundation], IMFNetCredentialCache interface, SetGood,IMFNetCredentialCache.SetGood, e2e9d87a-6238-49a0-9a19-fe213749d627, mf.imfnetcredentialcache_setgood, mfidl/IMFNetCredentialCache::SetGood
 ms.prod: windows-hardware
 ms.technology: windows-devices

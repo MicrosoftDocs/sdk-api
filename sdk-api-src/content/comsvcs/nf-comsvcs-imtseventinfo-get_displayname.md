@@ -7,7 +7,7 @@ old-location: cos\imtseventinfo_get_displayname.htm
 old-project: cossdk
 ms.assetid: d3d8ed52-0ad3-4073-877b-071bac90c71f
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: IMtsEventInfo, IMtsEventInfo interface [COM+], get_DisplayName method, IMtsEventInfo::get_DisplayName, _dtc_IMtsEventInfo_DisplayName, comsvcs/IMtsEventInfo::get_DisplayName, cos.imtseventinfo_get_displayname, get_DisplayName method [COM+], get_DisplayName method [COM+], IMtsEventInfo interface, get_DisplayName,IMtsEventInfo.get_DisplayName
 ms.prod: windows-hardware
 ms.technology: windows-devices

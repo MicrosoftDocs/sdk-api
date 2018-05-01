@@ -7,7 +7,7 @@ old-location: wibe\_wibe_milmatrixf.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\structs\milmatrixf.htm
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: MILMatrixF, MILMatrixF structure [WPF Bitmap Effects], _wibe_milmatrixf, mileffects/MILMatrixF, wibe._wibe_milmatrixf
 ms.prod: windows-hardware
 ms.technology: windows-devices

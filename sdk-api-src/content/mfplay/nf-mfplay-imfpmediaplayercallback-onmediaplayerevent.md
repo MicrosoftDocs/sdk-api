@@ -7,7 +7,7 @@ old-location: mf\imfpmediaplayercallback_onmediaplayerevent.htm
 old-project: medfound
 ms.assetid: 2a80a9d0-83ee-4bb0-ab2c-0f68367f3bf8
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFPMediaPlayerCallback, IMFPMediaPlayerCallback interface [Media Foundation], OnMediaPlayerEvent method, IMFPMediaPlayerCallback::OnMediaPlayerEvent, OnMediaPlayerEvent method [Media Foundation], OnMediaPlayerEvent method [Media Foundation], IMFPMediaPlayerCallback interface, OnMediaPlayerEvent,IMFPMediaPlayerCallback.OnMediaPlayerEvent, mf.imfpmediaplayercallback_onmediaplayerevent, mfplay/IMFPMediaPlayerCallback::OnMediaPlayerEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

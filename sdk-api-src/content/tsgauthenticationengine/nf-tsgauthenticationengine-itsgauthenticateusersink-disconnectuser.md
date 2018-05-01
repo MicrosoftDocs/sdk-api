@@ -7,7 +7,7 @@ old-location: termserv\itsgauthenticateusersink_disconnectuser.htm
 old-project: TermServ
 ms.assetid: 03385453-066d-40a9-bcbb-9623e4fdfadc
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: DisconnectUser method [Remote Desktop Services], DisconnectUser method [Remote Desktop Services], ITSGAuthenticateUserSink interface, DisconnectUser,ITSGAuthenticateUserSink.DisconnectUser, ITSGAuthenticateUserSink, ITSGAuthenticateUserSink interface [Remote Desktop Services], DisconnectUser method, ITSGAuthenticateUserSink::DisconnectUser, termserv.itsgauthenticateusersink_disconnectuser, tsgauthenticationengine/ITSGAuthenticateUserSink::DisconnectUser
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: TC_IFC_DESCRIPTOR, *PTC_IFC_DESCRIPTOR
+req.typenames: TRANSPORT_SETTING_ID, *PTRANSPORT_SETTING_ID
 topic_type:
 -	APIRef
 -	kbSyntax

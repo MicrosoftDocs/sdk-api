@@ -7,7 +7,7 @@ old-location: wmp\iwmpmedia_isreadonlyitem.htm
 old-project: WMP
 ms.assetid: d8b2dd45-3e3f-4325-b4d0-939abbc425e1
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPMedia, IWMPMedia interface [Windows Media Player], isReadOnlyItem method, IWMPMedia2 interface [Windows Media Player], isReadOnlyItem method, IWMPMedia2::isReadOnlyItem, IWMPMedia3 interface [Windows Media Player], isReadOnlyItem method, IWMPMedia3::isReadOnlyItem, IWMPMedia::isReadOnlyItem, IWMPMediaisReadOnlyItem, isReadOnlyItem method [Windows Media Player], isReadOnlyItem method [Windows Media Player], IWMPMedia interface, isReadOnlyItem method [Windows Media Player], IWMPMedia2 interface, isReadOnlyItem method [Windows Media Player], IWMPMedia3 interface, isReadOnlyItem,IWMPMedia.isReadOnlyItem, wmp.iwmpmedia_isreadonlyitem, wmp/IWMPMedia2::isReadOnlyItem, wmp/IWMPMedia3::isReadOnlyItem, wmp/IWMPMedia::isReadOnlyItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

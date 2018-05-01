@@ -7,7 +7,7 @@ old-location: mscs\clusprop_syntax.htm
 old-project: MsCS
 ms.assetid: 23353e11-63bb-4d3b-90fb-e2a5544e0d09
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: "*PCLUSPROP_SYNTAX, CLUSPROP_FORMAT_BINARY, CLUSPROP_FORMAT_DWORD, CLUSPROP_FORMAT_EXPANDED_SZ, CLUSPROP_FORMAT_EXPAND_SZ, CLUSPROP_FORMAT_FILETIME, CLUSPROP_FORMAT_LARGE_INTEGER, CLUSPROP_FORMAT_LONG, CLUSPROP_FORMAT_MULTI_SZ, CLUSPROP_FORMAT_SECURITY_DESCRIPTOR, CLUSPROP_FORMAT_SZ, CLUSPROP_FORMAT_ULARGE_INTEGER, CLUSPROP_FORMAT_UNKNOWN, CLUSPROP_FORMAT_USER, CLUSPROP_FORMAT_WORD, CLUSPROP_SYNTAX, CLUSPROP_SYNTAX union [Failover Cluster], CLUSPROP_TYPE_DISK_GUID, CLUSPROP_TYPE_DISK_NUMBER, CLUSPROP_TYPE_DISK_SERIALNUMBER, CLUSPROP_TYPE_DISK_SIZE, CLUSPROP_TYPE_ENDMARK, CLUSPROP_TYPE_LIST_VALUE, CLUSPROP_TYPE_NAME, CLUSPROP_TYPE_PARTITION_INFO, CLUSPROP_TYPE_PARTITION_INFO_EX, CLUSPROP_TYPE_RESCLASS, CLUSPROP_TYPE_SCSI_ADDRESS, CLUSPROP_TYPE_SIGNATURE, CLUSPROP_TYPE_UNKNOWN, CLUSPROP_TYPE_USER, PCLUSPROP_SYNTAX, PCLUSPROP_SYNTAX union pointer [Failover Cluster], _wolf_clusprop_syntax, clusapi/CLUSPROP_SYNTAX, clusapi/PCLUSPROP_SYNTAX, mscs.clusprop_syntax"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -56,6 +56,13 @@ Describes the format and type of a data value. It is used as the <b>Syntax</b> m
 ## -struct-fields
 
 
+
+
+### -field dw
+
+A DWORD that describes the format and type of the data value. The 
+       <a href="https://msdn.microsoft.com/caadeb63-297c-4657-8ee2-975fceff5484">CLUSTER_PROPERTY_SYNTAX</a> enumeration defines the 
+       possible values.
 
 
 ### -field DUMMYSTRUCTNAME
@@ -284,13 +291,6 @@ The type is unknown.
 
 Describes the beginning of the range for users to define their own types. Associate this type with 
           user-defined private properties.
-
-
-### -field dw
-
-A DWORD that describes the format and type of the data value. The 
-       <a href="https://msdn.microsoft.com/caadeb63-297c-4657-8ee2-975fceff5484">CLUSTER_PROPERTY_SYNTAX</a> enumeration defines the 
-       possible values.
 
 
 ## -remarks

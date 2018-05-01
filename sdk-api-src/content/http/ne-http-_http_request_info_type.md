@@ -7,7 +7,7 @@ old-location: http\http_request_info_type.htm
 old-project: Http
 ms.assetid: 178d2608-85c8-4842-bd6a-4c66d7f1b892
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: "*PHTTP_REQUEST_INFO_TYPE, *PHTTP_REQUEST_INFO_TYPE enumeration [HTTP], HTTP_REQUEST_INFO_TYPE, HTTP_REQUEST_INFO_TYPE enumeration [HTTP], HttpRequestInfoTypeAuth, _HTTP_REQUEST_INFO_TYPE, http.http_request_info_type, http/*PHTTP_REQUEST_INFO_TYPE, http/HTTP_REQUEST_INFO_TYPE, http/HttpRequestInfoTypeAuth"
 ms.prod: windows-hardware
 ms.technology: windows-devices

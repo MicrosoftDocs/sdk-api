@@ -7,7 +7,7 @@ old-location: mf\imfcapturephotosink_setoutputbytestream.htm
 old-project: medfound
 ms.assetid: D67C2D66-FC40-4AF3-9E83-29D0DBF99AD3
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFCapturePhotoSink, IMFCapturePhotoSink interface [Media Foundation], SetOutputByteStream method, IMFCapturePhotoSink::SetOutputByteStream, SetOutputByteStream method [Media Foundation], SetOutputByteStream method [Media Foundation], IMFCapturePhotoSink interface, SetOutputByteStream,IMFCapturePhotoSink.SetOutputByteStream, mf.imfcapturephotosink_setoutputbytestream, mfcaptureengine/IMFCapturePhotoSink::SetOutputByteStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

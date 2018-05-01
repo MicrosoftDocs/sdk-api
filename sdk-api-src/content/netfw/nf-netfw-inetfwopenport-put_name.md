@@ -7,7 +7,7 @@ old-location: ics\inetfwopenport_name.htm
 old-project: ICS
 ms.assetid: f81abb86-095c-4459-af71-a0c10f7b1acd
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: INetFwOpenPort, INetFwOpenPort interface [ICS/ICF], Name property, INetFwOpenPort.Name, INetFwOpenPort::get_Name, INetFwOpenPort::put_Name, Name property [ICS/ICF], Name property [ICS/ICF], INetFwOpenPort interface, ics.inetfwopenport_name, netfw/INetFwOpenPort::Name, netfw/INetFwOpenPort::get_Name, netfw/INetFwOpenPort::put_Name, put_Name,INetFwOpenPort.put_Name
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: 
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # INetFwOpenPort::put_Name method

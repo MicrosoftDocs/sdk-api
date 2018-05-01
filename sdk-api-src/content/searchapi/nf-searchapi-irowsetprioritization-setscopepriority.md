@@ -7,7 +7,7 @@ old-location: search\_search_IRowsetPrioritization_SetScopePriority.htm
 old-project: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\irowsetprioritization\setscopepriority.htm
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/24/2018
 ms.keywords: IRowsetPrioritization, IRowsetPrioritization interface [search], SetScopePriority method, IRowsetPrioritization::SetScopePriority, SetScopePriority method [search], SetScopePriority method [search], IRowsetPrioritization interface, SetScopePriority,IRowsetPrioritization.SetScopePriority, _search_IRowsetPrioritization_SetScopePriority, search._search_IRowsetPrioritization_SetScopePriority, searchapi/IRowsetPrioritization::SetScopePriority
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IRowsetPrioritization::SetScopePriority method

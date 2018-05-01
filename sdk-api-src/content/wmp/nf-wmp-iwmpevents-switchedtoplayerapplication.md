@@ -7,7 +7,7 @@ old-location: wmp\iwmpevents_iwmpevents__switchedtoplayerapplication.htm
 old-project: WMP
 ms.assetid: b77a1d6a-8bfb-4548-9347-ab098a5fcfd9
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPEvents, IWMPEvents interface [Windows Media Player], SwitchedToPlayerApplication method, IWMPEvents::SwitchedToPlayerApplication, IWMPEventsSwitchedToPlayerApplication, SwitchedToPlayerApplication method [Windows Media Player], SwitchedToPlayerApplication method [Windows Media Player], IWMPEvents interface, SwitchedToPlayerApplication,IWMPEvents.SwitchedToPlayerApplication, wmp.iwmpevents_iwmpevents__switchedtoplayerapplication, wmp/IWMPEvents::SwitchedToPlayerApplication
 ms.prod: windows-hardware
 ms.technology: windows-devices

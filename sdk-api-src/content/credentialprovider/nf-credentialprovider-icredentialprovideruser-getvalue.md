@@ -7,7 +7,7 @@ old-location: shell\ICredentialProviderUser_GetValue.htm
 old-project: shell
 ms.assetid: CA8CD897-127E-4113-A5A5-08110E0E6C17
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetValue method [Windows Shell], GetValue method [Windows Shell], ICredentialProviderUser interface, GetValue,ICredentialProviderUser.GetValue, ICredentialProviderUser, ICredentialProviderUser interface [Windows Shell], GetValue method, ICredentialProviderUser::GetValue, credentialprovider/ICredentialProviderUser::GetValue, shell.ICredentialProviderUser_GetValue
 ms.prod: windows-hardware
 ms.technology: windows-devices

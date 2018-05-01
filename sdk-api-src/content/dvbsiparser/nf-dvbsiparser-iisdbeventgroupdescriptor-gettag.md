@@ -7,7 +7,7 @@ old-location: mstv\iisdbeventgroupdescriptor_gettag.htm
 old-project: mstv
 ms.assetid: 249c57a6-dcf8-4701-975d-39f8e8735798
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies], IIsdbEventGroupDescriptor interface, GetTag,IIsdbEventGroupDescriptor.GetTag, IIsdbEventGroupDescriptor, IIsdbEventGroupDescriptor interface [Microsoft TV Technologies], GetTag method, IIsdbEventGroupDescriptor::GetTag, dvbsiparser/IIsdbEventGroupDescriptor::GetTag, mstv.iisdbeventgroupdescriptor_gettag
 ms.prod: windows-hardware
 ms.technology: windows-devices

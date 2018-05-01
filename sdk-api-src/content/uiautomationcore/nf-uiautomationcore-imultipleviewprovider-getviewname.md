@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IMultipleViewProvider_GetViewName.htm
 old-project: WinAuto
 ms.assetid: 72e9bca3-22cd-4f5b-9481-289bdfaf58e8
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: GetViewName method [Windows Accessibility], GetViewName method [Windows Accessibility], IMultipleViewProvider interface, GetViewName,IMultipleViewProvider.GetViewName, IMultipleViewProvider, IMultipleViewProvider interface [Windows Accessibility], GetViewName method, IMultipleViewProvider::GetViewName, uiauto.uiauto_IMultipleViewProvider_GetViewName, uiauto_IMultipleViewProvider_GetViewName, uiautomationcore/IMultipleViewProvider::GetViewName, winauto.uiauto_IMultipleViewProvider_GetViewName
 ms.prod: windows-hardware
 ms.technology: windows-devices

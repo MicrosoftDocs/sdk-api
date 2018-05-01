@@ -7,7 +7,7 @@ old-location: mf\imfmediaenginewebsupport_connectwebaudio.htm
 old-project: medfound
 ms.assetid: E2470C2B-2E55-4B4F-B00F-03ABBB1A896F
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: ConnectWebAudio method [Media Foundation], ConnectWebAudio method [Media Foundation], IMFMediaEngineWebSupport interface, ConnectWebAudio,IMFMediaEngineWebSupport.ConnectWebAudio, IMFMediaEngineWebSupport, IMFMediaEngineWebSupport interface [Media Foundation], ConnectWebAudio method, IMFMediaEngineWebSupport::ConnectWebAudio, mf.imfmediaenginewebsupport_connectwebaudio, mfmediaengine/IMFMediaEngineWebSupport::ConnectWebAudio
 ms.prod: windows-hardware
 ms.technology: windows-devices

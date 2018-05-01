@@ -7,7 +7,7 @@ old-location: shell\IBrowserService_GetSetCodePage.htm
 old-project: shell
 ms.assetid: 2d194f9a-cf82-47ed-8218-d0d5824be435
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetSetCodePage method [Windows Shell], GetSetCodePage method [Windows Shell], IBrowserService interface, GetSetCodePage,IBrowserService.GetSetCodePage, IBrowserService, IBrowserService interface [Windows Shell], GetSetCodePage method, IBrowserService::GetSetCodePage, shdeprecated/IBrowserService::GetSetCodePage, shell.IBrowserService_GetSetCodePage, zone_IBrowserService_GetSetCodePage
 ms.prod: windows-hardware
 ms.technology: windows-devices

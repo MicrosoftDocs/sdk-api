@@ -7,7 +7,7 @@ old-location: com\icomthreadinginfo_setcurrentlogicalthreadid.htm
 old-project: com
 ms.assetid: 8a2fb319-094e-4384-b520-2cb8b8819d42
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IComThreadingInfo, IComThreadingInfo interface [COM], SetCurrentLogicalThreadId method, IComThreadingInfo::SetCurrentLogicalThreadId, SetCurrentLogicalThreadId method [COM], SetCurrentLogicalThreadId method [COM], IComThreadingInfo interface, SetCurrentLogicalThreadId,IComThreadingInfo.SetCurrentLogicalThreadId, _com_icomthreadinginfo_setcurrentlogicalthreadid, com.icomthreadinginfo_setcurrentlogicalthreadid, objidlbase/IComThreadingInfo::SetCurrentLogicalThreadId
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IComThreadingInfo::SetCurrentLogicalThreadId method

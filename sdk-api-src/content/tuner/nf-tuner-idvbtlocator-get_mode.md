@@ -7,7 +7,7 @@ old-location: mstv\idvbtlocator_get_mode.htm
 old-project: mstv
 ms.assetid: 1896ca9d-fb43-49eb-88a7-c6217d468a2b
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IDVBTLocator, IDVBTLocator interface [Microsoft TV Technologies], get_Mode method, IDVBTLocator::get_Mode, IDVBTLocatorget_Mode, get_Mode method [Microsoft TV Technologies], get_Mode method [Microsoft TV Technologies], IDVBTLocator interface, get_Mode,IDVBTLocator.get_Mode, mstv.idvbtlocator_get_mode, tuner/IDVBTLocator::get_Mode
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: fax\_mfax_FaxConfiguration_ArchiveLocation_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\archivelocation.htm
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/18/2018
 ms.keywords: ArchiveLocation property [Fax Service], ArchiveLocation property [Fax Service], FaxConfiguration object, FaxConfiguration object [Fax Service], ArchiveLocation property, IFaxConfiguration, IFaxConfiguration::put_ArchiveLocation, _mfax_IFaxConfiguration_ArchiveLocation, fax._mfax_FaxConfiguration_ArchiveLocation_vb, put_ArchiveLocation,IFaxConfiguration.put_ArchiveLocation
 ms.prod: windows-hardware
 ms.technology: windows-devices

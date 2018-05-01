@@ -7,7 +7,7 @@ old-location: fwp\fwpmenginesetoption0.htm
 old-project: FWP
 ms.assetid: 6044a334-a1dc-4447-8581-cd0ffc5883db
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: FWPM_ENGINE_OPTION_PACKET_QUEUE_INBOUND, FWPM_ENGINE_OPTION_PACKET_QUEUE_NONE, FWPM_ENGINE_OPTION_PACKET_QUEUE_OUTBOUND, FWPM_NET_EVENT_KEYWORD_INBOUND_BCAST, FWPM_NET_EVENT_KEYWORD_INBOUND_MCAST, FwpmEngineSetOption0, FwpmEngineSetOption0 function [Filtering], fwp.fwpmenginesetoption0, fwpmu/FwpmEngineSetOption0
 ms.prod: windows-hardware
 ms.technology: windows-devices

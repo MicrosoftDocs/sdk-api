@@ -7,7 +7,7 @@ old-location: fs\clfs_context_mode.htm
 old-project: Clfs
 ms.assetid: d71c18c3-42d5-4606-9915-8ea491e8b78f
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/25/2018
 ms.keywords: "*PCLFS_CONTEXT_MODE, CLFS_CONTEXT_MODE, CLFS_CONTEXT_MODE enumeration [Files], ClfsContextForward, ClfsContextNone, ClfsContextPrevious, ClfsContextUndoNext, PCLFS_CONTEXT_MODE, PCLFS_CONTEXT_MODE enumeration pointer [Files], PPCLFS_CONTEXT_MODE, PPCLFS_CONTEXT_MODE enumeration pointer [Files], _CLFS_CONTEXT_MODE, clfs/CLFS_CONTEXT_MODE, clfs/ClfsContextForward, clfs/ClfsContextNone, clfs/ClfsContextPrevious, clfs/ClfsContextUndoNext, clfs/PCLFS_CONTEXT_MODE, clfs/PPCLFS_CONTEXT_MODE, fs.clfs_context_mode"
 ms.prod: windows-hardware
 ms.technology: windows-devices

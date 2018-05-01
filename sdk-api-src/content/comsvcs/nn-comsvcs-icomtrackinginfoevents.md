@@ -7,7 +7,7 @@ old-location: cos\icomtrackinginfoevents.htm
 old-project: cossdk
 ms.assetid: bed709ca-5083-4073-a9f9-2b7b7f14cf87
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: IComTrackingInfoEvents, IComTrackingInfoEvents interface [COM+], IComTrackingInfoEvents interface [COM+], described, _dtc_IComTrackingInfoEvents, comsvcs/IComTrackingInfoEvents, cos.icomtrackinginfoevents
 ms.prod: windows-hardware
 ms.technology: windows-devices

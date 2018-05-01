@@ -7,7 +7,7 @@ old-location: dshow\palettised.htm
 old-project: DirectShow
 ms.assetid: 0f233f6f-ed52-4b32-8766-42e2416b6fc5
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: PALETTISED, PALETTISED macro [DirectShow], amvideo/PALETTISED, dshow.palettised
 ms.prod: windows-hardware
 ms.technology: windows-devices

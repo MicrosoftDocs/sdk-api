@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmstorageglobals_gettotalbad.htm
 old-project: WMDM
 ms.assetid: 40e1a39b-2757-472c-b585-77b829605e8c
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: GetTotalBad method [windows Media Device Manager], GetTotalBad method [windows Media Device Manager], IWMDMStorageGlobals interface, GetTotalBad,IWMDMStorageGlobals.GetTotalBad, IWMDMStorageGlobals, IWMDMStorageGlobals interface [windows Media Device Manager], GetTotalBad method, IWMDMStorageGlobals::GetTotalBad, IWMDMStorageGlobalsGetTotalBad, mswmdm/IWMDMStorageGlobals::GetTotalBad, wmdm.iwmdmstorageglobals_gettotalbad
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IWMDMStorageGlobals::GetTotalBad method

@@ -7,7 +7,7 @@ old-location: dshow\ifiltergraph2_reconnectex.htm
 old-project: DirectShow
 ms.assetid: a72cf427-056b-4751-9c4a-665251e549f8
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IFilterGraph2, IFilterGraph2 interface [DirectShow], ReconnectEx method, IFilterGraph2::ReconnectEx, IFilterGraph2ReconnectEx, ReconnectEx method [DirectShow], ReconnectEx method [DirectShow], IFilterGraph2 interface, ReconnectEx,IFilterGraph2.ReconnectEx, dshow.ifiltergraph2_reconnectex, strmif/IFilterGraph2::ReconnectEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

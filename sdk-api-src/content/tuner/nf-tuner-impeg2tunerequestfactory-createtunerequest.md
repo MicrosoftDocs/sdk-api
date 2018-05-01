@@ -7,7 +7,7 @@ old-location: mstv\impeg2tunerequestfactory_createtunerequest.htm
 old-project: mstv
 ms.assetid: 41e299d6-492e-40b4-955f-603b18da0c02
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: CreateTuneRequest method [Microsoft TV Technologies], CreateTuneRequest method [Microsoft TV Technologies], IMPEG2TuneRequestFactory interface, CreateTuneRequest,IMPEG2TuneRequestFactory.CreateTuneRequest, IMPEG2TuneRequestFactory, IMPEG2TuneRequestFactory interface [Microsoft TV Technologies], CreateTuneRequest method, IMPEG2TuneRequestFactory::CreateTuneRequest, IMPEG2TuneRequestFactoryCreateTuneRequest, mstv.impeg2tunerequestfactory_createtunerequest, tuner/IMPEG2TuneRequestFactory::CreateTuneRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices

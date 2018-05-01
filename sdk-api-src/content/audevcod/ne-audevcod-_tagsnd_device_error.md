@@ -7,7 +7,7 @@ old-location: dshow\snddev_err.htm
 old-project: DirectShow
 ms.assetid: 0a3def41-e3b4-416f-ad64-16394bd234c2
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: SNDDEV_ERR, SNDDEV_ERR enumeration [DirectShow], SNDDEV_ERREnumeration, SNDDEV_ERROR_AddBuffer, SNDDEV_ERROR_Close, SNDDEV_ERROR_GetCaps, SNDDEV_ERROR_GetPosition, SNDDEV_ERROR_Open, SNDDEV_ERROR_Pause, SNDDEV_ERROR_PrepareHeader, SNDDEV_ERROR_Query, SNDDEV_ERROR_Reset, SNDDEV_ERROR_Restart, SNDDEV_ERROR_Start, SNDDEV_ERROR_Stop, SNDDEV_ERROR_UnprepareHeader, SNDDEV_ERROR_Write, _tagSND_DEVICE_ERROR, audevcod/SNDDEV_ERR, audevcod/SNDDEV_ERROR_AddBuffer, audevcod/SNDDEV_ERROR_Close, audevcod/SNDDEV_ERROR_GetCaps, audevcod/SNDDEV_ERROR_GetPosition, audevcod/SNDDEV_ERROR_Open, audevcod/SNDDEV_ERROR_Pause, audevcod/SNDDEV_ERROR_PrepareHeader, audevcod/SNDDEV_ERROR_Query, audevcod/SNDDEV_ERROR_Reset, audevcod/SNDDEV_ERROR_Restart, audevcod/SNDDEV_ERROR_Start, audevcod/SNDDEV_ERROR_Stop, audevcod/SNDDEV_ERROR_UnprepareHeader, audevcod/SNDDEV_ERROR_Write, dshow.snddev_err
 ms.prod: windows-hardware
 ms.technology: windows-devices

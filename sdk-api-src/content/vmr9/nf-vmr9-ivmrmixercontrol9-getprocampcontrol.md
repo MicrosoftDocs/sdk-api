@@ -7,7 +7,7 @@ old-location: dshow\ivmrmixercontrol9_getprocampcontrol.htm
 old-project: DirectShow
 ms.assetid: 7f100a5b-48d1-40cc-b4ab-02245afde550
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetProcAmpControl method [DirectShow], GetProcAmpControl method [DirectShow], IVMRMixerControl9 interface, GetProcAmpControl,IVMRMixerControl9.GetProcAmpControl, IVMRMixerControl9, IVMRMixerControl9 interface [DirectShow], GetProcAmpControl method, IVMRMixerControl9::GetProcAmpControl, IVMRMixerControl9GetProcAmpControl, dshow.ivmrmixercontrol9_getprocampcontrol, vmr9/IVMRMixerControl9::GetProcAmpControl
 ms.prod: windows-hardware
 ms.technology: windows-devices

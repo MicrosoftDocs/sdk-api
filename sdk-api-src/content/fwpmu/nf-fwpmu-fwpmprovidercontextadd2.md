@@ -7,7 +7,7 @@ old-location: fwp\fwpmprovidercontextadd2.htm
 old-project: FWP
 ms.assetid: 07c6b1fc-55bb-4526-a24b-0e22f147e5cc
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: FwpmProviderContextAdd2, FwpmProviderContextAdd2 function [Filtering], fwp.fwpmprovidercontextadd2, fwpmu/FwpmProviderContextAdd2
 ms.prod: windows-hardware
 ms.technology: windows-devices

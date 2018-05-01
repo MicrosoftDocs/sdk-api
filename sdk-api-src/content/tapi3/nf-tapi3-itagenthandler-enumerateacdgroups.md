@@ -7,7 +7,7 @@ old-location: tapi3\itagenthandler_enumerateacdgroups.htm
 old-project: Tapi
 ms.assetid: a9078166-ff6a-4520-8209-e785bd6e7100
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: EnumerateACDGroups method [TAPI 2.2], EnumerateACDGroups method [TAPI 2.2], ITAgentHandler interface, EnumerateACDGroups,ITAgentHandler.EnumerateACDGroups, ITAgentHandler, ITAgentHandler interface [TAPI 2.2], EnumerateACDGroups method, ITAgentHandler::EnumerateACDGroups, _tapi3_itagenthandler_enumerateacdgroups, tapi3.itagenthandler_enumerateacdgroups, tapi3cc/ITAgentHandler::EnumerateACDGroups
 ms.prod: windows-hardware
 ms.technology: windows-devices

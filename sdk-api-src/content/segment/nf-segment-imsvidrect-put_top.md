@@ -7,7 +7,7 @@ old-location: mstv\imsvidrect_put_top.htm
 old-project: mstv
 ms.assetid: ee3dbbd2-a8b4-496b-84e6-b0d7615f6a1e
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidRect, IMSVidRect interface [Microsoft TV Technologies], put_Top method, IMSVidRect::put_Top, IMSVidRectput_Top, mstv.imsvidrect_put_top, put_Top method [Microsoft TV Technologies], put_Top method [Microsoft TV Technologies], IMSVidRect interface, put_Top,IMSVidRect.put_Top, segment/IMSVidRect::put_Top
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidRect::put_Top method

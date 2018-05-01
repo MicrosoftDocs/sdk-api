@@ -7,7 +7,7 @@ old-location: wmp\iwmpeffects_renderfullscreen.htm
 old-project: WMP
 ms.assetid: 08b170fd-b40a-4beb-8c18-0a011b9486af
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: EffectsRenderFullScreen, IWMPEffects, IWMPEffects interface [Windows Media Player], RenderFullScreen method, IWMPEffects::RenderFullScreen, RenderFullScreen method [Windows Media Player], RenderFullScreen method [Windows Media Player], IWMPEffects interface, RenderFullScreen,IWMPEffects.RenderFullScreen, effects/IWMPEffects::RenderFullScreen, wmp.iwmpeffects_renderfullscreen
 ms.prod: windows-hardware
 ms.technology: windows-devices

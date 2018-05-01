@@ -60,24 +60,6 @@ The <b>LDAPMod</b> structure holds data required to perform a modification opera
 
 
 
-### -field mod_vals
-
-Pointer to an array of values, if any, to add, delete, or replace. If <b>mop_op</b> does not include the LDAP_MOD_BVALUES flag, the <b>modv_strvals</b> member is a pointer to an array of null-terminated strings. If <b>mop_op</b> includes LDAP_MOD_BVALUES, the <b>modv_bvals</b> member is a pointer to an array of 
-<a href="https://msdn.microsoft.com/1f279905-ab02-4a8b-9b77-e8ea2b56e882">berval</a> pointers, which is useful for specifying binary values.
-
-
-
-#### modv_strvals
-
-Pointer to a null-terminated array of null-terminated strings. The last element of the array must be a <b>NULL</b> pointer.
-
-
-
-#### modv_bvals
-
-Pointer to a <b>NULL</b>-terminated array of <a href="https://msdn.microsoft.com/1f279905-ab02-4a8b-9b77-e8ea2b56e882">berval</a> pointers. The last element of the array must be a <b>NULL</b> pointer.
-
-
 ### -field mod_op
 
 Specifies one of the following values to indicate the modification operation to perform.
@@ -106,6 +88,24 @@ Replaces a value in the entry. The supplied values replace the existing attribut
 ### -field mod_type
 
 Pointer to a null-terminated string that specifies the name of  the attribute to modify.
+
+
+### -field mod_vals
+
+Pointer to an array of values, if any, to add, delete, or replace. If <b>mop_op</b> does not include the LDAP_MOD_BVALUES flag, the <b>modv_strvals</b> member is a pointer to an array of null-terminated strings. If <b>mop_op</b> includes LDAP_MOD_BVALUES, the <b>modv_bvals</b> member is a pointer to an array of 
+<a href="https://msdn.microsoft.com/1f279905-ab02-4a8b-9b77-e8ea2b56e882">berval</a> pointers, which is useful for specifying binary values.
+
+
+
+#### modv_strvals
+
+Pointer to a null-terminated array of null-terminated strings. The last element of the array must be a <b>NULL</b> pointer.
+
+
+
+#### modv_bvals
+
+Pointer to a <b>NULL</b>-terminated array of <a href="https://msdn.microsoft.com/1f279905-ab02-4a8b-9b77-e8ea2b56e882">berval</a> pointers. The last element of the array must be a <b>NULL</b> pointer.
 
 
 ##### - mod_op.LDAP_MOD_ADD (0x00)

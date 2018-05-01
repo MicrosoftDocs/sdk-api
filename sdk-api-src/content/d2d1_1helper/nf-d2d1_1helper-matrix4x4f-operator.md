@@ -7,7 +7,7 @@ old-location: direct2d\matrix4x4f_operator_.htm
 old-project: Direct2D
 ms.assetid: 2ED3EF0A-84B9-4BE9-825B-EA55DE2BAF47
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: Matrix4x4F, Matrix4x4F interface [Direct2D], operator* method, Matrix4x4F::operator*, d2d1_1helper/Matrix4x4F::operator*, direct2d.matrix4x4f_operator_, operator* method [Direct2D], operator* method [Direct2D], Matrix4x4F interface, operator*,Matrix4x4F.operator*
 ms.prod: windows-hardware
 ms.technology: windows-devices

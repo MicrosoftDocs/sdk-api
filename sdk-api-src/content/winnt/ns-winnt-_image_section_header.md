@@ -58,6 +58,11 @@ Represents the image section header format.
 
 
 
+### -field Name
+
+An 8-byte, null-padded UTF-8 string. There is no terminating null character if the string is exactly eight characters long. For longer names, this member contains a forward slash (/) followed by an ASCII representation of a decimal number that is an offset into the string table. Executable images do not use a string table and do not support section names longer than eight characters.
+
+
 ### -field Misc
 
 
@@ -71,11 +76,6 @@ The file address.
 #### VirtualSize
 
 The total size of the section when loaded into memory, in bytes. If this value is greater than the <b>SizeOfRawData</b> member, the section is filled with zeroes. This field is valid only for executable images and should be set to 0 for object files.
-
-
-### -field Name
-
-An 8-byte, null-padded UTF-8 string. There is no terminating null character if the string is exactly eight characters long. For longer names, this member contains a forward slash (/) followed by an ASCII representation of a decimal number that is an offset into the string table. Executable images do not use a string table and do not support section names longer than eight characters.
 
 
 ### -field VirtualAddress

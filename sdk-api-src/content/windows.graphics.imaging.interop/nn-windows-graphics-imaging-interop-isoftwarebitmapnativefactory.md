@@ -7,7 +7,7 @@ old-location: winrt\isoftwarebitmapnativefactory.htm
 old-project: WinRT
 ms.assetid: 613BFE81-AC55-4786-B6BD-0FFB7506D7F1
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/24/2018
 ms.keywords: ISoftwareBitmapNativeFactory, ISoftwareBitmapNativeFactory interface [Windows Runtime], ISoftwareBitmapNativeFactory interface [Windows Runtime], described, windows/ISoftwareBitmapNativeFactory, winrt.isoftwarebitmapnativefactory
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: PDF_RENDER_PARAMS
+req.typenames: TimeSpan
 topic_type:
 -	APIRef
 -	kbSyntax

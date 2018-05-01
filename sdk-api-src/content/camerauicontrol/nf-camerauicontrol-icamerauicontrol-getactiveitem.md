@@ -7,7 +7,7 @@ old-location: winprog\icamerauicontrol_getactiveitem.htm
 old-project: DevNotes
 ms.assetid: 9ef05929-7292-4833-95e7-d420abb6cd43
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/13/2018
 ms.keywords: GetActiveItem method [Windows API], GetActiveItem method [Windows API], ICameraUIControl interface, GetActiveItem,ICameraUIControl.GetActiveItem, ICameraUIControl, ICameraUIControl interface [Windows API], GetActiveItem method, ICameraUIControl::GetActiveItem, camerauicontrol/ICameraUIControl::GetActiveItem, winprog.icamerauicontrol_getactiveitem
 ms.prod: windows-hardware
 ms.technology: windows-devices

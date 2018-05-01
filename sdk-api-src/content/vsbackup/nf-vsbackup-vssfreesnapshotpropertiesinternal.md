@@ -7,7 +7,7 @@ old-location: base\vssfreesnapshotproperties.htm
 old-project: VSS
 ms.assetid: d5b5883b-03d5-4a83-af2e-f4d22e26ee82
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: VssFreeSnapshotProperties, VssFreeSnapshotProperties function [VSS], VssFreeSnapshotPropertiesInternal, _win32_vssfreesnapshotproperties, base.vssfreesnapshotproperties, vsbackup/VssFreeSnapshotProperties, vsbackup/VssFreeSnapshotPropertiesInternal
 ms.prod: windows-hardware
 ms.technology: windows-devices

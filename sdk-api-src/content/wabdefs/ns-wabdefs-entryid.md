@@ -7,7 +7,7 @@ old-location: wab\_wab_ENTRYID.htm
 old-project: wab
 ms.assetid: VS|wab|~\wab\reference\structures\entryid.htm
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 4/3/2018
 ms.keywords: "*LPENTRYID, ENTRYID, ENTRYID structure [Windows Address Book], LPENTRYID, LPENTRYID structure pointer [Windows Address Book], _wab_ENTRYID, wab._wab_ENTRYID, wabdefs/ENTRYID, wabdefs/LPENTRYID"
 ms.prod: windows-hardware
 ms.technology: windows-devices

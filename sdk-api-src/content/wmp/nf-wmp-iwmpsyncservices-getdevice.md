@@ -7,7 +7,7 @@ old-location: wmp\iwmpsyncservices_getdevice.htm
 old-project: WMP
 ms.assetid: 4c34b823-57ce-4053-9e98-308a5d4ffdef
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPSyncServices, IWMPSyncServices interface [Windows Media Player], getDevice method, IWMPSyncServices::getDevice, IWMPSyncServicesgetDevice, getDevice method [Windows Media Player], getDevice method [Windows Media Player], IWMPSyncServices interface, getDevice,IWMPSyncServices.getDevice, wmp.iwmpsyncservices_getdevice, wmp/IWMPSyncServices::getDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices

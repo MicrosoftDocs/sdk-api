@@ -7,7 +7,7 @@ old-location: winsock\wpucreateevent_2.htm
 old-project: WinSock
 ms.assetid: 61e71e93-e35f-4122-bd4d-c103f652d2ca
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/24/2018
 ms.keywords: WPUCreateEvent, WPUCreateEvent function [Winsock], _win32_wpucreateevent_2, winsock.wpucreateevent_2, ws2spi/WPUCreateEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

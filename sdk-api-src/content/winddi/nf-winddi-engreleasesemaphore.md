@@ -1,0 +1,110 @@
+---
+UID: NF:winddi.EngReleaseSemaphore
+title: EngReleaseSemaphore function
+author: windows-driver-content
+description: The EngReleaseSemaphore function releases the specified semaphore.
+old-location: display\engreleasesemaphore.htm
+old-project: display
+ms.assetid: e89a556f-4071-425b-b138-bfb7b49a5e8c
+ms.author: windowsdriverdev
+ms.date: 4/16/2018
+ms.keywords: EngReleaseSemaphore, EngReleaseSemaphore function [Display Devices], display.engreleasesemaphore, gdifncs_e4181ebe-43c7-4a59-8f19-e1c37f89524b.xml, winddi/EngReleaseSemaphore
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: winddi.h
+req.include-header: Winddi.h
+req.target-type: Universal
+req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Win32k.sys
+-	Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+-	GDI32.dll
+-	GDI32Full.dll
+api_name:
+-	EngReleaseSemaphore
+product: Windows
+targetos: Windows
+req.lib: Win32k.lib
+req.dll: Win32k.sys
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# EngReleaseSemaphore function
+
+
+## -description
+
+
+The <b>EngReleaseSemaphore</b> function releases the specified semaphore.
+
+
+## -parameters
+
+
+
+
+### -param hsem [in]
+
+Handle to the semaphore to be released.
+
+
+## -returns
+
+
+
+None
+
+
+
+
+## -remarks
+
+
+
+<b>EngReleaseSemaphore</b> releases the semaphore's exclusive lock on a driver's resource and reenables the delivery of special kernel asynchronous procedure calls.
+
+The lock and asynchronous procedure call suspension were acquired in a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff564174">EngAcquireSemaphore</a>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564174">EngAcquireSemaphore</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564819">EngDeleteSemaphore</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564960">EngIsSemaphoreOwned</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564961">EngIsSemaphoreOwnedByCurrentThread</a>
+ 
+
+ 
+

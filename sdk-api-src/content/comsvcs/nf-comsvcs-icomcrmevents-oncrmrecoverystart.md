@@ -7,7 +7,7 @@ old-location: cos\icomcrmevents_oncrmrecoverystart.htm
 old-project: cossdk
 ms.assetid: ac958f4b-1af4-4cfc-8fb4-92e89fdba771
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: IComCRMEvents, IComCRMEvents interface [COM+], OnCRMRecoveryStart method, IComCRMEvents::OnCRMRecoveryStart, OnCRMRecoveryStart method [COM+], OnCRMRecoveryStart method [COM+], IComCRMEvents interface, OnCRMRecoveryStart,IComCRMEvents.OnCRMRecoveryStart, _dtc_IComCRMEvents_OnCRMRecoveryStart, comsvcs/IComCRMEvents::OnCRMRecoveryStart, cos.icomcrmevents_oncrmrecoverystart
 ms.prod: windows-hardware
 ms.technology: windows-devices

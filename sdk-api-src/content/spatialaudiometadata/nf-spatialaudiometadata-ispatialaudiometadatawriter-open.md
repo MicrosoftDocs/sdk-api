@@ -7,7 +7,7 @@ old-location: coreaudio\ispatialaudiometadatawriter_open.htm
 old-project: CoreAudio
 ms.assetid: 49B3401D-7B26-4057-81C0-6C5683B83665
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: ISpatialAudioMetadataWriter, ISpatialAudioMetadataWriter interface [Core Audio], Open method, ISpatialAudioMetadataWriter::Open, Open method [Core Audio], Open method [Core Audio], ISpatialAudioMetadataWriter interface, Open,ISpatialAudioMetadataWriter.Open, coreaudio.ispatialaudiometadatawriter_open, spatialaudiometadata/ISpatialAudioMetadataWriter::Open
 ms.prod: windows-hardware
 ms.technology: windows-devices

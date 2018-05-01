@@ -7,7 +7,7 @@ old-location: mf\mfcreatevideosampleallocatorex.htm
 old-project: medfound
 ms.assetid: AB2A4D0B-CDE0-462C-BF52-3F78D0093526
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IID_IMFVideoSampleAllocator, IID_IMFVideoSampleAllocatorCallback, IID_IMFVideoSampleAllocatorEx, IID_IUnknown, MFCreateVideoSampleAllocatorEx, MFCreateVideoSampleAllocatorEx function [Media Foundation], mf.mfcreatevideosampleallocatorex, mfapi/MFCreateVideoSampleAllocatorEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

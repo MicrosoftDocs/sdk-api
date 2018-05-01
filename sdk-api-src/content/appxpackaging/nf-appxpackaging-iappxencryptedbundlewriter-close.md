@@ -7,7 +7,7 @@ old-location: appxpkg\iappxencryptedbundlewriter_close.htm
 old-project: appxpkg
 ms.assetid: 0ED396CC-3CDA-440A-9FA7-3F3A85522778
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/26/2018
 ms.keywords: Close method [App packaging and management], Close method [App packaging and management], IAppxEncryptedBundleWriter interface, Close,IAppxEncryptedBundleWriter.Close, IAppxEncryptedBundleWriter, IAppxEncryptedBundleWriter interface [App packaging and management], Close method, IAppxEncryptedBundleWriter::Close, appxpackaging/IAppxEncryptedBundleWriter::Close, appxpkg.iappxencryptedbundlewriter_close
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_ARCHITECTURE2
+req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
 topic_type:
 -	APIRef
 -	kbSyntax

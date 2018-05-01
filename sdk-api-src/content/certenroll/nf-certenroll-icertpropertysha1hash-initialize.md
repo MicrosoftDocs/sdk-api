@@ -7,7 +7,7 @@ old-location: security\icertpropertysha1hash_initialize_method.htm
 old-project: SecCertEnroll
 ms.assetid: 898da01b-94e6-4a07-9c53-f93378fbda8c
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: ICertPropertySHA1Hash, ICertPropertySHA1Hash interface [Security], Initialize method, ICertPropertySHA1Hash::Initialize, Initialize method [Security], Initialize method [Security], ICertPropertySHA1Hash interface, Initialize,ICertPropertySHA1Hash.Initialize, certenroll/ICertPropertySHA1Hash::Initialize, security.icertpropertysha1hash_initialize_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

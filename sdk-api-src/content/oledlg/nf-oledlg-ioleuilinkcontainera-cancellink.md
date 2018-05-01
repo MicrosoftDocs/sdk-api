@@ -7,7 +7,7 @@ old-location: com\ioleuilinkcontainer_cancellink.htm
 old-project: com
 ms.assetid: 97099e4d-20ea-47fb-8ca8-27330f980038
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: CancelLink method [COM], CancelLink method [COM], IOleUILinkContainer interface, CancelLink method [COM], IOleUILinkContainerA interface, CancelLink method [COM], IOleUILinkContainerW interface, CancelLink,IOleUILinkContainerA.CancelLink, IOleUILinkContainer interface [COM], CancelLink method, IOleUILinkContainer::CancelLink, IOleUILinkContainerA, IOleUILinkContainerA interface [COM], CancelLink method, IOleUILinkContainerA::CancelLink, IOleUILinkContainerW interface [COM], CancelLink method, IOleUILinkContainerW::CancelLink, _ole_IOleUILinkContainer_CancelLink, com.ioleuilinkcontainer_cancellink, oledlg/IOleUILinkContainer::CancelLink, oledlg/IOleUILinkContainerA::CancelLink, oledlg/IOleUILinkContainerW::CancelLink
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IOleUILinkContainerA::CancelLink method

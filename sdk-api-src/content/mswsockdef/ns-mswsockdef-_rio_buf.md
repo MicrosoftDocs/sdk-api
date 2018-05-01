@@ -7,7 +7,7 @@ old-location: winsock\rio_buf.htm
 old-project: WinSock
 ms.assetid: DD55194E-EE66-4FD4-87BC-E855922CEEA1
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/24/2018
 ms.keywords: "*PRIO_BUF, PRIO_BUF, PRIO_BUF structure pointer [Winsock], RIO_BUF, RIO_BUF structure [Winsock], _RIO_BUF, mswsockdef/PRIO_BUF, mswsockdef/RIO_BUF, winsock.rio_buf"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _RIO_BUF structure

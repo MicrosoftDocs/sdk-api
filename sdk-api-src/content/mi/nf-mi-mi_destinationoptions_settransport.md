@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_destinationoptions_settransport.htm
 old-project: wmi_v2
 ms.assetid: 998ac6ee-29a4-49bf-8ca1-01b7afddd33f
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/18/2018
 ms.keywords: MI_DESTINATIONOPTIONS_TRANPSORT_HTTPS, MI_DESTINATIONOPTIONS_TRANSPORT_HTTP, MI_DestinationOptions_SetTransport, MI_DestinationOptions_SetTransport function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_SetTransport, wmi_v2.mi_destinationoptions_settransport
 ms.prod: windows-hardware
 ms.technology: windows-devices

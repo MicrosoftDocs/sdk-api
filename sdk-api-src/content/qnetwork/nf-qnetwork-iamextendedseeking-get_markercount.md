@@ -7,7 +7,7 @@ old-location: dshow\iamextendedseeking_get_markercount.htm
 old-project: DirectShow
 ms.assetid: bd9c2ca8-e5f2-409e-aaf9-d89d81d2b02d
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMExtendedSeeking, IAMExtendedSeeking interface [DirectShow], get_MarkerCount method, IAMExtendedSeeking::get_MarkerCount, IAMExtendedSeekingget_MarkerCount, dshow.iamextendedseeking_get_markercount, get_MarkerCount method [DirectShow], get_MarkerCount method [DirectShow], IAMExtendedSeeking interface, get_MarkerCount,IAMExtendedSeeking.get_MarkerCount, qnetwork/IAMExtendedSeeking::get_MarkerCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IAMExtendedSeeking::get_MarkerCount method

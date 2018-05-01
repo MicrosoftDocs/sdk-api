@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmcollection_count.htm
 old-project: Fsrm
 ms.assetid: 47ea1193-0afe-4036-b8b5-511fa2e013be
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: Count property [File Server Resource Manager], Count property [File Server Resource Manager], IFsrmCollection interface, IFsrmCollection, IFsrmCollection interface [File Server Resource Manager], Count property, IFsrmCollection.Count, IFsrmCollection::get_Count, fs.ifsrmcollection_count, fsrm.ifsrmcollection_count, fsrm/IFsrmCollection::Count, fsrm/IFsrmCollection::get_Count, get_Count,IFsrmCollection.get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices

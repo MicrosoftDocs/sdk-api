@@ -7,7 +7,7 @@ old-location: wmformat\iwmreadernetworkconfig2_getautoreconnectlimit.htm
 old-project: wmformat
 ms.assetid: 8d0b794c-b3bf-4ec5-ac68-9666e73f7a6e
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: GetAutoReconnectLimit method [windows Media Format], GetAutoReconnectLimit method [windows Media Format], IWMReaderNetworkConfig2 interface, GetAutoReconnectLimit,IWMReaderNetworkConfig2.GetAutoReconnectLimit, IWMReaderNetworkConfig2, IWMReaderNetworkConfig2 interface [windows Media Format], GetAutoReconnectLimit method, IWMReaderNetworkConfig2::GetAutoReconnectLimit, IWMReaderNetworkConfig2GetAutoReconnectLimit, wmformat.iwmreadernetworkconfig2_getautoreconnectlimit, wmsdkidl/IWMReaderNetworkConfig2::GetAutoReconnectLimit
 ms.prod: windows-hardware
 ms.technology: windows-devices

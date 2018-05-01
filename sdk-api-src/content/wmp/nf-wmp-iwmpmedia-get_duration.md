@@ -7,7 +7,7 @@ old-location: wmp\iwmpmedia_get_duration.htm
 old-project: WMP
 ms.assetid: 40313888-faa0-499e-9133-dc437f5ad44f
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPMedia, IWMPMedia interface [Windows Media Player], get_duration method, IWMPMedia2 interface [Windows Media Player], get_duration method, IWMPMedia2::get_duration, IWMPMedia3 interface [Windows Media Player], get_duration method, IWMPMedia3::get_duration, IWMPMedia::get_duration, IWMPMediaget_duration, get_duration method [Windows Media Player], get_duration method [Windows Media Player], IWMPMedia interface, get_duration method [Windows Media Player], IWMPMedia2 interface, get_duration method [Windows Media Player], IWMPMedia3 interface, get_duration,IWMPMedia.get_duration, wmp.iwmpmedia_get_duration, wmp/IWMPMedia2::get_duration, wmp/IWMPMedia3::get_duration, wmp/IWMPMedia::get_duration
 ms.prod: windows-hardware
 ms.technology: windows-devices

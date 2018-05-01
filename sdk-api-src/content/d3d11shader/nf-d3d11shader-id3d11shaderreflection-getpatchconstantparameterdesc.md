@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11shaderreflection_getpatchconstantparameterdesc.ht
 old-project: direct3d11
 ms.assetid: 91a1a3ac-1dd4-4d91-aaea-196a99d5d684
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/6/2018
 ms.keywords: GetPatchConstantParameterDesc method [Direct3D 11], GetPatchConstantParameterDesc method [Direct3D 11], ID3D11ShaderReflection interface, GetPatchConstantParameterDesc,ID3D11ShaderReflection.GetPatchConstantParameterDesc, ID3D11ShaderReflection, ID3D11ShaderReflection interface [Direct3D 11], GetPatchConstantParameterDesc method, ID3D11ShaderReflection::GetPatchConstantParameterDesc, a1d3c039-54af-ae32-0c02-c7d90751aacc, d3d11shader/ID3D11ShaderReflection::GetPatchConstantParameterDesc, direct3d11.id3d11shaderreflection_getpatchconstantparameterdesc
 ms.prod: windows-hardware
 ms.technology: windows-devices

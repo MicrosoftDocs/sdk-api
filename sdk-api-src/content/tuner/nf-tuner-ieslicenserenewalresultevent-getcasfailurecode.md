@@ -7,7 +7,7 @@ old-location: mstv\ieslicenserenewalresultevent_getcasfailurecode.htm
 old-project: mstv
 ms.assetid: d3569a5e-6bde-4daf-bf52-094f56b0891c
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetCASFailureCode method [DirectShow], GetCASFailureCode method [DirectShow], IESLicenseRenewalResultEvent interface, GetCASFailureCode,IESLicenseRenewalResultEvent.GetCASFailureCode, IESLicenseRenewalResultEvent, IESLicenseRenewalResultEvent interface [DirectShow], GetCASFailureCode method, IESLicenseRenewalResultEvent::GetCASFailureCode, mstv.ieslicenserenewalresultevent_getcasfailurecode, tuner/IESLicenseRenewalResultEvent::GetCASFailureCode
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmformat\iwmdrmtranscryptor_seek.htm
 old-project: wmformat
 ms.assetid: 4962741b-d1ca-4296-ad95-d171d165c5d9
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMDRMTranscryptor, IWMDRMTranscryptor interface [windows Media Format], Seek method, IWMDRMTranscryptor::Seek, IWMDRMTranscryptorSeek, Seek method [windows Media Format], Seek method [windows Media Format], IWMDRMTranscryptor interface, Seek,IWMDRMTranscryptor.Seek, wmformat.iwmdrmtranscryptor_seek, wmsdkidl/IWMDRMTranscryptor::Seek
 ms.prod: windows-hardware
 ms.technology: windows-devices

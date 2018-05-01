@@ -7,7 +7,7 @@ old-location: mstv\imsvidaudiorendererevent2_avaudiochannelcount.htm
 old-project: mstv
 ms.assetid: 5cfb27d0-eda9-4fef-9256-636ef0c6ebe8
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: AVAudioChannelCount method [Microsoft TV Technologies], AVAudioChannelCount method [Microsoft TV Technologies], IMSVidAudioRendererEvent2 interface, AVAudioChannelCount,IMSVidAudioRendererEvent2.AVAudioChannelCount, IMSVidAudioRendererEvent2, IMSVidAudioRendererEvent2 interface [Microsoft TV Technologies], AVAudioChannelCount method, IMSVidAudioRendererEvent2::AVAudioChannelCount, mstv.imsvidaudiorendererevent2_avaudiochannelcount, segment/IMSVidAudioRendererEvent2::AVAudioChannelCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidAudioRendererEvent2::AVAudioChannelCount method

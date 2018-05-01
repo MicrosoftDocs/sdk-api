@@ -7,7 +7,7 @@ old-location: winsock\setservice_2.htm
 old-project: WinSock
 ms.assetid: cc5e35ef-5c64-41ba-a5f9-5961371c4d08
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/24/2018
 ms.keywords: NS_DEFAULT, NS_DNS, NS_NDS, NS_NETBT, NS_SAP, NS_TCPIP_HOSTS, NS_TCPIP_LOCAL, SERVICE_ADD_TYPE, SERVICE_DELETE_TYPE, SERVICE_DEREGISTER, SERVICE_FLAG_DEFER, SERVICE_FLAG_HARD, SERVICE_FLUSH, SERVICE_REGISTER, SET_SERVICE_ PARTIAL_SUCCESS, SetService, SetService function [Winsock], SetServiceA, SetServiceW, _win32_setservice_2, nspapi/SetService, nspapi/SetServiceA, nspapi/SetServiceW, winsock.setservice_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: Mswsock.lib
 req.dll: Mswsock.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # SetServiceW function

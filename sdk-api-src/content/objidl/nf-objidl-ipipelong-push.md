@@ -7,7 +7,7 @@ old-location: com\ipipelong_push.htm
 old-project: com
 ms.assetid: 16389e32-74f9-419b-bcc5-63fe43b3e456
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IPipeLong, IPipeLong interface [COM], Push method, IPipeLong::Push, Push method [COM], Push method [COM], IPipeLong interface, Push,IPipeLong.Push, _com_ipipelong_push, com.ipipelong_push, objidlbase/IPipeLong::Push
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IPipeLong::Push method

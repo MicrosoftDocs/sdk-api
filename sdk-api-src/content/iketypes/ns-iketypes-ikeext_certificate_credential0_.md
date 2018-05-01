@@ -7,7 +7,7 @@ old-location: fwp\ikeext_certificate_credential0.htm
 old-project: FWP
 ms.assetid: 926a7e74-a225-4234-8be0-c8731840756a
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: IKEEXT_CERTIFICATE_CREDENTIAL0, IKEEXT_CERTIFICATE_CREDENTIAL0 structure [Filtering], IKEEXT_CERTIFICATE_CREDENTIAL0_, IKEEXT_CERT_CREDENTIAL_FLAG_NAP_CERT, fwp.ikeext_certificate_credential0, iketypes/IKEEXT_CERTIFICATE_CREDENTIAL0
 ms.prod: windows-hardware
 ms.technology: windows-devices

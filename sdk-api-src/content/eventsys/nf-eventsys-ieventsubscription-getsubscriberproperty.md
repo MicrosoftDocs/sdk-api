@@ -7,7 +7,7 @@ old-location: cos\ieventsubscription_getsubscriberproperty.htm
 old-project: cossdk
 ms.assetid: 6e16557a-e4ea-46ae-8285-0446189cea8e
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: GetSubscriberProperty method [COM+], GetSubscriberProperty method [COM+], IEventSubscription interface, GetSubscriberProperty,IEventSubscription.GetSubscriberProperty, IEventSubscription, IEventSubscription interface [COM+], GetSubscriberProperty method, IEventSubscription::GetSubscriberProperty, _cos_IEventSubscription_GetSubscriberProperty, cos.ieventsubscription_getsubscriberproperty, eventsys/IEventSubscription::GetSubscriberProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

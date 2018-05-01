@@ -7,7 +7,7 @@ old-location: winrt\ipackagedebugsettings_stopservicing.htm
 old-project: WinRT
 ms.assetid: 91C20C41-8F20-4F9D-B22C-50D1D53FEB41
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/24/2018
 ms.keywords: IPackageDebugSettings, IPackageDebugSettings interface [Windows Runtime], StopServicing method, IPackageDebugSettings::StopServicing, StopServicing method [Windows Runtime], StopServicing method [Windows Runtime], IPackageDebugSettings interface, StopServicing,IPackageDebugSettings.StopServicing, shobjidl_core/IPackageDebugSettings::StopServicing, winrt.ipackagedebugsettings_stopservicing
 ms.prod: windows-hardware
 ms.technology: windows-devices

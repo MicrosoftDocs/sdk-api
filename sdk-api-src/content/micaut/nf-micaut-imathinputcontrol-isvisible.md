@@ -7,7 +7,7 @@ old-location: tablet\imathinputcontrol_isvisible.htm
 old-project: tablet
 ms.assetid: 4efc0fd5-5f07-4664-8143-46a5695c04df
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: IMathInputControl, IMathInputControl interface [Tablet PC], IsVisible method, IMathInputControl::IsVisible, IsVisible method [Tablet PC], IsVisible method [Tablet PC], IMathInputControl interface, IsVisible,IMathInputControl.IsVisible, micaut/IMathInputControl::IsVisible, tablet.imathinputcontrol_isvisible
 ms.prod: windows-hardware
 ms.technology: windows-devices

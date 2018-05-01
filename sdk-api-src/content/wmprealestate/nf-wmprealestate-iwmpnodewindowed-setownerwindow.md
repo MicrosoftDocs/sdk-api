@@ -7,7 +7,7 @@ old-location: wmp\iwmpnodewindowed_setownerwindow.htm
 old-project: WMP
 ms.assetid: 33541e65-57dc-488a-ab34-6ac2e5ecda58
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPNodeWindowed, IWMPNodeWindowed interface [Windows Media Player], SetOwnerWindow method, IWMPNodeWindowed::SetOwnerWindow, IWMPNodeWindowedSetOwnerWindowRendering, SetOwnerWindow method [Windows Media Player], SetOwnerWindow method [Windows Media Player], IWMPNodeWindowed interface, SetOwnerWindow,IWMPNodeWindowed.SetOwnerWindow, wmp.iwmpnodewindowed_setownerwindow, wmprealestate/IWMPNodeWindowed::SetOwnerWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices

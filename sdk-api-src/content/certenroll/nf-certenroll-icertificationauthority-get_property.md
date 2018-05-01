@@ -7,7 +7,7 @@ old-location: security\icertificationauthority_property.htm
 old-project: SecCertEnroll
 ms.assetid: 02f2d6bf-9290-43e1-ae44-a21325c176b2
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: ICertificationAuthority, ICertificationAuthority interface [Security], Property property, ICertificationAuthority.Property, ICertificationAuthority::get_Property, Property property [Security], Property property [Security], ICertificationAuthority interface, certenroll/ICertificationAuthority::Property, certenroll/ICertificationAuthority::get_Property, get_Property,ICertificationAuthority.get_Property, security.icertificationauthority_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

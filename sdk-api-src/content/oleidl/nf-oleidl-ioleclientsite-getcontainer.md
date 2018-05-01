@@ -7,7 +7,7 @@ old-location: com\ioleclientsite_getcontainer.htm
 old-project: com
 ms.assetid: 8f0caf07-f059-4e0c-9c28-c7ad0cc149e3
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: GetContainer method [COM], GetContainer method [COM], IOleClientSite interface, GetContainer,IOleClientSite.GetContainer, IOleClientSite, IOleClientSite interface [COM], GetContainer method, IOleClientSite::GetContainer, _ole_ioleclientsite_getcontainer, com.ioleclientsite_getcontainer, oleidl/IOleClientSite::GetContainer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IOleClientSite::GetContainer method

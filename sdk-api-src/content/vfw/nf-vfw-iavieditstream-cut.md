@@ -7,7 +7,7 @@ old-location: multimedia\iavieditstream_cut.htm
 old-project: Multimedia
 ms.assetid: e889d435-5c33-402d-bd69-c9122670e404
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/25/2018
 ms.keywords: Cut method [Windows Multimedia], Cut method [Windows Multimedia], IAVIEditStream interface, Cut,IAVIEditStream.Cut, IAVIEditStream, IAVIEditStream interface [Windows Multimedia], Cut method, IAVIEditStream::Cut, _win32_IAVIEditStream_Cut, multimedia.iavieditstream_cut, vfw/IAVIEditStream::Cut
 ms.prod: windows-hardware
 ms.technology: windows-devices

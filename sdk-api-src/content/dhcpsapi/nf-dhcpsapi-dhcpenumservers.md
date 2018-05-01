@@ -7,7 +7,7 @@ old-location: dhcp\dhcpenumservers.htm
 old-project: DHCP
 ms.assetid: c8b4d241-19d4-4a97-9129-c2954d63b6ac
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/7/2018
 ms.keywords: DhcpEnumServers, DhcpEnumServers function [DHCP], dhcp.dhcpenumservers, dhcpsapi/DhcpEnumServers
 ms.prod: windows-hardware
 ms.technology: windows-devices

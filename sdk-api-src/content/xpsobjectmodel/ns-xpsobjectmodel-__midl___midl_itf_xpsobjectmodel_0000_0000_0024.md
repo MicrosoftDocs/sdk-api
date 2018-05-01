@@ -58,6 +58,11 @@ The contents of the <a href="https://msdn.microsoft.com/710f3ef1-bbc3-416d-9faf-
 
 
 
+### -field colorType
+
+ 
+
+
 ### -field value
 
  
@@ -129,11 +134,6 @@ The contents of the <a href="https://msdn.microsoft.com/710f3ef1-bbc3-416d-9faf-
 
 
 ### -field __MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0028
-
- 
-
-
-### -field colorType
 
  
 

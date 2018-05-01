@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxdocument_connectedsubmit_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_5cfo_cpp.htm
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/18/2018
 ms.keywords: ConnectedSubmit method [Fax Service], ConnectedSubmit method [Fax Service], IFaxDocument interface, ConnectedSubmit,IFaxDocument.ConnectedSubmit, IFaxDocument, IFaxDocument interface [Fax Service], ConnectedSubmit method, IFaxDocument::ConnectedSubmit, _mfax_faxdocument.connectedsubmit_cpp, fax._mfax_faxdocument_connectedsubmit_cpp, faxcomex/IFaxDocument::ConnectedSubmit
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,14 +1,14 @@
 ---
 UID: NS:windns.__unnamed_struct_17
-title: DNS_KEY_DATA
+title: DNS_SIG_DATAA
 author: windows-driver-content
-description: RFC 4034.
-old-location: dns\dns_dnskey_data.htm
+description: Structure represents a DNS Security Extensions (DNSSEC) cryptographic signature (SIG) resource record (RR) as specified in RFC 4034.
+old-location: dns\dns_rrsig_data.htm
 old-project: DNS
-ms.assetid: 5c15980f-6dc7-4b6d-8be1-e22fdea8fe67
+ms.assetid: 09c2f515-acc1-402f-8e62-a0d273031633
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
-ms.keywords: "*PDNS_DNSKEY_DATA, *PDNS_KEY_DATA, 1, 2, 3, 4, 5, DNS_DNSKEY_DATA, DNS_DNSKEY_DATA structure [DNS], DNS_KEY_DATA, PDNS_DNSKEY_DATA, PDNS_DNSKEY_DATA structure pointer [DNS], dns.dns_dnskey_data, windns/DNS_DNSKEY_DATA, windns/PDNS_DNSKEY_DATA"
+ms.date: 4/18/2018
+ms.keywords: "*PDNS_RRSIG_DATA, *PDNS_RRSIG_DATAA, *PDNS_SIG_DATA, *PDNS_SIG_DATAA, 1, 2, 3, 4, 5, DNS_RRSIG_DATA, DNS_RRSIG_DATA structure [DNS], DNS_RRSIG_DATAA, DNS_SIG_DATA, DNS_SIG_DATAA, PDNS_RRSIG_DATA, PDNS_RRSIG_DATA structure pointer [DNS], dns.dns_rrsig_data, windns/DNS_RRSIG_DATA, windns/PDNS_RRSIG_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: DNS_KEY_DATA, *PDNS_KEY_DATA, DNS_DNSKEY_DATA, *PDNS_DNSKEY_DATA
+req.typenames: DNS_SIG_DATAA, *PDNS_SIG_DATAA, DNS_RRSIG_DATAA, *PDNS_RRSIG_DATAA
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	Windns.h
 api_name:
--	DNS_DNSKEY_DATA
+-	DNS_RRSIG_DATA
 product: Windows
 targetos: Windows
 req.lib: 
@@ -44,13 +44,14 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# DNS_KEY_DATA structure
+# DNS_SIG_DATAA structure
 
 
 ## -description
 
 
-The <b>DNS_DNSKEY_DATA</b> structure represents a DNSKEY  resource record as specified in section 2 of  <a href="http://go.microsoft.com/fwlink/p/?linkid=107052">RFC 4034</a>.
+The <b>DNS_RRSIG_DATA</b> structure represents a DNS
+   Security Extensions (DNSSEC) cryptographic signature (SIG) resource  record (RR) as specified in <a href="http://go.microsoft.com/fwlink/p/?linkid=107052">RFC 4034</a>.
 
 
 ## -struct-fields
@@ -58,37 +59,14 @@ The <b>DNS_DNSKEY_DATA</b> structure represents a DNSKEY  resource record as spe
 
 
 
-### -field wFlags
+### -field wTypeCovered
 
-A set of flags that specify key properties as  described in section 2.1.1 of <a href="http://go.microsoft.com/fwlink/p/?linkid=107052">RFC 4034</a>.
-
-
-### -field chProtocol
-
-A value that specifies the protocol with which <b>Key</b> can be used. The possible values are shown in the following table.
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="3"></a><dl>
-<dt><b>3</b></dt>
-</dl>
-</td>
-<td width="60%">
-Domain Name System Security Extensions (DNSSEC)
-
-</td>
-</tr>
-</table>
- 
+The <a href="https://msdn.microsoft.com/95bc9193-7962-498a-9abd-c4718ac35f0f">DNS Record Type</a> of the signed RRs.
 
 
 ### -field chAlgorithm
 
-A value that specifies the algorithm to use with <b>Key</b>. The possible values are shown in the following table.
+A value that specifies the  algorithm used to generate <b>Signature</b>. The possible values are shown in the following table.
 
 <table>
 <tr>
@@ -149,19 +127,49 @@ RSA/SHA-1 (<a href="http://go.microsoft.com/fwlink/p/?linkid=90406">RFC 3110</a>
  
 
 
-### -field wKeyLength
+### -field chLabelCount
 
-The length, in bytes, of <b>Key</b>. This value is determined by the algorithm type in <b>chAlgorithm</b>.
-
-
-### -field wPad
-
-Reserved. Do not use.
+The number of labels in the original signature RR owner name as specified in section 3.1.3 of <a href="http://go.microsoft.com/fwlink/p/?linkid=107052">RFC 4034</a>.
 
 
-### -field Key
+### -field dwOriginalTtl
 
-A BYTE array that contains the public key for the algorithm specified in <b>chAlgorithm</b>. Its length is determined by <b>wKeyLength</b>.
+The Time-to-Live (TTL) value of the RR set signed by <b>Signature</b>.
+
+
+### -field dwExpiration
+
+The expiration date of <b>Signature</b>, expressed in seconds since the beginning of January 1, 1970, Greenwich Mean Time (GMT), excluding leap seconds.
+
+
+### -field dwTimeSigned
+
+The date and time at which <b>Signature</b> becomes valid, expressed in seconds since the beginning of January 1, 1970, Greenwich Mean Time (GMT), excluding leap seconds.
+
+
+### -field wKeyTag
+
+A value that represents the method to choose which public key is used to verify  <b>Signature</b> as specified Appendix B of <a href="http://go.microsoft.com/fwlink/p/?linkid=107052">RFC 4034</a>.
+
+
+### -field wSignatureLength
+
+ 
+
+
+### -field pNameSigner
+
+A pointer to a string that represents  the name of the <b>Signature</b> generator.
+
+
+### -field Signature
+
+A <b>BYTE</b> array that contains the RR set signature as specified in section 3.1.8 of <a href="http://go.microsoft.com/fwlink/p/?linkid=107052">RFC 4034</a>.
+
+
+#### - Pad
+
+Reserved for padding. Do not use.
 
 
 ## -remarks
@@ -169,7 +177,7 @@ A BYTE array that contains the public key for the algorithm specified in <b>chAl
 
 
 The 
-<b>DNS_DNSKEY_DATA</b> structure is used in conjunction with the 
+<b>DNS_RRSIG_DATA</b> structure is used in conjunction with the 
 <a href="https://msdn.microsoft.com/ab7b96a5-346f-4e01-bb2a-885f44764590">DNS_RECORD</a> structure to programmatically manage DNS entries.
 
 

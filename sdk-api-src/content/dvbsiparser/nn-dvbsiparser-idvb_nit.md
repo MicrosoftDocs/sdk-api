@@ -7,7 +7,7 @@ old-location: mstv\idvb_nit.htm
 old-project: mstv
 ms.assetid: 70b638ae-0152-4a44-aeb1-f3ac382c19ce
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IDVB_NIT, IDVB_NIT interface [Microsoft TV Technologies], IDVB_NIT interface [Microsoft TV Technologies], described, IDVB_NITInterface, dvbsiparser/IDVB_NIT, mstv.idvb_nit
 ms.prod: windows-hardware
 ms.technology: windows-devices

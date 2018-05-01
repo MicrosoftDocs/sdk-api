@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10infoqueue_setbreakonid.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10infoqueue_setbreakonid.htm
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: ID3D10InfoQueue, ID3D10InfoQueue interface [Direct3D 10], SetBreakOnID method, ID3D10InfoQueue::SetBreakOnID, SetBreakOnID method [Direct3D 10], SetBreakOnID method [Direct3D 10], ID3D10InfoQueue interface, SetBreakOnID,ID3D10InfoQueue.SetBreakOnID, d3d10sdklayers/ID3D10InfoQueue::SetBreakOnID, d9deed23-ec78-a913-c2b7-8c24e15d1e45, direct3d10.id3d10infoqueue_setbreakonid
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winrt\ireferencetrackermanager_findtrackertargetscompleted.htm
 old-project: WinRT
 ms.assetid: 16e6f9ac-0466-4ada-ad72-278b3dba6a26
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/24/2018
 ms.keywords: FindTrackerTargetsCompleted method [Windows Runtime], FindTrackerTargetsCompleted method [Windows Runtime], IReferenceTrackerManager interface, FindTrackerTargetsCompleted,IReferenceTrackerManager.FindTrackerTargetsCompleted, IReferenceTrackerManager, IReferenceTrackerManager interface [Windows Runtime], FindTrackerTargetsCompleted method, IReferenceTrackerManager::FindTrackerTargetsCompleted, windows/IReferenceTrackerManager::FindTrackerTargetsCompleted, winrt.ireferencetrackermanager_findtrackertargetscompleted
 ms.prod: windows-hardware
 ms.technology: windows-devices

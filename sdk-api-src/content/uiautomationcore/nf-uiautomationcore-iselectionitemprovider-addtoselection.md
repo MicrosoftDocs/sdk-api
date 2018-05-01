@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ISelectionItemProvider_AddToSelection.htm
 old-project: WinAuto
 ms.assetid: 7c54d57f-7cca-4068-80d9-995c46de1962
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: AddToSelection method [Windows Accessibility], AddToSelection method [Windows Accessibility], ISelectionItemProvider interface, AddToSelection,ISelectionItemProvider.AddToSelection, ISelectionItemProvider, ISelectionItemProvider interface [Windows Accessibility], AddToSelection method, ISelectionItemProvider::AddToSelection, uiauto.uiauto_ISelectionItemProvider_AddToSelection, uiauto_ISelectionItemProvider_AddToSelection, uiautomationcore/ISelectionItemProvider::AddToSelection, winauto.uiauto_ISelectionItemProvider_AddToSelection
 ms.prod: windows-hardware
 ms.technology: windows-devices

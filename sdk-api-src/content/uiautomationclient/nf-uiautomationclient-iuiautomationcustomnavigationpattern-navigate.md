@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationCustomNavigationPattern_Navigate.htm
 old-project: WinAuto
 ms.assetid: 82481F62-9FBB-42C8-BDCB-2462FEEB5A0F
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: IUIAutomationCustomNavigationPattern, IUIAutomationCustomNavigationPattern interface [Windows Accessibility], Navigate method, IUIAutomationCustomNavigationPattern::Navigate, Navigate method [Windows Accessibility], Navigate method [Windows Accessibility], IUIAutomationCustomNavigationPattern interface, Navigate,IUIAutomationCustomNavigationPattern.Navigate, uiautomationclient/IUIAutomationCustomNavigationPattern::Navigate, winauto.uiauto_IUIAutomationCustomNavigationPattern_Navigate
 ms.prod: windows-hardware
 ms.technology: windows-devices

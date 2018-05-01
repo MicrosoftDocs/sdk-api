@@ -7,7 +7,7 @@ old-location: controls\itextrow_getrtl.htm
 old-project: Controls
 ms.assetid: 60261327-71f1-4bc3-97ac-b9c5ee3d44c0
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: GetRTL method [Windows Controls], GetRTL method [Windows Controls], ITextRow interface, GetRTL,ITextRow.GetRTL, ITextRow, ITextRow interface [Windows Controls], GetRTL method, ITextRow::GetRTL, controls.itextrow_getrtl, tom/ITextRow::GetRTL
 ms.prod: windows-hardware
 ms.technology: windows-devices

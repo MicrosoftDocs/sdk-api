@@ -7,7 +7,7 @@ old-location: cos\icomcrmevents_oncrmbegin.htm
 old-project: cossdk
 ms.assetid: 8975cb5e-024f-40bf-acd7-c5af0abd88a0
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: IComCRMEvents, IComCRMEvents interface [COM+], OnCRMBegin method, IComCRMEvents::OnCRMBegin, OnCRMBegin method [COM+], OnCRMBegin method [COM+], IComCRMEvents interface, OnCRMBegin,IComCRMEvents.OnCRMBegin, _dtc_IComCRMEvents_OnCRMBegin, comsvcs/IComCRMEvents::OnCRMBegin, cos.icomcrmevents_oncrmbegin
 ms.prod: windows-hardware
 ms.technology: windows-devices

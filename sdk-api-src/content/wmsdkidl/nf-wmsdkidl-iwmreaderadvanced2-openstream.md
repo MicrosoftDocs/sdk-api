@@ -7,7 +7,7 @@ old-location: wmformat\iwmreaderadvanced2_openstream.htm
 old-project: wmformat
 ms.assetid: 20822e1d-b367-4b03-9d8a-985427f0062d
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMReaderAdvanced2, IWMReaderAdvanced2 interface [windows Media Format], OpenStream method, IWMReaderAdvanced2::OpenStream, IWMReaderAdvanced2OpenStream, OpenStream method [windows Media Format], OpenStream method [windows Media Format], IWMReaderAdvanced2 interface, OpenStream,IWMReaderAdvanced2.OpenStream, wmformat.iwmreaderadvanced2_openstream, wmsdkidl/IWMReaderAdvanced2::OpenStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

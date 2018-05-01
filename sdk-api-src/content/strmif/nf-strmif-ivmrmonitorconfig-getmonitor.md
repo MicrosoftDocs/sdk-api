@@ -7,7 +7,7 @@ old-location: dshow\ivmrmonitorconfig_getmonitor.htm
 old-project: DirectShow
 ms.assetid: 8d71f1d1-4f8b-4ff8-9a4f-d25050821622
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetMonitor method [DirectShow], GetMonitor method [DirectShow], IVMRMonitorConfig interface, GetMonitor,IVMRMonitorConfig.GetMonitor, IVMRMonitorConfig, IVMRMonitorConfig interface [DirectShow], GetMonitor method, IVMRMonitorConfig::GetMonitor, IVMRMonitorConfigGetMonitor, dshow.ivmrmonitorconfig_getmonitor, strmif/IVMRMonitorConfig::GetMonitor
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: com\isynchronize.htm
 old-project: com
 ms.assetid: 2c1e3d27-abb4-4bd0-ad9e-4dc9eda8e4b6
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: ISynchronize, ISynchronize interface [COM], ISynchronize interface [COM], described, _com_isynchronize, com.isynchronize, objidlbase/ISynchronize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ISynchronize interface

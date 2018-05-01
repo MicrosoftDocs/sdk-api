@@ -7,7 +7,7 @@ old-location: mstv\ifrequencymap_get_countrycode.htm
 old-project: mstv
 ms.assetid: 3f5e4109-e424-40be-9b3c-7eeef895e677
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IFrequencyMap, IFrequencyMap interface [Microsoft TV Technologies], get_CountryCode method, IFrequencyMap::get_CountryCode, IFrequencyMapget_CountryCode, bdaiface/IFrequencyMap::get_CountryCode, get_CountryCode method [Microsoft TV Technologies], get_CountryCode method [Microsoft TV Technologies], IFrequencyMap interface, get_CountryCode,IFrequencyMap.get_CountryCode, mstv.ifrequencymap_get_countrycode
 ms.prod: windows-hardware
 ms.technology: windows-devices

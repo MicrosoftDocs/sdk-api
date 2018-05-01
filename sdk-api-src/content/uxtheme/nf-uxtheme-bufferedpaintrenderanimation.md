@@ -7,7 +7,7 @@ old-location: controls\BufferedPaintRenderAnimation.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\bufferedpaintrenderanimation.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: BufferedPaintRenderAnimation, BufferedPaintRenderAnimation function [Windows Controls], _shell_BufferedPaintRenderAnimation, _shell_BufferedPaintRenderAnimation_cpp, controls.BufferedPaintRenderAnimation, controls._shell_BufferedPaintRenderAnimation, uxtheme/BufferedPaintRenderAnimation
 ms.prod: windows-hardware
 ms.technology: windows-devices

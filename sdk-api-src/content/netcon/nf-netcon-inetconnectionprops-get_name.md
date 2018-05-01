@@ -7,7 +7,7 @@ old-location: ics\inetconnectionprops_get_name.htm
 old-project: ICS
 ms.assetid: 7ff91c38-51af-467b-baff-0d41a2ba14f7
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: INetConnectionProps, INetConnectionProps interface [ICS/ICF], get_Name method, INetConnectionProps::get_Name, _ics_inetconnectionprops_get_name, get_Name method [ICS/ICF], get_Name method [ICS/ICF], INetConnectionProps interface, get_Name,INetConnectionProps.get_Name, ics.inetconnectionprops_get_name, netcon/INetConnectionProps::get_Name
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # INetConnectionProps::get_Name method

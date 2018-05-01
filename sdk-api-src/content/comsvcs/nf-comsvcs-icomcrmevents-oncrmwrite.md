@@ -7,7 +7,7 @@ old-location: cos\icomcrmevents_oncrmwrite.htm
 old-project: cossdk
 ms.assetid: 095452e3-a38d-4602-a925-8fa6445ddbc8
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: IComCRMEvents, IComCRMEvents interface [COM+], OnCRMWrite method, IComCRMEvents::OnCRMWrite, OnCRMWrite method [COM+], OnCRMWrite method [COM+], IComCRMEvents interface, OnCRMWrite,IComCRMEvents.OnCRMWrite, _dtc_IComCRMEvents_OnCRMWrite, comsvcs/IComCRMEvents::OnCRMWrite, cos.icomcrmevents_oncrmwrite
 ms.prod: windows-hardware
 ms.technology: windows-devices

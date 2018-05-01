@@ -7,7 +7,7 @@ old-location: mediastreaming\imediarenderer_getpositioninformationasync.htm
 old-project: mediastreaming
 ms.assetid: 07011C85-34C5-430A-9551-FFC7C24CCED8
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/10/2018
 ms.keywords: GetPositionInformationAsync method [Media Streaming API], GetPositionInformationAsync method [Media Streaming API], IMediaRenderer interface, GetPositionInformationAsync,IMediaRenderer.GetPositionInformationAsync, IMediaRenderer, IMediaRenderer interface [Media Streaming API], GetPositionInformationAsync method, IMediaRenderer::GetPositionInformationAsync, mediastreaming.imediarenderer_getpositioninformationasync, windows/IMediaRenderer::GetPositionInformationAsync
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: PDF_RENDER_PARAMS
+req.typenames: TimeSpan
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,7 +7,7 @@ old-location: dshow\ifullscreenvideoex_iskeeppixelaspectratio.htm
 old-project: DirectShow
 ms.assetid: 3f3b55d9-b504-42a3-b60a-65073d1e1447
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IFullScreenVideoEx, IFullScreenVideoEx interface [DirectShow], IsKeepPixelAspectRatio method, IFullScreenVideoEx::IsKeepPixelAspectRatio, IFullScreenVideoExIsKeepPixelAspectRatio, IsKeepPixelAspectRatio method [DirectShow], IsKeepPixelAspectRatio method [DirectShow], IFullScreenVideoEx interface, IsKeepPixelAspectRatio,IFullScreenVideoEx.IsKeepPixelAspectRatio, amvideo/IFullScreenVideoEx::IsKeepPixelAspectRatio, dshow.ifullscreenvideoex_iskeeppixelaspectratio
 ms.prod: windows-hardware
 ms.technology: windows-devices

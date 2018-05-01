@@ -7,7 +7,7 @@ old-location: ics\inetfwprofile_icmpsettings.htm
 old-project: ICS
 ms.assetid: 088be29e-cd1f-4e00-9759-c6e40dca8449
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: INetFwProfile, INetFwProfile interface [ICS/ICF], IcmpSettings property, INetFwProfile.IcmpSettings, INetFwProfile::get_IcmpSettings, IcmpSettings property [ICS/ICF], IcmpSettings property [ICS/ICF], INetFwProfile interface, get_IcmpSettings,INetFwProfile.get_IcmpSettings, ics.inetfwprofile_icmpsettings, netfw/INetFwProfile::IcmpSettings, netfw/INetFwProfile::get_IcmpSettings
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: 
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # INetFwProfile::get_IcmpSettings method

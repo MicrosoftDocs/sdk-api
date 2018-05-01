@@ -7,7 +7,7 @@ old-location: mstv\iatsccomponenttype_put_flags.htm
 old-project: mstv
 ms.assetid: e2959a4c-70a8-43a4-8bc5-4bfc965e8085
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IATSCComponentType, IATSCComponentType interface [Microsoft TV Technologies], put_Flags method, IATSCComponentType::put_Flags, IATSCComponentTypeput_Flags, mstv.iatsccomponenttype_put_flags, put_Flags method [Microsoft TV Technologies], put_Flags method [Microsoft TV Technologies], IATSCComponentType interface, put_Flags,IATSCComponentType.put_Flags, tuner/IATSCComponentType::put_Flags
 ms.prod: windows-hardware
 ms.technology: windows-devices

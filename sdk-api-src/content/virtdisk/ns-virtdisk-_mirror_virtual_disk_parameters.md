@@ -58,6 +58,12 @@ Contains virtual hard disk (VHD) mirror request parameters.
 
 
 
+### -field Version
+
+Indicates the version of this structure to use. Set this to 
+      <b>MIRROR_VIRTUAL_DISK_VERSION_1</b> (1).
+
+
 ### -field Version1
 
 This structure is used if the <b>Version</b> member is set to 
@@ -74,12 +80,6 @@ This structure is used if the <b>Version</b> member is set to
          <i>Flags</i> parameter to 
          <b>MirrorVirtualDisk</b> is 
          <b>MIRROR_VIRTUAL_DISK_FLAG_EXISTING_FILE</b> (1) then this file must exist.
-
-
-### -field Version
-
-Indicates the version of this structure to use. Set this to 
-      <b>MIRROR_VIRTUAL_DISK_VERSION_1</b> (1).
 
 
 ## -see-also

@@ -7,7 +7,7 @@ old-location: mf\idirectxvideodecoder_getvideodecoderservice.htm
 old-project: medfound
 ms.assetid: 092c49cd-6bfc-4ed0-9378-5751ad19296c
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 092c49cd-6bfc-4ed0-9378-5751ad19296c, GetVideoDecoderService method [Media Foundation], GetVideoDecoderService method [Media Foundation], IDirectXVideoDecoder interface, GetVideoDecoderService,IDirectXVideoDecoder.GetVideoDecoderService, IDirectXVideoDecoder, IDirectXVideoDecoder interface [Media Foundation], GetVideoDecoderService method, IDirectXVideoDecoder::GetVideoDecoderService, dxva2api/IDirectXVideoDecoder::GetVideoDecoderService, mf.idirectxvideodecoder_getvideodecoderservice
 ms.prod: windows-hardware
 ms.technology: windows-devices

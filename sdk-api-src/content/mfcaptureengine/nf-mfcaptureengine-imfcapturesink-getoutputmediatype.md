@@ -7,7 +7,7 @@ old-location: mf\imfcapturesink_getoutputmediatype.htm
 old-project: medfound
 ms.assetid: 3F050964-9E71-45FC-9553-A2E7A397217E
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetOutputMediaType method [Media Foundation], GetOutputMediaType method [Media Foundation], IMFCaptureSink interface, GetOutputMediaType,IMFCaptureSink.GetOutputMediaType, IMFCaptureSink, IMFCaptureSink interface [Media Foundation], GetOutputMediaType method, IMFCaptureSink::GetOutputMediaType, mf.imfcapturesink_getoutputmediatype, mfcaptureengine/IMFCaptureSink::GetOutputMediaType
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: com\imoniker_getdisplayname.htm
 old-project: com
 ms.assetid: 424036c9-c097-4507-b562-4a01f9199b1f
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: GetDisplayName method [COM], GetDisplayName method [COM], IMoniker interface, GetDisplayName,IMoniker.GetDisplayName, IMoniker, IMoniker interface [COM], GetDisplayName method, IMoniker::GetDisplayName, _com_imoniker_getdisplayname, com.imoniker_getdisplayname, objidl/IMoniker::GetDisplayName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMoniker::GetDisplayName method

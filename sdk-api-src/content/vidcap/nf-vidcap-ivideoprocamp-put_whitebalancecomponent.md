@@ -7,7 +7,7 @@ old-location: dshow\ivideoprocamp_put_whitebalancecomponent.htm
 old-project: DirectShow
 ms.assetid: 800d7ddb-9f66-4fc4-a246-e6501377b9ce
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IVideoProcAmp, IVideoProcAmp interface [DirectShow], put_WhiteBalanceComponent method, IVideoProcAmp::put_WhiteBalanceComponent, IVideoProcAmpput_WhiteBalanceComponent, dshow.ivideoprocamp_put_whitebalancecomponent, put_WhiteBalanceComponent method [DirectShow], put_WhiteBalanceComponent method [DirectShow], IVideoProcAmp interface, put_WhiteBalanceComponent,IVideoProcAmp.put_WhiteBalanceComponent, vidcap/IVideoProcAmp::put_WhiteBalanceComponent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: VIDEOHDR, *PVIDEOHDR, *LPVIDEOHDR
+req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,7 +7,7 @@ old-location: setup\msidatabasegeneratetransform.htm
 old-project: Msi
 ms.assetid: 9e8fc756-4195-4fb7-9adb-0bda20e4ae95
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/26/2018
 ms.keywords: MsiDatabaseGenerateTransform, MsiDatabaseGenerateTransform function, MsiDatabaseGenerateTransformA, MsiDatabaseGenerateTransformW, _msi_msidatabasegeneratetransform, msiquery/MsiDatabaseGenerateTransform, msiquery/MsiDatabaseGenerateTransformA, msiquery/MsiDatabaseGenerateTransformW, setup.msidatabasegeneratetransform
 ms.prod: windows-hardware
 ms.technology: windows-devices

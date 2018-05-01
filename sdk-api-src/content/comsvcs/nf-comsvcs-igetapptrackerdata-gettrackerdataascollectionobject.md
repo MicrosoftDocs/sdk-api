@@ -7,7 +7,7 @@ old-location: cos\igetapptrackerdata_gettrackerdataascollectionobject.htm
 old-project: cossdk
 ms.assetid: 215523ad-5f18-4529-8b23-afbd1b738fb5
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: GetTrackerDataAsCollectionObject method [COM+], GetTrackerDataAsCollectionObject method [COM+], IGetAppTrackerData interface, GetTrackerDataAsCollectionObject,IGetAppTrackerData.GetTrackerDataAsCollectionObject, IGetAppTrackerData, IGetAppTrackerData interface [COM+], GetTrackerDataAsCollectionObject method, IGetAppTrackerData::GetTrackerDataAsCollectionObject, comsvcs/IGetAppTrackerData::GetTrackerDataAsCollectionObject, cos.igetapptrackerdata_gettrackerdataascollectionobject
 ms.prod: windows-hardware
 ms.technology: windows-devices

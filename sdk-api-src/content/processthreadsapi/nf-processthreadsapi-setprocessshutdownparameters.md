@@ -7,7 +7,7 @@ old-location: base\setprocessshutdownparameters.htm
 old-project: ProcThread
 ms.assetid: c467950e-31e1-4608-a08a-0736a5524e0e
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: SHUTDOWN_NORETRY, SetProcessShutdownParameters, SetProcessShutdownParameters function, _win32_setprocessshutdownparameters, base.setprocessshutdownparameters, processthreadsapi/SetProcessShutdownParameters, winbase/SetProcessShutdownParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -48,7 +48,7 @@ targetos: Windows
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # SetProcessShutdownParameters function
@@ -178,7 +178,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 Applications running in the system security context do not get shut down by the operating system. They get notified of shutdown or logoff through the callback function installable via 
-<a href="https://msdn.microsoft.com/6fc64265-1403-45ea-925c-c5eb31d56734">SetConsoleCtrlHandler</a>. They also get notified in the order specified by the <i>dwLevel</i> parameter.
+<a href="base.setconsolectrlhandler">SetConsoleCtrlHandler</a>. They also get notified in the order specified by the <i>dwLevel</i> parameter.
 
 
 
@@ -200,7 +200,7 @@ Applications running in the system security context do not get shut down by the 
 
 
 
-<a href="https://msdn.microsoft.com/6fc64265-1403-45ea-925c-c5eb31d56734">SetConsoleCtrlHandler</a>
+<a href="base.setconsolectrlhandler">SetConsoleCtrlHandler</a>
  
 
  

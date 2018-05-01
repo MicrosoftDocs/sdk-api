@@ -7,7 +7,7 @@ old-location: com\ipropertypage_deactivate.htm
 old-project: com
 ms.assetid: 545f7c3d-3c6f-42c2-b472-3da3bc184200
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: Deactivate method [COM], Deactivate method [COM], IPropertyPage interface, Deactivate,IPropertyPage.Deactivate, IPropertyPage, IPropertyPage interface [COM], Deactivate method, IPropertyPage::Deactivate, _ctrl_ipropertypage_deactivate, com.ipropertypage_deactivate, ocidl/IPropertyPage::Deactivate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IPropertyPage::Deactivate method

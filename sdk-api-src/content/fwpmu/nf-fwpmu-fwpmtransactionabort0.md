@@ -7,7 +7,7 @@ old-location: fwp\fwpmtransactionabort0_func.htm
 old-project: FWP
 ms.assetid: e2574f0c-1070-4e06-8b75-80fa7ec20acf
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: FwpmTransactionAbort0, FwpmTransactionAbort0 function [Filtering], fwp.fwpmtransactionabort0_func, fwpmu/FwpmTransactionAbort0
 ms.prod: windows-hardware
 ms.technology: windows-devices

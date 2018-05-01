@@ -38,8 +38,8 @@ api_name:
 -	ENTERPRISE_DATA_POLICIES
 product: Windows
 targetos: Windows
-req.lib: Sporder.lib
-req.dll: Ws2_32.dll
+req.lib: Nmapi.lib
+req.dll: Nmapi.dll
 req.irql: 
 req.product: Internet Explorer 6.01
 ---

@@ -57,10 +57,20 @@ Contains callback specific parameters such as file offset, length, flags, etc.
 
 
 
+### -field ParamSize
+
+ 
+
+
 ### -field DUMMYUNIONNAME
 
 
 ### -field DUMMYUNIONNAME.Cancel
+
+
+### -field DUMMYUNIONNAME.Cancel.Flags
+
+Cancel data flags.
 
 
 ### -field DUMMYUNIONNAME.Cancel.DUMMYUNIONNAME
@@ -77,11 +87,6 @@ Offset, in bytes, for specifying the range of data.
 ### -field DUMMYUNIONNAME.Cancel.DUMMYUNIONNAME.FetchData.Length
 
 Length of the data in bytes.
-
-
-### -field DUMMYUNIONNAME.Cancel.Flags
-
-Cancel data flags.
 
 
 ### -field DUMMYUNIONNAME.FetchData
@@ -217,11 +222,4 @@ Rename completion placeholder flags.
 ### -field DUMMYUNIONNAME.RenameCompletion.SourcePath
 
 The full source link path relative to the volume.
-
-
-### -field ParamSize
-
- 
-
-
 

@@ -7,7 +7,7 @@ old-location: dshow\ivideoprocamp_put_brightness.htm
 old-project: DirectShow
 ms.assetid: 69c8086c-a638-4ec6-a4fd-5a400095145d
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IVideoProcAmp, IVideoProcAmp interface [DirectShow], put_Brightness method, IVideoProcAmp::put_Brightness, IVideoProcAmpput_Brightness, dshow.ivideoprocamp_put_brightness, put_Brightness method [DirectShow], put_Brightness method [DirectShow], IVideoProcAmp interface, put_Brightness,IVideoProcAmp.put_Brightness, vidcap/IVideoProcAmp::put_Brightness
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: VIDEOHDR, *PVIDEOHDR, *LPVIDEOHDR
+req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,7 +7,7 @@ old-location: mf\imfpmediaplayer_setaspectratiomode.htm
 old-project: medfound
 ms.assetid: b100a422-548f-4c38-afeb-4d4c1d9a9140
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFPMediaPlayer, IMFPMediaPlayer interface [Media Foundation], SetAspectRatioMode method, IMFPMediaPlayer::SetAspectRatioMode, SetAspectRatioMode method [Media Foundation], SetAspectRatioMode method [Media Foundation], IMFPMediaPlayer interface, SetAspectRatioMode,IMFPMediaPlayer.SetAspectRatioMode, mf.imfpmediaplayer_setaspectratiomode, mfplay/IMFPMediaPlayer::SetAspectRatioMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

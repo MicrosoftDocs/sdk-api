@@ -7,7 +7,7 @@ old-location: indexsrv\istemmer_init.htm
 old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_2a7o.htm
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/11/2018
 ms.keywords: IStemmer, IStemmer interface [Indexing Service], Init method, IStemmer::Init, Init method [Indexing Service], Init method [Indexing Service], IStemmer interface, Init,IStemmer.Init, _idxs_IStemmer_Init, indexsrv.istemmer_init, indexsrv/IStemmer::Init
 ms.prod: windows-hardware
 ms.technology: windows-devices

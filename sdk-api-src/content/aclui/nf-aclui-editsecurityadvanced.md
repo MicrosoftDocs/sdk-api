@@ -7,7 +7,7 @@ old-location: security\editsecurityadvanced.htm
 old-project: SecAuthZ
 ms.assetid: E451BBB9-4E01-4A8F-9ACD-750351F16453
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: EditSecurityAdvanced, EditSecurityAdvanced function [Security], aclui/EditSecurityAdvanced, security.editsecurityadvanced
 ms.prod: windows-hardware
 ms.technology: windows-devices

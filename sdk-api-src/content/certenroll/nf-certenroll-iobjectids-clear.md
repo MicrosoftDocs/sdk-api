@@ -7,7 +7,7 @@ old-location: security\iobjectids_clear_method.htm
 old-project: SecCertEnroll
 ms.assetid: f539a79a-477a-49cc-b761-2a615c3d5ea4
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: Clear method [Security], Clear method [Security], IObjectIds interface, Clear,IObjectIds.Clear, IObjectIds, IObjectIds interface [Security], Clear method, IObjectIds::Clear, certenroll/IObjectIds::Clear, security.iobjectids_clear_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

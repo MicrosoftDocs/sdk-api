@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxdoc_get_recipientcountry_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_7ybd.htm
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/18/2018
 ms.keywords: FaxDoc object [Fax Service], RecipientCountry property, IFaxDoc, IFaxDoc::put_RecipientCountry, RecipientCountry property [Fax Service], RecipientCountry property [Fax Service], FaxDoc object, _mfax_ifaxdoc_get_recipientcountry, fax._mfax_ifaxdoc_get_recipientcountry, fax._mfax_ifaxdoc_get_recipientcountry_vb, put_RecipientCountry,IFaxDoc.put_RecipientCountry
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: iphlp\getextendedudptable.htm
 old-project: IpHlp
 ms.assetid: c936d5a0-ca5e-487e-b304-bfd81403ab40
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 4/13/2018
 ms.keywords: AF_INET, AF_INET6, GetExtendedUdpTable, GetExtendedUdpTable function [IP Helper], iphlp.getextendedudptable, iphlpapi/GetExtendedUdpTable
 ms.prod: windows-hardware
 ms.technology: windows-devices

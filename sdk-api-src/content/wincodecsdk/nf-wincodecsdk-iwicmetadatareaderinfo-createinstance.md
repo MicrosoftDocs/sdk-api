@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicmetadatareaderinfo_createinstance.htm
 old-project: wic
 ms.assetid: e6ee4ee9-8d9d-44f7-aab8-8e8ccfa7f942
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: CreateInstance method [Windows Imaging Component], CreateInstance method [Windows Imaging Component], IWICMetadataReaderInfo interface, CreateInstance,IWICMetadataReaderInfo.CreateInstance, IWICMetadataReaderInfo, IWICMetadataReaderInfo interface [Windows Imaging Component], CreateInstance method, IWICMetadataReaderInfo::CreateInstance, _wic_codec_iwicmetadatareaderinfo_createinstance, wic._wic_codec_iwicmetadatareaderinfo_createinstance, wincodecsdk/IWICMetadataReaderInfo::CreateInstance
 ms.prod: windows-hardware
 ms.technology: windows-devices

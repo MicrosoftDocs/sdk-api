@@ -7,7 +7,7 @@ old-location: termserv\itssbresourcepluginstore_addenvironmenttostore.htm
 old-project: TermServ
 ms.assetid: 5f1d995b-10de-4754-9160-fb93a9d8f263
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: AddEnvironmentToStore method [Remote Desktop Services], AddEnvironmentToStore method [Remote Desktop Services], ITsSbResourcePluginStore interface, AddEnvironmentToStore method [Remote Desktop Services], ITsSbResourcePluginStoreEx interface, AddEnvironmentToStore,ITsSbResourcePluginStore.AddEnvironmentToStore, ITsSbResourcePluginStore, ITsSbResourcePluginStore interface [Remote Desktop Services], AddEnvironmentToStore method, ITsSbResourcePluginStore::AddEnvironmentToStore, ITsSbResourcePluginStoreEx interface [Remote Desktop Services], AddEnvironmentToStore method, ITsSbResourcePluginStoreEx::AddEnvironmentToStore, sbtsv/ITsSbResourcePluginStore::AddEnvironmentToStore, sbtsv/ITsSbResourcePluginStoreEx::AddEnvironmentToStore, termserv.itssbresourcepluginstore_addenvironmenttostore
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITsSbResourcePluginStore::AddEnvironmentToStore method

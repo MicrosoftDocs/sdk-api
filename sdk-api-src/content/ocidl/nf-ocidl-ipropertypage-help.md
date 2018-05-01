@@ -7,7 +7,7 @@ old-location: com\ipropertypage_help.htm
 old-project: com
 ms.assetid: ba715518-1aa0-42de-bad7-f2d0d0f00460
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: Help method [COM], Help method [COM], IPropertyPage interface, Help,IPropertyPage.Help, IPropertyPage, IPropertyPage interface [COM], Help method, IPropertyPage::Help, _ctrl_ipropertypage_help, com.ipropertypage_help, ocidl/IPropertyPage::Help
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IPropertyPage::Help method

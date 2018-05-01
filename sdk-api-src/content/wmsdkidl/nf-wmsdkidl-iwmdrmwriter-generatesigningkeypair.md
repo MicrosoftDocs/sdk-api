@@ -7,7 +7,7 @@ old-location: wmformat\iwmdrmwriter_generatesigningkeypair.htm
 old-project: wmformat
 ms.assetid: 2ad66a22-b088-423c-b726-63bc6372f3c2
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: GenerateSigningKeyPair method [windows Media Format], GenerateSigningKeyPair method [windows Media Format], IWMDRMWriter interface, GenerateSigningKeyPair,IWMDRMWriter.GenerateSigningKeyPair, IWMDRMWriter, IWMDRMWriter interface [windows Media Format], GenerateSigningKeyPair method, IWMDRMWriter::GenerateSigningKeyPair, IWMDRMWriterGenerateSigningKeyPair, wmformat.iwmdrmwriter_generatesigningkeypair, wmsdkidl/IWMDRMWriter::GenerateSigningKeyPair
 ms.prod: windows-hardware
 ms.technology: windows-devices

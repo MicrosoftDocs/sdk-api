@@ -7,7 +7,7 @@ old-location: wua\iupdatedownloadcontentcollection.htm
 old-project: Wua_Sdk
 ms.assetid: cfb5b023-e31c-4a67-a5d8-47ea453a6e4a
 ms.author: windowsdriverdev
-ms.date: 3/15/2018
+ms.date: 4/18/2018
 ms.keywords: IUpdateDownloadContentCollection, IUpdateDownloadContentCollection interface [Windows Update Agent], IUpdateDownloadContentCollection interface [Windows Update Agent], described, wua.iupdatedownloadcontentcollection, wuapi/IUpdateDownloadContentCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices

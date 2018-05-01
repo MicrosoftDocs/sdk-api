@@ -7,7 +7,7 @@ old-location: termserv\itssbprovider_createtargetobject.htm
 old-project: TermServ
 ms.assetid: 9ee426a3-03fa-4535-84b6-f965bd9eba60
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: CreateTargetObject method [Remote Desktop Services], CreateTargetObject method [Remote Desktop Services], ITsSbProvider interface, CreateTargetObject,ITsSbProvider.CreateTargetObject, ITsSbProvider, ITsSbProvider interface [Remote Desktop Services], CreateTargetObject method, ITsSbProvider::CreateTargetObject, sbtsv/ITsSbProvider::CreateTargetObject, termserv.itssbprovider_createtargetobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITsSbProvider::CreateTargetObject method

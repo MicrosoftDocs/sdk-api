@@ -7,7 +7,7 @@ old-location: automat\itypelib_gettypecomp.htm
 old-project: automat
 ms.assetid: 11c22e52-b0d5-4251-b8fa-ea3efae555e6
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: GetTypeComp method [Automation], GetTypeComp method [Automation], ITypeLib interface, GetTypeComp,ITypeLib.GetTypeComp, ITypeLib, ITypeLib interface [Automation], GetTypeComp method, ITypeLib::GetTypeComp, _oa96_ITypeLib_GetTypeComp, automat.itypelib_gettypecomp, oaidl/ITypeLib::GetTypeComp
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITypeLib::GetTypeComp method

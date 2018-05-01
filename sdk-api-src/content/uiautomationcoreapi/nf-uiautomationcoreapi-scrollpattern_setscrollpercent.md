@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ScrollPattern_SetScrollPercentConPat.htm
 old-project: WinAuto
 ms.assetid: 5a152e0b-f1c2-41c7-add6-1f484d2c5738
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: ScrollPattern_SetScrollPercent, ScrollPattern_SetScrollPercent function [Windows Accessibility], uiauto.uiauto_ScrollPattern_SetScrollPercentConPat, uiauto_ScrollPattern_SetScrollPercentConPat, uiautomationcoreapi/ScrollPattern_SetScrollPercent, winauto.uiauto_ScrollPattern_SetScrollPercentConPat
 ms.prod: windows-hardware
 ms.technology: windows-devices

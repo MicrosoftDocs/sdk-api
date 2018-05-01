@@ -7,7 +7,7 @@ old-location: controls\itextrow_getkeeptogether.htm
 old-project: Controls
 ms.assetid: 3f40c910-2636-4412-ae05-7a630c1f4806
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: GetKeepTogether method [Windows Controls], GetKeepTogether method [Windows Controls], ITextRow interface, GetKeepTogether,ITextRow.GetKeepTogether, ITextRow, ITextRow interface [Windows Controls], GetKeepTogether method, ITextRow::GetKeepTogether, controls.itextrow_getkeeptogether, tom/ITextRow::GetKeepTogether
 ms.prod: windows-hardware
 ms.technology: windows-devices

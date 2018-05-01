@@ -7,7 +7,7 @@ old-location: wmdm\imdspstorage_getstorageglobals.htm
 old-project: WMDM
 ms.assetid: 93c963ea-9b00-4897-838c-fdc06c781a2d
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: GetStorageGlobals method [windows Media Device Manager], GetStorageGlobals method [windows Media Device Manager], IMDSPStorage interface, GetStorageGlobals,IMDSPStorage.GetStorageGlobals, IMDSPStorage, IMDSPStorage interface [windows Media Device Manager], GetStorageGlobals method, IMDSPStorage::GetStorageGlobals, IMDSPStorageGetStorageGlobals, mswmdm/IMDSPStorage::GetStorageGlobals, wmdm.imdspstorage_getstorageglobals
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMDSPStorage::GetStorageGlobals method

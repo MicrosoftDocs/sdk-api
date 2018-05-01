@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmstorageglobals_initialize.htm
 old-project: WMDM
 ms.assetid: 9f5092f0-1c72-412b-af93-08bc78c750bc
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: IWMDMStorageGlobals, IWMDMStorageGlobals interface [windows Media Device Manager], Initialize method, IWMDMStorageGlobals::Initialize, IWMDMStorageGlobalsInitialize, Initialize method [windows Media Device Manager], Initialize method [windows Media Device Manager], IWMDMStorageGlobals interface, Initialize,IWMDMStorageGlobals.Initialize, mswmdm/IWMDMStorageGlobals::Initialize, wmdm.iwmdmstorageglobals_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IWMDMStorageGlobals::Initialize method

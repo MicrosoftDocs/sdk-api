@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationSelectionPattern_CurrentIsSelectionReq
 old-project: WinAuto
 ms.assetid: 608c9b6d-bc53-4d6d-8747-897ac9a24571
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: CurrentIsSelectionRequired property [Windows Accessibility], CurrentIsSelectionRequired property [Windows Accessibility], IUIAutomationSelectionPattern interface, IUIAutomationSelectionPattern, IUIAutomationSelectionPattern interface [Windows Accessibility], CurrentIsSelectionRequired property, IUIAutomationSelectionPattern.CurrentIsSelectionRequired, IUIAutomationSelectionPattern::get_CurrentIsSelectionRequired, get_CurrentIsSelectionRequired,IUIAutomationSelectionPattern.get_CurrentIsSelectionRequired, uiauto.uiauto_IUIAutomationSelectionPattern_CurrentIsSelectionRequired, uiauto_IUIAutomationSelectionPattern_CurrentIsSelectionRequired, uiautomationclient/IUIAutomationSelectionPattern::CurrentIsSelectionRequired, uiautomationclient/IUIAutomationSelectionPattern::get_CurrentIsSelectionRequired, winauto.uiauto_IUIAutomationSelectionPattern_CurrentIsSelectionRequired
 ms.prod: windows-hardware
 ms.technology: windows-devices

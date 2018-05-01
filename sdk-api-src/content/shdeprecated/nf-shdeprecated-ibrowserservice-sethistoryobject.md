@@ -7,7 +7,7 @@ old-location: shell\IBrowserService_SetHistoryObject.htm
 old-project: shell
 ms.assetid: 1a0b55b0-a6b6-4b0c-be09-cfb573a5420c
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IBrowserService, IBrowserService interface [Windows Shell], SetHistoryObject method, IBrowserService::SetHistoryObject, SetHistoryObject method [Windows Shell], SetHistoryObject method [Windows Shell], IBrowserService interface, SetHistoryObject,IBrowserService.SetHistoryObject, shdeprecated/IBrowserService::SetHistoryObject, shell.IBrowserService_SetHistoryObject, zone_IBrowserService_SetHistoryObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

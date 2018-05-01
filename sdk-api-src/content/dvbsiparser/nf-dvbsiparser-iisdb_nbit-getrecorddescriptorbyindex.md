@@ -7,7 +7,7 @@ old-location: mstv\iisdb_nbit_getrecorddescriptorbyindex.htm
 old-project: mstv
 ms.assetid: 0f7da95d-ba3f-4cdc-aea0-38abae260159
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetRecordDescriptorByIndex method [Microsoft TV Technologies], GetRecordDescriptorByIndex method [Microsoft TV Technologies], IISDB_NBIT interface, GetRecordDescriptorByIndex,IISDB_NBIT.GetRecordDescriptorByIndex, IISDB_NBIT, IISDB_NBIT interface [Microsoft TV Technologies], GetRecordDescriptorByIndex method, IISDB_NBIT::GetRecordDescriptorByIndex, dvbsiparser/IISDB_NBIT::GetRecordDescriptorByIndex, mstv.iisdb_nbit_getrecorddescriptorbyindex
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: automat\itypeinfo_releasefuncdesc.htm
 old-project: automat
 ms.assetid: 5c407301-87fd-4f79-89e1-c6db5d1cf36b
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: ITypeInfo, ITypeInfo interface [Automation], ReleaseFuncDesc method, ITypeInfo::ReleaseFuncDesc, ReleaseFuncDesc method [Automation], ReleaseFuncDesc method [Automation], ITypeInfo interface, ReleaseFuncDesc,ITypeInfo.ReleaseFuncDesc, _oa96_ITypeInfo_ReleaseFuncDesc, automat.itypeinfo_releasefuncdesc, oaidl/ITypeInfo::ReleaseFuncDesc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITypeInfo::ReleaseFuncDesc method

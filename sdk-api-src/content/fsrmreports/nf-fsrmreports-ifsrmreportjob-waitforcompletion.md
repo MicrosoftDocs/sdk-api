@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmreportjob_waitforcompletion.htm
 old-project: Fsrm
 ms.assetid: 127027a0-7f05-4de4-a3be-8e3c3ec30910
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: IFsrmReportJob, IFsrmReportJob interface [File Server Resource Manager], WaitForCompletion method, IFsrmReportJob::WaitForCompletion, WaitForCompletion method [File Server Resource Manager], WaitForCompletion method [File Server Resource Manager], IFsrmReportJob interface, WaitForCompletion,IFsrmReportJob.WaitForCompletion, fs.ifsrmreportjob_waitforcompletion, fsrm.ifsrmreportjob_waitforcompletion, fsrmreports/IFsrmReportJob::WaitForCompletion
 ms.prod: windows-hardware
 ms.technology: windows-devices

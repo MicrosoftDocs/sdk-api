@@ -7,7 +7,7 @@ old-location: dhcp\dhcpderegisterparamchange.htm
 old-project: DHCP
 ms.assetid: a3fa7c45-cad3-43be-a6c1-fffe6d025d95
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/7/2018
 ms.keywords: DhcpDeRegisterParamChange, DhcpDeRegisterParamChange function [DHCP], _dhcp_dhcpderegisterparamchange, dhcp.dhcpderegisterparamchange, dhcpcsdk/DhcpDeRegisterParamChange
 ms.prod: windows-hardware
 ms.technology: windows-devices

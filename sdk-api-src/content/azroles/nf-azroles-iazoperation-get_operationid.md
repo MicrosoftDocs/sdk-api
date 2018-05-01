@@ -7,7 +7,7 @@ old-location: security\iazoperation_operationid.htm
 old-project: SecAuthZ
 ms.assetid: 3466dea1-b005-40fc-87d1-29b5e033f6a0
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: AzOperation object [Security], OperationID property, IAzOperation, IAzOperation interface [Security], OperationID property, IAzOperation.OperationID, IAzOperation::get_OperationID, IAzOperation::put_OperationID, OperationID property [Security], OperationID property [Security], AzOperation object, OperationID property [Security], IAzOperation interface, azroles/IAzOperation::OperationID, azroles/IAzOperation::get_OperationID, azroles/IAzOperation::put_OperationID, get_OperationID,IAzOperation.get_OperationID, security.iazoperation_operationid
 ms.prod: windows-hardware
 ms.technology: windows-devices

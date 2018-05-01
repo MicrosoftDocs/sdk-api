@@ -7,7 +7,7 @@ old-location: com\irpcoptions_set.htm
 old-project: com
 ms.assetid: b4412e45-adc7-47e4-a19c-9ada6407e6dc
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IRpcOptions, IRpcOptions interface [COM], Set method, IRpcOptions::Set, Set method [COM], Set method [COM], IRpcOptions interface, Set,IRpcOptions.Set, _com_irpcoptions_set, com.irpcoptions_set, objidlbase/IRpcOptions::Set
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IRpcOptions::Set method

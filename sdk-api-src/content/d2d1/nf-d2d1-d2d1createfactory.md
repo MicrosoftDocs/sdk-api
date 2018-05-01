@@ -7,7 +7,7 @@ old-location: direct2d\d2d1createfactory.htm
 old-project: Direct2D
 ms.assetid: 8c0a685a-8f33-4072-a715-bb423cb44f03
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: D2D1CreateFactory, D2D1CreateFactory function [Direct2D], d2d1/D2D1CreateFactory, direct2d.d2d1createfactory
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: com\irunnableobject_run.htm
 old-project: com
 ms.assetid: fb79e81c-0655-48ea-afb5-dab3529676d0
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IRunnableObject, IRunnableObject interface [COM], Run method, IRunnableObject::Run, Run method [COM], Run method [COM], IRunnableObject interface, Run,IRunnableObject.Run, _com_irunnableobject_run, com.irunnableobject_run, objidl/IRunnableObject::Run
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IRunnableObject::Run method

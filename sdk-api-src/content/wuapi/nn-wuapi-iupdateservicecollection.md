@@ -7,7 +7,7 @@ old-location: wua\iupdateservicecollection.htm
 old-project: Wua_Sdk
 ms.assetid: ae742fe2-c9f3-4116-b98a-3cf3906cfda2
 ms.author: windowsdriverdev
-ms.date: 3/15/2018
+ms.date: 4/18/2018
 ms.keywords: IUpdateServiceCollection, IUpdateServiceCollection interface [Windows Update Agent], IUpdateServiceCollection interface [Windows Update Agent], described, wua.iupdateservicecollection, wuapi/IUpdateServiceCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices

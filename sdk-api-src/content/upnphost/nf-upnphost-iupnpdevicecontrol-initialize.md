@@ -7,7 +7,7 @@ old-location: upnp\iupnpdevicecontrol_initialize.htm
 old-project: UPnP
 ms.assetid: 0c1ea343-f04b-414d-92cf-044cb117bc9c
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/25/2018
 ms.keywords: IUPnPDeviceControl, IUPnPDeviceControl interface [UPnP APIs], Initialize method, IUPnPDeviceControl::Initialize, Initialize method [UPnP APIs], Initialize method [UPnP APIs], IUPnPDeviceControl interface, Initialize,IUPnPDeviceControl.Initialize, _upnp_iupnpdevicecontrol_initialize, upnp.iupnpdevicecontrol_initialize, upnphost/IUPnPDeviceControl::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

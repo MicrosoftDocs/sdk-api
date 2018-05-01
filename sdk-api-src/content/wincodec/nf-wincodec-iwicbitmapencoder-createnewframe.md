@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicbitmapencoder_createnewframe.htm
 old-project: wic
 ms.assetid: 1c48f603-e7be-4b0c-a262-0dd01308e868
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: CreateNewFrame method [Windows Imaging Component], CreateNewFrame method [Windows Imaging Component], IWICBitmapEncoder interface, CreateNewFrame,IWICBitmapEncoder.CreateNewFrame, IWICBitmapEncoder, IWICBitmapEncoder interface [Windows Imaging Component], CreateNewFrame method, IWICBitmapEncoder::CreateNewFrame, _wic_codec_iwicbitmapencoder_createnewframe, wic._wic_codec_iwicbitmapencoder_createnewframe, wincodec/IWICBitmapEncoder::CreateNewFrame
 ms.prod: windows-hardware
 ms.technology: windows-devices

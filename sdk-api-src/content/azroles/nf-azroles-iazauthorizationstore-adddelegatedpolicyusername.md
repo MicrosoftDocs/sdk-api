@@ -7,7 +7,7 @@ old-location: security\azauthorizationstore_adddelegatedpolicyusername.htm
 old-project: SecAuthZ
 ms.assetid: 9eeb4670-a3be-46dd-83b4-4ab12a311fe3
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: AddDelegatedPolicyUserName method [Security], AddDelegatedPolicyUserName method [Security], AzAuthorizationStore object, AddDelegatedPolicyUserName method [Security], IAzAuthorizationStore interface, AddDelegatedPolicyUserName,IAzAuthorizationStore.AddDelegatedPolicyUserName, AzAuthorizationStore object [Security], AddDelegatedPolicyUserName method, IAzAuthorizationStore, IAzAuthorizationStore interface [Security], AddDelegatedPolicyUserName method, IAzAuthorizationStore::AddDelegatedPolicyUserName, azroles/IAzAuthorizationStore::AddDelegatedPolicyUserName, security.azauthorizationstore_adddelegatedpolicyusername
 ms.prod: windows-hardware
 ms.technology: windows-devices

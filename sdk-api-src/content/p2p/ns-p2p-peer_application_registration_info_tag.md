@@ -7,7 +7,7 @@ old-location: p2p\peer_application_registration_info.htm
 old-project: P2PSdk
 ms.assetid: 64c9eb02-3235-4824-8de1-352b0a1ffbb4
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/23/2018
 ms.keywords: "*PPEER_APPLICATION_REGISTRATION_INFO, PCPEER_APPLICATION_REGISTRATION_INFO, PCPEER_APPLICATION_REGISTRATION_INFO structure pointer [Peer Networking], PEER_APPLICATION_REGISTRATION_INFO, PEER_APPLICATION_REGISTRATION_INFO structure [Peer Networking], PPEER_APPLICATION_REGISTRATION_INFO, PPEER_APPLICATION_REGISTRATION_INFO structure pointer [Peer Networking], p2p.peer_application_registration_info, p2p/PCPEER_APPLICATION_REGISTRATION_INFO, p2p/PEER_APPLICATION_REGISTRATION_INFO, p2p/PPEER_APPLICATION_REGISTRATION_INFO, peer_application_registration_info_tag"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # peer_application_registration_info_tag structure

@@ -7,7 +7,7 @@ old-location: mstv\iatsctuningspace_get_maxminorchannel.htm
 old-project: mstv
 ms.assetid: 55bfef31-f9c2-4edb-b4a9-369424584316
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IATSCTuningSpace, IATSCTuningSpace interface [Microsoft TV Technologies], get_MaxMinorChannel method, IATSCTuningSpace::get_MaxMinorChannel, IATSCTuningSpaceget_MaxMinorChannel, get_MaxMinorChannel method [Microsoft TV Technologies], get_MaxMinorChannel method [Microsoft TV Technologies], IATSCTuningSpace interface, get_MaxMinorChannel,IATSCTuningSpace.get_MaxMinorChannel, mstv.iatsctuningspace_get_maxminorchannel, tuner/IATSCTuningSpace::get_MaxMinorChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices

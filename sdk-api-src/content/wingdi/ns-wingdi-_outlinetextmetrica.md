@@ -7,7 +7,7 @@ old-location: gdi\outlinetextmetric.htm
 old-project: gdi
 ms.assetid: 79d77df0-193a-49a8-b93d-4ef5807c3c9b
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/17/2018
 ms.keywords: "*LPOUTLINETEXTMETRICA, *NPOUTLINETEXTMETRICA, *POUTLINETEXTMETRICA, OUTLINETEXTMETRIC, OUTLINETEXTMETRIC structure [Windows GDI], OUTLINETEXTMETRICA, OUTLINETEXTMETRICW, POUTLINETEXTMETRIC, POUTLINETEXTMETRIC structure pointer [Windows GDI], _OUTLINETEXTMETRICA, _win32_OUTLINETEXTMETRIC_str, gdi.outlinetextmetric, wingdi/OUTLINETEXTMETRIC, wingdi/OUTLINETEXTMETRICA, wingdi/OUTLINETEXTMETRICW, wingdi/POUTLINETEXTMETRIC"
 ms.prod: windows-hardware
 ms.technology: windows-devices

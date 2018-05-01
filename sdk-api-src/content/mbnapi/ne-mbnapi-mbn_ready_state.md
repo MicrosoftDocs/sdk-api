@@ -99,3 +99,8 @@ The device is locked by a PIN or password which is preventing the device from in
 
 The device is blocked by a PIN or password which is preventing the device from initializing and registering onto the network.  The calling application should call the <a href="https://msdn.microsoft.com/7e5ec24c-681c-4259-9f6a-949bf40d5b3e">Unblock</a> method of the <a href="https://msdn.microsoft.com/76764dbb-7de0-4b95-a210-60b8e6a4b24b">IMbnPin</a> interface to unblock the device.
 
+
+### -field MBN_READY_STATE_NO_ESIM_PROFILE
+
+
+

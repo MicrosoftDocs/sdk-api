@@ -7,7 +7,7 @@ old-location: cos\itransactionproxy_promote.htm
 old-project: cossdk
 ms.assetid: 861103b4-b5fa-4543-b26b-ad0c89d4473d
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: ITransactionProxy, ITransactionProxy interface [COM+], Promote method, ITransactionProxy::Promote, Promote method [COM+], Promote method [COM+], ITransactionProxy interface, Promote,ITransactionProxy.Promote, comsvcs/ITransactionProxy::Promote, cos.itransactionproxy_promote
 ms.prod: windows-hardware
 ms.technology: windows-devices

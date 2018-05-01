@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmreportjob_namespaceroots.htm
 old-project: Fsrm
 ms.assetid: 09c767ce-6a81-4c06-93cb-dd1a79d17d97
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: IFsrmReportJob, IFsrmReportJob interface [File Server Resource Manager], NamespaceRoots property, IFsrmReportJob.NamespaceRoots, IFsrmReportJob::get_NamespaceRoots, IFsrmReportJob::put_NamespaceRoots, NamespaceRoots property [File Server Resource Manager], NamespaceRoots property [File Server Resource Manager], IFsrmReportJob interface, fs.ifsrmreportjob_namespaceroots, fsrm.ifsrmreportjob_namespaceroots, fsrmreports/IFsrmReportJob::NamespaceRoots, fsrmreports/IFsrmReportJob::get_NamespaceRoots, fsrmreports/IFsrmReportJob::put_NamespaceRoots, put_NamespaceRoots,IFsrmReportJob.put_NamespaceRoots
 ms.prod: windows-hardware
 ms.technology: windows-devices

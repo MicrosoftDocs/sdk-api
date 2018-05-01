@@ -7,7 +7,7 @@ old-location: tapi3\itdirectory_modifydirectoryobject.htm
 old-project: Tapi
 ms.assetid: be53c186-c23c-4ff6-8060-f06555ab4548
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: ITDirectory, ITDirectory interface [TAPI 2.2], ModifyDirectoryObject method, ITDirectory::ModifyDirectoryObject, ModifyDirectoryObject method [TAPI 2.2], ModifyDirectoryObject method [TAPI 2.2], ITDirectory interface, ModifyDirectoryObject,ITDirectory.ModifyDirectoryObject, _tapi3_itdirectory_modifydirectoryobject, rend/ITDirectory::ModifyDirectoryObject, tapi3.itdirectory_modifydirectoryobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Rend.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITDirectory::ModifyDirectoryObject method

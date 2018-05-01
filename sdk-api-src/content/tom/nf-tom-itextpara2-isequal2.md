@@ -7,7 +7,7 @@ old-location: controls\itextpara2_isequal2.htm
 old-project: Controls
 ms.assetid: 7817b1bd-6ade-4145-90ff-54561a639dc9
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextPara2, ITextPara2 interface [Windows Controls], IsEqual2 method, ITextPara2::IsEqual2, IsEqual2 method [Windows Controls], IsEqual2 method [Windows Controls], ITextPara2 interface, IsEqual2,ITextPara2.IsEqual2, controls.itextpara2_isequal2, tom/ITextPara2::IsEqual2
 ms.prod: windows-hardware
 ms.technology: windows-devices

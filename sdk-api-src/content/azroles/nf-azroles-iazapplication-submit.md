@@ -7,7 +7,7 @@ old-location: security\iazapplication_submit.htm
 old-project: SecAuthZ
 ms.assetid: d00d55a1-884f-46c2-b80b-f90ce8f5c648
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: AzApplication object [Security], Submit method, IAzApplication, IAzApplication interface [Security], Submit method, IAzApplication::Submit, Submit method [Security], Submit method [Security], AzApplication object, Submit method [Security], IAzApplication interface, Submit,IAzApplication.Submit, azroles/IAzApplication::Submit, security.iazapplication_submit
 ms.prod: windows-hardware
 ms.technology: windows-devices

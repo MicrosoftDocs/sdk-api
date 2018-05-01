@@ -7,7 +7,7 @@ old-location: ics\inetconnection_connect.htm
 old-project: ICS
 ms.assetid: ff627133-1f48-4a4d-96d5-9a2ef95b6e61
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: Connect method [ICS/ICF], Connect method [ICS/ICF], INetConnection interface, Connect,INetConnection.Connect, INetConnection, INetConnection interface [ICS/ICF], Connect method, INetConnection::Connect, _ics_inetconnection_connect, ics.inetconnection_connect, netcon/INetConnection::Connect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # INetConnection::Connect method

@@ -7,7 +7,7 @@ old-location: mstv\idvbstuningspace_put_lowoscillator.htm
 old-project: mstv
 ms.assetid: cadc2818-d54c-410a-9894-28baa51b9b01
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IDVBSTuningSpace, IDVBSTuningSpace interface [Microsoft TV Technologies], put_LowOscillator method, IDVBSTuningSpace::put_LowOscillator, IDVBSTuningSpaceput_LowOscillator, mstv.idvbstuningspace_put_lowoscillator, put_LowOscillator method [Microsoft TV Technologies], put_LowOscillator method [Microsoft TV Technologies], IDVBSTuningSpace interface, put_LowOscillator,IDVBSTuningSpace.put_LowOscillator, tuner/IDVBSTuningSpace::put_LowOscillator
 ms.prod: windows-hardware
 ms.technology: windows-devices

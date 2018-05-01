@@ -7,7 +7,7 @@ old-location: shell\IShellWindows_Revoke.htm
 old-project: shell
 ms.assetid: 66ca2569-b763-445b-b5b5-98ef32c64578
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IShellWindows, IShellWindows interface [Windows Shell], Revoke method, IShellWindows::Revoke, Revoke method [Windows Shell], Revoke method [Windows Shell], IShellWindows interface, Revoke,IShellWindows.Revoke, _win32_IShellWindows_Revoke, exdisp/IShellWindows::Revoke, shell.IShellWindows_Revoke
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: cmpapi\resetcompressor.htm
 old-project: cmpapi
 ms.assetid: 1ea542e0-7236-4158-9578-f5d55f8c7f8e
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/10/2018
 ms.keywords: ResetCompressor, ResetCompressor function [Compression API], cmpapi.resetcompressor, compressapi/ResetCompressor
 ms.prod: windows-hardware
 ms.technology: windows-devices

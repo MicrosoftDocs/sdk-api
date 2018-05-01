@@ -1,0 +1,209 @@
+---
+UID: NC:winbio_adapter.PIBIO_STORAGE_DETACH_FN
+title: PIBIO_STORAGE_DETACH_FN
+author: windows-driver-content
+description: Releases adapter-specific resources attached to the pipeline.
+old-location: secbiomet\storageadapterdetach.htm
+old-project: SecBioMet
+ms.assetid: cebf03d3-e393-437a-81f7-579fea95aa9c
+ms.author: windowsdriverdev
+ms.date: 4/24/2018
+ms.keywords: PIBIO_STORAGE_DETACH_FN, StorageAdapterDetach, StorageAdapterDetach callback function [Windows Biometric Framework API], secbiomet.storageadapterdetach, winbio_adapter/StorageAdapterDetach
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: callback
+req.header: winbio_adapter.h
+req.include-header: Winbio_adapter.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WINBIO_ASYNC_RESULT, *PWINBIO_ASYNC_RESULT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Winbio_adapter.h
+api_name:
+-	StorageAdapterDetach
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# PIBIO_STORAGE_DETACH_FN callback
+
+
+## -description
+
+
+Called by the Windows Biometric Framework immediately before a storage adapter is removed from the processing pipeline of the biometric unit. The purpose of this function is to release adapter specific resources attached to the pipeline.
+
+
+## -parameters
+
+
+
+
+### -param Pipeline [in, out]
+
+Pointer to a <a href="https://msdn.microsoft.com/b5fc2b14-b0b6-4327-a42a-ecae41c3e12a">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
+
+
+## -returns
+
+
+
+If the function succeeds, it returns S_OK. If the function fails, it must return one of the following <b>HRESULT</b> values to indicate the error.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_POINTER</b></dt>
+</dl>
+</td>
+<td width="60%">
+The <i>Pipeline</i> parameter cannot be <b>NULL</b>.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>WINBIO_E_INVALID_DEVICE_STATE</b></dt>
+</dl>
+</td>
+<td width="60%">
+The <b>StorageContext</b> field of the <a href="https://msdn.microsoft.com/b5fc2b14-b0b6-4327-a42a-ecae41c3e12a">WINBIO_PIPELINE</a> structure cannot be <b>NULL</b>.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+To prevent memory leaks, your implementation of the <i>StorageAdapterDetach</i> function must release the private <b>WINBIO_STORAGE_CONTEXT</b> structure pointed to by the  <b>StorageContext</b> member of the pipeline along with any other resources attached to the storage context.
+
+If the <b>StorageContext</b> field in the pipeline object is <b>NULL</b> when this function is called, the pipeline was not properly initialized and you must return <b>WINBIO_E_INVALID_DEVICE_STATE</b> to notify the Windows Biometric Framework of the problem.
+
+Before returning S_OK, this function must set the <b>StorageContext</b> field of the <a href="https://msdn.microsoft.com/b5fc2b14-b0b6-4327-a42a-ecae41c3e12a">WINBIO_PIPELINE</a> structure to <b>NULL</b> and the <b>StorageHandle</b> field to <b>INVALID_HANDLE_VALUE</b>.
+
+
+#### Examples
+
+The following pseudocode shows one possible implementation of this function. The example does not compile. You must adapt it to suit your purpose.
+
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>/////////////////////////////////////////////////////////////////////////////////////////
+//
+// StorageAdapterDetach
+//
+// Purpose:
+//      Release adapter specific resources attached to the pipeline.
+//
+// Parameters:
+//      Pipeline -  Pointer to a WINBIO_PIPELINE structure associated with 
+//                  the biometric unit performing the operation.
+//
+static HRESULT
+WINAPI
+StorageAdapterDetach(
+    __inout PWINBIO_PIPELINE Pipeline
+    )
+{
+    HRESULT hr = S_OK;
+
+    // Verify that the Pipeline parameter is not NULL.
+    if (!ARGUMENT_PRESENT(Pipeline))
+    {
+        hr = E_POINTER;
+        goto cleanup;
+    }
+
+    // Retrieve the context from the pipeline.
+    PWINBIO_STORAGE_CONTEXT storageContext = 
+           (PWINBIO_STORAGE_CONTEXT)Pipeline-&gt;StorageContext;
+
+    // Verify the pipeline state.
+    if (storageContext == NULL)
+    {
+        // The pipeline state is not valid. This function should never
+        // be called if the storage context in the pipeline is already
+        // closed.
+        hr = WINBIO_E_INVALID_DEVICE_STATE;
+        goto cleanup;
+    }
+
+    // Release any structures attached to the context block.
+    StorageAdapterClearContext(Pipeline);
+
+    // Close the database.
+    StorageAdapterCloseDatabase(Pipeline);
+
+    // Remove the context from the pipeline.
+    Pipeline-&gt;StorageContext = NULL;
+    Pipeline-&gt;StorageHandle = INVALID_HANDLE_VALUE;
+
+    // Clear the result set. Depending on your implementation, this action
+    // can be performed by the StorageAdapterClearContext function called
+    // earlier.
+    ResultSetCleanup(&amp;storageContext-&gt;ResultSet);
+
+    // Release the adapter context.
+    _AdapterRelease( storageContext );
+    storageContext = NULL;
+
+cleanup:
+
+    return hr;
+}
+</pre>
+</td>
+</tr>
+</table></span></div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/5f04d912-f9bc-41d4-aa9e-b843e4b5a994">Plug-in Functions</a>
+
+
+
+<a href="https://msdn.microsoft.com/6abded6b-12e0-4cc6-a011-0b18e8ea747b">StorageAdapterAttach</a>
+ 
+
+ 
+

@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device_createshaderresourceview.htm
 old-project: direct3d12
 ms.assetid: 4FD7082D-2DA9-469E-BA74-6735D407D5FE
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: CreateShaderResourceView method, CreateShaderResourceView method, ID3D12Device interface, CreateShaderResourceView,ID3D12Device.CreateShaderResourceView, ID3D12Device, ID3D12Device interface, CreateShaderResourceView method, ID3D12Device::CreateShaderResourceView, d3d12/ID3D12Device::CreateShaderResourceView, direct3d12.id3d12device_createshaderresourceview
 ms.prod: windows-hardware
 ms.technology: windows-devices

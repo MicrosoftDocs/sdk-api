@@ -7,7 +7,7 @@ old-location: appxpkg\iappxblockmapblock_getcompressedsize.htm
 old-project: appxpkg
 ms.assetid: 02B5F96E-EA8B-407F-98D8-BF6BFF72B346
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/26/2018
 ms.keywords: GetCompressedSize method [App packaging and management], GetCompressedSize method [App packaging and management], IAppxBlockMapBlock interface, GetCompressedSize,IAppxBlockMapBlock.GetCompressedSize, IAppxBlockMapBlock, IAppxBlockMapBlock interface [App packaging and management], GetCompressedSize method, IAppxBlockMapBlock::GetCompressedSize, appxpackaging/IAppxBlockMapBlock::GetCompressedSize, appxpkg.iappxblockmapblock_getcompressedsize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_ARCHITECTURE2
+req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,7 +7,7 @@ old-location: xaudio2\hrtforientation.htm
 old-project: xaudio2
 ms.assetid: 759EC69D-1E5A-4CB1-86B0-8612BF4C3B5E
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/20/2018
 ms.keywords: HrtfOrientation, HrtfOrientation structure [XAudio2 Audio Mixing APIs], PHrtfOrientation, PHrtfOrientation structure pointer [XAudio2 Audio Mixing APIs], hrtfapoapi/HrtfOrientation, hrtfapoapi/PHrtfOrientation, xaudio2.hrtforientation
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxdoc_get_sendcoverpage_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_1yud.htm
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/18/2018
 ms.keywords: FaxDoc object [Fax Service], SendCoverpage property, IFaxDoc, IFaxDoc::put_SendCoverpage, SendCoverpage property [Fax Service], SendCoverpage property [Fax Service], FaxDoc object, _mfax_ifaxdoc_get_sendcoverpage, fax._mfax_ifaxdoc_get_sendcoverpage, fax._mfax_ifaxdoc_get_sendcoverpage_vb, put_SendCoverpage,IFaxDoc.put_SendCoverpage
 ms.prod: windows-hardware
 ms.technology: windows-devices

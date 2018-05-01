@@ -7,7 +7,7 @@ old-location: base\cvsswriter_getcurrentvolumecount.htm
 old-project: VSS
 ms.assetid: 5f553a46-10ee-475e-b028-2652c74fbe5d
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: CVssWriter, CVssWriter interface [VSS], GetCurrentVolumeCount method, CVssWriter::GetCurrentVolumeCount, GetCurrentVolumeCount method [VSS], GetCurrentVolumeCount method [VSS], CVssWriter interface, GetCurrentVolumeCount,CVssWriter.GetCurrentVolumeCount, _win32_cvsswriter_getcurrentvolumecount, base.cvsswriter_getcurrentvolumecount, vswriter/CVssWriter::GetCurrentVolumeCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

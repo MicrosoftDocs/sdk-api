@@ -7,7 +7,7 @@ old-location: base\ivsscreatewritermetadataex_addexcludefilesfromsnapshot.htm
 old-project: VSS
 ms.assetid: 6be4c63c-c36a-4ff4-92b7-63b69a030b86
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: AddExcludeFilesFromSnapshot method, AddExcludeFilesFromSnapshot method, IVssCreateWriterMetadataEx interface, AddExcludeFilesFromSnapshot,IVssCreateWriterMetadataEx.AddExcludeFilesFromSnapshot, IVssCreateWriterMetadataEx, IVssCreateWriterMetadataEx interface, AddExcludeFilesFromSnapshot method, IVssCreateWriterMetadataEx::AddExcludeFilesFromSnapshot, base.ivsscreatewritermetadataex_addexcludefilesfromsnapshot, vswriter/IVssCreateWriterMetadataEx::AddExcludeFilesFromSnapshot
 ms.prod: windows-hardware
 ms.technology: windows-devices

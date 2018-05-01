@@ -7,7 +7,7 @@ old-location: fs\ntms_mediatypeinformation.htm
 old-project: Rsm
 ms.assetid: 38020a77-0340-4096-a2a8-d16eec5857e6
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/5/2018
 ms.keywords: FILE_DEVICE_CD_ROM, FILE_DEVICE_DISK, FILE_DEVICE_TAPE, NTMS_MEDIARW_READONLY, NTMS_MEDIARW_REWRITABLE, NTMS_MEDIARW_WRITEONCE, NTMS_MEDIATYPEINFORMATION, NTMS_MEDIATYPEINFORMATION structure [Files], _NTMS_MEDIATYPEINFORMATION, _zaw_ntms_mediatypeinformation, base.ntms_mediatypeinformation, fs.ntms_mediatypeinformation, ntmsapi/NTMS_MEDIATYPEINFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _NTMS_MEDIATYPEINFORMATION structure

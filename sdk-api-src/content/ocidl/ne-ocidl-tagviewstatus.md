@@ -7,7 +7,7 @@ old-location: com\viewstatus.htm
 old-project: com
 ms.assetid: 7b3118af-db29-4eb1-9b1b-38a8ebe42f19
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: VIEWSTATUS, VIEWSTATUS enumeration [COM], VIEWSTATUS_3DSURFACE, VIEWSTATUS_DVASPECTOPAQUE, VIEWSTATUS_DVASPECTTRANSPARENT, VIEWSTATUS_OPAQUE, VIEWSTATUS_SOLIDBKGND, VIEWSTATUS_SURFACE, _ole_VIEWSTATUS, com.viewstatus, ocidl/VIEWSTATUS, ocidl/VIEWSTATUS_3DSURFACE, ocidl/VIEWSTATUS_DVASPECTOPAQUE, ocidl/VIEWSTATUS_DVASPECTTRANSPARENT, ocidl/VIEWSTATUS_OPAQUE, ocidl/VIEWSTATUS_SOLIDBKGND, ocidl/VIEWSTATUS_SURFACE, tagVIEWSTATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # tagVIEWSTATUS enumeration

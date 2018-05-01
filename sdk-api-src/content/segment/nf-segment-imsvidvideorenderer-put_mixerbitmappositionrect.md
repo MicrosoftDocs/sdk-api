@@ -7,7 +7,7 @@ old-location: mstv\imsvidvideorenderer_put_mixerbitmappositionrect.htm
 old-project: mstv
 ms.assetid: 05542d75-1723-4581-ac8b-6a577e0085cb
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidVideoRenderer, IMSVidVideoRenderer interface [Microsoft TV Technologies], put_MixerBitmapPositionRect method, IMSVidVideoRenderer::put_MixerBitmapPositionRect, IMSVidVideoRendererput_MixerBitmapPositionRect, mstv.imsvidvideorenderer_put_mixerbitmappositionrect, put_MixerBitmapPositionRect method [Microsoft TV Technologies], put_MixerBitmapPositionRect method [Microsoft TV Technologies], IMSVidVideoRenderer interface, put_MixerBitmapPositionRect,IMSVidVideoRenderer.put_MixerBitmapPositionRect, segment/IMSVidVideoRenderer::put_MixerBitmapPositionRect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidVideoRenderer::put_MixerBitmapPositionRect method

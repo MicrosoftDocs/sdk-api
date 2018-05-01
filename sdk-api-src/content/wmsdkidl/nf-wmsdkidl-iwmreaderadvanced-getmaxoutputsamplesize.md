@@ -7,7 +7,7 @@ old-location: wmformat\iwmreaderadvanced_getmaxoutputsamplesize.htm
 old-project: wmformat
 ms.assetid: ad21ab6e-c7af-4293-8920-05db62b9f7ef
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: GetMaxOutputSampleSize method [windows Media Format], GetMaxOutputSampleSize method [windows Media Format], IWMReaderAdvanced interface, GetMaxOutputSampleSize,IWMReaderAdvanced.GetMaxOutputSampleSize, IWMReaderAdvanced, IWMReaderAdvanced interface [windows Media Format], GetMaxOutputSampleSize method, IWMReaderAdvanced::GetMaxOutputSampleSize, IWMReaderAdvancedGetMaxOutputSampleSize, wmformat.iwmreaderadvanced_getmaxoutputsamplesize, wmsdkidl/IWMReaderAdvanced::GetMaxOutputSampleSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

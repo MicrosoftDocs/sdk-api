@@ -7,7 +7,7 @@ old-location: dshow\ivpnotify2_getvpsyncmaster.htm
 old-project: DirectShow
 ms.assetid: afc75615-1be5-4f1f-ace2-f3a17420b591
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetVPSyncMaster method [DirectShow], GetVPSyncMaster method [DirectShow], IVPNotify2 interface, GetVPSyncMaster,IVPNotify2.GetVPSyncMaster, IVPNotify2, IVPNotify2 interface [DirectShow], GetVPSyncMaster method, IVPNotify2::GetVPSyncMaster, IVPNotify2GetVPSyncMaster, dshow.ivpnotify2_getvpsyncmaster, vpnotify/IVPNotify2::GetVPSyncMaster
 ms.prod: windows-hardware
 ms.technology: windows-devices

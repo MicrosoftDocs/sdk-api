@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ILegacyIAccessibleProvider_DefaultAction.htm
 old-project: WinAuto
 ms.assetid: 10965fa1-1344-42d3-8466-d86bbad1f30d
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: DefaultAction property [Windows Accessibility], DefaultAction property [Windows Accessibility], ILegacyIAccessibleProvider interface, ILegacyIAccessibleProvider, ILegacyIAccessibleProvider interface [Windows Accessibility], DefaultAction property, ILegacyIAccessibleProvider.DefaultAction, ILegacyIAccessibleProvider::get_DefaultAction, get_DefaultAction,ILegacyIAccessibleProvider.get_DefaultAction, uiauto.uiauto_ILegacyIAccessibleProvider_DefaultAction, uiauto_ILegacyIAccessibleProvider_DefaultAction, uiautomationcore/ILegacyIAccessibleProvider::DefaultAction, uiautomationcore/ILegacyIAccessibleProvider::get_DefaultAction, winauto.uiauto_ILegacyIAccessibleProvider_DefaultAction
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winrt\isoftwarebitmapnativefactory_createfromwicbitmap.htm
 old-project: WinRT
 ms.assetid: D52F70E8-AF26-40A5-8E9E-1A5B9D20E35F
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/24/2018
 ms.keywords: CreateFromWICBitmap method [Windows Runtime], CreateFromWICBitmap method [Windows Runtime], ISoftwareBitmapNativeFactory interface, CreateFromWICBitmap,ISoftwareBitmapNativeFactory.CreateFromWICBitmap, ISoftwareBitmapNativeFactory, ISoftwareBitmapNativeFactory interface [Windows Runtime], CreateFromWICBitmap method, ISoftwareBitmapNativeFactory::CreateFromWICBitmap, windows/ISoftwareBitmapNativeFactory::CreateFromWICBitmap, winrt.isoftwarebitmapnativefactory_createfromwicbitmap
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: PDF_RENDER_PARAMS
+req.typenames: TimeSpan
 topic_type:
 -	APIRef
 -	kbSyntax

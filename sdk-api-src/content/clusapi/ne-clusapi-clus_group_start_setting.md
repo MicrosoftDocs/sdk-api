@@ -7,7 +7,7 @@ old-location: mscs\clus_group_start_setting.htm
 old-project: MsCS
 ms.assetid: 9F0A7B9B-278E-4176-BCA7-6CEEF35AFE2E
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: CLUS_GROUP_DO_NOT_START, CLUS_GROUP_START_ALLOWED, CLUS_GROUP_START_ALWAYS, CLUS_GROUP_START_SETTING, CLUS_GROUP_START_SETTING enumeration [Failover Cluster], clusapi/CLUS_GROUP_DO_NOT_START, clusapi/CLUS_GROUP_START_ALLOWED, clusapi/CLUS_GROUP_START_ALWAYS, clusapi/CLUS_GROUP_START_SETTING, msclus/CLUS_GROUP_DO_NOT_START, msclus/CLUS_GROUP_START_ALLOWED, msclus/CLUS_GROUP_START_ALWAYS, msclus/CLUS_GROUP_START_SETTING, mscs.clus_group_start_setting
 ms.prod: windows-hardware
 ms.technology: windows-devices

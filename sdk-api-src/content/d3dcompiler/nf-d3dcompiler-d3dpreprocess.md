@@ -7,7 +7,7 @@ old-location: direct3dhlsl\d3dpreprocess.htm
 old-project: direct3dhlsl
 ms.assetid: VS|directx_sdk|~\d3dpreprocess.htm
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/12/2018
 ms.keywords: 91482c2f-2730-5aba-e73a-43653c75ff49, D3DPreprocess, D3DPreprocess function [HLSL], d3dcompiler/D3DPreprocess, direct3dhlsl.d3dpreprocess
 ms.prod: windows-hardware
 ms.technology: windows-devices

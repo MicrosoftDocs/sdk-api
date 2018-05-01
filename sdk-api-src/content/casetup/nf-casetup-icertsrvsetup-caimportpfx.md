@@ -7,7 +7,7 @@ old-location: security\icertsrvsetup_caimportpfx.htm
 old-project: SecCrypto
 ms.assetid: a661b74b-04ba-49b9-bde2-3e368ae6228e
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: CAImportPFX method [Security], CAImportPFX method [Security], ICertSrvSetup interface, CAImportPFX,ICertSrvSetup.CAImportPFX, ICertSrvSetup, ICertSrvSetup interface [Security], CAImportPFX method, ICertSrvSetup::CAImportPFX, casetup/ICertSrvSetup::CAImportPFX, security.icertsrvsetup_caimportpfx
 ms.prod: windows-hardware
 ms.technology: windows-devices

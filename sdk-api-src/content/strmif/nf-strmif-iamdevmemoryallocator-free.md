@@ -7,7 +7,7 @@ old-location: dshow\iamdevmemoryallocator_free.htm
 old-project: DirectShow
 ms.assetid: d86d3016-bca0-4a0b-946b-f50c49266c67
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: Free method [DirectShow], Free method [DirectShow], IAMDevMemoryAllocator interface, Free,IAMDevMemoryAllocator.Free, IAMDevMemoryAllocator, IAMDevMemoryAllocator interface [DirectShow], Free method, IAMDevMemoryAllocator::Free, IAMDevMemoryAllocatorFree, dshow.iamdevmemoryallocator_free, strmif/IAMDevMemoryAllocator::Free
 ms.prod: windows-hardware
 ms.technology: windows-devices

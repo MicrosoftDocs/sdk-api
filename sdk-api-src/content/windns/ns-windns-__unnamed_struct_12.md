@@ -1,14 +1,14 @@
 ---
 UID: NS:windns.__unnamed_struct_12
-title: DNS_NULL_DATA
+title: DNS_TXT_DATAA
 author: windows-driver-content
-description: The DNS_NULL_DATA structure represents NULL data for a DNS resource record as specified in section 3.3.10 of RFC 1035.
-old-location: dns\dns_null_data.htm
+description: The DNS_TXT_DATA structure represents a DNS text (TXT) record as specified in section 3.3.14 of RFC 1035.
+old-location: dns\dns_txt_data.htm
 old-project: DNS
-ms.assetid: c31e468f-8efd-4173-bc2c-442ee4df737f
+ms.assetid: 3ff643e2-d736-45d5-8cf8-ab5e63caf44b
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
-ms.keywords: "*PDNS_NULL_DATA, DNS_NULL_DATA, DNS_NULL_DATA structure [DNS], PDNS_NULL_DATA, PDNS_NULL_DATA structure pointer [DNS], _dns_dns_null_data, dns.dns_null_data, windns/DNS_NULL_DATA, windns/PDNS_NULL_DATA"
+ms.date: 4/18/2018
+ms.keywords: "*PDNS_TXT_DATA, *PDNS_TXT_DATAA, DNS_TXT_DATA, DNS_TXT_DATA structure [DNS], DNS_TXT_DATAA, PDNS_TXT_DATA, PDNS_TXT_DATA structure pointer [DNS], _dns_dns_txt_data, dns.dns_txt_data, windns/DNS_TXT_DATA, windns/PDNS_TXT_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: DNS_NULL_DATA, *PDNS_NULL_DATA
+req.typenames: DNS_TXT_DATAA, *PDNS_TXT_DATAA
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	Windns.h
 api_name:
--	DNS_NULL_DATA
+-	DNS_TXT_DATA
 product: Windows
 targetos: Windows
 req.lib: 
@@ -44,14 +44,14 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# DNS_NULL_DATA structure
+# DNS_TXT_DATAA structure
 
 
 ## -description
 
 
 The 
-<b>DNS_NULL_DATA</b> structure represents NULL data for a DNS resource record as specified in section 3.3.10 of <a href="http://go.microsoft.com/fwlink/p/?linkid=90264">RFC 1035</a>.
+<b>DNS_TXT_DATA</b> structure represents a DNS text (TXT) record as specified in section 3.3.14 of <a href="http://go.microsoft.com/fwlink/p/?linkid=90264">RFC 1035</a>.
 
 
 ## -struct-fields
@@ -59,14 +59,14 @@ The
 
 
 
-### -field dwByteCount
+### -field dwStringCount
 
-The number of bytes represented in <b>Data</b>.
+The number of strings represented in <b>pStringArray</b>.
 
 
-### -field Data
+### -field pStringArray
 
-Null data.
+An array of strings representing the descriptive text of the TXT resource record.
 
 
 ## -remarks
@@ -74,7 +74,7 @@ Null data.
 
 
 The 
-<b>DNS_NULL_DATA</b> structure is used in conjunction with the 
+<b>DNS_TXT_DATA</b> structure is used in conjunction with the 
 <a href="https://msdn.microsoft.com/ab7b96a5-346f-4e01-bb2a-885f44764590">DNS_RECORD</a> structure to programmatically manage DNS entries.
 
 

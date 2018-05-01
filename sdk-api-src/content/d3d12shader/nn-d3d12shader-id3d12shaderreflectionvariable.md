@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12shaderreflectionvariable.htm
 old-project: direct3d12
 ms.assetid: E4CF0C77-2792-46DC-B38F-22C0ACBFD615
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: ID3D12ShaderReflectionVariable, ID3D12ShaderReflectionVariable interface, ID3D12ShaderReflectionVariable interface, described, d3d12shader/ID3D12ShaderReflectionVariable, direct3d12.id3d12shaderreflectionvariable
 ms.prod: windows-hardware
 ms.technology: windows-devices

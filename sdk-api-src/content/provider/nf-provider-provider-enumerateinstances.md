@@ -7,7 +7,7 @@ old-location: wmi\provider_enumerateinstances.htm
 old-project: WmiSdk
 ms.assetid: 9566acb0-d7bf-4d3d-b7da-5cfbce150a2c
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: "?EnumerateInstances@Provider@@MAEJPAVMethodContext@@J@Z, EnumerateInstances method [Windows Management Instrumentation], EnumerateInstances method [Windows Management Instrumentation], Provider interface, EnumerateInstances,Provider.EnumerateInstances, Provider, Provider interface [Windows Management Instrumentation], EnumerateInstances method, Provider::EnumerateInstances, _hmm_provider_enumerateinstances, provider/Provider::EnumerateInstances, wmi.provider_enumerateinstances"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # Provider::EnumerateInstances method

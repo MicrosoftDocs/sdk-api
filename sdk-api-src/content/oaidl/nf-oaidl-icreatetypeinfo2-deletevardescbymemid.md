@@ -7,7 +7,7 @@ old-location: automat\icreatetypeinfo2_deletevardescbymemid.htm
 old-project: automat
 ms.assetid: 5b69dda9-01b5-45b2-ab92-65a29a2d1f21
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: DeleteVarDescByMemId method [Automation], DeleteVarDescByMemId method [Automation], ICreateTypeInfo2 interface, DeleteVarDescByMemId,ICreateTypeInfo2.DeleteVarDescByMemId, ICreateTypeInfo2, ICreateTypeInfo2 interface [Automation], DeleteVarDescByMemId method, ICreateTypeInfo2::DeleteVarDescByMemId, _oa96_ICreateTypeInfo2_DeleteVarDescByMemId, automat.icreatetypeinfo2_deletevardescbymemid, oaidl/ICreateTypeInfo2::DeleteVarDescByMemId
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ICreateTypeInfo2::DeleteVarDescByMemId method

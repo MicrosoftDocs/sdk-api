@@ -7,7 +7,7 @@ old-location: upnp\iupnpaddressfamilycontrol.htm
 old-project: UPnP
 ms.assetid: fad61b7f-b9da-4a1b-bb5e-ad20bc87fb5c
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/25/2018
 ms.keywords: IUPnPAddressFamilyControl, IUPnPAddressFamilyControl interface [UPnP APIs], IUPnPAddressFamilyControl interface [UPnP APIs], described, upnp.iupnpaddressfamilycontrol, upnp/IUPnPAddressFamilyControl
 ms.prod: windows-hardware
 ms.technology: windows-devices

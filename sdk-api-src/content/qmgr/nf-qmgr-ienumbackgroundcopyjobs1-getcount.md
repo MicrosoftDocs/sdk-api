@@ -7,7 +7,7 @@ old-location: bits\ienumbackgroundcopyjobs1_getcount.htm
 old-project: Bits
 ms.assetid: 3deaf2fd-84a0-49f8-8a7d-91a39701683a
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/10/2018
 ms.keywords: GetCount method [BITS], GetCount method [BITS], IEnumBackgroundCopyJobs1 interface, GetCount,IEnumBackgroundCopyJobs1.GetCount, IEnumBackgroundCopyJobs1, IEnumBackgroundCopyJobs1 interface [BITS], GetCount method, IEnumBackgroundCopyJobs1::GetCount, bits.ienumbackgroundcopyjobs1_getcount, qmgr/IEnumBackgroundCopyJobs1::GetCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: QmgrPrxy.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IEnumBackgroundCopyJobs1::GetCount method

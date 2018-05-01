@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmactioncommand_killtimeout.htm
 old-project: Fsrm
 ms.assetid: 2873f1c4-6827-411f-b12f-9c282cf91119
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: IFsrmActionCommand, IFsrmActionCommand interface [File Server Resource Manager], KillTimeOut property, IFsrmActionCommand.KillTimeOut, IFsrmActionCommand::get_KillTimeOut, IFsrmActionCommand::put_KillTimeOut, KillTimeOut property [File Server Resource Manager], KillTimeOut property [File Server Resource Manager], IFsrmActionCommand interface, fs.ifsrmactioncommand_killtimeout, fsrm.ifsrmactioncommand_killtimeout, fsrm/IFsrmActionCommand::KillTimeOut, fsrm/IFsrmActionCommand::get_KillTimeOut, fsrm/IFsrmActionCommand::put_KillTimeOut, put_KillTimeOut,IFsrmActionCommand.put_KillTimeOut
 ms.prod: windows-hardware
 ms.technology: windows-devices

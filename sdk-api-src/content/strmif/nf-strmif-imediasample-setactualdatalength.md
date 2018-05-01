@@ -7,7 +7,7 @@ old-location: dshow\imediasample_setactualdatalength.htm
 old-project: DirectShow
 ms.assetid: db8a768e-7550-4165-8f87-308ec7f2e07f
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IMediaSample, IMediaSample interface [DirectShow], SetActualDataLength method, IMediaSample::SetActualDataLength, IMediaSampleSetActualDataLength, SetActualDataLength method [DirectShow], SetActualDataLength method [DirectShow], IMediaSample interface, SetActualDataLength,IMediaSample.SetActualDataLength, dshow.imediasample_setactualdatalength, strmif/IMediaSample::SetActualDataLength
 ms.prod: windows-hardware
 ms.technology: windows-devices

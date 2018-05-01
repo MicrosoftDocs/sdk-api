@@ -7,7 +7,7 @@ old-location: intl\ispellingerror.htm
 old-project: Intl
 ms.assetid: 90a233a4-44a4-4f8f-92bb-ea65fa213616
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/25/2018
 ms.keywords: ISpellingError, ISpellingError interface [Internationalization for Windows Applications], ISpellingError interface [Internationalization for Windows Applications], described, intl.ispellingerror, spellcheck/ISpellingError
 ms.prod: windows-hardware
 ms.technology: windows-devices

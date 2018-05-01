@@ -7,7 +7,7 @@ old-location: dshow\idvdgraphbuilder_renderdvdvideovolume.htm
 old-project: DirectShow
 ms.assetid: 731d2f4b-2a54-451a-8d98-b5fdf47c1dc8
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IDvdGraphBuilder, IDvdGraphBuilder interface [DirectShow], RenderDvdVideoVolume method, IDvdGraphBuilder::RenderDvdVideoVolume, IDvdGraphBuilderRenderDvdVideoVolume, RenderDvdVideoVolume method [DirectShow], RenderDvdVideoVolume method [DirectShow], IDvdGraphBuilder interface, RenderDvdVideoVolume,IDvdGraphBuilder.RenderDvdVideoVolume, dshow.idvdgraphbuilder_renderdvdvideovolume, strmif/IDvdGraphBuilder::RenderDvdVideoVolume
 ms.prod: windows-hardware
 ms.technology: windows-devices

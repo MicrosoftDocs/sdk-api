@@ -7,7 +7,7 @@ old-location: dshow\ivmrfilterconfig_getrenderingmode.htm
 old-project: DirectShow
 ms.assetid: 139b0326-2ab1-4fa4-91ae-9115b4368660
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetRenderingMode method [DirectShow], GetRenderingMode method [DirectShow], IVMRFilterConfig interface, GetRenderingMode,IVMRFilterConfig.GetRenderingMode, IVMRFilterConfig, IVMRFilterConfig interface [DirectShow], GetRenderingMode method, IVMRFilterConfig::GetRenderingMode, IVMRFilterConfigGetRenderingMode, dshow.ivmrfilterconfig_getrenderingmode, strmif/IVMRFilterConfig::GetRenderingMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

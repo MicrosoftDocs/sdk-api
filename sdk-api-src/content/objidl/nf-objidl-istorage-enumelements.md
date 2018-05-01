@@ -7,7 +7,7 @@ old-location: stg\istorage_enumelements.htm
 old-project: Stg
 ms.assetid: 29ca157e-40e2-4e9a-95fb-a31bb45570f2
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/20/2018
 ms.keywords: EnumElements method [Structured Storage], EnumElements method [Structured Storage], IStorage interface, EnumElements,IStorage.EnumElements, IStorage, IStorage interface [Structured Storage], EnumElements method, IStorage::EnumElements, _stg_istorage_enumelements, objidl/IStorage::EnumElements, stg.istorage_enumelements
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IStorage::EnumElements method

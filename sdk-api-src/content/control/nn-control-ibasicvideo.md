@@ -7,7 +7,7 @@ old-location: dshow\ibasicvideo.htm
 old-project: DirectShow
 ms.assetid: 14f45bdc-2271-459d-b165-c860c8fc3e0b
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IBasicVideo, IBasicVideo interface [DirectShow], IBasicVideo interface [DirectShow], described, IBasicVideoInterface, control/IBasicVideo, dshow.ibasicvideo
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\imfmediaengineex_getaudioendpointrole.htm
 old-project: medfound
 ms.assetid: f63fa14e-44e6-41b9-a8c9-4b8eb66e98e0
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetAudioEndpointRole method [Media Foundation], GetAudioEndpointRole method [Media Foundation], IMFMediaEngineEx interface, GetAudioEndpointRole,IMFMediaEngineEx.GetAudioEndpointRole, IMFMediaEngineEx, IMFMediaEngineEx interface [Media Foundation], GetAudioEndpointRole method, IMFMediaEngineEx::GetAudioEndpointRole, mf.imfmediaengineex_getaudioendpointrole, mfmediaengine/IMFMediaEngineEx::GetAudioEndpointRole
 ms.prod: windows-hardware
 ms.technology: windows-devices

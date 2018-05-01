@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicbitmaplock_getstride.htm
 old-project: wic
 ms.assetid: f4bde79d-29a1-46bf-b7e4-91c39c2f0690
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: GetStride method [Windows Imaging Component], GetStride method [Windows Imaging Component], IWICBitmapLock interface, GetStride,IWICBitmapLock.GetStride, IWICBitmapLock, IWICBitmapLock interface [Windows Imaging Component], GetStride method, IWICBitmapLock::GetStride, _wic_codec_iwicbitmaplock_getstride, wic._wic_codec_iwicbitmaplock_getstride, wincodec/IWICBitmapLock::GetStride
 ms.prod: windows-hardware
 ms.technology: windows-devices

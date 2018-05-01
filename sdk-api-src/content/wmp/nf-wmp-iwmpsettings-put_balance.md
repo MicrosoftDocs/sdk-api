@@ -7,7 +7,7 @@ old-location: wmp\iwmpsettings_put_balance.htm
 old-project: WMP
 ms.assetid: bb198bc0-a0cf-4f6b-9a1e-f9a552db7092
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPSettings, IWMPSettings interface [Windows Media Player], put_balance method, IWMPSettings::put_balance, IWMPSettingsput_balance, put_balance method [Windows Media Player], put_balance method [Windows Media Player], IWMPSettings interface, put_balance,IWMPSettings.put_balance, wmp.iwmpsettings_put_balance, wmp/IWMPSettings::put_balance
 ms.prod: windows-hardware
 ms.technology: windows-devices

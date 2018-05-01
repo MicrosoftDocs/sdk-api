@@ -7,7 +7,7 @@ old-location: mstv\iatsc_eit_getrecordduration.htm
 old-project: mstv
 ms.assetid: f22a84de-eae3-4981-a38b-6d26fee03c54
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetRecordDuration method [Microsoft TV Technologies], GetRecordDuration method [Microsoft TV Technologies], IATSC_EIT interface, GetRecordDuration,IATSC_EIT.GetRecordDuration, IATSC_EIT, IATSC_EIT interface [Microsoft TV Technologies], GetRecordDuration method, IATSC_EIT::GetRecordDuration, IATSC_EITGetRecordDuration, atscpsipparser/IATSC_EIT::GetRecordDuration, mstv.iatsc_eit_getrecordduration
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_WRITER_PAYLOAD_STREAM
+req.typenames: AsyncStatus
 topic_type:
 -	APIRef
 -	kbSyntax

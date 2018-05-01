@@ -7,7 +7,7 @@ old-location: winprog\ifhreassociation_validatetarget.htm
 old-project: DevNotes
 ms.assetid: 307F2C8F-B847-437C-BDD7-BE09FD407C79
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/13/2018
 ms.keywords: FhReassociation class [Windows API], ValidateTarget method, IFhReassociation, IFhReassociation interface [Windows API], ValidateTarget method, IFhReassociation::ValidateTarget, ValidateTarget method [Windows API], ValidateTarget method [Windows API], FhReassociation class, ValidateTarget method [Windows API], IFhReassociation interface, ValidateTarget,IFhReassociation.ValidateTarget, fhcfg/IFhReassociation::ValidateTarget, winprog.ifhreassociation_validatetarget
 ms.prod: windows-hardware
 ms.technology: windows-devices

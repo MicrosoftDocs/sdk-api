@@ -7,7 +7,7 @@ old-location: appxpkg\iappxfile_getstream.htm
 old-project: appxpkg
 ms.assetid: B002A9A9-0BF5-4FB1-8D7D-06F7D066432C
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/26/2018
 ms.keywords: GetStream method [App packaging and management], GetStream method [App packaging and management], IAppxFile interface, GetStream,IAppxFile.GetStream, IAppxFile, IAppxFile interface [App packaging and management], GetStream method, IAppxFile::GetStream, appxpackaging/IAppxFile::GetStream, appxpkg.iappxfile_getstream
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_ARCHITECTURE2
+req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
 topic_type:
 -	APIRef
 -	kbSyntax

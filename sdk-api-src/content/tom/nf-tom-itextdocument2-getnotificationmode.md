@@ -7,7 +7,7 @@ old-location: controls\itextdocument2_getnotificationmode.htm
 old-project: Controls
 ms.assetid: 720f9759-96c1-45f0-9251-90d60532d247
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: GetNotificationMode method [Windows Controls], GetNotificationMode method [Windows Controls], ITextDocument2 interface, GetNotificationMode,ITextDocument2.GetNotificationMode, ITextDocument2, ITextDocument2 interface [Windows Controls], GetNotificationMode method, ITextDocument2::GetNotificationMode, controls.itextdocument2_getnotificationmode, tom/ITextDocument2::GetNotificationMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

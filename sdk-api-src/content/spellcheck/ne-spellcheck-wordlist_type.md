@@ -7,7 +7,7 @@ old-location: intl\wordlist_type.htm
 old-project: Intl
 ms.assetid: F1D517F3-CAE3-46DC-867E-D8D73C20CF9A
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/25/2018
 ms.keywords: WORDLIST_TYPE, WORDLIST_TYPE enumeration [Internationalization for Windows Applications], WORDLIST_TYPE_ADD, WORDLIST_TYPE_AUTOCORRECT, WORDLIST_TYPE_EXCLUDE, WORDLIST_TYPE_IGNORE, intl.wordlist_type, spellcheck/WORDLIST_TYPE, spellcheck/WORDLIST_TYPE_ADD, spellcheck/WORDLIST_TYPE_AUTOCORRECT, spellcheck/WORDLIST_TYPE_EXCLUDE, spellcheck/WORDLIST_TYPE_IGNORE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -21,9 +21,9 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: SpatialInteractionManagerInterop.idl
+req.idl: 
 req.max-support: 
-req.namespace: 
+req.namespace: Root\StandardCimv2
 req.assembly: 
 req.type-library: 
 req.typenames: WORDLIST_TYPE
@@ -39,7 +39,7 @@ api_name:
 product: Windows
 targetos: Windows
 req.lib: 
-req.dll: 
+req.dll: NetTCPIP.dll
 req.irql: 
 req.product: Internet Explorer 6.01
 ---

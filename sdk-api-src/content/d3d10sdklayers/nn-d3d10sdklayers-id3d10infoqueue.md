@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10infoqueue.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10infoqueue.htm
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: 1ef0bd38-23d3-fa53-cf27-ff502bb674f2, ID3D10InfoQueue, ID3D10InfoQueue interface [Direct3D 10], ID3D10InfoQueue interface [Direct3D 10], described, d3d10sdklayers/ID3D10InfoQueue, direct3d10.id3d10infoqueue
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrUIOperation_Run.htm
 old-project: shell
 ms.assetid: 66dd853e-0fb0-4736-982a-e0183cb51842
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ISyncMgrUIOperation, ISyncMgrUIOperation interface [Windows Shell], Run method, ISyncMgrUIOperation::Run, Run method [Windows Shell], Run method [Windows Shell], ISyncMgrUIOperation interface, Run,ISyncMgrUIOperation.Run, _shell_ISyncMgrUIOperation_Run, shell.ISyncMgrUIOperation_Run, syncmgr/ISyncMgrUIOperation::Run
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\imediafilter_pause.htm
 old-project: DirectShow
 ms.assetid: 0dbd79be-8f44-4bac-b117-03e6316693f8
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IBaseFilter interface [DirectShow], Pause method, IBaseFilter::Pause, IMediaFilter, IMediaFilter interface [DirectShow], Pause method, IMediaFilter::Pause, IMediaFilterPause, Pause method [DirectShow], Pause method [DirectShow], IBaseFilter interface, Pause method [DirectShow], IMediaFilter interface, Pause,IMediaFilter.Pause, dshow.imediafilter_pause, strmif/IBaseFilter::Pause, strmif/IMediaFilter::Pause
 ms.prod: windows-hardware
 ms.technology: windows-devices

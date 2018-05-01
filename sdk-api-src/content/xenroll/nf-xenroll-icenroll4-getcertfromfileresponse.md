@@ -7,7 +7,7 @@ old-location: security\icenroll4_getcertfromfileresponse.htm
 old-project: SecCrypto
 ms.assetid: 0e89465b-4525-4b36-b0c7-7f34dc4a34aa
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: CEnroll object [Security], getCertFromFileResponse method, ICEnroll4, ICEnroll4 interface [Security], getCertFromFileResponse method, ICEnroll4::getCertFromFileResponse, _xen_icenroll4_getcertfromfileresponse, getCertFromFileResponse method [Security], getCertFromFileResponse method [Security], CEnroll object, getCertFromFileResponse method [Security], ICEnroll4 interface, getCertFromFileResponse,ICEnroll4.getCertFromFileResponse, security.icenroll4_getcertfromfileresponse, xenroll/ICEnroll4::getCertFromFileResponse
 ms.prod: windows-hardware
 ms.technology: windows-devices

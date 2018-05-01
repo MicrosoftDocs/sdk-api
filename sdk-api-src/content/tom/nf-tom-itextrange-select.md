@@ -7,7 +7,7 @@ old-location: controls\ITextRange_Select.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\select.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextRange, ITextRange interface [Windows Controls], Select method, ITextRange::Select, Select method [Windows Controls], Select method [Windows Controls], ITextRange interface, Select,ITextRange.Select, _win32_ITextRange_Select, _win32_ITextRange_Select_cpp, controls.ITextRange_Select, controls._win32_ITextRange_Select, tom/ITextRange::Select
 ms.prod: windows-hardware
 ms.technology: windows-devices

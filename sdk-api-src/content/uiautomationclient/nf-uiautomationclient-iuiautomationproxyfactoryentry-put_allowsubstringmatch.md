@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationProxyFactoryEntry_AllowSubstringMatch.
 old-project: WinAuto
 ms.assetid: 8aa64070-7dd6-4a51-8458-6341daa856c7
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: AllowSubstringMatch property [Windows Accessibility], AllowSubstringMatch property [Windows Accessibility], IUIAutomationProxyFactoryEntry interface, IUIAutomationProxyFactoryEntry, IUIAutomationProxyFactoryEntry interface [Windows Accessibility], AllowSubstringMatch property, IUIAutomationProxyFactoryEntry.AllowSubstringMatch, IUIAutomationProxyFactoryEntry::get_AllowSubstringMatch, IUIAutomationProxyFactoryEntry::put_AllowSubstringMatch, put_AllowSubstringMatch,IUIAutomationProxyFactoryEntry.put_AllowSubstringMatch, uiauto.uiauto_IUIAutomationProxyFactoryEntry_AllowSubstringMatch, uiauto_IUIAutomationProxyFactoryEntry_AllowSubstringMatch, uiautomationclient/IUIAutomationProxyFactoryEntry::AllowSubstringMatch, uiautomationclient/IUIAutomationProxyFactoryEntry::get_AllowSubstringMatch, uiautomationclient/IUIAutomationProxyFactoryEntry::put_AllowSubstringMatch, winauto.uiauto_IUIAutomationProxyFactoryEntry_AllowSubstringMatch
 ms.prod: windows-hardware
 ms.technology: windows-devices

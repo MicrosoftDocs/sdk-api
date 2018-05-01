@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_class_info_array.htm
 old-project: DHCP
 ms.assetid: 716beba3-cba2-406c-a41f-2f08b6a7dc5a
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/7/2018
 ms.keywords: "*LPDHCP_CLASS_INFO_ARRAY, DHCP_CLASS_INFO_ARRAY, DHCP_CLASS_INFO_ARRAY structure [DHCP], LPDHCP_CLASS_INFO_ARRAY, LPDHCP_CLASS_INFO_ARRAY structure pointer [DHCP], _DHCP_CLASS_INFO_ARRAY, dhcp.dhcp_class_info_array, dhcpsapi/LPDHCP_CLASS_INFO_ARRAY, dhcpsapi/_DHCP_CLASS_INFO_ARRAY"
 ms.prod: windows-hardware
 ms.technology: windows-devices

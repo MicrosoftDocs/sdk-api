@@ -7,7 +7,7 @@ old-location: base\ivssfilesharesnapshotprovider_getsnapshotproperties.htm
 old-project: VSS
 ms.assetid: db133f55-ed26-4e10-8de1-305bb52de84c
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: GetSnapshotProperties method [VSS], GetSnapshotProperties method [VSS], IVssFileShareSnapshotProvider interface, GetSnapshotProperties,IVssFileShareSnapshotProvider.GetSnapshotProperties, IVssFileShareSnapshotProvider, IVssFileShareSnapshotProvider interface [VSS], GetSnapshotProperties method, IVssFileShareSnapshotProvider::GetSnapshotProperties, base.ivssfilesharesnapshotprovider_getsnapshotproperties, vsprov/IVssFileShareSnapshotProvider::GetSnapshotProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

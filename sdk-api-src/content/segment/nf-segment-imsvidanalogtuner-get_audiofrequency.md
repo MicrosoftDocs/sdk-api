@@ -7,7 +7,7 @@ old-location: mstv\imsvidanalogtuner_get_audiofrequency.htm
 old-project: mstv
 ms.assetid: d0513ea0-305b-40ac-95ad-ed47a0417046
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidAnalogTuner, IMSVidAnalogTuner interface [Microsoft TV Technologies], get_AudioFrequency method, IMSVidAnalogTuner::get_AudioFrequency, IMSVidAnalogTunerget_AudioFrequency, get_AudioFrequency method [Microsoft TV Technologies], get_AudioFrequency method [Microsoft TV Technologies], IMSVidAnalogTuner interface, get_AudioFrequency,IMSVidAnalogTuner.get_AudioFrequency, mstv.imsvidanalogtuner_get_audiofrequency, segment/IMSVidAnalogTuner::get_AudioFrequency
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidAnalogTuner::get_AudioFrequency method

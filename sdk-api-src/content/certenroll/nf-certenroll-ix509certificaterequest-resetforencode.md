@@ -7,7 +7,7 @@ old-location: security\ix509certificaterequest_resetforencode_method.htm
 old-project: SecCertEnroll
 ms.assetid: 7f0bd391-c456-467a-8bc1-6f0a8bd21e24
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: IX509CertificateRequest, IX509CertificateRequest interface [Security], ResetForEncode method, IX509CertificateRequest::ResetForEncode, ResetForEncode method [Security], ResetForEncode method [Security], IX509CertificateRequest interface, ResetForEncode,IX509CertificateRequest.ResetForEncode, certenroll/IX509CertificateRequest::ResetForEncode, security.ix509certificaterequest_resetforencode_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\DShellWindowsEvents.htm
 old-project: shell
 ms.assetid: c340296d-f8eb-43a1-809d-912ea7412fe2
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: DShellWindowsEvents, DShellWindowsEvents object [Windows Shell], DShellWindowsEvents object [Windows Shell], described, _win32_DShellWindowsEvents, exdisp/DShellWindowsEvents, shell.DShellWindowsEvents
 ms.prod: windows-hardware
 ms.technology: windows-devices

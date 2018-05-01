@@ -72,7 +72,7 @@ This policy modifier offers two guarantees to a sync provider. First, it guarant
 This policy modifier grants the platform the permission to not store any data returned by a sync provider on local disks. This policy modifier is ineffective when being combined with <b>CF_HYDRATION_POLICY_MODIFIER_VALIDATION_REQUIRED</b>.
 
 
-#### - CF_HYDRATION_POLICY_MODIFIER_AUTO_DEHYDRATION_ALLOWED
+### -field CF_HYDRATION_POLICY_MODIFIER_AUTO_DEHYDRATION_ALLOWED
 
 <b>Note</b>  This value is new for Windows 10, version 1803.
 

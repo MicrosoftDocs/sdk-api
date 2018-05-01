@@ -7,7 +7,7 @@ old-location: setup\msiviewfetch.htm
 old-project: Msi
 ms.assetid: 1a973a22-ca3a-4980-9b20-d3c5b43fdd19
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/26/2018
 ms.keywords: MsiViewFetch, MsiViewFetch function, _msi_msiviewfetch, msiquery/MsiViewFetch, setup.msiviewfetch
 ms.prod: windows-hardware
 ms.technology: windows-devices

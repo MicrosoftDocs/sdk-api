@@ -7,7 +7,7 @@ old-location: mf\imfmediaengineex_setstreamselection.htm
 old-project: medfound
 ms.assetid: 12F0FDD0-0D8C-496D-B5C4-3FBCBCAAC6FB
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: FALSE, IMFMediaEngineEx, IMFMediaEngineEx interface [Media Foundation], SetStreamSelection method, IMFMediaEngineEx::SetStreamSelection, SetStreamSelection method [Media Foundation], SetStreamSelection method [Media Foundation], IMFMediaEngineEx interface, SetStreamSelection,IMFMediaEngineEx.SetStreamSelection, TRUE, mf.imfmediaengineex_setstreamselection, mfmediaengine/IMFMediaEngineEx::SetStreamSelection
 ms.prod: windows-hardware
 ms.technology: windows-devices

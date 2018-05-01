@@ -7,7 +7,7 @@ old-location: ics\inetsharingportmapping_delete.htm
 old-project: ICS
 ms.assetid: f9582110-a717-41a4-8ddd-26ef703b8356
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: Delete method [ICS/ICF], Delete method [ICS/ICF], INetSharingPortMapping interface, Delete,INetSharingPortMapping.Delete, INetSharingPortMapping, INetSharingPortMapping interface [ICS/ICF], Delete method, INetSharingPortMapping::Delete, _ics_inetsharingportmapping_delete, ics.inetsharingportmapping_delete, netcon/INetSharingPortMapping::Delete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # INetSharingPortMapping::Delete method

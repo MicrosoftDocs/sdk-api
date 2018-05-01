@@ -7,7 +7,7 @@ old-location: multimedia\editstreamclone.htm
 old-project: Multimedia
 ms.assetid: 2a512dbd-8d17-43d0-a074-571b4c1837c7
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/25/2018
 ms.keywords: EditStreamClone, EditStreamClone function [Windows Multimedia], _win32_EditStreamClone, multimedia.editstreamclone, vfw/EditStreamClone
 ms.prod: windows-hardware
 ms.technology: windows-devices

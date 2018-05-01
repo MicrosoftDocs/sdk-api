@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmstorage3_setenumpreference.htm
 old-project: WMDM
 ms.assetid: 74916098-07d2-4dc9-932d-b174a10032dd
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: IWMDMStorage3, IWMDMStorage3 interface [windows Media Device Manager], SetEnumPreference method, IWMDMStorage3::SetEnumPreference, IWMDMStorage3SetEnumPreference, SetEnumPreference method [windows Media Device Manager], SetEnumPreference method [windows Media Device Manager], IWMDMStorage3 interface, SetEnumPreference,IWMDMStorage3.SetEnumPreference, mswmdm/IWMDMStorage3::SetEnumPreference, wmdm.iwmdmstorage3_setenumpreference
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IWMDMStorage3::SetEnumPreference method

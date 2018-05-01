@@ -7,7 +7,7 @@ old-location: security\icryptattributes_addrange_method.htm
 old-project: SecCertEnroll
 ms.assetid: 8dc0a2c5-3734-47c7-a716-f53322fee39d
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: AddRange method [Security], AddRange method [Security], ICryptAttributes interface, AddRange,ICryptAttributes.AddRange, ICryptAttributes, ICryptAttributes interface [Security], AddRange method, ICryptAttributes::AddRange, certenroll/ICryptAttributes::AddRange, security.icryptattributes_addrange_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

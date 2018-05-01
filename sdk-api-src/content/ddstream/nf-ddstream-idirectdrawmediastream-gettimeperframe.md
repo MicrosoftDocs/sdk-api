@@ -7,7 +7,7 @@ old-location: dshow\idirectdrawmediastream_gettimeperframe.htm
 old-project: DirectShow
 ms.assetid: 24133185-0d5f-41fc-b381-ef982db46dd1
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetTimePerFrame method [DirectShow], GetTimePerFrame method [DirectShow], IDirectDrawMediaStream interface, GetTimePerFrame,IDirectDrawMediaStream.GetTimePerFrame, IDirectDrawMediaStream, IDirectDrawMediaStream interface [DirectShow], GetTimePerFrame method, IDirectDrawMediaStream::GetTimePerFrame, IDirectDrawMediaStreamGetTimePerFrame, ddstream/IDirectDrawMediaStream::GetTimePerFrame, dshow.idirectdrawmediastream_gettimeperframe
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: "*LPDDSURFACEDESC2, DDSURFACEDESC2"
+req.typenames: VIDEOMEMORYINFO
 topic_type:
 -	APIRef
 -	kbSyntax

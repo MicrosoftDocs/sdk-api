@@ -7,7 +7,7 @@ old-location: com\iserversecurity_reverttoself.htm
 old-project: com
 ms.assetid: 21952f54-439e-446f-a206-4b35759b1090
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IServerSecurity, IServerSecurity interface [COM], RevertToSelf method, IServerSecurity::RevertToSelf, RevertToSelf method [COM], RevertToSelf method [COM], IServerSecurity interface, RevertToSelf,IServerSecurity.RevertToSelf, _com_iserversecurity_reverttoself, com.iserversecurity_reverttoself, objidlbase/IServerSecurity::RevertToSelf
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IServerSecurity::RevertToSelf method

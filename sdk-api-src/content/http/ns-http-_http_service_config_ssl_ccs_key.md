@@ -7,7 +7,7 @@ old-location: http\http_service_config_ssl_ccs_key.htm
 old-project: Http
 ms.assetid: C40070D6-AE19-4E42-A7C6-38F8AF5C1F53
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: "*PHTTP_SERVICE_CONFIG_SSL_CCS_KEY, HTTP_SERVICE_CONFIG_SSL_CCS_KEY, HTTP_SERVICE_CONFIG_SSL_CCS_KEY structure [HTTP], PHTTP_SERVICE_CONFIG_SSL_CCS_KEY, PHTTP_SERVICE_CONFIG_SSL_CCS_KEY structure pointer [HTTP], _HTTP_SERVICE_CONFIG_SSL_CCS_KEY, http.http_service_config_ssl_ccs_key, http/HTTP_SERVICE_CONFIG_SSL_CCS_KEY, http/PHTTP_SERVICE_CONFIG_SSL_CCS_KEY"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmi\iwbemservices_deleteinstanceasync.htm
 old-project: WmiSdk
 ms.assetid: 7c726842-a274-41d1-b622-681bf9f6ae8b
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: DeleteInstanceAsync method [Windows Management Instrumentation], DeleteInstanceAsync method [Windows Management Instrumentation], IWbemServices interface, DeleteInstanceAsync,IWbemServices.DeleteInstanceAsync, IWbemServices, IWbemServices interface [Windows Management Instrumentation], DeleteInstanceAsync method, IWbemServices::DeleteInstanceAsync, _hmm_iwbemservices_deleteinstanceasync, wbemcli/IWbemServices::DeleteInstanceAsync, wmi.iwbemservices_deleteinstanceasync
 ms.prod: windows-hardware
 ms.technology: windows-devices

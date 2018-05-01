@@ -7,7 +7,7 @@ old-location: dshow\ivideowindow_get_messagedrain.htm
 old-project: DirectShow
 ms.assetid: 9a1a3070-5b68-4dd2-bc10-97a8331cc262
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IVideoWindow, IVideoWindow interface [DirectShow], get_MessageDrain method, IVideoWindow::get_MessageDrain, IVideoWindowget_MessageDrain, control/IVideoWindow::get_MessageDrain, dshow.ivideowindow_get_messagedrain, get_MessageDrain method [DirectShow], get_MessageDrain method [DirectShow], IVideoWindow interface, get_MessageDrain,IVideoWindow.get_MessageDrain
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\CONFIRM_CONFLICT_ITEM.htm
 old-project: shell
 ms.assetid: 3be4a8ec-eeab-4453-a2cb-18cadf39464a
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: CONFIRM_CONFLICT_ITEM, CONFIRM_CONFLICT_ITEM structure [Windows Shell], _shell_CONFIRM_CONFLICT_ITEM, shell.CONFIRM_CONFLICT_ITEM, syncmgr/CONFIRM_CONFLICT_ITEM
 ms.prod: windows-hardware
 ms.technology: windows-devices

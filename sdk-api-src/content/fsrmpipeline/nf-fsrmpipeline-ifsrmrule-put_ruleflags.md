@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmrule_ruleflags.htm
 old-project: Fsrm
 ms.assetid: c656115a-a0d4-4860-9756-98df84c1672f
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: IFsrmRule, IFsrmRule interface [File Server Resource Manager], RuleFlags property, IFsrmRule.RuleFlags, IFsrmRule::get_RuleFlags, IFsrmRule::put_RuleFlags, RuleFlags property [File Server Resource Manager], RuleFlags property [File Server Resource Manager], IFsrmRule interface, fs.ifsrmrule_ruleflags, fsrm.ifsrmrule_ruleflags, fsrmpipeline/IFsrmRule::RuleFlags, fsrmpipeline/IFsrmRule::get_RuleFlags, fsrmpipeline/IFsrmRule::put_RuleFlags, put_RuleFlags,IFsrmRule.put_RuleFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices

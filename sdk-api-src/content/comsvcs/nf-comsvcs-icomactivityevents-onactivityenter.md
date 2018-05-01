@@ -7,7 +7,7 @@ old-location: cos\icomactivityevents_onactivityenter.htm
 old-project: cossdk
 ms.assetid: 5933798d-2208-4eab-8024-50236e5483a3
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: IComActivityEvents, IComActivityEvents interface [COM+], OnActivityEnter method, IComActivityEvents::OnActivityEnter, OnActivityEnter method [COM+], OnActivityEnter method [COM+], IComActivityEvents interface, OnActivityEnter,IComActivityEvents.OnActivityEnter, _dtc_IComActivityEvents_OnActivityEnter, comsvcs/IComActivityEvents::OnActivityEnter, cos.icomactivityevents_onactivityenter
 ms.prod: windows-hardware
 ms.technology: windows-devices

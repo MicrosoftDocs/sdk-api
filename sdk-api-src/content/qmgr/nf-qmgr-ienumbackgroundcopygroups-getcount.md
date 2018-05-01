@@ -7,7 +7,7 @@ old-location: bits\ienumbackgroundcopygroups_getcount.htm
 old-project: Bits
 ms.assetid: 70bbc495-f133-4703-a51a-1a1a180720f4
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/10/2018
 ms.keywords: GetCount method [BITS], GetCount method [BITS], IEnumBackgroundCopyGroups interface, GetCount,IEnumBackgroundCopyGroups.GetCount, IEnumBackgroundCopyGroups, IEnumBackgroundCopyGroups interface [BITS], GetCount method, IEnumBackgroundCopyGroups::GetCount, bits.ienumbackgroundcopygroups_getcount, qmgr/IEnumBackgroundCopyGroups::GetCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: QmgrPrxy.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IEnumBackgroundCopyGroups::GetCount method

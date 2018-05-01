@@ -7,7 +7,7 @@ old-location: http\httpcreateurlgroup.htm
 old-project: Http
 ms.assetid: 6f2b14bb-ecb9-4a63-9bef-e2ceaf09f97a
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: HttpCreateUrlGroup, HttpCreateUrlGroup function [HTTP], http.httpcreateurlgroup, http/HttpCreateUrlGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices

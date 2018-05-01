@@ -7,7 +7,7 @@ old-location: dshow\ivmrwindowlesscontrol.htm
 old-project: DirectShow
 ms.assetid: c21c5611-f376-4899-9914-c14a18af3810
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IVMRWindowlessControl, IVMRWindowlessControl interface [DirectShow], IVMRWindowlessControl interface [DirectShow], described, IVMRWindowlessControlInterface, dshow.ivmrwindowlesscontrol, strmif/IVMRWindowlessControl
 ms.prod: windows-hardware
 ms.technology: windows-devices

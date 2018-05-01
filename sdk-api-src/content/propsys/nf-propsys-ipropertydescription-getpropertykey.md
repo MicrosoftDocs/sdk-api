@@ -7,7 +7,7 @@ old-location: properties\IPropertyDescription_GetPropertyKey.htm
 old-project: properties
 ms.assetid: 10942dff-234e-4f85-827b-f27a6f099818
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/5/2018
 ms.keywords: GetPropertyKey method [Windows Properties], GetPropertyKey method [Windows Properties], IPropertyDescription interface, GetPropertyKey,IPropertyDescription.GetPropertyKey, IPropertyDescription, IPropertyDescription interface [Windows Properties], GetPropertyKey method, IPropertyDescription::GetPropertyKey, properties.IPropertyDescription_GetPropertyKey, propsys/IPropertyDescription::GetPropertyKey, shell.IPropertyDescription_GetPropertyKey, shell_IPropertyDescription_GetPropertyKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IPropertyDescription::GetPropertyKey method

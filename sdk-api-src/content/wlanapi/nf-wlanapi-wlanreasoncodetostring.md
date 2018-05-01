@@ -7,7 +7,7 @@ old-location: nwifi\wlanreasoncodetostring.htm
 old-project: NativeWiFi
 ms.assetid: 2a02e2d2-91d0-4b54-ad02-a76442edcff8
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/13/2018
 ms.keywords: WlanReasonCodeToString, WlanReasonCodeToString function [NativeWIFI], nwifi.wlanreasoncodetostring, wlanapi/WlanReasonCodeToString
 ms.prod: windows-hardware
 ms.technology: windows-devices

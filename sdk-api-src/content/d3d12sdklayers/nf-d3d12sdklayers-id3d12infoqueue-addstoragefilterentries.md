@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12infoqueue_addstoragefilterentries.htm
 old-project: direct3d12
 ms.assetid: 24AEAE62-D2D8-4A0C-9EB3-6D3942BC86D9
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: AddStorageFilterEntries method, AddStorageFilterEntries method, ID3D12InfoQueue interface, AddStorageFilterEntries,ID3D12InfoQueue.AddStorageFilterEntries, ID3D12InfoQueue, ID3D12InfoQueue interface, AddStorageFilterEntries method, ID3D12InfoQueue::AddStorageFilterEntries, d3d12sdklayers/ID3D12InfoQueue::AddStorageFilterEntries, direct3d12.id3d12infoqueue_addstoragefilterentries
 ms.prod: windows-hardware
 ms.technology: windows-devices

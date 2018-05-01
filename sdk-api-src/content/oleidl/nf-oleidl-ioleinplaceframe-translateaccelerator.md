@@ -7,7 +7,7 @@ old-location: com\ioleinplaceframe_translateaccelerator.htm
 old-project: com
 ms.assetid: f755b919-b810-4b66-b3c2-bf38bd525d60
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IOleInPlaceFrame, IOleInPlaceFrame interface [COM], TranslateAccelerator method, IOleInPlaceFrame::TranslateAccelerator, TranslateAccelerator method [COM], TranslateAccelerator method [COM], IOleInPlaceFrame interface, TranslateAccelerator,IOleInPlaceFrame.TranslateAccelerator, _ole_ioleinplaceframe_translateaccelerator, com.ioleinplaceframe_translateaccelerator, oleidl/IOleInPlaceFrame::TranslateAccelerator
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IOleInPlaceFrame::TranslateAccelerator method

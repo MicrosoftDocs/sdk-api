@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopygroup_get_groupid.htm
 old-project: Bits
 ms.assetid: fde4dfb9-002b-436e-96c1-a893a95dcacc
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/10/2018
 ms.keywords: IBackgroundCopyGroup, IBackgroundCopyGroup interface [BITS], get_GroupID method, IBackgroundCopyGroup::get_GroupID, bits.ibackgroundcopygroup_get_groupid, get_GroupID method [BITS], get_GroupID method [BITS], IBackgroundCopyGroup interface, get_GroupID,IBackgroundCopyGroup.get_GroupID, qmgr/IBackgroundCopyGroup::get_GroupID
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: QmgrPrxy.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IBackgroundCopyGroup::get_GroupID method

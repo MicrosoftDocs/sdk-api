@@ -7,7 +7,7 @@ old-location: winrt\ipackagedebugsettings_stopsessionredirection.htm
 old-project: WinRT
 ms.assetid: 2E0BB941-CD98-4DFE-A16D-93A6327AAA2B
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/24/2018
 ms.keywords: IPackageDebugSettings, IPackageDebugSettings interface [Windows Runtime], StopSessionRedirection method, IPackageDebugSettings::StopSessionRedirection, StopSessionRedirection method [Windows Runtime], StopSessionRedirection method [Windows Runtime], IPackageDebugSettings interface, StopSessionRedirection,IPackageDebugSettings.StopSessionRedirection, shobjidl_core/IPackageDebugSettings::StopSessionRedirection, winrt.ipackagedebugsettings_stopsessionredirection
 ms.prod: windows-hardware
 ms.technology: windows-devices

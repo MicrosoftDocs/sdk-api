@@ -7,7 +7,7 @@ old-location: wmp\iwmpevents3_iwmpevents3__cdromburnstatechange.htm
 old-project: WMP
 ms.assetid: 8328f1bf-c928-4504-859f-f1b62e77e9e0
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: CdromBurnStateChange method [Windows Media Player], CdromBurnStateChange method [Windows Media Player], IWMPEvents3 interface, CdromBurnStateChange,IWMPEvents3.CdromBurnStateChange, IWMPEvents3, IWMPEvents3 interface [Windows Media Player], CdromBurnStateChange method, IWMPEvents3::CdromBurnStateChange, IWMPEvents3CdromBurnStateChange, wmp.iwmpevents3_iwmpevents3__cdromburnstatechange, wmp/IWMPEvents3::CdromBurnStateChange
 ms.prod: windows-hardware
 ms.technology: windows-devices

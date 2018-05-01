@@ -7,7 +7,7 @@ old-location: rras\mpradminconnectionhangupnotification2.htm
 old-project: RRAS
 ms.assetid: 3231ae83-c7fc-46d4-a4d9-f7ccf1c4ed18
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: MprAdminConnectionHangupNotification2, MprAdminConnectionHangupNotification2 callback function [RAS], _mpr_mpradminconnectionhangupnotification2, mprapi/MprAdminConnectionHangupNotification2, rras.mpradminconnectionhangupnotification2
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wpdauto\iportabledevicewebcontrol_getdevicefromidasync.htm
 old-project: wpdauto
 ms.assetid: a53e4a15-4f51-43e7-84c7-4c75be87e3d9
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/5/2018
 ms.keywords: GetDeviceFromIdAsync method [WPD Automation], GetDeviceFromIdAsync method [WPD Automation], IPortableDeviceWebControl interface, GetDeviceFromIdAsync,IPortableDeviceWebControl.GetDeviceFromIdAsync, IPortableDeviceWebControl, IPortableDeviceWebControl interface [WPD Automation], GetDeviceFromIdAsync method, IPortableDeviceWebControl::GetDeviceFromIdAsync, portabledeviceapi/IPortableDeviceWebControl::GetDeviceFromIdAsync, wpdauto.iportabledevicewebcontrol_getdevicefromidasync
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: WPD_WHITE_BALANCE_SETTINGS
+req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IPortableDeviceWebControl::GetDeviceFromIdAsync method

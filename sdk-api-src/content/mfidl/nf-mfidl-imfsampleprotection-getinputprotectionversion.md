@@ -7,7 +7,7 @@ old-location: mf\imfsampleprotection_getinputprotectionversion.htm
 old-project: medfound
 ms.assetid: 26f92775-f8a0-4b85-8cfc-353349325706
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 26f92775-f8a0-4b85-8cfc-353349325706, GetInputProtectionVersion method [Media Foundation], GetInputProtectionVersion method [Media Foundation], IMFSampleProtection interface, GetInputProtectionVersion,IMFSampleProtection.GetInputProtectionVersion, IMFSampleProtection, IMFSampleProtection interface [Media Foundation], GetInputProtectionVersion method, IMFSampleProtection::GetInputProtectionVersion, mf.imfsampleprotection_getinputprotectionversion, mfidl/IMFSampleProtection::GetInputProtectionVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices

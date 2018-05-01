@@ -7,7 +7,7 @@ old-location: security\ix509certificaterequestpkcs10_issmartcard_method.htm
 old-project: SecCertEnroll
 ms.assetid: 663ca7dd-f108-46bf-9564-cd2d7ec2bb1f
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: IX509CertificateRequestPkcs10, IX509CertificateRequestPkcs10 interface [Security], IsSmartCard method, IX509CertificateRequestPkcs10::IsSmartCard, IsSmartCard method [Security], IsSmartCard method [Security], IX509CertificateRequestPkcs10 interface, IsSmartCard,IX509CertificateRequestPkcs10.IsSmartCard, certenroll/IX509CertificateRequestPkcs10::IsSmartCard, security.ix509certificaterequestpkcs10_issmartcard_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -8,7 +8,7 @@ old-project: cfApi
 ms.assetid: F70ECFDB-8542-4395-9EDD-7DABC2E5225D
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: "*PCF_CREATE_FLAGS, CF_CREATE_FLAGS, CF_CREATE_FLAGS enumeration, CF_CREATE_FLAG_NONE, CF_CREATE_FLAG_STOP_ON_ERROR, PCF_CREATE_FLAGS, PCF_CREATE_FLAGS enumeration pointer, cfapi/CF_CREATE_FLAGS, cfapi/CF_CREATE_FLAG_NONE, cfapi/CF_CREATE_FLAG_STOP_ON_ERROR, cfapi/PCF_CREATE_FLAGS, cloudApi.cf_create_flags"
+ms.keywords: CF_CREATE_FLAGS, CF_CREATE_FLAGS enumeration, CF_CREATE_FLAG_NONE, CF_CREATE_FLAG_STOP_ON_ERROR, PCF_CREATE_FLAGS, PCF_CREATE_FLAGS enumeration pointer, cfapi/CF_CREATE_FLAGS, cfapi/CF_CREATE_FLAG_NONE, cfapi/CF_CREATE_FLAG_STOP_ON_ERROR, cfapi/PCF_CREATE_FLAGS, cloudApi.cf_create_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CF_CREATE_FLAGS, *PCF_CREATE_FLAGS
+req.typenames: CF_CREATE_FLAGS
 topic_type:
 -	APIRef
 -	kbSyntax

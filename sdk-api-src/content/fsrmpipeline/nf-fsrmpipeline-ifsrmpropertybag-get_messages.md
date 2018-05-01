@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmpropertybag_messages.htm
 old-project: Fsrm
 ms.assetid: 3aa6bc28-03bb-40ea-8c56-94133c8eeb54
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: IFsrmPropertyBag, IFsrmPropertyBag interface [File Server Resource Manager], Messages property, IFsrmPropertyBag.Messages, IFsrmPropertyBag::get_Messages, Messages property [File Server Resource Manager], Messages property [File Server Resource Manager], IFsrmPropertyBag interface, fs.ifsrmpropertybag_messages, fsrm.ifsrmpropertybag_messages, fsrmpipeline/IFsrmPropertyBag::Messages, fsrmpipeline/IFsrmPropertyBag::get_Messages, get_Messages,IFsrmPropertyBag.get_Messages
 ms.prod: windows-hardware
 ms.technology: windows-devices

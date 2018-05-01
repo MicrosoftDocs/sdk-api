@@ -7,7 +7,7 @@ old-location: dshow\igraphconfigcallback.htm
 old-project: DirectShow
 ms.assetid: b7856181-1616-4984-bf5e-402140ab7b4e
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IGraphConfigCallback, IGraphConfigCallback interface [DirectShow], IGraphConfigCallback interface [DirectShow], described, IGraphConfigCallbackInterface, dshow.igraphconfigcallback, strmif/IGraphConfigCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,8 +7,8 @@ old-location: direct3d11\d3d11_shader_resource_view_desc1.htm
 old-project: direct3d11
 ms.assetid: 051F58C1-E3F3-4205-B834-7A14FEDFED2C
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
-ms.keywords: D3D11_SHADER_RESOURCE_VIEW_DESC1, D3D11_SHADER_RESOURCE_VIEW_DESC1 structure [Direct3D 11], d3d11_3/D3D11_SHADER_RESOURCE_VIEW_DESC1, direct3d11.d3d11_shader_resource_view_desc1
+ms.date: 4/6/2018
+ms.keywords: CD3D11_SHADER_RESOURCE_VIEW_DESC1, D3D11_SHADER_RESOURCE_VIEW_DESC1, D3D11_SHADER_RESOURCE_VIEW_DESC1 structure [Direct3D 11], d3d11_3/D3D11_SHADER_RESOURCE_VIEW_DESC1, direct3d11.d3d11_shader_resource_view_desc1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -57,12 +57,12 @@ Describes a shader-resource view.
 
 
 
-### -field Format
+#### - Format
 
 A <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a>-typed value that  specifies the viewing format. See remarks.
 
 
-### -field ViewDimension
+#### - ViewDimension
 
 A <a href="https://msdn.microsoft.com/0b3ae8b9-12fc-4de9-b99d-e9b9e17adfb4">D3D11_SRV_DIMENSION</a>-typed value that  specifies the resource type of the view. This type is the same as the resource type of the underlying resource. This member also determines which _SRV to use in the union below.
 

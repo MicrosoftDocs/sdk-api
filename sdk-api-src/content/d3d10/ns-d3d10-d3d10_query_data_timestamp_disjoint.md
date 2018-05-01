@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_query_data_timestamp_disjoint.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_query_data_timestamp_disjoint.htm
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: D3D10_QUERY_DATA_TIMESTAMP_DISJOINT, D3D10_QUERY_DATA_TIMESTAMP_DISJOINT structure [Direct3D 10], d3d10/D3D10_QUERY_DATA_TIMESTAMP_DISJOINT, direct3d10.d3d10_query_data_timestamp_disjoint, ecae4d34-b796-887c-40aa-bb10d9b020bf
 ms.prod: windows-hardware
 ms.technology: windows-devices

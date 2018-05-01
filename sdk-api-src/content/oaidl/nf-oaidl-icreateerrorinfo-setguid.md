@@ -7,7 +7,7 @@ old-location: automat\icreateerrorinfo_setguid.htm
 old-project: automat
 ms.assetid: f7570ba3-d738-40d3-aefc-fbf6f4ca633e
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: ICreateErrorInfo, ICreateErrorInfo interface [Automation], SetGUID method, ICreateErrorInfo::SetGUID, SetGUID method [Automation], SetGUID method [Automation], ICreateErrorInfo interface, SetGUID,ICreateErrorInfo.SetGUID, _oa96_ICreateErrorInfo_SetGUID, automat.icreateerrorinfo_setguid, oaidl/ICreateErrorInfo::SetGUID
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ICreateErrorInfo::SetGUID method

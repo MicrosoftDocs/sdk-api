@@ -7,7 +7,7 @@ old-location: direct2d\gradientmeshpatchfromcoonspatch.htm
 old-project: Direct2D
 ms.assetid: 12469ab9-890c-e4a9-57b2-41a804712052
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: GradientMeshPatchFromCoonsPatch, GradientMeshPatchFromCoonsPatch function [Direct2D], d2d1_3helper/GradientMeshPatchFromCoonsPatch, direct2d.gradientmeshpatchfromcoonspatch
 ms.prod: windows-hardware
 ms.technology: windows-devices

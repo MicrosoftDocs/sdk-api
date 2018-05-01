@@ -1,0 +1,127 @@
+---
+UID: NF:winusb.WinUsb_StopTrackingForTimeSync
+title: WinUsb_StopTrackingForTimeSync function
+author: windows-driver-content
+description: The WinUsb_StopTrackingForTimeSync function tops the time synchronization feature in the USB driver stack that gets the associated system QPC time for USB bus frames and microframes.
+old-location: buses\winusb_stoptrackingfortimesync.htm
+old-project: usbref
+ms.assetid: F38DBE34-A6D0-4492-A829-EFE53D361A71
+ms.author: windowsdriverdev
+ms.date: 4/25/2018
+ms.keywords: WinUsb_StopTrackingForTimeSync, WinUsb_StopTrackingForTimeSync function [Buses], buses.winusb_stoptrackingfortimesync, winusb/WinUsb_StopTrackingForTimeSync
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: winusb.h
+req.include-header: Winusb.h
+req.target-type: Universal
+req.target-min-winverclnt: Windows 10
+req.target-min-winversvr: Windows Server 2016
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WIN_CERTIFICATE, *LPWIN_CERTIFICATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Winusb.dll
+api_name:
+-	WinUsb_StopTrackingForTimeSync
+product: Windows
+targetos: Windows
+req.lib: Winusb.lib
+req.dll: Winusb.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# WinUsb_StopTrackingForTimeSync function
+
+
+## -description
+
+
+The <b>WinUsb_StopTrackingForTimeSync</b> function tops the time synchronization feature in the USB driver stack that gets the associated system QPC time for USB bus frames and microframes. 
+
+
+## -parameters
+
+
+
+
+### -param InterfaceHandle [in]
+
+An opaque handle retrieved in the previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff540277">WinUsb_Initialize</a>. 
+
+
+### -param StopTrackingInfo [in]
+
+A pointer to a <a href="https://msdn.microsoft.com/FFD7979B-48E9-433C-86A9-255F4F422BBA">USB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION</a> structure. Set <b>TimeTrackingHandle</b> to the handle received in the previous call to <a href="https://msdn.microsoft.com/FC19CDFD-76F1-49E3-A212-E4F490D679E6">WinUsb_StartTrackingForTimeSync</a>. 
+
+
+
+
+## -returns
+
+
+
+<b>WinUsb_StopTrackingForTimeSync</b> returns <b>TRUE</b> if the operation succeeds. Otherwise, this routine returns <b>FALSE</b>, and the caller can retrieve the logged error by calling <b>GetLastError</b>.
+
+
+<b>GetLastError</b>    can return one of the following error codes.
+
+
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_INVALID_HANDLE</b></dt>
+</dl>
+</td>
+<td width="60%">
+The caller passed <b>NULL</b> in the  <i>InterfaceHandle</i> or <i>StopTrackingInfo</i> parameter.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/8234d0b4-2c73-45fa-a8bf-566c64cc2858">WinUSB</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows/iot-core/learn-about-hardware/hardwarecompatlist">WinUSB Functions</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540277">WinUsb_Initialize</a>
+
+
+
+<a href="https://msdn.microsoft.com/FC19CDFD-76F1-49E3-A212-E4F490D679E6">WinUsb_StartTrackingForTimeSync</a>
+ 
+
+ 
+

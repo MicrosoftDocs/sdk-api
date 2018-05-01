@@ -7,7 +7,7 @@ old-location: tapi3\ienumdirectoryobject_skip.htm
 old-project: Tapi
 ms.assetid: e14e71f1-5151-4562-bfbf-1370f65cb23a
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: IEnumDirectoryObject, IEnumDirectoryObject interface [TAPI 2.2], Skip method, IEnumDirectoryObject::Skip, Skip method [TAPI 2.2], Skip method [TAPI 2.2], IEnumDirectoryObject interface, Skip,IEnumDirectoryObject.Skip, _tapi3_ienumdirectoryobject_skip, rend/IEnumDirectoryObject::Skip, tapi3.ienumdirectoryobject_skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Rend.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IEnumDirectoryObject::Skip method

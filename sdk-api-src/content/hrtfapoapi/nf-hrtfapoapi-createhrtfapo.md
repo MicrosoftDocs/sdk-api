@@ -7,7 +7,7 @@ old-location: xaudio2\createhrtfapo.htm
 old-project: xaudio2
 ms.assetid: 24E3CD0D-FC0D-4B1B-961F-BE48935F7B71
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/20/2018
 ms.keywords: CreateHrtfApo, CreateHrtfApo function [XAudio2 Audio Mixing APIs], hrtfapoapi/CreateHrtfApo, xaudio2.createhrtfapo
 ms.prod: windows-hardware
 ms.technology: windows-devices

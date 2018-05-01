@@ -7,7 +7,7 @@ old-location: setup\sp_altplatform_info_v2.htm
 old-project: SetupApi
 ms.assetid: eb66ef5a-212d-4224-87b5-d64e8e188139
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/10/2018
 ms.keywords: "*PSP_ALTPLATFORM_INFO_V2, PSP_ALTPLATFORM_INFO_V2, PSP_ALTPLATFORM_INFO_V2 structure pointer [Setup API], SP_ALTPLATFORM_INFO, SP_ALTPLATFORM_INFO_V2, SP_ALTPLATFORM_INFO_V2 structure [Setup API], VER_PLATFORM_WIN32_NT, VER_PLATFORM_WIN32_WINDOWS, _SP_ALTPLATFORM_INFO_V2, _setupapi_sp_altplatform_info, setup.sp_altplatform_info_v2, setupapi/PSP_ALTPLATFORM_INFO_V2, setupapi/SP_ALTPLATFORM_INFO_V2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _SP_ALTPLATFORM_INFO_V2 structure
@@ -61,11 +61,6 @@ Setup  uses the <a href="https://msdn.microsoft.com/33872a84-8f7f-4508-a326-2d95
 ## -struct-fields
 
 
-
-
-### -field DUMMYUNIONNAME
-
- 
 
 
 ### -field cbSize
@@ -121,6 +116,11 @@ Minor version of the operating system.
 ### -field ProcessorArchitecture
 
 Processor architecture. This must be PROCESSOR_ARCHITECTURE_INTEL, PROCESSOR_ARCHITECTURE_ALPHA, PROCESSOR_ARCHITECTURE_IA64, PROCESSOR_ARCHITECTURE_ALPHA64.
+
+
+### -field DUMMYUNIONNAME
+
+ 
 
 
 ### -field FirstValidatedMajorVersion

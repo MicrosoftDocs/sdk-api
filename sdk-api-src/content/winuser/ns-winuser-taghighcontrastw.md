@@ -7,7 +7,7 @@ old-location: winauto\highcontrast.htm
 old-project: WinAuto
 ms.assetid: 0d8ac624-919a-427a-8374-e256eedc6777
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: "*LPHIGHCONTRASTW, HCF_AVAILABLE, HCF_CONFIRMHOTKEY, HCF_HIGHCONTRASTON, HCF_HOTKEYACTIVE, HCF_HOTKEYAVAILABLE, HCF_HOTKEYSOUND, HCF_INDICATOR, HIGHCONTRAST, HIGHCONTRAST structure [Windows Accessibility], HIGHCONTRASTW, LPHIGHCONTRAST, LPHIGHCONTRAST structure pointer [Windows Accessibility], _win32_HIGHCONTRAST_str, msaa.highcontrast, tagACCESSTIMEOUTA, tagACCESSTIMEOUTW, tagHIGHCONTRASTW, winauto.highcontrast, winuser/HIGHCONTRAST, winuser/LPHIGHCONTRAST"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -187,7 +187,7 @@ An application uses this structure when calling the <a href="https://msdn.micros
 
 
 
-<a href="https://msdn.microsoft.com/9b99465c-e12d-413c-8e69-b46b52f2f11f">SystemParametersInfo</a>
+<a href="base.systemparametersinfo">SystemParametersInfo</a>
  
 
  

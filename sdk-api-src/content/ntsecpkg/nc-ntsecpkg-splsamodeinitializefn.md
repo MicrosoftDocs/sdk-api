@@ -7,7 +7,7 @@ old-location: security\splsamodeinitialize.htm
 old-project: SecAuthN
 ms.assetid: 1ef3770b-197f-4d5b-9933-b7f6f63e5627
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/24/2018
 ms.keywords: SpLsaModeInitialize, SpLsaModeInitialize function [Security], SpLsaModeInitializeFn, _ssp_splsamodeinitialize, ntsecpkg/SpLsaModeInitialize, security.splsamodeinitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # SpLsaModeInitializeFn callback

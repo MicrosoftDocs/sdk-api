@@ -7,7 +7,7 @@ old-location: security\pku2u_logon_submit_type.htm
 old-project: SecAuthN
 ms.assetid: 10de9dd4-0f6c-4431-a60d-9b9c60585676
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/24/2018
 ms.keywords: "*PPKU2U_LOGON_SUBMIT_TYPE, PKU2U_LOGON_SUBMIT_TYPE, PKU2U_LOGON_SUBMIT_TYPE enumeration [Security], PPKU2U_LOGON_SUBMIT_TYPE, PPKU2U_LOGON_SUBMIT_TYPE enumeration pointer [Security], Pku2uCertificateS4ULogon, _PKU2U_LOGON_SUBMIT_TYPE, ntsecapi/PKU2U_LOGON_SUBMIT_TYPE, ntsecapi/PPKU2U_LOGON_SUBMIT_TYPE, ntsecapi/Pku2uCertificateS4ULogon, security.pku2u_logon_submit_type"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _PKU2U_LOGON_SUBMIT_TYPE enumeration

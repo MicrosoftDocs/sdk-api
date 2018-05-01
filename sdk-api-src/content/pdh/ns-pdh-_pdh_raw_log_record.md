@@ -7,7 +7,7 @@ old-location: perf\pdh_raw_log_record_str.htm
 old-project: PerfCtrs
 ms.assetid: ae96515f-ea3f-4578-a249-fb8f41cdfa69
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/23/2018
 ms.keywords: "*PPDH_RAW_LOG_RECORD, PDH_LOG_TYPE_BINARY, PDH_LOG_TYPE_CSV, PDH_LOG_TYPE_PERFMON, PDH_LOG_TYPE_SQL, PDH_LOG_TYPE_TSV, PDH_RAW_LOG_RECORD, PDH_RAW_LOG_RECORD structure [Perf], PPDH_RAW_LOG_RECORD, PPDH_RAW_LOG_RECORD structure pointer [Perf], _PDH_RAW_LOG_RECORD, _win32_pdh_raw_log_record_str, base.pdh_raw_log_record_str, pdh/PDH_RAW_LOG_RECORD, pdh/PPDH_RAW_LOG_RECORD, perf.pdh_raw_log_record_str"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _PDH_RAW_LOG_RECORD structure

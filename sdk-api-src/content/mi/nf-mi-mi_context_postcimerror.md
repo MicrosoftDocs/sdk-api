@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_context_postcimerror.htm
 old-project: wmi_v2
 ms.assetid: 96ef9e97-467b-4b71-a7f9-4f640102e744
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/18/2018
 ms.keywords: MI_Context_PostCimError, MI_Context_PostCimError function [Windows Management Infrastructure (MI)], mi/MI_Context_PostCimError, wmi.mi_postcimerror, wmi_v2.mi_context_postcimerror
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Posts a return code and an error message (in the form of a <a href="https://msdn.microsoft.com/a0a99371-7b49-4ba1-89fb-d7034d162e01">CIM_Error</a> object) to the server in response to a request.
+Posts a return code and an error message (in the form of a <a href="https://msdn.microsoft.com/a7dc450d-7dbd-4097-a186-0e42f100fbfe">CIM_Error</a> object) to the server in response to a request.
 
 
 ## -parameters
@@ -65,7 +65,7 @@ A pointer to the request context.
 
 ### -param error [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/a0a99371-7b49-4ba1-89fb-d7034d162e01">CIM_Error</a> object to be posted to the server.
+A pointer to a <a href="https://msdn.microsoft.com/a7dc450d-7dbd-4097-a186-0e42f100fbfe">CIM_Error</a> object to be posted to the server.
 
 
 ## -returns
@@ -81,7 +81,7 @@ This function returns MI_INLINE MI_Result MI_INLINE_CALL.
 
 
 
-The <a href="https://msdn.microsoft.com/a0a99371-7b49-4ba1-89fb-d7034d162e01">CIM_Error</a> instance that is returned in the <i>error</i> parameter can be compiled into your provider so you can initialize and then post it. Once an error has been posted, the context must not be used, as it becomes invalid at this point.
+The <a href="https://msdn.microsoft.com/a7dc450d-7dbd-4097-a186-0e42f100fbfe">CIM_Error</a> instance that is returned in the <i>error</i> parameter can be compiled into your provider so you can initialize and then post it. Once an error has been posted, the context must not be used, as it becomes invalid at this point.
 
 
 
@@ -91,7 +91,7 @@ The <a href="https://msdn.microsoft.com/a0a99371-7b49-4ba1-89fb-d7034d162e01">CI
 
 
 
-<a href="https://msdn.microsoft.com/a0a99371-7b49-4ba1-89fb-d7034d162e01">CIM_Error</a>
+<a href="https://msdn.microsoft.com/a7dc450d-7dbd-4097-a186-0e42f100fbfe">CIM_Error</a>
 
 
 

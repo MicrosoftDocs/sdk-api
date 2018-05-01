@@ -7,7 +7,7 @@ old-location: gdi\emrformat.htm
 old-project: gdi
 ms.assetid: a86e45f1-bbe1-4cb6-a9fa-679108db89ac
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/17/2018
 ms.keywords: "*PEMRFORMAT, EMRFORMAT, EMRFORMAT structure [Windows GDI], _win32_EMRFORMAT_str, gdi.emrformat, tagEMRFORMAT, wingdi/EMRFORMAT"
 ms.prod: windows-hardware
 ms.technology: windows-devices

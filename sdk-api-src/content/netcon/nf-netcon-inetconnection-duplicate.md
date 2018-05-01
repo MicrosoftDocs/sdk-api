@@ -7,7 +7,7 @@ old-location: ics\inetconnection_duplicate.htm
 old-project: ICS
 ms.assetid: 1196e66d-95c1-4417-ac0d-b84583879d6a
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: Duplicate method [ICS/ICF], Duplicate method [ICS/ICF], INetConnection interface, Duplicate,INetConnection.Duplicate, INetConnection, INetConnection interface [ICS/ICF], Duplicate method, INetConnection::Duplicate, _ics_inetconnection_duplicate, ics.inetconnection_duplicate, netcon/INetConnection::Duplicate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # INetConnection::Duplicate method

@@ -7,7 +7,7 @@ old-location: secbiomet\winbioverify.htm
 old-project: SecBioMet
 ms.assetid: 7266ca33-d3f9-421f-8265-e23a3ec3a77e
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: WinBioVerify, WinBioVerify function [Windows Biometric Framework API], secbiomet.winbioverify, winbio/WinBioVerify
 ms.prod: windows-hardware
 ms.technology: windows-devices

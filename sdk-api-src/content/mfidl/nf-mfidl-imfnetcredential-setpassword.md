@@ -7,7 +7,7 @@ old-location: mf\imfnetcredential_setpassword.htm
 old-project: medfound
 ms.assetid: 7de58b57-83fe-4c3a-9029-e9be556c84c9
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 7de58b57-83fe-4c3a-9029-e9be556c84c9, IMFNetCredential, IMFNetCredential interface [Media Foundation], SetPassword method, IMFNetCredential::SetPassword, SetPassword method [Media Foundation], SetPassword method [Media Foundation], IMFNetCredential interface, SetPassword,IMFNetCredential.SetPassword, mf.imfnetcredential_setpassword, mfidl/IMFNetCredential::SetPassword
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\idvbtunerequest.htm
 old-project: mstv
 ms.assetid: 4d519bbc-38e1-47ce-bd73-a3eb1ea399d6
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IDVBTuneRequest, IDVBTuneRequest interface [Microsoft TV Technologies], IDVBTuneRequest interface [Microsoft TV Technologies], described, IDVBTuneRequestInterface, mstv.idvbtunerequest, tuner/IDVBTuneRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices

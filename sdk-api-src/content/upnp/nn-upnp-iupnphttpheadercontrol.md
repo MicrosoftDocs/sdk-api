@@ -7,7 +7,7 @@ old-location: upnp\iupnphttpheadercontrol.htm
 old-project: UPnP
 ms.assetid: aed33117-9bfd-4a23-998f-4b8d040d6e3b
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/25/2018
 ms.keywords: IUPnPHttpHeaderControl, IUPnPHttpHeaderControl interface [UPnP APIs], IUPnPHttpHeaderControl interface [UPnP APIs], described, upnp.iupnphttpheadercontrol, upnp/IUPnPHttpHeaderControl
 ms.prod: windows-hardware
 ms.technology: windows-devices

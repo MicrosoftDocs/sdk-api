@@ -7,7 +7,7 @@ old-location: security\ienroll4_createfilerequestwstr.htm
 old-project: SecCrypto
 ms.assetid: 5750f2ad-a96f-4bc7-9a1f-354e279a7860
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: IEnroll4, IEnroll4 interface [Security], createFileRequestWStr method, IEnroll4::createFileRequestWStr, XECR_CMC, XECR_PKCS10_V1_5, XECR_PKCS10_V2_0, XECR_PKCS7, createFileRequestWStr method [Security], createFileRequestWStr method [Security], IEnroll4 interface, createFileRequestWStr,IEnroll4.createFileRequestWStr, security.ienroll4_createfilerequestwstr, xenroll/IEnroll4::createFileRequestWStr
 ms.prod: windows-hardware
 ms.technology: windows-devices

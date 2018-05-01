@@ -7,7 +7,7 @@ old-location: security\icenroll4_addcerttypetorequestex.htm
 old-project: SecCrypto
 ms.assetid: bde35e01-8b26-44f7-828e-e8313a2b5a12
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: CEnroll object [Security], addCertTypeToRequestEx method, ICEnroll4, ICEnroll4 interface [Security], addCertTypeToRequestEx method, ICEnroll4::addCertTypeToRequestEx, XECT_EXTENSION_V1, XECT_EXTENSION_V2, _xen_icenroll4_addcerttypetorequestex, addCertTypeToRequestEx method [Security], addCertTypeToRequestEx method [Security], CEnroll object, addCertTypeToRequestEx method [Security], ICEnroll4 interface, addCertTypeToRequestEx,ICEnroll4.addCertTypeToRequestEx, security.icenroll4_addcerttypetorequestex, xenroll/ICEnroll4::addCertTypeToRequestEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\idvb_eit_getrecordeventid.htm
 old-project: mstv
 ms.assetid: cfdaea8c-bcc9-4689-94b9-a651fdc06484
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetRecordEventId method [Microsoft TV Technologies], GetRecordEventId method [Microsoft TV Technologies], IDVB_EIT interface, GetRecordEventId,IDVB_EIT.GetRecordEventId, IDVB_EIT, IDVB_EIT interface [Microsoft TV Technologies], GetRecordEventId method, IDVB_EIT::GetRecordEventId, IDVB_EITGetRecordEventId, dvbsiparser/IDVB_EIT::GetRecordEventId, mstv.idvb_eit_getrecordeventid
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicpixelformatinfo2_supportstransparency.htm
 old-project: wic
 ms.assetid: 953cc1f0-28ee-4717-ac95-73ab39126b27
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: IWICPixelFormatInfo2, IWICPixelFormatInfo2 interface [Windows Imaging Component], SupportsTransparency method, IWICPixelFormatInfo2::SupportsTransparency, SupportsTransparency method [Windows Imaging Component], SupportsTransparency method [Windows Imaging Component], IWICPixelFormatInfo2 interface, SupportsTransparency,IWICPixelFormatInfo2.SupportsTransparency, _wic_codec_iwicpixelformatinfo2_supportstransparency, wic._wic_codec_iwicpixelformatinfo2_supportstransparency, wincodec/IWICPixelFormatInfo2::SupportsTransparency
 ms.prod: windows-hardware
 ms.technology: windows-devices

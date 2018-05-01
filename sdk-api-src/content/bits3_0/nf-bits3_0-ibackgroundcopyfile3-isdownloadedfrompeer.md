@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyfile3_isdownloadedfrompeer.htm
 old-project: Bits
 ms.assetid: b6084cfe-b3ab-4c9f-b335-2696e5839451
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/10/2018
 ms.keywords: IBackgroundCopyFile3, IBackgroundCopyFile3 interface [BITS], IsDownloadedFromPeer method, IBackgroundCopyFile3::IsDownloadedFromPeer, IsDownloadedFromPeer method [BITS], IsDownloadedFromPeer method [BITS], IBackgroundCopyFile3 interface, IsDownloadedFromPeer,IBackgroundCopyFile3.IsDownloadedFromPeer, bits.ibackgroundcopyfile3_isdownloadedfrompeer, bits3_0/IBackgroundCopyFile3::IsDownloadedFromPeer
 ms.prod: windows-hardware
 ms.technology: windows-devices

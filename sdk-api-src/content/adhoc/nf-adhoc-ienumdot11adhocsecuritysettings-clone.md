@@ -7,7 +7,7 @@ old-location: nwifi\ienumdot11adhocsecuritysettings_clone.htm
 old-project: NativeWiFi
 ms.assetid: 27ef4cab-9aa5-4aa2-9e2e-fb16aae99045
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/13/2018
 ms.keywords: Clone method [NativeWIFI], Clone method [NativeWIFI], IEnumDot11AdHocSecuritySettings interface, Clone,IEnumDot11AdHocSecuritySettings.Clone, IEnumDot11AdHocSecuritySettings, IEnumDot11AdHocSecuritySettings interface [NativeWIFI], Clone method, IEnumDot11AdHocSecuritySettings::Clone, adhoc/IEnumDot11AdHocSecuritySettings::Clone, nwifi.ienumdot11adhocsecuritysettings_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winauto\iaccessible_iaccessible__get_acckeyboardshortcut.htm
 old-project: WinAuto
 ms.assetid: 0d91c791-1e9b-45da-8fa6-b879ac6d11a7
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: IAccessible, IAccessible interface [Windows Accessibility], get_accKeyboardShortcut method, IAccessible::get_accKeyboardShortcut, _msaa_IAccessible_get_accKeyboardShortcut, get_accKeyboardShortcut method [Windows Accessibility], get_accKeyboardShortcut method [Windows Accessibility], IAccessible interface, get_accKeyboardShortcut,IAccessible.get_accKeyboardShortcut, msaa.iaccessible_iaccessible__get_acckeyboardshortcut, oleacc/IAccessible::get_accKeyboardShortcut, winauto.iaccessible_iaccessible__get_acckeyboardshortcut
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Oleacc.lib
 req.dll: Oleacc.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IAccessible::get_accKeyboardShortcut method

@@ -7,7 +7,7 @@ old-location: tapi3\ittapicallcenter_enumerateagenthandlers.htm
 old-project: Tapi
 ms.assetid: 5bd0a926-0d99-4efe-a995-28654c97c97a
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: EnumerateAgentHandlers method [TAPI 2.2], EnumerateAgentHandlers method [TAPI 2.2], ITTAPICallCenter interface, EnumerateAgentHandlers,ITTAPICallCenter.EnumerateAgentHandlers, ITTAPICallCenter, ITTAPICallCenter interface [TAPI 2.2], EnumerateAgentHandlers method, ITTAPICallCenter::EnumerateAgentHandlers, _tapi3_ittapicallcenter_enumerateagenthandlers, tapi3.ittapicallcenter_enumerateagenthandlers, tapi3cc/ITTAPICallCenter::EnumerateAgentHandlers
 ms.prod: windows-hardware
 ms.technology: windows-devices

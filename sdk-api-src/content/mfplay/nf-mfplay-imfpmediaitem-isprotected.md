@@ -7,7 +7,7 @@ old-location: mf\imfpmediaitem_isprotected.htm
 old-project: medfound
 ms.assetid: e4ae8b5e-7657-476c-83f9-c27de858e328
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: FALSE, IMFPMediaItem, IMFPMediaItem interface [Media Foundation], IsProtected method, IMFPMediaItem::IsProtected, IsProtected method [Media Foundation], IsProtected method [Media Foundation], IMFPMediaItem interface, IsProtected,IMFPMediaItem.IsProtected, TRUE, mf.imfpmediaitem_isprotected, mfplay/IMFPMediaItem::IsProtected
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_wicserializemetadatacontent.htm
 old-project: wic
 ms.assetid: 726b5e83-d5ab-4053-8f4c-34826fc0db55
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: WICSerializeMetadataContent, WICSerializeMetadataContent function [Windows Imaging Component], _wic_codec_wicserializemetadatacontent, wic._wic_codec_wicserializemetadatacontent, wincodecsdk/WICSerializeMetadataContent
 ms.prod: windows-hardware
 ms.technology: windows-devices

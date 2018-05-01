@@ -7,7 +7,7 @@ old-location: com\iolecontainer_enumobjects.htm
 old-project: com
 ms.assetid: 7d825c71-506c-4fd3-ab48-6006f2858d05
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: EnumObjects method [COM], EnumObjects method [COM], IOleContainer interface, EnumObjects,IOleContainer.EnumObjects, IOleContainer, IOleContainer interface [COM], EnumObjects method, IOleContainer::EnumObjects, _ole_iolecontainer_enumobjects, com.iolecontainer_enumobjects, oleidl/IOleContainer::EnumObjects
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IOleContainer::EnumObjects method

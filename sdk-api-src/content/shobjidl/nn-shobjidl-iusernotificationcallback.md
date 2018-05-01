@@ -7,7 +7,7 @@ old-location: shell\IUserNotificationCallback.htm
 old-project: shell
 ms.assetid: f746a4d4-8649-43a1-ac9b-773402dfb6c7
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IUserNotificationCallback, IUserNotificationCallback interface [Windows Shell], IUserNotificationCallback interface [Windows Shell], described, _shell_IUserNotificationCallback, shell.IUserNotificationCallback, shobjidl/IUserNotificationCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

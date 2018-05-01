@@ -7,7 +7,7 @@ old-location: intl\iimepadapplet.htm
 old-project: Intl
 ms.assetid: F3BC7176-9659-47B6-AFCA-049807394961
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/25/2018
 ms.keywords: IImePadApplet, IImePadApplet interface [Internationalization for Windows Applications], IImePadApplet interface [Internationalization for Windows Applications], described, imepad/IImePadApplet, intl.iimepadapplet
 ms.prod: windows-hardware
 ms.technology: windows-devices

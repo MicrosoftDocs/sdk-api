@@ -7,7 +7,7 @@ old-location: fwp\fwpmcalloutadd0_func.htm
 old-project: FWP
 ms.assetid: e4f79262-6345-49e9-a50c-9f8a82f2df0e
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: FwpmCalloutAdd0, FwpmCalloutAdd0 function [Filtering], fwp.fwpmcalloutadd0_func, fwpmu/FwpmCalloutAdd0
 ms.prod: windows-hardware
 ms.technology: windows-devices

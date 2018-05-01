@@ -7,7 +7,7 @@ old-location: wmi\wbem_compile_status_info.htm
 old-project: WmiSdk
 ms.assetid: 94B3516F-2DDA-4C93-B48E-67D7FE357F4E
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: WBEM_COMPILE_STATUS_INFO, WBEM_COMPILE_STATUS_INFO structure [Windows Management Instrumentation], tag_CompileStatusInfo, wbemcli/tag_CompileStatusInfo, wmi.wbem_compile_status_info
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: automat\varbstrfromr8.htm
 old-project: automat
 ms.assetid: e293c9ae-95bc-4b6e-9074-0277afb6b17c
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: LOCALE_NOUSEROVERRIDE, VarBstrFromR8, VarBstrFromR8 function [Automation], _oa96_VarBstrFromR8, automat.varbstrfromr8, oleauto/VarBstrFromR8
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # VarBstrFromR8 function

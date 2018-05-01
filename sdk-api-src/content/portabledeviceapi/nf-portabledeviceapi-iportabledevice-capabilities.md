@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledevice_capabilities.htm
 old-project: wpd_sdk
 ms.assetid: 3d44e488-1bef-4cdd-bb0b-2b8154deb19e
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/11/2018
 ms.keywords: Capabilities method [Windows Portable Devices SDK], Capabilities method [Windows Portable Devices SDK], IPortableDevice interface, Capabilities,IPortableDevice.Capabilities, IPortableDevice, IPortableDevice interface [Windows Portable Devices SDK], Capabilities method, IPortableDevice::Capabilities, IPortableDeviceCapabilities, portabledeviceapi/IPortableDevice::Capabilities, wpdsdk.iportabledevice_capabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: WPD_WHITE_BALANCE_SETTINGS
+req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: PortableDeviceGUIDs.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IPortableDevice::Capabilities method

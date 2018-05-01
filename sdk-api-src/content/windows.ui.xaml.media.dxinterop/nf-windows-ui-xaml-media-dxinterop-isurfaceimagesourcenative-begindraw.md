@@ -7,7 +7,7 @@ old-location: winrt\isurfaceimagesourcenative_begindraw.htm
 old-project: WinRT
 ms.assetid: 9F08AF78-AD8B-4AFC-ABFF-7006873FA506
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/24/2018
 ms.keywords: BeginDraw method [Windows Runtime], BeginDraw method [Windows Runtime], ISurfaceImageSourceNative interface, BeginDraw,ISurfaceImageSourceNative.BeginDraw, ISurfaceImageSourceNative, ISurfaceImageSourceNative interface [Windows Runtime], BeginDraw method, ISurfaceImageSourceNative::BeginDraw, windows/ISurfaceImageSourceNative::BeginDraw, winrt.isurfaceimagesourcenative_begindraw
 ms.prod: windows-hardware
 ms.technology: windows-devices

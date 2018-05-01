@@ -7,7 +7,7 @@ old-location: mf\imfattributes_getblob.htm
 old-project: medfound
 ms.assetid: 68528db7-90df-4abe-a957-ffb8c3f12cef
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 68528db7-90df-4abe-a957-ffb8c3f12cef, GetBlob method [Media Foundation], GetBlob method [Media Foundation], IMFAttributes interface, GetBlob,IMFAttributes.GetBlob, IMFAttributes, IMFAttributes interface [Media Foundation], GetBlob method, IMFAttributes::GetBlob, mf.imfattributes_getblob, mfobjects/IMFAttributes::GetBlob
 ms.prod: windows-hardware
 ms.technology: windows-devices

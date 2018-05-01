@@ -7,7 +7,7 @@ old-location: base\iswow64message.htm
 old-project: ProcThread
 ms.assetid: bc0ac424-3c5b-41bf-9dae-bcb405d5b548
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: IsWow64Message, IsWow64Message function, base.iswow64message, winuser/IsWow64Message
 ms.prod: windows-hardware
 ms.technology: windows-devices

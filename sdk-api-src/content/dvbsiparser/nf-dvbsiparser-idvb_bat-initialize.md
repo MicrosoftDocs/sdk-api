@@ -7,7 +7,7 @@ old-location: mstv\idvb_bat_initialize.htm
 old-project: mstv
 ms.assetid: 76c0eabe-b2af-44ed-9afb-9b97e7e8c5df
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IDVB_BAT, IDVB_BAT interface [Microsoft TV Technologies], Initialize method, IDVB_BAT::Initialize, IDVB_BATInitialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies], IDVB_BAT interface, Initialize,IDVB_BAT.Initialize, dvbsiparser/IDVB_BAT::Initialize, mstv.idvb_bat_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

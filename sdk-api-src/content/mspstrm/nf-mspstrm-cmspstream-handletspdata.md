@@ -7,7 +7,7 @@ old-location: tapi3\cmspstream_handletspdata.htm
 old-project: Tapi
 ms.assetid: 2b02690f-9821-488e-b061-916c6338e813
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: CMSPStream, CMSPStream interface [TAPI 2.2], HandleTSPData method, CMSPStream::HandleTSPData, HandleTSPData method [TAPI 2.2], HandleTSPData method [TAPI 2.2], CMSPStream interface, HandleTSPData,CMSPStream.HandleTSPData, _tapi3_cmspstream_handletspdata, mspstrm/CMSPStream::HandleTSPData, tapi3.cmspstream_handletspdata
 ms.prod: windows-hardware
 ms.technology: windows-devices

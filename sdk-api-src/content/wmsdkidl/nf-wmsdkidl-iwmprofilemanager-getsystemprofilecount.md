@@ -7,7 +7,7 @@ old-location: wmformat\iwmprofilemanager_getsystemprofilecount.htm
 old-project: wmformat
 ms.assetid: 895fa99d-66a5-4f5f-82ce-394264a945f7
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: GetSystemProfileCount method [windows Media Format], GetSystemProfileCount method [windows Media Format], IWMProfileManager interface, GetSystemProfileCount,IWMProfileManager.GetSystemProfileCount, IWMProfileManager, IWMProfileManager interface [windows Media Format], GetSystemProfileCount method, IWMProfileManager::GetSystemProfileCount, IWMProfileManagerGetSystemProfileCount, wmformat.iwmprofilemanager_getsystemprofilecount, wmsdkidl/IWMProfileManager::GetSystemProfileCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

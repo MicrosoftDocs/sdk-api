@@ -7,7 +7,7 @@ old-location: multimedia\iavistream_readformat.htm
 old-project: Multimedia
 ms.assetid: ec684a91-9a16-4e9d-9d52-8b721df24889
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/25/2018
 ms.keywords: IAVIStream, IAVIStream interface [Windows Multimedia], ReadFormat method, IAVIStream::ReadFormat, ReadFormat method [Windows Multimedia], ReadFormat method [Windows Multimedia], IAVIStream interface, ReadFormat,IAVIStream.ReadFormat, _win32_IAVIStream_ReadFormat, multimedia.iavistream_readformat, vfw/IAVIStream::ReadFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices

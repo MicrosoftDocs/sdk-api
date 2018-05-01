@@ -7,7 +7,7 @@ old-location: security\iidentitystore_addtocache.htm
 old-project: SecAuthN
 ms.assetid: 5ce977bc-41fa-4f80-bb82-76a8bdc40e7e
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/24/2018
 ms.keywords: AddToCache method [Security], AddToCache method [Security], IIdentityStore interface, AddToCache,IIdentityStore.AddToCache, IIdentityStore, IIdentityStore interface [Security], AddToCache method, IIdentityStore::AddToCache, identitystore/IIdentityStore::AddToCache, security.iidentitystore_addtocache
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winprog\ifhconfigmgr_provisionandsetnewtarget.htm
 old-project: DevNotes
 ms.assetid: 9C9FA696-CFB2-4814-96D5-2B9B6A2AB426
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/13/2018
 ms.keywords: FhConfigMgr class [Windows API], ProvisionAndSetNewTarget method, IFhConfigMgr, IFhConfigMgr interface [Windows API], ProvisionAndSetNewTarget method, IFhConfigMgr::ProvisionAndSetNewTarget, ProvisionAndSetNewTarget method [Windows API], ProvisionAndSetNewTarget method [Windows API], FhConfigMgr class, ProvisionAndSetNewTarget method [Windows API], IFhConfigMgr interface, ProvisionAndSetNewTarget,IFhConfigMgr.ProvisionAndSetNewTarget, fhcfg/IFhConfigMgr::ProvisionAndSetNewTarget, winprog.ifhconfigmgr_provisionandsetnewtarget
 ms.prod: windows-hardware
 ms.technology: windows-devices

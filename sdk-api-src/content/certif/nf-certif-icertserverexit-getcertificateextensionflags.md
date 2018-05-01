@@ -7,7 +7,7 @@ old-location: security\icertserverexit_getcertificateextensionflags.htm
 old-project: SecCrypto
 ms.assetid: 0eee1d67-116b-4f93-9273-b70d50fa2c5d
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: CCertServerExit object [Security], GetCertificateExtensionFlags method, GetCertificateExtensionFlags method [Security], GetCertificateExtensionFlags method [Security], CCertServerExit object, GetCertificateExtensionFlags method [Security], ICertServerExit interface, GetCertificateExtensionFlags,ICertServerExit.GetCertificateExtensionFlags, ICertServerExit, ICertServerExit interface [Security], GetCertificateExtensionFlags method, ICertServerExit::GetCertificateExtensionFlags, _certsrv_icertserverexit_getcertificateextensionflags, certif/ICertServerExit::GetCertificateExtensionFlags, security.icertserverexit_getcertificateextensionflags
 ms.prod: windows-hardware
 ms.technology: windows-devices

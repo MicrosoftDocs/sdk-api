@@ -7,7 +7,7 @@ old-location: nwifi\idot11adhocinterface_getienumsecuritysettings.htm
 old-project: NativeWiFi
 ms.assetid: e5f98222-83aa-4ba9-adc7-e7b67eb5dc0d
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/13/2018
 ms.keywords: GetIEnumSecuritySettings method [NativeWIFI], GetIEnumSecuritySettings method [NativeWIFI], IDot11AdHocInterface interface, GetIEnumSecuritySettings,IDot11AdHocInterface.GetIEnumSecuritySettings, IDot11AdHocInterface, IDot11AdHocInterface interface [NativeWIFI], GetIEnumSecuritySettings method, IDot11AdHocInterface::GetIEnumSecuritySettings, adhoc/IDot11AdHocInterface::GetIEnumSecuritySettings, nwifi.idot11adhocinterface_getienumsecuritysettings
 ms.prod: windows-hardware
 ms.technology: windows-devices

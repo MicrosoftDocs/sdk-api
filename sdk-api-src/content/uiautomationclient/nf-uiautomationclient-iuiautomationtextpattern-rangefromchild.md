@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationTextPattern_RangeFromChild.htm
 old-project: WinAuto
 ms.assetid: e75d21da-129f-4209-b51b-777ca5880946
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: IUIAutomationTextPattern, IUIAutomationTextPattern interface [Windows Accessibility], RangeFromChild method, IUIAutomationTextPattern::RangeFromChild, RangeFromChild method [Windows Accessibility], RangeFromChild method [Windows Accessibility], IUIAutomationTextPattern interface, RangeFromChild,IUIAutomationTextPattern.RangeFromChild, uiauto.uiauto_IUIAutomationTextPattern_RangeFromChild, uiauto_IUIAutomationTextPattern_RangeFromChild, uiautomationclient/IUIAutomationTextPattern::RangeFromChild, winauto.uiauto_IUIAutomationTextPattern_RangeFromChild
 ms.prod: windows-hardware
 ms.technology: windows-devices

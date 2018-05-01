@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationMultipleViewPattern_GetCachedSupported
 old-project: WinAuto
 ms.assetid: 7d6874c2-adf9-441a-931e-15b65b7a427c
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: GetCachedSupportedViews method [Windows Accessibility], GetCachedSupportedViews method [Windows Accessibility], IUIAutomationMultipleViewPattern interface, GetCachedSupportedViews,IUIAutomationMultipleViewPattern.GetCachedSupportedViews, IUIAutomationMultipleViewPattern, IUIAutomationMultipleViewPattern interface [Windows Accessibility], GetCachedSupportedViews method, IUIAutomationMultipleViewPattern::GetCachedSupportedViews, uiauto.uiauto_IUIAutomationMultipleViewPattern_GetCachedSupportedViews, uiauto_IUIAutomationMultipleViewPattern_GetCachedSupportedViews, uiautomationclient/IUIAutomationMultipleViewPattern::GetCachedSupportedViews, winauto.uiauto_IUIAutomationMultipleViewPattern_GetCachedSupportedViews
 ms.prod: windows-hardware
 ms.technology: windows-devices

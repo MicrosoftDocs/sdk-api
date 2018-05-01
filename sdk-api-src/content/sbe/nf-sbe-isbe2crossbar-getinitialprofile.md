@@ -7,7 +7,7 @@ old-location: mstv\isbe2crossbar_getinitialprofile.htm
 old-project: mstv
 ms.assetid: 6a4bec40-2c6d-49fb-8977-3c3db2b2b4df
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetInitialProfile method [Microsoft TV Technologies], GetInitialProfile method [Microsoft TV Technologies], ISBE2Crossbar interface, GetInitialProfile,ISBE2Crossbar.GetInitialProfile, ISBE2Crossbar, ISBE2Crossbar interface [Microsoft TV Technologies], GetInitialProfile method, ISBE2Crossbar::GetInitialProfile, mstv.isbe2crossbar_getinitialprofile, sbe/ISBE2Crossbar::GetInitialProfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ISBE2Crossbar::GetInitialProfile method

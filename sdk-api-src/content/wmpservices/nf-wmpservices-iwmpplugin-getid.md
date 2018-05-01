@@ -7,7 +7,7 @@ old-location: wmp\iwmpplugin_getid.htm
 old-project: WMP
 ms.assetid: 883b6e19-5d1a-4ad9-882b-953772e8e11a
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: GetID method [Windows Media Player], GetID method [Windows Media Player], IWMPPlugin interface, GetID,IWMPPlugin.GetID, IWMPPlugin, IWMPPlugin interface [Windows Media Player], GetID method, IWMPPlugin::GetID, IWMPPluginGetIDDSP, wmp.iwmpplugin_getid, wmpservices/IWMPPlugin::GetID
 ms.prod: windows-hardware
 ms.technology: windows-devices

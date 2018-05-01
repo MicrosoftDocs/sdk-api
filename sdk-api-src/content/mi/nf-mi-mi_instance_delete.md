@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_instance_delete.htm
 old-project: wmi_v2
 ms.assetid: 6370e464-b262-4c91-a3c8-889911df7965
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/18/2018
 ms.keywords: MI_Instance_Delete, MI_Instance_Delete function [Windows Management Infrastructure (MI)], mi/MI_Instance_Delete, wmi_v2.mi_instance_delete
 ms.prod: windows-hardware
 ms.technology: windows-devices

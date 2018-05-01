@@ -7,7 +7,7 @@ old-location: dshow\ivideoprocamp_getrange_colorenable.htm
 old-project: DirectShow
 ms.assetid: d9041f2a-cf38-419b-be8f-a55599b9a1d9
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IVideoProcAmp, IVideoProcAmp interface [DirectShow], getRange_ColorEnable method, IVideoProcAmp::getRange_ColorEnable, IVideoProcAmpgetRange_ColorEnable, dshow.ivideoprocamp_getrange_colorenable, getRange_ColorEnable method [DirectShow], getRange_ColorEnable method [DirectShow], IVideoProcAmp interface, getRange_ColorEnable,IVideoProcAmp.getRange_ColorEnable, vidcap/IVideoProcAmp::getRange_ColorEnable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: VIDEOHDR, *PVIDEOHDR, *LPVIDEOHDR
+req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
 topic_type:
 -	APIRef
 -	kbSyntax

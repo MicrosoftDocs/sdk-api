@@ -7,7 +7,7 @@ old-location: security\ix509attributes_add_method.htm
 old-project: SecCertEnroll
 ms.assetid: 769293d8-0ae0-419f-9399-3c501d700251
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: Add method [Security], Add method [Security], IX509Attributes interface, Add,IX509Attributes.Add, IX509Attributes, IX509Attributes interface [Security], Add method, IX509Attributes::Add, certenroll/IX509Attributes::Add, security.ix509attributes_add_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

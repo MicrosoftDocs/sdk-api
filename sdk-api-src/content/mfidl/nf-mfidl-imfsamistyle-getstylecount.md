@@ -7,7 +7,7 @@ old-location: mf\imfsamistyle_getstylecount.htm
 old-project: medfound
 ms.assetid: 161cd457-9fab-4ebb-b8b8-f87326d67c66
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 161cd457-9fab-4ebb-b8b8-f87326d67c66, GetStyleCount method [Media Foundation], GetStyleCount method [Media Foundation], IMFSAMIStyle interface, GetStyleCount,IMFSAMIStyle.GetStyleCount, IMFSAMIStyle, IMFSAMIStyle interface [Media Foundation], GetStyleCount method, IMFSAMIStyle::GetStyleCount, mf.imfsamistyle_getstylecount, mfidl/IMFSAMIStyle::GetStyleCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

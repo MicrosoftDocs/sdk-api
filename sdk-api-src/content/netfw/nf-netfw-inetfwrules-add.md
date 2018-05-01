@@ -7,7 +7,7 @@ old-location: ics\inetfwrules_add.htm
 old-project: ICS
 ms.assetid: c81bdf56-df71-425a-93d2-1fbae5ab536e
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: Add method [ICS/ICF], Add method [ICS/ICF], INetFwRules interface, Add,INetFwRules.Add, INetFwRules, INetFwRules interface [ICS/ICF], Add method, INetFwRules::Add, ics.inetfwrules_add, netfw/INetFwRules::Add
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: FirewallAPI.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # INetFwRules::Add method

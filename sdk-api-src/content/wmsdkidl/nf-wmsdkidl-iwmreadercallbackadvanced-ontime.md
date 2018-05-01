@@ -7,7 +7,7 @@ old-location: wmformat\iwmreadercallbackadvanced_ontime.htm
 old-project: wmformat
 ms.assetid: 9913bbc4-df59-484f-b050-324e2ecdeb1c
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMReaderCallbackAdvanced, IWMReaderCallbackAdvanced interface [windows Media Format], OnTime method, IWMReaderCallbackAdvanced::OnTime, IWMReaderCallbackAdvancedOnTime, OnTime method [windows Media Format], OnTime method [windows Media Format], IWMReaderCallbackAdvanced interface, OnTime,IWMReaderCallbackAdvanced.OnTime, wmformat.iwmreadercallbackadvanced_ontime, wmsdkidl/IWMReaderCallbackAdvanced::OnTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

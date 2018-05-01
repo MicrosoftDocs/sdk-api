@@ -7,7 +7,7 @@ old-location: mf\imfpmediaplayer_getnativevideosize.htm
 old-project: medfound
 ms.assetid: 6f0f09fb-d41c-4662-a20c-2a1d04b39df5
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetNativeVideoSize method [Media Foundation], GetNativeVideoSize method [Media Foundation], IMFPMediaPlayer interface, GetNativeVideoSize,IMFPMediaPlayer.GetNativeVideoSize, IMFPMediaPlayer, IMFPMediaPlayer interface [Media Foundation], GetNativeVideoSize method, IMFPMediaPlayer::GetNativeVideoSize, mf.imfpmediaplayer_getnativevideosize, mfplay/IMFPMediaPlayer::GetNativeVideoSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

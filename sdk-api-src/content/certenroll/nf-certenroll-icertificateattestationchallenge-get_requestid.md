@@ -7,7 +7,7 @@ old-location: security\icertificateattestationchallenge_requestid.htm
 old-project: SecCertEnroll
 ms.assetid: c3ca69cf-12e0-4341-b3a6-f668155ea3ff
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: ICertificateAttestationChallenge, ICertificateAttestationChallenge interface [Security], RequestID property, ICertificateAttestationChallenge.RequestID, ICertificateAttestationChallenge::get_RequestID, RequestID property [Security], RequestID property [Security], ICertificateAttestationChallenge interface, certenroll/ICertificateAttestationChallenge::RequestID, certenroll/ICertificateAttestationChallenge::get_RequestID, get_RequestID,ICertificateAttestationChallenge.get_RequestID, security.icertificateattestationchallenge_requestid
 ms.prod: windows-hardware
 ms.technology: windows-devices

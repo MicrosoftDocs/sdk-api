@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationTextPattern_GetSelection.htm
 old-project: WinAuto
 ms.assetid: 2aca7414-afb2-402d-80cf-d7ce3e719b20
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: GetSelection method [Windows Accessibility], GetSelection method [Windows Accessibility], IUIAutomationTextPattern interface, GetSelection,IUIAutomationTextPattern.GetSelection, IUIAutomationTextPattern, IUIAutomationTextPattern interface [Windows Accessibility], GetSelection method, IUIAutomationTextPattern::GetSelection, uiauto.uiauto_IUIAutomationTextPattern_GetSelection, uiauto_IUIAutomationTextPattern_GetSelection, uiautomationclient/IUIAutomationTextPattern::GetSelection, winauto.uiauto_IUIAutomationTextPattern_GetSelection
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmp\iwmpcdromburn_erase.htm
 old-project: WMP
 ms.assetid: 93a37f59-4269-4f84-93dc-8350aabd4ebe
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPCdromBurn, IWMPCdromBurn interface [Windows Media Player], erase method, IWMPCdromBurn::erase, IWMPCdromBurnerase, erase method [Windows Media Player], erase method [Windows Media Player], IWMPCdromBurn interface, erase,IWMPCdromBurn.erase, wmp.iwmpcdromburn_erase, wmp/IWMPCdromBurn::erase
 ms.prod: windows-hardware
 ms.technology: windows-devices

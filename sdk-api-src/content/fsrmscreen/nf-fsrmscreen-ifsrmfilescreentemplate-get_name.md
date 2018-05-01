@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmfilescreentemplate_name.htm
 old-project: Fsrm
 ms.assetid: b72309d1-8b8e-46bc-bca4-e6e47dae88e8
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: IFsrmFileScreenTemplate, IFsrmFileScreenTemplate interface [File Server Resource Manager], Name property, IFsrmFileScreenTemplate.Name, IFsrmFileScreenTemplate::get_Name, IFsrmFileScreenTemplate::put_Name, Name property [File Server Resource Manager], Name property [File Server Resource Manager], IFsrmFileScreenTemplate interface, fs.ifsrmfilescreentemplate_name, fsrm.ifsrmfilescreentemplate_name, fsrmscreen/IFsrmFileScreenTemplate::Name, fsrmscreen/IFsrmFileScreenTemplate::get_Name, fsrmscreen/IFsrmFileScreenTemplate::put_Name, get_Name,IFsrmFileScreenTemplate.get_Name
 ms.prod: windows-hardware
 ms.technology: windows-devices

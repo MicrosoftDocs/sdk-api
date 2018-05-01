@@ -7,7 +7,7 @@ old-location: direct2d\d2d1_emboss_prop.htm
 old-project: Direct2D
 ms.assetid: 1AC8F0FE-8D51-4DDD-94FB-DC7AC890C95F
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: D2D1_EMBOSS_PROP, D2D1_EMBOSS_PROP enumeration [Direct2D], D2D1_EMBOSS_PROP_DIRECTION, D2D1_EMBOSS_PROP_HEIGHT, d2d1effects_2/D2D1_EMBOSS_PROP, d2d1effects_2/D2D1_EMBOSS_PROP_DIRECTION, d2d1effects_2/D2D1_EMBOSS_PROP_HEIGHT, direct2d.d2d1_emboss_prop
 ms.prod: windows-hardware
 ms.technology: windows-devices

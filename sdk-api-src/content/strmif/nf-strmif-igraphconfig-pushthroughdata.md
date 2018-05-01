@@ -7,7 +7,7 @@ old-location: dshow\igraphconfig_pushthroughdata.htm
 old-project: DirectShow
 ms.assetid: f3d72a32-f43a-4a61-b25e-6d472aa629de
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IGraphConfig, IGraphConfig interface [DirectShow], PushThroughData method, IGraphConfig::PushThroughData, IGraphConfigPushThroughData, PushThroughData method [DirectShow], PushThroughData method [DirectShow], IGraphConfig interface, PushThroughData,IGraphConfig.PushThroughData, dshow.igraphconfig_pushthroughdata, strmif/IGraphConfig::PushThroughData
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: cos\icatalogobject_ispropertyreadonly.htm
 old-project: cossdk
 ms.assetid: bd088794-1245-4cb8-a1f7-385354640675
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: ICatalogObject, ICatalogObject interface [COM+], IsPropertyReadOnly method, ICatalogObject::IsPropertyReadOnly, IsPropertyReadOnly method [COM+], IsPropertyReadOnly method [COM+], ICatalogObject interface, IsPropertyReadOnly,ICatalogObject.IsPropertyReadOnly, _cos_ICatalogObject_IsPropertyReadOnly, comadmin/ICatalogObject::IsPropertyReadOnly, cos.icatalogobject_ispropertyreadonly
 ms.prod: windows-hardware
 ms.technology: windows-devices

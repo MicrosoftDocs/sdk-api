@@ -7,7 +7,7 @@ old-location: tmg\http_filter_preproc_headers.htm
 old-project: TMG
 ms.assetid: 2d12de6e-df42-4bde-882e-d23ed50cc9b8
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/3/2018
 ms.keywords: "*PHTTP_FILTER_PREPROC_HEADERS, *PHTTP_FILTER_SEND_RESPONSE, HTTP_FILTER_PREPROC_HEADERS, HTTP_FILTER_PREPROC_HEADERS structure [Forefront TMG], HTTP_FILTER_SEND_RESPONSE, PHTTP_FILTER_PREPROC_HEADERS, PHTTP_FILTER_PREPROC_HEADERS structure pointer [Forefront TMG], _HTTP_FILTER_PREPROC_HEADERS, httpfilt/HTTP_FILTER_PREPROC_HEADERS, httpfilt/PHTTP_FILTER_PREPROC_HEADERS, tmg.http_filter_preproc_headers"
 ms.prod: windows-hardware
 ms.technology: windows-devices

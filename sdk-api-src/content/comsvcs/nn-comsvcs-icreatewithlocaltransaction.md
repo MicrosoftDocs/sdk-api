@@ -7,7 +7,7 @@ old-location: cos\icreatewithlocaltransaction.htm
 old-project: cossdk
 ms.assetid: 667ebc77-943c-4cf0-90b4-7c28949f406e
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: ICreateWithLocalTransaction, ICreateWithLocalTransaction interface [COM+], ICreateWithLocalTransaction interface [COM+], described, comsvcs/ICreateWithLocalTransaction, cos.icreatewithlocaltransaction
 ms.prod: windows-hardware
 ms.technology: windows-devices

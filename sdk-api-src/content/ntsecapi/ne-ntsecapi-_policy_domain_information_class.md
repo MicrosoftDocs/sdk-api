@@ -7,7 +7,7 @@ old-location: security\policy_domain_information_class.htm
 old-project: SecAuthN
 ms.assetid: b208c479-a262-4120-824f-677ead1ef61a
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/24/2018
 ms.keywords: "*PPOLICY_DOMAIN_INFORMATION_CLASS, POLICY_DOMAIN_INFORMATION_CLASS, POLICY_DOMAIN_INFORMATION_CLASS enumeration [Security], PPOLICY_DOMAIN_INFORMATION_CLASS, PPOLICY_DOMAIN_INFORMATION_CLASS enumeration pointer [Security], PolicyDomainEfsInformation, PolicyDomainKerberosTicketInformation, _POLICY_DOMAIN_INFORMATION_CLASS, ntsecapi/POLICY_DOMAIN_INFORMATION_CLASS, ntsecapi/PPOLICY_DOMAIN_INFORMATION_CLASS, ntsecapi/PolicyDomainEfsInformation, ntsecapi/PolicyDomainKerberosTicketInformation, security.policy_domain_information_class"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _POLICY_DOMAIN_INFORMATION_CLASS enumeration

@@ -7,7 +7,7 @@ old-location: com\oletranslatecolor.htm
 old-project: com
 ms.assetid: f4b407c3-e88a-47b4-bb43-8f691629d2f3
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: OleTranslateColor, OleTranslateColor function [COM], _ctrl_OleTranslateColor, com.oletranslatecolor, olectl/OleTranslateColor
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # OleTranslateColor function
@@ -121,7 +121,7 @@ The following table describes the color conversion.
 </td>
 </tr>
 <tr>
-<td>0x800000xx, xx is not a valid <a href="https://msdn.microsoft.com/165c1781-161e-4ab2-98c9-eec4e9098d09">GetSysColor</a> index
+<td>0x800000xx, xx is not a valid <a href="base.getsyscolor">GetSysColor</a> index
 </td>
 <td></td>
 <td>Undefined (E_INVALIDARG)
@@ -144,7 +144,7 @@ The following table describes the color conversion.
 </td>
 </tr>
 <tr>
-<td>0x800000xx, xx is a valid <a href="https://msdn.microsoft.com/165c1781-161e-4ab2-98c9-eec4e9098d09">GetSysColor</a> index
+<td>0x800000xx, xx is a valid <a href="base.getsyscolor">GetSysColor</a> index
 </td>
 <td><b>NULL</b></td>
 <td>0x00bbggrr
@@ -172,7 +172,7 @@ The following table describes the color conversion.
 </td>
 </tr>
 <tr>
-<td>0x800000xx, xx is a valid <a href="https://msdn.microsoft.com/165c1781-161e-4ab2-98c9-eec4e9098d09">GetSysColor</a> index
+<td>0x800000xx, xx is a valid <a href="base.getsyscolor">GetSysColor</a> index
 </td>
 <td>valid palette
 </td>

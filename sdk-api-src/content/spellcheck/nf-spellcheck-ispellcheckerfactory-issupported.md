@@ -7,7 +7,7 @@ old-location: intl\ispellcheckerfactory_issupported.htm
 old-project: Intl
 ms.assetid: eb21850d-d490-4055-8910-70f9c0090f59
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/25/2018
 ms.keywords: ISpellCheckerFactory, ISpellCheckerFactory interface [Internationalization for Windows Applications], IsSupported method, ISpellCheckerFactory::IsSupported, IsSupported method [Internationalization for Windows Applications], IsSupported method [Internationalization for Windows Applications], ISpellCheckerFactory interface, IsSupported,ISpellCheckerFactory.IsSupported, intl.ispellcheckerfactory_issupported, spellcheck/ISpellCheckerFactory::IsSupported
 ms.prod: windows-hardware
 ms.technology: windows-devices

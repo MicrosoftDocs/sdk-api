@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontrols_play.htm
 old-project: WMP
 ms.assetid: 45b5634b-6d23-4e61-90e4-ef0cc9d90a14
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPControls, IWMPControls interface [Windows Media Player], play method, IWMPControls::play, IWMPControlsplay, play method [Windows Media Player], play method [Windows Media Player], IWMPControls interface, play,IWMPControls.play, wmp.iwmpcontrols_play, wmp/IWMPControls::play
 ms.prod: windows-hardware
 ms.technology: windows-devices

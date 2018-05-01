@@ -7,7 +7,7 @@ old-location: security\cryptxmldlldigestdata.htm
 old-project: SecCrypto
 ms.assetid: b18a6e96-f5ed-4e48-af8c-4599c1864bf4
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: CryptXmlDllDigestData, CryptXmlDllDigestData function pointer [Security], cryptxml/CryptXmlDllDigestData, security.cryptxmldlldigestdata
 ms.prod: windows-hardware
 ms.technology: windows-devices

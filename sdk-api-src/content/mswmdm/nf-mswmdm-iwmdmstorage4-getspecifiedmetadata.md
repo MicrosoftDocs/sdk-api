@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmstorage4_getspecifiedmetadata.htm
 old-project: WMDM
 ms.assetid: c4e2c889-9ad0-42d1-bb50-4ebcb9859715
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: GetSpecifiedMetadata method [windows Media Device Manager], GetSpecifiedMetadata method [windows Media Device Manager], IWMDMStorage4 interface, GetSpecifiedMetadata,IWMDMStorage4.GetSpecifiedMetadata, IWMDMStorage4, IWMDMStorage4 interface [windows Media Device Manager], GetSpecifiedMetadata method, IWMDMStorage4::GetSpecifiedMetadata, IWMDMStorage4GetSpecifiedMetadata, mswmdm/IWMDMStorage4::GetSpecifiedMetadata, wmdm.iwmdmstorage4_getspecifiedmetadata
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IWMDMStorage4::GetSpecifiedMetadata method

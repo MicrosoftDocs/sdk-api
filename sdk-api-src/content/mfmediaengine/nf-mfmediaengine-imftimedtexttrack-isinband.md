@@ -7,7 +7,7 @@ old-location: mf\imftimedtexttrack_isinband.htm
 old-project: medfound
 ms.assetid: 02B69F41-313A-4792-BB0C-D14A02738002
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFTimedTextTrack, IMFTimedTextTrack interface [Media Foundation], IsInBand method, IMFTimedTextTrack::IsInBand, IsInBand method [Media Foundation], IsInBand method [Media Foundation], IMFTimedTextTrack interface, IsInBand,IMFTimedTextTrack.IsInBand, mf.imftimedtexttrack_isinband, mfmediaengine/IMFTimedTextTrack::IsInBand
 ms.prod: windows-hardware
 ms.technology: windows-devices

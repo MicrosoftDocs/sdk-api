@@ -7,7 +7,7 @@ old-location: dshow\ivideoprocamp_get_hue.htm
 old-project: DirectShow
 ms.assetid: dfdd44b5-fd39-40da-95b8-9008aef10f9a
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IVideoProcAmp, IVideoProcAmp interface [DirectShow], get_Hue method, IVideoProcAmp::get_Hue, IVideoProcAmpget_Hue, dshow.ivideoprocamp_get_hue, get_Hue method [DirectShow], get_Hue method [DirectShow], IVideoProcAmp interface, get_Hue,IVideoProcAmp.get_Hue, vidcap/IVideoProcAmp::get_Hue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: VIDEOHDR, *PVIDEOHDR, *LPVIDEOHDR
+req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
 topic_type:
 -	APIRef
 -	kbSyntax

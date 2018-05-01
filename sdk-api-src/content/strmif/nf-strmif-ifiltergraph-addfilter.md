@@ -7,7 +7,7 @@ old-location: dshow\ifiltergraph_addfilter.htm
 old-project: DirectShow
 ms.assetid: 8f837917-015f-427f-b234-b0ccbcf943eb
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: AddFilter method [DirectShow], AddFilter method [DirectShow], IFilterGraph interface, AddFilter,IFilterGraph.AddFilter, IFilterGraph, IFilterGraph interface [DirectShow], AddFilter method, IFilterGraph::AddFilter, IFilterGraphAddFilter, dshow.ifiltergraph_addfilter, strmif/IFilterGraph::AddFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices

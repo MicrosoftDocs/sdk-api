@@ -7,7 +7,7 @@ old-location: security\iazclientcontext2_addroles.htm
 old-project: SecAuthZ
 ms.assetid: fa81e935-1207-44dd-85cb-215f754575fe
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: AddRoles method [Security], AddRoles method [Security], IAzClientContext2 interface, AddRoles,IAzClientContext2.AddRoles, IAzClientContext2, IAzClientContext2 interface [Security], AddRoles method, IAzClientContext2::AddRoles, azroles/IAzClientContext2::AddRoles, security.iazclientcontext2_addroles
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\ivideoprocamp_get_gain.htm
 old-project: DirectShow
 ms.assetid: 36d84db9-4a53-4087-b389-e707ed3d5572
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IVideoProcAmp, IVideoProcAmp interface [DirectShow], get_Gain method, IVideoProcAmp::get_Gain, IVideoProcAmpget_Gain, dshow.ivideoprocamp_get_gain, get_Gain method [DirectShow], get_Gain method [DirectShow], IVideoProcAmp interface, get_Gain,IVideoProcAmp.get_Gain, vidcap/IVideoProcAmp::get_Gain
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: VIDEOHDR, *PVIDEOHDR, *LPVIDEOHDR
+req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
 topic_type:
 -	APIRef
 -	kbSyntax

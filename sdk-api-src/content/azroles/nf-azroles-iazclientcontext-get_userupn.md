@@ -7,7 +7,7 @@ old-location: security\iazclientcontext_userupn.htm
 old-project: SecAuthZ
 ms.assetid: e54d450b-7059-43c7-9c08-688975031401
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: AzClientContext object [Security], UserUpn property, IAzClientContext, IAzClientContext interface [Security], UserUpn property, IAzClientContext.UserUpn, IAzClientContext::get_UserUpn, UserUpn property [Security], UserUpn property [Security], AzClientContext object, UserUpn property [Security], IAzClientContext interface, azroles/IAzClientContext::UserUpn, azroles/IAzClientContext::get_UserUpn, get_UserUpn,IAzClientContext.get_UserUpn, security.iazclientcontext_userupn
 ms.prod: windows-hardware
 ms.technology: windows-devices

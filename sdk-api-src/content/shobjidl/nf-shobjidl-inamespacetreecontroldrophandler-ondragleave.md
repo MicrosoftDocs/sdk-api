@@ -7,7 +7,7 @@ old-location: shell\INameSpaceTreeControlDropHandler_OnDragLeave.htm
 old-project: shell
 ms.assetid: b5c67541-dcc2-412f-84aa-df0b0d135597
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: INameSpaceTreeControlDropHandler, INameSpaceTreeControlDropHandler interface [Windows Shell], OnDragLeave method, INameSpaceTreeControlDropHandler::OnDragLeave, OnDragLeave method [Windows Shell], OnDragLeave method [Windows Shell], INameSpaceTreeControlDropHandler interface, OnDragLeave,INameSpaceTreeControlDropHandler.OnDragLeave, _shell_INameSpaceTreeControlDropHandler_OnDragLeave, shell.INameSpaceTreeControlDropHandler_OnDragLeave, shobjidl/INameSpaceTreeControlDropHandler::OnDragLeave
 ms.prod: windows-hardware
 ms.technology: windows-devices

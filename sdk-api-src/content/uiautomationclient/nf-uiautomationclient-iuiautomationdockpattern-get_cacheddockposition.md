@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationDockPattern_CachedDockPosition.htm
 old-project: WinAuto
 ms.assetid: 351fbcaf-161e-4d1c-a06b-7df92d6c44d9
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: CachedDockPosition property [Windows Accessibility], CachedDockPosition property [Windows Accessibility], IUIAutomationDockPattern interface, IUIAutomationDockPattern, IUIAutomationDockPattern interface [Windows Accessibility], CachedDockPosition property, IUIAutomationDockPattern.CachedDockPosition, IUIAutomationDockPattern::get_CachedDockPosition, get_CachedDockPosition,IUIAutomationDockPattern.get_CachedDockPosition, uiauto.uiauto_IUIAutomationDockPattern_CachedDockPosition, uiauto_IUIAutomationDockPattern_CachedDockPosition, uiautomationclient/IUIAutomationDockPattern::CachedDockPosition, uiautomationclient/IUIAutomationDockPattern::get_CachedDockPosition, winauto.uiauto_IUIAutomationDockPattern_CachedDockPosition
 ms.prod: windows-hardware
 ms.technology: windows-devices

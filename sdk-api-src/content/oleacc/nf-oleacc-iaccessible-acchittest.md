@@ -7,7 +7,7 @@ old-location: winauto\iaccessible_iaccessible__acchittest.htm
 old-project: WinAuto
 ms.assetid: 87327086-a8f3-4d1c-ab4d-8f5aba00c61a
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: IAccessible, IAccessible interface [Windows Accessibility], accHitTest method, IAccessible::accHitTest, _msaa_IAccessible_accHitTest, accHitTest method [Windows Accessibility], accHitTest method [Windows Accessibility], IAccessible interface, accHitTest,IAccessible.accHitTest, msaa.iaccessible_iaccessible__acchittest, oleacc/IAccessible::accHitTest, winauto.iaccessible_iaccessible__acchittest
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Oleacc.lib
 req.dll: Oleacc.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IAccessible::accHitTest method

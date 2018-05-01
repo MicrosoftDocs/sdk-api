@@ -59,6 +59,42 @@ Contains virtual hard disk (VHD) creation parameters, providing control over, an
 
 
 
+### -field Version
+
+A value from the <a href="https://msdn.microsoft.com/8a9f186a-88aa-43dc-97e0-2ffa43d7ffe5">CREATE_VIRTUAL_DISK_VERSION</a> 
+      enumeration that is the discriminant for the union.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="CREATE_VIRTUAL_DISK_VERSION_1"></a><a id="create_virtual_disk_version_1"></a><dl>
+<dt><b>CREATE_VIRTUAL_DISK_VERSION_1</b></dt>
+<dt>1</dt>
+</dl>
+</td>
+<td width="60%">
+Use the <b>Version1</b> member of this structure.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="CREATE_VIRTUAL_DISK_VERSION_2"></a><a id="create_virtual_disk_version_2"></a><dl>
+<dt><b>CREATE_VIRTUAL_DISK_VERSION_2</b></dt>
+<dt>2</dt>
+</dl>
+</td>
+<td width="60%">
+Use the <b>Version2</b> member of this structure.
+
+</td>
+</tr>
+</table>
+ 
+
+
 ### -field Version1
 
 This structure is used if the <b>Version</b> member is 
@@ -450,40 +486,6 @@ Resiliency <b>GUID</b> for the file.
  
 
 
-### -field Version
-
-A value from the <a href="https://msdn.microsoft.com/8a9f186a-88aa-43dc-97e0-2ffa43d7ffe5">CREATE_VIRTUAL_DISK_VERSION</a> 
-      enumeration that is the discriminant for the union.
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="CREATE_VIRTUAL_DISK_VERSION_1"></a><a id="create_virtual_disk_version_1"></a><dl>
-<dt><b>CREATE_VIRTUAL_DISK_VERSION_1</b></dt>
-<dt>1</dt>
-</dl>
-</td>
-<td width="60%">
-Use the <b>Version1</b> member of this structure.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="CREATE_VIRTUAL_DISK_VERSION_2"></a><a id="create_virtual_disk_version_2"></a><dl>
-<dt><b>CREATE_VIRTUAL_DISK_VERSION_2</b></dt>
-<dt>2</dt>
-</dl>
-</td>
-<td width="60%">
-Use the <b>Version2</b> member of this structure.
-
-</td>
-</tr>
-</table>
- 
 
 
 ## -see-also

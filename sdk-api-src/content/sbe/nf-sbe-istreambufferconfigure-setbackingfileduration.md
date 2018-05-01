@@ -7,7 +7,7 @@ old-location: mstv\istreambufferconfigure_setbackingfileduration.htm
 old-project: mstv
 ms.assetid: 1825896e-0e3c-4b89-8e0e-59faa0f8000d
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IStreamBufferConfigure, IStreamBufferConfigure interface [Microsoft TV Technologies], SetBackingFileDuration method, IStreamBufferConfigure::SetBackingFileDuration, IStreamBufferConfigureSetBackingFileDuration, SetBackingFileDuration method [Microsoft TV Technologies], SetBackingFileDuration method [Microsoft TV Technologies], IStreamBufferConfigure interface, SetBackingFileDuration,IStreamBufferConfigure.SetBackingFileDuration, mstv.istreambufferconfigure_setbackingfileduration, sbe/IStreamBufferConfigure::SetBackingFileDuration
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IStreamBufferConfigure::SetBackingFileDuration method

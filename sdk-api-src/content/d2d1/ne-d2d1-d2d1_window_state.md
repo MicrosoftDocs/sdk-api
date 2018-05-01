@@ -7,7 +7,7 @@ old-location: direct2d\D2D1_WINDOW_STATE.htm
 old-project: Direct2D
 ms.assetid: 79d3a903-f29e-4d0d-9918-85fbfc846517
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: D2D1_WINDOW_STATE, D2D1_WINDOW_STATE enumeration [Direct2D], D2D1_WINDOW_STATE_NONE, D2D1_WINDOW_STATE_OCCLUDED, d2d1/D2D1_WINDOW_STATE, d2d1/D2D1_WINDOW_STATE_NONE, d2d1/D2D1_WINDOW_STATE_OCCLUDED, direct2d.D2D1_WINDOW_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices

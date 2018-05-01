@@ -7,7 +7,7 @@ old-location: rras\mprconfigfiltersetinfo.htm
 old-project: RRAS
 ms.assetid: 278cf536-3aed-4384-a9d8-ab8786a5cb1e
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: MprConfigFilterSetInfo, MprConfigFilterSetInfo function [RAS], mprapi/MprConfigFilterSetInfo, rras.mprconfigfiltersetinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

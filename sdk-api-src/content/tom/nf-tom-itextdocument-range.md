@@ -7,7 +7,7 @@ old-location: controls\ITextDocument_Range.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\range.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextDocument, ITextDocument interface [Windows Controls], Range method, ITextDocument::Range, Range method [Windows Controls], Range method [Windows Controls], ITextDocument interface, Range,ITextDocument.Range, _win32_ITextDocument_Range, _win32_ITextDocument_Range_cpp, controls.ITextDocument_Range, controls._win32_ITextDocument_Range, tom/ITextDocument::Range
 ms.prod: windows-hardware
 ms.technology: windows-devices

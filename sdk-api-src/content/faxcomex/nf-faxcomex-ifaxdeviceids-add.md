@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxdeviceids_add_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_4g2s.htm
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/18/2018
 ms.keywords: Add method [Fax Service], Add method [Fax Service], FaxDeviceIds object, Add,IFaxDeviceIds.Add, FaxDeviceIds object [Fax Service], Add method, IFaxDeviceIds, IFaxDeviceIds::Add, _mfax_faxdeviceids.add, fax._mfax_faxdeviceids_add, fax._mfax_faxdeviceids_add_vb
 ms.prod: windows-hardware
 ms.technology: windows-devices

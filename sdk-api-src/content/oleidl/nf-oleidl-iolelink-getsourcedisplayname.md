@@ -7,7 +7,7 @@ old-location: com\iolelink_getsourcedisplayname.htm
 old-project: com
 ms.assetid: a4c5bc82-f423-4a02-b8d4-49b38a9c0f42
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: GetSourceDisplayName method [COM], GetSourceDisplayName method [COM], IOleLink interface, GetSourceDisplayName,IOleLink.GetSourceDisplayName, IOleLink, IOleLink interface [COM], GetSourceDisplayName method, IOleLink::GetSourceDisplayName, _ole_iolelink_getsourcedisplayname, com.iolelink_getsourcedisplayname, oleidl/IOleLink::GetSourceDisplayName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IOleLink::GetSourceDisplayName method

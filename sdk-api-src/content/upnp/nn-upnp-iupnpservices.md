@@ -7,7 +7,7 @@ old-location: upnp\iupnpservices.htm
 old-project: UPnP
 ms.assetid: 8d5e487f-d2d4-4603-918c-e751d698be3c
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/25/2018
 ms.keywords: IUPnPServices, IUPnPServices interface [UPnP APIs], IUPnPServices interface [UPnP APIs], described, _upnp_iupnpservices, upnp.iupnpservices, upnp/IUPnPServices
 ms.prod: windows-hardware
 ms.technology: windows-devices

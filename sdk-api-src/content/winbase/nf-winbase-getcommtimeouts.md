@@ -7,7 +7,7 @@ old-location: base\getcommtimeouts.htm
 old-project: DevIO
 ms.assetid: a5375b2e-0992-4e47-a20f-8a793addeef6
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/3/2018
 ms.keywords: GetCommTimeouts, GetCommTimeouts function, _win32_getcommtimeouts, base.getcommtimeouts, winbase/GetCommTimeouts
 ms.prod: windows-hardware
 ms.technology: windows-devices

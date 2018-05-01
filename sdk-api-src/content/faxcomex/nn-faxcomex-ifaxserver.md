@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxserver_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_4isy_cpp.htm
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/18/2018
 ms.keywords: IFaxServer, IFaxServer interface [Fax Service], IFaxServer interface [Fax Service], described, _mfax_faxserver_cpp, fax._mfax_faxserver_cpp, faxcomex/IFaxServer
 ms.prod: windows-hardware
 ms.technology: windows-devices

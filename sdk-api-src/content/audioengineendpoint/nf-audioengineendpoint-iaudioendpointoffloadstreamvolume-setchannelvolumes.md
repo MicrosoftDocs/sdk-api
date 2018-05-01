@@ -7,7 +7,7 @@ old-location: coreaudio\iaudioendpointoffloadstreamvolume_setchannelvolumes.htm
 old-project: CoreAudio
 ms.assetid: 80E736B5-AF8E-46B3-9CDF-753B045F60D9
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: IAudioEndpointOffloadStreamVolume, IAudioEndpointOffloadStreamVolume interface [Core Audio], SetChannelVolumes method, IAudioEndpointOffloadStreamVolume::SetChannelVolumes, SetChannelVolumes method [Core Audio], SetChannelVolumes method [Core Audio], IAudioEndpointOffloadStreamVolume interface, SetChannelVolumes,IAudioEndpointOffloadStreamVolume.SetChannelVolumes, audioengineendpoint/IAudioEndpointOffloadStreamVolume::SetChannelVolumes, coreaudio.iaudioendpointoffloadstreamvolume_setchannelvolumes
 ms.prod: windows-hardware
 ms.technology: windows-devices

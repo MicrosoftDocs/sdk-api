@@ -7,7 +7,7 @@ old-location: com\ioleadviseholder_sendonsave.htm
 old-project: com
 ms.assetid: b64ceaf7-45ba-4a66-a5cf-aec352472d3d
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IOleAdviseHolder, IOleAdviseHolder interface [COM], SendOnSave method, IOleAdviseHolder::SendOnSave, SendOnSave method [COM], SendOnSave method [COM], IOleAdviseHolder interface, SendOnSave,IOleAdviseHolder.SendOnSave, _ole_ioleadviseholder_sendonsave, com.ioleadviseholder_sendonsave, oleidl/IOleAdviseHolder::SendOnSave
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IOleAdviseHolder::SendOnSave method

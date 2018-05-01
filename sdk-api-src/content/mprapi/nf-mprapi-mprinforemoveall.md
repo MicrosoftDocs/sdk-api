@@ -7,7 +7,7 @@ old-location: rras\mprinforemoveall.htm
 old-project: RRAS
 ms.assetid: 4afa616f-bf4b-4700-8ca1-9bb679bc30ff
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: MprInfoRemoveAll, MprInfoRemoveAll function [RAS], _mpr_mprinforemoveall, mprapi/MprInfoRemoveAll, rras.mprinforemoveall
 ms.prod: windows-hardware
 ms.technology: windows-devices

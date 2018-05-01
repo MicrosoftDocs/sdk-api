@@ -7,7 +7,7 @@ old-location: wic\iwicjpegframedecode_setindexing.htm
 old-project: wic
 ms.assetid: D97A48E5-0398-460C-AFA9-2E1B8744926B
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: IWICJpegFrameDecode, IWICJpegFrameDecode interface [Windows Imaging Component], SetIndexing method, IWICJpegFrameDecode::SetIndexing, SetIndexing method [Windows Imaging Component], SetIndexing method [Windows Imaging Component], IWICJpegFrameDecode interface, SetIndexing,IWICJpegFrameDecode.SetIndexing, wic.iwicjpegframedecode_setindexing, wincodec/IWICJpegFrameDecode::SetIndexing
 ms.prod: windows-hardware
 ms.technology: windows-devices

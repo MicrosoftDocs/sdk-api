@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11fence_getcompletedvalue.htm
 old-project: direct3d11
 ms.assetid: 57D5BDEE-1E14-4187-9F32-CF3609F4BBBB
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/6/2018
 ms.keywords: GetCompletedValue method [Direct3D 11], GetCompletedValue method [Direct3D 11], ID3D11Fence interface, GetCompletedValue,ID3D11Fence.GetCompletedValue, ID3D11Fence, ID3D11Fence interface [Direct3D 11], GetCompletedValue method, ID3D11Fence::GetCompletedValue, d3d11_3/ID3D11Fence::GetCompletedValue, direct3d11.id3d11fence_getcompletedvalue
 ms.prod: windows-hardware
 ms.technology: windows-devices

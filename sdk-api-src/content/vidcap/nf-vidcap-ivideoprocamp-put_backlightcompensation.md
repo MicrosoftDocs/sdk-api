@@ -7,7 +7,7 @@ old-location: dshow\ivideoprocamp_put_backlightcompensation.htm
 old-project: DirectShow
 ms.assetid: 52a9a841-b3d0-41fe-b531-70fa6bac4517
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IVideoProcAmp, IVideoProcAmp interface [DirectShow], put_BacklightCompensation method, IVideoProcAmp::put_BacklightCompensation, IVideoProcAmpput_BacklightCompensation, dshow.ivideoprocamp_put_backlightcompensation, put_BacklightCompensation method [DirectShow], put_BacklightCompensation method [DirectShow], IVideoProcAmp interface, put_BacklightCompensation,IVideoProcAmp.put_BacklightCompensation, vidcap/IVideoProcAmp::put_BacklightCompensation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: VIDEOHDR, *PVIDEOHDR, *LPVIDEOHDR
+req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
 topic_type:
 -	APIRef
 -	kbSyntax

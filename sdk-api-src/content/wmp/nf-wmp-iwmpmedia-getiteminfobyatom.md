@@ -7,7 +7,7 @@ old-location: wmp\iwmpmedia_getiteminfobyatom.htm
 old-project: WMP
 ms.assetid: c2e803df-84f2-4c23-9872-a5435977d189
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPMedia, IWMPMedia interface [Windows Media Player], getItemInfoByAtom method, IWMPMedia2 interface [Windows Media Player], getItemInfoByAtom method, IWMPMedia2::getItemInfoByAtom, IWMPMedia3 interface [Windows Media Player], getItemInfoByAtom method, IWMPMedia3::getItemInfoByAtom, IWMPMedia::getItemInfoByAtom, IWMPMediagetItemInfoByAtom, getItemInfoByAtom method [Windows Media Player], getItemInfoByAtom method [Windows Media Player], IWMPMedia interface, getItemInfoByAtom method [Windows Media Player], IWMPMedia2 interface, getItemInfoByAtom method [Windows Media Player], IWMPMedia3 interface, getItemInfoByAtom,IWMPMedia.getItemInfoByAtom, wmp.iwmpmedia_getiteminfobyatom, wmp/IWMPMedia2::getItemInfoByAtom, wmp/IWMPMedia3::getItemInfoByAtom, wmp/IWMPMedia::getItemInfoByAtom
 ms.prod: windows-hardware
 ms.technology: windows-devices

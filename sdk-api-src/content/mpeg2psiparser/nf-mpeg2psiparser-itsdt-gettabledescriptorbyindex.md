@@ -7,7 +7,7 @@ old-location: mstv\itsdt_gettabledescriptorbyindex.htm
 old-project: mstv
 ms.assetid: 9adcc8f6-44a7-41c6-b42a-e45c33cd5d6a
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetTableDescriptorByIndex method [Microsoft TV Technologies], GetTableDescriptorByIndex method [Microsoft TV Technologies], ITSDT interface, GetTableDescriptorByIndex,ITSDT.GetTableDescriptorByIndex, ITSDT, ITSDT interface [Microsoft TV Technologies], GetTableDescriptorByIndex method, ITSDT::GetTableDescriptorByIndex, ITSDTGetTableDescriptorByIndex, mpeg2psiparser/ITSDT::GetTableDescriptorByIndex, mstv.itsdt_gettabledescriptorbyindex
 ms.prod: windows-hardware
 ms.technology: windows-devices

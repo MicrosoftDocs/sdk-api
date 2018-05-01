@@ -7,7 +7,7 @@ old-location: dshow\imediaseeking_isusingtimeformat.htm
 old-project: DirectShow
 ms.assetid: 27211946-9b05-40fc-823e-efad87a730a3
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IMediaSeeking, IMediaSeeking interface [DirectShow], IsUsingTimeFormat method, IMediaSeeking::IsUsingTimeFormat, IMediaSeekingIsUsingTimeFormat, IsUsingTimeFormat method [DirectShow], IsUsingTimeFormat method [DirectShow], IMediaSeeking interface, IsUsingTimeFormat,IMediaSeeking.IsUsingTimeFormat, dshow.imediaseeking_isusingtimeformat, strmif/IMediaSeeking::IsUsingTimeFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices

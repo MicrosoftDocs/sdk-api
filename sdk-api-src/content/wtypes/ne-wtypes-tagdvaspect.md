@@ -7,7 +7,7 @@ old-location: com\dvaspect.htm
 old-project: com
 ms.assetid: a2b729c8-7091-4520-93cd-c44468ba0274
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: DVASPECT, DVASPECT enumeration [COM], DVASPECT_CONTENT, DVASPECT_DOCPRINT, DVASPECT_ICON, DVASPECT_THUMBNAIL, _ole_DVASPECT, com.dvaspect, tagDVASPECT, wtypes/DVASPECT, wtypes/DVASPECT_CONTENT, wtypes/DVASPECT_DOCPRINT, wtypes/DVASPECT_ICON, wtypes/DVASPECT_THUMBNAIL
 ms.prod: windows-hardware
 ms.technology: windows-devices

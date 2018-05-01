@@ -7,7 +7,7 @@ old-location: wmformat\iwmprofile3_getexpectedpacketcount.htm
 old-project: wmformat
 ms.assetid: ddab3735-06a1-4e03-9abc-0fca635ef759
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: GetExpectedPacketCount method [windows Media Format], GetExpectedPacketCount method [windows Media Format], IWMProfile3 interface, GetExpectedPacketCount,IWMProfile3.GetExpectedPacketCount, IWMProfile3, IWMProfile3 interface [windows Media Format], GetExpectedPacketCount method, IWMProfile3::GetExpectedPacketCount, IWMProfile3GetExpectedPacketCount, wmformat.iwmprofile3_getexpectedpacketcount, wmsdkidl/IWMProfile3::GetExpectedPacketCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

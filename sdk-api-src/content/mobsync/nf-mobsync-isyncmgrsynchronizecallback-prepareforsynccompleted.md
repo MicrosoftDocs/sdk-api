@@ -7,7 +7,7 @@ old-location: shell\syncmgr_isyncmgrsynchronizecallback_prepareforsynccompleted.
 old-project: shell
 ms.assetid: 2ba73e09-c01b-44af-8979-8aae450c9c0b
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ISyncMgrSynchronizeCallback, ISyncMgrSynchronizeCallback interface [Windows Shell], PrepareForSyncCompleted method, ISyncMgrSynchronizeCallback::PrepareForSyncCompleted, PrepareForSyncCompleted method [Windows Shell], PrepareForSyncCompleted method [Windows Shell], ISyncMgrSynchronizeCallback interface, PrepareForSyncCompleted,ISyncMgrSynchronizeCallback.PrepareForSyncCompleted, mobsync/ISyncMgrSynchronizeCallback::PrepareForSyncCompleted, shell.syncmgr_isyncmgrsynchronizecallback_prepareforsynccompleted, syncmgr.isyncmgrsynchronizecallback_prepareforsynccompleted
 ms.prod: windows-hardware
 ms.technology: windows-devices

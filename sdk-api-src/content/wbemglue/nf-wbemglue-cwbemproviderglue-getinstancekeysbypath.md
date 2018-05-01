@@ -7,7 +7,7 @@ old-location: wmi\cwbemproviderglue_getinstancekeysbypath.htm
 old-project: WmiSdk
 ms.assetid: 8ae95850-59e9-4382-b88d-c51eb3077176
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: CWbemProviderGlue, CWbemProviderGlue interface [Windows Management Instrumentation], GetInstanceKeysByPath method, CWbemProviderGlue::GetInstanceKeysByPath, GetInstanceKeysByPath method [Windows Management Instrumentation], GetInstanceKeysByPath method [Windows Management Instrumentation], CWbemProviderGlue interface, GetInstanceKeysByPath,CWbemProviderGlue.GetInstanceKeysByPath, _hmm_cwbemproviderglue_getinstancekeysbypath, wbemglue/CWbemProviderGlue::GetInstanceKeysByPath, wmi.cwbemproviderglue_getinstancekeysbypath
 ms.prod: windows-hardware
 ms.technology: windows-devices

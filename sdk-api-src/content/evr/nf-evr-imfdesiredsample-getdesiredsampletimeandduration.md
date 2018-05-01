@@ -7,7 +7,7 @@ old-location: mf\imfdesiredsample_getdesiredsampletimeandduration.htm
 old-project: medfound
 ms.assetid: 095202ed-0272-4bda-a268-6a407ef74a94
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 095202ed-0272-4bda-a268-6a407ef74a94, GetDesiredSampleTimeAndDuration method [Media Foundation], GetDesiredSampleTimeAndDuration method [Media Foundation], IMFDesiredSample interface, GetDesiredSampleTimeAndDuration,IMFDesiredSample.GetDesiredSampleTimeAndDuration, IMFDesiredSample, IMFDesiredSample interface [Media Foundation], GetDesiredSampleTimeAndDuration method, IMFDesiredSample::GetDesiredSampleTimeAndDuration, evr/IMFDesiredSample::GetDesiredSampleTimeAndDuration, mf.imfdesiredsample_getdesiredsampletimeandduration
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\imftimer_settimer.htm
 old-project: medfound
 ms.assetid: 3b583541-6480-490d-883f-376ea95f7a98
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 3b583541-6480-490d-883f-376ea95f7a98, IMFTimer, IMFTimer interface [Media Foundation], SetTimer method, IMFTimer::SetTimer, SetTimer method [Media Foundation], SetTimer method [Media Foundation], IMFTimer interface, SetTimer,IMFTimer.SetTimer, mf.imftimer_settimer, mfidl/IMFTimer::SetTimer
 ms.prod: windows-hardware
 ms.technology: windows-devices

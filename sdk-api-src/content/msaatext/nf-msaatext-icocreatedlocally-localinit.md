@@ -7,7 +7,7 @@ old-location: winauto\icocreatedlocally_icocreatedlocally__localinit.htm
 old-project: WinAuto
 ms.assetid: c2ad4462-4e8a-4f1f-8e44-b1494ca37399
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: ICoCreatedLocally, ICoCreatedLocally interface [Windows Accessibility], LocalInit method, ICoCreatedLocally::LocalInit, LocalInit method [Windows Accessibility], LocalInit method [Windows Accessibility], ICoCreatedLocally interface, LocalInit,ICoCreatedLocally.LocalInit, _msaa_ICoCreatedLocally_LocalInit, msaa.icocreatedlocally_icocreatedlocally__localinit, msaatext/ICoCreatedLocally::LocalInit, winauto.icocreatedlocally_icocreatedlocally__localinit
 ms.prod: windows-hardware
 ms.technology: windows-devices

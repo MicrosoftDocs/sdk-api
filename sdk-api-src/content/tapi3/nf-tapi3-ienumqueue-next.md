@@ -7,7 +7,7 @@ old-location: tapi3\ienumqueue_next.htm
 old-project: Tapi
 ms.assetid: 95c1a919-4138-49c1-ad3a-2b15d928e84f
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: IEnumQueue, IEnumQueue interface [TAPI 2.2], Next method, IEnumQueue::Next, Next method [TAPI 2.2], Next method [TAPI 2.2], IEnumQueue interface, Next,IEnumQueue.Next, _tapi3_ienumqueue_next, tapi3.ienumqueue_next, tapi3cc/IEnumQueue::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices

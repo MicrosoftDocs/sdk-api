@@ -7,7 +7,7 @@ old-location: direct2d\D2D1_LINE_JOIN.htm
 old-project: Direct2D
 ms.assetid: 4368e93e-af69-4555-ac2b-c9c576c81372
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: D2D1_LINE_JOIN, D2D1_LINE_JOIN enumeration [Direct2D], D2D1_LINE_JOIN_BEVEL, D2D1_LINE_JOIN_MITER, D2D1_LINE_JOIN_MITER_OR_BEVEL, D2D1_LINE_JOIN_ROUND, d2d1/D2D1_LINE_JOIN, d2d1/D2D1_LINE_JOIN_BEVEL, d2d1/D2D1_LINE_JOIN_MITER, d2d1/D2D1_LINE_JOIN_MITER_OR_BEVEL, d2d1/D2D1_LINE_JOIN_ROUND, direct2d.D2D1_LINE_JOIN
 ms.prod: windows-hardware
 ms.technology: windows-devices

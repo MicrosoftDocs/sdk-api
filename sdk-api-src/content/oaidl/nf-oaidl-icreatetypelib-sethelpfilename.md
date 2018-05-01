@@ -7,7 +7,7 @@ old-location: automat\icreatetypelib_sethelpfilename.htm
 old-project: automat
 ms.assetid: a9dc11b0-1483-4272-84cb-4f885f6cff6f
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: ICreateTypeLib, ICreateTypeLib interface [Automation], SetHelpFileName method, ICreateTypeLib::SetHelpFileName, SetHelpFileName method [Automation], SetHelpFileName method [Automation], ICreateTypeLib interface, SetHelpFileName,ICreateTypeLib.SetHelpFileName, _oa96_ICreateTypeLib_SetHelpFileName, automat.icreatetypelib_sethelpfilename, oaidl/ICreateTypeLib::SetHelpFileName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ICreateTypeLib::SetHelpFileName method

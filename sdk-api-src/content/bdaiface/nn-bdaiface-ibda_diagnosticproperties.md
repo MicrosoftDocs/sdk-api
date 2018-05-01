@@ -7,7 +7,7 @@ old-location: mstv\ibda_diagnosticproperties.htm
 old-project: mstv
 ms.assetid: fde1153d-8598-4738-bc71-dbee3b17fb84
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IBDA_DiagnosticProperties, IBDA_DiagnosticProperties interface [Microsoft TV Technologies], IBDA_DiagnosticProperties interface [Microsoft TV Technologies], described, IBDA_DiagnosticPropertiesInterface, bdaiface/IBDA_DiagnosticProperties, mstv.ibda_diagnosticproperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

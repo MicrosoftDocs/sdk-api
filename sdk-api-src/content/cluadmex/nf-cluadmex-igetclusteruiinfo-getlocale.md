@@ -7,7 +7,7 @@ old-location: mscs\igetclusteruiinfo_getlocale.htm
 old-project: MsCS
 ms.assetid: 1ab4e6bb-0aba-4115-b068-171aaf0b7cef
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: GetLocale method [Failover Cluster], GetLocale method [Failover Cluster], IGetClusterUIInfo interface, GetLocale,IGetClusterUIInfo.GetLocale, IGetClusterUIInfo, IGetClusterUIInfo interface [Failover Cluster], GetLocale method, IGetClusterUIInfo::GetLocale, _wolf_igetclusteruiinfo_getlocale, cluadmex/IGetClusterUIInfo::GetLocale, mscs.igetclusteruiinfo_getlocale
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: LOG_MANAGEMENT_CALLBACKS, *PLOG_MANAGEMENT_CALLBACKS
+req.typenames: Sources
 topic_type:
 -	APIRef
 -	kbSyntax

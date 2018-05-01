@@ -7,7 +7,7 @@ old-location: tapi3\ienumdirectoryobject_clone.htm
 old-project: Tapi
 ms.assetid: 2be8430e-2968-416f-9503-b77d6abd6a12
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: Clone method [TAPI 2.2], Clone method [TAPI 2.2], IEnumDirectoryObject interface, Clone,IEnumDirectoryObject.Clone, IEnumDirectoryObject, IEnumDirectoryObject interface [TAPI 2.2], Clone method, IEnumDirectoryObject::Clone, _tapi3_ienumdirectoryobject_clone, rend/IEnumDirectoryObject::Clone, tapi3.ienumdirectoryobject_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Rend.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IEnumDirectoryObject::Clone method

@@ -60,14 +60,16 @@ See the   <a href="Http://go.microsoft.com/fwlink/p/?linkid=84541">Navigator Pro
 
 
 
+### -field lpVtbl
+
+Pointer to an <a href="https://msdn.microsoft.com/df482b8d-38e1-4d0d-a12c-8ba0f2e6423a">AutoProxyHelperVtbl</a> structure that contains an array of pointers to autoproxy helper functions. 
+
+
 ### -field AutoProxyHelperVtbl
 
  
 
 
-### -field lpVtbl
-
-Pointer to an <a href="https://msdn.microsoft.com/df482b8d-38e1-4d0d-a12c-8ba0f2e6423a">AutoProxyHelperVtbl</a> structure that contains an array of pointers to autoproxy helper functions. 
 
 
 ## -remarks

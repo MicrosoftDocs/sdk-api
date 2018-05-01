@@ -7,7 +7,7 @@ old-location: controls\ITextHost_TxGetSysColor.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\itexthost\itexthosttxgetsyscolor.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextHost, ITextHost interface [Windows Controls], TxGetSysColor method, ITextHost::TxGetSysColor, TxGetSysColor method [Windows Controls], TxGetSysColor method [Windows Controls], ITextHost interface, TxGetSysColor,ITextHost.TxGetSysColor, _win32_ITextHost_TxGetSysColor, _win32_ITextHost_TxGetSysColor_cpp, controls.ITextHost_TxGetSysColor, controls._win32_ITextHost_TxGetSysColor, textserv/ITextHost::TxGetSysColor
 ms.prod: windows-hardware
 ms.technology: windows-devices

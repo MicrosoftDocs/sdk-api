@@ -7,7 +7,7 @@ old-location: termserv\iwrdsprotocolmanager_notifysettingschange.htm
 old-project: TermServ
 ms.assetid: 80292d9b-fced-4726-8f83-5ba355df06a2
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: IWRdsProtocolManager, IWRdsProtocolManager interface [Remote Desktop Services], NotifySettingsChange method, IWRdsProtocolManager::NotifySettingsChange, NotifySettingsChange method [Remote Desktop Services], NotifySettingsChange method [Remote Desktop Services], IWRdsProtocolManager interface, NotifySettingsChange,IWRdsProtocolManager.NotifySettingsChange, termserv.iwrdsprotocolmanager_notifysettingschange, wtsprotocol/IWRdsProtocolManager::NotifySettingsChange
 ms.prod: windows-hardware
 ms.technology: windows-devices

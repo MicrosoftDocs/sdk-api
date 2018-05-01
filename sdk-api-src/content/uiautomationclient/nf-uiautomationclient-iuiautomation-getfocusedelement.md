@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomation_GetFocusedElement.htm
 old-project: WinAuto
 ms.assetid: a75f03bc-f472-40bf-8fa2-8c1d3ddf4fbb
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: GetFocusedElement method [Windows Accessibility], GetFocusedElement method [Windows Accessibility], IUIAutomation interface, GetFocusedElement,IUIAutomation.GetFocusedElement, IUIAutomation, IUIAutomation interface [Windows Accessibility], GetFocusedElement method, IUIAutomation::GetFocusedElement, uiauto.uiauto_IUIAutomation_GetFocusedElement, uiauto_IUIAutomation_GetFocusedElement, uiautomationclient/IUIAutomation::GetFocusedElement, winauto.uiauto_IUIAutomation_GetFocusedElement
 ms.prod: windows-hardware
 ms.technology: windows-devices

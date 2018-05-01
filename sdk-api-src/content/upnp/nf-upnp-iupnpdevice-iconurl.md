@@ -7,7 +7,7 @@ old-location: upnp\iupnpdevice_iconurl.htm
 old-project: UPnP
 ms.assetid: 17b3d4f1-a51a-42f9-8fc0-4156d4975889
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/25/2018
 ms.keywords: IUPnPDevice, IUPnPDevice interface [UPnP APIs], IconURL method, IUPnPDevice::IconURL, IconURL method [UPnP APIs], IconURL method [UPnP APIs], IUPnPDevice interface, IconURL,IUPnPDevice.IconURL, _upnp_iupnpdevice_iconurl, upnp.iupnpdevice_iconurl, upnp/IUPnPDevice::IconURL
 ms.prod: windows-hardware
 ms.technology: windows-devices

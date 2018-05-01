@@ -7,7 +7,7 @@ old-location: dshow\iamline21decoder_getservicestate.htm
 old-project: DirectShow
 ms.assetid: c88d2328-0338-4c0b-b719-8501bcbb8a69
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetServiceState method [DirectShow], GetServiceState method [DirectShow], IAMLine21Decoder interface, GetServiceState,IAMLine21Decoder.GetServiceState, IAMLine21Decoder, IAMLine21Decoder interface [DirectShow], GetServiceState method, IAMLine21Decoder::GetServiceState, IAMLine21DecoderGetServiceState, dshow.iamline21decoder_getservicestate, il21dec/IAMLine21Decoder::GetServiceState
 ms.prod: windows-hardware
 ms.technology: windows-devices

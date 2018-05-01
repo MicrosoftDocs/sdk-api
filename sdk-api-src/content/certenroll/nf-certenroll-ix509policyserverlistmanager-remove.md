@@ -7,7 +7,7 @@ old-location: security\ix509policyserverlistmanager_remove.htm
 old-project: SecCertEnroll
 ms.assetid: c2e59087-a62b-4013-9a16-fedd03b2c286
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: IX509PolicyServerListManager, IX509PolicyServerListManager interface [Security], Remove method, IX509PolicyServerListManager::Remove, Remove method [Security], Remove method [Security], IX509PolicyServerListManager interface, Remove,IX509PolicyServerListManager.Remove, certenroll/IX509PolicyServerListManager::Remove, security.ix509policyserverlistmanager_remove
 ms.prod: windows-hardware
 ms.technology: windows-devices

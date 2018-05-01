@@ -7,7 +7,7 @@ old-location: com\olecreate.htm
 old-project: com
 ms.assetid: 00b7edd2-8e2e-4e0a-91a6-d966f6c8d456
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: OleCreate, OleCreate function [COM], _ole_OleCreate, com.olecreate, ole/OleCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # OleCreate function
@@ -60,37 +60,37 @@ Creates an embedded object identified by a CLSID. You use it typically to implem
 
 
 
-### -param rclsid [in]
+#### - rclsid [in]
 
 CLSID of the embedded object that is to be created.
 
 
-### -param riid [in]
+#### - riid [in]
 
 Reference to the identifier of the interface, usually IID_IOleObject (defined in the OLE headers as the interface identifier for <a href="https://msdn.microsoft.com/58b32c87-39b6-4d64-9174-cf798ed302c2">IOleObject</a>), through which the caller will communicate with the new object.
 
 
-### -param renderopt [in]
+#### - renderopt [in]
 
 A value from the enumeration <a href="https://msdn.microsoft.com/bab871ba-4ec4-49fd-854a-585732b91290">OLERENDER</a>, indicating the locally cached drawing capabilities the newly created object is to have. The <b>OLERENDER</b> value chosen affects the possible values for the <i>pFormatEtc</i> parameter.
 
 
-### -param pFormatEtc [in]
+#### - pFormatEtc [in]
 
 Depending on which of the <a href="https://msdn.microsoft.com/bab871ba-4ec4-49fd-854a-585732b91290">OLERENDER</a> flags is used as the value of renderopt, pointer to one of the <a href="https://msdn.microsoft.com/4478eb9a-84a1-4f3a-8290-94b8dd20c081">FORMATETC</a> enumeration values. Refer to the <b>OLERENDER</b> enumeration for restrictions. This parameter, along with the <i>renderopt</i> parameter, specifies what the new object can cache initially.
 
 
-### -param pClientSite [in]
+#### - pClientSite [in]
 
 If you want <b>OleCreate</b> to call <a href="https://msdn.microsoft.com/6690b5a3-bada-496c-89cb-a9ae1fc9dfb0">IOleObject::SetClientSite</a>, pointer to the <a href="https://msdn.microsoft.com/dafee149-926a-4d08-a43d-5847682db645">IOleClientSite</a> interface on the container. The value may be <b>NULL</b>, in which case you must specifically call <b>IOleObject::SetClientSite</b> before attempting operations.
 
 
-### -param pStg [in]
+#### - pStg [in]
 
 Pointer to an instance of the <a href="https://msdn.microsoft.com/2f454538-0f40-4811-b908-cd317ef79487">IStorage</a> interface on the storage object. This parameter may not be <b>NULL</b>.
 
 
-### -param ppvObj [out]
+#### - ppvObj [out]
 
 Address of pointer variable that receives the interface pointer requested in riid. Upon successful return, *<i>ppvObject</i> contains the requested interface pointer.
 

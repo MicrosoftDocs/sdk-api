@@ -7,7 +7,7 @@ old-location: coreaudio\idevicespecificproperty_gettype.htm
 old-project: CoreAudio
 ms.assetid: 07d32eea-e80a-4f25-b963-3f667e56a811
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: GetType method [Core Audio], GetType method [Core Audio], IDeviceSpecificProperty interface, GetType,IDeviceSpecificProperty.GetType, IDeviceSpecificProperty, IDeviceSpecificProperty interface [Core Audio], GetType method, IDeviceSpecificProperty::GetType, IDeviceSpecificPropertyGetType, coreaudio.idevicespecificproperty_gettype, devicetopology/IDeviceSpecificProperty::GetType
 ms.prod: windows-hardware
 ms.technology: windows-devices

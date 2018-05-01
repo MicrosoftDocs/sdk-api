@@ -7,7 +7,7 @@ old-location: shell\INameSpaceTreeControlEvents_OnSelectionChanged.htm
 old-project: shell
 ms.assetid: ecc84586-ec37-4ece-a890-6adfc7a94ad6
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: INameSpaceTreeControlEvents, INameSpaceTreeControlEvents interface [Windows Shell], OnSelectionChanged method, INameSpaceTreeControlEvents::OnSelectionChanged, OnSelectionChanged method [Windows Shell], OnSelectionChanged method [Windows Shell], INameSpaceTreeControlEvents interface, OnSelectionChanged,INameSpaceTreeControlEvents.OnSelectionChanged, _shell_INameSpaceTreeControlEvents_OnSelectionChanged, shell.INameSpaceTreeControlEvents_OnSelectionChanged, shobjidl/INameSpaceTreeControlEvents::OnSelectionChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tapi3\itdirectory_get_displayname.htm
 old-project: Tapi
 ms.assetid: a564e501-089e-41fc-9e81-bd0c9e6f951d
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: ITDirectory, ITDirectory interface [TAPI 2.2], get_DisplayName method, ITDirectory::get_DisplayName, _tapi3_itdirectory_get_displayname, get_DisplayName method [TAPI 2.2], get_DisplayName method [TAPI 2.2], ITDirectory interface, get_DisplayName,ITDirectory.get_DisplayName, rend/ITDirectory::get_DisplayName, tapi3.itdirectory_get_displayname
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Rend.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITDirectory::get_DisplayName method

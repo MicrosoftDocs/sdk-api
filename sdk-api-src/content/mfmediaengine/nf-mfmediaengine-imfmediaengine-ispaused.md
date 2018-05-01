@@ -7,7 +7,7 @@ old-location: mf\imfmediaengine_ispaused.htm
 old-project: medfound
 ms.assetid: A2E9C498-FEEB-4506-9E69-59028A6B4EE5
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFMediaEngine, IMFMediaEngine interface [Media Foundation], IsPaused method, IMFMediaEngine::IsPaused, IsPaused method [Media Foundation], IsPaused method [Media Foundation], IMFMediaEngine interface, IsPaused,IMFMediaEngine.IsPaused, mf.imfmediaengine_ispaused, mfmediaengine/IMFMediaEngine::IsPaused
 ms.prod: windows-hardware
 ms.technology: windows-devices

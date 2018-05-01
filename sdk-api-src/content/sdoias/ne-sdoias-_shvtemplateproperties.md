@@ -7,7 +7,7 @@ old-location: nps\SDO_shvtemplateproperties.htm
 old-project: Nps
 ms.assetid: dc6aafe8-61c0-4dc6-9705-272ee2b6f2bb
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/24/2018
 ms.keywords: PROPERTY_SHV_COMBINATION_TYPE, PROPERTY_SHV_LIST, SHVTEMPLATEPROPERTIES, SHVTEMPLATEPROPERTIES enumeration [Network Policy Server], _SHVTEMPLATEPROPERTIES, nps.SDO_shvtemplateproperties, sdo.shvtemplateproperties, sdoias/PROPERTY_SHV_COMBINATION_TYPE, sdoias/PROPERTY_SHV_LIST, sdoias/SHVTEMPLATEPROPERTIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _SHVTEMPLATEPROPERTIES enumeration

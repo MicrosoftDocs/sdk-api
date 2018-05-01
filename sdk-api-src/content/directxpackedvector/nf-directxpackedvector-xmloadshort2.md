@@ -7,7 +7,7 @@ old-location: dxmath\xmloadshort2.htm
 old-project: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadShort2(const XMSHORT2)
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/23/2018
 ms.keywords: DirectX::PackedVector.XMLoadShort2, XMLoadShort2, XMLoadShort2 method [DirectX Math Support APIs], dxmath.xmloadshort2
 ms.prod: windows-hardware
 ms.technology: windows-devices

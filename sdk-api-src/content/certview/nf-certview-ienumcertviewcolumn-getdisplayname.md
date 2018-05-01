@@ -7,7 +7,7 @@ old-location: security\ienumcertviewcolumn_getdisplayname.htm
 old-project: SecCrypto
 ms.assetid: e7fd06f7-7b42-47ed-be03-867d0d03594a
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: GetDisplayName method [Security], GetDisplayName method [Security], IEnumCERTVIEWCOLUMN interface, GetDisplayName,IEnumCERTVIEWCOLUMN.GetDisplayName, IEnumCERTVIEWCOLUMN, IEnumCERTVIEWCOLUMN interface [Security], GetDisplayName method, IEnumCERTVIEWCOLUMN::GetDisplayName, _certsrv_ienumcertviewcolumn_getdisplayname, certview/IEnumCERTVIEWCOLUMN::GetDisplayName, security.ienumcertviewcolumn_getdisplayname
 ms.prod: windows-hardware
 ms.technology: windows-devices

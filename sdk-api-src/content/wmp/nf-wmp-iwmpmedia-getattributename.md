@@ -7,7 +7,7 @@ old-location: wmp\iwmpmedia_getattributename.htm
 old-project: WMP
 ms.assetid: cb04e464-44dd-41ba-9296-f13aca9ef54e
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPMedia, IWMPMedia interface [Windows Media Player], getAttributeName method, IWMPMedia2 interface [Windows Media Player], getAttributeName method, IWMPMedia2::getAttributeName, IWMPMedia3 interface [Windows Media Player], getAttributeName method, IWMPMedia3::getAttributeName, IWMPMedia::getAttributeName, IWMPMediagetAttributeName, getAttributeName method [Windows Media Player], getAttributeName method [Windows Media Player], IWMPMedia interface, getAttributeName method [Windows Media Player], IWMPMedia2 interface, getAttributeName method [Windows Media Player], IWMPMedia3 interface, getAttributeName,IWMPMedia.getAttributeName, wmp.iwmpmedia_getattributename, wmp/IWMPMedia2::getAttributeName, wmp/IWMPMedia3::getAttributeName, wmp/IWMPMedia::getAttributeName
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\imfsample_converttocontiguousbuffer.htm
 old-project: medfound
 ms.assetid: 6ea950eb-7f2e-4549-93dc-fa62f95b7b66
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 6ea950eb-7f2e-4549-93dc-fa62f95b7b66, ConvertToContiguousBuffer method [Media Foundation], ConvertToContiguousBuffer method [Media Foundation], IMFSample interface, ConvertToContiguousBuffer,IMFSample.ConvertToContiguousBuffer, IMFSample, IMFSample interface [Media Foundation], ConvertToContiguousBuffer method, IMFSample::ConvertToContiguousBuffer, mf.imfsample_converttocontiguousbuffer, mfobjects/IMFSample::ConvertToContiguousBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

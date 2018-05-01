@@ -7,7 +7,7 @@ old-location: com\iolecachecontrol_onrun.htm
 old-project: com
 ms.assetid: 8d155c3f-115c-41fe-985f-ed60a565341f
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IOleCacheControl, IOleCacheControl interface [COM], OnRun method, IOleCacheControl::OnRun, OnRun method [COM], OnRun method [COM], IOleCacheControl interface, OnRun,IOleCacheControl.OnRun, _ole_iolecachecontrol_onrun, com.iolecachecontrol_onrun, oleidl/IOleCacheControl::OnRun
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IOleCacheControl::OnRun method

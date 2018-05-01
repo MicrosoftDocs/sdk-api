@@ -7,7 +7,7 @@ old-location: com\iunknown.htm
 old-project: com
 ms.assetid: 33f1d79a-33fc-4ce5-a372-e08bda378332
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IUnknown, IUnknown interface [COM], IUnknown interface [COM], described, _com_iunknown, com.iunknown, unknwn/IUnknown
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,8 +38,8 @@ api_name:
 -	IUnknown
 product: Windows
 targetos: Windows
-req.lib: RpcRT4.lib
-req.dll: RpcRT4.dll
+req.lib: 
+req.dll: 
 req.irql: 
 req.product: Windows UI
 ---

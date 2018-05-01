@@ -7,7 +7,7 @@ old-location: mf\imfpmediaplayer_setvolume.htm
 old-project: medfound
 ms.assetid: feee2812-7c7e-4c27-86be-8f7316854222
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFPMediaPlayer, IMFPMediaPlayer interface [Media Foundation], SetVolume method, IMFPMediaPlayer::SetVolume, SetVolume method [Media Foundation], SetVolume method [Media Foundation], IMFPMediaPlayer interface, SetVolume,IMFPMediaPlayer.SetVolume, mf.imfpmediaplayer_setvolume, mfplay/IMFPMediaPlayer::SetVolume
 ms.prod: windows-hardware
 ms.technology: windows-devices

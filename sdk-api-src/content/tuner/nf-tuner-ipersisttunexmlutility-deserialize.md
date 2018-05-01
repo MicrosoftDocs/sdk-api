@@ -7,7 +7,7 @@ old-location: mstv\ipersisttunexmlutility_deserialize.htm
 old-project: mstv
 ms.assetid: a42a001b-210c-4e89-823e-ec1e1fa58f67
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: Deserialize method [Microsoft TV Technologies], Deserialize method [Microsoft TV Technologies], IPersistTuneXmlUtility interface, Deserialize,IPersistTuneXmlUtility.Deserialize, IPersistTuneXmlUtility, IPersistTuneXmlUtility interface [Microsoft TV Technologies], Deserialize method, IPersistTuneXmlUtility::Deserialize, mstv.ipersisttunexmlutility_deserialize, tuner/IPersistTuneXmlUtility::Deserialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

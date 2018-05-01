@@ -7,7 +7,7 @@ old-location: mscs\igetclusterobjectinfo_getobjectname.htm
 old-project: MsCS
 ms.assetid: e45f3652-74da-4d93-826d-320ddae10f49
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: GetObjectName method [Failover Cluster], GetObjectName method [Failover Cluster], IGetClusterObjectInfo interface, GetObjectName,IGetClusterObjectInfo.GetObjectName, IGetClusterObjectInfo, IGetClusterObjectInfo interface [Failover Cluster], GetObjectName method, IGetClusterObjectInfo::GetObjectName, _wolf_igetclusterobjectinfo_getobjectname, cluadmex/IGetClusterObjectInfo::GetObjectName, mscs.igetclusterobjectinfo_getobjectname
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: LOG_MANAGEMENT_CALLBACKS, *PLOG_MANAGEMENT_CALLBACKS
+req.typenames: Sources
 topic_type:
 -	APIRef
 -	kbSyntax

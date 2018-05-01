@@ -7,7 +7,7 @@ old-location: security\iazapplication_opentask.htm
 old-project: SecAuthZ
 ms.assetid: 2d34a56d-ada8-4d7d-b026-4f1abfa290ac
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: AzApplication object [Security], OpenTask method, IAzApplication, IAzApplication interface [Security], OpenTask method, IAzApplication::OpenTask, OpenTask method [Security], OpenTask method [Security], AzApplication object, OpenTask method [Security], IAzApplication interface, OpenTask,IAzApplication.OpenTask, azroles/IAzApplication::OpenTask, security.iazapplication_opentask
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -59,17 +59,6 @@ Contains information about a reparse point. It is used by the
 
 
 
-### -field GenericReparseBuffer
-
-
-
-#### DataBuffer
-
-The user-defined data for the reparse point. The contents are determined by the reparse point implementer. 
-       The tag in the <b>ReparseTag</b> member and the <b>GUID</b> in the 
-       <b>ReparseGuid</b> member indicate how the data is to be interpreted.
-
-
 ### -field ReparseTag
 
 The reparse point tag. This member identifies the structure of the user-defined reparse data. For more 
@@ -95,6 +84,17 @@ A <b>GUID</b> that uniquely identifies the  reparse point. When setting a repars
       <b>ReparseGuid</b> is the <b>GUID</b> assigned when the reparse point 
       was set. 
      
+
+
+### -field GenericReparseBuffer
+
+
+
+#### DataBuffer
+
+The user-defined data for the reparse point. The contents are determined by the reparse point implementer. 
+       The tag in the <b>ReparseTag</b> member and the <b>GUID</b> in the 
+       <b>ReparseGuid</b> member indicate how the data is to be interpreted.
 
 
 ## -remarks

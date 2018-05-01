@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicpersiststream_loadex.htm
 old-project: wic
 ms.assetid: cb200a21-6c01-469e-b70f-f787f1dae382
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: IWICPersistStream, IWICPersistStream interface [Windows Imaging Component], LoadEx method, IWICPersistStream::LoadEx, LoadEx method [Windows Imaging Component], LoadEx method [Windows Imaging Component], IWICPersistStream interface, LoadEx,IWICPersistStream.LoadEx, _wic_codec_iwicpersiststream_loadex, wic._wic_codec_iwicpersiststream_loadex, wincodecsdk/IWICPersistStream::LoadEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

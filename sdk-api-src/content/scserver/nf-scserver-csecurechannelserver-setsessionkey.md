@@ -7,7 +7,7 @@ old-location: wmdm\csecurechannelserver_setsessionkey.htm
 old-project: WMDM
 ms.assetid: 207435a6-0b16-49d9-a366-878331732a14
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: CSecureChannelServer, CSecureChannelServer interface [windows Media Device Manager], SetSessionKey method, CSecureChannelServer::SetSessionKey, CSecureChannelServerSetSessionKey, SetSessionKey method [windows Media Device Manager], SetSessionKey method [windows Media Device Manager], CSecureChannelServer interface, SetSessionKey,CSecureChannelServer.SetSessionKey, scserver/CSecureChannelServer::SetSessionKey, wmdm.csecurechannelserver_setsessionkey
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # CSecureChannelServer::SetSessionKey method

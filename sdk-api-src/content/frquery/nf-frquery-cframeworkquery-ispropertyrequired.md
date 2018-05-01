@@ -7,7 +7,7 @@ old-location: wmi\cframeworkquery_ispropertyrequired.htm
 old-project: WmiSdk
 ms.assetid: 36f5a261-435c-494d-aae5-a420eee030f2
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: CFrameworkQuery, CFrameworkQuery interface [Windows Management Instrumentation], IsPropertyRequired method, CFrameworkQuery::IsPropertyRequired, IsPropertyRequired method [Windows Management Instrumentation], IsPropertyRequired method [Windows Management Instrumentation], CFrameworkQuery interface, IsPropertyRequired,CFrameworkQuery.IsPropertyRequired, _hmm_cframeworkquery_ispropertyrequired, frquery/CFrameworkQuery::IsPropertyRequired, wmi.cframeworkquery_ispropertyrequired
 ms.prod: windows-hardware
 ms.technology: windows-devices

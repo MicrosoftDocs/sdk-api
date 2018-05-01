@@ -7,7 +7,7 @@ old-location: security\token_access_information.htm
 old-project: SecAuthZ
 ms.assetid: cb727b91-c88f-48f3-8329-020d3f727dc7
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: "*PTOKEN_ACCESS_INFORMATION, PTOKEN_ACCESS_INFORMATION, PTOKEN_ACCESS_INFORMATION structure pointer [Security], TOKEN_ACCESS_INFORMATION, TOKEN_ACCESS_INFORMATION structure [Security], _TOKEN_ACCESS_INFORMATION, security.token_access_information, winnt/PTOKEN_ACCESS_INFORMATION, winnt/TOKEN_ACCESS_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices

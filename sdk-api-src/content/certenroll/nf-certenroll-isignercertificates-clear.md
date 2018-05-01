@@ -7,7 +7,7 @@ old-location: security\isignercertificates_clear_method.htm
 old-project: SecCertEnroll
 ms.assetid: 8be3f0d4-db41-408d-bd4b-37c41b1b1c54
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: Clear method [Security], Clear method [Security], ISignerCertificates interface, Clear,ISignerCertificates.Clear, ISignerCertificates, ISignerCertificates interface [Security], Clear method, ISignerCertificates::Clear, certenroll/ISignerCertificates::Clear, security.isignercertificates_clear_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

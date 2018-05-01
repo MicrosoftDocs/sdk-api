@@ -7,7 +7,7 @@ old-location: shell\ICredentialProviderCredential_CommandLinkClicked.htm
 old-project: shell
 ms.assetid: 04e371cb-f968-4a15-9285-e676dff59899
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: CommandLinkClicked method [Windows Shell], CommandLinkClicked method [Windows Shell], ICredentialProviderCredential interface, CommandLinkClicked,ICredentialProviderCredential.CommandLinkClicked, ICredentialProviderCredential, ICredentialProviderCredential interface [Windows Shell], CommandLinkClicked method, ICredentialProviderCredential::CommandLinkClicked, _shell_ICredentialProviderCredential_CommandLinkClicked, credentialprovider/ICredentialProviderCredential::CommandLinkClicked, shell.ICredentialProviderCredential_CommandLinkClicked
 ms.prod: windows-hardware
 ms.technology: windows-devices

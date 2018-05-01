@@ -7,7 +7,7 @@ old-location: security\ix509certificaterequestpkcs7_initializefrominnerrequest_m
 old-project: SecCertEnroll
 ms.assetid: b63bfaaa-a8af-4c72-a191-447230adae72
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: IX509CertificateRequestPkcs7, IX509CertificateRequestPkcs7 interface [Security], InitializeFromInnerRequest method, IX509CertificateRequestPkcs7::InitializeFromInnerRequest, InitializeFromInnerRequest method [Security], InitializeFromInnerRequest method [Security], IX509CertificateRequestPkcs7 interface, InitializeFromInnerRequest,IX509CertificateRequestPkcs7.InitializeFromInnerRequest, certenroll/IX509CertificateRequestPkcs7::InitializeFromInnerRequest, security.ix509certificaterequestpkcs7_initializefrominnerrequest_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

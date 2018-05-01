@@ -7,7 +7,7 @@ old-location: security\icspstatuses_clear_method.htm
 old-project: SecCertEnroll
 ms.assetid: 6a959d88-3ee6-4233-8fc7-23c60b24c14e
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: Clear method [Security], Clear method [Security], ICspStatuses interface, Clear,ICspStatuses.Clear, ICspStatuses, ICspStatuses interface [Security], Clear method, ICspStatuses::Clear, certenroll/ICspStatuses::Clear, security.icspstatuses_clear_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

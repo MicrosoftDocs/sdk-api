@@ -7,7 +7,7 @@ old-location: automat\itypelib_gettypeinfoofguid.htm
 old-project: automat
 ms.assetid: 58f96322-f1cd-448c-906d-b7faa65ab9a0
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: GetTypeInfoOfGuid method [Automation], GetTypeInfoOfGuid method [Automation], ITypeLib interface, GetTypeInfoOfGuid,ITypeLib.GetTypeInfoOfGuid, ITypeLib, ITypeLib interface [Automation], GetTypeInfoOfGuid method, ITypeLib::GetTypeInfoOfGuid, _oa96_ITypeLib_GetTypeInfoOfGuid, automat.itypelib_gettypeinfoofguid, oaidl/ITypeLib::GetTypeInfoOfGuid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITypeLib::GetTypeInfoOfGuid method

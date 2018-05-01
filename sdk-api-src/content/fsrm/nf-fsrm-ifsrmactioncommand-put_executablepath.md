@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmactioncommand_executablepath.htm
 old-project: Fsrm
 ms.assetid: c15b09e3-a8b6-4c73-82d7-8de7c2635f77
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: ExecutablePath property [File Server Resource Manager], ExecutablePath property [File Server Resource Manager], IFsrmActionCommand interface, IFsrmActionCommand, IFsrmActionCommand interface [File Server Resource Manager], ExecutablePath property, IFsrmActionCommand.ExecutablePath, IFsrmActionCommand::get_ExecutablePath, IFsrmActionCommand::put_ExecutablePath, fs.ifsrmactioncommand_executablepath, fsrm.ifsrmactioncommand_executablepath, fsrm/IFsrmActionCommand::ExecutablePath, fsrm/IFsrmActionCommand::get_ExecutablePath, fsrm/IFsrmActionCommand::put_ExecutablePath, put_ExecutablePath,IFsrmActionCommand.put_ExecutablePath
 ms.prod: windows-hardware
 ms.technology: windows-devices

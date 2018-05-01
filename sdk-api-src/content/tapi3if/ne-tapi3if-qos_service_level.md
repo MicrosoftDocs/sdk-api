@@ -7,7 +7,7 @@ old-location: tapi3\qos_service_level.htm
 old-project: Tapi
 ms.assetid: 8b0a93ab-6445-4c60-9d27-552c355c1355
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: QOS_SERVICE_LEVEL, QOS_SERVICE_LEVEL enumeration [TAPI 2.2], QSL_BEST_EFFORT, QSL_IF_AVAILABLE, QSL_NEEDED, _tapi3_qos_service_level, tapi3.qos_service_level, tapi3if/QOS_SERVICE_LEVEL, tapi3if/QSL_BEST_EFFORT, tapi3if/QSL_IF_AVAILABLE, tapi3if/QSL_NEEDED
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,8 +38,8 @@ api_name:
 -	QOS_SERVICE_LEVEL
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
 req.irql: 
 req.product: Windows XP with SP1 and later
 ---

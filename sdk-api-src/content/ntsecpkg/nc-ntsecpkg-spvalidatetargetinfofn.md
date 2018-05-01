@@ -7,7 +7,7 @@ old-location: security\spvalidatetargetinfofn.htm
 old-project: SecAuthN
 ms.assetid: 01d1b74a-14d9-40cd-bcca-a031f5fc9cbb
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/24/2018
 ms.keywords: SpValidateTargetInfoFn, SpValidateTargetInfoFn function [Security], ntsecpkg/SpValidateTargetInfoFn, security.spvalidatetargetinfofn
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # SpValidateTargetInfoFn callback

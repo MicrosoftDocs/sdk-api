@@ -7,7 +7,7 @@ old-location: appxpkg\iappxcontentgroup.htm
 old-project: appxpkg
 ms.assetid: 3FB070C7-EAEA-461B-8A68-B29822D0560E
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/26/2018
 ms.keywords: IAppxContentGroup, IAppxContentGroup interface [App packaging and management], IAppxContentGroup interface [App packaging and management], described, appxpackaging/IAppxContentGroup, appxpkg.iappxcontentgroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_ARCHITECTURE2
+req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
 topic_type:
 -	APIRef
 -	kbSyntax

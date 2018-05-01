@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device_evict.htm
 old-project: direct3d12
 ms.assetid: 37F8ABA7-EDA3-4775-8B86-470FC4F95662
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: Evict method, Evict method, ID3D12Device interface, Evict,ID3D12Device.Evict, ID3D12Device, ID3D12Device interface, Evict method, ID3D12Device::Evict, d3d12/ID3D12Device::Evict, direct3d12.id3d12device_evict
 ms.prod: windows-hardware
 ms.technology: windows-devices

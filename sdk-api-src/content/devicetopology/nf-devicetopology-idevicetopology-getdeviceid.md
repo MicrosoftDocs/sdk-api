@@ -7,7 +7,7 @@ old-location: coreaudio\idevicetopology_getdeviceid.htm
 old-project: CoreAudio
 ms.assetid: 2ecf8f23-7cfd-447a-ab76-8a23b79f5d6c
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: GetDeviceId method [Core Audio], GetDeviceId method [Core Audio], IDeviceTopology interface, GetDeviceId,IDeviceTopology.GetDeviceId, IDeviceTopology, IDeviceTopology interface [Core Audio], GetDeviceId method, IDeviceTopology::GetDeviceId, IDeviceTopologyGetDeviceId, coreaudio.idevicetopology_getdeviceid, devicetopology/IDeviceTopology::GetDeviceId
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\iaztask_setproperty.htm
 old-project: SecAuthZ
 ms.assetid: 515d23f6-fcd9-4838-8910-2675211dfc48
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: AZ_PROP_APPLICATION_DATA, AZ_PROP_DESCRIPTION, AZ_PROP_IS_ROLE_DEFINITION, AZ_PROP_NAME, AZ_PROP_TASK_BIZRULE, AZ_PROP_TASK_BIZRULE_LANGUAGE, AZ_PROP_TASK_IS_ROLE_DEFINITION, AzTask object [Security], SetProperty method, IAzTask, IAzTask interface [Security], SetProperty method, IAzTask::SetProperty, SetProperty method [Security], SetProperty method [Security], AzTask object, SetProperty method [Security], IAzTask interface, SetProperty,IAzTask.SetProperty, azroles/IAzTask::SetProperty, security.iaztask_setproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

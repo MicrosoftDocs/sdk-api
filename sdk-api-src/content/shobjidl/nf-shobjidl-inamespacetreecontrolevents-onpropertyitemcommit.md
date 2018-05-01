@@ -7,7 +7,7 @@ old-location: shell\INameSpaceTreeControlEvents_OnPropertyItemCommit.htm
 old-project: shell
 ms.assetid: 85d0c2f1-b641-4437-90a4-285cfce62c60
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: INameSpaceTreeControlEvents, INameSpaceTreeControlEvents interface [Windows Shell], OnPropertyItemCommit method, INameSpaceTreeControlEvents::OnPropertyItemCommit, OnPropertyItemCommit method [Windows Shell], OnPropertyItemCommit method [Windows Shell], INameSpaceTreeControlEvents interface, OnPropertyItemCommit,INameSpaceTreeControlEvents.OnPropertyItemCommit, _shell_INameSpaceTreeControlEvents_OnPropertyItemCommit, shell.INameSpaceTreeControlEvents_OnPropertyItemCommit, shobjidl/INameSpaceTreeControlEvents::OnPropertyItemCommit
 ms.prod: windows-hardware
 ms.technology: windows-devices

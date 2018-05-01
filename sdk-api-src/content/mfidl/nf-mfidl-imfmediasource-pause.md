@@ -7,7 +7,7 @@ old-location: mf\imfmediasource_pause.htm
 old-project: medfound
 ms.assetid: 113b3dc7-918e-427e-aa70-cf474b951c6d
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 113b3dc7-918e-427e-aa70-cf474b951c6d, IMFMediaSource, IMFMediaSource interface [Media Foundation], Pause method, IMFMediaSource::Pause, Pause method [Media Foundation], Pause method [Media Foundation], IMFMediaSource interface, Pause,IMFMediaSource.Pause, mf.imfmediasource_pause, mfidl/IMFMediaSource::Pause
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: com\ioledocument_createview.htm
 old-project: com
 ms.assetid: 709d7ff4-d32d-405f-8839-b05df49ef751
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: CreateView method [COM], CreateView method [COM], IOleDocument interface, CreateView,IOleDocument.CreateView, IOleDocument, IOleDocument interface [COM], CreateView method, IOleDocument::CreateView, _ole_ioledocument_createview, com.ioledocument_createview, docobj/IOleDocument::CreateView
 ms.prod: windows-hardware
 ms.technology: windows-devices

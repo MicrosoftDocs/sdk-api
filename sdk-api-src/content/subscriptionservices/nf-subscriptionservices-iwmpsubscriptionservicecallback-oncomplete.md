@@ -7,7 +7,7 @@ old-location: wmp\iwmpsubscriptionservicecallback_oncomplete.htm
 old-project: WMP
 ms.assetid: 1a6775b5-a909-49b1-98e8-ccc110294df6
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPSubscriptionServiceCallback, IWMPSubscriptionServiceCallback interface [Windows Media Player], onComplete method, IWMPSubscriptionServiceCallback::onComplete, IWMPSubscriptionServiceCallbackonComplete, onComplete method [Windows Media Player], onComplete method [Windows Media Player], IWMPSubscriptionServiceCallback interface, onComplete,IWMPSubscriptionServiceCallback.onComplete, subscriptionservices/IWMPSubscriptionServiceCallback::onComplete, wmp.iwmpsubscriptionservicecallback_oncomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices

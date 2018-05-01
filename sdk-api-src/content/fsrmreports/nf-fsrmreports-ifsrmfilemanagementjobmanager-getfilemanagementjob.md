@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmfilemanagementjobmanager_getfilemanagementjob.htm
 old-project: Fsrm
 ms.assetid: 106c5237-94bc-4556-aa65-247697133810
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: FsrmFileManagementJobManager class [File Server Resource Manager], GetFileManagementJob method, GetFileManagementJob method [File Server Resource Manager], GetFileManagementJob method [File Server Resource Manager], FsrmFileManagementJobManager class, GetFileManagementJob method [File Server Resource Manager], IFsrmFileManagementJobManager interface, GetFileManagementJob,IFsrmFileManagementJobManager.GetFileManagementJob, IFsrmFileManagementJobManager, IFsrmFileManagementJobManager interface [File Server Resource Manager], GetFileManagementJob method, IFsrmFileManagementJobManager::GetFileManagementJob, fs.ifsrmfilemanagementjobmanager_getfilemanagementjob, fsrm.ifsrmfilemanagementjobmanager_getfilemanagementjob, fsrmreports/IFsrmFileManagementJobManager::GetFileManagementJob
 ms.prod: windows-hardware
 ms.technology: windows-devices

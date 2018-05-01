@@ -7,7 +7,7 @@ old-location: mstv\imsvidrect_get_top.htm
 old-project: mstv
 ms.assetid: 3596141c-e359-4ea5-8d6a-9ec374c1f854
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidRect, IMSVidRect interface [Microsoft TV Technologies], get_Top method, IMSVidRect::get_Top, IMSVidRectget_Top, get_Top method [Microsoft TV Technologies], get_Top method [Microsoft TV Technologies], IMSVidRect interface, get_Top,IMSVidRect.get_Top, mstv.imsvidrect_get_top, segment/IMSVidRect::get_Top
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidRect::get_Top method

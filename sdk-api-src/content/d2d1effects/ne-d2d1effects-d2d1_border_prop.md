@@ -7,7 +7,7 @@ old-location: direct2d\d2d1_border_prop.htm
 old-project: Direct2D
 ms.assetid: A8622A21-4B06-4262-B68C-A4FF075CFF37
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: D2D1_BORDER_PROP, D2D1_BORDER_PROP enumeration [Direct2D], D2D1_BORDER_PROP_EDGE_MODE_X, D2D1_BORDER_PROP_EDGE_MODE_Y, d2d1effects/D2D1_BORDER_PROP, d2d1effects/D2D1_BORDER_PROP_EDGE_MODE_X, d2d1effects/D2D1_BORDER_PROP_EDGE_MODE_Y, direct2d.d2d1_border_prop
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: fsrm\fsrmcommitoptions.htm
 old-project: Fsrm
 ms.assetid: eb362bd8-c11f-404e-be54-0e16007494a7
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: FsrmCommitOptions, FsrmCommitOptions enumeration [File Server Resource Manager], FsrmCommitOptions_Asynchronous, FsrmCommitOptions_None, _FsrmCommitOptions, fs.fsrmcommitoptions, fsrm.fsrmcommitoptions, fsrmenums/FsrmCommitOptions, fsrmenums/FsrmCommitOptions_Asynchronous, fsrmenums/FsrmCommitOptions_None
 ms.prod: windows-hardware
 ms.technology: windows-devices

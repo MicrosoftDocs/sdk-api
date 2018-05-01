@@ -7,7 +7,7 @@ old-location: mediastreaming\imediarenderer_gettransportinformationasync.htm
 old-project: mediastreaming
 ms.assetid: C7EA3FB7-0D12-4E49-857F-D8311711AA89
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/10/2018
 ms.keywords: GetTransportInformationAsync method [Media Streaming API], GetTransportInformationAsync method [Media Streaming API], IMediaRenderer interface, GetTransportInformationAsync,IMediaRenderer.GetTransportInformationAsync, IMediaRenderer, IMediaRenderer interface [Media Streaming API], GetTransportInformationAsync method, IMediaRenderer::GetTransportInformationAsync, mediastreaming.imediarenderer_gettransportinformationasync, windows/IMediaRenderer::GetTransportInformationAsync
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: PDF_RENDER_PARAMS
+req.typenames: TimeSpan
 topic_type:
 -	APIRef
 -	kbSyntax

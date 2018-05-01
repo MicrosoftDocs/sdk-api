@@ -7,7 +7,7 @@ old-location: direct3d9\paletteentry.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\paletteentry.htm
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/10/2018
 ms.keywords: "*LPPALETTEENTRY, *PPALETTEENTRY, 523c466d-5003-02e3-c336-f0e36539855e, LPPALETTEENTRY, LPPALETTEENTRY structure pointer [Direct3D 9], PALETTEENTRY, PALETTEENTRY structure [Direct3D 9], direct3d9.paletteentry, tagPALETTEENTRY, wingdi/LPPALETTEENTRY, wingdi/PALETTEENTRY"
 ms.prod: windows-hardware
 ms.technology: windows-devices

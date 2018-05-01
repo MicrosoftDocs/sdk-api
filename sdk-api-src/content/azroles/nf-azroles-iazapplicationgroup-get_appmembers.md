@@ -7,7 +7,7 @@ old-location: security\iazapplicationgroup_appmembers.htm
 old-project: SecAuthZ
 ms.assetid: 74239ac2-b6ea-4839-b4c5-7a77d454aa0b
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: AppMembers property [Security], AppMembers property [Security], AzApplicationGroup object, AppMembers property [Security], IAzApplicationGroup interface, AzApplicationGroup object [Security], AppMembers property, IAzApplicationGroup, IAzApplicationGroup interface [Security], AppMembers property, IAzApplicationGroup.AppMembers, IAzApplicationGroup::get_AppMembers, azroles/IAzApplicationGroup::AppMembers, azroles/IAzApplicationGroup::get_AppMembers, get_AppMembers,IAzApplicationGroup.get_AppMembers, security.iazapplicationgroup_appmembers
 ms.prod: windows-hardware
 ms.technology: windows-devices

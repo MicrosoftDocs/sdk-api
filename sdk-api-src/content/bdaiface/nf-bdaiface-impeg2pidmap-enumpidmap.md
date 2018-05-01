@@ -7,7 +7,7 @@ old-location: dshow\impeg2pidmap_enumpidmap.htm
 old-project: DirectShow
 ms.assetid: 9e5dbc92-e072-4e59-b7b2-07ae39cb9d59
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: EnumPIDMap method [DirectShow], EnumPIDMap method [DirectShow], IMPEG2PIDMap interface, EnumPIDMap,IMPEG2PIDMap.EnumPIDMap, IMPEG2PIDMap, IMPEG2PIDMap interface [DirectShow], EnumPIDMap method, IMPEG2PIDMap::EnumPIDMap, IMPEG2PIDMapEnumPIDMap, bdaiface/IMPEG2PIDMap::EnumPIDMap, dshow.impeg2pidmap_enumpidmap
 ms.prod: windows-hardware
 ms.technology: windows-devices

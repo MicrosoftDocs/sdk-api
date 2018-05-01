@@ -7,7 +7,7 @@ old-location: appxpkg\iappxbundlereader_getblockmap.htm
 old-project: appxpkg
 ms.assetid: 721940C7-0680-4AD0-93BC-20D630EDE228
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/26/2018
 ms.keywords: GetBlockMap method [App packaging and management], GetBlockMap method [App packaging and management], IAppxBundleReader interface, GetBlockMap,IAppxBundleReader.GetBlockMap, IAppxBundleReader, IAppxBundleReader interface [App packaging and management], GetBlockMap method, IAppxBundleReader::GetBlockMap, appxpackaging/IAppxBundleReader::GetBlockMap, appxpkg.iappxbundlereader_getblockmap
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_ARCHITECTURE2
+req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
 topic_type:
 -	APIRef
 -	kbSyntax

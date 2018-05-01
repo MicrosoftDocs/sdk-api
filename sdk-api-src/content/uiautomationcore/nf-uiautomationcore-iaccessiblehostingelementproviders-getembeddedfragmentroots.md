@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IAccessibleHostingElementProviders_GetEmbeddedFragm
 old-project: WinAuto
 ms.assetid: 39A9665F-C2F3-48A2-A165-50AD3B82455F
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: GetEmbeddedFragmentRoots method [Windows Accessibility], GetEmbeddedFragmentRoots method [Windows Accessibility], IAccessibleHostingElementProviders interface, GetEmbeddedFragmentRoots,IAccessibleHostingElementProviders.GetEmbeddedFragmentRoots, IAccessibleHostingElementProviders, IAccessibleHostingElementProviders interface [Windows Accessibility], GetEmbeddedFragmentRoots method, IAccessibleHostingElementProviders::GetEmbeddedFragmentRoots, uiautomationcore/IAccessibleHostingElementProviders::GetEmbeddedFragmentRoots, winauto.uiauto_IAccessibleHostingElementProviders_GetEmbeddedFragmentRoots
 ms.prod: windows-hardware
 ms.technology: windows-devices

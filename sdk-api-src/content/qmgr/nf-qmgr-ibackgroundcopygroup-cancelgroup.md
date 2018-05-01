@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopygroup_cancelgroup.htm
 old-project: Bits
 ms.assetid: 4ef86db1-3dff-4345-a09a-efea8b6c8c8e
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/10/2018
 ms.keywords: CancelGroup method [BITS], CancelGroup method [BITS], IBackgroundCopyGroup interface, CancelGroup,IBackgroundCopyGroup.CancelGroup, IBackgroundCopyGroup, IBackgroundCopyGroup interface [BITS], CancelGroup method, IBackgroundCopyGroup::CancelGroup, bits.ibackgroundcopygroup_cancelgroup, qmgr/IBackgroundCopyGroup::CancelGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: QmgrPrxy.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IBackgroundCopyGroup::CancelGroup method

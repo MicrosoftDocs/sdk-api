@@ -7,7 +7,7 @@ old-location: wmi\chstring_right.htm
 old-project: WmiSdk
 ms.assetid: eccf928f-75ac-4442-90f9-0e0578c5798f
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: "?Right@CHString@@QBE?AV1@H@Z, ?Right@CHString@@QEBA?AV1@H@Z, CHString, CHString interface [Windows Management Instrumentation], Right method, CHString::Right, Right method [Windows Management Instrumentation], Right method [Windows Management Instrumentation], CHString interface, Right,CHString.Right, _hmm_chstring_right, chstring/CHString::Right, wmi.chstring_right"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CF_SYNC_ROOT_STANDARD_INFO
+req.typenames: CF_SYNC_STATUS
 topic_type:
 -	APIRef
 -	kbSyntax

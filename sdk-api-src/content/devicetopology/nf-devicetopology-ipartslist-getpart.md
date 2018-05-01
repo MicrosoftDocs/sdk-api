@@ -7,7 +7,7 @@ old-location: coreaudio\ipartslist_getpart.htm
 old-project: CoreAudio
 ms.assetid: 505e2412-2849-4e64-9751-ce68831823b8
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: GetPart method [Core Audio], GetPart method [Core Audio], IPartsList interface, GetPart,IPartsList.GetPart, IPartsList, IPartsList interface [Core Audio], GetPart method, IPartsList::GetPart, IPartsListGetPart, coreaudio.ipartslist_getpart, devicetopology/IPartsList::GetPart
 ms.prod: windows-hardware
 ms.technology: windows-devices

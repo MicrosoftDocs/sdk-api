@@ -7,7 +7,7 @@ old-location: mf\imfbytestream_getcurrentposition.htm
 old-project: medfound
 ms.assetid: de36742a-a8a5-4f40-9fea-af89d9a6bf2e
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetCurrentPosition method [Media Foundation], GetCurrentPosition method [Media Foundation], IMFByteStream interface, GetCurrentPosition,IMFByteStream.GetCurrentPosition, IMFByteStream, IMFByteStream interface [Media Foundation], GetCurrentPosition method, IMFByteStream::GetCurrentPosition, de36742a-a8a5-4f40-9fea-af89d9a6bf2e, mf.imfbytestream_getcurrentposition, mfobjects/IMFByteStream::GetCurrentPosition
 ms.prod: windows-hardware
 ms.technology: windows-devices

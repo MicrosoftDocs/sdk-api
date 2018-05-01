@@ -7,7 +7,7 @@ old-location: wmp\iwmpcdromcollection_get_count.htm
 old-project: WMP
 ms.assetid: 0e0c73b3-463c-43de-b1b8-5644a377bfd1
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPCdromCollection, IWMPCdromCollection interface [Windows Media Player], get_count method, IWMPCdromCollection::get_count, IWMPCdromCollectionget_count, get_count method [Windows Media Player], get_count method [Windows Media Player], IWMPCdromCollection interface, get_count,IWMPCdromCollection.get_count, wmp.iwmpcdromcollection_get_count, wmp/IWMPCdromCollection::get_count
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\mt_custom_video_primaries.htm
 old-project: medfound
 ms.assetid: 2c26e906-e428-4a76-b10a-10a18f300ebe
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 2c26e906-e428-4a76-b10a-10a18f300ebe, MT_CUSTOM_VIDEO_PRIMARIES, MT_CUSTOM_VIDEO_PRIMARIES structure [Media Foundation], _MT_CUSTOM_VIDEO_PRIMARIES, mf.mt_custom_video_primaries, mfapi/MT_CUSTOM_VIDEO_PRIMARIES
 ms.prod: windows-hardware
 ms.technology: windows-devices

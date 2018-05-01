@@ -7,7 +7,7 @@ old-location: mf\imftimedtextcue_getduration.htm
 old-project: medfound
 ms.assetid: 6E2CD435-C628-4F8B-B648-9EEBCFDA8EC2
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetDuration method [Media Foundation], GetDuration method [Media Foundation], IMFTimedTextCue interface, GetDuration,IMFTimedTextCue.GetDuration, IMFTimedTextCue, IMFTimedTextCue interface [Media Foundation], GetDuration method, IMFTimedTextCue::GetDuration, mf.imftimedtextcue_getduration, mfmediaengine/IMFTimedTextCue::GetDuration
 ms.prod: windows-hardware
 ms.technology: windows-devices

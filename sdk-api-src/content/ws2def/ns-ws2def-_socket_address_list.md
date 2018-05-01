@@ -2,21 +2,21 @@
 UID: NS:ws2def._SOCKET_ADDRESS_LIST
 title: "_SOCKET_ADDRESS_LIST"
 author: windows-driver-content
-description: SOCKET_ADDRESS_LIST structure stores an array of SOCKET_ADDRESS structures.
-old-location: winsock\socket_address_list.htm
-old-project: WinSock
-ms.assetid: da727dba-3814-4b6a-bc05-ab8fbd8fbe90
+description: The SOCKET_ADDRESS_LIST structure defines a variable-sized list of transport addresses.
+old-location: netvista\socket_address_list.htm
+old-project: netvista
+ms.assetid: b005200b-b0c2-4f19-8765-cd26fbfc0cff
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
-ms.keywords: "*LPSOCKET_ADDRESS_LIST, *PSOCKET_ADDRESS_LIST, FAR *LPSOCKET_ADDRESS_LIST, FAR *LPSOCKET_ADDRESS_LIST structure [Winsock], PSOCKET_ADDRESS_LIST, PSOCKET_ADDRESS_LIST structure pointer [Winsock], SOCKET_ADDRESS_LIST, SOCKET_ADDRESS_LIST structure [Winsock], _SOCKET_ADDRESS_LIST, winsock.socket_address_list, winsock2/FAR *LPSOCKET_ADDRESS_LIST, winsock2/PSOCKET_ADDRESS_LIST, winsock2/SOCKET_ADDRESS_LIST, ws2def/FAR *LPSOCKET_ADDRESS_LIST, ws2def/PSOCKET_ADDRESS_LIST, ws2def/SOCKET_ADDRESS_LIST"
+ms.date: 4/25/2018
+ms.keywords: "*LPSOCKET_ADDRESS_LIST, *PSOCKET_ADDRESS_LIST, LPSOCKET_ADDRESS_LIST, LPSOCKET_ADDRESS_LIST structure pointer [Network Drivers Starting with Windows Vista], PSOCKET_ADDRESS_LIST, PSOCKET_ADDRESS_LIST structure pointer [Network Drivers Starting with Windows Vista], SOCKET_ADDRESS_LIST, SOCKET_ADDRESS_LIST structure [Network Drivers Starting with Windows Vista], _SOCKET_ADDRESS_LIST, netvista.socket_address_list, ws2def/LPSOCKET_ADDRESS_LIST, ws2def/PSOCKET_ADDRESS_LIST, ws2def/SOCKET_ADDRESS_LIST, wskref_7bca89ec-9ce8-4046-9bf6-fcaa01a37b21.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: ws2def.h
-req.include-header: Winsock2.h
+req.include-header: Wsk.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
-req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
+req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -33,8 +33,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	Ws2def.h
--	Winsock2.h
+-	ws2def.h
 api_name:
 -	SOCKET_ADDRESS_LIST
 product: Windows
@@ -51,9 +50,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-The 
-<b>SOCKET_ADDRESS_LIST</b> structure stores an array of <a href="https://msdn.microsoft.com/37fbcb96-a859-4eca-8928-8051f95407b9">SOCKET_ADDRESS</a> structures that contain protocol-specific address information.
-			
+The SOCKET_ADDRESS_LIST structure defines a variable-sized list of transport addresses.
 
 
 ## -struct-fields
@@ -63,19 +60,63 @@ The
 
 ### -field iAddressCount
 
-The number of address structures in the <b>Address</b> member.
+The number of transport addresses in the list.
 
 
 ### -field Address
 
-An array of <a href="https://msdn.microsoft.com/37fbcb96-a859-4eca-8928-8051f95407b9">SOCKET_ADDRESS</a> structures that are specific to a protocol family.
+A variable-sized array of SOCKET_ADDRESS structures. The SOCKET_ADDRESS structure is defined as
+     follows:
+     
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef struct _SOCKET_ADDRESS {
+  LPSOCKADDR  lpSockaddr;
+  INT  iSockaddrLength;
+} SOCKET_ADDRESS, *PSOCKET_ADDRESS, *LPSOCKET_ADDRESS;</pre>
+</td>
+</tr>
+</table></span></div>
+
+
+
+
+#### lpSockaddr
+
+A pointer to a buffer that contains a transport address.
+
+
+
+#### iSockaddrLength
+
+The size, in bytes, of the SOCKADDR structure type that is pointed to by the 
+       <b>lpSockaddr</b> member.
 
 
 ## -remarks
 
 
 
-On the Microsoft Windows Software Development Kit (SDK) released for Windows Vista and later, the organization of header files has changed and the <b>SOCKET_ADDRESS_LIST</b> structure is defined in the <i>Ws2def.h</i> header file. Note that the <i>Ws2def.h</i> header file is automatically included in <i>Winsock2.h</i>, and should never be used directly.
+A WSK application passes a buffer to the 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff571127">WskControlSocket</a> function when the WSK
+    application queries the current list of local transport addresses that match a socket's address family.
+    If the call to the 
+    <b>WskControlSocket</b> function succeeds, the buffer contains a SOCKET_ADDRESS_LIST structure followed by
+    the SOCKADDR structures for each of the local transport addresses that match the socket's address family.
+    The WSK subsystem fills in the 
+    <b>Address</b> array and sets the 
+    <b>iAddressCount</b> member to the number of entries in the array. The 
+    <b>lpSockaddr</b> pointers in each of the SOCKET_ADDRESS structures in the array point to the specific
+    SOCKADDR structure type that corresponds to the address family that the WSK application specified when it
+    created the socket.
+
+For more information about querying the current list of local transport addresses, see 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff570815">SIO_ADDRESS_LIST_QUERY</a>.
 
 
 
@@ -89,23 +130,11 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 
-<a href="https://msdn.microsoft.com/37fbcb96-a859-4eca-8928-8051f95407b9">SOCKET_ADDRESS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">SOCKADDR</a>
 
 
 
-<a href="https://msdn.microsoft.com/bf380ddf-8171-4ef4-be47-94c7a6aabf0a">Using SIO_ADDRESS_LIST_SORT</a>
-
-
-
-<a href="https://msdn.microsoft.com/7323d814-e96e-44b9-8ade-a9317e4fbf17">WSAConnectByList</a>
-
-
-
-<a href="https://msdn.microsoft.com/038aeca6-d7b7-4f74-ac69-4536c2e5118b">WSAIoctl</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566296">WSPIoctl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571127">WskControlSocket</a>
  
 
  

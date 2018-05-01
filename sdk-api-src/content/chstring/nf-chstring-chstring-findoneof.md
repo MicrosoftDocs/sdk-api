@@ -7,7 +7,7 @@ old-location: wmi\chstring_findoneof.htm
 old-project: WmiSdk
 ms.assetid: f3f9111d-9191-4ba5-877a-736e11d0a168
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: CHString, CHString interface [Windows Management Instrumentation], FindOneOf method, CHString::FindOneOf, FindOneOf method [Windows Management Instrumentation], FindOneOf method [Windows Management Instrumentation], CHString interface, FindOneOf,CHString.FindOneOf, _hmm_chstring_findoneof, chstring/CHString::FindOneOf, wmi.chstring_findoneof
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CF_SYNC_ROOT_STANDARD_INFO
+req.typenames: CF_SYNC_STATUS
 topic_type:
 -	APIRef
 -	kbSyntax

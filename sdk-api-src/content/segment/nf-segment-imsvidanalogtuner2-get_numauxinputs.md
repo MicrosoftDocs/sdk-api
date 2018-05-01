@@ -7,7 +7,7 @@ old-location: mstv\imsvidanalogtuner2_get_numauxinputs.htm
 old-project: mstv
 ms.assetid: 72e3c0eb-4c65-4782-b799-80bf968e736a
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidAnalogTuner2, IMSVidAnalogTuner2 interface [Microsoft TV Technologies], get_NumAuxInputs method, IMSVidAnalogTuner2::get_NumAuxInputs, IMSVidAnalogTuner2getNumAuxInputs, get_NumAuxInputs method [Microsoft TV Technologies], get_NumAuxInputs method [Microsoft TV Technologies], IMSVidAnalogTuner2 interface, get_NumAuxInputs,IMSVidAnalogTuner2.get_NumAuxInputs, mstv.imsvidanalogtuner2_get_numauxinputs, segment/IMSVidAnalogTuner2::get_NumAuxInputs
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidAnalogTuner2::get_NumAuxInputs method

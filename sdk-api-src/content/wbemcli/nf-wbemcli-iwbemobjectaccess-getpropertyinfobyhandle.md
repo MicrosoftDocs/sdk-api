@@ -7,7 +7,7 @@ old-location: wmi\iwbemobjectaccess_getpropertyinfobyhandle.htm
 old-project: WmiSdk
 ms.assetid: a29157a8-50da-485d-a2b1-bf9645ba9963
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: GetPropertyInfoByHandle method [Windows Management Instrumentation], GetPropertyInfoByHandle method [Windows Management Instrumentation], IWbemObjectAccess interface, GetPropertyInfoByHandle,IWbemObjectAccess.GetPropertyInfoByHandle, IWbemObjectAccess, IWbemObjectAccess interface [Windows Management Instrumentation], GetPropertyInfoByHandle method, IWbemObjectAccess::GetPropertyInfoByHandle, _hmm_iwbemobjectaccess_getpropertyinfobyhandle, wbemcli/IWbemObjectAccess::GetPropertyInfoByHandle, wmi.iwbemobjectaccess_getpropertyinfobyhandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

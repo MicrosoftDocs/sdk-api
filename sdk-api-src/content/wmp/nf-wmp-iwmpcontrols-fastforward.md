@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontrols_fastforward.htm
 old-project: WMP
 ms.assetid: a741da8d-f1a2-4a96-acb6-7c40077f6b5e
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPControls, IWMPControls interface [Windows Media Player], fastForward method, IWMPControls::fastForward, IWMPControlsfastForward, fastForward method [Windows Media Player], fastForward method [Windows Media Player], IWMPControls interface, fastForward,IWMPControls.fastForward, wmp.iwmpcontrols_fastforward, wmp/IWMPControls::fastForward
 ms.prod: windows-hardware
 ms.technology: windows-devices

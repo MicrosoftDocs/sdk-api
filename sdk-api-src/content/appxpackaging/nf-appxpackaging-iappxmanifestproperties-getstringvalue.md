@@ -7,7 +7,7 @@ old-location: appxpkg\iappxmanifestproperties_getstringvalue.htm
 old-project: appxpkg
 ms.assetid: 3EF2D8A2-37B2-4E57-9FD3-DA05FA90749C
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/26/2018
 ms.keywords: GetStringValue method [App packaging and management], GetStringValue method [App packaging and management], IAppxManifestProperties interface, GetStringValue,IAppxManifestProperties.GetStringValue, IAppxManifestProperties, IAppxManifestProperties interface [App packaging and management], GetStringValue method, IAppxManifestProperties::GetStringValue, appxpackaging/IAppxManifestProperties::GetStringValue, appxpkg.iappxmanifestproperties_getstringvalue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_ARCHITECTURE2
+req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,7 +7,7 @@ old-location: security\azauthorizationstore_policyreadersname.htm
 old-project: SecAuthZ
 ms.assetid: d550448e-a1ea-45f3-9151-affd4b8c0b14
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: AzAuthorizationStore object [Security], PolicyReadersName property, IAzAuthorizationStore, IAzAuthorizationStore interface [Security], PolicyReadersName property, IAzAuthorizationStore.PolicyReadersName, IAzAuthorizationStore::get_PolicyReadersName, PolicyReadersName property [Security], PolicyReadersName property [Security], AzAuthorizationStore object, PolicyReadersName property [Security], IAzAuthorizationStore interface, azroles/IAzAuthorizationStore::PolicyReadersName, azroles/IAzAuthorizationStore::get_PolicyReadersName, get_PolicyReadersName,IAzAuthorizationStore.get_PolicyReadersName, security.azauthorizationstore_policyreadersname
 ms.prod: windows-hardware
 ms.technology: windows-devices

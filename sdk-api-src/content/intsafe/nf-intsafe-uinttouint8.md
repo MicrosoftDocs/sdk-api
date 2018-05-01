@@ -2,21 +2,21 @@
 UID: NF:intsafe.UIntToUInt8
 title: UIntToUInt8 function
 author: windows-driver-content
-description: Converts a value of type UINT to a value of type UINT8.
-old-location: shell\UIntToUInt8.htm
+description: Converts a value of type UINT to a value of type BYTE.
+old-location: shell\UIntToByte.htm
 old-project: shell
-ms.assetid: c3c63264-6b5d-4d58-947a-d0cc7a051a6d
+ms.assetid: ea021531-cf67-4c47-b101-bc56a3663135
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
-ms.keywords: UIntToUInt8, UIntToUInt8 function [Windows Shell], intsafe/UIntToUInt8, shell.UIntToUInt8
+ms.date: 4/26/2018
+ms.keywords: UIntToByte, UIntToByte function [Windows Shell], UIntToUInt8, _shell_UIntToByte, intsafe/UIntToByte, shell.UIntToByte
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 7 [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2008 R2 [desktop apps | UWP apps]
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -33,9 +33,9 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	intsafe.h
+-	Intsafe.h
 api_name:
--	UIntToUInt8
+-	UIntToByte
 product: Windows
 targetos: Windows
 req.lib: 
@@ -50,7 +50,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Converts a value of type <b>UINT</b> to a value of type <b>UINT8</b>.
+Converts a value of type <b>UINT</b> to a value of type <b>BYTE</b>.
 
 
 ## -parameters
@@ -60,19 +60,41 @@ Converts a value of type <b>UINT</b> to a value of type <b>UINT8</b>.
 
 ### -param uOperand [in]
 
-The value to convert.
+Type: <b>UINT</b>
+
+The value to be converted.
 
 
-### -param pui8Result [out]
+### -param pui8Result
 
-The converted value.
+TBD
+
+
+
+
+#### - pb [out]
+
+Type: <b>BYTE*</b>
+
+A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns INTSAFE_E_ARITHMETIC_OVERFLOW and this parameter is not valid.
 
 
 ## -returns
 
 
 
+Type: <b>HRESULT</b>
+
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
 
 
 

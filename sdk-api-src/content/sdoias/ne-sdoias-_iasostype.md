@@ -7,7 +7,7 @@ old-location: nps\SDO_iasostype.htm
 old-project: Nps
 ms.assetid: 83a3d4cf-e0ab-467a-8c5a-b7372c76cca3
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/24/2018
 ms.keywords: "*PIASOSTYPE, IASOSTYPE, IASOSTYPE enumeration [Network Policy Server], PIASOSTYPE, PIASOSTYPE enumeration pointer [Network Policy Server], SYSTEM_TYPE_NT4_SERVER, SYSTEM_TYPE_NT4_WORKSTATION, SYSTEM_TYPE_NT5_SERVER, SYSTEM_TYPE_NT5_WORKSTATION, SYSTEM_TYPE_NT6_SERVER, SYSTEM_TYPE_NT6_WORKSTATION, _IASOSTYPE, _sdo_iasostype, nps.SDO_iasostype, sdo.iasostype, sdoias/IASOSTYPE, sdoias/PIASOSTYPE, sdoias/SYSTEM_TYPE_NT4_SERVER, sdoias/SYSTEM_TYPE_NT4_WORKSTATION, sdoias/SYSTEM_TYPE_NT5_SERVER, sdoias/SYSTEM_TYPE_NT5_WORKSTATION, sdoias/SYSTEM_TYPE_NT6_SERVER, sdoias/SYSTEM_TYPE_NT6_WORKSTATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _IASOSTYPE enumeration

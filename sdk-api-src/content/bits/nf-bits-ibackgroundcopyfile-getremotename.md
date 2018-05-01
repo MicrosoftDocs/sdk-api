@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyfile_getremotename.htm
 old-project: Bits
 ms.assetid: b6b1b1dc-776e-4369-bd39-d159e4edfe38
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/10/2018
 ms.keywords: GetRemoteName method [BITS], GetRemoteName method [BITS], IBackgroundCopyFile interface, GetRemoteName,IBackgroundCopyFile.GetRemoteName, IBackgroundCopyFile, IBackgroundCopyFile interface [BITS], GetRemoteName method, IBackgroundCopyFile::GetRemoteName, _drz_ibackgroundcopyfile_getremotename, bits.ibackgroundcopyfile_getremotename, bits/IBackgroundCopyFile::GetRemoteName
 ms.prod: windows-hardware
 ms.technology: windows-devices

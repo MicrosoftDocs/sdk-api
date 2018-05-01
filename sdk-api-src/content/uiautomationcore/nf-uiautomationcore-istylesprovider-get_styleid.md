@@ -7,7 +7,7 @@ old-location: winauto\uiauto_istylesprovider_styleid.htm
 old-project: WinAuto
 ms.assetid: EFFEC853-595C-4304-8EDF-BA80EA8FEC5B
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: IStylesProvider, IStylesProvider interface [Windows Accessibility], StyleId property, IStylesProvider.StyleId, IStylesProvider::get_StyleId, StyleId property [Windows Accessibility], StyleId property [Windows Accessibility], IStylesProvider interface, get_StyleId,IStylesProvider.get_StyleId, uiautomationcore/IStylesProvider::StyleId, uiautomationcore/IStylesProvider::get_StyleId, winauto.uiauto_istylesprovider_styleid
 ms.prod: windows-hardware
 ms.technology: windows-devices

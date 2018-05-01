@@ -7,7 +7,7 @@ old-location: base\setthreadpoolcallbackpersistent.htm
 old-project: ProcThread
 ms.assetid: 3f209586-5452-4928-8f97-70648b22460d
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: SetThreadpoolCallbackPersistent, SetThreadpoolCallbackPersistent function, base.setthreadpoolcallbackpersistent, winbase/SetThreadpoolCallbackPersistent
 ms.prod: windows-hardware
 ms.technology: windows-devices

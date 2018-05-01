@@ -7,7 +7,7 @@ old-location: mf\mfcreateasfcontentinfo.htm
 old-project: medfound
 ms.assetid: 00460f79-7033-4893-88c0-b1c939441f70
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 00460f79-7033-4893-88c0-b1c939441f70, MFCreateASFContentInfo, MFCreateASFContentInfo function [Media Foundation], mf.mfcreateasfcontentinfo, wmcontainer/MFCreateASFContentInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

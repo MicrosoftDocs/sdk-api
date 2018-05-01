@@ -7,7 +7,7 @@ old-location: stg\ipropertystorage_commit.htm
 old-project: Stg
 ms.assetid: 00efae8b-023e-425d-b7cd-c40c17d7948e
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/20/2018
 ms.keywords: Commit method [Structured Storage], Commit method [Structured Storage], IPropertyStorage interface, Commit,IPropertyStorage.Commit, IPropertyStorage, IPropertyStorage interface [Structured Storage], Commit method, IPropertyStorage::Commit, _stg_ipropertystorage_commit, propidl/IPropertyStorage::Commit, stg.ipropertystorage_commit
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IPropertyStorage::Commit method

@@ -7,7 +7,7 @@ old-location: controls\ITextPara_SetStyle.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextpara\itextparasetstyle.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextPara, ITextPara interface [Windows Controls], SetStyle method, ITextPara::SetStyle, SetStyle method [Windows Controls], SetStyle method [Windows Controls], ITextPara interface, SetStyle,ITextPara.SetStyle, _win32_ITextPara_SetStyle, _win32_ITextPara_SetStyle_cpp, controls.ITextPara_SetStyle, controls._win32_ITextPara_SetStyle, tom/ITextPara::SetStyle
 ms.prod: windows-hardware
 ms.technology: windows-devices

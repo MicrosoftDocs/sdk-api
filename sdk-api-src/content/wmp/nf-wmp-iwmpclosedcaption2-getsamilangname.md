@@ -7,7 +7,7 @@ old-location: wmp\iwmpclosedcaption2_getsamilangname.htm
 old-project: WMP
 ms.assetid: f2da5045-4000-46d8-a610-f5f80cb6f713
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPClosedCaption2, IWMPClosedCaption2 interface [Windows Media Player], getSAMILangName method, IWMPClosedCaption2::getSAMILangName, IWMPClosedCaption2getSAMILangName, getSAMILangName method [Windows Media Player], getSAMILangName method [Windows Media Player], IWMPClosedCaption2 interface, getSAMILangName,IWMPClosedCaption2.getSAMILangName, wmp.iwmpclosedcaption2_getsamilangname, wmp/IWMPClosedCaption2::getSAMILangName
 ms.prod: windows-hardware
 ms.technology: windows-devices

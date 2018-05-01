@@ -7,7 +7,7 @@ old-location: wmi\iwbemhiperfprovider_createrefreshableobject.htm
 old-project: WmiSdk
 ms.assetid: 1eb414e0-cdf6-4caa-88a5-8da17a32449c
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: CreateRefreshableObject method [Windows Management Instrumentation], CreateRefreshableObject method [Windows Management Instrumentation], IWbemHiPerfProvider interface, CreateRefreshableObject,IWbemHiPerfProvider.CreateRefreshableObject, IWbemHiPerfProvider, IWbemHiPerfProvider interface [Windows Management Instrumentation], CreateRefreshableObject method, IWbemHiPerfProvider::CreateRefreshableObject, _hmm_iwbemhiperfprovider_createrefreshableobject, wbemprov/IWbemHiPerfProvider::CreateRefreshableObject, wmi.iwbemhiperfprovider_createrefreshableobject
 ms.prod: windows-hardware
 ms.technology: windows-devices

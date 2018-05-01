@@ -7,7 +7,7 @@ old-location: controls\ITextRange_InStory.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\instory.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextRange, ITextRange interface [Windows Controls], InStory method, ITextRange::InStory, InStory method [Windows Controls], InStory method [Windows Controls], ITextRange interface, InStory,ITextRange.InStory, _win32_ITextRange_InStory, _win32_ITextRange_InStory_cpp, controls.ITextRange_InStory, controls._win32_ITextRange_InStory, tom/ITextRange::InStory
 ms.prod: windows-hardware
 ms.technology: windows-devices

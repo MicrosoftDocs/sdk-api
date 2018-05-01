@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffectimpl_getoutputbitmapsource.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectimpl\getoutputbitmapsource.htm
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: GetOutputBitmapSource method [WPF Bitmap Effects], GetOutputBitmapSource method [WPF Bitmap Effects], IMILBitmapEffectImpl interface, GetOutputBitmapSource,IMILBitmapEffectImpl.GetOutputBitmapSource, IMILBitmapEffectImpl, IMILBitmapEffectImpl interface [WPF Bitmap Effects], GetOutputBitmapSource method, IMILBitmapEffectImpl::GetOutputBitmapSource, _wibe_imilbitmapeffectimpl_getoutputbitmapsource, mileffects/IMILBitmapEffectImpl::GetOutputBitmapSource, wibe._wibe_imilbitmapeffectimpl_getoutputbitmapsource
 ms.prod: windows-hardware
 ms.technology: windows-devices

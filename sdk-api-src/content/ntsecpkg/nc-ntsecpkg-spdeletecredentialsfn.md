@@ -7,7 +7,7 @@ old-location: security\spdeletecredentials.htm
 old-project: SecAuthN
 ms.assetid: 14f41fc2-1e28-4ae5-9f2e-00f2500b7819
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/24/2018
 ms.keywords: SpDeleteCredentials, SpDeleteCredentials function [Security], SpDeleteCredentialsFn, _ssp_spdeletecredentials, ntsecpkg/SpDeleteCredentials, security.spdeletecredentials
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # SpDeleteCredentialsFn callback

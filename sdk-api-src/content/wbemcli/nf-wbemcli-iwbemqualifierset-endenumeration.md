@@ -7,7 +7,7 @@ old-location: wmi\iwbemqualifierset_endenumeration.htm
 old-project: WmiSdk
 ms.assetid: 317409e9-b098-404b-bc09-78b5b5ae7fc7
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: EndEnumeration method [Windows Management Instrumentation], EndEnumeration method [Windows Management Instrumentation], IWbemQualifierSet interface, EndEnumeration,IWbemQualifierSet.EndEnumeration, IWbemQualifierSet, IWbemQualifierSet interface [Windows Management Instrumentation], EndEnumeration method, IWbemQualifierSet::EndEnumeration, _hmm_iwbemqualifierset_endenumeration, wbemcli/IWbemQualifierSet::EndEnumeration, wmi.iwbemqualifierset_endenumeration
 ms.prod: windows-hardware
 ms.technology: windows-devices

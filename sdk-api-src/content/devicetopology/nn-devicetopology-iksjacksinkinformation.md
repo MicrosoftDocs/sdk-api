@@ -7,7 +7,7 @@ old-location: coreaudio\iksjacksinkinformation.htm
 old-project: CoreAudio
 ms.assetid: 4116a912-5ff2-4fc0-96c6-61d1e62cd973
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: IKsJackSinkInformation, IKsJackSinkInformation interface [Core Audio], IKsJackSinkInformation interface [Core Audio], described, coreaudio.iksjacksinkinformation, devicetopology/IKsJackSinkInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

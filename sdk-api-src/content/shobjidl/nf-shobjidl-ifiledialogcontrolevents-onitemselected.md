@@ -7,7 +7,7 @@ old-location: shell\IFileDialogControlEvents_OnItemSelected.htm
 old-project: shell
 ms.assetid: 4c96d0b7-74d1-4f87-946d-beeaad517d91
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IFileDialogControlEvents, IFileDialogControlEvents interface [Windows Shell], OnItemSelected method, IFileDialogControlEvents::OnItemSelected, OnItemSelected method [Windows Shell], OnItemSelected method [Windows Shell], IFileDialogControlEvents interface, OnItemSelected,IFileDialogControlEvents.OnItemSelected, shell.IFileDialogControlEvents_OnItemSelected, shell_IFileDialogControlEvents_OnItemSelected, shobjidl/IFileDialogControlEvents::OnItemSelected
 ms.prod: windows-hardware
 ms.technology: windows-devices

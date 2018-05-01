@@ -7,7 +7,7 @@ old-location: mf\imftimedtextnotify_trackadded.htm
 old-project: medfound
 ms.assetid: 79F33B32-3C64-4E46-A94E-D0C1BB695AC5
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFTimedTextNotify, IMFTimedTextNotify interface [Media Foundation], TrackAdded method, IMFTimedTextNotify::TrackAdded, TrackAdded method [Media Foundation], TrackAdded method [Media Foundation], IMFTimedTextNotify interface, TrackAdded,IMFTimedTextNotify.TrackAdded, mf.imftimedtextnotify_trackadded, mfmediaengine/IMFTimedTextNotify::TrackAdded
 ms.prod: windows-hardware
 ms.technology: windows-devices

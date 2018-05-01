@@ -7,7 +7,7 @@ old-location: termserv\itssbresourcepluginstore_getserverstate.htm
 old-project: TermServ
 ms.assetid: 287863fe-55b3-456e-9488-09ee85af2e15
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: GetServerState method [Remote Desktop Services], GetServerState method [Remote Desktop Services], ITsSbResourcePluginStore interface, GetServerState,ITsSbResourcePluginStore.GetServerState, ITsSbResourcePluginStore, ITsSbResourcePluginStore interface [Remote Desktop Services], GetServerState method, ITsSbResourcePluginStore::GetServerState, sbtsv/ITsSbResourcePluginStore::GetServerState, termserv.itssbresourcepluginstore_getserverstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITsSbResourcePluginStore::GetServerState method

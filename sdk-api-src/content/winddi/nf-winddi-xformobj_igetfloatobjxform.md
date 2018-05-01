@@ -1,0 +1,165 @@
+---
+UID: NF:winddi.XFORMOBJ_iGetFloatObjXform
+title: XFORMOBJ_iGetFloatObjXform function
+author: windows-driver-content
+description: The XFORMOBJ_iGetFloatObjXform function downloads a FLOATOBJ transform to the driver.
+old-location: display\xformobj_igetfloatobjxform.htm
+old-project: display
+ms.assetid: 761c6061-841b-4187-a826-575d2a5086db
+ms.author: windowsdriverdev
+ms.date: 4/16/2018
+ms.keywords: XFORMOBJ_iGetFloatObjXform, XFORMOBJ_iGetFloatObjXform function [Display Devices], display.xformobj_igetfloatobjxform, gdifncs_26b564b5-f2ca-448a-9ca8-f34e7f8fb57a.xml, winddi/XFORMOBJ_iGetFloatObjXform
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: winddi.h
+req.include-header: Winddi.h
+req.target-type: Universal
+req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Win32k.sys
+api_name:
+-	XFORMOBJ_iGetFloatObjXform
+product: Windows
+targetos: Windows
+req.lib: Win32k.lib
+req.dll: Win32k.sys
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# XFORMOBJ_iGetFloatObjXform function
+
+
+## -description
+
+
+The <b>XFORMOBJ_iGetFloatObjXform</b> function downloads a FLOATOBJ transform to the driver.
+
+
+## -parameters
+
+
+
+
+### -param pxo
+
+Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff570618">XFORMOBJ</a> structure that defines the transform to be downloaded.
+
+
+### -param pfxo
+
+TBD
+
+
+
+
+#### - pxfo
+
+Pointer to the buffer that is to receive the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565950">FLOATOBJ_XFORM</a> structure. This parameter can be <b>NULL</b>.
+
+
+## -returns
+
+
+
+If an error occurs, the return value is DDI_ERROR. Otherwise, the return value is a complexity hint about the transform object. The value of this transform characterization can be one of the following:
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>GX_GENERAL</b></dt>
+</dl>
+</td>
+<td width="60%">
+Arbitrary 2 x 2 matrix and offset.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>GX_IDENTITY</b></dt>
+</dl>
+</td>
+<td width="60%">
+Identity matrix; no translation offset.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>GX_OFFSET</b></dt>
+</dl>
+</td>
+<td width="60%">
+Identity matrix; there is a translation offset.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>GX_SCALE</b></dt>
+</dl>
+</td>
+<td width="60%">
+Off-diagonal matrix elements are zero.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+If <i>pxfo</i> is not <b>NULL</b>, <b>XFORMOBJ_iGetFloatObjXform</b> loads a FLOATOBJ_XFORM into the memory location <i>pxfo</i> points to. This function allows graphics drivers to emulate floating-point arithmetic. NT-based operating systems do not support kernel-mode floating-point operations on some systems.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565804">FLOATOBJ</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565950">FLOATOBJ_XFORM</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570618">XFORMOBJ</a>
+ 
+
+ 
+

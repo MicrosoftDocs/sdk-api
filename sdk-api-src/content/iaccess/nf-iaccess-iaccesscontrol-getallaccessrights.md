@@ -7,7 +7,7 @@ old-location: com\iaccesscontrol_getallaccessrights.htm
 old-project: com
 ms.assetid: 8c8551fb-8ba9-4a52-b6f8-bd11e4006fe9
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: GetAllAccessRights method [COM], GetAllAccessRights method [COM], IAccessControl interface, GetAllAccessRights,IAccessControl.GetAllAccessRights, IAccessControl, IAccessControl interface [COM], GetAllAccessRights method, IAccessControl::GetAllAccessRights, _com_iaccesscontrol_getallaccessrights, com.iaccesscontrol_getallaccessrights, iaccess/IAccessControl::GetAllAccessRights
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: HTTP_FILTER_VERSION, *PHTTP_FILTER_VERSION
+req.typenames: HTTP_VERSION, *PHTTP_VERSION
 topic_type:
 -	APIRef
 -	kbSyntax

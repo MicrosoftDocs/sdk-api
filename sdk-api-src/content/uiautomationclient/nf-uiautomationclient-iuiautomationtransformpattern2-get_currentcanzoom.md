@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationTransformPattern2_CurrentCanZoom.htm
 old-project: WinAuto
 ms.assetid: 9807080C-2E62-4B3E-AED5-7847748737E3
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: CurrentCanZoom property [Windows Accessibility], CurrentCanZoom property [Windows Accessibility], IUIAutomationTransformPattern2 interface, IUIAutomationTransformPattern2, IUIAutomationTransformPattern2 interface [Windows Accessibility], CurrentCanZoom property, IUIAutomationTransformPattern2.CurrentCanZoom, IUIAutomationTransformPattern2::get_CurrentCanZoom, get_CurrentCanZoom,IUIAutomationTransformPattern2.get_CurrentCanZoom, uiautomationclient/IUIAutomationTransformPattern2::CurrentCanZoom, uiautomationclient/IUIAutomationTransformPattern2::get_CurrentCanZoom, winauto.uiauto_IUIAutomationTransformPattern2_CurrentCanZoom
 ms.prod: windows-hardware
 ms.technology: windows-devices

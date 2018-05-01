@@ -7,7 +7,7 @@ old-location: tracelogging\traceloggingactivity_setrelatedactivity.htm
 old-project: tracelogging
 ms.assetid: 3A756D11-2595-451B-9BE6-BBE950252D3F
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: SetRelatedActivity method, SetRelatedActivity method, TraceLoggingActivity interface, SetRelatedActivity,TraceLoggingActivity.SetRelatedActivity, TraceLoggingActivity, TraceLoggingActivity interface, SetRelatedActivity method, TraceLoggingActivity::SetRelatedActivity, tracelogging.traceloggingactivity_setrelatedactivity, traceloggingactivity/TraceLoggingActivity::SetRelatedActivity
 ms.prod: windows-hardware
 ms.technology: windows-devices

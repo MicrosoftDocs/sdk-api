@@ -7,7 +7,7 @@ old-location: shell\IExpDispSupport_OnTranslateAccelerator.htm
 old-project: shell
 ms.assetid: 55f3b4dd-134d-49fe-a7f7-c6315971e902
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IExpDispSupport, IExpDispSupport interface [Windows Shell], OnTranslateAccelerator method, IExpDispSupport::OnTranslateAccelerator, OnTranslateAccelerator method [Windows Shell], OnTranslateAccelerator method [Windows Shell], IExpDispSupport interface, OnTranslateAccelerator,IExpDispSupport.OnTranslateAccelerator, shdeprecated/IExpDispSupport::OnTranslateAccelerator, shell.IExpDispSupport_OnTranslateAccelerator, zone_IExpDispSupport_OnTranslateAccelerator
 ms.prod: windows-hardware
 ms.technology: windows-devices

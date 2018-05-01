@@ -7,7 +7,7 @@ old-location: mstv\iisdbdownloadcontentdescriptor_getdownloadid.htm
 old-project: mstv
 ms.assetid: b57eba56-b9d6-4555-8d5d-80fd2b9fd23f
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetDownloadId method [Microsoft TV Technologies], GetDownloadId method [Microsoft TV Technologies], IIsdbDownloadContentDescriptor interface, GetDownloadId,IIsdbDownloadContentDescriptor.GetDownloadId, IIsdbDownloadContentDescriptor, IIsdbDownloadContentDescriptor interface [Microsoft TV Technologies], GetDownloadId method, IIsdbDownloadContentDescriptor::GetDownloadId, dvbsiparser/IIsdbDownloadContentDescriptor::GetDownloadId, mstv.iisdbdownloadcontentdescriptor_getdownloadid
 ms.prod: windows-hardware
 ms.technology: windows-devices

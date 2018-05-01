@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmclassificationmanager_enumfileproperties.htm
 old-project: Fsrm
 ms.assetid: 9a833e94-d26b-4c94-bf2f-76ac6db3f8e9
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: EnumFileProperties method [File Server Resource Manager], EnumFileProperties method [File Server Resource Manager], FsrmClassificationManager class, EnumFileProperties method [File Server Resource Manager], IFsrmClassificationManager interface, EnumFileProperties method [File Server Resource Manager], IFsrmClassificationManager2 interface, EnumFileProperties,IFsrmClassificationManager.EnumFileProperties, FsrmClassificationManager class [File Server Resource Manager], EnumFileProperties method, IFsrmClassificationManager, IFsrmClassificationManager interface [File Server Resource Manager], EnumFileProperties method, IFsrmClassificationManager2 interface [File Server Resource Manager], EnumFileProperties method, IFsrmClassificationManager2::EnumFileProperties, IFsrmClassificationManager::EnumFileProperties, fs.ifsrmclassificationmanager_enumfileproperties, fsrm.ifsrmclassificationmanager_enumfileproperties, fsrmpipeline/IFsrmClassificationManager2::EnumFileProperties, fsrmpipeline/IFsrmClassificationManager::EnumFileProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationSelectionPattern_GetCurrentSelection.h
 old-project: WinAuto
 ms.assetid: 58540e08-4415-47d1-8957-1d1c8b6d7100
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: GetCurrentSelection method [Windows Accessibility], GetCurrentSelection method [Windows Accessibility], IUIAutomationSelectionPattern interface, GetCurrentSelection,IUIAutomationSelectionPattern.GetCurrentSelection, IUIAutomationSelectionPattern, IUIAutomationSelectionPattern interface [Windows Accessibility], GetCurrentSelection method, IUIAutomationSelectionPattern::GetCurrentSelection, uiauto.uiauto_IUIAutomationSelectionPattern_GetCurrentSelection, uiauto_IUIAutomationSelectionPattern_GetCurrentSelection, uiautomationclient/IUIAutomationSelectionPattern::GetCurrentSelection, winauto.uiauto_IUIAutomationSelectionPattern_GetCurrentSelection
 ms.prod: windows-hardware
 ms.technology: windows-devices

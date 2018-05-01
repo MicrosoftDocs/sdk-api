@@ -7,7 +7,7 @@ old-location: mf\imfsimpleaudiovolume.htm
 old-project: medfound
 ms.assetid: 002d85a7-8bc3-422e-8ced-1907ac121d7b
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 002d85a7-8bc3-422e-8ced-1907ac121d7b, IMFSimpleAudioVolume, IMFSimpleAudioVolume interface [Media Foundation], IMFSimpleAudioVolume interface [Media Foundation], described, mf.imfsimpleaudiovolume, mfidl/IMFSimpleAudioVolume
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ api_name:
 product: Windows
 targetos: Windows
 req.lib: Mfuuid.lib
-req.dll: Mfplat.dll
+req.dll: Mfsensorgroup.dll
 req.irql: 
 req.product: GDI+ 1.1
 ---

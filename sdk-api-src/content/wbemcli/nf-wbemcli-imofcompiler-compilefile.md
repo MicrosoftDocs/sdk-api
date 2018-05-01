@@ -7,7 +7,7 @@ old-location: wmi\imofcompiler_compilefile.htm
 old-project: WmiSdk
 ms.assetid: caf13a5c-2aca-4acb-8210-909737bf1022
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: CompileFile method [Windows Management Instrumentation], CompileFile method [Windows Management Instrumentation], IMofCompiler interface, CompileFile,IMofCompiler.CompileFile, IMofCompiler, IMofCompiler interface [Windows Management Instrumentation], CompileFile method, IMofCompiler::CompileFile, WBEM_FLAG_AUTORECOVER, WBEM_FLAG_CHECK_ONLY, WBEM_FLAG_CONSOLE_PRINT, WBEM_FLAG_CREATE_ONLY, WBEM_FLAG_DONT_ADD_TO_LIST, WBEM_FLAG_UPDATE_FORCE_MODE, WBEM_FLAG_UPDATE_ONLY, WBEM_FLAG_UPDATE_SAFE_MODE, _hmm_imofcompiler_compilefile, wbemcli/IMofCompiler::CompileFile, wmi.imofcompiler_compilefile
 ms.prod: windows-hardware
 ms.technology: windows-devices

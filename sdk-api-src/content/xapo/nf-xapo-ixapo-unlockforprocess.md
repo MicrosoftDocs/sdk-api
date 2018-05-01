@@ -7,7 +7,7 @@ old-location: xaudio2\ixapo_interface_unlockforprocess.htm
 old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixapo.IXAPO.UnlockForProcess
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/20/2018
 ms.keywords: IXAPO, IXAPO interface [XAudio2 Audio Mixing APIs], UnlockForProcess method, IXAPO::UnlockForProcess, UnlockForProcess method [XAudio2 Audio Mixing APIs], UnlockForProcess method [XAudio2 Audio Mixing APIs], IXAPO interface, UnlockForProcess,IXAPO.UnlockForProcess, xapo/IXAPO::UnlockForProcess, xaudio2.ixapo_interface_unlockforprocess
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: coreaudio\iperchanneldblevel_setleveluniform.htm
 old-project: CoreAudio
 ms.assetid: b78bebcb-d32b-4eda-a805-35d4459b6b4f
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: IPerChannelDbLevel, IPerChannelDbLevel interface [Core Audio], SetLevelUniform method, IPerChannelDbLevel::SetLevelUniform, IPerChannelDbLevelSetLevelUniform, SetLevelUniform method [Core Audio], SetLevelUniform method [Core Audio], IPerChannelDbLevel interface, SetLevelUniform,IPerChannelDbLevel.SetLevelUniform, coreaudio.iperchanneldblevel_setleveluniform, devicetopology/IPerChannelDbLevel::SetLevelUniform
 ms.prod: windows-hardware
 ms.technology: windows-devices

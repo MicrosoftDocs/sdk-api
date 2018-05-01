@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontrols2_step.htm
 old-project: WMP
 ms.assetid: d54a4bb7-855f-4807-89b5-176b7fac2edd
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPControls2, IWMPControls2 interface [Windows Media Player], step method, IWMPControls2::step, IWMPControls2step, step method [Windows Media Player], step method [Windows Media Player], IWMPControls2 interface, step,IWMPControls2.step, wmp.iwmpcontrols2_step, wmp/IWMPControls2::step
 ms.prod: windows-hardware
 ms.technology: windows-devices

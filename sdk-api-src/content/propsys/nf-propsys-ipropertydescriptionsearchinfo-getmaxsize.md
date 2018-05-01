@@ -7,7 +7,7 @@ old-location: properties\IPropertyDescriptionSearchInfo_GetMaxSize.htm
 old-project: properties
 ms.assetid: a1d5812a-0166-4d63-93a7-c6dc2a6e247d
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/5/2018
 ms.keywords: GetMaxSize method [Windows Properties], GetMaxSize method [Windows Properties], IPropertyDescriptionSearchInfo interface, GetMaxSize,IPropertyDescriptionSearchInfo.GetMaxSize, IPropertyDescriptionSearchInfo, IPropertyDescriptionSearchInfo interface [Windows Properties], GetMaxSize method, IPropertyDescriptionSearchInfo::GetMaxSize, _shell_IPropertyDescriptionSearchInfo_GetMaxSize, properties.IPropertyDescriptionSearchInfo_GetMaxSize, propsys/IPropertyDescriptionSearchInfo::GetMaxSize, shell.IPropertyDescriptionSearchInfo_GetMaxSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IPropertyDescriptionSearchInfo::GetMaxSize method

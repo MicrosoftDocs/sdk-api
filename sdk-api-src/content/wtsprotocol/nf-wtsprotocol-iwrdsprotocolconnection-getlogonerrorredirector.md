@@ -7,7 +7,7 @@ old-location: termserv\iwrdsprotocolconnection_getlogonerrorredirector.htm
 old-project: TermServ
 ms.assetid: 9613330F-B8DE-48C7-892C-FB8F50739C13
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: GetLogonErrorRedirector method [Remote Desktop Services], GetLogonErrorRedirector method [Remote Desktop Services], IWRdsProtocolConnection interface, GetLogonErrorRedirector,IWRdsProtocolConnection.GetLogonErrorRedirector, IWRdsProtocolConnection, IWRdsProtocolConnection interface [Remote Desktop Services], GetLogonErrorRedirector method, IWRdsProtocolConnection::GetLogonErrorRedirector, termserv.iwrdsprotocolconnection_getlogonerrorredirector, wtsprotocol/IWRdsProtocolConnection::GetLogonErrorRedirector
 ms.prod: windows-hardware
 ms.technology: windows-devices

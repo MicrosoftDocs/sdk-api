@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicbitmapencoder_initialize.htm
 old-project: wic
 ms.assetid: 344a9a9d-8557-4ae8-9604-4040c7d7095a
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: IWICBitmapEncoder, IWICBitmapEncoder interface [Windows Imaging Component], Initialize method, IWICBitmapEncoder::Initialize, Initialize method [Windows Imaging Component], Initialize method [Windows Imaging Component], IWICBitmapEncoder interface, Initialize,IWICBitmapEncoder.Initialize, _wic_codec_iwicbitmapencoder_initialize, wic._wic_codec_iwicbitmapencoder_initialize, wincodec/IWICBitmapEncoder::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

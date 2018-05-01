@@ -59,17 +59,19 @@ Contains information that the
 
 
 
-### -field DUMMYUNIONNAME
-
- 
-
-
 ### -field PartitionStyle
 
 The format of a partition. 
 
 For more information, see 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563773">PARTITION_STYLE</a>.
+
+
+### -field DUMMYUNIONNAME
+
+ 
+
+
 
 
 #### - Gpt

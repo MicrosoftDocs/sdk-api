@@ -7,7 +7,7 @@ old-location: mstv\idigitalcablelocator.htm
 old-project: mstv
 ms.assetid: c33255cb-040f-4eb4-9af2-fdbea17c1682
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IDigitalCableLocator, IDigitalCableLocator interface [Microsoft TV Technologies], IDigitalCableLocator interface [Microsoft TV Technologies], described, IDigitalCableLocatorInterface, mstv.idigitalcablelocator, tuner/IDigitalCableLocator
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\mpeg_bcs_demux.htm
 old-project: mstv
 ms.assetid: ecc4f3bb-16f5-4398-bcd5-3316da8529ec
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: MPEG_BCS_DEMUX, MPEG_BCS_DEMUX structure [Microsoft TV Technologies], __MIDL___MIDL_itf_mpeg2structs_0000_0000_0028, mpeg2structs/MPEG_BCS_DEMUX, mstv.mpeg_bcs_demux
 ms.prod: windows-hardware
 ms.technology: windows-devices

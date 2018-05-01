@@ -7,7 +7,7 @@ old-location: dshow\iamstreamselect_enable.htm
 old-project: DirectShow
 ms.assetid: ac17a218-34a4-49aa-9b4d-cb34f3c2a5d3
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: Enable method [DirectShow], Enable method [DirectShow], IAMStreamSelect interface, Enable,IAMStreamSelect.Enable, IAMStreamSelect, IAMStreamSelect interface [DirectShow], Enable method, IAMStreamSelect::Enable, IAMStreamSelectEnable, dshow.iamstreamselect_enable, strmif/IAMStreamSelect::Enable
 ms.prod: windows-hardware
 ms.technology: windows-devices

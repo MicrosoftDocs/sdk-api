@@ -7,7 +7,7 @@ old-location: direct2d\matrix3x2f_translation.htm
 old-project: Direct2D
 ms.assetid: eb289287-4f33-42cf-a306-120adda70371
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: D2D1.Matrix3x2F.Translation, D2D1::Matrix3x2F::Translation, Matrix3x2F, Matrix3x2F class [Direct2D], Translation method, Matrix3x2F::Translation, Translation method [Direct2D], Translation method [Direct2D], Matrix3x2F class, Translation,Matrix3x2F.Translation, d2d1helper/Matrix3x2F::Translation, direct2d.matrix3x2f_translation
 ms.prod: windows-hardware
 ms.technology: windows-devices

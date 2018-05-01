@@ -7,7 +7,7 @@ old-location: winauto\iaccessible_iaccessible__get_accparent.htm
 old-project: WinAuto
 ms.assetid: 7c8c5208-ea77-47b2-913d-314ade0313f5
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: IAccessible, IAccessible interface [Windows Accessibility], get_accParent method, IAccessible::get_accParent, _msaa_IAccessible_get_accParent, get_accParent method [Windows Accessibility], get_accParent method [Windows Accessibility], IAccessible interface, get_accParent,IAccessible.get_accParent, msaa.iaccessible_iaccessible__get_accparent, oleacc/IAccessible::get_accParent, winauto.iaccessible_iaccessible__get_accparent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Oleacc.lib
 req.dll: Oleacc.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IAccessible::get_accParent method

@@ -7,7 +7,7 @@ old-location: perf\perf_multi_instances.htm
 old-project: PerfCtrs
 ms.assetid: 5EC34ECD-D240-4B44-A52B-C5518918400C
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/23/2018
 ms.keywords: "*PPERF_MULTI_INSTANCES, PERF_MULTI_INSTANCES, PERF_MULTI_INSTANCES structure [Perf], PPERF_MULTI_INSTANCES, PPERF_MULTI_INSTANCES structure pointer [Perf], _PERF_MULTI_INSTANCES, perf.perf_multi_instances, perflib/PERF_MULTI_INSTANCES, perflib/PPERF_MULTI_INSTANCES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _PERF_MULTI_INSTANCES structure

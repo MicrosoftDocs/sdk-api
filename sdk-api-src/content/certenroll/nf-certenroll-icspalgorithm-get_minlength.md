@@ -7,7 +7,7 @@ old-location: security\icspalgorithm_minlength_property.htm
 old-project: SecCertEnroll
 ms.assetid: 1df00a2d-4004-4c5d-ab70-5d39ca517ebd
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: ICspAlgorithm, ICspAlgorithm interface [Security], MinLength property, ICspAlgorithm.MinLength, ICspAlgorithm::get_MinLength, MinLength property [Security], MinLength property [Security], ICspAlgorithm interface, certenroll/ICspAlgorithm::MinLength, certenroll/ICspAlgorithm::get_MinLength, get_MinLength,ICspAlgorithm.get_MinLength, security.icspalgorithm_minlength_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

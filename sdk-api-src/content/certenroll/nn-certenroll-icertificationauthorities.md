@@ -7,7 +7,7 @@ old-location: security\icertificationauthorities.htm
 old-project: SecCertEnroll
 ms.assetid: 8dad280a-1fe7-4a4b-9392-eee3aa9bcde9
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: ICertificationAuthorities, ICertificationAuthorities interface [Security], ICertificationAuthorities interface [Security], described, certenroll/ICertificationAuthorities, security.icertificationauthorities
 ms.prod: windows-hardware
 ms.technology: windows-devices

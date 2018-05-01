@@ -7,7 +7,7 @@ old-location: dshow\ivmrmixercontrol9_getmixingprefs.htm
 old-project: DirectShow
 ms.assetid: 25df0310-124a-48a5-b0fc-bea1dfd35781
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetMixingPrefs method [DirectShow], GetMixingPrefs method [DirectShow], IVMRMixerControl9 interface, GetMixingPrefs,IVMRMixerControl9.GetMixingPrefs, IVMRMixerControl9, IVMRMixerControl9 interface [DirectShow], GetMixingPrefs method, IVMRMixerControl9::GetMixingPrefs, IVMRMixerControl9GetMixingPrefs, dshow.ivmrmixercontrol9_getmixingprefs, vmr9/IVMRMixerControl9::GetMixingPrefs
 ms.prod: windows-hardware
 ms.technology: windows-devices

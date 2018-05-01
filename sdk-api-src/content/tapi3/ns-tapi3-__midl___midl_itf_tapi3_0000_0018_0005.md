@@ -7,7 +7,7 @@ old-location: tapi3\msp_event_info.htm
 old-project: Tapi
 ms.assetid: 5286fbe6-3553-42f1-82e6-5bb6f75f3305
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: MSP_EVENT_INFO, MSP_EVENT_INFO structure [TAPI 2.2], __MIDL___MIDL_itf_tapi3_0000_0018_0005, _tapi3_msp_event_info, msp/MSP_EVENT_INFO, tapi3.msp_event_info
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,6 +58,21 @@ The
 ## -struct-fields
 
 
+
+
+### -field dwSize
+
+Total size of structure returned.
+
+
+### -field Event
+
+ 
+
+
+### -field hCall
+
+MSP handle; may be <b>NULL</b>.
 
 
 ### -field MSP_ADDRESS_EVENT_INFO
@@ -210,19 +225,6 @@ MSP event.
  
 
 
-### -field dwSize
-
-Total size of structure returned.
-
-
-### -field Event
-
- 
-
-
-### -field hCall
-
-MSP handle; may be <b>NULL</b>.
 
 
 ## -see-also

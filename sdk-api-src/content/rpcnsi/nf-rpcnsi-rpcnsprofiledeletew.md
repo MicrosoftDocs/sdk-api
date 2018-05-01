@@ -7,7 +7,7 @@ old-location: rpc\rpcnsprofiledelete.htm
 old-project: Rpc
 ms.assetid: bac77a37-a4e8-4edf-a31b-28692ccec0f7
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: RpcNsProfileDelete, RpcNsProfileDelete function [RPC], RpcNsProfileDeleteA, RpcNsProfileDeleteW, _rpc_rpcnsprofiledelete, rpc.rpcnsprofiledelete, rpcnsi/RpcNsProfileDelete, rpcnsi/RpcNsProfileDeleteA, rpcnsi/RpcNsProfileDeleteW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: Rpcns4.lib
 req.dll: Rpcns4.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # RpcNsProfileDeleteW function

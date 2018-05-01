@@ -7,7 +7,7 @@ old-location: mstv\istreambufferconfigure3_setstartrecconfig.htm
 old-project: mstv
 ms.assetid: 6ae896ce-72e8-49aa-a538-2a269ef07ade
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IStreamBufferConfigure3, IStreamBufferConfigure3 interface [Microsoft TV Technologies], SetStartRecConfig method, IStreamBufferConfigure3::SetStartRecConfig, IStreamBufferConfigure3SetStartRecConfig, SetStartRecConfig method [Microsoft TV Technologies], SetStartRecConfig method [Microsoft TV Technologies], IStreamBufferConfigure3 interface, SetStartRecConfig,IStreamBufferConfigure3.SetStartRecConfig, mstv.istreambufferconfigure3_setstartrecconfig, sbe/IStreamBufferConfigure3::SetStartRecConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IStreamBufferConfigure3::SetStartRecConfig method

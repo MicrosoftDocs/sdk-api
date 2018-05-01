@@ -7,7 +7,7 @@ old-location: dshow\ivideoprocamp_getrange_digitalmultiplier.htm
 old-project: DirectShow
 ms.assetid: 8a8a5f72-d51f-4f5a-95e4-ac8d1ac1b24f
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IVideoProcAmp, IVideoProcAmp interface [DirectShow], getRange_DigitalMultiplier method, IVideoProcAmp::getRange_DigitalMultiplier, IVideoProcAmpgetRange_DigitalMultiplier, dshow.ivideoprocamp_getrange_digitalmultiplier, getRange_DigitalMultiplier method [DirectShow], getRange_DigitalMultiplier method [DirectShow], IVideoProcAmp interface, getRange_DigitalMultiplier,IVideoProcAmp.getRange_DigitalMultiplier, vidcap/IVideoProcAmp::getRange_DigitalMultiplier
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: VIDEOHDR, *PVIDEOHDR, *LPVIDEOHDR
+req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,7 +7,7 @@ old-location: p2p\drtcreatepnrpbootstrapresolver.htm
 old-project: P2PSdk
 ms.assetid: 5bd64f10-abb8-4cba-8ebd-780a6a0c7074
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/23/2018
 ms.keywords: DrtCreatePnrpBootstrapResolver, DrtCreatePnrpBootstrapResolver function [Peer Networking], drt/DrtCreatePnrpBootstrapResolver, p2p.drtcreatepnrpbootstrapresolver
 ms.prod: windows-hardware
 ms.technology: windows-devices

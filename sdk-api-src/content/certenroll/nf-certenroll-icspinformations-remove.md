@@ -7,7 +7,7 @@ old-location: security\icspinformations_remove_method.htm
 old-project: SecCertEnroll
 ms.assetid: cbf427d8-3f66-4a54-a226-2060c58924b6
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: ICspInformations, ICspInformations interface [Security], Remove method, ICspInformations::Remove, Remove method [Security], Remove method [Security], ICspInformations interface, Remove,ICspInformations.Remove, certenroll/ICspInformations::Remove, security.icspinformations_remove_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

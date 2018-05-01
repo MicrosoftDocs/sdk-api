@@ -7,7 +7,7 @@ old-location: mf\imfsensortransformfactory_createtransform.htm
 old-project: medfound
 ms.assetid: 90F986B1-7E1A-43AC-A633-34DD9D53D634
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: CreateTransform method [Media Foundation], CreateTransform method [Media Foundation], IMFSensorTransformFactory interface, CreateTransform,IMFSensorTransformFactory.CreateTransform, IMFSensorTransformFactory, IMFSensorTransformFactory interface [Media Foundation], CreateTransform method, IMFSensorTransformFactory::CreateTransform, mf.imfsensortransformfactory_createtransform, mfidl/IMFSensorTransformFactory::CreateTransform
 ms.prod: windows-hardware
 ms.technology: windows-devices

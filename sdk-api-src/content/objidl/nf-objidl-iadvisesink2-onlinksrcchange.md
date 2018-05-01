@@ -7,7 +7,7 @@ old-location: com\iadvisesink2_onlinksrcchange.htm
 old-project: com
 ms.assetid: 753ac9a3-0207-4c98-9d86-5ac16be2c5fa
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IAdviseSink2, IAdviseSink2 interface [COM], OnLinkSrcChange method, IAdviseSink2::OnLinkSrcChange, OnLinkSrcChange method [COM], OnLinkSrcChange method [COM], IAdviseSink2 interface, OnLinkSrcChange,IAdviseSink2.OnLinkSrcChange, _ole_iadvisesink2_onlinksrcchange, com.iadvisesink2_onlinksrcchange, objidl/IAdviseSink2::OnLinkSrcChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IAdviseSink2::OnLinkSrcChange method

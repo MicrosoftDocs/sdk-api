@@ -7,7 +7,7 @@ old-location: wua\iupdateservicemanager2_addservice2_methods.htm
 old-project: Wua_Sdk
 ms.assetid: 1584b92f-ba21-4b03-a1b4-540313eb7893
 ms.author: windowsdriverdev
-ms.date: 3/15/2018
+ms.date: 4/18/2018
 ms.keywords: AddService2 method [Windows Update Agent], AddService2 method [Windows Update Agent], IUpdateServiceManager2 interface, AddService2,IUpdateServiceManager2.AddService2, IUpdateServiceManager2, IUpdateServiceManager2 interface [Windows Update Agent], AddService2 method, IUpdateServiceManager2::AddService2, wua.iupdateservicemanager2_addservice2_methods, wuapi/IUpdateServiceManager2::AddService2
 ms.prod: windows-hardware
 ms.technology: windows-devices

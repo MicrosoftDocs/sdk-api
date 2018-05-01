@@ -7,7 +7,7 @@ old-location: dshow\imediaseeking_isformatsupported.htm
 old-project: DirectShow
 ms.assetid: 443a8dbc-c12a-4d50-9005-1fedf701f6fd
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IMediaSeeking, IMediaSeeking interface [DirectShow], IsFormatSupported method, IMediaSeeking::IsFormatSupported, IMediaSeekingIsFormatSupported, IsFormatSupported method [DirectShow], IsFormatSupported method [DirectShow], IMediaSeeking interface, IsFormatSupported,IMediaSeeking.IsFormatSupported, dshow.imediaseeking_isformatsupported, strmif/IMediaSeeking::IsFormatSupported
 ms.prod: windows-hardware
 ms.technology: windows-devices

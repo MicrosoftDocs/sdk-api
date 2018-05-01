@@ -7,7 +7,7 @@ old-location: winrt\icontactmanagerinterop.htm
 old-project: WinRT
 ms.assetid: 49328E9C-895C-4F8A-8F1C-0E2A08C291E5
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/24/2018
 ms.keywords: IContactManagerInterop, IContactManagerInterop interface [Windows Runtime], IContactManagerInterop interface [Windows Runtime], described, shobjidl_core/IContactManagerInterop, winrt.icontactmanagerinterop
 ms.prod: windows-hardware
 ms.technology: windows-devices

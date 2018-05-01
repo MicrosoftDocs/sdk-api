@@ -7,7 +7,7 @@ old-location: base\setthreadpoolthreadminimum.htm
 old-project: ProcThread
 ms.assetid: 39ab262d-50ff-4aaa-93a8-ded2b0f72615
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: SetThreadpoolThreadMinimum, SetThreadpoolThreadMinimum function, base.setthreadpoolthreadminimum, threadpoolapiset/SetThreadpoolThreadMinimum, winbase/SetThreadpoolThreadMinimum
 ms.prod: windows-hardware
 ms.technology: windows-devices

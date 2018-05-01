@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device_opensharedhandlebyname.htm
 old-project: direct3d12
 ms.assetid: 4866BD8B-31F8-47E0-9228-5F61D6CA2190
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: ID3D12Device, ID3D12Device interface, OpenSharedHandleByName method, ID3D12Device::OpenSharedHandleByName, OpenSharedHandleByName method, OpenSharedHandleByName method, ID3D12Device interface, OpenSharedHandleByName,ID3D12Device.OpenSharedHandleByName, d3d12/ID3D12Device::OpenSharedHandleByName, direct3d12.id3d12device_opensharedhandlebyname
 ms.prod: windows-hardware
 ms.technology: windows-devices

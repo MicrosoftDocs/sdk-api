@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentDefaul
 old-project: WinAuto
 ms.assetid: d9fe2161-db5a-4e41-9f07-17cb3e4ce78a
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: CurrentDefaultAction property [Windows Accessibility], CurrentDefaultAction property [Windows Accessibility], IUIAutomationLegacyIAccessiblePattern interface, IUIAutomationLegacyIAccessiblePattern, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility], CurrentDefaultAction property, IUIAutomationLegacyIAccessiblePattern.CurrentDefaultAction, IUIAutomationLegacyIAccessiblePattern::get_CurrentDefaultAction, get_CurrentDefaultAction,IUIAutomationLegacyIAccessiblePattern.get_CurrentDefaultAction, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentDefaultAction, uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentDefaultAction, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::CurrentDefaultAction, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::get_CurrentDefaultAction, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentDefaultAction
 ms.prod: windows-hardware
 ms.technology: windows-devices

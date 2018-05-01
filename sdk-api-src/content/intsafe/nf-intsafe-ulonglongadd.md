@@ -2,13 +2,13 @@
 UID: NF:intsafe.ULongLongAdd
 title: ULongLongAdd function
 author: windows-driver-content
-description: Adds two values of type ULONGLONG.
-old-location: shell\ULongLongAdd.htm
+description: Adds two values of type SIZE_T.
+old-location: shell\SIZETAdd_1.htm
 old-project: shell
-ms.assetid: 464d9907-cdce-47a4-8cb5-3b04fdb21859
+ms.assetid: 50acd1fa-fc4b-4e7a-8e88-71fb15eaa3c7
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
-ms.keywords: ULongLongAdd, ULongLongAdd function [Windows Shell], _shell_ULongLongAdd, intsafe/ULongLongAdd, shell.ULongLongAdd
+ms.date: 4/26/2018
+ms.keywords: SIZETAdd, SIZETAdd function [Windows Shell], ULongLongAdd, _shell_SIZETAdd, intsafe/SIZETAdd, shell.SIZETAdd, shell.SIZETAdd_1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	Intsafe.h
 api_name:
--	ULongLongAdd
+-	SIZETAdd
 product: Windows
 targetos: Windows
 req.lib: 
@@ -50,7 +50,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Adds two values of type <b>ULONGLONG</b>.
+Adds two values of type <b>SIZE_T</b>.
 
 
 ## -parameters
@@ -58,23 +58,40 @@ Adds two values of type <b>ULONGLONG</b>.
 
 
 
-### -param ullAugend [in]
+### -param ullAugend
 
-Type: <b>ULONGLONG</b>
+TBD
+
+
+### -param ullAddend
+
+TBD
+
+
+### -param pullResult
+
+TBD
+
+
+
+
+#### - cbAddend [in]
+
+Type: <b>SIZE_T</b>
+
+The value to add to <i>cbAugend</i>.
+
+
+#### - cbAugend [in]
+
+Type: <b>SIZE_T</b>
 
 The first value in the equation.
 
 
-### -param ullAddend [in]
+#### - pcbResult [out]
 
-Type: <b>ULONGLONG</b>
-
-The value to add to <i>ullAugend</i>.
-
-
-### -param pullResult [out]
-
-Type: <b>ULONGLONG*</b>
+Type: <b>SIZE_T*</b>
 
 A pointer to the sum. If the operation results in a value that overflows or underflows the capacity of the type, the function returns INTSAFE_E_ARITHMETIC_OVERFLOW and this parameter is not valid.
 

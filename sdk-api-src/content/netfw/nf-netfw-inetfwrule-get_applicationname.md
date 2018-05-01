@@ -7,7 +7,7 @@ old-location: ics\inetfwrule_applicationname.htm
 old-project: ICS
 ms.assetid: 2ab808fc-39ec-4d3a-9343-4d06f3faa563
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: ApplicationName property [ICS/ICF], ApplicationName property [ICS/ICF], INetFwRule interface, INetFwRule, INetFwRule interface [ICS/ICF], ApplicationName property, INetFwRule.ApplicationName, INetFwRule::get_ApplicationName, INetFwRule::put_ApplicationName, get_ApplicationName,INetFwRule.get_ApplicationName, ics.inetfwrule_applicationname, netfw/INetFwRule::ApplicationName, netfw/INetFwRule::get_ApplicationName, netfw/INetFwRule::put_ApplicationName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: 
 req.dll: FirewallAPI.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # INetFwRule::get_ApplicationName method

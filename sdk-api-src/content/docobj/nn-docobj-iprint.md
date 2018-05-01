@@ -7,7 +7,7 @@ old-location: com\iprint.htm
 old-project: com
 ms.assetid: eb0d15c0-8a34-4211-b840-29d5862cf767
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IPrint, IPrint interface [COM], IPrint interface [COM], described, _ctrl_iprint, com.iprint, docobj/IPrint
 ms.prod: windows-hardware
 ms.technology: windows-devices

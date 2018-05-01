@@ -7,7 +7,7 @@ old-location: bits\ienumbackgroundcopyfiles_next.htm
 old-project: Bits
 ms.assetid: ac62533a-8949-41b9-a3e6-f9030884a9ce
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/10/2018
 ms.keywords: IEnumBackgroundCopyFiles, IEnumBackgroundCopyFiles interface [BITS], Next method, IEnumBackgroundCopyFiles::Next, Next method [BITS], Next method [BITS], IEnumBackgroundCopyFiles interface, Next,IEnumBackgroundCopyFiles.Next, _drz_ienumbackgroundcopyfiles_next, bits.ienumbackgroundcopyfiles_next, bits/IEnumBackgroundCopyFiles::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\imixerpinconfig_getrelativeposition.htm
 old-project: DirectShow
 ms.assetid: 0a2bcc3e-361d-4374-9444-717287c07116
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetRelativePosition method [DirectShow], GetRelativePosition method [DirectShow], IMixerPinConfig interface, GetRelativePosition,IMixerPinConfig.GetRelativePosition, IMixerPinConfig, IMixerPinConfig interface [DirectShow], GetRelativePosition method, IMixerPinConfig::GetRelativePosition, IMixerPinConfigGetRelativePosition, dshow.imixerpinconfig_getrelativeposition, mpconfig/IMixerPinConfig::GetRelativePosition
 ms.prod: windows-hardware
 ms.technology: windows-devices

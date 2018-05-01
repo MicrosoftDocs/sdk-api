@@ -7,7 +7,7 @@ old-location: mf\imfsourcereader_setcurrentmediatype.htm
 old-project: medfound
 ms.assetid: 54caec4d-1393-487b-94ee-78563b2b4645
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFSourceReader, IMFSourceReader interface [Media Foundation], SetCurrentMediaType method, IMFSourceReader::SetCurrentMediaType, MF_SOURCE_READER_FIRST_AUDIO_STREAM, MF_SOURCE_READER_FIRST_VIDEO_STREAM, SetCurrentMediaType method [Media Foundation], SetCurrentMediaType method [Media Foundation], IMFSourceReader interface, SetCurrentMediaType,IMFSourceReader.SetCurrentMediaType, mf.imfsourcereader_setcurrentmediatype, mfreadwrite/IMFSourceReader::SetCurrentMediaType
 ms.prod: windows-hardware
 ms.technology: windows-devices

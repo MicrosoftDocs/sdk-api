@@ -7,7 +7,7 @@ old-location: mstv\idvbcabledeliverysystemdescriptor_getfrequency.htm
 old-project: mstv
 ms.assetid: 2077940c-7835-48c5-a288-825d4c9ca0e6
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetFrequency method [Microsoft TV Technologies], GetFrequency method [Microsoft TV Technologies], IDvbCableDeliverySystemDescriptor interface, GetFrequency,IDvbCableDeliverySystemDescriptor.GetFrequency, IDvbCableDeliverySystemDescriptor, IDvbCableDeliverySystemDescriptor interface [Microsoft TV Technologies], GetFrequency method, IDvbCableDeliverySystemDescriptor::GetFrequency, IDvbCableDeliverySystemDescriptorGetFrequency, dvbsiparser/IDvbCableDeliverySystemDescriptor::GetFrequency, mstv.idvbcabledeliverysystemdescriptor_getfrequency
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\ibda_namevalueservice_getvalue.htm
 old-project: mstv
 ms.assetid: d240f991-8f15-4d37-a292-91c7e3dff27d
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetValue method [Microsoft TV Technologies], GetValue method [Microsoft TV Technologies], IBDA_NameValueService interface, GetValue,IBDA_NameValueService.GetValue, IBDA_NameValueService, IBDA_NameValueService interface [Microsoft TV Technologies], GetValue method, IBDA_NameValueService::GetValue, bdaiface/IBDA_NameValueService::GetValue, mstv.ibda_namevalueservice_getvalue
 ms.prod: windows-hardware
 ms.technology: windows-devices

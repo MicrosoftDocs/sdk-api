@@ -7,7 +7,7 @@ old-location: gdi\emrbitblt.htm
 old-project: gdi
 ms.assetid: ed3dbed6-4a2c-4fba-a803-f407fe60d750
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/17/2018
 ms.keywords: "*PEMRBITBLT, EMRBITBLT, EMRBITBLT structure [Windows GDI], PEMRBITBLT, PEMRBITBLT structure pointer [Windows GDI], _win32_EMRBITBLT_str, gdi.emrbitblt, tagEMRBITBLT, wingdi/EMRBITBLT, wingdi/PEMRBITBLT"
 ms.prod: windows-hardware
 ms.technology: windows-devices

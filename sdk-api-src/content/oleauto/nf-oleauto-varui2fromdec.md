@@ -7,7 +7,7 @@ old-location: automat\varui2fromdec.htm
 old-project: automat
 ms.assetid: 39c288e8-b82a-4591-92b3-093f41b8e2cb
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: VarUI2FromDec, VarUI2FromDec function [Automation], _oa96_VarUI2FromDec, automat.varui2fromdec, oleauto/VarUI2FromDec
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # VarUI2FromDec function

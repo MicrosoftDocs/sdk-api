@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledevicecontent_move.htm
 old-project: wpd_sdk
 ms.assetid: 938a6a06-31c5-44d1-b87b-a108995ae9a1
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/11/2018
 ms.keywords: IPortableDeviceContent, IPortableDeviceContent interface [Windows Portable Devices SDK], Move method, IPortableDeviceContent::Move, IPortableDeviceContentMove, Move method [Windows Portable Devices SDK], Move method [Windows Portable Devices SDK], IPortableDeviceContent interface, Move,IPortableDeviceContent.Move, portabledeviceapi/IPortableDeviceContent::Move, wpdsdk.iportabledevicecontent_move
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: WPD_WHITE_BALANCE_SETTINGS
+req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: PortableDeviceGUIDs.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IPortableDeviceContent::Move method

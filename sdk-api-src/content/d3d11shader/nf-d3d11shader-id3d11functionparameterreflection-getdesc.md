@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11functionparameterreflection_getdesc.htm
 old-project: direct3d11
 ms.assetid: 54755DEE-B865-4C9C-A38F-52749037DBBF
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/6/2018
 ms.keywords: GetDesc method [Direct3D 11], GetDesc method [Direct3D 11], ID3D11FunctionParameterReflection interface, GetDesc,ID3D11FunctionParameterReflection.GetDesc, ID3D11FunctionParameterReflection, ID3D11FunctionParameterReflection interface [Direct3D 11], GetDesc method, ID3D11FunctionParameterReflection::GetDesc, d3d11shader/ID3D11FunctionParameterReflection::GetDesc, direct3d11.id3d11functionparameterreflection_getdesc
 ms.prod: windows-hardware
 ms.technology: windows-devices

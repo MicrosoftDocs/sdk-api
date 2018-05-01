@@ -7,7 +7,7 @@ old-location: wmp\iwmpmedia_get_imagesourceheight.htm
 old-project: WMP
 ms.assetid: f39049ad-3641-4885-a8e4-f1e46b181f6e
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPMedia, IWMPMedia interface [Windows Media Player], get_imageSourceHeight method, IWMPMedia2 interface [Windows Media Player], get_imageSourceHeight method, IWMPMedia2::get_imageSourceHeight, IWMPMedia3 interface [Windows Media Player], get_imageSourceHeight method, IWMPMedia3::get_imageSourceHeight, IWMPMedia::get_imageSourceHeight, IWMPMediaget_imageSourceHeight, get_imageSourceHeight method [Windows Media Player], get_imageSourceHeight method [Windows Media Player], IWMPMedia interface, get_imageSourceHeight method [Windows Media Player], IWMPMedia2 interface, get_imageSourceHeight method [Windows Media Player], IWMPMedia3 interface, get_imageSourceHeight,IWMPMedia.get_imageSourceHeight, wmp.iwmpmedia_get_imagesourceheight, wmp/IWMPMedia2::get_imageSourceHeight, wmp/IWMPMedia3::get_imageSourceHeight, wmp/IWMPMedia::get_imageSourceHeight
 ms.prod: windows-hardware
 ms.technology: windows-devices

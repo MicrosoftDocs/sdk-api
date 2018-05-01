@@ -7,7 +7,7 @@ old-location: controls\ITextDocument_Redo.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\redo.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextDocument, ITextDocument interface [Windows Controls], Redo method, ITextDocument::Redo, Redo method [Windows Controls], Redo method [Windows Controls], ITextDocument interface, Redo,ITextDocument.Redo, _win32_ITextDocument_Redo, _win32_ITextDocument_Redo_cpp, controls.ITextDocument_Redo, controls._win32_ITextDocument_Redo, tom/ITextDocument::Redo
 ms.prod: windows-hardware
 ms.technology: windows-devices

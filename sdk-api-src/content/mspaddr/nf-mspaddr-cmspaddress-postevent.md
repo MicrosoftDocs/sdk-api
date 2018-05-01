@@ -7,7 +7,7 @@ old-location: tapi3\cmspaddress_postevent.htm
 old-project: Tapi
 ms.assetid: 25050c11-c270-4fc0-85b4-0f48622a5ec5
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: CMSPAddress, CMSPAddress interface [TAPI 2.2], PostEvent method, CMSPAddress::PostEvent, PostEvent method [TAPI 2.2], PostEvent method [TAPI 2.2], CMSPAddress interface, PostEvent,CMSPAddress.PostEvent, _tapi3_cmspaddress_postevent, mspaddr/CMSPAddress::PostEvent, tapi3.cmspaddress_postevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: OPC_SIGNATURE_TIME_FORMAT
+req.typenames: MSP_EVENT_INFO
 topic_type:
 -	APIRef
 -	kbSyntax

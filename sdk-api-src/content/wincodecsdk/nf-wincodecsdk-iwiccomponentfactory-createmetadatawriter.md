@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwiccomponentfactory_createmetadatawriter.htm
 old-project: wic
 ms.assetid: e4e82125-bdaa-44c5-a370-22390764753b
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: CreateMetadataWriter method [Windows Imaging Component], CreateMetadataWriter method [Windows Imaging Component], IWICComponentFactory interface, CreateMetadataWriter,IWICComponentFactory.CreateMetadataWriter, IWICComponentFactory, IWICComponentFactory interface [Windows Imaging Component], CreateMetadataWriter method, IWICComponentFactory::CreateMetadataWriter, _wic_codec_iwiccomponentfactory_createmetadatawriter, wic._wic_codec_iwiccomponentfactory_createmetadatawriter, wincodecsdk/IWICComponentFactory::CreateMetadataWriter
 ms.prod: windows-hardware
 ms.technology: windows-devices

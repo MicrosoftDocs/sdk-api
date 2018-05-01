@@ -7,7 +7,7 @@ old-location: security\ix509extensions_addrange_method.htm
 old-project: SecCertEnroll
 ms.assetid: e2e11b36-966b-497a-a199-41364314d287
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: AddRange method [Security], AddRange method [Security], IX509Extensions interface, AddRange,IX509Extensions.AddRange, IX509Extensions, IX509Extensions interface [Security], AddRange method, IX509Extensions::AddRange, certenroll/IX509Extensions::AddRange, security.ix509extensions_addrange_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

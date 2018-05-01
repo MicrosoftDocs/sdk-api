@@ -7,7 +7,7 @@ old-location: search\isimplecommandcreator.htm
 old-project: search
 ms.assetid: CAC6BE83-863B-4DB0-B4FF-40029C242AE9
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/24/2018
 ms.keywords: ISimpleCommandCreator, ISimpleCommandCreator interface [search], ISimpleCommandCreator interface [search], described, indexsrv/ISimpleCommandCreator, search.isimplecommandcreator
 ms.prod: windows-hardware
 ms.technology: windows-devices

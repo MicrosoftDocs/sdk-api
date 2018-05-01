@@ -7,7 +7,7 @@ old-location: iphlp\ip_adapter_multicast_address.htm
 old-project: IpHlp
 ms.assetid: b85a6e0a-df2c-4608-b07a-191b34440a43
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 4/13/2018
 ms.keywords: "*PIP_ADAPTER_MULTICAST_ADDRESS, *PIP_ADAPTER_MULTICAST_ADDRESS_XP, IP_ADAPTER_ADDRESS_DNS_ELIGIBLE, IP_ADAPTER_ADDRESS_TRANSIENT, IP_ADAPTER_MULTICAST_ADDRESS, IP_ADAPTER_MULTICAST_ADDRESS structure [IP Helper], IP_ADAPTER_MULTICAST_ADDRESS_XP, PIP_ADAPTER_MULTICAST_ADDRESS, PIP_ADAPTER_MULTICAST_ADDRESS structure pointer [IP Helper], _IP_ADAPTER_MULTICAST_ADDRESS_XP, _iphlp_ip_adapter_multicast_address, iphlp.ip_adapter_multicast_address, iptypes/IP_ADAPTER_MULTICAST_ADDRESS, iptypes/PIP_ADAPTER_MULTICAST_ADDRESS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,13 +60,6 @@ req.product: GDI+ 1.1
 
 
 
-### -field Next
-
-Type: <b>struct _IP_ADAPTER_MULTICAST_ADDRESS*</b>
-
-A pointer to the next multicast IP address structure in the list.
-
-
 ### -field Length
 
 Type: <b>ULONG</b>
@@ -115,6 +108,13 @@ The IP address is a cluster address and should not be used by most applications.
 </tr>
 </table>
  
+
+
+### -field Next
+
+Type: <b>struct _IP_ADAPTER_MULTICAST_ADDRESS*</b>
+
+A pointer to the next multicast IP address structure in the list.
 
 
 ### -field Address

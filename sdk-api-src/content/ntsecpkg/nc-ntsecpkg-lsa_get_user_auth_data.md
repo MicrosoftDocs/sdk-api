@@ -7,7 +7,7 @@ old-location: security\getuserauthdata.htm
 old-project: SecAuthN
 ms.assetid: 2436eaee-1f32-4e32-9a98-74968ad9b58e
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/24/2018
 ms.keywords: GetUserAuthData, GetUserAuthData function [Security], LSA_GET_USER_AUTH_DATA, _ssp_getuserauthdata, ntsecpkg/GetUserAuthData, security.getuserauthdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # LSA_GET_USER_AUTH_DATA callback

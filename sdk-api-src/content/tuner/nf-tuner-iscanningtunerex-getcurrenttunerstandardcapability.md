@@ -7,7 +7,7 @@ old-location: mstv\iscanningtunerex_getcurrenttunerstandardcapability.htm
 old-project: mstv
 ms.assetid: 4a3edf23-d782-4bfb-84c2-33eab7cb9d19
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetCurrentTunerStandardCapability method [Microsoft TV Technologies], GetCurrentTunerStandardCapability method [Microsoft TV Technologies], IScanningTunerEx interface, GetCurrentTunerStandardCapability,IScanningTunerEx.GetCurrentTunerStandardCapability, IScanningTunerEx, IScanningTunerEx interface [Microsoft TV Technologies], GetCurrentTunerStandardCapability method, IScanningTunerEx::GetCurrentTunerStandardCapability, IScanningTunerExGetCurrentTunerStandardCapability, mstv.iscanningtunerex_getcurrenttunerstandardcapability, tuner/IScanningTunerEx::GetCurrentTunerStandardCapability
 ms.prod: windows-hardware
 ms.technology: windows-devices

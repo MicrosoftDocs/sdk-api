@@ -7,7 +7,7 @@ old-location: tapi3\itpluggableterminaleventsinkregistration_unregistersink.htm
 old-project: Tapi
 ms.assetid: 261ea39e-485f-4039-94b0-cd92f614c0a9
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: ITPluggableTerminalEventSinkRegistration, ITPluggableTerminalEventSinkRegistration interface [TAPI 2.2], UnregisterSink method, ITPluggableTerminalEventSinkRegistration::UnregisterSink, UnregisterSink method [TAPI 2.2], UnregisterSink method [TAPI 2.2], ITPluggableTerminalEventSinkRegistration interface, UnregisterSink,ITPluggableTerminalEventSinkRegistration.UnregisterSink, _tapi3_itpluggableterminaleventsinkregistration_unregistersink, msp/ITPluggableTerminalEventSinkRegistration::UnregisterSink, tapi3.itpluggableterminaleventsinkregistration_unregistersink
 ms.prod: windows-hardware
 ms.technology: windows-devices

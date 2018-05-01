@@ -7,7 +7,7 @@ old-location: search\_search_IRelationship_MetaData.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\irelationship\metadata.htm
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/24/2018
 ms.keywords: IRelationship, IRelationship interface [search], MetaData method, IRelationship::MetaData, MetaData method [search], MetaData method [search], IRelationship interface, MetaData,IRelationship.MetaData, _search_IRelationship_MetaData, search._search_IRelationship_MetaData, structuredquery/IRelationship::MetaData
 ms.prod: windows-hardware
 ms.technology: windows-devices

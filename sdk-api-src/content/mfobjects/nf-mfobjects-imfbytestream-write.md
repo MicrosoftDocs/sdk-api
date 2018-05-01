@@ -7,7 +7,7 @@ old-location: mf\imfbytestream_write.htm
 old-project: medfound
 ms.assetid: d1f1195a-b6ee-441c-af8b-fce3dc163e95
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFByteStream, IMFByteStream interface [Media Foundation], Write method, IMFByteStream::Write, Write method [Media Foundation], Write method [Media Foundation], IMFByteStream interface, Write,IMFByteStream.Write, d1f1195a-b6ee-441c-af8b-fce3dc163e95, mf.imfbytestream_write, mfobjects/IMFByteStream::Write
 ms.prod: windows-hardware
 ms.technology: windows-devices

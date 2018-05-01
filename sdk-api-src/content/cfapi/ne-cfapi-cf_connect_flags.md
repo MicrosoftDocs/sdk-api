@@ -72,7 +72,7 @@ When this flag is specified, the platform returns the full image path of the hyd
 When this flag is specified, the platform returns the full path of the placeholder being requested in the callback parameters.
 
 
-#### - CF_CONNECT_FLAG_BLOCK_SELF_IMPLICIT_HYDRATION
+### -field CF_CONNECT_FLAG_BLOCK_SELF_IMPLICIT_HYDRATION
 
 <b>Note</b>  This value is new for Windows 10, version 1803.
 

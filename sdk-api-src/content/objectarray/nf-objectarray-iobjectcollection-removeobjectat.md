@@ -7,7 +7,7 @@ old-location: shell\IObjectCollection_RemoveObjectAt.htm
 old-project: shell
 ms.assetid: a0e526c0-a374-4952-8fe1-2a5aa53d9c41
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IObjectCollection, IObjectCollection interface [Windows Shell], RemoveObjectAt method, IObjectCollection::RemoveObjectAt, RemoveObjectAt method [Windows Shell], RemoveObjectAt method [Windows Shell], IObjectCollection interface, RemoveObjectAt,IObjectCollection.RemoveObjectAt, _shell_IObjectCollection_RemoveObjectAt, objectarray/IObjectCollection::RemoveObjectAt, shell.IObjectCollection_RemoveObjectAt
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IObjectCollection::RemoveObjectAt method

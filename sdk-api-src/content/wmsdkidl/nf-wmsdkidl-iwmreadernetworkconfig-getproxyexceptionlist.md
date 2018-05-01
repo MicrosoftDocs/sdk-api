@@ -7,7 +7,7 @@ old-location: wmformat\iwmreadernetworkconfig_getproxyexceptionlist.htm
 old-project: wmformat
 ms.assetid: 90cf6e58-8666-4bab-974e-a7e999aeddf1
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: GetProxyExceptionList method [windows Media Format], GetProxyExceptionList method [windows Media Format], IWMReaderNetworkConfig interface, GetProxyExceptionList,IWMReaderNetworkConfig.GetProxyExceptionList, IWMReaderNetworkConfig, IWMReaderNetworkConfig interface [windows Media Format], GetProxyExceptionList method, IWMReaderNetworkConfig::GetProxyExceptionList, IWMReaderNetworkConfigGetProxyExceptionList, wmformat.iwmreadernetworkconfig_getproxyexceptionlist, wmsdkidl/IWMReaderNetworkConfig::GetProxyExceptionList
 ms.prod: windows-hardware
 ms.technology: windows-devices

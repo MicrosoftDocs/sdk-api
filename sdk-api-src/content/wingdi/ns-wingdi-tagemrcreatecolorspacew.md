@@ -7,7 +7,7 @@ old-location: gdi\emrcreatecolorspacew.htm
 old-project: gdi
 ms.assetid: eac364ad-ef17-4f60-ac4c-39d8a9af618b
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/17/2018
 ms.keywords: "*PEMRCREATECOLORSPACEW, EMRCREATECOLORSPACEW, EMRCREATECOLORSPACEW structure [Windows GDI], PEMRCREATECOLORSPACEW, PEMRCREATECOLORSPACEW structure pointer [Windows GDI], _win32_EMRCREATECOLORSPACEW_str, gdi.emrcreatecolorspacew, tagEMRCREATECOLORSPACEW, wingdi/EMRCREATECOLORSPACEW, wingdi/PEMRCREATECOLORSPACEW"
 ms.prod: windows-hardware
 ms.technology: windows-devices

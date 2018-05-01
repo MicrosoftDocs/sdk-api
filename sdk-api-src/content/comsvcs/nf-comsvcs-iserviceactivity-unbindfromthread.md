@@ -7,7 +7,7 @@ old-location: cos\iserviceactivity_unbindfromthread.htm
 old-project: cossdk
 ms.assetid: e28b413d-6e3e-4a1f-90ed-8b0ab88904aa
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: IServiceActivity, IServiceActivity interface [COM+], UnbindFromThread method, IServiceActivity::UnbindFromThread, UnbindFromThread method [COM+], UnbindFromThread method [COM+], IServiceActivity interface, UnbindFromThread,IServiceActivity.UnbindFromThread, _cos_IServiceActivity_UnbindFromThread, comsvcs/IServiceActivity::UnbindFromThread, cos.iserviceactivity_unbindfromthread
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: http\http_equal_version.htm
 old-project: Http
 ms.assetid: bcbe0e43-5164-4571-b672-2af547468f8f
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: HTTP_EQUAL_VERSION, HTTP_EQUAL_VERSION macro [HTTP], _http_http_equal_version, http.http_equal_version, http/HTTP_EQUAL_VERSION
 ms.prod: windows-hardware
 ms.technology: windows-devices

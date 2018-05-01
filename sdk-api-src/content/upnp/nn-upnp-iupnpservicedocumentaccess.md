@@ -7,7 +7,7 @@ old-location: upnp\iupnpservicedocumentaccess.htm
 old-project: UPnP
 ms.assetid: A4890300-2945-4973-ACFC-F950C5E15A0E
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/25/2018
 ms.keywords: IUPnPServiceDocumentAccess, IUPnPServiceDocumentAccess interface [UPnP APIs], IUPnPServiceDocumentAccess interface [UPnP APIs], described, upnp.iupnpservicedocumentaccess, upnp/IUPnPServiceDocumentAccess
 ms.prod: windows-hardware
 ms.technology: windows-devices

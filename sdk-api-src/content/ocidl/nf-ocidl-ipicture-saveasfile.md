@@ -7,7 +7,7 @@ old-location: com\ipicture_saveasfile.htm
 old-project: com
 ms.assetid: fa949064-d1cf-4056-9990-ae9ea88fae86
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IPicture, IPicture interface [COM], SaveAsFile method, IPicture::SaveAsFile, SaveAsFile method [COM], SaveAsFile method [COM], IPicture interface, SaveAsFile,IPicture.SaveAsFile, _ctrl_ipicture_saveasfile, com.ipicture_saveasfile, ocidl/IPicture::SaveAsFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IPicture::SaveAsFile method

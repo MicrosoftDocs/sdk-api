@@ -7,7 +7,7 @@ old-location: gdi\extlogpen.htm
 old-project: gdi
 ms.assetid: 34ffa71d-e94d-425e-9f9d-21e3df4990b7
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/17/2018
 ms.keywords: "*LPEXTLOGPEN, *NPEXTLOGPEN, *PEXTLOGPEN, EXTLOGPEN, EXTLOGPEN structure [Windows GDI], PEXTLOGPEN, PEXTLOGPEN structure pointer [Windows GDI], _win32_EXTLOGPEN_str, gdi.extlogpen, tagEXTLOGPEN, wingdi/EXTLOGPEN, wingdi/PEXTLOGPEN"
 ms.prod: windows-hardware
 ms.technology: windows-devices

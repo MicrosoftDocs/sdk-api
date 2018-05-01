@@ -7,7 +7,7 @@ old-location: fwp\fwpm_filter_change_callback0_func.htm
 old-project: FWP
 ms.assetid: 6c0c41d7-ff84-4ae3-b9e0-ebc52cc6273d
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: FWPM_FILTER_CHANGE_CALLBACK0, FWPM_FILTER_CHANGE_CALLBACK0 function pointer [Filtering], fwp.fwpm_filter_change_callback0_func, fwpmu/FWPM_FILTER_CHANGE_CALLBACK0
 ms.prod: windows-hardware
 ms.technology: windows-devices

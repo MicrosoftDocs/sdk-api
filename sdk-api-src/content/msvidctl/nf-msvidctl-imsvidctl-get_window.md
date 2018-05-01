@@ -7,7 +7,7 @@ old-location: mstv\imsvidctl_get_window.htm
 old-project: mstv
 ms.assetid: 88121bed-c626-4c1a-b415-8d162c43df9d
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidCtl, IMSVidCtl interface [Microsoft TV Technologies], get_Window method, IMSVidCtl::get_Window, IMSVidCtlget_Window, get_Window method [Microsoft TV Technologies], get_Window method [Microsoft TV Technologies], IMSVidCtl interface, get_Window,IMSVidCtl.get_Window, mstv.imsvidctl_get_window, msvidctl/IMSVidCtl::get_Window
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidCtl::get_Window method

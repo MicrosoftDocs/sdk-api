@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxaccount_accountname_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccount\accountname.htm
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/18/2018
 ms.keywords: AccountName property [Fax Service], AccountName property [Fax Service], FaxAccount object, FaxAccount object [Fax Service], AccountName property, IFaxAccount, IFaxAccount::get_AccountName, _mfax_faxaccount.accountname, fax._mfax_faxaccount_accountname, fax._mfax_faxaccount_accountname_vb, get_AccountName,IFaxAccount.get_AccountName
 ms.prod: windows-hardware
 ms.technology: windows-devices

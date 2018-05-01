@@ -7,7 +7,7 @@ old-location: wmi\iwbemqualifierset_getnames.htm
 old-project: WmiSdk
 ms.assetid: b1e7f6b2-a204-4e00-87eb-686bf8696082
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: 0 (Zero), GetNames method [Windows Management Instrumentation], GetNames method [Windows Management Instrumentation], IWbemQualifierSet interface, GetNames,IWbemQualifierSet.GetNames, IWbemQualifierSet, IWbemQualifierSet interface [Windows Management Instrumentation], GetNames method, IWbemQualifierSet::GetNames, WBEM_FLAG_LOCAL_ONLY, WBEM_FLAG_PROPAGATED_ONLY, _hmm_iwbemqualifierset_getnames, wbemcli/IWbemQualifierSet::GetNames, wmi.iwbemqualifierset_getnames
 ms.prod: windows-hardware
 ms.technology: windows-devices

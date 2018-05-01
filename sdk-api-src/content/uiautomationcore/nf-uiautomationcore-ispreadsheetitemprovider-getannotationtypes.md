@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ISpreadsheetItemProvider_GetAnnotationTypes.htm
 old-project: WinAuto
 ms.assetid: 95DD80C7-AD98-42D5-BB2E-05ACA02F878A
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: GetAnnotationTypes method [Windows Accessibility], GetAnnotationTypes method [Windows Accessibility], ISpreadsheetItemProvider interface, GetAnnotationTypes,ISpreadsheetItemProvider.GetAnnotationTypes, ISpreadsheetItemProvider, ISpreadsheetItemProvider interface [Windows Accessibility], GetAnnotationTypes method, ISpreadsheetItemProvider::GetAnnotationTypes, uiautomationcore/ISpreadsheetItemProvider::GetAnnotationTypes, winauto.uiauto_ISpreadsheetItemProvider_GetAnnotationTypes
 ms.prod: windows-hardware
 ms.technology: windows-devices

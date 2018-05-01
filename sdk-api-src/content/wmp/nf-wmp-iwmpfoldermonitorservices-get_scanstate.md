@@ -7,7 +7,7 @@ old-location: wmp\iwmpfoldermonitorservices_get_scanstate.htm
 old-project: WMP
 ms.assetid: 4f13d2d0-5d8c-4aa7-bc69-c5c0436337a6
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPFolderMonitorServices, IWMPFolderMonitorServices interface [Windows Media Player], get_scanState method, IWMPFolderMonitorServices::get_scanState, IWMPFolderMonitorServicesget_scanState, get_scanState method [Windows Media Player], get_scanState method [Windows Media Player], IWMPFolderMonitorServices interface, get_scanState,IWMPFolderMonitorServices.get_scanState, wmp.iwmpfoldermonitorservices_get_scanstate, wmp/IWMPFolderMonitorServices::get_scanState
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: termserv\itssbresourceplugin.htm
 old-project: TermServ
 ms.assetid: a5223902-2e2a-4fba-ae05-240824a140ac
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: ITsSbResourcePlugin, ITsSbResourcePlugin interface [Remote Desktop Services], ITsSbResourcePlugin interface [Remote Desktop Services], described, sbtsv/ITsSbResourcePlugin, termserv.itssbresourceplugin
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITsSbResourcePlugin interface

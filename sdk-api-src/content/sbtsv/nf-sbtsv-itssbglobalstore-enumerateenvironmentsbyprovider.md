@@ -7,7 +7,7 @@ old-location: termserv\itssbglobalstore_enumerateenvironmentsbyprovider.htm
 old-project: TermServ
 ms.assetid: 4fb29524-61e3-4d1a-be98-45f61b796e9e
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: EnumerateEnvironmentsByProvider method [Remote Desktop Services], EnumerateEnvironmentsByProvider method [Remote Desktop Services], ITsSbGlobalStore interface, EnumerateEnvironmentsByProvider,ITsSbGlobalStore.EnumerateEnvironmentsByProvider, ITsSbGlobalStore, ITsSbGlobalStore interface [Remote Desktop Services], EnumerateEnvironmentsByProvider method, ITsSbGlobalStore::EnumerateEnvironmentsByProvider, sbtsv/ITsSbGlobalStore::EnumerateEnvironmentsByProvider, termserv.itssbglobalstore_enumerateenvironmentsbyprovider
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITsSbGlobalStore::EnumerateEnvironmentsByProvider method

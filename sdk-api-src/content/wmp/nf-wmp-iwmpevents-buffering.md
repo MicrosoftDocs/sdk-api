@@ -7,7 +7,7 @@ old-location: wmp\iwmpevents_iwmpevents__buffering.htm
 old-project: WMP
 ms.assetid: 3e379c92-b400-48ad-a3d3-82ed3cd3f396
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: Buffering method [Windows Media Player], Buffering method [Windows Media Player], IWMPEvents interface, Buffering,IWMPEvents.Buffering, IWMPEvents, IWMPEvents interface [Windows Media Player], Buffering method, IWMPEvents::Buffering, IWMPEventsBuffering, wmp.iwmpevents_iwmpevents__buffering, wmp/IWMPEvents::Buffering
 ms.prod: windows-hardware
 ms.technology: windows-devices

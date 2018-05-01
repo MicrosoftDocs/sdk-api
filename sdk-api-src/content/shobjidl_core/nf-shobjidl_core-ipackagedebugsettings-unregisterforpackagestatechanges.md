@@ -7,7 +7,7 @@ old-location: winrt\ipackagedebugsettings_unregisterforpackagestatechanges.htm
 old-project: WinRT
 ms.assetid: 7EC7CCCB-1AE6-458C-A92C-4D303717EA15
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/24/2018
 ms.keywords: IPackageDebugSettings, IPackageDebugSettings interface [Windows Runtime], UnregisterForPackageStateChanges method, IPackageDebugSettings::UnregisterForPackageStateChanges, UnregisterForPackageStateChanges method [Windows Runtime], UnregisterForPackageStateChanges method [Windows Runtime], IPackageDebugSettings interface, UnregisterForPackageStateChanges,IPackageDebugSettings.UnregisterForPackageStateChanges, shobjidl_core/IPackageDebugSettings::UnregisterForPackageStateChanges, winrt.ipackagedebugsettings_unregisterforpackagestatechanges
 ms.prod: windows-hardware
 ms.technology: windows-devices

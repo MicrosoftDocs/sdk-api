@@ -7,7 +7,7 @@ old-location: intl\immgetcompositionwindow.htm
 old-project: Intl
 ms.assetid: d2c93eac-f221-4d65-af8c-45c687df6024
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/25/2018
 ms.keywords: ImmGetCompositionWindow, ImmGetCompositionWindow function [Internationalization for Windows Applications], _win32_ImmGetCompositionWindow, imm/ImmGetCompositionWindow, intl.immgetcompositionwindow
 ms.prod: windows-hardware
 ms.technology: windows-devices

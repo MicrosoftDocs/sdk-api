@@ -7,7 +7,7 @@ old-location: wmformat\iwmwriteradvanced2_getinputsetting.htm
 old-project: wmformat
 ms.assetid: 3aea0bc6-94e7-41ab-aec3-7366f183bb01
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: GetInputSetting method [windows Media Format], GetInputSetting method [windows Media Format], IWMWriterAdvanced2 interface, GetInputSetting,IWMWriterAdvanced2.GetInputSetting, IWMWriterAdvanced2, IWMWriterAdvanced2 interface [windows Media Format], GetInputSetting method, IWMWriterAdvanced2::GetInputSetting, IWMWriterAdvanced2GetInputSetting, wmformat.iwmwriteradvanced2_getinputsetting, wmsdkidl/IWMWriterAdvanced2::GetInputSetting
 ms.prod: windows-hardware
 ms.technology: windows-devices

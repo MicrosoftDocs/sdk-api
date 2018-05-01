@@ -7,7 +7,7 @@ old-location: cos\imultiinterfaceeventcontrol_getsubscriptions.htm
 old-project: cossdk
 ms.assetid: 38b1d0fe-c32e-41d5-a0c1-2b4e72908fce
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: GetSubscriptions method [COM+], GetSubscriptions method [COM+], IMultiInterfaceEventControl interface, GetSubscriptions,IMultiInterfaceEventControl.GetSubscriptions, IMultiInterfaceEventControl, IMultiInterfaceEventControl interface [COM+], GetSubscriptions method, IMultiInterfaceEventControl::GetSubscriptions, _cos_IMultiInterfaceEventControl_GetSubscriptions, cos.imultiinterfaceeventcontrol_getsubscriptions, eventsys/IMultiInterfaceEventControl::GetSubscriptions
 ms.prod: windows-hardware
 ms.technology: windows-devices

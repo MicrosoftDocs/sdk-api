@@ -7,7 +7,7 @@ old-location: winauto\uiauto_CaretPosition.htm
 old-project: WinAuto
 ms.assetid: 9284DCBB-FC6A-4895-8AE6-58C47BB3A047
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: CaretPosition, CaretPosition enumeration [Windows Accessibility], CaretPosition_BeginningOfLine, CaretPosition_EndOfLine, CaretPosition_Unknown, uiautomationcore/CaretPosition, uiautomationcore/CaretPosition_BeginningOfLine, uiautomationcore/CaretPosition_EndOfLine, uiautomationcore/CaretPosition_Unknown, winauto.uiauto_CaretPosition
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct3dhlsl\d3dcompile2.htm
 old-project: direct3dhlsl
 ms.assetid: 0CE217EA-44F4-4017-B2ED-95E8B122CA95
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/12/2018
 ms.keywords: D3DCompile2, D3DCompile2 function [HLSL], d3dcompiler/D3DCompile2, direct3dhlsl.d3dcompile2
 ms.prod: windows-hardware
 ms.technology: windows-devices

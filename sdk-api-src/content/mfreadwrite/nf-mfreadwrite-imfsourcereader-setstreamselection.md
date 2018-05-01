@@ -7,7 +7,7 @@ old-location: mf\imfsourcereader_setstreamselection.htm
 old-project: medfound
 ms.assetid: 5efadce6-347c-48cf-b42c-d461922b2523
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFSourceReader, IMFSourceReader interface [Media Foundation], SetStreamSelection method, IMFSourceReader::SetStreamSelection, MF_SOURCE_READER_ALL_STREAMS, MF_SOURCE_READER_FIRST_AUDIO_STREAM, MF_SOURCE_READER_FIRST_VIDEO_STREAM, SetStreamSelection method [Media Foundation], SetStreamSelection method [Media Foundation], IMFSourceReader interface, SetStreamSelection,IMFSourceReader.SetStreamSelection, mf.imfsourcereader_setstreamselection, mfreadwrite/IMFSourceReader::SetStreamSelection
 ms.prod: windows-hardware
 ms.technology: windows-devices

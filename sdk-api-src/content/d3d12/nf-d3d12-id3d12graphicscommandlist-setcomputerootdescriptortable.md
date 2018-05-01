@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist_setcomputerootdescriptortable
 old-project: direct3d12
 ms.assetid: DC05D64A-39D0-4EF2-A9FE-956B499386F2
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: ID3D12GraphicsCommandList, ID3D12GraphicsCommandList interface, SetComputeRootDescriptorTable method, ID3D12GraphicsCommandList::SetComputeRootDescriptorTable, SetComputeRootDescriptorTable method, SetComputeRootDescriptorTable method, ID3D12GraphicsCommandList interface, SetComputeRootDescriptorTable,ID3D12GraphicsCommandList.SetComputeRootDescriptorTable, d3d12/ID3D12GraphicsCommandList::SetComputeRootDescriptorTable, direct3d12.id3d12graphicscommandlist_setcomputerootdescriptortable
 ms.prod: windows-hardware
 ms.technology: windows-devices

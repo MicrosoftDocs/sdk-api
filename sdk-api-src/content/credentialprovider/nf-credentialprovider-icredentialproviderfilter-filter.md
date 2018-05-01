@@ -7,7 +7,7 @@ old-location: shell\ICredentialProviderFilter_Filter.htm
 old-project: shell
 ms.assetid: 3ba60965-6f18-427f-851d-b92c71eb03d2
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: CREDUIWIN_AUTHPACKAGE_ONLY, CREDUIWIN_CHECKBOX, CREDUIWIN_ENUMERATE_ADMINS, CREDUIWIN_ENUMERATE_CURRENT_USER, CREDUIWIN_GENERIC, CREDUIWIN_IN_CRED_ONLY, CREDUIWIN_PACK_32_WOW, Filter method [Windows Shell], Filter method [Windows Shell], ICredentialProviderFilter interface, Filter,ICredentialProviderFilter.Filter, ICredentialProviderFilter, ICredentialProviderFilter interface [Windows Shell], Filter method, ICredentialProviderFilter::Filter, _shell_ICredentialProviderFilter_Filter, credentialprovider/ICredentialProviderFilter::Filter, shell.ICredentialProviderFilter_Filter
 ms.prod: windows-hardware
 ms.technology: windows-devices

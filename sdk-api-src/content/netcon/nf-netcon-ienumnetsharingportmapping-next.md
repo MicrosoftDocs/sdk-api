@@ -7,7 +7,7 @@ old-location: ics\ienumnetsharingportmapping_next.htm
 old-project: ICS
 ms.assetid: bf90fca7-0c4f-474f-a856-7d6865ea8f03
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: IEnumNetSharingPortMapping, IEnumNetSharingPortMapping interface [ICS/ICF], Next method, IEnumNetSharingPortMapping::Next, Next method [ICS/ICF], Next method [ICS/ICF], IEnumNetSharingPortMapping interface, Next,IEnumNetSharingPortMapping.Next, _ics_ienumnetsharingportmapping_next, ics.ienumnetsharingportmapping_next, netcon/IEnumNetSharingPortMapping::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IEnumNetSharingPortMapping::Next method

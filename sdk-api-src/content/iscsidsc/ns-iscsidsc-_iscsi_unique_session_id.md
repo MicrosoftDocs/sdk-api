@@ -7,7 +7,7 @@ old-location: iscsidisc\iscsi_unique_connection_id.htm
 old-project: iSCSIDisc
 ms.assetid: cc68fda4-6dbf-42de-8e0e-e144bd4e9524
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: "*PISCSI_UNIQUE_CONNECTION_ID, *PISCSI_UNIQUE_SESSION_ID, ISCSI_UNIQUE_CONNECTION_ID, ISCSI_UNIQUE_CONNECTION_ID structure [iSCSI Discovery Library API], ISCSI_UNIQUE_SESSION_ID, _ISCSI_UNIQUE_SESSION_ID, iscsidisc.iscsi_unique_connection_id, iscsidsc/ISCSI_UNIQUE_CONNECTION_ID"
 ms.prod: windows-hardware
 ms.technology: windows-devices

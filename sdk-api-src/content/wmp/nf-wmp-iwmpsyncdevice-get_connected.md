@@ -7,7 +7,7 @@ old-location: wmp\iwmpsyncdevice_get_connected.htm
 old-project: WMP
 ms.assetid: c22f4247-8df9-4ac6-ad27-a0e34780b832
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPSyncDevice, IWMPSyncDevice interface [Windows Media Player], get_connected method, IWMPSyncDevice::get_connected, IWMPSyncDeviceget_connected, get_connected method [Windows Media Player], get_connected method [Windows Media Player], IWMPSyncDevice interface, get_connected,IWMPSyncDevice.get_connected, wmp.iwmpsyncdevice_get_connected, wmp/IWMPSyncDevice::get_connected
 ms.prod: windows-hardware
 ms.technology: windows-devices

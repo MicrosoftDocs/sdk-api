@@ -7,7 +7,7 @@ old-location: mstv\iregistertuner_register.htm
 old-project: mstv
 ms.assetid: 17a59666-1915-496f-9474-ddd6b3da58f5
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IRegisterTuner, IRegisterTuner interface [Microsoft TV Technologies], Register method, IRegisterTuner::Register, IRegisterTunerRegister, Register method [Microsoft TV Technologies], Register method [Microsoft TV Technologies], IRegisterTuner interface, Register,IRegisterTuner.Register, mstv.iregistertuner_register, tuner/IRegisterTuner::Register
 ms.prod: windows-hardware
 ms.technology: windows-devices

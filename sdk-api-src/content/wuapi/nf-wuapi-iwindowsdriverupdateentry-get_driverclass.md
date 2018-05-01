@@ -7,7 +7,7 @@ old-location: wua\iwindowsdriverupdateentry_driverclass.htm
 old-project: Wua_Sdk
 ms.assetid: cce717f6-613f-4177-9ab4-09786649c099
 ms.author: windowsdriverdev
-ms.date: 3/15/2018
+ms.date: 4/18/2018
 ms.keywords: DriverClass property [Windows Update Agent], DriverClass property [Windows Update Agent], IWindowsDriverUpdateEntry interface, IWindowsDriverUpdateEntry, IWindowsDriverUpdateEntry interface [Windows Update Agent], DriverClass property, IWindowsDriverUpdateEntry.DriverClass, IWindowsDriverUpdateEntry::get_DriverClass, get_DriverClass,IWindowsDriverUpdateEntry.get_DriverClass, wua.iwindowsdriverupdateentry_driverclass, wuapi/IWindowsDriverUpdateEntry::DriverClass, wuapi/IWindowsDriverUpdateEntry::get_DriverClass
 ms.prod: windows-hardware
 ms.technology: windows-devices

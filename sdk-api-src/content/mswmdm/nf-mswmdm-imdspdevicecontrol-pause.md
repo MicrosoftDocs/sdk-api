@@ -7,7 +7,7 @@ old-location: wmdm\imdspdevicecontrol_pause.htm
 old-project: WMDM
 ms.assetid: d97edbd0-afac-4197-b9bc-e538c2b145b2
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: IMDSPDeviceControl, IMDSPDeviceControl interface [windows Media Device Manager], Pause method, IMDSPDeviceControl::Pause, IMDSPDeviceControlPause, Pause method [windows Media Device Manager], Pause method [windows Media Device Manager], IMDSPDeviceControl interface, Pause,IMDSPDeviceControl.Pause, mswmdm/IMDSPDeviceControl::Pause, wmdm.imdspdevicecontrol_pause
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMDSPDeviceControl::Pause method

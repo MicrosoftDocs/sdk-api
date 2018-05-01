@@ -7,7 +7,7 @@ old-location: wmp\iwmpfoldermonitorservices_get_scannedfilescount.htm
 old-project: WMP
 ms.assetid: 8b6a291b-b28d-4415-813c-5f4a5e1b2dca
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPFolderMonitorServices, IWMPFolderMonitorServices interface [Windows Media Player], get_scannedFilesCount method, IWMPFolderMonitorServices::get_scannedFilesCount, IWMPFolderMonitorServicesget_scannedFilesCount, get_scannedFilesCount method [Windows Media Player], get_scannedFilesCount method [Windows Media Player], IWMPFolderMonitorServices interface, get_scannedFilesCount,IWMPFolderMonitorServices.get_scannedFilesCount, wmp.iwmpfoldermonitorservices_get_scannedfilescount, wmp/IWMPFolderMonitorServices::get_scannedFilesCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

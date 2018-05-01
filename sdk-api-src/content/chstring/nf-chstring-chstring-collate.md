@@ -7,7 +7,7 @@ old-location: wmi\chstring_collate.htm
 old-project: WmiSdk
 ms.assetid: b6c88b83-a369-4cb2-9297-df9c5911d08f
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: CHString, CHString interface [Windows Management Instrumentation], Collate method, CHString::Collate, Collate method [Windows Management Instrumentation], Collate method [Windows Management Instrumentation], CHString interface, Collate,CHString.Collate, _hmm_chstring_collate, chstring/CHString::Collate, wmi.chstring_collate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CF_SYNC_ROOT_STANDARD_INFO
+req.typenames: CF_SYNC_STATUS
 topic_type:
 -	APIRef
 -	kbSyntax

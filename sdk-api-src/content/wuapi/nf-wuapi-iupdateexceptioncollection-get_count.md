@@ -7,7 +7,7 @@ old-location: wua\iupdateexceptioncollection_count.htm
 old-project: Wua_Sdk
 ms.assetid: a78f4f2f-8d9f-45f1-9606-162cc9bdc8f3
 ms.author: windowsdriverdev
-ms.date: 3/15/2018
+ms.date: 4/18/2018
 ms.keywords: Count property [Windows Update Agent], Count property [Windows Update Agent], IUpdateExceptionCollection interface, IUpdateExceptionCollection, IUpdateExceptionCollection interface [Windows Update Agent], Count property, IUpdateExceptionCollection.Count, IUpdateExceptionCollection::get_Count, get_Count,IUpdateExceptionCollection.get_Count, wua.iupdateexceptioncollection_count, wuapi/IUpdateExceptionCollection::Count, wuapi/IUpdateExceptionCollection::get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices

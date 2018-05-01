@@ -25,7 +25,7 @@ req.idl:
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: Ccpapi.tlb
+req.type-library: 
 req.typenames: WEEKLY
 topic_type:
 -	APIRef
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _WEEKLY structure

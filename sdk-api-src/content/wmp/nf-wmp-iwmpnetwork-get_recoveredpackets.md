@@ -7,7 +7,7 @@ old-location: wmp\iwmpnetwork_get_recoveredpackets.htm
 old-project: WMP
 ms.assetid: 1c1b41c3-286c-4d1f-ab2f-ce088289eaae
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPNetwork, IWMPNetwork interface [Windows Media Player], get_recoveredPackets method, IWMPNetwork::get_recoveredPackets, IWMPNetworkget_recoveredPackets, get_recoveredPackets method [Windows Media Player], get_recoveredPackets method [Windows Media Player], IWMPNetwork interface, get_recoveredPackets,IWMPNetwork.get_recoveredPackets, wmp.iwmpnetwork_get_recoveredpackets, wmp/IWMPNetwork::get_recoveredPackets
 ms.prod: windows-hardware
 ms.technology: windows-devices

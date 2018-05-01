@@ -7,7 +7,7 @@ old-location: mf\imftranscodesinkinfoprovider_setoutputbytestream.htm
 old-project: medfound
 ms.assetid: 234bed82-a148-4313-a8cb-eefe2061b7ed
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFTranscodeSinkInfoProvider, IMFTranscodeSinkInfoProvider interface [Media Foundation], SetOutputByteStream method, IMFTranscodeSinkInfoProvider::SetOutputByteStream, SetOutputByteStream method [Media Foundation], SetOutputByteStream method [Media Foundation], IMFTranscodeSinkInfoProvider interface, SetOutputByteStream,IMFTranscodeSinkInfoProvider.SetOutputByteStream, mf.imftranscodesinkinfoprovider_setoutputbytestream, mfidl/IMFTranscodeSinkInfoProvider::SetOutputByteStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

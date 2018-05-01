@@ -7,7 +7,7 @@ old-location: com\ipicture_get_curdc.htm
 old-project: com
 ms.assetid: a5c13a54-692d-423f-824d-5a96c137dec9
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IPicture, IPicture interface [COM], get_CurDC method, IPicture::get_CurDC, _ctrl_ipicture_get_curdc, com.ipicture_get_curdc, get_CurDC method [COM], get_CurDC method [COM], IPicture interface, get_CurDC,IPicture.get_CurDC, ocidl/IPicture::get_CurDC
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IPicture::get_CurDC method

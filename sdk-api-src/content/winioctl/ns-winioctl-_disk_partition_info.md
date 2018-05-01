@@ -58,6 +58,18 @@ Contains the disk partition information.
 
 
 
+### -field SizeOfPartitionInfo
+
+The size of this structure, in bytes.
+
+
+### -field PartitionStyle
+
+The format of a partition.
+
+For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563773">PARTITION_STYLE</a>.
+
+
 ### -field DUMMYUNIONNAME
 
  
@@ -90,18 +102,6 @@ If <b>PartitionStyle</b> is <b>PARTITION_STYLE_GPT</b> (1), the union
 ### -field DUMMYUNIONNAME.Gpt.DiskId
 
 <b>GUID</b> of the GPT partition.
-
-
-### -field SizeOfPartitionInfo
-
-The size of this structure, in bytes.
-
-
-### -field PartitionStyle
-
-The format of a partition.
-
-For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563773">PARTITION_STYLE</a>.
 
 
 ## -see-also

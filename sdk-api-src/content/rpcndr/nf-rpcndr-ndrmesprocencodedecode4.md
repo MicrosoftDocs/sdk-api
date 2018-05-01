@@ -7,7 +7,7 @@ old-location: rpc\ndrmesprocencodedecode4.htm
 old-project: Rpc
 ms.assetid: 53A24D77-0C23-4C06-AAB8-521528297E4F
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: NdrMesProcEncodeDecode4, NdrMesProcEncodeDecode4 function [RPC], rpc.ndrmesprocencodedecode4, rpcndr/NdrMesProcEncodeDecode4
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: RpcRT4.lib
 req.dll: RpcRT4.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # NdrMesProcEncodeDecode4 function

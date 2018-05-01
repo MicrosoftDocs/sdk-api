@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Mileffects.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
@@ -59,43 +59,6 @@ Contains information about a power request. This structure is used by the
 ## -struct-fields
 
 
-
-
-### -field Reason
-
-A union that consists of either a <b>Detailed</b> structure or a string.  
-
-
-
-#### SimpleReasonString
-
-A non-localized string that describes the reason for the power request.  
-
-
-### -field Reason.Detailed
-
-A structure that identifies a localizable string resource to describe the reason for the power 
-       request.
-
-
-### -field Reason.Detailed.LocalizedReasonModule
-
-The module that contains the string resource.
-
-
-### -field Reason.Detailed.LocalizedReasonId
-
-The ID of the string resource.
-
-
-### -field Reason.Detailed.ReasonStringCount
-
-The number of strings in the <i>ReasonStrings</i> parameter.
-
-
-### -field Reason.Detailed.ReasonStrings
-
-An array of strings to be substituted in the string resource at run time. 
 
 
 ### -field Version
@@ -139,6 +102,43 @@ The <i>SimpleReasonString</i> parameter contains a simple, non-localizable strin
 </tr>
 </table>
  
+
+
+### -field Reason
+
+A union that consists of either a <b>Detailed</b> structure or a string.  
+
+
+
+#### SimpleReasonString
+
+A non-localized string that describes the reason for the power request.  
+
+
+### -field Reason.Detailed
+
+A structure that identifies a localizable string resource to describe the reason for the power 
+       request.
+
+
+### -field Reason.Detailed.LocalizedReasonModule
+
+The module that contains the string resource.
+
+
+### -field Reason.Detailed.LocalizedReasonId
+
+The ID of the string resource.
+
+
+### -field Reason.Detailed.ReasonStringCount
+
+The number of strings in the <i>ReasonStrings</i> parameter.
+
+
+### -field Reason.Detailed.ReasonStrings
+
+An array of strings to be substituted in the string resource at run time. 
 
 
 ## -see-also

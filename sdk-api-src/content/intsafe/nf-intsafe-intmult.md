@@ -7,7 +7,7 @@ old-location: shell\IntMult.htm
 old-project: shell
 ms.assetid: 7a8ec63e-7424-4a12-9bc9-7c91e4c49fa7
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IntMult, IntMult function [Windows Shell], intsafe/IntMult, shell.IntMult
 ms.prod: windows-hardware
 ms.technology: windows-devices

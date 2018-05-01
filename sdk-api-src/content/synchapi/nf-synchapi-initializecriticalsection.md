@@ -7,7 +7,7 @@ old-location: base\initializecriticalsection.htm
 old-project: Sync
 ms.assetid: ad4b182d-a65d-4890-9eda-fdd6d044f736
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: InitializeCriticalSection, InitializeCriticalSection function, _win32_initializecriticalsection, base.initializecriticalsection, synchapi/InitializeCriticalSection, winbase/InitializeCriticalSection
 ms.prod: windows-hardware
 ms.technology: windows-devices

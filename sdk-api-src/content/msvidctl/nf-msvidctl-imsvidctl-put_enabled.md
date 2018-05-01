@@ -7,7 +7,7 @@ old-location: mstv\imsvidctl_put_enabled.htm
 old-project: mstv
 ms.assetid: 366164ac-1514-46d6-870a-388706b8de75
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidCtl, IMSVidCtl interface [Microsoft TV Technologies], put_Enabled method, IMSVidCtl::put_Enabled, IMSVidCtlput_Enabled, mstv.imsvidctl_put_enabled, msvidctl/IMSVidCtl::put_Enabled, put_Enabled method [Microsoft TV Technologies], put_Enabled method [Microsoft TV Technologies], IMSVidCtl interface, put_Enabled,IMSVidCtl.put_Enabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidCtl::put_Enabled method

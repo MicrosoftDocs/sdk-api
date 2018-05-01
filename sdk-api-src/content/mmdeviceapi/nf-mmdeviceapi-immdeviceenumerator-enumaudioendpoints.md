@@ -7,7 +7,7 @@ old-location: coreaudio\immdeviceenumerator_enumaudioendpoints.htm
 old-project: CoreAudio
 ms.assetid: ebdd2dcd-82c5-423f-a85d-04388f5078ec
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: EnumAudioEndpoints method [Core Audio], EnumAudioEndpoints method [Core Audio], IMMDeviceEnumerator interface, EnumAudioEndpoints,IMMDeviceEnumerator.EnumAudioEndpoints, IMMDeviceEnumerator, IMMDeviceEnumerator interface [Core Audio], EnumAudioEndpoints method, IMMDeviceEnumerator::EnumAudioEndpoints, IMMDeviceEnumeratorEnumAudioEndpoints, coreaudio.immdeviceenumerator_enumaudioendpoints, mmdeviceapi/IMMDeviceEnumerator::EnumAudioEndpoints
 ms.prod: windows-hardware
 ms.technology: windows-devices

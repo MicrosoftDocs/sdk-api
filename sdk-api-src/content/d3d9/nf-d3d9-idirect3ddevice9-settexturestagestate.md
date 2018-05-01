@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3ddevice9__settexturestagestate.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__settexturestagestate.htm
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/10/2018
 ms.keywords: IDirect3DDevice9, IDirect3DDevice9 interface [Direct3D 9], SetTextureStageState method, IDirect3DDevice9::SetTextureStageState, SetTextureStageState method [Direct3D 9], SetTextureStageState method [Direct3D 9], IDirect3DDevice9 interface, SetTextureStageState,IDirect3DDevice9.SetTextureStageState, d3d9helper/IDirect3DDevice9::SetTextureStageState, d527a1a7-ab83-8b59-b7eb-084188448dc6, direct3d9.idirect3ddevice9__settexturestagestate
 ms.prod: windows-hardware
 ms.technology: windows-devices

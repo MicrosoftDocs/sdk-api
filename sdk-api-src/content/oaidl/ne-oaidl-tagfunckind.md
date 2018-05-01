@@ -7,7 +7,7 @@ old-location: automat\funckind.htm
 old-project: automat
 ms.assetid: da13d9ba-b910-44cc-9926-4368df3f1606
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: FUNCKIND, FUNCKIND enumeration [Automation], FUNC_DISPATCH, FUNC_NONVIRTUAL, FUNC_PUREVIRTUAL, FUNC_STATIC, FUNC_VIRTUAL, _oa96_FUNCKIND, automat.funckind, oaidl/FUNCKIND, oaidl/FUNC_DISPATCH, oaidl/FUNC_NONVIRTUAL, oaidl/FUNC_PUREVIRTUAL, oaidl/FUNC_STATIC, oaidl/FUNC_VIRTUAL, tagFUNCKIND
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # tagFUNCKIND enumeration

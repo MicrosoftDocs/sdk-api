@@ -7,7 +7,7 @@ old-location: winauto\uiauto_UiaIAccessibleFromProvider.htm
 old-project: WinAuto
 ms.assetid: 79523637-9858-4E0B-87E7-8CED19FADF0E
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: UIA_IAFP_DEFAULT, UIA_IAFP_UNWRAP_BRIDGE, UiaIAccessibleFromProvider, UiaIAccessibleFromProvider function [Windows Accessibility], uiautomationcoreapi/UiaIAccessibleFromProvider, winauto.uiauto_UiaIAccessibleFromProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices

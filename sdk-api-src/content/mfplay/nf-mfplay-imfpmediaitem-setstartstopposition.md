@@ -7,7 +7,7 @@ old-location: mf\imfpmediaitem_setstartstopposition.htm
 old-project: medfound
 ms.assetid: 8f0409a6-1911-47ee-ac65-68b87d6b1db5
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFPMediaItem, IMFPMediaItem interface [Media Foundation], SetStartStopPosition method, IMFPMediaItem::SetStartStopPosition, SetStartStopPosition method [Media Foundation], SetStartStopPosition method [Media Foundation], IMFPMediaItem interface, SetStartStopPosition,IMFPMediaItem.SetStartStopPosition, mf.imfpmediaitem_setstartstopposition, mfplay/IMFPMediaItem::SetStartStopPosition
 ms.prod: windows-hardware
 ms.technology: windows-devices

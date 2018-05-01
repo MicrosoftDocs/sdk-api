@@ -7,7 +7,7 @@ old-location: mstv\iisdb_ldt_getoriginalserviceid.htm
 old-project: mstv
 ms.assetid: 030c01e3-6149-4a61-aeb2-01143642213b
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetOriginalServiceId method [Microsoft TV Technologies], GetOriginalServiceId method [Microsoft TV Technologies], IISDB_LDT interface, GetOriginalServiceId,IISDB_LDT.GetOriginalServiceId, IISDB_LDT, IISDB_LDT interface [Microsoft TV Technologies], GetOriginalServiceId method, IISDB_LDT::GetOriginalServiceId, dvbsiparser/IISDB_LDT::GetOriginalServiceId, mstv.iisdb_ldt_getoriginalserviceid
 ms.prod: windows-hardware
 ms.technology: windows-devices

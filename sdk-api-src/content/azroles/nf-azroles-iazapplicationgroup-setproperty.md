@@ -7,7 +7,7 @@ old-location: security\iazapplicationgroup_setproperty.htm
 old-project: SecAuthZ
 ms.assetid: c1af01f2-bd86-4404-a281-2024777dafaa
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: AZ_PROP_DESCRIPTION, AZ_PROP_GROUP_LDAP_QUERY, AZ_PROP_GROUP_TYPE, AZ_PROP_NAME, AzApplicationGroup object [Security], SetProperty method, IAzApplicationGroup, IAzApplicationGroup interface [Security], SetProperty method, IAzApplicationGroup::SetProperty, SetProperty method [Security], SetProperty method [Security], AzApplicationGroup object, SetProperty method [Security], IAzApplicationGroup interface, SetProperty,IAzApplicationGroup.SetProperty, azroles/IAzApplicationGroup::SetProperty, security.iazapplicationgroup_setproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

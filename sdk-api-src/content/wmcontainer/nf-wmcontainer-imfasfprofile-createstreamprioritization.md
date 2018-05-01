@@ -7,7 +7,7 @@ old-location: mf\imfasfprofile_createstreamprioritization.htm
 old-project: medfound
 ms.assetid: 1c3a5470-eba9-4233-8744-8630002d3fa0
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 1c3a5470-eba9-4233-8744-8630002d3fa0, CreateStreamPrioritization method [Media Foundation], CreateStreamPrioritization method [Media Foundation], IMFASFProfile interface, CreateStreamPrioritization,IMFASFProfile.CreateStreamPrioritization, IMFASFProfile, IMFASFProfile interface [Media Foundation], CreateStreamPrioritization method, IMFASFProfile::CreateStreamPrioritization, mf.imfasfprofile_createstreamprioritization, wmcontainer/IMFASFProfile::CreateStreamPrioritization
 ms.prod: windows-hardware
 ms.technology: windows-devices

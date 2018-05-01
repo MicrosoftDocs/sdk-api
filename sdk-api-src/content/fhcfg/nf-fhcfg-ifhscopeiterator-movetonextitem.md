@@ -7,7 +7,7 @@ old-location: winprog\ifhscopeiterator_movetonextitem.htm
 old-project: DevNotes
 ms.assetid: FD8B5460-FBD7-47D3-ADB0-DB3D6AB5A51A
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/13/2018
 ms.keywords: IFhScopeIterator, IFhScopeIterator interface [Windows API], MoveToNextItem method, IFhScopeIterator::MoveToNextItem, MoveToNextItem method [Windows API], MoveToNextItem method [Windows API], IFhScopeIterator interface, MoveToNextItem,IFhScopeIterator.MoveToNextItem, fhcfg/IFhScopeIterator::MoveToNextItem, winprog.ifhscopeiterator_movetonextitem
 ms.prod: windows-hardware
 ms.technology: windows-devices

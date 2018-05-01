@@ -7,7 +7,7 @@ old-location: fwp\fwpmprovidercontextdeletebyid0_func.htm
 old-project: FWP
 ms.assetid: 073ecbc9-339d-4afa-a8da-6dac0c65e755
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: FwpmProviderContextDeleteById0, FwpmProviderContextDeleteById0 function [Filtering], fwp.fwpmprovidercontextdeletebyid0_func, fwpmu/FwpmProviderContextDeleteById0
 ms.prod: windows-hardware
 ms.technology: windows-devices

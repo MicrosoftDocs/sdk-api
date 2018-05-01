@@ -7,7 +7,7 @@ old-location: automat\icreatetypeinfo_setfunchelpcontext.htm
 old-project: automat
 ms.assetid: 945d2faa-f35d-488f-a0df-ace3fbb85971
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: ICreateTypeInfo, ICreateTypeInfo interface [Automation], SetFuncHelpContext method, ICreateTypeInfo::SetFuncHelpContext, SetFuncHelpContext method [Automation], SetFuncHelpContext method [Automation], ICreateTypeInfo interface, SetFuncHelpContext,ICreateTypeInfo.SetFuncHelpContext, _oa96_ICreateTypeInfo_SetFuncHelpContext, automat.icreatetypeinfo_setfunchelpcontext, oaidl/ICreateTypeInfo::SetFuncHelpContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ICreateTypeInfo::SetFuncHelpContext method

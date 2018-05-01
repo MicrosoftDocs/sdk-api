@@ -7,7 +7,7 @@ old-location: dshow\ivmrfilterconfig_setimagecompositor.htm
 old-project: DirectShow
 ms.assetid: 504380d4-4df6-4b01-8db3-5c769a3d4106
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IVMRFilterConfig, IVMRFilterConfig interface [DirectShow], SetImageCompositor method, IVMRFilterConfig::SetImageCompositor, IVMRFilterConfigSetImageCompositor, SetImageCompositor method [DirectShow], SetImageCompositor method [DirectShow], IVMRFilterConfig interface, SetImageCompositor,IVMRFilterConfig.SetImageCompositor, dshow.ivmrfilterconfig_setimagecompositor, strmif/IVMRFilterConfig::SetImageCompositor
 ms.prod: windows-hardware
 ms.technology: windows-devices

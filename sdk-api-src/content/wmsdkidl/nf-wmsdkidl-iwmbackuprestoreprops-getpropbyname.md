@@ -7,7 +7,7 @@ old-location: wmformat\iwmbackuprestoreprops_getpropbyname.htm
 old-project: wmformat
 ms.assetid: 771a7a49-7d42-4537-9945-97b907404097
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: GetPropByName method [windows Media Format], GetPropByName method [windows Media Format], IWMBackupRestoreProps interface, GetPropByName,IWMBackupRestoreProps.GetPropByName, IWMBackupRestoreProps, IWMBackupRestoreProps interface [windows Media Format], GetPropByName method, IWMBackupRestoreProps::GetPropByName, IWMBackupRestorePropsGetPropByName, wmformat.iwmbackuprestoreprops_getpropbyname, wmsdkidl/IWMBackupRestoreProps::GetPropByName
 ms.prod: windows-hardware
 ms.technology: windows-devices

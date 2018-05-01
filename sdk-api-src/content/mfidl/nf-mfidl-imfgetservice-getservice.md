@@ -7,7 +7,7 @@ old-location: mf\imfgetservice_getservice.htm
 old-project: medfound
 ms.assetid: 4287dd1f-1718-4231-bc62-b58e0e61d688
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 4287dd1f-1718-4231-bc62-b58e0e61d688, GetService method [Media Foundation], GetService method [Media Foundation], IMFGetService interface, GetService,IMFGetService.GetService, IMFGetService, IMFGetService interface [Media Foundation], GetService method, IMFGetService::GetService, mf.imfgetservice_getservice, mfidl/IMFGetService::GetService
 ms.prod: windows-hardware
 ms.technology: windows-devices

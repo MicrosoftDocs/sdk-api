@@ -7,7 +7,7 @@ old-location: mediastreaming\imediarenderer_setmuteasync.htm
 old-project: mediastreaming
 ms.assetid: C043088B-5043-457A-A104-5CE0B228222A
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/10/2018
 ms.keywords: IMediaRenderer, IMediaRenderer interface [Media Streaming API], SetMuteAsync method, IMediaRenderer::SetMuteAsync, SetMuteAsync method [Media Streaming API], SetMuteAsync method [Media Streaming API], IMediaRenderer interface, SetMuteAsync,IMediaRenderer.SetMuteAsync, mediastreaming.imediarenderer_setmuteasync, windows/IMediaRenderer::SetMuteAsync
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: PDF_RENDER_PARAMS
+req.typenames: TimeSpan
 topic_type:
 -	APIRef
 -	kbSyntax

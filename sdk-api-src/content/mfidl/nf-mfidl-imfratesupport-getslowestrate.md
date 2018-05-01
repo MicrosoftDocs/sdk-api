@@ -7,7 +7,7 @@ old-location: mf\imfratesupport_getslowestrate.htm
 old-project: medfound
 ms.assetid: e10125e9-8bc7-4fb6-8a10-ba5717f1596f
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetSlowestRate method [Media Foundation], GetSlowestRate method [Media Foundation], IMFRateSupport interface, GetSlowestRate,IMFRateSupport.GetSlowestRate, IMFRateSupport, IMFRateSupport interface [Media Foundation], GetSlowestRate method, IMFRateSupport::GetSlowestRate, e10125e9-8bc7-4fb6-8a10-ba5717f1596f, mf.imfratesupport_getslowestrate, mfidl/IMFRateSupport::GetSlowestRate
 ms.prod: windows-hardware
 ms.technology: windows-devices

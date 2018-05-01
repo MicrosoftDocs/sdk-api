@@ -7,7 +7,7 @@ old-location: base\transmitcommchar.htm
 old-project: DevIO
 ms.assetid: 599c3d04-6cd3-41ac-88a8-752f4b83d46b
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/3/2018
 ms.keywords: TransmitCommChar, TransmitCommChar function, _win32_transmitcommchar, base.transmitcommchar, winbase/TransmitCommChar
 ms.prod: windows-hardware
 ms.technology: windows-devices

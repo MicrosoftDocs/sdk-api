@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationSelectionItemPattern_AddToSelection.ht
 old-project: WinAuto
 ms.assetid: e3d90861-1926-4294-b14b-f4c61a4f9176
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: AddToSelection method [Windows Accessibility], AddToSelection method [Windows Accessibility], IUIAutomationSelectionItemPattern interface, AddToSelection,IUIAutomationSelectionItemPattern.AddToSelection, IUIAutomationSelectionItemPattern, IUIAutomationSelectionItemPattern interface [Windows Accessibility], AddToSelection method, IUIAutomationSelectionItemPattern::AddToSelection, uiauto.uiauto_IUIAutomationSelectionItemPattern_AddToSelection, uiauto_IUIAutomationSelectionItemPattern_AddToSelection, uiautomationclient/IUIAutomationSelectionItemPattern::AddToSelection, winauto.uiauto_IUIAutomationSelectionItemPattern_AddToSelection
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\ipmt_initialize.htm
 old-project: mstv
 ms.assetid: d9f5e6b0-4317-40cd-9664-e2cc6d1a8833
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IPMT, IPMT interface [Microsoft TV Technologies], Initialize method, IPMT::Initialize, IPMTInitialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies], IPMT interface, Initialize,IPMT.Initialize, mpeg2psiparser/IPMT::Initialize, mstv.ipmt_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

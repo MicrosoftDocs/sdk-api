@@ -58,11 +58,6 @@ Represents an entry in the function table on 64-bit Windows.
 
 
 
-### -field DUMMYUNIONNAME
-
- 
-
-
 ### -field BeginAddress
 
 The address of the start of the function.
@@ -71,6 +66,13 @@ The address of the start of the function.
 ### -field EndAddress
 
 The address of the end of the function.
+
+
+### -field DUMMYUNIONNAME
+
+ 
+
+
 
 
 #### - UnwindInfoAddress

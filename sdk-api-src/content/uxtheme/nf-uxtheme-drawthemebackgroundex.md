@@ -7,7 +7,7 @@ old-location: controls\DrawThemeBackgroundEx.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\drawthemebackgroundex.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: DrawThemeBackgroundEx, DrawThemeBackgroundEx function [Windows Controls], controls.DrawThemeBackgroundEx, controls.inet_DrawThemeBackgroundEx, inet_DrawThemeBackgroundEx, inet_DrawThemeBackgroundEx_cpp, uxtheme/DrawThemeBackgroundEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

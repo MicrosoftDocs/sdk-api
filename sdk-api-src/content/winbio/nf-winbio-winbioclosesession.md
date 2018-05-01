@@ -7,7 +7,7 @@ old-location: secbiomet\winbioclosesession.htm
 old-project: SecBioMet
 ms.assetid: b0adcf87-2f99-4154-a4fb-fb2f07181cd0
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: WinBioCloseSession, WinBioCloseSession function [Windows Biometric Framework API], secbiomet.winbioclosesession, winbio/WinBioCloseSession
 ms.prod: windows-hardware
 ms.technology: windows-devices

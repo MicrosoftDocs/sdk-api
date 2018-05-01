@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11moduleinstance_bindresource.htm
 old-project: direct3d11
 ms.assetid: 7EBF623B-1C04-43C5-A262-62EA125D6631
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/6/2018
 ms.keywords: BindResource method [Direct3D 11], BindResource method [Direct3D 11], ID3D11ModuleInstance interface, BindResource,ID3D11ModuleInstance.BindResource, ID3D11ModuleInstance, ID3D11ModuleInstance interface [Direct3D 11], BindResource method, ID3D11ModuleInstance::BindResource, d3d11shader/ID3D11ModuleInstance::BindResource, direct3d11.id3d11moduleinstance_bindresource
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\imsvidoutputdeviceevent.htm
 old-project: mstv
 ms.assetid: 4f3ad7c0-02fd-4232-89f1-49517c23ee28
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidOutputDeviceEvent, IMSVidOutputDeviceEvent interface [Microsoft TV Technologies], IMSVidOutputDeviceEvent interface [Microsoft TV Technologies], described, IMSVidOutputDeviceEventInterface, mstv.imsvidoutputdeviceevent, segment/IMSVidOutputDeviceEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidOutputDeviceEvent interface

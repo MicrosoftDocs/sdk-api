@@ -7,7 +7,7 @@ old-location: dshow\iresourceconsumer_releaseresource.htm
 old-project: DirectShow
 ms.assetid: 9f0a5830-dcaa-4020-9e78-0cbe64e13360
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IResourceConsumer, IResourceConsumer interface [DirectShow], ReleaseResource method, IResourceConsumer::ReleaseResource, IResourceConsumerReleaseResource, ReleaseResource method [DirectShow], ReleaseResource method [DirectShow], IResourceConsumer interface, ReleaseResource,IResourceConsumer.ReleaseResource, dshow.iresourceconsumer_releaseresource, strmif/IResourceConsumer::ReleaseResource
 ms.prod: windows-hardware
 ms.technology: windows-devices

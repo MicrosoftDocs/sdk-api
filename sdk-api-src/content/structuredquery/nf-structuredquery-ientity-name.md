@@ -7,7 +7,7 @@ old-location: search\_search_IEntity_Name.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ientity\name.htm
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/24/2018
 ms.keywords: IEntity, IEntity interface [search], Name method, IEntity::Name, Name method [search], Name method [search], IEntity interface, Name,IEntity.Name, _search_IEntity_Name, search._search_IEntity_Name, structuredquery/IEntity::Name
 ms.prod: windows-hardware
 ms.technology: windows-devices

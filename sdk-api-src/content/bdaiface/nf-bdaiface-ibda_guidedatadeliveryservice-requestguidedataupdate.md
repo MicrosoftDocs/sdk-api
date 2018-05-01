@@ -7,7 +7,7 @@ old-location: mstv\ibda_guidedatadeliveryservice_requestguidedataupdate.htm
 old-project: mstv
 ms.assetid: e9aee857-237a-4bfd-85c2-3d5850f37ce7
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IBDA_GuideDataDeliveryService, IBDA_GuideDataDeliveryService interface [Microsoft TV Technologies], RequestGuideDataUpdate method, IBDA_GuideDataDeliveryService::RequestGuideDataUpdate, RequestGuideDataUpdate method [Microsoft TV Technologies], RequestGuideDataUpdate method [Microsoft TV Technologies], IBDA_GuideDataDeliveryService interface, RequestGuideDataUpdate,IBDA_GuideDataDeliveryService.RequestGuideDataUpdate, bdaiface/IBDA_GuideDataDeliveryService::RequestGuideDataUpdate, mstv.ibda_guidedatadeliveryservice_requestguidedataupdate
 ms.prod: windows-hardware
 ms.technology: windows-devices

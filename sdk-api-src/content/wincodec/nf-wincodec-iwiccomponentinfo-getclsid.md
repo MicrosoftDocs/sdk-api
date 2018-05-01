@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwiccomponentinfo_getclsid.htm
 old-project: wic
 ms.assetid: 63814933-1366-47b9-8cf4-0d8685053a30
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: GetCLSID method [Windows Imaging Component], GetCLSID method [Windows Imaging Component], IWICComponentInfo interface, GetCLSID,IWICComponentInfo.GetCLSID, IWICComponentInfo, IWICComponentInfo interface [Windows Imaging Component], GetCLSID method, IWICComponentInfo::GetCLSID, _wic_codec_iwiccomponentinfo_getclsid, wic._wic_codec_iwiccomponentinfo_getclsid, wincodec/IWICComponentInfo::GetCLSID
 ms.prod: windows-hardware
 ms.technology: windows-devices

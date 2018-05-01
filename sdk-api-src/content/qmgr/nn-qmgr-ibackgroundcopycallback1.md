@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopycallback1.htm
 old-project: Bits
 ms.assetid: d5d22cf6-d9b5-4001-a0ac-f67d59dde779
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/10/2018
 ms.keywords: IBackgroundCopyCallback1, IBackgroundCopyCallback1 interface [BITS], IBackgroundCopyCallback1 interface [BITS], described, bits.ibackgroundcopycallback1, qmgr/IBackgroundCopyCallback1
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: 
 req.dll: QmgrPrxy.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IBackgroundCopyCallback1 interface

@@ -7,7 +7,7 @@ old-location: base\changer_set_position_str.htm
 old-project: DevIO
 ms.assetid: 7bffff12-666d-4203-bddd-32f279d18fb4
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/3/2018
 ms.keywords: "*PCHANGER_SET_POSITION, CHANGER_SET_POSITION, CHANGER_SET_POSITION structure, PCHANGER_SET_POSITION, PCHANGER_SET_POSITION structure pointer, _CHANGER_SET_POSITION, _win32_changer_set_position_str, base.changer_set_position_str, winioctl/CHANGER_SET_POSITION, winioctl/PCHANGER_SET_POSITION"
 ms.prod: windows-hardware
 ms.technology: windows-devices

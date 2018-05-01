@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicimagingfactory_createdecoderfromstream.htm
 old-project: wic
 ms.assetid: b9328715-54a0-4c9a-9977-3252068b7e4b
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: CreateDecoderFromStream method [Windows Imaging Component], CreateDecoderFromStream method [Windows Imaging Component], IWICImagingFactory interface, CreateDecoderFromStream,IWICImagingFactory.CreateDecoderFromStream, IWICImagingFactory, IWICImagingFactory interface [Windows Imaging Component], CreateDecoderFromStream method, IWICImagingFactory::CreateDecoderFromStream, _wic_codec_iwicimagingfactory_createdecoderfromstream, wic._wic_codec_iwicimagingfactory_createdecoderfromstream, wincodec/IWICImagingFactory::CreateDecoderFromStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: p2p\drtgetsearchresult.htm
 old-project: P2PSdk
 ms.assetid: b89ea470-072e-46b6-9f5d-3e05aa012188
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/23/2018
 ms.keywords: DrtGetSearchResult, DrtGetSearchResult function [Peer Networking], drt/DrtGetSearchResult, p2p.drtgetsearchresult
 ms.prod: windows-hardware
 ms.technology: windows-devices

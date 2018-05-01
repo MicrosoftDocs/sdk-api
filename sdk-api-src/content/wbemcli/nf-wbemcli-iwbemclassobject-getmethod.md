@@ -7,7 +7,7 @@ old-location: wmi\iwbemclassobject_getmethod.htm
 old-project: WmiSdk
 ms.assetid: d4775fe0-62bf-40a6-8e2c-7bc8c3d92e1f
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: GetMethod method [Windows Management Instrumentation], GetMethod method [Windows Management Instrumentation], IWbemClassObject interface, GetMethod,IWbemClassObject.GetMethod, IWbemClassObject, IWbemClassObject interface [Windows Management Instrumentation], GetMethod method, IWbemClassObject::GetMethod, _hmm_iwbemclassobject_getmethod, wbemcli/IWbemClassObject::GetMethod, wmi.iwbemclassobject_getmethod
 ms.prod: windows-hardware
 ms.technology: windows-devices

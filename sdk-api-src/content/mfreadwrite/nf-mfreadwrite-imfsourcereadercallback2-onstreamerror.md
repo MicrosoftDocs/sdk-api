@@ -7,7 +7,7 @@ old-location: mf\imfsourcereadercallback2_onstreamerror.htm
 old-project: medfound
 ms.assetid: 9239DE9E-8CC3-493A-B7FE-AB0294907069
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFSourceReaderCallback2, IMFSourceReaderCallback2 interface [Media Foundation], OnStreamError method, IMFSourceReaderCallback2::OnStreamError, OnStreamError method [Media Foundation], OnStreamError method [Media Foundation], IMFSourceReaderCallback2 interface, OnStreamError,IMFSourceReaderCallback2.OnStreamError, mf.imfsourcereadercallback2_onstreamerror, mfreadwrite/IMFSourceReaderCallback2::OnStreamError
 ms.prod: windows-hardware
 ms.technology: windows-devices

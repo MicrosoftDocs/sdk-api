@@ -7,7 +7,7 @@ old-location: winprog\ifhreassociation_performreassociation.htm
 old-project: DevNotes
 ms.assetid: 2E80F25E-2DB6-4522-8F3C-7E6359104CCA
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/13/2018
 ms.keywords: FhReassociation class [Windows API], PerformReassociation method, IFhReassociation, IFhReassociation interface [Windows API], PerformReassociation method, IFhReassociation::PerformReassociation, PerformReassociation method [Windows API], PerformReassociation method [Windows API], FhReassociation class, PerformReassociation method [Windows API], IFhReassociation interface, PerformReassociation,IFhReassociation.PerformReassociation, fhcfg/IFhReassociation::PerformReassociation, winprog.ifhreassociation_performreassociation
 ms.prod: windows-hardware
 ms.technology: windows-devices

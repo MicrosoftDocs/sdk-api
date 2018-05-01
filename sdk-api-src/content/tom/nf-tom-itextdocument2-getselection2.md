@@ -7,7 +7,7 @@ old-location: controls\itextdocument2_getselection2.htm
 old-project: Controls
 ms.assetid: a81fde9e-aef8-49cf-88b2-d0416195d70a
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: GetSelection2 method [Windows Controls], GetSelection2 method [Windows Controls], ITextDocument2 interface, GetSelection2,ITextDocument2.GetSelection2, ITextDocument2, ITextDocument2 interface [Windows Controls], GetSelection2 method, ITextDocument2::GetSelection2, controls.itextdocument2_getselection2, tom/ITextDocument2::GetSelection2
 ms.prod: windows-hardware
 ms.technology: windows-devices

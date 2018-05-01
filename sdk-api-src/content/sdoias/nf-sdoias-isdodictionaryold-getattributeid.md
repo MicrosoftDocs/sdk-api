@@ -7,7 +7,7 @@ old-location: nps\SDO_isdodictionaryold_getattributeid.htm
 old-project: Nps
 ms.assetid: 30d2128e-6940-443d-b5e2-c9964d7edfa1
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/24/2018
 ms.keywords: GetAttributeID method [Network Policy Server], GetAttributeID method [Network Policy Server], ISdoDictionaryOld interface, GetAttributeID,ISdoDictionaryOld.GetAttributeID, ISdoDictionaryOld, ISdoDictionaryOld interface [Network Policy Server], GetAttributeID method, ISdoDictionaryOld::GetAttributeID, _sdo_isdodictionaryold_getattributeid, nps.SDO_isdodictionaryold_getattributeid, sdo.isdodictionaryold_getattributeid, sdoias/ISdoDictionaryOld::GetAttributeID
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Iassdo.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ISdoDictionaryOld::GetAttributeID method

@@ -7,7 +7,7 @@ old-location: mf\imfsample_gettotallength.htm
 old-project: medfound
 ms.assetid: e0dfc1d2-ec78-4d1c-992d-3a876b600ca6
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetTotalLength method [Media Foundation], GetTotalLength method [Media Foundation], IMFSample interface, GetTotalLength,IMFSample.GetTotalLength, IMFSample, IMFSample interface [Media Foundation], GetTotalLength method, IMFSample::GetTotalLength, e0dfc1d2-ec78-4d1c-992d-3a876b600ca6, mf.imfsample_gettotallength, mfobjects/IMFSample::GetTotalLength
 ms.prod: windows-hardware
 ms.technology: windows-devices

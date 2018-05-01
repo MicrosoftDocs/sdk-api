@@ -7,7 +7,7 @@ old-location: wmformat\iwmreadertimecode_gettimecoderangecount.htm
 old-project: wmformat
 ms.assetid: df58f968-23f8-407b-b18c-569732635464
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: GetTimecodeRangeCount method [windows Media Format], GetTimecodeRangeCount method [windows Media Format], IWMReaderTimecode interface, GetTimecodeRangeCount,IWMReaderTimecode.GetTimecodeRangeCount, IWMReaderTimecode, IWMReaderTimecode interface [windows Media Format], GetTimecodeRangeCount method, IWMReaderTimecode::GetTimecodeRangeCount, IWMReaderTimecodeGetTimecodeRangeCount, wmformat.iwmreadertimecode_gettimecoderangecount, wmsdkidl/IWMReaderTimecode::GetTimecodeRangeCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

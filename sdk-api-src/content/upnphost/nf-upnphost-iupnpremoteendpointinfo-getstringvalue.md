@@ -7,7 +7,7 @@ old-location: upnp\iupnpremoteendpointinfo_getstringvalue.htm
 old-project: UPnP
 ms.assetid: c3b0dcd2-2195-4e09-aac4-073a3d848fa9
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/25/2018
 ms.keywords: GetStringValue method [UPnP APIs], GetStringValue method [UPnP APIs], IUPnPRemoteEndpointInfo interface, GetStringValue,IUPnPRemoteEndpointInfo.GetStringValue, IUPnPRemoteEndpointInfo, IUPnPRemoteEndpointInfo interface [UPnP APIs], GetStringValue method, IUPnPRemoteEndpointInfo::GetStringValue, upnp.iupnpremoteendpointinfo_getstringvalue, upnphost/IUPnPRemoteEndpointInfo::GetStringValue
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmp\iwmpeffects_getcurrentpreset.htm
 old-project: WMP
 ms.assetid: 09ad671b-612d-4e00-8fa9-d9d76954a010
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: EffectsGetCurrentPreset, GetCurrentPreset method [Windows Media Player], GetCurrentPreset method [Windows Media Player], IWMPEffects interface, GetCurrentPreset,IWMPEffects.GetCurrentPreset, IWMPEffects, IWMPEffects interface [Windows Media Player], GetCurrentPreset method, IWMPEffects::GetCurrentPreset, effects/IWMPEffects::GetCurrentPreset, wmp.iwmpeffects_getcurrentpreset
 ms.prod: windows-hardware
 ms.technology: windows-devices

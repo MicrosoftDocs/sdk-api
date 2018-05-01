@@ -7,7 +7,7 @@ old-location: security\crypt_aes_256_key_state.htm
 old-project: SecCrypto
 ms.assetid: 3df59645-4175-4df0-a04d-ca1cde3eb910
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: "*PCRYPT_AES_256_KEY_STATE, CRYPT_AES_256_KEY_STATE, CRYPT_AES_256_KEY_STATE structure [Security], PCRYPT_AES_256_KEY_STATE, PCRYPT_AES_256_KEY_STATE structure pointer [Security], _CRYPT_AES_256_KEY_STATE, security.crypt_aes_256_key_state, wincrypt/CRYPT_AES_256_KEY_STATE, wincrypt/PCRYPT_AES_256_KEY_STATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\imsvidctl_put_colorkey.htm
 old-project: mstv
 ms.assetid: 2896f062-4ff9-4652-89b9-5fe55c6fe472
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidCtl, IMSVidCtl interface [Microsoft TV Technologies], put_ColorKey method, IMSVidCtl::put_ColorKey, IMSVidCtlput_ColorKey, mstv.imsvidctl_put_colorkey, msvidctl/IMSVidCtl::put_ColorKey, put_ColorKey method [Microsoft TV Technologies], put_ColorKey method [Microsoft TV Technologies], IMSVidCtl interface, put_ColorKey,IMSVidCtl.put_ColorKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidCtl::put_ColorKey method

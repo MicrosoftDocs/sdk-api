@@ -7,7 +7,7 @@ old-location: mf\_mft_output_status_flags.htm
 old-project: medfound
 ms.assetid: 951900b1-364e-4867-a1f8-50d485d13c77
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 951900b1-364e-4867-a1f8-50d485d13c77, MFT_OUTPUT_STATUS_SAMPLE_READY, _MFT_OUTPUT_STATUS_FLAGS, _MFT_OUTPUT_STATUS_FLAGS enumeration [Media Foundation], mf._mft_output_status_flags, mftransform/MFT_OUTPUT_STATUS_SAMPLE_READY, mftransform/_MFT_OUTPUT_STATUS_FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,7 @@ api_name:
 -	_MFT_OUTPUT_STATUS_FLAGS
 product: Windows
 targetos: Windows
-req.lib: 
+req.lib: Mfobjects.lib
 req.dll: 
 req.irql: 
 req.product: GDI+ 1.1

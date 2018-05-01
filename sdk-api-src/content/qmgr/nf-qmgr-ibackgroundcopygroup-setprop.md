@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopygroup_setprop.htm
 old-project: Bits
 ms.assetid: 057a1004-fbe6-4c90-84c0-4e5b55539ce9
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/10/2018
 ms.keywords: IBackgroundCopyGroup, IBackgroundCopyGroup interface [BITS], SetProp method, IBackgroundCopyGroup::SetProp, SetProp method [BITS], SetProp method [BITS], IBackgroundCopyGroup interface, SetProp,IBackgroundCopyGroup.SetProp, bits.ibackgroundcopygroup_setprop, qmgr/IBackgroundCopyGroup::SetProp
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: QmgrPrxy.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IBackgroundCopyGroup::SetProp method

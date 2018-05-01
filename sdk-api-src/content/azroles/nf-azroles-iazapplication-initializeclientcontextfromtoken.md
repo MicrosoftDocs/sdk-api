@@ -7,7 +7,7 @@ old-location: security\iazapplication_initializeclientcontextfromtoken.htm
 old-project: SecAuthZ
 ms.assetid: 0002804d-0e97-4648-8aa1-14eba09a90fa
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: AzApplication object [Security], InitializeClientContextFromToken method, IAzApplication, IAzApplication interface [Security], InitializeClientContextFromToken method, IAzApplication::InitializeClientContextFromToken, InitializeClientContextFromToken method [Security], InitializeClientContextFromToken method [Security], AzApplication object, InitializeClientContextFromToken method [Security], IAzApplication interface, InitializeClientContextFromToken,IAzApplication.InitializeClientContextFromToken, azroles/IAzApplication::InitializeClientContextFromToken, security.iazapplication_initializeclientcontextfromtoken
 ms.prod: windows-hardware
 ms.technology: windows-devices

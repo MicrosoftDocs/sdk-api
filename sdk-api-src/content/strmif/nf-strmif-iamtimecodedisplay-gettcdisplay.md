@@ -7,7 +7,7 @@ old-location: dshow\iamtimecodedisplay_gettcdisplay.htm
 old-project: DirectShow
 ms.assetid: 3da33500-1b1d-4818-b69b-74f302614349
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetTCDisplay method [DirectShow], GetTCDisplay method [DirectShow], IAMTimecodeDisplay interface, GetTCDisplay,IAMTimecodeDisplay.GetTCDisplay, IAMTimecodeDisplay, IAMTimecodeDisplay interface [DirectShow], GetTCDisplay method, IAMTimecodeDisplay::GetTCDisplay, IAMTimecodeDisplayGetTCDisplay, dshow.iamtimecodedisplay_gettcdisplay, strmif/IAMTimecodeDisplay::GetTCDisplay
 ms.prod: windows-hardware
 ms.technology: windows-devices

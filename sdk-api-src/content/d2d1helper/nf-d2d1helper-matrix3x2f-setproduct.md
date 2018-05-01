@@ -7,7 +7,7 @@ old-location: direct2d\matrix3x2f_setproduct.htm
 old-project: Direct2D
 ms.assetid: 922524f0-e058-47da-8eaa-ee5a8bc1e315
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: D2D1.Matrix3x2F.SetProduct, D2D1::Matrix3x2F::SetProduct, Matrix3x2F, Matrix3x2F interface [Direct2D], SetProduct method, Matrix3x2F::SetProduct, SetProduct method [Direct2D], SetProduct method [Direct2D], Matrix3x2F interface, SetProduct,Matrix3x2F.SetProduct, d2d1helper/Matrix3x2F::SetProduct, direct2d.matrix3x2f_setproduct
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\ivssenumobject_reset.htm
 old-project: VSS
 ms.assetid: 98fc07b0-3efe-4ec3-bb70-64a8b8828162
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: IVssEnumObject, IVssEnumObject interface [VSS], Reset method, IVssEnumObject::Reset, Reset method [VSS], Reset method [VSS], IVssEnumObject interface, Reset,IVssEnumObject.Reset, _win32_ivssenumobject_reset, base.ivssenumobject_reset, vss/IVssEnumObject::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices

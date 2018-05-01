@@ -7,7 +7,7 @@ old-location: wmp\iwmpplaylistcollection_newplaylist.htm
 old-project: WMP
 ms.assetid: 5ad51469-a150-4322-ac16-782ef0d96a57
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPPlaylistCollection, IWMPPlaylistCollection interface [Windows Media Player], newPlaylist method, IWMPPlaylistCollection::newPlaylist, IWMPPlaylistCollectionnewPlaylist, newPlaylist method [Windows Media Player], newPlaylist method [Windows Media Player], IWMPPlaylistCollection interface, newPlaylist,IWMPPlaylistCollection.newPlaylist, wmp.iwmpplaylistcollection_newplaylist, wmp/IWMPPlaylistCollection::newPlaylist
 ms.prod: windows-hardware
 ms.technology: windows-devices

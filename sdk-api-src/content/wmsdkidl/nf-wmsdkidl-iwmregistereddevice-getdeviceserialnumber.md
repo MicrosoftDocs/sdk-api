@@ -7,7 +7,7 @@ old-location: wmformat\iwmregistereddevice_getdeviceserialnumber.htm
 old-project: wmformat
 ms.assetid: 3e60d9f3-848e-4e90-9ef7-19f3e000fab7
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: GetDeviceSerialNumber method [windows Media Format], GetDeviceSerialNumber method [windows Media Format], IWMRegisteredDevice interface, GetDeviceSerialNumber,IWMRegisteredDevice.GetDeviceSerialNumber, IWMRegisteredDevice, IWMRegisteredDevice interface [windows Media Format], GetDeviceSerialNumber method, IWMRegisteredDevice::GetDeviceSerialNumber, IWMRegisteredDeviceGetDeviceID, wmformat.iwmregistereddevice_getdeviceserialnumber, wmsdkidl/IWMRegisteredDevice::GetDeviceSerialNumber
 ms.prod: windows-hardware
 ms.technology: windows-devices

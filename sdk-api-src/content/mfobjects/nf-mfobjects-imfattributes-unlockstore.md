@@ -7,7 +7,7 @@ old-location: mf\imfattributes_unlockstore.htm
 old-project: medfound
 ms.assetid: 65e35864-868a-4ae9-86ed-772a2b2daeb6
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 65e35864-868a-4ae9-86ed-772a2b2daeb6, IMFAttributes, IMFAttributes interface [Media Foundation], UnlockStore method, IMFAttributes::UnlockStore, UnlockStore method [Media Foundation], UnlockStore method [Media Foundation], IMFAttributes interface, UnlockStore,IMFAttributes.UnlockStore, mf.imfattributes_unlockstore, mfobjects/IMFAttributes::UnlockStore
 ms.prod: windows-hardware
 ms.technology: windows-devices

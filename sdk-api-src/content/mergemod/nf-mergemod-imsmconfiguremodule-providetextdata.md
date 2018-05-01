@@ -7,7 +7,7 @@ old-location: setup\imsmconfiguremodule_providetextdata.htm
 old-project: Msi
 ms.assetid: 81803b47-e1b1-45b7-b59d-aac555b189f7
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/26/2018
 ms.keywords: IMsmConfigureModule, IMsmConfigureModule interface, ProvideTextData method, IMsmConfigureModule::ProvideTextData, ProvideTextData method, ProvideTextData method, IMsmConfigureModule interface, ProvideTextData,IMsmConfigureModule.ProvideTextData, _msi_providetextdata_function, mergemod/IMsmConfigureModule::ProvideTextData, setup.imsmconfiguremodule_providetextdata
 ms.prod: windows-hardware
 ms.technology: windows-devices

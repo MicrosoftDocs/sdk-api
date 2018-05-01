@@ -7,7 +7,7 @@ old-location: base\entercriticalsection.htm
 old-project: Sync
 ms.assetid: bb307b7a-66fc-4d19-b774-deca8bf90492
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: EnterCriticalSection, EnterCriticalSection function, _win32_entercriticalsection, base.entercriticalsection, synchapi/EnterCriticalSection, winbase/EnterCriticalSection
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: com\icallinterceptor_registersink.htm
 old-project: com
 ms.assetid: 07de2e42-0490-4801-8951-6e71ffb8ed93
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: ICallInterceptor, ICallInterceptor interface [COM], RegisterSink method, ICallInterceptor::RegisterSink, RegisterSink method [COM], RegisterSink method [COM], ICallInterceptor interface, RegisterSink,ICallInterceptor.RegisterSink, _com_icallinterceptor_registersink, callobj/ICallInterceptor::RegisterSink, com.icallinterceptor_registersink
 ms.prod: windows-hardware
 ms.technology: windows-devices

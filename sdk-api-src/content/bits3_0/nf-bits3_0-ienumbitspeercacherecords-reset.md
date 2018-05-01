@@ -7,7 +7,7 @@ old-location: bits\ienumbitspeercacherecords_reset.htm
 old-project: Bits
 ms.assetid: d1e1dbdc-a90d-4ac8-8b52-8e4f914a81dd
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/10/2018
 ms.keywords: IEnumBitsPeerCacheRecords, IEnumBitsPeerCacheRecords interface [BITS], Reset method, IEnumBitsPeerCacheRecords::Reset, Reset method [BITS], Reset method [BITS], IEnumBitsPeerCacheRecords interface, Reset,IEnumBitsPeerCacheRecords.Reset, bits.ienumbitspeercacherecords_reset, bits3_0/IEnumBitsPeerCacheRecords::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices

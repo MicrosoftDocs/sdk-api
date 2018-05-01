@@ -7,7 +7,7 @@ old-location: mf\imfpmphost_unlockprocess.htm
 old-project: medfound
 ms.assetid: 768f4579-5109-4d2b-a93d-f17f6b850c63
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 768f4579-5109-4d2b-a93d-f17f6b850c63, IMFPMPHost, IMFPMPHost interface [Media Foundation], UnlockProcess method, IMFPMPHost::UnlockProcess, UnlockProcess method [Media Foundation], UnlockProcess method [Media Foundation], IMFPMPHost interface, UnlockProcess,IMFPMPHost.UnlockProcess, mf.imfpmphost_unlockprocess, mfidl/IMFPMPHost::UnlockProcess
 ms.prod: windows-hardware
 ms.technology: windows-devices

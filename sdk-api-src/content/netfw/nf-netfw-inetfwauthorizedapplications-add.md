@@ -7,7 +7,7 @@ old-location: ics\inetfwauthorizedapplications_add.htm
 old-project: ICS
 ms.assetid: f69f906d-0d7b-4f45-9bf0-fd1b031e3492
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: Add method [ICS/ICF], Add method [ICS/ICF], INetFwAuthorizedApplications interface, Add,INetFwAuthorizedApplications.Add, INetFwAuthorizedApplications, INetFwAuthorizedApplications interface [ICS/ICF], Add method, INetFwAuthorizedApplications::Add, ics.inetfwauthorizedapplications_add, netfw/INetFwAuthorizedApplications::Add
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # INetFwAuthorizedApplications::Add method

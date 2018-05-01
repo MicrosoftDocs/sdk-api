@@ -7,7 +7,7 @@ old-location: http\http_response_v2.htm
 old-project: Http
 ms.assetid: 1900741e-f466-4826-b376-36170176c30a
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: "*PHTTP_RESPONSE, *PHTTP_RESPONSE_V2, *PHTTP_RESPONSE_V2 structure [HTTP], HTTP_RESPONSE, HTTP_RESPONSE_V2, HTTP_RESPONSE_V2 structure [HTTP], _HTTP_RESPONSE_V2, http.http_response_v2, http/*PHTTP_RESPONSE_V2, http/HTTP_RESPONSE_V2"
 ms.prod: windows-hardware
 ms.technology: windows-devices

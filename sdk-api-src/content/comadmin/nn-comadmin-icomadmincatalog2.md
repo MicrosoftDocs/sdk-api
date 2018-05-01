@@ -7,7 +7,7 @@ old-location: cos\icomadmincatalog2.htm
 old-project: cossdk
 ms.assetid: ffca611d-dacc-47be-9101-9de76ecc8393
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: ICOMAdminCatalog2, ICOMAdminCatalog2 interface [COM+], ICOMAdminCatalog2 interface [COM+], described, comadmin/ICOMAdminCatalog2, cos.icomadmincatalog2
 ms.prod: windows-hardware
 ms.technology: windows-devices

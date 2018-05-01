@@ -7,7 +7,7 @@ old-location: security\iazclientcontext_usercanonical.htm
 old-project: SecAuthZ
 ms.assetid: 413cdbbd-a9c6-4117-9df5-d7eb202191a4
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: AzClientContext object [Security], UserCanonical property, IAzClientContext, IAzClientContext interface [Security], UserCanonical property, IAzClientContext.UserCanonical, IAzClientContext::get_UserCanonical, UserCanonical property [Security], UserCanonical property [Security], AzClientContext object, UserCanonical property [Security], IAzClientContext interface, azroles/IAzClientContext::UserCanonical, azroles/IAzClientContext::get_UserCanonical, get_UserCanonical,IAzClientContext.get_UserCanonical, security.iazclientcontext_usercanonical
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: automat\idispatch_invoke.htm
 old-project: automat
 ms.assetid: 964ade8e-9d8a-4d32-bd47-aa678912a54d
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: DISPATCH_METHOD, DISPATCH_PROPERTYGET, DISPATCH_PROPERTYPUT, DISPATCH_PROPERTYPUTREF, IDispatch, IDispatch interface [Automation], Invoke method, IDispatch::Invoke, Invoke method [Automation], Invoke method [Automation], IDispatch interface, Invoke,IDispatch.Invoke, _oa96_IDispatch::Invoke, automat.idispatch_invoke, oaidl/IDispatch::Invoke
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IDispatch::Invoke method

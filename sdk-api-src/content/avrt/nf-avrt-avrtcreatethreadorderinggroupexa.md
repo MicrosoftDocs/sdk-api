@@ -7,7 +7,7 @@ old-location: base\avrtcreatethreadorderinggroupex.htm
 old-project: ProcThread
 ms.assetid: b1ada400-54d9-4238-8d22-97eaa55dcd50
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: AvRtCreateThreadOrderingGroupEx, AvRtCreateThreadOrderingGroupEx function, AvRtCreateThreadOrderingGroupExA, AvRtCreateThreadOrderingGroupExW, avrt/AvRtCreateThreadOrderingGroupEx, avrt/AvRtCreateThreadOrderingGroupExA, avrt/AvRtCreateThreadOrderingGroupExW, base.avrtcreatethreadorderinggroupex
 ms.prod: windows-hardware
 ms.technology: windows-devices

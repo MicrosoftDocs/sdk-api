@@ -7,7 +7,7 @@ old-location: cos\icomcrmevents_oncrmforce.htm
 old-project: cossdk
 ms.assetid: 92f2088b-4d74-4d33-9953-0f5229f6303c
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: IComCRMEvents, IComCRMEvents interface [COM+], OnCRMForce method, IComCRMEvents::OnCRMForce, OnCRMForce method [COM+], OnCRMForce method [COM+], IComCRMEvents interface, OnCRMForce,IComCRMEvents.OnCRMForce, _dtc_IComCRMEvents_OnCRMForce, comsvcs/IComCRMEvents::OnCRMForce, cos.icomcrmevents_oncrmforce
 ms.prod: windows-hardware
 ms.technology: windows-devices

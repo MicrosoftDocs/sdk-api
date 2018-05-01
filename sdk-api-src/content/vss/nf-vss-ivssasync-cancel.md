@@ -7,7 +7,7 @@ old-location: base\ivssasync_cancel.htm
 old-project: VSS
 ms.assetid: 8ab44737-114b-4edc-a097-d0fa297f6276
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: Cancel method [VSS], Cancel method [VSS], IVssAsync interface, Cancel,IVssAsync.Cancel, IVssAsync, IVssAsync interface [VSS], Cancel method, IVssAsync::Cancel, _win32_ivssasync_cancel, base.ivssasync_cancel, vss/IVssAsync::Cancel
 ms.prod: windows-hardware
 ms.technology: windows-devices

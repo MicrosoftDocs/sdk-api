@@ -7,7 +7,7 @@ old-location: tablet\imathinputcontrol_getposition.htm
 old-project: tablet
 ms.assetid: 4928f92d-7150-434c-abe4-d65a48ce1a56
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: GetPosition method [Tablet PC], GetPosition method [Tablet PC], IMathInputControl interface, GetPosition,IMathInputControl.GetPosition, IMathInputControl, IMathInputControl interface [Tablet PC], GetPosition method, IMathInputControl::GetPosition, micaut/IMathInputControl::GetPosition, tablet.imathinputcontrol_getposition
 ms.prod: windows-hardware
 ms.technology: windows-devices

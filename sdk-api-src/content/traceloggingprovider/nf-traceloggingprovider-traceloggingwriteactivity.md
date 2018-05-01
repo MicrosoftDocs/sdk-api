@@ -7,7 +7,7 @@ old-location: tracelogging\traceloggingwriteactivity.htm
 old-project: tracelogging
 ms.assetid: 1BFEC534-A9D4-4310-9E40-FCC1AB301D0F
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: TraceLoggingWriteActivity, TraceLoggingWriteActivity macro, tracelogging.traceloggingwriteactivity, traceloggingprovider/TraceLoggingWriteActivity
 ms.prod: windows-hardware
 ms.technology: windows-devices

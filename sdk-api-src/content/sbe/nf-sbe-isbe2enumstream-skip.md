@@ -7,7 +7,7 @@ old-location: mstv\isbe2enumstream_skip.htm
 old-project: mstv
 ms.assetid: 52979cbc-203b-49ae-9892-db1abfeae94b
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: ISBE2EnumStream, ISBE2EnumStream interface [Microsoft TV Technologies], Skip method, ISBE2EnumStream::Skip, Skip method [Microsoft TV Technologies], Skip method [Microsoft TV Technologies], ISBE2EnumStream interface, Skip,ISBE2EnumStream.Skip, mstv.isbe2enumstream_skip, sbe/ISBE2EnumStream::Skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Sbe.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ISBE2EnumStream::Skip method

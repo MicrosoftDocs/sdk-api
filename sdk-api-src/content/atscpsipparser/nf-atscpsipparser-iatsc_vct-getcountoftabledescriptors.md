@@ -7,7 +7,7 @@ old-location: mstv\iatsc_vct_getcountoftabledescriptors.htm
 old-project: mstv
 ms.assetid: 6930490f-235f-40d5-846d-ae9a075c82cc
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetCountOfTableDescriptors method [Microsoft TV Technologies], GetCountOfTableDescriptors method [Microsoft TV Technologies], IATSC_VCT interface, GetCountOfTableDescriptors,IATSC_VCT.GetCountOfTableDescriptors, IATSC_VCT, IATSC_VCT interface [Microsoft TV Technologies], GetCountOfTableDescriptors method, IATSC_VCT::GetCountOfTableDescriptors, IATSC_VCTGetCountOfTableDescriptors, atscpsipparser/IATSC_VCT::GetCountOfTableDescriptors, mstv.iatsc_vct_getcountoftabledescriptors
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_WRITER_PAYLOAD_STREAM
+req.typenames: AsyncStatus
 topic_type:
 -	APIRef
 -	kbSyntax

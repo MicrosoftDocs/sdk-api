@@ -7,7 +7,7 @@ old-location: security\icertpropertybackedup_initialize_method.htm
 old-project: SecCertEnroll
 ms.assetid: 2ca941a6-898d-4955-b334-ffc15e10b330
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: ICertPropertyBackedUp, ICertPropertyBackedUp interface [Security], Initialize method, ICertPropertyBackedUp::Initialize, Initialize method [Security], Initialize method [Security], ICertPropertyBackedUp interface, Initialize,ICertPropertyBackedUp.Initialize, certenroll/ICertPropertyBackedUp::Initialize, security.icertpropertybackedup_initialize_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

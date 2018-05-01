@@ -7,7 +7,7 @@ old-location: tapi3\itmspaddress_createmspcall.htm
 old-project: Tapi
 ms.assetid: 56ed10e3-e711-43ae-aad6-65a5992fca0f
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: CreateMSPCall method [TAPI 2.2], CreateMSPCall method [TAPI 2.2], ITMSPAddress interface, CreateMSPCall,ITMSPAddress.CreateMSPCall, ITMSPAddress, ITMSPAddress interface [TAPI 2.2], CreateMSPCall method, ITMSPAddress::CreateMSPCall, _tapi3_itmspaddress_createmspcall, msp/ITMSPAddress::CreateMSPCall, tapi3.itmspaddress_createmspcall
 ms.prod: windows-hardware
 ms.technology: windows-devices

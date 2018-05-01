@@ -7,7 +7,7 @@ old-location: termserv\itssbtaskplugin_initializetaskplugin.htm
 old-project: TermServ
 ms.assetid: 9e8722c4-0070-448a-a97c-aeb1db59ac7b
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: ITsSbTaskPlugin, ITsSbTaskPlugin interface [Remote Desktop Services], InitializeTaskPlugin method, ITsSbTaskPlugin::InitializeTaskPlugin, InitializeTaskPlugin method [Remote Desktop Services], InitializeTaskPlugin method [Remote Desktop Services], ITsSbTaskPlugin interface, InitializeTaskPlugin,ITsSbTaskPlugin.InitializeTaskPlugin, sbtsv/ITsSbTaskPlugin::InitializeTaskPlugin, termserv.itssbtaskplugin_initializetaskplugin
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITsSbTaskPlugin::InitializeTaskPlugin method

@@ -7,7 +7,7 @@ old-location: direct2d\pd2d1_effect_factory.htm
 old-project: Direct2D
 ms.assetid: e4f99762-4328-4b9c-ab0d-14b78a1581b5
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: PD2D1_EFFECT_FACTORY, PD2D1_EFFECT_FACTORY callback function [Direct2D], d2d1_1/PD2D1_EFFECT_FACTORY, direct2d.pd2d1_effect_factory
 ms.prod: windows-hardware
 ms.technology: windows-devices

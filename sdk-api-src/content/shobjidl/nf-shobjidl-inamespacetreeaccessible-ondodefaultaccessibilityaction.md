@@ -7,7 +7,7 @@ old-location: shell\INameSpaceTreeAccessible_OnDoDefaultAccessibilityAction.htm
 old-project: shell
 ms.assetid: a6aa6588-6e3c-4229-8540-0aa5d85c0381
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: INameSpaceTreeAccessible, INameSpaceTreeAccessible interface [Windows Shell], OnDoDefaultAccessibilityAction method, INameSpaceTreeAccessible::OnDoDefaultAccessibilityAction, OnDoDefaultAccessibilityAction method [Windows Shell], OnDoDefaultAccessibilityAction method [Windows Shell], INameSpaceTreeAccessible interface, OnDoDefaultAccessibilityAction,INameSpaceTreeAccessible.OnDoDefaultAccessibilityAction, _shell_INameSpaceTreeAccessible_OnDoDefaultAccessibilityAction, shell.INameSpaceTreeAccessible_OnDoDefaultAccessibilityAction, shobjidl/INameSpaceTreeAccessible::OnDoDefaultAccessibilityAction
 ms.prod: windows-hardware
 ms.technology: windows-devices

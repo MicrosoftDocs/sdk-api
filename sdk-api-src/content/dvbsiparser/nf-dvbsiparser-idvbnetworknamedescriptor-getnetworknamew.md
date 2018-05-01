@@ -7,7 +7,7 @@ old-location: mstv\idvbnetworknamedescriptor_getnetworknamew.htm
 old-project: mstv
 ms.assetid: 2c7e1507-2b55-468d-b83d-643a45118429
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetNetworkNameW method [Microsoft TV Technologies], GetNetworkNameW method [Microsoft TV Technologies], IDvbNetworkNameDescriptor interface, GetNetworkNameW,IDvbNetworkNameDescriptor.GetNetworkNameW, IDvbNetworkNameDescriptor, IDvbNetworkNameDescriptor interface [Microsoft TV Technologies], GetNetworkNameW method, IDvbNetworkNameDescriptor::GetNetworkNameW, dvbsiparser/IDvbNetworkNameDescriptor::GetNetworkNameW, mstv.idvbnetworknamedescriptor_getnetworknamew
 ms.prod: windows-hardware
 ms.technology: windows-devices

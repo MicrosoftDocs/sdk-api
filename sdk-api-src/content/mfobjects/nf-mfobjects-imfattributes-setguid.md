@@ -7,7 +7,7 @@ old-location: mf\imfattributes_setguid.htm
 old-project: medfound
 ms.assetid: d73b53f5-4a8f-4903-986d-fbf4277a2d45
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFAttributes, IMFAttributes interface [Media Foundation], SetGUID method, IMFAttributes::SetGUID, SetGUID method [Media Foundation], SetGUID method [Media Foundation], IMFAttributes interface, SetGUID,IMFAttributes.SetGUID, d73b53f5-4a8f-4903-986d-fbf4277a2d45, mf.imfattributes_setguid, mfobjects/IMFAttributes::SetGUID
 ms.prod: windows-hardware
 ms.technology: windows-devices

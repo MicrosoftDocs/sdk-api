@@ -7,7 +7,7 @@ old-location: wmdm\imdspstorage4_setreferences.htm
 old-project: WMDM
 ms.assetid: 45fd9efa-b03d-46de-9d8c-85ed04d446dd
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: IMDSPStorage4, IMDSPStorage4 interface [windows Media Device Manager], SetReferences method, IMDSPStorage4::SetReferences, IMDSPStorage4SetReferences, SetReferences method [windows Media Device Manager], SetReferences method [windows Media Device Manager], IMDSPStorage4 interface, SetReferences,IMDSPStorage4.SetReferences, mswmdm/IMDSPStorage4::SetReferences, wmdm.imdspstorage4_setreferences
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMDSPStorage4::SetReferences method

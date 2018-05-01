@@ -7,7 +7,7 @@ old-location: tapi3\ienumagent.htm
 old-project: Tapi
 ms.assetid: 4c75314c-72f0-4eae-a1f5-36f3959c322a
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: IEnumAgent, IEnumAgent interface [TAPI 2.2], IEnumAgent interface [TAPI 2.2], described, _tapi3_ienumagent, tapi3.ienumagent, tapi3cc/IEnumAgent
 ms.prod: windows-hardware
 ms.technology: windows-devices

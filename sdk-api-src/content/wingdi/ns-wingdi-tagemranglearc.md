@@ -7,7 +7,7 @@ old-location: gdi\emranglearc.htm
 old-project: gdi
 ms.assetid: 054b84ba-bb5e-4dca-8482-6b958151aedf
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/17/2018
 ms.keywords: "*PEMRANGLEARC, EMRANGLEARC, EMRANGLEARC structure [Windows GDI], PEMRANGLEARC, PEMRANGLEARC structure pointer [Windows GDI], _win32_EMRANGLEARC_str, gdi.emranglearc, tagEMRANGLEARC, wingdi/EMRANGLEARC, wingdi/PEMRANGLEARC"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winsock\wscenumprotocols32.htm
 old-project: WinSock
 ms.assetid: f46042f6-0b14-4a14-abc1-4e40c34b1599
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/24/2018
 ms.keywords: WSCEnumProtocols32, WSCEnumProtocols32 function [Winsock], winsock.wscenumprotocols32, ws2spi/WSCEnumProtocols32
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmp\iwmpremotemediaservices_getservicetype.htm
 old-project: WMP
 ms.assetid: 866e7ee7-5df1-4e6b-8b41-85c6ff8b64d5
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: GetServiceType method [Windows Media Player], GetServiceType method [Windows Media Player], IWMPRemoteMediaServices interface, GetServiceType,IWMPRemoteMediaServices.GetServiceType, IWMPRemoteMediaServices, IWMPRemoteMediaServices interface [Windows Media Player], GetServiceType method, IWMPRemoteMediaServices::GetServiceType, IWMPRemoteMediaServicesGetServiceType, wmp.iwmpremotemediaservices_getservicetype, wmp/IWMPRemoteMediaServices::GetServiceType
 ms.prod: windows-hardware
 ms.technology: windows-devices

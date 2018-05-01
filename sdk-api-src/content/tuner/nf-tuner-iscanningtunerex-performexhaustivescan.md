@@ -7,7 +7,7 @@ old-location: mstv\iscanningtunerex_performexhaustivescan.htm
 old-project: mstv
 ms.assetid: 35ed1b43-020e-4baa-9f15-eb316d9a137b
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IScanningTunerEx, IScanningTunerEx interface [Microsoft TV Technologies], PerformExhaustiveScan method, IScanningTunerEx::PerformExhaustiveScan, IScanningTunerExPerformExhaustiveScan, PerformExhaustiveScan method [Microsoft TV Technologies], PerformExhaustiveScan method [Microsoft TV Technologies], IScanningTunerEx interface, PerformExhaustiveScan,IScanningTunerEx.PerformExhaustiveScan, mstv.iscanningtunerex_performexhaustivescan, tuner/IScanningTunerEx::PerformExhaustiveScan
 ms.prod: windows-hardware
 ms.technology: windows-devices

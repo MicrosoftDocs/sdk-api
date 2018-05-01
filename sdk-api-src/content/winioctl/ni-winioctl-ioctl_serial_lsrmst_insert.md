@@ -7,7 +7,7 @@ old-location: base\ioctl_serial_lsrmst_insert.htm
 old-project: DevIO
 ms.assetid: 9bd427da-1c14-403e-bebe-f64fe4e8723c
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/3/2018
 ms.keywords: IOCTL_SERIAL_LSRMST_INSERT, IOCTL_SERIAL_LSRMST_INSERT control code, _win32_ioctl_serial_lsrmst_insert, base.ioctl_serial_lsrmst_insert, winioctl/IOCTL_SERIAL_LSRMST_INSERT
 ms.prod: windows-hardware
 ms.technology: windows-devices

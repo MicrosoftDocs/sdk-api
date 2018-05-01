@@ -7,7 +7,7 @@ old-location: shell\IBrowserService2_v_ShowHideChildWindows.htm
 old-project: shell
 ms.assetid: b97116f7-d42e-4619-bc5b-0a55ac012f0c
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IBrowserService2, IBrowserService2 interface [Windows Shell], v_ShowHideChildWindows method, IBrowserService2::v_ShowHideChildWindows, shdeprecated/IBrowserService2::v_ShowHideChildWindows, shell.IBrowserService2_v_ShowHideChildWindows, v_ShowHideChildWindows method [Windows Shell], v_ShowHideChildWindows method [Windows Shell], IBrowserService2 interface, v_ShowHideChildWindows,IBrowserService2.v_ShowHideChildWindows, zone_IBrowserService2_v_ShowHideChildWindows
 ms.prod: windows-hardware
 ms.technology: windows-devices

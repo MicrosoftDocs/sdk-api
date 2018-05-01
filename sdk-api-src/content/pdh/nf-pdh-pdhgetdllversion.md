@@ -7,7 +7,7 @@ old-location: perf\pdhgetdllversion.htm
 old-project: PerfCtrs
 ms.assetid: 09c9ecf6-43e0-480c-b607-537632b56576
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/23/2018
 ms.keywords: PDH_CVERSION_WIN50, PDH_VERSION, PdhGetDllVersion, PdhGetDllVersion function [Perf], _win32_pdhgetdllversion, base.pdhgetdllversion, pdh/PdhGetDllVersion, perf.pdhgetdllversion
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Pdh.lib
 req.dll: Pdh.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # PdhGetDllVersion function

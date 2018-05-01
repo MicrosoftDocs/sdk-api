@@ -7,7 +7,7 @@ old-location: wmformat\iwmwritersink_isrealtime.htm
 old-project: wmformat
 ms.assetid: 95a32114-4581-4870-8c7f-b79b5af8f0a4
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMWriterSink, IWMWriterSink interface [windows Media Format], IsRealTime method, IWMWriterSink::IsRealTime, IWMWriterSinkIsRealTime, IsRealTime method [windows Media Format], IsRealTime method [windows Media Format], IWMWriterSink interface, IsRealTime,IWMWriterSink.IsRealTime, wmformat.iwmwritersink_isrealtime, wmsdkidl/IWMWriterSink::IsRealTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

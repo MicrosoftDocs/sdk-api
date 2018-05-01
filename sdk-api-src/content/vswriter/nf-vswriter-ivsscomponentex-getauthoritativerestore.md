@@ -7,7 +7,7 @@ old-location: base\ivsscomponentex_getauthoritativerestore.htm
 old-project: VSS
 ms.assetid: ca85cf27-b16c-4356-abb8-eb6474db637f
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: GetAuthoritativeRestore method, GetAuthoritativeRestore method, IVssComponentEx interface, GetAuthoritativeRestore,IVssComponentEx.GetAuthoritativeRestore, IVssComponentEx, IVssComponentEx interface, GetAuthoritativeRestore method, IVssComponentEx::GetAuthoritativeRestore, base.ivsscomponentex_getauthoritativerestore, vswriter/IVssComponentEx::GetAuthoritativeRestore
 ms.prod: windows-hardware
 ms.technology: windows-devices

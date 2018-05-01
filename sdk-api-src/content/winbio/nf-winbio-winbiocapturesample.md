@@ -7,7 +7,7 @@ old-location: secbiomet\winbiocapturesample.htm
 old-project: SecBioMet
 ms.assetid: 365dcefb-3382-4b62-b47d-919e2d3f56f1
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: WINBIO_DATA_FLAG_INTEGRITY, WINBIO_DATA_FLAG_INTERMEDIATE, WINBIO_DATA_FLAG_PRIVACY, WINBIO_DATA_FLAG_PROCESSED, WINBIO_DATA_FLAG_RAW, WINBIO_DATA_FLAG_SIGNED, WinBioCaptureSample, WinBioCaptureSample function [Windows Biometric Framework API], secbiomet.winbiocapturesample, winbio/WinBioCaptureSample
 ms.prod: windows-hardware
 ms.technology: windows-devices

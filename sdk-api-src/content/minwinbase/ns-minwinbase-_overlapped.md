@@ -7,7 +7,7 @@ old-location: base\overlapped_str.htm
 old-project: Sync
 ms.assetid: 5037f6b9-e316-483b-a8e2-b58d2587ebd9
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: "*LPOVERLAPPED, LPOVERLAPPED, LPOVERLAPPED structure pointer, OVERLAPPED, OVERLAPPED structure, _OVERLAPPED, _win32_overlapped_str, base.overlapped_str, minwinbase/LPOVERLAPPED, minwinbase/OVERLAPPED, winbase/LPOVERLAPPED, winbase/OVERLAPPED"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Mileffects.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
@@ -59,6 +59,20 @@ Contains information used in asynchronous (or <i>overlapped</i>) input and outpu
 
 
 
+### -field Internal
+
+The status code for the I/O request. When the request is issued, the system sets this member to <b>STATUS_PENDING</b> to indicate that the operation has not yet started.  When the request is completed, the system sets this member to the status code for the completed request. 
+
+The <b>Internal</b> member was originally reserved for system use and its behavior may change. 
+
+
+### -field InternalHigh
+
+The number of bytes transferred for the I/O request. The system sets this member if the request is completed without errors. 
+
+The <b>InternalHigh</b> member was originally reserved for system use and its behavior may change. 
+
+
 ### -field DUMMYUNIONNAME
 
  
@@ -85,20 +99,6 @@ The high-order portion of the file position at which to start the I/O request, a
 This member is nonzero only when performing I/O requests on a seeking device that supports the concept of an offset (also referred to as a file pointer mechanism), such as a file. Otherwise, this member must be zero.
 
 For additional information, see Remarks.
-
-
-### -field Internal
-
-The status code for the I/O request. When the request is issued, the system sets this member to <b>STATUS_PENDING</b> to indicate that the operation has not yet started.  When the request is completed, the system sets this member to the status code for the completed request. 
-
-The <b>Internal</b> member was originally reserved for system use and its behavior may change. 
-
-
-### -field InternalHigh
-
-The number of bytes transferred for the I/O request. The system sets this member if the request is completed without errors. 
-
-The <b>InternalHigh</b> member was originally reserved for system use and its behavior may change. 
 
 
 ### -field hEvent

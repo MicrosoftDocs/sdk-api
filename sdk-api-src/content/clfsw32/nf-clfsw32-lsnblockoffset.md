@@ -7,7 +7,7 @@ old-location: fs\lsnblockoffset.htm
 old-project: Clfs
 ms.assetid: 72445d03-1b9a-48a6-993e-792e1f524f4b
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/25/2018
 ms.keywords: LsnBlockOffset, LsnBlockOffset function [Files], clfsw32/LsnBlockOffset, fs.lsnblockoffset
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmp\iwmprenderconfig_get_inproconly.htm
 old-project: WMP
 ms.assetid: 71284af6-dc76-4a39-81f4-ed265140aad5
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPRenderConfig, IWMPRenderConfig interface [Windows Media Player], get_inProcOnly method, IWMPRenderConfig::get_inProcOnly, IWMPRenderConfiggetInProcOnly, get_inProcOnly method [Windows Media Player], get_inProcOnly method [Windows Media Player], IWMPRenderConfig interface, get_inProcOnly,IWMPRenderConfig.get_inProcOnly, wmp.iwmprenderconfig_get_inproconly, wmprealestate/IWMPRenderConfig::get_inProcOnly
 ms.prod: windows-hardware
 ms.technology: windows-devices

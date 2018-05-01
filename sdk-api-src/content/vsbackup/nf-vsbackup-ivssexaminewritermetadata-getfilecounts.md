@@ -7,7 +7,7 @@ old-location: base\ivssexaminewritermetadata_getfilecounts.htm
 old-project: VSS
 ms.assetid: 7c1f1e9d-3154-4e03-a7dd-69b9f505dbb2
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: GetFileCounts method [VSS], GetFileCounts method [VSS], IVssExamineWriterMetadata interface, GetFileCounts,IVssExamineWriterMetadata.GetFileCounts, IVssExamineWriterMetadata, IVssExamineWriterMetadata interface [VSS], GetFileCounts method, IVssExamineWriterMetadata::GetFileCounts, _win32_ivssexaminewritermetadata_getfilecounts, base.ivssexaminewritermetadata_getfilecounts, vsbackup/IVssExamineWriterMetadata::GetFileCounts
 ms.prod: windows-hardware
 ms.technology: windows-devices

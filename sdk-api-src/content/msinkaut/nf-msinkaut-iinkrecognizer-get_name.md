@@ -7,7 +7,7 @@ old-location: tablet\iinkrecognizer_name.htm
 old-project: tablet
 ms.assetid: 701951fd-ffb9-40fd-bb2c-7cdeb330f9b7
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: 701951fd-ffb9-40fd-bb2c-7cdeb330f9b7, IInkRecognizer, IInkRecognizer interface [Tablet PC], Name property, IInkRecognizer.Name, IInkRecognizer.get_Name, IInkRecognizer::get_Name, Name property [Tablet PC], Name property [Tablet PC], IInkRecognizer interface, get_Name,IInkRecognizer.get_Name, msinkaut/IInkRecognizer::Name, msinkaut/IInkRecognizer::get_Name, tablet.iinkrecognizer_name
 ms.prod: windows-hardware
 ms.technology: windows-devices

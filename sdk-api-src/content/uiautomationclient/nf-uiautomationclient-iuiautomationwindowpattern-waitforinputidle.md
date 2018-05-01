@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationWindowPattern_WaitForInputIdle.htm
 old-project: WinAuto
 ms.assetid: 2e08c3b1-6437-40ce-9dd3-2beb3e1f37fb
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: IUIAutomationWindowPattern, IUIAutomationWindowPattern interface [Windows Accessibility], WaitForInputIdle method, IUIAutomationWindowPattern::WaitForInputIdle, WaitForInputIdle method [Windows Accessibility], WaitForInputIdle method [Windows Accessibility], IUIAutomationWindowPattern interface, WaitForInputIdle,IUIAutomationWindowPattern.WaitForInputIdle, uiauto.uiauto_IUIAutomationWindowPattern_WaitForInputIdle, uiauto_IUIAutomationWindowPattern_WaitForInputIdle, uiautomationclient/IUIAutomationWindowPattern::WaitForInputIdle, winauto.uiauto_IUIAutomationWindowPattern_WaitForInputIdle
 ms.prod: windows-hardware
 ms.technology: windows-devices

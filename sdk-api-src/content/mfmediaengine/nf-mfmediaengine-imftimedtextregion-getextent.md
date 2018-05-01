@@ -7,7 +7,7 @@ old-location: mf\imftimedtextregion_getextent.htm
 old-project: medfound
 ms.assetid: 581D9A8D-FBED-4E67-9E81-77D9C29ADF82
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetExtent method [Media Foundation], GetExtent method [Media Foundation], IMFTimedTextRegion interface, GetExtent,IMFTimedTextRegion.GetExtent, IMFTimedTextRegion, IMFTimedTextRegion interface [Media Foundation], GetExtent method, IMFTimedTextRegion::GetExtent, mf.imftimedtextregion_getextent, mfmediaengine/IMFTimedTextRegion::GetExtent
 ms.prod: windows-hardware
 ms.technology: windows-devices

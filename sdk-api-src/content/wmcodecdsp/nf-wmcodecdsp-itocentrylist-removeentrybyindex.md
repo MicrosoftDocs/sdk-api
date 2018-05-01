@@ -7,7 +7,7 @@ old-location: mf\itocentrylist_removeentrybyindex.htm
 old-project: medfound
 ms.assetid: 72b9141c-2e61-42be-a4a1-910b607ab5f1
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: ITocEntryList, ITocEntryList interface [Media Foundation], RemoveEntryByIndex method, ITocEntryList::RemoveEntryByIndex, RemoveEntryByIndex method [Media Foundation], RemoveEntryByIndex method [Media Foundation], ITocEntryList interface, RemoveEntryByIndex,ITocEntryList.RemoveEntryByIndex, codecapi.itocentrylist_removeentrybyindex, mf.itocentrylist_removeentrybyindex, wmcodecdsp/ITocEntryList::RemoveEntryByIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices

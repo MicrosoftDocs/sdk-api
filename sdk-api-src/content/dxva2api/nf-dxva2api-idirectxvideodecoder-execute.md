@@ -7,7 +7,7 @@ old-location: mf\idirectxvideodecoder_execute.htm
 old-project: medfound
 ms.assetid: 3c957b2f-4bba-4c39-84de-719c08e1bf78
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 3c957b2f-4bba-4c39-84de-719c08e1bf78, Execute method [Media Foundation], Execute method [Media Foundation], IDirectXVideoDecoder interface, Execute,IDirectXVideoDecoder.Execute, IDirectXVideoDecoder, IDirectXVideoDecoder interface [Media Foundation], Execute method, IDirectXVideoDecoder::Execute, dxva2api/IDirectXVideoDecoder::Execute, mf.idirectxvideodecoder_execute
 ms.prod: windows-hardware
 ms.technology: windows-devices

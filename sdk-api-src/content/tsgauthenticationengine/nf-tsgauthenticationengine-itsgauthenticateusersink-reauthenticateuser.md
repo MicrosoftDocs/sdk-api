@@ -7,7 +7,7 @@ old-location: termserv\itsgauthenticateusersink_reauthenticateuser.htm
 old-project: TermServ
 ms.assetid: f3706f72-d23c-49ac-9d81-3a38f8d399c8
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: ITSGAuthenticateUserSink, ITSGAuthenticateUserSink interface [Remote Desktop Services], ReauthenticateUser method, ITSGAuthenticateUserSink::ReauthenticateUser, ReauthenticateUser method [Remote Desktop Services], ReauthenticateUser method [Remote Desktop Services], ITSGAuthenticateUserSink interface, ReauthenticateUser,ITSGAuthenticateUserSink.ReauthenticateUser, termserv.itsgauthenticateusersink_reauthenticateuser, tsgauthenticationengine/ITSGAuthenticateUserSink::ReauthenticateUser
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: TC_IFC_DESCRIPTOR, *PTC_IFC_DESCRIPTOR
+req.typenames: TRANSPORT_SETTING_ID, *PTRANSPORT_SETTING_ID
 topic_type:
 -	APIRef
 -	kbSyntax

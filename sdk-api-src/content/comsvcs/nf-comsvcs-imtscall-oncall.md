@@ -7,7 +7,7 @@ old-location: cos\imtscall_oncall.htm
 old-project: cossdk
 ms.assetid: 410ed66e-db55-41e6-8f09-df4fe3aad3f2
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: IMTSCall, IMTSCall interface [COM+], OnCall method, IMTSCall::OnCall, OnCall method [COM+], OnCall method [COM+], IMTSCall interface, OnCall,IMTSCall.OnCall, _cos_IMTSCall_OnCall, comsvcs/IMTSCall::OnCall, cos.imtscall_oncall
 ms.prod: windows-hardware
 ms.technology: windows-devices

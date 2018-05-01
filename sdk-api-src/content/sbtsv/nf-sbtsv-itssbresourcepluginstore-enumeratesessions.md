@@ -7,7 +7,7 @@ old-location: termserv\itssbresourcepluginstore_enumeratesessions.htm
 old-project: TermServ
 ms.assetid: 217b5c28-b0f8-4a8f-8695-8c8e0895b508
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: EnumerateSessions method [Remote Desktop Services], EnumerateSessions method [Remote Desktop Services], ITsSbResourcePluginStore interface, EnumerateSessions method [Remote Desktop Services], ITsSbResourcePluginStoreEx interface, EnumerateSessions,ITsSbResourcePluginStore.EnumerateSessions, ITsSbResourcePluginStore, ITsSbResourcePluginStore interface [Remote Desktop Services], EnumerateSessions method, ITsSbResourcePluginStore::EnumerateSessions, ITsSbResourcePluginStoreEx interface [Remote Desktop Services], EnumerateSessions method, ITsSbResourcePluginStoreEx::EnumerateSessions, sbtsv/ITsSbResourcePluginStore::EnumerateSessions, sbtsv/ITsSbResourcePluginStoreEx::EnumerateSessions, termserv.itssbresourcepluginstore_enumeratesessions
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITsSbResourcePluginStore::EnumerateSessions method

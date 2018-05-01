@@ -81,6 +81,14 @@ additional validator or processing.
 
 
 
+### -field authenticator
+
+
+The base type from which this type and all other SAML authenticator
+types derive.
+                
+
+
 ### -field trustedIssuerCerts
 
 
@@ -96,9 +104,11 @@ after the listener creation call that uses this structure returns.
                 
 
 
-### -field _CERT_CONTEXT
+### -field trustedIssuerCertCount
 
- 
+
+The count of X.509 certificates specified in trustedIssuerCerts.
+                
 
 
 ### -field decryptionCert
@@ -115,19 +125,9 @@ creation call that uses this structure returns.
                 
 
 
-### -field authenticator
+### -field _CERT_CONTEXT
 
-
-The base type from which this type and all other SAML authenticator
-types derive.
-                
-
-
-### -field trustedIssuerCertCount
-
-
-The count of X.509 certificates specified in trustedIssuerCerts.
-                
+ 
 
 
 ### -field samlValidator

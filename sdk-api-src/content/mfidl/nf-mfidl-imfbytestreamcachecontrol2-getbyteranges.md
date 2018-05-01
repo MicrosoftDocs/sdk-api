@@ -7,7 +7,7 @@ old-location: mf\imfbytestreamcachecontrol2_getbyteranges.htm
 old-project: medfound
 ms.assetid: FC91FCB5-CD22-494F-85B7-38571C38A44E
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetByteRanges method [Media Foundation], GetByteRanges method [Media Foundation], IMFByteStreamCacheControl2 interface, GetByteRanges,IMFByteStreamCacheControl2.GetByteRanges, IMFByteStreamCacheControl2, IMFByteStreamCacheControl2 interface [Media Foundation], GetByteRanges method, IMFByteStreamCacheControl2::GetByteRanges, mf.imfbytestreamcachecontrol2_getbyteranges, mfidl/IMFByteStreamCacheControl2::GetByteRanges
 ms.prod: windows-hardware
 ms.technology: windows-devices

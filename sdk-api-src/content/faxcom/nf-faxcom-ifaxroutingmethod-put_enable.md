@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxroutingmethod_get_enable_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_1vmt.htm
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/18/2018
 ms.keywords: Enable property [Fax Service], Enable property [Fax Service], FaxRoutingMethod object, FaxRoutingMethod object [Fax Service], Enable property, IFaxRoutingMethod, IFaxRoutingMethod::put_Enable, _mfax_ifaxroutingmethod_get_enable, fax._mfax_ifaxroutingmethod_get_enable, fax._mfax_ifaxroutingmethod_get_enable_vb, put_Enable,IFaxRoutingMethod.put_Enable
 ms.prod: windows-hardware
 ms.technology: windows-devices

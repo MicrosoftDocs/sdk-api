@@ -7,7 +7,7 @@ old-location: termserv\itsgauthenticationengine_authenticateuser.htm
 old-project: TermServ
 ms.assetid: a378c28f-ecd1-43db-b998-487176f656f5
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: AuthenticateUser method [Remote Desktop Services], AuthenticateUser method [Remote Desktop Services], ITSGAuthenticationEngine interface, AuthenticateUser,ITSGAuthenticationEngine.AuthenticateUser, ITSGAuthenticationEngine, ITSGAuthenticationEngine interface [Remote Desktop Services], AuthenticateUser method, ITSGAuthenticationEngine::AuthenticateUser, termserv.itsgauthenticationengine_authenticateuser, tsgauthenticationengine/ITSGAuthenticationEngine::AuthenticateUser
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: TC_IFC_DESCRIPTOR, *PTC_IFC_DESCRIPTOR
+req.typenames: TRANSPORT_SETTING_ID, *PTRANSPORT_SETTING_ID
 topic_type:
 -	APIRef
 -	kbSyntax

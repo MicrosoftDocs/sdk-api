@@ -7,7 +7,7 @@ old-location: base\ivssexaminewritermetadataex_getidentityex.htm
 old-project: VSS
 ms.assetid: f36cfa0e-b51e-488b-89b1-99544e2883d9
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: GetIdentityEx method [VSS], GetIdentityEx method [VSS], IVssExamineWriterMetadataEx interface, GetIdentityEx,IVssExamineWriterMetadataEx.GetIdentityEx, IVssExamineWriterMetadataEx, IVssExamineWriterMetadataEx interface [VSS], GetIdentityEx method, IVssExamineWriterMetadataEx::GetIdentityEx, base.ivssexaminewritermetadataex_getidentityex, vsbackup/IVssExamineWriterMetadataEx::GetIdentityEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

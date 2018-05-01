@@ -7,7 +7,7 @@ old-location: com\iolecontrolsite_onfocus.htm
 old-project: com
 ms.assetid: 22869326-2815-49cb-8d03-14dca5d45689
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IOleControlSite, IOleControlSite interface [COM], OnFocus method, IOleControlSite::OnFocus, OnFocus method [COM], OnFocus method [COM], IOleControlSite interface, OnFocus,IOleControlSite.OnFocus, _ctrl_iolecontrolsite_onfocus, com.iolecontrolsite_onfocus, ocidl/IOleControlSite::OnFocus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IOleControlSite::OnFocus method

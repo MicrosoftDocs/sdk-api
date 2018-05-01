@@ -7,7 +7,7 @@ old-location: wmi\swbemrpnencodedquery.htm
 old-project: WmiSdk
 ms.assetid: 0f7e77a8-4ee6-421b-be4a-b58055a58c39
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: SWbemRpnEncodedQuery, SWbemRpnEncodedQuery structure [Windows Management Instrumentation], WMIQ_RPN_FROM_CLASS_LIST, WMIQ_RPN_FROM_PATH, WMIQ_RPN_FROM_UNARY, tag_SWbemRpnEncodedQuery, wmi.swbemrpnencodedquery, wmiutils/SWbemRpnEncodedQuery
 ms.prod: windows-hardware
 ms.technology: windows-devices

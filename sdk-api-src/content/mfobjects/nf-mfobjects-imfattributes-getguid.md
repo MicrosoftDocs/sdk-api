@@ -7,7 +7,7 @@ old-location: mf\imfattributes_getguid.htm
 old-project: medfound
 ms.assetid: 6ded35e1-2d1c-4e68-ad0f-2bd5ba469853
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 6ded35e1-2d1c-4e68-ad0f-2bd5ba469853, GetGUID method [Media Foundation], GetGUID method [Media Foundation], IMFAttributes interface, GetGUID,IMFAttributes.GetGUID, IMFAttributes, IMFAttributes interface [Media Foundation], GetGUID method, IMFAttributes::GetGUID, mf.imfattributes_getguid, mfobjects/IMFAttributes::GetGUID
 ms.prod: windows-hardware
 ms.technology: windows-devices

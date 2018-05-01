@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IAnnotationProvider_Target.htm
 old-project: WinAuto
 ms.assetid: 2ACCB4D9-E2EA-4962-8014-7B8382251A39
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: IAnnotationProvider, IAnnotationProvider interface [Windows Accessibility], Target property, IAnnotationProvider.Target, IAnnotationProvider::get_Target, Target property [Windows Accessibility], Target property [Windows Accessibility], IAnnotationProvider interface, get_Target,IAnnotationProvider.get_Target, uiautomationcore/IAnnotationProvider::Target, uiautomationcore/IAnnotationProvider::get_Target, winauto.uiauto_IAnnotationProvider_Target
 ms.prod: windows-hardware
 ms.technology: windows-devices

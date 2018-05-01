@@ -7,7 +7,7 @@ old-location: cos\icomobjectpoolevents_onobjpoolgetobject.htm
 old-project: cossdk
 ms.assetid: 532575b4-af72-4b53-b90b-fc09966c8ee0
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: IComObjectPoolEvents, IComObjectPoolEvents interface [COM+], OnObjPoolGetObject method, IComObjectPoolEvents::OnObjPoolGetObject, OnObjPoolGetObject method [COM+], OnObjPoolGetObject method [COM+], IComObjectPoolEvents interface, OnObjPoolGetObject,IComObjectPoolEvents.OnObjPoolGetObject, _dtc_IComObjectPoolEvents_OnObjPoolGetObject, comsvcs/IComObjectPoolEvents::OnObjPoolGetObject, cos.icomobjectpoolevents_onobjpoolgetobject
 ms.prod: windows-hardware
 ms.technology: windows-devices

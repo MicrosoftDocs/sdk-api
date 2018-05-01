@@ -7,7 +7,7 @@ old-location: mstv\iisdbseriesdescriptor_getepisodenumber.htm
 old-project: mstv
 ms.assetid: 1a28ff17-4a5e-4245-845e-1307830fb3fd
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetEpisodeNumber method [Microsoft TV Technologies], GetEpisodeNumber method [Microsoft TV Technologies], IIsdbSeriesDescriptor interface, GetEpisodeNumber,IIsdbSeriesDescriptor.GetEpisodeNumber, IIsdbSeriesDescriptor, IIsdbSeriesDescriptor interface [Microsoft TV Technologies], GetEpisodeNumber method, IIsdbSeriesDescriptor::GetEpisodeNumber, dvbsiparser/IIsdbSeriesDescriptor::GetEpisodeNumber, mstv.iisdbseriesdescriptor_getepisodenumber
 ms.prod: windows-hardware
 ms.technology: windows-devices

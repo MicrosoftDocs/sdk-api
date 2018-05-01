@@ -7,7 +7,7 @@ old-location: wmp\iwmpplayerservices2_setbackgroundprocessingpriority.htm
 old-project: WMP
 ms.assetid: 1e3536d2-006b-4019-a9c5-c460135cf555
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPPlayerServices2, IWMPPlayerServices2 interface [Windows Media Player], setBackgroundProcessingPriority method, IWMPPlayerServices2::setBackgroundProcessingPriority, IWMPPlayerServices2setBackgroundProcessingPriority, setBackgroundProcessingPriority method [Windows Media Player], setBackgroundProcessingPriority method [Windows Media Player], IWMPPlayerServices2 interface, setBackgroundProcessingPriority,IWMPPlayerServices2.setBackgroundProcessingPriority, wmp.iwmpplayerservices2_setbackgroundprocessingpriority, wmp/IWMPPlayerServices2::setBackgroundProcessingPriority
 ms.prod: windows-hardware
 ms.technology: windows-devices

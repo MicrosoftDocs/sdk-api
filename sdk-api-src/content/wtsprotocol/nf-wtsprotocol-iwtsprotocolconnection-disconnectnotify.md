@@ -7,7 +7,7 @@ old-location: termserv\iwtsprotocolconnection_disconnectnotify.htm
 old-project: TermServ
 ms.assetid: d2712d53-2e52-49d9-874e-e6425235d3f0
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: DisconnectNotify method [Remote Desktop Services], DisconnectNotify method [Remote Desktop Services], IWTSProtocolConnection interface, DisconnectNotify,IWTSProtocolConnection.DisconnectNotify, IWTSProtocolConnection, IWTSProtocolConnection interface [Remote Desktop Services], DisconnectNotify method, IWTSProtocolConnection::DisconnectNotify, termserv.iwtsprotocolconnection_disconnectnotify, wtsprotocol/IWTSProtocolConnection::DisconnectNotify
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist1_setsamplepositions.htm
 old-project: direct3d12
 ms.assetid: 04627303-20C7-44B1-A62D-45003A13685B
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: ID3D12GraphicsCommandList1, ID3D12GraphicsCommandList1 interface, SetSamplePositions method, ID3D12GraphicsCommandList1::SetSamplePositions, SetSamplePositions method, SetSamplePositions method, ID3D12GraphicsCommandList1 interface, SetSamplePositions,ID3D12GraphicsCommandList1.SetSamplePositions, d3d12/ID3D12GraphicsCommandList1::SetSamplePositions, direct3d12.id3d12graphicscommandlist1_setsamplepositions
 ms.prod: windows-hardware
 ms.technology: windows-devices

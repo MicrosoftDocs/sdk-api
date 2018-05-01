@@ -7,7 +7,7 @@ old-location: ics\istaticportmappingcollection_remove.htm
 old-project: ICS
 ms.assetid: c82a145d-7b85-419b-b64b-36f1ac7a2631
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: IStaticPortMappingCollection, IStaticPortMappingCollection interface [ICS/ICF], Remove method, IStaticPortMappingCollection::Remove, Remove method [ICS/ICF], Remove method [ICS/ICF], IStaticPortMappingCollection interface, Remove,IStaticPortMappingCollection.Remove, _ics_istaticportmappingcollection_remove, ics.istaticportmappingcollection_remove, natupnp/IStaticPortMappingCollection::Remove
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IStaticPortMappingCollection::Remove method

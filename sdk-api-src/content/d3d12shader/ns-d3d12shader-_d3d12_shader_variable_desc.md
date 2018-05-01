@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_shader_variable_desc.htm
 old-project: direct3d12
 ms.assetid: 117181AB-16F4-41D7-974D-E2C04FEE4FB1
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: D3D12_SHADER_VARIABLE_DESC, D3D12_SHADER_VARIABLE_DESC structure, _D3D12_SHADER_VARIABLE_DESC, d3d12shader/D3D12_SHADER_VARIABLE_DESC, direct3d12.d3d12_shader_variable_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices

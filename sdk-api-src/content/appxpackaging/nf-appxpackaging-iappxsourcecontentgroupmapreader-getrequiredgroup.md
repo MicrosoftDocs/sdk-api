@@ -7,7 +7,7 @@ old-location: appxpkg\iappxsourcecontentgroupmapreader_getrequiredgroup.htm
 old-project: appxpkg
 ms.assetid: 4C85F79F-CD91-4038-AF23-413E04CBA5AA
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/26/2018
 ms.keywords: GetRequiredGroup method [App packaging and management], GetRequiredGroup method [App packaging and management], IAppxSourceContentGroupMapReader interface, GetRequiredGroup,IAppxSourceContentGroupMapReader.GetRequiredGroup, IAppxSourceContentGroupMapReader, IAppxSourceContentGroupMapReader interface [App packaging and management], GetRequiredGroup method, IAppxSourceContentGroupMapReader::GetRequiredGroup, appxpackaging/IAppxSourceContentGroupMapReader::GetRequiredGroup, appxpkg.iappxsourcecontentgroupmapreader_getrequiredgroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_ARCHITECTURE2
+req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
 topic_type:
 -	APIRef
 -	kbSyntax

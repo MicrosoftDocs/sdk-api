@@ -1,0 +1,99 @@
+---
+UID: NF:wia_xp.IWiaItemExtras.GetExtendedErrorInfo
+title: IWiaItemExtras::GetExtendedErrorInfo method
+author: windows-driver-content
+description: The IWiaItemExtras::GetExtendedErrorInfo method gets a string from the device driver that contains information about the most recent error.
+old-location: wia\_wia_IWiaItemExtras_GetExtendedErrorInfo.htm
+old-project: wia
+ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitemextras\getextendederrorinfo.htm
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: GetExtendedErrorInfo method [WIA], GetExtendedErrorInfo method [WIA], IWiaItemExtras interface, GetExtendedErrorInfo,IWiaItemExtras.GetExtendedErrorInfo, IWiaItemExtras, IWiaItemExtras interface [WIA], GetExtendedErrorInfo method, IWiaItemExtras::GetExtendedErrorInfo, _wia_IWiaItemExtras_GetExtendedErrorInfo, wia._wia_IWiaItemExtras_GetExtendedErrorInfo, wia_xp/IWiaItemExtras::GetExtendedErrorInfo
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wia_xp.h
+req.include-header: Wia.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WIAVIDEO_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wiaservc.dll
+api_name:
+-	IWiaItemExtras.GetExtendedErrorInfo
+product: Windows
+targetos: Windows
+req.lib: Wiaguid.lib
+req.dll: Wiaservc.dll
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# IWiaItemExtras::GetExtendedErrorInfo method
+
+
+## -description
+
+
+The <b>IWiaItemExtras::GetExtendedErrorInfo</b> method gets a string from the device driver that contains information about the most recent error. Call this method after an error during an operation on a Windows Image Acquisition (WIA) item (such as data transfer).
+
+
+## -parameters
+
+
+
+
+### -param bstrErrorText [out]
+
+Type: <b>BSTR*</b>
+
+Pointer to a string that contains the error information.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+
+Applications must call the <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> function to free the string to which <i>bstrErrorText</i> points.
+
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/b04f22dc-47d2-4434-82f9-4d6c618f31b3">IWiaItemExtras</a>
+ 
+
+ 
+

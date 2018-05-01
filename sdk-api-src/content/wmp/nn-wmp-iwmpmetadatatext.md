@@ -7,7 +7,7 @@ old-location: wmp\iwmpmetadatatext.htm
 old-project: WMP
 ms.assetid: 15d040fa-6c14-41ff-bd21-a8991c17681d
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPMetadataText, IWMPMetadataText interface [Windows Media Player], IWMPMetadataText interface [Windows Media Player], described, IWMPMetadataTextInterface, wmp.iwmpmetadatatext, wmp/IWMPMetadataText
 ms.prod: windows-hardware
 ms.technology: windows-devices

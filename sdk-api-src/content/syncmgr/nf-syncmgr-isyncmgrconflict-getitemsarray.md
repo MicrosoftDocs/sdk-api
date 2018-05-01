@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrConflict_GetItemsArray.htm
 old-project: shell
 ms.assetid: 6c836522-fb04-4176-a9b3-7602ae2d71a1
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetItemsArray method [Windows Shell], GetItemsArray method [Windows Shell], ISyncMgrConflict interface, GetItemsArray,ISyncMgrConflict.GetItemsArray, ISyncMgrConflict, ISyncMgrConflict interface [Windows Shell], GetItemsArray method, ISyncMgrConflict::GetItemsArray, _shell_ISyncMgrConflict_GetItemsArray, shell.ISyncMgrConflict_GetItemsArray, syncmgr/ISyncMgrConflict::GetItemsArray
 ms.prod: windows-hardware
 ms.technology: windows-devices

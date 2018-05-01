@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3ddevice9__getsamplerstate.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__getsamplerstate.htm
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/10/2018
 ms.keywords: 2f2d9d2b-67e2-1c0d-8bc2-e3824a20ab32, GetSamplerState method [Direct3D 9], GetSamplerState method [Direct3D 9], IDirect3DDevice9 interface, GetSamplerState,IDirect3DDevice9.GetSamplerState, IDirect3DDevice9, IDirect3DDevice9 interface [Direct3D 9], GetSamplerState method, IDirect3DDevice9::GetSamplerState, d3d9helper/IDirect3DDevice9::GetSamplerState, direct3d9.idirect3ddevice9__getsamplerstate
 ms.prod: windows-hardware
 ms.technology: windows-devices

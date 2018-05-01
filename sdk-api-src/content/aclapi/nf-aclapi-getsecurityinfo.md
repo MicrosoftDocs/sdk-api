@@ -7,7 +7,7 @@ old-location: security\getsecurityinfo.htm
 old-project: SecAuthZ
 ms.assetid: 64767a6b-cd79-4e02-881a-706a078ff446
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: GetSecurityInfo, GetSecurityInfo function [Security], _win32_getsecurityinfo, aclapi/GetSecurityInfo, security.getsecurityinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

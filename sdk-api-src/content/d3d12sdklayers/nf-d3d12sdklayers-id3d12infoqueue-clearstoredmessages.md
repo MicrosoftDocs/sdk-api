@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12infoqueue_clearstoredmessages.htm
 old-project: direct3d12
 ms.assetid: 045180AA-BA7F-4DFF-AC92-77076556A9CA
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: ClearStoredMessages method, ClearStoredMessages method, ID3D12InfoQueue interface, ClearStoredMessages,ID3D12InfoQueue.ClearStoredMessages, ID3D12InfoQueue, ID3D12InfoQueue interface, ClearStoredMessages method, ID3D12InfoQueue::ClearStoredMessages, d3d12sdklayers/ID3D12InfoQueue::ClearStoredMessages, direct3d12.id3d12infoqueue_clearstoredmessages
 ms.prod: windows-hardware
 ms.technology: windows-devices

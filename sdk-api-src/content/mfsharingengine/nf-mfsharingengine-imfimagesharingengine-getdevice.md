@@ -7,7 +7,7 @@ old-location: mf\imfimagesharingengine_getdevice.htm
 old-project: medfound
 ms.assetid: 27CAE784-2107-4380-97E4-AE0A7D69C64F
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetDevice method [Media Foundation], GetDevice method [Media Foundation], IMFImageSharingEngine interface, GetDevice,IMFImageSharingEngine.GetDevice, IMFImageSharingEngine, IMFImageSharingEngine interface [Media Foundation], GetDevice method, IMFImageSharingEngine::GetDevice, mf.imfimagesharingengine_getdevice, mfsharingengine/IMFImageSharingEngine::GetDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices

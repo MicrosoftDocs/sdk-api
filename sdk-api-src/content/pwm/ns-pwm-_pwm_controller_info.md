@@ -7,7 +7,7 @@ old-location: base\pwm_controller_info.htm
 old-project: DevIO
 ms.assetid: 64002D7B-0752-4EC9-88E7-D166CBDE0AB5
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/3/2018
 ms.keywords: PWM_CONTROLLER_GET_INFO_OUTPUT, PWM_CONTROLLER_INFO, PWM_CONTROLLER_INFO structure, _PWM_CONTROLLER_INFO, base.pwm_controller_info, pwm/PWM_CONTROLLER_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _PWM_CONTROLLER_INFO structure

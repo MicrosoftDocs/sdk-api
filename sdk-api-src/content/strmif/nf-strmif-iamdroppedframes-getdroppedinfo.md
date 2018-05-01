@@ -7,7 +7,7 @@ old-location: dshow\iamdroppedframes_getdroppedinfo.htm
 old-project: DirectShow
 ms.assetid: d4dc9e68-f814-4bb4-88ea-88eea32b2577
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetDroppedInfo method [DirectShow], GetDroppedInfo method [DirectShow], IAMDroppedFrames interface, GetDroppedInfo,IAMDroppedFrames.GetDroppedInfo, IAMDroppedFrames, IAMDroppedFrames interface [DirectShow], GetDroppedInfo method, IAMDroppedFrames::GetDroppedInfo, IAMDroppedFramesGetDroppedInfo, dshow.iamdroppedframes_getdroppedinfo, strmif/IAMDroppedFrames::GetDroppedInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

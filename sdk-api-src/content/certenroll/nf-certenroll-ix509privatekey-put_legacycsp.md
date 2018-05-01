@@ -7,7 +7,7 @@ old-location: security\ix509privatekey_legacycsp.htm
 old-project: SecCertEnroll
 ms.assetid: 53a93aea-4435-4e04-9bd1-6356446aaefc
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: IX509PrivateKey, IX509PrivateKey interface [Security], LegacyCsp property, IX509PrivateKey.LegacyCsp, IX509PrivateKey::get_LegacyCsp, IX509PrivateKey::put_LegacyCsp, LegacyCsp property [Security], LegacyCsp property [Security], IX509PrivateKey interface, certenroll/IX509PrivateKey::LegacyCsp, certenroll/IX509PrivateKey::get_LegacyCsp, certenroll/IX509PrivateKey::put_LegacyCsp, put_LegacyCsp,IX509PrivateKey.put_LegacyCsp, security.ix509privatekey_legacycsp
 ms.prod: windows-hardware
 ms.technology: windows-devices

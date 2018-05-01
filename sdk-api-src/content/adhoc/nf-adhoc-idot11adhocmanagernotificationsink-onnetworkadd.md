@@ -7,7 +7,7 @@ old-location: nwifi\idot11adhocmanagernotificationsink_onnetworkadd.htm
 old-project: NativeWiFi
 ms.assetid: 28cca237-31a5-4018-a382-17d0a13a254b
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/13/2018
 ms.keywords: IDot11AdHocManagerNotificationSink, IDot11AdHocManagerNotificationSink interface [NativeWIFI], OnNetworkAdd method, IDot11AdHocManagerNotificationSink::OnNetworkAdd, OnNetworkAdd method [NativeWIFI], OnNetworkAdd method [NativeWIFI], IDot11AdHocManagerNotificationSink interface, OnNetworkAdd,IDot11AdHocManagerNotificationSink.OnNetworkAdd, adhoc/IDot11AdHocManagerNotificationSink::OnNetworkAdd, nwifi.idot11adhocmanagernotificationsink_onnetworkadd
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmdm\iwmdevicemanager_getdevicecount.htm
 old-project: WMDM
 ms.assetid: efa8ccf6-c796-4ed7-8fe0-2e6570292aaa
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: GetDeviceCount method [windows Media Device Manager], GetDeviceCount method [windows Media Device Manager], IWMDeviceManager interface, GetDeviceCount,IWMDeviceManager.GetDeviceCount, IWMDeviceManager, IWMDeviceManager interface [windows Media Device Manager], GetDeviceCount method, IWMDeviceManager::GetDeviceCount, IWMDeviceManagerGetDeviceCount, mswmdm/IWMDeviceManager::GetDeviceCount, wmdm.iwmdevicemanager_getdevicecount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IWMDeviceManager::GetDeviceCount method

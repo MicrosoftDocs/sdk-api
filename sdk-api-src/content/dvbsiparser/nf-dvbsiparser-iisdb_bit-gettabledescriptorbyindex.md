@@ -7,7 +7,7 @@ old-location: mstv\iisdb_bit_gettabledescriptorbyindex.htm
 old-project: mstv
 ms.assetid: 5c6002b2-61c3-4d0c-87b9-682c3277792c
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetTableDescriptorByIndex method [Microsoft TV Technologies], GetTableDescriptorByIndex method [Microsoft TV Technologies], IISDB_BIT interface, GetTableDescriptorByIndex,IISDB_BIT.GetTableDescriptorByIndex, IISDB_BIT, IISDB_BIT interface [Microsoft TV Technologies], GetTableDescriptorByIndex method, IISDB_BIT::GetTableDescriptorByIndex, dvbsiparser/IISDB_BIT::GetTableDescriptorByIndex, mstv.iisdb_bit_gettabledescriptorbyindex
 ms.prod: windows-hardware
 ms.technology: windows-devices

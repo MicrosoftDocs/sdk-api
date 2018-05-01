@@ -7,7 +7,7 @@ old-location: mf\imfasfindexer_setindexbytestreams.htm
 old-project: medfound
 ms.assetid: f116baaa-8d9b-4ac0-9263-3bb65d67ee63
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFASFIndexer, IMFASFIndexer interface [Media Foundation], SetIndexByteStreams method, IMFASFIndexer::SetIndexByteStreams, SetIndexByteStreams method [Media Foundation], SetIndexByteStreams method [Media Foundation], IMFASFIndexer interface, SetIndexByteStreams,IMFASFIndexer.SetIndexByteStreams, f116baaa-8d9b-4ac0-9263-3bb65d67ee63, mf.imfasfindexer_setindexbytestreams, wmcontainer/IMFASFIndexer::SetIndexByteStreams
 ms.prod: windows-hardware
 ms.technology: windows-devices

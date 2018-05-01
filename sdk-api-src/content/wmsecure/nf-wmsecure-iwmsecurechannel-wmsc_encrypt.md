@@ -7,7 +7,7 @@ old-location: wmformat\iwmsecurechannel_wmsc_encrypt.htm
 old-project: wmformat
 ms.assetid: fdb90fbc-9504-4b72-83ab-b410c3bd2e1e
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMSecureChannel, IWMSecureChannel interface [windows Media Format], WMSC_Encrypt method, IWMSecureChannel::WMSC_Encrypt, WMSC_Encrypt method [windows Media Format], WMSC_Encrypt method [windows Media Format], IWMSecureChannel interface, WMSC_Encrypt,IWMSecureChannel.WMSC_Encrypt, wmformat.iwmsecurechannel_wmsc_encrypt, wmsecure/IWMSecureChannel::WMSC_Encrypt
 ms.prod: windows-hardware
 ms.technology: windows-devices

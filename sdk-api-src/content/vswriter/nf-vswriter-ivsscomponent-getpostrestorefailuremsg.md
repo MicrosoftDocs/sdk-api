@@ -7,7 +7,7 @@ old-location: base\ivsscomponent_getpostrestorefailuremsg.htm
 old-project: VSS
 ms.assetid: f7d236e9-bd83-4685-b249-4e5b8ada535a
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: GetPostRestoreFailureMsg method [VSS], GetPostRestoreFailureMsg method [VSS], IVssComponent interface, GetPostRestoreFailureMsg,IVssComponent.GetPostRestoreFailureMsg, IVssComponent, IVssComponent interface [VSS], GetPostRestoreFailureMsg method, IVssComponent::GetPostRestoreFailureMsg, _win32_ivsscomponent_getpostrestorefailuremsg, base.ivsscomponent_getpostrestorefailuremsg, vswriter/IVssComponent::GetPostRestoreFailureMsg
 ms.prod: windows-hardware
 ms.technology: windows-devices

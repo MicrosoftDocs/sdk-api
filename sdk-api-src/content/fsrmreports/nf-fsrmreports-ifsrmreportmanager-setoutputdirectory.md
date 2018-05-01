@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmreportmanager_setoutputdirectory.htm
 old-project: Fsrm
 ms.assetid: 5bbc4255-1fed-45c5-bb13-41ee7c47ed56
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: FsrmReportManager class [File Server Resource Manager], SetOutputDirectory method, IFsrmReportManager, IFsrmReportManager interface [File Server Resource Manager], SetOutputDirectory method, IFsrmReportManager::SetOutputDirectory, SetOutputDirectory method [File Server Resource Manager], SetOutputDirectory method [File Server Resource Manager], FsrmReportManager class, SetOutputDirectory method [File Server Resource Manager], IFsrmReportManager interface, SetOutputDirectory,IFsrmReportManager.SetOutputDirectory, fs.ifsrmreportmanager_setoutputdirectory, fsrm.ifsrmreportmanager_setoutputdirectory, fsrmreports/IFsrmReportManager::SetOutputDirectory
 ms.prod: windows-hardware
 ms.technology: windows-devices

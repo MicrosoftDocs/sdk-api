@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist_resolvesubresource.htm
 old-project: direct3d12
 ms.assetid: F1D4BAD1-B08E-47D0-9D2B-41873D6B4456
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: ID3D12GraphicsCommandList, ID3D12GraphicsCommandList interface, ResolveSubresource method, ID3D12GraphicsCommandList::ResolveSubresource, ResolveSubresource method, ResolveSubresource method, ID3D12GraphicsCommandList interface, ResolveSubresource,ID3D12GraphicsCommandList.ResolveSubresource, d3d12/ID3D12GraphicsCommandList::ResolveSubresource, direct3d12.id3d12graphicscommandlist_resolvesubresource
 ms.prod: windows-hardware
 ms.technology: windows-devices

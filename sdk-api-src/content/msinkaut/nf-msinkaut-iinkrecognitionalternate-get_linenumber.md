@@ -7,7 +7,7 @@ old-location: tablet\iinkrecognitionalternate_linenumber.htm
 old-project: tablet
 ms.assetid: dd5578e7-7361-4e42-a503-2914f90a801f
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: IInkRecognitionAlternate, IInkRecognitionAlternate interface [Tablet PC], LineNumber property, IInkRecognitionAlternate.LineNumber, IInkRecognitionAlternate.get_LineNumber, IInkRecognitionAlternate::get_LineNumber, LineNumber property [Tablet PC], LineNumber property [Tablet PC], IInkRecognitionAlternate interface, dd5578e7-7361-4e42-a503-2914f90a801f, get_LineNumber,IInkRecognitionAlternate.get_LineNumber, msinkaut/IInkRecognitionAlternate::LineNumber, msinkaut/IInkRecognitionAlternate::get_LineNumber, tablet.iinkrecognitionalternate_linenumber
 ms.prod: windows-hardware
 ms.technology: windows-devices

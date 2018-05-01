@@ -7,7 +7,7 @@ old-location: security\cryptxmldllgetinterface.htm
 old-project: SecCrypto
 ms.assetid: a547e869-3c9f-4408-9895-29fae0cc6066
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: CryptXmlDllGetInterface, CryptXmlDllGetInterface function pointer [Security], cryptxml/CryptXmlDllGetInterface, security.cryptxmldllgetinterface
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: iphlp\icmpcreatefile.htm
 old-project: IpHlp
 ms.assetid: b435b38b-df86-4991-9772-c712c9ea606f
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 4/13/2018
 ms.keywords: IcmpCreateFile, IcmpCreateFile function [IP Helper], _iphlp_icmpcreatefile, icmpapi/IcmpCreateFile, iphlp.icmpcreatefile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: COLORMATCHSETUPW, *PCOLORMATCHSETUPW, *LPCOLORMATCHSETUPW
+req.typenames: NET_FW_SERVICE_TYPE
 topic_type:
 -	APIRef
 -	kbSyntax

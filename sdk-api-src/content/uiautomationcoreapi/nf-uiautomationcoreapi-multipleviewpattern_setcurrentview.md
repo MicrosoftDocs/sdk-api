@@ -7,7 +7,7 @@ old-location: winauto\uiauto_MultipleViewPattern_SetCurrentViewConPat.htm
 old-project: WinAuto
 ms.assetid: 346b6099-ca8f-4237-9eda-1ae2ee2263a3
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: MultipleViewPattern_SetCurrentView, MultipleViewPattern_SetCurrentView function [Windows Accessibility], uiauto.uiauto_MultipleViewPattern_SetCurrentViewConPat, uiauto_MultipleViewPattern_SetCurrentViewConPat, uiautomationcoreapi/MultipleViewPattern_SetCurrentView, winauto.uiauto_MultipleViewPattern_SetCurrentViewConPat
 ms.prod: windows-hardware
 ms.technology: windows-devices

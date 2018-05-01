@@ -7,7 +7,7 @@ old-location: com\ioleinplacesite_scroll.htm
 old-project: com
 ms.assetid: a169c4c6-b600-4812-bf71-d7fcd7486ff1
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IOleInPlaceSite, IOleInPlaceSite interface [COM], Scroll method, IOleInPlaceSite::Scroll, IOleInPlaceSiteWindowless.Scroll, Scroll method [COM], Scroll method [COM], IOleInPlaceSite interface, Scroll,IOleInPlaceSite.Scroll, _ole_ioleinplacesite_scroll, com.ioleinplacesite_scroll, oleidl/IOleInPlaceSite::Scroll
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IOleInPlaceSite::Scroll method

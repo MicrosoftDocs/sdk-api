@@ -7,7 +7,7 @@ old-location: termserv\itssbresourcepluginstore_enumerateenvironments.htm
 old-project: TermServ
 ms.assetid: 5c9d2fb4-05e7-449d-8326-b983701b3302
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: EnumerateEnvironments method [Remote Desktop Services], EnumerateEnvironments method [Remote Desktop Services], ITsSbResourcePluginStore interface, EnumerateEnvironments method [Remote Desktop Services], ITsSbResourcePluginStoreEx interface, EnumerateEnvironments,ITsSbResourcePluginStore.EnumerateEnvironments, ITsSbResourcePluginStore, ITsSbResourcePluginStore interface [Remote Desktop Services], EnumerateEnvironments method, ITsSbResourcePluginStore::EnumerateEnvironments, ITsSbResourcePluginStoreEx interface [Remote Desktop Services], EnumerateEnvironments method, ITsSbResourcePluginStoreEx::EnumerateEnvironments, sbtsv/ITsSbResourcePluginStore::EnumerateEnvironments, sbtsv/ITsSbResourcePluginStoreEx::EnumerateEnvironments, termserv.itssbresourcepluginstore_enumerateenvironments
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITsSbResourcePluginStore::EnumerateEnvironments method

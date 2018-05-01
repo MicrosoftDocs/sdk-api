@@ -7,7 +7,7 @@ old-location: mf\id3d11cryptosession_getcertificatesize.htm
 old-project: medfound
 ms.assetid: C5FE51B8-A681-4B8C-BFC0-9D0B625292F1
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetCertificateSize method [Media Foundation], GetCertificateSize method [Media Foundation], ID3D11CryptoSession interface, GetCertificateSize,ID3D11CryptoSession.GetCertificateSize, ID3D11CryptoSession, ID3D11CryptoSession interface [Media Foundation], GetCertificateSize method, ID3D11CryptoSession::GetCertificateSize, d3d11/ID3D11CryptoSession::GetCertificateSize, mf.id3d11cryptosession_getcertificatesize
 ms.prod: windows-hardware
 ms.technology: windows-devices

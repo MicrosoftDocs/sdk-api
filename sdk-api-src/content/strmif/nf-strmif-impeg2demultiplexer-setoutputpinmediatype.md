@@ -7,7 +7,7 @@ old-location: dshow\impeg2demultiplexer_setoutputpinmediatype.htm
 old-project: DirectShow
 ms.assetid: 985033ea-72ea-40c4-8176-60208b505040
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IMpeg2Demultiplexer, IMpeg2Demultiplexer interface [DirectShow], SetOutputPinMediaType method, IMpeg2Demultiplexer::SetOutputPinMediaType, IMpeg2DemultiplexerSetOutputPinMediaType, SetOutputPinMediaType method [DirectShow], SetOutputPinMediaType method [DirectShow], IMpeg2Demultiplexer interface, SetOutputPinMediaType,IMpeg2Demultiplexer.SetOutputPinMediaType, dshow.impeg2demultiplexer_setoutputpinmediatype, strmif/IMpeg2Demultiplexer::SetOutputPinMediaType
 ms.prod: windows-hardware
 ms.technology: windows-devices

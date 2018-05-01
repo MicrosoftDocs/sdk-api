@@ -2,21 +2,21 @@
 UID: NN:mstask.ITask
 title: ITask
 author: windows-driver-content
-description: Defines a task.
-old-location: ccp\itask.htm
-old-project: CcpSdk
-ms.assetid: 3118a416-14d8-4d38-a8c8-e5e7e985aeef
+description: Provides the methods for running tasks, getting or setting task information, and terminating tasks. It is derived from the IScheduledWorkItem interface and inherits all the methods of that interface.
+old-location: taskschd\itask.htm
+old-project: TaskSchd
+ms.assetid: 84a70dd0-43cb-42be-8360-35263bf1afb8
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
-ms.keywords: ITask, ITask interface [CCP], ITask interface [CCP], described, ccp.itask, mstask/ITask
+ms.date: 2/15/2018
+ms.keywords: ITask, ITask interface [Task Scheduler], ITask interface [Task Scheduler], described, _msb_itask, mstask/ITask, taskschd.itask
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -25,7 +25,7 @@ req.idl:
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: Ccpapi.tlb
+req.type-library: 
 req.typenames: TASK_TRIGGER_TYPE, *PTASK_TRIGGER_TYPE
 topic_type:
 -	APIRef
@@ -33,7 +33,7 @@ topic_type:
 api_type:
 -	COM
 api_location:
--	Ccpapi.tlb
+-	Mstask.dll
 api_name:
 -	ITask
 product: Windows
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Mstask.lib
 req.dll: Mstask.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITask interface
@@ -50,14 +50,15 @@ req.product: Compute Cluster Pack Client Utilities
 ## -description
 
 
-Defines a task.
+<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://msdn.microsoft.com/67ed58e1-e54c-4c02-a6c4-d9ab8dc0f83e">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
-To create a task, call the <a href="https://msdn.microsoft.com/6d5fd51e-cdc3-4f77-84f5-303b9d501596">ICluster::CreateTask</a> method.
+Provides the methods for running tasks, getting or setting task information, and terminating tasks. It is derived from the 
+<a href="https://msdn.microsoft.com/e668833a-094d-4504-90a0-87912a6a53c2">IScheduledWorkItem</a> interface and inherits all the methods of that interface.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITask</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ITask</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITask</b> interface inherits from <a href="https://msdn.microsoft.com/e668833a-094d-4504-90a0-87912a6a53c2">IScheduledWorkItem</a>. <b>ITask</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,356 +73,391 @@ The <b>ITask</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ee25dd75-dc28-4be4-b4cc-3a61ba1963ef">get_CommandLine</a>
+<a href="https://msdn.microsoft.com/ff8c9c3b-697f-42f0-a5b5-6194e4c89096">CreateTrigger</a>
 </td>
 <td align="left" width="63%">
-Retrieves the command line for the task.
+Creates a <a href="t.htm">trigger</a> using a work item object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5d256f0d-5f5f-42b4-9806-6c94317be8dd">get_CreateTime</a>
+<a href="https://msdn.microsoft.com/418e16d3-67ee-4b77-a7a9-67e722619d80">DeleteTrigger</a>
 </td>
 <td align="left" width="63%">
-Retrieves the task creation time.
+Deletes a trigger from a work item.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/796d3e48-3eb1-47ad-ba76-9fe394c4eba5">get_Depend</a>
+<a href="https://msdn.microsoft.com/3b0b335a-4386-4726-8758-ef5944cb5dfe">EditWorkItem</a>
 </td>
 <td align="left" width="63%">
-Retrieves the dependent tasks.
+Opens the configuration properties for the work item.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1310b505-5b51-4578-adf3-2ad037b3a140">get_EndTime</a>
+<a href="https://msdn.microsoft.com/d5f279ac-bf03-4af5-9bad-58eadaba0ca1">GetAccountInformation</a>
 </td>
 <td align="left" width="63%">
-Retrieves the task end time.
+Retrieves the account name for the work item.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b7ab0722-9a88-433a-8f4c-464ac841f4d5">get_EnvironmentVariables</a>
+<a href="https://msdn.microsoft.com/79a8c324-1191-412b-be2b-eb5935337925">GetApplicationName</a>
 </td>
 <td align="left" width="63%">
-Retrieves the environment variables for the task.
+Retrieves the name of the application that the task is associated with.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5c22844f-358a-477f-9088-698eee01e7d9">get_ErrorMessage</a>
+<a href="https://msdn.microsoft.com/49bfd451-8100-40e1-9727-e54c5478b415">GetComment</a>
 </td>
 <td align="left" width="63%">
-Retrieves the task error message.
+Retrieves the comment for the work item.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9b91e865-25e6-4139-a1cf-b1d34d26783f">get_ExitCode</a>
+<a href="https://msdn.microsoft.com/25bbb200-3418-4ca9-87a5-5db537baceee">GetCreator</a>
 </td>
 <td align="left" width="63%">
-Retrieves the exit code for the task.
+Retrieves the creator of the work item.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a791681c-2ada-433e-8972-21af43374907">get_ExtendedTaskTerms</a>
+<a href="https://msdn.microsoft.com/f9935325-124b-4c21-be9c-e9d48fb69791">GetErrorRetryCount</a>
 </td>
 <td align="left" width="63%">
-Retrieves the application-defined extended terms for the task.
+Not currently implemented.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3766023e-fd2b-471c-98bc-c77c3f71da5d">get_Id</a>
+<a href="https://msdn.microsoft.com/e3ace124-cb02-4d4f-9d6c-18d0d99d64bf">GetErrorRetryInterval</a>
 </td>
 <td align="left" width="63%">
-Retrieves the task identifier.
+Not currently implemented.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5b4ea726-4f65-4793-a809-6000ce1d4eed">get_IsExclusive</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546679">GetExitCode</a>
 </td>
 <td align="left" width="63%">
-Checks whether the node should be exclusively allocated to the task.
+Retrieves the work item's last exit code.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/caf813ef-c52b-4a72-8e2d-4cc4889df4fd">get_IsRerunnable</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546791">GetFlags</a>
 </td>
 <td align="left" width="63%">
-Checks whether the task can be rerun after a failure.
+Retrieves the flags that modify the behavior of the work item.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/baeadb9c-906d-4c0f-8993-5dcba922f11e">get_MaximumNumberOfProcessors</a>
+<a href="https://msdn.microsoft.com/72d53691-f2ea-4a20-8e85-f9db81f830cd">GetIdleWait</a>
 </td>
 <td align="left" width="63%">
-Retrieves the maximum number of processors required by the task.
+Retrieves the idle wait time for the work item.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ff298b47-2a30-40db-b3dc-2e55d5cacae0">get_MinimumNumberOfProcessors</a>
+<a href="https://msdn.microsoft.com/a9f27929-d304-4696-bb36-0c0a34c71388">GetMaxRunTime</a>
 </td>
 <td align="left" width="63%">
-Retrieves the minimum number of processors required by the task.
+Retrieves the maximum length of time the task can run.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7c3bdff6-0ff5-4a5e-b5e1-5ccf6930f6ad">get_Name</a>
+<a href="https://msdn.microsoft.com/38872c60-7d2b-4bfc-b771-98950ab8f40c">GetMostRecentRunTime</a>
 </td>
 <td align="left" width="63%">
-Retrieves the display name of the task.
+Retrieves the most recent time the work item began running.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2fedeb5b-9430-4ccd-8e7f-d4cdc8585c31">get_ParentJobId</a>
+<a href="https://msdn.microsoft.com/a53700f7-0e2c-413f-b7b3-64aa2e970f11">GetNextRunTime</a>
 </td>
 <td align="left" width="63%">
-Retrieves the identifier of the parent job.
+Retrieves the next time the work item will run.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9c8ff00d-83dc-42bb-8c8f-ee075097e0ac">get_RequiredNodes</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548095">GetParameters</a>
 </td>
 <td align="left" width="63%">
-Retrieves the list of required nodes for the task.
+Retrieves the command-line parameters of a task.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/885f750a-d555-4e31-91de-ddb16e52a0bf">get_Runtime</a>
+<a href="https://msdn.microsoft.com/4ace8ab8-e629-4cf9-9bdf-416b2f67c4cd">GetPriority</a>
 </td>
 <td align="left" width="63%">
-Retrieves the run-time limit for the task.
+Retrieves the priority for the task.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2d0c237f-c0ba-47fc-ac32-2b43cf03e74e">get_StartTime</a>
+<a href="https://msdn.microsoft.com/4fd9f5dc-b237-46a6-96c0-0e4b3accd6e5">GetRunTimes</a>
 </td>
 <td align="left" width="63%">
-Retrieves the time that the task started running.
+Retrieves the work item run times for a specified time period.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d5ee205f-09bc-4e96-9bfe-c805699b7716">get_Status</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406321">GetStatus</a>
 </td>
 <td align="left" width="63%">
-Retrieves the task status.
+Retrieves the status of the work item.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b325300c-a5b2-419d-87db-eef96527830a">get_Stderr</a>
+<a href="https://msdn.microsoft.com/fd919375-c903-45eb-a8f4-45baf5b42203">GetTaskFlags</a>
 </td>
 <td align="left" width="63%">
-Retrieves the file to which standard error has been redirected.
+Returns the flags used to modify the behavior of the task.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e616c6a2-423f-4cfb-96ac-eab4fc4cea11">get_Stdin</a>
+<a href="https://msdn.microsoft.com/f99b342c-9233-43e3-93f1-88586e975608">GetTrigger</a>
 </td>
 <td align="left" width="63%">
-Retrieves the file from which standard input has been redirected.
+Retrieves a <a href="t.htm">trigger structure</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/79e5ee7a-b210-4090-93d0-82d74b1c0096">get_Stdout</a>
+<a href="https://msdn.microsoft.com/db1c98db-c4c1-45af-baba-097ee8dc6abf">GetTriggerCount</a>
 </td>
 <td align="left" width="63%">
-Retrieves the file to which standard output has been redirected.
+Retrieves the number of triggers associated with a work item.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d006b4f6-ced0-4c55-b9a8-eddce173da63">get_SubmitTime</a>
+<a href="https://msdn.microsoft.com/5e342807-4796-449b-b490-815ce57f4d8f">GetTriggerString</a>
 </td>
 <td align="left" width="63%">
-Retrieves the time that the task was submitted.
+Retrieves a <a href="t.htm">trigger string</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/647e0431-f76f-4ce8-933a-563a9687b2e1">get_WorkDirectory</a>
+<a href="https://msdn.microsoft.com/737259f6-63d3-43f1-83a7-a10c95aff0e1">GetWorkingDirectory</a>
 </td>
 <td align="left" width="63%">
-Retrieves the startup directory for the task.
+Retrieves the working directory of the task.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/afd50341-940f-4970-a5b7-7ac9251a3eb0">put_CommandLine</a>
+<a href="https://msdn.microsoft.com/1b37c412-80ed-44fb-8b3a-b142a9669080">GetWorkItemData</a>
 </td>
 <td align="left" width="63%">
-Sets the command line for the task.
+Retrieves application-defined data associated with the work item.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ce8aa776-d40a-4a61-a320-224a605b45a1">put_Depend</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569516">Run</a>
 </td>
 <td align="left" width="63%">
-Sets the dependent tasks.
+Runs the work item.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/72737c55-c4c7-4493-b764-d946b41af091">put_IsExclusive</a>
+<a href="https://msdn.microsoft.com/fae1299f-2f3f-48cf-91d9-1057ce62172b">SetAccountInformation</a>
 </td>
 <td align="left" width="63%">
-Sets whether the node should be exclusively allocated to the task.
+Sets the account name and password for the work item.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/293f494a-e375-499c-9b46-925394b2762b">put_IsRerunnable</a>
+<a href="https://msdn.microsoft.com/0bec25a9-e653-48b5-be41-8f513169fc8c">SetApplicationName</a>
 </td>
 <td align="left" width="63%">
-Sets whether the task can be rerun after a failure.
+Assigns a specific application to the current task.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4a4f884c-4789-4b93-8dd5-0ca28966eead">put_MaximumNumberOfProcessors</a>
+<a href="https://msdn.microsoft.com/c6017aa1-8860-454c-a402-becbc1a4ee5c">SetComment</a>
 </td>
 <td align="left" width="63%">
-Sets the maximum number of processors required by the task.
+Sets the comment for the work item.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7b5b338e-52af-44a2-9828-a41e67602986">put_MinimumNumberOfProcessors</a>
+<a href="https://msdn.microsoft.com/e15c6aba-79f7-407f-81d1-b7ec404c68f9">SetCreator</a>
 </td>
 <td align="left" width="63%">
-Sets the minimum number of processors required by the task.
+Sets the creator of the work item.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f223ebad-a4bc-4177-8ac5-5419390fbc31">put_Name</a>
+<a href="https://msdn.microsoft.com/f2c5bafb-a792-4653-87ab-677daec9b10f">SetErrorRetryCount</a>
 </td>
 <td align="left" width="63%">
-Sets the display name of the task.
+Not currently implemented.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e2a05786-fa4f-4e0e-b30d-f2391b081d6c">put_RequiredNodes</a>
+<a href="https://msdn.microsoft.com/e5923d76-50d0-4d1c-9d80-0b7cbd8ee3d7">SetErrorRetryInterval</a>
 </td>
 <td align="left" width="63%">
-Sets the list of required nodes for the task.
+Not currently implemented.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/78986f48-31ee-4699-b0a1-9877dfc4cfaa">put_Runtime</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556703">SetFlags</a>
 </td>
 <td align="left" width="63%">
-Sets the run-time limit for the task.
+Sets the flags that modify the behavior of the work item.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6b80c4fc-ec41-44fc-887d-5663bebd7edb">put_Stderr</a>
+<a href="https://msdn.microsoft.com/f7ad639a-4094-4621-9add-b89958c0bda4">SetIdleWait</a>
 </td>
 <td align="left" width="63%">
-Redirects standard error to the specified file.
+Sets the <a href="i.htm">idle wait time</a> for the work item.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f7fa3615-d6a9-4a73-bfbb-afe4035186d1">put_Stdin</a>
+<a href="https://msdn.microsoft.com/fb9012c6-be41-4ec6-bb1a-73bd7896738f">SetMaxRunTime</a>
 </td>
 <td align="left" width="63%">
-Redirects standard input to the specified file.
+Sets the maximum length of time the task can run.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/abeece55-2c5c-4335-b0ce-71cd9c432455">put_Stdout</a>
+<a href="https://msdn.microsoft.com/094dcd8f-35aa-4300-b58d-c846bca1c88c">SetParameters</a>
 </td>
 <td align="left" width="63%">
-Redirects standard output to the specified file.
+Sets the command-line parameters for the task.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/da34830b-62c0-484d-a20c-2800fd6dc05f">put_WorkDirectory</a>
+<a href="https://msdn.microsoft.com/f72e5fb8-761e-41bd-be64-b886ebc2c1e5">SetPriority</a>
 </td>
 <td align="left" width="63%">
-Sets the startup directory for the task.
+Sets the priority for the task.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/04bcb160-5e8b-4364-b80b-b90a84f7ee9c">SetEnvironmentVariable</a>
+<a href="https://msdn.microsoft.com/32231145-241a-46ff-9c49-94f5bf7cc532">SetTaskFlags</a>
 </td>
 <td align="left" width="63%">
-Sets the task-specific environment variable.
+Sets the flags that modify the behavior of the task.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4edf71ac-2a13-4e00-b554-bf003a0476d1">SetExtendedTaskTerm</a>
+<a href="https://msdn.microsoft.com/df12d899-c254-4bbf-a49f-d89a2fcb0e28">SetWorkingDirectory</a>
 </td>
 <td align="left" width="63%">
-Sets the application-defined extended term for the task.
+Sets the working directory for the task.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/9135b37a-d9f8-4bee-a851-9daca6dc733c">SetWorkItemData</a>
+</td>
+<td align="left" width="63%">
+Stores application-defined data associated with the work item.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/8ea2144b-4f51-41db-8eaf-50da83967ea5">Terminate</a>
+</td>
+<td align="left" width="63%">
+Ends the execution of the work item.
 
 </td>
 </tr>
 </table> 
+
+
+## -remarks
+
+
+
+<b>ITask</b> is the primary interface of the <a href="t.htm">task trigger object</a>. To create a task object, call 
+<a href="https://msdn.microsoft.com/27391e34-8632-4ab5-9d6e-d2fde7942f80">ITaskScheduler::Activate</a> for existing tasks or 
+<a href="https://msdn.microsoft.com/1fbd65ae-0b54-4175-bf26-4226b1aabdc1">ITaskScheduler::NewWorkItem</a> for new tasks.
+
+
+#### Examples
+
+For more information and example code for this interface, see <a href="https://msdn.microsoft.com/2131b966-6179-4a80-a3f1-ebb8967a7a90">C/C++ Code Example: Terminating a Task</a>.
+
+<div class="code"></div>
+
 
 
 ## -see-also
@@ -429,11 +465,15 @@ Sets the application-defined extended term for the task.
 
 
 
-<a href="https://msdn.microsoft.com/12ee3ff7-ea46-43a3-9ee8-4b04ed88ac0d">CCP Interfaces</a>
+<a href="https://msdn.microsoft.com/e668833a-094d-4504-90a0-87912a6a53c2">IScheduledWorkItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/973ac354-175b-4497-9b02-46b8f9feabc4">Jobs and Tasks</a>
+<a href="https://msdn.microsoft.com/27391e34-8632-4ab5-9d6e-d2fde7942f80">ITaskScheduler::Activate</a>
+
+
+
+<a href="https://msdn.microsoft.com/1fbd65ae-0b54-4175-bf26-4226b1aabdc1">ITaskScheduler::NewWorkItem</a>
  
 
  

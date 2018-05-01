@@ -7,7 +7,7 @@ old-location: security\pfnisfilesupported.htm
 old-project: SecCrypto
 ms.assetid: cf12d057-328a-4975-b7e5-842c4ea2e760
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: mssip/pfnIsFileSupported, pfnIsFileSupported, pfnIsFileSupported function pointer [Security], security.pfnisfilesupported
 ms.prod: windows-hardware
 ms.technology: windows-devices

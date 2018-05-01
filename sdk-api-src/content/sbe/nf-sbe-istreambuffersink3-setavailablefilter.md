@@ -7,7 +7,7 @@ old-location: mstv\istreambuffersink3_setavailablefilter.htm
 old-project: mstv
 ms.assetid: 81822768-f627-4324-815f-51d06b4bd7b3
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IStreamBufferSink3, IStreamBufferSink3 interface [Microsoft TV Technologies], SetAvailableFilter method, IStreamBufferSink3::SetAvailableFilter, IStreamBufferSink3SetAvailableFilter, SetAvailableFilter method [Microsoft TV Technologies], SetAvailableFilter method [Microsoft TV Technologies], IStreamBufferSink3 interface, SetAvailableFilter,IStreamBufferSink3.SetAvailableFilter, mstv.istreambuffersink3_setavailablefilter, sbe/IStreamBufferSink3::SetAvailableFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IStreamBufferSink3::SetAvailableFilter method

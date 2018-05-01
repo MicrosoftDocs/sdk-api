@@ -7,7 +7,7 @@ old-location: mf\imfratesupport_isratesupported.htm
 old-project: medfound
 ms.assetid: 3ac04683-17d3-4d87-b260-39b04eab9e59
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 3ac04683-17d3-4d87-b260-39b04eab9e59, IMFRateSupport, IMFRateSupport interface [Media Foundation], IsRateSupported method, IMFRateSupport::IsRateSupported, IsRateSupported method [Media Foundation], IsRateSupported method [Media Foundation], IMFRateSupport interface, IsRateSupported,IMFRateSupport.IsRateSupported, mf.imfratesupport_isratesupported, mfidl/IMFRateSupport::IsRateSupported
 ms.prod: windows-hardware
 ms.technology: windows-devices

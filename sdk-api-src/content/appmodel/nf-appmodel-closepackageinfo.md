@@ -7,7 +7,7 @@ old-location: appxpkg\closepackageinfo.htm
 old-project: appxpkg
 ms.assetid: BA84FB47-F241-4120-9441-7E1149F68738
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/26/2018
 ms.keywords: ClosePackageInfo, ClosePackageInfo function [App packaging and management], appmodel/ClosePackageInfo, appxpkg.closepackageinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

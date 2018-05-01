@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3ddevice9__setrendertarget.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__setrendertarget.htm
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/10/2018
 ms.keywords: 8a35c59a-95b2-ac1b-0fde-a907c6a0b520, IDirect3DDevice9, IDirect3DDevice9 interface [Direct3D 9], SetRenderTarget method, IDirect3DDevice9::SetRenderTarget, SetRenderTarget method [Direct3D 9], SetRenderTarget method [Direct3D 9], IDirect3DDevice9 interface, SetRenderTarget,IDirect3DDevice9.SetRenderTarget, d3d9helper/IDirect3DDevice9::SetRenderTarget, direct3d9.idirect3ddevice9__setrendertarget
 ms.prod: windows-hardware
 ms.technology: windows-devices

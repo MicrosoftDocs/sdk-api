@@ -7,7 +7,7 @@ old-location: mstv\ibda_transportstreaminfo.htm
 old-project: mstv
 ms.assetid: c5f37790-f276-41a5-b5bd-7d8c7a7f587f
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IBDA_TransportStreamInfo, IBDA_TransportStreamInfo interface [Microsoft TV Technologies], IBDA_TransportStreamInfo interface [Microsoft TV Technologies], described, IBDA_TransportStreamInfoInterface, bdaiface/IBDA_TransportStreamInfo, mstv.ibda_transportstreaminfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

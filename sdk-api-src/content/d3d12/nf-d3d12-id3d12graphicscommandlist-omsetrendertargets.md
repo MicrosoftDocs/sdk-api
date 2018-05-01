@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist_omsetrendertargets.htm
 old-project: direct3d12
 ms.assetid: FE565AA2-FA34-4824-870E-9C4C7C19C93C
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: ID3D12GraphicsCommandList, ID3D12GraphicsCommandList interface, OMSetRenderTargets method, ID3D12GraphicsCommandList::OMSetRenderTargets, OMSetRenderTargets method, OMSetRenderTargets method, ID3D12GraphicsCommandList interface, OMSetRenderTargets,ID3D12GraphicsCommandList.OMSetRenderTargets, d3d12/ID3D12GraphicsCommandList::OMSetRenderTargets, direct3d12.id3d12graphicscommandlist_omsetrendertargets
 ms.prod: windows-hardware
 ms.technology: windows-devices

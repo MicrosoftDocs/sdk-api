@@ -7,7 +7,7 @@ old-location: appxpkg\getpackagefullnamefromtoken.htm
 old-project: appxpkg
 ms.assetid: 7B0D574E-A2F5-4D08-AEFB-9E040BBC729F
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/26/2018
 ms.keywords: GetPackageFullNameFromToken, GetPackageFullNameFromToken function [App packaging and management], appmodel/GetPackageFullNameFromToken, appxpkg.getpackagefullnamefromtoken
 ms.prod: windows-hardware
 ms.technology: windows-devices

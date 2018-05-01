@@ -7,7 +7,7 @@ old-location: shell\StrToInt.htm
 old-project: shell
 ms.assetid: 74313e56-a820-4d02-91f4-f629d2fc72d4
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: StrToInt, StrToInt function [Windows Shell], StrToIntA, StrToIntW, _win32_StrToInt, shell.StrToInt, shlwapi/StrToInt, shlwapi/StrToIntA, shlwapi/StrToIntW
 ms.prod: windows-hardware
 ms.technology: windows-devices

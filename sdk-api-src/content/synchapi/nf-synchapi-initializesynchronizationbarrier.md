@@ -7,7 +7,7 @@ old-location: base\initializesynchronizationbarrier.htm
 old-project: Sync
 ms.assetid: f69934a1-ee1f-4400-ae3e-cb9a19feff93
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: InitializeSynchronizationBarrier, InitializeSynchronizationBarrier function, base.initializesynchronizationbarrier, synchapi/InitializeSynchronizationBarrier
 ms.prod: windows-hardware
 ms.technology: windows-devices

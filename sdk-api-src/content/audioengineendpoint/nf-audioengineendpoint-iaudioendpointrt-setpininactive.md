@@ -7,7 +7,7 @@ old-location: termserv\iaudioendpointrt_setpininactive.htm
 old-project: TermServ
 ms.assetid: 07062063-cae1-4517-aeed-fb73ec602b27
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: IAudioEndpointRT, IAudioEndpointRT interface [Remote Desktop Services], SetPinInactive method, IAudioEndpointRT::SetPinInactive, SetPinInactive method [Remote Desktop Services], SetPinInactive method [Remote Desktop Services], IAudioEndpointRT interface, SetPinInactive,IAudioEndpointRT.SetPinInactive, audioengineendpoint/IAudioEndpointRT::SetPinInactive, termserv.iaudioendpointrt_setpininactive
 ms.prod: windows-hardware
 ms.technology: windows-devices

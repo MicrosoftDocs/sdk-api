@@ -7,7 +7,7 @@ old-location: security\ix509scepenrollment_signercertificate.htm
 old-project: SecCertEnroll
 ms.assetid: 7d01acc5-158d-4429-a2e8-d179571f9a1c
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: IX509SCEPEnrollment, IX509SCEPEnrollment interface [Security], SignerCertificate property, IX509SCEPEnrollment.SignerCertificate, IX509SCEPEnrollment::get_SignerCertificate, IX509SCEPEnrollment::put_SignerCertificate, SignerCertificate property [Security], SignerCertificate property [Security], IX509SCEPEnrollment interface, certenroll/IX509SCEPEnrollment::SignerCertificate, certenroll/IX509SCEPEnrollment::get_SignerCertificate, certenroll/IX509SCEPEnrollment::put_SignerCertificate, put_SignerCertificate,IX509SCEPEnrollment.put_SignerCertificate, security.ix509scepenrollment_signercertificate
 ms.prod: windows-hardware
 ms.technology: windows-devices

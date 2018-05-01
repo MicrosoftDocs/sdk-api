@@ -7,7 +7,7 @@ old-location: multimedia\icgetinfo.htm
 old-project: Multimedia
 ms.assetid: 763dc5ef-7578-44c8-ab14-0e49644213ef
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/25/2018
 ms.keywords: ICGetInfo, ICGetInfo function [Windows Multimedia], _win32_ICGetInfo, multimedia.icgetinfo, vfw/ICGetInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

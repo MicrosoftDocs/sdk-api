@@ -7,7 +7,7 @@ old-location: com\cofiletimenow.htm
 old-project: com
 ms.assetid: 00083429-1d61-4a0b-bb73-82158869466d
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: CoFileTimeNow, CoFileTimeNow function [COM], _com_CoFileTimeNow, com.cofiletimenow, combaseapi/CoFileTimeNow
 ms.prod: windows-hardware
 ms.technology: windows-devices

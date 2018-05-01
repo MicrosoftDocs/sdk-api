@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledeviceconnector_connect.htm
 old-project: wpd_sdk
 ms.assetid: 2bb5b124-3018-4619-bb8f-67fcfc8981d9
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/11/2018
 ms.keywords: Connect method [Windows Portable Devices SDK], Connect method [Windows Portable Devices SDK], IPortableDeviceConnector interface, Connect,IPortableDeviceConnector.Connect, IPortableDeviceConnector, IPortableDeviceConnector interface [Windows Portable Devices SDK], Connect method, IPortableDeviceConnector::Connect, devpkey/IPortableDeviceConnector::Connect, portabledeviceconnectapi/IPortableDeviceConnector::Connect, wpdsdk.iportabledeviceconnector_connect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: WPD_WHITE_BALANCE_SETTINGS
+req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: PortableDeviceGuids.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IPortableDeviceConnector::Connect method

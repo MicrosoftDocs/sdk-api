@@ -7,7 +7,7 @@ old-location: mstv\itsdt_initialize.htm
 old-project: mstv
 ms.assetid: 6682de14-50a8-48be-839f-b15824c1dd6e
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: ITSDT, ITSDT interface [Microsoft TV Technologies], Initialize method, ITSDT::Initialize, ITSDTInitialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies], ITSDT interface, Initialize,ITSDT.Initialize, mpeg2psiparser/ITSDT::Initialize, mstv.itsdt_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

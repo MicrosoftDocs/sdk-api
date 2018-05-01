@@ -7,7 +7,7 @@ old-location: winsock\wsathreadid_2.htm
 old-project: WinSock
 ms.assetid: eeea1139-1d14-4f53-bd64-833539b53bed
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/24/2018
 ms.keywords: "*LPWSATHREADID, LPWSATHREADID, LPWSATHREADID structure pointer [Winsock], WSATHREADID, WSATHREADID structure [Winsock], _WSATHREADID, _win32_wsathreadid_2, winsock.wsathreadid_2, ws2spi/LPWSATHREADID, ws2spi/WSATHREADID"
 ms.prod: windows-hardware
 ms.technology: windows-devices

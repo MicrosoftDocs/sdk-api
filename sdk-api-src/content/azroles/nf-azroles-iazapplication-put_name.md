@@ -7,7 +7,7 @@ old-location: security\iazapplication_name.htm
 old-project: SecAuthZ
 ms.assetid: f94a902a-9187-486c-9442-6defa9893532
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: AzApplication object [Security], Name property, IAzApplication, IAzApplication interface [Security], Name property, IAzApplication.Name, IAzApplication::get_Name, IAzApplication::put_Name, Name property [Security], Name property [Security], AzApplication object, Name property [Security], IAzApplication interface, azroles/IAzApplication::Name, azroles/IAzApplication::get_Name, azroles/IAzApplication::put_Name, put_Name,IAzApplication.put_Name, security.iazapplication_name
 ms.prod: windows-hardware
 ms.technology: windows-devices

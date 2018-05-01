@@ -7,7 +7,7 @@ old-location: mf\imfasfstreamconfig_getstreamnumber.htm
 old-project: medfound
 ms.assetid: cc80fee6-e62c-4d38-9b83-8c7f21baf5b0
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetStreamNumber method [Media Foundation], GetStreamNumber method [Media Foundation], IMFASFStreamConfig interface, GetStreamNumber,IMFASFStreamConfig.GetStreamNumber, IMFASFStreamConfig, IMFASFStreamConfig interface [Media Foundation], GetStreamNumber method, IMFASFStreamConfig::GetStreamNumber, cc80fee6-e62c-4d38-9b83-8c7f21baf5b0, mf.imfasfstreamconfig_getstreamnumber, wmcontainer/IMFASFStreamConfig::GetStreamNumber
 ms.prod: windows-hardware
 ms.technology: windows-devices

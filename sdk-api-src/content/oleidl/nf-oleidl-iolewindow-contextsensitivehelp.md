@@ -7,7 +7,7 @@ old-location: com\iolewindow_contextsensitivehelp.htm
 old-project: com
 ms.assetid: 253f26c6-b5dd-4837-9135-96e11b4688c8
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: ContextSensitiveHelp method [COM], ContextSensitiveHelp method [COM], IOleWindow interface, ContextSensitiveHelp,IOleWindow.ContextSensitiveHelp, IOleInPlaceSiteWindowless.ContextSensitiveHelp, IOleWindow, IOleWindow interface [COM], ContextSensitiveHelp method, IOleWindow::ContextSensitiveHelp, _ole_iolewindow_contextsensitivehelp, com.iolewindow_contextsensitivehelp, oleidl/IOleWindow::ContextSensitiveHelp
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IOleWindow::ContextSensitiveHelp method

@@ -7,7 +7,7 @@ old-location: security\ix509signatureinformation_getsignaturealgorithm_method.ht
 old-project: SecCertEnroll
 ms.assetid: e5b43e74-d802-43ff-bdf2-96ab475c31e7
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: GetSignatureAlgorithm method [Security], GetSignatureAlgorithm method [Security], IX509SignatureInformation interface, GetSignatureAlgorithm,IX509SignatureInformation.GetSignatureAlgorithm, IX509SignatureInformation, IX509SignatureInformation interface [Security], GetSignatureAlgorithm method, IX509SignatureInformation::GetSignatureAlgorithm, certenroll/IX509SignatureInformation::GetSignatureAlgorithm, security.ix509signatureinformation_getsignaturealgorithm_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

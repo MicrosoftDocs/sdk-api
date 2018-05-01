@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmoperation.htm
 old-project: WMDM
 ms.assetid: 7277a8fe-3006-4456-b2e7-6041d3324f35
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: IWMDMOperation, IWMDMOperation interface [windows Media Device Manager], IWMDMOperation interface [windows Media Device Manager], described, IWMDMOperationInterface, mswmdm/IWMDMOperation, wmdm.iwmdmoperation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IWMDMOperation interface

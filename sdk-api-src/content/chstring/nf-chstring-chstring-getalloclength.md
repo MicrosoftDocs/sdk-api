@@ -7,7 +7,7 @@ old-location: wmi\chstring_getalloclength.htm
 old-project: WmiSdk
 ms.assetid: f6761c83-d5f2-4900-9863-96692fe897fa
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: "?GetAllocLength@CHString@@QBEHXZ, CHString, CHString interface [Windows Management Instrumentation], GetAllocLength method, CHString::GetAllocLength, GetAllocLength method [Windows Management Instrumentation], GetAllocLength method [Windows Management Instrumentation], CHString interface, GetAllocLength,CHString.GetAllocLength, _hmm_chstring_getalloclength, chstring/CHString::GetAllocLength, wmi.chstring_getalloclength"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CF_SYNC_ROOT_STANDARD_INFO
+req.typenames: CF_SYNC_STATUS
 topic_type:
 -	APIRef
 -	kbSyntax

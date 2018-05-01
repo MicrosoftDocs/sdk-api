@@ -7,7 +7,7 @@ old-location: mstv\iisdbdigitalcopycontroldescriptor_getlength.htm
 old-project: mstv
 ms.assetid: 3a0b5433-1681-4b2d-9436-9ed853da6a80
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies], IIsdbDigitalCopyControlDescriptor interface, GetLength,IIsdbDigitalCopyControlDescriptor.GetLength, IIsdbDigitalCopyControlDescriptor, IIsdbDigitalCopyControlDescriptor interface [Microsoft TV Technologies], GetLength method, IIsdbDigitalCopyControlDescriptor::GetLength, dvbsiparser/IIsdbDigitalCopyControlDescriptor::GetLength, mstv.iisdbdigitalcopycontroldescriptor_getlength
 ms.prod: windows-hardware
 ms.technology: windows-devices

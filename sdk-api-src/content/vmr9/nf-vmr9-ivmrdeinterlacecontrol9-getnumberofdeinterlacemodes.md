@@ -7,7 +7,7 @@ old-location: dshow\ivmrdeinterlacecontrol9_getnumberofdeinterlacemodes.htm
 old-project: DirectShow
 ms.assetid: 5d7d72f3-140c-4af4-8876-80a558575a57
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetNumberOfDeinterlaceModes method [DirectShow], GetNumberOfDeinterlaceModes method [DirectShow], IVMRDeinterlaceControl9 interface, GetNumberOfDeinterlaceModes,IVMRDeinterlaceControl9.GetNumberOfDeinterlaceModes, IVMRDeinterlaceControl9, IVMRDeinterlaceControl9 interface [DirectShow], GetNumberOfDeinterlaceModes method, IVMRDeinterlaceControl9::GetNumberOfDeinterlaceModes, IVMRDeinterlaceControl9GetNumberOfDeinterlaceModes, dshow.ivmrdeinterlacecontrol9_getnumberofdeinterlacemodes, vmr9/IVMRDeinterlaceControl9::GetNumberOfDeinterlaceModes
 ms.prod: windows-hardware
 ms.technology: windows-devices

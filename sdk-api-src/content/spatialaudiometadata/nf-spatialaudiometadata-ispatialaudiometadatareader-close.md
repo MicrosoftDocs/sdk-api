@@ -7,7 +7,7 @@ old-location: coreaudio\ispatialaudiometadatareader_close.htm
 old-project: CoreAudio
 ms.assetid: A9E878E8-A319-4DB3-86A7-4499EDA567F7
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: Close method [Core Audio], Close method [Core Audio], ISpatialAudioMetadataReader interface, Close,ISpatialAudioMetadataReader.Close, ISpatialAudioMetadataReader, ISpatialAudioMetadataReader interface [Core Audio], Close method, ISpatialAudioMetadataReader::Close, coreaudio.ispatialaudiometadatareader_close, spatialaudiometadata/ISpatialAudioMetadataReader::Close
 ms.prod: windows-hardware
 ms.technology: windows-devices

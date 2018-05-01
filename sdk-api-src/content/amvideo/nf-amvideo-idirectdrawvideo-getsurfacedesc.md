@@ -7,7 +7,7 @@ old-location: dshow\idirectdrawvideo_getsurfacedesc.htm
 old-project: DirectShow
 ms.assetid: f3884dbf-c75c-45f7-953c-bfdc14734820
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetSurfaceDesc method [DirectShow], GetSurfaceDesc method [DirectShow], IDirectDrawVideo interface, GetSurfaceDesc,IDirectDrawVideo.GetSurfaceDesc, IDirectDrawVideo, IDirectDrawVideo interface [DirectShow], GetSurfaceDesc method, IDirectDrawVideo::GetSurfaceDesc, IDirectDrawVideoGetSurfaceDesc, amvideo/IDirectDrawVideo::GetSurfaceDesc, dshow.idirectdrawvideo_getsurfacedesc
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct3dhlsl\d3ddecompressshaders.htm
 old-project: direct3dhlsl
 ms.assetid: 9b62026f-0658-405c-8f45-ee921213148a
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/12/2018
 ms.keywords: D3DDecompressShaders, D3DDecompressShaders function [HLSL], d3dcompiler/D3DDecompressShaders, direct3dhlsl.d3ddecompressshaders
 ms.prod: windows-hardware
 ms.technology: windows-devices

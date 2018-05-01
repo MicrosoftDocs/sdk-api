@@ -7,7 +7,7 @@ old-location: security\bcryptbuffer.htm
 old-project: SecCNG
 ms.assetid: abfc82f0-ec1c-41fb-8bf4-422a839d50c5
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: "*PBCryptBuffer, BCryptBuffer, BCryptBuffer structure [Security], KDF_ALGORITHMID, KDF_CONTEXT, KDF_HASH_ALGORITHM, KDF_HMAC_KEY, KDF_ITERATION_COUNT, KDF_LABEL, KDF_PARTYUINFO, KDF_PARTYVINFO, KDF_SALT, KDF_SECRET_APPEND, KDF_SECRET_HANDLE, KDF_SECRET_PREPEND, KDF_SUPPPRIVINFO, KDF_SUPPPUBINFO, KDF_TLS_PRF_LABEL, KDF_TLS_PRF_PROTOCOL, KDF_TLS_PRF_SEED, PBCryptBuffer, PBCryptBuffer structure pointer [Security], _BCryptBuffer, bcrypt/BCryptBuffer, bcrypt/PBCryptBuffer, security.bcryptbuffer"
 ms.prod: windows-hardware
 ms.technology: windows-devices

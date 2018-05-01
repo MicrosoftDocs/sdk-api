@@ -7,7 +7,7 @@ old-location: dshow\iselector_put_sourcenodeid.htm
 old-project: DirectShow
 ms.assetid: 6cf6a406-eeb8-45ba-9c4c-0fdc6d6a30cf
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ISelector, ISelector interface [DirectShow], put_SourceNodeId method, ISelector::put_SourceNodeId, ISelectorput_SourceNodeId, dshow.iselector_put_sourcenodeid, put_SourceNodeId method [DirectShow], put_SourceNodeId method [DirectShow], ISelector interface, put_SourceNodeId,ISelector.put_SourceNodeId, vidcap/ISelector::put_SourceNodeId
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: VIDEOHDR, *PVIDEOHDR, *LPVIDEOHDR
+req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
 topic_type:
 -	APIRef
 -	kbSyntax

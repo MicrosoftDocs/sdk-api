@@ -7,7 +7,7 @@ old-location: mstv\imsvidaudiorendererevent2_avaudiosamplerate.htm
 old-project: mstv
 ms.assetid: a8654fd1-4843-4489-ba43-444912107ca2
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: AVAudioSampleRate method [Microsoft TV Technologies], AVAudioSampleRate method [Microsoft TV Technologies], IMSVidAudioRendererEvent2 interface, AVAudioSampleRate,IMSVidAudioRendererEvent2.AVAudioSampleRate, IMSVidAudioRendererEvent2, IMSVidAudioRendererEvent2 interface [Microsoft TV Technologies], AVAudioSampleRate method, IMSVidAudioRendererEvent2::AVAudioSampleRate, mstv.imsvidaudiorendererevent2_avaudiosamplerate, segment/IMSVidAudioRendererEvent2::AVAudioSampleRate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidAudioRendererEvent2::AVAudioSampleRate method

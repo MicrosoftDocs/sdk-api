@@ -7,7 +7,7 @@ old-location: automat\varui4fromdate.htm
 old-project: automat
 ms.assetid: 838b2e35-f00d-4962-8863-5619589073fb
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: VarUI4FromDate, VarUI4FromDate function [Automation], _oa96_VarUI4FromDate, automat.varui4fromdate, oleauto/VarUI4FromDate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # VarUI4FromDate function

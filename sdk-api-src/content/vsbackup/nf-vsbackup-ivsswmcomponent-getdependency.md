@@ -7,7 +7,7 @@ old-location: base\ivsswmcomponent_getdependency.htm
 old-project: VSS
 ms.assetid: ead9ff63-15dc-4fcc-b341-85ad9c3eabb7
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: GetDependency method [VSS], GetDependency method [VSS], IVssWMComponent interface, GetDependency,IVssWMComponent.GetDependency, IVssWMComponent, IVssWMComponent interface [VSS], GetDependency method, IVssWMComponent::GetDependency, _win32_ivsswmcomponent_getdependency, base.ivsswmcomponent_getdependency, vsbackup/IVssWMComponent::GetDependency
 ms.prod: windows-hardware
 ms.technology: windows-devices

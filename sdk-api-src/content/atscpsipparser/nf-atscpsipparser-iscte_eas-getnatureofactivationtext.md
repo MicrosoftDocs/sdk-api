@@ -7,7 +7,7 @@ old-location: mstv\iscte_eas_getnatureofactivationtext.htm
 old-project: mstv
 ms.assetid: 36cb57f1-b894-4c41-b555-db15f8dbe516
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetNatureOfActivationText method [Microsoft TV Technologies], GetNatureOfActivationText method [Microsoft TV Technologies], ISCTE_EAS interface, GetNatureOfActivationText,ISCTE_EAS.GetNatureOfActivationText, ISCTE_EAS, ISCTE_EAS interface [Microsoft TV Technologies], GetNatureOfActivationText method, ISCTE_EAS::GetNatureOfActivationText, ISCTE_EASGetNatureOfActivationText, atscpsipparser/ISCTE_EAS::GetNatureOfActivationText, mstv.iscte_eas_getnatureofactivationtext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_WRITER_PAYLOAD_STREAM
+req.typenames: AsyncStatus
 topic_type:
 -	APIRef
 -	kbSyntax

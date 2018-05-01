@@ -7,7 +7,7 @@ old-location: mstv\imsvidstreambuffersource2_put_rateex.htm
 old-project: mstv
 ms.assetid: b213ad08-8a72-4b4a-bffa-b68783693340
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidStreamBufferSource2, IMSVidStreamBufferSource2 interface [Microsoft TV Technologies], put_RateEx method, IMSVidStreamBufferSource2::put_RateEx, IMSVidStreamBufferSource2put_RateEx, mstv.imsvidstreambuffersource2_put_rateex, put_RateEx method [Microsoft TV Technologies], put_RateEx method [Microsoft TV Technologies], IMSVidStreamBufferSource2 interface, put_RateEx,IMSVidStreamBufferSource2.put_RateEx, segment/IMSVidStreamBufferSource2::put_RateEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidStreamBufferSource2::put_RateEx method

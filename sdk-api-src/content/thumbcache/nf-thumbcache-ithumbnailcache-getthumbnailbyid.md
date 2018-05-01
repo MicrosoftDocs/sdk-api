@@ -7,7 +7,7 @@ old-location: shell\IThumbnailCache_GetThumbnailByID.htm
 old-project: shell
 ms.assetid: 3b5069e2-f20b-4c43-a9e7-334366980f5c
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetThumbnailByID method [Windows Shell], GetThumbnailByID method [Windows Shell], IThumbnailCache interface, GetThumbnailByID,IThumbnailCache.GetThumbnailByID, IThumbnailCache, IThumbnailCache interface [Windows Shell], GetThumbnailByID method, IThumbnailCache::GetThumbnailByID, WTS_CACHED, WTS_DEFAULT, WTS_LOWQUALITY, _shell__GetThumbnailByID, shell.IThumbnailCache_GetThumbnailByID, thumbcache/IThumbnailCache::GetThumbnailByID
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: termserv\iwrdsprotocolconnection_createvirtualchannel.htm
 old-project: TermServ
 ms.assetid: c0302081-06af-44af-a9ed-936d705e711b
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: CreateVirtualChannel method [Remote Desktop Services], CreateVirtualChannel method [Remote Desktop Services], IWRdsProtocolConnection interface, CreateVirtualChannel,IWRdsProtocolConnection.CreateVirtualChannel, FALSE, IWRdsProtocolConnection, IWRdsProtocolConnection interface [Remote Desktop Services], CreateVirtualChannel method, IWRdsProtocolConnection::CreateVirtualChannel, TRUE, termserv.iwrdsprotocolconnection_createvirtualchannel, wtsprotocol/IWRdsProtocolConnection::CreateVirtualChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices

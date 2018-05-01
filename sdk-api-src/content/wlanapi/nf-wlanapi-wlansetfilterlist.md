@@ -7,7 +7,7 @@ old-location: nwifi\wlansetfilterlist.htm
 old-project: NativeWiFi
 ms.assetid: 697682c9-cb26-42d6-86b5-d7adebcedc68
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/13/2018
 ms.keywords: WlanSetFilterList, WlanSetFilterList function [NativeWIFI], nwifi.wlansetfilterlist, wlanapi/WlanSetFilterList
 ms.prod: windows-hardware
 ms.technology: windows-devices

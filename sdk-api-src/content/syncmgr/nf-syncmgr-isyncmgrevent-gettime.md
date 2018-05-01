@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrEvent_GetTime.htm
 old-project: shell
 ms.assetid: 1cfe8555-4c63-443a-b3da-e671f8e343d4
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetTime method [Windows Shell], GetTime method [Windows Shell], ISyncMgrEvent interface, GetTime,ISyncMgrEvent.GetTime, ISyncMgrEvent, ISyncMgrEvent interface [Windows Shell], GetTime method, ISyncMgrEvent::GetTime, _shell_ISyncMgrEvent_GetTime, shell.ISyncMgrEvent_GetTime, syncmgr/ISyncMgrEvent::GetTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

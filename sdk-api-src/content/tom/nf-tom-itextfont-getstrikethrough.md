@@ -7,7 +7,7 @@ old-location: controls\ITextFont_GetStrikeThrough.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getstrikethrough.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: GetStrikeThrough method [Windows Controls], GetStrikeThrough method [Windows Controls], ITextFont interface, GetStrikeThrough,ITextFont.GetStrikeThrough, ITextFont, ITextFont interface [Windows Controls], GetStrikeThrough method, ITextFont::GetStrikeThrough, _win32_ITextFont_GetStrikeThrough, _win32_ITextFont_GetStrikeThrough_cpp, controls.ITextFont_GetStrikeThrough, controls._win32_ITextFont_GetStrikeThrough, tom/ITextFont::GetStrikeThrough
 ms.prod: windows-hardware
 ms.technology: windows-devices

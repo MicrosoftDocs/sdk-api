@@ -7,7 +7,7 @@ old-location: direct3d11\d3dx11createsegmentedscan.htm
 old-project: direct3d11
 ms.assetid: f8906357-57d8-4e57-a120-2ac28fad2288
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/6/2018
 ms.keywords: 6b834305-1925-9f3d-ee71-8dc858a331c0, D3DX11CreateSegmentedScan, D3DX11CreateSegmentedScan function [Direct3D 11], d3dcsx/D3DX11CreateSegmentedScan, direct3d11.d3dx11createsegmentedscan
 ms.prod: windows-hardware
 ms.technology: windows-devices

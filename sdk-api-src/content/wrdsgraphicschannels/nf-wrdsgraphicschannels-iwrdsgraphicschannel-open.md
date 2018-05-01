@@ -7,7 +7,7 @@ old-location: termserv\iwrdsgraphicschannel_open.htm
 old-project: TermServ
 ms.assetid: 3b32b37f-6b1f-4682-9e2e-4a64e5c36e04
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: IWRdsGraphicsChannel, IWRdsGraphicsChannel interface [Remote Desktop Services], Open method, IWRdsGraphicsChannel::Open, Open method [Remote Desktop Services], Open method [Remote Desktop Services], IWRdsGraphicsChannel interface, Open,IWRdsGraphicsChannel.Open, termserv.iwrdsgraphicschannel_open, wrdsgraphicschannels/IWRdsGraphicsChannel::Open
 ms.prod: windows-hardware
 ms.technology: windows-devices

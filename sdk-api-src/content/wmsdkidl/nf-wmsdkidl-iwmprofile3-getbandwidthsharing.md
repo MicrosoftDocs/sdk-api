@@ -7,7 +7,7 @@ old-location: wmformat\iwmprofile3_getbandwidthsharing.htm
 old-project: wmformat
 ms.assetid: be66ff8b-c883-4329-aaa4-e9549d0cbb9e
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: GetBandwidthSharing method [windows Media Format], GetBandwidthSharing method [windows Media Format], IWMProfile3 interface, GetBandwidthSharing,IWMProfile3.GetBandwidthSharing, IWMProfile3, IWMProfile3 interface [windows Media Format], GetBandwidthSharing method, IWMProfile3::GetBandwidthSharing, IWMProfile3GetBandwidthSharing, wmformat.iwmprofile3_getbandwidthsharing, wmsdkidl/IWMProfile3::GetBandwidthSharing
 ms.prod: windows-hardware
 ms.technology: windows-devices

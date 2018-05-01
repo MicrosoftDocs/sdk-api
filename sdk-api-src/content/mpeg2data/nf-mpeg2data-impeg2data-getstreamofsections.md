@@ -7,7 +7,7 @@ old-location: mstv\impeg2data_getstreamofsections.htm
 old-project: mstv
 ms.assetid: 896080ff-cdf0-40b1-ba4e-d94de527d86e
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetStreamOfSections method [Microsoft TV Technologies], GetStreamOfSections method [Microsoft TV Technologies], IMpeg2Data interface, GetStreamOfSections,IMpeg2Data.GetStreamOfSections, IMpeg2Data, IMpeg2Data interface [Microsoft TV Technologies], GetStreamOfSections method, IMpeg2Data::GetStreamOfSections, IMpeg2DataGetStreamOfSections, mpeg2data/IMpeg2Data::GetStreamOfSections, mstv.impeg2data_getstreamofsections
 ms.prod: windows-hardware
 ms.technology: windows-devices

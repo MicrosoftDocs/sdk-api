@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol2_showmenu.htm
 old-project: DirectShow
 ms.assetid: 7427ff6c-875b-40ce-aa96-3d32b607dc56
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IDvdControl2, IDvdControl2 interface [DirectShow], ShowMenu method, IDvdControl2::ShowMenu, IDvdControl2ShowMenu, ShowMenu method [DirectShow], ShowMenu method [DirectShow], IDvdControl2 interface, ShowMenu,IDvdControl2.ShowMenu, dshow.idvdcontrol2_showmenu, strmif/IDvdControl2::ShowMenu
 ms.prod: windows-hardware
 ms.technology: windows-devices

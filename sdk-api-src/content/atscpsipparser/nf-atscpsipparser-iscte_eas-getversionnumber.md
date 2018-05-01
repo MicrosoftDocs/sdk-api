@@ -7,7 +7,7 @@ old-location: mstv\iscte_eas_getversionnumber.htm
 old-project: mstv
 ms.assetid: b2108435-37ef-404c-b735-a5100acfa8a4
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetVersionNumber method [Microsoft TV Technologies], GetVersionNumber method [Microsoft TV Technologies], ISCTE_EAS interface, GetVersionNumber,ISCTE_EAS.GetVersionNumber, ISCTE_EAS, ISCTE_EAS interface [Microsoft TV Technologies], GetVersionNumber method, ISCTE_EAS::GetVersionNumber, ISCTE_EASGetVersionNumber, atscpsipparser/ISCTE_EAS::GetVersionNumber, mstv.iscte_eas_getversionnumber
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_WRITER_PAYLOAD_STREAM
+req.typenames: AsyncStatus
 topic_type:
 -	APIRef
 -	kbSyntax

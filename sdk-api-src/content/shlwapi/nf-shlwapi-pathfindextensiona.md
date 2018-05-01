@@ -7,7 +7,7 @@ old-location: shell\PathFindExtension.htm
 old-project: shell
 ms.assetid: afebd4b7-2685-4b6e-8f8a-d43944dacef5
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: PathFindExtension, PathFindExtension function [Windows Shell], PathFindExtensionA, PathFindExtensionW, _win32_PathFindExtension, shell.PathFindExtension, shlwapi/PathFindExtension, shlwapi/PathFindExtensionA, shlwapi/PathFindExtensionW
 ms.prod: windows-hardware
 ms.technology: windows-devices

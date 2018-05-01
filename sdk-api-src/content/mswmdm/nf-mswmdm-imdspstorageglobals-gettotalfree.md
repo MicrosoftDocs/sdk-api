@@ -7,7 +7,7 @@ old-location: wmdm\imdspstorageglobals_gettotalfree.htm
 old-project: WMDM
 ms.assetid: 141b33e8-5cb5-46a8-b91e-01bd9c634cbf
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: GetTotalFree method [windows Media Device Manager], GetTotalFree method [windows Media Device Manager], IMDSPStorageGlobals interface, GetTotalFree,IMDSPStorageGlobals.GetTotalFree, IMDSPStorageGlobals, IMDSPStorageGlobals interface [windows Media Device Manager], GetTotalFree method, IMDSPStorageGlobals::GetTotalFree, IMDSPStorageGlobalsGetTotalFree, mswmdm/IMDSPStorageGlobals::GetTotalFree, wmdm.imdspstorageglobals_gettotalfree
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMDSPStorageGlobals::GetTotalFree method

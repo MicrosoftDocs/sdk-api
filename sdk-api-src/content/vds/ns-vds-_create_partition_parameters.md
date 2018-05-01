@@ -60,6 +60,9 @@ Defines the partition parameters of a partition style.
 
 
 
+### -field style
+
+
 ### -field MbrPartInfo
 
 Parameters for a Master Boot Record (MBR) disk. Used if <b>style</b> is 
@@ -512,9 +515,6 @@ Do not set this attribute for dynamic disks. Setting it can cause I/O errors and
 ### -field GptPartInfo.name
 
 Null-terminated Unicode string that specifies the name of the partition.
-
-
-### -field style
 
 
 ## -remarks

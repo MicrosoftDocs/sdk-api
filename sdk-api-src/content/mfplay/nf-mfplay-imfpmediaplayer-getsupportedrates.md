@@ -7,7 +7,7 @@ old-location: mf\imfpmediaplayer_getsupportedrates.htm
 old-project: medfound
 ms.assetid: e0e738e4-b8e4-41da-8b74-74ce06f17274
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetSupportedRates method [Media Foundation], GetSupportedRates method [Media Foundation], IMFPMediaPlayer interface, GetSupportedRates,IMFPMediaPlayer.GetSupportedRates, IMFPMediaPlayer, IMFPMediaPlayer interface [Media Foundation], GetSupportedRates method, IMFPMediaPlayer::GetSupportedRates, mf.imfpmediaplayer_getsupportedrates, mfplay/IMFPMediaPlayer::GetSupportedRates
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: ics\inetsharingmanager_get_enumprivateconnections.htm
 old-project: ICS
 ms.assetid: cb770e91-0d85-4f67-b7a1-8cc6e89620eb
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: INetSharingManager, INetSharingManager interface [ICS/ICF], get_EnumPrivateConnections method, INetSharingManager::get_EnumPrivateConnections, _ics_inetsharingmanager_get_enumprivateconnections, get_EnumPrivateConnections method [ICS/ICF], get_EnumPrivateConnections method [ICS/ICF], INetSharingManager interface, get_EnumPrivateConnections,INetSharingManager.get_EnumPrivateConnections, ics.inetsharingmanager_get_enumprivateconnections, netcon/INetSharingManager::get_EnumPrivateConnections
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # INetSharingManager::get_EnumPrivateConnections method

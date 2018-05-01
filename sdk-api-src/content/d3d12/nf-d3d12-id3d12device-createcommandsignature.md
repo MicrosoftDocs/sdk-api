@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device_createcommandsignature.htm
 old-project: direct3d12
 ms.assetid: 5A44F907-C6E0-4548-A227-84F0CF2EE837
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: CreateCommandSignature method, CreateCommandSignature method, ID3D12Device interface, CreateCommandSignature,ID3D12Device.CreateCommandSignature, ID3D12Device, ID3D12Device interface, CreateCommandSignature method, ID3D12Device::CreateCommandSignature, d3d12/ID3D12Device::CreateCommandSignature, direct3d12.id3d12device_createcommandsignature
 ms.prod: windows-hardware
 ms.technology: windows-devices

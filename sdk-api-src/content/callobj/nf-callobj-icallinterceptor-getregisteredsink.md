@@ -7,7 +7,7 @@ old-location: com\icallinterceptor_getregisteredsink.htm
 old-project: com
 ms.assetid: 65f33bc3-9fcb-4ad5-908d-3ac06b9f8c6c
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: GetRegisteredSink method [COM], GetRegisteredSink method [COM], ICallInterceptor interface, GetRegisteredSink,ICallInterceptor.GetRegisteredSink, ICallInterceptor, ICallInterceptor interface [COM], GetRegisteredSink method, ICallInterceptor::GetRegisteredSink, _com_icallinterceptor_getregisteredsink, callobj/ICallInterceptor::GetRegisteredSink, com.icallinterceptor_getregisteredsink
 ms.prod: windows-hardware
 ms.technology: windows-devices

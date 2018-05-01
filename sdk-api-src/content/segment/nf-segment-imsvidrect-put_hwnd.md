@@ -7,7 +7,7 @@ old-location: mstv\imsvidrect_put_hwnd.htm
 old-project: mstv
 ms.assetid: bbc7a6d0-2829-4fdb-89da-5ebb7fc803eb
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidRect, IMSVidRect interface [Microsoft TV Technologies], put_HWnd method, IMSVidRect::put_HWnd, IMSVidRectput_HWnd, mstv.imsvidrect_put_hwnd, put_HWnd method [Microsoft TV Technologies], put_HWnd method [Microsoft TV Technologies], IMSVidRect interface, put_HWnd,IMSVidRect.put_HWnd, segment/IMSVidRect::put_HWnd
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidRect::put_HWnd method

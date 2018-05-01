@@ -7,7 +7,7 @@ old-location: winauto\iaccpropservices_iaccpropservices__composehmenuidentitystr
 old-project: WinAuto
 ms.assetid: b0eb54e0-d903-46d8-a9f5-47f2c055c059
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: ComposeHmenuIdentityString method [Windows Accessibility], ComposeHmenuIdentityString method [Windows Accessibility], IAccPropServices interface, ComposeHmenuIdentityString,IAccPropServices.ComposeHmenuIdentityString, IAccPropServices, IAccPropServices interface [Windows Accessibility], ComposeHmenuIdentityString method, IAccPropServices::ComposeHmenuIdentityString, oleacc/IAccPropServices::ComposeHmenuIdentityString, winauto.iaccpropservices_iaccpropservices__composehmenuidentitystring
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Oleacc.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IAccPropServices::ComposeHmenuIdentityString method

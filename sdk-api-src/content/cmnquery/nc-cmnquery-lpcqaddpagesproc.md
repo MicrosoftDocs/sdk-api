@@ -7,7 +7,7 @@ old-location: ad\cqaddpagesproc.htm
 old-project: AD
 ms.assetid: 2b62c1aa-ace7-4083-8eb3-7c5c499762c9
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/20/2018
 ms.keywords: CQAddPagesProc, CQAddPagesProc callback function [Active Directory], LPCQADDPAGESPROC, LPCQADDPAGESPROC callback function pointer [Active Directory], ad.cqaddpagesproc, cmnquery/CQAddPagesProc
 ms.prod: windows-hardware
 ms.technology: windows-devices

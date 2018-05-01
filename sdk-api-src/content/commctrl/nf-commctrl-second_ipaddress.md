@@ -7,7 +7,7 @@ old-location: controls\SECOND_IPADDRESS.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\ipaddress\macros\second_ipaddress.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: SECOND_IPADDRESS, SECOND_IPADDRESS macro [Windows Controls], _win32_SECOND_IPADDRESS, _win32_SECOND_IPADDRESS_cpp, commctrl/SECOND_IPADDRESS, controls.SECOND_IPADDRESS, controls._win32_SECOND_IPADDRESS
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CATEGORYINFO, *LPCATEGORYINFO
+req.typenames: STGOPTIONS
 topic_type:
 -	APIRef
 -	kbSyntax

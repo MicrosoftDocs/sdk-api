@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiosessionenumerator_getcount.htm
 old-project: CoreAudio
 ms.assetid: a1fbfbf5-a79b-40bc-97c7-a76a181bbfec
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: GetCount method [Core Audio], GetCount method [Core Audio], IAudioSessionEnumerator interface, GetCount,IAudioSessionEnumerator.GetCount, IAudioSessionEnumerator, IAudioSessionEnumerator interface [Core Audio], GetCount method, IAudioSessionEnumerator::GetCount, audiopolicy/IAudioSessionEnumerator::GetCount, coreaudio.iaudiosessionenumerator_getcount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: AE_CURRENT_POSITION, *PAE_CURRENT_POSITION
+req.typenames: UNCOMPRESSEDAUDIOFORMAT
 topic_type:
 -	APIRef
 -	kbSyntax

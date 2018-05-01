@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmstoragecontrol3_insert3.htm
 old-project: WMDM
 ms.assetid: 044a6571-8ec0-48af-b105-07c60c25d68a
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: IWMDMStorageControl3, IWMDMStorageControl3 interface [windows Media Device Manager], Insert3 method, IWMDMStorageControl3::Insert3, IWMDMStorageControl3Insert3, Insert3 method [windows Media Device Manager], Insert3 method [windows Media Device Manager], IWMDMStorageControl3 interface, Insert3,IWMDMStorageControl3.Insert3, mswmdm/IWMDMStorageControl3::Insert3, wmdm.iwmdmstoragecontrol3_insert3
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IWMDMStorageControl3::Insert3 method

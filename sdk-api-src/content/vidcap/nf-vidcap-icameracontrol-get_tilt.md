@@ -7,7 +7,7 @@ old-location: dshow\icameracontrol_get_tilt.htm
 old-project: DirectShow
 ms.assetid: 8e9d9176-fb27-4221-876b-49f407289877
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ICameraControl, ICameraControl interface [DirectShow], get_Tilt method, ICameraControl::get_Tilt, ICameraControlget_Tilt, dshow.icameracontrol_get_tilt, get_Tilt method [DirectShow], get_Tilt method [DirectShow], ICameraControl interface, get_Tilt,ICameraControl.get_Tilt, vidcap/ICameraControl::get_Tilt
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: VIDEOHDR, *PVIDEOHDR, *LPVIDEOHDR
+req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
 topic_type:
 -	APIRef
 -	kbSyntax

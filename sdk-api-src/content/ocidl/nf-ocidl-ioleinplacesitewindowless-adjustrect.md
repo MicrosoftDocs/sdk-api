@@ -7,7 +7,7 @@ old-location: com\ioleinplacesitewindowless_adjustrect.htm
 old-project: com
 ms.assetid: 36fa395d-09b2-474d-85ae-5a22d25e88eb
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: AdjustRect method [COM], AdjustRect method [COM], IOleInPlaceSiteWindowless interface, AdjustRect,IOleInPlaceSiteWindowless.AdjustRect, IOleInPlaceSiteWindowless, IOleInPlaceSiteWindowless interface [COM], AdjustRect method, IOleInPlaceSiteWindowless::AdjustRect, _ole_ioleinplacesitewindowless_adjustrect, com.ioleinplacesitewindowless_adjustrect, ocidl/IOleInPlaceSiteWindowless::AdjustRect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IOleInPlaceSiteWindowless::AdjustRect method

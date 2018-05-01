@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10debug_getpresentperrenderopdelay.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10debug_getpresentperrenderopdelay.htm
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: 089e85a9-c0e8-518c-4ced-8dfac65c1761, GetPresentPerRenderOpDelay method [Direct3D 10], GetPresentPerRenderOpDelay method [Direct3D 10], ID3D10Debug interface, GetPresentPerRenderOpDelay,ID3D10Debug.GetPresentPerRenderOpDelay, ID3D10Debug, ID3D10Debug interface [Direct3D 10], GetPresentPerRenderOpDelay method, ID3D10Debug::GetPresentPerRenderOpDelay, d3d10sdklayers/ID3D10Debug::GetPresentPerRenderOpDelay, direct3d10.id3d10debug_getpresentperrenderopdelay
 ms.prod: windows-hardware
 ms.technology: windows-devices

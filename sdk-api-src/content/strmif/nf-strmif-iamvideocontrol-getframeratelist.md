@@ -7,7 +7,7 @@ old-location: dshow\iamvideocontrol_getframeratelist.htm
 old-project: DirectShow
 ms.assetid: 864f294f-1a18-4d4c-952e-1965da4c9496
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetFrameRateList method [DirectShow], GetFrameRateList method [DirectShow], IAMVideoControl interface, GetFrameRateList,IAMVideoControl.GetFrameRateList, IAMVideoControl, IAMVideoControl interface [DirectShow], GetFrameRateList method, IAMVideoControl::GetFrameRateList, IAMVideoControlGetFrameRateList, dshow.iamvideocontrol_getframeratelist, strmif/IAMVideoControl::GetFrameRateList
 ms.prod: windows-hardware
 ms.technology: windows-devices

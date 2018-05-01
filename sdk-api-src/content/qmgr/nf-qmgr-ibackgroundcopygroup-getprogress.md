@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopygroup_getprogress.htm
 old-project: Bits
 ms.assetid: a596a005-a3ad-4d2b-b19b-60c2279590da
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/10/2018
 ms.keywords: GetProgress method [BITS], GetProgress method [BITS], IBackgroundCopyGroup interface, GetProgress,IBackgroundCopyGroup.GetProgress, IBackgroundCopyGroup, IBackgroundCopyGroup interface [BITS], GetProgress method, IBackgroundCopyGroup::GetProgress, QM_PROGRESS_PERCENT_DONE, QM_PROGRESS_SIZE_DONE, QM_PROGRESS_TIME_DONE, bits.ibackgroundcopygroup_getprogress, qmgr/IBackgroundCopyGroup::GetProgress
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: QmgrPrxy.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IBackgroundCopyGroup::GetProgress method

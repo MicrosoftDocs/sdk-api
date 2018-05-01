@@ -7,7 +7,7 @@ old-location: mscs\lpresource_callback_ex.htm
 old-project: MsCS
 ms.assetid: 663b009c-92cf-4881-bae7-fb1215140581
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: LPRESOURCE_CALLBACK_EX, LPRESOURCE_CALLBACK_EX callback function [Failover Cluster], ResourceCallbackEx, ResourceCallbackEx callback function [Failover Cluster], mscs.lpresource_callback_ex, resapi/LPRESOURCE_CALLBACK_EX, resapi/ResourceCallbackEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # LPRESOURCE_CALLBACK_EX callback

@@ -7,7 +7,7 @@ old-location: termserv\iwtssbplugin_wtssbx_machinechangenotification.htm
 old-project: TermServ
 ms.assetid: 226ca68e-6c3d-4160-a569-ca0b92cb9316
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: IWTSSBPlugin, IWTSSBPlugin interface [Remote Desktop Services], WTSSBX_MachineChangeNotification method, IWTSSBPlugin::WTSSBX_MachineChangeNotification, WTSSBX_MachineChangeNotification method [Remote Desktop Services], WTSSBX_MachineChangeNotification method [Remote Desktop Services], IWTSSBPlugin interface, WTSSBX_MachineChangeNotification,IWTSSBPlugin.WTSSBX_MachineChangeNotification, termserv.iwtssbplugin_wtssbx_machinechangenotification, tssbx/IWTSSBPlugin::WTSSBX_MachineChangeNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices

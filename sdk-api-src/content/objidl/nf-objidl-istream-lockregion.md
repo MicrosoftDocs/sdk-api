@@ -7,7 +7,7 @@ old-location: stg\istream_lockregion.htm
 old-project: Stg
 ms.assetid: f2606833-05ed-4bd0-a762-7b8172fb14c8
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/20/2018
 ms.keywords: IStream, IStream interface [Structured Storage], LockRegion method, IStream::LockRegion, LockRegion method [Structured Storage], LockRegion method [Structured Storage], IStream interface, LockRegion,IStream.LockRegion, _stg_istream_lockregion, objidl/IStream::LockRegion, stg.istream_lockregion
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IStream::LockRegion method

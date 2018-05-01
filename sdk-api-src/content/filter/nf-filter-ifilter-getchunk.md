@@ -7,7 +7,7 @@ old-location: indexsrv\ifilter_getchunk.htm
 old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_96gb.htm
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/11/2018
 ms.keywords: GetChunk method [Indexing Service], GetChunk method [Indexing Service], IFilter interface, GetChunk,IFilter.GetChunk, IFilter, IFilter interface [Indexing Service], GetChunk method, IFilter::GetChunk, _idxs_IFilter_GetChunk, filter/IFilter::GetChunk, indexsrv.ifilter_getchunk
 ms.prod: windows-hardware
 ms.technology: windows-devices

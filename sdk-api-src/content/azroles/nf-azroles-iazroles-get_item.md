@@ -7,7 +7,7 @@ old-location: security\iazroles_item.htm
 old-project: SecAuthZ
 ms.assetid: a1c8b474-aae9-401b-b6d7-de17cdf8fce9
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: AzRoles object [Security], Item property, IAzRoles, IAzRoles interface [Security], Item property, IAzRoles.Item, IAzRoles::get_Item, Item property [Security], Item property [Security], AzRoles object, Item property [Security], IAzRoles interface, azroles/IAzRoles::Item, azroles/IAzRoles::get_Item, get_Item,IAzRoles.get_Item, security.iazroles_item
 ms.prod: windows-hardware
 ms.technology: windows-devices

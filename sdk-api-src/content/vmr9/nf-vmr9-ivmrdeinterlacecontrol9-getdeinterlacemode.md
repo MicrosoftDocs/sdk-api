@@ -7,7 +7,7 @@ old-location: dshow\ivmrdeinterlacecontrol9_getdeinterlacemode.htm
 old-project: DirectShow
 ms.assetid: 64cdba05-3f09-4fce-be38-9ee494018974
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetDeinterlaceMode method [DirectShow], GetDeinterlaceMode method [DirectShow], IVMRDeinterlaceControl9 interface, GetDeinterlaceMode,IVMRDeinterlaceControl9.GetDeinterlaceMode, IVMRDeinterlaceControl9, IVMRDeinterlaceControl9 interface [DirectShow], GetDeinterlaceMode method, IVMRDeinterlaceControl9::GetDeinterlaceMode, IVMRDeinterlaceControl9GetDeinterlaceMode, dshow.ivmrdeinterlacecontrol9_getdeinterlacemode, vmr9/IVMRDeinterlaceControl9::GetDeinterlaceMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

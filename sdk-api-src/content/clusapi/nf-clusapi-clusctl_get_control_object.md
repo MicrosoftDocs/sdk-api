@@ -7,7 +7,7 @@ old-location: mscs\clusctl_get_control_object.htm
 old-project: MsCS
 ms.assetid: b49c030e-fe7a-45cd-bbbf-0056763d827c
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: CLUSCTL_GET_CONTROL_OBJECT, CLUSCTL_GET_CONTROL_OBJECT macro [Failover Cluster], _wolf_clusctl_get_control_object, clusapi/CLUSCTL_GET_CONTROL_OBJECT, mscs.clusctl_get_control_object
 ms.prod: windows-hardware
 ms.technology: windows-devices

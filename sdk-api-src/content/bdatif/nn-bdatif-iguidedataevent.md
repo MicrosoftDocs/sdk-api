@@ -7,7 +7,7 @@ old-location: mstv\iguidedataevent.htm
 old-project: mstv
 ms.assetid: 9da565f2-fbcb-4d71-ae40-7d9821f46630
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IGuideDataEvent, IGuideDataEvent interface [Microsoft TV Technologies], IGuideDataEvent interface [Microsoft TV Technologies], described, IGuideDataEventInterface, bdatif/IGuideDataEvent, mstv.iguidedataevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: SpanningEventEmmMessage
+req.typenames: SmartCardApplication
 topic_type:
 -	APIRef
 -	kbSyntax

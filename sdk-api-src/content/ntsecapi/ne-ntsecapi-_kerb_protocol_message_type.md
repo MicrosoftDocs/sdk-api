@@ -7,7 +7,7 @@ old-location: security\kerb_protocol_message_type.htm
 old-project: SecAuthN
 ms.assetid: 8ad183d2-3fe8-4f52-bfa4-16f2a711f0c3
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/24/2018
 ms.keywords: "*PKERB_PROTOCOL_MESSAGE_TYPE, KERB_PROTOCOL_MESSAGE_TYPE, KERB_PROTOCOL_MESSAGE_TYPE enumeration [Security], KerbAddBindingCacheEntryExMessage, KerbAddBindingCacheEntryMessage, KerbAddExtraCredentialsExMessage, KerbAddExtraCredentialsMessage, KerbChangeMachinePasswordMessage, KerbChangePasswordMessage, KerbCleanupMachinePkinitCredsMessage, KerbDebugRequestMessage, KerbDecryptDataMessage, KerbPurgeBindingCacheMessage, KerbPurgeKdcProxyCacheMessage, KerbPurgeTicketCacheExMessage, KerbPurgeTicketCacheMessage, KerbQueryBindingCacheMessage, KerbQueryDomainExtendedPoliciesMessage, KerbQueryKdcProxyCacheMessage, KerbQueryS4U2ProxyCacheMessage, KerbQuerySupplementalCredentialsMessage, KerbQueryTicketCacheEx2Message, KerbQueryTicketCacheEx3Message, KerbQueryTicketCacheExMessage, KerbQueryTicketCacheMessage, KerbRefreshSmartcardCredentialsMessage, KerbRetrieveEncodedTicketMessage, KerbRetrieveTicketMessage, KerbSetPasswordExMessage, KerbSetPasswordMessage, KerbSubmitTicketMessage, KerbTransferCredentialsMessage, KerbUpdateAddressesMessage, KerbVerifyCredentialsMessage, KerbVerifyPacMessage, PKERB_PROTOCOL_MESSAGE_TYPE, PKERB_PROTOCOL_MESSAGE_TYPE enumeration pointer [Security], _KERB_PROTOCOL_MESSAGE_TYPE, _lsa_kerb_protocol_message_type, ntsecapi/KERB_PROTOCOL_MESSAGE_TYPE, ntsecapi/KerbAddBindingCacheEntryExMessage, ntsecapi/KerbAddBindingCacheEntryMessage, ntsecapi/KerbAddExtraCredentialsExMessage, ntsecapi/KerbAddExtraCredentialsMessage, ntsecapi/KerbChangeMachinePasswordMessage, ntsecapi/KerbChangePasswordMessage, ntsecapi/KerbCleanupMachinePkinitCredsMessage, ntsecapi/KerbDebugRequestMessage, ntsecapi/KerbDecryptDataMessage, ntsecapi/KerbPurgeBindingCacheMessage, ntsecapi/KerbPurgeKdcProxyCacheMessage, ntsecapi/KerbPurgeTicketCacheExMessage, ntsecapi/KerbPurgeTicketCacheMessage, ntsecapi/KerbQueryBindingCacheMessage, ntsecapi/KerbQueryDomainExtendedPoliciesMessage, ntsecapi/KerbQueryKdcProxyCacheMessage, ntsecapi/KerbQueryS4U2ProxyCacheMessage, ntsecapi/KerbQuerySupplementalCredentialsMessage, ntsecapi/KerbQueryTicketCacheEx2Message, ntsecapi/KerbQueryTicketCacheEx3Message, ntsecapi/KerbQueryTicketCacheExMessage, ntsecapi/KerbQueryTicketCacheMessage, ntsecapi/KerbRefreshSmartcardCredentialsMessage, ntsecapi/KerbRetrieveEncodedTicketMessage, ntsecapi/KerbRetrieveTicketMessage, ntsecapi/KerbSetPasswordExMessage, ntsecapi/KerbSetPasswordMessage, ntsecapi/KerbSubmitTicketMessage, ntsecapi/KerbTransferCredentialsMessage, ntsecapi/KerbUpdateAddressesMessage, ntsecapi/KerbVerifyCredentialsMessage, ntsecapi/KerbVerifyPacMessage, ntsecapi/PKERB_PROTOCOL_MESSAGE_TYPE, security.kerb_protocol_message_type"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _KERB_PROTOCOL_MESSAGE_TYPE enumeration

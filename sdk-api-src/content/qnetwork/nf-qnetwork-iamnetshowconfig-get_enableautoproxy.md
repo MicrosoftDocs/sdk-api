@@ -7,7 +7,7 @@ old-location: dshow\iamnetshowconfig_get_enableautoproxy.htm
 old-project: DirectShow
 ms.assetid: 7037f326-3320-4e4a-8f6f-feda1a306c2d
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMNetShowConfig, IAMNetShowConfig interface [DirectShow], get_EnableAutoProxy method, IAMNetShowConfig::get_EnableAutoProxy, IAMNetShowConfigget_EnableAutoProxy, dshow.iamnetshowconfig_get_enableautoproxy, get_EnableAutoProxy method [DirectShow], get_EnableAutoProxy method [DirectShow], IAMNetShowConfig interface, get_EnableAutoProxy,IAMNetShowConfig.get_EnableAutoProxy, qnetwork/IAMNetShowConfig::get_EnableAutoProxy
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IAMNetShowConfig::get_EnableAutoProxy method

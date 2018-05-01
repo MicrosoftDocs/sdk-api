@@ -7,7 +7,7 @@ old-location: com\ipipedouble_pull.htm
 old-project: com
 ms.assetid: 393e44fa-48fe-4a8d-b337-9b875129a502
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IPipeDouble, IPipeDouble interface [COM], Pull method, IPipeDouble::Pull, Pull method [COM], Pull method [COM], IPipeDouble interface, Pull,IPipeDouble.Pull, _com_ipipedouble_pull, com.ipipedouble_pull, objidlbase/IPipeDouble::Pull
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IPipeDouble::Pull method

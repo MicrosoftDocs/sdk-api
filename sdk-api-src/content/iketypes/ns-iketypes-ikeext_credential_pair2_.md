@@ -7,7 +7,7 @@ old-location: fwp\ikeext_credential_pair2.htm
 old-project: FWP
 ms.assetid: 013b7b6c-aee6-40f3-b8c4-ef98784165ca
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: IKEEXT_CREDENTIAL_PAIR2, IKEEXT_CREDENTIAL_PAIR2 structure [Filtering], IKEEXT_CREDENTIAL_PAIR2_, fwp.ikeext_credential_pair2, iketypes/IKEEXT_CREDENTIAL_PAIR2
 ms.prod: windows-hardware
 ms.technology: windows-devices

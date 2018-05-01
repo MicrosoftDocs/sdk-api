@@ -7,7 +7,7 @@ old-location: shell\IBrowserService_IEGetDisplayName.htm
 old-project: shell
 ms.assetid: 012d794a-9823-4af2-b628-ad33a93dbbb5
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IBrowserService, IBrowserService interface [Windows Shell], IEGetDisplayName method, IBrowserService::IEGetDisplayName, IEGetDisplayName method [Windows Shell], IEGetDisplayName method [Windows Shell], IBrowserService interface, IEGetDisplayName,IBrowserService.IEGetDisplayName, SHGDN_FORADDRESSBAR, SHGDN_FORPARSING, SHGDN_NORMAL, shdeprecated/IBrowserService::IEGetDisplayName, shell.IBrowserService_IEGetDisplayName, zone_IBrowserService_IEGetDisplayName
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: cos\iassemblylocator.htm
 old-project: cossdk
 ms.assetid: 347a209e-be6f-42a9-978f-f40e628fc34b
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: IAssemblyLocator, IAssemblyLocator interface [COM+], IAssemblyLocator interface [COM+], described, _cos_IAssemblyLocator, comsvcs/IAssemblyLocator, cos.iassemblylocator
 ms.prod: windows-hardware
 ms.technology: windows-devices

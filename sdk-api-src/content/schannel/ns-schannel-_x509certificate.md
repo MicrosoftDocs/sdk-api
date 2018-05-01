@@ -7,7 +7,7 @@ old-location: security\x509certificate.htm
 old-project: SecAuthN
 ms.assetid: 5a337f78-e5de-4ea2-9c15-1056d9e9e38c
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/24/2018
 ms.keywords: "*PX509Certificate, PX509Certificate, PX509Certificate structure pointer [Security], X509Certificate, X509Certificate structure [Security], _X509Certificate, schannel/PX509Certificate, schannel/X509Certificate, security.x509certificate"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _X509Certificate structure

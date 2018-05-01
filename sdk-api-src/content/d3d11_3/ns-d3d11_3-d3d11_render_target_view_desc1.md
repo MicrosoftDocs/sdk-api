@@ -7,8 +7,8 @@ old-location: direct3d11\d3d11_render_target_view_desc1.htm
 old-project: direct3d11
 ms.assetid: D87F06B4-7574-4BBD-A481-653CA35B8FB2
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
-ms.keywords: D3D11_RENDER_TARGET_VIEW_DESC1, D3D11_RENDER_TARGET_VIEW_DESC1 structure [Direct3D 11], d3d11_3/D3D11_RENDER_TARGET_VIEW_DESC1, direct3d11.d3d11_render_target_view_desc1
+ms.date: 4/6/2018
+ms.keywords: CD3D11_RENDER_TARGET_VIEW_DESC1, D3D11_RENDER_TARGET_VIEW_DESC1, D3D11_RENDER_TARGET_VIEW_DESC1 structure [Direct3D 11], d3d11_3/D3D11_RENDER_TARGET_VIEW_DESC1, direct3d11.d3d11_render_target_view_desc1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -57,14 +57,14 @@ Describes the subresources from a resource that are accessible using a render-ta
 
 
 
-### -field Format
+#### - Format
 
 A <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a>-typed value that specifies the data format.
 
 
 
 
-### -field ViewDimension
+#### - ViewDimension
 
 A <a href="https://msdn.microsoft.com/42cbd3ec-fa8a-48ea-be88-bbe46db13566">D3D11_RTV_DIMENSION</a>-typed value that specifies the resource type and how the render-target resource will be accessed.
 

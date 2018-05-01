@@ -7,7 +7,7 @@ old-location: ics\inetfwservice_remoteaddresses.htm
 old-project: ICS
 ms.assetid: 6cb1dfa1-1e92-47a8-9a97-45443f487f6e
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: INetFwService, INetFwService interface [ICS/ICF], RemoteAddresses property, INetFwService.RemoteAddresses, INetFwService::get_RemoteAddresses, INetFwService::put_RemoteAddresses, RemoteAddresses property [ICS/ICF], RemoteAddresses property [ICS/ICF], INetFwService interface, get_RemoteAddresses,INetFwService.get_RemoteAddresses, ics.inetfwservice_remoteaddresses, netfw/INetFwService::RemoteAddresses, netfw/INetFwService::get_RemoteAddresses, netfw/INetFwService::put_RemoteAddresses
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: 
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # INetFwService::get_RemoteAddresses method

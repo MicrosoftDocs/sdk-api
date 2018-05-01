@@ -7,7 +7,7 @@ old-location: stg\ipropertysetstorage_enum.htm
 old-project: Stg
 ms.assetid: 979ee86b-fabc-428c-8134-f16c2a33270f
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/20/2018
 ms.keywords: Enum method [Structured Storage], Enum method [Structured Storage], IPropertySetStorage interface, Enum,IPropertySetStorage.Enum, IPropertySetStorage, IPropertySetStorage interface [Structured Storage], Enum method, IPropertySetStorage::Enum, _stg_ipropertysetstorage_enum, propidl/IPropertySetStorage::Enum, stg.ipropertysetstorage_enum
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IPropertySetStorage::Enum method

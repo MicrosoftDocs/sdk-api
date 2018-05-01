@@ -7,7 +7,7 @@ old-location: mf\imftimedtext_adddatasource.htm
 old-project: medfound
 ms.assetid: 76922DFA-E109-475D-BE09-47501AC7F50E
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: AddDataSource method [Media Foundation], AddDataSource method [Media Foundation], IMFTimedText interface, AddDataSource,IMFTimedText.AddDataSource, IMFTimedText, IMFTimedText interface [Media Foundation], AddDataSource method, IMFTimedText::AddDataSource, mf.imftimedtext_adddatasource, mfmediaengine/IMFTimedText::AddDataSource
 ms.prod: windows-hardware
 ms.technology: windows-devices

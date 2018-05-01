@@ -7,7 +7,7 @@ old-location: termserv\iaudioendpointrt_processingcomplete.htm
 old-project: TermServ
 ms.assetid: 1a9c52fa-27ff-4e63-ae87-f5a3cd8d4f9b
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: IAudioEndpointRT, IAudioEndpointRT interface [Remote Desktop Services], ProcessingComplete method, IAudioEndpointRT::ProcessingComplete, ProcessingComplete method [Remote Desktop Services], ProcessingComplete method [Remote Desktop Services], IAudioEndpointRT interface, ProcessingComplete,IAudioEndpointRT.ProcessingComplete, audioengineendpoint/IAudioEndpointRT::ProcessingComplete, termserv.iaudioendpointrt_processingcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices

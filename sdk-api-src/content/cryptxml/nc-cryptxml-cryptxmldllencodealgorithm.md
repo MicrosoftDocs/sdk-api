@@ -7,7 +7,7 @@ old-location: security\cryptxmldllencodealgorithm.htm
 old-project: SecCrypto
 ms.assetid: ef21897e-66f1-436c-8440-91422f5c95a7
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: CryptXmlDllEncodeAlgorithm, CryptXmlDllEncodeAlgorithm function pointer [Security], cryptxml/ CryptXmlDllEncodeAlgorithm, security.cryptxmldllencodealgorithm
 ms.prod: windows-hardware
 ms.technology: windows-devices

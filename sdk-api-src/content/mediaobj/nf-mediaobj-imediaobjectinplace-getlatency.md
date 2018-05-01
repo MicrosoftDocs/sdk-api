@@ -7,7 +7,7 @@ old-location: dshow\imediaobjectinplace_getlatency.htm
 old-project: DirectShow
 ms.assetid: f6ed4824-bc18-4a12-82d3-d68e98f6d964
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetLatency method [DirectShow], GetLatency method [DirectShow], IMediaObjectInPlace interface, GetLatency,IMediaObjectInPlace.GetLatency, IMediaObjectInPlace, IMediaObjectInPlace interface [DirectShow], GetLatency method, IMediaObjectInPlace::GetLatency, IMediaObjectInPlaceGetLatency, dshow.imediaobjectinplace_getlatency, mediaobj/IMediaObjectInPlace::GetLatency
 ms.prod: windows-hardware
 ms.technology: windows-devices

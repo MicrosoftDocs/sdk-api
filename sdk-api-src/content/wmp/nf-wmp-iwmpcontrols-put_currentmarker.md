@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontrols_put_currentmarker.htm
 old-project: WMP
 ms.assetid: b48e50b3-46d2-4994-bbbf-668f4986109a
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPControls, IWMPControls interface [Windows Media Player], put_currentMarker method, IWMPControls::put_currentMarker, IWMPControlsput_currentMarker, put_currentMarker method [Windows Media Player], put_currentMarker method [Windows Media Player], IWMPControls interface, put_currentMarker,IWMPControls.put_currentMarker, wmp.iwmpcontrols_put_currentmarker, wmp/IWMPControls::put_currentMarker
 ms.prod: windows-hardware
 ms.technology: windows-devices

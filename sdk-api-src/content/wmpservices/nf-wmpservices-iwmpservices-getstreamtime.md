@@ -7,7 +7,7 @@ old-location: wmp\iwmpservices_getstreamtime.htm
 old-project: WMP
 ms.assetid: 4e6c8181-3ff9-4ce1-aad5-9d7821771f69
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: GetStreamTime method [Windows Media Player], GetStreamTime method [Windows Media Player], IWMPServices interface, GetStreamTime,IWMPServices.GetStreamTime, IWMPServices, IWMPServices interface [Windows Media Player], GetStreamTime method, IWMPServices::GetStreamTime, IWMPServicesGetStreamTimeDSP, wmp.iwmpservices_getstreamtime, wmpservices/IWMPServices::GetStreamTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

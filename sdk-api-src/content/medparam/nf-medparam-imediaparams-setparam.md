@@ -7,7 +7,7 @@ old-location: dshow\imediaparams_setparam.htm
 old-project: DirectShow
 ms.assetid: e92681d4-2c77-4c72-b3ad-f0a6be7920e2
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IMediaParams, IMediaParams interface [DirectShow], SetParam method, IMediaParams::SetParam, IMediaParamsSetParam, SetParam method [DirectShow], SetParam method [DirectShow], IMediaParams interface, SetParam,IMediaParams.SetParam, dshow.imediaparams_setparam, medparam/IMediaParams::SetParam
 ms.prod: windows-hardware
 ms.technology: windows-devices

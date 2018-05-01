@@ -7,7 +7,7 @@ old-location: mstv\ilocator_get_symbolrate.htm
 old-project: mstv
 ms.assetid: 828967df-6ce1-4320-ae83-7bfaec79f8c7
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IDigitalLocatorget_SymbolRate, ILocator, ILocator interface [Microsoft TV Technologies], get_SymbolRate method, ILocator::get_SymbolRate, get_SymbolRate method [Microsoft TV Technologies], get_SymbolRate method [Microsoft TV Technologies], ILocator interface, get_SymbolRate,ILocator.get_SymbolRate, mstv.ilocator_get_symbolrate, tuner/ILocator::get_SymbolRate
 ms.prod: windows-hardware
 ms.technology: windows-devices

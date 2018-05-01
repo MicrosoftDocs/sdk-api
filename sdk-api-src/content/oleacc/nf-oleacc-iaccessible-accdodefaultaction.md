@@ -7,7 +7,7 @@ old-location: winauto\iaccessible_iaccessible__accdodefaultaction.htm
 old-project: WinAuto
 ms.assetid: 5b731f52-d0b0-4b69-91a0-fdd84e91533d
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: IAccessible, IAccessible interface [Windows Accessibility], accDoDefaultAction method, IAccessible::accDoDefaultAction, _msaa_IAccessible_accDoDefaultAction, accDoDefaultAction method [Windows Accessibility], accDoDefaultAction method [Windows Accessibility], IAccessible interface, accDoDefaultAction,IAccessible.accDoDefaultAction, msaa.iaccessible_iaccessible__accdodefaultaction, oleacc/IAccessible::accDoDefaultAction, winauto.iaccessible_iaccessible__accdodefaultaction
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Oleacc.lib
 req.dll: Oleacc.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IAccessible::accDoDefaultAction method

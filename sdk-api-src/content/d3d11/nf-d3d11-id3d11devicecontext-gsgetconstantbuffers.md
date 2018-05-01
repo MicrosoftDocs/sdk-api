@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext_gsgetconstantbuffers.htm
 old-project: direct3d11
 ms.assetid: 1a28c673-1e37-4801-bb9c-ba0cf28335d1
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/6/2018
 ms.keywords: 90cf0266-e4b2-8106-f337-5c65752dd7d8, GSGetConstantBuffers method [Direct3D 11], GSGetConstantBuffers method [Direct3D 11], ID3D11DeviceContext interface, GSGetConstantBuffers,ID3D11DeviceContext.GSGetConstantBuffers, ID3D11DeviceContext, ID3D11DeviceContext interface [Direct3D 11], GSGetConstantBuffers method, ID3D11DeviceContext::GSGetConstantBuffers, d3d11/ID3D11DeviceContext::GSGetConstantBuffers, direct3d11.id3d11devicecontext_gsgetconstantbuffers
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: termserv\wtsenablechildsessions.htm
 old-project: TermServ
 ms.assetid: BA995C04-9004-4A41-8E4A-8701E8C64F2E
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: WTSEnableChildSessions, WTSEnableChildSessions function [Remote Desktop Services], termserv.wtsenablechildsessions, wtsapi32/WTSEnableChildSessions
 ms.prod: windows-hardware
 ms.technology: windows-devices

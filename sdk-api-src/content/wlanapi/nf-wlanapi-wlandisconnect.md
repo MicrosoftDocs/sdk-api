@@ -7,7 +7,7 @@ old-location: nwifi\wlandisconnect.htm
 old-project: NativeWiFi
 ms.assetid: cc48ee72-3125-45a0-ac16-0c520ee3cd44
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/13/2018
 ms.keywords: WlanDisconnect, WlanDisconnect function [NativeWIFI], nwifi.wlandisconnect, wlanapi/WlanDisconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices

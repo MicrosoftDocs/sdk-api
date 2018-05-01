@@ -7,7 +7,7 @@ old-location: base\vss_diff_area_prop.htm
 old-project: VSS
 ms.assetid: 9627d7b0-e9d0-425f-9051-cf4ab6b75a8c
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: "*PVSS_DIFF_AREA_PROP, PVSS_DIFF_AREA_PROP, PVSS_DIFF_AREA_PROP structure pointer [VSS], VSS_DIFF_AREA_PROP, VSS_DIFF_AREA_PROP structure [VSS], _VSS_DIFF_AREA_PROP, base.vss_diff_area_prop, vsmgmt/PVSS_DIFF_AREA_PROP, vsmgmt/VSS_DIFF_AREA_PROP"
 ms.prod: windows-hardware
 ms.technology: windows-devices

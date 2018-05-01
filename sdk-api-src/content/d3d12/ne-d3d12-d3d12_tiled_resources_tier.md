@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_tiled_resources_tier.htm
 old-project: direct3d12
 ms.assetid: ADBA96C3-BD9E-4F12-89C8-371F6F7D369D
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: D3D12_TILED_RESOURCES_TIER, D3D12_TILED_RESOURCES_TIER enumeration, D3D12_TILED_RESOURCES_TIER_1, D3D12_TILED_RESOURCES_TIER_2, D3D12_TILED_RESOURCES_TIER_3, D3D12_TILED_RESOURCES_TIER_NOT_SUPPORTED, d3d12/D3D12_TILED_RESOURCES_TIER, d3d12/D3D12_TILED_RESOURCES_TIER_1, d3d12/D3D12_TILED_RESOURCES_TIER_2, d3d12/D3D12_TILED_RESOURCES_TIER_3, d3d12/D3D12_TILED_RESOURCES_TIER_NOT_SUPPORTED, direct3d12.d3d12_tiled_resources_tier
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -123,6 +123,11 @@ req.irql:
 
             Indicates that a superset of Tier 2 is supported, with the addition that 3D textures (<a href="https://msdn.microsoft.com/F670D15D-BC0F-4F90-99C1-A35192FE8980">Volume Tiled Resources</a>) are supported.
           
+
+
+### -field D3D12_TILED_RESOURCES_TIER_4
+
+
 
 
 ## -remarks

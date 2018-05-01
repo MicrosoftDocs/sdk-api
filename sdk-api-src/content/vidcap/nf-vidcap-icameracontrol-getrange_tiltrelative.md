@@ -7,7 +7,7 @@ old-location: dshow\icameracontrol_getrange_tiltrelative.htm
 old-project: DirectShow
 ms.assetid: 8b78e961-8b05-4339-ad66-49f2d892d4dc
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ICameraControl, ICameraControl interface [DirectShow], getRange_TiltRelative method, ICameraControl::getRange_TiltRelative, ICameraControlgetRange_TiltRelative, dshow.icameracontrol_getrange_tiltrelative, getRange_TiltRelative method [DirectShow], getRange_TiltRelative method [DirectShow], ICameraControl interface, getRange_TiltRelative,ICameraControl.getRange_TiltRelative, vidcap/ICameraControl::getRange_TiltRelative
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: VIDEOHDR, *PVIDEOHDR, *LPVIDEOHDR
+req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
 topic_type:
 -	APIRef
 -	kbSyntax

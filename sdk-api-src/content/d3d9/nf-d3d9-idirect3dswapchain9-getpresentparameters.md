@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3dswapchain9__getpresentparameters.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dswapchain9__getpresentparameters.htm
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/10/2018
 ms.keywords: GetPresentParameters method [Direct3D 9], GetPresentParameters method [Direct3D 9], IDirect3DSwapChain9 interface, GetPresentParameters,IDirect3DSwapChain9.GetPresentParameters, IDirect3DSwapChain9, IDirect3DSwapChain9 interface [Direct3D 9], GetPresentParameters method, IDirect3DSwapChain9::GetPresentParameters, ac85b9e4-b5da-4efa-cb76-254ef41c07cb, d3d9helper/IDirect3DSwapChain9::GetPresentParameters, direct3d9.idirect3dswapchain9__getpresentparameters
 ms.prod: windows-hardware
 ms.technology: windows-devices

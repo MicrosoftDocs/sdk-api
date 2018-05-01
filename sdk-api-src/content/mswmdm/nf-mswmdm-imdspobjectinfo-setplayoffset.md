@@ -7,7 +7,7 @@ old-location: wmdm\imdspobjectinfo_setplayoffset.htm
 old-project: WMDM
 ms.assetid: f61ce3b5-3cd9-41e6-9a29-42b9832ec55a
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: IMDSPObjectInfo, IMDSPObjectInfo interface [windows Media Device Manager], SetPlayOffset method, IMDSPObjectInfo::SetPlayOffset, IMDSPObjectInfoSetPlayOffset, SetPlayOffset method [windows Media Device Manager], SetPlayOffset method [windows Media Device Manager], IMDSPObjectInfo interface, SetPlayOffset,IMDSPObjectInfo.SetPlayOffset, mswmdm/IMDSPObjectInfo::SetPlayOffset, wmdm.imdspobjectinfo_setplayoffset
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMDSPObjectInfo::SetPlayOffset method

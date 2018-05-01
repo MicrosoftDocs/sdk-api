@@ -7,7 +7,7 @@ old-location: wmformat\iwmreaderadvanced6_setprotectstreamsamples.htm
 old-project: wmformat
 ms.assetid: e4734d16-e0fe-4a68-9618-fbceb725b576
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMReaderAdvanced6, IWMReaderAdvanced6 interface [windows Media Format], SetProtectStreamSamples method, IWMReaderAdvanced6::SetProtectStreamSamples, IWMReaderAdvanced6SetProtectStreamSamples, SetProtectStreamSamples method [windows Media Format], SetProtectStreamSamples method [windows Media Format], IWMReaderAdvanced6 interface, SetProtectStreamSamples,IWMReaderAdvanced6.SetProtectStreamSamples, wmformat.iwmreaderadvanced6_setprotectstreamsamples, wmsdkidl/IWMReaderAdvanced6::SetProtectStreamSamples
 ms.prod: windows-hardware
 ms.technology: windows-devices

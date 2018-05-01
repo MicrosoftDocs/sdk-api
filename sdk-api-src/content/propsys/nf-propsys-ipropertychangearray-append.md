@@ -7,7 +7,7 @@ old-location: properties\IPropertyChangeArray_Append.htm
 old-project: properties
 ms.assetid: 45039163-dffc-4168-9c31-786dcfdab760
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/5/2018
 ms.keywords: Append method [Windows Properties], Append method [Windows Properties], IPropertyChangeArray interface, Append,IPropertyChangeArray.Append, IPropertyChangeArray, IPropertyChangeArray interface [Windows Properties], Append method, IPropertyChangeArray::Append, _shell_IPropertyChangeArray_Append, properties.IPropertyChangeArray_Append, propsys/IPropertyChangeArray::Append, shell.IPropertyChangeArray_Append
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IPropertyChangeArray::Append method

@@ -7,7 +7,7 @@ old-location: automat\ierrorinfo_getguid.htm
 old-project: automat
 ms.assetid: a4223508-6e8b-41b7-b808-a0d883bc265b
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: GetGUID method [Automation], GetGUID method [Automation], IErrorInfo interface, GetGUID,IErrorInfo.GetGUID, IErrorInfo, IErrorInfo interface [Automation], GetGUID method, IErrorInfo::GetGUID, _oa96_IErrorInfo_GetGUID, automat.ierrorinfo_getguid, oaidl/IErrorInfo::GetGUID
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IErrorInfo::GetGUID method

@@ -7,7 +7,7 @@ old-location: cos\icomqcevents_onqcplayback.htm
 old-project: cossdk
 ms.assetid: 7cd9daf8-cc4d-4d48-b547-95b370f5a927
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: IComQCEvents, IComQCEvents interface [COM+], OnQCPlayback method, IComQCEvents::OnQCPlayback, OnQCPlayback method [COM+], OnQCPlayback method [COM+], IComQCEvents interface, OnQCPlayback,IComQCEvents.OnQCPlayback, _dtc_IComQCEvents_OnQCPlayback, comsvcs/IComQCEvents::OnQCPlayback, cos.icomqcevents_onqcplayback
 ms.prod: windows-hardware
 ms.technology: windows-devices

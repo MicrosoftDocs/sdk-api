@@ -7,7 +7,7 @@ old-location: search\_search_IConditionGenerator_GenerateForLeaf.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iconditiongenerator\generateforleaf.htm
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/24/2018
 ms.keywords: GenerateForLeaf method [search], GenerateForLeaf method [search], IConditionGenerator interface, GenerateForLeaf,IConditionGenerator.GenerateForLeaf, IConditionGenerator, IConditionGenerator interface [search], GenerateForLeaf method, IConditionGenerator::GenerateForLeaf, _search_IConditionGenerator_GenerateForLeaf, search._search_IConditionGenerator_GenerateForLeaf, structuredquery/IConditionGenerator::GenerateForLeaf
 ms.prod: windows-hardware
 ms.technology: windows-devices

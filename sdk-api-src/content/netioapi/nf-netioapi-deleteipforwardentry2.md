@@ -7,7 +7,7 @@ old-location: iphlp\deleteipforwardentry2.htm
 old-project: IpHlp
 ms.assetid: 68d5a5a5-21cf-4337-8a35-7f847f5e2138
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 4/13/2018
 ms.keywords: DeleteIpForwardEntry2, DeleteIpForwardEntry2 function [IP Helper], iphlp.deleteipforwardentry2, netioapi/DeleteIpForwardEntry2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # DeleteIpForwardEntry2 function

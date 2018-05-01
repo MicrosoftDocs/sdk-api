@@ -7,7 +7,7 @@ old-location: tapi3\cmspcallmultigraph_registerwaitevent.htm
 old-project: Tapi
 ms.assetid: 3c75ed75-a0b2-435b-aa49-c1e7dadf260f
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: CMSPCallMultiGraph, CMSPCallMultiGraph interface [TAPI 2.2], RegisterWaitEvent method, CMSPCallMultiGraph::RegisterWaitEvent, RegisterWaitEvent method [TAPI 2.2], RegisterWaitEvent method [TAPI 2.2], CMSPCallMultiGraph interface, RegisterWaitEvent,CMSPCallMultiGraph.RegisterWaitEvent, _tapi3_cmspcallmultigraph_registerwaitevent, mspcall/CMSPCallMultiGraph::RegisterWaitEvent, tapi3.cmspcallmultigraph_registerwaitevent
 ms.prod: windows-hardware
 ms.technology: windows-devices

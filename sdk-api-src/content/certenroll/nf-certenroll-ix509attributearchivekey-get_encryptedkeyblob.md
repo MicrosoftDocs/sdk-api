@@ -7,7 +7,7 @@ old-location: security\ix509attributearchivekey_encryptedkeyblob_property.htm
 old-project: SecCertEnroll
 ms.assetid: 3230cfbf-5486-4f77-9efe-5bc542e3e096
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: EncryptedKeyBlob property [Security], EncryptedKeyBlob property [Security], IX509AttributeArchiveKey interface, IX509AttributeArchiveKey, IX509AttributeArchiveKey interface [Security], EncryptedKeyBlob property, IX509AttributeArchiveKey.EncryptedKeyBlob, IX509AttributeArchiveKey::get_EncryptedKeyBlob, certenroll/IX509AttributeArchiveKey::EncryptedKeyBlob, certenroll/IX509AttributeArchiveKey::get_EncryptedKeyBlob, get_EncryptedKeyBlob,IX509AttributeArchiveKey.get_EncryptedKeyBlob, security.ix509attributearchivekey_encryptedkeyblob_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

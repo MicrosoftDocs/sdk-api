@@ -7,7 +7,7 @@ old-location: security\lookupprivilegevalue.htm
 old-project: SecAuthZ
 ms.assetid: 334b8ba8-101d-43a1-a8bf-1c7e0448c272
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: LookupPrivilegeValue, LookupPrivilegeValue function [Security], LookupPrivilegeValueA, LookupPrivilegeValueW, _win32_lookupprivilegevalue, security.lookupprivilegevalue, winbase/LookupPrivilegeValue, winbase/LookupPrivilegeValueA, winbase/LookupPrivilegeValueW
 ms.prod: windows-hardware
 ms.technology: windows-devices

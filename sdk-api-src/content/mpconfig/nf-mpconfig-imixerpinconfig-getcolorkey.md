@@ -7,7 +7,7 @@ old-location: dshow\imixerpinconfig_getcolorkey.htm
 old-project: DirectShow
 ms.assetid: 07e97d05-f273-4e93-8da8-838975d6f96c
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetColorKey method [DirectShow], GetColorKey method [DirectShow], IMixerPinConfig interface, GetColorKey,IMixerPinConfig.GetColorKey, IMixerPinConfig, IMixerPinConfig interface [DirectShow], GetColorKey method, IMixerPinConfig::GetColorKey, IMixerPinConfigGetColorKey, dshow.imixerpinconfig_getcolorkey, mpconfig/IMixerPinConfig::GetColorKey
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmp\iwmpnetwork_get_framerate.htm
 old-project: WMP
 ms.assetid: 1521c462-b054-46d6-8646-4d20a836eadc
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPNetwork, IWMPNetwork interface [Windows Media Player], get_frameRate method, IWMPNetwork::get_frameRate, IWMPNetworkget_frameRate, get_frameRate method [Windows Media Player], get_frameRate method [Windows Media Player], IWMPNetwork interface, get_frameRate,IWMPNetwork.get_frameRate, wmp.iwmpnetwork_get_framerate, wmp/IWMPNetwork::get_frameRate
 ms.prod: windows-hardware
 ms.technology: windows-devices

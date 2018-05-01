@@ -7,7 +7,7 @@ old-location: direct2d\id2d1rendertarget_drawellipse.htm
 old-project: Direct2D
 ms.assetid: dabbb399-2d72-41c3-8b2f-aea49d7ad0cb
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: DrawEllipse, DrawEllipse methods [Direct2D], d2d1/DrawEllipse, direct2d.id2d1rendertarget_drawellipse
 ms.prod: windows-hardware
 ms.technology: windows-devices

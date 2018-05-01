@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxrecipients_item_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_0q7h_cpp.htm
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/18/2018
 ms.keywords: IFaxRecipients, IFaxRecipients interface [Fax Service], get_Item method, IFaxRecipients::get_Item, _mfax_faxrecipients.item_cpp, fax._mfax_faxrecipients_item_cpp, faxcomex/IFaxRecipients::get_Item, get_Item method [Fax Service], get_Item method [Fax Service], IFaxRecipients interface, get_Item,IFaxRecipients.get_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices

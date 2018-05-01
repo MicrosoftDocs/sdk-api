@@ -7,7 +7,7 @@ old-location: coreaudio\audclnt_streamoptions.htm
 old-project: CoreAudio
 ms.assetid: C9A51FB2-46F5-4F20-B9F2-63EC53CAB3D7
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: AUDCLNT_STREAMOPTIONS, AUDCLNT_STREAMOPTIONS enumeration [Core Audio], AUDCLNT_STREAMOPTIONS_MATCH_FORMAT, AUDCLNT_STREAMOPTIONS_NONE, AUDCLNT_STREAMOPTIONS_RAW, audioclient/AUDCLNT_STREAMOPTIONS, audioclient/AUDCLNT_STREAMOPTIONS_MATCH_FORMAT, audioclient/AUDCLNT_STREAMOPTIONS_NONE, audioclient/AUDCLNT_STREAMOPTIONS_RAW, coreaudio.audclnt_streamoptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -78,6 +78,11 @@ will match this format only if the format is supported by                       
 
 
 Supported in Windows 10 and later.
+
+
+
+
+### -field AUDCLNT_STREAMOPTIONS_AMBISONICS
 
 
 

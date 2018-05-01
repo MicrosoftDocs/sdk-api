@@ -7,7 +7,7 @@ old-location: com\isynchronizeevent_seteventhandle.htm
 old-project: com
 ms.assetid: e278930c-4f4d-4ac5-ba1e-a4a84bfcd0ca
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: ISynchronizeEvent, ISynchronizeEvent interface [COM], SetEventHandle method, ISynchronizeEvent::SetEventHandle, SetEventHandle method [COM], SetEventHandle method [COM], ISynchronizeEvent interface, SetEventHandle,ISynchronizeEvent.SetEventHandle, _com_isynchronizeevent_seteventhandle, com.isynchronizeevent_seteventhandle, objidlbase/ISynchronizeEvent::SetEventHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ISynchronizeEvent::SetEventHandle method

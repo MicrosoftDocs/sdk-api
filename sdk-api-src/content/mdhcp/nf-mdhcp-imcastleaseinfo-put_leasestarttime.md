@@ -7,7 +7,7 @@ old-location: tapi3\imcastleaseinfo_put_leasestarttime.htm
 old-project: Tapi
 ms.assetid: f101a92a-bcbb-4d96-befd-c6ee83b68481
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: IMcastLeaseInfo, IMcastLeaseInfo interface [TAPI 2.2], put_LeaseStartTime method, IMcastLeaseInfo::put_LeaseStartTime, _tapi3_imcastleaseinfo_put_leasestarttime, mdhcp/IMcastLeaseInfo::put_LeaseStartTime, put_LeaseStartTime method [TAPI 2.2], put_LeaseStartTime method [TAPI 2.2], IMcastLeaseInfo interface, put_LeaseStartTime,IMcastLeaseInfo.put_LeaseStartTime, tapi3.imcastleaseinfo_put_leasestarttime
 ms.prod: windows-hardware
 ms.technology: windows-devices

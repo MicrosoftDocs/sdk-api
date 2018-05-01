@@ -7,7 +7,7 @@ old-location: tracelogging\traceloggingwritestop.htm
 old-project: tracelogging
 ms.assetid: 638F08E3-5970-40B3-8025-E3D81ECA1D2A
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: TraceLoggingWriteStop, TraceLoggingWriteStop macro, tracelogging.traceloggingwritestop, traceloggingactivity/TraceLoggingWriteStop
 ms.prod: windows-hardware
 ms.technology: windows-devices

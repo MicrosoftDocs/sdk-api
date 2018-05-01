@@ -7,7 +7,7 @@ old-location: winprog\ixmlelementcollection.htm
 old-project: DevNotes
 ms.assetid: 1d27e5fc-0491-44ee-9134-40f9f909b1cb
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/13/2018
 ms.keywords: IXMLElementCollection, IXMLElementCollection interface [Windows API], IXMLElementCollection interface [Windows API], described, msxml/IXMLElementCollection, winprog.ixmlelementcollection
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Msxml.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IXMLElementCollection interface

@@ -7,7 +7,7 @@ old-location: dshow\icameracontrol_get_exposurerelative.htm
 old-project: DirectShow
 ms.assetid: d63cf869-ccb6-45cb-85ba-a1e41faa8086
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ICameraControl, ICameraControl interface [DirectShow], get_ExposureRelative method, ICameraControl::get_ExposureRelative, ICameraControlget_ExposureRelative, dshow.icameracontrol_get_exposurerelative, get_ExposureRelative method [DirectShow], get_ExposureRelative method [DirectShow], ICameraControl interface, get_ExposureRelative,ICameraControl.get_ExposureRelative, vidcap/ICameraControl::get_ExposureRelative
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: VIDEOHDR, *PVIDEOHDR, *LPVIDEOHDR
+req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
 topic_type:
 -	APIRef
 -	kbSyntax

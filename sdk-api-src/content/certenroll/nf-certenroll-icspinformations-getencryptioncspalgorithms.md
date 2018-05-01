@@ -7,7 +7,7 @@ old-location: security\icspinformations_getencryptioncspalgorithms_method.htm
 old-project: SecCertEnroll
 ms.assetid: 85d2507c-0d0c-47a3-beb9-62af42b3ca3f
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: GetEncryptionCspAlgorithms method [Security], GetEncryptionCspAlgorithms method [Security], ICspInformations interface, GetEncryptionCspAlgorithms,ICspInformations.GetEncryptionCspAlgorithms, ICspInformations, ICspInformations interface [Security], GetEncryptionCspAlgorithms method, ICspInformations::GetEncryptionCspAlgorithms, certenroll/ICspInformations::GetEncryptionCspAlgorithms, security.icspinformations_getencryptioncspalgorithms_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

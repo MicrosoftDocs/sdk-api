@@ -7,7 +7,7 @@ old-location: mstv\idvbteletextdescriptor_gettag.htm
 old-project: mstv
 ms.assetid: 1f359c37-8d8f-48de-a4a2-89617c5761ed
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies], IDvbTeletextDescriptor interface, GetTag,IDvbTeletextDescriptor.GetTag, IDvbTeletextDescriptor, IDvbTeletextDescriptor interface [Microsoft TV Technologies], GetTag method, IDvbTeletextDescriptor::GetTag, dvbsiparser/IDvbTeletextDescriptor::GetTag, mstv.idvbteletextdescriptor_gettag
 ms.prod: windows-hardware
 ms.technology: windows-devices

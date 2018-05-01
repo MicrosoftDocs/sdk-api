@@ -7,7 +7,7 @@ old-location: security\icenroll4_removependingrequest.htm
 old-project: SecCrypto
 ms.assetid: 22ddd7f8-b2c0-4b9a-a2b3-c2cb470d0502
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: CEnroll object [Security], removePendingRequest method, ICEnroll4, ICEnroll4 interface [Security], removePendingRequest method, ICEnroll4::removePendingRequest, _xen_icenroll4_removependingrequest, removePendingRequest method [Security], removePendingRequest method [Security], CEnroll object, removePendingRequest method [Security], ICEnroll4 interface, removePendingRequest,ICEnroll4.removePendingRequest, security.icenroll4_removependingrequest, xenroll/ICEnroll4::removePendingRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\imfsample_setsampleduration.htm
 old-project: medfound
 ms.assetid: f97be98e-8f1b-4bae-8cdd-8bdfe107894d
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFSample, IMFSample interface [Media Foundation], SetSampleDuration method, IMFSample::SetSampleDuration, SetSampleDuration method [Media Foundation], SetSampleDuration method [Media Foundation], IMFSample interface, SetSampleDuration,IMFSample.SetSampleDuration, f97be98e-8f1b-4bae-8cdd-8bdfe107894d, mf.imfsample_setsampleduration, mfobjects/IMFSample::SetSampleDuration
 ms.prod: windows-hardware
 ms.technology: windows-devices

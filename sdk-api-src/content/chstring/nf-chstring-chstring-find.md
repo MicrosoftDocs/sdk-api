@@ -7,7 +7,7 @@ old-location: wmi\chstring_find.htm
 old-project: WmiSdk
 ms.assetid: 98a7c5ad-5bc7-4918-b978-45d2b439f250
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: CHString, CHString::Find, CHString::Find methods [Windows Management Instrumentation], Find,CHString.Find, chstring/CHString::Find, wmi.chstring_find
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CF_SYNC_ROOT_STANDARD_INFO
+req.typenames: CF_SYNC_STATUS
 topic_type:
 -	APIRef
 -	kbSyntax

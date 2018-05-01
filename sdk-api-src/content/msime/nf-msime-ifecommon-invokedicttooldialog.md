@@ -7,7 +7,7 @@ old-location: intl\ifecommon_invokedicttooldialog.htm
 old-project: Intl
 ms.assetid: E70E3B78-58D7-40E9-8DAB-447B4CBC13F4
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/25/2018
 ms.keywords: IFECommon, IFECommon interface [Internationalization for Windows Applications], InvokeDictToolDialog method, IFECommon::InvokeDictToolDialog, InvokeDictToolDialog method [Internationalization for Windows Applications], InvokeDictToolDialog method [Internationalization for Windows Applications], IFECommon interface, InvokeDictToolDialog,IFECommon.InvokeDictToolDialog, intl.ifecommon_invokedicttooldialog, msime/IFECommon::InvokeDictToolDialog
 ms.prod: windows-hardware
 ms.technology: windows-devices

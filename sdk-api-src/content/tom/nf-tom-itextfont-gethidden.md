@@ -7,7 +7,7 @@ old-location: controls\ITextFont_GetHidden.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\gethidden.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: GetHidden method [Windows Controls], GetHidden method [Windows Controls], ITextFont interface, GetHidden,ITextFont.GetHidden, ITextFont, ITextFont interface [Windows Controls], GetHidden method, ITextFont::GetHidden, _win32_ITextFont_GetHidden, _win32_ITextFont_GetHidden_cpp, controls.ITextFont_GetHidden, controls._win32_ITextFont_GetHidden, tom/ITextFont::GetHidden
 ms.prod: windows-hardware
 ms.technology: windows-devices

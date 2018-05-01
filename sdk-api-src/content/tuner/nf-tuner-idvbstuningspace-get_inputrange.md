@@ -7,7 +7,7 @@ old-location: mstv\idvbstuningspace_get_inputrange.htm
 old-project: mstv
 ms.assetid: d116c1d1-df48-434b-ad49-eabd0efaa810
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IDVBSTuningSpace, IDVBSTuningSpace interface [Microsoft TV Technologies], get_InputRange method, IDVBSTuningSpace::get_InputRange, IDVBSTuningSpaceget_InputRange, get_InputRange method [Microsoft TV Technologies], get_InputRange method [Microsoft TV Technologies], IDVBSTuningSpace interface, get_InputRange,IDVBSTuningSpace.get_InputRange, mstv.idvbstuningspace_get_inputrange, tuner/IDVBSTuningSpace::get_InputRange
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\dscreateisecurityinfoobject.htm
 old-project: SecAuthZ
 ms.assetid: 44cd8d55-7232-478a-a3d3-bbf5fc764bcd
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: DSCreateISecurityInfoObject, DSCreateISecurityInfoObject function [Security], DSSI_IS_ROOT, DSSI_NO_ACCESS_CHECK, DSSI_NO_EDIT_OWNER, DSSI_NO_EDIT_SACL, DSSI_NO_FILTER, DSSI_NO_READONLY_MESSAGE, DSSI_READ_ONLY, dssec/DSCreateISecurityInfoObject, security.dscreateisecurityinfoobject
 ms.prod: windows-hardware
 ms.technology: windows-devices

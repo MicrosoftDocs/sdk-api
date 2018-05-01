@@ -7,7 +7,7 @@ old-location: wmp\iwmpnetwork_setproxyname.htm
 old-project: WMP
 ms.assetid: 6f484f5b-195c-496d-932e-3e1fdbf873d8
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPNetwork, IWMPNetwork interface [Windows Media Player], setProxyName method, IWMPNetwork::setProxyName, IWMPNetworksetProxyName, setProxyName method [Windows Media Player], setProxyName method [Windows Media Player], IWMPNetwork interface, setProxyName,IWMPNetwork.setProxyName, wmp.iwmpnetwork_setproxyname, wmp/IWMPNetwork::setProxyName
 ms.prod: windows-hardware
 ms.technology: windows-devices

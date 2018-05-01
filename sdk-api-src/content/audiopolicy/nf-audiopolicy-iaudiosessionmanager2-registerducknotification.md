@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiosessionmanager2_registerducknotification.htm
 old-project: CoreAudio
 ms.assetid: bed27f3f-6293-4a25-baa0-39562d45bddc
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: IAudioSessionManager2, IAudioSessionManager2 interface [Core Audio], RegisterDuckNotification method, IAudioSessionManager2::RegisterDuckNotification, RegisterDuckNotification method [Core Audio], RegisterDuckNotification method [Core Audio], IAudioSessionManager2 interface, RegisterDuckNotification,IAudioSessionManager2.RegisterDuckNotification, audiopolicy/IAudioSessionManager2::RegisterDuckNotification, coreaudio.iaudiosessionmanager2_registerducknotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: AE_CURRENT_POSITION, *PAE_CURRENT_POSITION
+req.typenames: UNCOMPRESSEDAUDIOFORMAT
 topic_type:
 -	APIRef
 -	kbSyntax

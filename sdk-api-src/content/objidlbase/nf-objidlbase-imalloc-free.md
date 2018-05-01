@@ -7,7 +7,7 @@ old-location: com\imalloc_free.htm
 old-project: com
 ms.assetid: d65411ea-13d5-4932-a757-d897311e9e28
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: Free method [COM], Free method [COM], IMalloc interface, Free,IMalloc.Free, IMalloc, IMalloc interface [COM], Free method, IMalloc::Free, _com_imalloc_free, com.imalloc_free, objidlbase/IMalloc::Free
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMalloc::Free method

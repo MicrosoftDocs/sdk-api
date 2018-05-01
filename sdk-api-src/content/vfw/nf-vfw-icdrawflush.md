@@ -7,7 +7,7 @@ old-location: multimedia\icdrawflush.htm
 old-project: Multimedia
 ms.assetid: ceff1075-4e23-4be0-aac0-27fc5fe68083
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/25/2018
 ms.keywords: ICDrawFlush, ICDrawFlush macro [Windows Multimedia], _win32_ICDrawFlush, multimedia.icdrawflush, vfw/ICDrawFlush
 ms.prod: windows-hardware
 ms.technology: windows-devices

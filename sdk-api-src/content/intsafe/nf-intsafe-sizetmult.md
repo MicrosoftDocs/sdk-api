@@ -7,8 +7,8 @@ old-location: shell\SizeTMult.htm
 old-project: shell
 ms.assetid: 078bc77b-6af3-4d13-8f98-5f52605fdf8d
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
-ms.keywords: SizeTMult, SizeTMult function [Windows Shell], _shell_SizeTMult, intsafe/SizeTMult, shell.SizeTMult
+ms.date: 4/26/2018
+ms.keywords: SizeTMult, SizeTMult function [Windows Shell], ULongLongMult, _shell_SizeTMult, intsafe/SizeTMult, shell.SizeTMult
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

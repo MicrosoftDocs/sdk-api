@@ -7,7 +7,7 @@ old-location: wmformat\iwmdeviceregistration_unregisterdevice.htm
 old-project: wmformat
 ms.assetid: 5cb1282a-5744-4264-8f73-ecad2854a125
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMDeviceRegistration, IWMDeviceRegistration interface [windows Media Format], UnregisterDevice method, IWMDeviceRegistration::UnregisterDevice, IWMDeviceRegistrationUnregisterDevice, UnregisterDevice method [windows Media Format], UnregisterDevice method [windows Media Format], IWMDeviceRegistration interface, UnregisterDevice,IWMDeviceRegistration.UnregisterDevice, wmformat.iwmdeviceregistration_unregisterdevice, wmsdkidl/IWMDeviceRegistration::UnregisterDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices

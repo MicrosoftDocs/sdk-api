@@ -7,7 +7,7 @@ old-location: mstv\idtfilter_put_blockunrated.htm
 old-project: mstv
 ms.assetid: 2b6ef516-bbc8-4d17-a306-433e8265e879
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IDTFilter, IDTFilter interface [Microsoft TV Technologies], put_BlockUnRated method, IDTFilter::put_BlockUnRated, IDTFilterput_BlockUnRated, encdec/IDTFilter::put_BlockUnRated, mstv.idtfilter_put_blockunrated, put_BlockUnRated method [Microsoft TV Technologies], put_BlockUnRated method [Microsoft TV Technologies], IDTFilter interface, put_BlockUnRated,IDTFilter.put_BlockUnRated
 ms.prod: windows-hardware
 ms.technology: windows-devices

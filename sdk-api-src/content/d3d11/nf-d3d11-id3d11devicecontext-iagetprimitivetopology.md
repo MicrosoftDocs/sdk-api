@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext_iagetprimitivetopology.htm
 old-project: direct3d11
 ms.assetid: 99f82993-72c2-47b5-a2fe-16bb1e7bd2e3
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/6/2018
 ms.keywords: 83077387-5c62-f840-c94a-b5edcab58593, IAGetPrimitiveTopology method [Direct3D 11], IAGetPrimitiveTopology method [Direct3D 11], ID3D11DeviceContext interface, IAGetPrimitiveTopology,ID3D11DeviceContext.IAGetPrimitiveTopology, ID3D11DeviceContext, ID3D11DeviceContext interface [Direct3D 11], IAGetPrimitiveTopology method, ID3D11DeviceContext::IAGetPrimitiveTopology, d3d11/ID3D11DeviceContext::IAGetPrimitiveTopology, direct3d11.id3d11devicecontext_iagetprimitivetopology
 ms.prod: windows-hardware
 ms.technology: windows-devices

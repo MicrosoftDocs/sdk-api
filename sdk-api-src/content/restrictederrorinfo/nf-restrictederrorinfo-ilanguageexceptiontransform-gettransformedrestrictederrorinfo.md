@@ -7,7 +7,7 @@ old-location: winrt\ilanguageexceptiontransform_gettransformedrestrictederrorinf
 old-project: WinRT
 ms.assetid: F64449FE-9562-4210-8C00-9935DE71DA07
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/24/2018
 ms.keywords: GetTransformedRestrictedErrorInfo method [Windows Runtime], GetTransformedRestrictedErrorInfo method [Windows Runtime], ILanguageExceptionTransform interface, GetTransformedRestrictedErrorInfo,ILanguageExceptionTransform.GetTransformedRestrictedErrorInfo, ILanguageExceptionTransform, ILanguageExceptionTransform interface [Windows Runtime], GetTransformedRestrictedErrorInfo method, ILanguageExceptionTransform::GetTransformedRestrictedErrorInfo, restrictederrorinfo/ILanguageExceptionTransform::GetTransformedRestrictedErrorInfo, winrt.ilanguageexceptiontransform_gettransformedrestrictederrorinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ILanguageExceptionTransform::GetTransformedRestrictedErrorInfo method

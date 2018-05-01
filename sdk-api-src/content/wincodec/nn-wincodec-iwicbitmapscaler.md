@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicbitmapscaler.htm
 old-project: wic
 ms.assetid: cc14be9d-d750-40db-a95f-309b392cefe8
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: IWICBitmapScaler, IWICBitmapScaler interface [Windows Imaging Component], IWICBitmapScaler interface [Windows Imaging Component], described, _wic_codec_iwicbitmapscaler, wic._wic_codec_iwicbitmapscaler, wincodec/IWICBitmapScaler
 ms.prod: windows-hardware
 ms.technology: windows-devices

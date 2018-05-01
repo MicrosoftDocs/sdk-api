@@ -7,7 +7,7 @@ old-location: security\icenroll4_setpendingrequestinfo.htm
 old-project: SecCrypto
 ms.assetid: be369059-5852-4cde-8f78-d5883735b670
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: CEnroll object [Security], setPendingRequestInfo method, ICEnroll4, ICEnroll4 interface [Security], setPendingRequestInfo method, ICEnroll4::setPendingRequestInfo, _xen_icenroll4_setpendingrequestinfo, security.icenroll4_setpendingrequestinfo, setPendingRequestInfo method [Security], setPendingRequestInfo method [Security], CEnroll object, setPendingRequestInfo method [Security], ICEnroll4 interface, setPendingRequestInfo,ICEnroll4.setPendingRequestInfo, xenroll/ICEnroll4::setPendingRequestInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: appxpkg\iappxencryptionfactory3_encryptpackage.htm
 old-project: appxpkg
 ms.assetid: 2B3FE76E-57B5-411C-BD87-B9AE3208A11D
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/26/2018
 ms.keywords: EncryptPackage method [App packaging and management], EncryptPackage method [App packaging and management], IAppxEncryptionFactory3 interface, EncryptPackage,IAppxEncryptionFactory3.EncryptPackage, IAppxEncryptionFactory3, IAppxEncryptionFactory3 interface [App packaging and management], EncryptPackage method, IAppxEncryptionFactory3::EncryptPackage, appxpackaging/IAppxEncryptionFactory3::EncryptPackage, appxpkg.iappxencryptionfactory3_encryptpackage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_ARCHITECTURE2
+req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
 topic_type:
 -	APIRef
 -	kbSyntax

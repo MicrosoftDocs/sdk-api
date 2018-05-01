@@ -7,7 +7,7 @@ old-location: tapi3\ienumagentsession_skip.htm
 old-project: Tapi
 ms.assetid: 57358984-b874-46ac-9370-aab6a5136b87
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: IEnumAgentSession, IEnumAgentSession interface [TAPI 2.2], Skip method, IEnumAgentSession::Skip, Skip method [TAPI 2.2], Skip method [TAPI 2.2], IEnumAgentSession interface, Skip,IEnumAgentSession.Skip, _tapi3_ienumagentsession_skip, tapi3.ienumagentsession_skip, tapi3cc/IEnumAgentSession::Skip
 ms.prod: windows-hardware
 ms.technology: windows-devices

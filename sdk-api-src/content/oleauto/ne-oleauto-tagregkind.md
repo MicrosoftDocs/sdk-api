@@ -7,7 +7,7 @@ old-location: automat\regkind.htm
 old-project: automat
 ms.assetid: 2ca13d58-59d2-4e5d-8094-9f1c03bf463c
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: REGKIND, REGKIND enumeration [Automation], REGKIND_DEFAULT, REGKIND_NONE, REGKIND_REGISTER, _oa96_REGKIND, automat.regkind, oleauto/REGKIND, oleauto/REGKIND_DEFAULT, oleauto/REGKIND_NONE, oleauto/REGKIND_REGISTER, tagREGKIND
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # tagREGKIND enumeration

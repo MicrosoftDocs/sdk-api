@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicimagingfactory_createdecoder.htm
 old-project: wic
 ms.assetid: 0d0072ce-3480-4687-a4ea-640953cf5a36
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: CreateDecoder method [Windows Imaging Component], CreateDecoder method [Windows Imaging Component], IWICImagingFactory interface, CreateDecoder,IWICImagingFactory.CreateDecoder, IWICImagingFactory, IWICImagingFactory interface [Windows Imaging Component], CreateDecoder method, IWICImagingFactory::CreateDecoder, _wic_codec_iwicimagingfactory_createdecoder, wic._wic_codec_iwicimagingfactory_createdecoder, wincodec/IWICImagingFactory::CreateDecoder
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\INameSpaceTreeControlEvents_OnItemClick.htm
 old-project: shell
 ms.assetid: a595ffd0-edc6-4726-b7b2-ad1aed9e9701
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: INameSpaceTreeControlEvents, INameSpaceTreeControlEvents interface [Windows Shell], OnItemClick method, INameSpaceTreeControlEvents::OnItemClick, NSTCECT_BUTTON, NSTCECT_DBLCLICK, NSTCECT_LBUTTON, NSTCECT_MBUTTON, NSTCECT_RBUTTON, NSTCEHT_NOWHERE, NSTCEHT_ONITEM, NSTCEHT_ONITEMBUTTON, NSTCEHT_ONITEMICON, NSTCEHT_ONITEMINDENT, NSTCEHT_ONITEMLABEL, NSTCEHT_ONITEMRIGHT, NSTCEHT_ONITEMSTATEICON, NSTCEHT_ONITEMTABBUTTON, OnItemClick method [Windows Shell], OnItemClick method [Windows Shell], INameSpaceTreeControlEvents interface, OnItemClick,INameSpaceTreeControlEvents.OnItemClick, _shell_INameSpaceTreeControlEvents_OnItemClick, shell.INameSpaceTreeControlEvents_OnItemClick, shobjidl/INameSpaceTreeControlEvents::OnItemClick
 ms.prod: windows-hardware
 ms.technology: windows-devices

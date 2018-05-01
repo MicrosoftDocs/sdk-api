@@ -7,7 +7,7 @@ old-location: http\http_data_chunk.htm
 old-project: Http
 ms.assetid: ae67c066-c8bd-483f-829f-30192f49593d
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: "*PHTTP_DATA_CHUNK, HTTP_DATA_CHUNK, HTTP_DATA_CHUNK structure [HTTP], PHTTP_DATA_CHUNK, PHTTP_DATA_CHUNK structure pointer [HTTP], _HTTP_DATA_CHUNK, _http_http_data_chunk, http.http_data_chunk, http/HTTP_DATA_CHUNK, http/PHTTP_DATA_CHUNK"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -57,6 +57,11 @@ The
 ## -struct-fields
 
 
+
+
+### -field DataChunkType
+
+Type of data store. This member can be one of the values from the <b>HTTP_DATA_CHUNK_TYPE</b> enumeration.
 
 
 ### -field FromMemory
@@ -115,11 +120,6 @@ the <a href="https://msdn.microsoft.com/caef2e93-39cd-4282-97d9-870f8236d8c4">Ht
 
 <div class="alert"><b>Note</b>  This string must be NULL terminated.</div>
 <div> </div>
-
-### -field DataChunkType
-
-Type of data store. This member can be one of the values from the <b>HTTP_DATA_CHUNK_TYPE</b> enumeration.
-
 
 ## -see-also
 

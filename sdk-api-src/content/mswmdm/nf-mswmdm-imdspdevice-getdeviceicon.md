@@ -7,7 +7,7 @@ old-location: wmdm\imdspdevice_getdeviceicon.htm
 old-project: WMDM
 ms.assetid: 0a7fcae6-cf7f-4b78-847c-de9db8c32871
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: GetDeviceIcon method [windows Media Device Manager], GetDeviceIcon method [windows Media Device Manager], IMDSPDevice interface, GetDeviceIcon,IMDSPDevice.GetDeviceIcon, IMDSPDevice, IMDSPDevice interface [windows Media Device Manager], GetDeviceIcon method, IMDSPDevice::GetDeviceIcon, IMDSPDeviceGetDeviceIcon, mswmdm/IMDSPDevice::GetDeviceIcon, wmdm.imdspdevice_getdeviceicon
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMDSPDevice::GetDeviceIcon method

@@ -7,7 +7,7 @@ old-location: mstv\iatscpsipparser_getstt.htm
 old-project: mstv
 ms.assetid: 8aa6476c-9c75-4139-b5bc-6109ff223d98
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetSTT method [Microsoft TV Technologies], GetSTT method [Microsoft TV Technologies], IAtscPsipParser interface, GetSTT,IAtscPsipParser.GetSTT, IAtscPsipParser, IAtscPsipParser interface [Microsoft TV Technologies], GetSTT method, IAtscPsipParser::GetSTT, IAtscPsipParserGetSTT, atscpsipparser/IAtscPsipParser::GetSTT, mstv.iatscpsipparser_getstt
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_WRITER_PAYLOAD_STREAM
+req.typenames: AsyncStatus
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,7 +7,7 @@ old-location: mf\itocentry_setdescriptor.htm
 old-project: medfound
 ms.assetid: 09a366a6-fcb4-4a0b-8df1-795360d147b9
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: ITocEntry, ITocEntry interface [Media Foundation], SetDescriptor method, ITocEntry::SetDescriptor, SetDescriptor method [Media Foundation], SetDescriptor method [Media Foundation], ITocEntry interface, SetDescriptor,ITocEntry.SetDescriptor, codecapi.itocentry_setdescriptor, mf.itocentry_setdescriptor, wmcodecdsp/ITocEntry::SetDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices

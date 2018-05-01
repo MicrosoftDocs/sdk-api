@@ -7,7 +7,7 @@ old-location: nps\SDO_new_log_file_frequency.htm
 old-project: Nps
 ms.assetid: d051ff06-f425-49e5-ac29-6d7873174eb7
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/24/2018
 ms.keywords: IAS_LOGGING_DAILY, IAS_LOGGING_MONTHLY, IAS_LOGGING_UNLIMITED_SIZE, IAS_LOGGING_WEEKLY, IAS_LOGGING_WHEN_FILE_SIZE_REACHES, NEW_LOG_FILE_FREQUENCY, NEW_LOG_FILE_FREQUENCY enumeration [Network Policy Server], _NEW_LOG_FILE_FREQUENCY, _sdo_new_log_file_frequency, nps.SDO_new_log_file_frequency, sdo.new_log_file_frequency, sdoias/IAS_LOGGING_DAILY, sdoias/IAS_LOGGING_MONTHLY, sdoias/IAS_LOGGING_UNLIMITED_SIZE, sdoias/IAS_LOGGING_WEEKLY, sdoias/IAS_LOGGING_WHEN_FILE_SIZE_REACHES, sdoias/NEW_LOG_FILE_FREQUENCY
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _NEW_LOG_FILE_FREQUENCY enumeration

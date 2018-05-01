@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmfilemanagementjobmanager_enumfilemanagementjobs.htm
 old-project: Fsrm
 ms.assetid: 4af6f794-d9d4-4e03-9cd5-a4d8769888ca
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: EnumFileManagementJobs method [File Server Resource Manager], EnumFileManagementJobs method [File Server Resource Manager], FsrmFileManagementJobManager class, EnumFileManagementJobs method [File Server Resource Manager], IFsrmFileManagementJobManager interface, EnumFileManagementJobs,IFsrmFileManagementJobManager.EnumFileManagementJobs, FsrmFileManagementJobManager class [File Server Resource Manager], EnumFileManagementJobs method, IFsrmFileManagementJobManager, IFsrmFileManagementJobManager interface [File Server Resource Manager], EnumFileManagementJobs method, IFsrmFileManagementJobManager::EnumFileManagementJobs, fs.ifsrmfilemanagementjobmanager_enumfilemanagementjobs, fsrm.ifsrmfilemanagementjobmanager_enumfilemanagementjobs, fsrmreports/IFsrmFileManagementJobManager::EnumFileManagementJobs
 ms.prod: windows-hardware
 ms.technology: windows-devices

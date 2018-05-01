@@ -7,7 +7,7 @@ old-location: coreaudio\icontrolinterface_getiid.htm
 old-project: CoreAudio
 ms.assetid: c6d46f37-6b9a-4d20-8a97-9fb5284dbc42
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: GetIID method [Core Audio], GetIID method [Core Audio], IControlInterface interface, GetIID,IControlInterface.GetIID, IControlInterface, IControlInterface interface [Core Audio], GetIID method, IControlInterface::GetIID, IControlInterfaceGetIID, coreaudio.icontrolinterface_getiid, devicetopology/IControlInterface::GetIID
 ms.prod: windows-hardware
 ms.technology: windows-devices

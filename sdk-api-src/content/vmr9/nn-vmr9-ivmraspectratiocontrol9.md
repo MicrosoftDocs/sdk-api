@@ -7,7 +7,7 @@ old-location: dshow\ivmraspectratiocontrol9.htm
 old-project: DirectShow
 ms.assetid: ae850eea-c283-4500-baa0-e26641576852
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IVMRAspectRatioControl9, IVMRAspectRatioControl9 interface [DirectShow], IVMRAspectRatioControl9 interface [DirectShow], described, IVMRAspectRatioControl9Interface, dshow.ivmraspectratiocontrol9, vmr9/IVMRAspectRatioControl9
 ms.prod: windows-hardware
 ms.technology: windows-devices

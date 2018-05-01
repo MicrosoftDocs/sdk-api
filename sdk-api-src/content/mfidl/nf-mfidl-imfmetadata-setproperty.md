@@ -7,7 +7,7 @@ old-location: mf\imfmetadata_setproperty.htm
 old-project: medfound
 ms.assetid: 416a7fba-506c-405d-a230-7e8a1c801209
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 416a7fba-506c-405d-a230-7e8a1c801209, IMFMetadata, IMFMetadata interface [Media Foundation], SetProperty method, IMFMetadata::SetProperty, SetProperty method [Media Foundation], SetProperty method [Media Foundation], IMFMetadata interface, SetProperty,IMFMetadata.SetProperty, mf.imfmetadata_setproperty, mfidl/IMFMetadata::SetProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

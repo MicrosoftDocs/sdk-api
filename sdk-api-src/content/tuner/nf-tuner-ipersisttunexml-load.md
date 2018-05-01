@@ -7,7 +7,7 @@ old-location: mstv\ipersisttunexml_load.htm
 old-project: mstv
 ms.assetid: afbfb4da-ac61-496b-9383-05c312bbfc2c
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IPersistTuneXml, IPersistTuneXml interface [Microsoft TV Technologies], Load method, IPersistTuneXml::Load, Load method [Microsoft TV Technologies], Load method [Microsoft TV Technologies], IPersistTuneXml interface, Load,IPersistTuneXml.Load, mstv.ipersisttunexml_load, tuner/IPersistTuneXml::Load
 ms.prod: windows-hardware
 ms.technology: windows-devices

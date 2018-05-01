@@ -7,7 +7,7 @@ old-location: mf\imfsourcereadercallback_onevent.htm
 old-project: medfound
 ms.assetid: cbe85d0f-26a1-4526-bfe6-b6183812a271
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFSourceReaderCallback, IMFSourceReaderCallback interface [Media Foundation], OnEvent method, IMFSourceReaderCallback::OnEvent, OnEvent method [Media Foundation], OnEvent method [Media Foundation], IMFSourceReaderCallback interface, OnEvent,IMFSourceReaderCallback.OnEvent, mf.imfsourcereadercallback_onevent, mfreadwrite/IMFSourceReaderCallback::OnEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

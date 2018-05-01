@@ -7,7 +7,7 @@ old-location: security\iazapplication_deletepolicyreadername.htm
 old-project: SecAuthZ
 ms.assetid: 1948fb2d-a1ca-4f66-889d-d00f8f265ba5
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: AzApplication object [Security], DeletePolicyReaderName method, DeletePolicyReaderName method [Security], DeletePolicyReaderName method [Security], AzApplication object, DeletePolicyReaderName method [Security], IAzApplication interface, DeletePolicyReaderName,IAzApplication.DeletePolicyReaderName, IAzApplication, IAzApplication interface [Security], DeletePolicyReaderName method, IAzApplication::DeletePolicyReaderName, azroles/IAzApplication::DeletePolicyReaderName, security.iazapplication_deletepolicyreadername
 ms.prod: windows-hardware
 ms.technology: windows-devices

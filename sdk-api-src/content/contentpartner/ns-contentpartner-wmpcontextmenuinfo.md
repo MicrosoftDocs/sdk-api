@@ -7,7 +7,7 @@ old-location: wmp\WMPContextMenuInfo.htm
 old-project: WMP
 ms.assetid: a37ddbe1-7c66-4060-b93d-bd494cdc4521
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: WMPContextMenuInfo, WMPContextMenuInfo structure [Windows Media Player], contentpartner/WMPContextMenuInfo, wmp.WMPContextMenuInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmformat\iwmsinternaladminnetsource_setcredentials.htm
 old-project: wmformat
 ms.assetid: c0655ed3-8d14-447a-b74f-054498eb75e9
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMSInternalAdminNetSource, IWMSInternalAdminNetSource interface [windows Media Format], SetCredentials method, IWMSInternalAdminNetSource::SetCredentials, IWMSInternalAdminNetSourceSetCredentials, SetCredentials method [windows Media Format], SetCredentials method [windows Media Format], IWMSInternalAdminNetSource interface, SetCredentials,IWMSInternalAdminNetSource.SetCredentials, wmformat.iwmsinternaladminnetsource_setcredentials, wmsinternaladminnetsource/IWMSInternalAdminNetSource::SetCredentials
 ms.prod: windows-hardware
 ms.technology: windows-devices

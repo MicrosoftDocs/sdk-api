@@ -7,7 +7,7 @@ old-location: mstv\ianalogaudiocomponenttype_put_analogaudiomode.htm
 old-project: mstv
 ms.assetid: cb3c4db6-8364-4c95-82d5-62276f26c7bb
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IAnalogAudioComponentType, IAnalogAudioComponentType interface [Microsoft TV Technologies], put_AnalogAudioMode method, IAnalogAudioComponentType::put_AnalogAudioMode, IAnalogAudioComponentTypeput_AnalogAudioMode, mstv.ianalogaudiocomponenttype_put_analogaudiomode, put_AnalogAudioMode method [Microsoft TV Technologies], put_AnalogAudioMode method [Microsoft TV Technologies], IAnalogAudioComponentType interface, put_AnalogAudioMode,IAnalogAudioComponentType.put_AnalogAudioMode, tuner/IAnalogAudioComponentType::put_AnalogAudioMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

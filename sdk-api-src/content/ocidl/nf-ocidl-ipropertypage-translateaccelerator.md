@@ -7,7 +7,7 @@ old-location: com\ipropertypage_translateaccelerator.htm
 old-project: com
 ms.assetid: 70501c3d-257c-4981-b841-4bd45f0bec27
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IPropertyPage, IPropertyPage interface [COM], TranslateAccelerator method, IPropertyPage::TranslateAccelerator, TranslateAccelerator method [COM], TranslateAccelerator method [COM], IPropertyPage interface, TranslateAccelerator,IPropertyPage.TranslateAccelerator, _ctrl_ipropertypage_translateaccelerator, com.ipropertypage_translateaccelerator, ocidl/IPropertyPage::TranslateAccelerator
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IPropertyPage::TranslateAccelerator method

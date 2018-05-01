@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol_chaptersearch.htm
 old-project: DirectShow
 ms.assetid: 1389df65-e269-4c2b-b276-a29da33fe515
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ChapterSearch method [DirectShow], ChapterSearch method [DirectShow], IDvdControl interface, ChapterSearch,IDvdControl.ChapterSearch, IDvdControl, IDvdControl interface [DirectShow], ChapterSearch method, IDvdControl::ChapterSearch, IDvdControlChapterSearch, dshow.idvdcontrol_chaptersearch, strmif/IDvdControl::ChapterSearch
 ms.prod: windows-hardware
 ms.technology: windows-devices

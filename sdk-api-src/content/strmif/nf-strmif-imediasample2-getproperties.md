@@ -7,7 +7,7 @@ old-location: dshow\imediasample2_getproperties.htm
 old-project: DirectShow
 ms.assetid: ef20deed-f906-459a-8c2a-f1c929ade9ac
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetProperties method [DirectShow], GetProperties method [DirectShow], IMediaSample2 interface, GetProperties,IMediaSample2.GetProperties, IMediaSample2, IMediaSample2 interface [DirectShow], GetProperties method, IMediaSample2::GetProperties, IMediaSample2GetProperties, dshow.imediasample2_getproperties, strmif/IMediaSample2::GetProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

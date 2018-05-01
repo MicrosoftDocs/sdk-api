@@ -7,7 +7,7 @@ old-location: winrt\irestrictederrorinfo_getreference.htm
 old-project: WinRT
 ms.assetid: e7f0c451-c6a4-49ec-a97a-dc834081b3c1
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/24/2018
 ms.keywords: GetReference method [Windows Runtime], GetReference method [Windows Runtime], IRestrictedErrorInfo interface, GetReference,IRestrictedErrorInfo.GetReference, IRestrictedErrorInfo, IRestrictedErrorInfo interface [Windows Runtime], GetReference method, IRestrictedErrorInfo::GetReference, restrictederrorinfo/IRestrictedErrorInfo::GetReference, winrt.irestrictederrorinfo_getreference
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IRestrictedErrorInfo::GetReference method

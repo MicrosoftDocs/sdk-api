@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IRawElementProviderFragment_Navigate.htm
 old-project: WinAuto
 ms.assetid: 9e0caf58-a261-4a2b-8e48-368ea3ad8840
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: IRawElementProviderFragment, IRawElementProviderFragment interface [Windows Accessibility], Navigate method, IRawElementProviderFragment::Navigate, Navigate method [Windows Accessibility], Navigate method [Windows Accessibility], IRawElementProviderFragment interface, Navigate,IRawElementProviderFragment.Navigate, uiauto.uiauto_IRawElementProviderFragment_Navigate, uiauto_IRawElementProviderFragment_Navigate, uiautomationcore/IRawElementProviderFragment::Navigate, winauto.uiauto_IRawElementProviderFragment_Navigate
 ms.prod: windows-hardware
 ms.technology: windows-devices

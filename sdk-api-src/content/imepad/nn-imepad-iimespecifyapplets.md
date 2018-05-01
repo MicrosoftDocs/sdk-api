@@ -7,7 +7,7 @@ old-location: intl\iimespecifyapplets.htm
 old-project: Intl
 ms.assetid: 788C7272-3BFF-4531-B66E-211585BF85E3
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/25/2018
 ms.keywords: IImeSpecifyApplets, IImeSpecifyApplets interface [Internationalization for Windows Applications], IImeSpecifyApplets interface [Internationalization for Windows Applications], described, imepad/IImeSpecifyApplets, intl.iimespecifyapplets
 ms.prod: windows-hardware
 ms.technology: windows-devices

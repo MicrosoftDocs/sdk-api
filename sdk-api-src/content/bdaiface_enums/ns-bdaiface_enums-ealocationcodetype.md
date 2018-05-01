@@ -1,0 +1,92 @@
+---
+UID: NS:bdaiface_enums.EALocationCodeType
+title: EALocationCodeType
+author: windows-driver-content
+description: The EALocationCodeType structure defines an Emergency Alert (EA) location code, as defined in ANSI/SCTE 28.
+old-location: mstv\ealocationcodetype.htm
+old-project: mstv
+ms.assetid: dd705e3a-4125-46db-b33d-d97476096484
+ms.author: windowsdriverdev
+ms.date: 4/26/2018
+ms.keywords: EALocationCodeType, EALocationCodeType structure [Microsoft TV Technologies], EALocationCodeTypeStructure, bdaiface_enums/EALocationCodeType, mstv.ealocationcodetype
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: struct
+req.header: bdaiface_enums.h
+req.include-header: Bdaiface.h
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: EALocationCodeType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	bdaiface_enums.h
+api_name:
+-	EALocationCodeType
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# EALocationCodeType structure
+
+
+## -description
+
+
+
+The EALocationCodeType structure defines an Emergency Alert (EA) location code, as defined in ANSI/SCTE 28.
+
+
+
+
+## -struct-fields
+
+
+
+
+### -field LocationCodeScheme
+
+Identifies the standard that shall be used to interpret the other members of this structure. Currently this value must be SCTE_18, meaning SCTE 18, "Emergency Alert Message for Cable."
+
+
+### -field state_code
+
+Contains the state_code field.
+
+
+### -field county_subdivision
+
+Contains the county_subdivision field.
+
+
+### -field county_code
+
+Contains the county_code field.
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/5ae43ac6-519d-486b-aaa5-c766f3194ef2">BDA Structures</a>
+ 
+
+ 
+

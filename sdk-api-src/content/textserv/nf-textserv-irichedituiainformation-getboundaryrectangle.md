@@ -7,7 +7,7 @@ old-location: controls\irichedituiainformation_getboundaryrectangle.htm
 old-project: Controls
 ms.assetid: DCDE0730-25C4-4856-AC20-36C36E20AFB1
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: GetBoundaryRectangle method [Windows Controls], GetBoundaryRectangle method [Windows Controls], IRichEditUiaInformation interface, GetBoundaryRectangle,IRichEditUiaInformation.GetBoundaryRectangle, IRichEditUiaInformation, IRichEditUiaInformation interface [Windows Controls], GetBoundaryRectangle method, IRichEditUiaInformation::GetBoundaryRectangle, controls.irichedituiainformation_getboundaryrectangle, textserv/IRichEditUiaInformation::GetBoundaryRectangle
 ms.prod: windows-hardware
 ms.technology: windows-devices

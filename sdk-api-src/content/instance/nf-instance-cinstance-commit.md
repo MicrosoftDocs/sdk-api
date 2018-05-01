@@ -7,7 +7,7 @@ old-location: wmi\cinstance_commit.htm
 old-project: WmiSdk
 ms.assetid: 699dadf9-18b5-4c6d-a5c4-59ea8a85f089
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: "?Commit@CInstance@@QAEJXZ, ?Commit@CInstance@@QEAAJXZ, CInstance, CInstance interface [Windows Management Instrumentation], Commit method, CInstance::Commit, Commit method [Windows Management Instrumentation], Commit method [Windows Management Instrumentation], CInstance interface, Commit,CInstance.Commit, _hmm_cinstance_commit, instance/CInstance::Commit, wmi.cinstance_commit"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: InputScope
+req.typenames: TrustLevel
 topic_type:
 -	APIRef
 -	kbSyntax

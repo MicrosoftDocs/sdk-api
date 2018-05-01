@@ -7,7 +7,7 @@ old-location: shell\ivirtualdesktopmanager_movewindowtodesktop.htm
 old-project: shell
 ms.assetid: A8756361-E371-41C5-B3F5-BD99439878D9
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IVirtualDesktopManager, IVirtualDesktopManager interface [Windows Shell], MoveWindowToDesktop method, IVirtualDesktopManager::MoveWindowToDesktop, MoveWindowToDesktop method [Windows Shell], MoveWindowToDesktop method [Windows Shell], IVirtualDesktopManager interface, MoveWindowToDesktop,IVirtualDesktopManager.MoveWindowToDesktop, shell.ivirtualdesktopmanager_movewindowtodesktop, shobjidl/IVirtualDesktopManager::MoveWindowToDesktop
 ms.prod: windows-hardware
 ms.technology: windows-devices

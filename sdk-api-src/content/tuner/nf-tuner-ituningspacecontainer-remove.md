@@ -7,7 +7,7 @@ old-location: mstv\ituningspacecontainer_remove.htm
 old-project: mstv
 ms.assetid: 72ead181-6c5a-49d1-a789-3ae4128417c6
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: ITuningSpaceContainer, ITuningSpaceContainer interface [Microsoft TV Technologies], Remove method, ITuningSpaceContainer::Remove, ITuningSpaceContainerRemove, Remove method [Microsoft TV Technologies], Remove method [Microsoft TV Technologies], ITuningSpaceContainer interface, Remove,ITuningSpaceContainer.Remove, mstv.ituningspacecontainer_remove, tuner/ITuningSpaceContainer::Remove
 ms.prod: windows-hardware
 ms.technology: windows-devices

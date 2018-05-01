@@ -7,7 +7,7 @@ old-location: winsock\wsarecvdisconnect_2.htm
 old-project: WinSock
 ms.assetid: 33e0fb8e-3ece-427f-b3ef-43a0f5cf0cc8
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/24/2018
 ms.keywords: WSARecvDisconnect, WSARecvDisconnect function [Winsock], _win32_wsarecvdisconnect_2, winsock.wsarecvdisconnect_2, winsock2/WSARecvDisconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices

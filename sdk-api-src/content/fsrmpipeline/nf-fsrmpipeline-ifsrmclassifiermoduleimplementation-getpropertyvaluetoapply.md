@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmclassifiermoduleimplementation_getpropertyvaluetoapply.h
 old-project: Fsrm
 ms.assetid: 70277473-de96-40e1-980b-4eec6e7b035d
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: GetPropertyValueToApply method [File Server Resource Manager], GetPropertyValueToApply method [File Server Resource Manager], IFsrmClassifierModuleImplementation interface, GetPropertyValueToApply,IFsrmClassifierModuleImplementation.GetPropertyValueToApply, IFsrmClassifierModuleImplementation, IFsrmClassifierModuleImplementation interface [File Server Resource Manager], GetPropertyValueToApply method, IFsrmClassifierModuleImplementation::GetPropertyValueToApply, fs.ifsrmclassifiermoduleimplementation_getpropertyvaluetoapply, fsrm.ifsrmclassifiermoduleimplementation_getpropertyvaluetoapply, fsrmpipeline/IFsrmClassifierModuleImplementation::GetPropertyValueToApply
 ms.prod: windows-hardware
 ms.technology: windows-devices

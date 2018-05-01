@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ISelectionProvider_IsSelectionRequired.htm
 old-project: WinAuto
 ms.assetid: 1b1ee10d-39de-480f-901f-198d9a9c48f8
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: ISelectionProvider, ISelectionProvider interface [Windows Accessibility], IsSelectionRequired property, ISelectionProvider.IsSelectionRequired, ISelectionProvider::get_IsSelectionRequired, IsSelectionRequired property [Windows Accessibility], IsSelectionRequired property [Windows Accessibility], ISelectionProvider interface, get_IsSelectionRequired,ISelectionProvider.get_IsSelectionRequired, uiauto.uiauto_ISelectionProvider_IsSelectionRequired, uiauto_ISelectionProvider_IsSelectionRequired, uiautomationcore/ISelectionProvider::IsSelectionRequired, uiautomationcore/ISelectionProvider::get_IsSelectionRequired, winauto.uiauto_ISelectionProvider_IsSelectionRequired
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,14 +1,14 @@
 ---
 UID: NS:windns.__unnamed_struct_36
-title: DNS_TSIG_DATAW
+title: DNS_TKEY_DATAA
 author: windows-driver-content
-description: The DNS_TSIG_DATA structure represents a secret key transaction authentication (TSIG) resource record (RR) as specified in RFC 2845 and RFC 3645.
-old-location: dns\dns_tsig_data.htm
+description: The DNS_TKEY_DATA structure represents a DNS TKEY resource record, used to establish and delete an algorithm's shared-secret keys between a DNS resolver and server as specified in RFC 2930.
+old-location: dns\dns_tkey_data.htm
 old-project: DNS
-ms.assetid: 32077169-d319-45c0-982f-8d470cd70111
+ms.assetid: 4dad3449-3e41-47d9-89c2-10fa6e51573b
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
-ms.keywords: "*PDNS_TSIG_DATA, *PDNS_TSIG_DATAW, DNS_RCODE_BADKEY, DNS_RCODE_BADSIG, DNS_RCODE_BADTIME, DNS_TSIG_DATA, DNS_TSIG_DATA structure [DNS], DNS_TSIG_DATAW, PDNS_TSIG_DATA, PDNS_TSIG_DATA structure pointer [DNS], _dns_dns_tsig_data, dns.dns_tsig_data, gss-tsig, gss.microsoft.com, windns/DNS_TSIG_DATA, windns/PDNS_TSIG_DATA"
+ms.date: 4/18/2018
+ms.keywords: "*PDNS_TKEY_DATA, *PDNS_TKEY_DATAA, DNS_RCODE_BADKEY, DNS_RCODE_BADSIG, DNS_RCODE_BADTIME, DNS_TKEY_DATA, DNS_TKEY_DATA structure [DNS], DNS_TKEY_DATAA, DNS_TKEY_MODE_DIFFIE_HELLMAN, DNS_TKEY_MODE_GSS, DNS_TKEY_MODE_RESOLVER_ASSIGN, DNS_TKEY_MODE_SERVER_ASSIGN, PDNS_TKEY_DATA, PDNS_TKEY_DATA structure pointer [DNS], _dns_dns_tkey_data, dns.dns_tkey_data, windns/DNS_TKEY_DATA, windns/PDNS_TKEY_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: DNS_TSIG_DATAW, *PDNS_TSIG_DATAW
+req.typenames: DNS_TKEY_DATAA, *PDNS_TKEY_DATAA
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	Windns.h
 api_name:
--	DNS_TSIG_DATA
+-	DNS_TKEY_DATA
 product: Windows
 targetos: Windows
 req.lib: 
@@ -44,14 +44,14 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# DNS_TSIG_DATAW structure
+# DNS_TKEY_DATAA structure
 
 
 ## -description
 
 
 The 
-<b>DNS_TSIG_DATA</b> structure represents a secret key transaction authentication (TSIG) resource record (RR) as specified in <a href="http://go.microsoft.com/fwlink/p/?linkid=90388">RFC 2845</a> and <a href="http://go.microsoft.com/fwlink/p/?linkid=90440">RFC 3645</a>.
+<b>DNS_TKEY_DATA</b> structure represents a DNS TKEY resource record, used to establish and delete an algorithm's shared-secret keys between a DNS resolver and server as specified in <a href="http://go.microsoft.com/fwlink/p/?linkid=90397">RFC 2930</a>.
 
 
 ## -struct-fields
@@ -61,12 +61,37 @@ The
 
 ### -field pNameAlgorithm
 
-A pointer to a string that represents the name of the key used to generate <b>pSignature</b> as defined in section 2.3 of <a href="http://go.microsoft.com/fwlink/p/?linkid=90388">RFC 2845</a>.
+A pointer to a string that represents the name of the key as defined in section 2.1 of <a href="http://go.microsoft.com/fwlink/p/?linkid=90397">RFC 2930</a>.
 
 
 ### -field pAlgorithmPacket
 
-A pointer to a string that represents the name of the   algorithm used to generate <b>pSignature</b> as defined in section 2.3 of <a href="http://go.microsoft.com/fwlink/p/?linkid=90388">RFC 2845</a>.
+A pointer to a string representing the name of the   algorithm as defined in section 2.3 of <a href="http://go.microsoft.com/fwlink/p/?linkid=90397">RFC 2930</a>. <b>pKey</b> is used to derive the algorithm specific keys.
+
+
+### -field pKey
+
+A pointer to the variable-length shared-secret key.
+
+
+### -field pOtherData
+
+Reserved. Do not use.
+
+
+### -field dwCreateTime
+
+The date and time at which the key was created, expressed in seconds since the beginning of January 1, 1970, Greenwich Mean Time (GMT), excluding leap seconds.
+
+
+### -field dwExpireTime
+
+The expiration date of the key, expressed in seconds since the beginning of January 1, 1970, Greenwich Mean Time (GMT), excluding leap seconds.
+
+
+### -field wMode
+
+A scheme used for key agreement or the purpose of the TKEY DNS Message. Possible values for <b>wMode</b> are listed below:
 
 <table>
 <tr>
@@ -74,55 +99,47 @@ A pointer to a string that represents the name of the   algorithm used to genera
 <th>Meaning</th>
 </tr>
 <tr>
-<td width="40%"><a id="gss.microsoft.com"></a><a id="GSS.MICROSOFT.COM"></a><dl>
-<dt><b>"gss.microsoft.com"</b></dt>
+<td width="40%"><a id="DNS_TKEY_MODE_SERVER_ASSIGN"></a><a id="dns_tkey_mode_server_assign"></a><dl>
+<dt><b>DNS_TKEY_MODE_SERVER_ASSIGN</b></dt>
 </dl>
 </td>
 <td width="60%">
-Windows 2000 Server only: Generic Security Service Algorithm for
-        Secret Key Transaction Authentication for DNS (GSS-API) as defined in <a href="http://go.microsoft.com/fwlink/p/?linkid=90440">RFC 3645</a>.
+The key is assigned by the DNS server and is not negotiated.
 
 </td>
 </tr>
 <tr>
-<td width="40%"><a id="gss-tsig"></a><a id="GSS-TSIG"></a><dl>
-<dt><b>"gss-tsig"</b></dt>
+<td width="40%"><a id="DNS_TKEY_MODE_DIFFIE_HELLMAN"></a><a id="dns_tkey_mode_diffie_hellman"></a><dl>
+<dt><b>DNS_TKEY_MODE_DIFFIE_HELLMAN</b></dt>
 </dl>
 </td>
 <td width="60%">
-Generic Security Service Algorithm for
-        Secret Key Transaction Authentication for DNS (GSS-API) as defined in <a href="http://go.microsoft.com/fwlink/p/?linkid=90440">RFC 3645</a>.
+The Diffie-Hellman key exchange algorithm is used to negotiate the key.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="DNS_TKEY_MODE_GSS_"></a><a id="dns_tkey_mode_gss_"></a><dl>
+<dt><b>DNS_TKEY_MODE_GSS </b></dt>
+</dl>
+</td>
+<td width="60%">
+The key is exchanged through Generic Security Services-Application Program Interface (GSS-API) negotiation.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="DNS_TKEY_MODE_RESOLVER_ASSIGN"></a><a id="dns_tkey_mode_resolver_assign"></a><dl>
+<dt><b>DNS_TKEY_MODE_RESOLVER_ASSIGN</b></dt>
+</dl>
+</td>
+<td width="60%">
+The key is assigned by the DNS resolver and is not negotiated.
 
 </td>
 </tr>
 </table>
  
-
-
-### -field pSignature
-
-A pointer to the Message
-   Authentication Code (MAC) generated by the algorithm in <b>pAlgorithmPacket</b>. The length, in bytes, and composition of <b>pSignature</b> are determined by <b>pAlgorithmPacket</b>.
-
-
-### -field pOtherData
-
-If <b>wError</b> contains the RCODE, <b>BADTIME</b>, <b>pOtherData</b> is a  BYTE array that contains the server's current time, otherwise it is <b>NULL</b>. Time is expressed in seconds since the beginning of January 1, 1970, Greenwich Mean Time (GMT), excluding leap seconds.
-
-
-### -field i64CreateTime
-
-The time <b>pSignature</b> was generated, expressed in seconds since the beginning of January 1, 1970, Greenwich Mean Time (GMT), excluding leap seconds.
-
-
-### -field wFudgeTime
-
-The time, in seconds, <b>i64CreateTime</b> may be in error.
-
-
-### -field wOriginalXid
-
-The <a href="https://msdn.microsoft.com/e5bf19a1-4c71-482d-a075-1e149f94505b">Xid</a>  identifier of the original message.
 
 
 ### -field wError
@@ -140,7 +157,7 @@ An error, expressed in expanded RCODE format that covers TSIG and TKEY RR proces
 </dl>
 </td>
 <td width="60%">
-The <b>pSignature</b> field is bad.
+The <b>pSignature</b> of the <a href="https://msdn.microsoft.com/32077169-d319-45c0-982f-8d470cd70111">DNS_TSIG_DATA</a> RR is bad.
 
 </td>
 </tr>
@@ -150,7 +167,7 @@ The <b>pSignature</b> field is bad.
 </dl>
 </td>
 <td width="60%">
-The <b>pKey</b> field of the <a href="https://msdn.microsoft.com/4dad3449-3e41-47d9-89c2-10fa6e51573b">DNS_TKEY_DATA</a> RR is bad.
+The <b>pKey</b> field is bad.
 
 </td>
 </tr>
@@ -168,9 +185,9 @@ A timestamp is bad.
  
 
 
-### -field wSigLength
+### -field wKeyLength
 
-The length, in bytes, of the <b>pSignature</b> member.
+Length, in bytes, of the <b>pKey</b> member.
 
 
 ### -field wOtherLength
@@ -180,12 +197,12 @@ The length, in bytes, of the <b>pOtherData</b> member.
 
 ### -field cAlgNameLength
 
-The length, in bytes, of the <b>pAlgorithmPacket</b> member.
+The length, in bytes, of the <b>pNameAlgorithm</b> member.
 
 
 ### -field bPacketPointers
 
-Reserved for future use. Do not use.
+Reserved. Do not use.
 
 
 ## -remarks
@@ -193,7 +210,7 @@ Reserved for future use. Do not use.
 
 
 The 
-<b>DNS_TSIG_DATA</b> structure is used in conjunction with the 
+<b>DNS_TKEY_DATA</b> structure is used in conjunction with the 
 <a href="https://msdn.microsoft.com/ab7b96a5-346f-4e01-bb2a-885f44764590">DNS_RECORD</a> structure to programmatically manage DNS entries.
 
 
@@ -208,7 +225,7 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/4dad3449-3e41-47d9-89c2-10fa6e51573b">DNS_TKEY_DATA</a>
+<a href="https://msdn.microsoft.com/32077169-d319-45c0-982f-8d470cd70111">DNS_TSIG_DATA</a>
  
 
  

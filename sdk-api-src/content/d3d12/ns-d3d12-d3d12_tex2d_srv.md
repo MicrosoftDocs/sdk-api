@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_tex2d_srv.htm
 old-project: direct3d12
 ms.assetid: BBD60A25-99C7-4C11-87F0-9E1D678EC44E
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: D3D12_TEX2D_SRV, D3D12_TEX2D_SRV structure, d3d12/D3D12_TEX2D_SRV, direct3d12.d3d12_tex2d_srv
 ms.prod: windows-hardware
 ms.technology: windows-devices

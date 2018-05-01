@@ -7,7 +7,7 @@ old-location: mstv\ibda_signalstatistics_put_signalpresent.htm
 old-project: mstv
 ms.assetid: 9d27dd06-a180-4ee6-bb52-34a8f434ab6a
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IBDA_SignalStatistics, IBDA_SignalStatistics interface [Microsoft TV Technologies], put_SignalPresent method, IBDA_SignalStatistics::put_SignalPresent, IBDA_SignalStatisticsput_SignalPresent, bdaiface/IBDA_SignalStatistics::put_SignalPresent, mstv.ibda_signalstatistics_put_signalpresent, put_SignalPresent method [Microsoft TV Technologies], put_SignalPresent method [Microsoft TV Technologies], IBDA_SignalStatistics interface, put_SignalPresent,IBDA_SignalStatistics.put_SignalPresent
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: cos\isharedpropertygroupmanager_get_group.htm
 old-project: cossdk
 ms.assetid: 3e60d1c6-1d58-403a-b75f-2a6bea91081e
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: ISharedPropertyGroupManager, ISharedPropertyGroupManager interface [COM+], get_Group method, ISharedPropertyGroupManager::get_Group, _cos_ISharedPropertyGroupManager_get_Group, comsvcs/ISharedPropertyGroupManager::get_Group, cos.isharedpropertygroupmanager_get_group, get_Group method [COM+], get_Group method [COM+], ISharedPropertyGroupManager interface, get_Group,ISharedPropertyGroupManager.get_Group
 ms.prod: windows-hardware
 ms.technology: windows-devices

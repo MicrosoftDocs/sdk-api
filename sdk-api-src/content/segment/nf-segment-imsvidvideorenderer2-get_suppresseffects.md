@@ -7,7 +7,7 @@ old-location: mstv\imsvidvideorenderer2_get_suppresseffects.htm
 old-project: mstv
 ms.assetid: 5a8546f8-61de-4e98-bee3-26ca4d0ea2e4
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidVideoRenderer2, IMSVidVideoRenderer2 interface [Microsoft TV Technologies], get_SuppressEffects method, IMSVidVideoRenderer2::get_SuppressEffects, IMSVidVideoRenderer2get_SuppressEffects, get_SuppressEffects method [Microsoft TV Technologies], get_SuppressEffects method [Microsoft TV Technologies], IMSVidVideoRenderer2 interface, get_SuppressEffects,IMSVidVideoRenderer2.get_SuppressEffects, mstv.imsvidvideorenderer2_get_suppresseffects, segment/IMSVidVideoRenderer2::get_SuppressEffects
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidVideoRenderer2::get_SuppressEffects method

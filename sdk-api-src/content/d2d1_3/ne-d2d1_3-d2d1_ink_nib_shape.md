@@ -7,7 +7,7 @@ old-location: direct2d\d2d1_ink_nib_shape.htm
 old-project: Direct2D
 ms.assetid: E9EA4F3E-D539-4938-897F-467D0432174F
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: D2D1_INK_NIB_SHAPE, D2D1_INK_NIB_SHAPE enumeration [Direct2D], D2D1_INK_NIB_SHAPE_ROUND, D2D1_INK_NIB_SHAPE_SQUARE, d2d1_3/D2D1_INK_NIB_SHAPE, d2d1_3/D2D1_INK_NIB_SHAPE_ROUND, d2d1_3/D2D1_INK_NIB_SHAPE_SQUARE, direct2d.d2d1_ink_nib_shape
 ms.prod: windows-hardware
 ms.technology: windows-devices

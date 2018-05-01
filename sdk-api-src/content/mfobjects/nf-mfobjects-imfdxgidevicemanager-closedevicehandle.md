@@ -7,7 +7,7 @@ old-location: mf\imfdxgidevicemanager_closedevicehandle.htm
 old-project: medfound
 ms.assetid: D5C74D6C-F066-4905-9D02-886FA503F58E
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: CloseDeviceHandle method [Media Foundation], CloseDeviceHandle method [Media Foundation], IMFDXGIDeviceManager interface, CloseDeviceHandle,IMFDXGIDeviceManager.CloseDeviceHandle, IMFDXGIDeviceManager, IMFDXGIDeviceManager interface [Media Foundation], CloseDeviceHandle method, IMFDXGIDeviceManager::CloseDeviceHandle, mf.imfdxgidevicemanager_closedevicehandle, mfobjects/IMFDXGIDeviceManager::CloseDeviceHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

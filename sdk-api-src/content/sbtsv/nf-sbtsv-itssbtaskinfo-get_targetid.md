@@ -7,7 +7,7 @@ old-location: termserv\itssbtaskinfo_targetid.htm
 old-project: TermServ
 ms.assetid: eb34b8b4-1130-4148-aea5-eb6ad00c64d2
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: ITsSbTaskInfo, ITsSbTaskInfo interface [Remote Desktop Services], TargetId property, ITsSbTaskInfo.TargetId, ITsSbTaskInfo::get_TargetId, TargetId property [Remote Desktop Services], TargetId property [Remote Desktop Services], ITsSbTaskInfo interface, get_TargetId,ITsSbTaskInfo.get_TargetId, sbtsv/ITsSbTaskInfo::TargetId, sbtsv/ITsSbTaskInfo::get_TargetId, termserv.itssbtaskinfo_targetid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITsSbTaskInfo::get_TargetId method

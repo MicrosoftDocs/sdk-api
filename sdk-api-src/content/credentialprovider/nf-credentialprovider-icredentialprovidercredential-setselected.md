@@ -7,7 +7,7 @@ old-location: shell\ICredentialProviderCredential_SetSelected.htm
 old-project: shell
 ms.assetid: 06a0482c-100c-445f-9a77-279d85492f42
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ICredentialProviderCredential, ICredentialProviderCredential interface [Windows Shell], SetSelected method, ICredentialProviderCredential::SetSelected, SetSelected method [Windows Shell], SetSelected method [Windows Shell], ICredentialProviderCredential interface, SetSelected,ICredentialProviderCredential.SetSelected, _shell_ICredentialProviderCredential_SetSelected, credentialprovider/ICredentialProviderCredential::SetSelected, shell.ICredentialProviderCredential_SetSelected
 ms.prod: windows-hardware
 ms.technology: windows-devices

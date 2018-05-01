@@ -7,7 +7,7 @@ old-location: ad\ds_repsyncall_error.htm
 old-project: AD
 ms.assetid: 9c020046-ab52-4676-931e-12ce176e93fb
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/20/2018
 ms.keywords: DS_REPSYNCALL_ERROR, DS_REPSYNCALL_ERROR enumeration [Active Directory], DS_REPSYNCALL_SERVER_UNREACHABLE, DS_REPSYNCALL_WIN32_ERROR_CONTACTING_SERVER, DS_REPSYNCALL_WIN32_ERROR_REPLICATING, ad.ds_repsyncall_error, ntdsapi/DS_REPSYNCALL_ERROR, ntdsapi/DS_REPSYNCALL_SERVER_UNREACHABLE, ntdsapi/DS_REPSYNCALL_WIN32_ERROR_CONTACTING_SERVER, ntdsapi/DS_REPSYNCALL_WIN32_ERROR_REPLICATING
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # DS_REPSYNCALL_ERROR enumeration

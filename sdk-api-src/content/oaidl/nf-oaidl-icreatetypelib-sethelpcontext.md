@@ -7,7 +7,7 @@ old-location: automat\icreatetypelib_sethelpcontext.htm
 old-project: automat
 ms.assetid: 58d7cd77-cfb6-493e-a9fd-26f469eec9f0
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: ICreateTypeLib, ICreateTypeLib interface [Automation], SetHelpContext method, ICreateTypeLib::SetHelpContext, SetHelpContext method [Automation], SetHelpContext method [Automation], ICreateTypeLib interface, SetHelpContext,ICreateTypeLib.SetHelpContext, _oa96_ICreateTypeLib_SetHelpContext, automat.icreatetypelib_sethelpcontext, oaidl/ICreateTypeLib::SetHelpContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ICreateTypeLib::SetHelpContext method

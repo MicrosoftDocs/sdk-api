@@ -7,7 +7,7 @@ old-location: security\pfn_cdf_parse_error_callback.htm
 old-project: SecCrypto
 ms.assetid: 94c12ad7-dcb0-4099-8eba-da38367f0d79
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: PFN_CDF_PARSE_ERROR_CALLBACK, PFN_CDF_PARSE_ERROR_CALLBACK function pointer [Security], mscat/PFN_CDF_PARSE_ERROR_CALLBACK, security.pfn_cdf_parse_error_callback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: ACMSTREAMHEADER, *PACMSTREAMHEADER, *LPACMSTREAMHEADER
+req.typenames: KSP_PINMODE, *PKSP_PINMODE
 topic_type:
 -	APIRef
 -	kbSyntax

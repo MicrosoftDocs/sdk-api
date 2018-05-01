@@ -7,7 +7,7 @@ old-location: base\cvsswriter_cvsswriterdestructor.htm
 old-project: VSS
 ms.assetid: 5ae3f144-24c4-4833-ac8f-44e12df6fbc3
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: CVssWriter, CVssWriter interface [VSS], ~CVssWriter method, CVssWriter::~CVssWriter, _win32_cvsswriter_cvsswriterdestructor, base.cvsswriter_cvsswriterdestructor, vswriter/CVssWriter::~CVssWriter, ~CVssWriter method [VSS], ~CVssWriter method [VSS], CVssWriter interface, ~CVssWriter,CVssWriter.~CVssWriter
 ms.prod: windows-hardware
 ms.technology: windows-devices

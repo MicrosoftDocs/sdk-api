@@ -7,7 +7,7 @@ old-location: security\ix509privatekey_import_method.htm
 old-project: SecCertEnroll
 ms.assetid: 33e335e2-9c3f-4aa1-a393-db0ee8095b64
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: BCRYPT_PRIVATE_KEY_BLOB, IX509PrivateKey, IX509PrivateKey interface [Security], Import method, IX509PrivateKey::Import, Import method [Security], Import method [Security], IX509PrivateKey interface, Import,IX509PrivateKey.Import, certenroll/IX509PrivateKey::Import, security.ix509privatekey_import_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

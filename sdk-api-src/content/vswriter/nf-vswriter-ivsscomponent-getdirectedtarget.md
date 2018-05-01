@@ -7,7 +7,7 @@ old-location: base\ivsscomponent_getdirectedtarget.htm
 old-project: VSS
 ms.assetid: e25760b0-14e2-4f1b-b4ff-e7b78f0b7b12
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: GetDirectedTarget method [VSS], GetDirectedTarget method [VSS], IVssComponent interface, GetDirectedTarget,IVssComponent.GetDirectedTarget, IVssComponent, IVssComponent interface [VSS], GetDirectedTarget method, IVssComponent::GetDirectedTarget, _win32_ivsscomponent_getdirectedtarget, base.ivsscomponent_getdirectedtarget, vswriter/IVssComponent::GetDirectedTarget
 ms.prod: windows-hardware
 ms.technology: windows-devices

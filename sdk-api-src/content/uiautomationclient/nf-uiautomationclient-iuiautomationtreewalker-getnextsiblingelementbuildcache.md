@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationTreeWalker_GetNextSiblingBuildCache.ht
 old-project: WinAuto
 ms.assetid: 71c29a02-11fa-41ee-816e-cb3a0bea3025
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: GetNextSiblingElementBuildCache method [Windows Accessibility], GetNextSiblingElementBuildCache method [Windows Accessibility], IUIAutomationTreeWalker interface, GetNextSiblingElementBuildCache,IUIAutomationTreeWalker.GetNextSiblingElementBuildCache, IUIAutomationTreeWalker, IUIAutomationTreeWalker interface [Windows Accessibility], GetNextSiblingElementBuildCache method, IUIAutomationTreeWalker::GetNextSiblingElementBuildCache, uiauto.uiauto_IUIAutomationTreeWalker_GetNextSiblingBuildCache, uiauto_IUIAutomationTreeWalker_GetNextSiblingBuildCache, uiautomationclient/IUIAutomationTreeWalker::GetNextSiblingElementBuildCache, winauto.uiauto_IUIAutomationTreeWalker_GetNextSiblingBuildCache
 ms.prod: windows-hardware
 ms.technology: windows-devices

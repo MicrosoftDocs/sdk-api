@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationGridItemPattern_CurrentColumnSpan.htm
 old-project: WinAuto
 ms.assetid: ba3b25e8-ceaa-451c-84ad-661692a2f7cc
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: CurrentColumnSpan property [Windows Accessibility], CurrentColumnSpan property [Windows Accessibility], IUIAutomationGridItemPattern interface, IUIAutomationGridItemPattern, IUIAutomationGridItemPattern interface [Windows Accessibility], CurrentColumnSpan property, IUIAutomationGridItemPattern.CurrentColumnSpan, IUIAutomationGridItemPattern::get_CurrentColumnSpan, get_CurrentColumnSpan,IUIAutomationGridItemPattern.get_CurrentColumnSpan, uiauto.uiauto_IUIAutomationGridItemPattern_CurrentColumnSpan, uiauto_IUIAutomationGridItemPattern_CurrentColumnSpan, uiautomationclient/IUIAutomationGridItemPattern::CurrentColumnSpan, uiautomationclient/IUIAutomationGridItemPattern::get_CurrentColumnSpan, winauto.uiauto_IUIAutomationGridItemPattern_CurrentColumnSpan
 ms.prod: windows-hardware
 ms.technology: windows-devices

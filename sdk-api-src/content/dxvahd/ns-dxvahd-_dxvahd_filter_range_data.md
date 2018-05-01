@@ -7,7 +7,7 @@ old-location: mf\dxvahd_filter_range_data.htm
 old-project: medfound
 ms.assetid: cd349ac5-9825-4dc8-8735-5d846abb353b
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: DXVAHD_FILTER_RANGE_DATA, DXVAHD_FILTER_RANGE_DATA structure [Media Foundation], _DXVAHD_FILTER_RANGE_DATA, dxvahd/DXVAHD_FILTER_RANGE_DATA, mf.dxvahd_filter_range_data
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: nwifi\ienumdot11adhocinterfaces_reset.htm
 old-project: NativeWiFi
 ms.assetid: e310cc06-acc0-4a65-bea7-c9b39900b7ca
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/13/2018
 ms.keywords: IEnumDot11AdHocInterfaces, IEnumDot11AdHocInterfaces interface [NativeWIFI], Reset method, IEnumDot11AdHocInterfaces::Reset, Reset method [NativeWIFI], Reset method [NativeWIFI], IEnumDot11AdHocInterfaces interface, Reset,IEnumDot11AdHocInterfaces.Reset, adhoc/IEnumDot11AdHocInterfaces::Reset, nwifi.ienumdot11adhocinterfaces_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct2d\D2D1_GRADIENT_STOP.htm
 old-project: Direct2D
 ms.assetid: f6798542-382a-4074-bbe1-707bc00b3575
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: D2D1_GRADIENT_STOP, D2D1_GRADIENT_STOP structure [Direct2D], d2d1/D2D1_GRADIENT_STOP, direct2d.D2D1_GRADIENT_STOP
 ms.prod: windows-hardware
 ms.technology: windows-devices

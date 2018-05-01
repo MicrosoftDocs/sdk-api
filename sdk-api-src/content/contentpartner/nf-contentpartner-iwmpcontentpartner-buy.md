@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontentpartner_buy.htm
 old-project: WMP
 ms.assetid: a79c3d6e-b587-4bbc-b3bf-6489a54d71f9
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: Buy method [Windows Media Player], Buy method [Windows Media Player], IWMPContentPartner interface, Buy,IWMPContentPartner.Buy, IWMPContentPartner, IWMPContentPartner interface [Windows Media Player], Buy method, IWMPContentPartner::Buy, IWMPContentPartnerBuy, contentpartner/IWMPContentPartner::Buy, wmp.iwmpcontentpartner_buy
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\ix509policyserverurl_flags.htm
 old-project: SecCertEnroll
 ms.assetid: 60a9dee9-6311-45b6-8fe9-f916878a64dd
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: Flags property [Security], Flags property [Security], IX509PolicyServerUrl interface, IX509PolicyServerUrl, IX509PolicyServerUrl interface [Security], Flags property, IX509PolicyServerUrl.Flags, IX509PolicyServerUrl::get_Flags, IX509PolicyServerUrl::put_Flags, PsfLocationGroupPolicy, PsfLocationRegistry, certenroll/IX509PolicyServerUrl::Flags, certenroll/IX509PolicyServerUrl::get_Flags, certenroll/IX509PolicyServerUrl::put_Flags, get_Flags,IX509PolicyServerUrl.get_Flags, security.ix509policyserverurl_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices

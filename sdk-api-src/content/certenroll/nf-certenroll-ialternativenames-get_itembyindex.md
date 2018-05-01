@@ -7,7 +7,7 @@ old-location: security\ialternativenames_itembyindex_property.htm
 old-project: SecCertEnroll
 ms.assetid: 778ea065-9a92-4244-be16-23e716ccbb8a
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: IAlternativeNames, IAlternativeNames interface [Security], ItemByIndex property, IAlternativeNames.ItemByIndex, IAlternativeNames::get_ItemByIndex, ItemByIndex property [Security], ItemByIndex property [Security], IAlternativeNames interface, certenroll/IAlternativeNames::ItemByIndex, certenroll/IAlternativeNames::get_ItemByIndex, get_ItemByIndex,IAlternativeNames.get_ItemByIndex, security.ialternativenames_itembyindex_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

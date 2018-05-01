@@ -7,7 +7,7 @@ old-location: mf\imftranscodeprofile_setaudioattributes.htm
 old-project: medfound
 ms.assetid: 4118bb2b-8373-434a-896b-de5a1ba8c793
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFTranscodeProfile, IMFTranscodeProfile interface [Media Foundation], SetAudioAttributes method, IMFTranscodeProfile::SetAudioAttributes, SetAudioAttributes method [Media Foundation], SetAudioAttributes method [Media Foundation], IMFTranscodeProfile interface, SetAudioAttributes,IMFTranscodeProfile.SetAudioAttributes, mf.imftranscodeprofile_setaudioattributes, mfidl/IMFTranscodeProfile::SetAudioAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices

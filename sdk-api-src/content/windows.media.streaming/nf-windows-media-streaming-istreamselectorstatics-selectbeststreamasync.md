@@ -7,7 +7,7 @@ old-location: mediastreaming\istreamselectorstatics_selectbeststreamasync.htm
 old-project: mediastreaming
 ms.assetid: 7DE96557-2CA0-4A88-AFF1-6A5480EEE04D
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/10/2018
 ms.keywords: IStreamSelectorStatics, IStreamSelectorStatics interface [Media Streaming API], SelectBestStreamAsync method, IStreamSelectorStatics::SelectBestStreamAsync, SelectBestStreamAsync method [Media Streaming API], SelectBestStreamAsync method [Media Streaming API], IStreamSelectorStatics interface, SelectBestStreamAsync,IStreamSelectorStatics.SelectBestStreamAsync, mediastreaming.istreamselectorstatics_selectbeststreamasync, windows/IStreamSelectorStatics::SelectBestStreamAsync
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: PDF_RENDER_PARAMS
+req.typenames: TimeSpan
 topic_type:
 -	APIRef
 -	kbSyntax

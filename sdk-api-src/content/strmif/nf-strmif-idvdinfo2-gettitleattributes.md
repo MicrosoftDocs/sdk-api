@@ -7,7 +7,7 @@ old-location: dshow\idvdinfo2_gettitleattributes.htm
 old-project: DirectShow
 ms.assetid: 4e901e14-9e98-4ca5-ae37-7a4564b187ab
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetTitleAttributes method [DirectShow], GetTitleAttributes method [DirectShow], IDvdInfo2 interface, GetTitleAttributes,IDvdInfo2.GetTitleAttributes, IDvdInfo2, IDvdInfo2 interface [DirectShow], GetTitleAttributes method, IDvdInfo2::GetTitleAttributes, IDvdInfo2GetTitleAttributes, dshow.idvdinfo2_gettitleattributes, strmif/IDvdInfo2::GetTitleAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices

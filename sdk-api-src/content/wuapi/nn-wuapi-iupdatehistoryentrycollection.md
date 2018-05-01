@@ -7,7 +7,7 @@ old-location: wua\iupdatehistoryentrycollection.htm
 old-project: Wua_Sdk
 ms.assetid: c3bc764b-c9cc-4567-963e-2e481bdda611
 ms.author: windowsdriverdev
-ms.date: 3/15/2018
+ms.date: 4/18/2018
 ms.keywords: IUpdateHistoryEntryCollection, IUpdateHistoryEntryCollection interface [Windows Update Agent], IUpdateHistoryEntryCollection interface [Windows Update Agent], described, wua.iupdatehistoryentrycollection, wuapi/IUpdateHistoryEntryCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices

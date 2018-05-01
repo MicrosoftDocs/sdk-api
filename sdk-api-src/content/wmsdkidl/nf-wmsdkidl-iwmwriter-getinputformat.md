@@ -7,7 +7,7 @@ old-location: wmformat\iwmwriter_getinputformat.htm
 old-project: wmformat
 ms.assetid: c058de81-a29a-4bcd-a819-3cdef11cae9f
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: GetInputFormat method [windows Media Format], GetInputFormat method [windows Media Format], IWMWriter interface, GetInputFormat,IWMWriter.GetInputFormat, IWMWriter, IWMWriter interface [windows Media Format], GetInputFormat method, IWMWriter::GetInputFormat, IWMWriterGetInputFormat, wmformat.iwmwriter_getinputformat, wmsdkidl/IWMWriter::GetInputFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices

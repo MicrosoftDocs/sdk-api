@@ -7,7 +7,7 @@ old-location: dshow\ivideoprocamp_get_gamma.htm
 old-project: DirectShow
 ms.assetid: a8d62862-5509-4401-affe-68dfa96ae60f
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IVideoProcAmp, IVideoProcAmp interface [DirectShow], get_Gamma method, IVideoProcAmp::get_Gamma, IVideoProcAmpget_Gamma, dshow.ivideoprocamp_get_gamma, get_Gamma method [DirectShow], get_Gamma method [DirectShow], IVideoProcAmp interface, get_Gamma,IVideoProcAmp.get_Gamma, vidcap/IVideoProcAmp::get_Gamma
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: VIDEOHDR, *PVIDEOHDR, *LPVIDEOHDR
+req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
 topic_type:
 -	APIRef
 -	kbSyntax

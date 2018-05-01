@@ -7,7 +7,7 @@ old-location: shell\IShellImageData_Scale.htm
 old-project: shell
 ms.assetid: ebcc9cc1-b6ee-4fb9-9125-54d6a9ee9434
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IShellImageData, IShellImageData interface [Windows Shell], Scale method, IShellImageData::Scale, Scale method [Windows Shell], Scale method [Windows Shell], IShellImageData interface, Scale,IShellImageData.Scale, _shell_IShellImageData_Scale, shell.IShellImageData_Scale, shimgdata/IShellImageData::Scale
 ms.prod: windows-hardware
 ms.technology: windows-devices

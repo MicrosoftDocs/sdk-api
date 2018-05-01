@@ -7,7 +7,7 @@ old-location: mstv\idtfilter3_setrights.htm
 old-project: mstv
 ms.assetid: d5c93f87-6988-4ca8-b50a-b6c7bdf3e76c
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IDTFilter3, IDTFilter3 interface [Microsoft TV Technologies], SetRights method, IDTFilter3::SetRights, IDTFilter3SetRights, SetRights method [Microsoft TV Technologies], SetRights method [Microsoft TV Technologies], IDTFilter3 interface, SetRights,IDTFilter3.SetRights, encdec/IDTFilter3::SetRights, mstv.idtfilter3_setrights
 ms.prod: windows-hardware
 ms.technology: windows-devices

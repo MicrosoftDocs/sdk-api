@@ -7,7 +7,7 @@ old-location: security\icspinformation_getcspstatusfromoperations.htm
 old-project: SecCertEnroll
 ms.assetid: 6b551e72-2f0a-4ae8-ba06-dff1508a7d83
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: GetCspStatusFromOperations method [Security], GetCspStatusFromOperations method [Security], ICspInformation interface, GetCspStatusFromOperations,ICspInformation.GetCspStatusFromOperations, ICspInformation, ICspInformation interface [Security], GetCspStatusFromOperations method, ICspInformation::GetCspStatusFromOperations, certenroll/ICspInformation::GetCspStatusFromOperations, security.icspinformation_getcspstatusfromoperations
 ms.prod: windows-hardware
 ms.technology: windows-devices

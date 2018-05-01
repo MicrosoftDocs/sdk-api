@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxgetloggingcategories.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_6cab.htm
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/18/2018
 ms.keywords: FaxGetLoggingCategories, FaxGetLoggingCategories function [Fax Service], FaxGetLoggingCategoriesA, FaxGetLoggingCategoriesW, _mfax_faxgetloggingcategories, fax._mfax_faxgetloggingcategories, winfax/FaxGetLoggingCategories, winfax/FaxGetLoggingCategoriesA, winfax/FaxGetLoggingCategoriesW
 ms.prod: windows-hardware
 ms.technology: windows-devices

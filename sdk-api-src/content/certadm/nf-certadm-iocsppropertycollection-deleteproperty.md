@@ -7,7 +7,7 @@ old-location: security\iocsppropertycollection_deleteproperty_method.htm
 old-project: SecCrypto
 ms.assetid: 0f9a3e47-3757-42a9-bef2-93b8f304f618
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: DeleteProperty method [Security], DeleteProperty method [Security], IOCSPPropertyCollection interface, DeleteProperty,IOCSPPropertyCollection.DeleteProperty, IOCSPPropertyCollection, IOCSPPropertyCollection interface [Security], DeleteProperty method, IOCSPPropertyCollection::DeleteProperty, certadm/IOCSPPropertyCollection::DeleteProperty, security.iocsppropertycollection_deleteproperty_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CHANNEL_ENTRY_POINTS, *PCHANNEL_ENTRY_POINTS
+req.typenames: 
 topic_type:
 -	APIRef
 -	kbSyntax

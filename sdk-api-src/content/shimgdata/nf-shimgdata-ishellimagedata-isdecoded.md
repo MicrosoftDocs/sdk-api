@@ -7,7 +7,7 @@ old-location: shell\IShellImageData_IsDecoded.htm
 old-project: shell
 ms.assetid: f02dbf35-4dc7-4750-978d-b703338514df
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IShellImageData, IShellImageData interface [Windows Shell], IsDecoded method, IShellImageData::IsDecoded, IsDecoded method [Windows Shell], IsDecoded method [Windows Shell], IShellImageData interface, IsDecoded,IShellImageData.IsDecoded, _shell_IShellImageData_IsDecoded, shell.IShellImageData_IsDecoded, shimgdata/IShellImageData::IsDecoded
 ms.prod: windows-hardware
 ms.technology: windows-devices

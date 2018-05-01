@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElementArray_GetElement.htm
 old-project: WinAuto
 ms.assetid: c8651061-3a17-49d0-abc6-78ce3fa02363
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: GetElement method [Windows Accessibility], GetElement method [Windows Accessibility], IUIAutomationElementArray interface, GetElement,IUIAutomationElementArray.GetElement, IUIAutomationElementArray, IUIAutomationElementArray interface [Windows Accessibility], GetElement method, IUIAutomationElementArray::GetElement, uiauto.uiauto_IUIAutomationElementArray_GetElement, uiauto_IUIAutomationElementArray_GetElement, uiautomationclient/IUIAutomationElementArray::GetElement, winauto.uiauto_IUIAutomationElementArray_GetElement
 ms.prod: windows-hardware
 ms.technology: windows-devices

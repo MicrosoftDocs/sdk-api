@@ -7,7 +7,7 @@ old-location: dshow\ifilesinkfilter_getcurfile.htm
 old-project: DirectShow
 ms.assetid: 1d635dfc-a3b3-4f75-8356-534a32156686
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetCurFile method [DirectShow], GetCurFile method [DirectShow], IFileSinkFilter interface, GetCurFile,IFileSinkFilter.GetCurFile, IFileSinkFilter, IFileSinkFilter interface [DirectShow], GetCurFile method, IFileSinkFilter::GetCurFile, IFileSinkFilterGetCurFile, dshow.ifilesinkfilter_getcurfile, strmif/IFileSinkFilter::GetCurFile
 ms.prod: windows-hardware
 ms.technology: windows-devices

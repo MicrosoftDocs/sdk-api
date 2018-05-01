@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmclassificationrule_propertyaffected.htm
 old-project: Fsrm
 ms.assetid: 0e41ac2b-c48a-4bb8-a363-8a64c856b8f9
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: IFsrmClassificationRule, IFsrmClassificationRule interface [File Server Resource Manager], PropertyAffected property, IFsrmClassificationRule.PropertyAffected, IFsrmClassificationRule::get_PropertyAffected, IFsrmClassificationRule::put_PropertyAffected, PropertyAffected property [File Server Resource Manager], PropertyAffected property [File Server Resource Manager], IFsrmClassificationRule interface, fs.ifsrmclassificationrule_propertyaffected, fsrm.ifsrmclassificationrule_propertyaffected, fsrmpipeline/IFsrmClassificationRule::PropertyAffected, fsrmpipeline/IFsrmClassificationRule::get_PropertyAffected, fsrmpipeline/IFsrmClassificationRule::put_PropertyAffected, put_PropertyAffected,IFsrmClassificationRule.put_PropertyAffected
 ms.prod: windows-hardware
 ms.technology: windows-devices

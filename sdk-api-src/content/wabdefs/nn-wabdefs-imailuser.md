@@ -7,7 +7,7 @@ old-location: wab\_wab_IMailUser.htm
 old-project: wab
 ms.assetid: VS|wab|~\wab\reference\ifaces\imailuser\imailuser.htm
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 4/3/2018
 ms.keywords: IMailUser, IMailUser interface [Windows Address Book], IMailUser interface [Windows Address Book], described, _wab_IMailUser, wab._wab_IMailUser, wabdefs/IMailUser
 ms.prod: windows-hardware
 ms.technology: windows-devices

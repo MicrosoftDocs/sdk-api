@@ -7,7 +7,7 @@ old-location: rpc\rpc_dispatch_table.htm
 old-project: Rpc
 ms.assetid: 6e34c7a6-3d74-4d1d-9b56-8120fbca1d67
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: "*PRPC_DISPATCH_TABLE, RPC_DISPATCH_TABLE, RPC_DISPATCH_TABLE structure [RPC], _rpc_rpc_dispatch_table, rpc.rpc_dispatch_table, rpcdcep/RPC_DISPATCH_TABLE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # RPC_DISPATCH_TABLE structure

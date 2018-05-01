@@ -7,7 +7,7 @@ old-location: tapi2\linesetcallparams.htm
 old-project: Tapi
 ms.assetid: c8088116-2bfc-420f-a83a-d00c7947b6e7
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: "_tapi2_linesetcallparams, lineSetCallParams, lineSetCallParams function [TAPI 2.2], tapi/lineSetCallParams, tapi2.linesetcallparams"
 ms.prod: windows-hardware
 ms.technology: windows-devices

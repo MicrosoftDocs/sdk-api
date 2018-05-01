@@ -7,7 +7,7 @@ old-location: shell\STRRET.htm
 old-project: shell
 ms.assetid: 7868ef9b-07db-455b-b0be-ef0db7891447
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: "*LPSTRRET, LPSTRRET, LPSTRRET structure pointer [Windows Shell], STRRET, STRRET structure [Windows Shell], STRRET_CSTR, STRRET_OFFSET, STRRET_WSTR, _STRRET, _win32_STRRET, shell.STRRET, shtypes/LPSTRRET, shtypes/STRRET"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,11 +58,6 @@ Contains strings returned from the <a href="https://msdn.microsoft.com/35190a72-
 
 
 
-### -field DUMMYUNIONNAME
-
- 
-
-
 ### -field uType
 
 Type: <b>UINT</b>
@@ -86,6 +81,13 @@ The <b>uOffset</b> member value indicates the number of bytes from the beginning
 #### STRRET_WSTR
 
 The string is at the address specified by <b>pOleStr</b> member.
+
+
+### -field DUMMYUNIONNAME
+
+ 
+
+
 
 
 #### - cStr

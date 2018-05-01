@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11device_createhullshader.htm
 old-project: direct3d11
 ms.assetid: 93ec9f46-69c5-4863-bd74-9c8c92fae586
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/6/2018
 ms.keywords: 3183fc89-b12c-d245-312b-a06f19ecd6de, CreateHullShader method [Direct3D 11], CreateHullShader method [Direct3D 11], ID3D11Device interface, CreateHullShader,ID3D11Device.CreateHullShader, ID3D11Device, ID3D11Device interface [Direct3D 11], CreateHullShader method, ID3D11Device::CreateHullShader, d3d11/ID3D11Device::CreateHullShader, direct3d11.id3d11device_createhullshader
 ms.prod: windows-hardware
 ms.technology: windows-devices

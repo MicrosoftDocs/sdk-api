@@ -7,7 +7,7 @@ old-location: controls\REBARINFO.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\rebar\structures\rebarinfo.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: "*LPREBARINFO, LPREBARINFO, LPREBARINFO structure pointer [Windows Controls], RBIM_IMAGELIST, REBARINFO, REBARINFO structure [Windows Controls], _win32_REBARINFO, _win32_REBARINFO_cpp, commctrl/LPREBARINFO, commctrl/REBARINFO, controls.REBARINFO, controls._win32_REBARINFO, tagREBARINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\azauthorizationstore_openapplication.htm
 old-project: SecAuthZ
 ms.assetid: 63215a9a-b739-4ba9-a760-a9968be9e017
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: AzAuthorizationStore object [Security], OpenApplication method, IAzAuthorizationStore, IAzAuthorizationStore interface [Security], OpenApplication method, IAzAuthorizationStore::OpenApplication, OpenApplication method [Security], OpenApplication method [Security], AzAuthorizationStore object, OpenApplication method [Security], IAzAuthorizationStore interface, OpenApplication,IAzAuthorizationStore.OpenApplication, azroles/IAzAuthorizationStore::OpenApplication, security.azauthorizationstore_openapplication
 ms.prod: windows-hardware
 ms.technology: windows-devices

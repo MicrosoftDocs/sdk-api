@@ -7,7 +7,7 @@ old-location: dshow\ivideowindow_get_fullscreenmode.htm
 old-project: DirectShow
 ms.assetid: 742587c7-545a-4c5f-bff1-511ed6d0b1d5
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IVideoWindow, IVideoWindow interface [DirectShow], get_FullScreenMode method, IVideoWindow::get_FullScreenMode, IVideoWindowget_FullScreenMode, control/IVideoWindow::get_FullScreenMode, dshow.ivideowindow_get_fullscreenmode, get_FullScreenMode method [DirectShow], get_FullScreenMode method [DirectShow], IVideoWindow interface, get_FullScreenMode,IVideoWindow.get_FullScreenMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmp\iwmpevents_iwmpevents__mousemove.htm
 old-project: WMP
 ms.assetid: ca0b438f-2093-41b0-9170-ec59656b70e1
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPEvents, IWMPEvents interface [Windows Media Player], MouseMove method, IWMPEvents::MouseMove, IWMPEventsMouseMove, MouseMove method [Windows Media Player], MouseMove method [Windows Media Player], IWMPEvents interface, MouseMove,IWMPEvents.MouseMove, wmp.iwmpevents_iwmpevents__mousemove, wmp/IWMPEvents::MouseMove
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\ialternativename_type_property.htm
 old-project: SecCertEnroll
 ms.assetid: fdb1a7db-20f6-4732-bb59-fc078387375d
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: IAlternativeName, IAlternativeName interface [Security], Type property, IAlternativeName.Type, IAlternativeName::get_Type, Type property [Security], Type property [Security], IAlternativeName interface, certenroll/IAlternativeName::Type, certenroll/IAlternativeName::get_Type, get_Type,IAlternativeName.get_Type, security.ialternativename_type_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

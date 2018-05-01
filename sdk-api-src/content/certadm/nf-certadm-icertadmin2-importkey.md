@@ -7,7 +7,7 @@ old-location: security\icertadmin2_importkey.htm
 old-project: SecCrypto
 ms.assetid: d71f20d7-5b27-41e5-adc1-6f0ae4160210
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: CR_IN_BASE64, CR_IN_BASE64HEADER, CR_IN_BINARY, ICertAdmin2, ICertAdmin2 interface [Security], ImportKey method, ICertAdmin2::ImportKey, IKF_OVERWRITE, ImportKey method [Security], ImportKey method [Security], ICertAdmin2 interface, ImportKey,ICertAdmin2.ImportKey, certadm/ICertAdmin2::ImportKey, security.icertadmin2_importkey
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CHANNEL_ENTRY_POINTS, *PCHANNEL_ENTRY_POINTS
+req.typenames: 
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,7 +7,7 @@ old-location: dshow\ienumdmo.htm
 old-project: DirectShow
 ms.assetid: 221248f2-5c8f-442e-a6ad-e0372ddc1aae
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IEnumDMO, IEnumDMO interface [DirectShow], IEnumDMO interface [DirectShow], described, IEnumDMOInterface, dshow.ienumdmo, mediaobj/IEnumDMO
 ms.prod: windows-hardware
 ms.technology: windows-devices

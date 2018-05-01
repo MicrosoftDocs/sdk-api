@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol_mouseactivate.htm
 old-project: DirectShow
 ms.assetid: ed84c7c8-0ae4-47f5-8a73-c975923722ab
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IDvdControl, IDvdControl interface [DirectShow], MouseActivate method, IDvdControl::MouseActivate, IDvdControlMouseActivate, MouseActivate method [DirectShow], MouseActivate method [DirectShow], IDvdControl interface, MouseActivate,IDvdControl.MouseActivate, dshow.idvdcontrol_mouseactivate, strmif/IDvdControl::MouseActivate
 ms.prod: windows-hardware
 ms.technology: windows-devices

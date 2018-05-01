@@ -7,7 +7,7 @@ old-location: winrt\iswapchainbackgroundpanelnative_setswapchain.htm
 old-project: WinRT
 ms.assetid: EDAEA67F-78CD-49F8-84FC-A7037629239A
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/24/2018
 ms.keywords: ISwapChainBackgroundPanelNative, ISwapChainBackgroundPanelNative interface [Windows Runtime], SetSwapChain method, ISwapChainBackgroundPanelNative::SetSwapChain, SetSwapChain method [Windows Runtime], SetSwapChain method [Windows Runtime], ISwapChainBackgroundPanelNative interface, SetSwapChain,ISwapChainBackgroundPanelNative.SetSwapChain, windows/ISwapChainBackgroundPanelNative::SetSwapChain, winrt.iswapchainbackgroundpanelnative_setswapchain
 ms.prod: windows-hardware
 ms.technology: windows-devices

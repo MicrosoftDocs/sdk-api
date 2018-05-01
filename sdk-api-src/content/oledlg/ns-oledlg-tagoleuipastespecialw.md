@@ -7,7 +7,7 @@ old-location: com\oleuipastespecial_struct.htm
 old-project: com
 ms.assetid: bb346fa7-03ae-458d-8488-64db7a9c48e1
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*LPOLEUIPASTESPECIALW, *POLEUIPASTESPECIALW, HIDECHANGEICON, LPOLEUIPASTESPECIAL, LPOLEUIPASTESPECIAL structure pointer [COM], NOREFRESHDATAOBJECT, OLEUIPASTESPECIAL, OLEUIPASTESPECIAL structure [COM], OLEUIPASTESPECIALA, OLEUIPASTESPECIALW, POLEUIPASTESPECIAL, POLEUIPASTESPECIAL structure pointer [COM], PSF_CHECKDISPLAYASICON, PSF_DISABLEDISPLAYASICON, PSF_SELECTPASTE, PSF_SELECTPASTELINK, PSF_SHOWHELP, STAYONCLIPBOARDCHANGE, _ole_OLEUIPASTESPECIAL_str, com.oleuipastespecial_struct, oledlg/LPOLEUIPASTESPECIAL, oledlg/OLEUIPASTESPECIAL, oledlg/OLEUIPASTESPECIALA, oledlg/OLEUIPASTESPECIALW, oledlg/POLEUIPASTESPECIAL, tagOLEUIPASTESPECIALW"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # tagOLEUIPASTESPECIALW structure

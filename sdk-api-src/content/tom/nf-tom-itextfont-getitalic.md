@@ -7,7 +7,7 @@ old-location: controls\ITextFont_GetItalic.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getitalic.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: GetItalic method [Windows Controls], GetItalic method [Windows Controls], ITextFont interface, GetItalic,ITextFont.GetItalic, ITextFont, ITextFont interface [Windows Controls], GetItalic method, ITextFont::GetItalic, _win32_ITextFont_GetItalic, _win32_ITextFont_GetItalic_cpp, controls.ITextFont_GetItalic, controls._win32_ITextFont_GetItalic, tom/ITextFont::GetItalic
 ms.prod: windows-hardware
 ms.technology: windows-devices

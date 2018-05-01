@@ -7,7 +7,7 @@ old-location: shell\IShellImageData_GetCurrentPage.htm
 old-project: shell
 ms.assetid: 75489f7f-1ec5-471c-bc45-c8f480b0fa99
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetCurrentPage method [Windows Shell], GetCurrentPage method [Windows Shell], IShellImageData interface, GetCurrentPage,IShellImageData.GetCurrentPage, IShellImageData, IShellImageData interface [Windows Shell], GetCurrentPage method, IShellImageData::GetCurrentPage, _shell_IShellImageData_GetCurrentPage, shell.IShellImageData_GetCurrentPage, shimgdata/IShellImageData::GetCurrentPage
 ms.prod: windows-hardware
 ms.technology: windows-devices

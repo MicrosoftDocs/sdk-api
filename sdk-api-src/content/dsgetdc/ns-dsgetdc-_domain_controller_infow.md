@@ -7,7 +7,7 @@ old-location: ad\domain_controller_info.htm
 old-project: AD
 ms.assetid: 0c09fe26-ef53-48b1-8ac2-70ccb8f3e3e2
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/20/2018
 ms.keywords: "*PDOMAIN_CONTROLLER_INFOW, DOMAIN_CONTROLLER_INFO, DOMAIN_CONTROLLER_INFO structure [Active Directory], DOMAIN_CONTROLLER_INFOA, DOMAIN_CONTROLLER_INFOW, DS_CLOSEST_FLAG, DS_DNS_CONTROLLER_FLAG, DS_DNS_DOMAIN_FLAG, DS_DNS_FOREST_FLAG, DS_DS_FLAG, DS_FULL_SECRET_DOMAIN_6_FLAG, DS_GC_FLAG, DS_GOOD_TIMESERV_FLAG, DS_INET_ADDRESS, DS_KDC_FLAG, DS_LDAP_FLAG, DS_NDNC_FLAG, DS_NETBIOS_ADDRESS, DS_PDC_FLAG, DS_SELECT_SECRET_DOMAIN_6_FLAG, DS_TIMESERV_FLAG, DS_WRITABLE_FLAG, PDOMAIN_CONTROLLER_INFO, PDOMAIN_CONTROLLER_INFO structure pointer [Active Directory], _DOMAIN_CONTROLLER_INFOW, _glines_domain_controller_info, ad.domain__controller__info, ad.domain_controller_info, dsgetdc/DOMAIN_CONTROLLER_INFO, dsgetdc/DOMAIN_CONTROLLER_INFOA, dsgetdc/DOMAIN_CONTROLLER_INFOW, dsgetdc/PDOMAIN_CONTROLLER_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

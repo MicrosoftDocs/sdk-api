@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomation_CreateTreeWalker.htm
 old-project: WinAuto
 ms.assetid: c976bf97-656b-4992-b0c5-f442b501ad75
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: CreateTreeWalker method [Windows Accessibility], CreateTreeWalker method [Windows Accessibility], IUIAutomation interface, CreateTreeWalker,IUIAutomation.CreateTreeWalker, IUIAutomation, IUIAutomation interface [Windows Accessibility], CreateTreeWalker method, IUIAutomation::CreateTreeWalker, uiauto.uiauto_IUIAutomation_CreateTreeWalker, uiauto_IUIAutomation_CreateTreeWalker, uiautomationclient/IUIAutomation::CreateTreeWalker, winauto.uiauto_IUIAutomation_CreateTreeWalker
 ms.prod: windows-hardware
 ms.technology: windows-devices

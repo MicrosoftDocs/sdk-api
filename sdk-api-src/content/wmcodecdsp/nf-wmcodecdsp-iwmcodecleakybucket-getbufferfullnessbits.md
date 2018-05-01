@@ -7,7 +7,7 @@ old-location: mf\iwmcodecleakybucketgetbufferfullnessbits.htm
 old-project: medfound
 ms.assetid: 46eee8c9-e10e-41e3-9400-051b4484eee0
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetBufferFullnessBits method [Media Foundation], GetBufferFullnessBits method [Media Foundation], IWMCodecLeakyBucket interface, GetBufferFullnessBits,IWMCodecLeakyBucket.GetBufferFullnessBits, IWMCodecLeakyBucket, IWMCodecLeakyBucket interface [Media Foundation], GetBufferFullnessBits method, IWMCodecLeakyBucket::GetBufferFullnessBits, codecapi.iwmcodecleakybucketgetbufferfullnessbits, codecapi.iwmcodecleakybuffergetbufferfullnessbits, mf.iwmcodecleakybucketgetbufferfullnessbits, wmcodecdsp/ IWMCodecLeakyBucket::GetBufferFullnessBits
 ms.prod: windows-hardware
 ms.technology: windows-devices

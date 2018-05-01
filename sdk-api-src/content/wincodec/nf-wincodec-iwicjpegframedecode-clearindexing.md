@@ -7,7 +7,7 @@ old-location: wic\iwicjpegframedecode_clearindexing.htm
 old-project: wic
 ms.assetid: 467E0100-F00B-4D2D-BF2A-8138765C787E
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: ClearIndexing method [Windows Imaging Component], ClearIndexing method [Windows Imaging Component], IWICJpegFrameDecode interface, ClearIndexing,IWICJpegFrameDecode.ClearIndexing, IWICJpegFrameDecode, IWICJpegFrameDecode interface [Windows Imaging Component], ClearIndexing method, IWICJpegFrameDecode::ClearIndexing, wic.iwicjpegframedecode_clearindexing, wincodec/IWICJpegFrameDecode::ClearIndexing
 ms.prod: windows-hardware
 ms.technology: windows-devices

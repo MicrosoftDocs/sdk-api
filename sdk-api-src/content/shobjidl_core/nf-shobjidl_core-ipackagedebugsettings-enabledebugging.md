@@ -7,7 +7,7 @@ old-location: winrt\ipackagedebugsettings_enabledebugging.htm
 old-project: WinRT
 ms.assetid: 6219e8d7-0631-482f-b602-b0453d4b1e70
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/24/2018
 ms.keywords: EnableDebugging method [Windows Runtime], EnableDebugging method [Windows Runtime], IPackageDebugSettings interface, EnableDebugging,IPackageDebugSettings.EnableDebugging, IPackageDebugSettings, IPackageDebugSettings interface [Windows Runtime], EnableDebugging method, IPackageDebugSettings::EnableDebugging, shobjidl_core/IPackageDebugSettings::EnableDebugging, winrt.ipackagedebugsettings_enabledebugging
 ms.prod: windows-hardware
 ms.technology: windows-devices

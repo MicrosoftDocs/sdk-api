@@ -7,7 +7,7 @@ old-location: shell\IBrowserService3_IEParseDisplayNameEx.htm
 old-project: shell
 ms.assetid: 9e36418e-026b-4682-9074-4caec5370f8b
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IBrowserService3, IBrowserService3 interface [Windows Shell], IEParseDisplayNameEx method, IBrowserService3::IEParseDisplayNameEx, IEPDN_BINDINGUI, IEParseDisplayNameEx method [Windows Shell], IEParseDisplayNameEx method [Windows Shell], IBrowserService3 interface, IEParseDisplayNameEx,IBrowserService3.IEParseDisplayNameEx, shdeprecated/IBrowserService3::IEParseDisplayNameEx, shell.IBrowserService3_IEParseDisplayNameEx, zone_IBrowserService3_IEParseDisplayNameEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

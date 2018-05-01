@@ -7,7 +7,7 @@ old-location: http\http_binding_info.htm
 old-project: Http
 ms.assetid: 551a928a-84c6-479b-a500-de69dc8857cd
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: "*PHTTP_BINDING_INFO, *PHTTP_BINDING_INFO structure [HTTP], HTTP_BINDING_INFO, HTTP_BINDING_INFO structure [HTTP], _HTTP_BINDING_INFO, http.http_binding_info, http/*PHTTP_BINDING_INFO, http/HTTP_BINDING_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

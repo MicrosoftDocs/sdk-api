@@ -7,7 +7,7 @@ old-location: dshow\iamwstdecoder_getredrawalways.htm
 old-project: DirectShow
 ms.assetid: d4035bd0-9a86-4deb-b4eb-4aa5b4b4ff35
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetRedrawAlways method [DirectShow], GetRedrawAlways method [DirectShow], IAMWstDecoder interface, GetRedrawAlways,IAMWstDecoder.GetRedrawAlways, IAMWstDecoder, IAMWstDecoder interface [DirectShow], GetRedrawAlways method, IAMWstDecoder::GetRedrawAlways, IAMWstDecoderGetRedrawAlways, dshow.iamwstdecoder_getredrawalways, iwstdec/IAMWstDecoder::GetRedrawAlways
 ms.prod: windows-hardware
 ms.technology: windows-devices

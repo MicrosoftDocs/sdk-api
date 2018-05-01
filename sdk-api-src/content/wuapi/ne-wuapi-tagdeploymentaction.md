@@ -7,7 +7,7 @@ old-location: wua\deploymentaction.htm
 old-project: Wua_Sdk
 ms.assetid: c192db44-05ad-4fb2-aa51-9153389d95dc
 ms.author: windowsdriverdev
-ms.date: 3/15/2018
+ms.date: 4/18/2018
 ms.keywords: DeploymentAction, DeploymentAction enumeration [Windows Update Agent], daDetection, daInstallation, daNone, daUninstallation, tagDeploymentAction, wua.deploymentaction, wuapi/DeploymentAction, wuapi/daDetection, wuapi/daInstallation, wuapi/daNone, wuapi/daUninstallation
 ms.prod: windows-hardware
 ms.technology: windows-devices

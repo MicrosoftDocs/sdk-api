@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IStylesProvider.htm
 old-project: WinAuto
 ms.assetid: 9424a6cd-9f4b-4653-9737-4afb9cfb510f
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: IStylesProvider, IStylesProvider interface [Windows Accessibility], IStylesProvider interface [Windows Accessibility], described, uiautomationcore/IStylesProvider, winauto.uiauto_IStylesProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices

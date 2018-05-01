@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12shaderreflection_getmovcinstructioncount.htm
 old-project: direct3d12
 ms.assetid: 9F002B65-F101-4498-A9C0-C545BCDB8CC1
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: GetMovcInstructionCount method, GetMovcInstructionCount method, ID3D12ShaderReflection interface, GetMovcInstructionCount,ID3D12ShaderReflection.GetMovcInstructionCount, ID3D12ShaderReflection, ID3D12ShaderReflection interface, GetMovcInstructionCount method, ID3D12ShaderReflection::GetMovcInstructionCount, d3d12shader/ID3D12ShaderReflection::GetMovcInstructionCount, direct3d12.id3d12shaderreflection_getmovcinstructioncount
 ms.prod: windows-hardware
 ms.technology: windows-devices

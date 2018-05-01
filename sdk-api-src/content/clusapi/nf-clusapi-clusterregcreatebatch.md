@@ -7,7 +7,7 @@ old-location: mscs\clusterregcreatebatch.htm
 old-project: MsCS
 ms.assetid: 83e7c216-f08f-4dc2-9b53-faa2760985d4
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: ClusterRegCreateBatch, ClusterRegCreateBatch function [Failover Cluster], PCLUSTER_REG_CREATE_BATCH, clusapi/ClusterRegCreateBatch, mscs.clusterregcreatebatch
 ms.prod: windows-hardware
 ms.technology: windows-devices

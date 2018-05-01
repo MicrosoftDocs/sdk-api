@@ -7,7 +7,7 @@ old-location: xaudio2\cxapoparametersbase_endprocess.htm
 old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.cxapoparameterbase.CXAPOParametersBase.EndProcess
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/20/2018
 ms.keywords: CXAPOParametersBase, CXAPOParametersBase interface [XAudio2 Audio Mixing APIs], EndProcess method, CXAPOParametersBase::EndProcess, EndProcess method [XAudio2 Audio Mixing APIs], EndProcess method [XAudio2 Audio Mixing APIs], CXAPOParametersBase interface, EndProcess,CXAPOParametersBase.EndProcess, xapobase/CXAPOParametersBase::EndProcess, xaudio2.cxapoparametersbase_endprocess
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyjob1.htm
 old-project: Bits
 ms.assetid: ccf1b355-c1af-4b5e-b613-181c426ed777
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/10/2018
 ms.keywords: IBackgroundCopyJob1, IBackgroundCopyJob1 interface [BITS], IBackgroundCopyJob1 interface [BITS], described, bits.ibackgroundcopyjob1, qmgr/IBackgroundCopyJob1
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: 
 req.dll: QmgrPrxy.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IBackgroundCopyJob1 interface

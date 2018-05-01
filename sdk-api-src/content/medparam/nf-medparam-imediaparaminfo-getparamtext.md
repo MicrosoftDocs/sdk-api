@@ -7,7 +7,7 @@ old-location: dshow\imediaparaminfo_getparamtext.htm
 old-project: DirectShow
 ms.assetid: 38ecde61-fd4a-4ba3-9cd4-d62a5aa55294
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetParamText method [DirectShow], GetParamText method [DirectShow], IMediaParamInfo interface, GetParamText,IMediaParamInfo.GetParamText, IMediaParamInfo, IMediaParamInfo interface [DirectShow], GetParamText method, IMediaParamInfo::GetParamText, IMediaParamInfoGetParamText, dshow.imediaparaminfo_getparamtext, medparam/IMediaParamInfo::GetParamText
 ms.prod: windows-hardware
 ms.technology: windows-devices

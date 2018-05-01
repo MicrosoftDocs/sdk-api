@@ -7,7 +7,7 @@ old-location: security\ix509privatekey_open_method.htm
 old-project: SecCertEnroll
 ms.assetid: 965e3bf8-22b9-4015-8fb2-102c5f7b1cb5
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: IX509PrivateKey, IX509PrivateKey interface [Security], Open method, IX509PrivateKey::Open, Open method [Security], Open method [Security], IX509PrivateKey interface, Open,IX509PrivateKey.Open, certenroll/IX509PrivateKey::Open, security.ix509privatekey_open_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

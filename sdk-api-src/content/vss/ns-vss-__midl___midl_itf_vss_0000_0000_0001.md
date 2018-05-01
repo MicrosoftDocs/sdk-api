@@ -7,7 +7,7 @@ old-location: base\vss_object_union.htm
 old-project: VSS
 ms.assetid: e8d70f20-00a9-4cae-a92c-e3f3673a8db3
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: VSS_OBJECT_UNION, VSS_OBJECT_UNION union [VSS], __MIDL___MIDL_itf_vss_0000_0000_0001, _win32_vss_object_union, base.vss_object_union, vss/VSS_OBJECT_UNION
 ms.prod: windows-hardware
 ms.technology: windows-devices

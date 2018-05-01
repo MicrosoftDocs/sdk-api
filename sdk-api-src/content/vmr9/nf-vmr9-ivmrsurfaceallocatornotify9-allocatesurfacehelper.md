@@ -7,7 +7,7 @@ old-location: dshow\ivmrsurfaceallocatornotify9_allocatesurfacehelper.htm
 old-project: DirectShow
 ms.assetid: b69db9e9-6ab0-40ad-b929-30613c0b9e4b
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: AllocateSurfaceHelper method [DirectShow], AllocateSurfaceHelper method [DirectShow], IVMRSurfaceAllocatorNotify9 interface, AllocateSurfaceHelper,IVMRSurfaceAllocatorNotify9.AllocateSurfaceHelper, IVMRSurfaceAllocatorNotify9, IVMRSurfaceAllocatorNotify9 interface [DirectShow], AllocateSurfaceHelper method, IVMRSurfaceAllocatorNotify9::AllocateSurfaceHelper, IVMRSurfaceAllocatorNotify9AllocateSurfaceHelper, dshow.ivmrsurfaceallocatornotify9_allocatesurfacehelper, vmr9/IVMRSurfaceAllocatorNotify9::AllocateSurfaceHelper
 ms.prod: windows-hardware
 ms.technology: windows-devices

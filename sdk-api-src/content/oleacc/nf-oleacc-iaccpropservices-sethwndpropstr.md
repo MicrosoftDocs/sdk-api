@@ -7,7 +7,7 @@ old-location: winauto\iaccpropservices_iaccpropservices__sethwndpropstr.htm
 old-project: WinAuto
 ms.assetid: 68f09a23-56b2-4fae-98a2-616b17fb4e1f
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: IAccPropServices, IAccPropServices interface [Windows Accessibility], SetHwndPropStr method, IAccPropServices::SetHwndPropStr, SetHwndPropStr method [Windows Accessibility], SetHwndPropStr method [Windows Accessibility], IAccPropServices interface, SetHwndPropStr,IAccPropServices.SetHwndPropStr, _msaa_IAccPropServices_SetHwndPropStr, msaa.iaccpropservices_iaccpropservices__sethwndpropstr, oleacc/IAccPropServices::SetHwndPropStr, winauto.iaccpropservices_iaccpropservices__sethwndpropstr
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Oleacc.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IAccPropServices::SetHwndPropStr method

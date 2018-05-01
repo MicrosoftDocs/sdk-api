@@ -7,7 +7,7 @@ old-location: mf\imfsample_setsampleflags.htm
 old-project: medfound
 ms.assetid: 30dac293-981b-41f3-951d-186d6a603d0a
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 30dac293-981b-41f3-951d-186d6a603d0a, IMFSample, IMFSample interface [Media Foundation], SetSampleFlags method, IMFSample::SetSampleFlags, SetSampleFlags method [Media Foundation], SetSampleFlags method [Media Foundation], IMFSample interface, SetSampleFlags,IMFSample.SetSampleFlags, mf.imfsample_setsampleflags, mfobjects/IMFSample::SetSampleFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices

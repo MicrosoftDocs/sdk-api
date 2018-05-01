@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ITextRangeProvider_FindAttribute.htm
 old-project: WinAuto
 ms.assetid: 623a9b66-7d8c-44d7-b0c1-5ed8a8b8f0c6
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: FindAttribute method [Windows Accessibility], FindAttribute method [Windows Accessibility], ITextRangeProvider interface, FindAttribute,ITextRangeProvider.FindAttribute, ITextRangeProvider, ITextRangeProvider interface [Windows Accessibility], FindAttribute method, ITextRangeProvider::FindAttribute, uiauto.uiauto_ITextRangeProvider_FindAttribute, uiauto_ITextRangeProvider_FindAttribute, uiautomationcore/ITextRangeProvider::FindAttribute, winauto.uiauto_ITextRangeProvider_FindAttribute
 ms.prod: windows-hardware
 ms.technology: windows-devices

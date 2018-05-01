@@ -7,7 +7,7 @@ old-location: security\iazapplications_count.htm
 old-project: SecAuthZ
 ms.assetid: 2f12fd9f-4632-4eef-8ac4-80e73a731539
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: AzApplications object [Security], Count property, Count property [Security], Count property [Security], AzApplications object, Count property [Security], IAzApplications interface, IAzApplications, IAzApplications interface [Security], Count property, IAzApplications.Count, IAzApplications::get_Count, azroles/IAzApplications::Count, azroles/IAzApplications::get_Count, get_Count,IAzApplications.get_Count, security.iazapplications_count
 ms.prod: windows-hardware
 ms.technology: windows-devices

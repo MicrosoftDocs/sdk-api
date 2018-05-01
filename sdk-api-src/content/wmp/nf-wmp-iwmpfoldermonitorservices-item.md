@@ -7,7 +7,7 @@ old-location: wmp\iwmpfoldermonitorservices_item.htm
 old-project: WMP
 ms.assetid: d9c79b85-ac64-456c-95b2-fe28a8c99fac
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPFolderMonitorServices, IWMPFolderMonitorServices interface [Windows Media Player], item method, IWMPFolderMonitorServices::item, IWMPFolderMonitorServicesitem, item method [Windows Media Player], item method [Windows Media Player], IWMPFolderMonitorServices interface, item,IWMPFolderMonitorServices.item, wmp.iwmpfoldermonitorservices_item, wmp/IWMPFolderMonitorServices::item
 ms.prod: windows-hardware
 ms.technology: windows-devices

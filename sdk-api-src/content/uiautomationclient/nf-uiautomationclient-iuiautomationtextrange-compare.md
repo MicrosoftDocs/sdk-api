@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationTextRange_Compare.htm
 old-project: WinAuto
 ms.assetid: 4ccf78af-19b0-4bc9-a519-92df8276804e
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: Compare method [Windows Accessibility], Compare method [Windows Accessibility], IUIAutomationTextRange interface, Compare,IUIAutomationTextRange.Compare, IUIAutomationTextRange, IUIAutomationTextRange interface [Windows Accessibility], Compare method, IUIAutomationTextRange::Compare, uiauto.uiauto_IUIAutomationTextRange_Compare, uiauto_IUIAutomationTextRange_Compare, uiautomationclient/IUIAutomationTextRange::Compare, winauto.uiauto_IUIAutomationTextRange_Compare
 ms.prod: windows-hardware
 ms.technology: windows-devices

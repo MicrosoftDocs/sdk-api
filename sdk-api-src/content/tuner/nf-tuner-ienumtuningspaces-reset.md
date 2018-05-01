@@ -7,7 +7,7 @@ old-location: mstv\ienumtuningspaces_reset.htm
 old-project: mstv
 ms.assetid: c9ac5d70-11f8-4bb4-a873-94eb72ea2f42
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IEnumTuningSpaces, IEnumTuningSpaces interface [Microsoft TV Technologies], Reset method, IEnumTuningSpaces::Reset, IEnumTuningSpacesReset, Reset method [Microsoft TV Technologies], Reset method [Microsoft TV Technologies], IEnumTuningSpaces interface, Reset,IEnumTuningSpaces.Reset, mstv.ienumtuningspaces_reset, tuner/IEnumTuningSpaces::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winrt\isurfaceimagesourcemanagernative.htm
 old-project: WinRT
 ms.assetid: 6DFC7A3D-0C29-421B-ADB0-360017DE7433
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/24/2018
 ms.keywords: ISurfaceImageSourceManagerNative, ISurfaceImageSourceManagerNative interface [Windows Runtime], ISurfaceImageSourceManagerNative interface [Windows Runtime], described, windows/ISurfaceImageSourceManagerNative, winrt.isurfaceimagesourcemanagernative
 ms.prod: windows-hardware
 ms.technology: windows-devices

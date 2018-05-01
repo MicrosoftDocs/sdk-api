@@ -7,7 +7,7 @@ old-location: mstv\iatsc_vct_getrecordmajorchannelnumber.htm
 old-project: mstv
 ms.assetid: 103de5b5-e78c-49a2-81a7-e85eae2d79c1
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetRecordMajorChannelNumber method [Microsoft TV Technologies], GetRecordMajorChannelNumber method [Microsoft TV Technologies], IATSC_VCT interface, GetRecordMajorChannelNumber,IATSC_VCT.GetRecordMajorChannelNumber, IATSC_VCT, IATSC_VCT interface [Microsoft TV Technologies], GetRecordMajorChannelNumber method, IATSC_VCT::GetRecordMajorChannelNumber, IATSC_VCTGetRecordMajorChannelNumber, atscpsipparser/IATSC_VCT::GetRecordMajorChannelNumber, mstv.iatsc_vct_getrecordmajorchannelnumber
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_WRITER_PAYLOAD_STREAM
+req.typenames: AsyncStatus
 topic_type:
 -	APIRef
 -	kbSyntax

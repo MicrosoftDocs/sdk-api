@@ -7,7 +7,7 @@ old-location: controls\itextpara2_getfontalignment.htm
 old-project: Controls
 ms.assetid: 1064c033-2ae0-46ec-a670-603edd673e87
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: GetFontAlignment method [Windows Controls], GetFontAlignment method [Windows Controls], ITextPara2 interface, GetFontAlignment,ITextPara2.GetFontAlignment, ITextPara2, ITextPara2 interface [Windows Controls], GetFontAlignment method, ITextPara2::GetFontAlignment, controls.itextpara2_getfontalignment, tom/ITextPara2::GetFontAlignment
 ms.prod: windows-hardware
 ms.technology: windows-devices

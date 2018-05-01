@@ -7,7 +7,7 @@ old-location: mstv\isbe2globalevent.htm
 old-project: mstv
 ms.assetid: 18bb9f8a-df97-468c-acb2-be7fa61a4789
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: ISBE2GlobalEvent, ISBE2GlobalEvent interface [Microsoft TV Technologies], ISBE2GlobalEvent interface [Microsoft TV Technologies], described, mstv.isbe2globalevent, sbe/ISBE2GlobalEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Sbe.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ISBE2GlobalEvent interface

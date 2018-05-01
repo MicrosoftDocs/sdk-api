@@ -7,7 +7,7 @@ old-location: dshow\iamline21decoder_getbackgroundcolor.htm
 old-project: DirectShow
 ms.assetid: ba75dc5b-207e-4425-a8fe-8da16fc89921
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetBackgroundColor method [DirectShow], GetBackgroundColor method [DirectShow], IAMLine21Decoder interface, GetBackgroundColor,IAMLine21Decoder.GetBackgroundColor, IAMLine21Decoder, IAMLine21Decoder interface [DirectShow], GetBackgroundColor method, IAMLine21Decoder::GetBackgroundColor, IAMLine21DecoderGetBackgroundColor, dshow.iamline21decoder_getbackgroundcolor, il21dec/IAMLine21Decoder::GetBackgroundColor
 ms.prod: windows-hardware
 ms.technology: windows-devices

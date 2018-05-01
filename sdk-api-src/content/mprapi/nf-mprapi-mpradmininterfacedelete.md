@@ -7,7 +7,7 @@ old-location: rras\mpradmininterfacedelete.htm
 old-project: RRAS
 ms.assetid: a02fff1d-c0e0-4a00-b77e-33cc45850bc6
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: MprAdminInterfaceDelete, MprAdminInterfaceDelete function [RAS], _mpr_mpradmininterfacedelete, mprapi/MprAdminInterfaceDelete, rras.mpradmininterfacedelete
 ms.prod: windows-hardware
 ms.technology: windows-devices

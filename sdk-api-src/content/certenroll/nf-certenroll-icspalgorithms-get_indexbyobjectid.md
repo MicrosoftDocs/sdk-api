@@ -7,7 +7,7 @@ old-location: security\icspalgorithms_indexbyobjectid_property.htm
 old-project: SecCertEnroll
 ms.assetid: 2a626738-8be4-4be4-ac32-860718a92ff9
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: ICspAlgorithms, ICspAlgorithms interface [Security], IndexByObjectId property, ICspAlgorithms.IndexByObjectId, ICspAlgorithms::get_IndexByObjectId, IndexByObjectId property [Security], IndexByObjectId property [Security], ICspAlgorithms interface, certenroll/ICspAlgorithms::IndexByObjectId, certenroll/ICspAlgorithms::get_IndexByObjectId, get_IndexByObjectId,ICspAlgorithms.get_IndexByObjectId, security.icspalgorithms_indexbyobjectid_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

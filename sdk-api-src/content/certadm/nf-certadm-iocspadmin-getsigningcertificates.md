@@ -7,7 +7,7 @@ old-location: security\iocspadmin_getsigningcertificates.htm
 old-project: SecCrypto
 ms.assetid: 762dc32f-90d4-4e88-a3cc-e77e729f0a98
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: GetSigningCertificates method [Security], GetSigningCertificates method [Security], IOCSPAdmin interface, GetSigningCertificates,IOCSPAdmin.GetSigningCertificates, IOCSPAdmin, IOCSPAdmin interface [Security], GetSigningCertificates method, IOCSPAdmin::GetSigningCertificates, certadm/IOCSPAdmin::GetSigningCertificates, security.iocspadmin_getsigningcertificates
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CHANNEL_ENTRY_POINTS, *PCHANNEL_ENTRY_POINTS
+req.typenames: 
 topic_type:
 -	APIRef
 -	kbSyntax

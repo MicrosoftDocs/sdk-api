@@ -7,7 +7,7 @@ old-location: shell\IFolderBandPriv_SetCascade.htm
 old-project: shell
 ms.assetid: c4981edf-981e-47e3-8869-86cb99f23e3e
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IFolderBandPriv, IFolderBandPriv interface [Windows Shell], SetCascade method, IFolderBandPriv::SetCascade, SetCascade method [Windows Shell], SetCascade method [Windows Shell], IFolderBandPriv interface, SetCascade,IFolderBandPriv.SetCascade, _win32_IFolderBandPriv_SetCascade, shell.IFolderBandPriv_SetCascade, shobjidl/IFolderBandPriv::SetCascade
 ms.prod: windows-hardware
 ms.technology: windows-devices

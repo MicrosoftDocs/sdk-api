@@ -7,7 +7,7 @@ old-location: dshow\iamgraphstreams_setmaxgraphlatency.htm
 old-project: DirectShow
 ms.assetid: e17723ad-20b5-4679-94a9-e32efbe82124
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMGraphStreams, IAMGraphStreams interface [DirectShow], SetMaxGraphLatency method, IAMGraphStreams::SetMaxGraphLatency, IAMGraphStreamsSetMaxGraphLatency, SetMaxGraphLatency method [DirectShow], SetMaxGraphLatency method [DirectShow], IAMGraphStreams interface, SetMaxGraphLatency,IAMGraphStreams.SetMaxGraphLatency, dshow.iamgraphstreams_setmaxgraphlatency, strmif/IAMGraphStreams::SetMaxGraphLatency
 ms.prod: windows-hardware
 ms.technology: windows-devices

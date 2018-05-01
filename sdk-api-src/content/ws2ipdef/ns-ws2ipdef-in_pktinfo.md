@@ -7,7 +7,7 @@ old-location: winsock\in_pktinfo_2.htm
 old-project: WinSock
 ms.assetid: a20cb3ff-38fb-471d-b940-7265c114e209
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/24/2018
 ms.keywords: "*PIN_PKTINFO, IN_PKTINFO, IN_PKTINFO structure [Winsock], PIN_PKTINFO, PIN_PKTINFO structure pointer [Winsock], _win32_in_pktinfo_2, in_pktinfo, in_pktinfo structure [Winsock], winsock.in_pktinfo_2, ws2ipdef/PIN_PKTINFO, ws2ipdef/in_pktinfo, ws2tcpip/PIN_PKTINFO, ws2tcpip/in_pktinfo"
 ms.prod: windows-hardware
 ms.technology: windows-devices

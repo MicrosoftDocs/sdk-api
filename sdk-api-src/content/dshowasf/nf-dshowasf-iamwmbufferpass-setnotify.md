@@ -7,7 +7,7 @@ old-location: dshow\iamwmbufferpass_setnotify.htm
 old-project: DirectShow
 ms.assetid: 4aa6fc71-39a7-4fa5-bfe3-b5b12dd44a2b
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMWMBufferPass, IAMWMBufferPass interface [DirectShow], SetNotify method, IAMWMBufferPass::SetNotify, IAMWMBufferPassSetNotify, SetNotify method [DirectShow], SetNotify method [DirectShow], IAMWMBufferPass interface, SetNotify,IAMWMBufferPass.SetNotify, dshow.iamwmbufferpass_setnotify, dshowasf/IAMWMBufferPass::SetNotify
 ms.prod: windows-hardware
 ms.technology: windows-devices

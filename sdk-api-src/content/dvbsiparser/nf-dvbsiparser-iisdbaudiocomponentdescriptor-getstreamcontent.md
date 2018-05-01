@@ -7,7 +7,7 @@ old-location: mstv\iisdbaudiocomponentdescriptor_getstreamcontent.htm
 old-project: mstv
 ms.assetid: 1283c029-d1f5-4da8-a0fe-c795b4cd093c
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetStreamContent method [Microsoft TV Technologies], GetStreamContent method [Microsoft TV Technologies], IIsdbAudioComponentDescriptor interface, GetStreamContent,IIsdbAudioComponentDescriptor.GetStreamContent, IIsdbAudioComponentDescriptor, IIsdbAudioComponentDescriptor interface [Microsoft TV Technologies], GetStreamContent method, IIsdbAudioComponentDescriptor::GetStreamContent, dvbsiparser/IIsdbAudioComponentDescriptor::GetStreamContent, mstv.iisdbaudiocomponentdescriptor_getstreamcontent
 ms.prod: windows-hardware
 ms.technology: windows-devices

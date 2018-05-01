@@ -7,7 +7,7 @@ old-location: mf\imftimedtextbinary_getdata.htm
 old-project: medfound
 ms.assetid: F8A0770D-87DD-4253-81F6-A002BEB8B896
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetData method [Media Foundation], GetData method [Media Foundation], IMFTimedTextBinary interface, GetData,IMFTimedTextBinary.GetData, IMFTimedTextBinary, IMFTimedTextBinary interface [Media Foundation], GetData method, IMFTimedTextBinary::GetData, mf.imftimedtextbinary_getdata, mfmediaengine/IMFTimedTextBinary::GetData
 ms.prod: windows-hardware
 ms.technology: windows-devices

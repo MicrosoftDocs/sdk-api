@@ -7,7 +7,7 @@ old-location: dhcp\dhcpv4getpolicy.htm
 old-project: DHCP
 ms.assetid: a6112bf8-5c1f-4f33-ba1f-b4903cc6befa
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/7/2018
 ms.keywords: DhcpV4GetPolicy, DhcpV4GetPolicy function [DHCP], dhcp.dhcpv4getpolicy, dhcpsapi/DhcpV4GetPolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices

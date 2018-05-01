@@ -7,7 +7,7 @@ old-location: wmi\provider_getobject.htm
 old-project: WmiSdk
 ms.assetid: c8e2633a-cbea-422c-9598-1b1b1104bbc2
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: "?GetObject@Provider@@MAEJPAVCInstance@@JAAVCFrameworkQuery@@@Z, ?GetObject@Provider@@MEAAJPEAVCInstance@@JAEAVCFrameworkQuery@@@Z, GetObject method [Windows Management Instrumentation], GetObject method [Windows Management Instrumentation], Provider interface, GetObject,Provider.GetObject, Provider, Provider interface [Windows Management Instrumentation], GetObject method, Provider::GetObject, _hmm_provider_getobject, provider/Provider::GetObject, wmi.provider_getobject"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # Provider::GetObject method

@@ -7,7 +7,7 @@ old-location: winrt\ilanguageexceptionerrorinfo2_capturepropagationcontext.htm
 old-project: WinRT
 ms.assetid: 60026962-4E6C-4906-97D9-46BD2BCA3AC6
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/24/2018
 ms.keywords: CapturePropagationContext method [Windows Runtime], CapturePropagationContext method [Windows Runtime], ILanguageExceptionErrorInfo2 interface, CapturePropagationContext,ILanguageExceptionErrorInfo2.CapturePropagationContext, ILanguageExceptionErrorInfo2, ILanguageExceptionErrorInfo2 interface [Windows Runtime], CapturePropagationContext method, ILanguageExceptionErrorInfo2::CapturePropagationContext, restrictederrorinfo/ILanguageExceptionErrorInfo2::CapturePropagationContext, winrt.ilanguageexceptionerrorinfo2_capturepropagationcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ILanguageExceptionErrorInfo2::CapturePropagationContext method

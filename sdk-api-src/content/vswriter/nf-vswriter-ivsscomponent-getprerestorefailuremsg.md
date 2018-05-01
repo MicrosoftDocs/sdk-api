@@ -7,7 +7,7 @@ old-location: base\ivsscomponent_getprerestorefailuremsg.htm
 old-project: VSS
 ms.assetid: 58c007a8-8414-4e2d-8042-d249a723780a
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: GetPreRestoreFailureMsg method [VSS], GetPreRestoreFailureMsg method [VSS], IVssComponent interface, GetPreRestoreFailureMsg,IVssComponent.GetPreRestoreFailureMsg, IVssComponent, IVssComponent interface [VSS], GetPreRestoreFailureMsg method, IVssComponent::GetPreRestoreFailureMsg, _win32_ivsscomponent_getprerestorefailuremsg, base.ivsscomponent_getprerestorefailuremsg, vswriter/IVssComponent::GetPreRestoreFailureMsg
 ms.prod: windows-hardware
 ms.technology: windows-devices

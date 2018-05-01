@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12pipelinelibrary_loadcomputepipeline.htm
 old-project: direct3d12
 ms.assetid: 8295D6E3-8353-46AD-A741-170244495F8B
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: ID3D12PipelineLibrary, ID3D12PipelineLibrary interface, LoadComputePipeline method, ID3D12PipelineLibrary::LoadComputePipeline, LoadComputePipeline method, LoadComputePipeline method, ID3D12PipelineLibrary interface, LoadComputePipeline,ID3D12PipelineLibrary.LoadComputePipeline, d3d12/ID3D12PipelineLibrary::LoadComputePipeline, direct3d12.id3d12pipelinelibrary_loadcomputepipeline
 ms.prod: windows-hardware
 ms.technology: windows-devices

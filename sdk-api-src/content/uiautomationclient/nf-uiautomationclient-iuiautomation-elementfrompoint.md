@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomation_ElementFromPoint.htm
 old-project: WinAuto
 ms.assetid: 4233cc97-94c8-4861-a364-823cca1e5ff8
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: ElementFromPoint method [Windows Accessibility], ElementFromPoint method [Windows Accessibility], IUIAutomation interface, ElementFromPoint,IUIAutomation.ElementFromPoint, IUIAutomation, IUIAutomation interface [Windows Accessibility], ElementFromPoint method, IUIAutomation::ElementFromPoint, uiauto.uiauto_IUIAutomation_ElementFromPoint, uiauto_IUIAutomation_ElementFromPoint, uiautomationclient/IUIAutomation::ElementFromPoint, winauto.uiauto_IUIAutomation_ElementFromPoint
 ms.prod: windows-hardware
 ms.technology: windows-devices

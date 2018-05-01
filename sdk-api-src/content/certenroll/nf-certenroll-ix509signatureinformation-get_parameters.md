@@ -7,7 +7,7 @@ old-location: security\ix509signatureinformation_parameters_property.htm
 old-project: SecCertEnroll
 ms.assetid: cb5675d5-cf06-4407-a7fd-b703a56cacba
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: IX509SignatureInformation, IX509SignatureInformation interface [Security], Parameters property, IX509SignatureInformation.Parameters, IX509SignatureInformation::get_Parameters, IX509SignatureInformation::put_Parameters, Parameters property [Security], Parameters property [Security], IX509SignatureInformation interface, certenroll/IX509SignatureInformation::Parameters, certenroll/IX509SignatureInformation::get_Parameters, certenroll/IX509SignatureInformation::put_Parameters, get_Parameters,IX509SignatureInformation.get_Parameters, security.ix509signatureinformation_parameters_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

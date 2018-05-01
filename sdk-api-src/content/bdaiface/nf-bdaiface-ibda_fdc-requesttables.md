@@ -7,7 +7,7 @@ old-location: mstv\ibda_fdc_requesttables.htm
 old-project: mstv
 ms.assetid: ff8483d3-6c4c-4786-a99b-bf3575a18fdb
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IBDA_FDC, IBDA_FDC interface [Microsoft TV Technologies], RequestTables method, IBDA_FDC::RequestTables, RequestTables method [Microsoft TV Technologies], RequestTables method [Microsoft TV Technologies], IBDA_FDC interface, RequestTables,IBDA_FDC.RequestTables, bdaiface/IBDA_FDC::RequestTables, mstv.ibda_fdc_requesttables
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: controls\ITextStoryRanges_GetCount.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getcount.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: GetCount method [Windows Controls], GetCount method [Windows Controls], ITextStoryRanges interface, GetCount,ITextStoryRanges.GetCount, ITextStoryRanges, ITextStoryRanges interface [Windows Controls], GetCount method, ITextStoryRanges::GetCount, _win32_ITextStoryRanges_GetCount, _win32_ITextStoryRanges_GetCount_cpp, controls.ITextStoryRanges_GetCount, controls._win32_ITextStoryRanges_GetCount, tom/ITextStoryRanges::GetCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

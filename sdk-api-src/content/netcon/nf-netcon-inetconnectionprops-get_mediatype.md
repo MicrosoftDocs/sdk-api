@@ -7,7 +7,7 @@ old-location: ics\inetconnectionprops_get_mediatype.htm
 old-project: ICS
 ms.assetid: cefaee7c-22ce-4171-8789-fe6befc7e313
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: INetConnectionProps, INetConnectionProps interface [ICS/ICF], get_MediaType method, INetConnectionProps::get_MediaType, _ics_inetconnectionprops_get_mediatype, get_MediaType method [ICS/ICF], get_MediaType method [ICS/ICF], INetConnectionProps interface, get_MediaType,INetConnectionProps.get_MediaType, ics.inetconnectionprops_get_mediatype, netcon/INetConnectionProps::get_MediaType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # INetConnectionProps::get_MediaType method

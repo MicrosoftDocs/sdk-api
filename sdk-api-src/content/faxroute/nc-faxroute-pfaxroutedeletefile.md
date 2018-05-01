@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxroutedeletefile.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxrouteextapiref_3691.htm
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/18/2018
 ms.keywords: FaxRouteDeleteFile, FaxRouteDeleteFile callback function [Fax Service], PFAXROUTEDELETEFILE, _mfax_faxroutedeletefile, fax._mfax_faxroutedeletefile, faxroute/FaxRouteDeleteFile
 ms.prod: windows-hardware
 ms.technology: windows-devices

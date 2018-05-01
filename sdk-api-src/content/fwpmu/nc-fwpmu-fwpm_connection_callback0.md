@@ -7,7 +7,7 @@ old-location: fwp\fwpm_connection_callback0.htm
 old-project: FWP
 ms.assetid: 92aac379-6145-4556-a4cd-6a27fda4d910
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: FWPM_CONNECTION_CALLBACK0, FWPM_CONNECTION_CALLBACK0 function pointer [Filtering], fwp.fwpm_connection_callback0, fwpmu/FWPM_CONNECTION_CALLBACK0
 ms.prod: windows-hardware
 ms.technology: windows-devices

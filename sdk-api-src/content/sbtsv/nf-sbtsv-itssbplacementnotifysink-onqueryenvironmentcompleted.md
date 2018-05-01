@@ -7,7 +7,7 @@ old-location: termserv\itssbplacementnotifysink_onqueryenvironmentcompleted.htm
 old-project: TermServ
 ms.assetid: 937982aa-7655-4681-ba6c-94201743c90c
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: ITsSbPlacementNotifySink, ITsSbPlacementNotifySink interface [Remote Desktop Services], OnQueryEnvironmentCompleted method, ITsSbPlacementNotifySink::OnQueryEnvironmentCompleted, OnQueryEnvironmentCompleted method [Remote Desktop Services], OnQueryEnvironmentCompleted method [Remote Desktop Services], ITsSbPlacementNotifySink interface, OnQueryEnvironmentCompleted,ITsSbPlacementNotifySink.OnQueryEnvironmentCompleted, sbtsv/ITsSbPlacementNotifySink::OnQueryEnvironmentCompleted, termserv.itssbplacementnotifysink_onqueryenvironmentcompleted
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITsSbPlacementNotifySink::OnQueryEnvironmentCompleted method

@@ -7,7 +7,7 @@ old-location: mstv\itunerequestinfo_getpreviouslocator.htm
 old-project: mstv
 ms.assetid: 72512da5-28d4-40b8-93df-039014f432c0
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetPreviousLocator method [Microsoft TV Technologies], GetPreviousLocator method [Microsoft TV Technologies], ITuneRequestInfo interface, GetPreviousLocator,ITuneRequestInfo.GetPreviousLocator, ITuneRequestInfo, ITuneRequestInfo interface [Microsoft TV Technologies], GetPreviousLocator method, ITuneRequestInfo::GetPreviousLocator, ITuneRequestInfoGetPreviousLocator, bdatif/ITuneRequestInfo::GetPreviousLocator, mstv.itunerequestinfo_getpreviouslocator
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: SpanningEventEmmMessage
+req.typenames: SmartCardApplication
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3dvolume9__getdesc.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dvolume9__getdesc.htm
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/10/2018
 ms.keywords: 6ce3365b-f9f8-dd10-e1a5-c17ea631f175, GetDesc method [Direct3D 9], GetDesc method [Direct3D 9], IDirect3DVolume9 interface, GetDesc,IDirect3DVolume9.GetDesc, IDirect3DVolume9, IDirect3DVolume9 interface [Direct3D 9], GetDesc method, IDirect3DVolume9::GetDesc, d3d9helper/IDirect3DVolume9::GetDesc, direct3d9.idirect3dvolume9__getdesc
 ms.prod: windows-hardware
 ms.technology: windows-devices

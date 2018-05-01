@@ -7,7 +7,7 @@ old-location: dshow\idistributornotify_run.htm
 old-project: DirectShow
 ms.assetid: d6a6595b-b243-41bf-bba9-6e35fa81116c
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IDistributorNotify, IDistributorNotify interface [DirectShow], Run method, IDistributorNotify::Run, IDistributorNotifyRun, Run method [DirectShow], Run method [DirectShow], IDistributorNotify interface, Run,IDistributorNotify.Run, dshow.idistributornotify_run, strmif/IDistributorNotify::Run
 ms.prod: windows-hardware
 ms.technology: windows-devices

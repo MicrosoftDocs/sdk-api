@@ -7,7 +7,7 @@ old-location: security\bcrypt_algorithm_identifier_struct.htm
 old-project: SecCNG
 ms.assetid: a49a21c9-5668-4709-b52a-f6cacd944845
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: BCRYPT_ALGORITHM_IDENTIFIER, BCRYPT_ALGORITHM_IDENTIFIER structure [Security], _BCRYPT_ALGORITHM_IDENTIFIER, bcrypt/BCRYPT_ALGORITHM_IDENTIFIER, security.bcrypt_algorithm_identifier_struct
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tapi3\ienumdirectoryobject_reset.htm
 old-project: Tapi
 ms.assetid: fd3d338e-f980-4a87-ae51-b59a8744d029
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: IEnumDirectoryObject, IEnumDirectoryObject interface [TAPI 2.2], Reset method, IEnumDirectoryObject::Reset, Reset method [TAPI 2.2], Reset method [TAPI 2.2], IEnumDirectoryObject interface, Reset,IEnumDirectoryObject.Reset, _tapi3_ienumdirectoryobject_reset, rend/IEnumDirectoryObject::Reset, tapi3.ienumdirectoryobject_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Rend.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IEnumDirectoryObject::Reset method

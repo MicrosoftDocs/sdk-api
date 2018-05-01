@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11inputlayout.htm
 old-project: direct3d11
 ms.assetid: df83fcdc-ff1b-4901-9f1f-15eb2fe5241c
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/6/2018
 ms.keywords: ID3D11InputLayout, ID3D11InputLayout interface [Direct3D 11], ID3D11InputLayout interface [Direct3D 11], described, b8a9a875-1563-0aed-8b68-020a489fb28a, d3d11/ID3D11InputLayout, direct3d11.id3d11inputlayout
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmdm\imdspobjectinfo_setplaylength.htm
 old-project: WMDM
 ms.assetid: d5d860fb-c146-4bfc-90b1-cf1dfc81c5ba
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: IMDSPObjectInfo, IMDSPObjectInfo interface [windows Media Device Manager], SetPlayLength method, IMDSPObjectInfo::SetPlayLength, IMDSPObjectInfoSetPlayLength, SetPlayLength method [windows Media Device Manager], SetPlayLength method [windows Media Device Manager], IMDSPObjectInfo interface, SetPlayLength,IMDSPObjectInfo.SetPlayLength, mswmdm/IMDSPObjectInfo::SetPlayLength, wmdm.imdspobjectinfo_setplaylength
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMDSPObjectInfo::SetPlayLength method

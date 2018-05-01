@@ -7,7 +7,7 @@ old-location: mscs\pworker_start_routine.htm
 old-project: MsCS
 ms.assetid: d46eaaa7-241a-40a5-a691-68631565e2e7
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: PWORKER_START_ROUTINE, PWORKER_START_ROUTINE callback function [Failover Cluster], WorkerStartRoutine, WorkerStartRoutine callback function [Failover Cluster], mscs.pworker_start_routine, resapi/PWORKER_START_ROUTINE, resapi/WorkerStartRoutine
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # PWORKER_START_ROUTINE callback

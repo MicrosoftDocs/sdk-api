@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol_nextpgsearch.htm
 old-project: DirectShow
 ms.assetid: a509f63f-a3e9-4b49-bbf0-f59051db119a
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IDvdControl, IDvdControl interface [DirectShow], NextPGSearch method, IDvdControl::NextPGSearch, IDvdControlNextPGSearch, NextPGSearch method [DirectShow], NextPGSearch method [DirectShow], IDvdControl interface, NextPGSearch,IDvdControl.NextPGSearch, dshow.idvdcontrol_nextpgsearch, strmif/IDvdControl::NextPGSearch
 ms.prod: windows-hardware
 ms.technology: windows-devices

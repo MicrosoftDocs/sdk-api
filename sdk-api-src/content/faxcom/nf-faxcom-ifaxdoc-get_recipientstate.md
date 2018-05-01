@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxdoc_get_recipientstate_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_3vqd.htm
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/18/2018
 ms.keywords: FaxDoc object [Fax Service], RecipientState property, IFaxDoc, IFaxDoc::get_RecipientState, RecipientState property [Fax Service], RecipientState property [Fax Service], FaxDoc object, _mfax_ifaxdoc_get_recipientstate, fax._mfax_ifaxdoc_get_recipientstate, fax._mfax_ifaxdoc_get_recipientstate_vb, get_RecipientState,IFaxDoc.get_RecipientState
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\imediaseeking_getcapabilities.htm
 old-project: DirectShow
 ms.assetid: 84dd3c21-9c72-4433-bd03-29520dc138ca
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetCapabilities method [DirectShow], GetCapabilities method [DirectShow], IMediaSeeking interface, GetCapabilities,IMediaSeeking.GetCapabilities, IMediaSeeking, IMediaSeeking interface [DirectShow], GetCapabilities method, IMediaSeeking::GetCapabilities, IMediaSeekingGetCapabilities, dshow.imediaseeking_getcapabilities, strmif/IMediaSeeking::GetCapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices

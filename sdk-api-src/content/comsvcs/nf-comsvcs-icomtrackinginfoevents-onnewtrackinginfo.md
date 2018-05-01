@@ -7,7 +7,7 @@ old-location: cos\icomtrackinginfoevents_onnewtrackinginfo.htm
 old-project: cossdk
 ms.assetid: a63f6782-b50a-4457-bd51-4eba8c413a47
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: IComTrackingInfoEvents, IComTrackingInfoEvents interface [COM+], OnNewTrackingInfo method, IComTrackingInfoEvents::OnNewTrackingInfo, OnNewTrackingInfo method [COM+], OnNewTrackingInfo method [COM+], IComTrackingInfoEvents interface, OnNewTrackingInfo,IComTrackingInfoEvents.OnNewTrackingInfo, _dtc_IComTrackingInfoEvents_OnNewTrackingInfo, comsvcs/IComTrackingInfoEvents::OnNewTrackingInfo, cos.icomtrackinginfoevents_onnewtrackinginfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

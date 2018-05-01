@@ -7,7 +7,7 @@ old-location: mstv\ipat_convertnexttocurrent.htm
 old-project: mstv
 ms.assetid: 89a493b9-93d3-435f-a4dc-24f8f8e2d1bf
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: ConvertNextToCurrent method [Microsoft TV Technologies], ConvertNextToCurrent method [Microsoft TV Technologies], IPAT interface, ConvertNextToCurrent,IPAT.ConvertNextToCurrent, IPAT, IPAT interface [Microsoft TV Technologies], ConvertNextToCurrent method, IPAT::ConvertNextToCurrent, IPATConvertNextToCurrent, mpeg2psiparser/IPAT::ConvertNextToCurrent, mstv.ipat_convertnexttocurrent
 ms.prod: windows-hardware
 ms.technology: windows-devices

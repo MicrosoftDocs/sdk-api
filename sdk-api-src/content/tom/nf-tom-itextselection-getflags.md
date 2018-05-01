@@ -7,7 +7,7 @@ old-location: controls\ITextSelection_GetFlags.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getflags.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: GetFlags method [Windows Controls], GetFlags method [Windows Controls], ITextSelection interface, GetFlags,ITextSelection.GetFlags, ITextSelection, ITextSelection interface [Windows Controls], GetFlags method, ITextSelection::GetFlags, _win32_ITextSelection_GetFlags, _win32_ITextSelection_GetFlags_cpp, controls.ITextSelection_GetFlags, controls._win32_ITextSelection_GetFlags, tom/ITextSelection::GetFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices

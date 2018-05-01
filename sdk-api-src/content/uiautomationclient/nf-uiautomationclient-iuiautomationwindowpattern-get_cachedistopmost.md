@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationWindowPattern_CachedIsTopmost.htm
 old-project: WinAuto
 ms.assetid: 0174de28-d910-4f1c-b9ac-a273563adf23
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: CachedIsTopmost property [Windows Accessibility], CachedIsTopmost property [Windows Accessibility], IUIAutomationWindowPattern interface, IUIAutomationWindowPattern, IUIAutomationWindowPattern interface [Windows Accessibility], CachedIsTopmost property, IUIAutomationWindowPattern.CachedIsTopmost, IUIAutomationWindowPattern::get_CachedIsTopmost, get_CachedIsTopmost,IUIAutomationWindowPattern.get_CachedIsTopmost, uiauto.uiauto_IUIAutomationWindowPattern_CachedIsTopmost, uiauto_IUIAutomationWindowPattern_CachedIsTopmost, uiautomationclient/IUIAutomationWindowPattern::CachedIsTopmost, uiautomationclient/IUIAutomationWindowPattern::get_CachedIsTopmost, winauto.uiauto_IUIAutomationWindowPattern_CachedIsTopmost
 ms.prod: windows-hardware
 ms.technology: windows-devices

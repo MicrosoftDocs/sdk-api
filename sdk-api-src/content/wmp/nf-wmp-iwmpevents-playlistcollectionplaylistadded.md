@@ -7,7 +7,7 @@ old-location: wmp\iwmpevents_iwmpevents__playlistcollectionplaylistadded.htm
 old-project: WMP
 ms.assetid: f865021c-692b-425e-a37a-b3048f7e5c64
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPEvents, IWMPEvents interface [Windows Media Player], PlaylistCollectionPlaylistAdded method, IWMPEvents::PlaylistCollectionPlaylistAdded, IWMPEventsPlaylistCollectionPlaylistAdded, PlaylistCollectionPlaylistAdded method [Windows Media Player], PlaylistCollectionPlaylistAdded method [Windows Media Player], IWMPEvents interface, PlaylistCollectionPlaylistAdded,IWMPEvents.PlaylistCollectionPlaylistAdded, wmp.iwmpevents_iwmpevents__playlistcollectionplaylistadded, wmp/IWMPEvents::PlaylistCollectionPlaylistAdded
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\ix509attributeosversioner_osversion_property.htm
 old-project: SecCertEnroll
 ms.assetid: 395ec2be-fe92-4bf1-bed3-db122e22f15e
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: IX509AttributeOSVersion, IX509AttributeOSVersion interface [Security], OSVersion property, IX509AttributeOSVersion.OSVersion, IX509AttributeOSVersion::get_OSVersion, OSVersion property [Security], OSVersion property [Security], IX509AttributeOSVersion interface, certenroll/IX509AttributeOSVersion::OSVersion, certenroll/IX509AttributeOSVersion::get_OSVersion, get_OSVersion,IX509AttributeOSVersion.get_OSVersion, security.ix509attributeosversioner_osversion_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

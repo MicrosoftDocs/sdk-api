@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationTextRange_RemoveFromSelection.htm
 old-project: WinAuto
 ms.assetid: 24aa2e4f-4024-4915-81f5-4bc704cc1559
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: IUIAutomationTextRange, IUIAutomationTextRange interface [Windows Accessibility], RemoveFromSelection method, IUIAutomationTextRange::RemoveFromSelection, RemoveFromSelection method [Windows Accessibility], RemoveFromSelection method [Windows Accessibility], IUIAutomationTextRange interface, RemoveFromSelection,IUIAutomationTextRange.RemoveFromSelection, uiauto.uiauto_IUIAutomationTextRange_RemoveFromSelection, uiauto_IUIAutomationTextRange_RemoveFromSelection, uiautomationclient/IUIAutomationTextRange::RemoveFromSelection, winauto.uiauto_IUIAutomationTextRange_RemoveFromSelection
 ms.prod: windows-hardware
 ms.technology: windows-devices

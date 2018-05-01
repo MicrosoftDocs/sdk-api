@@ -7,7 +7,7 @@ old-location: base\changer_read_element_status_str.htm
 old-project: DevIO
 ms.assetid: 4eefc457-ba39-4025-98c8-21f599a87fcb
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/3/2018
 ms.keywords: "*PCHANGER_READ_ELEMENT_STATUS, CHANGER_READ_ELEMENT_STATUS, CHANGER_READ_ELEMENT_STATUS structure, PCHANGER_READ_ELEMENT_STATUS, PCHANGER_READ_ELEMENT_STATUS structure pointer, _CHANGER_READ_ELEMENT_STATUS, _win32_changer_read_element_status_str, base.changer_read_element_status_str, winioctl/CHANGER_READ_ELEMENT_STATUS, winioctl/PCHANGER_READ_ELEMENT_STATUS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\ivpnotify_getdeinterlacemode.htm
 old-project: DirectShow
 ms.assetid: 08d28857-5460-407d-a169-8568b2c381e6
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetDeinterlaceMode method [DirectShow], GetDeinterlaceMode method [DirectShow], IVPNotify interface, GetDeinterlaceMode,IVPNotify.GetDeinterlaceMode, IVPNotify, IVPNotify interface [DirectShow], GetDeinterlaceMode method, IVPNotify::GetDeinterlaceMode, IVPNotifyGetDeinterlaceMode, dshow.ivpnotify_getdeinterlacemode, vpnotify/IVPNotify::GetDeinterlaceMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

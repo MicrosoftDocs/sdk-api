@@ -7,7 +7,7 @@ old-location: ad\dsenumattributescallback.htm
 old-project: AD
 ms.assetid: f4f35119-9ffc-4fe9-aea1-2d4a5d4edd0b
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/20/2018
 ms.keywords: DSECAF_NOTLISTED, DSEnumAttributesCallback, DSEnumAttributesCallback callback function [Active Directory], LPDSENUMATTRIBUTES, LPDSENUMATTRIBUTES callback function [Active Directory], ad.dsenumattributescallback, dsclient/DSEnumAttributesCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

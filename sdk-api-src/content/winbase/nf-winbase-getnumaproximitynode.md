@@ -7,7 +7,7 @@ old-location: base\getnumaproximitynode.htm
 old-project: ProcThread
 ms.assetid: 9a2dbfe3-13e7-442d-a5f6-b2632878f618
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: GetNumaProximityNode, GetNumaProximityNode function, base.getnumaproximitynode, winbase/GetNumaProximityNode
 ms.prod: windows-hardware
 ms.technology: windows-devices

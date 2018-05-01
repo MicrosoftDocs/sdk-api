@@ -7,7 +7,7 @@ old-location: mstv\idvbextendedeventdescriptor_getconcatenateditemw.htm
 old-project: mstv
 ms.assetid: 9b90a2de-8447-4038-9a11-1db74ebd2feb
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetConcatenatedItemW method [Microsoft TV Technologies], GetConcatenatedItemW method [Microsoft TV Technologies], IDvbExtendedEventDescriptor interface, GetConcatenatedItemW,IDvbExtendedEventDescriptor.GetConcatenatedItemW, IDvbExtendedEventDescriptor, IDvbExtendedEventDescriptor interface [Microsoft TV Technologies], GetConcatenatedItemW method, IDvbExtendedEventDescriptor::GetConcatenatedItemW, dvbsiparser/IDvbExtendedEventDescriptor::GetConcatenatedItemW, mstv.idvbextendedeventdescriptor_getconcatenateditemw
 ms.prod: windows-hardware
 ms.technology: windows-devices

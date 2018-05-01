@@ -7,7 +7,7 @@ old-location: appxpkg\iappxencryptionfactory3_createencryptedpackagewriter.htm
 old-project: appxpkg
 ms.assetid: 9CBBAF89-DE9F-49B6-B03A-2F3B6B4CE1E4
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/26/2018
 ms.keywords: CreateEncryptedPackageWriter method [App packaging and management], CreateEncryptedPackageWriter method [App packaging and management], IAppxEncryptionFactory3 interface, CreateEncryptedPackageWriter,IAppxEncryptionFactory3.CreateEncryptedPackageWriter, IAppxEncryptionFactory3, IAppxEncryptionFactory3 interface [App packaging and management], CreateEncryptedPackageWriter method, IAppxEncryptionFactory3::CreateEncryptedPackageWriter, appxpackaging/IAppxEncryptionFactory3::CreateEncryptedPackageWriter, appxpkg.iappxencryptionfactory3_createencryptedpackagewriter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_ARCHITECTURE2
+req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
 topic_type:
 -	APIRef
 -	kbSyntax

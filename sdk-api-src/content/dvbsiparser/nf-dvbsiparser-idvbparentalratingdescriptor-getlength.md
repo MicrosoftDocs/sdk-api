@@ -7,7 +7,7 @@ old-location: mstv\idvbparentalratingdescriptor_getlength.htm
 old-project: mstv
 ms.assetid: 019c6998-74b3-4966-ad5d-b8da2bbacca5
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies], IDvbParentalRatingDescriptor interface, GetLength,IDvbParentalRatingDescriptor.GetLength, IDvbParentalRatingDescriptor, IDvbParentalRatingDescriptor interface [Microsoft TV Technologies], GetLength method, IDvbParentalRatingDescriptor::GetLength, dvbsiparser/IDvbParentalRatingDescriptor::GetLength, mstv.idvbparentalratingdescriptor_getlength
 ms.prod: windows-hardware
 ms.technology: windows-devices

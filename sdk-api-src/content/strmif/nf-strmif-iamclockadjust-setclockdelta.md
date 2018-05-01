@@ -7,7 +7,7 @@ old-location: dshow\iamclockadjust_setclockdelta.htm
 old-project: DirectShow
 ms.assetid: f9bd4e69-343f-4150-ab12-b5ce405a3ac3
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMClockAdjust, IAMClockAdjust interface [DirectShow], SetClockDelta method, IAMClockAdjust::SetClockDelta, IAMClockAdjustSetClockDelta, SetClockDelta method [DirectShow], SetClockDelta method [DirectShow], IAMClockAdjust interface, SetClockDelta,IAMClockAdjust.SetClockDelta, dshow.iamclockadjust_setclockdelta, strmif/IAMClockAdjust::SetClockDelta
 ms.prod: windows-hardware
 ms.technology: windows-devices

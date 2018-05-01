@@ -7,7 +7,7 @@ old-location: security\crypt_provider_sgnr.htm
 old-project: SecCrypto
 ms.assetid: 39cf9a03-768d-4ae0-a19d-17652181dbe4
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: "*PCRYPT_PROVIDER_SGNR, CRYPT_PROVIDER_SGNR, CRYPT_PROVIDER_SGNR structure [Security], PCRYPT_PROVIDER_SGNR, PCRYPT_PROVIDER_SGNR structure pointer [Security], SGNR_TYPE_TIMESTAMP, _CRYPT_PROVIDER_SGNR, security.crypt_provider_sgnr, wintrust/CRYPT_PROVIDER_SGNR, wintrust/PCRYPT_PROVIDER_SGNR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,16 +60,6 @@ The <b>CRYPT_PROVIDER_SGNR</b> structure provides information about a signer or 
 
 
 
-### -field pasCertChain
-
-Array of <a href="https://msdn.microsoft.com/622e7a72-445a-4820-b236-1c90dad08351">CRYPT_PROVIDER_CERT</a> structures.
-
-
-### -field pasCounterSigners
-
-A pointer to an array of <b>CRYPT_PROVIDER_SGNR</b> structures that represent the countersigners.
-
-
 ### -field cbStruct
 
 The size, in bytes, of this structure.
@@ -83,6 +73,11 @@ The current time, or the time stamp.
 ### -field csCertChain
 
 Number of elements in the <b>pasCertChain</b> array.
+
+
+### -field pasCertChain
+
+Array of <a href="https://msdn.microsoft.com/622e7a72-445a-4820-b236-1c90dad08351">CRYPT_PROVIDER_CERT</a> structures.
 
 
 ### -field dwSignerType
@@ -122,6 +117,11 @@ Error value, if any, while building or verifying the signer.
 ### -field csCounterSigners
 
 Number of elements in the <b>pasCounterSigners</b>  array.
+
+
+### -field pasCounterSigners
+
+A pointer to an array of <b>CRYPT_PROVIDER_SGNR</b> structures that represent the countersigners.
 
 
 ### -field pChainContext

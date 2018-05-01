@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrSyncCallback_ReportEvent.htm
 old-project: shell
 ms.assetid: 4c7d6627-1652-4920-9dce-a61673e6e656
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ISyncMgrSyncCallback, ISyncMgrSyncCallback interface [Windows Shell], ReportEvent method, ISyncMgrSyncCallback::ReportEvent, ReportEvent method [Windows Shell], ReportEvent method [Windows Shell], ISyncMgrSyncCallback interface, ReportEvent,ISyncMgrSyncCallback.ReportEvent, _shell_ISyncMgrSyncCallback_ReportEvent, shell.ISyncMgrSyncCallback_ReportEvent, syncmgr/ISyncMgrSyncCallback::ReportEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

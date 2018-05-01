@@ -7,7 +7,7 @@ old-location: com\iolecache2.htm
 old-project: com
 ms.assetid: 8bbeca2d-c805-4116-b918-e2ddded8b160
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IOleCache2, IOleCache2 interface [COM], IOleCache2 interface [COM], described, _ole_iolecache2, com.iolecache2, oleidl/IOleCache2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Adhocreportingexcelclient.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IOleCache2 interface

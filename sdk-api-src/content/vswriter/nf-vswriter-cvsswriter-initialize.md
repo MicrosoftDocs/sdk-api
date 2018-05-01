@@ -7,7 +7,7 @@ old-location: base\cvsswriter_initialize.htm
 old-project: VSS
 ms.assetid: a427ebbd-b7c4-46ba-ba16-dd601b1f956e
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: CVssWriter, CVssWriter interface [VSS], Initialize method, CVssWriter::Initialize, Initialize method [VSS], Initialize method [VSS], CVssWriter interface, Initialize,CVssWriter.Initialize, _win32_cvsswriter_initialize, base.cvsswriter_initialize, vswriter/CVssWriter::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

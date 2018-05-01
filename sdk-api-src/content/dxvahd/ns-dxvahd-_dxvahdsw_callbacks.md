@@ -7,7 +7,7 @@ old-location: mf\dxvahdsw_callbacks.htm
 old-project: medfound
 ms.assetid: 74c329cc-af54-4cf8-8cb6-eed9e96db4c5
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: DXVAHDSW_CALLBACKS, DXVAHDSW_CALLBACKS structure [Media Foundation], _DXVAHDSW_CALLBACKS, dxvahd/DXVAHDSW_CALLBACKS, mf.dxvahdsw_callbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices

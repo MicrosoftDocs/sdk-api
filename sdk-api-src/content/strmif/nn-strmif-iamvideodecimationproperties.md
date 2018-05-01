@@ -7,7 +7,7 @@ old-location: dshow\iamvideodecimationproperties.htm
 old-project: DirectShow
 ms.assetid: fd435eff-a4bc-40b3-8aa7-50d78d17e4ce
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMVideoDecimationProperties, IAMVideoDecimationProperties interface [DirectShow], IAMVideoDecimationProperties interface [DirectShow], described, IAMVideoDecimationPropertiesInterface, dshow.iamvideodecimationproperties, strmif/IAMVideoDecimationProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

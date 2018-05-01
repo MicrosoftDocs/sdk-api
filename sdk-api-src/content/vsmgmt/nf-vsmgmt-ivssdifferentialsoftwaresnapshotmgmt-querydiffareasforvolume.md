@@ -7,7 +7,7 @@ old-location: base\ivssdifferentialsoftwaresnapshotmgmt_querydiffareasforvolume.
 old-project: VSS
 ms.assetid: 381f8a4a-c88f-4bd3-bff1-6828fe034e66
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: IVssDifferentialSoftwareSnapshotMgmt, IVssDifferentialSoftwareSnapshotMgmt interface [VSS], QueryDiffAreasForVolume method, IVssDifferentialSoftwareSnapshotMgmt::QueryDiffAreasForVolume, QueryDiffAreasForVolume method [VSS], QueryDiffAreasForVolume method [VSS], IVssDifferentialSoftwareSnapshotMgmt interface, QueryDiffAreasForVolume,IVssDifferentialSoftwareSnapshotMgmt.QueryDiffAreasForVolume, base.ivssdifferentialsoftwaresnapshotmgmt_querydiffareasforvolume, vsmgmt/IVssDifferentialSoftwareSnapshotMgmt::QueryDiffAreasForVolume
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tablet\itextinputpanel_commitpendinginput.htm
 old-project: tablet
 ms.assetid: 652df9e7-5bac-4dc7-bd1a-3934a2bdeb94
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: 652df9e7-5bac-4dc7-bd1a-3934a2bdeb94, CommitPendingInput method [Tablet PC], CommitPendingInput method [Tablet PC], ITextInputPanel interface, CommitPendingInput,ITextInputPanel.CommitPendingInput, ITextInputPanel, ITextInputPanel interface [Tablet PC], CommitPendingInput method, ITextInputPanel::CommitPendingInput, peninputpanel/ITextInputPanel::CommitPendingInput, tablet.itextinputpanel_commitpendinginput
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Tiptsf.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITextInputPanel::CommitPendingInput method

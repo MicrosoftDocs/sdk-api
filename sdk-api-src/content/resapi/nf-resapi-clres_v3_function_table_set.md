@@ -7,7 +7,7 @@ old-location: mscs\clres_v3_function_table_set.htm
 old-project: MsCS
 ms.assetid: 4915EAD2-771E-4BD5-B2A7-4149007F4E47
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: CLRES_V3_FUNCTION_TABLE_SET, CLRES_V3_FUNCTION_TABLE_SET macro [Failover Cluster], mscs.clres_v3_function_table_set, resapi/CLRES_V3_FUNCTION_TABLE_SET
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # CLRES_V3_FUNCTION_TABLE_SET macro

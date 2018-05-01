@@ -7,7 +7,7 @@ old-location: intl\immsetcandidatewindow.htm
 old-project: Intl
 ms.assetid: 4b82a5a3-1e31-4d50-9a0f-890e94d12201
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/25/2018
 ms.keywords: ImmSetCandidateWindow, ImmSetCandidateWindow function [Internationalization for Windows Applications], _win32_ImmSetCandidateWindow, imm/ImmSetCandidateWindow, intl.immsetcandidatewindow
 ms.prod: windows-hardware
 ms.technology: windows-devices

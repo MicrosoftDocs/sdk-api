@@ -7,7 +7,7 @@ old-location: base\createjobobject.htm
 old-project: ProcThread
 ms.assetid: ca6a044f-67ed-4a9c-9aeb-69dd77652854
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: CreateJobObject, CreateJobObject function, CreateJobObjectA, CreateJobObjectW, _win32_createjobobject, base.createjobobject, winbase/CreateJobObject, winbase/CreateJobObjectA, winbase/CreateJobObjectW
 ms.prod: windows-hardware
 ms.technology: windows-devices

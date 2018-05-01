@@ -7,7 +7,7 @@ old-location: mstv\istreambuffermediaseeking.htm
 old-project: mstv
 ms.assetid: baac4c50-7aba-4bdc-93ad-57f22c55ea4b
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IStreamBufferMediaSeeking, IStreamBufferMediaSeeking interface [Microsoft TV Technologies], IStreamBufferMediaSeeking interface [Microsoft TV Technologies], described, IStreamBufferMediaSeekingInterface, mstv.istreambuffermediaseeking, sbe/IStreamBufferMediaSeeking
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Sbe.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IStreamBufferMediaSeeking interface

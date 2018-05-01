@@ -1,0 +1,141 @@
+---
+UID: NS:bthledef._BTH_LE_GATT_CHARACTERISTIC
+title: "_BTH_LE_GATT_CHARACTERISTIC"
+author: windows-driver-content
+description: The BTH_LE_GATT_CHARACTERISTIC structure describes a Bluetooth Low Energy (LE) generic attribute (GATT) profile characteristic.
+old-location: bltooth\bth_le_gatt_characteristic.htm
+old-project: bltooth
+ms.assetid: BE96F588-28C5-46C8-AFC9-852D940051F2
+ms.author: windowsdriverdev
+ms.date: 4/23/2018
+ms.keywords: "*PBTH_LE_GATT_CHARACTERISTIC, BTH_LE_GATT_CHARACTERISTIC, BTH_LE_GATT_CHARACTERISTIC structure [Bluetooth Devices], PBTH_LE_GATT_CHARACTERISTIC, PBTH_LE_GATT_CHARACTERISTIC structure pointer [Bluetooth Devices], _BTH_LE_GATT_CHARACTERISTIC, bltooth.bth_le_gatt_characteristic, bthledef/BTH_LE_GATT_CHARACTERISTIC, bthledef/PBTH_LE_GATT_CHARACTERISTIC"
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: struct
+req.header: bthledef.h
+req.include-header: BthLEDef.h
+req.target-type: Windows
+req.target-min-winverclnt: Versions:\_Supported in Windows 8
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: BTH_LE_GATT_CHARACTERISTIC, *PBTH_LE_GATT_CHARACTERISTIC
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	BthLEDef.h
+api_name:
+-	BTH_LE_GATT_CHARACTERISTIC
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# _BTH_LE_GATT_CHARACTERISTIC structure
+
+
+## -description
+
+
+The BTH_LE_GATT_CHARACTERISTIC structure describes a Bluetooth Low Energy (LE) generic attribute (GATT) profile characteristic.
+
+
+## -struct-fields
+
+
+
+
+### -field ServiceHandle
+
+The handle to the Bluetooth LE GATT profile service.
+
+
+### -field CharacteristicUuid
+
+The Universally Unique ID (UUID) of the characteristic.
+
+
+### -field AttributeHandle
+
+The handle to the Bluetooth LE GATT profile attributes.
+
+
+### -field CharacteristicValueHandle
+
+The handle to the Bluetooth LE GATT profile characteristic value.
+
+
+### -field IsBroadcastable
+
+The characteristic can be broadcast.
+
+
+### -field IsReadable
+
+The characteristic  can be read.
+
+
+### -field IsWritable
+
+The characteristic  can be written to.
+
+
+### -field IsWritableWithoutResponse
+
+The characteristic  can be written to without requiring a response.
+
+
+### -field IsSignedWritable
+
+The characteristic can be signed writable.
+
+
+### -field IsNotifiable
+
+The characteristic can be updated by the device through Handle Value Notifications, and the new value will be returned through the callback function registered via <a href="https://msdn.microsoft.com/library/windows/hardware/hh450804">BluetoothGATTRegisterEvent</a>.
+
+
+### -field IsIndicatable
+
+The characteristic can be updated by the device through Handle Value Indications, and the new value will be returned through the callback function registered via <a href="https://msdn.microsoft.com/library/windows/hardware/hh450804">BluetoothGATTRegisterEvent</a>.
+
+
+### -field HasExtendedProperties
+
+The characteristic  has extended properties, which will be presented through a Characteristic Extended Properties descriptor.
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450852">BTH_LE_UUID</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450796">BluetoothGATTGetCharacteristicValue</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450795">BluetoothGATTGetCharacteristics</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450806">BluetoothGATTSetCharacteristicValue</a>
+ 
+
+ 
+

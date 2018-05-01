@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IRawElementProviderFragment_BoundingRectangle.htm
 old-project: WinAuto
 ms.assetid: 443df4af-06cd-4866-bdeb-b1770ccb9060
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: BoundingRectangle property [Windows Accessibility], BoundingRectangle property [Windows Accessibility], IRawElementProviderFragment interface, IRawElementProviderFragment, IRawElementProviderFragment interface [Windows Accessibility], BoundingRectangle property, IRawElementProviderFragment.BoundingRectangle, IRawElementProviderFragment::get_BoundingRectangle, get_BoundingRectangle,IRawElementProviderFragment.get_BoundingRectangle, uiauto.uiauto_IRawElementProviderFragment_BoundingRectangle, uiauto_IRawElementProviderFragment_BoundingRectangle, uiautomationcore/IRawElementProviderFragment::BoundingRectangle, uiautomationcore/IRawElementProviderFragment::get_BoundingRectangle, winauto.uiauto_IRawElementProviderFragment_BoundingRectangle
 ms.prod: windows-hardware
 ms.technology: windows-devices

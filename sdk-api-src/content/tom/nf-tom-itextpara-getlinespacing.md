@@ -7,7 +7,7 @@ old-location: controls\ITextPara_GetLineSpacing.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getlinespacing.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: GetLineSpacing method [Windows Controls], GetLineSpacing method [Windows Controls], ITextPara interface, GetLineSpacing,ITextPara.GetLineSpacing, ITextPara, ITextPara interface [Windows Controls], GetLineSpacing method, ITextPara::GetLineSpacing, _win32_ITextPara_GetLineSpacing, _win32_ITextPara_GetLineSpacing_cpp, controls.ITextPara_GetLineSpacing, controls._win32_ITextPara_GetLineSpacing, tom/ITextPara::GetLineSpacing
 ms.prod: windows-hardware
 ms.technology: windows-devices

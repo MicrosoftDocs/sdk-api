@@ -7,7 +7,7 @@ old-location: wmformat\iwmwriter_setoutputfilename.htm
 old-project: wmformat
 ms.assetid: 352cf497-f7d6-41e8-bdbb-c59215b617a3
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMWriter, IWMWriter interface [windows Media Format], SetOutputFilename method, IWMWriter::SetOutputFilename, IWMWriterSetOutputFilename, SetOutputFilename method [windows Media Format], SetOutputFilename method [windows Media Format], IWMWriter interface, SetOutputFilename,IWMWriter.SetOutputFilename, wmformat.iwmwriter_setoutputfilename, wmsdkidl/IWMWriter::SetOutputFilename
 ms.prod: windows-hardware
 ms.technology: windows-devices

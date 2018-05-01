@@ -7,7 +7,7 @@ old-location: appxpkg\iappxbundlemanifestpackageinfo_getfilename.htm
 old-project: appxpkg
 ms.assetid: D8E827D4-0256-4598-A99A-EDB5FA14EDC2
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/26/2018
 ms.keywords: GetFileName method [App packaging and management], GetFileName method [App packaging and management], IAppxBundleManifestPackageInfo interface, GetFileName,IAppxBundleManifestPackageInfo.GetFileName, IAppxBundleManifestPackageInfo, IAppxBundleManifestPackageInfo interface [App packaging and management], GetFileName method, IAppxBundleManifestPackageInfo::GetFileName, appxpackaging/IAppxBundleManifestPackageInfo::GetFileName, appxpkg.iappxbundlemanifestpackageinfo_getfilename
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_ARCHITECTURE2
+req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
 topic_type:
 -	APIRef
 -	kbSyntax

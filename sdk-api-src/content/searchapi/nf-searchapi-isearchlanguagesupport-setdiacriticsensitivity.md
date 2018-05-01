@@ -7,7 +7,7 @@ old-location: search\_search_ISearchLanguageSupport_SetDiacriticSensitivity.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\dataaddins\isearchlanguagesupport\setdiacriticsensitivity.htm
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/24/2018
 ms.keywords: ISearchLanguageSupport, ISearchLanguageSupport interface [search], SetDiacriticSensitivity method, ISearchLanguageSupport::SetDiacriticSensitivity, SetDiacriticSensitivity method [search], SetDiacriticSensitivity method [search], ISearchLanguageSupport interface, SetDiacriticSensitivity,ISearchLanguageSupport.SetDiacriticSensitivity, _search_ISearchLanguageSupport_SetDiacriticSensitivity, search._search_ISearchLanguageSupport_SetDiacriticSensitivity, searchapi/ISearchLanguageSupport::SetDiacriticSensitivity
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ISearchLanguageSupport::SetDiacriticSensitivity method

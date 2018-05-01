@@ -7,7 +7,7 @@ old-location: mf\imftopologynode_connectoutput.htm
 old-project: medfound
 ms.assetid: 2340fd87-27ea-4f98-97e3-48b9506251a9
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 2340fd87-27ea-4f98-97e3-48b9506251a9, ConnectOutput method [Media Foundation], ConnectOutput method [Media Foundation], IMFTopologyNode interface, ConnectOutput,IMFTopologyNode.ConnectOutput, IMFTopologyNode, IMFTopologyNode interface [Media Foundation], ConnectOutput method, IMFTopologyNode::ConnectOutput, mf.imftopologynode_connectoutput, mfidl/IMFTopologyNode::ConnectOutput
 ms.prod: windows-hardware
 ms.technology: windows-devices

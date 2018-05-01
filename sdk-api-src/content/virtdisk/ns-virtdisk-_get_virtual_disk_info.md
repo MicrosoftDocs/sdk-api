@@ -58,6 +58,15 @@ Contains virtual hard disk (VHD) information.
 
 
 
+### -field Version
+
+A value of the 
+      <a href="https://msdn.microsoft.com/603910e4-7568-4ddf-bd50-32a8a41bfca6">GET_VIRTUAL_DISK_INFO_VERSION</a> enumeration 
+      that specifies the version of the 
+      <b>GET_VIRTUAL_DISK_INFO</b> structure being passed to 
+      or from the virtual disk functions. This determines what parts of this structure will be used.
+
+
 ### -field Size
 
 A structure with the following members. Set the <b>Version</b> member to 
@@ -149,15 +158,6 @@ Whether the virtual disk has changed since the change identified by the <b>MostR
 ### -field ChangeTrackingState.MostRecentId
 
 The change tracking identifier for the change that identifies the state of the virtual disk that you want to use as the basis of comparison to determine whether the <b>NewerChanges</b> member reports new changes.
-
-
-### -field Version
-
-A value of the 
-      <a href="https://msdn.microsoft.com/603910e4-7568-4ddf-bd50-32a8a41bfca6">GET_VIRTUAL_DISK_INFO_VERSION</a> enumeration 
-      that specifies the version of the 
-      <b>GET_VIRTUAL_DISK_INFO</b> structure being passed to 
-      or from the virtual disk functions. This determines what parts of this structure will be used.
 
 
 #### - FragmentationPercentage

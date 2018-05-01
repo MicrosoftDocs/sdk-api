@@ -7,7 +7,7 @@ old-location: com\ioleadviseholder_unadvise.htm
 old-project: com
 ms.assetid: 620bc43f-dfc7-48b7-a574-ca7287ffa42f
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IOleAdviseHolder, IOleAdviseHolder interface [COM], Unadvise method, IOleAdviseHolder::Unadvise, Unadvise method [COM], Unadvise method [COM], IOleAdviseHolder interface, Unadvise,IOleAdviseHolder.Unadvise, _ole_ioleadviseholder_unadvise, com.ioleadviseholder_unadvise, oleidl/IOleAdviseHolder::Unadvise
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IOleAdviseHolder::Unadvise method

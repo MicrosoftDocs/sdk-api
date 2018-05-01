@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3dquery9.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dquery9.htm
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/10/2018
 ms.keywords: 6e601b3e-6b1d-4777-8fd2-a1c3ed1d5565, IDirect3DQuery9, IDirect3DQuery9 interface [Direct3D 9], IDirect3DQuery9 interface [Direct3D 9], described, d3d9helper/IDirect3DQuery9, direct3d9.idirect3dquery9
 ms.prod: windows-hardware
 ms.technology: windows-devices

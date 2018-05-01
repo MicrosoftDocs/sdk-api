@@ -7,7 +7,7 @@ old-location: security\cmc_status_info.htm
 old-project: SecCrypto
 ms.assetid: 008f6de4-bad2-4c63-ba64-8d42ae71d50a
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: "*PCMC_STATUS_INFO, CMC_FAIL_BAD_ALG, CMC_FAIL_BAD_CERT_ID, CMC_FAIL_BAD_IDENTITY, CMC_FAIL_BAD_MESSAGE_CHECK, CMC_FAIL_BAD_REQUEST, CMC_FAIL_BAD_TIME, CMC_FAIL_INTERNAL_CA_ERROR, CMC_FAIL_MUST_ARCHIVE_KEYS, CMC_FAIL_NO_KEY_REUSE, CMC_FAIL_POP_FAILED, CMC_FAIL_POP_REQUIRED, CMC_FAIL_TRY_LATER, CMC_FAIL_UNSUPORTED_EXT, CMC_STATUS_CONFIRM_REQUIRED, CMC_STATUS_FAILED, CMC_STATUS_INFO, CMC_STATUS_INFO structure [Security], CMC_STATUS_NO_SUPPORT, CMC_STATUS_PENDING, CMC_STATUS_SUCCESS, PCMC_STATUS_INFO, PCMC_STATUS_INFO structure pointer [Security], _CMC_STATUS_INFO, _crypto2_cmc_status_info, security.cmc_status_info, wincrypt/CMC_STATUS_INFO, wincrypt/PCMC_STATUS_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -56,11 +56,6 @@ The <b>CMC_STATUS_INFO</b> structure contains status information about Certifica
 ## -struct-fields
 
 
-
-
-### -field DUMMYUNIONNAME
-
- 
 
 
 ### -field dwStatus
@@ -157,6 +152,13 @@ This member can be one of the following values:
 <li>CMC_OTHER_INFO_FAIL_CHOICE</li>
 <li>CMC_OTHER_INFO_PENDING_CHOICE</li>
 </ul>
+
+### -field DUMMYUNIONNAME
+
+ 
+
+
+
 
 #### - dwFailInfo
 

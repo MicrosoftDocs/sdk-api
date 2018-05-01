@@ -7,7 +7,7 @@ old-location: com\iolecache_enumcache.htm
 old-project: com
 ms.assetid: a8d99926-8fb9-4624-8025-483101cb9311
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: EnumCache method [COM], EnumCache method [COM], IOleCache interface, EnumCache,IOleCache.EnumCache, IOleCache, IOleCache interface [COM], EnumCache method, IOleCache::EnumCache, _ole_iolecache_enumcache, com.iolecache_enumcache, oleidl/IOleCache::EnumCache
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IOleCache::EnumCache method

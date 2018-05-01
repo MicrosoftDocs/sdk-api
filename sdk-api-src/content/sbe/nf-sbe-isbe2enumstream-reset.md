@@ -7,7 +7,7 @@ old-location: mstv\isbe2enumstream_reset.htm
 old-project: mstv
 ms.assetid: db74d4b5-6564-4fbe-9ea3-0c373be4af44
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: ISBE2EnumStream, ISBE2EnumStream interface [Microsoft TV Technologies], Reset method, ISBE2EnumStream::Reset, Reset method [Microsoft TV Technologies], Reset method [Microsoft TV Technologies], ISBE2EnumStream interface, Reset,ISBE2EnumStream.Reset, mstv.isbe2enumstream_reset, sbe/ISBE2EnumStream::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Sbe.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ISBE2EnumStream::Reset method

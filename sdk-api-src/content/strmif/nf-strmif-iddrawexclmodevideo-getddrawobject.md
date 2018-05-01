@@ -7,7 +7,7 @@ old-location: dshow\iddrawexclmodevideo_getddrawobject.htm
 old-project: DirectShow
 ms.assetid: b664fbcc-de14-42ca-95d0-97719e381605
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetDDrawObject method [DirectShow], GetDDrawObject method [DirectShow], IDDrawExclModeVideo interface, GetDDrawObject,IDDrawExclModeVideo.GetDDrawObject, IDDrawExclModeVideo, IDDrawExclModeVideo interface [DirectShow], GetDDrawObject method, IDDrawExclModeVideo::GetDDrawObject, IDDrawExclModeVideoGetDDrawObject, dshow.iddrawexclmodevideo_getddrawobject, strmif/IDDrawExclModeVideo::GetDDrawObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

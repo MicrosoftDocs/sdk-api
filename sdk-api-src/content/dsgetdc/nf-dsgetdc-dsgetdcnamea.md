@@ -7,7 +7,7 @@ old-location: ad\dsgetdcname.htm
 old-project: AD
 ms.assetid: da8b2983-5e45-40b0-b552-c9b3a1d8ae94
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/20/2018
 ms.keywords: DS_AVOID_SELF, DS_BACKGROUND_ONLY, DS_DIRECTORY_SERVICE_6_REQUIRED, DS_DIRECTORY_SERVICE_8_REQUIRED, DS_DIRECTORY_SERVICE_PREFERRED, DS_DIRECTORY_SERVICE_REQUIRED, DS_FORCE_REDISCOVERY, DS_GC_SERVER_REQUIRED, DS_GOOD_TIMESERV_PREFERRED, DS_IP_REQUIRED, DS_IS_DNS_NAME, DS_IS_FLAT_NAME, DS_KDC_REQUIRED, DS_ONLY_LDAP_NEEDED, DS_PDC_REQUIRED, DS_RETURN_DNS_NAME, DS_RETURN_FLAT_NAME, DS_TIMESERV_REQUIRED, DS_TRY_NEXTCLOSEST_SITE, DS_WEB_SERVICE_REQUIRED, DS_WRITABLE_REQUIRED, DsGetDcName, DsGetDcName function [Active Directory], DsGetDcNameA, DsGetDcNameW, _glines_dsgetdcname, ad.dsgetdcname, dsgetdc/DsGetDcName, dsgetdc/DsGetDcNameA, dsgetdc/DsGetDcNameW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -453,7 +453,7 @@ Note that if the <b>DS_BACKGROUND_ONLY</b> flag is specified,
       if it is expired.
 
 <h3><a id="ETW_Tracing_in_DsGetDcName"></a><a id="etw_tracing_in_dsgetdcname"></a><a id="ETW_TRACING_IN_DSGETDCNAME"></a>ETW Tracing in DsGetDcName</h3>
-To turn on <a href="etw.event_tracing">ETW Tracing</a> for 
+To turn on <a href="https://msdn.microsoft.com/F23E5516-36B9-478E-90D3-54D1C52CB467">ETW Tracing</a> for 
       <b>DsGetDcName</b>, create the following registry key:
 
 

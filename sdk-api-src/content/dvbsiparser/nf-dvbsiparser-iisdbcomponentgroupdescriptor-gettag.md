@@ -7,7 +7,7 @@ old-location: mstv\iisdbcomponentgroupdescriptor_gettag.htm
 old-project: mstv
 ms.assetid: ec33ae30-2e17-4db3-9c08-99447e05686c
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies], IIsdbComponentGroupDescriptor interface, GetTag,IIsdbComponentGroupDescriptor.GetTag, IIsdbComponentGroupDescriptor, IIsdbComponentGroupDescriptor interface [Microsoft TV Technologies], GetTag method, IIsdbComponentGroupDescriptor::GetTag, dvbsiparser/IIsdbComponentGroupDescriptor::GetTag, mstv.iisdbcomponentgroupdescriptor_gettag
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: rm\drmgetprocaddress.htm
 old-project: AdRms_Sdk
 ms.assetid: 4ce2adac-f6d3-4760-984e-08a0d11a30d1
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/11/2018
 ms.keywords: DRMGetProcAddress, DRMGetProcAddress function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetProcAddress, rm.drmgetprocaddress
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tablet\itextinputpanel_unadvise.htm
 old-project: tablet
 ms.assetid: 8ea2c112-0d57-4da6-89da-5afe57ff2346
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: 8ea2c112-0d57-4da6-89da-5afe57ff2346, ITextInputPanel, ITextInputPanel interface [Tablet PC], Unadvise method, ITextInputPanel::Unadvise, Unadvise method [Tablet PC], Unadvise method [Tablet PC], ITextInputPanel interface, Unadvise,ITextInputPanel.Unadvise, peninputpanel/ITextInputPanel::Unadvise, tablet.itextinputpanel_unadvise
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Tiptsf.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITextInputPanel::Unadvise method

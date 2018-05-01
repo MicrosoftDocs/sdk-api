@@ -7,7 +7,7 @@ old-location: wmdm\imdspdevice2_getspecifypropertypages.htm
 old-project: WMDM
 ms.assetid: e79ce0d2-bfea-4a5b-82f8-9d69f96d9698
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: GetSpecifyPropertyPages method [windows Media Device Manager], GetSpecifyPropertyPages method [windows Media Device Manager], IMDSPDevice2 interface, GetSpecifyPropertyPages,IMDSPDevice2.GetSpecifyPropertyPages, IMDSPDevice2, IMDSPDevice2 interface [windows Media Device Manager], GetSpecifyPropertyPages method, IMDSPDevice2::GetSpecifyPropertyPages, IMDSPDevice2GetSpecifyPropertyPages, mswmdm/IMDSPDevice2::GetSpecifyPropertyPages, wmdm.imdspdevice2_getspecifypropertypages
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMDSPDevice2::GetSpecifyPropertyPages method

@@ -7,7 +7,7 @@ old-location: bits\ienumbackgroundcopyjobs1_skip.htm
 old-project: Bits
 ms.assetid: b388530c-688a-46a9-ae23-370f902b870e
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/10/2018
 ms.keywords: IEnumBackgroundCopyJobs1, IEnumBackgroundCopyJobs1 interface [BITS], Skip method, IEnumBackgroundCopyJobs1::Skip, Skip method [BITS], Skip method [BITS], IEnumBackgroundCopyJobs1 interface, Skip,IEnumBackgroundCopyJobs1.Skip, bits.ienumbackgroundcopyjobs1_skip, qmgr/IEnumBackgroundCopyJobs1::Skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: QmgrPrxy.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IEnumBackgroundCopyJobs1::Skip method

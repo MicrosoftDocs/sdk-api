@@ -7,7 +7,7 @@ old-location: mstv\ibda_useractivityservice_setcurrenttunerusereason.htm
 old-project: mstv
 ms.assetid: 248a0b01-02be-49b3-88ff-3b830d77e08d
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IBDA_UserActivityService, IBDA_UserActivityService interface [Microsoft TV Technologies], SetCurrentTunerUseReason method, IBDA_UserActivityService::SetCurrentTunerUseReason, SetCurrentTunerUseReason method [Microsoft TV Technologies], SetCurrentTunerUseReason method [Microsoft TV Technologies], IBDA_UserActivityService interface, SetCurrentTunerUseReason,IBDA_UserActivityService.SetCurrentTunerUseReason, bdaiface/IBDA_UserActivityService::SetCurrentTunerUseReason, mstv.ibda_useractivityservice_setcurrenttunerusereason
 ms.prod: windows-hardware
 ms.technology: windows-devices

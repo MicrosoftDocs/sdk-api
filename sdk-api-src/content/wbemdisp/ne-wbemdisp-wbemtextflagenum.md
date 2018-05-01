@@ -7,7 +7,7 @@ old-location: wmi\wbemtextflagenum.htm
 old-project: WmiSdk
 ms.assetid: 81384e65-5ea0-420a-b92f-e93d5e545252
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: WbemTextFlagEnum, WbemTextFlagEnum enumeration [Windows Management Instrumentation], _hmm_wbemtextflagenum, wbemTextFlagNoFlavors, wbemdisp/WbemTextFlagEnum, wbemdisp/wbemTextFlagNoFlavors, wmi.wbemtextflagenum
 ms.prod: windows-hardware
 ms.technology: windows-devices

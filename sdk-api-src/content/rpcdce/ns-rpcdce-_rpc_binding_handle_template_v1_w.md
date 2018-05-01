@@ -7,7 +7,7 @@ old-location: rpc\rpc_binding_handle_template_v1.htm
 old-project: Rpc
 ms.assetid: b5712e0b-1751-4e5f-8000-da2a330da202
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: "*PRPC_BINDING_HANDLE_TEMPLATE_V1_W, RPC_BHT_OBJECT_UUID_VALID, RPC_BINDING_HANDLE_TEMPLATE, RPC_BINDING_HANDLE_TEMPLATE structure [RPC], RPC_BINDING_HANDLE_TEMPLATE_V1, RPC_BINDING_HANDLE_TEMPLATE_V1 structure [RPC], RPC_BINDING_HANDLE_TEMPLATE_V1_W, _RPC_BINDING_HANDLE_TEMPLATE_V1_A, _RPC_BINDING_HANDLE_TEMPLATE_V1_W, ncacn_http, ncacn_ip_tcp, ncacn_np, ncalrpc, rpc.rpc_binding_handle_template_v1, rpcdce/RPC_BINDING_HANDLE_TEMPLATE, rpcdce/RPC_BINDING_HANDLE_TEMPLATE_V1"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _RPC_BINDING_HANDLE_TEMPLATE_V1_W structure
@@ -56,15 +56,6 @@ The <b>RPC_BINDING_HANDLE_TEMPLATE_V1</b> structure contains the basic options w
 ## -struct-fields
 
 
-
-
-### -field u1
-
-
-
-#### Reserved
-
-Reserved. This member must be set to <b>NULL</b>.
 
 
 ### -field Version
@@ -124,6 +115,15 @@ Pointer to a string representation of the network address to bind to.
 ### -field StringEndpoint
 
 Pointer to a string representation of the endpoint to bind to. If a dynamic endpoint is used, set this member to <b>NULL</b>. After the endpoint is resolved, use <a href="https://msdn.microsoft.com/fd4fea9a-067e-4a1b-8be5-867bbe9663c5">RpcBindingToStringBinding</a> to obtain it.
+
+
+### -field u1
+
+
+
+#### Reserved
+
+Reserved. This member must be set to <b>NULL</b>.
 
 
 ### -field ObjectUuid

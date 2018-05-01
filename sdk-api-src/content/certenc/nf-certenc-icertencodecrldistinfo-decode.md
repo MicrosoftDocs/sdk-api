@@ -7,7 +7,7 @@ old-location: security\icertencodecrldistinfo_decode.htm
 old-project: SecCrypto
 ms.assetid: 3df104a5-fbd7-4eb1-a6b2-b3e51afa15bf
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: CCertEncodeCRLDistInfo object [Security], Decode method, Decode method [Security], Decode method [Security], CCertEncodeCRLDistInfo object, Decode method [Security], ICertEncodeCRLDistInfo interface, Decode,ICertEncodeCRLDistInfo.Decode, ICertEncodeCRLDistInfo, ICertEncodeCRLDistInfo interface [Security], Decode method, ICertEncodeCRLDistInfo::Decode, _certsrv_icertencodecrldistinfo_decode, certenc/ICertEncodeCRLDistInfo::Decode, security.icertencodecrldistinfo_decode
 ms.prod: windows-hardware
 ms.technology: windows-devices

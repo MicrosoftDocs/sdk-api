@@ -7,7 +7,7 @@ old-location: wmi\cinstance_getbool.htm
 old-project: WmiSdk
 ms.assetid: cc8d0c91-03fb-4dc1-86a6-c1117f198181
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: "?Getbool@CInstance@@QBE_NPBGAA_N@Z, ?Getbool@CInstance@@QEBA_NPEBGAEA_N@Z, CInstance, CInstance interface [Windows Management Instrumentation], Getbool method, CInstance::Getbool, Getbool method [Windows Management Instrumentation], Getbool method [Windows Management Instrumentation], CInstance interface, Getbool,CInstance.Getbool, _hmm_cinstance_getbool, instance/CInstance::Getbool, wmi.cinstance_getbool"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: InputScope
+req.typenames: TrustLevel
 topic_type:
 -	APIRef
 -	kbSyntax

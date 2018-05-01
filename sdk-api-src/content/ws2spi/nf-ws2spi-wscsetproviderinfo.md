@@ -7,7 +7,7 @@ old-location: winsock\wscsetproviderinfo.htm
 old-project: WinSock
 ms.assetid: 10eed3e6-d5a0-4ba4-964e-3d924a231afb
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/24/2018
 ms.keywords: WSCSetProviderInfo, WSCSetProviderInfo function [Winsock], winsock.wscsetproviderinfo, ws2spi/WSCSetProviderInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

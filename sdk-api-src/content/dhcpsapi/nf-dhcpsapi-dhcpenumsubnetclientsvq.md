@@ -7,7 +7,7 @@ old-location: dhcp\dhcpenumsubnetclientsvq.htm
 old-project: DHCP
 ms.assetid: 4e5cd074-1e1f-43cb-9c8b-e1cca0b8f2a8
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/7/2018
 ms.keywords: DhcpEnumSubnetClientsVQ, DhcpEnumSubnetClientsVQ function [DHCP], dhcp.dhcpenumsubnetclientsvq, dhcpsapi/DhcpEnumSubnetClientsVQ
 ms.prod: windows-hardware
 ms.technology: windows-devices

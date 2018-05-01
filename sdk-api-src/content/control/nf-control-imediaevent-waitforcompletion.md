@@ -7,7 +7,7 @@ old-location: dshow\imediaevent_waitforcompletion.htm
 old-project: DirectShow
 ms.assetid: 760a90fe-7cbc-4f09-ba64-afe0ab0b4c74
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IMediaEvent, IMediaEvent interface [DirectShow], WaitForCompletion method, IMediaEvent::WaitForCompletion, IMediaEventWaitForCompletion, WaitForCompletion method [DirectShow], WaitForCompletion method [DirectShow], IMediaEvent interface, WaitForCompletion,IMediaEvent.WaitForCompletion, control/IMediaEvent::WaitForCompletion, dshow.imediaevent_waitforcompletion
 ms.prod: windows-hardware
 ms.technology: windows-devices

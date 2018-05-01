@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ITextRangeProvider.htm
 old-project: WinAuto
 ms.assetid: dd14e608-1d21-4527-8b82-dba64ed04fda
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: ITextRangeProvider, ITextRangeProvider interface [Windows Accessibility], ITextRangeProvider interface [Windows Accessibility], described, uiauto.uiauto_ITextRangeProvider, uiauto_ITextRangeProvider, uiautomationcore/ITextRangeProvider, winauto.uiauto_ITextRangeProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dhcp\dhcpsetsubnetinfovq.htm
 old-project: DHCP
 ms.assetid: 1e584377-aded-4888-9641-8b9e5b8d2f98
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/7/2018
 ms.keywords: DhcpSetSubnetInfoVQ, DhcpSetSubnetInfoVQ function [DHCP], dhcp.dhcpsetsubnetinfovq, dhcpsapi/DhcpSetSubnetInfoVQ
 ms.prod: windows-hardware
 ms.technology: windows-devices

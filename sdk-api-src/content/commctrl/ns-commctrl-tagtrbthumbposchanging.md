@@ -7,7 +7,7 @@ old-location: controls\NMTRBTHUMBPOSCHANGING.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\trackbar\structures\nmtrbthumbposchanging.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: NMTRBTHUMBPOSCHANGING, NMTRBTHUMBPOSCHANGING structure [Windows Controls], _shell_NMTRBTHUMBPOSCHANGING, _shell_NMTRBTHUMBPOSCHANGING_cpp, commctrl/NMTRBTHUMBPOSCHANGING, controls.NMTRBTHUMBPOSCHANGING, controls._shell_NMTRBTHUMBPOSCHANGING, tagTRBTHUMBPOSCHANGING
 ms.prod: windows-hardware
 ms.technology: windows-devices

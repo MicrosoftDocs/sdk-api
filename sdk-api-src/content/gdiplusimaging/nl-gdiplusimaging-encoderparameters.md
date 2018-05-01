@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_EncoderParameters_Class.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\encoderparameters.htm
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/5/2018
 ms.keywords: EncoderParameters, EncoderParameters class [GDI+], EncoderParameters class [GDI+], described, _gdiplus_CLASS_EncoderParameters_Class, gdiplus._gdiplus_CLASS_EncoderParameters_Class, gdiplusimaging/EncoderParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices

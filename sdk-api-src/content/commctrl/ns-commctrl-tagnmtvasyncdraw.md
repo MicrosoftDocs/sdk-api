@@ -7,7 +7,7 @@ old-location: controls\NMTVASYNCDRAW.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\treeview\structures\nmtvasyncdraw.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ADRF_DRAWIMAGE, ADRF_DRAWNOTHING, ADRF_DRAWSYNC, NMTVASYNCDRAW, NMTVASYNCDRAW structure [Windows Controls], _shell_NMTVASYNCDRAW, _shell_NMTVASYNCDRAW_cpp, commctrl/NMTVASYNCDRAW, controls.NMTVASYNCDRAW, controls._shell_NMTVASYNCDRAW, tagNMTVASYNCDRAW
 ms.prod: windows-hardware
 ms.technology: windows-devices

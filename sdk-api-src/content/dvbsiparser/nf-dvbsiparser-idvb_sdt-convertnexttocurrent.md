@@ -7,7 +7,7 @@ old-location: mstv\idvb_sdt_convertnexttocurrent.htm
 old-project: mstv
 ms.assetid: 05cddb06-1edb-4514-b6fc-21e920e469ea
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: ConvertNextToCurrent method [Microsoft TV Technologies], ConvertNextToCurrent method [Microsoft TV Technologies], IDVB_SDT interface, ConvertNextToCurrent,IDVB_SDT.ConvertNextToCurrent, IDVB_SDT, IDVB_SDT interface [Microsoft TV Technologies], ConvertNextToCurrent method, IDVB_SDT::ConvertNextToCurrent, IDVB_SDTConvertNextToCurrent, dvbsiparser/IDVB_SDT::ConvertNextToCurrent, mstv.idvb_sdt_convertnexttocurrent
 ms.prod: windows-hardware
 ms.technology: windows-devices

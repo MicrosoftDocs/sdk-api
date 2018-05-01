@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationSynchronizedInputPattern_StartListenin
 old-project: WinAuto
 ms.assetid: 2ecd413e-c1a8-404f-9a11-8c2c8428d6d7
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: IUIAutomationSynchronizedInputPattern, IUIAutomationSynchronizedInputPattern interface [Windows Accessibility], StartListening method, IUIAutomationSynchronizedInputPattern::StartListening, StartListening method [Windows Accessibility], StartListening method [Windows Accessibility], IUIAutomationSynchronizedInputPattern interface, StartListening,IUIAutomationSynchronizedInputPattern.StartListening, uiauto.uiauto_IUIAutomationSynchronizedInputPattern_StartListening, uiauto_IUIAutomationSynchronizedInputPattern_StartListening, uiautomationclient/IUIAutomationSynchronizedInputPattern::StartListening, winauto.uiauto_IUIAutomationSynchronizedInputPattern_StartListening
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomation5_RemoveNotificationEventHandler.htm
 old-project: WinAuto
 ms.assetid: E0775AB3-814F-4420-9764-333572DAD201
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: IUIAutomation5, IUIAutomation5 interface [Windows Accessibility], RemoveNotificationEventHandler method, IUIAutomation5::RemoveNotificationEventHandler, RemoveNotificationEventHandler method [Windows Accessibility], RemoveNotificationEventHandler method [Windows Accessibility], IUIAutomation5 interface, RemoveNotificationEventHandler,IUIAutomation5.RemoveNotificationEventHandler, uiautomationclient/IUIAutomation5::RemoveNotificationEventHandler, winauto.uiauto_IUIAutomation5_RemoveNotificationEventHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices

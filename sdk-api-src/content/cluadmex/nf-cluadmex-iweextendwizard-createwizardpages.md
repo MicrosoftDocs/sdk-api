@@ -7,7 +7,7 @@ old-location: mscs\iweextendwizard_createwizardpages.htm
 old-project: MsCS
 ms.assetid: b52ea5a5-aa80-4f65-9bab-b60fa8363b01
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: CreateWizardPages method [Failover Cluster], CreateWizardPages method [Failover Cluster], IWEExtendWizard interface, CreateWizardPages,IWEExtendWizard.CreateWizardPages, IWEExtendWizard, IWEExtendWizard interface [Failover Cluster], CreateWizardPages method, IWEExtendWizard::CreateWizardPages, _wolf_iweextendwizard_createwizardpages, cluadmex/IWEExtendWizard::CreateWizardPages, mscs.iweextendwizard_createwizardpages
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: LOG_MANAGEMENT_CALLBACKS, *PLOG_MANAGEMENT_CALLBACKS
+req.typenames: Sources
 topic_type:
 -	APIRef
 -	kbSyntax

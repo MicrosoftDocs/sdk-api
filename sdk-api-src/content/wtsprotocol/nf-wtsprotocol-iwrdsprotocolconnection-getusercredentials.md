@@ -7,7 +7,7 @@ old-location: termserv\iwrdsprotocolconnection_getusercredentials.htm
 old-project: TermServ
 ms.assetid: dcd8de76-e260-4b3b-98ca-4f486b3b6635
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: GetUserCredentials method [Remote Desktop Services], GetUserCredentials method [Remote Desktop Services], IWRdsProtocolConnection interface, GetUserCredentials,IWRdsProtocolConnection.GetUserCredentials, IWRdsProtocolConnection, IWRdsProtocolConnection interface [Remote Desktop Services], GetUserCredentials method, IWRdsProtocolConnection::GetUserCredentials, termserv.iwrdsprotocolconnection_getusercredentials, wtsprotocol/IWRdsProtocolConnection::GetUserCredentials
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tapi3\ienumdialableaddrs_skip.htm
 old-project: Tapi
 ms.assetid: f68fa12d-dbd3-42a2-bef1-50881d57aa27
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: IEnumDialableAddrs, IEnumDialableAddrs interface [TAPI 2.2], Skip method, IEnumDialableAddrs::Skip, Skip method [TAPI 2.2], Skip method [TAPI 2.2], IEnumDialableAddrs interface, Skip,IEnumDialableAddrs.Skip, _tapi3_ienumdialableaddrs_skip, rend/IEnumDialableAddrs::Skip, tapi3.ienumdialableaddrs_skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Rend.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IEnumDialableAddrs::Skip method

@@ -7,7 +7,7 @@ old-location: mstv\imsvidstreambufferv2sourceevent_ratingschanged.htm
 old-project: mstv
 ms.assetid: 56ba6126-c3c7-4cbd-9209-7638452d5782
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidStreamBufferV2SourceEvent, IMSVidStreamBufferV2SourceEvent interface [Microsoft TV Technologies], RatingsChanged method, IMSVidStreamBufferV2SourceEvent::RatingsChanged, RatingsChanged method [Microsoft TV Technologies], RatingsChanged method [Microsoft TV Technologies], IMSVidStreamBufferV2SourceEvent interface, RatingsChanged,IMSVidStreamBufferV2SourceEvent.RatingsChanged, mstv.imsvidstreambufferv2sourceevent_ratingschanged, segment/IMSVidStreamBufferV2SourceEvent::RatingsChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidStreamBufferV2SourceEvent::RatingsChanged method

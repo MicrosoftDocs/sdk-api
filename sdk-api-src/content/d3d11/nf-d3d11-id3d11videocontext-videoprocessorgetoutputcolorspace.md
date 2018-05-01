@@ -7,7 +7,7 @@ old-location: mf\id3d11videocontext_videoprocessorgetoutputcolorspace.htm
 old-project: medfound
 ms.assetid: 26D9C908-D8A6-44F9-895F-48C52F4C8B59
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: ID3D11VideoContext, ID3D11VideoContext interface [Media Foundation], VideoProcessorGetOutputColorSpace method, ID3D11VideoContext::VideoProcessorGetOutputColorSpace, VideoProcessorGetOutputColorSpace method [Media Foundation], VideoProcessorGetOutputColorSpace method [Media Foundation], ID3D11VideoContext interface, VideoProcessorGetOutputColorSpace,ID3D11VideoContext.VideoProcessorGetOutputColorSpace, d3d11/ID3D11VideoContext::VideoProcessorGetOutputColorSpace, mf.id3d11videocontext_videoprocessorgetoutputcolorspace
 ms.prod: windows-hardware
 ms.technology: windows-devices

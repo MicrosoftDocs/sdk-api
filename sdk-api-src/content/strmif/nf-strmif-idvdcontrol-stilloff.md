@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol_stilloff.htm
 old-project: DirectShow
 ms.assetid: 0f466728-027e-40d6-b8f8-ed0aad02dd1e
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IDvdControl, IDvdControl interface [DirectShow], StillOff method, IDvdControl::StillOff, IDvdControlStillOff, StillOff method [DirectShow], StillOff method [DirectShow], IDvdControl interface, StillOff,IDvdControl.StillOff, dshow.idvdcontrol_stilloff, strmif/IDvdControl::StillOff
 ms.prod: windows-hardware
 ms.technology: windows-devices

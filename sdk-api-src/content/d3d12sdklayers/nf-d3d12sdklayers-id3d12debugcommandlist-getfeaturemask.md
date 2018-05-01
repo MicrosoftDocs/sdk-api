@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12debugcommandlist_getfeaturemask.htm
 old-project: direct3d12
 ms.assetid: 98FE1D2C-648B-4689-BE52-A53C969D9281
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: GetFeatureMask method, GetFeatureMask method, ID3D12DebugCommandList interface, GetFeatureMask,ID3D12DebugCommandList.GetFeatureMask, ID3D12DebugCommandList, ID3D12DebugCommandList interface, GetFeatureMask method, ID3D12DebugCommandList::GetFeatureMask, d3d12sdklayers/ID3D12DebugCommandList::GetFeatureMask, direct3d12.id3d12debugcommandlist_getfeaturemask
 ms.prod: windows-hardware
 ms.technology: windows-devices

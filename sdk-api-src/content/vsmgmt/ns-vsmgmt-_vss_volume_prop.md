@@ -7,7 +7,7 @@ old-location: base\vss_volume_prop.htm
 old-project: VSS
 ms.assetid: f17765d5-ccb4-4ede-86e4-36ac80022da0
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: "*PVSS_VOLUME_PROP, PVSS_VOLUME_PROP, PVSS_VOLUME_PROP structure pointer [VSS], VSS_VOLUME_PROP, VSS_VOLUME_PROP structure [VSS], _VSS_VOLUME_PROP, base.vss_volume_prop, vsmgmt/PVSS_VOLUME_PROP, vsmgmt/VSS_VOLUME_PROP"
 ms.prod: windows-hardware
 ms.technology: windows-devices

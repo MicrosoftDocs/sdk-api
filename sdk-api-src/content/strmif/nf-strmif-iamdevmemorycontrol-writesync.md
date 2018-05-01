@@ -7,7 +7,7 @@ old-location: dshow\iamdevmemorycontrol_writesync.htm
 old-project: DirectShow
 ms.assetid: 46bf7ab6-cc3c-4846-a8f8-97c62ede4aaf
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMDevMemoryControl, IAMDevMemoryControl interface [DirectShow], WriteSync method, IAMDevMemoryControl::WriteSync, IAMDevMemoryControlWriteSync, WriteSync method [DirectShow], WriteSync method [DirectShow], IAMDevMemoryControl interface, WriteSync,IAMDevMemoryControl.WriteSync, dshow.iamdevmemorycontrol_writesync, strmif/IAMDevMemoryControl::WriteSync
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\IShellImageData_NextPage.htm
 old-project: shell
 ms.assetid: 19a2680a-f435-45c9-9573-e32f3cfdd090
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IShellImageData, IShellImageData interface [Windows Shell], NextPage method, IShellImageData::NextPage, NextPage method [Windows Shell], NextPage method [Windows Shell], IShellImageData interface, NextPage,IShellImageData.NextPage, _shell_IShellImageData_NextPage, shell.IShellImageData_NextPage, shimgdata/IShellImageData::NextPage
 ms.prod: windows-hardware
 ms.technology: windows-devices

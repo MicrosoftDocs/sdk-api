@@ -7,7 +7,7 @@ old-location: shell\ICredentialProviderCredential_ReportResult.htm
 old-project: shell
 ms.assetid: 13d6dda7-4a4f-45bf-af91-72f80497b9f7
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ICredentialProviderCredential, ICredentialProviderCredential interface [Windows Shell], ReportResult method, ICredentialProviderCredential::ReportResult, ReportResult method [Windows Shell], ReportResult method [Windows Shell], ICredentialProviderCredential interface, ReportResult,ICredentialProviderCredential.ReportResult, credentialprovider/ICredentialProviderCredential::ReportResult, shell.ICredentialProviderCredential_ReportResult, shell_ICredentialProviderCredential_ReportResult
 ms.prod: windows-hardware
 ms.technology: windows-devices

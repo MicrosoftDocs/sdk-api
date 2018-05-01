@@ -7,7 +7,7 @@ old-location: dshow\ikstopologyinfo_get_connectioninfo.htm
 old-project: DirectShow
 ms.assetid: ef062e0f-0866-48ca-bd27-26000cd4983a
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IKsTopologyInfo, IKsTopologyInfo interface [DirectShow], get_ConnectionInfo method, IKsTopologyInfo::get_ConnectionInfo, IKsTopologyInfoget_ConnectionInfo, dshow.ikstopologyinfo_get_connectioninfo, get_ConnectionInfo method [DirectShow], get_ConnectionInfo method [DirectShow], IKsTopologyInfo interface, get_ConnectionInfo,IKsTopologyInfo.get_ConnectionInfo, vidcap/IKsTopologyInfo::get_ConnectionInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: VIDEOHDR, *PVIDEOHDR, *LPVIDEOHDR
+req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
 topic_type:
 -	APIRef
 -	kbSyntax

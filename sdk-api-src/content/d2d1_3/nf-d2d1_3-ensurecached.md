@@ -7,7 +7,7 @@ old-location: direct2d\id2d1imagesourcefromwic_ensurecached_overload.htm
 old-project: Direct2D
 ms.assetid: 9addc82b-7446-1f2c-5666-f817b8b5707d
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: EnsureCached, EnsureCached methods [Direct2D], d2d1_3/EnsureCached, direct2d.id2d1imagesourcefromwic_ensurecached_overload
 ms.prod: windows-hardware
 ms.technology: windows-devices

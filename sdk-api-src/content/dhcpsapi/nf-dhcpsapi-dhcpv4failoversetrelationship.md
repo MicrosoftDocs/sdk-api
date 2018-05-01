@@ -7,7 +7,7 @@ old-location: dhcp\dhcpv4failoversetrelationship.htm
 old-project: DHCP
 ms.assetid: 04012953-dca3-426f-99de-798870d1eb97
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/7/2018
 ms.keywords: CHANGESTATE, DhcpV4FailoverSetRelationship, DhcpV4FailoverSetRelationship function [DHCP], MCLT, MODE, PERCENTAGE, PREVSTATE, SAFEPERIOD, dhcp.dhcpv4failoversetrelationship, dhcpsapi/DhcpV4FailoverSetRelationship
 ms.prod: windows-hardware
 ms.technology: windows-devices

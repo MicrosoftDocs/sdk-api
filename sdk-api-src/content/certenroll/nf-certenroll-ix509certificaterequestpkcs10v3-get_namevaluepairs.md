@@ -7,7 +7,7 @@ old-location: security\ix509certificaterequestpkcs10v3_namevaluepairs.htm
 old-project: SecCertEnroll
 ms.assetid: 1049cd15-d141-4fa5-b60f-9a2fa0bb1524
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: IX509CertificateRequestPkcs10V3, IX509CertificateRequestPkcs10V3 interface [Security], NameValuePairs property, IX509CertificateRequestPkcs10V3.NameValuePairs, IX509CertificateRequestPkcs10V3::get_NameValuePairs, NameValuePairs property [Security], NameValuePairs property [Security], IX509CertificateRequestPkcs10V3 interface, certenroll/IX509CertificateRequestPkcs10V3::NameValuePairs, certenroll/IX509CertificateRequestPkcs10V3::get_NameValuePairs, get_NameValuePairs,IX509CertificateRequestPkcs10V3.get_NameValuePairs, security.ix509certificaterequestpkcs10v3_namevaluepairs
 ms.prod: windows-hardware
 ms.technology: windows-devices

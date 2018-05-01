@@ -7,7 +7,7 @@ old-location: dshow\iamanalogvideoencoder_get_ccenable.htm
 old-project: DirectShow
 ms.assetid: 0dab4b3a-f139-4ac5-ab30-f223e9120c44
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMAnalogVideoEncoder, IAMAnalogVideoEncoder interface [DirectShow], get_CCEnable method, IAMAnalogVideoEncoder::get_CCEnable, IAMAnalogVideoEncoderget_CCEnable, dshow.iamanalogvideoencoder_get_ccenable, get_CCEnable method [DirectShow], get_CCEnable method [DirectShow], IAMAnalogVideoEncoder interface, get_CCEnable,IAMAnalogVideoEncoder.get_CCEnable, strmif/IAMAnalogVideoEncoder::get_CCEnable
 ms.prod: windows-hardware
 ms.technology: windows-devices

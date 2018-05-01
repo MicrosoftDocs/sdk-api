@@ -7,7 +7,7 @@ old-location: wmp\iwmpnetwork_setproxysettings.htm
 old-project: WMP
 ms.assetid: 3ce07bf8-8521-4240-9859-3bf790ccbf48
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPNetwork, IWMPNetwork interface [Windows Media Player], setProxySettings method, IWMPNetwork::setProxySettings, IWMPNetworksetProxySettings, setProxySettings method [Windows Media Player], setProxySettings method [Windows Media Player], IWMPNetwork interface, setProxySettings,IWMPNetwork.setProxySettings, wmp.iwmpnetwork_setproxysettings, wmp/IWMPNetwork::setProxySettings
 ms.prod: windows-hardware
 ms.technology: windows-devices

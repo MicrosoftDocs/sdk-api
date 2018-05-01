@@ -7,7 +7,7 @@ old-location: dshow\imediasample_getsize.htm
 old-project: DirectShow
 ms.assetid: 6dc50db2-dc75-4c04-ac30-78275ee35ce8
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetSize method [DirectShow], GetSize method [DirectShow], IMediaSample interface, GetSize,IMediaSample.GetSize, IMediaSample, IMediaSample interface [DirectShow], GetSize method, IMediaSample::GetSize, IMediaSampleGetSize, dshow.imediasample_getsize, strmif/IMediaSample::GetSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

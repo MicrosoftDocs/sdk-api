@@ -7,7 +7,7 @@ old-location: wmformat\iwmreadernetworkconfig_getloggingurl.htm
 old-project: wmformat
 ms.assetid: 27c5a97b-e04b-4d15-b19a-3c0d78feee95
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: GetLoggingUrl method [windows Media Format], GetLoggingUrl method [windows Media Format], IWMReaderNetworkConfig interface, GetLoggingUrl,IWMReaderNetworkConfig.GetLoggingUrl, IWMReaderNetworkConfig, IWMReaderNetworkConfig interface [windows Media Format], GetLoggingUrl method, IWMReaderNetworkConfig::GetLoggingUrl, IWMReaderNetworkConfigGetLoggingUrl, wmformat.iwmreadernetworkconfig_getloggingurl, wmsdkidl/IWMReaderNetworkConfig::GetLoggingUrl
 ms.prod: windows-hardware
 ms.technology: windows-devices

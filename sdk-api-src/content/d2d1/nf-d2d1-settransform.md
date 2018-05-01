@@ -7,7 +7,7 @@ old-location: direct2d\id2d1brush_settransform.htm
 old-project: Direct2D
 ms.assetid: 57afadc1-88c9-4a5b-a83f-63c4c69182a7
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: SetTransform, SetTransform methods [Direct2D], d2d1_1/SetTransform, direct2d.id2d1brush_settransform
 ms.prod: windows-hardware
 ms.technology: windows-devices

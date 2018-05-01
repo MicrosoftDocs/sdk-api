@@ -7,7 +7,7 @@ old-location: wmi\chstring_allocsysstring.htm
 old-project: WmiSdk
 ms.assetid: 21eb9990-a07f-4d6c-b674-dc35f395e603
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: AllocSysString method [Windows Management Instrumentation], AllocSysString method [Windows Management Instrumentation], CHString interface, AllocSysString,CHString.AllocSysString, CHString, CHString interface [Windows Management Instrumentation], AllocSysString method, CHString::AllocSysString, _hmm_chstring_allocsysstring, chstring/CHString::AllocSysString, wmi.chstring_allocsysstring
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CF_SYNC_ROOT_STANDARD_INFO
+req.typenames: CF_SYNC_STATUS
 topic_type:
 -	APIRef
 -	kbSyntax

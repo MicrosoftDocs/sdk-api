@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrConflictPresenter.htm
 old-project: shell
 ms.assetid: ec9a2050-23ad-4478-a705-0a7324e8f84d
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ISyncMgrConflictPresenter, ISyncMgrConflictPresenter interface [Windows Shell], ISyncMgrConflictPresenter interface [Windows Shell], described, _shell_ISyncMgrConflictPresenter, shell.ISyncMgrConflictPresenter, syncmgr/ISyncMgrConflictPresenter
 ms.prod: windows-hardware
 ms.technology: windows-devices

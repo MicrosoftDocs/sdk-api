@@ -7,7 +7,7 @@ old-location: mf\idirectxvideodecoder_endframe.htm
 old-project: medfound
 ms.assetid: 4b8d391e-b679-4adb-8b01-2899996ede46
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 4b8d391e-b679-4adb-8b01-2899996ede46, EndFrame method [Media Foundation], EndFrame method [Media Foundation], IDirectXVideoDecoder interface, EndFrame,IDirectXVideoDecoder.EndFrame, IDirectXVideoDecoder, IDirectXVideoDecoder interface [Media Foundation], EndFrame method, IDirectXVideoDecoder::EndFrame, dxva2api/IDirectXVideoDecoder::EndFrame, mf.idirectxvideodecoder_endframe
 ms.prod: windows-hardware
 ms.technology: windows-devices

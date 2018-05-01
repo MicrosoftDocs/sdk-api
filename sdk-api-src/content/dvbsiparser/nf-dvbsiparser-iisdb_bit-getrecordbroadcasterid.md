@@ -7,7 +7,7 @@ old-location: mstv\iisdb_bit_getrecordbroadcasterid.htm
 old-project: mstv
 ms.assetid: 9decce55-599b-42c2-a715-84a6f4eefc33
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetRecordBroadcasterId method [Microsoft TV Technologies], GetRecordBroadcasterId method [Microsoft TV Technologies], IISDB_BIT interface, GetRecordBroadcasterId,IISDB_BIT.GetRecordBroadcasterId, IISDB_BIT, IISDB_BIT interface [Microsoft TV Technologies], GetRecordBroadcasterId method, IISDB_BIT::GetRecordBroadcasterId, dvbsiparser/IISDB_BIT::GetRecordBroadcasterId, mstv.iisdb_bit_getrecordbroadcasterid
 ms.prod: windows-hardware
 ms.technology: windows-devices

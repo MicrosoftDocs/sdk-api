@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrConflictResolveInfo_GetItemChoiceCount.htm
 old-project: shell
 ms.assetid: 7604455c-35ab-4f94-8e5a-3f6aa83fc9cf
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetItemChoiceCount method [Windows Shell], GetItemChoiceCount method [Windows Shell], ISyncMgrConflictResolveInfo interface, GetItemChoiceCount,ISyncMgrConflictResolveInfo.GetItemChoiceCount, ISyncMgrConflictResolveInfo, ISyncMgrConflictResolveInfo interface [Windows Shell], GetItemChoiceCount method, ISyncMgrConflictResolveInfo::GetItemChoiceCount, _shell_ISyncMgrConflictResolveInfo_GetItemChoiceCount, shell.ISyncMgrConflictResolveInfo_GetItemChoiceCount, syncmgr/ISyncMgrConflictResolveInfo::GetItemChoiceCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\imfvideoprocessorcontrol.htm
 old-project: medfound
 ms.assetid: 6803B69E-CF84-45D5-804C-BD961BD5E13D
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFVideoProcessorControl, IMFVideoProcessorControl interface [Media Foundation], IMFVideoProcessorControl interface [Media Foundation], described, mf.imfvideoprocessorcontrol, mfidl/IMFVideoProcessorControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,7 @@ api_name:
 product: Windows
 targetos: Windows
 req.lib: Mfuuid.lib
-req.dll: Mfplat.dll
+req.dll: Mfsensorgroup.dll
 req.irql: 
 req.product: GDI+ 1.1
 ---

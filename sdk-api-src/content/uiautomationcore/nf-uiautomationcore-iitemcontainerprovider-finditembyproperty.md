@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IItemContainerProvider_FindItemByProperty.htm
 old-project: WinAuto
 ms.assetid: f2873bbb-5bb4-4eaa-b0bd-60061fc06f53
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: FindItemByProperty method [Windows Accessibility], FindItemByProperty method [Windows Accessibility], IItemContainerProvider interface, FindItemByProperty,IItemContainerProvider.FindItemByProperty, IItemContainerProvider, IItemContainerProvider interface [Windows Accessibility], FindItemByProperty method, IItemContainerProvider::FindItemByProperty, uiauto.uiauto_IItemContainerProvider_FindItemByProperty, uiauto_IItemContainerProvider_FindItemByProperty, uiautomationcore/IItemContainerProvider::FindItemByProperty, winauto.uiauto_IItemContainerProvider_FindItemByProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

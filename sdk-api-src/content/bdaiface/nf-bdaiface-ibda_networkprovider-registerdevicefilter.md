@@ -7,7 +7,7 @@ old-location: mstv\ibda_networkprovider_registerdevicefilter.htm
 old-project: mstv
 ms.assetid: 88050024-5960-4ce5-8645-82db3e17b12c
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IBDA_NetworkProvider, IBDA_NetworkProvider interface [Microsoft TV Technologies], RegisterDeviceFilter method, IBDA_NetworkProvider::RegisterDeviceFilter, IBDA_NetworkProviderRegisterDeviceFilter, RegisterDeviceFilter method [Microsoft TV Technologies], RegisterDeviceFilter method [Microsoft TV Technologies], IBDA_NetworkProvider interface, RegisterDeviceFilter,IBDA_NetworkProvider.RegisterDeviceFilter, bdaiface/IBDA_NetworkProvider::RegisterDeviceFilter, mstv.ibda_networkprovider_registerdevicefilter
 ms.prod: windows-hardware
 ms.technology: windows-devices

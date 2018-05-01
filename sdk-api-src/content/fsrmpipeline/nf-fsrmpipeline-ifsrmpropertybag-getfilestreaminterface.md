@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmpropertybag_getfilestreaminterface.htm
 old-project: Fsrm
 ms.assetid: e5250f0f-c8b4-4579-a4c2-b4f6ee48acdc
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: GetFileStreamInterface method [File Server Resource Manager], GetFileStreamInterface method [File Server Resource Manager], IFsrmPropertyBag interface, GetFileStreamInterface,IFsrmPropertyBag.GetFileStreamInterface, IFsrmPropertyBag, IFsrmPropertyBag interface [File Server Resource Manager], GetFileStreamInterface method, IFsrmPropertyBag::GetFileStreamInterface, fs.ifsrmpropertybag_getfilestreaminterface, fsrm.ifsrmpropertybag_getfilestreaminterface, fsrmpipeline/IFsrmPropertyBag::GetFileStreamInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices

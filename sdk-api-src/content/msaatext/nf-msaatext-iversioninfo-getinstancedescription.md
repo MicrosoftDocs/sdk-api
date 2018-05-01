@@ -7,7 +7,7 @@ old-location: winauto\iversioninfo_iversioninfo__getinstancedescription.htm
 old-project: WinAuto
 ms.assetid: f8aa3fd3-9869-4c24-8c9a-752947d21002
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: GetInstanceDescription method [Windows Accessibility], GetInstanceDescription method [Windows Accessibility], IVersionInfo interface, GetInstanceDescription,IVersionInfo.GetInstanceDescription, IVersionInfo, IVersionInfo interface [Windows Accessibility], GetInstanceDescription method, IVersionInfo::GetInstanceDescription, _msaa_IVersionInfo_GetInstanceDescription, msaa.iversioninfo_iversioninfo__getinstancedescription, msaatext/IVersionInfo::GetInstanceDescription, winauto.iversioninfo_iversioninfo__getinstancedescription
 ms.prod: windows-hardware
 ms.technology: windows-devices

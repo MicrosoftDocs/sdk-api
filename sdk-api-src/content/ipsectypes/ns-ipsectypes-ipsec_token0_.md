@@ -7,7 +7,7 @@ old-location: fwp\ipsec_token0.htm
 old-project: FWP
 ms.assetid: 12adf88e-05c7-4e08-bbf7-6da529387af1
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: IPSEC_TOKEN0, IPSEC_TOKEN0 structure [Filtering], IPSEC_TOKEN0_, fwp.ipsec_token0, ipsectypes/IPSEC_TOKEN0
 ms.prod: windows-hardware
 ms.technology: windows-devices

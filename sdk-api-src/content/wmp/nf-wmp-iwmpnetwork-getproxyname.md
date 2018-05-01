@@ -7,7 +7,7 @@ old-location: wmp\iwmpnetwork_getproxyname.htm
 old-project: WMP
 ms.assetid: 7bf3adaa-a89d-4ffe-8233-a9c606b39350
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPNetwork, IWMPNetwork interface [Windows Media Player], getProxyName method, IWMPNetwork::getProxyName, IWMPNetworkgetProxyName, getProxyName method [Windows Media Player], getProxyName method [Windows Media Player], IWMPNetwork interface, getProxyName,IWMPNetwork.getProxyName, wmp.iwmpnetwork_getproxyname, wmp/IWMPNetwork::getProxyName
 ms.prod: windows-hardware
 ms.technology: windows-devices

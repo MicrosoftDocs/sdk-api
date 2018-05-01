@@ -7,7 +7,7 @@ old-location: mf\imfmediaengineextension_canplaytype.htm
 old-project: medfound
 ms.assetid: F715B4CB-363E-4EF2-962C-C0AFB26B088E
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: CanPlayType method [Media Foundation], CanPlayType method [Media Foundation], IMFMediaEngineExtension interface, CanPlayType,IMFMediaEngineExtension.CanPlayType, IMFMediaEngineExtension, IMFMediaEngineExtension interface [Media Foundation], CanPlayType method, IMFMediaEngineExtension::CanPlayType, mf.imfmediaengineextension_canplaytype, mfmediaengine/IMFMediaEngineExtension::CanPlayType
 ms.prod: windows-hardware
 ms.technology: windows-devices

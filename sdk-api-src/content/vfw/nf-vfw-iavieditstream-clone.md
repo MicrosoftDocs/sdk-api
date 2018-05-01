@@ -7,7 +7,7 @@ old-location: multimedia\iavieditstream_clone.htm
 old-project: Multimedia
 ms.assetid: 7112056e-5e25-4262-abe3-5cbb0675a475
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/25/2018
 ms.keywords: Clone method [Windows Multimedia], Clone method [Windows Multimedia], IAVIEditStream interface, Clone,IAVIEditStream.Clone, IAVIEditStream, IAVIEditStream interface [Windows Multimedia], Clone method, IAVIEditStream::Clone, _win32_IAVIEditStream_Clone, multimedia.iavieditstream_clone, vfw/IAVIEditStream::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

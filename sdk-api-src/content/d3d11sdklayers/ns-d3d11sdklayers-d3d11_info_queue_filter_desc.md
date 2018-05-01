@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_info_queue_filter_desc.htm
 old-project: direct3d11
 ms.assetid: 265aa51a-7352-4d3a-b523-9e497e1e6a94
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/6/2018
 ms.keywords: 06785e69-a7e6-f154-5f99-7c38c12d6958, D3D11_INFO_QUEUE_FILTER_DESC, D3D11_INFO_QUEUE_FILTER_DESC structure [Direct3D 11], d3d11sdklayers/D3D11_INFO_QUEUE_FILTER_DESC, direct3d11.d3d11_info_queue_filter_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices

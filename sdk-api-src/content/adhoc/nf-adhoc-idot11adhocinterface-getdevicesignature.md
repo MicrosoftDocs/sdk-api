@@ -7,7 +7,7 @@ old-location: nwifi\idot11adhocinterface_getdevicesignature.htm
 old-project: NativeWiFi
 ms.assetid: d65fe0ae-ce7b-4d9e-af5b-d9aaeb909e21
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/13/2018
 ms.keywords: GetDeviceSignature method [NativeWIFI], GetDeviceSignature method [NativeWIFI], IDot11AdHocInterface interface, GetDeviceSignature,IDot11AdHocInterface.GetDeviceSignature, IDot11AdHocInterface, IDot11AdHocInterface interface [NativeWIFI], GetDeviceSignature method, IDot11AdHocInterface::GetDeviceSignature, adhoc/IDot11AdHocInterface::GetDeviceSignature, nwifi.idot11adhocinterface_getdevicesignature
 ms.prod: windows-hardware
 ms.technology: windows-devices

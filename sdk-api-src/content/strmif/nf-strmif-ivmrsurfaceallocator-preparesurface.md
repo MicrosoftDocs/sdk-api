@@ -7,7 +7,7 @@ old-location: dshow\ivmrsurfaceallocator_preparesurface.htm
 old-project: DirectShow
 ms.assetid: 5978bd6e-1aee-4e5e-9d28-f60e20b5b3e7
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IVMRSurfaceAllocator, IVMRSurfaceAllocator interface [DirectShow], PrepareSurface method, IVMRSurfaceAllocator::PrepareSurface, IVMRSurfaceAllocatorPrepareSurface, PrepareSurface method [DirectShow], PrepareSurface method [DirectShow], IVMRSurfaceAllocator interface, PrepareSurface,IVMRSurfaceAllocator.PrepareSurface, dshow.ivmrsurfaceallocator_preparesurface, strmif/IVMRSurfaceAllocator::PrepareSurface
 ms.prod: windows-hardware
 ms.technology: windows-devices

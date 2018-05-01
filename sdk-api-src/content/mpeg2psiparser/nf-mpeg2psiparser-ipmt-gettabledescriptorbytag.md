@@ -7,7 +7,7 @@ old-location: mstv\ipmt_gettabledescriptorbytag.htm
 old-project: mstv
 ms.assetid: e70bcffb-41ea-4f25-bb93-dc43339ae6ba
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetTableDescriptorByTag method [Microsoft TV Technologies], GetTableDescriptorByTag method [Microsoft TV Technologies], IPMT interface, GetTableDescriptorByTag,IPMT.GetTableDescriptorByTag, IPMT, IPMT interface [Microsoft TV Technologies], GetTableDescriptorByTag method, IPMT::GetTableDescriptorByTag, IPMTGetTableDescriptorByTag, mpeg2psiparser/IPMT::GetTableDescriptorByTag, mstv.ipmt_gettabledescriptorbytag
 ms.prod: windows-hardware
 ms.technology: windows-devices

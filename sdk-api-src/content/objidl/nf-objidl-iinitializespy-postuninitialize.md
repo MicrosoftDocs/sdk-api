@@ -7,7 +7,7 @@ old-location: com\iinitializespy_postuninitialize.htm
 old-project: com
 ms.assetid: f91a1a4a-4d0b-491e-a7c6-01596b5b9712
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IInitializeSpy, IInitializeSpy interface [COM], PostUninitialize method, IInitializeSpy::PostUninitialize, PostUninitialize method [COM], PostUninitialize method [COM], IInitializeSpy interface, PostUninitialize,IInitializeSpy.PostUninitialize, _com_iinitializespy_postuninitialize, com.iinitializespy_postuninitialize, objidl/IInitializeSpy::PostUninitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IInitializeSpy::PostUninitialize method

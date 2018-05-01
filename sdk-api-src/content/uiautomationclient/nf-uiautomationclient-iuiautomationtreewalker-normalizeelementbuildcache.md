@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationTreeWalker_NormalizeBuildCache.htm
 old-project: WinAuto
 ms.assetid: 62306545-1c5f-48ab-87c3-35bb6c3d94fa
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: IUIAutomationTreeWalker, IUIAutomationTreeWalker interface [Windows Accessibility], NormalizeElementBuildCache method, IUIAutomationTreeWalker::NormalizeElementBuildCache, NormalizeElementBuildCache method [Windows Accessibility], NormalizeElementBuildCache method [Windows Accessibility], IUIAutomationTreeWalker interface, NormalizeElementBuildCache,IUIAutomationTreeWalker.NormalizeElementBuildCache, uiauto.uiauto_IUIAutomationTreeWalker_NormalizeBuildCache, uiauto_IUIAutomationTreeWalker_NormalizeBuildCache, uiautomationclient/IUIAutomationTreeWalker::NormalizeElementBuildCache, winauto.uiauto_IUIAutomationTreeWalker_NormalizeBuildCache
 ms.prod: windows-hardware
 ms.technology: windows-devices

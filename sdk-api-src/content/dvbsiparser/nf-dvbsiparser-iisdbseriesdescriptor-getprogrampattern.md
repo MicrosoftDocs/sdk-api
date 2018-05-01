@@ -7,7 +7,7 @@ old-location: mstv\iisdbseriesdescriptor_getprogrampattern.htm
 old-project: mstv
 ms.assetid: ba37c512-bbde-42ad-80fe-9d67f48299b6
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetProgramPattern method [Microsoft TV Technologies], GetProgramPattern method [Microsoft TV Technologies], IIsdbSeriesDescriptor interface, GetProgramPattern,IIsdbSeriesDescriptor.GetProgramPattern, IIsdbSeriesDescriptor, IIsdbSeriesDescriptor interface [Microsoft TV Technologies], GetProgramPattern method, IIsdbSeriesDescriptor::GetProgramPattern, dvbsiparser/IIsdbSeriesDescriptor::GetProgramPattern, mstv.iisdbseriesdescriptor_getprogrampattern
 ms.prod: windows-hardware
 ms.technology: windows-devices

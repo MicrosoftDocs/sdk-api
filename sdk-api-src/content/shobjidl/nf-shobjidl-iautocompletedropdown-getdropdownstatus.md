@@ -7,7 +7,7 @@ old-location: shell\IAutoCompleteDropDown_GetDropDownStatus.htm
 old-project: shell
 ms.assetid: 824c435c-e8ee-4435-a779-bae3ef721613
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ACDD_VISIBLE, GetDropDownStatus method [Windows Shell], GetDropDownStatus method [Windows Shell], IAutoCompleteDropDown interface, GetDropDownStatus,IAutoCompleteDropDown.GetDropDownStatus, IAutoCompleteDropDown, IAutoCompleteDropDown interface [Windows Shell], GetDropDownStatus method, IAutoCompleteDropDown::GetDropDownStatus, _shell_IAutoCompleteDropDown_GetDropDownStatus, shell.IAutoCompleteDropDown_GetDropDownStatus, shobjidl/IAutoCompleteDropDown::GetDropDownStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

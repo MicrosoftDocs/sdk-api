@@ -7,7 +7,7 @@ old-location: winsock\tcpstate.htm
 old-project: WinSock
 ms.assetid: 225C423E-C820-4E9F-8261-DA1E14F81683
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/24/2018
 ms.keywords: TCPSTATE, TCPSTATE enumeration [Winsock], TCPSTATE_CLOSED, TCPSTATE_CLOSE_WAIT, TCPSTATE_CLOSING, TCPSTATE_ESTABLISHED, TCPSTATE_FIN_WAIT_1, TCPSTATE_FIN_WAIT_2, TCPSTATE_LAST_ACK, TCPSTATE_LISTEN, TCPSTATE_MAX, TCPSTATE_SYN_RCVD, TCPSTATE_SYN_SENT, TCPSTATE_TIME_WAIT, _TCPSTATE, mstcpip/TCPSTATE, mstcpip/TCPSTATE_CLOSED, mstcpip/TCPSTATE_CLOSE_WAIT, mstcpip/TCPSTATE_CLOSING, mstcpip/TCPSTATE_ESTABLISHED, mstcpip/TCPSTATE_FIN_WAIT_1, mstcpip/TCPSTATE_FIN_WAIT_2, mstcpip/TCPSTATE_LAST_ACK, mstcpip/TCPSTATE_LISTEN, mstcpip/TCPSTATE_MAX, mstcpip/TCPSTATE_SYN_RCVD, mstcpip/TCPSTATE_SYN_SENT, mstcpip/TCPSTATE_TIME_WAIT, winsock.tcpstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -25,7 +25,7 @@ req.idl:
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: Ccpapi.tlb
+req.type-library: 
 req.typenames: TCPSTATE
 topic_type:
 -	APIRef
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _TCPSTATE enumeration

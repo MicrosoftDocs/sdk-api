@@ -7,7 +7,7 @@ old-location: intl\ifelanguage_getconversion.htm
 old-project: Intl
 ms.assetid: A1FA36C7-6A1A-4B08-BA29-7F7C8FE8DF16
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/25/2018
 ms.keywords: GetConversion method [Internationalization for Windows Applications], GetConversion method [Internationalization for Windows Applications], IFELanguage interface, GetConversion,IFELanguage.GetConversion, IFELanguage, IFELanguage interface [Internationalization for Windows Applications], GetConversion method, IFELanguage::GetConversion, intl.ifelanguage_getconversion, msime/IFELanguage::GetConversion
 ms.prod: windows-hardware
 ms.technology: windows-devices

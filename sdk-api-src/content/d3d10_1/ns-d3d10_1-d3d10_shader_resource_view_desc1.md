@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_shader_resource_view_desc1.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_shader_resource_view_desc1.htm
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: 7b42f6ed-d20a-945b-ecb4-4ba1aa8d083c, D3D10_SHADER_RESOURCE_VIEW_DESC1, D3D10_SHADER_RESOURCE_VIEW_DESC1 structure [Direct3D 10], d3d10_1/D3D10_SHADER_RESOURCE_VIEW_DESC1, direct3d10.d3d10_shader_resource_view_desc1
 ms.prod: windows-hardware
 ms.technology: windows-devices

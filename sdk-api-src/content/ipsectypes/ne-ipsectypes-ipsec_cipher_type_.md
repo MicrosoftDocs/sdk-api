@@ -7,7 +7,7 @@ old-location: fwp\ipsec_cipher_type_enum.htm
 old-project: FWP
 ms.assetid: 88bcd239-83a6-4bc6-b9c8-2416c91ee4c4
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: IPSEC_CIPHER_TYPE, IPSEC_CIPHER_TYPE enumeration [Filtering], IPSEC_CIPHER_TYPE_, IPSEC_CIPHER_TYPE_3DES, IPSEC_CIPHER_TYPE_AES_128, IPSEC_CIPHER_TYPE_AES_192, IPSEC_CIPHER_TYPE_AES_256, IPSEC_CIPHER_TYPE_DES, IPSEC_CIPHER_TYPE_MAX, fwp.ipsec_cipher_type_enum, ipsectypes/IPSEC_CIPHER_TYPE, ipsectypes/IPSEC_CIPHER_TYPE_3DES, ipsectypes/IPSEC_CIPHER_TYPE_AES_128, ipsectypes/IPSEC_CIPHER_TYPE_AES_192, ipsectypes/IPSEC_CIPHER_TYPE_AES_256, ipsectypes/IPSEC_CIPHER_TYPE_DES, ipsectypes/IPSEC_CIPHER_TYPE_MAX
 ms.prod: windows-hardware
 ms.technology: windows-devices

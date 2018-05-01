@@ -7,7 +7,7 @@ old-location: rras\ras_connection_0.htm
 old-project: RRAS
 ms.assetid: e2561365-be3f-44cd-bb3c-18b001fc4d5d
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: "*PRAS_CONNECTION_0, PRAS_CONNECTION_0, PRAS_CONNECTION_0 structure pointer [RAS], RAS_CONNECTION_0, RAS_CONNECTION_0 structure [RAS], RAS_FLAGS_ARAP_CONNECTION, RAS_FLAGS_DORMANT, RAS_FLAGS_IKEV2_CONNECTION, RAS_FLAGS_MESSENGER_PRESENT, RAS_FLAGS_PPP_CONNECTION, RAS_FLAGS_QUARANTINE_PRESENT, _RAS_CONNECTION_0, _mpr_ras_connection_0, mprapi/PRAS_CONNECTION_0, mprapi/RAS_CONNECTION_0, rras.ras_connection_0"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,0 +1,106 @@
+---
+UID: NF:directxpackedvector.XMBYTE2.XMBYTE2
+title: XMBYTE2 function
+author: windows-driver-content
+description: Default constructor for XMBYTE2.
+old-location: dxmath\xmbyte2_ctor_1.htm
+old-project: dxmath
+ms.assetid: M:Microsoft.directx_sdk.reference.XMBYTE2.#ctor
+ms.author: windowsdriverdev
+ms.date: 4/20/2018
+ms.keywords: XMBYTE2, XMBYTE2 function [DirectX Math Support APIs], directxpackedvector/XMBYTE2, dxmath.xmbyte2_ctor_1
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: directxpackedvector.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	DirectXPackedVector.h
+api_name:
+-	XMBYTE2
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# XMBYTE2 function
+
+
+## -description
+
+
+Default constructor for <code>XMBYTE2</code>.
+
+Default constructor for <a href="https://msdn.microsoft.com/AA5A5A85-7AEE-4CD9-AAE9-004A65BAB076">XMBYTE2</a>.
+<div class="alert"><b>Note</b>  This constructor is only available with C++.</div><div> </div>
+
+## -parameters
+
+
+
+
+### -param Packed
+
+TBD
+
+
+
+
+## -returns
+
+
+
+This function does not return a value.
+
+
+
+
+## -remarks
+
+
+
+<code>XMBYTE2()</code> constructs a new instance of the <code>XMBYTE2</code> structure without
+    defining the value of any of its members.
+   
+
+
+
+
+## -see-also
+
+
+
+
+<b>Reference</b>
+
+
+
+<a href="https://msdn.microsoft.com/AA5A5A85-7AEE-4CD9-AAE9-004A65BAB076">XMBYTE2</a>
+
+
+
+<a href="https://msdn.microsoft.com/157ce586-aa49-49b8-9fcd-03815f4ed67b">XMBYTE2 Constructors</a>
+ 
+
+ 
+

@@ -7,7 +7,7 @@ old-location: mf\imfstreamdescriptor_getstreamidentifier.htm
 old-project: medfound
 ms.assetid: d282ee48-6145-4557-8fa7-786b893327fa
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetStreamIdentifier method [Media Foundation], GetStreamIdentifier method [Media Foundation], IMFStreamDescriptor interface, GetStreamIdentifier,IMFStreamDescriptor.GetStreamIdentifier, IMFStreamDescriptor, IMFStreamDescriptor interface [Media Foundation], GetStreamIdentifier method, IMFStreamDescriptor::GetStreamIdentifier, d282ee48-6145-4557-8fa7-786b893327fa, mf.imfstreamdescriptor_getstreamidentifier, mfidl/IMFStreamDescriptor::GetStreamIdentifier
 ms.prod: windows-hardware
 ms.technology: windows-devices

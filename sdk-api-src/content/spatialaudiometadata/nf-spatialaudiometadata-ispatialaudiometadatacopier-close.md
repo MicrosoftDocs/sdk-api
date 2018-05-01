@@ -7,7 +7,7 @@ old-location: coreaudio\ispatialaudiometadatacopier_close.htm
 old-project: CoreAudio
 ms.assetid: 891AFF53-7CAB-49FA-A8D2-CAEEB91E860F
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: Close method [Core Audio], Close method [Core Audio], ISpatialAudioMetadataCopier interface, Close,ISpatialAudioMetadataCopier.Close, ISpatialAudioMetadataCopier, ISpatialAudioMetadataCopier interface [Core Audio], Close method, ISpatialAudioMetadataCopier::Close, coreaudio.ispatialaudiometadatacopier_close, spatialaudiometadata/ISpatialAudioMetadataCopier::Close
 ms.prod: windows-hardware
 ms.technology: windows-devices

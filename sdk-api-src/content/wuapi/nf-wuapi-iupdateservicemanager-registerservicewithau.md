@@ -7,7 +7,7 @@ old-location: wua\iupdateservicemanager_registerservicewithau.htm
 old-project: Wua_Sdk
 ms.assetid: ea54d96a-9ffb-4abd-a032-4dfcc7ba6403
 ms.author: windowsdriverdev
-ms.date: 3/15/2018
+ms.date: 4/18/2018
 ms.keywords: IUpdateServiceManager, IUpdateServiceManager interface [Windows Update Agent], RegisterServiceWithAU method, IUpdateServiceManager::RegisterServiceWithAU, RegisterServiceWithAU method [Windows Update Agent], RegisterServiceWithAU method [Windows Update Agent], IUpdateServiceManager interface, RegisterServiceWithAU,IUpdateServiceManager.RegisterServiceWithAU, wua.iupdateservicemanager_registerservicewithau, wuapi/IUpdateServiceManager::RegisterServiceWithAU
 ms.prod: windows-hardware
 ms.technology: windows-devices

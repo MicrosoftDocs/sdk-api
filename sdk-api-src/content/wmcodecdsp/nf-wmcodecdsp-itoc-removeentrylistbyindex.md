@@ -7,7 +7,7 @@ old-location: mf\itoc_removeentrylistbyindex.htm
 old-project: medfound
 ms.assetid: 63137b67-dc00-48e7-88b0-2f7159c1d829
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IToc, IToc interface [Media Foundation], RemoveEntryListByIndex method, IToc::RemoveEntryListByIndex, RemoveEntryListByIndex method [Media Foundation], RemoveEntryListByIndex method [Media Foundation], IToc interface, RemoveEntryListByIndex,IToc.RemoveEntryListByIndex, codecapi.itoc_removeentrylistbyindex, mf.itoc_removeentrylistbyindex, wmcodecdsp/IToc::RemoveEntryListByIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices

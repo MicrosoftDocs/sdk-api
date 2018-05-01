@@ -7,7 +7,7 @@ old-location: mf\imfmetadata_getallpropertynames.htm
 old-project: medfound
 ms.assetid: e0944d42-d6e6-420d-9980-ca6c62736b3d
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetAllPropertyNames method [Media Foundation], GetAllPropertyNames method [Media Foundation], IMFMetadata interface, GetAllPropertyNames,IMFMetadata.GetAllPropertyNames, IMFMetadata, IMFMetadata interface [Media Foundation], GetAllPropertyNames method, IMFMetadata::GetAllPropertyNames, e0944d42-d6e6-420d-9980-ca6c62736b3d, mf.imfmetadata_getallpropertynames, mfidl/IMFMetadata::GetAllPropertyNames
 ms.prod: windows-hardware
 ms.technology: windows-devices

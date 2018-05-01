@@ -7,7 +7,7 @@ old-location: security\spgetcontexttoken.htm
 old-project: SecAuthN
 ms.assetid: d2e6b57d-751d-4f07-b05b-6d3aabd60650
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/24/2018
 ms.keywords: SpGetContextToken, SpGetContextToken function [Security], SpGetContextTokenFn, _ssp_spgetcontexttoken, ntsecpkg/SpGetContextToken, security.spgetcontexttoken
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # SpGetContextTokenFn callback

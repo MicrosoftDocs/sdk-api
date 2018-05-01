@@ -7,7 +7,7 @@ old-location: gdi\gettabbedtextextent.htm
 old-project: gdi
 ms.assetid: 3444bb8d-4a30-47d4-b211-01f7cba39975
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/17/2018
 ms.keywords: GetTabbedTextExtent, GetTabbedTextExtent function [Windows GDI], GetTabbedTextExtentA, GetTabbedTextExtentW, _win32_GetTabbedTextExtent, gdi.gettabbedtextextent, winuser/GetTabbedTextExtent, winuser/GetTabbedTextExtentA, winuser/GetTabbedTextExtentW
 ms.prod: windows-hardware
 ms.technology: windows-devices

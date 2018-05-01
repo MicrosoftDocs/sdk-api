@@ -7,7 +7,7 @@ old-location: dshow\icodecapi_setallsettingswithnotify.htm
 old-project: DirectShow
 ms.assetid: 30f840d1-4c73-4a76-ba0b-c04f2901ad76
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ICodecAPI, ICodecAPI interface [DirectShow], SetAllSettingsWithNotify method, ICodecAPI::SetAllSettingsWithNotify, ICodecAPISetAllSettingsWithNotify, SetAllSettingsWithNotify method [DirectShow], SetAllSettingsWithNotify method [DirectShow], ICodecAPI interface, SetAllSettingsWithNotify,ICodecAPI.SetAllSettingsWithNotify, dshow.icodecapi_setallsettingswithnotify, strmif/ICodecAPI::SetAllSettingsWithNotify
 ms.prod: windows-hardware
 ms.technology: windows-devices

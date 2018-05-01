@@ -7,7 +7,7 @@ old-location: com\imoniker_enum.htm
 old-project: com
 ms.assetid: 7e2e4d92-d5dd-4294-944e-8b1e88901ee1
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: Enum method [COM], Enum method [COM], IMoniker interface, Enum,IMoniker.Enum, IMoniker, IMoniker interface [COM], Enum method, IMoniker::Enum, _com_imoniker_enum, com.imoniker_enum, objidl/IMoniker::Enum
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMoniker::Enum method

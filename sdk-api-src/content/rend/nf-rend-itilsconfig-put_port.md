@@ -7,7 +7,7 @@ old-location: tapi3\itilsconfig_put_port.htm
 old-project: Tapi
 ms.assetid: 9d911a9c-6538-4919-9110-0425c53f91c4
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: ITILSConfig, ITILSConfig interface [TAPI 2.2], put_Port method, ITILSConfig::put_Port, _tapi3_itilsconfig_put_port, put_Port method [TAPI 2.2], put_Port method [TAPI 2.2], ITILSConfig interface, put_Port,ITILSConfig.put_Port, rend/ITILSConfig::put_Port, tapi3.itilsconfig_put_port
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Rend.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITILSConfig::put_Port method

@@ -7,7 +7,7 @@ old-location: gdi\rgbquad.htm
 old-project: gdi
 ms.assetid: 22e0991d-078e-4b44-9f03-004137e31f6c
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/17/2018
 ms.keywords: "*LPRGBQUAD, RGBQUAD, RGBQUAD structure [Windows GDI], _win32_RGBQUAD_str, gdi.rgbquad, tagRGBQUAD, wingdi/RGBQUAD"
 ms.prod: windows-hardware
 ms.technology: windows-devices

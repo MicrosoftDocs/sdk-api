@@ -7,7 +7,7 @@ old-location: mstv\mpe_element.htm
 old-project: mstv
 ms.assetid: 2753160b-de52-4d62-960a-c200c6f5f29a
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: "*PMPE_ELEMENT, MPE_ELEMENT, MPE_ELEMENT structure [Microsoft TV Technologies], PMPE_ELEMENT, PMPE_ELEMENT structure pointer [Microsoft TV Technologies], _MPE_ELEMENT, mpeg2structs/MPE_ELEMENT, mpeg2structs/PMPE_ELEMENT, mstv.mpe_element"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,11 +61,6 @@ The <b>MPE_ELEMENT</b> structure contains information from a multi-protocol enca
 
 
 
-### -field pNext
-
-Pointer to the next <b>MPE_ELEMENT</b> structure in the list, or <b>NULL</b> if this element is the end of the list.
-
-
 ### -field pid
 
 Packet identifier (PID).
@@ -74,6 +69,11 @@ Packet identifier (PID).
 ### -field bComponentTag
 
 Component tag.
+
+
+### -field pNext
+
+Pointer to the next <b>MPE_ELEMENT</b> structure in the list, or <b>NULL</b> if this element is the end of the list.
 
 
 ## -see-also

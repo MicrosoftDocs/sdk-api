@@ -7,7 +7,7 @@ old-location: cos\crmlogrecordread.htm
 old-project: cossdk
 ms.assetid: 0af0eba5-6e8c-4b1d-aec4-f9a1ffe7bce6
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: CrmLogRecordRead, CrmLogRecordRead structure [COM+], _cos_CrmLogRecordRead, comsvcs/CrmLogRecordRead, cos.crmlogrecordread, tagCrmLogRecordRead
 ms.prod: windows-hardware
 ms.technology: windows-devices

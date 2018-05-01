@@ -7,7 +7,7 @@ old-location: mstv\imsvidstreambuffersinkevent4_writefailureclear.htm
 old-project: mstv
 ms.assetid: c5968d45-5fd2-460a-bbd8-38671bb98a14
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidStreamBufferSinkEvent4, IMSVidStreamBufferSinkEvent4::WriteFailureClear, IMSVidstreamBufferSinkEvent4 interface [Microsoft TV Technologies], WriteFailureClear method, IMSVidstreamBufferSinkEvent4::WriteFailureClear, WriteFailureClear method [Microsoft TV Technologies], WriteFailureClear method [Microsoft TV Technologies], IMSVidstreamBufferSinkEvent4 interface, WriteFailureClear,IMSVidStreamBufferSinkEvent4.WriteFailureClear, mstv.imsvidstreambuffersinkevent4_writefailureclear, segment/IMSVidstreamBufferSinkEvent4::WriteFailureClear
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidStreamBufferSinkEvent4::WriteFailureClear method

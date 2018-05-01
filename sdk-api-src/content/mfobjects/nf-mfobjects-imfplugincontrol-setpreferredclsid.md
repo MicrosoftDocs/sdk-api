@@ -7,7 +7,7 @@ old-location: mf\imfplugincontrol_imfplugincontrol__setpreferredclsid.htm
 old-project: medfound
 ms.assetid: c2362150-bb99-43d4-a6e6-7dc240e9826e
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFPluginControl, IMFPluginControl interface [Media Foundation], SetPreferredClsid method, IMFPluginControl::SetPreferredClsid, SetPreferredClsid method [Media Foundation], SetPreferredClsid method [Media Foundation], IMFPluginControl interface, SetPreferredClsid,IMFPluginControl.SetPreferredClsid, mf.imfplugincontrol_imfplugincontrol__setpreferredclsid, mfobjects/IMFPluginControl::SetPreferredClsid
 ms.prod: windows-hardware
 ms.technology: windows-devices

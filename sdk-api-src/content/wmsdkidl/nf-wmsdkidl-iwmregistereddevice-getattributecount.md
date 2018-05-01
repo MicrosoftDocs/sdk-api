@@ -7,7 +7,7 @@ old-location: wmformat\iwmregistereddevice_getattributecount.htm
 old-project: wmformat
 ms.assetid: 6032cb18-4c4a-4cd7-905e-5cb390bfc37b
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: GetAttributeCount method [windows Media Format], GetAttributeCount method [windows Media Format], IWMRegisteredDevice interface, GetAttributeCount,IWMRegisteredDevice.GetAttributeCount, IWMRegisteredDevice, IWMRegisteredDevice interface [windows Media Format], GetAttributeCount method, IWMRegisteredDevice::GetAttributeCount, IWMRegisteredDeviceGetAttributeCount, wmformat.iwmregistereddevice_getattributecount, wmsdkidl/IWMRegisteredDevice::GetAttributeCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

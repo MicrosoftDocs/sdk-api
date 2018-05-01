@@ -7,7 +7,7 @@ old-location: direct2d\d2d1_opacitymetadata_prop.htm
 old-project: Direct2D
 ms.assetid: D8BA5767-EDB0-4BD0-9B07-9009DB1FD678
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: D2D1_OPACITYMETADATA_PROP, D2D1_OPACITYMETADATA_PROP enumeration [Direct2D], D2D1_OPACITYMETADATA_PROP_INPUT_OPAQUE_RECT, d2d1effects/D2D1_OPACITYMETADATA_PROP, d2d1effects/D2D1_OPACITYMETADATA_PROP_INPUT_OPAQUE_RECT, direct2d.d2d1_opacitymetadata_prop
 ms.prod: windows-hardware
 ms.technology: windows-devices

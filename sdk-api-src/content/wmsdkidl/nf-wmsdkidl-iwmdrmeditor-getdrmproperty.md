@@ -7,7 +7,7 @@ old-location: wmformat\iwmdrmeditor_getdrmproperty.htm
 old-project: wmformat
 ms.assetid: b0a7b07d-f0c0-4715-a9c3-7babf3bf7af9
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: GetDRMProperty method [windows Media Format], GetDRMProperty method [windows Media Format], IWMDRMEditor interface, GetDRMProperty,IWMDRMEditor.GetDRMProperty, IWMDRMEditor, IWMDRMEditor interface [windows Media Format], GetDRMProperty method, IWMDRMEditor::GetDRMProperty, IWMDRMEditorGetDRMProperty, wmformat.iwmdrmeditor_getdrmproperty, wmsdkidl/IWMDRMEditor::GetDRMProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

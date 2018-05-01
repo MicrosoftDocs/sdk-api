@@ -7,7 +7,7 @@ old-location: shell\INameSpaceTreeControlEvents_OnBeforeContextMenu.htm
 old-project: shell
 ms.assetid: aa243592-1cda-4844-8f3c-e9c62083fabb
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: INameSpaceTreeControlEvents, INameSpaceTreeControlEvents interface [Windows Shell], OnBeforeContextMenu method, INameSpaceTreeControlEvents::OnBeforeContextMenu, OnBeforeContextMenu method [Windows Shell], OnBeforeContextMenu method [Windows Shell], INameSpaceTreeControlEvents interface, OnBeforeContextMenu,INameSpaceTreeControlEvents.OnBeforeContextMenu, _shell_INameSpaceTreeControlEvents_OnBeforeContextMenu, shell.INameSpaceTreeControlEvents_OnBeforeContextMenu, shobjidl/INameSpaceTreeControlEvents::OnBeforeContextMenu
 ms.prod: windows-hardware
 ms.technology: windows-devices

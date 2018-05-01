@@ -7,7 +7,7 @@ old-location: upnp\iupnpservicecallback_serviceinstancedied.htm
 old-project: UPnP
 ms.assetid: 13b6d2b1-f95d-4b07-bd69-2793158ee27b
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/25/2018
 ms.keywords: IUPnPServiceCallback, IUPnPServiceCallback interface [UPnP APIs], ServiceInstanceDied method, IUPnPServiceCallback::ServiceInstanceDied, ServiceInstanceDied method [UPnP APIs], ServiceInstanceDied method [UPnP APIs], IUPnPServiceCallback interface, ServiceInstanceDied,IUPnPServiceCallback.ServiceInstanceDied, _upnp_iupnpservicecallback_serviceinstancedied, upnp.iupnpservicecallback_serviceinstancedied, upnp/IUPnPServiceCallback::ServiceInstanceDied
 ms.prod: windows-hardware
 ms.technology: windows-devices

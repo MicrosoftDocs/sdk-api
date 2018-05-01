@@ -7,7 +7,7 @@ old-location: wmi\provider_createnewinstance.htm
 old-project: WmiSdk
 ms.assetid: cb520b55-9ef8-4f5a-935d-46c2bb01f5dd
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: "?CreateNewInstance@Provider@@IAEPAVCInstance@@PAVMethodContext@@@Z, ?CreateNewInstance@Provider@@IEAAPEAVCInstance@@PEAVMethodContext@@@Z, CreateNewInstance method [Windows Management Instrumentation], CreateNewInstance method [Windows Management Instrumentation], Provider interface, CreateNewInstance,Provider.CreateNewInstance, Provider, Provider interface [Windows Management Instrumentation], CreateNewInstance method, Provider::CreateNewInstance, _hmm_provider_createnewinstance, provider/Provider::CreateNewInstance, wmi.provider_createnewinstance"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # Provider::CreateNewInstance method

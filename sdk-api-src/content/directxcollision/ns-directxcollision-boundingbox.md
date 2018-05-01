@@ -7,7 +7,7 @@ old-location: dxmath\boundingbox.htm
 old-project: dxmath
 ms.assetid: T:Microsoft.directx_sdk.directxcollision.BoundingBox
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/23/2018
 ms.keywords: BoundingBox, BoundingBox structure [DirectX Math Support APIs], directxcollision/BoundingBox, dxmath.boundingbox
 ms.prod: windows-hardware
 ms.technology: windows-devices

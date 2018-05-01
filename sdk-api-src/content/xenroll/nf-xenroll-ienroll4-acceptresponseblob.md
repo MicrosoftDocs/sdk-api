@@ -7,7 +7,7 @@ old-location: security\ienroll4_acceptresponseblob.htm
 old-project: SecCrypto
 ms.assetid: 4a28bf6b-ad3d-414b-8740-ce7d4301a05b
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: IEnroll4, IEnroll4 interface [Security], acceptResponseBlob method, IEnroll4::acceptResponseBlob, acceptResponseBlob method [Security], acceptResponseBlob method [Security], IEnroll4 interface, acceptResponseBlob,IEnroll4.acceptResponseBlob, security.ienroll4_acceptresponseblob, xenroll/IEnroll4::acceptResponseBlob
 ms.prod: windows-hardware
 ms.technology: windows-devices

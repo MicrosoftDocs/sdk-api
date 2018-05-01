@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmpathmapper_getsharepathsforlocalpath.htm
 old-project: Fsrm
 ms.assetid: af5c668f-4675-4568-9b6a-c8d2663d819b
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: FsrmPathMapper class [File Server Resource Manager], GetSharePathsForLocalPath method, GetSharePathsForLocalPath method [File Server Resource Manager], GetSharePathsForLocalPath method [File Server Resource Manager], FsrmPathMapper class, GetSharePathsForLocalPath method [File Server Resource Manager], IFsrmPathMapper interface, GetSharePathsForLocalPath,IFsrmPathMapper.GetSharePathsForLocalPath, IFsrmPathMapper, IFsrmPathMapper interface [File Server Resource Manager], GetSharePathsForLocalPath method, IFsrmPathMapper::GetSharePathsForLocalPath, fs.ifsrmpathmapper_getsharepathsforlocalpath, fsrm.ifsrmpathmapper_getsharepathsforlocalpath, fsrm/IFsrmPathMapper::GetSharePathsForLocalPath
 ms.prod: windows-hardware
 ms.technology: windows-devices

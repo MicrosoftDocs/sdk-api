@@ -7,7 +7,7 @@ old-location: direct2d\lineargradientbrushproperties.htm
 old-project: Direct2D
 ms.assetid: dba59936-2b2d-4a9b-aba4-acb6ff84c037
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: LinearGradientBrushProperties, LinearGradientBrushProperties function [Direct2D], d2d1helper/LinearGradientBrushProperties, direct2d.lineargradientbrushproperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

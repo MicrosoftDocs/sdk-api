@@ -7,7 +7,7 @@ old-location: cos\saferef.htm
 old-project: cossdk
 ms.assetid: 14d75a5e-33e8-4b35-9813-3632454b89b6
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: SafeRef, SafeRef function [COM+], _cos_SafeRef, comsvcs/SafeRef, cos.saferef
 ms.prod: windows-hardware
 ms.technology: windows-devices

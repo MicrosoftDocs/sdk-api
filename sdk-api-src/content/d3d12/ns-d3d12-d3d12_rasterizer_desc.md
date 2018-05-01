@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_rasterizer_desc.htm
 old-project: direct3d12
 ms.assetid: 52ECF841-72BE-44B7-BFB1-305B6981C1F4
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: D3D12_RASTERIZER_DESC, D3D12_RASTERIZER_DESC structure, d3d12/D3D12_RASTERIZER_DESC, direct3d12.d3d12_rasterizer_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices

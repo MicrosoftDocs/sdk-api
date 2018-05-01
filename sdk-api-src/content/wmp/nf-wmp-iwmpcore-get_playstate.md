@@ -7,7 +7,7 @@ old-location: wmp\iwmpcore_get_playstate.htm
 old-project: WMP
 ms.assetid: cadac1c6-fff6-44aa-a6ce-2b2f69da2d78
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPCore, IWMPCore interface [Windows Media Player], get_playState method, IWMPCore::get_playState, IWMPCoreget_playState, get_playState method [Windows Media Player], get_playState method [Windows Media Player], IWMPCore interface, get_playState,IWMPCore.get_playState, wmp.iwmpcore_get_playstate, wmp/IWMPCore::get_playState
 ms.prod: windows-hardware
 ms.technology: windows-devices

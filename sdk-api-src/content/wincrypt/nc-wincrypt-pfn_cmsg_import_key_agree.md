@@ -7,7 +7,7 @@ old-location: security\pfn_cmsg_import_key_agree.htm
 old-project: SecCrypto
 ms.assetid: 1ce0fc46-c175-44cf-a553-a8366dca188f
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: PFN_CMSG_IMPORT_KEY_AGREE, PFN_CMSG_IMPORT_KEY_AGREE function pointer [Security], security.pfn_cmsg_import_key_agree, wincrypt/PFN_CMSG_IMPORT_KEY_AGREE
 ms.prod: windows-hardware
 ms.technology: windows-devices

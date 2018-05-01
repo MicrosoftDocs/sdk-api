@@ -7,7 +7,7 @@ old-location: shell\IBrowserService2_ForwardViewMsg.htm
 old-project: shell
 ms.assetid: 8db9fbf9-9132-47a4-a788-93c303598ba0
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ForwardViewMsg method [Windows Shell], ForwardViewMsg method [Windows Shell], IBrowserService2 interface, ForwardViewMsg,IBrowserService2.ForwardViewMsg, IBrowserService2, IBrowserService2 interface [Windows Shell], ForwardViewMsg method, IBrowserService2::ForwardViewMsg, shdeprecated/IBrowserService2::ForwardViewMsg, shell.IBrowserService2_ForwardViewMsg, zone_IBrowserService2_ForwardViewMsg
 ms.prod: windows-hardware
 ms.technology: windows-devices

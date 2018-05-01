@@ -7,7 +7,7 @@ old-location: mstv\imsvidstreambuffersource2_get_videocounter.htm
 old-project: mstv
 ms.assetid: 9def9b51-bae7-49a2-b32f-61811be63c58
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidStreamBufferSource2, IMSVidStreamBufferSource2 interface [Microsoft TV Technologies], get_VideoCounter method, IMSVidStreamBufferSource2::get_VideoCounter, IMSVidStreamBufferSource2get_VideoCounter, get_VideoCounter method [Microsoft TV Technologies], get_VideoCounter method [Microsoft TV Technologies], IMSVidStreamBufferSource2 interface, get_VideoCounter,IMSVidStreamBufferSource2.get_VideoCounter, mstv.imsvidstreambuffersource2_get_videocounter, segment/IMSVidStreamBufferSource2::get_VideoCounter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidStreamBufferSource2::get_VideoCounter method

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationTextRange_GetText.htm
 old-project: WinAuto
 ms.assetid: 704e222d-1e1e-4953-bfa1-bbaa1c5ba833
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: GetText method [Windows Accessibility], GetText method [Windows Accessibility], IUIAutomationTextRange interface, GetText,IUIAutomationTextRange.GetText, IUIAutomationTextRange, IUIAutomationTextRange interface [Windows Accessibility], GetText method, IUIAutomationTextRange::GetText, uiauto.uiauto_IUIAutomationTextRange_GetText, uiauto_IUIAutomationTextRange_GetText, uiautomationclient/IUIAutomationTextRange::GetText, winauto.uiauto_IUIAutomationTextRange_GetText
 ms.prod: windows-hardware
 ms.technology: windows-devices

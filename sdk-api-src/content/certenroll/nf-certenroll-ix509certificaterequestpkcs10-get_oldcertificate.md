@@ -7,7 +7,7 @@ old-location: security\ix509certificaterequestpkcs10_oldcertificate_property.htm
 old-project: SecCertEnroll
 ms.assetid: 8bb15b5c-e642-477d-bcec-772748e336ef
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: IX509CertificateRequestPkcs10, IX509CertificateRequestPkcs10 interface [Security], OldCertificate property, IX509CertificateRequestPkcs10.OldCertificate, IX509CertificateRequestPkcs10::get_OldCertificate, OldCertificate property [Security], OldCertificate property [Security], IX509CertificateRequestPkcs10 interface, certenroll/IX509CertificateRequestPkcs10::OldCertificate, certenroll/IX509CertificateRequestPkcs10::get_OldCertificate, get_OldCertificate,IX509CertificateRequestPkcs10.get_OldCertificate, security.ix509certificaterequestpkcs10_oldcertificate_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

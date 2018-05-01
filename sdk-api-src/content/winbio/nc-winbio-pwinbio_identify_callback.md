@@ -7,7 +7,7 @@ old-location: secbiomet\pwinbio_identify_callback.htm
 old-project: SecBioMet
 ms.assetid: 3AFB7F70-08F3-4861-B341-9D503FE59244
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: PWINBIO_IDENTIFY_CALLBACK, PWINBIO_IDENTIFY_CALLBACK callback function [Windows Biometric Framework API], secbiomet.pwinbio_identify_callback, winbio/PWINBIO_IDENTIFY_CALLBACK
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\ibasicvideo_get_videowidth.htm
 old-project: DirectShow
 ms.assetid: d5167b1e-1341-43b0-bc72-e990ee76e3c4
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IBasicVideo, IBasicVideo interface [DirectShow], get_VideoWidth method, IBasicVideo::get_VideoWidth, IBasicVideoget_VideoWidth, control/IBasicVideo::get_VideoWidth, dshow.ibasicvideo_get_videowidth, get_VideoWidth method [DirectShow], get_VideoWidth method [DirectShow], IBasicVideo interface, get_VideoWidth,IBasicVideo.get_VideoWidth
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: controls\ITextFont_SetForeColor.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setforecolor.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextFont, ITextFont interface [Windows Controls], SetForeColor method, ITextFont::SetForeColor, SetForeColor method [Windows Controls], SetForeColor method [Windows Controls], ITextFont interface, SetForeColor,ITextFont.SetForeColor, _win32_ITextFont_SetForeColor, _win32_ITextFont_SetForeColor_cpp, controls.ITextFont_SetForeColor, controls._win32_ITextFont_SetForeColor, tom/ITextFont::SetForeColor
 ms.prod: windows-hardware
 ms.technology: windows-devices

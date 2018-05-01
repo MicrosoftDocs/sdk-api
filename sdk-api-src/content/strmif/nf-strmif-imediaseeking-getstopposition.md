@@ -7,7 +7,7 @@ old-location: dshow\imediaseeking_getstopposition.htm
 old-project: DirectShow
 ms.assetid: 7205ea09-65c1-4cd5-b76d-55977b0fbab9
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetStopPosition method [DirectShow], GetStopPosition method [DirectShow], IMediaSeeking interface, GetStopPosition,IMediaSeeking.GetStopPosition, IMediaSeeking, IMediaSeeking interface [DirectShow], GetStopPosition method, IMediaSeeking::GetStopPosition, IMediaSeekingGetStopPosition, dshow.imediaseeking_getstopposition, strmif/IMediaSeeking::GetStopPosition
 ms.prod: windows-hardware
 ms.technology: windows-devices

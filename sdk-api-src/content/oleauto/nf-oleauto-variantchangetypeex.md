@@ -7,7 +7,7 @@ old-location: automat\variantchangetypeex.htm
 old-project: automat
 ms.assetid: f2ef2e5f-e247-4abd-890f-f096d956cf4f
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: VARIANT_ALPHABOOL, VARIANT_LOCALBOOL, VARIANT_NOUSEROVERRIDE, VARIANT_NOVALUEPROP, VariantChangeTypeEx, VariantChangeTypeEx function [Automation], _oa96_VariantChangeTypeEx, automat.variantchangetypeex, oleauto/VariantChangeTypeEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # VariantChangeTypeEx function

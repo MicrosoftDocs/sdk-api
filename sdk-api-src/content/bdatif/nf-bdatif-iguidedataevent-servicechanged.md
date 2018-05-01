@@ -7,7 +7,7 @@ old-location: mstv\iguidedataevent_servicechanged.htm
 old-project: mstv
 ms.assetid: 75387dd8-e0e2-4fae-8c4a-a0b7b06f61b1
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IGuideDataEvent, IGuideDataEvent interface [Microsoft TV Technologies], ServiceChanged method, IGuideDataEvent::ServiceChanged, IGuideDataEventServiceChanged, ServiceChanged method [Microsoft TV Technologies], ServiceChanged method [Microsoft TV Technologies], IGuideDataEvent interface, ServiceChanged,IGuideDataEvent.ServiceChanged, bdatif/IGuideDataEvent::ServiceChanged, mstv.iguidedataevent_servicechanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: SpanningEventEmmMessage
+req.typenames: SmartCardApplication
 topic_type:
 -	APIRef
 -	kbSyntax

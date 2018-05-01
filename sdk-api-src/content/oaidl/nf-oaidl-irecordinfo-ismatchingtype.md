@@ -7,7 +7,7 @@ old-location: automat\irecordinfo_ismatchingtype.htm
 old-project: automat
 ms.assetid: 3db29912-3864-4750-b255-77dcffe711cf
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: IRecordInfo, IRecordInfo interface [Automation], IsMatchingType method, IRecordInfo::IsMatchingType, IsMatchingType method [Automation], IsMatchingType method [Automation], IRecordInfo interface, IsMatchingType,IRecordInfo.IsMatchingType, _oa96_IRecordInfo_IsMatchingType, automat.irecordinfo_ismatchingtype, oaidl/IRecordInfo::IsMatchingType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IRecordInfo::IsMatchingType method

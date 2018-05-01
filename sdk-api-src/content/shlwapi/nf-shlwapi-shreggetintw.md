@@ -7,7 +7,7 @@ old-location: shell\SHRegGetInt.htm
 old-project: shell
 ms.assetid: 027e3470-46be-4d37-b815-e1fd550d0c60
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: SHRegGetIntW, SHRegGetIntW function [Windows Shell], _shell_SHRegGetInt, shell.SHRegGetInt, shlwapi/SHRegGetIntW
 ms.prod: windows-hardware
 ms.technology: windows-devices

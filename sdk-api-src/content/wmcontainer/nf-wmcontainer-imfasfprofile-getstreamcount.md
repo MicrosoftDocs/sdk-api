@@ -7,7 +7,7 @@ old-location: mf\imfasfprofile_getstreamcount.htm
 old-project: medfound
 ms.assetid: bf8c6157-3420-4097-8ab6-f307a69d418a
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetStreamCount method [Media Foundation], GetStreamCount method [Media Foundation], IMFASFProfile interface, GetStreamCount,IMFASFProfile.GetStreamCount, IMFASFProfile, IMFASFProfile interface [Media Foundation], GetStreamCount method, IMFASFProfile::GetStreamCount, bf8c6157-3420-4097-8ab6-f307a69d418a, mf.imfasfprofile_getstreamcount, wmcontainer/IMFASFProfile::GetStreamCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

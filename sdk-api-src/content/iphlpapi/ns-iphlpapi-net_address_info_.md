@@ -7,7 +7,7 @@ old-location: iphlp\net_address_info.htm
 old-project: IpHlp
 ms.assetid: 1a59cc13-a3fc-4489-aafd-444a96d9a339
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 4/13/2018
 ms.keywords: "*PNET_ADDRESS_INFO, NET_ADDRESS_INFO, NET_ADDRESS_INFO structure [IP Helper], NET_ADDRESS_INFO_, PNET_ADDRESS_INFO, PNET_ADDRESS_INFO structure pointer [IP Helper], iphlp.net_address_info, iphlpapi/NET_ADDRESS_INFO, iphlpapi/PNET_ADDRESS_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,6 +58,13 @@ The <b>NET_ADDRESS_INFO</b> structure contains IP address information returned b
 
 
 
+### -field Format
+
+Type: <b>NET_ADDRESS_FORMAT</b>
+
+The format of the network address in the union in this structure. This member is an enumeration value from the <a href="https://msdn.microsoft.com/a99df758-d46e-452d-acf8-d2cb5a6fa22e">NET_ADDRESS_FORMAT</a> enumeration declared in the <i>Iphlpapi.h</i> header file.
+
+
 ### -field NamedAddress
 
 A DNS named address and port.
@@ -75,13 +82,6 @@ A DNS name formatted as a <b>NULL</b>-terminated wide character string. The maxi
 <b>Type: <b>WCHAR[6]</b>
 </b>
 The network port formatted as a <b>NULL</b>-terminated wide character string. 
-
-
-### -field Format
-
-Type: <b>NET_ADDRESS_FORMAT</b>
-
-The format of the network address in the union in this structure. This member is an enumeration value from the <a href="https://msdn.microsoft.com/a99df758-d46e-452d-acf8-d2cb5a6fa22e">NET_ADDRESS_FORMAT</a> enumeration declared in the <i>Iphlpapi.h</i> header file.
 
 
 #### - IpAddress

@@ -7,7 +7,7 @@ old-location: com\imallocspy_prerealloc.htm
 old-project: com
 ms.assetid: dd4db69c-3369-4aca-bc05-4c3c6850cc09
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IMallocSpy, IMallocSpy interface [COM], PreRealloc method, IMallocSpy::PreRealloc, PreRealloc method [COM], PreRealloc method [COM], IMallocSpy interface, PreRealloc,IMallocSpy.PreRealloc, _com_imallocspy_prerealloc, com.imallocspy_prerealloc, objidl/IMallocSpy::PreRealloc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMallocSpy::PreRealloc method

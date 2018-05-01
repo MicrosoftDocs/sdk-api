@@ -1,22 +1,22 @@
 ---
 UID: NS:windns.__unnamed_struct_26
-title: DNS_LOC_DATA
+title: DNS_OPT_DATA
 author: windows-driver-content
-description: The DNS_LOC_DATA structure represents a DNS location (LOC) resource record (RR) as specified in RFC 1876.
-old-location: dns\dns_loc_data.htm
+description: Represents a DNS Option (OPT) resource record (RR) as specified in section 4 of RFC 2671.
+old-location: dns\dns_opt_data.htm
 old-project: DNS
-ms.assetid: c1e05479-17f0-4993-8dcf-02036989d6dc
+ms.assetid: a8e23127-a625-4206-abe8-0787b4ac0f30
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
-ms.keywords: "*PDNS_LOC_DATA, DNS_LOC_DATA, DNS_LOC_DATA structure [DNS], PDNS_LOC_DATA, PDNS_LOC_DATA structure pointer [DNS], _dns_dns_loc_data, dns.dns_loc_data, windns/DNS_LOC_DATA, windns/PDNS_LOC_DATA"
+ms.date: 4/18/2018
+ms.keywords: "*PDNS_OPT_DATA, DNS_OPT_DATA, DNS_OPT_DATA structure [DNS], PDNS_OPT_DATA, PDNS_OPT_DATA structure pointer [DNS], dns.dns_opt_data, windns/DNS_OPT_DATA, windns/PDNS_OPT_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
-req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: DNS_LOC_DATA, *PDNS_LOC_DATA
+req.typenames: DNS_OPT_DATA, *PDNS_OPT_DATA
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	Windns.h
 api_name:
--	DNS_LOC_DATA
+-	DNS_OPT_DATA
 product: Windows
 targetos: Windows
 req.lib: 
@@ -44,14 +44,13 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# DNS_LOC_DATA structure
+# DNS_OPT_DATA structure
 
 
 ## -description
 
 
-The 
-<b>DNS_LOC_DATA</b> structure represents a DNS location (LOC) resource record (RR) as specified in <a href=" http://go.microsoft.com/fwlink/p/?linkid=106954">RFC 1876</a>.
+The <b>DNS_OPT_DATA</b> structure represents a DNS Option  (OPT) resource record (RR) as specified in section 4 of <a href="http://go.microsoft.com/fwlink/p/?linkid=134711">RFC 2671</a>.
 
 
 ## -struct-fields
@@ -59,39 +58,19 @@ The
 
 
 
-### -field wVersion
+### -field wDataLength
 
-The version number of the representation. Must be zero.
-
-
-### -field wSize
-
-The diameter of a sphere enclosing the described entity, defined as "SIZE"         in section 2 of <a href=" http://go.microsoft.com/fwlink/p/?linkid=106954">RFC 1876</a>.
+The length, in bytes, of <b>Data</b>.
 
 
-### -field wHorPrec
+### -field wPad
 
-The horizontal data precision, defined as "HORIZ PRE"         in section 2 of <a href=" http://go.microsoft.com/fwlink/p/?linkid=106954">RFC 1876</a>.
-
-
-### -field wVerPrec
-
-The vertical data precision, defined as "VERT PRE"         in section 2 of <a href=" http://go.microsoft.com/fwlink/p/?linkid=106954">RFC 1876</a>.
+Reserved. Do not use.
 
 
-### -field dwLatitude
+### -field Data
 
-The latitude of the center of the sphere, defined as "LATITUDE"         in section 2 of <a href=" http://go.microsoft.com/fwlink/p/?linkid=106954">RFC 1876</a>.
-
-
-### -field dwLongitude
-
-The longitude of the center of the sphere, defined as "LONGITUDE"         in section 2 of <a href=" http://go.microsoft.com/fwlink/p/?linkid=106954">RFC 1876</a>.
-
-
-### -field dwAltitude
-
-The altitude of the center of the sphere, defined as "ALTITUDE"         in section 2 of <a href=" http://go.microsoft.com/fwlink/p/?linkid=106954">RFC 1876</a>.
+A <b>BYTE</b> array that contains variable transport level information as specified in section 4 of <a href="http://go.microsoft.com/fwlink/p/?linkid=134711">RFC 2671</a>.
 
 
 ## -remarks
@@ -99,7 +78,7 @@ The altitude of the center of the sphere, defined as "ALTITUDE"         in secti
 
 
 The 
-<b>DNS_LOC_DATA</b> structure is used in conjunction with the 
+<b>DNS_OPT_DATA</b> structure is used in conjunction with the 
 <a href="https://msdn.microsoft.com/ab7b96a5-346f-4e01-bb2a-885f44764590">DNS_RECORD</a> structure to programmatically manage DNS entries.
 
 
@@ -107,6 +86,10 @@ The
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/636399be-43a5-4ddf-b652-f8efb81fbf42">DNS Structures</a>
 
 
 

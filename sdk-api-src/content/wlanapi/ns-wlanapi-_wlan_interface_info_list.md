@@ -7,7 +7,7 @@ old-location: nwifi\wlan_interface_info_list.htm
 old-project: NativeWiFi
 ms.assetid: c57f4658-9f1e-4b05-a298-38a064121bb3
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/13/2018
 ms.keywords: "*PWLAN_INTERFACE_INFO_LIST, PWLAN_INTERFACE_INFO_LIST, PWLAN_INTERFACE_INFO_LIST structure pointer [NativeWIFI], WLAN_INTERFACE_INFO_LIST, WLAN_INTERFACE_INFO_LIST structure [NativeWIFI], _WLAN_INTERFACE_INFO_LIST, nwifi.wlan_interface_info_list, wlanapi/PWLAN_INTERFACE_INFO_LIST, wlanapi/WLAN_INTERFACE_INFO_LIST"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -2,13 +2,13 @@
 UID: NF:intsafe.ULongLongToULong
 title: ULongLongToULong function
 author: windows-driver-content
-description: Converts a value of type ULONGLONG to a value of type ULONG.
-old-location: shell\ULongLongToULong.htm
+description: Converts a value of type ULONGLONG to a value of type DWORD.
+old-location: shell\ULongLongToDWord.htm
 old-project: shell
-ms.assetid: d00be99c-f4ec-4a4e-98d1-6e96f5bd3a0c
+ms.assetid: 7b3c3d2d-e509-4b55-88aa-1d183ab0a41c
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
-ms.keywords: ULongLongToULong, ULongLongToULong function [Windows Shell], _shell_ULongLongToULong, intsafe/ULongLongToULong, shell.ULongLongToULong
+ms.date: 4/26/2018
+ms.keywords: ULongLongToDWord, ULongLongToDWord function [Windows Shell], ULongLongToULong, _shell_ULongLongToDWord, intsafe/ULongLongToDWord, shell.ULongLongToDWord
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	Intsafe.h
 api_name:
--	ULongLongToULong
+-	ULongLongToDWord
 product: Windows
 targetos: Windows
 req.lib: 
@@ -50,7 +50,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Converts a value of type <b>ULONGLONG</b> to a value of type <b>ULONG</b>.
+Converts a value of type <b>ULONGLONG</b> to a value of type <b>DWORD</b>.
 
 
 ## -parameters
@@ -65,9 +65,16 @@ Type: <b>ULONGLONG</b>
 The value to be converted.
 
 
-### -param pulResult [out]
+### -param pulResult
 
-Type: <b>ULONG*</b>
+TBD
+
+
+
+
+#### - pdwResult [out]
+
+Type: <b>DWORD*</b>
 
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns INTSAFE_E_ARITHMETIC_OVERFLOW and this parameter is not valid.
 

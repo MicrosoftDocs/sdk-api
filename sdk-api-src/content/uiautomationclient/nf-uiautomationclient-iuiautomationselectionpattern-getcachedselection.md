@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationSelectionPattern_GetCachedSelection.ht
 old-project: WinAuto
 ms.assetid: a0f2d198-78a9-4117-9a55-aa9042ef3f21
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: GetCachedSelection method [Windows Accessibility], GetCachedSelection method [Windows Accessibility], IUIAutomationSelectionPattern interface, GetCachedSelection,IUIAutomationSelectionPattern.GetCachedSelection, IUIAutomationSelectionPattern, IUIAutomationSelectionPattern interface [Windows Accessibility], GetCachedSelection method, IUIAutomationSelectionPattern::GetCachedSelection, uiauto.uiauto_IUIAutomationSelectionPattern_GetCachedSelection, uiauto_IUIAutomationSelectionPattern_GetCachedSelection, uiautomationclient/IUIAutomationSelectionPattern::GetCachedSelection, winauto.uiauto_IUIAutomationSelectionPattern_GetCachedSelection
 ms.prod: windows-hardware
 ms.technology: windows-devices

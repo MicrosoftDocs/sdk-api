@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist_endquery.htm
 old-project: direct3d12
 ms.assetid: 591B277C-44C7-4C21-86B1-239F6A71308D
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: EndQuery method, EndQuery method, ID3D12GraphicsCommandList interface, EndQuery,ID3D12GraphicsCommandList.EndQuery, ID3D12GraphicsCommandList, ID3D12GraphicsCommandList interface, EndQuery method, ID3D12GraphicsCommandList::EndQuery, d3d12/ID3D12GraphicsCommandList::EndQuery, direct3d12.id3d12graphicscommandlist_endquery
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\imfasfsplitter.htm
 old-project: medfound
 ms.assetid: 75d8b2a3-7c50-4dd5-8927-b11eb9f12602
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 75d8b2a3-7c50-4dd5-8927-b11eb9f12602, IMFASFSplitter, IMFASFSplitter interface [Media Foundation], IMFASFSplitter interface [Media Foundation], described, mf.imfasfsplitter, wmcontainer/IMFASFSplitter
 ms.prod: windows-hardware
 ms.technology: windows-devices

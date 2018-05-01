@@ -7,7 +7,7 @@ old-location: tablet\iinkstrokedisp_ink.htm
 old-project: tablet
 ms.assetid: 46283c0a-0280-4bd9-a6f1-2aa943b8b1b5
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: 46283c0a-0280-4bd9-a6f1-2aa943b8b1b5, IInkStrokeDisp, IInkStrokeDisp interface [Tablet PC], Ink property, IInkStrokeDisp.Ink, IInkStrokeDisp.get_Ink, IInkStrokeDisp::get_Ink, Ink property [Tablet PC], Ink property [Tablet PC], IInkStrokeDisp interface, get_Ink,IInkStrokeDisp.get_Ink, msinkaut/IInkStrokeDisp::Ink, msinkaut/IInkStrokeDisp::get_Ink, tablet.iinkstrokedisp_ink
 ms.prod: windows-hardware
 ms.technology: windows-devices

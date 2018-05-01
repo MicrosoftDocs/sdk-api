@@ -7,7 +7,7 @@ old-location: dshow\iconfigasfwriter2_resetmultipassstate.htm
 old-project: DirectShow
 ms.assetid: ca2ec239-ffb9-4030-9160-77a0c9be0a07
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IConfigAsfWriter2, IConfigAsfWriter2 interface [DirectShow], ResetMultiPassState method, IConfigAsfWriter2::ResetMultiPassState, IConfigAsfWriter2ResetMultiPassState, ResetMultiPassState method [DirectShow], ResetMultiPassState method [DirectShow], IConfigAsfWriter2 interface, ResetMultiPassState,IConfigAsfWriter2.ResetMultiPassState, dshow.iconfigasfwriter2_resetmultipassstate, dshowasf/IConfigAsfWriter2::ResetMultiPassState
 ms.prod: windows-hardware
 ms.technology: windows-devices

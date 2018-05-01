@@ -7,7 +7,7 @@ old-location: mstv\iisdbtsinformationdescriptor_getremotecontrolkeyid.htm
 old-project: mstv
 ms.assetid: 51162c5e-9ece-4c3d-9ab1-03d03a326efe
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetRemoteControlKeyId method [Microsoft TV Technologies], GetRemoteControlKeyId method [Microsoft TV Technologies], IIsdbTSInformationDescriptor interface, GetRemoteControlKeyId,IIsdbTSInformationDescriptor.GetRemoteControlKeyId, IIsdbTSInformationDescriptor, IIsdbTSInformationDescriptor interface [Microsoft TV Technologies], GetRemoteControlKeyId method, IIsdbTSInformationDescriptor::GetRemoteControlKeyId, dvbsiparser/IIsdbTSInformationDescriptor::GetRemoteControlKeyId, mstv.iisdbtsinformationdescriptor_getremotecontrolkeyid
 ms.prod: windows-hardware
 ms.technology: windows-devices

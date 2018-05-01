@@ -7,7 +7,7 @@ old-location: nps\SDO_isdoservicecontrol_resetservice.htm
 old-project: Nps
 ms.assetid: c93675ad-b7c2-42b9-9ab8-7fb4cbb7a07c
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/24/2018
 ms.keywords: ISdoServiceControl, ISdoServiceControl interface [Network Policy Server], ResetService method, ISdoServiceControl::ResetService, ResetService method [Network Policy Server], ResetService method [Network Policy Server], ISdoServiceControl interface, ResetService,ISdoServiceControl.ResetService, _sdo_isdoservicecontrol_resetservice, nps.SDO_isdoservicecontrol_resetservice, sdo.isdoservicecontrol_resetservice, sdoias/ISdoServiceControl::ResetService
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Iassdo.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ISdoServiceControl::ResetService method

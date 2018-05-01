@@ -7,7 +7,7 @@ old-location: dshow\icodecapi_getvalue.htm
 old-project: DirectShow
 ms.assetid: 863ba518-c3c6-47d8-96d8-445a7e4d02aa
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetValue method [DirectShow], GetValue method [DirectShow], ICodecAPI interface, GetValue,ICodecAPI.GetValue, ICodecAPI, ICodecAPI interface [DirectShow], GetValue method, ICodecAPI::GetValue, ICodecAPIGetValue, dshow.icodecapi_getvalue, strmif/ICodecAPI::GetValue
 ms.prod: windows-hardware
 ms.technology: windows-devices

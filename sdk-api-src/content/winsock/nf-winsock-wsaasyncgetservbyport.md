@@ -7,7 +7,7 @@ old-location: winsock\wsaasyncgetservbyport_2.htm
 old-project: WinSock
 ms.assetid: 0d0bd09c-ea97-46fb-b7b0-6e3e0a41dbc1
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/24/2018
 ms.keywords: WSAAsyncGetServByPort, WSAAsyncGetServByPort function [Winsock], _win32_wsaasyncgetservbyport_2, winsock.wsaasyncgetservbyport_2, winsock/WSAAsyncGetServByPort
 ms.prod: windows-hardware
 ms.technology: windows-devices

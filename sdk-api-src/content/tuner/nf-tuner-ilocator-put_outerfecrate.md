@@ -7,7 +7,7 @@ old-location: mstv\ilocator_put_outerfecrate.htm
 old-project: mstv
 ms.assetid: 0fd3fa42-4ed6-459b-a6a2-23ed67832780
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IDigitalLocatorput_OuterFECRate, ILocator, ILocator interface [Microsoft TV Technologies], put_OuterFECRate method, ILocator::put_OuterFECRate, mstv.ilocator_put_outerfecrate, put_OuterFECRate method [Microsoft TV Technologies], put_OuterFECRate method [Microsoft TV Technologies], ILocator interface, put_OuterFECRate,ILocator.put_OuterFECRate, tuner/ILocator::put_OuterFECRate
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: controls\IImageList2_SetCallback.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist2\setcallback.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: IImageList2, IImageList2 interface [Windows Controls], SetCallback method, IImageList2::SetCallback, SetCallback method [Windows Controls], SetCallback method [Windows Controls], IImageList2 interface, SetCallback,IImageList2.SetCallback, _shell_IImageList2_SetCallback, _shell_IImageList2_SetCallback_cpp, commoncontrols/IImageList2::SetCallback, controls.IImageList2_SetCallback, controls._shell_IImageList2_SetCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: nwifi\ienumdot11adhocsecuritysettings.htm
 old-project: NativeWiFi
 ms.assetid: 137abd1b-997d-4003-9fef-8db56b273149
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/13/2018
 ms.keywords: IEnumDot11AdHocSecuritySettings, IEnumDot11AdHocSecuritySettings interface [NativeWIFI], IEnumDot11AdHocSecuritySettings interface [NativeWIFI], described, adhoc/IEnumDot11AdHocSecuritySettings, nwifi.ienumdot11adhocsecuritysettings
 ms.prod: windows-hardware
 ms.technology: windows-devices

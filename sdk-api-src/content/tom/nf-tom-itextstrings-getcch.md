@@ -7,7 +7,7 @@ old-location: controls\itextstrings_getcch.htm
 old-project: Controls
 ms.assetid: 73b88019-f74b-4345-95f3-9f924c999b8a
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: GetCch method [Windows Controls], GetCch method [Windows Controls], ITextStrings interface, GetCch,ITextStrings.GetCch, ITextStrings, ITextStrings interface [Windows Controls], GetCch method, ITextStrings::GetCch, controls.itextstrings_getcch, tom/ITextStrings::GetCch
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\iazapplication_deletedelegatedpolicyuser.htm
 old-project: SecAuthZ
 ms.assetid: 92e7f4fa-ff86-4ef5-8b87-086dd73966d1
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: AzApplication object [Security], DeleteDelegatedPolicyUser method, DeleteDelegatedPolicyUser method [Security], DeleteDelegatedPolicyUser method [Security], AzApplication object, DeleteDelegatedPolicyUser method [Security], IAzApplication interface, DeleteDelegatedPolicyUser,IAzApplication.DeleteDelegatedPolicyUser, IAzApplication, IAzApplication interface [Security], DeleteDelegatedPolicyUser method, IAzApplication::DeleteDelegatedPolicyUser, azroles/IAzApplication::DeleteDelegatedPolicyUser, security.iazapplication_deletedelegatedpolicyuser
 ms.prod: windows-hardware
 ms.technology: windows-devices

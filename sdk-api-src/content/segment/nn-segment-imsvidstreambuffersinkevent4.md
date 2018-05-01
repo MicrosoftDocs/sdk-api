@@ -7,7 +7,7 @@ old-location: mstv\imsvidstreambuffersinkevent4.htm
 old-project: mstv
 ms.assetid: afec7f7a-0c5b-47ca-b442-5dbdba54a7af
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidStreamBufferSinkEvent4, IMSVidStreamBufferSinkEvent4 interface [Microsoft TV Technologies], IMSVidStreamBufferSinkEvent4 interface [Microsoft TV Technologies], described, mstv.imsvidstreambuffersinkevent4, segment/IMSVidStreamBufferSinkEvent4
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidStreamBufferSinkEvent4 interface

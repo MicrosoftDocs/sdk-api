@@ -1,0 +1,88 @@
+---
+UID: NF:wia_xp.IWiaItem.DeleteItem
+title: IWiaItem::DeleteItem method
+author: windows-driver-content
+description: The IWiaItem::DeleteItem method removes the current IWiaItem object from the object tree of the device.
+old-location: wia\_wia_IWiaItem_DeleteItem.htm
+old-project: wia
+ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitem\deleteitem.htm
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: DeleteItem method [WIA], DeleteItem method [WIA], IWiaItem interface, DeleteItem,IWiaItem.DeleteItem, IWiaItem, IWiaItem interface [WIA], DeleteItem method, IWiaItem::DeleteItem, _wia_IWiaItem_DeleteItem, wia._wia_IWiaItem_DeleteItem, wia_xp/IWiaItem::DeleteItem
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wia_xp.h
+req.include-header: Wia.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WIAVIDEO_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wiaservc.dll
+api_name:
+-	IWiaItem.DeleteItem
+product: Windows
+targetos: Windows
+req.lib: Wiaguid.lib
+req.dll: Wiaservc.dll
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# IWiaItem::DeleteItem method
+
+
+## -description
+
+
+The <b>IWiaItem::DeleteItem</b> method removes the current <a href="https://msdn.microsoft.com/b9aaf7ae-7222-44d1-8cf1-89234b263135">IWiaItem</a> object from the object tree of the device.
+
+
+## -parameters
+
+
+
+
+### -param lFlags [in]
+
+Type: <b>LONG</b>
+
+Currently unused. Should be set to zero.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+This method returns S_OK regardless of how many items were deleted. If the method fails, it returns a standard COM error code.
+
+
+
+
+## -remarks
+
+
+
+The Windows Image Acquisition (WIA) run-time system represents each WIA hardware device connected to the user's computer as a hierarchical tree of <a href="https://msdn.microsoft.com/b9aaf7ae-7222-44d1-8cf1-89234b263135">IWiaItem</a> objects. A given WIA device may or may not allow applications to delete <b>IWiaItem</b> objects from its tree. Use the <a href="https://msdn.microsoft.com/736a8aba-58e0-4b52-a997-ef1fb80473ba">IEnumWIA_DEV_CAPS</a> interface to query the device for item deletion capability.
+
+If the device supports item deletion in its <a href="https://msdn.microsoft.com/b9aaf7ae-7222-44d1-8cf1-89234b263135">IWiaItem</a> tree, invoke the <b>IWiaItem::DeleteItem</b> method to remove the <b>IWiaItem</b> object. Note that this method will only delete an object after all references to the object have been released.
+
+
+

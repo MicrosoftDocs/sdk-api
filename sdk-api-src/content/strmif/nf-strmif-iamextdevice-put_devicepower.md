@@ -7,7 +7,7 @@ old-location: dshow\iamextdevice_put_devicepower.htm
 old-project: DirectShow
 ms.assetid: 9cb0c200-aaf4-44fb-b217-6a44a36089b5
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMExtDevice, IAMExtDevice interface [DirectShow], put_DevicePower method, IAMExtDevice::put_DevicePower, IAMExtDeviceput_DevicePower, dshow.iamextdevice_put_devicepower, put_DevicePower method [DirectShow], put_DevicePower method [DirectShow], IAMExtDevice interface, put_DevicePower,IAMExtDevice.put_DevicePower, strmif/IAMExtDevice::put_DevicePower
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: ics\netcon_type.htm
 old-project: ICS
 ms.assetid: 7ad507dd-62aa-47c2-a792-750b36d48243
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: NCT_BRIDGE, NCT_DIRECT_CONNECT, NCT_INBOUND, NCT_INTERNET, NCT_LAN, NCT_PHONE, NCT_TUNNEL, NETCON_TYPE, NETCON_TYPE enumeration [ICS/ICF], _ics_netcon_type, ics.netcon_type, netcon/NCT_BRIDGE, netcon/NCT_DIRECT_CONNECT, netcon/NCT_INBOUND, netcon/NCT_INTERNET, netcon/NCT_LAN, netcon/NCT_PHONE, netcon/NCT_TUNNEL, netcon/NETCON_TYPE, tagNETCON_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # tagNETCON_TYPE enumeration

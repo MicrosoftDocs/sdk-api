@@ -7,7 +7,7 @@ old-location: automat\varcyfromui4.htm
 old-project: automat
 ms.assetid: aa5c74d1-050c-4036-a8b0-9518761f6c0d
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: VarCyFromUI4, VarCyFromUI4 function [Automation], _oa96_VarCyFromUI4, automat.varcyfromui4, oleauto/VarCyFromUI4
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # VarCyFromUI4 function

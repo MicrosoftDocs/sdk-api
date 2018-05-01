@@ -7,7 +7,7 @@ old-location: wmp\iwmpmedia3_getattributecountbytype.htm
 old-project: WMP
 ms.assetid: 86f5e67a-408f-4b93-b89a-12f42fd31966
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPMedia3, IWMPMedia3 interface [Windows Media Player], getAttributeCountByType method, IWMPMedia3::getAttributeCountByType, IWMPMedia3getAttributeCountByType, getAttributeCountByType method [Windows Media Player], getAttributeCountByType method [Windows Media Player], IWMPMedia3 interface, getAttributeCountByType,IWMPMedia3.getAttributeCountByType, wmp.iwmpmedia3_getattributecountbytype, wmp/IWMPMedia3::getAttributeCountByType
 ms.prod: windows-hardware
 ms.technology: windows-devices

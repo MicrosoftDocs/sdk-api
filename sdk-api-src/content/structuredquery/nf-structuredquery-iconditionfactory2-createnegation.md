@@ -7,7 +7,7 @@ old-location: search\_search_IConditionFactory2_CreateNegation.htm
 old-project: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\iconditionfactory2\createnegation.htm
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/24/2018
 ms.keywords: CreateNegation method [search], CreateNegation method [search], IConditionFactory2 interface, CreateNegation,IConditionFactory2.CreateNegation, IConditionFactory2, IConditionFactory2 interface [search], CreateNegation method, IConditionFactory2::CreateNegation, _search_IConditionFactory2_CreateNegation, search._search_IConditionFactory2_CreateNegation, structuredquery/IConditionFactory2::CreateNegation
 ms.prod: windows-hardware
 ms.technology: windows-devices

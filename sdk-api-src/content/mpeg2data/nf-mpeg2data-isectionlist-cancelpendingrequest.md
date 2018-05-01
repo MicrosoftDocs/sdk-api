@@ -7,7 +7,7 @@ old-location: mstv\isectionlist_cancelpendingrequest.htm
 old-project: mstv
 ms.assetid: 58e0898d-a84e-49cf-bc18-1fda8351dfc0
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: CancelPendingRequest method [Microsoft TV Technologies], CancelPendingRequest method [Microsoft TV Technologies], ISectionList interface, CancelPendingRequest,ISectionList.CancelPendingRequest, ISectionList, ISectionList interface [Microsoft TV Technologies], CancelPendingRequest method, ISectionList::CancelPendingRequest, ISectionListCancelPendingRequest, mpeg2data/ISectionList::CancelPendingRequest, mstv.isectionlist_cancelpendingrequest
 ms.prod: windows-hardware
 ms.technology: windows-devices

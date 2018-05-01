@@ -7,7 +7,7 @@ old-location: com\iolelink_bindifrunning.htm
 old-project: com
 ms.assetid: 791fbb3c-6b73-490c-a69b-ba58fd386de4
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: BindIfRunning method [COM], BindIfRunning method [COM], IOleLink interface, BindIfRunning,IOleLink.BindIfRunning, IOleLink, IOleLink interface [COM], BindIfRunning method, IOleLink::BindIfRunning, _ole_iolelink_bindifrunning, com.iolelink_bindifrunning, oleidl/IOleLink::BindIfRunning
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IOleLink::BindIfRunning method

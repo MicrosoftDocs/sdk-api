@@ -7,7 +7,7 @@ old-location: wmp\iwmpcdromburn_refreshstatus.htm
 old-project: WMP
 ms.assetid: 7a1ca071-0a61-4ef5-b8c1-18336cf5b1b0
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPCdromBurn, IWMPCdromBurn interface [Windows Media Player], refreshStatus method, IWMPCdromBurn::refreshStatus, IWMPCdromBurnrefreshStatus, refreshStatus method [Windows Media Player], refreshStatus method [Windows Media Player], IWMPCdromBurn interface, refreshStatus,IWMPCdromBurn.refreshStatus, wmp.iwmpcdromburn_refreshstatus, wmp/IWMPCdromBurn::refreshStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

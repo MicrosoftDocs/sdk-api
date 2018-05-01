@@ -7,7 +7,7 @@ old-location: nps\SDO_shv_combination_type.htm
 old-project: Nps
 ms.assetid: 444c2223-3ff5-4e13-8d8d-f993979f3c46
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/24/2018
 ms.keywords: SHV_COMBINATION_TYPE, SHV_COMBINATION_TYPE enumeration [Network Policy Server], SHV_COMBINATION_TYPE_ALL_FAIL, SHV_COMBINATION_TYPE_ALL_PASS, SHV_COMBINATION_TYPE_MAX, SHV_COMBINATION_TYPE_ONE_OR_MORE_FAIL, SHV_COMBINATION_TYPE_ONE_OR_MORE_INFECTED, SHV_COMBINATION_TYPE_ONE_OR_MORE_PASS, SHV_COMBINATION_TYPE_ONE_OR_MORE_TRANSITIONAL, SHV_COMBINATION_TYPE_ONE_OR_MORE_UNKNOWN, _SHV_COMBINATION_TYPE, nps.SDO_shv_combination_type, sdo.shv_combination_type, sdoias/SHV_COMBINATION_TYPE, sdoias/SHV_COMBINATION_TYPE_ALL_FAIL, sdoias/SHV_COMBINATION_TYPE_ALL_PASS, sdoias/SHV_COMBINATION_TYPE_MAX, sdoias/SHV_COMBINATION_TYPE_ONE_OR_MORE_FAIL, sdoias/SHV_COMBINATION_TYPE_ONE_OR_MORE_INFECTED, sdoias/SHV_COMBINATION_TYPE_ONE_OR_MORE_PASS, sdoias/SHV_COMBINATION_TYPE_ONE_OR_MORE_TRANSITIONAL, sdoias/SHV_COMBINATION_TYPE_ONE_OR_MORE_UNKNOWN
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _SHV_COMBINATION_TYPE enumeration

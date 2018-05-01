@@ -7,7 +7,7 @@ old-location: shell\IShellImageData_GetSize.htm
 old-project: shell
 ms.assetid: 50294d95-801d-4cd6-94ae-8b48c68af50f
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetSize method [Windows Shell], GetSize method [Windows Shell], IShellImageData interface, GetSize,IShellImageData.GetSize, IShellImageData, IShellImageData interface [Windows Shell], GetSize method, IShellImageData::GetSize, _shell_IShellImageData_GetSize, shell.IShellImageData_GetSize, shimgdata/IShellImageData::GetSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

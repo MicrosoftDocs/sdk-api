@@ -7,7 +7,7 @@ old-location: tablet\iinkstrokedisp_hittestcircle.htm
 old-project: tablet
 ms.assetid: b87a1bc0-b17b-419b-947e-48746f4903e8
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: HitTestCircle method [Tablet PC], HitTestCircle method [Tablet PC], IInkStrokeDisp interface, HitTestCircle,IInkStrokeDisp.HitTestCircle, IInkStrokeDisp, IInkStrokeDisp interface [Tablet PC], HitTestCircle method, IInkStrokeDisp::HitTestCircle, b87a1bc0-b17b-419b-947e-48746f4903e8, msinkaut/IInkStrokeDisp::HitTestCircle, tablet.iinkstrokedisp_hittestcircle
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: com\ienumunknown_next.htm
 old-project: com
 ms.assetid: cef932cf-dacd-430d-8834-c41cc2d885a6
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IEnumUnknown, IEnumUnknown interface [COM], Next method, IEnumUnknown::Next, Next method [COM], Next method [COM], IEnumUnknown interface, Next,IEnumUnknown.Next, _com_ienumunknown_next, com.ienumunknown_next, objidlbase/IEnumUnknown::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IEnumUnknown::Next method

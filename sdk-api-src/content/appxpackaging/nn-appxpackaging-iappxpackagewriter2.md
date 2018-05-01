@@ -7,7 +7,7 @@ old-location: appxpkg\iappxpackagewriter2.htm
 old-project: appxpkg
 ms.assetid: CB3F2FBC-7CCA-45F9-A384-D5458EBA1A7B
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/26/2018
 ms.keywords: IAppxPackageWriter2, IAppxPackageWriter2 interface [App packaging and management], IAppxPackageWriter2 interface [App packaging and management], described, appxpackaging/IAppxPackageWriter2, appxpkg.iappxpackagewriter2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_ARCHITECTURE2
+req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,7 +7,7 @@ old-location: dxmath\xmstoreubyte2.htm
 old-project: dxmath
 ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreUByte2(XMUBYTE2@,XMVECTOR)
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/23/2018
 ms.keywords: DirectX::PackedVector.XMStoreUByte2, XMStoreUByte2, XMStoreUByte2 method [DirectX Math Support APIs], dxmath.xmstoreubyte2
 ms.prod: windows-hardware
 ms.technology: windows-devices

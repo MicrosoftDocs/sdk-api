@@ -7,7 +7,7 @@ old-location: winsock\wspdata_2.htm
 old-project: WinSock
 ms.assetid: 0592aa8f-5fac-4bbd-9fb8-e61d374ad0a6
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/24/2018
 ms.keywords: "*LPWSPDATA, LPWSPDATA, LPWSPDATA structure pointer [Winsock], WSPDATA, WSPDATA structure [Winsock], WSPData, _win32_wspdata_2, winsock.wspdata_2, ws2spi/LPWSPDATA, ws2spi/WSPDATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices

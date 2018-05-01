@@ -7,7 +7,7 @@ old-location: wmp\iwmpsyncdevice3_estimatesyncsize.htm
 old-project: WMP
 ms.assetid: 49b07233-df9d-4fd0-836e-62b992408018
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPSyncDevice3, IWMPSyncDevice3 interface [Windows Media Player], estimateSyncSize method, IWMPSyncDevice3::estimateSyncSize, estimateSyncSize method [Windows Media Player], estimateSyncSize method [Windows Media Player], IWMPSyncDevice3 interface, estimateSyncSize,IWMPSyncDevice3.estimateSyncSize, wmp.iwmpsyncdevice3_estimatesyncsize, wmp/IWMPSyncDevice3::estimateSyncSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

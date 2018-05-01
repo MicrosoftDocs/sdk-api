@@ -7,7 +7,7 @@ old-location: mf\imfsample_setsampletime.htm
 old-project: medfound
 ms.assetid: 59d32002-2f5c-4a94-bd09-fd5a2c005ffc
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 59d32002-2f5c-4a94-bd09-fd5a2c005ffc, IMFSample, IMFSample interface [Media Foundation], SetSampleTime method, IMFSample::SetSampleTime, SetSampleTime method [Media Foundation], SetSampleTime method [Media Foundation], IMFSample interface, SetSampleTime,IMFSample.SetSampleTime, mf.imfsample_setsampletime, mfobjects/IMFSample::SetSampleTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

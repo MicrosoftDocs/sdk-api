@@ -7,7 +7,7 @@ old-location: wmformat\iwmreader_stop.htm
 old-project: wmformat
 ms.assetid: 781d1882-4b48-4415-9b3a-788207b42151
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMReader, IWMReader interface [windows Media Format], Stop method, IWMReader::Stop, IWMReaderStop, Stop method [windows Media Format], Stop method [windows Media Format], IWMReader interface, Stop,IWMReader.Stop, wmformat.iwmreader_stop, wmsdkidl/IWMReader::Stop
 ms.prod: windows-hardware
 ms.technology: windows-devices

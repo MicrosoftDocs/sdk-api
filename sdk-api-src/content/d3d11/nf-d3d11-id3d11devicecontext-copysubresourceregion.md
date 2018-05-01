@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext_copysubresourceregion.htm
 old-project: direct3d11
 ms.assetid: aed89483-9870-445d-96e3-a9cee764f0ad
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/6/2018
 ms.keywords: 4fcc18c3-ca99-b51e-9162-bb8b4121db03, CopySubresourceRegion method [Direct3D 11], CopySubresourceRegion method [Direct3D 11], ID3D11DeviceContext interface, CopySubresourceRegion,ID3D11DeviceContext.CopySubresourceRegion, ID3D11DeviceContext, ID3D11DeviceContext interface [Direct3D 11], CopySubresourceRegion method, ID3D11DeviceContext::CopySubresourceRegion, d3d11/ID3D11DeviceContext::CopySubresourceRegion, direct3d11.id3d11devicecontext_copysubresourceregion
 ms.prod: windows-hardware
 ms.technology: windows-devices

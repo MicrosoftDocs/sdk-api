@@ -7,7 +7,7 @@ old-location: wmp\iwmpevents_iwmpevents__currentmediaitemavailable.htm
 old-project: WMP
 ms.assetid: 8e6e92b7-1916-4628-915b-e9ee0d52fe75
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: CurrentMediaItemAvailable method [Windows Media Player], CurrentMediaItemAvailable method [Windows Media Player], IWMPEvents interface, CurrentMediaItemAvailable,IWMPEvents.CurrentMediaItemAvailable, IWMPEvents, IWMPEvents interface [Windows Media Player], CurrentMediaItemAvailable method, IWMPEvents::CurrentMediaItemAvailable, IWMPEventsCurrentMediaItemAvailable, wmp.iwmpevents_iwmpevents__currentmediaitemavailable, wmp/IWMPEvents::CurrentMediaItemAvailable
 ms.prod: windows-hardware
 ms.technology: windows-devices

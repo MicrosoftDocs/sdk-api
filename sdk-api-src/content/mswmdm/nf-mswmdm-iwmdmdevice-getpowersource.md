@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmdevice_getpowersource.htm
 old-project: WMDM
 ms.assetid: 0e13ac64-69b7-4c44-8690-8fcef6cb354f
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: GetPowerSource method [windows Media Device Manager], GetPowerSource method [windows Media Device Manager], IWMDMDevice interface, GetPowerSource,IWMDMDevice.GetPowerSource, IWMDMDevice, IWMDMDevice interface [windows Media Device Manager], GetPowerSource method, IWMDMDevice::GetPowerSource, IWMDMDeviceGetPowerSource, mswmdm/IWMDMDevice::GetPowerSource, wmdm.iwmdmdevice_getpowersource
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IWMDMDevice::GetPowerSource method

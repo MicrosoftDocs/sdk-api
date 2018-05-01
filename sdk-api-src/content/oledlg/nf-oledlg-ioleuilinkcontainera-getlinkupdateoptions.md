@@ -7,7 +7,7 @@ old-location: com\ioleuilinkcontainer_getlinkupdateoptions.htm
 old-project: com
 ms.assetid: 136894a6-ddf6-4a47-80f5-997625362536
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: GetLinkUpdateOptions method [COM], GetLinkUpdateOptions method [COM], IOleUILinkContainer interface, GetLinkUpdateOptions method [COM], IOleUILinkContainerA interface, GetLinkUpdateOptions method [COM], IOleUILinkContainerW interface, GetLinkUpdateOptions,IOleUILinkContainerA.GetLinkUpdateOptions, IOleUILinkContainer interface [COM], GetLinkUpdateOptions method, IOleUILinkContainer::GetLinkUpdateOptions, IOleUILinkContainerA, IOleUILinkContainerA interface [COM], GetLinkUpdateOptions method, IOleUILinkContainerA::GetLinkUpdateOptions, IOleUILinkContainerW interface [COM], GetLinkUpdateOptions method, IOleUILinkContainerW::GetLinkUpdateOptions, _ole_IOleUILinkContainer_GetLinkUpdateOptions, com.ioleuilinkcontainer_getlinkupdateoptions, oledlg/IOleUILinkContainer::GetLinkUpdateOptions, oledlg/IOleUILinkContainerA::GetLinkUpdateOptions, oledlg/IOleUILinkContainerW::GetLinkUpdateOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IOleUILinkContainerA::GetLinkUpdateOptions method

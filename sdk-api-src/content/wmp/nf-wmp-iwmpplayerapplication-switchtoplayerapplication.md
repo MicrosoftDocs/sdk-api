@@ -7,7 +7,7 @@ old-location: wmp\iwmpplayerapplication_switchtoplayerapplication.htm
 old-project: WMP
 ms.assetid: cf5a77c5-298e-48de-80cd-d7ecd9e74323
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPPlayerApplication, IWMPPlayerApplication interface [Windows Media Player], switchToPlayerApplication method, IWMPPlayerApplication::switchToPlayerApplication, IWMPPlayerApplicationswitchToPlayerApplication, switchToPlayerApplication method [Windows Media Player], switchToPlayerApplication method [Windows Media Player], IWMPPlayerApplication interface, switchToPlayerApplication,IWMPPlayerApplication.switchToPlayerApplication, wmp.iwmpplayerapplication_switchtoplayerapplication, wmp/IWMPPlayerApplication::switchToPlayerApplication
 ms.prod: windows-hardware
 ms.technology: windows-devices

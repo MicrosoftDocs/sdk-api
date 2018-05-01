@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_PropertyItem_Class.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\propertyitem.htm
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/5/2018
 ms.keywords: PropertyItem, PropertyItem class [GDI+], PropertyItem class [GDI+], described, _gdiplus_CLASS_PropertyItem_Class, gdiplus._gdiplus_CLASS_PropertyItem_Class, gdiplusimaging/PropertyItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

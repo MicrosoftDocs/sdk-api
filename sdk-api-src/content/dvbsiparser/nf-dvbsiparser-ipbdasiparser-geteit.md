@@ -7,7 +7,7 @@ old-location: mstv\ipbdasiparser_geteit.htm
 old-project: mstv
 ms.assetid: ab7df40a-6a1c-4017-bece-618fb75797cf
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetEIT method [Microsoft TV Technologies], GetEIT method [Microsoft TV Technologies], IPBDASiParser interface, GetEIT,IPBDASiParser.GetEIT, IPBDASiParser, IPBDASiParser interface [Microsoft TV Technologies], GetEIT method, IPBDASiParser::GetEIT, dshow.ipbdasiparser_geteit, dvbsiparser/IPBDASiParser::GetEIT, mstv.ipbdasiparser_geteit
 ms.prod: windows-hardware
 ms.technology: windows-devices

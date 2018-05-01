@@ -7,7 +7,7 @@ old-location: wmformat\iwmreaderadvanced2_setlogclientid.htm
 old-project: wmformat
 ms.assetid: 818b7a0e-bbf4-42b2-a5a4-75078834c9f6
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMReaderAdvanced2, IWMReaderAdvanced2 interface [windows Media Format], SetLogClientID method, IWMReaderAdvanced2::SetLogClientID, IWMReaderAdvanced2SetLogClientID, SetLogClientID method [windows Media Format], SetLogClientID method [windows Media Format], IWMReaderAdvanced2 interface, SetLogClientID,IWMReaderAdvanced2.SetLogClientID, wmformat.iwmreaderadvanced2_setlogclientid, wmsdkidl/IWMReaderAdvanced2::SetLogClientID
 ms.prod: windows-hardware
 ms.technology: windows-devices

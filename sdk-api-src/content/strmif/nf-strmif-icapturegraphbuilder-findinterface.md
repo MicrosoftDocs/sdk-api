@@ -7,7 +7,7 @@ old-location: dshow\icapturegraphbuilder_findinterface.htm
 old-project: DirectShow
 ms.assetid: 23fe9a5a-0f3b-44b3-9d37-6889214657bf
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: FindInterface method [DirectShow], FindInterface method [DirectShow], ICaptureGraphBuilder interface, FindInterface,ICaptureGraphBuilder.FindInterface, ICaptureGraphBuilder, ICaptureGraphBuilder interface [DirectShow], FindInterface method, ICaptureGraphBuilder::FindInterface, ICaptureGraphBuilderFindInterface, dshow.icapturegraphbuilder_findinterface, strmif/ICaptureGraphBuilder::FindInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices

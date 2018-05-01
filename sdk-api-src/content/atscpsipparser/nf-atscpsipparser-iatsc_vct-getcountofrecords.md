@@ -7,7 +7,7 @@ old-location: mstv\iatsc_vct_getcountofrecords.htm
 old-project: mstv
 ms.assetid: a6a9f998-f8a8-4459-91f8-aa4a5206d190
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies], IATSC_VCT interface, GetCountOfRecords,IATSC_VCT.GetCountOfRecords, IATSC_VCT, IATSC_VCT interface [Microsoft TV Technologies], GetCountOfRecords method, IATSC_VCT::GetCountOfRecords, IATSC_VCTGetCountOfRecords, atscpsipparser/IATSC_VCT::GetCountOfRecords, mstv.iatsc_vct_getcountofrecords
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_WRITER_PAYLOAD_STREAM
+req.typenames: AsyncStatus
 topic_type:
 -	APIRef
 -	kbSyntax

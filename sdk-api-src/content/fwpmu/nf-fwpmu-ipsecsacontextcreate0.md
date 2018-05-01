@@ -7,7 +7,7 @@ old-location: fwp\ipsecsacontextcreate0.htm
 old-project: FWP
 ms.assetid: 50b85c07-2e21-4c89-928b-8954348b9aba
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: IPsecSaContextCreate0, IPsecSaContextCreate0 function [Filtering], fwp.ipsecsacontextcreate0, fwpmu/IPsecSaContextCreate0
 ms.prod: windows-hardware
 ms.technology: windows-devices

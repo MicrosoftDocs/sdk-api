@@ -7,7 +7,7 @@ old-location: com\cowaitformultipleobjects.htm
 old-project: com
 ms.assetid: 7A14E4F4-20F0-43FF-8D64-9AAC34B8D56F
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: CoWaitForMultipleObjects, CoWaitForMultipleObjects function [COM], com.cowaitformultipleobjects, combaseapi/CoWaitForMultipleObjects
 ms.prod: windows-hardware
 ms.technology: windows-devices

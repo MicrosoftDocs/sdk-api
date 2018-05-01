@@ -7,7 +7,7 @@ old-location: dshow\avistreamheader.htm
 old-project: DirectShow
 ms.assetid: f07c28ac-2dd0-428a-a94a-32aec2bb0854
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: "'auds', 'mids', 'txts', 'vids', AVISF_DISABLED, AVISF_VIDEO_PALCHANGES, AVISTREAMHEADER, AVISTREAMHEADER structure [DirectShow], AVISTREAMHEADERStructure, _avistreamheader, avifmt/AVISTREAMHEADER, dshow.avistreamheader"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,20 +59,14 @@ req.irql:
 
 
 
-### -field rcFrame
-
-Specifies the destination rectangle for a text or video stream within the movie rectangle specified by the <b>dwWidth</b> and <b>dwHeight</b> members of the AVI main header structure. The <b>rcFrame</b> member is typically used in support of multiple video streams. Set this rectangle to the coordinates corresponding to the movie rectangle to update the whole movie rectangle. Units for this member are pixels. The upper-left corner of the destination rectangle is relative to the upper-left corner of the movie rectangle.
-          
-
-
-### -field fcc
+#### - fcc
 
 
             Specifies a FOURCC code. The value must be 'strh'.
           
 
 
-### -field cb
+#### - cb
 
 
             Specifies the size of the structure, not including the initial 8 bytes.
@@ -236,6 +230,12 @@ Specifies the length of this stream. The units are defined by the <b>dwRate</b> 
 
 
             Specifies the size of a single sample of data. This is set to zero if the samples can vary in size. If this number is nonzero, then multiple samples of data can be grouped into a single chunk within the file. If it is zero, each sample of data (such as a video frame) must be in a separate chunk. For video streams, this number is typically zero, although it can be nonzero if all video frames are the same size. For audio streams, this number should be the same as the <b>nBlockAlign</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff538799">WAVEFORMATEX</a> structure describing the audio.
+          
+
+
+### -field rcFrame
+
+Specifies the destination rectangle for a text or video stream within the movie rectangle specified by the <b>dwWidth</b> and <b>dwHeight</b> members of the AVI main header structure. The <b>rcFrame</b> member is typically used in support of multiple video streams. Set this rectangle to the coordinates corresponding to the movie rectangle to update the whole movie rectangle. Units for this member are pixels. The upper-left corner of the destination rectangle is relative to the upper-left corner of the movie rectangle.
           
 
 

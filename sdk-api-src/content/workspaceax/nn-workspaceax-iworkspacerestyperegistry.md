@@ -7,7 +7,7 @@ old-location: termserv\iworkspacerestyperegistry.htm
 old-project: TermServ
 ms.assetid: bea617a0-cd64-4c77-af27-b418178e3dad
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: IWorkspaceResTypeRegistry, IWorkspaceResTypeRegistry interface [Remote Desktop Services], IWorkspaceResTypeRegistry interface [Remote Desktop Services], described, termserv.iworkspacerestyperegistry, workspaceax/IWorkspaceResTypeRegistry
 ms.prod: windows-hardware
 ms.technology: windows-devices

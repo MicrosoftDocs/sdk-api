@@ -7,7 +7,7 @@ old-location: mstv\impeg2component_get_pid.htm
 old-project: mstv
 ms.assetid: 7d6b0b2f-fe48-4fc5-bb3b-639bb8ee2df8
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMPEG2Component, IMPEG2Component interface [Microsoft TV Technologies], get_PID method, IMPEG2Component::get_PID, IMPEG2Componentget_PID, get_PID method [Microsoft TV Technologies], get_PID method [Microsoft TV Technologies], IMPEG2Component interface, get_PID,IMPEG2Component.get_PID, mstv.impeg2component_get_pid, tuner/IMPEG2Component::get_PID
 ms.prod: windows-hardware
 ms.technology: windows-devices

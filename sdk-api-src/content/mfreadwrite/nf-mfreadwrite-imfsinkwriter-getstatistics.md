@@ -7,7 +7,7 @@ old-location: mf\imfsinkwriter_getstatistics.htm
 old-project: medfound
 ms.assetid: 84028b1d-3843-4289-a04c-3039311d095b
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetStatistics method [Media Foundation], GetStatistics method [Media Foundation], IMFSinkWriter interface, GetStatistics,IMFSinkWriter.GetStatistics, IMFSinkWriter, IMFSinkWriter interface [Media Foundation], GetStatistics method, IMFSinkWriter::GetStatistics, mf.imfsinkwriter_getstatistics, mfreadwrite/IMFSinkWriter::GetStatistics
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\iresourcemanager_setfocus.htm
 old-project: DirectShow
 ms.assetid: 3d0a87e1-6774-45cf-9ab5-18ec1d2fff0d
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IResourceManager, IResourceManager interface [DirectShow], SetFocus method, IResourceManager::SetFocus, IResourceManagerSetFocus, SetFocus method [DirectShow], SetFocus method [DirectShow], IResourceManager interface, SetFocus,IResourceManager.SetFocus, dshow.iresourcemanager_setfocus, strmif/IResourceManager::SetFocus
 ms.prod: windows-hardware
 ms.technology: windows-devices

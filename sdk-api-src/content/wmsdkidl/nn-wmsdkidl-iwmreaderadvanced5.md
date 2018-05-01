@@ -7,7 +7,7 @@ old-location: wmformat\iwmreaderadvanced5.htm
 old-project: wmformat
 ms.assetid: 28d697d8-99b5-4968-a765-ba01b86914f6
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMReaderAdvanced5, IWMReaderAdvanced5 interface [windows Media Format], IWMReaderAdvanced5 interface [windows Media Format], described, IWMReaderAdvanced5Interface, wmformat.iwmreaderadvanced5, wmsdkidl/IWMReaderAdvanced5
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,14 +1,14 @@
 ---
 UID: NS:windns.__unnamed_struct_29
-title: DNS_SRV_DATAW
+title: DNS_NXT_DATAA
 author: windows-driver-content
-description: The DNS_SRV_DATA structure represents a DNS service (SRV) record as specified in RFC 2782.
-old-location: dns\dns_srv_data.htm
+description: The DNS_NXT_DATA structure represents a DNS next (NXT) resource record (RR) as specified in section 5 of RFC 2535.
+old-location: dns\dns_nxt_data.htm
 old-project: DNS
-ms.assetid: 212db7ac-a5e3-4e58-b1c2-0eb551403dfc
+ms.assetid: 0e5370c2-30d3-4bb7-85a0-f4412f5572fd
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
-ms.keywords: "*PDNS_SRV_DATA, *PDNS_SRV_DATAW, DNS_SRV_DATA, DNS_SRV_DATA structure [DNS], DNS_SRV_DATAW, PDNS_SRV_DATA, PDNS_SRV_DATA structure pointer [DNS], _dns_dns_srv_data, dns.dns_srv_data, windns/DNS_SRV_DATA, windns/PDNS_SRV_DATA"
+ms.date: 4/18/2018
+ms.keywords: "*PDNS_NXT_DATA, *PDNS_NXT_DATAA, DNS_NXT_DATA, DNS_NXT_DATA structure [DNS], DNS_NXT_DATAA, PDNS_NXT_DATA, PDNS_NXT_DATA structure pointer [DNS], _dns_dns_nxt_data, dns.dns_nxt_data, windns/DNS_NXT_DATA, windns/PDNS_NXT_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: DNS_SRV_DATAW, *PDNS_SRV_DATAW
+req.typenames: DNS_NXT_DATAA, *PDNS_NXT_DATAA
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	Windns.h
 api_name:
--	DNS_SRV_DATA
+-	DNS_NXT_DATA
 product: Windows
 targetos: Windows
 req.lib: 
@@ -44,14 +44,14 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# DNS_SRV_DATAW structure
+# DNS_NXT_DATAA structure
 
 
 ## -description
 
 
 The 
-<b>DNS_SRV_DATA</b> structure represents a DNS service (SRV) record as specified in <a href="http://go.microsoft.com/fwlink/p/?linkid=90381">RFC 2782</a>.
+<b>DNS_NXT_DATA</b> structure represents a DNS next (NXT) resource record (RR) as specified in section 5 of <a href="http://go.microsoft.com/fwlink/p/?linkid=124775">RFC 2535</a>.
 
 
 ## -struct-fields
@@ -59,29 +59,19 @@ The
 
 
 
-### -field pNameTarget
+### -field pNameNext
 
-A pointer to a string that represents the target host.
-
-
-### -field wPriority
-
-The priority of the target host specified in <b>pNameTarget</b>. Lower numbers imply higher priority to clients attempting to use this service.
+A pointer to a string that represents the name of the next domain.
 
 
-### -field wWeight
+### -field wNumTypes
 
-The relative weight of the target host in <b>pNameTarget</b> to other hosts with the same <b>wPriority</b>. The chances of using this host should be proportional to its weight.
-
-
-### -field wPort
-
-The port used on the target host for this service.
+The number of elements in the <b>wTypes</b> array. <b>wNumTypes</b> must be 2 or greater but cannot exceed 8.
 
 
-### -field Pad
+### -field wTypes
 
-Reserved for padding. Do not use.
+A <b>BYTE</b> array that contains a bitmap which specifies the RR types that are present  in the next domain. Each bit in the array corresponds to a <a href="https://msdn.microsoft.com/95bc9193-7962-498a-9abd-c4718ac35f0f">DNS Record Type</a> as defined in section 5.2 of <a href="http://go.microsoft.com/fwlink/p/?linkid=124775">RFC 2535</a>.
 
 
 ## -remarks
@@ -89,7 +79,7 @@ Reserved for padding. Do not use.
 
 
 The 
-<b>DNS_SRV_DATA</b> structure is used in conjunction with the 
+<b>DNS_NXT_DATA</b> structure is used in conjunction with the 
 <a href="https://msdn.microsoft.com/ab7b96a5-346f-4e01-bb2a-885f44764590">DNS_RECORD</a> structure to programmatically manage DNS entries.
 
 

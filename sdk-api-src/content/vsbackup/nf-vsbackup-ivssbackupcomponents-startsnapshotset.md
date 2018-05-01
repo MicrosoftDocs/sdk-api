@@ -7,7 +7,7 @@ old-location: base\ivssbackupcomponents_startsnapshotset.htm
 old-project: VSS
 ms.assetid: 6a0a6228-2131-48a6-8d18-9491969d265b
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: IVssBackupComponents, IVssBackupComponents interface [VSS], StartSnapshotSet method, IVssBackupComponents::StartSnapshotSet, StartSnapshotSet method [VSS], StartSnapshotSet method [VSS], IVssBackupComponents interface, StartSnapshotSet,IVssBackupComponents.StartSnapshotSet, _win32_ivssbackupcomponents_startsnapshotset, base.ivssbackupcomponents_startsnapshotset, vsbackup/IVssBackupComponents::StartSnapshotSet
 ms.prod: windows-hardware
 ms.technology: windows-devices

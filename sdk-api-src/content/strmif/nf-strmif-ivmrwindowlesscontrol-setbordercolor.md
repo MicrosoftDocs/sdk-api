@@ -7,7 +7,7 @@ old-location: dshow\ivmrwindowlesscontrol_setbordercolor.htm
 old-project: DirectShow
 ms.assetid: d58ce18f-ddc4-4d91-b086-8829056f4508
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IVMRWindowlessControl, IVMRWindowlessControl interface [DirectShow], SetBorderColor method, IVMRWindowlessControl::SetBorderColor, IVMRWindowlessControlSetBorderColor, SetBorderColor method [DirectShow], SetBorderColor method [DirectShow], IVMRWindowlessControl interface, SetBorderColor,IVMRWindowlessControl.SetBorderColor, dshow.ivmrwindowlesscontrol_setbordercolor, strmif/IVMRWindowlessControl::SetBorderColor
 ms.prod: windows-hardware
 ms.technology: windows-devices

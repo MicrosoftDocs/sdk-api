@@ -7,7 +7,7 @@ old-location: setup\merge_closelog.htm
 old-project: Msi
 ms.assetid: 09a40de4-d92f-4fc8-8556-a50f5dbe856b
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/26/2018
 ms.keywords: CloseLog, CloseLog method, CloseLog method, Merge class, Merge class, CloseLog method, _msi_closelog_method, setup.merge_closelog
 ms.prod: windows-hardware
 ms.technology: windows-devices

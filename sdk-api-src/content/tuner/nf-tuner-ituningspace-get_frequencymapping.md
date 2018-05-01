@@ -7,7 +7,7 @@ old-location: mstv\ituningspace_get_frequencymapping.htm
 old-project: mstv
 ms.assetid: 86f6f991-7ba6-4dcc-86bd-03e44c799c22
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: ITuningSpace, ITuningSpace interface [Microsoft TV Technologies], get_FrequencyMapping method, ITuningSpace::get_FrequencyMapping, ITuningSpaceget_FrequencyMapping, get_FrequencyMapping method [Microsoft TV Technologies], get_FrequencyMapping method [Microsoft TV Technologies], ITuningSpace interface, get_FrequencyMapping,ITuningSpace.get_FrequencyMapping, mstv.ituningspace_get_frequencymapping, tuner/ITuningSpace::get_FrequencyMapping
 ms.prod: windows-hardware
 ms.technology: windows-devices

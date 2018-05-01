@@ -7,7 +7,7 @@ old-location: security\addcredential.htm
 old-project: SecAuthN
 ms.assetid: ea6ddd18-818e-43f5-9453-de2b3f994325
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/24/2018
 ms.keywords: AddCredential, AddCredential function [Security], LSA_ADD_CREDENTIAL, _lsa_addcredential, ntsecpkg/AddCredential, security.addcredential
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # LSA_ADD_CREDENTIAL callback

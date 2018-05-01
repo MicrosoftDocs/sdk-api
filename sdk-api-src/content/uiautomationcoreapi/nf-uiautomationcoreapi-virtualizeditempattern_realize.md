@@ -7,7 +7,7 @@ old-location: winauto\uiauto_VirtualizedItemPattern_Realize.htm
 old-project: WinAuto
 ms.assetid: 2da859ce-68d2-41b5-8281-6b8346f992f9
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: VirtualizedItemPattern_Realize, VirtualizedItemPattern_Realize function [Windows Accessibility], uiauto.uiauto_VirtualizedItemPattern_Realize, uiauto_VirtualizedItemPattern_Realize, uiautomationcoreapi/VirtualizedItemPattern_Realize, winauto.uiauto_VirtualizedItemPattern_Realize
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\IShellWindows_OnNavigate.htm
 old-project: shell
 ms.assetid: b65bc979-db32-48b3-b71f-fd389957b265
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IShellWindows, IShellWindows interface [Windows Shell], OnNavigate method, IShellWindows::OnNavigate, OnNavigate method [Windows Shell], OnNavigate method [Windows Shell], IShellWindows interface, OnNavigate,IShellWindows.OnNavigate, _win32_IShellWindows_OnNavigate, exdisp/IShellWindows::OnNavigate, shell.IShellWindows_OnNavigate
 ms.prod: windows-hardware
 ms.technology: windows-devices

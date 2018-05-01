@@ -7,7 +7,7 @@ old-location: tapi3\itqueue_get_currentlongestwaittime.htm
 old-project: Tapi
 ms.assetid: f3334932-2029-4e10-a12c-605697a2bb36
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: ITQueue, ITQueue interface [TAPI 2.2], get_CurrentLongestWaitTime method, ITQueue::get_CurrentLongestWaitTime, _tapi3_itqueue_get_currentlongestwaittime, get_CurrentLongestWaitTime method [TAPI 2.2], get_CurrentLongestWaitTime method [TAPI 2.2], ITQueue interface, get_CurrentLongestWaitTime,ITQueue.get_CurrentLongestWaitTime, tapi3.itqueue_get_currentlongestwaittime, tapi3cc/ITQueue::get_CurrentLongestWaitTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

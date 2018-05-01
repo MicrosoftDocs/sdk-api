@@ -1,0 +1,134 @@
+---
+UID: NF:winddi.EngDebugPrint
+title: EngDebugPrint function
+author: windows-driver-content
+description: The EngDebugPrint function prints the specified debug message to the kernel debugger.
+old-location: display\engdebugprint.htm
+old-project: display
+ms.assetid: 2480adec-68b6-4ffe-8b20-2ca7cb1a4d79
+ms.author: windowsdriverdev
+ms.date: 4/16/2018
+ms.keywords: EngDebugPrint, EngDebugPrint function [Display Devices], display.engdebugprint, gdifncs_e3529861-721f-41f3-aedc-12ef88353b24.xml, winddi/EngDebugPrint
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: winddi.h
+req.include-header: Winddi.h
+req.target-type: Universal
+req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Win32k.sys
+api_name:
+-	EngDebugPrint
+product: Windows
+targetos: Windows
+req.lib: Win32k.lib
+req.dll: Win32k.sys
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# EngDebugPrint function
+
+
+## -description
+
+
+The <b>EngDebugPrint</b> function prints the specified debug message to the kernel debugger.
+
+
+## -parameters
+
+
+
+
+### -param StandardPrefix [in]
+
+Pointer to a string that is prepended to <i>DebugMessage</i>.
+
+
+### -param DebugMessage [in]
+
+Pointer to a string containing the debug message to be printed.
+
+
+### -param ap [in]
+
+Specifies the variable argument list.
+
+
+## -returns
+
+
+
+None
+
+
+
+
+## -remarks
+
+
+
+<b>EngDebugPrint</b> is useful for debugging drivers that are under development. It prints <i>StandardPrefix</i>, followed by <i>DebugMessage</i>, to the kernel debugger.
+
+The <i>StandardPrefix</i> parameter acts as a unique identifier of the driver executing the debug statement; therefore, the same string should be used for all calls to <b>EngDebugPrint</b> by a single driver.
+
+The <i>DebugMessage</i> parameter is a variable argument ASCII C string; that is, it can contain both ordinary characters and C-style conversion specifications. The argument list contained in <i>ap</i> can have any number of arguments of any type in it.
+
+An example use of <b>EngDebugPrint</b> follows:
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>#define STANDARD_DEBUG_PREFIX     "Permedia: "
+LONG bank;
+LONG width;
+...
+VOID MyDebugPrint(PCHAR DebugMessage, ...)
+{
+    va_list ap;
+
+    va_start(ap, DebugMessage);
+    EngDebugPrint(STANDARD_DEBUG_PREFIX, DebugMessage, ap);
+    va_end(ap);
+}
+...
+MyDebugPrint("Bank: %lx; Width: %ld", bank, width);</pre>
+</td>
+</tr>
+</table></span></div>
+<div class="alert"><b>Note</b>    The Microsoft Windows Driver Kit (WDK) does not contain the Permedia (<i>3dlabs.htm</i> and <i>Perm3.htm</i>) and FrameBuffer (<i>Framebuf.htm) </i>sample display drivers. You can get these sample drivers from the Windows Server 2003 SP1 Driver Development Kit (DDK), which you can download from the <a href="http://go.microsoft.com/fwlink/p/?linkid=21859">DDK - Windows Driver Development Kit</a> page of the WDHC website.</div>
+<div> </div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564773">EngDebugBreak</a>
+ 
+
+ 
+

@@ -7,7 +7,7 @@ old-location: security\iazrole_addappmember.htm
 old-project: SecAuthZ
 ms.assetid: 118387f8-a422-4a8d-9d12-a5b5ee1e7b06
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: AddAppMember method [Security], AddAppMember method [Security], AzRole object, AddAppMember method [Security], IAzRole interface, AddAppMember,IAzRole.AddAppMember, AzRole object [Security], AddAppMember method, IAzRole, IAzRole interface [Security], AddAppMember method, IAzRole::AddAppMember, azroles/IAzRole::AddAppMember, security.iazrole_addappmember
 ms.prod: windows-hardware
 ms.technology: windows-devices

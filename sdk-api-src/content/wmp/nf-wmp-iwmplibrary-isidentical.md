@@ -7,7 +7,7 @@ old-location: wmp\iwmplibrary_isidentical.htm
 old-project: WMP
 ms.assetid: af121fc7-6a9a-4c1a-bea4-433e62ca19e3
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPLibrary, IWMPLibrary interface [Windows Media Player], isIdentical method, IWMPLibrary::isIdentical, IWMPLibraryisIdentical, isIdentical method [Windows Media Player], isIdentical method [Windows Media Player], IWMPLibrary interface, isIdentical,IWMPLibrary.isIdentical, wmp.iwmplibrary_isidentical, wmp/IWMPLibrary::isIdentical
 ms.prod: windows-hardware
 ms.technology: windows-devices

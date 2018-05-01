@@ -7,7 +7,7 @@ old-location: tapi2\linequeueentry.htm
 old-project: Tapi
 ms.assetid: b05eb100-2a43-421f-826b-c37d05e4ef14
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: "*LPLINEQUEUEENTRY, LINEQUEUEENTRY, LINEQUEUEENTRY structure [TAPI 2.2], LPLINEQUEUEENTRY, LPLINEQUEUEENTRY structure pointer [TAPI 2.2], _tapi2_linequeueentry, linequeueentry_tag, tapi/LINEQUEUEENTRY, tapi/LPLINEQUEUEENTRY, tapi2.linequeueentry"
 ms.prod: windows-hardware
 ms.technology: windows-devices

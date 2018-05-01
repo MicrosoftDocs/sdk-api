@@ -7,7 +7,7 @@ old-location: wmi\cinstance_getvariant.htm
 old-project: WmiSdk
 ms.assetid: 84160043-bb63-422b-99be-3f55df4c15be
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: "?GetVariant@CInstance@@QBE_NPBGAAUtagVARIANT@@@Z, CInstance, CInstance interface [Windows Management Instrumentation], GetVariant method, CInstance::GetVariant, GetVariant method [Windows Management Instrumentation], GetVariant method [Windows Management Instrumentation], CInstance interface, GetVariant,CInstance.GetVariant, _hmm_cinstance_getvariant, instance/CInstance::GetVariant, wmi.cinstance_getvariant"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: InputScope
+req.typenames: TrustLevel
 topic_type:
 -	APIRef
 -	kbSyntax

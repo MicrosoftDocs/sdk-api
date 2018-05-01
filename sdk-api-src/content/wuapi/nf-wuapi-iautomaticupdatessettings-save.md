@@ -7,7 +7,7 @@ old-location: wua\iautomaticupdatessettings_save.htm
 old-project: Wua_Sdk
 ms.assetid: fb54b900-345a-4b36-b16d-52790c0266f6
 ms.author: windowsdriverdev
-ms.date: 3/15/2018
+ms.date: 4/18/2018
 ms.keywords: IAutomaticUpdatesSettings, IAutomaticUpdatesSettings interface [Windows Update Agent], Save method, IAutomaticUpdatesSettings::Save, Save method [Windows Update Agent], Save method [Windows Update Agent], IAutomaticUpdatesSettings interface, Save,IAutomaticUpdatesSettings.Save, wua.iautomaticupdatessettings_save, wuapi/IAutomaticUpdatesSettings::Save
 ms.prod: windows-hardware
 ms.technology: windows-devices

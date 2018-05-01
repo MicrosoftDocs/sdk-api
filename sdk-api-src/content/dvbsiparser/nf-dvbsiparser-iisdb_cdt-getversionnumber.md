@@ -7,7 +7,7 @@ old-location: mstv\iisdb_cdt_getversionnumber.htm
 old-project: mstv
 ms.assetid: 4c88ecdb-8e01-4fec-96f2-c67331b6d071
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetVersionNumber method [Microsoft TV Technologies], GetVersionNumber method [Microsoft TV Technologies], IISDB_CDT interface, GetVersionNumber,IISDB_CDT.GetVersionNumber, IISDB_CDT, IISDB_CDT interface [Microsoft TV Technologies], GetVersionNumber method, IISDB_CDT::GetVersionNumber, dvbsiparser/IISDB_CDT::GetVersionNumber, mstv.iisdb_cdt_getversionnumber
 ms.prod: windows-hardware
 ms.technology: windows-devices

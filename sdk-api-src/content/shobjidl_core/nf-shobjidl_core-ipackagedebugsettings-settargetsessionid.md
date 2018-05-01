@@ -7,7 +7,7 @@ old-location: winrt\ipackagedebugsettings_settargetsessionid.htm
 old-project: WinRT
 ms.assetid: 8b262ac9-2e15-48d5-ad09-8b46234601e6
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/24/2018
 ms.keywords: IPackageDebugSettings, IPackageDebugSettings interface [Windows Runtime], SetTargetSessionId method, IPackageDebugSettings::SetTargetSessionId, SetTargetSessionId method [Windows Runtime], SetTargetSessionId method [Windows Runtime], IPackageDebugSettings interface, SetTargetSessionId,IPackageDebugSettings.SetTargetSessionId, shobjidl_core/IPackageDebugSettings::SetTargetSessionId, winrt.ipackagedebugsettings_settargetsessionid
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\sleepconditionvariablecs.htm
 old-project: Sync
 ms.assetid: af435aef-710a-4f97-bcfd-dcb7f2ec0253
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: SleepConditionVariableCS, SleepConditionVariableCS function, base.sleepconditionvariablecs, synchapi/SleepConditionVariableCS, winbase/SleepConditionVariableCS
 ms.prod: windows-hardware
 ms.technology: windows-devices

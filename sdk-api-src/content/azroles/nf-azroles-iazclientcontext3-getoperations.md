@@ -7,7 +7,7 @@ old-location: security\iazclientcontext3_getoperations_method.htm
 old-project: SecAuthZ
 ms.assetid: 0f5c7e2d-e88d-4236-888c-9bf5a425713c
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: GetOperations method [Security], GetOperations method [Security], IAzClientContext3 interface, GetOperations,IAzClientContext3.GetOperations, IAzClientContext3, IAzClientContext3 interface [Security], GetOperations method, IAzClientContext3::GetOperations, azroles/IAzClientContext3::GetOperations, security.iazclientcontext3_getoperations_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

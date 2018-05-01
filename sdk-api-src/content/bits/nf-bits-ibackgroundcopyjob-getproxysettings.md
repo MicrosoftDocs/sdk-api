@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyjob_getproxysettings.htm
 old-project: Bits
 ms.assetid: c2d0ec9b-eaa1-4f78-9ccc-4e91d045cd94
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/10/2018
 ms.keywords: GetProxySettings method [BITS], GetProxySettings method [BITS], IBackgroundCopyJob interface, GetProxySettings,IBackgroundCopyJob.GetProxySettings, IBackgroundCopyJob, IBackgroundCopyJob interface [BITS], GetProxySettings method, IBackgroundCopyJob::GetProxySettings, _drz_ibackgroundcopyjob_getproxysettings, bits.ibackgroundcopyjob_getproxysettings, bits/IBackgroundCopyJob::GetProxySettings
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_STRUC_GdiplusStartupInput.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\structures\gdiplusstartupinput.htm
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/5/2018
 ms.keywords: GdiplusStartupInput, GdiplusStartupInput structure [GDI+], _gdiplus_STRUC_GdiplusStartupInput, gdiplus._gdiplus_STRUC_GdiplusStartupInput, gdiplusinit/GdiplusStartupInput
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -92,7 +92,7 @@ Boolean value that specifies whether you want GDI+ to suppress external image co
 
 The <b>GdiplusStartupInput</b> structure provides a constructor that sets the <b>GdiplusVersion</b> member to 1 and allows you to specify values for the other three members. All of the constructor parameters are optional, so you can declare a variable of type <b>GdiplusStartupInput</b> without passing any arguments to the constructor, and all of the members will be initialized with appropriate default values.
 
-If you set the <b>SuppressBackgroundThread</b> member of the <a href="https://msdn.microsoft.com/3748a252-db65-4471-8345-ab0c136c5a21">GdiplusStartup</a> <i>input</i> parameter to <b>TRUE</b>, you must call the hook and unhook functions returned in the <i>output</i> parameter. Call those functions before and after the application's main message loop; that is, a message loop that is active for the lifetime of GDI+. Call the hook function before the loop starts, and call the unhook function after the loop ends.
+If you set the <b>SuppressBackgroundThread</b> member of the <a href="https://msdn.microsoft.com/3748a252-db65-4471-8345-ab0c136c5a21">GdiplusStartup</a>Â <i>input</i> parameter to <b>TRUE</b>, you must call the hook and unhook functions returned in the <i>output</i> parameter. Call those functions before and after the application's main message loop; that is, a message loop that is active for the lifetime of GDI+. Call the hook function before the loop starts, and call the unhook function after the loop ends.
 
 
 

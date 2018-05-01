@@ -7,7 +7,7 @@ old-location: dshow\iamanalogvideodecoder_get_horizontallocked.htm
 old-project: DirectShow
 ms.assetid: c3923440-8770-42f1-a8f3-afa2e8a512d5
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMAnalogVideoDecoder, IAMAnalogVideoDecoder interface [DirectShow], get_HorizontalLocked method, IAMAnalogVideoDecoder::get_HorizontalLocked, IAMAnalogVideoDecoderget_HorizontalLocked, dshow.iamanalogvideodecoder_get_horizontallocked, get_HorizontalLocked method [DirectShow], get_HorizontalLocked method [DirectShow], IAMAnalogVideoDecoder interface, get_HorizontalLocked,IAMAnalogVideoDecoder.get_HorizontalLocked, strmif/IAMAnalogVideoDecoder::get_HorizontalLocked
 ms.prod: windows-hardware
 ms.technology: windows-devices

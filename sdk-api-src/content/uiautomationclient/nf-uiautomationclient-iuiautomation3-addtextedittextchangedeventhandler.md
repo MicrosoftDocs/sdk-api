@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomation3_AddTextEditTextChangedEventHandler.h
 old-project: WinAuto
 ms.assetid: E4FBD04E-2E0B-6B87-F589-C3214EF54E5F
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: AddTextEditTextChangedEventHandler method [Windows Accessibility], AddTextEditTextChangedEventHandler method [Windows Accessibility], IUIAutomation3 interface, AddTextEditTextChangedEventHandler,IUIAutomation3.AddTextEditTextChangedEventHandler, IUIAutomation3, IUIAutomation3 interface [Windows Accessibility], AddTextEditTextChangedEventHandler method, IUIAutomation3::AddTextEditTextChangedEventHandler, uiautomationclient/IUIAutomation3::AddTextEditTextChangedEventHandler, winauto.uiauto_IUIAutomation3_AddTextEditTextChangedEventHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\imfasfmutualexclusion_removestreamfromrecord.htm
 old-project: medfound
 ms.assetid: d92c022c-3241-4296-9572-62b43c6e79cb
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFASFMutualExclusion, IMFASFMutualExclusion interface [Media Foundation], RemoveStreamFromRecord method, IMFASFMutualExclusion::RemoveStreamFromRecord, RemoveStreamFromRecord method [Media Foundation], RemoveStreamFromRecord method [Media Foundation], IMFASFMutualExclusion interface, RemoveStreamFromRecord,IMFASFMutualExclusion.RemoveStreamFromRecord, d92c022c-3241-4296-9572-62b43c6e79cb, mf.imfasfmutualexclusion_removestreamfromrecord, wmcontainer/IMFASFMutualExclusion::RemoveStreamFromRecord
 ms.prod: windows-hardware
 ms.technology: windows-devices

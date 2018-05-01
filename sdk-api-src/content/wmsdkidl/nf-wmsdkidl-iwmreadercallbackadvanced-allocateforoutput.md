@@ -7,7 +7,7 @@ old-location: wmformat\iwmreadercallbackadvanced_allocateforoutput.htm
 old-project: wmformat
 ms.assetid: bd7340c9-9380-4dba-b8ac-2a616ce9949f
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: AllocateForOutput method [windows Media Format], AllocateForOutput method [windows Media Format], IWMReaderCallbackAdvanced interface, AllocateForOutput,IWMReaderCallbackAdvanced.AllocateForOutput, IWMReaderCallbackAdvanced, IWMReaderCallbackAdvanced interface [windows Media Format], AllocateForOutput method, IWMReaderCallbackAdvanced::AllocateForOutput, IWMReaderCallbackAdvancedAllocateForOutput, wmformat.iwmreadercallbackadvanced_allocateforoutput, wmsdkidl/IWMReaderCallbackAdvanced::AllocateForOutput
 ms.prod: windows-hardware
 ms.technology: windows-devices

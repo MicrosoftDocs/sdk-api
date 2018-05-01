@@ -7,7 +7,7 @@ old-location: mstv\istreambufferconfigure2_setmultiplexedpacketsize.htm
 old-project: mstv
 ms.assetid: 9133331b-cf0c-4dfb-8bb6-101742d194c7
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IStreamBufferConfigure2, IStreamBufferConfigure2 interface [Microsoft TV Technologies], SetMultiplexedPacketSize method, IStreamBufferConfigure2::SetMultiplexedPacketSize, IStreamBufferConfigure2SetMultiplexedPacketSize, SetMultiplexedPacketSize method [Microsoft TV Technologies], SetMultiplexedPacketSize method [Microsoft TV Technologies], IStreamBufferConfigure2 interface, SetMultiplexedPacketSize,IStreamBufferConfigure2.SetMultiplexedPacketSize, mstv.istreambufferconfigure2_setmultiplexedpacketsize, sbe/IStreamBufferConfigure2::SetMultiplexedPacketSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IStreamBufferConfigure2::SetMultiplexedPacketSize method

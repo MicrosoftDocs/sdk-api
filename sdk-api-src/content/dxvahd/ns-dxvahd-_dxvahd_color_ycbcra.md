@@ -7,7 +7,7 @@ old-location: mf\dxvahd_color_ycbcra.htm
 old-project: medfound
 ms.assetid: 3e37daf1-5529-4042-ab6e-89a7f77d5e15
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: DXVAHD_COLOR_YCbCrA, DXVAHD_COLOR_YCbCrA structure [Media Foundation], _DXVAHD_COLOR_YCbCrA, dxvahd/DXVAHD_COLOR_YCbCrA, mf.dxvahd_color_ycbcra
 ms.prod: windows-hardware
 ms.technology: windows-devices

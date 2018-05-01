@@ -7,7 +7,7 @@ old-location: dshow\ideferredcommand.htm
 old-project: DirectShow
 ms.assetid: 8161932a-16aa-4700-b91d-b4d8948ad59f
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IDeferredCommand, IDeferredCommand interface [DirectShow], IDeferredCommand interface [DirectShow], described, IDeferredCommandInterface, control/IDeferredCommand, dshow.ideferredcommand
 ms.prod: windows-hardware
 ms.technology: windows-devices

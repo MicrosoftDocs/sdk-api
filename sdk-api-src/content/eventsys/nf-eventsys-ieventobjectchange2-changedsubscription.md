@@ -7,7 +7,7 @@ old-location: cos\ieventobjectchange2_changedsubscription.htm
 old-project: cossdk
 ms.assetid: 848d5af0-53aa-4ba4-9b21-0caf8e85d01d
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: ChangedSubscription method [COM+], ChangedSubscription method [COM+], IEventObjectChange2 interface, ChangedSubscription,IEventObjectChange2.ChangedSubscription, IEventObjectChange2, IEventObjectChange2 interface [COM+], ChangedSubscription method, IEventObjectChange2::ChangedSubscription, _cos_ieventobjectchange2_changedsubscription, cos.ieventobjectchange2_changedsubscription, eventsys/IEventObjectChange2::ChangedSubscription
 ms.prod: windows-hardware
 ms.technology: windows-devices

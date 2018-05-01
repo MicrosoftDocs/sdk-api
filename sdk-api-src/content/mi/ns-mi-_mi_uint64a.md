@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_uint64a.htm
 old-project: wmi_v2
 ms.assetid: 8bf5a9cc-e9ce-4b83-a902-e5dfcfca7b6a
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/18/2018
 ms.keywords: MI_Uint64A, MI_Uint64A structure [Windows Management Infrastructure (MI)], _MI_Uint64A, mi/MI_Uint64A, wmi._mi_uint64a, wmi_v2.mi_uint64a
 ms.prod: windows-hardware
 ms.technology: windows-devices

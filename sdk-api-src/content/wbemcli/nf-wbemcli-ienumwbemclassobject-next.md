@@ -7,7 +7,7 @@ old-location: wmi\ienumwbemclassobject_next.htm
 old-project: WmiSdk
 ms.assetid: 8bde633b-b04a-4a21-82ce-f5aab1d32d95
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: IEnumWbemClassObject, IEnumWbemClassObject interface [Windows Management Instrumentation], Next method, IEnumWbemClassObject::Next, Next method [Windows Management Instrumentation], Next method [Windows Management Instrumentation], IEnumWbemClassObject interface, Next,IEnumWbemClassObject.Next, _hmm_ienumwbemclassobject_next, wbemcli/IEnumWbemClassObject::Next, wmi.ienumwbemclassobject_next
 ms.prod: windows-hardware
 ms.technology: windows-devices

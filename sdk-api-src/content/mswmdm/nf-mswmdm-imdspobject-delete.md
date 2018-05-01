@@ -7,7 +7,7 @@ old-location: wmdm\imdspobject_delete.htm
 old-project: WMDM
 ms.assetid: debaaa15-dbc5-44dd-8ad9-f7f900146231
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: Delete method [windows Media Device Manager], Delete method [windows Media Device Manager], IMDSPObject interface, Delete,IMDSPObject.Delete, IMDSPObject, IMDSPObject interface [windows Media Device Manager], Delete method, IMDSPObject::Delete, IMDSPObjectDelete, mswmdm/IMDSPObject::Delete, wmdm.imdspobject_delete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMDSPObject::Delete method

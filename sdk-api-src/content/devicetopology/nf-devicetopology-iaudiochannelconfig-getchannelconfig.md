@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiochannelconfig_getchannelconfig.htm
 old-project: CoreAudio
 ms.assetid: 91331c34-9805-424b-b2c9-5705a11c594d
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: GetChannelConfig method [Core Audio], GetChannelConfig method [Core Audio], IAudioChannelConfig interface, GetChannelConfig,IAudioChannelConfig.GetChannelConfig, IAudioChannelConfig, IAudioChannelConfig interface [Core Audio], GetChannelConfig method, IAudioChannelConfig::GetChannelConfig, IAudioChannelConfigGetChannelConfig, coreaudio.iaudiochannelconfig_getchannelconfig, devicetopology/IAudioChannelConfig::GetChannelConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices

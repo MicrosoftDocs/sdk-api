@@ -7,7 +7,7 @@ old-location: shell\IStreamAsync_ReadAsync.htm
 old-project: shell
 ms.assetid: c0046a89-1427-465e-a5f3-2398ebff04f3
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IStreamAsync, IStreamAsync interface [Windows Shell], ReadAsync method, IStreamAsync::ReadAsync, ReadAsync method [Windows Shell], ReadAsync method [Windows Shell], IStreamAsync interface, ReadAsync,IStreamAsync.ReadAsync, _shell_IStreamAsync_ReadAsync, shell.IStreamAsync_ReadAsync, shobjidl/IStreamAsync::ReadAsync
 ms.prod: windows-hardware
 ms.technology: windows-devices

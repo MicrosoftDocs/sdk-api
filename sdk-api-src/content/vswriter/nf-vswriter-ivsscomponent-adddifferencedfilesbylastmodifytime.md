@@ -7,7 +7,7 @@ old-location: base\ivsscomponent_adddifferencedfilesbylastmodifytime.htm
 old-project: VSS
 ms.assetid: 33372d10-c947-45de-9ea2-03ba6378179d
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: AddDifferencedFilesByLastModifyTime method [VSS], AddDifferencedFilesByLastModifyTime method [VSS], IVssComponent interface, AddDifferencedFilesByLastModifyTime,IVssComponent.AddDifferencedFilesByLastModifyTime, IVssComponent, IVssComponent interface [VSS], AddDifferencedFilesByLastModifyTime method, IVssComponent::AddDifferencedFilesByLastModifyTime, _win32_ivsscomponent_adddifferencedfilesbylastmodifytime, base.ivsscomponent_adddifferencedfilesbylastmodifytime, vswriter/IVssComponent::AddDifferencedFilesByLastModifyTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

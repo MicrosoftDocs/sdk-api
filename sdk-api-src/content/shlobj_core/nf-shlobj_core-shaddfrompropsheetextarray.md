@@ -7,7 +7,7 @@ old-location: shell\SHAddFromPropSheetExtArray.htm
 old-project: shell
 ms.assetid: e0570cd6-dda2-43e4-8540-58baef37bf18
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: SHAddFromPropSheetExtArray, SHAddFromPropSheetExtArray function [Windows Shell], _win32_SHAddFromPropSheetExtArray, shell.SHAddFromPropSheetExtArray, shlobj_core/SHAddFromPropSheetExtArray
 ms.prod: windows-hardware
 ms.technology: windows-devices

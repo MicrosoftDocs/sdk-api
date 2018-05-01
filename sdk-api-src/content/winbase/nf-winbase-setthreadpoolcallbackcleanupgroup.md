@@ -7,7 +7,7 @@ old-location: base\setthreadpoolcallbackcleanupgroup.htm
 old-project: ProcThread
 ms.assetid: 395db7ba-ff39-46ee-917b-2896a0e99d43
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: SetThreadpoolCallbackCleanupGroup, SetThreadpoolCallbackCleanupGroup function, base.setthreadpoolcallbackcleanupgroup, winbase/SetThreadpoolCallbackCleanupGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\regsetvalueex.htm
 old-project: SysInfo
 ms.assetid: 29b0e27c-4999-4e92-bd8b-bba74920bccc
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: RegSetValueEx, RegSetValueEx function, RegSetValueExA, RegSetValueExW, _win32_regsetvalueex, base.regsetvalueex, winreg/RegSetValueEx, winreg/RegSetValueExA, winreg/RegSetValueExW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -121,7 +121,7 @@ The type of data pointed to by the <i>lpData</i> parameter. For a list of the po
 
 The data to be stored. 
 
-For string-based types, such as REG_SZ, the string must be <b>null</b>-terminated. With the REG_MULTI_SZ data type, the string must be terminated with two <b>null</b> characters. String-literal values must be formatted using a backslash preceded by another backslash as an escape character. For example, specify "C:\\mydir\\myfile" to store the string "C:\mydir\myfile".
+For string-based types, such as REG_SZ, the string must be <b>null</b>-terminated. With the REG_MULTI_SZ data type, the string must be terminated with two <b>null</b> characters.
 
 <div class="alert"><b>Note</b>  lpData indicating a  <b>null</b> value is valid, however, if this is the case, <i>cbData</i> must be set to '0'.</div>
 <div> </div>

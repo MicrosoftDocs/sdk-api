@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmfilegroupmanager_importfilegroups.htm
 old-project: Fsrm
 ms.assetid: 81f62d49-5fce-4d8c-96b5-506d741c5f77
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: FsrmFileGroupManager class [File Server Resource Manager], ImportFileGroups method, IFsrmFileGroupManager, IFsrmFileGroupManager interface [File Server Resource Manager], ImportFileGroups method, IFsrmFileGroupManager::ImportFileGroups, ImportFileGroups method [File Server Resource Manager], ImportFileGroups method [File Server Resource Manager], FsrmFileGroupManager class, ImportFileGroups method [File Server Resource Manager], IFsrmFileGroupManager interface, ImportFileGroups,IFsrmFileGroupManager.ImportFileGroups, fs.ifsrmfilegroupmanager_importfilegroups, fsrm.ifsrmfilegroupmanager_importfilegroups, fsrmscreen/IFsrmFileGroupManager::ImportFileGroups
 ms.prod: windows-hardware
 ms.technology: windows-devices

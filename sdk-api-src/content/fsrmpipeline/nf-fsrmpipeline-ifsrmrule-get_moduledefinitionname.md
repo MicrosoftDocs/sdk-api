@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmrule_moduledefinitionname.htm
 old-project: Fsrm
 ms.assetid: b003b31b-fe40-446d-9db8-619dfcecc6c7
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: IFsrmRule, IFsrmRule interface [File Server Resource Manager], ModuleDefinitionName property, IFsrmRule.ModuleDefinitionName, IFsrmRule::get_ModuleDefinitionName, IFsrmRule::put_ModuleDefinitionName, ModuleDefinitionName property [File Server Resource Manager], ModuleDefinitionName property [File Server Resource Manager], IFsrmRule interface, fs.ifsrmrule_moduledefinitionname, fsrm.ifsrmrule_moduledefinitionname, fsrmpipeline/IFsrmRule::ModuleDefinitionName, fsrmpipeline/IFsrmRule::get_ModuleDefinitionName, fsrmpipeline/IFsrmRule::put_ModuleDefinitionName, get_ModuleDefinitionName,IFsrmRule.get_ModuleDefinitionName
 ms.prod: windows-hardware
 ms.technology: windows-devices

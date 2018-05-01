@@ -7,7 +7,7 @@ old-location: upnp\iupnpdescriptiondocumentcallback_loadcomplete.htm
 old-project: UPnP
 ms.assetid: 899b1aa4-597c-4434-80cc-2ea22759fbc8
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/25/2018
 ms.keywords: IUPnPDescriptionDocumentCallback, IUPnPDescriptionDocumentCallback interface [UPnP APIs], LoadComplete method, IUPnPDescriptionDocumentCallback::LoadComplete, LoadComplete method [UPnP APIs], LoadComplete method [UPnP APIs], IUPnPDescriptionDocumentCallback interface, LoadComplete,IUPnPDescriptionDocumentCallback.LoadComplete, UPNP_E_DEVICE_ELEMENT_EXPECTED, UPNP_E_DEVICE_NODE_INCOMPLETE, UPNP_E_ICON_ELEMENT_EXPECTED, UPNP_E_ICON_NODE_INCOMPLETE, UPNP_E_ROOT_ELEMENT_EXPECTED, UPNP_E_SERVICE_ELEMENT_EXPECTED, UPNP_E_SERVICE_NODE_INCOMPLETE, _upnp_iupnpdescriptiondocumentcallback_loadcomplete, upnp.iupnpdescriptiondocumentcallback_loadcomplete, upnp/IUPnPDescriptionDocumentCallback::LoadComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices

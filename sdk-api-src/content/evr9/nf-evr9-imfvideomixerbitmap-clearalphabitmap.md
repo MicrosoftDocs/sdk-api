@@ -7,7 +7,7 @@ old-location: mf\imfvideomixerbitmap_clearalphabitmap.htm
 old-project: medfound
 ms.assetid: 79a0f24c-9388-4c64-885f-5d04e671669e
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 79a0f24c-9388-4c64-885f-5d04e671669e, ClearAlphaBitmap method [Media Foundation], ClearAlphaBitmap method [Media Foundation], IMFVideoMixerBitmap interface, ClearAlphaBitmap,IMFVideoMixerBitmap.ClearAlphaBitmap, IMFVideoMixerBitmap, IMFVideoMixerBitmap interface [Media Foundation], ClearAlphaBitmap method, IMFVideoMixerBitmap::ClearAlphaBitmap, evr9/IMFVideoMixerBitmap::ClearAlphaBitmap, mf.imfvideomixerbitmap_clearalphabitmap
 ms.prod: windows-hardware
 ms.technology: windows-devices

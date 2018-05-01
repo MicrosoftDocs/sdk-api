@@ -7,7 +7,7 @@ old-location: gdi\setwindowrgn.htm
 old-project: gdi
 ms.assetid: 06209d0c-14f9-45ec-ae2c-9cc596b5bbaa
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/17/2018
 ms.keywords: SetWindowRgn, SetWindowRgn function [Windows GDI], _win32_SetWindowRgn, gdi.setwindowrgn, winuser/SetWindowRgn
 ms.prod: windows-hardware
 ms.technology: windows-devices

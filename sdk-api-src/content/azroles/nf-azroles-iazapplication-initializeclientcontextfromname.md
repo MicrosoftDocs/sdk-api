@@ -7,7 +7,7 @@ old-location: security\iazapplication_initializeclientcontextfromname.htm
 old-project: SecAuthZ
 ms.assetid: 25628f06-fea7-4acd-b1db-b3667fcd07a2
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: AzApplication object [Security], InitializeClientContextFromName method, IAzApplication, IAzApplication interface [Security], InitializeClientContextFromName method, IAzApplication::InitializeClientContextFromName, InitializeClientContextFromName method [Security], InitializeClientContextFromName method [Security], AzApplication object, InitializeClientContextFromName method [Security], IAzApplication interface, InitializeClientContextFromName,IAzApplication.InitializeClientContextFromName, azroles/IAzApplication::InitializeClientContextFromName, security.iazapplication_initializeclientcontextfromname
 ms.prod: windows-hardware
 ms.technology: windows-devices

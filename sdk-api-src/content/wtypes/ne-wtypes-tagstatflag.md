@@ -7,7 +7,7 @@ old-location: stg\statflag.htm
 old-project: Stg
 ms.assetid: 9070b517-8ca5-455f-baee-0647b1895c08
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/20/2018
 ms.keywords: STATFLAG, STATFLAG enumeration [Structured Storage], STATFLAG_DEFAULT, STATFLAG_NONAME, STATFLAG_NOOPEN, _stg_statflag, stg.statflag, tagSTATFLAG, wtypes/STATFLAG, wtypes/STATFLAG_DEFAULT, wtypes/STATFLAG_NONAME, wtypes/STATFLAG_NOOPEN
 ms.prod: windows-hardware
 ms.technology: windows-devices

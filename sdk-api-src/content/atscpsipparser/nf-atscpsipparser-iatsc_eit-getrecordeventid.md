@@ -7,7 +7,7 @@ old-location: mstv\iatsc_eit_getrecordeventid.htm
 old-project: mstv
 ms.assetid: 4fb908cf-4ee9-433b-b686-330a32f855af
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetRecordEventId method [Microsoft TV Technologies], GetRecordEventId method [Microsoft TV Technologies], IATSC_EIT interface, GetRecordEventId,IATSC_EIT.GetRecordEventId, IATSC_EIT, IATSC_EIT interface [Microsoft TV Technologies], GetRecordEventId method, IATSC_EIT::GetRecordEventId, IATSC_EITGetRecordEventId, atscpsipparser/IATSC_EIT::GetRecordEventId, mstv.iatsc_eit_getrecordeventid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_WRITER_PAYLOAD_STREAM
+req.typenames: AsyncStatus
 topic_type:
 -	APIRef
 -	kbSyntax

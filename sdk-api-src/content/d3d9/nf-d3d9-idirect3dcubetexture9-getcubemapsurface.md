@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3dcubetexture9__getcubemapsurface.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dcubetexture9__getcubemapsurface.htm
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/10/2018
 ms.keywords: 6704f537-4e72-4fb1-e408-561e7971fd8f, GetCubeMapSurface method [Direct3D 9], GetCubeMapSurface method [Direct3D 9], IDirect3DCubeTexture9 interface, GetCubeMapSurface,IDirect3DCubeTexture9.GetCubeMapSurface, IDirect3DCubeTexture9, IDirect3DCubeTexture9 interface [Direct3D 9], GetCubeMapSurface method, IDirect3DCubeTexture9::GetCubeMapSurface, d3d9helper/IDirect3DCubeTexture9::GetCubeMapSurface, direct3d9.idirect3dcubetexture9__getcubemapsurface
 ms.prod: windows-hardware
 ms.technology: windows-devices

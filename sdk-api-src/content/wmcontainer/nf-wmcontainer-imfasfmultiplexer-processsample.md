@@ -7,7 +7,7 @@ old-location: mf\imfasfmultiplexer_processsample.htm
 old-project: medfound
 ms.assetid: 30a693bb-255c-47a4-8102-1543872b0a5e
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 30a693bb-255c-47a4-8102-1543872b0a5e, IMFASFMultiplexer, IMFASFMultiplexer interface [Media Foundation], ProcessSample method, IMFASFMultiplexer::ProcessSample, ProcessSample method [Media Foundation], ProcessSample method [Media Foundation], IMFASFMultiplexer interface, ProcessSample,IMFASFMultiplexer.ProcessSample, mf.imfasfmultiplexer_processsample, wmcontainer/IMFASFMultiplexer::ProcessSample
 ms.prod: windows-hardware
 ms.technology: windows-devices

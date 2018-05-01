@@ -7,7 +7,7 @@ old-location: controls\ITextFont_SetShadow.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setshadow.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextFont, ITextFont interface [Windows Controls], SetShadow method, ITextFont::SetShadow, SetShadow method [Windows Controls], SetShadow method [Windows Controls], ITextFont interface, SetShadow,ITextFont.SetShadow, _win32_ITextFont_SetShadow, _win32_ITextFont_SetShadow_cpp, controls.ITextFont_SetShadow, controls._win32_ITextFont_SetShadow, tom/ITextFont::SetShadow
 ms.prod: windows-hardware
 ms.technology: windows-devices

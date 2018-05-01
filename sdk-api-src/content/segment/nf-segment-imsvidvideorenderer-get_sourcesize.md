@@ -7,7 +7,7 @@ old-location: mstv\imsvidvideorenderer_get_sourcesize.htm
 old-project: mstv
 ms.assetid: 312a2c1e-5332-4a2d-ada9-1dc8236f4170
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidVideoRenderer, IMSVidVideoRenderer interface [Microsoft TV Technologies], get_SourceSize method, IMSVidVideoRenderer::get_SourceSize, IMSVidVideoRendererget_SourceSize, get_SourceSize method [Microsoft TV Technologies], get_SourceSize method [Microsoft TV Technologies], IMSVidVideoRenderer interface, get_SourceSize,IMSVidVideoRenderer.get_SourceSize, mstv.imsvidvideorenderer_get_sourcesize, segment/IMSVidVideoRenderer::get_SourceSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidVideoRenderer::get_SourceSize method

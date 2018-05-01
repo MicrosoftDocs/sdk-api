@@ -7,7 +7,7 @@ old-location: mf\imfasfstreamconfig_getstreamtype.htm
 old-project: medfound
 ms.assetid: 5f085107-f205-47ab-acb5-d45a881ce76c
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 5f085107-f205-47ab-acb5-d45a881ce76c, GetStreamType method [Media Foundation], GetStreamType method [Media Foundation], IMFASFStreamConfig interface, GetStreamType,IMFASFStreamConfig.GetStreamType, IMFASFStreamConfig, IMFASFStreamConfig interface [Media Foundation], GetStreamType method, IMFASFStreamConfig::GetStreamType, mf.imfasfstreamconfig_getstreamtype, wmcontainer/IMFASFStreamConfig::GetStreamType
 ms.prod: windows-hardware
 ms.technology: windows-devices

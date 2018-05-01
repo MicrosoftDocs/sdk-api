@@ -7,7 +7,7 @@ old-location: ics\inetfwrule_icmptypesandcodes.htm
 old-project: ICS
 ms.assetid: 5b1e2e50-7ca1-4a96-a1c3-1f55f51a6a4f
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: INetFwRule, INetFwRule interface [ICS/ICF], IcmpTypesAndCodes property, INetFwRule.IcmpTypesAndCodes, INetFwRule::get_IcmpTypesAndCodes, INetFwRule::put_IcmpTypesAndCodes, IcmpTypesAndCodes property [ICS/ICF], IcmpTypesAndCodes property [ICS/ICF], INetFwRule interface, get_IcmpTypesAndCodes,INetFwRule.get_IcmpTypesAndCodes, ics.inetfwrule_icmptypesandcodes, netfw/INetFwRule::IcmpTypesAndCodes, netfw/INetFwRule::get_IcmpTypesAndCodes, netfw/INetFwRule::put_IcmpTypesAndCodes
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: 
 req.dll: FirewallAPI.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # INetFwRule::get_IcmpTypesAndCodes method

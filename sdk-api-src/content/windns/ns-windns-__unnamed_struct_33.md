@@ -1,14 +1,14 @@
 ---
 UID: NS:windns.__unnamed_struct_33
-title: DNS_ATMA_DATA
+title: DNS_NAPTR_DATAA
 author: windows-driver-content
-description: The DNS_ATMA_DATA structure represents a DNS ATM address (ATMA) resource record (RR).
-old-location: dns\dns_atma_data.htm
+description: The DNS_NAPTR_DATA structure represents a Naming Authority Pointer (NAPTR) DNS Resource Record (RR) as specified in RFC 2915.
+old-location: dns\dns_naptr_data.htm
 old-project: DNS
-ms.assetid: 09df3990-36bd-4656-b5cd-792e521adf9d
+ms.assetid: 8f576efb-4ef3-4fc0-8cf5-d373460a3b3c
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
-ms.keywords: "*PDNS_ATMA_DATA, DNS_ATMA_DATA, DNS_ATMA_DATA structure [DNS], DNS_ATMA_FORMAT_AESA, DNS_ATMA_FORMAT_E164, PDNS_ATMA_DATA, PDNS_ATMA_DATA structure pointer [DNS], _dns_dns_atma_data, dns.dns_atma_data, windns/DNS_ATMA_DATA, windns/PDNS_ATMA_DATA"
+ms.date: 4/18/2018
+ms.keywords: "*PDNS_NAPTR_DATA, *PDNS_NAPTR_DATAA, DNS_NAPTR_DATA, DNS_NAPTR_DATA structure [DNS], DNS_NAPTR_DATAA, PDNS_NAPTR_DATA, PDNS_NAPTR_DATA structure pointer [DNS], dns.dns_naptr_data, windns/DNS_NAPTR_DATA, windns/PDNS_NAPTR_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: DNS_ATMA_DATA, *PDNS_ATMA_DATA
+req.typenames: DNS_NAPTR_DATAA, *PDNS_NAPTR_DATAA
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	Windns.h
 api_name:
--	DNS_ATMA_DATA
+-	DNS_NAPTR_DATA
 product: Windows
 targetos: Windows
 req.lib: 
@@ -44,14 +44,14 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# DNS_ATMA_DATA structure
+# DNS_NAPTR_DATAA structure
 
 
 ## -description
 
 
 The 
-<b>DNS_ATMA_DATA</b> structure represents a DNS ATM address (ATMA) resource record (RR).
+<b>DNS_NAPTR_DATA</b> structure represents a Naming Authority Pointer (NAPTR) DNS Resource Record (RR) as specified in <a href="http://go.microsoft.com/fwlink/p/?linkid=107024">RFC 2915</a>.
 
 
 ## -struct-fields
@@ -59,54 +59,34 @@ The
 
 
 
-### -field AddressType
+### -field wOrder
 
-The format of the ATM address in <b>Address</b>. The possible values for <b>AddressType</b> are: 
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="DNS_ATMA_FORMAT_AESA"></a><a id="dns_atma_format_aesa"></a><dl>
-<dt><b>DNS_ATMA_FORMAT_AESA</b></dt>
-</dl>
-</td>
-<td width="60%">
-An address of the form: 39.246f.123456789abcdefa0123.00123456789a.00. It is a 40 hex character address mapped to 20 octets with arbitrarily placed "." separators. Its length is exactly <b>DNS_ATMA_AESA_ADDR_LENGTH</b> bytes. 
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="DNS_ATMA_FORMAT_E164"></a><a id="dns_atma_format_e164"></a><dl>
-<dt><b>DNS_ATMA_FORMAT_E164</b></dt>
-</dl>
-</td>
-<td width="60%">
-An address of the form: +358.400.1234567\0.  The null-terminated hex characters map one-to-one into the ATM address
-    with arbitrarily placed "." separators. The '+' indicates it is an E.164 format address. Its length is less than <b>DNS_ATMA_MAX_ADDR_LENGTH</b> bytes.
-
-</td>
-</tr>
-</table>
- 
+ A value that determines the NAPTR RR processing order as defined in section 2 of <a href="http://go.microsoft.com/fwlink/p/?linkid=107024">RFC 2915</a>.
 
 
-### -field Address
+### -field wPreference
 
-A <b>BYTE</b> array that contains the ATM address whose format is specified by <b>AddressType</b>.
-
-
-## -remarks
+A value that determines the NAPTR RR processing  order  for records with the same <b>wOrder</b> value as defined in section 2 of <a href="http://go.microsoft.com/fwlink/p/?linkid=107024">RFC 2915</a>.
 
 
+### -field pFlags
 
-The 
-<b>DNS_ATMA_DATA</b> structure is used in conjunction with the 
-<a href="https://msdn.microsoft.com/ab7b96a5-346f-4e01-bb2a-885f44764590">DNS_RECORD</a> structure to programmatically manage DNS entries.
+A pointer to a string  that represents a set of NAPTR RR flags which determine the interpretation and processing of NAPTR record fields as defined in section 2 of <a href="http://go.microsoft.com/fwlink/p/?linkid=107024">RFC 2915</a>.
 
 
+### -field pService
+
+A pointer to a string that represents the available services in this rewrite path as defined in section 2 of <a href="http://go.microsoft.com/fwlink/p/?linkid=107024">RFC 2915</a>.
+
+
+### -field pRegularExpression
+
+A pointer to a string that represents a substitution expression as defined in sections 2 and 3 of <a href="http://go.microsoft.com/fwlink/p/?linkid=107024">RFC 2915</a>.
+
+
+### -field pReplacement
+
+A pointer to a string that represents the next NAPTR query name as defined in section 2 of <a href="http://go.microsoft.com/fwlink/p/?linkid=107024">RFC 2915</a>.
 
 
 ## -see-also

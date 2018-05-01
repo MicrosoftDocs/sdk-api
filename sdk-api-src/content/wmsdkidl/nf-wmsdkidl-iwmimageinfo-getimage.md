@@ -7,7 +7,7 @@ old-location: wmformat\iwmimageinfo_getimage.htm
 old-project: wmformat
 ms.assetid: fe1dcd53-fcdd-4190-9a07-65d0b34112d0
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: GetImage method [windows Media Format], GetImage method [windows Media Format], IWMImageInfo interface, GetImage,IWMImageInfo.GetImage, IWMImageInfo, IWMImageInfo interface [windows Media Format], GetImage method, IWMImageInfo::GetImage, IWMImageInfoGetImage, wmformat.iwmimageinfo_getimage, wmsdkidl/IWMImageInfo::GetImage
 ms.prod: windows-hardware
 ms.technology: windows-devices

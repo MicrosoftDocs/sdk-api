@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmquotaobject_usersid.htm
 old-project: Fsrm
 ms.assetid: f6eed71b-4d14-471a-a686-f7a2be7bf63b
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: IFsrmQuotaObject, IFsrmQuotaObject interface [File Server Resource Manager], UserSid property, IFsrmQuotaObject.UserSid, IFsrmQuotaObject::get_UserSid, UserSid property [File Server Resource Manager], UserSid property [File Server Resource Manager], IFsrmQuotaObject interface, fs.ifsrmquotaobject_usersid, fsrm.ifsrmquotaobject_usersid, fsrmquota/IFsrmQuotaObject::UserSid, fsrmquota/IFsrmQuotaObject::get_UserSid, get_UserSid,IFsrmQuotaObject.get_UserSid
 ms.prod: windows-hardware
 ms.technology: windows-devices

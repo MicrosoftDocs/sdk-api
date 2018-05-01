@@ -7,7 +7,7 @@ old-location: automat\itypeinfo2_getvarcustdata.htm
 old-project: automat
 ms.assetid: fe033b80-427d-48d1-99c8-4aba8909897e
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: GetVarCustData method [Automation], GetVarCustData method [Automation], ITypeInfo2 interface, GetVarCustData,ITypeInfo2.GetVarCustData, ITypeInfo2, ITypeInfo2 interface [Automation], GetVarCustData method, ITypeInfo2::GetVarCustData, _oa96_ITypeInfo2_GetVarCustData, automat.itypeinfo2_getvarcustdata, oaidl/ITypeInfo2::GetVarCustData
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITypeInfo2::GetVarCustData method

@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_operationoptions_delete.htm
 old-project: wmi_v2
 ms.assetid: a9e43835-92a4-468a-9d45-1d4ab81d94f0
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/18/2018
 ms.keywords: MI_OperationOptions_Delete, MI_OperationOptions_Delete function [Windows Management Infrastructure (MI)], mi/MI_OperationOptions_Delete, wmi_v2.mi_operationoptions_delete
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: automat\vari2fromui2.htm
 old-project: automat
 ms.assetid: 8d46449f-663d-4609-9b41-b9cd54933e5f
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: VarI2FromUI2, VarI2FromUI2 function [Automation], _oa96_VarI2FromUI2, automat.vari2fromui2, oleauto/VarI2FromUI2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # VarI2FromUI2 function

@@ -7,7 +7,7 @@ old-location: secbiomet\winbioenrollcapture.htm
 old-project: SecBioMet
 ms.assetid: a50f0c9f-7b9c-4d80-b8fc-8b83bc333578
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: WinBioEnrollCapture, WinBioEnrollCapture function [Windows Biometric Framework API], secbiomet.winbioenrollcapture, winbio/WinBioEnrollCapture
 ms.prod: windows-hardware
 ms.technology: windows-devices

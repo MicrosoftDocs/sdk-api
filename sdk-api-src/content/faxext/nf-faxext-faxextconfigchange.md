@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxextconfigchange.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxextconfigref_4azp.htm
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/18/2018
 ms.keywords: FaxExtConfigChange, FaxExtConfigChange function [Fax Service], _mfax_faxextconfigchange, fax._mfax_faxextconfigchange, faxext/FaxExtConfigChange
 ms.prod: windows-hardware
 ms.technology: windows-devices

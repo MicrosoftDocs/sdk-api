@@ -7,7 +7,7 @@ old-location: wmi\iwbemcontext_setvalue.htm
 old-project: WmiSdk
 ms.assetid: 074d5ac7-aa86-44d8-99f9-959ef99a8004
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: IWbemContext, IWbemContext interface [Windows Management Instrumentation], SetValue method, IWbemContext::SetValue, SetValue method [Windows Management Instrumentation], SetValue method [Windows Management Instrumentation], IWbemContext interface, SetValue,IWbemContext.SetValue, _hmm_iwbemcontext_setvalue, wbemcli/IWbemContext::SetValue, wmi.iwbemcontext_setvalue
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: cos\isecuritycallcontext_get_count.htm
 old-project: cossdk
 ms.assetid: aebb28de-79ee-4cec-afb9-cfb067a4fb62
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: ISecurityCallContext, ISecurityCallContext interface [COM+], get_Count method, ISecurityCallContext::get_Count, _cos_ISecurityCallContext_get_Count, comsvcs/ISecurityCallContext::get_Count, cos.isecuritycallcontext_get_count, get_Count method [COM+], get_Count method [COM+], ISecurityCallContext interface, get_Count,ISecurityCallContext.get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices

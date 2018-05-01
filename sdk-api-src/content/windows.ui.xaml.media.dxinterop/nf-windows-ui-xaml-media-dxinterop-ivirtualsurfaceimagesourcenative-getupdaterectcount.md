@@ -7,7 +7,7 @@ old-location: winrt\ivirtualsurfaceimagesourcenative_getupdaterectcount.htm
 old-project: WinRT
 ms.assetid: AE717587-0156-4DEC-B7B2-FF8937117D5A
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/24/2018
 ms.keywords: GetUpdateRectCount method [Windows Runtime], GetUpdateRectCount method [Windows Runtime], IVirtualSurfaceImageSourceNative interface, GetUpdateRectCount,IVirtualSurfaceImageSourceNative.GetUpdateRectCount, IVirtualSurfaceImageSourceNative, IVirtualSurfaceImageSourceNative interface [Windows Runtime], GetUpdateRectCount method, IVirtualSurfaceImageSourceNative::GetUpdateRectCount, windows/IVirtualSurfaceImageSourceNative::GetUpdateRectCount, winrt.ivirtualsurfaceimagesourcenative_getupdaterectcount
 ms.prod: windows-hardware
 ms.technology: windows-devices

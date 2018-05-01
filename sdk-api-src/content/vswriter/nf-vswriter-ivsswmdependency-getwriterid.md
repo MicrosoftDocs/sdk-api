@@ -7,7 +7,7 @@ old-location: base\ivsswmdependency_getwriterid.htm
 old-project: VSS
 ms.assetid: 275843c5-3a8c-4add-b453-53ff5d2bb868
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: GetWriterId method [VSS], GetWriterId method [VSS], IVssWMDependency interface, GetWriterId,IVssWMDependency.GetWriterId, IVssWMDependency, IVssWMDependency interface [VSS], GetWriterId method, IVssWMDependency::GetWriterId, _win32_ivsswmdependency_getwriterid, base.ivsswmdependency_getwriterid, vswriter/IVssWMDependency::GetWriterId
 ms.prod: windows-hardware
 ms.technology: windows-devices

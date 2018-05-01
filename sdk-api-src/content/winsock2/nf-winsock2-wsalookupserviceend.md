@@ -7,7 +7,7 @@ old-location: winsock\wsalookupserviceend_2.htm
 old-project: WinSock
 ms.assetid: f9d2ac54-a818-464d-918e-80ebb5b1b106
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/24/2018
 ms.keywords: WSALookupServiceEnd, WSALookupServiceEnd function [Winsock], _win32_wsalookupserviceend_2, winsock.wsalookupserviceend_2, winsock2/WSALookupServiceEnd
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: controls\itextdocument2_range2.htm
 old-project: Controls
 ms.assetid: e0cd3788-de0e-4b57-8f24-f0897e2b0bed
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextDocument2, ITextDocument2 interface [Windows Controls], Range2 method, ITextDocument2::Range2, Range2 method [Windows Controls], Range2 method [Windows Controls], ITextDocument2 interface, Range2,ITextDocument2.Range2, controls.itextdocument2_range2, tom/ITextDocument2::Range2
 ms.prod: windows-hardware
 ms.technology: windows-devices

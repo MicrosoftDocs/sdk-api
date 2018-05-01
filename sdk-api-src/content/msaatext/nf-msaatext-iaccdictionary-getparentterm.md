@@ -7,7 +7,7 @@ old-location: winauto\iaccdictionary_iaccdictionary__getparentterm.htm
 old-project: WinAuto
 ms.assetid: 202058e8-50c2-4366-9bb6-bbc46dc5ea3f
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: GetParentTerm method [Windows Accessibility], GetParentTerm method [Windows Accessibility], IAccDictionary interface, GetParentTerm,IAccDictionary.GetParentTerm, IAccDictionary, IAccDictionary interface [Windows Accessibility], GetParentTerm method, IAccDictionary::GetParentTerm, _msaa_IAccDictionary_GetParentTerm, msaa.iaccdictionary_iaccdictionary__getparentterm, msaatext/IAccDictionary::GetParentTerm, winauto.iaccdictionary_iaccdictionary__getparentterm
 ms.prod: windows-hardware
 ms.technology: windows-devices

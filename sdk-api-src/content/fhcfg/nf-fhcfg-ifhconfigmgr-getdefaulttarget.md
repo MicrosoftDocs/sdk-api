@@ -7,7 +7,7 @@ old-location: winprog\ifhconfigmgr_getdefaulttarget.htm
 old-project: DevNotes
 ms.assetid: 570CB5FD-7586-41AD-84A6-DA6966B18E91
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/13/2018
 ms.keywords: FhConfigMgr class [Windows API], GetDefaultTarget method, GetDefaultTarget method [Windows API], GetDefaultTarget method [Windows API], FhConfigMgr class, GetDefaultTarget method [Windows API], IFhConfigMgr interface, GetDefaultTarget,IFhConfigMgr.GetDefaultTarget, IFhConfigMgr, IFhConfigMgr interface [Windows API], GetDefaultTarget method, IFhConfigMgr::GetDefaultTarget, fhcfg/IFhConfigMgr::GetDefaultTarget, winprog.ifhconfigmgr_getdefaulttarget
 ms.prod: windows-hardware
 ms.technology: windows-devices

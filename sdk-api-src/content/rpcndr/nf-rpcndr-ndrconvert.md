@@ -7,7 +7,7 @@ old-location: rpc\ndrconvert.htm
 old-project: Rpc
 ms.assetid: ee9952c3-04e1-4fc0-a1fb-d50bc60e87f6
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: NdrConvert, NdrConvert function [RPC], rpc.ndrconvert, rpcndr/NdrConvert
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: RpcRT4.lib
 req.dll: RpcRT4.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # NdrConvert function

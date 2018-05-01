@@ -7,7 +7,7 @@ old-location: mf\imfvideosampleallocatorcallback.htm
 old-project: medfound
 ms.assetid: 7dbf8b3a-24b3-41d9-bb1e-9c57b88a77ac
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFVideoSampleAllocatorCallback, IMFVideoSampleAllocatorCallback interface [Media Foundation], IMFVideoSampleAllocatorCallback interface [Media Foundation], described, mf.imfvideosampleallocatorcallback, mfidl/IMFVideoSampleAllocatorCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,7 @@ api_name:
 product: Windows
 targetos: Windows
 req.lib: Mfuuid.lib
-req.dll: Mfplat.dll
+req.dll: Mfsensorgroup.dll
 req.irql: 
 req.product: GDI+ 1.1
 ---

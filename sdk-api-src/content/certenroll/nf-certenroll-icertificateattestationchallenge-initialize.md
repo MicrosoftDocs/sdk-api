@@ -7,7 +7,7 @@ old-location: security\icertificateattestationchallenge_initialize.htm
 old-project: SecCertEnroll
 ms.assetid: d4dbda92-4523-4adb-9b88-b2bc763570fd
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: ICertificateAttestationChallenge, ICertificateAttestationChallenge interface [Security], Initialize method, ICertificateAttestationChallenge::Initialize, Initialize method [Security], Initialize method [Security], ICertificateAttestationChallenge interface, Initialize,ICertificateAttestationChallenge.Initialize, certenroll/ICertificateAttestationChallenge::Initialize, security.icertificateattestationchallenge_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

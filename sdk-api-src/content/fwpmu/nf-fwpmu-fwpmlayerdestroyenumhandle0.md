@@ -7,7 +7,7 @@ old-location: fwp\fwpmlayerdestroyenumhandle0_func.htm
 old-project: FWP
 ms.assetid: 351112c2-7ede-4aa7-8ef3-673efeb1c7bb
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: FwpmLayerDestroyEnumHandle0, FwpmLayerDestroyEnumHandle0 function [Filtering], fwp.fwpmlayerdestroyenumhandle0_func, fwpmu/FwpmLayerDestroyEnumHandle0
 ms.prod: windows-hardware
 ms.technology: windows-devices

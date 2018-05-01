@@ -7,7 +7,7 @@ old-location: termserv\itsgpolicyengine_refresh.htm
 old-project: TermServ
 ms.assetid: 29432884-c844-4c38-92e6-e1bcbba32b2b
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: ITSGPolicyEngine, ITSGPolicyEngine interface [Remote Desktop Services], Refresh method, ITSGPolicyEngine::Refresh, Refresh method [Remote Desktop Services], Refresh method [Remote Desktop Services], ITSGPolicyEngine interface, Refresh,ITSGPolicyEngine.Refresh, termserv.itsgpolicyengine_refresh, tsgpolicyengine/ITSGPolicyEngine::Refresh
 ms.prod: windows-hardware
 ms.technology: windows-devices

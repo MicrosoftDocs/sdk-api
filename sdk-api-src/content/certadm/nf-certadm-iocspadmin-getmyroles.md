@@ -7,7 +7,7 @@ old-location: security\iocspadmin_getmyroles_method.htm
 old-project: SecCrypto
 ms.assetid: b5a35e95-ec40-4154-8db9-fe5cd41960cb
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: GetMyRoles method [Security], GetMyRoles method [Security], IOCSPAdmin interface, GetMyRoles,IOCSPAdmin.GetMyRoles, IOCSPAdmin, IOCSPAdmin interface [Security], GetMyRoles method, IOCSPAdmin::GetMyRoles, certadm/IOCSPAdmin::GetMyRoles, security.iocspadmin_getmyroles_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CHANNEL_ENTRY_POINTS, *PCHANNEL_ENTRY_POINTS
+req.typenames: 
 topic_type:
 -	APIRef
 -	kbSyntax

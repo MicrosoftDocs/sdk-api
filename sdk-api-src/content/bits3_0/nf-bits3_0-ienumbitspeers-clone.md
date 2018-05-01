@@ -7,7 +7,7 @@ old-location: bits\ienumbitspeers_clone.htm
 old-project: Bits
 ms.assetid: 72b3e0bc-9426-4953-a910-2dfaa955c4c0
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/10/2018
 ms.keywords: Clone method [BITS], Clone method [BITS], IEnumBitsPeers interface, Clone,IEnumBitsPeers.Clone, IEnumBitsPeers, IEnumBitsPeers interface [BITS], Clone method, IEnumBitsPeers::Clone, bits.ienumbitspeers_clone, bits3_0/IEnumBitsPeers::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

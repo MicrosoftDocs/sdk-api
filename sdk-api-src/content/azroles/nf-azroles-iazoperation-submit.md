@@ -7,7 +7,7 @@ old-location: security\iazoperation_submit.htm
 old-project: SecAuthZ
 ms.assetid: f6265bfa-c856-47db-a688-f5de25ef7157
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: AzOperation object [Security], Submit method, IAzOperation, IAzOperation interface [Security], Submit method, IAzOperation::Submit, Submit method [Security], Submit method [Security], AzOperation object, Submit method [Security], IAzOperation interface, Submit,IAzOperation.Submit, azroles/IAzOperation::Submit, security.iazoperation_submit
 ms.prod: windows-hardware
 ms.technology: windows-devices

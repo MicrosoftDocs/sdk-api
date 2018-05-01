@@ -7,7 +7,7 @@ old-location: wmformat\iwmreaderadvanced_delivertime.htm
 old-project: wmformat
 ms.assetid: 5e47ef96-9971-47b0-a003-b38f4045da7a
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: DeliverTime method [windows Media Format], DeliverTime method [windows Media Format], IWMReaderAdvanced interface, DeliverTime method [windows Media Format], IWMReaderAdvanced2 interface, DeliverTime,IWMReaderAdvanced.DeliverTime, IWMReaderAdvanced, IWMReaderAdvanced interface [windows Media Format], DeliverTime method, IWMReaderAdvanced2 interface [windows Media Format], DeliverTime method, IWMReaderAdvanced2::DeliverTime, IWMReaderAdvanced::DeliverTime, IWMReaderAdvancedDeliverTime, wmformat.iwmreaderadvanced_delivertime, wmsdkidl/IWMReaderAdvanced2::DeliverTime, wmsdkidl/IWMReaderAdvanced::DeliverTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

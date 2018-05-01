@@ -7,7 +7,7 @@ old-location: security\authzinitializeresourcemanagerex.htm
 old-project: SecAuthZ
 ms.assetid: CDB78606-1B53-4516-90E6-1FF096B3D7D9
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: AUTHZ_RM_FLAG_INITIALIZE_UNDER_IMPERSONATION, AUTHZ_RM_FLAG_NO_AUDIT, AUTHZ_RM_FLAG_NO_CENTRAL_ACCESS_POLICIES, AuthzInitializeResourceManagerEx, AuthzInitializeResourceManagerEx function [Security], authz/AuthzInitializeResourceManagerEx, security.authzinitializeresourcemanagerex
 ms.prod: windows-hardware
 ms.technology: windows-devices

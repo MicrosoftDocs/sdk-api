@@ -7,7 +7,7 @@ old-location: shell\IThumbnailSettings_SetContext.htm
 old-project: shell
 ms.assetid: AD333075-3358-4fee-BDEE-087B7012C93E
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IThumbnailSettings, IThumbnailSettings interface [Windows Shell], SetContext method, IThumbnailSettings::SetContext, SetContext method [Windows Shell], SetContext method [Windows Shell], IThumbnailSettings interface, SetContext,IThumbnailSettings.SetContext, shell.IThumbnailSettings_SetContext, thumbcache/IThumbnailSettings::SetContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

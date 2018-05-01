@@ -7,7 +7,7 @@ old-location: security\icspinformation_maxkeycontainernamelength_property.htm
 old-project: SecCertEnroll
 ms.assetid: 2508786f-0892-4ece-bbef-bd8ed9c81eee
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: ICspInformation, ICspInformation interface [Security], MaxKeyContainerNameLength property, ICspInformation.MaxKeyContainerNameLength, ICspInformation::get_MaxKeyContainerNameLength, MaxKeyContainerNameLength property [Security], MaxKeyContainerNameLength property [Security], ICspInformation interface, certenroll/ICspInformation::MaxKeyContainerNameLength, certenroll/ICspInformation::get_MaxKeyContainerNameLength, get_MaxKeyContainerNameLength,ICspInformation.get_MaxKeyContainerNameLength, security.icspinformation_maxkeycontainernamelength_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

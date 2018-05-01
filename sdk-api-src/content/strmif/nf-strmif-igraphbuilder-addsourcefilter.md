@@ -7,7 +7,7 @@ old-location: dshow\igraphbuilder_addsourcefilter.htm
 old-project: DirectShow
 ms.assetid: ed4d7fc6-558b-474f-ae8d-58aa8479b4d2
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: AddSourceFilter method [DirectShow], AddSourceFilter method [DirectShow], IGraphBuilder interface, AddSourceFilter,IGraphBuilder.AddSourceFilter, IGraphBuilder, IGraphBuilder interface [DirectShow], AddSourceFilter method, IGraphBuilder::AddSourceFilter, IGraphBuilderAddSourceFilter, dshow.igraphbuilder_addsourcefilter, strmif/IGraphBuilder::AddSourceFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices

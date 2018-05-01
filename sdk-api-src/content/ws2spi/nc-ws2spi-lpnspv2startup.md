@@ -7,7 +7,7 @@ old-location: winsock\nspv2startup.htm
 old-project: WinSock
 ms.assetid: 93224e66-9c94-4b5c-af11-ae988b74bc03
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/24/2018
 ms.keywords: LPNSPV2STARTUP, NSPv2Startup, NSPv2Startup function [Winsock], winsock.nspv2startup, ws2spi/NSPv2Startup
 ms.prod: windows-hardware
 ms.technology: windows-devices

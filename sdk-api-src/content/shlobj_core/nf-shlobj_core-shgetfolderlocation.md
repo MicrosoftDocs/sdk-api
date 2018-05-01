@@ -7,7 +7,7 @@ old-location: shell\SHGetFolderLocation.htm
 old-project: shell
 ms.assetid: 6fcac066-1ab0-443a-9994-b68ead3bbc20
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: SHGetFolderLocation, SHGetFolderLocation function [Windows Shell], _win32_SHGetFolderLocation, shell.SHGetFolderLocation, shlobj_core/SHGetFolderLocation
 ms.prod: windows-hardware
 ms.technology: windows-devices

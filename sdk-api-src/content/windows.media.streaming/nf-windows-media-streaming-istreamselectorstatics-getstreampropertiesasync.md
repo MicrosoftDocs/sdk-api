@@ -7,7 +7,7 @@ old-location: mediastreaming\istreamselectorstatics_getstreampropertiesasync.htm
 old-project: mediastreaming
 ms.assetid: 8C1B6DC6-D85E-406F-B6DA-914DC5269666
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/10/2018
 ms.keywords: GetStreamPropertiesAsync method [Media Streaming API], GetStreamPropertiesAsync method [Media Streaming API], IStreamSelectorStatics interface, GetStreamPropertiesAsync,IStreamSelectorStatics.GetStreamPropertiesAsync, IStreamSelectorStatics, IStreamSelectorStatics interface [Media Streaming API], GetStreamPropertiesAsync method, IStreamSelectorStatics::GetStreamPropertiesAsync, mediastreaming.istreamselectorstatics_getstreampropertiesasync, windows/IStreamSelectorStatics::GetStreamPropertiesAsync
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: PDF_RENDER_PARAMS
+req.typenames: TimeSpan
 topic_type:
 -	APIRef
 -	kbSyntax

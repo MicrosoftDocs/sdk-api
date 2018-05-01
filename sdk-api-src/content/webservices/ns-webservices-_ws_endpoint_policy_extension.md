@@ -60,22 +60,6 @@ req.product: Windows Address Book 5.0
 
 
 
-### -field out
-
-
-                    When <a href="https://msdn.microsoft.com/6e5f352b-5422-4bba-9525-7850bdddf0a5">WsMatchPolicyAlternative</a> returns NOERROR, the
-                    fields of this structure will be filled out as follows:
-                
-
-
-
-#### assertionValue
-
-When <a href="https://msdn.microsoft.com/6e5f352b-5422-4bba-9525-7850bdddf0a5">WsMatchPolicyAlternative</a> returns NOERROR and if the specified assertion is found in the policy alternative, <b>assertionValue</b> returns the read-only content. Returned buffer should not be modified or freed. If not found, it is set to NULL. 
-
-
-
-
 ### -field policyExtension
 
 
@@ -95,6 +79,22 @@ When <a href="https://msdn.microsoft.com/6e5f352b-5422-4bba-9525-7850bdddf0a5">W
 
                   Namespace of the assertion to be retrieved as an extension.
                 
+
+
+### -field out
+
+
+                    When <a href="https://msdn.microsoft.com/6e5f352b-5422-4bba-9525-7850bdddf0a5">WsMatchPolicyAlternative</a> returns NOERROR, the
+                    fields of this structure will be filled out as follows:
+                
+
+
+
+#### assertionValue
+
+When <a href="https://msdn.microsoft.com/6e5f352b-5422-4bba-9525-7850bdddf0a5">WsMatchPolicyAlternative</a> returns NOERROR and if the specified assertion is found in the policy alternative, <b>assertionValue</b> returns the read-only content. Returned buffer should not be modified or freed. If not found, it is set to NULL. 
+
+
 
 
 ## -remarks

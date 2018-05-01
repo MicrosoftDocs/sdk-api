@@ -7,7 +7,7 @@ old-location: upnp\iupnpregistrar_unregisterdevice.htm
 old-project: UPnP
 ms.assetid: 76fca00c-8638-4e2f-8dd1-20b24cde0108
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/25/2018
 ms.keywords: IUPnPRegistrar, IUPnPRegistrar interface [UPnP APIs], UnregisterDevice method, IUPnPRegistrar::UnregisterDevice, UnregisterDevice method [UPnP APIs], UnregisterDevice method [UPnP APIs], IUPnPRegistrar interface, UnregisterDevice,IUPnPRegistrar.UnregisterDevice, _upnp_iupnpregistrar_unregisterdevice, upnp.iupnpregistrar_unregisterdevice, upnphost/IUPnPRegistrar::UnregisterDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices

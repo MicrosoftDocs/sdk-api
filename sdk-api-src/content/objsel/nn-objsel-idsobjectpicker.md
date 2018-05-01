@@ -7,7 +7,7 @@ old-location: ad\idsobjectpicker.htm
 old-project: AD
 ms.assetid: f2f9da7d-7a09-4b49-a750-078a4573e213
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/20/2018
 ms.keywords: IDsObjectPicker, IDsObjectPicker interface [Active Directory], IDsObjectPicker interface [Active Directory], described, _glines_idsobjectpicker, ad.idsobjectpicker, objsel/IDsObjectPicker
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Objsel.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IDsObjectPicker interface

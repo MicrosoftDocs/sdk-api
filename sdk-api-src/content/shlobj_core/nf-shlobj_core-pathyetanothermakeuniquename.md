@@ -7,7 +7,7 @@ old-location: shell\PathYetAnotherMakeUniqueName.htm
 old-project: shell
 ms.assetid: 1f76ecfa-6f2f-4dde-b05e-4252c92660d9
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: PathYetAnotherMakeUniqueName, PathYetAnotherMakeUniqueName function [Windows Shell], _win32_PathYetAnotherMakeUniqueName, shell.PathYetAnotherMakeUniqueName, shlobj_core/PathYetAnotherMakeUniqueName
 ms.prod: windows-hardware
 ms.technology: windows-devices

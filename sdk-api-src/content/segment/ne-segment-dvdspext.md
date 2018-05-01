@@ -7,7 +7,7 @@ old-location: mstv\dvdspext.htm
 old-project: mstv
 ms.assetid: cc33083a-1281-4863-937c-bd4688989a6c
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: DVDSPExt, DVDSPExt enumeration [Microsoft TV Technologies], dvdSPExt_CC_Big, dvdSPExt_CC_Children, dvdSPExt_CC_Normal, dvdSPExt_Caption_Big, dvdSPExt_Caption_Children, dvdSPExt_Caption_Normal, dvdSPExt_DirectorComments_Big, dvdSPExt_DirectorComments_Children, dvdSPExt_DirectorComments_Normal, dvdSPExt_Forced, dvdSPExt_NotSpecified, enumeration [Microsoft TV Technologies], mstv.dvdspext, segment/DVDSPExt, segment/dvdSPExt_CC_Big, segment/dvdSPExt_CC_Children, segment/dvdSPExt_CC_Normal, segment/dvdSPExt_Caption_Big, segment/dvdSPExt_Caption_Children, segment/dvdSPExt_Caption_Normal, segment/dvdSPExt_DirectorComments_Big, segment/dvdSPExt_DirectorComments_Children, segment/dvdSPExt_DirectorComments_Normal, segment/dvdSPExt_Forced, segment/dvdSPExt_NotSpecified
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # DVDSPExt enumeration

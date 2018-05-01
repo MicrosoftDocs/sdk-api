@@ -7,7 +7,7 @@ old-location: com\iolelink_getboundsource.htm
 old-project: com
 ms.assetid: 37d24337-eacc-453a-9a90-043ec9b35e9c
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: GetBoundSource method [COM], GetBoundSource method [COM], IOleLink interface, GetBoundSource,IOleLink.GetBoundSource, IOleLink, IOleLink interface [COM], GetBoundSource method, IOleLink::GetBoundSource, _ole_iolelink_getboundsource, com.iolelink_getboundsource, oleidl/IOleLink::GetBoundSource
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IOleLink::GetBoundSource method

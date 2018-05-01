@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledeviceservicemanager_getdeviceservices.htm
 old-project: wpd_sdk
 ms.assetid: d6b06f4d-c07e-4cd4-b96e-e8b9b4f98df8
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/11/2018
 ms.keywords: GetDeviceServices method [Windows Portable Devices SDK], GetDeviceServices method [Windows Portable Devices SDK], IPortableDeviceServiceManager interface, GetDeviceServices,IPortableDeviceServiceManager.GetDeviceServices, IPortableDeviceServiceManager, IPortableDeviceServiceManager interface [Windows Portable Devices SDK], GetDeviceServices method, IPortableDeviceServiceManager::GetDeviceServices, portabledeviceapi/IPortableDeviceServiceManager::GetDeviceServices, wpdsdk.iportabledeviceservicemanager_getdeviceservices
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: WPD_WHITE_BALANCE_SETTINGS
+req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IPortableDeviceServiceManager::GetDeviceServices method

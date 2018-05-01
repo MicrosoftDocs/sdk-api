@@ -7,7 +7,7 @@ old-location: mf\imftimedtextcue_getline.htm
 old-project: medfound
 ms.assetid: CD29A63D-8D40-43E6-972C-7050E63EA7D3
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetLine method [Media Foundation], GetLine method [Media Foundation], IMFTimedTextCue interface, GetLine,IMFTimedTextCue.GetLine, IMFTimedTextCue, IMFTimedTextCue interface [Media Foundation], GetLine method, IMFTimedTextCue::GetLine, mf.imftimedtextcue_getline, mfmediaengine/IMFTimedTextCue::GetLine
 ms.prod: windows-hardware
 ms.technology: windows-devices

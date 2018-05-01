@@ -7,7 +7,7 @@ old-location: tapi3\itpluggableterminaleventsink_fireevent.htm
 old-project: Tapi
 ms.assetid: 67386c32-5714-4b01-b860-25192349aa6c
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: FireEvent method [TAPI 2.2], FireEvent method [TAPI 2.2], ITPluggableTerminalEventSink interface, FireEvent,ITPluggableTerminalEventSink.FireEvent, ITPluggableTerminalEventSink, ITPluggableTerminalEventSink interface [TAPI 2.2], FireEvent method, ITPluggableTerminalEventSink::FireEvent, _tapi3_itpluggableterminaleventsink_fireevent, msp/ITPluggableTerminalEventSink::FireEvent, tapi3.itpluggableterminaleventsink_fireevent
 ms.prod: windows-hardware
 ms.technology: windows-devices

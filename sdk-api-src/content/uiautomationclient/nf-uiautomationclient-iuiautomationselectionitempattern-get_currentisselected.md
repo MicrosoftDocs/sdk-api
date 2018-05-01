@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationSelectionItemPattern_CurrentIsSelected
 old-project: WinAuto
 ms.assetid: 5a81509b-b09b-482c-bf1f-5d85665c0d82
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: CurrentIsSelected property [Windows Accessibility], CurrentIsSelected property [Windows Accessibility], IUIAutomationSelectionItemPattern interface, IUIAutomationSelectionItemPattern, IUIAutomationSelectionItemPattern interface [Windows Accessibility], CurrentIsSelected property, IUIAutomationSelectionItemPattern.CurrentIsSelected, IUIAutomationSelectionItemPattern::get_CurrentIsSelected, get_CurrentIsSelected,IUIAutomationSelectionItemPattern.get_CurrentIsSelected, uiauto.uiauto_IUIAutomationSelectionItemPattern_CurrentIsSelected, uiauto_IUIAutomationSelectionItemPattern_CurrentIsSelected, uiautomationclient/IUIAutomationSelectionItemPattern::CurrentIsSelected, uiautomationclient/IUIAutomationSelectionItemPattern::get_CurrentIsSelected, winauto.uiauto_IUIAutomationSelectionItemPattern_CurrentIsSelected
 ms.prod: windows-hardware
 ms.technology: windows-devices

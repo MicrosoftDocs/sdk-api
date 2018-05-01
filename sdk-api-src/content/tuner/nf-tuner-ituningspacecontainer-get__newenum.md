@@ -7,7 +7,7 @@ old-location: mstv\ituningspacecontainer_get__newenum.htm
 old-project: mstv
 ms.assetid: f2bcd80b-b36c-44b1-9a87-beda7ae12117
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: ITuningSpaceContainer, ITuningSpaceContainer interface [Microsoft TV Technologies], get__NewEnum method, ITuningSpaceContainer::get__NewEnum, ITuningSpaceContainerget__NewEnum, get__NewEnum method [Microsoft TV Technologies], get__NewEnum method [Microsoft TV Technologies], ITuningSpaceContainer interface, get__NewEnum,ITuningSpaceContainer.get__NewEnum, mstv.ituningspacecontainer_get__newenum, tuner/ITuningSpaceContainer::get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices

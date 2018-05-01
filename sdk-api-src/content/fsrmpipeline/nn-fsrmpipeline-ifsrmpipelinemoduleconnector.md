@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmpipelinemoduleconnector.htm
 old-project: Fsrm
 ms.assetid: 7debbe8c-b687-42e1-b9b7-1b5f6f16a159
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: IFsrmPipelineModuleConnector, IFsrmPipelineModuleConnector interface [File Server Resource Manager], IFsrmPipelineModuleConnector interface [File Server Resource Manager], described, fs.ifsrmpipelinemoduleconnector, fsrm.ifsrmpipelinemoduleconnector, fsrmpipeline/IFsrmPipelineModuleConnector
 ms.prod: windows-hardware
 ms.technology: windows-devices

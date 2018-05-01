@@ -7,7 +7,7 @@ old-location: ics\istaticportmapping_get_internalport.htm
 old-project: ICS
 ms.assetid: 21b07be3-a838-4e7c-b521-100e2422f8b1
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: IStaticPortMapping, IStaticPortMapping interface [ICS/ICF], get_InternalPort method, IStaticPortMapping::get_InternalPort, _ics_istaticportmapping_get_internalport, get_InternalPort method [ICS/ICF], get_InternalPort method [ICS/ICF], IStaticPortMapping interface, get_InternalPort,IStaticPortMapping.get_InternalPort, ics.istaticportmapping_get_internalport, natupnp/IStaticPortMapping::get_InternalPort
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IStaticPortMapping::get_InternalPort method

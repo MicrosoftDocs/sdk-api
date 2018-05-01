@@ -7,7 +7,7 @@ old-location: security\icspalgorithm_defaultlength_property.htm
 old-project: SecCertEnroll
 ms.assetid: 03a487e0-5ba4-4065-86e9-bed667db6ff9
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: DefaultLength property [Security], DefaultLength property [Security], ICspAlgorithm interface, ICspAlgorithm, ICspAlgorithm interface [Security], DefaultLength property, ICspAlgorithm.DefaultLength, ICspAlgorithm::get_DefaultLength, certenroll/ICspAlgorithm::DefaultLength, certenroll/ICspAlgorithm::get_DefaultLength, get_DefaultLength,ICspAlgorithm.get_DefaultLength, security.icspalgorithm_defaultlength_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

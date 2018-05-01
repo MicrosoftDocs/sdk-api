@@ -7,7 +7,7 @@ old-location: cos\icrmcompensator_begincommit.htm
 old-project: cossdk
 ms.assetid: 350f91f9-b019-4c70-9c3e-0d567479d3d0
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: BeginCommit method [COM+], BeginCommit method [COM+], ICrmCompensator interface, BeginCommit,ICrmCompensator.BeginCommit, ICrmCompensator, ICrmCompensator interface [COM+], BeginCommit method, ICrmCompensator::BeginCommit, _dtc_ICrmCompensator_BeginCommit, comsvcs/ICrmCompensator::BeginCommit, cos.icrmcompensator_begincommit
 ms.prod: windows-hardware
 ms.technology: windows-devices

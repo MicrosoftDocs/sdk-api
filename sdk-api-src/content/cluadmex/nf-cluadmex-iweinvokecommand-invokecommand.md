@@ -7,7 +7,7 @@ old-location: mscs\iweinvokecommand_invokecommand.htm
 old-project: MsCS
 ms.assetid: 1e723535-d786-496f-bc16-5b10a8a22383
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: IWEInvokeCommand, IWEInvokeCommand interface [Failover Cluster], InvokeCommand method, IWEInvokeCommand::InvokeCommand, InvokeCommand method [Failover Cluster], InvokeCommand method [Failover Cluster], IWEInvokeCommand interface, InvokeCommand,IWEInvokeCommand.InvokeCommand, _wolf_iweinvokecommand_invokecommand, cluadmex/IWEInvokeCommand::InvokeCommand, mscs.iweinvokecommand_invokecommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: LOG_MANAGEMENT_CALLBACKS, *PLOG_MANAGEMENT_CALLBACKS
+req.typenames: Sources
 topic_type:
 -	APIRef
 -	kbSyntax

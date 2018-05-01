@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomation_AddFocusChangedEventHandler.htm
 old-project: WinAuto
 ms.assetid: 469e9c3e-366f-4c13-8c27-58fdb705d4d9
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: AddFocusChangedEventHandler method [Windows Accessibility], AddFocusChangedEventHandler method [Windows Accessibility], IUIAutomation interface, AddFocusChangedEventHandler,IUIAutomation.AddFocusChangedEventHandler, IUIAutomation, IUIAutomation interface [Windows Accessibility], AddFocusChangedEventHandler method, IUIAutomation::AddFocusChangedEventHandler, uiauto.uiauto_IUIAutomation_AddFocusChangedEventHandler, uiauto_IUIAutomation_AddFocusChangedEventHandler, uiautomationclient/IUIAutomation::AddFocusChangedEventHandler, winauto.uiauto_IUIAutomation_AddFocusChangedEventHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_subnet_element_data.htm
 old-project: DHCP
 ms.assetid: d6c32be0-a080-42c1-b9bf-3f5da2c4dbe0
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/7/2018
 ms.keywords: "*LPDHCP_SUBNET_ELEMENT_DATA, DHCP_SUBNET_ELEMENT_DATA, DHCP_SUBNET_ELEMENT_DATA structure [DHCP], LPDHCP_SUBNET_ELEMENT_DATA, LPDHCP_SUBNET_ELEMENT_DATA structure pointer [DHCP], _DHCP_SUBNET_ELEMENT_DATA, dhcp.dhcp_subnet_element_data, dhcpsapi/LPDHCP_SUBNET_ELEMENT_DATA, dhcpsapi/_DHCP_SUBNET_ELEMENT_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -57,6 +57,12 @@ The <b>DHCP_SUBNET_ELEMENT_DATA</b> structure defines an element that describes 
 
 
 
+### -field ElementType
+
+
+<a href="https://msdn.microsoft.com/291be329-0588-4b67-835f-4f2b2369772a">DHCP_SUBNET_ELEMENT_TYPE</a> enumeration value describing the type of element in the subsequent field.
+
+
 ### -field Element
 
 
@@ -100,10 +106,6 @@ The <b>DHCP_SUBNET_ELEMENT_DATA</b> structure defines an element that describes 
  
 
 
-### -field ElementType
-
-
-<a href="https://msdn.microsoft.com/291be329-0588-4b67-835f-4f2b2369772a">DHCP_SUBNET_ELEMENT_TYPE</a> enumeration value describing the type of element in the subsequent field.
 
 
 ## -see-also

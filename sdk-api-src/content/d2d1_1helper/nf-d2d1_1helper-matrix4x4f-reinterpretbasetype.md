@@ -7,7 +7,7 @@ old-location: direct2d\matrix4x4f_reinterpretbasetype.htm
 old-project: Direct2D
 ms.assetid: 379F9F01-EE5E-438B-BD0A-F0EB6B92E28F
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: Matrix4x4F, Matrix4x4F interface [Direct2D], ReinterpretBaseType method, Matrix4x4F::ReinterpretBaseType, ReinterpretBaseType method [Direct2D], ReinterpretBaseType method [Direct2D], Matrix4x4F interface, ReinterpretBaseType,Matrix4x4F.ReinterpretBaseType, d2d1_1helper/Matrix4x4F::ReinterpretBaseType, direct2d.matrix4x4f_reinterpretbasetype
 ms.prod: windows-hardware
 ms.technology: windows-devices

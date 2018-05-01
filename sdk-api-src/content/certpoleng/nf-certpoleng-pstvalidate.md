@@ -7,7 +7,7 @@ old-location: security\pstvalidate.htm
 old-project: SecAuthN
 ms.assetid: 4e1c4ebd-977e-4967-8ff6-694be0016276
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/24/2018
 ms.keywords: PstValidate, PstValidate function [Security], certpoleng/PstValidate, security.pstvalidate
 ms.prod: windows-hardware
 ms.technology: windows-devices

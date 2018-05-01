@@ -7,7 +7,7 @@ old-location: perf\pdh_counter_info_str.htm
 old-project: PerfCtrs
 ms.assetid: c9ede50e-85de-4a68-b539-54285c2599cb
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/23/2018
 ms.keywords: "*PPDH_COUNTER_INFO_W, PDH_COUNTER_INFO, PDH_COUNTER_INFO structure [Perf], PDH_COUNTER_INFO_A, PDH_COUNTER_INFO_W, PPDH_COUNTER_INFO, PPDH_COUNTER_INFO structure pointer [Perf], _PDH_COUNTER_INFO_W, _win32_pdh_counter_info_str, base.pdh_counter_info_str, pdh/PDH_COUNTER_INFO, pdh/PDH_COUNTER_INFO_A, pdh/PDH_COUNTER_INFO_W, pdh/PPDH_COUNTER_INFO, perf.pdh_counter_info_str"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _PDH_COUNTER_INFO_W structure
@@ -61,36 +61,6 @@ req.product: Compute Cluster Pack Client Utilities
 ## -struct-fields
 
 
-
-
-### -field szMachineName
-
-<b>Null</b>-terminated string that contains the name of the computer specified in the counter path. Is <b>NULL</b>, if the path does not specify a computer. The string follows this structure in memory.
-
-
-### -field szObjectName
-
-<b>Null</b>-terminated string that contains the name of the performance object specified in the counter path. The string follows this structure in memory.
-
-
-### -field szInstanceName
-
-<b>Null</b>-terminated string that contains the name of the object instance specified in the counter path. Is <b>NULL</b>, if the path does not specify an instance. The string follows this structure in memory.
-
-
-### -field szParentInstance
-
-<b>Null</b>-terminated string that contains the name of the parent instance specified in the counter path. Is <b>NULL</b>, if the path does not specify a parent instance. The string follows this structure in memory.
-
-
-### -field dwInstanceIndex
-
-Instance index specified in the counter path. Is 0, if the path does not specify an instance index.
-
-
-### -field szCounterName
-
-<b>Null</b>-terminated string that contains the counter name. The string follows this structure in memory.
 
 
 ### -field dwLength
@@ -141,6 +111,36 @@ The value passed in the <i>dwUserData</i> parameter when calling <a href="https:
 
 <b>Null</b>-terminated string that specifies the full counter path. The string follows this structure in memory.
 					
+
+
+### -field szMachineName
+
+<b>Null</b>-terminated string that contains the name of the computer specified in the counter path. Is <b>NULL</b>, if the path does not specify a computer. The string follows this structure in memory.
+
+
+### -field szObjectName
+
+<b>Null</b>-terminated string that contains the name of the performance object specified in the counter path. The string follows this structure in memory.
+
+
+### -field szInstanceName
+
+<b>Null</b>-terminated string that contains the name of the object instance specified in the counter path. Is <b>NULL</b>, if the path does not specify an instance. The string follows this structure in memory.
+
+
+### -field szParentInstance
+
+<b>Null</b>-terminated string that contains the name of the parent instance specified in the counter path. Is <b>NULL</b>, if the path does not specify a parent instance. The string follows this structure in memory.
+
+
+### -field dwInstanceIndex
+
+Instance index specified in the counter path. Is 0, if the path does not specify an instance index.
+
+
+### -field szCounterName
+
+<b>Null</b>-terminated string that contains the counter name. The string follows this structure in memory.
 
 
 ### -field szExplainText

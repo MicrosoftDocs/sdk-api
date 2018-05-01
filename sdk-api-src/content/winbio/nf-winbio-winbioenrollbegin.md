@@ -7,7 +7,7 @@ old-location: secbiomet\winbioenrollbegin.htm
 old-project: SecBioMet
 ms.assetid: ee706f2a-f544-4f53-b776-064d32e8acc8
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: WinBioEnrollBegin, WinBioEnrollBegin function [Windows Biometric Framework API], secbiomet.winbioenrollbegin, winbio/WinBioEnrollBegin
 ms.prod: windows-hardware
 ms.technology: windows-devices

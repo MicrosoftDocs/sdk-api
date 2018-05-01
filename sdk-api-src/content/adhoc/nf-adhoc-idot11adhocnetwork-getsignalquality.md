@@ -7,7 +7,7 @@ old-location: nwifi\idot11adhocnetwork_getsignalquality.htm
 old-project: NativeWiFi
 ms.assetid: be31a2ed-c9ba-4894-a295-a88e01639891
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/13/2018
 ms.keywords: GetSignalQuality method [NativeWIFI], GetSignalQuality method [NativeWIFI], IDot11AdHocNetwork interface, GetSignalQuality,IDot11AdHocNetwork.GetSignalQuality, IDot11AdHocNetwork, IDot11AdHocNetwork interface [NativeWIFI], GetSignalQuality method, IDot11AdHocNetwork::GetSignalQuality, adhoc/IDot11AdHocNetwork::GetSignalQuality, nwifi.idot11adhocnetwork_getsignalquality
 ms.prod: windows-hardware
 ms.technology: windows-devices

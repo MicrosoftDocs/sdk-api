@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontrols3_get_currentaudiolanguage.htm
 old-project: WMP
 ms.assetid: 6ea76479-950d-4bbf-a0e9-0e7b4ddecd52
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPControls3, IWMPControls3 interface [Windows Media Player], get_currentAudioLanguage method, IWMPControls3::get_currentAudioLanguage, IWMPControls3get_currentAudioLanguage, get_currentAudioLanguage method [Windows Media Player], get_currentAudioLanguage method [Windows Media Player], IWMPControls3 interface, get_currentAudioLanguage,IWMPControls3.get_currentAudioLanguage, wmp.iwmpcontrols3_get_currentaudiolanguage, wmp/IWMPControls3::get_currentAudioLanguage
 ms.prod: windows-hardware
 ms.technology: windows-devices

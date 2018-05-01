@@ -7,7 +7,7 @@ old-location: dshow\imixerpinconfig_getstreamtransparent.htm
 old-project: DirectShow
 ms.assetid: adee4565-ccc3-4a72-a4ee-c27980868dfa
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetStreamTransparent method [DirectShow], GetStreamTransparent method [DirectShow], IMixerPinConfig interface, GetStreamTransparent,IMixerPinConfig.GetStreamTransparent, IMixerPinConfig, IMixerPinConfig interface [DirectShow], GetStreamTransparent method, IMixerPinConfig::GetStreamTransparent, IMixerPinConfigGetStreamTransparent, dshow.imixerpinconfig_getstreamtransparent, mpconfig/IMixerPinConfig::GetStreamTransparent
 ms.prod: windows-hardware
 ms.technology: windows-devices

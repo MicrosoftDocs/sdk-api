@@ -7,7 +7,7 @@ old-location: security\cryptxmldigestreference.htm
 old-project: SecCrypto
 ms.assetid: 781bacc2-6783-4884-8290-a36f917c17c1
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: CRYPT_XML_REFERENCE_DATA_TRANSFORMED, CryptXmlDigestReference, CryptXmlDigestReference function [Security], cryptxml/CryptXmlDigestReference, security.cryptxmldigestreference
 ms.prod: windows-hardware
 ms.technology: windows-devices

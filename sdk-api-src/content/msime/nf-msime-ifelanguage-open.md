@@ -7,7 +7,7 @@ old-location: intl\ifelanguage_open.htm
 old-project: Intl
 ms.assetid: 2E1CEC6B-B0EA-4DBE-A122-D44606B467CC
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/25/2018
 ms.keywords: IFELanguage, IFELanguage interface [Internationalization for Windows Applications], Open method, IFELanguage::Open, Open method [Internationalization for Windows Applications], Open method [Internationalization for Windows Applications], IFELanguage interface, Open,IFELanguage.Open, intl.ifelanguage_open, msime/IFELanguage::Open
 ms.prod: windows-hardware
 ms.technology: windows-devices

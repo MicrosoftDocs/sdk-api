@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomation_CheckNotSupported.htm
 old-project: WinAuto
 ms.assetid: c7fd7d1e-3f7b-4700-9263-2cab6e0de896
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: CheckNotSupported method [Windows Accessibility], CheckNotSupported method [Windows Accessibility], IUIAutomation interface, CheckNotSupported,IUIAutomation.CheckNotSupported, IUIAutomation, IUIAutomation interface [Windows Accessibility], CheckNotSupported method, IUIAutomation::CheckNotSupported, uiauto.uiauto_IUIAutomation_CheckNotSupported, uiauto_IUIAutomation_CheckNotSupported, uiautomationclient/IUIAutomation::CheckNotSupported, winauto.uiauto_IUIAutomation_CheckNotSupported
 ms.prod: windows-hardware
 ms.technology: windows-devices

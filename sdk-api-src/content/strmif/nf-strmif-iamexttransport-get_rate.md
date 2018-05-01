@@ -7,7 +7,7 @@ old-location: dshow\iamexttransport_get_rate.htm
 old-project: DirectShow
 ms.assetid: 35a2fb2b-0963-4bdb-86a4-b5950b48a834
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMExtTransport, IAMExtTransport interface [DirectShow], get_Rate method, IAMExtTransport::get_Rate, IAMExtTransportget_Rate, dshow.iamexttransport_get_rate, get_Rate method [DirectShow], get_Rate method [DirectShow], IAMExtTransport interface, get_Rate,IAMExtTransport.get_Rate, strmif/IAMExtTransport::get_Rate
 ms.prod: windows-hardware
 ms.technology: windows-devices

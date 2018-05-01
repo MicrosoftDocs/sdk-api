@@ -7,7 +7,7 @@ old-location: mf\imfsourcebuffer.htm
 old-project: medfound
 ms.assetid: f241e232-9013-46d0-be97-2d6b5246cff3
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFSourceBuffer, IMFSourceBuffer interface [Media Foundation], IMFSourceBuffer interface [Media Foundation], described, mf.imfsourcebuffer, mfmediaengine/IMFSourceBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxservernotify.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_8dtl.htm
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/18/2018
 ms.keywords: IFaxServerNotify, IFaxServerNotify interface [Fax Service], IFaxServerNotify interface [Fax Service], described, _mfax_ifaxservernotify, fax._mfax_ifaxservernotify, faxcomex/IFaxServerNotify
 ms.prod: windows-hardware
 ms.technology: windows-devices

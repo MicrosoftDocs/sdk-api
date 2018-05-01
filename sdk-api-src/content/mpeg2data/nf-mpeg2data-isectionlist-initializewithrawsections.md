@@ -7,7 +7,7 @@ old-location: mstv\isectionlist_initializewithrawsections.htm
 old-project: mstv
 ms.assetid: 61f1e99b-c375-4aa3-a11b-7e24c35f71ca
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: ISectionList, ISectionList interface [Microsoft TV Technologies], InitializeWithRawSections method, ISectionList::InitializeWithRawSections, ISectionListInitializeWithRawSections, InitializeWithRawSections method [Microsoft TV Technologies], InitializeWithRawSections method [Microsoft TV Technologies], ISectionList interface, InitializeWithRawSections,ISectionList.InitializeWithRawSections, mpeg2data/ISectionList::InitializeWithRawSections, mstv.isectionlist_initializewithrawsections
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11debug_validatecontextfordispatch.htm
 old-project: direct3d11
 ms.assetid: 0ddabb4f-eeed-46d4-a1d2-501180edffe0
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/6/2018
 ms.keywords: ID3D11Debug, ID3D11Debug interface [Direct3D 11], ValidateContextForDispatch method, ID3D11Debug::ValidateContextForDispatch, ValidateContextForDispatch method [Direct3D 11], ValidateContextForDispatch method [Direct3D 11], ID3D11Debug interface, ValidateContextForDispatch,ID3D11Debug.ValidateContextForDispatch, d3d11sdklayers/ID3D11Debug::ValidateContextForDispatch, direct3d11.id3d11debug_validatecontextfordispatch
 ms.prod: windows-hardware
 ms.technology: windows-devices

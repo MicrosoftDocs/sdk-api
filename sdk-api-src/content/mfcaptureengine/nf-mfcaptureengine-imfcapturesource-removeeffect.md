@@ -7,7 +7,7 @@ old-location: mf\imfcapturesource_removeeffect.htm
 old-project: medfound
 ms.assetid: 5FF2EF1C-1BF0-4CF7-95AB-1BB10025D66F
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFCaptureSource, IMFCaptureSource interface [Media Foundation], RemoveEffect method, IMFCaptureSource::RemoveEffect, MF_CAPTURE_ENGINE_FIRST_SOURCE_AUDIO_STREAM, MF_CAPTURE_ENGINE_FIRST_SOURCE_PHOTO_STREAM, MF_CAPTURE_ENGINE_FIRST_SOURCE_VIDEO_STREAM, RemoveEffect method [Media Foundation], RemoveEffect method [Media Foundation], IMFCaptureSource interface, RemoveEffect,IMFCaptureSource.RemoveEffect, mf.imfcapturesource_removeeffect, mfcaptureengine/IMFCaptureSource::RemoveEffect
 ms.prod: windows-hardware
 ms.technology: windows-devices

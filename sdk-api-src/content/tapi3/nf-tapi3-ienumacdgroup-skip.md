@@ -7,7 +7,7 @@ old-location: tapi3\ienumacdgroup_skip.htm
 old-project: Tapi
 ms.assetid: 58f794cc-da10-4772-9afe-078337b7734b
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: IEnumACDGroup, IEnumACDGroup interface [TAPI 2.2], Skip method, IEnumACDGroup::Skip, Skip method [TAPI 2.2], Skip method [TAPI 2.2], IEnumACDGroup interface, Skip,IEnumACDGroup.Skip, _tapi3_ienumacdgroup_skip, tapi3.ienumacdgroup_skip, tapi3cc/IEnumACDGroup::Skip
 ms.prod: windows-hardware
 ms.technology: windows-devices

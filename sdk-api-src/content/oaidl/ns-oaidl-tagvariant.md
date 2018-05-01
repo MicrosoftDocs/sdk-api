@@ -7,7 +7,7 @@ old-location: automat\variant.htm
 old-project: automat
 ms.assetid: e305240e-9e11-4006-98cc-26f4932d2118
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: "*LPVARIANT, *LPVARIANTARG, LPVARIANT, LPVARIANT structure pointer [Automation], LPVARIANTARG, LPVARIANTARG structure pointer [Automation], VARIANT, VARIANT structure [Automation], VARIANTARG, VARIANTARG structure [Automation], _oa96_VARIANT_and_VARIANTARG, automat.variant, oaidl/LPVARIANT, oaidl/LPVARIANTARG, oaidl/VARIANT, oaidl/VARIANTARG, tagVARIANT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # tagVARIANT structure
@@ -75,6 +75,34 @@ A decimal value.
 
 <b>Type: <b>struct __tagVARIANT</b>
 </b>
+
+### -field __VARIANT_NAME_1.__VARIANT_NAME_2.vt
+
+<b>Type: <b>VARTYPE</b>
+</b>
+The type of data in the union.
+
+
+### -field __VARIANT_NAME_1.__VARIANT_NAME_2.wReserved1
+
+<b>Type: <b>WORD</b>
+</b>
+Reserved.
+
+
+### -field __VARIANT_NAME_1.__VARIANT_NAME_2.wReserved2
+
+<b>Type: <b>WORD</b>
+</b>
+Reserved.
+
+
+### -field __VARIANT_NAME_1.__VARIANT_NAME_2.wReserved3
+
+<b>Type: <b>WORD</b>
+</b>
+Reserved.
+
 
 ### -field __VARIANT_NAME_1.__VARIANT_NAME_2.__VARIANT_NAME_3
 
@@ -444,32 +472,4 @@ A reference to a database record.
 <b>Type: <b><a href="https://msdn.microsoft.com/065ebfa8-bfac-4c75-a3f9-9dc0409ea454">IRecordInfo</a>*</b>
 </b>
 A reference to a UDT.
-
-
-### -field __VARIANT_NAME_1.__VARIANT_NAME_2.vt
-
-<b>Type: <b>VARTYPE</b>
-</b>
-The type of data in the union.
-
-
-### -field __VARIANT_NAME_1.__VARIANT_NAME_2.wReserved1
-
-<b>Type: <b>WORD</b>
-</b>
-Reserved.
-
-
-### -field __VARIANT_NAME_1.__VARIANT_NAME_2.wReserved2
-
-<b>Type: <b>WORD</b>
-</b>
-Reserved.
-
-
-### -field __VARIANT_NAME_1.__VARIANT_NAME_2.wReserved3
-
-<b>Type: <b>WORD</b>
-</b>
-Reserved.
 

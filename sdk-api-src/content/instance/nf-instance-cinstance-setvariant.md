@@ -7,7 +7,7 @@ old-location: wmi\cinstance_setvariant.htm
 old-project: WmiSdk
 ms.assetid: 45201e64-2ecc-4a18-9f41-2392dfe50caf
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: "?SetVariant@CInstance@@QAE_NPBGABUtagVARIANT@@@Z, CInstance, CInstance interface [Windows Management Instrumentation], SetVariant method, CInstance::SetVariant, SetVariant method [Windows Management Instrumentation], SetVariant method [Windows Management Instrumentation], CInstance interface, SetVariant,CInstance.SetVariant, _hmm_cinstance_setvariant, instance/CInstance::SetVariant, wmi.cinstance_setvariant"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: InputScope
+req.typenames: TrustLevel
 topic_type:
 -	APIRef
 -	kbSyntax

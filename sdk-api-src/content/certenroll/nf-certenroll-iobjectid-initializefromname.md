@@ -7,7 +7,7 @@ old-location: security\iobjectid_initializefromname_method.htm
 old-project: SecCertEnroll
 ms.assetid: dce84308-aecc-4841-88da-e948313b90b3
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: IObjectId, IObjectId interface [Security], InitializeFromName method, IObjectId::InitializeFromName, InitializeFromName method [Security], InitializeFromName method [Security], IObjectId interface, InitializeFromName,IObjectId.InitializeFromName, certenroll/IObjectId::InitializeFromName, security.iobjectid_initializefromname_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

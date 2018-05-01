@@ -7,7 +7,7 @@ old-location: security\cryptxmlopentoencode.htm
 old-project: SecCrypto
 ms.assetid: a313d14c-03fc-4719-bacd-c7b3e5ce2dba
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: CRYPT_XML_FLAG_DISABLE_EXTENSIONS, CRYPT_XML_FLAG_NO_SERIALIZE, CryptXmlOpenToEncode, CryptXmlOpenToEncode function [Security], cryptxml/CryptXmlOpenToEncode, security.cryptxmlopentoencode
 ms.prod: windows-hardware
 ms.technology: windows-devices

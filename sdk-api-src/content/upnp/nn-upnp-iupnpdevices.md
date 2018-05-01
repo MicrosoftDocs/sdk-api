@@ -7,7 +7,7 @@ old-location: upnp\iupnpdevices.htm
 old-project: UPnP
 ms.assetid: 237715dc-2b5a-45b4-b006-d31c0b4e89e3
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/25/2018
 ms.keywords: IUPnPDevices, IUPnPDevices interface [UPnP APIs], IUPnPDevices interface [UPnP APIs], described, _upnp_iupnpdevices, upnp.iupnpdevices, upnp/IUPnPDevices
 ms.prod: windows-hardware
 ms.technology: windows-devices

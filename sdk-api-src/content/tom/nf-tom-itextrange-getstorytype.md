@@ -7,7 +7,7 @@ old-location: controls\ITextRange_GetStoryType.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getstorytype.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: GetStoryType method [Windows Controls], GetStoryType method [Windows Controls], ITextRange interface, GetStoryType,ITextRange.GetStoryType, ITextRange, ITextRange interface [Windows Controls], GetStoryType method, ITextRange::GetStoryType, _win32_ITextRange_GetStoryType, _win32_ITextRange_GetStoryType_cpp, controls.ITextRange_GetStoryType, controls._win32_ITextRange_GetStoryType, tom/ITextRange::GetStoryType
 ms.prod: windows-hardware
 ms.technology: windows-devices

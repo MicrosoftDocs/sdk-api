@@ -7,7 +7,7 @@ old-location: cos\itransactionresourcepool.htm
 old-project: cossdk
 ms.assetid: bf7ca849-6025-4358-bf2d-629d80e06a04
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: ITransactionResourcePool, ITransactionResourcePool interface [COM+], ITransactionResourcePool interface [COM+], described, _cos_ITransactionResourcePool, comsvcs/ITransactionResourcePool, cos.itransactionresourcepool
 ms.prod: windows-hardware
 ms.technology: windows-devices

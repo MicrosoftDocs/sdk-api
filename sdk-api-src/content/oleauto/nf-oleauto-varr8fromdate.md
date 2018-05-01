@@ -7,7 +7,7 @@ old-location: automat\varr8fromdate.htm
 old-project: automat
 ms.assetid: 20d5e917-e350-43da-8fce-e76ab95b90f7
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: VarR8FromDate, VarR8FromDate function [Automation], _oa96_VarR8FromDate, automat.varr8fromdate, oleauto/VarR8FromDate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # VarR8FromDate function

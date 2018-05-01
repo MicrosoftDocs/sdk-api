@@ -7,7 +7,7 @@ old-location: controls\itextdisplays.htm
 old-project: Controls
 ms.assetid: e7266734-c066-4f80-8d3d-99ffb251cd39
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextDisplays, ITextDisplays interface [Windows Controls], ITextDisplays interface [Windows Controls], described, controls.itextdisplays, tom/ITextDisplays
 ms.prod: windows-hardware
 ms.technology: windows-devices

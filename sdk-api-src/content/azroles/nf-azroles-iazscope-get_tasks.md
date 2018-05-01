@@ -7,7 +7,7 @@ old-location: security\iazscope_tasks.htm
 old-project: SecAuthZ
 ms.assetid: 4b8a5280-570d-46eb-a6cb-2723cde3eb15
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: AzScope object [Security], Tasks property, IAzScope, IAzScope interface [Security], Tasks property, IAzScope.Tasks, IAzScope::get_Tasks, Tasks property [Security], Tasks property [Security], AzScope object, Tasks property [Security], IAzScope interface, azroles/IAzScope::Tasks, azroles/IAzScope::get_Tasks, get_Tasks,IAzScope.get_Tasks, security.iazscope_tasks
 ms.prod: windows-hardware
 ms.technology: windows-devices

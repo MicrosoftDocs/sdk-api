@@ -7,7 +7,7 @@ old-location: wmformat\iwmreaderallocatorex_allocateforstreamex.htm
 old-project: wmformat
 ms.assetid: bb12f0e1-dc9c-447e-a28d-30c45eb95d09
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: AllocateForStreamEx method [windows Media Format], AllocateForStreamEx method [windows Media Format], IWMReaderAllocatorEx interface, AllocateForStreamEx,IWMReaderAllocatorEx.AllocateForStreamEx, IWMReaderAllocatorEx, IWMReaderAllocatorEx interface [windows Media Format], AllocateForStreamEx method, IWMReaderAllocatorEx::AllocateForStreamEx, IWMReaderAllocatorExAllocateForStreamEx, wmformat.iwmreaderallocatorex_allocateforstreamex, wmsdkidl/IWMReaderAllocatorEx::AllocateForStreamEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

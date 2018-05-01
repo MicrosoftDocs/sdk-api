@@ -7,7 +7,7 @@ old-location: rras\mpradminterminatedll.htm
 old-project: RRAS
 ms.assetid: 7be485ce-fd45-4968-9e9d-2128d5a8967d
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: MprAdminTerminateDll, MprAdminTerminateDll callback function [RAS], _mpr_mpradminterminatedll, mprapi/MprAdminTerminateDll, rras.mpradminterminatedll
 ms.prod: windows-hardware
 ms.technology: windows-devices

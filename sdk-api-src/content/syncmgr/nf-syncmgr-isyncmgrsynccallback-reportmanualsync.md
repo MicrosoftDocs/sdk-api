@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrSyncCallback_ReportManualSync.htm
 old-project: shell
 ms.assetid: 1e503f8f-ebfa-4ac9-a6de-e9127919c758
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ISyncMgrSyncCallback, ISyncMgrSyncCallback interface [Windows Shell], ReportManualSync method, ISyncMgrSyncCallback::ReportManualSync, ReportManualSync method [Windows Shell], ReportManualSync method [Windows Shell], ISyncMgrSyncCallback interface, ReportManualSync,ISyncMgrSyncCallback.ReportManualSync, _shell_ISyncMgrSyncCallback_ReportManualSync, shell.ISyncMgrSyncCallback_ReportManualSync, syncmgr/ISyncMgrSyncCallback::ReportManualSync
 ms.prod: windows-hardware
 ms.technology: windows-devices

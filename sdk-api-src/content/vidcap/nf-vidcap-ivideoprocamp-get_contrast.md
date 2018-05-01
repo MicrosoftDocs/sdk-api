@@ -7,7 +7,7 @@ old-location: dshow\ivideoprocamp_get_contrast.htm
 old-project: DirectShow
 ms.assetid: 04c63013-33f1-42c0-9239-ec012c9a0528
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IVideoProcAmp, IVideoProcAmp interface [DirectShow], get_Contrast method, IVideoProcAmp::get_Contrast, IVideoProcAmpget_Contrast, dshow.ivideoprocamp_get_contrast, get_Contrast method [DirectShow], get_Contrast method [DirectShow], IVideoProcAmp interface, get_Contrast,IVideoProcAmp.get_Contrast, vidcap/IVideoProcAmp::get_Contrast
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: VIDEOHDR, *PVIDEOHDR, *LPVIDEOHDR
+req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
 topic_type:
 -	APIRef
 -	kbSyntax

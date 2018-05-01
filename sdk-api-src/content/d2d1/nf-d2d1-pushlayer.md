@@ -7,7 +7,7 @@ old-location: direct2d\id2d1rendertarget_push_layer.htm
 old-project: Direct2D
 ms.assetid: 9336662c-e94e-40ba-adbe-066d704958bc
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: PushLayer, PushLayer methods [Direct2D], d2d1_1/PushLayer, direct2d.id2d1rendertarget_push_layer
 ms.prod: windows-hardware
 ms.technology: windows-devices

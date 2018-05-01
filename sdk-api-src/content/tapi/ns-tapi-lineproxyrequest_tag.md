@@ -7,7 +7,7 @@ old-location: tapi2\lineproxyrequest_str.htm
 old-project: Tapi
 ms.assetid: 52c9b96e-4c59-46bf-ad37-78bcfc5e8dc3
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: "*LPLINEPROXYREQUEST, LINEPROXYREQUEST, LINEPROXYREQUEST structure [TAPI 2.2], LPLINEPROXYREQUEST, LPLINEPROXYREQUEST structure pointer [TAPI 2.2], _tapi2_lineproxyrequest_str, lineproxyrequest_tag, tapi/LINEPROXYREQUEST, tapi/LPLINEPROXYREQUEST, tapi2.lineproxyrequest_str"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,6 +60,46 @@ The
 ## -struct-fields
 
 
+
+
+### -field dwSize
+
+Total number of bytes allocated by TAPI to contain the 
+<b>LINEPROXYREQUEST</b> structure. The <b>dwTotalSize</b> member of any structure contained within 
+<b>LINEPROXYREQUEST</b> (for example, 
+<a href="https://msdn.microsoft.com/e4c5ece8-7b29-4154-9b38-f2b17049446f">LINEAGENTCAPS</a>) reflects only the number of bytes allocated for that specific structure.
+Total size, in bytes, of the <i>Params</i> parameter block.
+
+
+### -field dwClientMachineNameSize
+
+Size of the client machine name string, in bytes, including the <b>null</b>-terminating character.
+
+
+### -field dwClientMachineNameOffset
+
+Offset from the beginning of the structure to a <b>null</b>-terminated string identifying the client machine that made this request. The size of the string is specified by <b>dwClientMachineNameSize</b>.
+
+
+### -field dwClientUserNameSize
+
+Size of the client user name string, in bytes, including the <b>null</b>-terminating character.
+
+
+### -field dwClientUserNameOffset
+
+Offset from the beginning of the structure to a <b>null</b>-terminated string identifying the user under whose account the application is running on the client machine. The size of the string is specified by <b>dwClientUserNameSize</b>.
+
+
+### -field dwClientAppAPIVersion
+
+Highest API version supported by the application that made the request. The proxy handler should restrict the contents of any data returned to the application to those members and values that were defined in this, or earlier, versions of TAPI.
+
+
+### -field dwRequestType
+
+One of the 
+<a href="https://msdn.microsoft.com/5c05a567-cc65-411e-b049-919a442c5c57">LINEPROXYREQUEST_ Constants</a>. Identifies the type of function and the union component that defines the remaining data in the structure.
 
 
 ### -field SetAgentGroup
@@ -501,46 +541,6 @@ Union component used when <b>dwRequestType</b> is LINEPROXYREQUEST_GETGROUPLIST.
 
 Structure of type 
 <a href="https://msdn.microsoft.com/6189eb8e-20a4-4c87-bc7f-0a6af9605be7">LINEAGENTGROUPLIST</a>.
-
-
-### -field dwSize
-
-Total number of bytes allocated by TAPI to contain the 
-<b>LINEPROXYREQUEST</b> structure. The <b>dwTotalSize</b> member of any structure contained within 
-<b>LINEPROXYREQUEST</b> (for example, 
-<a href="https://msdn.microsoft.com/e4c5ece8-7b29-4154-9b38-f2b17049446f">LINEAGENTCAPS</a>) reflects only the number of bytes allocated for that specific structure.
-Total size, in bytes, of the <i>Params</i> parameter block.
-
-
-### -field dwClientMachineNameSize
-
-Size of the client machine name string, in bytes, including the <b>null</b>-terminating character.
-
-
-### -field dwClientMachineNameOffset
-
-Offset from the beginning of the structure to a <b>null</b>-terminated string identifying the client machine that made this request. The size of the string is specified by <b>dwClientMachineNameSize</b>.
-
-
-### -field dwClientUserNameSize
-
-Size of the client user name string, in bytes, including the <b>null</b>-terminating character.
-
-
-### -field dwClientUserNameOffset
-
-Offset from the beginning of the structure to a <b>null</b>-terminated string identifying the user under whose account the application is running on the client machine. The size of the string is specified by <b>dwClientUserNameSize</b>.
-
-
-### -field dwClientAppAPIVersion
-
-Highest API version supported by the application that made the request. The proxy handler should restrict the contents of any data returned to the application to those members and values that were defined in this, or earlier, versions of TAPI.
-
-
-### -field dwRequestType
-
-One of the 
-<a href="https://msdn.microsoft.com/5c05a567-cc65-411e-b049-919a442c5c57">LINEPROXYREQUEST_ Constants</a>. Identifies the type of function and the union component that defines the remaining data in the structure.
 
 
 ## -remarks

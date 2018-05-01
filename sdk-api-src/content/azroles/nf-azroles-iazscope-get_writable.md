@@ -7,7 +7,7 @@ old-location: security\iazscope_writable.htm
 old-project: SecAuthZ
 ms.assetid: 8e382af1-192f-4530-82a0-434f66eac060
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: AzScope object [Security], Writable property, IAzScope, IAzScope interface [Security], Writable property, IAzScope.Writable, IAzScope::get_Writable, Writable property [Security], Writable property [Security], AzScope object, Writable property [Security], IAzScope interface, azroles/IAzScope::Writable, azroles/IAzScope::get_Writable, get_Writable,IAzScope.get_Writable, security.iazscope_writable
 ms.prod: windows-hardware
 ms.technology: windows-devices

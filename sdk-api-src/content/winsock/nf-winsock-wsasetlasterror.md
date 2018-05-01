@@ -7,7 +7,7 @@ old-location: winsock\wsasetlasterror_2.htm
 old-project: WinSock
 ms.assetid: 596155ee-3dcc-4ae3-97ab-0653e019cbee
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/24/2018
 ms.keywords: WSASetLastError, WSASetLastError function [Winsock], _win32_wsasetlasterror_2, winsock.wsasetlasterror_2, winsock/WSASetLastError
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: ics\inetfwmgr_currentprofiletype.htm
 old-project: ICS
 ms.assetid: fa6d79a8-37e4-4172-a6be-3ca803c0feca
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: CurrentProfileType property [ICS/ICF], CurrentProfileType property [ICS/ICF], INetFwMgr interface, INetFwMgr, INetFwMgr interface [ICS/ICF], CurrentProfileType property, INetFwMgr.CurrentProfileType, INetFwMgr::get_CurrentProfileType, get_CurrentProfileType,INetFwMgr.get_CurrentProfileType, ics.inetfwmgr_currentprofiletype, netfw/INetFwMgr::CurrentProfileType, netfw/INetFwMgr::get_CurrentProfileType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: 
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # INetFwMgr::get_CurrentProfileType method

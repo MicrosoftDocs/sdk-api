@@ -7,7 +7,7 @@ old-location: mf\imfasfsplitter_setflags.htm
 old-project: medfound
 ms.assetid: 5c70e5a0-7dd5-49c5-af35-4d9568871b41
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 5c70e5a0-7dd5-49c5-af35-4d9568871b41, IMFASFSplitter, IMFASFSplitter interface [Media Foundation], SetFlags method, IMFASFSplitter::SetFlags, SetFlags method [Media Foundation], SetFlags method [Media Foundation], IMFASFSplitter interface, SetFlags,IMFASFSplitter.SetFlags, mf.imfasfsplitter_setflags, wmcontainer/IMFASFSplitter::SetFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices

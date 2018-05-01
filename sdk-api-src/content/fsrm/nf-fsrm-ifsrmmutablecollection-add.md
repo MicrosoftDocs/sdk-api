@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmmutablecollection_add.htm
 old-project: Fsrm
 ms.assetid: 916f01de-c87c-450c-859a-c349a165f91d
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: Add method [File Server Resource Manager], Add method [File Server Resource Manager], IFsrmMutableCollection interface, Add,IFsrmMutableCollection.Add, IFsrmMutableCollection, IFsrmMutableCollection interface [File Server Resource Manager], Add method, IFsrmMutableCollection::Add, fs.ifsrmmutablecollection_add, fsrm.ifsrmmutablecollection_add, fsrm/IFsrmMutableCollection::Add
 ms.prod: windows-hardware
 ms.technology: windows-devices

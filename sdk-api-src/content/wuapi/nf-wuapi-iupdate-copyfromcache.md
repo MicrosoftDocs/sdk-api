@@ -7,7 +7,7 @@ old-location: wua\iupdate_copyfromcache.htm
 old-project: Wua_Sdk
 ms.assetid: 43af8bb9-0e09-4541-bc2e-fd40be64a980
 ms.author: windowsdriverdev
-ms.date: 3/15/2018
+ms.date: 4/18/2018
 ms.keywords: CopyFromCache method [Windows Update Agent], CopyFromCache method [Windows Update Agent], IUpdate interface, CopyFromCache,IUpdate.CopyFromCache, IUpdate, IUpdate interface [Windows Update Agent], CopyFromCache method, IUpdate::CopyFromCache, wua.iupdate_copyfromcache, wuapi/IUpdate::CopyFromCache
 ms.prod: windows-hardware
 ms.technology: windows-devices

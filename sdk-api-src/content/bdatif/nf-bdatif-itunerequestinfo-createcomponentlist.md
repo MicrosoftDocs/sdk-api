@@ -7,7 +7,7 @@ old-location: mstv\itunerequestinfo_createcomponentlist.htm
 old-project: mstv
 ms.assetid: cb4ec234-1e94-4c9f-8372-a5972df18948
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: CreateComponentList method [Microsoft TV Technologies], CreateComponentList method [Microsoft TV Technologies], ITuneRequestInfo interface, CreateComponentList,ITuneRequestInfo.CreateComponentList, ITuneRequestInfo, ITuneRequestInfo interface [Microsoft TV Technologies], CreateComponentList method, ITuneRequestInfo::CreateComponentList, ITuneRequestInfoCreateComponentList, bdatif/ITuneRequestInfo::CreateComponentList, mstv.itunerequestinfo_createcomponentlist
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: SpanningEventEmmMessage
+req.typenames: SmartCardApplication
 topic_type:
 -	APIRef
 -	kbSyntax

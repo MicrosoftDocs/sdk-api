@@ -7,7 +7,7 @@ old-location: direct3dhlsl\d3ddisassemble10effect.htm
 old-project: direct3dhlsl
 ms.assetid: VS|directx_sdk|~\d3ddisassemble10effect.htm
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/12/2018
 ms.keywords: 712a7486-754f-69f6-11b7-5bf288ee98af, D3DDisassemble10Effect, D3DDisassemble10Effect function [HLSL], d3dcompiler/D3DDisassemble10Effect, direct3dhlsl.d3ddisassemble10effect
 ms.prod: windows-hardware
 ms.technology: windows-devices

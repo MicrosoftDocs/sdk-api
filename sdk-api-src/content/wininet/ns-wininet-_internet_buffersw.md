@@ -60,16 +60,16 @@ Contains both the data and header information.
 
 
 
-### -field Next
-
-Pointer to the next 
-<b>INTERNET_BUFFERS</b> structure. 
-
-
 ### -field dwStructSize
 
 Size of the 
 structure, in bytes. 
+
+
+### -field Next
+
+Pointer to the next 
+<b>INTERNET_BUFFERS</b> structure. 
 
 
 ### -field lpcszHeader

@@ -7,7 +7,7 @@ old-location: base\ioctl_changer_initialize_element_status.htm
 old-project: DevIO
 ms.assetid: be054a22-cde4-4efd-bd66-eb67b007fd19
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/3/2018
 ms.keywords: IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS, IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS control code, _win32_ioctl_changer_initialize_element_status, base.ioctl_changer_initialize_element_status, winioctl/IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices

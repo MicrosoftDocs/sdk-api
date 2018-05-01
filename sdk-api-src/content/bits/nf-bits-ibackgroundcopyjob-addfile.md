@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyjob_addfile.htm
 old-project: Bits
 ms.assetid: 0dada1d3-49b6-41af-b17f-612f27ea4d56
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/10/2018
 ms.keywords: AddFile method [BITS], AddFile method [BITS], IBackgroundCopyJob interface, AddFile,IBackgroundCopyJob.AddFile, IBackgroundCopyJob, IBackgroundCopyJob interface [BITS], AddFile method, IBackgroundCopyJob::AddFile, _drz_ibackgroundcopyjob_addfile, bits.ibackgroundcopyjob_addfile, bits/IBackgroundCopyJob::AddFile
 ms.prod: windows-hardware
 ms.technology: windows-devices

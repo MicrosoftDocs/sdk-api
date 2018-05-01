@@ -7,13 +7,13 @@ old-location: mf\dxva2_videosample.htm
 old-project: medfound
 ms.assetid: 040ade10-8573-4375-829d-938efa750a12
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
-ms.keywords: 040ade10-8573-4375-829d-938efa750a12, DXVA2_SampleData_RFF, DXVA2_SampleData_RFF_TFF_Present, DXVA2_SampleData_TFF, DXVA2_VideoSample, DXVA2_VideoSample structure [Media Foundation], _DXVA2_VideoSample, dxva2swdev/DXVA2_VideoSample, mf.dxva2_videosample
+ms.date: 4/23/2018
+ms.keywords: 040ade10-8573-4375-829d-938efa750a12, DXVA2_SampleData_RFF, DXVA2_SampleData_RFF_TFF_Present, DXVA2_SampleData_TFF, DXVA2_VideoSample, DXVA2_VideoSample structure [Media Foundation], _DXVA2_VideoSample, dxva2api/DXVA2_VideoSample, mf.dxva2_videosample
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: dxva2api.h
-req.include-header: Dxva2api.h
+req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -33,7 +33,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	dxva2swdev.h
+-	dxva2api.h
 api_name:
 -	DXVA2_VideoSample
 product: Windows

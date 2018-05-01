@@ -7,7 +7,7 @@ old-location: cos\icrmmonitor_holdclerk.htm
 old-project: cossdk
 ms.assetid: 8e0f5197-d423-4b74-aaa1-2ec60e01d75c
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: HoldClerk method [COM+], HoldClerk method [COM+], ICrmMonitor interface, HoldClerk,ICrmMonitor.HoldClerk, ICrmMonitor, ICrmMonitor interface [COM+], HoldClerk method, ICrmMonitor::HoldClerk, _dtc_ICrmMonitor_HoldClerk, comsvcs/ICrmMonitor::HoldClerk, cos.icrmmonitor_holdclerk
 ms.prod: windows-hardware
 ms.technology: windows-devices

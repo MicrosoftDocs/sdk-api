@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmfileconditionproperty_operator.htm
 old-project: Fsrm
 ms.assetid: b04b238b-55df-4467-809f-dbbc4ebd5595
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: IFsrmFileConditionProperty, IFsrmFileConditionProperty interface [File Server Resource Manager], Operator property, IFsrmFileConditionProperty.Operator, IFsrmFileConditionProperty::get_Operator, IFsrmFileConditionProperty::put_Operator, Operator property [File Server Resource Manager], Operator property [File Server Resource Manager], IFsrmFileConditionProperty interface, fs.ifsrmfileconditionproperty_operator, fsrm.ifsrmfileconditionproperty_operator, fsrmreports/IFsrmFileConditionProperty::Operator, fsrmreports/IFsrmFileConditionProperty::get_Operator, fsrmreports/IFsrmFileConditionProperty::put_Operator, get_Operator,IFsrmFileConditionProperty.get_Operator
 ms.prod: windows-hardware
 ms.technology: windows-devices

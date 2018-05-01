@@ -7,7 +7,7 @@ old-location: controls\IImageList_SetBkColor.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\setbkcolor.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: IImageList, IImageList interface [Windows Controls], SetBkColor method, IImageList::SetBkColor, SetBkColor method [Windows Controls], SetBkColor method [Windows Controls], IImageList interface, SetBkColor,IImageList.SetBkColor, comctl_IImageList_SetBkColor, comctl_IImageList_SetBkColor_cpp, commoncontrols/IImageList::SetBkColor, controls.IImageList_SetBkColor, controls.comctl_IImageList_SetBkColor
 ms.prod: windows-hardware
 ms.technology: windows-devices

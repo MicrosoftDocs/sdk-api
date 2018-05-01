@@ -7,7 +7,7 @@ old-location: dxmath\xmshortn4.htm
 old-project: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMSHORTN4
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/23/2018
 ms.keywords: XMSHORTN4, XMSHORTN4 structure [DirectX Math Support APIs], directxpackedvector/XMSHORTN4, dxmath.xmshortn4
 ms.prod: windows-hardware
 ms.technology: windows-devices

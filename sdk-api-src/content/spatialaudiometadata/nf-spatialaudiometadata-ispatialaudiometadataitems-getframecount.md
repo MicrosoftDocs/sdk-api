@@ -7,7 +7,7 @@ old-location: coreaudio\ispatialaudiometadataitems_getframecount.htm
 old-project: CoreAudio
 ms.assetid: 5932E338-AB0E-4D1E-9B7E-36E2D5A76B18
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: GetFrameCount method [Core Audio], GetFrameCount method [Core Audio], ISpatialAudioMetadataItems interface, GetFrameCount,ISpatialAudioMetadataItems.GetFrameCount, ISpatialAudioMetadataItems, ISpatialAudioMetadataItems interface [Core Audio], GetFrameCount method, ISpatialAudioMetadataItems::GetFrameCount, coreaudio.ispatialaudiometadataitems_getframecount, spatialaudiometadata/ISpatialAudioMetadataItems::GetFrameCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

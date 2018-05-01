@@ -7,7 +7,7 @@ old-location: dshow\iamwstdecoder_setholdpage.htm
 old-project: DirectShow
 ms.assetid: 2fea6f52-bae3-4679-a89b-fe85f1232d34
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMWstDecoder, IAMWstDecoder interface [DirectShow], SetHoldPage method, IAMWstDecoder::SetHoldPage, IAMWstDecoderSetHoldPage, SetHoldPage method [DirectShow], SetHoldPage method [DirectShow], IAMWstDecoder interface, SetHoldPage,IAMWstDecoder.SetHoldPage, dshow.iamwstdecoder_setholdpage, iwstdec/IAMWstDecoder::SetHoldPage
 ms.prod: windows-hardware
 ms.technology: windows-devices

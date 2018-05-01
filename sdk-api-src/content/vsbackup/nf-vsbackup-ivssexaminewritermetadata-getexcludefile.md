@@ -7,7 +7,7 @@ old-location: base\ivssexaminewritermetadata_getexcludefile.htm
 old-project: VSS
 ms.assetid: 886d526f-c477-4c1c-80b0-65e3ea227142
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: GetExcludeFile method [VSS], GetExcludeFile method [VSS], IVssExamineWriterMetadata interface, GetExcludeFile,IVssExamineWriterMetadata.GetExcludeFile, IVssExamineWriterMetadata, IVssExamineWriterMetadata interface [VSS], GetExcludeFile method, IVssExamineWriterMetadata::GetExcludeFile, _win32_ivssexaminewritermetadata_getexcludefile, base.ivssexaminewritermetadata_getexcludefile, vsbackup/IVssExamineWriterMetadata::GetExcludeFile
 ms.prod: windows-hardware
 ms.technology: windows-devices

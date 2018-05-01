@@ -7,7 +7,7 @@ old-location: coreaudio\immdeviceenumerator_registerendpointnotificationcallback
 old-project: CoreAudio
 ms.assetid: 2c524f64-0b35-4433-9768-582dcb580a74
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: IMMDeviceEnumerator, IMMDeviceEnumerator interface [Core Audio], RegisterEndpointNotificationCallback method, IMMDeviceEnumerator::RegisterEndpointNotificationCallback, IMMDeviceEnumeratorRegisterEndpointNotificationCal, RegisterEndpointNotificationCallback method [Core Audio], RegisterEndpointNotificationCallback method [Core Audio], IMMDeviceEnumerator interface, RegisterEndpointNotificationCallback,IMMDeviceEnumerator.RegisterEndpointNotificationCallback, coreaudio.immdeviceenumerator_registerendpointnotificationcallback, mmdeviceapi/IMMDeviceEnumerator::RegisterEndpointNotificationCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

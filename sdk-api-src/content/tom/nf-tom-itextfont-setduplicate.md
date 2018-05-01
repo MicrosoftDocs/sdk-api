@@ -7,7 +7,7 @@ old-location: controls\ITextFont_SetDuplicate.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextfont\itextfontsetduplicate.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextFont, ITextFont interface [Windows Controls], SetDuplicate method, ITextFont::SetDuplicate, SetDuplicate method [Windows Controls], SetDuplicate method [Windows Controls], ITextFont interface, SetDuplicate,ITextFont.SetDuplicate, _win32_ITextFont_SetDuplicate, _win32_ITextFont_SetDuplicate_cpp, controls.ITextFont_SetDuplicate, controls._win32_ITextFont_SetDuplicate, tom/ITextFont::SetDuplicate
 ms.prod: windows-hardware
 ms.technology: windows-devices

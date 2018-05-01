@@ -7,7 +7,7 @@ old-location: com\irpcoptions_query.htm
 old-project: com
 ms.assetid: 82f59cad-3718-4202-99d3-c3aafb8dbf56
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IRpcOptions, IRpcOptions interface [COM], Query method, IRpcOptions::Query, Query method [COM], Query method [COM], IRpcOptions interface, Query,IRpcOptions.Query, _com_irpcoptions_query, com.irpcoptions_query, objidlbase/IRpcOptions::Query
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IRpcOptions::Query method

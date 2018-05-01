@@ -7,7 +7,7 @@ old-location: ics\inetsharingconfiguration_get_sharingconnectiontype.htm
 old-project: ICS
 ms.assetid: 29dfc1cf-4b72-4ba8-9a5c-7e7dd20393ee
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: INetSharingConfiguration, INetSharingConfiguration interface [ICS/ICF], get_SharingConnectionType method, INetSharingConfiguration::get_SharingConnectionType, _ics_inetsharingconfiguration_get_sharingconnectiontype, get_SharingConnectionType method [ICS/ICF], get_SharingConnectionType method [ICS/ICF], INetSharingConfiguration interface, get_SharingConnectionType,INetSharingConfiguration.get_SharingConnectionType, ics.inetsharingconfiguration_get_sharingconnectiontype, netcon/INetSharingConfiguration::get_SharingConnectionType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # INetSharingConfiguration::get_SharingConnectionType method

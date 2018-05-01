@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmactionreport.htm
 old-project: Fsrm
 ms.assetid: efff4cec-6985-40aa-a74e-bb2afdeb2a0a
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: IFsrmActionReport, IFsrmActionReport interface [File Server Resource Manager], IFsrmActionReport interface [File Server Resource Manager], described, fs.ifsrmactionreport, fsrm.ifsrmactionreport, fsrm/IFsrmActionReport
 ms.prod: windows-hardware
 ms.technology: windows-devices

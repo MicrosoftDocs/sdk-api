@@ -7,7 +7,7 @@ old-location: automat\irecordinfo_recordcopy.htm
 old-project: automat
 ms.assetid: 0e5a57a2-06d1-47b3-8e3c-c8718b550bcb
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: IRecordInfo, IRecordInfo interface [Automation], RecordCopy method, IRecordInfo::RecordCopy, RecordCopy method [Automation], RecordCopy method [Automation], IRecordInfo interface, RecordCopy,IRecordInfo.RecordCopy, _oa96_IRecordInfo_RecordCopy, automat.irecordinfo_recordcopy, oaidl/IRecordInfo::RecordCopy
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IRecordInfo::RecordCopy method

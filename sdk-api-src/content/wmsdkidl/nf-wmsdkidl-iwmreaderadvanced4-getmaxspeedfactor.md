@@ -7,7 +7,7 @@ old-location: wmformat\iwmreaderadvanced4_getmaxspeedfactor.htm
 old-project: wmformat
 ms.assetid: 5617304f-30ed-4072-a0d7-28463ef90a10
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: GetMaxSpeedFactor method [windows Media Format], GetMaxSpeedFactor method [windows Media Format], IWMReaderAdvanced4 interface, GetMaxSpeedFactor,IWMReaderAdvanced4.GetMaxSpeedFactor, IWMReaderAdvanced4, IWMReaderAdvanced4 interface [windows Media Format], GetMaxSpeedFactor method, IWMReaderAdvanced4::GetMaxSpeedFactor, IWMReaderAdvanced4GetMaxSpeedFactor, wmformat.iwmreaderadvanced4_getmaxspeedfactor, wmsdkidl/IWMReaderAdvanced4::GetMaxSpeedFactor
 ms.prod: windows-hardware
 ms.technology: windows-devices

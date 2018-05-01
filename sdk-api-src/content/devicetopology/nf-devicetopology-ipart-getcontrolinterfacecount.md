@@ -7,7 +7,7 @@ old-location: coreaudio\ipart_getcontrolinterfacecount.htm
 old-project: CoreAudio
 ms.assetid: 8b82f69a-9b15-4bdf-9676-f2015ed67cfc
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: GetControlInterfaceCount method [Core Audio], GetControlInterfaceCount method [Core Audio], IPart interface, GetControlInterfaceCount,IPart.GetControlInterfaceCount, IPart, IPart interface [Core Audio], GetControlInterfaceCount method, IPart::GetControlInterfaceCount, IPartGetControlInterfaceCount, coreaudio.ipart_getcontrolinterfacecount, devicetopology/IPart::GetControlInterfaceCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\pfn_import_public_key_info_ex2_func.htm
 old-project: SecCrypto
 ms.assetid: b8d26a54-1549-4d2b-9cd6-c551407d795d
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: PFN_IMPORT_PUBLIC_KEY_INFO_EX2_FUNC, PFN_IMPORT_PUBLIC_KEY_INFO_EX2_FUNC function pointer [Security], X509_ASN_ENCODING, security.pfn_import_public_key_info_ex2_func, wincrypt/PFN_IMPORT_PUBLIC_KEY_INFO_EX2_FUNC
 ms.prod: windows-hardware
 ms.technology: windows-devices

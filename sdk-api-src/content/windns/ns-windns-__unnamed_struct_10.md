@@ -1,14 +1,14 @@
 ---
 UID: NS:windns.__unnamed_struct_10
-title: DNS_TXT_DATAW
+title: DNS_MX_DATAA
 author: windows-driver-content
-description: The DNS_TXT_DATA structure represents a DNS text (TXT) record as specified in section 3.3.14 of RFC 1035.
-old-location: dns\dns_txt_data.htm
+description: The DNS_MX_DATA structure represents a DNS mail exchanger (MX) record as specified in section 3.3.9 of RFC 1035.
+old-location: dns\dns_mx_data.htm
 old-project: DNS
-ms.assetid: 3ff643e2-d736-45d5-8cf8-ab5e63caf44b
+ms.assetid: 72a0b42e-a7af-42d2-b672-cf06d0b5d1ba
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
-ms.keywords: "*PDNS_TXT_DATA, *PDNS_TXT_DATAW, DNS_TXT_DATA, DNS_TXT_DATA structure [DNS], DNS_TXT_DATAW, PDNS_TXT_DATA, PDNS_TXT_DATA structure pointer [DNS], _dns_dns_txt_data, dns.dns_txt_data, windns/DNS_TXT_DATA, windns/PDNS_TXT_DATA"
+ms.date: 4/18/2018
+ms.keywords: "*PDNS_MX_DATA, *PDNS_MX_DATAA, DNS_MX_DATA, DNS_MX_DATA structure [DNS], DNS_MX_DATAA, PDNS_MX_DATA, PDNS_MX_DATA structure pointer [DNS], _dns_dns_mx_data, dns.dns_mx_data, windns/DNS_MX_DATA, windns/PDNS_MX_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: DNS_TXT_DATAW, *PDNS_TXT_DATAW
+req.typenames: DNS_MX_DATAA, *PDNS_MX_DATAA
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	Windns.h
 api_name:
--	DNS_TXT_DATA
+-	DNS_MX_DATA
 product: Windows
 targetos: Windows
 req.lib: 
@@ -44,14 +44,14 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# DNS_TXT_DATAW structure
+# DNS_MX_DATAA structure
 
 
 ## -description
 
 
 The 
-<b>DNS_TXT_DATA</b> structure represents a DNS text (TXT) record as specified in section 3.3.14 of <a href="http://go.microsoft.com/fwlink/p/?linkid=90264">RFC 1035</a>.
+<b>DNS_MX_DATA</b> structure represents a DNS mail exchanger (MX) record as specified in section 3.3.9 of <a href="http://go.microsoft.com/fwlink/p/?linkid=90264">RFC 1035</a>.
 
 
 ## -struct-fields
@@ -59,14 +59,19 @@ The
 
 
 
-### -field dwStringCount
+### -field pNameExchange
 
-The number of strings represented in <b>pStringArray</b>.
+A pointer to a string that represents the fully qualified domain name (FQDN) of the host willing to act as a mail exchange.
 
 
-### -field pStringArray
+### -field wPreference
 
-An array of strings representing the descriptive text of the TXT resource record.
+A preference given to this resource record among others of the same owner. Lower values are preferred.
+
+
+### -field Pad
+
+Reserved for padding. Do not use.
 
 
 ## -remarks
@@ -74,7 +79,7 @@ An array of strings representing the descriptive text of the TXT resource record
 
 
 The 
-<b>DNS_TXT_DATA</b> structure is used in conjunction with the 
+<b>DNS_MX_DATA</b> structure is used in conjunction with the 
 <a href="https://msdn.microsoft.com/ab7b96a5-346f-4e01-bb2a-885f44764590">DNS_RECORD</a> structure to programmatically manage DNS entries.
 
 

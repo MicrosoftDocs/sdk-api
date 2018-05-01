@@ -7,7 +7,7 @@ old-location: tablet\iinkrecognitionalternate_string.htm
 old-project: tablet
 ms.assetid: 1f603794-3b6a-4e8f-9804-fa4c85d82d1c
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: 1f603794-3b6a-4e8f-9804-fa4c85d82d1c, IInkRecognitionAlternate, IInkRecognitionAlternate interface [Tablet PC], String property, IInkRecognitionAlternate.String, IInkRecognitionAlternate.get_String, IInkRecognitionAlternate::get_String, String property [Tablet PC], String property [Tablet PC], IInkRecognitionAlternate interface, get_String,IInkRecognitionAlternate.get_String, msinkaut/IInkRecognitionAlternate::String, msinkaut/IInkRecognitionAlternate::get_String, tablet.iinkrecognitionalternate_string
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmp\iwmpmediacollection_setdeleted.htm
 old-project: WMP
 ms.assetid: 4bba1e7a-3c1f-4f69-b4ab-68a9cf3b97d0
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPMediaCollection, IWMPMediaCollection interface [Windows Media Player], setDeleted method, IWMPMediaCollection::setDeleted, IWMPMediaCollectionsetDeleted, setDeleted method [Windows Media Player], setDeleted method [Windows Media Player], IWMPMediaCollection interface, setDeleted,IWMPMediaCollection.setDeleted, wmp.iwmpmediacollection_setdeleted, wmp/IWMPMediaCollection::setDeleted
 ms.prod: windows-hardware
 ms.technology: windows-devices

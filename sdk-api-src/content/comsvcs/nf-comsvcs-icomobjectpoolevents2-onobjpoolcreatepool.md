@@ -7,7 +7,7 @@ old-location: cos\icomobjectpoolevents2_onobjpoolcreatepool.htm
 old-project: cossdk
 ms.assetid: fa7a5ee4-8304-426c-9063-d25e2ed69668
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: IComObjectPoolEvents2, IComObjectPoolEvents2 interface [COM+], OnObjPoolCreatePool method, IComObjectPoolEvents2::OnObjPoolCreatePool, OnObjPoolCreatePool method [COM+], OnObjPoolCreatePool method [COM+], IComObjectPoolEvents2 interface, OnObjPoolCreatePool,IComObjectPoolEvents2.OnObjPoolCreatePool, _dtc_IComObjectPoolEvents2_OnObjPoolCreatePool, comsvcs/IComObjectPoolEvents2::OnObjPoolCreatePool, cos.icomobjectpoolevents2_onobjpoolcreatepool
 ms.prod: windows-hardware
 ms.technology: windows-devices

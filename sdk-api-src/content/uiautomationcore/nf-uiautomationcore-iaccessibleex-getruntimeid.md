@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IAccessibleEx_GetRuntimeId.htm
 old-project: WinAuto
 ms.assetid: 00aeac66-398a-4c80-85e2-32bff0ae100f
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: GetRuntimeId method [Windows Accessibility], GetRuntimeId method [Windows Accessibility], IAccessibleEx interface, GetRuntimeId,IAccessibleEx.GetRuntimeId, IAccessibleEx, IAccessibleEx interface [Windows Accessibility], GetRuntimeId method, IAccessibleEx::GetRuntimeId, uiauto.uiauto_IAccessibleEx_GetRuntimeId, uiauto_IAccessibleEx_GetRuntimeId, uiautomationcore/IAccessibleEx::GetRuntimeId, winauto.uiauto_IAccessibleEx_GetRuntimeId
 ms.prod: windows-hardware
 ms.technology: windows-devices

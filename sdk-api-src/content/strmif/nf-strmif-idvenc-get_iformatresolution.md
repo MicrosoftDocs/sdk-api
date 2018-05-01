@@ -7,7 +7,7 @@ old-location: dshow\idvenc_get_iformatresolution.htm
 old-project: DirectShow
 ms.assetid: 5921e19a-d500-4799-88a0-ff2f67bd81af
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IDVEnc, IDVEnc interface [DirectShow], get_IFormatResolution method, IDVEnc::get_IFormatResolution, IDVEncget_IFormatResolution, dshow.idvenc_get_iformatresolution, get_IFormatResolution method [DirectShow], get_IFormatResolution method [DirectShow], IDVEnc interface, get_IFormatResolution,IDVEnc.get_IFormatResolution, strmif/IDVEnc::get_IFormatResolution
 ms.prod: windows-hardware
 ms.technology: windows-devices

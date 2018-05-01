@@ -7,7 +7,7 @@ old-location: wmi\cinstance_getwchar.htm
 old-project: WmiSdk
 ms.assetid: 1c2f3dfc-aa84-4dff-a25b-b8f2ec3afa74
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: CInstance, CInstance interface [Windows Management Instrumentation], GetWCHAR method, CInstance::GetWCHAR, GetWCHAR method [Windows Management Instrumentation], GetWCHAR method [Windows Management Instrumentation], CInstance interface, GetWCHAR,CInstance.GetWCHAR, _hmm_cinstance_getwchar, instance/CInstance::GetWCHAR, wmi.cinstance_getwchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: InputScope
+req.typenames: TrustLevel
 topic_type:
 -	APIRef
 -	kbSyntax

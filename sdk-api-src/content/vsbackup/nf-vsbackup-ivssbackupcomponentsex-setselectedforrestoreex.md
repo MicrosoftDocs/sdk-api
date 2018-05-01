@@ -7,7 +7,7 @@ old-location: base\ivssbackupcomponentsex_setselectedforrestoreex.htm
 old-project: VSS
 ms.assetid: 469e6d61-85c6-4385-92be-df6addefe37f
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: IVssBackupComponentsEx, IVssBackupComponentsEx interface [VSS], SetSelectedForRestoreEx method, IVssBackupComponentsEx::SetSelectedForRestoreEx, SetSelectedForRestoreEx method [VSS], SetSelectedForRestoreEx method [VSS], IVssBackupComponentsEx interface, SetSelectedForRestoreEx,IVssBackupComponentsEx.SetSelectedForRestoreEx, base.ivssbackupcomponentsex_setselectedforrestoreex, vsbackup/IVssBackupComponentsEx::SetSelectedForRestoreEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

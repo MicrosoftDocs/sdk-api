@@ -7,7 +7,7 @@ old-location: mf\mfserializeattributestostream.htm
 old-project: medfound
 ms.assetid: b8bc88e5-19ae-46b3-aa78-a00afee1f481
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: MFSerializeAttributesToStream, MFSerializeAttributesToStream function [Media Foundation], b8bc88e5-19ae-46b3-aa78-a00afee1f481, mf.mfserializeattributestostream, mfobjects/MFSerializeAttributesToStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

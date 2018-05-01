@@ -7,7 +7,7 @@ old-location: cos\contextinfo_getactivityid.htm
 old-project: cossdk
 ms.assetid: 1bc87f84-fc98-4ea3-b137-2a88a25d290d
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: ContextInfo, ContextInfo interface [COM+], GetActivityId method, ContextInfo::GetActivityId, GetActivityId method [COM+], GetActivityId method [COM+], ContextInfo interface, GetActivityId,ContextInfo.GetActivityId, _cos_ContextInfo_GetActivityId, comsvcs/ContextInfo::GetActivityId, cos.contextinfo_getactivityid
 ms.prod: windows-hardware
 ms.technology: windows-devices

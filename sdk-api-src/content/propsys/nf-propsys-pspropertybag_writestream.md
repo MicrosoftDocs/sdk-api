@@ -7,7 +7,7 @@ old-location: properties\PSPropertyBag_WriteStream.htm
 old-project: properties
 ms.assetid: 48C3E7F7-ED7E-4797-A66A-A8529BF2A79C
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/5/2018
 ms.keywords: PSPropertyBag_WriteStream, PSPropertyBag_WriteStream function [Windows Properties], properties.PSPropertyBag_WriteStream, propsys/PSPropertyBag_WriteStream, shell.PSPropertyBag_WriteStream, shell_PSPropertyBag_WriteStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # PSPropertyBag_WriteStream function

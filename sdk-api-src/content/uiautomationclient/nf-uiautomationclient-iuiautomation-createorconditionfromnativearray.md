@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomation_CreateOrConditionFromNativeArray.htm
 old-project: WinAuto
 ms.assetid: 393c777c-f262-462b-ac59-035f590bee1c
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: CreateOrConditionFromNativeArray method [Windows Accessibility], CreateOrConditionFromNativeArray method [Windows Accessibility], IUIAutomation interface, CreateOrConditionFromNativeArray,IUIAutomation.CreateOrConditionFromNativeArray, IUIAutomation, IUIAutomation interface [Windows Accessibility], CreateOrConditionFromNativeArray method, IUIAutomation::CreateOrConditionFromNativeArray, uiauto.uiauto_IUIAutomation_CreateOrConditionFromNativeArray, uiauto_IUIAutomation_CreateOrConditionFromNativeArray, uiautomationclient/IUIAutomation::CreateOrConditionFromNativeArray, winauto.uiauto_IUIAutomation_CreateOrConditionFromNativeArray
 ms.prod: windows-hardware
 ms.technology: windows-devices

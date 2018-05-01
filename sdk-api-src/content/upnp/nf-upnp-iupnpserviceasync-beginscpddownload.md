@@ -7,7 +7,7 @@ old-location: upnp\iupnpserviceasync_beginscpddownload.htm
 old-project: UPnP
 ms.assetid: CA573855-6D86-4C6C-B557-F8E8776BDBD3
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/25/2018
 ms.keywords: BeginSCPDDownload method [UPnP APIs], BeginSCPDDownload method [UPnP APIs], IUPnPServiceAsync interface, BeginSCPDDownload,IUPnPServiceAsync.BeginSCPDDownload, IUPnPServiceAsync, IUPnPServiceAsync interface [UPnP APIs], BeginSCPDDownload method, IUPnPServiceAsync::BeginSCPDDownload, upnp.iupnpserviceasync_beginscpddownload, upnp/IUPnPServiceAsync::BeginSCPDDownload
 ms.prod: windows-hardware
 ms.technology: windows-devices

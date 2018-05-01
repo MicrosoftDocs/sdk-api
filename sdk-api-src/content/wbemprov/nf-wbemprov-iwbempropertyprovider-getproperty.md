@@ -7,7 +7,7 @@ old-location: wmi\iwbempropertyprovider_getproperty.htm
 old-project: WmiSdk
 ms.assetid: 6ee0e904-7f4c-4b32-8a90-d727340b481e
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: GetProperty method [Windows Management Instrumentation], GetProperty method [Windows Management Instrumentation], IWbemPropertyProvider interface, GetProperty,IWbemPropertyProvider.GetProperty, IWbemPropertyProvider, IWbemPropertyProvider interface [Windows Management Instrumentation], GetProperty method, IWbemPropertyProvider::GetProperty, _hmm_iwbempropertyprovider_getproperty, wbemprov/IWbemPropertyProvider::GetProperty, wmi.iwbempropertyprovider_getproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

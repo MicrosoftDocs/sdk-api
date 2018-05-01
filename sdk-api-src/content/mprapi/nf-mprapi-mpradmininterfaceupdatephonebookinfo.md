@@ -7,7 +7,7 @@ old-location: rras\mpradmininterfaceupdatephonebookinfo.htm
 old-project: RRAS
 ms.assetid: fa337886-6fae-4e38-a59a-e26036c80d39
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: MprAdminInterfaceUpdatePhonebookInfo, MprAdminInterfaceUpdatePhonebookInfo function [RAS], _mpr_mpradmininterfaceupdatephonebookinfo, mprapi/MprAdminInterfaceUpdatePhonebookInfo, rras.mpradmininterfaceupdatephonebookinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

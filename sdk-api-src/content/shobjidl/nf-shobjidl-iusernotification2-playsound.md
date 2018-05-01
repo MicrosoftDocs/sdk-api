@@ -7,7 +7,7 @@ old-location: shell\IUserNotification2_PlaySound.htm
 old-project: shell
 ms.assetid: C1C0C408-B860-4aa6-8696-C95BF73AAB54
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IUserNotification2, IUserNotification2 interface [Windows Shell], PlaySound method, IUserNotification2::PlaySound, PlaySound method [Windows Shell], PlaySound method [Windows Shell], IUserNotification2 interface, PlaySound,IUserNotification2.PlaySound, _shell_IUserNotification2_PlaySound, shell.IUserNotification2_PlaySound, shobjidl/IUserNotification2::PlaySound
 ms.prod: windows-hardware
 ms.technology: windows-devices

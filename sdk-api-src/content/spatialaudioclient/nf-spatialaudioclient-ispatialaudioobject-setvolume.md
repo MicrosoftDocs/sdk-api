@@ -7,7 +7,7 @@ old-location: coreaudio\ispatialaudioobject_setvolume.htm
 old-project: CoreAudio
 ms.assetid: DC1B4B9C-BFE0-4308-AD34-500A30C5744F
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: ISpatialAudioObject, ISpatialAudioObject interface [Core Audio], SetVolume method, ISpatialAudioObject::SetVolume, SetVolume method [Core Audio], SetVolume method [Core Audio], ISpatialAudioObject interface, SetVolume,ISpatialAudioObject.SetVolume, coreaudio.ispatialaudioobject_setvolume, spatialaudioclient/ISpatialAudioObject::SetVolume
 ms.prod: windows-hardware
 ms.technology: windows-devices

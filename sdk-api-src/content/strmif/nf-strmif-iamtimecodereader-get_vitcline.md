@@ -7,7 +7,7 @@ old-location: dshow\iamtimecodereader_get_vitcline.htm
 old-project: DirectShow
 ms.assetid: 04eda79a-1301-4bc1-855e-1cb0c4451797
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMTimecodeReader, IAMTimecodeReader interface [DirectShow], get_VITCLine method, IAMTimecodeReader::get_VITCLine, IAMTimecodeReaderget_VITCLine, dshow.iamtimecodereader_get_vitcline, get_VITCLine method [DirectShow], get_VITCLine method [DirectShow], IAMTimecodeReader interface, get_VITCLine,IAMTimecodeReader.get_VITCLine, strmif/IAMTimecodeReader::get_VITCLine
 ms.prod: windows-hardware
 ms.technology: windows-devices

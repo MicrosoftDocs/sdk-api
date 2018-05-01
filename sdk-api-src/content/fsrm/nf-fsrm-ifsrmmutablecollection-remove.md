@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmmutablecollection_remove.htm
 old-project: Fsrm
 ms.assetid: 2d28bfc7-82d4-4c74-bac9-f9ef9111279f
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: IFsrmMutableCollection, IFsrmMutableCollection interface [File Server Resource Manager], Remove method, IFsrmMutableCollection::Remove, Remove method [File Server Resource Manager], Remove method [File Server Resource Manager], IFsrmMutableCollection interface, Remove,IFsrmMutableCollection.Remove, fs.ifsrmmutablecollection_remove, fsrm.ifsrmmutablecollection_remove, fsrm/IFsrmMutableCollection::Remove
 ms.prod: windows-hardware
 ms.technology: windows-devices

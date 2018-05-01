@@ -7,7 +7,7 @@ old-location: dshow\iamstreamcontrol_startat.htm
 old-project: DirectShow
 ms.assetid: ce155b83-ee4a-47d4-9258-a1d18cf25f8b
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMStreamControl, IAMStreamControl interface [DirectShow], StartAt method, IAMStreamControl::StartAt, IAMStreamControlStartAt, StartAt method [DirectShow], StartAt method [DirectShow], IAMStreamControl interface, StartAt,IAMStreamControl.StartAt, dshow.iamstreamcontrol_startat, strmif/IAMStreamControl::StartAt
 ms.prod: windows-hardware
 ms.technology: windows-devices

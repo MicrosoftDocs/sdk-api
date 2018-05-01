@@ -7,7 +7,7 @@ old-location: shell\syncmgr_isyncmgrsynchronizecallback_enablemodeless.htm
 old-project: shell
 ms.assetid: 00102220-3734-40f2-ae6c-2807e44e17a1
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: EnableModeless method [Windows Shell], EnableModeless method [Windows Shell], ISyncMgrSynchronizeCallback interface, EnableModeless,ISyncMgrSynchronizeCallback.EnableModeless, ISyncMgrSynchronizeCallback, ISyncMgrSynchronizeCallback interface [Windows Shell], EnableModeless method, ISyncMgrSynchronizeCallback::EnableModeless, mobsync/ISyncMgrSynchronizeCallback::EnableModeless, shell.syncmgr_isyncmgrsynchronizecallback_enablemodeless, syncmgr.isyncmgrsynchronizecallback_enablemodeless
 ms.prod: windows-hardware
 ms.technology: windows-devices

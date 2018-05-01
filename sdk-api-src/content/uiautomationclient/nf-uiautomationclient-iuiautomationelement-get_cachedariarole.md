@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement_CachedAriaRole.htm
 old-project: WinAuto
 ms.assetid: 8e3671b0-49f5-4d8b-b2ab-51a976316191
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: CachedAriaRole property [Windows Accessibility], CachedAriaRole property [Windows Accessibility], IUIAutomationElement interface, IUIAutomationElement, IUIAutomationElement interface [Windows Accessibility], CachedAriaRole property, IUIAutomationElement.CachedAriaRole, IUIAutomationElement::get_CachedAriaRole, get_CachedAriaRole,IUIAutomationElement.get_CachedAriaRole, uiauto.uiauto_IUIAutomationElement_CachedAriaRole, uiauto_IUIAutomationElement_CachedAriaRole, uiautomationclient/IUIAutomationElement::CachedAriaRole, uiautomationclient/IUIAutomationElement::get_CachedAriaRole, winauto.uiauto_IUIAutomationElement_CachedAriaRole
 ms.prod: windows-hardware
 ms.technology: windows-devices

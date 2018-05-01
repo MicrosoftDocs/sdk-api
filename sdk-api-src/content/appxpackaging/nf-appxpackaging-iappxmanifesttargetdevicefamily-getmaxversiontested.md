@@ -7,7 +7,7 @@ old-location: appxpkg\iappxmanifesttargetdevicefamily_getmaxversiontested.htm
 old-project: appxpkg
 ms.assetid: 65391D03-627D-4302-BE1A-6E90E3A04458
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/26/2018
 ms.keywords: GetMaxVersionTested method [App packaging and management], GetMaxVersionTested method [App packaging and management], IAppxManifestTargetDeviceFamily interface, GetMaxVersionTested,IAppxManifestTargetDeviceFamily.GetMaxVersionTested, IAppxManifestTargetDeviceFamily, IAppxManifestTargetDeviceFamily interface [App packaging and management], GetMaxVersionTested method, IAppxManifestTargetDeviceFamily::GetMaxVersionTested, appxpackaging/IAppxManifestTargetDeviceFamily::GetMaxVersionTested, appxpkg.iappxmanifesttargetdevicefamily_getmaxversiontested
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_ARCHITECTURE2
+req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
 topic_type:
 -	APIRef
 -	kbSyntax

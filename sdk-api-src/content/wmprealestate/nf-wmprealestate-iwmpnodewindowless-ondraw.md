@@ -7,7 +7,7 @@ old-location: wmp\iwmpnodewindowless_ondraw.htm
 old-project: WMP
 ms.assetid: 2691cce8-590c-4604-9607-16f6e0799618
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPNodeWindowless, IWMPNodeWindowless interface [Windows Media Player], OnDraw method, IWMPNodeWindowless::OnDraw, IWMPNodeWindowlessOnDrawRendering, OnDraw method [Windows Media Player], OnDraw method [Windows Media Player], IWMPNodeWindowless interface, OnDraw,IWMPNodeWindowless.OnDraw, wmp.iwmpnodewindowless_ondraw, wmprealestate/IWMPNodeWindowless::OnDraw
 ms.prod: windows-hardware
 ms.technology: windows-devices

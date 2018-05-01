@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ITransformProvider2_Zoom.htm
 old-project: WinAuto
 ms.assetid: B267DAB1-F78B-4543-9A90-7107E5259A0C
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: ITransformProvider2, ITransformProvider2 interface [Windows Accessibility], Zoom method, ITransformProvider2::Zoom, Zoom method [Windows Accessibility], Zoom method [Windows Accessibility], ITransformProvider2 interface, Zoom,ITransformProvider2.Zoom, uiautomationcore/ITransformProvider2::Zoom, winauto.uiauto_ITransformProvider2_Zoom
 ms.prod: windows-hardware
 ms.technology: windows-devices

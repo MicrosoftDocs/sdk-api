@@ -7,7 +7,7 @@ old-location: wmformat\iwmreadernetworkconfig_setbufferingtime.htm
 old-project: wmformat
 ms.assetid: 64b8eb13-3b96-4bb7-8d75-0eccb1af5a2f
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMReaderNetworkConfig, IWMReaderNetworkConfig interface [windows Media Format], SetBufferingTime method, IWMReaderNetworkConfig::SetBufferingTime, IWMReaderNetworkConfigSetBufferingTime, SetBufferingTime method [windows Media Format], SetBufferingTime method [windows Media Format], IWMReaderNetworkConfig interface, SetBufferingTime,IWMReaderNetworkConfig.SetBufferingTime, wmformat.iwmreadernetworkconfig_setbufferingtime, wmsdkidl/IWMReaderNetworkConfig::SetBufferingTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

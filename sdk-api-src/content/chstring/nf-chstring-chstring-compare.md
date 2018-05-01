@@ -7,7 +7,7 @@ old-location: wmi\chstring_compare.htm
 old-project: WmiSdk
 ms.assetid: 6e587dd3-b3ae-4afa-9582-b3867d2fb7ef
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: "?Compare@CHString@@QBEHPBG@Z, ?Compare@CHString@@QEBAHPEBG@Z, CHString, CHString interface [Windows Management Instrumentation], Compare method, CHString::Compare, Compare method [Windows Management Instrumentation], Compare method [Windows Management Instrumentation], CHString interface, Compare,CHString.Compare, _hmm_chstring_compare, chstring/CHString::Compare, wmi.chstring_compare"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CF_SYNC_ROOT_STANDARD_INFO
+req.typenames: CF_SYNC_STATUS
 topic_type:
 -	APIRef
 -	kbSyntax

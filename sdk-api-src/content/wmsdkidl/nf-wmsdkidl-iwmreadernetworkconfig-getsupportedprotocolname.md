@@ -7,7 +7,7 @@ old-location: wmformat\iwmreadernetworkconfig_getsupportedprotocolname.htm
 old-project: wmformat
 ms.assetid: c1047752-c3a2-4555-9dae-ddd91365cd10
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: GetSupportedProtocolName method [windows Media Format], GetSupportedProtocolName method [windows Media Format], IWMReaderNetworkConfig interface, GetSupportedProtocolName,IWMReaderNetworkConfig.GetSupportedProtocolName, IWMReaderNetworkConfig, IWMReaderNetworkConfig interface [windows Media Format], GetSupportedProtocolName method, IWMReaderNetworkConfig::GetSupportedProtocolName, IWMReaderNetworkConfigGetSupportedProtocolName, wmformat.iwmreadernetworkconfig_getsupportedprotocolname, wmsdkidl/IWMReaderNetworkConfig::GetSupportedProtocolName
 ms.prod: windows-hardware
 ms.technology: windows-devices

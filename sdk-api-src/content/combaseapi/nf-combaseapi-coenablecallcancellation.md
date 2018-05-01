@@ -7,7 +7,7 @@ old-location: com\coenablecallcancellation.htm
 old-project: com
 ms.assetid: 59b66f33-486e-49c3-9fb8-0eab93146ed9
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: CoEnableCallCancellation, CoEnableCallCancellation function [COM], _com_CoEnableCallCancellation, com.coenablecallcancellation, combaseapi/CoEnableCallCancellation
 ms.prod: windows-hardware
 ms.technology: windows-devices

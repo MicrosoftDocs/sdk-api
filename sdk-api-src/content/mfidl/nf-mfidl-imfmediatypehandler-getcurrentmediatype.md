@@ -7,7 +7,7 @@ old-location: mf\imfmediatypehandler_getcurrentmediatype.htm
 old-project: medfound
 ms.assetid: b1676e40-81a2-4311-bba6-528bfa45a708
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetCurrentMediaType method [Media Foundation], GetCurrentMediaType method [Media Foundation], IMFMediaTypeHandler interface, GetCurrentMediaType,IMFMediaTypeHandler.GetCurrentMediaType, IMFMediaTypeHandler, IMFMediaTypeHandler interface [Media Foundation], GetCurrentMediaType method, IMFMediaTypeHandler::GetCurrentMediaType, b1676e40-81a2-4311-bba6-528bfa45a708, mf.imfmediatypehandler_getcurrentmediatype, mfidl/IMFMediaTypeHandler::GetCurrentMediaType
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationTextRange3_GetAttributeValues.htm
 old-project: WinAuto
 ms.assetid: 1AF29BF1-A074-4054-B338-7B6922B1415C
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: GetAttributeValues method [Windows Accessibility], GetAttributeValues method [Windows Accessibility], IUIAutomationTextRange3 interface, GetAttributeValues,IUIAutomationTextRange3.GetAttributeValues, IUIAutomationTextRange3, IUIAutomationTextRange3 interface [Windows Accessibility], GetAttributeValues method, IUIAutomationTextRange3::GetAttributeValues, uiautomationclient/IUIAutomationTextRange3::GetAttributeValues, winauto.uiauto_IUIAutomationTextRange3_GetAttributeValues
 ms.prod: windows-hardware
 ms.technology: windows-devices

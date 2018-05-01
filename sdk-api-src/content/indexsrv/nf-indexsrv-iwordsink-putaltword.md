@@ -7,7 +7,7 @@ old-location: indexsrv\iwordsink_putaltword.htm
 old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefobj_70tg.htm
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/11/2018
 ms.keywords: IWordSink, IWordSink interface [Indexing Service], PutAltWord method, IWordSink::PutAltWord, PutAltWord method [Indexing Service], PutAltWord method [Indexing Service], IWordSink interface, PutAltWord,IWordSink.PutAltWord, _idxs_WordSink_PutAltWord, indexsrv.iwordsink_putaltword, indexsrv/IWordSink::PutAltWord
 ms.prod: windows-hardware
 ms.technology: windows-devices

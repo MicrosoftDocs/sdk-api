@@ -7,7 +7,7 @@ old-location: mstv\idvbmultilingualservicenamedescriptor_getrecordserviceprovide
 old-project: mstv
 ms.assetid: e07ebe5c-b5b3-4604-91c3-3e75042ad074
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetRecordServiceProviderNameW method [Microsoft TV Technologies], GetRecordServiceProviderNameW method [Microsoft TV Technologies], IDvbMultilingualServiceNameDescriptor interface, GetRecordServiceProviderNameW,IDvbMultilingualServiceNameDescriptor.GetRecordServiceProviderNameW, IDvbMultilingualServiceNameDescriptor, IDvbMultilingualServiceNameDescriptor interface [Microsoft TV Technologies], GetRecordServiceProviderNameW method, IDvbMultilingualServiceNameDescriptor::GetRecordServiceProviderNameW, dvbsiparser/IDvbMultilingualServiceNameDescriptor::GetRecordServiceProviderNameW, mstv.idvbmultilingualservicenamedescriptor_getrecordserviceprovidernamew
 ms.prod: windows-hardware
 ms.technology: windows-devices

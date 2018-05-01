@@ -7,7 +7,7 @@ old-location: controls\ITextHost_TxSetCursor.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txsetcursor.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextHost, ITextHost interface [Windows Controls], TxSetCursor method, ITextHost::TxSetCursor, TxSetCursor method [Windows Controls], TxSetCursor method [Windows Controls], ITextHost interface, TxSetCursor,ITextHost.TxSetCursor, _win32_ITextHost_TxSetCursor, _win32_ITextHost_TxSetCursor_cpp, controls.ITextHost_TxSetCursor, controls._win32_ITextHost_TxSetCursor, textserv/ITextHost::TxSetCursor
 ms.prod: windows-hardware
 ms.technology: windows-devices

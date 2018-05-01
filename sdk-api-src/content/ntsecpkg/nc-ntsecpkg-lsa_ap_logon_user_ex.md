@@ -7,7 +7,7 @@ old-location: security\lsaaplogonuserex.htm
 old-project: SecAuthN
 ms.assetid: 7778292a-7062-4f49-b4a9-6784e5e4ccd7
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/24/2018
 ms.keywords: LSA_AP_LOGON_USER_EX, LsaApLogonUserEx, LsaApLogonUserEx function [Security], STATUS_ACCOUNT_DISABLED, STATUS_INVALID_LOGON_HOURS, STATUS_INVALID_WORKSTATION, STATUS_PASSWORD_EXPIRED, _lsa_lsaaplogonuserex, ntsecpkg/LsaApLogonUserEx, security.lsaaplogonuserex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # LSA_AP_LOGON_USER_EX callback

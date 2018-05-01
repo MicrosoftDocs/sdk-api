@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomation_AddAutomationEventHandler.htm
 old-project: WinAuto
 ms.assetid: 15ceca71-33e8-4d66-afd6-3d50fe81c127
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: AddAutomationEventHandler method [Windows Accessibility], AddAutomationEventHandler method [Windows Accessibility], IUIAutomation interface, AddAutomationEventHandler,IUIAutomation.AddAutomationEventHandler, IUIAutomation, IUIAutomation interface [Windows Accessibility], AddAutomationEventHandler method, IUIAutomation::AddAutomationEventHandler, uiauto.uiauto_IUIAutomation_AddAutomationEventHandler, uiauto_IUIAutomation_AddAutomationEventHandler, uiautomationclient/IUIAutomation::AddAutomationEventHandler, winauto.uiauto_IUIAutomation_AddAutomationEventHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices

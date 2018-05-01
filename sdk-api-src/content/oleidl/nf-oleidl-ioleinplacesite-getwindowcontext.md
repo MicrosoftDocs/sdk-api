@@ -7,7 +7,7 @@ old-location: com\ioleinplacesite_getwindowcontext.htm
 old-project: com
 ms.assetid: f6cf62b3-5a64-49aa-b0bd-56744ecee313
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: GetWindowContext method [COM], GetWindowContext method [COM], IOleInPlaceSite interface, GetWindowContext,IOleInPlaceSite.GetWindowContext, IOleInPlaceSite, IOleInPlaceSite interface [COM], GetWindowContext method, IOleInPlaceSite::GetWindowContext, _ole_ioleinplacesite_getwindowcontext, com.ioleinplacesite_getwindowcontext, oleidl/IOleInPlaceSite::GetWindowContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IOleInPlaceSite::GetWindowContext method

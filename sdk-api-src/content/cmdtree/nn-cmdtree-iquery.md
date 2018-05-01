@@ -7,7 +7,7 @@ old-location: indexsrv\iquery.htm
 old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_2c55.htm
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/11/2018
 ms.keywords: IQuery, IQuery interface [Indexing Service], IQuery interface [Indexing Service], described, _idxs_IQuery, cmdtree/IQuery, indexsrv.iquery
 ms.prod: windows-hardware
 ms.technology: windows-devices

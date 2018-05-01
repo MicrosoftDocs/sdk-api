@@ -7,7 +7,7 @@ old-location: dshow\imediaobjectimpl_outputtype.htm
 old-project: DirectShow
 ms.assetid: 46831756-ed3b-40de-80ad-21874db283c4
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IMediaObjectImpl, IMediaObjectImpl interface [DirectShow], OutputType method, IMediaObjectImpl::OutputType, IMediaObjectImplOutputType, OutputType method [DirectShow], OutputType method [DirectShow], IMediaObjectImpl interface, OutputType,IMediaObjectImpl.OutputType, dmoimpl/IMediaObjectImpl::OutputType, dshow.imediaobjectimpl_outputtype
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: 
+req.typenames: VMEMHEAP
 topic_type:
 -	APIRef
 -	kbSyntax

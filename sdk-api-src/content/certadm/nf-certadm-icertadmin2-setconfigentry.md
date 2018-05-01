@@ -7,7 +7,7 @@ old-location: security\icertadmin2_setconfigentry.htm
 old-project: SecCrypto
 ms.assetid: 6ed1dd69-3553-4dcc-a98a-1954013082cd
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: ICertAdmin2, ICertAdmin2 interface [Security], SetConfigEntry method, ICertAdmin2::SetConfigEntry, SetConfigEntry method [Security], SetConfigEntry method [Security], ICertAdmin2 interface, SetConfigEntry,ICertAdmin2.SetConfigEntry, certadm/ICertAdmin2::SetConfigEntry, security.icertadmin2_setconfigentry
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CHANNEL_ENTRY_POINTS, *PCHANNEL_ENTRY_POINTS
+req.typenames: 
 topic_type:
 -	APIRef
 -	kbSyntax

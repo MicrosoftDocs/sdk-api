@@ -7,7 +7,7 @@ old-location: com\categoryinfo.htm
 old-project: com
 ms.assetid: a5f0cb04-595d-4388-8943-79b9da76022b
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*LPCATEGORYINFO, CATEGORYINFO, CATEGORYINFO structure [COM], _com_categoryinfo_structure, com.categoryinfo, comcat/CATEGORYINFO, tagCATEGORYINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

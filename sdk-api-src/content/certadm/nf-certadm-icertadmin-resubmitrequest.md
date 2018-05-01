@@ -7,7 +7,7 @@ old-location: security\icertadmin2_resubmitrequest.htm
 old-project: SecCrypto
 ms.assetid: 610712d9-3661-42ba-9d2f-27862ba8dbd4
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: CCertAdmin object [Security], ResubmitRequest method, ICertAdmin, ICertAdmin interface [Security], ResubmitRequest method, ICertAdmin2 interface [Security], ResubmitRequest method, ICertAdmin2::ResubmitRequest, ICertAdmin::ResubmitRequest, ResubmitRequest method [Security], ResubmitRequest method [Security], CCertAdmin object, ResubmitRequest method [Security], ICertAdmin interface, ResubmitRequest method [Security], ICertAdmin2 interface, ResubmitRequest,ICertAdmin.ResubmitRequest, certadm/ICertAdmin2::ResubmitRequest, certadm/ICertAdmin::ResubmitRequest, security.icertadmin2_resubmitrequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CHANNEL_ENTRY_POINTS, *PCHANNEL_ENTRY_POINTS
+req.typenames: 
 topic_type:
 -	APIRef
 -	kbSyntax

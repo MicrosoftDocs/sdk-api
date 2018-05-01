@@ -7,7 +7,7 @@ old-location: properties\VariantToInt64.htm
 old-project: properties
 ms.assetid: 5b8b4f93-dff1-40ef-9f99-c108a0b1bf70
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/5/2018
 ms.keywords: VariantToInt64, VariantToInt64 function [Windows Properties], _shell_VariantToInt64, properties.VariantToInt64, propvarutil/VariantToInt64, shell.VariantToInt64
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # VariantToInt64 function

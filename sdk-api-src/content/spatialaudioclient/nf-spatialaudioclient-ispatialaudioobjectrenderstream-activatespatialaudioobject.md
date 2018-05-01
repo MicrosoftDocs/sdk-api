@@ -7,7 +7,7 @@ old-location: coreaudio\ispatialaudioobjectrenderstream_activatespatialaudioobje
 old-project: CoreAudio
 ms.assetid: 1B99E7FB-0796-4902-9B00-470FD08F8AFA
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: ActivateSpatialAudioObject method [Core Audio], ActivateSpatialAudioObject method [Core Audio], ISpatialAudioObjectRenderStream interface, ActivateSpatialAudioObject,ISpatialAudioObjectRenderStream.ActivateSpatialAudioObject, ISpatialAudioObjectRenderStream, ISpatialAudioObjectRenderStream interface [Core Audio], ActivateSpatialAudioObject method, ISpatialAudioObjectRenderStream::ActivateSpatialAudioObject, coreaudio.ispatialaudioobjectrenderstream_activatespatialaudioobject, spatialaudioclient/ISpatialAudioObjectRenderStream::ActivateSpatialAudioObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

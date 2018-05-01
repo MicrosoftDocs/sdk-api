@@ -7,7 +7,7 @@ old-location: security\ipolicyqualifiers_count_property.htm
 old-project: SecCertEnroll
 ms.assetid: d13f7a1c-5b2b-4a0d-a84e-d5c58f107575
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: Count property [Security], Count property [Security], IPolicyQualifiers interface, IPolicyQualifiers, IPolicyQualifiers interface [Security], Count property, IPolicyQualifiers.Count, IPolicyQualifiers::get_Count, certenroll/IPolicyQualifiers::Count, certenroll/IPolicyQualifiers::get_Count, get_Count,IPolicyQualifiers.get_Count, security.ipolicyqualifiers_count_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

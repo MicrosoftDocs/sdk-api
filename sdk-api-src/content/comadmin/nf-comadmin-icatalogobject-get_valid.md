@@ -7,7 +7,7 @@ old-location: cos\icatalogobject_valid.htm
 old-project: cossdk
 ms.assetid: c2fdeae4-e8f0-45c1-b42a-0bd088c26d6f
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: ICatalogObject, ICatalogObject interface [COM+], Valid property, ICatalogObject.Valid, ICatalogObject::get_Valid, Valid property [COM+], Valid property [COM+], ICatalogObject interface, _cos_ICatalogObject_get_Valid, comadmin/ICatalogObject::Valid, comadmin/ICatalogObject::get_Valid, cos.icatalogobject_valid, get_Valid,ICatalogObject.get_Valid
 ms.prod: windows-hardware
 ms.technology: windows-devices

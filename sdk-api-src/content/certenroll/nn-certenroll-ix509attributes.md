@@ -7,7 +7,7 @@ old-location: security\ix509attributes.htm
 old-project: SecCertEnroll
 ms.assetid: dd891506-f25b-4aa5-b739-0d66d5a5f395
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: IX509Attributes, IX509Attributes interface [Security], IX509Attributes interface [Security], described, certenroll/IX509Attributes, security.ix509attributes
 ms.prod: windows-hardware
 ms.technology: windows-devices

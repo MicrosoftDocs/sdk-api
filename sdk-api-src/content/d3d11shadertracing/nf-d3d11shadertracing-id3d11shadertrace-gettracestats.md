@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11shadertrace_gettracestats.htm
 old-project: direct3d11
 ms.assetid: 5E61F61B-C438-4B24-8F0C-45C0583BCE08
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/6/2018
 ms.keywords: GetTraceStats method [Direct3D 11], GetTraceStats method [Direct3D 11], ID3D11ShaderTrace interface, GetTraceStats,ID3D11ShaderTrace.GetTraceStats, ID3D11ShaderTrace, ID3D11ShaderTrace interface [Direct3D 11], GetTraceStats method, ID3D11ShaderTrace::GetTraceStats, d3d11shadertracing/ID3D11ShaderTrace::GetTraceStats, direct3d11.id3d11shadertrace_gettracestats
 ms.prod: windows-hardware
 ms.technology: windows-devices

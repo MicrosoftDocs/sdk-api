@@ -7,7 +7,7 @@ old-location: dshow\iamclockslave_seterrortolerance.htm
 old-project: DirectShow
 ms.assetid: 6c93e345-4e4a-4019-9c18-d3d43736fee3
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMClockSlave, IAMClockSlave interface [DirectShow], SetErrorTolerance method, IAMClockSlave::SetErrorTolerance, IAMClockSlaveSetErrorTolerance, SetErrorTolerance method [DirectShow], SetErrorTolerance method [DirectShow], IAMClockSlave interface, SetErrorTolerance,IAMClockSlave.SetErrorTolerance, dshow.iamclockslave_seterrortolerance, strmif/IAMClockSlave::SetErrorTolerance
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12resource_map.htm
 old-project: direct3d12
 ms.assetid: 71E43B63-9C84-4E4B-A43D-92B958C8AAF5
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: ID3D12Resource, ID3D12Resource interface, Map method, ID3D12Resource::Map, Map method, Map method, ID3D12Resource interface, Map,ID3D12Resource.Map, d3d12/ID3D12Resource::Map, direct3d12.id3d12resource_map
 ms.prod: windows-hardware
 ms.technology: windows-devices

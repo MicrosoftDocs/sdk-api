@@ -7,7 +7,7 @@ old-location: search\_search_IQueryParser_SetOption.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iqueryparser\setoption.htm
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/24/2018
 ms.keywords: IQueryParser, IQueryParser interface [search], SetOption method, IQueryParser::SetOption, SetOption method [search], SetOption method [search], IQueryParser interface, SetOption,IQueryParser.SetOption, _search_IQueryParser_SetOption, search._search_IQueryParser_SetOption, structuredquery/IQueryParser::SetOption
 ms.prod: windows-hardware
 ms.technology: windows-devices

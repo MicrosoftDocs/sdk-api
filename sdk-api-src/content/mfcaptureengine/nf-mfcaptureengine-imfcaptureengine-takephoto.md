@@ -7,7 +7,7 @@ old-location: mf\imfcaptureengine_takephoto.htm
 old-project: medfound
 ms.assetid: 6E633E90-9C8B-44B6-9149-704872143147
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFCaptureEngine, IMFCaptureEngine interface [Media Foundation], TakePhoto method, IMFCaptureEngine::TakePhoto, TakePhoto method [Media Foundation], TakePhoto method [Media Foundation], IMFCaptureEngine interface, TakePhoto,IMFCaptureEngine.TakePhoto, mf.imfcaptureengine_takephoto, mfcaptureengine/IMFCaptureEngine::TakePhoto
 ms.prod: windows-hardware
 ms.technology: windows-devices

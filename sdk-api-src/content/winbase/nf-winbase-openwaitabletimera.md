@@ -7,7 +7,7 @@ old-location: base\openwaitabletimer.htm
 old-project: Sync
 ms.assetid: 0f9b49ea-5d04-449c-9b7d-f79ab28b548b
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: OpenWaitableTimer, OpenWaitableTimer function, OpenWaitableTimerA, OpenWaitableTimerW, _win32_openwaitabletimer, base.openwaitabletimer, winbase/OpenWaitableTimer, winbase/OpenWaitableTimerA, winbase/OpenWaitableTimerW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: stg\istorage.htm
 old-project: Stg
 ms.assetid: 2f454538-0f40-4811-b908-cd317ef79487
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/20/2018
 ms.keywords: IStorage, IStorage interface [Structured Storage], IStorage interface [Structured Storage], described, _stg_istorage, objidl/IStorage, stg.istorage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IStorage interface

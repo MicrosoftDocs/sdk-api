@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist1_atomiccopybufferuint64.htm
 old-project: direct3d12
 ms.assetid: F83870E9-5256-4A3E-BAF7-05C4CCB28442
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: AtomicCopyBufferUINT64 method, AtomicCopyBufferUINT64 method, ID3D12GraphicsCommandList1 interface, AtomicCopyBufferUINT64,ID3D12GraphicsCommandList1.AtomicCopyBufferUINT64, ID3D12GraphicsCommandList1, ID3D12GraphicsCommandList1 interface, AtomicCopyBufferUINT64 method, ID3D12GraphicsCommandList1::AtomicCopyBufferUINT64, d3d12/ID3D12GraphicsCommandList1::AtomicCopyBufferUINT64, direct3d12.id3d12graphicscommandlist1_atomiccopybufferuint64
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\iatsc_ett_getextendedmessagetext.htm
 old-project: mstv
 ms.assetid: 4e1b5f65-4662-41aa-8a11-cce6a2debb9e
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetExtendedMessageText method [Microsoft TV Technologies], GetExtendedMessageText method [Microsoft TV Technologies], IATSC_ETT interface, GetExtendedMessageText,IATSC_ETT.GetExtendedMessageText, IATSC_ETT, IATSC_ETT interface [Microsoft TV Technologies], GetExtendedMessageText method, IATSC_ETT::GetExtendedMessageText, IATSC_ETTGetExtendedMessageText, atscpsipparser/IATSC_ETT::GetExtendedMessageText, mstv.iatsc_ett_getextendedmessagetext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_WRITER_PAYLOAD_STREAM
+req.typenames: AsyncStatus
 topic_type:
 -	APIRef
 -	kbSyntax

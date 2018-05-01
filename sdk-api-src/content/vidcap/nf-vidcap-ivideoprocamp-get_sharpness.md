@@ -7,7 +7,7 @@ old-location: dshow\ivideoprocamp_get_sharpness.htm
 old-project: DirectShow
 ms.assetid: 12cb9934-4cef-4356-9b59-6b4e6caca573
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IVideoProcAmp, IVideoProcAmp interface [DirectShow], get_Sharpness method, IVideoProcAmp::get_Sharpness, IVideoProcAmpget_Sharpness, dshow.ivideoprocamp_get_sharpness, get_Sharpness method [DirectShow], get_Sharpness method [DirectShow], IVideoProcAmp interface, get_Sharpness,IVideoProcAmp.get_Sharpness, vidcap/IVideoProcAmp::get_Sharpness
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: VIDEOHDR, *PVIDEOHDR, *LPVIDEOHDR
+req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
 topic_type:
 -	APIRef
 -	kbSyntax

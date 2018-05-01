@@ -7,7 +7,7 @@ old-location: wmi\chstring_empty.htm
 old-project: WmiSdk
 ms.assetid: 837344de-d8dd-45a8-8d43-09d926f51ff9
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: "?Empty@CHString@@QAEXXZ, ?Empty@CHString@@QEAAXXZ, CHString, CHString interface [Windows Management Instrumentation], Empty method, CHString::Empty, Empty method [Windows Management Instrumentation], Empty method [Windows Management Instrumentation], CHString interface, Empty,CHString.Empty, _hmm_chstring_empty, chstring/CHString::Empty, wmi.chstring_empty"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CF_SYNC_ROOT_STANDARD_INFO
+req.typenames: CF_SYNC_STATUS
 topic_type:
 -	APIRef
 -	kbSyntax

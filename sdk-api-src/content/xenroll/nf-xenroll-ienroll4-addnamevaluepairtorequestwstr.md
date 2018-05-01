@@ -7,8 +7,8 @@ old-location: security\ienroll4_addnamevaluepairtorequestwstr.htm
 old-project: SecCrypto
 ms.assetid: 25f8ae01-e975-4ada-b17c-c97385dc0585
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
-ms.keywords: IEnroll4, IEnroll4 interface [Security], addNameValuePairToRequestWStr method, IEnroll4::addNameValuePairToRequestWStr, addNameValuePairToRequestWStr method [Security], addNameValuePairToRequestWStr method [Security], IEnroll4 interface, addNameValuePairToRequestWStr,IEnroll4.addNameValuePairToRequestWStr, security.ienroll4_addnamevaluepairtorequestwstr, xenroll/IEnroll4::addNameValuePairToRequestWStr
+ms.date: 4/18/2018
+ms.keywords: IEnroll interface [Security], addNameValuePairToRequestWStr method, IEnroll4, IEnroll4::addNameValuePairToRequestWStr, IEnroll::addNameValuePairToRequestWStr, addNameValuePairToRequestWStr method [Security], addNameValuePairToRequestWStr method [Security], IEnroll interface, addNameValuePairToRequestWStr,IEnroll4.addNameValuePairToRequestWStr, security.ienroll4_addnamevaluepairtorequestwstr, xenroll/IEnroll::addNameValuePairToRequestWStr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	Xenroll.dll
 api_name:
--	IEnroll4.addNameValuePairToRequestWStr
+-	IEnroll.addNameValuePairToRequestWStr
 product: Windows
 targetos: Windows
 req.lib: Uuid.lib
@@ -80,7 +80,7 @@ A pointer to a null-terminated wide character string that represents the value p
 
 
 
-<a href="https://msdn.microsoft.com/133529fb-e02a-41a2-83df-646cbc01dbe9">IEnroll4</a>
+<a href="https://msdn.microsoft.com/133529fb-e02a-41a2-83df-646cbc01dbe9">IEnroll</a>
  
 
  

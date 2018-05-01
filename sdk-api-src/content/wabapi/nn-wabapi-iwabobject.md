@@ -7,7 +7,7 @@ old-location: wab\_wab_IWABObject.htm
 old-project: wab
 ms.assetid: VS|wab|~\wab\reference\ifaces\iwabobject\iwabobject.htm
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 4/3/2018
 ms.keywords: IWABObject, IWABObject interface [Windows Address Book], IWABObject interface [Windows Address Book], described, _wab_IWABObject, wab._wab_IWABObject, wabapi/IWABObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

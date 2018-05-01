@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationGridPattern_GetItem.htm
 old-project: WinAuto
 ms.assetid: e18fd4ba-7fe2-4acb-97cd-c446d359dc38
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: GetItem method [Windows Accessibility], GetItem method [Windows Accessibility], IUIAutomationGridPattern interface, GetItem,IUIAutomationGridPattern.GetItem, IUIAutomationGridPattern, IUIAutomationGridPattern interface [Windows Accessibility], GetItem method, IUIAutomationGridPattern::GetItem, uiauto.uiauto_IUIAutomationGridPattern_GetItem, uiauto_IUIAutomationGridPattern_GetItem, uiautomationclient/IUIAutomationGridPattern::GetItem, winauto.uiauto_IUIAutomationGridPattern_GetItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

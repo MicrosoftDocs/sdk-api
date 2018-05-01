@@ -7,7 +7,7 @@ old-location: shell\INameSpaceTreeControlEvents_OnItemStateChanging.htm
 old-project: shell
 ms.assetid: ed0f431a-f3e2-4a95-a16e-6e38568dd91f
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: INameSpaceTreeControlEvents, INameSpaceTreeControlEvents interface [Windows Shell], OnItemStateChanging method, INameSpaceTreeControlEvents::OnItemStateChanging, OnItemStateChanging method [Windows Shell], OnItemStateChanging method [Windows Shell], INameSpaceTreeControlEvents interface, OnItemStateChanging,INameSpaceTreeControlEvents.OnItemStateChanging, _shell_INameSpaceTreeControlEvents_OnItemStateChanging, shell.INameSpaceTreeControlEvents_OnItemStateChanging, shobjidl/INameSpaceTreeControlEvents::OnItemStateChanging
 ms.prod: windows-hardware
 ms.technology: windows-devices

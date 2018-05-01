@@ -7,7 +7,7 @@ old-location: mf\imfattributes_getstring.htm
 old-project: medfound
 ms.assetid: 756d8fba-d372-46f9-8035-f657d7ff133f
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 756d8fba-d372-46f9-8035-f657d7ff133f, GetString method [Media Foundation], GetString method [Media Foundation], IMFAttributes interface, GetString,IMFAttributes.GetString, IMFAttributes, IMFAttributes interface [Media Foundation], GetString method, IMFAttributes::GetString, mf.imfattributes_getstring, mfobjects/IMFAttributes::GetString
 ms.prod: windows-hardware
 ms.technology: windows-devices

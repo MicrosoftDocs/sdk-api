@@ -7,7 +7,7 @@ old-location: ics\inetfwpolicy_getprofilebytype.htm
 old-project: ICS
 ms.assetid: 4c3876cf-40a4-4315-a87a-8fcdf509d48e
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: GetProfileByType method [ICS/ICF], GetProfileByType method [ICS/ICF], INetFwPolicy interface, GetProfileByType,INetFwPolicy.GetProfileByType, INetFwPolicy, INetFwPolicy interface [ICS/ICF], GetProfileByType method, INetFwPolicy::GetProfileByType, ics.inetfwpolicy_getprofilebytype, netfw/INetFwPolicy::GetProfileByType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # INetFwPolicy::GetProfileByType method

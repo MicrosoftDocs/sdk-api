@@ -7,7 +7,7 @@ old-location: automat\varui8fromstr.htm
 old-project: automat
 ms.assetid: f5378977-41e2-4b25-b7ba-7a5f66fbed15
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: LOCALE_NOUSEROVERRIDE, VarUI8FromStr, VarUI8FromStr function [Automation], _oa96_VarUI8FromStr, automat.varui8fromstr, oleauto/VarUI8FromStr
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # VarUI8FromStr function

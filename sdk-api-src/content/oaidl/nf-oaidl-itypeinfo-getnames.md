@@ -7,7 +7,7 @@ old-location: automat\itypeinfo_getnames.htm
 old-project: automat
 ms.assetid: ff318d92-9624-48aa-a0f9-8b8826121753
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: GetNames method [Automation], GetNames method [Automation], ITypeInfo interface, GetNames,ITypeInfo.GetNames, ITypeInfo, ITypeInfo interface [Automation], GetNames method, ITypeInfo::GetNames, _oa96_ITypeInfo_GetNames, automat.itypeinfo_getnames, oaidl/ITypeInfo::GetNames
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITypeInfo::GetNames method

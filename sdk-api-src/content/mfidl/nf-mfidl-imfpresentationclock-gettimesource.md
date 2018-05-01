@@ -7,7 +7,7 @@ old-location: mf\imfpresentationclock_gettimesource.htm
 old-project: medfound
 ms.assetid: e6b6851b-f5b3-40c2-9160-59f2a68c9131
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetTimeSource method [Media Foundation], GetTimeSource method [Media Foundation], IMFPresentationClock interface, GetTimeSource,IMFPresentationClock.GetTimeSource, IMFPresentationClock, IMFPresentationClock interface [Media Foundation], GetTimeSource method, IMFPresentationClock::GetTimeSource, e6b6851b-f5b3-40c2-9160-59f2a68c9131, mf.imfpresentationclock_gettimesource, mfidl/IMFPresentationClock::GetTimeSource
 ms.prod: windows-hardware
 ms.technology: windows-devices

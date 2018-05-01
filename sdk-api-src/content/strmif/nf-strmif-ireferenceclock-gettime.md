@@ -7,7 +7,7 @@ old-location: dshow\ireferenceclock_gettime.htm
 old-project: DirectShow
 ms.assetid: 1fcf8b8a-f449-4f42-8061-cc4116867d9d
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetTime method [DirectShow], GetTime method [DirectShow], IReferenceClock interface, GetTime,IReferenceClock.GetTime, IReferenceClock, IReferenceClock interface [DirectShow], GetTime method, IReferenceClock::GetTime, IReferenceClockGetTime, dshow.ireferenceclock_gettime, strmif/IReferenceClock::GetTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

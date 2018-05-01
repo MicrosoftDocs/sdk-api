@@ -7,7 +7,7 @@ old-location: mstv\imsvidplayback_stop.htm
 old-project: mstv
 ms.assetid: 20262521-bb9c-4e37-b89c-8c439df50ed4
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidPlayback, IMSVidPlayback interface [Microsoft TV Technologies], Stop method, IMSVidPlayback::Stop, IMSVidPlaybackStop, Stop method [Microsoft TV Technologies], Stop method [Microsoft TV Technologies], IMSVidPlayback interface, Stop,IMSVidPlayback.Stop, mstv.imsvidplayback_stop, segment/IMSVidPlayback::Stop
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidPlayback::Stop method

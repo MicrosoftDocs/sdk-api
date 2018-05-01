@@ -7,7 +7,7 @@ old-location: automat\ienumvariant_clone.htm
 old-project: automat
 ms.assetid: 44beac4a-784d-461e-8a4b-71bdcf512fbc
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: Clone method [Automation], Clone method [Automation], IEnumVARIANT interface, Clone,IEnumVARIANT.Clone, IEnumVARIANT, IEnumVARIANT interface [Automation], Clone method, IEnumVARIANT::Clone, _oa96_IEnumVARIANT::Clone, automat.ienumvariant_clone, oaidl/IEnumVARIANT::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IEnumVARIANT::Clone method

@@ -7,7 +7,7 @@ old-location: base\regflushkey.htm
 old-project: SysInfo
 ms.assetid: ae1160be-1da7-4621-a0fc-727aa229ec06
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: RegFlushKey, RegFlushKey function, _win32_regflushkey, base.regflushkey, winreg/RegFlushKey
 ms.prod: windows-hardware
 ms.technology: windows-devices

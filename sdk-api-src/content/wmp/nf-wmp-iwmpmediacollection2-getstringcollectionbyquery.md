@@ -7,7 +7,7 @@ old-location: wmp\iwmpmediacollection2_getstringcollectionbyquery.htm
 old-project: WMP
 ms.assetid: 070bc947-bf2b-4c06-9ffa-6a23625d178a
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPMediaCollection2, IWMPMediaCollection2 interface [Windows Media Player], getStringCollectionByQuery method, IWMPMediaCollection2::getStringCollectionByQuery, IWMPMediaCollection2getStringCollectionByQuery, getStringCollectionByQuery method [Windows Media Player], getStringCollectionByQuery method [Windows Media Player], IWMPMediaCollection2 interface, getStringCollectionByQuery,IWMPMediaCollection2.getStringCollectionByQuery, wmp.iwmpmediacollection2_getstringcollectionbyquery, wmp/IWMPMediaCollection2::getStringCollectionByQuery
 ms.prod: windows-hardware
 ms.technology: windows-devices

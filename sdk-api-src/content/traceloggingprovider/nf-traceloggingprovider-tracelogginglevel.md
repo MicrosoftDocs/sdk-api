@@ -7,7 +7,7 @@ old-location: tracelogging\tracelogginglevel.htm
 old-project: tracelogging
 ms.assetid: 280EEFC4-EC84-4FAA-B14B-CBC5F0E0EA5D
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: TraceLoggingLevel, TraceLoggingLevel macro, tracelogging.tracelogginglevel, traceloggingprovider/TraceLoggingLevel
 ms.prod: windows-hardware
 ms.technology: windows-devices

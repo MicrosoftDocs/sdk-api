@@ -7,7 +7,7 @@ old-location: mf\imfoutputtrustauthority_getaction.htm
 old-project: medfound
 ms.assetid: 5a109e18-a6e2-4f8c-a656-b27112935452
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 5a109e18-a6e2-4f8c-a656-b27112935452, GetAction method [Media Foundation], GetAction method [Media Foundation], IMFOutputTrustAuthority interface, GetAction,IMFOutputTrustAuthority.GetAction, IMFOutputTrustAuthority, IMFOutputTrustAuthority interface [Media Foundation], GetAction method, IMFOutputTrustAuthority::GetAction, mf.imfoutputtrustauthority_getaction, mfidl/IMFOutputTrustAuthority::GetAction
 ms.prod: windows-hardware
 ms.technology: windows-devices

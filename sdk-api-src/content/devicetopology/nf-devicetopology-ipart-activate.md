@@ -7,7 +7,7 @@ old-location: coreaudio\ipart_activate.htm
 old-project: CoreAudio
 ms.assetid: 72e08a30-65c0-437b-9932-110ba48a2376
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: Activate method [Core Audio], Activate method [Core Audio], IPart interface, Activate,IPart.Activate, IPart, IPart interface [Core Audio], Activate method, IPart::Activate, IPartActivate, coreaudio.ipart_activate, devicetopology/IPart::Activate
 ms.prod: windows-hardware
 ms.technology: windows-devices

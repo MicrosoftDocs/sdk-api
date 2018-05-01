@@ -7,7 +7,7 @@ old-location: base\vss_snapshot_prop.htm
 old-project: VSS
 ms.assetid: 070ec204-e751-4ebf-8f99-3c415f203cb2
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: "*PVSS_SNAPSHOT_PROP, PVSS_SNAPSHOT_PROP, PVSS_SNAPSHOT_PROP structure pointer [VSS], VSS_SNAPSHOT_PROP, VSS_SNAPSHOT_PROP structure [VSS], _VSS_SNAPSHOT_PROP, _win32_vss_snapshot_prop, base.vss_snapshot_prop, vss/PVSS_SNAPSHOT_PROP, vss/VSS_SNAPSHOT_PROP"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\imsvidvideorendererdevices_remove.htm
 old-project: mstv
 ms.assetid: 0a1d8f8b-1e62-470d-8f94-afc238755cad
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidVideoRendererDevices, IMSVidVideoRendererDevices interface [Microsoft TV Technologies], Remove method, IMSVidVideoRendererDevices::Remove, IMSVidVideoRendererDevicesRemove, Remove method [Microsoft TV Technologies], Remove method [Microsoft TV Technologies], IMSVidVideoRendererDevices interface, Remove,IMSVidVideoRendererDevices.Remove, mstv.imsvidvideorendererdevices_remove, segment/IMSVidVideoRendererDevices::Remove
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidVideoRendererDevices::Remove method

@@ -7,7 +7,7 @@ old-location: cos\iservicepoolconfig_get_classfactory.htm
 old-project: cossdk
 ms.assetid: cef9ff6b-53e2-43e1-9be6-7c0d7f89c318
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: IServicePoolConfig, IServicePoolConfig interface [COM+], get_ClassFactory method, IServicePoolConfig::get_ClassFactory, comsvcs/IServicePoolConfig::get_ClassFactory, cos.iservicepoolconfig_get_classfactory, get_ClassFactory method [COM+], get_ClassFactory method [COM+], IServicePoolConfig interface, get_ClassFactory,IServicePoolConfig.get_ClassFactory
 ms.prod: windows-hardware
 ms.technology: windows-devices

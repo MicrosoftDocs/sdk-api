@@ -7,7 +7,7 @@ old-location: rras\pmgm_join_alert_callback.htm
 old-project: RRAS
 ms.assetid: 6274f04c-78aa-4bce-b57d-625b0f4f6e5f
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: MgmJoinAlertCallback, MgmJoinAlertCallback callback function [RAS], _mpr_pmgm_join_alert_callback, mgm/MgmJoinAlertCallback, rras.pmgm_join_alert_callback
 ms.prod: windows-hardware
 ms.technology: windows-devices

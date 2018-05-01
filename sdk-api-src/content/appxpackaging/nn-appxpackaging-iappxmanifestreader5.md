@@ -7,7 +7,7 @@ old-location: appxpkg\iappxmanifestreader5.htm
 old-project: appxpkg
 ms.assetid: 6B435A29-2825-4FFD-8E05-2FE94E75A531
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/26/2018
 ms.keywords: IAppxManifestReader5, IAppxManifestReader5 interface [App packaging and management], IAppxManifestReader5 interface [App packaging and management], described, appxpackaging/IAppxManifestReader5, appxpkg.iappxmanifestreader5
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_ARCHITECTURE2
+req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
 topic_type:
 -	APIRef
 -	kbSyntax

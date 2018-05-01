@@ -60,6 +60,12 @@ Defines the partition parameters of a partition style.
 
 
 
+### -field style
+
+Determines the partition parameters. Supported values are <b>VDS_PST_MBR</b> or 
+      <b>VDS_PST_GPT</b>.
+
+
 ### -field MbrPartInfo
 
 Used if <b>style</b> is <b>VDS_PST_MBR</b>. Parameters for a Master 
@@ -183,12 +189,6 @@ Do not set this attribute for dynamic disks. Setting it can cause I/O errors and
 </tr>
 </table>
  
-
-
-### -field style
-
-Determines the partition parameters. Supported values are <b>VDS_PST_MBR</b> or 
-      <b>VDS_PST_GPT</b>.
 
 
 ## -remarks

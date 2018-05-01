@@ -7,7 +7,7 @@ old-location: netbios\name_buffer.htm
 old-project: NetBIOS
 ms.assetid: f1059074-68c1-4a08-98bd-ccfb314e39ec
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: "*PNAME_BUFFER, DEREGISTERED, DUPLICATE, DUPLICATE_DEREG, GROUP_NAME, NAME_BUFFER, NAME_BUFFER structure [NetBIOS], PNAME_BUFFER, PNAME_BUFFER structure pointer [NetBIOS], REGISTERED, REGISTERING, UNIQUE_NAME, _NAME_BUFFER, nb30/NAME_BUFFER, nb30/PNAME_BUFFER, netbios.name_buffer"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _NAME_BUFFER structure

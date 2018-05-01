@@ -7,7 +7,7 @@ old-location: wmformat\wmcreatesyncreader.htm
 old-project: wmformat
 ms.assetid: 77cb65cc-9785-4af4-9b92-245c17e5ab82
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: WMCreateSyncReader, WMCreateSyncReader function [windows Media Format], wmformat.wmcreatesyncreader, wmsdkidl/WMCreateSyncReader
 ms.prod: windows-hardware
 ms.technology: windows-devices

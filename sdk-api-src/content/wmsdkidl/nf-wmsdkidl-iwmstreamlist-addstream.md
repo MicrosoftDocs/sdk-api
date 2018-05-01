@@ -7,7 +7,7 @@ old-location: wmformat\iwmstreamlist_addstream.htm
 old-project: wmformat
 ms.assetid: 20aeed9d-029b-4b60-9ff3-14555bd53eb9
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: AddStream method [windows Media Format], AddStream method [windows Media Format], IWMStreamList interface, AddStream,IWMStreamList.AddStream, IWMStreamList, IWMStreamList interface [windows Media Format], AddStream method, IWMStreamList::AddStream, IWMStreamListAddStream, wmformat.iwmstreamlist_addstream, wmsdkidl/IWMStreamList::AddStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

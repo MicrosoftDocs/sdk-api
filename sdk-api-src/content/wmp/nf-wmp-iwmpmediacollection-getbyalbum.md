@@ -7,7 +7,7 @@ old-location: wmp\iwmpmediacollection_getbyalbum.htm
 old-project: WMP
 ms.assetid: 8db2349b-46f4-4863-a409-a85983362046
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPMediaCollection, IWMPMediaCollection interface [Windows Media Player], getByAlbum method, IWMPMediaCollection::getByAlbum, IWMPMediaCollectiongetByAlbum, getByAlbum method [Windows Media Player], getByAlbum method [Windows Media Player], IWMPMediaCollection interface, getByAlbum,IWMPMediaCollection.getByAlbum, wmp.iwmpmediacollection_getbyalbum, wmp/IWMPMediaCollection::getByAlbum
 ms.prod: windows-hardware
 ms.technology: windows-devices

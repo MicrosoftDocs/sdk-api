@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledevicedatastream_getobjectid.htm
 old-project: wpd_sdk
 ms.assetid: bd506e52-723d-4a3c-b73e-425700ccd3ec
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/11/2018
 ms.keywords: GetObjectID method [Windows Portable Devices SDK], GetObjectID method [Windows Portable Devices SDK], IPortableDeviceDataStream interface, GetObjectID,IPortableDeviceDataStream.GetObjectID, IPortableDeviceDataStream, IPortableDeviceDataStream interface [Windows Portable Devices SDK], GetObjectID method, IPortableDeviceDataStream::GetObjectID, IPortableDeviceDataStreamGetObjectID, portabledeviceapi/IPortableDeviceDataStream::GetObjectID, wpdsdk.iportabledevicedatastream_getobjectid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: WPD_WHITE_BALANCE_SETTINGS
+req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: PortableDeviceGUIDs.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IPortableDeviceDataStream::GetObjectID method

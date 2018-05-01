@@ -7,7 +7,7 @@ old-location: mf\imfmediaeventgenerator_begingetevent.htm
 old-project: medfound
 ms.assetid: a2afddac-46e9-4928-8b5b-44f3fc7c33d3
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: BeginGetEvent method [Media Foundation], BeginGetEvent method [Media Foundation], IMFMediaEventGenerator interface, BeginGetEvent,IMFMediaEventGenerator.BeginGetEvent, IMFMediaEventGenerator, IMFMediaEventGenerator interface [Media Foundation], BeginGetEvent method, IMFMediaEventGenerator::BeginGetEvent, a2afddac-46e9-4928-8b5b-44f3fc7c33d3, mf.imfmediaeventgenerator_begingetevent, mfobjects/IMFMediaEventGenerator::BeginGetEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

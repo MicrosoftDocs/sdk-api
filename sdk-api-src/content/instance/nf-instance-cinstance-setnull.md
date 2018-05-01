@@ -7,7 +7,7 @@ old-location: wmi\cinstance_setnull.htm
 old-project: WmiSdk
 ms.assetid: 4157275a-cf71-4aca-ae86-0ae0b0e7fda7
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: "?SetNull@CInstance@@QAE_NPBG@Z, CInstance, CInstance interface [Windows Management Instrumentation], SetNull method, CInstance::SetNull, SetNull method [Windows Management Instrumentation], SetNull method [Windows Management Instrumentation], CInstance interface, SetNull,CInstance.SetNull, _hmm_cinstance_setnull, instance/CInstance::SetNull, wmi.cinstance_setnull"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: InputScope
+req.typenames: TrustLevel
 topic_type:
 -	APIRef
 -	kbSyntax

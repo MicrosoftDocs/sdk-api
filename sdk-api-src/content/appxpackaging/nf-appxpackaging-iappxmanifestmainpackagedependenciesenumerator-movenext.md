@@ -7,7 +7,7 @@ old-location: appxpkg\iappxmanifestmainpackagedependenciesenumerator_movenext.ht
 old-project: appxpkg
 ms.assetid: C9E34671-5B56-4A6D-B728-C074F9BDB6D6
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/26/2018
 ms.keywords: IAppxManifestMainPackageDependenciesEnumerator, IAppxManifestMainPackageDependenciesEnumerator interface [App packaging and management], MoveNext method, IAppxManifestMainPackageDependenciesEnumerator::MoveNext, MoveNext method [App packaging and management], MoveNext method [App packaging and management], IAppxManifestMainPackageDependenciesEnumerator interface, MoveNext,IAppxManifestMainPackageDependenciesEnumerator.MoveNext, appxpackaging/IAppxManifestMainPackageDependenciesEnumerator::MoveNext, appxpkg.iappxmanifestmainpackagedependenciesenumerator_movenext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_ARCHITECTURE2
+req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
 topic_type:
 -	APIRef
 -	kbSyntax

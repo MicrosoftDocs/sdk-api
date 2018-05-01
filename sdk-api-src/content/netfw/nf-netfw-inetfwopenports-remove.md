@@ -7,7 +7,7 @@ old-location: ics\inetfwopenports_remove.htm
 old-project: ICS
 ms.assetid: e3719087-f7b9-4780-a030-0c568248080d
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: INetFwOpenPorts, INetFwOpenPorts interface [ICS/ICF], Remove method, INetFwOpenPorts::Remove, Remove method [ICS/ICF], Remove method [ICS/ICF], INetFwOpenPorts interface, Remove,INetFwOpenPorts.Remove, ics.inetfwopenports_remove, netfw/INetFwOpenPorts::Remove
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # INetFwOpenPorts::Remove method

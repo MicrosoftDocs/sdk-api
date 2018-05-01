@@ -7,7 +7,7 @@ old-location: wmformat\wm_user_web_url.htm
 old-project: wmformat
 ms.assetid: 004708cf-9bcd-469a-b770-54fa5ef1aeef
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: WM_USER_WEB_URL, WM_USER_WEB_URL structure [windows Media Format], _WMUserWebURL, wmformat.wm_user_web_url, wmsdkidl/WM_USER_WEB_URL
 ms.prod: windows-hardware
 ms.technology: windows-devices

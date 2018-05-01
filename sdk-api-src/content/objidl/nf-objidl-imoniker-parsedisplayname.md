@@ -7,7 +7,7 @@ old-location: com\imoniker_parsedisplayname.htm
 old-project: com
 ms.assetid: 6a5a1f14-f14f-404b-90d8-0afceafc087c
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IMoniker, IMoniker interface [COM], ParseDisplayName method, IMoniker::ParseDisplayName, ParseDisplayName method [COM], ParseDisplayName method [COM], IMoniker interface, ParseDisplayName,IMoniker.ParseDisplayName, _com_imoniker_parsedisplayname, com.imoniker_parsedisplayname, objidl/IMoniker::ParseDisplayName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMoniker::ParseDisplayName method

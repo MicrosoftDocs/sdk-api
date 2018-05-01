@@ -7,7 +7,7 @@ old-location: controls\ITextSelection_GetType.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\gettype.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: GetType method [Windows Controls], GetType method [Windows Controls], ITextSelection interface, GetType,ITextSelection.GetType, ITextSelection, ITextSelection interface [Windows Controls], GetType method, ITextSelection::GetType, _win32_ITextSelection_GetType, _win32_ITextSelection_GetType_cpp, controls.ITextSelection_GetType, controls._win32_ITextSelection_GetType, tom/ITextSelection::GetType
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffectprimitive_hasaffinetransform.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectprimitive\hasaffinetransform.htm
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: HasAffineTransform method [WPF Bitmap Effects], HasAffineTransform method [WPF Bitmap Effects], IMILBitmapEffectPrimitive interface, HasAffineTransform,IMILBitmapEffectPrimitive.HasAffineTransform, IMILBitmapEffectPrimitive, IMILBitmapEffectPrimitive interface [WPF Bitmap Effects], HasAffineTransform method, IMILBitmapEffectPrimitive::HasAffineTransform, _wibe_imilbitmapeffectprimitive_hasaffinetransform, mileffects/IMILBitmapEffectPrimitive::HasAffineTransform, wibe._wibe_imilbitmapeffectprimitive_hasaffinetransform
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\ix509publickey_encodedparameters_property.htm
 old-project: SecCertEnroll
 ms.assetid: f7c7bf0a-0b66-4676-9448-f74937823f90
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: EncodedParameters property [Security], EncodedParameters property [Security], IX509PublicKey interface, IX509PublicKey, IX509PublicKey interface [Security], EncodedParameters property, IX509PublicKey.EncodedParameters, IX509PublicKey::get_EncodedParameters, certenroll/IX509PublicKey::EncodedParameters, certenroll/IX509PublicKey::get_EncodedParameters, get_EncodedParameters,IX509PublicKey.get_EncodedParameters, security.ix509publickey_encodedparameters_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

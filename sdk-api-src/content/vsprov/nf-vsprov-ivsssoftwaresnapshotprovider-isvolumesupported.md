@@ -7,7 +7,7 @@ old-location: base\ivsssoftwaresnapshotprovider_isvolumesupported.htm
 old-project: VSS
 ms.assetid: 5dbaa5ad-4a35-49e2-a528-de1ea38e6e0b
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: IVssSoftwareSnapshotProvider, IVssSoftwareSnapshotProvider interface, IsVolumeSupported method, IVssSoftwareSnapshotProvider::IsVolumeSupported, IsVolumeSupported method, IsVolumeSupported method, IVssSoftwareSnapshotProvider interface, IsVolumeSupported,IVssSoftwareSnapshotProvider.IsVolumeSupported, base.ivsssoftwaresnapshotprovider_isvolumesupported, vsprov/IVssSoftwareSnapshotProvider::IsVolumeSupported
 ms.prod: windows-hardware
 ms.technology: windows-devices

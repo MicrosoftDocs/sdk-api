@@ -7,7 +7,7 @@ old-location: wmformat\iwmheaderinfo_removescript.htm
 old-project: wmformat
 ms.assetid: c66e808d-25f9-4745-8bcc-731f2556f470
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMHeaderInfo, IWMHeaderInfo interface [windows Media Format], RemoveScript method, IWMHeaderInfo::RemoveScript, IWMHeaderInfoRemoveScript, RemoveScript method [windows Media Format], RemoveScript method [windows Media Format], IWMHeaderInfo interface, RemoveScript,IWMHeaderInfo.RemoveScript, wmformat.iwmheaderinfo_removescript, wmsdkidl/IWMHeaderInfo::RemoveScript
 ms.prod: windows-hardware
 ms.technology: windows-devices

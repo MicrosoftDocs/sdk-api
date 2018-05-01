@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyfile5.htm
 old-project: Bits
 ms.assetid: 548b507a-4874-4ccf-829e-13e1ca6cc958
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/10/2018
 ms.keywords: IBackgroundCopyFile5, IBackgroundCopyFile5 interface [BITS], IBackgroundCopyFile5 interface [BITS], described, bits.ibackgroundcopyfile5, bits5_0/IBackgroundCopyFile5
 ms.prod: windows-hardware
 ms.technology: windows-devices

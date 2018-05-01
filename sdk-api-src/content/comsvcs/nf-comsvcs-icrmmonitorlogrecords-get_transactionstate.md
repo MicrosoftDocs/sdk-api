@@ -7,7 +7,7 @@ old-location: cos\icrmmonitorlogrecords_get_transactionstate.htm
 old-project: cossdk
 ms.assetid: 9aaa3d6c-41b9-4661-8e7e-ef1d1abba4aa
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: ICrmMonitorLogRecords, ICrmMonitorLogRecords interface [COM+], get_TransactionState method, ICrmMonitorLogRecords::get_TransactionState, _dtc_ICrmMonitorLogRecords_TransactionState, comsvcs/ICrmMonitorLogRecords::get_TransactionState, cos.icrmmonitorlogrecords_get_transactionstate, get_TransactionState method [COM+], get_TransactionState method [COM+], ICrmMonitorLogRecords interface, get_TransactionState,ICrmMonitorLogRecords.get_TransactionState
 ms.prod: windows-hardware
 ms.technology: windows-devices

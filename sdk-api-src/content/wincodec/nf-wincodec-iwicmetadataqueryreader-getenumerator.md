@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicmetadataqueryreader_getenumerator.htm
 old-project: wic
 ms.assetid: 8e9b0da5-90e3-4398-9113-0fb86a94cb0c
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: GetEnumerator method [Windows Imaging Component], GetEnumerator method [Windows Imaging Component], IWICMetadataQueryReader interface, GetEnumerator,IWICMetadataQueryReader.GetEnumerator, IWICMetadataQueryReader, IWICMetadataQueryReader interface [Windows Imaging Component], GetEnumerator method, IWICMetadataQueryReader::GetEnumerator, _wic_codec_iwicmetadataqueryreader_getenumerator, wic._wic_codec_iwicmetadataqueryreader_getenumerator, wincodec/IWICMetadataQueryReader::GetEnumerator
 ms.prod: windows-hardware
 ms.technology: windows-devices

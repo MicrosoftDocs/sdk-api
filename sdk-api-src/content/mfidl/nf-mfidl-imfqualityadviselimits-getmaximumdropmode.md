@@ -7,7 +7,7 @@ old-location: mf\imfqualityadviselimits_getmaximumdropmode.htm
 old-project: medfound
 ms.assetid: af3d968b-7baf-41d8-afd9-dbf673c1bb71
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetMaximumDropMode method [Media Foundation], GetMaximumDropMode method [Media Foundation], IMFQualityAdviseLimits interface, GetMaximumDropMode,IMFQualityAdviseLimits.GetMaximumDropMode, IMFQualityAdviseLimits, IMFQualityAdviseLimits interface [Media Foundation], GetMaximumDropMode method, IMFQualityAdviseLimits::GetMaximumDropMode, mf.imfqualityadviselimits_getmaximumdropmode, mfidl/IMFQualityAdviseLimits::GetMaximumDropMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

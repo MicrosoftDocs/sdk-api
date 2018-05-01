@@ -7,7 +7,7 @@ old-location: mstv\iguidedataproperty_get_language.htm
 old-project: mstv
 ms.assetid: e49a35f3-0517-4e84-b806-203818a0f62c
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IGuideDataProperty, IGuideDataProperty interface [Microsoft TV Technologies], get_Language method, IGuideDataProperty::get_Language, IGuideDataPropertyget_Language, bdatif/IGuideDataProperty::get_Language, get_Language method [Microsoft TV Technologies], get_Language method [Microsoft TV Technologies], IGuideDataProperty interface, get_Language,IGuideDataProperty.get_Language, mstv.iguidedataproperty_get_language
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: SpanningEventEmmMessage
+req.typenames: SmartCardApplication
 topic_type:
 -	APIRef
 -	kbSyntax

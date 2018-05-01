@@ -7,7 +7,7 @@ old-location: http\http_request_v2.htm
 old-project: Http
 ms.assetid: 02ac6f4f-ca54-42d5-9acb-5a1e81b2cb1c
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: "*PHTTP_REQUEST, *PHTTP_REQUEST_V2, *PHTTP_REQUEST_V2 structure [HTTP], HTTP_REQUEST, HTTP_REQUEST_V2, HTTP_REQUEST_V2 structure [HTTP], _HTTP_REQUEST_V2, http.http_request_v2, http/*PHTTP_REQUEST_V2, http/HTTP_REQUEST_V2"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: ics\iupnpnat.htm
 old-project: ICS
 ms.assetid: bfd93967-a514-4301-9b1e-0fee8794d929
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: IUPnPNAT, IUPnPNAT interface [ICS/ICF], IUPnPNAT interface [ICS/ICF], described, _ics_iupnpnat, ics.iupnpnat, natupnp/IUPnPNAT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IUPnPNAT interface

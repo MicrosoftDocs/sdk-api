@@ -7,7 +7,7 @@ old-location: mf\imfpmediaitem_getuserdata.htm
 old-project: medfound
 ms.assetid: aa99ced1-c32b-4bf5-b29a-e16eceddfed1
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetUserData method [Media Foundation], GetUserData method [Media Foundation], IMFPMediaItem interface, GetUserData,IMFPMediaItem.GetUserData, IMFPMediaItem, IMFPMediaItem interface [Media Foundation], GetUserData method, IMFPMediaItem::GetUserData, mf.imfpmediaitem_getuserdata, mfplay/IMFPMediaItem::GetUserData
 ms.prod: windows-hardware
 ms.technology: windows-devices

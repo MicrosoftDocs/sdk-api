@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effectvariable_getannotationbyname.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectvariable_getannotationbyname.htm
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: 88e41418-934c-2f28-baec-b4fa95311890, GetAnnotationByName method [Direct3D 10], GetAnnotationByName method [Direct3D 10], ID3D10EffectVariable interface, GetAnnotationByName,ID3D10EffectVariable.GetAnnotationByName, ID3D10EffectVariable, ID3D10EffectVariable interface [Direct3D 10], GetAnnotationByName method, ID3D10EffectVariable::GetAnnotationByName, d3d10effect/ID3D10EffectVariable::GetAnnotationByName, direct3d10.id3d10effectvariable_getannotationbyname
 ms.prod: windows-hardware
 ms.technology: windows-devices

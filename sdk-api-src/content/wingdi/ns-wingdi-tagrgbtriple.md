@@ -7,7 +7,7 @@ old-location: gdi\rgbtriple.htm
 old-project: gdi
 ms.assetid: bc1467a5-0027-4f22-bfc9-1deab562c573
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/17/2018
 ms.keywords: "*LPRGBTRIPLE, *NPRGBTRIPLE, *PRGBTRIPLE, RGBTRIPLE, RGBTRIPLE structure [Windows GDI], _win32_RGBTRIPLE_str, gdi.rgbtriple, tagRGBTRIPLE, wingdi/RGBTRIPLE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

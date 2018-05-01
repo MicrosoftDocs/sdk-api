@@ -7,7 +7,7 @@ old-location: stg\istream_copyto.htm
 old-project: Stg
 ms.assetid: 5bcd7da6-8bd5-4ab7-952f-f0a12e87f2d4
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/20/2018
 ms.keywords: CopyTo method [Structured Storage], CopyTo method [Structured Storage], IStream interface, CopyTo,IStream.CopyTo, IStream, IStream interface [Structured Storage], CopyTo method, IStream::CopyTo, _stg_istream_copyto, objidl/IStream::CopyTo, stg.istream_copyto
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IStream::CopyTo method

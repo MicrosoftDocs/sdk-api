@@ -7,7 +7,7 @@ old-location: controls\itextrow_setcellalignment.htm
 old-project: Controls
 ms.assetid: dd47cb2f-ddcf-4131-99fd-0981d3c4ec6f
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextRow, ITextRow interface [Windows Controls], SetCellAlignment method, ITextRow::SetCellAlignment, SetCellAlignment method [Windows Controls], SetCellAlignment method [Windows Controls], ITextRow interface, SetCellAlignment,ITextRow.SetCellAlignment, controls.itextrow_setcellalignment, tom/ITextRow::SetCellAlignment
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: coreaudio\immnotificationclient_ondefaultdevicechanged.htm
 old-project: CoreAudio
 ms.assetid: 3d484e5d-bdc6-41f1-bd94-ab0c9e109222
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: IMMNotificationClient, IMMNotificationClient interface [Core Audio], OnDefaultDeviceChanged method, IMMNotificationClient::OnDefaultDeviceChanged, IMMNotificationClientOnDefaultDeviceChanged, OnDefaultDeviceChanged method [Core Audio], OnDefaultDeviceChanged method [Core Audio], IMMNotificationClient interface, OnDefaultDeviceChanged,IMMNotificationClient.OnDefaultDeviceChanged, coreaudio.immnotificationclient_ondefaultdevicechanged, mmdeviceapi/IMMNotificationClient::OnDefaultDeviceChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices

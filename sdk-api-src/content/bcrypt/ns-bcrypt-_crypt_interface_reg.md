@@ -7,7 +7,7 @@ old-location: security\crypt_interface_reg.htm
 old-project: SecCNG
 ms.assetid: 80204d2a-ebc8-40f6-bccb-7cd112d7769b
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: "*PCRYPT_INTERFACE_REG, BCRYPT_ASYMMETRIC_ENCRYPTION_INTERFACE, BCRYPT_CIPHER_INTERFACE, BCRYPT_HASH_INTERFACE, BCRYPT_RNG_INTERFACE, BCRYPT_SECRET_AGREEMENT_INTERFACE, BCRYPT_SIGNATURE_INTERFACE, CRYPT_DOMAIN, CRYPT_INTERFACE_REG, CRYPT_INTERFACE_REG structure [Security], CRYPT_LOCAL, NCRYPT_KEY_STORAGE_INTERFACE, NCRYPT_SCHANNEL_INTERFACE, PCRYPT_INTERFACE_REG, PCRYPT_INTERFACE_REG structure pointer [Security], _CRYPT_INTERFACE_REG, bcrypt/CRYPT_INTERFACE_REG, bcrypt/PCRYPT_INTERFACE_REG, security.crypt_interface_reg"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tapi3\ienumagenthandler_clone.htm
 old-project: Tapi
 ms.assetid: a7358d0d-6d5a-4845-a212-d278a8d2b7fe
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: Clone method [TAPI 2.2], Clone method [TAPI 2.2], IEnumAgentHandler interface, Clone,IEnumAgentHandler.Clone, IEnumAgentHandler, IEnumAgentHandler interface [TAPI 2.2], Clone method, IEnumAgentHandler::Clone, _tapi3_ienumagenthandler_clone, tapi3.ienumagenthandler_clone, tapi3cc/IEnumAgentHandler::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

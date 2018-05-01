@@ -7,7 +7,7 @@ old-location: gdi\emrsetpixelv.htm
 old-project: gdi
 ms.assetid: 1487d788-c85a-4a58-a4c8-8abe198944b4
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/17/2018
 ms.keywords: "*PEMRSETPIXELV, EMRSETPIXELV, EMRSETPIXELV structure [Windows GDI], PEMRSETPIXELV, PEMRSETPIXELV structure pointer [Windows GDI], _win32_EMRSETPIXELV_str, gdi.emrsetpixelv, tagEMRSETPIXELV, wingdi/EMRSETPIXELV, wingdi/PEMRSETPIXELV"
 ms.prod: windows-hardware
 ms.technology: windows-devices

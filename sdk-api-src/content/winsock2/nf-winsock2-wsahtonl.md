@@ -7,7 +7,7 @@ old-location: winsock\wsahtonl_2.htm
 old-project: WinSock
 ms.assetid: 33512f49-d576-4439-ad8d-5c87387d6214
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/24/2018
 ms.keywords: WSAHtonl, WSAHtonl function [Winsock], _win32_wsahtonl_2, winsock.wsahtonl_2, winsock2/WSAHtonl
 ms.prod: windows-hardware
 ms.technology: windows-devices

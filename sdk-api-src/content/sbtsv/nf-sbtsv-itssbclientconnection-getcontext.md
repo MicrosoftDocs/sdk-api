@@ -7,7 +7,7 @@ old-location: termserv\itssbclientconnection_getcontext.htm
 old-project: TermServ
 ms.assetid: dd4938b5-aa33-4eca-851c-fdef75ecc815
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: GetContext method [Remote Desktop Services], GetContext method [Remote Desktop Services], ITsSbClientConnection interface, GetContext,ITsSbClientConnection.GetContext, ITsSbClientConnection, ITsSbClientConnection interface [Remote Desktop Services], GetContext method, ITsSbClientConnection::GetContext, sbtsv/ITsSbClientConnection::GetContext, termserv.itssbclientconnection_getcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITsSbClientConnection::GetContext method

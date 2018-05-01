@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationTextRange_ScrollIntoView.htm
 old-project: WinAuto
 ms.assetid: 0d1ec553-1cc2-4b1c-a393-2507a3756a6c
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: IUIAutomationTextRange, IUIAutomationTextRange interface [Windows Accessibility], ScrollIntoView method, IUIAutomationTextRange::ScrollIntoView, ScrollIntoView method [Windows Accessibility], ScrollIntoView method [Windows Accessibility], IUIAutomationTextRange interface, ScrollIntoView,IUIAutomationTextRange.ScrollIntoView, uiauto.uiauto_IUIAutomationTextRange_ScrollIntoView, uiauto_IUIAutomationTextRange_ScrollIntoView, uiautomationclient/IUIAutomationTextRange::ScrollIntoView, winauto.uiauto_IUIAutomationTextRange_ScrollIntoView
 ms.prod: windows-hardware
 ms.technology: windows-devices

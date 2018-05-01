@@ -7,7 +7,7 @@ old-location: mstv\iisdbsiparameterdescriptor_getparameterversion.htm
 old-project: mstv
 ms.assetid: 8ca9d5d3-d96f-4437-9d22-0166a3fbc593
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetParameterVersion method [Microsoft TV Technologies], GetParameterVersion method [Microsoft TV Technologies], IIsdbSIParameterDescriptor interface, GetParameterVersion,IIsdbSIParameterDescriptor.GetParameterVersion, IIsdbSIParameterDescriptor, IIsdbSIParameterDescriptor interface [Microsoft TV Technologies], GetParameterVersion method, IIsdbSIParameterDescriptor::GetParameterVersion, dvbsiparser/IIsdbSIParameterDescriptor::GetParameterVersion, mstv.iisdbsiparameterdescriptor_getparameterversion
 ms.prod: windows-hardware
 ms.technology: windows-devices

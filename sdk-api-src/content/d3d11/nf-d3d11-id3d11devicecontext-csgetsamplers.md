@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext_csgetsamplers.htm
 old-project: direct3d11
 ms.assetid: 97f5be84-3562-4b5a-9c7a-2ac3f18a184b
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/6/2018
 ms.keywords: 727801db-5fe0-a11b-bb2e-70ee26a54119, CSGetSamplers method [Direct3D 11], CSGetSamplers method [Direct3D 11], ID3D11DeviceContext interface, CSGetSamplers,ID3D11DeviceContext.CSGetSamplers, ID3D11DeviceContext, ID3D11DeviceContext interface [Direct3D 11], CSGetSamplers method, ID3D11DeviceContext::CSGetSamplers, d3d11/ID3D11DeviceContext::CSGetSamplers, direct3d11.id3d11devicecontext_csgetsamplers
 ms.prod: windows-hardware
 ms.technology: windows-devices

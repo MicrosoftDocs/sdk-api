@@ -7,7 +7,7 @@ old-location: mstv\idvbstuningspace_put_inputrange.htm
 old-project: mstv
 ms.assetid: fa7c065e-91c7-4780-a33a-c5f6bf77a2c4
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IDVBSTuningSpace, IDVBSTuningSpace interface [Microsoft TV Technologies], put_InputRange method, IDVBSTuningSpace::put_InputRange, IDVBSTuningSpaceput_InputRange, mstv.idvbstuningspace_put_inputrange, put_InputRange method [Microsoft TV Technologies], put_InputRange method [Microsoft TV Technologies], IDVBSTuningSpace interface, put_InputRange,IDVBSTuningSpace.put_InputRange, tuner/IDVBSTuningSpace::put_InputRange
 ms.prod: windows-hardware
 ms.technology: windows-devices

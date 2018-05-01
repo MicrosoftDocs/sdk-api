@@ -7,7 +7,7 @@ old-location: com\ipsfactorybuffer_createstub.htm
 old-project: com
 ms.assetid: 45e2a4c3-6a78-4018-9f32-ce5523682c0f
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: CreateStub method [COM], CreateStub method [COM], IPSFactoryBuffer interface, CreateStub,IPSFactoryBuffer.CreateStub, IPSFactoryBuffer, IPSFactoryBuffer interface [COM], CreateStub method, IPSFactoryBuffer::CreateStub, _com_ipsfactorybuffer_createstub, com.ipsfactorybuffer_createstub, objidlbase/IPSFactoryBuffer::CreateStub
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IPSFactoryBuffer::CreateStub method

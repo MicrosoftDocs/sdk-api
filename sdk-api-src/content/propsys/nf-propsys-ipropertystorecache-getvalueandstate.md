@@ -7,7 +7,7 @@ old-location: properties\IPropertyStoreCache_GetValueAndState.htm
 old-project: properties
 ms.assetid: eb8866c9-fc14-42c0-aaed-bd192ca25cf6
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/5/2018
 ms.keywords: GetValueAndState method [Windows Properties], GetValueAndState method [Windows Properties], IPropertyStoreCache interface, GetValueAndState,IPropertyStoreCache.GetValueAndState, IPropertyStoreCache, IPropertyStoreCache interface [Windows Properties], GetValueAndState method, IPropertyStoreCache::GetValueAndState, properties.IPropertyStoreCache_GetValueAndState, propsys/IPropertyStoreCache::GetValueAndState, shell.IPropertyStoreCache_GetValueAndState, shell_IPropertyStoreCache_GetValueAndState
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IPropertyStoreCache::GetValueAndState method

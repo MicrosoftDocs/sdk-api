@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IRawElementProviderSimple.htm
 old-project: WinAuto
 ms.assetid: f0ec6185-acd0-4df7-88f4-fd00747f98bf
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: IRawElementProviderSimple, IRawElementProviderSimple interface [Windows Accessibility], IRawElementProviderSimple interface [Windows Accessibility], described, uiauto.uiauto_IRawElementProviderSimple, uiauto_IRawElementProviderSimple, uiautomationcore/IRawElementProviderSimple, winauto.uiauto_IRawElementProviderSimple
 ms.prod: windows-hardware
 ms.technology: windows-devices

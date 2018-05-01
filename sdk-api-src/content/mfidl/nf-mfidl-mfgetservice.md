@@ -7,7 +7,7 @@ old-location: mf\mfgetservice.htm
 old-project: medfound
 ms.assetid: 119e9e2f-0e26-4dfc-9c89-156b63a63640
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 119e9e2f-0e26-4dfc-9c89-156b63a63640, MFGetService, MFGetService function [Media Foundation], mf.mfgetservice, mfidl/MFGetService
 ms.prod: windows-hardware
 ms.technology: windows-devices

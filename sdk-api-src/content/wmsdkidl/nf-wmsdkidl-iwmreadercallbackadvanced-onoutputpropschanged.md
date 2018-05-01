@@ -7,7 +7,7 @@ old-location: wmformat\iwmreadercallbackadvanced_onoutputpropschanged.htm
 old-project: wmformat
 ms.assetid: 5e8193c4-5fc7-4b19-9f6e-6873ebe5156a
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMReaderCallbackAdvanced, IWMReaderCallbackAdvanced interface [windows Media Format], OnOutputPropsChanged method, IWMReaderCallbackAdvanced::OnOutputPropsChanged, IWMReaderCallbackAdvancedOnOutputPropsChanged, OnOutputPropsChanged method [windows Media Format], OnOutputPropsChanged method [windows Media Format], IWMReaderCallbackAdvanced interface, OnOutputPropsChanged,IWMReaderCallbackAdvanced.OnOutputPropsChanged, wmformat.iwmreadercallbackadvanced_onoutputpropschanged, wmsdkidl/IWMReaderCallbackAdvanced::OnOutputPropsChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices

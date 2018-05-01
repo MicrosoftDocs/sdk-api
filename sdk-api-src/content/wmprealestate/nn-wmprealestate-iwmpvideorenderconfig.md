@@ -7,7 +7,7 @@ old-location: wmp\iwmpvideorenderconfig.htm
 old-project: WMP
 ms.assetid: 60318e68-89dd-4505-a703-3de4d5442236
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPVideoRenderConfig, IWMPVideoRenderConfig interface [Windows Media Player], IWMPVideoRenderConfig interface [Windows Media Player], described, IWMPVideoRenderConfigInterface, wmp.iwmpvideorenderconfig, wmprealestate/IWMPVideoRenderConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices

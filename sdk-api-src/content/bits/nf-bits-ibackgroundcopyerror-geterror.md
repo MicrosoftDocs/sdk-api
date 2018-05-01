@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyerror_geterror.htm
 old-project: Bits
 ms.assetid: abdf115d-3ff2-4664-b053-f55872ad24ab
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/10/2018
 ms.keywords: GetError method [BITS], GetError method [BITS], IBackgroundCopyError interface, GetError,IBackgroundCopyError.GetError, IBackgroundCopyError, IBackgroundCopyError interface [BITS], GetError method, IBackgroundCopyError::GetError, _drz_ibackgroundcopyerror_geterror, bits.ibackgroundcopyerror_geterror, bits/IBackgroundCopyError::GetError
 ms.prod: windows-hardware
 ms.technology: windows-devices

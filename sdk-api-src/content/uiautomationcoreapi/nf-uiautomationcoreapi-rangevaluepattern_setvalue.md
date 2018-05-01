@@ -7,7 +7,7 @@ old-location: winauto\uiauto_RangeValuePattern_SetValueConPat.htm
 old-project: WinAuto
 ms.assetid: 9a001826-fb0f-4e68-ba0f-54736d6ca1bd
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: RangeValuePattern_SetValue, RangeValuePattern_SetValue function [Windows Accessibility], uiauto.uiauto_RangeValuePattern_SetValueConPat, uiauto_RangeValuePattern_SetValueConPat, uiautomationcoreapi/RangeValuePattern_SetValue, winauto.uiauto_RangeValuePattern_SetValueConPat
 ms.prod: windows-hardware
 ms.technology: windows-devices

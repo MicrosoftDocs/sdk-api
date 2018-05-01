@@ -7,7 +7,7 @@ old-location: base\ivssbackupcomponents_exposesnapshot.htm
 old-project: VSS
 ms.assetid: 5a0abafa-d770-4529-90e4-0c597729d525
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: ExposeSnapshot method [VSS], ExposeSnapshot method [VSS], IVssBackupComponents interface, ExposeSnapshot,IVssBackupComponents.ExposeSnapshot, IVssBackupComponents, IVssBackupComponents interface [VSS], ExposeSnapshot method, IVssBackupComponents::ExposeSnapshot, _win32_ivssbackupcomponents_exposesnapshot, base.ivssbackupcomponents_exposesnapshot, vsbackup/IVssBackupComponents::ExposeSnapshot
 ms.prod: windows-hardware
 ms.technology: windows-devices

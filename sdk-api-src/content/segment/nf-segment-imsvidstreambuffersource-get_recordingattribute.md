@@ -7,7 +7,7 @@ old-location: mstv\imsvidstreambuffersource_get_recordingattribute.htm
 old-project: mstv
 ms.assetid: 9e7020c8-778d-4a24-ae29-3e66d4ac165a
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidStreamBufferSource, IMSVidStreamBufferSource interface [Microsoft TV Technologies], get_RecordingAttribute method, IMSVidStreamBufferSource::get_RecordingAttribute, IMSVidStreamBufferSourceget_RecordingAttribute, get_RecordingAttribute method [Microsoft TV Technologies], get_RecordingAttribute method [Microsoft TV Technologies], IMSVidStreamBufferSource interface, get_RecordingAttribute,IMSVidStreamBufferSource.get_RecordingAttribute, mstv.imsvidstreambuffersource_get_recordingattribute, segment/IMSVidStreamBufferSource::get_RecordingAttribute
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidStreamBufferSource::get_RecordingAttribute method

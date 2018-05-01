@@ -7,7 +7,7 @@ old-location: wmformat\iwmwriterpostviewcallback_allocateforpostview.htm
 old-project: wmformat
 ms.assetid: e48132c4-b222-4401-99b3-7906c0df4ec1
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: AllocateForPostView method [windows Media Format], AllocateForPostView method [windows Media Format], IWMWriterPostViewCallback interface, AllocateForPostView,IWMWriterPostViewCallback.AllocateForPostView, IWMWriterPostViewCallback, IWMWriterPostViewCallback interface [windows Media Format], AllocateForPostView method, IWMWriterPostViewCallback::AllocateForPostView, IWMWriterPostViewCallbackAllocateForPostView, wmformat.iwmwriterpostviewcallback_allocateforpostview, wmsdkidl/IWMWriterPostViewCallback::AllocateForPostView
 ms.prod: windows-hardware
 ms.technology: windows-devices

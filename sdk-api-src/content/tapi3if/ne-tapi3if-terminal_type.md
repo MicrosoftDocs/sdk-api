@@ -7,7 +7,7 @@ old-location: tapi3\terminal_type.htm
 old-project: Tapi
 ms.assetid: 43d08be3-c09b-4c74-ad71-6b452850d2e0
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: TERMINAL_TYPE, TERMINAL_TYPE enumeration [TAPI 2.2], TT_DYNAMIC, TT_STATIC, _tapi3_terminal_type, tapi3.terminal_type, tapi3if/TERMINAL_TYPE, tapi3if/TT_DYNAMIC, tapi3if/TT_STATIC
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,8 +38,8 @@ api_name:
 -	TERMINAL_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
 req.irql: 
 req.product: Windows XP with SP1 and later
 ---

@@ -7,7 +7,7 @@ old-location: winsock\wscgetproviderinfo32.htm
 old-project: WinSock
 ms.assetid: 91686b38-3cde-4979-8bf6-45e805dd37ff
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/24/2018
 ms.keywords: WSCGetProviderInfo32, WSCGetProviderInfo32 function [Winsock], winsock.wscgetproviderinfo32, ws2spi/WSCGetProviderInfo32
 ms.prod: windows-hardware
 ms.technology: windows-devices

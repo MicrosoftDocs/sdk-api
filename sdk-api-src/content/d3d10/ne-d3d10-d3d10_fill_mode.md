@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_fill_mode.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_fill_mode.htm
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: 0b605351-e264-0cd0-0fe1-6a7ecaa41acd, D3D10_FILL_MODE, D3D10_FILL_MODE enumeration [Direct3D 10], D3D10_FILL_SOLID, D3D10_FILL_WIREFRAME, d3d10/D3D10_FILL_MODE, d3d10/D3D10_FILL_SOLID, d3d10/D3D10_FILL_WIREFRAME, direct3d10.d3d10_fill_mode
 ms.prod: windows-hardware
 ms.technology: windows-devices

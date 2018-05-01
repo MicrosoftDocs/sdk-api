@@ -7,7 +7,7 @@ old-location: mf\imfattributes_compare.htm
 old-project: medfound
 ms.assetid: 1d0c9d1c-448d-4851-b183-94b04acb2ab5
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 1d0c9d1c-448d-4851-b183-94b04acb2ab5, Compare method [Media Foundation], Compare method [Media Foundation], IMFAttributes interface, Compare,IMFAttributes.Compare, IMFAttributes, IMFAttributes interface [Media Foundation], Compare method, IMFAttributes::Compare, mf.imfattributes_compare, mfobjects/IMFAttributes::Compare
 ms.prod: windows-hardware
 ms.technology: windows-devices

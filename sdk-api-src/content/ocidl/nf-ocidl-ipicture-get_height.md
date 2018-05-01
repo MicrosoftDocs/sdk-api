@@ -7,7 +7,7 @@ old-location: com\ipicture_get_height.htm
 old-project: com
 ms.assetid: a582cc9d-4356-49ec-9f14-38c75e690fbe
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IPicture, IPicture interface [COM], get_Height method, IPicture::get_Height, _ctrl_ipicture_get_height, com.ipicture_get_height, get_Height method [COM], get_Height method [COM], IPicture interface, get_Height,IPicture.get_Height, ocidl/IPicture::get_Height
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IPicture::get_Height method

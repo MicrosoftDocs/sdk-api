@@ -7,7 +7,7 @@ old-location: mstv\itunerequestinfo_getcomponentdata.htm
 old-project: mstv
 ms.assetid: 769d112e-4df7-451c-ac12-440b16c33e88
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetComponentData method [Microsoft TV Technologies], GetComponentData method [Microsoft TV Technologies], ITuneRequestInfo interface, GetComponentData,ITuneRequestInfo.GetComponentData, ITuneRequestInfo, ITuneRequestInfo interface [Microsoft TV Technologies], GetComponentData method, ITuneRequestInfo::GetComponentData, ITuneRequestInfoGetComponentData, bdatif/ITuneRequestInfo::GetComponentData, mstv.itunerequestinfo_getcomponentdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: SpanningEventEmmMessage
+req.typenames: SmartCardApplication
 topic_type:
 -	APIRef
 -	kbSyntax

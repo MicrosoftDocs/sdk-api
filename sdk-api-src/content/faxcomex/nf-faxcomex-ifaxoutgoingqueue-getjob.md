@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingqueue_getjob_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_3w6a_cpp.htm
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/18/2018
 ms.keywords: GetJob method [Fax Service], GetJob method [Fax Service], IFaxOutgoingQueue interface, GetJob,IFaxOutgoingQueue.GetJob, IFaxOutgoingQueue, IFaxOutgoingQueue interface [Fax Service], GetJob method, IFaxOutgoingQueue::GetJob, _mfax_faxoutgoingqueue.getjob_cpp, fax._mfax_faxoutgoingqueue_getjob_cpp, faxcomex/IFaxOutgoingQueue::GetJob
 ms.prod: windows-hardware
 ms.technology: windows-devices

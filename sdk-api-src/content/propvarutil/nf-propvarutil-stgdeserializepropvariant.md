@@ -7,7 +7,7 @@ old-location: properties\StgDeserializePropVariant.htm
 old-project: properties
 ms.assetid: 0517ef4d-e57c-4613-8d11-5e1eb14eb9fa
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/5/2018
 ms.keywords: StgDeserializePropVariant, StgDeserializePropVariant function [Windows Properties], _shell_StgDeserializePropVariant, properties.StgDeserializePropVariant, propvarutil/StgDeserializePropVariant, shell.StgDeserializePropVariant
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # StgDeserializePropVariant function

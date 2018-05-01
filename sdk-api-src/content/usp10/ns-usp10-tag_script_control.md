@@ -7,7 +7,7 @@ old-location: intl\script_control.htm
 old-project: Intl
 ms.assetid: 4623f606-f67e-48ad-8c1d-d27da5ba556c
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/25/2018
 ms.keywords: FALSE, SCRIPT_CONTROL, SCRIPT_CONTROL structure [Internationalization for Windows Applications], TRUE, _win32_SCRIPT_CONTROL_str, intl.script_control, tag_SCRIPT_CONTROL, usp10/SCRIPT_CONTROL
 ms.prod: windows-hardware
 ms.technology: windows-devices

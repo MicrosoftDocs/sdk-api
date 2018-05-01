@@ -7,7 +7,7 @@ old-location: xaudio2\cxapobase_validateformatdefault.htm
 old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.cxapobase.CXAPOBase.ValidateFormatDefault(WAVEFORMATEX,BOOL)
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/20/2018
 ms.keywords: CXAPOBase, CXAPOBase interface [XAudio2 Audio Mixing APIs], ValidateFormatDefault method, CXAPOBase::ValidateFormatDefault, ValidateFormatDefault method [XAudio2 Audio Mixing APIs], ValidateFormatDefault method [XAudio2 Audio Mixing APIs], CXAPOBase interface, ValidateFormatDefault,CXAPOBase.ValidateFormatDefault, xapobase/CXAPOBase::ValidateFormatDefault, xaudio2.cxapobase_validateformatdefault
 ms.prod: windows-hardware
 ms.technology: windows-devices

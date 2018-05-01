@@ -7,7 +7,7 @@ old-location: multimedia\mmtasksignal.htm
 old-project: Multimedia
 ms.assetid: 99063f94-efe6-43f5-87e4-1d52b83650e2
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/25/2018
 ms.keywords: mmTaskSignal, mmTaskSignal function [Windows Multimedia], mmddk/mmTaskSignal, multimedia.mmtasksignal
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: WIN32_FIND_DATAW, *PWIN32_FIND_DATAW, *LPWIN32_FIND_DATAW
+req.typenames: "_ColumnSortOrder, COLUMNSORTORDER"
 topic_type:
 -	APIRef
 -	kbSyntax

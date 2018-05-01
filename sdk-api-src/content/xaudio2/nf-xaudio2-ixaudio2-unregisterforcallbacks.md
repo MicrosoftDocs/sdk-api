@@ -7,7 +7,7 @@ old-location: xaudio2\ixaudio2_interface_unregisterforcallbacks.htm
 old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2.IXAudio2.UnregisterForCallbacks(IXAudio2EngineCallback)
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/20/2018
 ms.keywords: IXAudio2, IXAudio2 interface [XAudio2 Audio Mixing APIs], UnregisterForCallbacks method, IXAudio2::UnregisterForCallbacks, UnregisterForCallbacks method [XAudio2 Audio Mixing APIs], UnregisterForCallbacks method [XAudio2 Audio Mixing APIs], IXAudio2 interface, UnregisterForCallbacks,IXAudio2.UnregisterForCallbacks, xaudio2.ixaudio2_interface_unregisterforcallbacks, xaudio2/IXAudio2::UnregisterForCallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices

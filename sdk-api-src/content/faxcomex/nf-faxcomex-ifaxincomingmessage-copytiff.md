@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxincomingmessage_copytiff_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_1vc6.htm
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/18/2018
 ms.keywords: CopyTiff method [Fax Service], CopyTiff method [Fax Service], FaxIncomingMessage object, CopyTiff,IFaxIncomingMessage.CopyTiff, FaxIncomingMessage object [Fax Service], CopyTiff method, IFaxIncomingMessage, IFaxIncomingMessage::CopyTiff, _mfax_faxincomingmessage.copytiff, fax._mfax_faxincomingmessage_copytiff, fax._mfax_faxincomingmessage_copytiff_vb
 ms.prod: windows-hardware
 ms.technology: windows-devices

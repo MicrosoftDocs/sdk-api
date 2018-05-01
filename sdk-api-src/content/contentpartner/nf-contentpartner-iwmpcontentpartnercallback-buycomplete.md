@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontentpartnercallback_buycomplete.htm
 old-project: WMP
 ms.assetid: 4e9ab15f-3418-472d-afc4-0f9fae852da2
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: BuyComplete method [Windows Media Player], BuyComplete method [Windows Media Player], IWMPContentPartnerCallback interface, BuyComplete,IWMPContentPartnerCallback.BuyComplete, IWMPContentPartnerCallback, IWMPContentPartnerCallback interface [Windows Media Player], BuyComplete method, IWMPContentPartnerCallback::BuyComplete, IWMPContentPartnerCallbackBuyComplete, contentpartner/IWMPContentPartnerCallback::BuyComplete, wmp.iwmpcontentpartnercallback_buycomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices

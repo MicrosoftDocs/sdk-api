@@ -7,7 +7,7 @@ old-location: dshow\ivmrvideostreamcontrol9.htm
 old-project: DirectShow
 ms.assetid: df642ebb-058b-41db-95d3-d7d3bf9a6dd0
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IVMRVideoStreamControl9, IVMRVideoStreamControl9 interface [DirectShow], IVMRVideoStreamControl9 interface [DirectShow], described, IVMRVideoStreamControl9Interface, dshow.ivmrvideostreamcontrol9, vmr9/IVMRVideoStreamControl9
 ms.prod: windows-hardware
 ms.technology: windows-devices

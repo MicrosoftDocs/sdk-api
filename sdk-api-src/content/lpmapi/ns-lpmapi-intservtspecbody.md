@@ -59,6 +59,11 @@ The
 
 
 
+### -field st_mh
+
+Header for the corresponding Tspec object, expressed as  <a href="https://msdn.microsoft.com/b67fdf53-322b-4a70-ae83-63d4365e9b57">IntServMainHdr</a> structure.
+
+
 ### -field tspec_u
 
 
@@ -72,11 +77,6 @@ Generic Tspec, expressed as a <a href="https://msdn.microsoft.com/cefd94ed-ed54-
 #### qual_stspec
 
 Qualitative Tspec, expressed as a <a href="https://msdn.microsoft.com/dc22de18-3e9f-4b92-aba4-579aa47fab64">QualTspec</a> structure.
-
-
-### -field st_mh
-
-Header for the corresponding Tspec object, expressed as  <a href="https://msdn.microsoft.com/b67fdf53-322b-4a70-ae83-63d4365e9b57">IntServMainHdr</a> structure.
 
 
 ## -see-also

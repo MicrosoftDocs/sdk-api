@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxroutedevicechangenotification.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxrouteextapiref_7gry.htm
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/18/2018
 ms.keywords: FaxRouteDeviceChangeNotification, FaxRouteDeviceChangeNotification function [Fax Service], _mfax_faxroutedevicechangenotification, fax._mfax_faxroutedevicechangenotification, faxroute/FaxRouteDeviceChangeNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices

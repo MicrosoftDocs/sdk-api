@@ -7,7 +7,7 @@ old-location: mf\idxvahd_videoprocessor_videoprocessblthd.htm
 old-project: medfound
 ms.assetid: 59c4deee-4ef2-4aba-8188-989904055e70
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IDXVAHD_VideoProcessor, IDXVAHD_VideoProcessor interface [Media Foundation], VideoProcessBltHD method, IDXVAHD_VideoProcessor::VideoProcessBltHD, VideoProcessBltHD method [Media Foundation], VideoProcessBltHD method [Media Foundation], IDXVAHD_VideoProcessor interface, VideoProcessBltHD,IDXVAHD_VideoProcessor.VideoProcessBltHD, dxvahd/IDXVAHD_VideoProcessor::VideoProcessBltHD, mf.idxvahd_videoprocessor_videoprocessblthd
 ms.prod: windows-hardware
 ms.technology: windows-devices

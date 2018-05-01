@@ -7,7 +7,7 @@ old-location: ics\inetfwpolicy_currentprofile.htm
 old-project: ICS
 ms.assetid: 2ee59a3e-a4e3-4714-aba7-9d72bfacfb34
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: CurrentProfile property [ICS/ICF], CurrentProfile property [ICS/ICF], INetFwPolicy interface, INetFwPolicy, INetFwPolicy interface [ICS/ICF], CurrentProfile property, INetFwPolicy.CurrentProfile, INetFwPolicy::get_CurrentProfile, get_CurrentProfile,INetFwPolicy.get_CurrentProfile, ics.inetfwpolicy_currentprofile, netfw/INetFwPolicy::CurrentProfile, netfw/INetFwPolicy::get_CurrentProfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: 
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # INetFwPolicy::get_CurrentProfile method

@@ -7,7 +7,7 @@ old-location: security\iazscope_createapplicationgroup.htm
 old-project: SecAuthZ
 ms.assetid: 9bceb3a9-1144-48a1-a4d4-e612a3e77942
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: AzScope object [Security], CreateApplicationGroup method, CreateApplicationGroup method [Security], CreateApplicationGroup method [Security], AzScope object, CreateApplicationGroup method [Security], IAzScope interface, CreateApplicationGroup,IAzScope.CreateApplicationGroup, IAzScope, IAzScope interface [Security], CreateApplicationGroup method, IAzScope::CreateApplicationGroup, azroles/IAzScope::CreateApplicationGroup, security.iazscope_createapplicationgroup
 ms.prod: windows-hardware
 ms.technology: windows-devices

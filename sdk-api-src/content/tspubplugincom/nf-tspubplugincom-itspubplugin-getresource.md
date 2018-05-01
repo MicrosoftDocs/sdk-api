@@ -7,7 +7,7 @@ old-location: termserv\itspubplugin_getresource.htm
 old-project: TermServ
 ms.assetid: eceadfef-6980-452a-b983-3813f6e7ade8
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: GetResource method [Remote Desktop Services], GetResource method [Remote Desktop Services], ItsPubPlugin interface, GetResource,ItsPubPlugin.GetResource, ItsPubPlugin, ItsPubPlugin interface [Remote Desktop Services], GetResource method, ItsPubPlugin::GetResource, termserv.itspubplugin_getresource, tspubplugincom/ItsPubPlugin::GetResource
 ms.prod: windows-hardware
 ms.technology: windows-devices

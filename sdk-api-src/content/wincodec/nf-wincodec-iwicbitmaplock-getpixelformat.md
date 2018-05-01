@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicbitmaplock_getpixelformat.htm
 old-project: wic
 ms.assetid: 2dfc6b0a-eb0f-416f-8123-17e5b93da612
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: GetPixelFormat method [Windows Imaging Component], GetPixelFormat method [Windows Imaging Component], IWICBitmapLock interface, GetPixelFormat,IWICBitmapLock.GetPixelFormat, IWICBitmapLock, IWICBitmapLock interface [Windows Imaging Component], GetPixelFormat method, IWICBitmapLock::GetPixelFormat, _wic_codec_iwicbitmaplock_getpixelformat, wic._wic_codec_iwicbitmaplock_getpixelformat, wincodec/IWICBitmapLock::GetPixelFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices

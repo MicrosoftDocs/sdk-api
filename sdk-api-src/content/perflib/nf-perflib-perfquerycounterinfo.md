@@ -7,7 +7,7 @@ old-location: perf\perfquerycounterinfo.htm
 old-project: PerfCtrs
 ms.assetid: 42CAB98C-4525-499D-BA11-731A666E112D
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/23/2018
 ms.keywords: PerfQueryCounterInfo, PerfQueryCounterInfo function [Perf], perf.perfquerycounterinfo, perflib/PerfQueryCounterInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: AdvAPI32.lib
 req.dll: AdvAPI32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # PerfQueryCounterInfo function

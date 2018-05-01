@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_sampler_desc.htm
 old-project: direct3d12
 ms.assetid: 96261FE1-89D4-4135-B5C4-2D788DF4FA12
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: D3D12_SAMPLER_DESC, D3D12_SAMPLER_DESC structure, d3d12/D3D12_SAMPLER_DESC, direct3d12.d3d12_sampler_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices

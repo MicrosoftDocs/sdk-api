@@ -7,7 +7,7 @@ old-location: com\iaccessibilitydockingservicecallback_undocked.htm
 old-project: com
 ms.assetid: 1D704794-C729-49B9-8F72-6D77D0860B03
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IAccessibilityDockingServiceCallback, IAccessibilityDockingServiceCallback interface [COM], Undocked method, IAccessibilityDockingServiceCallback::Undocked, Undocked method [COM], Undocked method [COM], IAccessibilityDockingServiceCallback interface, Undocked,IAccessibilityDockingServiceCallback.Undocked, com.iaccessibilitydockingservicecallback_undocked, shobjidl/IAccessibilityDockingServiceCallback::Undocked
 ms.prod: windows-hardware
 ms.technology: windows-devices

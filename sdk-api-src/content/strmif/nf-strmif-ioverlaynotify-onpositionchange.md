@@ -7,7 +7,7 @@ old-location: dshow\ioverlaynotify_onpositionchange.htm
 old-project: DirectShow
 ms.assetid: a5d110a6-5056-4fc1-9589-c2cc66566322
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IOverlayNotify, IOverlayNotify interface [DirectShow], OnPositionChange method, IOverlayNotify::OnPositionChange, IOverlayNotifyOnPositionChange, OnPositionChange method [DirectShow], OnPositionChange method [DirectShow], IOverlayNotify interface, OnPositionChange,IOverlayNotify.OnPositionChange, dshow.ioverlaynotify_onpositionchange, strmif/IOverlayNotify::OnPositionChange
 ms.prod: windows-hardware
 ms.technology: windows-devices

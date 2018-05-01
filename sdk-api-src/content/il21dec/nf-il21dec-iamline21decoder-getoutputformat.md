@@ -7,7 +7,7 @@ old-location: dshow\iamline21decoder_getoutputformat.htm
 old-project: DirectShow
 ms.assetid: 3d1ded3c-fdeb-4e02-92ee-d0986711c335
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetOutputFormat method [DirectShow], GetOutputFormat method [DirectShow], IAMLine21Decoder interface, GetOutputFormat,IAMLine21Decoder.GetOutputFormat, IAMLine21Decoder, IAMLine21Decoder interface [DirectShow], GetOutputFormat method, IAMLine21Decoder::GetOutputFormat, IAMLine21DecoderGetOutputFormat, dshow.iamline21decoder_getoutputformat, il21dec/IAMLine21Decoder::GetOutputFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices

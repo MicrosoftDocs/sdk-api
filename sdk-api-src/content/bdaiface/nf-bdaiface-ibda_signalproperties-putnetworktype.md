@@ -7,7 +7,7 @@ old-location: mstv\ibda_signalproperties_putnetworktype.htm
 old-project: mstv
 ms.assetid: e92fa253-7e00-457f-805e-ed13bca84254
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IBDA_SignalProperties, IBDA_SignalProperties interface [Microsoft TV Technologies], PutNetworkType method, IBDA_SignalProperties::PutNetworkType, IBDA_SignalPropertiesPutNetworkType, PutNetworkType method [Microsoft TV Technologies], PutNetworkType method [Microsoft TV Technologies], IBDA_SignalProperties interface, PutNetworkType,IBDA_SignalProperties.PutNetworkType, bdaiface/IBDA_SignalProperties::PutNetworkType, mstv.ibda_signalproperties_putnetworktype
 ms.prod: windows-hardware
 ms.technology: windows-devices

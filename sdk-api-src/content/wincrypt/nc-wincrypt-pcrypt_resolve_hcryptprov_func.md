@@ -7,7 +7,7 @@ old-location: security\pcrypt_resolve_hcryptprov_func.htm
 old-project: SecCrypto
 ms.assetid: d3b2b942-bde5-4399-9412-95fe227cd546
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: PCRYPT_RESOLVE_HCRYPTPROV_FUNC, PCRYPT_RESOLVE_HCRYPTPROV_FUNC function pointer [Security], security.pcrypt_resolve_hcryptprov_func, wincrypt/PCRYPT_RESOLVE_HCRYPTPROV_FUNC
 ms.prod: windows-hardware
 ms.technology: windows-devices

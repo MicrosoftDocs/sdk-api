@@ -7,7 +7,7 @@ old-location: shell\ITrayDeskBand_HideDeskBand.htm
 old-project: shell
 ms.assetid: 586ead4b-94fe-4da1-b78e-d4f1c61b9ee2
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: HideDeskBand method [Windows Shell], HideDeskBand method [Windows Shell], ITrayDeskBand interface, HideDeskBand,ITrayDeskBand.HideDeskBand, ITrayDeskBand, ITrayDeskBand interface [Windows Shell], HideDeskBand method, ITrayDeskBand::HideDeskBand, _shell_ITrayDeskBand_HideDeskBand, shell.ITrayDeskBand_HideDeskBand, shobjidl/ITrayDeskBand::HideDeskBand
 ms.prod: windows-hardware
 ms.technology: windows-devices

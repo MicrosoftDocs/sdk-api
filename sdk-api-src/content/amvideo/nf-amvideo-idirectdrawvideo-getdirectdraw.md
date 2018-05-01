@@ -7,7 +7,7 @@ old-location: dshow\idirectdrawvideo_getdirectdraw.htm
 old-project: DirectShow
 ms.assetid: 25c64d6e-fd49-430a-9f9b-3c2b3d43d3a1
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetDirectDraw method [DirectShow], GetDirectDraw method [DirectShow], IDirectDrawVideo interface, GetDirectDraw,IDirectDrawVideo.GetDirectDraw, IDirectDrawVideo, IDirectDrawVideo interface [DirectShow], GetDirectDraw method, IDirectDrawVideo::GetDirectDraw, IDirectDrawVideoGetDirectDraw, amvideo/IDirectDrawVideo::GetDirectDraw, dshow.idirectdrawvideo_getdirectdraw
 ms.prod: windows-hardware
 ms.technology: windows-devices

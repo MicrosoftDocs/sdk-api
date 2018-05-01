@@ -7,7 +7,7 @@ old-location: security\iidentityprovider_advise.htm
 old-project: SecAuthN
 ms.assetid: fcac9d30-64ed-4746-aacc-ee659c2b2642
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/24/2018
 ms.keywords: Advise method [Security], Advise method [Security], IIdentityProvider interface, Advise,IIdentityProvider.Advise, IDENTITY_ASSOCIATED, IDENTITY_CREATED, IDENTITY_DELETED, IDENTITY_DISASSOCIATED, IDENTITY_IMPORTED, IDENTITY_PROPCHANGE, IIdentityProvider, IIdentityProvider interface [Security], Advise method, IIdentityProvider::Advise, identityprovider/IIdentityProvider::Advise, security.iidentityprovider_advise
 ms.prod: windows-hardware
 ms.technology: windows-devices

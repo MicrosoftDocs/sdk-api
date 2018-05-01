@@ -7,7 +7,7 @@ old-location: security\freesharedmemory.htm
 old-project: SecAuthN
 ms.assetid: def16ef0-4ae7-43c5-99c8-493bdf0c6a97
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/24/2018
 ms.keywords: FreeSharedMemory, FreeSharedMemory function [Security], LSA_FREE_SHARED_MEMORY, _ssp_freesharedmemory, ntsecpkg/FreeSharedMemory, security.freesharedmemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # LSA_FREE_SHARED_MEMORY callback

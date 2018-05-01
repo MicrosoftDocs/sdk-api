@@ -7,7 +7,7 @@ old-location: shell\PathIsNetworkPath.htm
 old-project: shell
 ms.assetid: 3a9c33bc-2325-4285-b6c3-4c3e1d323c1e
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: PathIsNetworkPath, PathIsNetworkPath function [Windows Shell], PathIsNetworkPathA, PathIsNetworkPathW, _win32_PathIsNetworkPath, shell.PathIsNetworkPath, shlwapi/PathIsNetworkPath, shlwapi/PathIsNetworkPathA, shlwapi/PathIsNetworkPathW
 ms.prod: windows-hardware
 ms.technology: windows-devices

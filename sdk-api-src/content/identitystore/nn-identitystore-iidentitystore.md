@@ -7,7 +7,7 @@ old-location: security\iidentitystore.htm
 old-project: SecAuthN
 ms.assetid: f7f0f103-411b-4fbd-9ed5-30c6ab2f0ab6
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/24/2018
 ms.keywords: IIdentityStore, IIdentityStore interface [Security], IIdentityStore interface [Security], described, identitystore/IIdentityStore, security.iidentitystore
 ms.prod: windows-hardware
 ms.technology: windows-devices

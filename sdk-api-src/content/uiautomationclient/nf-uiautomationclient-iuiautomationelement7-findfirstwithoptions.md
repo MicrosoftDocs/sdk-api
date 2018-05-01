@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement7_FindFirstWithOptions.htm
 old-project: WinAuto
 ms.assetid: D6A872E7-290D-45E7-B4FD-7201A4E990A2
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: FindFirstWithOptions method [Windows Accessibility], FindFirstWithOptions method [Windows Accessibility], IUIAutomationElement7 interface, FindFirstWithOptions,IUIAutomationElement7.FindFirstWithOptions, IUIAutomationElement7, IUIAutomationElement7 interface [Windows Accessibility], FindFirstWithOptions method, IUIAutomationElement7::FindFirstWithOptions, uiautomationclient/IUIAutomationElement7::FindFirstWithOptions, winauto.uiauto_IUIAutomationElement7_FindFirstWithOptions, winauto.uiauto_iuiautomationelement_findfirstwithoptions
 ms.prod: windows-hardware
 ms.technology: windows-devices

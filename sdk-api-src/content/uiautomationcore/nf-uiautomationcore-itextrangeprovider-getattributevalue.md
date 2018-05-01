@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ITextRangeProvider_GetAttributeValue.htm
 old-project: WinAuto
 ms.assetid: a72e780e-30e3-4feb-8f47-46b9f1714061
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: GetAttributeValue method [Windows Accessibility], GetAttributeValue method [Windows Accessibility], ITextRangeProvider interface, GetAttributeValue,ITextRangeProvider.GetAttributeValue, ITextRangeProvider, ITextRangeProvider interface [Windows Accessibility], GetAttributeValue method, ITextRangeProvider::GetAttributeValue, uiauto.uiauto_ITextRangeProvider_GetAttributeValue, uiauto_ITextRangeProvider_GetAttributeValue, uiautomationcore/ITextRangeProvider::GetAttributeValue, winauto.uiauto_ITextRangeProvider_GetAttributeValue
 ms.prod: windows-hardware
 ms.technology: windows-devices

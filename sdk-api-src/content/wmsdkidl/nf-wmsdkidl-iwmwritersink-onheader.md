@@ -7,7 +7,7 @@ old-location: wmformat\iwmwritersink_onheader.htm
 old-project: wmformat
 ms.assetid: 97b1dbd0-a555-40d3-b2f0-3a363a6ce168
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMWriterSink, IWMWriterSink interface [windows Media Format], OnHeader method, IWMWriterSink::OnHeader, IWMWriterSinkOnHeader, OnHeader method [windows Media Format], OnHeader method [windows Media Format], IWMWriterSink interface, OnHeader,IWMWriterSink.OnHeader, wmformat.iwmwritersink_onheader, wmsdkidl/IWMWriterSink::OnHeader
 ms.prod: windows-hardware
 ms.technology: windows-devices

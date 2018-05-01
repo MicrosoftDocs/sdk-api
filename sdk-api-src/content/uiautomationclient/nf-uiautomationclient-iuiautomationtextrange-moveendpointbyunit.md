@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationTextRange_MoveEndpointByUnit.htm
 old-project: WinAuto
 ms.assetid: 8724db1f-b8ed-4e00-9661-c22dd412653c
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: IUIAutomationTextRange, IUIAutomationTextRange interface [Windows Accessibility], MoveEndpointByUnit method, IUIAutomationTextRange::MoveEndpointByUnit, MoveEndpointByUnit method [Windows Accessibility], MoveEndpointByUnit method [Windows Accessibility], IUIAutomationTextRange interface, MoveEndpointByUnit,IUIAutomationTextRange.MoveEndpointByUnit, uiauto.uiauto_IUIAutomationTextRange_MoveEndpointByUnit, uiauto_IUIAutomationTextRange_MoveEndpointByUnit, uiautomationclient/IUIAutomationTextRange::MoveEndpointByUnit, winauto.uiauto_IUIAutomationTextRange_MoveEndpointByUnit
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: com\icomthreadinginfo_getcurrentthreadtype.htm
 old-project: com
 ms.assetid: 93437e45-f1e7-4f1f-bffb-ef234c7f5a6b
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: GetCurrentThreadType method [COM], GetCurrentThreadType method [COM], IComThreadingInfo interface, GetCurrentThreadType,IComThreadingInfo.GetCurrentThreadType, IComThreadingInfo, IComThreadingInfo interface [COM], GetCurrentThreadType method, IComThreadingInfo::GetCurrentThreadType, _com_icomthreadinginfo_getcurrentthreadtype, com.icomthreadinginfo_getcurrentthreadtype, objidlbase/IComThreadingInfo::GetCurrentThreadType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IComThreadingInfo::GetCurrentThreadType method

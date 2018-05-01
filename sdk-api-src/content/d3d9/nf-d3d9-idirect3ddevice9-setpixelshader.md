@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3ddevice9__setpixelshader.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__setpixelshader.htm
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/10/2018
 ms.keywords: IDirect3DDevice9, IDirect3DDevice9 interface [Direct3D 9], SetPixelShader method, IDirect3DDevice9::SetPixelShader, SetPixelShader method [Direct3D 9], SetPixelShader method [Direct3D 9], IDirect3DDevice9 interface, SetPixelShader,IDirect3DDevice9.SetPixelShader, c65d883e-77d2-f541-2bd4-48dba090930c, d3d9helper/IDirect3DDevice9::SetPixelShader, direct3d9.idirect3ddevice9__setpixelshader
 ms.prod: windows-hardware
 ms.technology: windows-devices

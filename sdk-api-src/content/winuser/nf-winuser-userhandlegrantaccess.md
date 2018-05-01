@@ -7,7 +7,7 @@ old-location: base\userhandlegrantaccess.htm
 old-project: ProcThread
 ms.assetid: 6e7a6cfc-f881-43cc-a5af-b97e0bf14bf4
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: UserHandleGrantAccess, UserHandleGrantAccess function, _win32_userhandlegrantaccess, base.userhandlegrantaccess, winuser/UserHandleGrantAccess
 ms.prod: windows-hardware
 ms.technology: windows-devices

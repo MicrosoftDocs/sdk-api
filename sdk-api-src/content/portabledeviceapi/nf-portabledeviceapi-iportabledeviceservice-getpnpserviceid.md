@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledeviceservice_getpnpserviceid.htm
 old-project: wpd_sdk
 ms.assetid: c73261a5-1436-4706-8d8b-ff8183429ac4
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/11/2018
 ms.keywords: GetPnPServiceID method [Windows Portable Devices SDK], GetPnPServiceID method [Windows Portable Devices SDK], IPortableDeviceService interface, GetPnPServiceID,IPortableDeviceService.GetPnPServiceID, IPortableDeviceService, IPortableDeviceService interface [Windows Portable Devices SDK], GetPnPServiceID method, IPortableDeviceService::GetPnPServiceID, portabledeviceapi/IPortableDeviceService::GetPnPServiceID, wpdsdk.iportabledeviceservice_getpnpserviceid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: WPD_WHITE_BALANCE_SETTINGS
+req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IPortableDeviceService::GetPnPServiceID method

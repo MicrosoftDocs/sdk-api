@@ -7,7 +7,7 @@ old-location: mstv\iisdbaudiocomponentdescriptor_getesmultilingualflag.htm
 old-project: mstv
 ms.assetid: 10a47ca7-84db-48de-8ba5-0be257438044
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetESMultiLingualFlag method [Microsoft TV Technologies], GetESMultiLingualFlag method [Microsoft TV Technologies], IIsdbAudioComponentDescriptor interface, GetESMultiLingualFlag,IIsdbAudioComponentDescriptor.GetESMultiLingualFlag, IIsdbAudioComponentDescriptor, IIsdbAudioComponentDescriptor interface [Microsoft TV Technologies], GetESMultiLingualFlag method, IIsdbAudioComponentDescriptor::GetESMultiLingualFlag, dvbsiparser/IIsdbAudioComponentDescriptor::GetESMultiLingualFlag, mstv.iisdbaudiocomponentdescriptor_getesmultilingualflag
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmi\iwbemeventsink_isactive.htm
 old-project: WmiSdk
 ms.assetid: dc5afbc1-60da-42ec-9dc3-79b66243690c
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: IWbemEventSink, IWbemEventSink interface [Windows Management Instrumentation], IsActive method, IWbemEventSink::IsActive, IsActive method [Windows Management Instrumentation], IsActive method [Windows Management Instrumentation], IWbemEventSink interface, IsActive,IWbemEventSink.IsActive, _hmm_iwbemeventsink_isactive, wbemprov/IWbemEventSink::IsActive, wmi.iwbemeventsink_isactive
 ms.prod: windows-hardware
 ms.technology: windows-devices

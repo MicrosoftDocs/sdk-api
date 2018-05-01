@@ -7,7 +7,7 @@ old-location: base\ivssbackupcomponents_addnewtarget.htm
 old-project: VSS
 ms.assetid: 9a4e2638-f6e7-4264-997d-41880f23c981
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: AddNewTarget method [VSS], AddNewTarget method [VSS], IVssBackupComponents interface, AddNewTarget,IVssBackupComponents.AddNewTarget, IVssBackupComponents, IVssBackupComponents interface [VSS], AddNewTarget method, IVssBackupComponents::AddNewTarget, _win32_ivssbackupcomponents_addnewtarget, base.ivssbackupcomponents_addnewtarget, vsbackup/IVssBackupComponents::AddNewTarget
 ms.prod: windows-hardware
 ms.technology: windows-devices

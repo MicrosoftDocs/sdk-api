@@ -7,7 +7,7 @@ old-location: mscs\clusterregclosebatch.htm
 old-project: MsCS
 ms.assetid: d43644cf-370b-499f-b321-24e43f145a98
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: PCLUSTER_REG_CLOSE_BATCH, PCLUSTER_REG_CLOSE_BATCH callback function [Failover Cluster], clusapi/PCLUSTER_REG_CLOSE_BATCH, mscs.clusterregclosebatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: LOG_MANAGEMENT_CALLBACKS, *PLOG_MANAGEMENT_CALLBACKS
+req.typenames: Sources
 topic_type:
 -	APIRef
 -	kbSyntax

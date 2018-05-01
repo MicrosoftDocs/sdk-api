@@ -7,7 +7,7 @@ old-location: controls\NMLINK.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\syslink\structures\nmlink.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: "*PNMLINK, NMLINK, NMLINK structure [Windows Controls], PNMLINK, PNMLINK structure pointer [Windows Controls], commctrl/NMLINK, commctrl/PNMLINK, controls.NMLINK, controls.inet_NMLINK_str, inet_NMLINK_str, inet_NMLINK_str_cpp, tagNMLINK"
 ms.prod: windows-hardware
 ms.technology: windows-devices

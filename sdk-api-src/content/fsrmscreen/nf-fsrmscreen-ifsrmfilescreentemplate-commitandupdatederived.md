@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmfilescreentemplate_commitandupdatederived.htm
 old-project: Fsrm
 ms.assetid: 6b50a93f-f6f0-4ab4-a4a3-3995b721c5d7
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: CommitAndUpdateDerived method [File Server Resource Manager], CommitAndUpdateDerived method [File Server Resource Manager], IFsrmFileScreenTemplate interface, CommitAndUpdateDerived,IFsrmFileScreenTemplate.CommitAndUpdateDerived, IFsrmFileScreenTemplate, IFsrmFileScreenTemplate interface [File Server Resource Manager], CommitAndUpdateDerived method, IFsrmFileScreenTemplate::CommitAndUpdateDerived, fs.ifsrmfilescreentemplate_commitandupdatederived, fsrm.ifsrmfilescreentemplate_commitandupdatederived, fsrmscreen/IFsrmFileScreenTemplate::CommitAndUpdateDerived
 ms.prod: windows-hardware
 ms.technology: windows-devices

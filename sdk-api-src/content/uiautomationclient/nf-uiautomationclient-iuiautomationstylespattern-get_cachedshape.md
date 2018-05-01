@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationStylesPattern_CachedShape.htm
 old-project: WinAuto
 ms.assetid: DB6D21C8-ADF3-4640-9B46-59033F015A22
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: CachedShape property [Windows Accessibility], CachedShape property [Windows Accessibility], IUIAutomationStylesPattern interface, IUIAutomationStylesPattern, IUIAutomationStylesPattern interface [Windows Accessibility], CachedShape property, IUIAutomationStylesPattern.CachedShape, IUIAutomationStylesPattern::get_CachedShape, get_CachedShape,IUIAutomationStylesPattern.get_CachedShape, uiautomationclient/IUIAutomationStylesPattern::CachedShape, uiautomationclient/IUIAutomationStylesPattern::get_CachedShape, winauto.uiauto_IUIAutomationStylesPattern_CachedShape
 ms.prod: windows-hardware
 ms.technology: windows-devices

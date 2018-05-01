@@ -7,7 +7,7 @@ old-location: dshow\ikstopologyinfo_createnodeinstance.htm
 old-project: DirectShow
 ms.assetid: f2c7ea1d-abd6-4179-b5b7-d89837ceecd7
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: CreateNodeInstance method [DirectShow], CreateNodeInstance method [DirectShow], IKsTopologyInfo interface, CreateNodeInstance,IKsTopologyInfo.CreateNodeInstance, IKsTopologyInfo, IKsTopologyInfo interface [DirectShow], CreateNodeInstance method, IKsTopologyInfo::CreateNodeInstance, IKsTopologyInfoCreateNodeInstance, dshow.ikstopologyinfo_createnodeinstance, vidcap/IKsTopologyInfo::CreateNodeInstance
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: VIDEOHDR, *PVIDEOHDR, *LPVIDEOHDR
+req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
 topic_type:
 -	APIRef
 -	kbSyntax

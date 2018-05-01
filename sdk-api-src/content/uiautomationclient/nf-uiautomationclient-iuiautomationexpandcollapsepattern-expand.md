@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationExpandCollapsePattern_Expand.htm
 old-project: WinAuto
 ms.assetid: bc21cffc-63fe-4c5d-9c4d-35e1bab67a7c
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: Expand method [Windows Accessibility], Expand method [Windows Accessibility], IUIAutomationExpandCollapsePattern interface, Expand,IUIAutomationExpandCollapsePattern.Expand, IUIAutomationExpandCollapsePattern, IUIAutomationExpandCollapsePattern interface [Windows Accessibility], Expand method, IUIAutomationExpandCollapsePattern::Expand, uiauto.uiauto_IUIAutomationExpandCollapsePattern_Expand, uiauto_IUIAutomationExpandCollapsePattern_Expand, uiautomationclient/IUIAutomationExpandCollapsePattern::Expand, winauto.uiauto_IUIAutomationExpandCollapsePattern_Expand
 ms.prod: windows-hardware
 ms.technology: windows-devices

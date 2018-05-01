@@ -7,7 +7,7 @@ old-location: bits\ibitspeercacheadministration_clearpeers.htm
 old-project: Bits
 ms.assetid: 79a739ed-7618-410a-a6df-fab11794d932
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/10/2018
 ms.keywords: ClearPeers method [BITS], ClearPeers method [BITS], IBitsPeerCacheAdministration interface, ClearPeers,IBitsPeerCacheAdministration.ClearPeers, IBitsPeerCacheAdministration, IBitsPeerCacheAdministration interface [BITS], ClearPeers method, IBitsPeerCacheAdministration::ClearPeers, bits.ibitspeercacheadministration_clearpeers, bits3_0/IBitsPeerCacheAdministration::ClearPeers
 ms.prod: windows-hardware
 ms.technology: windows-devices

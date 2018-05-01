@@ -7,7 +7,7 @@ old-location: security\creduiparseusername.htm
 old-project: SecAuthN
 ms.assetid: 4a7fb207-f940-4610-a740-7bf5d58fb285
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/24/2018
 ms.keywords: CredUIParseUserName, CredUIParseUserName function [Security], CredUIParseUserNameA, CredUIParseUserNameW, _cred_creduiparseusername, security.creduiparseusername, wincred/CredUIParseUserName, wincred/CredUIParseUserNameA, wincred/CredUIParseUserNameW
 ms.prod: windows-hardware
 ms.technology: windows-devices

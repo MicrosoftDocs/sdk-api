@@ -7,7 +7,7 @@ old-location: winauto\uiauto_iuiautomationdroptargetpattern.htm
 old-project: WinAuto
 ms.assetid: 22C12A2A-2812-43E8-BB97-A3FDE811D0B4
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: IUIAutomationDropTargetPattern, IUIAutomationDropTargetPattern interface [Windows Accessibility], IUIAutomationDropTargetPattern interface [Windows Accessibility], described, uiautomationclient/IUIAutomationDropTargetPattern, winauto.uiauto_iuiautomationdroptargetpattern
 ms.prod: windows-hardware
 ms.technology: windows-devices

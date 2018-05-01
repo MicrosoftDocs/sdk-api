@@ -7,7 +7,7 @@ old-location: dshow\iamextdevice_get_deviceport.htm
 old-project: DirectShow
 ms.assetid: 307ad6ee-1084-4a83-bb19-f766f2328a0d
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMExtDevice, IAMExtDevice interface [DirectShow], get_DevicePort method, IAMExtDevice::get_DevicePort, IAMExtDeviceget_DevicePort, dshow.iamextdevice_get_deviceport, get_DevicePort method [DirectShow], get_DevicePort method [DirectShow], IAMExtDevice interface, get_DevicePort,IAMExtDevice.get_DevicePort, strmif/IAMExtDevice::get_DevicePort
 ms.prod: windows-hardware
 ms.technology: windows-devices

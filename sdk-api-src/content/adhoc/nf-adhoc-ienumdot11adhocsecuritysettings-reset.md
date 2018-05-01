@@ -7,7 +7,7 @@ old-location: nwifi\ienumdot11adhocsecuritysettings_reset.htm
 old-project: NativeWiFi
 ms.assetid: 15fc655c-56d3-4f1e-b4e9-cb0e16191dc7
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/13/2018
 ms.keywords: IEnumDot11AdHocSecuritySettings, IEnumDot11AdHocSecuritySettings interface [NativeWIFI], Reset method, IEnumDot11AdHocSecuritySettings::Reset, Reset method [NativeWIFI], Reset method [NativeWIFI], IEnumDot11AdHocSecuritySettings interface, Reset,IEnumDot11AdHocSecuritySettings.Reset, adhoc/IEnumDot11AdHocSecuritySettings::Reset, nwifi.ienumdot11adhocsecuritysettings_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices

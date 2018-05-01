@@ -7,7 +7,7 @@ old-location: termserv\itssbresourcepluginstore_deletetarget.htm
 old-project: TermServ
 ms.assetid: d8114126-f518-4a43-8f6e-900fe84052e5
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: DeleteTarget method [Remote Desktop Services], DeleteTarget method [Remote Desktop Services], ITsSbResourcePluginStore interface, DeleteTarget method [Remote Desktop Services], ITsSbResourcePluginStoreEx interface, DeleteTarget,ITsSbResourcePluginStore.DeleteTarget, ITsSbResourcePluginStore, ITsSbResourcePluginStore interface [Remote Desktop Services], DeleteTarget method, ITsSbResourcePluginStore::DeleteTarget, ITsSbResourcePluginStoreEx interface [Remote Desktop Services], DeleteTarget method, ITsSbResourcePluginStoreEx::DeleteTarget, sbtsv/ITsSbResourcePluginStore::DeleteTarget, sbtsv/ITsSbResourcePluginStoreEx::DeleteTarget, termserv.itssbresourcepluginstore_deletetarget
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITsSbResourcePluginStore::DeleteTarget method

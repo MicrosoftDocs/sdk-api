@@ -7,7 +7,7 @@ old-location: security\certenumsystemstorelocation.htm
 old-project: SecCrypto
 ms.assetid: 86408e6f-0732-4cb4-85cd-840b9d98b973
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: CertEnumSystemStoreLocation, CertEnumSystemStoreLocation function [Security], _crypto2_certenumsystemstorelocation, security.certenumsystemstorelocation, wincrypt/CertEnumSystemStoreLocation
 ms.prod: windows-hardware
 ms.technology: windows-devices

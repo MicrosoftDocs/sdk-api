@@ -7,7 +7,7 @@ old-location: wmi\cinstance_setchstring.htm
 old-project: WmiSdk
 ms.assetid: a75b574d-9ee7-4930-a003-5d71c5f1d687
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: CInstance, CInstance::SetCHString, CInstance::SetCHString methods [Windows Management Instrumentation], SetCHString,CInstance.SetCHString, instance/CInstance::SetCHString, wmi.cinstance_setchstring
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: InputScope
+req.typenames: TrustLevel
 topic_type:
 -	APIRef
 -	kbSyntax

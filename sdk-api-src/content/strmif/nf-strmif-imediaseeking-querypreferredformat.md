@@ -7,7 +7,7 @@ old-location: dshow\imediaseeking_querypreferredformat.htm
 old-project: DirectShow
 ms.assetid: 16fd71d6-c162-493c-9bca-479d59da5031
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IMediaSeeking, IMediaSeeking interface [DirectShow], QueryPreferredFormat method, IMediaSeeking::QueryPreferredFormat, IMediaSeekingQueryPreferredFormat, QueryPreferredFormat method [DirectShow], QueryPreferredFormat method [DirectShow], IMediaSeeking interface, QueryPreferredFormat,IMediaSeeking.QueryPreferredFormat, dshow.imediaseeking_querypreferredformat, strmif/IMediaSeeking::QueryPreferredFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices

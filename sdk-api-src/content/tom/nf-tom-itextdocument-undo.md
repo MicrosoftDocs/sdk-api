@@ -7,7 +7,7 @@ old-location: controls\ITextDocument_Undo.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\undo.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextDocument, ITextDocument interface [Windows Controls], Undo method, ITextDocument::Undo, Undo method [Windows Controls], Undo method [Windows Controls], ITextDocument interface, Undo,ITextDocument.Undo, _win32_ITextDocument_Undo, _win32_ITextDocument_Undo_cpp, controls.ITextDocument_Undo, controls._win32_ITextDocument_Undo, tom/ITextDocument::Undo
 ms.prod: windows-hardware
 ms.technology: windows-devices

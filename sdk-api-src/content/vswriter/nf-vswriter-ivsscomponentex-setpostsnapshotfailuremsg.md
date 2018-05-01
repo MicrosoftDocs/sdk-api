@@ -7,7 +7,7 @@ old-location: base\ivsscomponentex_setpostsnapshotfailuremsg.htm
 old-project: VSS
 ms.assetid: 7cf4e512-d557-4187-b489-5cca76c0560f
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: IVssComponentEx, IVssComponentEx interface, SetPostSnapshotFailureMsg method, IVssComponentEx::SetPostSnapshotFailureMsg, SetPostSnapshotFailureMsg method, SetPostSnapshotFailureMsg method, IVssComponentEx interface, SetPostSnapshotFailureMsg,IVssComponentEx.SetPostSnapshotFailureMsg, base.ivsscomponentex_setpostsnapshotfailuremsg, vswriter/IVssComponentEx::SetPostSnapshotFailureMsg
 ms.prod: windows-hardware
 ms.technology: windows-devices

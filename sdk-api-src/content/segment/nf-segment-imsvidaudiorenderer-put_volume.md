@@ -7,7 +7,7 @@ old-location: mstv\imsvidaudiorenderer_put_volume.htm
 old-project: mstv
 ms.assetid: a0fa96bb-a903-41e1-bd2a-6ef1733adbd4
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidAudioRenderer, IMSVidAudioRenderer interface [Microsoft TV Technologies], put_Volume method, IMSVidAudioRenderer::put_Volume, IMSVidAudioRendererput_Volume, mstv.imsvidaudiorenderer_put_volume, put_Volume method [Microsoft TV Technologies], put_Volume method [Microsoft TV Technologies], IMSVidAudioRenderer interface, put_Volume,IMSVidAudioRenderer.put_Volume, segment/IMSVidAudioRenderer::put_Volume
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidAudioRenderer::put_Volume method

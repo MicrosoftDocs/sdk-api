@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ISpreadsheetItemProvider.htm
 old-project: WinAuto
 ms.assetid: E6428FED-2BCC-4AD5-B612-A22899624538
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: ISpreadsheetItemProvider, ISpreadsheetItemProvider interface [Windows Accessibility], ISpreadsheetItemProvider interface [Windows Accessibility], described, uiautomationcore/ISpreadsheetItemProvider, winauto.uiauto_ISpreadsheetItemProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices

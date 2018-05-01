@@ -7,7 +7,7 @@ old-location: dshow\iamnetshowconfig_get_enablemulticast.htm
 old-project: DirectShow
 ms.assetid: dae5c0ad-a41e-424c-a04d-69dbe7264143
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMNetShowConfig, IAMNetShowConfig interface [DirectShow], get_EnableMulticast method, IAMNetShowConfig::get_EnableMulticast, IAMNetShowConfigget_EnableMulticast, dshow.iamnetshowconfig_get_enablemulticast, get_EnableMulticast method [DirectShow], get_EnableMulticast method [DirectShow], IAMNetShowConfig interface, get_EnableMulticast,IAMNetShowConfig.get_EnableMulticast, qnetwork/IAMNetShowConfig::get_EnableMulticast
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IAMNetShowConfig::get_EnableMulticast method

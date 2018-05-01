@@ -59,11 +59,6 @@ The <b>DDOVERLAYFX</b> structure passes overlay information to the <a href="http
 
 
 
-### -field DUMMYUNIONNAMEN
-
- 
-
-
 ### -field dwSize
 
 Size of the structure, in bytes. This member must be initialized before the structure is used.
@@ -92,6 +87,11 @@ Bit depth used to specify the alpha constant for a destination.
 ### -field dwAlphaSrcConstBitDepth
 
 Bit depth used to specify the alpha constant for a source.
+
+
+### -field DUMMYUNIONNAMEN
+
+ 
 
 
 ### -field dckDestColorkey

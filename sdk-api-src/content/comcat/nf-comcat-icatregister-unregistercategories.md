@@ -7,7 +7,7 @@ old-location: com\icatregister_unregistercategories.htm
 old-project: com
 ms.assetid: 29b7df20-bab0-419c-a13b-132ee5b0272d
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: ICatRegister, ICatRegister interface [COM], UnRegisterCategories method, ICatRegister::UnRegisterCategories, UnRegisterCategories method [COM], UnRegisterCategories method [COM], ICatRegister interface, UnRegisterCategories,ICatRegister.UnRegisterCategories, _com_icatregister_unregistercategories, com.icatregister_unregistercategories, comcat/ICatRegister::UnRegisterCategories
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dns\dnsrecordsetcopyex.htm
 old-project: DNS
 ms.assetid: bdf9d6b4-b9d7-4886-8ea6-1e1f4dbcc99a
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: DnsRecordSetCopyEx, DnsRecordSetCopyEx function [DNS], _dns_dnsrecordsetcopyex, dns.dnsrecordsetcopyex, windns/DnsRecordSetCopyEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

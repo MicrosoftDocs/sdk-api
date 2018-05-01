@@ -7,7 +7,7 @@ old-location: wmi\trefpointercollection_getnext.htm
 old-project: WmiSdk
 ms.assetid: c0dfb2c7-71f6-4870-8018-145e890d4928
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: GetNext method [Windows Management Instrumentation], GetNext method [Windows Management Instrumentation], TRefPointerCollection interface, GetNext,TRefPointerCollection.GetNext, TRefPointerCollection, TRefPointerCollection interface [Windows Management Instrumentation], GetNext method, TRefPointerCollection::GetNext, _hmm_trefpointercollection_getnext, refptrco/TRefPointerCollection::GetNext, wmi.trefpointercollection_getnext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # TRefPointerCollection::GetNext method

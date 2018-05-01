@@ -7,7 +7,7 @@ old-location: mstv\entvrat_mpaa.htm
 old-project: mstv
 ms.assetid: 61d60f4b-944d-41d2-8986-7cac2fd265e4
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: EnTvRat_MPAA, EnTvRat_MPAA enumeration [Microsoft TV Technologies], MPAA_G, MPAA_NC17, MPAA_NotApplicable, MPAA_NotRated, MPAA_PG, MPAA_PG13, MPAA_R, MPAA_X, mstv.entvrat_mpaa, tvratings/EnTvRat_MPAA, tvratings/MPAA_G, tvratings/MPAA_NC17, tvratings/MPAA_NotApplicable, tvratings/MPAA_NotRated, tvratings/MPAA_PG, tvratings/MPAA_PG13, tvratings/MPAA_R, tvratings/MPAA_X
 ms.prod: windows-hardware
 ms.technology: windows-devices

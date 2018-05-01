@@ -7,7 +7,7 @@ old-location: security\bcryptenumcontextfunctionproviders.htm
 old-project: SecCNG
 ms.assetid: 82776e61-03bb-463b-8767-fa4f70fe1341
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: BCRYPT_ASYMMETRIC_ENCRYPTION_INTERFACE, BCRYPT_CIPHER_INTERFACE, BCRYPT_HASH_INTERFACE, BCRYPT_RNG_INTERFACE, BCRYPT_SECRET_AGREEMENT_INTERFACE, BCRYPT_SIGNATURE_INTERFACE, BCryptEnumContextFunctionProviders, BCryptEnumContextFunctionProviders function [Security], CRYPT_DOMAIN, CRYPT_LOCAL, NCRYPT_KEY_STORAGE_INTERFACE, NCRYPT_SCHANNEL_INTERFACE, bcrypt/BCryptEnumContextFunctionProviders, security.bcryptenumcontextfunctionproviders
 ms.prod: windows-hardware
 ms.technology: windows-devices

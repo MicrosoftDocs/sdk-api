@@ -7,7 +7,7 @@ old-location: wmp\iwmpcore_get_playlistcollection.htm
 old-project: WMP
 ms.assetid: 8f6ab34f-e055-4a18-b1b8-e3c7b8f9c76a
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPCore, IWMPCore interface [Windows Media Player], get_playlistCollection method, IWMPCore::get_playlistCollection, IWMPCoreget_playlistCollection, get_playlistCollection method [Windows Media Player], get_playlistCollection method [Windows Media Player], IWMPCore interface, get_playlistCollection,IWMPCore.get_playlistCollection, wmp.iwmpcore_get_playlistcollection, wmp/IWMPCore::get_playlistCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices

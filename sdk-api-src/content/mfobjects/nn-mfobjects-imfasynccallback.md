@@ -7,7 +7,7 @@ old-location: mf\imfasynccallback.htm
 old-project: medfound
 ms.assetid: 7edff985-da59-4cc0-96de-1a92e03a7d41
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 7edff985-da59-4cc0-96de-1a92e03a7d41, IMFAsyncCallback, IMFAsyncCallback interface [Media Foundation], IMFAsyncCallback interface [Media Foundation], described, mf.imfasynccallback, mfobjects/IMFAsyncCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

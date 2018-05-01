@@ -7,7 +7,7 @@ old-location: dshow\ivmrmixercontrol9_setoutputrect.htm
 old-project: DirectShow
 ms.assetid: d09d2e90-e121-46e0-a659-e7bae4432031
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IVMRMixerControl9, IVMRMixerControl9 interface [DirectShow], SetOutputRect method, IVMRMixerControl9::SetOutputRect, IVMRMixerControl9SetOutputRect, SetOutputRect method [DirectShow], SetOutputRect method [DirectShow], IVMRMixerControl9 interface, SetOutputRect,IVMRMixerControl9.SetOutputRect, dshow.ivmrmixercontrol9_setoutputrect, vmr9/IVMRMixerControl9::SetOutputRect
 ms.prod: windows-hardware
 ms.technology: windows-devices

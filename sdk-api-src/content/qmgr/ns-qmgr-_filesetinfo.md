@@ -7,7 +7,7 @@ old-location: bits\filesetinfo.htm
 old-project: Bits
 ms.assetid: 1a1d6683-5317-4a34-828d-55142f64f19f
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/10/2018
 ms.keywords: FILESETINFO, FILESETINFO structure [BITS], _FILESETINFO, bits.filesetinfo, qmgr/FILESETINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _FILESETINFO structure

@@ -7,7 +7,7 @@ old-location: mf\imfmediasink_getstreamsinkbyindex.htm
 old-project: medfound
 ms.assetid: 01604801-1566-410c-b23a-0568c7298868
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 01604801-1566-410c-b23a-0568c7298868, GetStreamSinkByIndex method [Media Foundation], GetStreamSinkByIndex method [Media Foundation], IMFMediaSink interface, GetStreamSinkByIndex,IMFMediaSink.GetStreamSinkByIndex, IMFMediaSink, IMFMediaSink interface [Media Foundation], GetStreamSinkByIndex method, IMFMediaSink::GetStreamSinkByIndex, mf.imfmediasink_getstreamsinkbyindex, mfidl/IMFMediaSink::GetStreamSinkByIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices

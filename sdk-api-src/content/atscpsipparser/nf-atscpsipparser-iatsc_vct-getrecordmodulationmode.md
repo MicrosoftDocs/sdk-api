@@ -7,7 +7,7 @@ old-location: mstv\iatsc_vct_getrecordmodulationmode.htm
 old-project: mstv
 ms.assetid: 3f335414-f37e-4c50-848e-9f3de51f829a
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetRecordModulationMode method [Microsoft TV Technologies], GetRecordModulationMode method [Microsoft TV Technologies], IATSC_VCT interface, GetRecordModulationMode,IATSC_VCT.GetRecordModulationMode, IATSC_VCT, IATSC_VCT interface [Microsoft TV Technologies], GetRecordModulationMode method, IATSC_VCT::GetRecordModulationMode, IATSC_VCTGetRecordModulationMode, atscpsipparser/IATSC_VCT::GetRecordModulationMode, mstv.iatsc_vct_getrecordmodulationmode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_WRITER_PAYLOAD_STREAM
+req.typenames: AsyncStatus
 topic_type:
 -	APIRef
 -	kbSyntax

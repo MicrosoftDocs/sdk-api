@@ -7,7 +7,7 @@ old-location: appxpkg\iappxblockmapreader_getfile.htm
 old-project: appxpkg
 ms.assetid: 3F38BC3A-9CFD-4FB3-A744-612E25DF0F0F
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/26/2018
 ms.keywords: GetFile method [App packaging and management], GetFile method [App packaging and management], IAppxBlockMapReader interface, GetFile,IAppxBlockMapReader.GetFile, IAppxBlockMapReader, IAppxBlockMapReader interface [App packaging and management], GetFile method, IAppxBlockMapReader::GetFile, appxpackaging/IAppxBlockMapReader::GetFile, appxpkg.iappxblockmapreader_getfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_ARCHITECTURE2
+req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
 topic_type:
 -	APIRef
 -	kbSyntax

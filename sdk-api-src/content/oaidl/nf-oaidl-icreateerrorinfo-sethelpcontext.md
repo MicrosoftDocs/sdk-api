@@ -7,7 +7,7 @@ old-location: automat\icreateerrorinfo_sethelpcontext.htm
 old-project: automat
 ms.assetid: 5c65f4bd-21ad-4118-bbe8-e2ff65b96213
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: ICreateErrorInfo, ICreateErrorInfo interface [Automation], SetHelpContext method, ICreateErrorInfo::SetHelpContext, SetHelpContext method [Automation], SetHelpContext method [Automation], ICreateErrorInfo interface, SetHelpContext,ICreateErrorInfo.SetHelpContext, _oa96_ICreateErrorInfo_SetHelpContext, automat.icreateerrorinfo_sethelpcontext, oaidl/ICreateErrorInfo::SetHelpContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ICreateErrorInfo::SetHelpContext method

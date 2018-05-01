@@ -7,7 +7,7 @@ old-location: mstv\idvbparentalratingdescriptor_gettag.htm
 old-project: mstv
 ms.assetid: 30689876-39be-44dd-a480-c660dcf3ddd1
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies], IDvbParentalRatingDescriptor interface, GetTag,IDvbParentalRatingDescriptor.GetTag, IDvbParentalRatingDescriptor, IDvbParentalRatingDescriptor interface [Microsoft TV Technologies], GetTag method, IDvbParentalRatingDescriptor::GetTag, dvbsiparser/IDvbParentalRatingDescriptor::GetTag, mstv.idvbparentalratingdescriptor_gettag
 ms.prod: windows-hardware
 ms.technology: windows-devices

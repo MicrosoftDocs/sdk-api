@@ -7,7 +7,7 @@ old-location: security\ienroll4_getprivatekeyarchivecertificate.htm
 old-project: SecCrypto
 ms.assetid: 0fdcd4ff-2dd1-4654-9901-a9824d4eddec
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: GetPrivateKeyArchiveCertificate method [Security], GetPrivateKeyArchiveCertificate method [Security], IEnroll4 interface, GetPrivateKeyArchiveCertificate,IEnroll4.GetPrivateKeyArchiveCertificate, IEnroll4, IEnroll4 interface [Security], GetPrivateKeyArchiveCertificate method, IEnroll4::GetPrivateKeyArchiveCertificate, security.ienroll4_getprivatekeyarchivecertificate, xenroll/IEnroll4::GetPrivateKeyArchiveCertificate
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\ICredentialProviderCredential2_GetUserSid.htm
 old-project: shell
 ms.assetid: 8BCB9019-40C0-4026-B3C9-ECA02B9AC871
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetUserSid method [Windows Shell], GetUserSid method [Windows Shell], ICredentialProviderCredential2 interface, GetUserSid,ICredentialProviderCredential2.GetUserSid, ICredentialProviderCredential2, ICredentialProviderCredential2 interface [Windows Shell], GetUserSid method, ICredentialProviderCredential2::GetUserSid, credentialprovider/ICredentialProviderCredential2::GetUserSid, shell.ICredentialProviderCredential2_GetUserSid
 ms.prod: windows-hardware
 ms.technology: windows-devices

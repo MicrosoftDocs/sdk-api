@@ -7,7 +7,7 @@ old-location: shell\IShellImageDataAbort_QueryAbort.htm
 old-project: shell
 ms.assetid: 88823fe3-efde-4ee1-9b4f-685f8df03b29
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IShellImageDataAbort, IShellImageDataAbort interface [Windows Shell], QueryAbort method, IShellImageDataAbort::QueryAbort, QueryAbort method [Windows Shell], QueryAbort method [Windows Shell], IShellImageDataAbort interface, QueryAbort,IShellImageDataAbort.QueryAbort, _shell_IShellImageDataAbort_QueryAbort, shell.IShellImageDataAbort_QueryAbort, shimgdata/IShellImageDataAbort::QueryAbort
 ms.prod: windows-hardware
 ms.technology: windows-devices

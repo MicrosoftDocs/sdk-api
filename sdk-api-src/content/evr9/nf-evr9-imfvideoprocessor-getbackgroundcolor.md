@@ -7,7 +7,7 @@ old-location: mf\imfvideoprocessor_getbackgroundcolor.htm
 old-project: medfound
 ms.assetid: d9068346-f0b3-4361-a56b-2360ecc3b9d9
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetBackgroundColor method [Media Foundation], GetBackgroundColor method [Media Foundation], IMFVideoProcessor interface, GetBackgroundColor,IMFVideoProcessor.GetBackgroundColor, IMFVideoProcessor, IMFVideoProcessor interface [Media Foundation], GetBackgroundColor method, IMFVideoProcessor::GetBackgroundColor, d9068346-f0b3-4361-a56b-2360ecc3b9d9, evr9/IMFVideoProcessor::GetBackgroundColor, mf.imfvideoprocessor_getbackgroundcolor
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winauto\accesstimeout.htm
 old-project: WinAuto
 ms.assetid: 570a3a29-a7ce-4622-affd-7c6c4f381e36
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: "*LPACCESSTIMEOUT, ACCESSTIMEOUT, ACCESSTIMEOUT structure [Windows Accessibility], ATF_ONOFFFEEDBACK, ATF_TIMEOUTON, LPACCESSTIMEOUT, LPACCESSTIMEOUT structure pointer [Windows Accessibility], _win32_ACCESSTIMEOUT_str, msaa.accesstimeout, tagACCESSTIMEOUT, winauto.accesstimeout, winuser/ACCESSTIMEOUT, winuser/LPACCESSTIMEOUT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -139,7 +139,7 @@ Use an <b>ACCESSTIMEOUT</b> structure when calling the <a href="https://msdn.mic
 
 
 
-<a href="https://msdn.microsoft.com/9b99465c-e12d-413c-8e69-b46b52f2f11f">SystemParametersInfo</a>
+<a href="base.systemparametersinfo">SystemParametersInfo</a>
  
 
  

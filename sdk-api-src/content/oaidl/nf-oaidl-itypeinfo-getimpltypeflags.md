@@ -7,7 +7,7 @@ old-location: automat\itypeinfo_getimpltypeflags.htm
 old-project: automat
 ms.assetid: b3773111-b09d-4ae0-9a91-3c4adff5b803
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: GetImplTypeFlags method [Automation], GetImplTypeFlags method [Automation], ITypeInfo interface, GetImplTypeFlags,ITypeInfo.GetImplTypeFlags, ITypeInfo, ITypeInfo interface [Automation], GetImplTypeFlags method, ITypeInfo::GetImplTypeFlags, _oa96_ITypeInfo_GetImplTypeFlags, automat.itypeinfo_getimpltypeflags, oaidl/ITypeInfo::GetImplTypeFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITypeInfo::GetImplTypeFlags method

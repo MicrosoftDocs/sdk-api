@@ -7,7 +7,7 @@ old-location: shell\IBrowserService2__UpdateViewRectSize.htm
 old-project: shell
 ms.assetid: 92860c13-cb67-4499-90fe-2b0254ae25c7
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IBrowserService2, IBrowserService2 interface [Windows Shell], _UpdateViewRectSize method, IBrowserService2::_UpdateViewRectSize, _UpdateViewRectSize method [Windows Shell], _UpdateViewRectSize method [Windows Shell], IBrowserService2 interface, _UpdateViewRectSize,IBrowserService2._UpdateViewRectSize, shdeprecated/IBrowserService2::_UpdateViewRectSize, shell.IBrowserService2__UpdateViewRectSize, zone_IBrowserService2__UpdateViewRectSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

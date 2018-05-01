@@ -7,7 +7,7 @@ old-location: wmp\iwmpdvd_get_domain.htm
 old-project: WMP
 ms.assetid: 2a8d5ea6-ed70-4952-810c-215acd1ae560
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPDVD, IWMPDVD interface [Windows Media Player], get_domain method, IWMPDVD::get_domain, IWMPDVDget_domain, get_domain method [Windows Media Player], get_domain method [Windows Media Player], IWMPDVD interface, get_domain,IWMPDVD.get_domain, wmp.iwmpdvd_get_domain, wmp/IWMPDVD::get_domain
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winsock\wscinstallnamespaceex32.htm
 old-project: WinSock
 ms.assetid: 222ebfcc-8854-4224-b464-28098c84b750
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/24/2018
 ms.keywords: WSCInstallNameSpaceEx32, WSCInstallNameSpaceEx32 function [Winsock], winsock.wscinstallnamespaceex32, ws2spi/WSCInstallNameSpaceEx32
 ms.prod: windows-hardware
 ms.technology: windows-devices

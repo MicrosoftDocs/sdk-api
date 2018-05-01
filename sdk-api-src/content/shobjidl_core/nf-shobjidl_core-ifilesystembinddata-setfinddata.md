@@ -7,7 +7,7 @@ old-location: shell\IFileSystemBindData_SetFindData.htm
 old-project: shell
 ms.assetid: 8e2af85f-5eca-46e4-b193-bf25e2366fac
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IFileSystemBindData, IFileSystemBindData interface [Windows Shell], SetFindData method, IFileSystemBindData::SetFindData, SetFindData method [Windows Shell], SetFindData method [Windows Shell], IFileSystemBindData interface, SetFindData,IFileSystemBindData.SetFindData, _shell_ifilesystembinddata_setfinddata, shell.IFileSystemBindData_SetFindData, shobjidl_core/IFileSystemBindData::SetFindData
 ms.prod: windows-hardware
 ms.technology: windows-devices

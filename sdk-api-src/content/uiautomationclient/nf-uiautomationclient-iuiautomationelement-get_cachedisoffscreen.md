@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement_CachedIsOffscreen.htm
 old-project: WinAuto
 ms.assetid: 2c063a7a-8422-4ebd-b58b-944f93ba9e69
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: CachedIsOffscreen property [Windows Accessibility], CachedIsOffscreen property [Windows Accessibility], IUIAutomationElement interface, IUIAutomationElement, IUIAutomationElement interface [Windows Accessibility], CachedIsOffscreen property, IUIAutomationElement.CachedIsOffscreen, IUIAutomationElement::get_CachedIsOffscreen, get_CachedIsOffscreen,IUIAutomationElement.get_CachedIsOffscreen, uiauto.uiauto_IUIAutomationElement_CachedIsOffscreen, uiauto_IUIAutomationElement_CachedIsOffscreen, uiautomationclient/IUIAutomationElement::CachedIsOffscreen, uiautomationclient/IUIAutomationElement::get_CachedIsOffscreen, winauto.uiauto_IUIAutomationElement_CachedIsOffscreen
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\effperm_result_list.htm
 old-project: SecAuthZ
 ms.assetid: D83C5632-F67A-42BA-A146-989EBB3B2763
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: "*PEFFPERM_RESULT_LIST, EFFPERM_RESULT_LIST, EFFPERM_RESULT_LIST structure [Security], PEFFPERM_RESULT_LIST, PEFFPERM_RESULT_LIST structure pointer [Security], _EFFPERM_RESULT_LIST, aclui/EFFPERM_RESULT_LIST, aclui/PEFFPERM_RESULT_LIST, security.effperm_result_list"
 ms.prod: windows-hardware
 ms.technology: windows-devices

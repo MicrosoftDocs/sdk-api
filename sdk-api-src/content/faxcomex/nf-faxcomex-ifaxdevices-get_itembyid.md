@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxdevices_itembyid.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_4gmc.htm
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/18/2018
 ms.keywords: IFaxDevices, IFaxDevices interface [Fax Service], get_ItemById method, IFaxDevices::get_ItemById, _mfax_faxdevices.itembyid, fax._mfax_faxdevices_itembyid, faxcomex/IFaxDevices::get_ItemById, get_ItemById method [Fax Service], get_ItemById method [Fax Service], IFaxDevices interface, get_ItemById,IFaxDevices.get_ItemById
 ms.prod: windows-hardware
 ms.technology: windows-devices

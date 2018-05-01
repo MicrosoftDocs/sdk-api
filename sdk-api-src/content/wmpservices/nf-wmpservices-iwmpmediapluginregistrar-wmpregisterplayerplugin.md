@@ -7,7 +7,7 @@ old-location: wmp\iwmpmediapluginregistrar__wmpregisterplayerplugin.htm
 old-project: WMP
 ms.assetid: db042911-c46f-431a-ad1c-ceb2c3b4546c
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPMediaPluginRegistrar, IWMPMediaPluginRegistrar::WMPRegisterPlayerPlugin, WMPRegisterPlayerPlugin, WMPRegisterPlayerPlugin function [Windows Media Player], WMPRegisterPlayerPlugin,IWMPMediaPluginRegistrar.WMPRegisterPlayerPlugin, wmp.iwmpmediapluginregistrar__wmpregisterplayerplugin, wmpservices/WMPRegisterPlayerPlugin
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmp\iwmpplaylistcollection_importplaylist.htm
 old-project: WMP
 ms.assetid: 421a1bd3-65c1-4d8f-be75-918b1cfa06d2
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPPlaylistCollection, IWMPPlaylistCollection interface [Windows Media Player], importPlaylist method, IWMPPlaylistCollection::importPlaylist, IWMPPlaylistCollectionimportPlaylist, importPlaylist method [Windows Media Player], importPlaylist method [Windows Media Player], IWMPPlaylistCollection interface, importPlaylist,IWMPPlaylistCollection.importPlaylist, wmp.iwmpplaylistcollection_importplaylist, wmp/IWMPPlaylistCollection::importPlaylist
 ms.prod: windows-hardware
 ms.technology: windows-devices

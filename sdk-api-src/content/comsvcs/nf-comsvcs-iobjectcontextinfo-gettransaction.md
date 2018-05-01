@@ -7,7 +7,7 @@ old-location: cos\iobjectcontextinfo_gettransaction.htm
 old-project: cossdk
 ms.assetid: e3a19d49-740a-436c-be6b-c98b5a14dc93
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: GetTransaction method [COM+], GetTransaction method [COM+], IObjectContextInfo interface, GetTransaction,IObjectContextInfo.GetTransaction, IObjectContextInfo, IObjectContextInfo interface [COM+], GetTransaction method, IObjectContextInfo::GetTransaction, _cos_IObjectContextInfo_GetTransaction, comsvcs/IObjectContextInfo::GetTransaction, cos.iobjectcontextinfo_gettransaction
 ms.prod: windows-hardware
 ms.technology: windows-devices

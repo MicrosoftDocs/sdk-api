@@ -7,7 +7,7 @@ old-location: dns\dnsacquirecontexthandle.htm
 old-project: DNS
 ms.assetid: 9a820165-2f78-44f4-b49f-dc7a2b6fb4e5
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: DnsAcquireContextHandle, DnsAcquireContextHandle function [DNS], DnsAcquireContextHandle_A, DnsAcquireContextHandle_W, _dns_dnsacquirecontexthandle, dns.dnsacquirecontexthandle, windns/DnsAcquireContextHandle, windns/DnsAcquireContextHandle_A, windns/DnsAcquireContextHandle_W
 ms.prod: windows-hardware
 ms.technology: windows-devices

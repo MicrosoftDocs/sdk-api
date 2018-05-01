@@ -7,7 +7,7 @@ old-location: termserv\itssbglobalstore_enumeratesessions.htm
 old-project: TermServ
 ms.assetid: 16fe9154-913a-4b7f-8ab5-ea8654b7cc98
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: EnumerateSessions method [Remote Desktop Services], EnumerateSessions method [Remote Desktop Services], ITsSbGlobalStore interface, EnumerateSessions,ITsSbGlobalStore.EnumerateSessions, ITsSbGlobalStore, ITsSbGlobalStore interface [Remote Desktop Services], EnumerateSessions method, ITsSbGlobalStore::EnumerateSessions, sbtsv/ITsSbGlobalStore::EnumerateSessions, termserv.itssbglobalstore_enumeratesessions
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITsSbGlobalStore::EnumerateSessions method

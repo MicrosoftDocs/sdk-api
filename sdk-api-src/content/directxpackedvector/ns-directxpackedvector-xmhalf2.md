@@ -7,7 +7,7 @@ old-location: dxmath\xmhalf2.htm
 old-project: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMHALF2
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/23/2018
 ms.keywords: XMHALF2, XMHALF2 structure [DirectX Math Support APIs], directxpackedvector/XMHALF2, dxmath.xmhalf2
 ms.prod: windows-hardware
 ms.technology: windows-devices

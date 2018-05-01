@@ -7,7 +7,7 @@ old-location: direct2d\d2d1_flood_prop.htm
 old-project: Direct2D
 ms.assetid: C8132218-70A8-4242-9D10-A2FD08099DD3
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: D2D1_FLOOD_PROP, D2D1_FLOOD_PROP enumeration [Direct2D], D2D1_FLOOD_PROP_COLOR, d2d1effects/D2D1_FLOOD_PROP, d2d1effects/D2D1_FLOOD_PROP_COLOR, direct2d.d2d1_flood_prop
 ms.prod: windows-hardware
 ms.technology: windows-devices

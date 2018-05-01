@@ -7,7 +7,7 @@ old-location: rras\rtm_dest_info.htm
 old-project: RRAS
 ms.assetid: 6712ed2f-c5b4-416b-b345-a3d0c5d26820
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: "*PRTM_DEST_INFO, PRTM_DEST_INFO, PRTM_DEST_INFO structure pointer [RAS], RTM_DEST_INFO, RTM_DEST_INFO structure [RAS], _RTM_DEST_INFO, _rtmv2ref_rtm_dest_info, rras.rtm_dest_info, rtmv2/PRTM_DEST_INFO, rtmv2/RTM_DEST_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _RTM_DEST_INFO structure
@@ -57,6 +57,31 @@ The
 ## -struct-fields
 
 
+
+
+### -field DestHandle
+
+Handle to the destination.
+
+
+### -field DestAddress
+
+Specifies the destination network address as an address and a mask.
+
+
+### -field LastChanged
+
+Specifies the last time this destination was updated.
+
+
+### -field BelongsToViews
+
+Specifies the views to which this destination belongs.
+
+
+### -field NumberOfViews
+
+Indicates the number of ViewInfo structures present in this destination.
 
 
 ### -field ViewInfo
@@ -98,31 +123,6 @@ Specifies the flags for the best route in each of the supported views.
 #### HoldRoute
 
 Handle to the route that is in a hold-down state in each of the supported views. 
-
-
-### -field DestHandle
-
-Handle to the destination.
-
-
-### -field DestAddress
-
-Specifies the destination network address as an address and a mask.
-
-
-### -field LastChanged
-
-Specifies the last time this destination was updated.
-
-
-### -field BelongsToViews
-
-Specifies the views to which this destination belongs.
-
-
-### -field NumberOfViews
-
-Indicates the number of ViewInfo structures present in this destination.
 
 
 ## -see-also

@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiometerinformation_getmeteringchannelcount.htm
 old-project: CoreAudio
 ms.assetid: 6f1deef6-cc47-4736-b0bb-99afb1966895
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: GetMeteringChannelCount method [Core Audio], GetMeteringChannelCount method [Core Audio], IAudioMeterInformation interface, GetMeteringChannelCount,IAudioMeterInformation.GetMeteringChannelCount, IAudioMeterInformation, IAudioMeterInformation interface [Core Audio], GetMeteringChannelCount method, IAudioMeterInformation::GetMeteringChannelCount, IAudioMeterInformationGetMeteringChannelCount, coreaudio.iaudiometerinformation_getmeteringchannelcount, endpointvolume/IAudioMeterInformation::GetMeteringChannelCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

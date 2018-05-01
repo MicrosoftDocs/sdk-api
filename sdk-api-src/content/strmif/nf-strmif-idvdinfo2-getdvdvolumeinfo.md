@@ -7,7 +7,7 @@ old-location: dshow\idvdinfo2_getdvdvolumeinfo.htm
 old-project: DirectShow
 ms.assetid: d55973af-5f56-4e22-b3b0-2cee9f57c2d4
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetDVDVolumeInfo method [DirectShow], GetDVDVolumeInfo method [DirectShow], IDvdInfo2 interface, GetDVDVolumeInfo,IDvdInfo2.GetDVDVolumeInfo, IDvdInfo2, IDvdInfo2 interface [DirectShow], GetDVDVolumeInfo method, IDvdInfo2::GetDVDVolumeInfo, IDvdInfo2GetDVDVolumeInfo, dshow.idvdinfo2_getdvdvolumeinfo, strmif/IDvdInfo2::GetDVDVolumeInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

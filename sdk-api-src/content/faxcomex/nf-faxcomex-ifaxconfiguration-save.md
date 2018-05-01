@@ -7,7 +7,7 @@ old-location: fax\_mfax_FaxConfiguration_Save_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\save.htm
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/18/2018
 ms.keywords: FaxConfiguration object [Fax Service], Save method, IFaxConfiguration, IFaxConfiguration::Save, Save method [Fax Service], Save method [Fax Service], FaxConfiguration object, Save,IFaxConfiguration.Save, _mfax_IFaxConfiguration_Save, fax._mfax_FaxConfiguration_Save_vb
 ms.prod: windows-hardware
 ms.technology: windows-devices

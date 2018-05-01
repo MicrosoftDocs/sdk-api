@@ -7,7 +7,7 @@ old-location: wmformat\iwmwriterfilesink2_isstopped.htm
 old-project: wmformat
 ms.assetid: f1e5790a-3cac-4e0e-8a3f-b21afe2711ff
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMWriterFileSink2, IWMWriterFileSink2 interface [windows Media Format], IsStopped method, IWMWriterFileSink2::IsStopped, IWMWriterFileSink2IsStopped, IsStopped method [windows Media Format], IsStopped method [windows Media Format], IWMWriterFileSink2 interface, IsStopped,IWMWriterFileSink2.IsStopped, wmformat.iwmwriterfilesink2_isstopped, wmsdkidl/IWMWriterFileSink2::IsStopped
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tapi3\ienumagentsession_clone.htm
 old-project: Tapi
 ms.assetid: 6ccc7601-4355-49c8-b280-875f1accf9ff
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: Clone method [TAPI 2.2], Clone method [TAPI 2.2], IEnumAgentSession interface, Clone,IEnumAgentSession.Clone, IEnumAgentSession, IEnumAgentSession interface [TAPI 2.2], Clone method, IEnumAgentSession::Clone, _tapi3_ienumagentsession_clone, tapi3.ienumagentsession_clone, tapi3cc/IEnumAgentSession::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

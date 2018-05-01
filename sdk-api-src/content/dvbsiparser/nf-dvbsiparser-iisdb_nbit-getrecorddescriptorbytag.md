@@ -7,7 +7,7 @@ old-location: mstv\iisdb_nbit_getrecorddescriptorbytag.htm
 old-project: mstv
 ms.assetid: baec7c6a-67a7-4081-96ee-3cb35a72ff4e
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetRecordDescriptorByTag method [Microsoft TV Technologies], GetRecordDescriptorByTag method [Microsoft TV Technologies], IISDB_NBIT interface, GetRecordDescriptorByTag,IISDB_NBIT.GetRecordDescriptorByTag, IISDB_NBIT, IISDB_NBIT interface [Microsoft TV Technologies], GetRecordDescriptorByTag method, IISDB_NBIT::GetRecordDescriptorByTag, dvbsiparser/IISDB_NBIT::GetRecordDescriptorByTag, mstv.iisdb_nbit_getrecorddescriptorbytag
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmexportimport_importquotatemplates.htm
 old-project: Fsrm
 ms.assetid: 90b70f64-fbc7-48d2-9cf7-71e625ed32af
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: FsrmExportImport class [File Server Resource Manager], ImportQuotaTemplates method, IFsrmExportImport, IFsrmExportImport interface [File Server Resource Manager], ImportQuotaTemplates method, IFsrmExportImport::ImportQuotaTemplates, ImportQuotaTemplates method [File Server Resource Manager], ImportQuotaTemplates method [File Server Resource Manager], FsrmExportImport class, ImportQuotaTemplates method [File Server Resource Manager], IFsrmExportImport interface, ImportQuotaTemplates,IFsrmExportImport.ImportQuotaTemplates, fs.ifsrmexportimport_importquotatemplates, fsrm.ifsrmexportimport_importquotatemplates, fsrm/IFsrmExportImport::ImportQuotaTemplates
 ms.prod: windows-hardware
 ms.technology: windows-devices

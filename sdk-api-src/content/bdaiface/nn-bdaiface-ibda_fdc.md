@@ -7,7 +7,7 @@ old-location: mstv\ibda_fdc.htm
 old-project: mstv
 ms.assetid: 8b7a07fd-99e9-4f8e-9211-109689f2f892
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IBDA_FDC, IBDA_FDC interface [Microsoft TV Technologies], IBDA_FDC interface [Microsoft TV Technologies], described, bdaiface/IBDA_FDC, mstv.ibda_fdc
 ms.prod: windows-hardware
 ms.technology: windows-devices

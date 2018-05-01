@@ -7,7 +7,7 @@ old-location: dshow\iamchannelinfo_get_contactaddress.htm
 old-project: DirectShow
 ms.assetid: b94ccc71-92d1-4c1a-b34a-c34e6ea7bd91
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMChannelInfo, IAMChannelInfo interface [DirectShow], get_ContactAddress method, IAMChannelInfo::get_ContactAddress, IAMChannelInfoget_ContactAddress, dshow.iamchannelinfo_get_contactaddress, get_ContactAddress method [DirectShow], get_ContactAddress method [DirectShow], IAMChannelInfo interface, get_ContactAddress,IAMChannelInfo.get_ContactAddress, qnetwork/IAMChannelInfo::get_ContactAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IAMChannelInfo::get_ContactAddress method

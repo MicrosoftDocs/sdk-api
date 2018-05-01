@@ -7,7 +7,7 @@ old-location: shell\ShellLinkObject_GetIconLocation.htm
 old-project: shell
 ms.assetid: 3bb7f0f0-7ab9-41e6-b738-274efbcd52ab
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetIconLocation, GetIconLocation method [Windows Shell], GetIconLocation method [Windows Shell], ShellLinkObject object, ShellLinkObject object [Windows Shell], GetIconLocation method, _win32_ShellLinkObject_GetIconLocation, shell.ShellLinkObject_GetIconLocation
 ms.prod: windows-hardware
 ms.technology: windows-devices

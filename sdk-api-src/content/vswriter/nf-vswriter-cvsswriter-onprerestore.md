@@ -7,7 +7,7 @@ old-location: base\cvsswriter_onprerestore.htm
 old-project: VSS
 ms.assetid: 5f4a6168-4102-4790-81d6-d195a440471f
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: CVssWriter, CVssWriter interface [VSS], OnPreRestore method, CVssWriter::OnPreRestore, OnPreRestore method [VSS], OnPreRestore method [VSS], CVssWriter interface, OnPreRestore,CVssWriter.OnPreRestore, _win32_cvsswriter_onprerestore, base.cvsswriter_onprerestore, vswriter/CVssWriter::OnPreRestore
 ms.prod: windows-hardware
 ms.technology: windows-devices

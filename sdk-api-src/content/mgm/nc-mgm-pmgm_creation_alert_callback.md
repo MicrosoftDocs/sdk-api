@@ -7,7 +7,7 @@ old-location: rras\pmgm_creation_alert_callback.htm
 old-project: RRAS
 ms.assetid: 1d161a7e-3ceb-429f-a41e-eccd7f98f084
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: MgmCreationAlertCallback, MgmCreationAlertCallback callback function [RAS], _mpr_pmgm_creation_alert_callback, mgm/MgmCreationAlertCallback, rras.pmgm_creation_alert_callback
 ms.prod: windows-hardware
 ms.technology: windows-devices

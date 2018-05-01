@@ -7,7 +7,7 @@ old-location: mstv\ilocator_get_innerfecrate.htm
 old-project: mstv
 ms.assetid: d9600c31-9a95-4955-8f8c-542760631050
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IDigitalLocatorget_InnerFECRate, ILocator, ILocator interface [Microsoft TV Technologies], get_InnerFECRate method, ILocator::get_InnerFECRate, get_InnerFECRate method [Microsoft TV Technologies], get_InnerFECRate method [Microsoft TV Technologies], ILocator interface, get_InnerFECRate,ILocator.get_InnerFECRate, mstv.ilocator_get_innerfecrate, tuner/ILocator::get_InnerFECRate
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: cos\icrmmonitorclerks_get_count.htm
 old-project: cossdk
 ms.assetid: 677f39e5-6f77-46a5-9429-682c0d2933df
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: ICrmMonitorClerks, ICrmMonitorClerks interface [COM+], get_Count method, ICrmMonitorClerks::get_Count, _dtc_ICrmMonitorClerks_Count, comsvcs/ICrmMonitorClerks::get_Count, cos.icrmmonitorclerks_get_count, get_Count method [COM+], get_Count method [COM+], ICrmMonitorClerks interface, get_Count,ICrmMonitorClerks.get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices

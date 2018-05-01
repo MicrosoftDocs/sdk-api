@@ -7,7 +7,7 @@ old-location: mstv\idvbsiparser_getcat.htm
 old-project: mstv
 ms.assetid: afd6286a-1b05-408f-a752-6fc3a2667e31
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetCAT method [Microsoft TV Technologies], GetCAT method [Microsoft TV Technologies], IDvbSiParser interface, GetCAT,IDvbSiParser.GetCAT, IDvbSiParser, IDvbSiParser interface [Microsoft TV Technologies], GetCAT method, IDvbSiParser::GetCAT, IDvbSiParserGetCAT, dvbsiparser/IDvbSiParser::GetCAT, mstv.idvbsiparser_getcat
 ms.prod: windows-hardware
 ms.technology: windows-devices

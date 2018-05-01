@@ -7,7 +7,7 @@ old-location: mscs\clustergetvolumepathname.htm
 old-project: MsCS
 ms.assetid: eff2995a-d17c-4899-bff5-ead9526f859d
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: PCLUSTER_GET_VOLUME_PATH_NAME, PCLUSTER_GET_VOLUME_PATH_NAME callback function [Failover Cluster], mscs.clustergetvolumepathname, resapi/PCLUSTER_GET_VOLUME_PATH_NAME
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # PCLUSTER_GET_VOLUME_PATH_NAME callback

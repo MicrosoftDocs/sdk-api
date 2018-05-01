@@ -7,7 +7,7 @@ old-location: base\ivssbackupcomponents_prerestore.htm
 old-project: VSS
 ms.assetid: 7a4c8869-9655-49a7-818b-98a08103f4b4
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: IVssBackupComponents, IVssBackupComponents interface [VSS], PreRestore method, IVssBackupComponents::PreRestore, PreRestore method [VSS], PreRestore method [VSS], IVssBackupComponents interface, PreRestore,IVssBackupComponents.PreRestore, _win32_ivssbackupcomponents_prerestore, base.ivssbackupcomponents_prerestore, vsbackup/IVssBackupComponents::PreRestore
 ms.prod: windows-hardware
 ms.technology: windows-devices

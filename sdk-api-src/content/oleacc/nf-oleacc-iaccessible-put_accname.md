@@ -7,7 +7,7 @@ old-location: winauto\iaccessible_put_accname.htm
 old-project: WinAuto
 ms.assetid: 562df006-cbde-407b-b539-f86cb3403a97
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: IAccessible, IAccessible interface [Windows Accessibility], put_accName method, IAccessible::put_accName, oleacc/IAccessible::put_accName, put_accName method [Windows Accessibility], put_accName method [Windows Accessibility], IAccessible interface, put_accName,IAccessible.put_accName, winauto.iaccessible_put_accname
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Oleacc.lib
 req.dll: Oleacc.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IAccessible::put_accName method

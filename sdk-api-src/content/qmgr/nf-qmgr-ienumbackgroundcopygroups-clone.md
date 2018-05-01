@@ -7,7 +7,7 @@ old-location: bits\ienumbackgroundcopygroups_clone.htm
 old-project: Bits
 ms.assetid: f2743edd-9fc5-451b-b1ff-17f4591923ba
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/10/2018
 ms.keywords: Clone method [BITS], Clone method [BITS], IEnumBackgroundCopyGroups interface, Clone,IEnumBackgroundCopyGroups.Clone, IEnumBackgroundCopyGroups, IEnumBackgroundCopyGroups interface [BITS], Clone method, IEnumBackgroundCopyGroups::Clone, bits.ienumbackgroundcopygroups_clone, qmgr/IEnumBackgroundCopyGroups::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: QmgrPrxy.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IEnumBackgroundCopyGroups::Clone method

@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontrols_previous.htm
 old-project: WMP
 ms.assetid: e26eca59-1e2d-4a1f-b133-e337a934014b
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPControls, IWMPControls interface [Windows Media Player], previous method, IWMPControls::previous, IWMPControlsprevious, previous method [Windows Media Player], previous method [Windows Media Player], IWMPControls interface, previous,IWMPControls.previous, wmp.iwmpcontrols_previous, wmp/IWMPControls::previous
 ms.prod: windows-hardware
 ms.technology: windows-devices

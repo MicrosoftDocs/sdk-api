@@ -7,7 +7,7 @@ old-location: shell\INameSpaceTreeControlEvents_OnItemAdded.htm
 old-project: shell
 ms.assetid: 7737e014-8e46-43da-b017-133bbf12b433
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: INameSpaceTreeControlEvents, INameSpaceTreeControlEvents interface [Windows Shell], OnItemAdded method, INameSpaceTreeControlEvents::OnItemAdded, OnItemAdded method [Windows Shell], OnItemAdded method [Windows Shell], INameSpaceTreeControlEvents interface, OnItemAdded,INameSpaceTreeControlEvents.OnItemAdded, _shell_INameSpaceTreeControlEvents_OnItemAdded, shell.INameSpaceTreeControlEvents_OnItemAdded, shobjidl/INameSpaceTreeControlEvents::OnItemAdded
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,0 +1,157 @@
+---
+UID: NF:winstring.WindowsCompareStringOrdinal
+title: WindowsCompareStringOrdinal function
+author: windows-driver-content
+description: Compares two specified HSTRING objects and returns an integer that indicates their relative position in a sort order.
+old-location: winrt\windowscomparestringordinal.htm
+old-project: WinRT
+ms.assetid: 40B34A65-4E3C-4B9D-9315-A0EF015BB8D0
+ms.author: windowsdriverdev
+ms.date: 4/24/2018
+ms.keywords: WindowsCompareStringOrdinal, WindowsCompareStringOrdinal function [Windows Runtime], winrt.windowscomparestringordinal, winstring/WindowsCompareStringOrdinal
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: winstring.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WSAVERSION, *PWSAVERSION, *LPWSAVERSION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	WinRTType.lib
+-	WinRTType.dll
+-	API-MS-Win-Core-WinRT-String-l1-1-0.dll
+-	ComBase.dll
+-	API-MS-Win-Core-WinRT-String-L1-1-1.dll
+api_name:
+-	WindowsCompareStringOrdinal
+product: Windows
+targetos: Windows
+req.lib: WinRTType.lib
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# WindowsCompareStringOrdinal function
+
+
+## -description
+
+
+Compares two specified <a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">HSTRING</a> objects and returns an integer that indicates their relative position in a sort order.
+
+
+## -parameters
+
+
+
+
+### -param string1 [in]
+
+Type: <b><a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">HSTRING</a></b>
+
+The first string to compare.
+
+
+### -param string2 [in]
+
+Type: <b><a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">HSTRING</a></b>
+
+The second string to compare.
+
+
+### -param result [out]
+
+Type: <b>INT32*</b>
+
+A value that indicates the lexical relationship between <i>string1</i> and <i>string2</i>. 
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+This function can return one of these values.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The  comparison was successful.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+<i>result</i> is <b>NULL</b>.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+Use the <b>WindowsCompareStringOrdinal</b> function to compare two <a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">HSTRING</a> objects. After the comparison completes, the  <i>result</i> out parameter contains one of three values.
+
+
+<table>
+<tr>
+<th>Value</th>
+<th>Condition</th>
+</tr>
+<tr>
+<td>-1</td>
+<td><i>string1</i> is less than <i>string2</i>.</td>
+</tr>
+<tr>
+<td>0</td>
+<td><i>string1</i> equals <i>string2</i>.</td>
+</tr>
+<tr>
+<td>1</td>
+<td><i>string1</i> is greater than <i>string2</i>.</td>
+</tr>
+</table>
+ 
+
+
+
+
+

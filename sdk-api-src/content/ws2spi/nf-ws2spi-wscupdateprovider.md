@@ -7,7 +7,7 @@ old-location: winsock\wscupdateprovider_2.htm
 old-project: WinSock
 ms.assetid: 7777a2ff-2ece-4f28-88af-87fc96fdda9f
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/24/2018
 ms.keywords: WSCUpdateProvider, WSCUpdateProvider function [Winsock], _win32_wscupdateprovider_2, winsock.wscupdateprovider_2, ws2spi/WSCUpdateProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: automat\itypeinfo2_getfuncindexofmemid.htm
 old-project: automat
 ms.assetid: dad5fd34-9322-46aa-9ae3-d5ff9d1639b1
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: GetFuncIndexOfMemId method [Automation], GetFuncIndexOfMemId method [Automation], ITypeInfo2 interface, GetFuncIndexOfMemId,ITypeInfo2.GetFuncIndexOfMemId, ITypeInfo2, ITypeInfo2 interface [Automation], GetFuncIndexOfMemId method, ITypeInfo2::GetFuncIndexOfMemId, _oa96_ITypeInfo2_GetFuncIndexOfMemId, automat.itypeinfo2_getfuncindexofmemid, oaidl/ITypeInfo2::GetFuncIndexOfMemId
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITypeInfo2::GetFuncIndexOfMemId method

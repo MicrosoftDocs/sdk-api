@@ -7,7 +7,7 @@ old-location: xaudio2\ixapoparameters.htm
 old-project: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.ixapoparameters.IXAPOParameters
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/20/2018
 ms.keywords: IXAPOParameters, IXAPOParameters interface [XAudio2 Audio Mixing APIs], IXAPOParameters interface [XAudio2 Audio Mixing APIs], described, xapo/IXAPOParameters, xaudio2.ixapoparameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,37 +70,10 @@ The <b>IXAPOParameters</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7934B033-F2F1-410F-8181-DC5F4B3FD090">AddRef</a>
-</td>
-<td align="left" width="63%">
-Increments the XAPO object's reference count.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548095">GetParameters</a>
 </td>
 <td align="left" width="63%">
 Gets the current values for any effect-specific parameters.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/EFEBA580-DC6E-4C5C-A607-A7AC9BC35314">QueryInterface</a>
-</td>
-<td align="left" width="63%">
-Retrieves the requested interface pointer if the XAPO supports it.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/65BB131D-0282-44A1-AFF5-C4E6BA536913">Release</a>
-</td>
-<td align="left" width="63%">
-Decrements the XAPO object's reference count and deletes the object if the reference count falls to zero.
 
 </td>
 </tr>

@@ -7,7 +7,7 @@ old-location: com\ispecifypropertypages_getpages.htm
 old-project: com
 ms.assetid: 82b652da-b49a-47a7-a959-522b051bfd59
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: GetPages method [COM], GetPages method [COM], ISpecifyPropertyPages interface, GetPages,ISpecifyPropertyPages.GetPages, ISpecifyPropertyPages, ISpecifyPropertyPages interface [COM], GetPages method, ISpecifyPropertyPages::GetPages, _ctrl_ispecifypropertypages_getpages, com.ispecifypropertypages_getpages, ocidl/ISpecifyPropertyPages::GetPages
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ISpecifyPropertyPages::GetPages method

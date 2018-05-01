@@ -7,7 +7,7 @@ old-location: dshow\iamnetworkstatus_get_bufferingcount.htm
 old-project: DirectShow
 ms.assetid: 82c1994b-9326-48a7-8ff5-2b2df274b3e2
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMNetworkStatus, IAMNetworkStatus interface [DirectShow], get_BufferingCount method, IAMNetworkStatus::get_BufferingCount, IAMNetworkStatusget_BufferingCount, dshow.iamnetworkstatus_get_bufferingcount, get_BufferingCount method [DirectShow], get_BufferingCount method [DirectShow], IAMNetworkStatus interface, get_BufferingCount,IAMNetworkStatus.get_BufferingCount, qnetwork/IAMNetworkStatus::get_BufferingCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IAMNetworkStatus::get_BufferingCount method

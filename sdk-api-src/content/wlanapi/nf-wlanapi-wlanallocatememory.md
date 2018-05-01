@@ -7,7 +7,7 @@ old-location: nwifi\wlanallocatememory.htm
 old-project: NativeWiFi
 ms.assetid: 29200450-4ec8-418d-b633-1ea688755711
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/13/2018
 ms.keywords: WlanAllocateMemory, WlanAllocateMemory function [NativeWIFI], nwifi.wlanallocatememory, wlanapi/WlanAllocateMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices

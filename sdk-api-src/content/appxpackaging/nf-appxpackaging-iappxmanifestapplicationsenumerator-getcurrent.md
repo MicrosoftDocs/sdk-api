@@ -7,7 +7,7 @@ old-location: appxpkg\iappxmanifestapplicationsenumerator_getcurrent.htm
 old-project: appxpkg
 ms.assetid: 54357408-57EA-4BD0-A619-F297C6248050
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/26/2018
 ms.keywords: GetCurrent method [App packaging and management], GetCurrent method [App packaging and management], IAppxManifestApplicationsEnumerator interface, GetCurrent,IAppxManifestApplicationsEnumerator.GetCurrent, IAppxManifestApplicationsEnumerator, IAppxManifestApplicationsEnumerator interface [App packaging and management], GetCurrent method, IAppxManifestApplicationsEnumerator::GetCurrent, appxpackaging/IAppxManifestApplicationsEnumerator::GetCurrent, appxpkg.iappxmanifestapplicationsenumerator_getcurrent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_ARCHITECTURE2
+req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
 topic_type:
 -	APIRef
 -	kbSyntax

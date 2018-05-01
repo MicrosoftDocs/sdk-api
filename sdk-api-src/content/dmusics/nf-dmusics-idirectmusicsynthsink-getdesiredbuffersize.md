@@ -1,0 +1,113 @@
+---
+UID: NF:dmusics.IDirectMusicSynthSink.GetDesiredBufferSize
+title: IDirectMusicSynthSink::GetDesiredBufferSize method
+author: windows-driver-content
+description: The GetDesiredBufferSize method retrieves the synthesizer's preferred buffer size, expressed in samples.
+old-location: audio\idirectmusicsynthsink_getdesiredbuffersize.htm
+old-project: audio
+ms.assetid: a7c1892a-9aaf-4c53-a5df-6ce2b82d9d77
+ms.author: windowsdriverdev
+ms.date: 4/16/2018
+ms.keywords: GetDesiredBufferSize method [Audio Devices], GetDesiredBufferSize method [Audio Devices], IDirectMusicSynthSink interface, GetDesiredBufferSize,IDirectMusicSynthSink.GetDesiredBufferSize, IDirectMusicSynthSink, IDirectMusicSynthSink interface [Audio Devices], GetDesiredBufferSize method, IDirectMusicSynthSink::GetDesiredBufferSize, audio.idirectmusicsynthsink_getdesiredbuffersize, audmp-routines_be109f09-5ab8-46cd-925d-fe13d60c8ddb.xml, dmusics/IDirectMusicSynthSink::GetDesiredBufferSize
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: dmusics.h
+req.include-header: Dmusics.h
+req.target-type: Desktop
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: DMO_PARTIAL_MEDIATYPE, *PDMO_PARTIAL_MEDIATYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	dmusics.h
+api_name:
+-	IDirectMusicSynthSink.GetDesiredBufferSize
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# IDirectMusicSynthSink::GetDesiredBufferSize method
+
+
+## -description
+
+
+The <code>GetDesiredBufferSize</code> method retrieves the synthesizer's preferred buffer size, expressed in samples.
+
+
+## -parameters
+
+
+
+
+### -param pdwBufferSizeInSamples
+
+Output pointer for the buffer size. This parameter points to a caller-allocated variable into which the method writes the desired buffer length, expressed in samples.
+
+
+## -returns
+
+
+
+<code>GetDesiredBufferSize</code> returns S_OK if the call was successful. Otherwise, the method returns an appropriate error code. The following table shows some of the possible return status codes.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>DMUS_E_SYNTHNOTCONFIGURED</b></dt>
+</dl>
+</td>
+<td width="60%">
+Indicates that the synth is not set.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+The <code>GetDesiredBufferSize</code> method returns the desired buffer size based on the current format of the synth. DirectSound buffers passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff536527">IDirectMusicSynthSink::SetDirectSound</a> might be invalid unless they are at least this size.
+
+For more information, see the description of the <b>IDirectMusicPort</b> interface in the Microsoft Windows SDK documentation.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536527">IDirectMusicSynthSink::SetDirectSound</a>
+ 
+
+ 
+

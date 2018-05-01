@@ -7,7 +7,7 @@ old-location: security\sendsas.htm
 old-project: SecAuthN
 ms.assetid: da5d0915-dc41-4b63-a500-a0bec3f19a65
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/24/2018
 ms.keywords: SendSAS, SendSAS function [Security], sas/SendSAS, security.sendsas
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Sas.lib
 req.dll: Sas.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # SendSAS function

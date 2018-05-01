@@ -7,7 +7,7 @@ old-location: dshow\icodecapi_getparameterrange.htm
 old-project: DirectShow
 ms.assetid: 35bf758f-0ce3-4b3a-aae5-9d4326089743
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetParameterRange method [DirectShow], GetParameterRange method [DirectShow], ICodecAPI interface, GetParameterRange,ICodecAPI.GetParameterRange, ICodecAPI, ICodecAPI interface [DirectShow], GetParameterRange method, ICodecAPI::GetParameterRange, ICodecAPIGetParameterRange, dshow.icodecapi_getparameterrange, strmif/ICodecAPI::GetParameterRange
 ms.prod: windows-hardware
 ms.technology: windows-devices

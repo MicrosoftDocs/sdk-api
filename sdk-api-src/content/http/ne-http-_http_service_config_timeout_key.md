@@ -7,7 +7,7 @@ old-location: http\http_service_config_timeout_key.htm
 old-project: Http
 ms.assetid: e591a6b8-e63f-40c3-bd48-e14cb9f89453
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: "*PHTTP_SERVICE_CONFIG_TIMEOUT_KEY, *PHTTP_SERVICE_CONFIG_TIMEOUT_KEY enumeration [HTTP], HTTP_SERVICE_CONFIG_TIMEOUT_KEY, HTTP_SERVICE_CONFIG_TIMEOUT_KEY enumeration [HTTP], HeaderWaitTimeout, IdleConnectionTimeout, _HTTP_SERVICE_CONFIG_TIMEOUT_KEY, http.http_service_config_timeout_key, http/*PHTTP_SERVICE_CONFIG_TIMEOUT_KEY, http/HTTP_SERVICE_CONFIG_TIMEOUT_KEY, http/HeaderWaitTimeout, http/IdleConnectionTimeout"
 ms.prod: windows-hardware
 ms.technology: windows-devices

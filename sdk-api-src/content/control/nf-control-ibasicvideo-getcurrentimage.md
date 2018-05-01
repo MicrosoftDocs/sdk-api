@@ -7,7 +7,7 @@ old-location: dshow\ibasicvideo_getcurrentimage.htm
 old-project: DirectShow
 ms.assetid: 3e7fbf27-3519-4c02-b785-98e29902df65
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetCurrentImage method [DirectShow], GetCurrentImage method [DirectShow], IBasicVideo interface, GetCurrentImage,IBasicVideo.GetCurrentImage, IBasicVideo, IBasicVideo interface [DirectShow], GetCurrentImage method, IBasicVideo::GetCurrentImage, IBasicVideoGetCurrentImage, control/IBasicVideo::GetCurrentImage, dshow.ibasicvideo_getcurrentimage
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: http\httpaddurltourlgroup.htm
 old-project: Http
 ms.assetid: e6bf68aa-d6a5-4079-b689-49cfc2303ba5
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: HttpAddUrlToUrlGroup, HttpAddUrlToUrlGroup function [HTTP], http.httpaddurltourlgroup, http/HttpAddUrlToUrlGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices

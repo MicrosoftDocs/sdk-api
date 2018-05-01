@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicimagingfactory_createbitmapfromhbitmap.htm
 old-project: wic
 ms.assetid: 8483f352-c31b-4afe-a011-ebef3430c576
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: CreateBitmapFromHBITMAP method [Windows Imaging Component], CreateBitmapFromHBITMAP method [Windows Imaging Component], IWICImagingFactory interface, CreateBitmapFromHBITMAP,IWICImagingFactory.CreateBitmapFromHBITMAP, IWICImagingFactory, IWICImagingFactory interface [Windows Imaging Component], CreateBitmapFromHBITMAP method, IWICImagingFactory::CreateBitmapFromHBITMAP, _wic_codec_iwicimagingfactory_createbitmapfromhbitmap, wic._wic_codec_iwicimagingfactory_createbitmapfromhbitmap, wincodec/IWICImagingFactory::CreateBitmapFromHBITMAP
 ms.prod: windows-hardware
 ms.technology: windows-devices

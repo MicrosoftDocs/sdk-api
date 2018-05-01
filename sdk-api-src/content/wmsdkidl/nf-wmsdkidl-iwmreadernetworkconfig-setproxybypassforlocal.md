@@ -7,7 +7,7 @@ old-location: wmformat\iwmreadernetworkconfig_setproxybypassforlocal.htm
 old-project: wmformat
 ms.assetid: 4a012718-a815-4e01-97f8-69ed2ba881ea
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMReaderNetworkConfig, IWMReaderNetworkConfig interface [windows Media Format], SetProxyBypassForLocal method, IWMReaderNetworkConfig::SetProxyBypassForLocal, IWMReaderNetworkConfigSetProxyBypassForLocal, SetProxyBypassForLocal method [windows Media Format], SetProxyBypassForLocal method [windows Media Format], IWMReaderNetworkConfig interface, SetProxyBypassForLocal,IWMReaderNetworkConfig.SetProxyBypassForLocal, wmformat.iwmreadernetworkconfig_setproxybypassforlocal, wmsdkidl/IWMReaderNetworkConfig::SetProxyBypassForLocal
 ms.prod: windows-hardware
 ms.technology: windows-devices

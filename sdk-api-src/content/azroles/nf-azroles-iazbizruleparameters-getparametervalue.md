@@ -7,7 +7,7 @@ old-location: security\iazbizruleparameters_getparametervalue_method.htm
 old-project: SecAuthZ
 ms.assetid: 210dc872-0879-4b4f-bdc3-cbb2208dafbe
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: GetParameterValue method [Security], GetParameterValue method [Security], IAzBizRuleParameters interface, GetParameterValue,IAzBizRuleParameters.GetParameterValue, IAzBizRuleParameters, IAzBizRuleParameters interface [Security], GetParameterValue method, IAzBizRuleParameters::GetParameterValue, azroles/IAzBizRuleParameters::GetParameterValue, security.iazbizruleparameters_getparametervalue_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

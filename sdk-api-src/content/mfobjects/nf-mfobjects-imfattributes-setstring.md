@@ -7,7 +7,7 @@ old-location: mf\imfattributes_setstring.htm
 old-project: medfound
 ms.assetid: 51d2a2a0-92cb-49e0-b4a9-7201e9d92322
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 51d2a2a0-92cb-49e0-b4a9-7201e9d92322, IMFAttributes, IMFAttributes interface [Media Foundation], SetString method, IMFAttributes::SetString, SetString method [Media Foundation], SetString method [Media Foundation], IMFAttributes interface, SetString,IMFAttributes.SetString, mf.imfattributes_setstring, mfobjects/IMFAttributes::SetString
 ms.prod: windows-hardware
 ms.technology: windows-devices

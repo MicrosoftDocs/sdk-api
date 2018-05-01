@@ -7,7 +7,7 @@ old-location: termserv\iwrdsprotocolconnection_predisconnect.htm
 old-project: TermServ
 ms.assetid: 988032B5-94AA-40ED-B571-E7C2E652D023
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: IWRdsProtocolConnection, IWRdsProtocolConnection interface [Remote Desktop Services], PreDisconnect method, IWRdsProtocolConnection::PreDisconnect, PreDisconnect method [Remote Desktop Services], PreDisconnect method [Remote Desktop Services], IWRdsProtocolConnection interface, PreDisconnect,IWRdsProtocolConnection.PreDisconnect, termserv.iwrdsprotocolconnection_predisconnect, wtsprotocol/IWRdsProtocolConnection::PreDisconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices

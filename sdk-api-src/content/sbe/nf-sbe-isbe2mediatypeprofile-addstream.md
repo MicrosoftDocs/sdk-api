@@ -7,7 +7,7 @@ old-location: mstv\isbe2mediatypeprofile_addstream.htm
 old-project: mstv
 ms.assetid: f847d4f1-e748-4ed5-bc79-cfff90601379
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: AddStream method [Microsoft TV Technologies], AddStream method [Microsoft TV Technologies], ISBE2MediaTypeProfile interface, AddStream,ISBE2MediaTypeProfile.AddStream, ISBE2MediaTypeProfile, ISBE2MediaTypeProfile interface [Microsoft TV Technologies], AddStream method, ISBE2MediaTypeProfile::AddStream, mstv.isbe2mediatypeprofile_addstream, sbe/ISBE2MediaTypeProfile::AddStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Sbe.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ISBE2MediaTypeProfile::AddStream method

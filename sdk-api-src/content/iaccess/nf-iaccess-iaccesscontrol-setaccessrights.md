@@ -7,7 +7,7 @@ old-location: com\iaccesscontrol_setaccessrights.htm
 old-project: com
 ms.assetid: 5f4224fe-255f-4eb7-88bb-47501718589b
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IAccessControl, IAccessControl interface [COM], SetAccessRights method, IAccessControl::SetAccessRights, SetAccessRights method [COM], SetAccessRights method [COM], IAccessControl interface, SetAccessRights,IAccessControl.SetAccessRights, _com_iaccesscontrol_setaccessrights, com.iaccesscontrol_setaccessrights, iaccess/IAccessControl::SetAccessRights
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: HTTP_FILTER_VERSION, *PHTTP_FILTER_VERSION
+req.typenames: HTTP_VERSION, *PHTTP_VERSION
 topic_type:
 -	APIRef
 -	kbSyntax

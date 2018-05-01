@@ -7,7 +7,7 @@ old-location: dshow\ifilterchain_stopchain.htm
 old-project: DirectShow
 ms.assetid: 03821fdb-8374-4386-868b-9bf7b2d83562
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IFilterChain, IFilterChain interface [DirectShow], StopChain method, IFilterChain::StopChain, IFilterChainStopChain, StopChain method [DirectShow], StopChain method [DirectShow], IFilterChain interface, StopChain,IFilterChain.StopChain, dshow.ifilterchain_stopchain, strmif/IFilterChain::StopChain
 ms.prod: windows-hardware
 ms.technology: windows-devices

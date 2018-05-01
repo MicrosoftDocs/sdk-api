@@ -7,7 +7,7 @@ old-location: dshow\iamanalogvideodecoder_get_tvformat.htm
 old-project: DirectShow
 ms.assetid: 8973281f-2037-487f-9e86-8c7ceca75b23
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMAnalogVideoDecoder, IAMAnalogVideoDecoder interface [DirectShow], get_TVFormat method, IAMAnalogVideoDecoder::get_TVFormat, IAMAnalogVideoDecoderget_TVFormat, dshow.iamanalogvideodecoder_get_tvformat, get_TVFormat method [DirectShow], get_TVFormat method [DirectShow], IAMAnalogVideoDecoder interface, get_TVFormat,IAMAnalogVideoDecoder.get_TVFormat, strmif/IAMAnalogVideoDecoder::get_TVFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices

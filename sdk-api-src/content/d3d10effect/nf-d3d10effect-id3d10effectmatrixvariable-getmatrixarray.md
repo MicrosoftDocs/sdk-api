@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effectmatrixvariable_getmatrixarray.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectmatrixvariable_getmatrixarray.htm
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: 84951199-eff7-9ce2-9bad-b1bc01eab150, GetMatrixArray method [Direct3D 10], GetMatrixArray method [Direct3D 10], ID3D10EffectMatrixVariable interface, GetMatrixArray,ID3D10EffectMatrixVariable.GetMatrixArray, ID3D10EffectMatrixVariable, ID3D10EffectMatrixVariable interface [Direct3D 10], GetMatrixArray method, ID3D10EffectMatrixVariable::GetMatrixArray, d3d10effect/ID3D10EffectMatrixVariable::GetMatrixArray, direct3d10.id3d10effectmatrixvariable_getmatrixarray
 ms.prod: windows-hardware
 ms.technology: windows-devices

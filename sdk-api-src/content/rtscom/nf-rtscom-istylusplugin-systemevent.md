@@ -7,7 +7,7 @@ old-location: tablet\istylusplugin_systemevent.htm
 old-project: tablet
 ms.assetid: 7cdba29e-0599-45f7-8853-3e8fa29897e8
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: 7cdba29e-0599-45f7-8853-3e8fa29897e8, IStylusPlugin, IStylusPlugin interface [Tablet PC], SystemEvent method, IStylusPlugin::SystemEvent, SystemEvent method [Tablet PC], SystemEvent method [Tablet PC], IStylusPlugin interface, SystemEvent,IStylusPlugin.SystemEvent, rtscom/IStylusPlugin::SystemEvent, tablet.istylusplugin_systemevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: RTSCom.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IStylusPlugin::SystemEvent method

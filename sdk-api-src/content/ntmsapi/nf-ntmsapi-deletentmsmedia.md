@@ -7,7 +7,7 @@ old-location: fs\deletentmsmedia.htm
 old-project: Rsm
 ms.assetid: d8e6b441-be8b-4f10-b241-d95221cebed8
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/5/2018
 ms.keywords: DeleteNtmsMedia, DeleteNtmsMedia function [Files], _zaw_deletentmsmedia, base.deletentmsmedia, fs.deletentmsmedia, ntmsapi/DeleteNtmsMedia
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # DeleteNtmsMedia function

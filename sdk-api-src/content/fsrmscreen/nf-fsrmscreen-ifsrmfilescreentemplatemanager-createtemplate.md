@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmfilescreentemplatemanager_createtemplate.htm
 old-project: Fsrm
 ms.assetid: 3d654dee-2a27-4dc0-8e2b-fba546abe17e
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: CreateTemplate method [File Server Resource Manager], CreateTemplate method [File Server Resource Manager], FsrmFileScreenTemplateManager class, CreateTemplate method [File Server Resource Manager], IFsrmFileScreenTemplateManager interface, CreateTemplate,IFsrmFileScreenTemplateManager.CreateTemplate, FsrmFileScreenTemplateManager class [File Server Resource Manager], CreateTemplate method, IFsrmFileScreenTemplateManager, IFsrmFileScreenTemplateManager interface [File Server Resource Manager], CreateTemplate method, IFsrmFileScreenTemplateManager::CreateTemplate, fs.ifsrmfilescreentemplatemanager_createtemplate, fsrm.ifsrmfilescreentemplatemanager_createtemplate, fsrmscreen/IFsrmFileScreenTemplateManager::CreateTemplate
 ms.prod: windows-hardware
 ms.technology: windows-devices

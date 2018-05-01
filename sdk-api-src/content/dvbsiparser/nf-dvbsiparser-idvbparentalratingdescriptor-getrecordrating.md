@@ -7,7 +7,7 @@ old-location: mstv\idvbparentalratingdescriptor_getrecordrating.htm
 old-project: mstv
 ms.assetid: 1b439669-6458-46d3-882d-5f20f2f22f23
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetRecordRating method [Microsoft TV Technologies], GetRecordRating method [Microsoft TV Technologies], IDvbParentalRatingDescriptor interface, GetRecordRating,IDvbParentalRatingDescriptor.GetRecordRating, IDvbParentalRatingDescriptor, IDvbParentalRatingDescriptor interface [Microsoft TV Technologies], GetRecordRating method, IDvbParentalRatingDescriptor::GetRecordRating, dvbsiparser/IDvbParentalRatingDescriptor::GetRecordRating, mstv.idvbparentalratingdescriptor_getrecordrating
 ms.prod: windows-hardware
 ms.technology: windows-devices

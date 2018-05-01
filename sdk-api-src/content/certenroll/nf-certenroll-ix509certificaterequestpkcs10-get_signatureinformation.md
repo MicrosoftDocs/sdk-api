@@ -7,7 +7,7 @@ old-location: security\ix509certificaterequestpkcs10_signatureinformation_proper
 old-project: SecCertEnroll
 ms.assetid: d90a8b82-a4d7-4d31-bcd0-293572a2bdd2
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: IX509CertificateRequestPkcs10, IX509CertificateRequestPkcs10 interface [Security], SignatureInformation property, IX509CertificateRequestPkcs10.SignatureInformation, IX509CertificateRequestPkcs10::get_SignatureInformation, SignatureInformation property [Security], SignatureInformation property [Security], IX509CertificateRequestPkcs10 interface, certenroll/IX509CertificateRequestPkcs10::SignatureInformation, certenroll/IX509CertificateRequestPkcs10::get_SignatureInformation, get_SignatureInformation,IX509CertificateRequestPkcs10.get_SignatureInformation, security.ix509certificaterequestpkcs10_signatureinformation_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicbitmap.htm
 old-project: wic
 ms.assetid: 15dcc80d-ef58-453d-a57a-348ffc7ddc6b
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: IWICBitmap, IWICBitmap interface [Windows Imaging Component], IWICBitmap interface [Windows Imaging Component], described, _wic_codec_iwicbitmap, wic._wic_codec_iwicbitmap, wincodec/IWICBitmap
 ms.prod: windows-hardware
 ms.technology: windows-devices

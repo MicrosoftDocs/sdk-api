@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontentpartner_getcontentpartnerinfo.htm
 old-project: WMP
 ms.assetid: ca63b65c-9a60-4c5d-a9f2-69d1168c53a5
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: GetContentPartnerInfo method [Windows Media Player], GetContentPartnerInfo method [Windows Media Player], IWMPContentPartner interface, GetContentPartnerInfo,IWMPContentPartner.GetContentPartnerInfo, IWMPContentPartner, IWMPContentPartner interface [Windows Media Player], GetContentPartnerInfo method, IWMPContentPartner::GetContentPartnerInfo, IWMPContentPartnerGetContentPartnerInfo, contentpartner/IWMPContentPartner::GetContentPartnerInfo, wmp.iwmpcontentpartner_getcontentpartnerinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

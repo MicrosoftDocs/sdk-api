@@ -7,7 +7,7 @@ old-location: security\ix509certificaterequestpkcs7_initializefromcertificate_me
 old-project: SecCertEnroll
 ms.assetid: 7500b714-4608-4da6-85ad-20cea30853cc
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: IX509CertificateRequestPkcs7, IX509CertificateRequestPkcs7 interface [Security], InitializeFromCertificate method, IX509CertificateRequestPkcs7::InitializeFromCertificate, InheritDefault, InheritExtensionsFlag, InheritNewDefaultKey, InheritNewSimilarKey, InheritPrivateKey, InheritPublicKey, InheritRenewalCertificateFlag, InheritSubjectAltNameFlag, InheritSubjectFlag, InheritTemplateFlag, InheritValidityPeriodFlag, InitializeFromCertificate method [Security], InitializeFromCertificate method [Security], IX509CertificateRequestPkcs7 interface, InitializeFromCertificate,IX509CertificateRequestPkcs7.InitializeFromCertificate, certenroll/IX509CertificateRequestPkcs7::InitializeFromCertificate, security.ix509certificaterequestpkcs7_initializefromcertificate_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_wicpersistoptions.htm
 old-project: wic
 ms.assetid: 8c17cfcc-4f09-4cb5-a3fa-4eb865123ad6
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: WICPersistOptionBigEndian, WICPersistOptionDefault, WICPersistOptionLittleEndian, WICPersistOptionMask, WICPersistOptionNoCacheStream, WICPersistOptionPreferUTF8, WICPersistOptionStrictFormat, WICPersistOptions, WICPersistOptions enumeration [Windows Imaging Component], _wic_codec_wicpersistoptions, wic._wic_codec_wicpersistoptions, wincodecsdk/WICPersistOptionBigEndian, wincodecsdk/WICPersistOptionDefault, wincodecsdk/WICPersistOptionLittleEndian, wincodecsdk/WICPersistOptionMask, wincodecsdk/WICPersistOptionNoCacheStream, wincodecsdk/WICPersistOptionPreferUTF8, wincodecsdk/WICPersistOptionStrictFormat, wincodecsdk/WICPersistOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices

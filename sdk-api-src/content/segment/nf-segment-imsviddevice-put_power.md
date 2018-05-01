@@ -7,7 +7,7 @@ old-location: mstv\imsviddevice_put_power.htm
 old-project: mstv
 ms.assetid: 6a0122a8-6015-4255-a7d6-ab72b4025bd6
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidDevice, IMSVidDevice interface [Microsoft TV Technologies], put_Power method, IMSVidDevice::put_Power, IMSVidDeviceput_Power, mstv.imsviddevice_put_power, put_Power method [Microsoft TV Technologies], put_Power method [Microsoft TV Technologies], IMSVidDevice interface, put_Power,IMSVidDevice.put_Power, segment/IMSVidDevice::put_Power
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidDevice::put_Power method

@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiocaptureclient_getbuffer.htm
 old-project: CoreAudio
 ms.assetid: 4298f584-39ce-4138-994a-0e551370429f
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: GetBuffer method [Core Audio], GetBuffer method [Core Audio], IAudioCaptureClient interface, GetBuffer,IAudioCaptureClient.GetBuffer, IAudioCaptureClient, IAudioCaptureClient interface [Core Audio], GetBuffer method, IAudioCaptureClient::GetBuffer, IAudioCaptureClientGetBuffer, audioclient/IAudioCaptureClient::GetBuffer, coreaudio.iaudiocaptureclient_getbuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: Sensapi.lib
 req.dll: Sensapi.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IsDestinationReachableW function

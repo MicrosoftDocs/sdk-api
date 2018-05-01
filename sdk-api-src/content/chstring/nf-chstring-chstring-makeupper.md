@@ -7,7 +7,7 @@ old-location: wmi\chstring_makeupper.htm
 old-project: WmiSdk
 ms.assetid: 7dbce906-9eb3-47d6-9076-20e092b6239e
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: "?MakeUpper@CHString@@QAEXXZ, ?MakeUpper@CHString@@QEAAXXZ, CHString, CHString interface [Windows Management Instrumentation], MakeUpper method, CHString::MakeUpper, MakeUpper method [Windows Management Instrumentation], MakeUpper method [Windows Management Instrumentation], CHString interface, MakeUpper,CHString.MakeUpper, _hmm_chstring_makeupper, chstring/CHString::MakeUpper, wmi.chstring_makeupper"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CF_SYNC_ROOT_STANDARD_INFO
+req.typenames: CF_SYNC_STATUS
 topic_type:
 -	APIRef
 -	kbSyntax

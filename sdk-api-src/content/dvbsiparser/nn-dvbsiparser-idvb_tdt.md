@@ -7,7 +7,7 @@ old-location: mstv\idvb_tdt.htm
 old-project: mstv
 ms.assetid: 15fed2d3-fcc8-4992-9dff-4cd5f617e55b
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IDVB_TDT, IDVB_TDT interface [Microsoft TV Technologies], IDVB_TDT interface [Microsoft TV Technologies], described, IDVB_TDTInterface, dvbsiparser/IDVB_TDT, mstv.idvb_tdt
 ms.prod: windows-hardware
 ms.technology: windows-devices

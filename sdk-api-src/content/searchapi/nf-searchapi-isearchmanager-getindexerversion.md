@@ -7,7 +7,7 @@ old-location: search\_search_ISearchManager_GetIndexerVersion.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchmanager\getindexerversion.htm
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/24/2018
 ms.keywords: GetIndexerVersion method [search], GetIndexerVersion method [search], ISearchManager interface, GetIndexerVersion,ISearchManager.GetIndexerVersion, ISearchManager, ISearchManager interface [search], GetIndexerVersion method, ISearchManager::GetIndexerVersion, _search_ISearchManager_GetIndexerVersion, search._search_ISearchManager_GetIndexerVersion, searchapi/ISearchManager::GetIndexerVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ISearchManager::GetIndexerVersion method

@@ -7,7 +7,7 @@ old-location: dshow\dvd_timecode.htm
 old-project: DirectShow
 ms.assetid: 7ad0b11e-5bb7-426f-9a2c-fbc34b2f45b4
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: DVD_TIMECODE, DVD_TIMECODE structure [DirectShow], DVD_TIMECODEStructure, dshow.dvd_timecode, strmif/DVD_TIMECODE, tagDVD_TIMECODE
 ms.prod: windows-hardware
 ms.technology: windows-devices

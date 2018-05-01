@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrHandlerCollection_BindToHandler.htm
 old-project: shell
 ms.assetid: a3ae2427-7c7d-45b6-82ea-a8f5607f9623
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: BindToHandler method [Windows Shell], BindToHandler method [Windows Shell], ISyncMgrHandlerCollection interface, BindToHandler,ISyncMgrHandlerCollection.BindToHandler, ISyncMgrHandlerCollection, ISyncMgrHandlerCollection interface [Windows Shell], BindToHandler method, ISyncMgrHandlerCollection::BindToHandler, _shell_ISyncMgrHandlerCollection_BindToHandler, shell.ISyncMgrHandlerCollection_BindToHandler, syncmgr/ISyncMgrHandlerCollection::BindToHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices

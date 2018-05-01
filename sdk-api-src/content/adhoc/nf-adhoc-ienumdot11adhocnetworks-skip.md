@@ -7,7 +7,7 @@ old-location: nwifi\ienumdot11adhocnetworks_skip.htm
 old-project: NativeWiFi
 ms.assetid: 31e182f8-6a19-4138-b799-7ad485868d19
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/13/2018
 ms.keywords: IEnumDot11AdHocNetworks, IEnumDot11AdHocNetworks interface [NativeWIFI], Skip method, IEnumDot11AdHocNetworks::Skip, Skip method [NativeWIFI], Skip method [NativeWIFI], IEnumDot11AdHocNetworks interface, Skip,IEnumDot11AdHocNetworks.Skip, adhoc/IEnumDot11AdHocNetworks::Skip, nwifi.ienumdot11adhocnetworks_skip
 ms.prod: windows-hardware
 ms.technology: windows-devices

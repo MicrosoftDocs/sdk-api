@@ -7,7 +7,7 @@ old-location: dshow\ifullscreenvideoex_ishideondeactivate.htm
 old-project: DirectShow
 ms.assetid: 0196215f-4efe-418a-acf3-445b8224a2ab
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IFullScreenVideoEx, IFullScreenVideoEx interface [DirectShow], IsHideOnDeactivate method, IFullScreenVideoEx::IsHideOnDeactivate, IFullScreenVideoIsHideOnDeactivate, IsHideOnDeactivate method [DirectShow], IsHideOnDeactivate method [DirectShow], IFullScreenVideoEx interface, IsHideOnDeactivate,IFullScreenVideoEx.IsHideOnDeactivate, amvideo/IFullScreenVideoEx::IsHideOnDeactivate, dshow.ifullscreenvideoex_ishideondeactivate
 ms.prod: windows-hardware
 ms.technology: windows-devices

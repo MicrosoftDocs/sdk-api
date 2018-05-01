@@ -7,7 +7,7 @@ old-location: coreaudio\immnotificationclient_ondeviceremoved.htm
 old-project: CoreAudio
 ms.assetid: 0adacdd2-5fa3-4d27-a299-fa0d41b6d285
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: IMMNotificationClient, IMMNotificationClient interface [Core Audio], OnDeviceRemoved method, IMMNotificationClient::OnDeviceRemoved, IMMNotificationClientOnDeviceRemoved, OnDeviceRemoved method [Core Audio], OnDeviceRemoved method [Core Audio], IMMNotificationClient interface, OnDeviceRemoved,IMMNotificationClient.OnDeviceRemoved, coreaudio.immnotificationclient_ondeviceremoved, mmdeviceapi/IMMNotificationClient::OnDeviceRemoved
 ms.prod: windows-hardware
 ms.technology: windows-devices

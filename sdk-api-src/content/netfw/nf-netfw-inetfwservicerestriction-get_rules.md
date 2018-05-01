@@ -7,7 +7,7 @@ old-location: ics\inetfwservicerestriction_rules.htm
 old-project: ICS
 ms.assetid: 12846607-daf7-43ce-8278-89db15b95a81
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: INetFwServiceRestriction, INetFwServiceRestriction interface [ICS/ICF], Rules property, INetFwServiceRestriction.Rules, INetFwServiceRestriction::get_Rules, Rules property [ICS/ICF], Rules property [ICS/ICF], INetFwServiceRestriction interface, get_Rules,INetFwServiceRestriction.get_Rules, ics.inetfwservicerestriction_rules, netfw/INetFwServiceRestriction::Rules, netfw/INetFwServiceRestriction::get_Rules
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: FirewallAPI.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # INetFwServiceRestriction::get_Rules method

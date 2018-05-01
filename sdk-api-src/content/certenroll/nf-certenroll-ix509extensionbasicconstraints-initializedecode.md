@@ -7,7 +7,7 @@ old-location: security\ix509extensionbasicconstraints_initializedecode_method.ht
 old-project: SecCertEnroll
 ms.assetid: 3b0b5547-6871-412a-8463-889af3b1302b
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: IX509ExtensionBasicConstraints, IX509ExtensionBasicConstraints interface [Security], InitializeDecode method, IX509ExtensionBasicConstraints::InitializeDecode, InitializeDecode method [Security], InitializeDecode method [Security], IX509ExtensionBasicConstraints interface, InitializeDecode,IX509ExtensionBasicConstraints.InitializeDecode, certenroll/IX509ExtensionBasicConstraints::InitializeDecode, security.ix509extensionbasicconstraints_initializedecode_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

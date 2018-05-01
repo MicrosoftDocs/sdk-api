@@ -7,7 +7,7 @@ old-location: appxpkg\iappxmanifestreader_getproperties.htm
 old-project: appxpkg
 ms.assetid: E507BA9D-D2CA-4B28-BD13-B820B666B4C6
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/26/2018
 ms.keywords: GetProperties method [App packaging and management], GetProperties method [App packaging and management], IAppxManifestReader interface, GetProperties,IAppxManifestReader.GetProperties, IAppxManifestReader, IAppxManifestReader interface [App packaging and management], GetProperties method, IAppxManifestReader::GetProperties, appxpackaging/IAppxManifestReader::GetProperties, appxpkg.iappxmanifestreader_getproperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_ARCHITECTURE2
+req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
 topic_type:
 -	APIRef
 -	kbSyntax

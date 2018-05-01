@@ -7,7 +7,7 @@ old-location: security\crypt_xml_doc_ctxt.htm
 old-project: SecCrypto
 ms.assetid: b57cccb1-b26f-4710-b888-f864cc9ae3be
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: "*PCRYPT_XML_DOC_CTXT, CRYPT_XML_DOC_CTXT, CRYPT_XML_DOC_CTXT structure [Security], PCRYPT_XML_DOC_CTXT, PCRYPT_XML_DOC_CTXT structure pointer [Security], _CRYPT_XML_DOC_CTXT, cryptxml/CRYPT_XML_DOC_CTXT, cryptxml/PCRYPT_XML_DOC_CTXT, security.crypt_xml_doc_ctxt"
 ms.prod: windows-hardware
 ms.technology: windows-devices

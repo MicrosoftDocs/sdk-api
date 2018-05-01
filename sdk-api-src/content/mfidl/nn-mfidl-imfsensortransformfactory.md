@@ -7,7 +7,7 @@ old-location: mf\imfsensortransformfactory.htm
 old-project: medfound
 ms.assetid: 291EA582-22E3-4646-8E89-74162E98203F
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFSensorTransformFactory, IMFSensorTransformFactory interface [Media Foundation], IMFSensorTransformFactory interface [Media Foundation], described, mf.imfsensortransformfactory, mfidl/IMFSensorTransformFactory
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ api_name:
 product: Windows
 targetos: Windows
 req.lib: Mfplat.lib; Mfplat.dll
-req.dll: Mfplat.dll
+req.dll: Mfsensorgroup.dll
 req.irql: 
 req.product: GDI+ 1.1
 ---

@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext_drawauto.htm
 old-project: direct3d11
 ms.assetid: 34688e87-514f-4f85-b56b-e0245400a5ac
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/6/2018
 ms.keywords: DrawAuto method [Direct3D 11], DrawAuto method [Direct3D 11], ID3D11DeviceContext interface, DrawAuto,ID3D11DeviceContext.DrawAuto, ID3D11DeviceContext, ID3D11DeviceContext interface [Direct3D 11], DrawAuto method, ID3D11DeviceContext::DrawAuto, d3d11/ID3D11DeviceContext::DrawAuto, d5e26d9c-e682-ea81-70bc-d35792e62157, direct3d11.id3d11devicecontext_drawauto
 ms.prod: windows-hardware
 ms.technology: windows-devices

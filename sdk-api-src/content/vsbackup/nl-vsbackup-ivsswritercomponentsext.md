@@ -7,7 +7,7 @@ old-location: base\ivsswritercomponentsext.htm
 old-project: VSS
 ms.assetid: 29772c1f-1cc4-4ee7-8e1d-f1a6cbebf470
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: IVssWriterComponentsExt, IVssWriterComponentsExt interface [VSS], IVssWriterComponentsExt interface [VSS], described, _win32_ivsswritercomponentsext, base.ivsswritercomponentsext, vsbackup/IVssWriterComponentsExt
 ms.prod: windows-hardware
 ms.technology: windows-devices

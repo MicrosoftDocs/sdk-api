@@ -7,7 +7,7 @@ old-location: ics\ienumnetsharingpublicconnection_next.htm
 old-project: ICS
 ms.assetid: 36df4f20-785f-4335-ba75-094533068685
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: IEnumNetSharingPublicConnection, IEnumNetSharingPublicConnection interface [ICS/ICF], Next method, IEnumNetSharingPublicConnection::Next, Next method [ICS/ICF], Next method [ICS/ICF], IEnumNetSharingPublicConnection interface, Next,IEnumNetSharingPublicConnection.Next, _ics_ienumnetsharingpublicconnection_next, ics.ienumnetsharingpublicconnection_next, netcon/IEnumNetSharingPublicConnection::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IEnumNetSharingPublicConnection::Next method

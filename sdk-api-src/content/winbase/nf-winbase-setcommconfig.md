@@ -7,7 +7,7 @@ old-location: base\setcommconfig.htm
 old-project: DevIO
 ms.assetid: e38be757-81c6-49ae-8d90-4387893e8ec5
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/3/2018
 ms.keywords: SetCommConfig, SetCommConfig function, _win32_setcommconfig, base.setcommconfig, winbase/SetCommConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices

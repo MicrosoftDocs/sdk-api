@@ -7,7 +7,7 @@ old-location: mscs\resource_status_ex.htm
 old-project: MsCS
 ms.assetid: CBEBF870-B413-400C-A485-FD093358FB67
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: "*PRESOURCE_STATUS_EX, CLUSRESDLL_STATUS_INSUFFICIENT_MEMORY, CLUSRESDLL_STATUS_INSUFFICIENT_OTHER_RESOURCES, CLUSRESDLL_STATUS_INSUFFICIENT_PROCESSOR, CLUSRESDLL_STATUS_NETWORK_NOT_AVAILABLE, CLUSRESDLL_STATUS_OFFLINE_BUSY, CLUSRESDLL_STATUS_OFFLINE_DESTINATION_REJECTED, CLUSRESDLL_STATUS_OFFLINE_DESTINATION_THROTTLED, CLUSRESDLL_STATUS_OFFLINE_SOURCE_THROTTLED, PRESOURCE_STATUS_EX, PRESOURCE_STATUS_EX structure pointer [Failover Cluster], RESOURCE_STATUS_EX, RESOURCE_STATUS_EX structure [Failover Cluster], STATUS_INVALID_PARAMETERS, mscs.resource_status_ex, resapi/PRESOURCE_STATUS_EX, resapi/RESOURCE_STATUS_EX"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # RESOURCE_STATUS_EX structure

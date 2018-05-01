@@ -7,7 +7,7 @@ old-location: controls\ITextHost_TxDeactivate.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txdeactivate.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextHost, ITextHost interface [Windows Controls], TxDeactivate method, ITextHost::TxDeactivate, TxDeactivate method [Windows Controls], TxDeactivate method [Windows Controls], ITextHost interface, TxDeactivate,ITextHost.TxDeactivate, _win32_ITextHost_TxDeactivate, _win32_ITextHost_TxDeactivate_cpp, controls.ITextHost_TxDeactivate, controls._win32_ITextHost_TxDeactivate, textserv/ITextHost::TxDeactivate
 ms.prod: windows-hardware
 ms.technology: windows-devices

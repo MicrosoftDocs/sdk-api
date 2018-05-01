@@ -7,7 +7,7 @@ old-location: winprog\fnclose.htm
 old-project: DevNotes
 ms.assetid: 89db9c2a-42ab-410d-a427-60d282385c2b
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/13/2018
 ms.keywords: FNCLOSE, FNCLOSE macro [Windows API], fdi/FNCLOSE, winprog.fnclose
 ms.prod: windows-hardware
 ms.technology: windows-devices

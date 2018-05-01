@@ -7,7 +7,7 @@ old-location: security\ix509privatekey_readername_property.htm
 old-project: SecCertEnroll
 ms.assetid: 1c9bb81a-c91b-42b9-a44c-de1ae5b68af6
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: IX509PrivateKey, IX509PrivateKey interface [Security], ReaderName property, IX509PrivateKey.ReaderName, IX509PrivateKey::get_ReaderName, IX509PrivateKey::put_ReaderName, ReaderName property [Security], ReaderName property [Security], IX509PrivateKey interface, certenroll/IX509PrivateKey::ReaderName, certenroll/IX509PrivateKey::get_ReaderName, certenroll/IX509PrivateKey::put_ReaderName, get_ReaderName,IX509PrivateKey.get_ReaderName, security.ix509privatekey_readername_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: indexsrv\icommandtree_setcommandtree.htm
 old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_6omd.htm
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/11/2018
 ms.keywords: ICommandTree, ICommandTree interface [Indexing Service], SetCommandTree method, ICommandTree::SetCommandTree, SetCommandTree method [Indexing Service], SetCommandTree method [Indexing Service], ICommandTree interface, SetCommandTree,ICommandTree.SetCommandTree, _idxs_ICommandTree_SetCommandTree, cmdtree/ICommandTree::SetCommandTree, indexsrv.icommandtree_setcommandtree
 ms.prod: windows-hardware
 ms.technology: windows-devices

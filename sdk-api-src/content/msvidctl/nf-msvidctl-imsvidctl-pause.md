@@ -7,7 +7,7 @@ old-location: mstv\imsvidctl_pause.htm
 old-project: mstv
 ms.assetid: fd7687d8-325f-4a51-ab57-ffcc45a9157b
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidCtl, IMSVidCtl interface [Microsoft TV Technologies], Pause method, IMSVidCtl::Pause, IMSVidCtlPause, Pause method [Microsoft TV Technologies], Pause method [Microsoft TV Technologies], IMSVidCtl interface, Pause,IMSVidCtl.Pause, mstv.imsvidctl_pause, msvidctl/IMSVidCtl::Pause
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidCtl::Pause method

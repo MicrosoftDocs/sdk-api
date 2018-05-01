@@ -7,7 +7,7 @@ old-location: ics\inetsharingmanager_get_enumpublicconnections.htm
 old-project: ICS
 ms.assetid: 7db0eb73-8e0f-4267-9a88-20952f3721e2
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: INetSharingManager, INetSharingManager interface [ICS/ICF], get_EnumPublicConnections method, INetSharingManager::get_EnumPublicConnections, _ics_inetsharingmanager_get_enumpublicconnections, get_EnumPublicConnections method [ICS/ICF], get_EnumPublicConnections method [ICS/ICF], INetSharingManager interface, get_EnumPublicConnections,INetSharingManager.get_EnumPublicConnections, ics.inetsharingmanager_get_enumpublicconnections, netcon/INetSharingManager::get_EnumPublicConnections
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # INetSharingManager::get_EnumPublicConnections method

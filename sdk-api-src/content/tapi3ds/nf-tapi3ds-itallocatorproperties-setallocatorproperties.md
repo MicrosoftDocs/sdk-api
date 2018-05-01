@@ -1,0 +1,97 @@
+---
+UID: NF:tapi3ds.ITAllocatorProperties.SetAllocatorProperties
+title: ITAllocatorProperties::SetAllocatorProperties method
+author: windows-driver-content
+description: The SetAllocatorProperties method must be called before connection and will force the MSP to use these values during filter negotiation. If the connecting filter doesn't accept these values, the connection is not established.
+old-location: tapi3\itallocatorproperties_setallocatorproperties.htm
+old-project: Tapi
+ms.assetid: 3ab13fac-2667-44ce-aa1a-72cd18d37b0a
+ms.author: windowsdriverdev
+ms.date: 4/16/2018
+ms.keywords: ITAllocatorProperties, ITAllocatorProperties interface [TAPI 2.2], SetAllocatorProperties method, ITAllocatorProperties::SetAllocatorProperties, SetAllocatorProperties method [TAPI 2.2], SetAllocatorProperties method [TAPI 2.2], ITAllocatorProperties interface, SetAllocatorProperties,ITAllocatorProperties.SetAllocatorProperties, _tapi3_itallocatorproperties_setallocatorproperties, tapi3.itallocatorproperties_setallocatorproperties, tapi3ds/ITAllocatorProperties::SetAllocatorProperties
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: tapi3ds.h
+req.include-header: Tapi3.h
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: AGENT_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Tapi3.dll
+api_name:
+-	ITAllocatorProperties.SetAllocatorProperties
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# ITAllocatorProperties::SetAllocatorProperties method
+
+
+## -description
+
+
+The 
+<b>SetAllocatorProperties</b> method must be called before connection and will force the MSP to use these values during filter negotiation. If the connecting filter doesn't accept these values, the connection is not established.
+
+
+## -parameters
+
+
+
+
+### -param pAllocProperties [in]
+
+Pointer to the allocator buffer.
+
+
+## -returns
+
+
+
+If the method succeeds, it returns S_OK. Otherwise, it returns an error value.
+
+
+
+
+## -remarks
+
+
+
+<b>This method should be used with extreme care.</b> The quality of the sound may suffer if the values entered for this method are not optimal for the MSP. Therefore, the application should know exactly the properties preferred by the MSP before calling this method. Under Windows 2000, properties entered during calls to this method are ignored if they are not optimal. Under Windows XP, these values are not ignored and the application must be more knowledgeable.
+
+If the application is only concerned with setting consistent buffer sizes, the 
+<a href="https://msdn.microsoft.com/5aea70fd-2078-4f51-909f-c51cb997f5ea">ITAllocatorProperties::SetBufferSize</a> method should be used instead. This guarantees the application is provided with the specified buffer size.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/a0facf08-1b03-415b-b97e-3fda5a164b89">ITAllocatorProperties</a>
+ 
+
+ 
+

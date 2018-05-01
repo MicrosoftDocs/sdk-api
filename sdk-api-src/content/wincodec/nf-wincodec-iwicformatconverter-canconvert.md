@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicformatconverter_canconvert.htm
 old-project: wic
 ms.assetid: bf813eaf-0899-4df2-bcc2-ba2db1e9af2f
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: CanConvert method [Windows Imaging Component], CanConvert method [Windows Imaging Component], IWICFormatConverter interface, CanConvert,IWICFormatConverter.CanConvert, IWICFormatConverter, IWICFormatConverter interface [Windows Imaging Component], CanConvert method, IWICFormatConverter::CanConvert, _wic_codec_iwicformatconverter_canconvert, wic._wic_codec_iwicformatconverter_canconvert, wincodec/IWICFormatConverter::CanConvert
 ms.prod: windows-hardware
 ms.technology: windows-devices

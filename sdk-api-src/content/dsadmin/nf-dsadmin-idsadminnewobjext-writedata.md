@@ -7,7 +7,7 @@ old-location: ad\idsadminnewobjext_writedata.htm
 old-project: AD
 ms.assetid: 1788c124-c740-4f77-9687-63113d3b14a8
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/20/2018
 ms.keywords: DSA_NEWOBJ_CTX_CLEANUP, DSA_NEWOBJ_CTX_POSTCOMMIT, DSA_NEWOBJ_CTX_PRECOMMIT, IDsAdminNewObjExt, IDsAdminNewObjExt interface [Active Directory], WriteData method, IDsAdminNewObjExt::WriteData, WriteData method [Active Directory], WriteData method [Active Directory], IDsAdminNewObjExt interface, WriteData,IDsAdminNewObjExt.WriteData, _glines_idsadminnewobjext_writedata, ad.idsadminnewobjext__writedata, ad.idsadminnewobjext_writedata, dsadmin/IDsAdminNewObjExt::WriteData
 ms.prod: windows-hardware
 ms.technology: windows-devices

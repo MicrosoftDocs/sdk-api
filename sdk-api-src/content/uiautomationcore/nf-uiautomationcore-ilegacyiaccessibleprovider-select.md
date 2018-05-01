@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ILegacyIAccessibleProvider_Select.htm
 old-project: WinAuto
 ms.assetid: 9cdb3f88-c4aa-4a04-94e3-5549c389ad1f
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: ILegacyIAccessibleProvider, ILegacyIAccessibleProvider interface [Windows Accessibility], Select method, ILegacyIAccessibleProvider::Select, Select method [Windows Accessibility], Select method [Windows Accessibility], ILegacyIAccessibleProvider interface, Select,ILegacyIAccessibleProvider.Select, uiauto.uiauto_ILegacyIAccessibleProvider_Select, uiauto_ILegacyIAccessibleProvider_Select, uiautomationcore/ILegacyIAccessibleProvider::Select, winauto.uiauto_ILegacyIAccessibleProvider_Select
 ms.prod: windows-hardware
 ms.technology: windows-devices

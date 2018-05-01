@@ -7,7 +7,7 @@ old-location: mf\imfcollection_insertelementat.htm
 old-project: medfound
 ms.assetid: d8f64bf8-eb5b-4673-91be-796f4ea8dce0
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFCollection, IMFCollection interface [Media Foundation], InsertElementAt method, IMFCollection::InsertElementAt, InsertElementAt method [Media Foundation], InsertElementAt method [Media Foundation], IMFCollection interface, InsertElementAt,IMFCollection.InsertElementAt, d8f64bf8-eb5b-4673-91be-796f4ea8dce0, mf.imfcollection_insertelementat, mfobjects/IMFCollection::InsertElementAt
 ms.prod: windows-hardware
 ms.technology: windows-devices

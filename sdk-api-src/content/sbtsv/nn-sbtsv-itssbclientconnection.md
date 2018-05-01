@@ -7,7 +7,7 @@ old-location: termserv\itssbclientconnection.htm
 old-project: TermServ
 ms.assetid: 6649f43d-0e2a-42d7-8111-862bb28e3dbc
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: ITsSbClientConnection, ITsSbClientConnection interface [Remote Desktop Services], ITsSbClientConnection interface [Remote Desktop Services], described, sbtsv/ITsSbClientConnection, termserv.itssbclientconnection
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITsSbClientConnection interface

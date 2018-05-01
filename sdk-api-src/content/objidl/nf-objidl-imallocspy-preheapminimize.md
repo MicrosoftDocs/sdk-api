@@ -7,7 +7,7 @@ old-location: com\imallocspy_preheapminimize.htm
 old-project: com
 ms.assetid: 9e80f555-5382-4bd9-ab56-a67f42b13cae
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IMallocSpy, IMallocSpy interface [COM], PreHeapMinimize method, IMallocSpy::PreHeapMinimize, PreHeapMinimize method [COM], PreHeapMinimize method [COM], IMallocSpy interface, PreHeapMinimize,IMallocSpy.PreHeapMinimize, _com_imallocspy_preheapminimize, com.imallocspy_preheapminimize, objidl/IMallocSpy::PreHeapMinimize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMallocSpy::PreHeapMinimize method

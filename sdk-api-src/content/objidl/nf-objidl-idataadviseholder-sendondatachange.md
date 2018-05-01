@@ -7,7 +7,7 @@ old-location: com\idataadviseholder_sendondatachange.htm
 old-project: com
 ms.assetid: b7385116-2ec7-4e12-a2dc-c9029a38d8fd
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IDataAdviseHolder, IDataAdviseHolder interface [COM], SendOnDataChange method, IDataAdviseHolder::SendOnDataChange, SendOnDataChange method [COM], SendOnDataChange method [COM], IDataAdviseHolder interface, SendOnDataChange,IDataAdviseHolder.SendOnDataChange, _ole_idataadviseholder_sendondatachange, com.idataadviseholder_sendondatachange, objidl/IDataAdviseHolder::SendOnDataChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IDataAdviseHolder::SendOnDataChange method

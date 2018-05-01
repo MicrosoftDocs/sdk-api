@@ -7,7 +7,7 @@ old-location: wmformat\insnetsourcecreator_getnetsourceadmininterface.htm
 old-project: wmformat
 ms.assetid: 147b431f-84ed-40b9-85a8-3c220b56cd3f
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: GetNetSourceAdminInterface method [windows Media Format], GetNetSourceAdminInterface method [windows Media Format], INSNetSourceCreator interface, GetNetSourceAdminInterface,INSNetSourceCreator.GetNetSourceAdminInterface, INSNetSourceCreator, INSNetSourceCreator interface [windows Media Format], GetNetSourceAdminInterface method, INSNetSourceCreator::GetNetSourceAdminInterface, INSNetSourceCreatorGetNetSourceAdminInterface, wmformat.insnetsourcecreator_getnetsourceadmininterface, wmnetsourcecreator/INSNetSourceCreator::GetNetSourceAdminInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices

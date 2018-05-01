@@ -7,7 +7,7 @@ old-location: search\_search_ISearchRoot_put_HostDepth.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchroot\put_hostdepth.htm
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/24/2018
 ms.keywords: ISearchRoot, ISearchRoot interface [search], put_HostDepth method, ISearchRoot::put_HostDepth, _search_ISearchRoot_put_HostDepth, put_HostDepth method [search], put_HostDepth method [search], ISearchRoot interface, put_HostDepth,ISearchRoot.put_HostDepth, search._search_ISearchRoot_put_HostDepth, searchapi/ISearchRoot::put_HostDepth
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ISearchRoot::put_HostDepth method

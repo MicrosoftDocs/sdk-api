@@ -7,7 +7,7 @@ old-location: wmi\iwbemdecoupledbasiceventprovider_getsink.htm
 old-project: WmiSdk
 ms.assetid: 2b33e441-4bc4-47ed-b09b-7af859127b06
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: GetSink method [Windows Management Instrumentation], GetSink method [Windows Management Instrumentation], IWbemDecoupledBasicEventProvider interface, GetSink method [Windows Management Instrumentation], WbemDecoupledBasicEventProvider object, GetSink,IWbemDecoupledBasicEventProvider.GetSink, IWbemDecoupledBasicEventProvider, IWbemDecoupledBasicEventProvider interface [Windows Management Instrumentation], GetSink method, IWbemDecoupledBasicEventProvider::GetSink, WbemDecoupledBasicEventProvider object [Windows Management Instrumentation], GetSink method, _hmm_iwbemdecoupledbasiceventprovider_getsink, wbemprov/IWbemDecoupledBasicEventProvider::GetSink, wmi.iwbemdecoupledbasiceventprovider_getsink
 ms.prod: windows-hardware
 ms.technology: windows-devices

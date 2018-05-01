@@ -7,7 +7,7 @@ old-location: security\lsa_forest_trust_record.htm
 old-project: SecAuthN
 ms.assetid: 19b4ee56-664f-4f37-bfc9-129032ebeb22
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/24/2018
 ms.keywords: "*PLSA_FOREST_TRUST_RECORD, ForestTrustDomainInfo, ForestTrustRecordTypeLast, ForestTrustTopLevelName, ForestTrustTopLevelNameEx, LSA_FOREST_TRUST_RECORD, LSA_FOREST_TRUST_RECORD structure [Security], PLSA_FOREST_TRUST_RECORD, PLSA_FOREST_TRUST_RECORD structure pointer [Security], _LSA_FOREST_TRUST_INFORMATION, _LSA_FOREST_TRUST_RECORD, ntsecapi/LSA_FOREST_TRUST_RECORD, ntsecapi/PLSA_FOREST_TRUST_RECORD, security.lsa_forest_trust_record"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _LSA_FOREST_TRUST_RECORD structure
@@ -56,27 +56,6 @@ The <b>LSA_FOREST_TRUST_RECORD</b> structure represents a <a href="https://msdn.
 ## -struct-fields
 
 
-
-
-### -field ForestTrustData
-
-
-
-#### TopLevelName
-
-Top-level name. This member is used only if the <b>ForestTrustType</b> member is <b>ForestTrustTopLevelName</b> or <b>ForestTrustTopLevelNameEx</b>.
-
-
-
-#### DomainInfo
-
-Domain information. This member is used only if the <b>ForestTrustType</b> member is <b>ForestTrustDomainInfo</b>.
-
-
-
-#### Data
-
-Binary data. This member is used for unrecognized entries after ForestTrustRecordTypeLast.
 
 
 ### -field Flags
@@ -141,4 +120,25 @@ Marks the end of an enumeration.
 ### -field Time
 
 Time stamp of the record.
+
+
+### -field ForestTrustData
+
+
+
+#### TopLevelName
+
+Top-level name. This member is used only if the <b>ForestTrustType</b> member is <b>ForestTrustTopLevelName</b> or <b>ForestTrustTopLevelNameEx</b>.
+
+
+
+#### DomainInfo
+
+Domain information. This member is used only if the <b>ForestTrustType</b> member is <b>ForestTrustDomainInfo</b>.
+
+
+
+#### Data
+
+Binary data. This member is used for unrecognized entries after ForestTrustRecordTypeLast.
 

@@ -7,7 +7,7 @@ old-location: wmformat\iwmsecurechannel_wmsc_isconnected.htm
 old-project: wmformat
 ms.assetid: 162bb01f-ba64-4563-a257-28931190ac96
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMSecureChannel, IWMSecureChannel interface [windows Media Format], WMSC_IsConnected method, IWMSecureChannel::WMSC_IsConnected, WMSC_IsConnected method [windows Media Format], WMSC_IsConnected method [windows Media Format], IWMSecureChannel interface, WMSC_IsConnected,IWMSecureChannel.WMSC_IsConnected, wmformat.iwmsecurechannel_wmsc_isconnected, wmsecure/IWMSecureChannel::WMSC_IsConnected
 ms.prod: windows-hardware
 ms.technology: windows-devices

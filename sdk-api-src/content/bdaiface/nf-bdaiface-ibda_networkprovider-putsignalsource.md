@@ -7,7 +7,7 @@ old-location: mstv\ibda_networkprovider_putsignalsource.htm
 old-project: mstv
 ms.assetid: e461ff83-c3fc-43f2-934b-3f4c3afd0061
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IBDA_NetworkProvider, IBDA_NetworkProvider interface [Microsoft TV Technologies], PutSignalSource method, IBDA_NetworkProvider::PutSignalSource, IBDA_NetworkProviderPutSignalSource, PutSignalSource method [Microsoft TV Technologies], PutSignalSource method [Microsoft TV Technologies], IBDA_NetworkProvider interface, PutSignalSource,IBDA_NetworkProvider.PutSignalSource, bdaiface/IBDA_NetworkProvider::PutSignalSource, mstv.ibda_networkprovider_putsignalsource
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -59,6 +59,11 @@ The
 
 
 
+### -field filt_header
+
+RSVP Object Header for the FILTERSPEC, in the form of an <a href="https://msdn.microsoft.com/90a237c0-0e62-4f27-927a-e3f3c1ac629e">RsvpObjHdr</a> structure.
+
+
 ### -field filt_u
 
 
@@ -72,11 +77,6 @@ FILTERSPEC, in the form of a <a href="https://msdn.microsoft.com/b17a45b2-e50b-4
 #### filt_ipv4gpi
 
 FILTERSPEC GPI information, in the form of a <a href="https://msdn.microsoft.com/c1546673-d1b5-4a7f-82d0-a8cc1c7c8752">Filter_Spec_IPv4GPI</a> header.
-
-
-### -field filt_header
-
-RSVP Object Header for the FILTERSPEC, in the form of an <a href="https://msdn.microsoft.com/90a237c0-0e62-4f27-927a-e3f3c1ac629e">RsvpObjHdr</a> structure.
 
 
 ## -see-also

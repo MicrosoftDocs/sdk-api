@@ -7,7 +7,7 @@ old-location: com\ioleinplacesitewindowless_getfocus.htm
 old-project: com
 ms.assetid: 282f350c-d196-40c2-880f-55f28dc48f2b
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: GetFocus method [COM], GetFocus method [COM], IOleInPlaceSiteWindowless interface, GetFocus,IOleInPlaceSiteWindowless.GetFocus, IOleInPlaceSiteWindowless, IOleInPlaceSiteWindowless interface [COM], GetFocus method, IOleInPlaceSiteWindowless::GetFocus, _ole_ioleinplacesitewindowless_getfocus, com.ioleinplacesitewindowless_getfocus, ocidl/IOleInPlaceSiteWindowless::GetFocus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IOleInPlaceSiteWindowless::GetFocus method

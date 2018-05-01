@@ -58,6 +58,14 @@ Contains virtual hard disk (VHD) merge request parameters.
 
 
 
+### -field Version
+
+A <a href="https://msdn.microsoft.com/1f542a51-d314-4add-a389-d450785b0a73">MERGE_VIRTUAL_DISK_VERSION</a> enumeration 
+      that specifies the version of the 
+      <b>MERGE_VIRTUAL_DISK_PARAMETERS</b> structure 
+      being passed to or from the VHD functions.
+
+
 ### -field Version1
 
 This structure is used when the Version member is <b>MERGE_VIRTUAL_DISK_VERSION_1</b> 
@@ -90,14 +98,6 @@ Depth from the leaf from which to begin the merge.  The leaf is at depth 1.
 ### -field Version2.MergeTargetDepth
 
 Depth from  the leaf to target the merge.  The leaf is at depth 1.
-
-
-### -field Version
-
-A <a href="https://msdn.microsoft.com/1f542a51-d314-4add-a389-d450785b0a73">MERGE_VIRTUAL_DISK_VERSION</a> enumeration 
-      that specifies the version of the 
-      <b>MERGE_VIRTUAL_DISK_PARAMETERS</b> structure 
-      being passed to or from the VHD functions.
 
 
 ## -remarks

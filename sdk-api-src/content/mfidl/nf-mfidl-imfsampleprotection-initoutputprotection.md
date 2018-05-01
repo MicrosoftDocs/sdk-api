@@ -7,7 +7,7 @@ old-location: mf\imfsampleprotection_initoutputprotection.htm
 old-project: medfound
 ms.assetid: 03bee13d-1c51-4b26-98bb-bac15264aa54
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 03bee13d-1c51-4b26-98bb-bac15264aa54, IMFSampleProtection, IMFSampleProtection interface [Media Foundation], InitOutputProtection method, IMFSampleProtection::InitOutputProtection, InitOutputProtection method [Media Foundation], InitOutputProtection method [Media Foundation], IMFSampleProtection interface, InitOutputProtection,IMFSampleProtection.InitOutputProtection, mf.imfsampleprotection_initoutputprotection, mfidl/IMFSampleProtection::InitOutputProtection
 ms.prod: windows-hardware
 ms.technology: windows-devices

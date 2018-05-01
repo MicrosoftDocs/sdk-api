@@ -7,8 +7,8 @@ old-location: direct3d11\d3d11_rasterizer_desc1.htm
 old-project: direct3d11
 ms.assetid: 7A0E526E-9352-408F-8B11-1B7A9FBC2BE1
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
-ms.keywords: D3D11_RASTERIZER_DESC1, D3D11_RASTERIZER_DESC1 structure [Direct3D 11], d3d11_1/D3D11_RASTERIZER_DESC1, direct3d11.d3d11_rasterizer_desc1
+ms.date: 4/6/2018
+ms.keywords: CD3D11_RASTERIZER_DESC1, D3D11_RASTERIZER_DESC1, D3D11_RASTERIZER_DESC1 structure [Direct3D 11], d3d11_1/D3D11_RASTERIZER_DESC1, direct3d11.d3d11_rasterizer_desc1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -57,49 +57,49 @@ req.irql:
 
 
 
-### -field FillMode
+#### - FillMode
 
 Type: <b><a href="https://msdn.microsoft.com/853a7df5-4740-40dd-9188-2b399f3aae68">D3D11_FILL_MODE</a></b>
 
 Determines the fill mode to use when rendering.
 
 
-### -field CullMode
+#### - CullMode
 
 Type: <b><a href="https://msdn.microsoft.com/437c4e2f-f120-44db-b0ce-f4dd4e666814">D3D11_CULL_MODE</a></b>
 
 Indicates that triangles facing the specified direction are not drawn.
 
 
-### -field FrontCounterClockwise
+#### - FrontCounterClockwise
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
 
 Specifies whether a triangle is front- or back-facing. If <b>TRUE</b>, a triangle will be considered front-facing if its vertices are counter-clockwise on the render target and considered back-facing if they are clockwise. If <b>FALSE</b>, the opposite is true.
 
 
-### -field DepthBias
+#### - DepthBias
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">INT</a></b>
 
 Depth value added to a given pixel. For info about depth bias, see <a href="https://msdn.microsoft.com/library/windows/hardware/jj123786">Depth Bias</a>.
 
 
-### -field DepthBiasClamp
+#### - DepthBiasClamp
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">FLOAT</a></b>
 
 Maximum depth bias of a pixel. For info about depth bias, see <a href="https://msdn.microsoft.com/library/windows/hardware/jj123786">Depth Bias</a>.
 
 
-### -field SlopeScaledDepthBias
+#### - SlopeScaledDepthBias
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">FLOAT</a></b>
 
 Scalar on a given pixel's slope. For info about depth bias, see <a href="https://msdn.microsoft.com/library/windows/hardware/jj123786">Depth Bias</a>.
 
 
-### -field DepthClipEnable
+#### - DepthClipEnable
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
 
@@ -118,28 +118,28 @@ When you set <b>DepthClipEnable</b> to <b>FALSE</b>, the hardware skips the z cl
 
 
 
-### -field ScissorEnable
+#### - ScissorEnable
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
 
 Specifies whether to enable scissor-rectangle culling. All pixels outside an active scissor rectangle are culled.
 
 
-### -field MultisampleEnable
+#### - MultisampleEnable
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
 
 Specifies whether to use the quadrilateral or alpha line anti-aliasing algorithm on multisample antialiasing (MSAA) render targets. Set to <b>TRUE</b> to use the quadrilateral line anti-aliasing algorithm and to <b>FALSE</b> to use the alpha line anti-aliasing algorithm. For more info about this member, see Remarks.
 
 
-### -field AntialiasedLineEnable
+#### - AntialiasedLineEnable
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
 
 Specifies whether to enable line antialiasing; only applies if doing line drawing and <b>MultisampleEnable</b> is <b>FALSE</b>. For more info about this member, see Remarks.
 
 
-### -field ForcedSampleCount
+#### - ForcedSampleCount
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 

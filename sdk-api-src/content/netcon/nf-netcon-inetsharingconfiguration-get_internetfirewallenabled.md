@@ -7,7 +7,7 @@ old-location: ics\inetsharingconfiguration_get_internetfirewallenabled.htm
 old-project: ICS
 ms.assetid: 85f6b76f-3c31-4669-a54f-30d12a82935e
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: INetSharingConfiguration, INetSharingConfiguration interface [ICS/ICF], get_InternetFirewallEnabled method, INetSharingConfiguration::get_InternetFirewallEnabled, _ics_inetsharingconfiguration_get_internetfirewallenabled, get_InternetFirewallEnabled method [ICS/ICF], get_InternetFirewallEnabled method [ICS/ICF], INetSharingConfiguration interface, get_InternetFirewallEnabled,INetSharingConfiguration.get_InternetFirewallEnabled, ics.inetsharingconfiguration_get_internetfirewallenabled, netcon/INetSharingConfiguration::get_InternetFirewallEnabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # INetSharingConfiguration::get_InternetFirewallEnabled method

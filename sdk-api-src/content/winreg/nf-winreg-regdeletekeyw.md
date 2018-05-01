@@ -7,7 +7,7 @@ old-location: base\regdeletekey.htm
 old-project: SysInfo
 ms.assetid: a2310ca0-1b9f-48d1-a3b5-ea3a528bfaba
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: RegDeleteKey, RegDeleteKey function, RegDeleteKeyA, RegDeleteKeyW, _win32_regdeletekey, base.regdeletekey, winreg/RegDeleteKey, winreg/RegDeleteKeyA, winreg/RegDeleteKeyW
 ms.prod: windows-hardware
 ms.technology: windows-devices

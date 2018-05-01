@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: WsdXml.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
@@ -38,8 +38,8 @@ api_name:
 -	WSL_DISTRIBUTION_FLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
+req.lib: Ws2_32.lib
+req.dll: Ws2_32.dll
 req.irql: 
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---

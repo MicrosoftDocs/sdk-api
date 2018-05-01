@@ -7,7 +7,7 @@ old-location: cos\csc_inheritanceconfig.htm
 old-project: cossdk
 ms.assetid: 9bc8c4f3-d13e-46b6-9187-904b05f66f66
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: CSC_Ignore, CSC_Inherit, CSC_InheritanceConfig, CSC_InheritanceConfig enumeration [COM+], _cos_csc_inheritanceconfig, comsvcs/CSC_Ignore, comsvcs/CSC_Inherit, comsvcs/CSC_InheritanceConfig, cos.csc_inheritanceconfig, tagCSC_InheritanceConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct3d11\d3d_cbuffer_type.htm
 old-project: direct3d11
 ms.assetid: b21a460b-63cb-49c1-bd6c-a747df495efc
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/6/2018
 ms.keywords: D3D10_CT_CBUFFER, D3D10_CT_TBUFFER, D3D11_CT_CBUFFER, D3D11_CT_INTERFACE_POINTERS, D3D11_CT_RESOURCE_BIND_INFO, D3D11_CT_TBUFFER, D3D_CBUFFER_TYPE, D3D_CBUFFER_TYPE enumeration [Direct3D 11], D3D_CT_CBUFFER, D3D_CT_INTERFACE_POINTERS, D3D_CT_RESOURCE_BIND_INFO, D3D_CT_TBUFFER, _D3D_CBUFFER_TYPE, d3dcommon/D3D10_CT_CBUFFER, d3dcommon/D3D10_CT_TBUFFER, d3dcommon/D3D11_CT_CBUFFER, d3dcommon/D3D11_CT_INTERFACE_POINTERS, d3dcommon/D3D11_CT_RESOURCE_BIND_INFO, d3dcommon/D3D11_CT_TBUFFER, d3dcommon/D3D_CBUFFER_TYPE, d3dcommon/D3D_CT_CBUFFER, d3dcommon/D3D_CT_INTERFACE_POINTERS, d3dcommon/D3D_CT_RESOURCE_BIND_INFO, d3dcommon/D3D_CT_TBUFFER, direct3d11.d3d_cbuffer_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,7 @@ api_name:
 -	D3D_CBUFFER_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
+req.lib: D3d9.lib
 req.dll: 
 req.irql: 
 ---

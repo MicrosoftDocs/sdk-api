@@ -7,7 +7,7 @@ old-location: mf\imffinalizablemediasink_endfinalize.htm
 old-project: medfound
 ms.assetid: 1b2a9b24-69da-41c7-8379-3f3d066d2582
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 1b2a9b24-69da-41c7-8379-3f3d066d2582, EndFinalize method [Media Foundation], EndFinalize method [Media Foundation], IMFFinalizableMediaSink interface, EndFinalize,IMFFinalizableMediaSink.EndFinalize, IMFFinalizableMediaSink, IMFFinalizableMediaSink interface [Media Foundation], EndFinalize method, IMFFinalizableMediaSink::EndFinalize, mf.imffinalizablemediasink_endfinalize, mfidl/IMFFinalizableMediaSink::EndFinalize
 ms.prod: windows-hardware
 ms.technology: windows-devices

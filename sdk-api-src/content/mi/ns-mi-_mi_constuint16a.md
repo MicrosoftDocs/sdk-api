@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_constuint16a.htm
 old-project: wmi_v2
 ms.assetid: 919c5b25-f5ec-4f83-a27e-dbaa1a3ee7ea
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/18/2018
 ms.keywords: MI_ConstUint16A, MI_ConstUint16A structure [Windows Management Infrastructure (MI)], _MI_ConstUint16A, mi/MI_ConstUint16A, wmi._mi_constuint16a, wmi_v2.mi_constuint16a
 ms.prod: windows-hardware
 ms.technology: windows-devices

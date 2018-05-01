@@ -58,6 +58,16 @@ The <b>EVENT_DATA_DESCRIPTOR </b> structure defines one of the data items of the
 
 
 
+### -field Ptr
+
+A pointer to the data.
+
+
+### -field Size
+
+The size, in bytes, of the data.
+
+
 ### -field DUMMYUNIONNAME
 
  
@@ -83,14 +93,6 @@ Reserved.
  
 
 
-### -field Ptr
-
-A pointer to the data.
-
-
-### -field Size
-
-The size, in bytes, of the data.
 
 
 ## -remarks

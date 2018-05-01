@@ -7,7 +7,7 @@ old-location: winrt\ipackagedebugsettings_getpackageexecutionstate.htm
 old-project: WinRT
 ms.assetid: 0D3FD95D-C958-4388-90F4-03DE2F75DF64
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/24/2018
 ms.keywords: GetPackageExecutionState method [Windows Runtime], GetPackageExecutionState method [Windows Runtime], IPackageDebugSettings interface, GetPackageExecutionState,IPackageDebugSettings.GetPackageExecutionState, IPackageDebugSettings, IPackageDebugSettings interface [Windows Runtime], GetPackageExecutionState method, IPackageDebugSettings::GetPackageExecutionState, PES_RUNNING, PES_SUSPENDED, PES_SUSPENDING, PES_TERMINATED, PES_UNKNOWN, shobjidl_core/IPackageDebugSettings::GetPackageExecutionState, winrt.ipackagedebugsettings_getpackageexecutionstate
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_UiaRaiseAsyncContentLoadedEventFunction.htm
 old-project: WinAuto
 ms.assetid: 19047933-40c4-4ddb-aa95-af5cfeec44b6
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: UiaRaiseAsyncContentLoadedEvent, UiaRaiseAsyncContentLoadedEvent function [Windows Accessibility], uiauto.uiauto_UiaRaiseAsyncContentLoadedEventFunction, uiauto_UiaRaiseAsyncContentLoadedEventFunction, uiautomationcoreapi/UiaRaiseAsyncContentLoadedEvent, winauto.uiauto_UiaRaiseAsyncContentLoadedEventFunction
 ms.prod: windows-hardware
 ms.technology: windows-devices

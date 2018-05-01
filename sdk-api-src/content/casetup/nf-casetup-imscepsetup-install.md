@@ -7,7 +7,7 @@ old-location: security\imscepsetup_install.htm
 old-project: SecCrypto
 ms.assetid: 26ed36bd-8d27-42ce-81a5-a980fdebf5af
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: IMSCEPSetup, IMSCEPSetup interface [Security], Install method, IMSCEPSetup::Install, Install method [Security], Install method [Security], IMSCEPSetup interface, Install,IMSCEPSetup.Install, casetup/IMSCEPSetup::Install, security.imscepsetup_install
 ms.prod: windows-hardware
 ms.technology: windows-devices

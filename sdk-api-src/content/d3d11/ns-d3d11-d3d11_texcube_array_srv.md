@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_texcube_array_srv.htm
 old-project: direct3d11
 ms.assetid: e8b496a7-89d9-4168-908a-1731ce045851
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/6/2018
 ms.keywords: 3ac4ac3b-6edc-1416-88f6-1ee1c2ed12a4, D3D11_TEXCUBE_ARRAY_SRV, D3D11_TEXCUBE_ARRAY_SRV structure [Direct3D 11], d3d11/D3D11_TEXCUBE_ARRAY_SRV, direct3d11.d3d11_texcube_array_srv
 ms.prod: windows-hardware
 ms.technology: windows-devices

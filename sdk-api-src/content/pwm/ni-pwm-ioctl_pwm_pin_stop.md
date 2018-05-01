@@ -7,7 +7,7 @@ old-location: base\ioctl_pwm_pin_stop.htm
 old-project: DevIO
 ms.assetid: 33FACC32-5245-41F4-9AC0-55A349DD0AD9
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/3/2018
 ms.keywords: IOCTL_PWM_PIN_STOP, IOCTL_PWM_PIN_STOP control code, base.ioctl_pwm_pin_stop, pwm/IOCTL_PWM_PIN_STOP
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IOCTL_PWM_PIN_STOP IOCTL

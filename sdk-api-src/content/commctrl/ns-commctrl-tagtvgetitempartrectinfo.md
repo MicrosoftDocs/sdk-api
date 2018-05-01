@@ -7,7 +7,7 @@ old-location: controls\TVGETITEMPARTRECTINFO.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\treeview\structures\tvgetitempartrectinfo.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: TVGETITEMPARTRECTINFO, TVGETITEMPARTRECTINFO structure [Windows Controls], _shell_TVGETITEMPARTRECTINFO, _shell_TVGETITEMPARTRECTINFO_cpp, commctrl/TVGETITEMPARTRECTINFO, controls.TVGETITEMPARTRECTINFO, controls._shell_TVGETITEMPARTRECTINFO, tagTVGETITEMPARTRECTINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices

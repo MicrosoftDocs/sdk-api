@@ -7,7 +7,7 @@ old-location: wmp\iwmpquery_addcondition.htm
 old-project: WMP
 ms.assetid: d60474ce-a785-40b1-a4fb-80dc22fddedb
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPQuery, IWMPQuery interface [Windows Media Player], addCondition method, IWMPQuery::addCondition, IWMPQueryaddCondition, addCondition method [Windows Media Player], addCondition method [Windows Media Player], IWMPQuery interface, addCondition,IWMPQuery.addCondition, wmp.iwmpquery_addcondition, wmp/IWMPQuery::addCondition
 ms.prod: windows-hardware
 ms.technology: windows-devices

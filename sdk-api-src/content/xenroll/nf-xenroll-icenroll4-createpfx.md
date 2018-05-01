@@ -7,7 +7,7 @@ old-location: security\icenroll4_createpfx.htm
 old-project: SecCrypto
 ms.assetid: 37b69fc6-db16-4491-b596-4ef76e5414b3
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: CEnroll object [Security], createPFX method, ICEnroll4, ICEnroll4 interface [Security], createPFX method, ICEnroll4::createPFX, _xen_icenroll4_createpfx, createPFX method [Security], createPFX method [Security], CEnroll object, createPFX method [Security], ICEnroll4 interface, createPFX,ICEnroll4.createPFX, security.icenroll4_createpfx, xenroll/ICEnroll4::createPFX
 ms.prod: windows-hardware
 ms.technology: windows-devices

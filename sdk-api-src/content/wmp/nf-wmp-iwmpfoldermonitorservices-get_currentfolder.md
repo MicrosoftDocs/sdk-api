@@ -7,7 +7,7 @@ old-location: wmp\iwmpfoldermonitorservices_get_currentfolder.htm
 old-project: WMP
 ms.assetid: b0bc2f6a-c5ab-4dc5-a574-5b0fde16449a
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPFolderMonitorServices, IWMPFolderMonitorServices interface [Windows Media Player], get_currentFolder method, IWMPFolderMonitorServices::get_currentFolder, IWMPFolderMonitorServicesget_currentFolder, get_currentFolder method [Windows Media Player], get_currentFolder method [Windows Media Player], IWMPFolderMonitorServices interface, get_currentFolder,IWMPFolderMonitorServices.get_currentFolder, wmp.iwmpfoldermonitorservices_get_currentfolder, wmp/IWMPFolderMonitorServices::get_currentFolder
 ms.prod: windows-hardware
 ms.technology: windows-devices

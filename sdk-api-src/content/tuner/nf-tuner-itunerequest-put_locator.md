@@ -7,7 +7,7 @@ old-location: mstv\itunerequest_put_locator.htm
 old-project: mstv
 ms.assetid: 798ff904-5f08-4d3b-8a56-ca1c2df52aaf
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: ITuneRequest, ITuneRequest interface [Microsoft TV Technologies], put_Locator method, ITuneRequest::put_Locator, ITuneRequestput_Locator, mstv.itunerequest_put_locator, put_Locator method [Microsoft TV Technologies], put_Locator method [Microsoft TV Technologies], ITuneRequest interface, put_Locator,ITuneRequest.put_Locator, tuner/ITuneRequest::put_Locator
 ms.prod: windows-hardware
 ms.technology: windows-devices

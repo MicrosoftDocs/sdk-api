@@ -7,7 +7,7 @@ old-location: fwp\ikeext_certificate_authentication2.htm
 old-project: FWP
 ms.assetid: 39332187-6562-4f58-9284-e2aaccf1489b
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: IKEEXT_CERTIFICATE_AUTHENTICATION2, IKEEXT_CERTIFICATE_AUTHENTICATION2 structure [Filtering], IKEEXT_CERTIFICATE_AUTHENTICATION2_, IKEEXT_CERT_AUTH_ALLOW_HTTP_CERT_LOOKUP, IKEEXT_CERT_AUTH_DISABLE_SSL_CERT_VALIDATION, IKEEXT_CERT_AUTH_ENABLE_CRL_CHECK_STRONG, IKEEXT_CERT_AUTH_FLAG_DISABLE_CRL_CHECK, IKEEXT_CERT_AUTH_FLAG_SSL_ONE_WAY, IKEEXT_CERT_AUTH_URL_CONTAINS_BUNDLE, fwp.ikeext_certificate_authentication2, iketypes/IKEEXT_CERTIFICATE_AUTHENTICATION2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -56,6 +56,13 @@ The <b>IKEEXT_CERTIFICATE_AUTHENTICATION2</b> structure is used to specify vario
 ## -struct-fields
 
 
+
+
+### -field inboundConfigType
+
+Type: <b><a href="https://msdn.microsoft.com/b137e27b-c361-4fd2-9b3b-5c2b364576d4">IKEEXT_CERT_CONFIG_TYPE</a></b>
+
+Certificate configuration type for inbound peer certificate verification.
 
 
 ### -field inboundRootArraySize
@@ -112,6 +119,13 @@ List of trusted root store criteria that should be used to verify the peer certi
 Available when <b>inboundConfigType</b> is <b>IKEEXT_CERT_CONFIG_TRUSTED_ROOT_STORE</b>.
 
 
+### -field outboundConfigType
+
+Type: <b><a href="https://msdn.microsoft.com/b137e27b-c361-4fd2-9b3b-5c2b364576d4">IKEEXT_CERT_CONFIG_TYPE</a></b>
+
+Certificate configuration type for outbound local certificate verification.
+
+
 ### -field outboundRootArraySize
 
 Type: <b>UINT32</b>
@@ -164,20 +178,6 @@ Type: <b><a href="https://msdn.microsoft.com/dbcb0e25-fdde-44d9-bfad-b3605f56377
 List of trusted root store criteria that should be used to select the certificate chain that will be sent to the peer.
 
 Available when <b>outboundConfigType</b> is <b>IKEEXT_CERT_CONFIG_TRUSTED_ROOT_STORE</b>.
-
-
-### -field inboundConfigType
-
-Type: <b><a href="https://msdn.microsoft.com/b137e27b-c361-4fd2-9b3b-5c2b364576d4">IKEEXT_CERT_CONFIG_TYPE</a></b>
-
-Certificate configuration type for inbound peer certificate verification.
-
-
-### -field outboundConfigType
-
-Type: <b><a href="https://msdn.microsoft.com/b137e27b-c361-4fd2-9b3b-5c2b364576d4">IKEEXT_CERT_CONFIG_TYPE</a></b>
-
-Certificate configuration type for outbound local certificate verification.
 
 
 ### -field flags

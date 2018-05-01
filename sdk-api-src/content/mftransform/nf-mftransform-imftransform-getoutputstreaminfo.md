@@ -7,7 +7,7 @@ old-location: mf\imftransform_getoutputstreaminfo.htm
 old-project: medfound
 ms.assetid: 06cc7f1d-57a3-43b8-ab83-8d2ee8e655b5
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 06cc7f1d-57a3-43b8-ab83-8d2ee8e655b5, GetOutputStreamInfo method [Media Foundation], GetOutputStreamInfo method [Media Foundation], IMFTransform interface, GetOutputStreamInfo,IMFTransform.GetOutputStreamInfo, IMFTransform, IMFTransform interface [Media Foundation], GetOutputStreamInfo method, IMFTransform::GetOutputStreamInfo, mf.imftransform_getoutputstreaminfo, mftransform/IMFTransform::GetOutputStreamInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\IFolderViewHost.htm
 old-project: shell
 ms.assetid: 1e3d4a9a-6336-4667-92dd-9dc9678606e9
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IFolderViewHost, IFolderViewHost interface [Windows Shell], IFolderViewHost interface [Windows Shell], described, _shell_IFolderViewHost, shell.IFolderViewHost, shobjidl/IFolderViewHost
 ms.prod: windows-hardware
 ms.technology: windows-devices

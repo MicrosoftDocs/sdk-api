@@ -7,7 +7,7 @@ old-location: security\iazroleassignment_deleteroledefinition.htm
 old-project: SecAuthZ
 ms.assetid: 17af80d0-d9b4-4e20-b7a8-72e8dc42b69d
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: DeleteRoleDefinition method [Security], DeleteRoleDefinition method [Security], IAzRoleAssignment interface, DeleteRoleDefinition,IAzRoleAssignment.DeleteRoleDefinition, IAzRoleAssignment, IAzRoleAssignment interface [Security], DeleteRoleDefinition method, IAzRoleAssignment::DeleteRoleDefinition, azroles/IAzRoleAssignment::DeleteRoleDefinition, security.iazroleassignment_deleteroledefinition
 ms.prod: windows-hardware
 ms.technology: windows-devices

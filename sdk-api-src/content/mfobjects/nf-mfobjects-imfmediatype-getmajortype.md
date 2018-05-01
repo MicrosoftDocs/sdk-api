@@ -7,7 +7,7 @@ old-location: mf\imfmediatype_getmajortype.htm
 old-project: medfound
 ms.assetid: 98f0a9ca-4766-4d2b-89b8-d6e30b75f47d
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 98f0a9ca-4766-4d2b-89b8-d6e30b75f47d, GetMajorType method [Media Foundation], GetMajorType method [Media Foundation], IMFMediaType interface, GetMajorType,IMFMediaType.GetMajorType, IMFMediaType, IMFMediaType interface [Media Foundation], GetMajorType method, IMFMediaType::GetMajorType, mf.imfmediatype_getmajortype, mfobjects/IMFMediaType::GetMajorType
 ms.prod: windows-hardware
 ms.technology: windows-devices

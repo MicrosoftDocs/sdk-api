@@ -7,7 +7,7 @@ old-location: wmp\iwmpplugin_shutdown.htm
 old-project: WMP
 ms.assetid: 80a8fe19-3660-49cb-8bbb-0267b3f11b63
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPPlugin, IWMPPlugin interface [Windows Media Player], Shutdown method, IWMPPlugin::Shutdown, IWMPPluginShutdownDSP, Shutdown method [Windows Media Player], Shutdown method [Windows Media Player], IWMPPlugin interface, Shutdown,IWMPPlugin.Shutdown, wmp.iwmpplugin_shutdown, wmpservices/IWMPPlugin::Shutdown
 ms.prod: windows-hardware
 ms.technology: windows-devices

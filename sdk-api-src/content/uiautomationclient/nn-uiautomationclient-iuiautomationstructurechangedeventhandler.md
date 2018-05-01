@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationStructureChangedEventHandler.htm
 old-project: WinAuto
 ms.assetid: a28ad163-d931-432a-a786-646a10baaf86
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: IUIAutomationStructureChangedEventHandler, IUIAutomationStructureChangedEventHandler interface [Windows Accessibility], IUIAutomationStructureChangedEventHandler interface [Windows Accessibility], described, uiauto.uiauto_IUIAutomationStructureChangedEventHandler, uiauto_IUIAutomationStructureChangedEventHandler, uiautomationclient/IUIAutomationStructureChangedEventHandler, winauto.uiauto_IUIAutomationStructureChangedEventHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices

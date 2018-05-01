@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effectscalarvariable_setfloatarray.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectscalarvariable_setfloatarray.htm
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: 028a02f1-2ddd-f6aa-b520-88cbdd70c9d3, ID3D10EffectScalarVariable, ID3D10EffectScalarVariable interface [Direct3D 10], SetFloatArray method, ID3D10EffectScalarVariable::SetFloatArray, SetFloatArray method [Direct3D 10], SetFloatArray method [Direct3D 10], ID3D10EffectScalarVariable interface, SetFloatArray,ID3D10EffectScalarVariable.SetFloatArray, d3d10effect/ID3D10EffectScalarVariable::SetFloatArray, direct3d10.id3d10effectscalarvariable_setfloatarray
 ms.prod: windows-hardware
 ms.technology: windows-devices

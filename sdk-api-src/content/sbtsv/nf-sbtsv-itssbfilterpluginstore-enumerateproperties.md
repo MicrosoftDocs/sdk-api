@@ -7,7 +7,7 @@ old-location: termserv\itssbfilterpluginstore_enumerateproperties.htm
 old-project: TermServ
 ms.assetid: 0eb489d2-2644-4d34-83a7-132d28a7b871
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: EnumerateProperties method [Remote Desktop Services], EnumerateProperties method [Remote Desktop Services], ITsSbFilterPluginStore interface, EnumerateProperties,ITsSbFilterPluginStore.EnumerateProperties, ITsSbFilterPluginStore, ITsSbFilterPluginStore interface [Remote Desktop Services], EnumerateProperties method, ITsSbFilterPluginStore::EnumerateProperties, sbtsv/ITsSbFilterPluginStore::EnumerateProperties, termserv.itssbfilterpluginstore_enumerateproperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITsSbFilterPluginStore::EnumerateProperties method

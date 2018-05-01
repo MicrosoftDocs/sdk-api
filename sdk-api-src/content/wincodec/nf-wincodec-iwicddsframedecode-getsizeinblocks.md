@@ -7,7 +7,7 @@ old-location: wic\iwicddsframedecode_getsizeinblocks.htm
 old-project: wic
 ms.assetid: 34F3A19C-4B68-4E6A-AE08-71DE9A0687BF
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: GetSizeInBlocks method [Windows Imaging Component], GetSizeInBlocks method [Windows Imaging Component], IWICDdsFrameDecode interface, GetSizeInBlocks,IWICDdsFrameDecode.GetSizeInBlocks, IWICDdsFrameDecode, IWICDdsFrameDecode interface [Windows Imaging Component], GetSizeInBlocks method, IWICDdsFrameDecode::GetSizeInBlocks, wic.iwicddsframedecode_getsizeinblocks, wincodec/IWICDdsFrameDecode::GetSizeInBlocks
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12resource_writetosubresource.htm
 old-project: direct3d12
 ms.assetid: 8781E2FE-8D82-41F5-B541-A96DA11CA290
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: ID3D12Resource, ID3D12Resource interface, WriteToSubresource method, ID3D12Resource::WriteToSubresource, WriteToSubresource method, WriteToSubresource method, ID3D12Resource interface, WriteToSubresource,ID3D12Resource.WriteToSubresource, d3d12/ID3D12Resource::WriteToSubresource, direct3d12.id3d12resource_writetosubresource
 ms.prod: windows-hardware
 ms.technology: windows-devices

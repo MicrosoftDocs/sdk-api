@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12resource_getheapproperties.htm
 old-project: direct3d12
 ms.assetid: 7F76986D-02F1-4E5A-B9A4-CFB021B72026
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: GetHeapProperties method, GetHeapProperties method, ID3D12Resource interface, GetHeapProperties,ID3D12Resource.GetHeapProperties, ID3D12Resource, ID3D12Resource interface, GetHeapProperties method, ID3D12Resource::GetHeapProperties, d3d12/ID3D12Resource::GetHeapProperties, direct3d12.id3d12resource_getheapproperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: controls\ITextDocument_SetSaved.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setsaved.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextDocument, ITextDocument interface [Windows Controls], SetSaved method, ITextDocument::SetSaved, SetSaved method [Windows Controls], SetSaved method [Windows Controls], ITextDocument interface, SetSaved,ITextDocument.SetSaved, _win32_ITextDocument_SetSaved, _win32_ITextDocument_SetSaved_cpp, controls.ITextDocument_SetSaved, controls._win32_ITextDocument_SetSaved, tom/ITextDocument::SetSaved, tomFalse, tomTrue
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -58,6 +58,12 @@ Contains raw SCSI virtual disk request parameters.
 
 
 
+### -field Version
+
+A <a href="https://msdn.microsoft.com/EE0567C8-D479-436B-B1AC-7D1C4AC3B403">RAW_SCSI_VIRTUAL_DISK_VERSION</a> enumeration that specifies the version of the <b>RAW_SCSI_VIRTUAL_DISK_PARAMETERS</b> structure being passed to or from the VHD functions. 
+
+
+
 ### -field Version1
 
 A structure with the following members.
@@ -110,10 +116,4 @@ A pointer to a buffer to receive SCSI sense info after completion of the command
 ### -field Version1.Cdb
 
 Caller-supplied CDB data. (The CDB structure is declared in scsi.h.)
-
-
-### -field Version
-
-A <a href="https://msdn.microsoft.com/EE0567C8-D479-436B-B1AC-7D1C4AC3B403">RAW_SCSI_VIRTUAL_DISK_VERSION</a> enumeration that specifies the version of the <b>RAW_SCSI_VIRTUAL_DISK_PARAMETERS</b> structure being passed to or from the VHD functions. 
-
 

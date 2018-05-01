@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxdocument2_connectedsubmit2_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxdocument2\connectedsubmit2.htm
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/18/2018
 ms.keywords: ConnectedSubmit2 method [Fax Service], ConnectedSubmit2 method [Fax Service], FaxDocument object, ConnectedSubmit2,IFaxDocument2.ConnectedSubmit2, FaxDocument object [Fax Service], ConnectedSubmit2 method, IFaxDocument2, IFaxDocument2::ConnectedSubmit2, _mfax_faxdocument2.connectedsubmit2, fax._mfax_faxdocument2_connectedsubmit2, fax._mfax_faxdocument2_connectedsubmit2_vb
 ms.prod: windows-hardware
 ms.technology: windows-devices

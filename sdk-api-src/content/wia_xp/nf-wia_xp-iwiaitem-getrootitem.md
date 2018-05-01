@@ -1,0 +1,88 @@
+---
+UID: NF:wia_xp.IWiaItem.GetRootItem
+title: IWiaItem::GetRootItem method
+author: windows-driver-content
+description: The IWiaItem::GetRootItem method retrieves the root item of a tree of item objects used to represent a Windows Image Acquisition (WIA) hardware device.
+old-location: wia\_wia_IWiaItem_GetRootItem.htm
+old-project: wia
+ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitem\getrootitem.htm
+ms.author: windowsdriverdev
+ms.date: 3/14/2018
+ms.keywords: GetRootItem method [WIA], GetRootItem method [WIA], IWiaItem interface, GetRootItem,IWiaItem.GetRootItem, IWiaItem, IWiaItem interface [WIA], GetRootItem method, IWiaItem::GetRootItem, _wia_IWiaItem_GetRootItem, wia._wia_IWiaItem_GetRootItem, wia_xp/IWiaItem::GetRootItem
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: wia_xp.h
+req.include-header: Wia.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: WIAVIDEO_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wiaservc.dll
+api_name:
+-	IWiaItem.GetRootItem
+product: Windows
+targetos: Windows
+req.lib: Wiaguid.lib
+req.dll: Wiaservc.dll
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# IWiaItem::GetRootItem method
+
+
+## -description
+
+
+The <b>IWiaItem::GetRootItem</b> method retrieves the root item of a tree of item objects used to represent a Windows Image Acquisition (WIA) hardware device.
+
+
+## -parameters
+
+
+
+
+### -param ppIWiaItem [out]
+
+Type: <b><a href="https://msdn.microsoft.com/b9aaf7ae-7222-44d1-8cf1-89234b263135">IWiaItem</a>**</b>
+
+Receives the address of a pointer to the <a href="https://msdn.microsoft.com/b9aaf7ae-7222-44d1-8cf1-89234b263135">IWiaItem</a> interface that contains a pointer to the <b>IWiaItem</b> interface of the root item.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+Given any <a href="https://msdn.microsoft.com/b9aaf7ae-7222-44d1-8cf1-89234b263135">IWiaItem</a> object in the object tree of a WIA hardware device, the application retrieves a pointer to the root item by calling this function. 
+
+Applications must call the <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">IUnknown::Release</a> method on the interface pointers they receive through the <i>ppIWiaItem</i> parameter.
+
+
+

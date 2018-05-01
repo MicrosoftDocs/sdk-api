@@ -7,7 +7,7 @@ old-location: gdi\playmetafilerecord.htm
 old-project: gdi
 ms.assetid: bea22981-dc77-4de2-b6dc-d6a4f4b74bbd
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/17/2018
 ms.keywords: PlayMetaFileRecord, PlayMetaFileRecord function [Windows GDI], _win32_PlayMetaFileRecord, gdi.playmetafilerecord, wingdi/PlayMetaFileRecord
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: FAX_TIME, *PFAX_TIME
+req.typenames: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
 topic_type:
 -	APIRef
 -	kbSyntax

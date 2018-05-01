@@ -7,7 +7,7 @@ old-location: winprog\iwscproductlist.htm
 old-project: DevNotes
 ms.assetid: 81BC78F1-6F95-49D3-8EDD-EB7E13119A86
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/13/2018
 ms.keywords: IWSCProductList, IWSCProductList interface [Windows API], IWSCProductList interface [Windows API], described, iwscapi/IWSCProductList, winprog.iwscproductlist
 ms.prod: windows-hardware
 ms.technology: windows-devices

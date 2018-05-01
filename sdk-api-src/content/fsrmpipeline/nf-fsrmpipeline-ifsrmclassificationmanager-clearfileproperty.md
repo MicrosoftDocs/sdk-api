@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmclassificationmanager_clearfileproperty.htm
 old-project: Fsrm
 ms.assetid: bac42416-0757-462f-8869-339655f48587
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: ClearFileProperty method [File Server Resource Manager], ClearFileProperty method [File Server Resource Manager], FsrmClassificationManager class, ClearFileProperty method [File Server Resource Manager], IFsrmClassificationManager interface, ClearFileProperty method [File Server Resource Manager], IFsrmClassificationManager2 interface, ClearFileProperty,IFsrmClassificationManager.ClearFileProperty, FsrmClassificationManager class [File Server Resource Manager], ClearFileProperty method, IFsrmClassificationManager, IFsrmClassificationManager interface [File Server Resource Manager], ClearFileProperty method, IFsrmClassificationManager2 interface [File Server Resource Manager], ClearFileProperty method, IFsrmClassificationManager2::ClearFileProperty, IFsrmClassificationManager::ClearFileProperty, fs.ifsrmclassificationmanager_clearfileproperty, fsrm.ifsrmclassificationmanager_clearfileproperty, fsrmpipeline/IFsrmClassificationManager2::ClearFileProperty, fsrmpipeline/IFsrmClassificationManager::ClearFileProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

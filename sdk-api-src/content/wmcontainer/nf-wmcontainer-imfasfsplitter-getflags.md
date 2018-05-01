@@ -7,7 +7,7 @@ old-location: mf\imfasfsplitter_getflags.htm
 old-project: medfound
 ms.assetid: ba008e4a-98ad-4633-8b80-1d2ffce04b9c
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetFlags method [Media Foundation], GetFlags method [Media Foundation], IMFASFSplitter interface, GetFlags,IMFASFSplitter.GetFlags, IMFASFSplitter, IMFASFSplitter interface [Media Foundation], GetFlags method, IMFASFSplitter::GetFlags, ba008e4a-98ad-4633-8b80-1d2ffce04b9c, mf.imfasfsplitter_getflags, wmcontainer/IMFASFSplitter::GetFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices

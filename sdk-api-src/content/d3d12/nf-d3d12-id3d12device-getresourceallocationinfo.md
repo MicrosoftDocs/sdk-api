@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device_getresourceallocationinfo.htm
 old-project: direct3d12
 ms.assetid: 43467E09-835B-4DB9-B0A4-F75868DE4609
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: GetResourceAllocationInfo method, GetResourceAllocationInfo method, ID3D12Device interface, GetResourceAllocationInfo,ID3D12Device.GetResourceAllocationInfo, ID3D12Device, ID3D12Device interface, GetResourceAllocationInfo method, ID3D12Device::GetResourceAllocationInfo, d3d12/ID3D12Device::GetResourceAllocationInfo, direct3d12.id3d12device_getresourceallocationinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

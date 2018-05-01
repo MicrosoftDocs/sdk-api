@@ -7,7 +7,7 @@ old-location: base\avsetmmthreadpriority.htm
 old-project: ProcThread
 ms.assetid: 74259dbc-a9e9-409e-96e6-66a9dc590099
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: AVRT_PRIORITY_CRITICAL, AVRT_PRIORITY_HIGH, AVRT_PRIORITY_LOW, AVRT_PRIORITY_NORMAL, AvSetMmThreadPriority, AvSetMmThreadPriority function, avrt/AvSetMmThreadPriority, base.avsetmmthreadpriority
 ms.prod: windows-hardware
 ms.technology: windows-devices

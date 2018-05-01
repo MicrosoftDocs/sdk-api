@@ -7,7 +7,7 @@ old-location: wmdm\imdspdevice2.htm
 old-project: WMDM
 ms.assetid: a53052a1-89f4-4571-9eee-031e0049a92e
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: IMDSPDevice2, IMDSPDevice2 interface [windows Media Device Manager], IMDSPDevice2 interface [windows Media Device Manager], described, IMDSPDevice2Interface, mswmdm/IMDSPDevice2, wmdm.imdspdevice2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMDSPDevice2 interface

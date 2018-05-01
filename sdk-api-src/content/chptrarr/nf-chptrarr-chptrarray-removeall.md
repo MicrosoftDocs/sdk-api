@@ -7,7 +7,7 @@ old-location: wmi\chptrarray_removeall.htm
 old-project: WmiSdk
 ms.assetid: 51de0ff1-e8e9-4484-80d6-51179ef82a51
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: "?RemoveAll@CHPtrArray@@QAEXXZ, CHPtrArray, CHPtrArray interface [Windows Management Instrumentation], RemoveAll method, CHPtrArray::RemoveAll, RemoveAll method [Windows Management Instrumentation], RemoveAll method [Windows Management Instrumentation], CHPtrArray interface, RemoveAll,CHPtrArray.RemoveAll, chptrarr/CHPtrArray::RemoveAll, wmi.chptrarray_removeall"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CF_SYNC_ROOT_STANDARD_INFO
+req.typenames: CF_SYNC_STATUS
 topic_type:
 -	APIRef
 -	kbSyntax

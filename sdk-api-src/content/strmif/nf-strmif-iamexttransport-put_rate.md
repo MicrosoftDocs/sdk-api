@@ -7,7 +7,7 @@ old-location: dshow\iamexttransport_put_rate.htm
 old-project: DirectShow
 ms.assetid: 165966f1-f826-4ce2-b520-4a420898eee4
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMExtTransport, IAMExtTransport interface [DirectShow], put_Rate method, IAMExtTransport::put_Rate, IAMExtTransportput_Rate, dshow.iamexttransport_put_rate, put_Rate method [DirectShow], put_Rate method [DirectShow], IAMExtTransport interface, put_Rate,IAMExtTransport.put_Rate, strmif/IAMExtTransport::put_Rate
 ms.prod: windows-hardware
 ms.technology: windows-devices

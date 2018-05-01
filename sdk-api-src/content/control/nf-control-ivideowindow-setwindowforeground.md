@@ -7,7 +7,7 @@ old-location: dshow\ivideowindow_setwindowforeground.htm
 old-project: DirectShow
 ms.assetid: ff4f3707-1f2e-499b-8108-81616fe4ae9b
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IVideoWindow, IVideoWindow interface [DirectShow], SetWindowForeground method, IVideoWindow::SetWindowForeground, IVideoWindowSetWindowForeground, SetWindowForeground method [DirectShow], SetWindowForeground method [DirectShow], IVideoWindow interface, SetWindowForeground,IVideoWindow.SetWindowForeground, control/IVideoWindow::SetWindowForeground, dshow.ivideowindow_setwindowforeground
 ms.prod: windows-hardware
 ms.technology: windows-devices

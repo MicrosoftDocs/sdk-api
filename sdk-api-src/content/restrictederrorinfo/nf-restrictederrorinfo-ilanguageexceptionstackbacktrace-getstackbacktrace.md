@@ -7,7 +7,7 @@ old-location: winrt\ilanguageexceptionstackbacktrace_getstackbacktrace.htm
 old-project: WinRT
 ms.assetid: 6EB89F76-C518-41A3-A1F8-EC480B0FC68B
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/24/2018
 ms.keywords: GetStackBackTrace method [Windows Runtime], GetStackBackTrace method [Windows Runtime], ILanguageExceptionStackBackTrace interface, GetStackBackTrace,ILanguageExceptionStackBackTrace.GetStackBackTrace, ILanguageExceptionStackBackTrace, ILanguageExceptionStackBackTrace interface [Windows Runtime], GetStackBackTrace method, ILanguageExceptionStackBackTrace::GetStackBackTrace, restrictederrorinfo/ILanguageExceptionStackBackTrace::GetStackBackTrace, winrt.ilanguageexceptionstackbacktrace_getstackbacktrace
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ILanguageExceptionStackBackTrace::GetStackBackTrace method

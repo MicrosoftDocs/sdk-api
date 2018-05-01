@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext_updatesubresource.htm
 old-project: direct3d11
 ms.assetid: 2d8ef5a2-204a-434d-918a-104419050233
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/6/2018
 ms.keywords: ID3D11DeviceContext, ID3D11DeviceContext interface [Direct3D 11], UpdateSubresource method, ID3D11DeviceContext::UpdateSubresource, UpdateSubresource method [Direct3D 11], UpdateSubresource method [Direct3D 11], ID3D11DeviceContext interface, UpdateSubresource,ID3D11DeviceContext.UpdateSubresource, d3d11/ID3D11DeviceContext::UpdateSubresource, direct3d11.id3d11devicecontext_updatesubresource, f9813ce8-3ca5-fd5e-fac2-bd93631ecbc8
 ms.prod: windows-hardware
 ms.technology: windows-devices

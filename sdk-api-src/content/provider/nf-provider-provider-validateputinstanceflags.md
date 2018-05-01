@@ -7,7 +7,7 @@ old-location: wmi\provider_validateputinstanceflags.htm
 old-project: WmiSdk
 ms.assetid: dd7a480e-9569-45ed-a46d-218c1a9cf2db
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: "?ValidatePutInstanceFlags@Provider@@MAEJJ@Z, ?ValidatePutInstanceFlags@Provider@@MEAAJJ@Z, Provider, Provider interface [Windows Management Instrumentation], ValidatePutInstanceFlags method, Provider::ValidatePutInstanceFlags, ValidatePutInstanceFlags method [Windows Management Instrumentation], ValidatePutInstanceFlags method [Windows Management Instrumentation], Provider interface, ValidatePutInstanceFlags,Provider.ValidatePutInstanceFlags, _hmm_provider_validateputinstanceflags, provider/Provider::ValidatePutInstanceFlags, wmi.provider_validateputinstanceflags"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # Provider::ValidatePutInstanceFlags method

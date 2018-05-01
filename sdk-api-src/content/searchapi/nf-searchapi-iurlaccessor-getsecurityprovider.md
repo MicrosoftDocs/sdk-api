@@ -7,7 +7,7 @@ old-location: search\_search_IUrlAccessor_GetSecurityProvider.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor\getsecurityprovider.htm
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/24/2018
 ms.keywords: GetSecurityProvider method [search], GetSecurityProvider method [search], IUrlAccessor interface, GetSecurityProvider,IUrlAccessor.GetSecurityProvider, IUrlAccessor, IUrlAccessor interface [search], GetSecurityProvider method, IUrlAccessor::GetSecurityProvider, _search_IUrlAccessor_GetSecurityProvider, search._search_IUrlAccessor_GetSecurityProvider, searchapi/IUrlAccessor::GetSecurityProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IUrlAccessor::GetSecurityProvider method

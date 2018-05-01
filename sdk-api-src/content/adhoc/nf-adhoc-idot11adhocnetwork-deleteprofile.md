@@ -7,7 +7,7 @@ old-location: nwifi\idot11adhocnetwork_deleteprofile.htm
 old-project: NativeWiFi
 ms.assetid: 7f2c007c-4d24-44d7-be30-0fa7c5fbce4a
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/13/2018
 ms.keywords: DeleteProfile method [NativeWIFI], DeleteProfile method [NativeWIFI], IDot11AdHocNetwork interface, DeleteProfile,IDot11AdHocNetwork.DeleteProfile, IDot11AdHocNetwork, IDot11AdHocNetwork interface [NativeWIFI], DeleteProfile method, IDot11AdHocNetwork::DeleteProfile, adhoc/IDot11AdHocNetwork::DeleteProfile, nwifi.idot11adhocnetwork_deleteprofile
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tapi3\itdirectoryobjectconference_put_description.htm
 old-project: Tapi
 ms.assetid: 46f58067-22ec-490e-b6cc-0fdc12dbb8f7
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: ITDirectoryObjectConference, ITDirectoryObjectConference interface [TAPI 2.2], put_Description method, ITDirectoryObjectConference::put_Description, _tapi3_itdirectoryobjectconference_put_description, put_Description method [TAPI 2.2], put_Description method [TAPI 2.2], ITDirectoryObjectConference interface, put_Description,ITDirectoryObjectConference.put_Description, rend/ITDirectoryObjectConference::put_Description, tapi3.itdirectoryobjectconference_put_description
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Rend.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITDirectoryObjectConference::put_Description method

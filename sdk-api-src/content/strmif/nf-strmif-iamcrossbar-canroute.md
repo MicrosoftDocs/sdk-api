@@ -7,7 +7,7 @@ old-location: dshow\iamcrossbar_canroute.htm
 old-project: DirectShow
 ms.assetid: 13be4b35-14d9-4565-8939-e6e755f256ab
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: CanRoute method [DirectShow], CanRoute method [DirectShow], IAMCrossbar interface, CanRoute,IAMCrossbar.CanRoute, IAMCrossbar, IAMCrossbar interface [DirectShow], CanRoute method, IAMCrossbar::CanRoute, IAMCrossbarCanRoute, dshow.iamcrossbar_canroute, strmif/IAMCrossbar::CanRoute
 ms.prod: windows-hardware
 ms.technology: windows-devices

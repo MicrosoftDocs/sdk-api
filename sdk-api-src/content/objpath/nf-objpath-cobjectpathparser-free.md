@@ -7,7 +7,7 @@ old-location: wmi\cobjectpathparser_free_lpwstr_.htm
 old-project: WmiSdk
 ms.assetid: 3a18a29a-269a-490c-8ede-6ec6b77f99f7
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: CObjectPathParser, CObjectPathParser interface [Windows Management Instrumentation], Free method, CObjectPathParser::Free, Free method [Windows Management Instrumentation], Free method [Windows Management Instrumentation], CObjectPathParser interface, Free,CObjectPathParser.Free, objpath/CObjectPathParser::Free, wmi.cobjectpathparser_free_lpwstr_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # CObjectPathParser::Free method

@@ -7,7 +7,7 @@ old-location: com\igetoleobject_getoleobject.htm
 old-project: com
 ms.assetid: eafb9dbc-ab46-4b83-8be9-6c8cd1de8ab3
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: GetOleObject method [COM], GetOleObject method [COM], IGetOleObject interface, GetOleObject,IGetOleObject.GetOleObject, IGetOleObject, IGetOleObject interface [COM], GetOleObject method, IGetOleObject::GetOleObject, _com_IGetOleObject_GetOleObject, com.igetoleobject_getoleobject, vbinterf/IGetOleObject::GetOleObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

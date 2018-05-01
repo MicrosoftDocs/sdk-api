@@ -7,7 +7,7 @@ old-location: mf\imfinputtrustauthority_getpolicy.htm
 old-project: medfound
 ms.assetid: 4d840b56-47e0-4c2f-b2e7-a17586dad8d1
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 4d840b56-47e0-4c2f-b2e7-a17586dad8d1, GetPolicy method [Media Foundation], GetPolicy method [Media Foundation], IMFInputTrustAuthority interface, GetPolicy,IMFInputTrustAuthority.GetPolicy, IMFInputTrustAuthority, IMFInputTrustAuthority interface [Media Foundation], GetPolicy method, IMFInputTrustAuthority::GetPolicy, mf.imfinputtrustauthority_getpolicy, mfidl/IMFInputTrustAuthority::GetPolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices

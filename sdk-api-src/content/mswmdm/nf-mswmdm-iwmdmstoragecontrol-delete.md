@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmstoragecontrol_delete.htm
 old-project: WMDM
 ms.assetid: f2b044d2-6386-4c2e-a437-5ebddf827fb4
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: Delete method [windows Media Device Manager], Delete method [windows Media Device Manager], IWMDMStorageControl interface, Delete,IWMDMStorageControl.Delete, IWMDMStorageControl, IWMDMStorageControl interface [windows Media Device Manager], Delete method, IWMDMStorageControl::Delete, IWMDMStorageControlDelete, mswmdm/IWMDMStorageControl::Delete, wmdm.iwmdmstoragecontrol_delete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IWMDMStorageControl::Delete method

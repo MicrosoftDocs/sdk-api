@@ -7,7 +7,7 @@ old-location: wmi\chstring_getat.htm
 old-project: WmiSdk
 ms.assetid: ed038b41-211c-4483-99cd-0bc43b241761
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: CHString, CHString interface [Windows Management Instrumentation], GetAt method, CHString::GetAt, GetAt method [Windows Management Instrumentation], GetAt method [Windows Management Instrumentation], CHString interface, GetAt,CHString.GetAt, _hmm_chstring_getat, chstring/CHString::GetAt, wmi.chstring_getat
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CF_SYNC_ROOT_STANDARD_INFO
+req.typenames: CF_SYNC_STATUS
 topic_type:
 -	APIRef
 -	kbSyntax

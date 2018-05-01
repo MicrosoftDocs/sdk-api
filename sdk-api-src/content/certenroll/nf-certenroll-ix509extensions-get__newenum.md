@@ -7,7 +7,7 @@ old-location: security\ix509extensions__newenum_property.htm
 old-project: SecCertEnroll
 ms.assetid: 73dbb02d-9d9e-4090-a879-8719cdd1dbdb
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: IX509Extensions, IX509Extensions interface [Security], _NewEnum property, IX509Extensions._NewEnum, IX509Extensions::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security], IX509Extensions interface, certenroll/IX509Extensions::_NewEnum, certenroll/IX509Extensions::get__NewEnum, get__NewEnum,IX509Extensions.get__NewEnum, security.ix509extensions__newenum_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

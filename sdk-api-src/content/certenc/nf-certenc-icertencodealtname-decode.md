@@ -7,7 +7,7 @@ old-location: security\icertencodealtname_decode.htm
 old-project: SecCrypto
 ms.assetid: 0507d3a5-b8c3-4f2e-996f-e1e32957f475
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: CCertEncodeAltName object [Security], Decode method, Decode method [Security], Decode method [Security], CCertEncodeAltName object, Decode method [Security], ICertEncodeAltName interface, Decode,ICertEncodeAltName.Decode, ICertEncodeAltName, ICertEncodeAltName interface [Security], Decode method, ICertEncodeAltName::Decode, _certsrv_icertencodealtname_decode, certenc/ICertEncodeAltName::Decode, security.icertencodealtname_decode
 ms.prod: windows-hardware
 ms.technology: windows-devices

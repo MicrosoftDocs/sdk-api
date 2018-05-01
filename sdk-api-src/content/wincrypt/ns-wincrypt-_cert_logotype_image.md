@@ -7,7 +7,7 @@ old-location: security\cert_logotype_image.htm
 old-project: SecCrypto
 ms.assetid: d1dff71c-41e1-4f02-93b4-019d688ed012
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: "*PCERT_LOGOTYPE_IMAGE, CERT_LOGOTYPE_IMAGE, CERT_LOGOTYPE_IMAGE structure [Security], PCERT_LOGOTYPE_IMAGE, PCERT_LOGOTYPE_IMAGE structure pointer [Security], _CERT_LOGOTYPE_IMAGE, security.cert_logotype_image, wincrypt/CERT_LOGOTYPE_IMAGE, wincrypt/PCERT_LOGOTYPE_IMAGE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

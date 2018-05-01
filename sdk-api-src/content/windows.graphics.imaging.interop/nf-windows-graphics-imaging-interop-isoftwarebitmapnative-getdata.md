@@ -7,7 +7,7 @@ old-location: winrt\isoftwarebitmapnative_getdata.htm
 old-project: WinRT
 ms.assetid: 4BB9674A-A95A-4183-A1E1-428AB140D6EB
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/24/2018
 ms.keywords: GetData method [Windows Runtime], GetData method [Windows Runtime], ISoftwareBitmapNative interface, GetData,ISoftwareBitmapNative.GetData, ISoftwareBitmapNative, ISoftwareBitmapNative interface [Windows Runtime], GetData method, ISoftwareBitmapNative::GetData, windows/ISoftwareBitmapNative::GetData, winrt.isoftwarebitmapnative_getdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: PDF_RENDER_PARAMS
+req.typenames: TimeSpan
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,7 +7,7 @@ old-location: wmformat\iwmwritersink_allocatedataunit.htm
 old-project: wmformat
 ms.assetid: 56a16163-84e7-4235-8bf3-03e81696bb63
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: AllocateDataUnit method [windows Media Format], AllocateDataUnit method [windows Media Format], IWMWriterSink interface, AllocateDataUnit,IWMWriterSink.AllocateDataUnit, IWMWriterSink, IWMWriterSink interface [windows Media Format], AllocateDataUnit method, IWMWriterSink::AllocateDataUnit, IWMWriterSinkAllocateDataUnit, wmformat.iwmwritersink_allocatedataunit, wmsdkidl/IWMWriterSink::AllocateDataUnit
 ms.prod: windows-hardware
 ms.technology: windows-devices

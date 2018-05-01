@@ -7,7 +7,7 @@ old-location: mf\imfmediasourcetopologyprovider_getmediasourcetopology.htm
 old-project: medfound
 ms.assetid: 3889768a-27bb-422e-912b-80546b6017fb
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 3889768a-27bb-422e-912b-80546b6017fb, GetMediaSourceTopology method [Media Foundation], GetMediaSourceTopology method [Media Foundation], IMFMediaSourceTopologyProvider interface, GetMediaSourceTopology,IMFMediaSourceTopologyProvider.GetMediaSourceTopology, IMFMediaSourceTopologyProvider, IMFMediaSourceTopologyProvider interface [Media Foundation], GetMediaSourceTopology method, IMFMediaSourceTopologyProvider::GetMediaSourceTopology, mf.imfmediasourcetopologyprovider_getmediasourcetopology, mfidl/IMFMediaSourceTopologyProvider::GetMediaSourceTopology
 ms.prod: windows-hardware
 ms.technology: windows-devices

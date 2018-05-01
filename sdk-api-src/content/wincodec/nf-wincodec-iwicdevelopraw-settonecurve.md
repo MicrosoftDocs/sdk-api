@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicdevelopraw_settonecurve.htm
 old-project: wic
 ms.assetid: cfb0b67d-7eb1-4bbb-90be-33ca82b9460f
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: IWICDevelopRaw, IWICDevelopRaw interface [Windows Imaging Component], SetToneCurve method, IWICDevelopRaw::SetToneCurve, SetToneCurve method [Windows Imaging Component], SetToneCurve method [Windows Imaging Component], IWICDevelopRaw interface, SetToneCurve,IWICDevelopRaw.SetToneCurve, _wic_codec_iwicdevelopraw_settonecurve, wic._wic_codec_iwicdevelopraw_settonecurve, wincodec/IWICDevelopRaw::SetToneCurve
 ms.prod: windows-hardware
 ms.technology: windows-devices

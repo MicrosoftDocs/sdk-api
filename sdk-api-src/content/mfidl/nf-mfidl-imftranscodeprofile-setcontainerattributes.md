@@ -7,7 +7,7 @@ old-location: mf\imftranscodeprofile_setcontainerattributes.htm
 old-project: medfound
 ms.assetid: c62021cf-85f1-4a85-9263-b7883464f5f8
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFTranscodeProfile, IMFTranscodeProfile interface [Media Foundation], SetContainerAttributes method, IMFTranscodeProfile::SetContainerAttributes, SetContainerAttributes method [Media Foundation], SetContainerAttributes method [Media Foundation], IMFTranscodeProfile interface, SetContainerAttributes,IMFTranscodeProfile.SetContainerAttributes, mf.imftranscodeprofile_setcontainerattributes, mfidl/IMFTranscodeProfile::SetContainerAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices

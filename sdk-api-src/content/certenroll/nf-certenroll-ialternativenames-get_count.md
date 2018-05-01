@@ -7,7 +7,7 @@ old-location: security\ialternativenames_count_property.htm
 old-project: SecCertEnroll
 ms.assetid: ef7f588a-f877-4626-ada6-782db6202c65
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: Count property [Security], Count property [Security], IAlternativeNames interface, IAlternativeNames, IAlternativeNames interface [Security], Count property, IAlternativeNames.Count, IAlternativeNames::get_Count, certenroll/IAlternativeNames::Count, certenroll/IAlternativeNames::get_Count, get_Count,IAlternativeNames.get_Count, security.ialternativenames_count_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\ievalrat_mostrestrictiverating.htm
 old-project: mstv
 ms.assetid: b744715f-53a8-4011-9657-d2962f0e7f6e
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IEvalRat, IEvalRat interface [Microsoft TV Technologies], MostRestrictiveRating method, IEvalRat::MostRestrictiveRating, IEvalRatMostRestrictiveRating, MostRestrictiveRating method [Microsoft TV Technologies], MostRestrictiveRating method [Microsoft TV Technologies], IEvalRat interface, MostRestrictiveRating,IEvalRat.MostRestrictiveRating, mstv.ievalrat_mostrestrictiverating, tvratings/IEvalRat::MostRestrictiveRating
 ms.prod: windows-hardware
 ms.technology: windows-devices

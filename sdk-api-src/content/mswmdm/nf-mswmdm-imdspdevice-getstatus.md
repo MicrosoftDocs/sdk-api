@@ -7,7 +7,7 @@ old-location: wmdm\imdspdevice_getstatus.htm
 old-project: WMDM
 ms.assetid: 76c5ee43-4d21-436e-b193-8a8e034651f0
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: GetStatus method [windows Media Device Manager], GetStatus method [windows Media Device Manager], IMDSPDevice interface, GetStatus,IMDSPDevice.GetStatus, IMDSPDevice, IMDSPDevice interface [windows Media Device Manager], GetStatus method, IMDSPDevice::GetStatus, IMDSPDeviceGetStatus, mswmdm/IMDSPDevice::GetStatus, wmdm.imdspdevice_getstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMDSPDevice::GetStatus method

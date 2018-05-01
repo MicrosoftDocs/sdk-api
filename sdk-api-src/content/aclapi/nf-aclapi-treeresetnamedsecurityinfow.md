@@ -7,7 +7,7 @@ old-location: security\treeresetnamedsecurityinfo.htm
 old-project: SecAuthZ
 ms.assetid: adae7d07-a452-409e-b1a1-e9f86f873e39
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: TreeResetNamedSecurityInfo, TreeResetNamedSecurityInfo function [Security], TreeResetNamedSecurityInfoA, TreeResetNamedSecurityInfoW, aclapi/TreeResetNamedSecurityInfo, aclapi/TreeResetNamedSecurityInfoA, aclapi/TreeResetNamedSecurityInfoW, security.treeresetnamedsecurityinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

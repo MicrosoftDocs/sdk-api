@@ -7,7 +7,7 @@ old-location: shell\IShellImageData_GetResolution.htm
 old-project: shell
 ms.assetid: 9e3c3e0f-010b-4d7d-a8fa-178a808687f8
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetResolution method [Windows Shell], GetResolution method [Windows Shell], IShellImageData interface, GetResolution,IShellImageData.GetResolution, IShellImageData, IShellImageData interface [Windows Shell], GetResolution method, IShellImageData::GetResolution, _shell_IShellImageData_GetResolution, shell.IShellImageData_GetResolution, shimgdata/IShellImageData::GetResolution
 ms.prod: windows-hardware
 ms.technology: windows-devices

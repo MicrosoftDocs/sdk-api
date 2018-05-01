@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationProxyFactory_CreateProvider.htm
 old-project: WinAuto
 ms.assetid: c7ac43d3-443f-42cf-98d5-e558034c9d40
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: CreateProvider method [Windows Accessibility], CreateProvider method [Windows Accessibility], IUIAutomationProxyFactory interface, CreateProvider,IUIAutomationProxyFactory.CreateProvider, IUIAutomationProxyFactory, IUIAutomationProxyFactory interface [Windows Accessibility], CreateProvider method, IUIAutomationProxyFactory::CreateProvider, uiauto.uiauto_IUIAutomationProxyFactory_CreateProvider, uiauto_IUIAutomationProxyFactory_CreateProvider, uiautomationclient/IUIAutomationProxyFactory::CreateProvider, winauto.uiauto_IUIAutomationProxyFactory_CreateProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices

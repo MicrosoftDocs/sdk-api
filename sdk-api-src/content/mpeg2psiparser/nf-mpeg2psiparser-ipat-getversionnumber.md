@@ -7,7 +7,7 @@ old-location: mstv\ipat_getversionnumber.htm
 old-project: mstv
 ms.assetid: 1398a1b9-e9b9-4f30-ba93-0a08a0994cf9
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetVersionNumber method [Microsoft TV Technologies], GetVersionNumber method [Microsoft TV Technologies], IPAT interface, GetVersionNumber,IPAT.GetVersionNumber, IPAT, IPAT interface [Microsoft TV Technologies], GetVersionNumber method, IPAT::GetVersionNumber, IPATGetVersionNumber, mpeg2psiparser/IPAT::GetVersionNumber, mstv.ipat_getversionnumber
 ms.prod: windows-hardware
 ms.technology: windows-devices

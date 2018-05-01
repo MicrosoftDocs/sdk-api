@@ -7,7 +7,7 @@ old-location: shell\ICredentialProviderSetUserArray_SetUserArray.htm
 old-project: shell
 ms.assetid: 14A9DFBD-7B44-4983-8B02-5880017B9B04
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ICredentialProviderSetUserArray, ICredentialProviderSetUserArray interface [Windows Shell], SetUserArray method, ICredentialProviderSetUserArray::SetUserArray, SetUserArray method [Windows Shell], SetUserArray method [Windows Shell], ICredentialProviderSetUserArray interface, SetUserArray,ICredentialProviderSetUserArray.SetUserArray, credentialprovider/ICredentialProviderSetUserArray::SetUserArray, shell.ICredentialProviderSetUserArray_SetUserArray
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: ics\inetfwopenports_count.htm
 old-project: ICS
 ms.assetid: 83d95b38-0c0d-4325-904e-7953ccef24e7
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: Count property [ICS/ICF], Count property [ICS/ICF], INetFwOpenPorts interface, INetFwOpenPorts, INetFwOpenPorts interface [ICS/ICF], Count property, INetFwOpenPorts.Count, INetFwOpenPorts::get_Count, get_Count,INetFwOpenPorts.get_Count, ics.inetfwopenports_count, netfw/INetFwOpenPorts::Count, netfw/INetFwOpenPorts::get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: 
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # INetFwOpenPorts::get_Count method

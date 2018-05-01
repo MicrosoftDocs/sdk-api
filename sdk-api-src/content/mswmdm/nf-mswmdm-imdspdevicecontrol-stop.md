@@ -7,7 +7,7 @@ old-location: wmdm\imdspdevicecontrol_stop.htm
 old-project: WMDM
 ms.assetid: 31dd1325-2a8d-4a61-a4a5-f585b320e841
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: IMDSPDeviceControl, IMDSPDeviceControl interface [windows Media Device Manager], Stop method, IMDSPDeviceControl::Stop, IMDSPDeviceControlStop, Stop method [windows Media Device Manager], Stop method [windows Media Device Manager], IMDSPDeviceControl interface, Stop,IMDSPDeviceControl.Stop, mswmdm/IMDSPDeviceControl::Stop, wmdm.imdspdevicecontrol_stop
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMDSPDeviceControl::Stop method

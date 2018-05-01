@@ -7,7 +7,7 @@ old-location: com\ioleundounit_getdescription.htm
 old-project: com
 ms.assetid: 8fd9c49c-a8f3-4a4a-b501-211a107c1305
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: GetDescription method [COM], GetDescription method [COM], IOleUndoUnit interface, GetDescription,IOleUndoUnit.GetDescription, IOleUndoUnit, IOleUndoUnit interface [COM], GetDescription method, IOleUndoUnit::GetDescription, _ole_ioleundounit_getdescription, com.ioleundounit_getdescription, ocidl/IOleUndoUnit::GetDescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IOleUndoUnit::GetDescription method

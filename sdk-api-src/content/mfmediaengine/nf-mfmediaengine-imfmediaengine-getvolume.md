@@ -7,7 +7,7 @@ old-location: mf\imfmediaengine_getvolume.htm
 old-project: medfound
 ms.assetid: E7890777-480E-4EA1-88BA-657182B66010
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetVolume method [Media Foundation], GetVolume method [Media Foundation], IMFMediaEngine interface, GetVolume,IMFMediaEngine.GetVolume, IMFMediaEngine, IMFMediaEngine interface [Media Foundation], GetVolume method, IMFMediaEngine::GetVolume, mf.imfmediaengine_getvolume, mfmediaengine/IMFMediaEngine::GetVolume
 ms.prod: windows-hardware
 ms.technology: windows-devices

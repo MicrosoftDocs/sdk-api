@@ -7,7 +7,7 @@ old-location: mstv\imsvidstreambuffersourceevent3_coppblocked.htm
 old-project: mstv
 ms.assetid: a3da78ea-4694-45a4-9284-d40c08f12fe5
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: COPPBlocked method [Microsoft TV Technologies], COPPBlocked method [Microsoft TV Technologies], IMSVidStreamBufferSourceEvent3 interface, COPPBlocked,IMSVidStreamBufferSourceEvent3.COPPBlocked, IMSVidStreamBufferSourceEvent3, IMSVidStreamBufferSourceEvent3 interface [Microsoft TV Technologies], COPPBlocked method, IMSVidStreamBufferSourceEvent3::COPPBlocked, IMSVidStreamBufferSourceEvent3COPPBlocked, mstv.imsvidstreambuffersourceevent3_coppblocked, segment/IMSVidStreamBufferSourceEvent3::COPPBlocked
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidStreamBufferSourceEvent3::COPPBlocked method

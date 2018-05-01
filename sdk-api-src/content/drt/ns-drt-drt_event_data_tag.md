@@ -7,7 +7,7 @@ old-location: p2p\drt_event_data.htm
 old-project: P2PSdk
 ms.assetid: b52bf815-d962-4f72-8876-a80769bc3d3d
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/23/2018
 ms.keywords: "*PDRT_EVENT_DATA, DRT_EVENT_DATA, DRT_EVENT_DATA structure [Peer Networking], PDRT_EVENT_DATA, PDRT_EVENT_DATA structure pointer [Peer Networking], drt/DRT_EVENT_DATA, drt/PDRT_EVENT_DATA, drt_event_data_tag, p2p.drt_event_data"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -57,6 +57,21 @@ The <b>DRT_EVENT_DATA</b> structure contains the event data returned by calling 
 
 
 
+### -field type
+
+A <a href="https://msdn.microsoft.com/8125e663-10dd-4c3d-b9d6-ac6164b9f0a4">DRT_EVENT_TYPE</a> enumeration that specifies the event type.
+
+
+### -field hr
+
+The HRESULT of the operation for which the event was signaled that indicates if a result is the last result within a search.
+
+
+### -field pvContext
+
+Pointer to the context data passed to the API that generated the event.  For example, if data is passed into the <i>pvContext</i> parameter of <a href="https://msdn.microsoft.com/67320767-f622-478a-a886-bbea1650ac1a">DrtOpen</a>, that data is returned through this field.
+
+
 ### -field leafsetKeyChange
 
  
@@ -97,29 +112,16 @@ The <b>DRT_EVENT_DATA</b> structure contains the event data returned by calling 
  
 
 
-### -field statusChange.bootstrapAddresses
-
- 
-
-
 ### -field statusChange.status
 
  
 
 
-### -field type
+### -field statusChange.bootstrapAddresses
 
-A <a href="https://msdn.microsoft.com/8125e663-10dd-4c3d-b9d6-ac6164b9f0a4">DRT_EVENT_TYPE</a> enumeration that specifies the event type.
-
-
-### -field hr
-
-The HRESULT of the operation for which the event was signaled that indicates if a result is the last result within a search.
+ 
 
 
-### -field pvContext
-
-Pointer to the context data passed to the API that generated the event.  For example, if data is passed into the <i>pvContext</i> parameter of <a href="https://msdn.microsoft.com/67320767-f622-478a-a886-bbea1650ac1a">DrtOpen</a>, that data is returned through this field.
 
 
 #### - ( unnamed union )

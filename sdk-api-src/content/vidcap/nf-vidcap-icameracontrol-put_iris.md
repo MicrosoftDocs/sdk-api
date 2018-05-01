@@ -7,7 +7,7 @@ old-location: dshow\icameracontrol_put_iris.htm
 old-project: DirectShow
 ms.assetid: b181f556-3d3d-4622-8cc9-57fda50bf9c0
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ICameraControl, ICameraControl interface [DirectShow], put_Iris method, ICameraControl::put_Iris, ICameraControlput_Iris, dshow.icameracontrol_put_iris, put_Iris method [DirectShow], put_Iris method [DirectShow], ICameraControl interface, put_Iris,ICameraControl.put_Iris, vidcap/ICameraControl::put_Iris
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: VIDEOHDR, *PVIDEOHDR, *LPVIDEOHDR
+req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
 topic_type:
 -	APIRef
 -	kbSyntax

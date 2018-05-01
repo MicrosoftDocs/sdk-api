@@ -7,7 +7,7 @@ old-location: rras\mpradmininitializedllex.htm
 old-project: RRAS
 ms.assetid: c608c1b3-39de-4c0f-b834-27b9211dffb5
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: MprAdminInitializeDll, MprAdminInitializeDll entry point [RAS], MprAdminInitializeDllEx, mprapi/MprAdminInitializeDll, rras.mpradmininitializedllex
 ms.prod: windows-hardware
 ms.technology: windows-devices

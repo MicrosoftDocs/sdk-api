@@ -7,7 +7,7 @@ old-location: wua\iupdateinstaller_parentwindow.htm
 old-project: Wua_Sdk
 ms.assetid: 06eb4761-3a37-44bc-82b9-b40c0595fe49
 ms.author: windowsdriverdev
-ms.date: 3/15/2018
+ms.date: 4/18/2018
 ms.keywords: IUpdateInstaller, IUpdateInstaller interface [Windows Update Agent], ParentWindow property, IUpdateInstaller.ParentWindow, IUpdateInstaller::get_ParentWindow, IUpdateInstaller::put_ParentWindow, ParentWindow property [Windows Update Agent], ParentWindow property [Windows Update Agent], IUpdateInstaller interface, get_ParentWindow,IUpdateInstaller.get_ParentWindow, wua.iupdateinstaller_parentwindow, wuapi/IUpdateInstaller::ParentWindow, wuapi/IUpdateInstaller::get_ParentWindow, wuapi/IUpdateInstaller::put_ParentWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices

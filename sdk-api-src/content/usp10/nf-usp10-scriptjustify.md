@@ -7,7 +7,7 @@ old-location: intl\scriptjustify.htm
 old-project: Intl
 ms.assetid: 9419eb80-cd33-4974-a1f1-d43276cb7a91
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/25/2018
 ms.keywords: ScriptJustify, ScriptJustify function [Internationalization for Windows Applications], _win32_ScriptJustify, intl.scriptjustify, usp10/ScriptJustify
 ms.prod: windows-hardware
 ms.technology: windows-devices

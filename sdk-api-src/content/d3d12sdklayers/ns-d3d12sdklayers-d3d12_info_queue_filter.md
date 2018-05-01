@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_info_queue_filter.htm
 old-project: direct3d12
 ms.assetid: 5CD64E71-8530-43FB-B441-25C61ED6F317
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: D3D12_INFO_QUEUE_FILTER, D3D12_INFO_QUEUE_FILTER structure, d3d12sdklayers/D3D12_INFO_QUEUE_FILTER, direct3d12.d3d12_info_queue_filter
 ms.prod: windows-hardware
 ms.technology: windows-devices

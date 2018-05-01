@@ -7,7 +7,7 @@ old-location: wmp\iwmpstringcollection_item.htm
 old-project: WMP
 ms.assetid: 05e7fd0c-1226-4680-a9aa-543111fd2bdf
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPStringCollection, IWMPStringCollection interface [Windows Media Player], item method, IWMPStringCollection::item, IWMPStringCollectionitem, item method [Windows Media Player], item method [Windows Media Player], IWMPStringCollection interface, item,IWMPStringCollection.item, wmp.iwmpstringcollection_item, wmp/IWMPStringCollection::item
 ms.prod: windows-hardware
 ms.technology: windows-devices

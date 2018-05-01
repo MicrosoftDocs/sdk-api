@@ -7,7 +7,7 @@ old-location: mf\id3d11videoprocessorenumerator_getvideoprocessorfilterrange.htm
 old-project: medfound
 ms.assetid: F43A01D7-A0FE-4509-B3B2-094B09A7F04A
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetVideoProcessorFilterRange method [Media Foundation], GetVideoProcessorFilterRange method [Media Foundation], ID3D11VideoProcessorEnumerator interface, GetVideoProcessorFilterRange,ID3D11VideoProcessorEnumerator.GetVideoProcessorFilterRange, ID3D11VideoProcessorEnumerator, ID3D11VideoProcessorEnumerator interface [Media Foundation], GetVideoProcessorFilterRange method, ID3D11VideoProcessorEnumerator::GetVideoProcessorFilterRange, d3d11/ID3D11VideoProcessorEnumerator::GetVideoProcessorFilterRange, mf.id3d11videoprocessorenumerator_getvideoprocessorfilterrange
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\itocentrylist_getentrybyindex.htm
 old-project: medfound
 ms.assetid: cf2171c9-67ce-4acb-97cc-af17203e815b
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: GetEntryByIndex method [Media Foundation], GetEntryByIndex method [Media Foundation], ITocEntryList interface, GetEntryByIndex,ITocEntryList.GetEntryByIndex, ITocEntryList, ITocEntryList interface [Media Foundation], GetEntryByIndex method, ITocEntryList::GetEntryByIndex, codecapi.itocentrylist_getentrybyindex, mf.itocentrylist_getentrybyindex, wmcodecdsp/ITocEntryList::GetEntryByIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices

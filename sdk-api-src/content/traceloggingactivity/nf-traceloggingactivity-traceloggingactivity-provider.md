@@ -7,7 +7,7 @@ old-location: tracelogging\traceloggingactivity_provider.htm
 old-project: tracelogging
 ms.assetid: 14A2A516-47CB-4AE0-AD9C-046426AE60E7
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: Provider method, Provider method, TraceLoggingActivity interface, Provider,TraceLoggingActivity.Provider, TraceLoggingActivity, TraceLoggingActivity interface, Provider method, TraceLoggingActivity::Provider, tracelogging.traceloggingactivity_provider, traceloggingactivity/TraceLoggingActivity::Provider
 ms.prod: windows-hardware
 ms.technology: windows-devices

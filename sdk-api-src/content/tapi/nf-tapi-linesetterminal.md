@@ -7,7 +7,7 @@ old-location: tapi2\linesetterminal.htm
 old-project: Tapi
 ms.assetid: 362114d9-c5b6-4b78-bb31-811eb89fe82d
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: "_tapi2_linesetterminal, lineSetTerminal, lineSetTerminal function [TAPI 2.2], tapi/lineSetTerminal, tapi2.linesetterminal"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: appxpkg\iappxmanifestoptionalpackageinfo_getisoptionalpackage.htm
 old-project: appxpkg
 ms.assetid: E52E411C-0A3E-4DA3-B25D-14E761FEF676
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/26/2018
 ms.keywords: GetIsOptionalPackage method [App packaging and management], GetIsOptionalPackage method [App packaging and management], IAppxManifestOptionalPackageInfo interface, GetIsOptionalPackage,IAppxManifestOptionalPackageInfo.GetIsOptionalPackage, IAppxManifestOptionalPackageInfo, IAppxManifestOptionalPackageInfo interface [App packaging and management], GetIsOptionalPackage method, IAppxManifestOptionalPackageInfo::GetIsOptionalPackage, appxpackaging/IAppxManifestOptionalPackageInfo::GetIsOptionalPackage, appxpkg.iappxmanifestoptionalpackageinfo_getisoptionalpackage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_ARCHITECTURE2
+req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
 topic_type:
 -	APIRef
 -	kbSyntax

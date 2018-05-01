@@ -7,7 +7,7 @@ old-location: ics\inetsharingpublicconnectioncollection_get__newenum.htm
 old-project: ICS
 ms.assetid: 169de955-d53d-410e-b2e6-911ab0a78bba
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: INetSharingPublicConnectionCollection, INetSharingPublicConnectionCollection interface [ICS/ICF], get__NewEnum method, INetSharingPublicConnectionCollection::get__NewEnum, _ics_inetsharingpublicconnectioncollection_get__newenum, get__NewEnum method [ICS/ICF], get__NewEnum method [ICS/ICF], INetSharingPublicConnectionCollection interface, get__NewEnum,INetSharingPublicConnectionCollection.get__NewEnum, ics.inetsharingpublicconnectioncollection_get__newenum, netcon/INetSharingPublicConnectionCollection::get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # INetSharingPublicConnectionCollection::get__NewEnum method

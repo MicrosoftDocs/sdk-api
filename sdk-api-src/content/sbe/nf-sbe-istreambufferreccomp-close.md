@@ -7,7 +7,7 @@ old-location: mstv\istreambufferreccomp_close.htm
 old-project: mstv
 ms.assetid: 0dd311ac-28c7-4cb2-bc65-fe2301c53cf2
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: Close method [Microsoft TV Technologies], Close method [Microsoft TV Technologies], IStreamBufferRecComp interface, Close,IStreamBufferRecComp.Close, IStreamBufferRecComp, IStreamBufferRecComp interface [Microsoft TV Technologies], Close method, IStreamBufferRecComp::Close, IStreamBufferRecCompClose, mstv.istreambufferreccomp_close, sbe/IStreamBufferRecComp::Close
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IStreamBufferRecComp::Close method

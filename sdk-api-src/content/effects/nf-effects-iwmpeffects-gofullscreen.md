@@ -7,7 +7,7 @@ old-location: wmp\iwmpeffects_gofullscreen.htm
 old-project: WMP
 ms.assetid: daf69206-5756-4504-9738-e16b9af39790
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: EffectsGoFullscreen, GoFullscreen method [Windows Media Player], GoFullscreen method [Windows Media Player], IWMPEffects interface, GoFullscreen,IWMPEffects.GoFullscreen, IWMPEffects, IWMPEffects interface [Windows Media Player], GoFullscreen method, IWMPEffects::GoFullscreen, effects/IWMPEffects::GoFullscreen, wmp.iwmpeffects_gofullscreen
 ms.prod: windows-hardware
 ms.technology: windows-devices

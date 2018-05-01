@@ -7,7 +7,7 @@ old-location: wmformat\iwmreadernetworkconfig2_setenablefastcache.htm
 old-project: wmformat
 ms.assetid: 28a01985-a133-4203-8385-d4497c29bf9c
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMReaderNetworkConfig2, IWMReaderNetworkConfig2 interface [windows Media Format], SetEnableFastCache method, IWMReaderNetworkConfig2::SetEnableFastCache, IWMReaderNetworkConfig2SetEnableFastCache, SetEnableFastCache method [windows Media Format], SetEnableFastCache method [windows Media Format], IWMReaderNetworkConfig2 interface, SetEnableFastCache,IWMReaderNetworkConfig2.SetEnableFastCache, wmformat.iwmreadernetworkconfig2_setenablefastcache, wmsdkidl/IWMReaderNetworkConfig2::SetEnableFastCache
 ms.prod: windows-hardware
 ms.technology: windows-devices

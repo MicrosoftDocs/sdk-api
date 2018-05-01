@@ -7,7 +7,7 @@ old-location: security\iocspadmin_ocspserviceproperties_method.htm
 old-project: SecCrypto
 ms.assetid: d792283b-dde9-46b7-8483-b3011b4433eb
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: IOCSPAdmin, IOCSPAdmin interface [Security], OCSPServiceProperties property, IOCSPAdmin.OCSPServiceProperties, IOCSPAdmin::get_OCSPServiceProperties, OCSPServiceProperties property [Security], OCSPServiceProperties property [Security], IOCSPAdmin interface, certadm/IOCSPAdmin::OCSPServiceProperties, certadm/IOCSPAdmin::get_OCSPServiceProperties, get_OCSPServiceProperties,IOCSPAdmin.get_OCSPServiceProperties, security.iocspadmin_ocspserviceproperties_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CHANNEL_ENTRY_POINTS, *PCHANNEL_ENTRY_POINTS
+req.typenames: 
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,7 +7,7 @@ old-location: wmi\chstring_makereverse.htm
 old-project: WmiSdk
 ms.assetid: 129792cf-e442-4491-b921-273363809210
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: CHString, CHString interface [Windows Management Instrumentation], MakeReverse method, CHString::MakeReverse, MakeReverse method [Windows Management Instrumentation], MakeReverse method [Windows Management Instrumentation], CHString interface, MakeReverse,CHString.MakeReverse, _hmm_chstring_makereverse, chstring/CHString::MakeReverse, wmi.chstring_makereverse
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CF_SYNC_ROOT_STANDARD_INFO
+req.typenames: CF_SYNC_STATUS
 topic_type:
 -	APIRef
 -	kbSyntax

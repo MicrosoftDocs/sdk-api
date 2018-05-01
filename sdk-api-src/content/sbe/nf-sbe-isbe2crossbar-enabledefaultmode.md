@@ -7,7 +7,7 @@ old-location: mstv\isbe2crossbar_enabledefaultmode.htm
 old-project: mstv
 ms.assetid: 5038050b-319d-488a-9cea-a2fc59b90cc8
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: EnableDefaultMode method [Microsoft TV Technologies], EnableDefaultMode method [Microsoft TV Technologies], ISBE2Crossbar interface, EnableDefaultMode,ISBE2Crossbar.EnableDefaultMode, ISBE2Crossbar, ISBE2Crossbar interface [Microsoft TV Technologies], EnableDefaultMode method, ISBE2Crossbar::EnableDefaultMode, mstv.isbe2crossbar_enabledefaultmode, sbe/ISBE2Crossbar::EnableDefaultMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ISBE2Crossbar::EnableDefaultMode method

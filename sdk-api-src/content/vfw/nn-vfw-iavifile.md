@@ -8,7 +8,7 @@ old-location: multimedia\iavifile.htm
 old-project: Multimedia
 ms.assetid: 401db941-cbf6-452b-84e2-605fafac8a6d
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/25/2018
 ms.keywords: IAVIFile, IAVIFile interface [Windows Multimedia], IAVIFile interface [Windows Multimedia], described, _win32_IAVIFile, multimedia.iavifile, vfw/IAVIFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -106,15 +106,6 @@ Opens a stream by accessing it in a file.
 </td>
 <td align="left" width="63%">
 Fills and returns an <a href="https://msdn.microsoft.com/10d7decf-a133-4d55-93d5-867952307819">AVIFileInfo</a> structure with information about a file.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451153">Open</a>
-</td>
-<td align="left" width="63%">
-Initializes a file handler.
 
 </td>
 </tr>

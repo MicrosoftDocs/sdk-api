@@ -7,7 +7,7 @@ old-location: appxpkg\iappxencryptionfactory_encryptbundle.htm
 old-project: appxpkg
 ms.assetid: F2FFBB18-4E62-4704-B252-1749058A0A5E
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/26/2018
 ms.keywords: EncryptBundle method [App packaging and management], EncryptBundle method [App packaging and management], IAppxEncryptionFactory interface, EncryptBundle,IAppxEncryptionFactory.EncryptBundle, IAppxEncryptionFactory, IAppxEncryptionFactory interface [App packaging and management], EncryptBundle method, IAppxEncryptionFactory::EncryptBundle, appxpackaging/IAppxEncryptionFactory::EncryptBundle, appxpkg.iappxencryptionfactory_encryptbundle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_ARCHITECTURE2
+req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
 topic_type:
 -	APIRef
 -	kbSyntax

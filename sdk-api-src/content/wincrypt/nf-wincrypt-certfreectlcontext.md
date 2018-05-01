@@ -7,7 +7,7 @@ old-location: security\certfreectlcontext.htm
 old-project: SecCrypto
 ms.assetid: 84b1aa0c-44d9-4a2f-861c-fa7d8caac192
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: CertFreeCTLContext, CertFreeCTLContext function [Security], _crypto2_certfreectlcontext, security.certfreectlcontext, wincrypt/CertFreeCTLContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

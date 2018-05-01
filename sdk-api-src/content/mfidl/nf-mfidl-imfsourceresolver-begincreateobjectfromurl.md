@@ -7,7 +7,7 @@ old-location: mf\imfsourceresolver_begincreateobjectfromurl.htm
 old-project: medfound
 ms.assetid: bc97c1fb-d23a-4887-b6ac-0751c254a405
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: BeginCreateObjectFromURL method [Media Foundation], BeginCreateObjectFromURL method [Media Foundation], IMFSourceResolver interface, BeginCreateObjectFromURL,IMFSourceResolver.BeginCreateObjectFromURL, IMFSourceResolver, IMFSourceResolver interface [Media Foundation], BeginCreateObjectFromURL method, IMFSourceResolver::BeginCreateObjectFromURL, bc97c1fb-d23a-4887-b6ac-0751c254a405, mf.imfsourceresolver_begincreateobjectfromurl, mfidl/IMFSourceResolver::BeginCreateObjectFromURL
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\imftimedtextstyle.htm
 old-project: medfound
 ms.assetid: ED358A36-BEEF-491E-8984-938F71472F26
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFTimedTextStyle, IMFTimedTextStyle interface [Media Foundation], IMFTimedTextStyle interface [Media Foundation], described, mf.imftimedtextstyle, mfmediaengine/IMFTimedTextStyle
 ms.prod: windows-hardware
 ms.technology: windows-devices

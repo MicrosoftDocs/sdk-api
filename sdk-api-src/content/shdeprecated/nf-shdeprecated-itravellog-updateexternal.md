@@ -7,7 +7,7 @@ old-location: shell\ITravelLog_UpdateExternal.htm
 old-project: shell
 ms.assetid: 2fda446d-8652-455b-9233-aa02f2a85e7f
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ITravelLog, ITravelLog interface [Windows Shell], UpdateExternal method, ITravelLog::UpdateExternal, UpdateExternal method [Windows Shell], UpdateExternal method [Windows Shell], ITravelLog interface, UpdateExternal,ITravelLog.UpdateExternal, shdeprecated/ITravelLog::UpdateExternal, shell.ITravelLog_UpdateExternal, zone_ITravelLog_UpdateExternal
 ms.prod: windows-hardware
 ms.technology: windows-devices

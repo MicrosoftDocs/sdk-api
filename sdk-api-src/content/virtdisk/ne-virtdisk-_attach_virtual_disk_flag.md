@@ -103,6 +103,9 @@ This flag is not supported for ISO virtual disks.
 ### -field ATTACH_VIRTUAL_DISK_FLAG_NO_SECURITY_DESCRIPTOR
 
 
+### -field ATTACH_VIRTUAL_DISK_FLAG_BYPASS_DEFAULT_ENCRYPTION_POLICY
+
+
 
 
 ## -see-also

@@ -7,7 +7,7 @@ old-location: security\bcryptbufferdesc.htm
 old-project: SecCNG
 ms.assetid: 7416d417-4b47-4830-aa20-a674d5270428
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: "*PBCryptBufferDesc, BCRYPTBUFFER_VERSION, BCryptBufferDesc, BCryptBufferDesc structure [Security], PBCryptBufferDesc, PBCryptBufferDesc structure pointer [Security], _BCryptBufferDesc, bcrypt/BCryptBufferDesc, bcrypt/PBCryptBufferDesc, security.bcryptbufferdesc"
 ms.prod: windows-hardware
 ms.technology: windows-devices

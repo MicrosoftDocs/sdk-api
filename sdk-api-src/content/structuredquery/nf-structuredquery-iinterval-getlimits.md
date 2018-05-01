@@ -7,7 +7,7 @@ old-location: search\_search_IInterval_GetLimits.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iinterval\getlimits.htm
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/24/2018
 ms.keywords: GetLimits method [search], GetLimits method [search], IInterval interface, GetLimits,IInterval.GetLimits, IInterval, IInterval interface [search], GetLimits method, IInterval::GetLimits, _search_IInterval_GetLimits, search._search_IInterval_GetLimits, structuredquery/IInterval::GetLimits
 ms.prod: windows-hardware
 ms.technology: windows-devices

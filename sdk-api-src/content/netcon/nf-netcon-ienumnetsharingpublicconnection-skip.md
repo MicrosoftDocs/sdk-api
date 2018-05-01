@@ -7,7 +7,7 @@ old-location: ics\ienumnetsharingpublicconnection_skip.htm
 old-project: ICS
 ms.assetid: 25466a29-368b-4970-9995-5272cbca3c0a
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: IEnumNetSharingPublicConnection, IEnumNetSharingPublicConnection interface [ICS/ICF], Skip method, IEnumNetSharingPublicConnection::Skip, Skip method [ICS/ICF], Skip method [ICS/ICF], IEnumNetSharingPublicConnection interface, Skip,IEnumNetSharingPublicConnection.Skip, _ics_ienumnetsharingpublicconnection_skip, ics.ienumnetsharingpublicconnection_skip, netcon/IEnumNetSharingPublicConnection::Skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IEnumNetSharingPublicConnection::Skip method

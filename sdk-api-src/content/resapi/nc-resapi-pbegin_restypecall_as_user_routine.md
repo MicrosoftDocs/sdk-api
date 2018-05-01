@@ -7,7 +7,7 @@ old-location: mscs\beginresourcetypecontrolasuser.htm
 old-project: MsCS
 ms.assetid: 0A95F509-0B07-4E6C-B200-FCF11A0A95F0
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: BeginResourceTypeControlAsUser, BeginResourceTypeControlAsUser callback function [Failover Cluster], PBEGIN_RESTYPECALL_AS_USER_ROUTINE, PBEGIN_RESTYPECALL_AS_USER_ROUTINE callback function [Failover Cluster], mscs.beginresourcetypecontrolasuser, resapi/BeginResourceTypeControlAsUser, resapi/PBEGIN_RESTYPECALL_AS_USER_ROUTINE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # PBEGIN_RESTYPECALL_AS_USER_ROUTINE callback

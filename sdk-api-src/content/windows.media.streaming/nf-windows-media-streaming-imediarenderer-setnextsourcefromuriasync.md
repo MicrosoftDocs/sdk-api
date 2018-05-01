@@ -7,7 +7,7 @@ old-location: mediastreaming\imediarenderer_setnextsourcefromuriasync.htm
 old-project: mediastreaming
 ms.assetid: 6894F1DF-63E2-4091-B61B-736D801E06EF
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/10/2018
 ms.keywords: IMediaRenderer, IMediaRenderer interface [Media Streaming API], SetNextSourceFromUriAsync method, IMediaRenderer::SetNextSourceFromUriAsync, SetNextSourceFromUriAsync method [Media Streaming API], SetNextSourceFromUriAsync method [Media Streaming API], IMediaRenderer interface, SetNextSourceFromUriAsync,IMediaRenderer.SetNextSourceFromUriAsync, mediastreaming.imediarenderer_setnextsourcefromuriasync, windows/IMediaRenderer::SetNextSourceFromUriAsync
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: PDF_RENDER_PARAMS
+req.typenames: TimeSpan
 topic_type:
 -	APIRef
 -	kbSyntax

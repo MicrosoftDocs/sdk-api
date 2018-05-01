@@ -7,7 +7,7 @@ old-location: multimedia\iavistream_create.htm
 old-project: Multimedia
 ms.assetid: 512ce9f8-f96c-4ef4-be1f-234165219ff7
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/25/2018
 ms.keywords: Create method [Windows Multimedia], Create method [Windows Multimedia], IAVIStream interface, Create,IAVIStream.Create, IAVIStream, IAVIStream interface [Windows Multimedia], Create method, IAVIStream::Create, _win32_IAVIStream_Create, multimedia.iavistream_create, vfw/IAVIStream::Create
 ms.prod: windows-hardware
 ms.technology: windows-devices

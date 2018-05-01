@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffectgroupimpl_getnumberchildren.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectgroupimpl\getnumberchildren.htm
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: GetNumberChildren method [WPF Bitmap Effects], GetNumberChildren method [WPF Bitmap Effects], IMILBitmapEffectGroupImpl interface, GetNumberChildren,IMILBitmapEffectGroupImpl.GetNumberChildren, IMILBitmapEffectGroupImpl, IMILBitmapEffectGroupImpl interface [WPF Bitmap Effects], GetNumberChildren method, IMILBitmapEffectGroupImpl::GetNumberChildren, _wibe_imilbitmapeffectgroupimpl_getnumberchildren, mileffects/IMILBitmapEffectGroupImpl::GetNumberChildren, wibe._wibe_imilbitmapeffectgroupimpl_getnumberchildren
 ms.prod: windows-hardware
 ms.technology: windows-devices

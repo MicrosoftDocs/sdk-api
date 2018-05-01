@@ -7,7 +7,7 @@ old-location: dshow\idvdinfo2_getdecodercaps.htm
 old-project: DirectShow
 ms.assetid: cfaf475c-336a-492f-b5a8-c49c21e5392d
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetDecoderCaps method [DirectShow], GetDecoderCaps method [DirectShow], IDvdInfo2 interface, GetDecoderCaps,IDvdInfo2.GetDecoderCaps, IDvdInfo2, IDvdInfo2 interface [DirectShow], GetDecoderCaps method, IDvdInfo2::GetDecoderCaps, IDvdInfo2GetDecoderCaps, dshow.idvdinfo2_getdecodercaps, strmif/IDvdInfo2::GetDecoderCaps
 ms.prod: windows-hardware
 ms.technology: windows-devices

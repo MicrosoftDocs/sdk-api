@@ -7,7 +7,7 @@ old-location: security\pfn_cmsg_cng_import_content_encrypt_key.htm
 old-project: SecCrypto
 ms.assetid: cb410582-68bd-43ed-b65f-17a7c1e0800f
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: PFN_CMSG_CNG_IMPORT_CONTENT_ENCRYPT_KEY, PFN_CMSG_CNG_IMPORT_CONTENT_ENCRYPT_KEY function pointer [Security], security.pfn_cmsg_cng_import_content_encrypt_key, wincrypt/PFN_CMSG_CNG_IMPORT_CONTENT_ENCRYPT_KEY
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wab\_wab_ADRPARM.htm
 old-project: wab
 ms.assetid: VS|wab|~\wab\reference\structures\adrparm.htm
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 4/3/2018
 ms.keywords: "*LPADRPARM, AB_RESOLVE, AB_SELECTONLY, ADDRESS_ONE, ADRPARM, ADRPARM structure [Windows Address Book], DIALOG_MODAL, DIALOG_SDI, LPADRPARM, LPADRPARM structure pointer [Windows Address Book], _ADRPARM, _wab_ADRPARM, wab._wab_ADRPARM, wabdefs/ADRPARM, wabdefs/LPADRPARM"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wua\iupdatedownloadresult_hresult.htm
 old-project: Wua_Sdk
 ms.assetid: 18a1100d-c7b0-42ac-af0b-90e83f60cbec
 ms.author: windowsdriverdev
-ms.date: 3/15/2018
+ms.date: 4/18/2018
 ms.keywords: HResult property [Windows Update Agent], HResult property [Windows Update Agent], IUpdateDownloadResult interface, IUpdateDownloadResult, IUpdateDownloadResult interface [Windows Update Agent], HResult property, IUpdateDownloadResult.HResult, IUpdateDownloadResult::get_HResult, get_HResult,IUpdateDownloadResult.get_HResult, wua.iupdatedownloadresult_hresult, wuapi/IUpdateDownloadResult::HResult, wuapi/IUpdateDownloadResult::get_HResult
 ms.prod: windows-hardware
 ms.technology: windows-devices

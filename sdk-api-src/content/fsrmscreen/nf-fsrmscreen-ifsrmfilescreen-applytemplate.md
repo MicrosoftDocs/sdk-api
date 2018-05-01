@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmfilescreen_applytemplate.htm
 old-project: Fsrm
 ms.assetid: d495cb92-09c4-4fa5-873c-5f07475eb7bf
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/18/2018
 ms.keywords: ApplyTemplate method [File Server Resource Manager], ApplyTemplate method [File Server Resource Manager], IFsrmFileScreen interface, ApplyTemplate,IFsrmFileScreen.ApplyTemplate, IFsrmFileScreen, IFsrmFileScreen interface [File Server Resource Manager], ApplyTemplate method, IFsrmFileScreen::ApplyTemplate, fs.ifsrmfilescreen_applytemplate, fsrm.ifsrmfilescreen_applytemplate, fsrmscreen/IFsrmFileScreen::ApplyTemplate
 ms.prod: windows-hardware
 ms.technology: windows-devices

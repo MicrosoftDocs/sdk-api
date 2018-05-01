@@ -7,7 +7,7 @@ old-location: tapi3\itphonedevicespecificevent_get_phone.htm
 old-project: Tapi
 ms.assetid: 068f4172-92a4-41cc-b554-c6e4014505eb
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: ITPhoneDeviceSpecificEvent, ITPhoneDeviceSpecificEvent interface [TAPI 2.2], get_Phone method, ITPhoneDeviceSpecificEvent::get_Phone, _tapi3_itphonedevicespecificevent_get_phone, get_Phone method [TAPI 2.2], get_Phone method [TAPI 2.2], ITPhoneDeviceSpecificEvent interface, get_Phone,ITPhoneDeviceSpecificEvent.get_Phone, tapi3.itphonedevicespecificevent_get_phone, tapi3if/ITPhoneDeviceSpecificEvent::get_Phone
 ms.prod: windows-hardware
 ms.technology: windows-devices

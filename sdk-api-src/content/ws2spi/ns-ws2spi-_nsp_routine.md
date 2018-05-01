@@ -7,7 +7,7 @@ old-location: winsock\nsp_routine.htm
 old-project: WinSock
 ms.assetid: 8f7736d5-ea77-472a-a94f-e422398fae3f
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/24/2018
 ms.keywords: "*LPNSP_ROUTINE, NSP_ROUTINE, NSP_ROUTINE structure [Winsock], NSP_ROUTINE, FAR * LPNSP_ROUTINE, NSP_ROUTINE, FAR * LPNSP_ROUTINE structure [Winsock], _NSP_ROUTINE, winsock.nsp_routine, ws2spi/NSP_ROUTINE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

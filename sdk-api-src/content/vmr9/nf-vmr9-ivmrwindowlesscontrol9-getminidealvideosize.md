@@ -7,7 +7,7 @@ old-location: dshow\ivmrwindowlesscontrol9_getminidealvideosize.htm
 old-project: DirectShow
 ms.assetid: 9e100f04-28fc-4449-9fe4-0f0074e6439c
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetMinIdealVideoSize method [DirectShow], GetMinIdealVideoSize method [DirectShow], IVMRWindowlessControl9 interface, GetMinIdealVideoSize,IVMRWindowlessControl9.GetMinIdealVideoSize, IVMRWindowlessControl9, IVMRWindowlessControl9 interface [DirectShow], GetMinIdealVideoSize method, IVMRWindowlessControl9::GetMinIdealVideoSize, IVMRWindowlessControl9GetMinIdealVideoSize, dshow.ivmrwindowlesscontrol9_getminidealvideosize, vmr9/IVMRWindowlessControl9::GetMinIdealVideoSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

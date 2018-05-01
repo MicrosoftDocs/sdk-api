@@ -7,7 +7,7 @@ old-location: security\icryptattributes_itembyindex_property.htm
 old-project: SecCertEnroll
 ms.assetid: 327a41ee-60ed-44a0-bfd8-96b328b4fcb6
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: ICryptAttributes, ICryptAttributes interface [Security], ItemByIndex property, ICryptAttributes.ItemByIndex, ICryptAttributes::get_ItemByIndex, ItemByIndex property [Security], ItemByIndex property [Security], ICryptAttributes interface, certenroll/ICryptAttributes::ItemByIndex, certenroll/ICryptAttributes::get_ItemByIndex, get_ItemByIndex,ICryptAttributes.get_ItemByIndex, security.icryptattributes_itembyindex_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

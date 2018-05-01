@@ -7,7 +7,7 @@ old-location: http\httpcreateserversession.htm
 old-project: Http
 ms.assetid: 42c8be3a-eb1b-49ff-ade0-16e4500b0c44
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: HttpCreateServerSession, HttpCreateServerSession function [HTTP], http.httpcreateserversession, http/HttpCreateServerSession
 ms.prod: windows-hardware
 ms.technology: windows-devices

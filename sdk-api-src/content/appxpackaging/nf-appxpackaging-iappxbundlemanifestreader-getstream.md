@@ -7,7 +7,7 @@ old-location: appxpkg\iappxbundlemanifestreader_getstream.htm
 old-project: appxpkg
 ms.assetid: DC276734-3837-466E-ADBA-60B68356504E
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/26/2018
 ms.keywords: GetStream method [App packaging and management], GetStream method [App packaging and management], IAppxBundleManifestReader interface, GetStream,IAppxBundleManifestReader.GetStream, IAppxBundleManifestReader, IAppxBundleManifestReader interface [App packaging and management], GetStream method, IAppxBundleManifestReader::GetStream, appxpackaging/IAppxBundleManifestReader::GetStream, appxpkg.iappxbundlemanifestreader_getstream
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_ARCHITECTURE2
+req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
 topic_type:
 -	APIRef
 -	kbSyntax

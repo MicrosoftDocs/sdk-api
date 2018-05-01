@@ -7,7 +7,7 @@ old-location: controls\IImageList2_ForceImagePresent.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist2\forceimagepresent.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ForceImagePresent method [Windows Controls], ForceImagePresent method [Windows Controls], IImageList2 interface, ForceImagePresent,IImageList2.ForceImagePresent, IImageList2, IImageList2 interface [Windows Controls], ForceImagePresent method, IImageList2::ForceImagePresent, ILFIP_ALWAYS, ILFIP_FROMSTANDBY, _shell_IImageList2_ForceImagePresent, _shell_IImageList2_ForceImagePresent_cpp, commoncontrols/IImageList2::ForceImagePresent, controls.IImageList2_ForceImagePresent, controls._shell_IImageList2_ForceImagePresent
 ms.prod: windows-hardware
 ms.technology: windows-devices

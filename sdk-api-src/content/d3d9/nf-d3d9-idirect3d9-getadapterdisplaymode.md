@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3d9__getadapterdisplaymode.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3d9__getadapterdisplaymode.htm
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/10/2018
 ms.keywords: GetAdapterDisplayMode method [Direct3D 9], GetAdapterDisplayMode method [Direct3D 9], IDirect3D9 interface, GetAdapterDisplayMode,IDirect3D9.GetAdapterDisplayMode, IDirect3D9, IDirect3D9 interface [Direct3D 9], GetAdapterDisplayMode method, IDirect3D9::GetAdapterDisplayMode, a03b5255-0046-403d-b90f-e76191710598, d3d9helper/IDirect3D9::GetAdapterDisplayMode, direct3d9.idirect3d9__getadapterdisplaymode
 ms.prod: windows-hardware
 ms.technology: windows-devices

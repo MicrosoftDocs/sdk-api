@@ -7,7 +7,7 @@ old-location: controls\itextdocument2_getactivestory.htm
 old-project: Controls
 ms.assetid: 9849d958-5bcf-44d9-827c-3d5619ba2357
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: GetActiveStory method [Windows Controls], GetActiveStory method [Windows Controls], ITextDocument2 interface, GetActiveStory,ITextDocument2.GetActiveStory, ITextDocument2, ITextDocument2 interface [Windows Controls], GetActiveStory method, ITextDocument2::GetActiveStory, controls.itextdocument2_getactivestory, tom/ITextDocument2::GetActiveStory
 ms.prod: windows-hardware
 ms.technology: windows-devices

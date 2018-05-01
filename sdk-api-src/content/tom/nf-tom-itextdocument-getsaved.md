@@ -7,7 +7,7 @@ old-location: controls\ITextDocument_GetSaved.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getsaved.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: GetSaved method [Windows Controls], GetSaved method [Windows Controls], ITextDocument interface, GetSaved,ITextDocument.GetSaved, ITextDocument, ITextDocument interface [Windows Controls], GetSaved method, ITextDocument::GetSaved, _win32_ITextDocument_GetSaved, _win32_ITextDocument_GetSaved_cpp, controls.ITextDocument_GetSaved, controls._win32_ITextDocument_GetSaved, tom/ITextDocument::GetSaved
 ms.prod: windows-hardware
 ms.technology: windows-devices

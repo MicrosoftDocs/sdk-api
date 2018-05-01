@@ -7,7 +7,7 @@ old-location: mf\imftopology_getnode.htm
 old-project: medfound
 ms.assetid: 97053d10-5ac7-40c0-b46b-77d401284d58
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 97053d10-5ac7-40c0-b46b-77d401284d58, GetNode method [Media Foundation], GetNode method [Media Foundation], IMFTopology interface, GetNode,IMFTopology.GetNode, IMFTopology, IMFTopology interface [Media Foundation], GetNode method, IMFTopology::GetNode, mf.imftopology_getnode, mfidl/IMFTopology::GetNode
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\ibda_nulltransform_stop.htm
 old-project: mstv
 ms.assetid: 1881d54f-2e26-4cb5-8456-da24f569875b
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IBDA_NullTransform, IBDA_NullTransform interface [Microsoft TV Technologies], Stop method, IBDA_NullTransform::Stop, IBDA_NullTransformStop, Stop method [Microsoft TV Technologies], Stop method [Microsoft TV Technologies], IBDA_NullTransform interface, Stop,IBDA_NullTransform.Stop, bdaiface/IBDA_NullTransform::Stop, mstv.ibda_nulltransform_stop
 ms.prod: windows-hardware
 ms.technology: windows-devices

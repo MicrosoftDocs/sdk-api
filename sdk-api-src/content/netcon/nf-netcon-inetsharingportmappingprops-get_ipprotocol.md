@@ -7,7 +7,7 @@ old-location: ics\inetsharingportmappingprops_get_ipprotocol.htm
 old-project: ICS
 ms.assetid: a227074e-014b-4b76-b1d7-e1728bd99270
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: INetSharingPortMappingProps, INetSharingPortMappingProps interface [ICS/ICF], get_IPProtocol method, INetSharingPortMappingProps::get_IPProtocol, _ics_inetsharingportmappingprops_get_ipprotocol, get_IPProtocol method [ICS/ICF], get_IPProtocol method [ICS/ICF], INetSharingPortMappingProps interface, get_IPProtocol,INetSharingPortMappingProps.get_IPProtocol, ics.inetsharingportmappingprops_get_ipprotocol, netcon/INetSharingPortMappingProps::get_IPProtocol
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # INetSharingPortMappingProps::get_IPProtocol method

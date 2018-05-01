@@ -7,7 +7,7 @@ old-location: setup\msisummaryinfogetpropertycount.htm
 old-project: Msi
 ms.assetid: 8a9fe9cc-8289-479a-acda-ce2a2b76705f
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/26/2018
 ms.keywords: MsiSummaryInfoGetPropertyCount, MsiSummaryInfoGetPropertyCount function, _msi_msisummaryinfogetpropertycount, msiquery/MsiSummaryInfoGetPropertyCount, setup.msisummaryinfogetpropertycount
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\ivpbaseconfig_setdirectdrawkernelhandle.htm
 old-project: DirectShow
 ms.assetid: f3a04341-6cca-4fb4-bf47-30659d039a0d
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IVPBaseConfig, IVPBaseConfig interface [DirectShow], SetDirectDrawKernelHandle method, IVPBaseConfig::SetDirectDrawKernelHandle, IVPBaseConfigSetDirectDrawKernelHandle, SetDirectDrawKernelHandle method [DirectShow], SetDirectDrawKernelHandle method [DirectShow], IVPBaseConfig interface, SetDirectDrawKernelHandle,IVPBaseConfig.SetDirectDrawKernelHandle, dshow.ivpbaseconfig_setdirectdrawkernelhandle, vpconfig/IVPBaseConfig::SetDirectDrawKernelHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

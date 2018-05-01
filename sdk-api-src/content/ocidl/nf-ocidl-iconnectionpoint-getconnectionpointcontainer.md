@@ -7,7 +7,7 @@ old-location: com\iconnectionpoint_getconnectionpointcontainer.htm
 old-project: com
 ms.assetid: 12c0c777-27ce-4e6d-8e9a-f6333e4112bf
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: GetConnectionPointContainer method [COM], GetConnectionPointContainer method [COM], IConnectionPoint interface, GetConnectionPointContainer,IConnectionPoint.GetConnectionPointContainer, IConnectionPoint, IConnectionPoint interface [COM], GetConnectionPointContainer method, IConnectionPoint::GetConnectionPointContainer, _com_iconnectionpoint_getconnectionpointcontainer, com.iconnectionpoint_getconnectionpointcontainer, ocidl/IConnectionPoint::GetConnectionPointContainer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IConnectionPoint::GetConnectionPointContainer method

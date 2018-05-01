@@ -7,7 +7,7 @@ old-location: indexsrv\istemmer_generatewordforms.htm
 old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_65lw.htm
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/11/2018
 ms.keywords: GenerateWordForms method [Indexing Service], GenerateWordForms method [Indexing Service], IStemmer interface, GenerateWordForms,IStemmer.GenerateWordForms, IStemmer, IStemmer interface [Indexing Service], GenerateWordForms method, IStemmer::GenerateWordForms, _idxs_IStemmer_StemWord, indexsrv.istemmer_generatewordforms, indexsrv/IStemmer::GenerateWordForms
 ms.prod: windows-hardware
 ms.technology: windows-devices

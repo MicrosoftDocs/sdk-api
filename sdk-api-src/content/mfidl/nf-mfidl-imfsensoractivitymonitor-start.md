@@ -7,7 +7,7 @@ old-location: mf\imfsensoractivitymonitor_start.htm
 old-project: medfound
 ms.assetid: 49300C9F-CA0B-4515-81C7-02F067B2BBD3
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFSensorActivityMonitor, IMFSensorActivityMonitor interface [Media Foundation], Start method, IMFSensorActivityMonitor::Start, Start method [Media Foundation], Start method [Media Foundation], IMFSensorActivityMonitor interface, Start,IMFSensorActivityMonitor.Start, mf.imfsensoractivitymonitor_start, mfidl/IMFSensorActivityMonitor::Start
 ms.prod: windows-hardware
 ms.technology: windows-devices

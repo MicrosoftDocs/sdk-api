@@ -7,7 +7,7 @@ old-location: mstv\ibda_ipsinkcontrol_getmulticastlist.htm
 old-project: mstv
 ms.assetid: 005cce5c-e8fb-49f0-8a75-b05cdd1f5e1b
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetMulticastList method [Microsoft TV Technologies], GetMulticastList method [Microsoft TV Technologies], IBDA_IPSinkControl interface, GetMulticastList,IBDA_IPSinkControl.GetMulticastList, IBDA_IPSinkControl, IBDA_IPSinkControl interface [Microsoft TV Technologies], GetMulticastList method, IBDA_IPSinkControl::GetMulticastList, IBDA_IPSinkControlGetMulticastList, bdaiface/IBDA_IPSinkControl::GetMulticastList, mstv.ibda_ipsinkcontrol_getmulticastlist
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmformat\iwmreaderadvanced_setreceivestreamsamples.htm
 old-project: wmformat
 ms.assetid: 3fb39726-7f43-41ec-9ead-38456b5cd964
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMReaderAdvanced, IWMReaderAdvanced interface [windows Media Format], SetReceiveStreamSamples method, IWMReaderAdvanced::SetReceiveStreamSamples, IWMReaderAdvancedSetReceiveStreamSamples, SetReceiveStreamSamples method [windows Media Format], SetReceiveStreamSamples method [windows Media Format], IWMReaderAdvanced interface, SetReceiveStreamSamples,IWMReaderAdvanced.SetReceiveStreamSamples, wmformat.iwmreaderadvanced_setreceivestreamsamples, wmsdkidl/IWMReaderAdvanced::SetReceiveStreamSamples
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: appxpkg\iappxmanifestdevicecapabilitiesenumerator_gethascurrent.ht
 old-project: appxpkg
 ms.assetid: 52E0C961-F947-4F66-B3A0-21AB0F64C4B4
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/26/2018
 ms.keywords: GetHasCurrent method [App packaging and management], GetHasCurrent method [App packaging and management], IAppxManifestDeviceCapabilitiesEnumerator interface, GetHasCurrent,IAppxManifestDeviceCapabilitiesEnumerator.GetHasCurrent, IAppxManifestDeviceCapabilitiesEnumerator, IAppxManifestDeviceCapabilitiesEnumerator interface [App packaging and management], GetHasCurrent method, IAppxManifestDeviceCapabilitiesEnumerator::GetHasCurrent, appxpackaging/IAppxManifestDeviceCapabilitiesEnumerator::GetHasCurrent, appxpkg.iappxmanifestdevicecapabilitiesenumerator_gethascurrent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_ARCHITECTURE2
+req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
 topic_type:
 -	APIRef
 -	kbSyntax

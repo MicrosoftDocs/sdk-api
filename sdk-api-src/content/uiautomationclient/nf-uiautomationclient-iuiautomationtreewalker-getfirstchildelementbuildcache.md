@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationTreeWalker_GetFirstChildBuildCache.htm
 old-project: WinAuto
 ms.assetid: 42bdc6c4-8ee5-4338-aba1-9740221786c8
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: GetFirstChildElementBuildCache method [Windows Accessibility], GetFirstChildElementBuildCache method [Windows Accessibility], IUIAutomationTreeWalker interface, GetFirstChildElementBuildCache,IUIAutomationTreeWalker.GetFirstChildElementBuildCache, IUIAutomationTreeWalker, IUIAutomationTreeWalker interface [Windows Accessibility], GetFirstChildElementBuildCache method, IUIAutomationTreeWalker::GetFirstChildElementBuildCache, uiauto.uiauto_IUIAutomationTreeWalker_GetFirstChildBuildCache, uiauto_IUIAutomationTreeWalker_GetFirstChildBuildCache, uiautomationclient/IUIAutomationTreeWalker::GetFirstChildElementBuildCache, winauto.uiauto_IUIAutomationTreeWalker_GetFirstChildBuildCache
 ms.prod: windows-hardware
 ms.technology: windows-devices

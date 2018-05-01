@@ -7,7 +7,7 @@ old-location: security\pfn_cert_create_context_sort_func.htm
 old-project: SecCrypto
 ms.assetid: 5ad79970-d076-4e97-bf56-d6aad4b46eaa
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: PFN_CERT_CREATE_CONTEXT_SORT_FUNC, PFN_CERT_CREATE_CONTEXT_SORT_FUNC function pointer [Security], security.pfn_cert_create_context_sort_func, wincrypt/PFN_CERT_CREATE_CONTEXT_SORT_FUNC
 ms.prod: windows-hardware
 ms.technology: windows-devices

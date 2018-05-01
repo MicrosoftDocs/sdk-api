@@ -7,7 +7,7 @@ old-location: dshow\ipinconnection_isendpin.htm
 old-project: DirectShow
 ms.assetid: e078c952-2c3b-48cd-a898-ac2de9fc359a
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IPinConnection, IPinConnection interface [DirectShow], IsEndPin method, IPinConnection::IsEndPin, IPinConnectionIsEndPin, IsEndPin method [DirectShow], IsEndPin method [DirectShow], IPinConnection interface, IsEndPin,IPinConnection.IsEndPin, dshow.ipinconnection_isendpin, strmif/IPinConnection::IsEndPin
 ms.prod: windows-hardware
 ms.technology: windows-devices

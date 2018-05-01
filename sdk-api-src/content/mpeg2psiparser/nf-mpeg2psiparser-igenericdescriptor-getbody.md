@@ -7,7 +7,7 @@ old-location: mstv\igenericdescriptor_getbody.htm
 old-project: mstv
 ms.assetid: fbb17e16-b0a4-45c1-b723-cbb6a61d4d0f
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetBody method [Microsoft TV Technologies], GetBody method [Microsoft TV Technologies], IGenericDescriptor interface, GetBody,IGenericDescriptor.GetBody, IGenericDescriptor, IGenericDescriptor interface [Microsoft TV Technologies], GetBody method, IGenericDescriptor::GetBody, IGenericDescriptorGetBody, mpeg2psiparser/IGenericDescriptor::GetBody, mstv.igenericdescriptor_getbody
 ms.prod: windows-hardware
 ms.technology: windows-devices

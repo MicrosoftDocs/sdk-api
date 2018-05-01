@@ -7,7 +7,7 @@ old-location: tapi2\linesenduseruserinfo.htm
 old-project: Tapi
 ms.assetid: 833827a0-bbb2-4df9-87a0-3b2eb1904611
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: "_tapi2_linesenduseruserinfo, lineSendUserUserInfo, lineSendUserUserInfo function [TAPI 2.2], tapi/lineSendUserUserInfo, tapi2.linesenduseruserinfo"
 ms.prod: windows-hardware
 ms.technology: windows-devices

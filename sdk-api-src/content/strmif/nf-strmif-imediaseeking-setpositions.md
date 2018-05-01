@@ -7,7 +7,7 @@ old-location: dshow\imediaseeking_setpositions.htm
 old-project: DirectShow
 ms.assetid: aa1369fd-a57a-4246-bb23-969f6ce3cad8
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IMediaSeeking, IMediaSeeking interface [DirectShow], SetPositions method, IMediaSeeking::SetPositions, IMediaSeekingSetPositions, SetPositions method [DirectShow], SetPositions method [DirectShow], IMediaSeeking interface, SetPositions,IMediaSeeking.SetPositions, dshow.imediaseeking_setpositions, strmif/IMediaSeeking::SetPositions
 ms.prod: windows-hardware
 ms.technology: windows-devices

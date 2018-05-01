@@ -7,7 +7,7 @@ old-location: wmi\cthreadbase_onfinalrelease.htm
 old-project: WmiSdk
 ms.assetid: a17a379d-60ba-4a76-8900-58fabadad5ea
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: "?OnFinalRelease@CThreadBase@@MAEXXZ, ?OnFinalRelease@CThreadBase@@MEAAXXZ, CThreadBase, CThreadBase interface [Windows Management Instrumentation], OnFinalRelease method, CThreadBase::OnFinalRelease, OnFinalRelease method [Windows Management Instrumentation], OnFinalRelease method [Windows Management Instrumentation], CThreadBase interface, OnFinalRelease,CThreadBase.OnFinalRelease, thrdbase/CThreadBase::OnFinalRelease, wmi.cthreadbase_onfinalrelease"
 ms.prod: windows-hardware
 ms.technology: windows-devices

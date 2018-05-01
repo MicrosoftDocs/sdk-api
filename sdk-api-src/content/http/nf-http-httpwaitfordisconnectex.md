@@ -7,7 +7,7 @@ old-location: http\httpwaitfordisconnectex.htm
 old-project: Http
 ms.assetid: D4946ECF-0E0E-439E-AEE5-BF24BD73D2B6
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: HttpWaitForDisconnectEx, HttpWaitForDisconnectEx function [HTTP], http.httpwaitfordisconnectex, http/HttpWaitForDisconnectEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

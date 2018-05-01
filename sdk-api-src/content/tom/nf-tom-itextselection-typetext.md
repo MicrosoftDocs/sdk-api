@@ -7,7 +7,7 @@ old-location: controls\ITextSelection_TypeText.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\typetext.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextSelection, ITextSelection interface [Windows Controls], TypeText method, ITextSelection::TypeText, TypeText method [Windows Controls], TypeText method [Windows Controls], ITextSelection interface, TypeText,ITextSelection.TypeText, _win32_ITextSelection_TypeText, _win32_ITextSelection_TypeText_cpp, controls.ITextSelection_TypeText, controls._win32_ITextSelection_TypeText, tom/ITextSelection::TypeText
 ms.prod: windows-hardware
 ms.technology: windows-devices

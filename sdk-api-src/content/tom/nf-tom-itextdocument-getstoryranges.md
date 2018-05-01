@@ -7,7 +7,7 @@ old-location: controls\ITextDocument_GetStoryRanges.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getstoryranges.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: GetStoryRanges method [Windows Controls], GetStoryRanges method [Windows Controls], ITextDocument interface, GetStoryRanges,ITextDocument.GetStoryRanges, ITextDocument, ITextDocument interface [Windows Controls], GetStoryRanges method, ITextDocument::GetStoryRanges, _win32_ITextDocument_GetStoryRanges, _win32_ITextDocument_GetStoryRanges_cpp, controls.ITextDocument_GetStoryRanges, controls._win32_ITextDocument_GetStoryRanges, tom/ITextDocument::GetStoryRanges
 ms.prod: windows-hardware
 ms.technology: windows-devices

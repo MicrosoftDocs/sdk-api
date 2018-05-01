@@ -7,7 +7,7 @@ old-location: fwp\fwp_value0_struct.htm
 old-project: FWP
 ms.assetid: d3ffe19b-2c9b-4c7b-82c1-f9b846546212
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: FWP_VALUE0, FWP_VALUE0 structure [Filtering], FWP_VALUE0_, fwp.fwp_value0_struct, fwptypes/FWP_VALUE0
 ms.prod: windows-hardware
 ms.technology: windows-devices

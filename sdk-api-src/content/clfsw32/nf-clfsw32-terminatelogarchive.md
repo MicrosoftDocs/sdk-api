@@ -7,7 +7,7 @@ old-location: fs\terminatelogarchive.htm
 old-project: Clfs
 ms.assetid: 885356e1-f7c4-4f3f-98c3-fb9b1d339e22
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/25/2018
 ms.keywords: TerminateLogArchive, TerminateLogArchive function [Files], clfsw32/TerminateLogArchive, fs.terminatelogarchive
 ms.prod: windows-hardware
 ms.technology: windows-devices

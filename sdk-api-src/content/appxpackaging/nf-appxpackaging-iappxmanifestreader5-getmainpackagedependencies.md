@@ -7,7 +7,7 @@ old-location: appxpkg\iappxmanifestreader5_getmainpackagedependencies.htm
 old-project: appxpkg
 ms.assetid: E89A6A43-28F6-4A9A-A8B7-3450B68E3DB1
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/26/2018
 ms.keywords: GetMainPackageDependencies method [App packaging and management], GetMainPackageDependencies method [App packaging and management], IAppxManifestReader5 interface, GetMainPackageDependencies,IAppxManifestReader5.GetMainPackageDependencies, IAppxManifestReader5, IAppxManifestReader5 interface [App packaging and management], GetMainPackageDependencies method, IAppxManifestReader5::GetMainPackageDependencies, appxpackaging/IAppxManifestReader5::GetMainPackageDependencies, appxpkg.iappxmanifestreader5_getmainpackagedependencies
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_ARCHITECTURE2
+req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
 topic_type:
 -	APIRef
 -	kbSyntax

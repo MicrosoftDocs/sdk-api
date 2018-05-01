@@ -7,7 +7,7 @@ old-location: wmp\iwmpeffects2_setcore.htm
 old-project: WMP
 ms.assetid: d5afbf1d-ecb9-43d4-8396-db7c54720731
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPEffects2, IWMPEffects2 interface [Windows Media Player], SetCore method, IWMPEffects2::SetCore, IWMPEffectsSetCore, SetCore method [Windows Media Player], SetCore method [Windows Media Player], IWMPEffects2 interface, SetCore,IWMPEffects2.SetCore, effects/IWMPEffects2::SetCore, wmp.iwmpeffects2_setcore
 ms.prod: windows-hardware
 ms.technology: windows-devices

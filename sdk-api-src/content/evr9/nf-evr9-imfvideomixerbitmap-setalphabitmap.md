@@ -7,7 +7,7 @@ old-location: mf\imfvideomixerbitmap_setalphabitmap.htm
 old-project: medfound
 ms.assetid: a70e6734-bf49-4dea-8bf6-917b8465cc78
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFVideoMixerBitmap, IMFVideoMixerBitmap interface [Media Foundation], SetAlphaBitmap method, IMFVideoMixerBitmap::SetAlphaBitmap, SetAlphaBitmap method [Media Foundation], SetAlphaBitmap method [Media Foundation], IMFVideoMixerBitmap interface, SetAlphaBitmap,IMFVideoMixerBitmap.SetAlphaBitmap, a70e6734-bf49-4dea-8bf6-917b8465cc78, evr9/IMFVideoMixerBitmap::SetAlphaBitmap, mf.imfvideomixerbitmap_setalphabitmap
 ms.prod: windows-hardware
 ms.technology: windows-devices

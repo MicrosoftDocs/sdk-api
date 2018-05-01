@@ -7,7 +7,7 @@ old-location: winauto\uiauto_UiaNodeFromPointFunction.htm
 old-project: WinAuto
 ms.assetid: 46da2f6a-3cb7-4220-b578-4fcf9711b99f
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: UiaNodeFromPoint, UiaNodeFromPoint function [Windows Accessibility], uiauto.uiauto_UiaNodeFromPointFunction, uiauto_UiaNodeFromPointFunction, uiautomationcoreapi/UiaNodeFromPoint, winauto.uiauto_UiaNodeFromPointFunction
 ms.prod: windows-hardware
 ms.technology: windows-devices

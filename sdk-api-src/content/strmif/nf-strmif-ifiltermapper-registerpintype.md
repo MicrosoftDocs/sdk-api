@@ -7,7 +7,7 @@ old-location: dshow\ifiltermapper_registerpintype.htm
 old-project: DirectShow
 ms.assetid: 7f92745b-2b97-4cc6-9755-a580827b5bba
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IFilterMapper, IFilterMapper interface [DirectShow], RegisterPinType method, IFilterMapper::RegisterPinType, IFilterMapperRegisterPinType, RegisterPinType method [DirectShow], RegisterPinType method [DirectShow], IFilterMapper interface, RegisterPinType,IFilterMapper.RegisterPinType, dshow.ifiltermapper_registerpintype, strmif/IFilterMapper::RegisterPinType
 ms.prod: windows-hardware
 ms.technology: windows-devices

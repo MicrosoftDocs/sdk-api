@@ -7,7 +7,7 @@ old-location: termserv\iwtsprotocolconnection_getprotocolstatus.htm
 old-project: TermServ
 ms.assetid: d224877a-649a-4ac2-a5e7-831592e6a0d9
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: GetProtocolStatus method [Remote Desktop Services], GetProtocolStatus method [Remote Desktop Services], IWTSProtocolConnection interface, GetProtocolStatus,IWTSProtocolConnection.GetProtocolStatus, IWTSProtocolConnection, IWTSProtocolConnection interface [Remote Desktop Services], GetProtocolStatus method, IWTSProtocolConnection::GetProtocolStatus, termserv.iwtsprotocolconnection_getprotocolstatus, wtsprotocol/IWTSProtocolConnection::GetProtocolStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

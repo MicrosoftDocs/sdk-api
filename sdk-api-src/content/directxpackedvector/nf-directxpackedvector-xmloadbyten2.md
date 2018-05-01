@@ -7,7 +7,7 @@ old-location: dxmath\xmloadbyten2.htm
 old-project: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadByteN2(const XMBYTEN2)
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/23/2018
 ms.keywords: DirectX::PackedVector.XMLoadByteN2, XMLoadByteN2, XMLoadByteN2 method [DirectX Math Support APIs], dxmath.xmloadbyten2
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\ivideoencoder.htm
 old-project: DirectShow
 ms.assetid: 9264f7a2-b2d4-4449-913b-f1e5ecb40cac
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IVideoEncoder, IVideoEncoder interface [DirectShow], IVideoEncoder interface [DirectShow], described, dshow.ivideoencoder, strmif/IVideoEncoder
 ms.prod: windows-hardware
 ms.technology: windows-devices

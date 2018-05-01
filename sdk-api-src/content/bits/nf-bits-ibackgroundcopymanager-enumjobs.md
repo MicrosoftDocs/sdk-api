@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopymanager_enumjobs.htm
 old-project: Bits
 ms.assetid: e8b73060-dff9-4ab3-8009-d2b41502fc1a
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/10/2018
 ms.keywords: BG_JOB_ENUM_ALL_USERS, EnumJobs method [BITS], EnumJobs method [BITS], IBackgroundCopyManager interface, EnumJobs,IBackgroundCopyManager.EnumJobs, IBackgroundCopyManager, IBackgroundCopyManager interface [BITS], EnumJobs method, IBackgroundCopyManager::EnumJobs, _drz_ibackgroundcopymanager_enumjobs, bits.ibackgroundcopymanager_enumjobs, bits/IBackgroundCopyManager::EnumJobs
 ms.prod: windows-hardware
 ms.technology: windows-devices

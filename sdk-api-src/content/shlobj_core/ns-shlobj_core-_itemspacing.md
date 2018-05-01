@@ -7,7 +7,7 @@ old-location: shell\ITEMSPACING.htm
 old-project: shell
 ms.assetid: fcd7f3da-6aba-4683-bd5e-14a6b5f93cb5
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ITEMSPACING, ITEMSPACING structure [Windows Shell], _ITEMSPACING, _shell_ITEMSPACING, shell.ITEMSPACING, shlobj_core/ITEMSPACING
 ms.prod: windows-hardware
 ms.technology: windows-devices

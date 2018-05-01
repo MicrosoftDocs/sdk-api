@@ -7,7 +7,7 @@ old-location: security\iazclientcontext_userdn.htm
 old-project: SecAuthZ
 ms.assetid: 1561352c-254e-41a2-bfc9-795a678ce180
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: AzClientContext object [Security], UserDn property, IAzClientContext, IAzClientContext interface [Security], UserDn property, IAzClientContext.UserDn, IAzClientContext::get_UserDn, UserDn property [Security], UserDn property [Security], AzClientContext object, UserDn property [Security], IAzClientContext interface, azroles/IAzClientContext::UserDn, azroles/IAzClientContext::get_UserDn, get_UserDn,IAzClientContext.get_UserDn, security.iazclientcontext_userdn
 ms.prod: windows-hardware
 ms.technology: windows-devices

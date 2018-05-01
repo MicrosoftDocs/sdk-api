@@ -7,7 +7,7 @@ old-location: cos\ipublisherfilter_initialize.htm
 old-project: cossdk
 ms.assetid: 803201c7-7fa8-4db5-858f-3d5af302ee88
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: IPublisherFilter, IPublisherFilter interface [COM+], Initialize method, IPublisherFilter::Initialize, Initialize method [COM+], Initialize method [COM+], IPublisherFilter interface, Initialize,IPublisherFilter.Initialize, _cos_IPublisherFilter_Initialize, cos.ipublisherfilter_initialize, eventsys/IPublisherFilter::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

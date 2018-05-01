@@ -7,7 +7,7 @@ old-location: com\ienumstring_next.htm
 old-project: com
 ms.assetid: e08edeac-92c3-4947-9f55-224aab237453
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IEnumString, IEnumString interface [COM], Next method, IEnumString::Next, Next method [COM], Next method [COM], IEnumString interface, Next,IEnumString.Next, _com_ienumstring_next, com.ienumstring_next, objidlbase/IEnumString::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IEnumString::Next method

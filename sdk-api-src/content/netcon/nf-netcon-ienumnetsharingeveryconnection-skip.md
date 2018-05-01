@@ -7,7 +7,7 @@ old-location: ics\ienumnetsharingeveryconnection_skip.htm
 old-project: ICS
 ms.assetid: 97400d6a-67b7-4091-82ef-38cbaa27efa5
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: IEnumNetSharingEveryConnection, IEnumNetSharingEveryConnection interface [ICS/ICF], Skip method, IEnumNetSharingEveryConnection::Skip, Skip method [ICS/ICF], Skip method [ICS/ICF], IEnumNetSharingEveryConnection interface, Skip,IEnumNetSharingEveryConnection.Skip, _ics_ienumnetsharingeveryconnection_skip, ics.ienumnetsharingeveryconnection_skip, netcon/IEnumNetSharingEveryConnection::Skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IEnumNetSharingEveryConnection::Skip method

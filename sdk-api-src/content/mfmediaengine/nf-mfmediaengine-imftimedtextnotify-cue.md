@@ -7,7 +7,7 @@ old-location: mf\imftimedtextnotify_cue.htm
 old-project: medfound
 ms.assetid: EE577250-2D75-4130-BA50-95D3E455A574
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: Cue method [Media Foundation], Cue method [Media Foundation], IMFTimedTextNotify interface, Cue,IMFTimedTextNotify.Cue, IMFTimedTextNotify, IMFTimedTextNotify interface [Media Foundation], Cue method, IMFTimedTextNotify::Cue, mf.imftimedtextnotify_cue, mfmediaengine/IMFTimedTextNotify::Cue
 ms.prod: windows-hardware
 ms.technology: windows-devices

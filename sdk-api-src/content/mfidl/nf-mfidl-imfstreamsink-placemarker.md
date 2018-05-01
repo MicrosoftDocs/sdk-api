@@ -7,7 +7,7 @@ old-location: mf\imfstreamsink_placemarker.htm
 old-project: medfound
 ms.assetid: bfa4fb12-59b2-4599-b8ff-dc38750a5a79
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFStreamSink, IMFStreamSink interface [Media Foundation], PlaceMarker method, IMFStreamSink::PlaceMarker, PlaceMarker method [Media Foundation], PlaceMarker method [Media Foundation], IMFStreamSink interface, PlaceMarker,IMFStreamSink.PlaceMarker, bfa4fb12-59b2-4599-b8ff-dc38750a5a79, mf.imfstreamsink_placemarker, mfidl/IMFStreamSink::PlaceMarker
 ms.prod: windows-hardware
 ms.technology: windows-devices

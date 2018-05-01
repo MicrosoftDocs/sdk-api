@@ -7,7 +7,7 @@ old-location: security\iocspcaconfiguration_identifier_method.htm
 old-project: SecCrypto
 ms.assetid: a35aaaf1-8bad-4de1-a2e8-2e4947c30d72
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: IOCSPCAConfiguration, IOCSPCAConfiguration interface [Security], Identifier property, IOCSPCAConfiguration.Identifier, IOCSPCAConfiguration::get_Identifier, Identifier property [Security], Identifier property [Security], IOCSPCAConfiguration interface, certadm/IOCSPCAConfiguration::Identifier, certadm/IOCSPCAConfiguration::get_Identifier, get_Identifier,IOCSPCAConfiguration.get_Identifier, security.iocspcaconfiguration_identifier_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CHANNEL_ENTRY_POINTS, *PCHANNEL_ENTRY_POINTS
+req.typenames: 
 topic_type:
 -	APIRef
 -	kbSyntax

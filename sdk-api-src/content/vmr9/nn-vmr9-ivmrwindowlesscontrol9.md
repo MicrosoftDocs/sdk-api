@@ -7,7 +7,7 @@ old-location: dshow\ivmrwindowlesscontrol9.htm
 old-project: DirectShow
 ms.assetid: 9db99c31-65b5-4ff1-9c0d-22140a3687e8
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IVMRWindowlessControl9, IVMRWindowlessControl9 interface [DirectShow], IVMRWindowlessControl9 interface [DirectShow], described, IVMRWindowlessControl9Interface, dshow.ivmrwindowlesscontrol9, vmr9/IVMRWindowlessControl9
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicdevelopraw_setnoisereduction.htm
 old-project: wic
 ms.assetid: d0c78274-0a1f-4a98-a449-ae902795a71b
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: IWICDevelopRaw, IWICDevelopRaw interface [Windows Imaging Component], SetNoiseReduction method, IWICDevelopRaw::SetNoiseReduction, SetNoiseReduction method [Windows Imaging Component], SetNoiseReduction method [Windows Imaging Component], IWICDevelopRaw interface, SetNoiseReduction,IWICDevelopRaw.SetNoiseReduction, _wic_codec_iwicdevelopraw_setnoisereduction, wic._wic_codec_iwicdevelopraw_setnoisereduction, wincodec/IWICDevelopRaw::SetNoiseReduction
 ms.prod: windows-hardware
 ms.technology: windows-devices

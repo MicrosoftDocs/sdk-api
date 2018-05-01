@@ -7,7 +7,7 @@ old-location: shell\ICredentialProvider_SetUsageScenario.htm
 old-project: shell
 ms.assetid: 62577b41-e115-45df-9f9b-c5c282365a3e
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: CREDUIWIN_AUTHPACKAGE_ONLY, CREDUIWIN_CHECKBOX, CREDUIWIN_ENUMERATE_ADMINS, CREDUIWIN_ENUMERATE_CURRENT_USER, CREDUIWIN_GENERIC, CREDUIWIN_IN_CRED_ONLY, CREDUIWIN_PACK_32_WOW, CREDUIWIN_SECURE_PROMPT, ICredentialProvider, ICredentialProvider interface [Windows Shell], SetUsageScenario method, ICredentialProvider::SetUsageScenario, SetUsageScenario method [Windows Shell], SetUsageScenario method [Windows Shell], ICredentialProvider interface, SetUsageScenario,ICredentialProvider.SetUsageScenario, credentialprovider/ICredentialProvider::SetUsageScenario, shell.ICredentialProvider_SetUsageScenario, shell_ICredentialProvider_SetUsageScenario
 ms.prod: windows-hardware
 ms.technology: windows-devices

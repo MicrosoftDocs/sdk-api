@@ -7,7 +7,7 @@ old-location: http\http_set_null_id.htm
 old-project: Http
 ms.assetid: d4a15361-3346-4c05-a3df-4503da183549
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: HTTP_SET_NULL_ID, HTTP_SET_NULL_ID macro [HTTP], http.http_set_null_id, http/HTTP_SET_NULL_ID
 ms.prod: windows-hardware
 ms.technology: windows-devices

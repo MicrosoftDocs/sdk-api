@@ -7,7 +7,7 @@ old-location: wic\iwicplanarbitmapframeencode_writepixels.htm
 old-project: wic
 ms.assetid: 57DB1340-9BE4-46ED-9ADE-9B91657F09B7
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: IWICPlanarBitmapFrameEncode, IWICPlanarBitmapFrameEncode interface [Windows Imaging Component], WritePixels method, IWICPlanarBitmapFrameEncode::WritePixels, WritePixels method [Windows Imaging Component], WritePixels method [Windows Imaging Component], IWICPlanarBitmapFrameEncode interface, WritePixels,IWICPlanarBitmapFrameEncode.WritePixels, wic.iwicplanarbitmapframeencode_writepixels, wincodec/IWICPlanarBitmapFrameEncode::WritePixels
 ms.prod: windows-hardware
 ms.technology: windows-devices

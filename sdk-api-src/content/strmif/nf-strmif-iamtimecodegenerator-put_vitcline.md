@@ -7,7 +7,7 @@ old-location: dshow\iamtimecodegenerator_put_vitcline.htm
 old-project: DirectShow
 ms.assetid: 351bf80b-f14c-454f-9d20-ceff4a437fcd
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMTimecodeGenerator, IAMTimecodeGenerator interface [DirectShow], put_VITCLine method, IAMTimecodeGenerator::put_VITCLine, IAMTimecodeGeneratorput_VITCLine, dshow.iamtimecodegenerator_put_vitcline, put_VITCLine method [DirectShow], put_VITCLine method [DirectShow], IAMTimecodeGenerator interface, put_VITCLine,IAMTimecodeGenerator.put_VITCLine, strmif/IAMTimecodeGenerator::put_VITCLine
 ms.prod: windows-hardware
 ms.technology: windows-devices

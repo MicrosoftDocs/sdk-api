@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyjob2_getreplyprogress.htm
 old-project: Bits
 ms.assetid: 76509b1a-fdfb-4236-8554-f63282bfc1b6
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/10/2018
 ms.keywords: GetReplyProgress method [BITS], GetReplyProgress method [BITS], IBackgroundCopyJob2 interface, GetReplyProgress,IBackgroundCopyJob2.GetReplyProgress, IBackgroundCopyJob2, IBackgroundCopyJob2 interface [BITS], GetReplyProgress method, IBackgroundCopyJob2::GetReplyProgress, _drz_ibackgroundcopyjob2_getreplyprogress, bits.ibackgroundcopyjob2_getreplyprogress, bits1_5/IBackgroundCopyJob2::GetReplyProgress
 ms.prod: windows-hardware
 ms.technology: windows-devices

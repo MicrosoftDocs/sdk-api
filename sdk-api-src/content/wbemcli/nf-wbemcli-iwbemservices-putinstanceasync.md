@@ -7,7 +7,7 @@ old-location: wmi\iwbemservices_putinstanceasync.htm
 old-project: WmiSdk
 ms.assetid: fef3eb72-74ba-49cd-b992-292405d29917
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: IWbemServices, IWbemServices interface [Windows Management Instrumentation], PutInstanceAsync method, IWbemServices::PutInstanceAsync, PutInstanceAsync method [Windows Management Instrumentation], PutInstanceAsync method [Windows Management Instrumentation], IWbemServices interface, PutInstanceAsync,IWbemServices.PutInstanceAsync, WBEM_FLAG_CREATE_ONLY, WBEM_FLAG_CREATE_OR_UPDATE, WBEM_FLAG_SEND_STATUS, WBEM_FLAG_UPDATE_ONLY, WBEM_FLAG_USE_AMENDED_QUALIFIERS, _hmm_iwbemservices_putinstanceasync, wbemcli/IWbemServices::PutInstanceAsync, wmi.iwbemservices_putinstanceasync
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\ix509certificaterequestcmc2_checksignature.htm
 old-project: SecCertEnroll
 ms.assetid: 55051bcd-0002-4a0e-874e-8b09e196a838
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: AllowedKeySignature, AllowedNullSignature, CheckSignature method [Security], CheckSignature method [Security], IX509CertificateRequestCmc2 interface, CheckSignature,IX509CertificateRequestCmc2.CheckSignature, IX509CertificateRequestCmc2, IX509CertificateRequestCmc2 interface [Security], CheckSignature method, IX509CertificateRequestCmc2::CheckSignature, certenroll/IX509CertificateRequestCmc2::CheckSignature, security.ix509certificaterequestcmc2_checksignature
 ms.prod: windows-hardware
 ms.technology: windows-devices

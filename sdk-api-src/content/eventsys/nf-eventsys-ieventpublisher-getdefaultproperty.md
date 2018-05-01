@@ -7,7 +7,7 @@ old-location: com\ieventpublisher_getdefaultproperty.htm
 old-project: com
 ms.assetid: 5d9adc4f-30c9-42bd-89c9-e35384885b8c
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: GetDefaultProperty method [COM], GetDefaultProperty method [COM], IEventPublisher interface, GetDefaultProperty,IEventPublisher.GetDefaultProperty, IEventPublisher, IEventPublisher interface [COM], GetDefaultProperty method, IEventPublisher::GetDefaultProperty, _com_ieventpublisher_getdefaultproperty, com.ieventpublisher_getdefaultproperty, eventsys/IEventPublisher::GetDefaultProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

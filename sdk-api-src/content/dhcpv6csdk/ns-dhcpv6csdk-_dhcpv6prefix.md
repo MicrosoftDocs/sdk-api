@@ -7,7 +7,7 @@ old-location: dhcp\dhcpv6prefix.htm
 old-project: DHCP
 ms.assetid: e04e3275-e4be-44bc-bd63-c45500971af7
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/7/2018
 ms.keywords: "*LPDHCPV6Prefix, *PDHCPV6Prefix, DHCPV6Prefix, DHCPV6Prefix structure [DHCP], LPDHCPV6Prefix, LPDHCPV6Prefix structure pointer [DHCP], PDHCPV6Prefix, PDHCPV6Prefix structure pointer [DHCP], _DHCPV6Prefix, dhcp.dhcpv6prefix, dhcpv6csdk/DHCPV6Prefix, dhcpv6csdk/LPDHCPV6Prefix, dhcpv6csdk/PDHCPV6Prefix"
 ms.prod: windows-hardware
 ms.technology: windows-devices

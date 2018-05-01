@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrSyncItem_GetObject.htm
 old-project: shell
 ms.assetid: 54336c43-348b-4767-94e4-fe7dc47c0876
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetObject method [Windows Shell], GetObject method [Windows Shell], ISyncMgrSyncItem interface, GetObject,ISyncMgrSyncItem.GetObject, ISyncMgrSyncItem, ISyncMgrSyncItem interface [Windows Shell], GetObject method, ISyncMgrSyncItem::GetObject, SYNCMGR_OBJECTID_BrowseContent, SYNCMGR_OBJECTID_ConflictStore, SYNCMGR_OBJECTID_EventStore, SYNCMGR_OBJECTID_Icon, SYNCMGR_OBJECTID_QueryBeforeDelete, SYNCMGR_OBJECTID_QueryBeforeDisable, SYNCMGR_OBJECTID_QueryBeforeEnable, _shell_ISyncMgrSyncItem_GetObject, shell.ISyncMgrSyncItem_GetObject, syncmgr/ISyncMgrSyncItem::GetObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

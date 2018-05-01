@@ -7,7 +7,7 @@ old-location: dxmath\intersects_1.htm
 old-project: dxmath
 ms.assetid: M:Microsoft.directx_sdk.TriangleTests.Intersects(XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR)
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/23/2018
 ms.keywords: DirectX::TriangleTests.Intersects, Intersects, Intersects method [DirectX Math Support APIs], dxmath.intersects_1
 ms.prod: windows-hardware
 ms.technology: windows-devices

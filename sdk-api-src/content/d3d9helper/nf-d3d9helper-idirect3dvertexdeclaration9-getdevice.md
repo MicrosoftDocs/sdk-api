@@ -1,0 +1,89 @@
+---
+UID: NF:d3d9helper.IDirect3DVertexDeclaration9.GetDevice
+title: IDirect3DVertexDeclaration9::GetDevice method
+author: windows-driver-content
+description: Gets the current device.
+old-location: direct3d9\idirect3dvertexdeclaration9__getdevice.htm
+old-project: direct3d9
+ms.assetid: VS|directx_sdk|~\idirect3dvertexdeclaration9__getdevice.htm
+ms.author: windowsdriverdev
+ms.date: 4/10/2018
+ms.keywords: 06ae2ca9-697f-c95d-8f0b-7e78f6bb21dd, GetDevice method [Direct3D 9], GetDevice method [Direct3D 9], IDirect3DVertexDeclaration9 interface, GetDevice,IDirect3DVertexDeclaration9.GetDevice, IDirect3DVertexDeclaration9, IDirect3DVertexDeclaration9 interface [Direct3D 9], GetDevice method, IDirect3DVertexDeclaration9::GetDevice, d3d9helper/IDirect3DVertexDeclaration9::GetDevice, direct3d9.idirect3dvertexdeclaration9__getdevice
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: d3d9helper.h
+req.include-header: D3D9.h
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: D3DVSHADERCAPS2_0
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	D3D9.lib
+-	D3D9.dll
+api_name:
+-	IDirect3DVertexDeclaration9.GetDevice
+product: Windows
+targetos: Windows
+req.lib: D3D9.lib
+req.dll: 
+req.irql: 
+---
+
+# IDirect3DVertexDeclaration9::GetDevice method
+
+
+## -description
+
+
+Gets the current device.
+
+
+## -parameters
+
+
+
+
+### -param ppDevice [out, retval]
+
+Type: <b><a href="https://msdn.microsoft.com/cf951e8e-7adb-417a-bda0-9b3cde4912a7">IDirect3DDevice9</a>**</b>
+
+Pointer to the IDirect3DDevice9 interface that is returned.
+
+
+## -returns
+
+
+
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+
+If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be:
+     D3DERR_INVALIDCALL.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/3c4a18a5-5307-48d0-8a21-afb343d5d816">IDirect3DVertexDeclaration9</a>
+ 
+
+ 
+

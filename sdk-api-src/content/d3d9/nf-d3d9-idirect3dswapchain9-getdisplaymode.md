@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3dswapchain9__getdisplaymode.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dswapchain9__getdisplaymode.htm
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/10/2018
 ms.keywords: GetDisplayMode method [Direct3D 9], GetDisplayMode method [Direct3D 9], IDirect3DSwapChain9 interface, GetDisplayMode,IDirect3DSwapChain9.GetDisplayMode, IDirect3DSwapChain9, IDirect3DSwapChain9 interface [Direct3D 9], GetDisplayMode method, IDirect3DSwapChain9::GetDisplayMode, b01c04d0-2b7a-e281-bf1a-9932194412c6, d3d9helper/IDirect3DSwapChain9::GetDisplayMode, direct3d9.idirect3dswapchain9__getdisplaymode
 ms.prod: windows-hardware
 ms.technology: windows-devices

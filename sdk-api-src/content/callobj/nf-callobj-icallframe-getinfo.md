@@ -7,7 +7,7 @@ old-location: com\icallframe_getinfo.htm
 old-project: com
 ms.assetid: 807b4542-c18d-48e4-8493-c40a85e5e1de
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: GetInfo method [COM], GetInfo method [COM], ICallFrame interface, GetInfo,ICallFrame.GetInfo, ICallFrame, ICallFrame interface [COM], GetInfo method, ICallFrame::GetInfo, _com_icallframe_getinfo, callobj/ICallFrame::GetInfo, com.icallframe_getinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

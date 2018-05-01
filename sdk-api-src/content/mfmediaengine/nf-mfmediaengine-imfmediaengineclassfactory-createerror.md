@@ -7,7 +7,7 @@ old-location: mf\imfmediaengineclassfactory_createerror.htm
 old-project: medfound
 ms.assetid: C089473D-CD35-4F5D-8C78-EDE0FA8C13EB
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: CreateError method [Media Foundation], CreateError method [Media Foundation], IMFMediaEngineClassFactory interface, CreateError,IMFMediaEngineClassFactory.CreateError, IMFMediaEngineClassFactory, IMFMediaEngineClassFactory interface [Media Foundation], CreateError method, IMFMediaEngineClassFactory::CreateError, mf.imfmediaengineclassfactory_createerror, mfmediaengine/IMFMediaEngineClassFactory::CreateError
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\spsealmessage.htm
 old-project: SecAuthN
 ms.assetid: 400bc3e7-e9a1-4267-b4de-44d79dceb9e5
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/24/2018
 ms.keywords: SpSealMessage, SpSealMessageFn, SpSealMessageFn function [Security], TBD, _ssp_spsealmessage, ntsecpkg/SpSealMessageFn, security.spsealmessage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # SpSealMessageFn callback

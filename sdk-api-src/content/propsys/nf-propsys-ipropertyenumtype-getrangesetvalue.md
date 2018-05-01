@@ -7,7 +7,7 @@ old-location: properties\IPropertyEnumType_GetRangeSetValue.htm
 old-project: properties
 ms.assetid: 63c5d2cd-70bc-45f6-a620-7b68ab94f8ff
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/5/2018
 ms.keywords: GetRangeSetValue method [Windows Properties], GetRangeSetValue method [Windows Properties], IPropertyEnumType interface, GetRangeSetValue,IPropertyEnumType.GetRangeSetValue, IPropertyEnumType, IPropertyEnumType interface [Windows Properties], GetRangeSetValue method, IPropertyEnumType::GetRangeSetValue, _shell_IPropertyEnumType_GetRangeSetValue, properties.IPropertyEnumType_GetRangeSetValue, propsys/IPropertyEnumType::GetRangeSetValue, shell.IPropertyEnumType_GetRangeSetValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IPropertyEnumType::GetRangeSetValue method

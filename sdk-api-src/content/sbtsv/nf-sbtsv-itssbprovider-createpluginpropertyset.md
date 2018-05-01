@@ -7,7 +7,7 @@ old-location: termserv\itssbprovider_createpluginpropertyset.htm
 old-project: TermServ
 ms.assetid: a15edb7a-4ff5-4832-8632-17b08cff4675
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: CreatePluginPropertySet method [Remote Desktop Services], CreatePluginPropertySet method [Remote Desktop Services], ITsSbProvider interface, CreatePluginPropertySet,ITsSbProvider.CreatePluginPropertySet, ITsSbProvider, ITsSbProvider interface [Remote Desktop Services], CreatePluginPropertySet method, ITsSbProvider::CreatePluginPropertySet, sbtsv/ITsSbProvider::CreatePluginPropertySet, termserv.itssbprovider_createpluginpropertyset
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITsSbProvider::CreatePluginPropertySet method

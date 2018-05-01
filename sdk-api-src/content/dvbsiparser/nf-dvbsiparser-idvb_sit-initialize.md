@@ -7,7 +7,7 @@ old-location: mstv\idvb_sit_initialize.htm
 old-project: mstv
 ms.assetid: 16e22efd-da9b-4777-93eb-fa338f1198fa
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IDVB_SIT, IDVB_SIT interface [Microsoft TV Technologies], Initialize method, IDVB_SIT::Initialize, IDVB_SITInitialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies], IDVB_SIT interface, Initialize,IDVB_SIT.Initialize, dvbsiparser/IDVB_SIT::Initialize, mstv.idvb_sit_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

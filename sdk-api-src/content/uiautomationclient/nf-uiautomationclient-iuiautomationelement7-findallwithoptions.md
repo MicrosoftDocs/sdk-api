@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement7_FindAllWithOptions.htm
 old-project: WinAuto
 ms.assetid: 1B157EBE-5576-41E8-9B4C-752EFA7832E5
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: FindAllWithOptions method [Windows Accessibility], FindAllWithOptions method [Windows Accessibility], IUIAutomationElement7 interface, FindAllWithOptions,IUIAutomationElement7.FindAllWithOptions, IUIAutomationElement7, IUIAutomationElement7 interface [Windows Accessibility], FindAllWithOptions method, IUIAutomationElement7::FindAllWithOptions, uiautomationclient/IUIAutomationElement7::FindAllWithOptions, winauto.uiauto_IUIAutomationElement7_FindAllWithOptions, winauto.uiauto_iuiautomationelement_findallwithoptions
 ms.prod: windows-hardware
 ms.technology: windows-devices

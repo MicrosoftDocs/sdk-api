@@ -7,7 +7,7 @@ old-location: wmi\iwbemservices_putclass.htm
 old-project: WmiSdk
 ms.assetid: fcb8694e-6bf1-426d-bc1d-18cf9925f1e0
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: IWbemServices, IWbemServices interface [Windows Management Instrumentation], PutClass method, IWbemServices::PutClass, PutClass method [Windows Management Instrumentation], PutClass method [Windows Management Instrumentation], IWbemServices interface, PutClass,IWbemServices.PutClass, WBEM_FLAG_CREATE_ONLY, WBEM_FLAG_CREATE_OR_UPDATE, WBEM_FLAG_OWNER_UPDATE, WBEM_FLAG_RETURN_IMMEDIATELY, WBEM_FLAG_UPDATE_COMPATIBLE, WBEM_FLAG_UPDATE_FORCE_MODE, WBEM_FLAG_UPDATE_ONLY, WBEM_FLAG_UPDATE_SAFE_MODE, WBEM_FLAG_USE_AMENDED_QUALIFIERS, _hmm_iwbemservices_putclass, wbemcli/IWbemServices::PutClass, wmi.iwbemservices_putclass
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\ivsscomponent_addpartialfile.htm
 old-project: VSS
 ms.assetid: 318dc1ee-e63f-4e79-96b9-8a8bd83facd3
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/17/2018
 ms.keywords: AddPartialFile method [VSS], AddPartialFile method [VSS], IVssComponent interface, AddPartialFile,IVssComponent.AddPartialFile, IVssComponent, IVssComponent interface [VSS], AddPartialFile method, IVssComponent::AddPartialFile, _win32_ivsscomponent_addpartialfile, base.ivsscomponent_addpartialfile, vswriter/IVssComponent::AddPartialFile
 ms.prod: windows-hardware
 ms.technology: windows-devices

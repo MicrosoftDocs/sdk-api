@@ -861,6 +861,9 @@ Contains SoH request and response information used during EAP authentication.  T
 This attribute type is exported by EAPHost and PEAP methods, and consumed by PPP server supplicants.
 
 
+### -field eatCertificateThumbprint
+
+
 ### -field eatPeerId
 
 The peer identity provided in the identity response message (EAP-Response/Identity). This identity may be different than the peer identity authenticated by the EAP method.   The <b>pValue</b> member  of  

@@ -7,7 +7,7 @@ old-location: security\icertencodestringarray_encode.htm
 old-project: SecCrypto
 ms.assetid: d8fc51ea-4d83-402a-a4ac-ce55d385905c
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: CCertEncodeStringArray object [Security], Encode method, Encode method [Security], Encode method [Security], CCertEncodeStringArray object, Encode method [Security], ICertEncodeStringArray interface, Encode,ICertEncodeStringArray.Encode, ICertEncodeStringArray, ICertEncodeStringArray interface [Security], Encode method, ICertEncodeStringArray::Encode, _certsrv_icertencodestringarray_encode, certenc/ICertEncodeStringArray::Encode, security.icertencodestringarray_encode
 ms.prod: windows-hardware
 ms.technology: windows-devices

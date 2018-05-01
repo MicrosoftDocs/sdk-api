@@ -7,7 +7,7 @@ old-location: wmi\chptrarray__operator_brackets.htm
 old-project: WmiSdk
 ms.assetid: 7005130a-bc0d-4058-aba2-d12ed50255cd
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: CHPtrArray, CHPtrArray interface [Windows Management Instrumentation], operator [] method, CHPtrArray::operator [], CHPtrArray::operator[], chptrarr/CHPtrArray::operator [], operator [] method [Windows Management Instrumentation], operator [] method [Windows Management Instrumentation], CHPtrArray interface, operator[],CHPtrArray.operator[], wmi.chptrarray__operator_brackets
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CF_SYNC_ROOT_STANDARD_INFO
+req.typenames: CF_SYNC_STATUS
 topic_type:
 -	APIRef
 -	kbSyntax

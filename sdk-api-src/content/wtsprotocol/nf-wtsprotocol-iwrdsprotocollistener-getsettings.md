@@ -7,7 +7,7 @@ old-location: termserv\iwrdsprotocollistener_getsettings.htm
 old-project: TermServ
 ms.assetid: 644eaa8f-776d-49de-af23-de9faef80e74
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: GetSettings method [Remote Desktop Services], GetSettings method [Remote Desktop Services], IWRdsProtocolListener interface, GetSettings,IWRdsProtocolListener.GetSettings, IWRdsProtocolListener, IWRdsProtocolListener interface [Remote Desktop Services], GetSettings method, IWRdsProtocolListener::GetSettings, termserv.iwrdsprotocollistener_getsettings, wtsprotocol/IWRdsProtocolListener::GetSettings
 ms.prod: windows-hardware
 ms.technology: windows-devices

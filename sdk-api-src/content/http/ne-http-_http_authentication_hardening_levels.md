@@ -7,7 +7,7 @@ old-location: http\http_authentication_hardening_levels.htm
 old-project: Http
 ms.assetid: da61e548-388a-4cb7-81bf-30bd312e27a6
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: HTTP_AUTHENTICATION_HARDENING_LEVELS, HTTP_AUTHENTICATION_HARDENING_LEVELS enumeration [HTTP], HttpAuthenticationHardeningLegacy, HttpAuthenticationHardeningMedium, HttpAuthenticationHardeningStrict, _HTTP_AUTHENTICATION_HARDENING_LEVELS, http.http_authentication_hardening_levels, http/HTTP_AUTHENTICATION_HARDENING_LEVELS, http/HttpAuthenticationHardeningLegacy, http/HttpAuthenticationHardeningMedium, http/HttpAuthenticationHardeningStrict
 ms.prod: windows-hardware
 ms.technology: windows-devices

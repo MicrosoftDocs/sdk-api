@@ -7,7 +7,7 @@ old-location: dshow\ifiltergraph.htm
 old-project: DirectShow
 ms.assetid: 73a92f44-03c6-47e3-98d1-a20100ed8fa1
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IFilterGraph, IFilterGraph interface [DirectShow], IFilterGraph interface [DirectShow], described, IFilterGraphInterface, dshow.ifiltergraph, strmif/IFilterGraph
 ms.prod: windows-hardware
 ms.technology: windows-devices

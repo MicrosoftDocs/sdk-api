@@ -7,7 +7,7 @@ old-location: com\ifont_put_underline.htm
 old-project: com
 ms.assetid: c763c050-cf69-4c9d-83a9-66ccc1d4376c
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: IFont, IFont interface [COM], put_Underline method, IFont::put_Underline, _ctrl_ifont_put_underline, com.ifont_put_underline, ocidl/IFont::put_Underline, put_Underline method [COM], put_Underline method [COM], IFont interface, put_Underline,IFont.put_Underline
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IFont::put_Underline method

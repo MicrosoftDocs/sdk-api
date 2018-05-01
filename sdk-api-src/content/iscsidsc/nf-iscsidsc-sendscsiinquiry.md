@@ -7,7 +7,7 @@ old-location: iscsidisc\sendscsiinquiry.htm
 old-project: iSCSIDisc
 ms.assetid: a1339ff0-aa1e-4609-8983-d5f09481bd13
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: SendScsiInquiry, SendScsiInquiry function [iSCSI Discovery Library API], iscsidisc.sendscsiinquiry, iscsidsc/SendScsiInquiry
 ms.prod: windows-hardware
 ms.technology: windows-devices

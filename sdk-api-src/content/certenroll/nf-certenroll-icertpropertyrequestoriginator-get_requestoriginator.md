@@ -7,7 +7,7 @@ old-location: security\icertpropertyrequestoriginator_requestoriginator_property
 old-project: SecCertEnroll
 ms.assetid: 0ac6b8da-9183-4683-a172-a9742b40da64
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: ICertPropertyRequestOriginator, ICertPropertyRequestOriginator interface [Security], RequestOriginator property, ICertPropertyRequestOriginator.RequestOriginator, ICertPropertyRequestOriginator::get_RequestOriginator, RequestOriginator property [Security], RequestOriginator property [Security], ICertPropertyRequestOriginator interface, certenroll/ICertPropertyRequestOriginator::RequestOriginator, certenroll/ICertPropertyRequestOriginator::get_RequestOriginator, get_RequestOriginator,ICertPropertyRequestOriginator.get_RequestOriginator, security.icertpropertyrequestoriginator_requestoriginator_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

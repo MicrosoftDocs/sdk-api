@@ -7,7 +7,7 @@ old-location: mf\id3d11videodevice_checkcryptokeyexchange.htm
 old-project: medfound
 ms.assetid: AE2DA6F9-6153-43AF-8E61-26FB9DD5A1D1
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: CheckCryptoKeyExchange method [Media Foundation], CheckCryptoKeyExchange method [Media Foundation], ID3D11VideoDevice interface, CheckCryptoKeyExchange,ID3D11VideoDevice.CheckCryptoKeyExchange, D3D11_CRYPTO_TYPE_AES128_CTR, ID3D11VideoDevice, ID3D11VideoDevice interface [Media Foundation], CheckCryptoKeyExchange method, ID3D11VideoDevice::CheckCryptoKeyExchange, d3d11/ID3D11VideoDevice::CheckCryptoKeyExchange, mf.id3d11videodevice_checkcryptokeyexchange
 ms.prod: windows-hardware
 ms.technology: windows-devices

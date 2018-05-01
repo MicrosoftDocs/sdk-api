@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol2_playperiodintitleautostop.htm
 old-project: DirectShow
 ms.assetid: 6c0d647c-a0c3-428e-8368-9204049dfea8
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IDvdControl2, IDvdControl2 interface [DirectShow], PlayPeriodInTitleAutoStop method, IDvdControl2::PlayPeriodInTitleAutoStop, IDvdControl2PlayPeriodInTitleAutoStop, PlayPeriodInTitleAutoStop method [DirectShow], PlayPeriodInTitleAutoStop method [DirectShow], IDvdControl2 interface, PlayPeriodInTitleAutoStop,IDvdControl2.PlayPeriodInTitleAutoStop, dshow.idvdcontrol2_playperiodintitleautostop, strmif/IDvdControl2::PlayPeriodInTitleAutoStop
 ms.prod: windows-hardware
 ms.technology: windows-devices

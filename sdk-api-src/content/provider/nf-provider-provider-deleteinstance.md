@@ -7,7 +7,7 @@ old-location: wmi\provider_deleteinstance.htm
 old-project: WmiSdk
 ms.assetid: 469d2481-95ea-4d17-b0ef-095ced9c8319
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: DeleteInstance method [Windows Management Instrumentation], DeleteInstance method [Windows Management Instrumentation], Provider interface, DeleteInstance,Provider.DeleteInstance, Provider, Provider interface [Windows Management Instrumentation], DeleteInstance method, Provider::DeleteInstance, _hmm_provider_deleteinstance, provider/Provider::DeleteInstance, wmi.provider_deleteinstance
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # Provider::DeleteInstance method

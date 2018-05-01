@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxinboundroutingextensions_count_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_2gl0.htm
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/18/2018
 ms.keywords: Count property [Fax Service], Count property [Fax Service], FaxInboundRoutingExtensions object, FaxInboundRoutingExtensions object [Fax Service], Count property, IFaxInboundRoutingExtensions, IFaxInboundRoutingExtensions::get_Count, _mfax_faxinboundroutingextensions.count, fax._mfax_faxinboundroutingextensions_count, fax._mfax_faxinboundroutingextensions_count_vb, get_Count,IFaxInboundRoutingExtensions.get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices

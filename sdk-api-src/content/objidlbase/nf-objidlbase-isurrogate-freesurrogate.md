@@ -7,7 +7,7 @@ old-location: com\isurrogate_freesurrogate.htm
 old-project: com
 ms.assetid: d897b02a-2540-4274-a0e3-e5c9299104a2
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: FreeSurrogate method [COM], FreeSurrogate method [COM], ISurrogate interface, FreeSurrogate,ISurrogate.FreeSurrogate, ISurrogate, ISurrogate interface [COM], FreeSurrogate method, ISurrogate::FreeSurrogate, _com_isurrogate_freesurrogate, com.isurrogate_freesurrogate, objidlbase/ISurrogate::FreeSurrogate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ISurrogate::FreeSurrogate method

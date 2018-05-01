@@ -7,7 +7,7 @@ old-location: mf\imfsourcebuffer_settimestampoffset.htm
 old-project: medfound
 ms.assetid: db905149-f6f2-445e-87bb-6705a1a078eb
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: IMFSourceBuffer, IMFSourceBuffer interface [Media Foundation], SetTimeStampOffset method, IMFSourceBuffer::SetTimeStampOffset, SetTimeStampOffset method [Media Foundation], SetTimeStampOffset method [Media Foundation], IMFSourceBuffer interface, SetTimeStampOffset,IMFSourceBuffer.SetTimeStampOffset, mf.imfsourcebuffer_settimestampoffset, mfmediaengine/IMFSourceBuffer::SetTimeStampOffset
 ms.prod: windows-hardware
 ms.technology: windows-devices

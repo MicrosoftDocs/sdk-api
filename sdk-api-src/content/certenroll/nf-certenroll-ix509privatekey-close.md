@@ -7,7 +7,7 @@ old-location: security\ix509privatekey_close_method.htm
 old-project: SecCertEnroll
 ms.assetid: c4ed2375-0d50-4cb5-b0c4-c80962e22c9c
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: Close method [Security], Close method [Security], IX509PrivateKey interface, Close,IX509PrivateKey.Close, IX509PrivateKey, IX509PrivateKey interface [Security], Close method, IX509PrivateKey::Close, certenroll/IX509PrivateKey::Close, security.ix509privatekey_close_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

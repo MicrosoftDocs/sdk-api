@@ -7,7 +7,7 @@ old-location: security\azauthorizationstore_addpolicyadministrator.htm
 old-project: SecAuthZ
 ms.assetid: 8d73bc05-1366-4b47-9eaf-4a247ebf8d93
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: AddPolicyAdministrator method [Security], AddPolicyAdministrator method [Security], AzAuthorizationStore object, AddPolicyAdministrator method [Security], IAzAuthorizationStore interface, AddPolicyAdministrator,IAzAuthorizationStore.AddPolicyAdministrator, AzAuthorizationStore object [Security], AddPolicyAdministrator method, IAzAuthorizationStore, IAzAuthorizationStore interface [Security], AddPolicyAdministrator method, IAzAuthorizationStore::AddPolicyAdministrator, azroles/IAzAuthorizationStore::AddPolicyAdministrator, security.azauthorizationstore_addpolicyadministrator
 ms.prod: windows-hardware
 ms.technology: windows-devices

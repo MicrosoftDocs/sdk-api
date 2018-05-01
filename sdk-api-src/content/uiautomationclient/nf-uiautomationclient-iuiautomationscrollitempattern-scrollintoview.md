@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationScrollItemPattern_ScrollIntoView.htm
 old-project: WinAuto
 ms.assetid: 66991918-dd06-400a-902d-887ff226de16
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: IUIAutomationScrollItemPattern, IUIAutomationScrollItemPattern interface [Windows Accessibility], ScrollIntoView method, IUIAutomationScrollItemPattern::ScrollIntoView, ScrollIntoView method [Windows Accessibility], ScrollIntoView method [Windows Accessibility], IUIAutomationScrollItemPattern interface, ScrollIntoView,IUIAutomationScrollItemPattern.ScrollIntoView, uiauto.uiauto_IUIAutomationScrollItemPattern_ScrollIntoView, uiauto_IUIAutomationScrollItemPattern_ScrollIntoView, uiautomationclient/IUIAutomationScrollItemPattern::ScrollIntoView, winauto.uiauto_IUIAutomationScrollItemPattern_ScrollIntoView
 ms.prod: windows-hardware
 ms.technology: windows-devices

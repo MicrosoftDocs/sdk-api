@@ -7,7 +7,7 @@ old-location: wmi\chstring_left.htm
 old-project: WmiSdk
 ms.assetid: 52219bbb-0a88-47b3-ac6c-ba54d15e8157
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: "?Left@CHString@@QBE?AV1@H@Z, ?Left@CHString@@QEBA?AV1@H@Z, CHString, CHString interface [Windows Management Instrumentation], Left method, CHString::Left, Left method [Windows Management Instrumentation], Left method [Windows Management Instrumentation], CHString interface, Left,CHString.Left, _hmm_chstring_left, chstring/CHString::Left, wmi.chstring_left"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CF_SYNC_ROOT_STANDARD_INFO
+req.typenames: CF_SYNC_STATUS
 topic_type:
 -	APIRef
 -	kbSyntax

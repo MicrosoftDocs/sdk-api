@@ -7,7 +7,7 @@ old-location: dshow\iamstreamconfig_getnumberofcapabilities.htm
 old-project: DirectShow
 ms.assetid: 355b8c4c-6d07-4d31-8dc5-ddc5ec2bf1cd
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: GetNumberOfCapabilities method [DirectShow], GetNumberOfCapabilities method [DirectShow], IAMStreamConfig interface, GetNumberOfCapabilities,IAMStreamConfig.GetNumberOfCapabilities, IAMStreamConfig, IAMStreamConfig interface [DirectShow], GetNumberOfCapabilities method, IAMStreamConfig::GetNumberOfCapabilities, IAMStreamConfigGetNumberOfCapabilities, dshow.iamstreamconfig_getnumberofcapabilities, strmif/IAMStreamConfig::GetNumberOfCapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices

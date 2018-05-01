@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effect_isoptimized.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effect_isoptimized.htm
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: 0d82fdb1-e0b0-7198-dd16-2dfcd0280bfe, ID3D10Effect, ID3D10Effect interface [Direct3D 10], IsOptimized method, ID3D10Effect::IsOptimized, IsOptimized method [Direct3D 10], IsOptimized method [Direct3D 10], ID3D10Effect interface, IsOptimized,ID3D10Effect.IsOptimized, d3d10effect/ID3D10Effect::IsOptimized, direct3d10.id3d10effect_isoptimized
 ms.prod: windows-hardware
 ms.technology: windows-devices

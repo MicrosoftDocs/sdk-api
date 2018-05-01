@@ -7,7 +7,7 @@ old-location: dshow\iamvfwcapturedialogs.htm
 old-project: DirectShow
 ms.assetid: 5198c80c-28f3-4b5c-9b3b-aa502bf3a384
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMVfwCaptureDialogs, IAMVfwCaptureDialogs interface [DirectShow], IAMVfwCaptureDialogs interface [DirectShow], described, IAMVfwCaptureDialogsInterface, dshow.iamvfwcapturedialogs, strmif/IAMVfwCaptureDialogs
 ms.prod: windows-hardware
 ms.technology: windows-devices

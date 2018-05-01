@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationPropertyCondition_PropertyId.htm
 old-project: WinAuto
 ms.assetid: 931dcc5c-9b43-4413-b389-875763672432
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: IUIAutomationPropertyCondition, IUIAutomationPropertyCondition interface [Windows Accessibility], PropertyId property, IUIAutomationPropertyCondition.PropertyId, IUIAutomationPropertyCondition::get_PropertyId, PropertyId property [Windows Accessibility], PropertyId property [Windows Accessibility], IUIAutomationPropertyCondition interface, get_PropertyId,IUIAutomationPropertyCondition.get_PropertyId, uiauto.uiauto_IUIAutomationPropertyCondition_PropertyId, uiauto_IUIAutomationPropertyCondition_PropertyId, uiautomationclient/IUIAutomationPropertyCondition::PropertyId, uiautomationclient/IUIAutomationPropertyCondition::get_PropertyId, winauto.uiauto_IUIAutomationPropertyCondition_PropertyId
 ms.prod: windows-hardware
 ms.technology: windows-devices

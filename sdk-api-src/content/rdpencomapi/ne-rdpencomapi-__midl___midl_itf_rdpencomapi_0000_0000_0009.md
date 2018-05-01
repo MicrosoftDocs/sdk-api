@@ -39,9 +39,9 @@ api_name:
 product: Windows
 targetos: Windows
 req.lib: 
-req.dll: 
+req.dll: MsTscAx.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # __MIDL___MIDL_itf_rdpencomapi_0000_0000_0009 enumeration

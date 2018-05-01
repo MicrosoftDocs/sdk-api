@@ -7,7 +7,7 @@ old-location: dshow\ibasicvideo_setdefaultdestinationposition.htm
 old-project: DirectShow
 ms.assetid: 82ee1be5-4a58-4104-a8a5-3c3926e2f1d2
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IBasicVideo, IBasicVideo interface [DirectShow], SetDefaultDestinationPosition method, IBasicVideo::SetDefaultDestinationPosition, IBasicVideoSetDefaultDestinationPosition, SetDefaultDestinationPosition method [DirectShow], SetDefaultDestinationPosition method [DirectShow], IBasicVideo interface, SetDefaultDestinationPosition,IBasicVideo.SetDefaultDestinationPosition, control/IBasicVideo::SetDefaultDestinationPosition, dshow.ibasicvideo_setdefaultdestinationposition
 ms.prod: windows-hardware
 ms.technology: windows-devices

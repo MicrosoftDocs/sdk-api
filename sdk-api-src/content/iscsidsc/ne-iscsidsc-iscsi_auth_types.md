@@ -7,7 +7,7 @@ old-location: iscsidisc\iscsi_auth_types.htm
 old-project: iSCSIDisc
 ms.assetid: 432f1968-e2ca-4594-80cc-0f1a852ec81a
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: "*PISCSI_AUTH_TYPES, ISCSI_AUTH_TYPES, ISCSI_AUTH_TYPES enumeration [iSCSI Discovery Library API], ISCSI_CHAP_AUTH_TYPE, ISCSI_MUTUAL_CHAP_AUTH_TYPE, ISCSI_NO_AUTH_TYPE, iscsidisc.iscsi_auth_types, iscsidsc/ISCSI_AUTH_TYPES, iscsidsc/ISCSI_CHAP_AUTH_TYPE, iscsidsc/ISCSI_MUTUAL_CHAP_AUTH_TYPE, iscsidsc/ISCSI_NO_AUTH_TYPE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

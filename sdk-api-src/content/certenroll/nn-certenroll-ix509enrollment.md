@@ -7,7 +7,7 @@ old-location: security\ix509enrollment.htm
 old-project: SecCertEnroll
 ms.assetid: 37f1dd3b-bbe9-40ab-87c9-2405d97f5541
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: IX509Enrollment, IX509Enrollment interface [Security], IX509Enrollment interface [Security], described, certenroll/IX509Enrollment, security.ix509enrollment
 ms.prod: windows-hardware
 ms.technology: windows-devices

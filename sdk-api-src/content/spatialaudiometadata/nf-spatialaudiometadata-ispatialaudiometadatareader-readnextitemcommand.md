@@ -7,7 +7,7 @@ old-location: coreaudio\ispatialaudiometadatareader_readnextitemcommand.htm
 old-project: CoreAudio
 ms.assetid: 9B58546A-FBE3-47CD-8E5F-63D0C5608F00
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: ISpatialAudioMetadataReader, ISpatialAudioMetadataReader interface [Core Audio], ReadNextItemCommand method, ISpatialAudioMetadataReader::ReadNextItemCommand, ReadNextItemCommand method [Core Audio], ReadNextItemCommand method [Core Audio], ISpatialAudioMetadataReader interface, ReadNextItemCommand,ISpatialAudioMetadataReader.ReadNextItemCommand, coreaudio.ispatialaudiometadatareader_readnextitemcommand, spatialaudiometadata/ISpatialAudioMetadataReader::ReadNextItemCommand
 ms.prod: windows-hardware
 ms.technology: windows-devices

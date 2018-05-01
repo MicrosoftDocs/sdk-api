@@ -7,7 +7,7 @@ old-location: setup\merge_openmodule.htm
 old-project: Msi
 ms.assetid: fc976899-2c39-4314-b2fb-417e0dfc53b9
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/26/2018
 ms.keywords: Merge class, OpenModule method, OpenModule, OpenModule method, OpenModule method, Merge class, _msi_openmodule_method, setup.merge_openmodule
 ms.prod: windows-hardware
 ms.technology: windows-devices

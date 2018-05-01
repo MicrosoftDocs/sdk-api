@@ -7,7 +7,7 @@ old-location: termserv\itssbprovider_createloadbalanceresultobject.htm
 old-project: TermServ
 ms.assetid: aaa13ec1-d79c-4458-9340-3cc42bbcd948
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: CreateLoadBalanceResultObject method [Remote Desktop Services], CreateLoadBalanceResultObject method [Remote Desktop Services], ITsSbProvider interface, CreateLoadBalanceResultObject,ITsSbProvider.CreateLoadBalanceResultObject, ITsSbProvider, ITsSbProvider interface [Remote Desktop Services], CreateLoadBalanceResultObject method, ITsSbProvider::CreateLoadBalanceResultObject, sbtsv/ITsSbProvider::CreateLoadBalanceResultObject, termserv.itssbprovider_createloadbalanceresultobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITsSbProvider::CreateLoadBalanceResultObject method

@@ -7,7 +7,7 @@ old-location: wmformat\iwmdrmreader_monitorlicenseacquisition.htm
 old-project: wmformat
 ms.assetid: 0b15dce6-7591-479a-b28e-5006418a1c7b
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMDRMReader, IWMDRMReader interface [windows Media Format], MonitorLicenseAcquisition method, IWMDRMReader::MonitorLicenseAcquisition, IWMDRMReaderMonitorLicenseAcquisition, MonitorLicenseAcquisition method [windows Media Format], MonitorLicenseAcquisition method [windows Media Format], IWMDRMReader interface, MonitorLicenseAcquisition,IWMDRMReader.MonitorLicenseAcquisition, wmformat.iwmdrmreader_monitorlicenseacquisition, wmsdkidl/IWMDRMReader::MonitorLicenseAcquisition
 ms.prod: windows-hardware
 ms.technology: windows-devices

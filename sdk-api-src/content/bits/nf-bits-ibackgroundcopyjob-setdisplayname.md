@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyjob_setdisplayname.htm
 old-project: Bits
 ms.assetid: 504b0096-891c-4bf7-a311-9d351b359210
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/10/2018
 ms.keywords: IBackgroundCopyJob, IBackgroundCopyJob interface [BITS], SetDisplayName method, IBackgroundCopyJob::SetDisplayName, SetDisplayName method [BITS], SetDisplayName method [BITS], IBackgroundCopyJob interface, SetDisplayName,IBackgroundCopyJob.SetDisplayName, _drz_ibackgroundcopyjob_setdisplayname, bits.ibackgroundcopyjob_setdisplayname, bits/IBackgroundCopyJob::SetDisplayName
 ms.prod: windows-hardware
 ms.technology: windows-devices

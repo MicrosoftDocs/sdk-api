@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_wicconvertbitmapsource.htm
 old-project: wic
 ms.assetid: ea735296-1bfd-4175-b8c9-cb5a61ab4203
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: WICConvertBitmapSource, WICConvertBitmapSource function [Windows Imaging Component], _wic_codec_wicconvertbitmapsource, wic._wic_codec_wicconvertbitmapsource, wincodec/WICConvertBitmapSource
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\imscepsetup_setaccountinformation.htm
 old-project: SecCrypto
 ms.assetid: 32d09bdc-e8e8-4368-9f51-cc7ba170c8a0
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: IMSCEPSetup, IMSCEPSetup interface [Security], SetAccountInformation method, IMSCEPSetup::SetAccountInformation, SetAccountInformation method [Security], SetAccountInformation method [Security], IMSCEPSetup interface, SetAccountInformation,IMSCEPSetup.SetAccountInformation, casetup/IMSCEPSetup::SetAccountInformation, security.imscepsetup_setaccountinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

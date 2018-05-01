@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol2_activateatposition.htm
 old-project: DirectShow
 ms.assetid: ff9eb02c-09c0-4b58-8e38-ec84ab1f1c42
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: ActivateAtPosition method [DirectShow], ActivateAtPosition method [DirectShow], IDvdControl2 interface, ActivateAtPosition,IDvdControl2.ActivateAtPosition, IDvdControl2, IDvdControl2 interface [DirectShow], ActivateAtPosition method, IDvdControl2::ActivateAtPosition, IDvdControl2ActivateAtPosition, dshow.idvdcontrol2_activateatposition, strmif/IDvdControl2::ActivateAtPosition
 ms.prod: windows-hardware
 ms.technology: windows-devices

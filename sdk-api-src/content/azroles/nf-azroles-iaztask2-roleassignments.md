@@ -7,7 +7,7 @@ old-location: security\iaztask2_roleassignments_method.htm
 old-project: SecAuthZ
 ms.assetid: 1c60b9e7-3d02-4dce-9c45-cf9bf9b83ace
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: IAzTask2, IAzTask2 interface [Security], RoleAssignments method, IAzTask2::RoleAssignments, RoleAssignments method [Security], RoleAssignments method [Security], IAzTask2 interface, RoleAssignments,IAzTask2.RoleAssignments, azroles/IAzTask2::RoleAssignments, security.iaztask2_roleassignments_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

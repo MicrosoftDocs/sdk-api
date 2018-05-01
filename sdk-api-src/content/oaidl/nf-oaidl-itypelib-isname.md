@@ -7,7 +7,7 @@ old-location: automat\itypelib_isname.htm
 old-project: automat
 ms.assetid: c9cd5cc8-f65f-43de-9dd4-c617b56ecadf
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: ITypeLib, ITypeLib interface [Automation], IsName method, ITypeLib::IsName, IsName method [Automation], IsName method [Automation], ITypeLib interface, IsName,ITypeLib.IsName, _oa96_ITypeLib_IsName, automat.itypelib_isname, oaidl/ITypeLib::IsName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITypeLib::IsName method

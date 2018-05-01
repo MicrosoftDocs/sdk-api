@@ -58,6 +58,14 @@ Contains virtual hard disk (VHD) information to use when you call the <a href="h
 
 
 
+### -field Version
+
+A <a href="https://msdn.microsoft.com/c9dd9d64-f96b-48f0-bc85-2f81ea3e2cb5">SET_VIRTUAL_DISK_INFO_VERSION</a> 
+      enumeration that specifies the version of the 
+      <b>SET_VIRTUAL_DISK_INFO</b> structure being passed to or 
+      from the VHD functions. This determines the type of information set.
+
+
 ### -field ParentPathWithDepthInfo
 
 Sets the parent file path and the child depth. Set the <b>Version</b> member to 
@@ -92,14 +100,6 @@ The unique identifier for the parent linkage information.
 ### -field ParentLocator.ParentFilePath
 
 The path of the file for the parent VHD.
-
-
-### -field Version
-
-A <a href="https://msdn.microsoft.com/c9dd9d64-f96b-48f0-bc85-2f81ea3e2cb5">SET_VIRTUAL_DISK_INFO_VERSION</a> 
-      enumeration that specifies the version of the 
-      <b>SET_VIRTUAL_DISK_INFO</b> structure being passed to or 
-      from the VHD functions. This determines the type of information set.
 
 
 #### - ChangeTrackingEnabled

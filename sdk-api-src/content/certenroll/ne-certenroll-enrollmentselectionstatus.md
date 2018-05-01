@@ -7,7 +7,7 @@ old-location: security\enrollmentselectionstatus_enum.htm
 old-project: SecCertEnroll
 ms.assetid: a762d81b-0426-483c-a9c0-70f531f4b6ac
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: EnrollmentSelectionStatus, EnrollmentSelectionStatus enumeration [Security], SelectedNo, SelectedYes, certenroll/EnrollmentSelectionStatus, certenroll/SelectedNo, certenroll/SelectedYes, security.enrollmentselectionstatus_enum
 ms.prod: windows-hardware
 ms.technology: windows-devices

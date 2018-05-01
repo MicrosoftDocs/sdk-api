@@ -7,7 +7,7 @@ old-location: mf\imfattributes_getdouble.htm
 old-project: medfound
 ms.assetid: 650a5f7f-609f-477b-8834-ff66ca3a9ca3
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 650a5f7f-609f-477b-8834-ff66ca3a9ca3, GetDouble method [Media Foundation], GetDouble method [Media Foundation], IMFAttributes interface, GetDouble,IMFAttributes.GetDouble, IMFActivate.GetDouble, IMFAttributes, IMFAttributes interface [Media Foundation], GetDouble method, IMFAttributes::GetDouble, mf.imfattributes_getdouble, mfobjects/IMFAttributes::GetDouble
 ms.prod: windows-hardware
 ms.technology: windows-devices

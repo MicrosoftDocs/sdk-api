@@ -7,7 +7,7 @@ old-location: perf\perfdecrementulongcountervalue.htm
 old-project: PerfCtrs
 ms.assetid: 5e8b40d6-b794-4bac-8832-3eb14c49ecec
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/23/2018
 ms.keywords: PerfDecrementULongCounterValue, PerfDecrementULongCounterValue function [Perf], perf.perfdecrementulongcountervalue, perflib/PerfDecrementULongCounterValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # PerfDecrementULongCounterValue function

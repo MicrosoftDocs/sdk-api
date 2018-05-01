@@ -7,7 +7,7 @@ old-location: stg\irootstorage_switchtofile.htm
 old-project: Stg
 ms.assetid: d482b51a-7159-4aab-ac5e-3f1878d426b2
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/20/2018
 ms.keywords: IRootStorage, IRootStorage interface [Structured Storage], SwitchToFile method, IRootStorage::SwitchToFile, SwitchToFile method [Structured Storage], SwitchToFile method [Structured Storage], IRootStorage interface, SwitchToFile,IRootStorage.SwitchToFile, _stg_irootstorage_switchtofile, objidl/IRootStorage::SwitchToFile, stg.irootstorage_switchtofile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IRootStorage::SwitchToFile method

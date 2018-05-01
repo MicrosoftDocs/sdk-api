@@ -7,7 +7,7 @@ old-location: wmformat\iwmreadernetworkconfig_setproxyhostname.htm
 old-project: wmformat
 ms.assetid: 5638a5d6-30f3-43eb-b054-cab85948796c
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMReaderNetworkConfig, IWMReaderNetworkConfig interface [windows Media Format], SetProxyHostName method, IWMReaderNetworkConfig::SetProxyHostName, IWMReaderNetworkConfigSetProxyHostName, SetProxyHostName method [windows Media Format], SetProxyHostName method [windows Media Format], IWMReaderNetworkConfig interface, SetProxyHostName,IWMReaderNetworkConfig.SetProxyHostName, wmformat.iwmreadernetworkconfig_setproxyhostname, wmsdkidl/IWMReaderNetworkConfig::SetProxyHostName
 ms.prod: windows-hardware
 ms.technology: windows-devices

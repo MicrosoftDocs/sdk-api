@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicbitmapframeencode_setpalette.htm
 old-project: wic
 ms.assetid: c463fc95-695d-4ba3-bf62-5b09d69c60c2
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: IWICBitmapFrameEncode, IWICBitmapFrameEncode interface [Windows Imaging Component], SetPalette method, IWICBitmapFrameEncode::SetPalette, SetPalette method [Windows Imaging Component], SetPalette method [Windows Imaging Component], IWICBitmapFrameEncode interface, SetPalette,IWICBitmapFrameEncode.SetPalette, _wic_codec_iwicbitmapframeencode_setpalette, wic._wic_codec_iwicbitmapframeencode_setpalette, wincodec/IWICBitmapFrameEncode::SetPalette
 ms.prod: windows-hardware
 ms.technology: windows-devices

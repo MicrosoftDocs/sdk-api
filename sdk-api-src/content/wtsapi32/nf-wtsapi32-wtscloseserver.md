@@ -7,7 +7,7 @@ old-location: termserv\wtscloseserver.htm
 old-project: TermServ
 ms.assetid: 092a6107-21bf-40a7-9fe7-f069eb0c89ca
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: WTSCloseServer, WTSCloseServer function [Remote Desktop Services], _win32_wtscloseserver, termserv.wtscloseserver, wtsapi32/WTSCloseServer
 ms.prod: windows-hardware
 ms.technology: windows-devices

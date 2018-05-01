@@ -7,7 +7,7 @@ old-location: wmp\iwmpstringcollection2_getattributecountbytype.htm
 old-project: WMP
 ms.assetid: 62e31749-2640-4b65-a8ee-47f3d3dd5485
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPStringCollection2, IWMPStringCollection2 interface [Windows Media Player], getAttributeCountByType method, IWMPStringCollection2::getAttributeCountByType, IWMPStringCollection2getAttributeCountByType, getAttributeCountByType method [Windows Media Player], getAttributeCountByType method [Windows Media Player], IWMPStringCollection2 interface, getAttributeCountByType,IWMPStringCollection2.getAttributeCountByType, wmp.iwmpstringcollection2_getattributecountbytype, wmp/IWMPStringCollection2::getAttributeCountByType
 ms.prod: windows-hardware
 ms.technology: windows-devices

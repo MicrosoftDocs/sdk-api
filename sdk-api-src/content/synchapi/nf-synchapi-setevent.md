@@ -7,7 +7,7 @@ old-location: base\setevent.htm
 old-project: Sync
 ms.assetid: b474eef1-5df9-4729-b940-0c5f201c5f31
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: SetEvent, SetEvent function, _win32_setevent, base.setevent, synchapi/SetEvent, winbase/SetEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

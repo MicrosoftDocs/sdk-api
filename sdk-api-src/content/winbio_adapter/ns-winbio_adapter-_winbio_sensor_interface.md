@@ -7,7 +7,7 @@ old-location: secbiomet\winbio_sensor_interface.htm
 old-project: SecBioMet
 ms.assetid: ab5a7146-936f-4ee5-9864-4f5a3b774724
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: "*PWINBIO_SENSOR_INTERFACE, PWINBIO_SENSOR_INTERFACE, PWINBIO_SENSOR_INTERFACE structure pointer [Windows Biometric Framework API], WINBIO_SENSOR_INTERFACE, WINBIO_SENSOR_INTERFACE structure [Windows Biometric Framework API], _WINBIO_SENSOR_INTERFACE, secbiomet.winbio_sensor_interface, winbio_adapter/PWINBIO_SENSOR_INTERFACE, winbio_adapter/WINBIO_SENSOR_INTERFACE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -216,6 +216,26 @@ A pointer to your implementation of the <a href="https://msdn.microsoft.com/EE3B
 
 
 ### -field QueryPrivateSensorType
+
+ 
+
+
+### -field ConnectSecure
+
+ 
+
+
+### -field StartCaptureEx
+
+ 
+
+
+### -field StartNotifyWake
+
+ 
+
+
+### -field FinishNotifyWake
 
  
 

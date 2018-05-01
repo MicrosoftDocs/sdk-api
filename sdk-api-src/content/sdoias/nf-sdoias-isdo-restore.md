@@ -7,7 +7,7 @@ old-location: nps\SDO_isdo_restore.htm
 old-project: Nps
 ms.assetid: 446b1234-9b65-45dc-bb67-c315c26205dc
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 4/24/2018
 ms.keywords: ISdo, ISdo interface [Network Policy Server], Restore method, ISdo::Restore, Restore method [Network Policy Server], Restore method [Network Policy Server], ISdo interface, Restore,ISdo.Restore, _sdo_isdo_restore, nps.SDO_isdo_restore, sdo.isdo_restore, sdoias/ISdo::Restore
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Iassdo.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ISdo::Restore method

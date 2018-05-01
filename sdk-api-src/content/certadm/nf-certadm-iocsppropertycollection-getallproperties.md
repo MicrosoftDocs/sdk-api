@@ -7,7 +7,7 @@ old-location: security\iocsppropertycollection_getallproperties_method.htm
 old-project: SecCrypto
 ms.assetid: 46a20d55-a673-4f9b-9fb9-bfc631d70f99
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: GetAllProperties method [Security], GetAllProperties method [Security], IOCSPPropertyCollection interface, GetAllProperties,IOCSPPropertyCollection.GetAllProperties, IOCSPPropertyCollection, IOCSPPropertyCollection interface [Security], GetAllProperties method, IOCSPPropertyCollection::GetAllProperties, certadm/IOCSPPropertyCollection::GetAllProperties, security.iocsppropertycollection_getallproperties_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CHANNEL_ENTRY_POINTS, *PCHANNEL_ENTRY_POINTS
+req.typenames: 
 topic_type:
 -	APIRef
 -	kbSyntax

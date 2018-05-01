@@ -7,7 +7,7 @@ old-location: mstv\ibda_pincontrol_getpintype.htm
 old-project: mstv
 ms.assetid: 97ab3873-be75-48a5-b854-303aec3d7058
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetPinType method [Microsoft TV Technologies], GetPinType method [Microsoft TV Technologies], IBDA_PinControl interface, GetPinType,IBDA_PinControl.GetPinType, IBDA_PinControl, IBDA_PinControl interface [Microsoft TV Technologies], GetPinType method, IBDA_PinControl::GetPinType, IBDA_PinControlGetPinType, bdaiface/IBDA_PinControl::GetPinType, mstv.ibda_pincontrol_getpintype
 ms.prod: windows-hardware
 ms.technology: windows-devices

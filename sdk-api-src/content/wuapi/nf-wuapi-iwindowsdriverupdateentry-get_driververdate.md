@@ -7,7 +7,7 @@ old-location: wua\iwindowsdriverupdateentry_driververdate.htm
 old-project: Wua_Sdk
 ms.assetid: fdc95add-8310-4008-ac0c-e0ba8a068d01
 ms.author: windowsdriverdev
-ms.date: 3/15/2018
+ms.date: 4/18/2018
 ms.keywords: DriverVerDate property [Windows Update Agent], DriverVerDate property [Windows Update Agent], IWindowsDriverUpdateEntry interface, IWindowsDriverUpdateEntry, IWindowsDriverUpdateEntry interface [Windows Update Agent], DriverVerDate property, IWindowsDriverUpdateEntry.DriverVerDate, IWindowsDriverUpdateEntry::get_DriverVerDate, get_DriverVerDate,IWindowsDriverUpdateEntry.get_DriverVerDate, wua.iwindowsdriverupdateentry_driververdate, wuapi/IWindowsDriverUpdateEntry::DriverVerDate, wuapi/IWindowsDriverUpdateEntry::get_DriverVerDate
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\crypt_mask_gen_algorithm.htm
 old-project: SecCrypto
 ms.assetid: 26ccf26d-9cde-4653-b4ab-7362f4fad640
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: "*PCRYPT_MASK_GEN_ALGORITHM, CRYPT_MASK_GEN_ALGORITHM, CRYPT_MASK_GEN_ALGORITHM structure [Security], PCRYPT_MASK_GEN_ALGORITHM, PCRYPT_MASK_GEN_ALGORITHM structure pointer [Security], _CRYPT_MASK_GEN_ALGORITHM, security.crypt_mask_gen_algorithm, szOID_RSA_MGF1, wincrypt/CRYPT_MASK_GEN_ALGORITHM, wincrypt/PCRYPT_MASK_GEN_ALGORITHM"
 ms.prod: windows-hardware
 ms.technology: windows-devices

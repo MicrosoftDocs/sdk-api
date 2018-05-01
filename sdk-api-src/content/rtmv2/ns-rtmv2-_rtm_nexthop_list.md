@@ -7,7 +7,7 @@ old-location: rras\rtm_nexthop_list.htm
 old-project: RRAS
 ms.assetid: f27269e5-ad7e-4426-ac07-cb3a05532579
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: "*PRTM_NEXTHOP_LIST, PRTM_NEXTHOP_LIST, PRTM_NEXTHOP_LIST structure pointer [RAS], RTM_NEXTHOP_LIST, RTM_NEXTHOP_LIST structure [RAS], _RTM_NEXTHOP_LIST, _rtmv2ref_rtm_nexthop_list, rras.rtm_nexthop_list, rtmv2/PRTM_NEXTHOP_LIST, rtmv2/RTM_NEXTHOP_LIST"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _RTM_NEXTHOP_LIST structure

@@ -2,13 +2,13 @@
 UID: NF:intsafe.ULongPtrToLongPtr
 title: ULongPtrToLongPtr function
 author: windows-driver-content
-description: Converts a value of type ULONG_PTR to a value of type LONG_PTR.
-old-location: shell\ULongPtrToLongPtr.htm
+description: Converts a value of type DWORD_PTR to a value of type LONG_PTR.
+old-location: shell\DWordPtrToLongPtr.htm
 old-project: shell
-ms.assetid: 0da89cb7-721c-47d4-8f33-c8f44eb996b1
+ms.assetid: a214f8da-60e2-445a-8a75-ff15b283eeb3
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
-ms.keywords: ULongPtrToLongPtr, ULongPtrToLongPtr function [Windows Shell], _shell_ULongPtrToLongPtr, intsafe/ULongPtrToLongPtr, shell.ULongPtrToLongPtr
+ms.date: 4/26/2018
+ms.keywords: DWordPtrToLongPtr, DWordPtrToLongPtr function [Windows Shell], ULongPtrToLongPtr, _shell_DWordPtrToLongPtr, intsafe/DWordPtrToLongPtr, shell.DWordPtrToLongPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -31,15 +31,15 @@ topic_type:
 -	APIRef
 -	kbSyntax
 api_type:
--	HeaderDef
+-	DllExport
 api_location:
--	Intsafe.h
+-	None
 api_name:
--	ULongPtrToLongPtr
+-	DWordPtrToLongPtr
 product: Windows
 targetos: Windows
 req.lib: 
-req.dll: 
+req.dll: None
 req.irql: 
 req.product: GDI+ 1.1
 ---
@@ -50,7 +50,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Converts a value of type <b>ULONG_PTR</b> to a value of type <b>LONG_PTR</b>.
+Converts a value of type <b>DWORD_PTR</b> to a value of type <b>LONG_PTR</b>.
 
 
 ## -parameters
@@ -58,11 +58,9 @@ Converts a value of type <b>ULONG_PTR</b> to a value of type <b>LONG_PTR</b>.
 
 
 
-### -param ulOperand [in]
+### -param ulOperand
 
-Type: <b>ULONG_PTR</b>
-
-The value to be converted.
+TBD
 
 
 ### -param plResult [out]
@@ -70,6 +68,13 @@ The value to be converted.
 Type: <b>LONG_PTR*</b>
 
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns INTSAFE_E_ARITHMETIC_OVERFLOW and this parameter is not valid.
+
+
+#### - dwOperand [in]
+
+Type: <b>DWORD_PTR</b>
+
+The value to be converted.
 
 
 ## -returns

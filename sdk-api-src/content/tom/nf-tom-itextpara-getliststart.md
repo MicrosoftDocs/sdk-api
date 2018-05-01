@@ -7,7 +7,7 @@ old-location: controls\ITextPara_GetListStart.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getliststart.htm
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: GetListStart method [Windows Controls], GetListStart method [Windows Controls], ITextPara interface, GetListStart,ITextPara.GetListStart, ITextPara, ITextPara interface [Windows Controls], GetListStart method, ITextPara::GetListStart, _win32_ITextPara_GetListStart, _win32_ITextPara_GetListStart_cpp, controls.ITextPara_GetListStart, controls._win32_ITextPara_GetListStart, tom/ITextPara::GetListStart
 ms.prod: windows-hardware
 ms.technology: windows-devices

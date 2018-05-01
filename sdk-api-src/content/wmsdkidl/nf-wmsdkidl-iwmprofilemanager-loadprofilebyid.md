@@ -7,7 +7,7 @@ old-location: wmformat\iwmprofilemanager_loadprofilebyid.htm
 old-project: wmformat
 ms.assetid: 16104e70-c800-49a6-a9cf-2b4669c865eb
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMProfileManager, IWMProfileManager interface [windows Media Format], LoadProfileByID method, IWMProfileManager::LoadProfileByID, IWMProfileManagerLoadProfileByID, LoadProfileByID method [windows Media Format], LoadProfileByID method [windows Media Format], IWMProfileManager interface, LoadProfileByID,IWMProfileManager.LoadProfileByID, wmformat.iwmprofilemanager_loadprofilebyid, wmsdkidl/IWMProfileManager::LoadProfileByID
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol_leftbuttonselect.htm
 old-project: DirectShow
 ms.assetid: 62c35cb1-f1e0-4852-9a59-555cf979615f
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IDvdControl, IDvdControl interface [DirectShow], LeftButtonSelect method, IDvdControl::LeftButtonSelect, IDvdControlLeftButtonSelect, LeftButtonSelect method [DirectShow], LeftButtonSelect method [DirectShow], IDvdControl interface, LeftButtonSelect,IDvdControl.LeftButtonSelect, dshow.idvdcontrol_leftbuttonselect, strmif/IDvdControl::LeftButtonSelect
 ms.prod: windows-hardware
 ms.technology: windows-devices

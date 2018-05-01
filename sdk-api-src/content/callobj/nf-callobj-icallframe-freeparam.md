@@ -7,7 +7,7 @@ old-location: com\icallframe_freeparam.htm
 old-project: com
 ms.assetid: b141bfc4-de1b-4251-b88f-551d0805e9b6
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: FreeParam method [COM], FreeParam method [COM], ICallFrame interface, FreeParam,ICallFrame.FreeParam, ICallFrame, ICallFrame interface [COM], FreeParam method, ICallFrame::FreeParam, _com_icallframe_freeparam, callobj/ICallFrame::FreeParam, com.icallframe_freeparam
 ms.prod: windows-hardware
 ms.technology: windows-devices

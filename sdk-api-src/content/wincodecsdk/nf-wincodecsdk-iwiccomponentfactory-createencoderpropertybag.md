@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwiccomponentfactory_createencoderpropertybag.htm
 old-project: wic
 ms.assetid: 9d3c801d-46d4-4272-8bd6-9bc196e1b187
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: CreateEncoderPropertyBag method [Windows Imaging Component], CreateEncoderPropertyBag method [Windows Imaging Component], IWICComponentFactory interface, CreateEncoderPropertyBag,IWICComponentFactory.CreateEncoderPropertyBag, IWICComponentFactory, IWICComponentFactory interface [Windows Imaging Component], CreateEncoderPropertyBag method, IWICComponentFactory::CreateEncoderPropertyBag, _wic_codec_iwiccomponentfactory_createencoderpropertybag, wic._wic_codec_iwiccomponentfactory_createencoderpropertybag, wincodecsdk/IWICComponentFactory::CreateEncoderPropertyBag
 ms.prod: windows-hardware
 ms.technology: windows-devices

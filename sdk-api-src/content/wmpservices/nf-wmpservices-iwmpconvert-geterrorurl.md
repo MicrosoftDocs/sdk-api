@@ -7,7 +7,7 @@ old-location: wmp\iwmpconvert_geterrorurl.htm
 old-project: WMP
 ms.assetid: 27a2ff9a-0c95-4c82-8e4a-c91d2a595005
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: GetErrorURL method [Windows Media Player], GetErrorURL method [Windows Media Player], IWMPConvert interface, GetErrorURL,IWMPConvert.GetErrorURL, IWMPConvert, IWMPConvert interface [Windows Media Player], GetErrorURL method, IWMPConvert::GetErrorURL, IWMPConvertGetErrorURL, wmp.iwmpconvert_geterrorurl, wmpservices/IWMPConvert::GetErrorURL
 ms.prod: windows-hardware
 ms.technology: windows-devices

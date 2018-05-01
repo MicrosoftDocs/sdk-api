@@ -7,7 +7,7 @@ old-location: wmp\iwmpsubscriptionservice2_prepareforsync.htm
 old-project: WMP
 ms.assetid: 64ab5548-b562-44e4-9798-8f14d3ed653b
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPSubscriptionService2, IWMPSubscriptionService2 interface [Windows Media Player], prepareForSync method, IWMPSubscriptionService2::prepareForSync, IWMPSubscriptionService2prepareForSync, prepareForSync method [Windows Media Player], prepareForSync method [Windows Media Player], IWMPSubscriptionService2 interface, prepareForSync,IWMPSubscriptionService2.prepareForSync, subscriptionservices/IWMPSubscriptionService2::prepareForSync, wmp.iwmpsubscriptionservice2_prepareforsync
 ms.prod: windows-hardware
 ms.technology: windows-devices

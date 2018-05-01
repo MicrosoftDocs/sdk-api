@@ -7,7 +7,7 @@ old-location: mstv\iatsclocator2.htm
 old-project: mstv
 ms.assetid: dbb830bf-db46-4981-8a96-ae33b1de3883
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IATSCLocator2, IATSCLocator2 interface [Microsoft TV Technologies], IATSCLocator2 interface [Microsoft TV Technologies], described, IATSCLocator2Interface, mstv.iatsclocator2, tuner/IATSCLocator2
 ms.prod: windows-hardware
 ms.technology: windows-devices

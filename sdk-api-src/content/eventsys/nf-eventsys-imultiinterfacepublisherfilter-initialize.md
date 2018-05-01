@@ -7,7 +7,7 @@ old-location: cos\imultiinterfacepublisherfilter_initialize.htm
 old-project: cossdk
 ms.assetid: d69075a3-7b5a-4c99-9e51-d07a3dde511a
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: IMultiInterfacePublisherFilter, IMultiInterfacePublisherFilter interface [COM+], Initialize method, IMultiInterfacePublisherFilter::Initialize, Initialize method [COM+], Initialize method [COM+], IMultiInterfacePublisherFilter interface, Initialize,IMultiInterfacePublisherFilter.Initialize, _cos_IMultiInterfacePublisherFilter_Initialize, cos.imultiinterfacepublisherfilter_initialize, eventsys/IMultiInterfacePublisherFilter::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: ics\inetfwopenport_ipversion.htm
 old-project: ICS
 ms.assetid: fb5dfb78-fc0d-4dca-850a-683046b4e2a3
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/17/2018
 ms.keywords: INetFwOpenPort, INetFwOpenPort interface [ICS/ICF], IpVersion property, INetFwOpenPort.IpVersion, INetFwOpenPort::get_IpVersion, INetFwOpenPort::put_IpVersion, IpVersion property [ICS/ICF], IpVersion property [ICS/ICF], INetFwOpenPort interface, ics.inetfwopenport_ipversion, netfw/INetFwOpenPort::IpVersion, netfw/INetFwOpenPort::get_IpVersion, netfw/INetFwOpenPort::put_IpVersion, put_IpVersion,INetFwOpenPort.put_IpVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: 
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # INetFwOpenPort::put_IpVersion method

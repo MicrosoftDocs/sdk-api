@@ -7,7 +7,7 @@ old-location: wmformat\iwmdrmmessageparser_parselicenserequestmsg.htm
 old-project: wmformat
 ms.assetid: 0d51b7f7-5cc2-4dbd-8a61-2901c01734bb
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: IWMDRMMessageParser, IWMDRMMessageParser interface [windows Media Format], ParseLicenseRequestMsg method, IWMDRMMessageParser::ParseLicenseRequestMsg, IWMDRMMessageParserParseLicenseRequestMsg, ParseLicenseRequestMsg method [windows Media Format], ParseLicenseRequestMsg method [windows Media Format], IWMDRMMessageParser interface, ParseLicenseRequestMsg,IWMDRMMessageParser.ParseLicenseRequestMsg, wmformat.iwmdrmmessageparser_parselicenserequestmsg, wmsdkidl/IWMDRMMessageParser::ParseLicenseRequestMsg
 ms.prod: windows-hardware
 ms.technology: windows-devices

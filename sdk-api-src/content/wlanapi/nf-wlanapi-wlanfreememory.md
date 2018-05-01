@@ -7,7 +7,7 @@ old-location: nwifi\wlanfreememory.htm
 old-project: NativeWiFi
 ms.assetid: 241afb9d-8b16-4d76-b311-302b5492853e
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/13/2018
 ms.keywords: WlanFreeMemory, WlanFreeMemory function [NativeWIFI], nwifi.wlanfreememory, wlanapi/WlanFreeMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices

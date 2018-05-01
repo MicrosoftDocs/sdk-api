@@ -7,7 +7,7 @@ old-location: mstv\imsvidctl_disablevideo.htm
 old-project: mstv
 ms.assetid: 5c8f7af1-0416-4860-aa05-d2167452291e
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: DisableVideo method [Microsoft TV Technologies], DisableVideo method [Microsoft TV Technologies], IMSVidCtl interface, DisableVideo,IMSVidCtl.DisableVideo, IMSVidCtl, IMSVidCtl interface [Microsoft TV Technologies], DisableVideo method, IMSVidCtl::DisableVideo, IMSVidCtlDisableVideo, mstv.imsvidctl_disablevideo, msvidctl/IMSVidCtl::DisableVideo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidCtl::DisableVideo method

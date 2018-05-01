@@ -7,7 +7,7 @@ old-location: coreaudio\ispatialaudiometadataitems_getmaxitemcount.htm
 old-project: CoreAudio
 ms.assetid: 933DEDE0-3DC1-4D0B-8EAE-58EFB52CE2FE
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: GetFrameCount method [Core Audio], GetFrameCount method [Core Audio], ISpatialAudioMetadataItems interface, GetMaxItemCount,ISpatialAudioMetadataItems.GetMaxItemCount, ISpatialAudioMetadataItems, ISpatialAudioMetadataItems interface [Core Audio], GetFrameCount method, ISpatialAudioMetadataItems::GetFrameCount, ISpatialAudioMetadataItems::GetMaxItemCount, coreaudio.ispatialaudiometadataitems_getmaxitemcount, spatialaudiometadata/ISpatialAudioMetadataItems::GetFrameCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

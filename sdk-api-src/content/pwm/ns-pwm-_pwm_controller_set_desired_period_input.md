@@ -7,7 +7,7 @@ old-location: base\pwm_controller_set_desired_period_input.htm
 old-project: DevIO
 ms.assetid: BD003CAE-3DB9-4C7B-9CAD-735866C17004
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/3/2018
 ms.keywords: PWM_CONTROLLER_SET_DESIRED_PERIOD_INPUT, PWM_CONTROLLER_SET_DESIRED_PERIOD_INPUT structure, _PWM_CONTROLLER_SET_DESIRED_PERIOD_INPUT, base.pwm_controller_set_desired_period_input, pwm/PWM_CONTROLLER_SET_DESIRED_PERIOD_INPUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _PWM_CONTROLLER_SET_DESIRED_PERIOD_INPUT structure

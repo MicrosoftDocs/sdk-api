@@ -7,7 +7,7 @@ old-location: cmpapi\querydecompressorinformation.htm
 old-project: cmpapi
 ms.assetid: 85b39c04-2145-45d2-be59-24615905353d
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/10/2018
 ms.keywords: QueryDecompressorInformation, QueryDecompressorInformation function [Compression API], cmpapi.querydecompressorinformation, compressapi/QueryDecompressorInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

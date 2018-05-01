@@ -7,7 +7,7 @@ old-location: mscs\evictclusternode.htm
 old-project: MsCS
 ms.assetid: 0353b640-5fa6-4e83-a7e5-1b4bd2ca16d9
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: PCLUSAPI_EVICT_CLUSTER_NODE, PCLUSAPI_EVICT_CLUSTER_NODE callback function [Failover Cluster], _wolf_evictclusternode, clusapi/PCLUSAPI_EVICT_CLUSTER_NODE, mscs.evictclusternode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: LOG_MANAGEMENT_CALLBACKS, *PLOG_MANAGEMENT_CALLBACKS
+req.typenames: Sources
 topic_type:
 -	APIRef
 -	kbSyntax

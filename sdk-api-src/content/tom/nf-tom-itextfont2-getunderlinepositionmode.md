@@ -7,7 +7,7 @@ old-location: controls\itextfont2_getunderlinepositionmode.htm
 old-project: Controls
 ms.assetid: cd7a45be-05b0-4a43-90c8-0fd8393794c0
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: GetUnderlinePositionMode method [Windows Controls], GetUnderlinePositionMode method [Windows Controls], ITextFont2 interface, GetUnderlinePositionMode,ITextFont2.GetUnderlinePositionMode, ITextFont2, ITextFont2 interface [Windows Controls], GetUnderlinePositionMode method, ITextFont2::GetUnderlinePositionMode, controls.itextfont2_getunderlinepositionmode, tom/ITextFont2::GetUnderlinePositionMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

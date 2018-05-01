@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationMultipleViewPattern_CachedCurrentView.
 old-project: WinAuto
 ms.assetid: e2426af9-a704-4561-a9f7-ac47aec13f87
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: CachedCurrentView property [Windows Accessibility], CachedCurrentView property [Windows Accessibility], IUIAutomationMultipleViewPattern interface, IUIAutomationMultipleViewPattern, IUIAutomationMultipleViewPattern interface [Windows Accessibility], CachedCurrentView property, IUIAutomationMultipleViewPattern.CachedCurrentView, IUIAutomationMultipleViewPattern::get_CachedCurrentView, get_CachedCurrentView,IUIAutomationMultipleViewPattern.get_CachedCurrentView, uiauto.uiauto_IUIAutomationMultipleViewPattern_CachedCurrentView, uiauto_IUIAutomationMultipleViewPattern_CachedCurrentView, uiautomationclient/IUIAutomationMultipleViewPattern::CachedCurrentView, uiautomationclient/IUIAutomationMultipleViewPattern::get_CachedCurrentView, winauto.uiauto_IUIAutomationMultipleViewPattern_CachedCurrentView
 ms.prod: windows-hardware
 ms.technology: windows-devices

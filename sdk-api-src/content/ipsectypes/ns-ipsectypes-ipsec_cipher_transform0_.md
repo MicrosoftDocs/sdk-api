@@ -7,7 +7,7 @@ old-location: fwp\ipsec_cipher_transform0_struct.htm
 old-project: FWP
 ms.assetid: d8a9515a-943b-4f00-bfa9-948a9da9c060
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/12/2018
 ms.keywords: IPSEC_CIPHER_TRANSFORM0, IPSEC_CIPHER_TRANSFORM0 structure [Filtering], IPSEC_CIPHER_TRANSFORM0_, IPSEC_CIPHER_TRANSFORM_ID_AES_128, IPSEC_CIPHER_TRANSFORM_ID_AES_192, IPSEC_CIPHER_TRANSFORM_ID_AES_256, IPSEC_CIPHER_TRANSFORM_ID_CBC_3DES, IPSEC_CIPHER_TRANSFORM_ID_CBC_DES, IPSEC_CIPHER_TRANSFORM_ID_GCM_AES_128, IPSEC_CIPHER_TRANSFORM_ID_GCM_AES_192, IPSEC_CIPHER_TRANSFORM_ID_GCM_AES_256, fwp.ipsec_cipher_transform0_struct, ipsectypes/IPSEC_CIPHER_TRANSFORM0
 ms.prod: windows-hardware
 ms.technology: windows-devices

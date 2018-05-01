@@ -7,7 +7,7 @@ old-location: mstv\iisdbhierarchicaltransmissiondescriptor_getreferencepid.htm
 old-project: mstv
 ms.assetid: 4c1d96eb-e2d6-4f3a-8a3c-88c0d920ad44
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetReferencePid method [Microsoft TV Technologies], GetReferencePid method [Microsoft TV Technologies], IIsdbHierarchicalTransmissionDescriptor interface, GetReferencePid,IIsdbHierarchicalTransmissionDescriptor.GetReferencePid, IIsdbHierarchicalTransmissionDescriptor, IIsdbHierarchicalTransmissionDescriptor interface [Microsoft TV Technologies], GetReferencePid method, IIsdbHierarchicalTransmissionDescriptor::GetReferencePid, dvbsiparser/IIsdbHierarchicalTransmissionDescriptor::GetReferencePid, mstv.iisdbhierarchicaltransmissiondescriptor_getreferencepid
 ms.prod: windows-hardware
 ms.technology: windows-devices

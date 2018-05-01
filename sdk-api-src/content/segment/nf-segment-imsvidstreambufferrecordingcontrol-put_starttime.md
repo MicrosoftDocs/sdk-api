@@ -7,7 +7,7 @@ old-location: mstv\imsvidstreambufferrecordingcontrol_put_starttime.htm
 old-project: mstv
 ms.assetid: 923fecbb-00f4-445f-a5cb-ef898580396e
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidStreamBufferRecordingControl, IMSVidStreamBufferRecordingControl interface [Microsoft TV Technologies], put_StartTime method, IMSVidStreamBufferRecordingControl::put_StartTime, IMSVidStreamBufferRecordingControlput_StartTime, mstv.imsvidstreambufferrecordingcontrol_put_starttime, put_StartTime method [Microsoft TV Technologies], put_StartTime method [Microsoft TV Technologies], IMSVidStreamBufferRecordingControl interface, put_StartTime,IMSVidStreamBufferRecordingControl.put_StartTime, segment/IMSVidStreamBufferRecordingControl::put_StartTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidStreamBufferRecordingControl::put_StartTime method

@@ -7,7 +7,7 @@ old-location: dshow\imediasample2_setproperties.htm
 old-project: DirectShow
 ms.assetid: f024fe3a-802d-4dc1-9f4d-ebeeed0b067a
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IMediaSample2, IMediaSample2 interface [DirectShow], SetProperties method, IMediaSample2::SetProperties, IMediaSample2SetProperties, SetProperties method [DirectShow], SetProperties method [DirectShow], IMediaSample2 interface, SetProperties,IMediaSample2.SetProperties, dshow.imediasample2_setproperties, strmif/IMediaSample2::SetProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmformat\iwmpacketsize2_getminpacketsize.htm
 old-project: wmformat
 ms.assetid: 2b15f5b9-b7c1-4427-81d9-bbcd0bb0ce45
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: GetMinPacketSize method [windows Media Format], GetMinPacketSize method [windows Media Format], IWMPacketSize2 interface, GetMinPacketSize,IWMPacketSize2.GetMinPacketSize, IWMPacketSize2, IWMPacketSize2 interface [windows Media Format], GetMinPacketSize method, IWMPacketSize2::GetMinPacketSize, IWMPacketSize2GetMinPacketSize, wmformat.iwmpacketsize2_getminpacketsize, wmsdkidl/IWMPacketSize2::GetMinPacketSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

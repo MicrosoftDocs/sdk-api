@@ -7,7 +7,7 @@ old-location: security\icspstatus.htm
 old-project: SecCertEnroll
 ms.assetid: 30cc43c8-6ef3-49ad-8cff-9a5b7389ff68
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/5/2018
 ms.keywords: ICspStatus, ICspStatus interface [Security], ICspStatus interface [Security], described, certenroll/ICspStatus, security.icspstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

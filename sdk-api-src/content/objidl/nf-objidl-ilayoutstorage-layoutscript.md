@@ -7,7 +7,7 @@ old-location: stg\ilayoutstorage_layoutscript.htm
 old-project: Stg
 ms.assetid: 22ae3485-15d9-47e4-988e-fb760e67595b
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/20/2018
 ms.keywords: ILayoutStorage, ILayoutStorage interface [Structured Storage], LayoutScript method, ILayoutStorage::LayoutScript, LayoutScript method [Structured Storage], LayoutScript method [Structured Storage], ILayoutStorage interface, LayoutScript,ILayoutStorage.LayoutScript, _stg_ilayoutstorage_layoutscript, objidl/ILayoutStorage::LayoutScript, stg.ilayoutstorage_layoutscript
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ILayoutStorage::LayoutScript method

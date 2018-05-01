@@ -7,7 +7,7 @@ old-location: mf\imfasfstreamconfig_getmediatype.htm
 old-project: medfound
 ms.assetid: 6311115a-26e6-47b7-b724-0209a5bf45d7
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 6311115a-26e6-47b7-b724-0209a5bf45d7, GetMediaType method [Media Foundation], GetMediaType method [Media Foundation], IMFASFStreamConfig interface, GetMediaType,IMFASFStreamConfig.GetMediaType, IMFASFStreamConfig, IMFASFStreamConfig interface [Media Foundation], GetMediaType method, IMFASFStreamConfig::GetMediaType, mf.imfasfstreamconfig_getmediatype, wmcontainer/IMFASFStreamConfig::GetMediaType
 ms.prod: windows-hardware
 ms.technology: windows-devices

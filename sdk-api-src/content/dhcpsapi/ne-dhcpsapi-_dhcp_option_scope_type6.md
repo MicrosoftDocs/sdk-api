@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_option_scope_type6.htm
 old-project: DHCP
 ms.assetid: dc6811ca-571e-4d63-ac30-8a9038cb28af
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/7/2018
 ms.keywords: "*LPDHCP_OPTION_SCOPE_TYPE6, DHCP_OPTION_SCOPE_TYPE6, DHCP_OPTION_SCOPE_TYPE6 enumeration [DHCP], DhcpDefaultOptions6, DhcpReservedOptions6, DhcpScopeOptions6, _DHCP_OPTION_SCOPE_TYPE6, dhcp.dhcp_option_scope_type6, dhcpsapi/DHCP_OPTION_SCOPE_TYPE6, dhcpsapi/DhcpDefaultOptions6, dhcpsapi/DhcpReservedOptions6, dhcpsapi/DhcpScopeOptions6"
 ms.prod: windows-hardware
 ms.technology: windows-devices

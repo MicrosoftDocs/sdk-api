@@ -82,7 +82,7 @@ Used for modern applications. The app package name.
 Used for modern applications. The application ID.
 
 
-#### - CommandLine
+### -field CommandLine
 
 <b>Note</b>  This member was added in Windows 10, version 1803.
 
@@ -96,4 +96,11 @@ Used to start the process. If the platform failed to retrieve the command line, 
 <b>Note</b>  This member was added in Windows 10, version 1803.
 
 The 32bit ID of the session wherein the user process that triggers the callback resides.
+
+
+### -field SessionId
+
+ 
+
+
 

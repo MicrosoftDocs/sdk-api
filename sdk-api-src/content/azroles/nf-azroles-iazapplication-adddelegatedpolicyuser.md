@@ -7,7 +7,7 @@ old-location: security\iazapplication_adddelegatedpolicyuser.htm
 old-project: SecAuthZ
 ms.assetid: 89c0e1b9-cf51-4f4f-b530-7982645a9d14
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: AddDelegatedPolicyUser method [Security], AddDelegatedPolicyUser method [Security], AzApplication object, AddDelegatedPolicyUser method [Security], IAzApplication interface, AddDelegatedPolicyUser,IAzApplication.AddDelegatedPolicyUser, AzApplication object [Security], AddDelegatedPolicyUser method, IAzApplication, IAzApplication interface [Security], AddDelegatedPolicyUser method, IAzApplication::AddDelegatedPolicyUser, azroles/IAzApplication::AddDelegatedPolicyUser, security.iazapplication_adddelegatedpolicyuser
 ms.prod: windows-hardware
 ms.technology: windows-devices

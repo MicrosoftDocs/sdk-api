@@ -7,7 +7,7 @@ old-location: mstv\imsvidaudiorenderer_get_balance.htm
 old-project: mstv
 ms.assetid: 59def393-ab3d-41a8-968a-cd22429874a0
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: IMSVidAudioRenderer, IMSVidAudioRenderer interface [Microsoft TV Technologies], get_Balance method, IMSVidAudioRenderer::get_Balance, IMSVidAudioRendererget_Balance, get_Balance method [Microsoft TV Technologies], get_Balance method [Microsoft TV Technologies], IMSVidAudioRenderer interface, get_Balance,IMSVidAudioRenderer.get_Balance, mstv.imsvidaudiorenderer_get_balance, segment/IMSVidAudioRenderer::get_Balance
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IMSVidAudioRenderer::get_Balance method

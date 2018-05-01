@@ -7,7 +7,7 @@ old-location: mscs\igetclusterdatainfo_getclustername.htm
 old-project: MsCS
 ms.assetid: 711a193f-de29-4e90-adf1-6dc6e95c0c61
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: GetClusterName method [Failover Cluster], GetClusterName method [Failover Cluster], IGetClusterDataInfo interface, GetClusterName,IGetClusterDataInfo.GetClusterName, IGetClusterDataInfo, IGetClusterDataInfo interface [Failover Cluster], GetClusterName method, IGetClusterDataInfo::GetClusterName, _wolf_igetclusterdatainfo_getclustername, cluadmex/IGetClusterDataInfo::GetClusterName, mscs.igetclusterdatainfo_getclustername
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: LOG_MANAGEMENT_CALLBACKS, *PLOG_MANAGEMENT_CALLBACKS
+req.typenames: Sources
 topic_type:
 -	APIRef
 -	kbSyntax

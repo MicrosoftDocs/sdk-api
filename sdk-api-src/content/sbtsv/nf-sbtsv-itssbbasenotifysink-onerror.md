@@ -7,7 +7,7 @@ old-location: termserv\itssbbasenotifysink_onerror.htm
 old-project: TermServ
 ms.assetid: d8101644-51b4-45a8-8696-7dbb28aaaf0b
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: ITsSbBaseNotifySink, ITsSbBaseNotifySink interface [Remote Desktop Services], OnError method, ITsSbBaseNotifySink::OnError, OnError method [Remote Desktop Services], OnError method [Remote Desktop Services], ITsSbBaseNotifySink interface, OnError,ITsSbBaseNotifySink.OnError, sbtsv/ITsSbBaseNotifySink::OnError, termserv.itssbbasenotifysink_onerror
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # ITsSbBaseNotifySink::OnError method

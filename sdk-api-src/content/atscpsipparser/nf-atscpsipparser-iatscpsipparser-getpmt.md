@@ -7,7 +7,7 @@ old-location: mstv\iatscpsipparser_getpmt.htm
 old-project: mstv
 ms.assetid: cd9a3fb0-4bdc-499b-9db9-85dce50dd24b
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetPMT method [Microsoft TV Technologies], GetPMT method [Microsoft TV Technologies], IAtscPsipParser interface, GetPMT,IAtscPsipParser.GetPMT, IAtscPsipParser, IAtscPsipParser interface [Microsoft TV Technologies], GetPMT method, IAtscPsipParser::GetPMT, IAtscPsipParserGetPMT, atscpsipparser/IAtscPsipParser::GetPMT, mstv.iatscpsipparser_getpmt
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: APPX_PACKAGE_WRITER_PAYLOAD_STREAM
+req.typenames: AsyncStatus
 topic_type:
 -	APIRef
 -	kbSyntax

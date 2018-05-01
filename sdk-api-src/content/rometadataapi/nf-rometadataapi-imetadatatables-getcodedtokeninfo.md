@@ -1,0 +1,99 @@
+---
+UID: NF:rometadataapi.IMetaDataTables.GetCodedTokenInfo
+title: IMetaDataTables::GetCodedTokenInfo method
+author: windows-driver-content
+description: Gets a pointer to an array of tokens associated with the specified row index.
+old-location: winrt\imetadatatables_getcodedtokeninfo.htm
+old-project: WinRT
+ms.assetid: 6467affc-0f86-4926-b72f-629c6580e1bf
+ms.author: windowsdriverdev
+ms.date: 4/24/2018
+ms.keywords: GetCodedTokenInfo method [Windows Runtime], GetCodedTokenInfo method [Windows Runtime], IMetaDataTables interface, GetCodedTokenInfo,IMetaDataTables.GetCodedTokenInfo, IMetaDataTables, IMetaDataTables interface [Windows Runtime], GetCodedTokenInfo method, IMetaDataTables::GetCodedTokenInfo, rometadataapi/IMetaDataTables::GetCodedTokenInfo, winrt.imetadatatables_getcodedtokeninfo
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: rometadataapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Rometadataapi.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: RO_ERROR_REPORTING_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	rometadataapi.h
+api_name:
+-	IMetaDataTables.GetCodedTokenInfo
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 SP2 or later
+---
+
+# IMetaDataTables::GetCodedTokenInfo method
+
+
+## -description
+
+
+Gets a pointer to an array of tokens associated with the specified row index.
+
+
+## -parameters
+
+
+
+
+### -param ixCdTkn [in]
+
+The kind of coded token to return.
+
+
+### -param pcTokens [out]
+
+A pointer to the length of <i>ppTokens</i>.
+
+
+### -param ppTokens [out]
+
+A pointer to a pointer to an array that contains the list of returned tokens.
+
+
+### -param ppName [out]
+
+A pointer to a pointer to the name of the token at <i>ixCdTkn</i>.
+
+
+## -returns
+
+
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/30d06e87-93a2-4a9c-8843-4c42d7d9e3c8">IMetaDataTables</a>
+ 
+
+ 
+

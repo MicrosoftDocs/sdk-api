@@ -7,7 +7,7 @@ old-location: wmi\iwbemservices_opennamespace.htm
 old-project: WmiSdk
 ms.assetid: 09ff9078-3d97-432b-8626-62f12b5e3ef4
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: IWbemServices, IWbemServices interface [Windows Management Instrumentation], OpenNamespace method, IWbemServices::OpenNamespace, OpenNamespace method [Windows Management Instrumentation], OpenNamespace method [Windows Management Instrumentation], IWbemServices interface, OpenNamespace,IWbemServices.OpenNamespace, _hmm_iwbemservices_opennamespace, wbemcli/IWbemServices::OpenNamespace, wmi.iwbemservices_opennamespace
 ms.prod: windows-hardware
 ms.technology: windows-devices

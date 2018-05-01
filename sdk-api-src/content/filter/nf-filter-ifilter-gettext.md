@@ -7,7 +7,7 @@ old-location: indexsrv\ifilter_gettext.htm
 old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_5378.htm
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/11/2018
 ms.keywords: GetText method [Indexing Service], GetText method [Indexing Service], IFilter interface, GetText,IFilter.GetText, IFilter, IFilter interface [Indexing Service], GetText method, IFilter::GetText, _idxs_IFilter_GetText, filter/IFilter::GetText, indexsrv.ifilter_gettext
 ms.prod: windows-hardware
 ms.technology: windows-devices

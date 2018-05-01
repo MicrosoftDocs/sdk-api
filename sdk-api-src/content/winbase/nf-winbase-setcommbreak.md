@@ -7,7 +7,7 @@ old-location: base\setcommbreak.htm
 old-project: DevIO
 ms.assetid: 997fa1e0-c585-4517-abe7-77b9b08440ee
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/3/2018
 ms.keywords: SetCommBreak, SetCommBreak function, _win32_setcommbreak, base.setcommbreak, winbase/SetCommBreak
 ms.prod: windows-hardware
 ms.technology: windows-devices

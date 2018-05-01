@@ -7,7 +7,7 @@ old-location: security\icertserverexit_enumerateattributesclose.htm
 old-project: SecCrypto
 ms.assetid: 6ac7afbb-49c6-45b3-a27e-5ba995684848
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: CCertServerExit object [Security], EnumerateAttributesClose method, EnumerateAttributesClose method [Security], EnumerateAttributesClose method [Security], CCertServerExit object, EnumerateAttributesClose method [Security], ICertServerExit interface, EnumerateAttributesClose,ICertServerExit.EnumerateAttributesClose, ICertServerExit, ICertServerExit interface [Security], EnumerateAttributesClose method, ICertServerExit::EnumerateAttributesClose, _certsrv_icertserverexit_enumerateattributesclose, certif/ICertServerExit::EnumerateAttributesClose, security.icertserverexit_enumerateattributesclose
 ms.prod: windows-hardware
 ms.technology: windows-devices

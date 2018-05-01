@@ -7,7 +7,7 @@ old-location: mstv\idvbfrequencylistdescriptor_gettag.htm
 old-project: mstv
 ms.assetid: 05c607b4-c5de-4a57-93c0-412c85d9f2fa
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/26/2018
 ms.keywords: GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies], IDvbFrequencyListDescriptor interface, GetTag,IDvbFrequencyListDescriptor.GetTag, IDvbFrequencyListDescriptor, IDvbFrequencyListDescriptor interface [Microsoft TV Technologies], GetTag method, IDvbFrequencyListDescriptor::GetTag, IDvbFrequencyListDescriptorGetTag, dvbsiparser/IDvbFrequencyListDescriptor::GetTag, mstv.idvbfrequencylistdescriptor_gettag
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: controls\itextrow_setrtl.htm
 old-project: Controls
 ms.assetid: e260f989-6028-4cd2-a1e0-0eca2a5bd553
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: ITextRow, ITextRow interface [Windows Controls], SetRTL method, ITextRow::SetRTL, SetRTL method [Windows Controls], SetRTL method [Windows Controls], ITextRow interface, SetRTL,ITextRow.SetRTL, controls.itextrow_setrtl, tom/ITextRow::SetRTL, tomFalse, tomToggle, tomTrue
 ms.prod: windows-hardware
 ms.technology: windows-devices

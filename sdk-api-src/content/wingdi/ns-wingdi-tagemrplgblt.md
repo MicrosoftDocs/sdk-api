@@ -7,7 +7,7 @@ old-location: gdi\emrplgblt.htm
 old-project: gdi
 ms.assetid: c802baa8-2f11-46e1-948c-f63c40e94266
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/17/2018
 ms.keywords: "*PEMRPLGBLT, EMRPLGBLT, EMRPLGBLT structure [Windows GDI], PEMRPLGBLT, PEMRPLGBLT structure pointer [Windows GDI], _win32_EMRPLGBLT_str, gdi.emrplgblt, tagEMRPLGBLT, wingdi/EMRPLGBLT, wingdi/PEMRPLGBLT"
 ms.prod: windows-hardware
 ms.technology: windows-devices

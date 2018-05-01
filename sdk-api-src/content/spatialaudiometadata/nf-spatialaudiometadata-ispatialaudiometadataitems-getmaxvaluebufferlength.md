@@ -7,7 +7,7 @@ old-location: coreaudio\ispatialaudiometadataitems_getmaxvaluebufferlength.htm
 old-project: CoreAudio
 ms.assetid: B6D4117B-CDFE-49E8-A9BC-B69AEBA7C9AC
 ms.author: windowsdriverdev
-ms.date: 3/30/2018
+ms.date: 4/4/2018
 ms.keywords: GetFrameCount method [Core Audio], GetFrameCount method [Core Audio], ISpatialAudioMetadataItems interface, GetMaxValueBufferLength,ISpatialAudioMetadataItems.GetMaxValueBufferLength, ISpatialAudioMetadataItems, ISpatialAudioMetadataItems interface [Core Audio], GetFrameCount method, ISpatialAudioMetadataItems::GetFrameCount, ISpatialAudioMetadataItems::GetMaxValueBufferLength, coreaudio.ispatialaudiometadataitems_getmaxvaluebufferlength, spatialaudiometadata/ISpatialAudioMetadataItems::GetFrameCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

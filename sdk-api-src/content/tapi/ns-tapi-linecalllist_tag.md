@@ -7,7 +7,7 @@ old-location: tapi2\linecalllist_str.htm
 old-project: Tapi
 ms.assetid: b715dd07-74bd-4267-91fe-cfc0cd1e6aa4
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/16/2018
 ms.keywords: "*LPLINECALLLIST, LINECALLLIST, LINECALLLIST structure [TAPI 2.2], LPLINECALLLIST, LPLINECALLLIST structure pointer [TAPI 2.2], _tapi2_linecalllist_str, linecalllist_tag, tapi/LINECALLLIST, tapi/LPLINECALLLIST, tapi2.linecalllist_str"
 ms.prod: windows-hardware
 ms.technology: windows-devices

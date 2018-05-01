@@ -7,7 +7,7 @@ old-location: dshow\iamvfwcompressdialogs_setstate.htm
 old-project: DirectShow
 ms.assetid: 9b27bbaa-4e2f-4567-a6fc-62fb3f5f31a8
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMVfwCompressDialogs, IAMVfwCompressDialogs interface [DirectShow], SetState method, IAMVfwCompressDialogs::SetState, IAMVfwCompressDialogsSetState, SetState method [DirectShow], SetState method [DirectShow], IAMVfwCompressDialogs interface, SetState,IAMVfwCompressDialogs.SetState, dshow.iamvfwcompressdialogs_setstate, strmif/IAMVfwCompressDialogs::SetState
 ms.prod: windows-hardware
 ms.technology: windows-devices

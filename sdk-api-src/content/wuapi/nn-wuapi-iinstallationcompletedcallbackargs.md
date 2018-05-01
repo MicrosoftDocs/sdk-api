@@ -7,7 +7,7 @@ old-location: wua\iinstallationcompletedcallbackargs.htm
 old-project: Wua_Sdk
 ms.assetid: 89499136-ae6e-48ff-ad33-6247c8659f82
 ms.author: windowsdriverdev
-ms.date: 3/15/2018
+ms.date: 4/18/2018
 ms.keywords: IInstallationCompletedCallbackArgs, IInstallationCompletedCallbackArgs interface [Windows Update Agent], IInstallationCompletedCallbackArgs interface [Windows Update Agent], described, wua.iinstallationcompletedcallbackargs, wuapi/IInstallationCompletedCallbackArgs
 ms.prod: windows-hardware
 ms.technology: windows-devices

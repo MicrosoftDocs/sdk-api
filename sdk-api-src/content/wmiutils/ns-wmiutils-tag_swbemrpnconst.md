@@ -7,7 +7,7 @@ old-location: wmi\swbemrpnconst.htm
 old-project: WmiSdk
 ms.assetid: 06b2feff-b604-44d2-8381-719575650e88
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: SWbemRpnConst, SWbemRpnConst union [Windows Management Instrumentation], tag_SWbemRpnConst, wmi.swbemrpnconst, wmiutils/SWbemRpnConst
 ms.prod: windows-hardware
 ms.technology: windows-devices

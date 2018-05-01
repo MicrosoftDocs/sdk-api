@@ -7,7 +7,7 @@ old-location: security\iazapplicationgroup_addmembername.htm
 old-project: SecAuthZ
 ms.assetid: 148be96b-be8d-4ad7-a5ad-f22599114cfa
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/13/2018
 ms.keywords: AddMemberName method [Security], AddMemberName method [Security], AzApplicationGroup object, AddMemberName method [Security], IAzApplicationGroup interface, AddMemberName,IAzApplicationGroup.AddMemberName, AzApplicationGroup object [Security], AddMemberName method, IAzApplicationGroup, IAzApplicationGroup interface [Security], AddMemberName method, IAzApplicationGroup::AddMemberName, azroles/IAzApplicationGroup::AddMemberName, security.iazapplicationgroup_addmembername
 ms.prod: windows-hardware
 ms.technology: windows-devices

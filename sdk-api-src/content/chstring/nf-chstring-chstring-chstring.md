@@ -7,7 +7,7 @@ old-location: wmi\chstring_chstring.htm
 old-project: WmiSdk
 ms.assetid: d49e1600-d5d4-4c44-81c5-1b8c53b768de
 ms.author: windowsdriverdev
-ms.date: 3/16/2018
+ms.date: 4/11/2018
 ms.keywords: CHString, CHString,CHString.CHString, CHString::CHString, CHString::CHString constructors [Windows Management Instrumentation], chstring/CHString::CHString, wmi.chstring_chstring
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CF_SYNC_ROOT_STANDARD_INFO
+req.typenames: CF_SYNC_STATUS
 topic_type:
 -	APIRef
 -	kbSyntax

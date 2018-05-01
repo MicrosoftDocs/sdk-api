@@ -7,7 +7,7 @@ old-location: mf\dxva2_fixed32.htm
 old-project: medfound
 ms.assetid: 5f8f4515-1cf4-4060-813b-c746649c5c40
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: 5f8f4515-1cf4-4060-813b-c746649c5c40, DXVA2_Fixed32, DXVA2_Fixed32 structure [Media Foundation], _DXVA2_Fixed32, dxva2api/DXVA2_Fixed32, mf.dxva2_fixed32
 ms.prod: windows-hardware
 ms.technology: windows-devices

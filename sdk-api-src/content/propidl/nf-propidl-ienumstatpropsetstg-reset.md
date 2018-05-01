@@ -7,7 +7,7 @@ old-location: stg\ienumstatpropsetstg_reset.htm
 old-project: Stg
 ms.assetid: 41207be6-81ec-4dfc-a737-eb56792edb6d
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/20/2018
 ms.keywords: IEnumSTATPROPSETSTG, IEnumSTATPROPSETSTG interface [Structured Storage], Reset method, IEnumSTATPROPSETSTG::Reset, Reset method [Structured Storage], Reset method [Structured Storage], IEnumSTATPROPSETSTG interface, Reset,IEnumSTATPROPSETSTG.Reset, propidlbase/IEnumSTATPROPSETSTG::Reset, stg.ienumstatpropsetstg_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IEnumSTATPROPSETSTG::Reset method

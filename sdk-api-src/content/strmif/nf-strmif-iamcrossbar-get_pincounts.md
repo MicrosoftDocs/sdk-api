@@ -7,7 +7,7 @@ old-location: dshow\iamcrossbar_get_pincounts.htm
 old-project: DirectShow
 ms.assetid: 66ea86a6-82c3-4f91-a2d3-a08014f555be
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: IAMCrossbar, IAMCrossbar interface [DirectShow], get_PinCounts method, IAMCrossbar::get_PinCounts, IAMCrossbarget_PinCounts, dshow.iamcrossbar_get_pincounts, get_PinCounts method [DirectShow], get_PinCounts method [DirectShow], IAMCrossbar interface, get_PinCounts,IAMCrossbar.get_PinCounts, strmif/IAMCrossbar::get_PinCounts
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: termserv\iwtslistener.htm
 old-project: TermServ
 ms.assetid: af0dda9a-0d18-4f44-ac13-0bf2b903d34e
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/24/2018
 ms.keywords: IWTSListener, IWTSListener interface [Remote Desktop Services], IWTSListener interface [Remote Desktop Services], described, termserv.iwtslistener, tsvirtualchannels/IWTSListener
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct2d\d2d1makerotatematrix.htm
 old-project: Direct2D
 ms.assetid: 5e066328-5b0f-4e7a-9bf4-df55521fcc2b
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: D2D1MakeRotateMatrix, D2D1MakeRotateMatrix function [Direct2D], d2d1/D2D1MakeRotateMatrix, direct2d.d2d1makerotatematrix
 ms.prod: windows-hardware
 ms.technology: windows-devices

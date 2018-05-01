@@ -7,7 +7,7 @@ old-location: wmformat\iwmheaderinfo2_getcodecinfocount.htm
 old-project: wmformat
 ms.assetid: 1f77f362-5cc7-4d12-9b5f-0436d490b46d
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 4/13/2018
 ms.keywords: GetCodecInfoCount method [windows Media Format], GetCodecInfoCount method [windows Media Format], IWMHeaderInfo2 interface, GetCodecInfoCount method [windows Media Format], IWMHeaderInfo3 interface, GetCodecInfoCount,IWMHeaderInfo2.GetCodecInfoCount, IWMHeaderInfo2, IWMHeaderInfo2 interface [windows Media Format], GetCodecInfoCount method, IWMHeaderInfo2::GetCodecInfoCount, IWMHeaderInfo2GetCodecInfoCount, IWMHeaderInfo3 interface [windows Media Format], GetCodecInfoCount method, IWMHeaderInfo3::GetCodecInfoCount, wmformat.iwmheaderinfo2_getcodecinfocount, wmsdkidl/IWMHeaderInfo2::GetCodecInfoCount, wmsdkidl/IWMHeaderInfo3::GetCodecInfoCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

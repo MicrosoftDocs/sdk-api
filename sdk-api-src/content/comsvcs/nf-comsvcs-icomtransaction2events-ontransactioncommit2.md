@@ -7,7 +7,7 @@ old-location: cos\icomtransaction2events_ontransactioncommit2.htm
 old-project: cossdk
 ms.assetid: e68ba7be-876b-446a-8f82-a6e7af503b2c
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/3/2018
 ms.keywords: IComTransaction2Events, IComTransaction2Events interface [COM+], OnTransactionCommit2 method, IComTransaction2Events::OnTransactionCommit2, OnTransactionCommit2 method [COM+], OnTransactionCommit2 method [COM+], IComTransaction2Events interface, OnTransactionCommit2,IComTransaction2Events.OnTransactionCommit2, _dtc_icomtransaction2events_ontransactioncommit2, comsvcs/IComTransaction2Events::OnTransactionCommit2, cos.icomtransaction2events_ontransactioncommit2
 ms.prod: windows-hardware
 ms.technology: windows-devices

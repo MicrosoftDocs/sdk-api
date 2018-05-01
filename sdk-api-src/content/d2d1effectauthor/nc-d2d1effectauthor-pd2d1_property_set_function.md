@@ -7,7 +7,7 @@ old-location: direct2d\pd2d1_property_set_function.htm
 old-project: Direct2D
 ms.assetid: 3293F53E-B911-4F5F-9510-E91B5261BB90
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: PD2D1_PROPERTY_SET_FUNCTION, PD2D1_PROPERTY_SET_FUNCTION function pointer [Direct2D], d2d1effectauthor/PD2D1_PROPERTY_SET_FUNCTION, direct2d.pd2d1_property_set_function
 ms.prod: windows-hardware
 ms.technology: windows-devices

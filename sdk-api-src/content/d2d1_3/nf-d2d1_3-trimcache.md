@@ -7,7 +7,7 @@ old-location: direct2d\id2d1imagesourcefromwic_trimcache_overload.htm
 old-project: Direct2D
 ms.assetid: 04e6e010-3642-6775-8a95-f20ff0461b09
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: TrimCache, TrimCache methods [Direct2D], d2d1_3/TrimCache, direct2d.id2d1imagesourcefromwic_trimcache_overload
 ms.prod: windows-hardware
 ms.technology: windows-devices

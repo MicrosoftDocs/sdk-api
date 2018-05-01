@@ -7,7 +7,7 @@ old-location: dshow\ipin_disconnect.htm
 old-project: DirectShow
 ms.assetid: 46e1e99c-848b-4936-b6bf-4ef1703a1f42
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/26/2018
 ms.keywords: Disconnect method [DirectShow], Disconnect method [DirectShow], IPin interface, Disconnect,IPin.Disconnect, IPin, IPin interface [DirectShow], Disconnect method, IPin::Disconnect, IPinDisconnect, dshow.ipin_disconnect, strmif/IPin::Disconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices

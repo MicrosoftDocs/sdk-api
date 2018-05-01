@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist_setcomputerootshaderresourcev
 old-project: direct3d12
 ms.assetid: 31BA8D5B-FAC3-4A4A-B2F2-76EC6399EFED
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 4/3/2018
 ms.keywords: ID3D12GraphicsCommandList, ID3D12GraphicsCommandList interface, SetComputeRootShaderResourceView method, ID3D12GraphicsCommandList::SetComputeRootShaderResourceView, SetComputeRootShaderResourceView method, SetComputeRootShaderResourceView method, ID3D12GraphicsCommandList interface, SetComputeRootShaderResourceView,ID3D12GraphicsCommandList.SetComputeRootShaderResourceView, d3d12/ID3D12GraphicsCommandList::SetComputeRootShaderResourceView, direct3d12.id3d12graphicscommandlist_setcomputerootshaderresourceview
 ms.prod: windows-hardware
 ms.technology: windows-devices

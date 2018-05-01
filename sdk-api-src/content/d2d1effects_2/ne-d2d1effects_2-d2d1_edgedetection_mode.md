@@ -7,7 +7,7 @@ old-location: direct2d\d2d1_edgedetection_mode.htm
 old-project: Direct2D
 ms.assetid: 22C57518-8617-44F3-BC04-42605A77985C
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/20/2018
 ms.keywords: D2D1_EDGEDETECTION_MODE, D2D1_EDGEDETECTION_MODE enumeration [Direct2D], D2D1_EDGEDETECTION_MODE_PREWITT, D2D1_EDGEDETECTION_MODE_SOBEL, d2d1effects_2/D2D1_EDGEDETECTION_MODE, d2d1effects_2/D2D1_EDGEDETECTION_MODE_PREWITT, d2d1effects_2/D2D1_EDGEDETECTION_MODE_SOBEL, direct2d.d2d1_edgedetection_mode
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmp\iwmpsettings_get_autostart.htm
 old-project: WMP
 ms.assetid: 37180d0a-8fc4-4fe6-b190-97258803b43b
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/11/2018
 ms.keywords: IWMPSettings, IWMPSettings interface [Windows Media Player], get_autoStart method, IWMPSettings::get_autoStart, IWMPSettingsget_autoStart, get_autoStart method [Windows Media Player], get_autoStart method [Windows Media Player], IWMPSettings interface, get_autoStart,IWMPSettings.get_autoStart, wmp.iwmpsettings_get_autostart, wmp/IWMPSettings::get_autoStart
 ms.prod: windows-hardware
 ms.technology: windows-devices

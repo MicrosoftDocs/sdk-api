@@ -7,7 +7,7 @@ old-location: mf\opm_dpcp_protection_level.htm
 old-project: medfound
 ms.assetid: c761f3c1-f18e-4ae9-9aa1-1ba440a6c8df
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 4/23/2018
 ms.keywords: OPM_DPCP_FORCE_ULONG, OPM_DPCP_OFF, OPM_DPCP_ON, OPM_DPCP_PROTECTION_LEVEL, OPM_DPCP_PROTECTION_LEVEL enumeration [Media Foundation], _OPM_DPCP_PROTECTION_LEVEL, mf.opm_dpcp_protection_level, opmapi/OPM_DPCP_FORCE_ULONG, opmapi/OPM_DPCP_OFF, opmapi/OPM_DPCP_ON, opmapi/OPM_DPCP_PROTECTION_LEVEL
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _OPM_DPCP_PROTECTION_LEVEL enumeration

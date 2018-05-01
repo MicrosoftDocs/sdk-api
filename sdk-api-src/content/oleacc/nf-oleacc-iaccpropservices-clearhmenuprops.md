@@ -7,7 +7,7 @@ old-location: winauto\iaccpropservices_iaccpropservices__clearhmenuprops.htm
 old-project: WinAuto
 ms.assetid: dbff74b0-c67b-4ef4-add7-6063c4760455
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: ClearHmenuProps method [Windows Accessibility], ClearHmenuProps method [Windows Accessibility], IAccPropServices interface, ClearHmenuProps,IAccPropServices.ClearHmenuProps, IAccPropServices, IAccPropServices interface [Windows Accessibility], ClearHmenuProps method, IAccPropServices::ClearHmenuProps, oleacc/IAccPropServices::ClearHmenuProps, winauto.iaccpropservices_iaccpropservices__clearhmenuprops
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Oleacc.dll
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IAccPropServices::ClearHmenuProps method

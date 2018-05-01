@@ -7,7 +7,7 @@ old-location: controls\irichedituiaoverrides_getpropertyoverridevalue.htm
 old-project: Controls
 ms.assetid: C949A3DA-F98E-4035-8986-A76EB8F54558
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: GetPropertyOverrideValue method [Windows Controls], GetPropertyOverrideValue method [Windows Controls], IRicheditUiaOverrides interface, GetPropertyOverrideValue,IRicheditUiaOverrides.GetPropertyOverrideValue, IRicheditUiaOverrides, IRicheditUiaOverrides interface [Windows Controls], GetPropertyOverrideValue method, IRicheditUiaOverrides::GetPropertyOverrideValue, controls.irichedituiaoverrides_getpropertyoverridevalue, textserv/IRicheditUiaOverrides::GetPropertyOverrideValue
 ms.prod: windows-hardware
 ms.technology: windows-devices

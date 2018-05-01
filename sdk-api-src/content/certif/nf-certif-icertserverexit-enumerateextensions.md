@@ -7,7 +7,7 @@ old-location: security\icertserverexit_enumerateextensions.htm
 old-project: SecCrypto
 ms.assetid: 8726f5fa-dc85-4357-b73a-013842d6ab78
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 4/18/2018
 ms.keywords: CCertServerExit object [Security], EnumerateExtensions method, EnumerateExtensions method [Security], EnumerateExtensions method [Security], CCertServerExit object, EnumerateExtensions method [Security], ICertServerExit interface, EnumerateExtensions,ICertServerExit.EnumerateExtensions, ICertServerExit, ICertServerExit interface [Security], EnumerateExtensions method, ICertServerExit::EnumerateExtensions, _certsrv_icertserverexit_enumerateextensions, certif/ICertServerExit::EnumerateExtensions, security.icertserverexit_enumerateextensions
 ms.prod: windows-hardware
 ms.technology: windows-devices

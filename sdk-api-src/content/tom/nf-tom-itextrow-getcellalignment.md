@@ -7,7 +7,7 @@ old-location: controls\itextrow_getcellalignment.htm
 old-project: Controls
 ms.assetid: 379d6fa5-ea73-4b72-9251-942f66925d8a
 ms.author: windowsdriverdev
-ms.date: 3/31/2018
+ms.date: 4/16/2018
 ms.keywords: GetCellAlignment method [Windows Controls], GetCellAlignment method [Windows Controls], ITextRow interface, GetCellAlignment,ITextRow.GetCellAlignment, ITextRow, ITextRow interface [Windows Controls], GetCellAlignment method, ITextRow::GetCellAlignment, controls.itextrow_getcellalignment, tom/ITextRow::GetCellAlignment
 ms.prod: windows-hardware
 ms.technology: windows-devices
